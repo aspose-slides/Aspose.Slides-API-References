@@ -3,7 +3,7 @@ title: Html5Options
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt Optionen für den HTML5-Export dar.
 type: docs
-weight: 3860
+weight: 3880
 url: /de/aspose.slides.export/html5options/
 ---
 ## Html5Options Klasse
@@ -26,13 +26,13 @@ public class Html5Options : SaveOptions, IHtml5Options
 | --- | --- |
 | [AnimateShapes](../../aspose.slides.export/html5options/animateshapes) { get; set; } | Gibt die Animationsoption für Formen zurück oder legt sie fest. Lesen/Schreiben Boolean. |
 | [AnimateTransitions](../../aspose.slides.export/html5options/animatetransitions) { get; set; } | Gibt die Animationsoption für Übergänge zurück oder legt sie fest. Lesen/Schreiben Boolean. |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Gibt die Schriftart zurück oder legt sie fest, die verwendet wird, wenn die Quellschriftart nicht gefunden wird. Lesen/Schreiben String. |
-| [DisableFontLigatures](../../aspose.slides.export/html5options/disablefontligatures) { get; set; } | Gibt einen Wert zurück oder legt ihn fest, der angibt, ob Text ohne Ligaturen gerendert wird. Wenn auf `true` gesetzt, werden Ligaturen in der Ausgabe deaktiviert. Standardmäßig ist diese Eigenschaft auf `false` gesetzt. |
-| [EmbedImages](../../aspose.slides.export/html5options/embedimages) { get; set; } | Gibt die Option für das Einbetten von Bildern zurück oder legt sie fest. Lesen/Schreiben Boolean. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Gibt die Schriftart zurück oder legt sie fest, die verwendet wird, wenn die Quellschriftart nicht gefunden wird. Lesen-Schreiben String. |
+| [DisableFontLigatures](../../aspose.slides.export/html5options/disablefontligatures) { get; set; } | Gibt einen Wert zurück oder legt ihn fest, der angibt, ob Text ohne Ligaturen gerendert wird. Wenn auf `true` gesetzt, werden Ligaturen in der renderten Ausgabe deaktiviert. Standardmäßig ist diese Eigenschaft auf `false` gesetzt. |
+| [EmbedImages](../../aspose.slides.export/html5options/embedimages) { get; set; } | Gibt die Option zum Einbetten von Bildern zurück oder legt sie fest. Lesen/Schreiben Boolean. |
 | [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Gibt den visuellen Stil des Farbverlaufs zurück oder legt ihn fest. Lesen/Schreiben [`GradientStyle`](../../aspose.slides/gradientstyle). |
 | [OutputPath](../../aspose.slides.export/html5options/outputpath) { get; set; } | Bestimmt, wo externe Ressourcen gespeichert werden sollen. Lesen/Schreiben String. |
-| [PicturesCompression](../../aspose.slides.export/html5options/picturescompression) { get; set; } | Stellt die Komprimierungsstufe für Bilder dar |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Stellt ein Callback-Objekt für die Fortschrittsaktualisierungen beim Speichern in Prozent dar. Siehe [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [PicturesCompression](../../aspose.slides.export/html5options/picturescompression) { get; set; } | Stellt das Komprimierungsniveau der Bilder dar |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Stellt ein Rückrufobjekt für das Speichern von Fortschrittsaktualisierungen in Prozent dar. Siehe [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
 | [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Gibt an, ob Hyperlinks mit JavaScript-Aufrufen beim Speichern der Präsentation übersprungen werden sollen. Lesen/Schreiben Boolean. Der Standardwert ist **false**. |
 | [SlidesLayoutOptions](../../aspose.slides.export/html5options/slideslayoutoptions) { get; set; } | Gibt den Modus zurück oder legt ihn fest, in dem Folien beim Export einer Präsentation [`ISlidesLayoutOptions`](../islideslayoutoptions) auf der Seite platziert werden. |
 | [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Gibt ein Objekt zurück oder legt es fest, das Warnungen empfängt und entscheidet, ob der Ladevorgang fortgesetzt oder abgebrochen wird. Lesen/Schreiben [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |

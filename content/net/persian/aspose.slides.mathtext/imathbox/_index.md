@@ -1,14 +1,14 @@
 ---
 title: IMathBox
 second_title: Aspose.Sildes برای .NET مرجع API
-description: تعیین بسته‌بندی منطقی جعبه‌ای عنصر ریاضی. برای مثال، یک شیء بسته می‌تواند به‌عنوان شبیه‌ساز عملگر با یا بدون نقطه تراز عمل کند، می‌تواند به‌عنوان نقطه شکست خط عمل کند یا به‌صورت گروهی باشد تا از ایجاد شکست خط در داخل آن جلوگیری شود. به‌عنوان مثال، عملگر باید بسته‌بندی شود تا از شکست خط جلوگیری شود.
+description: نشان می‌دهد که بسته‌بندی منطقی جعبه‌بندی عنصر ریاضی چگونه است. به عنوان مثال، یک شیء جعبه‌شده می‌تواند به‌عنوان شبیه‌ساز عملگر با یا بدون نقطه تراز عمل کند، به‌عنوان نقطه شکست خط عمل کند یا به‌گونه‌ای گروه‌بندی شود که اجازه شکستن خط داخل آن را ندهد. به عنوان مثال، عملگر باید جعبه‌بندی شود تا از شکست خط جلوگیری شود.
 type: docs
-weight: 8190
+weight: 8210
 url: /fa/aspose.slides.mathtext/imathbox/
 ---
-## IMathBox رابط
+## رابط IMathBox
 
-تعیین بسته‌بندی منطقی عنصر ریاضی. برای مثال، یک شیء بسته می‌تواند به‌عنوان یک شبیه‌ساز عملگر با یا بدون نقطه‌ی تراز استفاده شود، می‌تواند به‌عنوان نقطه‌ی شکستن خط باشد، یا به‌صورت گروهی باشد تا اجازه‌ی شکستن خط در داخل آن داده نشود. به‌عنوان مثال، عملگر "==" باید بسته‌بندی شود تا از شکستن خط جلوگیری شود.
+Specifies the logical boxing (packaging) of mathematical element. For example, a boxed object can serve as an operator emulator with or without an alignment point, serve as a line break point, or be grouped such as not to allow line breaks within. For example, the "==" operator should be boxed to prevent line breaks.
 
 ```csharp
 public interface IMathBox : IMathElement
@@ -18,13 +18,13 @@ public interface IMathBox : IMathElement
 
 | نام | توضیح |
 | --- | --- |
-| [AlignmentPoint](../../aspose.slides.mathtext/imathbox/alignmentpoint) { get; set; } | وقتی مقدار true باشد، این شبیه‌ساز عملگر به‌عنوان نقطه‌ی تراز عمل می‌کند؛ یعنی نقاط تراز مشخص‌شده در معادلات دیگر می‌توانند با آن تراز شوند. پیش‌فرض: false |
-| [AsIMathElement](../../aspose.slides.mathtext/imathbox/asimathelement) { get; } | امکان دریافت رابط پایه IMathElement [`IMathElement`](../imathelement) را فراهم می‌کند |
+| [AlignmentPoint](../../aspose.slides.mathtext/imathbox/alignmentpoint) { get; set; } | هنگامی که مقدار true باشد، این شبیه‌ساز اپراتور به عنوان نقطه‌ی تراز عمل می‌کند؛ یعنی نقاط تراز تعیین‌شده در معادلات دیگر می‌توانند با آن تراز شوند. پیش‌فرض: false |
+| [AsIMathElement](../../aspose.slides.mathtext/imathbox/asimathelement) { get; } | اجازه می‌دهد رابط پایه IMathElement [`IMathElement`](../imathelement) دریافت شود |
 | [Base](../../aspose.slides.mathtext/imathbox/base) { get; } | آرگومان پایه |
-| [Differential](../../aspose.slides.mathtext/imathbox/differential) { get; set; } | دیفرانسیل. وقتی مقدار true باشد، جعبه به‌عنوان دیفرانسیل عمل می‌کند (مثلاً 𝑑𝑥 در یک انتگرال) و فاصلهٔ افقی مناسب برای دیفرانسیل ریاضی را دریافت می‌کند. پیش‌فرض: false |
-| [ExplicitBreak](../../aspose.slides.mathtext/imathbox/explicitbreak) { get; set; } | شکست صریح مشخص می‌کند که آیا در ابتدای شیء Box یک شکست خط وجود دارد یا نه، به‌طوری که خط در ابتدای جعبه می‌پیچد. تعداد عملگر در خط قبلی متن ریاضی که به‌عنوان نقطه‌ی تراز برای خط جاری استفاده می‌شود را مشخص می‌کند؛ مقادیر ممکن: 1..255 پیش‌فرض: 0 (بدون شکست صریح) |
-| [NoBreak](../../aspose.slides.mathtext/imathbox/nobreak) { get; set; } | بدون شکست. این ویژگی خاصیت «قابل‌شکست‌نشدنی» را بر روی جعبه شیء تعیین می‌کند. وقتی مقدار true باشد، هیچ شکستی در داخل جعبه رخ نمی‌دهد. این می‌تواند برای شبیه‌سازهای عملگری که شامل بیش از یک عملگر باینری هستند مهم باشد. وقتی این عنصر مشخص نشود، شکستن داخل جعبه امکان‌پذیر است. پیش‌فرض: true |
-| [OperatorEmulator](../../aspose.slides.mathtext/imathbox/operatoremulator) { get; set; } | شبیه‌ساز عملگر. وقتی مقدار true باشد، جعبه و محتویات آن مانند یک عملگر واحد رفتار می‌کنند و ویژگی‌های یک عملگر را به ارث می‌برند. به‌عنوان مثال، این کاراکتر می‌تواند به‌عنوان نقطه‌ی شکست خط عمل کند و می‌تواند به عملگرهای دیگر تراز شود. شبیه‌سازهای عملگر اغلب وقتی استفاده می‌شوند که یک یا چند گلیف ترکیب شده و عملگری مانند '==' ایجاد می‌کنند. مقدار پیش‌فرض: false |
+| [Differential](../../aspose.slides.mathtext/imathbox/differential) { get; set; } | مشتق. هنگامی که مقدار true باشد، جعبه به عنوان یک مشتق عمل می‌کند (مثلاً 𝑑𝑥 در یک انتگرال‌گر)، و فاصله افقی مناسب برای مشتق ریاضی را دریافت می‌کند. پیش‌فرض: false |
+| [ExplicitBreak](../../aspose.slides.mathtext/imathbox/explicitbreak) { get; set; } | شکست صریح مشخص می‌کند آیا در ابتدای شیء Box یک شکست خط وجود دارد یا نه، به طوری که خط در ابتدای شیء جعبه جدا شود. عدد اپراتور در خط قبلی متن ریاضی را که به عنوان نقطه تراز برای خط فعلی متن ریاضی استفاده می‌شود، تعیین می‌کند. مقادیر ممکن: 1..255 پیش‌فرض: 0 (بدون شکست صریح) |
+| [NoBreak](../../aspose.slides.mathtext/imathbox/nobreak) { get; set; } | بدون شکست. این ویژگی ویژگی «قابل شکست نبودن» را بر روی جعبه شیء مشخص می‌کند. هنگامی که مقدار true باشد، هیچ شکست خطی داخل جعبه رخ نمی‌دهد. این می‌تواند برای شبیه‌سازهای اپراتور که از بیش از یک اپراتور دودویی تشکیل شده‌اند، مهم باشد. زمانی که این عنصر مشخص نشده باشد، شکست‌ها می‌توانند داخل جعبه رخ دهند. پیش‌فرض: true |
+| [OperatorEmulator](../../aspose.slides.mathtext/imathbox/operatoremulator) { get; set; } | شبیه‌ساز اپراتور. هنگامی که مقدار true باشد، جعبه و محتویات آن همانند یک اپراتور واحد رفتار می‌کنند و ویژگی‌های یک اپراتور را به ارث می‌برند. این به این معنی است که به عنوان مثال، کاراکتر می‌تواند به عنوان نقطه‌ای برای شکست خط استفاده شود و به سایر اپراتورها تراز شود. شبیه‌سازهای اپراتور اغلب زمانی استفاده می‌شوند که یک یا چند گلیف ترکیب شده و یک اپراتور تشکیل دهند، مانند '=='. پیش‌فرض: false |
 
 ### مثال‌ها
 
@@ -37,8 +37,8 @@ IMathBox box = new MathematicalText("==").ToBox();
 
 ### موارد مرتبط
 
-* interface [IMathElement](../imathelement)
-* namespace [Aspose.Slides.MathText](../../aspose.slides.mathtext)
-* assembly [Aspose.Slides](../../)
+* رابط [IMathElement](../imathelement)
+* فضای‌نام [Aspose.Slides.MathText](../../aspose.slides.mathtext)
+* مجمع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,14 +1,14 @@
 ---
 title: SensitivityLabelContentType
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt die Arten der Inhaltskennzeichnung dar, die auf ein Dokument angewendet werden sollten.
+description: Stellt die Typen der Inhaltskennzeichnung dar, die auf ein Dokument angewendet werden sollen.
 type: docs
-weight: 9820
+weight: 9840
 url: /de/aspose.slides/sensitivitylabelcontenttype/
 ---
-## Aufzählung SensitivityLabelContentType
+## SensitivityLabelContentType Aufzählung
 
-Stellt die Arten der Inhaltskennzeichnung dar, die auf ein Dokument angewendet werden sollten.
+Stellt die Typen der Inhaltskennzeichnung dar, die auf ein Dokument angewendet werden sollen.
 
 ```csharp
 public enum SensitivityLabelContentType
@@ -16,13 +16,13 @@ public enum SensitivityLabelContentType
 
 ### Werte
 
-| Name | Value | Beschreibung |
+| Name | Wert | Beschreibung |
 | --- | --- | --- |
-| None | `0` | Bedeutet, dass das Label standardmäßig oder automatisch angewendet wird. |
-| Header | `1` | Bedeutet, dass das Label manuell angewendet wurde. Verwenden Sie es für jedes Sensitivitätslabel, das direkt vom Benutzer angewendet wurde. |
-| Footer | `2` | Bedeutet, dass das Label manuell angewendet wurde. Verwenden Sie es für jedes Sensitivitätslabel, das direkt vom Benutzer angewendet wurde. |
-| Watermark | `4` | Bedeutet, dass das Label manuell angewendet wurde. Verwenden Sie es für jedes Sensitivitätslabel, das direkt vom Benutzer angewendet wurde. |
-| Encryption | `8` | Bedeutet, dass das Label manuell angewendet wurde. Verwenden Sie es für jedes Sensitivitätslabel, das direkt vom Benutzer angewendet wurde. |
+| None | `0` | Bedeutet, dass das Etikett standardmäßig oder automatisch angewendet wird. |
+| Header | `1` | Bedeutet, dass das Etikett manuell angewendet wurde. Verwenden Sie es für jedes Sensitivitätsetikett, das direkt vom Benutzer angewendet wurde. |
+| Footer | `2` | Bedeutet, dass das Etikett manuell angewendet wurde. Verwenden Sie es für jedes Sensitivitätsetikett, das direkt vom Benutzer angewendet wurde. |
+| Watermark | `4` | Bedeutet, dass das Etikett manuell angewendet wurde. Verwenden Sie es für jedes Sensitivitätsetikett, das direkt vom Benutzer angewendet wurde. |
+| Encryption | `8` | Bedeutet, dass das Etikett manuell angewendet wurde. Verwenden Sie es für jedes Sensitivitätsetikett, das direkt vom Benutzer angewendet wurde. |
 
 ### Siehe auch
 

@@ -1,12 +1,12 @@
 ---
 title: IThemeable
-second_title: Aspose.Sildes dla .NET API Reference
+second_title: Aspose.Sildes dla .NET - Referencja API
 description: Reprezentuje obiekty, które mogą być tematyzowane przy użyciu ITheme./itheme.
 type: docs
-weight: 11400
+weight: 11420
 url: /pl/aspose.slides.theme/ithemeable/
 ---
-## interfejs IThemeable
+## IThemeable interfejs
 
 Reprezentuje obiekty, które mogą być tematyzowane przy użyciu [`ITheme`](../itheme).
 
@@ -24,7 +24,7 @@ public interface IThemeable : ISlideComponent
 
 | Nazwa | Opis |
 | --- | --- |
-| [CreateThemeEffective](../../aspose.slides.theme/ithemeable/createthemeeffective)() | Zwraca efektywny motyw dla tego tematyzowanego obiektu. |
+| [CreateThemeEffective](../../aspose.slides.theme/ithemeable/createthemeeffective)() | Zwraca efektywny motyw dla tego tematyzowalnego obiektu. |
 
 ### Zobacz także
 

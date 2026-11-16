@@ -1,14 +1,14 @@
 ---
 title: CornerDirectionTransition
-second_title: Aspose.Sildes für .NET API Reference
-description: Eckrichtungs-Übergangseffekt für Folien.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Folienübergangseffekt in Eckrichtung.
 type: docs
-weight: 10010
+weight: 10030
 url: /de/aspose.slides.slideshow/cornerdirectiontransition/
 ---
 ## CornerDirectionTransition Klasse
 
-Slide-Übergangseffekt in Eckrichtung.
+Folientransitionseffekt in Eckrichtung.
 
 ```csharp
 public class CornerDirectionTransition : TransitionValueBase, ICornerDirectionTransition
@@ -25,7 +25,7 @@ public class CornerDirectionTransition : TransitionValueBase, ICornerDirectionTr
 | Name | Beschreibung |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Bestimmt, ob die beiden TransitionValueBase-Instanzen gleich sind. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Dient als Hashfunktion für einen bestimmten Typ, geeignet für die Verwendung in Hash-Algorithmen und Datenstrukturen wie einer Hashtabelle. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Dient als Hashfunktion für einen bestimmten Typ, geeignet für den Einsatz in Hash-Algorithmen und Datenstrukturen wie einer Hashtabelle. |
 
 ### Siehe auch
 

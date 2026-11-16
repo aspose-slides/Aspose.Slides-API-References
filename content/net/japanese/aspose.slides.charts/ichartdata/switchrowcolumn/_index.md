@@ -1,14 +1,14 @@
 ---
 title: SwitchRowColumn
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 軸上のデータを入れ替えます。X 軸でチャート化されているデータは Y 軸に移動し、逆も同様です。
+description: 軸上のデータを入れ替えます。X 軸でチャートされているデータは Y 軸に移動し、逆も同様です。
 type: docs
-weight: 140
+weight: 150
 url: /ja/aspose.slides.charts/ichartdata/switchrowcolumn/
 ---
 ## IChartData.SwitchRowColumn メソッド
 
-軸上のデータを入れ替えます。X 軸上でチャート化されているデータは Y 軸に移動し、その逆も同様です。
+軸上のデータを入れ替えます。X 軸でチャートされているデータは Y 軸に移動し、逆も同様です。
 
 ```csharp
 public void SwitchRowColumn()

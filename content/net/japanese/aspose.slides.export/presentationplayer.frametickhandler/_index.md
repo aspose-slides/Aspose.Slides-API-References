@@ -3,10 +3,10 @@ title: PresentationPlayer.FrameTickHandler
 second_title: Aspose.Sildes for .NET API リファレンス
 description: FrameTick./presentationplayer/frametick イベントのフレームティックハンドラを表します。
 type: docs
-weight: 4400
+weight: 4420
 url: /ja/aspose.slides.export/presentationplayer.frametickhandler/
 ---
-## PresentationPlayer.FrameTickHandler デリゲート
+## PresentationPlayer.FrameTickHandler delegate
 
 [`FrameTick`](../presentationplayer/frametick) イベントのフレームティックハンドラを表します。
 

@@ -1,12 +1,12 @@
 ---
 title: TransitionInOutDirectionType
-second_title: Aspose.Sildes dla .NET Referencja API
+second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Reprezentuje typy przejść w kierunku wejścia lub wyjścia.
 type: docs
-weight: 10370
+weight: 10390
 url: /pl/aspose.slides.slideshow/transitioninoutdirectiontype/
 ---
-## TransitionInOutDirectionType enumeracja
+## TransitionInOutDirectionType wyliczenie
 
 Reprezentuje typy przejść w kierunku wejścia lub wyjścia.
 
@@ -21,7 +21,7 @@ public enum TransitionInOutDirectionType
 | In | `0` |  |
 | Out | `1` |  |
 
-### Zobacz też
+### Zobacz także
 
 * przestrzeń nazw [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * zbiór [Aspose.Slides](../../)

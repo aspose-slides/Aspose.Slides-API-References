@@ -1,9 +1,9 @@
 ---
 title: FrameTickEventArgs
-second_title: Aspose.Sildes .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: FrameTick./presentationplayer/frametick 이벤트의 인수를 나타냅니다.
 type: docs
-weight: 3810
+weight: 3830
 url: /ko/aspose.slides.export/frametickeventargs/
 ---
 ## FrameTickEventArgs 클래스
@@ -24,7 +24,7 @@ public class FrameTickEventArgs
 
 | 이름 | 설명 |
 | --- | --- |
-| [GetFrame](../../aspose.slides.export/frametickeventargs/getframe)() | 현재 [`PresentationPlayer`](../presentationplayer) 프레임을 가져옵니다. |
+| [GetFrame](../../aspose.slides.export/frametickeventargs/getframe)() | 현재 [`PresentationPlayer`](../presentationplayer) 프레임을 가져옵니다 |
 
 ### 예제
 
@@ -46,7 +46,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### 참고
+### 참조
 
 * 네임스페이스 [Aspose.Slides.Export](../../aspose.slides.export)
 * 어셈블리 [Aspose.Slides](../../)

@@ -1,9 +1,9 @@
 ---
 title: IColorOperation
-second_title: Aspose.Sildes para .NET - Referência da API
+second_title: Aspose.Sildes para .NET Referência da API
 description: Representa diferentes operações de cor usadas para transformações de cor.
 type: docs
-weight: 5500
+weight: 5520
 url: /pt/aspose.slides/icoloroperation/
 ---
 ## IColorOperation interface
@@ -16,12 +16,12 @@ public interface IColorOperation
 
 ## Propriedades
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
 | [OperationType](../../aspose.slides/icoloroperation/operationtype) { get; } | Retorna ou define o tipo de uma operação. Somente leitura [`ColorTransformOperation`](../colortransformoperation). |
 | [Parameter](../../aspose.slides/icoloroperation/parameter) { get; } | Retorna um parâmetro de uma operação. Somente leitura Single. |
 
-### Veja também
+### Ver Também
 
 * espaço de nomes [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

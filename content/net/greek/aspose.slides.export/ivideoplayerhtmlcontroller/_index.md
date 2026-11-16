@@ -1,14 +1,14 @@
 ---
 title: IVideoPlayerHtmlController
-second_title: Aspose.Sildes για .NET API Αναφορά
-description: Αυτή η κλάση επιτρέπει την εξαγωγή βίντεο και αρχείων ήχου σε HTML
+second_title: Aspose.Sildes για .NET Αναφορά API
+description: Αυτή η κλάση επιτρέπει την εξαγωγή αρχείων βίντεο και ήχου σε HTML
 type: docs
-weight: 4180
+weight: 4200
 url: /el/aspose.slides.export/ivideoplayerhtmlcontroller/
 ---
-## IVideoPlayerHtmlController διεπαφή
+## IVideoPlayerHtmlController διασύνδεση
 
-Αυτή η κλάση επιτρέπει την εξαγωγή βίντεο και αρχείων ήχου σε HTML
+Αυτή η κλάση επιτρέπει την εξαγωγή αρχείων βίντεο και ήχου σε HTML
 
 ```csharp
 public interface IVideoPlayerHtmlController : IHtmlFormattingController, ILinkEmbedController, 
@@ -19,15 +19,15 @@ public interface IVideoPlayerHtmlController : IHtmlFormattingController, ILinkEm
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [AsIHtmlFormattingController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asihtmlformattingcontroller) { get; } | Επιτρέπει την ανάκτηση της βασικής διεπαφής IHtmlFormattingController. Μόνο για ανάγνωση [`IHtmlFormattingController`](../ihtmlformattingcontroller). |
-| [AsILinkEmbedController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asilinkembedcontroller) { get; } | Επιτρέπει την ανάκτηση της βασικής διεπαφής ILinkEmbedController. Μόνο για ανάγνωση [`ILinkEmbedController`](../ilinkembedcontroller). |
-| [AsISvgShapeFormattingController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asisvgshapeformattingcontroller) { get; } | Επιτρέπει την ανάκτηση της βασικής διεπαφής ISvgShapeFormattingController. Μόνο για ανάγνωση [`ISvgShapeFormattingController`](../isvgshapeformattingcontroller). |
+| [AsIHtmlFormattingController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asihtmlformattingcontroller) { get; } | Επιτρέπει την ανάκτηση της βασικής διασύνδεσης IHtmlFormattingController. Μόνο για ανάγνωση [`IHtmlFormattingController`](../ihtmlformattingcontroller). |
+| [AsILinkEmbedController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asilinkembedcontroller) { get; } | Επιτρέπει την ανάκτηση της βασικής διασύνδεσης ILinkEmbedController. Μόνο για ανάγνωση [`ILinkEmbedController`](../ilinkembedcontroller). |
+| [AsISvgShapeFormattingController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asisvgshapeformattingcontroller) { get; } | Επιτρέπει την ανάκτηση της βασικής διασύνδεσης ISvgShapeFormattingController. Μόνο για ανάγνωση [`ISvgShapeFormattingController`](../isvgshapeformattingcontroller). |
 
 ### Δείτε επίσης
 
-* διεπαφή [IHtmlFormattingController](../ihtmlformattingcontroller)
-* διεπαφή [ILinkEmbedController](../ilinkembedcontroller)
-* διεπαφή [ISvgShapeFormattingController](../isvgshapeformattingcontroller)
+* διασύνδεση [IHtmlFormattingController](../ihtmlformattingcontroller)
+* διασύνδεση [ILinkEmbedController](../ilinkembedcontroller)
+* διασύνδεση [ISvgShapeFormattingController](../isvgshapeformattingcontroller)
 * χώρο ονομάτων [Aspose.Slides.Export](../../aspose.slides.export)
 * συγκρότημα [Aspose.Slides](../../)
 

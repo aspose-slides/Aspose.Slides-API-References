@@ -1,14 +1,14 @@
 ---
 title: PresentationPlayer
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Aspose.Sildes untuk .NET Referensi API
 description: Mewakili pemutar animasi yang terkait dengan Presentation../aspose.slides/presentation.
 type: docs
-weight: 4390
+weight: 4410
 url: /id/aspose.slides.export/presentationplayer/
 ---
 ## PresentationPlayer kelas
 
-Mewakili pemutar animasi yang terkait dengan [`Presentation`](../../aspose.slides/presentation).
+Represents the player of animations associated with the [`Presentation`](../../aspose.slides/presentation).
 
 ```csharp
 public class PresentationPlayer : IDisposable
@@ -36,7 +36,7 @@ public class PresentationPlayer : IDisposable
 
 | Nama | Deskripsi |
 | --- | --- |
-| delegate [FrameTickHandler](presentationplayer.frametickhandler) | Mewakili penangan tick frame dari peristiwa [`FrameTick`](./frametick). |
+| delegate [FrameTickHandler](presentationplayer.frametickhandler) | Mewakili penangan tick frame dari event [`FrameTick`](./frametick). |
 
 ### Contoh
 
@@ -46,7 +46,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 {
     using (var animationsGenerator = new PresentationAnimationsGenerator(pres))
     {
-        // Mainkan animasi dengan 33 FPS
+        // Putar animasi dengan 33 FPS
         using (var player = new PresentationPlayer(animationsGenerator, 33))
         {
             player.FrameTick += (sender, args) =>
@@ -57,7 +57,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
             animationsGenerator.Run(pres.Slides);
         }
         
-        // Mainkan animasi dengan 45 FPS
+        // Putar animasi dengan 45 FPS
         using (var player = new PresentationPlayer(animationsGenerator, 45))
         {
             player.FrameTick += (sender, args) =>

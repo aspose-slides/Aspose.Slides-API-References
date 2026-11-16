@@ -3,7 +3,7 @@ title: ISummaryZoomSectionCollection
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示 Summary Zoom Section 对象的集合。
 type: docs
-weight: 7170
+weight: 7190
 url: /zh/aspose.slides/isummaryzoomsectioncollection/
 ---
 ## ISummaryZoomSectionCollection 接口
@@ -25,12 +25,12 @@ public interface ISummaryZoomSectionCollection : IGenericCollection<ISummaryZoom
 | 名称 | 描述 |
 | --- | --- |
 | [AddSummaryZoomSection](../../aspose.slides/isummaryzoomsectioncollection/addsummaryzoomsection)(ISection) | 创建新的 Summary Zoom Section 对象并将其添加到集合中 |
-| [Clear](../../aspose.slides/isummaryzoomsectioncollection/clear)() | 从集合中移除所有 SummaryZoomSection 对象。 |
+| [Clear](../../aspose.slides/isummaryzoomsectioncollection/clear)() | 移除集合中的所有 SummaryZoomSection 对象。 |
 | [GetSummarySection](../../aspose.slides/isummaryzoomsectioncollection/getsummarysection)(ISection) | 返回给定节的 Summary Zoom Section 元素。 |
 | [IndexOf](../../aspose.slides/isummaryzoomsectioncollection/indexof)(ISummaryZoomSection) | 返回指定 SummaryZoomSection 对象的索引。 |
 | [RemoveSummaryZoomSection](../../aspose.slides/isummaryzoomsectioncollection/removesummaryzoomsection)(ISection) | 从集合中移除 Summary Zoom Section 对象。 |
 
-### 另请参见
+### 另见
 
 * 接口 [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * 接口 [ISummaryZoomSection](../isummaryzoomsection)

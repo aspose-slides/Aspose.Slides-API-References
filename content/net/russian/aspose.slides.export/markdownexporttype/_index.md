@@ -1,12 +1,12 @@
 ---
 title: MarkdownExportType
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Aspose.Sildes для .NET Справочник API
 description: Тип рендеринга документа.
 type: docs
-weight: 4240
+weight: 4260
 url: /ru/aspose.slides.export/markdownexporttype/
 ---
-## MarkdownExportType перечисление
+## MarkdownExportType enumeration
 
 Тип рендеринга документа.
 
@@ -14,17 +14,17 @@ url: /ru/aspose.slides.export/markdownexporttype/
 public enum MarkdownExportType
 ```
 
-### Значения
+### Values
 
 | Имя | Значение | Описание |
 | --- | --- | --- |
-| Sequential | `0` | Отображает все элементы отдельно. По одному. |
-| TextOnly | `1` | Отображает только текст. |
-| Visual | `2` | Отображает все элементы, элементы, которые сгруппированы, — отображаются вместе. |
+| Sequential | `0` | Рендерить все элементы по отдельности. По одному. |
+| TextOnly | `1` | Рендерить только текст. |
+| Visual | `2` | Рендерить все элементы; элементы, сгруппированные, рендерятся вместе. |
 
-### Примеры
+### Examples
 
-Пример:
+Example:
 
 ```csharp
 [C#]
@@ -43,7 +43,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### См. также
+### See Also
 
 * пространство имён [Aspose.Slides.Export](../../aspose.slides.export)
 * сборка [Aspose.Slides](../../)

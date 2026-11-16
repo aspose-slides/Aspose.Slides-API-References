@@ -1,14 +1,14 @@
 ---
 title: IMultipleCellChartValue
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili kumpulan sel bagan.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Mewakili kumpulan sel chart.
 type: docs
-weight: 2170
+weight: 2190
 url: /id/aspose.slides.charts/imultiplecellchartvalue/
 ---
 ## IMultipleCellChartValue antarmuka
 
-Mewakili kumpulan sel bagan.
+Mewakili kumpulan sel chart.
 
 ```csharp
 public interface IMultipleCellChartValue : IBaseChartValue
@@ -18,8 +18,8 @@ public interface IMultipleCellChartValue : IBaseChartValue
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsCells](../../aspose.slides.charts/imultiplecellchartvalue/ascells) { get; set; } | Mengembalikan atau mengatur kumpulan sel bagan. Baca/tulis [`IChartCellCollection`](../ichartcellcollection). |
-| [AsIBaseChartValue](../../aspose.slides.charts/imultiplecellchartvalue/asibasechartvalue) { get; } | Memungkinkan untuk mendapatkan antarmuka dasar IBaseChartValue. Baca-saja [`IBaseChartValue`](../ibasechartvalue). |
+| [AsCells](../../aspose.slides.charts/imultiplecellchartvalue/ascells) { get; set; } | Mengembalikan atau mengatur kumpulan sel chart. Baca/tulis [`IChartCellCollection`](../ichartcellcollection). |
+| [AsIBaseChartValue](../../aspose.slides.charts/imultiplecellchartvalue/asibasechartvalue) { get; } | Mengizinkan untuk mendapatkan antarmuka dasar IBaseChartValue. Hanya-baca [`IBaseChartValue`](../ibasechartvalue). |
 
 ### Lihat Juga
 

@@ -1,14 +1,14 @@
 ---
 title: IFillOverlayEffectiveData
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: อ็อบเจกต์ที่ไม่สามารถเปลี่ยนแปลงได้ซึ่งเป็นตัวแทนของเอฟเฟกต์ Fill Overlay. Fill overlay อาจถูกใช้เพื่อระบุการเติมเพิ่มเติมสำหรับอ็อบเจกต์และผสานการเติมสองชุดเข้าด้วยกัน.
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: วัตถุที่ไม่เปลี่ยนแปลงซึ่งแสดงถึงเอฟเฟ็กต์ Fill Overlay. Fill overlay สามารถใช้เพื่อระบุการเติมเพิ่มเติมสำหรับวัตถุและผสานการเติมทั้งสองเข้าด้วยกัน.
 type: docs
-weight: 3310
+weight: 3330
 url: /th/aspose.slides.effects/ifilloverlayeffectivedata/
 ---
-## IFillOverlayEffectiveData อินเทอร์เฟซ
+## IFillOverlayEffectiveData อินเทอร์เฟส
 
-วัตถุที่ไม่สามารถเปลี่ยนแปลงได้ซึ่งเป็นตัวแทนของเอฟเฟกต์ Fill Overlay. Fill overlay สามารถใช้เพื่อระบุการเติมเพิ่มเติมสำหรับอ็อบเจกต์และผสมการเติมสองชุดเข้าด้วยกัน.
+วัตถุที่ไม่เปลี่ยนแปลงซึ่งแสดงถึงเอฟเฟ็กต์ Fill Overlay. Fill overlay สามารถใช้เพื่อระบุการเติมเพิ่มเติมสำหรับวัตถุและผสานการเติมทั้งสองเข้าด้วยกัน.
 
 ```csharp
 public interface IFillOverlayEffectiveData : IEffectEffectiveData
@@ -18,13 +18,13 @@ public interface IFillOverlayEffectiveData : IEffectEffectiveData
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ifilloverlayeffectivedata/asieffecteffectivedata) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IEffectEffectiveData พื้นฐาน. อ่านอย่างเดียว [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ifilloverlayeffectivedata/asieffecteffectivedata) { get; } | อนุญาตให้รับอินเทอร์เฟส IEffectEffectiveData พื้นฐาน. อ่านอย่างเดียว [`IEffectEffectiveData`](../ieffecteffectivedata). |
 | [Blend](../../aspose.slides.effects/ifilloverlayeffectivedata/blend) { get; } | FillBlendMode. อ่านอย่างเดียว [`FillBlendMode`](../../aspose.slides/fillblendmode). |
-| [FillFormat](../../aspose.slides.effects/ifilloverlayeffectivedata/fillformat) { get; } | รูปแบบการเติม. อ่านอย่างเดียว [`IFillFormatEffectiveData`](../../aspose.slides/ifillformateffectivedata). |
+| [FillFormat](../../aspose.slides.effects/ifilloverlayeffectivedata/fillformat) { get; } | Fill format. อ่านอย่างเดียว [`IFillFormatEffectiveData`](../../aspose.slides/ifillformateffectivedata). |
 
 ### ดูเพิ่มเติม
 
-* อินเทอร์เฟซ [IEffectEffectiveData](../ieffecteffectivedata)
+* อินเทอร์เฟส [IEffectEffectiveData](../ieffecteffectivedata)
 * เนมสเปซ [Aspose.Slides.Effects](../../aspose.slides.effects)
 * แอสเซมบลี [Aspose.Slides](../../)
 

@@ -1,9 +1,9 @@
 ---
 title: ISummaryZoomFrame
-second_title: Aspose.Sildes voor .NET API-referentie
+second_title: Aspose.Sildes voor .NET API Referentie
 description: Stelt een Summary Zoom-frame voor in een dia.
 type: docs
-weight: 7150
+weight: 7170
 url: /nl/aspose.slides/isummaryzoomframe/
 ---
 ## ISummaryZoomFrame interface
@@ -16,11 +16,11 @@ public interface ISummaryZoomFrame : IGraphicalObject
 
 ## Eigenschappen
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
 | [AsIGraphicalObject](../../aspose.slides/isummaryzoomframe/asigraphicalobject) { get; } | Retourneert IGraphicalObject interface. |
-| [Layout](../../aspose.slides/isummaryzoomframe/layout) { get; } | Haalt de lay-out op van Summary Zoom Sections in het frame. Standaardwaarde is GridLayout. |
-| [SummaryZoomCollection](../../aspose.slides/isummaryzoomframe/summaryzoomcollection) { get; } | Haalt [`ISummaryZoomSectionCollection`](../isummaryzoomsectioncollection) op voor het Summary Zoom Frame-object. |
+| [Layout](../../aspose.slides/isummaryzoomframe/layout) { get; } | Haalt lay-out op van Summary Zoom Sections in het frame. Standaardwaarde is GridLayout. |
+| [SummaryZoomCollection](../../aspose.slides/isummaryzoomframe/summaryzoomcollection) { get; } | Haalt [`ISummaryZoomSectionCollection`](../isummaryzoomsectioncollection) op voor het Summary Zoom Frame object. |
 
 ### Zie ook
 

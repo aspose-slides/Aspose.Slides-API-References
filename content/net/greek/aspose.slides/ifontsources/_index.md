@@ -1,14 +1,14 @@
 ---
 title: IFontSources
-second_title: "Aspose.Sildes για .NET: Αναφορά API"
-description: Παρέχει πηγές αρχείων και μνήμης για εξωτερικές γραμματοσειρές.
+second_title: Aspose.Sildes για .NET API Αναφορά
+description: Παρέχει πηγές αρχείου και μνήμης για εξωτερικές γραμματοσειρές.
 type: docs
-weight: 5870
+weight: 5890
 url: /el/aspose.slides/ifontsources/
 ---
 ## IFontSources διασύνδεση
 
-Παρέχει πηγές αρχείων και μνήμης για εξωτερικές γραμματοσειρές.
+Παρέχει πηγές αρχείου και μνήμης για εξωτερικές γραμματοσειρές.
 
 ```csharp
 public interface IFontSources
@@ -18,8 +18,8 @@ public interface IFontSources
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [FontFolders](../../aspose.slides/ifontsources/fontfolders) { get; set; } | Φάκελοι που περιέχουν αρχεία γραμματοσειρών. Όλα τα αρχεία γραμματοσειρών που βρίσκονται σε αυτούς τους φακέλους περιλαμβάνονται στη συλλογή. Φάκελοι που αναζητούνται αναδρομικά. |
-| [MemoryFonts](../../aspose.slides/ifontsources/memoryfonts) { get; set; } | Συλλογή γραμματοσειρών που αντιπροσωπεύονται ως πίνακες byte. |
+| [FontFolders](../../aspose.slides/ifontsources/fontfolders) { get; set; } | Φάκελοι που περιέχουν αρχεία γραμματοσειράς. Όλα τα αρχεία γραμματοσειράς που βρίσκονται σε αυτούς τους φακέλους περιλαμβάνονται στη συλλογή. Φάκελοι που αναζητούνται αναδρομικά. |
+| [MemoryFonts](../../aspose.slides/ifontsources/memoryfonts) { get; set; } | Μια συλλογή γραμματοσειρών που αναπαριστάται ως byte arrays. |
 
 ### Δείτε επίσης
 

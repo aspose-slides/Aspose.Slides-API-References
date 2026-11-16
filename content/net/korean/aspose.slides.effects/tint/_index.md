@@ -1,14 +1,14 @@
 ---
 title: Tint
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: Tint 효과를 나타냅니다. 지정된 양만큼 색조를 기준으로 효과 색상 값을 이동하거나 멀어지게 합니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: Tint 효과를 나타냅니다. 지정된 양만큼 색조를 기준으로 효과 색상 값을 증가/감소시킵니다.
 type: docs
-weight: 3660
+weight: 3680
 url: /ko/aspose.slides.effects/tint/
 ---
 ## Tint 클래스
 
-Tint 효과를 나타냅니다. 지정된 양만큼 색조를 기준으로 효과 색상 값을 이동하거나 멀어지게 합니다.
+Tint 효과를 나타냅니다. 지정된 양만큼 색조를 기준으로 효과 색상 값을 증가/감소시킵니다.
 
 ```csharp
 public sealed class Tint : ImageTransformOperation, ITint
@@ -28,7 +28,7 @@ public sealed class Tint : ImageTransformOperation, ITint
 | [GetEffective](../../aspose.slides.effects/tint/geteffective)() | 상속이 적용된 효과적인 Tint 효과 데이터를 가져옵니다. |
 | override [GetHashCode](../../aspose.slides.effects/tint/gethashcode)() | 특정 유형에 대한 해시 함수로 사용됩니다. |
 
-### 관련 항목
+### 참조
 
 * 클래스 [ImageTransformOperation](../imagetransformoperation)
 * 인터페이스 [ITint](../itint)

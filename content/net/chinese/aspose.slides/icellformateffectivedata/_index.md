@@ -1,9 +1,9 @@
 ---
 title: ICellFormatEffectiveData
-second_title: Aspose.Sildes .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 不可变对象，包含有效的表格单元格格式属性。
 type: docs
-weight: 5480
+weight: 5500
 url: /zh/aspose.slides/icellformateffectivedata/
 ---
 ## ICellFormatEffectiveData 接口
@@ -18,7 +18,7 @@ public interface ICellFormatEffectiveData : IBaseTableFormatEffectiveData
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIBaseTableFormatEffectiveData](../../aspose.slides/icellformateffectivedata/asibasetableformateffectivedata) { get; } | 允许获取基 IBaseTableFormatEffectiveData 接口。只读 [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata)。 |
+| [AsIBaseTableFormatEffectiveData](../../aspose.slides/icellformateffectivedata/asibasetableformateffectivedata) { get; } | 允许获取基础IBaseTableFormatEffectiveData接口。只读 [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata)。 |
 | [Transparency](../../aspose.slides/icellformateffectivedata/transparency) { get; } | 获取填充颜色的透明度。读取 Single。 |
 
 ### 备注

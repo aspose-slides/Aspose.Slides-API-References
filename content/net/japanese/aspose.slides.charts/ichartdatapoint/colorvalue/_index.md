@@ -1,14 +1,14 @@
 ---
 title: ColorValue
-second_title: Aspose.Sildes の .NET 用 API リファレンス
-description: チャート データ ポイントの色値を返します。マップ チャートで使用されます。読み取り専用 IDoubleChartValueaspose.slides.charts/idoublechartvalue.
+second_title: Aspose.Sildes の .NET API リファレンス
+description: チャート データ ポイントの色値を取得します。マップ チャートで使用します。読み取り専用 IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
-weight: 30
+weight: 70
 url: /ja/aspose.slides.charts/ichartdatapoint/colorvalue/
 ---
 ## IChartDataPoint.ColorValue プロパティ
 
-チャート データ ポイントの色値を返します。マップ チャートで使用されます。読み取り専用 [`IDoubleChartValue`](../../idoublechartvalue)。
+チャート データ ポイントの色値を取得します。マップ チャートで使用します。読み取り専用 [`IDoubleChartValue`](../../idoublechartvalue)。
 
 ```csharp
 public IDoubleChartValue ColorValue { get; }

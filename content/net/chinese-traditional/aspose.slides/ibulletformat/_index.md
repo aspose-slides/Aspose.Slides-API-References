@@ -3,7 +3,7 @@ title: IBulletFormat
 second_title: Aspose.Sildes for .NET API 參考
 description: 表示段落項目符號格式屬性。
 type: docs
-weight: 5390
+weight: 5410
 url: /zh-hant/aspose.slides/ibulletformat/
 ---
 ## IBulletFormat 介面
@@ -18,25 +18,25 @@ public interface IBulletFormat
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Char](../../aspose.slides/ibulletformat/char) { get; set; } | 返回或設定段落的項目符號字元，且不繼承。讀寫 Char. |
-| [Color](../../aspose.slides/ibulletformat/color) { get; } | 返回段落的項目符號顏色格式，且不繼承。唯讀 [`IColorFormat`](../icolorformat). |
-| [Font](../../aspose.slides/ibulletformat/font) { get; set; } | 返回或設定段落的項目符號字型，且不繼承。讀寫 [`IFontData`](../ifontdata). |
-| [Height](../../aspose.slides/ibulletformat/height) { get; set; } | 返回或設定段落的項目符號高度，且不繼承。值 float.NaN 表示項目符號的高度會繼承自段落中的第一個文字片段。讀寫 Single. |
-| [IsBulletHardColor](../../aspose.slides/ibulletformat/isbullethardcolor) { get; set; } | 決定項目符號是否具有自訂顏色或繼承自段落中的第一個文字片段。若項目符號具有自訂顏色則為 **NullableBool.True**，若繼承自段落中的第一個文字片段則為 **NullableBool.False**。讀寫 [`NullableBool`](../nullablebool). |
-| [IsBulletHardFont](../../aspose.slides/ibulletformat/isbullethardfont) { get; set; } | 決定項目符號是否具有自訂字型或繼承自段落中的第一個文字片段。若項目符號具有自訂字型則為 **NullableBool.True**，若繼承自段落中的第一個文字片段則為 **NullableBool.False**。讀寫 [`NullableBool`](../nullablebool). |
-| [NumberedBulletStartWith](../../aspose.slides/ibulletformat/numberedbulletstartwith) { get; set; } | 返回或設定用於編號項目符號群組的第一個數字，且不繼承。讀寫 Int16. |
-| [NumberedBulletStyle](../../aspose.slides/ibulletformat/numberedbulletstyle) { get; set; } | 返回或設定編號項目符號的樣式，且不繼承。讀寫 [`NumberedBulletStyle`](./numberedbulletstyle). |
-| [Picture](../../aspose.slides/ibulletformat/picture) { get; } | 返回段落中用作項目符號的圖片，且不繼承。唯讀 [`ISlidesPicture`](../islidespicture). |
-| [Type](../../aspose.slides/ibulletformat/type) { get; set; } | 返回或設定段落的項目符號類型，且不繼承。讀寫 [`BulletType`](../bullettype). |
+| [Char](../../aspose.slides/ibulletformat/char) { get; set; } | 取得或設定段落的項目符號字元，且不使用繼承。可讀寫 Char。 |
+| [Color](../../aspose.slides/ibulletformat/color) { get; } | 取得段落項目符號的顏色格式，且不使用繼承。唯讀 [`IColorFormat`](../icolorformat)。 |
+| [Font](../../aspose.slides/ibulletformat/font) { get; set; } | 取得或設定段落的項目符號字型，且不使用繼承。可讀寫 [`IFontData`](../ifontdata)。 |
+| [Height](../../aspose.slides/ibulletformat/height) { get; set; } | 取得或設定段落的項目符號高度，且不使用繼承。值 float.NaN 表示項目符號繼承段落中第一個字串的高度。可讀寫 Single。 |
+| [IsBulletHardColor](../../aspose.slides/ibulletformat/isbullethardcolor) { get; set; } | 判斷項目符號是否具有自訂顏色或繼承自段落中第一個字串的顏色。**NullableBool.True** 表示項目符號具有自訂顏色，**NullableBool.False** 表示項目符號繼承自段落中第一個字串的顏色。可讀寫 [`NullableBool`](../nullablebool)。 |
+| [IsBulletHardFont](../../aspose.slides/ibulletformat/isbullethardfont) { get; set; } | 判斷項目符號是否具有自訂字型或繼承自段落中第一個字串的字型。**NullableBool.True** 表示項目符號具有自訂字型，**NullableBool.False** 表示項目符號繼承自段落中第一個字串的字型。可讀寫 [`NullableBool`](../nullablebool)。 |
+| [NumberedBulletStartWith](../../aspose.slides/ibulletformat/numberedbulletstartwith) { get; set; } | 取得或設定在無繼承情況下，用於編號項目符號群組的起始編號。可讀寫 Int16。 |
+| [NumberedBulletStyle](../../aspose.slides/ibulletformat/numberedbulletstyle) { get; set; } | 取得或設定在無繼承情況下的編號項目符號樣式。可讀寫 [`NumberedBulletStyle`](./numberedbulletstyle)。 |
+| [Picture](../../aspose.slides/ibulletformat/picture) { get; } | 取得在無繼承情況下用作項目符號的圖片。唯讀 [`ISlidesPicture`](../islidespicture)。 |
+| [Type](../../aspose.slides/ibulletformat/type) { get; set; } | 取得或設定在無繼承情況下段落的項目符號類型。可讀寫 [`BulletType`](../bullettype)。 |
 
 ## 方法
 
 | 名稱 | 說明 |
 | --- | --- |
-| [ApplyDefaultParagraphIndentsShifts](../../aspose.slides/ibulletformat/applydefaultparagraphindentsshifts)() | 設定在啟用項目符號時（類似 PowerPoint 在啟用段落項目符號/編號時的行為），對有效段落的 Indent 和 MarginLeft 設定預設的非零位移。若項目符號被停用，則僅重設段落的 Indent 和 MarginLeft（類似 PowerPoint 在停用段落項目符號/編號時的行為）。位移依據目前的項目符號上下文 - IBulletFormat.Type、.NumberedBulletStyle 以及第一個文字片段的 FontHeight 來套用。非零的位移會套用到目前段落的有效 Indent 和 MarginLeft（使結果值為局部值）。 |
+| [ApplyDefaultParagraphIndentsShifts](../../aspose.slides/ibulletformat/applydefaultparagraphindentsshifts)() | 設定在啟用項目符號時（如 PowerPoint 在段落啟用項目符號/編號時）有效段落 Indent 和 MarginLeft 的預設非零位移。如果項目符號已停用，則僅重設段落 Indent 和 MarginLeft（如 PowerPoint 在段落停用項目符號/編號時）。位移會根據目前的項目符號環境 - IBulletFormat.Type、.NumberedBulletStyle 以及第一個字串的 FontHeight 進行應用。非零位移會套用至目前段落的有效 Indent 和 MarginLeft（使結果值為本地值）。 |
 | [GetEffective](../../aspose.slides/ibulletformat/geteffective)() | 取得套用繼承後的有效項目符號格式資料。 |
 
-### 參見
+### 另請參閱
 
 * 命名空間 [Aspose.Slides](../../aspose.slides)
 * 組件 [Aspose.Slides](../../)

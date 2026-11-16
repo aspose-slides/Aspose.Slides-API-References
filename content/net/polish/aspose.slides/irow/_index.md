@@ -1,9 +1,9 @@
 ---
 title: IRow
-second_title: Aspose.Sildes dla .NET - odniesienie API
+second_title: Aspose.Sildes dla .NET Referencja API
 description: Reprezentuje wiersz w tabeli.
 type: docs
-weight: 6850
+weight: 6870
 url: /pl/aspose.slides/irow/
 ---
 ## IRow interfejs
@@ -14,15 +14,15 @@ Reprezentuje wiersz w tabeli.
 public interface IRow : IBulkTextFormattable, ICellCollection
 ```
 
-## Właściwości
+## Properties
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
 | [AsIBulkTextFormattable](../../aspose.slides/irow/asibulktextformattable) { get; } | Umożliwia pobranie podstawowego interfejsu IBulkTextFormattable. Tylko do odczytu [`IBulkTextFormattable`](../ibulktextformattable). |
 | [AsICellCollection](../../aspose.slides/irow/asicellcollection) { get; } | Umożliwia pobranie podstawowego interfejsu ICellCollection. Tylko do odczytu [`ICellCollection`](../icellcollection). |
 | [Height](../../aspose.slides/irow/height) { get; } | Zwraca wysokość wiersza. Tylko do odczytu Double. |
 | [MinimalHeight](../../aspose.slides/irow/minimalheight) { get; set; } | Zwraca lub ustawia minimalną możliwą wysokość wiersza. Odczyt/zapis Double. |
-| [RowFormat](../../aspose.slides/irow/rowformat) { get; } | Zwraca obiekt RowFormat, który zawiera właściwości formatowania tego wiersza. Tylko do odczytu [`IRowFormat`](../irowformat). |
+| [RowFormat](../../aspose.slides/irow/rowformat) { get; } | Zwraca obiekt RowFormat, który zawiera właściwości formatowania dla tego wiersza. Tylko do odczytu [`IRowFormat`](../irowformat). |
 
 ### Zobacz także
 

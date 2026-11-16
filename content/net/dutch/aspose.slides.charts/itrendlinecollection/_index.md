@@ -3,7 +3,7 @@ title: ITrendlineCollection
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Stelt een verzameling van TrendlineEx voor
 type: docs
-weight: 2250
+weight: 2270
 url: /nl/aspose.slides.charts/itrendlinecollection/
 ---
 ## ITrendlineCollection interface
@@ -16,15 +16,15 @@ public interface ITrendlineCollection : IEnumerable<ITrendline>
 
 ## Eigenschappen
 
-| Name | Beschrijving |
+| Naam | Beschrijving |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.charts/itrendlinecollection/asienumerable) { get; } | Staat toe om de basis IEnumerable-interface op te halen. Alleen-lezen IEnumerable. |
+| [AsIEnumerable](../../aspose.slides.charts/itrendlinecollection/asienumerable) { get; } | Staat toe de basale IEnumerable-interface op te halen. Alleen-lezen IEnumerable. |
 | [Count](../../aspose.slides.charts/itrendlinecollection/count) { get; } | Haalt het aantal elementen op dat daadwerkelijk in de collectie zit. Alleen-lezen Int32. |
-| [Item](../../aspose.slides.charts/itrendlinecollection/item) { get; } | Haalt het element op op de gespecificeerde index. Alleen-lezen [`ITrendline`](../itrendline). |
+| [Item](../../aspose.slides.charts/itrendlinecollection/item) { get; } | Haalt het element op op de opgegeven index. Alleen-lezen [`ITrendline`](../itrendline). |
 
 ## Methoden
 
-| Name | Beschrijving |
+| Naam | Beschrijving |
 | --- | --- |
 | [Add](../../aspose.slides.charts/itrendlinecollection/add)(TrendlineType) | Voegt de nieuwe Trendline toe aan het einde van een collectie en retourneert deze. |
 | [Remove](../../aspose.slides.charts/itrendlinecollection/remove)(ITrendline) | Verwijdert de opgegeven waarde. |

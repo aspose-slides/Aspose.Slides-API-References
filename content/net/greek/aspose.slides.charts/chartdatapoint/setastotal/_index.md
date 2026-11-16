@@ -1,9 +1,9 @@
 ---
 title: SetAsTotal
-second_title: Aspose.Sildes για .NET API Αναφορά
+second_title: Αναφορά API Aspose.Sildes για .NET
 description: Ορίζει το σημείο δεδομένων ως σύνολο. Εφαρμόζεται μόνο για τύπο σειράς Waterfall.
 type: docs
-weight: 170
+weight: 210
 url: /el/aspose.slides.charts/chartdatapoint/setastotal/
 ---
 ## ChartDataPoint.SetAsTotal ιδιότητα

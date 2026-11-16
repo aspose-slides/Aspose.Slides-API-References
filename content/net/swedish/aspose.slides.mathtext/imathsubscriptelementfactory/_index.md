@@ -3,7 +3,7 @@ title: IMathSubscriptElementFactory
 second_title: Aspose.Sildes för .NET API-referens
 description: Tillåter att skapa IMathSubscriptElement
 type: docs
-weight: 8480
+weight: 8500
 url: /sv/aspose.slides.mathtext/imathsubscriptelementfactory/
 ---
 ## IMathSubscriptElementFactory gränssnitt

@@ -1,14 +1,14 @@
 ---
 title: NormalViewRestoredProperties
-second_title: Référence API Aspose.Sildes pour .NET
-description: Spécifie la dimension de la région de la diapositive, largeur lorsqu'elle est enfant de restoredTop et hauteur lorsqu'elle est enfant de restoredLeft, de la vue normale lorsque la région a une taille restaurée variable, ni minimisée ni agrandie.
+second_title: Aspose.Sildes pour .NET Référence de l'API
+description: Spécifie le dimensionnement de la région de la diapositive largeur lorsqu'un enfant de restoredTop hauteur lorsqu'un enfant de restoredLeft de la vue normale lorsque la région est d'une taille restaurée variable ni réduite ni agrandie.
 type: docs
-weight: 9120
+weight: 9140
 url: /fr/aspose.slides/normalviewrestoredproperties/
 ---
 ## NormalViewRestoredProperties classe
 
-Spécifie la dimension de la région de la diapositive ((largeur lorsqu'elle est enfant de restoredTop, hauteur lorsqu'elle est enfant de restoredLeft) de la vue normale, lorsque la région a une taille restaurée variable (ni réduite ni agrandie).
+Spécifie le dimensionnement de la région de la diapositive ((largeur lorsqu'un enfant de restoredTop, hauteur lorsqu'un enfant de restoredLeft) de la vue normale, lorsque la région a une taille restaurée variable (ni réduite ni agrandie).
 
 ```csharp
 public class NormalViewRestoredProperties : INormalViewRestoredProperties
@@ -18,8 +18,8 @@ public class NormalViewRestoredProperties : INormalViewRestoredProperties
 
 | Nom | Description |
 | --- | --- |
-| [AutoAdjust](../../aspose.slides/normalviewrestoredproperties/autoadjust) { get; set; } | Spécifie si la taille de la région de contenu latéral doit compenser la nouvelle taille lors du redimensionnement de la fenêtre contenant la vue dans l'application Lecture/écriture Booléen. |
-| [DimensionSize](../../aspose.slides/normalviewrestoredproperties/dimensionsize) { get; set; } | Spécifie la taille de la région de la diapositive (largeur lorsqu'elle est enfant de RestoredTop, hauteur lorsqu'elle est enfant de RestoredLeft). Lecture/écriture Single. |
+| [AutoAdjust](../../aspose.slides/normalviewrestoredproperties/autoadjust) { get; set; } | Spécifie si la taille de la région de contenu latéral doit compenser la nouvelle taille lors du redimensionnement de la fenêtre contenant la vue dans l'application Lecture/écriture Boolean. |
+| [DimensionSize](../../aspose.slides/normalviewrestoredproperties/dimensionsize) { get; set; } | Spécifie la taille de la région de la diapositive (largeur lorsqu'un enfant de RestoredTop, hauteur lorsqu'un enfant de RestoredLeft). Lecture/écriture Single. |
 
 ### Voir aussi
 

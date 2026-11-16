@@ -1,9 +1,9 @@
 ---
 title: ThreeDFormat
-second_title: Aspose.Sildes .NET API hivatkozás
+second_title: Aspose.Sildes .NET API referencia
 description: 3-D tulajdonságokat képviseli.
 type: docs
-weight: 11490
+weight: 11510
 url: /hu/aspose.slides/threedformat/
 ---
 ## ThreeDFormat osztály
@@ -18,41 +18,41 @@ public sealed class ThreeDFormat : PVIObject, IThreeDFormat
 
 | Név | Leírás |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Lehetővé teszi az IPresentationComponent alap interfész lekérését. Csak olvasható [`IPresentationComponent`](../ipresentationcomponent). |
-| [BevelBottom](../../aspose.slides/threedformat/bevelbottom) { get; } | Visszaadja vagy beállítja az alsó 3D rézsút típusát. Csak olvasható [`IShapeBevel`](../ishapebevel). |
-| [BevelTop](../../aspose.slides/threedformat/beveltop) { get; } | Visszaadja vagy beállítja a felső 3D rézsút típusát. Csak olvasható [`IShapeBevel`](../ishapebevel). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Lehetővé teszi az alap IPresentationComponent interfész lekérését. Csak olvasható [`IPresentationComponent`](../ipresentationcomponent). |
+| [BevelBottom](../../aspose.slides/threedformat/bevelbottom) { get; } | Visszaadja vagy beállítja a bottom 3D bevel típusát. Csak olvasható [`IShapeBevel`](../ishapebevel). |
+| [BevelTop](../../aspose.slides/threedformat/beveltop) { get; } | Visszaadja vagy beállítja a top 3D bevel típusát. Csak olvasható [`IShapeBevel`](../ishapebevel). |
 | [Camera](../../aspose.slides/threedformat/camera) { get; } | Visszaadja vagy beállítja a kamera beállításait. Csak olvasható [`ICamera`](../icamera). |
-| [ContourColor](../../aspose.slides/threedformat/contourcolor) { get; } | Visszaadja vagy beállítja egy körvonal színét. Csak olvasható [`IColorFormat`](../icolorformat). |
-| [ContourWidth](../../aspose.slides/threedformat/contourwidth) { get; set; } | Visszaadja vagy beállítja egy 3D körvonal szélességét. Olvasás/írás Double. |
-| [Depth](../../aspose.slides/threedformat/depth) { get; set; } | Visszaadja vagy beállítja egy 3D alak mélységét. Olvasás/írás Double. |
-| [ExtrusionColor](../../aspose.slides/threedformat/extrusioncolor) { get; } | Visszaadja vagy beállítja egy extrudálás színét. Csak olvasható [`IColorFormat`](../icolorformat). |
-| [ExtrusionHeight](../../aspose.slides/threedformat/extrusionheight) { get; set; } | Visszaadja vagy beállítja egy extrudálási effektus magasságát. Olvasás/írás Double. |
-| [LightRig](../../aspose.slides/threedformat/lightrig) { get; } | Visszaadja vagy beállítja egy fény típusát. Csak olvasható [`ILightRig`](../ilightrig). |
-| [Material](../../aspose.slides/threedformat/material) { get; set; } | Visszaadja vagy beállítja egy anyag típusát. Olvasás/írás [`MaterialPresetType`](../materialpresettype). |
+| [ContourColor](../../aspose.slides/threedformat/contourcolor) { get; } | Visszaadja vagy beállítja a kontúr színét. Csak olvasható [`IColorFormat`](../icolorformat). |
+| [ContourWidth](../../aspose.slides/threedformat/contourwidth) { get; set; } | Visszaadja vagy beállítja a 3D kontúr szélességét. Olvasható/írható Double. |
+| [Depth](../../aspose.slides/threedformat/depth) { get; set; } | Visszaadja vagy beállítja a 3D alakzat mélységét. Olvasható/írható Double. |
+| [ExtrusionColor](../../aspose.slides/threedformat/extrusioncolor) { get; } | Visszaadja vagy beállítja az extrudálás színét. Csak olvasható [`IColorFormat`](../icolorformat). |
+| [ExtrusionHeight](../../aspose.slides/threedformat/extrusionheight) { get; set; } | Visszaadja vagy beállítja az extrudálási effektus magasságát. Olvasható/írható Double. |
+| [LightRig](../../aspose.slides/threedformat/lightrig) { get; } | Visszaadja vagy beállítja a fény típusát. Csak olvasható [`ILightRig`](../ilightrig). |
+| [Material](../../aspose.slides/threedformat/material) { get; set; } | Visszaadja vagy beállítja az anyag típusát. Olvasható/írható [`MaterialPresetType`](../materialpresettype). |
 
 ## Módszerek
 
 | Név | Leírás |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Összehasonlítja a megadott objektummal. |
-| [GetEffective](../../aspose.slides/threedformat/geteffective)() | Lekéri a tényleges 3-D formázási adatokat az öröklődés alkalmazásával. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Visszaadja a hash kódot. |
+| [GetEffective](../../aspose.slides/threedformat/geteffective)() | Lekéri a hatékony 3-D formázási adatokat, a öröklődés alkalmazásával. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Visszaadja a hash-kódot. |
 
 ### Példák
 
-Az alábbi példa bemutatja, hogyan adhatunk hozzá 3D alakzatot egy PowerPoint bemutatóhoz.
+Az alábbi példa azt mutatja be, hogyan lehet 3D alakzatot hozzáadni egy PowerPoint-prezentációhoz.
 
 ```csharp
 [C#]
-// Hozzon létre egy Presentation osztály példányt.
+// Létrehozza a Presentation osztály egy példányát.
 using (Presentation pres = new Presentation())
 {
-	// Adj hozzá egy alakzatot az AddAutoShape metódussal
+	// Alakzat hozzáadása az AddAutoShape módszerrel
     IAutoShape shape = pres.Slides[0].Shapes.AddAutoShape(ShapeType.Rectangle, 200, 150, 200, 200);
-	// Határozza meg a TextFrame-et és annak tulajdonságait
+	// Definiálja a TextFrame-et és annak tulajdonságait
     shape.TextFrame.Text = "3D";
     shape.TextFrame.Paragraphs[0].ParagraphFormat.DefaultPortionFormat.FontHeight = 64;
-	// Határozza meg a ThreeDFormat tulajdonságait
+	// Definiálja a ThreeDFormat tulajdonságait
     shape.ThreeDFormat.Camera.CameraType = CameraPresetType.OrthographicFront;
     shape.ThreeDFormat.Camera.SetRotation(20, 30, 40);
     shape.ThreeDFormat.LightRig.LightType = LightRigPresetType.Flat;
@@ -61,28 +61,28 @@ using (Presentation pres = new Presentation())
     shape.ThreeDFormat.ExtrusionHeight = 100;
     shape.ThreeDFormat.ExtrusionColor.Color = Color.Blue;
     pres.Slides[0].GetThumbnail(2, 2).Save("sample_3d.png");
-	// Mentse a Presentation fájlt
+	// A Presentation fájl mentése
     pres.Save("sandbox_3d.pptx", SaveFormat.Pptx);
 }
 ```
 
-Az alábbi példa bemutatja, hogyan alkalmazhatunk Gradient effektet egy 3D alakzatra egy PowerPoint bemutatóban.
+Az alábbi példa azt mutatja, hogyan lehet Gradient hatást alkalmazni 3D alakzatra egy PowerPoint-prezentációban.
 
 ```csharp
 [C#]
-// Hozzon létre egy Presentation osztály példányt.
+// Létrehozza a Presentation osztály egy példányát.
 using (Presentation pres = new Presentation())
 {
-	// Adj hozzá egy alakzatot az AddAutoShape metódussal
+	// Alakzat hozzáadása az AddAutoShape metódussal
      IAutoShape shape = pres.Slides[0].Shapes.AddAutoShape(ShapeType.Rectangle, 200, 150, 250, 250);
-	// Határozza meg a TextFrame-et és annak tulajdonságait
+	// Definiálja a TextFrame-et és annak tulajdonságait
     shape.TextFrame.Text = "3D Gradient";
     shape.TextFrame.Paragraphs[0].ParagraphFormat.DefaultPortionFormat.FontHeight = 64;
-	// Állítsa be a FillFormat.FillType értékét FillType.Gradient-re, és határozza meg a gradient tulajdonságait
+	// Beállítja a FillFormat.FillType értékét FillType.Gradient-re és definiálja a gradient tulajdonságait
 	shape.FillFormat.FillType = FillType.Gradient;
     shape.FillFormat.GradientFormat.GradientStops.Add(0, Color.Blue);
     shape.FillFormat.GradientFormat.GradientStops.Add(100, Color.Orange);
-	// Határozza meg a ThreeDFormat tulajdonságait
+	// Definiálja a ThreeDFormat tulajdonságait
     shape.ThreeDFormat.Camera.CameraType = CameraPresetType.OrthographicFront;
     shape.ThreeDFormat.Camera.SetRotation(20, 30, 40);
     shape.ThreeDFormat.LightRig.LightType = LightRigPresetType.Flat;
@@ -91,26 +91,26 @@ using (Presentation pres = new Presentation())
     shape.ThreeDFormat.ExtrusionHeight = 100;
     shape.ThreeDFormat.ExtrusionColor.Color = Color.Blue;
     pres.Slides[0].GetThumbnail(2, 2).Save("sample_3d.png");
-	// Mentse a Presentation fájlt
+	// A Presentation fájl mentése
     pres.Save("sandbox_3d.pptx", SaveFormat.Pptx);
 }
 ```
 
-Az alábbi példa bemutatja, hogyan alkalmazhatunk 3D effektet szövegre. 3D szöveg létrehozásához a WordArt transzformációs effektust lehet használni.
+Az alábbi példa bemutatja, hogyan lehet 3D hatást alkalmazni szövegre. 3D szöveg létrehozásához a WordArt átalakítási hatás használható.
 
 ```csharp
 [C#]
-// Hozzon létre egy Presentation osztály példányt.
+// Létrehozza a Presentation osztály egy példányát.
 using (Presentation pres = new Presentation())
 {
-	// Adj hozzá egy alakzatot az AddAutoShape metódussal
+	// Alakzat hozzáadása az AddAutoShape metódussal
      IAutoShape shape = pres.Slides[0].Shapes.AddAutoShape(ShapeType.Rectangle, 200, 150, 250, 250);
-	// Határozza meg a TextFrame-et és annak tulajdonságait
+	// Definiálja a TextFrame-et és annak tulajdonságait
     shape.TextFrame.Text = "3D Text";
-	// Állítsa be a FillFormat.FillType értékét FillType.NoFill-re
+	// Beállítja a FillFormat.FillType értékét FillType.NoFill-re
 	shape.FillFormat.FillType = FillType.NoFill;
     shape.LineFormat.FillFormat.FillType = FillType.NoFill;
-	// Konfigurálja a TextFrame részét és állítsa be a PortionFormat tulajdonságait
+	// Konfigurálja a TextFrame részét és a PortionFormat tulajdonságait
 	Portion portion = (Portion)shape.TextFrame.Paragraphs[0].Portions[0];
     portion.PortionFormat.FillFormat.FillType = FillType.Pattern;
     portion.PortionFormat.FillFormat.PatternFormat.ForeColor.Color = Color.DarkOrange;
@@ -118,7 +118,7 @@ using (Presentation pres = new Presentation())
     portion.PortionFormat.FillFormat.PatternFormat.PatternStyle = PatternStyle.LargeGrid;
 	shape.TextFrame.Paragraphs[0].ParagraphFormat.DefaultPortionFormat.FontHeight = 128;
     ITextFrame textFrame = shape.TextFrame;
-    // állítsa be a "Arch Up" WordArt transzformációs effektust
+    // Beállítja az "Arch Up" WordArt átalakítási hatást
     textFrame.TextFrameFormat.Transform = TextShapeType.ArchUp;
 	// Definiálja az ITextFrame ThreeDFormat tulajdonságait
 	textFrame.TextFrameFormat.ThreeDFormat.ExtrusionHeight = 3.5f;
@@ -129,7 +129,7 @@ using (Presentation pres = new Presentation())
     textFrame.TextFrameFormat.ThreeDFormat.LightRig.SetRotation(0, 0, 40);
     textFrame.TextFrameFormat.ThreeDFormat.Camera.CameraType = CameraPresetType.PerspectiveContrastingRightFacing;
     pres.Slides[0].GetThumbnail(2, 2).Save("text3d.png");
-	// Mentse a Presentation fájlt
+	// A Presentation fájl mentése
      pres.Save("text3d.pptx", SaveFormat.Pptx);
 }
 ```

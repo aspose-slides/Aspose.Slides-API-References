@@ -1,9 +1,9 @@
 ---
 title: IBackdrop3DScene
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Meghatároz egy síkot, amelyen a ragyogás és árnyék hatások a formához viszonyítva kerülnek alkalmazásra.
+second_title: Aspose.Sildes .NET API referencia
+description: Meghatároz egy síkot, amelyen a ragyogás és az árnyék hatásai a formához viszonyítva kerülnek alkalmazásra.
 type: docs
-weight: 5260
+weight: 5280
 url: /hu/aspose.slides/ibackdrop3dscene/
 ---
 ## IBackdrop3DScene interfész
@@ -18,9 +18,9 @@ public interface IBackdrop3DScene
 
 | Név | Leírás |
 | --- | --- |
-| [AnchorPoint](../../aspose.slides/ibackdrop3dscene/anchorpoint) { get; set; } | Visszaadja vagy beállítja a 3D térben levő pontot. Ez a pont az a hely a térben, amely rögzíti a háttér síkot. 3D pont, amely 3 lebegőpontos értékből álló tömb által van reprezentálva, és meghatározza az X, Y és Z koordinátákat. Olvasás/írás Single[]. |
-| [NormalVector](../../aspose.slides/ibackdrop3dscene/normalvector) { get; set; } | Visszaadja vagy beállítja a normál vektort. Pontosabban, ez az attribútum egy, a háttér sík felületére merőleges vektort határoz meg. A vektor 3 lebegőpontos értékből álló tömbként van reprezentálva, amely meghatározza az X, Y és Z koordinátákat. Olvasás/írás Single[]. |
-| [UpVector](../../aspose.slides/ibackdrop3dscene/upvector) { get; set; } | Visszaadja vagy beállítja a felfelé irányt jelző vektort. Pontosabban, ez az attribútum a háttér sík felületéhez viszonyítva a felfelé irányt jelző vektort definiálja. A vektor 3 lebegőpontos értékből álló tömbként van reprezentálva, amely meghatározza az X, Y és Z koordinátákat. Olvasás/írás Single[]. |
+| [AnchorPoint](../../aspose.slides/ibackdrop3dscene/anchorpoint) { get; set; } | Visszaad vagy beállít egy pontot a 3D térben. Ez a pont az a pont a térben, amely a háttér síkot rögzíti. A 3D pont egy 3 darab float értékből álló tömbként van ábrázolva, amely meghatározza az X, Y és Z koordinátákat. Olvasás/írás Single[]. |
+| [NormalVector](../../aspose.slides/ibackdrop3dscene/normalvector) { get; set; } | Visszaad vagy beállít egy normál vektort. Pontosabban, ez az attribútum egy a háttér sík felületére merőleges vektort határoz meg. A vektor egy 3 darab float értékből álló tömbként van ábrázolva, amely meghatározza az X, Y és Z koordinátákat. Olvasás/írás Single[]. |
+| [UpVector](../../aspose.slides/ibackdrop3dscene/upvector) { get; set; } | Visszaad vagy beállít egy felfelé irányuló vektort. Pontosabban, ez az attribútum egy a háttér sík felületéhez viszonyítva felfelé irányuló vektort határoz meg. A vektor egy 3 darab float értékből álló tömbként van ábrázolva, amely meghatározza az X, Y és Z koordinátákat. Olvasás/írás Single[]. |
 
 ### Lásd még
 

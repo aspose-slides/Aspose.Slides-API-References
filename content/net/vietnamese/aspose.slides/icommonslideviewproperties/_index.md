@@ -1,14 +1,14 @@
 ---
 title: ICommonSlideViewProperties
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Biểu diễn các thuộc tính chế độ xem slide chung.
+description: Đại diện cho các thuộc tính hiển thị slide chung.
 type: docs
-weight: 5600
+weight: 5620
 url: /vi/aspose.slides/icommonslideviewproperties/
 ---
 ## ICommonSlideViewProperties giao diện
 
-Biểu diễn các thuộc tính chế độ xem slide chung.
+Đại diện cho các thuộc tính hiển thị slide chung.
 
 ```csharp
 public interface ICommonSlideViewProperties
@@ -18,9 +18,9 @@ public interface ICommonSlideViewProperties
 
 | Tên | Mô tả |
 | --- | --- |
-| [DrawingGuides](../../aspose.slides/icommonslideviewproperties/drawingguides) { get; } | Trả về bộ sưu tập các hướng dẫn vẽ. Chỉ đọc [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [Scale](../../aspose.slides/icommonslideviewproperties/scale) { get; set; } | Xác định tỷ lệ phóng thu nhỏ của chế độ xem tính bằng phần trăm. Đọc/ghi Int32. |
-| [VariableScale](../../aspose.slides/icommonslideviewproperties/variablescale) { get; set; } | Xác định rằng nội dung chế độ xem nên tự động phóng to/thu nhỏ để phù hợp tốt nhất với kích thước cửa sổ hiện tại. Đọc/ghi Boolean. |
+| [DrawingGuides](../../aspose.slides/icommonslideviewproperties/drawingguides) { get; } | Trả về tập hợp các hướng dẫn vẽ. Chỉ đọc [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [Scale](../../aspose.slides/icommonslideviewproperties/scale) { get; set; } | Xác định tỷ lệ phóng đại chế độ xem bằng phần trăm. Đọc/ghi Int32. |
+| [VariableScale](../../aspose.slides/icommonslideviewproperties/variablescale) { get; set; } | Xác định rằng nội dung hiển thị nên tự động co giãn để phù hợp nhất với kích thước cửa sổ hiện tại. Đọc/ghi Boolean. |
 
 ### Xem thêm
 

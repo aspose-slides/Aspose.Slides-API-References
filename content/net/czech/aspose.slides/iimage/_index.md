@@ -1,14 +1,14 @@
 ---
 title: IImage
-second_title: Aspose.Sildes pro .NET - reference API
-description: Zastupuje rastrový nebo vektorový obrázek.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Reprezentuje rastrový nebo vektorový obrázek.
 type: docs
-weight: 6150
+weight: 6170
 url: /cs/aspose.slides/iimage/
 ---
 ## IImage rozhraní
 
-Zastupuje rastrový nebo vektorový obrázek.
+Reprezentuje rastrový nebo vektorový obrázek.
 
 ```csharp
 public interface IImage : IDisposable
@@ -18,19 +18,19 @@ public interface IImage : IDisposable
 
 | Název | Popis |
 | --- | --- |
-| [Height](../../aspose.slides/iimage/height) { get; } | Získá výšku obrázku v pixelech. |
-| [Size](../../aspose.slides/iimage/size) { get; } | Získá velikost obrázku. |
-| [Width](../../aspose.slides/iimage/width) { get; } | Získá šířku obrázku v pixelech. |
+| [Height](../../aspose.slides/iimage/height) { get; } | Vrací výšku obrázku v pixelech. |
+| [Size](../../aspose.slides/iimage/size) { get; } | Vrací velikost obrázku. |
+| [Width](../../aspose.slides/iimage/width) { get; } | Vrací šířku obrázku v pixelech. |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
 | [Save](../../aspose.slides/iimage/save#save_2)(string) | Uloží obrázek do souboru. |
-| [Save](../../aspose.slides/iimage/save#save)(Stream, ImageFormat) | Uloží obrázek do proudu ve zvoleném formátu. |
-| [Save](../../aspose.slides/iimage/save#save_3)(string, ImageFormat) | Uloží obrázek do souboru ve zvoleném formátu. |
-| [Save](../../aspose.slides/iimage/save#save_1)(Stream, ImageFormat, int) | Uloží obrázek do proudu ve zvoleném formátu a kvalitě. |
-| [Save](../../aspose.slides/iimage/save#save_4)(string, ImageFormat, int) | Uloží obrázek do souboru ve zvoleném formátu a kvalitě. |
+| [Save](../../aspose.slides/iimage/save#save)(Stream, ImageFormat) | Uloží obrázek do proudu ve specifikovaném formátu. |
+| [Save](../../aspose.slides/iimage/save#save_3)(string, ImageFormat) | Uloží obrázek do souboru ve specifikovaném formátu. |
+| [Save](../../aspose.slides/iimage/save#save_1)(Stream, ImageFormat, int) | Uloží obrázek do proudu ve specifikovaném formátu a kvalitě. |
+| [Save](../../aspose.slides/iimage/save#save_4)(string, ImageFormat, int) | Uloží obrázek do souboru ve specifikovaném formátu a kvalitě. |
 
 ### Poznámky
 

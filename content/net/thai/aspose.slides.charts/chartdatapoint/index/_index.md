@@ -3,7 +3,7 @@ title: Index
 second_title: Aspose.Sildes สำหรับ .NET API อ้างอิง
 description: 
 type: docs
-weight: 110
+weight: 150
 url: /th/aspose.slides.charts/chartdatapoint/index/
 ---
 ## ChartDataPoint.Index คุณสมบัติ

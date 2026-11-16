@@ -1,14 +1,14 @@
 ---
 title: ICustomXmlPartCollection
-second_title: Aspose.Sildes para .NET Referencia de API
-description: Representa una colección de partes xml personalizadas.
+second_title: Referencia de API de Aspose.Sildes para .NET
+description: Representa una colección de partes XML personalizadas.
 type: docs
-weight: 5680
+weight: 5700
 url: /es/aspose.slides/icustomxmlpartcollection/
 ---
 ## ICustomXmlPartCollection interfaz
 
-Representa una colección de partes xml personalizadas.
+Representa una colección de partes XML personalizadas.
 
 ```csharp
 public interface ICustomXmlPartCollection : IGenericCollection<ICustomXmlPart>
@@ -24,12 +24,12 @@ public interface ICustomXmlPartCollection : IGenericCollection<ICustomXmlPart>
 
 | Nombre | Descripción |
 | --- | --- |
-| [Add](../../aspose.slides/icustomxmlpartcollection/add#add)(byte[]) | Agrega una nueva parte xml personalizada. |
-| [Add](../../aspose.slides/icustomxmlpartcollection/add#add_1)(Stream) | Agrega una nueva parte xml personalizada. |
-| [Add](../../aspose.slides/icustomxmlpartcollection/add#add_2)(string) | Agrega una nueva parte xml personalizada. |
+| [Add](../../aspose.slides/icustomxmlpartcollection/add#add)(byte[]) | Añade una nueva parte XML personalizada. |
+| [Add](../../aspose.slides/icustomxmlpartcollection/add#add_1)(Stream) | Añade una nueva parte XML personalizada. |
+| [Add](../../aspose.slides/icustomxmlpartcollection/add#add_2)(string) | Añade una nueva parte XML personalizada. |
 | [Clear](../../aspose.slides/icustomxmlpartcollection/clear)() | Elimina todos los elementos de la colección. |
 | [Remove](../../aspose.slides/icustomxmlpartcollection/remove)(ICustomXmlPart) | Elimina la primera aparición de un objeto específico de la colección. |
-| [RemoveAt](../../aspose.slides/icustomxmlpartcollection/removeat)(int) | Elimina la parte xml personalizada en el índice especificado. |
+| [RemoveAt](../../aspose.slides/icustomxmlpartcollection/removeat)(int) | Elimina la parte XML personalizada en el índice especificado. |
 
 ### Ver también
 

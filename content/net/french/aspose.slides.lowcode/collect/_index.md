@@ -1,14 +1,14 @@
 ---
 title: Collect
 second_title: Référence API Aspose.Sildes pour .NET
-description: Représente un groupe de méthodes destiné à collecter des objets modèle de différents types depuis Presentation../aspose.slides/presentation.
+description: Représente un groupe de méthodes destinées à collecter des objets modèle de différents types depuis Presentation../aspose.slides/presentation.
 type: docs
-weight: 7860
+weight: 7880
 url: /fr/aspose.slides.lowcode/collect/
 ---
 ## Collect classe
 
-Représente un groupe de méthodes destiné à collecter des objets modèle de différents types depuis [`Presentation`](../../aspose.slides/presentation).
+Représente un groupe de méthodes destinées à collecter des objets modèle de différents types depuis [`Presentation`](../../aspose.slides/presentation).
 
 ```csharp
 public static class Collect
@@ -27,7 +27,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 {
     foreach (Shape shape in Collect.Shapes(pres))
     {
-        // ... modifier le format de la forme ou d'autres propriétés
+        // ... modifier la mise en forme de la forme ou d'autres propriétés
     }
 }    
 ```

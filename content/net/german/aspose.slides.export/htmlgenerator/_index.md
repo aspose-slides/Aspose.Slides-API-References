@@ -1,14 +1,14 @@
 ---
 title: HtmlGenerator
 second_title: Aspose.Sildes für .NET API-Referenz
-description: HTML-Generator.
+description: Html-Generator.
 type: docs
-weight: 3880
+weight: 3900
 url: /de/aspose.slides.export/htmlgenerator/
 ---
 ## HtmlGenerator Klasse
 
-HTML-Generator.
+Html-Generator.
 
 ```csharp
 public sealed class HtmlGenerator : IHtmlGenerator
@@ -18,20 +18,20 @@ public sealed class HtmlGenerator : IHtmlGenerator
 
 | Name | Beschreibung |
 | --- | --- |
-| [NextSlideIndex](../../aspose.slides.export/htmlgenerator/nextslideindex) { get; } | Gibt den Index einer Folie zurück, die nach der aktuellen Folie gerendert wird, oder -1, wenn die aktuelle Folie die letzte ist. Schreibgeschützt Int32. |
-| [PreviousSlideIndex](../../aspose.slides.export/htmlgenerator/previousslideindex) { get; } | Gibt den Index der zuvor gerenderten Folie zurück oder -1, wenn die erste Folie gerendert wird. Schreibgeschützt Int32. |
-| [SlideImageSize](../../aspose.slides.export/htmlgenerator/slideimagesize) { get; } | Gibt die Folienbildgröße zurück. Schreibgeschützt SizeF. |
-| [SlideImageSizeUnit](../../aspose.slides.export/htmlgenerator/slideimagesizeunit) { get; } | Gibt die Einheit zurück, in der die Folienbildgröße angegeben ist. Schreibgeschützt [`SvgCoordinateUnit`](../svgcoordinateunit). |
-| [SlideImageSizeUnitCode](../../aspose.slides.export/htmlgenerator/slideimagesizeunitcode) { get; } | Gibt den CSS-Code der Einheit zurück, in der die Folienbildgröße angegeben ist. Schreibgeschützt String. |
-| [SlideIndex](../../aspose.slides.export/htmlgenerator/slideindex) { get; } | Gibt den Index der aktuell gerenderten Folie zurück. Schreibgeschützt Int32. |
+| [NextSlideIndex](../../aspose.slides.export/htmlgenerator/nextslideindex) { get; } | Gibt den Index einer Folie zurück, die nach der aktuellen Folie gerendert wird, oder -1, wenn die aktuelle Folie die letzte ist. Nur-Lesen Int32. |
+| [PreviousSlideIndex](../../aspose.slides.export/htmlgenerator/previousslideindex) { get; } | Gibt den Index der zuvor gerenderten Folie zurück oder -1, wenn die erste Folie gerendert wird. Nur-Lesen Int32. |
+| [SlideImageSize](../../aspose.slides.export/htmlgenerator/slideimagesize) { get; } | Gibt die Größe des Folienbildes zurück. Nur-Lesen SizeF. |
+| [SlideImageSizeUnit](../../aspose.slides.export/htmlgenerator/slideimagesizeunit) { get; } | Gibt die Einheit zurück, in der die Folienbildgröße angegeben ist. Nur-Lesen [`SvgCoordinateUnit`](../svgcoordinateunit). |
+| [SlideImageSizeUnitCode](../../aspose.slides.export/htmlgenerator/slideimagesizeunitcode) { get; } | Gibt den CSS-Code der Einheit zurück, in der die Folienbildgröße angegeben ist. Nur-Lesen String. |
+| [SlideIndex](../../aspose.slides.export/htmlgenerator/slideindex) { get; } | Gibt den Index der gerade rendernden Folie zurück. Nur-Lesen Int32. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue)(char[]) | Zitiert den Attributwert und fügt ihn der HTML-Datei hinzu. |
-| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue_2)(string) | Zitiert den Attributwert und fügt ihn der HTML-Datei hinzu. |
-| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue_1)(char[], int, int) | Zitiert den Attributwert und fügt ihn der HTML-Datei hinzu. |
+| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue)(char[]) | Setzt Anführungszeichen um den Attributwert und fügt ihn zur HTML-Datei hinzu. |
+| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue_2)(string) | Setzt Anführungszeichen um den Attributwert und fügt ihn zur HTML-Datei hinzu. |
+| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue_1)(char[], int, int) | Setzt Anführungszeichen um den Attributwert und fügt ihn zur HTML-Datei hinzu. |
 | [AddHtml](../../aspose.slides.export/htmlgenerator/addhtml#addhtml)(char[]) | Fügt formatierten HTML-Text hinzu. |
 | [AddHtml](../../aspose.slides.export/htmlgenerator/addhtml#addhtml_2)(string) | Fügt formatierten HTML-Text hinzu. |
 | [AddHtml](../../aspose.slides.export/htmlgenerator/addhtml#addhtml_1)(char[], int, int) | Fügt formatierten HTML-Text hinzu. |

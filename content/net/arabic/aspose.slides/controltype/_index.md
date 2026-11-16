@@ -1,14 +1,14 @@
 ---
 title: ControlType
-second_title: مرجع API لـ Aspose.Sildes لـ .NET
-description: يحدد نوع تحكم يجب تضمينه بواسطة AddControl./icontrolcollection/addcontrol.
+second_title: Aspose.Sildes لـ .NET مرجع API
+description: يحدد نوع التحكم الذي يجب تضمينه بواسطة AddControl./icontrolcollection/addcontrol.
 type: docs
-weight: 2720
+weight: 2740
 url: /ar/aspose.slides/controltype/
 ---
 ## ControlType تعداد
 
-يعرّف نوع تحكم يجب تضمينه بواسطة [`AddControl`](../icontrolcollection/addcontrol).
+يحدد نوع التحكم الذي يجب تضمينه بواسطة [`AddControl`](../icontrolcollection/addcontrol).
 
 ```csharp
 public enum ControlType
@@ -18,9 +18,9 @@ public enum ControlType
 
 | الاسم | القيمة | الوصف |
 | --- | --- | --- |
-| WindowsMediaPlayer | `0` | عنصر تحكم Windows Media Player. |
+| WindowsMediaPlayer | `0` | تحكم Windows Media Player. |
 
-### انظر أيضاً
+### انظر أيضًا
 
 * مساحة الاسم [Aspose.Slides](../../aspose.slides)
 * التجميع [Aspose.Slides](../../)

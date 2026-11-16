@@ -3,7 +3,7 @@ title: IExcelDataCell
 second_title: Referência da API Aspose.Sildes para .NET
 description: Representa uma única célula em uma pasta de trabalho do Excel.
 type: docs
-weight: 3700
+weight: 3720
 url: /pt/aspose.slides.excel/iexceldatacell/
 ---
 ## IExcelDataCell interface
@@ -16,14 +16,14 @@ public interface IExcelDataCell
 
 ## Propriedades
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
 | [Column](../../aspose.slides.excel/iexceldatacell/column) { get; } | Obtém o índice baseado em zero da coluna na planilha onde a célula está localizada. Somente leitura Int32. |
 | [Name](../../aspose.slides.excel/iexceldatacell/name) { get; } | Obtém o nome da célula de dados do gráfico. Somente leitura String. |
 | [Row](../../aspose.slides.excel/iexceldatacell/row) { get; } | Obtém o índice baseado em zero da linha na planilha onde a célula está localizada. Somente leitura Int32. |
 | [Value](../../aspose.slides.excel/iexceldatacell/value) { get; } | Obtém o valor contido na célula do Excel. Somente leitura Object. |
 
-### Veja também
+### Veja Também
 
 * namespace [Aspose.Slides.Excel](../../aspose.slides.excel)
 * assembly [Aspose.Slides](../../)

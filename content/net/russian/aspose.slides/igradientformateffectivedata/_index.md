@@ -1,14 +1,14 @@
 ---
 title: IGradientFormatEffectiveData
 second_title: Aspose.Sildes для .NET справочник API
-description: Неизменяемый объект, содержащий эффективные свойства заливки градиентом.
+description: Неизменяемый объект, содержащий свойства эффективного градиентного заполнения.
 type: docs
-weight: 6010
+weight: 6030
 url: /ru/aspose.slides/igradientformateffectivedata/
 ---
 ## IGradientFormatEffectiveData интерфейс
 
-Неизменяемый объект, содержащий эффективные свойства заливки градиентом.
+Неизменяемый объект, содержащий свойства эффективного градиентного заполнения.
 
 ```csharp
 public interface IGradientFormatEffectiveData : IFillParamSource
@@ -24,13 +24,13 @@ public interface IGradientFormatEffectiveData : IFillParamSource
 | [GradientStops](../../aspose.slides/igradientformateffectivedata/gradientstops) { get; } | Возвращает коллекцию остановок градиента. Только для чтения [`IGradientStopCollectionEffectiveData`](../igradientstopcollectioneffectivedata). |
 | [LinearGradientAngle](../../aspose.slides/igradientformateffectivedata/lineargradientangle) { get; } | Возвращает угол градиента. Только для чтения Single. |
 | [LinearGradientScaled](../../aspose.slides/igradientformateffectivedata/lineargradientscaled) { get; } | Определяет, масштабируется ли градиент. Только для чтения Boolean. |
-| [TileFlip](../../aspose.slides/igradientformateffectivedata/tileflip) { get; } | Возвращает режим отражения градиента. Только для чтения [`TileFlip`](../tileflip). |
+| [TileFlip](../../aspose.slides/igradientformateffectivedata/tileflip) { get; } | Возвращает режим отражения для градиента. Только для чтения [`TileFlip`](../tileflip). |
 
 ### Примечания
 
 Этот интерфейс используется как часть [`IFillFormatEffectiveData`](../ifillformateffectivedata) и [`ILineFillFormatEffectiveData`](../ilinefillformateffectivedata).
 
-### Смотрите также
+### См. также
 
 * интерфейс [IFillParamSource](../ifillparamsource)
 * пространство имён [Aspose.Slides](../../aspose.slides)

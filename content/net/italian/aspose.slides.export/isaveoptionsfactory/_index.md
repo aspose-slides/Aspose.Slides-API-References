@@ -1,9 +1,9 @@
 ---
 title: ISaveOptionsFactory
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per .NET Riferimento API
 description: Consente di creare istanze di opzioni di salvataggio
 type: docs
-weight: 4080
+weight: 4100
 url: /it/aspose.slides.export/isaveoptionsfactory/
 ---
 ## ISaveOptionsFactory interfaccia
@@ -18,7 +18,7 @@ public interface ISaveOptionsFactory
 
 | Nome | Descrizione |
 | --- | --- |
-| [CreatePptxOptions](../../aspose.slides.export/isaveoptionsfactory/createpptxoptions)() | Crea opzioni PPTX di salvataggio. |
+| [CreatePptxOptions](../../aspose.slides.export/isaveoptionsfactory/createpptxoptions)() | Crea le opzioni di salvataggio PPTX. |
 
 ### Osservazioni
 

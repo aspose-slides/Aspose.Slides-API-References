@@ -1,14 +1,14 @@
 ---
 title: TableFormat
 second_title: Aspose.Sildes for .NET API 参考
-description: 表示表格的格式。
+description: 表示表的格式。
 type: docs
-weight: 10870
+weight: 10890
 url: /zh/aspose.slides/tableformat/
 ---
 ## TableFormat 类
 
-表示表格的格式。
+表示表的格式。
 
 ```csharp
 public sealed class TableFormat : DomObject<Table>, ITableFormat
@@ -18,16 +18,16 @@ public sealed class TableFormat : DomObject<Table>, ITableFormat
 
 | 名称 | 描述 |
 | --- | --- |
-| [FillFormat](../../aspose.slides/tableformat/fillformat) { get; } | 返回表填充属性对象。只读 [`IFillFormat`](../ifillformat)。 |
-| [Transparency](../../aspose.slides/tableformat/transparency) { get; set; } | 获取或设置填充颜色的透明度。读写 Single。 |
+| [FillFormat](../../aspose.slides/tableformat/fillformat) { get; } | 返回一个表填充属性对象。只读 [`IFillFormat`](../ifillformat)。 |
+| [Transparency](../../aspose.slides/tableformat/transparency) { get; set; } | 获取或设置填充颜色的透明度。读/写 Single。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [GetEffective](../../aspose.slides/tableformat/geteffective)() | 获取在继承和表样式应用后的有效表格格式属性。 |
+| [GetEffective](../../aspose.slides/tableformat/geteffective)() | 获取有效的表格式属性，包含继承和已应用的表样式。 |
 
-### 另请参阅
+### 另请参见
 
 * 类 [DomObject&lt;TParent&gt;](../domobject-1)
 * 类 [Table](../table)

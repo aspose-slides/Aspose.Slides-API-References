@@ -1,14 +1,14 @@
 ---
 title: MathDelimiterShape
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 오퍼랜드 내용에 대한 구분 기호의 위치와 크기
+second_title: Aspose.Sildes .NET API 참조
+description: 연산자의 내용에 대한 구분 기호의 위치와 크기
 type: docs
-weight: 8670
+weight: 8690
 url: /ko/aspose.slides.mathtext/mathdelimitershape/
 ---
 ## MathDelimiterShape 열거형
 
-오퍼랜드의 내용에 상대적인 구분 기호의 위치와 크기
+연산자의 내용에 대한 구분 기호의 위치와 크기
 
 ```csharp
 public enum MathDelimiterShape
@@ -18,10 +18,10 @@ public enum MathDelimiterShape
 
 | 이름 | 값 | 설명 |
 | --- | --- | --- |
-| Centered | `0` | Centered 수학 축에 |
-| Match | `1` | Match 내용에 |
+| Centered | `0` | 수학 축에 맞게 중앙 정렬 |
+| Match | `1` | 내용에 맞게 일치 |
 
-### 참조
+### 참고
 
 * 네임스페이스 [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * 어셈블리 [Aspose.Slides](../../)

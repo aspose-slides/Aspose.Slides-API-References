@@ -1,14 +1,14 @@
 ---
 title: UpDownBarsManager
-second_title: Aspose.Sildes لمرجع API .NET
-description: توفر إمكانية الوصول إلى أشرطة الصعود/الهبوط في مخطط خط أو مخطط سهمي.
+second_title: Aspose.Sildes لـ .NET مرجع واجهة برمجة التطبيقات
+description: توفر إمكانية الوصول إلى أشرطة الصعود/الهبوط في مخطط الخط أو مخطط الأسهم.
 type: docs
-weight: 2500
+weight: 2520
 url: /ar/aspose.slides.charts/updownbarsmanager/
 ---
 ## UpDownBarsManager فئة
 
-توفر إمكانية الوصول إلى أشرطة الصعود/الهبوط في مخطط خط أو مخطط سهمي.
+توفر إمكانية الوصول إلى أشرطة الصعود/الهبوط لمخطط الخط أو مخطط الأسهم.
 
 ```csharp
 public class UpDownBarsManager : DomObject<ChartSeriesGroup>, IUpDownBarsManager
@@ -18,12 +18,12 @@ public class UpDownBarsManager : DomObject<ChartSeriesGroup>, IUpDownBarsManager
 
 | الاسم | الوصف |
 | --- | --- |
-| [DownBarsFormat](../../aspose.slides.charts/updownbarsmanager/downbarsformat) { get; } | إرجاع تنسيق DownBars. قراءة فقط [`IFormat`](../iformat). |
+| [DownBarsFormat](../../aspose.slides.charts/updownbarsmanager/downbarsformat) { get; } | إرجاع تنسيق DownBars. للقراءة فقط [`IFormat`](../iformat). |
 | [GapWidth](../../aspose.slides.charts/updownbarsmanager/gapwidth) { get; set; } | GapWidth. قراءة/كتابة Int32. |
 | [HasUpDownBars](../../aspose.slides.charts/updownbarsmanager/hasupdownbars) { get; set; } | HasUpDownBars. قراءة/كتابة Boolean. |
-| [UpBarsFormat](../../aspose.slides.charts/updownbarsmanager/upbarsformat) { get; } | إرجاع تنسيق UpBars. قراءة فقط [`IFormat`](../iformat). |
+| [UpBarsFormat](../../aspose.slides.charts/updownbarsmanager/upbarsformat) { get; } | إرجاع تنسيق UpBars. للقراءة فقط [`IFormat`](../iformat). |
 
-### انظر أيضًا
+### انظر أيضاً
 
 * فئة [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * فئة [ChartSeriesGroup](../chartseriesgroup)

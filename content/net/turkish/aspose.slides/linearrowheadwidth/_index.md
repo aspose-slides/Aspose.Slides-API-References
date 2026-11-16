@@ -1,14 +1,14 @@
 ---
 title: LineArrowheadWidth
 second_title: Aspose.Sildes for .NET API Referansı
-description: Bir ok ucunun genişliğini temsil eder.
+description: Bir ok başının genişliğini temsil eder.
 type: docs
-weight: 7750
+weight: 7770
 url: /tr/aspose.slides/linearrowheadwidth/
 ---
 ## LineArrowheadWidth enum
 
-Bir ok ucunun genişliğini temsil eder.
+Bir ok başının genişliğini temsil eder.
 
 ```csharp
 public enum LineArrowheadWidth : sbyte
@@ -23,7 +23,7 @@ public enum LineArrowheadWidth : sbyte
 | Medium | `1` |  |
 | Wide | `2` |  |
 
-### Diğer Bilgiler
+### İlgili
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

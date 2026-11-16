@@ -1,14 +1,14 @@
 ---
 title: SmartArtColorType
-second_title: Αναφορά API Aspose.Sildes για .NET
-description: Αντιπροσωπεύει το χρωματικό σχήμα ενός διαγράμματος SmartArt.
+second_title: Aspose.Sildes για .NET API Reference
+description: Αναπαριστά το χρωματικό σχήμα ενός διαγράμματος SmartArt.
 type: docs
-weight: 10610
+weight: 10630
 url: /el/aspose.slides.smartart/smartartcolortype/
 ---
 ## Απαρίθμηση SmartArtColorType
 
-Αντιπροσωπεύει το χρωματικό σχήμα ενός διαγράμματος SmartArt.
+Αναπαριστά το χρωματικό σχήμα ενός διαγράμματος SmartArt.
 
 ```csharp
 public enum SmartArtColorType

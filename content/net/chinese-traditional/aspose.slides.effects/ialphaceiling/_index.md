@@ -1,14 +1,14 @@
 ---
 title: IAlphaCeiling
 second_title: Aspose.Sildes for .NET API 參考文件
-description: 表示 Alpha Ceiling 效果。Alpha 不透明度值大於零的會被更改為 100。換句話說，任何部分不透明的物件將變為完全不透明。
+description: 表示 Alpha Ceiling 效果。Alpha 不透明度值大於零時會更改為 100。換句話說，任何部分不透明的內容都會變為完全不透明。
 type: docs
-weight: 3040
+weight: 3060
 url: /zh-hant/aspose.slides.effects/ialphaceiling/
 ---
 ## IAlphaCeiling 介面
 
-表示 Alpha Ceiling 效果。Alpha（opacity）值大於零的會被更改為 100%。換句話說，任何部分透明的物件將變為完全不透明。
+表示 Alpha Ceiling 效果。大於零的 Alpha（不透明度）值會被更改為 100%。換句話說，任何部分不透明的內容都會變為完全不透明。
 
 ```csharp
 public interface IAlphaCeiling : IAccessiblePVIObject<IAlphaCeilingEffectiveData>, 
@@ -17,12 +17,12 @@ public interface IAlphaCeiling : IAccessiblePVIObject<IAlphaCeilingEffectiveData
 
 ## 屬性
 
-| 名稱 | 描述 |
+| 名稱 | 說明 |
 | --- | --- |
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphaceiling/asiaccessiblepviobject) { get; } | 允許取得基礎 IAccessiblePVIObject 介面。唯讀 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
 | [AsIImageTransformOperation](../../aspose.slides.effects/ialphaceiling/asiimagetransformoperation) { get; } | 允許取得基礎 IImageTransformOperationEx 介面。唯讀 [`IImageTransformOperation`](../iimagetransformoperation)。 |
 
-### 參見
+### 另請參考
 
 * 介面 [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * 介面 [IAlphaCeilingEffectiveData](../ialphaceilingeffectivedata)

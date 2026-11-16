@@ -1,14 +1,14 @@
 ---
 title: IOrientationTransition
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 오리엔테이션 슬라이드 전환 효과.
+second_title: Aspose.Sildes for .NET API 참조
+description: 방향 슬라이드 전환 효과.
 type: docs
-weight: 10150
+weight: 10170
 url: /ko/aspose.slides.slideshow/iorientationtransition/
 ---
 ## IOrientationTransition 인터페이스
 
-오리엔테이션 슬라이드 전환 효과.
+방향 슬라이드 전환 효과.
 
 ```csharp
 public interface IOrientationTransition : ITransitionValueBase

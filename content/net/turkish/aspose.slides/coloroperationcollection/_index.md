@@ -1,14 +1,14 @@
 ---
 title: ColorOperationCollection
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Renk dönüşüm işlemlerinin bir koleksiyonunu temsil eder.
 type: docs
-weight: 2540
+weight: 2560
 url: /tr/aspose.slides/coloroperationcollection/
 ---
 ## ColorOperationCollection sınıfı
 
-Renk dönüşüm işlemlerinin bir koleksiyonunu temsil eder.
+Represents a collection of color transform operations.
 
 ```csharp
 public sealed class ColorOperationCollection : IColorOperationCollection
@@ -18,10 +18,10 @@ public sealed class ColorOperationCollection : IColorOperationCollection
 
 | Ad | Açıklama |
 | --- | --- |
-| [Count](../../aspose.slides/coloroperationcollection/count) { get; } | Koleksiyondaki işlem sayısını döndürür. Salt-okunur Int32. |
-| [IsSynchronized](../../aspose.slides/coloroperationcollection/issynchronized) { get; } | Erişimin senkronize olup olmadığını (iş parçacığı-güvenli) gösteren bir değer döndürür. Salt-okunur Boolean. |
-| [Item](../../aspose.slides/coloroperationcollection/item) { get; set; } | Belirtilen indeksteki işlemi döndürür veya ayarlar. Okunur/yazılabilir [`ColorOperation`](../coloroperation). |
-| [SyncRoot](../../aspose.slides/coloroperationcollection/syncroot) { get; } | Bir senkronizasyon kökü döndürür. Salt-okunur Object. |
+| [Count](../../aspose.slides/coloroperationcollection/count) { get; } | Koleksiyondaki işlem sayısını döndürür. Yalnızca okuma Int32. |
+| [IsSynchronized](../../aspose.slides/coloroperationcollection/issynchronized) { get; } | Koleksiyona erişimin senkronize (thread-safe) olup olmadığını belirten bir değer döndürür. Yalnızca okuma Boolean. |
+| [Item](../../aspose.slides/coloroperationcollection/item) { get; set; } | Belirtilen indeksdeki işlemi döndürür veya ayarlar. Okuma/yazma [`ColorOperation`](../coloroperation). |
+| [SyncRoot](../../aspose.slides/coloroperationcollection/syncroot) { get; } | Bir senkronizasyon kökü döndürür. Yalnızca okuma Object. |
 
 ## Yöntemler
 
@@ -31,7 +31,7 @@ public sealed class ColorOperationCollection : IColorOperationCollection
 | [Add](../../aspose.slides/coloroperationcollection/add#add_1)(ColorTransformOperation, float) | Koleksiyonun sonuna yeni bir işlem ekler. |
 | [Clear](../../aspose.slides/coloroperationcollection/clear)() | Tüm renk işlemlerini kaldırır. |
 | [Clone](../../aspose.slides/coloroperationcollection/clone)() | Bir ColorOperationCollection koleksiyonunun kopyasını oluşturur. |
-| [CloneT](../../aspose.slides/coloroperationcollection/clonet)() | Geçerli nesneyi klonlar |
+| [CloneT](../../aspose.slides/coloroperationcollection/clonet)() | Mevcut nesneyi klonlar |
 | [CopyTo](../../aspose.slides/coloroperationcollection/copyto)(Array, int) | Koleksiyondaki tüm öğeleri belirtilen diziye kopyalar. |
 | [GetEnumerator](../../aspose.slides/coloroperationcollection/getenumerator)() | Koleksiyon içinde yineleme yapan bir enumerator döndürür. |
 | [Insert](../../aspose.slides/coloroperationcollection/insert#insert)(int, ColorTransformOperation) | Yeni işlemi koleksiyona ekler. |

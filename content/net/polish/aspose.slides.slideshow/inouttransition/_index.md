@@ -1,14 +1,14 @@
 ---
 title: InOutTransition
-second_title: Aspose.Sildes dla .NET Referencja API
+second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Efekt przejścia slajdu In-Out.
 type: docs
-weight: 10230
+weight: 10250
 url: /pl/aspose.slides.slideshow/inouttransition/
 ---
 ## InOutTransition klasa
 
-In-Out slide transition effect.
+Efekt przejścia slajdu In-Out.
 
 ```csharp
 public class InOutTransition : TransitionValueBase, IInOutTransition
@@ -24,8 +24,8 @@ public class InOutTransition : TransitionValueBase, IInOutTransition
 
 | Nazwa | Opis |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Określa, czy dwa obiekty TransitionValueBase są równe. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Służy jako funkcja skrótu dla określonego typu, odpowiednia do użycia w algorytmach mieszających i strukturach danych, takich jak tablica mieszająca. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Określa, czy dwa egzemplarze TransitionValueBase są równe. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Służy jako funkcja mieszająca dla określonego typu, odpowiednia do użycia w algorytmach mieszających i strukturach danych, takich jak tablica mieszająca. |
 
 ### Zobacz także
 

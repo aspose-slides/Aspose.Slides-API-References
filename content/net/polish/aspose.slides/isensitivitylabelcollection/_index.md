@@ -1,14 +1,14 @@
 ---
 title: ISensitivityLabelCollection
-second_title: Aspose.Sildes dla .NET – Dokumentacja API
+second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Reprezentuje kolekcję etykiet poufności zastosowanych w dokumencie.
 type: docs
-weight: 6940
+weight: 6960
 url: /pl/aspose.slides/isensitivitylabelcollection/
 ---
 ## ISensitivityLabelCollection interfejs
 
-Reprezentuje kolekcję etykiet poufności zastosowanych w dokumencie.
+Reprezentuje kolekcję etykiet poufności zastosowanych do dokumentu.
 
 ```csharp
 public interface ISensitivityLabelCollection : IEnumerable<ISensitivityLabel>

@@ -1,14 +1,14 @@
 ---
 title: SlideImageFormat
-second_title: Aspose.Sildes pro .NET – reference API
-description: Určuje formát, ve kterém bude obrázek snímku uložen pro export prezentace do HTML.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Určuje formát, ve kterém bude obrázek snímku uložen pro prezentaci při exportu do HTML.
 type: docs
-weight: 4470
+weight: 4490
 url: /cs/aspose.slides.export/slideimageformat/
 ---
 ## SlideImageFormat třída
 
-Určuje formát, ve kterém bude obrázek snímku uložen při exportu prezentace do HTML.
+Určuje formát, ve kterém bude obrázek snímku uložen pro prezentaci při exportu do HTML.
 
 ```csharp
 public class SlideImageFormat : ISlideImageFormat
@@ -16,13 +16,13 @@ public class SlideImageFormat : ISlideImageFormat
 
 ## Konstruktory
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
 | [SlideImageFormat](slideimageformat)() | Výchozí konstruktor. |
 
 ## Metody
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
 | static [Bitmap](../../aspose.slides.export/slideimageformat/bitmap)(float, ImageFormat) | Snímky by měly být převedeny na rastrový obrázek. |
 | static [Svg](../../aspose.slides.export/slideimageformat/svg)(SVGOptions) | Snímky by měly být převedeny do formátu SVG. |

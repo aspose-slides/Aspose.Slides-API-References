@@ -1,12 +1,12 @@
 ---
 title: ColorSchemeIndex
-second_title: Aspose.Sildes pro .NET API Reference
+second_title: Aspose.Sildes pro .NET API referenci
 description: Reprezentuje index v barevném schématu.
 type: docs
-weight: 2550
+weight: 2570
 url: /cs/aspose.slides/colorschemeindex/
 ---
-## ColorSchemeIndex výčet
+## ColorSchemeIndex výčtový typ
 
 Reprezentuje index v barevném schématu.
 
@@ -18,18 +18,18 @@ public enum ColorSchemeIndex : byte
 
 | Název | Hodnota | Popis |
 | --- | --- | --- |
-| Dark1 | `0` | Tmavá 1. |
-| Light1 | `1` | Světlá 1. |
-| Dark2 | `2` | Tmavá 2. |
-| Light2 | `3` | Světlá 2. |
-| Accent1 | `4` | Akcent 1. |
-| Accent2 | `5` | Akcent 2. |
-| Accent3 | `6` | Akcent 3. |
-| Accent4 | `7` | Akcent 4. |
-| Accent5 | `8` | Akcent 5. |
-| Accent6 | `9` | Akcent 6. |
-| Hyperlink | `10` | Hypertextový odkaz. |
-| FollowedHyperlink | `11` | Navštívený hypertextový odkaz. |
+| Dark1 | `0` | Dark 1. |
+| Light1 | `1` | Light 1. |
+| Dark2 | `2` | Dark 2. |
+| Light2 | `3` | Light 2. |
+| Accent1 | `4` | Accent 1. |
+| Accent2 | `5` | Accent 2. |
+| Accent3 | `6` | Accent 3. |
+| Accent4 | `7` | Accent 4. |
+| Accent5 | `8` | Accent 5. |
+| Accent6 | `9` | Accent 6. |
+| Hyperlink | `10` | Hyperlink. |
+| FollowedHyperlink | `11` | Followed Hyperlink. |
 
 ### Viz také
 

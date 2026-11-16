@@ -1,12 +1,12 @@
 ---
 title: PresentationPlayer
-second_title: Aspose.Sildes pour .NET Référence de l'API
+second_title: Référence API Aspose.Sildes pour .NET
 description: Représente le lecteur d'animations associé à la Presentation../aspose.slides/presentation.
 type: docs
-weight: 4390
+weight: 4410
 url: /fr/aspose.slides.export/presentationplayer/
 ---
-## Classe PresentationPlayer
+## classe PresentationPlayer
 
 Représente le lecteur d'animations associé au [`Presentation`](../../aspose.slides/presentation).
 
@@ -30,13 +30,13 @@ public class PresentationPlayer : IDisposable
 
 | Nom | Description |
 | --- | --- |
-| [Dispose](../../aspose.slides.export/presentationplayer/dispose)() | Libère l'instance de [`PresentationPlayer`](../presentationplayer). |
+[Dispose](../../aspose.slides.export/presentationplayer/dispose)() | Libère l'instance de [`PresentationPlayer`](../presentationplayer). |
 
 ## Autres membres
 
 | Nom | Description |
 | --- | --- |
-| delegate [FrameTickHandler](presentationplayer.frametickhandler) | Représente le gestionnaire de tick de trame de l'événement [`FrameTick`](./frametick). |
+delegate [FrameTickHandler](presentationplayer.frametickhandler) | Représente le gestionnaire de tick de trame de l'événement [`FrameTick`](./frametick). |
 
 ### Exemples
 

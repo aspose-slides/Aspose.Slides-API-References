@@ -1,14 +1,14 @@
 ---
 title: ColorReplace
-second_title: Aspose.Sildes для .NET справка API
+second_title: Aspose.Sildes для .NET справки по API
 description: Представляет эффект замены цвета. Все цвета эффекта заменяются фиксированным цветом. Значения альфа не изменяются.
 type: docs
-weight: 2950
+weight: 2970
 url: /ru/aspose.slides.effects/colorreplace/
 ---
-## Класс ColorReplace
+## ColorReplace класс
 
-Represents a Color Replacement effect. All effect colors are changed to a fixed color. Alpha values are unaffected.
+Представляет эффект замены цвета. Все цвета эффекта заменяются фиксированным цветом. Значения альфа не изменяются.
 
 ```csharp
 public sealed class ColorReplace : ImageTransformOperation, IColorReplace
@@ -16,18 +16,18 @@ public sealed class ColorReplace : ImageTransformOperation, IColorReplace
 
 ## Свойства
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 | [Color](../../aspose.slides.effects/colorreplace/color) { get; } | Возвращает формат цвета, который заменит цвет каждого пикселя. Только для чтения [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ## Методы
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/colorreplace/equals)(object) | Определяет, равен ли указанный [`ColorReplace`](../colorreplace) текущему [`ColorReplace`](../colorreplace). |
 | [GetEffective](../../aspose.slides.effects/colorreplace/geteffective)() | Получает эффективные данные эффекта замены цвета с учётом наследования. |
-| override [GetHashCode](../../aspose.slides.effects/colorreplace/gethashcode)() | Служит хеш-функцией для конкретного типа. |
+| override [GetHashCode](../../aspose.slides.effects/colorreplace/gethashcode)() | Работает как хеш-функция для конкретного типа. |
 
 ### См. также
 

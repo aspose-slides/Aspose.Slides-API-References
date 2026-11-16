@@ -1,9 +1,9 @@
 ---
 title: SmartArtNodeCollection
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes for .NET API Referansı
 description: SmartArt düğümlerinin bir koleksiyonunu temsil eder.
 type: docs
-weight: 10640
+weight: 10660
 url: /tr/aspose.slides.smartart/smartartnodecollection/
 ---
 ## SmartArtNodeCollection sınıfı
@@ -18,23 +18,23 @@ public sealed class SmartArtNodeCollection : ISmartArtNodeCollection
 
 | Ad | Açıklama |
 | --- | --- |
-| [Count](../../aspose.slides.smartart/smartartnodecollection/count) { get; } | Koleksiyondaki düğümlerin sayısını döndürür Read-only Int32 Read-only Int32. |
-| [IsSynchronized](../../aspose.slides.smartart/smartartnodecollection/issynchronized) { get; } | Koleksiyona erişimin senkronize (iş parçacığı güvenli) olup olmadığını gösteren bir değer döndürür. Read-only Boolean. |
-| [Item](../../aspose.slides.smartart/smartartnodecollection/item) { get; } | Düğümü indeks ile döndürür |
+| [Count](../../aspose.slides.smartart/smartartnodecollection/count) { get; } | Koleksiyondaki düğüm sayısını döndürür Read-only Int32 Read-only Int32. |
+| [IsSynchronized](../../aspose.slides.smartart/smartartnodecollection/issynchronized) { get; } | Koleksiyona erişimin senkronize olup olmadığını gösteren bir değer döndürür (thread-safe). Read-only Boolean. |
+| [Item](../../aspose.slides.smartart/smartartnodecollection/item) { get; } | İndekse göre düğümü döndürür |
 | [SyncRoot](../../aspose.slides.smartart/smartartnodecollection/syncroot) { get; } | Bir senkronizasyon kökü döndürür. Read-only Object. |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [AddNode](../../aspose.slides.smartart/smartartnodecollection/addnode)() | Yeni bir smart art düğümü veya alt düğüm ekler. |
+| [AddNode](../../aspose.slides.smartart/smartartnodecollection/addnode)() | Yeni bir SmartArt düğümü veya alt düğüm ekler. |
 | [AddNodeByPosition](../../aspose.slides.smartart/smartartnodecollection/addnodebyposition)(int) | Düğümler koleksiyonunda seçilen konuma yeni bir düğüm ekler |
-| [CopyTo](../../aspose.slides.smartart/smartartnodecollection/copyto)(Array, int) | Koleksiyondaki tüm öğeleri belirtilen diziye kopyalar. |
-| [GetEnumerator](../../aspose.slides.smartart/smartartnodecollection/getenumerator)() | Koleksiyon içinde yineleme yapan bir enumerator döndürür. |
-| [RemoveNode](../../aspose.slides.smartart/smartartnodecollection/removenode#removenode_1)(int) | Düğümü veya alt düğümü indeks ile kaldırır |
-| [RemoveNode](../../aspose.slides.smartart/smartartnodecollection/removenode#removenode)(ISmartArtNode) | Düğümü veya alt düğümü kaldırır |
+| [CopyTo](../../aspose.slides.smartart/smartartnodecollection/copyto)(Array, int) | Tüm öğeleri koleksiyondan belirtilen diziye kopyalar. |
+| [GetEnumerator](../../aspose.slides.smartart/smartartnodecollection/getenumerator)() | Koleksiyonun üzerinden yineleyen bir enumerator döndürür. |
+| [RemoveNode](../../aspose.slides.smartart/smartartnodecollection/removenode#removenode_1)(int) | İndekse göre düğüm veya alt düğüm kaldırır |
+| [RemoveNode](../../aspose.slides.smartart/smartartnodecollection/removenode#removenode)(ISmartArtNode) | Düğüüm veya alt düğüm kaldırır |
 
-### Diğer Bağlantılar
+### Ayrıca Bakınız
 
 * arayüz [ISmartArtNodeCollection](../ismartartnodecollection)
 * ad alanı [Aspose.Slides.SmartArt](../../aspose.slides.smartart)

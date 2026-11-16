@@ -1,14 +1,14 @@
 ---
 title: IShapeFrame
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar shape-ramens egenskaper.
+description: Representerar egenskaper för formramar.
 type: docs
-weight: 7000
+weight: 7020
 url: /sv/aspose.slides/ishapeframe/
 ---
 ## IShapeFrame gränssnitt
 
-Representerar shape-ramens egenskaper.
+Representerar egenskaperna för en formram.
 
 ```csharp
 public interface IShapeFrame : IGenericCloneable<IShapeFrame>
@@ -18,16 +18,16 @@ public interface IShapeFrame : IGenericCloneable<IShapeFrame>
 
 | Namn | Beskrivning |
 | --- | --- |
-| [CenterX](../../aspose.slides/ishapeframe/centerx) { get; } | Returnerar X-koordinaten för ramens centrum. Skrivskyddad Single. |
-| [CenterY](../../aspose.slides/ishapeframe/centery) { get; } | Returnerar Y-koordinaten för ramens centrum. Skrivskyddad Single. |
-| [FlipH](../../aspose.slides/ishapeframe/fliph) { get; } | Bestämmer om en ram är vänd horisontellt. Skrivskyddad [`NullableBool`](../nullablebool). |
-| [FlipV](../../aspose.slides/ishapeframe/flipv) { get; } | Bestämmer om en ram är vänd vertikalt. Skrivskyddad [`NullableBool`](../nullablebool). |
+| [CenterX](../../aspose.slides/ishapeframe/centerx) { get; } | Returnerar X-koordinaten för en rams centrum. Skrivskyddad Single. |
+| [CenterY](../../aspose.slides/ishapeframe/centery) { get; } | Returnerar Y-koordinaten för en rams centrum. Skrivskyddad Single. |
+| [FlipH](../../aspose.slides/ishapeframe/fliph) { get; } | Avgör om en ram är vänd horisontellt. Skrivskyddad [`NullableBool`](../nullablebool). |
+| [FlipV](../../aspose.slides/ishapeframe/flipv) { get; } | Avgör om en ram är vänd vertikalt. Skrivskyddad [`NullableBool`](../nullablebool). |
 | [Height](../../aspose.slides/ishapeframe/height) { get; } | Returnerar ramens höjd. Skrivskyddad Single. |
-| [Rectangle](../../aspose.slides/ishapeframe/rectangle) { get; } | Returnerar ramens koordinater. Skrivskyddad RectangleF. |
-| [Rotation](../../aspose.slides/ishapeframe/rotation) { get; } | Returnerar antalet grader som en ram roteras runt z-axeln. Ett positivt värde indikerar medursrotation; ett negativt värde indikerar motursrotation. Skrivskyddad Single. |
+| [Rectangle](../../aspose.slides/ishapeframe/rectangle) { get; } | Returnerar koordinaterna för en ram. Skrivskyddad RectangleF. |
+| [Rotation](../../aspose.slides/ishapeframe/rotation) { get; } | Returnerar antalet grader som en ram roterar kring z-axeln. Ett positivt värde indikerar medurs rotation; ett negativt värde indikerar moturs rotation. Skrivskyddad Single. |
 | [Width](../../aspose.slides/ishapeframe/width) { get; } | Returnerar ramens bredd. Skrivskyddad Single. |
-| [X](../../aspose.slides/ishapeframe/x) { get; } | Returnerar X-koordinaten för ramens övre vänstra hörn. Skrivskyddad Single. |
-| [Y](../../aspose.slides/ishapeframe/y) { get; } | Returnerar Y-koordinaten för ramens övre vänstra hörn. Skrivskyddad Single. |
+| [X](../../aspose.slides/ishapeframe/x) { get; } | Returnerar X-koordinaten för det övre vänstra hörnet av en ram. Skrivskyddad Single. |
+| [Y](../../aspose.slides/ishapeframe/y) { get; } | Returnerar Y-koordinaten för det övre vänstra hörnet av en ram. Skrivskyddad Single. |
 
 ### Se även
 

@@ -3,7 +3,7 @@ title: FontSubstRuleCollection
 second_title: Aspose.Sildes .NET API 参考
 description: 表示字体替换的集合。
 type: docs
-weight: 4900
+weight: 4920
 url: /zh/aspose.slides/fontsubstrulecollection/
 ---
 ## FontSubstRuleCollection 类
@@ -14,16 +14,15 @@ url: /zh/aspose.slides/fontsubstrulecollection/
 public class FontSubstRuleCollection : IFontSubstRuleCollection
 ```
 
-
 ## 构造函数
 
-| Name | Description |
+| 名称 | 描述 |
 | --- | --- |
 | [FontSubstRuleCollection](fontsubstrulecollection)() | 默认构造函数。 |
 
 ## 属性
 
-| Name | Description |
+| 名称 | 描述 |
 | --- | --- |
 | [Count](../../aspose.slides/fontsubstrulecollection/count) { get; } | 获取集合中实际包含的元素数量。只读 Int32。 |
 | [IsSynchronized](../../aspose.slides/fontsubstrulecollection/issynchronized) { get; } | 返回一个值，指示对集合的访问是否已同步（线程安全）。只读 Boolean。 |
@@ -32,14 +31,14 @@ public class FontSubstRuleCollection : IFontSubstRuleCollection
 
 ## 方法
 
-| Name | Description |
+| 名称 | 描述 |
 | --- | --- |
-| [Add](../../aspose.slides/fontsubstrulecollection/add)(IFontSubstRule) | 向集合中添加新的字体替换规则 |
-| [CopyTo](../../aspose.slides/fontsubstrulecollection/copyto)(Array, int) | 将集合中的所有元素复制到指定数组。 |
-| [GetEnumerator](../../aspose.slides/fontsubstrulecollection/getenumerator)() | 返回一个遍历集合的枚举器。 |
-| [Remove](../../aspose.slides/fontsubstrulecollection/remove)(IFontSubstRule) | 从集合中移除首次出现的特定对象。 |
+| [Add](../../aspose.slides/fontsubstrulecollection/add)(IFontSubstRule) | 将新的字体替换规则添加到集合中 |
+| [CopyTo](../../aspose.slides/fontsubstrulecollection/copyto)(Array, int) | 将集合中的所有元素复制到指定的数组。 |
+| [GetEnumerator](../../aspose.slides/fontsubstrulecollection/getenumerator)() | 返回一个用于遍历集合的枚举器。 |
+| [Remove](../../aspose.slides/fontsubstrulecollection/remove)(IFontSubstRule) | 从集合中移除特定对象的第一次出现。 |
 
-### 另请参阅
+### 另见
 
 * 接口 [IFontSubstRuleCollection](../ifontsubstrulecollection)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

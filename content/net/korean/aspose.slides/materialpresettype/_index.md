@@ -1,14 +1,14 @@
 ---
 title: MaterialPresetType
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 형태의 재질을 정의하는 상수.
+description: 모양의 재질을 정의하는 상수입니다.
 type: docs
-weight: 8060
+weight: 8080
 url: /ko/aspose.slides/materialpresettype/
 ---
 ## MaterialPresetType 열거형
 
-형상의 재질을 정의하는 상수.
+모양의 재질을 정의하는 상수입니다.
 
 ```csharp
 public enum MaterialPresetType

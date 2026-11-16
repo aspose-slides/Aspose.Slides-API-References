@@ -1,9 +1,9 @@
 ---
 title: IInnerShadowEffectiveData
-second_title: Référence API Aspose.Sildes pour .NET
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Objet immuable qui représente un effet d'ombre interne.
 type: docs
-weight: 3430
+weight: 3450
 url: /fr/aspose.slides.effects/iinnershadoweffectivedata/
 ---
 ## IInnerShadowEffectiveData interface
@@ -19,7 +19,7 @@ public interface IInnerShadowEffectiveData : IEffectEffectiveData
 | Nom | Description |
 | --- | --- |
 | [AsIEffectEffectiveData](../../aspose.slides.effects/iinnershadoweffectivedata/asieffecteffectivedata) { get; } | Permet d'obtenir l'interface de base IEffectEffectiveData. Lecture seule [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [BlurRadius](../../aspose.slides.effects/iinnershadoweffectivedata/blurradius) { get; } | Rayon de flou. Lecture seule Double. |
+| [BlurRadius](../../aspose.slides.effects/iinnershadoweffectivedata/blurradius) { get; } | Rayon du flou. Lecture seule Double. |
 | [Direction](../../aspose.slides.effects/iinnershadoweffectivedata/direction) { get; } | Direction de l'ombre. Lecture seule Single. |
 | [Distance](../../aspose.slides.effects/iinnershadoweffectivedata/distance) { get; } | Distance de l'ombre. Lecture seule Double. |
 | [ShadowColor](../../aspose.slides.effects/iinnershadoweffectivedata/shadowcolor) { get; } | Couleur de l'ombre. Lecture seule Color. |

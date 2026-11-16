@@ -3,7 +3,7 @@ title: LayoutSlideThemeManager
 second_title: Aspose.Sildes para .NET Referência da API
 description: Fornece acesso ao tema de slide de layout sobrescrito.
 type: docs
-weight: 11410
+weight: 11430
 url: /pt/aspose.slides.theme/layoutslidethememanager/
 ---
 ## LayoutSlideThemeManager classe
@@ -16,21 +16,21 @@ public class LayoutSlideThemeManager : BaseOverrideThemeManager
 
 ## Propriedades
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Determina se OverrideTheme sobrescreve o tema efetivo herdado ou não. Para habilitar OverrideTheme para sobrescrita, use os métodos OverrideTheme.Init*(). Para desabilitar OverrideTheme de sobrescrita, use o método OverrideTheme.Clear(). Só de leitura Boolean. |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Determina se OverrideTheme sobrescreve o tema efetivo herdado ou não. Para habilitar OverrideTheme para sobrescrita, use os métodos OverrideTheme.Init*(). Para desabilitar OverrideTheme de sobrescrita, use o método OverrideTheme.Clear(). Boolean somente leitura. |
 | [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Retorna o objeto de tema sobrescrito. Leitura/gravação [`IOverrideTheme`](../ioverridetheme). |
 
 ## Métodos
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
 | [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | Aplica esquema de cores extra a um slide. |
 | [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | Retorna o objeto de tema. |
 
 ### Veja Também
 
-* class [BaseOverrideThemeManager](../baseoverridethememanager)
+* classe [BaseOverrideThemeManager](../baseoverridethememanager)
 * namespace [Aspose.Slides.Theme](../../aspose.slides.theme)
 * assembly [Aspose.Slides](../../)
 

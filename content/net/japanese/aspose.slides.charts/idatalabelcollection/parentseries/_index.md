@@ -1,14 +1,14 @@
 ---
 title: ParentSeries
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: 親チャート系列を返します。読み取り専用 IChartSeriesaspose.slides.charts/ichartseries.
 type: docs
-weight: 90
+weight: 100
 url: /ja/aspose.slides.charts/idatalabelcollection/parentseries/
 ---
 ## IDataLabelCollection.ParentSeries プロパティ
 
-親チャート系列を返します。読み取り専用 [`IChartSeries`](../../ichartseries)。
+親チャート系列を返します。読み取り専用 [`IChartSeries`](../../ichartseries).
 
 ```csharp
 public IChartSeries ParentSeries { get; }

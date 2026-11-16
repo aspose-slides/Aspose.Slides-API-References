@@ -1,20 +1,20 @@
 ---
 title: TextFrameForOverriding
-second_title: Aspose.Sildes para .NET Referência da API
-description: Pode conter um texto formatado enriquecido. Se esta propriedade não for nula, então esse valor de texto formatado substitui o texto gerado automaticamente do rótulo de dados. Texto gerado automaticamente do rótulo de dados significa o texto que é gerenciado pelas propriedades ShowSeriesName ShowValue ... e é formatado com a propriedade TextFormatManager.TextFormat. Somente leitura ITextFrameaspose.slides/itextframe.
+second_title: Referência da API Aspose.Sildes para .NET
+description: Pode conter um texto formatado rico. Se esta propriedade não for nula, então este valor de texto formatado substitui o texto gerado automaticamente do rótulo de dados. Texto gerado automaticamente do rótulo de dados significa o texto que é gerenciado pelas propriedades ShowSeriesName ShowValue ... e é formatado com a propriedade TextFormatManager.TextFormat. Somente leitura ITextFrameaspose.slides/itextframe.
 type: docs
-weight: 130
+weight: 140
 url: /pt/aspose.slides.charts/datalabel/textframeforoverriding/
 ---
 ## Propriedade DataLabel.TextFrameForOverriding
 
-Pode conter um texto formatado enriquecido. Se esta propriedade não for nula, então esse valor de texto formatado substitui o texto gerado automaticamente do rótulo de dados. Texto gerado automaticamente do rótulo de dados significa o texto gerenciado pelas propriedades ShowSeriesName, ShowValue, ... e formatado com a propriedade TextFormatManager.TextFormat. Somente leitura [`ITextFrame`](../../../aspose.slides/itextframe).
+Pode conter um texto formatado rico. Se esta propriedade não for nula, então este valor de texto formatado substitui o texto gerado automaticamente do rótulo de dados. Texto gerado automaticamente do rótulo de dados significa o texto que é gerenciado pelas propriedades ShowSeriesName, ShowValue, ... e é formatado com a propriedade TextFormatManager.TextFormat. Somente leitura [`ITextFrame`](../../../aspose.slides/itextframe).
 
 ```csharp
 public ITextFrame TextFrameForOverriding { get; }
 ```
 
-### Veja Também
+### Veja também
 
 * interface [ITextFrame](../../../aspose.slides/itextframe)
 * classe [DataLabel](../../datalabel)

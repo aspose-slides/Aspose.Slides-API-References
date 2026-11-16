@@ -1,14 +1,14 @@
 ---
 title: OleEmbeddedDataInfo
-second_title: Aspose.Sildes .NET API referencia
-description: Az OLE objektum beágyazott adatinformációját reprezentálja.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Az OLE objektum beágyazott adatainak információját képviseli.
 type: docs
-weight: 2760
+weight: 2780
 url: /hu/aspose.slides.dom.ole/oleembeddeddatainfo/
 ---
 ## OleEmbeddedDataInfo osztály
 
-Az OLE objektum beágyazott adatinformációját reprezentálja.
+Az OLE objektum beágyazott adatainak információját képviseli.
 
 ```csharp
 public class OleEmbeddedDataInfo : IOleEmbeddedDataInfo
@@ -18,15 +18,15 @@ public class OleEmbeddedDataInfo : IOleEmbeddedDataInfo
 
 | Név | Leírás |
 | --- | --- |
-| [OleEmbeddedDataInfo](oleembeddeddatainfo#constructor)() | Új beágyazott adatinformációt hoz létre egy OLE objektumhoz. |
-| [OleEmbeddedDataInfo](oleembeddeddatainfo#constructor_1)(byte[], string) | Új példányt hoz létre egy beágyazott adatinformációból egy OLE objektumhoz. Beágyazott OLE objektum fájladat Byte[]. Az aktuális beágyazott OLE objektum fájlkiterjesztése String. |
+| [OleEmbeddedDataInfo](oleembeddeddatainfo#constructor)() | Új beágyazott adat információt hoz létre az OLE objektumhoz. |
+| [OleEmbeddedDataInfo](oleembeddeddatainfo#constructor_1)(byte[], string) | Új példányt hoz létre egy beágyazott adat információból az OLE objektumhoz. A beágyazott OLE objektum fájladatuma Byte[]. A jelenlegi beágyazott OLE objektum fájlkiterjesztése String. |
 
 ## Tulajdonságok
 
 | Név | Leírás |
 | --- | --- |
-| [EmbeddedFileData](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfiledata) { get; } | Visszaadja egy beágyazott OLE objektum fájladatát. Csak olvasható Byte[]. |
-| [EmbeddedFileExtension](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfileextension) { get; } | Visszaadja az aktuális beágyazott OLE objektum fájlkiterjesztését. Csak olvasható String. |
+| [EmbeddedFileData](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfiledata) { get; } | Visszaadja a beágyazott OLE objektum fájladatát. Csak olvasható Byte[]. |
+| [EmbeddedFileExtension](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfileextension) { get; } | Visszaadja a jelenlegi beágyazott OLE objektum fájlkiterjesztését. Csak olvasható String. |
 
 ### Lásd még
 

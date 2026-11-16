@@ -1,12 +1,12 @@
 ---
 title: IGifOptions
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: GIF dışa aktarma seçeneklerini temsil eder.
 type: docs
-weight: 3920
+weight: 3940
 url: /tr/aspose.slides.export/igifoptions/
 ---
-## IGifOptions arabirimi
+## IGifOptions arayüz
 
 GIF dışa aktarma seçeneklerini temsil eder.
 
@@ -18,15 +18,15 @@ public interface IGifOptions : ISaveOptions
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/igifoptions/asisaveoptions) { get; } | ISaveOptions arabirimini döndürür. Salt okunur [`ISaveOptions`](../isaveoptions). |
-| [DefaultDelay](../../aspose.slides.export/igifoptions/defaultdelay) { get; set; } | Varsayılan gecikme süresini [ms] alır ya da ayarlar. Bu değer, [`AdvanceAfterTime`](../../aspose.slides/islideshowtransition/advanceaftertime) ayarlanmamışsa kullanılır. Varsayılan değer 1000’tir. |
-| [ExportHiddenSlides](../../aspose.slides.export/igifoptions/exporthiddenslides) { get; set; } | Gizli slaytların dışa aktarılıp aktarılmayacağını belirler. Varsayılan değer false’tur. |
-| [FrameSize](../../aspose.slides.export/igifoptions/framesize) { get; set; } | Çerçeve boyutunu alır ya da ayarlar. |
-| [TransitionFps](../../aspose.slides.export/igifoptions/transitionfps) { get; set; } | Geçiş FPS [çerçeve/sn] alır ya da ayarlar. Varsayılan değer 25’tir. |
+| [AsISaveOptions](../../aspose.slides.export/igifoptions/asisaveoptions) { get; } | ISaveOptions arabirimini döndürür. Salt-okunur [`ISaveOptions`](../isaveoptions). |
+| [DefaultDelay](../../aspose.slides.export/igifoptions/defaultdelay) { get; set; } | Varsayılan gecikme süresini [ms] alır veya ayarlar. Bu değer [`AdvanceAfterTime`](../../aspose.slides/islideshowtransition/advanceaftertime) ayarlanmamışsa kullanılacaktır. Varsayılan değer 1000. |
+| [ExportHiddenSlides](../../aspose.slides.export/igifoptions/exporthiddenslides) { get; set; } | Gizli slaytların dışa aktarılıp aktarılmayacağını belirler. Varsayılan değer false. |
+| [FrameSize](../../aspose.slides.export/igifoptions/framesize) { get; set; } | Çerçeve boyutunu alır veya ayarlar. |
+| [TransitionFps](../../aspose.slides.export/igifoptions/transitionfps) { get; set; } | Geçiş FPS'sini [frames/sec] alır veya ayarlar. Varsayılan değer 25. |
 
-### Ayrıca Bakınız
+### Diğer Bağlantılar
 
-* arabirim [ISaveOptions](../isaveoptions)
+* arayüz [ISaveOptions](../isaveoptions)
 * ad alanı [Aspose.Slides.Export](../../aspose.slides.export)
 * derleme [Aspose.Slides](../../)
 

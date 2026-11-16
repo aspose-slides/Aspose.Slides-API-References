@@ -1,14 +1,14 @@
 ---
 title: GetFontBytes
-second_title: Aspose.Slides için .NET API Referansı
-description: Belirtilen bir yazı tipi stili ve yazı tipi verisi için yazı tipi verisini temsil eden bayt dizisini alır.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Belirli bir yazı tipi stili ve yazı tipi verisi için yazı tipi verisini temsil eden bayt dizisini alır.
 type: docs
-weight: 50
+weight: 60
 url: /tr/aspose.slides/ifontsmanager/getfontbytes/
 ---
 ## IFontsManager.GetFontBytes metodu
 
-Belirtilen bir yazı tipi stili ve yazı tipi verisi için yazı tipi verisini temsil eden bayt dizisini alır.
+Belirli bir yazı tipi stili ve yazı tipi verisi için yazı tipi verisini temsil eden bayt dizisini alır.
 
 ```csharp
 public byte[] GetFontBytes(IFontData fontData, FontStyleType fontStyle)
@@ -16,7 +16,7 @@ public byte[] GetFontBytes(IFontData fontData, FontStyleType fontStyle)
 
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| fontData | IFontData | Yazı tipi hakkında bilgileri içeren yazı tipi veri nesnesi [`IFontData`](../../ifontdata). |
+| fontData | IFontData | Yazı tipi hakkında bilgi içeren yazı tipi veri nesnesi [`IFontData`](../../ifontdata). |
 | fontStyle | FontStyleType | Verisinin alınacağı yazı tipi stili [`FontStyleType`](../../fontstyletype). |
 
 ### Dönüş Değeri
@@ -29,7 +29,7 @@ Belirtilen yazı tipi stili için yazı tipi verisini içeren bir bayt dizisi. Y
 [C#]
 using (Presentation pres = new Presentation ("Presentation.pptx"))
 {
-    // Sunumdaki kullanılan tüm yazı tiplerini al
+    // Sunumda kullanılan tüm yazı tiplerini al
     IFontData[] fonts = pres.FontsManager.GetFonts();
 
     // Sunumdaki ilk yazı tipinin normal stilini temsil eden bayt dizisini al
@@ -37,7 +37,7 @@ using (Presentation pres = new Presentation ("Presentation.pptx"))
 }
 ```
 
-### Diğer
+### Ayrıca Bakınız
 
 * arayüz [IFontData](../../ifontdata)
 * enum [FontStyleType](../../fontstyletype)

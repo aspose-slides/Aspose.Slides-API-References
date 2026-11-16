@@ -1,14 +1,14 @@
 ---
 title: Remove
-second_title: Aspose.Sildes için .NET API Referansı
-description: Veri noktasını grafik serisinden kaldırır.
+second_title: Aspose.Sildes for .NET API Referansı
+description: DataPoint'ı grafik serisinden kaldırır.
 type: docs
-weight: 230
+weight: 270
 url: /tr/aspose.slides.charts/chartdatapoint/remove/
 ---
 ## ChartDataPoint.Remove yöntemi
 
-Grafik serisinden DataPoint öğesini kaldırır.
+DataPoint'ı grafik serisinden kaldırır.
 
 ```csharp
 public void Remove()
@@ -18,7 +18,7 @@ public void Remove()
 
 | istisna | koşul |
 | --- | --- |
-| [PptxEditException](../../../aspose.slides/pptxeditexception) | Veri noktasının zaten grafik serisinden kaldırılmış olması durumunda fırlatılır. |
+| [PptxEditException](../../../aspose.slides/pptxeditexception) | DataPoint zaten grafik serisinden kaldırılmışsa fırlatılır. |
 
 ### Ayrıca Bakınız
 

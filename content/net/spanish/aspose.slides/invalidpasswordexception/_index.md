@@ -1,9 +1,9 @@
 ---
 title: InvalidPasswordException
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Referencia API de Aspose.Sildes para .NET
 description: Excepción que se lanza cuando el formato del archivo de presentación no es compatible.
 type: docs
-weight: 7620
+weight: 7640
 url: /es/aspose.slides/invalidpasswordexception/
 ---
 ## InvalidPasswordException clase

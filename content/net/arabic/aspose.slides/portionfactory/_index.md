@@ -1,9 +1,9 @@
 ---
 title: PortionFactory
-second_title: Aspose.Sildes مرجع API لـ .NET
+second_title: Aspose.Sildes لـ .NET مرجع API
 description: يسمح بإنشاء أجزاء اختبار
 type: docs
-weight: 9480
+weight: 9500
 url: /ar/aspose.slides/portionfactory/
 ---
 ## PortionFactory فئة
@@ -30,7 +30,7 @@ public class PortionFactory : IPortionFactory
 
 ### ملاحظات
 
-من أجل توافق COM
+للتوافق مع COM
 
 ### انظر أيضًا
 

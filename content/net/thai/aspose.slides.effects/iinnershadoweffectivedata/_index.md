@@ -1,14 +1,14 @@
 ---
 title: IInnerShadowEffectiveData
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: อ็อบเจ็กต์ไม่เปลี่ยนแปลงซึ่งเป็นตัวแทนของเอฟเฟ็กต์เงาภายใน
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งแทนค่าผลกระทบเงาภายใน
 type: docs
-weight: 3430
+weight: 3450
 url: /th/aspose.slides.effects/iinnershadoweffectivedata/
 ---
-## IInnerShadowEffectiveData interface
+## IInnerShadowEffectiveData อินเทอร์เฟซ
 
-อ็อบเจ็กต์ไม่เปลี่ยนแปลงซึ่งเป็นตัวแทนของเอฟเฟ็กต์เงาภายใน
+อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งแทนค่าผลกระทบเงาภายใน
 
 ```csharp
 public interface IInnerShadowEffectiveData : IEffectEffectiveData
@@ -18,8 +18,8 @@ public interface IInnerShadowEffectiveData : IEffectEffectiveData
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/iinnershadoweffectivedata/asieffecteffectivedata) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IEffectEffectiveData พื้นฐานได้. อ่านอย่างเดียว [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [BlurRadius](../../aspose.slides.effects/iinnershadoweffectivedata/blurradius) { get; } | รัศมีการเบลอ. อ่านอย่างเดียว Double. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/iinnershadoweffectivedata/asieffecteffectivedata) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IEffectEffectiveData เบส. อ่านอย่างเดียว [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [BlurRadius](../../aspose.slides.effects/iinnershadoweffectivedata/blurradius) { get; } | รัศมีเบลอ. อ่านอย่างเดียว Double. |
 | [Direction](../../aspose.slides.effects/iinnershadoweffectivedata/direction) { get; } | ทิศทางของเงา. อ่านอย่างเดียว Single. |
 | [Distance](../../aspose.slides.effects/iinnershadoweffectivedata/distance) { get; } | ระยะทางของเงา. อ่านอย่างเดียว Double. |
 | [ShadowColor](../../aspose.slides.effects/iinnershadoweffectivedata/shadowcolor) { get; } | สีของเงา. อ่านอย่างเดียว Color. |

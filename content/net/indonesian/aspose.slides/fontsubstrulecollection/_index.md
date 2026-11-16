@@ -1,9 +1,9 @@
 ---
 title: FontSubstRuleCollection
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili koleksi substitusi font.
 type: docs
-weight: 4900
+weight: 4920
 url: /id/aspose.slides/fontsubstrulecollection/
 ---
 ## FontSubstRuleCollection kelas
@@ -16,24 +16,24 @@ public class FontSubstRuleCollection : IFontSubstRuleCollection
 
 ## Konstruktor
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
 | [FontSubstRuleCollection](fontsubstrulecollection)() | Konstruktor default. |
 
 ## Properti
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides/fontsubstrulecollection/count) { get; } | Mendapatkan jumlah elemen yang sebenarnya terkandung dalam koleksi. Hanya-baca Int32. |
-| [IsSynchronized](../../aspose.slides/fontsubstrulecollection/issynchronized) { get; } | Mengembalikan nilai yang menunjukkan apakah akses ke koleksi disinkronkan (thread-safe). Hanya-baca Boolean. |
+| [Count](../../aspose.slides/fontsubstrulecollection/count) { get; } | Mendapatkan jumlah elemen yang sebenarnya terkandung dalam koleksi. Read-only Int32. |
+| [IsSynchronized](../../aspose.slides/fontsubstrulecollection/issynchronized) { get; } | Mengembalikan nilai yang menunjukkan apakah akses ke koleksi disinkronkan (thread-safe). Read-only Boolean. |
 | [Item](../../aspose.slides/fontsubstrulecollection/item) { get; } | Mendapatkan elemen pada indeks yang ditentukan. |
-| [SyncRoot](../../aspose.slides/fontsubstrulecollection/syncroot) { get; } | Mengembalikan akar sinkronisasi. Hanya-baca Object. |
+| [SyncRoot](../../aspose.slides/fontsubstrulecollection/syncroot) { get; } | Mengembalikan akar sinkronisasi. Read-only Object. |
 
 ## Metode
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
-| [Add](../../aspose.slides/fontsubstrulecollection/add)(IFontSubstRule) | Menambahkan aturan substitusi font baru ke koleksi |
+| [Add](../../aspose.slides/fontsubstrulecollection/add)(IFontSubstRule) | Menambahkan aturan substitusi font baru ke dalam koleksi |
 | [CopyTo](../../aspose.slides/fontsubstrulecollection/copyto)(Array, int) | Menyalin semua elemen dari koleksi ke array yang ditentukan. |
 | [GetEnumerator](../../aspose.slides/fontsubstrulecollection/getenumerator)() | Mengembalikan enumerator yang mengiterasi koleksi. |
 | [Remove](../../aspose.slides/fontsubstrulecollection/remove)(IFontSubstRule) | Menghapus kemunculan pertama dari objek tertentu dalam koleksi. |

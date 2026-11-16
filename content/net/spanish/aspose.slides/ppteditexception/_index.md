@@ -3,12 +3,12 @@ title: PptEditException
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa una excepción lanzada cuando se detecta un error al editar la presentación.
 type: docs
-weight: 9510
+weight: 9530
 url: /es/aspose.slides/ppteditexception/
 ---
 ## PptEditException clase
 
-Representa una excepción lanzada cuando se detecta un error al editar la presentación.
+Representa una excepción lanzada cuando se detecta un error de edición de la presentación.
 
 ```csharp
 public class PptEditException : PptException
@@ -19,7 +19,7 @@ public class PptEditException : PptException
 | Nombre | Descripción |
 | --- | --- |
 | [PptEditException](ppteditexception#constructor)() | Constructor predeterminado. |
-| [PptEditException](ppteditexception#constructor_1)(string) | Constructor que permite agregar un mensaje a esta excepción. |
+| [PptEditException](ppteditexception#constructor_1)(string) | Constructor que permite añadir un mensaje a esta excepción. |
 | [PptEditException](ppteditexception#constructor_2)(string, Exception) | Constructor para una excepción que contiene un mensaje y una excepción incrustada. |
 
 ### Ver también

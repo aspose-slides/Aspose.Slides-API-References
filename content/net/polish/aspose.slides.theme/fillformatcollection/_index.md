@@ -1,9 +1,9 @@
 ---
 title: FillFormatCollection
-second_title: Aspose.Sildes dla .NET - referencja API
+second_title: Aspose.Sildes dla .NET – referencja API
 description: Reprezentuje kolekcję stylów wypełnienia.
 type: docs
-weight: 11120
+weight: 11140
 url: /pl/aspose.slides.theme/fillformatcollection/
 ---
 ## FillFormatCollection klasa
@@ -18,10 +18,10 @@ public sealed class FillFormatCollection : DomObject<FormatScheme>, IFillFormatC
 
 | Nazwa | Opis |
 | --- | --- |
-| [Count](../../aspose.slides.theme/fillformatcollection/count) { get; } | Zwraca liczbę elementów rzeczywiście zawartych w kolekcji. tylko do odczytu Int32. |
-| [IsSynchronized](../../aspose.slides.theme/fillformatcollection/issynchronized) { get; } | Zwraca wartość wskazującą, czy dostęp do kolekcji jest zsynchronizowany (wątkowo bezpieczny). tylko do odczytu Boolean. |
-| [Item](../../aspose.slides.theme/fillformatcollection/item) { get; } | Zwraca element o określonym indeksie. tylko do odczytu [`IFillFormat`](../../aspose.slides/ifillformat). |
-| [SyncRoot](../../aspose.slides.theme/fillformatcollection/syncroot) { get; } | Zwraca korzeń synchronizacji. tylko do odczytu Object. |
+| [Count](../../aspose.slides.theme/fillformatcollection/count) { get; } | Zwraca liczbę elementów faktycznie znajdujących się w kolekcji. Tylko do odczytu Int32. |
+| [IsSynchronized](../../aspose.slides.theme/fillformatcollection/issynchronized) { get; } | Zwraca wartość wskazującą, czy dostęp do kolekcji jest synchronizowany (bezpieczny wątkowo). Tylko do odczytu Boolean. |
+| [Item](../../aspose.slides.theme/fillformatcollection/item) { get; } | Pobiera element o podanym indeksie. Tylko do odczytu [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [SyncRoot](../../aspose.slides.theme/fillformatcollection/syncroot) { get; } | Zwraca korzeń synchronizacji. Tylko do odczytu Object. |
 
 ## Metody
 

@@ -1,26 +1,26 @@
 ---
 title: PptCorruptFileException
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: ข้อยกเว้นที่ถูกโยนเมื่อไฟล์การนำเสนออาจเสียหาย
+second_title: Aspose.Sildes สำหรับ .NET การอ้างอิง API
+description: ข้อยกเว้นที่ถูกโยนเมื่อไฟล์งานนำเสนออาจเสียหาย
 type: docs
-weight: 9500
+weight: 9520
 url: /th/aspose.slides/pptcorruptfileexception/
 ---
 ## PptCorruptFileException คลาส
 
-ข้อยกเว้นที่ถูกโยนเมื่อไฟล์การนำเสนออาจจะเสียหาย
+ข้อยกเว้นที่ถูกโยนเมื่อไฟล์งานนำเสนอน่าจะเสียหาย
 
 ```csharp
 public class PptCorruptFileException : PptReadException
 ```
 
-## ตัวสร้าง
+## คอนสตรักเตอร์
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [PptCorruptFileException](pptcorruptfileexception#constructor)() | คอนสตรัคเตอร์เริ่มต้น. |
-| [PptCorruptFileException](pptcorruptfileexception#constructor_1)(string) | คอนสตรัคเตอร์ที่อนุญาตให้เพิ่มข้อความไปยังข้อยกเว้นนี้. |
-| [PptCorruptFileException](pptcorruptfileexception#constructor_2)(string, Exception) | คอนสตรัคเตอร์สำหรับข้อยกเว้นที่มีข้อความและข้อยกเว้นฝังอยู่. |
+| [PptCorruptFileException](pptcorruptfileexception#constructor)() | คอนสตรักเตอร์เริ่มต้น. |
+| [PptCorruptFileException](pptcorruptfileexception#constructor_1)(string) | คอนสตรักเตอร์ที่อนุญาตให้เพิ่มข้อความไปยังข้อยกเว้นนี้. |
+| [PptCorruptFileException](pptcorruptfileexception#constructor_2)(string, Exception) | คอนสตรักเตอร์สำหรับข้อยกเว้นที่มีข้อความและข้อยกเว้นที่ฝังอยู่. |
 
 ### ดูเพิ่มเติม
 

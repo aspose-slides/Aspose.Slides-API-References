@@ -1,25 +1,25 @@
 ---
 title: SensitivityLabelAssignmentType
-second_title: Aspose.Sildes pro .NET API Reference
-description: Representuje způsob přiřazení štítku citlivosti.
+second_title: Aspose.Sildes pro .NET API referenci
+description: Reprezentuje metodu přiřazení pro citlivostní štítek.
 type: docs
-weight: 9800
+weight: 9820
 url: /cs/aspose.slides/sensitivitylabelassignmenttype/
 ---
-## SensitivityLabelAssignmentType výčtový typ
+## SensitivityLabelAssignmentType výčet
 
-Representuje způsob přiřazení štítku citlivosti.
+Reprezentuje metodu přiřazení pro citlivostní štítek.
 
 ```csharp
 public enum SensitivityLabelAssignmentType
 ```
 
-### Values
+### Hodnoty
 
 | Název | Hodnota | Popis |
 | --- | --- | --- |
-| Standard | `0` | Používá se pro jakýkoli štítek citlivosti, který nebyl uživatelem přímo aplikován. To zahrnuje všechny výchozí štítky, automaticky aplikované štítky. |
-| Privileged | `1` | Používá se pro jakýkoli štítek citlivosti, který byl uživatelem přímo aplikován. To zahrnuje všechny ručně aplikované štítky citlivosti, stejně jako doporučené nebo povinné označování či jakoukoli funkci, kde uživatel rozhoduje, který štítek citlivosti použít. |
+| Standard | `0` | Použijte pro jakýkoli citlivostní štítek, který nebyl uživatelem přímo aplikován. To zahrnuje všechny výchozí štítky, automaticky aplikované štítky. |
+| Privileged | `1` | Použijte pro jakýkoli citlivostní štítek, který byl uživatelem přímo aplikován. To zahrnuje všechny ručně aplikované citlivostní štítky stejně jako doporučené nebo povinné označování nebo jakoukoli funkci, kde uživatel rozhoduje, který citlivostní štítek použít. |
 
 ### Viz také
 

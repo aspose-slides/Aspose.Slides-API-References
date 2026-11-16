@@ -1,9 +1,9 @@
 ---
 title: IProtectionManager
-second_title: Aspose.Sildes pro .NET – reference API
-description: Správa ochrany prezentace pomocí hesla.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Správa ochrany prezentace heslem.
 type: docs
-weight: 6820
+weight: 6840
 url: /cs/aspose.slides/iprotectionmanager/
 ---
 ## IProtectionManager rozhraní
@@ -16,24 +16,24 @@ public interface IProtectionManager
 
 ## Vlastnosti
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
-| [EncryptDocumentProperties](../../aspose.slides/iprotectionmanager/encryptdocumentproperties) { get; set; } | Tato vlastnost má smysl, pokud je prezentace chráněna heslem. Pokud je pravda, pak jsou vlastnosti dokumentu v souboru prezentace šifrovány. Pokud je nepravda, pak jsou vlastnosti dokumentu veřejné, zatímco je prezentace šifrována. Čtení/zápis Boolean. |
-| [EncryptionPassword](../../aspose.slides/iprotectionmanager/encryptionpassword) { get; } | Vrací šifrovací heslo. Pouze ke čtení String. |
-| [IsEncrypted](../../aspose.slides/iprotectionmanager/isencrypted) { get; } | Získá hodnotu určující, zda je tato instance šifrována. Pouze ke čtení Boolean. |
-| [IsOnlyDocumentPropertiesLoaded](../../aspose.slides/iprotectionmanager/isonlydocumentpropertiesloaded) { get; } | Tato vlastnost má smysl, pokud je soubor prezentace chráněn heslem a vlastnosti dokumentu tohoto souboru jsou veřejné. Hodnota true znamená, že jsou z šifrovaného souboru prezentace načteny pouze vlastnosti dokumentu bez použití hesla. Hodnota false znamená, že je načtena celá šifrovaná prezentace s použitím správného hesla, ne jen vlastnosti dokumentu. Pokud prezentace není šifrována, hodnota vlastnosti je vždy false. Pokud vlastnosti dokumentu šifrovaného souboru nejsou veřejné, hodnota vlastnosti je vždy false. Pokud je PresentationEx.EncryptDocumentProperties true, pak je hodnota vlastnosti IsOnlyDocumentPropertiesLoaded vždy false. Pouze ke čtení Boolean. |
-| [IsWriteProtected](../../aspose.slides/iprotectionmanager/iswriteprotected) { get; } | Získá hodnotu určující, zda je tato prezentace chráněna proti zápisu. Pouze ke čtení Boolean. |
-| [ReadOnlyRecommended](../../aspose.slides/iprotectionmanager/readonlyrecommended) { get; set; } | Získá nebo nastaví doporučení pro pouze pro čtení. Čtení/zápis Boolean. |
+| [EncryptDocumentProperties](../../aspose.slides/iprotectionmanager/encryptdocumentproperties) { get; set; } | Tato vlastnost dává smysl, pokud je prezentace chráněna heslem. Pokud je true, pak jsou vlastnosti dokumentu šifrovány v souboru prezentace. Pokud je false, pak jsou vlastnosti dokumentu veřejné, zatímco prezentace je šifrována. Číst / zapisovat Boolean. |
+| [EncryptionPassword](../../aspose.slides/iprotectionmanager/encryptionpassword) { get; } | Vrací šifrovací heslo. Pouze pro čtení String. |
+| [IsEncrypted](../../aspose.slides/iprotectionmanager/isencrypted) { get; } | Získá hodnotu určující, zda je tato instance šifrována. Pouze pro čtení Boolean. |
+| [IsOnlyDocumentPropertiesLoaded](../../aspose.slides/iprotectionmanager/isonlydocumentpropertiesloaded) { get; } | Tato vlastnost dává smysl, pokud je soubor prezentace chráněn heslem a vlastnosti dokumentu tohoto souboru jsou veřejné. Hodnota true znamená, že jsou načteny pouze vlastnosti dokumentu z šifrovaného souboru prezentace bez použití hesla. Hodnota false znamená, že je načtena celá šifrovaná prezentace s použitím správného hesla, nikoli jen vlastnosti dokumentu. Pokud prezentace není šifrována, hodnota vlastnosti je vždy false. Pokud vlastnosti dokumentu šifrovaného souboru nejsou veřejné, hodnota vlastnosti je vždy false. Pokud je PresentationEx.EncryptDocumentProperties true, pak hodnota vlastnosti IsOnlyDocumentPropertiesLoaded je vždy false. Pouze pro čtení Boolean. |
+| [IsWriteProtected](../../aspose.slides/iprotectionmanager/iswriteprotected) { get; } | Získá hodnotu určující, zda je tato prezentace chráněna proti zápisu. Pouze pro čtení Boolean. |
+| [ReadOnlyRecommended](../../aspose.slides/iprotectionmanager/readonlyrecommended) { get; set; } | Získá nebo nastaví doporučení jen ke čtení. Číst / zapisovat Boolean. |
 
 ## Metody
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
 | [CheckWriteProtection](../../aspose.slides/iprotectionmanager/checkwriteprotection)(string) | Určuje, zda je prezentace chráněna heslem pro úpravy. |
-| [Encrypt](../../aspose.slides/iprotectionmanager/encrypt)(string) | Zašifruje prezentaci pomocí zadaného hesla. |
+| [Encrypt](../../aspose.slides/iprotectionmanager/encrypt)(string) | Šifruje prezentaci zadaným heslem. |
 | [RemoveEncryption](../../aspose.slides/iprotectionmanager/removeencryption)() | Odstraňuje šifrování. |
 | [RemoveWriteProtection](../../aspose.slides/iprotectionmanager/removewriteprotection)() | Odstraňuje ochranu proti zápisu pro tuto prezentaci. |
-| [SetWriteProtection](../../aspose.slides/iprotectionmanager/setwriteprotection)(string) | Nastaví ochranu proti zápisu pro tuto prezentaci pomocí zadaného hesla. |
+| [SetWriteProtection](../../aspose.slides/iprotectionmanager/setwriteprotection)(string) | Nastaví ochranu proti zápisu pro tuto prezentaci se zadaným heslem. |
 
 ### Viz také
 

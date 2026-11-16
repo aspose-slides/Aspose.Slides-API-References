@@ -1,14 +1,14 @@
 ---
 title: ZoomImageType
-second_title: Aspose.Sildes for .NET API 參考
-description: 定義 Zoom 物件是使用投影片預覽還是封面圖像。
+second_title: Aspose.Sildes .NET API 參考文件
+description: 定義 Zoom 物件是使用投影片預覽還是封面影像。
 type: docs
-weight: 11850
+weight: 11870
 url: /zh-hant/aspose.slides/zoomimagetype/
 ---
 ## ZoomImageType 列舉
 
-定義 Zoom 物件是使用投影片預覽還是封面圖像。
+定義 Zoom 物件是使用投影片預覽還是封面影像。
 
 ```csharp
 public enum ZoomImageType
@@ -18,10 +18,10 @@ public enum ZoomImageType
 
 | 名稱 | 值 | 描述 |
 | --- | --- | --- |
-| Preview | `1` | 使用投影片或章節的影像。 |
-| Cover | `2` | 使用自訂圖像。 |
+| Preview | `1` | 使用投影片或區段的影像。 |
+| Cover | `2` | 使用自訂影像。 |
 
-### 另見
+### 另請參閱
 
 * 命名空間 [Aspose.Slides](../../aspose.slides)
 * 組件 [Aspose.Slides](../../)

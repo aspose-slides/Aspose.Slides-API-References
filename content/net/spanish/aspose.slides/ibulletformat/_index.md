@@ -1,9 +1,9 @@
 ---
 title: IBulletFormat
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa las propiedades de formato de viñetas del párrafo.
 type: docs
-weight: 5390
+weight: 5410
 url: /es/aspose.slides/ibulletformat/
 ---
 ## IBulletFormat interfaz
@@ -16,12 +16,12 @@ public interface IBulletFormat
 
 ## Propiedades
 
-| Name | Description |
+| Nombre | Descripción |
 | --- | --- |
 | [Char](../../aspose.slides/ibulletformat/char) { get; set; } | Devuelve o establece el carácter de viñeta de un párrafo sin herencia. Lectura/escritura Char. |
 | [Color](../../aspose.slides/ibulletformat/color) { get; } | Devuelve el formato de color de una viñeta de un párrafo sin herencia. Solo lectura [`IColorFormat`](../icolorformat). |
 | [Font](../../aspose.slides/ibulletformat/font) { get; set; } | Devuelve o establece la fuente de la viñeta de un párrafo sin herencia. Lectura/escritura [`IFontData`](../ifontdata). |
-| [Height](../../aspose.slides/ibulletformat/height) { get; set; } | Devuelve o establece la altura de la viñeta de un párrafo sin herencia. El valor float.NaN indica que la viñeta hereda la altura de la primera porción del párrafo. Lectura/escritura Single. |
+| [Height](../../aspose.slides/ibulletformat/height) { get; set; } | Devuelve o establece la altura de la viñeta de un párrafo sin herencia. El valor float.NaN determina que la viñeta hereda la altura de la primera porción del párrafo. Lectura/escritura Single. |
 | [IsBulletHardColor](../../aspose.slides/ibulletformat/isbullethardcolor) { get; set; } | Determina si la viñeta tiene color propio o lo hereda de la primera porción del párrafo. **NullableBool.True** si la viñeta tiene color propio y **NullableBool.False** si la viñeta hereda el color de la primera porción del párrafo. Lectura/escritura [`NullableBool`](../nullablebool). |
 | [IsBulletHardFont](../../aspose.slides/ibulletformat/isbullethardfont) { get; set; } | Determina si la viñeta tiene fuente propia o la hereda de la primera porción del párrafo. **NullableBool.True** si la viñeta tiene fuente propia y **NullableBool.False** si la viñeta hereda la fuente de la primera porción del párrafo. Lectura/escritura [`NullableBool`](../nullablebool). |
 | [NumberedBulletStartWith](../../aspose.slides/ibulletformat/numberedbulletstartwith) { get; set; } | Devuelve o establece el primer número que se usa para el grupo de viñetas numeradas sin herencia. Lectura/escritura Int16. |
@@ -31,9 +31,9 @@ public interface IBulletFormat
 
 ## Métodos
 
-| Name | Description |
+| Nombre | Descripción |
 | --- | --- |
-| [ApplyDefaultParagraphIndentsShifts](../../aspose.slides/ibulletformat/applydefaultparagraphindentsshifts)() | Establece los desplazamientos predeterminados diferentes de cero para el sangrado (Indent) y el margen izquierdo (MarginLeft) efectivos del párrafo cuando las viñetas están habilitadas (como hace PowerPoint al habilitar viñetas/numeración en un párrafo). Si las viñetas están deshabilitadas, simplemente restablece el sangrado y el margen izquierdo del párrafo (como hace PowerPoint al deshabilitar viñetas/numeración en él). Los desplazamientos de sangrado se aplican con respecto al contexto actual de la viñeta: IBulletFormat.Type, .NumberedBulletStyle y FontHeight de la primera porción. Los desplazamientos de sangrado diferentes de cero se aplican al Indent y MarginLeft efectivos del párrafo actual (haciendo que los valores resultantes sean valores locales). |
+| [ApplyDefaultParagraphIndentsShifts](../../aspose.slides/ibulletformat/applydefaultparagraphindentsshifts)() | Establece los desplazamientos predeterminados diferentes de cero para el Indent y MarginLeft efectivos del párrafo cuando las viñetas están habilitadas (como hace PowerPoint si habilita viñetas/numeración en el párrafo). Si las viñetas están deshabilitadas, simplemente restablece el Indent y MarginLeft del párrafo (como hace PowerPoint si deshabilita viñetas/numeración en el párrafo). Los desplazamientos de sangrado se aplican respecto al contexto actual de la viñeta: IBulletFormat.Type, .NumberedBulletStyle y FontHeight de la primera porción. Los desplazamientos de sangrado diferentes de cero se aplican al Indent y MarginLeft efectivos del párrafo actual (haciendo que los valores resultantes sean valores locales). |
 | [GetEffective](../../aspose.slides/ibulletformat/geteffective)() | Obtiene los datos de formato de viñeta efectivos con la herencia aplicada. |
 
 ### Ver también

@@ -1,14 +1,14 @@
 ---
 title: ITextToHtmlConversionOptions
-second_title: Aspose.Sildes .NET API Referenciája
-description: HTML kivonásának beállításai a Pptx szövegből.
+second_title: Aspose.Sildes a .NET API-referenciához
+description: Beállítások a Pptx szövegből HTML kinyeréséhez.
 type: docs
-weight: 4160
+weight: 4180
 url: /hu/aspose.slides.export/itexttohtmlconversionoptions/
 ---
 ## ITextToHtmlConversionOptions interfész
 
-HTML kivonásának beállításai a Pptx szövegből.
+A Pptx szövegből HTML kinyerésének beállításai.
 
 ```csharp
 public interface ITextToHtmlConversionOptions
@@ -18,10 +18,10 @@ public interface ITextToHtmlConversionOptions
 
 | Név | Leírás |
 | --- | --- |
-| [AddClipboardFragmentHeader](../../aspose.slides.export/itexttohtmlconversionoptions/addclipboardfragmentheader) { get; set; } | Visszaadja vagy beállítja az értéket, amely jelzi, hogy a Clipboard fejlécek hozzá legyenek-e adva. Olvasás/írás Boolean. |
-| [EncodingName](../../aspose.slides.export/itexttohtmlconversionoptions/encodingname) { get; set; } | Visszaadja vagy beállítja a html kódolás nevét. Ez az érték el lesz mentve a generált HTML fájlba, de a hívó feladata, hogy biztosítsa, hogy a fájl ebben a kódolásban legyen mentve. Olvasás/írás String. |
+| [AddClipboardFragmentHeader](../../aspose.slides.export/itexttohtmlconversionoptions/addclipboardfragmentheader) { get; set; } | Visszaadja vagy beállítja az értéket, amely jelzi, hogy a Clipboard fejlécek hozzá legyenek adva. Olvasás/írás Boolean. |
+| [EncodingName](../../aspose.slides.export/itexttohtmlconversionoptions/encodingname) { get; set; } | Visszaadja vagy beállítja a HTML kódolás nevét. Ez az érték a létrehozott HTML fájlba lesz mentve, de a hívó feladata biztosítani, hogy a fájl ebben a kódolásban legyen mentve. Olvasás/írás String. |
 | [LinkEmbedController](../../aspose.slides.export/itexttohtmlconversionoptions/linkembedcontroller) { get; set; } | Visszaadja vagy beállítja a visszahívási objektumot, amely meghatározza, hogyan lesz tárolva a külső objektum. Olvasás/írás [`ILinkEmbedController`](../ilinkembedcontroller). |
-| [TextInheritanceLimit](../../aspose.slides.export/itexttohtmlconversionoptions/textinheritancelimit) { get; set; } | Visszaadja vagy beállítja a szöveg tulajdonságokhoz tartozó beágyazott mélységet. Olvasás/írás [`TextInheritanceLimit`](./textinheritancelimit). |
+| [TextInheritanceLimit](../../aspose.slides.export/itexttohtmlconversionoptions/textinheritancelimit) { get; set; } | Visszaadja vagy beállítja a szövegtulajdonságok öröklődő mélységét. Olvasás/írás [`TextInheritanceLimit`](./textinheritancelimit). |
 
 ### Lásd még
 

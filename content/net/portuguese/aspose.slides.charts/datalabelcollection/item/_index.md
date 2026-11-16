@@ -3,7 +3,7 @@ title: Item
 second_title: Referência da API Aspose.Sildes para .NET
 description: Obtém o rótulo de dados para o ponto de dados com o índice especificado.
 type: docs
-weight: 60
+weight: 70
 url: /pt/aspose.slides.charts/datalabelcollection/item/
 ---
 ## DataLabelCollection indexador
@@ -16,9 +16,10 @@ public IDataLabel this[int index] { get; }
 
 ### Observações
 
-Outra forma de acessar o rótulo de dados é: - SeriesEx.DataPoints[i].Label - gerenciar propriedades do rótulo.
+Outra forma de acessar o rótulo de dados é:
+- SeriesEx.DataPoints[i].Label - gerenciar propriedades do rótulo.
 
-### Ver também
+### Ver Também
 
 * interface [IDataLabel](../../idatalabel)
 * classe [DataLabelCollection](../../datalabelcollection)

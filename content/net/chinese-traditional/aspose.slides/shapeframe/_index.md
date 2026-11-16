@@ -3,7 +3,7 @@ title: ShapeFrame
 second_title: Aspose.Sildes for .NET API 參考
 description: 表示形狀框架的屬性。
 type: docs
-weight: 9900
+weight: 9920
 url: /zh-hant/aspose.slides/shapeframe/
 ---
 ## ShapeFrame 類別
@@ -30,7 +30,7 @@ public class ShapeFrame : IShapeFrame
 | [FlipV](../../aspose.slides/shapeframe/flipv) { get; } | 判斷框架是否垂直翻轉。唯讀 [`NullableBool`](../nullablebool)。 |
 | [Height](../../aspose.slides/shapeframe/height) { get; } | 返回框架的高度。唯讀 Single。 |
 | [Rectangle](../../aspose.slides/shapeframe/rectangle) { get; } | 返回框架的座標。唯讀 RectangleF。 |
-| [Rotation](../../aspose.slides/shapeframe/rotation) { get; } | 返回框架繞 Z 軸旋轉的角度（度數）。正值表示順時針旋轉；負值表示逆時針旋轉。唯讀 Single。 |
+| [Rotation](../../aspose.slides/shapeframe/rotation) { get; } | 返回框架繞 Z 軸旋轉的度數。正值表示順時針旋轉；負值表示逆時針旋轉。唯讀 Single。 |
 | [Width](../../aspose.slides/shapeframe/width) { get; } | 返回框架的寬度。唯讀 Single。 |
 | [X](../../aspose.slides/shapeframe/x) { get; } | 返回框架左上角的 X 座標。唯讀 Single。 |
 | [Y](../../aspose.slides/shapeframe/y) { get; } | 返回框架左上角的 Y 座標。唯讀 Single。 |

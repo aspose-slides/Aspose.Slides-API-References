@@ -1,14 +1,14 @@
 ---
 title: IFontData
 second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje definici písma.
+description: Představuje definici písma.
 type: docs
-weight: 5830
+weight: 5850
 url: /cs/aspose.slides/ifontdata/
 ---
 ## IFontData rozhraní
 
-Reprezentuje definici písma.
+Represents a font definition.
 
 ```csharp
 public interface IFontData
@@ -18,13 +18,13 @@ public interface IFontData
 
 | Název | Popis |
 | --- | --- |
-| [FontName](../../aspose.slides/ifontdata/fontname) { get; } | Vrací název písma. Pouze pro čtení String. |
+| [FontName](../../aspose.slides/ifontdata/fontname) { get; } | Vrací název písma. Pouze ke čtení String. |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| [GetFontName](../../aspose.slides/ifontdata/getfontname)(IThemeEffectiveData) | Vrací název písma, nahrazující odkaz na motiv skutečným použitým písmem. |
+| [GetFontName](../../aspose.slides/ifontdata/getfontname)(IThemeEffectiveData) | Vrací název písma, nahrazuje odkaz na téma skutečným použitým písmem. |
 
 ### Viz také
 

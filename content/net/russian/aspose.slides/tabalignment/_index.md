@@ -1,9 +1,9 @@
 ---
 title: TabAlignment
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Aspose.Sildes для .NET справочник API
 description: Представляет выравнивание табуляции.
 type: docs
-weight: 10830
+weight: 10850
 url: /ru/aspose.slides/tabalignment/
 ---
 ## TabAlignment перечисление
@@ -18,10 +18,10 @@ public enum TabAlignment
 
 | Имя | Значение | Описание |
 | --- | --- | --- |
-| Left | `0` | Выровнено по левому краю |
-| Center | `1` | Выровнено по центру |
-| Right | `2` | Выровнено по правому краю |
-| Decimal | `3` | Выровнено по десятичному |
+| Left | `0` | Выравнивание слева |
+| Center | `1` | Выравнивание по центру |
+| Right | `2` | Выравнивание справа |
+| Decimal | `3` | Десятичное выравнивание |
 
 ### См. также
 

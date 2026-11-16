@@ -1,9 +1,9 @@
 ---
 title: IOleObjectFrame
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: スライド上の OLE オブジェクトを表します。
 type: docs
-weight: 6540
+weight: 6560
 url: /ja/aspose.slides/ioleobjectframe/
 ---
 ## IOleObjectFrame インターフェイス
@@ -18,20 +18,20 @@ public interface IOleObjectFrame : IGraphicalObject
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIGraphicalObject](../../aspose.slides/ioleobjectframe/asigraphicalobject) { get; } | ベース IGraphicalObject インターフェイスを取得できます。読み取り専用 [`IGraphicalObject`](../igraphicalobject)。 |
+| [AsIGraphicalObject](../../aspose.slides/ioleobjectframe/asigraphicalobject) { get; } | ベースの IGraphicalObject インターフェイスを取得できます。読み取り専用 [`IGraphicalObject`](../igraphicalobject)。 |
 | [EmbeddedData](../../aspose.slides/ioleobjectframe/embeddeddata) { get; } | OLE 埋め込みデータに関する情報を取得します。読み取り専用 [`IOleEmbeddedDataInfo`](../ioleembeddeddatainfo)。 |
-| [EmbeddedFileLabel](../../aspose.slides/ioleobjectframe/embeddedfilelabel) { get; } | 埋め込み OLE オブジェクトのファイル名を返します。 |
-| [EmbeddedFileName](../../aspose.slides/ioleobjectframe/embeddedfilename) { get; } | 埋め込み OLE オブジェクトのパスを返します。 |
-| [IsObjectIcon](../../aspose.slides/ioleobjectframe/isobjecticon) { get; set; } | オブジェクトがアイコンとして表示されるかどうかを決定します。読み書き Boolean。 |
-| [IsObjectLink](../../aspose.slides/ioleobjectframe/isobjectlink) { get; } | オブジェクトが外部ファイルにリンクされているかどうかを決定します。読み取り専用 Boolean。 |
-| [LinkFileName](../../aspose.slides/ioleobjectframe/linkfilename) { get; } | リンクされたファイルへのフルパスを返します。短いファイル名が使用されます。読み取り専用 String。 |
-| [LinkPathLong](../../aspose.slides/ioleobjectframe/linkpathlong) { get; set; } | リンクされたファイルへのフルパスを返します。長いファイル名が使用されます。読み書き String。 |
-| [LinkPathRelative](../../aspose.slides/ioleobjectframe/linkpathrelative) { get; } | リンクされたファイルへの相対パスが存在する場合はそれを返し、存在しない場合は空文字列を返します。読み取り専用 String。 |
-| [ObjectName](../../aspose.slides/ioleobjectframe/objectname) { get; set; } | オブジェクトの名前を取得または設定します。読み書き String。 |
-| [ObjectProgId](../../aspose.slides/ioleobjectframe/objectprogid) { get; set; } | オブジェクトの ProgID を返します。読み取り専用 String。 |
+| [EmbeddedFileLabel](../../aspose.slides/ioleobjectframe/embeddedfilelabel) { get; } | 埋め込み OLE オブジェクトのファイル名を返します |
+| [EmbeddedFileName](../../aspose.slides/ioleobjectframe/embeddedfilename) { get; } | 埋め込み OLE オブジェクトのパスを返します |
+| [IsObjectIcon](../../aspose.slides/ioleobjectframe/isobjecticon) { get; set; } | オブジェクトがアイコンとして表示されるかどうかを決定します。読み書き可能な Boolean。 |
+| [IsObjectLink](../../aspose.slides/ioleobjectframe/isobjectlink) { get; } | オブジェクトが外部ファイルにリンクされているかどうかを決定します。読み取り専用の Boolean。 |
+| [LinkFileName](../../aspose.slides/ioleobjectframe/linkfilename) { get; } | リンクされたファイルへのフルパスを返します。短いファイル名が使用されます。読み取り専用の String。 |
+| [LinkPathLong](../../aspose.slides/ioleobjectframe/linkpathlong) { get; set; } | リンクされたファイルへのフルパスを返します。長いファイル名が使用されます。読み書き可能な String。 |
+| [LinkPathRelative](../../aspose.slides/ioleobjectframe/linkpathrelative) { get; } | 存在する場合はリンクされたファイルへの相対パスを返し、存在しない場合は空文字列を返します。読み取り専用の String。 |
+| [ObjectName](../../aspose.slides/ioleobjectframe/objectname) { get; set; } | オブジェクトの名前を取得または設定します。読み書き可能な String。 |
+| [ObjectProgId](../../aspose.slides/ioleobjectframe/objectprogid) { get; set; } | オブジェクトの ProgID を返します。読み取り専用の String。 |
 | [SubstitutePictureFormat](../../aspose.slides/ioleobjectframe/substitutepictureformat) { get; } | OleObject 画像塗りつぶしプロパティ オブジェクトを返します。読み取り専用 [`IPictureFillFormat`](../ipicturefillformat)。 |
-| [SubstitutePictureTitle](../../aspose.slides/ioleobjectframe/substitutepicturetitle) { get; set; } | OleObject アイコンのタイトルを取得または設定します。読み書き String。 |
-| [UpdateAutomatic](../../aspose.slides/ioleobjectframe/updateautomatic) { get; set; } | プレゼンテーションが開かれたときまたは印刷されたときに、リンクされた埋め込みオブジェクトが自動的に更新されるかどうかを決定します。読み書き Boolean。 |
+| [SubstitutePictureTitle](../../aspose.slides/ioleobjectframe/substitutepicturetitle) { get; set; } | OleObject アイコンのタイトルを取得または設定します。読み書き可能な String。 |
+| [UpdateAutomatic](../../aspose.slides/ioleobjectframe/updateautomatic) { get; set; } | プレゼンテーションが開かれたり印刷されたりしたときに、リンクされた埋め込みオブジェクトが自動的に更新されるかどうかを決定します。読み書き可能な Boolean。 |
 
 ## メソッド
 

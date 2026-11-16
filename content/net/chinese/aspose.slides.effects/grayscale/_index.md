@@ -1,14 +1,14 @@
 ---
 title: GrayScale
-second_title: Aspose.Sildes .NET API 参考
-description: 表示一种灰度效果。将所有效果颜色值转换为对应其亮度的灰色阴影。效果的 alpha 不透明度值不受影响。
+second_title: Aspose.Sildes for .NET API 参考
+description: 表示 Gray Scale 效果。将所有效果颜色值转换为对应其亮度的灰色阴影。效果的 alpha 不透明度值不受影响。
 type: docs
-weight: 3000
+weight: 3020
 url: /zh/aspose.slides.effects/grayscale/
 ---
 ## GrayScale 类
 
-Represents a Gray Scale effect. Converts all effect color values to a shade of gray, corresponding to their luminance. Effect alpha (opacity) values are unaffected.
+表示 Gray Scale 效果。将所有效果颜色值转换为对应其亮度的灰色阴影。效果的 alpha（不透明度）值不受影响。
 
 ```csharp
 public sealed class GrayScale : ImageTransformOperation, IGrayScale
@@ -18,17 +18,17 @@ public sealed class GrayScale : ImageTransformOperation, IGrayScale
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基础 IPresentationComponent 接口。只读 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基 IPresentationComponent 接口。只读 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/grayscale/equals)(object) | 确定指定的 [`GrayScale`](../grayscale) 是否等于当前的 [`GrayScale`](../grayscale)。 |
-| [GetEffective](../../aspose.slides.effects/grayscale/geteffective)() | 获取在应用继承后的有效 Gray Scale 效果数据。 |
-| override [GetHashCode](../../aspose.slides.effects/grayscale/gethashcode)() | 作为特定类型的散列函数。 |
+| [GetEffective](../../aspose.slides.effects/grayscale/geteffective)() | 获取在继承应用后的有效 Gray Scale 效果数据。 |
+| override [GetHashCode](../../aspose.slides.effects/grayscale/gethashcode)() | 作为特定类型的哈希函数。 |
 
-### 另请参阅
+### 另请参见
 
 * 类 [ImageTransformOperation](../imagetransformoperation)
 * 接口 [IGrayScale](../igrayscale)

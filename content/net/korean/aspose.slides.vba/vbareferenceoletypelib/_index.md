@@ -1,9 +1,9 @@
 ---
 title: VbaReferenceOleTypeLib
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: OLE Automation 타입 라이브러리 참조를 나타냅니다.
 type: docs
-weight: 11690
+weight: 11710
 url: /ko/aspose.slides.vba/vbareferenceoletypelib/
 ---
 ## VbaReferenceOleTypeLib 클래스
@@ -27,7 +27,7 @@ public class VbaReferenceOleTypeLib : IVbaReferenceOleTypeLib
 | [Libid](../../aspose.slides.vba/vbareferenceoletypelib/libid) { get; set; } | Automation 타입 라이브러리의 식별자를 나타냅니다. 읽기/쓰기 String. |
 | [Name](../../aspose.slides.vba/vbareferenceoletypelib/name) { get; set; } | VBA 프로젝트 참조의 이름을 나타냅니다. 읽기/쓰기 String. |
 
-### 관련 항목
+### 참고
 
 * 인터페이스 [IVbaReferenceOleTypeLib](../ivbareferenceoletypelib)
 * 네임스페이스 [Aspose.Slides.Vba](../../aspose.slides.vba)

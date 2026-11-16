@@ -1,14 +1,14 @@
 ---
 title: XamlOptions
-second_title: Справочник API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET справочник API
 description: Параметры, определяющие, как сохраняется документ XAML.
 type: docs
-weight: 4720
+weight: 4740
 url: /ru/aspose.slides.export.xaml/xamloptions/
 ---
 ## XamlOptions класс
 
-Параметры, которые управляют тем, как сохраняется документ XAML.
+Параметры, контролирующие, как сохраняется документ XAML.
 
 ```csharp
 public class XamlOptions : SaveOptions, IXamlOptions
@@ -18,7 +18,7 @@ public class XamlOptions : SaveOptions, IXamlOptions
 
 | Имя | Описание |
 | --- | --- |
-| [XamlOptions](xamloptions)() | Создает экземпляр XamlOptions. |
+| [XamlOptions](xamloptions)() | Creates the XamlOptions instance. |
 
 ## Свойства
 
@@ -28,9 +28,9 @@ public class XamlOptions : SaveOptions, IXamlOptions
 | [ExportHiddenSlides](../../aspose.slides.export.xaml/xamloptions/exporthiddenslides) { get; set; } | Определяет, будут ли экспортированы скрытые слайды. |
 | [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Возвращает или задает визуальный стиль градиента. Чтение/запись [`GradientStyle`](../../aspose.slides/gradientstyle). |
 | [OutputSaver](../../aspose.slides.export.xaml/xamloptions/outputsaver) { get; set; } | Представляет реализацию интерфейса IOutputSaver. |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Представляет объект обратного вызова для сохранения обновлений прогресса в процентах. Смотрите [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Представляет объект обратного вызова для сохранения обновлений прогресса в процентах. См. [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
 | [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Указывает, следует ли пропускать гиперссылки с вызовами JavaScript при сохранении презентации. Чтение/запись Boolean. Значение по умолчанию — **false**. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Возвращает или задает объект, который получает предупреждения и решает, будет ли процесс загрузки продолжен или прерван. Чтение/запись [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Возвращает или задает объект, получающий предупреждения и решающий, продолжить ли процесс загрузки или прервать его. Чтение/запись [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Примеры
 
@@ -42,7 +42,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### См. также
+### Смотрите также
 
 * класс [SaveOptions](../../aspose.slides.export/saveoptions)
 * интерфейс [IXamlOptions](../ixamloptions)

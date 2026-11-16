@@ -1,14 +1,14 @@
 ---
 title: ReplaceText
-second_title: Aspose.Sildes for .NET API Referansı
-description: Belirtilen metnin tüm tekrarlarını başka bir belirtilen metinle değiştirir.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Belirtilen metnin tüm görünümlerini başka bir belirtilen metinle değiştirir.
 type: docs
-weight: 120
+weight: 130
 url: /tr/aspose.slides/itextframe/replacetext/
 ---
 ## ITextFrame.ReplaceText metodu
 
-Belirtilen metnin tüm tekrarlarını başka bir belirli metinle değiştirir.
+Belirtilen metnin tüm görünümlerini başka bir belirtilen metinle değiştirir.
 
 ```csharp
 public void ReplaceText(string oldText, string newText, ITextSearchOptions options, 
@@ -18,19 +18,19 @@ public void ReplaceText(string oldText, string newText, ITextSearchOptions optio
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | oldText | String | Değiştirilecek dize. |
-| newText | String | oldText'in tüm tekrarlarını değiştirecek dize. |
+| newText | String | oldText'in tüm görünümlerini değiştirecek dize. |
 | options | ITextSearchOptions | Metin arama seçenekleri [`ITextSearchOptions`](../../itextsearchoptions). |
 | callback | IFindResultCallback | Arama sonuçlarını almak için geri çağırma nesnesi [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### Örnekler
 
-Aşağıdaki örnek kod, bir belirli dizeyi başka bir belirli dizeyle nasıl değiştireceğini gösterir.
+İşte aşağıdaki örnek kod, bir belirtilen dizeyi başka bir belirtilen dizeyle nasıl değiştireceğini gösterir.
 
 ```csharp
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
-	// Tüm ayrı 'the' tekrarlarını '***' ile değiştir
+	// Tüm ayrı 'the' görünümlerini '***' ile değiştir
 	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.ReplaceText("the", "***", new TextSearchOptions()
 	{ WholeWordsOnly = true }, null);
 	presentation.Save("SomePresentation-out2.pptx", SaveFormat.Pptx);

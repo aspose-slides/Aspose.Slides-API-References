@@ -1,9 +1,9 @@
 ---
 title: IFillFormatCollection
-second_title: Aspose.Sildes для .NET справочника API
+second_title: Aspose.Sildes для .NET справочник API
 description: Представляет коллекцию стилей заливки.
 type: docs
-weight: 11230
+weight: 11250
 url: /ru/aspose.slides.theme/ifillformatcollection/
 ---
 ## IFillFormatCollection интерфейс

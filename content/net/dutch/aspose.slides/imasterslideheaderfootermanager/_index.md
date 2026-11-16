@@ -1,14 +1,14 @@
 ---
 title: IMasterSlideHeaderFooterManager
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een manager voor die het gedrag bevat van de placeholders voor voettekst, datum-tijd en paginanummer placeholders en alle onderliggende placeholders. Onderliggende placeholders betekenen dat placeholders zich bevinden op afhankelijke layout-slides en afhankelijke slides. Afhankelijke layout-slides en slides gebruiken en zijn afhankelijk van de master-slide.
+description: Representeert manager die het gedrag van de voettekst, datum-tijd en paginanummer-plaatsaanduidingen van de masterslide en alle onderliggende plaatsaanduidingen bevat. Onderliggende plaatsaanduidingen betekenen dat plaatsaanduidingen zich bevinden op afhankelijke layout-slides en afhankelijke slides. Afhankelijke layout-slides en slides gebruiken en hangen af van de masterslide.
 type: docs
-weight: 6440
+weight: 6460
 url: /nl/aspose.slides/imasterslideheaderfootermanager/
 ---
 ## IMasterSlideHeaderFooterManager interface
 
-Stelt de manager voor die het gedrag bevat van de master-slide voettekst, datum-tijd-, paginanummer-placeholders en alle onderliggende placeholders. Onderliggende placeholders betekenen dat ze zich bevinden op afhankelijke layout-slides en afhankelijke slides. Afhankelijke layout-slides en slides gebruiken en zijn afhankelijk van de master-slide.
+Stelt de manager voor die het gedrag van de voettekst van de masterslide, datum-tijd, paginanummer-plaatsaanduidingen en alle onderliggende plaatsaanduidingen bevat. Onderliggende plaatsaanduidingen betekenen dat plaatsaanduidingen zich bevinden op afhankelijke layout-slides en afhankelijke slides. Afhankelijke layout-slides en slides gebruiken en hangen af van de masterslide.
 
 ```csharp
 public interface IMasterSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
@@ -16,24 +16,24 @@ public interface IMasterSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
 
 ## Eigenschappen
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
-| [AsIBaseSlideHeaderFooterManager](../../aspose.slides/imasterslideheaderfootermanager/asibaseslideheaderfootermanager) { get; } | Retourneert de IBaseSlideHeaderFooterManager interface. |
+| [AsIBaseSlideHeaderFooterManager](../../aspose.slides/imasterslideheaderfootermanager/asibaseslideheaderfootermanager) { get; } | Retourneert IBaseSlideHeaderFooterManager interface. |
 
 ## Methoden
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Stelt de tekst in voor de datum-tijd-placeholder van de master-slide en alle onderliggende datum-tijd-placeholders. Onderliggende placeholders betekenen dat ze zich bevinden op afhankelijke layout-slides en afhankelijke slides. Afhankelijke layout-slides en slides gebruiken en zijn afhankelijk van de master-slide. |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Verandert de zichtbaarheid van de datum-tijd-placeholder van de master-slide en alle onderliggende datum-tijd-placeholders. Onderliggende placeholders betekenen dat ze zich bevinden op afhankelijke layout-slides en afhankelijke slides. Afhankelijke layout-slides en slides gebruiken en zijn afhankelijk van de master-slide. |
-| [SetFooterAndChildFootersText](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfooterstext)(string) | Stelt de tekst in voor de voettekst-placeholder van de master-slide en alle onderliggende voettekst-placeholders. Onderliggende placeholders betekenen dat ze zich bevinden op afhankelijke layout-slides en afhankelijke slides. Afhankelijke layout-slides en slides gebruiken en zijn afhankelijk van de master-slide. |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Verandert de zichtbaarheid van de voettekst-placeholder van de master-slide en alle onderliggende voettekst-placeholders. Onderliggende placeholders betekenen dat ze zich bevinden op afhankelijke layout-slides en afhankelijke slides. Afhankelijke layout-slides en slides gebruiken en zijn afhankelijk van de master-slide. |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Verandert de zichtbaarheid van de paginanummer-placeholder van de master-slide en alle onderliggende paginanummer-placeholders. Onderliggende placeholders betekenen dat ze zich bevinden op afhankelijke layout-slides en afhankelijke slides. Afhankelijke layout-slides en slides gebruiken en zijn afhankelijk van de master-slide. |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Stelt de tekst in voor de datum-tijd-plaatsaanduiding van de masterslide en alle onderliggende datum-tijd-plaatsaanduidingen. Onderliggende plaatsaanduidingen betekenen dat plaatsaanduidingen zich bevinden op afhankelijke layout-slides en afhankelijke slides. Afhankelijke layout-slides en slides gebruiken en hangen af van de masterslide. |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Wijzigt de zichtbaarheid van de datum-tijd-plaatsaanduiding van de masterslide en alle onderliggende datum-tijd-plaatsaanduidingen. Onderliggende plaatsaanduidingen betekenen dat plaatsaanduidingen zich bevinden op afhankelijke layout-slides en afhankelijke slides. Afhankelijke layout-slides en slides gebruiken en hangen af van de masterslide. |
+| [SetFooterAndChildFootersText](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfooterstext)(string) | Stelt de tekst in voor de voettekst-plaatsaanduiding van de masterslide en alle onderliggende voettekst-plaatsaanduidingen. Onderliggende plaatsaanduidingen betekenen dat plaatsaanduidingen zich bevinden op afhankelijke layout-slides en afhankelijke slides. Afhankelijke layout-slides en slides gebruiken en hangen af van de masterslide. |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Wijzigt de zichtbaarheid van de voettekst-plaatsaanduiding van de masterslide en alle onderliggende voettekst-plaatsaanduidingen. Onderliggende plaatsaanduidingen betekenen dat plaatsaanduidingen zich bevinden op afhankelijke layout-slides en afhankelijke slides. Afhankelijke layout-slides en slides gebruiken en hangen af van de masterslide. |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Wijzigt de zichtbaarheid van de paginanummer-plaatsaanduiding van de masterslide en alle onderliggende paginanummer-plaatsaanduidingen. Onderliggende plaatsaanduidingen betekenen dat plaatsaanduidingen zich bevinden op afhankelijke layout-slides en afhankelijke slides. Afhankelijke layout-slides en slides gebruiken en hangen af van de masterslide. |
 
 ### Zie ook
 
 * interface [IBaseSlideHeaderFooterManager](../ibaseslideheaderfootermanager)
-* naamruimte [Aspose.Slides](../../aspose.slides)
-* assemblage [Aspose.Slides](../../)
+* namespace [Aspose.Slides](../../aspose.slides)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

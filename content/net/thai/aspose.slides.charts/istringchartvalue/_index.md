@@ -1,14 +1,14 @@
 ---
 title: IStringChartValue
-second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
-description: แสดงค่าข้อความที่สามารถเก็บในเอกสารพรีเซนเทชัน pptx ได้สองวิธี 1 ในเซลล์/เซลล์ของสมุดงานที่เกี่ยวข้องกับแผนภูมิ 2 เป็นค่าลิตรัล.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงค่าข้อความที่สามารถจัดเก็บในเอกสารการนำเสนอ pptx ได้สองวิธี 1 ในเซลล์/เซลล์ของสมุดงานที่เกี่ยวข้องกับแผนภูมิ 2 เป็นค่าตัวอักษรโดยตรง.
 type: docs
-weight: 2220
+weight: 2240
 url: /th/aspose.slides.charts/istringchartvalue/
 ---
 ## IStringChartValue อินเทอร์เฟซ
 
-แสดงค่าข้อความที่สามารถเก็บในเอกสารพรีเซนเทชัน pptx ได้สองวิธี: 1) ในเซลล์/เซลล์ของสมุดงานที่เกี่ยวข้องกับแผนภูมิ; 2) เป็นค่าลิตรัล.
+แสดงค่าข้อความที่สามารถจัดเก็บในเอกสารการนำเสนอ pptx ได้สองวิธี: 1) ในเซลล์ของสมุดงานที่เกี่ยวข้องกับแผนภูมิ; 2) เป็นค่าตัวอักษรโดยตรง.
 
 ```csharp
 public interface IStringChartValue : IMultipleCellChartValue
@@ -16,18 +16,18 @@ public interface IStringChartValue : IMultipleCellChartValue
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [AsIMultipleCellChartValue](../../aspose.slides.charts/istringchartvalue/asimultiplecellchartvalue) { get; } | อนุญาตให้ดึงอินเทอร์เฟซฐาน IMultipleCellChartValue. อ่านอย่างเดียว [`IMultipleCellChartValue`](../imultiplecellchartvalue). |
-| [AsLiteralString](../../aspose.slides.charts/istringchartvalue/asliteralstring) { get; set; } | คืนค่า หรือ ตั้งค่าสตริงลิตรัลถ้า property DataSourceType มีค่าเป็น DataSourceType.StringLiterals. อ่าน/เขียน String. |
+| [AsIMultipleCellChartValue](../../aspose.slides.charts/istringchartvalue/asimultiplecellchartvalue) { get; } | อนุญาตให้ดึง IMultipleCellChartValue เบส อินเทอร์เฟซ. อ่านอย่างเดียว [`IMultipleCellChartValue`](../imultiplecellchartvalue). |
+| [AsLiteralString](../../aspose.slides.charts/istringchartvalue/asliteralstring) { get; set; } | คืนค่า หรือกำหนดสตริงตัวอักษรโดยตรง หาก DataSourceType คุณสมบัติเป็น DataSourceType.StringLiterals. อ่าน/เขียน String. |
 
 ## เมธอด
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [GetCellsAddressInWorkbook](../../aspose.slides.charts/istringchartvalue/getcellsaddressinworkbook)() | ถ้า property DataSourceType มีค่าเป็น DataSourceType.Worksheet แล้วเมธอดนี้จะคืนที่อยู่ของเซลล์ในสมุดงานที่แสดงข้อมูลสตริง. หากไม่เป็นเช่นนั้นจะคืนสตริงว่าง. |
-| [SetFromOneCell](../../aspose.slides.charts/istringchartvalue/setfromonecell)(IChartDataCell) | ตั้งค่าจากเซลล์ที่ระบุ. |
-| [ToString](../../aspose.slides.charts/istringchartvalue/tostring)() | คืนค่าการแสดงผลเป็นสตริง. |
+| [GetCellsAddressInWorkbook](../../aspose.slides.charts/istringchartvalue/getcellsaddressinworkbook)() | หาก DataSourceType คุณสมบัติเป็น DataSourceType.Worksheet แล้วเมธอดนี้จะคืนที่อยู่ของเซลล์ในสมุดงานที่แทนค่าข้อมูลสตริง. มิฉะนั้นจะคืนสตริงว่าง. |
+| [SetFromOneCell](../../aspose.slides.charts/istringchartvalue/setfromonecell)(IChartDataCell) | กำหนดค่า จากเซลล์ที่ระบุ. |
+| [ToString](../../aspose.slides.charts/istringchartvalue/tostring)() | คืนค่าการเป็นสตริง. |
 
 ### ดูเพิ่มเติม
 

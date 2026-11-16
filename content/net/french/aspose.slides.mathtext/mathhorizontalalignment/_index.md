@@ -1,12 +1,12 @@
 ---
 title: MathHorizontalAlignment
-second_title: Référence de l'API Aspose.Sildes pour .NET
+second_title: Référence API Aspose.Sildes pour .NET
 description: Alignement horizontal
 type: docs
-weight: 8780
+weight: 8800
 url: /fr/aspose.slides.mathtext/mathhorizontalalignment/
 ---
-## énumération MathHorizontalAlignment
+## MathHorizontalAlignment énumération
 
 Alignement horizontal
 
@@ -18,7 +18,7 @@ public enum MathHorizontalAlignment
 
 | Nom | Valeur | Description |
 | --- | --- | --- |
-| NotDefined | `0` | Valeur non définie |
+| NotDefined | `0` | La valeur n'est pas définie |
 | Left | `1` | Justification à gauche |
 | Center | `2` | Centre |
 | Right | `3` | Droite |

@@ -1,14 +1,14 @@
 ---
 title: InterruptionToken
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Diese Klasse stellt das Token dar, das verwendet wird, um langlaufende Vorgänge darüber zu informieren, ob eine Unterbrechung angefordert wurde.
+description: Diese Klasse stellt das Token dar, das für die Signalisierung von langlaufenden Aufgaben verwendet wird, um anzuzeigen, ob eine Unterbrechung angefordert wurde.
 type: docs
-weight: 7600
+weight: 7620
 url: /de/aspose.slides/interruptiontoken/
 ---
 ## InterruptionToken Klasse
 
-Diese Klasse stellt das Token dar, das verwendet wird, um langlaufende Vorgänge darüber zu informieren, ob eine Unterbrechung angefordert wurde.
+Diese Klasse stellt das Token dar, das für die Signalisierung von langlaufenden Aufgaben verwendet wird, um anzuzeigen, ob eine Unterbrechung angefordert wurde.
 
 ```csharp
 public class InterruptionToken : IInterruptionToken
@@ -18,7 +18,7 @@ public class InterruptionToken : IInterruptionToken
 
 | Name | Beschreibung |
 | --- | --- |
-| static [None](../../aspose.slides/interruptiontoken/none) { get; } | Stellt ein leeres Unterbrechungs-Token dar. Langlaufende Vorgänge werden niemals über [`Interrupt`](../interruptiontokensource/interrupt) unterbrochen, wenn dieses Token verwendet wird. |
+| static [None](../../aspose.slides/interruptiontoken/none) { get; } | Stellt ein leeres Unterbrechungs-Token dar. Langlaufende Operationen werden bei Verwendung dieses Tokens niemals über [`Interrupt`](../interruptiontokensource/interrupt) unterbrochen. |
 | [IsInterruptionRequested](../../aspose.slides/interruptiontoken/isinterruptionrequested) { get; } | Gibt Boolean.true zurück, wenn eine Unterbrechung angefordert wurde. |
 
 ## Methoden

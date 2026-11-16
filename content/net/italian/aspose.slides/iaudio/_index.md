@@ -1,9 +1,9 @@
 ---
 title: IAudio
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per .NET Riferimento API
 description: Rappresenta un file audio incorporato.
 type: docs
-weight: 5210
+weight: 5230
 url: /it/aspose.slides/iaudio/
 ---
 ## IAudio interfaccia
@@ -18,14 +18,14 @@ public interface IAudio
 
 | Nome | Descrizione |
 | --- | --- |
-| [BinaryData](../../aspose.slides/iaudio/binarydata) { get; } | Restituisce una copia dei dati di un audio. In caso di grandi quantità di dati considerare l'uso del metodo [`GetStream`](./getstream) per evitare il caricamento non necessario dei dati audio in memoria o anche un OutOfMemoryException. Byte[] di sola lettura. |
-| [ContentType](../../aspose.slides/iaudio/contenttype) { get; } | Restituisce un tipo MIME di un audio, codificato in [`BinaryData`](./binarydata). Stringa di sola lettura. |
+| [BinaryData](../../aspose.slides/iaudio/binarydata) { get; } | Restituisce una copia dei dati di un audio. In caso di grandi quantità di dati, considerare l'uso del metodo [`GetStream`](./getstream) per prevenire il caricamento non necessario dei dati audio in memoria o addirittura un OutOfMemoryException. Solo lettura Byte[]. |
+| [ContentType](../../aspose.slides/iaudio/contenttype) { get; } | Restituisce un tipo MIME di un audio, codificato in [`BinaryData`](./binarydata). Solo lettura String. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [GetStream](../../aspose.slides/iaudio/getstream)() | Restituisce lo stream Stream per la lettura. Utilizzare 'using' o chiudere lo stream dopo l'uso. |
+| [GetStream](../../aspose.slides/iaudio/getstream)() | Restituisce un flusso Stream per la lettura. Utilizzare 'using' o chiudere il flusso dopo l'uso. |
 
 ### Vedi anche
 

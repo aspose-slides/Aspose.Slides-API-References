@@ -1,14 +1,14 @@
 ---
 title: InkBrush
 second_title: Aspose.Sildes .NET API 参考
-description: 表示一个 inkBrush 对象。
+description: 表示 inkBrush 对象。
 type: docs
-weight: 7570
+weight: 7590
 url: /zh/aspose.slides.ink/inkbrush/
 ---
 ## InkBrush 类
 
-表示一个 inkBrush 对象。
+表示 inkBrush 对象。
 
 ```csharp
 public class InkBrush : IInkBrush
@@ -16,11 +16,11 @@ public class InkBrush : IInkBrush
 
 ## 属性
 
-| 名称 | 说明 |
+| 名称 | 描述 |
 | --- | --- |
-| [Color](../../aspose.slides.ink/inkbrush/color) { get; set; } | 获取或设置线条的画笔颜色。 |
-| [InkEffect](../../aspose.slides.ink/inkbrush/inkeffect) { get; } | 获取 ink effect 类型（例如，Galaxy、Gold、Silver），该类型定义了墨水笔画的视觉样式。该值从 brush 属性 "inkEffects" 解析得到。如果未指定已识别的效果，则返回 NotDefined。 |
-| [Size](../../aspose.slides.ink/inkbrush/size) { get; set; } | 获取或设置线条的画笔大小（单位为点）。 |
+| [Color](../../aspose.slides.ink/inkbrush/color) { get; set; } | 获取或设置线条的画刷颜色。 |
+| [InkEffect](../../aspose.slides.ink/inkbrush/inkeffect) { get; } | 获取墨水效果类型（例如，Galaxy、Gold、Silver），该类型定义墨水笔画的视觉样式。该值从画刷属性 "inkEffects" 解析。如果未指定已识别的效果，则返回 NotDefined。 |
+| [Size](../../aspose.slides.ink/inkbrush/size) { get; set; } | 获取或设置线条的画刷大小（单位为点）。 |
 
 ### 另见
 

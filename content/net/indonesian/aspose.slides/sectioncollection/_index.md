@@ -3,7 +3,7 @@ title: SectionCollection
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili kumpulan bagian.
 type: docs
-weight: 9760
+weight: 9780
 url: /id/aspose.slides/sectioncollection/
 ---
 ## SectionCollection kelas
@@ -18,9 +18,9 @@ public sealed class SectionCollection : DomObject<Presentation>, ISectionCollect
 
 | Nama | Deskripsi |
 | --- | --- |
-| [Count](../../aspose.slides/sectioncollection/count) { get; } | Mendapatkan jumlah elemen yang sebenarnya terkandung dalam koleksi. Hanya-baca Int32. |
+| [Count](../../aspose.slides/sectioncollection/count) { get; } | Mengambil jumlah elemen yang sebenarnya terdapat dalam koleksi. Hanya-baca Int32. |
 | [IsSynchronized](../../aspose.slides/sectioncollection/issynchronized) { get; } | Mengembalikan nilai yang menunjukkan apakah akses ke koleksi disinkronkan (thread-safe). Hanya-baca Boolean. |
-| [Item](../../aspose.slides/sectioncollection/item) { get; } | Mendapatkan elemen pada indeks yang ditentukan. Hanya-baca [`ISection`](../isection). |
+| [Item](../../aspose.slides/sectioncollection/item) { get; } | Mengambil elemen pada indeks yang ditentukan. Hanya-baca [`ISection`](../isection). |
 | [SyncRoot](../../aspose.slides/sectioncollection/syncroot) { get; } | Mengembalikan akar sinkronisasi. Hanya-baca Object. |
 
 ## Metode

@@ -1,14 +1,14 @@
 ---
 title: ISlideHeaderFooterManager
 second_title: Aspose.Sildes para .NET Referência da API
-description: Representa o gerenciador que mantém o comportamento dos espaços reservados do rodapé do slide, data/hora e número da página.
+description: Representa o gerenciador que controla o comportamento dos marcadores de posição do rodapé do slide, data e hora, número da página.
 type: docs
-weight: 7070
+weight: 7090
 url: /pt/aspose.slides/islideheaderfootermanager/
 ---
 ## ISlideHeaderFooterManager interface
 
-Representa o gerenciador que mantém o comportamento dos espaços reservados do rodapé do slide, data/hora e número da página.
+Represents manager which holds behavior of the slide footer, date-time, page number placeholders.
 
 ```csharp
 public interface ISlideHeaderFooterManager : IBaseSlideHeaderFooterManager
@@ -18,7 +18,7 @@ public interface ISlideHeaderFooterManager : IBaseSlideHeaderFooterManager
 
 | Nome | Descrição |
 | --- | --- |
-| [AsIBaseSlideHeaderFooterManager](../../aspose.slides/islideheaderfootermanager/asibaseslideheaderfootermanager) { get; } | Retorna a interface IBaseSlideHeaderFooterManager. |
+| [AsIBaseSlideHeaderFooterManager](../../aspose.slides/islideheaderfootermanager/asibaseslideheaderfootermanager) { get; } | Retorna IBaseSlideHeaderFooterManager interface. |
 
 ### Veja Também
 

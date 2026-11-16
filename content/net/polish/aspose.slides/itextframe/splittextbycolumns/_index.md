@@ -1,14 +1,14 @@
 ---
 title: SplitTextByColumns
 second_title: Aspose.Sildes dla .NET – odniesienie API
-description: Rozdziela zawartość tekstową ITextFrameaspose.slides/itextframe na tablicę ciągów znaków, gdzie każdy element odpowiada osobnej kolumnie tekstowej w ramce.
+description: Dzieli zawartość tekstową ITextFrameaspose.slides/itextframe na tablicę ciągów znaków, gdzie każdy element odpowiada oddzielnej kolumnie tekstowej w ramce.
 type: docs
-weight: 130
+weight: 140
 url: /pl/aspose.slides/itextframe/splittextbycolumns/
 ---
 ## ITextFrame.SplitTextByColumns metoda
 
-Rozdziela zawartość tekstową [`ITextFrame`](../../itextframe) na tablicę ciągów znaków, gdzie każdy element odpowiada osobnej kolumnie tekstowej w ramce.
+Dzieli zawartość tekstową [`ITextFrame`](../../itextframe) na tablicę ciągów znaków, gdzie każdy element odpowiada oddzielnej kolumnie tekstowej w ramce.
 
 ```csharp
 public string[] SplitTextByColumns()
@@ -16,15 +16,15 @@ public string[] SplitTextByColumns()
 
 ### Wartość zwracana
 
-Tablica ciągów znaków, gdzie każdy ciąg reprezentuje zawartość tekstową konkretnej kolumny w [`ITextFrame`](../../itextframe).
+Tablica ciągów znaków, gdzie każdy ciąg reprezentuje zawartość tekstową określonej kolumny w [`ITextFrame`](../../itextframe).
 
 ### Uwagi
 
-Jeśli ramka tekstowa nie zawiera wielu kolumn, zwrócona tablica będzie miała pojedynczy element zawierający cały tekst. Puste kolumny będą reprezentowane jako puste ciągi znaków w tablicy.
+Jeśli ramka tekstowa nie zawiera wielu kolumn, zwrócona tablica będzie zawierać jeden element z pełnym tekstem. Puste kolumny będą reprezentowane jako puste ciągi znaków w tablicy.
 
 ### Przykłady
 
-Poniższy przykład demonstruje, jak używać `SplitTextByColumns`:
+Poniższy przykład pokazuje, jak używać `SplitTextByColumns`:
 
 ```csharp
 using (Presentation pres = new Presentation("example.pptx"))
@@ -33,7 +33,7 @@ using (Presentation pres = new Presentation("example.pptx"))
     ITextFrame textFrame = pres.Slides[0].Shapes[0] as ITextFrame;
     // Podziel zawartość ramki tekstowej na kolumny
     string[] columnsText = textFrame.SplitTextByColumns();
-    // Wypisz tekst każdej kolumny w konsoli
+    // Wypisz tekst każdej kolumny na konsolę
     foreach (string column in columnsText)
         Console.WriteLine(column);
 }

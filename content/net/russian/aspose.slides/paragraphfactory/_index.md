@@ -3,7 +3,7 @@ title: ParagraphFactory
 second_title: Справочник API Aspose.Sildes для .NET
 description: Позволяет создавать абзацы
 type: docs
-weight: 9300
+weight: 9320
 url: /ru/aspose.slides/paragraphfactory/
 ---
 ## ParagraphFactory класс
@@ -16,20 +16,20 @@ public class ParagraphFactory : IParagraphFactory
 
 ## Конструкторы
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
 | [ParagraphFactory](paragraphfactory)() | Конструктор по умолчанию. |
 
 ## Методы
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
-| [CreateParagraph](../../aspose.slides/paragraphfactory/createparagraph#createparagraph)() | Создает новый пустой абзац. |
-| [CreateParagraph](../../aspose.slides/paragraphfactory/createparagraph#createparagraph_1)(IParagraph) | Создает новый абзац с указанными данными абзаца. |
+| [CreateParagraph](../../aspose.slides/paragraphfactory/createparagraph#createparagraph)() | Создаёт новый пустой абзац. |
+| [CreateParagraph](../../aspose.slides/paragraphfactory/createparagraph#createparagraph_1)(IParagraph) | Создаёт новый абзац с указанными данными абзаца. |
 
 ### Примечания
 
-Для совместимости с COM.
+For COM compatibility.
 
 ### См. также
 

@@ -1,12 +1,12 @@
 ---
 title: SlideSizeType
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes .NET API Referansı
 description: Slayt boyutu ön ayarını temsil eder.
 type: docs
-weight: 10520
+weight: 10540
 url: /tr/aspose.slides/slidesizetype/
 ---
-## SlideSizeType enumerasyon
+## SlideSizeType enumerasyonu
 
 Slayt boyutu ön ayarını temsil eder.
 
@@ -21,7 +21,7 @@ public enum SlideSizeType
 | OnScreen | `0` | Ekranda 4x3 |
 | LetterPaper | `1` | Letter |
 | A4Paper | `2` | A4 |
-| Slide35mm | `3` | Slide 35mm |
+| Slide35mm | `3` | 35mm slayt |
 | Overhead | `4` | Overhead |
 | Banner | `5` | Banner |
 | Custom | `6` | Özel boyut |
@@ -31,12 +31,12 @@ public enum SlideSizeType
 | B5IsoPaper | `10` | B5 ISO |
 | B4JisPaper | `11` | B4 JIS |
 | B5JisPaper | `12` | B5 JIS |
-| HagakiCard | `13` | Hagaki kartı |
+| HagakiCard | `13` | Hagaki kart |
 | OnScreen16x9 | `14` | Ekranda 16x9 |
 | OnScreen16x10 | `15` | Ekranda 16x10 |
 | Widescreen | `16` | Geniş ekran |
 
-### Bakınız
+### Diğer
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

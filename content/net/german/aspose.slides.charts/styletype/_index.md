@@ -1,14 +1,14 @@
 ---
 title: StyleType
-second_title: Aspose.Sildes für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Stellt den Diagrammstil dar.
 type: docs
-weight: 2430
+weight: 2450
 url: /de/aspose.slides.charts/styletype/
 ---
 ## StyleType Aufzählung
 
-Stellt einen Diagrammstil dar.
+Stellt den Diagrammstil dar.
 
 ```csharp
 public enum StyleType

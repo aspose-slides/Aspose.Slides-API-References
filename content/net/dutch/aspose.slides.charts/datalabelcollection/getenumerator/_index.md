@@ -3,10 +3,10 @@ title: GetEnumerator
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Retourneert een enumerator die door de collectie itereert.
 type: docs
-weight: 90
+weight: 100
 url: /nl/aspose.slides.charts/datalabelcollection/getenumerator/
 ---
-## DataLabelCollection.GetEnumerator method
+## DataLabelCollection.GetEnumerator methode
 
 Retourneert een enumerator die door de collectie itereert.
 

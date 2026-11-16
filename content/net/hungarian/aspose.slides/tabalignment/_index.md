@@ -1,14 +1,14 @@
 ---
 title: TabAlignment
-second_title: Aspose.Sildes .NET API referenciája
-description: A tabulátor igazítását reprezentálja.
+second_title: Aspose.Sildes a .NET API hivatkozásához
+description: A tab igazítását reprezentálja.
 type: docs
-weight: 10830
+weight: 10850
 url: /hu/aspose.slides/tabalignment/
 ---
 ## TabAlignment felsorolás
 
-A tabulátor igazítását reprezentálja.
+A tab igazítását reprezentálja.
 
 ```csharp
 public enum TabAlignment

@@ -1,14 +1,14 @@
 ---
 title: OOXMLCorruptFileException
-second_title: Aspose.Sildes para referência da API .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Exceção lançada quando o formato de arquivo Office Open XML está corrompido.
 type: docs
-weight: 9190
+weight: 9210
 url: /pt/aspose.slides/ooxmlcorruptfileexception/
 ---
 ## OOXMLCorruptFileException classe
 
-Exceção que é lançada quando o formato de arquivo Office Open XML está corrompido.
+Exceção lançada quando o formato de arquivo Office Open XML está corrompido.
 
 ```csharp
 public class OOXMLCorruptFileException : OOXMLException
@@ -20,9 +20,9 @@ public class OOXMLCorruptFileException : OOXMLException
 | --- | --- |
 | [OOXMLCorruptFileException](ooxmlcorruptfileexception#constructor)() | Construtor padrão. |
 | [OOXMLCorruptFileException](ooxmlcorruptfileexception#constructor_1)(string) | Construtor que permite adicionar uma mensagem a esta exceção. |
-| [OOXMLCorruptFileException](ooxmlcorruptfileexception#constructor_2)(string, Exception) | Construtor para uma exceção contendo uma mensagem e uma exceção incorporada. |
+| [OOXMLCorruptFileException](ooxmlcorruptfileexception#constructor_2)(string, Exception) | Construtor para uma exceção que contém uma mensagem e uma exceção incorporada. |
 
-### Veja Também
+### Veja também
 
 * classe [OOXMLException](../ooxmlexception)
 * espaço de nomes [Aspose.Slides](../../aspose.slides)

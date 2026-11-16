@@ -1,9 +1,9 @@
 ---
 title: IPresentationInfo
-second_title: Aspose.Sildes dla .NET Referencja API
+second_title: Aspose.Sildes dla .NET – Dokumentacja API
 description: Informacje o pliku prezentacji
 type: docs
-weight: 6790
+weight: 6810
 url: /pl/aspose.slides/ipresentationinfo/
 ---
 ## IPresentationInfo interfejs
@@ -19,15 +19,15 @@ public interface IPresentationInfo
 | Nazwa | Opis |
 | --- | --- |
 | [IsEncrypted](../../aspose.slides/ipresentationinfo/isencrypted) { get; } | Zwraca True, jeśli powiązana prezentacja jest zaszyfrowana, w przeciwnym razie False. Tylko do odczytu Boolean. |
-| [IsPasswordProtected](../../aspose.slides/ipresentationinfo/ispasswordprotected) { get; } | Zwraca wartość określającą, czy powiązana prezentacja jest chroniona hasłem przy otwieraniu. |
-| [IsWriteProtected](../../aspose.slides/ipresentationinfo/iswriteprotected) { get; } | Zwraca wartość określającą, czy powiązana prezentacja jest chroniona przed zapisem. |
+| [IsPasswordProtected](../../aspose.slides/ipresentationinfo/ispasswordprotected) { get; } | Zwraca wartość wskazującą, czy powiązana prezentacja jest chroniona hasłem do otwarcia. |
+| [IsWriteProtected](../../aspose.slides/ipresentationinfo/iswriteprotected) { get; } | Zwraca wartość wskazującą, czy powiązana prezentacja jest chroniona przed zapisem. |
 | [LoadFormat](../../aspose.slides/ipresentationinfo/loadformat) { get; } | Zwraca format powiązanej prezentacji. Tylko do odczytu [`LoadFormat`](../loadformat). |
 
 ## Metody
 
 | Nazwa | Opis |
 | --- | --- |
-| [CheckPassword](../../aspose.slides/ipresentationinfo/checkpassword)(string) | Sprawdza, czy hasło jest poprawne dla prezentacji chronionej hasłem otwierającym. |
+| [CheckPassword](../../aspose.slides/ipresentationinfo/checkpassword)(string) | Sprawdza, czy hasło jest poprawne dla prezentacji chronionej hasłem otwarcia. |
 | [CheckWriteProtection](../../aspose.slides/ipresentationinfo/checkwriteprotection)(string) | Sprawdza, czy hasło do modyfikacji jest poprawne dla prezentacji chronionej przed zapisem. |
 | [ReadDocumentProperties](../../aspose.slides/ipresentationinfo/readdocumentproperties)() | Zwraca właściwości dokumentu powiązanej prezentacji. |
 | [UpdateDocumentProperties](../../aspose.slides/ipresentationinfo/updatedocumentproperties)(IDocumentProperties) | Aktualizuje właściwości powiązanej prezentacji. |

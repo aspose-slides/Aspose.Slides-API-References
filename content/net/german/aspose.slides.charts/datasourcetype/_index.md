@@ -3,7 +3,7 @@ title: DataSourceType
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Datentypen der Datenquelle.
 type: docs
-weight: 1580
+weight: 1590
 url: /de/aspose.slides.charts/datasourcetype/
 ---
 ## DataSourceType Aufzählung
@@ -19,8 +19,8 @@ public enum DataSourceType
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
 | Worksheet | `0` | Verwenden Sie CellXls-Objekte zum Speichern von XValue, YValue, Value oder BubbleSize des Datenpunkts im Arbeitsblatt. |
-| StringLiterals | `1` | Verwenden Sie eine schnell zugängliche Zeichenfolgenvariable zum Speichern von XValue, YValue, Value oder BubbleSize des Datenpunkts. Das Arbeitsblatt wird NICHT zum Speichern von Werten verwendet. |
-| DoubleLiterals | `2` | Verwenden Sie eine schnell zugängliche double-Variable zum Speichern von XValue, YValue, Value oder BubbleSize des Datenpunkts. Das Arbeitsblatt wird NICHT zum Speichern von Werten verwendet. |
+| StringLiterals | `1` | Verwenden Sie eine schnell zugreifbare string-Variable zum Speichern von XValue, YValue, Value oder BubbleSize des Datenpunkts. Worksheet wird NICHT zum Speichern von Werten verwendet. |
+| DoubleLiterals | `2` | Verwenden Sie eine schnell zugreifbare double-Variable zum Speichern von XValue, YValue, Value oder BubbleSize des Datenpunkts. Worksheet wird NICHT zum Speichern von Werten verwendet. |
 
 ### Siehe auch
 

@@ -1,14 +1,14 @@
 ---
 title: TextAutofitType
 second_title: Aspose.Sildes for .NET API リファレンス
-description: テキストの自動調整モードを表します。
+description: テキストの自動フィット モードを表します。
 type: docs
-weight: 10920
+weight: 10940
 url: /ja/aspose.slides/textautofittype/
 ---
 ## TextAutofitType 列挙体
 
-テキストの自動調整モードを表します。
+テキストの自動フィット モードを表します。
 
 ```csharp
 public enum TextAutofitType : sbyte
@@ -18,10 +18,10 @@ public enum TextAutofitType : sbyte
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
-| NotDefined | `-1` | 定義されていません。 |
-| None | `0` | 自動調整なし。 |
-| Normal | `1` | 通常の自動調整。フォントサイズと行間はシェイプに合わせて縮小されます。 |
-| Shape | `2` | シェイプ自動調整。シェイプサイズはテキストに合わせて変更されます。 |
+| NotDefined | `-1` | 未定義です。 |
+| None | `0` | 自動フィットなし。 |
+| Normal | `1` | 標準の自動フィット。フォント サイズと行間がシェイプに合わせて縮小されます。 |
+| Shape | `2` | シェイプの自動フィット。シェイプ サイズがテキストに合わせて変更されます。 |
 
 ### 参照
 

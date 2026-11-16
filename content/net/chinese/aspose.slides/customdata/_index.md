@@ -1,9 +1,9 @@
 ---
 title: CustomData
-second_title: Aspose.Sildes 的 .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 表示自定义数据的容器。
 type: docs
-weight: 2730
+weight: 2750
 url: /zh/aspose.slides/customdata/
 ---
 ## CustomData 类
@@ -19,9 +19,9 @@ public class CustomData : ICustomData
 | 名称 | 描述 |
 | --- | --- |
 | [CustomXmlParts](../../aspose.slides/customdata/customxmlparts) { get; } | 返回自定义 xml 部分集合。只读 [`ICustomXmlPartCollection`](../icustomxmlpartcollection)。 |
-| [Tags](../../aspose.slides/customdata/tags) { get; } | 返回 Customer Data Tags 集合。只读 [`ITagCollection`](../itagcollection)。 |
+| [Tags](../../aspose.slides/customdata/tags) { get; } | 返回客户数据标签集合。只读 [`ITagCollection`](../itagcollection)。 |
 
-### 另请参见
+### 另见
 
 * 接口 [ICustomData](../icustomdata)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

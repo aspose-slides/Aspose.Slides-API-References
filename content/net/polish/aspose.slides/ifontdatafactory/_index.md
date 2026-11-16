@@ -1,9 +1,9 @@
 ---
 title: IFontDataFactory
 second_title: Aspose.Sildes dla .NET – referencja API
-description: Interfejs fabryki FontData
+description: interfejs fabryki FontData
 type: docs
-weight: 5840
+weight: 5860
 url: /pl/aspose.slides/ifontdatafactory/
 ---
 ## IFontDataFactory interfejs
@@ -14,11 +14,11 @@ interfejs fabryki FontData
 public interface IFontDataFactory
 ```
 
-## Metody
+## Methods
 
 | Nazwa | Opis |
 | --- | --- |
-| [CreateFontData](../../aspose.slides/ifontdatafactory/createfontdata)(string) | Tworzy FontData o określonej nazwie czcionki. |
+| [CreateFontData](../../aspose.slides/ifontdatafactory/createfontdata)(string) | Tworzy FontData z określoną nazwą czcionki. |
 
 ### Zobacz także
 

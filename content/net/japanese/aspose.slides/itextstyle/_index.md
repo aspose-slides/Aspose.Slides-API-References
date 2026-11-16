@@ -3,7 +3,7 @@ title: ITextStyle
 second_title: Aspose.Sildes for .NET API リファレンス
 description: テキストスタイルの書式設定プロパティです。
 type: docs
-weight: 7310
+weight: 7330
 url: /ja/aspose.slides/itextstyle/
 ---
 ## ITextStyle インターフェイス
@@ -18,16 +18,16 @@ public interface ITextStyle
 
 | 名前 | 説明 |
 | --- | --- |
-| [DefaultParagraphFormat](../../aspose.slides/itextstyle/defaultparagraphformat) { get; } | デフォルトの段落プロパティ。読み取り専用 [`IParagraphFormat`](../iparagraphformat). |
+| [DefaultParagraphFormat](../../aspose.slides/itextstyle/defaultparagraphformat) { get; } | デフォルトの段落プロパティです。読み取り専用 [`IParagraphFormat`](../iparagraphformat)。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
 | [GetEffective](../../aspose.slides/itextstyle/geteffective)() | 継承が適用された有効なテキストスタイルの書式設定データを取得します。 |
-| [GetLevel](../../aspose.slides/itextstyle/getlevel)(int) | スタイルのレベルが存在する場合はそれを返し、存在しない場合は null を返します。 |
+| [GetLevel](../../aspose.slides/itextstyle/getlevel)(int) | スタイルのレベルが存在すればそれを返し、存在しなければ null を返します。 |
 
-### 参照
+### 関連項目
 
 * 名前空間 [Aspose.Slides](../../aspose.slides)
 * アセンブリ [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: IColorOperationCollection
-second_title: Aspose.Sildes a .NET API referenciához
-description: A színtranszformációs műveletek gyűjteményét képviseli.
+second_title: Aspose.Sildes .NET API referencia
+description: Színtranszformációs műveletek gyűjteményét képviseli.
 type: docs
-weight: 5510
+weight: 5530
 url: /hu/aspose.slides/icoloroperationcollection/
 ---
 ## IColorOperationCollection interfész
 
-Színtranszformációs műveletek gyűjteményét képviseli.
+Egy színtranszformációs műveletek gyűjteményét képviseli.
 
 ```csharp
 public interface IColorOperationCollection : IGenericCloneable<IColorOperationCollection>, 
@@ -21,13 +21,13 @@ public interface IColorOperationCollection : IGenericCloneable<IColorOperationCo
 | --- | --- |
 | [Item](../../aspose.slides/icoloroperationcollection/item) { get; set; } | Visszaadja vagy beállítja a műveletet a megadott indexen. Olvasás/írás [`IColorOperation`](../icoloroperation). |
 
-## Módszerek
+## Metódusok
 
 | Név | Leírás |
 | --- | --- |
 | [Add](../../aspose.slides/icoloroperationcollection/add#add)(ColorTransformOperation) | Új műveletet ad a gyűjtemény végéhez. |
 | [Add](../../aspose.slides/icoloroperationcollection/add#add_1)(ColorTransformOperation, float) | Új műveletet ad a gyűjtemény végéhez. |
-| [Clear](../../aspose.slides/icoloroperationcollection/clear)() | Az összes színműveletet eltávolítja. |
+| [Clear](../../aspose.slides/icoloroperationcollection/clear)() | Eltávolítja az összes színműveletet. |
 | [Insert](../../aspose.slides/icoloroperationcollection/insert#insert)(int, ColorTransformOperation) | Beszúrja az új műveletet a gyűjteménybe. |
 | [Insert](../../aspose.slides/icoloroperationcollection/insert#insert_1)(int, ColorTransformOperation, float) | Beszúrja az új műveletet a gyűjteménybe. |
 | [RemoveAt](../../aspose.slides/icoloroperationcollection/removeat)(int) | Eltávolítja a színműveletet a gyűjteményből. |

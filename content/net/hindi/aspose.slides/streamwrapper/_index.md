@@ -3,12 +3,12 @@ title: StreamWrapper
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
 description: COM इंटरफ़ेस के लिए Aspose.IO.Stream रैपर।
 type: docs
-weight: 10750
+weight: 10770
 url: /hi/aspose.slides/streamwrapper/
 ---
 ## StreamWrapper क्लास
 
-Aspose.IO.Stream का COM इंटरफ़ेस के लिए रैपर।
+Aspose.IO.Stream रैपर COM इंटरफ़ेस के लिए।
 
 ```csharp
 public class StreamWrapper : IStreamWrapper
@@ -18,26 +18,26 @@ public class StreamWrapper : IStreamWrapper
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIDisposable](../../aspose.slides/streamwrapper/asidisposable) { get; } | आधारभूत IDisposable इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य IDisposable। |
-| [CanRead](../../aspose.slides/streamwrapper/canread) { get; } | वर्तमान स्ट्रीम रीडिंग का समर्थन करती है या नहीं, यह दर्शाने वाली मान प्राप्त करता है। केवल-पढ़ने योग्य Boolean। |
-| [CanSeek](../../aspose.slides/streamwrapper/canseek) { get; } | वर्तमान स्ट्रीम seeking का समर्थन करती है या नहीं, यह दर्शाने वाली मान प्राप्त करता है। केवल-पढ़ने योग्य Boolean। |
-| [CanWrite](../../aspose.slides/streamwrapper/canwrite) { get; } | वर्तमान स्ट्रीम लिखने का समर्थन करती है या नहीं, यह दर्शाने वाली मान प्राप्त करता है। केवल-पढ़ने योग्य Boolean। |
-| [Length](../../aspose.slides/streamwrapper/length) { get; } | स्ट्रीम की बाइट्स में लंबाई प्राप्त करता है। केवल-पढ़ने योग्य Int64। |
-| [Position](../../aspose.slides/streamwrapper/position) { get; } | वर्तमान स्ट्रीम में स्थिति प्राप्त या सेट करता है। केवल-पढ़ने योग्य Int64। |
-| [Stream](../../aspose.slides/streamwrapper/stream) { get; } | एक स्ट्रीम प्राप्त करता है। केवल-पढ़ने योग्य Stream। |
+| [AsIDisposable](../../aspose.slides/streamwrapper/asidisposable) { get; } | बेस IDisposable इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने-योग्य IDisposable. |
+| [CanRead](../../aspose.slides/streamwrapper/canread) { get; } | वर्तमान स्ट्रीम द्वारा पढ़ने का समर्थन किया जाता है या नहीं, यह दर्शाने वाला मान प्राप्त करता है। केवल-पढ़ने-योग्य बूलियन. |
+| [CanSeek](../../aspose.slides/streamwrapper/canseek) { get; } | वर्तमान स्ट्रीम द्वारा सीकिंग का समर्थन किया जाता है या नहीं, यह दर्शाने वाला मान प्राप्त करता है। केवल-पढ़ने-योग्य बूलियन. |
+| [CanWrite](../../aspose.slides/streamwrapper/canwrite) { get; } | वर्तमान स्ट्रीम द्वारा लेखन का समर्थन किया जाता है या नहीं, यह दर्शाने वाला मान प्राप्त करता है। केवल-पढ़ने-योग्य बूलियन. |
+| [Length](../../aspose.slides/streamwrapper/length) { get; } | स्ट्रीम की बाइट्स में लंबाई प्राप्त करता है। केवल-पढ़ने-योग्य Int64. |
+| [Position](../../aspose.slides/streamwrapper/position) { get; } | वर्तमान स्ट्रीम के भीतर स्थिति प्राप्त करता है या सेट करता है। केवल-पढ़ने-योग्य Int64. |
+| [Stream](../../aspose.slides/streamwrapper/stream) { get; } | एक स्ट्रीम प्राप्त करता है। केवल-पढ़ने-योग्य Stream. |
 
-## विधियां
+## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [Close](../../aspose.slides/streamwrapper/close)() | वर्तमान स्ट्रीम को बंद करता है और सभी संसाधनों को जारी करता है। |
+| [Close](../../aspose.slides/streamwrapper/close)() | वर्तमान स्ट्रीम को बंद करता है और किसी भी संसाधन को मुक्त करता है। |
 | [Dispose](../../aspose.slides/streamwrapper/dispose)() | ऑब्जेक्ट को नष्ट करता है। |
-| [Flush](../../aspose.slides/streamwrapper/flush)() | इस स्ट्रीम के सभी बफ़र साफ़ करता है और किसी भी बफ़र किए डेटा को अंतर्निहित डिवाइस पर लिखवाता है। |
-| [Read](../../aspose.slides/streamwrapper/read)(byte[], int, int) | वर्तमान स्ट्रीम से बाइट्स की श्रृंखला पढ़ता है और पढ़े गए बाइट्स की संख्या के अनुसार स्ट्रीम में स्थिति को आगे बढ़ाता है। |
-| [ReadByte](../../aspose.slides/streamwrapper/readbyte)() | स्ट्रीम से एक बाइट पढ़ता है और स्ट्रीम में स्थिति को एक बाइट आगे बढ़ाता है, या यदि स्ट्रीम के अंत पर हो तो -1 लौटाता है। |
-| [Seek](../../aspose.slides/streamwrapper/seek)(long, SeekOrigin) | वर्तमान स्ट्रीम में स्थिति सेट करता है। |
-| [Write](../../aspose.slides/streamwrapper/write)(byte[], int, int) | वर्तमान स्ट्रीम में बाइट्स की श्रृंखला लिखता है और लिखे गए बाइट्स की संख्या के अनुसार इस स्ट्रीम में वर्तमान स्थिति को आगे बढ़ाता है। |
-| [WriteByte](../../aspose.slides/streamwrapper/writebyte)(byte) | स्ट्रीम में वर्तमान स्थिति पर एक बाइट लिखता है और स्ट्रीम में स्थिति को एक बाइट आगे बढ़ाता है। |
+| [Flush](../../aspose.slides/streamwrapper/flush)() | इस स्ट्रीम के सभी बफ़र को साफ़ करता है और किसी भी बफ़र किए डेटा को आधारभूत डिवाइस पर लिखता है। |
+| [Read](../../aspose.slides/streamwrapper/read)(byte[], int, int) | वर्तमान स्ट्रीम से बाइट्स की एक श्रृंखला पढ़ता है और पढ़े गए बाइट्स की संख्या से स्ट्रीम में स्थिति को आगे बढ़ाता है। |
+| [ReadByte](../../aspose.slides/streamwrapper/readbyte)() | स्ट्रीम से एक बाइट पढ़ता है और स्ट्रीम में स्थिति को एक बाइट से आगे बढ़ाता है, या यदि स्ट्रीम के अंत पर हो तो -1 लौटाता है। |
+| [Seek](../../aspose.slides/streamwrapper/seek)(long, SeekOrigin) | वर्तमान स्ट्रीम के भीतर स्थिति सेट करता है। |
+| [Write](../../aspose.slides/streamwrapper/write)(byte[], int, int) | वर्तमान स्ट्रीम में बाइट्स की एक श्रृंखला लिखता है और लिखे गए बाइट्स की संख्या से इस स्ट्रीम में वर्तमान स्थिति को आगे बढ़ाता है। |
+| [WriteByte](../../aspose.slides/streamwrapper/writebyte)(byte) | स्ट्रीम में वर्तमान स्थिति पर एक बाइट लिखता है और स्ट्रीम में स्थिति को एक बाइट से आगे बढ़ाता है। |
 
 ### देखें
 

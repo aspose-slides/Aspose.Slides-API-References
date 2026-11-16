@@ -1,14 +1,14 @@
 ---
 title: IMathSubscriptElement
-second_title: Aspose.Sildes para .NET - Referência da API
-description: Especifica o objeto de subscrito que consiste em uma base e um subscrito de tamanho reduzido posicionado abaixo e à direita.
+second_title: Aspose.Sildes para referência de API .NET
+description: Especifica o objeto subscrito que consiste em uma base e um subscrito de tamanho reduzido posicionado abaixo e à direita.
 type: docs
-weight: 8470
+weight: 8490
 url: /pt/aspose.slides.mathtext/imathsubscriptelement/
 ---
 ## IMathSubscriptElement interface
 
-Especifica o objeto de subscrito, que consiste em uma base e um subscrito de tamanho reduzido posicionado abaixo e à direita.
+Especifica o objeto subscrito, que consiste em uma base e um subscrito de tamanho reduzido posicionado abaixo e à direita.
 
 ```csharp
 public interface IMathSubscriptElement : IMathElement
@@ -31,7 +31,7 @@ Exemplo:
 IMathSubscriptElement subscriptElement = new MathematicalText("N").SetSubscript("i");
 ```
 
-### Veja Também
+### Ver também
 
 * interface [IMathElement](../imathelement)
 * namespace [Aspose.Slides.MathText](../../aspose.slides.mathtext)

@@ -1,14 +1,14 @@
 ---
 title: CellInvalidReferenceException
 second_title: Aspose.Sildes for .NET API 참조
-description: 잘못된 셀 참조가 발견될 때 발생하는 예외입니다.
+description: 잘못된 셀 참조가 발생했을 때 발생하는 예외입니다.
 type: docs
-weight: 10720
+weight: 10740
 url: /ko/aspose.slides.spreadsheet/cellinvalidreferenceexception/
 ---
 ## CellInvalidReferenceException 클래스
 
-잘못된 셀 참조가 발견될 때 발생하는 예외입니다.
+잘못된 셀 참조가 발생했을 때 발생하는 예외입니다.
 
 ```csharp
 public class CellInvalidReferenceException : PptxEditException
@@ -16,20 +16,20 @@ public class CellInvalidReferenceException : PptxEditException
 
 ## 생성자
 
-| Name | Description |
+| 이름 | 설명 |
 | --- | --- |
-| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor)() | 새로운 [`CellInvalidReferenceException`](../cellinvalidreferenceexception) 클래스의 인스턴스를 초기화합니다. |
-| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_1)(string) | 지정된 오류 메시지를 사용하여 새로운 [`CellInvalidReferenceException`](../cellinvalidreferenceexception) 클래스의 인스턴스를 초기화합니다. |
-| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_2)(string, Exception) | 지정된 오류 메시지와 이 예외의 원인이 되는 내부 예외에 대한 참조와 함께 새로운 [`CellInvalidReferenceException`](../cellinvalidreferenceexception) 클래스의 인스턴스를 초기화합니다. |
-| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_3)(string, string) | 지정된 오류 메시지와 잘못된 셀 참조와 함께 새로운 [`CellCircularReferenceException`](../cellcircularreferenceexception) 클래스의 인스턴스를 초기화합니다. |
+| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor)() | [`CellInvalidReferenceException`](../cellinvalidreferenceexception) 클래스의 새 인스턴스를 초기화합니다. |
+| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_1)(string) | 지정된 오류 메시지를 사용하여 [`CellInvalidReferenceException`](../cellinvalidreferenceexception) 클래스의 새 인스턴스를 초기화합니다. |
+| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_2)(string, Exception) | 지정된 오류 메시지와 이 예외의 원인인 내부 예외에 대한 참조를 사용하여 [`CellInvalidReferenceException`](../cellinvalidreferenceexception) 클래스의 새 인스턴스를 초기화합니다. |
+| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_3)(string, string) | 지정된 오류 메시지와 잘못된 셀 참조를 사용하여 [`CellCircularReferenceException`](../cellcircularreferenceexception) 클래스의 새 인스턴스를 초기화합니다. |
 
 ## 속성
 
-| Name | Description |
+| 이름 | 설명 |
 | --- | --- |
 | [Reference](../../aspose.slides.spreadsheet/cellinvalidreferenceexception/reference) { get; } | 잘못된 셀 참조를 가져옵니다. |
 
-### 참고
+### 참조
 
 * 클래스 [PptxEditException](../../aspose.slides/pptxeditexception)
 * 네임스페이스 [Aspose.Slides.Spreadsheet](../../aspose.slides.spreadsheet)

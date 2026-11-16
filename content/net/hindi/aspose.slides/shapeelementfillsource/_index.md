@@ -1,14 +1,14 @@
 ---
 title: ShapeElementFillSource
-second_title: Aspose.Sildes .NET के लिए API संदर्भ
+second_title: Aspose.Sildes for .NET API संदर्भ
 description: यह दर्शाता है कि आकार तत्व को कैसे भरा जाना चाहिए।
 type: docs
-weight: 9880
+weight: 9900
 url: /hi/aspose.slides/shapeelementfillsource/
 ---
-## ShapeElementFillSource एन्यूमरेशन
+## ShapeElementFillSource एन्न्यूमरेशन
 
-प्रतीक तत्व को भरने के तरीके को दर्शाता है।
+आकार तत्व को कैसे भरा जाना चाहिए, इसका प्रतिनिधित्व करता है।
 
 ```csharp
 public enum ShapeElementFillSource : byte
@@ -20,12 +20,12 @@ public enum ShapeElementFillSource : byte
 | --- | --- | --- |
 | NoFill | `0` | प्रिमिटिव को न भरें। |
 | Shape | `1` | आकार की भराव का उपयोग करें। |
-| Lighten | `2` | आकार की भराव को हल्का करें। |
-| LightenLess | `3` | आकार की भराव को कम हल्का करें। |
-| Darken | `4` | आकार की भराव को गहरा करें। |
-| DarkenLess | `5` | आकार की भराव को कम गहरा करें। |
+| Lighten | `2` | आकार की हल्की भराव का उपयोग करें। |
+| LightenLess | `3` | कम हल्की भराव का उपयोग करें। |
+| Darken | `4` | आकार की गहरी भराव का उपयोग करें। |
+| DarkenLess | `5` | कम गहरी भराव का उपयोग करें। |
 
-### संबंधित देखें
+### देखें भी
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

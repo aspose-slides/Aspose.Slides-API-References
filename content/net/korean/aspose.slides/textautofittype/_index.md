@@ -1,9 +1,9 @@
 ---
 title: TextAutofitType
-second_title: Aspose.Sildes용 .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 텍스트 자동 맞춤 모드를 나타냅니다.
 type: docs
-weight: 10920
+weight: 10940
 url: /ko/aspose.slides/textautofittype/
 ---
 ## TextAutofitType 열거형
@@ -19,9 +19,9 @@ public enum TextAutofitType : sbyte
 | 이름 | 값 | 설명 |
 | --- | --- | --- |
 | NotDefined | `-1` | 정의되지 않음. |
-| None | `0` | 자동 맞춤이 없습니다. |
-| Normal | `1` | Normal 자동 맞춤. 글꼴 크기와 줄 간격이 모양에 맞도록 줄어들게 됩니다. |
-| Shape | `2` | Shape 자동 맞춤. Shape 크기가 텍스트에 맞도록 변경됩니다. |
+| None | `0` | 자동 맞춤 없음. |
+| Normal | `1` | 일반 자동 맞춤. 폰트 크기와 줄 간격이 도형에 맞게 줄어듭니다. |
+| Shape | `2` | 도형 자동 맞춤. 도형 크기가 텍스트에 맞게 변경됩니다. |
 
 ### 참조
 

@@ -1,9 +1,9 @@
 ---
 title: IChartDataWorksheet
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla .NET – Referencja API
 description: Reprezentuje arkusz powiązany z IChartDataCell./ichartdatacell
 type: docs
-weight: 1870
+weight: 1890
 url: /pl/aspose.slides.charts/ichartdataworksheet/
 ---
 ## IChartDataWorksheet interfejs
@@ -18,10 +18,10 @@ public interface IChartDataWorksheet
 
 | Nazwa | Opis |
 | --- | --- |
-| [Index](../../aspose.slides.charts/ichartdataworksheet/index) { get; } | Pobiera indeks. Tylko do odczytu Int32. |
-| [Name](../../aspose.slides.charts/ichartdataworksheet/name) { get; } | Pobiera nazwę. Tylko do odczytu String. |
+| [Index](../../aspose.slides.charts/ichartdataworksheet/index) { get; } | Zwraca indeks. Tylko do odczytu Int32. |
+| [Name](../../aspose.slides.charts/ichartdataworksheet/name) { get; } | Zwraca nazwę. Tylko do odczytu String. |
 
-### Zobacz także
+### Zobacz też
 
 * przestrzeń nazw [Aspose.Slides.Charts](../../aspose.slides.charts)
 * zestaw [Aspose.Slides](../../)

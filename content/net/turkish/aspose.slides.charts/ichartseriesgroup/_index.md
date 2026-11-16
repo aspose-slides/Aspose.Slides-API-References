@@ -1,9 +1,9 @@
 ---
 title: IChartSeriesGroup
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Seri grubunu temsil eder.
 type: docs
-weight: 1950
+weight: 1970
 url: /tr/aspose.slides.charts/ichartseriesgroup/
 ---
 ## IChartSeriesGroup arabirimi
@@ -18,35 +18,34 @@ public interface IChartSeriesGroup : IChartComponent
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIChartComponent](../../aspose.slides.charts/ichartseriesgroup/asichartcomponent) { get; } | Temel IChartComponent arabirimini almaya izin verir. Yalnızca okuma [`IChartComponent`](../ichartcomponent). |
-| [BubbleSizeRepresentation](../../aspose.slides.charts/ichartseriesgroup/bubblesizerepresentation) { get; set; } | Baloncuk grafiğinde baloncuk boyutu değerlerinin nasıl temsil edileceğini belirler. Okuma/yazma [`BubbleSizeRepresentationType`](../bubblesizerepresentationtype). |
-| [BubbleSizeScale](../../aspose.slides.charts/ichartseriesgroup/bubblesizescale) { get; set; } | Baloncuk grafiği için ölçek faktörünü belirler (varsayılan boyutun %0 ile %300 arasında olabilir). Okuma/yazma Int32. |
-| [DoughnutHoleSize](../../aspose.slides.charts/ichartseriesgroup/doughnutholesize) { get; set; } | Halka grafiğindeki boşluğun boyutunu belirler (çizim alanının boyutunun %10 ile %90 arasında olabilir). Okuma/yazma Byte. |
-| [FirstSliceAngle](../../aspose.slides.charts/ichartseriesgroup/firstsliceangle) { get; set; } | İlk pasta ya da halka grafiği diliminin açısını derece cinsinden alır veya ayarlar (yukarıdan saat yönünde, 0 ile 360 derece arasında). Okuma/yazma UInt16. |
-| [GapDepth](../../aspose.slides.charts/ichartseriesgroup/gapdepth) { get; set; } | 3B grafikte veri serileri arasındaki mesafeyi, işaretçi genişliğinin yüzdesi olarak alır veya ayarlar. Okuma/yazma UInt16. |
-| [GapWidth](../../aspose.slides.charts/ichartseriesgroup/gapwidth) { get; set; } | Çubuk veya sütun kümeleri arasındaki boşluğu, çubuk ya da sütun genişliğinin yüzdesi olarak belirler. Okuma/yazma UInt16. |
-| [HasSeriesLines](../../aspose.slides.charts/ichartseriesgroup/hasserieslines) { get; set; } | Grafik serileri çizgileri varsa doğru. Yığılmış çubuk ve OfPie grafiklerine uygulanır. Okuma/yazma Boolean. |
-| [HiLowLinesFormat](../../aspose.slides.charts/ichartseriesgroup/hilowlinesformat) { get; } | HiLowLines biçimini belirler. HiLowLines, HiLowClose, OpenHiLowClose, VolumeHiLowClose ve VolumeOpenHiLowClose grafik tipleriyle uygulanır. |
-| [IsColorVaried](../../aspose.slides.charts/ichartseriesgroup/iscolorvaried) { get; set; } | Serideki her veri işaretçisinin farklı bir renkte olmasını belirler. Okuma/yazma Boolean. |
-| [Item](../../aspose.slides.charts/ichartseriesgroup/item) { get; } | Belirtilen indeksteki öğeyi alır. |
-| [Overlap](../../aspose.slides.charts/ichartseriesgroup/overlap) { get; set; } | 2B grafiklerde çubuk ve sütunların ne kadar üst üste geleceğini yüzde olarak belirler (-100% ile %100 arasında). --100%: Azami boşluk (çubuklar tamamen ayrıdır). -0%: Çubuklar yan yana, üst üste gelmeden veya boşluk olmadan yer alır. -100%: Azami üst üste gelme (çubuklar tamamen birbirinin üzerine biner). Bu özellik okuma/yazma SByte. |
-| [PieSplitBy](../../aspose.slides.charts/ichartseriesgroup/piesplitby) { get; set; } | Pie-of-pie veya bar-of-pie grafiğinde ikinci pasta ya da çubukta hangi veri noktalarının bulunacağını belirleme şeklini tanımlar. Okuma/yazma [`PieSplitType`](../piesplittype). |
-| [PieSplitCustomPoints](../../aspose.slides.charts/ichartseriesgroup/piesplitcustompoints) { get; } | Özel bölünmeye sahip bir pie-of-pie veya bar-of-pie grafiği için özel bölünme bilgisi. İkinci pasta veya çubukta çizilecek veri noktalarını içerir. Yalnızca okuma [`IPieSplitCustomPointCollection`](../ipiesplitcustompointcollection). |
-| [PieSplitPosition](../../aspose.slides.charts/ichartseriesgroup/piesplitposition) { get; set; } | Pie-of-pie veya bar-of-pie grafiğinde ikinci pasta ya da çubukta hangi veri noktalarının bulunacağını belirlemek için kullanılacak değeri tanımlar. PieSplitBy özelliği ile birlikte kullanılır. Okuma/yazma Double. |
-| [PlotOnSecondAxis](../../aspose.slides.charts/ichartseriesgroup/plotonsecondaxis) { get; } | Bu grubun serilerinin ikincil eksende çizilip çizilmediğini gösterir. Yalnızca okuma Boolean. |
-| [SecondPieSize](../../aspose.slides.charts/ichartseriesgroup/secondpiesize) { get; set; } | Pie-of-pie veya bar-of-pie grafiğinde ikinci pasta ya da çubuğun boyutunu, birinci pastanın boyutunun yüzdesi olarak belirler ( %5 ile %200 arasında olabilir). Okuma/yazma UInt16. |
-| [Series](../../aspose.slides.charts/ichartseriesgroup/series) { get; } | Grafik serilerinin sadece okuma koleksiyonunu döndürür. Yalnızca okuma [`IChartSeriesReadonlyCollection`](../ichartseriesreadonlycollection). |
-| [Type](../../aspose.slides.charts/ichartseriesgroup/type) { get; } | Bu seri grubunun türünü döndürür. Yalnızca okuma [`CombinableSeriesTypesGroup`](../combinableseriestypesgroup). |
-| [UpDownBars](../../aspose.slides.charts/ichartseriesgroup/updownbars) { get; } | Line veya Stock grafiğinin yukarı/aşağı çubuklarına erişim sağlar. Yalnızca okuma [`IUpDownBarsManager`](../iupdownbarsmanager). |
+| [AsIChartComponent](../../aspose.slides.charts/ichartseriesgroup/asichartcomponent) { get; } | Temel IChartComponent arabirimini almaya izin verir. Salt okunur [`IChartComponent`](../ichartcomponent). |
+| [BubbleSizeRepresentation](../../aspose.slides.charts/ichartseriesgroup/bubblesizerepresentation) { get; set; } | Balon grafiğinde balon boyutu değerlerinin nasıl temsil edildiğini belirtir. Okunur/yazılır [`BubbleSizeRepresentationType`](../bubblesizerepresentationtype). |
+| [BubbleSizeScale](../../aspose.slides.charts/ichartseriesgroup/bubblesizescale) { get; set; } | Balon grafiği için ölçek çarpanını belirtir (varsayılan boyutun %0 ile %300 arasında olabilir). Okunur/yazılır Int32. |
+| [DoughnutHoleSize](../../aspose.slides.charts/ichartseriesgroup/doughnutholesize) { get; set; } | Halka grafiğindeki boşluğun boyutunu belirtir (çizim alanının boyutunun %10 ile %90 arasında olabilir). Okunur/yazılır Byte. |
+| [FirstSliceAngle](../../aspose.slides.charts/ichartseriesgroup/firstsliceangle) { get; set; } | İlk pasta veya halka grafiği diliminin açısını derece cinsinden alır veya ayarlar (yukarıdan saat yönünde, 0 ile 360 derece arasında). Okunur/yazılır UInt16. |
+| [GapDepth](../../aspose.slides.charts/ichartseriesgroup/gapdepth) { get; set; } | 3B grafikte veri serileri arasındaki mesafeyi işaretçi genişliğinin yüzdesi olarak alır veya ayarlar. Değer 0 ile 500 arasında olmalıdır. Okunur/yazılır UInt16. |
+| [GapWidth](../../aspose.slides.charts/ichartseriesgroup/gapwidth) { get; set; } | Sütun veya çubuk kümeleri arasındaki boşluğu çubuk veya sütun genişliğinin yüzdesi olarak alır veya ayarlar. Değer 0 ile 500 arasında olmalıdır. Okunur/yazılır UInt16. |
+| [HasSeriesLines](../../aspose.slides.charts/ichartseriesgroup/hasserieslines) { get; set; } | Grafik seri çizgileri varsa doğru. Yığılmış çubuk ve OfPie grafiklerine uygulanır. Okunur/yazılır Boolean. |
+| [HiLowLinesFormat](../../aspose.slides.charts/ichartseriesgroup/hilowlinesformat) { get; } | HiLowLines biçimini belirtir. HiLowLines, HiLowClose, OpenHiLowClose, VolumeHiLowClose ve VolumeOpenHiLowClose grafik tiplerinde uygulanır. |
+| [IsColorVaried](../../aspose.slides.charts/ichartseriesgroup/iscolorvaried) { get; set; } | Serideki her veri işaretçisinin farklı bir renge sahip olmasını belirtir. Okunur/yazılır Boolean. |
+| [Item](../../aspose.slides.charts/ichartseriesgroup/item) { get; } | Belirtilen indeksteki elemanı alır. |
+| [Overlap](../../aspose.slides.charts/ichartseriesgroup/overlap) { get; set; } | 2B grafiklerde çubuk ve sütunların ne kadar üst üste geleceğini yüzde olarak belirtir (-%100 ile %100 arasında). - -100%: Azami boşluk (çubuklar tamamen ayrılmıştır). - 0%: Çubuklar yan yana, üst üste gelmeden ya da boşluk olmadan yerleştirilir. - 100%: Azami örtüşme (çubuklar birbirinin üzerine tamamen gelir). Bu özellik okunur/yazılır SByte. |
+| [PieSplitBy](../../aspose.slides.charts/ichartseriesgroup/piesplitby) { get; set; } | Pie-of-pie veya bar-of-pie grafiklerinde ikinci pasta veya çubukta hangi veri noktalarının bulunacağını belirleme şeklini belirtir. Okunur/yazılır [`PieSplitType`](../piesplittype). |
+| [PieSplitCustomPoints](../../aspose.slides.charts/ichartseriesgroup/piesplitcustompoints) { get; } | Özel bölme ile pie-of-pie veya bar-of-pie grafiği için özel bölme bilgisini içerir. Pie-of-pie veya bar-of-pie grafiğinde ikinci pasta veya çubukta çizilecek veri noktalarını içerir. Salt okunur [`IPieSplitCustomPointCollection`](../ipiesplitcustompointcollection). |
+| [PieSplitPosition](../../aspose.slides.charts/ichartseriesgroup/piesplitposition) { get; set; } | Pie-of-pie veya bar-of-pie grafiğinde ikinci pasta veya çubukta hangi veri noktalarının bulunacağını belirlemek için kullanılacak bir değeri belirtir. PieSplitBy özelliğiyle birlikte kullanılır. Okunur/yazılır Double. |
+| [PlotOnSecondAxis](../../aspose.slides.charts/ichartseriesgroup/plotonsecondaxis) { get; } | Bu grubun serilerinin ikincil eksende çizilip çizilmediğini gösterir. Salt okunur Boolean. |
+| [SecondPieSize](../../aspose.slides.charts/ichartseriesgroup/secondpiesize) { get; set; } | Pie-of-pie veya bar-of-pie grafiğinde ikinci pasta veya çubuğun boyutunu, ilk pastanın boyutunun yüzdesi olarak belirtir ( %5 ile %200 arasında olabilir). Okunur/yazılır UInt16. |
+| [Series](../../aspose.slides.charts/ichartseriesgroup/series) { get; } | Grafik serilerinin salt okunur bir koleksiyonunu döndürür. Salt okunur [`IChartSeriesReadonlyCollection`](../ichartseriesreadonlycollection). |
+| [Type](../../aspose.slides.charts/ichartseriesgroup/type) { get; } | Bu seri grubunun tipini döndürür. Salt okunur [`CombinableSeriesTypesGroup`](../combinableseriestypesgroup). |
+| [UpDownBars](../../aspose.slides.charts/ichartseriesgroup/updownbars) { get; } | Çizgi veya Hisse senedi grafiğinin yukarı/aşağı çubuklarına erişim sağlar. Salt okunur [`IUpDownBarsManager`](../iupdownbarsmanager). |
 
 ### Açıklamalar
 
-1) ChartSeriesGroupCollection sınıfı ve CombinableSeriesTypesGroup enum'ı için özet ve açıklamaya bakınız.  
-2) Seri grubu, grup içindeki her seriye ortak olan bazı seri özelliklerini içerir ("seri grup özellikleri"). ChartSeriesGroup sınıfındaki "seri grup özellikleri" okuma/yazma özelliğindedir. "seri grup özellikleri" nin her biri ChartSeries sınıfında yalnızca okuma projeksiyonuna sahip olabilir.
+1) ChartSeriesGroupCollection sınıfı ve CombinableSeriesTypesGroup enumu için özet ve açıklamalara bakın. 2) Seri grubu, grup içindeki her seri için ortak olan bazı seri özelliklerine sahiptir (seri grup özellikleri). ChartSeriesGroup sınıfındaki seri grup özellikleri okunur/yazılırdır. Seri grup özelliklerinin her biri ChartSeries sınıfında salt okunur bir projeksiyona sahip olabilir.
 
-### Diğer Bağlantılar
+### Bakınız
 
-* arabirimi [IChartComponent](../ichartcomponent)
+* arayüz [IChartComponent](../ichartcomponent)
 * ad alanı [Aspose.Slides.Charts](../../aspose.slides.charts)
 * derleme [Aspose.Slides](../../)
 

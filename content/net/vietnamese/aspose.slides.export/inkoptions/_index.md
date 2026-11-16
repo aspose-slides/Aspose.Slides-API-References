@@ -1,9 +1,9 @@
 ---
 title: InkOptions
-second_title: Aspose.Sildes cho Tham chiếu API .NET
+second_title: Aspose.Sildes cho .NET Tham chiếu API
 description: Cung cấp các tùy chọn kiểm soát giao diện của các đối tượng Ink trong tài liệu được xuất.
 type: docs
-weight: 4220
+weight: 4240
 url: /vi/aspose.slides.export/inkoptions/
 ---
 ## InkOptions lớp
@@ -18,8 +18,8 @@ public class InkOptions : IInkOptions
 
 | Tên | Mô tả |
 | --- | --- |
-| [HideInk](../../aspose.slides.export/inkoptions/hideink) { get; set; } | Hiển thị hoặc ẩn các đối tượng Ink trong tài liệu được xuất. |
-| [InterpretMaskOpAsOpacity](../../aspose.slides.export/inkoptions/interpretmaskopasopacity) { get; set; } | Sử dụng thao tác ROP hoặc Độ trong suốt để vẽ brush. |
+| [HideInk](../../aspose.slides.export/inkoptions/hideink) { get; set; } | Hiển thị hoặc ẩn các phần tử Ink trong tài liệu được xuất. |
+| [InterpretMaskOpAsOpacity](../../aspose.slides.export/inkoptions/interpretmaskopasopacity) { get; set; } | Sử dụng phép toán ROP hoặc Độ mờ cho việc vẽ brush. |
 
 ### Xem thêm
 

@@ -1,14 +1,14 @@
 ---
 title: ISvgShape
 second_title: Aspose.Sildes for .NET API 참조
-description: SVG 도형에 대한 옵션을 나타냅니다.
+description: SVG 모양에 대한 옵션을 나타냅니다.
 type: docs
-weight: 4110
+weight: 4130
 url: /ko/aspose.slides.export/isvgshape/
 ---
 ## ISvgShape 인터페이스
 
-SVG 도형에 대한 옵션을 나타냅니다.
+SVG 모양에 대한 옵션을 나타냅니다.
 
 ```csharp
 public interface ISvgShape
@@ -18,15 +18,15 @@ public interface ISvgShape
 
 | 이름 | 설명 |
 | --- | --- |
-| [Id](../../aspose.slides.export/isvgshape/id) { get; set; } | 도형의 ID를 설정하거나 가져옵니다 |
+| [Id](../../aspose.slides.export/isvgshape/id) { get; set; } | 모양의 ID를 설정하거나 가져옵니다 |
 
 ## 메서드
 
 | 이름 | 설명 |
 | --- | --- |
-| [SetEventHandler](../../aspose.slides.export/isvgshape/seteventhandler)(SvgEvent, string) | 도형에 대한 이벤트 핸들러를 설정합니다 |
+| [SetEventHandler](../../aspose.slides.export/isvgshape/seteventhandler)(SvgEvent, string) | 모양에 대한 이벤트 핸들러를 설정합니다 |
 
-### 참조
+### 관련 항목
 
 * 네임스페이스 [Aspose.Slides.Export](../../aspose.slides.export)
 * 어셈블리 [Aspose.Slides](../../)

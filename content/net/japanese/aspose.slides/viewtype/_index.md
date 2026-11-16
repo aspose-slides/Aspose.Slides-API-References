@@ -1,9 +1,9 @@
 ---
 title: ViewType
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: プレゼンテーションのビュータイプ
 type: docs
-weight: 11750
+weight: 11770
 url: /ja/aspose.slides/viewtype/
 ---
 ## ViewType 列挙型
@@ -18,14 +18,14 @@ public enum ViewType
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
-| NotDefined | `0` | 値は未定義です |
-| SlideView | `1` | 通常のスライドビュー |
+| NotDefined | `0` | 値が定義されていません |
+| SlideView | `1` | 標準スライドビュー |
 | SlideMasterView | `2` | スライドマスタービュー |
 | NotesView | `3` | ノートビュー |
 | HandoutView | `4` | 配布資料ビュー |
 | NotesMasterView | `5` | ノートマスタービュー |
 | OutlineView | `6` | アウトラインビュー |
-| SlideSorterView | `7` | スライド ソーター ビュー |
+| SlideSorterView | `7` | スライドソータービュー |
 | SlideThumbnailView | `8` | スライドサムネイルビュー |
 
 ### 参照

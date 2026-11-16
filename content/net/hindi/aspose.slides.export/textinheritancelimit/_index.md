@@ -3,12 +3,12 @@ title: TextInheritanceLimit
 second_title: Aspose.Sildes for .NET API संदर्भ
 description: टेक्स्ट गुणों की विरासत की गहराई को नियंत्रित करता है।
 type: docs
-weight: 4540
+weight: 4560
 url: /hi/aspose.slides.export/textinheritancelimit/
 ---
-## TextInheritanceLimit एन्यूमरेशन
+## TextInheritanceLimit एन्न्यूमरेशन
 
-पाठ गुणों की विरासत की गहराई को नियंत्रित करता है।
+टेक्स्ट गुणों की विरासत की गहराई को नियंत्रित करता है।
 
 ```csharp
 public enum TextInheritanceLimit
@@ -18,8 +18,8 @@ public enum TextInheritanceLimit
 
 | नाम | मान | विवरण |
 | --- | --- | --- |
-| All | `0` | सभी पाठ गुणों को विरासत में लेता है। |
-| TextBox | `1` | केवल TextFrame की शैली से विरासत में लेता है। |
+| All | `0` | सभी टेक्स्ट गुणों को विरासत में मिले। |
+| TextBox | `1` | केवल TextFrame की शैली से विरासत में मिले। |
 | ParagraphOnly | `2` | केवल पैराग्राफ के लिए परिभाषित गुणों का उपयोग करें। |
 
 ### संबंधित देखें

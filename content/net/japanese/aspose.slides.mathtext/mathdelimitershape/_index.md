@@ -1,14 +1,14 @@
 ---
 title: MathDelimiterShape
-second_title: Aspose.Sildes の .NET API リファレンス
-description: オペランドの内容に対する区切り記号の位置とサイズ
+second_title: Aspose.Sildes for .NET API リファレンス
+description: デリミタの位置とサイズは、オペランドの内容に対して相対的です
 type: docs
-weight: 8670
+weight: 8690
 url: /ja/aspose.slides.mathtext/mathdelimitershape/
 ---
 ## MathDelimiterShape 列挙型
 
-オペランドの内容に対する区切り記号の位置とサイズ
+デリミタの位置とサイズは、オペランドの内容に対して相対的です。
 
 ```csharp
 public enum MathDelimiterShape
@@ -18,8 +18,8 @@ public enum MathDelimiterShape
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
-| Centered | `0` | 数式軸の中心に配置 |
-| Match | `1` | 内容に合わせる |
+| Centered | `0` | 数式軸の中心 |
+| Match | `1` | コンテンツに合わせる |
 
 ### 参照
 

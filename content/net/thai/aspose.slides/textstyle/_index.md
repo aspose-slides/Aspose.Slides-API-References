@@ -1,14 +1,14 @@
 ---
 title: TextStyle
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: คลาสนี้มีคุณสมบัติการจัดรูปแบบสไตล์ข้อความ
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: คลาสนี้มีคุณลักษณะการจัดรูปแบบสไตล์ข้อความ.
 type: docs
-weight: 11000
+weight: 11020
 url: /th/aspose.slides/textstyle/
 ---
-## คลาส TextStyle
+## TextStyle คลาส
 
-คลาสนี้มีคุณสมบัติการจัดรูปแบบสไตล์ข้อความ
+คลาสนี้มีคุณลักษณะการจัดรูปแบบสไตล์ข้อความ.
 
 ```csharp
 public sealed class TextStyle : PVIObject, ITextStyle
@@ -16,19 +16,19 @@ public sealed class TextStyle : PVIObject, ITextStyle
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | อนุญาตให้รับอินเทอร์เฟซ IPresentationComponent พื้นฐาน. แบบอ่านอย่างเดียว [`IPresentationComponent`](../ipresentationcomponent). |
-| [DefaultParagraphFormat](../../aspose.slides/textstyle/defaultparagraphformat) { get; } | คุณสมบัติย่อหน้าเริ่มต้น. แบบอ่านอย่างเดียว [`IParagraphFormat`](../iparagraphformat). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IPresentationComponent ฐาน. อ่านอย่างเดียว [`IPresentationComponent`](../ipresentationcomponent). |
+| [DefaultParagraphFormat](../../aspose.slides/textstyle/defaultparagraphformat) { get; } | คุณลักษณะย่อหน้าเริ่มต้น. อ่านอย่างเดียว [`IParagraphFormat`](../iparagraphformat). |
 
-## วิธีการ
+## เมธอด
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | เปรียบเทียบกับวัตถุที่ระบุ |
-| [GetEffective](../../aspose.slides/textstyle/geteffective)() | รับข้อมูลการจัดรูปแบบสไตล์ข้อความที่มีผลพร้อมการสืบทอดที่ใช้ |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | ส่งคืนค่าแฮชโค้ด |
-| [GetLevel](../../aspose.slides/textstyle/getlevel)(int) | หากระดับสไตล์มีอยู่จะส่งคืนค่านั้น, มิฉะนั้นจะส่งคืนค่า null |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | เปรียบเทียบกับอ็อบเจ็กต์ที่ระบุ. |
+| [GetEffective](../../aspose.slides/textstyle/geteffective)() | ดึงข้อมูลการจัดรูปแบบสไตล์ข้อความที่มีผลโดยมีการสืบทอดใช้. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | คืนค่า hash code. |
+| [GetLevel](../../aspose.slides/textstyle/getlevel)(int) | หากระดับของสไตล์มีอยู่ จะคืนค่านั้น มิฉะนั้นคืนค่า null. |
 
 ### ดูเพิ่มเติม
 

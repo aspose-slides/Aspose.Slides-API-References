@@ -1,14 +1,14 @@
 ---
 title: IVideo
 second_title: Aspose.Sildes için .NET API Referansı
-description: Sunuma gömülü bir videoyu temsil eder.
+description: Bir sunuma gömülü bir videoyu temsil eder.
 type: docs
-weight: 7360
+weight: 7380
 url: /tr/aspose.slides/ivideo/
 ---
 ## IVideo arayüzü
 
-Sunuma gömülü bir videoyu temsil eder.
+Bir sunuma gömülü bir videoyu temsil eder.
 
 ```csharp
 public interface IVideo
@@ -16,16 +16,16 @@ public interface IVideo
 
 ## Özellikler
 
-| İsim | Açıklama |
+| Ad | Açıklama |
 | --- | --- |
-| [BinaryData](../../aspose.slides/ivideo/binarydata) { get; } | Bir sesin verisinin bir kopyasını döndürür. Büyük veri miktarı durumunda, videonun verisinin belleğe gereksiz yüklenmesini veya OutOfMemoryException oluşmasını önlemek için [`GetStream`](./getstream) yönteminin kullanılmasını düşünün. Salt okunur Byte[]. |
-| [ContentType](../../aspose.slides/ivideo/contenttype) { get; } | Bir videonun MIME türünü, [`BinaryData`](./binarydata) ile kodlanmış olarak döndürür. Salt okunur String. |
+| [BinaryData](../../aspose.slides/ivideo/binarydata) { get; } | Bir sesin verisinin kopyasını döndürür. Büyük miktarda veri olması durumunda, videonun verisinin belleğe gereksiz yere yüklenmesini veya hatta OutOfMemoryException hatasını önlemek için [`GetStream`](./getstream) yönteminin kullanılmasını düşünün. Salt-okunur Byte[]. |
+| [ContentType](../../aspose.slides/ivideo/contenttype) { get; } | Bir videonun MIME türünü, [`BinaryData`](./binarydata) içinde kodlanmış olarak döndürür. Salt-okunur String. |
 
 ## Yöntemler
 
-| İsim | Açıklama |
+| Ad | Açıklama |
 | --- | --- |
-| [GetStream](../../aspose.slides/ivideo/getstream)() | Okumak için bir Stream akışı döndürür. 'using' kullanın veya kullanım sonrası akışı kapatın. |
+| [GetStream](../../aspose.slides/ivideo/getstream)() | Okuma için bir Stream akışı döndürür. 'using' kullanın veya kullandıktan sonra akışı kapatın. |
 
 ### Ayrıca Bakınız
 

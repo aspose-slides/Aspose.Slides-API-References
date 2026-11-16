@@ -1,14 +1,14 @@
 ---
 title: Value
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: चार्ट डेटा पॉइंट का मान लौटाता है। केवल-पढ़ने योग्य IDoubleChartValueaspose.slides.charts/idoublechartvalue.
+second_title: Aspose.Sildes के लिये .NET API संदर्भ
+description: एक चार्ट डेटा पॉइंट का मान प्राप्त करता है। केवल-पढ़ने योग्य IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
-weight: 160
+weight: 200
 url: /hi/aspose.slides.charts/ichartdatapoint/value/
 ---
 ## IChartDataPoint.Value प्रॉपर्टी
 
-चार्ट डेटा पॉइंट का मान लौटाता है। केवल-पढ़ने योग्य [`IDoubleChartValue`](../../idoublechartvalue)।
+एक चार्ट डेटा पॉइंट का मान प्राप्त करता है। केवल-पढ़ने योग्य [`IDoubleChartValue`](../../idoublechartvalue).
 
 ```csharp
 public IDoubleChartValue Value { get; }

@@ -1,14 +1,14 @@
 ---
 title: IFormat
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงคุณสมบัติการกำหนดรูปแบบของแผนภูมิ.
+second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
+description: แสดงคุณสมบัติรูปแบบแผนภูมิ.
 type: docs
-weight: 2100
+weight: 2120
 url: /th/aspose.slides.charts/iformat/
 ---
 ## IFormat อินเทอร์เฟซ
 
-แสดงคุณสมบัติการกำหนดรูปแบบของแผนภูมิ.
+แสดงคุณสมบัติรูปแบบแผนภูมิ.
 
 ```csharp
 public interface IFormat
@@ -16,12 +16,12 @@ public interface IFormat
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [Effect](../../aspose.slides.charts/iformat/effect) { get; } | ส่งคืนเอฟเฟกต์ที่ใช้กับแผนภูมิ. อ่านอย่างเดียว [`IEffectFormat`](../../aspose.slides/ieffectformat). |
-| [Effect3D](../../aspose.slides.charts/iformat/effect3d) { get; } | ส่งคืนรูปแบบ 3D ของแผนภูมิ. อ่านอย่างเดียว [`IThreeDFormat`](../../aspose.slides/ithreedformat). |
-| [Fill](../../aspose.slides.charts/iformat/fill) { get; } | ส่งคืนคุณสมบัติกระบวนการเติมของแผนภูมิ. อ่านอย่างเดียว [`IFillFormat`](../../aspose.slides/ifillformat). |
-| [Line](../../aspose.slides.charts/iformat/line) { get; } | ส่งคืนคุณสมบัติรูปแบบเส้นของแผนภูมิ. อ่านอย่างเดียว [`ILineFormat`](../../aspose.slides/ilineformat). |
+| [Effect](../../aspose.slides.charts/iformat/effect) { get; } | คืนค่าผลลัพธ์ที่ใช้สำหรับแผนภูมิ. อ่านอย่างเดียว [`IEffectFormat`](../../aspose.slides/ieffectformat). |
+| [Effect3D](../../aspose.slides.charts/iformat/effect3d) { get; } | คืนค่ารูปแบบ 3 มิติของแผนภูมิ. อ่านอย่างเดียว [`IThreeDFormat`](../../aspose.slides/ithreedformat). |
+| [Fill](../../aspose.slides.charts/iformat/fill) { get; } | คืนค่าคุณสมบัติรูปแบบเติมของแผนภูมิ. อ่านอย่างเดียว [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [Line](../../aspose.slides.charts/iformat/line) { get; } | คืนค่าคุณสมบัติรูปแบบเส้นของแผนภูมิ. อ่านอย่างเดียว [`ILineFormat`](../../aspose.slides/ilineformat). |
 
 ### ดูเพิ่มเติม
 

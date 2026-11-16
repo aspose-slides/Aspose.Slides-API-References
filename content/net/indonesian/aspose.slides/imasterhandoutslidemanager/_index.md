@@ -1,9 +1,9 @@
 ---
 title: IMasterHandoutSlideManager
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Manajer slide handout master.
 type: docs
-weight: 6370
+weight: 6390
 url: /id/aspose.slides/imasterhandoutslidemanager/
 ---
 ## IMasterHandoutSlideManager antarmuka
@@ -18,14 +18,14 @@ public interface IMasterHandoutSlideManager
 
 | Nama | Deskripsi |
 | --- | --- |
-| [MasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/masterhandoutslide) { get; } | Mengembalikan master untuk semua slide catatan dalam presentasi ini jika ada, jika tidak mengembalikan null. Hanya-baca [`IMasterHandoutSlide`](../imasterhandoutslide). |
+| [MasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/masterhandoutslide) { get; } | Mengembalikan master untuk semua slide catatan dalam presentasi ini jika ada, jika tidak mengembalikan null. Hanya baca [`IMasterHandoutSlide`](../imasterhandoutslide). |
 
 ## Metode
 
 | Nama | Deskripsi |
 | --- | --- |
-| [RemoveMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/removemasterhandoutslide)() | Menghapus slide master handout. |
-| [SetDefaultMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/setdefaultmasterhandoutslide)() | Mengatur slide master handout default ke slide handout terkait. |
+| [RemoveMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/removemasterhandoutslide)() | Menghapus slide handout master. |
+| [SetDefaultMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/setdefaultmasterhandoutslide)() | Menetapkan slide handout master default ke slide handout terkait. |
 
 ### Lihat Juga
 

@@ -1,9 +1,9 @@
 ---
 title: ResponsiveHtmlController
-second_title: Aspose.Sildes .NET 用 API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: レスポンシブ HTML コントローラ
 type: docs
-weight: 4420
+weight: 4440
 url: /ja/aspose.slides.export/responsivehtmlcontroller/
 ---
 ## ResponsiveHtmlController クラス
@@ -21,7 +21,7 @@ public class ResponsiveHtmlController : IResponsiveHtmlController
 | [ResponsiveHtmlController](responsivehtmlcontroller#constructor)() | 新しいインスタンスを作成します |
 | [ResponsiveHtmlController](responsivehtmlcontroller#constructor_1)(IHtmlFormattingController) | 新しいインスタンスを作成します |
 
-### 関連項目
+### 参照
 
 * インターフェイス [IResponsiveHtmlController](../iresponsivehtmlcontroller)
 * 名前空間 [Aspose.Slides.Export](../../aspose.slides.export)

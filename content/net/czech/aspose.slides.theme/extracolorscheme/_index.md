@@ -1,14 +1,14 @@
 ---
 title: ExtraColorScheme
-second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje další barevné schéma, které může být přiřazeno ke snímku.
+second_title: Aspose.Sildes pro .NET API referenci
+description: Představuje další schéma barev, které lze přiřadit snímku.
 type: docs
-weight: 11100
+weight: 11120
 url: /cs/aspose.slides.theme/extracolorscheme/
 ---
 ## ExtraColorScheme třída
 
-Reprezentuje další schéma barev, které může být přiřazeno ke snímku.
+Představuje další schéma barev, které může být přiřazeno snímku.
 
 ```csharp
 public class ExtraColorScheme : IExtraColorScheme

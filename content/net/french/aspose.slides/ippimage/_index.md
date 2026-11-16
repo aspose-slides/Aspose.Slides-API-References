@@ -3,7 +3,7 @@ title: IPPImage
 second_title: Aspose.Sildes pour .NET Référence de l'API
 description: Représente une image dans une présentation.
 type: docs
-weight: 6550
+weight: 6570
 url: /fr/aspose.slides/ippimage/
 ---
 ## IPPImage interface
@@ -16,7 +16,7 @@ public interface IPPImage
 
 ## Propriétés
 
-| Name | Description |
+| Nom | Description |
 | --- | --- |
 | [BinaryData](../../aspose.slides/ippimage/binarydata) { get; } | Renvoie une copie des données d'une image. Lecture seule Byte[]. |
 | [ContentType](../../aspose.slides/ippimage/contenttype) { get; } | Renvoie le type MIME d'une image, encodé en [`BinaryData`](./binarydata). Lecture seule String. |
@@ -29,7 +29,7 @@ public interface IPPImage
 
 ## Méthodes
 
-| Name | Description |
+| Nom | Description |
 | --- | --- |
 | [ReplaceImage](../../aspose.slides/ippimage/replaceimage#replaceimage_2)(byte[]) | Remplace les données de l'image. |
 | [ReplaceImage](../../aspose.slides/ippimage/replaceimage#replaceimage)(IImage) | Remplace l'image. |

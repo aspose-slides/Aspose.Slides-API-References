@@ -3,12 +3,12 @@ title: IFillFormatEffectiveData
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Objeto inmutable que contiene propiedades de formato de relleno efectivas.
 type: docs
-weight: 5800
+weight: 5820
 url: /es/aspose.slides/ifillformateffectivedata/
 ---
 ## IFillFormatEffectiveData interfaz
 
-Objeto inmutable que contiene propiedades de formato de relleno efectivas.
+Objeto inmutable que contiene las propiedades de formato de relleno efectivas.
 
 ```csharp
 public interface IFillFormatEffectiveData : IFillParamSource
@@ -25,11 +25,11 @@ public interface IFillFormatEffectiveData : IFillParamSource
 | [PictureFillFormat](../../aspose.slides/ifillformateffectivedata/picturefillformat) { get; } | Devuelve el formato de relleno de imagen. Solo lectura [`IPictureFillFormatEffectiveData`](../ipicturefillformateffectivedata). |
 | [RotateWithShape](../../aspose.slides/ifillformateffectivedata/rotatewithshape) { get; } | Determina si el relleno debe rotarse con la forma. Solo lectura Boolean. |
 | [SolidFillColor](../../aspose.slides/ifillformateffectivedata/solidfillcolor) { get; } | Devuelve el color de relleno. Solo lectura Color. |
-| [SolidFillSchemeColor](../../aspose.slides/ifillformateffectivedata/solidfillschemecolor) { get; } | Obtiene el color de relleno definido por un esquema de colores. El valor NotDefined indica que el [`SolidFillColor`](./solidfillcolor) no es un color de esquema. Solo lectura [`SchemeColor`](../schemecolor). |
+| [SolidFillSchemeColor](../../aspose.slides/ifillformateffectivedata/solidfillschemecolor) { get; } | Obtiene el color de relleno definido por un esquema de color. El valor NotDefined indica que el [`SolidFillColor`](./solidfillcolor) no es un color de esquema. Solo lectura [`SchemeColor`](../schemecolor). |
 
-### Observaciones
+### Comentarios
 
-Esta interfaz se usa junto con la interfaz [`IFillFormat`](../ifillformat) para devolver valores de formato efectivos con herencia aplicada.
+Esta interfaz se usa junto con la interfaz [`IFillFormat`](../ifillformat) para devolver valores de formato efectivos con la herencia aplicada.
 
 ### Ver también
 

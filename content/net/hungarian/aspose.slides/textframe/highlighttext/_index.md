@@ -1,14 +1,14 @@
 ---
 title: HighlightText
-second_title: Aspose.Sildes .NET API referencia
-description: Kiemeli a minta szöveg összes előfordulását a megadott színnel.
+second_title: Aspose.Sildes a .NET API referenciája
+description: Kiemeli a minta szöveg összes egyezését a megadott színnel.
 type: docs
-weight: 100
+weight: 110
 url: /hu/aspose.slides/textframe/highlighttext/
 ---
 ## HighlightText(string, Color) {#highlighttext}
 
-Kiemeli a minta szöveg összes előfordulását a megadott színnel.
+Kiemeli a minta szöveg összes egyezését a megadott színnel.
 
 ```csharp
 public void HighlightText(string text, Color highlightColor)
@@ -17,7 +17,7 @@ public void HighlightText(string text, Color highlightColor)
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
 | text | String | A kiemelendő szövegminta. |
-| highlightColor | Color | A szöveg kiemeléséhez használt szín. |
+| highlightColor | Color | A szöveg kiemeléséhez használandó szín. |
 
 ### Lásd még
 
@@ -29,7 +29,7 @@ public void HighlightText(string text, Color highlightColor)
 
 ## HighlightText(string, Color, ITextSearchOptions, IFindResultCallback) {#highlighttext_2}
 
-Kiemeli a minta szöveg összes előfordulását a megadott színnel.
+Kiemeli a minta szöveg összes egyezését a megadott színnel.
 
 ```csharp
 public void HighlightText(string text, Color highlightColor, ITextSearchOptions options, 
@@ -39,13 +39,13 @@ public void HighlightText(string text, Color highlightColor, ITextSearchOptions 
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
 | text | String | A kiemelendő szöveg. |
-| highlightColor | Color | A szöveg kiemeléséhez használt szín. |
+| highlightColor | Color | A szöveg kiemeléséhez használandó szín. |
 | options | ITextSearchOptions | Szövegkeresési beállítások [`ITextSearchOptions`](../../itextsearchoptions). |
 | callback | IFindResultCallback | A visszahívási objektum a keresési eredmények fogadásához [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### Példák
 
-Az alábbi kódrészlet bemutatja, hogyan lehet kiemelni a szöveget egy TextFrame-ben.
+Az alábbi kódrészlet bemutatja, hogyan kell kiemelni a szöveget egy TextFrame-ben.
 
 ```csharp
 [C#]

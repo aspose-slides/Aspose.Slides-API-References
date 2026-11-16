@@ -1,9 +1,9 @@
 ---
 title: SlidesRange
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Rentang slide
 type: docs
-weight: 10530
+weight: 10550
 url: /id/aspose.slides/slidesrange/
 ---
 ## SlidesRange kelas
@@ -16,13 +16,13 @@ public class SlidesRange
 
 ## Konstruktor
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
 | [SlidesRange](slidesrange)() | Konstruktor default. |
 
 ## Properti
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
 | [End](../../aspose.slides/slidesrange/end) { get; set; } | Akhir |
 | [Start](../../aspose.slides/slidesrange/start) { get; set; } | Awal |

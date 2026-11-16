@@ -1,14 +1,14 @@
 ---
 title: LayoutPlaceholderManager
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 레이아웃 슬라이드에 자리표시자를 추가할 수 있게 하는 관리자를 나타냅니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: 레이아웃 슬라이드에 자리 표시자를 추가할 수 있는 관리자를 나타냅니다.
 type: docs
-weight: 7630
+weight: 7650
 url: /ko/aspose.slides/layoutplaceholdermanager/
 ---
 ## LayoutPlaceholderManager 클래스
 
-레이아웃 슬라이드에 자리표시자를 추가할 수 있게 하는 관리자를 나타냅니다.
+레이아웃 슬라이드에 자리 표시자를 추가할 수 있는 관리자입니다.
 
 ```csharp
 public class LayoutPlaceholderManager : ILayoutPlaceholderManager
@@ -18,18 +18,18 @@ public class LayoutPlaceholderManager : ILayoutPlaceholderManager
 
 | 이름 | 설명 |
 | --- | --- |
-| [AddChartPlaceholder](../../aspose.slides/layoutplaceholdermanager/addchartplaceholder)(float, float, float, float) | 레이아웃 슬라이드에 차트를 보관하기 위한 새 자리표시자 모양을 추가합니다. |
-| [AddContentPlaceholder](../../aspose.slides/layoutplaceholdermanager/addcontentplaceholder)(float, float, float, float) | 그림, 표, 미디어 또는 텍스트와 같은 콘텐츠를 보관하기 위해 레이아웃 슬라이드에 새 자리표시자 모양을 추가합니다. |
-| [AddMediaPlaceholder](../../aspose.slides/layoutplaceholdermanager/addmediaplaceholder)(float, float, float, float) | 미디어 개체를 보관하기 위해 레이아웃 슬라이드에 새 자리표시자 모양을 추가합니다. |
-| [AddOnlineImagePlaceholder](../../aspose.slides/layoutplaceholdermanager/addonlineimageplaceholder)(float, float, float, float) | 온라인 이미지를 보관하기 위해 레이아웃 슬라이드에 새 자리표시자 모양을 추가합니다. |
-| [AddPicturePlaceholder](../../aspose.slides/layoutplaceholdermanager/addpictureplaceholder)(float, float, float, float) | 그림을 보관하기 위해 레이아웃 슬라이드에 새 자리표시자 모양을 추가합니다. |
-| [AddSmartArtPlaceholder](../../aspose.slides/layoutplaceholdermanager/addsmartartplaceholder)(float, float, float, float) | SmartArt 다이어그램을 보관하기 위해 레이아웃 슬라이드에 새 자리표시자 모양을 추가합니다. |
-| [AddTablePlaceholder](../../aspose.slides/layoutplaceholdermanager/addtableplaceholder)(float, float, float, float) | 표를 보관하기 위해 레이아웃 슬라이드에 새 자리표시자 모양을 추가합니다. |
-| [AddTextPlaceholder](../../aspose.slides/layoutplaceholdermanager/addtextplaceholder)(float, float, float, float) | 텍스트 콘텐츠를 보관하기 위해 레이아웃 슬라이드에 새 자리표시자 모양을 추가합니다. |
-| [AddVerticalContentPlaceholder](../../aspose.slides/layoutplaceholdermanager/addverticalcontentplaceholder)(float, float, float, float) | 그림, 표, 미디어 또는 텍스트와 같은 콘텐츠를 수직 방향으로 보관하기 위해 레이아웃 슬라이드에 새 자리표시자 모양을 추가합니다. |
-| [AddVerticalTextPlaceholder](../../aspose.slides/layoutplaceholdermanager/addverticaltextplaceholder)(float, float, float, float) | 수직 방향으로 텍스트 콘텐츠를 보관하기 위해 레이아웃 슬라이드에 새 자리표시자 모양을 추가합니다. |
+| [AddChartPlaceholder](../../aspose.slides/layoutplaceholdermanager/addchartplaceholder)(float, float, float, float) | 차트를 보관하기 위해 레이아웃 슬라이드에 새로운 자리 표시자 모양을 추가합니다. |
+| [AddContentPlaceholder](../../aspose.slides/layoutplaceholdermanager/addcontentplaceholder)(float, float, float, float) | 그림, 표, 미디어 또는 텍스트와 같은 콘텐츠를 보관하기 위해 레이아웃 슬라이드에 새로운 자리 표시자 모양을 추가합니다. |
+| [AddMediaPlaceholder](../../aspose.slides/layoutplaceholdermanager/addmediaplaceholder)(float, float, float, float) | 미디어 개체를 보관하기 위해 레이아웃 슬라이드에 새로운 자리 표시자 모양을 추가합니다. |
+| [AddOnlineImagePlaceholder](../../aspose.slides/layoutplaceholdermanager/addonlineimageplaceholder)(float, float, float, float) | 온라인 이미지를 보관하기 위해 레이아웃 슬라이드에 새로운 자리 표시자 모양을 추가합니다. |
+| [AddPicturePlaceholder](../../aspose.slides/layoutplaceholdermanager/addpictureplaceholder)(float, float, float, float) | 그림을 보관하기 위해 레이아웃 슬라이드에 새로운 자리 표시자 모양을 추가합니다. |
+| [AddSmartArtPlaceholder](../../aspose.slides/layoutplaceholdermanager/addsmartartplaceholder)(float, float, float, float) | SmartArt 다이어그램을 보관하기 위해 레이아웃 슬라이드에 새로운 자리 표시자 모양을 추가합니다. |
+| [AddTablePlaceholder](../../aspose.slides/layoutplaceholdermanager/addtableplaceholder)(float, float, float, float) | 표를 보관하기 위해 레이아웃 슬라이드에 새로운 자리 표시자 모양을 추가합니다. |
+| [AddTextPlaceholder](../../aspose.slides/layoutplaceholdermanager/addtextplaceholder)(float, float, float, float) | 텍스트 콘텐츠를 보관하기 위해 레이아웃 슬라이드에 새로운 자리 표시자 모양을 추가합니다. |
+| [AddVerticalContentPlaceholder](../../aspose.slides/layoutplaceholdermanager/addverticalcontentplaceholder)(float, float, float, float) | 그림, 표, 미디어 또는 텍스트와 같은 콘텐츠를 수직 방향으로 보관하기 위해 레이아웃 슬라이드에 새로운 자리 표시자 모양을 추가합니다. |
+| [AddVerticalTextPlaceholder](../../aspose.slides/layoutplaceholdermanager/addverticaltextplaceholder)(float, float, float, float) | 텍스트 콘텐츠를 수직 방향으로 보관하기 위해 레이아웃 슬라이드에 새로운 자리 표시자 모양을 추가합니다. |
 
-### 참조
+### 참고
 
 * 인터페이스 [ILayoutPlaceholderManager](../ilayoutplaceholdermanager)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

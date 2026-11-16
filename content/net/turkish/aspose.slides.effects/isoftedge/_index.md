@@ -1,14 +1,14 @@
 ---
 title: ISoftEdge
-second_title: Aspose.Slides için .NET API Referansı
-description: Yumuşak Kenar efekti temsil eder. Şeklin kenarları bulanıklaştırılır, fakat dolgu etkilenmez.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Bir Soft Edge etkisini temsil eder. Şeklin kenarları bulanıktır, ancak dolgu etkilenmez.
 type: docs
-weight: 3520
+weight: 3540
 url: /tr/aspose.slides.effects/isoftedge/
 ---
-## ISoftEdge arayüzü
+## ISoftEdge arayüz
 
-Yumuşak Kenar efekti temsil eder. Şeklin kenarları bulanıklaştırılır, ancak dolgu etkilenmez.
+Bir Soft Edge etkisini temsil eder. Şeklin kenarları bulanıktır, ancak dolgu etkilenmez.
 
 ```csharp
 public interface ISoftEdge : IAccessiblePVIObject<ISoftEdgeEffectiveData>, IImageTransformOperation
@@ -18,9 +18,9 @@ public interface ISoftEdge : IAccessiblePVIObject<ISoftEdgeEffectiveData>, IImag
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/isoftedge/asiaccessiblepviobject) { get; } | Temel IAccessiblePVIObject arayüzünü almaya izin verir. Salt okunur [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/isoftedge/asiimagetransformoperation) { get; } | Temel IImageTransformOperation arayüzünü almaya izin verir. Salt okunur [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Radius](../../aspose.slides.effects/isoftedge/radius) { get; set; } | Kenarlar üzerinde uygulanacak bulanıklık yarıçapını belirtir. Okunur/yazılabilir Double. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/isoftedge/asiaccessiblepviobject) { get; } | Temel IAccessiblePVIObject arabirimine erişim sağlar. Yalnızca okunabilir [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/isoftedge/asiimagetransformoperation) { get; } | Temel IImageTransformOperation arabirimine erişim sağlar. Yalnızca okunabilir [`IImageTransformOperation`](../iimagetransformoperation). |
+| [Radius](../../aspose.slides.effects/isoftedge/radius) { get; set; } | Kenarlar için uygulanacak bulanıklık yarıçapını belirtir. Okunabilir/yazılabilir Double. |
 
 ### Ayrıca Bakınız
 

@@ -3,12 +3,12 @@ title: IProgressCallback
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar ett återuppringningsobjekt för att spara framstegsuppdateringar i procent.
 type: docs
-weight: 6810
+weight: 6830
 url: /sv/aspose.slides/iprogresscallback/
 ---
 ## IProgressCallback gränssnitt
 
-Representerar ett återuppringningsobjekt för att spara framstegsuppdateringar i procent.
+Representerar ett återuppringningsobjekt för att spara framsteg i procent.
 
 ```csharp
 public interface IProgressCallback

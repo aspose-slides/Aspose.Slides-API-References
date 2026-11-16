@@ -1,9 +1,9 @@
 ---
 title: IPPImage
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Aspose.Sildes для .NET справочник API
 description: Представляет изображение в презентации.
 type: docs
-weight: 6550
+weight: 6570
 url: /ru/aspose.slides/ippimage/
 ---
 ## IPPImage интерфейс
@@ -24,8 +24,8 @@ public interface IPPImage
 | [Image](../../aspose.slides/ippimage/image) { get; } | Возвращает копию изображения. Только для чтения [`Image`](./image). |
 | [SvgImage](../../aspose.slides/ippimage/svgimage) { get; set; } | Возвращает или задает объект ISvgImage [`ISvgImage`](../isvgimage) |
 | [Width](../../aspose.slides/ippimage/width) { get; } | Возвращает ширину изображения. Только для чтения Int32. |
-| [X](../../aspose.slides/ippimage/x) { get; } | Возвращает смещение по X изображения. Только для чтения Int32. |
-| [Y](../../aspose.slides/ippimage/y) { get; } | Возвращает смещение по Y изображения. Только для чтения Int32. |
+| [X](../../aspose.slides/ippimage/x) { get; } | Возвращает смещение X изображения. Только для чтения Int32. |
+| [Y](../../aspose.slides/ippimage/y) { get; } | Возвращает смещение Y изображения. Только для чтения Int32. |
 
 ## Методы
 

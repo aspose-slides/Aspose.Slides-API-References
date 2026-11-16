@@ -1,14 +1,14 @@
 ---
 title: ILayoutSlide
-second_title: Aspose.Sildes cho .NET Tham khảo API
-description: Đại diện cho một slide bố cục.
+second_title: Aspose.Sildes cho .NET Tham chiếu API
+description: Biểu diễn một slide bố cục.
 type: docs
-weight: 6220
+weight: 6240
 url: /vi/aspose.slides/ilayoutslide/
 ---
 ## Giao diện ILayoutSlide
 
-Đại diện cho một layout slide.
+Biểu diễn một slide bố cục.
 
 ```csharp
 public interface ILayoutSlide : IBaseSlide, IOverrideThemeable
@@ -20,19 +20,19 @@ public interface ILayoutSlide : IBaseSlide, IOverrideThemeable
 | --- | --- |
 | [AsIBaseSlide](../../aspose.slides/ilayoutslide/asibaseslide) { get; } | Cho phép lấy giao diện IBaseSlide cơ bản. Chỉ đọc [`IBaseSlide`](../ibaseslide). |
 | [AsIOverrideThemeable](../../aspose.slides/ilayoutslide/asioverridethemeable) { get; } | Trả về giao diện IOverrideThemeable. Chỉ đọc [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
-| [DrawingGuides](../../aspose.slides/ilayoutslide/drawingguides) { get; } | Trả về một tập hợp các hướng dẫn vẽ cho layout slide. Chỉ đọc [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [HasDependingSlides](../../aspose.slides/ilayoutslide/hasdependingslides) { get; } | Trả về true nếu tồn tại ít nhất một slide phụ thuộc vào layout slide này. Chỉ đọc Boolean. |
-| [HeaderFooterManager](../../aspose.slides/ilayoutslide/headerfootermanager) { get; } | Trả về trình quản lý HeaderFooter của layout slide. Chỉ đọc [`ILayoutSlideHeaderFooterManager`](../ilayoutslideheaderfootermanager). |
-| [LayoutType](../../aspose.slides/ilayoutslide/layouttype) { get; } | Trả về kiểu layout của layout slide này. Chỉ đọc [`SlideLayoutType`](../slidelayouttype). |
-| [MasterSlide](../../aspose.slides/ilayoutslide/masterslide) { get; set; } | Trả về hoặc đặt master slide cho một layout. Đọc/ghi [`IMasterSlide`](../imasterslide). |
-| [PlaceholderManager](../../aspose.slides/ilayoutslide/placeholdermanager) { get; } | Trả về trình quản lý placeholder của layout slide. Chỉ đọc [`ILayoutPlaceholderManager`](../ilayoutplaceholdermanager). |
+| [DrawingGuides](../../aspose.slides/ilayoutslide/drawingguides) { get; } | Trả về một tập hợp các hướng dẫn vẽ cho slide bố cục. Chỉ đọc [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [HasDependingSlides](../../aspose.slides/ilayoutslide/hasdependingslides) { get; } | Trả về true nếu tồn tại ít nhất một slide phụ thuộc vào slide bố cục này. Chỉ đọc Boolean. |
+| [HeaderFooterManager](../../aspose.slides/ilayoutslide/headerfootermanager) { get; } | Trả về trình quản lý HeaderFooter của slide bố cục. Chỉ đọc [`ILayoutSlideHeaderFooterManager`](../ilayoutslideheaderfootermanager). |
+| [LayoutType](../../aspose.slides/ilayoutslide/layouttype) { get; } | Trả về kiểu bố cục của slide bố cục này. Chỉ đọc [`SlideLayoutType`](../slidelayouttype). |
+| [MasterSlide](../../aspose.slides/ilayoutslide/masterslide) { get; set; } | Trả về hoặc thiết lập slide master cho một bố cục. Đọc/ghi [`IMasterSlide`](../imasterslide). |
+| [PlaceholderManager](../../aspose.slides/ilayoutslide/placeholdermanager) { get; } | Trả về trình quản lý placeholder của slide bố cục. Chỉ đọc [`ILayoutPlaceholderManager`](../ilayoutplaceholdermanager). |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| [GetDependingSlides](../../aspose.slides/ilayoutslide/getdependingslides)() | Trả về một mảng chứa tất cả các slide, phụ thuộc vào layout slide này. |
-| [Remove](../../aspose.slides/ilayoutslide/remove)() | Xóa layout khỏi bản trình bày. |
+| [GetDependingSlides](../../aspose.slides/ilayoutslide/getdependingslides)() | Trả về một mảng chứa tất cả các slide phụ thuộc vào slide bố cục này. |
+| [Remove](../../aspose.slides/ilayoutslide/remove)() | Xóa bố cục khỏi bản trình chiếu. |
 
 ### Xem thêm
 

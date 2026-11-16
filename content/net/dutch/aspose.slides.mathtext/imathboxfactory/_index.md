@@ -1,14 +1,14 @@
 ---
 title: IMathBoxFactory
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Staat toe om een wiskundige box te maken
+description: Staat toe een wiskundige box te maken
 type: docs
-weight: 8200
+weight: 8220
 url: /nl/aspose.slides.mathtext/imathboxfactory/
 ---
 ## IMathBoxFactory interface
 
-Staat toe om een wiskundige box te maken
+Staat toe een wiskundige box te maken
 
 ```csharp
 public interface IMathBoxFactory
@@ -18,7 +18,7 @@ public interface IMathBoxFactory
 
 | Naam | Beschrijving |
 | --- | --- |
-| [CreateMathBox](../../aspose.slides.mathtext/imathboxfactory/createmathbox)(IMathElement) | Maak een wiskundige box door toe te passen op het element |
+| [CreateMathBox](../../aspose.slides.mathtext/imathboxfactory/createmathbox)(IMathElement) | Maak een wiskundige box door deze toe te passen op het element |
 
 ### Opmerkingen
 

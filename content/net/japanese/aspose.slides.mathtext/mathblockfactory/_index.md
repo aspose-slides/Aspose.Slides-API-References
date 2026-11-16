@@ -3,12 +3,12 @@ title: MathBlockFactory
 second_title: Aspose.Sildes for .NET API リファレンス
 description: 数式ブロックを作成できます
 type: docs
-weight: 8600
+weight: 8620
 url: /ja/aspose.slides.mathtext/mathblockfactory/
 ---
 ## MathBlockFactory クラス
 
-数式ブロックを作成できます
+数式ブロックを作成することができます
 
 ```csharp
 public class MathBlockFactory : IMathBlockFactory
@@ -18,7 +18,7 @@ public class MathBlockFactory : IMathBlockFactory
 
 | 名前 | 説明 |
 | --- | --- |
-| [MathBlockFactory](mathblockfactory)() | デフォルトコンストラクタです。 |
+| [MathBlockFactory](mathblockfactory)() | 既定のコンストラクタです。 |
 
 ## メソッド
 
@@ -32,7 +32,7 @@ public class MathBlockFactory : IMathBlockFactory
 
 COM 互換性のため
 
-### 参照
+### 関連項目
 
 * インターフェイス [IMathBlockFactory](../imathblockfactory)
 * 名前空間 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

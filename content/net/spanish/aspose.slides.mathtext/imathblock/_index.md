@@ -1,14 +1,14 @@
 ---
 title: IMathBlock
-second_title: Aspose.Sildes para la referencia de API .NET
-description: Especifica una instancia de texto matemático que se encuentra dentro de un MathParagraph y comienza en su propia línea. Todas las zonas matemáticas, incluidas ecuaciones, expresiones, matrices de ecuaciones o expresiones y fórmulas, están representadas por un bloque matemático.
+second_title: Referencia de API de Aspose.Sildes para .NET
+description: Especifica una instancia de texto matemático que se encuentra dentro de un MathParagraph y comienza en una línea propia. Todas las zonas matemáticas, incluidas ecuaciones, expresiones, matrices de ecuaciones o expresiones y fórmulas, están representadas por un bloque matemático.
 type: docs
-weight: 8140
+weight: 8160
 url: /es/aspose.slides.mathtext/imathblock/
 ---
 ## Interfaz IMathBlock
 
-Especifica una instancia de texto matemático que se encuentra dentro de un MathParagraph y comienza en su propia línea. Todas las zonas matemáticas, incluidas ecuaciones, expresiones, matrices de ecuaciones o expresiones y fórmulas, están representadas por un bloque matemático.
+Especifica una instancia de texto matemático que se encuentra dentro de un MathParagraph y comienza en una línea propia. Todas las zonas matemáticas, incluidas ecuaciones, expresiones, matrices de ecuaciones o expresiones y fórmulas, están representadas por un bloque matemático.
 
 ```csharp
 public interface IMathBlock : IMathElement, IMathElementCollection
@@ -25,8 +25,8 @@ public interface IMathBlock : IMathElement, IMathElementCollection
 
 | Nombre | Descripción |
 | --- | --- |
-| [Delimit](../../aspose.slides.mathtext/imathblock/delimit)(char) | Delimita todos los elementos secundarios con un carácter separador (sin los corchetes) |
-| [Enclose](../../aspose.slides.mathtext/imathblock/enclose)(char, char, char) | Encierra los elementos secundarios de este bloque en los caracteres especificados, como paréntesis u otros, como encuadre y los delimita con un carácter separador |
+| [Delimit](../../aspose.slides.mathtext/imathblock/delimit)(char) | Delimita todos los elementos secundarios con el carácter separador (sin los corchetes) |
+| [Enclose](../../aspose.slides.mathtext/imathblock/enclose)(char, char, char) | Encierra los elementos secundarios de este bloque en los caracteres especificados, como paréntesis u otro, como marco y los delimita con un carácter separador |
 | [JoinBlock](../../aspose.slides.mathtext/imathblock/joinblock)(IMathBlock) | Une otro bloque matemático con este |
 | [WriteAsMathMl](../../aspose.slides.mathtext/imathblock/writeasmathml)(Stream) | Guarda el contenido de este [`IMathBlock`](../imathblock) como MathML |
 

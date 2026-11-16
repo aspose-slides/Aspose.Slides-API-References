@@ -1,14 +1,14 @@
 ---
 title: SetRange
-second_title: Aspose.Sildes for .NET API リファレンス
-description: チャート データ範囲を設定します。シリーズとカテゴリは新しいデータ範囲に基づいて更新されます。データ範囲内のシリーズ数がチャート データのシリーズ数より多い場合、現在のコレクションの最後のシリーズと同じタイプの追加シリーズがコレクションの末尾に追加されます。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: チャートのデータ範囲を設定します。シリーズとカテゴリは新しいデータ範囲に基づいて更新されます。データ範囲のシリーズ数がチャートデータのシリーズ数より多い場合、現在のコレクションの最後のシリーズと同じタイプの追加シリーズがコレクションの末尾に追加されます。
 type: docs
-weight: 130
+weight: 140
 url: /ja/aspose.slides.charts/ichartdata/setrange/
 ---
 ## IChartData.SetRange メソッド
 
-チャート データ範囲を設定します。シリーズとカテゴリは新しいデータ範囲に基づいて更新されます。データ範囲内のシリーズ数がチャート データのシリーズ数より多い場合、現在のコレクションの最後のシリーズと同じタイプの追加シリーズがコレクションの末尾に追加されます。
+チャートのデータ範囲を設定します。シリーズとカテゴリは新しいデータ範囲に基づいて更新されます。データ範囲のシリーズ数がチャートデータのシリーズ数より多い場合、現在のコレクションの最後のシリーズと同じタイプの追加シリーズがコレクションの末尾に追加されます。
 
 ```csharp
 public void SetRange(string formula)
@@ -16,13 +16,13 @@ public void SetRange(string formula)
 
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| formula | String | セルのデータ範囲式。例: "Sheet1!$A$1:$C$4" , "SomeSheetName!A1:B100", "Sheet1!$A$1:$B$5;Sheet1!$D$1:$D$5". |
+| formula | String | セルのデータ範囲の数式です。例: "Sheet1!$A$1:$C$4" , "SomeSheetName!A1:B100", "Sheet1!$A$1:$B$5;Sheet1!$D$1:$D$5". |
 
 ### 例外
 
 | 例外 | 条件 |
 | --- | --- |
-| ArgumentNullException | formula が null です。 |
+| ArgumentNullException | formula は null です。 |
 | ArgumentException | formula の形式が正しくありません。 |
 
 ### 参照

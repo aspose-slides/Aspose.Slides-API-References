@@ -1,14 +1,14 @@
 ---
 title: RelatedLegendEntry
 second_title: Aspose.Sildes för .NET API-referens
-description: Egenskaper för motsvarande förklaringspost för diagramtyp från denna lista ChartType.BarOfPie ChartType.ExplodedPie ChartType.ExplodedPie3D ChartType.Pie ChartType.Pie3D ChartType.PieOfPie. Skrivskyddad ILegendEntryPropertiesaspose.slides.charts/ilegendentryproperties.
+description: Egenskaper för motsvarande legendpost för diagramtyper från denna lista ChartType.BarOfPie ChartType.ExplodedPie ChartType.ExplodedPie3D ChartType.Pie ChartType.Pie3D ChartType.PieOfPie. Skrivskyddad ILegendEntryPropertiesaspose.slides.charts/ilegendentryproperties.
 type: docs
-weight: 160
+weight: 200
 url: /sv/aspose.slides.charts/chartdatapoint/relatedlegendentry/
 ---
 ## ChartDataPoint.RelatedLegendEntry egenskap
 
-Egenskaper för motsvarande förklaringspost för diagramtyper från denna lista: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. Skrivskyddad [`ILegendEntryProperties`](../../ilegendentryproperties).
+Egenskaper för motsvarande legendpost i fall av diagramtyp från denna lista: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. Skrivskyddad [`ILegendEntryProperties`](../../ilegendentryproperties).
 
 ```csharp
 public ILegendEntryProperties RelatedLegendEntry { get; }

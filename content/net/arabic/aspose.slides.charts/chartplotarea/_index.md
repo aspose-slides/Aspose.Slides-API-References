@@ -1,14 +1,14 @@
 ---
 title: ChartPlotArea
-second_title: مرجع API الخاص بـ Aspose.Sildes لـ .NET
+second_title: مرجع API لـ Aspose.Sildes للـ .NET
 description: يمثل المستطيل الذي يجب رسم المخطط فيه.
 type: docs
-weight: 1420
+weight: 1430
 url: /ar/aspose.slides.charts/chartplotarea/
 ---
 ## فئة ChartPlotArea
 
-يمثّل المستطيل حيث يجب رسم المخطط.
+يمثل المستطيل الذي يجب رسم المخطط فيه.
 
 ```csharp
 public class ChartPlotArea : DomObject<Chart>, IChartPlotArea
@@ -18,27 +18,27 @@ public class ChartPlotArea : DomObject<Chart>, IChartPlotArea
 
 | الاسم | الوصف |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/chartplotarea/actualheight) { get; } | يحدد الارتفاع الفعلي لعنصر المخطط. استدعِ الطريقة IChart.ValidateChartLayout() قبل ذلك للحصول على القيم الفعلية. قراءة Single. |
-| [ActualWidth](../../aspose.slides.charts/chartplotarea/actualwidth) { get; } | يحدد العرض الفعلي لعنصر المخطط. استدعِ الطريقة IChart.ValidateChartLayout() قبل ذلك للحصول على القيم الفعلية. قراءة Single. |
-| [ActualX](../../aspose.slides.charts/chartplotarea/actualx) { get; } | يحدد الموقع الفعلي للمحور X (اليسار) لعنصر المخطط بالنسبة للزاوية العليا اليسرى للمخطط. استدعِ الطريقة IChart.ValidateChartLayout() قبل ذلك للحصول على القيم الفعلية. قراءة Single. |
-| [ActualY](../../aspose.slides.charts/chartplotarea/actualy) { get; } | يحدد الموقع الفعلي الأعلى لعنصر المخطط بالنسبة للزاوية العليا اليسرى للمخطط. استدعِ الطريقة IChart.ValidateChartLayout() قبل ذلك للحصول على القيم الفعلية. قراءة Single. |
-| [Bottom](../../aspose.slides.charts/chartplotarea/bottom) { get; } | أسفل. للقراءة فقط Single. |
-| [Chart](../../aspose.slides.charts/chartplotarea/chart) { get; } | مخطط. للقراءة فقط [`IChart`](../ichart). |
-| [Format](../../aspose.slides.charts/chartplotarea/format) { get; } | يعيد تنسيق مساحة الرسم. للقراءة فقط [`IFormat`](../iformat). |
-| [Height](../../aspose.slides.charts/chartplotarea/height) { get; set; } | يعيد أو يضبط ارتفاع صندوق حدود مساحة الرسم كنسبة من ارتفاع المخطط (من 0 إلى 1). قراءة/كتابة Single. |
-| [IsLocationAutocalculated](../../aspose.slides.charts/chartplotarea/islocationautocalculated) { get; } | يحدد كيفية حساب الموقع: true – يُحسب تلقائيًا؛ يُحدَّد بواسطة خصائص X وY وWidth وHeight. للقراءة فقط Boolean. |
-| [LayoutTargetType](../../aspose.slides.charts/chartplotarea/layouttargettype) { get; set; } | إذا كان تخطيط مساحة الرسم محددًا يدويًا، تُحدد هذه الخاصية ما إذا كان يجب تخطيط مساحة الرسم من داخلها (بدون المحاور وعناوين المحاور) أو من خارجها (مع المحاور وعناوين المحاور). قراءة/كتابة [`LayoutTargetType`](./layouttargettype). |
-| [Right](../../aspose.slides.charts/chartplotarea/right) { get; } | يمين. للقراءة فقط Single. |
-| [Width](../../aspose.slides.charts/chartplotarea/width) { get; set; } | يعيد أو يضبط عرض صندوق حدود مساحة الرسم كنسبة من عرض المخطط (من 0 إلى 1). قراءة/كتابة Single. |
-| [X](../../aspose.slides.charts/chartplotarea/x) { get; set; } | يعيد أو يضبط إحداثي X للزاوية العليا اليسرى لصندوق حدود مساحة الرسم كنسبة من عرض المخطط (من 0 إلى 1). قراءة/كتابة Single. |
-| [Y](../../aspose.slides.charts/chartplotarea/y) { get; set; } | يعيد أو يضبط إحداثي Y للزاوية العليا اليسرى لصندوق حدود مساحة الرسم كنسبة من ارتفاع المخطط (من 0 إلى 1). قراءة/كتابة Single. |
+| [ActualHeight](../../aspose.slides.charts/chartplotarea/actualheight) { get; } | يحدد الارتفاع الفعلي لعنصر المخطط. استدعِ الطريقة IChart.ValidateChartLayout() أولاً للحصول على القيم الفعلية. قراءة Single. |
+| [ActualWidth](../../aspose.slides.charts/chartplotarea/actualwidth) { get; } | يحدد العرض الفعلي لعنصر المخطط. استدعِ الطريقة IChart.ValidateChartLayout() أولاً للحصول على القيم الفعلية. قراءة Single. |
+| [ActualX](../../aspose.slides.charts/chartplotarea/actualx) { get; } | يحدد الموقع الفعلي x (اليسار) لعنصر المخطط بالنسبة إلى الزاوية العليا اليسرى للمخطط. استدعِ الطريقة IChart.ValidateChartLayout() أولاً للحصول على القيم الفعلية. قراءة Single. |
+| [ActualY](../../aspose.slides.charts/chartplotarea/actualy) { get; } | يحدد أعلى العنصر الفعلي بالنسبة إلى الزاوية العليا اليسرى للمخطط. استدعِ الطريقة IChart.ValidateChartLayout() أولاً للحصول على القيم الفعلية. قراءة Single. |
+| [Bottom](../../aspose.slides.charts/chartplotarea/bottom) { get; } | القاع. قراءة فقط Single. |
+| [Chart](../../aspose.slides.charts/chartplotarea/chart) { get; } | المخطط. قراءة فقط [`IChart`](../ichart). |
+| [Format](../../aspose.slides.charts/chartplotarea/format) { get; } | يعيد تنسيق مساحة الرسم. قراءة فقط [`IFormat`](../iformat). |
+| [Height](../../aspose.slides.charts/chartplotarea/height) { get; set; } | يعيد أو يضبط ارتفاع مربع حدود مساحة الرسم كنسبة من ارتفاع المخطط (من 0 إلى 1). قراءة/كتابة Single. |
+| [IsLocationAutocalculated](../../aspose.slides.charts/chartplotarea/islocationautocalculated) { get; } | يعرف كيفية حساب الموقع: true – يتم حسابه تلقائيًا؛ معرف بواسطة خصائص X و Y و Width و Height. قراءة فقط Boolean. |
+| [LayoutTargetType](../../aspose.slides.charts/chartplotarea/layouttargettype) { get; set; } | إذا تم تعريف تخطيط مساحة الرسم يدويًا فإن هذه الخاصية تحدد ما إذا كان يتم تخطيط مساحة الرسم داخلها (دون تضمين المحاور وعناوين المحاور) أو خارجها (مع تضمين المحاور وعناوين المحاور). قراءة/كتابة [`LayoutTargetType`](./layouttargettype). |
+| [Right](../../aspose.slides.charts/chartplotarea/right) { get; } | اليمين. قراءة فقط Single. |
+| [Width](../../aspose.slides.charts/chartplotarea/width) { get; set; } | يعيد أو يضبط عرض مربع حدود مساحة الرسم كنسبة من عرض المخطط (من 0 إلى 1). قراءة/كتابة Single. |
+| [X](../../aspose.slides.charts/chartplotarea/x) { get; set; } | يعيد أو يضبط إحداثي x للزاوية العليا اليسرى لمربع حدود مساحة الرسم كنسبة من عرض المخطط (من 0 إلى 1). قراءة/كتابة Single. |
+| [Y](../../aspose.slides.charts/chartplotarea/y) { get; set; } | يعيد أو يضبط إحداثي y للزاوية العليا اليسرى لمربع حدود مساحة الرسم كنسبة من ارتفاع المخطط (من 0 إلى 1). قراءة/كتابة Single. |
 
-### انظر أيضًا
+### أنظر أيضًا
 
 * فئة [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * فئة [Chart](../chart)
 * واجهة [IChartPlotArea](../ichartplotarea)
-* مساحة الاسم [Aspose.Slides.Charts](../../aspose.slides.charts)
+* نطاق [Aspose.Slides.Charts](../../aspose.slides.charts)
 * تجميع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

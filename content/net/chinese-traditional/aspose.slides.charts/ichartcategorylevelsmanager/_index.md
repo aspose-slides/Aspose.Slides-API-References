@@ -1,33 +1,33 @@
 ---
 title: IChartCategoryLevelsManager
-second_title: Aspose.Sildes .NET API 參考
-description: 管理圖表類別層級的值之容器。
+second_title: Aspose.Sildes for .NET API 參考
+description: 管理圖表類別層級值的容器。
 type: docs
-weight: 1770
+weight: 1790
 url: /zh-hant/aspose.slides.charts/ichartcategorylevelsmanager/
 ---
-## IChartCategoryLevelsManager 介面
+## IChartCategoryLevelsManager interface
 
-管理圖表類別層級的值之容器。
+管理圖表類別層級值的容器。
 
 ```csharp
 public interface IChartCategoryLevelsManager
 ```
 
-## 屬性
+## Properties
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
-| [Item](../../aspose.slides.charts/ichartcategorylevelsmanager/item) { get; } | 傳回定義層級的 IChartDataCell 物件。 |
+| [Item](../../aspose.slides.charts/ichartcategorylevelsmanager/item) { get; } | 傳回已定義層級的 IChartDataCell 物件。 |
 
-## 方法
+## Methods
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
-| [DeleteGroupingItem](../../aspose.slides.charts/ichartcategorylevelsmanager/deletegroupingitem)(int) | 刪除定義層級的分組項目。 |
-| [SetGroupingItem](../../aspose.slides.charts/ichartcategorylevelsmanager/setgroupingitem)(int, object) | 設定定義層級的分組項目。 |
+| [DeleteGroupingItem](../../aspose.slides.charts/ichartcategorylevelsmanager/deletegroupingitem)(int) | 刪除已定義層級的分組項目。 |
+| [SetGroupingItem](../../aspose.slides.charts/ichartcategorylevelsmanager/setgroupingitem)(int, object) | 設定已定義層級的分組項目。 |
 
-### 另見
+### See Also
 
 * 命名空間 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 組件 [Aspose.Slides](../../)

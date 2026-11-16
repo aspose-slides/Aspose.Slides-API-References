@@ -1,14 +1,14 @@
 ---
 title: PictureFillMode
 second_title: Aspose.Sildes för .NET API-referens
-description: Bestämmer hur bilden fyller området.
+description: Bestämmer hur bilden ska fylla området.
 type: docs
-weight: 9400
+weight: 9420
 url: /sv/aspose.slides/picturefillmode/
 ---
-## PictureFillMode enumeration
+## PictureFillMode-enumeration
 
-Bestämmer hur bilden fyller området.
+Bestämmer hur bilden ska fylla området.
 
 ```csharp
 public enum PictureFillMode

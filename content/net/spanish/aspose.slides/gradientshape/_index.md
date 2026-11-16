@@ -1,14 +1,14 @@
 ---
 title: GradientShape
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Representa la forma del relleno degradado.
+description: Representa la forma del relleno de degradado.
 type: docs
-weight: 5010
+weight: 5030
 url: /es/aspose.slides/gradientshape/
 ---
-## GradientShape enumeration
+## GradientShape enumeración
 
-Representa la forma del relleno degradado.
+Representa la forma del relleno de degradado.
 
 ```csharp
 public enum GradientShape : sbyte

@@ -1,14 +1,14 @@
 ---
 title: PptEditException
-second_title: Aspose.Sildes для .NET справка по API
-description: Представляет исключение, которое выбрасывается при обнаружении ошибки редактирования презентации.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Представляет исключение, которое возникает при обнаружении ошибки редактирования презентации.
 type: docs
-weight: 9510
+weight: 9530
 url: /ru/aspose.slides/ppteditexception/
 ---
 ## PptEditException класс
 
-Представляет исключение, выбрасываемое при обнаружении ошибки редактирования презентации.
+Представляет исключение, которое возникает при обнаружении ошибки редактирования презентации.
 
 ```csharp
 public class PptEditException : PptException

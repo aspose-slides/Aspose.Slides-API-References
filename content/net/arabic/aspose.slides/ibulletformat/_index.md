@@ -1,14 +1,14 @@
 ---
 title: IBulletFormat
-second_title: Aspose.Sildes لـ .NET مرجع API
-description: يمثل خصائص تنسيق رصاصات الفقرة.
+second_title: Aspose.Sildes لـ .NET – مرجع API
+description: يمثل خصائص تنسيق نقاط الفقرة.
 type: docs
-weight: 5390
+weight: 5410
 url: /ar/aspose.slides/ibulletformat/
 ---
 ## واجهة IBulletFormat
 
-يمثل خصائص تنسيق رصاصات الفقرة.
+يمثل خصائص تنسيق نقاط الفقرة.
 
 ```csharp
 public interface IBulletFormat
@@ -18,23 +18,23 @@ public interface IBulletFormat
 
 | الاسم | الوصف |
 | --- | --- |
-| [Char](../../aspose.slides/ibulletformat/char) { get; set; } | يعيد أو يحدد حرف الرصاصة لفقرة بدون وراثة. قراءة/كتابة Char. |
-| [Color](../../aspose.slides/ibulletformat/color) { get; } | يعيد تنسيق اللون لرصاصة فقرة بدون وراثة. قراءة فقط [`IColorFormat`](../icolorformat). |
-| [Font](../../aspose.slides/ibulletformat/font) { get; set; } | يعيد أو يحدد خط الرصاصة لفقرة بدون وراثة. قراءة/كتابة [`IFontData`](../ifontdata). |
-| [Height](../../aspose.slides/ibulletformat/height) { get; set; } | يعيد أو يحدد ارتفاع الرصاصة لفقرة بدون وراثة. القيمة float.NaN تحدد أن الرصاصة تورث الارتفاع من الجزء الأول في الفقرة. قراءة/كتابة Single. |
-| [IsBulletHardColor](../../aspose.slides/ibulletformat/isbullethardcolor) { get; set; } | يحدد ما إذا كانت الرصاصة لها لون خاص أو تورثه من الجزء الأول في الفقرة. **NullableBool.True** إذا كانت الرصاصة لها لون خاص و **NullableBool.False** إذا كانت الرصاصة تورث اللون من الجزء الأول في الفقرة. قراءة/كتابة [`NullableBool`](../nullablebool). |
-| [IsBulletHardFont](../../aspose.slides/ibulletformat/isbullethardfont) { get; set; } | يحدد ما إذا كانت الرصاصة لها خط خاص أو تورثه من الجزء الأول في الفقرة. **NullableBool.True** إذا كانت الرصاصة لها خط خاص و **NullableBool.False** إذا كانت الرصاصة تورث الخط من الجزء الأول في الفقرة. قراءة/كتابة [`NullableBool`](../nullablebool). |
-| [NumberedBulletStartWith](../../aspose.slides/ibulletformat/numberedbulletstartwith) { get; set; } | يعيد أو يحدد الرقم الأول المستخدم لمجموعة من الرصاصات المرقمة بدون وراثة. قراءة/كتابة Int16. |
-| [NumberedBulletStyle](../../aspose.slides/ibulletformat/numberedbulletstyle) { get; set; } | يعيد أو يحدد نمط الرصاصة المرقمة بدون وراثة. قراءة/كتابة [`NumberedBulletStyle`](./numberedbulletstyle). |
-| [Picture](../../aspose.slides/ibulletformat/picture) { get; } | يعيد الصورة المستخدمة كرصاصة في فقرة بدون وراثة. قراءة فقط [`ISlidesPicture`](../islidespicture). |
-| [Type](../../aspose.slides/ibulletformat/type) { get; set; } | يعيد أو يحدد نوع الرصاصة لفقرة بدون وراثة. قراءة/كتابة [`BulletType`](../bullettype). |
+| [Char](../../aspose.slides/ibulletformat/char) { get; set; } | يعيد أو يحدد حرف الرصاص لفقرة دون وراثة. قراءة/كتابة Char. |
+| [Color](../../aspose.slides/ibulletformat/color) { get; } | يعيد تنسيق اللون لنقطة فقرة دون وراثة. قراءة فقط [`IColorFormat`](../icolorformat). |
+| [Font](../../aspose.slides/ibulletformat/font) { get; set; } | يعيد أو يحدد خط الرصاص لفقرة دون وراثة. قراءة/كتابة [`IFontData`](../ifontdata). |
+| [Height](../../aspose.slides/ibulletformat/height) { get; set; } | يعيد أو يحدد ارتفاع الرصاص لفقرة دون وراثة. القيمة float.NaN تحدد أن الرصاص يرث الارتفاع من الجزء الأول في الفقرة. قراءة/كتابة Single. |
+| [IsBulletHardColor](../../aspose.slides/ibulletformat/isbullethardcolor) { get; set; } | يحدد ما إذا كان للرصاص لون خاص به أو يرثه من الجزء الأول في الفقرة. **NullableBool.True** إذا كان للرصاص لون خاص و **NullableBool.False** إذا كان يرث اللون من الجزء الأول في الفقرة. قراءة/كتابة [`NullableBool`](../nullablebool). |
+| [IsBulletHardFont](../../aspose.slides/ibulletformat/isbullethardfont) { get; set; } | يحدد ما إذا كان للرصاص خط خاص به أو يرثه من الجزء الأول في الفقرة. **NullableBool.True** إذا كان للرصاص خط خاص و **NullableBool.False** إذا كان يرث الخط من الجزء الأول في الفقرة. قراءة/كتابة [`NullableBool`](../nullablebool). |
+| [NumberedBulletStartWith](../../aspose.slides/ibulletformat/numberedbulletstartwith) { get; set; } | يعيد أو يحدد الرقم الأول المستخدم لمجموعة من النقاط المرقمة دون وراثة. قراءة/كتابة Int16. |
+| [NumberedBulletStyle](../../aspose.slides/ibulletformat/numberedbulletstyle) { get; set; } | يعيد أو يحدد نمط نقطة مرقمة دون وراثة. قراءة/كتابة [`NumberedBulletStyle`](./numberedbulletstyle). |
+| [Picture](../../aspose.slides/ibulletformat/picture) { get; } | يعيد الصورة المستخدمة كنقطة في فقرة دون وراثة. قراءة فقط [`ISlidesPicture`](../islidespicture). |
+| [Type](../../aspose.slides/ibulletformat/type) { get; set; } | يعيد أو يحدد نوع الرصاص لفقرة دون وراثة. قراءة/كتابة [`BulletType`](../bullettype). |
 
 ## الطرق
 
 | الاسم | الوصف |
 | --- | --- |
-| [ApplyDefaultParagraphIndentsShifts](../../aspose.slides/ibulletformat/applydefaultparagraphindentsshifts)() | يضبط التحولات غير الصفرية الافتراضية للهوامش الفعلية للفقرة (Indent وMarginLeft) عندما تكون الرصاصات مفعلة (كما يفعل PowerPoint عند تمكين رصاصات/ترقيم الفقرات). إذا تم تعطيل الرصاصات يتم إعادة تعيين Indent وMarginLeft للفقرة فقط (كما يفعل PowerPoint عند تعطيل رصاصات/ترقيم الفقرات). تُطبق تحولات الهوامش بالنسبة إلى سياق الرصاصة الحالي - IBulletFormat.Type، .NumberedBulletStyle وFontHeight للجزء الأول. تُطبق التحولات غير الصفرية للهوامش على Indent وMarginLeft الفعليين للفقرة الحالية (لتصبح القيم الناتجة قيمًا محلية). |
-| [GetEffective](../../aspose.slides/ibulletformat/geteffective)() | يعيد بيانات تنسيق الرصاصة الفعّالة مع تطبيق الوراثة. |
+| [ApplyDefaultParagraphIndentsShifts](../../aspose.slides/ibulletformat/applydefaultparagraphindentsshifts)() | يضبط الإزاحات الافتراضية غير الصفرية للمسافة البادئة (Indent) والهوامش اليسارية (MarginLeft) الفعّالة للفقرة عندما تكون النقاط مفعّلة (مثل ما تفعله PowerPoint عند تمكين نقاط/ترقيم الفقرات). إذا تم تعطيل النقاط، يتم إعادة ضبط المسافة البادئة والهوامش اليسارية للفقرة فقط (مثل ما تفعله PowerPoint عند تعطيل نقاط/ترقيم الفقرات). تُطبق إزاحات المسافة البادئة وفقاً لسياق الرصاص الحالي - IBulletFormat.Type، .NumberedBulletStyle و FontHeight للجزء الأول. تُطبق إزاحات غير الصفر على المسافة البادئة والهوامش اليسارية الفعّالة للفقرة الحالية (لتصبح القيم الناتجة قيمًا محلية). |
+| [GetEffective](../../aspose.slides/ibulletformat/geteffective)() | يحصل على بيانات تنسيق الرصاص الفعّالة مع تطبيق الوراثة. |
 
 ### انظر أيضًا
 

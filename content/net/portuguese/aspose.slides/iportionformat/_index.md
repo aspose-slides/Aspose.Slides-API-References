@@ -1,9 +1,9 @@
 ---
 title: IPortionFormat
 second_title: Aspose.Sildes para .NET Referência da API
-description: Esta classe contém as propriedades de formatação da porção de texto. Ao contrário de IPortionFormatEffectiveData./iportionformateffectivedata todas as propriedades desta classe são graváveis.
+description: Esta classe contém as propriedades de formatação da porção de texto. Ao contrário de IPortionFormatEffectiveData./iportionformateffectivedata, todas as propriedades desta classe são graváveis.
 type: docs
-weight: 6730
+weight: 6750
 url: /pt/aspose.slides/iportionformat/
 ---
 ## IPortionFormat interface
@@ -27,15 +27,15 @@ public interface IPortionFormat : IBasePortionFormat, IHyperlinkContainer
 
 | Nome | Descrição |
 | --- | --- |
-| [GetEffective](../../aspose.slides/iportionformat/geteffective)() | Obtém os dados de formatação de porção efetiva com a herança aplicada. |
+| [GetEffective](../../aspose.slides/iportionformat/geteffective)() | Obtém os dados efetivos de formatação da porção com a herança aplicada. |
 
 ### Observações
 
-Esta classe é usada para retornar e manipular as propriedades de formatação de porção de texto definidas para a porção específica. Isso significa que nenhuma herança é aplicada ao obter valores, portanto, na maioria dos casos você receberá valores significando "indefinido".
+Esta classe é usada para retornar e manipular as propriedades de formatação da porção de texto definidas para a porção específica. Isso significa que nenhuma herança é aplicada ao obter valores, portanto, na maioria dos casos você obterá valores que significam "indefinido".
 
-Para obter os valores dos parâmetros de formatação efetiva, incluindo os herdados, você precisa usar o método [`GetEffective`](./geteffective) que retorna uma instância [`IPortionFormatEffectiveData`](../iportionformateffectivedata).
+Para obter os valores efetivos dos parâmetros de formatação, incluindo os herdados, você precisa usar o método [`GetEffective`](./geteffective) que retorna uma instância [`IPortionFormatEffectiveData`](../iportionformateffectivedata).
 
-### Ver também
+### Veja também
 
 * interface [IBasePortionFormat](../ibaseportionformat)
 * interface [IHyperlinkContainer](../ihyperlinkcontainer)

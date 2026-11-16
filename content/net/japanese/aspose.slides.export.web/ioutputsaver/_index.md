@@ -3,7 +3,7 @@ title: IOutputSaver
 second_title: Aspose.Sildes for .NET API リファレンス
 description: 出力保存サービスを表します。
 type: docs
-weight: 4610
+weight: 4630
 url: /ja/aspose.slides.export.web/ioutputsaver/
 ---
 ## IOutputSaver インターフェイス

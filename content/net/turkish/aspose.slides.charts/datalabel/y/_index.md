@@ -1,20 +1,20 @@
 ---
 title: Y
 second_title: Aspose.Sildes için .NET API Referansı
-description: Bir başlığın y koordinatını, grafiğin yüksekliğinin bir kesri olarak döndürür veya ayarlar. Okunur/Yazılır Single.
+description: Bir başlığın y koordinatını, grafiğin yüksekliğinin bir kesri olarak alır veya ayarlar. Okunur/Yazılabilir Single.
 type: docs
-weight: 170
+weight: 180
 url: /tr/aspose.slides.charts/datalabel/y/
 ---
 ## DataLabel.Y özelliği
 
-Grafiğin yüksekliğinin bir kesri olarak bir başlığın y koordinatını döndürür veya ayarlar. Okunur/Yazılır Single.
+Başlığın y koordinatını, grafiğin yüksekliğinin bir kesri olarak alır veya ayarlar. Okunur/Yazılabilir Single.
 
 ```csharp
 public float Y { get; set; }
 ```
 
-### Ayrıca Bakınız
+### İlgili
 
 * sınıf [DataLabel](../../datalabel)
 * ad alanı [Aspose.Slides.Charts](../../datalabel)

@@ -1,12 +1,12 @@
 ---
 title: SvgCoordinateUnit
-second_title: Aspose.Sildes pour .NET Référence de l'API
+second_title: Aspose.Sildes pour la référence de l'API .NET
 description: Représente les unités de coordonnées CSS2 utilisées pour définir les coordonnées SVG.
 type: docs
-weight: 4480
+weight: 4500
 url: /fr/aspose.slides.export/svgcoordinateunit/
 ---
-## Enumération SvgCoordinateUnit
+## SvgCoordinateUnit énumération
 
 Représente les unités de coordonnées CSS2 utilisées pour définir les coordonnées SVG.
 
@@ -16,17 +16,17 @@ public enum SvgCoordinateUnit
 
 ### Valeurs
 
-| Name | Value | Description |
+| Nom | Valeur | Description |
 | --- | --- | --- |
-| Inch | `0` | Inch |
-| Centimeter | `1` | Centimeter. |
-| Millimeter | `2` | Millimeter. |
-| Point | `3` | Point (1/72 of inch), |
-| Pica | `4` | Pica (1/6 of inch). |
-| Em | `5` | Em taille d'une police de l'élément contenant. |
-| Ex | `6` | Ex taille (taille de la lettre minuscule, généralement "x") de la police de l'élément contenant. |
-| Pixel | `7` | Pixel taille. |
-| Percent | `8` | Percent. |
+| Inch | `0` | Pouce |
+| Centimeter | `1` | Centimètre. |
+| Millimeter | `2` | Millimètre. |
+| Point | `3` | Point (1/72 de pouce), |
+| Pica | `4` | Pica (1/6 de pouce). |
+| Em | `5` | Taille Em d’une police de l’élément conteneur. |
+| Ex | `6` | Taille Ex (taille de la lettre minuscule, généralement "x") de la police de l’élément conteneur. |
+| Pixel | `7` | Taille pixel. |
+| Percent | `8` | Pourcentage. |
 
 ### Voir aussi
 

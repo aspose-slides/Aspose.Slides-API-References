@@ -1,14 +1,14 @@
 ---
 title: IPortionCollection
-second_title: Aspose.Sildes .NET API Referenciája
-description: Portion-ök gyűjteményét képviseli.
+second_title: Aspose.Sildes .NET API referencia
+description: Egy portion-ök gyűjteményét képviseli.
 type: docs
-weight: 6710
+weight: 6730
 url: /hu/aspose.slides/iportioncollection/
 ---
 ## IPortionCollection interfész
 
-Represents a collection of a portions.
+Egy portion-ök gyűjteményét képviseli.
 
 ```csharp
 public interface IPortionCollection : IEnumerable<IPortion>
@@ -19,20 +19,20 @@ public interface IPortionCollection : IEnumerable<IPortion>
 | Name | Description |
 | --- | --- |
 | [AsIEnumerable](../../aspose.slides/iportioncollection/asienumerable) { get; } | Visszaadja az IEnumerable interfészt. Csak olvasható IEnumerable. |
-| [Count](../../aspose.slides/iportioncollection/count) { get; } | Lekéri a gyűjteményben ténylegesen tárolt elemek számát. Csak olvasható Int32. |
-| [Item](../../aspose.slides/iportioncollection/item) { get; } | Lekéri a megadott indexű elemet. |
+| [Count](../../aspose.slides/iportioncollection/count) { get; } | Visszaadja a gyűjteményben ténylegesen tárolt elemek számát. Csak olvasható Int32. |
+| [Item](../../aspose.slides/iportioncollection/item) { get; } | Visszaadja a megadott indexű elemet. |
 
-## Metódusok
+## Módszerek
 
 | Name | Description |
 | --- | --- |
 | [Add](../../aspose.slides/iportioncollection/add)(IPortion) | Hozzáad egy Portion-t a gyűjtemény végéhez. |
 | [Clear](../../aspose.slides/iportioncollection/clear)() | Eltávolítja az összes elemet a gyűjteményből. |
-| [Contains](../../aspose.slides/iportioncollection/contains)(IPortion) | Megállapítja, hogy az ICollection tartalmaz-e egy adott értéket. |
-| [IndexOf](../../aspose.slides/iportioncollection/indexof)(IPortion) | Megállapítja egy adott portion indexét a gyűjteményben. |
+| [Contains](../../aspose.slides/iportioncollection/contains)(IPortion) | Megállapítja, hogy az ICollection tartalmazza-e a megadott értéket. |
+| [IndexOf](../../aspose.slides/iportioncollection/indexof)(IPortion) | Megadja egy adott portion indexét a gyűjteményben. |
 | [Insert](../../aspose.slides/iportioncollection/insert)(int, IPortion) | Beszúr egy Portion-t a gyűjteménybe a megadott indexnél. |
 | [Remove](../../aspose.slides/iportioncollection/remove)(IPortion) | Eltávolítja egy adott objektum első előfordulását az ICollection-ből. |
-| [RemoveAt](../../aspose.slides/iportioncollection/removeat)(int) | Eltávolítja a gyűjteményben a megadott indexű elemet. |
+| [RemoveAt](../../aspose.slides/iportioncollection/removeat)(int) | Eltávolítja a megadott indexű elemet a gyűjteményből. |
 
 ### Lásd még
 

@@ -1,14 +1,14 @@
 ---
 title: IBiLevel
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Biểu diễn giao diện IImageTransformOperation cơ bản.
+second_title: Tham khảo API Aspose.Sildes cho .NET
+description: Đại diện cho giao diện IImageTransformOperation cơ bản.
 type: docs
-weight: 3160
+weight: 3180
 url: /vi/aspose.slides.effects/ibilevel/
 ---
 ## IBiLevel giao diện
 
-Biểu diễn giao diện IImageTransformOperation cơ bản.
+Represents base IImageTransformOperation interface.
 
 ```csharp
 public interface IBiLevel : IAccessiblePVIObject<IBiLevelEffectiveData>, IImageTransformOperation

@@ -3,7 +3,7 @@ title: TableStylePreset
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta gli stili di tabella incorporati.
 type: docs
-weight: 10880
+weight: 10900
 url: /it/aspose.slides/tablestylepreset/
 ---
 ## Enumerazione TableStylePreset
@@ -18,7 +18,7 @@ public enum TableStylePreset
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| Custom | `-1` | Table ha uno stile personalizzato. Questo è un valore di sola lettura. |
+| Custom | `-1` | La tabella ha uno stile personalizzato. Questo è un valore di sola lettura. |
 | None | `0` | Nessuno stile. |
 | MediumStyle2Accent1 | `1` | Stile medio 2 - Accento 1. |
 | MediumStyle2 | `2` | Stile medio 2. |
@@ -29,7 +29,7 @@ public enum TableStylePreset
 | ThemedStyle1Accent4 | `7` | Stile tematico 1 - Accento 4. |
 | ThemedStyle1Accent5 | `8` | Stile tematico 1 - Accento 5. |
 | ThemedStyle1Accent6 | `9` | Stile tematico 1 - Accento 6. |
-| NoStyleTableGrid | `10` | Nessuno stile, griglia della tabella. |
+| NoStyleTableGrid | `10` | Nessuno stile, griglia di tabella. |
 | ThemedStyle2Accent1 | `11` | Stile tematico 2 - Accento 1. |
 | ThemedStyle2Accent2 | `12` | Stile tematico 2 - Accento 2. |
 | ThemedStyle2Accent3 | `13` | Stile tematico 2 - Accento 3. |

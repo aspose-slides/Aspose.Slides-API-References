@@ -1,14 +1,14 @@
 ---
 title: IColorReplaceEffectiveData
-second_title: Aspose.Sildes para la referencia de API de .NET
-description: Objeto inmutable que representa un efecto de sustitución de color. Todos los colores del efecto se cambian a un color fijo. Los valores alfa no se ven afectados.
+second_title: Referencia de API de Aspose.Sildes para .NET
+description: Objeto inmutable que representa un efecto de reemplazo de color. Todos los colores del efecto se cambian a un color fijo. Los valores alfa no se ven afectados.
 type: docs
-weight: 3250
+weight: 3270
 url: /es/aspose.slides.effects/icolorreplaceeffectivedata/
 ---
 ## IColorReplaceEffectiveData interfaz
 
-Objeto inmutable que representa un efecto de sustitución de color. Todos los colores del efecto se cambian a un color fijo. Los valores alfa no se ven afectados.
+Objeto inmutable que representa un efecto de reemplazo de color. Todos los colores del efecto se cambian a un color fijo. Los valores alfa no se ven afectados.
 
 ```csharp
 public interface IColorReplaceEffectiveData : IEffectEffectiveData
@@ -18,7 +18,7 @@ public interface IColorReplaceEffectiveData : IEffectEffectiveData
 
 | Nombre | Descripción |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/icolorreplaceeffectivedata/asieffecteffectivedata) { get; } | Permite obtener la interfaz base IEffectEffectiveData interfaz. Solo lectura [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/icolorreplaceeffectivedata/asieffecteffectivedata) { get; } | Permite obtener la interfaz IEffectEffectiveData base. Solo lectura [`IEffectEffectiveData`](../ieffecteffectivedata). |
 | [Color](../../aspose.slides.effects/icolorreplaceeffectivedata/color) { get; } | Devuelve el formato de color que reemplazará el color de cada píxel. Solo lectura Color. |
 
 ### Ver también

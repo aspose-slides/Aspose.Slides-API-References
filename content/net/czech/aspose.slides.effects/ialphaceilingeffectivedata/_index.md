@@ -1,14 +1,14 @@
 ---
 title: IAlphaCeilingEffectiveData
-second_title: Aspose.Sildes pro .NET – referenční příručka
-description: Neměnný objekt, který představuje efekt Alpha Ceiling. Hodnoty alfa průhlednosti větší než nula jsou změněny na 100. Jinými slovy, vše částečně neprůhledné se stane zcela neprůhledným.
+second_title: Aspose.Sildes pro .NET API referenci
+description: Neproměnný objekt, který představuje efekt Alpha Ceiling. Hodnoty neprůhlednosti Alpha větší než nula jsou změněny na 100. Jinými slovy, vše, co je částečně neprůhledné, se stane zcela neprůhledným.
 type: docs
-weight: 3050
+weight: 3070
 url: /cs/aspose.slides.effects/ialphaceilingeffectivedata/
 ---
 ## IAlphaCeilingEffectiveData rozhraní
 
-Neměnný objekt, který představuje efekt Alpha Ceiling. Hodnoty Alpha (průhlednost) větší než nula jsou změněny na 100 %. Jinými slovy, vše částečně neprůhledné se stane plně neprůhledným.
+Neproměnný objekt, který představuje efekt Alpha Ceiling. Hodnoty Alpha (neprůhlednost) větší než nula jsou změněny na 100%. Jinými slovy, vše, co je částečně neprůhledné, se stane zcela neprůhledným.
 
 ```csharp
 public interface IAlphaCeilingEffectiveData : IEffectEffectiveData
@@ -18,7 +18,7 @@ public interface IAlphaCeilingEffectiveData : IEffectEffectiveData
 
 | Název | Popis |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphaceilingeffectivedata/asieffecteffectivedata) { get; } | Umožňuje získat základní rozhraní IEffectEffectiveData. Pouze ke čtení [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphaceilingeffectivedata/asieffecteffectivedata) { get; } | Umožňuje získat základní rozhraní IEffectEffectiveData. Pouze pro čtení [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
 ### Viz také
 

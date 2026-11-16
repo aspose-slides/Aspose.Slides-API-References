@@ -3,7 +3,7 @@ title: ICommentAuthor
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Stelt een auteur van opmerkingen voor.
 type: docs
-weight: 5570
+weight: 5590
 url: /nl/aspose.slides/icommentauthor/
 ---
 ## ICommentAuthor interface
@@ -18,15 +18,15 @@ public interface ICommentAuthor
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Comments](../../aspose.slides/icommentauthor/comments) { get; } | Retourneert de verzameling opmerkingen die door deze auteur zijn gemaakt. Alleen-lezen [`ICommentCollection`](../icommentcollection). |
-| [Initials](../../aspose.slides/icommentauthor/initials) { get; set; } | Retourneert of stelt de initialen van de auteur in. Lezen/Schrijven String. |
-| [Name](../../aspose.slides/icommentauthor/name) { get; set; } | Retourneert of stelt de naam van de auteur in. Lezen/Schrijven String. |
+| [Comments](../../aspose.slides/icommentauthor/comments) { get; } | Geeft de collectie van opmerkingen die door deze auteur zijn gemaakt. Alleen-lezen [`ICommentCollection`](../icommentcollection). |
+| [Initials](../../aspose.slides/icommentauthor/initials) { get; set; } | Geeft de initialen van de auteur terug of stelt ze in. Lezen/Schrijven String. |
+| [Name](../../aspose.slides/icommentauthor/name) { get; set; } | Geeft de naam van de auteur terug of stelt deze in. Lezen/Schrijven String. |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Remove](../../aspose.slides/icommentauthor/remove)() | Verwijdert de auteur uit de bovenliggende verzameling. |
+| [Remove](../../aspose.slides/icommentauthor/remove)() | Verwijdert de auteur uit de bovenliggende collectie. |
 
 ### Zie ook
 

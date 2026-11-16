@@ -3,12 +3,12 @@ title: ISvgTSpan
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili opsi untuk bagian teks SVG tspan.
 type: docs
-weight: 4140
+weight: 4160
 url: /id/aspose.slides.export/isvgtspan/
 ---
 ## ISvgTSpan antarmuka
 
-Mewakili opsi untuk bagian teks SVG ("tspan").
+Represents options for SVG text portion ("tspan").
 
 ```csharp
 public interface ISvgTSpan
@@ -16,7 +16,7 @@ public interface ISvgTSpan
 
 ## Properti
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
 | [Id](../../aspose.slides.export/isvgtspan/id) { get; set; } | Mendapatkan atau mengatur id untuk elemen "tspan" |
 

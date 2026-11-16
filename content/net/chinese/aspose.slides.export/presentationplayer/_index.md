@@ -3,7 +3,7 @@ title: PresentationPlayer
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示与 Presentation../aspose.slides/presentation 关联的动画播放器。
 type: docs
-weight: 4390
+weight: 4410
 url: /zh/aspose.slides.export/presentationplayer/
 ---
 ## PresentationPlayer 类
@@ -30,7 +30,7 @@ public class PresentationPlayer : IDisposable
 
 | 名称 | 描述 |
 | --- | --- |
-| [Dispose](../../aspose.slides.export/presentationplayer/dispose)() | 释放 [`PresentationPlayer`](../presentationplayer) 实例。 |
+| [Dispose](../../aspose.slides.export/presentationplayer/dispose)() | 释放 [`PresentationPlayer`](../presentationplayer) 的实例。 |
 
 ## 其他成员
 
@@ -46,7 +46,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 {
     using (var animationsGenerator = new PresentationAnimationsGenerator(pres))
     {
-        // 使用 33 FPS 播放动画
+        // 以 33 FPS 播放动画
         using (var player = new PresentationPlayer(animationsGenerator, 33))
         {
             player.FrameTick += (sender, args) =>
@@ -57,7 +57,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
             animationsGenerator.Run(pres.Slides);
         }
         
-        // 使用 45 FPS 播放动画
+        // 以 45 FPS 播放动画
         using (var player = new PresentationPlayer(animationsGenerator, 45))
         {
             player.FrameTick += (sender, args) =>

@@ -3,7 +3,7 @@ title: IMasterTheme
 second_title: Aspose.Sildes для .NET API Reference
 description: Представляет мастер-тему.
 type: docs
-weight: 11310
+weight: 11330
 url: /ru/aspose.slides.theme/imastertheme/
 ---
 ## IMasterTheme интерфейс
@@ -16,11 +16,11 @@ public interface IMasterTheme : ITheme
 
 ## Свойства
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
 | [AsITheme](../../aspose.slides.theme/imastertheme/asitheme) { get; } | Позволяет получить базовый интерфейс ITheme. Только для чтения [`ITheme`](../itheme). |
 | [ExtraColorSchemes](../../aspose.slides.theme/imastertheme/extracolorschemes) { get; } | Возвращает коллекцию дополнительных цветовых схем. Эти схемы не влияют на внешний вид презентации, их можно выбрать в качестве основной цветовой схемы для слайда. Только для чтения [`IExtraColorSchemeCollection`](../iextracolorschemecollection). |
-| [Name](../../aspose.slides.theme/imastertheme/name) { get; set; } | Возвращает имя темы. Чтение/запись String. |
+| [Name](../../aspose.slides.theme/imastertheme/name) { get; set; } | Возвращает название темы. Чтение/запись String. |
 
 ### См. также
 

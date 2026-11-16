@@ -1,14 +1,14 @@
 ---
 title: IColorChange
-second_title: Aspose.Sildes .NET için API Referansı
-description: Bir Renk Değişim etkisini temsil eder. FromColor örnekleri ToColor örnekleriyle değiştirilir.
+second_title: Aspose.Sildes .NET API Referansı
+description: Renk Değişikliği etkisini temsil eder. FromColor örnekleri, ToColor örnekleriyle değiştirilir.
 type: docs
-weight: 3220
+weight: 3240
 url: /tr/aspose.slides.effects/icolorchange/
 ---
-## IColorChange arayüzü
+## IColorChange interface
 
-Bir Renk Değişim etkisini temsil eder. FromColor örnekleri ToColor örnekleriyle değiştirilir.
+Represents a Color Change effect. Instances of FromColor are replaced with instances of ToColor.
 
 ```csharp
 public interface IColorChange : IAccessiblePVIObject<IColorChangeEffectiveData>, 
@@ -19,12 +19,12 @@ public interface IColorChange : IAccessiblePVIObject<IColorChangeEffectiveData>,
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/icolorchange/asiaccessiblepviobject) { get; } | IAccessiblePVIObject temel arayüzünü almayı sağlar. Salt okunur [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/icolorchange/asiimagetransformoperation) { get; } | IImageTransformOperation temel arayüzünü almayı sağlar. Salt okunur [`IImageTransformOperation`](../iimagetransformoperation). |
-| [FromColor](../../aspose.slides.effects/icolorchange/fromcolor) { get; } | Değiştirilecek renk. Salt okunur [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [ToColor](../../aspose.slides.effects/icolorchange/tocolor) { get; } | Yerine geçecek renk. Salt okunur [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/icolorchange/asiaccessiblepviobject) { get; } | Allows to get base IAccessiblePVIObject interface. Salt okunur [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/icolorchange/asiimagetransformoperation) { get; } | Allows to get base IImageTransformOperation interface. Salt okunur [`IImageTransformOperation`](../iimagetransformoperation). |
+| [FromColor](../../aspose.slides.effects/icolorchange/fromcolor) { get; } | Color which will be replaced. Salt okunur [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [ToColor](../../aspose.slides.effects/icolorchange/tocolor) { get; } | Color which will replace. Salt okunur [`IColorFormat`](../../aspose.slides/icolorformat). |
 
-### Ayrıca Bakınız
+### İlgili
 
 * arayüz [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * arayüz [IColorChangeEffectiveData](../icolorchangeeffectivedata)

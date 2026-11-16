@@ -1,14 +1,14 @@
 ---
 title: EffectFormat
-second_title: Aspose.Sildes a .NET API hivatkozás
-description: A forma effektus tulajdonságait ábrázolja.
+second_title: Aspose.Sildes .NET API Referencia
+description: A forma hatás tulajdonságait képviseli.
 type: docs
-weight: 2830
+weight: 2850
 url: /hu/aspose.slides/effectformat/
 ---
 ## EffectFormat osztály
 
-A forma effektus tulajdonságait ábrázolja.
+A forma hatás tulajdonságait képviseli.
 
 ```csharp
 public sealed class EffectFormat : PVIObject, IEffectFormat
@@ -16,42 +16,42 @@ public sealed class EffectFormat : PVIObject, IEffectFormat
 
 ## Tulajdonságok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Lehetővé teszi a bázis IPresentationComponent interfész lekérését. Csak olvasható [`IPresentationComponent`](../ipresentationcomponent). |
-| [BlurEffect](../../aspose.slides/effectformat/blureffect) { get; set; } | Elmosódás effektus. Olvasás/írás [`IBlur`](../../aspose.slides.effects/iblur). |
-| [FillOverlayEffect](../../aspose.slides/effectformat/filloverlayeffect) { get; set; } | Kitöltés átfedés effektus. Olvasás/írás [`IFillOverlay`](../../aspose.slides.effects/ifilloverlay). |
-| [GlowEffect](../../aspose.slides/effectformat/gloweffect) { get; set; } | Ragyogás effektus. Olvasás/írás [`IGlow`](../../aspose.slides.effects/iglow). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Lehetővé teszi a base IPresentationComponent interfész lekérését. Csak olvasható [`IPresentationComponent`](../ipresentationcomponent). |
+| [BlurEffect](../../aspose.slides/effectformat/blureffect) { get; set; } | Blur hatás. Olvasás/írás [`IBlur`](../../aspose.slides.effects/iblur). |
+| [FillOverlayEffect](../../aspose.slides/effectformat/filloverlayeffect) { get; set; } | Kitöltés átfedés hatás. Olvasás/írás [`IFillOverlay`](../../aspose.slides.effects/ifilloverlay). |
+| [GlowEffect](../../aspose.slides/effectformat/gloweffect) { get; set; } | Fénylő hatás. Olvasás/írás [`IGlow`](../../aspose.slides.effects/iglow). |
 | [InnerShadowEffect](../../aspose.slides/effectformat/innershadoweffect) { get; set; } | Belső árnyék. Olvasás/írás [`IInnerShadow`](../../aspose.slides.effects/iinnershadow). |
-| [IsNoEffects](../../aspose.slides/effectformat/isnoeffects) { get; } | Igaz értéket ad vissza, ha az összes effektus le van tiltva (újonnan létrehozott, alapértelmezett EffectFormat objektum). Csak olvasható Boolean. |
+| [IsNoEffects](../../aspose.slides/effectformat/isnoeffects) { get; } | Igaz értéket ad vissza, ha minden hatás le van tiltva (újonnan létrehozott, alapértelmezett EffectFormat objektumként). Csak olvasható Boolean. |
 | [OuterShadowEffect](../../aspose.slides/effectformat/outershadoweffect) { get; set; } | Külső árnyék. Olvasás/írás [`IOuterShadow`](../../aspose.slides.effects/ioutershadow). |
 | [PresetShadowEffect](../../aspose.slides/effectformat/presetshadoweffect) { get; set; } | Előre beállított árnyék. Olvasás/írás [`IPresetShadow`](../../aspose.slides.effects/ipresetshadow). |
-| [ReflectionEffect](../../aspose.slides/effectformat/reflectioneffect) { get; set; } | Tükröződés. Olvasás/írás [`IReflection`](../../aspose.slides.effects/ireflection). |
-| [SoftEdgeEffect](../../aspose.slides/effectformat/softedgeeffect) { get; set; } | Puhulás. Olvasás/írás [`ISoftEdge`](../../aspose.slides.effects/isoftedge). |
+| [ReflectionEffect](../../aspose.slides/effectformat/reflectioneffect) { get; set; } | Reflexió. Olvasás/írás [`IReflection`](../../aspose.slides.effects/ireflection). |
+| [SoftEdgeEffect](../../aspose.slides/effectformat/softedgeeffect) { get; set; } | Puha él. Olvasás/írás [`ISoftEdge`](../../aspose.slides.effects/isoftedge). |
 
 ## Módszerek
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
-| [DisableBlurEffect](../../aspose.slides/effectformat/disableblureffect)() | Letiltja az elmosódás effektust. |
-| [DisableFillOverlayEffect](../../aspose.slides/effectformat/disablefilloverlayeffect)() | Letiltja a kitöltés átfedés effektust. |
-| [DisableGlowEffect](../../aspose.slides/effectformat/disablegloweffect)() | Letiltja a ragyogás effektust. |
-| [DisableInnerShadowEffect](../../aspose.slides/effectformat/disableinnershadoweffect)() | Letiltja a belső árnyék effektust. |
-| [DisableOuterShadowEffect](../../aspose.slides/effectformat/disableoutershadoweffect)() | Letiltja a külső árnyék effektust. |
-| [DisablePresetShadowEffect](../../aspose.slides/effectformat/disablepresetshadoweffect)() | Letiltja az előre beállított árnyék effektust. |
-| [DisableReflectionEffect](../../aspose.slides/effectformat/disablereflectioneffect)() | Letiltja a tükröződés effektust. |
-| [DisableSoftEdgeEffect](../../aspose.slides/effectformat/disablesoftedgeeffect)() | Letiltja a puhulás effektust. |
-| [EnableFillOverlayEffect](../../aspose.slides/effectformat/enablefilloverlayeffect)() | Engedélyezi a kitöltés átfedés effektust. |
-| [EnableGlowEffect](../../aspose.slides/effectformat/enablegloweffect)() | Engedélyezi a ragyogás effektust. |
-| [EnableInnerShadowEffect](../../aspose.slides/effectformat/enableinnershadoweffect)() | Engedélyezi a belső árnyék effektust. |
-| [EnableOuterShadowEffect](../../aspose.slides/effectformat/enableoutershadoweffect)() | Engedélyezi a külső árnyék effektust. |
-| [EnablePresetShadowEffect](../../aspose.slides/effectformat/enablepresetshadoweffect)() | Engedélyezi az előre beállított árnyékok effektusát. |
-| [EnableReflectionEffect](../../aspose.slides/effectformat/enablereflectioneffect)() | Engedélyezi a tükröződés effektust. |
-| [EnableSoftEdgeEffect](../../aspose.slides/effectformat/enablesoftedgeeffect)() | Engedélyezi a puhulás effektust. |
+| [DisableBlurEffect](../../aspose.slides/effectformat/disableblureffect)() | Letiltja a blur hatást. |
+| [DisableFillOverlayEffect](../../aspose.slides/effectformat/disablefilloverlayeffect)() | Letiltja a kitöltés átfedés hatást. |
+| [DisableGlowEffect](../../aspose.slides/effectformat/disablegloweffect)() | Letiltja a fénylő hatást. |
+| [DisableInnerShadowEffect](../../aspose.slides/effectformat/disableinnershadoweffect)() | Letiltja a belső árnyék hatást. |
+| [DisableOuterShadowEffect](../../aspose.slides/effectformat/disableoutershadoweffect)() | Letiltja a külső árnyék hatást. |
+| [DisablePresetShadowEffect](../../aspose.slides/effectformat/disablepresetshadoweffect)() | Letiltja az előre beállított árnyék hatást. |
+| [DisableReflectionEffect](../../aspose.slides/effectformat/disablereflectioneffect)() | Letiltja a reflexió hatást. |
+| [DisableSoftEdgeEffect](../../aspose.slides/effectformat/disablesoftedgeeffect)() | Letiltja a puha él hatást. |
+| [EnableFillOverlayEffect](../../aspose.slides/effectformat/enablefilloverlayeffect)() | Engedélyezi a kitöltés átfedés hatást. |
+| [EnableGlowEffect](../../aspose.slides/effectformat/enablegloweffect)() | Engedélyezi a fénylő hatást. |
+| [EnableInnerShadowEffect](../../aspose.slides/effectformat/enableinnershadoweffect)() | Engedélyezi a belső árnyék hatást. |
+| [EnableOuterShadowEffect](../../aspose.slides/effectformat/enableoutershadoweffect)() | Engedélyezi a külső árnyék hatást. |
+| [EnablePresetShadowEffect](../../aspose.slides/effectformat/enablepresetshadoweffect)() | Engedélyezi az előre beállított árnyékok hatását. |
+| [EnableReflectionEffect](../../aspose.slides/effectformat/enablereflectioneffect)() | Engedélyezi a reflexió hatást. |
+| [EnableSoftEdgeEffect](../../aspose.slides/effectformat/enablesoftedgeeffect)() | Engedélyezi a puha él hatást. |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Összehasonlítja a megadott objektummal. |
-| [GetEffective](../../aspose.slides/effectformat/geteffective)() | Lekéri a hatékony effektus formázási adatokat, a öröklődés alkalmazásával. |
+| [GetEffective](../../aspose.slides/effectformat/geteffective)() | Lekéri a hatásformázási adatokat az öröklődés alkalmazásával. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Visszaadja a hash kódot. |
-| [SetBlurEffect](../../aspose.slides/effectformat/setblureffect)(double, bool) | Beállítja az elmosódás effektust. |
+| [SetBlurEffect](../../aspose.slides/effectformat/setblureffect)(double, bool) | Beállítja a blur hatást. |
 
 ### Lásd még
 

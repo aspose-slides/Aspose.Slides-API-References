@@ -1,14 +1,13 @@
 ---
 title: SplitterBarStateType
 second_title: Aspose.Sildes için .NET API Referansı
-description: Ayracı çubuğunun gösterilmesi gereken durumu belirtir. Ayracı çubuğu, bir görüntüleme alanı içinde bir birincil ve ikincil bölgeyi ayırır.
+description: Bölücü çubuğunun gösterilmesi gereken durumu belirtir. Bölücü çubuğu, bir görüntüleme alanı içinde birincil ve ikincil bölgeyi ayırır.
 type: docs
-weight: 10690
+weight: 10710
 url: /tr/aspose.slides/splitterbarstatetype/
 ---
 ## SplitterBarStateType enum
-
-Ayracı çubuğunun gösterilmesi gereken durumu belirtir. Ayracı çubuğu, bir görüntüleme alanı içinde bir birincil ve ikincil bölgeyi ayırır.
+Bölücü çubuğunun gösterilmesi gereken durumu belirtir. Bölücü çubuğu, bir görüntüleme alanı içinde birincil ve ikincil bölgeyi ayırır.
 
 ```csharp
 public enum SplitterBarStateType
@@ -16,11 +15,11 @@ public enum SplitterBarStateType
 
 ### Değerler
 
-| İsim | Değer | Açıklama |
+| Ad | Değer | Açıklama |
 | --- | --- | --- |
-| Minimized | `0` | Birincil bölge, uygulama tarafından izin verilen görüntüleme alanının en az miktarını kaplar. |
-| Restored | `1` | Birincil bölge, belirli bir ara boyuta sahiptir. |
-| Maximized | `2` | Birincil bölge, uygulama tarafından izin verilen görüntüleme alanının en büyük miktarını kaplar. |
+| Minimized | `0` | Birincil bölge, uygulamanın izin verdiği görüntüleme alanının en az miktarını kaplar. |
+| Restored | `1` | Birincil bölgenin belirli bir ara boyutu vardır. |
+| Maximized | `2` | Birincil bölge, uygulamanın izin verdiği görüntüleme alanının en büyük miktarını kaplar. |
 
 ### Ayrıca Bakınız
 

@@ -1,26 +1,26 @@
 ---
 title: OdpException
-second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Đại diện cho một loại ngoại lệ nội bộ tiêu chuẩn.
+second_title: Aspose.Sildes cho .NET Tham chiếu API
+description: Đại diện cho một kiểu ngoại lệ nội bộ tiêu chuẩn.
 type: docs
-weight: 9210
+weight: 9230
 url: /vi/aspose.slides/odpexception/
 ---
 ## OdpException lớp
 
-Đại diện cho một loại ngoại lệ nội bộ tiêu chuẩn.
+Đại diện cho một kiểu ngoại lệ nội bộ tiêu chuẩn.
 
 ```csharp
 public class OdpException : Exception
 ```
 
-## Hàm khởi tạo
+## Các hàm tạo
 
-| Name | Description |
+| Tên | Mô tả |
 | --- | --- |
-| [OdpException](odpexception#constructor)() | Hàm khởi tạo mặc định |
-| [OdpException](odpexception#constructor_1)(string) | Hàm khởi tạo cho phép thêm thông điệp vào ngoại lệ này. |
-| [OdpException](odpexception#constructor_2)(string, Exception) | Hàm khởi tạo cho một ngoại lệ chứa thông điệp và một ngoại lệ được nhúng. |
+| [OdpException](odpexception#constructor)() | Hàm tạo mặc định |
+| [OdpException](odpexception#constructor_1)(string) | Hàm tạo cho phép thêm thông báo vào ngoại lệ này. |
+| [OdpException](odpexception#constructor_2)(string, Exception) | Hàm tạo cho một ngoại lệ chứa thông báo và một ngoại lệ được nhúng. |
 
 ### Xem thêm
 

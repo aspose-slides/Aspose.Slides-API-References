@@ -1,28 +1,28 @@
 ---
 title: SlideSizeScaleType
 second_title: Aspose.Sildes için .NET API Referansı
-description: Slayt içeriğinin ölçek türünü temsil eder.
+description: Slayt içeriğinin ölçek tipini temsil eder.
 type: docs
-weight: 10510
+weight: 10530
 url: /tr/aspose.slides/slidesizescaletype/
 ---
-## SlideSizeScaleType enum
+## SlideSizeScaleType enumı
 
-Slayt içeriğinin ölçek türünü temsil eder.
+Slayt içeriğinin ölçek tipini temsil eder.
 
 ```csharp
 public enum SlideSizeScaleType
 ```
 
-### Değerler
+### Values
 
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
 | DoNotScale | `0` | Ölçeklendirme yapma. |
-| EnsureFit | `1` | Uygunluğu sağlamak için ölçeklendirme yap. |
-| Maximize | `2` | İçeriğin boyutunu maksimize et. |
+| EnsureFit | `1` | Uygunluğu sağlamak için ölçeklendir. |
+| Maximize | `2` | İçeriğin boyutunu en üst düzeye çıkar. |
 
-### Ayrıca Bakınız
+### See Also
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

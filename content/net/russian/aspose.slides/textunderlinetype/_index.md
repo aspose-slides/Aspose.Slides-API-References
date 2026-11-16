@@ -1,12 +1,12 @@
 ---
 title: TextUnderlineType
-second_title: Aspose.Sildes для .NET справочник API
+second_title: Aspose.Sildes для .NET справочника API
 description: Представляет тип подчеркивания текста.
 type: docs
-weight: 11010
+weight: 11030
 url: /ru/aspose.slides/textunderlinetype/
 ---
-## TextUnderlineType перечисление
+## Перечисление TextUnderlineType
 
 Представляет тип подчеркивания текста.
 

@@ -1,9 +1,9 @@
 ---
 title: IWarningInfo
-second_title: Aspose.Sildes pro .NET – referenční příručka API
+second_title: Aspose.Sildes pro .NET – API Reference
 description: Představuje základní rozhraní pro všechna varování.
 type: docs
-weight: 11810
+weight: 11830
 url: /cs/aspose.slides.warnings/iwarninginfo/
 ---
 ## IWarningInfo rozhraní
@@ -18,14 +18,14 @@ public interface IWarningInfo
 
 | Název | Popis |
 | --- | --- |
-| [Description](../../aspose.slides.warnings/iwarninginfo/description) { get; } | Vrací lidsky čitelný popis tohoto varování. Pouze pro čtení String. |
+| [Description](../../aspose.slides.warnings/iwarninginfo/description) { get; } | Vrací čitelný popis tohoto varování. Pouze pro čtení String. |
 | [WarningType](../../aspose.slides.warnings/iwarninginfo/warningtype) { get; } | Vrací typ varování. Pouze pro čtení [`WarningType`](./warningtype). |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| [SendWarning](../../aspose.slides.warnings/iwarninginfo/sendwarning)(IWarningCallback) | Pokud není příjemce null, ukončí varování směrem k určenému příjemci a vyvolá výjimku AbortRequestedException, pokud se příjemce rozhodl operaci přerušit. |
+| [SendWarning](../../aspose.slides.warnings/iwarninginfo/sendwarning)(IWarningCallback) | Pokud není přijímač null, ukončí varování určenému přijímači a vyhodí výjimku AbortRequestedException, pokud se přijímač rozhodne operaci přerušit. |
 
 ### Viz také
 

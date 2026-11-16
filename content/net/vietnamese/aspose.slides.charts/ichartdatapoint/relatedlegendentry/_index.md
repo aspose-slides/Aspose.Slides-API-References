@@ -1,14 +1,14 @@
 ---
 title: RelatedLegendEntry
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Các thuộc tính của mục chú giải tương ứng trong trường hợp loại biểu đồ thuộc danh sách ChartType.BarOfPie ChartType.ExplodedPie ChartType.ExplodedPie3D ChartType.Pie ChartType.Pie3D ChartType.PieOfPie. Chỉ đọc ILegendEntryPropertiesaspose.slides.charts/ilegendentryproperties.
+description: Các thuộc tính của mục chú giải tương ứng trong trường hợp loại biểu đồ từ danh sách này ChartType.BarOfPie ChartType.ExplodedPie ChartType.ExplodedPie3D ChartType.Pie ChartType.Pie3D ChartType.PieOfPie. Chỉ đọc ILegendEntryPropertiesaspose.slides.charts/ilegendentryproperties.
 type: docs
-weight: 130
+weight: 170
 url: /vi/aspose.slides.charts/ichartdatapoint/relatedlegendentry/
 ---
 ## IChartDataPoint.RelatedLegendEntry thuộc tính
 
-Các thuộc tính của mục chú giải tương ứng trong trường hợp loại biểu đồ thuộc danh sách sau: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. Chỉ đọc [`ILegendEntryProperties`](../../ilegendentryproperties).
+Các thuộc tính của mục chú giải tương ứng trong trường hợp loại biểu đồ trong danh sách này: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. Chỉ đọc [`ILegendEntryProperties`](../../ilegendentryproperties).
 
 ```csharp
 public ILegendEntryProperties RelatedLegendEntry { get; }

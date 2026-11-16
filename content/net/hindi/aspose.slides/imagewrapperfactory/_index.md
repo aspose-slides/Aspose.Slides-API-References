@@ -1,9 +1,9 @@
 ---
 title: ImageWrapperFactory
-second_title: Aspose.Sildes for .NET API संदर्भ
+second_title: Aspose.Sildes .NET API रेफ़रेंस के लिए
 description: यह क्लास IBitmapWrapper को प्रारंभ करने की अनुमति देती है।
 type: docs
-weight: 7450
+weight: 7470
 url: /hi/aspose.slides/imagewrapperfactory/
 ---
 ## ImageWrapperFactory क्लास
@@ -14,7 +14,7 @@ url: /hi/aspose.slides/imagewrapperfactory/
 public class ImageWrapperFactory : IImageWrapperFactory
 ```
 
-## कंस्ट्रक्टर्स
+## कंस्ट्रक्टर
 
 | नाम | विवरण |
 | --- | --- |
@@ -24,11 +24,11 @@ public class ImageWrapperFactory : IImageWrapperFactory
 
 | नाम | विवरण |
 | --- | --- |
-| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper)(IImage) | निर्दिष्ट मौजूदा छवि से ImageWrapper क्लास का नया इंस्टेंस प्रारंभ करता है। |
-| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper_1)(Stream) | निर्दिष्ट डेटा स्ट्रीम से BitmapWrapper क्लास का नया इंस्टेंस प्रारंभ करता है। |
-| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper_2)(string) | निर्दिष्ट फ़ाइल से BitmapWrapper क्लास का नया इंस्टेंस प्रारंभ करता है। |
+| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper)(IImage) | निर्दिष्ट मौजूदा छवि से ImageWrapper क्लास की एक नई इंस्टेंस को आरंभ करता है। |
+| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper_1)(Stream) | निर्दिष्ट डेटा स्ट्रीम से BitmapWrapper क्लास की एक नई इंस्टेंस को आरंभ करता है। |
+| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper_2)(string) | निर्दिष्ट फ़ाइल से BitmapWrapper क्लास की एक नई इंस्टेंस को आरंभ करता है। |
 
-### और देखें
+### देखें
 
 * इंटरफ़ेस [IImageWrapperFactory](../iimagewrapperfactory)
 * नेमस्पेस [Aspose.Slides](../../aspose.slides)

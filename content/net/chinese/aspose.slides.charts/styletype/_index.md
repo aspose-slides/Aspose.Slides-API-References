@@ -1,9 +1,9 @@
 ---
 title: StyleType
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 表示图表样式。
 type: docs
-weight: 2430
+weight: 2450
 url: /zh/aspose.slides.charts/styletype/
 ---
 ## StyleType 枚举
@@ -14,7 +14,7 @@ url: /zh/aspose.slides.charts/styletype/
 public enum StyleType
 ```
 
-### 值
+### 取值
 
 | 名称 | 值 | 描述 |
 | --- | --- | --- |

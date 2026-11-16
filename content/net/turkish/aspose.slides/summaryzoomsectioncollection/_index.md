@@ -1,9 +1,9 @@
 ---
 title: SummaryZoomSectionCollection
-second_title: Aspose.Slides için .NET API Referansı
+second_title: Aspose.Sildes for .NET API Referansı
 description: Summary Zoom Section nesnelerinin bir koleksiyonunu temsil eder.
 type: docs
-weight: 10790
+weight: 10810
 url: /tr/aspose.slides/summaryzoomsectioncollection/
 ---
 ## SummaryZoomSectionCollection sınıfı
@@ -17,26 +17,26 @@ public sealed class SummaryZoomSectionCollection : DomObject<SummaryZoomFrame>,
 
 ## Özellikler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides/summaryzoomsectioncollection/count) { get; } | Koleksiyonda gerçekten bulunan öğelerin sayısını alır. Salt-okunur Int32. |
-| [IsSynchronized](../../aspose.slides/summaryzoomsectioncollection/issynchronized) { get; } | Erişimin koleksiyona senkronize olup olmadığını (iş parçacığı güvenli) gösteren bir değer döndürür. Salt-okunur Boolean. |
-| [Item](../../aspose.slides/summaryzoomsectioncollection/item) { get; } | Belirtilen indeksteki öğeyi alır. Salt-okunur [`ISummaryZoomSection`](../isummaryzoomsection). |
-| [SyncRoot](../../aspose.slides/summaryzoomsectioncollection/syncroot) { get; } | Bir senkronizasyon kökü döndürür. Salt-okunur Object. |
+| [Count](../../aspose.slides/summaryzoomsectioncollection/count) { get; } | Koleksiyonda gerçekte bulunan öğelerin sayısını alır. Yalnızca okunabilir Int32. |
+| [IsSynchronized](../../aspose.slides/summaryzoomsectioncollection/issynchronized) { get; } | Koleksiyona erişimin senkronize (iş parçacığı güvenli) olup olmadığını gösteren bir değer döndürür. Yalnızca okunabilir Boolean. |
+| [Item](../../aspose.slides/summaryzoomsectioncollection/item) { get; } | Belirtilen indeksteki öğeyi alır. Yalnızca okunabilir [`ISummaryZoomSection`](../isummaryzoomsection). |
+| [SyncRoot](../../aspose.slides/summaryzoomsectioncollection/syncroot) { get; } | Bir senkronizasyon kökü döndürür. Yalnızca okunabilir Object. |
 
 ## Yöntemler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
 | [AddSummaryZoomSection](../../aspose.slides/summaryzoomsectioncollection/addsummaryzoomsection)(ISection) | Yeni bir Summary Zoom Section nesnesi oluşturur ve koleksiyona ekler |
 | [Clear](../../aspose.slides/summaryzoomsectioncollection/clear)() | Koleksiyondaki tüm SummaryZoomSection nesnelerini kaldırır. |
 | [CopyTo](../../aspose.slides/summaryzoomsectioncollection/copyto)(Array, int) | Tüm koleksiyonu belirtilen diziye kopyalar. |
-| [GetEnumerator](../../aspose.slides/summaryzoomsectioncollection/getenumerator)() | Koleksiyon içinde yineleme yapan bir numaralandırıcı döndürür. |
+| [GetEnumerator](../../aspose.slides/summaryzoomsectioncollection/getenumerator)() | Koleksiyon içinde yineleme yapan bir enumerator döndürür. |
 | [GetSummarySection](../../aspose.slides/summaryzoomsectioncollection/getsummarysection)(ISection) | Verilen bölüm için Summary Zoom Section öğesini döndürür. |
-| [IndexOf](../../aspose.slides/summaryzoomsectioncollection/indexof)(ISummaryZoomSection) | Belirtilen SummaryZoomSection nesnesinin indeksini döndürür. |
-| [RemoveSummaryZoomSection](../../aspose.slides/summaryzoomsectioncollection/removesummaryzoomsection)(ISection) | Koleksiyondan Summary Zoom Section nesnesini kaldırır. |
+| [IndexOf](../../aspose.slides/summaryzoomsectioncollection/indexof)(ISummaryZoomSection) | Belirtilen SummaryZoomSection nesnesinin dizinini döndürür. |
+| [RemoveSummaryZoomSection](../../aspose.slides/summaryzoomsectioncollection/removesummaryzoomsection)(ISection) | Summary Zoom Section nesnesini koleksiyondan kaldırır. |
 
-### Diğer
+### Ayrıca Bakınız
 
 * sınıf [DomObject&lt;TParent&gt;](../domobject-1)
 * sınıf [SummaryZoomFrame](../summaryzoomframe)

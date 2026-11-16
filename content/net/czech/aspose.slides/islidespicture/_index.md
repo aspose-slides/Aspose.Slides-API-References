@@ -1,9 +1,9 @@
 ---
 title: ISlidesPicture
-second_title: Aspose.Sildes pro .NET – referenční příručka API
+second_title: Aspose.Sildes pro .NET API Reference
 description: Představuje obrázek v prezentaci.
 type: docs
-weight: 7110
+weight: 7130
 url: /cs/aspose.slides/islidespicture/
 ---
 ## ISlidesPicture rozhraní
@@ -18,7 +18,7 @@ public interface ISlidesPicture : ISlideComponent
 
 | Název | Popis |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides/islidespicture/asislidecomponent) { get; } | Umožňuje získat základní ISlideComponent rozhraní. Pouze pro čtení [`ISlideComponent`](../islidecomponent). |
+| [AsISlideComponent](../../aspose.slides/islidespicture/asislidecomponent) { get; } | Umožňuje získat základní rozhraní ISlideComponent. Pouze pro čtení [`ISlideComponent`](../islidecomponent). |
 | [Image](../../aspose.slides/islidespicture/image) { get; set; } | Vrací nebo nastavuje vložený obrázek. Čtení/zápis [`IPPImage`](../ippimage). |
 | [ImageTransform](../../aspose.slides/islidespicture/imagetransform) { get; } | Vrací kolekci transformací obrázku. Pouze pro čtení [`IImageTransformOperationCollection`](../../aspose.slides.effects/iimagetransformoperationcollection). |
 | [LinkPathLong](../../aspose.slides/islidespicture/linkpathlong) { get; set; } | Vrací nebo nastavuje URL propojeného obrázku. Čtení/zápis String. |

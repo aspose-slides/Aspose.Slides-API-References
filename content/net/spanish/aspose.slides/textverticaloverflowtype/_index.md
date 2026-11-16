@@ -3,7 +3,7 @@ title: TextVerticalOverflowType
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa el tipo de desbordamiento vertical del texto.
 type: docs
-weight: 11020
+weight: 11040
 url: /es/aspose.slides/textverticaloverflowtype/
 ---
 ## TextVerticalOverflowType enumeración
@@ -23,7 +23,7 @@ public enum TextVerticalOverflowType : sbyte
 | Ellipsis | `1` |  |
 | Clip | `2` |  |
 
-### Véase también
+### Ver también
 
 * espacio de nombres [Aspose.Slides](../../aspose.slides)
 * ensamblado [Aspose.Slides](../../)

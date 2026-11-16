@@ -1,20 +1,20 @@
 ---
 title: InvertIfNegative
-second_title: Aspose.Sildes .NET için API Referansı
-description: Değer negatif olduğunda veri noktasının renklerini tersine çevireceğini belirtir. Okunabilir/Yazılabilir Boolean.
+second_title: Aspose.Sildes .NET API Referansı
+description: Veri noktasının değeri negatif olduğunda renklerini tersine çevireceğini belirtir. Okunur/Yazılabilir Boolean.
 type: docs
-weight: 90
+weight: 130
 url: /tr/aspose.slides.charts/ichartdatapoint/invertifnegative/
 ---
 ## IChartDataPoint.InvertIfNegative özelliği
 
-Değer negatifse veri noktasının renklerini tersine çevireceğini belirtir. Okunabilir/Yazılabilir Boolean.
+Veri noktasının değeri negatif olduğunda renklerini tersine çevireceğini belirtir. Okunur/Yazılabilir Boolean.
 
 ```csharp
 public bool InvertIfNegative { get; set; }
 ```
 
-### Diğer Bilgiler
+### Bakınız
 
 * arayüz [IChartDataPoint](../../ichartdatapoint)
 * ad alanı [Aspose.Slides.Charts](../../ichartdatapoint)

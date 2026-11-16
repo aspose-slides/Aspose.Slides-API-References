@@ -1,14 +1,14 @@
 ---
 title: FillOverlay
-second_title: Aspose.Slides pro .NET – referenční příručka API
-description: Představuje efekt Fill Overlay. Fill overlay může být použit k určení další výplně pro objekt a ke sloučení obou výplní dohromady.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Reprezentuje efekt Fill Overlay. Fill overlay může být použit k určení další výplně pro objekt a k jejich smíchání.
 type: docs
-weight: 2980
+weight: 3000
 url: /cs/aspose.slides.effects/filloverlay/
 ---
 ## FillOverlay třída
 
-Představuje efekt Fill Overlay. Fill overlay může být použit k určení další výplně pro objekt a ke sloučení obou výplní dohromady.
+Reprezentuje efekt Fill Overlay. Fill overlay může být použit k určení další výplně pro objekt a k jejich smíchání.
 
 ```csharp
 public sealed class FillOverlay : ImageTransformOperation, IFillOverlay
@@ -16,18 +16,18 @@ public sealed class FillOverlay : ImageTransformOperation, IFillOverlay
 
 ## Vlastnosti
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Allows to get base IPresentationComponent interface. Pouze pro čtení [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
-| [Blend](../../aspose.slides.effects/filloverlay/blend) { get; set; } | FillBlendMode. Čtení/Zápis [`FillBlendMode`](../../aspose.slides/fillblendmode). |
-| [FillFormat](../../aspose.slides.effects/filloverlay/fillformat) { get; } | Formát výplně. Pouze pro čtení [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Umožňuje získat základní rozhraní IPresentationComponent. Pouze ke čtení [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [Blend](../../aspose.slides.effects/filloverlay/blend) { get; set; } | FillBlendMode. Čtení/zápis [`FillBlendMode`](../../aspose.slides/fillblendmode). |
+| [FillFormat](../../aspose.slides.effects/filloverlay/fillformat) { get; } | Formát výplně. Pouze ke čtení [`IFillFormat`](../../aspose.slides/ifillformat). |
 
 ## Metody
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/filloverlay/equals)(object) | Určuje, zda je zadaný [`FillOverlay`](../filloverlay) roven aktuálnímu [`FillOverlay`](../filloverlay). |
-| [GetEffective](../../aspose.slides.effects/filloverlay/geteffective)() | Získá efektivní data efektu Fill Overlay po aplikaci dědičnosti. |
+| [GetEffective](../../aspose.slides.effects/filloverlay/geteffective)() | Získá efektivní data efektu Fill Overlay s aplikovaným děděním. |
 | override [GetHashCode](../../aspose.slides.effects/filloverlay/gethashcode)() | Slouží jako hashovací funkce pro konkrétní typ. |
 
 ### Viz také

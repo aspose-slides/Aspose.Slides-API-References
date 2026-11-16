@@ -1,14 +1,14 @@
 ---
 title: ICommentCollection
-second_title: Aspose.Sildes .NET API Referenciája
-description: Egy szerző megjegyzéseinek gyűjteményét képviseli.
+second_title: Aspose.Sildes .NET API referencia
+description: Egy szerző megjegyzéseinek gyűjteményét reprezentálja.
 type: docs
-weight: 5590
+weight: 5610
 url: /hu/aspose.slides/icommentcollection/
 ---
 ## ICommentCollection interfész
 
-Egy szerző megjegyzéseinek gyűjteményét képviseli.
+Egy szerző megjegyzéseinek gyűjteményét reprezentálja.
 
 ```csharp
 public interface ICommentCollection : IGenericCollection<IComment>
@@ -18,21 +18,21 @@ public interface ICommentCollection : IGenericCollection<IComment>
 
 | Név | Leírás |
 | --- | --- |
-| [Item](../../aspose.slides/icommentcollection/item) { get; } | A megadott indexű elemet adja vissza. Csak olvasható [`IComment`](../icomment). |
+| [Item](../../aspose.slides/icommentcollection/item) { get; } | Visszaadja az elemet a megadott indexen. Csak olvasható [`IComment`](../icomment). |
 
 ## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [AddComment](../../aspose.slides/icommentcollection/addcomment)(string, ISlide, PointF, DateTime) | Új megjegyzést ad hozzá a gyűjtemény végéhez. |
-| [AddModernComment](../../aspose.slides/icommentcollection/addmoderncomment)(string, ISlide, IShape, PointF, DateTime) | Új modern megjegyzést ad hozzá a gyűjtemény végéhez. |
-| [Clear](../../aspose.slides/icommentcollection/clear)() | Eltávolítja az összes megjegyzést a gyűjteményből. |
-| [InsertComment](../../aspose.slides/icommentcollection/insertcomment)(int, string, ISlide, PointF, DateTime) | Új megjegyzést szúr be a gyűjteménybe a megadott indexnél. |
-| [InsertModernComment](../../aspose.slides/icommentcollection/insertmoderncomment)(int, string, ISlide, IShape, PointF, DateTime) | Új modern megjegyzést szúr be a gyűjteménybe a megadott indexnél. |
+| [AddComment](../../aspose.slides/icommentcollection/addcomment)(string, ISlide, PointF, DateTime) | Új megjegyzést ad a gyűjtemény végéhez. |
+| [AddModernComment](../../aspose.slides/icommentcollection/addmoderncomment)(string, ISlide, IShape, PointF, DateTime) | Új modern megjegyzést ad a gyűjtemény végéhez. |
+| [Clear](../../aspose.slides/icommentcollection/clear)() | Eltávolít minden megjegyzést a gyűjteményből. |
+| [InsertComment](../../aspose.slides/icommentcollection/insertcomment)(int, string, ISlide, PointF, DateTime) | Új megjegyzést szúr be a gyűjteménybe a megadott indexen. |
+| [InsertModernComment](../../aspose.slides/icommentcollection/insertmoderncomment)(int, string, ISlide, IShape, PointF, DateTime) | Új modern megjegyzést szúr be a gyűjteménybe a megadott indexen. |
 | [Remove](../../aspose.slides/icommentcollection/remove)(IComment) | Eltávolítja a megadott megjegyzés első előfordulását a gyűjteményben. |
-| [RemoveAt](../../aspose.slides/icommentcollection/removeat)(int) | Eltávolítja a megadott indexű elemet a gyűjteményben. |
-| [ToArray](../../aspose.slides/icommentcollection/toarray#toarray)() | Létrehozza és visszaadja az összes megjegyzést tartalmazó tömböt. |
-| [ToArray](../../aspose.slides/icommentcollection/toarray#toarray_1)(int, int) | Létrehozza és visszaadja az összes megjegyzést tartalmazó tömböt a megadott tartományból. |
+| [RemoveAt](../../aspose.slides/icommentcollection/removeat)(int) | Eltávolítja az elemet a megadott indexen a gyűjteményből. |
+| [ToArray](../../aspose.slides/icommentcollection/toarray#toarray)() | Létrehozza és visszaadja a tömböt az összes megjegyzéssel. |
+| [ToArray](../../aspose.slides/icommentcollection/toarray#toarray_1)(int, int) | Létrehozza és visszaadja a tömböt a megadott tartomány összes megjegyzésével. |
 
 ### Lásd még
 

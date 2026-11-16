@@ -1,9 +1,9 @@
 ---
 title: IChartCategory
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 차트 카테고리를 나타냅니다.
 type: docs
-weight: 1750
+weight: 1770
 url: /ko/aspose.slides.charts/ichartcategory/
 ---
 ## IChartCategory 인터페이스
@@ -16,17 +16,18 @@ public interface IChartCategory
 
 ## 속성
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
-| [AsCell](../../aspose.slides.charts/ichartcategory/ascell) { get; set; } | IChartDataCell 객체를 반환하거나 설정합니다. 카테고리가 다중 레벨인 경우 레벨 "0"에 대한 IChartDataCell 객체가 사용됩니다. 읽기/쓰기 [`IChartDataCell`](../ichartdatacell). |
+| [AsCell](../../aspose.slides.charts/ichartcategory/ascell) { get; set; } | IChartDataCell 객체를 반환하거나 설정합니다. 카테고리가 다중 레벨인 경우 레벨 "0"에 대해 IChartDataCell 객체를 사용합니다. 읽기/쓰기 [`IChartDataCell`](../ichartdatacell). |
 | [AsLiteral](../../aspose.slides.charts/ichartcategory/asliteral) { get; set; } | UseCell이 false인 경우 AsLiteral을 반환하거나 설정합니다. 읽기/쓰기 Object. |
+| [CachedValue](../../aspose.slides.charts/ichartcategory/cachedvalue) { get; } | 차트 카테고리의 캐시된 값을 가져옵니다. 읽기 전용 [`ICachedChartValue`](../icachedchartvalue). |
 | [GroupingLevels](../../aspose.slides.charts/ichartcategory/groupinglevels) { get; } | 차트 카테고리 그룹화 레벨 값들의 관리 컨테이너입니다. 다중 레벨 카테고리는 하나 이상의 그룹화 레벨을 포함합니다. 그룹화 레벨 인덱스는 0부터 시작합니다. 읽기 전용 [`IChartCategoryLevelsManager`](../ichartcategorylevelsmanager). |
-| [UseCell](../../aspose.slides.charts/ichartcategory/usecell) { get; } | true인 경우 AsCell 속성이 실제입니다. 즉, 워크시트가 카테고리를 저장하는 데 사용됩니다(이 경우 다중 레벨 카테고리를 지원합니다). false인 경우 AsLiteral 속성이 실제입니다. 즉, 워크시트가 카테고리를 저장하는 데 사용되지 않으며(이 경우 다중 레벨 카테고리를 지원하지 않습니다). 읽기 전용 Boolean. |
-| [Value](../../aspose.slides.charts/ichartcategory/value) { get; set; } | UseCell이 true인 경우 이 속성은 AsCell.Value 속성을 나타냅니다. UseCell이 false인 경우 이 속성은 AsLiteral 속성을 나타냅니다. 읽기/쓰기 Object. |
+| [UseCell](../../aspose.slides.charts/ichartcategory/usecell) { get; } | true이면 AsCell 속성이 실제입니다. 즉, 워크시트를 카테고리 저장에 사용합니다(이 경우 다중 레벨 카테고리를 지원합니다). false이면 AsLiteral 속성이 실제입니다. 즉, 워크시트를 카테고리 저장에 사용하지 않습니다(이 경우 다중 레벨 카테고리를 지원하지 않습니다). 읽기 전용 Boolean. |
+| [Value](../../aspose.slides.charts/ichartcategory/value) { get; set; } | UseCell이 true이면 이 속성은 AsCell.Value 속성을 나타냅니다. UseCell이 false이면 이 속성은 AsLiteral 속성을 나타냅니다. 읽기/쓰기 Object. |
 
 ## 메서드
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
 | [Remove](../../aspose.slides.charts/ichartcategory/remove)() | 차트에서 카테고리를 제거합니다. |
 

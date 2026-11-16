@@ -3,7 +3,7 @@ title: FontDataFactory
 second_title: Aspose.Sildes for .NET API 참조
 description: FontData 팩터리
 type: docs
-weight: 4830
+weight: 4850
 url: /ko/aspose.slides/fontdatafactory/
 ---
 ## FontDataFactory 클래스
@@ -26,7 +26,7 @@ public class FontDataFactory : IFontDataFactory
 | --- | --- |
 | [CreateFontData](../../aspose.slides/fontdatafactory/createfontdata)(string) | 지정된 글꼴 이름으로 FontData를 생성합니다. |
 
-### 참고
+### 추가 참조
 
 * 인터페이스 [IFontDataFactory](../ifontdatafactory)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

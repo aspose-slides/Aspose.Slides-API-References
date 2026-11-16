@@ -1,14 +1,14 @@
 ---
 title: DataLabel
-second_title: مرجع API ل Aspose.Sildes لـ .NET
+second_title: مرجع API لـ Aspose.Sildes على .NET
 description: يمثل تسميات السلسلة.
 type: docs
-weight: 1550
+weight: 1560
 url: /ar/aspose.slides.charts/datalabel/
 ---
-## DataLabel فئة
+## فئة DataLabel
 
-يمثل تسميات السلسلة.
+Represents a series labels.
 
 ```csharp
 public class DataLabel : IDataLabel
@@ -18,41 +18,42 @@ public class DataLabel : IDataLabel
 
 | الاسم | الوصف |
 | --- | --- |
-| [DataLabel](datalabel)(IChartDataPoint) | ينشئ مثيًرا جديدًا من فئة DataLabel. |
+| [DataLabel](datalabel)(IChartDataPoint) | ينشئ مثيلاً جديدًا من فئة DataLabel. |
 
 ## الخصائص
 
 | الاسم | الوصف |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/datalabel/actualheight) { get; } | يحدد الارتفاع الفعلي لعنصر المخطط. استدعِ الطريقة IChart.ValidateChartLayout() قبل ذلك للحصول على القيم الفعلية. قراءة Single. |
-| [ActualWidth](../../aspose.slides.charts/datalabel/actualwidth) { get; } | يحدد العرض الفعلي لعنصر المخطط. استدعِ الطريقة IChart.ValidateChartLayout() قبل ذلك للحصول على القيم الفعلية. قراءة Single. |
-| [ActualX](../../aspose.slides.charts/datalabel/actualx) { get; } | يحدد موقع x الفعلي (اليسار) لعنصر المخطط بالنسبة إلى الزاوية اليسرى العليا للمخطط. استدعِ الطريقة IChart.ValidateChartLayout() قبل ذلك للحصول على القيم الفعلية. قراءة Single. |
-| [ActualY](../../aspose.slides.charts/datalabel/actualy) { get; } | يحدد أعلى العنصر الفعلي للمخطط بالنسبة إلى الزاوية اليسرى العليا للمخطط. استدعِ الطريقة IChart.ValidateChartLayout() قبل ذلك للحصول على القيم الفعلية. قراءة Single. |
-| [Bottom](../../aspose.slides.charts/datalabel/bottom) { get; } | الأسفل. قراءة فقط Single. |
-| [Chart](../../aspose.slides.charts/datalabel/chart) { get; } | يعيد المخطط الأب. قراءة فقط [`IChart`](../ichart). |
-| [DataLabelFormat](../../aspose.slides.charts/datalabel/datalabelformat) { get; } | يعيد تنسيق تسمية البيانات. قراءة فقط [`IDataLabelFormat`](../idatalabelformat). |
-| [Height](../../aspose.slides.charts/datalabel/height) { get; set; } | يعيد أو يضبط ارتفاع العنوان كنسبة من ارتفاع المخطط. قراءة/كتابة Single. |
-| [IsVisible](../../aspose.slides.charts/datalabel/isvisible) { get; } | False يعني أن تسمية البيانات غير مرئية (وبالتالي جميع العلامات Show* (ShowValue، ...) تكون False). قراءة فقط Boolean. |
+| [ActualHeight](../../aspose.slides.charts/datalabel/actualheight) { get; } | يحدد الارتفاع الفعلي لعنصر المخطط. استدعِ طريقة IChart.ValidateChartLayout() قبل ذلك للحصول على القيم الفعلية. قراءة Single. |
+| [ActualWidth](../../aspose.slides.charts/datalabel/actualwidth) { get; } | يحدد العرض الفعلي لعنصر المخطط. استدعِ طريقة IChart.ValidateChartLayout() قبل ذلك للحصول على القيم الفعلية. قراءة Single. |
+| [ActualX](../../aspose.slides.charts/datalabel/actualx) { get; } | يحدد الموقع السيني الفعلي (اليسار) لعنصر المخطط بالنسبة إلى الزاوية اليسرى العلوية للمخطط. استدعِ طريقة IChart.ValidateChartLayout() قبل ذلك للحصول على القيم الفعلية. قراءة Single. |
+| [ActualY](../../aspose.slides.charts/datalabel/actualy) { get; } | يحدد الجزء العلوي الفعلي لعنصر المخطط بالنسبة إلى الزاوية اليسرى العلوية للمخطط. استدعِ طريقة IChart.ValidateChartLayout() قبل ذلك للحصول على القيم الفعلية. قراءة Single. |
+| [Bottom](../../aspose.slides.charts/datalabel/bottom) { get; } | الجزء السفلي. قراءة فقط Single. |
+| [Chart](../../aspose.slides.charts/datalabel/chart) { get; } | يرجع المخطط الأصل. قراءة فقط [`IChart`](../ichart). |
+| [DataLabelFormat](../../aspose.slides.charts/datalabel/datalabelformat) { get; } | يرجع تنسيق تسمية البيانات. قراءة فقط [`IDataLabelFormat`](../idatalabelformat). |
+| [Height](../../aspose.slides.charts/datalabel/height) { get; set; } | يرجع أو يحدد ارتفاع العنوان كنسبة من ارتفاع المخطط. قراءة/كتابة Single. |
+| [IsVisible](../../aspose.slides.charts/datalabel/isvisible) { get; } | القيمة False تعني أن تسمية البيانات غير مرئية (وبالتالي جميع أعلام Show* (ShowValue, ...) هي False). قراءة فقط Boolean. |
+| [LabelShapeType](../../aspose.slides.charts/datalabel/labelshapetype) { get; set; } | يحصل أو يحدد نوع الشكل لتسمية البيانات. يرجع NotDefined إذا لم يتم تعريف أي شكل. |
 | [Right](../../aspose.slides.charts/datalabel/right) { get; } | اليمين. قراءة فقط Single. |
-| [TextFormat](../../aspose.slides.charts/datalabel/textformat) { get; } | يعيد تنسيق النص. قراءة فقط [`IChartTextFormat`](../icharttextformat). |
-| [TextFrameForOverriding](../../aspose.slides.charts/datalabel/textframeforoverriding) { get; } | يمكن أن يحتوي على نص منسق غني. إذا لم تكن هذه الخاصية null فإن قيمة النص المنسق تتجاوز النص المُنشأ تلقائيًا لتسمية البيانات. النص المُنشأ تلقائيًا لتسمية البيانات يعني النص الذي تُديره خصائص ShowSeriesName، ShowValue، ... ويتم تنسيقه باستخدام الخاصية TextFormatManager.TextFormat. قراءة فقط [`ITextFrame`](../../aspose.slides/itextframe). |
-| [ValueFromCell](../../aspose.slides.charts/datalabel/valuefromcell) { get; set; } | يحصل أو يضبط خلية بيانات المصنف. يتم تطبيقه إذا كانت الخاصية IDataLabelFormat.ShowLabelValueFromCell تساوي true. |
-| [Width](../../aspose.slides.charts/datalabel/width) { get; set; } | يعيد أو يضبط عرض العنوان كنسبة من عرض المخطط. قراءة/كتابة Single. |
-| [X](../../aspose.slides.charts/datalabel/x) { get; set; } | يعيد أو يضبط إحداثي x للعنوان كنسبة من عرض المخطط. قراءة/كتابة Single. |
-| [Y](../../aspose.slides.charts/datalabel/y) { get; set; } | يعيد أو يضبط إحداثي y للعنوان كنسبة من ارتفاع المخطط. قراءة/كتابة Single. |
+| [TextFormat](../../aspose.slides.charts/datalabel/textformat) { get; } | يرجع تنسيق النص. قراءة فقط [`IChartTextFormat`](../icharttextformat). |
+| [TextFrameForOverriding](../../aspose.slides.charts/datalabel/textframeforoverriding) { get; } | يمكن أن يحتوي على نص منسق غني. إذا لم تكن هذه الخاصية null فإن قيمة النص المنسق تستبدل النص المتولد تلقائيًا لتسمية البيانات. النص المتولد تلقائيًا لتسمية البيانات يعني النص الذي تُديره خصائص ShowSeriesName، ShowValue، ... ويتم تنسيقه باستخدام خاصية TextFormatManager.TextFormat. قراءة فقط [`ITextFrame`](../../aspose.slides/itextframe). |
+| [ValueFromCell](../../aspose.slides.charts/datalabel/valuefromcell) { get; set; } | يحصل أو يحدد خلية بيانات المصنف. يُطبق إذا كانت خاصية IDataLabelFormat.ShowLabelValueFromCell تساوي true. |
+| [Width](../../aspose.slides.charts/datalabel/width) { get; set; } | يرجع أو يحدد عرض العنوان كنسبة من عرض المخطط. قراءة/كتابة Single. |
+| [X](../../aspose.slides.charts/datalabel/x) { get; set; } | يرجع أو يحدد الإحداثي السيني للعنوان كنسبة من عرض المخطط. قراءة/كتابة Single. |
+| [Y](../../aspose.slides.charts/datalabel/y) { get; set; } | يرجع أو يحدد الإحداثي الصادي للعنوان كنسبة من ارتفاع المخطط. قراءة/كتابة Single. |
 
-## الأساليب
+## الطرق
 
 | الاسم | الوصف |
 | --- | --- |
-| [AddTextFrameForOverriding](../../aspose.slides.charts/datalabel/addtextframeforoverriding)(string) | تهيئ TextFrameForOverriding بالنص في المعامل "text". إذا تم تهيئة TextFrameForOverriding مسبقًا فسيتم مجرد تغيير نصه. |
-| [GetActualLabelText](../../aspose.slides.charts/datalabel/getactuallabeltext)() | يعيد النص الفعلي للتسمية بناءً على إعدادات DataLabelFormat أو قيمة TextFrameForOverriding.Text. |
-| [Hide](../../aspose.slides.charts/datalabel/hide)() | يجعل تسمية البيانات مخفية عن طريق ضبط جميع الأعلام Show* (ShowValue، ...) إلى الحالة false. سيكون IsVisible false بعد ذلك. |
+| [AddTextFrameForOverriding](../../aspose.slides.charts/datalabel/addtextframeforoverriding)(string) | يُهيئ TextFrameForOverriding بالنص الموجود في المعامل "text". إذا كان TextFrameForOverriding مُهيأً مسبقًا فإنه يغيّر نصه فقط. |
+| [GetActualLabelText](../../aspose.slides.charts/datalabel/getactuallabeltext)() | يرجع نص التسمية الفعلي بناءً على إعدادات DataLabelFormat أو قيمة TextFrameForOverriding.Text. |
+| [Hide](../../aspose.slides.charts/datalabel/hide)() | يجعل تسمية البيانات مخفية بتعيين جميع أعلام Show* (ShowValue، ...) إلى الحالة False. ستكون الخاصية IsVisible مساوية False بعد ذلك. |
 
-### أنظر أيضًا
+### راجع أيضًا
 
-* الواجهة [IDataLabel](../idatalabel)
-* النطاق [Aspose.Slides.Charts](../../aspose.slides.charts)
-* التجميع [Aspose.Slides](../../)
+* واجهة [IDataLabel](../idatalabel)
+* مساحة أسماء [Aspose.Slides.Charts](../../aspose.slides.charts)
+* تجميع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

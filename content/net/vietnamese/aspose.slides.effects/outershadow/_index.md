@@ -1,9 +1,9 @@
 ---
 title: OuterShadow
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Biểu diễn hiệu ứng Outer Shadow.
+description: Đại diện cho hiệu ứng Outer Shadow.
 type: docs
-weight: 3620
+weight: 3640
 url: /vi/aspose.slides.effects/outershadow/
 ---
 ## OuterShadow lớp
@@ -18,14 +18,14 @@ public sealed class OuterShadow : IOuterShadow
 
 | Tên | Mô tả |
 | --- | --- |
-| [BlurRadius](../../aspose.slides.effects/outershadow/blurradius) { get; set; } | Bán kính làm mờ, tính bằng điểm. Giá trị mặc định – 0 pt. Đọc/ghi Double. |
+| [BlurRadius](../../aspose.slides.effects/outershadow/blurradius) { get; set; } | Bán kính mờ, tính bằng điểm. Giá trị mặc định – 0 pt. Đọc/ghi Double. |
 | [Direction](../../aspose.slides.effects/outershadow/direction) { get; set; } | Hướng của bóng, tính bằng độ. Giá trị mặc định – 0 ° (trái sang phải). Đọc/ghi Single. |
-| [Distance](../../aspose.slides.effects/outershadow/distance) { get; set; } | Khoảng cách của bóng từ đối tượng, tính bằng điểm. Giá trị mặc định – 0 pt. Đọc/ghi Double. |
-| [RectangleAlign](../../aspose.slides.effects/outershadow/rectanglealign) { get; set; } | Căn chỉnh hình chữ nhật. Giá trị mặc định – Bottom. Đọc/ghi [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [Distance](../../aspose.slides.effects/outershadow/distance) { get; set; } | Khoảng cách của bóng so với đối tượng, tính bằng điểm. Giá trị mặc định – 0 pt. Đọc/ghi Double. |
+| [RectangleAlign](../../aspose.slides.effects/outershadow/rectanglealign) { get; set; } | Căn hình chữ nhật. Giá trị mặc định – Bottom. Đọc/ghi [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
 | [RotateShadowWithShape](../../aspose.slides.effects/outershadow/rotateshadowwithshape) { get; set; } | Cho biết liệu bóng có quay cùng với hình dạng hay không. Giá trị mặc định – true. Đọc/ghi Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/outershadow/scalehorizontal) { get; set; } | Hệ số phóng to theo chiều ngang, tính bằng phần trăm của kích thước gốc. Phóng to âm gây lật. Giá trị mặc định – 100 %. Đọc/ghi Double. |
-| [ScaleVertical](../../aspose.slides.effects/outershadow/scalevertical) { get; set; } | Hệ số phóng to theo chiều dọc, tính bằng phần trăm của kích thước gốc. Phóng to âm gây lật. Giá trị mặc định – 100 %. Đọc/ghi Double. |
-| [ShadowColor](../../aspose.slides.effects/outershadow/shadowcolor) { get; } | Màu của bóng. Giá trị mặc định – đen tự động (phụ thuộc vào chủ đề). Chỉ đọc [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [ScaleHorizontal](../../aspose.slides.effects/outershadow/scalehorizontal) { get; set; } | Hệ số co dọc ngang, tính bằng phần trăm kích thước gốc. Việc co ngược gây lật. Giá trị mặc định – 100 %. Đọc/ghi Double. |
+| [ScaleVertical](../../aspose.slides.effects/outershadow/scalevertical) { get; set; } | Hệ số co dọc dọc, tính bằng phần trăm kích thước gốc. Việc co ngược gây lật. Giá trị mặc định – 100 %. Đọc/ghi Double. |
+| [ShadowColor](../../aspose.slides.effects/outershadow/shadowcolor) { get; } | Màu của bóng. Giá trị mặc định – tự động đen (phụ thuộc vào giao diện). Chỉ đọc [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [SkewHorizontal](../../aspose.slides.effects/outershadow/skewhorizontal) { get; set; } | Góc nghiêng ngang, tính bằng độ. Giá trị mặc định – 0 °. Đọc/ghi Double. |
 | [SkewVertical](../../aspose.slides.effects/outershadow/skewvertical) { get; set; } | Góc nghiêng dọc, tính bằng độ. Giá trị mặc định – 0 °. Đọc/ghi Double. |
 
@@ -34,8 +34,8 @@ public sealed class OuterShadow : IOuterShadow
 | Tên | Mô tả |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/outershadow/equals)(object) | Xác định liệu [`OuterShadow`](../outershadow) được chỉ định có bằng với [`OuterShadow`](../outershadow) hiện tại hay không. |
-| [GetEffective](../../aspose.slides.effects/outershadow/geteffective)() | Lấy dữ liệu hiệu ứng Outer Shadow thực tế với tính kế thừa đã được áp dụng. |
-| override [GetHashCode](../../aspose.slides.effects/outershadow/gethashcode)() | Đóng vai trò như một hàm băm cho một kiểu cụ thể. |
+| [GetEffective](../../aspose.slides.effects/outershadow/geteffective)() | Lấy dữ liệu hiệu ứng Outer Shadow thực tế với kế thừa đã được áp dụng. |
+| override [GetHashCode](../../aspose.slides.effects/outershadow/gethashcode)() | Đóng vai trò là hàm băm cho một kiểu cụ thể. |
 
 ### Xem thêm
 

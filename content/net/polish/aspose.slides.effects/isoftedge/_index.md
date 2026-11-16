@@ -1,14 +1,14 @@
 ---
 title: ISoftEdge
-second_title: Aspose.Sildes dla .NET – referencja API
-description: Reprezentuje efekt miękkiej krawędzi. Krawędzie kształtu są rozmyte, podczas gdy wypełnienie nie jest zmienione.
+second_title: Aspose.Sildes dla .NET – odniesienie API
+description: Reprezentuje efekt miękkich krawędzi. Krawędzie kształtu są rozmyte, a wypełnienie nie jest zmienione.
 type: docs
-weight: 3520
+weight: 3540
 url: /pl/aspose.slides.effects/isoftedge/
 ---
 ## ISoftEdge interfejs
 
-Reprezentuje efekt miękkiej krawędzi. Krawędzie kształtu są rozmyte, natomiast wypełnienie nie jest zmienione.
+Represents a Soft Edge effect. The edges of the shape are blurred, while the fill is not affected.
 
 ```csharp
 public interface ISoftEdge : IAccessiblePVIObject<ISoftEdgeEffectiveData>, IImageTransformOperation
@@ -20,7 +20,7 @@ public interface ISoftEdge : IAccessiblePVIObject<ISoftEdgeEffectiveData>, IImag
 | --- | --- |
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/isoftedge/asiaccessiblepviobject) { get; } | Umożliwia pobranie podstawowego interfejsu IAccessiblePVIObject. Tylko do odczytu [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
 | [AsIImageTransformOperation](../../aspose.slides.effects/isoftedge/asiimagetransformoperation) { get; } | Umożliwia pobranie podstawowego interfejsu IImageTransformOperation. Tylko do odczytu [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Radius](../../aspose.slides.effects/isoftedge/radius) { get; set; } | Określa promień rozmycia stosowanego do krawędzi. Odczyt/zapis Double. |
+| [Radius](../../aspose.slides.effects/isoftedge/radius) { get; set; } | Określa promień rozmycia stosowanego na krawędziach. Odczyt/zapis Double. |
 
 ### Zobacz także
 

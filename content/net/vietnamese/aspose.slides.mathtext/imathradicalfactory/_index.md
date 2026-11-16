@@ -1,9 +1,9 @@
 ---
 title: IMathRadicalFactory
-second_title: Aspose.Sildes cho .NET Tham khảo API
+second_title: Tham chiếu API Aspose.Sildes cho .NET
 description: Cho phép tạo gốc toán học
 type: docs
-weight: 8440
+weight: 8460
 url: /vi/aspose.slides.mathtext/imathradicalfactory/
 ---
 ## IMathRadicalFactory giao diện

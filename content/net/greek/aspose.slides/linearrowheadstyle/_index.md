@@ -3,12 +3,12 @@ title: LineArrowheadStyle
 second_title: Aspose.Sildes για .NET Αναφορά API
 description: Αναπαριστά το στυλ μιας κεφαλής βέλους.
 type: docs
-weight: 7740
+weight: 7760
 url: /el/aspose.slides/linearrowheadstyle/
 ---
 ## LineArrowheadStyle απαρίθμηση
 
-Αντιπροσωπεύει το στυλ μιας κεφαλής βέλους.
+Αναπαριστά το στυλ μιας κεφαλής βέλους.
 
 ```csharp
 public enum LineArrowheadStyle : sbyte

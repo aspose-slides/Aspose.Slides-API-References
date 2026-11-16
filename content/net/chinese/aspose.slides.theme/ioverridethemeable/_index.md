@@ -1,9 +1,9 @@
 ---
 title: IOverrideThemeable
-second_title: Aspose.Sildes .NET API 参考
+second_title: Aspose.Sildes 的 .NET API 参考
 description: 表示覆盖主题管理器。
 type: docs
-weight: 11360
+weight: 11380
 url: /zh/aspose.slides.theme/ioverridethemeable/
 ---
 ## IOverrideThemeable 接口

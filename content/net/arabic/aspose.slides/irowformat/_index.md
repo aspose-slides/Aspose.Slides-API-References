@@ -1,12 +1,12 @@
 ---
 title: IRowFormat
-second_title: مرجع API لـ Aspose.Sildes لـ .NET
+second_title: Aspose.Sildes لـ .NET: مرجع API
 description: يمثل تنسيق صف جدول.
 type: docs
-weight: 6870
+weight: 6890
 url: /ar/aspose.slides/irowformat/
 ---
-## واجهة IRowFormat
+## IRowFormat واجهة
 
 يمثل تنسيق صف جدول.
 
@@ -14,13 +14,13 @@ url: /ar/aspose.slides/irowformat/
 public interface IRowFormat
 ```
 
-## الأساليب
+## الطرق
 
 | الاسم | الوصف |
 | --- | --- |
-| [GetEffective](../../aspose.slides/irowformat/geteffective)() | يحصل على خصائص تنسيق صف الجدول الفعّالة مع تطبيق الوراثة وأنماط الجداول. |
+| [GetEffective](../../aspose.slides/irowformat/geteffective)() | يحصل على خصائص تنسيق صف الجدول الفعّالة مع تطبيق الوراثة وأنماط الجدول. |
 
-### أنظر أيضاً
+### انظر أيضًا
 
 * النطاق [Aspose.Slides](../../aspose.slides)
 * التجميع [Aspose.Slides](../../)

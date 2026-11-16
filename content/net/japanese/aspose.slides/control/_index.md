@@ -1,9 +1,9 @@
 ---
 title: Control
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: ActiveX コントロールを表します。
 type: docs
-weight: 2690
+weight: 2710
 url: /ja/aspose.slides/control/
 ---
 ## Control クラス
@@ -18,13 +18,13 @@ public class Control : DomObject<ControlCollection>, IControl
 
 | Name | Description |
 | --- | --- |
-| [ActiveXControlBinary](../../aspose.slides/control/activexcontrolbinary) { get; } | ActiveX コントロールの永続性を指定します。永続化に使用されるメソッドが PersistStream、PersistStreamInit、または PersistStorage のいずれかの場合。 |
+| [ActiveXControlBinary](../../aspose.slides/control/activexcontrolbinary) { get; } | ActiveX コントロールの永続性を指定します。永続化に使用されるメソッドが PersistStream、PersistStreamInit、または PersistStorage のいずれかである場合です。 |
 | [ClassId](../../aspose.slides/control/classid) { get; set; } | このコントロールのクラス ID を取得します。読み取り専用 Guid。 |
-| [Frame](../../aspose.slides/control/frame) { get; set; } | コントロールのフレームを取得または設定します。読み書き [`IShapeFrame`](../ishapeframe)。 |
-| [Name](../../aspose.slides/control/name) { get; set; } | このコントロールの名前を取得または設定します。読み書き String。 |
-| [Persistence](../../aspose.slides/control/persistence) { get; } | ActiveX コントロールのプロパティを格納する際に使用されるメソッドを取得します。読み取り専用 [`PersistenceType`](../persistencetype)。 |
+| [Frame](../../aspose.slides/control/frame) { get; set; } | コントロールのフレームを取得または設定します。読み書き可能 [`IShapeFrame`](../ishapeframe)。 |
+| [Name](../../aspose.slides/control/name) { get; set; } | このコントロールの名前を取得または設定します。読み書き可能 String。 |
+| [Persistence](../../aspose.slides/control/persistence) { get; } | ActiveX コントロールのプロパティを保存するために使用されるメソッドを取得します。読み取り専用 [`PersistenceType`](../persistencetype)。 |
 | [Properties](../../aspose.slides/control/properties) { get; } | ActiveX プロパティのコレクションを返します。注: Aspose.Slides は XML ベースの ActiveX プロパティのみをサポートします。プロパティがバイナリ形式で保存されている場合、このプロパティは null を返します。読み取り専用 [`IControlPropertiesCollection`](../icontrolpropertiescollection)。 |
-| [SubstitutePictureFormat](../../aspose.slides/control/substitutepictureformat) { get; } | Control の画像塗りつぶしプロパティオブジェクトを返します。読み取り専用 [`IPictureFillFormat`](../ipicturefillformat)。 |
+| [SubstitutePictureFormat](../../aspose.slides/control/substitutepictureformat) { get; } | Control の画像塗りつぶしプロパティ オブジェクトを返します。読み取り専用 [`IPictureFillFormat`](../ipicturefillformat)。 |
 
 ### 参照
 

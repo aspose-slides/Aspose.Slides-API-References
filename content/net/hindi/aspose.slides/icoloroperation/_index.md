@@ -1,14 +1,14 @@
 ---
 title: IColorOperation
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: रंग परिवर्तन के लिए उपयोग किए जाने वाले विभिन्न रंग संचालन को दर्शाता है।
+second_title: Aspose.Sildes .NET के लिए API संदर्भ
+description: रंग रूपांतरणों के लिए उपयोग किए जाने वाले विभिन्न रंग ऑपरेशनों का प्रतिनिधित्व करता है।
 type: docs
-weight: 5500
+weight: 5520
 url: /hi/aspose.slides/icoloroperation/
 ---
 ## IColorOperation इंटरफ़ेस
 
-रंग परिवर्तन के लिए उपयोग किए जाने वाले विभिन्न रंग संचालन को दर्शाता है।
+विभिन्न रंग ऑपरेशनों का प्रतिनिधित्व करता है जो रंग रूपांतरणों में उपयोग होते हैं।
 
 ```csharp
 public interface IColorOperation
@@ -18,10 +18,10 @@ public interface IColorOperation
 
 | नाम | विवरण |
 | --- | --- |
-| [OperationType](../../aspose.slides/icoloroperation/operationtype) { get; } | ऑपरेशन के प्रकार को लौटाता है या सेट करता है। केवल-रीड [`ColorTransformOperation`](../colortransformoperation). |
-| [Parameter](../../aspose.slides/icoloroperation/parameter) { get; } | ऑपरेशन के पैरामीटर को लौटाता है। केवल-रीड Single. |
+| [OperationType](../../aspose.slides/icoloroperation/operationtype) { get; } | ऑपरेशन के प्रकार को लौटाता या सेट करता है। केवल-पढ़ने योग्य [`ColorTransformOperation`](../colortransformoperation). |
+| [Parameter](../../aspose.slides/icoloroperation/parameter) { get; } | ऑपरेशन के एक पैरामीटर को लौटाता है। केवल-पढ़ने योग्य Single. |
 
-### संबंधित देखें
+### देखें भी
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

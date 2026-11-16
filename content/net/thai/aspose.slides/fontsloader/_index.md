@@ -1,14 +1,14 @@
 ---
 title: FontsLoader
-second_title: อ้างอิง API Aspose.Sildes สำหรับ .NET
-description: คลาสสำหรับโหลดฟอนต์ที่กำหนดโดยผู้ใช้ ควรใช้ก่อนการสร้างออบเจกต์การนำเสนอใด ๆ.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: คลาสสำหรับโหลดแบบอักษรที่กำหนดโดยผู้ใช้ ควรใช้ก่อนสร้างวัตถุพรีเซนเทชันใด ๆ
 type: docs
-weight: 4930
+weight: 4950
 url: /th/aspose.slides/fontsloader/
 ---
 ## FontsLoader คลาส
 
-คลาสสำหรับโหลดฟอนต์ที่กำหนดโดยผู้ใช้ ควรใช้ก่อนการสร้างออบเจกต์การนำเสนอใด ๆ.
+คลาสสำหรับโหลดแบบอักษรที่กำหนดโดยผู้ใช้ ควรใช้ก่อนสร้างวัตถุพรีเซนเทชันใด ๆ
 
 ```csharp
 public sealed class FontsLoader : IFontsLoader
@@ -18,10 +18,10 @@ public sealed class FontsLoader : IFontsLoader
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| static [ClearCache](../../aspose.slides/fontsloader/clearcache)() | ปล่อยฟอนต์ที่กำหนดโดยผู้ใช้ทั้งหมด |
-| static [GetFontFolders](../../aspose.slides/fontsloader/getfontfolders)() | รับโฟลเดอร์ฟอนต์ คืนค่าโฟลเดอร์ที่ได้เพิ่มด้วยเมธอด LoadExternalFonts รวมถึงโฟลเดอร์ฟอนต์ของระบบ |
-| static [LoadExternalFont](../../aspose.slides/fontsloader/loadexternalfont)(byte[]) | เพิ่มฟอนต์จากข้อมูลไบต์ |
-| static [LoadExternalFonts](../../aspose.slides/fontsloader/loadexternalfonts)(string[]) | เพิ่มโฟลเดอร์เพิ่มเติมเพื่อค้นหาฟอนต์ |
+| static [ClearCache](../../aspose.slides/fontsloader/clearcache)() | ปล่อยแบบอักษรที่กำหนดโดยผู้ใช้ทั้งหมด |
+| static [GetFontFolders](../../aspose.slides/fontsloader/getfontfolders)() | รับโฟลเดอร์แบบอักษร คืนค่าโฟลเดอร์ที่ได้เพิ่มด้วยเมธอด LoadExternalFonts รวมทั้งโฟลเดอร์แบบอักษรของระบบ |
+| static [LoadExternalFont](../../aspose.slides/fontsloader/loadexternalfont)(byte[]) | เพิ่มแบบอักษรจากข้อมูลไบนารี |
+| static [LoadExternalFonts](../../aspose.slides/fontsloader/loadexternalfonts)(string[]) | เพิ่มโฟลเดอร์เพิ่มเติมเพื่อค้นหาแบบอักษร |
 
 ### ดูเพิ่มเติม
 

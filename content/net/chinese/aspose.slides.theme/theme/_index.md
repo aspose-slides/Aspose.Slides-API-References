@@ -1,9 +1,9 @@
 ---
 title: Theme
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 表示一个主题。
 type: docs
-weight: 11480
+weight: 11500
 url: /zh/aspose.slides.theme/theme/
 ---
 ## Theme 类

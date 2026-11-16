@@ -1,12 +1,12 @@
 ---
 title: Placeholder
-second_title: Aspose.Sildes pour la référence API .NET
+second_title: Aspose.Sildes pour .NET Référence API
 description: Représente un espace réservé sur une diapositive.
 type: docs
-weight: 9430
+weight: 9450
 url: /fr/aspose.slides/placeholder/
 ---
-## Placeholder classe
+## Classe d'espace réservé
 
 Représente un espace réservé sur une diapositive.
 

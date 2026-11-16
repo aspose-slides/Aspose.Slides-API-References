@@ -1,14 +1,14 @@
 ---
 title: AlphaBiLevel
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Representa un efecto Alpha Bi-Level. Los valores de Opacidad Alpha menores que el umbral se cambian a 0 totalmente transparente y los valores de alpha mayores o iguales al umbral se cambian a 100 totalmente opaco.
+description: Representa un efecto Alpha Bi-Level. Los valores Alpha Opacity menores que el umbral se cambian a 0 totalmente transparente y los valores alpha mayores o iguales al umbral se cambian a 100 totalmente opaco.
 type: docs
-weight: 2840
+weight: 2860
 url: /es/aspose.slides.effects/alphabilevel/
 ---
-## Clase AlphaBiLevel
+## AlphaBiLevel clase
 
-Representa un efecto Alpha Bi-Level. Los valores de Alpha (Opacidad) menores que el umbral se cambian a 0 (totalmente transparente) y los valores de alpha mayores o iguales al umbral se cambian al 100 % (totalmente opaco).
+Representa un efecto Alpha Bi-Level. Los valores Alpha (Opacity) menores que el umbral se cambian a 0 (totalmente transparente) y los valores alpha mayores o iguales al umbral se cambian a 100 % (totalmente opaco).
 
 ```csharp
 public sealed class AlphaBiLevel : ImageTransformOperation, IAlphaBiLevel
@@ -27,7 +27,7 @@ public sealed class AlphaBiLevel : ImageTransformOperation, IAlphaBiLevel
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/alphabilevel/equals)(object) | Determina si el [`AlphaBiLevel`](../alphabilevel) especificado es igual al [`AlphaBiLevel`](../alphabilevel) actual. |
 | [GetEffective](../../aspose.slides.effects/alphabilevel/geteffective)() | Obtiene los datos efectivos del efecto Alpha Bi-Level con la herencia aplicada. |
-| override [GetHashCode](../../aspose.slides.effects/alphabilevel/gethashcode)() | Sirve como función hash para un tipo particular. |
+| override [GetHashCode](../../aspose.slides.effects/alphabilevel/gethashcode)() | Funciona como una función hash para un tipo particular. |
 
 ### Ver también
 

@@ -1,248 +1,248 @@
 ---
 title: Save
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: निर्दिष्ट प्रारूप के साथ प्रस्तुति की सभी स्लाइड्स को फ़ाइल में सहेजता है।
+second_title: Aspose.Sildes .NET के लिए API संदर्भ
+description: प्रस्तुति की सभी स्लाइडों को निर्दिष्ट फ़ॉर्मेट के साथ फ़ाइल में सहेजता है।
 type: docs
-weight: 380
+weight: 390
 url: /hi/aspose.slides/ipresentation/save/
 ---
 ## Save(string, SaveFormat) {#save_5}
 
-निर्दिष्ट प्रारूप के साथ प्रस्तुति की सभी स्लाइड्स को फ़ाइल में सहेजता है।
+प्रस्तुति की सभी स्लाइडों को निर्दिष्ट फ़ॉर्मेट के साथ फ़ाइल में सहेजता है।
 
 ```csharp
 public void Save(string fname, SaveFormat format)
 ```
 
-| परामीटर | प्रकार | विवरण |
+| पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| fname | String | Path to the created file. |
-| format | SaveFormat | Format of the exported data. |
+| fname | String | निर्मित फ़ाइल का पथ। |
+| format | SaveFormat | निर्यातित डेटा का फ़ॉर्मेट। |
 
 ### संबंधित देखें
 
-* एन्युम [SaveFormat](../../../aspose.slides.export/saveformat)
-* इंटरफ़ेस [IPresentation](../../ipresentation)
-* नामस्थान [Aspose.Slides](../../ipresentation)
-* असेंबली [Aspose.Slides](../../../)
+* enum [SaveFormat](../../../aspose.slides.export/saveformat)
+* interface [IPresentation](../../ipresentation)
+* namespace [Aspose.Slides](../../ipresentation)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
 ## Save(Stream, SaveFormat) {#save_1}
 
-निर्दिष्ट प्रारूप में प्रस्तुति की सभी स्लाइड्स को स्ट्रीम में सहेजता है।
+प्रस्तुति की सभी स्लाइडों को निर्दिष्ट फ़ॉर्मेट में स्ट्रीम में सहेजता है।
 
 ```csharp
 public void Save(Stream stream, SaveFormat format)
 ```
 
-| परामीटर | प्रकार | विवरण |
+| पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| stream | Stream | Output stream. |
-| format | SaveFormat | Format of the exported data. |
+| stream | Stream | आउटपुट स्ट्रीम। |
+| format | SaveFormat | निर्यातित डेटा का फ़ॉर्मेट। |
 
 ### संबंधित देखें
 
-* एन्युम [SaveFormat](../../../aspose.slides.export/saveformat)
-* इंटरफ़ेस [IPresentation](../../ipresentation)
-* नामस्थान [Aspose.Slides](../../ipresentation)
-* असेंबली [Aspose.Slides](../../../)
+* enum [SaveFormat](../../../aspose.slides.export/saveformat)
+* interface [IPresentation](../../ipresentation)
+* namespace [Aspose.Slides](../../ipresentation)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
 ## Save(string, SaveFormat, ISaveOptions) {#save_6}
 
-निर्दिष्ट प्रारूप और अतिरिक्त विकल्पों के साथ प्रस्तुति की सभी स्लाइड्स को फ़ाइल में सहेजता है।
+प्रस्तुति की सभी स्लाइडों को निर्दिष्ट फ़ॉर्मेट और अतिरिक्त विकल्पों के साथ फ़ाइल में सहेजता है।
 
 ```csharp
 public void Save(string fname, SaveFormat format, ISaveOptions options)
 ```
 
-| परामीटर | प्रकार | विवरण |
+| पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| fname | String | Path to the created file. |
-| format | SaveFormat | Format of the exported data. |
-| options | ISaveOptions | Additional format options. |
+| fname | String | निर्मित फ़ाइल का पथ। |
+| format | SaveFormat | निर्यातित डेटा का फ़ॉर्मेट। |
+| options | ISaveOptions | अतिरिक्त फ़ॉर्मेट विकल्प। |
 
 ### संबंधित देखें
 
-* एन्युम [SaveFormat](../../../aspose.slides.export/saveformat)
-* इंटरफ़ेस [ISaveOptions](../../../aspose.slides.export/isaveoptions)
-* इंटरफ़ेस [IPresentation](../../ipresentation)
-* नामस्थान [Aspose.Slides](../../ipresentation)
-* असेंबली [Aspose.Slides](../../../)
+* enum [SaveFormat](../../../aspose.slides.export/saveformat)
+* interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
+* interface [IPresentation](../../ipresentation)
+* namespace [Aspose.Slides](../../ipresentation)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
 ## Save(Stream, SaveFormat, ISaveOptions) {#save_2}
 
-निर्दिष्ट प्रारूप और अतिरिक्त विकल्पों के साथ प्रस्तुति की सभी स्लाइड्स को स्ट्रीम में सहेजता है।
+प्रस्तुति की सभी स्लाइडों को निर्दिष्ट फ़ॉर्मेट और अतिरिक्त विकल्पों के साथ स्ट्रीम में सहेजता है।
 
 ```csharp
 public void Save(Stream stream, SaveFormat format, ISaveOptions options)
 ```
 
-| परामीटर | प्रकार | विवरण |
+| पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| stream | Stream | Output stream. |
-| format | SaveFormat | Format of the exported data. |
-| options | ISaveOptions | Additional format options. |
+| stream | Stream | आउटपुट स्ट्रीम। |
+| format | SaveFormat | निर्यातित डेटा का फ़ॉर्मेट। |
+| options | ISaveOptions | अतिरिक्त फ़ॉर्मेट विकल्प। |
 
 ### अपवाद
 
 | अपवाद | स्थिति |
 | --- | --- |
-| NotSupportedException | If you try to save encrypted file in none Office 2007-2010 format |
+| NotSupportedException | यदि आप एन्क्रिप्टेड फ़ाइल को Office 2007-2010 के अलावा किसी फ़ॉर्मेट में सहेजने का प्रयास करते हैं |
 
 ### संबंधित देखें
 
-* एन्युम [SaveFormat](../../../aspose.slides.export/saveformat)
-* इंटरफ़ेस [ISaveOptions](../../../aspose.slides.export/isaveoptions)
-* इंटरफ़ेस [IPresentation](../../ipresentation)
-* नामस्थान [Aspose.Slides](../../ipresentation)
-* असेंबली [Aspose.Slides](../../../)
+* enum [SaveFormat](../../../aspose.slides.export/saveformat)
+* interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
+* interface [IPresentation](../../ipresentation)
+* namespace [Aspose.Slides](../../ipresentation)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
 ## Save(string, int[], SaveFormat) {#save_7}
 
-निर्दिष्ट प्रारूप के साथ प्रस्तुति की चयनित स्लाइड्स को फ़ाइल में सहेजता है।
+निर्दिष्ट स्लाइडों को प्रस्तुति से फ़ाइल में निर्दिष्ट फ़ॉर्मेट के साथ सहेजता है।
 
 ```csharp
 public void Save(string fname, int[] slides, SaveFormat format)
 ```
 
-| परामीटर | प्रकार | विवरण |
+| पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| fname | String | Path to the created file. |
-| slides | Int32[] | Array with slide positions, starting from 1. |
-| format | SaveFormat | Format of the exported data. |
+| fname | String | निर्मित फ़ाइल का पथ। |
+| slides | Int32[] | स्लाइड स्थितियों की सरणी, 1 से शुरू। |
+| format | SaveFormat | निर्यातित डेटा का फ़ॉर्मेट। |
 
 ### अपवाद
 
 | अपवाद | स्थिति |
 | --- | --- |
-| ArgumentNullException | When stream or slides parameter is null. |
-| ArgumentOutOfRangeException | When slides parameter contains wrong page numbers. |
-| InvalidOperationException | When an unsupported SaveFormat is used, e.g. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+| ArgumentNullException | जब स्ट्रीम या स्लाइड्स पैरामीटर null हो। |
+| ArgumentOutOfRangeException | जब स्लाइड्स पैरामीटर में गलत पृष्ठ संख्याएँ हों। |
+| InvalidOperationException | जब असमर्थित SaveFormat का उपयोग किया जाता है, जैसे PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP। |
 
 ### संबंधित देखें
 
-* एन्युम [SaveFormat](../../../aspose.slides.export/saveformat)
-* इंटरफ़ेस [IPresentation](../../ipresentation)
-* नामस्थान [Aspose.Slides](../../ipresentation)
-* असेंबली [Aspose.Slides](../../../)
+* enum [SaveFormat](../../../aspose.slides.export/saveformat)
+* interface [IPresentation](../../ipresentation)
+* namespace [Aspose.Slides](../../ipresentation)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
 ## Save(string, int[], SaveFormat, ISaveOptions) {#save_8}
 
-निर्दिष्ट प्रारूप और अतिरिक्त विकल्पों के साथ प्रस्तुति की चयनित स्लाइड्स को फ़ाइल में सहेजता है।
+निर्दिष्ट स्लाइडों को प्रस्तुति से फ़ाइल में निर्दिष्ट फ़ॉर्मेट और अतिरिक्त विकल्पों के साथ सहेजता है।
 
 ```csharp
 public void Save(string fname, int[] slides, SaveFormat format, ISaveOptions options)
 ```
 
-| परामीटर | प्रकार | विवरण |
+| पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| fname | String | Path to the created file. |
-| slides | Int32[] | Array with slide positions, starting from 1. |
-| format | SaveFormat | Format of the exported data. |
-| options | ISaveOptions | Additional format options. |
+| fname | String | निर्मित फ़ाइल का पथ। |
+| slides | Int32[] | स्लाइड स्थितियों की सरणी, 1 से शुरू। |
+| format | SaveFormat | निर्यातित डेटा का फ़ॉर्मेट। |
+| options | ISaveOptions | अतिरिक्त फ़ॉर्मेट विकल्प। |
 
 ### अपवाद
 
 | अपवाद | स्थिति |
 | --- | --- |
-| ArgumentNullException | When stream or slides parameter is null. |
-| ArgumentOutOfRangeException | When slides parameter contains wrong page numbers. |
-| InvalidOperationException | When an unsupported SaveFormat is used, e.g. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+| ArgumentNullException | जब स्ट्रीम या स्लाइड्स पैरामीटर null हो। |
+| ArgumentOutOfRangeException | जब स्लाइड्स पैरामीटर में गलत पृष्ठ संख्याएँ हों। |
+| InvalidOperationException | जब असमर्थित SaveFormat का उपयोग किया जाता है, जैसे PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP। |
 
 ### संबंधित देखें
 
-* एन्युम [SaveFormat](../../../aspose.slides.export/saveformat)
-* इंटरफ़ेस [ISaveOptions](../../../aspose.slides.export/isaveoptions)
-* इंटरफ़ेस [IPresentation](../../ipresentation)
-* नामस्थान [Aspose.Slides](../../ipresentation)
-* असेंबली [Aspose.Slides](../../../)
+* enum [SaveFormat](../../../aspose.slides.export/saveformat)
+* interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
+* interface [IPresentation](../../ipresentation)
+* namespace [Aspose.Slides](../../ipresentation)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
 ## Save(Stream, int[], SaveFormat) {#save_3}
 
-निर्दिष्ट प्रारूप में प्रस्तुति की चयनित स्लाइड्स को स्ट्रीम में सहेजता है।
+निर्दिष्ट स्लाइडों को प्रस्तुति से स्ट्रीम में निर्दिष्ट फ़ॉर्मेट के साथ सहेजता है।
 
 ```csharp
 public void Save(Stream stream, int[] slides, SaveFormat format)
 ```
 
-| परामीटर | प्रकार | विवरण |
+| पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| stream | Stream | Output stream. |
-| slides | Int32[] | Array with slide positions, starting from 1. |
-| format | SaveFormat | Format of the exported data. |
+| stream | Stream | आउटपुट स्ट्रीम। |
+| slides | Int32[] | स्लाइड स्थितियों की सरणी, 1 से शुरू। |
+| format | SaveFormat | निर्यातित डेटा का फ़ॉर्मेट। |
 
 ### अपवाद
 
 | अपवाद | स्थिति |
 | --- | --- |
-| ArgumentNullException | When stream or slides parameter is null. |
-| ArgumentOutOfRangeException | When slides parameter contains wrong page numbers. |
-| InvalidOperationException | When an unsupported SaveFormat is used, e.g. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+| ArgumentNullException | जब स्ट्रीम या स्लाइड्स पैरामीटर null हो। |
+| ArgumentOutOfRangeException | जब स्लाइड्स पैरामीटर में गलत पृष्ठ संख्याएँ हों। |
+| InvalidOperationException | जब असमर्थित SaveFormat का उपयोग किया जाता है, जैसे PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP। |
 
 ### संबंधित देखें
 
-* एन्युम [SaveFormat](../../../aspose.slides.export/saveformat)
-* इंटरफ़ेस [IPresentation](../../ipresentation)
-* नामस्थान [Aspose.Slides](../../ipresentation)
-* असेंबली [Aspose.Slides](../../../)
+* enum [SaveFormat](../../../aspose.slides.export/saveformat)
+* interface [IPresentation](../../ipresentation)
+* namespace [Aspose.Slides](../../ipresentation)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
 ## Save(Stream, int[], SaveFormat, ISaveOptions) {#save_4}
 
-निर्दिष्ट प्रारूप और अतिरिक्त विकल्पों के साथ प्रस्तुति की चयनित स्लाइड्स को स्ट्रीम में सहेजता है।
+निर्दिष्ट स्लाइडों को प्रस्तुति से स्ट्रीम में निर्दिष्ट फ़ॉर्मेट और अतिरिक्त विकल्पों के साथ सहेजता है।
 
 ```csharp
 public void Save(Stream stream, int[] slides, SaveFormat format, ISaveOptions options)
 ```
 
-| परामीटर | प्रकार | विवरण |
+| पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| stream | Stream | Output stream. |
-| slides | Int32[] | Array with slide positions, starting from 1. |
-| format | SaveFormat | Format of the exported data. |
-| options | ISaveOptions | Additional format options. |
+| stream | Stream | आउटपुट स्ट्रीम। |
+| slides | Int32[] | स्लाइड स्थितियों की सरणी, 1 से शुरू। |
+| format | SaveFormat | निर्यातित डेटा का फ़ॉर्मेट। |
+| options | ISaveOptions | अतिरिक्त फ़ॉर्मेट विकल्प। |
 
 ### अपवाद
 
 | अपवाद | स्थिति |
 | --- | --- |
-| ArgumentNullException | When stream or slides parameter is null. |
-| ArgumentOutOfRangeException | When slides parameter contains wrong page numbers. |
-| InvalidOperationException | When an unsupported SaveFormat is used, e.g. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+| ArgumentNullException | जब स्ट्रीम या स्लाइड्स पैरामीटर null हो। |
+| ArgumentOutOfRangeException | जब स्लाइड्स पैरामीटर में गलत पृष्ठ संख्याएँ हों। |
+| InvalidOperationException | जब असमर्थित SaveFormat का उपयोग किया जाता है, जैसे PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP। |
 
 ### संबंधित देखें
 
-* एन्युम [SaveFormat](../../../aspose.slides.export/saveformat)
-* इंटरफ़ेस [ISaveOptions](../../../aspose.slides.export/isaveoptions)
-* इंटरफ़ेस [IPresentation](../../ipresentation)
-* नामस्थान [Aspose.Slides](../../ipresentation)
-* असेंबली [Aspose.Slides](../../../)
+* enum [SaveFormat](../../../aspose.slides.export/saveformat)
+* interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
+* interface [IPresentation](../../ipresentation)
+* namespace [Aspose.Slides](../../ipresentation)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
 ## Save(IXamlOptions) {#save}
 
-प्रस्तुति की सभी स्लाइड्स को XAML मार्कअप दर्शाने वाली फाइलों के सेट में सहेजता है।
+प्रस्तुति की सभी स्लाइडों को XAML मार्कअप का प्रतिनिधित्व करने वाली फ़ाइलों के सेट में सहेजता है।
 
 ```csharp
 public void Save(IXamlOptions options)
 ```
 
-| परामीटर | प्रकार | विवरण |
+| पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| options | IXamlOptions | The XAML format options. |
+| options | IXamlOptions | XAML फ़ॉर्मेट विकल्प। |
 
 ### उदाहरण
 
@@ -256,9 +256,9 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 ### संबंधित देखें
 
-* इंटरफ़ेस [IXamlOptions](../../../aspose.slides.export.xaml/ixamloptions)
-* इंटरफ़ेस [IPresentation](../../ipresentation)
-* नामस्थान [Aspose.Slides](../../ipresentation)
-* असेंबली [Aspose.Slides](../../../)
+* interface [IXamlOptions](../../../aspose.slides.export.xaml/ixamloptions)
+* interface [IPresentation](../../ipresentation)
+* namespace [Aspose.Slides](../../ipresentation)
+* assembly [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

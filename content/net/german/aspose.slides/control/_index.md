@@ -3,10 +3,10 @@ title: Control
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt ein ActiveX-Steuerelement dar.
 type: docs
-weight: 2690
+weight: 2710
 url: /de/aspose.slides/control/
 ---
-## Steuerelement-Klasse
+## Steuerungsklasse
 
 Stellt ein ActiveX-Steuerelement dar.
 
@@ -19,12 +19,12 @@ public class Control : DomObject<ControlCollection>, IControl
 | Name | Beschreibung |
 | --- | --- |
 | [ActiveXControlBinary](../../aspose.slides/control/activexcontrolbinary) { get; } | Gibt die Persistenz eines ActiveX-Steuerelements an, wenn die zum Persistieren verwendete Methode entweder PersistStream, PersistStreamInit oder PersistStorage ist. |
-| [ClassId](../../aspose.slides/control/classid) { get; set; } | Liest die Klassen-ID dieses Steuerelements. Nur lesbarer Guid. |
-| [Frame](../../aspose.slides/control/frame) { get; set; } | Liefert oder setzt den Rahmen des Steuerelements. Lese/Schreib [`IShapeFrame`](../ishapeframe). |
-| [Name](../../aspose.slides/control/name) { get; set; } | Liest oder setzt den Namen dieses Steuerelements. Lese/Schreib String. |
-| [Persistence](../../aspose.slides/control/persistence) { get; } | Liest die Methode, die zum Speichern von Eigenschaften des ActiveX-Steuerelements verwendet wird. Nur lesbar [`PersistenceType`](../persistencetype). |
-| [Properties](../../aspose.slides/control/properties) { get; } | Liefert eine Sammlung von ActiveX-Eigenschaften. Hinweis: Aspose.Slides unterstützt nur XML-basierte ActiveX-Eigenschaften. Wenn Eigenschaften im Binärformat gespeichert sind, gibt diese Eigenschaft null zurück. Nur lesbar [`IControlPropertiesCollection`](../icontrolpropertiescollection). |
-| [SubstitutePictureFormat](../../aspose.slides/control/substitutepictureformat) { get; } | Liefert das Objekt für die Bildfüllungs-Eigenschaften des Steuerelements. Nur lesbar [`IPictureFillFormat`](../ipicturefillformat). |
+| [ClassId](../../aspose.slides/control/classid) { get; set; } | Holt die Klassen-ID dieses Steuerelements. Nur lesbare Guid. |
+| [Frame](../../aspose.slides/control/frame) { get; set; } | Gibt den Rahmen des Steuerelements zurück oder setzt ihn. Lese/Schreib [`IShapeFrame`](../ishapeframe). |
+| [Name](../../aspose.slides/control/name) { get; set; } | Holt oder setzt den Namen dieses Steuerelements. Lese/Schreib String. |
+| [Persistence](../../aspose.slides/control/persistence) { get; } | Holt die Methode, die zum Speichern von Eigenschaften des ActiveX-Steuerelements verwendet wird. Nur lesbar [`PersistenceType`](../persistencetype). |
+| [Properties](../../aspose.slides/control/properties) { get; } | Gibt eine Sammlung von ActiveX-Eigenschaften zurück. Hinweis: Aspose.Slides unterstützt nur XML-basierte ActiveX-Eigenschaften. Wenn Eigenschaften im Binärformat gespeichert werden, gibt diese Eigenschaft null zurück. Nur lesbar [`IControlPropertiesCollection`](../icontrolpropertiescollection). |
+| [SubstitutePictureFormat](../../aspose.slides/control/substitutepictureformat) { get; } | Gibt das Objekt für die Bildfüll-Eigenschaften der Steuerung zurück. Nur lesbar [`IPictureFillFormat`](../ipicturefillformat). |
 
 ### Siehe auch
 

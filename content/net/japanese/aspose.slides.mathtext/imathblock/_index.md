@@ -1,14 +1,14 @@
 ---
 title: IMathBlock
 second_title: Aspose.Sildes for .NET API リファレンス
-description: MathParagraph 内に含まれ、独自の行で開始する数式テキストのインスタンスを指定します。方程式、式、方程式や式の配列、そして数式はすべて Math ブロックで表されます。
+description: MathParagraph 内に含まれ、独自の行で開始される数式テキストのインスタンスを指定します。方程式、式、方程式または式の配列、そして数式はすべて数式ブロックで表現されます。
 type: docs
-weight: 8140
+weight: 8160
 url: /ja/aspose.slides.mathtext/imathblock/
 ---
 ## IMathBlock インターフェイス
 
-MathParagraph 内に含まれ、独自の行で開始する数式テキストのインスタンスを指定します。数式ブロックは、方程式、式、方程式や式の配列、そして数式を含むすべての数式領域を表します。
+指定された MathParagraph 内に含まれ、独自の行で開始される数式テキストのインスタンスを表します。数式ブロックは、方程式、式、方程式または式の配列、および数式を含むすべての数式領域を表現します。
 
 ```csharp
 public interface IMathBlock : IMathElement, IMathElementCollection
@@ -18,15 +18,15 @@ public interface IMathBlock : IMathElement, IMathElementCollection
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathblock/asimathelement) { get; } | ベースの IMathElement インターフェイスを取得できます [`IMathElement`](../imathelement) |
-| [AsIMathElementCollection](../../aspose.slides.mathtext/imathblock/asimathelementcollection) { get; } | ベースの IMathElementCollection インターフェイスを取得できます [`IMathElementCollection`](../imathelementcollection) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathblock/asimathelement) { get; } | ベースの IMathElement インターフェイス [`IMathElement`](../imathelement) を取得できます |
+| [AsIMathElementCollection](../../aspose.slides.mathtext/imathblock/asimathelementcollection) { get; } | ベースの IMathElementCollection インターフェイス [`IMathElementCollection`](../imathelementcollection) を取得できます |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
 | [Delimit](../../aspose.slides.mathtext/imathblock/delimit)(char) | 区切り文字（括弧なし）で全ての子要素を区切ります |
-| [Enclose](../../aspose.slides.mathtext/imathblock/enclose)(char, char, char) | 括弧などの指定文字でこのブロックの子要素を囲み、区切り文字で区切ります |
+| [Enclose](../../aspose.slides.mathtext/imathblock/enclose)(char, char, char) | 指定された文字（例: 括弧）でこのブロックの子要素を囲み、区切り文字で区切ります |
 | [JoinBlock](../../aspose.slides.mathtext/imathblock/joinblock)(IMathBlock) | 別の数式ブロックをこのブロックに結合します |
 | [WriteAsMathMl](../../aspose.slides.mathtext/imathblock/writeasmathml)(Stream) | この [`IMathBlock`](../imathblock) の内容を MathML として保存します |
 

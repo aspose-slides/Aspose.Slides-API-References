@@ -1,14 +1,14 @@
 ---
 title: IOptionalBlackTransition
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Effetto di transizione della diapositiva nera opzionale.
+second_title: Riferimento API di Aspose.Sildes per .NET
+description: Effetto di transizione nera opzionale per la diapositiva.
 type: docs
-weight: 10140
+weight: 10160
 url: /it/aspose.slides.slideshow/ioptionalblacktransition/
 ---
 ## IOptionalBlackTransition interfaccia
 
-Effetto di transizione della diapositiva nera facoltativo.
+Effetto di transizione nera opzionale per la diapositiva.
 
 ```csharp
 public interface IOptionalBlackTransition : ITransitionValueBase
@@ -19,7 +19,7 @@ public interface IOptionalBlackTransition : ITransitionValueBase
 | Nome | Descrizione |
 | --- | --- |
 | [AsITransitionValueBase](../../aspose.slides.slideshow/ioptionalblacktransition/asitransitionvaluebase) { get; } | Consente di ottenere l'interfaccia base ITransitionValueBase. Solo lettura [`ITransitionValueBase`](../itransitionvaluebase). |
-| [FromBlack](../../aspose.slides.slideshow/ioptionalblacktransition/fromblack) { get; set; } | Questo attributo specifica se la transizione inizierà da una schermata nera (e poi transiziona la nuova diapositiva su nero). Lettura/scrittura Boolean. |
+| [FromBlack](../../aspose.slides.slideshow/ioptionalblacktransition/fromblack) { get; set; } | Questo attributo specifica se la transizione inizierà da uno schermo nero (e poi transiterà la nuova diapositiva su nero). Lettura/scrittura Boolean. |
 
 ### Vedi anche
 

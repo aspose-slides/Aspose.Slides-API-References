@@ -1,9 +1,9 @@
 ---
 title: IControlCollection
-second_title: Aspose.Sildes для .NET Справочник API
+second_title: Aspose.Sildes для .NET справочник API
 description: Коллекция элементов управления ActiveX.
 type: docs
-weight: 5640
+weight: 5660
 url: /ru/aspose.slides/icontrolcollection/
 ---
 ## IControlCollection интерфейс
@@ -27,7 +27,7 @@ public interface IControlCollection : IGenericCollection<IControl>
 | [AddControl](../../aspose.slides/icontrolcollection/addcontrol)(ControlType, float, float, float, float) | Создаёт и добавляет новый элемент управления в коллекцию. |
 | [Clear](../../aspose.slides/icontrolcollection/clear)() | Удаляет все элементы управления из коллекции. |
 | [Remove](../../aspose.slides/icontrolcollection/remove)(IControl) | Удаляет элемент управления ActiveX из коллекции. |
-| [RemoveAt](../../aspose.slides/icontrolcollection/removeat)(int) | Удаляет элемент управления ActiveX, хранящийся в указанной позиции, из коллекции. |
+| [RemoveAt](../../aspose.slides/icontrolcollection/removeat)(int) | Удаляет из коллекции элемент управления ActiveX, хранящийся в указанной позиции. |
 
 ### См. также
 

@@ -1,14 +1,14 @@
 ---
 title: IBaseHandoutNotesSlideHeaderFooterManag
 second_title: Aspose.Sildes para .NET Referência da API
-description: Representa o gerenciador que mantém o comportamento dos placeholders, incluindo o placeholder de cabeçalho para todos os tipos de slides de folheto e notas.
+description: Representa o gerenciador que mantém o comportamento dos placeholders, incluindo o placeholder de cabeçalho para todos os tipos de slides de folhetos e notas.
 type: docs
-weight: 5290
+weight: 5310
 url: /pt/aspose.slides/ibasehandoutnotesslideheaderfootermanag/
 ---
 ## IBaseHandoutNotesSlideHeaderFooterManag interface
 
-Representa o gerenciador que mantém o comportamento dos placeholders, incluindo o placeholder de cabeçalho para todos os tipos de slides de folheto e notas.
+Representa o gerenciador que mantém o comportamento dos placeholders, incluindo o placeholder de cabeçalho para todos os tipos de slides de folhetos e notas.
 
 ```csharp
 public interface IBaseHandoutNotesSlideHeaderFooterManag : IBaseSlideHeaderFooterManager
@@ -19,7 +19,7 @@ public interface IBaseHandoutNotesSlideHeaderFooterManag : IBaseSlideHeaderFoote
 | Nome | Descrição |
 | --- | --- |
 | [AsIBaseSlideHeaderFooterManager](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/asibaseslideheaderfootermanager) { get; } | Retorna a interface IBaseSlideHeaderFooterManager. |
-| [IsHeaderVisible](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/isheadervisible) { get; } | Obtém o valor que indica que um placeholder de cabeçalho está presente. Lê Boolean. |
+| [IsHeaderVisible](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/isheadervisible) { get; } | Obtém valor que indica que um placeholder de cabeçalho está presente. Read Boolean. |
 
 ## Métodos
 
@@ -30,9 +30,9 @@ public interface IBaseHandoutNotesSlideHeaderFooterManag : IBaseSlideHeaderFoote
 
 ### Observações
 
-Original interface name "IBaseHandoutNotesSlideHeaderFooterManager" is trancuted to "IBaseHandoutNotesSlideHeaderFooterManag" for COM compatibility (type name length must be not more than 39).
+O nome original da interface "IBaseHandoutNotesSlideHeaderFooterManager" é trancuted para "IBaseHandoutNotesSlideHeaderFooterManag" para compatibilidade COM (type name length must be not more than 39).
 
-### Veja Também
+### Ver também
 
 * interface [IBaseSlideHeaderFooterManager](../ibaseslideheaderfootermanager)
 * namespace [Aspose.Slides](../../aspose.slides)

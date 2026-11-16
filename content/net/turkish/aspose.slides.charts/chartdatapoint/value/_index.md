@@ -1,9 +1,9 @@
 ---
 title: Value
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes for .NET API Referansı
 description: Değer. Salt okunur IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
-weight: 190
+weight: 230
 url: /tr/aspose.slides.charts/chartdatapoint/value/
 ---
 ## ChartDataPoint.Value özelliği

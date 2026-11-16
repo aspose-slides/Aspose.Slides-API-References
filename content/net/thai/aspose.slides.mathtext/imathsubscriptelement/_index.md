@@ -1,14 +1,14 @@
 ---
 title: IMathSubscriptElement
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: ระบุวัตถุตัวห้อยที่ประกอบด้วยฐานและตัวห้อยขนาดลดลงที่วางอยู่ด้านล่างและทางขวา.
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: ระบุอ็อบเจ็กต์ตัวห้อยซึ่งประกอบด้วยฐานและตัวห้อยขนาดเล็กที่วางอยู่ด้านล่างและทางขวา.
 type: docs
-weight: 8470
+weight: 8490
 url: /th/aspose.slides.mathtext/imathsubscriptelement/
 ---
-## IMathSubscriptElement อินเทอร์เฟซ
+## IMathSubscriptElement interface
 
-ระบุวัตถุตัวห้อย ซึ่งประกอบด้วยฐานและตัวห้อยขนาดลดลงที่วางอยู่ด้านล่างและทางขวา
+ระบุอ็อบเจ็กต์ตัวห้อย ซึ่งประกอบด้วยฐานและตัวห้อยขนาดเล็กที่วางอยู่ด้านล่างและทางขวา.
 
 ```csharp
 public interface IMathSubscriptElement : IMathElement
@@ -18,13 +18,14 @@ public interface IMathSubscriptElement : IMathElement
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathsubscriptelement/asimathelement) { get; } | อนุญาตให้ดึงฐานของอินเทอร์เฟซ IMathElement [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathsubscriptelement/asimathelement) { get; } | อนุญาตให้รับค่า base IMathElement interface [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathsubscriptelement/base) { get; } | อาร์กิวเมนต์ฐาน |
 | [Subscript](../../aspose.slides.mathtext/imathsubscriptelement/subscript) { get; } | ตัวห้อย |
 
 ### ตัวอย่าง
 
 ตัวอย่าง:
+
 ```csharp
 [C#]
 IMathSubscriptElement subscriptElement = new MathematicalText("N").SetSubscript("i");

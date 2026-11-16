@@ -1,14 +1,14 @@
 ---
 title: IOleEmbeddedDataInfo
 second_title: Aspose.Sildes for .NET API 参考
-description: 表示 OLE 对象的嵌入式数据信息。
+description: 表示 OLE 对象的嵌入数据信息。
 type: docs
-weight: 6530
+weight: 6550
 url: /zh/aspose.slides/ioleembeddeddatainfo/
 ---
 ## IOleEmbeddedDataInfo 接口
 
-表示 OLE 对象的嵌入式数据信息。
+表示 OLE 对象的嵌入数据信息。
 
 ```csharp
 public interface IOleEmbeddedDataInfo
@@ -18,10 +18,10 @@ public interface IOleEmbeddedDataInfo
 
 | 名称 | 描述 |
 | --- | --- |
-| [EmbeddedFileData](../../aspose.slides/ioleembeddeddatainfo/embeddedfiledata) { get; } | 返回嵌入 OLE 对象的文件数据，只读 Byte[]. |
-| [EmbeddedFileExtension](../../aspose.slides/ioleembeddeddatainfo/embeddedfileextension) { get; } | 返回当前嵌入 OLE 对象的文件扩展名，只读 String。 |
+| [EmbeddedFileData](../../aspose.slides/ioleembeddeddatainfo/embeddedfiledata) { get; } | 返回嵌入 OLE 对象的文件数据 只读 Byte[]. |
+| [EmbeddedFileExtension](../../aspose.slides/ioleembeddeddatainfo/embeddedfileextension) { get; } | 返回当前嵌入 OLE 对象的文件扩展名 只读 String. |
 
-### 另请参阅
+### 另请参见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

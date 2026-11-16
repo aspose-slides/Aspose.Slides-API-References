@@ -1,14 +1,14 @@
 ---
 title: ISlideShowTransition
-second_title: Aspose.Sildes برای .NET مرجع API
+second_title: مرجع API Aspose.Sildes برای .NET
 description: نمایانگر انتقال نمایش اسلاید.
 type: docs
-weight: 7080
+weight: 7100
 url: /fa/aspose.slides/islideshowtransition/
 ---
-## ISlideShowTransition رابط
+## واسط ISSlideShowTransition
 
-نمایانگر انتقال اسلاید.
+نمایانگر انتقال نمایش اسلاید است.
 
 ```csharp
 public interface ISlideShowTransition
@@ -18,22 +18,22 @@ public interface ISlideShowTransition
 
 | Name | Description |
 | --- | --- |
-| [AdvanceAfter](../../aspose.slides/islideshowtransition/advanceafter) { get; set; } | این ویژگی مشخص می‌کند که آیا نمایش اسلاید پس از زمان معینی به اسلاید بعدی می‌رود یا نه. خواندنی/نوشتنی Boolean. |
-| [AdvanceAfterTime](../../aspose.slides/islideshowtransition/advanceaftertime) { get; set; } | زمان را بر حسب میلی‌ثانیه مشخص می‌کند که پس از آن انتقال باید آغاز شود. این تنظیم می‌تواند همراه با ویژگی advClick استفاده شود. اگر این ویژگی مشخص نشود، فرض می‌شود که پیش‌روی خودکار انجام نمی‌شود. خواندنی/نوشتنی UInt32. |
-| [AdvanceOnClick](../../aspose.slides/islideshowtransition/advanceonclick) { get; set; } | مشخص می‌کند که آیا کلیک ماوس اسلاید را پیش‌برد می‌کند یا خیر. اگر این ویژگی مشخص نشود، مقدار true فرض می‌شود. خواندنی/نوشتنی Boolean. |
+| [AdvanceAfter](../../aspose.slides/islideshowtransition/advanceafter) { get; set; } | این ویژگی مشخص می‌کند که آیا نمایش اسلاید پس از زمان معینی به اسلاید بعدی حرکت می‌کند یا نه. خواندنی/نوشتنی Boolean. |
+| [AdvanceAfterTime](../../aspose.slides/islideshowtransition/advanceaftertime) { get; set; } | زمان را بر حسب میلی‌ثانیه مشخص می‌کند که پس از آن انتقال باید آغاز شود. این تنظیم می‌تواند همراه با ویژگی advClick استفاده شود. اگر این ویژگی مشخص نشده باشد، فرض می‌شود که هیچ پیشرفت خودکار رخ نمی‌دهد. خواندنی/نوشتنی UInt32. |
+| [AdvanceOnClick](../../aspose.slides/islideshowtransition/advanceonclick) { get; set; } | مشخص می‌کند که آیا کلیک ماوس اسلاید را پیش می‌برد یا خیر. اگر این ویژگی مشخص نشده باشد، مقدار true فرض می‌شود. خواندنی/نوشتنی Boolean. |
 | [Duration](../../aspose.slides/islideshowtransition/duration) { get; set; } | دوره اثر انتقال اسلاید را بر حسب میلی‌ثانیه دریافت یا تنظیم می‌کند. خواندنی/نوشتنی Int32. |
-| [Sound](../../aspose.slides/islideshowtransition/sound) { get; set; } | داده‌های صوتی جاسازی‌شده را دریافت یا تنظیم می‌کند. خواندنی/نوشتنی [`IAudio`](../iaudio). |
-| [SoundIsBuiltIn](../../aspose.slides/islideshowtransition/soundisbuiltin) { get; set; } | مشخص می‌کند که آیا این صدا یک صدای پیش‌فرض است یا نه. اگر این ویژگی بر true تنظیم شود، برنامه تولیدکننده هشدار می‌گیرد تا ویژگی name را که برای این صدا در فهرست صداهای پیش‌فرض آن تعریف شده است بررسی کند و در صورت نیاز نام یا رابط کاربری سفارشی را نمایش دهد. خواندنی/نوشتنی Boolean. |
-| [SoundLoop](../../aspose.slides/islideshowtransition/soundloop) { get; set; } | این ویژگی مشخص می‌کند که آیا صدا تا رخداد صوتی بعدی در نمایش اسلاید به‌صورت حلقه‌ای پخش شود. خواندنی/نوشتنی Boolean. |
+| [Sound](../../aspose.slides/islideshowtransition/sound) { get; set; } | داده‌های صوتی جاسازی شده را دریافت یا تنظیم می‌کند. خواندنی/نوشتنی [`IAudio`](../iaudio). |
+| [SoundIsBuiltIn](../../aspose.slides/islideshowtransition/soundisbuiltin) { get; set; } | مشخص می‌کند که آیا این صدا داخلی است یا خیر. اگر این ویژگی به مقدار true تنظیم شود، برنامه تولیدکننده هشدار می‌دهد تا ویژگی name مشخص‌شده برای این صدا را در فهرست صداهای داخلی بررسی کند و سپس در صورت نیاز نام یا رابط کاربری سفارشی ارائه دهد. خواندنی/نوشتنی Boolean. |
+| [SoundLoop](../../aspose.slides/islideshowtransition/soundloop) { get; set; } | این ویژگی مشخص می‌کند که آیا صدا تا وقوع رویداد صوتی بعدی در نمایش اسلاید حلقه می‌زند یا خیر. خواندنی/نوشتنی Boolean. |
 | [SoundMode](../../aspose.slides/islideshowtransition/soundmode) { get; set; } | حالت صدا برای انتقال اسلاید را تنظیم یا دریافت می‌کند. خواندنی/نوشتنی [`TransitionSoundMode`](../../aspose.slides.slideshow/transitionsoundmode). |
-| [SoundName](../../aspose.slides/islideshowtransition/soundname) { get; set; } | نامی قابل خواندن برای انسان برای صدای انتقال مشخص می‌کند. باید ویژگی [`Sound`](./sound) برای دریافت یا تنظیم نام صدا اختصاص داده شود. خواندنی/نوشتنی String. |
+| [SoundName](../../aspose.slides/islideshowtransition/soundname) { get; set; } | نام قابل‌خواندن برای صداهای انتقال را مشخص می‌کند. ویژگی [`Sound`](./sound) باید برای دریافت یا تنظیم نام صدا اختصاص داده شود. خواندنی/نوشتنی String. |
 | [Speed](../../aspose.slides/islideshowtransition/speed) { get; set; } | سرعت انتقالی که هنگام انتقال از اسلاید جاری به اسلاید بعدی استفاده می‌شود را مشخص می‌کند. خواندنی/نوشتنی [`TransitionSpeed`](../../aspose.slides.slideshow/transitionspeed). |
 | [Type](../../aspose.slides/islideshowtransition/type) { get; set; } | نوع انتقال. خواندنی/نوشتنی [`TransitionType`](../../aspose.slides.slideshow/transitiontype). |
-| [Value](../../aspose.slides/islideshowtransition/value) { get; } | مقدار انتقال نمایش اسلاید. فقط-خواندنی [`ITransitionValueBase`](../../aspose.slides.slideshow/itransitionvaluebase). |
+| [Value](../../aspose.slides/islideshowtransition/value) { get; } | مقدار انتقال نمایش اسلاید. فقط‌خواندنی [`ITransitionValueBase`](../../aspose.slides.slideshow/itransitionvaluebase). |
 
 ### موارد مرتبط
 
-* فضایی‌نام [Aspose.Slides](../../aspose.slides)
-* مونتاژ [Aspose.Slides](../../)
+* فضای‌نام [Aspose.Slides](../../aspose.slides)
+* مجتمع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

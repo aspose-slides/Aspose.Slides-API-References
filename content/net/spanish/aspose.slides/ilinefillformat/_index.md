@@ -3,7 +3,7 @@ title: ILineFillFormat
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa propiedades para el relleno de líneas.
 type: docs
-weight: 6290
+weight: 6310
 url: /es/aspose.slides/ilinefillformat/
 ---
 ## ILineFillFormat interfaz
@@ -20,7 +20,7 @@ public interface ILineFillFormat : IFillParamSource
 | --- | --- |
 | [AsIFillParamSource](../../aspose.slides/ilinefillformat/asifillparamsource) { get; } | Permite obtener la interfaz base IFillParamSource. Solo lectura [`IFillParamSource`](../ifillparamsource). |
 | [FillType](../../aspose.slides/ilinefillformat/filltype) { get; set; } | Devuelve o establece el tipo de relleno. Lectura/escritura [`FillType`](../filltype). |
-| [GradientFormat](../../aspose.slides/ilinefillformat/gradientformat) { get; } | Devuelve el formato de relleno degradado. Solo lectura [`IGradientFormat`](../igradientformat). |
+| [GradientFormat](../../aspose.slides/ilinefillformat/gradientformat) { get; } | Devuelve el formato de relleno de degradado. Solo lectura [`IGradientFormat`](../igradientformat). |
 | [PatternFormat](../../aspose.slides/ilinefillformat/patternformat) { get; } | Devuelve el formato de relleno de patrón. Solo lectura [`IPatternFormat`](../ipatternformat). |
 | [RotateWithShape](../../aspose.slides/ilinefillformat/rotatewithshape) { get; set; } | Determina si el relleno debe rotarse con una forma. Lectura/escritura [`NullableBool`](../nullablebool). |
 | [SolidFillColor](../../aspose.slides/ilinefillformat/solidfillcolor) { get; } | Devuelve el color de un relleno sólido. Solo lectura [`IColorFormat`](../icolorformat). |

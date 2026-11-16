@@ -1,14 +1,14 @@
 ---
 title: IColorOperation
-second_title: Aspose.Sildes for .NET API 참조
-description: 색 변환에 사용되는 다양한 색상 작업을 나타냅니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 색 변환에 사용되는 다양한 색 작업을 나타냅니다.
 type: docs
-weight: 5500
+weight: 5520
 url: /ko/aspose.slides/icoloroperation/
 ---
 ## IColorOperation 인터페이스
 
-색 변환에 사용되는 다양한 색상 작업을 나타냅니다.
+색 변환에 사용되는 다양한 색 작업을 나타냅니다.
 
 ```csharp
 public interface IColorOperation
@@ -21,7 +21,7 @@ public interface IColorOperation
 | [OperationType](../../aspose.slides/icoloroperation/operationtype) { get; } | 작업의 유형을 반환하거나 설정합니다. 읽기 전용 [`ColorTransformOperation`](../colortransformoperation). |
 | [Parameter](../../aspose.slides/icoloroperation/parameter) { get; } | 작업의 매개변수를 반환합니다. 읽기 전용 Single. |
 
-### 참고
+### 참조
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

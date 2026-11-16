@@ -1,14 +1,14 @@
 ---
 title: HyperlinkActionType
-second_title: Aspose.Sildes a .NET API referencia
-description: Egy hiperhivatkozás művelettípusát jelenti.
+second_title: Aspose.Sildes .NET API referencia
+description: Az hiperhivatkozás műveletének típusát képviseli.
 type: docs
-weight: 5130
+weight: 5150
 url: /hu/aspose.slides/hyperlinkactiontype/
 ---
-## HyperlinkActionType enumeráció
+## HyperlinkActionType felsorolás
 
-A hiperhivatkozás művelettípusát jelöli.
+Az hiperhivatkozás műveletének típusát képviseli.
 
 ```csharp
 public enum HyperlinkActionType
@@ -18,21 +18,21 @@ public enum HyperlinkActionType
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| Unknown | `-1` | Ismeretlen művelettípus. |
+| Unknown | `-1` | Ismeretlen akciótípus. |
 | NoAction | `0` | Nincs művelet. |
 | Hyperlink | `1` | Szokásos hiperhivatkozás. |
-| JumpFirstSlide | `2` | Ugrás a prezentáció első diájára. |
+| JumpFirstSlide | `2` | Ugrás a bemutató első diájára. |
 | JumpPreviousSlide | `3` | Ugrás az előző diára. |
 | JumpNextSlide | `4` | Ugrás a következő diára. |
-| JumpLastSlide | `5` | Ugrás a prezentáció utolsó diájára. |
+| JumpLastSlide | `5` | Ugrás a bemutató utolsó diájára. |
 | JumpEndShow | `6` | Ugrás a diavetítés végére. |
 | JumpLastViewedSlide | `7` | Ugrás az utoljára megtekintett diára. |
-| JumpSpecificSlide | `8` | Ugrás a meghatározott diára, amelyet a [`TargetSlide`](../ihyperlink/targetslide) tulajdonság határoz meg. |
-| StartCustomSlideShow | `9` | Egyéni diavetítés indítása. |
+| JumpSpecificSlide | `8` | Ugrás a meghatározott diára, amelyre a [`TargetSlide`](../ihyperlink/targetslide) tulajdonság hivatkozik. |
+| StartCustomSlideShow | `9` | Egyedi diavetítés indítása. |
 | OpenFile | `10` | Hivatkozott fájl megnyitása. |
-| OpenPresentation | `11` | Hivatkozott prezentáció megnyitása. |
-| StartStopMedia | `12` | Médiafájl lejátszásának indítása/megállítása. |
-| StartMacro | `13` | Makró szkript végrehajtásának indítása. |
+| OpenPresentation | `11` | Hivatkozott bemutató megnyitása. |
+| StartStopMedia | `12` | Médiafájl lejátszásának indítása/leállítása. |
+| StartMacro | `13` | Makrószkript végrehajtásának indítása. |
 | StartProgram | `14` | Program indítása. |
 
 ### Lásd még

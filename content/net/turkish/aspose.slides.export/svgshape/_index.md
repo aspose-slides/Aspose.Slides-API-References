@@ -1,9 +1,9 @@
 ---
 title: SvgShape
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: SVG şekli için seçenekleri temsil eder.
 type: docs
-weight: 4510
+weight: 4530
 url: /tr/aspose.slides.export/svgshape/
 ---
 ## SvgShape sınıfı

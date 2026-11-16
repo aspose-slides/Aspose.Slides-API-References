@@ -1,9 +1,9 @@
 ---
 title: Save
-second_title: Aspose.Sildes .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 프레젠테이션의 모든 슬라이드를 지정된 형식으로 파일에 저장합니다.
 type: docs
-weight: 390
+weight: 400
 url: /ko/aspose.slides/presentation/save/
 ---
 ## Save(string, SaveFormat) {#save_5}
@@ -14,17 +14,17 @@ url: /ko/aspose.slides/presentation/save/
 public void Save(string fname, SaveFormat format)
 ```
 
-| 매개 변수 | 형식 | 설명 |
+| 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
-| fname | String | 생성된 파일의 경로. |
-| format | SaveFormat | 내보낸 데이터의 형식. |
+| fname | String | Path to the created file. |
+| format | SaveFormat | Format of the exported data. |
 
-### 관련 항목
+### 참조
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
-* class [Presentation](../../presentation)
-* namespace [Aspose.Slides](../../presentation)
-* assembly [Aspose.Slides](../../../)
+* 클래스 [Presentation](../../presentation)
+* 네임스페이스 [Aspose.Slides](../../presentation)
+* 어셈블리 [Aspose.Slides](../../../)
 
 ---
 
@@ -36,17 +36,17 @@ public void Save(string fname, SaveFormat format)
 public void Save(Stream stream, SaveFormat format)
 ```
 
-| 매개 변수 | 형식 | 설명 |
+| 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
-| stream | Stream | 출력 스트림. |
-| format | SaveFormat | 내보낸 데이터의 형식. |
+| stream | Stream | Output stream. |
+| format | SaveFormat | Format of the exported data. |
 
-### 관련 항목
+### 참조
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
-* class [Presentation](../../presentation)
-* namespace [Aspose.Slides](../../presentation)
-* assembly [Aspose.Slides](../../../)
+* 클래스 [Presentation](../../presentation)
+* 네임스페이스 [Aspose.Slides](../../presentation)
+* 어셈블리 [Aspose.Slides](../../../)
 
 ---
 
@@ -56,13 +56,13 @@ public void Save(Stream stream, SaveFormat format)
 public void Save(string fname, SaveFormat format, ISaveOptions options)
 ```
 
-### 관련 항목
+### 참조
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
-* interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
-* class [Presentation](../../presentation)
-* namespace [Aspose.Slides](../../presentation)
-* assembly [Aspose.Slides](../../../)
+* 인터페이스 [ISaveOptions](../../../aspose.slides.export/isaveoptions)
+* 클래스 [Presentation](../../presentation)
+* 네임스페이스 [Aspose.Slides](../../presentation)
+* 어셈블리 [Aspose.Slides](../../../)
 
 ---
 
@@ -74,25 +74,25 @@ public void Save(string fname, SaveFormat format, ISaveOptions options)
 public void Save(Stream stream, SaveFormat format, ISaveOptions options)
 ```
 
-| 매개 변수 | 형식 | 설명 |
+| 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
-| stream | Stream | 출력 스트림. |
-| format | SaveFormat | 내보낸 데이터의 형식. |
-| options | ISaveOptions | 추가 형식 옵션. |
+| stream | Stream | Output stream. |
+| format | SaveFormat | Format of the exported data. |
+| options | ISaveOptions | Additional format options. |
 
 ### 예외
 
 | 예외 | 조건 |
 | --- | --- |
-| NotSupportedException | 암호화된 파일을 Office 2007-2010 형식이 아닌 형식으로 저장하려고 하면 |
- 
-### 관련 항목
+| NotSupportedException | If you try to save encrypted file in none Office 2007-2010 format |
+
+### 참조
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
-* interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
-* class [Presentation](../../presentation)
-* namespace [Aspose.Slides](../../presentation)
-* assembly [Aspose.Slides](../../../)
+* 인터페이스 [ISaveOptions](../../../aspose.slides.export/isaveoptions)
+* 클래스 [Presentation](../../presentation)
+* 네임스페이스 [Aspose.Slides](../../presentation)
+* 어셈블리 [Aspose.Slides](../../../)
 
 ---
 
@@ -104,7 +104,7 @@ public void Save(Stream stream, SaveFormat format, ISaveOptions options)
 public void Save(IXamlOptions options)
 ```
 
-| 매개 변수 | 형식 | 설명 |
+| 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
 | options | IXamlOptions | XAML 형식 옵션. |
 
@@ -118,116 +118,116 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### 관련 항목
+### 참조
 
-* interface [IXamlOptions](../../../aspose.slides.export.xaml/ixamloptions)
-* class [Presentation](../../presentation)
-* namespace [Aspose.Slides](../../presentation)
-* assembly [Aspose.Slides](../../../)
+* 인터페이스 [IXamlOptions](../../../aspose.slides.export.xaml/ixamloptions)
+* 클래스 [Presentation](../../presentation)
+* 네임스페이스 [Aspose.Slides](../../presentation)
+* 어셈블리 [Aspose.Slides](../../../)
 
 ---
 
 ## Save(string, int[], SaveFormat) {#save_7}
 
-프레젠테이션의 지정된 슬라이드를 페이지 번호를 유지하면서 지정된 형식의 파일에 저장합니다.
+프레젠테이션에서 지정된 슬라이드를 페이지 번호를 유지한 상태로 지정된 형식의 파일에 저장합니다.
 
 ```csharp
 public void Save(string fname, int[] slides, SaveFormat format)
 ```
 
-| 매개 변수 | 형식 | 설명 |
+| 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
-| fname | String | 생성된 파일의 경로. |
-| slides | Int32[] | 슬라이드 위치 배열, 1부터 시작합니다. |
-| format | SaveFormat | 내보낸 데이터의 형식. |
+| fname | String | Path to the created file. |
+| slides | Int32[] | Array with slide positions, starting from 1. |
+| format | SaveFormat | Format of the exported data. |
 
 ### 예외
 
 | 예외 | 조건 |
 | --- | --- |
-| ArgumentNullException | 스트림 또는 슬라이드 매개 변수가 null인 경우. |
-| ArgumentOutOfRangeException | 슬라이드 매개 변수가 잘못된 페이지 번호를 포함하는 경우. |
-| InvalidOperationException | 지원되지 않는 SaveFormat을 사용할 때, 예: PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+| ArgumentNullException | stream 또는 slides 매개변수가 null인 경우. |
+| ArgumentOutOfRangeException | slides 매개변수에 잘못된 페이지 번호가 포함된 경우. |
+| InvalidOperationException | 지원되지 않는 SaveFormat을 사용하는 경우(예: PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP). |
 
-### 관련 항목
+### 참조
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
-* class [Presentation](../../presentation)
-* namespace [Aspose.Slides](../../presentation)
-* assembly [Aspose.Slides](../../../)
+* 클래스 [Presentation](../../presentation)
+* 네임스페이스 [Aspose.Slides](../../presentation)
+* 어셈블리 [Aspose.Slides](../../../)
 
 ---
 
 ## Save(string, int[], SaveFormat, ISaveOptions) {#save_8}
 
-프레젠테이션의 지정된 슬라이드를 페이지 번호를 유지하면서 지정된 형식의 파일에 저장하고 추가 옵션을 적용합니다.
+프레젠테이션에서 지정된 슬라이드를 페이지 번호를 유지한 상태로 지정된 형식의 파일에 저장하고 추가 옵션을 적용합니다.
 
 ```csharp
 public void Save(string fname, int[] slides, SaveFormat format, ISaveOptions options)
 ```
 
-| 매개 변수 | 형식 | 설명 |
+| 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
-| fname | String | 생성된 파일의 경로. |
-| slides | Int32[] | 슬라이드 위치 배열, 1부터 시작합니다. |
-| format | SaveFormat | 내보낸 데이터의 형식. |
-| options | ISaveOptions | 추가 형식 옵션. |
+| fname | String | Path to the created file. |
+| slides | Int32[] | Array with slide positions, starting from 1. |
+| format | SaveFormat | Format of the exported data. |
+| options | ISaveOptions | Additional format options. |
 
-### 관련 항목
+### 참조
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
-* interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
-* class [Presentation](../../presentation)
-* namespace [Aspose.Slides](../../presentation)
-* assembly [Aspose.Slides](../../../)
+* 인터페이스 [ISaveOptions](../../../aspose.slides.export/isaveoptions)
+* 클래스 [Presentation](../../presentation)
+* 네임스페이스 [Aspose.Slides](../../presentation)
+* 어셈블리 [Aspose.Slides](../../../)
 
 ---
 
 ## Save(Stream, int[], SaveFormat) {#save_3}
 
-프레젠테이션의 지정된 슬라이드를 페이지 번호를 유지하면서 지정된 형식의 스트림에 저장합니다.
+프레젠테이션에서 지정된 슬라이드를 페이지 번호를 유지한 상태로 지정된 형식의 스트림에 저장합니다.
 
 ```csharp
 public void Save(Stream stream, int[] slides, SaveFormat format)
 ```
 
-| 매개 변수 | 형식 | 설명 |
+| 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
-| stream | Stream | 출력 스트림. |
-| slides | Int32[] | 슬라이드 위치 배열, 1부터 시작합니다. |
-| format | SaveFormat | 내보낸 데이터의 형식. |
+| stream | Stream | Output stream. |
+| slides | Int32[] | Array with slide positions, starting from 1. |
+| format | SaveFormat | Format of the exported data. |
 
-### 관련 항목
+### 참조
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
-* class [Presentation](../../presentation)
-* namespace [Aspose.Slides](../../presentation)
-* assembly [Aspose.Slides](../../../)
+* 클래스 [Presentation](../../presentation)
+* 네임스페이스 [Aspose.Slides](../../presentation)
+* 어셈블리 [Aspose.Slides](../../../)
 
 ---
 
 ## Save(Stream, int[], SaveFormat, ISaveOptions) {#save_4}
 
-프레젠테이션의 지정된 슬라이드를 페이지 번호를 유지하면서 지정된 형식의 스트림에 저장하고 추가 옵션을 적용합니다.
+프레젠테이션에서 지정된 슬라이드를 페이지 번호를 유지한 상태로 지정된 형식의 스트림에 저장하고 추가 옵션을 적용합니다.
 
 ```csharp
 public void Save(Stream stream, int[] slides, SaveFormat format, ISaveOptions options)
 ```
 
-| 매개 변수 | 형식 | 설명 |
+| 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
-| stream | Stream | 출력 스트림. |
-| slides | Int32[] | 슬라이드 위치 배열, 1부터 시작합니다. |
-| format | SaveFormat | 내보낸 데이터의 형식. |
-| options | ISaveOptions | 추가 형식 옵션. |
+| stream | Stream | Output stream. |
+| slides | Int32[] | Array with slide positions, starting from 1. |
+| format | SaveFormat | Format of the exported data. |
+| options | ISaveOptions | Additional format options. |
 
 ### 예외
 
 | 예외 | 조건 |
 | --- | --- |
-| ArgumentNullException | 스트림 또는 슬라이드 매개 변수가 null인 경우. |
-| ArgumentOutOfRangeException | 슬라이드 매개 변수가 잘못된 페이지 번호를 포함하는 경우. |
-| InvalidOperationException | 지원되지 않는 SaveFormat을 사용할 때, 예: PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+| ArgumentNullException | stream 또는 slides 매개변수가 null인 경우. |
+| ArgumentOutOfRangeException | slides 매개변수에 잘못된 페이지 번호가 포함된 경우. |
+| InvalidOperationException | 지원되지 않는 SaveFormat을 사용하는 경우(예: PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP). |
 
 ### 예제
 
@@ -245,7 +245,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-다음 예제는 맞춤 치수로 PowerPoint를 PNG로 변환하는 방법을 보여줍니다.
+다음 예제는 사용자 지정 차원으로 PowerPoint를 PNG로 변환하는 방법을 보여줍니다.
 
 ```csharp
 [C#]
@@ -261,7 +261,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-다음 예제는 맞춤 크기로 PowerPoint를 PNG로 변환하는 방법을 보여줍니다.
+다음 예제는 사용자 지정 크기로 PowerPoint를 PNG로 변환하는 방법을 보여줍니다.
 
 ```csharp
 [C#]
@@ -276,12 +276,12 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### 관련 항목
+### 참조
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
-* interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
-* class [Presentation](../../presentation)
-* namespace [Aspose.Slides](../../presentation)
-* assembly [Aspose.Slides](../../../)
+* 인터페이스 [ISaveOptions](../../../aspose.slides.export/isaveoptions)
+* 클래스 [Presentation](../../presentation)
+* 네임스페이스 [Aspose.Slides](../../presentation)
+* 어셈블리 [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

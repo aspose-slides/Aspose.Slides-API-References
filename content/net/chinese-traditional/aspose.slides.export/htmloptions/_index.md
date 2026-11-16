@@ -3,7 +3,7 @@ title: HtmlOptions
 second_title: Aspose.Sildes .NET API 參考
 description: 表示 HTML 匯出選項。
 type: docs
-weight: 3890
+weight: 3910
 url: /zh-hant/aspose.slides.export/htmloptions/
 ---
 ## HtmlOptions 類別
@@ -18,30 +18,30 @@ public class HtmlOptions : SaveOptions, IHtmlOptions
 
 | 名稱 | 說明 |
 | --- | --- |
-| [HtmlOptions](htmloptions#constructor)() | 建立一個新的 HtmlOptions 物件，用於儲存為單一 HTML 檔案。 |
-| [HtmlOptions](htmloptions#constructor_1)(ILinkEmbedController) | 建立一個新的 HtmlOptions 物件，指定回呼。 |
+| [HtmlOptions](htmloptions#constructor)() | 建立新的 HtmlOptions 物件以儲存為單一 HTML 檔案。 |
+| [HtmlOptions](htmloptions#constructor_1)(ILinkEmbedController) | 建立新的 HtmlOptions 物件，指定回呼函式。 |
 
 ## 屬性
 
 | 名稱 | 說明 |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | 返回或設定在找不到來源字型時使用的字型。讀/寫 String。 |
-| [DeletePicturesCroppedAreas](../../aspose.slides.export/htmloptions/deletepicturescroppedareas) { get; set; } | 布林旗標，指示裁切的部分是否保留在文件中。若為 true，裁切的部分將被移除；若為 false，則會以序列化方式保留在文件中（可能導致檔案變大）。 |
-| [DisableFontLigatures](../../aspose.slides.export/htmloptions/disablefontligatures) { get; set; } | 取得或設定一個值，指示文字是否在渲染時不使用連字。設定為 `true` 時，連字將在輸出中被停用。預設情況下，此屬性設定為 `false`。 |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | 返回或設定漸層的視覺樣式。讀/寫 [`GradientStyle`](../../aspose.slides/gradientstyle)。 |
-| [HtmlFormatter](../../aspose.slides.export/htmloptions/htmlformatter) { get; set; } | 返回或設定 HTML 模板。讀/寫 [`IHtmlFormatter`](../ihtmlformatter)。 |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | 在找不到來源字型時，傳回或設定使用的字型。可讀寫 String。 |
+| [DeletePicturesCroppedAreas](../../aspose.slides.export/htmloptions/deletepicturescroppedareas) { get; set; } | 代表布林旗標，指示裁切的部分是否保留為文件的一部份。若為 true，裁切的部分將被移除；若為 false，則會在文件中序列化（可能導致檔案變大）。 |
+| [DisableFontLigatures](../../aspose.slides.export/htmloptions/disablefontligatures) { get; set; } | 取得或設定是否在渲染文字時停用合字。設定為 `true` 時，渲染輸出將停用合字。預設設定為 `false`。 |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | 傳回或設定漸層的視覺樣式。可讀寫 [`GradientStyle`](../../aspose.slides/gradientstyle)。 |
+| [HtmlFormatter](../../aspose.slides.export/htmloptions/htmlformatter) { get; set; } | 傳回或設定 HTML 範本。可讀寫 [`IHtmlFormatter`](../ihtmlformatter)。 |
 | [InkOptions](../../aspose.slides.export/htmloptions/inkoptions) { get; } | 提供控制匯出文件中 Ink 物件外觀的選項。唯讀 [`IInkOptions`](../iinkoptions) |
-| [JpegQuality](../../aspose.slides.export/htmloptions/jpegquality) { get; set; } | 返回或設定決定 PDF 文件內 JPEG 圖片品質的值。讀/寫 Byte。 |
-| [PicturesCompression](../../aspose.slides.export/htmloptions/picturescompression) { get; set; } | 表示圖片的壓縮等級。 |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 表示一個用於以百分比儲存進度更新的回呼物件。請參閱 [`IProgressCallback`](../../aspose.slides/iprogresscallback)。 |
+| [JpegQuality](../../aspose.slides.export/htmloptions/jpegquality) { get; set; } | 傳回或設定決定 PDF 文件中 JPEG 圖片品質的值。可讀寫 Byte。 |
+| [PicturesCompression](../../aspose.slides.export/htmloptions/picturescompression) { get; set; } | 代表圖片壓縮等級 |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 代表用於保存進度更新（百分比）的回呼物件。請參閱 [`IProgressCallback`](../../aspose.slides/iprogresscallback)。 |
 | [ShowHiddenSlides](../../aspose.slides.export/htmloptions/showhiddenslides) { get; set; } | 指定產生的文件是否應包含隱藏投影片。預設為 `false`。 |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | 指定在儲存簡報時是否跳過包含 JavaScript 呼叫的超連結。讀/寫 Boolean。預設值為 **false**。 |
-| [SlideImageFormat](../../aspose.slides.export/htmloptions/slideimageformat) { get; set; } | 返回或設定投影片影像格式選項。讀/寫 [`ISlideImageFormat`](../islideimageformat)。 |
-| [SlidesLayoutOptions](../../aspose.slides.export/htmloptions/slideslayoutoptions) { get; set; } | 取得或設定在匯出簡報時投影片在頁面上的放置模式 [`ISlidesLayoutOptions`](../islideslayoutoptions)。 |
-| [SvgResponsiveLayout](../../aspose.slides.export/htmloptions/svgresponsivelayout) { get; set; } | 若設定為 true，則從 svg 容器中排除寬度與高度屬性——這將使版面配置具回應性。若為 false，則保留。讀/寫 Boolean。 |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 返回或設定接收警告並決定載入程序是否繼續或中止的物件。讀/寫 [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)。 |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | 指定在保存簡報時是否跳過含 JavaScript 呼叫的超連結。可讀寫 Boolean。預設值為 **false**。 |
+| [SlideImageFormat](../../aspose.slides.export/htmloptions/slideimageformat) { get; set; } | 傳回或設定投影片影像格式選項。可讀寫 [`ISlideImageFormat`](../islideimageformat)。 |
+| [SlidesLayoutOptions](../../aspose.slides.export/htmloptions/slideslayoutoptions) { get; set; } | 取得或設定匯出簡報時投影片在頁面上的排列模式 [`ISlidesLayoutOptions`](../islideslayoutoptions)。 |
+| [SvgResponsiveLayout](../../aspose.slides.export/htmloptions/svgresponsivelayout) { get; set; } | 設為 true 時，從 svg 容器排除 width 和 height 屬性 ─ 這將使版面配置具備回應式。設為 false 時則相反。可讀寫 Boolean。 |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 傳回或設定接收警告並決定載入程序是否繼續或中止的物件。可讀寫 [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)。 |
 
-### 參見
+### 另請參閱
 
 * 類別 [SaveOptions](../saveoptions)
 * 介面 [IHtmlOptions](../ihtmloptions)

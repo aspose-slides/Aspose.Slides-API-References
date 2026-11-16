@@ -3,7 +3,7 @@ title: IMathParagraphFactory
 second_title: Aspose.Sildes for .NET API 參考
 description: 允許建立數學段落
 type: docs
-weight: 8400
+weight: 8420
 url: /zh-hant/aspose.slides.mathtext/imathparagraphfactory/
 ---
 ## IMathParagraphFactory 介面
@@ -19,7 +19,7 @@ public interface IMathParagraphFactory
 | 名稱 | 說明 |
 | --- | --- |
 | [CreateMathParagraph](../../aspose.slides.mathtext/imathparagraphfactory/createmathparagraph#createmathparagraph)() | 建立空的數學段落 |
-| [CreateMathParagraph](../../aspose.slides.mathtext/imathparagraphfactory/createmathparagraph#createmathparagraph_1)(IMathBlock) | 建立一個數學段落，並將指定的數學區塊放入其中 |
+| [CreateMathParagraph](../../aspose.slides.mathtext/imathparagraphfactory/createmathparagraph#createmathparagraph_1)(IMathBlock) | 建立數學段落並將指定的 math block 放入其中 |
 
 ### 備註
 

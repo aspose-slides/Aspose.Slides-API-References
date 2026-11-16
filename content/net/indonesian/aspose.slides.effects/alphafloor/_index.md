@@ -1,14 +1,14 @@
 ---
 title: AlphaFloor
-second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili efek Alpha Floor. Nilai opacity Alpha yang kurang dari 100 diubah menjadi nol. Dengan kata lain, apa pun yang sebagian transparan menjadi sepenuhnya transparan.
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Mewakili efek Alpha Floor. Nilai opasitas Alpha yang kurang dari 100 diubah menjadi nol. Dengan kata lain, apa pun yang semi transparan menjadi sepenuhnya transparan.
 type: docs
-weight: 2860
+weight: 2880
 url: /id/aspose.slides.effects/alphafloor/
 ---
 ## AlphaFloor kelas
 
-Mewakili efek Alpha Floor. Nilai Alpha (opacity) kurang dari 100% diubah menjadi nol. Dengan kata lain, apa pun yang sebagian transparan menjadi sepenuhnya transparan.
+Mewakili efek Alpha Floor. Nilai Alpha (opasitas) kurang dari 100% diubah menjadi nol. Dengan kata lain, apa pun yang semi transparan menjadi sepenuhnya transparan.
 
 ```csharp
 public sealed class AlphaFloor : ImageTransformOperation, IAlphaFloor
@@ -18,7 +18,7 @@ public sealed class AlphaFloor : ImageTransformOperation, IAlphaFloor
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Mengizinkan untuk mendapatkan antarmuka IPresentationComponent dasar. Baca-saja [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Memungkinkan untuk mendapatkan antarmuka IPresentationComponent dasar. Hanya-baca [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Metode
 

@@ -1,14 +1,14 @@
 ---
 title: DrawingGuidesCollection
 second_title: Aspose.Sildes for .NET API 参考
-description: 表示可调节绘图指南的集合。
+description: 表示可调节绘图参考线的集合。
 type: docs
-weight: 2820
+weight: 2840
 url: /zh/aspose.slides/drawingguidescollection/
 ---
 ## DrawingGuidesCollection 类
 
-表示可调节绘图指南的集合。
+表示可调节绘图参考线的集合。
 
 ```csharp
 public sealed class DrawingGuidesCollection : IDrawingGuidesCollection
@@ -16,22 +16,22 @@ public sealed class DrawingGuidesCollection : IDrawingGuidesCollection
 
 ## 属性
 
-| Name | Description |
+| 名称 | 描述 |
 | --- | --- |
-| [Count](../../aspose.slides/drawingguidescollection/count) { get; } | 返回集合中元素的数量。只读 Int32. |
-| [Item](../../aspose.slides/drawingguidescollection/item) { get; } | 按索引返回绘图指南。只读 [`IDrawingGuide`](../idrawingguide). |
+| [Count](../../aspose.slides/drawingguidescollection/count) { get; } | 返回集合中元素的数量。只读 Int32。 |
+| [Item](../../aspose.slides/drawingguidescollection/item) { get; } | 返回按索引获取的绘图参考线。只读 [`IDrawingGuide`](../idrawingguide)。 |
 
 ## 方法
 
-| Name | Description |
+| 名称 | 描述 |
 | --- | --- |
-| [Add](../../aspose.slides/drawingguidescollection/add)(Orientation, float) | 在集合的末尾添加绘图指南。 |
-| [Clear](../../aspose.slides/drawingguidescollection/clear)() | 删除集合中的所有元素。 |
+| [Add](../../aspose.slides/drawingguidescollection/add)(Orientation, float) | 在集合的末尾添加绘图参考线。 |
+| [Clear](../../aspose.slides/drawingguidescollection/clear)() | 从集合中移除所有元素。 |
 | [CopyTo](../../aspose.slides/drawingguidescollection/copyto)(IDrawingGuide[], int) | 将集合中的所有元素复制到指定的数组。 |
-| [GetEnumerator](../../aspose.slides/drawingguidescollection/getenumerator)() | 返回一个遍历集合的枚举器。 |
-| [RemoveAt](../../aspose.slides/drawingguidescollection/removeat)(int) | 移除指定索引处的绘图指南。 |
+| [GetEnumerator](../../aspose.slides/drawingguidescollection/getenumerator)() | 返回遍历集合的枚举器。 |
+| [RemoveAt](../../aspose.slides/drawingguidescollection/removeat)(int) | 移除指定索引处的绘图参考线。 |
 
-### 另请参见
+### 参见
 
 * 接口 [IDrawingGuidesCollection](../idrawingguidescollection)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

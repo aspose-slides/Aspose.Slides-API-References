@@ -1,9 +1,9 @@
 ---
 title: IMathParagraphFactory
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Slides .NET API 参考
 description: 允许创建数学段落
 type: docs
-weight: 8400
+weight: 8420
 url: /zh/aspose.slides.mathtext/imathparagraphfactory/
 ---
 ## IMathParagraphFactory 接口
@@ -18,14 +18,14 @@ public interface IMathParagraphFactory
 
 | 名称 | 描述 |
 | --- | --- |
-| [CreateMathParagraph](../../aspose.slides.mathtext/imathparagraphfactory/createmathparagraph#createmathparagraph)() | 创建空的数学段落 |
-| [CreateMathParagraph](../../aspose.slides.mathtext/imathparagraphfactory/createmathparagraph#createmathparagraph_1)(IMathBlock) | 创建数学段落并将指定的数学块放入其中 |
+| [CreateMathParagraph](../../aspose.slides.mathtext/imathparagraphfactory/createmathparagraph#createmathparagraph)() | Create empty math paragraph |
+| [CreateMathParagraph](../../aspose.slides.mathtext/imathparagraphfactory/createmathparagraph#createmathparagraph_1)(IMathBlock) | Creates a math paragraph and places the specified math block in it |
 
 ### 备注
 
 用于 COM 兼容性
 
-### 另见
+### 另请参阅
 
 * 命名空间 [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * 程序集 [Aspose.Slides](../../)

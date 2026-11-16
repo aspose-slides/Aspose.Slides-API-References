@@ -1,14 +1,14 @@
 ---
 title: IHSLEffectiveData
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Representa un efecto de Matiz/Saturación/Luminancia. El matiz, la saturación y la luminancia pueden ajustarse individualmente respecto a su valor actual.
+second_title: Referencia de API de Aspose.Sildes para .NET
+description: Representa un efecto de tono/saturación/luminancia. El tono, la saturación y la luminancia pueden ajustarse respecto a su valor actual.
 type: docs
-weight: 3370
+weight: 3390
 url: /es/aspose.slides.effects/ihsleffectivedata/
 ---
-## IHSLEffectiveData interface
+## IHSLEffectiveData interfaz
 
-Representa un efecto de Matiz/Saturación/Luminancia. El matiz, la saturación y la luminancia pueden ajustarse individualmente respecto a su valor actual.
+Representa un efecto de tono/saturación/luminancia. El tono, la saturación y la luminancia pueden ajustarse respecto a su valor actual.
 
 ```csharp
 public interface IHSLEffectiveData : IEffectEffectiveData
@@ -19,9 +19,9 @@ public interface IHSLEffectiveData : IEffectEffectiveData
 | Nombre | Descripción |
 | --- | --- |
 | [AsIEffectEffectiveData](../../aspose.slides.effects/ihsleffectivedata/asieffecteffectivedata) { get; } | Permite obtener la interfaz base IEffectEffectiveData. Solo lectura [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Hue](../../aspose.slides.effects/ihsleffectivedata/hue) { get; } | Devuelve el porcentaje de matiz. Solo lectura Single. |
-| [Luminance](../../aspose.slides.effects/ihsleffectivedata/luminance) { get; } | Devuelve el porcentaje de luminancia. Solo lectura Single. |
-| [Saturation](../../aspose.slides.effects/ihsleffectivedata/saturation) { get; } | Devuelve el porcentaje de saturación. Solo lectura Single. |
+| [Hue](../../aspose.slides.effects/ihsleffectivedata/hue) { get; } | Devuelve el porcentaje del tono. Solo lectura Single. |
+| [Luminance](../../aspose.slides.effects/ihsleffectivedata/luminance) { get; } | Devuelve el porcentaje de la luminancia. Solo lectura Single. |
+| [Saturation](../../aspose.slides.effects/ihsleffectivedata/saturation) { get; } | Devuelve el porcentaje de la saturación. Solo lectura Single. |
 
 ### Ver también
 

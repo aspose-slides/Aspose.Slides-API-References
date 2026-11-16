@@ -1,9 +1,9 @@
 ---
 title: IMasterThemeable
-second_title: Aspose.Sildes для .NET справочника API
+second_title: Aspose.Sildes для .NET справочник API
 description: Представляет менеджер основной темы.
 type: docs
-weight: 11330
+weight: 11350
 url: /ru/aspose.slides.theme/imasterthemeable/
 ---
 ## IMasterThemeable интерфейс
@@ -18,7 +18,7 @@ public interface IMasterThemeable : IThemeable
 
 | Имя | Описание |
 | --- | --- |
-| [AsIThemeable](../../aspose.slides.theme/imasterthemeable/asithemeable) { get; } | Возвращает интерфейс IThemeable. Только для чтения [`IThemeable`](../ithemeable). |
+| [AsIThemeable](../../aspose.slides.theme/imasterthemeable/asithemeable) { get; } | Возвращает IThemeable интерфейс. Только для чтения [`IThemeable`](../ithemeable). |
 | [ThemeManager](../../aspose.slides.theme/imasterthemeable/thememanager) { get; } | Возвращает менеджер основной темы. Только для чтения [`IMasterThemeManager`](../imasterthememanager). |
 
 ### См. также

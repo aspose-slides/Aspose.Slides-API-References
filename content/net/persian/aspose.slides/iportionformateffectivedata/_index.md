@@ -1,31 +1,31 @@
 ---
 title: IPortionFormatEffectiveData
-second_title: Aspose.Sildes برای .NET مرجع API
-description: شیء غیرقابل تغییر که شامل ویژگی‌های قالب‌بندی مؤثر بخش متن است.
+second_title: Aspose.Sildes برای مرجع API .NET
+description: شیء تغییرناپذیر که شامل ویژگی‌های قالب‌بندی مؤثر بخش متن است.
 type: docs
-weight: 6740
+weight: 6760
 url: /fa/aspose.slides/iportionformateffectivedata/
 ---
 ## IPortionFormatEffectiveData رابط
 
-شیء غیرقابل تغییر که شامل ویژگی‌های قالب‌بندی مؤثر بخش متن است.
+شیء تغییرناپذیری که شامل ویژگی‌های قالب‌بندی مؤثر بخش متن است.
 
 ```csharp
 public interface IPortionFormatEffectiveData : IBasePortionFormatEffectiveData
 ```
 
-## ویژگی‌ها
+## خواص
 
-| Name | Description |
+| نام | توضیح |
 | --- | --- |
 | [AsIBasePortionFormatEffectiveData](../../aspose.slides/iportionformateffectivedata/asibaseportionformateffectivedata) { get; } | باز می‌گرداند IBasePortionFormatEffectiveData رابط. |
-| [BookmarkId](../../aspose.slides/iportionformateffectivedata/bookmarkid) { get; } | باز می‌گرداند شناسهٔ نشانک. فقط خواندنی String. |
-| [HyperlinkClick](../../aspose.slides/iportionformateffectivedata/hyperlinkclick) { get; } | باز می‌گرداند پیوند تعریف‌شده برای کلیک ماوس. فقط خواندنی [`IHyperlink`](../ihyperlink). |
-| [HyperlinkMouseOver](../../aspose.slides/iportionformateffectivedata/hyperlinkmouseover) { get; } | باز می‌گرداند پیوند تعریف‌شده برای شناور ماوس. فقط خواندنی [`IHyperlink`](../ihyperlink). |
+| [BookmarkId](../../aspose.slides/iportionformateffectivedata/bookmarkid) { get; } | باز می‌گرداند شناسه نشانک. فقط-خواندنی String. |
+| [HyperlinkClick](../../aspose.slides/iportionformateffectivedata/hyperlinkclick) { get; } | باز می‌گرداند پیوند تعریف شده برای کلیک ماوس. فقط-خواندنی [`IHyperlink`](../ihyperlink). |
+| [HyperlinkMouseOver](../../aspose.slides/iportionformateffectivedata/hyperlinkmouseover) { get; } | باز می‌گرداند پیوند تعریف شده برای حرکت ماوس. فقط-خواندنی [`IHyperlink`](../ihyperlink). |
 
-### یادداشت‌ها
+### توضیحات
 
-این رابط همراه با رابط [`IPortionFormat`](../iportionformat) استفاده می‌شود تا مقادیر قالب‌بندی مؤثر با ارث‌بری اعمال‌شده را بازگرداند.
+این رابط همراه با رابط [`IPortionFormat`](../iportionformat) برای بازگرداندن مقادیر قالب‌بندی مؤثر با اعمال ارث‌بری استفاده می‌شود.
 
 ### موارد مرتبط
 

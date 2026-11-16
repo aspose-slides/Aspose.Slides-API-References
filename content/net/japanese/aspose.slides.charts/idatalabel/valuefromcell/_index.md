@@ -3,7 +3,7 @@ title: ValueFromCell
 second_title: Aspose.Sildes の .NET API リファレンス
 description: ワークブック データ セルを取得または設定します。IDataLabelFormat.ShowLabelValueFromCell プロパティが true の場合に適用されます。
 type: docs
-weight: 60
+weight: 70
 url: /ja/aspose.slides.charts/idatalabel/valuefromcell/
 ---
 ## IDataLabel.ValueFromCell プロパティ

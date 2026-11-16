@@ -1,14 +1,14 @@
 ---
 title: IMasterNotesSlideHeaderFooterManager
 second_title: Aspose.Sildes .NET के लिए API संदर्भ
-description: मास्टर नोट्स स्लाइड फुटर, डेट-टाइम, पेज नंबर प्लेसहोल्डर्स और सभी चाइल्ड प्लेसहोल्डर्स के व्यवहार को रखने वाले प्रबंधक को दर्शाता है। चाइल्ड प्लेसहोल्डर का अर्थ है कि प्लेसहोल्डर निर्भर नोट्स स्लाइड्स में समाहित होते हैं। निर्भर नोट्स स्लाइड्स मास्टर नोट्स स्लाइड का उपयोग करती हैं और उस पर निर्भर करती हैं।
+description: मास्टर नोट्स स्लाइड फुटर, दिनांक-समय, पेज नंबर प्लेसहोल्डर और सभी चाइल्ड प्लेसहोल्डर के व्यवहार को रखता है। चाइल्ड प्लेसहोल्डर का अर्थ है कि प्लेसहोल्डर निर्भर नोट्स स्लाइड्स में शामिल होते हैं। निर्भर नोट्स स्लाइड्स मास्टर नोट्स स्लाइड का उपयोग करती हैं और उस पर निर्भर करती हैं।
 type: docs
-weight: 6400
+weight: 6420
 url: /hi/aspose.slides/imasternotesslideheaderfootermanager/
 ---
 ## IMasterNotesSlideHeaderFooterManager इंटरफ़ेस
 
-मास्टर नोट्स स्लाइड फुटर, डेट-टाइम, पेज नंबर प्लेसहोल्डर्स और सभी चाइल्ड प्लेसहोल्डर्स के व्यवहार को रखता है। चाइल्ड प्लेसहोल्डर का अर्थ है कि प्लेसहोल्डर निर्भर नोट्स स्लाइड्स पर होते हैं। निर्भर नोट्स स्लाइड्स मास्टर नोट्स स्लाइड का उपयोग करती हैं और उसपर निर्भर करती हैं।
+मास्टर नोट्स स्लाइड फुटर, दिनांक-समय, पेज नंबर प्लेसहोल्डर और सभी चाइल्ड प्लेसहोल्डर के व्यवहार को रखता है। चाइल्ड प्लेसहोल्डर का अर्थ है कि प्लेसहोल्डर निर्भर नोट्स स्लाइड्स पर शामिल होते हैं। निर्भर नोट्स स्लाइड्स मास्टर नोट्स स्लाइड का उपयोग करती हैं और उस पर निर्भर करती हैं।
 
 ```csharp
 public interface IMasterNotesSlideHeaderFooterManager : IBaseHandoutNotesSlideHeaderFooterManag
@@ -18,24 +18,24 @@ public interface IMasterNotesSlideHeaderFooterManager : IBaseHandoutNotesSlideHe
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIBaseHandoutNotesSlideHeaderFooterManag](../../aspose.slides/imasternotesslideheaderfootermanager/asibasehandoutnotesslideheaderfootermanag) { get; } | वापस देता है IBaseHandoutNotesSlideHeaderFooterManag इंटरफ़ेस। |
+| [AsIBaseHandoutNotesSlideHeaderFooterManag](../../aspose.slides/imasternotesslideheaderfootermanager/asibasehandoutnotesslideheaderfootermanag) { get; } | IBaseHandoutNotesSlideHeaderFooterManag इंटरफ़ेस को वापस करता है। |
 
 ## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | सेट करता है पाठ को मास्टर नोट्स स्लाइड डेट-टाइम प्लेसहोल्डर और सभी चाइल्ड डेट-टाइम प्लेसहोल्डर्स पर। चाइल्ड प्लेसहोल्डर का अर्थ है कि प्लेसहोल्डर निर्भर नोट्स स्लाइड्स पर होते हैं। निर्भर नोट्स स्लाइड्स मास्टर नोट्स स्लाइड का उपयोग करती हैं और उसपर निर्भर करती हैं। |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | बदलता है मास्टर नोट्स स्लाइड डेट-टाइम प्लेसहोल्डर और सभी चाइल्ड डेट-टाइम प्लेसहोल्डर्स की दृश्यता को। चाइल्ड प्लेसहोल्डर का अर्थ है कि प्लेसहोल्डर निर्भर नोट्स स्लाइड्स पर होते हैं। निर्भर नोट्स स्लाइड्स मास्टर नोट्स स्लाइड का उपयोग करती हैं और उसपर निर्भर करती हैं। |
-| [SetFooterAndChildFootersText](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfooterstext)(string) | सेट करता है पाठ को मास्टर नोट्स स्लाइड फुटर प्लेसहोल्डर और सभी चाइल्ड फुटर प्लेसहोल्डर्स पर। चाइल्ड प्लेसहोल्डर का अर्थ है कि प्लेसहोल्डर निर्भर नोट्स स्लाइड्स पर होते हैं। निर्भर नोट्स स्लाइड्स मास्टर नोट्स स्लाइड का उपयोग करती हैं और उसपर निर्भर करती हैं। |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | बदलता है मास्टर नोट्स स्लाइड फुटर प्लेसहोल्डर और सभी चाइल्ड फुटर प्लेसहोल्डर्स की दृश्यता को। चाइल्ड प्लेसहोल्डर का अर्थ है कि प्लेसहोल्डर निर्भर नोट्स स्लाइड्स पर होते हैं। निर्भर नोट्स स्लाइड्स मास्टर नोट्स स्लाइड का उपयोग करती हैं और उसपर निर्भर करती हैं। |
-| [SetHeaderAndChildHeadersText](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheaderstext)(string) | सेट करता है पाठ को मास्टर नोट्स स्लाइड हेडर प्लेसहोल्डर और सभी चाइल्ड हेडर प्लेसहोल्डर्स पर। चाइल्ड प्लेसहोल्डर का अर्थ है कि प्लेसहोल्डर निर्भर नोट्स स्लाइड्स पर होते हैं। निर्भर नोट्स स्लाइड्स मास्टर नोट्स स्लाइड का उपयोग करती हैं और उसपर निर्भर करती हैं। |
-| [SetHeaderAndChildHeadersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheadersvisibility)(bool) | बदलता है मास्टर नोट्स स्लाइड हेडर प्लेसहोल्डर और सभी चाइल्ड हेडर प्लेसहोल्डर्स की दृश्यता को। चाइल्ड प्लेसहोल्डर का अर्थ है कि प्लेसहोल्डर निर्भर नोट्स स्लाइड्स पर होते हैं। निर्भर नोट्स स्लाइड्स मास्टर नोट्स स्लाइड का उपयोग करती हैं और उसपर निर्भर करती हैं। |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | बदलता है मास्टर नोट्स स्लाइड पेज नंबर प्लेसहोल्डर और सभी चाइल्ड पेज नंबर प्लेसहोल्डर्स की दृश्यता को। चाइल्ड प्लेसहोल्डर का अर्थ है कि प्लेसहोल्डर निर्भर नोट्स स्लाइड्स पर होते हैं। निर्भर नोट्स स्लाइड्स मास्टर नोट्स स्लाइड का उपयोग करती हैं और उसपर निर्भर करती हैं। |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | मास्टर नोट्स स्लाइड दिनांक-समय प्लेसहोल्डर और सभी चाइल्ड दिनांक-समय प्लेसहोल्डर में टेक्स्ट सेट करता है। चाइल्ड प्लेसहोल्डर का अर्थ है कि प्लेसहोल्डर निर्भर नोट्स स्लाइड्स पर शामिल होते हैं। निर्भर नोट्स स्लाइड्स मास्टर नोट्स स्लाइड का उपयोग करती हैं और उस पर निर्भर करती हैं। |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | मास्टर नोट्स स्लाइड दिनांक-समय प्लेसहोल्डर और सभी चाइल्ड दिनांक-समय प्लेसहोल्डर की दृश्यमानता बदलता है। चाइल्ड प्लेसहोल्डर का अर्थ है कि प्लेसहोल्डर निर्भर नोट्स स्लाइड्स पर शामिल होते हैं। निर्भर नोट्स स्लाइड्स मास्टर नोट्स स्लाइड का उपयोग करती हैं और उस पर निर्भर करती हैं। |
+| [SetFooterAndChildFootersText](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfooterstext)(string) | मास्टर नोट्स स्लाइड फुटर प्लेसहोल्डर और सभी चाइल्ड फुटर प्लेसहोल्डर में टेक्स्ट सेट करता है। चाइल्ड प्लेसहोल्डर का अर्थ है कि प्लेसहोल्डर निर्भर नोट्स स्लाइड्स पर शामिल होते हैं। निर्भर नोट्स स्लाइड्स मास्टर नोट्स स्लाइड का उपयोग करती हैं और उस पर निर्भर करती हैं। |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | मास्टर नोट्स स्लाइड फुटर प्लेसहोल्डर और सभी चाइल्ड फुटर प्लेसहोल्डर की दृश्यमानता बदलता है। चाइल्ड प्लेसहोल्डर का अर्थ है कि प्लेसहोल्डर निर्भर नोट्स स्लाइड्स पर शामिल होते हैं। निर्भर नोट्स स्लाइड्स मास्टर नोट्स स्लाइड का उपयोग करती हैं और उस पर निर्भर करती हैं। |
+| [SetHeaderAndChildHeadersText](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheaderstext)(string) | मास्टर नोट्स स्लाइड हेडर प्लेसहोल्डर और सभी चाइल्ड हेडर प्लेसहोल्डर में टेक्स्ट सेट करता है। चाइल्ड प्लेसहोल्डर का अर्थ है कि प्लेसहोल्डर निर्भर नोट्स स्लाइड्स पर शामिल होते हैं। निर्भर नोट्स स्लाइड्स मास्टर नोट्स स्लाइड का उपयोग करती हैं और उस पर निर्भर करती हैं। |
+| [SetHeaderAndChildHeadersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheadersvisibility)(bool) | मास्टर नोट्स स्लाइड हेडर प्लेसहोल्डर और सभी चाइल्ड हेडर प्लेसहोल्डर की दृश्यमानता बदलता है। चाइल्ड प्लेसहोल्डर का अर्थ है कि प्लेसहोल्डर निर्भर नोट्स स्लाइड्स पर शामिल होते हैं। निर्भर नोट्स स्लाइड्स मास्टर नोट्स स्लाइड का उपयोग करती हैं और उस पर निर्भर करती हैं। |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | मास्टर नोट्स स्लाइड पेज नंबर प्लेसहोल्डर और सभी चाइल्ड पेज नंबर प्लेसहोल्डर की दृश्यमानता बदलता है। चाइल्ड प्लेसहोल्डर का अर्थ है कि प्लेसहोल्डर निर्भर नोट्स स्लाइड्स पर शामिल होते हैं। निर्भर नोट्स स्लाइड्स मास्टर नोट्स स्लाइड का उपयोग करती हैं और उस पर निर्भर करती हैं। |
 
 ### देखें
 
 * इंटरफ़ेस [IBaseHandoutNotesSlideHeaderFooterManag](../ibasehandoutnotesslideheaderfootermanag)
-* नामस्थान [Aspose.Slides](../../aspose.slides)
+* नेमस्पेस [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

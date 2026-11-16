@@ -1,14 +1,14 @@
 ---
 title: Flavor
-second_title: Aspose.Sildes .NET API 참조
-description: 프로그램에서 사용되는 모든 마크다운 사양.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 프로그램에서 사용되는 모든 markdown 사양.
 type: docs
-weight: 3800
+weight: 3820
 url: /ko/aspose.slides.export/flavor/
 ---
 ## Flavor 열거형
 
-프로그램에서 사용되는 모든 마크다운 사양.
+프로그램에서 사용되는 모든 markdown 사양.
 
 ```csharp
 public enum Flavor
@@ -18,34 +18,34 @@ public enum Flavor
 
 | 이름 | 값 | 설명 |
 | --- | --- | --- |
-| Github | `0` | Github 변형. |
-| Gruber | `1` | Gruber 변형. |
-| MultiMarkdown | `2` | Multi 마크다운 변형. |
-| CommonMark | `3` | Common mark 변형. |
-| MarkdownExtra | `4` | Markdown extra 변형. |
-| Pandoc | `5` | Pandoc 변형. |
-| Kramdown | `6` | Kramdown 변형. |
-| Markua | `7` | Markua 변형. |
-| Maruku | `8` | Maruku 변형. |
-| Markdown2 | `9` | Markdown2 변형. |
-| Remarkable | `10` | Remarkable 변형 |
-| Showdown | `11` | Showdown 변형. |
-| Ghost | `12` | Ghost 변형. |
-| GitLab | `13` | Gitlab 변형. |
-| Haroopad | `14` | Haroopad 변형. |
-| IaWriter | `15` | IAWriter 변형. |
-| Redcarpet | `16` | Redcarpet 변형. |
-| ScholarlyMarkdown | `17` | Scholarly 마크다운 변형. |
-| Taiga | `18` | Taiga 변형. |
-| Trello | `19` | Trello 변형. |
-| S9ETextFormatter | `20` | S9E text formatter 변형. |
-| XWiki | `21` | XWiki 변형. |
-| StackOverflow | `22` | Stack overflow 변형. |
-| Default | `23` | Default 마크다운 변형. |
+| Github | `0` | Github 버전. |
+| Gruber | `1` | Gruber 버전. |
+| MultiMarkdown | `2` | Multi markdown 버전. |
+| CommonMark | `3` | Common mark 버전. |
+| MarkdownExtra | `4` | Markdown extra 버전. |
+| Pandoc | `5` | Pandoc 버전. |
+| Kramdown | `6` | Kramdown 버전. |
+| Markua | `7` | Markua 버전. |
+| Maruku | `8` | Maruku 버전. |
+| Markdown2 | `9` | Markdown2 버전. |
+| Remarkable | `10` | Remarkable 버전 |
+| Showdown | `11` | Showdown 버전. |
+| Ghost | `12` | Ghost 버전. |
+| GitLab | `13` | Gitlab 버전. |
+| Haroopad | `14` | Haroopad 버전. |
+| IaWriter | `15` | IAWriter 버전. |
+| Redcarpet | `16` | Redcarpet 버전. |
+| ScholarlyMarkdown | `17` | Scholarly markdown 버전. |
+| Taiga | `18` | Taiga 버전. |
+| Trello | `19` | Trello 버전. |
+| S9ETextFormatter | `20` | S9E text formatter 버전. |
+| XWiki | `21` | XWiki 버전. |
+| StackOverflow | `22` | Stack overflow 버전. |
+| Default | `23` | Default markdown 버전. |
 
-### 예제
+### 예시
 
-예제:
+Example:
 
 ```csharp
 [C#]

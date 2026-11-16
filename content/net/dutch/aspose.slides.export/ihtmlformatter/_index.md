@@ -3,7 +3,7 @@ title: IHtmlFormatter
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Stelt een HTML-bestandssjabloon voor.
 type: docs
-weight: 3940
+weight: 3960
 url: /nl/aspose.slides.export/ihtmlformatter/
 ---
 ## IHtmlFormatter interface

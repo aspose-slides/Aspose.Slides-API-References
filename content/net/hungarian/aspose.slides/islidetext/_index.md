@@ -1,14 +1,14 @@
 ---
 title: ISlideText
-second_title: Aspose.Sildes a .NET API hivatkozáshoz
-description: A diáról kinyert szöveget reprezentálja
+second_title: Aspose.Sildes for .NET API Referenciája
+description: A diáról kinyert szöveget képviseli
 type: docs
-weight: 7100
+weight: 7120
 url: /hu/aspose.slides/islidetext/
 ---
 ## ISlideText interfész
 
-A diáról kinyert szöveget reprezentálja
+A diáról kivont szöveget képviseli
 
 ```csharp
 public interface ISlideText
@@ -19,9 +19,9 @@ public interface ISlideText
 | Név | Leírás |
 | --- | --- |
 | [CommentsText](../../aspose.slides/islidetext/commentstext) { get; } | A dia megjegyzéseinek szövege |
-| [LayoutText](../../aspose.slides/islidetext/layouttext) { get; } | A diára vonatkozó elrendezés oldal alakzatainak szövege |
-| [MasterText](../../aspose.slides/islidetext/mastertext) { get; } | A diára vonatkozó mesteroldal alakzatainak szövege |
-| [NotesText](../../aspose.slides/islidetext/notestext) { get; } | A diára vonatkozó jegyzetoldal alakzatainak szövege |
+| [LayoutText](../../aspose.slides/islidetext/layouttext) { get; } | A layout oldal alakzatainak szövege ehhez a diához |
+| [MasterText](../../aspose.slides/islidetext/mastertext) { get; } | A mesteroldal alakzatainak szövege ehhez a diához |
+| [NotesText](../../aspose.slides/islidetext/notestext) { get; } | A jegyzetoldal alakzatainak szövege ehhez a diához |
 | [Text](../../aspose.slides/islidetext/text) { get; } | A dia alakzatainak szövege |
 
 ### Lásd még

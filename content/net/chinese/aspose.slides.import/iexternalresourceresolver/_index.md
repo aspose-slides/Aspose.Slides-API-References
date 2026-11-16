@@ -1,14 +1,14 @@
 ---
 title: IExternalResourceResolver
-second_title: Aspose.Sildes .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 用于在 Html、Svg 文档导入期间解析外部资源的回调接口。
 type: docs
-weight: 7490
+weight: 7510
 url: /zh/aspose.slides.import/iexternalresourceresolver/
 ---
 ## IExternalResourceResolver 接口
 
-用于在 Html、Svg 文档导入期间解析外部资源的回调接口。
+在 Html、Svg 文档导入期间，用于解析外部资源的回调接口。
 
 ```csharp
 public interface IExternalResourceResolver
@@ -19,9 +19,9 @@ public interface IExternalResourceResolver
 | 名称 | 描述 |
 | --- | --- |
 | [GetEntity](../../aspose.slides.import/iexternalresourceresolver/getentity)(string) | 将 URI 映射到包含实际资源的对象。 |
-| [ResolveUri](../../aspose.slides.import/iexternalresourceresolver/resolveuri)(string, string) | 从基准和相对 URI 解析出绝对 URI。 |
+| [ResolveUri](../../aspose.slides.import/iexternalresourceresolver/resolveuri)(string, string) | 从基准 URI 和相对 URI 解析出绝对 URI。 |
 
-### 另见
+### 另请参见
 
 * 命名空间 [Aspose.Slides.Import](../../aspose.slides.import)
 * 程序集 [Aspose.Slides](../../)

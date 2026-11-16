@@ -3,12 +3,12 @@ title: ChartThemeManager
 second_title: Aspose.Sildes pro .NET API Reference
 description: Poskytuje přístup k přepsanému motivu grafu.
 type: docs
-weight: 11060
+weight: 11080
 url: /cs/aspose.slides.theme/chartthememanager/
 ---
 ## ChartThemeManager třída
 
-Provides access to chart theme overriden.
+Poskytuje přístup k přepsanému motivu grafu.
 
 ```csharp
 public class ChartThemeManager : BaseOverrideThemeManager
@@ -18,14 +18,14 @@ public class ChartThemeManager : BaseOverrideThemeManager
 
 | Název | Popis |
 | --- | --- |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Určuje, zda OverrideTheme přepisuje zděděný efektivní motiv nebo ne. Pro povolení přepisování OverrideTheme použijte metody OverrideTheme.Init*(). Pro zakázání přepisování OverrideTheme použijte metodu OverrideTheme.Clear(). Pouze ke čtení Boolean. |
-| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Vrací objekt přepisovaného motivu. Čtení/zápis [`IOverrideTheme`](../ioverridetheme). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Určuje, zda OverrideTheme přepisuje zděděný účinný motiv nebo ne. Pro povolení přepisování OverrideTheme použijte metody OverrideTheme.Init*(). Pro zakázání přepisování OverrideTheme použijte metodu OverrideTheme.Clear(). Pouze pro čtení Boolean. |
+| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Vrací objekt přepisujícího motivu. Čtení/zápis [`IOverrideTheme`](../ioverridetheme). |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | Aplikuje extra barevné schéma na snímek. |
+| [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | Použije extra barevné schéma na snímek. |
 | [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | Vrací objekt motivu. |
 
 ### Viz také

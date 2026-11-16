@@ -1,14 +1,14 @@
 ---
 title: IGenericCloneableT
-second_title: Tham khảo API Aspose.Sildes cho .NET
-description: Đại diện cho phiên bản tổng quát của ICloneable
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Đại diện cho phiên bản generic của ICloneable
 type: docs
-weight: 5950
+weight: 5970
 url: /vi/aspose.slides/igenericcloneable-1/
 ---
-## IGenericCloneable&lt;T&gt; giao diện
+## IGenericCloneable<T> giao diện
 
-Đại diện cho phiên bản tổng quát của ICloneable
+Đại diện cho phiên bản generic của ICloneable
 
 ```csharp
 public interface IGenericCloneable<T> : ICloneable
@@ -16,7 +16,7 @@ public interface IGenericCloneable<T> : ICloneable
 
 | Tham số | Mô tả |
 | --- | --- |
-| T | Kiểu của đối tượng để sao chép |
+| T | Kiểu của đối tượng cần sao chép |
 
 ## Thuộc tính
 

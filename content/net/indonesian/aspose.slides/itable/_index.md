@@ -1,12 +1,12 @@
 ---
 title: ITable
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili sebuah tabel pada slide.
 type: docs
-weight: 7230
+weight: 7250
 url: /id/aspose.slides/itable/
 ---
-## Antarmuka ITable
+## ITable antarmuka
 
 Mewakili sebuah tabel pada slide.
 
@@ -16,26 +16,26 @@ public interface ITable : IBulkTextFormattable, IGraphicalObject
 
 ## Properti
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
-| [AsIBulkTextFormattable](../../aspose.slides/itable/asibulktextformattable) { get; } | Mengizinkan untuk mendapatkan antarmuka dasar IBulkTextFormattable. Hanya-baca [`IBulkTextFormattable`](../ibulktextformattable). |
-| [AsIGraphicalObject](../../aspose.slides/itable/asigraphicalobject) { get; } | Mengizinkan untuk mendapatkan antarmuka dasar IGraphicalObject. Hanya-baca [`IGraphicalObject`](../igraphicalobject). |
-| [Columns](../../aspose.slides/itable/columns) { get; } | Mengembalikan koleksi kolom. Hanya-baca [`IColumnCollection`](../icolumncollection). |
-| [FirstCol](../../aspose.slides/itable/firstcol) { get; set; } | Menentukan apakah kolom pertama dari sebuah tabel harus digambar dengan format khusus. Baca/tulis Boolean. |
-| [FirstRow](../../aspose.slides/itable/firstrow) { get; set; } | Menentukan apakah baris pertama dari sebuah tabel harus digambar dengan format khusus. Baca/tulis Boolean. |
-| [HorizontalBanding](../../aspose.slides/itable/horizontalbanding) { get; set; } | Menentukan apakah baris genap harus digambar dengan format yang berbeda. Baca/tulis Boolean. |
-| [Item](../../aspose.slides/itable/item) { get; } | Mengembalikan sel pada indeks kolom dan baris yang ditentukan. Hanya-baca [`ICell`](../icell). |
-| [LastCol](../../aspose.slides/itable/lastcol) { get; set; } | Menentukan apakah kolom terakhir dari sebuah tabel harus digambar dengan format khusus. Baca/tulis Boolean. |
-| [LastRow](../../aspose.slides/itable/lastrow) { get; set; } | Menentukan apakah baris terakhir dari sebuah tabel harus digambar dengan format khusus. Baca/tulis Boolean. |
-| [RightToLeft](../../aspose.slides/itable/righttoleft) { get; set; } | Menentukan apakah tabel memiliki urutan bacaan dari kanan ke kiri. Baca/tulis Boolean. |
-| [Rows](../../aspose.slides/itable/rows) { get; } | Mengembalikan koleksi baris. Hanya-baca [`IRowCollection`](../irowcollection). |
+| [AsIBulkTextFormattable](../../aspose.slides/itable/asibulktextformattable) { get; } | Mengizinkan untuk mendapatkan antarmuka dasar IBulkTextFormattable. Baca-saja [`IBulkTextFormattable`](../ibulktextformattable). |
+| [AsIGraphicalObject](../../aspose.slides/itable/asigraphicalobject) { get; } | Mengizinkan untuk mendapatkan antarmuka dasar IGraphicalObject. Baca-saja [`IGraphicalObject`](../igraphicalobject). |
+| [Columns](../../aspose.slides/itable/columns) { get; } | Mengembalikan koleksi kolom. Baca-saja [`IColumnCollection`](../icolumncollection). |
+| [FirstCol](../../aspose.slides/itable/firstcol) { get; set; } | Menentukan apakah kolom pertama dari sebuah tabel harus digambar dengan pemformatan khusus. Baca/tulis Boolean. |
+| [FirstRow](../../aspose.slides/itable/firstrow) { get; set; } | Menentukan apakah baris pertama dari sebuah tabel harus digambar dengan pemformatan khusus. Baca/tulis Boolean. |
+| [HorizontalBanding](../../aspose.slides/itable/horizontalbanding) { get; set; } | Menentukan apakah baris genap harus digambar dengan pemformatan yang berbeda. Baca/tulis Boolean. |
+| [Item](../../aspose.slides/itable/item) { get; } | Mengembalikan sel pada indeks kolom dan baris yang ditentukan. Baca-saja [`ICell`](../icell). |
+| [LastCol](../../aspose.slides/itable/lastcol) { get; set; } | Menentukan apakah kolom terakhir dari sebuah tabel harus digambar dengan pemformatan khusus. Baca/tulis Boolean. |
+| [LastRow](../../aspose.slides/itable/lastrow) { get; set; } | Menentukan apakah baris terakhir dari sebuah tabel harus digambar dengan pemformatan khusus. Baca/tulis Boolean. |
+| [RightToLeft](../../aspose.slides/itable/righttoleft) { get; set; } | Menentukan apakah tabel memiliki urutan baca kanan ke kiri. Baca/tulis Boolean. |
+| [Rows](../../aspose.slides/itable/rows) { get; } | Mengembalikan koleksi baris. Baca-saja [`IRowCollection`](../irowcollection). |
 | [StylePreset](../../aspose.slides/itable/stylepreset) { get; set; } | Mendapatkan atau mengatur gaya tabel bawaan. Baca/tulis [`TableStylePreset`](../tablestylepreset). |
-| [TableFormat](../../aspose.slides/itable/tableformat) { get; } | Mengembalikan objek TableFormat yang berisi properti format untuk tabel ini. Hanya-baca [`ITableFormat`](../itableformat). |
-| [VerticalBanding](../../aspose.slides/itable/verticalbanding) { get; set; } | Menentukan apakah kolom genap harus digambar dengan format yang berbeda. Baca/tulis Boolean. |
+| [TableFormat](../../aspose.slides/itable/tableformat) { get; } | Mengembalikan objek TableFormat yang berisi properti pemformatan untuk tabel ini. Baca-saja [`ITableFormat`](../itableformat). |
+| [VerticalBanding](../../aspose.slides/itable/verticalbanding) { get; set; } | Menentukan apakah kolom genap harus digambar dengan pemformatan yang berbeda. Baca/tulis Boolean. |
 
 ## Metode
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
 | [MergeCells](../../aspose.slides/itable/mergecells)(ICell, ICell, bool) | Menggabungkan sel tetangga. |
 
@@ -43,7 +43,7 @@ public interface ITable : IBulkTextFormattable, IGraphicalObject
 
 * antarmuka [IBulkTextFormattable](../ibulktextformattable)
 * antarmuka [IGraphicalObject](../igraphicalobject)
-* ruang nama [Aspose.Slides](../../aspose.slides)
+* namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,14 +1,14 @@
 ---
 title: MathFunctionsOfOneArgument
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 1引数の一般的な数学関数
+description: 単一引数の共通数学関数
 type: docs
-weight: 8740
+weight: 8760
 url: /ja/aspose.slides.mathtext/mathfunctionsofoneargument/
 ---
 ## MathFunctionsOfOneArgument 列挙体
 
-1 引数の一般的な数学関数
+単一引数の共通数学関数
 
 ```csharp
 public enum MathFunctionsOfOneArgument

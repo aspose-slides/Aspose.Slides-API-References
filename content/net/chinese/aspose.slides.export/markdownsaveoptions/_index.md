@@ -1,14 +1,14 @@
 ---
 title: MarkdownSaveOptions
-second_title: Aspose.Sildes for .NET API 参考
-description: 表示控制演示文稿应如何保存为 markdown 的选项。
+second_title: Aspose.Sildes .NET API 参考
+description: 表示控制演示文稿保存为 markdown 的选项。
 type: docs
-weight: 4250
+weight: 4270
 url: /zh/aspose.slides.export/markdownsaveoptions/
 ---
 ## MarkdownSaveOptions 类
 
-表示控制演示文稿应如何保存为 markdown 的选项。
+表示控制演示文稿如何保存为 markdown 的选项。
 
 ```csharp
 public class MarkdownSaveOptions : SaveOptions
@@ -24,22 +24,22 @@ public class MarkdownSaveOptions : SaveOptions
 
 | 名称 | 描述 |
 | --- | --- |
-| [BasePath](../../aspose.slides.export/markdownsaveoptions/basepath) { get; set; } | 指定保存包含资源的文档的基础路径。默认是应用程序的当前目录。 |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | 返回或设置在未找到源字体时使用的字体。可读写 String。 |
+| [BasePath](../../aspose.slides.export/markdownsaveoptions/basepath) { get; set; } | 指定保存带资源的文档的基础路径。默认是应用程序的当前目录。 |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | 返回或设置在未找到源字体时使用的字体。读写 String。 |
 | [ExportType](../../aspose.slides.export/markdownsaveoptions/exporttype) { get; set; } | 指定用于转换演示文稿的 Markdown 规范。默认是 `TextOnly`。 |
 | [Flavor](../../aspose.slides.export/markdownsaveoptions/flavor) { get; set; } | 指定用于转换演示文稿的 Markdown 规范。默认是 `Multi-markdown`。 |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | 返回或设置渐变的视觉样式。可读写 [`GradientStyle`](../../aspose.slides/gradientstyle)。 |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | 返回或设置渐变的可视样式。读写 [`GradientStyle`](../../aspose.slides/gradientstyle)。 |
 | [HandleRepeatedSpaces](../../aspose.slides.export/markdownsaveoptions/handlerepeatedspaces) { get; set; } |  |
-| [ImagesSaveFolderName](../../aspose.slides.export/markdownsaveoptions/imagessavefoldername) { get; set; } | 指定保存图像的文件夹名称。默认是 `Images`。 |
-| [NewLineType](../../aspose.slides.export/markdownsaveoptions/newlinetype) { get; set; } | 指定生成的文档应使用的换行符：\\r（Macintosh）、\\n（Unix）或\\r\\n（Windows）。默认是 `Unix`。 |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 表示用于保存进度更新（以百分比计）的回调对象。参见 [`IProgressCallback`](../../aspose.slides/iprogresscallback)。 |
-| [RemoveEmptyLines](../../aspose.slides.export/markdownsaveoptions/removeemptylines) { get; set; } | 如果设置为 `true`，则会从最终的 Markdown 输出中删除空行或仅包含空白的行。默认是 `false`。 |
+| [ImagesSaveFolderName](../../aspose.slides.export/markdownsaveoptions/imagessavefoldername) { get; set; } | 指定用于保存图像的文件夹名称。默认是 `Images`。 |
+| [NewLineType](../../aspose.slides.export/markdownsaveoptions/newlinetype) { get; set; } | 指定生成的文档应使用的换行符：\\r（Macintosh），\\n（Unix）或 \\r\\n（Windows）。默认是 `Unix`。 |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 表示用于以百分比保存进度更新的回调对象。参见 [`IProgressCallback`](../../aspose.slides/iprogresscallback)。 |
+| [RemoveEmptyLines](../../aspose.slides.export/markdownsaveoptions/removeemptylines) { get; set; } | 如果设置为 `true`，则从最终的 Markdown 输出中删除空行或仅包含空白的行。默认是 `false`。 |
 | [ShowComments](../../aspose.slides.export/markdownsaveoptions/showcomments) { get; set; } | 指定生成的文档是否显示注释。默认是 `false`。 |
-| [ShowHiddenSlides](../../aspose.slides.export/markdownsaveoptions/showhiddenslides) { get; set; } | 指定生成的文档是否包含隐藏的幻灯片。默认是 `false`。 |
+| [ShowHiddenSlides](../../aspose.slides.export/markdownsaveoptions/showhiddenslides) { get; set; } | 指定生成的文档是否包括隐藏幻灯片。默认是 `false`。 |
 | [ShowSlideNumber](../../aspose.slides.export/markdownsaveoptions/showslidenumber) { get; set; } | 指定生成的文档是否显示每张幻灯片的编号。默认是 `false`。 |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | 指定在保存演示文稿时是否跳过带有 JavaScript 调用的超链接。可读写 Boolean。默认值为 **false**。 |
-| [SlideNumberFormat](../../aspose.slides.export/markdownsaveoptions/slidenumberformat) { get; set; } | 获取或设置用于 Markdown 输出中幻灯片编号标题的格式字符串。格式必须包含 "{0}" 占位符，在导出时会被幻灯片索引替换。例如："# Slide {0}" 将生成 "# Slide 1"、"# Slide 2" 等。 |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 返回或设置接收警告并决定加载过程是继续还是中止的对象。可读写 [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)。 |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | 指定在保存演示文稿时是否跳过带有 JavaScript 调用的超链接。读写 Boolean。默认值为 **false**。 |
+| [SlideNumberFormat](../../aspose.slides.export/markdownsaveoptions/slidenumberformat) { get; set; } | 获取或设置用于在 Markdown 输出中显示幻灯片编号标题的格式字符串。该格式必须包含 "{0}" 占位符，在导出时将被幻灯片索引替换。示例："# Slide {0}" 将生成 "# Slide 1"、"# Slide 2" 等。 |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 返回或设置一个接收警告并决定加载过程是继续还是中止的对象。读写 [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)。 |
 
 ### 示例
 
@@ -62,7 +62,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### 另请参见
+### 另见
 
 * 类 [SaveOptions](../saveoptions)
 * 命名空间 [Aspose.Slides.Export](../../aspose.slides.export)

@@ -1,14 +1,14 @@
 ---
 title: ChartTitle
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Vertegenwoordigt de eigenschappen van de diagramtitel.
+description: Geeft de eigenschappen van de grafiektitel weer.
 type: docs
-weight: 1490
+weight: 1500
 url: /nl/aspose.slides.charts/charttitle/
 ---
 ## ChartTitle klasse
 
-Vertegenwoordigt de eigenschappen van de diagramtitel.
+Representeert de eigenschappen van de grafiektitel.
 
 ```csharp
 public class ChartTitle : IChartTitle
@@ -16,34 +16,34 @@ public class ChartTitle : IChartTitle
 
 ## Eigenschappen
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/charttitle/actualheight) { get; } | Specificeert de werkelijke hoogte van het diagramonderdeel. Roep methode IChart.ValidateChartLayout() aan voordat u de werkelijke waarden opvraagt. Alleen-lezen Single. |
-| [ActualWidth](../../aspose.slides.charts/charttitle/actualwidth) { get; } | Specificeert de werkelijke breedte van het diagramonderdeel. Roep methode IChart.ValidateChartLayout() aan voordat u de werkelijke waarden opvraagt. Alleen-lezen Single. |
-| [ActualX](../../aspose.slides.charts/charttitle/actualx) { get; } | Specificeert de werkelijke x-locatie (links) van het diagramonderdeel ten opzichte van de linkerbovenhoek van het diagram. Roep methode IChart.ValidateChartLayout() aan voordat u de werkelijke waarden opvraagt. Alleen-lezen Single. |
-| [ActualY](../../aspose.slides.charts/charttitle/actualy) { get; } | Specificeert de werkelijke bovenkant van het diagramonderdeel ten opzichte van de linkerbovenhoek van het diagram. Roep methode IChart.ValidateChartLayout() aan voordat u de werkelijke waarden opvraagt. Alleen-lezen Single. |
+| [ActualHeight](../../aspose.slides.charts/charttitle/actualheight) { get; } | Specificeert de werkelijke hoogte van het grafiekelement. Roep methode IChart.ValidateChartLayout() aan vóór het verkrijgen van de werkelijke waarden. Lezen Single. |
+| [ActualWidth](../../aspose.slides.charts/charttitle/actualwidth) { get; } | Specificeert de werkelijke breedte van het grafiekelement. Roep methode IChart.ValidateChartLayout() aan vóór het verkrijgen van de werkelijke waarden. Lezen Single. |
+| [ActualX](../../aspose.slides.charts/charttitle/actualx) { get; } | Specificeert de werkelijke x-locatie (links) van het grafiekelement relatief t.o.v. de linkerbovenhoek van het grafiek. Roep methode IChart.ValidateChartLayout() aan vóór het verkrijgen van de werkelijke waarden. Lezen Single. |
+| [ActualY](../../aspose.slides.charts/charttitle/actualy) { get; } | Specificeert de werkelijke bovenkant van het grafiekelement relatief t.o.v. de linkerbovenhoek van het grafiek. Roep methode IChart.ValidateChartLayout() aan vóór het verkrijgen van de werkelijke waarden. Lezen Single. |
 | [Bottom](../../aspose.slides.charts/charttitle/bottom) { get; } | Onderkant. Alleen-lezen Single. |
-| [Chart](../../aspose.slides.charts/charttitle/chart) { get; } | Geeft de bovenliggende diagram terug. Alleen-lezen [`IChart`](../ichart). |
+| [Chart](../../aspose.slides.charts/charttitle/chart) { get; } | Geeft de bovenliggende grafiek terug. Alleen-lezen [`IChart`](../ichart). |
 | [Format](../../aspose.slides.charts/charttitle/format) { get; } | Geeft de vul-, lijn- en effectstijlen van een titel terug. Alleen-lezen [`IFormat`](../iformat). |
-| [Height](../../aspose.slides.charts/charttitle/height) { get; set; } | Geeft de hoogte van een titel terug of stelt deze in als een fractie van de hoogte van het diagram. Lezen/Schrijven Single. |
-| [Overlay](../../aspose.slides.charts/charttitle/overlay) { get; set; } | Bepaalt of andere diagramonderdelen de titel mogen overlappen. Lezen/Schrijven Boolean. |
+| [Height](../../aspose.slides.charts/charttitle/height) { get; set; } | Geeft de hoogte van een titel terug of stelt deze in als een fractie van de hoogte van het grafiek. Lezen/Schrijven Single. |
+| [Overlay](../../aspose.slides.charts/charttitle/overlay) { get; set; } | Bepaalt of andere grafiekelementen de titel mogen overlappen. Lezen/Schrijven Boolean. |
 | [Right](../../aspose.slides.charts/charttitle/right) { get; } | Rechts. Alleen-lezen Single. |
-| [TextFormat](../../aspose.slides.charts/charttitle/textformat) { get; } | Geeft het tekstformaat terug. Alleen-lezen [`IChartTextFormat`](../icharttextformat). |
-| [TextFrameForOverriding](../../aspose.slides.charts/charttitle/textframeforoverriding) { get; } | Kan een rijk opgemaakte tekst bevatten. Als deze eigenschap niet null is, dan overschrijft deze opgemaakte tekstwaarde automatisch gegenereerde tekst. Automatisch gegenereerde tekst is een impliciete eigenschap van het gegevenslabel, het weergave-eenheidslabel van de waarde-as, de as-titel, de diagramtitel, het label van de trendlijn. Automatisch gegenereerde tekst wordt opgemaakt met de IFormattedTextContainer.TextFormat-eigenschap. Alleen-lezen [`ITextFrame`](../../aspose.slides/itextframe). |
-| [Width](../../aspose.slides.charts/charttitle/width) { get; set; } | Geeft de breedte van een titel terug of stelt deze in als een fractie van de breedte van het diagram. Lezen/Schrijven Single. |
-| [X](../../aspose.slides.charts/charttitle/x) { get; set; } | Geeft de x-coördinaat van een titel terug of stelt deze in als een fractie van de breedte van het diagram. Lezen/Schrijven Single. |
-| [Y](../../aspose.slides.charts/charttitle/y) { get; set; } | Geeft de y-coördinaat van een titel terug of stelt deze in als een fractie van de hoogte van het diagram. Lezen/Schrijven Single. |
+| [TextFormat](../../aspose.slides.charts/charttitle/textformat) { get; } | Geeft tekstformaat terug. Alleen-lezen [`IChartTextFormat`](../icharttextformat). |
+| [TextFrameForOverriding](../../aspose.slides.charts/charttitle/textframeforoverriding) { get; } | Kan een rijk opgemaakte tekst bevatten. Als deze eigenschap niet null is, dan overschrijft deze opgemaakte tekstwaarde de automatisch gegenereerde tekst. Automatisch gegenereerde tekst is een impliciete eigenschap van het data-label, het weergave-eenheid-label van de waardenas, de as-titel, de grafiektitel, het label van de trendlijn. Automatisch gegenereerde tekst wordt opgemaakt met de eigenschap IFormattedTextContainer.TextFormat. Alleen-lezen [`ITextFrame`](../../aspose.slides/itextframe). |
+| [Width](../../aspose.slides.charts/charttitle/width) { get; set; } | Geeft de breedte van een titel terug of stelt deze in als een fractie van de breedte van het grafiek. Lezen/Schrijven Single. |
+| [X](../../aspose.slides.charts/charttitle/x) { get; set; } | Geeft de x-coördinaat van een titel terug of stelt deze in als een fractie van de breedte van het grafiek. Lezen/Schrijven Single. |
+| [Y](../../aspose.slides.charts/charttitle/y) { get; set; } | Geeft de y-coördinaat van een titel terug of stelt deze in als een fractie van de hoogte van het grafiek. Lezen/Schrijven Single. |
 
 ## Methoden
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
-| [AddTextFrameForOverriding](../../aspose.slides.charts/charttitle/addtextframeforoverriding)(string) | Initialiseert TextFrameForOverriding met de tekst in parameter "text". Als TextFrameForOverriding al is geïnitialiseerd, wijzigt het eenvoudigweg de tekst. |
+| [AddTextFrameForOverriding](../../aspose.slides.charts/charttitle/addtextframeforoverriding)(string) | Initialiseert TextFrameForOverriding met de tekst in parameter "text". Als TextFrameForOverriding al is geïnitialiseerd, wijzigt dan eenvoudig de tekst. |
 
 ### Zie ook
 
 * interface [IChartTitle](../icharttitle)
-* naamruimte [Aspose.Slides.Charts](../../aspose.slides.charts)
+* namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
 * assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

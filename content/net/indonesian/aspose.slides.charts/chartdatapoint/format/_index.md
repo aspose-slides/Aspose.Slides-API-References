@@ -1,9 +1,9 @@
 ---
 title: Format
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili properti pemformatan. Baca/tulis IFormataspose.slides.charts/iformat.
 type: docs
-weight: 100
+weight: 140
 url: /id/aspose.slides.charts/chartdatapoint/format/
 ---
 ## ChartDataPoint.Format properti

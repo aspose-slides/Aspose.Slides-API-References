@@ -1,14 +1,14 @@
 ---
 title: StringChartValue
-second_title: Aspose.Sildes for .NET API 参考
-description: 表示可以以两种方式存储在 pptx 演示文稿中的字符串值：1）在与图表相关的工作簿的单元格中；2）作为文字值。
+second_title: Aspose.Sildes .NET API 参考
+description: 表示可以以两种方式存储在 pptx 演示文稿中的字符串值：1) 在与图表相关的工作簿的单元格/单元格中；2) 作为文字值。
 type: docs
-weight: 2410
+weight: 2430
 url: /zh/aspose.slides.charts/stringchartvalue/
 ---
 ## StringChartValue 类
 
-表示可以在 pptx 演示文稿中以两种方式存储的字符串值：1) 在与图表相关的工作簿的单元格中；2) 作为文字值。
+表示可以以两种方式存储在 pptx 演示文稿中的字符串值：1）在与图表相关的工作簿的单元格/单元格中；2）作为文字值。
 
 ```csharp
 public class StringChartValue : BaseChartValue, IStringChartValue
@@ -18,17 +18,17 @@ public class StringChartValue : BaseChartValue, IStringChartValue
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsCells](../../aspose.slides.charts/stringchartvalue/ascells) { get; set; } | 不允许分配空值。返回的值始终不为 null。可读写 [`IChartCellCollection`](../ichartcellcollection)。 |
-| [AsLiteralString](../../aspose.slides.charts/stringchartvalue/asliteralstring) { get; set; } | 返回或设置作为文字字符串的值。可读写 String。 |
+| [AsCells](../../aspose.slides.charts/stringchartvalue/ascells) { get; set; } | 不允许分配空值。返回的值始终非空。可读写 [`IChartCellCollection`](../ichartcellcollection)。 |
+| [AsLiteralString](../../aspose.slides.charts/stringchartvalue/asliteralstring) { get; set; } | 返回或设置为文字字符串。可读写 String。 |
 | override [Data](../../aspose.slides.charts/stringchartvalue/data) { get; set; } | 返回或设置 Data 对象。可读写 Object。 |
-| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | 指定在派生类中哪个 AsCell、AsCells、AsLiteralString 或 AsLiteralDouble 属性实际生效。换句话说，它指定 Data 属性的值类型。可读写 [`DataSourceType`](../datasourcetype)。 |
+| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | 指定在派生类中哪个 AsCell、AsCells、AsLiteralString 或 AsLiteralDouble 属性是实际的。换句话说，它指定 Data 属性的值类型。可读写 [`DataSourceType`](../datasourcetype)。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
 | [GetCellsAddressInWorkbook](../../aspose.slides.charts/stringchartvalue/getcellsaddressinworkbook)() | 如果 DataSourceType 属性是 DataSourceType.Worksheet，则此方法返回工作簿中表示字符串数据的单元格地址。否则返回空字符串。 |
-| [SetFromOneCell](../../aspose.slides.charts/stringchartvalue/setfromonecell)(IChartDataCell) | 从指定单元格设置值。 |
+| [SetFromOneCell](../../aspose.slides.charts/stringchartvalue/setfromonecell)(IChartDataCell) | 从指定的单元格设置值。 |
 | override [ToString](../../aspose.slides.charts/stringchartvalue/tostring)() | 返回字符串值数据。如果 DataSourceType 为 false 且未分配字符串值，则返回 null。 |
 
 ### 另请参见

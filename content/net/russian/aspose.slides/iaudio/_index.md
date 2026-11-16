@@ -1,9 +1,9 @@
 ---
 title: IAudio
-second_title: Aspose.Sildes для .NET API справка
+second_title: Aspose.Sildes для .NET справочник API
 description: Представляет встроенный аудиофайл.
 type: docs
-weight: 5210
+weight: 5230
 url: /ru/aspose.slides/iaudio/
 ---
 ## IAudio интерфейс
@@ -18,7 +18,7 @@ public interface IAudio
 
 | Name | Description |
 | --- | --- |
-| [BinaryData](../../aspose.slides/iaudio/binarydata) { get; } | Возвращает копию данных аудио. При большом объёме данных рекомендуется использовать метод [`GetStream`](./getstream), чтобы избежать ненужной загрузки данных аудио в память или даже исключения OutOfMemoryException. Только для чтения Byte[]. |
+| [BinaryData](../../aspose.slides/iaudio/binarydata) { get; } | Возвращает копию данных аудио. В случае большого объёма данных рекомендуется использовать метод [`GetStream`](./getstream), чтобы предотвратить ненужную загрузку данных аудио в память или даже исключение OutOfMemoryException. Только для чтения Byte[]. |
 | [ContentType](../../aspose.slides/iaudio/contenttype) { get; } | Возвращает MIME-тип аудио, закодированный в [`BinaryData`](./binarydata). Только для чтения String. |
 
 ## Методы

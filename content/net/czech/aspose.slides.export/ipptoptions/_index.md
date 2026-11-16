@@ -1,9 +1,9 @@
 ---
 title: IPptOptions
-second_title: Aspose.Sildes pro .NET API referenci
+second_title: Aspose.Sildes pro .NET API Reference
 description: Poskytuje možnosti, které řídí, jak je prezentace uložena ve formátu PPT.
 type: docs
-weight: 4010
+weight: 4030
 url: /cs/aspose.slides.export/ipptoptions/
 ---
 ## IPptOptions rozhraní
@@ -19,7 +19,7 @@ public interface IPptOptions : ISaveOptions
 | Název | Popis |
 | --- | --- |
 | [AsISaveOptions](../../aspose.slides.export/ipptoptions/asisaveoptions) { get; } | Vrací rozhraní ISaveOptions. Pouze pro čtení [`ISaveOptions`](../isaveoptions). |
-| [RootDirectoryClsid](../../aspose.slides.export/ipptoptions/rootdirectoryclsid) { get; set; } | Zastupuje GUID třídy objektu (CLSID), který je uložen v kořenovém adresáři. Lze jej použít pro COM aktivaci aplikace dokumentu. Výchozí hodnota je '64818D11-4F9B-11CF-86EA-00AA00B929E8', která odpovídá 'Microsoft Powerpoint.Slide.8'. |
+| [RootDirectoryClsid](../../aspose.slides.export/ipptoptions/rootdirectoryclsid) { get; set; } | Representuje GUID třídy objektu (CLSID), který je uložen v kořenovém adresáři. Lze použít pro COM aktivaci aplikace dokumentu. Výchozí hodnota je '64818D11-4F9B-11CF-86EA-00AA00B929E8' která odpovídá 'Microsoft Powerpoint.Slide.8'. |
 
 ### Viz také
 

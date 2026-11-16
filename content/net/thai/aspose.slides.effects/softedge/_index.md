@@ -1,14 +1,14 @@
 ---
 title: SoftEdge
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงเอฟเฟ็กต์ขอบอ่อน ขอบของรูปร่างจะเบลอในขณะที่การเติมสีไม่ได้รับผลกระทบ.
+second_title: Aspose.Sildes สำหรับ .NET API อ้างอิง
+description: แสดงถึงเอฟเฟ็กต์ขอบอ่อน. ขอบของรูปร่างจะเบลอขณะการเติมสีไม่ถูกกระทบ.
 type: docs
-weight: 3650
+weight: 3670
 url: /th/aspose.slides.effects/softedge/
 ---
 ## SoftEdge คลาส
 
-แสดงถึงเอฟเฟ็กต์ขอบอ่อน ขอบของรูปร่างจะเบลอในขณะที่การเติมสีไม่ได้รับผลกระทบ
+แสดงถึงเอฟเฟ็กต์ขอบอ่อน. ขอบของรูปร่างจะถูกเบลอขณะการเติมสีไม่ได้รับผลกระทบ.
 
 ```csharp
 public sealed class SoftEdge : ISoftEdge
@@ -16,17 +16,17 @@ public sealed class SoftEdge : ISoftEdge
 
 ## คุณสมบัติ
 
-| Name | Description |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Radius](../../aspose.slides.effects/softedge/radius) { get; set; } | ระบุรัศมีของการเบลอที่จะนำไปใช้กับขอบ. อ่าน/เขียน Double. |
+| [Radius](../../aspose.slides.effects/softedge/radius) { get; set; } | ระบุรัศมีของการเบลอที่จะใช้กับขอบ. อ่าน/เขียน Double. |
 
 ## เมธอด
 
-| Name | Description |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/softedge/equals)(object) | กำหนดว่ามี [`SoftEdge`](../softedge) ที่ระบุเท่ากับ [`SoftEdge`](../softedge) ปัจจุบันหรือไม่. |
-| [GetEffective](../../aspose.slides.effects/softedge/geteffective)() | รับข้อมูลเอฟเฟ็กต์ Soft Edge ที่มีผลโดยมีการใช้การสืบทอด. |
-| override [GetHashCode](../../aspose.slides.effects/softedge/gethashcode)() | ทำหน้าที่เป็นฟังก์ชันแฮชสำหรับประเภทเฉพาะ. |
+| override [Equals](../../aspose.slides.effects/softedge/equals)(object) | กำหนดว่า [`SoftEdge`](../softedge) ที่ระบุเท่ากับ [`SoftEdge`](../softedge) ปัจจุบันหรือไม่. |
+| [GetEffective](../../aspose.slides.effects/softedge/geteffective)() | รับข้อมูลเอฟเฟ็กต์ Soft Edge ที่มีประสิทธิภาพโดยมีการใช้การสืบทอด. |
+| override [GetHashCode](../../aspose.slides.effects/softedge/gethashcode)() | ทำหน้าที่เป็นฟังก์ชันแฮชสำหรับชนิดเฉพาะ. |
 
 ### ดูเพิ่มเติม
 

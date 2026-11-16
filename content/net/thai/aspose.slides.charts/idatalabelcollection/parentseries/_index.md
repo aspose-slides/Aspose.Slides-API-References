@@ -1,14 +1,14 @@
 ---
 title: ParentSeries
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: คืนค่า series ของแผนภูมิแม่. Read-only IChartSeriesaspose.slides.charts/ichartseries.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: คืนค่า series ของแผนภูมิแม่. อ่านอย่างเดียว IChartSeriesaspose.slides.charts/ichartseries.
 type: docs
-weight: 90
+weight: 100
 url: /th/aspose.slides.charts/idatalabelcollection/parentseries/
 ---
 ## IDataLabelCollection.ParentSeries คุณสมบัติ
 
-คืนค่า ชุดข้อมูลแผนภูมิต้น. อ่านอย่างเดียว [`IChartSeries`](../../ichartseries).
+คืนค่า series ของแผนภูมิแม่. อ่านได้เท่านั้น [`IChartSeries`](../../ichartseries).
 
 ```csharp
 public IChartSeries ParentSeries { get; }

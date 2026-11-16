@@ -1,14 +1,14 @@
 ---
 title: Orientation
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Rappresenta l'orientamento di una shape.
+second_title: Aspose.Sildes for .NET API Reference
+description: Rappresenta l'orientamento di una forma.
 type: docs
-weight: 9240
+weight: 9260
 url: /it/aspose.slides/orientation/
 ---
-## enumerazione Orientation
+## Enumerazione Orientation
 
-Rappresenta l'orientamento di una shape.
+Rappresenta l'orientamento di una forma.
 
 ```csharp
 public enum Orientation : sbyte

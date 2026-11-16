@@ -3,12 +3,12 @@ title: ICustomXmlPart
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示自定义 XML 部分。
 type: docs
-weight: 5670
+weight: 5690
 url: /zh/aspose.slides/icustomxmlpart/
 ---
 ## ICustomXmlPart 接口
 
-表示自定义 XML 部分。
+Represents custom xml part.
 
 ```csharp
 public interface ICustomXmlPart
@@ -18,18 +18,18 @@ public interface ICustomXmlPart
 
 | 名称 | 描述 |
 | --- | --- |
-| [ItemId](../../aspose.slides/icustomxmlpart/itemid) { get; set; } | 指定全局唯一标识符 (GUID)，用于唯一标识 Office Open XML 文档中单个自定义 XML 部分。只读 Guid。 |
+| [ItemId](../../aspose.slides/icustomxmlpart/itemid) { get; set; } | 指定全局唯一标识符 (GUID)，在 Office Open XML 文档中唯一标识单个自定义 XML 部分。只读 Guid。 |
 | [NamespaceSchemas](../../aspose.slides/icustomxmlpart/namespaceschemas) { get; } | 返回与自定义 XML 部分关联的 XML 架构集合。只读 String[]. |
-| [XmlAsString](../../aspose.slides/icustomxmlpart/xmlasstring) { get; set; } | 返回或设置 xml 数据为 UTF-8 字符串。读/写 String。值为 `null`。值为空或 xml-data 无效。 |
-| [XmlData](../../aspose.slides/icustomxmlpart/xmldata) { get; set; } | 返回或设置 xml 数据。读/写 Byte[]。值为 `null`。值为空或 xml-data 无效。 |
+| [XmlAsString](../../aspose.slides/icustomxmlpart/xmlasstring) { get; set; } | 返回或设置 XML 数据为 UTF-8 字符串。读/写 String。value 为 `null`。value 为空或 xml-data 无效。 |
+| [XmlData](../../aspose.slides/icustomxmlpart/xmldata) { get; set; } | 返回或设置 XML 数据。读/写 Byte[]。value 为 `null`。value 为空或 xml-data 无效。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [Remove](../../aspose.slides/icustomxmlpart/remove)() | 从演示文稿中移除自定义 xml 部分。 |
+| [Remove](../../aspose.slides/icustomxmlpart/remove)() | 从演示文稿中移除自定义 XML 部分。 |
 
-### 另请参阅
+### 另见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

@@ -3,7 +3,7 @@ title: ICaptionsCollection
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa una colección de los subtítulos cerrados.
 type: docs
-weight: 5440
+weight: 5460
 url: /es/aspose.slides/icaptionscollection/
 ---
 ## ICaptionsCollection interfaz
@@ -16,14 +16,14 @@ public interface ICaptionsCollection : IEnumerable<ICaptions>
 
 ## Propiedades
 
-| Nombre | Descripción |
+| Name | Description |
 | --- | --- |
 | [Count](../../aspose.slides/icaptionscollection/count) { get; } | Devuelve el número de elementos en la colección. Solo lectura Int32. |
 | [Item](../../aspose.slides/icaptionscollection/item) { get; } | Devuelve los subtítulos cerrados en el índice especificado. Solo lectura [`ICaptions`](../icaptions). |
 
 ## Métodos
 
-| Nombre | Descripción |
+| Name | Description |
 | --- | --- |
 | [Add](../../aspose.slides/icaptionscollection/add#add)(string, Stream) | Agrega subtítulos cerrados WebVTT al final de la colección desde un flujo. |
 | [Add](../../aspose.slides/icaptionscollection/add#add_1)(string, string) | Agrega subtítulos cerrados WebVTT al final de la colección. |

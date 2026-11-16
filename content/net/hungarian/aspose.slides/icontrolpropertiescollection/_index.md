@@ -1,9 +1,9 @@
 ---
 title: IControlPropertiesCollection
-second_title: Aspose.Sildes .NET API referencia
+second_title: Aspose.Sildes a .NET API referenciája
 description: ActiveX vezérlők gyűjteménye.
 type: docs
-weight: 5650
+weight: 5670
 url: /hu/aspose.slides/icontrolpropertiescollection/
 ---
 ## IControlPropertiesCollection interfész
@@ -28,8 +28,8 @@ public interface IControlPropertiesCollection : IEnumerable<KeyValuePair<string,
 | Name | Description |
 | --- | --- |
 | [Add](../../aspose.slides/icontrolpropertiescollection/add)(string, string) | Tulajdonságot ad hozzá a gyűjteményhez. |
-| [Clear](../../aspose.slides/icontrolpropertiescollection/clear)() | Az összes tulajdonságot eltávolítja. |
-| [Remove](../../aspose.slides/icontrolpropertiescollection/remove)(string) | Az adott névű tulajdonságot eltávolítja. |
+| [Clear](../../aspose.slides/icontrolpropertiescollection/clear)() | Eltávolítja az összes tulajdonságot. |
+| [Remove](../../aspose.slides/icontrolpropertiescollection/remove)(string) | Eltávolítja a megadott névvel rendelkező tulajdonságot. |
 
 ### Lásd még
 

@@ -1,14 +1,14 @@
 ---
 title: ICommentAuthorCollection
-second_title: Aspose.Sildes .NET API referencia
-description: A megjegyzés szerzők gyűjteményét képviseli.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: A hozzászólás-szerzők gyűjteményét képviseli.
 type: docs
-weight: 5580
+weight: 5600
 url: /hu/aspose.slides/icommentauthorcollection/
 ---
 ## ICommentAuthorCollection interfész
 
-Egy megjegyzés szerzők gyűjteményét képviseli.
+Represents a collection of comment authors.
 
 ```csharp
 public interface ICommentAuthorCollection : IGenericCollection<ICommentAuthor>
@@ -20,11 +20,11 @@ public interface ICommentAuthorCollection : IGenericCollection<ICommentAuthor>
 | --- | --- |
 | [Item](../../aspose.slides/icommentauthorcollection/item) { get; } | A megadott indexű elemet adja vissza. Csak olvasható [`ICommentAuthor`](../icommentauthor). |
 
-## Metódusok
+## Módszerek
 
 | Név | Leírás |
 | --- | --- |
-| [AddAuthor](../../aspose.slides/icommentauthorcollection/addauthor)(string, string) | Új szerzőt ad a gyűjtemény végéhez. |
+| [AddAuthor](../../aspose.slides/icommentauthorcollection/addauthor)(string, string) | Új szerző hozzáadása a gyűjtemény végén. |
 | [Clear](../../aspose.slides/icommentauthorcollection/clear)() | Eltávolítja az összes szerzőt a gyűjteményből. |
 | [FindByName](../../aspose.slides/icommentauthorcollection/findbyname)(string) | Megkeresi a szerzőt a gyűjteményben név alapján. |
 | [FindByNameAndInitials](../../aspose.slides/icommentauthorcollection/findbynameandinitials)(string, string) | Megkeresi a szerzőt a gyűjteményben név és kezdőbetűk alapján. |

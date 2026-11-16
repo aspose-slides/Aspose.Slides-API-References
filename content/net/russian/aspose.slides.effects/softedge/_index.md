@@ -1,14 +1,14 @@
 ---
 title: SoftEdge
 second_title: Aspose.Sildes для .NET справочник API
-description: Представляет эффект мягкого края. Края фигуры размыты, при этом заливка не изменяется.
+description: Представляет эффект мягкой кромки. Края фигуры размыты, при этом заливка не изменяется.
 type: docs
-weight: 3650
+weight: 3670
 url: /ru/aspose.slides.effects/softedge/
 ---
 ## SoftEdge класс
 
-Представляет эффект мягкого края. Края фигуры размыты, в то время как заливка не изменяется.
+Представляет эффект мягкой кромки. Края фигуры размыты, тогда как заливка не изменяется.
 
 ```csharp
 public sealed class SoftEdge : ISoftEdge
@@ -16,17 +16,17 @@ public sealed class SoftEdge : ISoftEdge
 
 ## Свойства
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
-| [Radius](../../aspose.slides.effects/softedge/radius) { get; set; } | Указывает радиус размытия, применяемый к краям. Чтение/запись Double. |
+| [Radius](../../aspose.slides.effects/softedge/radius) { get; set; } | Задает радиус размытия, применяемый к краям. Чтение/запись Double. |
 
 ## Методы
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/softedge/equals)(object) | Определяет, равно ли указанное [`SoftEdge`](../softedge) текущему [`SoftEdge`](../softedge). |
-| [GetEffective](../../aspose.slides.effects/softedge/geteffective)() | Получает фактические данные эффекта Soft Edge с применённым наследованием. |
-| override [GetHashCode](../../aspose.slides.effects/softedge/gethashcode)() | Служит хеш-функцией для конкретного типа. |
+| override [Equals](../../aspose.slides.effects/softedge/equals)(object) | Определяет, равен ли указанный [`SoftEdge`](../softedge) текущему [`SoftEdge`](../softedge). |
+| [GetEffective](../../aspose.slides.effects/softedge/geteffective)() | Получает действительные данные эффекта Soft Edge с учётом наследования. |
+| override [GetHashCode](../../aspose.slides.effects/softedge/gethashcode)() | Служит в качестве хеш-функции для конкретного типа. |
 
 ### См. также
 

@@ -3,7 +3,7 @@ title: GetEnumerator
 second_title: Aspose.Sildes for .NET API リファレンス
 description: コレクションを反復処理する列挙子を返します。
 type: docs
-weight: 90
+weight: 100
 url: /ja/aspose.slides.charts/datalabelcollection/getenumerator/
 ---
 ## DataLabelCollection.GetEnumerator メソッド
@@ -16,7 +16,7 @@ public IEnumerator<IDataLabel> GetEnumerator()
 
 ### 戻り値
 
-コレクションを反復処理できる IEnumerator です。
+コレクションを反復処理するために使用できる IEnumerator です。
 
 ### 参照
 

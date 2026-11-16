@@ -1,30 +1,30 @@
 ---
 title: OrganizationChartLayoutType
-second_title: Aspose.Sildes для .NET API справка
+second_title: Aspose.Sildes для .NET API Reference
 description: Представляет тип форматирования дочерних узлов в организационной диаграмме
 type: docs
-weight: 10590
+weight: 10610
 url: /ru/aspose.slides.smartart/organizationchartlayouttype/
 ---
 ## OrganizationChartLayoutType перечисление
 
-Представляет тип форматирования дочерних узлов в организационной диаграмме
+Represents formatting type the child nodes in an organization chart
 
 ```csharp
 public enum OrganizationChartLayoutType
 ```
 
-### Значения
+### Values
 
 | Имя | Значение | Описание |
 | --- | --- | --- |
-| Initial | `0` | Исходный тип расположения |
+| Initial | `0` | Исходный тип макета |
 | Standart | `1` | Размещает дочерние узлы горизонтально под родительским узлом. |
-| BothHanging | `2` | Размещает дочерние узлы вертикально под родительским узлом с обеих сторон — слева и справа. |
+| BothHanging | `2` | Размещает дочерние узлы вертикально под родительским узлом с обеих сторон слева и справа. |
 | LeftHanging | `3` | Размещает дочерние узлы вертикально под родительским узлом слева. |
 | RightHanging | `4` | Размещает дочерние узлы вертикально под родительским узлом справа. |
 
-### См. также
+### Смотрите также
 
 * пространство имён [Aspose.Slides.SmartArt](../../aspose.slides.smartart)
 * сборка [Aspose.Slides](../../)

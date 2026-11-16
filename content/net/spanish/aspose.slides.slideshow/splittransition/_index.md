@@ -1,9 +1,9 @@
 ---
 title: SplitTransition
-second_title: Aspose.Sildes para la referencia de API de .NET
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Efecto de transición de diapositiva dividida.
 type: docs
-weight: 10330
+weight: 10350
 url: /es/aspose.slides.slideshow/splittransition/
 ---
 ## SplitTransition clase
@@ -18,15 +18,15 @@ public class SplitTransition : TransitionValueBase, ISplitTransition
 
 | Nombre | Descripción |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/splittransition/direction) { get; set; } | Dirección de la división de transición. Lectura/escritura [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [Orientation](../../aspose.slides.slideshow/splittransition/orientation) { get; set; } | Orientación de la división de transición. Lectura/escritura [`Orientation`](../../aspose.slides/orientation). |
+| [Direction](../../aspose.slides.slideshow/splittransition/direction) { get; set; } | Dirección de la división de la transición. Lectura/escritura [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
+| [Orientation](../../aspose.slides.slideshow/splittransition/orientation) { get; set; } | Orientación de la división de la transición. Lectura/escritura [`Orientation`](../../aspose.slides/orientation). |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Determina si las dos instancias de TransitionValueBase son iguales. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Funciona como una función hash para un tipo particular, adecuada para su uso en algoritmos de hash y estructuras de datos como una tabla hash. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Sirve como función hash para un tipo particular, adecuada para su uso en algoritmos de hash y estructuras de datos como una tabla hash. |
 
 ### Ver también
 

@@ -1,12 +1,12 @@
 ---
 title: Picture
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Aspose.Sildes para la referencia de API de .NET
 description: Representa una imagen en una presentación.
 type: docs
-weight: 9380
+weight: 9400
 url: /es/aspose.slides/picture/
 ---
-## Clase Picture
+## Picture clase
 
 Representa una imagen en una presentación.
 
@@ -23,7 +23,7 @@ public sealed class Picture : ISlidesPicture
 | [ImageTransform](../../aspose.slides/picture/imagetransform) { get; } | Devuelve la colección de efectos de transformación de imagen. Solo lectura [`IImageTransformOperationCollection`](../../aspose.slides.effects/iimagetransformoperationcollection). |
 | [LinkPathLong](../../aspose.slides/picture/linkpathlong) { get; set; } | Devuelve o establece la URL de la imagen vinculada. Lectura/escritura String. |
 | [Presentation](../../aspose.slides/picture/presentation) { get; } | Devuelve la presentación. Solo lectura [`IPresentation`](../ipresentation). |
-| [Slide](../../aspose.slides/picture/slide) { get; } | Devuelve la diapositiva padre de una imagen. Solo lectura [`IBaseSlide`](../ibaseslide). |
+| [Slide](../../aspose.slides/picture/slide) { get; } | Devuelve la diapositiva principal de una imagen. Solo lectura [`IBaseSlide`](../ibaseslide). |
 
 ## Métodos
 

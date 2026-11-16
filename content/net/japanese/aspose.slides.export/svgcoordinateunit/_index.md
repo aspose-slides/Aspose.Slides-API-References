@@ -1,14 +1,14 @@
 ---
 title: SvgCoordinateUnit
-second_title: Aspose.Sildes for .NET API リファレンス
-description: CSS2 の座標単位を表し、SVG 座標の定義に使用されます。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: SVG座標を定義するために使用されるCSS2座標単位を表します。
 type: docs
-weight: 4480
+weight: 4500
 url: /ja/aspose.slides.export/svgcoordinateunit/
 ---
 ## SvgCoordinateUnit 列挙型
 
-CSS2 の座標単位を表し、SVG 座標の定義に使用されます。
+SVG座標を定義するために使用されるCSS2座標単位を表します。
 
 ```csharp
 public enum SvgCoordinateUnit
@@ -18,15 +18,15 @@ public enum SvgCoordinateUnit
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
-| Inch | `0` | インチ |
-| Centimeter | `1` | センチメートル。 |
-| Millimeter | `2` | ミリメートル。 |
-| Point | `3` | ポイント (インチの 1/72)、 |
-| Pica | `4` | パイカ (インチの 1/6)。 |
-| Em | `5` | 含む要素のフォントの Em サイズ。 |
-| Ex | `6` | Ex サイズ (小文字のサイズ、通常は "x")、含む要素のフォント。 |
-| Pixel | `7` | ピクセルサイズ。 |
-| Percent | `8` | パーセント。 |
+| Inch | `0` | Inch |
+| Centimeter | `1` | Centimeter. |
+| Millimeter | `2` | Millimeter. |
+| Point | `3` | Point (1/72 の inch), |
+| Pica | `4` | Pica (1/6 の inch). |
+| Em | `5` | Em サイズ (含む要素のフォントのサイズ). |
+| Ex | `6` | Ex サイズ (小文字の文字のサイズ、通常は "x") のフォントのサイズ. |
+| Pixel | `7` | Pixel サイズ. |
+| Percent | `8` | Percent. |
 
 ### 参照
 

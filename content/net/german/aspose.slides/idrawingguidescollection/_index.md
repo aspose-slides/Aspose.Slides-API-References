@@ -1,14 +1,14 @@
 ---
 title: IDrawingGuidesCollection
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt eine Sammlung der anpassbaren Zeichenhilfen dar.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Stellt eine Sammlung von einstellbaren Zeichenhilfen dar.
 type: docs
-weight: 5730
+weight: 5750
 url: /de/aspose.slides/idrawingguidescollection/
 ---
 ## IDrawingGuidesCollection Schnittstelle
 
-Stellt eine Sammlung der anpassbaren Zeichenhilfen dar.
+Stellt eine Sammlung von einstellbaren Zeichenhilfen dar.
 
 ```csharp
 public interface IDrawingGuidesCollection : IEnumerable<IDrawingGuide>
@@ -16,14 +16,14 @@ public interface IDrawingGuidesCollection : IEnumerable<IDrawingGuide>
 
 ## Eigenschaften
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
 | [Count](../../aspose.slides/idrawingguidescollection/count) { get; } | Gibt die Anzahl aller Elemente in der Sammlung zurück. Nur lesbar Int32. |
 | [Item](../../aspose.slides/idrawingguidescollection/item) { get; } | Gibt die Zeichenhilfe nach Index zurück. Nur lesbar [`IDrawingGuide`](../idrawingguide). |
 
 ## Methoden
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
 | [Add](../../aspose.slides/idrawingguidescollection/add)(Orientation, float) | Fügt die Zeichenhilfe am Ende der Sammlung hinzu. |
 | [Clear](../../aspose.slides/idrawingguidescollection/clear)() | Entfernt alle Elemente aus der Sammlung. |

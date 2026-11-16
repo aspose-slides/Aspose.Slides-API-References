@@ -1,31 +1,31 @@
 ---
 title: IDataSourceTypeForErrorBarsCustomValues
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Specificeert types van waarden in de lijst met eigenschappen van ChartDataPoint.ErrorBarsCustomValues
+description: Specificeert de soorten waarden in de lijst met eigenschappen van ChartDataPoint.ErrorBarsCustomValues
 type: docs
-weight: 2050
+weight: 2070
 url: /nl/aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/
 ---
 ## IDataSourceTypeForErrorBarsCustomValues interface
 
-Specificeert types van waarden in de ChartDataPoint.ErrorBarsCustomValues eigenschappenlijst
+Specificeert de typen waarden in de lijst met eigenschappen van ChartDataPoint.ErrorBarsCustomValues
 
 ```csharp
-public interface IDataSourceForErrorBarsCustomValues
+public interface IDataSourceTypeForErrorBarsCustomValues
 ```
 
 ## Eigenschappen
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
-| [DataSourceTypeForXMinusValues](../../aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforxminusvalues) { get; set; } | Specificeert of de AsCell- of AsLiteralString- of AsLiteralDouble-eigenschap daadwerkelijk aanwezig is in het XMinus-eigenschapsobject van datapunten voor aangepaste foutbalkwaarden. Met andere woorden specificeert het het type waarde van de ChartDataPoint.ErrorBarsCustomValues.XMinus.Data-eigenschap. Lezen/Schrijven [`DataSourceType`](../datasourcetype). |
-| [DataSourceTypeForXPlusValues](../../aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforxplusvalues) { get; set; } | Specificeert of de AsCell- of AsLiteralString- of AsLiteralDouble-eigenschap daadwerkelijk aanwezig is in het XPlus-eigenschapsobject van datapunten voor aangepaste foutbalkwaarden. Met andere woorden specificeert het het type waarde van de ChartDataPoint.ErrorBarsCustomValues.XPlus.Data-eigenschap. Lezen/Schrijven [`DataSourceType`](../datasourcetype). |
-| [DataSourceTypeForYMinusValues](../../aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforyminusvalues) { get; set; } | Specificeert of de AsCell- of AsLiteralString- of AsLiteralDouble-eigenschap daadwerkelijk aanwezig is in het YMinus-eigenschapsobject van datapunten voor aangepaste foutbalkwaarden. Met andere woorden specificeert het het type waarde van de ChartDataPointEx.ErrorBarsCustomValues.YMinus.Data-eigenschap. Lezen/Schrijven [`DataSourceType`](../datasourcetype). |
-| [DataSourceTypeForYPlusValues](../../aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforyplusvalues) { get; set; } | Specificeert of de AsCell- of AsLiteralString- of AsLiteralDouble-eigenschap daadwerkelijk aanwezig is in het YPlus-eigenschapsobject van datapunten voor aangepaste foutbalkwaarden. Met andere woorden specificeert het het type waarde van de ChartDataPointEx.ErrorBarsCustomValues.YPlus.Data-eigenschap. Lezen/Schrijven [`DataSourceType`](../datasourcetype). |
+| [DataSourceTypeForXMinusValues](../../aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforxminusvalues) { get; set; } | Specificeert of de AsCell- of AsLiteralString- of AsLiteralDouble-eigenschap daadwerkelijk aanwezig is in het XMinus-eigenschapsobject van datapunten voor aangepaste waarden van foutbalken. Met andere woorden specificeert het het type waarde van de eigenschap ChartDataPoint.ErrorBarsCustomValues.XMinus.Data. Lezen/Schrijven [`DataSourceType`](../datasourcetype). |
+| [DataSourceTypeForXPlusValues](../../aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforxplusvalues) { get; set; } | Specificeert of de AsCell- of AsLiteralString- of AsLiteralDouble-eigenschap daadwerkelijk aanwezig is in het XPlus-eigenschapsobject van datapunten voor aangepaste waarden van foutbalken. Met andere woorden specificeert het het type waarde van de eigenschap ChartDataPoint.ErrorBarsCustomValues.XPlus.Data. Lezen/Schrijven [`DataSourceType`](../datasourcetype). |
+| [DataSourceTypeForYMinusValues](../../aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforyminusvalues) { get; set; } | Specificeert of de AsCell- of AsLiteralString- of AsLiteralDouble-eigenschap daadwerkelijk aanwezig is in het YMinus-eigenschapsobject van datapunten voor aangepaste waarden van foutbalken. Met andere woorden specificeert het het type waarde van de eigenschap ChartDataPointEx.ErrorBarsCustomValues.YMinus.Data. Lezen/Schrijven [`DataSourceType`](../datasourcetype). |
+| [DataSourceTypeForYPlusValues](../../aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforyplusvalues) { get; set; } | Specificeert of de AsCell- of AsLiteralString- of AsLiteralDouble-eigenschap daadwerkelijk aanwezig is in het YPlus-eigenschapsobject van datapunten voor aangepaste waarden van foutbalken. Met andere woorden specificeert het het type waarde van de eigenschap ChartDataPointEx.ErrorBarsCustomValues.YPlus.Data. Lezen/Schrijven [`DataSourceType`](../datasourcetype). |
 
 ### Zie ook
 
 * naamruimte [Aspose.Slides.Charts](../../aspose.slides.charts)
-* assemblage [Aspose.Slides](../../)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

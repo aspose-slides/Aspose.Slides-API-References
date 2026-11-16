@@ -1,15 +1,14 @@
 ---
 title: GetEnumerator
-second_title: Aspose.Sildes for .NET API Reference
-description: 返回一个枚举器，用于迭代集合。
+second_title: Aspose.Sildes .NET API 参考
+description: 返回一个可遍历集合的枚举器。
 type: docs
-weight: 90
+weight: 100
 url: /zh/aspose.slides.charts/datalabelcollection/getenumerator/
 ---
-
 ## DataLabelCollection.GetEnumerator 方法
 
-返回一个枚举器，用于迭代集合。
+返回一个可用于遍历集合的枚举器。
 
 ```csharp
 public IEnumerator<IDataLabel> GetEnumerator()
@@ -17,9 +16,9 @@ public IEnumerator<IDataLabel> GetEnumerator()
 
 ### 返回值
 
-一个可以用于迭代集合的 IEnumerator。
+一个可用于遍历集合的 IEnumerator。
 
-### 另见
+### 另请参阅
 
 * 接口 [IDataLabel](../../idatalabel)
 * 类 [DataLabelCollection](../../datalabelcollection)

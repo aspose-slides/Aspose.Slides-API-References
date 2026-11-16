@@ -1,14 +1,14 @@
 ---
 title: Save
 second_title: Aspose.Sildes için .NET API Referansı
-description: Sunumun tüm slaytlarını belirtilen formatta bir dosyaya kaydeder.
+description: Bir sunumun tüm slaytlarını belirtilen formatta bir dosyaya kaydeder.
 type: docs
-weight: 380
+weight: 390
 url: /tr/aspose.slides/ipresentation/save/
 ---
 ## Save(string, SaveFormat) {#save_5}
 
-Sunumun tüm slaytlarını belirtilen formatta bir dosyaya kaydeder.
+Bir sunumun tüm slaytlarını belirtilen formatta bir dosyaya kaydeder.
 
 ```csharp
 public void Save(string fname, SaveFormat format)
@@ -19,7 +19,7 @@ public void Save(string fname, SaveFormat format)
 | fname | String | Oluşturulan dosyanın yolu. |
 | format | SaveFormat | Dışa aktarılan verinin formatı. |
 
-### İlgili
+### Ayrıca Bakınız
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
 * arayüz [IPresentation](../../ipresentation)
@@ -30,7 +30,7 @@ public void Save(string fname, SaveFormat format)
 
 ## Save(Stream, SaveFormat) {#save_1}
 
-Sunumun tüm slaytlarını belirtilen formatta bir akışa kaydeder.
+Bir sunumun tüm slaytlarını belirtilen formatta bir akışa kaydeder.
 
 ```csharp
 public void Save(Stream stream, SaveFormat format)
@@ -41,7 +41,7 @@ public void Save(Stream stream, SaveFormat format)
 | stream | Stream | Çıktı akışı. |
 | format | SaveFormat | Dışa aktarılan verinin formatı. |
 
-### İlgili
+### Ayrıca Bakınız
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
 * arayüz [IPresentation](../../ipresentation)
@@ -52,7 +52,7 @@ public void Save(Stream stream, SaveFormat format)
 
 ## Save(string, SaveFormat, ISaveOptions) {#save_6}
 
-Sunumun tüm slaytlarını belirtilen formatta ve ek seçeneklerle bir dosyaya kaydeder.
+Bir sunumun tüm slaytlarını belirtilen formatta ve ek seçeneklerle bir dosyaya kaydeder.
 
 ```csharp
 public void Save(string fname, SaveFormat format, ISaveOptions options)
@@ -64,7 +64,7 @@ public void Save(string fname, SaveFormat format, ISaveOptions options)
 | format | SaveFormat | Dışa aktarılan verinin formatı. |
 | options | ISaveOptions | Ek format seçenekleri. |
 
-### İlgili
+### Ayrıca Bakınız
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
 * arayüz [ISaveOptions](../../../aspose.slides.export/isaveoptions)
@@ -76,7 +76,7 @@ public void Save(string fname, SaveFormat format, ISaveOptions options)
 
 ## Save(Stream, SaveFormat, ISaveOptions) {#save_2}
 
-Sunumun tüm slaytlarını belirtilen formatta ve ek seçeneklerle bir akışa kaydeder.
+Bir sunumun tüm slaytlarını belirtilen formatta ve ek seçeneklerle bir akışa kaydeder.
 
 ```csharp
 public void Save(Stream stream, SaveFormat format, ISaveOptions options)
@@ -90,11 +90,11 @@ public void Save(Stream stream, SaveFormat format, ISaveOptions options)
 
 ### İstisnalar
 
-| İstisna | Koşul |
+| İstisna | koşul |
 | --- | --- |
-| NotSupportedException | Şifreli bir dosyayı Office 2007-2010 dışı bir formatta kaydetmeye çalışırsanız |
+| NotSupportedException | Şifreli bir dosyayı Office 2007-2010 dışındaki bir formatta kaydetmeye çalışırsanız |
 
-### İlgili
+### Ayrıca Bakınız
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
 * arayüz [ISaveOptions](../../../aspose.slides.export/isaveoptions)
@@ -106,7 +106,7 @@ public void Save(Stream stream, SaveFormat format, ISaveOptions options)
 
 ## Save(string, int[], SaveFormat) {#save_7}
 
-Belirtilen slaytları bir dosyaya belirtilen formatta kaydeder.
+Bir sunumun belirtilen slaytlarını belirtilen formatta bir dosyaya kaydeder.
 
 ```csharp
 public void Save(string fname, int[] slides, SaveFormat format)
@@ -115,18 +115,18 @@ public void Save(string fname, int[] slides, SaveFormat format)
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | fname | String | Oluşturulan dosyanın yolu. |
-| slides | Int32[] | 1’den başlayan slayt konumlarını içeren dizi. |
+| slides | Int32[] | 1'den başlayan slayt konumlarını içeren dizi. |
 | format | SaveFormat | Dışa aktarılan verinin formatı. |
 
 ### İstisnalar
 
-| İstisna | Koşul |
+| İstisna | koşul |
 | --- | --- |
-| ArgumentNullException | stream veya slides parametresi null olduğunda. |
-| ArgumentOutOfRangeException | slides parametresi hatalı sayfa numaraları içerdiğinde. |
-| InvalidOperationException | desteklenmeyen bir SaveFormat kullanıldığında, ör. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+| ArgumentNullException | Akış veya slayt parametresi null olduğunda. |
+| ArgumentOutOfRangeException | Slayt parametresi hatalı sayfa numaraları içerdiğinde. |
+| InvalidOperationException | Desteklenmeyen bir SaveFormat kullanıldığında, ör. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
-### İlgili
+### Ayrıca Bakınız
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
 * arayüz [IPresentation](../../ipresentation)
@@ -137,7 +137,7 @@ public void Save(string fname, int[] slides, SaveFormat format)
 
 ## Save(string, int[], SaveFormat, ISaveOptions) {#save_8}
 
-Belirtilen slaytları bir dosyaya belirtilen formatta ve ek seçeneklerle kaydeder.
+Bir sunumun belirtilen slaytlarını belirtilen formatta bir dosyaya kaydeder.
 
 ```csharp
 public void Save(string fname, int[] slides, SaveFormat format, ISaveOptions options)
@@ -146,19 +146,19 @@ public void Save(string fname, int[] slides, SaveFormat format, ISaveOptions opt
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | fname | String | Oluşturulan dosyanın yolu. |
-| slides | Int32[] | 1’den başlayan slayt konumlarını içeren dizi. |
+| slides | Int32[] | 1'den başlayan slayt konumlarını içeren dizi. |
 | format | SaveFormat | Dışa aktarılan verinin formatı. |
 | options | ISaveOptions | Ek format seçenekleri. |
 
 ### İstisnalar
 
-| İstisna | Koşul |
+| İstisna | koşul |
 | --- | --- |
-| ArgumentNullException | stream veya slides parametresi null olduğunda. |
-| ArgumentOutOfRangeException | slides parametresi hatalı sayfa numaraları içerdiğinde. |
-| InvalidOperationException | desteklenmeyen bir SaveFormat kullanıldığında, ör. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+| ArgumentNullException | Akış veya slayt parametresi null olduğunda. |
+| ArgumentOutOfRangeException | Slayt parametresi hatalı sayfa numaraları içerdiğinde. |
+| InvalidOperationException | Desteklenmeyen bir SaveFormat kullanıldığında, ör. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
-### İlgili
+### Ayrıca Bakınız
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
 * arayüz [ISaveOptions](../../../aspose.slides.export/isaveoptions)
@@ -170,7 +170,7 @@ public void Save(string fname, int[] slides, SaveFormat format, ISaveOptions opt
 
 ## Save(Stream, int[], SaveFormat) {#save_3}
 
-Belirtilen slaytları bir akışa belirtilen formatta kaydeder.
+Bir sunumun belirtilen slaytlarını belirtilen formatta bir akışa kaydeder.
 
 ```csharp
 public void Save(Stream stream, int[] slides, SaveFormat format)
@@ -179,18 +179,18 @@ public void Save(Stream stream, int[] slides, SaveFormat format)
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | stream | Stream | Çıktı akışı. |
-| slides | Int32[] | 1’den başlayan slayt konumlarını içeren dizi. |
+| slides | Int32[] | 1'den başlayan slayt konumlarını içeren dizi. |
 | format | SaveFormat | Dışa aktarılan verinin formatı. |
 
 ### İstisnalar
 
-| İstisna | Koşul |
+| İstisna | koşul |
 | --- | --- |
-| ArgumentNullException | stream veya slides parametresi null olduğunda. |
-| ArgumentOutOfRangeException | slides parametresi hatalı sayfa numaraları içerdiğinde. |
-| InvalidOperationException | desteklenmeyen bir SaveFormat kullanıldığında, ör. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+| ArgumentNullException | Akış veya slayt parametresi null olduğunda. |
+| ArgumentOutOfRangeException | Slayt parametresi hatalı sayfa numaraları içerdiğinde. |
+| InvalidOperationException | Desteklenmeyen bir SaveFormat kullanıldığında, ör. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
-### İlgili
+### Ayrıca Bakınız
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
 * arayüz [IPresentation](../../ipresentation)
@@ -201,7 +201,7 @@ public void Save(Stream stream, int[] slides, SaveFormat format)
 
 ## Save(Stream, int[], SaveFormat, ISaveOptions) {#save_4}
 
-Belirtilen slaytları bir akışa belirtilen formatta ve ek seçeneklerle kaydeder.
+Bir sunumun belirtilen slaytlarını belirtilen formatta ve ek seçeneklerle bir akışa kaydeder.
 
 ```csharp
 public void Save(Stream stream, int[] slides, SaveFormat format, ISaveOptions options)
@@ -210,19 +210,19 @@ public void Save(Stream stream, int[] slides, SaveFormat format, ISaveOptions op
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | stream | Stream | Çıktı akışı. |
-| slides | Int32[] | 1’den başlayan slayt konumlarını içeren dizi. |
+| slides | Int32[] | 1'den başlayan slayt konumlarını içeren dizi. |
 | format | SaveFormat | Dışa aktarılan verinin formatı. |
 | options | ISaveOptions | Ek format seçenekleri. |
 
 ### İstisnalar
 
-| İstisna | Koşul |
+| İstisna | koşul |
 | --- | --- |
-| ArgumentNullException | stream veya slides parametresi null olduğunda. |
-| ArgumentOutOfRangeException | slides parametresi hatalı sayfa numaraları içerdiğinde. |
-| InvalidOperationException | desteklenmeyen bir SaveFormat kullanıldığında, ör. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+| ArgumentNullException | Akış veya slayt parametresi null olduğunda. |
+| ArgumentOutOfRangeException | Slayt parametresi hatalı sayfa numaraları içerdiğinde. |
+| InvalidOperationException | Desteklenmeyen bir SaveFormat kullanıldığında, ör. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
-### İlgili
+### Ayrıca Bakınız
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
 * arayüz [ISaveOptions](../../../aspose.slides.export/isaveoptions)
@@ -234,7 +234,7 @@ public void Save(Stream stream, int[] slides, SaveFormat format, ISaveOptions op
 
 ## Save(IXamlOptions) {#save}
 
-Sunumun tüm slaytlarını XAML işaretlemesini temsil eden bir dosya kümesine kaydeder.
+Bir sunumun tüm slaytlarını XAML işaretlemesini temsil eden bir dosya kümesine kaydeder.
 
 ```csharp
 public void Save(IXamlOptions options)
@@ -242,7 +242,7 @@ public void Save(IXamlOptions options)
 
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| options | IXamlOptions | XAML formatı seçenekleri. |
+| options | IXamlOptions | XAML format seçenekleri. |
 
 ### Örnekler
 
@@ -254,7 +254,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### İlgili
+### Ayrıca Bakınız
 
 * arayüz [IXamlOptions](../../../aspose.slides.export.xaml/ixamloptions)
 * arayüz [IPresentation](../../ipresentation)

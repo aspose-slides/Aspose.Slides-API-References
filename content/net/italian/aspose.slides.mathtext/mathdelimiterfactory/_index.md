@@ -1,9 +1,9 @@
 ---
 title: MathDelimiterFactory
-second_title: Aspose.Sildes per .NET - Riferimento API
+second_title: Riferimento API .NET di Aspose.Sildes
 description: Consente di creare un delimitatore matematico
 type: docs
-weight: 8660
+weight: 8680
 url: /it/aspose.slides.mathtext/mathdelimiterfactory/
 ---
 ## MathDelimiterFactory classe
@@ -29,7 +29,7 @@ public class MathDelimiterFactory : IMathDelimiterFactory
 
 ### Osservazioni
 
-Per compatibilità COM
+Per la compatibilità COM
 
 ### Vedi anche
 

@@ -1,14 +1,14 @@
 ---
 title: IImageWrapper
 second_title: Aspose.Sildes .NET API hivatkozás
-description: System.Drawing.Image csomagoló a COM interfészhez.
+description: System.Drawing.Image burkoló a COM interfészhez.
 type: docs
-weight: 6170
+weight: 6190
 url: /hu/aspose.slides/iimagewrapper/
 ---
 ## IImageWrapper interfész
 
-System.Drawing.Image csomagoló a COM interfészhez.
+System.Drawing.Image burkoló a COM interfészhez.
 
 ```csharp
 public interface IImageWrapper : IDisposable
@@ -16,19 +16,19 @@ public interface IImageWrapper : IDisposable
 
 ## Tulajdonságok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
 | [AsIDisposable](../../aspose.slides/iimagewrapper/asidisposable) { get; } | Visszaadja az IDisposable interfészt. Csak olvasható IDisposable. |
 | [ImageSource](../../aspose.slides/iimagewrapper/imagesource) { get; } | Lekéri a képet. Csak olvasható Image. |
-| [Size](../../aspose.slides/iimagewrapper/size) { get; } | Lekéri a kép szélességét és magasságát pixelben, az Image csak olvasható [`Size`](./size). |
+| [Size](../../aspose.slides/iimagewrapper/size) { get; } | Lekéri a kép szélességét és magasságát pixelben, Csak olvasható [`Size`](./size). |
 
 ## Módszerek
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
-| [Save](../../aspose.slides/iimagewrapper/save#save_1)(string) | Elmenti a képet a megadott fájlba |
-| [Save](../../aspose.slides/iimagewrapper/save#save)(Stream, PPImageFormat) | Elmenti a képet a megadott folyamba a megadott formátumban. |
-| [Save](../../aspose.slides/iimagewrapper/save#save_2)(string, PPImageFormat) | Elmenti a képet a megadott fájlba a megadott formátumban. |
+| [Save](../../aspose.slides/iimagewrapper/save#save_1)(string) | Ment egy Image-et a megadott fájlba |
+| [Save](../../aspose.slides/iimagewrapper/save#save)(Stream, PPImageFormat) | Ment egy Image-et a megadott stream-re a megadott formátumban. |
+| [Save](../../aspose.slides/iimagewrapper/save#save_2)(string, PPImageFormat) | Ment egy Image-et a megadott fájlba a megadott formátumban. |
 
 ### Lásd még
 

@@ -1,14 +1,14 @@
 ---
 title: IRenderingOptions
 second_title: Aspose.Sildes .NET API referencia
-description: Lehetőségeket biztosít, amelyek szabályozzák, hogyan renderelődik egy prezentáció vagy dia.
+description: Beállításokat biztosít, amelyek szabályozzák, hogyan renderelődik egy prezentáció/dia.
 type: docs
-weight: 4040
+weight: 4060
 url: /hu/aspose.slides.export/irenderingoptions/
 ---
 ## IRenderingOptions interfész
 
-Lehetőségeket biztosít, amelyek szabályozzák, hogyan renderelődik egy prezentáció vagy dia.
+Beállításokat biztosít, amelyek szabályozzák, hogyan renderelődik egy prezentáció/dia.
 
 ```csharp
 public interface IRenderingOptions : ISaveOptions
@@ -19,9 +19,9 @@ public interface IRenderingOptions : ISaveOptions
 | Név | Leírás |
 | --- | --- |
 | [AsISaveOptions](../../aspose.slides.export/irenderingoptions/asisaveoptions) { get; } | Visszaadja az ISaveOptions interfészt. Csak olvasható [`ISaveOptions`](../isaveoptions). |
-| [DisableFontLigatures](../../aspose.slides.export/irenderingoptions/disablefontligatures) { get; set; } | Akapcsolja vagy beállítja azt az értéket, amely jelzi, hogy a szöveg ligatúrák használata nélkül kerül renderelésre. Ha `true` értékre van állítva, a ligatúrák le lesznek tiltva a renderelt kimenetben. Alapértelmezés szerint ez a tulajdonság `false` értékre van állítva. |
-| [InkOptions](../../aspose.slides.export/irenderingoptions/inkoptions) { get; } | Lehetőségeket biztosít, amelyek szabályozzák az Ink objektumok megjelenését az exportált dokumentumban. Csak olvasható [`IInkOptions`](../iinkoptions) |
-| [SlidesLayoutOptions](../../aspose.slides.export/irenderingoptions/slideslayoutoptions) { get; set; } | Akapcsolja vagy beállítja azt a módot, amelyben a diak az oldalon elhelyezésre kerülnek prezentáció exportálásakor [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [DisableFontLigatures](../../aspose.slides.export/irenderingoptions/disablefontligatures) { get; set; } | Lekéri vagy beállítja azt az értéket, amely jelzi, hogy a szöveg ligatúrák használata nélkül renderelődik-e. Ha `true`-ra van beállítva, a ligatúrák le lesznek tiltva a renderelt kimenetben. Alapértelmezés szerint ez a tulajdonság `false`-ra van beállítva. |
+| [InkOptions](../../aspose.slides.export/irenderingoptions/inkoptions) { get; } | Beállításokat biztosít, amelyek szabályozzák az Ink objektumok megjelenését az exportált dokumentumban. Csak olvasható [`IInkOptions`](../iinkoptions) |
+| [SlidesLayoutOptions](../../aspose.slides.export/irenderingoptions/slideslayoutoptions) { get; set; } | Lekéri vagy beállítja azt a módot, amelyben a diák az oldalon elhelyezésre kerülnek egy prezentáció exportálásakor [`ISlidesLayoutOptions`](../islideslayoutoptions). |
 
 ### Példák
 

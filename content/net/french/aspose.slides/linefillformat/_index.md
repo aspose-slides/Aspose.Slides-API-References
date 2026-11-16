@@ -3,10 +3,10 @@ title: LineFillFormat
 second_title: Référence API Aspose.Sildes pour .NET
 description: Représente les propriétés du remplissage des lignes.
 type: docs
-weight: 7780
+weight: 7800
 url: /fr/aspose.slides/linefillformat/
 ---
-## classe LineFillFormat
+## LineFillFormat classe
 
 Représente les propriétés du remplissage des lignes.
 
@@ -21,8 +21,8 @@ public sealed class LineFillFormat : PVIObject, ILineFillFormat
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permet d'obtenir l'interface de base IPresentationComponent. Lecture seule [`IPresentationComponent`](../ipresentationcomponent). |
 | [FillType](../../aspose.slides/linefillformat/filltype) { get; set; } | Renvoie ou définit le type de remplissage. Lecture/écriture [`FillType`](../filltype). |
 | [GradientFormat](../../aspose.slides/linefillformat/gradientformat) { get; } | Renvoie le format de remplissage en dégradé. Lecture seule [`IGradientFormat`](../igradientformat). |
-| [PatternFormat](../../aspose.slides/linefillformat/patternformat) { get; } | Renvoie le format de remplissage en motif. Lecture seule [`IPatternFormat`](../ipatternformat). |
-| [RotateWithShape](../../aspose.slides/linefillformat/rotatewithshape) { get; set; } | Détermine si le remplissage doit être tourné avec une forme. Lecture/écriture [`NullableBool`](../nullablebool). |
+| [PatternFormat](../../aspose.slides/linefillformat/patternformat) { get; } | Renvoie le format de remplissage de motif. Lecture seule [`IPatternFormat`](../ipatternformat). |
+| [RotateWithShape](../../aspose.slides/linefillformat/rotatewithshape) { get; set; } | Détermine si le remplissage doit être pivoté avec une forme. Lecture/écriture [`NullableBool`](../nullablebool). |
 | [SolidFillColor](../../aspose.slides/linefillformat/solidfillcolor) { get; } | Renvoie la couleur d'un remplissage uni. Lecture seule [`IColorFormat`](../icolorformat). |
 
 ## Méthodes

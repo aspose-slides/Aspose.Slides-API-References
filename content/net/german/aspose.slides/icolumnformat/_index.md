@@ -3,7 +3,7 @@ title: IColumnFormat
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt das Format einer Tabellenspalte dar.
 type: docs
-weight: 5540
+weight: 5560
 url: /de/aspose.slides/icolumnformat/
 ---
 ## IColumnFormat Schnittstelle
@@ -18,7 +18,7 @@ public interface IColumnFormat
 
 | Name | Beschreibung |
 | --- | --- |
-| [GetEffective](../../aspose.slides/icolumnformat/geteffective)() | Ermittelt die wirksamen Formatierungseigenschaften einer Tabellenspalte, wobei Vererbung und Tabellenvorlagen angewendet werden. |
+| [GetEffective](../../aspose.slides/icolumnformat/geteffective)() | Ermittelt die wirksamen Formatierungseigenschaften der Tabellenspalte unter Berücksichtigung von Vererbung und angewendeten Tabellenvorlagen. |
 
 ### Siehe auch
 

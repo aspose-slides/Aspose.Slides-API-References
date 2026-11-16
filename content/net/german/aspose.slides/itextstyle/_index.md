@@ -1,14 +1,14 @@
 ---
 title: ITextStyle
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Eigenschaften zur Textstilformatierung.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Textstil-Formatierungseigenschaften.
 type: docs
-weight: 7310
+weight: 7330
 url: /de/aspose.slides/itextstyle/
 ---
 ## ITextStyle Schnittstelle
 
-Eigenschaften zur Textstilformatierung.
+Textstil-Formatierungseigenschaften.
 
 ```csharp
 public interface ITextStyle
@@ -18,13 +18,13 @@ public interface ITextStyle
 
 | Name | Beschreibung |
 | --- | --- |
-| [DefaultParagraphFormat](../../aspose.slides/itextstyle/defaultparagraphformat) { get; } | Standard-Absatz-Eigenschaften. Nur lesbar [`IParagraphFormat`](../iparagraphformat). |
+| [DefaultParagraphFormat](../../aspose.slides/itextstyle/defaultparagraphformat) { get; } | Standardabsatz-Eigenschaften. Nur lesbar [`IParagraphFormat`](../iparagraphformat). |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [GetEffective](../../aspose.slides/itextstyle/geteffective)() | Ruft die wirksamen Textstilformatierungsdaten mit angewandter Vererbung ab. |
+| [GetEffective](../../aspose.slides/itextstyle/geteffective)() | Ruft effektive Textstil-Formatierungsdaten mit angewandter Vererbung ab. |
 | [GetLevel](../../aspose.slides/itextstyle/getlevel)(int) | Wenn die Stil-Ebene existiert, wird sie zurückgegeben, andernfalls wird null zurückgegeben. |
 
 ### Siehe auch

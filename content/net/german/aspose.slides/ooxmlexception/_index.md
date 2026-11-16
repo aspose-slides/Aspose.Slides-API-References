@@ -1,14 +1,14 @@
 ---
 title: OOXMLException
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt einen standardmäßigen internen Ausnahmetyp dar, der sich auf das Office Open XML-Dateiformat bezieht.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Stellt einen standardmäßigen internen Ausnahmetyp dar, der mit dem Office Open XML-Dateiformat zusammenhängt.
 type: docs
-weight: 9200
+weight: 9220
 url: /de/aspose.slides/ooxmlexception/
 ---
 ## OOXMLException Klasse
 
-Stellt einen standardmäßigen internen Ausnahmetyp dar, der sich auf das Office Open XML-Dateiformat bezieht.
+Stellt einen standardmäßigen internen Ausnahmetyp dar, der mit dem Office Open XML-Dateiformat zusammenhängt.
 
 ```csharp
 public class OOXMLException : Exception
@@ -19,8 +19,8 @@ public class OOXMLException : Exception
 | Name | Beschreibung |
 | --- | --- |
 | [OOXMLException](ooxmlexception#constructor)() | Standardkonstruktor. |
-| [OOXMLException](ooxmlexception#constructor_1)(string) | Konstruktor, der das Hinzufügen einer Nachricht zu dieser Exception ermöglicht. |
-| [OOXMLException](ooxmlexception#constructor_2)(string, Exception) | Konstruktor für eine Exception, die eine Nachricht und eine eingebettete Exception enthält. |
+| [OOXMLException](ooxmlexception#constructor_1)(string) | Konstruktor, der das Hinzufügen einer Nachricht zu dieser Ausnahme ermöglicht. |
+| [OOXMLException](ooxmlexception#constructor_2)(string, Exception) | Konstruktor für eine Ausnahme, die eine Nachricht und eine eingebettete Ausnahme enthält. |
 
 ### Siehe auch
 

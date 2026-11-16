@@ -1,14 +1,14 @@
 ---
 title: IEmptyTransition
 second_title: Aspose.Sildes for .NET API 參考文件
-description: 空的投影片轉場效果。
+description: 空白投影片過渡效果。
 type: docs
-weight: 10080
+weight: 10100
 url: /zh-hant/aspose.slides.slideshow/iemptytransition/
 ---
 ## IEmptyTransition 介面
 
-空的投影片轉場效果。
+空白投影片過渡效果。
 
 ```csharp
 public interface IEmptyTransition : ITransitionValueBase

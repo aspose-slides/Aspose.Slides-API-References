@@ -1,14 +1,14 @@
 ---
 title: IGrayScale
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes .NET API Referansı
 description: IImageTransformOperation arayüzünü temsil eder.
 type: docs
-weight: 3340
+weight: 3360
 url: /tr/aspose.slides.effects/igrayscale/
 ---
-## IGrayScale arayüzü
+## IGrayScale arayüz
 
-IImageTransformOperation arayüzünü temsil eder.
+Temsil eder IImageTransformOperation arayüz.
 
 ```csharp
 public interface IGrayScale : IAccessiblePVIObject<IGrayScaleEffectiveData>, 
@@ -19,10 +19,10 @@ public interface IGrayScale : IAccessiblePVIObject<IGrayScaleEffectiveData>,
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/igrayscale/asiaccessiblepviobject) { get; } | Temel IAccessiblePVIObject arayüzünü almaya izin verir. Salt okunur [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/igrayscale/asiimagetransformoperation) { get; } | IImageTransformOperation arayüzünü döndürür. Salt okunur [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/igrayscale/asiaccessiblepviobject) { get; } | Temel IAccessiblePVIObject arayüzüne erişim sağlar. Yalnızca okuma [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/igrayscale/asiimagetransformoperation) { get; } | Döndürür IImageTransformOperation arayüz. Yalnızca okuma [`IImageTransformOperation`](../iimagetransformoperation). |
 
-### Bakınız
+### Ayrıca Bakınız
 
 * arayüz [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * arayüz [IGrayScaleEffectiveData](../igrayscaleeffectivedata)

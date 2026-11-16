@@ -1,14 +1,14 @@
 ---
 title: TextStrikethroughType
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Geeft het type tekstdoorhaling weer.
+description: Geeft het type doorhaling van tekst weer.
 type: docs
-weight: 10990
+weight: 11010
 url: /nl/aspose.slides/textstrikethroughtype/
 ---
 ## TextStrikethroughType enumeratie
 
-Geeft het type tekstdoorhaling weer.
+Geeft het type doorhaling van tekst weer.
 
 ```csharp
 public enum TextStrikethroughType : sbyte

@@ -1,14 +1,14 @@
 ---
 title: IExtraColorScheme
-second_title: Aspose.Sildes pro .NET – referenční dokumentace API
-description: Reprezentuje další barevné schéma, které lze přiřadit ke snímku.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Představuje doplňkové barevné schéma, které může být přiřazeno snímku.
 type: docs
-weight: 11210
+weight: 11230
 url: /cs/aspose.slides.theme/iextracolorscheme/
 ---
 ## IExtraColorScheme rozhraní
 
-Představuje další barevné schéma, které lze přiřadit ke snímku.
+Představuje doplňkové barevné schéma, které může být přiřazeno snímku.
 
 ```csharp
 public interface IExtraColorScheme
@@ -18,8 +18,8 @@ public interface IExtraColorScheme
 
 | Název | Popis |
 | --- | --- |
-| [ColorScheme](../../aspose.slides.theme/iextracolorscheme/colorscheme) { get; } | Vrací barevné schéma. Pouze pro čtení [`IColorScheme`](../icolorscheme). |
-| [Name](../../aspose.slides.theme/iextracolorscheme/name) { get; } | Vrací název tohoto schématu. Pouze pro čtení String. |
+| [ColorScheme](../../aspose.slides.theme/iextracolorscheme/colorscheme) { get; } | Vrací barevné schéma. Pouze ke čtení [`IColorScheme`](../icolorscheme). |
+| [Name](../../aspose.slides.theme/iextracolorscheme/name) { get; } | Vrací název tohoto schématu. Pouze ke čtení String. |
 
 ### Viz také
 

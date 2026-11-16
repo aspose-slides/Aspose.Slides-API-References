@@ -1,14 +1,14 @@
 ---
 title: IMarker
 second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje značku grafu.
+description: Představuje značku grafu.
 type: docs
-weight: 2160
+weight: 2180
 url: /cs/aspose.slides.charts/imarker/
 ---
 ## IMarker rozhraní
 
-Representuje značku grafu.
+Představuje značku grafu.
 
 ```csharp
 public interface IMarker
@@ -19,8 +19,8 @@ public interface IMarker
 | Název | Popis |
 | --- | --- |
 | [Format](../../aspose.slides.charts/imarker/format) { get; } | Získá výplň značky. Pouze pro čtení [`IFormat`](../iformat). |
-| [Size](../../aspose.slides.charts/imarker/size) { get; set; } | Representuje velikost značky v čárovém grafu, rozptylovém grafu nebo radarem grafu. Čtení/zápis Int32. |
-| [Symbol](../../aspose.slides.charts/imarker/symbol) { get; set; } | Representuje styl značky v čárovém grafu, rozptylovém grafu nebo radarem grafu. Čtení/zápis [`MarkerStyleType`](../markerstyletype). |
+| [Size](../../aspose.slides.charts/imarker/size) { get; set; } | Představuje velikost značky v spojnicovém grafu, rozptýleném grafu nebo radaru. Čtení/zápis Int32. |
+| [Symbol](../../aspose.slides.charts/imarker/symbol) { get; set; } | Představuje styl značky v spojnicovém grafu, rozptýleném grafu nebo radaru. Čtení/zápis [`MarkerStyleType`](../markerstyletype). |
 
 ### Viz také
 

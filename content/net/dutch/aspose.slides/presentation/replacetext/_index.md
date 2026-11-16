@@ -3,7 +3,7 @@ title: ReplaceText
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Vervangt alle voorkomens van de opgegeven tekst door een andere opgegeven tekst.
 type: docs
-weight: 380
+weight: 390
 url: /nl/aspose.slides/presentation/replacetext/
 ---
 ## Presentation.ReplaceText methode
@@ -17,20 +17,20 @@ public void ReplaceText(string oldText, string newText, ITextSearchOptions optio
 
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| oldText | String | De string die vervangen moet worden. |
-| newText | String | De string die alle voorkomens van oldText vervangt. |
+| oldText | String | The string to be replaced. |
+| newText | String | The string to replace all occurrences of oldText. |
 | options | ITextSearchOptions | Tekstzoekopties [`ITextSearchOptions`](../../itextsearchoptions). |
 | callback | IFindResultCallback | Het callback-object voor het ontvangen van zoekresultaten [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### Voorbeelden
 
-De volgende voorbeeldcode laat zien hoe een opgegeven string vervangen kan worden door een andere opgegeven string.
+De volgende voorbeeldcode laat zien hoe één opgegeven tekenreeks te vervangen door een andere opgegeven tekenreeks.
 
 ```csharp
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
-	// Vervang alle afzonderlijke 'the'-voorkomens door '***'
+	// Vervang alle losse 'the' voorkomen door '***'
 	presentation.ReplaceText("the", "***", new TextSearchOptions() {WholeWordsOnly = true}, null);
 	presentation.Save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 }

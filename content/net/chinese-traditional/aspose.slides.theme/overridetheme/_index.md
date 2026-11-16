@@ -1,14 +1,14 @@
 ---
 title: OverrideTheme
-second_title: Aspose.Sildes for .NET API 參考
-description: 代表一個覆寫的主題。
+second_title: Aspose.Sildes for .NET API 參考文件
+description: 表示一個覆寫主題。
 type: docs
-weight: 11460
+weight: 11480
 url: /zh-hant/aspose.slides.theme/overridetheme/
 ---
 ## OverrideTheme 類別
 
-代表一個覆寫的主題。
+表示一個覆寫主題。
 
 ```csharp
 public sealed class OverrideTheme : Theme, IOverrideTheme
@@ -16,29 +16,29 @@ public sealed class OverrideTheme : Theme, IOverrideTheme
 
 ## 屬性
 
-| 名稱 | 說明 |
+| Name | Description |
 | --- | --- |
-| override [ColorScheme](../../aspose.slides.theme/overridetheme/colorscheme) { get; } | 傳回顏色配置。唯讀 [`IColorScheme`](../icolorscheme)。 |
+| override [ColorScheme](../../aspose.slides.theme/overridetheme/colorscheme) { get; } | 傳回色彩配置。唯讀 [`IColorScheme`](../icolorscheme)。 |
 | override [FontScheme](../../aspose.slides.theme/overridetheme/fontscheme) { get; } | 傳回字型配置。唯讀 [`IFontScheme`](../ifontscheme)。 |
 | override [FormatScheme](../../aspose.slides.theme/overridetheme/formatscheme) { get; } | 傳回形狀格式配置。唯讀 [`IFormatScheme`](../iformatscheme)。 |
-| [IsEmpty](../../aspose.slides.theme/overridetheme/isempty) { get; } | True 值表示 ColorScheme、FontScheme、FormatScheme 為 null，且此主題物件的任何覆寫皆已停用。唯讀 Boolean。 |
+| [IsEmpty](../../aspose.slides.theme/overridetheme/isempty) { get; } | True 值表示 ColorScheme、FontScheme、FormatScheme 為 null，且使用此主題物件的任何覆寫皆已停用。唯讀 Boolean。 |
 | [Presentation](../../aspose.slides.theme/theme/presentation) { get; } | 傳回父簡報。唯讀 [`IPresentation`](../../aspose.slides/ipresentation)。 |
 
 ## 方法
 
-| 名稱 | 說明 |
+| Name | Description |
 | --- | --- |
-| [Clear](../../aspose.slides.theme/overridetheme/clear)() | 將 ColorScheme、FontScheme、FormatScheme 設為 null，以停用此主題物件的任何覆寫。 |
+| [Clear](../../aspose.slides.theme/overridetheme/clear)() | 將 ColorScheme、FontScheme、FormatScheme 設為 null，以停用使用此主題物件的任何覆寫。 |
 | [GetEffective](../../aspose.slides.theme/theme/geteffective)() | 取得套用繼承後的有效主題資料。 |
-| [InitColorScheme](../../aspose.slides.theme/overridetheme/initcolorscheme)() | 使用新物件初始化 ColorScheme，以覆寫 InheritedTheme 的 ColorScheme。 |
-| [InitColorSchemeFrom](../../aspose.slides.theme/overridetheme/initcolorschemefrom)(IColorScheme) | 使用新物件初始化 ColorScheme，以覆寫 InheritedTheme 的 ColorScheme。 |
-| [InitColorSchemeFromInherited](../../aspose.slides.theme/overridetheme/initcolorschemefrominherited)() | 使用新物件初始化 ColorScheme，以覆寫 InheritedTheme 的 ColorScheme，並以 InheritedTheme 的 ColorScheme 資料初始化此新物件的資料。 |
-| [InitFontScheme](../../aspose.slides.theme/overridetheme/initfontscheme)() | 使用新物件初始化 FontScheme，以覆寫 InheritedTheme 的 FontScheme。 |
-| [InitFontSchemeFrom](../../aspose.slides.theme/overridetheme/initfontschemefrom)(IFontScheme) | 使用新物件初始化 FontScheme，以覆寫 InheritedTheme 的 FontScheme。 |
-| [InitFontSchemeFromInherited](../../aspose.slides.theme/overridetheme/initfontschemefrominherited)() | 使用新物件初始化 FontScheme，以覆寫 InheritedTheme 的 FontScheme，並以 InheritedTheme 的 FontScheme 資料初始化此新物件的資料。 |
-| [InitFormatScheme](../../aspose.slides.theme/overridetheme/initformatscheme)() | 使用新物件初始化 FormatScheme，以覆寫 InheritedTheme 的 FormatScheme。 |
-| [InitFormatSchemeFrom](../../aspose.slides.theme/overridetheme/initformatschemefrom)(IFormatScheme) | 使用新物件初始化 FormatScheme，以覆寫 InheritedTheme 的 FormatScheme。 |
-| [InitFormatSchemeFromInherited](../../aspose.slides.theme/overridetheme/initformatschemefrominherited)() | 使用新物件初始化 FormatScheme，以覆寫 InheritedTheme 的 FormatScheme，並以 InheritedTheme 的 FormatScheme 資料初始化此新物件的資料。 |
+| [InitColorScheme](../../aspose.slides.theme/overridetheme/initcolorscheme)() | 以新物件初始化 ColorScheme，以覆寫 InheritedTheme 的 ColorScheme。 |
+| [InitColorSchemeFrom](../../aspose.slides.theme/overridetheme/initcolorschemefrom)(IColorScheme) | 以新物件初始化 ColorScheme，以覆寫 InheritedTheme 的 ColorScheme。 |
+| [InitColorSchemeFromInherited](../../aspose.slides.theme/overridetheme/initcolorschemefrominherited)() | 以新物件初始化 ColorScheme，以覆寫 InheritedTheme 的 ColorScheme，並使用 InheritedTheme 的 ColorScheme 資料初始化此新物件。 |
+| [InitFontScheme](../../aspose.slides.theme/overridetheme/initfontscheme)() | 以新物件初始化 FontScheme，以覆寫 InheritedTheme 的 FontScheme。 |
+| [InitFontSchemeFrom](../../aspose.slides.theme/overridetheme/initfontschemefrom)(IFontScheme) | 以新物件初始化 FontScheme，以覆寫 InheritedTheme 的 FontScheme。 |
+| [InitFontSchemeFromInherited](../../aspose.slides.theme/overridetheme/initfontschemefrominherited)() | 以新物件初始化 FontScheme，以覆寫 InheritedTheme 的 FontScheme，並使用 InheritedTheme 的 FontScheme 資料初始化此新物件。 |
+| [InitFormatScheme](../../aspose.slides.theme/overridetheme/initformatscheme)() | 以新物件初始化 FormatScheme，以覆寫 InheritedTheme 的 FormatScheme。 |
+| [InitFormatSchemeFrom](../../aspose.slides.theme/overridetheme/initformatschemefrom)(IFormatScheme) | 以新物件初始化 FormatScheme，以覆寫 InheritedTheme 的 FormatScheme。 |
+| [InitFormatSchemeFromInherited](../../aspose.slides.theme/overridetheme/initformatschemefrominherited)() | 以新物件初始化 FormatScheme，以覆寫 InheritedTheme 的 FormatScheme，並使用 InheritedTheme 的 FormatScheme 資料初始化此新物件。 |
 
 ### 另請參閱
 

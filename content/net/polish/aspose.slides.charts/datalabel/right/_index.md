@@ -1,14 +1,14 @@
 ---
 title: Right
-second_title: Aspose.Sildes dla .NET – referencja API
-description: Right. Tylko do odczytu Single.
+second_title: Aspose.Sildes dla .NET API Reference
+description: Prawe. Tylko do odczytu Single.
 type: docs
-weight: 110
+weight: 120
 url: /pl/aspose.slides.charts/datalabel/right/
 ---
 ## DataLabel.Right właściwość
 
-Right. Tylko do odczytu Single.
+Prawe. Tylko do odczytu Single.
 
 ```csharp
 public float Right { get; }

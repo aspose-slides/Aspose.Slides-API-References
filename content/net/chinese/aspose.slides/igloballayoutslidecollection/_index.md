@@ -1,14 +1,14 @@
 ---
 title: IGlobalLayoutSlideCollection
-second_title: Aspose.Sildes for .NET API 参考
-description: 表示演示文稿中所有布局幻灯片的集合。扩展 ILayoutSlideCollection 接口，提供在合并各个母版布局幻灯片集合的上下文中添加/克隆布局幻灯片的方法。
+second_title: Aspose.Sildes .NET API 参考
+description: 表示演示文稿中所有布局幻灯片的集合。扩展 ILayoutSlideCollection 接口，提供在合并各个主布局幻灯片集合的上下文中添加/克隆布局幻灯片的方法。
 type: docs
-weight: 5990
+weight: 6010
 url: /zh/aspose.slides/igloballayoutslidecollection/
 ---
 ## IGlobalLayoutSlideCollection 接口
 
-表示演示文稿中所有布局幻灯片的集合。扩展 ILayoutSlideCollection 接口，提供在合并各个母版布局幻灯片集合的上下文中添加/克隆布局幻灯片的方法。
+表示演示文稿中所有布局幻灯片的集合。扩展 ILayoutSlideCollection 接口，提供在合并各个主布局幻灯片集合的上下文中添加/克隆布局幻灯片的方法。
 
 ```csharp
 public interface IGlobalLayoutSlideCollection : ILayoutSlideCollection
@@ -28,7 +28,7 @@ public interface IGlobalLayoutSlideCollection : ILayoutSlideCollection
 | [AddClone](../../aspose.slides/igloballayoutslidecollection/addclone#addclone)(ILayoutSlide) | 向演示文稿添加指定布局幻灯片的副本。 |
 | [AddClone](../../aspose.slides/igloballayoutslidecollection/addclone#addclone_1)(ILayoutSlide, IMasterSlide) | 向演示文稿添加指定布局幻灯片的副本。 |
 
-### 另见
+### 另请参见
 
 * 接口 [ILayoutSlideCollection](../ilayoutslidecollection)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

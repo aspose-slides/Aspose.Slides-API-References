@@ -1,14 +1,14 @@
 ---
 title: License
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt Methoden bereit, um die Komponente zu lizenzieren.
+description: Stellt Methoden zum Lizenzieren der Komponente bereit.
 type: docs
-weight: 7680
+weight: 7700
 url: /de/aspose.slides/license/
 ---
 ## Lizenzklasse
 
-Stellt Methoden bereit, um die Komponente zu lizenzieren.
+Stellt Methoden zum Lizenzieren der Komponente bereit.
 
 ```csharp
 public class License : ILicense

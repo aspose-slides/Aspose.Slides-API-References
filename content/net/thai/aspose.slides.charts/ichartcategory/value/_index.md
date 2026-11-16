@@ -1,14 +1,14 @@
 ---
 title: Value
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: หาก UseCell เป็น true แล้วคุณสมบัตินี้แสดงถึงคุณสมบัติ AsCell.Value. หาก UseCell เป็น false แล้วคุณสมบัตินี้แสดงถึงคุณสมบัติ AsLiteral. อ่าน/เขียน Object.
+second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
+description: ถ้า UseCell เป็น true แล้วคุณสมบัตินี้แทนค่า AsCell.Value คุณสมบัติ. ถ้า UseCell เป็น false แล้วคุณสมบัตินี้แทนค่า AsLiteral คุณสมบัติ. อ่าน/เขียน Object.
 type: docs
-weight: 50
+weight: 60
 url: /th/aspose.slides.charts/ichartcategory/value/
 ---
 ## IChartCategory.Value คุณสมบัติ
 
-ถ้า UseCell เป็น true แล้วคุณสมบัตินี้จะเป็นตัวแทนของคุณสมบัติ AsCell.Value. ถ้า UseCell เป็น false แล้วคุณสมบัตินี้จะเป็นตัวแทนของคุณสมบัติ AsLiteral. อ่าน/เขียน Object.
+ถ้า UseCell เป็น true แล้วคุณสมบัตินี้จะแทนค่า AsCell.Value คุณสมบัติ. ถ้า UseCell เป็น false แล้วคุณสมบัตินี้จะแทนค่า AsLiteral คุณสมบัติ. อ่าน/เขียน Object.
 
 ```csharp
 public object Value { get; set; }

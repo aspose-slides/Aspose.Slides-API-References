@@ -1,14 +1,14 @@
 ---
 title: SideDirectionTransition
-second_title: Aspose.Sildes für .NET API Referenz
-description: Seitlicher Richtungs-Folienübergangseffekt.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Seitlicher Richtungsfolienübergangseffekt.
 type: docs
-weight: 10310
+weight: 10330
 url: /de/aspose.slides.slideshow/sidedirectiontransition/
 ---
 ## SideDirectionTransition Klasse
 
-Seitlicher Richtungs-Folienübergangseffekt.
+Seitlicher Richtungsfolienübergangseffekt.
 
 ```csharp
 public class SideDirectionTransition : TransitionValueBase, ISideDirectionTransition
@@ -18,7 +18,7 @@ public class SideDirectionTransition : TransitionValueBase, ISideDirectionTransi
 
 | Name | Beschreibung |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/sidedirectiontransition/direction) { get; set; } | Richtung der Transition. Lesen/Schreiben [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
+| [Direction](../../aspose.slides.slideshow/sidedirectiontransition/direction) { get; set; } | Richtung des Übergangs. Lesen/Schreiben [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
 
 ## Methoden
 

@@ -1,20 +1,20 @@
 ---
 title: FontCollectionIndex
-second_title: Aspose.Sildes .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 表示集合中字体的索引。
 type: docs
-weight: 4810
+weight: 4830
 url: /zh/aspose.slides/fontcollectionindex/
 ---
 ## FontCollectionIndex 枚举
 
-表示字体在集合中的索引。
+表示集合中字体的索引。
 
 ```csharp
 public enum FontCollectionIndex : byte
 ```
 
-### 值
+### 取值
 
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
@@ -22,7 +22,7 @@ public enum FontCollectionIndex : byte
 | Minor | `1` |  |
 | Major | `2` |  |
 
-### 另请参见
+### 另见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

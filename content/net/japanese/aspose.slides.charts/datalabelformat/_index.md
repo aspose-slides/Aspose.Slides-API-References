@@ -1,9 +1,9 @@
 ---
 title: DataLabelFormat
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET の API リファレンス
 description: DataLabel の書式設定オプションを表します。
 type: docs
-weight: 1570
+weight: 1580
 url: /ja/aspose.slides.charts/datalabelformat/
 ---
 ## DataLabelFormat クラス
@@ -16,37 +16,37 @@ public sealed class DataLabelFormat : PVIObject, IDataLabelFormat
 
 ## プロパティ
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | ベース IPresentationComponent インターフェイスを取得できます。 読み取り専用 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
-| [Chart](../../aspose.slides.charts/datalabelformat/chart) { get; } | チャートを返します。 読み取り専用 [`IChart`](../ichart)。 |
-| [Format](../../aspose.slides.charts/datalabelformat/format) { get; } | データ ラベルの書式を表します。 読み取り専用 [`IFormat`](../iformat)。 |
-| [IsNumberFormatLinkedToSource](../../aspose.slides.charts/datalabelformat/isnumberformatlinkedtosource) { get; set; } | 読み書き Boolean。 |
-| [NumberFormat](../../aspose.slides.charts/datalabelformat/numberformat) { get; set; } | DataLabels オブジェクトの書式文字列を表します。 読み書き String。 |
-| [Position](../../aspose.slides.charts/datalabelformat/position) { get; set; } | データ ラベルの位置を表します。 読み書き [`LegendDataLabelPosition`](../legenddatalabelposition)。 |
-| [Separator](../../aspose.slides.charts/datalabelformat/separator) { get; set; } | チャート上のデータ ラベルで使用される区切り文字を表す Variant を設定または取得します。 読み書き String。 |
-| [ShowBubbleSize](../../aspose.slides.charts/datalabelformat/showbubblesize) { get; set; } | 指定されたチャートのデータ ラベルのバブル サイズ値の表示動作を表します。 True はバブル サイズ値を表示し、False は非表示にします。 読み書き Boolean。 |
-| [ShowCategoryName](../../aspose.slides.charts/datalabelformat/showcategoryname) { get; set; } | 指定されたチャートのデータ ラベルのカテゴリ名の表示動作を表します。 True はチャート上のデータ ラベルのカテゴリ名を表示し、False は非表示にします。 読み書き Boolean。 |
-| [ShowLabelAsDataCallout](../../aspose.slides.charts/datalabelformat/showlabelasdatacallout) { get; set; } | 指定されたチャートのデータ ラベルをデータコールアウトとして表示するかデータ ラベルとして表示するかを決定します。 この DataLabelFormat オブジェクトの親が DataLabelCollection（データ ラベルのコレクション）である場合、このプロパティは DataLabelCollection 内の新しいデータ ラベルの ShowLabelAsDataCallout プロパティの既定値を取得または設定します。 このプロパティに値を設定すると、DataLabelCollection 内のすべてのデータ ラベルの ShowLabelAsDataCallout プロパティにも同じ値が設定されます（例: "DataLabels.DefaultDataLabelFormat.ShowLabelAsDataCallout = val;" によりすべての DataLabels[i].ShowLabelAsDataCallout が val と等しくなります）。 |
-| [ShowLabelValueFromCell](../../aspose.slides.charts/datalabelformat/showlabelvaluefromcell) { get; set; } | 指定されたチャートのデータ ラベルのセル値の表示動作を表します。 True はセル値を表示し、False は非表示にします。 読み書き Boolean。 |
-| [ShowLeaderLines](../../aspose.slides.charts/datalabelformat/showleaderlines) { get; set; } | 指定されたチャートのデータ ラベルのリーダーラインの表示動作を表します。 True はリーダーラインを表示し、False は非表示にします。 読み書き Boolean。 |
-| [ShowLegendKey](../../aspose.slides.charts/datalabelformat/showlegendkey) { get; set; } | 指定されたチャートのデータ ラベルの凡例キーの表示動作を表します。 True はデータ ラベルの凡例キーが表示されていることを意味します。 読み書き Boolean。 |
-| [ShowPercentage](../../aspose.slides.charts/datalabelformat/showpercentage) { get; set; } | 指定されたチャートのデータ ラベルのパーセンテージ値の表示動作を表します。 True はパーセンテージ値を表示し、False は非表示にします。 読み書き Boolean。 |
-| [ShowSeriesName](../../aspose.slides.charts/datalabelformat/showseriesname) { get; set; } | チャート上のデータ ラベルのシリーズ名の表示動作を示す Boolean を取得または設定します。 True はシリーズ名を表示し、False は非表示にします。 読み書き Boolean。 |
-| [ShowValue](../../aspose.slides.charts/datalabelformat/showvalue) { get; set; } | 指定されたチャートのデータ ラベルのパーセンテージ値の表示動作を表します。 True はパーセンテージ値を表示し、False は非表示にします。 読み書き Boolean。 |
-| [TextFormat](../../aspose.slides.charts/datalabelformat/textformat) { get; } | チャートのテキスト書式を返します。 読み取り専用 [`IChartTextFormat`](../icharttextformat)。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | ベースの IPresentationComponent インターフェイスを取得できます。読み取り専用 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
+| [Chart](../../aspose.slides.charts/datalabelformat/chart) { get; } | チャートを返します。読み取り専用 [`IChart`](../ichart)。 |
+| [Format](../../aspose.slides.charts/datalabelformat/format) { get; } | データラベルの書式を表します。読み取り専用 [`IFormat`](../iformat)。 |
+| [IsNumberFormatLinkedToSource](../../aspose.slides.charts/datalabelformat/isnumberformatlinkedtosource) { get; set; } | 読み書き可能な Boolean。 |
+| [NumberFormat](../../aspose.slides.charts/datalabelformat/numberformat) { get; set; } | DataLabels オブジェクトの書式文字列を表します。読み書き可能な String。 |
+| [Position](../../aspose.slides.charts/datalabelformat/position) { get; set; } | データラベルの位置を表します。読み書き可能な [`LegendDataLabelPosition`](../legenddatalabelposition)。 |
+| [Separator](../../aspose.slides.charts/datalabelformat/separator) { get; set; } | チャート上のデータラベルで使用される区切り文字を表す Variant を設定または取得します。読み書き可能な String。 |
+| [ShowBubbleSize](../../aspose.slides.charts/datalabelformat/showbubblesize) { get; set; } | 指定されたチャートのデータラベル バブル サイズ値の表示動作を表します。True の場合はバブル サイズ値を表示します。False の場合は非表示にします。読み書き可能な Boolean。 |
+| [ShowCategoryName](../../aspose.slides.charts/datalabelformat/showcategoryname) { get; set; } | 指定されたチャートのデータラベル カテゴリ名の表示動作を表します。True の場合はカテゴリ名を表示します。False の場合は非表示にします。読み書き可能な Boolean。 |
+| [ShowLabelAsDataCallout](../../aspose.slides.charts/datalabelformat/showlabelasdatacallout) { get; set; } | 指定されたチャートのデータラベルがデータ呼出しとして表示されるかデータラベルとして表示されるかを決定します。 この DataLabelFormat オブジェクトの親が DataLabelCollection（データラベルのコレクション）である場合、このプロパティは DataLabelCollection 内の新しいデータラベルの ShowLabelAsDataCallout プロパティのデフォルト値を取得または設定します。このプロパティに値を設定すると、DataLabelCollection 内のすべてのデータラベルの ShowLabelAsDataCallout プロパティにも同じ値が設定されます（例: "DataLabels.DefaultDataLabelFormat.ShowLabelAsDataCallout = val;" により、すべての DataLabels[i].ShowLabelAsDataCallout が val に等しくなります）。 |
+| [ShowLabelValueFromCell](../../aspose.slides.charts/datalabelformat/showlabelvaluefromcell) { get; set; } | 指定されたチャートのデータラベル セル 値の表示動作を表します。True の場合はセル値を表示します。False の場合は非表示にします。読み書き可能な Boolean。 |
+| [ShowLeaderLines](../../aspose.slides.charts/datalabelformat/showleaderlines) { get; set; } | 指定されたチャートのデータラベル リーダーラインの表示動作を表します。True の場合はリーダーラインを表示します。False の場合は非表示にします。読み書き可能な Boolean。 |
+| [ShowLegendKey](../../aspose.slides.charts/datalabelformat/showlegendkey) { get; set; } | 指定されたチャートのデータラベル 凡例キーの表示動作を表します。True の場合はデータラベルの凡例キーが表示されます。読み書き可能な Boolean。 |
+| [ShowPercentage](../../aspose.slides.charts/datalabelformat/showpercentage) { get; set; } | 指定されたチャートのデータラベル パーセンテージ値の表示動作を表します。True の場合はパーセンテージ値を表示します。False の場合は非表示にします。読み書き可能な Boolean。 |
+| [ShowSeriesName](../../aspose.slides.charts/datalabelformat/showseriesname) { get; set; } | チャート上のデータラベルのシリーズ名の表示動作を示す Boolean を取得または設定します。True の場合はシリーズ名を表示します。False の場合は非表示にします。読み書き可能な Boolean。 |
+| [ShowValue](../../aspose.slides.charts/datalabelformat/showvalue) { get; set; } | 指定されたチャートのデータラベル パーセンテージ値の表示動作を表します。True の場合はパーセンテージ値を表示します。False の場合は非表示にします。読み書き可能な Boolean。 |
+| [TextFormat](../../aspose.slides.charts/datalabelformat/textformat) { get; } | チャートのテキスト書式を返します。読み取り専用 [`IChartTextFormat`](../icharttextformat)。 |
 
 ## メソッド
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | 指定されたオブジェクトと比較します。 |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | ハッシュコードを返します。 |
 
-### 関連項目
+### 参照
 
 * クラス [PVIObject](../../aspose.slides/pviobject)
-* インターフェイス [IDataLabelFormat](../idatalabelformat)
+* インターフェース [IDataLabelFormat](../idatalabelformat)
 * 名前空間 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * アセンブリ [Aspose.Slides](../../)
 

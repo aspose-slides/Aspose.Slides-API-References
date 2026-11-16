@@ -1,9 +1,9 @@
 ---
 title: SizeValue
-second_title: Aspose.Sildes .NET için API Referansı
+second_title: Aspose.Sildes for .NET API Referansı
 description: Grafik veri noktasının boyut değerini döndürür. Treemap ve Sunburst grafiklerinde kullanılır. Salt okunur IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
-weight: 180
+weight: 220
 url: /tr/aspose.slides.charts/chartdatapoint/sizevalue/
 ---
 ## ChartDataPoint.SizeValue özelliği

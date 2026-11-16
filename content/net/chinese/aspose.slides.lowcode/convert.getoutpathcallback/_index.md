@@ -1,14 +1,14 @@
 ---
 title: Convert.GetOutPathCallback
-second_title: Aspose.Sildes for .NET API 参考
-description: 在每个 Slide../aspose.slides/slide 时将调用的回调，返回期望的输出路径。
+second_title: Aspose.Sildes .NET API 参考
+description: 回调将在每个 Slide../aspose.slides/slide 上被调用，预期返回输出路径。
 type: docs
-weight: 7890
+weight: 7910
 url: /zh/aspose.slides.lowcode/convert.getoutpathcallback/
 ---
 ## Convert.GetOutPathCallback 委托
 
-回调将在每个[`Slide`](../../aspose.slides/slide)时被调用，返回期望的输出路径。
+将在每个 [`Slide`](../../aspose.slides/slide) 上调用的回调，预期返回输出路径。
 
 ```csharp
 public delegate string GetOutPathCallback(Slide slide, int index);
@@ -19,7 +19,7 @@ public delegate string GetOutPathCallback(Slide slide, int index);
 | slide | Slide | 当前迭代的幻灯片 |
 | index | Int32 | 当前幻灯片的索引 |
 
-### 参见
+### See Also
 
 * 类 [Slide](../../aspose.slides/slide)
 * 类 [Convert](../convert)

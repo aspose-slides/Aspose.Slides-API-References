@@ -3,7 +3,7 @@ title: IChartDataWorkbook
 second_title: Aspose.Sildes for .NET API リファレンス
 description: 埋め込み Excel ワークブックへのアクセスを提供します
 type: docs
-weight: 1860
+weight: 1880
 url: /ja/aspose.slides.charts/ichartdataworkbook/
 ---
 ## IChartDataWorkbook インターフェイス
@@ -25,13 +25,13 @@ public interface IChartDataWorkbook
 | 名前 | 説明 |
 | --- | --- |
 | [CalculateFormulas](../../aspose.slides.charts/ichartdataworkbook/calculateformulas)() | ワークブック内のすべての数式を計算し、対応するセルの値を更新します。 |
-| [Clear](../../aspose.slides.charts/ichartdataworkbook/clear)(int) | シート上のすべてのセル値をクリアします。 |
-| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_2)(int, string) | チャートのシリーズまたはカテゴリに使用できるセルを取得します。 |
-| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell)(int, int, int) | チャートのシリーズまたはカテゴリに使用できるセルを取得します。 |
-| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_3)(int, string, object) | チャートのシリーズまたはカテゴリに使用できるセルを取得します。 |
-| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_4)(string, int, int) | チャートのシリーズまたはカテゴリに使用できるセルを取得します。 |
-| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_1)(int, int, int, object) | チャートのシリーズまたはカテゴリに使用できるセルを取得します。 |
-| [GetCellCollection](../../aspose.slides.charts/ichartdataworkbook/getcellcollection)(string, bool) | セルの集合を取得します。 |
+| [Clear](../../aspose.slides.charts/ichartdataworkbook/clear)(int) | シート上のすべてのセルの値をクリアします。 |
+| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_2)(int, string) | チャートの系列またはカテゴリに使用できるセルを取得します。 |
+| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell)(int, int, int) | チャートの系列またはカテゴリに使用できるセルを取得します。 |
+| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_3)(int, string, object) | チャートの系列またはカテゴリに使用できるセルを取得します。 |
+| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_4)(string, int, int) | チャートの系列またはカテゴリに使用できるセルを取得します。 |
+| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_1)(int, int, int, object) | チャートの系列またはカテゴリに使用できるセルを取得します。 |
+| [GetCellCollection](../../aspose.slides.charts/ichartdataworkbook/getcellcollection)(string, bool) | セルのセットを取得します。 |
 
 ### 参照
 

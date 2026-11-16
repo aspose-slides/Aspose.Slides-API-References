@@ -1,14 +1,14 @@
 ---
 title: TransitionLeftRightDirectionType
-second_title: Aspose.Sildes pro .NET API referenci
-description: Určuje směr omezený na hodnoty left a right.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Určuje směr omezený na hodnoty Left a Right.
 type: docs
-weight: 10380
+weight: 10400
 url: /cs/aspose.slides.slideshow/transitionleftrightdirectiontype/
 ---
-## TransitionLeftRightDirectionType enumeration
+## TransitionLeftRightDirectionType výčet
 
-Určuje směr omezený na hodnoty left a right.
+Určuje směr omezený na hodnoty Left a Right.
 
 ```csharp
 public enum TransitionLeftRightDirectionType

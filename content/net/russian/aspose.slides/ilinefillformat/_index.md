@@ -1,14 +1,14 @@
 ---
 title: ILineFillFormat
-second_title: Aspose.Sildes для .NET — справочник API
-description: Представляет свойства для заполнения линий.
+second_title: Aspose.Sildes для .NET справочник API
+description: Представляет свойства заполнения линий.
 type: docs
-weight: 6290
+weight: 6310
 url: /ru/aspose.slides/ilinefillformat/
 ---
 ## ILineFillFormat интерфейс
 
-Представляет свойства для заполнения линий.
+Представляет свойства заполнения линий.
 
 ```csharp
 public interface ILineFillFormat : IFillParamSource
@@ -19,9 +19,9 @@ public interface ILineFillFormat : IFillParamSource
 | Имя | Описание |
 | --- | --- |
 | [AsIFillParamSource](../../aspose.slides/ilinefillformat/asifillparamsource) { get; } | Позволяет получить базовый интерфейс IFillParamSource. Только для чтения [`IFillParamSource`](../ifillparamsource). |
-| [FillType](../../aspose.slides/ilinefillformat/filltype) { get; set; } | Возвращает или задает тип заполнения. Чтение/запись [`FillType`](../filltype). |
+| [FillType](../../aspose.slides/ilinefillformat/filltype) { get; set; } | Возвращает или устанавливает тип заполнения. Чтение/запись [`FillType`](../filltype). |
 | [GradientFormat](../../aspose.slides/ilinefillformat/gradientformat) { get; } | Возвращает формат градиентного заполнения. Только для чтения [`IGradientFormat`](../igradientformat). |
-| [PatternFormat](../../aspose.slides/ilinefillformat/patternformat) { get; } | Возвращает формат заполнения шаблоном. Только для чтения [`IPatternFormat`](../ipatternformat). |
+| [PatternFormat](../../aspose.slides/ilinefillformat/patternformat) { get; } | Возвращает формат узорного заполнения. Только для чтения [`IPatternFormat`](../ipatternformat). |
 | [RotateWithShape](../../aspose.slides/ilinefillformat/rotatewithshape) { get; set; } | Определяет, следует ли вращать заполнение вместе с фигурой. Чтение/запись [`NullableBool`](../nullablebool). |
 | [SolidFillColor](../../aspose.slides/ilinefillformat/solidfillcolor) { get; } | Возвращает цвет сплошного заполнения. Только для чтения [`IColorFormat`](../icolorformat). |
 

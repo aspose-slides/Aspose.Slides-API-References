@@ -1,14 +1,14 @@
 ---
 title: FontFallBackRulesCollection
-second_title: Référence de l'API Aspose.Sildes pour .NET
+second_title: Référence API Aspose.Sildes pour .NET
 description: Représente une collection de règles FontFallBack définies par l'utilisateur
 type: docs
-weight: 4850
+weight: 4870
 url: /fr/aspose.slides/fontfallbackrulescollection/
 ---
 ## FontFallBackRulesCollection classe
 
-Représente une collection de règles FontFallBack définies par l'utilisateur
+Représente une collection de règles FontFallBack, définie par l'utilisateur
 
 ```csharp
 public class FontFallBackRulesCollection : IFontFallBackRulesCollection

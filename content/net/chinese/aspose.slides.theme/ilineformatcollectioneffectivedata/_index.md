@@ -3,12 +3,12 @@ title: ILineFormatCollectionEffectiveData
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示有效线格式只读集合的不可变对象。
 type: docs
-weight: 11300
+weight: 11320
 url: /zh/aspose.slides.theme/ilineformatcollectioneffectivedata/
 ---
 ## ILineFormatCollectionEffectiveData 接口
 
-表示有效线格式只读集合的不可变对象。
+Immutable object that represents a readonly collection of effective line formats.
 
 ```csharp
 public interface ILineFormatCollectionEffectiveData : IGenericCollection<ILineFormatEffectiveData>
@@ -22,9 +22,9 @@ public interface ILineFormatCollectionEffectiveData : IGenericCollection<ILineFo
 
 ### 备注
 
-此接口用于 [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata) 的一部分。
+此接口用作 [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata) 的一部分。
 
-### 另见
+### 另请参阅
 
 * 接口 [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * 接口 [ILineFormatEffectiveData](../../aspose.slides/ilineformateffectivedata)

@@ -1,14 +1,14 @@
 ---
 title: IColumnCollection
 second_title: Aspose.Sildes .NET API referencia
-description: A táblázat oszlopainak gyűjteményét képviseli.
+description: A tábla oszlopainak gyűjteményét képviseli.
 type: docs
-weight: 5530
+weight: 5550
 url: /hu/aspose.slides/icolumncollection/
 ---
 ## IColumnCollection interfész
 
-A táblázatban lévő oszlopok gyűjteményét képviseli.
+A táblázat oszlopainak gyűjteményét képviseli.
 
 ```csharp
 public interface IColumnCollection : IGenericCollection<IColumn>
@@ -24,9 +24,9 @@ public interface IColumnCollection : IGenericCollection<IColumn>
 
 | Név | Leírás |
 | --- | --- |
-| [AddClone](../../aspose.slides/icolumncollection/addclone)(IColumn, bool) | Létrehoz egy másolatot a megadott sablon sorból, és a táblázat aljába helyezi. |
-| [InsertClone](../../aspose.slides/icolumncollection/insertclone)(int, IColumn, bool) | Létrehoz egy másolatot a megadott sablon oszlopból, és a táblázatban a megadott pozícióba illeszti be. |
-| [RemoveAt](../../aspose.slides/icolumncollection/removeat)(int, bool) | Eltávolít egy oszlopot a megadott pozícióból egy táblázatból. |
+| [AddClone](../../aspose.slides/icolumncollection/addclone)(IColumn, bool) | Létrehoz egy másolatot a megadott sablon sorból, és a táblázat aljára szúrja be. |
+| [InsertClone](../../aspose.slides/icolumncollection/insertclone)(int, IColumn, bool) | Létrehoz egy másolatot a megadott sablon oszlopból, és a táblázat megadott pozíciójába szúrja be. |
+| [RemoveAt](../../aspose.slides/icolumncollection/removeat)(int, bool) | Eltávolít egy oszlopot a táblázat megadott pozíciójából. |
 
 ### Lásd még
 

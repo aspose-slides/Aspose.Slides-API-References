@@ -1,14 +1,14 @@
 ---
 title: ChartTextFormat
 second_title: Aspose.Sildes for .NET API リファレンス
-description: チャートテキスト要素のデフォルトのテキスト書式を指定します。
+description: チャート テキスト要素のデフォルト テキスト書式を指定します。
 type: docs
-weight: 1480
+weight: 1490
 url: /ja/aspose.slides.charts/charttextformat/
 ---
 ## ChartTextFormat クラス
 
-チャートテキスト要素の既定のテキスト書式を指定します。
+チャートのテキスト要素のデフォルトのテキスト書式を指定します。
 
 ```csharp
 public class ChartTextFormat : IChartTextFormat
@@ -16,18 +16,18 @@ public class ChartTextFormat : IChartTextFormat
 
 ## プロパティ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [ParagraphFormat](../../aspose.slides.charts/charttextformat/paragraphformat) { get; } | ParagraphFormat. 読み取り専用 [`IChartParagraphFormat`](../ichartparagraphformat). |
-| [PortionFormat](../../aspose.slides.charts/charttextformat/portionformat) { get; } | PortionFormat. 読み取り専用 [`IChartPortionFormat`](../ichartportionformat). |
-| [TextBlockFormat](../../aspose.slides.charts/charttextformat/textblockformat) { get; } | TextBlockFormat. 読み取り専用 [`IChartTextBlockFormat`](../icharttextblockformat). |
+| [ParagraphFormat](../../aspose.slides.charts/charttextformat/paragraphformat) { get; } | ParagraphFormat. 読み取り専用 [`IChartParagraphFormat`](../ichartparagraphformat)。 |
+| [PortionFormat](../../aspose.slides.charts/charttextformat/portionformat) { get; } | PortionFormat. 読み取り専用 [`IChartPortionFormat`](../ichartportionformat)。 |
+| [TextBlockFormat](../../aspose.slides.charts/charttextformat/textblockformat) { get; } | TextBlockFormat. 読み取り専用 [`IChartTextBlockFormat`](../icharttextblockformat)。 |
 
 ## メソッド
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [CopyFrom](../../aspose.slides.charts/charttextformat/copyfrom)(ITextFrame) | 指定されたテキストフレームからテキストフォーマットをコピーします。 |
-| [CopyTo](../../aspose.slides.charts/charttextformat/copyto)(ITextFrame) | 指定されたテキストフレームへテキストフォーマットをコピーします。 |
+| [CopyFrom](../../aspose.slides.charts/charttextformat/copyfrom)(ITextFrame) | 指定されたテキストフレームからテキスト書式をコピーします。 |
+| [CopyTo](../../aspose.slides.charts/charttextformat/copyto)(ITextFrame) | 指定されたテキストフレームにテキスト書式をコピーします。 |
 
 ### 参照
 

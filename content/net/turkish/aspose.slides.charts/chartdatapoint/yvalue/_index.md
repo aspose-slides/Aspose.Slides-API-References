@@ -1,12 +1,12 @@
 ---
 title: YValue
 second_title: Aspose.Sildes için .NET API Referansı
-description: YValue. Salt okunur IDoubleChartValueaspose.slides.charts/idoublechartvalue.
+description: YValue. Salt okunur IDoubleChartValueaspose.slides.charts/idoubleChartValue.
 type: docs
-weight: 210
+weight: 250
 url: /tr/aspose.slides.charts/chartdatapoint/yvalue/
 ---
-## ChartDataPoint.YValue özelliği
+## ChartDataPoint.YValue özellik
 
 YValue. Salt okunur [`IDoubleChartValue`](../../idoublechartvalue).
 
@@ -14,7 +14,7 @@ YValue. Salt okunur [`IDoubleChartValue`](../../idoublechartvalue).
 public IDoubleChartValue YValue { get; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * arayüz [IDoubleChartValue](../../idoublechartvalue)
 * sınıf [ChartDataPoint](../../chartdatapoint)

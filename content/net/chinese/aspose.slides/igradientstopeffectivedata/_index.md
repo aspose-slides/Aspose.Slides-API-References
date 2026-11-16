@@ -1,14 +1,14 @@
 ---
 title: IGradientStopEffectiveData
-second_title: Aspose.Sildes for .NET API 参考
-description: 表示渐变停止的不可变对象。
+second_title: Aspose.Sildes .NET API 参考
+description: 不可变对象，表示梯度停靠点。
 type: docs
-weight: 6050
+weight: 6070
 url: /zh/aspose.slides/igradientstopeffectivedata/
 ---
 ## IGradientStopEffectiveData 接口
 
-表示渐变停止的不可变对象。
+immutable object which represents a gradient stop.
 
 ```csharp
 public interface IGradientStopEffectiveData
@@ -18,8 +18,8 @@ public interface IGradientStopEffectiveData
 
 | 名称 | 描述 |
 | --- | --- |
-| [Color](../../aspose.slides/igradientstopeffectivedata/color) { get; } | 返回渐变停止的颜色。只读 Color。 |
-| [Position](../../aspose.slides/igradientstopeffectivedata/position) { get; } | 返回渐变停止的位置 (0..1)。只读 Single。 |
+| [Color](../../aspose.slides/igradientstopeffectivedata/color) { get; } | 返回梯度停靠点的颜色。只读 Color。 |
+| [Position](../../aspose.slides/igradientstopeffectivedata/position) { get; } | 返回梯度停靠点的位置 (0..1)。只读 Single。 |
 
 ### 另请参见
 

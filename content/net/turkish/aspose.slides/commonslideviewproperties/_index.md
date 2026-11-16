@@ -1,12 +1,13 @@
 ---
 title: CommonSlideViewProperties
-second_title: Aspose.Sildes .NET için API Referansı
+second_title: Aspose.Sildes .NET API Referansı
 description: Ortak slayt görünüm özelliklerini temsil eder.
 type: docs
-weight: 2660
+weight: 2680
 url: /tr/aspose.slides/commonslideviewproperties/
 ---
-## CommonSlideViewProperties sınıf
+## CommonSlideViewProperties sınıfı
+
 Ortak slayt görünüm özelliklerini temsil eder.
 
 ```csharp
@@ -15,29 +16,29 @@ public class CommonSlideViewProperties : ICommonSlideViewProperties
 
 ## Özellikler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
-| [DrawingGuides](../../aspose.slides/commonslideviewproperties/drawingguides) { get; } | Çizim kılavuzlarının koleksiyonunu döndürür. Yalnızca okunur [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [Scale](../../aspose.slides/commonslideviewproperties/scale) { get; set; } | Görünüm ölçekleme oranını yüzde olarak belirtir. Okunur/yazılabilir Int32. |
-| [VariableScale](../../aspose.slides/commonslideviewproperties/variablescale) { get; set; } | Görünüm içeriğinin mevcut pencere boyutuna en iyi şekilde sığacak şekilde otomatik olarak ölçeklenmesi gerektiğini belirtir. Okunur/yazılabilir Boolean. |
+| [DrawingGuides](../../aspose.slides/commonslideviewproperties/drawingguides) { get; } | Çizim kılavuzlarının koleksiyonunu döndürür. Yalnızca okuma [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [Scale](../../aspose.slides/commonslideviewproperties/scale) { get; set; } | Görünüm ölçekleme oranını yüzde olarak belirtir. Okuma/Yazma Int32. |
+| [VariableScale](../../aspose.slides/commonslideviewproperties/variablescale) { get; set; } | Görünüm içeriğinin mevcut pencere boyutuna en iyi şekilde sığacak şekilde otomatik olarak ölçeklenmesi gerektiğini belirtir. Okuma/Yazma Boolean. |
 
 ### Örnekler
 
-Aşağıdaki örnek, PowerPoint Sunumu slaytı için yakınlaştırma değerinin nasıl ayarlanacağını gösterir.
+Aşağıdaki örnek, PowerPoint Sunumu slaytının yakınlaştırma değerini nasıl ayarlayacağınızı gösterir.
 
 ```csharp
 [C#]
-// Bir sunum dosyasını temsil eden Presentation nesnesi oluşturur
+// Bir sunum dosyasını temsil eden bir Presentation nesnesi örnekleyin
 using (Presentation presentation = new Presentation("demo.pptx"))
 {
-    // Sunumun Görünüm Özelliklerini ayarlama
+    // Sunumun Görünüm Özelliklerini Ayarlama
     presentation.ViewProperties.SlideViewProperties.Scale = 100; // Slayt görünümü için yüzde cinsinden yakınlaştırma değeri
-	presentation.ViewProperties.NotesViewProperties.Scale = 100; // Not görünümü için yüzde cinsinden yakınlaştırma değeri
+    presentation.ViewProperties.NotesViewProperties.Scale = 100; // Not görünümü için yüzde cinsinden yakınlaştırma değeri
     presentation.Save("Zoom_out.pptx", SaveFormat.Pptx);
 }
 ```
 
-### Ayrıca Bakınız
+### Bakınız
 
 * arayüz [ICommonSlideViewProperties](../icommonslideviewproperties)
 * ad alanı [Aspose.Slides](../../aspose.slides)

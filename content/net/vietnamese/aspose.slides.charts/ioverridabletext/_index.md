@@ -1,14 +1,14 @@
 ---
 title: IOverridableText
-second_title: Aspose.Sildes cho .NET Tham khảo API
-description: Biểu diễn văn bản có thể ghi đè cho biểu đồ.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Mô tả văn bản có thể ghi đè cho biểu đồ.
 type: docs
-weight: 2180
+weight: 2200
 url: /vi/aspose.slides.charts/ioverridabletext/
 ---
-## IOverridableText interface
+## IOverridableText giao diện
 
-Đại diện cho văn bản có thể ghi đè cho biểu đồ.
+Mô tả văn bản có thể ghi đè cho biểu đồ.
 
 ```csharp
 public interface IOverridableText : IFormattedTextContainer
@@ -18,16 +18,16 @@ public interface IOverridableText : IFormattedTextContainer
 
 | Tên | Mô tả |
 | --- | --- |
-| [AsIFormattedTextContainer](../../aspose.slides.charts/ioverridabletext/asiformattedtextcontainer) { get; } | Cho phép lấy giao diện cơ sở IFormattedTextContainer. Chỉ đọc [`IFormattedTextContainer`](../iformattedtextcontainer). |
+| [AsIFormattedTextContainer](../../aspose.slides.charts/ioverridabletext/asiformattedtextcontainer) { get; } | Cho phép lấy giao diện IFormattedTextContainer cơ bản. Chỉ đọc [`IFormattedTextContainer`](../iformattedtextcontainer). |
 | [TextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/textframeforoverriding) { get; } | Có thể chứa văn bản định dạng phong phú. Nếu thuộc tính này không null thì giá trị văn bản định dạng này sẽ ghi đè văn bản được tạo tự động. Văn bản được tạo tự động là một thuộc tính ngầm của nhãn dữ liệu, nhãn đơn vị hiển thị của trục giá trị, tiêu đề trục, tiêu đề biểu đồ, nhãn của đường xu hướng. Văn bản được tạo tự động được định dạng bằng thuộc tính IFormattedTextContainer.TextFormat. Chỉ đọc [`ITextFrame`](../../aspose.slides/itextframe). |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| [AddTextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/addtextframeforoverriding)(string) | Khởi tạo TextFrameForOverriding với văn bản trong tham số "text". Nếu TextFrameForOverriding đã được khởi tạo, thì chỉ đơn giản thay đổi văn bản của nó. |
+| [AddTextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/addtextframeforoverriding)(string) | Khởi tạo TextFrameForOverriding với văn bản trong tham số "text". Nếu TextFrameForOverriding đã được khởi tạo thì chỉ đơn giản thay đổi văn bản của nó. |
 
-### Xem thêm
+### Xem Thêm
 
 * giao diện [IFormattedTextContainer](../iformattedtextcontainer)
 * không gian tên [Aspose.Slides.Charts](../../aspose.slides.charts)

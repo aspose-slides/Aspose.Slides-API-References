@@ -3,7 +3,7 @@ title: TextStyle
 second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 이 클래스는 텍스트 스타일 서식 속성을 포함합니다.
 type: docs
-weight: 11000
+weight: 11020
 url: /ko/aspose.slides/textstyle/
 ---
 ## TextStyle 클래스
@@ -16,21 +16,21 @@ public sealed class TextStyle : PVIObject, ITextStyle
 
 ## 속성
 
-| Name | Description |
+| 이름 | 설명 |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 기본 IPresentationComponent 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IPresentationComponent`](../ipresentationcomponent). |
 | [DefaultParagraphFormat](../../aspose.slides/textstyle/defaultparagraphformat) { get; } | 기본 단락 속성. 읽기 전용 [`IParagraphFormat`](../iparagraphformat). |
 
 ## 메서드
 
-| Name | Description |
+| 이름 | 설명 |
 | --- | --- |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | 지정된 객체와 비교합니다. |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | 지정된 object와 비교합니다. |
 | [GetEffective](../../aspose.slides/textstyle/geteffective)() | 상속이 적용된 효과적인 텍스트 스타일 서식 데이터를 가져옵니다. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | 해시 코드를 반환합니다. |
-| [GetLevel](../../aspose.slides/textstyle/getlevel)(int) | 스타일 수준이 존재하면 반환하고, 없으면 null을 반환합니다. |
+| [GetLevel](../../aspose.slides/textstyle/getlevel)(int) | 스타일 수준이 존재하면 반환하고, 그렇지 않으면 null을 반환합니다. |
 
-### 관련 항목
+### 참고
 
 * 클래스 [PVIObject](../pviobject)
 * 인터페이스 [ITextStyle](../itextstyle)

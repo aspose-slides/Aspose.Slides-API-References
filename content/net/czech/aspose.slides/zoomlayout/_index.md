@@ -1,14 +1,14 @@
 ---
 title: ZoomLayout
-second_title: Aspose.Sildes pro .NET API Reference
-description: Určuje souhrnný rozvrh zoomu.
+second_title: Aspose.Sildes pro .NET – referenční příručka API
+description: Určuje souhrnný rozložení přiblížení.
 type: docs
-weight: 11860
+weight: 11880
 url: /cs/aspose.slides/zoomlayout/
 ---
-## ZoomLayout výčtový typ
+## ZoomLayout výčet
 
-Určuje souhrnný rozvrh zoomu.
+Určuje souhrnný rozložení přiblížení.
 
 ```csharp
 public enum ZoomLayout
@@ -18,8 +18,8 @@ public enum ZoomLayout
 
 | Název | Hodnota | Popis |
 | --- | --- | --- |
-| GridLayout | `0` | Určuje rozvržení jako mřížkové rozložení pro seznam objektů. |
-| FixedLayout | `1` | Určuje rozvržení s uživatelem definovaným umístěním Zoomu. |
+| GridLayout | `0` | Určuje rozložení jako mřížkové rozložení pro seznam objektů. |
+| FixedLayout | `1` | Určuje rozložení s uživatelem definovaným umístěním Zoom. |
 
 ### Viz také
 

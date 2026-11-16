@@ -1,12 +1,12 @@
 ---
 title: VbaModule
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes for .NET API Referansı
 description: VBA projesinde bulunan modülü temsil eder.
 type: docs
-weight: 11630
+weight: 11650
 url: /tr/aspose.slides.vba/vbamodule/
 ---
-## VbaModule sınıf
+## VbaModule sınıfı
 
 VBA projesinde bulunan modülü temsil eder.
 
@@ -18,8 +18,8 @@ public sealed class VbaModule : IVbaModule
 
 | Ad | Açıklama |
 | --- | --- |
-| [Name](../../aspose.slides.vba/vbamodule/name) { get; } | Modülün adını alır. Salt-okunur String. |
-| [SourceCode](../../aspose.slides.vba/vbamodule/sourcecode) { get; set; } | Modülün kaynak kodunu döndürür veya ayarlar. Okunabilir/Yazılabilir String. |
+| [Name](../../aspose.slides.vba/vbamodule/name) { get; } | Modülün adını alır. Salt okunur String. |
+| [SourceCode](../../aspose.slides.vba/vbamodule/sourcecode) { get; set; } | Modülün kaynak kodunu alır veya ayarlar. Okunabilir/Yazılabilir String. |
 
 ### Ayrıca Bakınız
 

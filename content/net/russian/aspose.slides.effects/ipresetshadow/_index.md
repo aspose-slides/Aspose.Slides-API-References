@@ -1,9 +1,9 @@
 ---
 title: IPresetShadow
-second_title: Справочник API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Представляет эффект предустановленной тени.
 type: docs
-weight: 3480
+weight: 3500
 url: /ru/aspose.slides.effects/ippresetshadow/
 ---
 ## IPresetShadow интерфейс

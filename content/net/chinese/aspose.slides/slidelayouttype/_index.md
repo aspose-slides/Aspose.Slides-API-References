@@ -1,9 +1,9 @@
 ---
 title: SlideLayoutType
-second_title: Aspose.Sildes .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 表示幻灯片布局类型。
 type: docs
-weight: 9990
+weight: 10010
 url: /zh/aspose.slides/slidelayouttype/
 ---
 ## SlideLayoutType 枚举
@@ -37,25 +37,25 @@ public enum SlideLayoutType : sbyte
 | TitleAndObject | `15` | 标题和对象 |
 | TextAndMedia | `16` | 文本和媒体 |
 | MediaAndText | `17` | 媒体和文本 |
-| ObjectOverText | `18` | 对象在文本上 |
-| TextOverObject | `19` | 文本在对象上 |
+| ObjectOverText | `18` | 对象在文本上方 |
+| TextOverObject | `19` | 文本在对象上方 |
 | TextAndTwoObjects | `20` | 文本和两个对象 |
 | TwoObjectsAndText | `21` | 两个对象和文本 |
-| TwoObjectsOverText | `22` | 两个对象在文本上 |
+| TwoObjectsOverText | `22` | 两个对象在文本上方 |
 | FourObjects | `23` | 四个对象 |
 | VerticalText | `24` | 竖排文本 |
 | ClipArtAndVerticalText | `25` | 剪贴画和竖排文本 |
 | VerticalTitleAndText | `26` | 竖排标题和文本 |
-| VerticalTitleAndTextOverChart | `27` | 竖排标题和文本在图表上 |
+| VerticalTitleAndTextOverChart | `27` | 竖排标题和文本在图表上方 |
 | TwoObjects | `28` | 两个对象 |
 | ObjectAndTwoObject | `29` | 对象和两个对象 |
 | TwoObjectsAndObject | `30` | 两个对象和对象 |
-| SectionHeader | `31` | 章节标题 |
+| SectionHeader | `31` | 部分标题 |
 | TwoTextAndTwoObjects | `32` | 两个文本和两个对象 |
-| TitleObjectAndCaption | `33` | 标题、对象和标题文字 |
-| PictureAndCaption | `34` | 图片和标题文字 |
+| TitleObjectAndCaption | `33` | 标题、对象和说明文字 |
+| PictureAndCaption | `34` | 图片和说明文字 |
 
-### 另见
+### 另请参见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

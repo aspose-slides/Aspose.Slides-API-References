@@ -1,26 +1,26 @@
 ---
 title: CellUnsupportedDataException
 second_title: Aspose.Sildes för .NET API-referens
-description: Undantaget som kastas när ett icke-stött data påträffas i en kalkylbladscell.
+description: Undantaget som kastas när ett ej stödt data påträffas i en kalkylblads cell.
 type: docs
-weight: 10730
+weight: 10750
 url: /sv/aspose.slides.spreadsheet/cellunsupporteddataexception/
 ---
 ## CellUnsupportedDataException klass
 
-Undantaget som kastas när ett data som inte stöds påträffas i en kalkylbladscell.
+Undantaget som kastas när ett ej stödt data påträffas i en kalkylblads cell.
 
 ```csharp
 public class CellUnsupportedDataException : PptxEditException
 ```
 
-## Konstruktorer
+## Konstruktörer
 
 | Namn | Beskrivning |
 | --- | --- |
-| [CellUnsupportedDataException](cellunsupporteddataexception#constructor)() | Initialiserar en ny instans av [`CellUnsupportedDataException`](../cellunsupporteddataexception) klass. |
-| [CellUnsupportedDataException](cellunsupporteddataexception#constructor_1)(string) | Initialiserar en ny instans av [`CellUnsupportedDataException`](../cellunsupporteddataexception) klass med ett specificerat felmeddelande. |
-| [CellUnsupportedDataException](cellunsupporteddataexception#constructor_2)(string, Exception) | Initialiserar en ny instans av [`CellUnsupportedDataException`](../cellunsupporteddataexception) klass med ett specificerat felmeddelande och en referens till den inre undantaget som är orsaken till detta undantag. |
+| [CellUnsupportedDataException](cellunsupporteddataexception#constructor)() | Initialiserar en ny instans av klassen [`CellUnsupportedDataException`](../cellunsupporteddataexception). |
+| [CellUnsupportedDataException](cellunsupporteddataexception#constructor_1)(string) | Initialiserar en ny instans av klassen [`CellUnsupportedDataException`](../cellunsupporteddataexception) med ett specificerat felmeddelande. |
+| [CellUnsupportedDataException](cellunsupporteddataexception#constructor_2)(string, Exception) | Initialiserar en ny instans av klassen [`CellUnsupportedDataException`](../cellunsupporteddataexception) med ett specificerat felmeddelande och en referens till det inre undantaget som är orsaken till detta undantag. |
 
 ### Se även
 

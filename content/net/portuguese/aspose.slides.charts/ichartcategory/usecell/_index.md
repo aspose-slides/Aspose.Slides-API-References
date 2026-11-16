@@ -1,14 +1,14 @@
 ---
 title: UseCell
 second_title: Aspose.Sildes para .NET Referência da API
-description: Se verdadeiro, a propriedade AsCell está efetiva. Em outras palavras, a planilha é usada para armazenar a categoria; este caso suporta uma categoria de vários níveis. Se falso, a propriedade AsLiteral está efetiva. Em outras palavras, a planilha NÃO é usada para armazenar a categoria e este caso não suporta categorias de vários níveis. Somente leitura Boolean.
+description: Se for verdadeiro, a propriedade AsCell está ativa. Em outras palavras, a planilha é usada para armazenar a categoria; este caso suporta uma categoria de vários níveis. Se for falso, a propriedade AsLiteral está ativa. Em outras palavras, a planilha NÃO é usada para armazenar a categoria e este caso não suporta categorias de vários níveis. Somente leitura Boolean.
 type: docs
-weight: 40
+weight: 50
 url: /pt/aspose.slides.charts/ichartcategory/usecell/
 ---
-## Propriedade IChartCategory.UseCell
+## IChartCategory.UseCell propriedade
 
-Se verdadeiro, a propriedade AsCell está efetiva. Em outras palavras, a planilha é usada para armazenar a categoria (este caso suporta uma categoria de vários níveis). Se falso, a propriedade AsLiteral está efetiva. Em outras palavras, a planilha NÃO é usada para armazenar a categoria (e este caso não suporta categorias de vários níveis). Somente leitura Boolean.
+Se for verdadeiro, a propriedade AsCell está ativa. Em outras palavras, a planilha é usada para armazenar a categoria (este caso suporta uma categoria de vários níveis). Se for falso, a propriedade AsLiteral está ativa. Em outras palavras, a planilha NÃO é usada para armazenar a categoria (e este caso não suporta categorias de vários níveis). Somente leitura Boolean.
 
 ```csharp
 public bool UseCell { get; }
@@ -16,9 +16,9 @@ public bool UseCell { get; }
 
 ### Observações
 
-Para alterar o valor desta propriedade (para todas as categorias na coleção) defina um novo valor na propriedade ChartCategoryCollection.UseCells.
+Para alterar o valor desta propriedade (para todas as categorias na coleção) defina o novo valor na propriedade ChartCategoryCollection.UseCells.
 
-### Veja Também
+### Veja também
 
 * interface [IChartCategory](../../ichartcategory)
 * namespace [Aspose.Slides.Charts](../../ichartcategory)

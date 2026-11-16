@@ -1,9 +1,9 @@
 ---
 title: IInterruptionTokenSource
-second_title: Aspose.Sildes pour l'API .NET
+second_title: Aspose.Sildes pour .NET Référence API
 description: Représente la source de IInterruptionToken./iinterruptiontoken.
 type: docs
-weight: 6200
+weight: 6220
 url: /fr/aspose.slides/iinterruptiontokensource/
 ---
 ## IInterruptionTokenSource interface
@@ -18,14 +18,14 @@ public interface IInterruptionTokenSource
 
 | Nom | Description |
 | --- | --- |
-| [IsInterruptionRequested](../../aspose.slides/iinterruptiontokensource/isinterruptionrequested) { get; } | Renvoie true si une interruption a été demandée, false sinon. |
-| [Token](../../aspose.slides/iinterruptiontokensource/token) { get; } | Renvoie un nouveau token lié à ce [`IInterruptionTokenSource`](../iinterruptiontokensource). |
+| [IsInterruptionRequested](../../aspose.slides/iinterruptiontokensource/isinterruptionrequested) { get; } | Renvoie true si interruption demandée, false sinon. |
+| [Token](../../aspose.slides/iinterruptiontokensource/token) { get; } | Renvoie un nouveau jeton lié à ce [`IInterruptionTokenSource`](../iinterruptiontokensource). |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
-| [Interrupt](../../aspose.slides/iinterruptiontokensource/interrupt)() | Initialiser la demande d'interruption. |
+| [Interrupt](../../aspose.slides/iinterruptiontokensource/interrupt)() | Initialise la demande d'interruption. |
 
 ### Voir aussi
 

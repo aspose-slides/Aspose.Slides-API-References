@@ -1,14 +1,14 @@
 ---
 title: Zip64Mode
 second_title: Aspose.Sildes for .NET API リファレンス
-description: OpenXML ファイルで ZIP64 フォーマット拡張子を使用するタイミングを指定します。
+description: OpenXML ファイルに対して ZIP64 フォーマット拡張を使用するタイミングを指定します。
 type: docs
-weight: 4740
+weight: 4760
 url: /ja/aspose.slides.export/zip64mode/
 ---
 ## Zip64Mode 列挙型
 
-OpenXML ファイルで ZIP64 フォーマット拡張子を使用するタイミングを指定します。
+OpenXML ファイルに対して ZIP64 フォーマット拡張を使用するタイミングを指定します。
 
 ```csharp
 public enum Zip64Mode
@@ -16,15 +16,15 @@ public enum Zip64Mode
 
 ### 値
 
-| 名前 | 値 | 説明 |
+| Name | Value | Description |
 | --- | --- | --- |
-| Never | `0` | ZIP64 フォーマット拡張子を使用しません。 |
-| IfNecessary | `1` | 必要に応じて ZIP64 フォーマット拡張子を使用します。 |
-| Always | `2` | 常に ZIP64 フォーマット拡張子を使用します。 |
+| Never | `0` | ZIP64 フォーマット拡張を使用しません。 |
+| IfNecessary | `1` | 必要に応じて ZIP64 フォーマット拡張を使用します。 |
+| Always | `2` | 常に ZIP64 フォーマット拡張を使用します。 |
 
 ### 備考
 
-OpenXML ファイルは ZIP アーカイブであり、ファイルの非圧縮サイズ、圧縮サイズ、アーカイブ全体のサイズがそれぞれ 4 GB (2^32 バイト) に制限され、アーカイブ内のファイル数は 65,535 (2^16-1) に制限されています。ZIP64 フォーマット拡張子を使用すると、これらの制限が 2^64 まで拡張されます。
+OpenXML ファイルは ZIP アーカイブであり、ファイルの非圧縮サイズ、圧縮サイズ、アーカイブ全体のサイズにそれぞれ 4 GB (2^32 バイト) の上限があり、アーカイブ内のファイル数は 65,535 (2^16-1) 件に制限されています。ZIP64 フォーマット拡張により上限が 2^64 に拡大されます。
 
 ### 参照
 

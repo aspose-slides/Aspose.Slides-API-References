@@ -1,20 +1,20 @@
 ---
 title: TransitionSoundMode
-second_title: مرجع API Aspose.Sildes برای .NET
-description: حالت صدای انتقال را نشان می‌دهد.
+second_title: Aspose.Sildes برای .NET مرجع API
+description: حالت صدا را برای انتقال نشان می‌دهد.
 type: docs
-weight: 10430
+weight: 10450
 url: /fa/aspose.slides.slideshow/transitionsoundmode/
 ---
 ## شمارش TransitionSoundMode
 
-حالت صدای انتقال را نشان می‌دهد.
+حالت صدا را برای انتقال نمایندگی می‌کند.
 
 ```csharp
 public enum TransitionSoundMode
 ```
 
-### مقدارها
+### مقادیر
 
 | نام | مقدار | توضیح |
 | --- | --- | --- |
@@ -22,7 +22,7 @@ public enum TransitionSoundMode
 | StartSound | `0` |  |
 | StopPrevoiusSound | `1` |  |
 
-### موارد مرتبط
+### مراجع
 
 * فضای نام [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * اسمبل [Aspose.Slides](../../)

@@ -1,14 +1,13 @@
 ---
 title: IAlphaInverse
-second_title: Aspose.Sildes para Referência da API .NET
-description: Representa um efeito Alpha Inverse. Os valores de opacidade Alpha são invertidos subtraindo-os de 100.
+second_title: Aspose.Sildes para .NET Referência da API
+description: Representa um efeito Alpha Inverse. Os valores de opacidade Alpha são invertidos subtraindo de 100.
 type: docs
-weight: 3080
+weight: 3100
 url: /pt/aspose.slides.effects/ialphainverse/
 ---
 ## IAlphaInverse interface
-
-Representa um efeito Alpha Inverse. Os valores Alpha (opacidade) são invertidos subtraindo-os de 100%.
+Representa um efeito Alpha Inverse. Os valores Alpha (opacidade) são invertidos subtraindo de 100%.
 
 ```csharp
 public interface IAlphaInverse : IAccessiblePVIObject<IAlphaInverseEffectiveData>, 

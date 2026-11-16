@@ -1,9 +1,9 @@
 ---
 title: ImageCollection
-second_title: Aspose.Sildes .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 表示 PPImage 的集合。
 type: docs
-weight: 7420
+weight: 7440
 url: /zh/aspose.slides/imagecollection/
 ---
 ## ImageCollection 类
@@ -21,7 +21,7 @@ public sealed class ImageCollection : DomObject<Presentation>, IImageCollection
 | [Count](../../aspose.slides/imagecollection/count) { get; } | 返回集合中图像的数量。只读 Int32。 |
 | [IsSynchronized](../../aspose.slides/imagecollection/issynchronized) { get; } | 返回一个值，指示对集合的访问是否同步（线程安全）。只读 Boolean。 |
 | [Item](../../aspose.slides/imagecollection/item) { get; } | 获取指定索引处的元素。只读 [`IPPImage`](../ippimage)。 |
-| [SyncRoot](../../aspose.slides/imagecollection/syncroot) { get; } | 返回同步根。只读 Object。 |
+| [SyncRoot](../../aspose.slides/imagecollection/syncroot) { get; } | 返回同步根对象。只读 Object。 |
 
 ## 方法
 
@@ -29,15 +29,15 @@ public sealed class ImageCollection : DomObject<Presentation>, IImageCollection
 | --- | --- |
 | [AddImage](../../aspose.slides/imagecollection/addimage#addimage_3)(byte[]) | 从指定的缓冲区向演示文稿添加图像。 |
 | [AddImage](../../aspose.slides/imagecollection/addimage#addimage)(IImage) | 向演示文稿添加图像。 |
-| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_1)(IPPImage) | 从另一演示文稿添加图像的副本。 |
+| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_1)(IPPImage) | 从另一个演示文稿添加图像的副本。 |
 | [AddImage](../../aspose.slides/imagecollection/addimage#addimage_2)(ISvgImage) | 从 Svg 对象向演示文稿添加图像。 |
 | [AddImage](../../aspose.slides/imagecollection/addimage#addimage_4)(MemoryStream) | 从流向演示文稿添加图像。 |
 | [AddImage](../../aspose.slides/imagecollection/addimage#addimage_5)(Stream) | 从流向演示文稿添加图像。 |
-| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_6)(Stream, LoadingStreamBehavior) | 从流创建并添加图像到演示文稿。 |
+| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_6)(Stream, LoadingStreamBehavior) | 从流创建并向演示文稿添加图像。 |
 | [CopyTo](../../aspose.slides/imagecollection/copyto)(Array, int) | 将集合中的所有元素复制到指定的数组。 |
-| [GetEnumerator](../../aspose.slides/imagecollection/getenumerator)() | 返回一个可遍历集合的枚举器。 |
+| [GetEnumerator](../../aspose.slides/imagecollection/getenumerator)() | 返回一个遍历集合的枚举器。 |
 
-### 另见
+### 另请参见
 
 * 类 [DomObject&lt;TParent&gt;](../domobject-1)
 * 类 [Presentation](../presentation)

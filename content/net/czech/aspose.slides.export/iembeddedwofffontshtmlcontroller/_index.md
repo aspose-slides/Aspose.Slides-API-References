@@ -1,14 +1,14 @@
----
+--- 
 title: IEmbeddedWoffFontsHtmlController
 second_title: Aspose.Sildes pro .NET API Reference
-description: Vestavěný woff fontů html řadič.
+description: Vložený woff fontů html ovladač.
 type: docs
-weight: 3910
+weight: 3930
 url: /cs/aspose.slides.export/iembeddedwofffontshtmlcontroller/
 ---
 ## IEmbeddedWoffFontsHtmlController rozhraní
 
-Vestavěný woff fontů html řadič.
+Vložený woff fontů html ovladač.
 
 ```csharp
 public interface IEmbeddedWoffFontsHtmlController : IHtmlFormattingController
@@ -18,7 +18,7 @@ public interface IEmbeddedWoffFontsHtmlController : IHtmlFormattingController
 
 | Název | Popis |
 | --- | --- |
-| [AsIHtmlFormattingController](../../aspose.slides.export/iembeddedwofffontshtmlcontroller/asihtmlformattingcontroller) { get; } | Vrací rozhraní IHtmlFormattingController. |
+| [AsIHtmlFormattingController](../../aspose.slides.export/iembeddedwofffontshtmlcontroller/asihtmlformattingcontroller) { get; } | Vrací IHtmlFormattingController rozhraní. |
 
 ### Viz také
 

@@ -1,14 +1,14 @@
 ---
 title: HighlightRegex
-second_title: Aspose.Sildes .NET API-referencia
+second_title: Aspose.Sildes .NET API referencia
 description: Kiemeli a reguláris kifejezés összes egyezését a megadott színnel.
 type: docs
-weight: 90
+weight: 100
 url: /hu/aspose.slides/textframe/highlightregex/
 ---
-## TextFrame.HighlightRegex metódus
+## TextFrame.HighlightRegex method
 
-Kiemeli a reguláris kifejezés összes egyezését a megadott színnel.
+Kiemeli a reguláris kifejezés minden egyezését a megadott színnel.
 
 ```csharp
 public void HighlightRegex(Regex regex, Color highlightColor, IFindResultCallback callback)
@@ -16,20 +16,20 @@ public void HighlightRegex(Regex regex, Color highlightColor, IFindResultCallbac
 
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
-| regex | Regex | A reguláris kifejezés Regex a kiemelendő karakterláncokhoz. |
+| regex | Regex | A reguláris kifejezés Regex, amely a kiemelendő karakterláncokat adja. |
 | highlightColor | Color | A szöveg kiemeléséhez használt szín. |
-| callback | IFindResultCallback | A keresési eredmények fogadásáért felelős callback objektum [`IFindResultCallback`](../../ifindresultcallback). |
+| callback | IFindResultCallback | A visszahívási objektum a keresési eredmények fogadásához [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### Példák
 
-Az alábbi kódrészlet bemutatja, hogyan lehet kiemelni a szöveget egy TextFrame-ben reguláris kifejezés használatával.
+A következő kódrészlet bemutatja, hogyan lehet egy TextFrame szöveget reguláris kifejezéssel kiemelni.
 
 ```csharp
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
 	Regex regex = new Regex(@"\b[^\s]{10,}\b");
-	// az összes 10 vagy több karaktert tartalmazó szó kiemelése
+	// az összes 10 vagy több karakteres szó kiemelése
 	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.HighlightRegex(regex, Color.Blue, null);
 	presentation.Save("SomePresentation-out.pptx", SaveFormat.Pptx);
 }

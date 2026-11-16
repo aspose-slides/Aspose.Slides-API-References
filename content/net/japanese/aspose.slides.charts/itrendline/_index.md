@@ -1,9 +1,9 @@
 ---
 title: ITrendline
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: クラスはチャート系列のトレンドラインを表します
 type: docs
-weight: 2240
+weight: 2260
 url: /ja/aspose.slides.charts/itrendline/
 ---
 ## ITrendline インターフェイス
@@ -16,20 +16,20 @@ public interface ITrendline : IOverridableText
 
 ## プロパティ
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
 | [AsIOverridableText](../../aspose.slides.charts/itrendline/asioverridabletext) { get; } | IOverridableText インターフェイスを返します。読み取り専用 [`IOverridableText`](../ioverridabletext)。 |
-| [Backward](../../aspose.slides.charts/itrendline/backward) { get; set; } | トレンドが適用される系列のデータの前方にトレンドラインが延長するカテゴリ数（散布図の場合は単位）を指定します。散布図および非散布図では、値は任意の非負値です。読み書き Double。 |
-| [DisplayEquation](../../aspose.slides.charts/itrendline/displayequation) { get; set; } | トレンドラインの方程式をチャート上に表示するかどうかを指定します（R二乗値と同じラベルに）。読み書き Boolean。 |
-| [DisplayRSquaredValue](../../aspose.slides.charts/itrendline/displayrsquaredvalue) { get; set; } | トレンドラインのR二乗値をチャート上に表示するかどうかを指定します（方程式と同じラベルに）。読み書き Boolean。 |
-| [Format](../../aspose.slides.charts/itrendline/format) { get; set; } | トレンドラインの書式を表します。読み書き [`IFormat`](../iformat)。 |
-| [Forward](../../aspose.slides.charts/itrendline/forward) { get; set; } | トレンドが適用される系列のデータの後方にトレンドラインが延長するカテゴリ数（散布図の場合は単位）を指定します。散布図および非散布図では、値は任意の非負値です。読み書き Double。 |
-| [Intercept](../../aspose.slides.charts/itrendline/intercept) { get; set; } | トレンドラインが y 軸と交差する値を指定します。このプロパティは、トレンドラインのタイプが exp、linear、または poly の場合にのみサポートされます。読み書き Double。 |
-| [Order](../../aspose.slides.charts/itrendline/order) { get; set; } | 多項式トレンドラインの次数を指定します。他のトレンドラインタイプでは無視されます。値は 2 から 6 の間である必要があります。読み書き Byte。 |
-| [Period](../../aspose.slides.charts/itrendline/period) { get; set; } | 移動平均トレンドラインの期間を指定します。他のトレンドラインバリエーションでは無視されます。値は 2 から 255 の間である必要があります。読み書き Byte。 |
-| [RelatedLegendEntry](../../aspose.slides.charts/itrendline/relatedlegendentry) { get; } | このトレンドラインに関連付けられた凡例エントリを表します。読み取り専用 [`ILegendEntryProperties`](../ilegendentryproperties)。 |
-| [TrendlineName](../../aspose.slides.charts/itrendline/trendlinename) { get; set; } | トレンドラインの名前を取得または設定します。読み書き String。 |
-| [TrendlineType](../../aspose.slides.charts/itrendline/trendlinetype) { get; set; } | トレンドラインのタイプを取得または設定します。読み書き [`TrendlineType`](./trendlinetype)。 |
+| [Backward](../../aspose.slides.charts/itrendline/backward) { get; set; } | トレンドラインが系列データの前に伸びるカテゴリ数（または散布図の単位）を指定します。散布図および非散布図では、値は任意の非負の値でなければなりません。読み取り/書き込み Double。 |
+| [DisplayEquation](../../aspose.slides.charts/itrendline/displayequation) { get; set; } | トレンドラインの方程式がチャートに表示されるかどうかを指定します（Rsquaredvalue と同じラベル内）。読み取り/書き込み Boolean。 |
+| [DisplayRSquaredValue](../../aspose.slides.charts/itrendline/displayrsquaredvalue) { get; set; } | トレンドラインの決定係数（R-squared 値）がチャートに表示されるかどうかを指定します（方程式と同じラベル内）。読み取り/書き込み Boolean。 |
+| [Format](../../aspose.slides.charts/itrendline/format) { get; set; } | トレンドラインの書式を表します。読み取り/書き込み [`IFormat`](../iformat)。 |
+| [Forward](../../aspose.slides.charts/itrendline/forward) { get; set; } | トレンドラインが系列データの後に伸びるカテゴリ数（または散布図の単位）を指定します。散布図および非散布図では、値は任意の非負の値でなければなりません。読み取り/書き込み Double。 |
+| [Intercept](../../aspose.slides.charts/itrendline/intercept) { get; set; } | トレンドラインが y 軸と交差する位置の値を指定します。このプロパティは、トレンドラインの種類が exp、linear、または poly の場合にのみサポートされます。読み取り/書き込み Double。 |
+| [Order](../../aspose.slides.charts/itrendline/order) { get; set; } | 多項式トレンドラインの次数を指定します。他のトレンドラインタイプでは無視されます。値は 2 から 6 の間でなければなりません。読み取り/書き込み Byte。 |
+| [Period](../../aspose.slides.charts/itrendline/period) { get; set; } | 移動平均トレンドラインの期間を指定します。他のトレンドライン変種では無視されます。値は 2 から 255 の間でなければなりません。読み取り/書き込み Byte。 |
+| [RelatedLegendEntry](../../aspose.slides.charts/itrendline/relatedlegendentry) { get; } | このトレンドラインに関連する凡例エントリを表します。読み取り専用 [`ILegendEntryProperties`](../ilegendentryproperties)。 |
+| [TrendlineName](../../aspose.slides.charts/itrendline/trendlinename) { get; set; } | トレンドラインの名前を取得または設定します。読み取り/書き込み String。 |
+| [TrendlineType](../../aspose.slides.charts/itrendline/trendlinetype) { get; set; } | トレンドラインのタイプを取得または設定します。読み取り/書き込み [`TrendlineType`](./trendlinetype)。 |
 
 ### 参照
 

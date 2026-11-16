@@ -1,14 +1,14 @@
 ---
 title: ModernComment
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een commentaar op een dia voor.
+description: Representeert een commentaar op een dia.
 type: docs
-weight: 9090
+weight: 9110
 url: /nl/aspose.slides/moderncomment/
 ---
 ## ModernComment klasse
 
-Stelt een commentaar op een dia voor.
+Representeert een commentaar op een dia.
 
 ```csharp
 public sealed class ModernComment : Comment, IModernComment
@@ -18,22 +18,22 @@ public sealed class ModernComment : Comment, IModernComment
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Author](../../aspose.slides/comment/author) { get; } | Geeft de auteur van een commentaar terug. Alleen-lezen [`ICommentAuthor`](../icommentauthor). |
-| [CreatedTime](../../aspose.slides/comment/createdtime) { get; set; } | Geeft de tijd van het maken van een commentaar terug of stelt deze in. Het instellen van deze eigenschap op MinValue betekent dat er geen commentaartijd is ingesteld. Lezen/Schrijven DateTime. |
-| [ParentComment](../../aspose.slides/comment/parentcomment) { get; set; } | Krijgt of stelt het bovenliggende commentaar in. Lezen/Schrijven [`IComment`](../icomment). |
-| [Position](../../aspose.slides/comment/position) { get; set; } | Geeft de positie van een commentaar op een dia terug of stelt deze in. Lezen/Schrijven PointF. |
-| [Shape](../../aspose.slides/moderncomment/shape) { get; } | Geeft een vorm die aan het commentaar is gekoppeld terug. Alleen-lezen [`IShape`](../ishape). |
-| [Slide](../../aspose.slides/comment/slide) { get; } | Geeft de bovenliggende dia van een commentaar terug of stelt deze in. Alleen-lezen [`ISlide`](../islide). |
-| [Status](../../aspose.slides/moderncomment/status) { get; set; } | Krijgt of stelt de status van het commentaar in. Lezen/Schrijven [`ModernCommentStatus`](../moderncommentstatus). |
-| [Text](../../aspose.slides/comment/text) { get; set; } | Geeft de platte tekst van een dia-commentaar terug of stelt deze in. Lezen/Schrijven String. |
-| [TextSelectionLength](../../aspose.slides/moderncomment/textselectionlength) { get; set; } | Krijgt of stelt de lengte van de tekstselectie in het tekstframe in als het commentaar gekoppeld is aan een AutoShape. Lezen/Schrijven Int32. |
-| [TextSelectionStart](../../aspose.slides/moderncomment/textselectionstart) { get; set; } | Krijgt of stelt de startpositie van de tekstselectie in het tekstframe in als het commentaar gekoppeld is aan een AutoShape. Lezen/Schrijven Int32. |
+| [Author](../../aspose.slides/comment/author) { get; } | Retourneert de auteur van een commentaar. Alleen-lezen [`ICommentAuthor`](../icommentauthor). |
+| [CreatedTime](../../aspose.slides/comment/createdtime) { get; set; } | Retourneert of stelt de tijd van een commentaarcreatie in. Als deze eigenschap wordt ingesteld op MinValue, betekent dit dat er geen commentaartijd is ingesteld. Lezen/schrijven DateTime. |
+| [ParentComment](../../aspose.slides/comment/parentcomment) { get; set; } | Haalt of stelt het bovenliggende commentaar in. Lezen/schrijven [`IComment`](../icomment). |
+| [Position](../../aspose.slides/comment/position) { get; set; } | Retourneert of stelt de positie van een commentaar op een dia in. Lezen/schrijven PointF. |
+| [Shape](../../aspose.slides/moderncomment/shape) { get; } | Retourneert een vorm die aan het commentaar is gekoppeld. Alleen-lezen [`IShape`](../ishape). |
+| [Slide](../../aspose.slides/comment/slide) { get; } | Retourneert of stelt de bovenliggende dia van een commentaar in. Alleen-lezen [`ISlide`](../islide). |
+| [Status](../../aspose.slides/moderncomment/status) { get; set; } | Haalt of stelt de status van het commentaar in. Lezen/schrijven [`ModernCommentStatus`](../moderncommentstatus). |
+| [Text](../../aspose.slides/comment/text) { get; set; } | Retourneert of stelt de platte tekst van een dia-commentaar in. Lezen/schrijven String. |
+| [TextSelectionLength](../../aspose.slides/moderncomment/textselectionlength) { get; set; } | Haalt of stelt de lengte van de tekensselectie op in het tekstvak als het commentaar is gekoppeld aan AutoShape. Lezen/schrijven Int32. |
+| [TextSelectionStart](../../aspose.slides/moderncomment/textselectionstart) { get; set; } | Haalt of stelt de startpositie van de tekensselectie op in het tekstvak als het commentaar is gekoppeld aan AutoShape. Lezen/schrijven Int32. |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Remove](../../aspose.slides/comment/remove)() | Verwijdert het commentaar en alle antwoorden ervan uit de bovenliggende collectie. |
+| [Remove](../../aspose.slides/comment/remove)() | Verwijdert het commentaar en al zijn antwoorden uit de bovenliggende collectie. |
 
 ### Voorbeelden
 

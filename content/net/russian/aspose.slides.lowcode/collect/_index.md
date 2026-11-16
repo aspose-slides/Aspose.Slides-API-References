@@ -1,14 +1,14 @@
 ---
 title: Collect
-second_title: Aspose.Sildes для .NET справочник API
-description: Представляет группу методов, предназначенных для сбора объектов модели разных типов из Presentation../aspose.slides/presentation.
+second_title: Aspose.Sildes для .NET справка по API
+description: Представляет группу методов, предназначенных для сбора объектных моделей разных типов из Presentation../aspose.slides/presentation.
 type: docs
-weight: 7860
+weight: 7880
 url: /ru/aspose.slides.lowcode/collect/
 ---
 ## Collect класс
 
-Представляет группу методов, предназначенных для сбора объектов модели разных типов из [`Presentation`](../../aspose.slides/presentation).
+Представляет группу методов, предназначенных для сбора объектных моделей разных типов из [`Presentation`](../../aspose.slides/presentation).
 
 ```csharp
 public static class Collect
@@ -27,7 +27,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 {
     foreach (Shape shape in Collect.Shapes(pres))
     {
-        // ... изменить форматирование фигуры или другие свойства
+        // ... изменить форматирование формы или другие свойства
     }
 }    
 ```

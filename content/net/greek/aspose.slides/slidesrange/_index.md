@@ -1,14 +1,14 @@
 ---
 title: SlidesRange
 second_title: Aspose.Sildes για .NET API Αναφορά
-description: Εύρος διαφανειών
+description: Περιοχή διαφανειών
 type: docs
-weight: 10530
+weight: 10550
 url: /el/aspose.slides/slidesrange/
 ---
 ## SlidesRange κλάση
 
-Εύρος διαφανειών
+Περιοχή διαφανειών
 
 ```csharp
 public class SlidesRange
@@ -25,7 +25,7 @@ public class SlidesRange
 | Όνομα | Περιγραφή |
 | --- | --- |
 | [End](../../aspose.slides/slidesrange/end) { get; set; } | Τέλος |
-| [Start](../../aspose.slides/slidesrange/start) { get; set; } | Αρχή |
+| [Start](../../aspose.slides/slidesrange/start) { get; set; } | Έναρξη |
 
 ### Δείτε επίσης
 

@@ -3,7 +3,7 @@ title: IHtmlFormatter
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar HTML-filmall.
 type: docs
-weight: 3940
+weight: 3960
 url: /sv/aspose.slides.export/ihtmlformatter/
 ---
 ## IHtmlFormatter gränssnitt

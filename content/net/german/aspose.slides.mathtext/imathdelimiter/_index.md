@@ -1,14 +1,14 @@
 ---
 title: IMathDelimiter
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Gibt das Trennzeichenobjekt an, das aus öffnenden und schließenden Zeichen wie Klammern, geschweiften Klammern, eckigen Klammern und senkrechten Strichen sowie einem oder mehreren mathematischen Elementen im Inneren besteht, die durch ein angegebenes Zeichen getrennt sind. Beispiele 2 2x7C2
+description: Gibt das Trennzeichenobjekt an, das aus öffnenden und schließenden Zeichen wie Klammern, geschweiften Klammern, eckigen Klammern und senkrechten Strichen besteht und ein oder mehrere mathematische Elemente darin enthält, die durch ein angegebenes Zeichen getrennt werden. Beispiele 2 2x7C2
 type: docs
-weight: 8210
+weight: 8230
 url: /de/aspose.slides.mathtext/imathdelimiter/
 ---
 ## IMathDelimiter Schnittstelle
 
-Gibt das Trennzeichenobjekt an, das aus öffnenden und schließenden Zeichen (wie Klammern, geschweiften Klammern, eckigen Klammern und senkrechten Strichen) sowie einem oder mehreren mathematischen Elementen darin besteht, die durch ein angegebenes Zeichen getrennt sind. Beispiele: (𝑥2); [𝑥2&#x7C;𝑦2]
+Gibt das Trennzeichenobjekt an, das aus öffnenden und schließenden Zeichen (wie Klammern, geschweiften Klammern, eckigen Klammern und senkrechten Strichen) besteht und ein oder mehrere mathematische Elemente darin enthält, die durch ein angegebenes Zeichen getrennt werden. Beispiele: (𝑥2); [𝑥2&#x7C;𝑦2]
 
 ```csharp
 public interface IMathDelimiter : IMathElement
@@ -16,25 +16,25 @@ public interface IMathDelimiter : IMathElement
 
 ## Eigenschaften
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
 | [Arguments](../../aspose.slides.mathtext/imathdelimiter/arguments) { get; } | Ein oder mehrere mathematische Elemente, die durch Trennzeichenzeichen getrennt sind |
 | [AsIMathElement](../../aspose.slides.mathtext/imathdelimiter/asimathelement) { get; } | Ermöglicht das Abrufen der Basis-IMathElement-Schnittstelle [`IMathElement`](../imathelement) |
-| [BeginningCharacter](../../aspose.slides.mathtext/imathdelimiter/beginningcharacter) { get; set; } | Das Trennzeichen-Anfangszeichen gibt das Anfangs- bzw. öffnende Trennzeichen an. Mathematische Trennzeichen sind umschließende Zeichen wie Klammern, eckige Klammern und geschweifte Klammern. Der Standardwert: '('. |
-| [DelimiterShape](../../aspose.slides.mathtext/imathdelimiter/delimitershape) { get; set; } | Gibt die Form der Trennzeichen im Trennzeichenobjekt an. Wenn MathDelimiterShape.Centered verwendet wird, werden die Trennzeichen um die mathematische Achse des mathematischen Textes zentriert und passen sich weiterhin an die gesamte Höhe ihres Inhalts an. Wenn MathDelimiterShape.Match verwendet wird, werden Höhe und Form so angepasst, dass sie genau dem Inhalt entsprechen. |
-| [EndingCharacter](../../aspose.slides.mathtext/imathdelimiter/endingcharacter) { get; set; } | Das Trennzeichen-Endzeichen gibt das abschließende bzw. schließende Trennzeichen an. Mathematische Trennzeichen sind umschließende Zeichen wie Klammern, eckige Klammern und geschweifte Klammern. Der Standard: ')'. |
-| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathdelimiter/growtomatchoperandheight) { get; set; } | Gibt das Wachstum von BeginningCharacter, SeparatorCharacter und EndingCharacter an. Wenn true, wachsen die Trennzeichen vertikal, um die Höhe des Operanden anzupassen. Der Standardwert ist true |
-| [SeparatorCharacter](../../aspose.slides.mathtext/imathdelimiter/separatorcharacter) { get; set; } | Das Trennzeichen-Separatorzeichen gibt das Zeichen an, das Argumente im Trennzeichenobjekt trennt. Der Standard: '&#x7C;'. |
+| [BeginningCharacter](../../aspose.slides.mathtext/imathdelimiter/beginningcharacter) { get; set; } | Delimiter Beginning Character gibt das Anfangs-Trennzeichen-Zeichen an, das das beginnende bzw. öffnende Trennzeichen-Zeichen spezifiziert. Mathematische Trennzeichen sind umschließende Zeichen wie Klammern, eckige Klammern und geschweifte Klammern. Der Standardwert: '('. |
+| [DelimiterShape](../../aspose.slides.mathtext/imathdelimiter/delimitershape) { get; set; } | Gibt die Form der Trennzeichen im Trennzeichenobjekt an. Wenn MathDelimiterShape.Centered, sind die Trennzeichen um die mathematische Achse des mathematischen Textes zentriert und werden so angepasst, dass sie die gesamte Höhe ihres Inhalts ausfüllen. Wenn MathDelimiterShape.Match, werden Höhe und Form so geändert, dass sie exakt dem Inhalt entsprechen. |
+| [EndingCharacter](../../aspose.slides.mathtext/imathdelimiter/endingcharacter) { get; set; } | Delimiter Ending Character gibt das End-Trennzeichen-Zeichen an, das das abschließende bzw. schließende Trennzeichen-Zeichen spezifiziert. Mathematische Trennzeichen sind umschließende Zeichen wie Klammern, eckige Klammern und geschweifte Klammern. Der Standard: ')'. |
+| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathdelimiter/growtomatchoperandheight) { get; set; } | Gibt das Anwachsen von BeginningCharacter, SeparatorCharacter, EndingCharacter an. Wenn true, wachsen die Trennzeichen vertikal, um die Höhe ihres Operanden anzupassen. Der Standardwert ist true |
+| [SeparatorCharacter](../../aspose.slides.mathtext/imathdelimiter/separatorcharacter) { get; set; } | Delimiter Separator Character gibt das Zeichen an, das Argumente im Trennzeichenobjekt trennt. Der Standardwert: '&#x7C;'. |
 
 ## Methoden
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
-| [Delimit](../../aspose.slides.mathtext/imathdelimiter/delimit)(char) | Begrenzt Argumente mithilfe des angegebenen Trennzeichenzeichens |
+| [Delimit](../../aspose.slides.mathtext/imathdelimiter/delimit)(char) | Begrenzt Argumente mithilfe des angegebenen Trennzeichen-Zeichens |
 
 ### Beispiele
 
-Beispiel:
+Example:
 
 ```csharp
 [C#]

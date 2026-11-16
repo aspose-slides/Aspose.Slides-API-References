@@ -3,7 +3,7 @@ title: Flavor
 second_title: Aspose.Sildes για .NET API Reference
 description: Όλες οι προδιαγραφές markdown που χρησιμοποιούνται στο πρόγραμμα.
 type: docs
-weight: 3800
+weight: 3820
 url: /el/aspose.slides.export/flavor/
 ---
 ## Απαρίθμηση Flavor
@@ -16,32 +16,32 @@ public enum Flavor
 
 ### Τιμές
 
-| Όνομα | Τιμή | Περιγραφή |
+| Name | Value | Description |
 | --- | --- | --- |
-| Github | `0` | Γεύση Github. |
-| Gruber | `1` | Γεύση Gruber. |
-| MultiMarkdown | `2` | Γεύση Multi markdown. |
-| CommonMark | `3` | Γεύση Common mark. |
-| MarkdownExtra | `4` | Γεύση Markdown extra. |
-| Pandoc | `5` | Γεύση Pandoc. |
-| Kramdown | `6` | Γεύση Kramdown. |
-| Markua | `7` | Γεύση Markua. |
-| Maruku | `8` | Γεύση Maruku. |
-| Markdown2 | `9` | Γεύση Markdown2. |
-| Remarkable | `10` | Γεύση Remarkable. |
-| Showdown | `11` | Γεύση Showdown. |
-| Ghost | `12` | Γεύση Ghost. |
-| GitLab | `13` | Γεύση Gitlab. |
-| Haroopad | `14` | Γεύση Haroopad. |
-| IaWriter | `15` | Γεύση IAWriter. |
-| Redcarpet | `16` | Γεύση Redcarpet. |
-| ScholarlyMarkdown | `17` | Γεύση Scholarly markdown. |
-| Taiga | `18` | Γεύση Taiga. |
-| Trello | `19` | Γεύση Trello. |
-| S9ETextFormatter | `20` | Γεύση S9E text formatter. |
-| XWiki | `21` | Γεύση XWiki. |
-| StackOverflow | `22` | Γεύση Stack overflow. |
-| Default | `23` | Προεπιλεγμένη γεύση markdown. |
+| Github | `0` | Στυλ Github. |
+| Gruber | `1` | Στυλ Gruber. |
+| MultiMarkdown | `2` | Στυλ Multi markdown. |
+| CommonMark | `3` | Στυλ Common mark. |
+| MarkdownExtra | `4` | Στυλ Markdown extra. |
+| Pandoc | `5` | Στυλ Pandoc. |
+| Kramdown | `6` | Στυλ Kramdown. |
+| Markua | `7` | Στυλ Markua. |
+| Maruku | `8` | Στυλ Maruku. |
+| Markdown2 | `9` | Στυλ Markdown2. |
+| Remarkable | `10` | Στυλ Remarkable |
+| Showdown | `11` | Στυλ Showdown. |
+| Ghost | `12` | Στυλ Ghost. |
+| GitLab | `13` | Στυλ Gitlab. |
+| Haroopad | `14` | Στυλ Haroopad. |
+| IaWriter | `15` | Στυλ IAWriter. |
+| Redcarpet | `16` | Στυλ Redcarpet. |
+| ScholarlyMarkdown | `17` | Στυλ Scholarly markdown. |
+| Taiga | `18` | Στυλ Taiga. |
+| Trello | `19` | Στυλ Trello. |
+| S9ETextFormatter | `20` | Στυλ S9E text formatter. |
+| XWiki | `21` | Στυλ XWiki. |
+| StackOverflow | `22` | Στυλ Stack overflow. |
+| Default | `23` | Στυλ Default markdown. |
 
 ### Παραδείγματα
 

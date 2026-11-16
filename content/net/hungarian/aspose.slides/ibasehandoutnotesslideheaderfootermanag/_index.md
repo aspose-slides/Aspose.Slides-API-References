@@ -1,14 +1,14 @@
 ---
 title: IBaseHandoutNotesSlideHeaderFooterManag
-second_title: Aspose.Sildes .NET API referencia
-description: A menedzsert képviseli, amely a helyőrzők viselkedését tartalmazza, beleértve a fejléchelyőrzőt minden típusú kiosztó- és jegyzetdiához.
+second_title: Aspose.Sildes .NET API referenciája
+description: Képviseli azt a kezelőt, amely a helyőrzők viselkedését tartalmazza, beleértve a fejléchelyőrzőt az összes típusú kézjegy- és jegyzetdia számára.
 type: docs
-weight: 5290
+weight: 5310
 url: /hu/aspose.slides/ibasehandoutnotesslideheaderfootermanag/
 ---
 ## IBaseHandoutNotesSlideHeaderFooterManag interfész
 
-A menedzsert képviseli, amely a helyőrzők viselkedését tartalmazza, beleértve a fejléchelyőrzőt minden típusú kiosztó- és jegyzetdia esetén.
+Képviseli azt a kezelőt, amely a helyőrzők viselkedését tartalmazza, beleértve az összes típusú kézjegy- és jegyzetdia fejléchelyőrzőt.
 
 ```csharp
 public interface IBaseHandoutNotesSlideHeaderFooterManag : IBaseSlideHeaderFooterManager
@@ -19,18 +19,18 @@ public interface IBaseHandoutNotesSlideHeaderFooterManag : IBaseSlideHeaderFoote
 | Név | Leírás |
 | --- | --- |
 | [AsIBaseSlideHeaderFooterManager](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/asibaseslideheaderfootermanager) { get; } | Visszaadja az IBaseSlideHeaderFooterManager interfészt. |
-| [IsHeaderVisible](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/isheadervisible) { get; } | Megkapja az értéket, amely azt jelzi, hogy a fejléchelyőrző jelen van. Olvassa a Boolean értéket. |
+| [IsHeaderVisible](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/isheadervisible) { get; } | Megkapja az értéket, amely jelzi, hogy a fejléchelyőrző jelen van. Boolean olvasás. |
 
 ## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [SetHeaderText](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/setheadertext)(string) | Beállítja a szöveget a dia fejléchelyőrzőjéhez. |
-| [SetHeaderVisibility](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/setheadervisibility)(bool) | Megváltoztatja a dia fejléchelyőrző láthatóságát. |
+| [SetHeaderText](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/setheadertext)(string) | Beállítja a szöveget a diafejléc helyőrzőhöz. |
+| [SetHeaderVisibility](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/setheadervisibility)(bool) | Módosítja a diafejléc helyőrző láthatóságát. |
 
-### Megjegyzés
+### Megjegyzések
 
-Az eredeti interfész neve "IBaseHandoutNotesSlideHeaderFooterManager" rövidítve lett "IBaseHandoutNotesSlideHeaderFooterManag" a COM kompatibilitás érdekében (a típusnév hossza legfeljebb 39 lehet).
+Az eredeti interfész neve "IBaseHandoutNotesSlideHeaderFooterManager" le lett csonkítva "IBaseHandoutNotesSlideHeaderFooterManag"-re a COM-kompatibilitás érdekében (a típusegység neve legfeljebb 39 karakter lehet).
 
 ### Lásd még
 

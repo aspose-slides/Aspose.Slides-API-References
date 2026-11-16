@@ -1,14 +1,14 @@
 ---
 title: IBulkTextFormattable
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili sebuah objek dengan kemampuan mengatur format elemen teks anak secara massal.
+description: Mewakili objek dengan kemampuan mengatur format elemen teks anak secara massal.
 type: docs
-weight: 5380
+weight: 5400
 url: /id/aspose.slides/ibulktextformattable/
 ---
 ## IBulkTextFormattable antarmuka
 
-Mewakili sebuah objek dengan kemampuan mengatur format elemen teks anak secara massal.
+Mewakili sebuah objek dengan kemampuan mengatur format elemen teks anak secara bulk.
 
 ```csharp
 public interface IBulkTextFormattable
@@ -18,9 +18,9 @@ public interface IBulkTextFormattable
 
 | Nama | Deskripsi |
 | --- | --- |
-| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat)(IParagraphFormat) | Mengatur properti format paragraf yang didefinisikan ke semua paragraf elemen. |
-| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat_1)(IPortionFormat) | Mengatur properti format portion yang didefinisikan ke semua portion elemen. |
-| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat_2)(ITextFrameFormat) | Mengatur properti format bingkai teks yang didefinisikan ke semua bingkai teks elemen. |
+| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat)(IParagraphFormat) | Mengatur properti format paragraf yang ditentukan ke semua paragraf elemen. |
+| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat_1)(IPortionFormat) | Mengatur properti format bagian yang ditentukan ke semua bagian elemen. |
+| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat_2)(ITextFrameFormat) | Mengatur properti format bingkai teks yang ditentukan ke semua bingkai teks elemen. |
 
 ### Lihat Juga
 

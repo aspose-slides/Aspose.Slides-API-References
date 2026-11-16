@@ -1,14 +1,14 @@
 ---
 title: MarkdownSaveOptions.MarkdownImageSavingHandler
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Được gọi cho mỗi hình ảnh không phải SVG (bitmap hoặc metafile) trong quá trình xuất Markdown. Trả về true để sử dụng liên kết được chỉ định hoặc false để áp dụng logic lưu mặc định.
+second_title: Aspose.Sildes cho .NET Tham chiếu API
+description: Được gọi cho mỗi ảnh không phải SVG (bitmap hoặc metafile) trong quá trình xuất Markdown. Trả về true để sử dụng liên kết được chỉ định hoặc false để áp dụng logic lưu mặc định.
 type: docs
-weight: 4260
+weight: 4280
 url: /vi/aspose.slides.export/markdownsaveoptions.markdownimagesavinghandler/
 ---
 ## MarkdownSaveOptions.MarkdownImageSavingHandler delegate
 
-Được gọi cho mỗi hình ảnh không phải SVG (bitmap hoặc metafile) trong quá trình xuất Markdown. Trả về `true` để sử dụng *link* được chỉ định, hoặc `false` để áp dụng logic lưu mặc định.
+Được gọi cho mỗi ảnh không phải SVG (bitmap hoặc metafile) trong quá trình xuất Markdown. Trả về `true` để sử dụng *liên kết* được chỉ định, hoặc `false` để áp dụng logic lưu mặc định.
 
 ```csharp
 public delegate bool MarkdownImageSavingHandler(IImage image, ImageFormat format, ref string link);
@@ -17,10 +17,10 @@ public delegate bool MarkdownImageSavingHandler(IImage image, ImageFormat format
 | Tham số | Kiểu | Mô tả |
 | --- | --- | --- |
 | image | IImage | Hình ảnh đang được xuất (bitmap hoặc metafile). |
-| format | ImageFormat | Định dạng hình ảnh. |
+| format | ImageFormat | Định dạng ảnh. |
 | link | String& | Liên kết Markdown để sử dụng khi trả về `true`. |
 
-### Xem Thêm
+### Xem thêm
 
 * giao diện [IImage](../../aspose.slides/iimage)
 * enum [ImageFormat](../../aspose.slides/imageformat)

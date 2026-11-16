@@ -1,14 +1,14 @@
 ---
 title: IOleObjectFrame
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili objek OLE pada slide.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Mewakili objek OLE pada sebuah slide.
 type: docs
-weight: 6540
+weight: 6560
 url: /id/aspose.slides/ioleobjectframe/
 ---
-## IOleObjectFrame antarmuka
+## interface IOleObjectFrame
 
-Mewakili objek OLE pada slide.
+Mewakili objek OLE pada sebuah slide.
 
 ```csharp
 public interface IOleObjectFrame : IGraphicalObject
@@ -18,31 +18,31 @@ public interface IOleObjectFrame : IGraphicalObject
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIGraphicalObject](../../aspose.slides/ioleobjectframe/asigraphicalobject) { get; } | Memungkinkan mendapatkan antarmuka IGraphicalObject dasar. Baca-saja [`IGraphicalObject`](../igraphicalobject). |
+| [AsIGraphicalObject](../../aspose.slides/ioleobjectframe/asigraphicalobject) { get; } | Mengizinkan untuk mendapatkan antarmuka IGraphicalObject dasar. Baca-saja [`IGraphicalObject`](../igraphicalobject). |
 | [EmbeddedData](../../aspose.slides/ioleobjectframe/embeddeddata) { get; } | Mendapatkan informasi tentang data OLE yang disematkan. Baca-saja [`IOleEmbeddedDataInfo`](../ioleembeddeddatainfo). |
-| [EmbeddedFileLabel](../../aspose.slides/ioleobjectframe/embeddedfilelabel) { get; } | Mengembalikan nama file dari objek OLE yang disematkan |
-| [EmbeddedFileName](../../aspose.slides/ioleobjectframe/embeddedfilename) { get; } | Mengembalikan jalur ke objek OLE yang disematkan |
-| [IsObjectIcon](../../aspose.slides/ioleobjectframe/isobjecticon) { get; set; } | Menentukan apakah objek ditampilkan sebagai ikon. Baca/tulis Boolean. |
-| [IsObjectLink](../../aspose.slides/ioleobjectframe/isobjectlink) { get; } | Menentukan apakah objek ditautkan ke file eksternal. Baca-saja Boolean. |
+| [EmbeddedFileLabel](../../aspose.slides/ioleobjectframe/embeddedfilelabel) { get; } | Mengembalikan nama file objek OLE yang disematkan |
+| [EmbeddedFileName](../../aspose.slides/ioleobjectframe/embeddedfilename) { get; } | Mengembalikan jalur objek OLE yang disematkan |
+| [IsObjectIcon](../../aspose.slides/ioleobjectframe/isobjecticon) { get; set; } | Menentukan apakah sebuah objek terlihat sebagai ikon. Baca/tulis Boolean. |
+| [IsObjectLink](../../aspose.slides/ioleobjectframe/isobjectlink) { get; } | Menentukan apakah objek terhubung ke file eksternal. Baca-saja Boolean. |
 | [LinkFileName](../../aspose.slides/ioleobjectframe/linkfilename) { get; } | Mengembalikan jalur lengkap ke file yang ditautkan. Nama file pendek akan digunakan. Baca-saja String. |
 | [LinkPathLong](../../aspose.slides/ioleobjectframe/linkpathlong) { get; set; } | Mengembalikan jalur lengkap ke file yang ditautkan. Nama file panjang akan digunakan. Baca/tulis String. |
-| [LinkPathRelative](../../aspose.slides/ioleobjectframe/linkpathrelative) { get; } | Mengembalikan jalur relatif ke file yang ditautkan jika ada, bila tidak mengembalikan string kosong. Baca-saja String. |
-| [ObjectName](../../aspose.slides/ioleobjectframe/objectname) { get; set; } | Mengembalikan atau mengatur nama objek. Baca/tulis String. |
-| [ObjectProgId](../../aspose.slides/ioleobjectframe/objectprogid) { get; set; } | Mengembalikan ProgID objek. Read olny String. |
+| [LinkPathRelative](../../aspose.slides/ioleobjectframe/linkpathrelative) { get; } | Mengembalikan jalur relatif ke file yang ditautkan jika ada, jika tidak mengembalikan string kosong. Baca-saja String. |
+| [ObjectName](../../aspose.slides/ioleobjectframe/objectname) { get; set; } | Mengembalikan atau mengatur nama sebuah objek. Baca/tulis String. |
+| [ObjectProgId](../../aspose.slides/ioleobjectframe/objectprogid) { get; set; } | Mengembalikan ProgID sebuah objek. Baca-saja String. |
 | [SubstitutePictureFormat](../../aspose.slides/ioleobjectframe/substitutepictureformat) { get; } | Mengembalikan objek properti isi gambar OleObject. Baca-saja [`IPictureFillFormat`](../ipicturefillformat). |
 | [SubstitutePictureTitle](../../aspose.slides/ioleobjectframe/substitutepicturetitle) { get; set; } | Mengembalikan atau mengatur judul untuk ikon OleObject. Baca/tulis String. |
-| [UpdateAutomatic](../../aspose.slides/ioleobjectframe/updateautomatic) { get; set; } | Menentukan apakah objek tersemat yang ditautkan secara otomatis diperbarui ketika presentasi dibuka atau dicetak. Baca/tulis Boolean. |
+| [UpdateAutomatic](../../aspose.slides/ioleobjectframe/updateautomatic) { get; set; } | Menentukan apakah objek yang disematkan dan ditautkan diperbarui secara otomatis ketika presentasi dibuka atau dicetak. Baca/tulis Boolean. |
 
 ## Metode
 
 | Nama | Deskripsi |
 | --- | --- |
-| [SetEmbeddedData](../../aspose.slides/ioleobjectframe/setembeddeddata)(IOleEmbeddedDataInfo) | Mengatur informasi tentang data OLE yang disematkan. |
+| [SetEmbeddedData](../../aspose.slides/ioleobjectframe/setembeddeddata)(IOleEmbeddedDataInfo) | Menetapkan informasi tentang data OLE yang disematkan. |
 
 ### Lihat Juga
 
 * antarmuka [IGraphicalObject](../igraphicalobject)
 * ruang nama [Aspose.Slides](../../aspose.slides)
-* rakitan [Aspose.Slides](../../)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

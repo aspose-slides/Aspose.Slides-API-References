@@ -1,12 +1,12 @@
 ---
 title: IOuterShadowEffectiveData
-second_title: Referencia de la API de Aspose.Sildes para .NET
+second_title: Aspose.Sildes para la referencia de API de .NET
 description: Objeto inmutable que representa un efecto de sombra externa.
 type: docs
-weight: 3470
+weight: 3490
 url: /es/aspose.slides.effects/ioutershadoweffectivedata/
 ---
-## IOuterShadowEffectiveData interfaz
+## interfaz IOuterShadowEffectiveData
 
 Objeto inmutable que representa un efecto de sombra externa.
 
@@ -23,9 +23,9 @@ public interface IOuterShadowEffectiveData : IEffectEffectiveData
 | [Direction](../../aspose.slides.effects/ioutershadoweffectivedata/direction) { get; } | Dirección de la sombra. Solo lectura Single. |
 | [Distance](../../aspose.slides.effects/ioutershadoweffectivedata/distance) { get; } | Distancia de la sombra. Solo lectura Double. |
 | [RectangleAlign](../../aspose.slides.effects/ioutershadoweffectivedata/rectanglealign) { get; } | Alineación del rectángulo. Solo lectura [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadoweffectivedata/rotateshadowwithshape) { get; } | Especifica si la sombra debe rotarse con la forma cuando la forma está rotada. Solo lectura Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/ioutershadoweffectivedata/scalehorizontal) { get; } | Especifica el factor de escala horizontal, una escala negativa provoca una inversión. Solo lectura Double. |
-| [ScaleVertical](../../aspose.slides.effects/ioutershadoweffectivedata/scalevertical) { get; } | Especifica el factor de escala vertical, una escala negativa provoca una inversión. Solo lectura Double. |
+| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadoweffectivedata/rotateshadowwithshape) { get; } | Especifica si la sombra debe girar con la forma cuando la forma está girada. Solo lectura Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/ioutershadoweffectivedata/scalehorizontal) { get; } | Especifica el factor de escala horizontal, una escala negativa provoca un volteo. Solo lectura Double. |
+| [ScaleVertical](../../aspose.slides.effects/ioutershadoweffectivedata/scalevertical) { get; } | Especifica el factor de escala vertical, una escala negativa provoca un volteo. Solo lectura Double. |
 | [ShadowColor](../../aspose.slides.effects/ioutershadoweffectivedata/shadowcolor) { get; } | Color de la sombra. Solo lectura Color. |
 | [SkewHorizontal](../../aspose.slides.effects/ioutershadoweffectivedata/skewhorizontal) { get; } | Especifica el ángulo de sesgo horizontal (en grados). Solo lectura Double. |
 | [SkewVertical](../../aspose.slides.effects/ioutershadoweffectivedata/skewvertical) { get; } | Especifica el ángulo de sesgo vertical (en grados). Solo lectura Double. |

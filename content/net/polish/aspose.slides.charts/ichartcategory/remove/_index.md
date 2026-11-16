@@ -1,9 +1,9 @@
 ---
 title: Remove
-second_title: Aspose.Sildes dla .NET referencja API
+second_title: Aspose.Sildes dla .NET Referencja API
 description: Usuwa kategorię z wykresu.
 type: docs
-weight: 60
+weight: 70
 url: /pl/aspose.slides.charts/ichartcategory/remove/
 ---
 ## IChartCategory.Remove metoda
@@ -18,7 +18,7 @@ public void Remove()
 
 | wyjątek | warunek |
 | --- | --- |
-| [PptxEditException](../../../aspose.slides/pptxeditexception) | Rzucany, jeśli kategoria została już usunięta z wykresu. |
+| [PptxEditException](../../../aspose.slides/pptxeditexception) | Thrown if category is already removed from chart. |
 
 ### Zobacz także
 

@@ -1,22 +1,22 @@
 ---
 title: SetRange
-second_title: Aspose.Sildes pro .NET – referenční příručka API
-description: Nastaví rozsah dat grafu. Řady a kategorie budou aktualizovány na základě nového rozsahu dat. Pokud je počet řad v rozsahu dat větší než počet řad v datech grafu, budou přidány další řady se stejným typem jako poslední řada v aktuální kolekci na konec kolekce.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Nastaví rozsah dat grafu. Řady a kategorie budou aktualizovány na základě nového rozsahu dat. Pokud je počet řad v rozsahu dat větší než počet řad v datech grafu, budou do konce kolekce přidány další řady se stejným typem jako poslední řada v aktuální kolekci.
 type: docs
-weight: 130
+weight: 140
 url: /cs/aspose.slides.charts/ichartdata/setrange/
 ---
 ## IChartData.SetRange metoda
 
-Nastaví rozsah dat grafu. Řady a kategorie budou aktualizovány na základě nového rozsahu dat. Pokud je počet řad v rozsahu dat větší než počet řad v datech grafu, budou přidány další řady se stejným typem jako poslední řada v aktuální kolekci na konec kolekce.
+Nastaví rozsah dat grafu. Řady a kategorie budou aktualizovány na základě nového rozsahu dat. Pokud je počet řad v rozsahu dat větší než počet řad v datech grafu, budou do konce kolekce přidány další řady se stejným typem jako poslední řada v aktuální kolekci.
 
 ```csharp
 public void SetRange(string formula)
 ```
 
-| Parametr | Typ | Popis |
+| Parameter | Type | Description |
 | --- | --- | --- |
-| formula | String | Vzorec rozsahu dat buněk. Např.: "Sheet1!$A$1:$C$4", "SomeSheetName!A1:B100", "Sheet1!$A$1:$B$5;Sheet1!$D$1:$D$5". |
+| formula | String | Vzorec pro rozsah dat buněk. E.g: "Sheet1!$A$1:$C$4" , "SomeSheetName!A1:B100", "Sheet1!$A$1:$B$5;Sheet1!$D$1:$D$5". |
 
 ### Výjimky
 

@@ -1,14 +1,14 @@
 ---
 title: ChartPlotArea
 second_title: Aspose.Sildes için .NET API Referansı
-description: Grafiğin çizilmesi gereken dikdörtgeni temsil eder.
+description: Grafiğin çizileceği dikdörtgeni temsil eder.
 type: docs
-weight: 1420
+weight: 1430
 url: /tr/aspose.slides.charts/chartplotarea/
 ---
 ## ChartPlotArea sınıfı
 
-Grafiğin çizileceği dikdörtgeni temsil eder.
+Represents rectangle where chart should be plotted.
 
 ```csharp
 public class ChartPlotArea : DomObject<Chart>, IChartPlotArea
@@ -16,24 +16,24 @@ public class ChartPlotArea : DomObject<Chart>, IChartPlotArea
 
 ## Özellikler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/chartplotarea/actualheight) { get; } | Grafik öğesinin gerçek yüksekliğini belirtir. Gerçek değerleri almak için önce IChart.ValidateChartLayout() yöntemini çağırın. Salt okunur Single. |
-| [ActualWidth](../../aspose.slides.charts/chartplotarea/actualwidth) { get; } | Grafik öğesinin gerçek genişliğini belirtir. Gerçek değerleri almak için önce IChart.ValidateChartLayout() yöntemini çağırın. Salt okunur Single. |
-| [ActualX](../../aspose.slides.charts/chartplotarea/actualx) { get; } | Grafik öğesinin sol üst köşeye göre gerçek x konumunu (sol) belirtir. Gerçek değerleri almak için önce IChart.ValidateChartLayout() yöntemini çağırın. Salt okunur Single. |
-| [ActualY](../../aspose.slides.charts/chartplotarea/actualy) { get; } | Grafik öğesinin sol üst köşeye göre gerçek üst konumunu belirtir. Gerçek değerleri almak için önce IChart.ValidateChartLayout() yöntemini çağırın. Salt okunur Single. |
-| [Bottom](../../aspose.slides.charts/chartplotarea/bottom) { get; } | Alt. Salt okunur Single. |
-| [Chart](../../aspose.slides.charts/chartplotarea/chart) { get; } | Grafik. Salt okunur [`IChart`](../ichart). |
-| [Format](../../aspose.slides.charts/chartplotarea/format) { get; } | Çizim alanının biçimini döndürür. Salt okunur [`IFormat`](../iformat). |
-| [Height](../../aspose.slides.charts/chartplotarea/height) { get; set; } | Grafiğin yüksekliğinin bir kesri (0 ila 1 arasında) olarak çizim alanı sınırlayıcı kutusunun yüksekliğini döndürür veya ayarlar. Okunur/yazılır Single. |
-| [IsLocationAutocalculated](../../aspose.slides.charts/chartplotarea/islocationautocalculated) { get; } | Konumun nasıl hesaplanacağını tanımlar: true – otomatik olarak hesaplanır; X, Y, Width, Height özellikleriyle belirlenir. Salt okunur Boolean. |
-| [LayoutTargetType](../../aspose.slides.charts/chartplotarea/layouttargettype) { get; set; } | Çizim alanının yerleşimi manuel olarak tanımlanmışsa, bu özellik alanın iç kısmı (eksen ve eksen etiketleri hariç) ya da dış kısmı (eksen ve eksen etiketleri dahil) olarak yerleştirileceğini belirtir. Okunur/yazılır [`LayoutTargetType`](./layouttargettype). |
-| [Right](../../aspose.slides.charts/chartplotarea/right) { get; } | Sağ. Salt okunur Single. |
-| [Width](../../aspose.slides.charts/chartplotarea/width) { get; set; } | Grafiğin genişliğinin bir kesri (0 ila 1 arasında) olarak çizim alanı sınırlayıcı kutusunun genişliğini döndürür veya ayarlar. Okunur/yazılır Single. |
-| [X](../../aspose.slides.charts/chartplotarea/x) { get; set; } | Grafiğin genişliğinin bir kesri (0 ila 1 arasında) olarak çizim alanı sınırlayıcı kutusunun sol üst köşesinin x koordinatını döndürür veya ayarlar. Okunur/yazılır Single. |
-| [Y](../../aspose.slides.charts/chartplotarea/y) { get; set; } | Grafiğin yüksekliğinin bir kesri (0 ila 1 arasında) olarak çizim alanı sınırlayıcı kutusunun sol üst köşesinin y koordinatını döndürür veya ayarlar. Okunur/yazılır Single. |
+| [ActualHeight](../../aspose.slides.charts/chartplotarea/actualheight) { get; } | Grafik öğesinin gerçek yüksekliğini belirtir. Gerçek değerleri almak için önce IChart.ValidateChartLayout() metodunu çağırın. Yalnızca okunur Single. |
+| [ActualWidth](../../aspose.slides.charts/chartplotarea/actualwidth) { get; } | Grafik öğesinin gerçek genişliğini belirtir. Gerçek değerleri almak için önce IChart.ValidateChartLayout() metodunu çağırın. Yalnızca okunur Single. |
+| [ActualX](../../aspose.slides.charts/chartplotarea/actualx) { get; } | Grafik öğesinin sol üst köşeye göre gerçek x konumunu (sol) belirtir. Gerçek değerleri almak için önce IChart.ValidateChartLayout() metodunu çağırın. Yalnızca okunur Single. |
+| [ActualY](../../aspose.slides.charts/chartplotarea/actualy) { get; } | Grafik öğesinin sol üst köşeye göre gerçek üst konumunu belirtir. Gerçek değerleri almak için önce IChart.ValidateChartLayout() metodunu çağırın. Yalnızca okunur Single. |
+| [Bottom](../../aspose.slides.charts/chartplotarea/bottom) { get; } | Alt. Yalnızca okunur Single. |
+| [Chart](../../aspose.slides.charts/chartplotarea/chart) { get; } | Grafik. Yalnızca okunur [`IChart`](../ichart). |
+| [Format](../../aspose.slides.charts/chartplotarea/format) { get; } | Çizim alanının biçimini döndürür. Yalnızca okunur [`IFormat`](../iformat). |
+| [Height](../../aspose.slides.charts/chartplotarea/height) { get; set; } | Çizim alanı sınırlayıcı kutusunun yüksekliğini, grafiğin yüksekliğinin bir kesri (0 ile 1 arasında) olarak döndürür veya ayarlar. Okunur/yazılabilir Single. |
+| [IsLocationAutocalculated](../../aspose.slides.charts/chartplotarea/islocationautocalculated) { get; } | Konumun nasıl hesaplanacağını tanımlar: true – otomatik olarak hesaplanır; X, Y, Width, Height özellikleriyle tanımlanır. Yalnızca okunur Boolean. |
+| [LayoutTargetType](../../aspose.slides.charts/chartplotarea/layouttargettype) { get; set; } | Çizim alanının düzeni manuel olarak tanımlanmışsa, bu özellik çizim alanının iç kısmına (ekseni ve eksen etiketleri hariç) mi yoksa dış kısmına (ekseni ve eksen etiketleri dahil) mi yerleştirileceğini belirtir. Okunur/yazılabilir [`LayoutTargetType`](./layouttargettype). |
+| [Right](../../aspose.slides.charts/chartplotarea/right) { get; } | Sağ. Yalnızca okunur Single. |
+| [Width](../../aspose.slides.charts/chartplotarea/width) { get; set; } | Çizim alanı sınırlayıcı kutusunun genişliğini, grafiğin genişliğinin bir kesri (0 ile 1 arasında) olarak döndürür veya ayarlar. Okunur/yazılabilir Single. |
+| [X](../../aspose.slides.charts/chartplotarea/x) { get; set; } | Çizim alanı sınırlayıcı kutusunun sol üst köşesinin x koordinatını, grafiğin genişliğinin bir kesri (0 ile 1 arasında) olarak döndürür veya ayarlar. Okunur/yazılabilir Single. |
+| [Y](../../aspose.slides.charts/chartplotarea/y) { get; set; } | Çizim alanı sınırlayıcı kutusunun sol üst köşesinin y koordinatını, grafiğin yüksekliğinin bir kesri (0 ile 1 arasında) olarak döndürür veya ayarlar. Okunur/yazılabilir Single. |
 
-### Bakınız
+### İlgili
 
 * sınıf [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * sınıf [Chart](../chart)

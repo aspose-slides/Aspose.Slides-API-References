@@ -1,14 +1,14 @@
 ---
 title: PortionCollection
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
-description: แสดงถึงคอลเลกชันของ portions.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: เป็นคอลเลกชันของ Portion.
 type: docs
-weight: 9470
+weight: 9490
 url: /th/aspose.slides/portioncollection/
 ---
 ## PortionCollection คลาส
 
-แสดงถึงคอลเลกชันของ Portions.
+แสดงถึงคอลเลกชันของ portion
 
 ```csharp
 public sealed class PortionCollection : DomObject<Paragraph>, IPortionCollection
@@ -18,23 +18,23 @@ public sealed class PortionCollection : DomObject<Paragraph>, IPortionCollection
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Count](../../aspose.slides/portioncollection/count) { get; } | ดึงจำนวนขององค์ประกอบที่จริง ๆ แล้วอยู่ในคอลเลกชัน. อ่านอย่างเดียว Int32. |
-| [IsReadOnly](../../aspose.slides/portioncollection/isreadonly) { get; } | ดึงค่าที่บ่งชี้ว่า ICollection เป็นแบบอ่านอย่างเดียว. อ่านอย่างเดียว Boolean. |
-| [Item](../../aspose.slides/portioncollection/item) { get; set; } | ดึงองค์ประกอบที่ตำแหน่งที่ระบุ. |
+| [Count](../../aspose.slides/portioncollection/count) { get; } | รับค่าจำนวนขององค์ประกอบที่อยู่จริงในคอลเลกชัน. อ่านอย่างเดียว Int32. |
+| [IsReadOnly](../../aspose.slides/portioncollection/isreadonly) { get; } | รับค่าที่บ่งชี้ว่าคอลเลกชัน ICollection เป็นแบบอ่านอย่างเดียว. อ่านอย่างเดียว Boolean. |
+| [Item](../../aspose.slides/portioncollection/item) { get; set; } | รับค่าองค์ประกอบที่ตำแหน่งดัชนีที่กำหนด. |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Add](../../aspose.slides/portioncollection/add)(IPortion) | เพิ่ม Portion ไปยังส่วนสุดท้ายของคอลเลกชัน. |
-| [Clear](../../aspose.slides/portioncollection/clear)() | ลบองค์ประกอบทั้งหมดออกจากคอลเลกชัน. |
-| [Contains](../../aspose.slides/portioncollection/contains)(IPortion) | กำหนดว่า ICollection มีค่าเฉพาะเจาะจงหรือไม่. |
-| [CopyTo](../../aspose.slides/portioncollection/copyto)(IPortion[], int) | คัดลอกองค์ประกอบของ ICollection ไปยัง Array เริ่มจากตำแหน่งดัชนีของ Array ที่กำหนด. |
-| [GetEnumerator](../../aspose.slides/portioncollection/getenumerator)() | ส่งคืน enumerator ที่ทำการวนซ้ำผ่านคอลเลกชัน. |
-| [IndexOf](../../aspose.slides/portioncollection/indexof)(IPortion) | กำหนดดัชนีของรายการที่เฉพาะเจาะจงใน IList. |
-| [Insert](../../aspose.slides/portioncollection/insert)(int, IPortion) | แทรก Portion เข้าไปในคอลเลกชันที่ตำแหน่งที่ระบุ. |
-| [Remove](../../aspose.slides/portioncollection/remove)(IPortion) | ลบการเกิดครั้งแรกของอ็อบเจ็กต์ที่เฉพาะเจาะจงจาก ICollection. |
-| [RemoveAt](../../aspose.slides/portioncollection/removeat)(int) | ลบองค์ประกอบที่ตำแหน่งที่ระบุของคอลเลกชัน. |
+| [Add](../../aspose.slides/portioncollection/add)(IPortion) | เพิ่ม Portion ที่ส่วนท้ายของคอลเลกชัน. |
+| [Clear](../../aspose.slides/portioncollection/clear)() | ลบทุกองค์ประกอบจากคอลเลกชัน. |
+| [Contains](../../aspose.slides/portioncollection/contains)(IPortion) | กำหนดว่าคอลเลกชัน ICollection มีค่าที่ระบุหรือไม่. |
+| [CopyTo](../../aspose.slides/portioncollection/copyto)(IPortion[], int) | คัดลอกองค์ประกอบของ ICollection ไปยัง Array เริ่มจากดัชนีของ Array ที่กำหนด. |
+| [GetEnumerator](../../aspose.slides/portioncollection/getenumerator)() | คืนค่า enumerator ที่วนซ้ำผ่านคอลเลกชัน. |
+| [IndexOf](../../aspose.slides/portioncollection/indexof)(IPortion) | กำหนดดัชนีของรายการที่ระบุใน IList. |
+| [Insert](../../aspose.slides/portioncollection/insert)(int, IPortion) | แทรก Portion เข้าไปในคอลเลกชันที่ตำแหน่งดัชนีที่กำหนด. |
+| [Remove](../../aspose.slides/portioncollection/remove)(IPortion) | ลบการเกิดขึ้นครั้งแรกของออบเจ็กต์ที่ระบุจาก ICollection. |
+| [RemoveAt](../../aspose.slides/portioncollection/removeat)(int) | ลบองค์ประกอบที่ตำแหน่งดัชนีที่กำหนดของคอลเลกชัน. |
 
 ### ดูเพิ่มเติม
 

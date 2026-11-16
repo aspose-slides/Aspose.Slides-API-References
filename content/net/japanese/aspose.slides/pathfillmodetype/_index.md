@@ -1,14 +1,14 @@
 ---
 title: PathFillModeType
-second_title: Aspose.Sildes の .NET API リファレンス
-description: パスをどのように塗りつぶすかを指定します
+second_title: Aspose.Sildes の .NET 用 API リファレンス
+description: パスの塗り込み方法を指定します
 type: docs
-weight: 9330
+weight: 9350
 url: /ja/aspose.slides/pathfillmodetype/
 ---
-## PathFillModeType 列挙型
+## PathFillModeType 列挙体
 
-パスの塗り方を指定します
+パスの塗り込み方法を指定します
 
 ```csharp
 public enum PathFillModeType : byte
@@ -16,16 +16,16 @@ public enum PathFillModeType : byte
 
 ### 値
 
-| Name | Value | Description |
+| 名前 | 値 | 説明 |
 | --- | --- | --- |
-| None | `0` | パスの塗りなし これにより、対応するパスに塗りが設定されません。 |
-| Normal | `1` | 標準のパス塗り これにより、対応するパスの塗りに通常の陰影色が適用されます。 |
-| Lighten | `2` | 明るいパス塗り これにより、対応するパスの塗りに薄く陰影された色が適用されます。 |
-| LightenLess | `3` | やや明るいパス塗り これにより、対応するパスの塗りにやや薄い陰影色が適用されます。 |
-| Darken | `4` | 暗いパス塗り これにより、対応するパスの塗りに濃い陰影色が適用されます。 |
-| DarkenLess | `5` | やや暗いパス塗り これにより、対応するパスの塗りにやや濃い陰影色が適用されます。 |
+| None | `0` | No Path Fill これは、対応する path が塗りなしであることを指定します。 |
+| Normal | `1` | Normal Path Fill これは、対応する path の塗りに通常の陰影が適用されることを指定します。 |
+| Lighten | `2` | Lighten Path Fill これは、対応する path の塗りに薄く陰影が付いた色が適用されることを指定します。 |
+| LightenLess | `3` | Lighten Path Fill Less これは、対応する path の塗りにやや明るい陰影が付いた色が適用されることを指定します。 |
+| Darken | `4` | Darken Path Fill これは、対応する path の塗りに暗い陰影が付いた色が適用されることを指定します。 |
+| DarkenLess | `5` | Darken Path Fill Less これは、対応する path の塗りにやや暗い陰影が付いた色が適用されることを指定します。 |
 
-### 参照
+### 関連項目
 
 * 名前空間 [Aspose.Slides](../../aspose.slides)
 * アセンブリ [Aspose.Slides](../../)

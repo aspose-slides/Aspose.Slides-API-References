@@ -1,14 +1,14 @@
 ---
 title: IGroupShape
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta un gruppo di forme in una diapositiva.
+description: Rappresenta un gruppo di forme su una diapositiva.
 type: docs
-weight: 6080
+weight: 6100
 url: /it/aspose.slides/igroupshape/
 ---
 ## IGroupShape interfaccia
 
-Rappresenta un gruppo di forme in una diapositiva.
+Rappresenta un gruppo di forme su una diapositiva.
 
 ```csharp
 public interface IGroupShape : IShape
@@ -18,10 +18,10 @@ public interface IGroupShape : IShape
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsIShape](../../aspose.slides/igroupshape/asishape) { get; } | Consente di ottenere l'interfaccia IShape di base. Solo lettura [`IShape`](../ishape). |
+| [AsIShape](../../aspose.slides/igroupshape/asishape) { get; } | Consente di ottenere l'interfaccia base IShape. Solo lettura [`IShape`](../ishape). |
 | [GroupShapeLock](../../aspose.slides/igroupshape/groupshapelock) { get; } | Restituisce i blocchi della forma. Solo lettura [`IGroupShapeLock`](../igroupshapelock). |
 | [ShapeLock](../../aspose.slides/igroupshape/shapelock) { get; } | Restituisce i blocchi della forma. Solo lettura [`IGroupShapeLock`](../igroupshapelock). |
-| [Shapes](../../aspose.slides/igroupshape/shapes) { get; } | Restituisce la collezione di forme all'interno del gruppo. Solo lettura [`IShapeCollection`](../ishapecollection). |
+| [Shapes](../../aspose.slides/igroupshape/shapes) { get; } | Restituisce la raccolta di forme all'interno del gruppo. Solo lettura [`IShapeCollection`](../ishapecollection). |
 
 ### Vedi anche
 

@@ -1,9 +1,9 @@
 ---
 title: IZoomObject
-second_title: Aspose.Sildes a .NET-hez API referencia
-description: Zoom objektumot képvisel egy dián.
+second_title: Aspose.Sildes .NET API referencia
+description: Egy dián lévő Zoom objektumot ábrázol.
 type: docs
-weight: 7410
+weight: 7430
 url: /hu/aspose.slides/izoomobject/
 ---
 ## IZoomObject interfész
@@ -18,12 +18,12 @@ public interface IZoomObject : IGraphicalObject
 
 | Név | Leírás |
 | --- | --- |
-| [AsIGraphicalObject](../../aspose.slides/izoomobject/asigraphicalobject) { get; } | Lehetővé teszi az alap IGraphicalObject interfész lekérdezését. Csak olvasható [`IGraphicalObject`](../igraphicalobject). |
-| [ImageType](../../aspose.slides/izoomobject/imagetype) { get; set; } | Lekéri vagy beállítja egy zoom objektum képtípusát. Olvasás/írás [`ZoomImageType`](../zoomimagetype). Alapértelmezett érték: Preview |
-| [ReturnToParent](../../aspose.slides/izoomobject/returntoparent) { get; set; } | Lekéri vagy beállítja a navigációs viselkedést a diavetítésben. Olvasás/írás Boolean. Alapértelmezett érték: false |
-| [ShowBackground](../../aspose.slides/izoomobject/showbackground) { get; set; } | Lekéri vagy beállítja azt az értéket, amely meghatározza, hogy a Zoom a céldia hátterét használja-e. Olvasás/írás Boolean. Alapértelmezett érték: true |
-| [TransitionDuration](../../aspose.slides/izoomobject/transitionduration) { get; set; } | Lekéri vagy beállítja a Zoom és a dia közötti átmenet időtartamát. Olvasás/írás Single. Alapértelmezett érték: 1.0f |
-| [ZoomImage](../../aspose.slides/izoomobject/zoomimage) { get; set; } | Lekéri vagy beállítja a zoom objektum képét. Olvasás/írás [`IPPImage`](../ippimage). |
+| [AsIGraphicalObject](../../aspose.slides/izoomobject/asigraphicalobject) { get; } | Lehetővé teszi az alap IGraphicalObject interfész lekérését. Csak olvasható [`IGraphicalObject`](../igraphicalobject). |
+| [ImageType](../../aspose.slides/izoomobject/imagetype) { get; set; } | Lekéri vagy beállítja egy zoom objektum kép típusát. Olvasható/írható [`ZoomImageType`](../zoomimagetype). Alapértelmezett érték: Preview |
+| [ReturnToParent](../../aspose.slides/izoomobject/returntoparent) { get; set; } | Lekéri vagy beállítja a navigációs viselkedést a diavetítésben. Olvasható/írható Boolean. Alapértelmezett érték: false |
+| [ShowBackground](../../aspose.slides/izoomobject/showbackground) { get; set; } | Lekéri vagy beállítja azt az értéket, amely meghatározza, hogy a Zoom a cél dia háttérét használja-e. Olvasható/írható Boolean. Alapértelmezett érték: true |
+| [TransitionDuration](../../aspose.slides/izoomobject/transitionduration) { get; set; } | Lekéri vagy beállítja a Zoom és a dia közötti átmenet időtartamát. Olvasható/írható Single. Alapértelmezett érték: 1.0f |
+| [ZoomImage](../../aspose.slides/izoomobject/zoomimage) { get; set; } | Lekéri vagy beállítja a zoom objektum képét. Olvasható/írható [`IPPImage`](../ippimage). |
 
 ### Lásd még
 

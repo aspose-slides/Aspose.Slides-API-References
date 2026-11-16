@@ -1,14 +1,14 @@
 ---
 title: InkBrush
-second_title: เอกสารอ้างอิง API ของ Aspose.Sildes สำหรับ .NET
-description: แสดงถึงอ็อบเจ็กต์ inkBrush
+second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
+description: แสดงถึงอ็อบเจ็กต์ inkBrush.
 type: docs
-weight: 7570
+weight: 7590
 url: /th/aspose.slides.ink/inkbrush/
 ---
 ## InkBrush คลาส
 
-แสดงถึงอ็อบเจ็กต์ inkBrush
+แสดงถึงอ็อบเจ็กต์ inkBrush.
 
 ```csharp
 public class InkBrush : IInkBrush
@@ -16,11 +16,11 @@ public class InkBrush : IInkBrush
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
 | [Color](../../aspose.slides.ink/inkbrush/color) { get; set; } | รับหรือกำหนดสีแปรงสำหรับเส้น |
-| [InkEffect](../../aspose.slides.ink/inkbrush/inkeffect) { get; } | รับประเภทเอฟเฟกต์หมึก (เช่น Galaxy, Gold, Silver) ที่กำหนดสไตล์การแสดงผลของลายเส้นหมึก ค่าจะถูกนำมาจากคุณสมบัติแปรง "inkEffects" หากไม่มีเอฟเฟกต์ที่รู้จักระบุไว้ จะคืนค่า NotDefined |
-| [Size](../../aspose.slides.ink/inkbrush/size) { get; set; } | รับหรือกำหนดขนาดแปรงสำหรับเส้นหน่วยจุด |
+| [InkEffect](../../aspose.slides.ink/inkbrush/inkeffect) { get; } | รับประเภทเอฟเฟกต์หมึก (เช่น Galaxy, Gold, Silver) ที่กำหนดรูปแบบภาพของรอยหมึก. ค่าได้รับการแยกวิเคราะห์จากแปรงคุณสมบัติ "inkEffects". หากไม่ได้ระบุเอฟเฟกต์ที่รู้จัก จะคืนค่า NotDefined |
+| [Size](../../aspose.slides.ink/inkbrush/size) { get; set; } | รับหรือกำหนดขนาดแปรงสำหรับเส้นเป็นจุด |
 
 ### ดูเพิ่มเติม
 

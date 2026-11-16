@@ -1,14 +1,14 @@
 ---
 title: IOuterShadow
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: बाहरी छाया प्रभाव का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: एक बाहरी छाया प्रभाव का प्रतिनिधित्व करता है।
 type: docs
-weight: 3460
+weight: 3480
 url: /hi/aspose.slides.effects/ioutershadow/
 ---
 ## IOuterShadow इंटरफ़ेस
 
-बाहरी छाया प्रभाव का प्रतिनिधित्व करता है।
+एक बाहरी छाया प्रभाव का प्रतिनिधित्व करता है।
 
 ```csharp
 public interface IOuterShadow : IAccessiblePVIObject<IOuterShadowEffectiveData>, 
@@ -19,20 +19,20 @@ public interface IOuterShadow : IAccessiblePVIObject<IOuterShadowEffectiveData>,
 
 | Name | Description |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ioutershadow/asiaccessiblepviobject) { get; } | बेस IAccessiblePVIObject इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)। |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ioutershadow/asiimagetransformoperation) { get; } | बेस IImageTransformOperation इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IImageTransformOperation`](../iimagetransformoperation)। |
-| [BlurRadius](../../aspose.slides.effects/ioutershadow/blurradius) { get; set; } | ब्लर त्रिज्या, पॉइंट्स में। डिफ़ॉल्ट मान – 0 pt। पढ़ने/लिखने योग्य Double। |
-| [Direction](../../aspose.slides.effects/ioutershadow/direction) { get; set; } | छाया की दिशा, डिग्री में। डिफ़ॉल्ट मान – 0 ° (बाएँ से दाएँ)。 पढ़ने/लिखने योग्य Single। |
-| [Distance](../../aspose.slides.effects/ioutershadow/distance) { get; set; } | छाया की वस्तु से दूरी, पॉइंट्स में। डिफ़ॉल्ट मान – 0 pt। पढ़ने/लिखने योग्य Double। |
-| [RectangleAlign](../../aspose.slides.effects/ioutershadow/rectanglealign) { get; set; } | आयत संरेखण। डिफ़ॉल्ट मान – Bottom। पढ़ने/लिखने योग्य [`RectangleAlignment`](../../aspose.slides/rectanglealignment)। |
-| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadow/rotateshadowwithshape) { get; set; } | यह दर्शाता है कि क्या छाया आकार के साथ घूमती है। डिफ़ॉल्ट मान – true। पढ़ने/लिखने योग्य Boolean। |
-| [ScaleHorizontal](../../aspose.slides.effects/ioutershadow/scalehorizontal) { get; set; } | क्षैतिज स्केलिंग गुणांक, मूल आकार के प्रतिशत में। नकारात्मक स्केलिंग से फ़्लिप हो जाता है। डिफ़ॉल्ट मान – 100 %। पढ़ने/लिखने योग्य Double। |
-| [ScaleVertical](../../aspose.slides.effects/ioutershadow/scalevertical) { get; set; } | लंबवत स्केलिंग गुणांक, मूल आकार के प्रतिशत में। नकारात्मक स्केलिंग से फ़्लिप हो जाता है। डिफ़ॉल्ट मान – 100 %। पढ़ने/लिखने योग्य Double। |
-| [ShadowColor](../../aspose.slides.effects/ioutershadow/shadowcolor) { get; } | छाया का रंग। डिफ़ॉल्ट मान – स्वचालित काला (थीम-निर्भर)। केवल-पढ़ने योग्य [`IColorFormat`](../../aspose.slides/icolorformat)। |
-| [SkewHorizontal](../../aspose.slides.effects/ioutershadow/skewhorizontal) { get; set; } | क्षैतिज विकृति कोण, डिग्री में। डिफ़ॉल्ट मान – 0 °। पढ़ने/लिखने योग्य Double। |
-| [SkewVertical](../../aspose.slides.effects/ioutershadow/skewvertical) { get; set; } | लंबवत विकृति कोण, डिग्री में। डिफ़ॉल्ट मान – 0 °। पढ़ने/लिखने योग्य Double। |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ioutershadow/asiaccessiblepviobject) { get; } | बेस IAccessiblePVIObject इंटरफ़ेस को प्राप्तする की अनुमति देता है। केवल-पढ़ने योग्य [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)। |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ioutershadow/asiimagetransformoperation) { get; } | बेस IImageTransformOperation इंटरफ़ेस को प्राप्तする की अनुमति देता है। केवल-पढ़ने योग्य [`IImageTransformOperation`](../iimagetransformoperation)। |
+| [BlurRadius](../../aspose.slides.effects/ioutershadow/blurradius) { get; set; } | ब्लर त्रिज्या, पॉइंट्स में। डिफ़ॉल्ट मान – 0 pt. पढ़ें/लिखें Double. |
+| [Direction](../../aspose.slides.effects/ioutershadow/direction) { get; set; } | छाया की दिशा, डिग्री में। डिफ़ॉल्ट मान – 0 ° (बाएँ से दाएँ)। पढ़ें/लिखें Single. |
+| [Distance](../../aspose.slides.effects/ioutershadow/distance) { get; set; } | ऑब्जेक्ट से छाया की दूरी, पॉइंट्स में। डिफ़ॉल्ट मान – 0 pt. पढ़ें/लिखें Double. |
+| [RectangleAlign](../../aspose.slides.effects/ioutershadow/rectanglealign) { get; set; } | आयत संरेखण। डिफ़ॉल्ट मान – Bottom। पढ़ें/लिखें [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadow/rotateshadowwithshape) { get; set; } | संकेत करता है कि छाया आकार के साथ घुमती है या नहीं। डिफ़ॉल्ट मान – true। पढ़ें/लिखें Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/ioutershadow/scalehorizontal) { get; set; } | क्षैतिज स्केलिंग फ़ैक्टर, मूल आकार के प्रतिशत में। नकारात्मक स्केलिंग से फ़्लिप होता है। डिफ़ॉल्ट मान – 100 %. पढ़ें/लिखें Double. |
+| [ScaleVertical](../../aspose.slides.effects/ioutershadow/scalevertical) { get; set; } | ऊर्ध्वाधर स्केलिंग फ़ैक्टर, मूल आकार के प्रतिशत में। नकारात्मक स्केलिंग से फ़्लिप होता है। डिफ़ॉल्ट मान – 100 %. पढ़ें/लिखें Double. |
+| [ShadowColor](../../aspose.slides.effects/ioutershadow/shadowcolor) { get; } | छाया का रंग। डिफ़ॉल्ट मान – ऑटोमैटिक ब्लैक (थीम-निर्भर)। केवल-पढ़ने योग्य [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [SkewHorizontal](../../aspose.slides.effects/ioutershadow/skewhorizontal) { get; set; } | क्षैतिज स्क्यू कोण, डिग्री में। डिफ़ॉल्ट मान – 0 °। पढ़ें/लिखें Double. |
+| [SkewVertical](../../aspose.slides.effects/ioutershadow/skewvertical) { get; set; } | ऊर्ध्वाधर स्क्यू कोण, डिग्री में। डिफ़ॉल्ट मान – 0 °। पढ़ें/लिखें Double. |
 
-### देखें
+### संबंधित देखें
 
 * इंटरफ़ेस [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * इंटरफ़ेस [IOuterShadowEffectiveData](../ioutershadoweffectivedata)

@@ -1,18 +1,22 @@
 ---
 title: GapDepth
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Restituisce o imposta la distanza come percentuale della larghezza del marcatore tra le serie di dati in un grafico 3D. Lettura/scrittura UInt16.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Ottiene o imposta la distanza tra le serie di dati in un grafico 3D come percentuale della larghezza del marcatore. Il valore deve essere compreso tra 0 e 500. Lettura/scrittura UInt16.
 type: docs
 weight: 60
 url: /it/aspose.slides.charts/chartseriesgroup/gapdepth/
 ---
 ## ChartSeriesGroup.GapDepth proprietà
 
-Restituisce o imposta la distanza, come percentuale della larghezza del marcatore, tra le serie di dati in un grafico 3D. Lettura/scrittura UInt16.
+Ottiene o imposta la distanza tra le serie di dati in un grafico 3D, come percentuale della larghezza del marcatore. Il valore deve essere compreso tra 0 e 500. Lettura/scrittura UInt16.
 
 ```csharp
 public ushort GapDepth { get; set; }
 ```
+
+### Osservazioni
+
+Questa proprietà si applica alle serie dei seguenti tipi: sottotipi di barre e colonne 3D (vedi anche il metodo [`IsBar3DChart`](../../charttypecharacterizer/isbar3dchart)), Line3D, Area3D, StackedArea3D, PercentsStackedArea3D.
 
 ### Vedi anche
 

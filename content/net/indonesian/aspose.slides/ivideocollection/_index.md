@@ -1,14 +1,14 @@
 ---
 title: IVideoCollection
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili kumpulan objek Video.
+description: Mewakili koleksi objek Video.
 type: docs
-weight: 7370
+weight: 7390
 url: /id/aspose.slides/ivideocollection/
 ---
 ## IVideoCollection antarmuka
 
-Mewakili kumpulan objek Video.
+Mewakili koleksi objek Video.
 
 ```csharp
 public interface IVideoCollection : IGenericCollection<IVideo>
@@ -26,7 +26,7 @@ public interface IVideoCollection : IGenericCollection<IVideo>
 | --- | --- |
 | [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo_1)(byte[]) | Membuat dan menambahkan video ke presentasi dari array byte. |
 | [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo)(IVideo) | Menambahkan salinan file video dari presentasi lain. |
-| [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo_2)(Stream, LoadingStreamBehavior) | Membuat dan menambahkan video ke presentasi dari stream. |
+| [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo_2)(Stream, LoadingStreamBehavior) | Membuat dan menambahkan video ke presentasi dari aliran. |
 
 ### Lihat Juga
 

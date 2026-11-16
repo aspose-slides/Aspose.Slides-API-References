@@ -1,32 +1,32 @@
 ---
 title: Tab
 second_title: Aspose.Sildes for .NET API リファレンス
-description: テキストのタブ位置を表します。
+description: テキストのタブ配置を表します。
 type: docs
-weight: 10820
+weight: 10840
 url: /ja/aspose.slides/tab/
 ---
 ## Tab クラス
 
-テキストのタブ位置を表します。
+テキストのタブ配置を表します。
 
 ```csharp
 public sealed class Tab : PVIObject, ITab
 ```
 
-## コンストラクタ
+## コンストラクター
 
 | 名前 | 説明 |
 | --- | --- |
-| [Tab](tab)(double, TabAlignment) | 新しい Tab を作成します。 |
+| [Tab](tab)(double, TabAlignment) | 新しい Tab を作成します |
 
 ## プロパティ
 
 | 名前 | 説明 |
 | --- | --- |
-| [Alignment](../../aspose.slides/tab/alignment) { get; set; } | タブの配置スタイルを取得または設定します。読み書き [`TabAlignment`](../tabalignment)。 |
+| [Alignment](../../aspose.slides/tab/alignment) { get; set; } | タブの配置スタイルを取得または設定します。読み取り/書き込み [`TabAlignment`](../tabalignment)。 |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | ベースの IPresentationComponent インターフェイスを取得できます。読み取り専用 [`IPresentationComponent`](../ipresentationcomponent)。 |
-| [Position](../../aspose.slides/tab/position) { get; set; } | タブの位置を取得または設定します。このプロパティを設定すると、コレクション内のタブのインデックスが変更され、Enumerator が無効になる可能性があります。読み書き Double。 |
+| [Position](../../aspose.slides/tab/position) { get; set; } | タブの位置を取得または設定します。このプロパティを割り当てると、コレクション内のタブのインデックスが変更され、Enumerator が無効になる可能性があります。読み取り/書き込み Double。 |
 
 ## メソッド
 

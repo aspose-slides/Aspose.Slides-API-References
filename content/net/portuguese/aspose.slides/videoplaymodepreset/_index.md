@@ -1,12 +1,12 @@
 ---
 title: VideoPlayModePreset
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Referência da API Aspose.Sildes for .NET
 description: Constantes que definem como um vídeo é reproduzido.
 type: docs
-weight: 11730
+weight: 11750
 url: /pt/aspose.slides/videoplaymodepreset/
 ---
-## Enumeração VideoPlayModePreset
+## VideoPlayModePreset enumeration
 
 Constantes que definem como um vídeo é reproduzido.
 
@@ -20,7 +20,7 @@ public enum VideoPlayModePreset
 | --- | --- | --- |
 | Mixed | `-1` |  |
 | Auto | `0` | Reproduz automaticamente. |
-| OnClick | `1` | Reproduz apenas quando o quadro de vídeo é clicado. |
+| OnClick | `1` | Reproduz apenas quando o quadro do vídeo é clicado. |
 | AllSlides | `2` | Reproduz em todos os slides. |
 | InClickSequence | `3` | Reproduz automaticamente com um clique. |
 

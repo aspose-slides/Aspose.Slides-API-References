@@ -1,14 +1,14 @@
 ---
 title: IZoomFrame
-second_title: Aspose.Sildes مرجع API لـ .NET
+second_title: مرجع API لـ Aspose.Sildes لـ .NET
 description: يمثل كائن Slide Zoom في شريحة.
 type: docs
-weight: 7400
+weight: 7420
 url: /ar/aspose.slides/izoomframe/
 ---
 ## IZoomFrame واجهة
 
-يمثل كائن Slide Zoom في شريحة.
+Represents a Slide Zoom object in a slide.
 
 ```csharp
 public interface IZoomFrame : IZoomObject
@@ -18,8 +18,8 @@ public interface IZoomFrame : IZoomObject
 
 | الاسم | الوصف |
 | --- | --- |
-| [AsIZoomObject](../../aspose.slides/izoomframe/asizoomobject) { get; } | يرجع واجهة IZoomObject. |
-| [TargetSlide](../../aspose.slides/izoomframe/targetslide) { get; set; } | يحصل أو يضبط كائن الشريحة الذي يرتبط به كائن Slide Zoom. قراءة/كتابة [`ISlide`](../islide). |
+| [AsIZoomObject](../../aspose.slides/izoomframe/asizoomobject) { get; } | إرجاع واجهة IZoomObject. |
+| [TargetSlide](../../aspose.slides/izoomframe/targetslide) { get; set; } | الحصول أو تعيين كائن الشريحة الذي يرتبط به كائن Slide Zoom. قراءة/كتابة [`ISlide`](../islide). |
 
 ### انظر أيضًا
 

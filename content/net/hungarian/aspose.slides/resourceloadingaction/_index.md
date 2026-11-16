@@ -1,9 +1,9 @@
 ---
 title: ResourceLoadingAction
-second_title: Aspose.Sildes .NET API-referencia
-description: Meghatározza a külső erőforrás betöltésének módját.
+second_title: Aspose.Sildes a .NET API referencia
+description: Megadja a külső erőforrás betöltésének módját.
 type: docs
-weight: 9700
+weight: 9720
 url: /hu/aspose.slides/resourceloadingaction/
 ---
 ## ResourceLoadingAction enumeráció
@@ -19,8 +19,8 @@ public enum ResourceLoadingAction
 | Név | Érték | Leírás |
 | --- | --- | --- |
 | Default | `0` | Az Aspose.Slides a szokásos módon tölti be a külső erőforrást. |
-| Skip | `1` | Az Aspose.Slides kihagyja a külső erőforrás betöltését. Csak adat nélküli hivatkozás kerül tárolásra egy képnél. |
-| UserProvided | `2` | Az Aspose.Slides a felhasználó által a [`SetData`](../iresourceloadingargs/setdata) elemben megadott bájt tömböt használja képadatként. |
+| Skip | `1` | Az Aspose.Slides kihagyja a külső erőforrás betöltését. Csak az adat nélküli hivatkozás kerül tárolásra egy képhez. |
+| UserProvided | `2` | Az Aspose.Slides a felhasználó által a [`SetData`](../iresourceloadingargs/setdata)-ben megadott bájt tömböt használja képadatként. |
 
 ### Lásd még
 

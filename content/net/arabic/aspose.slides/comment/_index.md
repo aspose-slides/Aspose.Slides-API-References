@@ -1,12 +1,12 @@
 ---
 title: Comment
-second_title: Aspose.Sildes للـ .NET مرجع API
-description: يمثل تعليقا على شريحة.
+second_title: Aspose.Sildes لـ .NET مرجع API
+description: يمثل تعليقًا على شريحة.
 type: docs
-weight: 2620
+weight: 2640
 url: /ar/aspose.slides/comment/
 ---
-## فئة Comment
+## فئة التعليق
 
 يمثل تعليقًا على شريحة.
 
@@ -18,33 +18,33 @@ public class Comment : IComment
 
 | الاسم | الوصف |
 | --- | --- |
-| [Author](../../aspose.slides/comment/author) { get; } | يرجع مؤلف التعليق. للقراءة فقط [`ICommentAuthor`](../icommentauthor). |
-| [CreatedTime](../../aspose.slides/comment/createdtime) { get; set; } | يرجع أو يضبط وقت إنشاء التعليق. ضبط هذه الخاصية إلى MinValue يعني عدم تعيين وقت التعليق. قراءة/كتابة DateTime. |
-| [ParentComment](../../aspose.slides/comment/parentcomment) { get; set; } | يحصل أو يضبط التعليق الأصل. قراءة/كتابة [`IComment`](../icomment). |
-| [Position](../../aspose.slides/comment/position) { get; set; } | يرجع أو يضبط موضع التعليق على شريحة. قراءة/كتابة PointF. |
-| [Slide](../../aspose.slides/comment/slide) { get; } | يرجع أو يضبط الشريحة الأصل للتعليق. للقراءة فقط [`ISlide`](../islide). |
-| [Text](../../aspose.slides/comment/text) { get; set; } | يرجع أو يضبط النص العادي لتعليق الشريحة. قراءة/كتابة String. |
+| [Author](../../aspose.slides/comment/author) { get; } | يرجع مؤلف التعليق. قراءة فقط [`ICommentAuthor`](../icommentauthor). |
+| [CreatedTime](../../aspose.slides/comment/createdtime) { get; set; } | يرجع أو يحدد وقت إنشاء التعليق. ضبط هذه الخاصية إلى MinValue يعني عدم تحديد وقت التعليق. قراءة/كتابة DateTime. |
+| [ParentComment](../../aspose.slides/comment/parentcomment) { get; set; } | يحصل أو يحدد التعليق الأصلي. قراءة/كتابة [`IComment`](../icomment). |
+| [Position](../../aspose.slides/comment/position) { get; set; } | يرجع أو يحدد موضع التعليق على الشريحة. قراءة/كتابة PointF. |
+| [Slide](../../aspose.slides/comment/slide) { get; } | يرجع أو يحدد الشريحة الأصلية للتعليق. قراءة فقط [`ISlide`](../islide). |
+| [Text](../../aspose.slides/comment/text) { get; set; } | يرجع أو يحدد النص العادي لتعليق الشريحة. قراءة/كتابة String. |
 
-## الطرق
+## الأساليب
 
 | الاسم | الوصف |
 | --- | --- |
-| [Remove](../../aspose.slides/comment/remove)() | يزيل التعليق وجميع الردود الخاصة به من المجموعة الأصلية. |
+| [Remove](../../aspose.slides/comment/remove)() | يزيل التعليق وجميع ردوده من مجموعة الأصل. |
 
 ### أمثلة
 
-يوضح هذا المثال كيفية إضافة تعليق إلى شريحة في عرض تقديمي PowerPoint.
+يوضح هذا المثال كيفية إضافة تعليق إلى شريحة في عرض تقديمي لـ PowerPoint.
 
 ```csharp
 [C#]
-// يقوم بإنشاء فئة Presentation
+// ينشئ كائن من الفئة Presentation
 using (Presentation presentation = new Presentation())
 {
     // يضيف شريحة فارغة
     presentation.Slides.AddEmptySlide(presentation.LayoutSlides[0]);
     // يضيف مؤلفًا
     ICommentAuthor author = presentation.CommentAuthors.AddAuthor("Jawad", "MF");
-    // يحدد موقع التعليقات
+    // يحدد الموضع للتعليقات
     PointF point = new PointF();
     point.X = 0.2f;
     point.Y = 0.2f;
@@ -57,18 +57,18 @@ using (Presentation presentation = new Presentation())
 }
 ```
 
-يوضح هذا المثال كيفية الوصول إلى تعليق موجود على شريحة في عرض تقديمي PowerPoint.
+يوضح هذا المثال كيفية الوصول إلى تعليق موجود على شريحة في عرض تقديمي لـ PowerPoint.
 
 ```csharp
 [C#]
-// يقوم بإنشاء فئة Presentation
+// ينشئ كائن من الفئة Presentation
 using (Presentation presentation = new Presentation("Comments1.pptx"))
 {
-	// التكرار على CommentAuthors
+	// التنقل عبر مؤلفي التعليقات
     foreach (var commentAuthor in presentation.CommentAuthors)
     {
         var author = (CommentAuthor) commentAuthor;
-		// التكرار على Comments
+		// التنقل عبر التعليقات
         foreach (var comment1 in author.Comments)
         {
             var comment = (Comment) comment1;
@@ -78,11 +78,11 @@ using (Presentation presentation = new Presentation("Comments1.pptx"))
 }
 ```
 
-يوضح هذا المثال كيفية إضافة تعليقات والحصول على الردود عليها.
+يوضح هذا المثال كيفية إضافة تعليقات والحصول على ردود عليها.
 
 ```csharp
 [C#]
-// يقوم بإنشاء فئة Presentation
+// ينشئ كائن من الفئة Presentation
 using (Presentation pres = new Presentation())
 {
     // يضيف تعليقًا
@@ -102,7 +102,7 @@ using (Presentation pres = new Presentation())
     IComment comment3 = author2.Comments.AddComment("comment 3", pres.Slides[0], new PointF(10, 10), DateTime.Now);
     IComment reply3 = author1.Comments.AddComment("reply 4 for comment 3", pres.Slides[0], new PointF(10, 10), DateTime.Now);
     reply3.ParentComment = comment3;
-    // يعرض هيكلية التعليقات على وحدة التحكم
+    // يعرض هيكل التعليقات على وحدة التحكم
     ISlide slide = pres.Slides[0];
     var comments = slide.GetSlideComments(null);
     for (int i = 0; i < comments.Length; i++)
@@ -126,7 +126,7 @@ using (Presentation pres = new Presentation())
 ### انظر أيضًا
 
 * واجهة [IComment](../icomment)
-* نطاق الاسم [Aspose.Slides](../../aspose.slides)
+* مساحة الاسم [Aspose.Slides](../../aspose.slides)
 * تجميع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -3,7 +3,7 @@ title: IPathSegment
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Stelt een segment van het grafische pad van GeometryShape voor
 type: docs
-weight: 6610
+weight: 6630
 url: /nl/aspose.slides/ipathsegment/
 ---
 ## IPathSegment interface

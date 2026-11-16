@@ -1,9 +1,9 @@
 ---
 title: IFillFormatCollection
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 채우기 스타일 컬렉션을 나타냅니다.
 type: docs
-weight: 11230
+weight: 11250
 url: /ko/aspose.slides.theme/ifillformatcollection/
 ---
 ## IFillFormatCollection 인터페이스
@@ -18,7 +18,7 @@ public interface IFillFormatCollection : IGenericCollection<IFillFormat>
 
 | 이름 | 설명 |
 | --- | --- |
-| [Item](../../aspose.slides.theme/ifillformatcollection/item) { get; } | 지정된 인덱스의 요소를 가져옵니다. 읽기 전용 [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [Item](../../aspose.slides.theme/ifillformatcollection/item) { get; } | 지정된 인덱스에 있는 요소를 가져옵니다. 읽기 전용 [`IFillFormat`](../../aspose.slides/ifillformat). |
 
 ### 참조
 

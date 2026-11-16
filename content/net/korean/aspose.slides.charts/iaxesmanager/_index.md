@@ -3,12 +3,12 @@ title: IAxesManager
 second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 차트 축에 대한 액세스를 제공합니다.
 type: docs
-weight: 1700
+weight: 1710
 url: /ko/aspose.slides.charts/iaxesmanager/
 ---
 ## IAxesManager 인터페이스
 
-차트 축에 대한 접근을 제공합니다.
+차트 축에 대한 액세스를 제공합니다.
 
 ```csharp
 public interface IAxesManager
@@ -24,7 +24,7 @@ public interface IAxesManager
 | [SeriesAxis](../../aspose.slides.charts/iaxesmanager/seriesaxis) { get; } | 차트의 시리즈 축을 가져옵니다. 읽기 전용 [`IAxis`](../iaxis). |
 | [VerticalAxis](../../aspose.slides.charts/iaxesmanager/verticalaxis) { get; } | 차트의 세로 축을 가져옵니다. 읽기 전용 [`IAxis`](../iaxis). |
 
-### 참조
+### 참고
 
 * 네임스페이스 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 어셈블리 [Aspose.Slides](../../)

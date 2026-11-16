@@ -1,9 +1,9 @@
 ---
 title: IBulletFormatEffectiveData
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 효과적인 단락 글머리표 서식 속성을 포함하는 불변 객체입니다.
 type: docs
-weight: 5400
+weight: 5420
 url: /ko/aspose.slides/ibulletformateffectivedata/
 ---
 ## IBulletFormatEffectiveData 인터페이스
@@ -18,22 +18,22 @@ public interface IBulletFormatEffectiveData
 
 | 이름 | 설명 |
 | --- | --- |
-| [ActualBulletValue](../../aspose.slides/ibulletformateffectivedata/actualbulletvalue) { get; } | 부모 단락에 대한 실제 글머리값을 반환합니다. 읽기 전용 String. |
-| [Char](../../aspose.slides/ibulletformateffectivedata/char) { get; } | 단락의 글머리 문자(char)를 반환합니다. 읽기 전용 Char. |
+| [ActualBulletValue](../../aspose.slides/ibulletformateffectivedata/actualbulletvalue) { get; } | 상위 단락에 대한 실제 글머리값을 반환합니다. 읽기 전용 String. |
+| [Char](../../aspose.slides/ibulletformateffectivedata/char) { get; } | 단락의 글머리 문자을 반환합니다. 읽기 전용 Char. |
 | [FillFormat](../../aspose.slides/ibulletformateffectivedata/fillformat) { get; } | 단락의 글머리 채우기 형식을 반환합니다. 읽기 전용 [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
-| [Font](../../aspose.slides/ibulletformateffectivedata/font) { get; } | 단락의 글머리 폰트를 반환합니다. 읽기 전용 [`IFontData`](../ifontdata). |
+| [Font](../../aspose.slides/ibulletformateffectivedata/font) { get; } | 단락의 글머리 글꼴을 반환합니다. 읽기 전용 [`IFontData`](../ifontdata). |
 | [Height](../../aspose.slides/ibulletformateffectivedata/height) { get; } | 단락의 글머리 높이를 반환합니다. 읽기 전용 Single. |
-| [IsBulletHardColor](../../aspose.slides/ibulletformateffectivedata/isbullethardcolor) { get; } | 글머리의 색상이 자체 색상인지 단락의 첫 번째 부분에서 상속되는지 여부를 결정합니다. 글머리 자체 색상을 가지고 있으면 **true**, 첫 번째 부분에서 색상을 상속받으면 **false**를 반환합니다. 읽기 전용 Boolean. |
-| [IsBulletHardFont](../../aspose.slides/ibulletformateffectivedata/isbullethardfont) { get; } | 글머리의 폰트가 자체 폰트인지 단락의 첫 번째 부분에서 상속되는지 여부를 결정합니다. 글머리 자체 폰트를 가지고 있으면 **true**, 첫 번째 부분에서 폰트를 상속받으면 **true**를 반환합니다. 읽기 전용 Boolean. |
-| [NumberedBulletStartWith](../../aspose.slides/ibulletformateffectivedata/numberedbulletstartwith) { get; } | 번호 매겨진 글머리 그룹에 사용되는 첫 번째 번호를 반환합니다. 읽기 전용 Int16. |
-| [NumberedBulletStyle](../../aspose.slides/ibulletformateffectivedata/numberedbulletstyle) { get; } | 번호 매겨진 글머리의 스타일을 반환합니다. 읽기 전용 [`NumberedBulletStyle`](../numberedbulletstyle). |
-| [Type](../../aspose.slides/ibulletformateffectivedata/type) { get; } | 단락의 글머리 유형을 반환합니다. 읽기 전용 [`BulletType`](../bullettype). |
+| [IsBulletHardColor](../../aspose.slides/ibulletformateffectivedata/isbullethardcolor) { get; } | 글머리표가 자체 색상을 가지고 있는지, 아니면 단락의 첫 번째 부분에서 색상을 상속받는지 결정합니다. 글머리표가 자체 색상을 가지고 있으면 **true**, 단락의 첫 번째 부분에서 색상을 상속받으면 **false**를 반환합니다. 읽기 전용 Boolean. |
+| [IsBulletHardFont](../../aspose.slides/ibulletformateffectivedata/isbullethardfont) { get; } | 글머리표가 자체 글꼴을 가지고 있는지, 아니면 단락의 첫 번째 부분에서 글꼴을 상속받는지 결정합니다. 글머리표가 자체 글꼴을 가지고 있으면 **true**, 단락의 첫 번째 부분에서 글꼴을 상속받으면 **true**를 반환합니다. 읽기 전용 Boolean. |
+| [NumberedBulletStartWith](../../aspose.slides/ibulletformateffectivedata/numberedbulletstartwith) { get; } | 번호 매긴 글머리표 그룹에 사용되는 첫 번째 번호를 반환합니다. 읽기 전용 Int16. |
+| [NumberedBulletStyle](../../aspose.slides/ibulletformateffectivedata/numberedbulletstyle) { get; } | 번호 매긴 글머리표의 스타일을 반환합니다. 읽기 전용 [`NumberedBulletStyle`](../numberedbulletstyle). |
+| [Type](../../aspose.slides/ibulletformateffectivedata/type) { get; } | 단락의 글머리표 유형을 반환합니다. 읽기 전용 [`BulletType`](../bullettype). |
 
 ### 비고
 
 이 인터페이스는 [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata)의 일부로 사용됩니다.
 
-### 참조
+### 참고
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

@@ -3,12 +3,12 @@ title: ITable
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt eine Tabelle auf einer Folie dar.
 type: docs
-weight: 7230
+weight: 7250
 url: /de/aspose.slides/itable/
 ---
 ## ITable Schnittstelle
 
-Stellt eine Tabelle auf einer Folie dar.
+Represents a table on a slide.
 
 ```csharp
 public interface ITable : IBulkTextFormattable, IGraphicalObject
@@ -16,26 +16,26 @@ public interface ITable : IBulkTextFormattable, IGraphicalObject
 
 ## Eigenschaften
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
-| [AsIBulkTextFormattable](../../aspose.slides/itable/asibulktextformattable) { get; } | Ermöglicht das Abrufen der Basis-IBulkTextFormattable-Schnittstelle. Nur lesbar [`IBulkTextFormattable`](../ibulktextformattable). |
-| [AsIGraphicalObject](../../aspose.slides/itable/asigraphicalobject) { get; } | Ermöglicht das Abrufen der Basis-IGraphicalObject-Schnittstelle. Nur lesbar [`IGraphicalObject`](../igraphicalobject). |
-| [Columns](../../aspose.slides/itable/columns) { get; } | Gibt die Sammlung von Spalten zurück. Nur lesbar [`IColumnCollection`](../icolumncollection). |
-| [FirstCol](../../aspose.slides/itable/firstcol) { get; set; } | Bestimmt, ob die erste Spalte einer Tabelle mit einer speziellen Formatierung dargestellt werden muss. Lese/Schreib Boolean. |
-| [FirstRow](../../aspose.slides/itable/firstrow) { get; set; } | Bestimmt, ob die erste Zeile einer Tabelle mit einer speziellen Formatierung dargestellt werden muss. Lese/Schreib Boolean. |
-| [HorizontalBanding](../../aspose.slides/itable/horizontalbanding) { get; set; } | Bestimmt, ob gerade Zeilen mit einer anderen Formatierung dargestellt werden sollen. Lese/Schreib Boolean. |
-| [Item](../../aspose.slides/itable/item) { get; } | Gibt die Zelle an den angegebenen Spalten- und Zeilenindizes zurück. Nur lesbar [`ICell`](../icell). |
-| [LastCol](../../aspose.slides/itable/lastcol) { get; set; } | Bestimmt, ob die letzte Spalte einer Tabelle mit einer speziellen Formatierung dargestellt werden muss. Lese/Schreib Boolean. |
-| [LastRow](../../aspose.slides/itable/lastrow) { get; set; } | Bestimmt, ob die letzte Zeile einer Tabelle mit einer speziellen Formatierung dargestellt werden muss. Lese/Schreib Boolean. |
-| [RightToLeft](../../aspose.slides/itable/righttoleft) { get; set; } | Bestimmt, ob die Tabelle von rechts nach links gelesen wird. Lese/Schreib Boolean. |
-| [Rows](../../aspose.slides/itable/rows) { get; } | Gibt die Sammlung von Zeilen zurück. Nur lesbar [`IRowCollection`](../irowcollection). |
-| [StylePreset](../../aspose.slides/itable/stylepreset) { get; set; } | Liest oder setzt den eingebauten Tabellenvorlagestil. Lese/Schreib [`TableStylePreset`](../tablestylepreset). |
-| [TableFormat](../../aspose.slides/itable/tableformat) { get; } | Gibt das TableFormat-Objekt zurück, das Formatierungseigenschaften für diese Tabelle enthält. Nur lesbar [`ITableFormat`](../itableformat). |
-| [VerticalBanding](../../aspose.slides/itable/verticalbanding) { get; set; } | Bestimmt, ob gerade Spalten mit einer anderen Formatierung dargestellt werden sollen. Lese/Schreib Boolean. |
+| [AsIBulkTextFormattable](../../aspose.slides/itable/asibulktextformattable) { get; } | Ermöglicht das Abrufen der Basis-IBulkTextFormattable-Schnittstelle. Schreibgeschützt [`IBulkTextFormattable`](../ibulktextformattable). |
+| [AsIGraphicalObject](../../aspose.slides/itable/asigraphicalobject) { get; } | Ermöglicht das Abrufen der Basis-IGraphicalObject-Schnittstelle. Schreibgeschützt [`IGraphicalObject`](../igraphicalobject). |
+| [Columns](../../aspose.slides/itable/columns) { get; } | Gibt die Sammlung von Spalten zurück. Schreibgeschützt [`IColumnCollection`](../icolumncollection). |
+| [FirstCol](../../aspose.slides/itable/firstcol) { get; set; } | Bestimmt, ob die erste Spalte einer Tabelle mit einer speziellen Formatierung gezeichnet werden muss. Lese-/Schreib-Boolean. |
+| [FirstRow](../../aspose.slides/itable/firstrow) { get; set; } | Bestimmt, ob die erste Zeile einer Tabelle mit einer speziellen Formatierung gezeichnet werden muss. Lese-/Schreib-Boolean. |
+| [HorizontalBanding](../../aspose.slides/itable/horizontalbanding) { get; set; } | Bestimmt, ob gerade Zeilen mit einer anderen Formatierung gezeichnet werden müssen. Lese-/Schreib-Boolean. |
+| [Item](../../aspose.slides/itable/item) { get; } | Gibt die Zelle an den angegebenen Spalten- und Zeilenindizes zurück. Schreibgeschützt [`ICell`](../icell). |
+| [LastCol](../../aspose.slides/itable/lastcol) { get; set; } | Bestimmt, ob die letzte Spalte einer Tabelle mit einer speziellen Formatierung gezeichnet werden muss. Lese-/Schreib-Boolean. |
+| [LastRow](../../aspose.slides/itable/lastrow) { get; set; } | Bestimmt, ob die letzte Zeile einer Tabelle mit einer speziellen Formatierung gezeichnet werden muss. Lese-/Schreib-Boolean. |
+| [RightToLeft](../../aspose.slides/itable/righttoleft) { get; set; } | Bestimmt, ob die Tabelle von rechts nach links gelesen wird. Lese-/Schreib-Boolean. |
+| [Rows](../../aspose.slides/itable/rows) { get; } | Gibt die Sammlung von Zeilen zurück. Schreibgeschützt [`IRowCollection`](../irowcollection). |
+| [StylePreset](../../aspose.slides/itable/stylepreset) { get; set; } | Liest oder setzt den integrierten Tabellenstil. Lese-/Schreib [`TableStylePreset`](../tablestylepreset). |
+| [TableFormat](../../aspose.slides/itable/tableformat) { get; } | Gibt das TableFormat-Objekt zurück, das Formatierungseigenschaften für diese Tabelle enthält. Schreibgeschützt [`ITableFormat`](../itableformat). |
+| [VerticalBanding](../../aspose.slides/itable/verticalbanding) { get; set; } | Bestimmt, ob gerade Spalten mit einer anderen Formatierung gezeichnet werden müssen. Lese-/Schreib-Boolean. |
 
 ## Methoden
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
 | [MergeCells](../../aspose.slides/itable/mergecells)(ICell, ICell, bool) | Fügt benachbarte Zellen zusammen. |
 

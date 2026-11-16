@@ -1,9 +1,9 @@
 ---
 title: WarningType
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes 的 .NET API 参考
 description: 表示一种警告类型。
 type: docs
-weight: 11830
+weight: 11850
 url: /zh/aspose.slides.warnings/warningtype/
 ---
 ## WarningType 枚举
@@ -18,14 +18,14 @@ public enum WarningType
 
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
-| SourceFileCorruption | `0` | 在源文档中检测到问题，这使得文档如果以原始格式保存后极有可能无法打开。 |
-| DataLoss | `1` | 文本/图表/图像或其他数据将在加载后文档树中，或保存后生成的文档中完全缺失。 |
-| MajorFormattingLoss | `2` | 重大格式丢失。 |
-| MinorFormattingLoss | `3` | 次要格式丢失。 |
-| CompatibilityIssue | `4` | 这是已知问题，会阻止某些用户代理或旧版本用户代理打开文档。 |
-| UnexpectedContent | `99` | 源文档中的某些内容无法识别（即不受支持），这可能导致问题或导致数据/格式丢失，也可能不会。 |
+| SourceFileCorruption | `0` | 已检测到源文档中的问题，这使得文档在以原始格式保存后很可能无法打开。 |
+| DataLoss | `1` | 文本/图表/图像或其他数据将在加载后的文档树中，或保存后生成的文档中完全缺失。 |
+| MajorFormattingLoss | `2` | 主要格式丢失。 |
+| MinorFormattingLoss | `3` | 轻微的格式丢失。 |
+| CompatibilityIssue | `4` | 这是已知问题，会阻止某些用户代理或旧版本的用户代理打开文档。 |
+| UnexpectedContent | `99` | 源文档中的某些内容无法识别（即不受支持），这可能导致问题，也可能导致数据/格式丢失。 |
 
-### 另请参见
+### 另见
 
 * 命名空间 [Aspose.Slides.Warnings](../../aspose.slides.warnings)
 * 程序集 [Aspose.Slides](../../)

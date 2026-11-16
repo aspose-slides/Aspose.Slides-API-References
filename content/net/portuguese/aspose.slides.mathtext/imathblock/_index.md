@@ -1,14 +1,14 @@
 ---
 title: IMathBlock
-second_title: Aspose.Sildes para .NET Referência da API
-description: Especifica uma instância de texto matemático que está contido dentro de um MathParagraph e começa em sua própria linha. Todas as zonas matemáticas, incluindo equações, expressões, matrizes de equações ou expressões e fórmulas, são representadas por um bloco matemático.
+second_title: Referência da API Aspose.Sildes para .NET
+description: Especifica uma instância de texto matemático que está contido dentro de um MathParagraph e começa em sua própria linha. Todas as áreas matemáticas, incluindo equações, expressões, arrays de equações ou expressões e fórmulas, são representadas por bloco matemático.
 type: docs
-weight: 8140
+weight: 8160
 url: /pt/aspose.slides.mathtext/imathblock/
 ---
 ## IMathBlock interface
 
-Especifica uma instância de texto matemático contido dentro de um MathParagraph e que começa em sua própria linha. Todas as zonas matemáticas, incluindo equações, expressões, matrizes de equações ou expressões e fórmulas são representadas por um bloco matemático.
+Especifica uma instância de texto matemático que está contida dentro de um MathParagraph e começa em sua própria linha. Todas as zonas matemáticas, incluindo equações, expressões, arrays de equações ou expressões e fórmulas são representadas por um bloco matemático.
 
 ```csharp
 public interface IMathBlock : IMathElement, IMathElementCollection
@@ -27,7 +27,7 @@ public interface IMathBlock : IMathElement, IMathElementCollection
 | --- | --- |
 | [Delimit](../../aspose.slides.mathtext/imathblock/delimit)(char) | Delimita todos os elementos filhos com o caractere separador (sem os colchetes) |
 | [Enclose](../../aspose.slides.mathtext/imathblock/enclose)(char, char, char) | Envolve os elementos filhos deste bloco em caracteres especificados, como parênteses ou outros, como moldura e delimita com um caractere separador |
-| [JoinBlock](../../aspose.slides.mathtext/imathblock/joinblock)(IMathBlock) | Junta outro bloco matemático a este |
+| [JoinBlock](../../aspose.slides.mathtext/imathblock/joinblock)(IMathBlock) | Une outro bloco matemático a este |
 | [WriteAsMathMl](../../aspose.slides.mathtext/imathblock/writeasmathml)(Stream) | Salva o conteúdo deste [`IMathBlock`](../imathblock) como MathML |
 
 ### Exemplos
@@ -39,7 +39,7 @@ Exemplo:
 IMathBlock mathBlock = new MathBlock();
 ```
 
-### Ver também
+### Veja Também
 
 * interface [IMathElement](../imathelement)
 * interface [IMathElementCollection](../imathelementcollection)

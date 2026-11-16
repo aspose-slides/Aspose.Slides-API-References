@@ -3,7 +3,7 @@ title: ISmartArt
 second_title: Aspose.Sildes dla .NET – referencja API
 description: Reprezentuje diagram SmartArt.
 type: docs
-weight: 10540
+weight: 10560
 url: /pl/aspose.slides.smartart/ismartart/
 ---
 ## ISmartArt interfejs
@@ -21,7 +21,7 @@ public interface ISmartArt : IGraphicalObject
 | [AllNodes](../../aspose.slides.smartart/ismartart/allnodes) { get; } | Zwraca kolekcje wszystkich węzłów w obiekcie SmartArt. Tylko do odczytu [`ISmartArtNodeCollection`](../ismartartnodecollection). |
 | [AsIGraphicalObject](../../aspose.slides.smartart/ismartart/asigraphicalobject) { get; } | Umożliwia pobranie podstawowego interfejsu IGraphicalObject. Tylko do odczytu [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
 | [ColorStyle](../../aspose.slides.smartart/ismartart/colorstyle) { get; set; } | Zwraca lub ustawia styl kolorów obiektu SmartArt. Odczyt/zapis [`SmartArtColorType`](../smartartcolortype). |
-| [IsReversed](../../aspose.slides.smartart/ismartart/isreversed) { get; set; } | Zwraca lub ustawia stan diagramu SmartArt w odniesieniu do (left-to-right) LTR lub (right-to-left) RTL, jeśli diagram obsługuje odwrócenie. Odczyt/zapis Boolean. |
+| [IsReversed](../../aspose.slides.smartart/ismartart/isreversed) { get; set; } | Zwraca lub ustawia stan diagramu SmartArt w odniesieniu do (od lewego do prawego) LTR lub (od prawego do lewego) RTL, jeśli diagram obsługuje odwrócenie. Odczyt/zapis Boolean. |
 | [Layout](../../aspose.slides.smartart/ismartart/layout) { get; set; } | Zwraca lub ustawia układ obiektu SmartArt. Odczyt/zapis [`SmartArtLayoutType`](../smartartlayouttype). |
 | [Nodes](../../aspose.slides.smartart/ismartart/nodes) { get; } | Zwraca kolekcje węzłów głównych w obiekcie SmartArt. Tylko do odczytu [`ISmartArtNodeCollection`](../ismartartnodecollection). |
 | [QuickStyle](../../aspose.slides.smartart/ismartart/quickstyle) { get; set; } | Zwraca lub ustawia szybki styl obiektu SmartArt. Odczyt/zapis [`SmartArtQuickStyleType`](../smartartquickstyletype). |

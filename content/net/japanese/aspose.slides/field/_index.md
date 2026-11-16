@@ -3,7 +3,7 @@ title: Field
 second_title: Aspose.Sildes for .NET API リファレンス
 description: フィールドを表します。
 type: docs
-weight: 4750
+weight: 4770
 url: /ja/aspose.slides/field/
 ---
 ## Field クラス
@@ -18,9 +18,9 @@ public sealed class Field : DomObject<Portion>, IField
 
 | 名前 | 説明 |
 | --- | --- |
-| [Type](../../aspose.slides/field/type) { get; set; } | フィールドの型を取得または設定します。読み取り/書き込み [`IFieldType`](../ifieldtype). |
+| [Type](../../aspose.slides/field/type) { get; set; } | フィールドの型を取得または設定します。読み書き [`IFieldType`](../ifieldtype). |
 
-### 関連項目
+### 参照
 
 * クラス [DomObject&lt;TParent&gt;](../domobject-1)
 * クラス [Portion](../portion)

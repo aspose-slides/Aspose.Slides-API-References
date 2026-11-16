@@ -1,9 +1,9 @@
 ---
 title: ITextToHtmlConversionOptions
-second_title: Aspose.Sildes .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 从 Pptx 文本中提取 HTML 的选项。
 type: docs
-weight: 4160
+weight: 4180
 url: /zh/aspose.slides.export/itexttohtmlconversionoptions/
 ---
 ## ITextToHtmlConversionOptions 接口
@@ -18,10 +18,10 @@ public interface ITextToHtmlConversionOptions
 
 | 名称 | 描述 |
 | --- | --- |
-| [AddClipboardFragmentHeader](../../aspose.slides.export/itexttohtmlconversionoptions/addclipboardfragmentheader) { get; set; } | 返回或设置值，指示是否应添加 Clipboard 标头。读取/写入 Boolean。 |
-| [EncodingName](../../aspose.slides.export/itexttohtmlconversionoptions/encodingname) { get; set; } | 返回或设置 html 编码名称。此值将保存到生成的 HTML 文件中，但由调用者确保文件以此编码保存。读取/写入 String。 |
-| [LinkEmbedController](../../aspose.slides.export/itexttohtmlconversionoptions/linkembedcontroller) { get; set; } | 返回或设置一个回调对象，用于控制外部对象的存储方式。读取/写入 [`ILinkEmbedController`](../ilinkembedcontroller)。 |
-| [TextInheritanceLimit](../../aspose.slides.export/itexttohtmlconversionoptions/textinheritancelimit) { get; set; } | 返回或设置文本属性的继承深度。读取/写入 [`TextInheritanceLimit`](./textinheritancelimit)。 |
+| [AddClipboardFragmentHeader](../../aspose.slides.export/itexttohtmlconversionoptions/addclipboardfragmentheader) { get; set; } | 返回或设置值，指示是否应添加 Clipboard 标头。可读写 Boolean。 |
+| [EncodingName](../../aspose.slides.export/itexttohtmlconversionoptions/encodingname) { get; set; } | 返回或设置 html 编码名称。此值将保存到生成的 HTML 文件中，但由调用方确保文件以此编码保存。可读写 String。 |
+| [LinkEmbedController](../../aspose.slides.export/itexttohtmlconversionoptions/linkembedcontroller) { get; set; } | 返回或设置一个回调对象，用于控制外部对象的存储方式。可读写 [`ILinkEmbedController`](../ilinkembedcontroller)。 |
+| [TextInheritanceLimit](../../aspose.slides.export/itexttohtmlconversionoptions/textinheritancelimit) { get; set; } | 返回或设置文本属性的继承深度。可读写 [`TextInheritanceLimit`](./textinheritancelimit)。 |
 
 ### 另请参见
 

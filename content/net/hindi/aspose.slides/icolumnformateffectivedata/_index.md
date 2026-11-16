@@ -1,14 +1,14 @@
 ---
 title: IColumnFormatEffectiveData
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: अपरिवर्तनीय वस्तु जिसमें प्रभावी तालिका कॉलम फ़ॉर्मेटिंग गुण शामिल हैं।
+description: अपरिवर्तनीय ऑब्जेक्ट जिसमें प्रभावी तालिका कॉलम स्वरूपण गुण होते हैं।
 type: docs
-weight: 5550
+weight: 5570
 url: /hi/aspose.slides/icolumnformateffectivedata/
 ---
 ## IColumnFormatEffectiveData इंटरफ़ेस
 
-एक अपरिवर्तनीय वस्तु जो प्रभावी तालिका कॉलम फ़ॉर्मेटिंग गुणों को समाहित करती है।
+अपरिवर्तनीय ऑब्जेक्ट जिसमें प्रभावी तालिका कॉलम फ़ॉर्मेटिंग गुण शामिल हैं।
 
 ```csharp
 public interface IColumnFormatEffectiveData : IBaseTableFormatEffectiveData
@@ -18,13 +18,13 @@ public interface IColumnFormatEffectiveData : IBaseTableFormatEffectiveData
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIBaseTableFormatEffectiveData](../../aspose.slides/icolumnformateffectivedata/asibasetableformateffectivedata) { get; } | बेस IBaseTableFormatEffectiveData इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल पढ़ने योग्य [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata)। |
+| [AsIBaseTableFormatEffectiveData](../../aspose.slides/icolumnformateffectivedata/asibasetableformateffectivedata) { get; } | बेस IBaseTableFormatEffectiveData इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata)। |
 
-### टिप्पणी
+### टिप्पणियाँ
 
-यह [`IColumnFormat`](../icolumnformat) इंटरफ़ेस के साथ उपयोग किया जाता है ताकि विरासत और तालिका शैलियों के लागू होने पर प्रभावी फ़ॉर्मेटिंग मान लौटाए जा सकें।
+यह इंटरफ़ेस [`IColumnFormat`](../icolumnformat) इंटरफ़ेस के साथ मिलकर उपयोग किया जाता है ताकि विरासत और तालिका शैलियों के लागू होने के साथ प्रभावी फ़ॉर्मेटिंग मान लौटाए जा सकें।
 
-### संदर्भ
+### देखें भी
 
 * इंटरफ़ेस [IBaseTableFormatEffectiveData](../ibasetableformateffectivedata)
 * नामस्थान [Aspose.Slides](../../aspose.slides)

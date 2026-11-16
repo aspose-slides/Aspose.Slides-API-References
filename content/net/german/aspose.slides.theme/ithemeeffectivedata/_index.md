@@ -3,7 +3,7 @@ title: IThemeEffectiveData
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Unveränderliches Objekt, das effektive Theme-Eigenschaften enthält.
 type: docs
-weight: 11380
+weight: 11400
 url: /de/aspose.slides.theme/ithemeeffectivedata/
 ---
 ## IThemeEffectiveData Schnittstelle
@@ -14,24 +14,24 @@ Unveränderliches Objekt, das effektive Theme-Eigenschaften enthält.
 public interface IThemeEffectiveData
 ```
 
-## Eigenschaften
+## Properties
 
 | Name | Beschreibung |
 | --- | --- |
-| [FontScheme](../../aspose.slides.theme/ithemeeffectivedata/fontscheme) { get; } | Gibt das Schriftart-Schema zurück. Nur lesbar [`IFontSchemeEffectiveData`](../ifontschemeeffectivedata). |
-| [FormatScheme](../../aspose.slides.theme/ithemeeffectivedata/formatscheme) { get; } | Gibt das Formformat-Schema zurück. Nur lesbar [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata). |
+| [FontScheme](../../aspose.slides.theme/ithemeeffectivedata/fontscheme) { get; } | Gibt das Schriftartenschema zurück. Nur-Lesen [`IFontSchemeEffectiveData`](../ifontschemeeffectivedata). |
+| [FormatScheme](../../aspose.slides.theme/ithemeeffectivedata/formatscheme) { get; } | Gibt das Formformatschema zurück. Nur-Lesen [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata). |
 
-## Methoden
+## Methods
 
 | Name | Beschreibung |
 | --- | --- |
 | [GetColorScheme](../../aspose.slides.theme/ithemeeffectivedata/getcolorscheme)(Color) | Gibt das Farbschema zurück. |
 
-### Hinweise
+### Remarks
 
-Dieses Interface wird zusammen mit dem [`ITheme`](../itheme) Interface verwendet, um effektive Formatierungswerte mit angewandter Vererbung zurückzugeben.
+Diese Schnittstelle wird zusammen mit der [`ITheme`](../itheme) Schnittstelle verwendet, um effektive Formatierungswerte mit angewandter Vererbung zurückzugeben.
 
-### Siehe auch
+### See Also
 
 * Namensraum [Aspose.Slides.Theme](../../aspose.slides.theme)
 * Assembly [Aspose.Slides](../../)

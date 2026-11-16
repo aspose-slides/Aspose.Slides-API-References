@@ -1,14 +1,14 @@
 ---
 title: Item
-second_title: Aspose.Sildes .NET API Referansı
-description: Belirtilen indeksdeki veri noktasının veri etiketini alır.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Belirtilen indeksli veri noktası için veri etiketini alır.
 type: docs
-weight: 60
+weight: 70
 url: /tr/aspose.slides.charts/datalabelcollection/item/
 ---
 ## DataLabelCollection indeksleyicisi
 
-Belirtilen indeksdeki veri noktasının veri etiketini alır.
+Belirtilen indeksli veri noktası için veri etiketini alır.
 
 ```csharp
 public IDataLabel this[int index] { get; }
@@ -18,7 +18,7 @@ public IDataLabel this[int index] { get; }
 
 Veri etiketine erişmenin alternatif yolu: - SeriesEx.DataPoints[i].Label - etiket özelliklerini yönetin.
 
-### Ayrıca Bakınız
+### Diğer
 
 * arayüz [IDataLabel](../../idatalabel)
 * sınıf [DataLabelCollection](../../datalabelcollection)

@@ -1,14 +1,14 @@
 ---
 title: IHtmlGenerator
 second_title: Aspose.Sildes för .NET API-referens
-description: Html-generator.
+description: HTML-generator.
 type: docs
-weight: 3960
+weight: 3980
 url: /sv/aspose.slides.export/ihtmlgenerator/
 ---
 ## IHtmlGenerator gränssnitt
 
-Html-generator.
+HTML-generator.
 
 ```csharp
 public interface IHtmlGenerator
@@ -18,30 +18,30 @@ public interface IHtmlGenerator
 
 | Namn | Beskrivning |
 | --- | --- |
-| [NextSlideIndex](../../aspose.slides.export/ihtmlgenerator/nextslideindex) { get; } | Returnerar index för en bild som kommer att renderas efter den aktuella bilden eller -1 om den sista bilden för närvarande renderas. Read-only Int32. |
-| [PreviousSlideIndex](../../aspose.slides.export/ihtmlgenerator/previousslideindex) { get; } | Returnerar index för den tidigare renderade bilden eller -1 om den första bilden renderas. Read-only Int32. |
-| [SlideImageSize](../../aspose.slides.export/ihtmlgenerator/slideimagesize) { get; } | Returnerar storleken på bilden. Read-only SizeF. |
-| [SlideImageSizeUnit](../../aspose.slides.export/ihtmlgenerator/slideimagesizeunit) { get; } | Returnerar en enhet i vilken bildens bildstorlek anges. Read-only [`SvgCoordinateUnit`](../svgcoordinateunit). |
-| [SlideImageSizeUnitCode](../../aspose.slides.export/ihtmlgenerator/slideimagesizeunitcode) { get; } | Returnerar en CSS-kod för enheten som bildens bildstorlek anges i. Read-only String. |
-| [SlideIndex](../../aspose.slides.export/ihtmlgenerator/slideindex) { get; } | Returnerar index för den bild som för närvarande renderas. Read-only Int32. |
+| [NextSlideIndex](../../aspose.slides.export/ihtmlgenerator/nextslideindex) { get; } | Returnerar index för en bild som kommer att renderas efter den aktuella bilden eller -1 om den aktuella bilden är den sista som renderas. Skrivskyddad Int32. |
+| [PreviousSlideIndex](../../aspose.slides.export/ihtmlgenerator/previousslideindex) { get; } | Returnerar index för föregående renderade bild eller -1 om den första bilden renderas. Skrivskyddad Int32. |
+| [SlideImageSize](../../aspose.slides.export/ihtmlgenerator/slideimagesize) { get; } | Returnerar bildens bildstorlek. Skrivskyddad SizeF. |
+| [SlideImageSizeUnit](../../aspose.slides.export/ihtmlgenerator/slideimagesizeunit) { get; } | Returnerar en enhet som bildens bildstorlek anges i. Skrivskyddad [`SvgCoordinateUnit`](../svgcoordinateunit). |
+| [SlideImageSizeUnitCode](../../aspose.slides.export/ihtmlgenerator/slideimagesizeunitcode) { get; } | Returnerar en CSS-kod för enheten som bildens bildstorlek anges i. Skrivskyddad String. |
+| [SlideIndex](../../aspose.slides.export/ihtmlgenerator/slideindex) { get; } | Returnerar index för bilden som för närvarande renderas. Skrivskyddad Int32. |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue)(char[]) | Citerar attributvärde och lägger till det i html-filen. |
-| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue_2)(string) | Citerar attributvärde och lägger till det i html-filen. |
-| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue_1)(char[], int, int) | Citerar attributvärde och lägger till det i html-filen. |
+| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue)(char[]) | Citerar attributvärdet och lägger till det i HTML-filen. |
+| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue_2)(string) | Citerar attributvärdet och lägger till det i HTML-filen. |
+| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue_1)(char[], int, int) | Citerar attributvärdet och lägger till det i HTML-filen. |
 | [AddHtml](../../aspose.slides.export/ihtmlgenerator/addhtml#addhtml)(char[]) | Lägger till formaterad HTML-text. |
 | [AddHtml](../../aspose.slides.export/ihtmlgenerator/addhtml#addhtml_2)(string) | Lägger till formaterad HTML-text. |
 | [AddHtml](../../aspose.slides.export/ihtmlgenerator/addhtml#addhtml_1)(char[], int, int) | Lägger till formaterad HTML-text. |
-| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext)(char[]) | Lägger till vanlig text i html-filerna och ersätter specialtecken med html-entiteter. Radbrytningar och blanksteg ersätts inte. |
-| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext_2)(string) | Lägger till vanlig text i html-filerna och ersätter specialtecken med html-entiteter. Radbrytningar och blanksteg ersätts inte. |
-| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext_1)(char[], int, int) | Lägger till vanlig text i html-filerna och ersätter specialtecken med html-entiteter. Radbrytningar och blanksteg ersätts inte. |
+| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext)(char[]) | Lägger till vanlig text i HTML-filerna och ersätter specialtecken med HTML-entiteter. Radbrytningar och blanksteg ersätts inte. |
+| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext_2)(string) | Lägger till vanlig text i HTML-filerna och ersätter specialtecken med HTML-entiteter. Radbrytningar och blanksteg ersätts inte. |
+| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext_1)(char[], int, int) | Lägger till vanlig text i HTML-filerna och ersätter specialtecken med HTML-entiteter. Radbrytningar och blanksteg ersätts inte. |
 
 ### Se även
 
-* namnutrymme [Aspose.Slides.Export](../../aspose.slides.export)
+* namnrymd [Aspose.Slides.Export](../../aspose.slides.export)
 * samling [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

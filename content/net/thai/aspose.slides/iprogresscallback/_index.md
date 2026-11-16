@@ -1,14 +1,14 @@
 ---
 title: IProgressCallback
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงวัตถุ callback สำหรับบันทึกการอัปเดตความคืบหน้าเป็นเปอร์เซ็นต์.
+second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
+description: แสดงอ็อบเจกต์ callback สำหรับบันทึกการอัปเดตความคืบหน้าเป็นเปอร์เซ็นต์.
 type: docs
-weight: 6810
+weight: 6830
 url: /th/aspose.slides/iprogresscallback/
 ---
 ## IProgressCallback อินเทอร์เฟซ
 
-แทนวัตถุ callback สำหรับบันทึกการอัปเดตความคืบหน้าเป็นเปอร์เซ็นต์.
+แสดงอ็อบเจกต์ callback สำหรับบันทึกการอัปเดตความคืบหน้าเป็นเปอร์เซ็นต์.
 
 ```csharp
 public interface IProgressCallback

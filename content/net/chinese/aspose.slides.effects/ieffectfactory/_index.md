@@ -3,7 +3,7 @@ title: IEffectFactory
 second_title: Aspose.Sildes for .NET API 参考
 description: 允许创建效果实例
 type: docs
-weight: 3290
+weight: 3310
 url: /zh/aspose.slides.effects/ieffectfactory/
 ---
 ## IEffectFactory 接口
@@ -18,7 +18,7 @@ public interface IEffectFactory
 
 | 名称 | 描述 |
 | --- | --- |
-| [ImageTransformOperationFactory](../../aspose.slides.effects/ieffectfactory/imagetransformoperationfactory) { get; } | 返回 ImageTransformOperationFactory。只读 [`IImageTransformOperationFactory`](../iimagetransformoperationfactory)。 |
+| [ImageTransformOperationFactory](../../aspose.slides.effects/ieffectfactory/imagetransformoperationfactory) { get; } | 返回 ImageTransformOperationFactory. 只读 [`IImageTransformOperationFactory`](../iimagetransformoperationfactory). |
 
 ## 方法
 
@@ -35,7 +35,7 @@ public interface IEffectFactory
 
 用于 COM 兼容性。
 
-### 另见
+### 另请参阅
 
 * 命名空间 [Aspose.Slides.Effects](../../aspose.slides.effects)
 * 程序集 [Aspose.Slides](../../)

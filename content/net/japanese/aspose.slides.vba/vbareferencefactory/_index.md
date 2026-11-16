@@ -1,14 +1,14 @@
 ---
 title: VbaReferenceFactory
 second_title: Aspose.Sildes for .NET API リファレンス
-description: COM インターフェイスを介して VBA プロジェクト参照を作成できます
+description: COM インターフェイスを使用して VBA プロジェクト参照を作成できます
 type: docs
-weight: 11680
+weight: 11700
 url: /ja/aspose.slides.vba/vbareferencefactory/
 ---
 ## VbaReferenceFactory クラス
 
-COM インターフェイスを介して VBA プロジェクト参照を作成できます
+Allows to create VBA project references via COM interface
 
 ```csharp
 public class VbaReferenceFactory : IVbaReferenceFactory
@@ -18,19 +18,19 @@ public class VbaReferenceFactory : IVbaReferenceFactory
 
 | 名前 | 説明 |
 | --- | --- |
-| [VbaReferenceFactory](vbareferencefactory)() | 既定のコンストラクタ。 |
+| [VbaReferenceFactory](vbareferencefactory)() | デフォルトコンストラクタです。 |
 
 ## プロパティ
 
 | 名前 | 説明 |
 | --- | --- |
-| static [Instance](../../aspose.slides.vba/vbareferencefactory/instance) { get; } | VBA プロジェクト参照ファクトリの静的インスタンス。読み取り専用 [`VbaReferenceFactory`](../vbareferencefactory)。 |
+| static [Instance](../../aspose.slides.vba/vbareferencefactory/instance) { get; } | VBA プロジェクト参照ファクトリの静的インスタンスです。読み取り専用 [`VbaReferenceFactory`](../vbareferencefactory)。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [CreateOleTypeLibReference](../../aspose.slides.vba/vbareferencefactory/createoletypelibreference)(string, string) | 新しい OLE Automation タイプ ライブラリ参照を作成します。 |
+| [CreateOleTypeLibReference](../../aspose.slides.vba/vbareferencefactory/createoletypelibreference)(string, string) | 新しい OLE Automation 型ライブラリ参照を作成します。 |
 
 ### 参照
 

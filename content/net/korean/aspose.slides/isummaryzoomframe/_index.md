@@ -1,9 +1,9 @@
 ---
 title: ISummaryZoomFrame
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 슬라이드에서 Summary Zoom 프레임을 나타냅니다.
 type: docs
-weight: 7150
+weight: 7170
 url: /ko/aspose.slides/isummaryzoomframe/
 ---
 ## ISummaryZoomFrame 인터페이스
@@ -16,7 +16,7 @@ public interface ISummaryZoomFrame : IGraphicalObject
 
 ## 속성
 
-| Name | Description |
+| 이름 | 설명 |
 | --- | --- |
 | [AsIGraphicalObject](../../aspose.slides/isummaryzoomframe/asigraphicalobject) { get; } | IGraphicalObject 인터페이스를 반환합니다. |
 | [Layout](../../aspose.slides/isummaryzoomframe/layout) { get; } | 프레임에서 Summary Zoom Sections의 레이아웃을 가져옵니다. 기본값은 GridLayout입니다. |

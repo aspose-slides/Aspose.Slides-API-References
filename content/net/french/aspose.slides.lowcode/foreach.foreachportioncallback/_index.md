@@ -3,12 +3,12 @@ title: ForEach.ForEachPortionCallback
 second_title: Aspose.Sildes pour .NET Référence API
 description: Rappel qui sera invoqué pour chaque Portion./foreach/portion dans le Paragraph./foreach/paragraph sur le BaseSlide../aspose.slides/baseslide.
 type: docs
-weight: 7940
+weight: 7960
 url: /fr/aspose.slides.lowcode/foreach.foreachportioncallback/
 ---
-## ForEach.ForEachPortionCallback delegate
+## ForEach.ForEachPortionCallback délégué
 
-Le rappel sera invoqué pour chaque [`Portion`](../foreach/portion) dans le [`Paragraph`](../foreach/paragraph) sur le [`BaseSlide`](../../aspose.slides/baseslide).
+Rappel qui sera invoqué pour chaque [`Portion`](../foreach/portion) dans le [`Paragraph`](../foreach/paragraph) sur le [`BaseSlide`](../../aspose.slides/baseslide).
 
 ```csharp
 public delegate void ForEachPortionCallback(Portion portion, Paragraph para, BaseSlide slide, 
@@ -22,7 +22,7 @@ public delegate void ForEachPortionCallback(Portion portion, Paragraph para, Bas
 | slide | BaseSlide | Diapositive actuelle itérée |
 | index | Int32 | Index de la portion actuelle dans le paragraphe |
 
-### Voir également
+### Voir aussi
 
 * classe [Portion](../../aspose.slides/portion)
 * classe [Paragraph](../../aspose.slides/paragraph)

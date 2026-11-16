@@ -1,14 +1,14 @@
 ---
 title: TimeUnitType
-second_title: Aspose.Sildes 的 .NET API 參考
-description: 表示分類軸的基礎單位
+second_title: Aspose.Sildes 針對 .NET 的 API 參考
+description: 表示類別軸的基礎單位
 type: docs
-weight: 2460
+weight: 2480
 url: /zh-hant/aspose.slides.charts/timeunittype/
 ---
 ## TimeUnitType 列舉
 
-表示分類軸的基礎單位
+表示類別軸的基礎單位
 
 ```csharp
 public enum TimeUnitType
@@ -18,12 +18,12 @@ public enum TimeUnitType
 
 | 名稱 | 值 | 說明 |
 | --- | --- | --- |
-| None | `0` | 直接顯示原始值。 |
-| Days | `1` | 指定圖表資料以天為單位顯示。 |
-| Months | `2` | 指定圖表資料以月為單位顯示。 |
-| Years | `3` | 指定圖表資料以年為單位顯示。 |
+| None | `0` | 值將原樣顯示。 |
+| Days | `1` | 指定圖表資料將以天為單位顯示。 |
+| Months | `2` | 指定圖表資料將以月為單位顯示。 |
+| Years | `3` | 指定圖表資料將以年為單位顯示。 |
 
-### 另見
+### 另請參閱
 
 * 命名空間 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 組件 [Aspose.Slides](../../)

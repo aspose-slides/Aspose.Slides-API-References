@@ -1,14 +1,14 @@
 ---
 title: ICustomData
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Biểu diễn bộ chứa cho dữ liệu tùy chỉnh.
+description: Đại diện cho bộ chứa dữ liệu tùy chỉnh.
 type: docs
-weight: 5660
+weight: 5680
 url: /vi/aspose.slides/icustomdata/
 ---
 ## ICustomData giao diện
 
-Biểu diễn bộ chứa cho dữ liệu tùy chỉnh.
+Đại diện cho bộ chứa dữ liệu tùy chỉnh.
 
 ```csharp
 public interface ICustomData
@@ -18,8 +18,8 @@ public interface ICustomData
 
 | Tên | Mô tả |
 | --- | --- |
-| [CustomXmlParts](../../aspose.slides/icustomdata/customxmlparts) { get; } | Trả về bộ sưu tập các phần xml tùy chỉnh. chỉ đọc [`ICustomXmlPartCollection`](../icustomxmlpartcollection). |
-| [Tags](../../aspose.slides/icustomdata/tags) { get; } | Trả về bộ sưu tập các thẻ dữ liệu khách hàng. chỉ đọc [`ITagCollection`](../itagcollection). |
+| [CustomXmlParts](../../aspose.slides/icustomdata/customxmlparts) { get; } | Trả về bộ sưu tập các phần xml tùy chỉnh. Chỉ đọc [`ICustomXmlPartCollection`](../icustomxmlpartcollection). |
+| [Tags](../../aspose.slides/icustomdata/tags) { get; } | Trả về bộ sưu tập các thẻ dữ liệu khách hàng. Chỉ đọc [`ITagCollection`](../itagcollection). |
 
 ### Xem thêm
 

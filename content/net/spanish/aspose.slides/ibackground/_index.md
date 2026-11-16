@@ -3,10 +3,10 @@ title: IBackground
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa el fondo de una diapositiva.
 type: docs
-weight: 5270
+weight: 5290
 url: /es/aspose.slides/ibackground/
 ---
-## IBackground interfaz
+## IBackground interface
 
 Representa el fondo de una diapositiva.
 
@@ -32,7 +32,7 @@ public interface IBackground : IFillParamSource, ISlideComponent
 | --- | --- |
 | [GetEffective](../../aspose.slides/ibackground/geteffective)() | Obtiene los datos de fondo efectivos con la herencia aplicada. |
 
-### Ver también
+### Véase también
 
 * interfaz [IFillParamSource](../ifillparamsource)
 * interfaz [ISlideComponent](../islidecomponent)

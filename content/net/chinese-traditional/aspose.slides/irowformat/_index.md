@@ -1,14 +1,14 @@
 ---
 title: IRowFormat
-second_title: Aspose.Sildes .NET API 參考
-description: 代表表格列的格式。
+second_title: Aspose.Sildes for .NET API 參考
+description: 表示表格列的格式.
 type: docs
-weight: 6870
+weight: 6890
 url: /zh-hant/aspose.slides/irowformat/
 ---
 ## IRowFormat 介面
 
-代表表格列的格式。
+表示表格列的格式。
 
 ```csharp
 public interface IRowFormat
@@ -16,9 +16,9 @@ public interface IRowFormat
 
 ## 方法
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
-| [GetEffective](../../aspose.slides/irowformat/geteffective)() | 取得套用繼承與表格樣式後的有效表格列格式屬性。 |
+| [GetEffective](../../aspose.slides/irowformat/geteffective)() | 取得套用繼承與表格樣式後的實際表格列格式屬性。 |
 
 ### 另請參閱
 

@@ -1,35 +1,35 @@
 ---
 title: SplitTextByColumns
-second_title: Aspose.Sildes for .NET API 참조
-description: 텍스트 프레임의 ITextFrameaspose.slides/itextframe 의 텍스트 내용을 문자열 배열로 분할합니다. 각 요소는 프레임 내의 별도 텍스트 열에 해당합니다.
+second_title: Aspose.Sildes .NET API 레퍼런스
+description: ITextFrameaspose.slides/itextframe의 텍스트 내용을 문자열 배열로 분할하며, 각 요소는 프레임 내의 개별 텍스트 열에 해당합니다.
 type: docs
-weight: 140
+weight: 150
 url: /ko/aspose.slides/textframe/splittextbycolumns/
 ---
 ## TextFrame.SplitTextByColumns 메서드
 
-텍스트 프레임의 [`ITextFrame`](../../itextframe) 의 텍스트 내용을 문자열 배열로 분할합니다. 각 요소는 프레임 내의 별도 텍스트 열에 해당합니다.
+[`ITextFrame`](../../itextframe)의 텍스트 내용을 문자열 배열로 분할하며, 각 요소는 프레임 내의 개별 텍스트 열에 해당합니다.
 
 ```csharp
 public string[] SplitTextByColumns()
 ```
 
-### 반환 값
+### 반환값
 
-[`ITextFrame`](../../itextframe) 의 특정 열의 텍스트 내용을 나타내는 문자열 배열입니다.
+문자열 배열이며, 각 문자열은 [`ITextFrame`](../../itextframe)에서 특정 열의 텍스트 내용을 나타냅니다.
 
 ### 비고
 
-텍스트 프레임에 여러 열이 포함되어 있지 않으면 반환된 배열은 전체 텍스트를 포함하는 단일 요소를 갖습니다. 빈 열은 배열에서 빈 문자열로 표시됩니다.
+텍스트 프레임에 여러 열이 포함되지 않은 경우, 반환된 배열은 전체 텍스트를 포함하는 단일 요소를 갖습니다. 빈 열은 배열에서 빈 문자열로 표시됩니다.
 
 ### 예제
 
-다음 예제는 `SplitTextByColumns` 사용 방법을 보여줍니다:
+다음 예제는 `SplitTextByColumns`를 사용하는 방법을 보여줍니다:
 
 ```csharp
 using (Presentation pres = new Presentation("example.pptx"))
 {
-    // 슬라이드의 첫 번째 도형을 가져와 ITextFrame으로 캐스팅합니다
+    // 슬라이드에서 첫 번째 도형을 가져와 ITextFrame으로 캐스팅합니다
     ITextFrame textFrame = pres.Slides[0].Shapes[0] as ITextFrame;
     // 텍스트 프레임 내용을 열로 분할합니다
     string[] columnsText = textFrame.SplitTextByColumns();
@@ -39,7 +39,7 @@ using (Presentation pres = new Presentation("example.pptx"))
 }
 ```
 
-### 참고
+### 참조
 
 * 클래스 [TextFrame](../../textframe)
 * 네임스페이스 [Aspose.Slides](../../textframe)

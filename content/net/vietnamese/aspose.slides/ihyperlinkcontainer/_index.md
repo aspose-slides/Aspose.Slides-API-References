@@ -1,9 +1,9 @@
 ---
 title: IHyperlinkContainer
-second_title: Aspose.Sildes cho .NET Tham chiếu API
+second_title: Tham chiếu API Aspose.Sildes cho .NET
 description: Biểu diễn đối tượng siêu liên kết.
 type: docs
-weight: 6120
+weight: 6140
 url: /vi/aspose.slides/ihyperlinkcontainer/
 ---
 ## IHyperlinkContainer giao diện
@@ -18,11 +18,11 @@ public interface IHyperlinkContainer
 
 | Tên | Mô tả |
 | --- | --- |
-| [HyperlinkClick](../../aspose.slides/ihyperlinkcontainer/hyperlinkclick) { get; set; } | Trả về hoặc đặt siêu liên kết được xác định cho cú nhấp chuột. Đọc/ghi [`IHyperlink`](../ihyperlink). |
+| [HyperlinkClick](../../aspose.slides/ihyperlinkcontainer/hyperlinkclick) { get; set; } | Trả về hoặc đặt siêu liên kết được định nghĩa cho nhấp chuột. Đọc/ghi [`IHyperlink`](../ihyperlink). |
 | [HyperlinkManager](../../aspose.slides/ihyperlinkcontainer/hyperlinkmanager) { get; } | Trình quản lý siêu liên kết Chỉ đọc [`IHyperlinkManager`](../ihyperlinkmanager). |
-| [HyperlinkMouseOver](../../aspose.slides/ihyperlinkcontainer/hyperlinkmouseover) { get; set; } | Trả về hoặc đặt siêu liên kết được xác định cho di chuột qua. Đọc/ghi [`IHyperlink`](../ihyperlink). |
+| [HyperlinkMouseOver](../../aspose.slides/ihyperlinkcontainer/hyperlinkmouseover) { get; set; } | Trả về hoặc đặt siêu liên kết được định nghĩa cho di chuột. Đọc/ghi [`IHyperlink`](../ihyperlink). |
 
-### Xem Thêm
+### Xem thêm
 
 * không gian tên [Aspose.Slides](../../aspose.slides)
 * tập hợp [Aspose.Slides](../../)

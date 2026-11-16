@@ -1,9 +1,9 @@
 ---
 title: TransitionSpeed
-second_title: Aspose.Sildes для .NET справочник API
+second_title: Aspose.Sildes for .NET справка по API
 description: Представляет типы скорости перехода.
 type: docs
-weight: 10440
+weight: 10460
 url: /ru/aspose.slides.slideshow/transitionspeed/
 ---
 ## Перечисление TransitionSpeed

@@ -1,12 +1,12 @@
 ---
 title: IMathBoxFactory
-second_title: Aspose.Sildes .NET için API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Bir matematik kutusu oluşturmayı sağlar
 type: docs
-weight: 8200
+weight: 8220
 url: /tr/aspose.slides.mathtext/imathboxfactory/
 ---
-## IMathBoxFactory arayüzü
+## IMathBoxFactory arayüz
 
 Bir matematik kutusu oluşturmayı sağlar
 
@@ -18,7 +18,7 @@ public interface IMathBoxFactory
 
 | Ad | Açıklama |
 | --- | --- |
-| [CreateMathBox](../../aspose.slides.mathtext/imathboxfactory/createmathbox)(IMathElement) | Bir öğeye uygulayarak bir matematik kutusu oluşturur |
+| [CreateMathBox](../../aspose.slides.mathtext/imathboxfactory/createmathbox)(IMathElement) | Öğeye uygulayarak bir matematik kutusu oluşturur |
 
 ### Açıklamalar
 

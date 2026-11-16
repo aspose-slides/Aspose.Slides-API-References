@@ -1,14 +1,14 @@
 ---
 title: IBaseHandoutNotesSlideHeaderFooterManag
 second_title: Aspose.Sildes for .NET API 参考
-description: 表示管理器，负责占位符的行为，包括所有类型的讲义和备注幻灯片的标题占位符。
+description: 表示管理占位符行为的管理器，包括所有类型的讲义和备注幻灯片的标题占位符。
 type: docs
-weight: 5290
+weight: 5310
 url: /zh/aspose.slides/ibasehandoutnotesslideheaderfootermanag/
 ---
 ## IBaseHandoutNotesSlideHeaderFooterManag 接口
 
-表示管理器，负责占位符的行为，包括所有类型的讲义和备注幻灯片的标题占位符。
+表示管理占位符行为的管理器，包括所有类型的讲义和备注幻灯片的标题占位符。
 
 ```csharp
 public interface IBaseHandoutNotesSlideHeaderFooterManag : IBaseSlideHeaderFooterManager
@@ -16,23 +16,23 @@ public interface IBaseHandoutNotesSlideHeaderFooterManag : IBaseSlideHeaderFoote
 
 ## 属性
 
-| Name | Description |
+| 名称 | 描述 |
 | --- | --- |
 | [AsIBaseSlideHeaderFooterManager](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/asibaseslideheaderfootermanager) { get; } | 返回 IBaseSlideHeaderFooterManager 接口。 |
 | [IsHeaderVisible](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/isheadervisible) { get; } | 获取指示标题占位符是否存在的值。读取 Boolean。 |
 
 ## 方法
 
-| Name | Description |
+| 名称 | 描述 |
 | --- | --- |
-| [SetHeaderText](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/setheadertext)(string) | 设置幻灯片标题占位符的文本。 |
+| [SetHeaderText](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/setheadertext)(string) | 将文本设置到幻灯片标题占位符。 |
 | [SetHeaderVisibility](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/setheadervisibility)(bool) | 更改幻灯片标题占位符的可见性。 |
 
 ### 备注
 
-原始接口名称 "IBaseHandoutNotesSlideHeaderFooterManager" 为了 COM 兼容性被截断为 "IBaseHandoutNotesSlideHeaderFooterManag"（类型名称长度不得超过 39）。
+原始接口名称 “IBaseHandoutNotesSlideHeaderFooterManager” 已被截断为 “IBaseHandoutNotesSlideHeaderFooterManag”，以满足 COM 兼容性（类型名称长度不得超过 39）。
 
-### 另见
+### 另请参见
 
 * 接口 [IBaseSlideHeaderFooterManager](../ibaseslideheaderfootermanager)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

@@ -1,14 +1,14 @@
 ---
 title: LineArrowheadLength
 second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje délku hrotu šipky.
+description: Reprezentuje délku hrotu šípky.
 type: docs
-weight: 7730
+weight: 7750
 url: /cs/aspose.slides/linearrowheadlength/
 ---
-## LineArrowheadLength výčet
+## Výčet LineArrowheadLength
 
-Reprezentuje délku hrotu šipky.
+Reprezentuje délku hrotu šípky.
 
 ```csharp
 public enum LineArrowheadLength : sbyte

@@ -1,14 +1,14 @@
 ---
 title: IMathParagraph
 second_title: Aspose.Sildes için .NET API Referansı
-description: Matematik blokları IMathBlock için bir kapsayıcı olan matematik paragrafı
+description: Matematik blokları için bir kapsayıcı olan matematiksel paragraf IMathBlock
 type: docs
-weight: 8390
+weight: 8410
 url: /tr/aspose.slides.mathtext/imathparagraph/
 ---
 ## IMathParagraph interface
 
-Matematik paragrafı, matematik blokları için bir kapsayıcıdır (IMathBlock)
+Matematiksel bloklar için bir kapsayıcı olan matematik paragrafı (IMathBlock)
 
 ```csharp
 public interface IMathParagraph : IMathBlockCollection
@@ -16,16 +16,16 @@ public interface IMathParagraph : IMathBlockCollection
 
 ## Özellikler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
-| [AsIMathBlockCollection](../../aspose.slides.mathtext/imathparagraph/asimathblockcollection) { get; } | Temel IMathBlockCollection arayüzüne erişim sağlar [`IMathBlockCollection`](../imathblockcollection) |
-| [Justification](../../aspose.slides.mathtext/imathparagraph/justification) { get; set; } | Paragraf Yaslaması Varsayılan değer: CenteredAsGroup |
+| [AsIMathBlockCollection](../../aspose.slides.mathtext/imathparagraph/asimathblockcollection) { get; } | Temel IMathBlockCollection arayüzünü [`IMathBlockCollection`](../imathblockcollection) almayı sağlar |
+| [Justification](../../aspose.slides.mathtext/imathparagraph/justification) { get; set; } | Paragraf Hizalama Varsayılan değer: CenteredAsGroup |
 
-## Metotlar
+## Yöntemler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
-| [ToLatex](../../aspose.slides.mathtext/imathparagraph/tolatex)() | Matematik denklemini LaTeX formatında alır |
+| [ToLatex](../../aspose.slides.mathtext/imathparagraph/tolatex)() | LaTeX biçiminde matematiksel denklemi alır |
 | [WriteAsMathMl](../../aspose.slides.mathtext/imathparagraph/writeasmathml)(Stream) | Bu [`IMathParagraph`](../imathparagraph) içeriğini MathML olarak kaydeder |
 
 ### Örnekler

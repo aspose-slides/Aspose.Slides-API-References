@@ -1,14 +1,14 @@
 ---
 title: HighlightText
-second_title: Aspose.Sildes dla .NET – referencja API
-description: Podświetla wszystkie wystąpienia próbki tekstu przy użyciu określonego koloru.
+second_title: Aspose.Sildes dla .NET – odniesienie API
+description: Podświetla wszystkie dopasowania tekstu przykładowego przy użyciu określonego koloru.
 type: docs
-weight: 100
+weight: 110
 url: /pl/aspose.slides/textframe/highlighttext/
 ---
 ## HighlightText(string, Color) {#highlighttext}
 
-Podświetla wszystkie wystąpienia próbki tekstu przy użyciu określonego koloru.
+Podświetla wszystkie dopasowania tekstu przykładowego przy użyciu określonego koloru.
 
 ```csharp
 public void HighlightText(string text, Color highlightColor)
@@ -16,8 +16,8 @@ public void HighlightText(string text, Color highlightColor)
 
 | Parametr | Typ | Opis |
 | --- | --- | --- |
-| text | String | Próbka tekstu do podświetlenia. |
-| highlightColor | Color | Kolor używany do podświetlenia tekstu. |
+| text | String | Przykładowy tekst do podświetlenia. |
+| highlightColor | Color | Kolor do podświetlenia tekstu. |
 
 ### Zobacz także
 
@@ -29,7 +29,7 @@ public void HighlightText(string text, Color highlightColor)
 
 ## HighlightText(string, Color, ITextSearchOptions, IFindResultCallback) {#highlighttext_2}
 
-Podświetla wszystkie wystąpienia próbki tekstu przy użyciu określonego koloru.
+Podświetla wszystkie dopasowania tekstu przykładowego przy użyciu określonego koloru.
 
 ```csharp
 public void HighlightText(string text, Color highlightColor, ITextSearchOptions options, 
@@ -39,11 +39,13 @@ public void HighlightText(string text, Color highlightColor, ITextSearchOptions 
 | Parametr | Typ | Opis |
 | --- | --- | --- |
 | text | String | Tekst do podświetlenia. |
-| highlightColor | Color | Kolor używany do podświetlenia tekstu. |
+| highlightColor | Color | Kolor do podświetlenia tekstu. |
 | options | ITextSearchOptions | Opcje wyszukiwania tekstu [`ITextSearchOptions`](../../itextsearchoptions). |
 | callback | IFindResultCallback | Obiekt wywołania zwrotnego służący do odbierania wyników wyszukiwania [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### Przykłady
+
+Poniższy przykład kodu pokazuje, jak podświetlić tekst w obiekcie TextFrame.
 
 ```csharp
 [C#]

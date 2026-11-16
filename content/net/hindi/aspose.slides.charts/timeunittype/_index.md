@@ -3,10 +3,10 @@ title: TimeUnitType
 second_title: Aspose.Sildes for .NET API संदर्भ
 description: श्रेणी अक्ष के लिए आधार इकाई का प्रतिनिधित्व करता है
 type: docs
-weight: 2460
+weight: 2480
 url: /hi/aspose.slides.charts/timeunittype/
 ---
-## TimeUnitType एन्युमरेशन
+## TimeUnitType एनेमरेशन
 
 श्रेणी अक्ष के लिए आधार इकाई का प्रतिनिधित्व करता है
 
@@ -18,12 +18,12 @@ public enum TimeUnitType
 
 | नाम | मान | विवरण |
 | --- | --- | --- |
-| None | `0` | मानों को जैसा है वैसा ही प्रदर्शित किया जाएगा। |
+| None | `0` | मान जैसा है वैसा ही प्रदर्शित होंगे। |
 | Days | `1` | निर्दिष्ट करता है कि चार्ट डेटा दिनों में दिखाया जाएगा। |
 | Months | `2` | निर्दिष्ट करता है कि चार्ट डेटा महीनों में दिखाया जाएगा। |
 | Years | `3` | निर्दिष्ट करता है कि चार्ट डेटा वर्षों में दिखाया जाएगा। |
 
-### संबंधित देखें
+### देखें भी
 
 * नामस्थान [Aspose.Slides.Charts](../../aspose.slides.charts)
 * असेंबली [Aspose.Slides](../../)

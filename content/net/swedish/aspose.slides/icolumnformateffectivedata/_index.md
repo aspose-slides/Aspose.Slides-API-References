@@ -1,14 +1,14 @@
 ---
 title: IColumnFormatEffectiveData
 second_title: Aspose.Sildes för .NET API-referens
-description: Oföränderligt objekt som innehåller effektiva formateringsegenskaper för tabellkolumn.
+description: Oföränderligt objekt som innehåller effektiva formateringsegenskaper för tabellkolumnen.
 type: docs
-weight: 5550
+weight: 5570
 url: /sv/aspose.slides/icolumnformateffectivedata/
 ---
 ## IColumnFormatEffectiveData gränssnitt
 
-Oföränderligt objekt som innehåller effektiva formateringsegenskaper för tabellkolumn.
+Oföränderligt objekt som innehåller effektiva formateringsegenskaper för tabellkolumnen.
 
 ```csharp
 public interface IColumnFormatEffectiveData : IBaseTableFormatEffectiveData
@@ -18,13 +18,13 @@ public interface IColumnFormatEffectiveData : IBaseTableFormatEffectiveData
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIBaseTableFormatEffectiveData](../../aspose.slides/icolumnformateffectivedata/asibasetableformateffectivedata) { get; } | Tillåter att hämta bas-IBaseTableFormatEffectiveData gränssnitt. Skrivskyddad [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
+| [AsIBaseTableFormatEffectiveData](../../aspose.slides/icolumnformateffectivedata/asibasetableformateffectivedata) { get; } | Tillåter att hämta basinterface IBaseTableFormatEffectiveData. Skrivskyddad [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
 
 ### Anmärkningar
 
-Detta gränssnitt används tillsammans med [`IColumnFormat`](../icolumnformat) gränssnitt för att returnera effektiva formateringsvärden med arv och tabellstilar tillämpade.
+Detta gränssnitt används tillsammans med [`IColumnFormat`](../icolumnformat) gränssnittet för att returnera effektiva formateringsvärden med ärftlighet och tabellstilar tillämpade.
 
-### Se också
+### Se även
 
 * gränssnitt [IBaseTableFormatEffectiveData](../ibasetableformateffectivedata)
 * namnrymd [Aspose.Slides](../../aspose.slides)

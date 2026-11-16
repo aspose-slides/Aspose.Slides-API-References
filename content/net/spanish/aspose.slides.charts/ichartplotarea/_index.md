@@ -1,12 +1,12 @@
 ---
 title: IChartPlotArea
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de API Aspose.Sildes para .NET
 description: Representa las propiedades del título del gráfico.
 type: docs
-weight: 1910
+weight: 1930
 url: /es/aspose.slides.charts/ichartplotarea/
 ---
-## interfaz IChartPlotArea
+## IChartPlotArea interfaz
 
 Representa las propiedades del título del gráfico.
 
@@ -21,7 +21,7 @@ public interface IChartPlotArea : IActualLayout, ILayoutable
 | [AsIActualLayout](../../aspose.slides.charts/ichartplotarea/asiactuallayout) { get; } | Devuelve la interfaz IActualLayout. |
 | [AsILayoutable](../../aspose.slides.charts/ichartplotarea/asilayoutable) { get; } | Permite obtener la interfaz base ILayoutable. Solo lectura [`ILayoutable`](../ilayoutable). |
 | [Format](../../aspose.slides.charts/ichartplotarea/format) { get; } | Devuelve el formato de un área de trazado. Solo lectura [`IFormat`](../iformat). |
-| [LayoutTargetType](../../aspose.slides.charts/ichartplotarea/layouttargettype) { get; set; } | Si el diseño del área de trazado se define manualmente, esta propiedad especifica si el diseño del área de trazado se realiza por su interior (sin incluir ejes y etiquetas de ejes) o por su exterior (incluyendo ejes y etiquetas de ejes). Lectura/escritura [`LayoutTargetType`](./layouttargettype). |
+| [LayoutTargetType](../../aspose.slides.charts/ichartplotarea/layouttargettype) { get; set; } | Si el diseño del área de trazado se define manualmente, esta propiedad especifica si se debe diseñar el área de trazado por su interior (sin incluir ejes y etiquetas de eje) o por su exterior (incluyendo ejes y etiquetas de eje). Lectura/escritura [`LayoutTargetType`](./layouttargettype). |
 
 ### Ver también
 

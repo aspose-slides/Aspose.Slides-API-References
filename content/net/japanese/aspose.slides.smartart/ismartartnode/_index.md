@@ -3,7 +3,7 @@ title: ISmartArtNode
 second_title: Aspose.Sildes for .NET API リファレンス
 description: SmartArt ダイアグラムのノードを表します。
 type: docs
-weight: 10550
+weight: 10570
 url: /ja/aspose.slides.smartart/ismartartnode/
 ---
 ## ISmartArtNode インターフェイス
@@ -18,15 +18,15 @@ public interface ISmartArtNode
 
 | 名前 | 説明 |
 | --- | --- |
-| [BulletFillFormat](../../aspose.slides.smartart/ismartartnode/bulletfillformat) { get; } | ノードの箇条書きの塗りつぶし書式プロパティを含む FillFormat オブジェクトを返します。注: ノードに箇条書きが提供されない特定の SmartArt レイアウトの場合、null を返すことがあります。読み取り専用 [`IFillFormat`](../../aspose.slides/ifillformat)。 |
-| [ChildNodes](../../aspose.slides.smartart/ismartartnode/childnodes) { get; } | 現在のノードのすべての子ノードのコレクションを返します。読み取り専用 [`ISmartArtNodeCollection`](../ismartartnodecollection)。 |
-| [IsAssistant](../../aspose.slides.smartart/ismartartnode/isassistant) { get; set; } | ノードをアシスタントとして取得または設定します。読み書き可能 Boolean。 |
-| [IsHidden](../../aspose.slides.smartart/ismartartnode/ishidden) { get; } | このノードがデータモデルで非表示ノードである場合は true を返します。読み取り専用 Boolean。 |
-| [Level](../../aspose.slides.smartart/ismartartnode/level) { get; } | ノードのネスティングレベルを返します。読み取り専用 Int32。 |
-| [OrganizationChartLayout](../../aspose.slides.smartart/ismartartnode/organizationchartlayout) { get; set; } | 現在のノードに関連付けられた組織図レイアウトタイプを取得または設定します。読み書き可能 [`OrganizationChartLayoutType`](../organizationchartlayouttype)。 |
-| [Position](../../aspose.slides.smartart/ismartartnode/position) { get; set; } | 兄弟ノード間でのノードのゼロベース位置を取得または設定します。読み書き可能 Int32。 |
-| [Shapes](../../aspose.slides.smartart/ismartartnode/shapes) { get; } | ノードに関連付けられたすべてのシェイプのコレクションを返します。読み取り専用 [`ISmartArtShapeCollection`](../ismartartshapecollection)。 |
-| [TextFrame](../../aspose.slides.smartart/ismartartnode/textframe) { get; } | ノードのテキストを取得または設定します。読み取り専用 [`ITextFrame`](../../aspose.slides/itextframe)。 |
+| [BulletFillFormat](../../aspose.slides.smartart/ismartartnode/bulletfillformat) { get; } | ノードの箇条書きの塗りつぶし書式プロパティを含む FillFormat オブジェクトを返します。注意: ノードに箇条書きを提供しない特定の SmartArt レイアウトの場合、null を返すことがあります。読み取り専用 [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [ChildNodes](../../aspose.slides.smartart/ismartartnode/childnodes) { get; } | 現在のノードのすべての子ノードのコレクションを返します。読み取り専用 [`ISmartArtNodeCollection`](../ismartartnodecollection). |
+| [IsAssistant](../../aspose.slides.smartart/ismartartnode/isassistant) { get; set; } | ノードをアシスタントとして取得または設定します。読み取り/書き込み Boolean. |
+| [IsHidden](../../aspose.slides.smartart/ismartartnode/ishidden) { get; } | このノードがデータモデルの非表示ノードである場合は true を返します。読み取り専用 Boolean. |
+| [Level](../../aspose.slides.smartart/ismartartnode/level) { get; } | ノードのネストレベルを返します。読み取り専用 Int32. |
+| [OrganizationChartLayout](../../aspose.slides.smartart/ismartartnode/organizationchartlayout) { get; set; } | 現在のノードに関連付けられた組織図レイアウトタイプを取得または設定します。読み取り/書き込み [`OrganizationChartLayoutType`](../organizationchartlayouttype). |
+| [Position](../../aspose.slides.smartart/ismartartnode/position) { get; set; } | 兄弟ノード間でのノードのゼロベース位置を取得または設定します。読み取り/書き込み Int32. |
+| [Shapes](../../aspose.slides.smartart/ismartartnode/shapes) { get; } | ノードに関連付けられたすべてのシェイプのコレクションを返します。読み取り専用 [`ISmartArtShapeCollection`](../ismartartshapecollection). |
+| [TextFrame](../../aspose.slides.smartart/ismartartnode/textframe) { get; } | ノードのテキストを取得または設定します。読み取り専用 [`ITextFrame`](../../aspose.slides/itextframe). |
 
 ## メソッド
 

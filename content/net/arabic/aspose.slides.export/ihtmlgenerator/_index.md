@@ -1,9 +1,9 @@
 ---
 title: IHtmlGenerator
-second_title: مرجع API لـ Aspose.Sildes على .NET
+second_title: Aspose.Sildes لـ .NET مرجع API
 description: مولد HTML.
 type: docs
-weight: 3960
+weight: 3980
 url: /ar/aspose.slides.export/ihtmlgenerator/
 ---
 ## IHtmlGenerator واجهة
@@ -18,30 +18,30 @@ public interface IHtmlGenerator
 
 | الاسم | الوصف |
 | --- | --- |
-| [NextSlideIndex](../../aspose.slides.export/ihtmlgenerator/nextslideindex) { get; } | يُرجِع فهرس الشريحة التي سيتم عرضها بعد الشريحة الحالية أو -1 إذا كانت الشريحة الحالية هي الأخيرة. للقراءة فقط Int32. |
-| [PreviousSlideIndex](../../aspose.slides.export/ihtmlgenerator/previousslideindex) { get; } | يُرجِع فهرس الشريحة التي تم عرضها مسبقًا أو -1 إذا كانت الشريحة الأولى هي التي تُعرض. للقراءة فقط Int32. |
-| [SlideImageSize](../../aspose.slides.export/ihtmlgenerator/slideimagesize) { get; } | يُرجِع حجم صورة الشريحة. للقراءة فقط SizeF. |
-| [SlideImageSizeUnit](../../aspose.slides.export/ihtmlgenerator/slideimagesizeunit) { get; } | يُرجِع الوحدة التي يُحدَّد بها حجم صورة الشريحة. للقراءة فقط [`SvgCoordinateUnit`](../svgcoordinateunit). |
-| [SlideImageSizeUnitCode](../../aspose.slides.export/ihtmlgenerator/slideimagesizeunitcode) { get; } | يُرجِع كود CSS للوحدة التي يُحدَّد بها حجم صورة الشريحة. للقراءة فقط String. |
-| [SlideIndex](../../aspose.slides.export/ihtmlgenerator/slideindex) { get; } | يُرجِع فهرس الشريحة الحالية قيد العرض. للقراءة فقط Int32. |
+| [NextSlideIndex](../../aspose.slides.export/ihtmlgenerator/nextslideindex) { get; } | يرجع فهرس الشريحة التي سيتم عرضها بعد الشريحة الحالية أو -1 إذا كان يتم عرض الشريحة الأخيرة حاليًا. للقراءة فقط Int32. |
+| [PreviousSlideIndex](../../aspose.slides.export/ihtmlgenerator/previousslideindex) { get; } | يرجع فهرس الشريحة التي تم عرضها مسبقًا أو -1 إذا كانت الشريحة الأولى تُعرض. للقراءة فقط Int32. |
+| [SlideImageSize](../../aspose.slides.export/ihtmlgenerator/slideimagesize) { get; } | يرجع حجم صورة الشريحة. للقراءة فقط SizeF. |
+| [SlideImageSizeUnit](../../aspose.slides.export/ihtmlgenerator/slideimagesizeunit) { get; } | يرجع الوحدة التي تم تحديد حجم صورة الشريحة بها. للقراءة فقط [`SvgCoordinateUnit`](../svgcoordinateunit). |
+| [SlideImageSizeUnitCode](../../aspose.slides.export/ihtmlgenerator/slideimagesizeunitcode) { get; } | يرجع شفرة CSS للوحدة التي تم تحديد حجم صورة الشريحة بها. للقراءة فقط String. |
+| [SlideIndex](../../aspose.slides.export/ihtmlgenerator/slideindex) { get; } | يرجع فهرس الشريحة التي يتم عرضها حاليًا. للقراءة فقط Int32. |
 
 ## الطرق
 
 | الاسم | الوصف |
 | --- | --- |
-| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue)(char[]) | يقتبس قيمة السمة ويضيفها إلى ملف HTML. |
-| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue_2)(string) | يقتبس قيمة السمة ويضيفها إلى ملف HTML. |
-| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue_1)(char[], int, int) | يقتبس قيمة السمة ويضيفها إلى ملف HTML. |
-| [AddHtml](../../aspose.slides.export/ihtmlgenerator/addhtml#addhtml)(char[]) | يضيف نص HTML مُنسَّق. |
-| [AddHtml](../../aspose.slides.export/ihtmlgenerator/addhtml#addhtml_2)(string) | يضيف نص HTML مُنسَّق. |
-| [AddHtml](../../aspose.slides.export/ihtmlgenerator/addhtml#addhtml_1)(char[], int, int) | يضيف نص HTML مُنسَّق. |
-| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext)(char[]) | يضيف نصًا عاديًا إلى ملفات HTML، مستبدلًا الأحرف الخاصة بكيانات HTML. لا يتم استبدال فواصل السطر والمسافات البيضاء. |
-| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext_2)(string) | يضيف نصًا عاديًا إلى ملفات HTML، مستبدلًا الأحرف الخاصة بكيانات HTML. لا يتم استبدال فواصل السطر والمسافات البيضاء. |
-| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext_1)(char[], int, int) | يضيف نصًا عاديًا إلى ملفات HTML، مستبدلًا الأحرف الخاصة بكيانات HTML. لا يتم استبدال فواصل السطر والمسافات البيضاء. |
+| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue)(char[]) | يضع قيمة السمة بين علامات اقتباس ويضيفها إلى ملف html. |
+| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue_2)(string) | يضع قيمة السمة بين علامات اقتباس ويضيفها إلى ملف html. |
+| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue_1)(char[], int, int) | يضع قيمة السمة بين علامات اقتباس ويضيفها إلى ملف html. |
+| [AddHtml](../../aspose.slides.export/ihtmlgenerator/addhtml#addhtml)(char[]) | يضيف نص HTML منسق. |
+| [AddHtml](../../aspose.slides.export/ihtmlgenerator/addhtml#addhtml_2)(string) | يضيف نص HTML منسق. |
+| [AddHtml](../../aspose.slides.export/ihtmlgenerator/addhtml#addhtml_1)(char[], int, int) | يضيف نص HTML منسق. |
+| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext)(char[]) | يضيف نصًا عاديًا إلى ملفات html، مستبدلًا الأحرف الخاصة بكيانات html. لا يتم استبدال فواصل الأسطر والمسافات. |
+| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext_2)(string) | يضيف نصًا عاديًا إلى ملفات html، مستبدلًا الأحرف الخاصة بكيانات html. لا يتم استبدال فواصل الأسطر والمسافات. |
+| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext_1)(char[], int, int) | يضيف نصًا عاديًا إلى ملفات html، مستبدلًا الأحرف الخاصة بكيانات html. لا يتم استبدال فواصل الأسطر والمسافات. |
 
 ### انظر أيضًا
 
-* namespace [Aspose.Slides.Export](../../aspose.slides.export)
-* assembly [Aspose.Slides](../../)
+* المجال [Aspose.Slides.Export](../../aspose.slides.export)
+* التجميع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

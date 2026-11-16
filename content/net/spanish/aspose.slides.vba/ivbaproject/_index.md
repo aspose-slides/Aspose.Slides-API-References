@@ -1,14 +1,14 @@
 ---
 title: IVbaProject
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Representa un proyecto VBA con macros de presentación.
+description: Representa el proyecto VBA con macros de presentación.
 type: docs
-weight: 11550
+weight: 11570
 url: /es/aspose.slides.vba/ivbaproject/
 ---
-## IVbaProject interfaz
+## Interfaz IVbaProject
 
-Representa un proyecto VBA con macros de presentación.
+Representa el proyecto VBA con macros de presentación.
 
 ```csharp
 public interface IVbaProject
@@ -18,16 +18,16 @@ public interface IVbaProject
 
 | Nombre | Descripción |
 | --- | --- |
-| [IsPasswordProtected](../../aspose.slides.vba/ivbaproject/ispasswordprotected) { get; } | Indica si el VBAProject está protegido por una contraseña para ver las propiedades del proyecto. Solo lectura Boolean. |
-| [Modules](../../aspose.slides.vba/ivbaproject/modules) { get; } | Devuelve la lista de todos los módulos que están contenidos en el proyecto VBA. Solo lectura [`IVbaModuleCollection`](../ivbamodulecollection). |
-| [Name](../../aspose.slides.vba/ivbaproject/name) { get; } | Devuelve el nombre del proyecto VBA. Solo lectura String. |
-| [References](../../aspose.slides.vba/ivbaproject/references) { get; } | Devuelve la lista de todas las referencias que están contenidas en el proyecto VBA. Solo lectura [`IVbaReferenceCollection`](../ivbareferencecollection). |
+| [IsPasswordProtected](../../aspose.slides.vba/ivbaproject/ispasswordprotected) { get; } | Indica si el VBAProject está protegido por una contraseña para ver las propiedades del proyecto. Sólo lectura Boolean. |
+| [Modules](../../aspose.slides.vba/ivbaproject/modules) { get; } | Devuelve la lista de todos los módulos que contiene el proyecto VBA. Sólo lectura [`IVbaModuleCollection`](../ivbamodulecollection). |
+| [Name](../../aspose.slides.vba/ivbaproject/name) { get; } | Devuelve el nombre del proyecto VBA. Sólo lectura String. |
+| [References](../../aspose.slides.vba/ivbaproject/references) { get; } | Devuelve la lista de todas las referencias que contiene el proyecto VBA. Sólo lectura [`IVbaReferenceCollection`](../ivbareferencecollection). |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [ToBinary](../../aspose.slides.vba/ivbaproject/tobinary)() | Devuelve la representación binaria del proyecto VBA como contenedor OLE. Solo lectura Byte[]. |
+| [ToBinary](../../aspose.slides.vba/ivbaproject/tobinary)() | Devuelve la representación binaria del proyecto VBA como contenedor OLE. Sólo lectura Byte[]. |
 
 ### Ver también
 

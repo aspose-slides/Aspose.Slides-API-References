@@ -1,14 +1,14 @@
 ---
 title: FontsManager
-second_title: مرجع API Aspose.Sildes برای .NET
+second_title: Aspose.Sildes برای .NET مرجع API
 description: فونت‌ها را در سراسر ارائه مدیریت می‌کند.
 type: docs
-weight: 4940
+weight: 4960
 url: /fa/aspose.slides/fontsmanager/
 ---
-## کلاس FontsManager
+## FontsManager کلاس
 
-فونت‌ها را در سراسر ارائه مدیریت می‌کند.
+Manages fonts across the presentation.
 
 ```csharp
 public class FontsManager : IFontsManager
@@ -18,29 +18,30 @@ public class FontsManager : IFontsManager
 
 | نام | توضیح |
 | --- | --- |
-| [FontFallBackRulesCollection](../../aspose.slides/fontsmanager/fontfallbackrulescollection) { get; set; } | نمایانگر مجموعه‌ای از قواعد FontFallBack کاربر برای مدیریت مجموعه‌های فونت به منظور جایگزینی صحیح با عملکرد fallback است. خواندنی/نوشتنی [`IFontFallBackRulesCollection`](../ifontfallbackrulescollection). |
+| [FontFallBackRulesCollection](../../aspose.slides/fontsmanager/fontfallbackrulescollection) { get; set; } | نمایانگر مجموعه‌ای از قوانین FontFallBack کاربر برای مدیریت مجموعه‌های فونت جهت جایگزینی مناسب توسط عملکرد fallback. خواندنی/نوشتنی [`IFontFallBackRulesCollection`](../ifontfallbackrulescollection). |
 | [FontSubstRuleList](../../aspose.slides/fontsmanager/fontsubstrulelist) { get; set; } | جایگزینی‌های فونت برای استفاده هنگام رندرینگ. خواندنی/نوشتنی [`IFontSubstRuleCollection`](../ifontsubstrulecollection). |
+| [PreferRegisteredFontsOverEmbedded](../../aspose.slides/fontsmanager/preferregisteredfontsoverembedded) { get; set; } | مشخص می‌کند آیا فونت‌های ثبت‌شده باید نسبت به فونت‌های جاسازی‌شده با نام و سبک یکسان، ترجیح داده شوند. هنگام فعال بودن، فونت‌های جاسازی‌شده‌ی مطابقت‌دار به‌طور موقت با فونت‌های ثبت‌شده‌ی متناظر در حین صادرات جایگزین می‌شوند. |
 
 ## متدها
 
 | نام | توضیح |
 | --- | --- |
-| [AddEmbeddedFont](../../aspose.slides/fontsmanager/addembeddedfont#addembeddedfont_1)(byte[], EmbedFontCharacters) | فونت جاسازی‌شده را اضافه می‌کند. هنگام کپی کردن هر فونتی به یاد داشته باشید که اکثر فونت‌ها دارای حق تکثیر هستند. ابتدا مجوز یک فونت را پیشاپی پیدا کنید و اطمینان حاصل کنید که می‌توان آن را به‌صورت آزاد به ماشین دیگری منتقل کرد. اگر داده‌های فونت null باشد یا این فونت قبلاً جاسازی شده باشد، ممکن است ArgumentException پرتاب شود. |
-| [AddEmbeddedFont](../../aspose.slides/fontsmanager/addembeddedfont#addembeddedfont)(IFontData, EmbedFontCharacters) | فونت جاسازی‌شده را اضافه می‌کند. هنگام کپی کردن هر فونتی به یاد داشته باشید که اکثر فونت‌ها دارای حق تکثیر هستند. ابتدا مجوز یک فونت را پیشاپی پیدا کنید و اطمینان حاصل کنید که می‌توان آن را به‌صورت آزاد به ماشین دیگری منتقل کرد. اگر داده‌های فونت null باشد یا این فونت قبلاً جاسازی شده باشد، ممکن است ArgumentException پرتاب شود. |
+| [AddEmbeddedFont](../../aspose.slides/fontsmanager/addembeddedfont#addembeddedfont_1)(byte[], EmbedFontCharacters) | فونت جاسازی‌شده را اضافه می‌کند. هنگام کپی کردن هرگونه فونت، به خاطر داشته باشید که اکثر فونت‌ها دارای حق نسخه‌برداری هستند. ابتدا مجوز یک فونت را پیشاپیش پیدا کنید و تأیید کنید که می‌توانند به‌صورت آزادانه به ماشین دیگری منتقل شوند. اگر دادهٔ فونت null باشد یا این فونت قبلاً جاسازی شده باشد، می‌تواند ArgumentException رخ دهد. |
+| [AddEmbeddedFont](../../aspose.slides/fontsmanager/addembeddedfont#addembeddedfont)(IFontData, EmbedFontCharacters) | فونت جاسازی‌شده را اضافه می‌کند. هنگام کپی کردن هرگونه فونت، به خاطر داشته باشید که اکثر فونت‌ها دارای حق نسخه‌برداری هستند. ابتدا مجوز یک فونت را پیشاپیش پیدا کنید و تأیید کنید که می‌توانند به‌صورت آزادانه به ماشین دیگری منتقل شوند. اگر دادهٔ فونت null باشد یا این فونت قبلاً جاسازی شده باشد، می‌تواند ArgumentException رخ دهد. |
 | [GetEmbeddedFonts](../../aspose.slides/fontsmanager/getembeddedfonts)() | فونت‌های جاسازی‌شده در ارائه را برمی‌گرداند. |
-| [GetFontBytes](../../aspose.slides/fontsmanager/getfontbytes)(IFontData, FontStyleType) | آرایه بایتی که داده‌های فونت برای یک سبک فونت مشخص و داده‌های فونت را نمایندگی می‌کند، بازیابی می‌کند. |
-| [GetFontEmbeddingLevel](../../aspose.slides/fontsmanager/getfontembeddinglevel)(byte[], string) | سطح جاسازی یک فونت را از آرایه بایتی و نام فونت داده شده تعیین می‌کند. |
-| [GetFonts](../../aspose.slides/fontsmanager/getfonts)() | فونت‌های مورد استفاده در ارائه را برمی‌گرداند. |
+| [GetFontBytes](../../aspose.slides/fontsmanager/getfontbytes)(IFontData, FontStyleType) | آرایه بایتی که دادهٔ فونت برای یک سبک فونت مشخص و دادهٔ فونت را نشان می‌دهد، بازیابی می‌کند. |
+| [GetFontEmbeddingLevel](../../aspose.slides/fontsmanager/getfontembeddinglevel)(byte[], string) | سطح جاسازی یک فونت را بر پایهٔ آرایه بایتی داده‌شده و نام فونت تعیین می‌کند. |
+| [GetFonts](../../aspose.slides/fontsmanager/getfonts)() | فونت‌های استفاده‌شده در ارائه را برمی‌گرداند. |
 | [GetSubstitutions](../../aspose.slides/fontsmanager/getsubstitutions#getsubstitutions)() | اطلاعات مربوط به فونت‌هایی که در رندرینگ ارائه جایگزین خواهند شد را دریافت می‌کند. |
-| [GetSubstitutions](../../aspose.slides/fontsmanager/getsubstitutions#getsubstitutions_1)(int[]) | اطلاعات مربوط به فونت‌هایی که هنگام رندرینگ اسلایدهای مشخص شده جایگزین خواهند شد را دریافت می‌کند. |
+| [GetSubstitutions](../../aspose.slides/fontsmanager/getsubstitutions#getsubstitutions_1)(int[]) | اطلاعات مربوط به فونت‌هایی که در حین رندرینگ اسلایدهای مشخص شده جایگزین خواهند شد را دریافت می‌کند. |
 | [RemoveEmbeddedFont](../../aspose.slides/fontsmanager/removeembeddedfont)(IFontData) | فونت جاسازی‌شده را حذف می‌کند. |
-| [ReplaceFont](../../aspose.slides/fontsmanager/replacefont#replacefont_1)(IFontSubstRule) | فونت را در ارائه با استفاده از اطلاعات ارائه‌شده در [`FontSubstRule`](../fontsubstrule) جایگزین می‌کند. |
-| [ReplaceFont](../../aspose.slides/fontsmanager/replacefont#replacefont_2)(IFontSubstRuleCollection) | فونت را در ارائه با استفاده از اطلاعات موجود در مجموعه‌ای از [`FontSubstRule`](../fontsubstrule) جایگزین می‌کند. |
-| [ReplaceFont](../../aspose.slides/fontsmanager/replacefont#replacefont)(IFontData, IFontData) | فونت را در ارائه جایگزین می‌کند. |
+| [ReplaceFont](../../aspose.slides/fontsmanager/replacefont#replacefont_1)(IFontSubstRule) | فونت در ارائه را با استفاده از اطلاعات ارائه‌شده در [`FontSubstRule`](../fontsubstrule) جایگزین می‌کند. |
+| [ReplaceFont](../../aspose.slides/fontsmanager/replacefont#replacefont_2)(IFontSubstRuleCollection) | فونت در ارائه را با استفاده از اطلاعات موجود در مجموعهٔ [`FontSubstRule`](../fontsubstrule) جایگزین می‌کند. |
+| [ReplaceFont](../../aspose.slides/fontsmanager/replacefont#replacefont)(IFontData, IFontData) | فونت در ارائه را جایگزین می‌کند. |
 
 ### مثال‌ها
 
-مثال زیر نشان می‌دهد چگونه فونت‌های جاسازی‌شده را به یک ارائه PowerPoint اضافه کنید.
+مثال زیر نشان می‌دهد چگونه فونت‌های جاسازی‌شده را به ارائهٔ PowerPoint اضافه کنیم.
 
 ```csharp
 [C#]
@@ -58,15 +59,15 @@ using (Presentation presentation = new Presentation("Fonts.pptx"))
 			presentation.FontsManager.AddEmbeddedFont(font, EmbedFontCharacters.All);
 		}
 	}
-	// ذخیرهٔ ارائه
+	// ذخیره ارائه
 	presentation.Save("AddEmbeddedFont_out.pptx", SaveFormat.Pptx);
 }
 ```
 
-### موارد مرتبط
+### همچنین ببینید
 
 * رابط [IFontsManager](../ifontsmanager)
 * فضای‌نام [Aspose.Slides](../../aspose.slides)
-* مونتاژ [Aspose.Slides](../../)
+* اسمبلی [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,14 +1,14 @@
 ---
 title: IPresentationSignedWarningInfo
-second_title: Aspose.Sildes dla .NET – odniesienie API
+second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: To ostrzeżenie wskazuje, że odczytywana prezentacja posiada podpis, a podpis ten zostanie usunięty podczas przetwarzania.
 type: docs
-weight: 11790
+weight: 11810
 url: /pl/aspose.slides.warnings/ipresentationsignedwarninginfo/
 ---
 ## IPresentationSignedWarningInfo interfejs
 
-To ostrzeżenie wskazuje, że odczytywana prezentacja posiada podpis, a podpis ten zostanie usunięty podczas przetwarzania.
+To ostrzeżenie wskazuje, że odczytywana prezentacja posiada podpis i ten podpis zostanie usunięty podczas przetwarzania.
 
 ```csharp
 public interface IPresentationSignedWarningInfo : IWarningInfo

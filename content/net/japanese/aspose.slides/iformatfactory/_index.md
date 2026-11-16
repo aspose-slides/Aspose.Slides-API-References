@@ -1,14 +1,14 @@
 ---
 title: IFormatFactory
 second_title: Aspose.Sildes の .NET API リファレンス
-description: COM インターフェイスを介してフォーマットを作成できます。
+description: COM インターフェイスを使用してフォーマットを作成できます。
 type: docs
-weight: 5940
+weight: 5960
 url: /ja/aspose.slides/iformatfactory/
 ---
-## IFormatFactory インターフェイス
+## IFormatFactory インターフェース
 
-COM インターフェイスを介してフォーマットを作成できます。
+COM インターフェイスを使用してフォーマットを作成できます。
 
 ```csharp
 public interface IFormatFactory
@@ -22,7 +22,7 @@ public interface IFormatFactory
 | [CreatePortionFormat](../../aspose.slides/iformatfactory/createportionformat)() | 新しい[`IPortionFormat`](../iportionformat)を作成します。 |
 | [CreateTextFrameFormat](../../aspose.slides/iformatfactory/createtextframeformat)() | 新しい[`ITextFrameFormat`](../itextframeformat)を作成します。 |
 
-### 関連項目
+### 参照
 
 * 名前空間 [Aspose.Slides](../../aspose.slides)
 * アセンブリ [Aspose.Slides](../../)

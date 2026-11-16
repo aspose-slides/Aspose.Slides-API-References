@@ -1,14 +1,14 @@
 ---
 title: InkTrace
-second_title: Référence API Aspose.Sildes pour .NET
+second_title: Aspose.Sildes pour la référence API .NET
 description: Représente un objet Trace. Un élément Trace est utilisé pour enregistrer les données capturées par le numériseur. Il contient une séquence de points encodés selon la spécification fournie par l'objet InkTraceFormat.
 type: docs
-weight: 7590
+weight: 7610
 url: /fr/aspose.slides.ink/inktrace/
 ---
 ## InkTrace classe
 
-Représente un objet Trace. Un élément Trace est utilisé pour enregistrer les données capturées par le numériseur. Il contient une séquence de points encodés selon la spécification fournie par l'objet InkTraceFormat.
+Représente un objet Trace. Un élément Trace est utilisé pour enregistrer les données capturées par le numériseur. Il contient une séquence de points encodés selon la spécification donnée par l'objet InkTraceFormat.
 
 ```csharp
 public class InkTrace : IInkTrace
@@ -18,8 +18,8 @@ public class InkTrace : IInkTrace
 
 | Nom | Description |
 | --- | --- |
-| [Brush](../../aspose.slides.ink/inktrace/brush) { get; } | Obtient Brush pour IInkLine [`IInkBrush`](../iinkbrush) lecture seule. |
-| [Points](../../aspose.slides.ink/inktrace/points) { get; } | Obtient points pour IInkLine PointF lecture seule. |
+| [Brush](../../aspose.slides.ink/inktrace/brush) { get; } | Obtient Brush pour l'IInkLine [`IInkBrush`](../iinkbrush) Lecture seule. |
+| [Points](../../aspose.slides.ink/inktrace/points) { get; } | Obtient les points pour l'IInkLine PointF Lecture seule. |
 
 ### Voir aussi
 

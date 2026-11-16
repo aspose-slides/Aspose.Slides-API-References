@@ -3,12 +3,12 @@ title: SensitivityLabelCollection
 second_title: Aspose.Sildes для .NET справочник API
 description: Представляет коллекцию меток чувствительности, применённых к документу.
 type: docs
-weight: 9810
+weight: 9830
 url: /ru/aspose.slides/sensitivitylabelcollection/
 ---
 ## SensitivityLabelCollection класс
 
-Представляет коллекцию меток чувствительности, применённых к документу.
+Represents a collection of sensitivity labels applied to the document.
 
 ```csharp
 public sealed class SensitivityLabelCollection : DomObject<Presentation>, 
@@ -30,7 +30,7 @@ public sealed class SensitivityLabelCollection : DomObject<Presentation>,
 | [Add](../../aspose.slides/sensitivitylabelcollection/add#add)(string, Guid, bool, SensitivityLabelAssignmentType) | Добавляет метку чувствительности в конец коллекции. |
 | [Clear](../../aspose.slides/sensitivitylabelcollection/clear)() | Удаляет все элементы из коллекции. |
 | [CopyTo](../../aspose.slides/sensitivitylabelcollection/copyto)(ISensitivityLabel[], int) | Копирует все элементы из коллекции в указанный массив. |
-| [GetEnumerator](../../aspose.slides/sensitivitylabelcollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
+| [GetEnumerator](../../aspose.slides/sensitivitylabelcollection/getenumerator)() | Возвращает перечислитель, который перебирает элементы коллекции. |
 | [RemoveAt](../../aspose.slides/sensitivitylabelcollection/removeat)(int) | Удаляет метку чувствительности по указанному индексу. |
 
 ### См. также

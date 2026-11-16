@@ -1,14 +1,14 @@
 ---
 title: IUpDownBarsManager
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: Line- या Stock-चार्ट के up/down बार तक पहुँच प्रदान करता है।
+description: लाइन या स्टॉक-चार्ट के अप/डाउन बार तक पहुंच प्रदान करता है।
 type: docs
-weight: 2260
+weight: 2280
 url: /hi/aspose.slides.charts/iupdownbarsmanager/
 ---
 ## IUpDownBarsManager इंटरफ़ेस
 
-Line- या Stock-चार्ट के up/down बार तक पहुँच प्रदान करता है।
+लाइन या स्टॉक-चार्ट के अप/डाउन बार तक पहुंच प्रदान करता है।
 
 ```csharp
 public interface IUpDownBarsManager
@@ -18,12 +18,12 @@ public interface IUpDownBarsManager
 
 | नाम | विवरण |
 | --- | --- |
-| [DownBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/downbarsformat) { get; } | डाउन बार का फ़ॉर्मेट लौटाता है। केवल-पढ़ने योग्य [`IFormat`](../iformat). |
-| [GapWidth](../../aspose.slides.charts/iupdownbarsmanager/gapwidth) { get; set; } | गैप की चौड़ाई को लौटाता या सेट करता है। पढ़ें/लिखें Int32. |
-| [HasUpDownBars](../../aspose.slides.charts/iupdownbarsmanager/hasupdownbars) { get; set; } | निर्धारित करता है कि चार्ट में up/down बार हैं या नहीं। पढ़ें/लिखें Boolean. |
-| [UpBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/upbarsformat) { get; } | अप बार का फ़ॉर्मेट लौटाता है। केवल-पढ़ने योग्य [`IFormat`](../iformat). |
+| [DownBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/downbarsformat) { get; } | डाउन बार का स्वरूप लौटाता है। केवल-पढ़ने योग्य [`IFormat`](../iformat)। |
+| [GapWidth](../../aspose.slides.charts/iupdownbarsmanager/gapwidth) { get; set; } | गैप की चौड़ाई लौटाता है या सेट करता है। पढ़ने/लिखने योग्य Int32। |
+| [HasUpDownBars](../../aspose.slides.charts/iupdownbarsmanager/hasupdownbars) { get; set; } | निर्धारित करता है कि चार्ट में अप/डाउन बार हैं या नहीं। पढ़ने/लिखने योग्य Boolean। |
+| [UpBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/upbarsformat) { get; } | अप बार का स्वरूप लौटाता है। केवल-पढ़ने योग्य [`IFormat`](../iformat)। |
 
-### देखें
+### संबंधित देखें
 
 * नामस्थान [Aspose.Slides.Charts](../../aspose.slides.charts)
 * असेंबली [Aspose.Slides](../../)

@@ -1,27 +1,27 @@
 ---
 title: Placeholder
 second_title: Aspose.Sildes برای .NET مرجع API
-description: یک placeholder را در یک اسلاید نشان می‌دهد.
+description: نمایانگر یک placeholder در یک اسلاید است.
 type: docs
-weight: 9430
+weight: 9450
 url: /fa/aspose.slides/placeholder/
 ---
-## Placeholder کلاس
+## کلاس Placeholder
 
-نمایانگر یک placeholder در اسلاید است.
+نمایانگر یک placeholder در یک اسلاید است.
 
 ```csharp
 public class Placeholder : IPlaceholder
 ```
 
-## خواص
+## ویژگی‌ها
 
 | نام | توضیح |
 | --- | --- |
-| [Index](../../aspose.slides/placeholder/index) { get; } | اندیس یک placeholder را دریافت یا تنظیم می‌کند. فقط خواندنی UInt32. |
-| [Orientation](../../aspose.slides/placeholder/orientation) { get; } | جهت یک placeholder را دریافت یا تنظیم می‌کند. فقط خواندنی [`Orientation`](../orientation). |
-| [Size](../../aspose.slides/placeholder/size) { get; } | اندازه یک placeholder را دریافت یا تنظیم می‌کند. فقط خواندنی [`PlaceholderSize`](../placeholdersize). |
-| [Type](../../aspose.slides/placeholder/type) { get; } | نوع یک placeholder را دریافت یا تنظیم می‌کند. فقط خواندنی [`PlaceholderType`](../placeholdertype). |
+| [Index](../../aspose.slides/placeholder/index) { get; } | دریافت یا تنظیم نمایه یک placeholder. فقط خواندنی UInt32. |
+| [Orientation](../../aspose.slides/placeholder/orientation) { get; } | دریافت یا تنظیم جهت‌گیری یک placeholder. فقط خواندنی [`Orientation`](../orientation). |
+| [Size](../../aspose.slides/placeholder/size) { get; } | دریافت یا تنظیم اندازه یک placeholder. فقط خواندنی [`PlaceholderSize`](../placeholdersize). |
+| [Type](../../aspose.slides/placeholder/type) { get; } | دریافت یا تنظیم نوع یک placeholder. فقط خواندنی [`PlaceholderType`](../placeholdertype). |
 
 ### موارد مرتبط
 

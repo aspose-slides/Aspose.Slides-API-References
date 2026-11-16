@@ -1,14 +1,14 @@
 ---
 title: Video
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar en bild som är inbäddad i en presentation.
+description: Representerar en bild inbäddad i en presentation.
 type: docs
-weight: 11700
+weight: 11720
 url: /sv/aspose.slides/video/
 ---
-## Video-klass
+## Video klass
 
-Representerar en bild som är inbäddad i en presentation.
+Representerar en bild inbäddad i en presentation.
 
 ```csharp
 public class Video : IVideo
@@ -18,14 +18,14 @@ public class Video : IVideo
 
 | Namn | Beskrivning |
 | --- | --- |
-| [BinaryData](../../aspose.slides/video/binarydata) { get; } | Returnerar en kopia av en ljuds data. Vid stora mängder data bör du överväga att använda [`GetStream`](./getstream)-metoden för att förhindra onödig laddning av videons data i minnet eller till och med OutOfMemoryException. Läs-endast Byte[]. |
-| [ContentType](../../aspose.slides/video/contenttype) { get; } | Returnerar en MIME-typ för en video, kodad i [`BinaryData`](./binarydata). Läs-endast String. |
+| [BinaryData](../../aspose.slides/video/binarydata) { get; } | Returnerar en kopia av ett ljuds data. Vid stora datamängder bör man överväga att använda [`GetStream`](./getstream)-metoden för att förhindra onödig inläsning av videons data i minnet eller till och med OutOfMemoryException. Skrivskyddad Byte[]. |
+| [ContentType](../../aspose.slides/video/contenttype) { get; } | Returnerar en MIME-typ för en video, kodad i [`BinaryData`](./binarydata). Skrivskyddad String. |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
-| [GetStream](../../aspose.slides/video/getstream)() | Returnerar en Stream för läsning. Använd 'using' eller stäng strömmen efter användning. |
+| [GetStream](../../aspose.slides/video/getstream)() | Returnerar Stream stream för läsning. Använd 'using' eller stäng strömmen efter användning. |
 
 ### Se även
 

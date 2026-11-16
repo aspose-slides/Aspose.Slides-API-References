@@ -1,14 +1,14 @@
 ---
 title: INotesSize
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar en storlek på notsbilden.
+description: Representerar en storlek på anteckningsbilden.
 type: docs
-weight: 6490
+weight: 6510
 url: /sv/aspose.slides/inotessize/
 ---
 ## INotesSize gränssnitt
 
-Representerar en storlek på notsbilden.
+Representerar en storlek på anteckningsbilden.
 
 ```csharp
 public interface INotesSize
@@ -20,7 +20,7 @@ public interface INotesSize
 | --- | --- |
 | [Size](../../aspose.slides/inotessize/size) { get; set; } | Returnerar eller sätter storleken i punkter. Läs/skriv SizeF. |
 
-### Se också
+### Se även
 
 * namnutrymme [Aspose.Slides](../../aspose.slides)
 * samling [Aspose.Slides](../../)

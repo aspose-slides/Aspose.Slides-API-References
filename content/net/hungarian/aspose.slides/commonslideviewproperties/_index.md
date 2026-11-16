@@ -1,14 +1,14 @@
 ---
 title: CommonSlideViewProperties
 second_title: Aspose.Sildes a .NET API-referencia
-description: Közös dianézet tulajdonságokat képvisel.
+description: Képviseli a közös dia nézet tulajdonságait.
 type: docs
-weight: 2660
+weight: 2680
 url: /hu/aspose.slides/commonslideviewproperties/
 ---
 ## CommonSlideViewProperties osztály
 
-Közös dianézet tulajdonságokat képvisel.
+Képviseli a közös dia nézet tulajdonságait.
 
 ```csharp
 public class CommonSlideViewProperties : ICommonSlideViewProperties
@@ -18,22 +18,22 @@ public class CommonSlideViewProperties : ICommonSlideViewProperties
 
 | Név | Leírás |
 | --- | --- |
-| [DrawingGuides](../../aspose.slides/commonslideviewproperties/drawingguides) { get; } | Visszaadja a rajz segédvonalak gyűjteményét. Csak olvasható [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [Scale](../../aspose.slides/commonslideviewproperties/scale) { get; set; } | Megadja a nézet nagyítási arányát százalékban. Olvasás/írás Int32. |
-| [VariableScale](../../aspose.slides/commonslideviewproperties/variablescale) { get; set; } | Megadja, hogy a nézet tartalma automatikusan méreteződjön a jelenlegi ablakmérethez legjobban illeszkedő módon. Olvasás/írás Boolean. |
+| [DrawingGuides](../../aspose.slides/commonslideviewproperties/drawingguides) { get; } | Visszaadja a rajzolási segédvonalak gyűjteményét. Csak olvasható [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [Scale](../../aspose.slides/commonslideviewproperties/scale) { get; set; } | Megadja a nézet méretezési arányt százalékban. Olvasás/írás Int32. |
+| [VariableScale](../../aspose.slides/commonslideviewproperties/variablescale) { get; set; } | Megadja, hogy a nézet tartalma automatikusan méreteződjön, hogy a legjobban illeszkedjen az aktuális ablakmérethez. Olvasás/írás Boolean. |
 
 ### Példák
 
-Az alábbi példa bemutatja, hogyan állítható be a nagyítás értéke a PowerPoint prezentáció diáján.
+Az alábbi példa bemutatja, hogyan állítható be a nagyítási érték a PowerPoint Presentation diájához.
 
 ```csharp
 [C#]
-// Példányosít egy Presentation objektumot, amely egy prezentációs fájlt képvisel
+// Létrehoz egy Presentation objektumot, amely egy bemutató fájlt reprezentál
 using (Presentation presentation = new Presentation("demo.pptx"))
 {
-    // A prezentáció nézet tulajdonságainak beállítása
-    presentation.ViewProperties.SlideViewProperties.Scale = 100; // Nagyítás értéke százalékban a dianézethez
-	presentation.ViewProperties.NotesViewProperties.Scale = 100; // Nagyítás értéke százalékban a jegyzet nézethez
+    // A Presentation nézet tulajdonságainak beállítása
+    presentation.ViewProperties.SlideViewProperties.Scale = 100; // Nagyítási érték százalékban a dia nézethez
+	presentation.ViewProperties.NotesViewProperties.Scale = 100; // Nagyítási érték százalékban a jegyzetek nézethez
     presentation.Save("Zoom_out.pptx", SaveFormat.Pptx);
 }
 ```

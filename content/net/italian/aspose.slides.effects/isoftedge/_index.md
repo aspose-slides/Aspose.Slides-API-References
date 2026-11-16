@@ -1,14 +1,14 @@
 ---
 title: ISoftEdge
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta un effetto Soft Edge. I bordi della forma sono sfocati mentre il riempimento non è influenzato.
+description: Rappresenta un effetto Soft Edge. I bordi della forma sono sfocati mentre il riempimento non è interessato.
 type: docs
-weight: 3520
+weight: 3540
 url: /it/aspose.slides.effects/isoftedge/
 ---
-## ISoftEdge interfaccia
+## Interfaccia ISoftEdge
 
-Rappresenta un effetto Soft Edge. I bordi della forma sono sfocati, mentre il riempimento non è influenzato.
+Rappresenta un effetto Soft Edge. I bordi della forma sono sfocati, mentre il riempimento non è interessato.
 
 ```csharp
 public interface ISoftEdge : IAccessiblePVIObject<ISoftEdgeEffectiveData>, IImageTransformOperation
@@ -18,9 +18,9 @@ public interface ISoftEdge : IAccessiblePVIObject<ISoftEdgeEffectiveData>, IImag
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/isoftedge/asiaccessiblepviobject) { get; } | Consente di ottenere l’interfaccia base IAccessiblePVIObject. Sola lettura [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/isoftedge/asiimagetransformoperation) { get; } | Consente di ottenere l’interfaccia base IImageTransformOperation. Sola lettura [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Radius](../../aspose.slides.effects/isoftedge/radius) { get; set; } | Specifica il raggio di sfocatura da applicare ai bordi. Lettura/scrittura Double. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/isoftedge/asiaccessiblepviobject) { get; } | Consente di ottenere l'interfaccia base IAccessiblePVIObject. Solo lettura [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/isoftedge/asiimagetransformoperation) { get; } | Consente di ottenere l'interfaccia base IImageTransformOperation. Solo lettura [`IImageTransformOperation`](../iimagetransformoperation). |
+| [Radius](../../aspose.slides.effects/isoftedge/radius) { get; set; } | Specifica il raggio di sfocatura da applicare ai bordi. Lettura/Scrittura Double. |
 
 ### Vedi anche
 

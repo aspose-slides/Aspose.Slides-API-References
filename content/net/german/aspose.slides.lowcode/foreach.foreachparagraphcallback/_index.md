@@ -1,14 +1,14 @@
 ---
 title: ForEach.ForEachParagraphCallback
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Callback, der für jeden Paragraph./foreach/paragraph auf dem BaseSlide../aspose.slides/baseslide aufgerufen wird.
+description: Callback, der für jedes Paragraph./foreach/paragraph auf dem BaseSlide../aspose.slides/baseslide aufgerufen wird.
 type: docs
-weight: 7930
+weight: 7950
 url: /de/aspose.slides.lowcode/foreach.foreachparagraphcallback/
 ---
 ## ForEach.ForEachParagraphCallback Delegat
 
-Der Callback wird für jede [`Paragraph`](../foreach/paragraph) auf dem [`BaseSlide`](../../aspose.slides/baseslide) aufgerufen.
+Callback, der für jedes [`Paragraph`](../foreach/paragraph) auf dem [`BaseSlide`](../../aspose.slides/baseslide) aufgerufen wird.
 
 ```csharp
 public delegate void ForEachParagraphCallback(Paragraph para, BaseSlide slide, int index);
@@ -16,8 +16,8 @@ public delegate void ForEachParagraphCallback(Paragraph para, BaseSlide slide, i
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| para | Paragraph | Der aktuell iterierte Absatz |
-| slide | BaseSlide | Die aktuell iterierte Folie |
+| para | Paragraph | Aktuell iterierter Absatz |
+| slide | BaseSlide | Aktuell iterierte Folie |
 | index | Int32 | Index des aktuellen Absatzes auf der Folie |
 
 ### Siehe auch

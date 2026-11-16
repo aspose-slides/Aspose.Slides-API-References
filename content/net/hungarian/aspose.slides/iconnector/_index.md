@@ -1,14 +1,14 @@
 ---
 title: IConnector
-second_title: Aspose.Sildes .NET API referenciája
+second_title: Aspose.Sildes .NET API hivatkozás
 description: Egy csatlakozót ábrázol.
 type: docs
-weight: 5610
+weight: 5630
 url: /hu/aspose.slides/iconnector/
 ---
 ## IConnector interfész
 
-Egy csatlakozót ábrázol.
+Represents a connector.
 
 ```csharp
 public interface IConnector : IGeometryShape
@@ -16,21 +16,21 @@ public interface IConnector : IGeometryShape
 
 ## Tulajdonságok
 
-| Name | Description |
+| Név | Leírás |
 | --- | --- |
-| [AsIGeometryShape](../../aspose.slides/iconnector/asigeometryshape) { get; } | Lehetővé teszi a base IGeometryShape interfész lekérdezését. Csak olvasható [`IGeometryShape`](../igeometryshape). |
+| [AsIGeometryShape](../../aspose.slides/iconnector/asigeometryshape) { get; } | Lehetővé teszi az IGeometryShape alap interfész lekérését. Csak olvasható [`IGeometryShape`](../igeometryshape). |
 | [ConnectorLock](../../aspose.slides/iconnector/connectorlock) { get; } | Visszaadja a Connector zárolásait. Csak olvasható [`IConnectorLock`](../iconnectorlock). |
-| [EndShapeConnectedTo](../../aspose.slides/iconnector/endshapeconnectedto) { get; set; } | Visszaadja vagy beállítja azt a alakzatot, amelyhez a csatlakozó végét csatolni kell. Olvasás/írás [`IShape`](../ishape). |
-| [EndShapeConnectionSiteIndex](../../aspose.slides/iconnector/endshapeconnectionsiteindex) { get; set; } | Visszaadja vagy beállítja a végalakzat csatlakozási pontjának indexét. Olvasás/írás UInt32. |
-| [ShapeLock](../../aspose.slides/iconnector/shapelock) { get; } | Visszaadja az alakzat zárolásait. Csak olvasható [`IConnectorLock`](../iconnectorlock). |
-| [StartShapeConnectedTo](../../aspose.slides/iconnector/startshapeconnectedto) { get; set; } | Visszaadja vagy beállítja azt az alakzatot, amelyhez a csatlakozó elejét csatolni kell. Olvasás/írás [`IShape`](../ishape). |
-| [StartShapeConnectionSiteIndex](../../aspose.slides/iconnector/startshapeconnectionsiteindex) { get; set; } | Visszaadja vagy beállítja a kezdő alakzat csatlakozási pontjának indexét. Olvasás/írás UInt32. |
+| [EndShapeConnectedTo](../../aspose.slides/iconnector/endshapeconnectedto) { get; set; } | Visszaadja vagy beállítja a formát, amelyhez a csatlakozó végét csatlakoztatni kell. Olvasás/írás [`IShape`](../ishape). |
+| [EndShapeConnectionSiteIndex](../../aspose.slides/iconnector/endshapeconnectionsiteindex) { get; set; } | Visszaadja vagy beállítja a végformához tartozó csatlakozási hely indexét. Olvasás/írás UInt32. |
+| [ShapeLock](../../aspose.slides/iconnector/shapelock) { get; } | Visszaadja a forma zárolásait. Csak olvasható [`IConnectorLock`](../iconnectorlock). |
+| [StartShapeConnectedTo](../../aspose.slides/iconnector/startshapeconnectedto) { get; set; } | Visszaadja vagy beállítja a formát, amelyhez a csatlakozó elejét csatlakoztatni kell. Olvasás/írás [`IShape`](../ishape). |
+| [StartShapeConnectionSiteIndex](../../aspose.slides/iconnector/startshapeconnectionsiteindex) { get; set; } | Visszaadja vagy beállítja a kezdő forma csatlakozási helyének indexét. Olvasás/írás UInt32. |
 
-## Módszerek
+## Metódusok
 
-| Name | Description |
+| Név | Leírás |
 | --- | --- |
-| [Reroute](../../aspose.slides/iconnector/reroute)() | Újrairányítja a csatlakozót, hogy a csatlakoztatott alakzatok között a lehető legrövidebb útvonalat vegye ki. |
+| [Reroute](../../aspose.slides/iconnector/reroute)() | Átirányítja a csatlakozót úgy, hogy a csatlakoztatott formák között a lehető legrövidebb útvonalat vegye. |
 
 ### Lásd még
 

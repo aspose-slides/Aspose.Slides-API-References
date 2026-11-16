@@ -1,14 +1,14 @@
 ---
 title: IMasterLayoutSlideCollection
-second_title: مرجع API Aspose.Sildes لـ .NET
-description: يمثل مجموعة من جميع شرائح التخطيط للماستر المحدد. يمدد واجهة ILayoutSlideCollection بطرق لإضافة/إدراج/إزالة/استنساخ شرائح التخطيط في سياق مجموعات شرائح التخطيط للماستر الفردية.
+second_title: Aspose.Sildes لـ .NET مرجع API
+description: يمثل مجموعة من جميع شرائح التخطيط للعرض الرئيسي المحدد. يمتد الواجهة ILayoutSlideCollection مع طرق لإضافة/إدراج/إزالة/استنساخ شرائح التخطيط في سياق مجموعات شرائح التخطيط الخاصة بالعرض الرئيسي.
 type: docs
-weight: 6380
+weight: 6400
 url: /ar/aspose.slides/imasterlayoutslidecollection/
 ---
-## IMasterLayoutSlideCollection واجهة
+## IMasterLayoutSlideCollection الواجهة
 
-يمثل مجموعة من جميع شرائح التخطيط للماستر المحدد. يمدد واجهة ILayoutSlideCollection بطرق لإضافة/إدراج/إزالة/استنساخ شرائح التخطيط في سياق مجموعات شرائح التخطيط للماستر الفردية.
+يمثل مجموعة من جميع شرائح التخطيط للعرض الرئيسي المحدد. يمتد الواجهة ILayoutSlideCollection مع طرق لإضافة/إدراج/إزالة/استنساخ شرائح التخطيط في سياق مجموعات شرائح التخطيط الخاصة بالعرض الرئيسي.
 
 ```csharp
 public interface IMasterLayoutSlideCollection : ILayoutSlideCollection
@@ -16,24 +16,24 @@ public interface IMasterLayoutSlideCollection : ILayoutSlideCollection
 
 ## الخصائص
 
-| الاسم | الوصف |
+| Name | Description |
 | --- | --- |
-| [AsILayoutSlideCollection](../../aspose.slides/imasterlayoutslidecollection/asilayoutslidecollection) { get; } | يُعيد واجهة ILayoutSlideCollection. للقراءة فقط [`ILayoutSlideCollection`](../ilayoutslidecollection). |
+| [AsILayoutSlideCollection](../../aspose.slides/imasterlayoutslidecollection/asilayoutslidecollection) { get; } | يعيد الواجهة ILayoutSlideCollection. قراءة فقط [`ILayoutSlideCollection`](../ilayoutslidecollection). |
 
 ## الطرق
 
-| الاسم | الوصف |
+| Name | Description |
 | --- | --- |
 | [Add](../../aspose.slides/imasterlayoutslidecollection/add)(SlideLayoutType, string) | يضيف شريحة تخطيط جديدة إلى نهاية المجموعة. |
-| [AddClone](../../aspose.slides/imasterlayoutslidecollection/addclone)(ILayoutSlide) | يضيف نسخة من شريحة التخطيط المحددة إلى نهاية المجموعة. |
-| [Insert](../../aspose.slides/imasterlayoutslidecollection/insert)(int, SlideLayoutType, string) | يدرج شريحة تخطيط جديدة في الموضع المحدد داخل المجموعة. |
-| [InsertClone](../../aspose.slides/imasterlayoutslidecollection/insertclone)(int, ILayoutSlide) | يدرج نسخة من شريحة التخطيط المحددة في الموضع المحدد داخل المجموعة. |
+| [AddClone](../../aspose.slides/imasterlayoutslidecollection/addclone)(ILayoutSlide) | يضيف نسخة من شريحة تخطيط محددة إلى نهاية المجموعة. |
+| [Insert](../../aspose.slides/imasterlayoutslidecollection/insert)(int, SlideLayoutType, string) | يدخل شريحة تخطيط جديدة إلى الموضع المحدد في المجموعة. |
+| [InsertClone](../../aspose.slides/imasterlayoutslidecollection/insertclone)(int, ILayoutSlide) | يدخل نسخة من شريحة تخطيط محددة إلى الموضع المحدد في المجموعة. |
 | [RemoveAt](../../aspose.slides/imasterlayoutslidecollection/removeat)(int) | يزيل العنصر في الفهرس المحدد من المجموعة. |
 | [Reorder](../../aspose.slides/imasterlayoutslidecollection/reorder)(int, ILayoutSlide) | ينقل شريحة التخطيط من المجموعة إلى الموضع المحدد. |
 
 ### انظر أيضًا
 
-* واجهة [ILayoutSlideCollection](../ilayoutslidecollection)
+* الواجهة [ILayoutSlideCollection](../ilayoutslidecollection)
 * مساحة الاسم [Aspose.Slides](../../aspose.slides)
 * التجميع [Aspose.Slides](../../)
 

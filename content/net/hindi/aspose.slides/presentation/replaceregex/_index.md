@@ -1,28 +1,28 @@
 ---
 title: ReplaceRegex
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: नियमित अभिव्यक्ति के सभी मेलों को निर्दिष्ट स्ट्रिंग के साथ बदलता है।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: नियमित अभिव्यक्ति के सभी मेलों को निर्दिष्ट स्ट्रिंग से बदलता है।
 type: docs
-weight: 370
+weight: 380
 url: /hi/aspose.slides/presentation/replaceregex/
 ---
 ## Presentation.ReplaceRegex विधि
 
-नियमित अभिव्यक्ति के सभी मिलान को निर्दिष्ट स्ट्रिंग के साथ बदलता है।
+नियमित अभिव्यक्ति के सभी मिलान को निर्दिष्ट स्ट्रिंग से बदलता है।
 
 ```csharp
 public void ReplaceRegex(Regex regex, string newText, IFindResultCallback callback)
 ```
 
-| परामीटर | प्रकार | विवरण |
+| परिमाण | प्रकार | विवरण |
 | --- | --- | --- |
-| regex | Regex | वह नियमित अभिव्यक्ति Regex जिसे बदलने के लिए स्ट्रिंग्स प्राप्त की जाती हैं। |
-| newText | String | वह स्ट्रिंग जो बदली जाने वाली सभी स्ट्रिंग्स की जगह लेती है। |
+| regex | Regex | प्रतिस्थापित करने के लिए स्ट्रिंग प्राप्त करने हेतु नियमित अभिव्यक्ति Regex। |
+| newText | String | प्रतिस्थापित की जाने वाली सभी स्ट्रिंगों की घटनाओं को बदलने के लिये स्ट्रिंग। |
 | callback | IFindResultCallback | खोज परिणाम प्राप्त करने के लिए कॉलबैक ऑब्जेक्ट [`IFindResultCallback`](../../ifindresultcallback)। |
 
 ### उदाहरण
 
-निम्न कोड उदाहरण दिखाता है कि कैसे नियमित अभिव्यक्ति का उपयोग करके निर्दिष्ट स्ट्रिंग के साथ टेक्स्ट को बदलें।
+निम्न कोड उदाहरण दिखाता है कि निर्दिष्ट स्ट्रिंग के साथ नियमित अभिव्यक्ति का उपयोग करके पाठ को कैसे बदलें।
 
 ```csharp
 [C#]
@@ -35,7 +35,7 @@ using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 }
 ```
 
-### संबंधित देखें
+### देखें
 
 * इंटरफ़ेस [IFindResultCallback](../../ifindresultcallback)
 * क्लास [Presentation](../../presentation)

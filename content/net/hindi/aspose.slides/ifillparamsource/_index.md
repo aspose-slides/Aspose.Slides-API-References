@@ -1,9 +1,9 @@
 ---
 title: IFillParamSource
-second_title: Aspose.Sildes for .NET API संदर्भ
+second_title: Aspose.Sildes .NET के लिए API संदर्भ
 description: सहायक भराव पैरामीटर इंटरफ़ेस।
 type: docs
-weight: 5810
+weight: 5830
 url: /hi/aspose.slides/ifillparamsource/
 ---
 ## IFillParamSource इंटरफ़ेस

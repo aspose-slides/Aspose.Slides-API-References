@@ -1,14 +1,14 @@
 ---
 title: IImageTransformOCollectionEffectiveData
-second_title: Aspose.Sildes .NET के लिए API संदर्भ
-description: एक अपरिवर्तनीय ऑब्जेक्ट जो प्रभावी इमेज ट्रांसफ़ॉर्म इफ़ेक्ट्स के केवल-पढ़ने योग्य संग्रह का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: एक अपरिवर्तनीय वस्तु जो प्रभावी इमेज ट्रांसफ़ॉर्म प्रभावों के केवल पढ़ने योग्य संग्रह का प्रतिनिधित्व करती है।
 type: docs
-weight: 3380
+weight: 3400
 url: /hi/aspose.slides.effects/iimagetransformocollectioneffectivedata/
 ---
 ## IImageTransformOCollectionEffectiveData इंटरफ़ेस
 
-अपरिवर्तनीय ऑब्जेक्ट जो प्रभावी इमेज ट्रांसफ़ॉर्म इफ़ेक्ट्स के केवल-पढ़ने योग्य संग्रह का प्रतिनिधित्व करता है।
+एक अपरिवर्तनीय वस्तु जो प्रभावी इमेज ट्रांसफ़ॉर्म प्रभावों के केवल-पढ़ने योग्य संग्रह का प्रतिनिधित्व करती है।
 
 ```csharp
 public interface IImageTransformOCollectionEffectiveData : IGenericCollection<IEffectEffectiveData>
@@ -18,13 +18,13 @@ public interface IImageTransformOCollectionEffectiveData : IGenericCollection<IE
 
 | नाम | विवरण |
 | --- | --- |
-| [Item](../../aspose.slides.effects/iimagetransformocollectioneffectivedata/item) { get; } | सूचकांक द्वारा तत्व लौटाता है। |
+| [Item](../../aspose.slides.effects/iimagetransformocollectioneffectivedata/item) { get; } | इंडेक्स द्वारा तत्व लौटाता है। |
 
-### टिप्पणियाँ
+### टिप्पणी
 
-नाम IImageTransformOperationCollectionEffectiveData को IImageTransformOCollectionEffectiveData में छोटा किया गया क्योंकि COM नामों की लंबाई 39 से अधिक नहीं हो सकती।
+Name IImageTransformOperationCollectionEffectiveData truncuted to IImageTransformOCollectionEffectiveData because of COM names length cannot be more then 39.
 
-### संबंधित देखें
+### देखें
 
 * इंटरफ़ेस [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * इंटरफ़ेस [IEffectEffectiveData](../ieffecteffectivedata)

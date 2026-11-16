@@ -1,12 +1,12 @@
 ---
 title: ITiffOptions
-second_title: Aspose.Slides för .NET API-referens
+second_title: Aspose.Sildes för .NET API-referens
 description: Tillhandahåller alternativ som styr hur en presentation sparas i TIFF-format.
 type: docs
-weight: 4170
+weight: 4190
 url: /sv/aspose.slides.export/itiffoptions/
 ---
-## ITiffOptions interface
+## ITiffOptions gränssnitt
 
 Tillhandahåller alternativ som styr hur en presentation sparas i TIFF-format.
 
@@ -18,16 +18,16 @@ public interface ITiffOptions : ISaveOptions
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/itiffoptions/asisaveoptions) { get; } | Returnerar ISaveOptions-gränssnittet. Skrivskyddad [`ISaveOptions`](../isaveoptions). |
-| [BwConversionMode](../../aspose.slides.export/itiffoptions/bwconversionmode) { get; set; } | Anger algoritmen för att konvertera en färgbild till en svart-vit bild. Detta alternativ tillämpas endast om [`CompressionType`](./compressiontype) är inställt på CCITT4 eller CCITT3. Läs/skriv [`BlackWhiteConversionMode`](../blackwhiteconversionmode). Standard är Standard. |
-| [CompressionType](../../aspose.slides.export/itiffoptions/compressiontype) { get; set; } | Anger komprimeringstypen. Läs/skriv [`TiffCompressionTypes`](../tiffcompressiontypes). |
-| [DpiX](../../aspose.slides.export/itiffoptions/dpix) { get; set; } | Anger den horisontella upplösningen i punkter per tum. Läs/skriv UInt32. |
-| [DpiY](../../aspose.slides.export/itiffoptions/dpiy) { get; set; } | Anger den vertikala upplösningen i punkter per tum. Läs/skriv UInt32. |
-| [ImageSize](../../aspose.slides.export/itiffoptions/imagesize) { get; set; } | Anger storleken på den genererade TIFF-bilden. Standardvärdet är 0x0, vilket betyder att bildstorleken beräknas utifrån presentationens bildstorlek. Läs/skriv Size. |
-| [InkOptions](../../aspose.slides.export/itiffoptions/inkoptions) { get; } | Tillhandahåller alternativ som styr utseendet för Ink-objekt i det exporterade dokumentet. Skrivskyddad [`IInkOptions`](../iinkoptions) |
+| [AsISaveOptions](../../aspose.slides.export/itiffoptions/asisaveoptions) { get; } | Returnerar ISaveOptions gränssnitt. Skrivskyddad [`ISaveOptions`](../isaveoptions). |
+| [BwConversionMode](../../aspose.slides.export/itiffoptions/bwconversionmode) { get; set; } | Anger algoritmen för att konvertera en färgbild till en svartvit bild. Det här alternativet tillämpas endast om [`CompressionType`](./compressiontype) är satt till CCITT4 eller CCITT3 Läs/skriv [`BlackWhiteConversionMode`](../blackwhiteconversionmode). Standard är Standard. |
+| [CompressionType](../../aspose.slides.export/itiffoptions/compressiontype) { get; set; } | Anger kompressionstypen. Läs/skriv [`TiffCompressionTypes`](../tiffcompressiontypes). |
+| [DpiX](../../aspose.slides.export/itiffoptions/dpix) { get; set; } | Anger horisontell upplösning i punkter per tum. Läs/skriv UInt32. |
+| [DpiY](../../aspose.slides.export/itiffoptions/dpiy) { get; set; } | Anger vertikal upplösning i punkter per tum. Läs/skriv UInt32. |
+| [ImageSize](../../aspose.slides.export/itiffoptions/imagesize) { get; set; } | Anger storleken på en genererad TIFF-bild. Standardvärdet är 0x0, vilket betyder att genererade bildstorlekar beräknas baserat på presentationsbildens storlek. Läs/skriv Size. |
+| [InkOptions](../../aspose.slides.export/itiffoptions/inkoptions) { get; } | Tillhandahåller alternativ som styr utseendet på Ink-objekt i exporterade dokument. Skrivskyddad [`IInkOptions`](../iinkoptions) |
 | [PixelFormat](../../aspose.slides.export/itiffoptions/pixelformat) { get; set; } | Anger pixelformatet för de genererade bilderna. Läs/skriv [`ImagePixelFormat`](../imagepixelformat). |
 | [ShowHiddenSlides](../../aspose.slides.export/itiffoptions/showhiddenslides) { get; set; } | Anger om det genererade dokumentet ska inkludera dolda bilder eller inte. Standard är `false`. |
-| [SlidesLayoutOptions](../../aspose.slides.export/itiffoptions/slideslayoutoptions) { get; set; } | Hämtar eller anger läget som bilder placeras på sidan när en presentation exporteras [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [SlidesLayoutOptions](../../aspose.slides.export/itiffoptions/slideslayoutoptions) { get; set; } | Hämtar eller anger läget i vilket bilder placeras på sidan vid export av en presentation [`ISlidesLayoutOptions`](../islideslayoutoptions). |
 
 ### Se också
 

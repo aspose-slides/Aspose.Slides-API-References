@@ -1,9 +1,9 @@
 ---
 title: IFontSources
-second_title: Aspose.Sildes .NET API referencia
+second_title: Aspose.Sildes .NET API referenciája
 description: Fájl- és memóriaforrásokat biztosít külső betűtípusokhoz.
 type: docs
-weight: 5870
+weight: 5890
 url: /hu/aspose.slides/ifontsources/
 ---
 ## IFontSources interfész
@@ -18,8 +18,8 @@ public interface IFontSources
 
 | Név | Leírás |
 | --- | --- |
-| [FontFolders](../../aspose.slides/ifontsources/fontfolders) { get; set; } | Betűtípusfájlokat tartalmazó mappák. Az ebben a mappákban található összes betűtípusfájl a gyűjteménybe kerül. Rekurzívan keresett mappák. |
-| [MemoryFonts](../../aspose.slides/ifontsources/memoryfonts) { get; set; } | A betűtípusok gyűjteménye, amely byte tömbként van ábrázolva. |
+| [FontFolders](../../aspose.slides/ifontsources/fontfolders) { get; set; } | Mappák, amelyek betűtípusfájlokat tartalmaznak. Az összes ebben a mappában található betűtípusfájl a gyűjteménybe kerül. Rekurzívan keresett mappák. |
+| [MemoryFonts](../../aspose.slides/ifontsources/memoryfonts) { get; set; } | A betűtípusok gyűjteménye, amely byte tömbökkel van ábrázolva. |
 
 ### Lásd még
 

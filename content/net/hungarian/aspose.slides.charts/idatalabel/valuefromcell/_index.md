@@ -1,14 +1,14 @@
 ---
 title: ValueFromCell
-second_title: Aspose.Sildes .NET API-referencia
-description: Lekéri vagy beállítja a munkafüzet adatcelláját. Alkalmazva, ha az IDataLabelFormat.ShowLabelValueFromCell tulajdonság true.
+second_title: Aspose.Sildes .NET API referencia
+description: Lekéri vagy beállítja a munkafüzet adatcelláját. Akkor alkalmazzák, ha az IDataLabelFormat.ShowLabelValueFromCell tulajdonság értéke true.
 type: docs
-weight: 60
+weight: 70
 url: /hu/aspose.slides.charts/idatalabel/valuefromcell/
 ---
 ## IDataLabel.ValueFromCell tulajdonság
 
-Lekéri vagy beállítja a munkafüzet adatcelláját. Alkalmazva, ha az IDataLabelFormat.ShowLabelValueFromCell tulajdonság true.
+Lekéri vagy beállítja a munkafüzet adatcelláját. Akkor alkalmazzák, ha az IDataLabelFormat.ShowLabelValueFromCell tulajdonság értéke true.
 
 ```csharp
 public IChartDataCell ValueFromCell { get; set; }

@@ -3,7 +3,7 @@ title: LeftRightDirectionTransition
 second_title: Aspose.Sildes for .NET API 참조
 description: 좌우 방향 슬라이드 전환 효과.
 type: docs
-weight: 10240
+weight: 10260
 url: /ko/aspose.slides.slideshow/leftrightdirectiontransition/
 ---
 ## LeftRightDirectionTransition 클래스
@@ -16,18 +16,18 @@ public class LeftRightDirectionTransition : TransitionValueBase, ILeftRightDirec
 
 ## 속성
 
-| Name | Description |
+| 이름 | 설명 |
 | --- | --- |
 | [Direction](../../aspose.slides.slideshow/leftrightdirectiontransition/direction) { get; set; } | 전환 방향. 읽기/쓰기 [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
 
 ## 메서드
 
-| Name | Description |
+| 이름 | 설명 |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 두 TransitionValueBase 인스턴스가 동일한지 여부를 결정합니다. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 특정 유형에 대한 해시 함수 역할을 하며, 해시 알고리즘 및 해시 테이블과 같은 데이터 구조에 사용하기에 적합합니다. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 특정 유형에 대한 해시 함수 역할을 하며, 해시 알고리즘 및 해시 테이블과 같은 데이터 구조에서 사용하기에 적합합니다. |
 
-### 참조
+### 참고
 
 * 클래스 [TransitionValueBase](../transitionvaluebase)
 * 인터페이스 [ILeftRightDirectionTransition](../ileftrightdirectiontransition)

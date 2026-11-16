@@ -1,14 +1,14 @@
 ---
 title: IAlphaModulateFixedEffectiveData
-second_title: Aspose.Sildes per il riferimento API .NET
-description: Oggetto immutabile che rappresenta un effetto Alpha Modulate Fixed. I valori di opacità alfa dell'effetto sono moltiplicati per una percentuale fissa.
+second_title: Riferimento API di Aspose.Sildes per .NET
+description: Oggetto immutabile che rappresenta un effetto Alpha Modulate Fixed. I valori di opacità alpha dell'effetto sono moltiplicati per una percentuale fissa.
 type: docs
-weight: 3130
+weight: 3150
 url: /it/aspose.slides.effects/ialphamodulatefixedeffectivedata/
 ---
 ## IAlphaModulateFixedEffectiveData interfaccia
 
-Oggetto immutabile che rappresenta un effetto Alpha Modulate Fixed. I valori di alfa (opacità) dell'effetto sono moltiplicati per una percentuale fissa.
+Oggetto immutabile che rappresenta un effetto Alpha Modulate Fixed. I valori di alpha (opacità) dell'effetto sono moltiplicati per una percentuale fissa.
 
 ```csharp
 public interface IAlphaModulateFixedEffectiveData : IEffectEffectiveData
@@ -16,10 +16,10 @@ public interface IAlphaModulateFixedEffectiveData : IEffectEffectiveData
 
 ## Proprietà
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
-| [Amount](../../aspose.slides.effects/ialphamodulatefixedeffectivedata/amount) { get; } | Restituisce una quantità di effetto in percentuale. Solo lettura Single. |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphamodulatefixedeffectivedata/asieffecteffectivedata) { get; } | Consente di ottenere l'interfaccia base IEffectEffectiveData. Solo lettura [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Amount](../../aspose.slides.effects/ialphamodulatefixedeffectivedata/amount) { get; } | Restituisce una quantità di effetto in percentuale. Sola lettura Single. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphamodulatefixedeffectivedata/asieffecteffectivedata) { get; } | Consente di ottenere l'interfaccia IEffectEffectiveData di base. Sola lettura [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
 ### Vedi anche
 

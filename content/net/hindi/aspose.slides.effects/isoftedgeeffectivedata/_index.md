@@ -1,14 +1,14 @@
 ---
 title: ISoftEdgeEffectiveData
-second_title: Aspose.Sildes .NET के लिए API संदर्भ
-description: एक अपरिवर्तनीय वस्तु जो सॉफ्ट एज प्रभाव का प्रतिनिधित्व करती है। आकार के किनारे धुंधले होते हैं जबकि भराव पर कोई प्रभाव नहीं पड़ता।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: एक अपरिवर्तनीय ऑब्जेक्ट जो सॉफ्ट एज इफ़ेक्ट का प्रतिनिधित्व करता है। आकार के किनारे धुंधले होते हैं जबकि भराव पर कोई प्रभाव नहीं पड़ता।
 type: docs
-weight: 3530
+weight: 3550
 url: /hi/aspose.slides.effects/isoftedgeeffectivedata/
 ---
 ## ISoftEdgeEffectiveData इंटरफ़ेस
 
-एक अपरिवर्तनीय वस्तु जो सॉफ्ट एज प्रभाव का प्रतिनिधित्व करती है। आकार के किनारे धुंधले होते हैं, जबकि भराव पर कोई प्रभाव नहीं पड़ता।
+एक अपरिवर्तनीय ऑब्जेक्ट जो सॉफ्ट एज इफ़ेक्ट का प्रतिनिधित्व करता है। आकार के किनारे धुंधले होते हैं, जबकि भराव पर कोई प्रभाव नहीं पड़ता।
 
 ```csharp
 public interface ISoftEdgeEffectiveData : IEffectEffectiveData
@@ -16,12 +16,12 @@ public interface ISoftEdgeEffectiveData : IEffectEffectiveData
 
 ## गुण
 
-| Name | Description |
+| नाम | विवरण |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/isoftedgeeffectivedata/asieffecteffectivedata) { get; } | बेस IEffectEffectiveData इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IEffectEffectiveData`](../ieffecteffectivedata)। |
-| [Radius](../../aspose.slides.effects/isoftedgeeffectivedata/radius) { get; } | किनारों पर लागू करने के लिए ब्लर की त्रिज्या निर्दिष्ट करता है। केवल-पढ़ने योग्य Double। |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/isoftedgeeffectivedata/asieffecteffectivedata) { get; } | आधार IEffectEffectiveData इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Radius](../../aspose.slides.effects/isoftedgeeffectivedata/radius) { get; } | किनारों पर लागू धुंधलापन की त्रिज्या निर्दिष्ट करता है। केवल-पढ़ने योग्य Double. |
 
-### देखें
+### संबंधित देखें
 
 * इंटरफ़ेस [IEffectEffectiveData](../ieffecteffectivedata)
 * नामस्थान [Aspose.Slides.Effects](../../aspose.slides.effects)

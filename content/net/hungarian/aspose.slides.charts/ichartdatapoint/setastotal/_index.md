@@ -1,14 +1,14 @@
 ---
 title: SetAsTotal
-second_title: Aspose.Sildes .NET API Hivatkozás
-description: Beállítja az adatpontot összegnek. Csak a Waterfall sorozattípusra alkalmazható.
+second_title: Aspose.Sildes .NET API referencia
+description: Beállítja az adatpontot összegként. Csak a Waterfall sorozattípusra alkalmazható.
 type: docs
-weight: 140
+weight: 180
 url: /hu/aspose.slides.charts/ichartdatapoint/setastotal/
 ---
 ## IChartDataPoint.SetAsTotal tulajdonság
 
-Beállítja az adatpontot összegnek. Csak a Waterfall sorozattípusra alkalmazható.
+Beállítja az adatpontot összegként. Csak a Waterfall sorozattípusra alkalmazható.
 
 ```csharp
 public bool SetAsTotal { get; set; }

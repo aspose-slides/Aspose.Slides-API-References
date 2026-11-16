@@ -1,20 +1,20 @@
 ---
 title: Explosion
-second_title: Aspose.Sildes .NET API Referansı
-description: Veri noktasının pasta diliminin merkezinden ne kadar uzaklaştırılacağını belirtir. Okunur/Yazılır Int32.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Veri noktasının pasta merkezinden ne kadar uzaklaştırılacağını belirtir. Okuma/yazma Int32.
 type: docs
-weight: 60
+weight: 100
 url: /tr/aspose.slides.charts/ichartdatapoint/explosion/
 ---
 ## IChartDataPoint.Explosion özelliği
 
-Veri noktasının pasta diliminin merkezinden ne kadar uzaklaştırılacağını belirtir. Okunur/Yazılır Int32.
+Veri noktasının pasta ortasından ne kadar uzaklaştırılacağını belirtir. Okuma/Yazma Int32.
 
 ```csharp
 public int Explosion { get; set; }
 ```
 
-### Ayrıca Bakınız
+### Bakınız
 
 * arayüz [IChartDataPoint](../../ichartdatapoint)
 * ad alanı [Aspose.Slides.Charts](../../ichartdatapoint)

@@ -1,14 +1,14 @@
 ---
 title: VbaReferenceOleTypeLib
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: แสดงการอ้างอิงไลบรารีประเภท OLE Automation
+second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+description: แสดงถึงการอ้างอิงไลบรารีประเภท OLE Automation.
 type: docs
-weight: 11690
+weight: 11710
 url: /th/aspose.slides.vba/vbareferenceoletypelib/
 ---
 ## VbaReferenceOleTypeLib คลาส
 
-แสดงการอ้างอิงไลบรารีประเภท OLE Automation
+แสดงถึงการอ้างอิงไลบรารีประเภท OLE Automation.
 
 ```csharp
 public class VbaReferenceOleTypeLib : IVbaReferenceOleTypeLib
@@ -18,14 +18,14 @@ public class VbaReferenceOleTypeLib : IVbaReferenceOleTypeLib
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [VbaReferenceOleTypeLib](vbareferenceoletypelib)(string, string) | คอนสตรัคเตอร์นี้สร้างการอ้างอิงไลบรารีประเภท OLE Automation ใหม่ |
+| [VbaReferenceOleTypeLib](vbareferenceoletypelib)(string, string) | คอนสตรัคเตอร์นี้สร้างการอ้างอิงไลบรารีประเภท OLE Automation ใหม่. |
 
 ## คุณสมบัติ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Libid](../../aspose.slides.vba/vbareferenceoletypelib/libid) { get; set; } | แสดงตัวระบุของไลบรารีประเภท Automation. อ่าน/เขียน String. |
-| [Name](../../aspose.slides.vba/vbareferenceoletypelib/name) { get; set; } | แสดงชื่อของการอ้างอิงโครงการ VBA. อ่าน/เขียน String. |
+| [Libid](../../aspose.slides.vba/vbareferenceoletypelib/libid) { get; set; } | แสดงถึงตัวระบุของไลบรารีประเภท Automation. อ่าน/เขียน String. |
+| [Name](../../aspose.slides.vba/vbareferenceoletypelib/name) { get; set; } | แสดงถึงชื่อของการอ้างอิงโครงการ VBA. อ่าน/เขียน String. |
 
 ### ดูเพิ่มเติม
 

@@ -1,14 +1,14 @@
 ---
 title: SlideShowTransition
-second_title: Aspose.Sildes لـ .NET مرجع API
+second_title: مرجع API لـ Aspose.Sildes لـ .NET
 description: يمثل انتقال عرض الشرائح.
 type: docs
-weight: 10320
+weight: 10340
 url: /ar/aspose.slides.slideshow/slideshowtransition/
 ---
-## SlideShowTransition فئة
+## فئة SlideShowTransition
 
-Represents slide show transition.
+يمثل انتقال عرض الشرائح.
 
 ```csharp
 public class SlideShowTransition : DomObject<BaseSlide>, ISlideShowTransition
@@ -18,16 +18,16 @@ public class SlideShowTransition : DomObject<BaseSlide>, ISlideShowTransition
 
 | الاسم | الوصف |
 | --- | --- |
-| [AdvanceAfter](../../aspose.slides.slideshow/slideshowtransition/advanceafter) { get; set; } | هذه الخاصية تحدد ما إذا كان عرض الشرائح سيتنقل إلى الشريحة التالية بعد وقت محدد. قراءة/كتابة Boolean. |
-| [AdvanceAfterTime](../../aspose.slides.slideshow/slideshowtransition/advanceaftertime) { get; set; } | يحدد الوقت، بالمللي ثانية، الذي يبدأ بعده الانتقال. يمكن استخدام هذا الإعداد بالتزامن مع الخاصية advClick. إذا لم يتم تحديد هذه الخاصية يُفترض عدم وجود تقدم تلقائي. قراءة/كتابة UInt32. |
-| [AdvanceOnClick](../../aspose.slides.slideshow/slideshowtransition/advanceonclick) { get; set; } | يحدد ما إذا كان النقر بالفأرة سيؤدي إلى تقدم الشريحة أم لا. إذا لم يتم تحديد هذه الخاصية يُفترض قيمة true. قراءة/كتابة Boolean. |
-| [Duration](../../aspose.slides.slideshow/slideshowtransition/duration) { get; set; } | يحصل على أو يضبط مدة تأثير انتقال الشريحة بالمللي ثانية. قراءة/كتابة Int32. |
-| [Sound](../../aspose.slides.slideshow/slideshowtransition/sound) { get; set; } | يعيد أو يضبط بيانات الصوت المضمنة. قراءة/كتابة [`IAudio`](../../aspose.slides/iaudio). |
-| [SoundIsBuiltIn](../../aspose.slides.slideshow/slideshowtransition/soundisbuiltin) { get; set; } | يحدد ما إذا كان هذا الصوت صوتًا مدمجًا أم لا. إذا تم ضبط هذه الخاصية إلى true يتم تنبيه التطبيق المولد للتحقق من الخاصية name المحددة لهذا الصوت في قائمة الأصوات المدمجة ويمكنه حينئذٍ عرض اسم مخصص أو واجهة حسب الحاجة. قراءة/كتابة Boolean. |
-| [SoundLoop](../../aspose.slides.slideshow/slideshowtransition/soundloop) { get; set; } | هذه الخاصية تحدد ما إذا كان الصوت سيتكرر حتى يحدث حدث صوتي لاحق في عرض الشرائح. قراءة/كتابة Boolean. |
-| [SoundMode](../../aspose.slides.slideshow/slideshowtransition/soundmode) { get; set; } | يضبط أو يعيد وضع الصوت لانتقال الشريحة. قراءة/كتابة [`TransitionSoundMode`](../transitionsoundmode). |
-| [SoundName](../../aspose.slides.slideshow/slideshowtransition/soundname) { get; set; } | يحدد اسمًا مقروءًا للبشر لصوت الانتقال. يجب تعيين الخاصية [`Sound`](./sound) للحصول على اسم الصوت أو ضبطه. قراءة/كتابة String. |
-| [Speed](../../aspose.slides.slideshow/slideshowtransition/speed) { get; set; } | يحدد سرعة الانتقال التي ستُستخدم عند الانتقال من الشريحة الحالية إلى التالية. قراءة/كتابة [`TransitionSpeed`](../transitionspeed). |
+| [AdvanceAfter](../../aspose.slides.slideshow/slideshowtransition/advanceafter) { get; set; } | هذه الخاصية تحدد ما إذا كان عرض الشرائح سيتنقل إلى الشريحة التالية بعد وقت معين. قراءة/كتابة Boolean. |
+| [AdvanceAfterTime](../../aspose.slides.slideshow/slideshowtransition/advanceaftertime) { get; set; } | تحدد الوقت بالمللي ثانية بعده يجب أن يبدأ الانتقال. قد يُستخدم هذا الإعداد بالاشتراك مع الخاصية advClick. إذا لم يتم تحديد هذه الخاصية يُفترض أنه لن يحدث تقدم تلقائي. قراءة/كتابة UInt32. |
+| [AdvanceOnClick](../../aspose.slides.slideshow/slideshowtransition/advanceonclick) { get; set; } | تحدد ما إذا كانت نقرة الفأرة ستنتقل بالشريحة أم لا. إذا لم يتم تحديد هذه الخاصية يُفترض أنها true. قراءة/كتابة Boolean. |
+| [Duration](../../aspose.slides.slideshow/slideshowtransition/duration) { get; set; } | تحصل أو تعيّن مدة تأثير انتقال الشريحة بالمللي ثانية. قراءة/كتابة Int32. |
+| [Sound](../../aspose.slides.slideshow/slideshowtransition/sound) { get; set; } | تحصل أو تعيّن بيانات الصوت المدمجة. قراءة/كتابة [`IAudio`](../../aspose.slides/iaudio). |
+| [SoundIsBuiltIn](../../aspose.slides.slideshow/slideshowtransition/soundisbuiltin) { get; set; } | تحدد ما إذا كان هذا الصوت صوتًا مدمجًا أم لا. إذا تم تعيين هذه الخاصية إلى true فإن التطبيق المولد سيُبلّغ للتحقق من خاصية الاسم المحددة لهذا الصوت في قائمة الأصوات المدمجة ويمكنه بعد ذلك إظهار اسم مخصص أو واجهة حسب الحاجة. قراءة/كتابة Boolean. |
+| [SoundLoop](../../aspose.slides.slideshow/slideshowtransition/soundloop) { get; set; } | هذه الخاصية تحدد ما إذا كان الصوت سيعيد تشغيل نفسه حتى يحدث حدث صوتي التالي في عرض الشرائح. قراءة/كتابة Boolean. |
+| [SoundMode](../../aspose.slides.slideshow/slideshowtransition/soundmode) { get; set; } | تعيين أو الحصول على وضع الصوت لانتقال الشريحة. قراءة/كتابة [`TransitionSoundMode`](../transitionsoundmode). |
+| [SoundName](../../aspose.slides.slideshow/slideshowtransition/soundname) { get; set; } | تحدد اسمًا قابلًا للقراءة البشرية لصوت الانتقال. يجب تعيين الخاصية [`Sound`](./sound) للحصول أو تعيين اسم الصوت. قراءة/كتابة String. |
+| [Speed](../../aspose.slides.slideshow/slideshowtransition/speed) { get; set; } | تحدد سرعة الانتقال التي سيستخدمها عند الانتقال من الشريحة الحالية إلى التالية. قراءة/كتابة [`TransitionSpeed`](../transitionspeed). |
 | [Type](../../aspose.slides.slideshow/slideshowtransition/type) { get; set; } | نوع الانتقال. قراءة/كتابة [`TransitionType`](../transitiontype). |
 | [Value](../../aspose.slides.slideshow/slideshowtransition/value) { get; } | قيمة انتقال عرض الشرائح. قراءة فقط [`ITransitionValueBase`](../itransitionvaluebase). |
 
@@ -35,7 +35,7 @@ public class SlideShowTransition : DomObject<BaseSlide>, ISlideShowTransition
 
 | الاسم | الوصف |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/slideshowtransition/equals)(object) | يحدد ما إذا كانت مثيلتي SlideShowTransition متساويتين. قراءة/كتابة Boolean. |
+| override [Equals](../../aspose.slides.slideshow/slideshowtransition/equals)(object) | يحدد ما إذا كانت كائني SlideShowTransition متساويين. قراءة/كتابة Boolean. |
 | override [GetHashCode](../../aspose.slides.slideshow/slideshowtransition/gethashcode)() | تعمل كدالة تجزئة لنوع معين، مناسبة للاستخدام في خوارزميات التجزئة وهياكل البيانات مثل جدول التجزئة. |
 
 ### انظر أيضًا
@@ -43,7 +43,7 @@ public class SlideShowTransition : DomObject<BaseSlide>, ISlideShowTransition
 * فئة [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * فئة [BaseSlide](../../aspose.slides/baseslide)
 * واجهة [ISlideShowTransition](../../aspose.slides/islideshowtransition)
-* نطاق [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
+* فضاء الاسم [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * تجميع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

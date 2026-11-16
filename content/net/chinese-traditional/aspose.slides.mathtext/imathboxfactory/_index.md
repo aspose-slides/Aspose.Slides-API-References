@@ -1,14 +1,14 @@
 ---
 title: IMathBoxFactory
 second_title: Aspose.Sildes for .NET API 參考
-description: 允許建立數學方框
+description: 允許建立一個數學盒子
 type: docs
-weight: 8200
+weight: 8220
 url: /zh-hant/aspose.slides.mathtext/imathboxfactory/
 ---
 ## IMathBoxFactory 介面
 
-允許建立數學方框
+允許建立一個數學盒子
 
 ```csharp
 public interface IMathBoxFactory
@@ -18,13 +18,13 @@ public interface IMathBoxFactory
 
 | 名稱 | 說明 |
 | --- | --- |
-| [CreateMathBox](../../aspose.slides.mathtext/imathboxfactory/createmathbox)(IMathElement) | 透過套用於元素來建立數學方框 |
+| [CreateMathBox](../../aspose.slides.mathtext/imathboxfactory/createmathbox)(IMathElement) | 透過套用於元素來建立數學盒子 |
 
 ### 備註
 
-供 COM 相容性使用
+用於 COM 相容性
 
-### 另請參閱
+### 另見
 
 * 命名空間 [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * 組件 [Aspose.Slides](../../)

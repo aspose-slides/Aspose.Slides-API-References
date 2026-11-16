@@ -3,12 +3,12 @@ title: OrientationTransition
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Oriëntatie dia overgangseffect.
 type: docs
-weight: 10270
+weight: 10290
 url: /nl/aspose.slides.slideshow/orientationtransition/
 ---
 ## OrientationTransition klasse
 
-Oriëntatie dia overgangseffect.
+Oriëntatie diaovergangseffect.
 
 ```csharp
 public class OrientationTransition : TransitionValueBase, IOrientationTransition
@@ -24,8 +24,8 @@ public class OrientationTransition : TransitionValueBase, IOrientationTransition
 
 | Naam | Beschrijving |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Bepaalt of de twee TransitionValueBase instanties gelijk zijn. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Dient als een hashfunctie voor een specifiek type, geschikt voor gebruik in hash-algoritmen en datastructuren zoals een hashtabel. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Bepaalt of de twee TransitionValueBase-instanties gelijk zijn. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Dient als een hash-functie voor een bepaald type, geschikt voor gebruik in hash-algoritmen en datastructuren zoals een hashtabel. |
 
 ### Zie ook
 

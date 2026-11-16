@@ -1,14 +1,14 @@
 ---
 title: FontSources
-second_title: Aspose.Sildes для .NET справочник API
-description: Обеспечивает файловые и памятьные источники для внешних шрифтов.
+second_title: Aspose.Sildes для .NET API Reference
+description: Предоставляет файловые и памятьные источники для внешних шрифтов.
 type: docs
-weight: 4860
+weight: 4880
 url: /ru/aspose.slides/fontsources/
 ---
 ## FontSources класс
 
-Обеспечивает файловые и памятьные источники для внешних шрифтов.
+Предоставляет файловые и памятьные источники для внешних шрифтов.
 
 ```csharp
 public class FontSources : IFontSources
@@ -24,7 +24,7 @@ public class FontSources : IFontSources
 
 | Имя | Описание |
 | --- | --- |
-| [FontFolders](../../aspose.slides/fontsources/fontfolders) { get; set; } | Папки, содержащие файлы шрифтов. Все файлы шрифтов, находящиеся в этих папках, включаются в коллекцию. Папки, которые просматриваются рекурсивно. |
+| [FontFolders](../../aspose.slides/fontsources/fontfolders) { get; set; } | Папки, содержащие файлы шрифтов. Все файлы шрифтов, расположенные в этих папках, включаются в коллекцию. Папки, которые ищутся рекурсивно. |
 | [MemoryFonts](../../aspose.slides/fontsources/memoryfonts) { get; set; } | Коллекция шрифтов, представленных в виде массивов байтов. |
 
 ### См. также

@@ -1,14 +1,14 @@
 ---
 title: ColumnCollection
-second_title: Aspose.Sildes .NET API Referenciája
-description: A táblázatban lévő oszlopok gyűjteményét képviseli.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: A táblázat oszlopainak gyűjteményét képviseli.
 type: docs
-weight: 2600
+weight: 2620
 url: /hu/aspose.slides/columncollection/
 ---
 ## ColumnCollection osztály
 
-A táblázatban lévő oszlopok gyűjteményét képviseli.
+A táblázat oszlopainak gyűjteményét képviseli.
 
 ```csharp
 public sealed class ColumnCollection : DomObject<RowCollection>, IColumnCollection
@@ -19,7 +19,7 @@ public sealed class ColumnCollection : DomObject<RowCollection>, IColumnCollecti
 | Név | Leírás |
 | --- | --- |
 | [Count](../../aspose.slides/columncollection/count) { get; } | Visszaadja a gyűjteményben lévő oszlopok számát. Csak olvasható Int32. |
-| [IsSynchronized](../../aspose.slides/columncollection/issynchronized) { get; } | Visszaad egy értéket, amely jelzi, hogy a gyűjteményhez való hozzáférés szinkronizált-e (szálbiztos). Csak olvasható Boolean. |
+| [IsSynchronized](../../aspose.slides/columncollection/issynchronized) { get; } | Visszaad egy értéket, amely jelzi, hogy a gyűjteményhez való hozzáférés szinkronizált (szálbiztos). Csak olvasható Boolean. |
 | [Item](../../aspose.slides/columncollection/item) { get; } | Visszaadja a megadott indexű oszlopot. Csak olvasható [`Column`](../column). |
 | [SyncRoot](../../aspose.slides/columncollection/syncroot) { get; } | Visszaad egy szinkronizációs gyökeret. Csak olvasható Object. |
 
@@ -27,10 +27,10 @@ public sealed class ColumnCollection : DomObject<RowCollection>, IColumnCollecti
 
 | Név | Leírás |
 | --- | --- |
-| [AddClone](../../aspose.slides/columncollection/addclone)(IColumn, bool) | Létrehoz egy másolatot a megadott sablon sorból, és a táblázat aljára illeszti. |
-| [CopyTo](../../aspose.slides/columncollection/copyto)(Array, int) | Az összes elemet átmásolja a gyűjteményből a megadott tömbbe. |
+| [AddClone](../../aspose.slides/columncollection/addclone)(IColumn, bool) | Létrehoz egy másolatot a megadott sablon sorról, és a táblázat aljára illeszti. |
+| [CopyTo](../../aspose.slides/columncollection/copyto)(Array, int) | Másolja a gyűjtemény összes elemét a megadott tömbbe. |
 | [GetEnumerator](../../aspose.slides/columncollection/getenumerator)() | Visszaad egy enumerátort, amely végigiterál a gyűjteményen. |
-| [InsertClone](../../aspose.slides/columncollection/insertclone)(int, IColumn, bool) | Létrehoz egy másolatot a megadott sablon oszlopból, és a táblázat megadott pozíciójába illeszti. |
+| [InsertClone](../../aspose.slides/columncollection/insertclone)(int, IColumn, bool) | Létrehoz egy másolatot a megadott sablon oszlopról, és a táblázat megadott pozíciójába illeszti. |
 | [RemoveAt](../../aspose.slides/columncollection/removeat)(int, bool) | Eltávolít egy oszlopot a megadott pozícióban a táblázatból. |
 
 ### Lásd még

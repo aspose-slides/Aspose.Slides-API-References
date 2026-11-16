@@ -1,14 +1,14 @@
 ---
 title: FillOverlay
-second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Représente un effet de remplissage superposé. Un remplissage superposé peut être utilisé pour spécifier un remplissage supplémentaire pour un objet et fusionner les deux remplissages.
+second_title: Référence API Aspose.Sildes pour .NET
+description: Représente un effet Fill Overlay. Un Fill Overlay peut être utilisé pour spécifier un remplissage supplémentaire pour un objet et mélanger les deux remplissages ensemble.
 type: docs
-weight: 2980
+weight: 3000
 url: /fr/aspose.slides.effects/filloverlay/
 ---
 ## FillOverlay classe
 
-Représente un effet Fill Overlay. Un Fill Overlay peut être utilisé pour spécifier un remplissage supplémentaire pour un objet et fusionner les deux remplissages ensemble.
+Représente un effet Fill Overlay. Un Fill Overlay peut être utilisé pour spécifier un remplissage supplémentaire pour un objet et mélanger les deux remplissages ensemble.
 
 ```csharp
 public sealed class FillOverlay : ImageTransformOperation, IFillOverlay
@@ -16,7 +16,7 @@ public sealed class FillOverlay : ImageTransformOperation, IFillOverlay
 
 ## Propriétés
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permet d'obtenir l'interface de base IPresentationComponent. Lecture seule [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 | [Blend](../../aspose.slides.effects/filloverlay/blend) { get; set; } | FillBlendMode. Lecture/écriture [`FillBlendMode`](../../aspose.slides/fillblendmode). |
@@ -24,10 +24,10 @@ public sealed class FillOverlay : ImageTransformOperation, IFillOverlay
 
 ## Méthodes
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/filloverlay/equals)(object) | Détermine si le [`FillOverlay`](../filloverlay) spécifié est égal au [`FillOverlay`](../filloverlay) actuel. |
-| [GetEffective](../../aspose.slides.effects/filloverlay/geteffective)() | Obtient les données d'effet Fill Overlay effectives avec l'héritage appliqué. |
+| [GetEffective](../../aspose.slides.effects/filloverlay/geteffective)() | Obtient les données effectives de l'effet Fill Overlay avec l'héritage appliqué. |
 | override [GetHashCode](../../aspose.slides.effects/filloverlay/gethashcode)() | Sert de fonction de hachage pour un type particulier. |
 
 ### Voir aussi

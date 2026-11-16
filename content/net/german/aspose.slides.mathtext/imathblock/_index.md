@@ -1,14 +1,14 @@
 ---
 title: IMathBlock
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Gibt eine Instanz von mathematischem Text an, die innerhalb eines MathParagraph enthalten ist und in einer eigenen Zeile beginnt. Alle mathematischen Bereiche, einschließlich Gleichungen, Ausdrücke, Arrays von Gleichungen oder Ausdrücken und Formeln, werden durch einen Math-Block dargestellt.
+description: Gibt eine Instanz von mathematischem Text an, die innerhalb eines MathParagraph enthalten ist und in einer eigenen Zeile beginnt. Alle mathematischen Zonen, einschließlich Gleichungen, Ausdrücke, Arrays von Gleichungen oder Ausdrücken und Formeln, werden durch einen Math-Block dargestellt.
 type: docs
-weight: 8140
+weight: 8160
 url: /de/aspose.slides.mathtext/imathblock/
 ---
 ## IMathBlock Schnittstelle
 
-Gibt eine Instanz von mathematischem Text an, die innerhalb eines MathParagraph enthalten ist und in einer eigenen Zeile beginnt. Alle mathematischen Bereiche, einschließlich Gleichungen, Ausdrücke, Gleichungs- oder Ausdrucks-Arrays und Formeln, werden durch einen Math-Block dargestellt.
+Specifies an instance of mathematical text that contained within a MathParagraph and starts on its own line. All math zones, including equations, expressions, arrays of equations or expressions, and formulas are represented by math block.
 
 ```csharp
 public interface IMathBlock : IMathElement, IMathElementCollection
@@ -26,8 +26,8 @@ public interface IMathBlock : IMathElement, IMathElementCollection
 | Name | Beschreibung |
 | --- | --- |
 | [Delimit](../../aspose.slides.mathtext/imathblock/delimit)(char) | Begrenzt alle Kindelemente mit Trennzeichen (ohne die Klammern) |
-| [Enclose](../../aspose.slides.mathtext/imathblock/enclose)(char, char, char) | Umschließt die Kindelemente dieses Blocks mit angegebenen Zeichen wie Klammern oder anderen als Rahmen und begrenzt sie mit einem Trennzeichen |
-| [JoinBlock](../../aspose.slides.mathtext/imathblock/joinblock)(IMathBlock) | Verknüpft einen weiteren mathematischen Block mit diesem |
+| [Enclose](../../aspose.slides.mathtext/imathblock/enclose)(char, char, char) | Umfasst die Kindelemente dieses Blocks mit angegebenen Zeichen wie Klammern oder anderen als Rahmen und trennt sie mit einem Trennzeichen |
+| [JoinBlock](../../aspose.slides.mathtext/imathblock/joinblock)(IMathBlock) | Verbindet einen anderen mathematischen Block mit diesem |
 | [WriteAsMathMl](../../aspose.slides.mathtext/imathblock/writeasmathml)(Stream) | Speichert den Inhalt dieses [`IMathBlock`](../imathblock) als MathML |
 
 ### Beispiele

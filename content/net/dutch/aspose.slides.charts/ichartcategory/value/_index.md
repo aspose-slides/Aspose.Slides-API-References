@@ -3,7 +3,7 @@ title: Value
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Als UseCell true is, dan vertegenwoordigt deze eigenschap de AsCell.Value eigenschap. Als UseCell false is, dan vertegenwoordigt deze eigenschap de AsLiteral eigenschap. Lezen/Schrijven Object.
 type: docs
-weight: 50
+weight: 60
 url: /nl/aspose.slides.charts/ichartcategory/value/
 ---
 ## IChartCategory.Value eigenschap

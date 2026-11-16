@@ -1,9 +1,9 @@
 ---
 title: IThemeEffectiveData
 second_title: Aspose.Sildes for .NET API 参考
-description: 不可变对象，包含有效主题属性。
+description: 包含有效主题属性的不可变对象。
 type: docs
-weight: 11380
+weight: 11400
 url: /zh/aspose.slides.theme/ithemeeffectivedata/
 ---
 ## IThemeEffectiveData 接口
@@ -31,7 +31,7 @@ public interface IThemeEffectiveData
 
 此接口与 [`ITheme`](../itheme) 接口一起使用，以返回应用继承后的有效格式化值。
 
-### 另请参阅
+### 另见
 
 * 命名空间 [Aspose.Slides.Theme](../../aspose.slides.theme)
 * 程序集 [Aspose.Slides](../../)

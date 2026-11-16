@@ -1,14 +1,14 @@
 ---
 title: ReplaceRegex
-second_title: Aspose.Sildes for .NET API 參考
-description: 將正則表達式的所有匹配項替換為指定字串。
+second_title: Aspose.Sildes for .NET API 參考文件
+description: 將正則表達式的所有匹配項替換為指定的字串。
 type: docs
-weight: 120
+weight: 130
 url: /zh-hant/aspose.slides/textframe/replaceregex/
 ---
 ## TextFrame.ReplaceRegex 方法
 
-將正則表達式的所有匹配項替換為指定字串。
+將正則表達式的所有匹配項替換為指定的字串。
 
 ```csharp
 public void ReplaceRegex(Regex regex, string newText, IFindResultCallback callback)
@@ -16,25 +16,25 @@ public void ReplaceRegex(Regex regex, string newText, IFindResultCallback callba
 
 | 參數 | 類型 | 說明 |
 | --- | --- | --- |
-| regex | Regex | 用於取得要被取代的字串的正則表達式 Regex。 |
-| newText | String | 用於取代所有要被取代字串的字串。 |
-| callback | IFindResultCallback | 用於保存取代作業結果的回呼物件 [`IFindResultCallback`](../../ifindresultcallback)。 |
+| regex | Regex | 用於取得要取代之字串的正則表達式 Regex。 |
+| newText | String | 用於取代所有要被取代字串的 String。 |
+| callback | IFindResultCallback | 用於儲存取代操作結果的回呼物件 IFindResultCallback [`IFindResultCallback`](../../ifindresultcallback)。 |
 
 ### 範例
 
-以下範例程式碼展示如何使用正則表達式和指定字串來取代文字。
+以下範例程式碼示範如何使用正則表達式搭配指定字串來取代文字。
 
 ```csharp
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx")){
 	Regex regex = new Regex(@"\b[^\s]{10,}\b");
-	// 將所有長度為 10 個字元或以上的單字取代為 '***'
+	// 將所有長度為 10 或以上的字詞取代為 '***'
 	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.ReplaceRegex(regex, "***", null);
 	presentation.Save("SomePresentation-out.pptx", SaveFormat.Pptx);
 }
 ```
 
-### 參閱
+### 另請參閱
 
 * 介面 [IFindResultCallback](../../ifindresultcallback)
 * 類別 [TextFrame](../../textframe)

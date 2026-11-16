@@ -1,14 +1,14 @@
 ---
 title: ChartPlotArea
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: चार्ट को प्लॉट करने के लिए जहाँ आयत होना चाहिए, उसे दर्शाता है।
+description: ऐसा आयत दर्शाता है जहाँ चार्ट प्लॉट किया जाना चाहिए।
 type: docs
-weight: 1420
+weight: 1430
 url: /hi/aspose.slides.charts/chartplotarea/
 ---
 ## ChartPlotArea क्लास
 
-वह आयत दर्शाता है जहाँ चार्ट को प्लॉट किया जाना चाहिए।
+चार्ट को प्लॉट करने के लिए आयत को दर्शाता है।
 
 ```csharp
 public class ChartPlotArea : DomObject<Chart>, IChartPlotArea
@@ -18,22 +18,22 @@ public class ChartPlotArea : DomObject<Chart>, IChartPlotArea
 
 | नाम | विवरण |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/chartplotarea/actualheight) { get; } | चार्ट तत्व की वास्तविक ऊँचाई निर्दिष्ट करता है। वास्तविक मान प्राप्त करने के लिए पहले IChart.ValidateChartLayout() मेथड को कॉल करें। Read Single. |
-| [ActualWidth](../../aspose.slides.charts/chartplotarea/actualwidth) { get; } | चार्ट तत्व की वास्तविक चौड़ाई निर्दिष्ट करता है। वास्तविक मान प्राप्त करने के लिए पहले IChart.ValidateChartLayout() मेथड को कॉल करें। Read Single. |
-| [ActualX](../../aspose.slides.charts/chartplotarea/actualx) { get; } | चार्ट तत्व का वास्तविक x स्थान (बाईं ओर) चार्ट के बाएँ ऊपर कोने के सापेक्ष निर्दिष्ट करता है। वास्तविक मान प्राप्त करने के लिए पहले IChart.ValidateChartLayout() मेथड को कॉल करें। Read Single. |
-| [ActualY](../../aspose.slides.charts/chartplotarea/actualy) { get; } | चार्ट तत्व का वास्तविक शीर्ष चार्ट के बाएँ ऊपर कोने के सापेक्ष निर्दिष्ट करता है। वास्तविक मान प्राप्त करने के लिए पहले IChart.ValidateChartLayout() मेथड को कॉल करें। Read Single. |
-| [Bottom](../../aspose.slides.charts/chartplotarea/bottom) { get; } | नीचे। Read-only Single. |
-| [Chart](../../aspose.slides.charts/chartplotarea/chart) { get; } | चार्ट। Read-only [`IChart`](../ichart). |
-| [Format](../../aspose.slides.charts/chartplotarea/format) { get; } | प्लॉट एरिया का फ़ॉर्मेट लौटाता है। Read-only [`IFormat`](../iformat). |
-| [Height](../../aspose.slides.charts/chartplotarea/height) { get; set; } | प्लॉट एरिया बाउंडिंग बॉक्स की ऊँचाई को चार्ट की ऊँचाई के अनुपात (0 से 1) के रूप में लौटाता है या सेट करता है। Read/write Single. |
-| [IsLocationAutocalculated](../../aspose.slides.charts/chartplotarea/islocationautocalculated) { get; } | यह निर्धारित करता है कि स्थान कैसे गणना किया जाना चाहिए: true – स्वचालित रूप से गणना किया गया; X, Y, Width, Height प्रॉपर्टीज़ द्वारा परिभाषित। Read-only Boolean. |
-| [LayoutTargetType](../../aspose.slides.charts/chartplotarea/layouttargettype) { get; set; } | यदि प्लॉट एरिया का लेआउट मैन्युअल रूप से परिभाषित किया गया है तो यह प्रॉपर्टी निर्धारित करती है कि प्लॉट एरिया को उसके अंदर (धुरी और धुरी लेबल शामिल नहीं) या बाहर (धुरी और धुरी लेबल सहित) लेआउट किया जाए। Read/write [`LayoutTargetType`](./layouttargettype). |
-| [Right](../../aspose.slides.charts/chartplotarea/right) { get; } | दाईं ओर। Read-only Single. |
-| [Width](../../aspose.slides.charts/chartplotarea/width) { get; set; } | प्लॉट एरिया बाउंडिंग बॉक्स की चौड़ाई को चार्ट की चौड़ाई के अनुपात (0 से 1) के रूप में लौटाता है या सेट करता है। Read/write Single. |
-| [X](../../aspose.slides.charts/chartplotarea/x) { get; set; } | प्लॉट एरिया बाउंडिंग बॉक्स के ऊपर बाएँ कोने के x निर्देशांक को चार्ट की चौड़ाई के अनुपात (0 से 1) के रूप में लौटाता है या सेट करता है। Read/write Single. |
-| [Y](../../aspose.slides.charts/chartplotarea/y) { get; set; } | प्लॉट एरिया बाउंडिंग बॉक्स के ऊपर बाएँ कोने के y निर्देशांक को चार्ट की ऊँचाई के अनुपात (0 से 1) के रूप में लौटाता है या सेट करता है। Read/write Single. |
+| [ActualHeight](../../aspose.slides.charts/chartplotarea/actualheight) { get; } | चार्ट तत्व की वास्तविक ऊँचाई निर्दिष्ट करता है। वास्तविक मान प्राप्त करने के लिए पहले मेथड IChart.ValidateChartLayout() को कॉल करें। Read Single. |
+| [ActualWidth](../../aspose.slides.charts/chartplotarea/actualwidth) { get; } | चार्ट तत्व की वास्तविक चौड़ाई निर्दिष्ट करता है। वास्तविक मान प्राप्त करने के लिए पहले मेथड IChart.ValidateChartLayout() को कॉल करें। Read Single. |
+| [ActualX](../../aspose.slides.charts/chartplotarea/actualx) { get; } | चार्ट तत्व का वास्तविक x स्थान (बायाँ) चार्ट के बाएँ ऊपर कोने के सापेक्ष निर्दिष्ट करता है। वास्तविक मान प्राप्त करने के लिए पहले मेथड IChart.ValidateChartLayout() को कॉल करें। Read Single. |
+| [ActualY](../../aspose.slides.charts/chartplotarea/actualy) { get; } | चार्ट तत्व का वास्तविक शीर्ष चार्ट के बाएँ ऊपर कोने के सापेक्ष निर्दिष्ट करता है। वास्तविक मान प्राप्त करने के लिए पहले मेथड IChart.ValidateChartLayout() को कॉल करें। Read Single. |
+| [Bottom](../../aspose.slides.charts/chartplotarea/bottom) { get; } | निचला। केवल-पढ़ने योग्य Single. |
+| [Chart](../../aspose.slides.charts/chartplotarea/chart) { get; } | Chart. केवल-पढ़ने योग्य [`IChart`](../ichart). |
+| [Format](../../aspose.slides.charts/chartplotarea/format) { get; } | प्लॉट एरिया का फ़ॉर्मेट लौटाता है। केवल-पढ़ने योग्य [`IFormat`](../iformat). |
+| [Height](../../aspose.slides.charts/chartplotarea/height) { get; set; } | प्लॉट एरिया बॉन्डिंग बॉक्स की ऊँचाई को चार्ट की ऊँचाई के अंश (0 से 1) के रूप में लौटाता है या सेट करता है। पढ़ने/लिखने योग्य Single. |
+| [IsLocationAutocalculated](../../aspose.slides.charts/chartplotarea/islocationautocalculated) { get; } | स्थानीयता की गणना कैसे की जानी चाहिए यह परिभाषित करता है: true – स्वत: गणना; X, Y, Width, Height प्रॉपर्टीज़ द्वारा परिभाषित। केवल-पढ़ने योग्य Boolean. |
+| [LayoutTargetType](../../aspose.slides.charts/chartplotarea/layouttargettype) { get; set; } | यदि प्लॉट एरिया का लेआउट मैन्युअली निर्धारित किया गया है तो यह प्रॉपर्टी यह निर्दिष्ट करती है कि प्लॉट एरिया को उसके अंदर (अक्ष और अक्ष लेबल सहित नहीं) या बाहर (अक्ष और अक्ष लेबल सहित) लेआउट किया जाए। पढ़ने/लिखने योग्य [`LayoutTargetType`](./layouttargettype). |
+| [Right](../../aspose.slides.charts/chartplotarea/right) { get; } | दायाँ। केवल-पढ़ने योग्य Single. |
+| [Width](../../aspose.slides.charts/chartplotarea/width) { get; set; } | प्लॉट एरिया बॉन्डिंग बॉक्स की चौड़ाई को चार्ट की चौड़ाई के अंश (0 से 1) के रूप में लौटाता है या सेट करता है। पढ़ने/लिखने योग्य Single. |
+| [X](../../aspose.slides.charts/chartplotarea/x) { get; set; } | प्लॉट एरिया बॉन्डिंग बॉक्स के ऊपरी-बाएँ कोने के x निर्देशांक को चार्ट की चौड़ाई के अंश (0 से 1) के रूप में लौटाता है या सेट करता है। पढ़ने/लिखने योग्य Single. |
+| [Y](../../aspose.slides.charts/chartplotarea/y) { get; set; } | प्लॉट एरिया बॉन्डिंग बॉक्स के ऊपरी-बाएँ कोने के y निर्देशांक को चार्ट की ऊँचाई के अंश (0 से 1) के रूप में लौटाता है या सेट करता है। पढ़ने/लिखने योग्य Single. |
 
-### देखें भी
+### संबंधित देखें
 
 * क्लास [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * क्लास [Chart](../chart)

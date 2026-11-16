@@ -1,28 +1,28 @@
 ---
 title: IndexOf
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: ส่งคืนดัชนีของ DataLabel ที่ระบุในคอลเลกชัน
+second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
+description: ส่งคืนดัชนีของ DataLabel ที่ระบุในคอลเลกชัน.
 type: docs
-weight: 110
+weight: 120
 url: /th/aspose.slides.charts/datalabelcollection/indexof/
 ---
 ## DataLabelCollection.IndexOf เมธอด
 
-คืนดัชนีของ DataLabel ที่กำหนดในคอลเลกชัน
+ส่งคืนดัชนีของ DataLabel ที่ระบุในคอลเลกชัน
 
 ```csharp
 public int IndexOf(IDataLabel value)
 ```
 
-| พารามิเตอร์ | ประเภท | คำอธิบาย |
+| พารามิเตอร์ | ชนิด | คำอธิบาย |
 | --- | --- | --- |
-| value | IDataLabel | DataLabel ที่จะค้นหา |
+| value | IDataLabel | DataLabel ที่ต้องการหา. |
 
-### ค่าที่ส่งกลับ
+### Return Value
 
-ดัชนีของ DataLabel หรือ -1 หาก DataLabel ไม่อยู่ในคอลเลกชันนี้
+ดัชนีของ DataLabel หรือ -1 หาก DataLabel ไม่ได้มาจากคอลเลกชันนี้.
 
-### ดูเพิ่มเติม
+### See Also
 
 * อินเทอร์เฟซ [IDataLabel](../../idatalabel)
 * คลาส [DataLabelCollection](../../datalabelcollection)

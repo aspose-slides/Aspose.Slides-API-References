@@ -1,9 +1,9 @@
 ---
 title: IBrightnessContrastEffectiveData
-second_title: Aspose.Sildes per il riferimento API .NET
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Oggetto immutabile che rappresenta un effetto BrightnessContrast. Regola luminosità e contrasto
 type: docs
-weight: 3210
+weight: 3230
 url: /it/aspose.slides.effects/ibrightnesscontrasteffectivedata/
 ---
 ## IBrightnessContrastEffectiveData interfaccia
@@ -18,8 +18,8 @@ public interface IBrightnessContrastEffectiveData : IEffectEffectiveData
 
 | Nome | Descrizione |
 | --- | --- |
-| [Brightness](../../aspose.slides.effects/ibrightnesscontrasteffectivedata/brightness) { get; } | Restituisce brightness. Solo lettura Single. |
-| [Contrast](../../aspose.slides.effects/ibrightnesscontrasteffectivedata/contrast) { get; } | Restituisce contrast. Solo lettura Single. |
+| [Brightness](../../aspose.slides.effects/ibrightnesscontrasteffectivedata/brightness) { get; } | Restituisce la luminosità. Solamente lettura Single. |
+| [Contrast](../../aspose.slides.effects/ibrightnesscontrasteffectivedata/contrast) { get; } | Restituisce il contrasto. Solamente lettura Single. |
 
 ### Vedi anche
 

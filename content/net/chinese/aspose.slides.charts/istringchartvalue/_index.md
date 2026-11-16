@@ -1,14 +1,14 @@
 ---
 title: IStringChartValue
 second_title: Aspose.Sildes for .NET API 参考
-description: 表示可以以两种方式存储在 pptx 演示文稿中的字符串值 1 在与图表相关的工作簿的单元格中 2 作为文字值。
+description: 表示可以以两种方式存储在 pptx 演示文稿中的字符串值：1）在与图表关联的工作簿的单元格/多个单元格中；2）作为文字值。
 type: docs
-weight: 2220
+weight: 2240
 url: /zh/aspose.slides.charts/istringchartvalue/
 ---
 ## IStringChartValue 接口
 
-Represent string value which can be stored in pptx presentation document in two ways: 1) in cell/cells of workbook related to chart; 2) as literal value.
+表示可以以两种方式存储在 pptx 演示文稿中的字符串值：1) 在与图表关联的工作簿的单元格/多个单元格中；2) 作为文字值。
 
 ```csharp
 public interface IStringChartValue : IMultipleCellChartValue
@@ -19,7 +19,7 @@ public interface IStringChartValue : IMultipleCellChartValue
 | 名称 | 描述 |
 | --- | --- |
 | [AsIMultipleCellChartValue](../../aspose.slides.charts/istringchartvalue/asimultiplecellchartvalue) { get; } | 允许获取基础 IMultipleCellChartValue 接口。只读 [`IMultipleCellChartValue`](../imultiplecellchartvalue)。 |
-| [AsLiteralString](../../aspose.slides.charts/istringchartvalue/asliteralstring) { get; set; } | 如果 DataSourceType 属性为 DataSourceType.StringLiterals，则返回或设置文字字符串。可读写 String。 |
+| [AsLiteralString](../../aspose.slides.charts/istringchartvalue/asliteralstring) { get; set; } | 如果 DataSourceType 属性为 DataSourceType.StringLiterals，则返回或设置文字字符串。读/写 String。 |
 
 ## 方法
 

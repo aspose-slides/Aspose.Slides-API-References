@@ -1,9 +1,9 @@
 ---
 title: ILineFormat
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 表示线的格式。
 type: docs
-weight: 6310
+weight: 6330
 url: /zh/aspose.slides/ilineformat/
 ---
 ## ILineFormat 接口
@@ -16,38 +16,38 @@ public interface ILineFormat : ILineParamSource
 
 ## 属性
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
-| [Alignment](../../aspose.slides/ilineformat/alignment) { get; set; } | 返回或设置线对齐方式。读/写 [`LineAlignment`](../linealignment)。 |
-| [AsILineParamSource](../../aspose.slides/ilineformat/asilineparamsource) { get; } | 允许获取基础 ILineParamSource 接口。只读 [`ILineParamSource`](../ilineparamsource)。 |
-| [BeginArrowheadLength](../../aspose.slides/ilineformat/beginarrowheadlength) { get; set; } | 返回或设置线起始处的箭头长度。读/写 [`LineArrowheadLength`](../linearrowheadlength)。 |
-| [BeginArrowheadStyle](../../aspose.slides/ilineformat/beginarrowheadstyle) { get; set; } | 返回或设置线起始处的箭头样式。读/写 [`LineArrowheadStyle`](../linearrowheadstyle)。 |
-| [BeginArrowheadWidth](../../aspose.slides/ilineformat/beginarrowheadwidth) { get; set; } | 返回或设置线起始处的箭头宽度。读/写 [`LineArrowheadWidth`](../linearrowheadwidth)。 |
-| [CapStyle](../../aspose.slides/ilineformat/capstyle) { get; set; } | 返回或设置线端点样式。读/写 [`LineCapStyle`](../linecapstyle)。 |
-| [CustomDashPattern](../../aspose.slides/ilineformat/customdashpattern) { get; set; } | 返回或设置自定义虚线模式。读/写 Single[]。 |
-| [DashStyle](../../aspose.slides/ilineformat/dashstyle) { get; set; } | 返回或设置线虚线样式。读/写 [`LineDashStyle`](../linedashstyle)。 |
-| [EndArrowheadLength](../../aspose.slides/ilineformat/endarrowheadlength) { get; set; } | 返回或设置线结束处的箭头长度。读/写 [`LineArrowheadLength`](../linearrowheadlength)。 |
-| [EndArrowheadStyle](../../aspose.slides/ilineformat/endarrowheadstyle) { get; set; } | 返回或设置线结束处的箭头样式。读/写 [`LineArrowheadStyle`](../linearrowheadstyle)。 |
-| [EndArrowheadWidth](../../aspose.slides/ilineformat/endarrowheadwidth) { get; set; } | 返回或设置线结束处的箭头宽度。读/写 [`LineArrowheadWidth`](../linearrowheadwidth)。 |
-| [FillFormat](../../aspose.slides/ilineformat/fillformat) { get; } | 返回线的填充格式。只读 [`ILineFillFormat`](../ilinefillformat)。 |
-| [IsFormatNotDefined](../../aspose.slides/ilineformat/isformatnotdefined) { get; } | 如果线格式未定义（刚创建，采用默认），返回 true。只读 Boolean。 |
-| [JoinStyle](../../aspose.slides/ilineformat/joinstyle) { get; set; } | 返回或设置线的连接样式。读/写 [`LineJoinStyle`](../linejoinstyle)。 |
-| [MiterLimit](../../aspose.slides/ilineformat/miterlimit) { get; set; } | 返回或设置线的斜接限制。读/写 Single。 |
-| [SketchFormat](../../aspose.slides/ilineformat/sketchformat) { get; } | 返回线的草图格式。只读 [`ISketchFormat`](../isketchformat)。 |
-| [Style](../../aspose.slides/ilineformat/style) { get; set; } | 返回或设置线样式。读/写 [`LineStyle`](../linestyle)。 |
-| [Width](../../aspose.slides/ilineformat/width) { get; set; } | 返回或设置线的宽度。读/写 Double。 |
+| [Alignment](../../aspose.slides/ilineformat/alignment) { get; set; } | 返回或设置线对齐方式。读/写 [`LineAlignment`](../linealignment). |
+| [AsILineParamSource](../../aspose.slides/ilineformat/asilineparamsource) { get; } | 允许获取基 ILineParamSource 接口。只读 [`ILineParamSource`](../ilineparamsource). |
+| [BeginArrowheadLength](../../aspose.slides/ilineformat/beginarrowheadlength) { get; set; } | 返回或设置线段起始处的箭头长度。读/写 [`LineArrowheadLength`](../linearrowheadlength). |
+| [BeginArrowheadStyle](../../aspose.slides/ilineformat/beginarrowheadstyle) { get; set; } | 返回或设置线段起始处的箭头样式。读/写 [`LineArrowheadStyle`](../linearrowheadstyle). |
+| [BeginArrowheadWidth](../../aspose.slides/ilineformat/beginarrowheadwidth) { get; set; } | 返回或设置线段起始处的箭头宽度。读/写 [`LineArrowheadWidth`](../linearrowheadwidth). |
+| [CapStyle](../../aspose.slides/ilineformat/capstyle) { get; set; } | 返回或设置线端点样式。读/写 [`LineCapStyle`](../linecapstyle). |
+| [CustomDashPattern](../../aspose.slides/ilineformat/customdashpattern) { get; set; } | 返回或设置自定义虚线模式。读/写 Single[]. |
+| [DashStyle](../../aspose.slides/ilineformat/dashstyle) { get; set; } | 返回或设置线的虚线样式。读/写 [`LineDashStyle`](../linedashstyle). |
+| [EndArrowheadLength](../../aspose.slides/ilineformat/endarrowheadlength) { get; set; } | 返回或设置线段结束处的箭头长度。读/写 [`LineArrowheadLength`](../linearrowheadlength). |
+| [EndArrowheadStyle](../../aspose.slides/ilineformat/endarrowheadstyle) { get; set; } | 返回或设置线段结束处的箭头样式。读/写 [`LineArrowheadStyle`](../linearrowheadstyle). |
+| [EndArrowheadWidth](../../aspose.slides/ilineformat/endarrowheadwidth) { get; set; } | 返回或设置线段结束处的箭头宽度。读/写 [`LineArrowheadWidth`](../linearrowheadwidth). |
+| [FillFormat](../../aspose.slides/ilineformat/fillformat) { get; } | 返回线的填充格式。只读 [`ILineFillFormat`](../ilinefillformat). |
+| [IsFormatNotDefined](../../aspose.slides/ilineformat/isformatnotdefined) { get; } | 如果线格式未定义（刚创建，默认），返回 true。只读 Boolean. |
+| [JoinStyle](../../aspose.slides/ilineformat/joinstyle) { get; set; } | 返回或设置线段连接样式。读/写 [`LineJoinStyle`](../linejoinstyle). |
+| [MiterLimit](../../aspose.slides/ilineformat/miterlimit) { get; set; } | 返回或设置线的斜接限制。读/写 Single. |
+| [SketchFormat](../../aspose.slides/ilineformat/sketchformat) { get; } | 返回线的草图格式。只读 [`ISketchFormat`](../isketchformat). |
+| [Style](../../aspose.slides/ilineformat/style) { get; set; } | 返回或设置线样式。读/写 [`LineStyle`](../linestyle). |
+| [Width](../../aspose.slides/ilineformat/width) { get; set; } | 返回或设置线宽。读/写 Double. |
 
 ## 方法
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
 | [Equals](../../aspose.slides/ilineformat/equals)(ILineFormat) | 确定两个 LineFormat 实例是否相等。 |
 | [GetEffective](../../aspose.slides/ilineformat/geteffective)() | 获取应用继承后的有效线格式数据。 |
 
-### 另见
+### See Also
 
-* 接口 [ILineParamSource](../ilineparamsource)
-* 命名空间 [Aspose.Slides](../../aspose.slides)
-* 程序集 [Aspose.Slides](../../)
+* interface [ILineParamSource](../ilineparamsource)
+* namespace [Aspose.Slides](../../aspose.slides)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

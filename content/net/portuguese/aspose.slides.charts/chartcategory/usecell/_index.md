@@ -1,14 +1,14 @@
 ---
 title: UseCell
-second_title: Aspose.Sildes para .NET Referência da API
-description: Se true, então a propriedade AsCell está efetiva. Em outras palavras, a planilha é usada para armazenar a categoria; este caso suporta uma categoria de múltiplos níveis. Se false, então a propriedade AsLiteral está efetiva. Em outras palavras, a planilha NÃO é usada para armazenar a categoria e este caso não suporta categorias de múltiplos níveis. Somente leitura Boolean.
+second_title: Aspose.Sildes para .NET – Referência da API
+description: Se for verdadeiro, então a propriedade AsCell é a atual. Em outras palavras, a worksheet é usada para armazenar a categoria; este caso suporta uma categoria de vários níveis. Se for falso, então a propriedade AsLiteral é a atual. Em outras palavras, a worksheet NÃO é usada para armazenar a categoria e este caso não suporta categorias de vários níveis. Boolean somente leitura.
 type: docs
-weight: 40
+weight: 50
 url: /pt/aspose.slides.charts/chartcategory/usecell/
 ---
 ## ChartCategory.UseCell propriedade
 
-Se true, então a propriedade AsCell está efetiva. Em outras palavras, a planilha é usada para armazenar a categoria (este caso suporta uma categoria de múltiplos níveis). Se false, então a propriedade AsLiteral está efetiva. Em outras palavras, a planilha NÃO é usada para armazenar a categoria (e este caso não suporta categorias de múltiplos níveis). Somente leitura Boolean.
+Se for verdadeiro, então a propriedade AsCell é a atual. Em outras palavras, a worksheet é usada para armazenar a categoria (este caso suporta uma categoria de vários níveis). Se for falso, então a propriedade AsLiteral é a atual. Em outras palavras, a worksheet NÃO é usada para armazenar a categoria (e este caso não suporta categorias de vários níveis). Boolean somente leitura.
 
 ```csharp
 public bool UseCell { get; }

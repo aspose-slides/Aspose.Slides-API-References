@@ -1,14 +1,14 @@
 ---
 title: ReplaceFont
-second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
-description: แทนที่ฟอนต์ในงานนำเสนอ
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แทนที่แบบอักษรในงานนำเสนอ
 type: docs
-weight: 100
+weight: 110
 url: /th/aspose.slides/ifontsmanager/replacefont/
 ---
 ## ReplaceFont(IFontData, IFontData) {#replacefont}
 
-แทนที่ฟอนต์ในงานนำเสนอ
+แทนที่แบบอักษรในงานนำเสนอ
 
 ```csharp
 public void ReplaceFont(IFontData sourceFont, IFontData destFont)
@@ -16,8 +16,8 @@ public void ReplaceFont(IFontData sourceFont, IFontData destFont)
 
 | พารามิเตอร์ | ประเภท | คำอธิบาย |
 | --- | --- | --- |
-| sourceFont | IFontData | ฟอนต์ต้นฉบับ |
-| destFont | IFontData | ฟอนต์ปลายทาง |
+| sourceFont | IFontData | แบบอักษรต้นฉบับ |
+| destFont | IFontData | แบบอักษรปลายทาง |
 
 ### ดูเพิ่มเติม
 
@@ -30,7 +30,7 @@ public void ReplaceFont(IFontData sourceFont, IFontData destFont)
 
 ## ReplaceFont(IFontSubstRule) {#replacefont_1}
 
-แทนที่ฟอนต์ในงานนำเสนอโดยใช้ข้อมูลที่ให้ใน [`IFontSubstRule`](../../ifontsubstrule)
+แทนที่แบบอักษรในงานนำเสนอโดยใช้ข้อมูลที่ให้ไว้ใน [`IFontSubstRule`](../../ifontsubstrule)
 
 ```csharp
 public void ReplaceFont(IFontSubstRule substRule)
@@ -38,7 +38,7 @@ public void ReplaceFont(IFontSubstRule substRule)
 
 | พารามิเตอร์ | ประเภท | คำอธิบาย |
 | --- | --- | --- |
-| substRule | IFontSubstRule | ข้อมูลการแทนที่ฟอนต์ |
+| substRule | IFontSubstRule | ข้อมูลการแทนที่แบบอักษร |
 
 ### ดูเพิ่มเติม
 
@@ -51,7 +51,7 @@ public void ReplaceFont(IFontSubstRule substRule)
 
 ## ReplaceFont(IFontSubstRuleCollection) {#replacefont_2}
 
-แทนที่ฟอนต์ในงานนำเสนอโดยใช้ข้อมูลที่ให้ในคอลเลกชันของ [`IFontSubstRule`](../../ifontsubstrule)
+แทนที่แบบอักษรในงานนำเสนอโดยใช้ข้อมูลที่ให้ไว้ในคอลเลกชันของ [`IFontSubstRule`](../../ifontsubstrule)
 
 ```csharp
 public void ReplaceFont(IFontSubstRuleCollection substRules)
@@ -59,7 +59,7 @@ public void ReplaceFont(IFontSubstRuleCollection substRules)
 
 | พารามิเตอร์ | ประเภท | คำอธิบาย |
 | --- | --- | --- |
-| substRules | IFontSubstRuleCollection | คอลเลกชันข้อมูลการแทนที่ฟอนต์ |
+| substRules | IFontSubstRuleCollection | คอลเลกชันข้อมูลการแทนที่แบบอักษร |
 
 ### ดูเพิ่มเติม
 

@@ -1,14 +1,14 @@
 ---
 title: ISmartArtNodeCollection
-second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili kumpulan node SmartArt.
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Mewakili koleksi node SmartArt.
 type: docs
-weight: 10560
+weight: 10580
 url: /id/aspose.slides.smartart/ismartartnodecollection/
 ---
-## ISmartArtNodeCollection interface
+## ISmartArtNodeCollection antarmuka
 
-Mewakili kumpulan node SmartArt.
+Mewakili koleksi node SmartArt.
 
 ```csharp
 public interface ISmartArtNodeCollection : IGenericCollection<ISmartArtNode>

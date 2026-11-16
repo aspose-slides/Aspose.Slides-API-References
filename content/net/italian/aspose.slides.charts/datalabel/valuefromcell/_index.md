@@ -1,14 +1,14 @@
 ---
 title: ValueFromCell
-second_title: Riferimento API di Aspose.Sildes per .NET
-description: Ottiene o imposta la cella dati della cartella di lavoro. Applicata se la proprietà IDataLabelFormat.ShowLabelValueFromCell è true.
+second_title: Aspose.Sildes per il riferimento API .NET
+description: Ottiene o imposta la cella dati della cartella di lavoro. Applicato se la proprietà IDataLabelFormat.ShowLabelValueFromCell è true.
 type: docs
-weight: 140
+weight: 150
 url: /it/aspose.slides.charts/datalabel/valuefromcell/
 ---
 ## DataLabel.ValueFromCell proprietà
 
-Ottiene o imposta la cella dati della cartella di lavoro. Applicata se la proprietà IDataLabelFormat.ShowLabelValueFromCell è true.
+Ottiene o imposta la cella dati della cartella di lavoro. Applicato se la proprietà IDataLabelFormat.ShowLabelValueFromCell è true.
 
 ```csharp
 public IChartDataCell ValueFromCell { get; set; }

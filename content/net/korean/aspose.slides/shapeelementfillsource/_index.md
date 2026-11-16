@@ -1,14 +1,14 @@
 ---
 title: ShapeElementFillSource
 second_title: Aspose.Sildes for .NET API 참조
-description: 모양 요소가 어떻게 채워져야 하는지를 나타냅니다.
+description: 형상 요소가 어떻게 채워져야 하는지를 나타냅니다.
 type: docs
-weight: 9880
+weight: 9900
 url: /ko/aspose.slides/shapeelementfillsource/
 ---
 ## ShapeElementFillSource 열거형
 
-모양 요소가 채워지는 방식을 나타냅니다.
+형상 요소가 어떻게 채워져야 하는지를 나타냅니다.
 
 ```csharp
 public enum ShapeElementFillSource : byte
@@ -19,13 +19,13 @@ public enum ShapeElementFillSource : byte
 | 이름 | 값 | 설명 |
 | --- | --- | --- |
 | NoFill | `0` | 프리미티브를 채우지 않습니다. |
-| Shape | `1` | 모양의 채우기를 사용합니다. |
-| Lighten | `2` | 밝게 만든 모양의 채우기를 사용합니다. |
-| LightenLess | `3` | 덜 밝게 만든 모양의 채우기를 사용합니다. |
-| Darken | `4` | 암전된 모양의 채우기를 사용합니다. |
-| DarkenLess | `5` | 덜 암전된 모양의 채우기를 사용합니다. |
+| Shape | `1` | 형상의 채우기를 사용합니다. |
+| Lighten | `2` | 형상의 밝게 하는 채우기를 사용합니다. |
+| LightenLess | `3` | 형상의 덜 밝게 하는 채우기를 사용합니다. |
+| Darken | `4` | 형상의 어둡게 하는 채우기를 사용합니다. |
+| DarkenLess | `5` | 형상의 덜 어둡게 하는 채우기를 사용합니다. |
 
-### 연관 항목
+### 참고
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

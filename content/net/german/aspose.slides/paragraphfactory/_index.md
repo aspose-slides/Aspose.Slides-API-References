@@ -3,7 +3,7 @@ title: ParagraphFactory
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Ermöglicht das Erstellen von Absätzen
 type: docs
-weight: 9300
+weight: 9320
 url: /de/aspose.slides/paragraphfactory/
 ---
 ## ParagraphFactory Klasse
@@ -18,7 +18,7 @@ public class ParagraphFactory : IParagraphFactory
 
 | Name | Beschreibung |
 | --- | --- |
-| [ParagraphFactory](paragraphfactory)() | Der Standardkonstruktor. |
+| [ParagraphFactory](paragraphfactory)() | Der Standardskonstruktor. |
 
 ## Methoden
 

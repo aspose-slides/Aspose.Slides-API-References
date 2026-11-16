@@ -1,14 +1,14 @@
 ---
 title: CellInvalidFormulaException
-second_title: Aspose.Sildes .NET API referencia
-description: Az a kivétel, amelyet akkor dobunk, amikor egy kiszámított képlet nem helyes vagy nem lett értelmezve.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Az a kivétel, amely akkor kerül dobásra, amikor egy kiszámított képlet helytelen vagy nem lett beolvasva.
 type: docs
-weight: 10710
+weight: 10730
 url: /hu/aspose.slides.spreadsheet/cellinvalidformulaexception/
 ---
 ## CellInvalidFormulaException osztály
 
-Az a kivétel, amelyet akkor dobnak, amikor egy kiszámított képlet nem helyes vagy nem lett értelmezve.
+A kivétel, amely akkor kerül dobásra, amikor egy kiszámított képlet helytelen vagy nem lett beolvasva.
 
 ```csharp
 public class CellInvalidFormulaException : PptxEditException
@@ -19,15 +19,15 @@ public class CellInvalidFormulaException : PptxEditException
 | Név | Leírás |
 | --- | --- |
 | [CellInvalidFormulaException](cellinvalidformulaexception#constructor)() | Inicializál egy új példányt a [`CellInvalidFormulaException`](../cellinvalidformulaexception) osztályból. |
-| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_1)(string) | Inicializál egy új példányt a [`CellInvalidFormulaException`](../cellinvalidformulaexception) osztályban megadott hibaüzenettel. |
-| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_2)(string, Exception) | Inicializál egy új példányt a [`CellInvalidFormulaException`](../cellinvalidformulaexception) osztályban megadott hibaüzenettel és egy hivatkozással a belső kivételre, amely ennek a kivételnek az oka. |
-| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_3)(string, string) | Inicializál egy új példányt a [`CellInvalidFormulaException`](../cellinvalidformulaexception) osztályban megadott hibaüzenettel és egy cellahivatkozással, amely a hibás képletet tartalmazza. |
+| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_1)(string) | Inicializál egy új példányt a [`CellInvalidFormulaException`](../cellinvalidformulaexception) osztályból egy megadott hibaüzenettel. |
+| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_2)(string, Exception) | Inicializál egy új példányt a [`CellInvalidFormulaException`](../cellinvalidformulaexception) osztályból egy megadott hibaüzenettel és egy hivatkozással a belső kivételre, amely ennek a kivételnek az oka. |
+| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_3)(string, string) | Inicializál egy új példányt a [`CellInvalidFormulaException`](../cellinvalidformulaexception) osztályból egy megadott hibaüzenettel és egy cellahivatkozással, amely az érvénytelen képletet tartalmazza. |
 
 ## Tulajdonságok
 
 | Név | Leírás |
 | --- | --- |
-| [Reference](../../aspose.slides.spreadsheet/cellinvalidformulaexception/reference) { get; } | Visszaad egy cellahivatkozást, amely a hibás képletet tartalmazza. |
+| [Reference](../../aspose.slides.spreadsheet/cellinvalidformulaexception/reference) { get; } | Lekéri azt a cellahivatkozást, amely az érvénytelen képletet tartalmazza. |
 
 ### Lásd még
 

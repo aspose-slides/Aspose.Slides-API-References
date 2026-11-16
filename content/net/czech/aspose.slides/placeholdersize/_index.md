@@ -1,14 +1,14 @@
 ---
 title: PlaceholderSize
-second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje velikost placeholderu.
+second_title: Aspose.Sildes pro .NET API referenci
+description: Reprezentuje velikost zástupného prvku.
 type: docs
-weight: 9440
+weight: 9460
 url: /cs/aspose.slides/placeholdersize/
 ---
 ## PlaceholderSize enumerace
 
-Reprezentuje velikost placeholderu.
+Reprezentuje velikost zástupného prvku.
 
 ```csharp
 public enum PlaceholderSize : sbyte
@@ -18,9 +18,9 @@ public enum PlaceholderSize : sbyte
 
 | Název | Hodnota | Popis |
 | --- | --- | --- |
-| Full | `0` | Full. |
-| Half | `1` | Half. |
-| Quarter | `2` | Quarter. |
+| Full | `0` | Plný. |
+| Half | `1` | Poloviční. |
+| Quarter | `2` | Čtvrtina. |
 
 ### Viz také
 

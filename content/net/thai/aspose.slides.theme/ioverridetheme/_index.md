@@ -1,14 +1,14 @@
 ---
 title: IOverrideTheme
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงธีมที่สามารถแทนที่ได้.
+description: เป็นตัวแทนของธีมที่ทำการแทนที่.
 type: docs
-weight: 11340
+weight: 11360
 url: /th/aspose.slides.theme/ioverridetheme/
 ---
 ## IOverrideTheme อินเทอร์เฟซ
 
-แสดงธีมที่สามารถแทนที่ได้.
+Represents a overriding theme.
 
 ```csharp
 public interface IOverrideTheme : ITheme
@@ -18,23 +18,23 @@ public interface IOverrideTheme : ITheme
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsITheme](../../aspose.slides.theme/ioverridetheme/asitheme) { get; } | อนุญาตให้รับอินเทอร์เฟซ ITheme พื้นฐาน. อ่านอย่างเดียว [`ITheme`](../itheme). |
-| [IsEmpty](../../aspose.slides.theme/ioverridetheme/isempty) { get; } | ค่าจริงหมายความว่า ColorScheme, FontScheme, FormatScheme มีค่า null และการแทนที่ใด ๆ ด้วยวัตถุธีมนี้จะถูกปิดการทำงาน. อ่านอย่างเดียว Boolean. |
+| [AsITheme](../../aspose.slides.theme/ioverridetheme/asitheme) { get; } | Allows to get base ITheme interface. อ่านอย่างเดียว [`ITheme`](../itheme). |
+| [IsEmpty](../../aspose.slides.theme/ioverridetheme/isempty) { get; } | ค่าจริงหมายความว่า ColorScheme, FontScheme, FormatScheme is null และการแทนที่ใด ๆ ด้วยออบเจกต์ธีมนี้จะถูกปิดใช้งาน. อ่านอย่างเดียว Boolean. |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Clear](../../aspose.slides.theme/ioverridetheme/clear)() | ตั้งค่า ColorScheme, FontScheme, FormatScheme เป็น null เพื่อปิดการทำงานของการแทนที่ใด ๆ ด้วยวัตถุธีมนี้. |
-| [InitColorScheme](../../aspose.slides.theme/ioverridetheme/initcolorscheme)() | เริ่มต้น ColorScheme ด้วยวัตถุใหม่สำหรับการแทนที่ ColorScheme ของ InheritedTheme. |
-| [InitColorSchemeFrom](../../aspose.slides.theme/ioverridetheme/initcolorschemefrom)(IColorScheme) | เริ่มต้น ColorScheme ด้วยวัตถุใหม่สำหรับการแทนที่ ColorScheme ของ InheritedTheme. |
-| [InitColorSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initcolorschemefrominherited)() | เริ่มต้น ColorScheme ด้วยวัตถุใหม่สำหรับการแทนที่ ColorScheme ของ InheritedTheme. และเริ่มต้นข้อมูลของวัตถุใหม่นี้ด้วยข้อมูลของ ColorScheme ของ InheritedTheme. |
-| [InitFontScheme](../../aspose.slides.theme/ioverridetheme/initfontscheme)() | เริ่มต้น FontScheme ด้วยวัตถุใหม่สำหรับการแทนที่ FontScheme ของ InheritedTheme. |
-| [InitFontSchemeFrom](../../aspose.slides.theme/ioverridetheme/initfontschemefrom)(IFontScheme) | เริ่มต้น FontScheme ด้วยวัตถุใหม่สำหรับการแทนที่ FontScheme ของ InheritedTheme. |
-| [InitFontSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initfontschemefrominherited)() | เริ่มต้น FontScheme ด้วยวัตถุใหม่สำหรับการแทนที่ FontScheme ของ InheritedTheme. และเริ่มต้นข้อมูลของวัตถุใหม่นี้ด้วยข้อมูลของ FontScheme ของ InheritedTheme. |
-| [InitFormatScheme](../../aspose.slides.theme/ioverridetheme/initformatscheme)() | เริ่มต้น FormatScheme ด้วยวัตถุใหม่สำหรับการแทนที่ FormatScheme ของ InheritedTheme. |
-| [InitFormatSchemeFrom](../../aspose.slides.theme/ioverridetheme/initformatschemefrom)(IFormatScheme) | เริ่มต้น FormatScheme ด้วยวัตถุใหม่สำหรับการแทนที่ FormatScheme ของ InheritedTheme. |
-| [InitFormatSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initformatschemefrominherited)() | เริ่มต้น FormatScheme ด้วยวัตถุใหม่สำหรับการแทนที่ FormatScheme ของ InheritedTheme. และเริ่มต้นข้อมูลของวัตถุใหม่นี้ด้วยข้อมูลของ FormatScheme ของ InheritedTheme. |
+| [Clear](../../aspose.slides.theme/ioverridetheme/clear)() | ตั้งค่า ColorScheme, FontScheme, FormatScheme เป็น null เพื่อปิดการแทนที่ใด ๆ ด้วยออบเจกต์ธีมนี้. |
+| [InitColorScheme](../../aspose.slides.theme/ioverridetheme/initcolorscheme)() | เริ่มต้น ColorScheme ด้วยออบเจกต์ใหม่สำหรับการแทนที่ ColorScheme ของ InheritedTheme. |
+| [InitColorSchemeFrom](../../aspose.slides.theme/ioverridetheme/initcolorschemefrom)(IColorScheme) | เริ่มต้น ColorScheme ด้วยออบเจกต์ใหม่สำหรับการแทนที่ ColorScheme ของ InheritedTheme. |
+| [InitColorSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initcolorschemefrominherited)() | เริ่มต้น ColorScheme ด้วยออบเจกต์ใหม่สำหรับการแทนที่ ColorScheme ของ InheritedTheme. และกำหนดค่าเริ่มต้นข้อมูลของออบเจกต์ใหม่นี้ด้วยข้อมูลของ ColorScheme ของ InheritedTheme. |
+| [InitFontScheme](../../aspose.slides.theme/ioverridetheme/initfontscheme)() | เริ่มต้น FontScheme ด้วยออบเจกต์ใหม่สำหรับการแทนที่ FontScheme ของ InheritedTheme. |
+| [InitFontSchemeFrom](../../aspose.slides.theme/ioverridetheme/initfontschemefrom)(IFontScheme) | เริ่มต้น FontSchemeด้วยออบเจกต์ใหม่สำหรับการแทนที่ FontScheme ของ InheritedTheme. |
+| [InitFontSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initfontschemefrominherited)() | เริ่มต้น FontSchemeด้วยออบเจกต์ใหม่สำหรับการแทนที่ FontScheme ของ InheritedTheme. และกำหนดค่าเริ่มต้นข้อมูลของออบเจกต์ใหม่นี้ด้วยข้อมูลของ FontScheme ของ InheritedTheme. |
+| [InitFormatScheme](../../aspose.slides.theme/ioverridetheme/initformatscheme)() | เริ่มต้น FormatSchemeด้วยออบเจกต์ใหม่สำหรับการแทนที่ FormatScheme ของ InheritedTheme. |
+| [InitFormatSchemeFrom](../../aspose.slides.theme/ioverridetheme/initformatschemefrom)(IFormatScheme) | เริ่มต้น FormatSchemeด้วยออบเจกต์ใหม่สำหรับการแทนที่ FormatScheme ของ InheritedTheme. |
+| [InitFormatSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initformatschemefrominherited)() | เริ่มต้น FormatSchemeด้วยออบเจกต์ใหม่สำหรับการแทนที่ FormatScheme ของ InheritedTheme. และกำหนดค่าเริ่มต้นข้อมูลของออบเจกต์ใหม่นี้ด้วยข้อมูลของ FormatScheme ของ InheritedTheme. |
 
 ### ดูเพิ่มเติม
 
@@ -42,4 +42,4 @@ public interface IOverrideTheme : ITheme
 * เนมสเปซ [Aspose.Slides.Theme](../../aspose.slides.theme)
 * แอสเซมบลี [Aspose.Slides](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->
+<!-- DO NOT EDIT: generated by xmldoccmd for Aspose.Slides.dll -->

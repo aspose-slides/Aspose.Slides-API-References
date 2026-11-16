@@ -1,9 +1,9 @@
 ---
 title: IChartSeriesGroupCollection
-second_title: Référence API Aspose.Sildes pour .NET
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Représente la collection de groupes de séries combinables.
 type: docs
-weight: 1960
+weight: 1980
 url: /fr/aspose.slides.charts/ichartseriesgroupcollection/
 ---
 ## IChartSeriesGroupCollection interface
@@ -22,8 +22,7 @@ public interface IChartSeriesGroupCollection : IGenericCollection<IChartSeriesGr
 
 ### Remarques
 
-1) Chaque groupe de séries contient des séries de types combinables. Les groupes de types de séries combinables sont définis et décrits avec l'énumération CombinableSeriesTypesGroup. De plus, chaque groupe de séries contient des séries qui sont tracées soit sur les axes primaires, soit sur les axes secondaires (pas les deux cas dans un même groupe). Ainsi, le principe du regroupement des séries est un regroupement par les groupes de types mentionnés ci-dessus et par le type de tracé primaire/secondaire.  
-2) Un groupe de séries contient certaines propriétés de séries qui sont communes à chaque série du groupe ("series group properties"). "Series group properties" dans la classe ChartSeriesGroup est en lecture/écriture. Chaque "series group properties" peut avoir une projection en lecture seule dans la classe ChartSeries.
+1) Chaque groupe de séries contient des séries de types combinables. Les groupes de types de séries combinables sont définis et décrits avec CombinableSeriesTypesGroup enum. De plus, chaque groupe de séries contient des séries qui sont tracées soit sur les axes principaux, soit sur les axes secondaires (pas les deux dans le même groupe). Ainsi, le principe du regroupement de séries est un regroupement par les types de groupes mentionnés ci-dessus et par le type de tracé principal/secondaire. 2) Un groupe de séries contient certaines propriétés de séries qui sont communes à chaque série du groupe (« propriétés de groupe de séries »). Les « propriétés de groupe de séries » dans la ChartSeriesGroup classe sont en lecture/écriture. Chacune des « propriétés de groupe de séries » peut avoir une projection en lecture seule dans la ChartSeries classe.
 
 ### Voir aussi
 

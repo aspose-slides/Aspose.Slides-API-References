@@ -3,7 +3,7 @@ title: ChartCellCollection
 second_title: Aspose.Sildes for .NET API 參考
 description: 表示包含資料的儲存格集合。
 type: docs
-weight: 1300
+weight: 1310
 url: /zh-hant/aspose.slides.charts/chartcellcollection/
 ---
 ## ChartCellCollection 類別
@@ -16,21 +16,21 @@ public class ChartCellCollection : IChartCellCollection
 
 ## 屬性
 
-| Name | Description |
+| 名稱 | 說明 |
 | --- | --- |
-| [Count](../../aspose.slides.charts/chartcellcollection/count) { get; } | 取得集合中儲存格的數量。唯讀 Int32。 |
-| [Item](../../aspose.slides.charts/chartcellcollection/item) { get; } | 根據索引返回儲存格 (IChartDataCell)。 |
+| [Count](../../aspose.slides.charts/chartcellcollection/count) { get; } | 取得集合中儲存格的計數。唯讀 Int32。 |
+| [Item](../../aspose.slides.charts/chartcellcollection/item) { get; } | 依索引傳回儲存格 (IChartDataCell)。 |
 
 ## 方法
 
-| Name | Description |
+| 名稱 | 說明 |
 | --- | --- |
 | [Add](../../aspose.slides.charts/chartcellcollection/add#add)(IChartDataCell) | 將新儲存格新增至集合。 |
 | [Add](../../aspose.slides.charts/chartcellcollection/add#add_1)(object) | 從指定的值建立 [`ChartDataCell`](../chartdatacell) 並將其加入集合。 |
-| [GetCellsAddress](../../aspose.slides.charts/chartcellcollection/getcellsaddress)() | 返回工作簿中儲存格集合的位址。 |
-| [GetConcatenatedValuesFromCells](../../aspose.slides.charts/chartcellcollection/getconcatenatedvaluesfromcells)() | 將所有儲存格的字串值串接成字串。 |
-| [GetEnumerator](../../aspose.slides.charts/chartcellcollection/getenumerator)() | 返回用於遍歷集合的列舉器。 |
-| [RemoveAt](../../aspose.slides.charts/chartcellcollection/removeat)(int) | 根據索引從集合中移除儲存格。 |
+| [GetCellsAddress](../../aspose.slides.charts/chartcellcollection/getcellsaddress)() | 傳回工作簿中儲存格集合的位址。 |
+| [GetConcatenatedValuesFromCells](../../aspose.slides.charts/chartcellcollection/getconcatenatedvaluesfromcells)() | 從所有儲存格的字串值串接而成的字串。 |
+| [GetEnumerator](../../aspose.slides.charts/chartcellcollection/getenumerator)() | 傳回可遍歷集合的列舉器。 |
+| [RemoveAt](../../aspose.slides.charts/chartcellcollection/removeat)(int) | 依索引從集合中移除儲存格。 |
 
 ### 另見
 

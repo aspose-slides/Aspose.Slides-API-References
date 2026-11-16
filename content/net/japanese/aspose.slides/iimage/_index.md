@@ -1,14 +1,14 @@
 ---
 title: IImage
 second_title: Aspose.Sildes for .NET API リファレンス
-description: ラスターまたはベクター画像を表します。
+description: ラスタ画像またはベクタ画像を表します。
 type: docs
-weight: 6150
+weight: 6170
 url: /ja/aspose.slides/iimage/
 ---
 ## IImage インターフェイス
 
-ラスターまたはベクター画像を表します。
+ラスタ画像またはベクタ画像を表します。
 
 ```csharp
 public interface IImage : IDisposable
@@ -27,16 +27,16 @@ public interface IImage : IDisposable
 | 名前 | 説明 |
 | --- | --- |
 | [Save](../../aspose.slides/iimage/save#save_2)(string) | 画像をファイルに保存します。 |
-| [Save](../../aspose.slides/iimage/save#save)(Stream, ImageFormat) | 画像を指定された形式でストリームに保存します。 |
-| [Save](../../aspose.slides/iimage/save#save_3)(string, ImageFormat) | 画像を指定された形式でファイルに保存します。 |
-| [Save](../../aspose.slides/iimage/save#save_1)(Stream, ImageFormat, int) | 画像を指定された形式と品質でストリームに保存します。 |
-| [Save](../../aspose.slides/iimage/save#save_4)(string, ImageFormat, int) | 画像を指定された形式と品質でファイルに保存します。 |
+| [Save](../../aspose.slides/iimage/save#save)(Stream, ImageFormat) | 指定された形式で画像をストリームに保存します。 |
+| [Save](../../aspose.slides/iimage/save#save_3)(string, ImageFormat) | 指定された形式で画像をファイルに保存します。 |
+| [Save](../../aspose.slides/iimage/save#save_1)(Stream, ImageFormat, int) | 指定された形式と品質で画像をストリームに保存します。 |
+| [Save](../../aspose.slides/iimage/save#save_4)(string, ImageFormat, int) | 指定された形式と品質で画像をファイルに保存します。 |
 
 ### 備考
 
-このインターフェイスは、ラスター画像とベクター画像の両方を処理するための共通の抽象化を提供します。実装は基になる画像タイプに応じて異なる場合があります。
+このインターフェイスは、ラスタ画像とベクタ画像の両方を扱うための共通抽象を提供します。実装は基になる画像タイプに応じて異なる場合があります。
 
-### 参照
+### 関連項目
 
 * 名前空間 [Aspose.Slides](../../aspose.slides)
 * アセンブリ [Aspose.Slides](../../)

@@ -1,12 +1,12 @@
 ---
 title: Right
-second_title: Aspose.Sildes용 .NET API 참조
+second_title: Aspose.Sildes for .NET API 참조
 description: 오른쪽. 읽기 전용 Single.
 type: docs
-weight: 110
+weight: 120
 url: /ko/aspose.slides.charts/datalabel/right/
 ---
-## DataLabel.Right property
+## DataLabel.Right 속성
 
 오른쪽. 읽기 전용 Single.
 
@@ -14,7 +14,7 @@ url: /ko/aspose.slides.charts/datalabel/right/
 public float Right { get; }
 ```
 
-### 참고
+### 참조
 
 * 클래스 [DataLabel](../../datalabel)
 * 네임스페이스 [Aspose.Slides.Charts](../../datalabel)

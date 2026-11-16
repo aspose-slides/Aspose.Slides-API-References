@@ -1,14 +1,14 @@
 ---
 title: Hide
 second_title: Aspose.Sildes for .NET API リファレンス
-description: すべての Show フラグ (ShowValue ...) を false に設定してデータラベルを非表示にします。この操作後は IsVisible が false になります。
+description: すべての Show フラグ（ShowValue など）を false に設定することでデータ ラベルを非表示にします。この後、IsVisible は false になります。
 type: docs
-weight: 200
+weight: 210
 url: /ja/aspose.slides.charts/datalabel/hide/
 ---
 ## DataLabel.Hide メソッド
 
-すべての Show*-フラグ (ShowValue, ...) を false に設定することでデータラベルを非表示にします。これにより IsVisible は false になります。
+すべての Show*-フラグ（ShowValue、...）を false に設定することでデータ ラベルを非表示にします。IsVisible はこの後 false になります。
 
 ```csharp
 public void Hide()
@@ -16,7 +16,7 @@ public void Hide()
 
 ### 備考
 
-データラベルが表示されていない場合 (IsVisible が false のとき)、Show*-フラグ (ShowValue, ...) を true に設定することでデータラベルを表示できます。
+データ ラベルが表示されていない場合（IsVisible が false のとき）、Show*-フラグ（ShowValue、...）を true に設定することでデータ ラベルを表示できます。
 
 ### 関連項目
 

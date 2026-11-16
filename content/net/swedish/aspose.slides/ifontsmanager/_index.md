@@ -1,14 +1,14 @@
 ---
 title: IFontsManager
 second_title: Aspose.Sildes för .NET API-referens
-description: Hanterar teckensnitt i hela presentationen.
+description: Hanterar typsnitt över presentationen.
 type: docs
-weight: 5930
+weight: 5950
 url: /sv/aspose.slides/ifontsmanager/
 ---
 ## IFontsManager gränssnitt
 
-Manages fonts across the presentation.
+Hantera typsnitt över presentationen.
 
 ```csharp
 public interface IFontsManager
@@ -18,25 +18,26 @@ public interface IFontsManager
 
 | Namn | Beskrivning |
 | --- | --- |
-| [FontFallBackRulesCollection](../../aspose.slides/ifontsmanager/fontfallbackrulescollection) { get; set; } | Representerar en användares samling av FontFallBack-regler för hantering av samlingar av teckensnitt för korrekta ersättningar via fallback-funktionalitet Läs/skriv [`IFontFallBackRulesCollection`](../ifontfallbackrulescollection). |
-| [FontSubstRuleList](../../aspose.slides/ifontsmanager/fontsubstrulelist) { get; set; } | Fontsubstitutioner att använda vid rendering Läs/skriv [`IFontSubstRuleCollection`](../ifontsubstrulecollection). |
+| [FontFallBackRulesCollection](../../aspose.slides/ifontsmanager/fontfallbackrulescollection) { get; set; } | Representerar en användares samling av FontFallBack-regler för hantering av typsnittssamlingar för korrekta ersättningar via fallback-funktionalitet Läs/skriv [`IFontFallBackRulesCollection`](../ifontfallbackrulescollection). |
+| [FontSubstRuleList](../../aspose.slides/ifontsmanager/fontsubstrulelist) { get; set; } | Font substitutioner att använda vid rendering Läs/skriv [`IFontSubstRuleCollection`](../ifontsubstrulecollection). |
+| [PreferRegisteredFontsOverEmbedded](../../aspose.slides/ifontsmanager/preferregisteredfontsoverembedded) { get; set; } | Anger om registrerade typsnitt ska föredras framför inbäddade typsnitt med samma typsnittsnamn och stil. När den är aktiverad ersätts matchande inbäddade typsnitt tillfälligt med motsvarande registrerade typsnitt under export. |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AddEmbeddedFont](../../aspose.slides/ifontsmanager/addembeddedfont#addembeddedfont_1)(byte[], EmbedFontCharacters) | Lägger till det inbäddade teckensnittet. Tänk på att när du lägger till teckensnitt är de flesta teckensnitt upphovsrättsskyddade. Hitta först licensen för ett teckensnitt i förväg och verifiera att de fritt kan överföras till en annan maskin. Ett ArgumentException kan kastas om font data är null eller detta teckensnitt redan är inbäddat |
-| [AddEmbeddedFont](../../aspose.slides/ifontsmanager/addembeddedfont#addembeddedfont)(IFontData, EmbedFontCharacters) | Lägger till det inbäddade teckensnittet. Tänk på att när du kopierar teckensnitt är de flesta teckensnitt upphovsrättsskyddade. Hitta först licensen för ett teckensnitt i förväg och verifiera att de fritt kan överföras till en annan maskin. Ett ArgumentException kan kastas om font data är null eller detta teckensnitt redan är inbäddat |
-| [GetEmbeddedFonts](../../aspose.slides/ifontsmanager/getembeddedfonts)() | Returnerar teckensnitten som är inbäddade i presentationen |
-| [GetFontBytes](../../aspose.slides/ifontsmanager/getfontbytes)(IFontData, FontStyleType) | Hämtar bytearrayen som representerar teckensnittsdata för en angiven teckensnittsstil och teckensnittsdata |
-| [GetFontEmbeddingLevel](../../aspose.slides/ifontsmanager/getfontembeddinglevel)(byte[], string) | Bestämmer inbäddningsnivån för ett teckensnitt från den givna bytearrayen och teckensnittsnamnet |
-| [GetFonts](../../aspose.slides/ifontsmanager/getfonts)() | Returnerar teckensnitten som används i presentationen |
-| [GetSubstitutions](../../aspose.slides/ifontsmanager/getsubstitutions#getsubstitutions)() | Hämtar informationen om teckensnitt som kommer att ersättas vid presentationens rendering |
-| [GetSubstitutions](../../aspose.slides/ifontsmanager/getsubstitutions#getsubstitutions_1)(int[]) | Hämtar informationen om teckensnitt som kommer att ersättas under rendering av de angivna bilderna |
-| [RemoveEmbeddedFont](../../aspose.slides/ifontsmanager/removeembeddedfont)(IFontData) | Tar bort det inbäddade teckensnittet |
-| [ReplaceFont](../../aspose.slides/ifontsmanager/replacefont#replacefont_1)(IFontSubstRule) | Ersätt teckensnitt i presentationen med information tillhandahållen i [`IFontSubstRule`](../ifontsubstrule) |
-| [ReplaceFont](../../aspose.slides/ifontsmanager/replacefont#replacefont_2)(IFontSubstRuleCollection) | Ersätt teckensnitt i presentationen med information tillhandahållen i samlingen av [`IFontSubstRule`](../ifontsubstrule) |
-| [ReplaceFont](../../aspose.slides/ifontsmanager/replacefont#replacefont)(IFontData, IFontData) | Ersätt teckensnitt i presentationen |
+| [AddEmbeddedFont](../../aspose.slides/ifontsmanager/addembeddedfont#addembeddedfont_1)(byte[], EmbedFontCharacters) | Lägger till det inbäddade typsnittet. Tänk på att de flesta typsnitt är upphovsrättsskyddade när du lägger till typsnitt. Lokaliser först licensen för ett typsnitt i förväg och verifiera att det kan överföras fritt till en annan maskin. Ett ArgumentException kan kastas om typsnittsdata är null eller om detta typsnitt redan är inbäddat |
+| [AddEmbeddedFont](../../aspose.slides/ifontsmanager/addembeddedfont#addembeddedfont)(IFontData, EmbedFontCharacters) | Lägger till det inbäddade typsnittet. Tänk på att de flesta typsnitt är upphovsrättsskyddade när du kopierar typsnitt. Lokaliser först licensen för ett typsnitt i förväg och verifiera att det kan överföras fritt till en annan maskin. Ett ArgumentException kan kastas om typsnittsdata är null eller om detta typsnitt redan är inbäddat |
+| [GetEmbeddedFonts](../../aspose.slides/ifontsmanager/getembeddedfonts)() | Returnerar de typsnitt som är inbäddade i presentationen |
+| [GetFontBytes](../../aspose.slides/ifontsmanager/getfontbytes)(IFontData, FontStyleType) | Hämtar byte-arrayen som representerar typsnittsdatan för en angiven typsnittsstil och typsnittsdatan. |
+| [GetFontEmbeddingLevel](../../aspose.slides/ifontsmanager/getfontembeddinglevel)(byte[], string) | Bestämmer inbäddningsnivån för ett typsnitt från den angivna byte-arrayen och typsnittsnamnet. |
+| [GetFonts](../../aspose.slides/ifontsmanager/getfonts)() | Returnerar de typsnitt som används i presentationen |
+| [GetSubstitutions](../../aspose.slides/ifontsmanager/getsubstitutions#getsubstitutions)() | Hämtar informationen om typsnitt som kommer att ersättas vid rendering av presentationen. |
+| [GetSubstitutions](../../aspose.slides/ifontsmanager/getsubstitutions#getsubstitutions_1)(int[]) | Hämtar informationen om typsnitt som kommer att ersättas under rendering av de angivna bilderna. |
+| [RemoveEmbeddedFont](../../aspose.slides/ifontsmanager/removeembeddedfont)(IFontData) | Tar bort det inbäddade typsnittet |
+| [ReplaceFont](../../aspose.slides/ifontsmanager/replacefont#replacefont_1)(IFontSubstRule) | Ersätter typsnitt i presentationen med information som tillhandahålls i [`IFontSubstRule`](../ifontsubstrule) |
+| [ReplaceFont](../../aspose.slides/ifontsmanager/replacefont#replacefont_2)(IFontSubstRuleCollection) | Ersätter typsnitt i presentationen med information som tillhandahålls i samlingen av [`IFontSubstRule`](../ifontsubstrule) |
+| [ReplaceFont](../../aspose.slides/ifontsmanager/replacefont#replacefont)(IFontData, IFontData) | Ersätter typsnitt i presentationen |
 
 ### Se även
 

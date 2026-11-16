@@ -1,14 +1,14 @@
 ---
 title: BiLevel
-second_title: Aspose.Sildes for .NET API 参考
-description: 表示一种 Bi-Level 黑/白效果。亮度低于指定阈值的输入颜色将被更改为黑色。亮度大于或等于指定值的输入颜色将被设置为白色。Alpha 效果值不受此效果影响。
+second_title: Aspose.Sildes 的 .NET API 参考
+description: 表示一种 Bi-Level 黑白效果。亮度低于指定阈值的输入颜色将被更改为黑色。亮度大于或等于指定阈值的输入颜色将被设置为白色。Alpha 效果值不受此效果影响。
 type: docs
-weight: 2910
+weight: 2930
 url: /zh/aspose.slides.effects/bilevel/
 ---
 ## BiLevel 类
 
-表示一种 Bi-Level（黑/白）效果。亮度低于指定阈值的输入颜色将被更改为黑色。亮度大于或等于指定值的输入颜色将被设置为白色。Alpha 效果值不受此效果影响。
+表示一种 Bi-Level（黑/白）效果。输入颜色的亮度低于指定阈值的将被更改为黑色。输入颜色的亮度大于或等于指定值的将被设置为白色。Alpha 效果值不受此效果影响。
 
 ```csharp
 public sealed class BiLevel : ImageTransformOperation, IBiLevel
@@ -18,7 +18,7 @@ public sealed class BiLevel : ImageTransformOperation, IBiLevel
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基 IPresentationComponent 接口。只读 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基础 IPresentationComponent 接口。只读 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
 
 ## 方法
 
@@ -28,7 +28,7 @@ public sealed class BiLevel : ImageTransformOperation, IBiLevel
 | [GetEffective](../../aspose.slides.effects/bilevel/geteffective)() | 获取在应用继承后的有效 Bi-Level 效果数据。 |
 | override [GetHashCode](../../aspose.slides.effects/bilevel/gethashcode)() | 作为特定类型的哈希函数。 |
 
-### 另请参见
+### 另见
 
 * 类 [ImageTransformOperation](../imagetransformoperation)
 * 接口 [IBiLevel](../ibilevel)

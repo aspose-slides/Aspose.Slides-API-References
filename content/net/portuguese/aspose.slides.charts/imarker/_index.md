@@ -1,14 +1,14 @@
 ---
 title: IMarker
-second_title: Referência de API Aspose.Sildes for .NET
-description: Representa o marcador de um gráfico.
+second_title: Aspose.Sildes para .NET Referência da API
+description: Representa o marcador de uma chert.
 type: docs
-weight: 2160
+weight: 2180
 url: /pt/aspose.slides.charts/imarker/
 ---
 ## interface IMarker
 
-Representa o marcador de um gráfico.
+Representa o marcador de uma chert.
 
 ```csharp
 public interface IMarker
@@ -19,10 +19,10 @@ public interface IMarker
 | Nome | Descrição |
 | --- | --- |
 | [Format](../../aspose.slides.charts/imarker/format) { get; } | Obtém o preenchimento do marcador. Somente leitura [`IFormat`](../iformat). |
-| [Size](../../aspose.slides.charts/imarker/size) { get; set; } | Representa o tamanho do marcador em um gráfico de linhas, gráfico de dispersão ou gráfico de radar. Leitura/Escrita Int32. |
-| [Symbol](../../aspose.slides.charts/imarker/symbol) { get; set; } | Representa o estilo do marcador em um gráfico de linhas, gráfico de dispersão ou gráfico de radar. Leitura/Escrita [`MarkerStyleType`](../markerstyletype). |
+| [Size](../../aspose.slides.charts/imarker/size) { get; set; } | Representa o tamanho do marcador em um gráfico de linhas, gráfico de dispersão ou gráfico radar. Leitura/gravação Int32. |
+| [Symbol](../../aspose.slides.charts/imarker/symbol) { get; set; } | Representa o estilo do marcador em um gráfico de linhas, gráfico de dispersão ou gráfico radar. Leitura/gravação [`MarkerStyleType`](../markerstyletype). |
 
-### Veja Também
+### Ver Também
 
 * espaço de nomes [Aspose.Slides.Charts](../../aspose.slides.charts)
 * assembly [Aspose.Slides](../../)

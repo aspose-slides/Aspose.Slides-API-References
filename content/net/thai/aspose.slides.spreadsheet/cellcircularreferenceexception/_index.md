@@ -1,33 +1,33 @@
 ---
 title: CellCircularReferenceException
-second_title: Aspose.Sildes สำหรับ .NET API อ้างอิง
-description: ข้อยกเว้นที่เกิดขึ้นเมื่อพบการอ้างอิงแบบวงกลมหนึ่งหรือหลายรายการซึ่งสูตรอ้างอิงถึงเซลล์ของตนเองโดยตรงหรือโดยอ้อม
+second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
+description: ข้อยกเว้นที่เกิดขึ้นเมื่อมีการตรวจพบการอ้างอิงแบบวนลูปหนึ่งหรือหลายรายการ ซึ่งสูตรอ้างอิงถึงเซลล์ของตนเองโดยตรงหรือโดยอ้อม
 type: docs
-weight: 10700
+weight: 10720
 url: /th/aspose.slides.spreadsheet/cellcircularreferenceexception/
 ---
 ## CellCircularReferenceException คลาส
 
-ข้อยกเว้นที่ถูกโยนขึ้นเมื่อพบการอ้างอิงแบบวงกลมหนึ่งหรือหลายรายการซึ่งสูตรอ้างอิงถึงเซลล์ของตนเองโดยตรงหรือโดยอ้อม.
+ข้อยกเว้นที่เกิดขึ้นเมื่อมีการตรวจพบการอ้างอิงวนลูปหนึ่งหรือหลายรายการในสูตรที่อ้างอิงถึงเซลล์ของตนเองโดยตรงหรือโดยอ้อม
 
 ```csharp
 public class CellCircularReferenceException : PptxEditException
 ```
 
-## ตัวสร้าง
+## คอนสตรัคเตอร์
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [CellCircularReferenceException](cellcircularreferenceexception#constructor)() | เริ่มต้นอินสแตนซ์ใหม่ของคลาส [`CellCircularReferenceException`](../cellcircularreferenceexception). |
-| [CellCircularReferenceException](cellcircularreferenceexception#constructor_1)(string) | เริ่มต้นอินสแตนซ์ใหม่ของคลาส [`CellCircularReferenceException`](../cellcircularreferenceexception) พร้อมข้อความแสดงข้อผิดพลาดที่ระบุ. |
-| [CellCircularReferenceException](cellcircularreferenceexception#constructor_2)(string, Exception) | เริ่มต้นอินสแตนซ์ใหม่ของคลาส [`CellCircularReferenceException`](../cellcircularreferenceexception) พร้อมข้อความแสดงข้อผิดพลาดที่ระบุและการอ้างอิงไปยังข้อยกเว้นภายในที่เป็นสาเหตุของข้อยกเว้นนี้. |
-| [CellCircularReferenceException](cellcircularreferenceexception#constructor_3)(string, string) | เริ่มต้นอินสแตนซ์ใหม่ของคลาส [`CellCircularReferenceException`](../cellcircularreferenceexception) พร้อมข้อความแสดงข้อผิดพลาดที่ระบุและการอ้างอิงเซลล์แบบวงกลม. |
+| [CellCircularReferenceException](cellcircularreferenceexception#constructor)() | เริ่มต้นอินสแตนซ์ใหม่ของคลาส [`CellCircularReferenceException`](../cellcircularreferenceexception) |
+| [CellCircularReferenceException](cellcircularreferenceexception#constructor_1)(string) | เริ่มต้นอินสแตนซ์ใหม่ของคลาส [`CellCircularReferenceException`](../cellcircularreferenceexception) โดยใช้ข้อความข้อผิดพลาดที่ระบุ |
+| [CellCircularReferenceException](cellcircularreferenceexception#constructor_2)(string, Exception) | เริ่มต้นอินสแตนซ์ใหม่ของคลาส [`CellCircularReferenceException`](../cellcircularreferenceexception) โดยใช้ข้อความข้อผิดพลาดที่ระบุและอ้างอิงถึงข้อยกเว้นภายในที่เป็นสาเหตุของข้อยกเว้นนี้ |
+| [CellCircularReferenceException](cellcircularreferenceexception#constructor_3)(string, string) | เริ่มต้นอินสแตนซ์ใหม่ของคลาส [`CellCircularReferenceException`](../cellcircularreferenceexception) โดยใช้ข้อความข้อผิดพลาดที่ระบุและการอ้างอิงเซลล์วนลูป |
 
 ## คุณสมบัติ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Reference](../../aspose.slides.spreadsheet/cellcircularreferenceexception/reference) { get; } | รับการอ้างอิงเซลล์แบบวงกลม. |
+| [Reference](../../aspose.slides.spreadsheet/cellcircularreferenceexception/reference) { get; } | รับการอ้างอิงเซลล์วนลูป |
 
 ### ดูเพิ่มเติม
 

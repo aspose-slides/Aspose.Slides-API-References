@@ -1,9 +1,9 @@
 ---
 title: ILightRig
-second_title: Справочник API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Представляет LightRig.
 type: docs
-weight: 6270
+weight: 6290
 url: /ru/aspose.slides/ilightrig/
 ---
 ## ILightRig интерфейс
@@ -19,16 +19,16 @@ public interface ILightRig
 | Имя | Описание |
 | --- | --- |
 | [Direction](../../aspose.slides/ilightrig/direction) { get; set; } | Направление света. Чтение/запись [`LightingDirection`](../lightingdirection). |
-| [LightType](../../aspose.slides/ilightrig/lighttype) { get; set; } | Представляет предустановленный свет, который может быть применён к фигуре. LightRig представляет группу светов, ориентированных определённым образом относительно 3D-сцены. Чтение/запись [`LightRigPresetType`](../lightrigpresettype). |
+| [LightType](../../aspose.slides/ilightrig/lighttype) { get; set; } | Представляет предустановленный тип света, который может быть применён к фигуре. Набор освещения представляет группу светильников, ориентированных определённым образом относительно 3D-сцены. Чтение/запись [`LightRigPresetType`](../lightrigpresettype). |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [GetRotation](../../aspose.slides/ilightrig/getrotation)() | Вращение определяется с помощью координаты широты, координаты долготы и вращения вокруг оси, как координат широты и долготы. первый элемент возвращаемого массива — широта, второй — долгота, третий — вращение. |
-| [SetRotation](../../aspose.slides/ilightrig/setrotation)(float, float, float) | Вращение определяется с помощью координаты широты, координаты долготы и вращения вокруг оси, как координат широты и долготы. |
+| [GetRotation](../../aspose.slides/ilightrig/getrotation)() | Вращение задаётся с помощью координаты широты, координаты долготы и вращения вокруг оси, определяемого этими координатами. Первый элемент возвращаемого массива — широта, второй — долгота, третий — вращение. |
+| [SetRotation](../../aspose.slides/ilightrig/setrotation)(float, float, float) | Вращение задаётся с помощью координаты широты, координаты долготы и вращения вокруг оси, определяемого этими координатами. |
 
-### Смотрите также
+### См. также
 
 * пространство имён [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

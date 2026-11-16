@@ -1,9 +1,9 @@
 ---
 title: ICornerDirectionTransition
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: コーナー方向のスライド遷移効果。
 type: docs
-weight: 10060
+weight: 10080
 url: /ja/aspose.slides.slideshow/icornerdirectiontransition/
 ---
 ## ICornerDirectionTransition インターフェイス
@@ -16,10 +16,10 @@ public interface ICornerDirectionTransition : ITransitionValueBase
 
 ## プロパティ
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/icornerdirectiontransition/asitransitionvaluebase) { get; } | 基本 ITransitionValueBase インターフェイスを取得できます。 読み取り専用 [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/icornerdirectiontransition/direction) { get; set; } | 遷移の方向。 読み書き [`TransitionCornerDirectionType`](../transitioncornerdirectiontype). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/icornerdirectiontransition/asitransitionvaluebase) { get; } | ベース ITransitionValueBase インターフェイスを取得できます。読み取り専用 [`ITransitionValueBase`](../itransitionvaluebase)。 |
+| [Direction](../../aspose.slides.slideshow/icornerdirectiontransition/direction) { get; set; } | 遷移の方向。読み取り/書き込み [`TransitionCornerDirectionType`](../transitioncornerdirectiontype)。 |
 
 ### 参照
 

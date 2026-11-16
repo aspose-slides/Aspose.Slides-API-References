@@ -1,9 +1,9 @@
 ---
 title: Marker
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 데이터 마커를 지정합니다. 읽기 전용 IMarkeraspose.slides.charts/imarker.
 type: docs
-weight: 150
+weight: 190
 url: /ko/aspose.slides.charts/chartdatapoint/marker/
 ---
 ## ChartDataPoint.Marker 속성
@@ -14,7 +14,7 @@ url: /ko/aspose.slides.charts/chartdatapoint/marker/
 public IMarker Marker { get; }
 ```
 
-### 관련 항목
+### 참조
 
 * 인터페이스 [IMarker](../../imarker)
 * 클래스 [ChartDataPoint](../../chartdatapoint)

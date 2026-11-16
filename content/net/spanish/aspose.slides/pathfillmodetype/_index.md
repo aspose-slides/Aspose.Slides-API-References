@@ -1,14 +1,14 @@
 ---
 title: PathFillModeType
-second_title: Aspose.Sildes para la referencia de API de .NET
-description: Especifica la forma en que una ruta debe rellenarse
+second_title: Referencia de API de Aspose.Sildes para .NET
+description: Especifica la forma en que se debe rellenar una ruta
 type: docs
-weight: 9330
+weight: 9350
 url: /es/aspose.slides/pathfillmodetype/
 ---
 ## PathFillModeType enumeración
 
-Especifica la forma en que una ruta debe rellenarse
+Especifica la forma en que se debe rellenar una ruta
 
 ```csharp
 public enum PathFillModeType : byte
@@ -18,12 +18,12 @@ public enum PathFillModeType : byte
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| None | `0` | Sin relleno de ruta. Esto especifica que la ruta correspondiente no debe tener relleno. |
-| Normal | `1` | Relleno de ruta normal. Esto especifica que la ruta correspondiente debe tener un color sombreado normal aplicado a su relleno. |
-| Lighten | `2` | Relleno de ruta aclarado. Esto especifica que la ruta correspondiente debe tener un color ligeramente sombreado aplicado a su relleno. |
-| LightenLess | `3` | Relleno de ruta ligeramente menos aclarado. Esto especifica que la ruta correspondiente debe tener un color un poco más claro aplicado a su relleno. |
-| Darken | `4` | Relleno de ruta oscurecido. Esto especifica que la ruta correspondiente debe tener un color más oscuro aplicado a su relleno. |
-| DarkenLess | `5` | Relleno de ruta ligeramente menos oscurecido. Esto especifica que la ruta correspondiente debe tener un color un poco más oscuro aplicado a su relleno. |
+| None | `0` | No Path Fill Esto especifica que la ruta correspondiente no debe tener relleno. |
+| Normal | `1` | Normal Path Fill Esto especifica que la ruta correspondiente debe tener un color sombreado normalmente aplicado a su relleno. |
+| Lighten | `2` | Lighten Path Fill Esto especifica que la ruta correspondiente debe tener un color ligeramente sombreado aplicado a su relleno. |
+| LightenLess | `3` | Lighten Path Fill Less Esto especifica que la ruta correspondiente debe tener un color ligeramente más claro sombreado aplicado a su relleno. |
+| Darken | `4` | Darken Path Fill Esto especifica que la ruta correspondiente debe tener un color más oscuro sombreado aplicado a su relleno. |
+| DarkenLess | `5` | Darken Path Fill Less Esto especifica que la ruta correspondiente debe tener un color ligeramente más oscuro sombreado aplicado a su relleno. |
 
 ### Ver también
 

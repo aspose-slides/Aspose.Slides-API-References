@@ -3,7 +3,7 @@ title: IChartDataWorksheetCollection
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt die Sammlung von Arbeitsblättern der Diagrammdaten-Arbeitsmappe dar.
 type: docs
-weight: 1880
+weight: 1900
 url: /de/aspose.slides.charts/ichartdataworksheetcollection/
 ---
 ## IChartDataWorksheetCollection Schnittstelle

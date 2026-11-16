@@ -1,9 +1,9 @@
 ---
 title: Remove
-second_title: Aspose.Sildes .NET के लिए API संदर्भ
-description: चार्ट से श्रेणी को हटाता है।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: श्रेणी को चार्ट से हटाता है।
 type: docs
-weight: 60
+weight: 70
 url: /hi/aspose.slides.charts/chartcategory/remove/
 ---
 ## ChartCategory.Remove विधि
@@ -18,9 +18,9 @@ public void Remove()
 
 | अपवाद | शर्त |
 | --- | --- |
-| [PptxEditException](../../../aspose.slides/pptxeditexception) | यदि श्रेणी पहले ही चार्ट से हटा दी गई है तो फेंका जाता है। |
+| [PptxEditException](../../../aspose.slides/pptxeditexception) | यदि श्रेणी पहले ही चार्ट से हटा दी गई हो, तो थ्रो किया जाता है। |
 
-### संबंधित देखें
+### साथ ही देखें
 
 * क्लास [ChartCategory](../../chartcategory)
 * नामस्थान [Aspose.Slides.Charts](../../chartcategory)

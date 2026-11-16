@@ -1,20 +1,20 @@
 ---
 title: ITransitionValueBase
-second_title: Aspose.Sildes for .NET API 參考
-description: 表示投影片切換效果的基礎類別。
+second_title: Aspose.Sildes .NET API 參考
+description: 表示投影片轉場效果的基礎類別。
 type: docs
-weight: 10210
+weight: 10230
 url: /zh-hant/aspose.slides.slideshow/itransitionvaluebase/
 ---
 ## ITransitionValueBase 介面
 
-表示投影片切換效果的基礎類別。
+表示投影片轉場效果的基礎類別。
 
 ```csharp
 public interface ITransitionValueBase
 ```
 
-### 另見
+### 參見
 
 * 命名空間 [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * 組件 [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: IGlobalLayoutSlideCollection
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar en samling av alla layoutbilder i presentationen. Utökar ILayoutSlideCollection-gränssnittet med metoder för att lägga till/klona layoutbilder i samband med förening av de enskilda samlingarna av master layoutbilder.
+description: Representerar en samling av alla layoutbilder i en presentation. Ärver ILayoutSlideCollection-gränssnittet med metoder för att lägga till/klona layoutbilder i samband med förening av de enskilda samlingarna av masterlayoutbilder.
 type: docs
-weight: 5990
+weight: 6010
 url: /sv/aspose.slides/igloballayoutslidecollection/
 ---
 ## IGlobalLayoutSlideCollection gränssnitt
 
-Representerar en samling av alla layoutbilder i presentationen. Utökar ILayoutSlideCollection gränssnitt med metoder för att lägga till/klona layoutbilder i samband med förening av de enskilda samlingarna av master layoutbilder.
+Representerar en samling av alla layoutbilder i en presentation. Ärver ILayoutSlideCollection gränssnitt med metoder för att lägga till/klona layoutbilder i samband med sammanslagning av de individuella samlingarna av mästarens layoutbilder.
 
 ```csharp
 public interface IGlobalLayoutSlideCollection : ILayoutSlideCollection
@@ -24,9 +24,9 @@ public interface IGlobalLayoutSlideCollection : ILayoutSlideCollection
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Add](../../aspose.slides/igloballayoutslidecollection/add)(IMasterSlide, SlideLayoutType, string) | Lägger till en ny layoutbild i presentationen. |
-| [AddClone](../../aspose.slides/igloballayoutslidecollection/addclone#addclone)(ILayoutSlide) | Lägger till en kopia av en angiven layoutbild i presentationen. |
-| [AddClone](../../aspose.slides/igloballayoutslidecollection/addclone#addclone_1)(ILayoutSlide, IMasterSlide) | Lägger till en kopia av en angiven layoutbild i presentationen. |
+| [Add](../../aspose.slides/igloballayoutslidecollection/add)(IMasterSlide, SlideLayoutType, string) | Lägger till en ny layoutbild till presentationen. |
+| [AddClone](../../aspose.slides/igloballayoutslidecollection/addclone#addclone)(ILayoutSlide) | Lägger till en kopia av en specificerad layoutbild till presentationen. |
+| [AddClone](../../aspose.slides/igloballayoutslidecollection/addclone#addclone_1)(ILayoutSlide, IMasterSlide) | Lägger till en kopia av en specificerad layoutbild till presentationen. |
 
 ### Se även
 

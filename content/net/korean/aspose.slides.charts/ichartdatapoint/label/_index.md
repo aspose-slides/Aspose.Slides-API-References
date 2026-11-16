@@ -1,14 +1,14 @@
 ---
 title: Label
-second_title: Aspose.Sildes .NET API 참조
-description: 차트 데이터 포인트의 레이블을 나타냅니다. 읽기 전용 IDataLabelaspose.slides.charts/idatalabel.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 차트 데이터 포인트의 라벨을 나타냅니다. 읽기 전용 IDataLabelaspose.slides.charts/idatalabel.
 type: docs
-weight: 110
+weight: 150
 url: /ko/aspose.slides.charts/ichartdatapoint/label/
 ---
 ## IChartDataPoint.Label 속성
 
-차트 데이터 포인트의 레이블을 나타냅니다. 읽기 전용 [`IDataLabel`](../../idatalabel).
+차트 데이터 포인트의 라벨을 나타냅니다. 읽기 전용 [`IDataLabel`](../../idatalabel).
 
 ```csharp
 public IDataLabel Label { get; }

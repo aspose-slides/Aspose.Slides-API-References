@@ -1,14 +1,14 @@
 ---
 title: IColorChange
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: एक Color Change प्रभाव का प्रतिनिधित्व करता है। FromColor के उदाहरणों को ToColor के उदाहरणों से बदल दिया जाता है।
+description: एक रंग परिवर्तन प्रभाव का प्रतिनिधित्व करता है। FromColor की उदाहरणों को ToColor की उदाहरणों द्वारा प्रतिस्थापित किया जाता है।
 type: docs
-weight: 3220
+weight: 3240
 url: /hi/aspose.slides.effects/icolorchange/
 ---
 ## IColorChange इंटरफ़ेस
 
-एक Color Change प्रभाव का प्रतिनिधित्व करता है। FromColor के उदाहरणों को ToColor के उदाहरणों से बदल दिया जाता है।
+रंग परिवर्तन प्रभाव का प्रतिनिधित्व करता है। FromColor की उदाहरणों को ToColor की उदाहरणों द्वारा प्रतिस्थापित किया जाता है।
 
 ```csharp
 public interface IColorChange : IAccessiblePVIObject<IColorChangeEffectiveData>, 
@@ -19,12 +19,12 @@ public interface IColorChange : IAccessiblePVIObject<IColorChangeEffectiveData>,
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/icolorchange/asiaccessiblepviobject) { get; } | आधार IAccessiblePVIObject इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल पढ़ने योग्य [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/icolorchange/asiimagetransformoperation) { get; } | आधार IImageTransformOperation इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल पढ़ने योग्य [`IImageTransformOperation`](../iimagetransformoperation). |
-| [FromColor](../../aspose.slides.effects/icolorchange/fromcolor) { get; } | वह रंग जिसे बदला जाएगा। केवल पढ़ने योग्य [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [ToColor](../../aspose.slides.effects/icolorchange/tocolor) { get; } | वह रंग जो बदल देगा। केवल पढ़ने योग्य [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/icolorchange/asiaccessiblepviobject) { get; } | बेस IAccessiblePVIObject इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)। |
+| [AsIImageTransformOperation](../../aspose.slides.effects/icolorchange/asiimagetransformoperation) { get; } | बेस IImageTransformOperation इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IImageTransformOperation`](../iimagetransformoperation)। |
+| [FromColor](../../aspose.slides.effects/icolorchange/fromcolor) { get; } | वह रंग जो प्रतिस्थापित किया जाएगा। केवल-पढ़ने योग्य [`IColorFormat`](../../aspose.slides/icolorformat)। |
+| [ToColor](../../aspose.slides.effects/icolorchange/tocolor) { get; } | वह रंग जो प्रतिस्थापित करेगा। केवल-पढ़ने योग्य [`IColorFormat`](../../aspose.slides/icolorformat)। |
 
-### देखें भी
+### देखें
 
 * इंटरफ़ेस [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * इंटरफ़ेस [IColorChangeEffectiveData](../icolorchangeeffectivedata)

@@ -1,14 +1,14 @@
 ---
 title: PresetColor
-second_title: Aspose.Sildes برای مرجع API .NET
-description: پیش‌تنظیم‌های رنگ از پیش تعریف‌شده را نشان می‌دهد.
+second_title: مرجع API Aspose.Sildes برای .NET
+description: نمایشگر پیش‌تنظیم‌های رنگ از پیش تعریف‌شده.
 type: docs
-weight: 9660
+weight: 9680
 url: /fa/aspose.slides/presetcolor/
 ---
 ## شمارش PresetColor
 
-پیش‌تنظیم‌های رنگ از پیش تعریف‌شده را نشان می‌دهد.
+نمایشگر پیش‌تنظیم‌های رنگ از پیش تعریف‌شده.
 
 ```csharp
 public enum PresetColor

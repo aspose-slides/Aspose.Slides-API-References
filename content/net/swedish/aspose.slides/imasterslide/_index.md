@@ -3,7 +3,7 @@ title: IMasterSlide
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en masterbild i en presentation.
 type: docs
-weight: 6420
+weight: 6440
 url: /sv/aspose.slides/imasterslide/
 ---
 ## IMasterSlide gränssnitt
@@ -18,29 +18,29 @@ public interface IMasterSlide : IBaseSlide, IMasterThemeable
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/imasterslide/asibaseslide) { get; } | Tillåter att hämta bas-IBaseSlide-gränssnittet. Skrivskyddad [`IBaseSlide`](../ibaseslide). |
-| [AsIMasterThemeable](../../aspose.slides/imasterslide/asimasterthemeable) { get; } | Returnerar IMasterThemeable-gränssnittet. Skrivskyddad [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
-| [BodyStyle](../../aspose.slides/imasterslide/bodystyle) { get; } | Returnerar stilen för en brödtext. Skrivskyddad [`ITextStyle`](../itextstyle). |
-| [DrawingGuides](../../aspose.slides/imasterslide/drawingguides) { get; } | Returnerar en samling ritningsguider för masterbilden. Skrivskyddad [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [HasDependingSlides](../../aspose.slides/imasterslide/hasdependingslides) { get; } | Returnerar true om det finns minst en bild som är beroende av denna masterbild. Skrivskyddad Boolean. |
-| [HeaderFooterManager](../../aspose.slides/imasterslide/headerfootermanager) { get; } | Returnerar HeaderFooter-hanteraren för masterbilden. Skrivskyddad [`IMasterSlideHeaderFooterManager`](../imasterslideheaderfootermanager). |
-| [LayoutSlides](../../aspose.slides/imasterslide/layoutslides) { get; } | Returnerar samlingen av underordnade layoutbilder för denna masterbild. Skrivskyddad [`IMasterLayoutSlideCollection`](../imasterlayoutslidecollection). |
-| [OtherStyle](../../aspose.slides/imasterslide/otherstyle) { get; } | Returnerar stilen för en annan text. Skrivskyddad [`ITextStyle`](../itextstyle). |
-| [Preserve](../../aspose.slides/imasterslide/preserve) { get; set; } | Bestämmer om motsvarande master tas bort när alla bilder som följer den mastern har tagits bort. Obs: Aspose.Slides kommer aldrig att ta bort någon oanvänd master av sig själv, för att faktiskt ta bort oanvända masters anropa [`RemoveUnused`](../imasterslidecollection/removeunused) Läs/skriv Boolean. |
-| [TitleStyle](../../aspose.slides/imasterslide/titlestyle) { get; } | Returnerar stilen för en titeltext. Skrivskyddad [`ITextStyle`](../itextstyle). |
+| [AsIBaseSlide](../../aspose.slides/imasterslide/asibaseslide) { get; } | Tillåter att hämta bas-IBaseSlide-gränssnittet. Läs-endast [`IBaseSlide`](../ibaseslide). |
+| [AsIMasterThemeable](../../aspose.slides/imasterslide/asimasterthemeable) { get; } | Returnerar IMasterThemeable-gränssnittet. Läs-endast [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
+| [BodyStyle](../../aspose.slides/imasterslide/bodystyle) { get; } | Returnerar stilen för en brödtext. Läs-endast [`ITextStyle`](../itextstyle). |
+| [DrawingGuides](../../aspose.slides/imasterslide/drawingguides) { get; } | Returnerar en samling ritningsguider för masterbilden. Läs-endast [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [HasDependingSlides](../../aspose.slides/imasterslide/hasdependingslides) { get; } | Returnerar true om det finns minst en bild som beror på denna masterbild. Läs-endast Boolean. |
+| [HeaderFooterManager](../../aspose.slides/imasterslide/headerfootermanager) { get; } | Returnerar HeaderFooter-hanteraren för masterbilden. Läs-endast [`IMasterSlideHeaderFooterManager`](../imasterslideheaderfootermanager). |
+| [LayoutSlides](../../aspose.slides/imasterslide/layoutslides) { get; } | Returnerar samlingen av underordnade layout-bilder för denna masterbild. Läs-endast [`IMasterLayoutSlideCollection`](../imasterlayoutslidecollection). |
+| [OtherStyle](../../aspose.slides/imasterslide/otherstyle) { get; } | Returnerar stilen för en annan text. Läs-endast [`ITextStyle`](../itextstyle). |
+| [Preserve](../../aspose.slides/imasterslide/preserve) { get; set; } | Bestämmer om motsvarande master tas bort när alla bilder som följer den masteren har raderats. Obs: Aspose.Slides kommer aldrig att själv ta bort någon oanvänd master, för att faktiskt ta bort oanvända master-objekt anropa [`RemoveUnused`](../imasterslidecollection/removeunused) Läs-skriv Boolean. |
+| [TitleStyle](../../aspose.slides/imasterslide/titlestyle) { get; } | Returnerar stilen för en titeltext. Läs-endast [`ITextStyle`](../itextstyle). |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
-| [ApplyExternalThemeToDependingSlides](../../aspose.slides/imasterslide/applyexternalthemetodependingslides)(string) | Skapar en ny masterbild baserad på den aktuella, applicerar ett externt tema på den och tillämpar den skapade masterbilden på alla beroende bilder. |
-| [GetDependingSlides](../../aspose.slides/imasterslide/getdependingslides)() | Returnerar en array med alla bilder som är beroende av denna masterbild. |
+| [ApplyExternalThemeToDependingSlides](../../aspose.slides/imasterslide/applyexternalthemetodependingslides)(string) | Skapar en ny masterbild baserad på den aktuella, tillämpar ett externt tema på den och applicerar den skapade masterbilden på alla beroende bilder. |
+| [GetDependingSlides](../../aspose.slides/imasterslide/getdependingslides)() | Returnerar en array med alla bilder som beror på denna masterbild. |
 
 ### Se även
 
 * gränssnitt [IBaseSlide](../ibaseslide)
 * gränssnitt [IMasterThemeable](../../aspose.slides.theme/imasterthemeable)
 * namnrymd [Aspose.Slides](../../aspose.slides)
-* samling [Aspose.Slides](../../)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

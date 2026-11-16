@@ -1,14 +1,14 @@
 ---
 title: SvgCoordinateUnit
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Geeft de CSS2-coördineereenheden weer die worden gebruikt om SVG-coördinaten te definiëren.
+description: Stelt CSS2-coördinaateenheden voor die worden gebruikt om SVG-coördinaten te definiëren.
 type: docs
-weight: 4480
+weight: 4500
 url: /nl/aspose.slides.export/svgcoordinateunit/
 ---
 ## SvgCoordinateUnit enumeratie
 
-Geeft CSS2-coördineer-eenheden weer die worden gebruikt om SVG-coördinaten te definiëren.
+Stelt CSS2-coördinaateenheden voor die worden gebruikt om SVG-coördinaten te definiëren.
 
 ```csharp
 public enum SvgCoordinateUnit
@@ -21,12 +21,12 @@ public enum SvgCoordinateUnit
 | Inch | `0` | Inch |
 | Centimeter | `1` | Centimeter. |
 | Millimeter | `2` | Millimeter. |
-| Point | `3` | Point (1/72 van inch), |
-| Pica | `4` | Pica (1/6 van inch). |
+| Point | `3` | Point (1/72 van een inch), |
+| Pica | `4` | Pica (1/6 van een inch). |
 | Em | `5` | Em-grootte van een lettertype van het omvattende element. |
-| Ex | `6` | Ex-grootte (grootte van een kleine letter, gewoonlijk "x") van het lettertype van het omvattende element. |
+| Ex | `6` | Ex-grootte (grootte van een kleine letter, meestal "x") van het lettertype van het omvattende element. |
 | Pixel | `7` | Pixelgrootte. |
-| Percent | `8` | Percent. |
+| Percent | `8` | Percentage. |
 
 ### Zie ook
 

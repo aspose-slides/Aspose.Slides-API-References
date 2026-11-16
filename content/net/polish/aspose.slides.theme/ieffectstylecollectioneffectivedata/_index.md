@@ -1,14 +1,14 @@
 ---
 title: IEffectStyleCollectionEffectiveData
-second_title: Aspose.Sildes dla .NET – odniesienie API
-description: Niezmienny obiekt, który reprezentuje kolekcję tylko do odczytu skutecznych stylów efektów.
+second_title: Aspose.Sildes dla .NET API Reference
+description: Niezmienny obiekt reprezentujący kolekcję tylko do odczytu efektywnych stylów efektów.
 type: docs
-weight: 11190
+weight: 11210
 url: /pl/aspose.slides.theme/ieffectstylecollectioneffectivedata/
 ---
 ## IEffectStyleCollectionEffectiveData interfejs
 
-Immutable object that represents a readonly collection of effective effect styles.
+Niezmienny obiekt reprezentujący kolekcję tylko do odczytu efektywnych stylów efektów.
 
 ```csharp
 public interface IEffectStyleCollectionEffectiveData : IGenericCollection<IEffectStyleEffectiveData>

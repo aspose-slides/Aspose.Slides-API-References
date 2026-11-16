@@ -1,9 +1,9 @@
 ---
 title: ICellFormat
-second_title: Aspose.Sildes für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Stellt das Format einer Tabellenzelle dar.
 type: docs
-weight: 5470
+weight: 5490
 url: /de/aspose.slides/icellformat/
 ---
 ## ICellFormat Schnittstelle
@@ -19,19 +19,19 @@ public interface ICellFormat
 | Name | Beschreibung |
 | --- | --- |
 | [BorderBottom](../../aspose.slides/icellformat/borderbottom) { get; } | Gibt ein Objekt mit den Eigenschaften der unteren Rahmenlinie zurück. Nur lesbar [`ILineFormat`](../ilineformat). |
-| [BorderDiagonalDown](../../aspose.slides/icellformat/borderdiagonaldown) { get; } | Gibt ein Objekt mit den Eigenschaften der Diagonallinie von oben links nach unten rechts zurück. Nur lesbar [`ILineFormat`](../ilineformat). |
-| [BorderDiagonalUp](../../aspose.slides/icellformat/borderdiagonalup) { get; } | Gibt ein Objekt mit den Eigenschaften der Diagonallinie von unten links nach oben rechts zurück. Nur lesbar [`ILineFormat`](../ilineformat). |
+| [BorderDiagonalDown](../../aspose.slides/icellformat/borderdiagonaldown) { get; } | Gibt ein Objekt mit den Eigenschaften der diagonal von oben links nach unten rechts verlaufenden Linie zurück. Nur lesbar [`ILineFormat`](../ilineformat). |
+| [BorderDiagonalUp](../../aspose.slides/icellformat/borderdiagonalup) { get; } | Gibt ein Objekt mit den Eigenschaften der diagonal von unten links nach oben rechts verlaufenden Linie zurück. Nur lesbar [`ILineFormat`](../ilineformat). |
 | [BorderLeft](../../aspose.slides/icellformat/borderleft) { get; } | Gibt ein Objekt mit den Eigenschaften der linken Rahmenlinie zurück. Nur lesbar [`ILineFormat`](../ilineformat). |
 | [BorderRight](../../aspose.slides/icellformat/borderright) { get; } | Gibt ein Objekt mit den Eigenschaften der rechten Rahmenlinie zurück. Nur lesbar [`ILineFormat`](../ilineformat). |
 | [BorderTop](../../aspose.slides/icellformat/bordertop) { get; } | Gibt ein Objekt mit den Eigenschaften der oberen Rahmenlinie zurück. Nur lesbar [`ILineFormat`](../ilineformat). |
 | [FillFormat](../../aspose.slides/icellformat/fillformat) { get; } | Gibt ein Objekt mit den Eigenschaften der Zellfüllung zurück. Nur lesbar [`IFillFormat`](../ifillformat). |
-| [Transparency](../../aspose.slides/icellformat/transparency) { get; set; } | Liest oder setzt die Transparenz der Füllfarbe. Lese/Schreib Single. |
+| [Transparency](../../aspose.slides/icellformat/transparency) { get; set; } | Ermittelt oder legt die Transparenz der Füllfarbe fest. Lese/Schreib Single. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [GetEffective](../../aspose.slides/icellformat/geteffective)() | Ermittelt die wirksamen Formatierungseigenschaften der Tabellenzelle mit vererbten und angewendeten Tabellenstilen. |
+| [GetEffective](../../aspose.slides/icellformat/geteffective)() | Ermittelt die effektiven Formatierungseigenschaften der Tabellenzelle mit vererbten und angewendeten Tabellenstilen. |
 
 ### Siehe auch
 

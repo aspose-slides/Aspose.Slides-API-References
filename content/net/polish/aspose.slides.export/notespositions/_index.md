@@ -1,14 +1,14 @@
 ---
 title: NotesPositions
-second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Reprezentuje regułę renderowania notatek w wyeksportowanym dokumencie
+second_title: Aspose.Sildes dla .NET – referencja API
+description: Reprezentuje zasadę renderowania notatek w wyeksportowanym dokumencie
 type: docs
-weight: 4300
+weight: 4320
 url: /pl/aspose.slides.export/notespositions/
 ---
-## NotesPositions wyliczenie
+## Wyliczenie NotesPositions
 
-Reprezentuje regułę renderowania notatek w wyeksportowanym dokumencie
+Reprezentuje zasadę renderowania notatek w wyeksportowanym dokumencie
 
 ```csharp
 public enum NotesPositions
@@ -18,9 +18,9 @@ public enum NotesPositions
 
 | Nazwa | Wartość | Opis |
 | --- | --- | --- |
-| None | `0` | Określa, że notatki nie powinny być wyświetlane w ogóle. |
-| BottomFull | `1` | Określa, że notatki powinny być wyświetlane w całości, przy użyciu dodatkowych stron w razie potrzeby. |
-| BottomTruncated | `2` | Określa, że notatki powinny być wyświetlane tylko na jednej stronie. |
+| None | `0` | Określa, że notatki nie powinny być wyświetlane wcale. |
+| BottomFull | `1` | Określa, że notatki powinny być wyświetlane w całości przy użyciu dodatkowych stron, w zależności od potrzeb. |
+| BottomTruncated | `2` | Określa, że notatki powinny być wyświetlane na jednej stronie. |
 
 ### Zobacz także
 

@@ -1,14 +1,14 @@
 ---
 title: Convert.GetOutPathCallback
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Rückruf, der für jede Slide../aspose.slides/slide aufgerufen wird, wobei der Ausgabepfad zurückgegeben werden soll.
+description: Callback, der für jede Slide../aspose.slides/slide aufgerufen wird; der erwartete Ausgabepfad soll zurückgegeben werden.
 type: docs
-weight: 7890
+weight: 7910
 url: /de/aspose.slides.lowcode/convert.getoutpathcallback/
 ---
-## Convert.GetOutPathCallback-Delegat
+## Convert.GetOutPathCallback delegate
 
-Rückruf, der für jedes [`Slide`](../../aspose.slides/slide) aufgerufen wird, wobei der Ausgabepfad zurückgegeben werden soll.
+Callback, der für jedes [`Slide`](../../aspose.slides/slide) aufgerufen wird; der erwartete Ausgabepfad soll zurückgegeben werden.
 
 ```csharp
 public delegate string GetOutPathCallback(Slide slide, int index);

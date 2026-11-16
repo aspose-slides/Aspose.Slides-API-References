@@ -1,9 +1,9 @@
 ---
 title: ShapeBevel
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Contiene las propiedades del relieve de la cara principal de la forma.
+description: Contiene las propiedades del relieve de la cara principal de las formas.
 type: docs
-weight: 9850
+weight: 9870
 url: /es/aspose.slides/shapebevel/
 ---
 ## ShapeBevel clase
@@ -36,7 +36,7 @@ public sealed class ShapeBevel : PVIObject, IShapeBevel
 | override [Equals](../../aspose.slides/shapebevel/equals)(object) |  |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Devuelve el código hash. |
 
-### Ver también
+### Véase también
 
 * clase [PVIObject](../pviobject)
 * interfaz [IShapeBevel](../ishapebevel)

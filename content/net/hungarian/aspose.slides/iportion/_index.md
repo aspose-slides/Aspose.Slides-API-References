@@ -1,14 +1,14 @@
 ---
 title: IPortion
-second_title: Aspose.Sildes .NET API Referenciája
-description: Egy szöveg bekezdésen belüli szövegrészt képvisel.
+second_title: Aspose.Sildes .NET API referencia
+description: Egy szövegparagrafusban lévő szövegrészletet képvisel.
 type: docs
-weight: 6700
+weight: 6720
 url: /hu/aspose.slides/iportion/
 ---
 ## IPortion interfész
 
-Egy szövegrészletet képvisel egy szöveg bekezdésen belül.
+Egy szövegparagrafusban lévő szövegrészletet képvisel.
 
 ```csharp
 public interface IPortion : ISlideComponent
@@ -18,20 +18,20 @@ public interface IPortion : ISlideComponent
 
 | Név | Leírás |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides/iportion/asislidecomponent) { get; } | Lehetővé teszi a base ISlideComponent interfész lekérését. Csak olvasható [`ISlideComponent`](../islidecomponent). |
-| [Field](../../aspose.slides/iportion/field) { get; } | Visszaad egy mezőt ebből a részletből. Csak olvasható [`IField`](../ifield). |
-| [PortionFormat](../../aspose.slides/iportion/portionformat) { get; } | Visszaad egy formázási objektumot, amely tartalmazza kifejezetten beállított formázási tulajdonságokat a szövegrészlethez, öröklődés nélkül. Csak olvasható [`IPortionFormat`](../iportionformat). |
-| [Text](../../aspose.slides/iportion/text) { get; set; } | Lekéri vagy beállítja a részlet egyszerű szövegét. Olvasás/írás String. |
+| [AsISlideComponent](../../aspose.slides/iportion/asislidecomponent) { get; } | Lehetővé teszi az alap ISlideComponent interfész lekérdezését. Csak olvasható [`ISlideComponent`](../islidecomponent). |
+| [Field](../../aspose.slides/iportion/field) { get; } | Visszaadja ennek a résznek a mezőjét. Csak olvasható [`IField`](../ifield). |
+| [PortionFormat](../../aspose.slides/iportion/portionformat) { get; } | Visszaad egy formázási objektumot, amely tartalmazza a szövegrészlet kifejezetten beállított formázási tulajdonságait, öröklődés alkalmazása nélkül. Csak olvasható [`IPortionFormat`](../iportionformat). |
+| [Text](../../aspose.slides/iportion/text) { get; set; } | Lekérdezi vagy beállítja a rész egyszerű szövegét. Olvasás/írás String. |
 
-## Metódusok
+## Módszerek
 
 | Név | Leírás |
 | --- | --- |
-| [AddField](../../aspose.slides/iportion/addfield#addfield)(IFieldType) | Átalakítja ezt a részletet automatikusan frissített mezővé. |
-| [AddField](../../aspose.slides/iportion/addfield#addfield_1)(string) | Átalakítja ezt a részletet automatikusan frissített mezővé. |
-| [GetCoordinates](../../aspose.slides/iportion/getcoordinates)() | Lekéri a részlet kezdetének koordinátáit. Az X koordináta a pont azt a helyet jelöli, ahol a részlet az első karaktertől, a bal oldalbeli távolságot is beleszámítva kezdődik. A Y koordináta a felső oldalbeli távolságot tartalmazza. |
-| [GetRect](../../aspose.slides/iportion/getrect)() | Lekéri a részletet határoló téglalap koordinátáit. A téglalap magában foglalja a részlet összes szövegsorát, beleértve az üres sorokat is. |
-| [RemoveField](../../aspose.slides/iportion/removefield)() | Átalakítja ezt a mező részletet egyszerű részletté. |
+| [AddField](../../aspose.slides/iportion/addfield#addfield)(IFieldType) | Átalakítja ezt a részt automatikusan frissített mezővé. |
+| [AddField](../../aspose.slides/iportion/addfield#addfield_1)(string) | Átalakítja ezt a részt automatikusan frissített mezővé. |
+| [GetCoordinates](../../aspose.slides/iportion/getcoordinates)() | Lekéri a rész elejének koordinátáit. A pont X koordinátája a rész kezdetét jelöli az első karaktertől, beleértve a bal oldali kiterjedést. Az Y koordinátája a felső kiterjedést tartalmazza. |
+| [GetRect](../../aspose.slides/iportion/getrect)() | Lekéri a részt határoló téglalap koordinátáit. A téglalap tartalmazza a részben lévő összes szövegsort, beleértve az üres sorokat is. |
+| [RemoveField](../../aspose.slides/iportion/removefield)() | Átalakítja ezt a mezős részt egyszerű részzé. |
 
 ### Lásd még
 

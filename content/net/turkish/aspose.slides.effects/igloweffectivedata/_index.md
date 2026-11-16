@@ -1,14 +1,14 @@
 ---
 title: IGlowEffectiveData
 second_title: Aspose.Sildes için .NET API Referansı
-description: Renkli bulanık bir kontur nesnenin kenarlarının dışına eklenen Glow efektini temsil eden değişmez nesne.
+description: Nesnenin kenarlarının dışına renkli bulanık bir kontur eklenen bir Glow etkisini temsil eden değiştirilemez nesne.
 type: docs
-weight: 3330
+weight: 3350
 url: /tr/aspose.slides.effects/igloweffectivedata/
 ---
 ## IGlowEffectiveData arayüz
 
-Nesnenin kenarlarının dışına renkli bulanık bir kontur eklenen Glow efekti temsil eden değişmez nesne.
+Değiştirilemez bir nesne olup, nesnenin kenarlarının dışına renkli bulanık bir kontur eklenen bir Glow etkisini temsil eder.
 
 ```csharp
 public interface IGlowEffectiveData : IEffectEffectiveData
@@ -18,9 +18,9 @@ public interface IGlowEffectiveData : IEffectEffectiveData
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/igloweffectivedata/asieffecteffectivedata) { get; } | Temel IEffectEffectiveData arayüzünü almayı sağlar. Salt-okunur [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Color](../../aspose.slides.effects/igloweffectivedata/color) { get; } | Color. Salt-okunur Color. |
-| [Radius](../../aspose.slides.effects/igloweffectivedata/radius) { get; } | Yarıçap. Salt-okunur Double. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/igloweffectivedata/asieffecteffectivedata) { get; } | Temel IEffectEffectiveData arayüzünü almaya izin verir. Salt okunur [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Color](../../aspose.slides.effects/igloweffectivedata/color) { get; } | Color. Salt okunur Color. |
+| [Radius](../../aspose.slides.effects/igloweffectivedata/radius) { get; } | Radius. Salt okunur Double. |
 
 ### Ayrıca Bakınız
 

@@ -1,234 +1,234 @@
 ---
 title: Save
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 指定された形式でプレゼンテーションのすべてのスライドをファイルに保存します。
+description: プレゼンテーションのすべてのスライドを、指定された形式でファイルに保存します。
 type: docs
-weight: 380
+weight: 390
 url: /ja/aspose.slides/ipresentation/save/
 ---
 ## Save(string, SaveFormat) {#save_5}
 
-指定された形式でプレゼンテーションのすべてのスライドをファイルに保存します。
+プレゼンテーションのすべてのスライドを、指定された形式でファイルに保存します。
 
 ```csharp
 public void Save(string fname, SaveFormat format)
 ```
 
-| パラメーター | 型 | 説明 |
+| Parameter | Type | Description |
 | --- | --- | --- |
-| fname | String | Path to the created file. |
-| format | SaveFormat | Format of the exported data. |
+| fname | String | 作成されたファイルへのパス。 |
+| format | SaveFormat | エクスポートデータの形式。 |
 
 ### 参照
 
-* 列挙型 [SaveFormat](../../../aspose.slides.export/saveformat)
-* インターフェイス [IPresentation](../../ipresentation)
-* 名前空間 [Aspose.Slides](../../ipresentation)
-* アセンブリ [Aspose.Slides](../../../)
+* enum [SaveFormat](../../../aspose.slides.export/saveformat)
+* interface [IPresentation](../../ipresentation)
+* namespace [Aspose.Slides](../../ipresentation)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
 ## Save(Stream, SaveFormat) {#save_1}
 
-指定された形式でプレゼンテーションのすべてのスライドをストリームに保存します。
+プレゼンテーションのすべてのスライドを、指定された形式でストリームに保存します。
 
 ```csharp
 public void Save(Stream stream, SaveFormat format)
 ```
 
-| パラメーター | 型 | 説明 |
+| Parameter | Type | Description |
 | --- | --- | --- |
-| stream | Stream | Output stream. |
-| format | SaveFormat | Format of the exported data. |
+| stream | Stream | 出力ストリーム。 |
+| format | SaveFormat | エクスポートデータの形式。 |
 
 ### 参照
 
-* 列挙型 [SaveFormat](../../../aspose.slides.export/saveformat)
-* インターフェイス [IPresentation](../../ipresentation)
-* 名前空間 [Aspose.Slides](../../ipresentation)
-* アセンブリ [Aspose.Slides](../../../)
+* enum [SaveFormat](../../../aspose.slides.export/saveformat)
+* interface [IPresentation](../../ipresentation)
+* namespace [Aspose.Slides](../../ipresentation)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
 ## Save(string, SaveFormat, ISaveOptions) {#save_6}
 
-指定された形式と追加オプションでプレゼンテーションのすべてのスライドをファイルに保存します。
+プレゼンテーションのすべてのスライドを、指定された形式でファイルに保存し、追加オプションを適用します。
 
 ```csharp
 public void Save(string fname, SaveFormat format, ISaveOptions options)
 ```
 
-| パラメーター | 型 | 説明 |
+| Parameter | Type | Description |
 | --- | --- | --- |
-| fname | String | Path to the created file. |
-| format | SaveFormat | Format of the exported data. |
-| options | ISaveOptions | Additional format options. |
+| fname | String | 作成されたファイルへのパス。 |
+| format | SaveFormat | エクスポートデータの形式。 |
+| options | ISaveOptions | 追加のフォーマットオプション。 |
 
 ### 参照
 
-* 列挙型 [SaveFormat](../../../aspose.slides.export/saveformat)
-* インターフェイス [ISaveOptions](../../../aspose.slides.export/isaveoptions)
-* インターフェイス [IPresentation](../../ipresentation)
-* 名前空間 [Aspose.Slides](../../ipresentation)
-* アセンブリ [Aspose.Slides](../../../)
+* enum [SaveFormat](../../../aspose.slides.export/saveformat)
+* interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
+* interface [IPresentation](../../ipresentation)
+* namespace [Aspose.Slides](../../ipresentation)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
 ## Save(Stream, SaveFormat, ISaveOptions) {#save_2}
 
-指定された形式と追加オプションでプレゼンテーションのすべてのスライドをストリームに保存します。
+プレゼンテーションのすべてのスライドを、指定された形式でストリームに保存し、追加オプションを適用します。
 
 ```csharp
 public void Save(Stream stream, SaveFormat format, ISaveOptions options)
 ```
 
-| パラメーター | 型 | 説明 |
+| Parameter | Type | Description |
 | --- | --- | --- |
-| stream | Stream | Output stream. |
-| format | SaveFormat | Format of the exported data. |
-| options | ISaveOptions | Additional format options. |
+| stream | Stream | 出力ストリーム。 |
+| format | SaveFormat | エクスポートデータの形式。 |
+| options | ISaveOptions | 追加のフォーマットオプション。 |
 
 ### 例外
 
-| 例外 | 条件 |
+| exception | condition |
 | --- | --- |
-| NotSupportedException | If you try to save encrypted file in none Office 2007-2010 format |
+| NotSupportedException | 暗号化されたファイルを Office 2007-2010 形式以外で保存しようとした場合 |
 
 ### 参照
 
-* 列挙型 [SaveFormat](../../../aspose.slides.export/saveformat)
-* インターフェイス [ISaveOptions](../../../aspose.slides.export/isaveoptions)
-* インターフェイス [IPresentation](../../ipresentation)
-* 名前空間 [Aspose.Slides](../../ipresentation)
-* アセンブリ [Aspose.Slides](../../../)
+* enum [SaveFormat](../../../aspose.slides.export/saveformat)
+* interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
+* interface [IPresentation](../../ipresentation)
+* namespace [Aspose.Slides](../../ipresentation)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
 ## Save(string, int[], SaveFormat) {#save_7}
 
-指定された形式でプレゼンテーションの指定したスライドをファイルに保存します。
+プレゼンテーションの指定されたスライドを、指定された形式でファイルに保存します。
 
 ```csharp
 public void Save(string fname, int[] slides, SaveFormat format)
 ```
 
-| パラメーター | 型 | 説明 |
+| Parameter | Type | Description |
 | --- | --- | --- |
-| fname | String | Path to the created file. |
-| slides | Int32[] | Array with slide positions, starting from 1. |
-| format | SaveFormat | Format of the exported data. |
+| fname | String | 作成されたファイルへのパス。 |
+| slides | Int32[] | スライド位置の配列（1 から開始）。 |
+| format | SaveFormat | エクスポートデータの形式。 |
 
 ### 例外
 
-| 例外 | 条件 |
+| exception | condition |
 | --- | --- |
-| ArgumentNullException | When stream or slides parameter is null. |
-| ArgumentOutOfRangeException | When slides parameter contains wrong page numbers. |
-| InvalidOperationException | When an unsupported SaveFormat is used, e.g. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+| ArgumentNullException | ストリームまたは slides パラメーターが null の場合。 |
+| ArgumentOutOfRangeException | slides パラメーターに無効なページ番号が含まれている場合。 |
+| InvalidOperationException | サポートされていない SaveFormat が使用された場合（例：PPTX、PPTM、PPSX、PPSM、POTX、POTM、PPT、ODP）。 |
 
 ### 参照
 
-* 列挙型 [SaveFormat](../../../aspose.slides.export/saveformat)
-* インターフェイス [IPresentation](../../ipresentation)
-* 名前空間 [Aspose.Slides](../../ipresentation)
-* アセンブリ [Aspose.Slides](../../../)
+* enum [SaveFormat](../../../aspose.slides.export/saveformat)
+* interface [IPresentation](../../ipresentation)
+* namespace [Aspose.Slides](../../ipresentation)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
 ## Save(string, int[], SaveFormat, ISaveOptions) {#save_8}
 
-指定された形式と追加オプションでプレゼンテーションの指定したスライドをファイルに保存します。
+プレゼンテーションの指定されたスライドを、指定された形式でファイルに保存し、追加オプションを適用します。
 
 ```csharp
 public void Save(string fname, int[] slides, SaveFormat format, ISaveOptions options)
 ```
 
-| パラメーター | 型 | 説明 |
+| Parameter | Type | Description |
 | --- | --- | --- |
-| fname | String | Path to the created file. |
-| slides | Int32[] | Array with slide positions, starting from 1. |
-| format | SaveFormat | Format of the exported data. |
-| options | ISaveOptions | Additional format options. |
+| fname | String | 作成されたファイルへのパス。 |
+| slides | Int32[] | スライド位置の配列（1 から開始）。 |
+| format | SaveFormat | エクスポートデータの形式。 |
+| options | ISaveOptions | 追加のフォーマットオプション。 |
 
 ### 例外
 
-| 例外 | 条件 |
+| exception | condition |
 | --- | --- |
-| ArgumentNullException | When stream or slides parameter is null. |
-| ArgumentOutOfRangeException | When slides parameter contains wrong page numbers. |
-| InvalidOperationException | When an unsupported SaveFormat is used, e.g. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+| ArgumentNullException | ストリームまたは slides パラメーターが null の場合。 |
+| ArgumentOutOfRangeException | slides パラメーターに無効なページ番号が含まれている場合。 |
+| InvalidOperationException | サポートされていない SaveFormat が使用された場合（例：PPTX、PPTM、PPSX、PPSM、POTX、POTM、PPT、ODP）。 |
 
 ### 参照
 
-* 列挙型 [SaveFormat](../../../aspose.slides.export/saveformat)
-* インターフェイス [ISaveOptions](../../../aspose.slides.export/isaveoptions)
-* インターフェイス [IPresentation](../../ipresentation)
-* 名前空間 [Aspose.Slides](../../ipresentation)
-* アセンブリ [Aspose.Slides](../../../)
+* enum [SaveFormat](../../../aspose.slides.export/saveformat)
+* interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
+* interface [IPresentation](../../ipresentation)
+* namespace [Aspose.Slides](../../ipresentation)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
 ## Save(Stream, int[], SaveFormat) {#save_3}
 
-指定された形式でプレゼンテーションの指定したスライドをストリームに保存します。
+プレゼンテーションの指定されたスライドを、指定された形式でストリームに保存します。
 
 ```csharp
 public void Save(Stream stream, int[] slides, SaveFormat format)
 ```
 
-| パラメーター | 型 | 説明 |
+| Parameter | Type | Description |
 | --- | --- | --- |
-| stream | Stream | Output stream. |
-| slides | Int32[] | Array with slide positions, starting from 1. |
-| format | SaveFormat | Format of the exported data. |
+| stream | Stream | 出力ストリーム。 |
+| slides | Int32[] | スライド位置の配列（1 から開始）。 |
+| format | SaveFormat | エクスポートデータの形式。 |
 
 ### 例外
 
-| 例外 | 条件 |
+| exception | condition |
 | --- | --- |
-| ArgumentNullException | When stream or slides parameter is null. |
-| ArgumentOutOfRangeException | When slides parameter contains wrong page numbers. |
-| InvalidOperationException | When an unsupported SaveFormat is used, e.g. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+| ArgumentNullException | ストリームまたは slides パラメーターが null の場合。 |
+| ArgumentOutOfRangeException | slides パラメーターに無効なページ番号が含まれている場合。 |
+| InvalidOperationException | サポートされていない SaveFormat が使用された場合（例：PPTX、PPTM、PPSX、PPSM、POTX、POTM、PPT、ODP）。 |
 
 ### 参照
 
-* 列挙型 [SaveFormat](../../../aspose.slides.export/saveformat)
-* インターフェイス [IPresentation](../../ipresentation)
-* 名前空間 [Aspose.Slides](../../ipresentation)
-* アセンブリ [Aspose.Slides](../../../)
+* enum [SaveFormat](../../../aspose.slides.export/saveformat)
+* interface [IPresentation](../../ipresentation)
+* namespace [Aspose.Slides](../../ipresentation)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
 ## Save(Stream, int[], SaveFormat, ISaveOptions) {#save_4}
 
-指定された形式と追加オプションでプレゼンテーションの指定したスライドをストリームに保存します。
+プレゼンテーションの指定されたスライドを、指定された形式でストリームに保存し、追加オプションを適用します。
 
 ```csharp
 public void Save(Stream stream, int[] slides, SaveFormat format, ISaveOptions options)
 ```
 
-| パラメーター | 型 | 説明 |
+| Parameter | Type | Description |
 | --- | --- | --- |
-| stream | Stream | Output stream. |
-| slides | Int32[] | Array with slide positions, starting from 1. |
-| format | SaveFormat | Format of the exported data. |
-| options | ISaveOptions | Additional format options. |
+| stream | Stream | 出力ストリーム。 |
+| slides | Int32[] | スライド位置の配列（1 から開始）。 |
+| format | SaveFormat | エクスポートデータの形式。 |
+| options | ISaveOptions | 追加のフォーマットオプション。 |
 
 ### 例外
 
-| 例外 | 条件 |
+| exception | condition |
 | --- | --- |
-| ArgumentNullException | When stream or slides parameter is null. |
-| ArgumentOutOfRangeException | When slides parameter contains wrong page numbers. |
-| InvalidOperationException | When an unsupported SaveFormat is used, e.g. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+| ArgumentNullException | ストリームまたは slides パラメーターが null の場合。 |
+| ArgumentOutOfRangeException | slides パラメーターに無効なページ番号が含まれている場合。 |
+| InvalidOperationException | サポートされていない SaveFormat が使用された場合（例：PPTX、PPTM、PPSX、PPSM、POTX、POTM、PPT、ODP）。 |
 
 ### 参照
 
-* 列挙型 [SaveFormat](../../../aspose.slides.export/saveformat)
-* インターフェイス [ISaveOptions](../../../aspose.slides.export/isaveoptions)
-* インターフェイス [IPresentation](../../ipresentation)
-* 名前空間 [Aspose.Slides](../../ipresentation)
-* アセンブリ [Aspose.Slides](../../../)
+* enum [SaveFormat](../../../aspose.slides.export/saveformat)
+* interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
+* interface [IPresentation](../../ipresentation)
+* namespace [Aspose.Slides](../../ipresentation)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
@@ -240,9 +240,9 @@ public void Save(Stream stream, int[] slides, SaveFormat format, ISaveOptions op
 public void Save(IXamlOptions options)
 ```
 
-| パラメーター | 型 | 説明 |
+| Parameter | Type | Description |
 | --- | --- | --- |
-| options | IXamlOptions | The XAML format options. |
+| options | IXamlOptions | XAML フォーマットオプション。 |
 
 ### 例
 
@@ -256,9 +256,9 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 ### 参照
 
-* インターフェイス [IXamlOptions](../../../aspose.slides.export.xaml/ixamloptions)
-* インターフェイス [IPresentation](../../ipresentation)
-* 名前空間 [Aspose.Slides](../../ipresentation)
-* アセンブリ [Aspose.Slides](../../../)
+* interface [IXamlOptions](../../../aspose.slides.export.xaml/ixamloptions)
+* interface [IPresentation](../../ipresentation)
+* namespace [Aspose.Slides](../../ipresentation)
+* assembly [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,22 +1,22 @@
 ---
 title: RemoveUnusedMasterSlides
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: Presentationaspose.slides/presentation का संपीड़न करता है, अप्रयुक्त मास्टर स्लाइड्स को हटाकर।
+description: अनुपयोगी मास्टर स्लाइड्स को हटाकर Presentationaspose.slides/presentation का संपीड़न करता है।
 type: docs
-weight: 30
+weight: 50
 url: /hi/aspose.slides.lowcode/compress/removeunusedmasterslides/
 ---
-## Compress.RemoveUnusedMasterSlides विधि
+## Compress.RemoveUnusedMasterSlides मेथड
 
-अप्रयुक्त मास्टर स्लाइड्स को हटाकर [`Presentation`](../../../aspose.slides/presentation) का संपीड़न करता है।
+[`Presentation`](../../../aspose.slides/presentation) का संपीड़न करता है, अनुपयोगी मुख्य स्लाइड्स को हटाकर।
 
 ```csharp
 public static void RemoveUnusedMasterSlides(Presentation pres)
 ```
 
-| पैरामीटर | प्रकार | विवरण |
+| परिमाण | प्रकार | विवरण |
 | --- | --- | --- |
-| pres | Presentation | प्रेज़ेंटेशन का उदाहरण |
+| pres | Presentation | Presentation उदाहरण |
 
 ### उदाहरण
 
@@ -29,10 +29,10 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### संबंधित देखें
+### देखें
 
-* वर्ग [Presentation](../../../aspose.slides/presentation)
-* वर्ग [Compress](../../compress)
+* क्लास [Presentation](../../../aspose.slides/presentation)
+* क्लास [Compress](../../compress)
 * नामस्थान [Aspose.Slides.LowCode](../../compress)
 * असेंबली [Aspose.Slides](../../../)
 

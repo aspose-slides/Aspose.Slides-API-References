@@ -1,14 +1,14 @@
 ---
 title: VbaReferenceOleTypeLib
 second_title: Aspose.Sildes .NET API hivatkozás
-description: Olyan OLE Automation típusú könyvtárreferenciát képvisel.
+description: OLE Automation típusú könyvtárhivatkozást képvisel.
 type: docs
-weight: 11690
+weight: 11710
 url: /hu/aspose.slides.vba/vbareferenceoletypelib/
 ---
 ## VbaReferenceOleTypeLib osztály
 
-Olyan OLE Automation típusú könyvtárreferenciát képvisel.
+OLE Automation típusú könyvtárhivatkozást képvisel.
 
 ```csharp
 public class VbaReferenceOleTypeLib : IVbaReferenceOleTypeLib
@@ -18,14 +18,14 @@ public class VbaReferenceOleTypeLib : IVbaReferenceOleTypeLib
 
 | Név | Leírás |
 | --- | --- |
-| [VbaReferenceOleTypeLib](vbareferenceoletypelib)(string, string) | Ez a konstruktor új OLE Automation típusú könyvtárreferenciát hoz létre. |
+| [VbaReferenceOleTypeLib](vbareferenceoletypelib)(string, string) | Ez a konstruktor új OLE Automation típusú könyvtárhivatkozást hoz létre. |
 
 ## Tulajdonságok
 
 | Név | Leírás |
 | --- | --- |
 | [Libid](../../aspose.slides.vba/vbareferenceoletypelib/libid) { get; set; } | Az Automation típusú könyvtár azonosítóját képviseli. Olvasás/írás String. |
-| [Name](../../aspose.slides.vba/vbareferenceoletypelib/name) { get; set; } | A VBA projekt hivatkozásának nevét képviseli. Olvasás/írás String. |
+| [Name](../../aspose.slides.vba/vbareferenceoletypelib/name) { get; set; } | A VBA projekt hivatkozás nevét képviseli. Olvasás/írás String. |
 
 ### Lásd még
 

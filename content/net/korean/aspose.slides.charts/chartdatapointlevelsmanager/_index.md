@@ -1,14 +1,14 @@
 ---
 title: ChartDataPointLevelsManager
-second_title: Aspose.Sildes for .NET API 참조
-description: 데이터 포인트 레벨의 컨테이너입니다. Treeamp 및 Sunburst 시리즈에 적용됩니다. 데이터 포인트 레벨 인덱싱은 0부터 시작합니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 데이터 포인트 레벨의 컨테이너입니다. Treeamp 및 Sunburst 시리즈에 적용됩니다. 데이터 포인트 레벨 인덱스는 0부터 시작합니다.
 type: docs
-weight: 1360
+weight: 1370
 url: /ko/aspose.slides.charts/chartdatapointlevelsmanager/
 ---
 ## ChartDataPointLevelsManager 클래스
 
-데이터 포인트 레벨의 컨테이너입니다. Treeamp 및 Sunburst 시리즈에 적용됩니다. 데이터 포인트 레벨 인덱싱은 0부터 시작합니다.
+데이터 포인트 레벨의 컨테이너입니다. Treeamp 및 Sunburst 시리즈에 적용됩니다. 데이터 포인트 레벨 인덱스는 0부터 시작합니다.
 
 ```csharp
 public class ChartDataPointLevelsManager : DomObject<ChartDataPoint>, IChartDataPointLevelsManager
@@ -21,7 +21,7 @@ public class ChartDataPointLevelsManager : DomObject<ChartDataPoint>, IChartData
 | [Count](../../aspose.slides.charts/chartdatapointlevelsmanager/count) { get; } | 데이터 포인트 레벨 수를 반환합니다. |
 | [Item](../../aspose.slides.charts/chartdatapointlevelsmanager/item) { get; } | 정의된 레벨에 대한 IChartDataPointLevel 객체를 반환합니다. |
 
-### 관련 항목
+### 또 보기
 
 * 클래스 [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * 클래스 [ChartDataPoint](../chartdatapoint)

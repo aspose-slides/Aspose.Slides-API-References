@@ -3,7 +3,7 @@ title: OptionalBlackTransition
 second_title: Aspose.Sildes .NET API 参考
 description: 可选的黑色幻灯片过渡效果。
 type: docs
-weight: 10260
+weight: 10280
 url: /zh/aspose.slides.slideshow/optionalblacktransition/
 ---
 ## OptionalBlackTransition 类
@@ -18,16 +18,16 @@ public class OptionalBlackTransition : TransitionValueBase, IOptionalBlackTransi
 
 | 名称 | 描述 |
 | --- | --- |
-| [FromBlack](../../aspose.slides.slideshow/optionalblacktransition/fromblack) { get; set; } | 此属性指定过渡是否从黑屏开始（随后在黑色上过渡至新幻灯片）。可读写 Boolean。 |
+| [FromBlack](../../aspose.slides.slideshow/optionalblacktransition/fromblack) { get; set; } | 此属性指定过渡是否从黑屏开始（随后在黑屏上过渡到新幻灯片）。读写 Boolean。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 确定两个 TransitionValueBase 实例是否相等。 |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 作为特定类型的哈希函数，适用于哈希算法和诸如哈希表的数据结构。 |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 作为特定类型的散列函数，可用于散列算法和诸如散列表之类的数据结构。 |
 
-### 另见
+### 另请参见
 
 * 类 [TransitionValueBase](../transitionvaluebase)
 * 接口 [IOptionalBlackTransition](../ioptionalblacktransition)

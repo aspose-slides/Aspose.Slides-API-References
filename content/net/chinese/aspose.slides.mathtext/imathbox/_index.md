@@ -1,14 +1,14 @@
 ---
 title: IMathBox
-second_title: Aspose.Sildes for .NET API 参考
-description: 指定数学元素的逻辑包装（打包）。例如，包装后的对象可以充当带或不带对齐点的运算符仿真器，充当换行点，或进行分组以防止其中出现换行。例如，运算符应被包装以防止换行。
+second_title: Aspose.Sildes .NET API 参考
+description: 指定数学元素的逻辑装箱（包装）。例如，装箱对象可以作为带或不带对齐点的运算符仿真器、作为换行点，或进行分组以不允许其内部换行。例如，应对运算符进行装箱以防止换行。
 type: docs
-weight: 8190
+weight: 8210
 url: /zh/aspose.slides.mathtext/imathbox/
 ---
 ## IMathBox 接口
 
-指定数学元素的逻辑包装（打包）。例如，包装后的对象可以充当带或不带对齐点的运算符仿真器，充当换行点，或进行分组以防止在其中换行。例如，"==" 运算符应被包装以防止换行。
+指定数学元素的逻辑装箱（包装）。例如，装箱对象可以作为带或不带对齐点的运算符仿真器、作为换行点，或进行分组以不允许其内部换行。例如，应对 “==” 运算符进行装箱以防止换行。
 
 ```csharp
 public interface IMathBox : IMathElement
@@ -18,15 +18,17 @@ public interface IMathBox : IMathElement
 
 | 名称 | 描述 |
 | --- | --- |
-| [AlignmentPoint](../../aspose.slides.mathtext/imathbox/alignmentpoint) { get; set; } | 当为 true 时，此运算符仿真器充当对齐点；即其他方程中指定的对齐点可以与其对齐。默认值：false |
-| [AsIMathElement](../../aspose.slides.mathtext/imathbox/asimathelement) { get; } | 允许获取基类型 IMathElement 接口 [`IMathElement`](../imathelement) |
+| [AlignmentPoint](../../aspose.slides.mathtext/imathbox/alignmentpoint) { get; set; } | 当为 true 时，此运算符仿真器充当对齐点；即其他等式中指定的对齐点可以与其对齐。默认值: false |
+| [AsIMathElement](../../aspose.slides.mathtext/imathbox/asimathelement) { get; } | 允许获取基 IMathElement 接口 [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathbox/base) { get; } | 基参数 |
-| [Differential](../../aspose.slides.mathtext/imathbox/differential) { get; set; } | 微分。当为 true 时，框表现为微分（例如积分式中的 𝑑𝑥），并获取适用于数学微分的水平间距。默认值：false |
-| [ExplicitBreak](../../aspose.slides.mathtext/imathbox/explicitbreak) { get; set; } | 显式换行指定在 Box 对象的起始是否存在换行，从而在盒子起始处换行。指定前一行数学文本中运算符的编号，用作当前行数学文本的对齐点。可能的取值：1..255 默认值：0（无显式换行） |
-| [NoBreak](../../aspose.slides.mathtext/imathbox/nobreak) { get; set; } | 不换行。此属性指定对象盒子的“不可换行”特性。当为 true 时，盒子内部不能出现换行。这对于由多个二元运算符组成的运算符仿真器尤为重要。如果未指定此元素，盒子内部可能出现换行。默认值：true |
-| [OperatorEmulator](../../aspose.slides.mathtext/imathbox/operatoremulator) { get; set; } | 运算符仿真器。当为 true 时，盒子及其内容表现为单一运算符并继承运算符的属性。这意味着，例如该字符可以作为换行点并对齐到其他运算符。运算符仿真器常用于一个或多个字形组合形成运算符的情况，如 “==”。默认值：false |
+| [Differential](../../aspose.slides.mathtext/imathbox/differential) { get; set; } | 微分。当为 true 时，盒子充当微分（例如积分被积中的 𝑑𝑥），并获得适合数学微分的水平间距。默认值: false |
+| [ExplicitBreak](../../aspose.slides.mathtext/imathbox/explicitbreak) { get; set; } | 显式换行指定 Box 对象起始是否有换行，从而在盒子对象起始换行。指定前一行数学文本中运算符的编号（1..255），该运算符将在当前行数学文本中用作对齐点。可能的取值: 1..255 默认值: 0（无显式换行） |
+| [NoBreak](../../aspose.slides.mathtext/imathbox/nobreak) { get; set; } | 不换行。此属性指定对象盒子的“不可换行”属性。当为 true 时，盒子内部不能出现换行。这对于由多个二元运算符组成的运算符仿真器尤为重要。如果未指定此元素，盒子内部可以换行。默认值: true |
+| [OperatorEmulator](../../aspose.slides.mathtext/imathbox/operatoremulator) { get; set; } | 运算符仿真器。当为 true 时，盒子及其内容表现为单个运算符并继承运算符的属性。这意味着，例如，该字符可以作为换行点并可与其他运算符对齐。当多个字形组合形成运算符（如 '=='）时，通常使用运算符仿真器。默认值: false |
 
 ### 示例
+
+示例：
 
 ```csharp
 [C#]

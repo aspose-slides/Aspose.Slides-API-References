@@ -1,14 +1,14 @@
 ---
 title: ReturnAction
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt Entscheidungsmöglichkeiten für das Warnungs-Callback dar.
+description: Stellt Entscheidungsoptionen für den Warnungs-Callback dar.
 type: docs
-weight: 11820
+weight: 11840
 url: /de/aspose.slides.warnings/returnaction/
 ---
 ## ReturnAction Aufzählung
 
-Stellt Entscheidungsoptionen für das Warnungs-Callback dar.
+Stellt Entscheidungsoptionen für den Warnungs-Callback dar.
 
 ```csharp
 public enum ReturnAction

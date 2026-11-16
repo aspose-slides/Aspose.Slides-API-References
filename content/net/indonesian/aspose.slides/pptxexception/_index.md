@@ -3,7 +3,7 @@ title: PptxException
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili tipe pengecualian internal standar.
 type: docs
-weight: 9560
+weight: 9580
 url: /id/aspose.slides/pptxexception/
 ---
 ## PptxException kelas
@@ -20,7 +20,7 @@ public class PptxException : OOXMLException
 | --- | --- |
 | [PptxException](pptxexception#constructor)() | Konstruktor default. |
 | [PptxException](pptxexception#constructor_1)(string) | Konstruktor yang memungkinkan pesan ditambahkan ke pengecualian ini. |
-| [PptxException](pptxexception#constructor_2)(string, Exception) | Konstruktor untuk pengecualian yang berisi pesan dan pengecualian tersemat. |
+| [PptxException](pptxexception#constructor_2)(string, Exception) | Konstruktor untuk pengecualian yang berisi pesan dan pengecualian yang disematkan. |
 
 ### Lihat Juga
 

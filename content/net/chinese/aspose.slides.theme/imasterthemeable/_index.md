@@ -3,7 +3,7 @@ title: IMasterThemeable
 second_title: Aspose.Sildes .NET API 参考
 description: 表示主主题管理器。
 type: docs
-weight: 11330
+weight: 11350
 url: /zh/aspose.slides.theme/imasterthemeable/
 ---
 ## IMasterThemeable 接口
@@ -19,9 +19,9 @@ public interface IMasterThemeable : IThemeable
 | 名称 | 描述 |
 | --- | --- |
 | [AsIThemeable](../../aspose.slides.theme/imasterthemeable/asithemeable) { get; } | 返回 IThemeable 接口。只读 [`IThemeable`](../ithemeable)。 |
-| [ThemeManager](../../aspose.slides.theme/imasterthemeable/thememanager) { get; } | 返回主主题管理器。只读 [`IMasterThemeManager`](../imasterthememanager)。 |
+| [ThemeManager](../../aspose.slides.theme/imasterthemeable/thememanager) { get; } | 返回 主主题管理器。只读 [`IMasterThemeManager`](../imasterthememanager)。 |
 
-### 参见
+### 另请参阅
 
 * 接口 [IThemeable](../ithemeable)
 * 命名空间 [Aspose.Slides.Theme](../../aspose.slides.theme)

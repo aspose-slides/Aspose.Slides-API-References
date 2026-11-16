@@ -1,14 +1,14 @@
 ---
 title: IImageTransformOCollectionEffectiveData
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: ออบเจ็กต์ที่ไม่สามารถเปลี่ยนแปลงได้ซึ่งเป็นการแทนคอลเลกชันแบบอ่านอย่างเดียวของเอฟเฟกต์การแปลงภาพที่มีผล
+description: อ็อบเจ็กต์ที่ไม่สามารถเปลี่ยนแปลงได้ซึ่งเป็นคอลเลกชันแบบอ่านอย่างเดียวของเอฟเฟกต์การแปลงรูปภาพที่ใช้ได้จริง
 type: docs
-weight: 3380
+weight: 3400
 url: /th/aspose.slides.effects/iimagetransformocollectioneffectivedata/
 ---
 ## IImageTransformOCollectionEffectiveData อินเทอร์เฟซ
 
-ออบเจ็กต์ที่ไม่สามารถแก้ไขได้ซึ่งเป็นการแทนคอลเลกชันแบบอ่านอย่างเดียวของเอฟเฟกต์การแปลงภาพที่มีผล
+อ็อบเจ็กต์ที่ไม่สามารถเปลี่ยนแปลงได้ซึ่งเป็นคอลเลกชันแบบอ่านอย่างเดียวของเอฟเฟกต์การแปลงรูปภาพที่ใช้ได้จริง
 
 ```csharp
 public interface IImageTransformOCollectionEffectiveData : IGenericCollection<IEffectEffectiveData>
@@ -18,11 +18,11 @@ public interface IImageTransformOCollectionEffectiveData : IGenericCollection<IE
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Item](../../aspose.slides.effects/iimagetransformocollectioneffectivedata/item) { get; } | คืนค่าอิลิเมนต์ตามดัชนี |
+| [Item](../../aspose.slides.effects/iimagetransformocollectioneffectivedata/item) { get; } | คืนค่าองค์ประกอบตามดัชนี |
 
 ### หมายเหตุ
 
-ชื่อ IImageTransformOperationCollectionEffectiveData ถูกตัดให้เหลือ IImageTransformOCollectionEffectiveData เนื่องจากความยาวของชื่อ COM ไม่สามารถเกิน 39 ได้
+ชื่อ IImageTransformOperationCollectionEffectiveData ถูกตัดให้สั้นเป็น IImageTransformOCollectionEffectiveData เนื่องจากความยาวของชื่อ COM ไม่สามารถเกิน 39 ได้
 
 ### ดูเพิ่มเติม
 

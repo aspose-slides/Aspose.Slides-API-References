@@ -1,14 +1,14 @@
 ---
 title: IPortionCollection
-second_title: Aspose.Sildes dla .NET – odniesienie API
-description: Reprezentuje kolekcję fragmentów.
+second_title: Aspose.Sildes dla .NET – dokumentacja API
+description: Reprezentuje kolekcję części.
 type: docs
-weight: 6710
+weight: 6730
 url: /pl/aspose.slides/iportioncollection/
 ---
 ## IPortionCollection interfejs
 
-Reprezentuje kolekcję obiektów typu Portion.
+Reprezentuje kolekcję części.
 
 ```csharp
 public interface IPortionCollection : IEnumerable<IPortion>
@@ -19,20 +19,20 @@ public interface IPortionCollection : IEnumerable<IPortion>
 | Nazwa | Opis |
 | --- | --- |
 | [AsIEnumerable](../../aspose.slides/iportioncollection/asienumerable) { get; } | Zwraca interfejs IEnumerable. Tylko do odczytu IEnumerable. |
-| [Count](../../aspose.slides/iportioncollection/count) { get; } | Zwraca liczbę elementów faktycznie zawartych w kolekcji. Tylko do odczytu Int32. |
-| [Item](../../aspose.slides/iportioncollection/item) { get; } | Zwraca element o określonym indeksie. |
+| [Count](../../aspose.slides/iportioncollection/count) { get; } | Pobiera liczbę elementów faktycznie zawartych w kolekcji. Tylko do odczytu Int32. |
+| [Item](../../aspose.slides/iportioncollection/item) { get; } | Pobiera element o określonym indeksie. |
 
 ## Metody
 
 | Nazwa | Opis |
 | --- | --- |
-| [Add](../../aspose.slides/iportioncollection/add)(IPortion) | Dodaje obiekt Portion na koniec kolekcji. |
+| [Add](../../aspose.slides/iportioncollection/add)(IPortion) | Dodaje Portion na koniec kolekcji. |
 | [Clear](../../aspose.slides/iportioncollection/clear)() | Usuwa wszystkie elementy z kolekcji. |
 | [Contains](../../aspose.slides/iportioncollection/contains)(IPortion) | Określa, czy ICollection zawiera określoną wartość. |
-| [IndexOf](../../aspose.slides/iportioncollection/indexof)(IPortion) | Określa indeks konkretnego obiektu Portion w kolekcji. |
-| [Insert](../../aspose.slides/iportioncollection/insert)(int, IPortion) | Wstawia obiekt Portion do kolekcji pod określonym indeksem. |
+| [IndexOf](../../aspose.slides/iportioncollection/indexof)(IPortion) | Określa indeks określonej części w kolekcji. |
+| [Insert](../../aspose.slides/iportioncollection/insert)(int, IPortion) | Wstawia Portion do kolekcji pod określonym indeksem. |
 | [Remove](../../aspose.slides/iportioncollection/remove)(IPortion) | Usuwa pierwsze wystąpienie określonego obiektu z ICollection. |
-| [RemoveAt](../../aspose.slides/iportioncollection/removeat)(int) | Usuwa element pod określonym indeksem w kolekcji. |
+| [RemoveAt](../../aspose.slides/iportioncollection/removeat)(int) | Usuwa element o określonym indeksie w kolekcji. |
 
 ### Zobacz także
 

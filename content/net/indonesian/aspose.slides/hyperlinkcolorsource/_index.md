@@ -1,12 +1,12 @@
 ---
 title: HyperlinkColorSource
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili sumber warna hyperlink.
 type: docs
-weight: 5140
+weight: 5160
 url: /id/aspose.slides/hyperlinkcolorsource/
 ---
-## HyperlinkColorSource enumeration
+## HyperlinkColorSource enumerasi
 
 Mewakili sumber warna hyperlink.
 

@@ -1,9 +1,9 @@
 ---
 title: ChartCategoryCollection
 second_title: Aspose.Sildes for .NET API リファレンス
-description: ChartCategory のコレクションを表します。/chartcategory
+description: ChartCategory のコレクションを表します./chartcategory
 type: docs
-weight: 1280
+weight: 1290
 url: /ja/aspose.slides.charts/chartcategorycollection/
 ---
 ## ChartCategoryCollection クラス
@@ -19,11 +19,11 @@ public class ChartCategoryCollection : DomObject<ChartData>, IChartCategoryColle
 | 名前 | 説明 |
 | --- | --- |
 | [Count](../../aspose.slides.charts/chartcategorycollection/count) { get; } | コレクション内の要素数を返します。読み取り専用 Int32。 |
-| [GroupingLevelCount](../../aspose.slides.charts/chartcategorycollection/groupinglevelcount) { get; } | 使用されているカテゴリ グループ化レベルのカウントを返します。マルチレベルのカテゴリの場合は 1 より大きくなります。読み取り専用 Int32。 |
-| [IsSynchronized](../../aspose.slides.charts/chartcategorycollection/issynchronized) { get; } | リストへのアクセスが同期化（スレッドセーフ）されているかどうかを示す値を返します。読み取り専用 Boolean。 |
+| [GroupingLevelCount](../../aspose.slides.charts/chartcategorycollection/groupinglevelcount) { get; } | 使用されているカテゴリ グループ化レベルの数を返します。マルチレベルカテゴリの場合は 1 より大きくなります。読み取り専用 Int32。 |
+| [IsSynchronized](../../aspose.slides.charts/chartcategorycollection/issynchronized) { get; } | List へのアクセスが同期 (スレッドセーフ) されているかどうかを示す値を返します。読み取り専用 Boolean。 |
 | [Item](../../aspose.slides.charts/chartcategorycollection/item) { get; } | 指定されたインデックスの要素を取得します。 |
-| [SyncRoot](../../aspose.slides.charts/chartcategorycollection/syncroot) { get; } | コレクションへのアクセスを同期化するために使用できるオブジェクトを返します。読み取り専用 Object。 |
-| [UseCells](../../aspose.slides.charts/chartcategorycollection/usecells) { get; set; } | true の場合、ワークシートがカテゴリの保存に使用されます（この場合はマルチレベルカテゴリをサポート）。false の場合、ワークシートは値の保存に使用されません（この場合はマルチレベルカテゴリをサポートしません）。読み書き可能 Boolean。 |
+| [SyncRoot](../../aspose.slides.charts/chartcategorycollection/syncroot) { get; } | コレクションへのアクセスを同期させるために使用できるオブジェクトを返します。読み取り専用 Object。 |
+| [UseCells](../../aspose.slides.charts/chartcategorycollection/usecells) { get; set; } | true の場合、ワークシートがカテゴリの保存に使用されます (このケースはマルチレベルカテゴリをサポートします)。false の場合、ワークシートは値の保存に使用されません (このケースはマルチレベルカテゴリをサポートしません)。読み書き Boolean。 |
 
 ## メソッド
 
@@ -33,7 +33,7 @@ public class ChartCategoryCollection : DomObject<ChartData>, IChartCategoryColle
 | [Add](../../aspose.slides.charts/chartcategorycollection/add#add_1)(object) | 値から新しい [`ChartCategory`](../chartcategory) を作成し、コレクションに追加します。 |
 | [Clear](../../aspose.slides.charts/chartcategorycollection/clear)() | コレクションからすべての要素を削除します。 |
 | [CopyTo](../../aspose.slides.charts/chartcategorycollection/copyto)(Array, int) | コレクションのすべての要素を指定された配列にコピーします。 |
-| [GetEnumerator](../../aspose.slides.charts/chartcategorycollection/getenumerator)() | コレクションを反復処理する列挙子を返します。 |
+| [GetEnumerator](../../aspose.slides.charts/chartcategorycollection/getenumerator)() | コレクションを反復する列挙子を返します。 |
 | [IndexOf](../../aspose.slides.charts/chartcategorycollection/indexof)(IChartCategory) | 指定された [`ChartCategory`](../chartcategory) を検索し、コレクション全体で最初に出現した位置のゼロベースインデックスを返します。 |
 | [Remove](../../aspose.slides.charts/chartcategorycollection/remove)(IChartCategory) | 指定された値を削除します。 |
 | [RemoveAt](../../aspose.slides.charts/chartcategorycollection/removeat)(int) | 指定されたインデックスの要素を削除します。 |

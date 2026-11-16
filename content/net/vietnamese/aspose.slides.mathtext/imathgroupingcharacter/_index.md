@@ -1,9 +1,9 @@
 ---
 title: IMathGroupingCharacter
-second_title: Tham chiếu API Aspose.Sildes cho .NET
+second_title: Tài liệu tham khảo API Aspose.Sildes cho .NET
 description: Xác định ký hiệu nhóm ở trên hoặc dưới một biểu thức, thường để làm nổi bật mối quan hệ giữa các phần tử
 type: docs
-weight: 8290
+weight: 8310
 url: /vi/aspose.slides.mathtext/imathgroupingcharacter/
 ---
 ## IMathGroupingCharacter giao diện
@@ -18,15 +18,15 @@ public interface IMathGroupingCharacter : IMathElement
 
 | Tên | Mô tả |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathgroupingcharacter/asimathelement) { get; } | Cho phép lấy giao diện cơ bản IMathElement [`IMathElement`](../imathelement) |
-| [Base](../../aspose.slides.mathtext/imathgroupingcharacter/base) { get; } | Đối số cơ sở |
+| [AsIMathElement](../../aspose.slides.mathtext/imathgroupingcharacter/asimathelement) { get; } | Cho phép lấy giao diện IMathElement cơ bản [`IMathElement`](../imathelement) |
+| [Base](../../aspose.slides.mathtext/imathgroupingcharacter/base) { get; } | Đối số cơ bản |
 | [Character](../../aspose.slides.mathtext/imathgroupingcharacter/character) { get; set; } | Ký tự nhóm Giá trị mặc định: U+23DF (BOTTOM CURLY BRACKET) |
 | [Position](../../aspose.slides.mathtext/imathgroupingcharacter/position) { get; set; } | Vị trí của ký tự nhóm. Mặc định: Bottom |
-| [VerticalJustification](../../aspose.slides.mathtext/imathgroupingcharacter/verticaljustification) { get; set; } | Căn chỉnh dọc của ký tự nhóm. Xác định cách căn chỉnh đối tượng so với đường cơ sở. Ví dụ, khi ký tự nhóm ở trên đối tượng, VerticalJustification Top cho biết phần trên của đối tượng nằm trên đường cơ sở; khi VerticalJustification được đặt thành Bottom, phần dưới của đối tượng nằm trên đường cơ sở. Mặc định: Bottom cho Position=Top, và Top cho Position=Bottom |
+| [VerticalJustification](../../aspose.slides.mathtext/imathgroupingcharacter/verticaljustification) { get; set; } | Canh lề dọc của ký tự nhóm. Xác định việc căn chỉnh đối tượng so với đường cơ sở. Ví dụ, khi ký tự nhóm ở trên đối tượng, VerticalJustification of Top nghĩa là phần trên của đối tượng nằm trên đường cơ sở; khi VerticalJustification được đặt thành Bottom, phần dưới của đối tượng nằm trên đường cơ sở. Mặc định: Bottom cho Position=Top, và Top cho Position=Bottom |
 
 ### Ví dụ
 
-Example:
+Ví dụ:
 
 ```csharp
 [C#]

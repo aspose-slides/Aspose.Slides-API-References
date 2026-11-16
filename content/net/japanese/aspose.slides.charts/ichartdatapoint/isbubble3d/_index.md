@@ -1,9 +1,9 @@
 ---
 title: IsBubble3D
-second_title: Aspose.Sildes の .NET API リファレンス
-description: バブルに 3-D エフェクトが適用されることを指定します。読み取り/書き込み Boolean.
+second_title: Aspose.Sildes for .NET API リファレンス
+description: バブルに 3-D エフェクトが適用されることを指定します。読み取り/書き込み Boolean。
 type: docs
-weight: 100
+weight: 140
 url: /ja/aspose.slides.charts/ichartdatapoint/isbubble3d/
 ---
 ## IChartDataPoint.IsBubble3D プロパティ
@@ -16,7 +16,7 @@ public bool IsBubble3D { get; set; }
 
 ### 参照
 
-* インターフェイス [IChartDataPoint](../../ichartdatapoint)
+* インターフェース [IChartDataPoint](../../ichartdatapoint)
 * 名前空間 [Aspose.Slides.Charts](../../ichartdatapoint)
 * アセンブリ [Aspose.Slides](../../../)
 

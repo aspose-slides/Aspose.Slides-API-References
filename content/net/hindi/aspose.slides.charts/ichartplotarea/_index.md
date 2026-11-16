@@ -1,9 +1,9 @@
 ---
 title: IChartPlotArea
-second_title: Aspose.Sildes for .NET API संदर्भ
+second_title: Aspose.Sildes .NET API संदर्भ के लिए
 description: चार्ट शीर्षक गुणों का प्रतिनिधित्व करता है।
 type: docs
-weight: 1910
+weight: 1930
 url: /hi/aspose.slides.charts/ichartplotarea/
 ---
 ## IChartPlotArea इंटरफ़ेस
@@ -19,11 +19,11 @@ public interface IChartPlotArea : IActualLayout, ILayoutable
 | नाम | विवरण |
 | --- | --- |
 | [AsIActualLayout](../../aspose.slides.charts/ichartplotarea/asiactuallayout) { get; } | IActualLayout इंटरफ़ेस को लौटाता है। |
-| [AsILayoutable](../../aspose.slides.charts/ichartplotarea/asilayoutable) { get; } | आधार ILayoutable इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`ILayoutable`](../ilayoutable)। |
-| [Format](../../aspose.slides.charts/ichartplotarea/format) { get; } | प्लॉट क्षेत्र के स्वरूप को लौटाता है। केवल-पढ़ने योग्य [`IFormat`](../iformat)। |
-| [LayoutTargetType](../../aspose.slides.charts/ichartplotarea/layouttargettype) { get; set; } | यदि प्लॉट क्षेत्र की लेआउट मैन्युअल रूप से परिभाषित की गई है तो यह गुण निर्धारित करता है कि प्लॉट क्षेत्र को उसके अंदर (अक्ष और अक्ष लेबल को शामिल नहीं) या बाहर (अक्ष और अक्ष लेबल सहित) लेआउट किया जाए। पढ़ने/लिखने योग्य [`LayoutTargetType`](./layouttargettype)। |
+| [AsILayoutable](../../aspose.slides.charts/ichartplotarea/asilayoutable) { get; } | आधार ILayoutable इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल पढ़ने योग्य [`ILayoutable`](../ilayoutable)। |
+| [Format](../../aspose.slides.charts/ichartplotarea/format) { get; } | प्लॉट एरिया का फ़ॉर्मेट लौटाता है। केवल पढ़ने योग्य [`IFormat`](../iformat)। |
+| [LayoutTargetType](../../aspose.slides.charts/ichartplotarea/layouttargettype) { get; set; } | यदि प्लॉट एरिया का लेआउट मैन्युअल रूप से परिभाषित किया गया है, तो यह गुण निर्धारित करता है कि प्लॉट एरिया को उसके अंदर (धुरी और धुरी लेबल शामिल नहीं) या बाहर (धुरी और धुरी लेबल सहित) लेआउट किया जाए। पढ़ने/लिखने योग्य [`LayoutTargetType`](./layouttargettype)। |
 
-### संबंधित देखें
+### सम्बंधित देखें
 
 * इंटरफ़ेस [IActualLayout](../iactuallayout)
 * इंटरफ़ेस [ILayoutable](../ilayoutable)

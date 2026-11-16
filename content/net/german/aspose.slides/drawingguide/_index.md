@@ -3,7 +3,7 @@ title: DrawingGuide
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt einen anpassbaren Zeichenleitfaden dar.
 type: docs
-weight: 2810
+weight: 2830
 url: /de/aspose.slides/drawingguide/
 ---
 ## DrawingGuide Klasse
@@ -16,11 +16,11 @@ public sealed class DrawingGuide : IDrawingGuide
 
 ## Eigenschaften
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
-| [Color](../../aspose.slides/drawingguide/color) { get; set; } | Gibt die Farbe des Zeichenleitfadens zurück oder legt sie fest. Lesen/Schreiben Color. |
-| [Orientation](../../aspose.slides/drawingguide/orientation) { get; set; } | Gibt die Ausrichtung des Zeichenleitfadens zurück oder legt sie fest. Lesen/Schreiben [`Orientation`](../orientation). |
-| [Position](../../aspose.slides/drawingguide/position) { get; set; } | Gibt die Position des Zeichenleitfadens in Punkten vom oberen linken Rand der Folie zurück oder legt sie fest. Lesen/Schreiben Single. |
+| [Color](../../aspose.slides/drawingguide/color) { get; set; } | Gibt die Farbe des Zeichenleitfadens zurück oder legt sie fest. Lese-/Schreib Color. |
+| [Orientation](../../aspose.slides/drawingguide/orientation) { get; set; } | Gibt die Ausrichtung des Zeichenleitfadens zurück oder legt sie fest. Lese-/Schreib [`Orientation`](../orientation). |
+| [Position](../../aspose.slides/drawingguide/position) { get; set; } | Gibt die Position des Zeichenleitfadens in Punkten vom oberen linken Eck der Folie zurück oder legt sie fest. Lese-/Schreib Single. |
 
 ### Siehe auch
 

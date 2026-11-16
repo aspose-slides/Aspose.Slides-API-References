@@ -3,7 +3,7 @@ title: VideoPlayModePreset
 second_title: Aspose.Sildes for .NET API 参考
 description: 定义视频播放方式的常量。
 type: docs
-weight: 11730
+weight: 11750
 url: /zh/aspose.slides/videoplaymodepreset/
 ---
 ## VideoPlayModePreset 枚举

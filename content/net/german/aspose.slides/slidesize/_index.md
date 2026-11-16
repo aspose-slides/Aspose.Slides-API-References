@@ -1,9 +1,9 @@
 ---
 title: SlideSize
-second_title: Aspose.Sildes für .NET API Referenz
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt die Größe und Ausrichtung einer Folie dar.
 type: docs
-weight: 10500
+weight: 10520
 url: /de/aspose.slides/slidesize/
 ---
 ## SlideSize Klasse
@@ -18,16 +18,16 @@ public class SlideSize : DomObject<Presentation>, ISlideSize
 
 | Name | Beschreibung |
 | --- | --- |
-| [Orientation](../../aspose.slides/slidesize/orientation) { get; set; } | Liest oder legt die Folienausrichtung fest. |
-| [Size](../../aspose.slides/slidesize/size) { get; } | Liest die Folienabmessungen in Punkten. |
-| [Type](../../aspose.slides/slidesize/type) { get; } | Liest den Foliengrößentyp. |
+| [Orientation](../../aspose.slides/slidesize/orientation) { get; set; } | Liefert oder setzt die Folienorientierung. |
+| [Size](../../aspose.slides/slidesize/size) { get; } | Liefert die Folienmaße in Punkten. |
+| [Type](../../aspose.slides/slidesize/type) { get; } | Liefert den Foliengrößentyp. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [SetSize](../../aspose.slides/slidesize/setsize#setsize)(SlideSizeType, SlideSizeScaleType) | Legt die Foliengröße anhand des Typs fest und skaliert vorhandenen Inhalt. |
-| [SetSize](../../aspose.slides/slidesize/setsize#setsize_1)(float, float, SlideSizeScaleType) | Legt die Folienabmessungen explizit fest und skaliert vorhandenen Inhalt. |
+| [SetSize](../../aspose.slides/slidesize/setsize#setsize)(SlideSizeType, SlideSizeScaleType) | Legt die Foliengröße nach Typ fest und skaliert vorhandenen Inhalt. |
+| [SetSize](../../aspose.slides/slidesize/setsize#setsize_1)(float, float, SlideSizeScaleType) | Legt die Folienmaße explizit fest und skaliert vorhandenen Inhalt. |
 
 ### Siehe auch
 

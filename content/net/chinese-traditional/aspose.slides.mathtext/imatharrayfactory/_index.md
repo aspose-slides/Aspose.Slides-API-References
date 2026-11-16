@@ -3,7 +3,7 @@ title: IMathArrayFactory
 second_title: Aspose.Sildes for .NET API 參考
 description: 允許建立數學陣列
 type: docs
-weight: 8110
+weight: 8130
 url: /zh-hant/aspose.slides.mathtext/imatharrayfactory/
 ---
 ## IMathArrayFactory 介面
@@ -18,12 +18,12 @@ public interface IMathArrayFactory
 
 | 名稱 | 說明 |
 | --- | --- |
-| [CreateMathArray](../../aspose.slides.mathtext/imatharrayfactory/creatematharray#creatematharray)(IMathElement) | 建立數學陣列並將指定的元素放入其中 |
-| [CreateMathArray](../../aspose.slides.mathtext/imatharrayfactory/creatematharray#creatematharray_1)(IMathElementCollection) | 建立數學陣列並將指定的元素放入其中 |
+| [CreateMathArray](../../aspose.slides.mathtext/imatharrayfactory/creatematharray#creatematharray)(IMathElement) | 建立一個數學陣列並將指定的元素放入其中 |
+| [CreateMathArray](../../aspose.slides.mathtext/imatharrayfactory/creatematharray#creatematharray_1)(IMathElementCollection) | 建立一個數學陣列並將指定的元素放入其中 |
 
 ### 備註
 
-用於 COM 相容性
+適用於 COM 相容性
 
 ### 另請參閱
 

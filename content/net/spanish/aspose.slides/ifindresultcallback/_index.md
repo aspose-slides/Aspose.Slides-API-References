@@ -1,14 +1,14 @@
 ---
 title: IFindResultCallback
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Interfaz de devolución de llamada utilizada para obtener el resultado de la búsqueda de texto.
+description: Interfaz de devolución de llamada utilizada para obtener resultados de búsqueda de texto.
 type: docs
-weight: 5820
+weight: 5840
 url: /es/aspose.slides/ifindresultcallback/
 ---
 ## IFindResultCallback interfaz
 
-Interfaz de devolución de llamada utilizada para obtener el resultado de la búsqueda de texto.
+Interfaz de devolución de llamada utilizada para obtener resultados de búsqueda de texto.
 
 ```csharp
 public interface IFindResultCallback

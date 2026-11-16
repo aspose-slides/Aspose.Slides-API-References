@@ -1,14 +1,14 @@
 ---
 title: PresentedBySpeaker
-second_title: Referencia de API de Aspose.Sildes para .NET
-description: Presentado por un ponente en pantalla completa
+second_title: Aspose.Sildes para la referencia de API de .NET
+description: Presentado por un orador en pantalla completa
 type: docs
-weight: 9650
+weight: 9670
 url: /es/aspose.slides/presentedbyspeaker/
 ---
 ## PresentedBySpeaker clase
 
-Presentado por un ponente (pantalla completa)
+Presentado por un orador (pantalla completa)
 
 ```csharp
 public class PresentedBySpeaker : SlideShowType
@@ -31,7 +31,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### Véase también
+### Ver también
 
 * clase [SlideShowType](../slideshowtype)
 * espacio de nombres [Aspose.Slides](../../aspose.slides)

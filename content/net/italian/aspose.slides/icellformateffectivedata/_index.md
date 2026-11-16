@@ -1,14 +1,14 @@
 ---
 title: ICellFormatEffectiveData
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Oggetto immutabile che contiene le proprietà effettive di formattazione della cella della tabella.
+second_title: Aspose.Sildes per il riferimento API .NET
+description: Oggetto immutabile che contiene le proprietà di formattazione della cella della tabella effettive.
 type: docs
-weight: 5480
+weight: 5500
 url: /it/aspose.slides/icellformateffectivedata/
 ---
 ## ICellFormatEffectiveData interfaccia
 
-Oggetto immutabile che contiene le proprietà effettive di formattazione della cella della tabella.
+Oggetto immutabile che contiene le proprietà di formattazione della cella della tabella effettive.
 
 ```csharp
 public interface ICellFormatEffectiveData : IBaseTableFormatEffectiveData
@@ -16,12 +16,12 @@ public interface ICellFormatEffectiveData : IBaseTableFormatEffectiveData
 
 ## Proprietà
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
-| [AsIBaseTableFormatEffectiveData](../../aspose.slides/icellformateffectivedata/asibasetableformateffectivedata) { get; } | Consente di ottenere l'interfaccia base IBaseTableFormatEffectiveData. Solo lettura [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
-| [Transparency](../../aspose.slides/icellformateffectivedata/transparency) { get; } | Restituisce la trasparenza del colore di riempimento. Leggi Single. |
+| [AsIBaseTableFormatEffectiveData](../../aspose.slides/icellformateffectivedata/asibasetableformateffectivedata) { get; } | Consente di ottenere l'interfaccia base IBaseTableFormatEffectiveData. Sola lettura [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
+| [Transparency](../../aspose.slides/icellformateffectivedata/transparency) { get; } | Ottiene la trasparenza del colore di riempimento. Legge Single. |
 
-### Note
+### Osservazioni
 
 Questa interfaccia è usata insieme all'interfaccia [`ICellFormat`](../icellformat) per restituire i valori di formattazione effettivi con ereditarietà e stili di tabella applicati.
 

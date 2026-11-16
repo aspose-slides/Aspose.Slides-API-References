@@ -1,14 +1,14 @@
 ---
 title: SaveOptions
-second_title: Aspose.Sildes для .NET справочник API
-description: Абстрактный класс с параметрами, которые управляют тем, как сохраняется презентация.
+second_title: Aspose.Sildes для .NET справочника API
+description: Абстрактный класс с параметрами, которые управляют способом сохранения презентации.
 type: docs
-weight: 4450
+weight: 4470
 url: /ru/aspose.slides.export/saveoptions/
 ---
 ## SaveOptions класс
 
-Абстрактный класс с параметрами, которые управляют тем, как сохраняется презентация.
+Абстрактный класс с параметрами, которые управляют способом сохранения презентации.
 
 ```csharp
 public abstract class SaveOptions : ISaveOptions
@@ -19,12 +19,12 @@ public abstract class SaveOptions : ISaveOptions
 | Имя | Описание |
 | --- | --- |
 | [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Возвращает или задаёт шрифт, используемый в случае, если исходный шрифт не найден. Чтение-запись String. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Возвращает или задаёт визуальный стиль градиента. Чтение-запись [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Возвращает или задаёт визуальный стиль градиента. Чтение/запись [`GradientStyle`](../../aspose.slides/gradientstyle). |
 | [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Представляет объект обратного вызова для обновления прогресса сохранения в процентах. См. [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Указывает, следует ли пропускать гиперссылки с вызовами JavaScript при сохранении презентации. Чтение-запись Boolean. Значение по умолчанию — **false**. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Возвращает или задаёт объект, получающий предупреждения и определяющий, будет ли процесс загрузки продолжен или прерван. Чтение-запись [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Указывает, следует ли пропускать гиперссылки с вызовами JavaScript при сохранении презентации. Чтение/запись Boolean. Значение по умолчанию — **false**. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Возвращает или задаёт объект, который получает предупреждения и решает, будет ли процесс загрузки продолжен или прерван. Чтение/запись [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
-### См. также
+### Смотрите также
 
 * интерфейс [ISaveOptions](../isaveoptions)
 * пространство имён [Aspose.Slides.Export](../../aspose.slides.export)

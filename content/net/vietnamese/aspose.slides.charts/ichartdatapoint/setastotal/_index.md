@@ -3,7 +3,7 @@ title: SetAsTotal
 second_title: Tham chiếu API Aspose.Sildes cho .NET
 description: Đặt điểm dữ liệu làm tổng. Chỉ áp dụng cho loại chuỗi Waterfall.
 type: docs
-weight: 140
+weight: 180
 url: /vi/aspose.slides.charts/ichartdatapoint/setastotal/
 ---
 ## IChartDataPoint.SetAsTotal thuộc tính
@@ -14,7 +14,7 @@ url: /vi/aspose.slides.charts/ichartdatapoint/setastotal/
 public bool SetAsTotal { get; set; }
 ```
 
-### Xem Thêm
+### Xem thêm
 
 * giao diện [IChartDataPoint](../../ichartdatapoint)
 * không gian tên [Aspose.Slides.Charts](../../ichartdatapoint)

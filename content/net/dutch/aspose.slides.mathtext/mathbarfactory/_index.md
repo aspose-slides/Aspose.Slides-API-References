@@ -3,7 +3,7 @@ title: MathBarFactory
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Staat toe een wiskundebalk te maken
 type: docs
-weight: 8580
+weight: 8600
 url: /nl/aspose.slides.mathtext/mathbarfactory/
 ---
 ## MathBarFactory klasse
@@ -24,8 +24,8 @@ public class MathBarFactory : IMathBarFactory
 
 | Naam | Beschrijving |
 | --- | --- |
-| [CreateMathBar](../../aspose.slides.mathtext/mathbarfactory/createmathbar#createmathbar)(IMathElement) | Creëer een wiskundebalk door toe te passen op het element |
-| [CreateMathBar](../../aspose.slides.mathtext/mathbarfactory/createmathbar#createmathbar_1)(IMathElement, MathTopBotPositions) | Creëer een wiskundebalk door toe te passen op het element |
+| [CreateMathBar](../../aspose.slides.mathtext/mathbarfactory/createmathbar#createmathbar)(IMathElement) | Maak een wiskundebalk door deze toe te passen op het element |
+| [CreateMathBar](../../aspose.slides.mathtext/mathbarfactory/createmathbar#createmathbar_1)(IMathElement, MathTopBotPositions) | Maak een wiskundebalk door deze toe te passen op het element |
 
 ### Opmerkingen
 

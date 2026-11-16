@@ -1,14 +1,14 @@
 ---
 title: IBaseChartValue
 second_title: Aspose.Sildes για .NET Αναφορά API
-description: Αντιπροσωπεύει μια τιμή ενός γραφήματος.
+description: Αναπαριστά μια τιμή γραφήματος.
 type: docs
-weight: 1730
+weight: 1740
 url: /el/aspose.slides.charts/ibasechartvalue/
 ---
 ## IBaseChartValue διεπαφή
 
-Αντιπροσωπεύει μια τιμή ενός γραφήματος.
+Αναπαριστά μια τιμή γραφήματος.
 
 ```csharp
 public interface IBaseChartValue
@@ -18,8 +18,8 @@ public interface IBaseChartValue
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [Data](../../aspose.slides.charts/ibasechartvalue/data) { get; set; } | Ανάγνωση/εγγραφή Object. |
-| [DataSourceType](../../aspose.slides.charts/ibasechartvalue/datasourcetype) { get; set; } | Καθορίζει εάν η ιδιότητα AsCell ή AsLiteralString ή AsLiteralDouble είναι ενεργή. Με άλλα λόγια καθορίζει τον τύπο της τιμής της ιδιότητας Data. Αυτή η ιδιότητα είναι μόνο για ανάγνωση. Για την αλλαγή της τιμής αυτής της ιδιότητας μπορείτε να χρησιμοποιήσετε μία από τις ιδιότητες ChartDataPointCollection.DataSourceTypeFor<...>. Ανάγνωση/εγγραφή [`DataSourceType`](./datasourcetype). |
+| [Data](../../aspose.slides.charts/ibasechartvalue/data) { get; set; } | Αναγνώσιμη/εγγράψιμη Object. |
+| [DataSourceType](../../aspose.slides.charts/ibasechartvalue/datasourcetype) { get; set; } | Καθορίζει εάν η ιδιότητα AsCell ή AsLiteralString ή AsLiteralDouble είναι ενεργή. Με άλλα λόγια, καθορίζει τον τύπο της τιμής της ιδιότητας Data. Αυτή η ιδιότητα είναι μόνο για ανάγνωση. Για την αλλαγή της τιμής αυτής της ιδιότητας μπορείτε να χρησιμοποιήσετε μία από τις ιδιότητες ChartDataPointCollection.DataSourceTypeFor&lt;...&gt;. Αναγνώσιμη/εγγράψιμη [`DataSourceType`](./datasourcetype). |
 
 ### Δείτε επίσης
 

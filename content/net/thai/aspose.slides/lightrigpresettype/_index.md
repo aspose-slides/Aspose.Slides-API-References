@@ -1,14 +1,14 @@
 ---
 title: LightRigPresetType
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: ค่าคงที่ที่กำหนดประเภทของพรีเซ็ตแสง.
+second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
+description: ค่าคงที่ที่กำหนดประเภทของการตั้งค่าแสง.
 type: docs
-weight: 7700
+weight: 7720
 url: /th/aspose.slides/lightrigpresettype/
 ---
-## LightRigPresetType enumeration
+## LightRigPresetType การนับค่าคงที่
 
-ค่าคงที่ที่กำหนดประเภทของพรีเซ็ตแสง
+ค่าคงที่ที่กำหนดประเภทของการตั้งค่าแสง.
 
 ```csharp
 public enum LightRigPresetType

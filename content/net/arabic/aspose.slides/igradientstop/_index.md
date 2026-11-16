@@ -1,14 +1,14 @@
 ---
 title: IGradientStop
-second_title: مرجع API لـ Aspose.Sildes لـ .NET
-description: يمثل تنسيق تدرج لوني.
+second_title: Aspose.Sildes لـ .NET مرجع API
+description: يمثل تنسيقًا تدرجيًا.
 type: docs
-weight: 6020
+weight: 6040
 url: /ar/aspose.slides/igradientstop/
 ---
-## واجهة IGradientStop
+## IGradientStop واجهة
 
-يمثل تنسيق التدرج اللوني.
+يمثل تنسيقًا تدرجيًا.
 
 ```csharp
 public interface IGradientStop
@@ -19,7 +19,7 @@ public interface IGradientStop
 | الاسم | الوصف |
 | --- | --- |
 | [Color](../../aspose.slides/igradientstop/color) { get; } | يعيد لون نقطة التدرج. قراءة فقط [`IColorFormat`](../icolorformat). |
-| [Position](../../aspose.slides/igradientstop/position) { get; set; } | يعيد أو يضبط موضع نقطة التدرج (0..1). قراءة/كتابة Single. |
+| [Position](../../aspose.slides/igradientstop/position) { get; set; } | يعيد أو يعيّن موضع (0..1) لنقطة التدرج. قراءة/كتابة Single. |
 
 ### انظر أيضًا
 

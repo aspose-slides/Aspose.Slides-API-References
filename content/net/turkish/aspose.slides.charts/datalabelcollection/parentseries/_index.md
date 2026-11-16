@@ -1,9 +1,9 @@
 ---
 title: ParentSeries
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Üst seriyi alır. Salt okunur IChartSeriesaspose.slides.charts/ichartseries.
 type: docs
-weight: 80
+weight: 90
 url: /tr/aspose.slides.charts/datalabelcollection/parentseries/
 ---
 ## DataLabelCollection.ParentSeries özelliği
@@ -14,7 +14,7 @@ url: /tr/aspose.slides.charts/datalabelcollection/parentseries/
 public IChartSeries ParentSeries { get; }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * arayüz [IChartSeries](../../ichartseries)
 * sınıf [DataLabelCollection](../../datalabelcollection)

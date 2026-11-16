@@ -1,14 +1,14 @@
 ---
 title: IMathRightSubSuperscriptElement
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Especifica el objeto Sub-Superscript que consta de una base y un subíndice y superíndice colocados a la derecha de la base.
+description: Especifica el objeto Sub-Superscript que consiste en una base y un subíndice y superíndice colocados a la derecha de la base.
 type: docs
-weight: 8450
+weight: 8470
 url: /es/aspose.slides.mathtext/imathrightsubsuperscriptelement/
 ---
 ## IMathRightSubSuperscriptElement interfaz
 
-Especifica el objeto Sub-Superscript, que consta de una base y un subíndice y superíndice colocados a la derecha de la base.
+Especifica el objeto Sub-Superscript, que consiste en una base y un subíndice y superíndice colocados a la derecha de la base.
 
 ```csharp
 public interface IMathRightSubSuperscriptElement : IMathElement
@@ -18,8 +18,8 @@ public interface IMathRightSubSuperscriptElement : IMathElement
 
 | Nombre | Descripción |
 | --- | --- |
-| [AlignScripts](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/alignscripts) { get; set; } | Especifica la alineación del subíndice/superíndice. Cuando es true, el subíndice y el superíndice están alineados horizontalmente entre sí. Cuando es false, se ajustan a la forma de la base. El valor predeterminado es false. |
-| [AsIMathElement](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/asimathelement) { get; } | Permite obtener la interfaz IMathElement base [`IMathElement`](../imathelement) |
+| [AlignScripts](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/alignscripts) { get; set; } | Especifica la alineación del subíndice/superíndice. Cuando true, el subíndice y el superíndice se alinean horizontalmente entre sí. Cuando false, se ajustan a la forma de la base. El valor predeterminado es false. |
+| [AsIMathElement](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/asimathelement) { get; } | Permite obtener la interfaz base IMathElement [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/base) { get; } | Argumento base |
 | [Subscript](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/subscript) { get; } | Argumento de subíndice |
 | [Superscript](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/superscript) { get; } | Argumento de superíndice |

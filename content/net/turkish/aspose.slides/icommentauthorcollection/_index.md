@@ -3,10 +3,10 @@ title: ICommentAuthorCollection
 second_title: Aspose.Sildes için .NET API Referansı
 description: Yorum yazarlarının bir koleksiyonunu temsil eder.
 type: docs
-weight: 5580
+weight: 5600
 url: /tr/aspose.slides/icommentauthorcollection/
 ---
-## ICommentAuthorCollection arayüzü
+## ICommentAuthorCollection arayüz
 
 Yorum yazarlarının bir koleksiyonunu temsil eder.
 
@@ -20,17 +20,17 @@ public interface ICommentAuthorCollection : IGenericCollection<ICommentAuthor>
 | --- | --- |
 | [Item](../../aspose.slides/icommentauthorcollection/item) { get; } | Belirtilen dizindeki öğeyi alır. Salt okunur [`ICommentAuthor`](../icommentauthor). |
 
-## Metotlar
+## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
 | [AddAuthor](../../aspose.slides/icommentauthorcollection/addauthor)(string, string) | Koleksiyonun sonuna yeni bir yazar ekler. |
-| [Clear](../../aspose.slides/icommentauthorcollection/clear)() | Bir koleksiyondaki tüm yazarları kaldırır. |
-| [FindByName](../../aspose.slides/icommentauthorcollection/findbyname)(string) | Bir koleksiyonda adıyla yazar bulur. |
-| [FindByNameAndInitials](../../aspose.slides/icommentauthorcollection/findbynameandinitials)(string, string) | Bir koleksiyonda adı ve baş harfleriyle yazar bulur. |
-| [Remove](../../aspose.slides/icommentauthorcollection/remove)(ICommentAuthor) | Bir koleksiyonda belirtilen yazarın ilk oluşumunu kaldırır. |
-| [RemoveAt](../../aspose.slides/icommentauthorcollection/removeat)(int) | Koleksiyonun belirtilen dizinindeki yazarı kaldırır. |
-| [ToArray](../../aspose.slides/icommentauthorcollection/toarray)() | Tüm yazarlarla bir dizi oluşturur ve döndürür. |
+| [Clear](../../aspose.slides/icommentauthorcollection/clear)() | Koleksiyondaki tüm yazarları kaldırır. |
+| [FindByName](../../aspose.slides/icommentauthorcollection/findbyname)(string) | Koleksiyon içinde isme göre yazar bulur. |
+| [FindByNameAndInitials](../../aspose.slides/icommentauthorcollection/findbynameandinitials)(string, string) | Koleksiyon içinde adı ve baş harflerine göre yazar bulur. |
+| [Remove](../../aspose.slides/icommentauthorcollection/remove)(ICommentAuthor) | Koleksiyonda belirtilen yazarın ilk oluşumunu kaldırır. |
+| [RemoveAt](../../aspose.slides/icommentauthorcollection/removeat)(int) | Koleksiyondaki belirtilen dizindeki yazarı kaldırır. |
+| [ToArray](../../aspose.slides/icommentauthorcollection/toarray)() | Tüm yazarları içeren bir dizi oluşturur ve döndürür. |
 
 ### Ayrıca Bakınız
 

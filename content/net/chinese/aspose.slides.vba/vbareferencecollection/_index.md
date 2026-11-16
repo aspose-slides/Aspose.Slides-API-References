@@ -3,7 +3,7 @@ title: VbaReferenceCollection
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示 VBA 项目引用的集合。
 type: docs
-weight: 11670
+weight: 11690
 url: /zh/aspose.slides.vba/vbareferencecollection/
 ---
 ## VbaReferenceCollection 类
@@ -27,9 +27,9 @@ public class VbaReferenceCollection : IVbaReferenceCollection
 
 | 名称 | 描述 |
 | --- | --- |
-| [Add](../../aspose.slides.vba/vbareferencecollection/add)(IVbaReference) | 将新引用添加到引用集合 |
+| [Add](../../aspose.slides.vba/vbareferencecollection/add)(IVbaReference) | 将新引用添加到引用集合。 |
 | [CopyTo](../../aspose.slides.vba/vbareferencecollection/copyto)(Array, int) | 将集合中的所有元素复制到指定的数组。 |
-| [GetEnumerator](../../aspose.slides.vba/vbareferencecollection/getenumerator)() | 返回一个遍历集合的枚举器。 |
+| [GetEnumerator](../../aspose.slides.vba/vbareferencecollection/getenumerator)() | 返回遍历集合的枚举器。 |
 
 ### 另请参阅
 

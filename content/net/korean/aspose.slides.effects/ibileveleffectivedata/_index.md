@@ -1,14 +1,14 @@
 ---
 title: IBiLevelEffectiveData
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 지정된 임계값보다 낮은 휘도를 가진 입력 색상은 검은색으로, 지정된 값보다 크거나 같은 휘도를 가진 입력 색상은 흰색으로 변환되는 Bi-Level(흑백) 효과를 나타내는 불변 객체입니다. 알파 효과 값은 이 효과에 영향을 받지 않습니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: 불변 객체로, Bi-Level 흑백 효과를 나타냅니다. 지정된 임계값보다 낮은 휘도를 가진 입력 색상은 검은색으로 변경됩니다. 지정된 값보다 크거나 같은 휘도를 가진 입력 색상은 흰색으로 설정됩니다. 알파 효과 값은 이 효과에 의해 영향을 받지 않습니다.
 type: docs
-weight: 3170
+weight: 3190
 url: /ko/aspose.slides.effects/ibileveleffectivedata/
 ---
 ## IBiLevelEffectiveData 인터페이스
 
-지정된 임계값보다 낮은 휘도를 가진 입력 색상은 검은색으로, 지정된 값보다 크거나 같은 휘도를 가진 입력 색상은 흰색으로 변경되는 Bi-Level(흑백) 효과를 나타내는 불변 객체입니다. 알파 효과 값은 이 효과에 영향을 받지 않습니다.
+불변 객체로, Bi-Level(흑백) 효과를 나타냅니다. 지정된 임계값보다 낮은 휘도를 가진 입력 색상은 검은색으로 변경됩니다. 지정된 값보다 크거나 같은 휘도를 가진 입력 색상은 흰색으로 설정됩니다. 알파 효과 값은 이 효과에 의해 영향을 받지 않습니다.
 
 ```csharp
 public interface IBiLevelEffectiveData : IEffectEffectiveData

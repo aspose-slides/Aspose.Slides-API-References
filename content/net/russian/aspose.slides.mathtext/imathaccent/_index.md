@@ -1,14 +1,14 @@
 ---
 title: IMathAccent
-second_title: Aspose.Sildes для .NET API Reference
-description: Определяет функцию надстрочного знака, состоящую из базового символа и комбинируемого диакритического знака. Пример ́
+second_title: Aspose.Sildes для .NET справочник API
+description: Определяет функцию акцента, состоящую из базового элемента и комбинирующего диакритического знака. Пример ́
 type: docs
-weight: 8080
+weight: 8100
 url: /ru/aspose.slides.mathtext/imathaccent/
 ---
 ## IMathAccent интерфейс
 
-Определяет функцию надстрочного знака, состоящую из базового символа и комбинируемого диакритического знака. Пример: 𝑎́
+Определяет функцию акцента, состоящую из базового элемента и комбинирующего диакритического знака Пример: 𝑎́
 
 ```csharp
 public interface IMathAccent : IMathElement
@@ -19,8 +19,8 @@ public interface IMathAccent : IMathElement
 | Имя | Описание |
 | --- | --- |
 | [AsIMathElement](../../aspose.slides.mathtext/imathaccent/asimathelement) { get; } | Позволяет получить базовый интерфейс IMathElement [`IMathElement`](../imathelement) |
-| [Base](../../aspose.slides.mathtext/imathaccent/base) { get; } | Аргумент, к которому был применён надстрочный знак |
-| [Character](../../aspose.slides.mathtext/imathaccent/character) { get; set; } | Символ надстрочного знака. Значение должно находиться в диапазоне (U+0300–U+036F) или (U+20D0–U+20EF). Значение по умолчанию: комбинирующий циркумфлексный акцент (U+0302) |
+| [Base](../../aspose.slides.mathtext/imathaccent/base) { get; } | Аргумент, к которому был применён акцент |
+| [Character](../../aspose.slides.mathtext/imathaccent/character) { get; set; } | Символ акцента. Значение должно находиться в диапазоне (U+0300–U+036F) или (U+20D0–U+20EF). Значение по умолчанию: Combining Circumflex Accent (U+0302) |
 
 ### Примеры
 
@@ -31,7 +31,7 @@ public interface IMathAccent : IMathElement
 IMathAccent accent = new MathematicalText("x").Accent('~');
 ```
 
-### Смотрите также
+### См. также
 
 * интерфейс [IMathElement](../imathelement)
 * пространство имён [Aspose.Slides.MathText](../../aspose.slides.mathtext)

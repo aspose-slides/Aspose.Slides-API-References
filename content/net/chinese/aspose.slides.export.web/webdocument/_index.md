@@ -1,14 +1,14 @@
 ---
 title: WebDocument
-second_title: Aspose.Sildes 的 .NET API 参考
-description: 表示演示文稿的过渡形式，用于保存为网页格式。
+second_title: Aspose.Sildes for .NET API 参考
+description: 表示用于保存为 Web 格式的演示文稿的过渡形式。
 type: docs
-weight: 4680
+weight: 4700
 url: /zh/aspose.slides.export.web/webdocument/
 ---
 ## WebDocument 类
 
-表示演示文稿的过渡形式，用于保存为网页格式。
+表示用于保存为 Web 格式的演示文稿的过渡形式。
 
 ```csharp
 public class WebDocument
@@ -16,13 +16,13 @@ public class WebDocument
 
 ## 构造函数
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
 | [WebDocument](webdocument)(WebDocumentOptions) | [`WebDocument`](../webdocument) 构造函数。 |
 
 ## 属性
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
 | [Global](../../aspose.slides.export.web/webdocument/global) { get; } | 返回文档的全局存储。只读 [`Storage`](../storage)。 |
 | [Input](../../aspose.slides.export.web/webdocument/input) { get; } |  |
@@ -30,11 +30,11 @@ public class WebDocument
 
 ## 方法
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
 | [Save](../../aspose.slides.export.web/webdocument/save)() | 保存文档输出。 |
 
-### 另请参阅
+### 另见
 
 * 命名空间 [Aspose.Slides.Export.Web](../../aspose.slides.export.web)
 * 程序集 [Aspose.Slides](../../)

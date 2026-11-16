@@ -1,14 +1,14 @@
 ---
 title: IMathAccent
 second_title: Referência da API Aspose.Sildes para .NET
-description: Especifica a função de acento consistindo de uma base e um sinal diacrítico combinante. Exemplo ́
+description: Especifica a função de acento que consiste em uma base e um sinal diacrítico combinante Exemplo ́
 type: docs
-weight: 8080
+weight: 8100
 url: /pt/aspose.slides.mathtext/imathaccent/
 ---
-## IMathAccent interface
+## interface IMathAccent
 
-Especifica a função de acento, consistindo de uma base e um sinal diacrítico combinante. Exemplo: 𝑎́
+Especifica a função de acento, consistindo de uma base e um sinal diacrítico combinante Exemplo: 𝑎́
 
 ```csharp
 public interface IMathAccent : IMathElement
@@ -20,7 +20,7 @@ public interface IMathAccent : IMathElement
 | --- | --- |
 | [AsIMathElement](../../aspose.slides.mathtext/imathaccent/asimathelement) { get; } | Permite obter a interface base IMathElement [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathaccent/base) { get; } | O argumento ao qual o acento foi aplicado |
-| [Character](../../aspose.slides.mathtext/imathaccent/character) { get; set; } | Caractere de acento O valor deve estar dentro do intervalo (U+0300–U+036F) ou (U+20D0–U+20EF) Valor padrão: Circunflexo Combinante (U+0302) |
+| [Character](../../aspose.slides.mathtext/imathaccent/character) { get; set; } | Caractere de Acento O valor deve estar dentro do intervalo de (U+0300–U+036F) ou (U+20D0–U+20EF) Valor padrão: Combining Circumflex Accent (U+0302) |
 
 ### Exemplos
 
@@ -31,7 +31,7 @@ Exemplo:
 IMathAccent accent = new MathematicalText("x").Accent('~');
 ```
 
-### Ver também
+### Veja Também
 
 * interface [IMathElement](../imathelement)
 * namespace [Aspose.Slides.MathText](../../aspose.slides.mathtext)

@@ -1,14 +1,14 @@
 ---
 title: ISensitivityLabel
-second_title: Aspose.Sildes para la referencia de API de .NET
+second_title: Aspose.Sildes para la referencia de API .NET
 description: Representa la etiqueta de sensibilidad de Microsoft Purview Information Protection.
 type: docs
-weight: 6930
+weight: 6950
 url: /es/aspose.slides/isensitivitylabel/
 ---
 ## ISensitivityLabel interfaz
 
-Represents the sensitivity label from Microsoft Purview Information Protection.
+Representa la etiqueta de sensibilidad de Microsoft Purview Information Protection.
 
 ```csharp
 public interface ISensitivityLabel
@@ -16,14 +16,14 @@ public interface ISensitivityLabel
 
 ## Propiedades
 
-| Name | Description |
+| Nombre | Descripción |
 | --- | --- |
 | [AssignmentMethodType](../../aspose.slides/isensitivitylabel/assignmentmethodtype) { get; set; } | Devuelve o establece el método de asignación para la etiqueta de sensibilidad. Lectura/escritura [`SensitivityLabelAssignmentType`](../sensitivitylabelassignmenttype). |
 | [ContentMarkTypes](../../aspose.slides/isensitivitylabel/contentmarktypes) { get; } | Devuelve la lista de tipos de marcado de contenido que deben aplicarse a un archivo. |
-| [Id](../../aspose.slides/isensitivitylabel/id) { get; set; } | Devuelve o establece el id de la etiqueta de sensibilidad. Lectura/escritura String. |
+| [Id](../../aspose.slides/isensitivitylabel/id) { get; set; } | Devuelve o establece la id de la etiqueta de sensibilidad. Lectura/escritura String. |
 | [IsEnabled](../../aspose.slides/isensitivitylabel/isenabled) { get; set; } | Indica si la etiqueta de sensibilidad está habilitada. |
 | [IsRemoved](../../aspose.slides/isensitivitylabel/isremoved) { get; set; } | Indica si la etiqueta de sensibilidad fue eliminada. |
-| [SiteId](../../aspose.slides/isensitivitylabel/siteid) { get; set; } | Devuelve o establece el identificador del sitio de Azure Active Directory (Azure AD) que corresponde a la política de etiqueta de sensibilidad que describe la etiqueta de sensibilidad. Lectura/escritura Guid. |
+| [SiteId](../../aspose.slides/isensitivitylabel/siteid) { get; set; } | Devuelve o establece el identificador del sitio de Azure Active Directory (Azure AD) que corresponde a la directiva de etiqueta de sensibilidad que describe la etiqueta de sensibilidad. Lectura/escritura Guid. |
 
 ### Ver también
 

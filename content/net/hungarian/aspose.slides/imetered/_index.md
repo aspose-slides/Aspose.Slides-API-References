@@ -1,14 +1,14 @@
 ---
 title: IMetered
-second_title: Aspose.Sildes .NET API Referenciája
-description: Metódusokat biztosít a számlázott kulcs beállításához.
+second_title: Aspose.Sildes a .NET API referencia
+description: Módszereket biztosít a mérő kulcs beállításához.
 type: docs
-weight: 6450
+weight: 6470
 url: /hu/aspose.slides/imetered/
 ---
 ## IMetered interfész
 
-Metódusokat biztosít a számlázott kulcs beállításához.
+Módszereket biztosít a mérő kulcs beállításához.
 
 ```csharp
 public interface IMetered
@@ -18,7 +18,7 @@ public interface IMetered
 
 | Név | Leírás |
 | --- | --- |
-| [SetMeteredKey](../../aspose.slides/imetered/setmeteredkey)(string, string) | Beállítja a számlázott nyilvános és privát kulcsot. |
+| [SetMeteredKey](../../aspose.slides/imetered/setmeteredkey)(string, string) | Beállítja a mérő nyilvános és privát kulcsot. |
 
 ### Lásd még
 

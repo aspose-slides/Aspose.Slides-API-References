@@ -1,14 +1,14 @@
 ---
 title: IMathLeftSubSuperscriptElement
-second_title: Aspose.Sildes pro .NET referenci API
-description: Specifikuje objekt Sub-Superscript, který se skládá ze základny a dolního a horního indexu umístěných vlevo od základny.
+second_title: Aspose.Sildes pro .NET API Referenci
+description: Specifikuje objekt Sub-Superscript, který se skládá ze základny a dolního a horního indexu umístěných nalevo od základny.
 type: docs
-weight: 8310
+weight: 8330
 url: /cs/aspose.slides.mathtext/imathleftsubsuperscriptelement/
 ---
 ## IMathLeftSubSuperscriptElement rozhraní
 
-Specifikuje objekt Sub-Superscript, který se skládá ze základny a dolního a horního indexu umístěných vlevo od základny.
+Specifikuje objekt Sub-Superscript, který se skládá ze základny a dolního a horního indexu umístěných nalevo od základny.
 
 ```csharp
 public interface IMathLeftSubSuperscriptElement : IMathElement

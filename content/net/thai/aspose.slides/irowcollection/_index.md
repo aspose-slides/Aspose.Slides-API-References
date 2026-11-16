@@ -1,14 +1,14 @@
 ---
 title: IRowCollection
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: เป็นตัวแทนของคอลเลกชันแถวของตาราง.
+description: แสดงคอลเลกชันแถวของตาราง.
 type: docs
-weight: 6860
+weight: 6880
 url: /th/aspose.slides/irowcollection/
 ---
 ## IRowCollection อินเทอร์เฟซ
 
-เป็นตัวแทนของคอลเลกชันแถวของตาราง.
+แสดงคอลเลกชันแถวของตาราง
 
 ```csharp
 public interface IRowCollection : IGenericCollection<IRow>
@@ -16,17 +16,17 @@ public interface IRowCollection : IGenericCollection<IRow>
 
 ## คุณสมบัติ
 
-| ชื่อ | รายละเอียด |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Item](../../aspose.slides/irowcollection/item) { get; } | รับอีลีเมนต์ที่ตำแหน่งที่ระบุ |
+| [Item](../../aspose.slides/irowcollection/item) { get; } | รับองค์ประกอบที่ตำแหน่งที่ระบุ |
 
-## วิธีการ
+## เมธอด
 
-| ชื่อ | รายละเอียด |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AddClone](../../aspose.slides/irowcollection/addclone)(IRow, bool) | สร้างสำเนาของแถวแม่แบบที่ระบุและแทรกลงที่ด้านล่างของตาราง |
-| [InsertClone](../../aspose.slides/irowcollection/insertclone)(int, IRow, bool) | สร้างสำเนาของแถวแม่แบบที่ระบุและแทรกลงในตำแหน่งที่กำหนดในตาราง |
-| [RemoveAt](../../aspose.slides/irowcollection/removeat)(int, bool) | ลบแถวที่ตำแหน่งที่ระบุออกจากตาราง |
+| [AddClone](../../aspose.slides/irowcollection/addclone)(IRow, bool) | สร้างสำเนาของแถวเทมเพลตที่ระบุและแทรกที่ด้านล่างของตาราง |
+| [InsertClone](../../aspose.slides/irowcollection/insertclone)(int, IRow, bool) | สร้างสำเนาของแถวเทมเพลตที่ระบุและแทรกที่ตำแหน่งที่กำหนดในตาราง |
+| [RemoveAt](../../aspose.slides/irowcollection/removeat)(int, bool) | ลบแถวที่ตำแหน่งที่ระบุจากตาราง |
 
 ### ดูเพิ่มเติม
 

@@ -3,10 +3,10 @@ title: DomObjectTParent
 second_title: Aspose.Sildes pro .NET API Reference
 description: Základní objekt DOM
 type: docs
-weight: 2800
+weight: 2820
 url: /cs/aspose.slides/domobject-1/
 ---
-## DomObject<TParent> třída
+## DomObject&lt;TParent&gt; třída
 
 Základní objekt DOM
 

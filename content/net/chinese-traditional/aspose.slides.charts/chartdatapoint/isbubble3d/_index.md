@@ -1,20 +1,20 @@
 ---
 title: IsBubble3D
 second_title: Aspose.Sildes for .NET API 參考文件
-description: 指定氣泡套用 3-D 效果。讀/寫 Boolean。
+description: 指定氣泡已套用 3-D 效果。可讀寫 Boolean.
 type: docs
-weight: 130
+weight: 170
 url: /zh-hant/aspose.slides.charts/chartdatapoint/isbubble3d/
 ---
 ## ChartDataPoint.IsBubble3D 屬性
 
-指定氣泡套用 3-D 效果。讀/寫 Boolean。
+指定氣泡已套用 3-D 效果。可讀寫 Boolean.
 
 ```csharp
 public bool IsBubble3D { get; set; }
 ```
 
-### 另見
+### 參見
 
 * 類別 [ChartDataPoint](../../chartdatapoint)
 * 命名空間 [Aspose.Slides.Charts](../../chartdatapoint)

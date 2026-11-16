@@ -1,14 +1,14 @@
 ---
 title: IFillOverlayEffectiveData
-second_title: Aspose.Sildes pro .NET – reference API
-description: Neměnný objekt, který představuje efekt Fill Overlay. Fill Overlay může být použit k určení dodatečné výplně pro objekt a k jejich smíchání.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Neměnný objekt, který představuje efekt Fill Overlay. Fill overlay může být použit k určení dodatečné výplně pro objekt a ke sloučení dvou výplní dohromady.
 type: docs
-weight: 3310
+weight: 3330
 url: /cs/aspose.slides.effects/ifilloverlayeffectivedata/
 ---
 ## IFillOverlayEffectiveData rozhraní
 
-Neměnný objekt, který představuje efekt Fill Overlay. Fill Overlay může být použit k určení dodatečné výplně pro objekt a k jejich smíchání.
+Neměnný objekt, který představuje efekt Fill Overlay. Fill overlay může být použit k určení dodatečné výplně pro objekt a ke sloučení dvou výplní dohromady.
 
 ```csharp
 public interface IFillOverlayEffectiveData : IEffectEffectiveData
@@ -18,9 +18,9 @@ public interface IFillOverlayEffectiveData : IEffectEffectiveData
 
 | Název | Popis |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ifilloverlayeffectivedata/asieffecteffectivedata) { get; } | Umožňuje získat základní rozhraní IEffectEffectiveData. Pouze pro čtení [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Blend](../../aspose.slides.effects/ifilloverlayeffectivedata/blend) { get; } | FillBlendMode. Pouze pro čtení [`FillBlendMode`](../../aspose.slides/fillblendmode). |
-| [FillFormat](../../aspose.slides.effects/ifilloverlayeffectivedata/fillformat) { get; } | Formát výplně. Pouze pro čtení [`IFillFormatEffectiveData`](../../aspose.slides/ifillformateffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ifilloverlayeffectivedata/asieffecteffectivedata) { get; } | Umožňuje získat základní rozhraní IEffectEffectiveData. Pouze ke čtení [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Blend](../../aspose.slides.effects/ifilloverlayeffectivedata/blend) { get; } | FillBlendMode. Pouze ke čtení [`FillBlendMode`](../../aspose.slides/fillblendmode). |
+| [FillFormat](../../aspose.slides.effects/ifilloverlayeffectivedata/fillformat) { get; } | Formát výplně. Pouze ke čtení [`IFillFormatEffectiveData`](../../aspose.slides/ifillformateffectivedata). |
 
 ### Viz také
 

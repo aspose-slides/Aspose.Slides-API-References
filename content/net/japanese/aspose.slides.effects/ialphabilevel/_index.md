@@ -1,14 +1,14 @@
 ---
 title: IAlphaBiLevel
 second_title: Aspose.Sildes for .NET API リファレンス
-description: Alpha バイレベル効果を表します。しきい値未満の Alpha 不透明度の値は 0（完全に透明）に変換され、しきい値以上の Alpha の値は 100（完全に不透明）に変換されます。
+description: Alpha バイレベル効果を表します。しきい値未満の Alpha 不透明度の値は 0（完全に透明）に、しきい値以上の Alpha の値は 100（完全に不透明）に変換されます。
 type: docs
-weight: 3020
+weight: 3040
 url: /ja/aspose.slides.effects/ialphabilevel/
 ---
 ## IAlphaBiLevel インターフェイス
 
-しきい値未満の Alpha (Opacity) 値は 0 (完全に透明) に変更され、しきい値以上の Alpha 値は 100% (完全に不透明) に変更されます。
+Alpha バイレベル効果を表します。しきい値未満の Alpha（Opacity）値は 0（完全に透明）に、しきい値以上の Alpha 値は 100%（完全に不透明）に変換されます。
 
 ```csharp
 public interface IAlphaBiLevel : IAccessiblePVIObject<IAlphaBiLevelEffectiveData>, 
@@ -19,13 +19,13 @@ public interface IAlphaBiLevel : IAccessiblePVIObject<IAlphaBiLevelEffectiveData
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphabilevel/asiaccessiblepviobject) { get; } | ベースの IAccessiblePVIObject インターフェイスを取得できます。読み取り専用 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphabilevel/asiimagetransformoperation) { get; } | ベースの IImageTransformOperation インターフェイスを取得できます。読み取り専用 [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Threshold](../../aspose.slides.effects/ialphabilevel/threshold) { get; set; } | エフェクトのしきい値を返します。読み書き可能 Single. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphabilevel/asiaccessiblepviobject) { get; } | 基本 IAccessiblePVIObject インターフェイスを取得できます。読み取り専用 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphabilevel/asiimagetransformoperation) { get; } | 基本 IImageTransformOperation インターフェイスを取得できます。読み取り専用 [`IImageTransformOperation`](../iimagetransformoperation)。 |
+| [Threshold](../../aspose.slides.effects/ialphabilevel/threshold) { get; set; } | 効果のしきい値を返します。読み書き可能 Single。 |
 
 ### 備考
 
-COM でインスタンスを作成するには ImageTransformOperationFactory を使用します。
+COM でインスタンスを作成するには ImageTransformOperationFactory を使用してください。
 
 ### 参照
 

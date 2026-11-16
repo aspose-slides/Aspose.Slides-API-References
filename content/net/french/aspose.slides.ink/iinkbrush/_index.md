@@ -1,14 +1,14 @@
 ---
 title: IInkBrush
-second_title: Référence API Aspose.Sildes pour .NET
-description: Représente le pinceau de traçage.
+second_title: Référence de l'API Aspose.Sildes pour .NET
+description: Représente le pinceau de trace.
 type: docs
-weight: 7530
+weight: 7550
 url: /fr/aspose.slides.ink/iinkbrush/
 ---
-## Interface IInkBrush
+## IInkBrush interface
 
-Représente le pinceau de traçage.
+Représente le pinceau de trace.
 
 ```csharp
 public interface IInkBrush
@@ -19,7 +19,7 @@ public interface IInkBrush
 | Nom | Description |
 | --- | --- |
 | [Color](../../aspose.slides.ink/iinkbrush/color) { get; set; } | Obtient ou définit la couleur du pinceau pour une ligne. |
-| [InkEffect](../../aspose.slides.ink/iinkbrush/inkeffect) { get; } | Obtient le type d'effet d'encre (par ex., Galaxy, Gold, Silver) qui définit le style visuel du trait d'encre. La valeur est extraite de la propriété du pinceau "inkEffects". Si aucun effet reconnu n'est spécifié, NotDefined est retourné. |
+| [InkEffect](../../aspose.slides.ink/iinkbrush/inkeffect) { get; } | Obtient le type d'effet d'encre (p. ex., Galaxy, Gold, Silver) qui définit le style visuel du tracé d'encre. La valeur est analysée à partir de la propriété du pinceau "inkEffects". Si aucun effet reconnu n'est spécifié, NotDefined est retourné. |
 | [Size](../../aspose.slides.ink/iinkbrush/size) { get; set; } | Obtient ou définit la taille du pinceau pour une ligne en points. |
 
 ### Voir aussi

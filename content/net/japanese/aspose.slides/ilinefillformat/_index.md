@@ -1,14 +1,14 @@
 ---
 title: ILineFillFormat
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: 線の塗りつぶしに関するプロパティを表します。
 type: docs
-weight: 6290
+weight: 6310
 url: /ja/aspose.slides/ilinefillformat/
 ---
 ## ILineFillFormat インターフェイス
 
-線の塗り付けに関するプロパティを表します。
+線の塗りつぶしに関するプロパティを表します。
 
 ```csharp
 public interface ILineFillFormat : IFillParamSource
@@ -18,14 +18,14 @@ public interface ILineFillFormat : IFillParamSource
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/ilinefillformat/asifillparamsource) { get; } | ベース IFillParamSource インターフェイスを取得できます。読み取り専用 [`IFillParamSource`](../ifillparamsource)。 |
-| [FillType](../../aspose.slides/ilinefillformat/filltype) { get; set; } | 塗りタイプを取得または設定します。読み書き [`FillType`](../filltype)。 |
-| [GradientFormat](../../aspose.slides/ilinefillformat/gradientformat) { get; } | グラデーション塗り形式を取得します。読み取り専用 [`IGradientFormat`](../igradientformat)。 |
-| [PatternFormat](../../aspose.slides/ilinefillformat/patternformat) { get; } | パターン塗り形式を取得します。読み取り専用 [`IPatternFormat`](../ipatternformat)。 |
-| [RotateWithShape](../../aspose.slides/ilinefillformat/rotatewithshape) { get; set; } | 塗りがシェイプとともに回転すべきかを決定します。読み書き [`NullableBool`](../nullablebool)。 |
-| [SolidFillColor](../../aspose.slides/ilinefillformat/solidfillcolor) { get; } | 単色塗りの色を取得します。読み取り専用 [`IColorFormat`](../icolorformat)。 |
+| [AsIFillParamSource](../../aspose.slides/ilinefillformat/asifillparamsource) { get; } | ベースのIFillParamSourceインターフェイスを取得できます。読み取り専用 [`IFillParamSource`](../ifillparamsource)。 |
+| [FillType](../../aspose.slides/ilinefillformat/filltype) { get; set; } | 塗りつぶしタイプを取得または設定します。読み書き [`FillType`](../filltype)。 |
+| [GradientFormat](../../aspose.slides/ilinefillformat/gradientformat) { get; } | グラデーション塗りつぶし形式を返します。読み取り専用 [`IGradientFormat`](../igradientformat)。 |
+| [PatternFormat](../../aspose.slides/ilinefillformat/patternformat) { get; } | パターン塗りつぶし形式を返します。読み取り専用 [`IPatternFormat`](../ipatternformat)。 |
+| [RotateWithShape](../../aspose.slides/ilinefillformat/rotatewithshape) { get; set; } | シェイプに合わせて塗りつぶしを回転させるかどうかを決定します。読み書き [`NullableBool`](../nullablebool)。 |
+| [SolidFillColor](../../aspose.slides/ilinefillformat/solidfillcolor) { get; } | ソリッド塗りつぶしの色を返します。読み取り専用 [`IColorFormat`](../icolorformat)。 |
 
-### 関連項目
+### 参照
 
 * インターフェイス [IFillParamSource](../ifillparamsource)
 * 名前空間 [Aspose.Slides](../../aspose.slides)

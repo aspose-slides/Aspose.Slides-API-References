@@ -1,14 +1,14 @@
 ---
 title: MasterHandoutSlideHeaderFooterManager
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar en manager som hanterar beteendet för master-handout-bildens platshållare, inklusive huvud-platshållaren.
+description: Representerar en manager som håller beteendet för master-handout-slide-platshållare inklusive rubrik-platshållare.
 type: docs
-weight: 7990
+weight: 8010
 url: /sv/aspose.slides/masterhandoutslideheaderfootermanager/
 ---
 ## MasterHandoutSlideHeaderFooterManager klass
 
-Representerar en manager som hanterar beteendet för master-handout-bildens platshållare, inklusive huvud-platshållaren.
+Representerar en manager som håller beteendet för master-handout-slide-platshållare, inklusive rubrik-platshållaren.
 
 ```csharp
 public class MasterHandoutSlideHeaderFooterManager : BaseHandoutNotesSlideHeaderFooterManager, 
@@ -21,20 +21,20 @@ public class MasterHandoutSlideHeaderFooterManager : BaseHandoutNotesSlideHeader
 | --- | --- |
 | [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | Hämtar värdet som indikerar att en datum-tid-platshållare finns. ReadBoolean. |
 | [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | Hämtar värdet som indikerar att en sidfot-platshållare finns. Read Boolean. |
-| [IsHeaderVisible](../../aspose.slides/basehandoutnotesslideheaderfootermanager/isheadervisible) { get; } | Hämtar värdet som indikerar att en huvud-platshållare finns. Read Boolean. |
-| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | Hämtar värdet som indikerar att en sidnumrering-platshållare finns. ReadBoolean. |
+| [IsHeaderVisible](../../aspose.slides/basehandoutnotesslideheaderfootermanager/isheadervisible) { get; } | Hämtar värdet som indikerar att en rubrik-platshållare finns. Read Boolean. |
+| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | Hämtar värdet som indikerar att en sidnummer-platshållare finns. ReadBoolean. |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
-| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | Ställer in text för bildens datum-tid-platshållare. |
-| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | Ändrar synlighet för bildens datum-tid-platshållare. |
-| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | Ställer in text för bildens sidfot-platshållare. |
-| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | Ändrar synlighet för bildens sidfot-platshållare. |
-| [SetHeaderText](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadertext)(string) | Ställer in text för bildens huvud-platshållare. |
-| [SetHeaderVisibility](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadervisibility)(bool) | Ändrar synlighet för bildens huvud-platshållare. |
-| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | Ändrar synlighet för bildens sidnumrering-platshållare. |
+| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | Sätter text till bildens datum-tid-platshållare. |
+| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | Ändrar bildens datum-tid-platshållares synlighet. |
+| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | Sätter text till bildens sidfot-platshållare. |
+| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | Ändrar bildens sidfot-platshållares synlighet. |
+| [SetHeaderText](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadertext)(string) | Sätter text till bildens rubrik-platshållare. |
+| [SetHeaderVisibility](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadervisibility)(bool) | Ändrar bildens rubrik-platshållares synlighet. |
+| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | Ändrar bildens sidnummer-platshållares synlighet. |
 
 ### Se även
 

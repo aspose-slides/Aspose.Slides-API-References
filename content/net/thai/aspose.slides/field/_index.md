@@ -1,14 +1,14 @@
 ---
 title: Field
-second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
-description: แสดงถึงฟิลด์.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: เป็นตัวแทนของฟิลด์.
 type: docs
-weight: 4750
+weight: 4770
 url: /th/aspose.slides/field/
 ---
 ## Field คลาส
 
-แสดงถึงฟิลด์
+เป็นตัวแทนของฟิลด์
 
 ```csharp
 public sealed class Field : DomObject<Portion>, IField
@@ -18,7 +18,7 @@ public sealed class Field : DomObject<Portion>, IField
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Type](../../aspose.slides/field/type) { get; set; } | คืนหรือกำหนดประเภทของฟิลด์. อ่าน/เขียน [`IFieldType`](../ifieldtype). |
+| [Type](../../aspose.slides/field/type) { get; set; } | ส่งค่ากลับหรือกำหนดประเภทของฟิลด์. อ่าน/เขียน [`IFieldType`](../ifieldtype). |
 
 ### ดูเพิ่มเติม
 

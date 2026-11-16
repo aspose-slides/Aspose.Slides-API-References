@@ -3,7 +3,7 @@ title: ILineFormat
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Stelt het formaat van een lijn voor.
 type: docs
-weight: 6310
+weight: 6330
 url: /nl/aspose.slides/ilineformat/
 ---
 ## ILineFormat interface
@@ -16,30 +16,30 @@ public interface ILineFormat : ILineParamSource
 
 ## Eigenschappen
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
 | [Alignment](../../aspose.slides/ilineformat/alignment) { get; set; } | Geeft de lijnuitlijning terug of stelt deze in. Lezen/schrijven [`LineAlignment`](../linealignment). |
-| [AsILineParamSource](../../aspose.slides/ilineformat/asilineparamsource) { get; } | Staat toe de basis ILineParamSource interface op te halen. Alleen-lezen [`ILineParamSource`](../ilineparamsource). |
-| [BeginArrowheadLength](../../aspose.slides/ilineformat/beginarrowheadlength) { get; set; } | Geeft de pijlpuntlengte aan het begin van een lijn terug of stelt deze in. Lezen/schrijven [`LineArrowheadLength`](../linearrowheadlength). |
-| [BeginArrowheadStyle](../../aspose.slides/ilineformat/beginarrowheadstyle) { get; set; } | Geeft de pijlpuntstijl aan het begin van een lijn terug of stelt deze in. Lezen/schrijven [`LineArrowheadStyle`](../linearrowheadstyle). |
-| [BeginArrowheadWidth](../../aspose.slides/ilineformat/beginarrowheadwidth) { get; set; } | Geeft de pijlpuntbreedte aan het begin van een lijn terug of stelt deze in. Lezen/schrijven [`LineArrowheadWidth`](../linearrowheadwidth). |
-| [CapStyle](../../aspose.slides/ilineformat/capstyle) { get; set; } | Geeft de lijnkapstijl terug of stelt deze in. Lezen/schrijven [`LineCapStyle`](../linecapstyle). |
+| [AsILineParamSource](../../aspose.slides/ilineformat/asilineparamsource) { get; } | Staat toe de basis-ILineParamSource interface op te halen. Alleen-lezen [`ILineParamSource`](../ilineparamsource). |
+| [BeginArrowheadLength](../../aspose.slides/ilineformat/beginarrowheadlength) { get; set; } | Geeft de lengte van de pijlpunt aan het begin van een lijn terug of stelt deze in. Lezen/schrijven [`LineArrowheadLength`](../linearrowheadlength). |
+| [BeginArrowheadStyle](../../aspose.slides/ilineformat/beginarrowheadstyle) { get; set; } | Geeft de stijl van de pijlpunt aan het begin van een lijn terug of stelt deze in. Lezen/schrijven [`LineArrowheadStyle`](../linearrowheadstyle). |
+| [BeginArrowheadWidth](../../aspose.slides/ilineformat/beginarrowheadwidth) { get; set; } | Geeft de breedte van de pijlpunt aan het begin van een lijn terug of stelt deze in. Lezen/schrijven [`LineArrowheadWidth`](../linearrowheadwidth). |
+| [CapStyle](../../aspose.slides/ilineformat/capstyle) { get; set; } | Geeft de stijl van het lijnuiteinde terug of stelt deze in. Lezen/schrijven [`LineCapStyle`](../linecapstyle). |
 | [CustomDashPattern](../../aspose.slides/ilineformat/customdashpattern) { get; set; } | Geeft het aangepaste streeppatroon terug of stelt dit in. Lezen/schrijven Single[]. |
-| [DashStyle](../../aspose.slides/ilineformat/dashstyle) { get; set; } | Geeft de lijnstreeppatroonstijl terug of stelt deze in. Lezen/schrijven [`LineDashStyle`](../linedashstyle). |
-| [EndArrowheadLength](../../aspose.slides/ilineformat/endarrowheadlength) { get; set; } | Geeft de pijlpuntlengte aan het einde van een lijn terug of stelt deze in. Lezen/schrijven [`LineArrowheadLength`](../linearrowheadlength). |
-| [EndArrowheadStyle](../../aspose.slides/ilineformat/endarrowheadstyle) { get; set; } | Geeft de pijlpuntstijl aan het einde van een lijn terug of stelt deze in. Lezen/schrijven [`LineArrowheadStyle`](../linearrowheadstyle). |
-| [EndArrowheadWidth](../../aspose.slides/ilineformat/endarrowheadwidth) { get; set; } | Geeft de pijlpuntbreedte aan het einde van een lijn terug of stelt deze in. Lezen/schrijven [`LineArrowheadWidth`](../linearrowheadwidth). |
-| [FillFormat](../../aspose.slides/ilineformat/fillformat) { get; } | Geeft het vullingsformaat van een lijn terug. Alleen-lezen [`ILineFillFormat`](../ilinefillformat). |
-| [IsFormatNotDefined](../../aspose.slides/ilineformat/isformatnotdefined) { get; } | Geeft true terug als het lijnformaat niet gedefinieerd is (net aangemaakt, standaard). Alleen-lezen Boolean. |
-| [JoinStyle](../../aspose.slides/ilineformat/joinstyle) { get; set; } | Geeft de stijl voor het samenvoegen van lijnen terug of stelt deze in. Lezen/schrijven [`LineJoinStyle`](../linejoinstyle). |
-| [MiterLimit](../../aspose.slides/ilineformat/miterlimit) { get; set; } | Geeft de versteklimiet van een lijn terug of stelt deze in. Lezen/schrijven Single. |
+| [DashStyle](../../aspose.slides/ilineformat/dashstyle) { get; set; } | Geeft de lijnstreepstijl terug of stelt deze in. Lezen/schrijven [`LineDashStyle`](../linedashstyle). |
+| [EndArrowheadLength](../../aspose.slides/ilineformat/endarrowheadlength) { get; set; } | Geeft de lengte van de pijlpunt aan het einde van een lijn terug of stelt deze in. Lezen/schrijven [`LineArrowheadLength`](../linearrowheadlength). |
+| [EndArrowheadStyle](../../aspose.slides/ilineformat/endarrowheadstyle) { get; set; } | Geeft de stijl van de pijlpunt aan het einde van een lijn terug of stelt deze in. Lezen/schrijven [`LineArrowheadStyle`](../linearrowheadstyle). |
+| [EndArrowheadWidth](../../aspose.slides/ilineformat/endarrowheadwidth) { get; set; } | Geeft de breedte van de pijlpunt aan het einde van een lijn terug of stelt deze in. Lezen/schrijven [`LineArrowheadWidth`](../linearrowheadwidth). |
+| [FillFormat](../../aspose.slides/ilineformat/fillformat) { get; } | Geeft het vulformaat van een lijn terug. Alleen-lezen [`ILineFillFormat`](../ilinefillformat). |
+| [IsFormatNotDefined](../../aspose.slides/ilineformat/isformatnotdefined) { get; } | Geeft true terug als het lijnformaat niet is gedefinieerd (zojuist aangemaakt, standaard). Alleen-lezen Boolean. |
+| [JoinStyle](../../aspose.slides/ilineformat/joinstyle) { get; set; } | Geeft de koppelingsstijl van lijnen terug of stelt deze in. Lezen/schrijven [`LineJoinStyle`](../linejoinstyle). |
+| [MiterLimit](../../aspose.slides/ilineformat/miterlimit) { get; set; } | Geeft de miter limiet van een lijn terug of stelt deze in. Lezen/schrijven Single. |
 | [SketchFormat](../../aspose.slides/ilineformat/sketchformat) { get; } | Geeft het schetsformaat van een lijn terug. Alleen-lezen [`ISketchFormat`](../isketchformat). |
 | [Style](../../aspose.slides/ilineformat/style) { get; set; } | Geeft de lijnstijl terug of stelt deze in. Lezen/schrijven [`LineStyle`](../linestyle). |
 | [Width](../../aspose.slides/ilineformat/width) { get; set; } | Geeft de breedte van een lijn terug of stelt deze in. Lezen/schrijven Double. |
 
 ## Methoden
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
 | [Equals](../../aspose.slides/ilineformat/equals)(ILineFormat) | Bepaalt of de twee LineFormat-instanties gelijk zijn. |
 | [GetEffective](../../aspose.slides/ilineformat/geteffective)() | Haalt de effectieve lijnopmaakgegevens op met de toegepaste overerving. |
@@ -48,6 +48,6 @@ public interface ILineFormat : ILineParamSource
 
 * interface [ILineParamSource](../ilineparamsource)
 * naamruimte [Aspose.Slides](../../aspose.slides)
-* assemblage [Aspose.Slides](../../)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

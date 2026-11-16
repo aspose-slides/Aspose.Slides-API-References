@@ -1,9 +1,9 @@
 ---
 title: Label
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
+second_title: Aspose.Sildes के लिए .NET API रेफ़रेंस
 description: चार्ट डेटा पॉइंट का लेबल दर्शाता है। केवल पढ़ने योग्य IDataLabelaspose.slides.charts/idatalabel.
 type: docs
-weight: 110
+weight: 150
 url: /hi/aspose.slides.charts/ichartdatapoint/label/
 ---
 ## IChartDataPoint.Label प्रॉपर्टी
@@ -14,7 +14,7 @@ url: /hi/aspose.slides.charts/ichartdatapoint/label/
 public IDataLabel Label { get; }
 ```
 
-### संबंधित देखें
+### देखें भी
 
 * इंटरफ़ेस [IDataLabel](../../idatalabel)
 * इंटरफ़ेस [IChartDataPoint](../../ichartdatapoint)

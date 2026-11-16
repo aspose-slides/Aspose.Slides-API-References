@@ -1,14 +1,14 @@
 ---
 title: IBackgroundEffectiveData
-second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Đối tượng bất biến chứa các thuộc tính nền hiệu quả.
+second_title: Aspose.Sildes for .NET Tham chiếu API
+description: Đối tượng bất biến chứa các thuộc tính nền thực tế.
 type: docs
-weight: 5280
+weight: 5300
 url: /vi/aspose.slides/ibackgroundeffectivedata/
 ---
 ## IBackgroundEffectiveData giao diện
 
-Đối tượng bất biến chứa các thuộc tính nền hiệu quả.
+Đối tượng bất biến chứa các thuộc tính nền thực tế.
 
 ```csharp
 public interface IBackgroundEffectiveData : IFillParamSource
@@ -19,12 +19,12 @@ public interface IBackgroundEffectiveData : IFillParamSource
 | Tên | Mô tả |
 | --- | --- |
 | [AsIFillParamSource](../../aspose.slides/ibackgroundeffectivedata/asifillparamsource) { get; } | Trả về giao diện IFillParamSource. |
-| [EffectFormat](../../aspose.slides/ibackgroundeffectivedata/effectformat) { get; } | Trả về định dạng hiệu ứng hiệu quả. Chỉ đọc [`IEffectFormatEffectiveData`](../ieffectformateffectivedata). |
-| [FillFormat](../../aspose.slides/ibackgroundeffectivedata/fillformat) { get; } | Trả về định dạng tô màu hiệu quả. Chỉ đọc [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
+| [EffectFormat](../../aspose.slides/ibackgroundeffectivedata/effectformat) { get; } | Trả về định dạng hiệu ứng thực tế. Chỉ đọc [`IEffectFormatEffectiveData`](../ieffectformateffectivedata). |
+| [FillFormat](../../aspose.slides/ibackgroundeffectivedata/fillformat) { get; } | Trả về định dạng tô thực tế. Chỉ đọc [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
 
 ### Ghi chú
 
-Giao diện này được sử dụng cùng với giao diện [`IBackground`](../ibackground) để trả về các giá trị định dạng hiệu quả với tính kế thừa được áp dụng.
+Giao diện này được sử dụng cùng với giao diện [`IBackground`](../ibackground) để trả về các giá trị định dạng thực tế với kế thừa được áp dụng.
 
 ### Xem thêm
 

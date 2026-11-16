@@ -1,14 +1,14 @@
 ---
 title: HtmlGenerator
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: HTML 생성기.
+second_title: Aspose.Sildes for .NET API 참조
+description: Html 생성기.
 type: docs
-weight: 3880
+weight: 3900
 url: /ko/aspose.slides.export/htmlgenerator/
 ---
 ## HtmlGenerator 클래스
 
-HTML 생성기.
+Html 생성기.
 
 ```csharp
 public sealed class HtmlGenerator : IHtmlGenerator
@@ -16,10 +16,10 @@ public sealed class HtmlGenerator : IHtmlGenerator
 
 ## 속성
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
-| [NextSlideIndex](../../aspose.slides.export/htmlgenerator/nextslideindex) { get; } | 현재 슬라이드 뒤에 렌더링될 슬라이드의 인덱스를 반환합니다. 마지막 슬라이드를 현재 렌더링 중이면 -1을 반환합니다. 읽기 전용 Int32. |
-| [PreviousSlideIndex](../../aspose.slides.export/htmlgenerator/previousslideindex) { get; } | 이전에 렌더링된 슬라이드의 인덱스를 반환합니다. 첫 번째 슬라이드가 렌더링 중이면 -1을 반환합니다. 읽기 전용 Int32. |
+| [NextSlideIndex](../../aspose.slides.export/htmlgenerator/nextslideindex) { get; } | 현재 슬라이드 다음에 렌더링될 슬라이드의 인덱스를 반환합니다. 마지막 슬라이드를 현재 렌더링하고 있는 경우 -1을 반환합니다. 읽기 전용 Int32. |
+| [PreviousSlideIndex](../../aspose.slides.export/htmlgenerator/previousslideindex) { get; } | 이전에 렌더링된 슬라이드의 인덱스를 반환합니다. 첫 번째 슬라이드가 렌더링 중인 경우 -1을 반환합니다. 읽기 전용 Int32. |
 | [SlideImageSize](../../aspose.slides.export/htmlgenerator/slideimagesize) { get; } | 슬라이드 이미지 크기를 반환합니다. 읽기 전용 SizeF. |
 | [SlideImageSizeUnit](../../aspose.slides.export/htmlgenerator/slideimagesizeunit) { get; } | 슬라이드 이미지 크기가 지정되는 단위를 반환합니다. 읽기 전용 [`SvgCoordinateUnit`](../svgcoordinateunit). |
 | [SlideImageSizeUnitCode](../../aspose.slides.export/htmlgenerator/slideimagesizeunitcode) { get; } | 슬라이드 이미지 크기가 지정되는 단위의 CSS 코드를 반환합니다. 읽기 전용 String. |
@@ -27,17 +27,17 @@ public sealed class HtmlGenerator : IHtmlGenerator
 
 ## 메서드
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
-| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue)(char[]) | 속성 값을 따옴표로 감싸고 HTML 파일에 추가합니다. |
-| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue_2)(string) | 속성 값을 따옴표로 감싸고 HTML 파일에 추가합니다. |
-| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue_1)(char[], int, int) | 속성 값을 따옴표로 감싸고 HTML 파일에 추가합니다. |
-| [AddHtml](../../aspose.slides.export/htmlgenerator/addhtml#addhtml)(char[]) | 형식이 지정된 HTML 텍스트를 추가합니다. |
-| [AddHtml](../../aspose.slides.export/htmlgenerator/addhtml#addhtml_2)(string) | 형식이 지정된 HTML 텍스트를 추가합니다. |
-| [AddHtml](../../aspose.slides.export/htmlgenerator/addhtml#addhtml_1)(char[], int, int) | 형식이 지정된 HTML 텍스트를 추가합니다. |
-| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext)(char[]) | 일반 텍스트를 HTML 파일에 추가하며, 특수 문자를 HTML 엔터티로 교체합니다. 줄바꿈 및 공백은 교체되지 않습니다. |
-| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext_2)(string) | 일반 텍스트를 HTML 파일에 추가하며, 특수 문자를 HTML 엔터티로 교체합니다. 줄바꿈 및 공백은 교체되지 않습니다. |
-| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext_1)(char[], int, int) | 일반 텍스트를 HTML 파일에 추가하며, 특수 문자를 HTML 엔터티로 교체합니다. 줄바꿈 및 공백은 교체되지 않습니다. |
+| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue)(char[]) | 속성 값을 인용하고 이를 html 파일에 추가합니다. |
+| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue_2)(string) | 속성 값을 인용하고 이를 html 파일에 추가합니다. |
+| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue_1)(char[], int, int) | 속성 값을 인용하고 이를 html 파일에 추가합니다. |
+| [AddHtml](../../aspose.slides.export/htmlgenerator/addhtml#addhtml)(char[]) | 서식이 지정된 HTML 텍스트를 추가합니다. |
+| [AddHtml](../../aspose.slides.export/htmlgenerator/addhtml#addhtml_2)(string) | 서식이 지정된 HTML 텍스트를 추가합니다. |
+| [AddHtml](../../aspose.slides.export/htmlgenerator/addhtml#addhtml_1)(char[], int, int) | 서식이 지정된 HTML 텍스트를 추가합니다. |
+| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext)(char[]) | 특수 문자를 html 엔티티로 교체하면서 일반 텍스트를 html 파일에 추가합니다. 줄 바꿈 및 공백은 교체되지 않습니다. |
+| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext_2)(string) | 특수 문자를 html 엔티티로 교체하면서 일반 텍스트를 html 파일에 추가합니다. 줄 바꿈 및 공백은 교체되지 않습니다. |
+| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext_1)(char[], int, int) | 특수 문자를 html 엔티티로 교체하면서 일반 텍스트를 html 파일에 추가합니다. 줄 바꿈 및 공백은 교체되지 않습니다. |
 
 ### 참조
 

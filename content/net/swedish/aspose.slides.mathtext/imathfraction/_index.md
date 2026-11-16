@@ -1,14 +1,14 @@
 ---
 title: IMathFraction
 second_title: Aspose.Sildes för .NET API-referens
-description: Specificerar bråkobjektet som består av en täljare och en nämnare separerade av ett bråkstreck. Bråkstrecket kan vara horisontellt eller diagonal beroende på bråkegenskaperna. Bråkobjektet används även för att representera stapelfunktionen som placerar ett element ovanför ett annat utan bråkstreck.
+description: Specificerar bråkobjektet bestående av en täljare och en nämnare separerade av en bråklinje. Bråklinjen kan vara horisontell eller diagonal beroende på bråkegenskaperna. Bråkobjektet används också för att representera stapelfunktionen som placerar ett element ovanpå ett annat utan bråklinje.
 type: docs
-weight: 8250
+weight: 8270
 url: /sv/aspose.slides.mathtext/imathfraction/
 ---
 ## IMathFraction gränssnitt
 
-Specificerar bråkobjektet, bestående av en täljare och en nämnare separerade av ett bråkstreck. Bråkstrecket kan vara horisontellt eller diagonalt, beroende på bråkegenskaperna. Bråkobjektet används också för att representera stapelfunktionen, som placerar ett element ovanför ett annat, utan bråkstreck.
+Specificerar bråkobjektet, bestående av en täljare och en nämnare separerade av en bråklinje. Bråklinjen kan vara horisontell eller diagonal, beroende på bråkegenskaperna. Bråkobjektet används också för att representera stapelfunktionen, som placerar ett element ovanpå ett annat, utan bråklinje.
 
 ```csharp
 public interface IMathFraction : IMathElement
@@ -18,9 +18,9 @@ public interface IMathFraction : IMathElement
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathfraction/asimathelement) { get; } | Tillåter att hämta bas IMathElement-gränssnitt [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathfraction/asimathelement) { get; } | Tillåter att hämta bas-IMathElement-gränssnittet [`IMathElement`](../imathelement) |
 | [Denominator](../../aspose.slides.mathtext/imathfraction/denominator) { get; } | Nämnare |
-| [FractionType](../../aspose.slides.mathtext/imathfraction/fractiontype) { get; set; } | Fraktionstyp Standard: Bar |
+| [FractionType](../../aspose.slides.mathtext/imathfraction/fractiontype) { get; set; } | Bråktyp Standard: Bar |
 | [Numerator](../../aspose.slides.mathtext/imathfraction/numerator) { get; } | Täljare |
 
 ### Exempel
@@ -33,7 +33,7 @@ IMathFraction mathFraction = new MathematicalText("x").Divide("y");
 IMathFraction mathFraction2 = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes.Linear);
 ```
 
-### Se även
+### Se också
 
 * gränssnitt [IMathElement](../imathelement)
 * namnrymd [Aspose.Slides.MathText](../../aspose.slides.mathtext)

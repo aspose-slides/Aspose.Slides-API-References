@@ -1,14 +1,14 @@
 ---
 title: Storage
-second_title: Aspose.Sildes για .NET API Reference
-description: Αναπαριστά μια προσωρινή αποθήκευση δεδομένων για WebDocument./webdocument.
+second_title: Aspose.Sildes για .NET Αναφορά API
+description: Αντιπροσωπεύει μια προσωρινή αποθήκευση δεδομένων για WebDocument./webdocument.
 type: docs
-weight: 4660
+weight: 4680
 url: /el/aspose.slides.export.web/storage/
 ---
 ## Κλάση αποθήκευσης
 
-Αναπαριστά προσωρινή αποθήκευση δεδομένων για [`WebDocument`](../webdocument).
+Αντιπροσωπεύει μια προσωρινή αποθήκευση δεδομένων για [`WebDocument`](../webdocument).
 
 ```csharp
 public sealed class Storage
@@ -25,7 +25,7 @@ public sealed class Storage
 | Όνομα | Περιγραφή |
 | --- | --- |
 | [ContainsKey](../../aspose.slides.export.web/storage/containskey)(string) | Καθορίζει αν η αποθήκευση περιέχει ένα στοιχείο με το συγκεκριμένο κλειδί. |
-| [Get&lt;TValue&gt;](../../aspose.slides.export.web/storage/get)(string) | Λαμβάνει τα δεδομένα από την αποθήκευση. |
+| [Get&lt;TValue&gt;](../../aspose.slides.export.web/storage/get)(string) | Αποκτά τα δεδομένα από την αποθήκευση. |
 | [Put&lt;TValue&gt;](../../aspose.slides.export.web/storage/put)(string, TValue) | Τοποθετεί την τιμή στην αποθήκευση. |
 
 ### Δείτε επίσης

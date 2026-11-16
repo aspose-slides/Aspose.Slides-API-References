@@ -1,14 +1,14 @@
 ---
 title: IUpDownBarsManager
 second_title: Aspose.Sildes için .NET API Referansı
-description: Line- veya Stock-grafiğin yukarı/aşağı çubuklarına erişim sağlar.
+description: Çizgi veya Hisse senedi grafiğinin yukarı/aşağı çubuklarına erişim sağlar.
 type: docs
-weight: 2260
+weight: 2280
 url: /tr/aspose.slides.charts/iupdownbarsmanager/
 ---
-## IUpDownBarsManager arayüzü
+## IUpDownBarsManager arabirimi
 
-Line- veya Stock-grafiğin yukarı/aşağı çubuklarına erişim sağlar.
+Çizgi veya Hisse senedi grafiğinin yukarı/aşağı çubuklarına erişim sağlar.
 
 ```csharp
 public interface IUpDownBarsManager
@@ -18,12 +18,12 @@ public interface IUpDownBarsManager
 
 | Ad | Açıklama |
 | --- | --- |
-| [DownBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/downbarsformat) { get; } | İniş çubuklarının formatını döndürür. Yalnızca okuma [`IFormat`](../iformat). |
-| [GapWidth](../../aspose.slides.charts/iupdownbarsmanager/gapwidth) { get; set; } | Boşluk genişliğini döndürür veya ayarlar. Okunabilir/yazılabilir Int32. |
-| [HasUpDownBars](../../aspose.slides.charts/iupdownbarsmanager/hasupdownbars) { get; set; } | Grafiğin yukarı/aşağı çubuklara sahip olup olmadığını belirler. Okunabilir/yazılabilir Boolean. |
-| [UpBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/upbarsformat) { get; } | Yukarı çubuklarının formatını döndürür. Yalnızca okuma [`IFormat`](../iformat). |
+| [DownBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/downbarsformat) { get; } | İniş çubuklarının biçimini döndürür. Yalnızca okuma [`IFormat`](../iformat). |
+| [GapWidth](../../aspose.slides.charts/iupdownbarsmanager/gapwidth) { get; set; } | Aralık genişliğini döndürür veya ayarlar. Okunabilir/yazılabilir Int32. |
+| [HasUpDownBars](../../aspose.slides.charts/iupdownbarsmanager/hasupdownbars) { get; set; } | Grafiğin yukarı/aşağı çubukları olup olmadığını belirler. Okunabilir/yazılabilir Boolean. |
+| [UpBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/upbarsformat) { get; } | Yukarı çubuklarının biçimini döndürür. Yalnızca okuma [`IFormat`](../iformat). |
 
-### Ayrıca Bakınız
+### İlgili Bağlantılar
 
 * ad alanı [Aspose.Slides.Charts](../../aspose.slides.charts)
 * derleme [Aspose.Slides](../../)

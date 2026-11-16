@@ -1,14 +1,14 @@
 ---
 title: IPresetShadowEffectiveData
 second_title: Aspose.Sildes für .NET API Referenz
-description: Unveränderliches Objekt, das einen voreingestellten Schatteneffekt darstellt.
+description: Unveränderliches Objekt, das einen Preset Shadow Effekt darstellt.
 type: docs
-weight: 3490
-url: /de/aspose.slides.effects/ipresetshadoweffectivedata/
+weight: 3510
+url: /de/aspose.slides.effects/ippresetshadoweffectivedata/
 ---
 ## IPresetShadowEffectiveData Schnittstelle
 
-Unveränderliches Objekt, das einen voreingestellten Schatteneffekt darstellt.
+Unveränderliches Objekt, das einen Preset Shadow-Effekt darstellt.
 
 ```csharp
 public interface IPresetShadowEffectiveData : IEffectEffectiveData
@@ -18,9 +18,9 @@ public interface IPresetShadowEffectiveData : IEffectEffectiveData
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ipresetshadoweffectivedata/asieffecteffectivedata) { get; } | Ermöglicht das Abrufen der Basis-IEffectEffectiveData-Schnittstelle. Nur lesbar [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ipresetshadoweffectivedata/asieffecteffectivedata) { get; } | Ermöglicht das Abrufen der Basisschnittstelle IEffectEffectiveData. Nur lesbar [`IEffectEffectiveData`](../ieffecteffectivedata). |
 | [Direction](../../aspose.slides.effects/ipresetshadoweffectivedata/direction) { get; } | Richtung des Schattens. Nur lesbar Single. |
-| [Distance](../../aspose.slides.effects/ipresetshadoweffectivedata/distance) { get; } | Abstand des Schattens. Nur lesbar Double. |
+| [Distance](../../aspose.slides.effects/ipresetshadoweffectivedata/distance) { get; } | Entfernung des Schattens. Nur lesbar Double. |
 | [Preset](../../aspose.slides.effects/ipresetshadoweffectivedata/preset) { get; } | Voreinstellung. Nur lesbar [`PresetShadowType`](../../aspose.slides/presetshadowtype). |
 | [ShadowColor](../../aspose.slides.effects/ipresetshadoweffectivedata/shadowcolor) { get; } | Farbe des Schattens. Nur lesbar Color. |
 

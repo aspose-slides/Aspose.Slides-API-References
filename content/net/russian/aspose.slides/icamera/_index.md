@@ -1,9 +1,9 @@
 ---
 title: ICamera
-second_title: Aspose.Sildes для .NET справочник API
+second_title: Aspose.Sildes для .NET Справочник API
 description: Представляет камеру.
 type: docs
-weight: 5410
+weight: 5430
 url: /ru/aspose.slides/icamera/
 ---
 ## ICamera интерфейс
@@ -18,18 +18,18 @@ public interface ICamera
 
 | Имя | Описание |
 | --- | --- |
-| [CameraType](../../aspose.slides/icamera/cameratype) { get; set; } | Тип камеры Чтение/запись [`CameraPresetType`](../camerapresettype). |
-| [FieldOfViewAngle](../../aspose.slides/icamera/fieldofviewangle) { get; set; } | Угол обзора камеры (0-180 deg, поле зрения) Чтение/запись Single. |
-| [Zoom](../../aspose.slides/icamera/zoom) { get; set; } | Увеличение камеры (положительное значение в процентах) Чтение/запись Single. |
+| [CameraType](../../aspose.slides/icamera/cameratype) { get; set; } | Тип камеры Read/write [`CameraPresetType`](../camerapresettype). |
+| [FieldOfViewAngle](../../aspose.slides/icamera/fieldofviewangle) { get; set; } | Угол обзора камеры (0-180 градусов, поле зрения) Read/write Single. |
+| [Zoom](../../aspose.slides/icamera/zoom) { get; set; } | Масштаб камеры (положительное значение в процентах) Read/write Single. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [GetRotation](../../aspose.slides/icamera/getrotation)() | Вращение определяется с помощью координаты широты, координаты долготы и оборота вокруг оси как координат широты и долготы. первый элемент в возвращаемом массиве — широта, второй — долгота, третий — оборот. Возвращает null, если вращение не определено. |
-| [SetRotation](../../aspose.slides/icamera/setrotation)(float, float, float) | Вращение определяется с помощью координаты широты, координаты долготы и оборота вокруг оси как координат широты и долготы. Если какое-либо значение координаты равно float.NaN, всё вращение считается неопределённым. |
+| [GetRotation](../../aspose.slides/icamera/getrotation)() | Вращение определяется с помощью координаты широты, координаты долготы и вращения вокруг оси как координат широты и долготы. первый элемент в возвращаемом массиве — широта, второй — долгота, третий — вращение. Возвращает null, если вращение не определено. |
+| [SetRotation](../../aspose.slides/icamera/setrotation)(float, float, float) | Вращение определяется с помощью координаты широты, координаты долготы и вращения вокруг оси как координат широты и долготы. Если значение любой координаты равно float.NaN, всё вращение считается неопределённым. |
 
-### Смотрите также
+### См. также
 
 * пространство имён [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

@@ -1,9 +1,9 @@
 ---
 title: SvgShape
-second_title: Aspose.Sildes للـ .NET مرجع API
+second_title: Aspose.Sildes لمرجع API لـ .NET
 description: يمثل خيارات الشكل SVG.
 type: docs
-weight: 4510
+weight: 4530
 url: /ar/aspose.slides.export/svgshape/
 ---
 ## SvgShape فئة

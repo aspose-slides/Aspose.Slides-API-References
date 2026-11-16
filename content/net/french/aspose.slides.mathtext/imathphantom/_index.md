@@ -1,14 +1,14 @@
 ---
 title: IMathPhantom
-second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Représente un objet mathématique fantôme ltmphantgt qui affecte la mise en page de son élément enfant sans nécessairement l'afficher. Un fantôme peut masquer son expression de base tout en préservant sa largeur, sa hauteur ou sa profondeur afin d'aligner les formules ou de réserver de l'espace. La visibilité et le comportement géométrique sont contrôlés par des propriétés telles que Show ZeroWid ZeroAsc ZeroDesc et Transp.
+second_title: Référence API Aspose.Sildes pour .NET
+description: Représente un objet mathématique fantôme ltmphantgt qui affecte la mise en page de son élément enfant sans nécessairement l'afficher. Un fantôme peut masquer son expression de base tout en préservant sa largeur, sa hauteur ou sa profondeur afin d'aligner les formules ou de réserver de l'espace. La visibilité et le comportement géométrique sont contrôlés par des propriétés telles que Show, ZeroWid, ZeroAsc, ZeroDesc et Transp.
 type: docs
-weight: 8410
+weight: 8430
 url: /fr/aspose.slides.mathtext/imathphantom/
 ---
 ## IMathPhantom interface
 
-Représente un objet mathématique fantôme (&lt;m:phant&gt;) qui affecte la mise en page de son élément enfant sans nécessairement l'afficher. Un fantôme peut masquer son expression de base tout en préservant sa largeur, sa hauteur ou sa profondeur afin d'aligner les formules ou de réserver de l'espace. La visibilité et le comportement géométrique sont contrôlés par des propriétés telles que Show, ZeroWid, ZeroAsc, ZeroDesc et Transp.
+Représente un objet mathématique fantôme (<m:phant>) qui affecte la mise en page de son élément enfant sans nécessairement l'afficher. Un fantôme peut masquer son expression de base tout en préservant sa largeur, sa hauteur ou sa profondeur afin d'aligner les formules ou de réserver de l'espace. La visibilité et le comportement géométrique sont contrôlés par des propriétés telles que Show, ZeroWid, ZeroAsc, ZeroDesc et Transp.
 
 ```csharp
 public interface IMathPhantom : IMathElement
@@ -21,9 +21,9 @@ public interface IMathPhantom : IMathElement
 | [Base](../../aspose.slides.mathtext/imathphantom/base) { get; } | Argument de base |
 | [Show](../../aspose.slides.mathtext/imathphantom/show) { get; set; } | Obtient ou définit une valeur indiquant si l'élément de base est affiché. |
 | [Transp](../../aspose.slides.mathtext/imathphantom/transp) { get; set; } | Obtient ou définit une valeur indiquant si le fantôme est transparent pour les règles d'espacement basées sur les classes. |
-| [ZeroAsc](../../aspose.slides.mathtext/imathphantom/zeroasc) { get; set; } | Obtient ou définit une valeur indiquant si la montée (hauteur au-dessus de la ligne de base) de l'élément de base doit être traitée comme zéro. |
-| [ZeroDesc](../../aspose.slides.mathtext/imathphantom/zerodesc) { get; set; } | Obtient ou définit une valeur indiquant si la descente (profondeur sous la ligne de base) de l'élément de base doit être traitée comme zéro. |
-| [ZeroWidth](../../aspose.slides.mathtext/imathphantom/zerowidth) { get; set; } | Obtient ou définit une valeur indiquant si la largeur de l'élément de base doit être traitée comme zéro. |
+| [ZeroAsc](../../aspose.slides.mathtext/imathphantom/zeroasc) { get; set; } | Obtient ou définit une valeur indiquant si l'ascension (hauteur au-dessus de la ligne de base) de l'élément de base doit être considérée comme zéro. |
+| [ZeroDesc](../../aspose.slides.mathtext/imathphantom/zerodesc) { get; set; } | Obtient ou définit une valeur indiquant si la descente (profondeur sous la ligne de base) de l'élément de base doit être considérée comme zéro. |
+| [ZeroWidth](../../aspose.slides.mathtext/imathphantom/zerowidth) { get; set; } | Obtient ou définit une valeur indiquant si la largeur de l'élément de base doit être considérée comme zéro. |
 
 ### Exemples
 

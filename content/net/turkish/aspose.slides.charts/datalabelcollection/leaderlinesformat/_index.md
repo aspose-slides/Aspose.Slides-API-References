@@ -1,9 +1,9 @@
 ---
 title: LeaderLinesFormat
-second_title: Aspose.Sildes .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Veri etiketlerinin lider çizgi biçimini temsil eder. Salt okunur IChartLinesFormataspose.slides.charts/ichartlinesformat.
 type: docs
-weight: 70
+weight: 80
 url: /tr/aspose.slides.charts/datalabelcollection/leaderlinesformat/
 ---
 ## DataLabelCollection.LeaderLinesFormat özelliği
@@ -31,7 +31,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Bakınız
+### Ayrıca Bakınız
 
 * arayüz [IChartLinesFormat](../../ichartlinesformat)
 * sınıf [DataLabelCollection](../../datalabelcollection)

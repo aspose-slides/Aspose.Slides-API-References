@@ -1,9 +1,9 @@
 ---
 title: EffectFactory
-second_title: Aspose.Sildes pour .NET Référence de l'API
+second_title: Référence API Aspose.Sildes pour .NET
 description: Permet de créer des effets
 type: docs
-weight: 2970
+weight: 2990
 url: /fr/aspose.slides.effects/effectfactory/
 ---
 ## EffectFactory classe
@@ -16,26 +16,26 @@ public class EffectFactory : IEffectFactory
 
 ## Constructeurs
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
 | [EffectFactory](effectfactory)() | Le constructeur par défaut. |
 
 ## Propriétés
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
 | [ImageTransformOperationFactory](../../aspose.slides.effects/effectfactory/imagetransformoperationfactory) { get; } | Renvoie ImageTransformOperationFactory. Lecture seule [`IImageTransformOperationFactory`](../iimagetransformoperationfactory). |
 
 ## Méthodes
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
-| [CreateGlow](../../aspose.slides.effects/effectfactory/createglow)() | Crée l'effet Glow. |
-| [CreateInnerShadow](../../aspose.slides.effects/effectfactory/createinnershadow)() | Crée l'effet Inner shafow. |
-| [CreateOuterShadow](../../aspose.slides.effects/effectfactory/createoutershadow)() | Crée l'effet Outer shadow. |
-| [CreatePresetShadow](../../aspose.slides.effects/effectfactory/createpresetshadow)() | Crée l'effet Preset shadow. |
-| [CreateReflection](../../aspose.slides.effects/effectfactory/createreflection)() | Crée l'effet Reflection. |
-| [CreateSoftEdge](../../aspose.slides.effects/effectfactory/createsoftedge)() | Crée l'effet Soft Edge. |
+| [CreateGlow](../../aspose.slides.effects/effectfactory/createglow)() | Crée l'effet Lueur. |
+| [CreateInnerShadow](../../aspose.slides.effects/effectfactory/createinnershadow)() | Crée l'effet d'ombre interne. |
+| [CreateOuterShadow](../../aspose.slides.effects/effectfactory/createoutershadow)() | Crée l'effet d'ombre externe. |
+| [CreatePresetShadow](../../aspose.slides.effects/effectfactory/createpresetshadow)() | Crée l'effet d'ombre prédéfini. |
+| [CreateReflection](../../aspose.slides.effects/effectfactory/createreflection)() | Crée l'effet de réflexion. |
+| [CreateSoftEdge](../../aspose.slides.effects/effectfactory/createsoftedge)() | Crée l'effet de bord souple. |
 
 ### Remarques
 

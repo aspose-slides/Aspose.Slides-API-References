@@ -1,9 +1,9 @@
 ---
 title: GradientFormat
-second_title: Aspose.Sildes for .NET API 參考文件
+second_title: Aspose.Sildes 的 .NET API 參考
 description: 表示漸層格式。
 type: docs
-weight: 5000
+weight: 5020
 url: /zh-hant/aspose.slides/gradientformat/
 ---
 ## GradientFormat 類別
@@ -19,12 +19,12 @@ public sealed class GradientFormat : PVIObject, IGradientFormat
 | 名稱 | 說明 |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允許取得基礎 IPresentationComponent 介面。唯讀 [`IPresentationComponent`](../ipresentationcomponent). |
-| [GradientDirection](../../aspose.slides/gradientformat/gradientdirection) { get; set; } | 傳回或設定漸層的樣式。讀寫 [`GradientDirection`](../gradientdirection). |
-| [GradientShape](../../aspose.slides/gradientformat/gradientshape) { get; set; } | 傳回或設定漸層的形狀。讀寫 [`GradientShape`](../gradientshape). |
-| [GradientStops](../../aspose.slides/gradientformat/gradientstops) { get; } | 傳回漸層定位點的集合。唯讀 [`IGradientStopCollection`](../igradientstopcollection). |
-| [LinearGradientAngle](../../aspose.slides/gradientformat/lineargradientangle) { get; set; } | 傳回或設定漸層的角度。讀寫 Single. |
-| [LinearGradientScaled](../../aspose.slides/gradientformat/lineargradientscaled) { get; set; } | 判斷漸層是否已放大。讀寫 [`NullableBool`](../nullablebool). |
-| [TileFlip](../../aspose.slides/gradientformat/tileflip) { get; set; } | 傳回或設定漸層的翻轉模式。讀寫 [`TileFlip`](../tileflip). |
+| [GradientDirection](../../aspose.slides/gradientformat/gradientdirection) { get; set; } | 傳回或設定漸層的樣式。可讀寫 [`GradientDirection`](../gradientdirection). |
+| [GradientShape](../../aspose.slides/gradientformat/gradientshape) { get; set; } | 傳回或設定漸層的形狀。可讀寫 [`GradientShape`](../gradientshape). |
+| [GradientStops](../../aspose.slides/gradientformat/gradientstops) { get; } | 傳回漸層停止點的集合。唯讀 [`IGradientStopCollection`](../igradientstopcollection). |
+| [LinearGradientAngle](../../aspose.slides/gradientformat/lineargradientangle) { get; set; } | 傳回或設定漸層的角度。可讀寫 Single. |
+| [LinearGradientScaled](../../aspose.slides/gradientformat/lineargradientscaled) { get; set; } | 判斷漸層是否已縮放。可讀寫 [`NullableBool`](../nullablebool). |
+| [TileFlip](../../aspose.slides/gradientformat/tileflip) { get; set; } | 傳回或設定漸層的翻轉模式。可讀寫 [`TileFlip`](../tileflip). |
 
 ## 方法
 

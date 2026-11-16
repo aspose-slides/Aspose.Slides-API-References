@@ -3,10 +3,10 @@ title: IFlyThroughTransition
 second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Effet de transition de diapositive en vol.
 type: docs
-weight: 10090
+weight: 10110
 url: /fr/aspose.slides.slideshow/iflythroughtransition/
 ---
-## interface IFlyThroughTransition
+## IFlyThroughTransition interface
 
 Effet de transition de diapositive en vol.
 
@@ -18,9 +18,9 @@ public interface IFlyThroughTransition : ITransitionValueBase
 
 | Nom | Description |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/iflythroughtransition/asitransitionvaluebase) { get; } | Permet d'obtenir l'interface ITransitionValueBase de base. Lecture seule [`ITransitionValueBase`](../itransitionvaluebase). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/iflythroughtransition/asitransitionvaluebase) { get; } | Permet d'obtenir l'interface de base ITransitionValueBase. Lecture seule [`ITransitionValueBase`](../itransitionvaluebase). |
 | [Direction](../../aspose.slides.slideshow/iflythroughtransition/direction) { get; set; } | Direction de la transition. Lecture/écriture [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [HasBounce](../../aspose.slides.slideshow/iflythroughtransition/hasbounce) { get; set; } | Spécifie que le déplacement des diapositives de la présentation pendant la transition inclut un rebond. Lecture/écriture Boolean. |
+| [HasBounce](../../aspose.slides.slideshow/iflythroughtransition/hasbounce) { get; set; } | Spécifie que le mouvement des diapositives de la présentation pendant la transition inclut un rebond. Lecture/écriture Boolean. |
 
 ### Voir aussi
 

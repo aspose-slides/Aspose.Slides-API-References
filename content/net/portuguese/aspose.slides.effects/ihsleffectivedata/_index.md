@@ -1,14 +1,14 @@
 ---
 title: IHSLEffectiveData
-second_title: Aspose.Sildes para .NET Referência da API
-description: Representa um efeito de Matiz/Saturação/Luminosidade. Cada matiz, saturação e luminosidade podem ser ajustados em relação ao seu valor atual.
+second_title: Referência da API Aspose.Sildes para .NET
+description: Representa um efeito Hue/Saturation/Luminance. A matiz, saturação e luminância podem ser ajustadas individualmente em relação ao seu valor atual.
 type: docs
-weight: 3370
+weight: 3390
 url: /pt/aspose.slides.effects/ihsleffectivedata/
 ---
 ## IHSLEffectiveData interface
 
-Representa um efeito de Matiz/Saturação/Luminosidade. Cada matiz, saturação e luminosidade podem ser ajustados em relação ao seu valor atual.
+Representa um efeito Hue/Saturation/Luminance. A matiz, saturação e luminância podem ser ajustadas individualmente em relação ao seu valor atual.
 
 ```csharp
 public interface IHSLEffectiveData : IEffectEffectiveData
@@ -23,7 +23,7 @@ public interface IHSLEffectiveData : IEffectEffectiveData
 | [Luminance](../../aspose.slides.effects/ihsleffectivedata/luminance) { get; } | Retorna a porcentagem de luminância. Somente leitura Single. |
 | [Saturation](../../aspose.slides.effects/ihsleffectivedata/saturation) { get; } | Retorna a porcentagem de saturação. Somente leitura Single. |
 
-### Veja também
+### Veja Também
 
 * interface [IEffectEffectiveData](../ieffecteffectivedata)
 * namespace [Aspose.Slides.Effects](../../aspose.slides.effects)

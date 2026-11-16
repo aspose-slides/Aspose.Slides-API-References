@@ -1,22 +1,22 @@
 ---
 title: Item
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: निर्दिष्ट अनुक्रमांक वाले डेटा बिंदु के लिए डेटा लेबल प्राप्त करता है।
+second_title: Aspose.Sildes .NET के लिए API संदर्भ
+description: निर्दिष्ट सूचकांक वाले डेटा पॉइंट के लिए डेटा लेबल प्राप्त करता है।
 type: docs
-weight: 70
+weight: 80
 url: /hi/aspose.slides.charts/idatalabelcollection/item/
 ---
-## IDataLabelCollection सूचक
+## IDataLabelCollection इंडेक्सर
 
-निर्दिष्ट अनुक्रमांक वाले डेटा बिंदु के लिए डेटा लेबल प्राप्त करता है।
+निर्दिष्ट सूचकांक वाले डेटा पॉइंट के लिए डेटा लेबल प्राप्त करता है।
 
 ```csharp
 public IDataLabel this[int index] { get; }
 ```
 
-### टिप्पणी
+### टिप्पणियाँ
 
-डेटा लेबल तक पहुँचने का वैकल्पिक तरीका है: - SeriesEx.DataPoints[i].Label - लेबल गुणों को प्रबंधित करें।
+डेटा लेबल तक पहुँचने का वैकल्पिक तरीका है: - SeriesEx.DataPoints[i].Label - लेबल गुणों का प्रबंधन करें।
 
 ### देखें
 

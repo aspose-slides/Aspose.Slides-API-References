@@ -1,14 +1,14 @@
 ---
 title: IAnimationTimeLine
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Rappresenta la timeline dell'animazione.
+second_title: Aspose.Sildes per il riferimento API .NET
+description: Rappresenta la sequenza temporale dell'animazione.
 type: docs
-weight: 5200
+weight: 5220
 url: /it/aspose.slides/ianimationtimeline/
 ---
 ## IAnimationTimeLine interfaccia
 
-Rappresenta la timeline dell'animazione.
+Rappresenta la sequenza temporale dell'animazione.
 
 ```csharp
 public interface IAnimationTimeLine
@@ -18,9 +18,9 @@ public interface IAnimationTimeLine
 
 | Nome | Descrizione |
 | --- | --- |
-| [InteractiveSequences](../../aspose.slides/ianimationtimeline/interactivesequences) { get; } | Restituisce la raccolta di sequenze interattive. Queste sequenze possono contenere solo effetti di "click on shape" con la forma target specificata. Sola lettura [`ISequenceCollection`](../../aspose.slides.animation/isequencecollection). |
-| [MainSequence](../../aspose.slides/ianimationtimeline/mainsequence) { get; } | Restituisce la sequenza principale che può contenere solo la raccolta di effetti principali. Sola lettura [`ISequence`](../../aspose.slides.animation/isequence). |
-| [TextAnimationCollection](../../aspose.slides/ianimationtimeline/textanimationcollection) { get; } | Restituisce la raccolta di animazioni di testo. Sola lettura [`ITextAnimationCollection`](../../aspose.slides.animation/itextanimationcollection). |
+| [InteractiveSequences](../../aspose.slides/ianimationtimeline/interactivesequences) { get; } | Restituisce la raccolta di sequenze interattive. Questa sequenza può contenere solo effetti tramite "clic sulla forma" con la forma di destinazione specificata. Solo lettura [`ISequenceCollection`](../../aspose.slides.animation/isequencecollection). |
+| [MainSequence](../../aspose.slides/ianimationtimeline/mainsequence) { get; } | Restituisce la sequenza principale che può contenere solo la raccolta di effetti principali. Solo lettura [`ISequence`](../../aspose.slides.animation/isequence). |
+| [TextAnimationCollection](../../aspose.slides/ianimationtimeline/textanimationcollection) { get; } | Restituisce la raccolta di animazioni di testo. Solo lettura [`ITextAnimationCollection`](../../aspose.slides.animation/itextanimationcollection). |
 
 ### Vedi anche
 

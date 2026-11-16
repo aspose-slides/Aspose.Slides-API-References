@@ -3,7 +3,7 @@ title: SummaryZoomSectionCollection
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta una raccolta di oggetti Summary Zoom Section.
 type: docs
-weight: 10790
+weight: 10810
 url: /it/aspose.slides/summaryzoomsectioncollection/
 ---
 ## SummaryZoomSectionCollection classe
@@ -33,7 +33,7 @@ public sealed class SummaryZoomSectionCollection : DomObject<SummaryZoomFrame>,
 | [CopyTo](../../aspose.slides/summaryzoomsectioncollection/copyto)(Array, int) | Copia l'intera raccolta nell'array specificato. |
 | [GetEnumerator](../../aspose.slides/summaryzoomsectioncollection/getenumerator)() | Restituisce un enumeratore che itera attraverso la raccolta. |
 | [GetSummarySection](../../aspose.slides/summaryzoomsectioncollection/getsummarysection)(ISection) | Restituisce l'elemento Summary Zoom Section per la sezione data. |
-| [IndexOf](../../aspose.slides/summaryzoomsectioncollection/indexof)(ISummaryZoomSection) | Restituisce l'indice dell'oggetto SummaryZoomSection specificato. |
+| [IndexOf](../../aspose.slides/summaryzoomsectioncollection/indexof)(ISummaryZoomSection) | Restituisce un indice dell'oggetto SummaryZoomSection specificato. |
 | [RemoveSummaryZoomSection](../../aspose.slides/summaryzoomsectioncollection/removesummaryzoomsection)(ISection) | Rimuove l'oggetto Summary Zoom Section dalla raccolta. |
 
 ### Vedi anche

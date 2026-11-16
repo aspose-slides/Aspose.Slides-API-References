@@ -1,9 +1,9 @@
 ---
 title: ISaveOptionsFactory
-second_title: Aspose.Sildes for .NET API 參考文件
+second_title: Aspose.Sildes for .NET API 參考
 description: 允許建立儲存選項的實例
 type: docs
-weight: 4080
+weight: 4100
 url: /zh-hant/aspose.slides.export/isaveoptionsfactory/
 ---
 ## ISaveOptionsFactory 介面
@@ -22,7 +22,7 @@ public interface ISaveOptionsFactory
 
 ### 備註
 
-供 COM 相容性使用。
+用於 COM 相容性。
 
 ### 另請參閱
 

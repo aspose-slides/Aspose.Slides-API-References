@@ -1,9 +1,9 @@
 ---
 title: ISmartArtNode
-second_title: Aspose.Sildes for .NET API 參考
+second_title: Aspose.Sildes for .NET API 參考文件
 description: 表示 SmartArt 圖表的節點。
 type: docs
-weight: 10550
+weight: 10570
 url: /zh-hant/aspose.slides.smartart/ismartartnode/
 ---
 ## ISmartArtNode 介面
@@ -18,15 +18,15 @@ public interface ISmartArtNode
 
 | 名稱 | 說明 |
 | --- | --- |
-| [BulletFillFormat](../../aspose.slides.smartart/ismartartnode/bulletfillformat) { get; } | 傳回包含節點項目符號填滿格式屬性的 FillFormat 物件。注意：對於某些不提供節點項目符號的 SmartArt 版面配置，可能會傳回 null。唯讀 [`IFillFormat`](../../aspose.slides/ifillformat)。 |
+| [BulletFillFormat](../../aspose.slides.smartart/ismartartnode/bulletfillformat) { get; } | 傳回 FillFormat 物件，其中包含節點項目符號的填色格式屬性。註：對於某些不提供節點項目符號的 SmartArt 版面配置，可能傳回 null。唯讀 [`IFillFormat`](../../aspose.slides/ifillformat)。 |
 | [ChildNodes](../../aspose.slides.smartart/ismartartnode/childnodes) { get; } | 傳回目前節點的所有子節點集合。唯讀 [`ISmartArtNodeCollection`](../ismartartnodecollection)。 |
-| [IsAssistant](../../aspose.slides.smartart/ismartartnode/isassistant) { get; set; } | 傳回或設定節點為助理。可讀寫 Boolean。 |
+| [IsAssistant](../../aspose.slides.smartart/ismartartnode/isassistant) { get; set; } | 取得或設定將節點設為助理。讀寫 Boolean。 |
 | [IsHidden](../../aspose.slides.smartart/ismartartnode/ishidden) { get; } | 如果此節點在資料模型中為隱藏節點，則傳回 true。唯讀 Boolean。 |
 | [Level](../../aspose.slides.smartart/ismartartnode/level) { get; } | 傳回節點的巢狀層級。唯讀 Int32。 |
-| [OrganizationChartLayout](../../aspose.slides.smartart/ismartartnode/organizationchartlayout) { get; set; } | 傳回或設定與目前節點關聯的組織圖版面配置類型。可讀寫 [`OrganizationChartLayoutType`](../organizationchartlayouttype)。 |
-| [Position](../../aspose.slides.smartart/ismartartnode/position) { get; set; } | 傳回或設定節點在同層節點中的零基索引位置。可讀寫 Int32。 |
-| [Shapes](../../aspose.slides.smartart/ismartartnode/shapes) { get; } | 傳回與節點關聯的所有圖形集合。唯讀 [`ISmartArtShapeCollection`](../ismartartshapecollection)。 |
-| [TextFrame](../../aspose.slides.smartart/ismartartnode/textframe) { get; } | 傳回或設定節點的文字。唯讀 [`ITextFrame`](../../aspose.slides/itextframe)。 |
+| [OrganizationChartLayout](../../aspose.slides.smartart/ismartartnode/organizationchartlayout) { get; set; } | 取得或設定與目前節點相關聯的組織圖版面配置類型。讀寫 [`OrganizationChartLayoutType`](../organizationchartlayouttype)。 |
+| [Position](../../aspose.slides.smartart/ismartartnode/position) { get; set; } | 取得或設定節點在同層節點中的零基索引位置。讀寫 Int32。 |
+| [Shapes](../../aspose.slides.smartart/ismartartnode/shapes) { get; } | 傳回與節點相關聯的所有圖形集合。唯讀 [`ISmartArtShapeCollection`](../ismartartshapecollection)。 |
+| [TextFrame](../../aspose.slides.smartart/ismartartnode/textframe) { get; } | 取得或設定節點的文字。唯讀 [`ITextFrame`](../../aspose.slides/itextframe)。 |
 
 ## 方法
 

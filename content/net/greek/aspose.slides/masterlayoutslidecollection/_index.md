@@ -1,14 +1,14 @@
 ---
 title: MasterLayoutSlideCollection
-second_title: Aspose.Sildes για .NET API Αναφορά
-description: Αντιπροσωπεύει μια συλλογή όλων των διαφανειών διάταξης του ορισμένου κύριου slide. Επεκτείνει την κλάση LayoutSlideCollection με μεθόδους για προσθήκη/εισαγωγή/αφαίρεση/κλωνοποίηση/αναδιάταξη διαφανειών διάταξης στο πλαίσιο των επιμέρους συλλογών των διαφανειών διάταξης των κυρίων.
+second_title: Aspose.Sildes για .NET API Reference
+description: Αντιπροσωπεύει μια συλλογή όλων των layout slides του καθορισμένου master slide. Επεκτείνει την κλάση LayoutSlideCollection με μεθόδους για προσθήκη/εισαγωγή/αφαίρεση/κλωνοποίηση/αναδιάταξη layout slides στο πλαίσιο των ατομικών συλλογών των layout slides των master.
 type: docs
-weight: 8000
+weight: 8020
 url: /el/aspose.slides/masterlayoutslidecollection/
 ---
 ## MasterLayoutSlideCollection κλάση
 
-Αντιπροσωπεύει μια συλλογή όλων των διαφανειών διάταξης του ορισμένου κύριου slide. Επεκτείνει την κλάση LayoutSlideCollection με μεθόδους για προσθήκη/εισαγωγή/αφαίρεση/κλωνοποίηση/αναδιάταξη διαφανειών διάταξης στο πλαίσιο των επιμέρους συλλογών των διαφανειών διάταξης του κύριου.
+Represents a collections of all layout slides of defined master slide. Extends LayoutSlideCollection class with methods for adding/inserting/removing/cloning/reordering layout slides in context of the individual collections of master's layout slides.
 
 ```csharp
 public sealed class MasterLayoutSlideCollection : LayoutSlideCollection, 
@@ -19,32 +19,32 @@ public sealed class MasterLayoutSlideCollection : LayoutSlideCollection,
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [Count](../../aspose.slides/layoutslidecollection/count) { get; } | Επιστρέφει τον αριθμό των διαφανειών διάταξης σε μια συλλογή. Μόνο για ανάγνωση Int32. |
-| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | Επιστρέφει μία τιμή που υποδεικνύει εάν η πρόσβαση στη συλλογή είναι συγχρονισμένη (thread-safe). Μόνο για ανάγνωση Boolean. |
-| [Item](../../aspose.slides/layoutslidecollection/item) { get; } | Επιστρέφει τη διαφάνεια διάταξης με βάση το δείκτη. Μόνο για ανάγνωση [`LayoutSlide`](../layoutslide). |
-| [SyncRoot](../../aspose.slides/layoutslidecollection/syncroot) { get; } | Επιστρέφει μια ρίζα συγχρονισμού. Μόνο για ανάγνωση Object. |
+| [Count](../../aspose.slides/layoutslidecollection/count) { get; } | Επιστρέφει τον αριθμό των layout slides σε μια collection. Μόνο για ανάγνωση Int32. |
+| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | Επιστρέφει μια τιμή που υποδεικνύει αν η πρόσβαση στη collection είναι synchronized (thread-safe). Μόνο για ανάγνωση Boolean. |
+| [Item](../../aspose.slides/layoutslidecollection/item) { get; } | Επιστρέφει το layout slide με βάση τον δείκτη. Μόνο για ανάγνωση [`LayoutSlide`](../layoutslide). |
+| [SyncRoot](../../aspose.slides/layoutslidecollection/syncroot) { get; } | Επιστρέφει ένα synchronization root. Μόνο για ανάγνωση Object. |
 
-## Μέθοδοι
+## Μεθόδους
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [Add](../../aspose.slides/masterlayoutslidecollection/add)(SlideLayoutType, string) | Προσθέτει μια νέα διαφάνεια διάταξης στο τέλος της συλλογής. |
-| [AddClone](../../aspose.slides/masterlayoutslidecollection/addclone)(ILayoutSlide) | Προσθέτει ένα αντίγραφο μιας συγκεκριμένης διαφάνειας διάταξης στο τέλος της συλλογής. |
-| [CopyTo](../../aspose.slides/layoutslidecollection/copyto)(Array, int) | Αντιγράφει όλα τα στοιχεία από τη συλλογή στον καθορισμένο πίνακα. |
-| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | Επιστρέφει την πρώτη διαφάνεια διάταξης του καθορισμένου τύπου. Ένας τύπος διαφάνειας διάταξης για εύρεση.[`LayoutSlide`](../layoutslide) με τον καθορισμένο τύπο ή null εάν δεν βρεθεί καμία διάταξη. |
-| [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | Επιστρέφει έναν απαριθμητή που διατρέχει τη συλλογή. |
-| [Insert](../../aspose.slides/masterlayoutslidecollection/insert)(int, SlideLayoutType, string) | Εισάγει μια νέα διαφάνεια διάταξης στη συγκεκριμένη θέση της συλλογής. |
-| [InsertClone](../../aspose.slides/masterlayoutslidecollection/insertclone)(int, ILayoutSlide) | Εισάγει ένα αντίγραφο μιας συγκεκριμένης διαφάνειας διάταξης στη συγκεκριμένη θέση της συλλογής. |
-| [Remove](../../aspose.slides/layoutslidecollection/remove)(ILayoutSlide) | Αφαιρεί μια διάταξη από τη συλλογή. |
-| [RemoveAt](../../aspose.slides/masterlayoutslidecollection/removeat)(int) | Αφαιρεί το στοιχείο στον καθορισμένο δείκτη της συλλογής. |
-| [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | Αφαιρεί αχρησιμοποίητες διαφάνειες διάταξης (διαφάνειες διάταξης των οποίων το HasDependingSlides είναι false). |
-| [Reorder](../../aspose.slides/masterlayoutslidecollection/reorder)(int, ILayoutSlide) | Μετακινεί τη διαφάνεια διάταξης από τη συλλογή στην καθορισμένη θέση. |
+| [Add](../../aspose.slides/masterlayoutslidecollection/add)(SlideLayoutType, string) | Προσθέτει μια νέα layout slide στο τέλος της collection. |
+| [AddClone](../../aspose.slides/masterlayoutslidecollection/addclone)(ILayoutSlide) | Προσθέτει ένα αντίγραφο ενός καθορισμένου layout slide στο τέλος της collection. |
+| [CopyTo](../../aspose.slides/layoutslidecollection/copyto)(Array, int) | Αντιγράφει όλα τα στοιχεία από τη collection στον καθορισμένο array. |
+| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | Επιστρέφει την πρώτη layout slide του καθορισμένου τύπου. Ένας τύπος layout slide για εύρεση.[`LayoutSlide`](../layoutslide) με καθορισμένο τύπο ή null εάν δεν βρέθηκαν layouts. |
+| [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | Επιστρέφει έναν enumerator που διατρέχει τη collection. |
+| [Insert](../../aspose.slides/masterlayoutslidecollection/insert)(int, SlideLayoutType, string) | Εισάγει μια νέα layout slide στη καθορισμένη θέση της collection. |
+| [InsertClone](../../aspose.slides/masterlayoutslidecollection/insertclone)(int, ILayoutSlide) | Εισάγει ένα αντίγραφο ενός καθορισμένου layout slide στη καθορισμένη θέση της collection. |
+| [Remove](../../aspose.slides/layoutslidecollection/remove)(ILayoutSlide) | Αφαιρεί ένα layout από τη collection. |
+| [RemoveAt](../../aspose.slides/masterlayoutslidecollection/removeat)(int) | Αφαιρεί το στοιχείο στον καθορισμένο δείκτη της collection. |
+| [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | Αφαιρεί αχρησιμοποίητα layout slides (layout slides των οποίων το HasDependingSlides είναι false). |
+| [Reorder](../../aspose.slides/masterlayoutslidecollection/reorder)(int, ILayoutSlide) | Μετακινεί ένα layout slide από τη collection στη καθορισμένη θέση. |
 
 ### Δείτε επίσης
 
 * κλάση [LayoutSlideCollection](../layoutslidecollection)
-* διασύνδεση [IMasterLayoutSlideCollection](../imasterlayoutslidecollection)
-* χώρο ονομάτων [Aspose.Slides](../../aspose.slides)
-* συγκρότημα [Aspose.Slides](../../)
+* διεπαφή [IMasterLayoutSlideCollection](../imasterlayoutslidecollection)
+* χώρος ονομάτων [Aspose.Slides](../../aspose.slides)
+* συναρμολόγηση [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

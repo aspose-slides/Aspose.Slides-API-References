@@ -1,14 +1,14 @@
 ---
 title: IColorScheme
-second_title: Aspose.Sildes for .NET API Referansı
-description: Tema tanımlı renkleri saklar.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Tema tanımlı renkleri depolar.
 type: docs
-weight: 11150
+weight: 11170
 url: /tr/aspose.slides.theme/icolorscheme/
 ---
-## IColorScheme arabirimi
+## IColorScheme arayüzü
 
-Temaya tanımlı renkleri saklar.
+Tema tanımlı renkleri depolar.
 
 ```csharp
 public interface IColorScheme : ISlideComponent
@@ -16,27 +16,27 @@ public interface IColorScheme : ISlideComponent
 
 ## Özellikler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
-| [Accent1](../../aspose.slides.theme/icolorscheme/accent1) { get; } | Şemadaki ilk vurgu rengi. Salt okunur [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent2](../../aspose.slides.theme/icolorscheme/accent2) { get; } | Şemadaki ikinci vurgu rengi. Salt okunur [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent3](../../aspose.slides.theme/icolorscheme/accent3) { get; } | Şemadaki üçüncü vurgu rengi. Salt okunur [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent4](../../aspose.slides.theme/icolorscheme/accent4) { get; } | Şemadaki dördüncü vurgu rengi. Salt okunur [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent5](../../aspose.slides.theme/icolorscheme/accent5) { get; } | Şemadaki beşinci vurgu rengi. Salt okunur [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent6](../../aspose.slides.theme/icolorscheme/accent6) { get; } | Şemadaki altıncı vurgu rengi. Salt okunur [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [AsISlideComponent](../../aspose.slides.theme/icolorscheme/asislidecomponent) { get; } | ISlideComponent arabirimi döndürür. Salt okunur [`ISlideComponent`](../../aspose.slides/islidecomponent). |
-| [Dark1](../../aspose.slides.theme/icolorscheme/dark1) { get; } | Şemadaki ilk koyu renk. Salt okunur [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Dark2](../../aspose.slides.theme/icolorscheme/dark2) { get; } | Şemadaki ikinci koyu renk. Salt okunur [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [FollowedHyperlink](../../aspose.slides.theme/icolorscheme/followedhyperlink) { get; } | Ziyaret edilen köprülerin rengi. Salt okunur [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Hyperlink](../../aspose.slides.theme/icolorscheme/hyperlink) { get; } | Köprülerin rengi. Salt okunur [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Item](../../aspose.slides.theme/icolorscheme/item) { get; } | Belirtilen indeksteki öğeyi alır. Salt okunur [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Light1](../../aspose.slides.theme/icolorscheme/light1) { get; } | Şemadaki ilk açık renk. Salt okunur [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Light2](../../aspose.slides.theme/icolorscheme/light2) { get; } | Şemadaki ikinci açık renk. Salt okunur [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent1](../../aspose.slides.theme/icolorscheme/accent1) { get; } | Şemadaki ilk vurgu rengi. Yalnızca okuma [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent2](../../aspose.slides.theme/icolorscheme/accent2) { get; } | Şemadaki ikinci vurgu rengi. Yalnızca okuma [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent3](../../aspose.slides.theme/icolorscheme/accent3) { get; } | Şemadaki üçüncü vurgu rengi. Yalnızca okuma [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent4](../../aspose.slides.theme/icolorscheme/accent4) { get; } | Şemadaki dördüncü vurgu rengi. Yalnızca okuma [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent5](../../aspose.slides.theme/icolorscheme/accent5) { get; } | Şemadaki beşinci vurgu rengi. Yalnızca okuma [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent6](../../aspose.slides.theme/icolorscheme/accent6) { get; } | Şemadaki altıncı vurgu rengi. Yalnızca okuma [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AsISlideComponent](../../aspose.slides.theme/icolorscheme/asislidecomponent) { get; } | ISlideComponent arayüzünü döndürür. Yalnızca okuma [`ISlideComponent`](../../aspose.slides/islidecomponent). |
+| [Dark1](../../aspose.slides.theme/icolorscheme/dark1) { get; } | Şemadaki ilk koyu renk. Yalnızca okuma [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Dark2](../../aspose.slides.theme/icolorscheme/dark2) { get; } | Şemadaki ikinci koyu renk. Yalnızca okuma [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [FollowedHyperlink](../../aspose.slides.theme/icolorscheme/followedhyperlink) { get; } | Ziyaret edilen köprülerin rengi. Yalnızca okuma [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Hyperlink](../../aspose.slides.theme/icolorscheme/hyperlink) { get; } | Köprülerin rengi. Yalnızca okuma [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Item](../../aspose.slides.theme/icolorscheme/item) { get; } | Belirtilen indeksdeki öğeyi alır. Yalnızca okuma [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Light1](../../aspose.slides.theme/icolorscheme/light1) { get; } | Şemadaki ilk açık renk. Yalnızca okuma [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Light2](../../aspose.slides.theme/icolorscheme/light2) { get; } | Şemadaki ikinci açık renk. Yalnızca okuma [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ### Ayrıca Bakınız
 
-* interface [ISlideComponent](../../aspose.slides/islidecomponent)
-* namespace [Aspose.Slides.Theme](../../aspose.slides.theme)
-* assembly [Aspose.Slides](../../)
+* arayüz [ISlideComponent](../../aspose.slides/islidecomponent)
+* ad alanı [Aspose.Slides.Theme](../../aspose.slides.theme)
+* derleme [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

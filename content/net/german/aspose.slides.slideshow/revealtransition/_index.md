@@ -1,14 +1,14 @@
 ---
 title: RevealTransition
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Effekt für den Folienübergang zum Enthüllen.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Reveal-Folienübergangseffekt.
 type: docs
-weight: 10280
+weight: 10300
 url: /de/aspose.slides.slideshow/revealtransition/
 ---
 ## RevealTransition Klasse
 
-Übergangseffekt zum Enthüllen von Folien.
+Reveal-Folienübergangseffekt.
 
 ```csharp
 public class RevealTransition : TransitionValueBase, IRevealTransition
@@ -26,7 +26,7 @@ public class RevealTransition : TransitionValueBase, IRevealTransition
 | Name | Beschreibung |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Bestimmt, ob die beiden TransitionValueBase-Instanzen gleich sind. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Dient als Hashfunktion für einen bestimmten Typ, geeignet für den Einsatz in Hash-Algorithmen und Datenstrukturen wie einer Hashtabelle. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Dient als Hashfunktion für einen bestimmten Typ, geeignet für die Verwendung in Hash-Algorithmen und Datenstrukturen wie einer Hashtabelle. |
 
 ### Siehe auch
 

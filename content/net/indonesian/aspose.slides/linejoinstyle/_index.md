@@ -1,14 +1,14 @@
 ---
 title: LineJoinStyle
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili gaya penyambungan garis.
+description: Mewakili gaya sambungan garis.
 type: docs
-weight: 7800
+weight: 7820
 url: /id/aspose.slides/linejoinstyle/
 ---
 ## enumerasi LineJoinStyle
 
-Mewakili gaya penyambungan garis.
+Mewakili gaya sambungan garis.
 
 ```csharp
 public enum LineJoinStyle : sbyte

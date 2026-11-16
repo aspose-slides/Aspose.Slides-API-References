@@ -1,14 +1,14 @@
 ---
 title: SetExternalWorkbook
-second_title: Aspose.Sildes için .NET API Referansı
-description: Grafik için dış çalışma kitabını veri kaynağı olarak ayarlar. Grafik verileri hedef çalışma kitabından güncellenecektir.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Harici çalışma kitabını grafik için veri kaynağı olarak ayarlar. Grafik verileri hedef çalışma kitabından güncellenecektir.
 type: docs
-weight: 120
+weight: 130
 url: /tr/aspose.slides.charts/ichartdata/setexternalworkbook/
 ---
 ## SetExternalWorkbook(string) {#setexternalworkbook}
 
-Grafik için dış çalışma kitabını veri kaynağı olarak ayarlar. Grafik verileri hedef çalışma kitabından güncellenecektir.
+Harici çalışma kitabını grafik için veri kaynağı olarak ayarlar. Grafik verileri hedef çalışma kitabından güncellenecektir.
 
 ```csharp
 public void SetExternalWorkbook(string workbookPath)
@@ -20,9 +20,9 @@ public void SetExternalWorkbook(string workbookPath)
 
 ### İstisnalar
 
-| istisna | koşul |
+| İstisna | Koşul |
 | --- | --- |
-| InvalidOperationException | Dış çalışma kitabı mevcut değil veya yüklenemiyor. |
+| InvalidOperationException | Harici çalışma kitabı mevcut değil veya yüklenemiyor. |
 
 ### Örnekler
 
@@ -36,7 +36,7 @@ using (Presentation pres = new Presentation())
 
 ```
 
-### Ayrıca Bakınız
+### İlgili Bağlantılar
 
 * arayüz [IChartData](../../ichartdata)
 * ad alanı [Aspose.Slides.Charts](../../ichartdata)
@@ -46,7 +46,7 @@ using (Presentation pres = new Presentation())
 
 ## SetExternalWorkbook(string, bool) {#setexternalworkbook_1}
 
-Grafik için dış çalışma kitabını veri kaynağı olarak ayarlar.
+Harici çalışma kitabını grafik için veri kaynağı olarak ayarlar.
 
 ```csharp
 public void SetExternalWorkbook(string workbookPath, bool updateChartData)
@@ -55,13 +55,13 @@ public void SetExternalWorkbook(string workbookPath, bool updateChartData)
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | workbookPath | String | Hedef çalışma kitabının yolu |
-| updateChartData | Boolean | Değer false ise yalnızca çalışma kitabı yolu güncellenir. Grafik verileri hedef çalışma kitabından yüklenmez ve güncellenmez. Hedef çalışma kitabı mevcut olmadığında veya erişilemediğinde kullanılabilir. Değer true ise grafik verileri hedef çalışma kitabından güncellenecektir. |
+| updateChartData | Boolean | Değer false ise yalnızca çalışma kitabı yolu güncellenir. Çalışma kitabı verileri hedef çalışma kitabından yüklenmez ve güncellenmez. Hedef çalışma kitabı mevcut değilse veya erişilemezse kullanılabilir. Değer true ise çalışma kitabı verileri hedef çalışma kitabından güncellenecektir. |
 
 ### İstisnalar
 
-| istisna | koşul |
+| İstisna | Koşul |
 | --- | --- |
-| InvalidOperationException | Dış çalışma kitabı mevcut değil veya yüklenemiyor. |
+| InvalidOperationException | Harici çalışma kitabı mevcut değil veya yüklenemiyor. |
 
 ### Örnekler
 
@@ -76,7 +76,7 @@ using (Presentation pres = new Presentation())
 
 ```
 
-### Ayrıca Bakınız
+### İlgili Bağlantılar
 
 * arayüz [IChartData](../../ichartdata)
 * ad alanı [Aspose.Slides.Charts](../../ichartdata)

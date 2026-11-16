@@ -1,35 +1,35 @@
 ---
 title: ColorSchemeIndex
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แทนค่าดัชนีในชุดสี
+second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
+description: แสดงถึงดัชนีในชุดสี.
 type: docs
-weight: 2550
+weight: 2570
 url: /th/aspose.slides/colorschemeindex/
 ---
-## ColorSchemeIndex ประเภทการนับ
+## ColorSchemeIndex การกำหนดค่า
 
-แทนค่าดัชนีในชุดสี
+แสดงถึงดัชนีในชุดสี.
 
 ```csharp
 public enum ColorSchemeIndex : byte
 ```
 
-### Values
+### ค่า
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
-| Dark1 | `0` | สีเข้ม 1. |
-| Light1 | `1` | สีอ่อน 1. |
-| Dark2 | `2` | สีเข้ม 2. |
-| Light2 | `3` | สีอ่อน 2. |
-| Accent1 | `4` | สำเนียง 1. |
-| Accent2 | `5` | สำเนียง 2. |
-| Accent3 | `6` | สำเนียง 3. |
-| Accent4 | `7` | สำเนียง 4. |
-| Accent5 | `8` | สำเนียง 5. |
-| Accent6 | `9` | สำเนียง 6. |
-| Hyperlink | `10` | ไฮเปอร์ลิงก์. |
-| FollowedHyperlink | `11` | ไฮเปอร์ลิงก์ที่ตามแล้ว. |
+| Dark1 | `0` | Dark 1. |
+| Light1 | `1` | Light 1. |
+| Dark2 | `2` | Dark 2. |
+| Light2 | `3` | Light 2. |
+| Accent1 | `4` | Accent 1. |
+| Accent2 | `5` | Accent 2. |
+| Accent3 | `6` | Accent 3. |
+| Accent4 | `7` | Accent 4. |
+| Accent5 | `8` | Accent 5. |
+| Accent6 | `9` | Accent 6. |
+| Hyperlink | `10` | Hyperlink. |
+| FollowedHyperlink | `11` | Followed Hyperlink. |
 
 ### ดูเพิ่มเติม
 

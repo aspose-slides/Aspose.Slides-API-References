@@ -1,14 +1,14 @@
 ---
 title: SaveOptionsFactory
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Memungkinkan membuat instance opsi penyimpanan
+description: Mengizinkan pembuatan instance opsi penyimpanan
 type: docs
-weight: 4460
+weight: 4480
 url: /id/aspose.slides.export/saveoptionsfactory/
 ---
-## Kelas SaveOptionsFactory
+## SaveOptionsFactory kelas
 
-Memungkinkan membuat instance opsi penyimpanan
+Mengizinkan pembuatan instance opsi penyimpanan
 
 ```csharp
 public class SaveOptionsFactory : ISaveOptionsFactory

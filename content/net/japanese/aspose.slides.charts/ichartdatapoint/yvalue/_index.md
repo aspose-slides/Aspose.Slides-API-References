@@ -1,14 +1,14 @@
 ---
 title: YValue
 second_title: Aspose.Sildes for .NET API リファレンス
-description: チャート データ ポイントの y 値を返します。 読み取り専用 IDoubleChartValueaspose.slides.charts/idoublechartvalue.
+description: チャート データ ポイントの y 値を取得します。読み取り専用 IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
-weight: 180
+weight: 220
 url: /ja/aspose.slides.charts/ichartdatapoint/yvalue/
 ---
 ## IChartDataPoint.YValue プロパティ
 
-チャート データ ポイントの y 値を返します。 読み取り専用 [`IDoubleChartValue`](../../idoublechartvalue)。
+チャート データ ポイントの y 値を取得します。読み取り専用 [`IDoubleChartValue`](../../idoublechartvalue).
 
 ```csharp
 public IDoubleChartValue YValue { get; }

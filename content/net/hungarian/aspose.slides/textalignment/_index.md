@@ -1,14 +1,14 @@
 ---
 title: TextAlignment
-second_title: Aspose.Sildes .NET API hivatkozás
+second_title: Aspose.Sildes a .NET API hivatkozáshoz
 description: Különböző szövegigazítási stílusokat képvisel.
 type: docs
-weight: 10900
+weight: 10920
 url: /hu/aspose.slides/textalignment/
 ---
 ## TextAlignment enumeráció
 
-Különböző szövegigazítási stílusokat képvisel.
+Különböző szövegigazítási stílusokat képviseli.
 
 ```csharp
 public enum TextAlignment
@@ -23,7 +23,7 @@ public enum TextAlignment
 | Center | `1` | Középre igazítás. |
 | Right | `2` | Jobbra igazítás. |
 | Justify | `3` | Sorkizárt igazítás. |
-| JustifyLow | `4` | Kashida alacsony igazítás. |
+| JustifyLow | `4` | Alacsony szintű Kashida igazítás. |
 | Distributed | `5` | Elosztott igazítás. |
 
 ### Lásd még

@@ -3,10 +3,10 @@ title: SlideSizeScaleType
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa el tipo de escala del contenido de la diapositiva.
 type: docs
-weight: 10510
+weight: 10530
 url: /es/aspose.slides/slidesizescaletype/
 ---
-## Enumeración SlideSizeScaleType
+## SlideSizeScaleType enumeración
 
 Representa el tipo de escala del contenido de la diapositiva.
 

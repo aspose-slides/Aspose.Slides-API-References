@@ -1,14 +1,14 @@
 ---
 title: Input
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta una collezione di modelli di elementi di input.
+description: Rappresenta una raccolta di modelli di elementi di input.
 type: docs
-weight: 4630
+weight: 4650
 url: /it/aspose.slides.export.web/input/
 ---
 ## Classe Input
 
-Rappresenta una collezione di elementi di input (modelli).
+Rappresenta una raccolta di elementi di input (modelli).
 
 ```csharp
 public sealed class Input
@@ -18,7 +18,7 @@ public sealed class Input
 
 | Nome | Descrizione |
 | --- | --- |
-| [AddTemplate&lt;TContextObject&gt;](../../aspose.slides.export.web/input/addtemplate)(string, string) | Aggiunge un modello alla collezione. |
+| [AddTemplate&lt;TContextObject&gt;](../../aspose.slides.export.web/input/addtemplate)(string, string) | Aggiunge un modello alla raccolta. |
 
 ### Vedi anche
 

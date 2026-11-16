@@ -1,9 +1,9 @@
 ---
 title: Comment
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per .NET API Reference
 description: Rappresenta un commento su una diapositiva.
 type: docs
-weight: 2620
+weight: 2640
 url: /it/aspose.slides/comment/
 ---
 ## Comment classe
@@ -18,18 +18,18 @@ public class Comment : IComment
 
 | Nome | Descrizione |
 | --- | --- |
-| [Author](../../aspose.slides/comment/author) { get; } | Restituisce l'autore di un commento. Sola lettura [`ICommentAuthor`](../icommentauthor). |
-| [CreatedTime](../../aspose.slides/comment/createdtime) { get; set; } | Restituisce o imposta l'ora di creazione di un commento. Impostare questa proprietà a MinValue indica che non è impostata alcuna ora del commento. Lettura/scrittura DateTime. |
-| [ParentComment](../../aspose.slides/comment/parentcomment) { get; set; } | Ottiene o imposta il commento genitore. Lettura/scrittura [`IComment`](../icomment). |
-| [Position](../../aspose.slides/comment/position) { get; set; } | Restituisce o imposta la posizione di un commento su una diapositiva. Lettura/scrittura PointF. |
-| [Slide](../../aspose.slides/comment/slide) { get; } | Restituisce o imposta la diapositiva genitore di un commento. Sola lettura [`ISlide`](../islide). |
-| [Text](../../aspose.slides/comment/text) { get; set; } | Restituisce o imposta il testo semplice di un commento su una diapositiva. Lettura/scrittura String. |
+| [Author](../../aspose.slides/comment/author) { get; } | Restituisce l'autore di un commento. Solo lettura [`ICommentAuthor`](../icommentauthor). |
+| [CreatedTime](../../aspose.slides/comment/createdtime) { get; set; } | Restituisce o imposta il tempo di creazione di un commento. Impostare questa proprietà a MinValue significa che non è impostato alcun orario per il commento. Lettura/Scrittura DateTime. |
+| [ParentComment](../../aspose.slides/comment/parentcomment) { get; set; } | Ottiene o imposta il commento padre. Lettura/Scrittura [`IComment`](../icomment). |
+| [Position](../../aspose.slides/comment/position) { get; set; } | Restituisce o imposta la posizione di un commento su una diapositiva. Lettura/Scrittura PointF. |
+| [Slide](../../aspose.slides/comment/slide) { get; } | Restituisce o imposta la diapositiva padre di un commento. Solo lettura [`ISlide`](../islide). |
+| [Text](../../aspose.slides/comment/text) { get; set; } | Restituisce o imposta il testo semplice di un commento su diapositiva. Lettura/Scrittura String. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [Remove](../../aspose.slides/comment/remove)() | Rimuove il commento e tutte le sue risposte dalla collezione genitore. |
+| [Remove](../../aspose.slides/comment/remove)() | Rimuove il commento e tutte le sue risposte dalla raccolta padre. |
 
 ### Esempi
 
@@ -48,9 +48,9 @@ using (Presentation presentation = new Presentation())
     PointF point = new PointF();
     point.X = 0.2f;
     point.Y = 0.2f;
-    // Aggiunge un commento alla diapositiva per un autore nella diapositiva 1
+    // Aggiunge un commento alla diapositiva per un autore sulla diapositiva 1
     author.Comments.AddComment("Hello Jawad, this is slide comment", presentation.Slides[0], point, DateTime.Now);
-    // Aggiunge un commento alla diapositiva per un autore nella diapositiva 2
+    // Aggiunge un commento alla diapositiva per un autore sulla diapositiva 2
     author.Comments.AddComment("Hello Jawad, this is second slide comment", presentation.Slides[1], point, DateTime.Now);
 	// Salva il file PowerPoint Presentation
     presentation.Save("Comments_out.pptx", SaveFormat.Pptx);
@@ -68,7 +68,7 @@ using (Presentation presentation = new Presentation("Comments1.pptx"))
     foreach (var commentAuthor in presentation.CommentAuthors)
     {
         var author = (CommentAuthor) commentAuthor;
-		// Itera Comments
+		// Itera Commenti
         foreach (var comment1 in author.Comments)
         {
             var comment = (Comment) comment1;
@@ -102,7 +102,7 @@ using (Presentation pres = new Presentation())
     IComment comment3 = author2.Comments.AddComment("comment 3", pres.Slides[0], new PointF(10, 10), DateTime.Now);
     IComment reply3 = author1.Comments.AddComment("reply 4 for comment 3", pres.Slides[0], new PointF(10, 10), DateTime.Now);
     reply3.ParentComment = comment3;
-    // Mostra la gerarchia dei commenti sulla console
+    // Visualizza la gerarchia dei commenti sulla console
     ISlide slide = pres.Slides[0];
     var comments = slide.GetSlideComments(null);
     for (int i = 0; i < comments.Length; i++)

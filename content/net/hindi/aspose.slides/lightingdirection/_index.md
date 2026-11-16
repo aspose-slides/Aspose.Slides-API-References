@@ -1,22 +1,22 @@
 ---
 title: LightingDirection
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: लाइट दिशाओं को परिभाषित करने वाले स्थिरांक।
+description: प्रकाश की दिशाओं को परिभाषित करने वाले स्थिरांक।
 type: docs
-weight: 7710
+weight: 7730
 url: /hi/aspose.slides/lightingdirection/
 ---
-## LightingDirection एन्यूमरेशन
+## LightingDirection एन्यूमेरेशन
 
-लाइट दिशाओं को परिभाषित करने वाले स्थिरांक।
+प्रकाश की दिशाओं को परिभाषित करने वाले स्थिरांक।
 
 ```csharp
 public enum LightingDirection
 ```
 
-### मान
+### Values
 
-| नाम | मान | विवरण |
+| नाम | मूल्य | विवरण |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | TopLeft | `0` |  |
@@ -28,7 +28,7 @@ public enum LightingDirection
 | BottomLeft | `6` |  |
 | Left | `7` |  |
 
-### संबंधित देखें
+### See Also
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

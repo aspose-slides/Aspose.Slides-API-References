@@ -1,14 +1,14 @@
 ---
 title: ILegendEntryProperties
-second_title: Aspose.Sildes .NET API 參考
-description: 表示圖表的圖例屬性。
+second_title: Aspose.Sildes for .NET API 參考
+description: 表示圖表圖例的屬性。
 type: docs
-weight: 2150
+weight: 2170
 url: /zh-hant/aspose.slides.charts/ilegendentryproperties/
 ---
 ## ILegendEntryProperties 介面
 
-表示圖表的圖例屬性。
+表示圖表圖例的屬性。
 
 ```csharp
 public interface ILegendEntryProperties : IFormattedTextContainer
@@ -19,9 +19,9 @@ public interface ILegendEntryProperties : IFormattedTextContainer
 | 名稱 | 說明 |
 | --- | --- |
 | [AsIFormattedTextContainer](../../aspose.slides.charts/ilegendentryproperties/asiformattedtextcontainer) { get; } | 允許取得基礎 IFormattedTextContainer 介面。唯讀 [`IFormattedTextContainer`](../iformattedtextcontainer)。 |
-| [Hide](../../aspose.slides.charts/ilegendentryproperties/hide) { get; set; } | 取得或設定圖例項目的隱藏旗標。可讀寫 Boolean。 |
+| [Hide](../../aspose.slides.charts/ilegendentryproperties/hide) { get; set; } | 返回或設定圖例項目的隱藏旗標。讀寫 Boolean。 |
 
-### 參見
+### 另見
 
 * 介面 [IFormattedTextContainer](../iformattedtextcontainer)
 * 命名空間 [Aspose.Slides.Charts](../../aspose.slides.charts)

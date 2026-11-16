@@ -1,14 +1,14 @@
 ---
 title: IAlphaModulate
-second_title: Aspose.Sildes a .NET API referenciához
-description: Alpha Modulate hatást reprezentál. A hatás alfa átlátszósági értékeit egy rögzített százalékkal szorozzák. A hatástartó egy olyan hatást határoz meg, amely alfa értékeket tartalmaz a moduláláshoz.
+second_title: Aspose.Sildes .NET API Referenciája
+description: Egy Alpha Modulate effektust képvisel. A hatás alfa (átlátszóság) értékeit egy rögzített százalékkal szorozzák. A hatáselem egy olyan effektust határoz meg, amely alfa értékeket modulál.
 type: docs
-weight: 3100
+weight: 3120
 url: /hu/aspose.slides.effects/ialphamodulate/
 ---
 ## IAlphaModulate interfész
 
-Alpha Modulate hatást reprezentál. A hatás alfa (átlátszóság) értékeit egy rögzített százalékkal szorozzák. A hatástartó egy olyan hatást határoz meg, amely alfa értékeket tartalmaz a moduláláshoz.
+Az Alpha Modulate effektust képviseli. A hatás alfa (átlátszóság) értékeit egy rögzített százalékkal szorozzák. A hatáselem egy olyan effektust ad meg, amely alfa értékeket modulál.
 
 ```csharp
 public interface IAlphaModulate : IAccessiblePVIObject<IAlphaModulateEffectiveData>, 

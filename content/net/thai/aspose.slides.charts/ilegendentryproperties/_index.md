@@ -1,14 +1,14 @@
 ---
 title: ILegendEntryProperties
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงคุณสมบัติคำอธิบายของแผนภูมิ
+description: เป็นตัวแทนของคุณสมบัติของคำอธิบายในแผนภูมิ
 type: docs
-weight: 2150
+weight: 2170
 url: /th/aspose.slides.charts/ilegendentryproperties/
 ---
 ## ILegendEntryProperties อินเทอร์เฟซ
 
-แสดงคุณสมบัติคำอธิบายของแผนภูมิ
+เป็นตัวแทนของคุณสมบัติของคำอธิบายในแผนภูมิ.
 
 ```csharp
 public interface ILegendEntryProperties : IFormattedTextContainer
@@ -19,7 +19,7 @@ public interface ILegendEntryProperties : IFormattedTextContainer
 | ชื่อ | คำอธิบาย |
 | --- | --- |
 | [AsIFormattedTextContainer](../../aspose.slides.charts/ilegendentryproperties/asiformattedtextcontainer) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IFormattedTextContainer พื้นฐาน. อ่านอย่างเดียว [`IFormattedTextContainer`](../iformattedtextcontainer). |
-| [Hide](../../aspose.slides.charts/ilegendentryproperties/hide) { get; set; } | คืนค่า หรือกำหนดแฟล็กการซ่อนของรายการคำอธิบาย. อ่าน/เขียน Boolean. |
+| [Hide](../../aspose.slides.charts/ilegendentryproperties/hide) { get; set; } | คืนค่า หรือ ตั้งค่าธงซ่อนของรายการคำอธิบาย. อ่าน/เขียน Boolean. |
 
 ### ดูเพิ่มเติม
 

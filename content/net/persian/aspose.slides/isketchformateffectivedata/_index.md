@@ -1,14 +1,14 @@
 ---
 title: ISketchFormatEffectiveData
-second_title: Aspose.Sildes برای مرجع API .NET
-description: شیء غیرقابل تغییر که شامل ویژگی‌های خط طرح مؤثر است.
+second_title: مرجع API Aspose.Sildes برای .NET
+description: شیء غیرقابل تغییر که ویژگی‌های مؤثر خط Sketch را شامل می‌شود.
 type: docs
-weight: 7030
+weight: 7050
 url: /fa/aspose.slides/isketchformateffectivedata/
 ---
 ## ISketchFormatEffectiveData رابط
 
-شیء غیرقابل تغییر که شامل ویژگی‌های خط طرح مؤثر است.
+شیء غیرقابل تغییر که ویژگی‌های خط Sketch مؤثر را شامل می‌شود.
 
 ```csharp
 public interface ISketchFormatEffectiveData
@@ -18,9 +18,9 @@ public interface ISketchFormatEffectiveData
 
 | نام | توضیح |
 | --- | --- |
-| [SketchType](../../aspose.slides/isketchformateffectivedata/sketchtype) { get; } | نوع طرح را برمی‌گرداند. فقط خواندنی [`LineSketchType`](../linesketchtype). |
+| [SketchType](../../aspose.slides/isketchformateffectivedata/sketchtype) { get; } | نوع Sketch را برمی‌گرداند. فقط خواندنی [`LineSketchType`](../linesketchtype). |
 
-### توضیحات
+### نکات
 
 این رابط به عنوان بخشی از [`ILineFormatEffectiveData`](../ilineformateffectivedata) استفاده می‌شود.
 

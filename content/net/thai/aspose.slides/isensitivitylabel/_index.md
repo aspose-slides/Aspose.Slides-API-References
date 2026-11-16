@@ -1,14 +1,14 @@
 ---
 title: ISensitivityLabel
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงป้ายความอ่อนไหวจาก Microsoft Purview Information Protection.
+second_title: Aspose.Sildes สำหรับเอกสารอ้างอิง API ของ .NET
+description: แสดงแทนป้ายความสำคัญจาก Microsoft Purview Information Protection.
 type: docs
-weight: 6930
+weight: 6950
 url: /th/aspose.slides/isensitivitylabel/
 ---
 ## ISensitivityLabel อินเทอร์เฟซ
 
-แสดงถึงป้ายความอ่อนไหวจาก Microsoft Purview Information Protection.
+แสดงแทนป้ายความสำคัญจาก Microsoft Purview Information Protection.
 
 ```csharp
 public interface ISensitivityLabel
@@ -16,14 +16,14 @@ public interface ISensitivityLabel
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [AssignmentMethodType](../../aspose.slides/isensitivitylabel/assignmentmethodtype) { get; set; } | คืนค่า หรือกำหนดวิธีการมอบหมายสำหรับป้ายความอ่อนไหว อ่าน/เขียน [`SensitivityLabelAssignmentType`](../sensitivitylabelassignmenttype). |
-| [ContentMarkTypes](../../aspose.slides/isensitivitylabel/contentmarktypes) { get; } | คืนรายการประเภทของการทำเครื่องหมายเนื้อหาที่ควรใช้กับไฟล์. |
-| [Id](../../aspose.slides/isensitivitylabel/id) { get; set; } | คืนค่า หรือกำหนดรหัสของป้ายความอ่อนไหว อ่าน/เขียน String. |
-| [IsEnabled](../../aspose.slides/isensitivitylabel/isenabled) { get; set; } | บ่งชี้ว่าป้ายความอ่อนไหวเปิดใช้งานอยู่หรือไม่. |
-| [IsRemoved](../../aspose.slides/isensitivitylabel/isremoved) { get; set; } | บ่งชี้ว่าป้ายความอ่อนไหวถูกลบหรือไม่. |
-| [SiteId](../../aspose.slides/isensitivitylabel/siteid) { get; set; } | คืนค่า หรือกำหนดตัวระบุไซต์ของ Azure Active Directory (Azure AD) ที่สอดคล้องกับนโยบายป้ายความอ่อนไหวที่อธิบายป้ายความอ่อนไหว อ่าน/เขียน Guid. |
+| [AssignmentMethodType](../../aspose.slides/isensitivitylabel/assignmentmethodtype) { get; set; } | ส่งคืนหรือกำหนดวิธีการมอบหมายสำหรับป้ายความสำคัญ. อ่าน/เขียน [`SensitivityLabelAssignmentType`](../sensitivitylabelassignmenttype). |
+| [ContentMarkTypes](../../aspose.slides/isensitivitylabel/contentmarktypes) { get; } | ส่งคืนรายการประเภทของการทำเครื่องหมายเนื้อหาที่ควรใช้กับไฟล์. |
+| [Id](../../aspose.slides/isensitivitylabel/id) { get; set; } | ส่งคืนหรือกำหนด id ของป้ายความสำคัญ. อ่าน/เขียน String. |
+| [IsEnabled](../../aspose.slides/isensitivitylabel/isenabled) { get; set; } | ระบุว่าป้ายความสำคัญถูกเปิดใช้งานหรือไม่. |
+| [IsRemoved](../../aspose.slides/isensitivitylabel/isremoved) { get; set; } | ระบุว่าป้ายความสำคัญถูกลบหรือไม่. |
+| [SiteId](../../aspose.slides/isensitivitylabel/siteid) { get; set; } | ส่งคืนหรือกำหนดตัวระบุไซต์ Azure Active Directory (Azure AD) ที่สอดคล้องกับนโยบายป้ายความสำคัญที่อธิบายป้ายความสำคัญ. อ่าน/เขียน Guid. |
 
 ### ดูเพิ่มเติม
 

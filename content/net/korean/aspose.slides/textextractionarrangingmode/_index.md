@@ -1,9 +1,9 @@
 ---
 title: TextExtractionArrangingMode
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 텍스트 추출 중에 사용할 모드를 나타냅니다
 type: docs
-weight: 10940
+weight: 10960
 url: /ko/aspose.slides/textextractionarrangingmode/
 ---
 ## TextExtractionArrangingMode 열거형
@@ -19,9 +19,9 @@ public enum TextExtractionArrangingMode
 | 이름 | 값 | 설명 |
 | --- | --- | --- |
 | Unarranged | `0` | 슬라이드상의 위치를 고려하지 않은 원시 텍스트 |
-| Arranged | `1` | 텍스트가 슬라이드와 동일한 순서로 배치됩니다 |
+| Arranged | `1` | 텍스트가 슬라이드와 동일한 순서대로 배치됩니다 |
 
-### 참조
+### 참고
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

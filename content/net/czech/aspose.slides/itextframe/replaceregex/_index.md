@@ -1,9 +1,9 @@
 ---
 title: ReplaceRegex
-second_title: Aspose.Sildes pro .NET API Reference
+second_title: Aspose.Sildes pro .NET – referenční příručka API
 description: Nahradí všechny shody regulárního výrazu zadaným řetězcem.
 type: docs
-weight: 110
+weight: 120
 url: /cs/aspose.slides/itextframe/replaceregex/
 ---
 ## ITextFrame.ReplaceRegex metoda
@@ -16,20 +16,20 @@ public void ReplaceRegex(Regex regex, string newText, IFindResultCallback callba
 
 | Parametr | Typ | Popis |
 | --- | --- | --- |
-| regex | Regex | Regulární výraz Regex sloužící k získání řetězců, které mají být nahrazeny. |
-| newText | String | Řetězec, který nahradí všechny výskyty řetězců, které mají být nahrazeny. |
-| callback | IFindResultCallback | Objekt zpětného volání pro příjem výsledků vyhledávání [`IFindResultCallback`](../../ifindresultcallback). |
+| regex | Regex | Regulární výraz Regex pro získání řetězců, které se mají nahradit. |
+| newText | String | Řetězec pro nahrazení všech výskytů řetězců, které mají být nahrazeny. |
+| callback | IFindResultCallback | Objekt zpětného volání pro přijímání výsledků hledání [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### Příklady
 
-Následující ukázka kódu ukazuje, jak nahradit text pomocí regulárního výrazu zadaným řetězcem.
+Následující ukázkový kód ukazuje, jak nahradit text pomocí regulárního výrazu zadaným řetězcem.
 
 ```csharp
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
 	Regex regex = new Regex(@"\b[^\s]{10,}\b");
-	// Nahradí všechna slova s 10 nebo více znaky znakem '***'
+	// Nahradí všechna slova s 10 a více znaky řetězcem '***'
 	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.ReplaceRegex(regex, "***", null);
 	presentation.Save("SomePresentation-out.pptx", SaveFormat.Pptx);
 }

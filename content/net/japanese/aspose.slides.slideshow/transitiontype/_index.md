@@ -1,45 +1,45 @@
 ---
 title: TransitionType
 second_title: Aspose.Sildes for .NET API リファレンス
-description: スライドショーの遷移タイプを表します。
+description: スライドショーのトランジションタイプを表します。
 type: docs
-weight: 10450
+weight: 10470
 url: /ja/aspose.slides.slideshow/transitiontype/
 ---
 ## TransitionType 列挙型
 
-スライドショーの遷移タイプを表します。
+スライドショーのトランジションタイプを表します。
 
 ```csharp
 public enum TransitionType
 ```
 
-### Values
+### 値
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
 | None | `0` |  |
 | Blinds | `1` |  |
 | Checker | `2` |  |
-| Circle | `3` | PowerPoint 2010 の transition Shape（オプション Circle）に関連します。 |
+| Circle | `3` | PowerPoint 2010 のトランジション Shape（オプション Circle）に関連しています。 |
 | Comb | `4` |  |
 | Cover | `5` |  |
 | Cut | `6` |  |
-| Diamond | `7` | PowerPoint 2010 の transition Shape（オプション Diamond）に関連します。 |
+| Diamond | `7` | PowerPoint 2010 のトランジション Shape（オプション Diamond）に関連しています。 |
 | Dissolve | `8` |  |
 | Fade | `9` |  |
 | Newsflash | `10` |  |
-| Plus | `11` | PowerPoint 2010 の transition Shape（オプション Plus）に関連します。 |
+| Plus | `11` | PowerPoint 2010 のトランジション Shape（オプション Plus）に関連しています。 |
 | Pull | `12` |  |
 | Push | `13` |  |
 | Random | `14` |  |
 | RandomBar | `15` |  |
-| Split | `16` | PowerPoint 2010 の transition Wipe と同等です。 |
+| Split | `16` | PowerPoint 2010 のトランジション Wipe と同等です。 |
 | Strips | `17` |  |
-| Wedge | `18` | PowerPoint 2010 の transition Clock（オプション Wedge）に関連します。 |
-| Wheel | `19` | PowerPoint 2010 の transition Clock（オプション Clockwise）に関連します。 |
+| Wedge | `18` | PowerPoint 2010 のトランジション Clock（オプション Wedge）に関連しています。 |
+| Wheel | `19` | PowerPoint 2010 のトランジション Clock（オプション Clockwise）に関連しています。 |
 | Wipe | `20` |  |
-| Zoom | `21` | PowerPoint 2010 の transition Shape（オプション In/Out）に関連します。PowerPoint 2010 の transition Zoom に関連する Warp も参照してください。 |
+| Zoom | `21` | PowerPoint 2010 のトランジション Shape（オプション In/Out）に関連しています。PowerPoint 2010 のトランジション Zoom に関連する Warp も参照してください。 |
 | Vortex | `22` | PowerPoint 2010 で利用可能です。 |
 | Switch | `23` | PowerPoint 2010 で利用可能です。 |
 | Flip | `24` | PowerPoint 2010 で利用可能です。 |
@@ -56,12 +56,12 @@ public enum TransitionType
 | Conveyor | `35` | PowerPoint 2010 で利用可能です。 |
 | Pan | `36` | PowerPoint 2010 で利用可能です。 |
 | Glitter | `37` | PowerPoint 2010 で利用可能です。 |
-| Warp | `38` | PowerPoint 2010 の transition Zoom に関連します。PowerPoint 2010 で利用可能です。 |
+| Warp | `38` | PowerPoint 2010 のトランジション Zoom に関連しています。PowerPoint 2010 で利用可能です。 |
 | Flythrough | `39` | PowerPoint 2010 で利用可能です。 |
 | Flash | `40` | PowerPoint 2010 で利用可能です。 |
 | Shred | `41` | PowerPoint 2010 で利用可能です。 |
 | Reveal | `42` | PowerPoint 2010 で利用可能です。 |
-| WheelReverse | `43` | PowerPoint 2010 の transition Clock（オプション Counterclockwise）に関連します。PowerPoint 2010 で利用可能です。 |
+| WheelReverse | `43` | PowerPoint 2010 のトランジション Clock（オプション Counterclockwise）に関連しています。PowerPoint 2010 で利用可能です。 |
 | FallOver | `44` | PowerPoint 2013 で利用可能です。 |
 | Drape | `45` | PowerPoint 2013 で利用可能です。 |
 | Curtains | `46` | PowerPoint 2013 で利用可能です。 |
@@ -74,7 +74,7 @@ public enum TransitionType
 | PageCurlSingle | `53` | PowerPoint 2013 で利用可能です。 |
 | Airplane | `54` | PowerPoint 2013 で利用可能です。 |
 | Origami | `55` | PowerPoint 2013 で利用可能です。 |
-| Morph | `56` | PowerPoint 2019 の transition Morph（オプション Type）に関連します。 |
+| Morph | `56` | PowerPoint 2019 のトランジション Morph（オプション Type）に関連しています。 |
 
 ### 参照
 

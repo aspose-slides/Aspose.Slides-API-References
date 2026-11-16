@@ -3,7 +3,7 @@ title: INotesSize
 second_title: Aspose.Sildes for .NET API 참조
 description: 노트 슬라이드의 크기를 나타냅니다.
 type: docs
-weight: 6490
+weight: 6510
 url: /ko/aspose.slides/inotessize/
 ---
 ## INotesSize 인터페이스
@@ -18,9 +18,9 @@ public interface INotesSize
 
 | 이름 | 설명 |
 | --- | --- |
-| [Size](../../aspose.slides/inotessize/size) { get; set; } | 포인트 단위로 크기를 반환하거나 설정합니다. 읽기/쓰기 SizeF. |
+| [Size](../../aspose.slides/inotessize/size) { get; set; } | 포인트 단위의 크기를 반환하거나 설정합니다. 읽기/쓰기 SizeF. |
 
-### 참조
+### 참고
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: ChartTextFormat
-second_title: Aspose.Sildes .NET के लिए API संदर्भ
-description: चार्ट टेक्स्ट तत्वों के लिए डिफ़ॉल्ट टेक्स्ट फ़ॉर्मेटिंग निर्दिष्ट करता है।
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: चार्ट टेक्स्ट तत्वों के लिए डिफ़ॉल्ट टेक्स्ट फ़ॉर्मेट निर्दिष्ट करता है।
 type: docs
-weight: 1480
+weight: 1490
 url: /hi/aspose.slides.charts/charttextformat/
 ---
-## ChartTextFormat क्लास
+## ChartTextFormat वर्ग
 
-चार्ट टेक्स्ट तत्वों के लिए डिफ़ॉल्ट टेक्स्ट फॉर्मेटिंग निर्दिष्ट करता है।
+चार्ट टेक्स्ट तत्वों के लिए डिफ़ॉल्ट टेक्स्ट फ़ॉर्मेट को निर्दिष्ट करता है।
 
 ```csharp
 public class ChartTextFormat : IChartTextFormat
@@ -18,18 +18,18 @@ public class ChartTextFormat : IChartTextFormat
 
 | नाम | विवरण |
 | --- | --- |
-| [ParagraphFormat](../../aspose.slides.charts/charttextformat/paragraphformat) { get; } | ParagraphFormat. केवल-पढ़ने योग्य [`IChartParagraphFormat`](../ichartparagraphformat). |
-| [PortionFormat](../../aspose.slides.charts/charttextformat/portionformat) { get; } | PortionFormat. केवल-पढ़ने योग्य [`IChartPortionFormat`](../ichartportionformat). |
-| [TextBlockFormat](../../aspose.slides.charts/charttextformat/textblockformat) { get; } | TextBlockFormat. केवल-पढ़ने योग्य [`IChartTextBlockFormat`](../icharttextblockformat). |
+| [ParagraphFormat](../../aspose.slides.charts/charttextformat/paragraphformat) { get; } | ParagraphFormat. केवल-पढ़ने-योग्य [`IChartParagraphFormat`](../ichartparagraphformat)। |
+| [PortionFormat](../../aspose.slides.charts/charttextformat/portionformat) { get; } | PortionFormat. केवल-पढ़ने-योग्य [`IChartPortionFormat`](../ichartportionformat)। |
+| [TextBlockFormat](../../aspose.slides.charts/charttextformat/textblockformat) { get; } | TextBlockFormat. केवल-पढ़ने-योग्य [`IChartTextBlockFormat`](../icharttextblockformat)। |
 
-## मेथड्स
+## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [CopyFrom](../../aspose.slides.charts/charttextformat/copyfrom)(ITextFrame) | निर्दिष्ट टेक्स्ट फ्रेम से टेक्स्ट फॉर्मेट कॉपी करता है। |
-| [CopyTo](../../aspose.slides.charts/charttextformat/copyto)(ITextFrame) | निर्दिष्ट टेक्स्ट फ्रेम में टेक्स्ट फॉर्मेट कॉपी करता है। |
+| [CopyFrom](../../aspose.slides.charts/charttextformat/copyfrom)(ITextFrame) | निर्दिष्ट टेक्स्ट फ्रेम से टेक्स्ट फ़ॉर्मेट की प्रतिलिपि बनाता है। |
+| [CopyTo](../../aspose.slides.charts/charttextformat/copyto)(ITextFrame) | निर्दिष्ट टेक्स्ट फ्रेम में टेक्स्ट फ़ॉर्मेट की प्रतिलिपि बनाता है। |
 
-### देखें
+### संबंधित देखें
 
 * इंटरफ़ेस [IChartTextFormat](../icharttextformat)
 * नेमस्पेस [Aspose.Slides.Charts](../../aspose.slides.charts)

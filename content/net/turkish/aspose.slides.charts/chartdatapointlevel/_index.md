@@ -1,14 +1,14 @@
 ---
 title: ChartDataPointLevel
 second_title: Aspose.Sildes için .NET API Referansı
-description: Veri noktası seviyesini temsil eder. Treemap ve Sunburst grafiklerine uygulanır.
+description: Veri noktası seviyesini temsil eder. Treemap ve Sunburst grafikleri için uygulanır.
 type: docs
-weight: 1350
+weight: 1360
 url: /tr/aspose.slides.charts/chartdatapointlevel/
 ---
-## ChartDataPointLevel sınıfı
+## ChartDataPointLevel sınıf
 
-Veri noktası seviyesini temsil eder. Treemap ve Sunburst grafiklerine uygulanır.
+Veri noktası seviyesini temsil eder. Treemap ve Sunburst grafiği için uygulanır.
 
 ```csharp
 public class ChartDataPointLevel : DomObject<ChartDataPointLevelsManager>, IChartDataPointLevel
@@ -18,10 +18,10 @@ public class ChartDataPointLevel : DomObject<ChartDataPointLevelsManager>, IChar
 
 | Ad | Açıklama |
 | --- | --- |
-| [Format](../../aspose.slides.charts/chartdatapointlevel/format) { get; } | Veri noktası seviyesinin biçimlendirme özelliklerini temsil eder. Okunur/Yazılabilir [`IFormat`](../iformat). |
-| [Label](../../aspose.slides.charts/chartdatapointlevel/label) { get; } | Veri noktası seviyesinin veri etiketini temsil eder. Treemap ve Sunburst serisi türleri için uygulanır. Salt okunur [`IDataLabel`](../idatalabel). |
+| [Format](../../aspose.slides.charts/chartdatapointlevel/format) { get; } | Veri noktası seviyesinin biçimlendirme özelliklerini temsil eder. Okunur/Yazılır [`IFormat`](../iformat). |
+| [Label](../../aspose.slides.charts/chartdatapointlevel/label) { get; } | Veri noktası seviyesinin veri etiketini temsil eder. Treemap ve Sunburst sereis tipleri için uygulanır. Salt-okunur [`IDataLabel`](../idatalabel). |
 
-### İlgili
+### Bakınız
 
 * sınıf [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * sınıf [ChartDataPointLevelsManager](../chartdatapointlevelsmanager)

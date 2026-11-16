@@ -1,14 +1,14 @@
 ---
 title: ReplaceText
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: निर्दिष्ट पाठ की सभी घटनाओं को दूसरे निर्दिष्ट पाठ से बदलता है।
+description: निर्दिष्ट पाठ के सभी उदाहरणों को दूसरे निर्दिष्ट पाठ से बदलता है।
 type: docs
-weight: 120
+weight: 130
 url: /hi/aspose.slides/itextframe/replacetext/
 ---
-## ITextFrame.ReplaceText विधि
+## ITextFrame.ReplaceText मेथड
 
-निर्दिष्ट पाठ की सभी घटनाओं को दूसरे निर्दिष्ट पाठ से बदलता है।
+निर्दिष्ट पाठ के सभी उदाहरणों को दूसरे निर्दिष्ट पाठ से बदलता है।
 
 ```csharp
 public void ReplaceText(string oldText, string newText, ITextSearchOptions options, 
@@ -17,20 +17,20 @@ public void ReplaceText(string oldText, string newText, ITextSearchOptions optio
 
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| oldText | String | बदला जाने वाला स्ट्रिंग। |
-| newText | String | oldText की सभी घटनाओं को बदलने वाला स्ट्रिंग। |
-| options | ITextSearchOptions | पाठ खोज विकल्प [`ITextSearchOptions`](../../itextsearchoptions). |
-| callback | IFindResultCallback | खोज परिणाम प्राप्त करने के लिए कॉलबैक ऑब्जेक्ट [`IFindResultCallback`](../../ifindresultcallback). |
+| oldText | String | बदले जाने वाला स्ट्रिंग। |
+| newText | String | सभी oldText के उदाहरणों को बदलने वाला स्ट्रिंग। |
+| options | ITextSearchOptions | पाठ खोज विकल्प [`ITextSearchOptions`](../../itextsearchoptions)। |
+| callback | IFindResultCallback | खोज परिणाम प्राप्त करने के लिए कॉलबैक ऑब्जेक्ट [`IFindResultCallback`](../../ifindresultcallback)। |
 
 ### उदाहरण
 
-निम्नलिखित नमूना कोड दिखाता है कि एक निर्दिष्ट स्ट्रिंग को दूसरी निर्दिष्ट स्ट्रिंग से कैसे बदलें।
+निम्नलिखित नमूना कोड दिखाता है कि कैसे एक निर्दिष्ट स्ट्रिंग को दूसरे निर्दिष्ट स्ट्रिंग से बदलें।
 
 ```csharp
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
-	// सभी अलग 'the' घटनाओं को '***' से बदलें
+	// सभी अलग-अलग 'the' उपस्थिति को '***' से बदलें
 	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.ReplaceText("the", "***", new TextSearchOptions()
 	{ WholeWordsOnly = true }, null);
 	presentation.Save("SomePresentation-out2.pptx", SaveFormat.Pptx);

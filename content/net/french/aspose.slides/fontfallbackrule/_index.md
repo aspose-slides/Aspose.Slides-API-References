@@ -3,7 +3,7 @@ title: FontFallBackRule
 second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Représente la règle de secours de police
 type: docs
-weight: 4840
+weight: 4860
 url: /fr/aspose.slides/fontfallbackrule/
 ---
 ## FontFallBackRule classe
@@ -27,21 +27,21 @@ public class FontFallBackRule : IFontFallBackRule
 | --- | --- |
 | [Count](../../aspose.slides/fontfallbackrule/count) { get; } | Obtient le nombre de polices réellement définies pour la plage. Lecture seule Int32. |
 | [Item](../../aspose.slides/fontfallbackrule/item) { get; } | Obtient le nom de la police à l'index spécifié. Lecture seule [`IFontFallBackRule`](../ifontfallbackrule). |
-| [RangeEndIndex](../../aspose.slides/fontfallbackrule/rangeendindex) { get; set; } | Obtient le dernier index de la plage Unicode continue. |
-| [RangeStartIndex](../../aspose.slides/fontfallbackrule/rangestartindex) { get; set; } | Obtient le premier index de la plage Unicode continue. |
+| [RangeEndIndex](../../aspose.slides/fontfallbackrule/rangeendindex) { get; set; } | Obtient le dernier indice de la plage Unicode continue. |
+| [RangeStartIndex](../../aspose.slides/fontfallbackrule/rangestartindex) { get; set; } | Obtient le premier indice de la plage Unicode continue. |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
-| [AddFallBackFonts](../../aspose.slides/fontfallbackrule/addfallbackfonts#addfallbackfonts)(string) | Ajoute une ou plusieurs nouvelles polices à la liste des polices FallBack. |
-| [AddFallBackFonts](../../aspose.slides/fontfallbackrule/addfallbackfonts#addfallbackfonts_1)(string[]) | Ajoute de nouvelles polices à la liste des polices FallBack. |
+| [AddFallBackFonts](../../aspose.slides/fontfallbackrule/addfallbackfonts#addfallbackfonts)(string) | Ajoute une ou plusieurs nouvelles polices à la liste des polices de secours. |
+| [AddFallBackFonts](../../aspose.slides/fontfallbackrule/addfallbackfonts#addfallbackfonts_1)(string[]) | Ajoute de nouvelles polices à la liste des polices de secours. |
 | [Clear](../../aspose.slides/fontfallbackrule/clear)() | Supprime toutes les polices de la liste. |
-| [IndexOf](../../aspose.slides/fontfallbackrule/indexof)(string) | Renvoie l'index de la règle spécifiée dans la collection. |
-| [Remove](../../aspose.slides/fontfallbackrule/remove)(string) | Supprime la première occurrence d'une police FallBack spécifique de la liste. |
-| [RemoveAt](../../aspose.slides/fontfallbackrule/removeat)(int) | Supprime la police FallBack à l'index spécifié de la liste. |
-| [ToArray](../../aspose.slides/fontfallbackrule/toarray#toarray)() | Crée et renvoie un tableau contenant toutes les polices FallBack pour cette règle. |
-| [ToArray](../../aspose.slides/fontfallbackrule/toarray#toarray_1)(int, int) | Crée et renvoie un tableau contenant toutes les polices FallBack de la plage spécifiée dans la liste. |
+| [IndexOf](../../aspose.slides/fontfallbackrule/indexof)(string) | Renvoie l'indice de la règle spécifiée dans la collection. |
+| [Remove](../../aspose.slides/fontfallbackrule/remove)(string) | Supprime la première occurrence d'une police de secours spécifique de la liste. |
+| [RemoveAt](../../aspose.slides/fontfallbackrule/removeat)(int) | Supprime la police de secours à l'indice spécifié de la liste. |
+| [ToArray](../../aspose.slides/fontfallbackrule/toarray#toarray)() | Crée et renvoie un tableau contenant toutes les polices de secours pour cette règle. |
+| [ToArray](../../aspose.slides/fontfallbackrule/toarray#toarray_1)(int, int) | Crée et renvoie un tableau contenant toutes les polices de secours de la plage spécifiée dans la liste. |
 
 ### Voir aussi
 

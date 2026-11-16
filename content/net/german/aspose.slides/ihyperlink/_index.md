@@ -3,7 +3,7 @@ title: IHyperlink
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt einen Hyperlink dar.
 type: docs
-weight: 6110
+weight: 6130
 url: /de/aspose.slides/ihyperlink/
 ---
 ## IHyperlink Schnittstelle
@@ -14,21 +14,21 @@ Stellt einen Hyperlink dar.
 public interface IHyperlink
 ```
 
-## Properties
+## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
 | [ActionType](../../aspose.slides/ihyperlink/actiontype) { get; } | Gibt den Typ der Aktion von HyperLinkEx zurück. Nur-Lesen [`HyperlinkActionType`](../hyperlinkactiontype). |
-| [ColorSource](../../aspose.slides/ihyperlink/colorsource) { get; set; } | Stellt die Quelle der Hyperlink-Farbe dar – entweder Stile oder Portionenformat. Lesen/Schreiben [`HyperlinkColorSource`](../hyperlinkcolorsource). |
-| [ExternalUrl](../../aspose.slides/ihyperlink/externalurl) { get; } | Gibt die externe URL an. Wenn diese Eigenschaft nicht null wird, ist die Eigenschaft TargetSlide null. Nur-Lesen String. |
-| [ExternalUrlOriginal](../../aspose.slides/ihyperlink/externalurloriginal) { get; } | Stellt einen Hyperlink dar, der für diesen Abschnitt festgelegt ist, ohne Rücksicht auf den tatsächlichen Inhalt des Abschnitts. PowerPoint verhält sich speziell für Links und den zugehörigen Text in einem Abschnitt. Es ermöglicht, Text für den Hyperlink in Form einer gültigen URL zu erstellen, die von der tatsächlichen Adresse des Links abweicht. In diesem Fall wird beim Anzeigen des Links im Bearbeitungsfenster der Textabschnitt angepasst. Diese Eigenschaft stellt den ursprünglichen Wert des Hyperlinks dar. |
-| [HighlightClick](../../aspose.slides/ihyperlink/highlightclick) { get; set; } | Bestimmt, ob der Hyperlink bei einem Klick hervorgehoben werden soll. Lesen/Schreiben Boolean. |
-| [History](../../aspose.slides/ihyperlink/history) { get; set; } | Bestimmt, ob das Ziel des übergeordneten Hyperlinks bei Aufruf zu einer Liste der angesehenen Hyperlinks hinzugefügt werden soll. Lesen/Schreiben Boolean. |
-| [Sound](../../aspose.slides/ihyperlink/sound) { get; set; } | Stellt das Abspielen des Sounds des Hyperlinks dar. Lesen/Schreiben [`IAudio`](../iaudio). |
-| [StopSoundOnClick](../../aspose.slides/ihyperlink/stopsoundonclick) { get; set; } | Bestimmt, ob der Sound beim Klick auf den Hyperlink gestoppt werden soll. Lesen/Schreiben Boolean. |
-| [TargetFrame](../../aspose.slides/ihyperlink/targetframe) { get; set; } | Gibt das Frame innerhalb des übergeordneten HTML-Framesets für das Ziel des übergeordneten Hyperlinks zurück, sofern vorhanden. Lesen/Schreiben String. |
-| [TargetSlide](../../aspose.slides/ihyperlink/targetslide) { get; } | Wenn HyperLinkEx eine bestimmte Folie anvisiert, wird diese Folie zurückgegeben. Wenn diese Eigenschaft nicht null wird, ist die Eigenschaft ExternalUrl null. Nur-Lesen [`ISlide`](../islide). |
-| [Tooltip](../../aspose.slides/ihyperlink/tooltip) { get; set; } | Gibt die Zeichenkette zurück, die in einer Benutzeroberfläche als mit dem übergeordneten Hyperlink verbunden angezeigt werden kann. Lesen/Schreiben String. |
+| [ColorSource](../../aspose.slides/ihyperlink/colorsource) { get; set; } | Stellt die Quelle der Hyperlink-Farbe dar – entweder Stile oder Abschnittsformat. Lesen/Schreiben [`HyperlinkColorSource`](../hyperlinkcolorsource). |
+| [ExternalUrl](../../aspose.slides/ihyperlink/externalurl) { get; } | Gibt die externe URL an. Wenn diese Eigenschaft nicht null ist, wird die Eigenschaft TargetSlide null. Nur-Lesen String. |
+| [ExternalUrlOriginal](../../aspose.slides/ihyperlink/externalurloriginal) { get; } | Stellt einen Hyperlink dar, der für diesen Abschnitt festgelegt ist, unabhängig vom tatsächlichen Inhalt des Abschnitts. PowerPoint verhält sich speziell für Links und den entsprechenden Text in einem Abschnitt. Es ermöglicht, Text für den Hyperlink in Form einer gültigen URL zu erstellen, die von der echten Adresse des Links abweicht. In diesem Fall wird beim Anzeigen des Links im Bearbeitungsfenster der Textabschnitt angepasst. Diese Eigenschaft stellt den ursprünglichen Wert des Hyperlinks dar. |
+| [HighlightClick](../../aspose.slides/ihyperlink/highlightclick) { get; set; } | Bestimmt, ob der Hyperlink beim Klicken hervorgehoben werden soll. Lesen/Schreiben Boolean. |
+| [History](../../aspose.slides/ihyperlink/history) { get; set; } | Bestimmt, ob das Ziel des übergeordneten Hyperlinks zur Liste der angesehenen Hyperlinks hinzugefügt werden soll, wenn es aufgerufen wird. Lesen/Schreiben Boolean. |
+| [Sound](../../aspose.slides/ihyperlink/sound) { get; set; } | Stellt den abspielenden Ton des Hyperlinks dar. Lesen/Schreiben [`IAudio`](../iaudio). |
+| [StopSoundOnClick](../../aspose.slides/ihyperlink/stopsoundonclick) { get; set; } | Bestimmt, ob der Ton beim Klicken auf den Hyperlink gestoppt werden soll. Lesen/Schreiben Boolean. |
+| [TargetFrame](../../aspose.slides/ihyperlink/targetframe) { get; set; } | Gibt das Frame im übergeordneten HTML-Frameset für das Ziel des übergeordneten Hyperlinks zurück, sofern vorhanden. Lesen/Schreiben String. |
+| [TargetSlide](../../aspose.slides/ihyperlink/targetslide) { get; } | Wenn HyperlinkEx eine bestimmte Folie adressiert, wird diese Folie zurückgegeben. Wenn diese Eigenschaft nicht null wird, wird die Eigenschaft ExternalUrl null. Nur-Lesen [`ISlide`](../islide). |
+| [Tooltip](../../aspose.slides/ihyperlink/tooltip) { get; set; } | Gibt die Zeichenkette zurück, die in einer Benutzeroberfläche in Zusammenhang mit dem übergeordneten Hyperlink angezeigt werden kann. Lesen/Schreiben String. |
 
 ## Methoden
 

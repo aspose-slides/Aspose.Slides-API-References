@@ -1,9 +1,9 @@
 ---
 title: Marker
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk .NET Referensi API
 description: Menentukan penanda data. Hanya baca IMarkeraspose.slides.charts/imarker.
 type: docs
-weight: 150
+weight: 190
 url: /id/aspose.slides.charts/chartdatapoint/marker/
 ---
 ## ChartDataPoint.Marker properti

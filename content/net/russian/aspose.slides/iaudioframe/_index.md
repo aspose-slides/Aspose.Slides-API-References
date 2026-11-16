@@ -1,14 +1,14 @@
 ---
 title: IAudioFrame
-second_title: Справочник API Aspose.Sildes для .NET
-description: Представляет аудио-клип на слайде.
+second_title: Aspose.Sildes для .NET API Reference
+description: Представляет аудиоклип на слайде.
 type: docs
-weight: 5230
+weight: 5250
 url: /ru/aspose.slides/iaudioframe/
 ---
 ## IAudioFrame интерфейс
 
-Представляет аудио-клип на слайде.
+Представляет аудиоклип на слайде.
 
 ```csharp
 public interface IAudioFrame : IPictureFrame
@@ -16,30 +16,30 @@ public interface IAudioFrame : IPictureFrame
 
 ## Свойства
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
 | [AsIPictureFrame](../../aspose.slides/iaudioframe/asipictureframe) { get; } | Позволяет получить базовый интерфейс IPictureFrame. Только для чтения [`IPictureFrame`](../ipictureframe). |
-| [AudioCdEndTrack](../../aspose.slides/iaudioframe/audiocdendtrack) { get; set; } | Возвращает или задает индекс последней дорожки. Чтение/запись Int32. |
-| [AudioCdEndTrackTime](../../aspose.slides/iaudioframe/audiocdendtracktime) { get; set; } | Возвращает или задает время последней дорожки. Чтение/запись Int32. |
-| [AudioCdStartTrack](../../aspose.slides/iaudioframe/audiocdstarttrack) { get; set; } | Возвращает или задает индекс начальной дорожки. Чтение/запись Int32. |
-| [AudioCdStartTrackTime](../../aspose.slides/iaudioframe/audiocdstarttracktime) { get; set; } | Возвращает или задает время начальной дорожки. Чтение/запись Int32. |
-| [CaptionTracks](../../aspose.slides/iaudioframe/captiontracks) { get; } | Получает коллекцию закрытых субтитров, связанных с аудио-кадром. Это свойство только для чтения и возвращает [`ICaptionsCollection`](../icaptionscollection) со всеми дорожками субтитров. |
+| [AudioCdEndTrack](../../aspose.slides/iaudioframe/audiocdendtrack) { get; set; } | Возвращает или задает индекс последнего трека. Чтение/запись Int32. |
+| [AudioCdEndTrackTime](../../aspose.slides/iaudioframe/audiocdendtracktime) { get; set; } | Возвращает или задает время последнего трека. Чтение/запись Int32. |
+| [AudioCdStartTrack](../../aspose.slides/iaudioframe/audiocdstarttrack) { get; set; } | Возвращает или задает индекс начального трека. Чтение/запись Int32. |
+| [AudioCdStartTrackTime](../../aspose.slides/iaudioframe/audiocdstarttracktime) { get; set; } | Возвращает или задает время начального трека. Чтение/запись Int32. |
+| [CaptionTracks](../../aspose.slides/iaudioframe/captiontracks) { get; } | Получает коллекцию закрытых субтитров, связанных с аудиофреймом. Это свойство только для чтения и возвращает [`ICaptionsCollection`](../icaptionscollection), содержащий все дорожки субтитров. |
 | [Embedded](../../aspose.slides/iaudioframe/embedded) { get; } | Определяет, встроен ли звук в презентацию. Только для чтения Boolean. |
-| [EmbeddedAudio](../../aspose.slides/iaudioframe/embeddedaudio) { get; set; } | Возвращает или задает встроенный объект аудио. Чтение/запись [`IAudio`](../iaudio). |
-| [FadeInDuration](../../aspose.slides/iaudioframe/fadeinduration) { get; set; } | Указывает продолжительность начального плавного появления медиаданных в миллисекундах. Чтение/запись Single. |
-| [FadeOutDuration](../../aspose.slides/iaudioframe/fadeoutduration) { get; set; } | Указывает продолжительность конечного плавного затухания медиаданных в миллисекундах. Чтение/запись Single. |
+| [EmbeddedAudio](../../aspose.slides/iaudioframe/embeddedaudio) { get; set; } | Возвращает или задает встроенный аудио-объект. Чтение/запись [`IAudio`](../iaudio). |
+| [FadeInDuration](../../aspose.slides/iaudioframe/fadeinduration) { get; set; } | Задает длительность начального плавного появления медиа в миллисекундах. Чтение/запись Single. |
+| [FadeOutDuration](../../aspose.slides/iaudioframe/fadeoutduration) { get; set; } | Задает длительность конечного плавного исчезновения медиа в миллисекундах. Чтение/запись Single. |
 | [HideAtShowing](../../aspose.slides/iaudioframe/hideatshowing) { get; set; } | Определяет, скрыт ли AudioFrame. Чтение/запись Boolean. |
 | [LinkPathLong](../../aspose.slides/iaudioframe/linkpathlong) { get; set; } | Возвращает или задает имя аудиофайла, связанного с AudioFrame. Чтение/запись String. |
-| [PlayAcrossSlides](../../aspose.slides/iaudioframe/playacrossslides) { get; set; } | Определяет, воспроизводится ли аудио на протяжении всех слайдов. Чтение/запись Boolean. |
-| [PlayLoopMode](../../aspose.slides/iaudioframe/playloopmode) { get; set; } | Определяет, зациклено ли аудио. Чтение/запись Boolean. |
+| [PlayAcrossSlides](../../aspose.slides/iaudioframe/playacrossslides) { get; set; } | Определяет, воспроизводится ли аудио на всех слайдах. Чтение/запись Boolean. |
+| [PlayLoopMode](../../aspose.slides/iaudioframe/playloopmode) { get; set; } | Определяет, зациклен ли аудио. Чтение/запись Boolean. |
 | [PlayMode](../../aspose.slides/iaudioframe/playmode) { get; set; } | Возвращает или задает режим воспроизведения аудио. Чтение/запись [`AudioPlayModePreset`](../audioplaymodepreset). |
 | [RewindAudio](../../aspose.slides/iaudioframe/rewindaudio) { get; set; } | Определяет, будет ли аудио автоматически перемотано к началу после воспроизведения. Чтение/запись Boolean. |
-| [TrimFromEnd](../../aspose.slides/iaudioframe/trimfromend) { get; set; } | Указывает продолжительность времени, удаляемую с конца медиаданных во время воспроизведения, в миллисекундах. Чтение/запись Single. |
-| [TrimFromStart](../../aspose.slides/iaudioframe/trimfromstart) { get; set; } | Указывает продолжительность времени, удаляемую с начала медиаданных во время воспроизведения, в миллисекундах. Чтение/запись Single. |
+| [TrimFromEnd](../../aspose.slides/iaudioframe/trimfromend) { get; set; } | Задает длительность, которую следует убрать с конца медиа при воспроизведении, в миллисекундах. Чтение/запись Single. |
+| [TrimFromStart](../../aspose.slides/iaudioframe/trimfromstart) { get; set; } | Задает длительность, которую следует убрать с начала медиа при воспроизведении, в миллисекундах. Чтение/запись Single. |
 | [Volume](../../aspose.slides/iaudioframe/volume) { get; set; } | Возвращает или задает громкость аудио. Чтение/запись [`AudioVolumeMode`](../audiovolumemode). |
 | [VolumeValue](../../aspose.slides/iaudioframe/volumevalue) { get; set; } | Возвращает или задает громкость аудио в процентах. Чтение/запись Single. |
 
-### См. также
+### Смотрите также
 
 * интерфейс [IPictureFrame](../ipictureframe)
 * пространство имён [Aspose.Slides](../../aspose.slides)

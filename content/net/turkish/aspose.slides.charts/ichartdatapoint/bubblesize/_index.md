@@ -1,23 +1,23 @@
 ---
 title: BubbleSize
-second_title: Aspose.Sildes for .NET API Referansı
-description: Grafik veri noktasının balon boyutunu döndürür. Yalnızca okunabilir IDoubleChartValueaspose.slides.charts/idoublechartvalue.
+second_title: Aspose.Sildes .NET için API Referansı
+description: Bir grafik veri noktasının balon boyutunu alır. Yalnızca okunur IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
 weight: 20
 url: /tr/aspose.slides.charts/ichartdatapoint/bubblesize/
 ---
-## IChartDataPoint.BubbleSize özellik
+## IChartDataPoint.BubbleSize özelliği
 
-Grafik veri noktasının balon boyutunu döndürür. Yalnızca okunabilir [`IDoubleChartValue`](../../idoublechartvalue).
+Bir grafik veri noktasının balon boyutunu alır. Yalnızca okunur [`IDoubleChartValue`](../../idoublechartvalue).
 
 ```csharp
 public IDoubleChartValue BubbleSize { get; }
 ```
 
-### İlgili
+### Ayrıca Bakınız
 
-* arayüz [IDoubleChartValue](../../idoublechartvalue)
-* arayüz [IChartDataPoint](../../ichartdatapoint)
+* arabirim [IDoubleChartValue](../../idoublechartvalue)
+* arabirim [IChartDataPoint](../../ichartdatapoint)
 * ad alanı [Aspose.Slides.Charts](../../ichartdatapoint)
 * derleme [Aspose.Slides](../../../)
 

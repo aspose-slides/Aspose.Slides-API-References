@@ -3,7 +3,7 @@ title: IVideoFrame
 second_title: Aspose.Sildes для .NET справочник API
 description: Представляет видеоклип на слайде.
 type: docs
-weight: 7380
+weight: 7400
 url: /ru/aspose.slides/ivideoframe/
 ---
 ## IVideoFrame интерфейс
@@ -19,17 +19,18 @@ public interface IVideoFrame : IPictureFrame
 | Имя | Описание |
 | --- | --- |
 | [AsIPictureFrame](../../aspose.slides/ivideoframe/asipictureframe) { get; } | Позволяет получить базовый интерфейс IPictureFrame. Только для чтения [`IPictureFrame`](../ipictureframe). |
-| [CaptionTracks](../../aspose.slides/ivideoframe/captiontracks) { get; } | Возвращает коллекцию закрытых субтитров, связанных с аудио-кадром. Это свойство только для чтения и возвращает [`ICaptionsCollection`](../icaptionscollection) содержащий все дорожки субтитров. |
-| [EmbeddedVideo](../../aspose.slides/ivideoframe/embeddedvideo) { get; set; } | Возвращает или задает встроенный объект видео. Чтение/запись [`IVideo`](../ivideo). |
+| [CaptionTracks](../../aspose.slides/ivideoframe/captiontracks) { get; } | Получает коллекцию скрытых субтитров, связанных с аудио-кадром. Это свойство только для чтения и возвращает [`ICaptionsCollection`](../icaptionscollection), содержащий все дорожки субтитров. |
+| [EmbeddedVideo](../../aspose.slides/ivideoframe/embeddedvideo) { get; set; } | Возвращает или задает встроенный видеобъект. Чтение/запись [`IVideo`](../ivideo). |
 | [FullScreenMode](../../aspose.slides/ivideoframe/fullscreenmode) { get; set; } | Определяет, отображается ли видео в полноэкранном режиме. Чтение/запись Boolean. |
 | [HideAtShowing](../../aspose.slides/ivideoframe/hideatshowing) { get; set; } | Определяет, скрыт ли VideoFrame. Чтение/запись Boolean. |
 | [LinkPathLong](../../aspose.slides/ivideoframe/linkpathlong) { get; set; } | Возвращает или задает имя видеофайла, связанного с VideoFrame. Чтение/запись String. |
-| [PlayLoopMode](../../aspose.slides/ivideoframe/playloopmode) { get; set; } | Определяет, воспроизводится ли видео в цикле. Чтение/запись Boolean. |
+| [PlayLoopMode](../../aspose.slides/ivideoframe/playloopmode) { get; set; } | Определяет, воспроизводится ли видео в петле. Чтение/запись Boolean. |
 | [PlayMode](../../aspose.slides/ivideoframe/playmode) { get; set; } | Возвращает или задает режим воспроизведения видео. Чтение/запись [`VideoPlayModePreset`](../videoplaymodepreset). |
-| [RewindVideo](../../aspose.slides/ivideoframe/rewindvideo) { get; set; } | Определяет, будет ли видео автоматически перемотываться к началу сразу после завершения воспроизведения. Чтение/запись Boolean. |
-| [TrimFromEnd](../../aspose.slides/ivideoframe/trimfromend) { get; set; } | Обрезать конец [ms] |
-| [TrimFromStart](../../aspose.slides/ivideoframe/trimfromstart) { get; set; } | Обрезать начало [ms] |
+| [RewindVideo](../../aspose.slides/ivideoframe/rewindvideo) { get; set; } | Определяет, будет ли видео автоматически перемотано к началу после завершения воспроизведения. Чтение/запись Boolean. |
+| [TrimFromEnd](../../aspose.slides/ivideoframe/trimfromend) { get; set; } | Обрезать конец [мс] |
+| [TrimFromStart](../../aspose.slides/ivideoframe/trimfromstart) { get; set; } | Обрезать начало [мс] |
 | [Volume](../../aspose.slides/ivideoframe/volume) { get; set; } | Возвращает или задает громкость аудио. Чтение/запись [`AudioVolumeMode`](../audiovolumemode). |
+| [VolumeValue](../../aspose.slides/ivideoframe/volumevalue) { get; set; } | Возвращает или задает точную громкость видео в процентах. Значение выражается в процентах от 0 до 100. Используйте это свойство для чтения или задания значений громкости, более точных, чем предопределённые уровни, доступные через свойство [`Volume`](./volume). Чтение/запись Single. |
 
 ### См. также
 

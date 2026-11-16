@@ -3,10 +3,10 @@ title: GradientStyle
 second_title: Aspose.Sildes para la referencia de API de .NET
 description: Representa los estilos de degradado disponibles.
 type: docs
-weight: 5060
+weight: 5080
 url: /es/aspose.slides/gradientstyle/
 ---
-## Enumeración GradientStyle
+## GradientStyle enumeración
 
 Representa los estilos de degradado disponibles.
 

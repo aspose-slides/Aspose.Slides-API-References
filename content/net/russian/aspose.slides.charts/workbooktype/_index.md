@@ -1,14 +1,14 @@
 ---
 title: WorkbookType
-second_title: Aspose.Sildes для .NET справочник API
-description: Указывает тип файла рабочей книги Open XML.
+second_title: Aspose.Sildes для .NET API Справка
+description: Указывает тип файла книги Open XML.
 type: docs
-weight: 2510
+weight: 2530
 url: /ru/aspose.slides.charts/workbooktype/
 ---
 ## WorkbookType перечисление
 
-Указывает тип файла рабочей книги Open XML.
+Указывает тип файла книги Open XML.
 
 ```csharp
 public enum WorkbookType
@@ -18,12 +18,12 @@ public enum WorkbookType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| NotDefined | `-1` | Тип рабочей книги не определён. |
-| Workbook | `0` | Рабочая книга Excel (*.xlsx). |
-| WorkbookMacro | `1` | Рабочая книга Excel с поддержкой макросов (*.xlsm). |
+| NotDefined | `-1` | Тип книги не определён. |
+| Workbook | `0` | Книга Excel (*.xlsx). |
+| WorkbookMacro | `1` | Книга Excel с поддержкой макросов (*.xlsm). |
 | Template | `2` | Шаблон Excel (*.xltx). |
 | TemplateMacro | `3` | Шаблон Excel с поддержкой макросов (*.xltm). |
-| WorkbookBinaryMacro | `4` | Двоичная рабочая книга Excel с поддержкой макросов (*.xlsb). |
+| WorkbookBinaryMacro | `4` | Бинарная книга Excel с поддержкой макросов (*.xlsb). |
 
 ### См. также
 

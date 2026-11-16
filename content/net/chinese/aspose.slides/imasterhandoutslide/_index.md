@@ -1,9 +1,9 @@
 ---
 title: IMasterHandoutSlide
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 表示用于讲义的母版幻灯片。
 type: docs
-weight: 6350
+weight: 6370
 url: /zh/aspose.slides/imasterhandoutslide/
 ---
 ## IMasterHandoutSlide 接口
@@ -20,10 +20,10 @@ public interface IMasterHandoutSlide : IBaseSlide, IMasterThemeable
 | --- | --- |
 | [AsIBaseSlide](../../aspose.slides/imasterhandoutslide/asibaseslide) { get; } | 允许获取基础 IBaseSlide 接口。只读 [`IBaseSlide`](../ibaseslide)。 |
 | [AsIMasterThemeable](../../aspose.slides/imasterhandoutslide/asimasterthemeable) { get; } | 返回 IMasterThemeable 接口。只读 [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable)。 |
-| [DrawingGuides](../../aspose.slides/imasterhandoutslide/drawingguides) { get; } | 返回主讲义母版幻灯片的绘图参考线集合。只读 [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [HeaderFooterManager](../../aspose.slides/imasterhandoutslide/headerfootermanager) { get; } | 返回主讲义母版幻灯片的 HeaderFooter 管理器。只读 [`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager)。 |
+| [DrawingGuides](../../aspose.slides/imasterhandoutslide/drawingguides) { get; } | 返回 主讲义幻灯片 的绘图指南集合。只读 [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [HeaderFooterManager](../../aspose.slides/imasterhandoutslide/headerfootermanager) { get; } | 返回 主讲义幻灯片 的 HeaderFooter 管理器。只读 [`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager)。 |
 
-### 另见
+### 另请参阅
 
 * 接口 [IBaseSlide](../ibaseslide)
 * 接口 [IMasterThemeable](../../aspose.slides.theme/imasterthemeable)

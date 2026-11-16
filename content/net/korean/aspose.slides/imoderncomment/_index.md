@@ -3,10 +3,10 @@ title: IModernComment
 second_title: Aspose.Sildes for .NET API 참조
 description: 슬라이드에 대한 주석을 나타냅니다.
 type: docs
-weight: 6460
+weight: 6480
 url: /ko/aspose.slides/imoderncomment/
 ---
-## IModernComment 인터페이스
+## IModernComment interface
 
 슬라이드에 대한 주석을 나타냅니다.
 
@@ -18,11 +18,11 @@ public interface IModernComment : IComment
 
 | 이름 | 설명 |
 | --- | --- |
-| [AsIComment](../../aspose.slides/imoderncomment/asicomment) { get; } | 기본 IComment 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IComment`](../icomment). |
+| [AsIComment](../../aspose.slides/imoderncomment/asicomment) { get; } | 베이스 IComment 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IComment`](../icomment). |
 | [Shape](../../aspose.slides/imoderncomment/shape) { get; } | 주석과 연결된 도형을 반환합니다. 읽기 전용 [`IShape`](../ishape). |
-| [Status](../../aspose.slides/imoderncomment/status) { get; set; } | 주석의 상태를 가져오거나 설정합니다. 읽기/쓰기 [`ModernCommentStatus`](../moderncommentstatus). |
-| [TextSelectionLength](../../aspose.slides/imoderncomment/textselectionlength) { get; set; } | 주석이 AutoShape와 연결된 경우 텍스트 프레임에서 텍스트 선택 길이를 가져오거나 설정합니다. 읽기/쓰기 Int32. |
-| [TextSelectionStart](../../aspose.slides/imoderncomment/textselectionstart) { get; set; } | 주석이 AutoShape와 연결된 경우 텍스트 프레임에서 텍스트 선택 시작 위치를 가져오거나 설정합니다. 읽기/쓰기 Int32. |
+| [Status](../../aspose.slides/imoderncomment/status) { get; set; } | 주석의 상태를 반환하거나 설정합니다. 읽기/쓰기 [`ModernCommentStatus`](../moderncommentstatus). |
+| [TextSelectionLength](../../aspose.slides/imoderncomment/textselectionlength) { get; set; } | AutoShape와 연결된 주석인 경우 텍스트 프레임에서 텍스트 선택 길이를 반환하거나 설정합니다. 읽기/쓰기 Int32. |
+| [TextSelectionStart](../../aspose.slides/imoderncomment/textselectionstart) { get; set; } | AutoShape와 연결된 주석인 경우 텍스트 프레임에서 텍스트 선택 시작 위치를 반환하거나 설정합니다. 읽기/쓰기 Int32. |
 
 ### 예제
 
@@ -37,7 +37,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### 참고
+### 참조
 
 * 인터페이스 [IComment](../icomment)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

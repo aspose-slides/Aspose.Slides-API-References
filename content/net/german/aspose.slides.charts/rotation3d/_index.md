@@ -3,7 +3,7 @@ title: Rotation3D
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt die 3D-Drehung eines Diagramms dar.
 type: docs
-weight: 2400
+weight: 2420
 url: /de/aspose.slides.charts/rotation3d/
 ---
 ## Rotation3D Klasse
@@ -18,12 +18,12 @@ public class Rotation3D : IRotation3D
 
 | Name | Beschreibung |
 | --- | --- |
-| [DepthPercents](../../aspose.slides.charts/rotation3d/depthpercents) { get; set; } | Gibt die Tiefe eines 3D-Diagramms als Prozentsatz der Diagrammbreite zurück oder legt sie fest (zwischen 20 und 2000 Prozent). Lesen/Schreiben UInt16. |
-| [HeightPercents](../../aspose.slides.charts/rotation3d/heightpercents) { get; set; } | Gibt die Höhe eines 3-D-Diagramms als Prozentsatz der Diagrammbreite an (zwischen 5 und 500 Prozent). Lesen/Schreiben UInt16. |
-| [Perspective](../../aspose.slides.charts/rotation3d/perspective) { get; set; } | Gibt den Perspektivwert (Sichtfeldwinkel) für 3D-Diagramme zurück oder legt ihn fest (zwischen 0 und 240). Ignoriert, wenn der Wert der Eigenschaft RightAngleAxes true ist. Lesen/Schreiben Byte. |
-| [RightAngleAxes](../../aspose.slides.charts/rotation3d/rightangleaxes) { get; set; } | Bestimmt, ob die Diagrammachsen rechtwinklig sind, anstatt in Perspektive gezeichnet zu werden. Anders ausgedrückt, legt es fest, ob die Winkel der Achsen unabhängig von Diagrammdrehung oder -neigung sind. Lesen/Schreiben Boolean. |
-| [RotationX](../../aspose.slides.charts/rotation3d/rotationx) { get; set; } | Gibt den Rotationsgrad um die X-Achse zurück oder legt ihn fest, d. h. in Y-Richtung für 3D-Diagramme (zwischen -90 und 90 Grad). Die Eigenschaft entspricht dem Element 21.2.2.157 rotX (X Rotation) in ECMA-376 und der Option „Y Rotation“ in PowerPoint 2007+. Lesen/Schreiben SByte. |
-| [RotationY](../../aspose.slides.charts/rotation3d/rotationy) { get; set; } | Gibt den Rotationsgrad um die Y-Achse zurück oder legt ihn fest, d. h. in X-Richtung für 3D-Diagramme (zwischen 0 und 360 Grad). Die Eigenschaft entspricht dem Element 21.2.2.158 rotY (Y Rotation) in ECMA-376 und der Option „X Rotation“ in PowerPoint 2007+. Lesen/Schreiben UInt16. |
+| [DepthPercents](../../aspose.slides.charts/rotation3d/depthpercents) { get; set; } | Gibt die Tiefe eines 3D-Diagramms als Prozentsatz der Diagrammbreite zurück oder legt sie fest (zwischen 20 und 2000 %). Lese-/Schreib UInt16. |
+| [HeightPercents](../../aspose.slides.charts/rotation3d/heightpercents) { get; set; } | Gibt die Höhe eines 3-D-Diagramms als Prozentsatz der Diagrammbreite an oder legt sie fest (zwischen 5 und 500 %). Lese-/Schreib UInt16. |
+| [Perspective](../../aspose.slides.charts/rotation3d/perspective) { get; set; } | Gibt den Perspektivwert (Blickwinkel) für 3D-Diagramme zurück oder legt ihn fest (zwischen 0 und 240). Wird ignoriert, wenn die Eigenschaft RightAngleAxes den Wert true hat. Lese-/Schreib Byte. |
+| [RightAngleAxes](../../aspose.slides.charts/rotation3d/rightangleaxes) { get; set; } | Bestimmt, ob die Diagrammachsen rechtwinklig sind statt in Perspektive gezeichnet. Mit anderen Worten, ob die Winkel der Achsen unabhängig von Diagrammdrehung oder -neigung sind. Lese-/Schreib Boolean. |
+| [RotationX](../../aspose.slides.charts/rotation3d/rotationx) { get; set; } | Gibt den Rotationswinkel um die X-Achse zurück oder legt ihn fest, d. h. in Y-Richtung für 3D-Diagramme (zwischen –90 und 90 Grad). Die Eigenschaft entspricht dem Element 21.2.2.157 rotX (X Rotation) in ECMA-376 und der Option „Y Rotation“ in PowerPoint 2007+. Lese-/Schreib SByte. |
+| [RotationY](../../aspose.slides.charts/rotation3d/rotationy) { get; set; } | Gibt den Rotationswinkel um die Y-Achse zurück oder legt ihn fest, d. h. in X-Richtung für 3D-Diagramme (zwischen 0 und 360 Grad). Die Eigenschaft entspricht dem Element 21.2.2.158 rotY (Y Rotation) in ECMA-376 und der Option „X Rotation“ in PowerPoint 2007+. Lese-/Schreib UInt16. |
 
 ### Siehe auch
 

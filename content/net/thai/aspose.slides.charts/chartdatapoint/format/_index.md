@@ -1,9 +1,9 @@
 ---
 title: Format
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: เป็นตัวแทนของคุณสมบัติการจัดรูปแบบ. อ่าน/เขียน IFormataspose.slides.charts/iformat.
+description: แสดงคุณสมบัติการจัดรูปแบบ. อ่าน/เขียน IFormataspose.slides.charts/iformat.
 type: docs
-weight: 100
+weight: 140
 url: /th/aspose.slides.charts/chartdatapoint/format/
 ---
 ## ChartDataPoint.Format คุณสมบัติ

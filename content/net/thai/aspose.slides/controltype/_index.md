@@ -1,14 +1,14 @@
 ---
 title: ControlType
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: กำหนดประเภทของคอนโทรลที่ควรฝังโดย AddControl./icontrolcollection/addcontrol.
+description: กำหนดประเภทของคอนโทรลที่ควรฝังไว้โดย AddControl./icontrolcollection/addcontrol.
 type: docs
-weight: 2720
+weight: 2740
 url: /th/aspose.slides/controltype/
 ---
-## ControlType การนับค่า
+## การกำหนดค่า ControlType enumeration
 
-กำหนดประเภทของคอนโทรลที่ควรฝังโดย [`AddControl`](../icontrolcollection/addcontrol).
+กำหนดประเภทของคอนโทรลที่ควรฝังไว้โดย [`AddControl`](../icontrolcollection/addcontrol).
 
 ```csharp
 public enum ControlType
@@ -18,7 +18,7 @@ public enum ControlType
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
-| WindowsMediaPlayer | `0` | คอนโทรล Windows Media Player. |
+| WindowsMediaPlayer | `0` | คอนโทรล Windows Media Player |
 
 ### ดูเพิ่มเติม
 

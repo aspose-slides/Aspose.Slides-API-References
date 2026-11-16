@@ -1,14 +1,14 @@
 ---
 title: IOrientationTransition
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Orientierungs-Folien-Übergangseffekt.
+description: Orientierungs-Folienübergangseffekt.
 type: docs
-weight: 10150
+weight: 10170
 url: /de/aspose.slides.slideshow/iorientationtransition/
 ---
 ## IOrientationTransition Schnittstelle
 
-Orientierungs-Folien-Übergangseffekt.
+Orientierungs-Folienübergangseffekt.
 
 ```csharp
 public interface IOrientationTransition : ITransitionValueBase
@@ -18,7 +18,7 @@ public interface IOrientationTransition : ITransitionValueBase
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/iorientationtransition/asitransitionvaluebase) { get; } | Ermöglicht das Abrufen der Basis-ITransitionValueBase-Schnittstelle. Schreibgeschützt [`ITransitionValueBase`](../itransitionvaluebase). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/iorientationtransition/asitransitionvaluebase) { get; } | Ermöglicht das Abrufen der Basis ITransitionValueBase Schnittstelle. Nur lesbar [`ITransitionValueBase`](../itransitionvaluebase). |
 | [Direction](../../aspose.slides.slideshow/iorientationtransition/direction) { get; set; } | Richtung des Übergangs. Lese/Schreib [`Orientation`](../../aspose.slides/orientation). |
 
 ### Siehe auch

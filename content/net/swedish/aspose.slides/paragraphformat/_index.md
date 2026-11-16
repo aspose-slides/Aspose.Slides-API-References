@@ -1,14 +1,14 @@
 ---
 title: ParagraphFormat
 second_title: Aspose.Sildes för .NET API-referens
-description: Denna klass innehåller styckeformateringsegenskaper. Till skillnad från IParagraphFormatEffectiveData./iparagraphformateffectivedata är alla egenskaper i denna klass skrivbara.
+description: Denna klass innehåller egenskaperna för styckeformatering. Till skillnad från IParagraphFormatEffectiveData./iparagraphformateffectivedata är alla egenskaper i denna klass skrivbara.
 type: docs
-weight: 9310
+weight: 9330
 url: /sv/aspose.slides/paragraphformat/
 ---
 ## ParagraphFormat klass
 
-Denna klass innehåller egenskaper för styckeformatering. Till skillnad från [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata) är alla egenskaper i denna klass skrivbara.
+Denna klass innehåller egenskaperna för styckeformatering. Till skillnad från [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata) är alla egenskaper i denna klass skrivbara.
 
 ```csharp
 public sealed class ParagraphFormat : PVIObject, IChartParagraphFormat, IParagraphFormat
@@ -18,27 +18,27 @@ public sealed class ParagraphFormat : PVIObject, IChartParagraphFormat, IParagra
 
 | Namn | Beskrivning |
 | --- | --- |
-| [ParagraphFormat](paragraphformat)() | Initierar en ny instans av [`ParagraphFormat`](../paragraphformat) klass. |
+| [ParagraphFormat](paragraphformat)() | Initialiserar en ny instans av [`ParagraphFormat`](../paragraphformat) klass. |
 
 ## Egenskaper
 
 | Namn | Beskrivning |
 | --- | --- |
 | [Alignment](../../aspose.slides/paragraphformat/alignment) { get; set; } | Returnerar eller anger textjusteringen i ett stycke utan arv. Läs/skriv [`TextAlignment`](../textalignment). |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Tillåter att hämta bas-IPresentationComponent-gränssnittet. Läs-endast [`IPresentationComponent`](../ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Tillåter att hämta bas-gränssnittet IPresentationComponent. Endast läs [`IPresentationComponent`](../ipresentationcomponent). |
 | [DefaultTabSize](../../aspose.slides/paragraphformat/defaulttabsize) { get; set; } | Returnerar eller anger standardtabuleringsstorlek utan arv. Läs/skriv Single. |
-| [EastAsianLineBreak](../../aspose.slides/paragraphformat/eastasianlinebreak) { get; set; } | Bestämmer om radbrytning för östasiatiska språk används i ett stycke. Inget arv tillämpas. Läs/skriv [`NullableBool`](../nullablebool). |
+| [EastAsianLineBreak](../../aspose.slides/paragraphformat/eastasianlinebreak) { get; set; } | Bestämmer om den östasiatiska radbrytningen används i ett stycke. Ingen arv tillämpas. Läs/skriv [`NullableBool`](../nullablebool). |
 | [FontAlignment](../../aspose.slides/paragraphformat/fontalignment) { get; set; } | Returnerar eller anger teckensnittjustering i ett stycke utan arv. Läs/skriv [`FontAlignment`](../fontalignment). |
-| [HangingPunctuation](../../aspose.slides/paragraphformat/hangingpunctuation) { get; set; } | Bestämmer om hängande interpunktion används i ett stycke. Inget arv tillämpas. Läs/skriv [`NullableBool`](../nullablebool). |
-| [Indent](../../aspose.slides/paragraphformat/indent) { get; set; } | Returnerar eller anger första rad-indrag/hängande indrag i ett stycke utan arv. Hängande indrag kan definieras med negativa värden. Läs/skriv Single. |
-| [LatinLineBreak](../../aspose.slides/paragraphformat/latinlinebreak) { get; set; } | Bestämmer om latinsk radbrytning används i ett stycke. Inget arv tillämpas. Läs/skriv [`NullableBool`](../nullablebool). |
+| [HangingPunctuation](../../aspose.slides/paragraphformat/hangingpunctuation) { get; set; } | Bestämmer om hängande interpunktion används i ett stycke. Ingen arv tillämpas. Läs/skriv [`NullableBool`](../nullablebool). |
+| [Indent](../../aspose.slides/paragraphformat/indent) { get; set; } | Returnerar eller anger styckets första rad-indrag/hängande indrag utan arv. Hängande indrag kan definieras med negativa värden. Läs/skriv Single. |
+| [LatinLineBreak](../../aspose.slides/paragraphformat/latinlinebreak) { get; set; } | Bestämmer om den latinska radbrytningen används i ett stycke. Ingen arv tillämpas. Läs/skriv [`NullableBool`](../nullablebool). |
 | [MarginLeft](../../aspose.slides/paragraphformat/marginleft) { get; set; } | Returnerar eller anger vänstermarginalen i ett stycke utan arv. Läs/skriv Single. |
 | [MarginRight](../../aspose.slides/paragraphformat/marginright) { get; set; } | Returnerar eller anger högermarginalen i ett stycke utan arv. Läs/skriv Single. |
-| [RightToLeft](../../aspose.slides/paragraphformat/righttoleft) { get; set; } | Bestämmer om höger-till-vänster-skrivning används i ett stycke. Inget arv tillämpas. Läs/skriv [`NullableBool`](../nullablebool). |
-| [SpaceAfter](../../aspose.slides/paragraphformat/spaceafter) { get; set; } | Returnerar eller anger mängden utrymme efter den sista raden i ett stycke utan arv. Ett positivt värde anger procentandelen av teckensnittsstorleken som blankutrymmet ska motsvara. Ett negativt värde anger storleken på blankutrymmet i punkter. Läs/skriv Single. |
-| [SpaceBefore](../../aspose.slides/paragraphformat/spacebefore) { get; set; } | Returnerar eller anger mängden utrymme före den första raden i ett stycke utan arv. Ett positivt värde anger procentandelen av teckensnittsstorleken som blankutrymmet ska motsvara. Ett negativt värde anger storleken på blankutrymmet i punkter. Läs/skriv Single. |
-| [SpaceWithin](../../aspose.slides/paragraphformat/spacewithin) { get; set; } | Returnerar eller anger mängden utrymme mellan baslinjer i ett stycke. Positivt värde betyder procent, negativt – storlek i punkter. Inget arv tillämpas. Läs/skriv Single. |
-| [Tabs](../../aspose.slides/paragraphformat/tabs) { get; } | Returnerar tabuleringar för ett stycke. Inget arv tillämpas. Läs-endast [`ITabCollection`](../itabcollection). |
+| [RightToLeft](../../aspose.slides/paragraphformat/righttoleft) { get; set; } | Bestämmer om höger-till-vänster-skrivning används i ett stycke. Ingen arv tillämpas. Läs/skriv [`NullableBool`](../nullablebool). |
+| [SpaceAfter](../../aspose.slides/paragraphformat/spaceafter) { get; set; } | Returnerar eller anger mängden utrymme efter den sista raden i ett stycke utan arv. Ett positivt värde anger procentandelen av teckensnittsstorleken som blankutrymmet ska ha. Ett negativt värde anger storleken på blankutrymmet i punkter. Läs/skriv Single. |
+| [SpaceBefore](../../aspose.slides/paragraphformat/spacebefore) { get; set; } | Returnerar eller anger mängden utrymme före den första raden i ett stycke utan arv. Ett positivt värde anger procentandelen av teckensnittsstorleken som blankutrymmet ska ha. Ett negativt värde anger storleken på blankutrymmet i punkter. Läs/skriv Single. |
+| [SpaceWithin](../../aspose.slides/paragraphformat/spacewithin) { get; set; } | Returnerar eller anger mängden utrymme mellan baslinjer i ett stycke. Positivt värde betyder procent, negativt – storlek i punkter. Ingen arv tillämpas. Läs/skriv Single. |
+| [Tabs](../../aspose.slides/paragraphformat/tabs) { get; } | Returnerar tabuleringar i ett stycke. Ingen arv tillämpas. Endast läs [`ITabCollection`](../itabcollection). |
 
 ## Metoder
 
@@ -50,11 +50,11 @@ public sealed class ParagraphFormat : PVIObject, IChartParagraphFormat, IParagra
 
 ### Anmärkningar
 
-Denna klass används för att returnera och manipulera styckeformateringsegenskaper definierade för det specifika stycket. Detta innebär att ingen arv tillämpas när värden hämtas, så i de flesta fall får du värden som betyder "odefinierat".
+Denna klass används för att returnera och manipulera egenskaper för styckeformatering som definierats för det specifika stycket. Det betyder att ingen arv tillämpas när värden hämtas, så i de flesta fall får du värden som betyder "undefined".
 
-För att få effektiva formateringsparametervärden inklusive ärvda måste du använda [`GetEffective`](./geteffective)-metoden som returnerar en [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata)-instans.
+För att få de effektiva formateringsparametervärdena inklusive ärvda måste du använda metoden [`GetEffective`](./geteffective) som returnerar en [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata)-instans.
 
-### Se också
+### Se även
 
 * klass [PVIObject](../pviobject)
 * gränssnitt [IChartParagraphFormat](../../aspose.slides.charts/ichartparagraphformat)

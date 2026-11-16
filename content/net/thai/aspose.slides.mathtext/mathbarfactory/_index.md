@@ -1,35 +1,35 @@
 ---
 title: MathBarFactory
-second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
-description: อนุญาตให้สร้างแถบคณิตศาสตร์
+second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
+description: อนุญาตให้สร้าง math bar
 type: docs
-weight: 8580
+weight: 8600
 url: /th/aspose.slides.mathtext/mathbarfactory/
 ---
 ## MathBarFactory คลาส
 
-อนุญาตให้สร้างแถบคณิตศาสตร์
+อนุญาตให้สร้าง math bar
 
 ```csharp
 public class MathBarFactory : IMathBarFactory
 ```
 
-## คอนสตรักเตอร์
+## คอนสตรัคเตอร์
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [MathBarFactory](mathbarfactory)() | คอนสตรักเตอร์เริ่มต้น |
+| [MathBarFactory](mathbarfactory)() | คอนสตรัคเตอร์เริ่มต้น. |
 
 ## เมธอด
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [CreateMathBar](../../aspose.slides.mathtext/mathbarfactory/createmathbar#createmathbar)(IMathElement) | สร้างแถบคณิตศาสตร์โดยใช้กับองค์ประกอบ |
-| [CreateMathBar](../../aspose.slides.mathtext/mathbarfactory/createmathbar#createmathbar_1)(IMathElement, MathTopBotPositions) | สร้างแถบคณิตศาสตร์โดยใช้กับองค์ประกอบ |
+| [CreateMathBar](../../aspose.slides.mathtext/mathbarfactory/createmathbar#createmathbar)(IMathElement) | สร้าง math bar โดยนำไปใช้กับอิลีเมนต์ |
+| [CreateMathBar](../../aspose.slides.mathtext/mathbarfactory/createmathbar#createmathbar_1)(IMathElement, MathTopBotPositions) | สร้าง math bar โดยนำไปใช้กับอิลีเมนต์ |
 
 ### หมายเหตุ
 
-สำหรับการเปรียบเทียบกับ COM
+สำหรับความเข้ากันได้กับ COM
 
 ### ดูเพิ่มเติม
 

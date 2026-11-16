@@ -1,12 +1,12 @@
 ---
 title: Output
-second_title: Référence de l'API Aspose.Sildes pour .NET
+second_title: Référence API Aspose.Sildes pour .NET
 description: Représente une collection d'éléments de sortie pour IWebDocument.
 type: docs
-weight: 4640
+weight: 4660
 url: /fr/aspose.slides.export.web/output/
 ---
-## Classe Output
+## Classe de sortie
 
 Représente une collection d'éléments de sortie pour !:IWebDocument.
 
@@ -16,16 +16,17 @@ public sealed class Output
 
 ## Méthodes
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
-| [Add](../../aspose.slides.export.web/output/add#add_1)(string, IImage) | Ajoute un élément de sortie pour l'image. |
-| [Add](../../aspose.slides.export.web/output/add#add_2)(string, IPPImage) | Ajoute un élément de sortie pour l'image. |
-| [Add](../../aspose.slides.export.web/output/add#add_3)(string, IVideo) | Ajoute un élément de sortie pour la vidéo. |
-| [Add](../../aspose.slides.export.web/output/add#add_4)(string, string) | Ajoute un élément de sortie pour le contenu texte. |
-| [Add](../../aspose.slides.export.web/output/add#add)(string, IFontData, FontStyleType) | Crée et ajoute un élément de fichier de sortie pour la police spécifiée. |
-| [Add&lt;TContextObject&gt;](../../aspose.slides.export.web/output/add#add_5)(string, string, TContextObject) | Ajoute un élément de sortie pour l'objet de contexte. |
+| [Add](../../aspose.slides.export.web/output/add#add)(string, IAudio) | Ajoute un élément de sortie pour l'audio. |
+| [Add](../../aspose.slides.export.web/output/add#add_2)(string, IImage) | Ajoute un élément de sortie pour l'image. |
+| [Add](../../aspose.slides.export.web/output/add#add_3)(string, IPPImage) | Ajoute un élément de sortie pour l'image. |
+| [Add](../../aspose.slides.export.web/output/add#add_4)(string, IVideo) | Ajoute un élément de sortie pour la vidéo. |
+| [Add](../../aspose.slides.export.web/output/add#add_5)(string, string) | Ajoute un élément de sortie pour le contenu texte. |
+| [Add](../../aspose.slides.export.web/output/add#add_1)(string, IFontData, FontStyleType) | Crée et ajoute un élément de fichier de sortie pour la police spécifiée. |
+| [Add&lt;TContextObject&gt;](../../aspose.slides.export.web/output/add#add_6)(string, string, TContextObject) | Ajoute un élément de sortie pour l'objet contextuel. |
 | [BindResource](../../aspose.slides.export.web/output/bindresource)(IOutputFile, object) | Lie la ressource au fichier de sortie. |
-| [GetResourcePath](../../aspose.slides.export.web/output/getresourcepath)(object) | Renvoie le chemin pour une ressource donnée. |
+| [GetResourcePath](../../aspose.slides.export.web/output/getresourcepath)(object) | Renvoie le chemin d'une ressource donnée. |
 
 ### Voir aussi
 

@@ -1,20 +1,20 @@
 ---
 title: ColorValue
-second_title: Aspose.Sildes için .NET API Referansı
-description: Grafik veri noktasının renk değerini döndürür. Harita grafiklerinde kullanılır. Yalnızca okuma IDoubleChartValueaspose.slides.charts/idoublechartvalue.
+second_title: Aspose.Slides için .NET API Referansı
+description: Grafik veri noktasının renk değerini döndürür. Harita grafiklerinde kullanılır. Salt okunur IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
-weight: 60
+weight: 100
 url: /tr/aspose.slides.charts/chartdatapoint/colorvalue/
 ---
 ## ChartDataPoint.ColorValue özelliği
 
-Grafik veri noktasının renk değerini döndürür. Harita grafiklerinde kullanılır. Yalnızca okuma [`IDoubleChartValue`](../../idoublechartvalue).
+Grafik veri noktasının renk değerini döndürür. Harita grafiklerinde kullanılır. Salt okunur [`IDoubleChartValue`](../../idoublechartvalue).
 
 ```csharp
 public IDoubleChartValue ColorValue { get; }
 ```
 
-### İlgili
+### Diğer Bağlantılar
 
 * arayüz [IDoubleChartValue](../../idoublechartvalue)
 * sınıf [ChartDataPoint](../../chartdatapoint)

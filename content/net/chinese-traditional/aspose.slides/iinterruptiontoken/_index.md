@@ -1,14 +1,14 @@
 ---
 title: IInterruptionToken
-second_title: Aspose.Sildes .NET API 參考
-description: 此類別表示用於向長時間執行的工作表示是否已請求中斷的代幣。
+second_title: Aspose.Sildes for .NET API 參考文件
+description: 此類別表示用於向長時間執行的工作發出是否已請求中斷訊號的代幣。
 type: docs
-weight: 6190
+weight: 6210
 url: /zh-hant/aspose.slides/iinterruptiontoken/
 ---
 ## IInterruptionToken 介面
 
-此類別表示用於向長時間執行的工作表示是否已請求中斷的代幣。
+此類別表示用於向長時間執行的工作發出是否已請求中斷的訊號的代幣。
 
 ```csharp
 public interface IInterruptionToken

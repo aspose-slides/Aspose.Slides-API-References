@@ -1,14 +1,14 @@
 ---
 title: ExcelWorkbookImporter
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: एक्सेल वर्कबुक से सामग्री को प्रस्तुति में आयात करने की कार्यक्षमता प्रदान करता है।
+description: एक Excel वर्कबुक से सामग्री आयात करने और उसे प्रस्तुति में सम्मिलित करने की कार्यक्षमता प्रदान करता है।
 type: docs
-weight: 7470
+weight: 7490
 url: /hi/aspose.slides.import/excelworkbookimporter/
 ---
 ## ExcelWorkbookImporter क्लास
 
-एक्सेल वर्कबुक से सामग्री को प्रस्तुति में आयात करने की कार्यक्षमता प्रदान करता है।
+एक Excel वर्कबुक से सामग्री आयात करने की कार्यक्षमता प्रदान करता है और उसे एक प्रस्तुति में सम्मिलित करता है।
 
 ```csharp
 public static class ExcelWorkbookImporter
@@ -18,17 +18,17 @@ public static class ExcelWorkbookImporter
 
 | नाम | विवरण |
 | --- | --- |
-| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook)(IShapeCollection, float, float, IExcelDataWorkbook, string, int, bool) | निर्दिष्ट एक्सेल वर्कबुक से एक चार्ट प्राप्त करता है और निर्दिष्ट निर्देशांक पर दिए गए शैप संग्रह के अंत में इसे जोड़ता है। |
-| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_1)(IShapeCollection, float, float, IExcelDataWorkbook, string, string, bool) | निर्दिष्ट एक्सेल वर्कबुक से एक चार्ट प्राप्त करता है और निर्दिष्ट निर्देशांक पर दिए गए शैप संग्रह के अंत में इसे जोड़ता है। |
-| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_2)(IShapeCollection, float, float, Stream, string, string, bool) | निर्दिष्ट एक्सेल वर्कबुक से एक चार्ट प्राप्त करता है और निर्दिष्ट निर्देशांक पर दिए गए शैप संग्रह के अंत में इसे जोड़ता है। |
-| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_3)(IShapeCollection, float, float, string, string, string, bool) | निर्दिष्ट एक्सेल वर्कबुक से एक चार्ट प्राप्त करता है और निर्दिष्ट निर्देशांक पर दिए गए शैप संग्रह के अंत में इसे जोड़ता है। |
-| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook)(IShapeCollection, float, float, IExcelDataWorkbook, string, string) | निर्दिष्ट एक्सेल वर्कबुक से एक टेबल प्राप्त करता है और निर्दिष्ट निर्देशांक पर दिए गए शैप संग्रह के अंत में इसे जोड़ता है। |
-| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook_1)(IShapeCollection, float, float, Stream, string, string) | निर्दिष्ट एक्सेल वर्कबुक फ़ाइल से एक टेबल प्राप्त करता है और निर्दिष्ट निर्देशांक पर दिए गए शैप संग्रह के अंत में इसे जोड़ता है। |
-| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook_2)(IShapeCollection, float, float, string, string, string) | निर्दिष्ट एक्सेल वर्कबुक फ़ाइल से एक टेबल प्राप्त करता है और निर्दिष्ट निर्देशांक पर दिए गए शैप संग्रह के अंत में इसे जोड़ता है। |
+| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook)(IShapeCollection, float, float, IExcelDataWorkbook, string, int, bool) | निर्दिष्ट Excel वर्कबुक से एक चार्ट प्राप्त करता है और निर्दिष्ट निर्देशांक पर दिए गए आकार संग्रह के अंत में जोड़ता है। |
+| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_1)(IShapeCollection, float, float, IExcelDataWorkbook, string, string, bool) | निर्दिष्ट Excel वर्कबुक से एक चार्ट प्राप्त करता है और निर्दिष्ट निर्देशांक पर दिए गए आकार संग्रह के अंत में जोड़ता है। |
+| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_2)(IShapeCollection, float, float, Stream, string, string, bool) | निर्दिष्ट Excel वर्कबुक से एक चार्ट प्राप्त करता है और निर्दिष्ट निर्देशांक पर दिए गए आकार संग्रह के अंत में जोड़ता है। |
+| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_3)(IShapeCollection, float, float, string, string, string, bool) | निर्दिष्ट Excel वर्कबुक से एक चार्ट प्राप्त करता है और निर्दिष्ट निर्देशांक पर दिए गए आकार संग्रह के अंत में जोड़ता है। |
+| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook)(IShapeCollection, float, float, IExcelDataWorkbook, string, string) | निर्दिष्ट Excel वर्कबुक से एक टेबल प्राप्त करता है और निर्दिष्ट निर्देशांक पर दिए गए आकार संग्रह के अंत में जोड़ता है। |
+| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook_1)(IShapeCollection, float, float, Stream, string, string) | निर्दिष्ट Excel वर्कबुक फ़ाइल से एक टेबल प्राप्त करता है और निर्दिष्ट निर्देशांक पर दिए गए आकार संग्रह के अंत में जोड़ता है। |
+| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook_2)(IShapeCollection, float, float, string, string, string) | निर्दिष्ट Excel वर्कबुक फ़ाइल से एक टेबल प्राप्त करता है और निर्दिष्ट निर्देशांक पर दिए गए आकार संग्रह के अंत में जोड़ता है। |
 
-### देखें भी
+### संबंधित देखें
 
-* नामस्थान [Aspose.Slides.Import](../../aspose.slides.import)
+* नेमस्पेस [Aspose.Slides.Import](../../aspose.slides.import)
 * असेंबली [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

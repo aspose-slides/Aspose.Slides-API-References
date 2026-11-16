@@ -3,12 +3,12 @@ title: IEmbeddedEotFontsHtmlController
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Ingebedde Eot-lettertypen HTML-controller.
 type: docs
-weight: 3900
+weight: 3920
 url: /nl/aspose.slides.export/iembeddedeotfontshtmlcontroller/
 ---
 ## IEmbeddedEotFontsHtmlController interface
 
-Embedded Eot-lettertypen HTML-controller.
+Ingebedde Eot-lettertypen HTML-controller.
 
 ```csharp
 public interface IEmbeddedEotFontsHtmlController : IHtmlFormattingController

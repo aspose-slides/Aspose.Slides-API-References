@@ -1,14 +1,14 @@
 ---
 title: ISectionSlideCollection
 second_title: Aspose.Sildes for .NET API 參考
-description: 表示該節中投影片的集合。
+description: 表示區段中投影片的集合。
 type: docs
-weight: 6910
+weight: 6930
 url: /zh-hant/aspose.slides/isectionslidecollection/
 ---
 ## ISectionSlideCollection 介面
 
-代表該節中投影片的集合。
+表示在區段中的投影片集合。
 
 ```csharp
 public interface ISectionSlideCollection : IGenericCollection<ISlide>

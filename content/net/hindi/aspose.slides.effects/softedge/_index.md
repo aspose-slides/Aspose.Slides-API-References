@@ -1,14 +1,14 @@
 ---
 title: SoftEdge
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: एक सॉफ्ट एज प्रभाव का प्रतिनिधित्व करता है। आकार के किनारे धुंधले किए जाते हैं जबकि भराव पर कोई प्रभाव नहीं पड़ता।
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: एक सॉफ़्ट एज प्रभाव को दर्शाता है। आकार के किनारे धुंधले होते हैं जबकि भरण पर प्रभाव नहीं पड़ता।
 type: docs
-weight: 3650
+weight: 3670
 url: /hi/aspose.slides.effects/softedge/
 ---
-## SoftEdge वर्ग
+## SoftEdge क्लास
 
-किसी soft edge प्रभाव को दर्शाता है। आकार के किनारों को धुंधला किया जाता है, जबकि भराव पर कोई प्रभाव नहीं पड़ता।
+Represents a soft edge effect. The edges of the shape are blurred, while the fill is not affected.
 
 ```csharp
 public sealed class SoftEdge : ISoftEdge
@@ -18,17 +18,17 @@ public sealed class SoftEdge : ISoftEdge
 
 | नाम | विवरण |
 | --- | --- |
-| [Radius](../../aspose.slides.effects/softedge/radius) { get; set; } | किनारों पर लागू करने के लिए ब्लर की त्रिज्या निर्दिष्ट करता है। पढ़ें/लिखें Double. |
+| [Radius](../../aspose.slides.effects/softedge/radius) { get; set; } | Specifies the radius of blur to apply to the edges. Read/write Double. |
 
-## विधियाँ
+## मेथड्स
 
 | नाम | विवरण |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/softedge/equals)(object) | निर्धारित करता है कि निर्दिष्ट [`SoftEdge`](../softedge) वर्तमान [`SoftEdge`](../softedge) के बराबर है। |
+| override [Equals](../../aspose.slides.effects/softedge/equals)(object) | निर्धारित करता है कि निर्दिष्ट [`SoftEdge`](../softedge) वर्तमान [`SoftEdge`](../softedge) के बराबर है या नहीं। |
 | [GetEffective](../../aspose.slides.effects/softedge/geteffective)() | इनहेरिटेंस लागू होने के साथ प्रभावी Soft Edge प्रभाव डेटा प्राप्त करता है। |
 | override [GetHashCode](../../aspose.slides.effects/softedge/gethashcode)() | किसी विशेष प्रकार के लिए हैश फ़ंक्शन के रूप में कार्य करता है। |
 
-### देखें
+### संबंधित देखें
 
 * इंटरफ़ेस [ISoftEdge](../isoftedge)
 * नामस्थान [Aspose.Slides.Effects](../../aspose.slides.effects)

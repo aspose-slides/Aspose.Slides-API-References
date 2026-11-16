@@ -1,20 +1,20 @@
 ---
 title: XValue
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Trả về giá trị x của điểm dữ liệu biểu đồ. Chỉ đọc IStringOrDoubleChartValueaspose.slides.charts/istringordoublechartvalue.
+description: Lấy giá trị x của một điểm dữ liệu biểu đồ. Chỉ đọc IStringOrDoubleChartValueaspose.slides.charts/istringordoublechartvalue.
 type: docs
-weight: 170
+weight: 210
 url: /vi/aspose.slides.charts/ichartdatapoint/xvalue/
 ---
 ## IChartDataPoint.XValue thuộc tính
 
-Trả về giá trị x của điểm dữ liệu biểu đồ. Chỉ đọc [`IStringOrDoubleChartValue`](../../istringordoublechartvalue).
+Lấy giá trị x của một điểm dữ liệu biểu đồ. Chỉ đọc [`IStringOrDoubleChartValue`](../../istringordoublechartvalue).
 
 ```csharp
 public IStringOrDoubleChartValue XValue { get; }
 ```
 
-### Xem Thêm
+### Xem thêm
 
 * giao diện [IStringOrDoubleChartValue](../../istringordoublechartvalue)
 * giao diện [IChartDataPoint](../../ichartdatapoint)

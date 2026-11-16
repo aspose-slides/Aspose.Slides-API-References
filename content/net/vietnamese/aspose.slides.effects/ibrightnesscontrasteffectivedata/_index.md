@@ -1,9 +1,9 @@
 ---
 title: IBrightnessContrastEffectiveData
-second_title: Aspose.Sildes cho .NET Tham chiếu API
+second_title: Tham chiếu API Aspose.Sildes cho .NET
 description: Đối tượng bất biến đại diện cho hiệu ứng BrightnessContrast. Điều chỉnh độ sáng và độ tương phản
 type: docs
-weight: 3210
+weight: 3230
 url: /vi/aspose.slides.effects/ibrightnesscontrasteffectivedata/
 ---
 ## IBrightnessContrastEffectiveData giao diện
@@ -21,7 +21,7 @@ public interface IBrightnessContrastEffectiveData : IEffectEffectiveData
 | [Brightness](../../aspose.slides.effects/ibrightnesscontrasteffectivedata/brightness) { get; } | Trả về độ sáng. Chỉ đọc Single. |
 | [Contrast](../../aspose.slides.effects/ibrightnesscontrasteffectivedata/contrast) { get; } | Trả về độ tương phản. Chỉ đọc Single. |
 
-### Xem Thêm
+### Xem thêm
 
 * giao diện [IEffectEffectiveData](../ieffecteffectivedata)
 * không gian tên [Aspose.Slides.Effects](../../aspose.slides.effects)

@@ -1,14 +1,14 @@
 ---
 title: Row
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: เป็นตัวแทนของแถวในตาราง.
+description: แสดงถึงแถวในตาราง.
 type: docs
-weight: 9710
+weight: 9730
 url: /th/aspose.slides/row/
 ---
 ## คลาส Row
 
-เป็นตัวแทนของ Row ในตาราง.
+แสดงถึงแถวในตาราง.
 
 ```csharp
 public sealed class Row : CellCollection, IRow
@@ -16,27 +16,27 @@ public sealed class Row : CellCollection, IRow
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides/cellcollection/count) { get; } | ส่งคืนจำนวนเซลล์ในคอลเลกชัน. อ่านอย่างเดียว Int32. |
-| [Height](../../aspose.slides/row/height) { get; } | ส่งคืนความสูงของแถว. อ่านอย่างเดียว Double. |
-| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | ส่งคืนค่าแสดงว่าการเข้าถึงคอลเลกชันมีการซิงโครไนซ์ (ปลอดภัยต่อเธรด). อ่านอย่างเดียว Boolean. |
-| [Item](../../aspose.slides/cellcollection/item) { get; } | ส่งคืนเซลล์ตามตำแหน่งของมัน. อ่านอย่างเดียว [`Cell`](../cell). |
-| [MinimalHeight](../../aspose.slides/row/minimalheight) { get; set; } | ส่งคืนหรือกำหนดความสูงต่ำสุดที่เป็นไปได้ของแถว. อ่าน/เขียน Double. |
-| [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | ส่งคืนการนำเสนอแม่ของ CellCollection. อ่านอย่างเดียว [`IPresentation`](../ipresentation). |
-| [RowFormat](../../aspose.slides/row/rowformat) { get; } | ส่งคืนอ็อบเจ็กต์ RowFormat ที่มีคุณสมบัติการฟอร์แมตสำหรับแถวนี้. อ่านอย่างเดียว [`IRowFormat`](../irowformat). |
-| [Slide](../../aspose.slides/cellcollection/slide) { get; } | ส่งคืนสไลด์แม่ของ CellCollection. อ่านอย่างเดียว [`IBaseSlide`](../ibaseslide). |
-| [SyncRoot](../../aspose.slides/cellcollection/syncroot) { get; } | ส่งคืนรากของการซิงโครไนซ์. อ่านอย่างเดียว Object. |
+| [Count](../../aspose.slides/cellcollection/count) { get; } | ส่งคืนจำนวนเซลล์ในคอลเลกชัน อ่านอย่างเดียว Int32. |
+| [Height](../../aspose.slides/row/height) { get; } | ส่งคืนความสูงของแถว อ่านอย่างเดียว Double. |
+| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | ส่งคืนค่าที่ระบุว่าการเข้าถึงคอลเลกชันเป็นแบบซิงโครไนซ์ (ปลอดภัยต่อเธรด) อ่านอย่างเดียว Boolean. |
+| [Item](../../aspose.slides/cellcollection/item) { get; } | ส่งคืนเซลล์ตามตำแหน่งของมัน อ่านอย่างเดียว [`Cell`](../cell). |
+| [MinimalHeight](../../aspose.slides/row/minimalheight) { get; set; } | ส่งคืนหรือกำหนดความสูงต่ำสุดที่เป็นไปได้ของแถว อ่าน/เขียน Double. |
+| [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | ส่งคืนการนำเสนอหลักของ CellCollection อ่านอย่างเดียว [`IPresentation`](../ipresentation). |
+| [RowFormat](../../aspose.slides/row/rowformat) { get; } | ส่งคืนออบเจกต์ RowFormat ที่มีคุณสมบัติการจัดรูปแบบสำหรับแถวนี้ อ่านอย่างเดียว [`IRowFormat`](../irowformat). |
+| [Slide](../../aspose.slides/cellcollection/slide) { get; } | ส่งคืนสไลด์หลักของ CellCollection อ่านอย่างเดียว [`IBaseSlide`](../ibaseslide). |
+| [SyncRoot](../../aspose.slides/cellcollection/syncroot) { get; } | ส่งคืนรากของการซิงโครไนซ์ อ่านอย่างเดียว Object. |
 
-## วิธีการ
+## เมธอด
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | คัดลอกทุกองค์ประกอบจากคอลเลกชันไปยังอาร์เรย์ที่ระบุ. |
-| [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | ส่งคืน enumerator ที่วนซ้ำผ่านคอลเลกชัน. |
-| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat)(IParagraphFormat) | ตั้งค่าคุณสมบัติรูปแบบย่อหน้าที่กำหนดให้กับย่อหน้าของเซลล์แถวทั้งหมด. |
-| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat_1)(IPortionFormat) | ตั้งค่าคุณสมบัติรูปแบบส่วนที่กำหนดให้กับส่วนของเซลล์แถวทั้งหมด. |
-| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat_2)(ITextFrameFormat) | ตั้งค่าคุณสมบัติรูปแบบกรอบข้อความที่กำหนดให้กับกรอบข้อความของเซลล์แถวทั้งหมด. |
+| [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | คัดลอกองค์ประกอบทั้งหมดจากคอลเลกชันไปยังอาเรย์ที่ระบุ. |
+| [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | ส่งคืนอีนูเมอเรเตอร์ที่วนผ่านคอลเลกชัน. |
+| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat)(IParagraphFormat) | ตั้งค่าคุณสมบัติการจัดรูปแบบย่อหน้าที่กำหนดให้กับย่อหน้าของเซลล์ทั้งหมดในแถว. |
+| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat_1)(IPortionFormat) | ตั้งค่าคุณสมบัติการจัดรูปแบบส่วนที่กำหนดให้กับส่วนทั้งหมดของเซลล์ในแถว. |
+| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat_2)(ITextFrameFormat) | ตั้งค่าคุณสมบัติการจัดรูปแบบเฟรมข้อความที่กำหนดให้กับเฟรมข้อความทั้งหมดของเซลล์ในแถว. |
 
 ### ดูเพิ่มเติม
 

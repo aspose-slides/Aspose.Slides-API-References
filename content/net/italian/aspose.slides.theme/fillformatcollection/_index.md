@@ -1,14 +1,14 @@
 ---
 title: FillFormatCollection
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta la collezione di stili di riempimento.
+description: Rappresenta la raccolta di stili di riempimento.
 type: docs
-weight: 11120
+weight: 11140
 url: /it/aspose.slides.theme/fillformatcollection/
 ---
 ## FillFormatCollection classe
 
-Rappresenta la collezione di stili di riempimento.
+Rappresenta la raccolta di stili di riempimento.
 
 ```csharp
 public sealed class FillFormatCollection : DomObject<FormatScheme>, IFillFormatCollection
@@ -18,9 +18,9 @@ public sealed class FillFormatCollection : DomObject<FormatScheme>, IFillFormatC
 
 | Nome | Descrizione |
 | --- | --- |
-| [Count](../../aspose.slides.theme/fillformatcollection/count) { get; } | Restituisce il numero di elementi effettivamente contenuti nella collezione. Solo lettura Int32. |
+| [Count](../../aspose.slides.theme/fillformatcollection/count) { get; } | Ottiene il numero di elementi effettivamente contenuti nella collezione. Solo lettura Int32. |
 | [IsSynchronized](../../aspose.slides.theme/fillformatcollection/issynchronized) { get; } | Restituisce un valore che indica se l'accesso alla collezione è sincronizzato (thread-safe). Solo lettura Boolean. |
-| [Item](../../aspose.slides.theme/fillformatcollection/item) { get; } | Restituisce l'elemento all'indice specificato. Solo lettura [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [Item](../../aspose.slides.theme/fillformatcollection/item) { get; } | Ottiene l'elemento all'indice specificato. Solo lettura [`IFillFormat`](../../aspose.slides/ifillformat). |
 | [SyncRoot](../../aspose.slides.theme/fillformatcollection/syncroot) { get; } | Restituisce una radice di sincronizzazione. Solo lettura Object. |
 
 ## Metodi

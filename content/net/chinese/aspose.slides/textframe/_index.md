@@ -3,12 +3,12 @@ title: TextFrame
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示一个 TextFrame。
 type: docs
-weight: 10950
+weight: 10970
 url: /zh/aspose.slides/textframe/
 ---
 ## TextFrame 类
 
-Represents a TextFrame.
+表示一个 TextFrame。
 
 ```csharp
 public sealed class TextFrame : ITextFrame
@@ -16,30 +16,31 @@ public sealed class TextFrame : ITextFrame
 
 ## 属性
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
-| [HyperlinkQueries](../../aspose.slides/textframe/hyperlinkqueries) { get; } | 提供对包含的超链接的便捷访问。只读 [`IHyperlinkQueries`](../ihyperlinkqueries)。 |
-| [Paragraphs](../../aspose.slides/textframe/paragraphs) { get; } | 返回帧中所有段落的列表。只读 [`IParagraphCollection`](../iparagraphcollection)。 |
+| [HyperlinkQueries](../../aspose.slides/textframe/hyperlinkqueries) { get; } | 提供对包含的超链接的简便访问。只读 [`IHyperlinkQueries`](../ihyperlinkqueries)。 |
+| [Paragraphs](../../aspose.slides/textframe/paragraphs) { get; } | 返回框架中所有段落的列表。只读 [`IParagraphCollection`](../iparagraphcollection)。 |
 | [ParentCell](../../aspose.slides/textframe/parentcell) { get; } | 返回父单元格，如果父对象未实现 ICell 接口则返回 null。只读 [`ICell`](../icell)。 |
 | [ParentShape](../../aspose.slides/textframe/parentshape) { get; } | 返回父形状，如果父对象未实现 IShape 接口则返回 null。只读 [`IShape`](../ishape)。 |
 | [Presentation](../../aspose.slides/textframe/presentation) { get; } | 返回 TextFrame 的父演示文稿。只读 [`IPresentation`](../ipresentation)。 |
 | [Slide](../../aspose.slides/textframe/slide) { get; } | 返回 TextFrame 的父幻灯片。只读 [`IBaseSlide`](../ibaseslide)。 |
-| [Text](../../aspose.slides/textframe/text) { get; set; } | 获取或设置 TextFrame 的纯文本。读/写 String。 |
+| [Text](../../aspose.slides/textframe/text) { get; set; } | 获取或设置 TextFrame 的纯文本。读写 String。 |
 | [TextFrameFormat](../../aspose.slides/textframe/textframeformat) { get; } | 返回此 TextFrame 对象的格式化对象。只读 [`ITextFrameFormat`](../itextframeformat)。 |
 
 ## 方法
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
-| [HighlightRegex](../../aspose.slides/textframe/highlightregex#highlightregex_1)(Regex, Color, IFindResultCallback) | 使用指定颜色突出显示正则表达式的所有匹配项。 |
-| [HighlightText](../../aspose.slides/textframe/highlighttext#highlighttext)(string, Color) | 使用指定颜色突出显示示例文本的所有匹配项。 |
-| [HighlightText](../../aspose.slides/textframe/highlighttext#highlighttext_2)(string, Color, ITextSearchOptions, IFindResultCallback) | 使用指定颜色突出显示示例文本的所有匹配项。 |
-| [JoinPortionsWithSameFormatting](../../aspose.slides/textframe/joinportionswithsameformatting)() | 合并所有段落中具有相同格式的运行。 |
-| [ReplaceRegex](../../aspose.slides/textframe/replaceregex)(Regex, string, IFindResultCallback) | 使用指定字符串替换正则表达式的所有匹配项。 |
+| [GetTextRect](../../aspose.slides/textframe/gettextrect)() | 获取由父形状的几何定义的文本矩形。 |
+| [HighlightRegex](../../aspose.slides/textframe/highlightregex#highlightregex_1)(Regex, Color, IFindResultCallback) | 使用指定的颜色突出显示正则表达式的所有匹配项。 |
+| [HighlightText](../../aspose.slides/textframe/highlighttext#highlighttext)(string, Color) | 使用指定的颜色突出显示示例文本的所有匹配项。 |
+| [HighlightText](../../aspose.slides/textframe/highlighttext#highlighttext_2)(string, Color, ITextSearchOptions, IFindResultCallback) | 使用指定的颜色突出显示示例文本的所有匹配项。 |
+| [JoinPortionsWithSameFormatting](../../aspose.slides/textframe/joinportionswithsameformatting)() | 合并所有段落中具有相同格式的文本运行。 |
+| [ReplaceRegex](../../aspose.slides/textframe/replaceregex)(Regex, string, IFindResultCallback) | 使用指定的字符串替换正则表达式的所有匹配项。 |
 | [ReplaceText](../../aspose.slides/textframe/replacetext)(string, string, ITextSearchOptions, IFindResultCallback) | 将指定文本的所有出现替换为另一个指定文本。 |
-| [SplitTextByColumns](../../aspose.slides/textframe/splittextbycolumns)() | 将 [`ITextFrame`](../itextframe) 的文本内容拆分为字符串数组，每个元素对应框内的单独文本列。 |
+| [SplitTextByColumns](../../aspose.slides/textframe/splittextbycolumns)() | 将 [`ITextFrame`](../itextframe) 的文本内容拆分为字符串数组，每个元素对应框架内的单独文本列。 |
 
-### 另请参见
+### 另见
 
 * 接口 [ITextFrame](../itextframe)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

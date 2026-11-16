@@ -3,7 +3,7 @@ title: IVbaReferenceProject
 second_title: Aspose.Sildes for .NET API リファレンス
 description: 外部 VBA プロジェクトへの参照を表します。
 type: docs
-weight: 11620
+weight: 11640
 url: /ja/aspose.slides.vba/ivbareferenceproject/
 ---
 ## IVbaReferenceProject インターフェイス

@@ -1,12 +1,12 @@
 ---
 title: MathFractionFactory
-second_title: Aspose.Sildes per .NET Riferimento API
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Consente di creare una frazione matematica
 type: docs
-weight: 8700
+weight: 8720
 url: /it/aspose.slides.mathtext/mathfractionfactory/
 ---
-## Classe MathFractionFactory
+## MathFractionFactory classe
 
 Consente di creare una frazione matematica
 
@@ -16,20 +16,20 @@ public class MathFractionFactory : IMathFractionFactory
 
 ## Costruttori
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
 | [MathFractionFactory](mathfractionfactory)() | Il costruttore predefinito. |
 
 ## Metodi
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
 | [CreateMathFraction](../../aspose.slides.mathtext/mathfractionfactory/createmathfraction#createmathfraction)(IMathElement, IMathElement) | Crea una frazione matematica |
 | [CreateMathFraction](../../aspose.slides.mathtext/mathfractionfactory/createmathfraction#createmathfraction_1)(IMathElement, IMathElement, MathFractionTypes) | Crea una frazione matematica |
 
 ### Osservazioni
 
-Per compatibilità COM
+For COM comparibility
 
 ### Vedi anche
 

@@ -1,14 +1,14 @@
 ---
 title: MathPortion
-second_title: Aspose.Sildes for .NET API 참조
-description: 수학적 컨텍스트가 포함된 부분을 나타냅니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 수학 컨텍스트가 포함된 부분을 나타냅니다.
 type: docs
-weight: 8930
+weight: 8950
 url: /ko/aspose.slides.mathtext/mathportion/
 ---
 ## MathPortion 클래스
 
-이 부분은 수학적 컨텍스트가 있는 영역을 나타냅니다.
+수학 컨텍스트가 포함된 부분을 나타냅니다.
 
 ```csharp
 public sealed class MathPortion : Portion, IMathPortion
@@ -16,32 +16,32 @@ public sealed class MathPortion : Portion, IMathPortion
 
 ## 생성자
 
-| Name | Description |
+| 이름 | 설명 |
 | --- | --- |
 | [MathPortion](mathportion)() | MathPortion 클래스의 새 인스턴스를 초기화합니다. |
 
 ## 속성
 
-| Name | Description |
+| 이름 | 설명 |
 | --- | --- |
 | [Field](../../aspose.slides/portion/field) { get; } | 이 부분의 필드를 반환합니다. 읽기 전용 [`IField`](../../aspose.slides/ifield). |
 | [MathParagraph](../../aspose.slides.mathtext/mathportion/mathparagraph) { get; } | 수학 단락 |
-| [PortionFormat](../../aspose.slides/portion/portionformat) { get; } | 상속이 적용되지 않은 텍스트 부분의 명시적으로 설정된 서식 속성을 포함하는 서식 개체를 반환합니다. 읽기 전용 [`IPortionFormat`](../../aspose.slides/iportionformat). |
+| [PortionFormat](../../aspose.slides/portion/portionformat) { get; } | 명시적으로 설정된 서식 속성을 포함하고 상속이 적용되지 않은 텍스트 부분의 서식 개체를 반환합니다. 읽기 전용 [`IPortionFormat`](../../aspose.slides/iportionformat). |
 | [Text](../../aspose.slides/portion/text) { get; set; } | 부분의 일반 텍스트를 가져오거나 설정합니다. 읽기/쓰기 String. |
 
 ## 메서드
 
-| Name | Description |
+| 이름 | 설명 |
 | --- | --- |
 | [AddField](../../aspose.slides/portion/addfield)(IFieldType) | 이 부분을 자동으로 업데이트되는 필드로 변환합니다. |
 | [AddField](../../aspose.slides/portion/addfield)(string) | 이 부분을 자동으로 업데이트되는 필드로 변환합니다. |
-| [GetCoordinates](../../aspose.slides/portion/getcoordinates)() | 부분 시작점의 좌표를 가져옵니다. X 좌표는 왼쪽 사이드 베어링을 포함한 첫 번째 문자부터 시작하는 부분을 나타냅니다. Y 좌표는 상단 사이드 베어링을 포함합니다. |
-| [GetRect](../../aspose.slides/portion/getrect)() | 부분을 둘러싼 사각형의 좌표를 가져옵니다. 사각형은 빈 줄을 포함한 부분의 모든 텍스트 줄을 포함합니다. |
+| [GetCoordinates](../../aspose.slides/portion/getcoordinates)() | 부분 시작점의 좌표를 가져옵니다. 점의 X 좌표는 왼쪽 베어링을 포함한 첫 번째 문자부터 부분의 시작을 나타냅니다. Y 좌표는 상단 베어링을 포함합니다. |
+| [GetRect](../../aspose.slides/portion/getrect)() | 부분을 둘러싼 사각형의 좌표를 가져옵니다. 사각형에는 빈 줄을 포함한 부분의 모든 텍스트 줄이 포함됩니다. |
 | [RemoveField](../../aspose.slides/portion/removefield)() | 이 필드 부분을 단순 부분으로 변환합니다. |
 
 ### 예제
 
-예:
+예제:
 
 ```csharp
 [C#]
@@ -54,7 +54,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### 참고
+### 참조
 
 * 클래스 [Portion](../../aspose.slides/portion)
 * 인터페이스 [IMathPortion](../imathportion)

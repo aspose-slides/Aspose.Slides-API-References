@@ -1,14 +1,14 @@
 ---
 title: IInterruptionToken
-second_title: Aspose.Sildes için .NET API Referansı
-description: Bu sınıf, uzun süren görevlerin kesintinin talep edilip edilmediğini belirtmek için kullanılacak belirteci temsil eder.
+second_title: Aspose.Sildes .NET için API Referansı
+description: Bu sınıf, uzun çalışan görevlerde kesintinin istendiğini işaretlemek için kullanılacak jetonu temsil eder.
 type: docs
-weight: 6190
+weight: 6210
 url: /tr/aspose.slides/iinterruptiontoken/
 ---
 ## IInterruptionToken arayüzü
 
-Bu sınıf, uzun süren görevlerin kesintinin talep edilip edilmediğini işaretlemek için kullanılacak belirteci temsil eder.
+Bu sınıf, uzun çalışan görevlerde kesintinin istendiğini işaretlemek için kullanılacak jetonu temsil eder.
 
 ```csharp
 public interface IInterruptionToken
@@ -18,15 +18,15 @@ public interface IInterruptionToken
 
 | Ad | Açıklama |
 | --- | --- |
-| [IsInterruptionRequested](../../aspose.slides/iinterruptiontoken/isinterruptionrequested) { get; } | Kesinti talep edilmişse Boolean.true döndürür. |
+| [IsInterruptionRequested](../../aspose.slides/iinterruptiontoken/isinterruptionrequested) { get; } | Kesintinin istendiği durumda Boolean.true döndürür. |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [ThrowIfInterruptionRequested](../../aspose.slides/iinterruptiontoken/throwifinterruptionrequested)() | Kesinti talep edilmişse bir OperationCanceledException fırlatır. Kesinti talep edildiğinde fırlatılır. |
+| [ThrowIfInterruptionRequested](../../aspose.slides/iinterruptiontoken/throwifinterruptionrequested)() | Kesintinin istendiği durumda bir OperationCanceledException fırlatır. Kesintinin istendiği zaman fırlatılır. |
 
-### Ayrıca Bakınız
+### Diğer Bağlantılar
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

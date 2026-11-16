@@ -1,9 +1,9 @@
 ---
 title: Save
-second_title: مرجع API Aspose.Sildes لـ .NET
-description: يحفظ جميع الشرائح في عرض تقديمي إلى ملف بالتنسيق المحدد.
+second_title: Aspose.Sildes لنظام .NET - مرجع API
+description: يحفظ جميع شرائح العرض التقديمي إلى ملف بالتنسيق المحدد.
 type: docs
-weight: 390
+weight: 400
 url: /ar/aspose.slides/presentation/save/
 ---
 ## Save(string, SaveFormat) {#save_5}
@@ -14,12 +14,12 @@ url: /ar/aspose.slides/presentation/save/
 public void Save(string fname, SaveFormat format)
 ```
 
-| المعامل | النوع | الوصف |
+| Parameter | Type | Description |
 | --- | --- | --- |
-| fname | String | مسار الملف الذي سيتم إنشاؤه. |
+| fname | String | المسار إلى الملف الذي تم إنشاؤه. |
 | format | SaveFormat | تنسيق البيانات المصدرة. |
 
-### انظر أيضًا
+### See Also
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
 * class [Presentation](../../presentation)
@@ -30,18 +30,18 @@ public void Save(string fname, SaveFormat format)
 
 ## Save(Stream, SaveFormat) {#save_1}
 
-يحفظ جميع الشرائح في عرض تقديمي إلى تدفق بالصيغة المحددة.
+يحفظ جميع الشرائح في عرض تقديمي إلى تدفق بالتنسيق المحدد.
 
 ```csharp
 public void Save(Stream stream, SaveFormat format)
 ```
 
-| المعامل | النوع | الوصف |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | stream | Stream | تدفق الإخراج. |
 | format | SaveFormat | تنسيق البيانات المصدرة. |
 
-### انظر أيضًا
+### See Also
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
 * class [Presentation](../../presentation)
@@ -56,7 +56,7 @@ public void Save(Stream stream, SaveFormat format)
 public void Save(string fname, SaveFormat format, ISaveOptions options)
 ```
 
-### انظر أيضًا
+### See Also
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
 * interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
@@ -68,25 +68,25 @@ public void Save(string fname, SaveFormat format, ISaveOptions options)
 
 ## Save(Stream, SaveFormat, ISaveOptions) {#save_2}
 
-يحفظ جميع الشرائح في عرض تقديمي إلى تدفق بالصيغة المحددة ومع خيارات إضافية.
+يحفظ جميع الشرائح في عرض تقديمي إلى تدفق بالتنسيق المحدد ومع خيارات إضافية.
 
 ```csharp
 public void Save(Stream stream, SaveFormat format, ISaveOptions options)
 ```
 
-| المعامل | النوع | الوصف |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | stream | Stream | تدفق الإخراج. |
 | format | SaveFormat | تنسيق البيانات المصدرة. |
 | options | ISaveOptions | خيارات تنسيق إضافية. |
 
-### الاستثناءات
+### Exceptions
 
-| الاستثناء | الشرط |
+| exception | condition |
 | --- | --- |
-| NotSupportedException | إذا حاولت حفظ ملف مشفر بصيغة غير صيغ Office 2007-2010 |
+| NotSupportedException | If you try to save encrypted file in none Office 2007-2010 format |
 
-### انظر أيضًا
+### See Also
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
 * interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
@@ -98,17 +98,17 @@ public void Save(Stream stream, SaveFormat format, ISaveOptions options)
 
 ## Save(IXamlOptions) {#save}
 
-يحفظ جميع الشرائح في عرض تقديمي إلى مجموعة من الملفات التي تمثل علامة XAML.
+يحفظ جميع الشرائح في عرض تقديمي إلى مجموعة من الملفات التي تمثل ترميز XAML.
 
 ```csharp
 public void Save(IXamlOptions options)
 ```
 
-| المعامل | النوع | الوصف |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | options | IXamlOptions | خيارات تنسيق XAML. |
 
-### أمثلة
+### Examples
 
 ```csharp
 [C#]
@@ -118,7 +118,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### انظر أيضًا
+### See Also
 
 * interface [IXamlOptions](../../../aspose.slides.export.xaml/ixamloptions)
 * class [Presentation](../../presentation)
@@ -135,21 +135,21 @@ using (Presentation pres = new Presentation("pres.pptx"))
 public void Save(string fname, int[] slides, SaveFormat format)
 ```
 
-| المعامل | النوع | الوصف |
+| Parameter | Type | Description |
 | --- | --- | --- |
-| fname | String | مسار الملف الذي سيتم إنشاؤه. |
-| slides | Int32[] | مصفوفة بمواقع الشرائح، بدءًا من 1. |
+| fname | String | المسار إلى الملف الذي تم إنشاؤه. |
+| slides | Int32[] | مصفوفة تحتوي على مواضع الشرائح، بدءًا من 1. |
 | format | SaveFormat | تنسيق البيانات المصدرة. |
 
-### الاستثناءات
+### Exceptions
 
-| الاستثناء | الشرط |
+| exception | condition |
 | --- | --- |
-| ArgumentNullException | عندما يكون stream أو slides فارغًا. |
-| ArgumentOutOfRangeException | عندما تحتوي slides على أرقام صفحات غير صحيحة. |
-| InvalidOperationException | عندما يتم استخدام SaveFormat غير مدعوم، مثل PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+| ArgumentNullException | When stream or slides parameter is null. |
+| ArgumentOutOfRangeException | When slides parameter contains wrong page numbers. |
+| InvalidOperationException | When an unsupported SaveFormat is used, e.g. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
-### انظر أيضًا
+### See Also
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
 * class [Presentation](../../presentation)
@@ -166,14 +166,14 @@ public void Save(string fname, int[] slides, SaveFormat format)
 public void Save(string fname, int[] slides, SaveFormat format, ISaveOptions options)
 ```
 
-| المعامل | النوع | الوصف |
+| Parameter | Type | Description |
 | --- | --- | --- |
-| fname | String | مسار الملف الذي سيتم إنشاؤه. |
-| slides | Int32[] | مصفوفة بمواقع الشرائح، بدءًا من 1. |
+| fname | String | المسار إلى الملف الذي تم إنشاؤه. |
+| slides | Int32[] | مصفوفة تحتوي على مواضع الشرائح، بدءًا من 1. |
 | format | SaveFormat | تنسيق البيانات المصدرة. |
 | options | ISaveOptions | خيارات تنسيق إضافية. |
 
-### انظر أيضًا
+### See Also
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
 * interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
@@ -191,13 +191,13 @@ public void Save(string fname, int[] slides, SaveFormat format, ISaveOptions opt
 public void Save(Stream stream, int[] slides, SaveFormat format)
 ```
 
-| المعامل | النوع | الوصف |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | stream | Stream | تدفق الإخراج. |
-| slides | Int32[] | مصفوفة بمواقع الشرائح، بدءًا من 1. |
+| slides | Int32[] | مصفوفة تحتوي على مواضع الشرائح، بدءًا من 1. |
 | format | SaveFormat | تنسيق البيانات المصدرة. |
 
-### انظر أيضًا
+### See Also
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
 * class [Presentation](../../presentation)
@@ -214,22 +214,22 @@ public void Save(Stream stream, int[] slides, SaveFormat format)
 public void Save(Stream stream, int[] slides, SaveFormat format, ISaveOptions options)
 ```
 
-| المعامل | النوع | الوصف |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | stream | Stream | تدفق الإخراج. |
-| slides | Int32[] | مصفوفة بمواقع الشرائح، بدءًا من 1. |
+| slides | Int32[] | مصفوفة تحتوي على مواضع الشرائح، بدءًا من 1. |
 | format | SaveFormat | تنسيق البيانات المصدرة. |
 | options | ISaveOptions | خيارات تنسيق إضافية. |
 
-### الاستثناءات
+### Exceptions
 
-| الاستثناء | الشرط |
+| exception | condition |
 | --- | --- |
-| ArgumentNullException | عندما يكون stream أو slides فارغًا. |
-| ArgumentOutOfRangeException | عندما تحتوي slides على أرقام صفحات غير صحيحة. |
-| InvalidOperationException | عندما يتم استخدام SaveFormat غير مدعوم، مثل PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+| ArgumentNullException | When stream or slides parameter is null. |
+| ArgumentOutOfRangeException | When slides parameter contains wrong page numbers. |
+| InvalidOperationException | When an unsupported SaveFormat is used, e.g. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
-### أمثلة
+### Examples
 
 المثال التالي يوضح كيفية تحويل PowerPoint إلى PNG.
 
@@ -276,7 +276,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### انظر أيضًا
+### See Also
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
 * interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)

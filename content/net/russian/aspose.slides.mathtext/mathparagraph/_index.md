@@ -1,14 +1,14 @@
 ---
 title: MathParagraph
-second_title: Aspose.Sildes для .NET справки API
-description: Математический абзац, который является контейнером для математических блоков IMathBlock
+second_title: Справочник API Aspose.Sildes для .NET
+description: Математический абзац, являющийся контейнером для математических блоков IMathBlock
 type: docs
-weight: 8900
+weight: 8920
 url: /ru/aspose.slides.mathtext/mathparagraph/
 ---
-## Класс MathParagraph
+## MathParagraph класс
 
-Математический абзац, который является контейнером для математических блоков (IMathBlock)
+Математический абзац, являющийся контейнером для математических блоков (IMathBlock)
 
 ```csharp
 public class MathParagraph : IMathParagraph
@@ -25,8 +25,8 @@ public class MathParagraph : IMathParagraph
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides.mathtext/mathparagraph/count) { get; } | Получает количество элементов, фактически содержащихся в коллекции. Только для чтения Int32. |
-| [Item](../../aspose.slides.mathtext/mathparagraph/item) { get; set; } | Получает элемент по указанному индексу. Только для чтения [`IMathBlock`](../imathblock). |
+| [Count](../../aspose.slides.mathtext/mathparagraph/count) { get; } | Возвращает количество элементов, фактически содержащихся в коллекции. Только для чтения Int32. |
+| [Item](../../aspose.slides.mathtext/mathparagraph/item) { get; set; } | Возвращает элемент по указанному индексу. Только для чтения [`IMathBlock`](../imathblock). |
 | [Justification](../../aspose.slides.mathtext/mathparagraph/justification) { get; set; } | Выравнивание абзаца Значение по умолчанию: CenteredAsGroup |
 
 ## Методы
@@ -35,12 +35,12 @@ public class MathParagraph : IMathParagraph
 | --- | --- |
 | [Add](../../aspose.slides.mathtext/mathparagraph/add)(IMathBlock) | Добавляет IMathBlock в конец коллекции. |
 | [Clear](../../aspose.slides.mathtext/mathparagraph/clear)() | Удаляет все элементы из коллекции. |
-| [Contains](../../aspose.slides.mathtext/mathparagraph/contains)(IMathBlock) | Определяет, содержит ли коллекция конкретное значение. |
-| [IndexOf](../../aspose.slides.mathtext/mathparagraph/indexof)(IMathBlock) | Определяет индекс конкретного IMMathBlock в коллекции. |
-| [Insert](../../aspose.slides.mathtext/mathparagraph/insert)(int, IMathBlock) | Вставляет IMathBlock в коллекцию по указанному индексу. |
-| [Remove](../../aspose.slides.mathtext/mathparagraph/remove)(IMathBlock) | Удаляет первое вхождение конкретного объекта из коллекции/&gt;. |
+| [Contains](../../aspose.slides.mathtext/mathparagraph/contains)(IMathBlock) | Определяет, содержит ли коллекция определённое значение. |
+| [IndexOf](../../aspose.slides.mathtext/mathparagraph/indexof)(IMathBlock) | Определяет индекс определённого IMMathBlock в коллекции. |
+| [Insert](../../aspose.slides.mathtext/mathparagraph/insert)(int, IMathBlock) | Вставляет IMMathBlock в коллекцию по указанному индексу. |
+| [Remove](../../aspose.slides.mathtext/mathparagraph/remove)(IMathBlock) | Удаляет первое вхождение определённого объекта из коллекции/&gt;. |
 | [RemoveAt](../../aspose.slides.mathtext/mathparagraph/removeat)(int) | Удаляет элемент по указанному индексу в коллекции. |
-| [ToLatex](../../aspose.slides.mathtext/mathparagraph/tolatex)() | Получает математическое уравнение в формате LaTeX |
+| [ToLatex](../../aspose.slides.mathtext/mathparagraph/tolatex)() | Возвращает математическое уравнение в формате LaTeX |
 | [WriteAsMathMl](../../aspose.slides.mathtext/mathparagraph/writeasmathml)(Stream) | Сохраняет содержимое этого [`MathParagraph`](../mathparagraph) в формате MathML |
 
 ### Примеры

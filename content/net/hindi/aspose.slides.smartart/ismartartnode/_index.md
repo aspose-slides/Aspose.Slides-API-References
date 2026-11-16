@@ -1,14 +1,14 @@
 ---
 title: ISmartArtNode
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: एक SmartArt आरेख का नोड दर्शाता है।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: SmartArt आरेख के नोड का प्रतिनिधित्व करता है।
 type: docs
-weight: 10550
+weight: 10570
 url: /hi/aspose.slides.smartart/ismartartnode/
 ---
 ## ISmartArtNode इंटरफ़ेस
 
-एक SmartArt आरेख का नोड दर्शाता है।
+SmartArt आरेख का नोड दर्शाता है।
 
 ```csharp
 public interface ISmartArtNode
@@ -16,25 +16,25 @@ public interface ISmartArtNode
 
 ## गुण
 
-| नाम | विवरण |
+| Name | विवरण |
 | --- | --- |
-| [BulletFillFormat](../../aspose.slides.smartart/ismartartnode/bulletfillformat) { get; } | एक FillFormat ऑब्जेक्ट लौटाता है जिसमें नोड बुलेट के लिए भराव फ़ॉर्मेटिंग प्रॉपर्टी शामिल हैं। नोट: कुछ SmartArt लेआउट प्रकारों के लिए null लौटाया जा सकता है जो नोड्स के लिए बुलेट प्रदान नहीं करता। केवल-पढ़ने योग्य [`IFillFormat`](../../aspose.slides/ifillformat). |
-| [ChildNodes](../../aspose.slides.smartart/ismartartnode/childnodes) { get; } | वर्तमान नोड के सभी चाइल्ड नोड्स का संग्रह लौटाता है। केवल-पढ़ने योग्य [`ISmartArtNodeCollection`](../ismartartnodecollection). |
-| [IsAssistant](../../aspose.slides.smartart/ismartartnode/isassistant) { get; set; } | नोड को सहायक के रूप में प्राप्त करता है या सेट करता है। पढ़ने/लिखने योग्य Boolean. |
-| [IsHidden](../../aspose.slides.smartart/ismartartnode/ishidden) { get; } | यदि यह नोड डेटा मॉडल में एक छिपा नोड है तो true लौटाता है। केवल-पढ़ने योग्य Boolean. |
-| [Level](../../aspose.slides.smartart/ismartartnode/level) { get; } | नोड का नेस्टिंग स्तर लौटाता है। केवल-पढ़ने योग्य Int32. |
-| [OrganizationChartLayout](../../aspose.slides.smartart/ismartartnode/organizationchartlayout) { get; set; } | वर्तमान नोड से संबंधित ऑर्गनाइज़ेशन चार्ट लेआउट प्रकार को प्राप्त करता है या सेट करता है। पढ़ने/लिखने योग्य [`OrganizationChartLayoutType`](../organizationchartlayouttype). |
-| [Position](../../aspose.slides.smartart/ismartartnode/position) { get; set; } | सहभाई नोड्स में नोड की शून्य-आधारित स्थिति प्राप्त करता है या सेट करता है। पढ़ने/लिखने योग्य Int32. |
-| [Shapes](../../aspose.slides.smartart/ismartartnode/shapes) { get; } | नोड से जुड़े सभी शैप्स का संग्रह लौटाता है। केवल-पढ़ने योग्य [`ISmartArtShapeCollection`](../ismartartshapecollection). |
-| [TextFrame](../../aspose.slides.smartart/ismartartnode/textframe) { get; } | नोड का टेक्स्ट प्राप्त करता है या सेट करता है। केवल-पढ़ने योग्य [`ITextFrame`](../../aspose.slides/itextframe). |
+| [BulletFillFormat](../../aspose.slides.smartart/ismartartnode/bulletfillformat) { get; } | FillFormat ऑब्जेक्ट लौटाता है जिसमें नोड बुलेट के लिए भराव स्वरूपण गुण होते हैं। ध्यान दें: कुछ प्रकार के SmartArt लेआउट के लिए null लौट सकता है जो नोड के लिए बुलेट प्रदान नहीं करते हैं। केवल पढ़ने योग्य [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [ChildNodes](../../aspose.slides.smartart/ismartartnode/childnodes) { get; } | वर्तमान नोड के सभी चाइल्ड नोड्स का संग्रह लौटाता है। केवल पढ़ने योग्य [`ISmartArtNodeCollection`](../ismartartnodecollection). |
+| [IsAssistant](../../aspose.slides.smartart/ismartartnode/isassistant) { get; set; } | नोड को सहायक के रूप में सेट या प्राप्त करता है। पढ़ने/लिखने योग्य Boolean. |
+| [IsHidden](../../aspose.slides.smartart/ismartartnode/ishidden) { get; } | यदि यह नोड डेटा मॉडल में छिपा नोड है तो true लौटाता है। केवल पढ़ने योग्य Boolean. |
+| [Level](../../aspose.slides.smartart/ismartartnode/level) { get; } | नोड का नेस्टिंग स्तर लौटाता है। केवल पढ़ने योग्य Int32. |
+| [OrganizationChartLayout](../../aspose.slides.smartart/ismartartnode/organizationchartlayout) { get; set; } | वर्तमान नोड से जुड़े संगठन चार्ट लेआउट प्रकार को सेट या प्राप्त करता है। पढ़ने/लिखने योग्य [`OrganizationChartLayoutType`](../organizationchartlayouttype). |
+| [Position](../../aspose.slides.smartart/ismartartnode/position) { get; set; } | समान स्तर के नोड्स में इस नोड की शून्य-आधारित स्थिति सेट या प्राप्त करता है। पढ़ने/लिखने योग्य Int32. |
+| [Shapes](../../aspose.slides.smartart/ismartartnode/shapes) { get; } | नोड से जुड़े सभी आकारों का संग्रह लौटाता है। केवल पढ़ने योग्य [`ISmartArtShapeCollection`](../ismartartshapecollection). |
+| [TextFrame](../../aspose.slides.smartart/ismartartnode/textframe) { get; } | नोड का पाठ सेट या प्राप्त करता है। केवल पढ़ने योग्य [`ITextFrame`](../../aspose.slides/itextframe). |
 
 ## विधियाँ
 
-| नाम | विवरण |
+| Name | विवरण |
 | --- | --- |
-| [Remove](../../aspose.slides.smartart/ismartartnode/remove)() | वर्तमान नोड को हटाता है। |
+| [Remove](../../aspose.slides.smartart/ismartartnode/remove)() | वर्तमान नोड को हटाएँ। |
 
-### देखें
+### संबंधित देखें
 
 * नामस्थान [Aspose.Slides.SmartArt](../../aspose.slides.smartart)
 * असेंबली [Aspose.Slides](../../)

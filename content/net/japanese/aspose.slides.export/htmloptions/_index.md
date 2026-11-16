@@ -1,9 +1,9 @@
 ---
 title: HtmlOptions
-second_title: Aspose.Sildes .NET 用 API リファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: HTML エクスポート オプションを表します。
 type: docs
-weight: 3890
+weight: 3910
 url: /ja/aspose.slides.export/htmloptions/
 ---
 ## HtmlOptions クラス
@@ -14,32 +14,32 @@ HTML エクスポート オプションを表します。
 public class HtmlOptions : SaveOptions, IHtmlOptions
 ```
 
-## コンストラクタ
+## コンストラクター
 
 | 名前 | 説明 |
 | --- | --- |
 | [HtmlOptions](htmloptions#constructor)() | 単一の HTML ファイルに保存するための新しい HtmlOptions オブジェクトを作成します。 |
-| [HtmlOptions](htmloptions#constructor_1)(ILinkEmbedController) | コールバックを指定して新しい HtmlOptions オブジェクトを作成します。 |
+| [HtmlOptions](htmloptions#constructor_1)(ILinkEmbedController) | コールバックを指定した新しい HtmlOptions オブジェクトを作成します。 |
 
 ## プロパティ
 
 | 名前 | 説明 |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | ソースフォントが見つからない場合に使用されるフォントを取得または設定します。読み書き可能な String。 |
-| [DeletePicturesCroppedAreas](../../aspose.slides.export/htmloptions/deletepicturescroppedareas) { get; set; } | 切り取られた部分をドキュメントの一部として保持するかどうかを示すブールフラグです。true の場合は切り取られた部分が削除され、false の場合はドキュメントにシリアライズされます（ファイルが大きくなる可能性があります）。 |
-| [DisableFontLigatures](../../aspose.slides.export/htmloptions/disablefontligatures) { get; set; } | テキストをリガチャを使用せずにレンダリングするかどうかを示す値を取得または設定します。`true` に設定すると、レンダリング出力でリガチャが無効になります。デフォルトでは、このプロパティは `false` に設定されています。 |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | グラデーションのビジュアルスタイルを取得または設定します。読み書き可能な [`GradientStyle`](../../aspose.slides/gradientstyle)。 |
-| [HtmlFormatter](../../aspose.slides.export/htmloptions/htmlformatter) { get; set; } | HTML テンプレートを取得または設定します。読み書き可能な [`IHtmlFormatter`](../ihtmlformatter)。 |
-| [InkOptions](../../aspose.slides.export/htmloptions/inkoptions) { get; } | エクスポートされたドキュメント内の Ink オブジェクトの外観を制御するオプションを提供します。読み取り専用の [`IInkOptions`](../iinkoptions) |
-| [JpegQuality](../../aspose.slides.export/htmloptions/jpegquality) { get; set; } | PDF ドキュメント内の JPEG 画像の品質を決定する値を取得または設定します。読み書き可能な Byte。 |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | ソースフォントが見つからない場合に使用されるフォントを取得または設定します。読み書き String。 |
+| [DeletePicturesCroppedAreas](../../aspose.slides.export/htmloptions/deletepicturescroppedareas) { get; set; } | 切り取られた部分が文書の一部として残るかどうかを示すブールフラグです。true の場合、切り取られた部分は削除され、false の場合、文書にシリアライズされます（これによりファイルサイズが大きくなる可能性があります）。 |
+| [DisableFontLigatures](../../aspose.slides.export/htmloptions/disablefontligatures) { get; set; } | テキストが合字を使用せずに描画されるかどうかを示す値を取得または設定します。`true` に設定すると、描画出力で合字が無効になります。デフォルトでは、このプロパティは `false` に設定されています。 |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | グラデーションの視覚スタイルを取得または設定します。読み書き [`GradientStyle`](../../aspose.slides/gradientstyle)。 |
+| [HtmlFormatter](../../aspose.slides.export/htmloptions/htmlformatter) { get; set; } | HTML テンプレートを取得または設定します。読み書き [`IHtmlFormatter`](../ihtmlformatter)。 |
+| [InkOptions](../../aspose.slides.export/htmloptions/inkoptions) { get; } | エクスポートされた文書内の Ink オブジェクトの外観を制御するオプションを提供します。読み取り専用 [`IInkOptions`](../iinkoptions) |
+| [JpegQuality](../../aspose.slides.export/htmloptions/jpegquality) { get; set; } | PDF 文書内の JPEG 画像の品質を決定する値を取得または設定します。読み書き Byte。 |
 | [PicturesCompression](../../aspose.slides.export/htmloptions/picturescompression) { get; set; } | 画像の圧縮レベルを表します |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 保存の進捗をパーセンテージで更新するコールバックオブジェクトを表します。[`IProgressCallback`](../../aspose.slides/iprogresscallback) を参照してください。 |
-| [ShowHiddenSlides](../../aspose.slides.export/htmloptions/showhiddenslides) { get; set; } | 生成されたドキュメントに非表示スライドを含めるかどうかを指定します。デフォルトは `false` です。 |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | プレゼンテーションの保存時に JavaScript 呼び出しを含むハイパーリンクをスキップするかどうかを指定します。読み書き可能な Boolean。デフォルト値は **false** です。 |
-| [SlideImageFormat](../../aspose.slides.export/htmloptions/slideimageformat) { get; set; } | スライド画像形式オプションを取得または設定します。読み書き可能な [`ISlideImageFormat`](../islideimageformat)。 |
-| [SlidesLayoutOptions](../../aspose.slides.export/htmloptions/slideslayoutoptions) { get; set; } | プレゼンテーションのエクスポート時にスライドがページ上に配置されるモードを取得または設定します [`ISlidesLayoutOptions`](../islideslayoutoptions)。 |
-| [SvgResponsiveLayout](../../aspose.slides.export/htmloptions/svgresponsivelayout) { get; set; } | 幅と高さの属性を SVG コンテナから除外する場合は true、そうでない場合は false とします。読み書き可能な Boolean。 |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 警告を受け取り、ロードプロセスを続行するか中止するかを決定するオブジェクトを取得または設定します。読み書き可能な [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)。 |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 進捗更新（パーセンテージ）を保存するためのコールバックオブジェクトを表します。[`IProgressCallback`](../../aspose.slides/iprogresscallback) を参照してください。 |
+| [ShowHiddenSlides](../../aspose.slides.export/htmloptions/showhiddenslides) { get; set; } | 生成された文書に非表示スライドを含めるかどうかを指定します。デフォルトは `false` です。 |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | プレゼンテーションを保存する際に JavaScript 呼び出しを含むハイパーリンクをスキップするかどうかを指定します。読み書き Boolean。デフォルト値は **false** です。 |
+| [SlideImageFormat](../../aspose.slides.export/htmloptions/slideimageformat) { get; set; } | スライド画像フォーマットのオプションを取得または設定します。読み書き [`ISlideImageFormat`](../islideimageformat)。 |
+| [SlidesLayoutOptions](../../aspose.slides.export/htmloptions/slideslayoutoptions) { get; set; } | プレゼンテーションをエクスポートする際にスライドがページ上に配置されるモードを取得または設定します [`ISlidesLayoutOptions`](../islideslayoutoptions)。 |
+| [SvgResponsiveLayout](../../aspose.slides.export/htmloptions/svgresponsivelayout) { get; set; } | 幅と高さの属性を svg コンテナから除外するには true に設定します（これによりレイアウトがレスポンシブになります）。それ以外の場合は false に設定します。読み書き Boolean。 |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 警告を受け取り、ロードプロセスを継続するか中止するかを判断するオブジェクトを取得または設定します。読み書き [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)。 |
 
 ### 参照
 

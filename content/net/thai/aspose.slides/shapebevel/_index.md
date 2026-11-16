@@ -1,20 +1,20 @@
 ---
 title: ShapeBevel
-second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
-description: บรรจุคุณสมบัติของ relief บนหน้าหลักของรูปร่าง
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: มีคุณสมบัติของการยกพื้นผิวด้านหน้าหลักของรูปร่าง
 type: docs
-weight: 9850
+weight: 9870
 url: /th/aspose.slides/shapebevel/
 ---
 ## ShapeBevel คลาส
 
-ประกอบด้วยคุณสมบัติของ relief บนหน้าหลักของรูปร่าง
+มีคุณสมบัติของการยกพื้นผิวด้านหน้าหลักของรูปร่าง
 
 ```csharp
 public sealed class ShapeBevel : PVIObject, IShapeBevel
 ```
 
-## คอนสตรัก터
+## คอนสตรัคเตอร์
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
@@ -24,10 +24,10 @@ public sealed class ShapeBevel : PVIObject, IShapeBevel
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IPresentationComponent พื้นฐาน. อ่านอย่างเดียว [`IPresentationComponent`](../ipresentationcomponent). |
-| [BevelType](../../aspose.slides/shapebevel/beveltype) { get; set; } | ประเภทของ Bevel. อ่าน/เขียน [`BevelPresetType`](../bevelpresettype). |
-| [Height](../../aspose.slides/shapebevel/height) { get; set; } | ความสูงของ Bevel. อ่าน/เขียน Double. |
-| [Width](../../aspose.slides/shapebevel/width) { get; set; } | ความกว้างของ Bevel. อ่าน/เขียน Double. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IPresentationComponent พื้นฐานได้. อ่านอย่างเดียว [`IPresentationComponent`](../ipresentationcomponent) |
+| [BevelType](../../aspose.slides/shapebevel/beveltype) { get; set; } | ประเภท Bevel. อ่าน/เขียน [`BevelPresetType`](../bevelpresettype) |
+| [Height](../../aspose.slides/shapebevel/height) { get; set; } | ความสูง Bevel. อ่าน/เขียน Double |
+| [Width](../../aspose.slides/shapebevel/width) { get; set; } | ความกว้าง Bevel. อ่าน/เขียน Double |
 
 ## เมธอด
 

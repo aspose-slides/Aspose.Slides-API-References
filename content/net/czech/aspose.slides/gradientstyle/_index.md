@@ -1,14 +1,14 @@
 ---
 title: GradientStyle
-second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje dostupné styly přechodu.
+second_title: Aspose.Sildes pro .NET referenční příručku API
+description: Představuje dostupné styly gradientů.
 type: docs
-weight: 5060
+weight: 5080
 url: /cs/aspose.slides/gradientstyle/
 ---
-## enumerace GradientStyle
+## Výčet GradientStyle
 
-Reprezentuje dostupné styly přechodu.
+Představuje dostupné styly gradientů.
 
 ```csharp
 public enum GradientStyle
@@ -18,8 +18,8 @@ public enum GradientStyle
 
 | Název | Hodnota | Popis |
 | --- | --- | --- |
-| Default | `0` | Výchozí styl přechodu. |
-| PowerPointUI | `1` | Styl přechodu, jak se zobrazuje v uživatelském rozhraní PowerPointu. |
+| Default | `0` | Výchozí styl gradientu. |
+| PowerPointUI | `1` | Styl gradientu, jak se zobrazuje v uživatelském rozhraní PowerPointu. |
 
 ### Viz také
 

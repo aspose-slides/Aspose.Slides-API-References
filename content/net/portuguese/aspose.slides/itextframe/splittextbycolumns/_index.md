@@ -1,14 +1,14 @@
 ---
 title: SplitTextByColumns
-second_title: Aspose.Sildes para .NET Referência de API
-description: Divide o conteúdo de texto do ITextFrameaspose.slides/itextframe em um array de strings onde cada elemento corresponde a uma coluna de texto separada dentro da moldura.
+second_title: Aspose.Sildes para .NET Referência da API
+description: Divide o conteúdo de texto do ITextFrameaspose.slides/itextframe em um array de strings, onde cada elemento corresponde a uma coluna de texto separada dentro do quadro.
 type: docs
-weight: 130
+weight: 140
 url: /pt/aspose.slides/itextframe/splittextbycolumns/
 ---
 ## ITextFrame.SplitTextByColumns método
 
-Divide o conteúdo de texto do [`ITextFrame`](../../itextframe) em um array de strings, onde cada elemento corresponde a uma coluna de texto distinta dentro da moldura.
+Divide o conteúdo de texto do [`ITextFrame`](../../itextframe) em um array de strings, onde cada elemento corresponde a uma coluna de texto separada dentro do quadro.
 
 ```csharp
 public string[] SplitTextByColumns()
@@ -20,7 +20,7 @@ Um array de strings, onde cada string representa o conteúdo de texto de uma col
 
 ### Observações
 
-Se a moldura de texto não contiver múltiplas colunas, o array retornado terá um único elemento contendo o texto completo. Colunas vazias serão representadas como strings vazias no array.
+Se o quadro de texto não contiver múltiplas colunas, o array retornado terá um único elemento contendo o texto completo. Colunas vazias serão representadas como strings vazias no array.
 
 ### Exemplos
 
@@ -29,9 +29,9 @@ O exemplo a seguir demonstra como usar `SplitTextByColumns`:
 ```csharp
 using (Presentation pres = new Presentation("example.pptx"))
 {
-    // Obtenha a primeira forma no slide e faça o cast para ITextFrame
+    // Obtenha a primeira forma no slide e converta-a para ITextFrame
     ITextFrame textFrame = pres.Slides[0].Shapes[0] as ITextFrame;
-    // Divida o conteúdo da moldura de texto em colunas
+    // Divida o conteúdo do quadro de texto em colunas
     string[] columnsText = textFrame.SplitTextByColumns();
     // Imprima o texto de cada coluna no console
     foreach (string column in columnsText)
@@ -39,7 +39,7 @@ using (Presentation pres = new Presentation("example.pptx"))
 }
 ```
 
-### Veja Também
+### Ver Também
 
 * interface [ITextFrame](../../itextframe)
 * namespace [Aspose.Slides](../../itextframe)

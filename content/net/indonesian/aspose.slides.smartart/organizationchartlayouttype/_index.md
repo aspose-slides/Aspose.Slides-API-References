@@ -1,14 +1,14 @@
 ---
 title: OrganizationChartLayoutType
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili tipe format node anak dalam bagan organisasi
+second_title: Aspose.Sildes untuk .NET API Reference
+description: Mewakili tipe pemformatan node anak dalam diagram organisasi
 type: docs
-weight: 10590
+weight: 10610
 url: /id/aspose.slides.smartart/organizationchartlayouttype/
 ---
-## enumerasi OrganizationChartLayoutType
+## OrganizationChartLayoutType enumerasi
 
-Mewakili tipe format node anak dalam bagan organisasi
+Mewakili jenis pemformatan node anak dalam diagram organisasi
 
 ```csharp
 public enum OrganizationChartLayoutType

@@ -1,14 +1,14 @@
 ---
 title: ICommentAuthorCollection
-second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Đại diện cho một bộ sưu tập các tác giả bình luận.
+second_title: Aspose.Sildes cho Tham chiếu API .NET
+description: Biểu diễn một bộ sưu tập các tác giả nhận xét.
 type: docs
-weight: 5580
+weight: 5600
 url: /vi/aspose.slides/icommentauthorcollection/
 ---
 ## ICommentAuthorCollection giao diện
 
-Đại diện cho một bộ sưu tập các tác giả bình luận.
+Biểu diễn một bộ sưu tập các tác giả nhận xét.
 
 ```csharp
 public interface ICommentAuthorCollection : IGenericCollection<ICommentAuthor>
@@ -18,18 +18,18 @@ public interface ICommentAuthorCollection : IGenericCollection<ICommentAuthor>
 
 | Tên | Mô tả |
 | --- | --- |
-| [Item](../../aspose.slides/icommentauthorcollection/item) { get; } | Lấy phần tử tại chỉ mục đã chỉ định. Chỉ đọc [`ICommentAuthor`](../icommentauthor). |
+| [Item](../../aspose.slides/icommentauthorcollection/item) { get; } | Lấy phần tử tại chỉ mục được chỉ định. Chỉ đọc [`ICommentAuthor`](../icommentauthor). |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
 | [AddAuthor](../../aspose.slides/icommentauthorcollection/addauthor)(string, string) | Thêm tác giả mới vào cuối bộ sưu tập. |
-| [Clear](../../aspose.slides/icommentauthorcollection/clear)() | Xóa tất cả tác giả khỏi bộ sưu tập. |
+| [Clear](../../aspose.slides/icommentauthorcollection/clear)() | Xóa tất cả các tác giả khỏi bộ sưu tập. |
 | [FindByName](../../aspose.slides/icommentauthorcollection/findbyname)(string) | Tìm tác giả trong bộ sưu tập theo tên. |
-| [FindByNameAndInitials](../../aspose.slides/icommentauthorcollection/findbynameandinitials)(string, string) | Tìm tác giả trong bộ sưu tập theo tên và chữ viết tắt. |
+| [FindByNameAndInitials](../../aspose.slides/icommentauthorcollection/findbynameandinitials)(string, string) | Tìm tác giả trong bộ sưu tập theo tên và ký hiệu. |
 | [Remove](../../aspose.slides/icommentauthorcollection/remove)(ICommentAuthor) | Xóa lần xuất hiện đầu tiên của tác giả được chỉ định trong bộ sưu tập. |
-| [RemoveAt](../../aspose.slides/icommentauthorcollection/removeat)(int) | Xóa tác giả ở chỉ mục đã chỉ định của bộ sưu tập. |
+| [RemoveAt](../../aspose.slides/icommentauthorcollection/removeat)(int) | Xóa tác giả tại chỉ mục được chỉ định của bộ sưu tập. |
 | [ToArray](../../aspose.slides/icommentauthorcollection/toarray)() | Tạo và trả về một mảng chứa tất cả các tác giả. |
 
 ### Xem thêm

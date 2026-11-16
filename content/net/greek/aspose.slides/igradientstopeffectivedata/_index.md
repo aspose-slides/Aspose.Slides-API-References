@@ -1,12 +1,12 @@
 ---
 title: IGradientStopEffectiveData
-second_title: Aspose.Sildes για .NET API Αναφορά
+second_title: Aspose.Sildes για .NET Αναφορά API
 description: αμετάβλητο αντικείμενο που αντιπροσωπεύει ένα σημείο διαβάθμισης.
 type: docs
-weight: 6050
+weight: 6070
 url: /el/aspose.slides/igradientstopeffectivedata/
 ---
-## IGradientStopEffectiveData διασύνδεση
+## IGradientStopEffectiveData Διεπαφή
 
 αμετάβλητο αντικείμενο που αντιπροσωπεύει ένα σημείο διαβάθμισης.
 

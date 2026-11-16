@@ -1,14 +1,14 @@
 ---
 title: IChartSeriesCollection
-second_title: Aspose.Sildes για .NET API Αναφορά
-description: Αναπαριστά τη συλλογή του IChartSeries./ichartseries
+second_title: Aspose.Sildes για .NET Αναφορά API
+description: Αναπαριστά τη συλλογή των IChartSeries./ichartseries
 type: docs
-weight: 1940
+weight: 1960
 url: /el/aspose.slides.charts/ichartseriescollection/
 ---
-## IChartSeriesCollection διασύνδεση
+## IChartSeriesCollection διεπαφή
 
-Αναπαριστά τη συλλογή του [`IChartSeries`](../ichartseries)
+Αναπαριστά τη συλλογή των [`IChartSeries`](../ichartseries)
 
 ```csharp
 public interface IChartSeriesCollection : IGenericCollection<IChartSeries>
@@ -18,7 +18,7 @@ public interface IChartSeriesCollection : IGenericCollection<IChartSeries>
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [Item](../../aspose.slides.charts/ichartseriescollection/item) { get; } | Επιστρέφει το στοιχείο στον καθορισμένο δείκτη. |
+| [Item](../../aspose.slides.charts/ichartseriescollection/item) { get; } | Λαμβάνει το στοιχείο στη συγκεκριμένη θέση. |
 
 ## Μέθοδοι
 
@@ -29,15 +29,15 @@ public interface IChartSeriesCollection : IGenericCollection<IChartSeries>
 | [Add](../../aspose.slides.charts/ichartseriescollection/add#add_2)(IChartDataCell, ChartType) | Δημιουργεί νέα σειρά γραφήματος από [`IChartDataCell`](../ichartdatacell) και την προσθέτει στη συλλογή. |
 | [Add](../../aspose.slides.charts/ichartseriescollection/add#add_3)(string, ChartType) | Δημιουργεί νέα σειρά γραφήματος από τιμή και την προσθέτει στη συλλογή. |
 | [Clear](../../aspose.slides.charts/ichartseriescollection/clear)() | Αφαιρεί όλα τα στοιχεία (συμπεριλαμβανομένου του στυλ γραφήματος) από τη συλλογή. |
-| [IndexOf](../../aspose.slides.charts/ichartseriescollection/indexof)(IChartSeries) | Αναζητά το καθορισμένο [`IChartSeries`](../ichartseries) και επιστρέφει το μηδενικό δείκτη της πρώτης εμφάνισης στη Συλλογή. |
+| [IndexOf](../../aspose.slides.charts/ichartseriescollection/indexof)(IChartSeries) | Αναζητά το καθορισμένο [`IChartSeries`](../ichartseries) και επιστρέφει τον μηδενικό δείκτη της πρώτης εμφάνισης εντός ολόκληρης της Collection |
 | [Insert](../../aspose.slides.charts/ichartseriescollection/insert)(int, ChartType) | Δημιουργεί νέα σειρά γραφήματος και την εισάγει στη συλλογή. |
 | [Remove](../../aspose.slides.charts/ichartseriescollection/remove)(IChartSeries) | Αφαιρεί την καθορισμένη τιμή. |
-| [RemoveAt](../../aspose.slides.charts/ichartseriescollection/removeat)(int) | Αφαιρέι το στοιχείο στον καθορισμένο δείκτη. |
+| [RemoveAt](../../aspose.slides.charts/ichartseriescollection/removeat)(int) | Αφαιρεί το στοιχείο στη συγκεκριμένη θέση |
 
 ### Δείτε επίσης
 
-* διασύνδεση [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
-* διασύνδεση [IChartSeries](../ichartseries)
+* διεπαφή [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
+* διεπαφή [IChartSeries](../ichartseries)
 * χώρο ονομάτων [Aspose.Slides.Charts](../../aspose.slides.charts)
 * συναρμολόγηση [Aspose.Slides](../../)
 

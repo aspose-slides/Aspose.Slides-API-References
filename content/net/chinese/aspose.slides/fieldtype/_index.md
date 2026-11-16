@@ -1,14 +1,14 @@
 ---
 title: FieldType
 second_title: Aspose.Sildes .NET API 参考
-description: 表示字段的类型。此值决定在字段更新时将设置到字段部分的文本。
+description: 表示字段的类型。该值决定在更新时将哪些文本设置到字段部分。
 type: docs
-weight: 4760
+weight: 4780
 url: /zh/aspose.slides/fieldtype/
 ---
 ## FieldType 类
 
-表示字段的类型。此值决定在字段被更新时将设置到字段部分的文本。
+表示字段的类型。此值决定在更新时将哪些文本设置为字段部分。
 
 ```csharp
 public sealed class FieldType : IFieldType
@@ -24,35 +24,35 @@ public sealed class FieldType : IFieldType
 
 | 名称 | 描述 |
 | --- | --- |
-| static [DateTime](../../aspose.slides/fieldtype/datetime) { get; } | 渲染应用程序的默认日期时间格式的当前日期和时间。只读 [`FieldType`](../fieldtype)。 |
-| static [DateTime1](../../aspose.slides/fieldtype/datetime1) { get; } | 第一种预定义格式（英文为 MM/DD/YYYY）的当前日期和时间。只读 [`FieldType`](../fieldtype)。 |
-| static [DateTime10](../../aspose.slides/fieldtype/datetime10) { get; } | 第十种预定义格式（英文为 hh:mm）的当前日期和时间。只读 [`FieldType`](../fieldtype)。 |
-| static [DateTime11](../../aspose.slides/fieldtype/datetime11) { get; } | 第十一种预定义格式（英文为 hh:mm:ss）的当前日期和时间。只读 [`FieldType`](../fieldtype)。 |
-| static [DateTime12](../../aspose.slides/fieldtype/datetime12) { get; } | 第十二种预定义格式（英文为 hh:mm AM/PM）的当前日期和时间。只读 [`FieldType`](../fieldtype)。 |
-| static [DateTime13](../../aspose.slides/fieldtype/datetime13) { get; } | 第十三种预定义格式（英文为 hh:mm:ss AM/PM）的当前日期和时间。只读 [`FieldType`](../fieldtype)。 |
-| static [DateTime2](../../aspose.slides/fieldtype/datetime2) { get; } | 第二种预定义格式（英文为 Day, Month DD, YYYY）的当前日期和时间。只读 [`FieldType`](../fieldtype)。 |
-| static [DateTime3](../../aspose.slides/fieldtype/datetime3) { get; } | 第三种预定义格式（英文为 DD Month YYYY）的当前日期和时间。只读 [`FieldType`](../fieldtype)。 |
-| static [DateTime4](../../aspose.slides/fieldtype/datetime4) { get; } | 第四种预定义格式（英文为 Month DD, YYYY）的当前日期和时间。只读 [`FieldType`](../fieldtype)。 |
-| static [DateTime5](../../aspose.slides/fieldtype/datetime5) { get; } | 第五种预定义格式（英文为 DD-Mon-YY）的当前日期和时间。只读 [`FieldType`](../fieldtype)。 |
-| static [DateTime6](../../aspose.slides/fieldtype/datetime6) { get; } | 第六种预定义格式（英文为 Month YY）的当前日期和时间。只读 [`FieldType`](../fieldtype)。 |
-| static [DateTime7](../../aspose.slides/fieldtype/datetime7) { get; } | 第七种预定义格式（英文为 Mon-YY）的当前日期和时间。只读 [`FieldType`](../fieldtype)。 |
-| static [DateTime8](../../aspose.slides/fieldtype/datetime8) { get; } | 第八种预定义格式（英文为 MM/DD/YYYY hh:mm AM/PM）的当前日期和时间。只读 [`FieldType`](../fieldtype)。 |
-| static [DateTime9](../../aspose.slides/fieldtype/datetime9) { get; } | 第九种预定义格式（英文为 MM/DD/YYYY hh:mm:ss AM/PM）的当前日期和时间。只读 [`FieldType`](../fieldtype)。 |
+| static [DateTime](../../aspose.slides/fieldtype/datetime) { get; } | 渲染应用程序的默认日期时间格式下的当前日期和时间。只读 [`FieldType`](../fieldtype)。 |
+| static [DateTime1](../../aspose.slides/fieldtype/datetime1) { get; } | 使用第一预定义格式（英语为 MM/DD/YYYY）的当前日期和时间。只读 [`FieldType`](../fieldtype)。 |
+| static [DateTime10](../../aspose.slides/fieldtype/datetime10) { get; } | 使用第十预定义格式（英语为 hh:mm）的当前日期和时间。只读 [`FieldType`](../fieldtype)。 |
+| static [DateTime11](../../aspose.slides/fieldtype/datetime11) { get; } | 使用第十一预定义格式（英语为 hh:mm:ss）的当前日期和时间。只读 [`FieldType`](../fieldtype)。 |
+| static [DateTime12](../../aspose.slides/fieldtype/datetime12) { get; } | 使用第十二预定义格式（英语为 hh:mm AM/PM）的当前日期和时间。只读 [`FieldType`](../fieldtype)。 |
+| static [DateTime13](../../aspose.slides/fieldtype/datetime13) { get; } | 使用第十三预定义格式（英语为 hh:mm:ss AM/PM）的当前日期和时间。只读 [`FieldType`](../fieldtype)。 |
+| static [DateTime2](../../aspose.slides/fieldtype/datetime2) { get; } | 使用第二预定义格式（英语为 Day, Month DD, YYYY）的当前日期和时间。只读 [`FieldType`](../fieldtype)。 |
+| static [DateTime3](../../aspose.slides/fieldtype/datetime3) { get; } | 使用第三预定义格式（英语为 DD Month YYYY）的当前日期和时间。只读 [`FieldType`](../fieldtype)。 |
+| static [DateTime4](../../aspose.slides/fieldtype/datetime4) { get; } | 使用第四预定义格式（英语为 Month DD, YYYY）的当前日期和时间。只读 [`FieldType`](../fieldtype)。 |
+| static [DateTime5](../../aspose.slides/fieldtype/datetime5) { get; } | 使用第五预定义格式（英语为 DD-Mon-YY）的当前日期和时间。只读 [`FieldType`](../fieldtype)。 |
+| static [DateTime6](../../aspose.slides/fieldtype/datetime6) { get; } | 使用第六预定义格式（英语为 Month YY）的当前日期和时间。只读 [`FieldType`](../fieldtype)。 |
+| static [DateTime7](../../aspose.slides/fieldtype/datetime7) { get; } | 使用第七预定义格式（英语为 Mon-YY）的当前日期和时间。只读 [`FieldType`](../fieldtype)。 |
+| static [DateTime8](../../aspose.slides/fieldtype/datetime8) { get; } | 使用第八预定义格式（英语为 MM/DD/YYYY hh:mm AM/PM）的当前日期和时间。只读 [`FieldType`](../fieldtype)。 |
+| static [DateTime9](../../aspose.slides/fieldtype/datetime9) { get; } | 使用第九预定义格式（英语为 MM/DD/YYYY hh:mm:ss AM/PM）的当前日期和时间。只读 [`FieldType`](../fieldtype)。 |
 | static [Footer](../../aspose.slides/fieldtype/footer) { get; } | 幻灯片的页脚。只读 [`FieldType`](../fieldtype)。 |
 | static [Header](../../aspose.slides/fieldtype/header) { get; } | 幻灯片的页眉。只读 [`FieldType`](../fieldtype)。 |
 | static [SlideNumber](../../aspose.slides/fieldtype/slidenumber) { get; } | 当前幻灯片的编号。只读 [`FieldType`](../fieldtype)。 |
-| [InternalString](../../aspose.slides/fieldtype/internalstring) { get; set; } | 返回此 FieldType 对象的内部名称。读/写 String。 |
+| [InternalString](../../aspose.slides/fieldtype/internalstring) { get; set; } | 返回此 FieldType 对象的内部名称。读/写 字符串。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| override [Equals](../../aspose.slides/fieldtype/equals)(object) | 检查此字段是否等于另一个。 |
+| override [Equals](../../aspose.slides/fieldtype/equals)(object) | 检查此字段是否等于另一个字段。 |
 | override [GetHashCode](../../aspose.slides/fieldtype/gethashcode)() | 返回此对象的哈希码。 |
 | [operator ==](../../aspose.slides/fieldtype/op_equality) | 检查两个 FieldType 对象是否相等。 |
 | [operator !=](../../aspose.slides/fieldtype/op_inequality) | 检查两个 FieldType 对象是否不相等。 |
 
-### 参见
+### 另请参阅
 
 * 接口 [IFieldType](../ifieldtype)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

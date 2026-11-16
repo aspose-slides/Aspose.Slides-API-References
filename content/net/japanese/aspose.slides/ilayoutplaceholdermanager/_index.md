@@ -1,9 +1,9 @@
 ---
 title: ILayoutPlaceholderManager
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: レイアウトスライドにプレースホルダーを追加できるマネージャーを表します。
 type: docs
-weight: 6210
+weight: 6230
 url: /ja/aspose.slides/ilayoutplaceholdermanager/
 ---
 ## ILayoutPlaceholderManager インターフェイス
@@ -18,18 +18,18 @@ public interface ILayoutPlaceholderManager
 
 | 名前 | 説明 |
 | --- | --- |
-| [AddChartPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addchartplaceholder)(float, float, float, float) | レイアウトスライドにチャートを保持する新しいプレースホルダーシェイプを追加します。 |
-| [AddContentPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addcontentplaceholder)(float, float, float, float) | レイアウトスライドに画像、テーブル、メディア、テキストなどのコンテンツを保持する新しいプレースホルダーシェイプを追加します。 |
-| [AddMediaPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addmediaplaceholder)(float, float, float, float) | レイアウトスライドにメディアオブジェクトを保持する新しいプレースホルダーシェイプを追加します。 |
-| [AddOnlineImagePlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addonlineimageplaceholder)(float, float, float, float) | レイアウトスライドにオンライン画像を保持する新しいプレースホルダーシェイプを追加します。 |
-| [AddPicturePlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addpictureplaceholder)(float, float, float, float) | レイアウトスライドに画像を保持する新しいプレースホルダーシェイプを追加します。 |
-| [AddSmartArtPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addsmartartplaceholder)(float, float, float, float) | レイアウトスライドにSmartArt ダイアグラムを保持する新しいプレースホルダーシェイプを追加します。 |
-| [AddTablePlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addtableplaceholder)(float, float, float, float) | レイアウトスライドにテーブルを保持する新しいプレースホルダーシェイプを追加します。 |
-| [AddTextPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addtextplaceholder)(float, float, float, float) | レイアウトスライドにテキストコンテンツを保持する新しいプレースホルダーシェイプを追加します。 |
-| [AddVerticalContentPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addverticalcontentplaceholder)(float, float, float, float) | レイアウトスライドに画像、テーブル、メディア、テキストなどのコンテンツを縦方向で保持する新しいプレースホルダーシェイプを追加します。 |
-| [AddVerticalTextPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addverticaltextplaceholder)(float, float, float, float) | レイアウトスライドにテキストコンテンツを縦方向で保持する新しいプレースホルダーシェイプを追加します。 |
+| [AddChartPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addchartplaceholder)(float, float, float, float) | レイアウトスライドにチャートを保持するための新しいプレースホルダーシェイプを追加します。 |
+| [AddContentPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addcontentplaceholder)(float, float, float, float) | レイアウトスライドに画像、テーブル、メディア、テキストなどのコンテンツを保持するための新しいプレースホルダーシェイプを追加します。 |
+| [AddMediaPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addmediaplaceholder)(float, float, float, float) | レイアウトスライドにメディアオブジェクトを保持するための新しいプレースホルダーシェイプを追加します。 |
+| [AddOnlineImagePlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addonlineimageplaceholder)(float, float, float, float) | レイアウトスライドにオンライン画像を保持するための新しいプレースホルダーシェイプを追加します。 |
+| [AddPicturePlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addpictureplaceholder)(float, float, float, float) | レイアウトスライドに画像を保持するための新しいプレースホルダーシェイプを追加します。 |
+| [AddSmartArtPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addsmartartplaceholder)(float, float, float, float) | レイアウトスライドに SmartArt 図を保持するための新しいプレースホルダーシェイプを追加します。 |
+| [AddTablePlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addtableplaceholder)(float, float, float, float) | レイアウトスライドにテーブルを保持するための新しいプレースホルダーシェイプを追加します。 |
+| [AddTextPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addtextplaceholder)(float, float, float, float) | レイアウトスライドにテキストコンテンツを保持するための新しいプレースホルダーシェイプを追加します。 |
+| [AddVerticalContentPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addverticalcontentplaceholder)(float, float, float, float) | レイアウトスライドに画像、テーブル、メディア、テキストなどのコンテンツを縦方向に保持するための新しいプレースホルダーシェイプを追加します。 |
+| [AddVerticalTextPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addverticaltextplaceholder)(float, float, float, float) | レイアウトスライドにテキストコンテンツを縦方向に保持するための新しいプレースホルダーシェイプを追加します。 |
 
-### 関連項目
+### 参照
 
 * 名前空間 [Aspose.Slides](../../aspose.slides)
 * アセンブリ [Aspose.Slides](../../)

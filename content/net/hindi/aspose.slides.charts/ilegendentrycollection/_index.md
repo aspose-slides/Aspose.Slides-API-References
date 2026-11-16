@@ -1,9 +1,9 @@
 ---
 title: ILegendEntryCollection
-second_title: Aspose.Sildes for .NET API संदर्भ
+second_title: Aspose.Sildes के लिए .NET API रेफ़रेंस
 description: लेजेंड संग्रह का प्रतिनिधित्व करता है।
 type: docs
-weight: 2140
+weight: 2160
 url: /hi/aspose.slides.charts/ilegendentrycollection/
 ---
 ## ILegendEntryCollection इंटरफ़ेस
@@ -18,10 +18,10 @@ public interface ILegendEntryCollection
 
 | नाम | विवरण |
 | --- | --- |
-| [Count](../../aspose.slides.charts/ilegendentrycollection/count) { get; } | संग्रह में वास्तव में मौजूद तत्वों की संख्या प्राप्त करता है। केवल-पढ़ने योग्य Int32. |
-| [Item](../../aspose.slides.charts/ilegendentrycollection/item) { get; } | लेजेंड प्रविष्टि की गुणधर्म प्राप्त करता है जो Chart.ChartData.Series[0].DataPoints[index] के अनुरूप है, इस प्रकार के चार्ट के लिए: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie; या अन्य चार्ट प्रकारों के लिए Chart.ChartData.Series[index] के अनुरूप है। |
+| [Count](../../aspose.slides.charts/ilegendentrycollection/count) { get; } | कलेक्शन में वास्तव में मौजूद तत्वों की संख्या प्राप्त करता है। केवल-पढ़ने योग्य Int32। |
+| [Item](../../aspose.slides.charts/ilegendentrycollection/item) { get; } | लेजेंड एंट्री की विशेषताएँ प्राप्त करता है जो Chart.ChartData.Series[0].DataPoints[index] के अनुरूप है जब चार्ट प्रकार इस सूची में से हो: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie; या अन्य चार्ट प्रकारों के लिए Chart.ChartData.Series[index] के अनुरूप है। |
 
-### संबंधित देखें
+### देखें
 
 * नामस्थान [Aspose.Slides.Charts](../../aspose.slides.charts)
 * असेंबली [Aspose.Slides](../../)

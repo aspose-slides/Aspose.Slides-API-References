@@ -1,9 +1,9 @@
 ---
 title: ExcelDataWorkbook
-second_title: Aspose.Sildes per .NET Riferimento API
+second_title: Riferimento API di Aspose.Sildes per .NET
 description: Rappresenta una cartella di lavoro che fornisce l'accesso ai dati Excel per uso generale.
 type: docs
-weight: 3690
+weight: 3710
 url: /it/aspose.slides.excel/exceldataworkbook/
 ---
 ## ExcelDataWorkbook classe
@@ -25,11 +25,11 @@ public class ExcelDataWorkbook : IExcelDataWorkbook
 
 | Nome | Descrizione |
 | --- | --- |
-| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell_1)(int, string) | Recupera una cella dal foglio di lavoro specificato utilizzando il suo indice e il nome di cella in stile Excel (ad esempio "B2"). |
-| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell_3)(string, string) | Recupera una cella dal foglio di lavoro specificato utilizzando il nome di cella in stile Excel (ad esempio "B2"). |
+| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell_1)(int, string) | Recupera una cella dal foglio di lavoro specificato utilizzando il suo indice e il nome della cella in stile Excel (ad es., "B2"). |
+| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell_3)(string, string) | Recupera una cella dal foglio di lavoro specificato utilizzando il nome della cella in stile Excel (ad es., "B2"). |
 | [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell)(int, int, int) | Recupera una cella dal foglio di lavoro specificato utilizzando il suo indice e le coordinate della cella. |
 | [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell_2)(string, int, int) | Recupera una cella dal foglio di lavoro specificato utilizzando il suo nome e le coordinate della cella. |
-| [GetCells](../../aspose.slides.excel/exceldataworkbook/getcells)(string, bool) | Recupera una raccolta di celle dalla cartella di lavoro che corrispondono alla formula specificata. |
+| [GetCells](../../aspose.slides.excel/exceldataworkbook/getcells)(string, bool) | Recupera una collezione di celle dalla cartella di lavoro che corrispondono alla formula specificata. |
 | [GetChartsFromWorksheet](../../aspose.slides.excel/exceldataworkbook/getchartsfromworksheet)(string) | Recupera un dizionario contenente gli indici e i nomi di tutti i grafici nel foglio di lavoro specificato di una cartella di lavoro Excel. |
 | [GetWorksheetNames](../../aspose.slides.excel/exceldataworkbook/getworksheetnames)() | Recupera i nomi di tutti i fogli di lavoro contenuti nella cartella di lavoro Excel. |
 

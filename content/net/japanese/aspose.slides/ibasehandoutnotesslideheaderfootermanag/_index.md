@@ -1,14 +1,14 @@
 ---
 title: IBaseHandoutNotesSlideHeaderFooterManag
 second_title: Aspose.Sildes の .NET API リファレンス
-description: すべての種類のハンドアウトおよびノートスライドのヘッダープレースホルダーを含む、プレースホルダーの動作を保持するマネージャーを表します。
+description: プレースホルダーの動作を保持するマネージャーを表し、すべての種類のハンドアウトおよびノート スライドのヘッダー プレースホルダーを含みます。
 type: docs
-weight: 5290
+weight: 5310
 url: /ja/aspose.slides/ibasehandoutnotesslideheaderfootermanag/
 ---
 ## IBaseHandoutNotesSlideHeaderFooterManag インターフェイス
 
-プレースホルダーの動作を保持するマネージャーを表します。これには、すべての種類のハンドアウトおよびノートスライドのヘッダープレースホルダーが含まれます。
+プレースホルダーの動作を保持するマネージャーを表します。すべての種類のハンドアウトおよびノート スライドのヘッダー プレースホルダーを含みます。
 
 ```csharp
 public interface IBaseHandoutNotesSlideHeaderFooterManag : IBaseSlideHeaderFooterManager
@@ -19,18 +19,18 @@ public interface IBaseHandoutNotesSlideHeaderFooterManag : IBaseSlideHeaderFoote
 | 名前 | 説明 |
 | --- | --- |
 | [AsIBaseSlideHeaderFooterManager](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/asibaseslideheaderfootermanager) { get; } | IBaseSlideHeaderFooterManager インターフェイスを返します。 |
-| [IsHeaderVisible](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/isheadervisible) { get; } | ヘッダープレースホルダーが存在することを示す値を取得します。Boolean を読み取ります。 |
+| [IsHeaderVisible](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/isheadervisible) { get; } | ヘッダー プレースホルダーが存在することを示す値を取得します。 Boolean を読み取ります。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [SetHeaderText](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/setheadertext)(string) | スライドヘッダープレースホルダーにテキストを設定します。 |
-| [SetHeaderVisibility](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/setheadervisibility)(bool) | スライドヘッダープレースホルダーの表示状態を変更します。 |
+| [SetHeaderText](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/setheadertext)(string) | スライド ヘッダー プレースホルダーにテキストを設定します。 |
+| [SetHeaderVisibility](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/setheadervisibility)(bool) | スライド ヘッダー プレースホルダーの表示状態を変更します。 |
 
 ### 備考
 
-COM 互換性のため、元のインターフェイス名 "IBaseHandoutNotesSlideHeaderFooterManager" は "IBaseHandoutNotesSlideHeaderFooterManag" に切り詰められます（型名の長さは 39 文字以下である必要があります）。
+元のインターフェイス名 "IBaseHandoutNotesSlideHeaderFooterManager" は COM 互換性のために "IBaseHandoutNotesSlideHeaderFooterManag" に短縮されています（型名の長さは 39 文字以下である必要があります）。
 
 ### 参照
 

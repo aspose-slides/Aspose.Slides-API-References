@@ -1,14 +1,14 @@
 ---
 title: SplitterBarStateType
-second_title: Aspose.Sildes voor .NET API-referentie
-description: Specificeert de status waarin de splitterbalk moet worden weergegeven. De splitterbalk scheidt een primaire en een secundaire regio binnen een weergavegebied.
+second_title: Aspose.Slides voor .NET API-referentie
+description: Specificeert de toestand waarin de splitterbalk moet worden weergegeven. De splitterbalk scheidt een primaire en een secundaire regio binnen een weergavegebied.
 type: docs
-weight: 10690
+weight: 10710
 url: /nl/aspose.slides/splitterbarstatetype/
 ---
 ## SplitterBarStateType enumeratie
 
-Specificeert de status waarin de splitterbalk moet worden weergegeven. De splitterbalk scheidt een primaire en een secundaire regio binnen een weergavegebied.
+Specificeert de toestand waarin de splitterbalk moet worden weergegeven. De splitterbalk scheidt een primaire en een secundaire regio binnen een weergavegebied.
 
 ```csharp
 public enum SplitterBarStateType
@@ -18,9 +18,9 @@ public enum SplitterBarStateType
 
 | Naam | Waarde | Beschrijving |
 | --- | --- | --- |
-| Minimized | `0` | De primaire regio neemt het kleinste deel van het weergavegebied in dat door de applicatie wordt toegestaan. |
-| Restored | `1` | De primaire regio heeft een specifieke tussenliggende grootte. |
-| Maximized | `2` | De primaire regio neemt het grootste deel van het weergavegebied in dat door de applicatie wordt toegestaan. |
+| Minimized | `0` | Het primaire gebied neemt de kleinste door de applicatie toegestane hoeveelheid van het weergavegebied in beslag. |
+| Restored | `1` | Het primaire gebied heeft een specifieke tussenliggende grootte. |
+| Maximized | `2` | Het primaire gebied neemt de grootste door de applicatie toegestane hoeveelheid van het weergavegebied in beslag. |
 
 ### Zie ook
 

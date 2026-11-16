@@ -1,9 +1,9 @@
 ---
 title: DomObjectTParent
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
+second_title: Aspose.Sildes .NET के लिए API संदर्भ
 description: बेस DOM ऑब्जेक्ट
 type: docs
-weight: 2800
+weight: 2820
 url: /hi/aspose.slides/domobject-1/
 ---
 ## DomObject<TParent> क्लास
@@ -18,7 +18,7 @@ public abstract class DomObject<TParent>
 | --- | --- |
 | TParent | पैरेंट DOM ऑब्जेक्ट का प्रकार |
 
-### और देखें
+### देखें भी
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

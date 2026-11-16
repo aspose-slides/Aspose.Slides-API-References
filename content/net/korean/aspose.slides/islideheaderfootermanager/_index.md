@@ -1,14 +1,14 @@
 ---
 title: ISlideHeaderFooterManager
-second_title: Aspose.Sildes for .NET API 참조
-description: 슬라이드 바닥글, 날짜 및 시간, 페이지 번호 자리표시자의 동작을 관리하는 관리자를 나타냅니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 슬라이드 바닥글, 날짜 및 시간, 페이지 번호 자리 표시자의 동작을 관리하는 매니저를 나타냅니다.
 type: docs
-weight: 7070
+weight: 7090
 url: /ko/aspose.slides/islideheaderfootermanager/
 ---
-## ISlideHeaderFooterManager interface
+## ISlideHeaderFooterManager 인터페이스
 
-슬라이드 바닥글, 날짜 및 시간, 페이지 번호 자리표시자의 동작을 관리하는 관리자를 나타냅니다.
+슬라이드 바닥글, 날짜 및 시간, 페이지 번호 자리 표시자의 동작을 관리하는 매니저를 나타냅니다.
 
 ```csharp
 public interface ISlideHeaderFooterManager : IBaseSlideHeaderFooterManager
@@ -20,7 +20,7 @@ public interface ISlideHeaderFooterManager : IBaseSlideHeaderFooterManager
 | --- | --- |
 | [AsIBaseSlideHeaderFooterManager](../../aspose.slides/islideheaderfootermanager/asibaseslideheaderfootermanager) { get; } | IBaseSlideHeaderFooterManager 인터페이스를 반환합니다. |
 
-### 또 보기
+### 참조
 
 * 인터페이스 [IBaseSlideHeaderFooterManager](../ibaseslideheaderfootermanager)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

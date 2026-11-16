@@ -1,14 +1,14 @@
 ---
 title: IInOutTransition
-second_title: Aspose.Sildes για .NET API Αναφορά
-description: Εφέ μετάπτωσης διαφάνειας εισόδου/εξόδου.
+second_title: Αναφορά API Aspose.Sildes για .NET
+description: Εφέ μετάβασης διαφάνειας In-Out.
 type: docs
-weight: 10110
+weight: 10130
 url: /el/aspose.slides.slideshow/iinouttransition/
 ---
-## IInOutTransition διεπαφή
+## IInOutTransition διασύνδεση
 
-Εφέ μετάπτωσης διαφάνειας εισόδου/εξόδου.
+Εφέ μετάβασης διαφάνειας In-Out.
 
 ```csharp
 public interface IInOutTransition : ITransitionValueBase
@@ -18,12 +18,12 @@ public interface IInOutTransition : ITransitionValueBase
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/iinouttransition/asitransitionvaluebase) { get; } | Επιτρέπει την λήψη της βασικής διεπαφής ITransitionValueBase. Μόνο για ανάγνωση [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/iinouttransition/direction) { get; set; } | Κατεύθυνση εφέ μετάπτωσης. Ανάγνωση/εγγραφή [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/iinouttransition/asitransitionvaluebase) { get; } | Επιτρέπει την απόκτηση της βασικής διασύνδεσης ITransitionValueBase. Μόνο για ανάγνωση [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/iinouttransition/direction) { get; set; } | Κατεύθυνση του εφέ μετάβασης. Ανάγνωση/εγγραφή [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
 
 ### Δείτε επίσης
 
-* διεπαφή [ITransitionValueBase](../itransitionvaluebase)
+* διασύνδεση [ITransitionValueBase](../itransitionvaluebase)
 * χώρο ονομάτων [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * συγκρότηση [Aspose.Slides](../../)
 

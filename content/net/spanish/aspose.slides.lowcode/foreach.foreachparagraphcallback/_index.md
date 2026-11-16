@@ -3,12 +3,12 @@ title: ForEach.ForEachParagraphCallback
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Función de devolución de llamada que se invocará para cada Paragraph./foreach/paragraph en el BaseSlide../aspose.slides/baseslide.
 type: docs
-weight: 7930
+weight: 7950
 url: /es/aspose.slides.lowcode/foreach.foreachparagraphcallback/
 ---
 ## ForEach.ForEachParagraphCallback delegado
 
-Función de devolución de llamada que se invocará para cada [`Paragraph`](../foreach/paragraph) en el [`BaseSlide`](../../aspose.slides/baseslide).
+Callback que será invocado para cada [`Paragraph`](../foreach/paragraph) en el [`BaseSlide`](../../aspose.slides/baseslide).
 
 ```csharp
 public delegate void ForEachParagraphCallback(Paragraph para, BaseSlide slide, int index);

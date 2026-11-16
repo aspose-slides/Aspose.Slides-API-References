@@ -1,27 +1,27 @@
 ---
 title: IAlphaBiLevel
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: แสดงถึงเอฟเฟกต์ Alpha Bi-Level. ค่าความทึบของ Alpha ที่น้อยกว่าค่าเกณฑ์จะถูกเปลี่ยนเป็น 0 (โปร่งใสเต็มที่) และค่าที่มากกว่าหรือเท่ากับค่าเกณฑ์จะถูกเปลี่ยนเป็น 100 (ทึบเต็มที่).
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงถึงเอฟเฟกต์ Alpha Bi-Level. ค่า Alpha Opacity ที่น้อยกว่าค่าเกณฑ์จะถูกเปลี่ยนเป็น 0 (โปร่งใสเต็มที่) และค่า alpha ที่มากกว่าหรือเท่ากับค่าเกณฑ์จะถูกเปลี่ยนเป็น 100 (ทึบเต็มที่).
 type: docs
-weight: 3020
+weight: 3040
 url: /th/aspose.slides.effects/ialphabilevel/
 ---
 ## IAlphaBiLevel อินเทอร์เฟซ
 
-แสดงถึงเอฟเฟกต์ Alpha Bi-Level. ค่าที่น้อยกว่าเกณฑ์จะถูกเปลี่ยนเป็น 0 (โปร่งใสเต็มที่) และค่าที่มากกว่าหรือเท่ากับเกณฑ์จะถูกเปลี่ยนเป็น 100% (ทึบเต็มที่)
+แสดงถึงเอฟเฟกต์ Alpha Bi-Level. ค่า Alpha (Opacity) ที่น้อยกว่าค่าที่ตั้งเป็นเกณฑ์จะถูกเปลี่ยนเป็น 0 (โปร่งแสงเต็มที่) และค่า alpha ที่มากกว่าหรือเท่ากับเกณฑ์จะถูกเปลี่ยนเป็น 100% (ทึบแสงเต็มที่).
 
 ```csharp
 public interface IAlphaBiLevel : IAccessiblePVIObject<IAlphaBiLevelEffectiveData>, 
     IImageTransformOperation
 ```
 
-## คุณสมบัติ
+## Properties
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphabilevel/asiaccessiblepviobject) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IAccessiblePVIObject พื้นฐาน. อ่านอย่างเดียว [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphabilevel/asiimagetransformoperation) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IImageTransformOperation พื้นฐาน. อ่านอย่างเดียว [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Threshold](../../aspose.slides.effects/ialphabilevel/threshold) { get; set; } | ส่งคืนค่าธรณีของเอฟเฟกต์. อ่าน/เขียน Single. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphabilevel/asiaccessiblepviobject) { get; } | อนุญาตให้ดึงฐาน IAccessiblePVIObject อินเทอร์เฟซ. อ่านอย่างเดียว [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphabilevel/asiimagetransformoperation) { get; } | อนุญาตให้ดึงฐาน IImageTransformOperation อินเทอร์เฟซ. อ่านอย่างเดียว [`IImageTransformOperation`](../iimagetransformoperation). |
+| [Threshold](../../aspose.slides.effects/ialphabilevel/threshold) { get; set; } | ส่งคืนค่าเกณฑ์ของเอฟเฟกต์. อ่าน/เขียน Single. |
 
 ### หมายเหตุ
 

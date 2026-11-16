@@ -1,38 +1,38 @@
 ---
 title: DataSourceTypeForErrorBarsCustomValues
 second_title: Aspose.Sildes för .NET API-referens
-description: Specificerar typer av värden i listan med egenskaper för ChartDataPoint.ErrorBarsCustomValues
+description: Specificerar typer av värden i egenskapslistan ChartDataPoint.ErrorBarsCustomValues
 type: docs
-weight: 1590
+weight: 1600
 url: /sv/aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/
 ---
 ## DataSourceTypeForErrorBarsCustomValues klass
 
-Specificerar typer av värden i listan med egenskaper för ChartDataPoint.ErrorBarsCustomValues
+Specificerar typer av värden i egenskapslistan ChartDataPoint.ErrorBarsCustomValues
 
 ```csharp
 public class DataSourceTypeForErrorBarsCustomValues : IDataSourceTypeForErrorBarsCustomValues
 ```
 
-## Konstruktörer
+## Konstruktorer
 
 | Namn | Beskrivning |
 | --- | --- |
-| [DataSourceTypeForErrorBarsCustomValues](datasourcetypeforerrorbarscustomvalues)() | Standardkonstruktören. |
+| [DataSourceTypeForErrorBarsCustomValues](datasourcetypeforerrorbarscustomvalues)() | Standardkonstruktorn. |
 
 ## Egenskaper
 
 | Namn | Beskrivning |
 | --- | --- |
-| [DataSourceTypeForXMinusValues](../../aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforxminusvalues) { get; set; } | Specificerar om AsCell eller AsLiteralString eller AsLiteralDouble-egenskapen är faktiskt i datapunkternas XMinus-egenskapsobjekt för felstaplar med anpassade värden. Med andra ord specificerar den typen av värde för ChartDataPoint.ErrorBarsCustomValues.XMinus.Data-egenskapen. Läs/skriv [`DataSourceType`](../datasourcetype). |
-| [DataSourceTypeForXPlusValues](../../aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforxplusvalues) { get; set; } | Specificerar om AsCell eller AsLiteralString eller AsLiteralDouble-egenskapen är faktiskt i datapunkternas XPlus-egenskapsobjekt för felstaplar med anpassade värden. Med andra ord specificerar den typen av värde för ChartDataPoint.ErrorBarsCustomValues.XPlus.Data-egenskapen. Läs/skriv [`DataSourceType`](../datasourcetype). |
-| [DataSourceTypeForYMinusValues](../../aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforyminusvalues) { get; set; } | Specificerar om AsCell eller AsLiteralString eller AsLiteralDouble-egenskapen är faktiskt i datapunkternas YMinus-egenskapsobjekt för felstaplar med anpassade värden. Med andra ord specificerar den typen av värde för ChartDataPointEx.ErrorBarsCustomValues.YMinus.Data-egenskapen. Läs/skriv [`DataSourceType`](../datasourcetype). |
-| [DataSourceTypeForYPlusValues](../../aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforyplusvalues) { get; set; } | Specificerar om AsCell eller AsLiteralString eller AsLiteralDouble-egenskapen är faktiskt i datapunkternas YPlus-egenskapsobjekt för felstaplar med anpassade värden. Med andra ord specificerar den typen av värde för ChartDataPointEx.ErrorBarsCustomValues.YPlus.Data-egenskapen. Läs/skriv [`DataSourceType`](../datasourcetype). |
+| [DataSourceTypeForXMinusValues](../../aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforxminusvalues) { get; set; } | Anger om AsCell- eller AsLiteralString- eller AsLiteralDouble-egenskapen är aktuell i datapunkternas XMinus-egenskap för anpassade felstaplar. Med andra ord specificerar den vilken typ av värde egenskapen ChartDataPoint.ErrorBarsCustomValues.XMinus.Data har. Läs/skriv [`DataSourceType`](../datasourcetype). |
+| [DataSourceTypeForXPlusValues](../../aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforxplusvalues) { get; set; } | Anger om AsCell- eller AsLiteralString- eller AsLiteralDouble-egenskapen är aktuell i datapunkternas XPlus-egenskap för anpassade felstaplar. Med andra ord specificerar den vilken typ av värde egenskapen ChartDataPoint.ErrorBarsCustomValues.XPlus.Data har. Läs/skriv [`DataSourceType`](../datasourcetype). |
+| [DataSourceTypeForYMinusValues](../../aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforyminusvalues) { get; set; } | Anger om AsCell- eller AsLiteralString- eller AsLiteralDouble-egenskapen är aktuell i datapunkternas YMinus-egenskap för anpassade felstaplar. Med andra ord specificerar den vilken typ av värde egenskapen ChartDataPointEx.ErrorBarsCustomValues.YMinus.Data har. Läs/skriv [`DataSourceType`](../datasourcetype). |
+| [DataSourceTypeForYPlusValues](../../aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforyplusvalues) { get; set; } | Anger om AsCell- eller AsLiteralString- eller AsLiteralDouble-egenskapen är aktuell i datapunkternas YPlus-egenskap för anpassade felstaplar. Med andra ord specificerar den vilken typ av värde egenskapen ChartDataPointEx.ErrorBarsCustomValues.YPlus.Data har. Läs/skriv [`DataSourceType`](../datasourcetype). |
 
-### Se också
+### Se även
 
 * gränssnitt [IDataSourceTypeForErrorBarsCustomValues](../idatasourcetypeforerrorbarscustomvalues)
-* namnutrymme [Aspose.Slides.Charts](../../aspose.slides.charts)
+* namnrymd [Aspose.Slides.Charts](../../aspose.slides.charts)
 * samling [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

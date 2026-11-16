@@ -1,14 +1,14 @@
 ---
 title: IPictureFillFormat
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงรูปแบบการเติมภาพ.
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: แสดงถึงสไตล์การเติมรูปภาพ.
 type: docs
-weight: 6650
+weight: 6670
 url: /th/aspose.slides/ipicturefillformat/
 ---
 ## IPictureFillFormat อินเทอร์เฟซ
 
-Represents a picture fill style.
+เป็นตัวแทนของสไตล์การเติมรูปภาพ.
 
 ```csharp
 public interface IPictureFillFormat : IFillParamSource
@@ -18,32 +18,32 @@ public interface IPictureFillFormat : IFillParamSource
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/ipicturefillformat/asifillparamsource) { get; } | Allows to get base IFillParamSource interface. อ่านอย่างเดียว [`IFillParamSource`](../ifillparamsource). |
-| [CropBottom](../../aspose.slides/ipicturefillformat/cropbottom) { get; set; } | Returns or sets the number of percents of real image height that are cropped off the bottom of the picture. อ่าน/เขียน Single. |
-| [CropLeft](../../aspose.slides/ipicturefillformat/cropleft) { get; set; } | Returns or sets the number of percents of real image width that are cropped off the left of the picture. อ่าน/เขียน Single. |
-| [CropRight](../../aspose.slides/ipicturefillformat/cropright) { get; set; } | Returns or sets the number of percents of real image width that are cropped off the right of the picture. อ่าน/เขียน Single. |
-| [CropTop](../../aspose.slides/ipicturefillformat/croptop) { get; set; } | Returns or sets the number of percents of real image height that are cropped off the top of the picture. อ่าน/เขียน Single. |
-| [Dpi](../../aspose.slides/ipicturefillformat/dpi) { get; set; } | Returns or sets the dpi which is used to fill a picture. อ่าน/เขียน Int32. |
-| [Picture](../../aspose.slides/ipicturefillformat/picture) { get; } | Returns the picture. อ่านอย่างเดียว [`ISlidesPicture`](../islidespicture). |
-| [PictureFillMode](../../aspose.slides/ipicturefillformat/picturefillmode) { get; set; } | Returns or sets the picture fill mode. อ่าน/เขียน [`PictureFillMode`](../picturefillmode). |
-| [StretchOffsetBottom](../../aspose.slides/ipicturefillformat/stretchoffsetbottom) { get; set; } | Returns or sets bottom edge of the fill rectangle that is defined by a percentage offset from the bottom edge of the shape's bounding box. A positive percentage specifies an inset, while a negative percentage specifies an outset. อ่าน/เขียน Single. |
-| [StretchOffsetLeft](../../aspose.slides/ipicturefillformat/stretchoffsetleft) { get; set; } | Returns or sets left edge of the fill rectangle that is defined by a percentage offset from the left edge of the shape's bounding box. A positive percentage specifies an inset, while a negative percentage specifies an outset. อ่าน/เขียน Single. |
-| [StretchOffsetRight](../../aspose.slides/ipicturefillformat/stretchoffsetright) { get; set; } | Returns or sets right edge of the fill rectangle that is defined by a percentage offset from the right edge of the shape's bounding box. A positive percentage specifies an inset, while a negative percentage specifies an outset. อ่าน/เขียน Single. |
-| [StretchOffsetTop](../../aspose.slides/ipicturefillformat/stretchoffsettop) { get; set; } | Returns or sets top edge of the fill rectangle that is defined by a percentage offset from the top edge of the shape's bounding box. A positive percentage specifies an inset, while a negative percentage specifies an outset. อ่าน/เขียน Single. |
-| [TileAlignment](../../aspose.slides/ipicturefillformat/tilealignment) { get; set; } | Returns or sets how the texture is aligned within the shape. This setting controls the starting point of the texture pattern and how it repeats across the shape. อ่าน/เขียน [`RectangleAlignment`](../rectanglealignment). |
-| [TileFlip](../../aspose.slides/ipicturefillformat/tileflip) { get; set; } | Flips the texture tile around its horizontal, vertical or both axis. อ่าน/เขียน [`TileFlip`](../tileflip). |
-| [TileOffsetX](../../aspose.slides/ipicturefillformat/tileoffsetx) { get; set; } | Returns or sets the horizontal offset of the texture from the shape's origin in points. A positive value moves the texture to the right, while a negative value moves it to the left. อ่าน/เขียน Single. |
-| [TileOffsetY](../../aspose.slides/ipicturefillformat/tileoffsety) { get; set; } | Returns or sets the vertical offset of the texture from the shape's origin in points. A positive value moves the texture down, while a negative value moves it up. อ่าน/เขียน Single. |
-| [TileScaleX](../../aspose.slides/ipicturefillformat/tilescalex) { get; set; } | Returns or sets the horizontal scale for the texture fill as a percentage. อ่าน/เขียน Single. |
-| [TileScaleY](../../aspose.slides/ipicturefillformat/tilescaley) { get; set; } | Returns or sets the vertical scale for the texture fill as a percentage. อ่าน/เขียน Single. |
+| [AsIFillParamSource](../../aspose.slides/ipicturefillformat/asifillparamsource) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IFillParamSource พื้นฐาน. อ่านอย่างเดียว [`IFillParamSource`](../ifillparamsource). |
+| [CropBottom](../../aspose.slides/ipicturefillformat/cropbottom) { get; set; } | คืนค่าหรือกำหนดจำนวนเปอร์เซ็นต์ของความสูงภาพจริงที่ถูกตัดออกจากด้านล่างของรูป. อ่าน/เขียน Single. |
+| [CropLeft](../../aspose.slides/ipicturefillformat/cropleft) { get; set; } | คืนค่า或กำหนดจำนวนเปอร์เซ็นต์ของความกว้างภาพจริงที่ถูกตัดออกจากด้านซ้ายของรูป. อ่าน/เขียน Single. |
+| [CropRight](../../aspose.slides/ipicturefillformat/cropright) { get; set; } | คืนค่า或กำหนดจำนวนเปอร์เซ็นต์ของความกว้างภาพจริงที่ถูกตัดออกจากด้านขวาของรูป. อ่าน/เขียน Single. |
+| [CropTop](../../aspose.slides/ipicturefillformat/croptop) { get; set; } | คืนค่า或กำหนดจำนวนเปอร์เซ็นต์ของความสูงภาพจริงที่ถูกตัดออกจากด้านบนของรูป. อ่าน/เขียน Single. |
+| [Dpi](../../aspose.slides/ipicturefillformat/dpi) { get; set; } | คืนค่า dpi ที่ใช้เติมรูปภาพ. อ่าน/เขียน Int32. |
+| [Picture](../../aspose.slides/ipicturefillformat/picture) { get; } | คืนค่ารูปภาพ. อ่านอย่างเดียว [`ISlidesPicture`](../islidespicture). |
+| [PictureFillMode](../../aspose.slides/ipicturefillformat/picturefillmode) { get; set; } | คืนค่า或กำหนดโหมดการเติมรูปภาพ. อ่าน/เขียน [`PictureFillMode`](../picturefillmode). |
+| [StretchOffsetBottom](../../aspose.slides/ipicturefillformat/stretchoffsetbottom) { get; set; } | คืนค่า或กำหนดขอบล่างของสี่เหลี่ยมเติมที่กำหนดโดยออฟเซตเปอร์เซ็นต์จากขอบล่างของกรอบล้อมของรูป. ค่าเปอร์เซ็นต์บวกระบุการย่อตรง, ค่าเปอร์เซ็นต์ลบระบุการยืดออก. อ่าน/เขียน Single. |
+| [StretchOffsetLeft](../../aspose.slides/ipicturefillformat/stretchoffsetleft) { get; set; } | คืนค่า或กำหนดขอบซ้ายของสี่เหลี่ยมเติมที่กำหนดโดยออฟเซตเปอร์เซ็นต์จากขอบซ้ายของกรอบล้อมของรูป. ค่าเปอร์เซ็นต์บวกระบุการย่อตรง, ค่าเปอร์เซ็นต์ลบระบุการยืดออก. อ่าน/เขียน Single. |
+| [StretchOffsetRight](../../aspose.slides/ipicturefillformat/stretchoffsetright) { get; set; } | คืนค่า或กำหนดขอบขวาของสี่เหลี่ยมเติมที่กำหนดโดยออฟเซตเปอร์เซ็นต์จากขอบขวาของกรอบล้อมของรูป. ค่าเปอร์เซ็นต์บวกระบุการย่อตรง, ค่าเปอร์เซ็นต์ลบระบุการยืดออก. อ่าน/เขียน Single. |
+| [StretchOffsetTop](../../aspose.slides/ipicturefillformat/stretchoffsettop) { get; set; } | คืนค่า或กำหนดขอบบนของสี่เหลี่ยมเติมที่กำหนดโดยออฟเซตเปอร์เซ็นต์จากขอบบนของกรอบล้อมของรูป. ค่าเปอร์เซ็นต์บวกระบุการย่อตรง, ค่าเปอร์เซ็นต์ลบระบุการยืดออก. อ่าน/เขียน Single. |
+| [TileAlignment](../../aspose.slides/ipicturefillformat/tilealignment) { get; set; } | คืนค่า或กำหนดวิธีการจัดตำแหน่งของเทกซ์เจอร์ภายในรูป. การตั้งค่านี้ควบคุมจุดเริ่มต้นของรูปแบบเทกซ์เจอร์และการทำซ้ำทั่วรูป. อ่าน/เขียน [`RectangleAlignment`](../rectanglealignment). |
+| [TileFlip](../../aspose.slides/ipicturefillformat/tileflip) { get; set; } | พลิกแผ่นเทกซ์เจอร์ตามแนวนอน แนวตั้ง หรือทั้งสองแกน. อ่าน/เขียน [`TileFlip`](../tileflip). |
+| [TileOffsetX](../../aspose.slides/ipicturefillformat/tileoffsetx) { get; set; } | คืนค่า或กำหนดออฟเซตแนวนอนของเทกซ์เจอร์จากจุดเริ่มต้นของรูปเป็นจุด. ค่าบวกย้ายเทกซ์เจอร์ไปทางขวา, ค่าลบย้ายไปทางซ้าย. อ่าน/เขียน Single. |
+| [TileOffsetY](../../aspose.slides/ipicturefillformat/tileoffsety) { get; set; } | คืนค่า或กำหนดออฟเซตแนวตั้งของเทกซ์เจอร์จากจุดเริ่มต้นของรูปเป็นจุด. ค่าบวกย้ายเทกซ์เจอร์ลง, ค่าลบย้ายขึ้น. อ่าน/เขียน Single. |
+| [TileScaleX](../../aspose.slides/ipicturefillformat/tilescalex) { get; set; } | คืนค่า或กำหนดสเกลแนวนอนสำหรับการเติมเทกซ์เจอร์เป็นเปอร์เซ็นต์. อ่าน/เขียน Single. |
+| [TileScaleY](../../aspose.slides/ipicturefillformat/tilescaley) { get; set; } | คืนค่า或กำหนดสเกลแนวตั้งสำหรับการเติมเทกซ์เจอร์เป็นเปอร์เซ็นต์. อ่าน/เขียน Single. |
 
-## เมธอด
+## วิธีการ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [CompressImage](../../aspose.slides/ipicturefillformat/compressimage#compressimage_1)(bool, float) | Compresses the image by reducing its size based on the shape size and specified resolution. Optionally, it also deletes cropped areas. |
-| [CompressImage](../../aspose.slides/ipicturefillformat/compressimage#compressimage)(bool, PicturesCompression) | Compresses the image by reducing its size based on the shape size and specified resolution. Optionally, it also deletes cropped areas. |
-| [DeletePictureCroppedAreas](../../aspose.slides/ipicturefillformat/deletepicturecroppedareas)() | Delete cropped areas of the fill Picture. |
+| [CompressImage](../../aspose.slides/ipicturefillformat/compressimage#compressimage_1)(bool, float) | บีบอัดภาพโดยลดขนาดตามขนาดของรูปและความละเอียดที่ระบุ. หรืออาจลบส่วนที่ถูกตัดออกด้วย. |
+| [CompressImage](../../aspose.slides/ipicturefillformat/compressimage#compressimage)(bool, PicturesCompression) | บีบอัดภาพโดยลดขนาดตามขนาดของรูปและความละเอียดที่ระบุ. หรืออาจลบส่วนที่ถูกตัดออกด้วย. |
+| [DeletePictureCroppedAreas](../../aspose.slides/ipicturefillformat/deletepicturecroppedareas)() | ลบส่วนที่ถูกตัดออกของรูปเติม. |
 
 ### ดูเพิ่มเติม
 

@@ -1,14 +1,14 @@
 ---
 title: ShapesAlignmentType
-second_title: Aspose.Sildes .NET API referencia
+second_title: Aspose.Sildes .NET API Referencia
 description: Meghatároz egy módot a kijelölt alakzatok elhelyezésének módosítására a dián.
 type: docs
-weight: 9940
+weight: 9960
 url: /hu/aspose.slides/shapesalignmenttype/
 ---
 ## ShapesAlignmentType enumeráció
 
-Meghatároz egy módot a kijelölt alakzatok elhelyezésének a dián történő módosítására.
+Meghatároz egy módot a kijelölt alakzatok elhelyezésének módosítására a dián.
 
 ```csharp
 public enum ShapesAlignmentType
@@ -21,13 +21,13 @@ public enum ShapesAlignmentType
 | AlignLeft | `0` | Balra igazítás |
 | AlignRight | `1` | Jobbra igazítás |
 | AlignCenter | `2` | Középre igazítás |
-| AlignTop | `3` | Felülre igazítás |
+| AlignTop | `3` | Felső igazítás |
 | AlignMiddle | `4` | Középre igazítás |
 | AlignBottom | `5` | Alulra igazítás |
 | DistributeHorizontally | `6` | Vízszintesen elosztás |
 | DistributeVertically | `7` | Függőlegesen elosztás |
 
-### Lásd még
+### További hivatkozások
 
 * névtér [Aspose.Slides](../../aspose.slides)
 * összeállítás [Aspose.Slides](../../)

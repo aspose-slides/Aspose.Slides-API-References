@@ -1,12 +1,12 @@
 ---
 title: StyleType
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes for .NET API Referansı
 description: Grafik stilini temsil eder.
 type: docs
-weight: 2430
+weight: 2450
 url: /tr/aspose.slides.charts/styletype/
 ---
-## StyleType enumarasyonu
+## StyleType enum
 
 Grafik stilini temsil eder.
 

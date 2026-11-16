@@ -1,14 +1,14 @@
 ---
 title: GetFontBytes
 second_title: Aspose.Sildes برای .NET مرجع API
-description: آرایه بایتی که نمایانگر داده‌های قلم برای یک سبک قلم و داده‌های قلم مشخص است را دریافت می‌کند.
+description: آرایه بایتی که داده‌های قلم را برای سبک قلم و دادهٔ قلم مشخص شده بازیابی می‌کند.
 type: docs
-weight: 50
+weight: 60
 url: /fa/aspose.slides/ifontsmanager/getfontbytes/
 ---
 ## IFontsManager.GetFontBytes متد
 
-آرایه بایتی که نمایانگر داده‌های قلم برای یک سبک قلم و داده‌های قلم مشخص است را دریافت می‌کند.
+آرایه بایتی که دادهٔ قلم برای سبک قلم مشخص شده را نشان می‌دهد.
 
 ```csharp
 public byte[] GetFontBytes(IFontData fontData, FontStyleType fontStyle)
@@ -16,12 +16,12 @@ public byte[] GetFontBytes(IFontData fontData, FontStyleType fontStyle)
 
 | پارامتر | نوع | توضیح |
 | --- | --- | --- |
-| fontData | IFontData | شیء داده‌های قلم که شامل اطلاعات درباره قلم [`IFontData`](../../ifontdata) است. |
+| fontData | IFontData | شیء دادهٔ قلم که شامل اطلاعات دربارهٔ قلم [`IFontData`](../../ifontdata) است. |
 | fontStyle | FontStyleType | سبک قلم که داده‌های آن باید بازیابی شود [`FontStyleType`](../../fontstyletype). |
 
 ### مقدار بازگشت
 
-آرایه بایتی که داده‌های قلم برای سبک قلم مشخص را شامل می‌شود. اگر داده‌های قلم یا سبک یافت نشود، null باز می‌گرداند.
+آرایه بایتی که شامل دادهٔ قلم برای سبک قلم مشخص شده است. اگر دادهٔ قلم یا سبک پیدا نشود، مقدار null را باز می‌گرداند.
 
 ### مثال‌ها
 
@@ -29,10 +29,10 @@ public byte[] GetFontBytes(IFontData fontData, FontStyleType fontStyle)
 [C#]
 using (Presentation pres = new Presentation ("Presentation.pptx"))
 {
-    // تمام قلم‌های استفاده شده در ارائه را بازیابی می‌کند
+    // تمام قلم‌های استفاده شده در ارائه را بازیابی کنید
     IFontData[] fonts = pres.FontsManager.GetFonts();
 
-    // آرایه بایتی که نمایانگر سبک منظم اولین قلم در ارائه است را دریافت می‌کند
+    // آرایه بایتی که سبک معمولی اولین قلم در ارائه را نشان می‌دهد را دریافت کنید
     byte[] bytes = pres.FontsManager.GetFontBytes(fonts[0], FontStyleType.Regular);
 }
 ```
@@ -40,7 +40,7 @@ using (Presentation pres = new Presentation ("Presentation.pptx"))
 ### موارد مرتبط
 
 * رابط [IFontData](../../ifontdata)
-* شمارشی [FontStyleType](../../fontstyletype)
+* شمارش [FontStyleType](../../fontstyletype)
 * رابط [IFontsManager](../../ifontsmanager)
 * فضای‌نام [Aspose.Slides](../../ifontsmanager)
 * مجتمع [Aspose.Slides](../../../)

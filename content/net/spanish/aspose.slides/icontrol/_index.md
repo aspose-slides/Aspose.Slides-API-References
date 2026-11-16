@@ -1,9 +1,9 @@
 ---
 title: IControl
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Aspose.Sildes para la referencia de API de .NET
 description: Representa un control ActiveX.
 type: docs
-weight: 5630
+weight: 5650
 url: /es/aspose.slides/icontrol/
 ---
 ## IControl interfaz
@@ -18,14 +18,14 @@ public interface IControl : ISlideComponent
 
 | Nombre | Descripción |
 | --- | --- |
-| [ActiveXControlBinary](../../aspose.slides/icontrol/activexcontrolbinary) { get; } | Especifica la persistencia de un control ActiveX cuando el método usado para persistir es PersistStream, PersistStreamInit o PersistStorage. |
-| [AsISlideComponent](../../aspose.slides/icontrol/asislidecomponent) { get; } | Permite obtener la interfaz base ISlideComponent. Solo de lectura [`ISlideComponent`](../islidecomponent). |
-| [ClassId](../../aspose.slides/icontrol/classid) { get; } | Obtiene el id de clase de este control. Solo de lectura Guid. |
+| [ActiveXControlBinary](../../aspose.slides/icontrol/activexcontrolbinary) { get; } | Especifica la persistencia de un control ActiveX cuando el método utilizado para la persistencia es PersistStream, PersistStreamInit o PersistStorage. |
+| [AsISlideComponent](../../aspose.slides/icontrol/asislidecomponent) { get; } | Permite obtener la interfaz base ISlideComponent. Sólo lectura [`ISlideComponent`](../islidecomponent). |
+| [ClassId](../../aspose.slides/icontrol/classid) { get; } | Obtiene el id de clase de este control. Sólo lectura Guid. |
 | [Frame](../../aspose.slides/icontrol/frame) { get; set; } | Devuelve o establece el marco del control. Lectura/escritura [`IShapeFrame`](../ishapeframe). |
 | [Name](../../aspose.slides/icontrol/name) { get; set; } | Devuelve el nombre de este control. Lectura/escritura String. |
-| [Persistence](../../aspose.slides/icontrol/persistence) { get; } | Obtiene el método usado para almacenar las propiedades del control ActiveX. Solo de lectura [`PersistenceType`](../persistencetype). |
-| [Properties](../../aspose.slides/icontrol/properties) { get; } | Devuelve una colección de propiedades ActiveX. Solo de lectura [`IControlPropertiesCollection`](../icontrolpropertiescollection). |
-| [SubstitutePictureFormat](../../aspose.slides/icontrol/substitutepictureformat) { get; } | Devuelve el objeto de propiedades de relleno de imagen de ControlEx. Solo de lectura [`IPictureFillFormat`](../ipicturefillformat). |
+| [Persistence](../../aspose.slides/icontrol/persistence) { get; } | Obtiene el método usado para almacenar las propiedades del control ActiveX. Sólo lectura [`PersistenceType`](../persistencetype). |
+| [Properties](../../aspose.slides/icontrol/properties) { get; } | Devuelve una colección de propiedades ActiveX. Sólo lectura [`IControlPropertiesCollection`](../icontrolpropertiescollection). |
+| [SubstitutePictureFormat](../../aspose.slides/icontrol/substitutepictureformat) { get; } | Devuelve el objeto de propiedades de relleno de imagen de ControlEx. Sólo lectura [`IPictureFillFormat`](../ipicturefillformat). |
 
 ### Ver también
 

@@ -1,9 +1,9 @@
 ---
 title: IGradientStopCollection
-second_title: Aspose.Sildes dla .NET – referencja API
+second_title: Aspose.Sildes dla .NET – odniesienie API
 description: Reprezentuje kolekcję punktów gradientu.
 type: docs
-weight: 6030
+weight: 6050
 url: /pl/aspose.slides/igradientstopcollection/
 ---
 ## IGradientStopCollection interfejs
@@ -28,10 +28,10 @@ public interface IGradientStopCollection : IGenericCollection<IGradientStop>
 | [Add](../../aspose.slides/igradientstopcollection/add#add)(float, PresetColor) | Tworzy nowy punkt gradientu i dodaje go na koniec kolekcji. |
 | [Add](../../aspose.slides/igradientstopcollection/add#add_1)(float, SchemeColor) | Tworzy nowy punkt gradientu i dodaje go na koniec kolekcji. |
 | [Clear](../../aspose.slides/igradientstopcollection/clear)() | Usuwa wszystkie punkty gradientu z kolekcji. |
-| [Insert](../../aspose.slides/igradientstopcollection/insert#insert_2)(int, float, Color) | Tworzy nowy punkt gradientu i wstawia go w określonym indeksie do kolekcji. |
-| [Insert](../../aspose.slides/igradientstopcollection/insert#insert)(int, float, PresetColor) | Tworzy nowy punkt gradientu i wstawia go w określonym indeksie do kolekcji. |
-| [Insert](../../aspose.slides/igradientstopcollection/insert#insert_1)(int, float, SchemeColor) | Tworzy nowy punkt gradientu i wstawia go w określonym indeksie do kolekcji. |
-| [RemoveAt](../../aspose.slides/igradientstopcollection/removeat)(int) | Usuwa punkt gradientu o określonym indeksie. |
+| [Insert](../../aspose.slides/igradientstopcollection/insert#insert_2)(int, float, Color) | Tworzy nowy punkt gradientu i wstawia go pod wskazanym indeksem w kolekcji. |
+| [Insert](../../aspose.slides/igradientstopcollection/insert#insert)(int, float, PresetColor) | Tworzy nowy punkt gradientu i wstawia go pod wskazanym indeksem w kolekcji. |
+| [Insert](../../aspose.slides/igradientstopcollection/insert#insert_1)(int, float, SchemeColor) | Tworzy nowy punkt gradientu i wstawia go pod wskazanym indeksem w kolekcji. |
+| [RemoveAt](../../aspose.slides/igradientstopcollection/removeat)(int) | Usuwa punkt gradientu pod wskazanym indeksem. |
 
 ### Zobacz także
 

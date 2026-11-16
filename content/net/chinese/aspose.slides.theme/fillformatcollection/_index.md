@@ -3,12 +3,12 @@ title: FillFormatCollection
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示填充样式的集合。
 type: docs
-weight: 11120
+weight: 11140
 url: /zh/aspose.slides.theme/fillformatcollection/
 ---
 ## FillFormatCollection 类
 
-表示填充样式的集合。
+Represents the collection of fill styles.
 
 ```csharp
 public sealed class FillFormatCollection : DomObject<FormatScheme>, IFillFormatCollection
@@ -18,8 +18,8 @@ public sealed class FillFormatCollection : DomObject<FormatScheme>, IFillFormatC
 
 | 名称 | 描述 |
 | --- | --- |
-| [Count](../../aspose.slides.theme/fillformatcollection/count) { get; } | 获取集合中实际包含的元素数。只读 Int32。 |
-| [IsSynchronized](../../aspose.slides.theme/fillformatcollection/issynchronized) { get; } | 返回一个指示对集合的访问是否同步（线程安全）的值。只读 Boolean。 |
+| [Count](../../aspose.slides.theme/fillformatcollection/count) { get; } | 获取集合实际包含的元素数量。只读 Int32。 |
+| [IsSynchronized](../../aspose.slides.theme/fillformatcollection/issynchronized) { get; } | 返回一个值，指示对集合的访问是否已同步（线程安全）。只读 Boolean。 |
 | [Item](../../aspose.slides.theme/fillformatcollection/item) { get; } | 获取指定索引处的元素。只读 [`IFillFormat`](../../aspose.slides/ifillformat)。 |
 | [SyncRoot](../../aspose.slides.theme/fillformatcollection/syncroot) { get; } | 返回同步根。只读 Object。 |
 
@@ -27,10 +27,10 @@ public sealed class FillFormatCollection : DomObject<FormatScheme>, IFillFormatC
 
 | 名称 | 描述 |
 | --- | --- |
-| [CopyTo](../../aspose.slides.theme/fillformatcollection/copyto)(Array, int) | 将集合中的所有元素复制到指定的数组中。 |
-| [GetEnumerator](../../aspose.slides.theme/fillformatcollection/getenumerator)() | 返回一个遍历集合的枚举器。 |
+| [CopyTo](../../aspose.slides.theme/fillformatcollection/copyto)(Array, int) | 将集合中的所有元素复制到指定的数组。 |
+| [GetEnumerator](../../aspose.slides.theme/fillformatcollection/getenumerator)() | 返回遍历集合的枚举器。 |
 
-### 另见
+### 另请参见
 
 * 类 [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * 类 [FormatScheme](../formatscheme)

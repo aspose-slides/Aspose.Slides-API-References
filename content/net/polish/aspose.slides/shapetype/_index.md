@@ -3,12 +3,12 @@ title: ShapeType
 second_title: Aspose.Sildes dla .NET – odniesienie API
 description: Reprezentuje predefiniowaną geometrię kształtów geometrycznych.
 type: docs
-weight: 9930
+weight: 9950
 url: /pl/aspose.slides/shapetype/
 ---
 ## Enumeracja ShapeType
 
-Represents preset geometry of geometry shapes.
+Reprezentuje wstępnie zdefiniowaną geometrię kształtów geometrycznych.
 
 ```csharp
 public enum ShapeType
@@ -16,74 +16,74 @@ public enum ShapeType
 
 ### Wartości
 
-| Name | Value | Description |
+| Nazwa | Wartość | Opis |
 | --- | --- | --- |
-| NotDefined | `-1` | Nie określono. |
-| Custom | `0` | Niestandardowy kształt. To jest wartość tylko do odczytu. |
+| NotDefined | `-1` | Nie zdefiniowano. |
+| Custom | `0` | Kształt niestandardowy. To jest wartość tylko do odczytu. |
 | Line | `1` | Kształt linii. |
-| LineInverse | `2` | Kształt odwróconej linii. |
+| LineInverse | `2` | Kształt linii odwróconej. |
 | Triangle | `3` | Kształt trójkąta. |
 | RightTriangle | `4` | Kształt trójkąta prostokątnego. |
 | Rectangle | `5` | Kształt prostokąta. |
 | Diamond | `6` | Kształt rombu. |
 | Parallelogram | `7` | Kształt równoległoboku. |
 | Trapezoid | `8` | Kształt trapezu. |
-| NonIsoscelesTrapezoid | `9` | Kształt trapezu nierównoramiennego. |
+| NonIsoscelesTrapezoid | `9` | Kształt trapezu nieizokelesowego. |
 | Pentagon | `10` | Kształt pięciokąta. |
 | Hexagon | `11` | Kształt sześciokąta. |
 | Heptagon | `12` | Kształt siedmiokąta. |
 | Octagon | `13` | Kształt ośmiokąta. |
 | Decagon | `14` | Kształt dziesięciokąta. |
 | Dodecagon | `15` | Kształt dwunastokąta. |
-| FourPointedStar | `16` | Kształt czteroramiennej gwiazdy. |
-| FivePointedStar | `17` | Kształt pięcioramiennej gwiazdy. |
-| SixPointedStar | `18` | Kształt sześcioramiennej gwiazdy. |
-| SevenPointedStar | `19` | Kształt siedmioramiennej gwiazdy. |
-| EightPointedStar | `20` | Kształt ośmioramiennej gwiazdy. |
-| TenPointedStar | `21` | Kształt dziesięcioramiennej gwiazdy. |
-| TwelvePointedStar | `22` | Kształt dwunastiramiennej gwiazdy. |
-| SixteenPointedStar | `23` | Kształt szesnastoramiennej gwiazdy. |
-| TwentyFourPointedStar | `24` | Kształt dwudziestoczteroramiennej gwiazdy. |
-| ThirtyTwoPointedStar | `25` | Kształt trzydziestodwuramiennej gwiazdy. |
+| FourPointedStar | `16` | Kształt gwiazdy czteropłatkowej. |
+| FivePointedStar | `17` | Kształt gwiazdy pięciopłatkowej. |
+| SixPointedStar | `18` | Kształt gwiazdy sześciopłatkowej. |
+| SevenPointedStar | `19` | Kształt gwiazdy siedmiopłatkowej. |
+| EightPointedStar | `20` | Kształt gwiazdy ośmiopłatkowej. |
+| TenPointedStar | `21` | Kształt gwiazdy dziesięciopłatkowej. |
+| TwelvePointedStar | `22` | Kształt gwiazdy dwunastopłatkowej. |
+| SixteenPointedStar | `23` | Kształt gwiazdy szesnastopłatkowej. |
+| TwentyFourPointedStar | `24` | Kształt gwiazdy dwudziestoczteropłatkowej. |
+| ThirtyTwoPointedStar | `25` | Kształt gwiazdy trzydziestodwupłatkowej. |
 | RoundCornerRectangle | `26` | Kształt prostokąta z zaokrąglonymi rogami. |
 | OneRoundCornerRectangle | `27` | Kształt prostokąta z jednym zaokrąglonym rogiem. |
-| TwoSamesideRoundCornerRectangle | `28` | Kształt prostokąta z dwoma zaokrąglonymi rogami po jednej stronie. |
+| TwoSamesideRoundCornerRectangle | `28` | Kształt prostokąta z dwoma zaokrąglonymi rogami po tej samej stronie. |
 | TwoDiagonalRoundCornerRectangle | `29` | Kształt prostokąta z dwoma zaokrąglonymi rogami po przekątnych. |
 | OneSnipOneRoundCornerRectangle | `30` | Kształt prostokąta z jednym przycięciem i jednym zaokrąglonym rogiem. |
 | OneSnipCornerRectangle | `31` | Kształt prostokąta z jednym przycięciem rogu. |
-| TwoSamesideSnipCornerRectangle | `32` | Kształt prostokąta z dwoma przycięciami po jednej stronie. |
-| TwoDiagonalSnipCornerRectangle | `33` | Kształt prostokąta z dwoma przycięciami po przekątnych. |
+| TwoSamesideSnipCornerRectangle | `32` | Kształt prostokąta z dwoma przycięciami rogu po tej samej stronie. |
+| TwoDiagonalSnipCornerRectangle | `33` | Kształt prostokąta z dwoma przycięciami rogu po przekątnych. |
 | Plaque | `34` | Kształt tabliczki. |
 | Ellipse | `35` | Kształt elipsy. |
-| Teardrop | `36` | Kształt łzy. |
+| Teardrop | `36` | Kształt kropli. |
 | HomePlate | `37` | Kształt home plate. |
 | Chevron | `38` | Kształt chevron. |
 | PieWedge | `39` | Kształt wycinka koła. |
 | Pie | `40` | Kształt koła. |
 | BlockArc | `41` | Kształt łuku blokowego. |
-| Donut | `42` | Kształt pączka. |
+| Donut | `42` | Kształt donut. |
 | NoSmoking | `43` | Kształt zakazu palenia. |
 | RightArrow | `44` | Kształt strzałki w prawo. |
 | LeftArrow | `45` | Kształt strzałki w lewo. |
 | UpArrow | `46` | Kształt strzałki w górę. |
 | DownArrow | `47` | Kształt strzałki w dół. |
-| StripedRightArrow | `48` | Kształt prążkowanej strzałki w prawo. |
-| NotchedRightArrow | `49` | Kształt zaciętej strzałki w prawo. |
-| BentUpArrow | `50` | Kształt zagiętej strzałki w górę. |
+| StripedRightArrow | `48` | Kształt paskowanej strzałki w prawo. |
+| NotchedRightArrow | `49` | Kształt ząbkowanej strzałki w prawo. |
+| BentUpArrow | `50` | Kształt zgiętej strzałki w górę. |
 | LeftRightArrow | `51` | Kształt strzałki lewo-prawo. |
 | UpDownArrow | `52` | Kształt strzałki góra-dół. |
 | LeftUpArrow | `53` | Kształt strzałki lewo-góra. |
 | LeftRightUpArrow | `54` | Kształt strzałki lewo-prawo-góra. |
-| QuadArrow | `55` | Kształt czterostronnej strzałki. |
+| QuadArrow | `55` | Kształt czterokierunkowej strzałki. |
 | CalloutLeftArrow | `56` | Kształt dymku ze strzałką w lewo. |
 | CalloutRightArrow | `57` | Kształt dymku ze strzałką w prawo. |
 | CalloutUpArrow | `58` | Kształt dymku ze strzałką w górę. |
 | CalloutDownArrow | `59` | Kształt dymku ze strzałką w dół. |
 | CalloutLeftRightArrow | `60` | Kształt dymku ze strzałką lewo-prawo. |
 | CalloutUpDownArrow | `61` | Kształt dymku ze strzałką góra-dół. |
-| CalloutQuadArrow | `62` | Kształt dymku z czterostronną strzałką. |
-| BentArrow | `63` | Kształt zagiętej strzałki. |
-| UTurnArrow | `64` | Kształt strzałki U-kształtnej. |
+| CalloutQuadArrow | `62` | Kształt dymku z czterokierunkową strzałką. |
+| BentArrow | `63` | Kształt zgiętej strzałki. |
+| UTurnArrow | `64` | Kształt strzałki U-turn. |
 | CircularArrow | `65` | Kształt okrągłej strzałki. |
 | LeftCircularArrow | `66` | Kształt okrągłej strzałki w lewo. |
 | LeftRightCircularArrow | `67` | Kształt okrągłej strzałki lewo-prawo. |
@@ -91,8 +91,8 @@ public enum ShapeType
 | CurvedLeftArrow | `69` | Kształt zakrzywionej strzałki w lewo. |
 | CurvedUpArrow | `70` | Kształt zakrzywionej strzałki w górę. |
 | CurvedDownArrow | `71` | Kształt zakrzywionej strzałki w dół. |
-| SwooshArrow | `72` | Kształt strzałki w stylu swoosh. |
-| Cube | `73` | Kształt kostki. |
+| SwooshArrow | `72` | Kształt strzałki Swoosh. |
+| Cube | `73` | Kształt sześcianu. |
 | Can | `74` | Kształt puszki. |
 | LightningBolt | `75` | Kształt błyskawicy. |
 | Heart | `76` | Kształt serca. |
@@ -102,24 +102,24 @@ public enum ShapeType
 | IrregularSeal1 | `80` | Kształt nieregularnej pieczęci 1. |
 | IrregularSeal2 | `81` | Kształt nieregularnej pieczęci 2. |
 | FoldedCorner | `82` | Kształt zagiętego rogu. |
-| Bevel | `83` | Kształt ściętego narożnika. |
+| Bevel | `83` | Kształt fazy. |
 | Frame | `84` | Kształt ramki. |
 | HalfFrame | `85` | Kształt półramki. |
 | Corner | `86` | Kształt rogu. |
-| DiagonalStripe | `87` | Kształt ukośnej paski. |
+| DiagonalStripe | `87` | Kształt pochyłej linii. |
 | Chord | `88` | Kształt cięciwy. |
 | CurvedArc | `89` | Kształt zakrzywionej łuku. |
 | LeftBracket | `90` | Kształt lewego nawiasu. |
 | RightBracket | `91` | Kształt prawego nawiasu. |
-| LeftBrace | `92` | Kształt lewego klamry. |
-| RightBrace | `93` | Kształt prawej klamry. |
+| LeftBrace | `92` | Kształt lewego klamrowego. |
+| RightBrace | `93` | Kształt prawego klamrowego. |
 | BracketPair | `94` | Kształt pary nawiasów. |
 | BracePair | `95` | Kształt pary klamr. |
 | StraightConnector1 | `96` | Kształt prostego łącznika 1. |
-| BentConnector2 | `97` | Kształt zagiętego łącznika 2. |
-| BentConnector3 | `98` | Kształt zagiętego łącznika 3. |
-| BentConnector4 | `99` | Kształt zagiętego łącznika 4. |
-| BentConnector5 | `100` | Kształt zagiętego łącznika 5. |
+| BentConnector2 | `97` | Kształt zgiętego łącznika 2. |
+| BentConnector3 | `98` | Kształt zgiętego łącznika 3. |
+| BentConnector4 | `99` | Kształt zgiętego łącznika 4. |
+| BentConnector5 | `100` | Kształt zgiętego łącznika 5. |
 | CurvedConnector2 | `101` | Kształt zakrzywionego łącznika 2. |
 | CurvedConnector3 | `102` | Kształt zakrzywionego łącznika 3. |
 | CurvedConnector4 | `103` | Kształt zakrzywionego łącznika 4. |
@@ -137,9 +137,9 @@ public enum ShapeType
 | Callout2WithBorderAndAccent | `115` | Kształt dymku 2 z obramowaniem i akcentem. |
 | Callout3WithBorderAndAccent | `116` | Kształt dymku 3 z obramowaniem i akcentem. |
 | CalloutWedgeRectangle | `117` | Kształt dymku w formie trójkąta prostokątnego. |
-| CalloutWedgeRoundRectangle | `118` | Kształt dymku w formie trójkąta z zaokrąglonym prostokątem. |
-| CalloutWedgeEllipse | `119` | Kształt dymku w formie trójkąta eliptycznego. |
-| CalloutCloud | `120` | Kształt dymku w chmurze. |
+| CalloutWedgeRoundRectangle | `118` | Kształt dymku w formie trójkąta zaokrąglonego prostokąta. |
+| CalloutWedgeEllipse | `119` | Kształt dymku w formie trójkąta elipsy. |
+| CalloutCloud | `120` | Kształt dymku w formie chmury. |
 | Cloud | `121` | Kształt chmury. |
 | Ribbon | `122` | Kształt wstążki. |
 | Ribbon2 | `123` | Kształt wstążki 2. |
@@ -153,37 +153,37 @@ public enum ShapeType
 | Plus | `131` | Kształt plusa. |
 | ProcessFlow | `132` | Kształt przepływu procesu. |
 | DecisionFlow | `133` | Kształt przepływu decyzji. |
-| InputOutputFlow | `134` | Kształt przepływu wejścia/wyjścia. |
-| PredefinedProcessFlow | `135` | Kształt przepływu procesu predefiniowanego. |
+| InputOutputFlow | `134` | Kształt przepływu wejścia-wyjścia. |
+| PredefinedProcessFlow | `135` | Kształt zdefiniowanego przepływu procesu. |
 | InternalStorageFlow | `136` | Kształt przepływu wewnętrznego magazynu. |
 | DocumentFlow | `137` | Kształt przepływu dokumentu. |
-| MultiDocumentFlow | `138` | Kształt przepływu wielodokumentowego. |
-| TerminatorFlow | `139` | Kształt przepływu zakończenia. |
+| MultiDocumentFlow | `138` | Kształt przepływu wielu dokumentów. |
+| TerminatorFlow | `139` | Kształt przepływu terminatora. |
 | PreparationFlow | `140` | Kształt przepływu przygotowania. |
-| ManualInputFlow | `141` | Kształt przepływu ręcznego wprowadzania. |
-| ManualOperationFlow | `142` | Kształt przepływu ręcznej operacji. |
+| ManualInputFlow | `141` | Kształt ręcznego wprowadzania. |
+| ManualOperationFlow | `142` | Kształt ręcznej operacji. |
 | ConnectorFlow | `143` | Kształt przepływu łącznika. |
 | PunchedCardFlow | `144` | Kształt przepływu kart perforowanych. |
 | PunchedTapeFlow | `145` | Kształt przepływu taśmy perforowanej. |
-| SummingJunctionFlow | `146` | Kształt przepływu sumującego węzła. |
+| SummingJunctionFlow | `146` | Kształt przepływu węzła sumującego. |
 | OrFlow | `147` | Kształt przepływu OR. |
-| CollateFlow | `148` | Kształt przepływu sortowania. |
+| CollateFlow | `148` | Kształt przepływu kolejkowania. |
 | SortFlow | `149` | Kształt przepływu sortowania. |
 | ExtractFlow | `150` | Kształt przepływu wyodrębniania. |
 | MergeFlow | `151` | Kształt przepływu scalania. |
-| OfflineStorageFlow | `152` | Kształt przepływu offline magazynu. |
-| OnlineStorageFlow | `153` | Kształt przepływu online magazynu. |
+| OfflineStorageFlow | `152` | Kształt przepływu magazynu offline. |
+| OnlineStorageFlow | `153` | Kształt przepływu magazynu online. |
 | MagneticTapeFlow | `154` | Kształt przepływu taśmy magnetycznej. |
 | MagneticDiskFlow | `155` | Kształt przepływu dysku magnetycznego. |
 | MagneticDrumFlow | `156` | Kształt przepływu bębna magnetycznego. |
 | DisplayFlow | `157` | Kształt przepływu wyświetlania. |
 | DelayFlow | `158` | Kształt przepływu opóźnienia. |
 | AlternateProcessFlow | `159` | Kształt alternatywnego przepływu procesu. |
-| OffPageConnectorFlow | `160` | Kształt przepływu łącznika poza stroną. |
-| BlankButton | `161` | Kształt przycisku pustego. |
+| OffPageConnectorFlow | `160` | Kształt łącznika poza stroną. |
+| BlankButton | `161` | Kształt pustego przycisku. |
 | HomeButton | `162` | Kształt przycisku Home. |
 | HelpButton | `163` | Kształt przycisku Pomoc. |
-| InformationButton | `164` | Kształt przycisku Informacje. |
+| InformationButton | `164` | Kształt przycisku Informacji. |
 | ForwardOrNextButton | `165` | Kształt przycisku Dalej lub Następny. |
 | BackOrPreviousButton | `166` | Kształt przycisku Wstecz lub Poprzedni. |
 | EndButton | `167` | Kształt przycisku Zakończenie. |
@@ -195,15 +195,15 @@ public enum ShapeType
 | Gear6 | `173` | Kształt koła zębatego 6. |
 | Gear9 | `174` | Kształt koła zębatego 9. |
 | Funnel | `175` | Kształt lejka. |
-| PlusMath | `176` | Kształt znaku plus matematycznego. |
-| MinusMath | `177` | Kształt znaku minus matematycznego. |
-| MultiplyMath | `178` | Kształt znaku mnożenia. |
-| DivideMath | `179` | Kształt znaku dzielenia. |
-| EqualMath | `180` | Kształt znaku równości. |
-| NotEqualMath | `181` | Kształt znaku nierówności. |
+| PlusMath | `176` | Kształt matematycznego plusa. |
+| MinusMath | `177` | Kształt matematycznego minusa. |
+| MultiplyMath | `178` | Kształt matematycznego mnożenia. |
+| DivideMath | `179` | Kształt matematycznego dzielenia. |
+| EqualMath | `180` | Kształt matematycznej równości. |
+| NotEqualMath | `181` | Kształt matematycznej nierówności. |
 | CornerTabs | `182` | Kształt zakładek narożnych. |
 | SquareTabs | `183` | Kształt kwadratowych zakładek. |
-| PlaqueTabs | `184` | Kształt zakładek tabliczkowych. |
+| PlaqueTabs | `184` | Kształt zakładek tabliczki. |
 | ChartX | `185` | Kształt wykresu X. |
 | ChartStar | `186` | Kształt wykresu gwiazdy. |
 | ChartPlus | `187` | Kształt wykresu plus. |

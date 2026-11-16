@@ -1,14 +1,14 @@
 ---
 title: IAdjustValue
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar ett justeringsvärde för en geometrisk form. Dessa värden påverkar formens form.
+description: Representerar ett justeringsvärde för geometriska former. Dessa värden påverkar formens utseende.
 type: docs
-weight: 5180
+weight: 5200
 url: /sv/aspose.slides/iadjustvalue/
 ---
 ## IAdjustValue gränssnitt
 
-Representerar en geometrisk formjusteringsvärde. Dessa värden påverkar formens form.
+Representerar ett geometriskt formjusteringsvärde. Dessa värden påverkar formens utseende.
 
 ```csharp
 public interface IAdjustValue
@@ -18,10 +18,10 @@ public interface IAdjustValue
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AngleValue](../../aspose.slides/iadjustvalue/anglevalue) { get; set; } | Returnerar eller anger värde, tolkas som vinkel i grader. Läs/skriv Single. |
+| [AngleValue](../../aspose.slides/iadjustvalue/anglevalue) { get; set; } | Returnerar eller anger värdet och tolkar det som en vinkel i grader. Läs/skriv Single. |
 | [Name](../../aspose.slides/iadjustvalue/name) { get; } | Returnerar ett namn för detta justeringsvärde. Skrivskyddad String. |
-| [RawValue](../../aspose.slides/iadjustvalue/rawvalue) { get; set; } | Returnerar eller anger justeringsvärde "som det är". Läs/skriv Int64. |
-| [Type](../../aspose.slides/iadjustvalue/type) { get; } | Returnerar typen av formjustering. Skrivskyddad [`ShapeAdjustmentType`](../shapeadjustmenttype). |
+| [RawValue](../../aspose.slides/iadjustvalue/rawvalue) { get; set; } | Returnerar eller anger justeringsvärdet "as is". Läs/skriv Int64. |
+| [Type](../../aspose.slides/iadjustvalue/type) { get; } | Returnerar typen av formjusteringen. Skrivskyddad [`ShapeAdjustmentType`](../shapeadjustmenttype). |
 
 ### Se även
 

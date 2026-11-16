@@ -1,14 +1,14 @@
 ---
 title: PptxReadException
 second_title: Aspose.Sildes for .NET API リファレンス
-description: プレゼンテーションの読み取りエラー時にスローされる例外を表します。
+description: プレゼンテーションの読み取りエラーが発生したときにスローされる例外を表します。
 type: docs
-weight: 9570
+weight: 9590
 url: /ja/aspose.slides/pptxreadexception/
 ---
 ## PptxReadException クラス
 
-プレゼンテーションの読み取りエラー時にスローされる例外を表します。
+プレゼンテーションの読み取りエラーが発生したときにスローされる例外を表します。
 
 ```csharp
 public class PptxReadException : PptxException
@@ -20,7 +20,7 @@ public class PptxReadException : PptxException
 | --- | --- |
 | [PptxReadException](pptxreadexception#constructor)() | デフォルトコンストラクタ。 |
 | [PptxReadException](pptxreadexception#constructor_1)(string) | この例外にメッセージを追加できるコンストラクタ。 |
-| [PptxReadException](pptxreadexception#constructor_2)(string, Exception) | メッセージと内部例外を含む例外のためのコンストラクタ。 |
+| [PptxReadException](pptxreadexception#constructor_2)(string, Exception) | メッセージと埋め込み例外を含む例外用のコンストラクタ。 |
 
 ### 参照
 

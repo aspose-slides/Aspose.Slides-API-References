@@ -1,9 +1,9 @@
 ---
 title: IEffectParamSource
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 보조 효과 매개변수 인터페이스.
 type: docs
-weight: 5760
+weight: 5780
 url: /ko/aspose.slides/ieffectparamsource/
 ---
 ## IEffectParamSource 인터페이스
@@ -14,7 +14,7 @@ url: /ko/aspose.slides/ieffectparamsource/
 public interface IEffectParamSource
 ```
 
-### 참조
+### 참고
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

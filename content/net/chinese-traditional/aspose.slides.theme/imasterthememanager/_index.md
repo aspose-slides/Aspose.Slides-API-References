@@ -1,14 +1,14 @@
 ---
 title: IMasterThemeManager
-second_title: Aspose.Sildes .NET API 參考
-description: 提供存取簡報母版佈景主題的功能。
+second_title: Aspose.Sildes for .NET API 參考
+description: 提供對簡報主佈景的存取。
 type: docs
-weight: 11320
+weight: 11340
 url: /zh-hant/aspose.slides.theme/imasterthememanager/
 ---
 ## IMasterThemeManager 介面
 
-提供存取簡報母版佈景主題的功能。
+提供對簡報主佈景的存取。
 
 ```csharp
 public interface IMasterThemeManager : IThemeManager
@@ -19,8 +19,8 @@ public interface IMasterThemeManager : IThemeManager
 | 名稱 | 說明 |
 | --- | --- |
 | [AsIThemeManager](../../aspose.slides.theme/imasterthememanager/asithememanager) { get; } | 允許取得基礎 IThemeManager 介面。唯讀 [`IThemeManager`](../ithememanager)。 |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/imasterthememanager/isoverridethemeenabled) { get; set; } | 決定 OverrideTheme 是否覆寫繼承的有效佈景主題 (Presentation.MasterTheme)。可讀寫 Boolean。 |
-| [OverrideTheme](../../aspose.slides.theme/imasterthememanager/overridetheme) { get; set; } | 傳回覆寫的佈景主題物件。可讀寫 [`IMasterTheme`](../imastertheme)。 |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/imasterthememanager/isoverridethemeenabled) { get; set; } | 決定 OverrideTheme 是否覆寫繼承的有效佈景主題 (Presentation.MasterTheme) 或不覆寫。讀寫 Boolean。 |
+| [OverrideTheme](../../aspose.slides.theme/imasterthememanager/overridetheme) { get; set; } | 傳回覆寫的佈景主題物件。讀寫 [`IMasterTheme`](../imastertheme)。 |
 
 ### 另請參閱
 

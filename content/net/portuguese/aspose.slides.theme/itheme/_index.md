@@ -1,9 +1,9 @@
 ---
 title: ITheme
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Representa um tema.
 type: docs
-weight: 11370
+weight: 11390
 url: /pt/aspose.slides.theme/itheme/
 ---
 ## ITheme interface
@@ -16,7 +16,7 @@ public interface ITheme : IPresentationComponent
 
 ## Propriedades
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides.theme/itheme/asipresentationcomponent) { get; } | Permite obter a interface base IPresentationComponent. Somente leitura [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 | [ColorScheme](../../aspose.slides.theme/itheme/colorscheme) { get; } | Retorna o esquema de cores. Somente leitura [`IColorScheme`](../icolorscheme). |
@@ -25,9 +25,9 @@ public interface ITheme : IPresentationComponent
 
 ## Métodos
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
-| [GetEffective](../../aspose.slides.theme/itheme/geteffective)() | Obtém os dados efetivos do tema com a herança aplicada. |
+| [GetEffective](../../aspose.slides.theme/itheme/geteffective)() | Obtém os dados de tema efetivo com a herança aplicada. |
 
 ### Ver também
 

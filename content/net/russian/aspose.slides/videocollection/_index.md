@@ -1,12 +1,12 @@
 ---
 title: VideoCollection
-second_title: Aspose.Sildes для .NET API справка
+second_title: Aspose.Sildes для .NET справка API
 description: Представляет коллекцию объектов Video.
 type: docs
-weight: 11710
+weight: 11730
 url: /ru/aspose.slides/videocollection/
 ---
-## Класс VideoCollection
+## VideoCollection класс
 
 Представляет коллекцию объектов Video.
 
@@ -16,7 +16,7 @@ public class VideoCollection : DomObject<Presentation>, IVideoCollection
 
 ## Свойства
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
 | [Count](../../aspose.slides/videocollection/count) { get; } | Возвращает количество видеофайлов в коллекции. Только для чтения Int32. |
 | [IsSynchronized](../../aspose.slides/videocollection/issynchronized) { get; } | Возвращает значение, указывающее, синхронизирован ли доступ к коллекции (потокобезопасный). Только для чтения Boolean. |
@@ -25,7 +25,7 @@ public class VideoCollection : DomObject<Presentation>, IVideoCollection
 
 ## Методы
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
 | [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo_1)(byte[]) | Создаёт и добавляет видео в презентацию из массива байтов. |
 | [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo)(IVideo) | Добавляет копию видеофайла из другой презентации. |
@@ -33,7 +33,7 @@ public class VideoCollection : DomObject<Presentation>, IVideoCollection
 | [CopyTo](../../aspose.slides/videocollection/copyto)(Array, int) | Копирует видео в указанный массив, начиная с указанного индекса. |
 | [GetEnumerator](../../aspose.slides/videocollection/getenumerator)() | Возвращает перечислитель, который перебирает элементы коллекции. |
 
-### См. также
+### Смотрите также
 
 * класс [DomObject&lt;TParent&gt;](../domobject-1)
 * класс [Presentation](../presentation)

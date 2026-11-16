@@ -1,9 +1,9 @@
 ---
 title: PptxOptions
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes for .NET API Referansı
 description: OpenXml sunumlarını (PPTX, PPSX, POTX, PPTM, PPSM, POTM) kaydetmek için seçenekleri temsil eder.
 type: docs
-weight: 4370
+weight: 4390
 url: /tr/aspose.slides.export/pptxoptions/
 ---
 ## PptxOptions sınıfı
@@ -16,25 +16,25 @@ public sealed class PptxOptions : SaveOptions, IPptxOptions
 
 ## Yapıcılar
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
-| [PptxOptions](pptxoptions)() | PptxOptions yeni bir örnek oluşturur |
+| [PptxOptions](pptxoptions)() | PptxOptions sınıfının yeni bir örneğini oluşturur |
 
 ## Özellikler
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
 | [CompressionLevel](../../aspose.slides.export/pptxoptions/compressionlevel) { get; set; } | Sunum belgesini kaydederken kullanılan sıkıştırma seviyesini belirtir. Varsayılan değer Level6'dır. |
 | [Conformance](../../aspose.slides.export/pptxoptions/conformance) { get; set; } | Sunum belgesinin uyduğu uygunluk sınıfını belirtir. Varsayılan değer Ecma376_2006'dır. |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Kaynak yazı tipi bulunamadığında kullanılan yazı tipini döndürür veya ayarlar. Okunabilir-yazılabilir String. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Gradyentin görsel stilini döndürür veya ayarlar. Okunabilir/yazılabilir [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Kaynak font bulunamadığında kullanılan yazı tipini döndürür veya ayarlar. Okunabilir-yazılabilir String. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Gradyanın görsel stilini döndürür veya ayarlar. Okunabilir-yazılabilir [`GradientStyle`](../../aspose.slides/gradientstyle). |
 | [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Yüzde olarak kaydetme ilerleme güncellemeleri için bir geri çağırma nesnesini temsil eder. Bkz. [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [RefreshThumbnail](../../aspose.slides.export/pptxoptions/refreshthumbnail) { get; set; } | Sunum küçük resminin yenilenip yenilenmeyeceğini belirtir. Okunabilir/yazılabilir Boolean. Varsayılan değer **true**. |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Sunumu kaydederken JavaScript çağrısı içeren köprüleri atlayıp atlamayacağını belirtir. Okunabilir/yazılabilir Boolean. Varsayılan değer **false**. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Uyarıları alan ve yükleme sürecinin devam edip etmeyeceğine karar veren bir nesneyi döndürür veya ayarlar. Okunabilir/yazılabilir [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
-| [Zip64Mode](../../aspose.slides.export/pptxoptions/zip64mode) { get; set; } | Sunum belgesi için ZIP64 formatının kullanılıp kullanılmayacağını belirtir. Varsayılan değer IfNecessary |
+| [RefreshThumbnail](../../aspose.slides.export/pptxoptions/refreshthumbnail) { get; set; } | Sunum küçük resminin yenilenip yenilenmeyeceğini belirtir. Okunabilir-yazılabilir Boolean. Varsayılan değer **true**'dur. |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Sunumu kaydederken JavaScript çağrısı içeren köprülerin atlanıp atlanmayacağını belirtir. Okunabilir-yazılabilir Boolean. Varsayılan değer **false**'dır. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Uyarıları alan ve yükleme sürecinin devam edip etmeyeceğine karar veren bir nesneyi döndürür veya ayarlar. Okunabilir-yazılabilir [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [Zip64Mode](../../aspose.slides.export/pptxoptions/zip64mode) { get; set; } | Sunum belgesi için ZIP64 biçiminin kullanılıp kullanılmayacağını belirtir. Varsayılan değer IfNecessary'dir. |
 
-### Bakınız
+### Ayrıca Bakınız
 
 * sınıf [SaveOptions](../saveoptions)
 * arayüz [IPptxOptions](../ipptxoptions)

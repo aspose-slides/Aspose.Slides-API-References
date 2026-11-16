@@ -1,9 +1,9 @@
 ---
 title: PptxOptions
-second_title: Aspose.Sildes para la referencia de API de .NET
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Representa opciones para guardar presentaciones OpenXml PPTX PPSX POTX PPTM PPSM POTM.
 type: docs
-weight: 4370
+weight: 4390
 url: /es/aspose.slides.export/pptxoptions/
 ---
 ## PptxOptions clase
@@ -24,17 +24,17 @@ public sealed class PptxOptions : SaveOptions, IPptxOptions
 
 | Nombre | Descripción |
 | --- | --- |
-| [CompressionLevel](../../aspose.slides.export/pptxoptions/compressionlevel) { get; set; } | Especifica el nivel de compresión utilizado al guardar el documento de presentación. El valor predeterminado es Level6. |
-| [Conformance](../../aspose.slides.export/pptxoptions/conformance) { get; set; } | Especifica la clase de conformidad a la que se ajusta el documento de Presentación. El valor predeterminado es Ecma376_2006 |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Devuelve o establece la fuente utilizada en caso de que no se encuentre la fuente origen. Lectura/escritura String. |
+| [CompressionLevel](../../aspose.slides.export/pptxoptions/compressionlevel) { get; set; } | Especifica el nivel de compresión usado al guardar el documento de presentación. El valor predeterminado es Level6. |
+| [Conformance](../../aspose.slides.export/pptxoptions/conformance) { get; set; } | Especifica la clase de conformidad a la que se ajusta el documento de presentación. El valor predeterminado es Ecma376_2006 |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Devuelve o establece la fuente utilizada en caso de que no se encuentre la fuente original. Lectura/escritura String. |
 | [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Devuelve o establece el estilo visual del degradado. Lectura/escritura [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Representa un objeto de devolución de llamada para recibir actualizaciones de progreso de guardado en porcentaje. Ver [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Representa un objeto de devolución de llamada para actualizaciones de progreso de guardado en porcentaje. Ver [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
 | [RefreshThumbnail](../../aspose.slides.export/pptxoptions/refreshthumbnail) { get; set; } | Especifica si la miniatura de la presentación se actualizará. Lectura/escritura Boolean. El valor predeterminado es **true**. |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Especifica si se deben omitir los hipervínculos con llamadas JavaScript al guardar la presentación. Lectura/escritura Boolean. El valor predeterminado es **false**. |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Especifica si se omiten los hipervínculos con llamadas JavaScript al guardar la presentación. Lectura/escritura Boolean. El valor predeterminado es **false**. |
 | [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Devuelve o establece un objeto que recibe advertencias y decide si el proceso de carga continuará o se abortará. Lectura/escritura [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
-| [Zip64Mode](../../aspose.slides.export/pptxoptions/zip64mode) { get; set; } | Especifica si se utiliza el formato ZIP64 para el documento de Presentación. El valor predeterminado es IfNecessary |
+| [Zip64Mode](../../aspose.slides.export/pptxoptions/zip64mode) { get; set; } | Especifica si se usa el formato ZIP64 para el documento de presentación. El valor predeterminado es IfNecessary |
 
-### Ver también
+### Véase también
 
 * clase [SaveOptions](../saveoptions)
 * interfaz [IPptxOptions](../ipptxoptions)

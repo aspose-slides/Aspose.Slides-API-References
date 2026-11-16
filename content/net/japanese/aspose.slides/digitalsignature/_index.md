@@ -1,9 +1,9 @@
 ---
 title: DigitalSignature
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: 署名されたファイル内のデジタル署名。
 type: docs
-weight: 2770
+weight: 2790
 url: /ja/aspose.slides/digitalsignature/
 ---
 ## DigitalSignature クラス
@@ -25,43 +25,43 @@ public class DigitalSignature : IDigitalSignature
 
 | 名前 | 説明 |
 | --- | --- |
-| [Certificate](../../aspose.slides/digitalsignature/certificate) { get; } | ドキュメントの署名に使用された証明書オブジェクト。読み取り専用 X509Certificate2。 |
+| [Certificate](../../aspose.slides/digitalsignature/certificate) { get; } | ドキュメントに署名するために使用された証明書オブジェクト。読み取り専用 X509Certificate2。 |
 | [Comments](../../aspose.slides/digitalsignature/comments) { get; set; } | 署名の目的。読み書き可能 String。 |
 | [IsValid](../../aspose.slides/digitalsignature/isvalid) { get; } | このデジタル署名が有効で、ドキュメントが改ざんされていない場合、この値は true になります。読み取り専用 Boolean。 |
-| [SignTime](../../aspose.slides/digitalsignature/signtime) { get; } | ドキュメントが署名された時間。読み取り専用 DateTime。 |
+| [SignTime](../../aspose.slides/digitalsignature/signtime) { get; } | ドキュメントが署名された時刻。読み取り専用 DateTime。 |
 
 ### 例
 
-以下の例は、PowerPoint プレゼンテーションに PFX 証明書からデジタル署名を追加する方法を示します。
+次の例は、PowerPoint プレゼンテーションに PFX 証明書からデジタル署名を追加する方法を示しています。
 
 ```csharp
 [C#]
-// Presentation インスタンスを初期化します
+// プレゼンテーション インスタンスを初期化
 using (Presentation pres = new Presentation())
 {
-    // PFX ファイルと PFX パスワードで DigitalSignature オブジェクトを作成します
+    // PFX ファイルとパスワードで DigitalSignature オブジェクトを作成
     DigitalSignature signature = new DigitalSignature("testsignature1.pfx", @"testpass1");
-    // 新しいデジタル署名にコメントを付けます
+    // 新しいデジタル署名にコメントを付ける
     signature.Comments = "Aspose.Slides digital signing test.";
-    // プレゼンテーションにデジタル署名を追加します
+    // プレゼンテーションにデジタル署名を追加
     pres.DigitalSignatures.Add(signature);
-    // プレゼンテーションを保存します
+    // プレゼンテーションを保存
     pres.Save("SomePresentationSigned.pptx", SaveFormat.Pptx);
 }
 ```
 
-以下のサンプルコードは、PowerPoint プレゼンテーションのデジタル署名を検証する方法を示します。
+次のサンプルコードは、PowerPoint プレゼンテーションのデジタル署名を検証する方法を示しています。
 
 ```csharp
 [C#]
-// Presentation インスタンスを初期化します
+// プレゼンテーション インスタンスを初期化
 using (Presentation pres = new Presentation("SomePresentationSigned.pptx"))
 {
     if (pres.DigitalSignatures.Count < 0)
     {
         bool allSignaturesAreValid = true;
         Console.WriteLine("Signatures used to sign the presentation: ");
-        // すべてのデジタル署名が有効かどうかを確認します
+        // すべてのデジタル署名が有効かどうかを確認
         foreach (DigitalSignature signature in pres.DigitalSignatures)
         {
             Console.WriteLine(signature.Certificate.SubjectName.Name + ", "

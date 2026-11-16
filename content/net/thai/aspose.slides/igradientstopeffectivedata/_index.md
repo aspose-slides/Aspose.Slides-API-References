@@ -1,14 +1,14 @@
 ---
 title: IGradientStopEffectiveData
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: อ็อบเจกต์ที่ไม่เปลี่ยนแปลงซึ่งเป็นตัวแทนของจุดไล่สี
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: วัตถุที่ไม่เปลี่ยนแปลงซึ่งเป็นตัวแทนของจุดไล่ระดับสี.
 type: docs
-weight: 6050
+weight: 6070
 url: /th/aspose.slides/igradientstopeffectivedata/
 ---
 ## IGradientStopEffectiveData อินเทอร์เฟซ
 
-อ็อบเจกต์ที่ไม่เปลี่ยนแปลงซึ่งเป็นตัวแทนของจุดไล่สี
+วัตถุที่ไม่เปลี่ยนแปลงซึ่งเป็นตัวแทนของจุดไล่ระดับสี.
 
 ```csharp
 public interface IGradientStopEffectiveData
@@ -18,8 +18,8 @@ public interface IGradientStopEffectiveData
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Color](../../aspose.slides/igradientstopeffectivedata/color) { get; } | คืนค่าความสีของจุดไล่สี. อ่านอย่างเดียว Color. |
-| [Position](../../aspose.slides/igradientstopeffectivedata/position) { get; } | คืนค่าตำแหน่ง (0..1) ของจุดไล่สี. อ่านอย่างเดียว Single. |
+| [Color](../../aspose.slides/igradientstopeffectivedata/color) { get; } | ส่งคืนสีของจุดไล่ระดับสี. อ่านอย่างเดียว Color. |
+| [Position](../../aspose.slides/igradientstopeffectivedata/position) { get; } | ส่งคืนตำแหน่ง (0..1) ของจุดไล่ระดับสี. อ่านอย่างเดียว Single. |
 
 ### ดูเพิ่มเติม
 

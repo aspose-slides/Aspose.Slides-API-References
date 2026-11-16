@@ -1,9 +1,9 @@
 ---
 title: IBackground
 second_title: Aspose.Sildes for .NET API 參考
-description: 代表投影片的背景。
+description: 表示投影片的背景。
 type: docs
-weight: 5270
+weight: 5290
 url: /zh-hant/aspose.slides/ibackground/
 ---
 ## IBackground 介面
@@ -18,13 +18,13 @@ public interface IBackground : IFillParamSource, ISlideComponent
 
 | 名稱 | 說明 |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/ibackground/asifillparamsource) { get; } | 傳回 IFillParamSource 介面。唯讀 [`IFillParamSource`](../ifillparamsource)。 |
-| [AsISlideComponent](../../aspose.slides/ibackground/asislidecomponent) { get; } | 傳回 ISlideComponent 介面。唯讀 [`ISlideComponent`](../islidecomponent)。 |
-| [EffectFormat](../../aspose.slides/ibackground/effectformat) { get; } | 傳回 BackgroundType.OwnBackground 填充的 EffectFormat。唯讀 [`IEffectFormat`](../ieffectformat)。 |
-| [FillFormat](../../aspose.slides/ibackground/fillformat) { get; } | 傳回 BackgroundType.OwnBackground 填充的 FillFormat。唯讀 [`IFillFormat`](../ifillformat)。 |
-| [StyleColor](../../aspose.slides/ibackground/stylecolor) { get; } | 傳回 BackgroundType.Themed 填充的 ColorFormat。唯讀 [`IColorFormat`](../icolorformat)。 |
-| [StyleIndex](../../aspose.slides/ibackground/styleindex) { get; set; } | 傳回背景佈景主題集合中 BackgroundType.Themed 填充的索引。0 表示無填充。1..999 - 索引。可讀寫 UInt16。 |
-| [Type](../../aspose.slides/ibackground/type) { get; set; } | 傳回背景填充的類型。可讀寫 [`BackgroundType`](../backgroundtype)。 |
+| [AsIFillParamSource](../../aspose.slides/ibackground/asifillparamsource) { get; } | 返回 IFillParamSource 介面。唯讀 [`IFillParamSource`](../ifillparamsource)。 |
+| [AsISlideComponent](../../aspose.slides/ibackground/asislidecomponent) { get; } | 返回 ISlideComponent 介面。唯讀 [`ISlideComponent`](../islidecomponent)。 |
+| [EffectFormat](../../aspose.slides/ibackground/effectformat) { get; } | 返回 用於 BackgroundType.OwnBackground 填充的 EffectFormat。唯讀 [`IEffectFormat`](../ieffectformat)。 |
+| [FillFormat](../../aspose.slides/ibackground/fillformat) { get; } | 返回 用於 BackgroundType.OwnBackground 填充的 FillFormat。唯讀 [`IFillFormat`](../ifillformat)。 |
+| [StyleColor](../../aspose.slides/ibackground/stylecolor) { get; } | 返回 用於 BackgroundType.Themed 填充的 ColorFormat。唯讀 [`IColorFormat`](../icolorformat)。 |
+| [StyleIndex](../../aspose.slides/ibackground/styleindex) { get; set; } | 返回 背景主題集合中 BackgroundType.Themed 填充的索引。0 表示無填充。1..999 - 索引。可讀寫 UInt16。 |
+| [Type](../../aspose.slides/ibackground/type) { get; set; } | 返回 背景填充的類型。可讀寫 [`BackgroundType`](../backgroundtype)。 |
 
 ## 方法
 
@@ -32,7 +32,7 @@ public interface IBackground : IFillParamSource, ISlideComponent
 | --- | --- |
 | [GetEffective](../../aspose.slides/ibackground/geteffective)() | 取得套用繼承後的有效背景資料。 |
 
-### 另請參閱
+### 另見
 
 * 介面 [IFillParamSource](../ifillparamsource)
 * 介面 [ISlideComponent](../islidecomponent)

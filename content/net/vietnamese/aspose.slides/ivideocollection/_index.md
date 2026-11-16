@@ -1,14 +1,14 @@
 ---
 title: IVideoCollection
-second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Biểu diễn một tập hợp các đối tượng Video.
+second_title: Aspose.Sildes cho .NET API Tham khảo
+description: Đại diện cho một bộ sưu tập các đối tượng Video.
 type: docs
-weight: 7370
+weight: 7390
 url: /vi/aspose.slides/ivideocollection/
 ---
 ## IVideoCollection giao diện
 
-Biểu diễn một tập hợp các đối tượng Video.
+Represents a collection of Video objects.
 
 ```csharp
 public interface IVideoCollection : IGenericCollection<IVideo>
@@ -16,17 +16,17 @@ public interface IVideoCollection : IGenericCollection<IVideo>
 
 ## Thuộc tính
 
-| Tên | Mô tả |
+| Name | Description |
 | --- | --- |
-| [Item](../../aspose.slides/ivideocollection/item) { get; } | Lấy phần tử tại chỉ mục đã chỉ định. Chỉ đọc [`IVideo`](../ivideo). |
+| [Item](../../aspose.slides/ivideocollection/item) { get; } | Lấy phần tử tại chỉ mục được chỉ định. Chỉ đọc [`IVideo`](../ivideo). |
 
 ## Phương thức
 
-| Tên | Mô tả |
+| Name | Description |
 | --- | --- |
-| [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo_1)(byte[]) | Tạo và thêm một video vào bản trình bày từ mảng byte. |
-| [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo)(IVideo) | Thêm một bản sao của tệp video từ bản trình bày khác. |
-| [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo_2)(Stream, LoadingStreamBehavior) | Tạo và thêm một video vào bản trình bày từ luồng. |
+| [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo_1)(byte[]) | Tạo và thêm một video vào bản trình chiếu từ mảng byte. |
+| [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo)(IVideo) | Thêm một bản sao của tệp video từ bản trình chiếu khác. |
+| [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo_2)(Stream, LoadingStreamBehavior) | Tạo và thêm một video vào bản trình chiếu từ luồng. |
 
 ### Xem thêm
 

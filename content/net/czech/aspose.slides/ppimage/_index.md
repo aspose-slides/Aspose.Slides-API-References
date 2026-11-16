@@ -1,14 +1,14 @@
 ---
 title: PPImage
-second_title: Aspose.Slides pro .NET API Reference
-description: Reprezentuje obrázek v prezentaci.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Představuje obrázek v prezentaci.
 type: docs
-weight: 9250
+weight: 9270
 url: /cs/aspose.slides/ppimage/
 ---
 ## PPImage třída
 
-Reprezentuje obrázek v prezentaci.
+Představuje obrázek v prezentaci.
 
 ```csharp
 public class PPImage : IDisposable, IPPImage
@@ -16,7 +16,7 @@ public class PPImage : IDisposable, IPPImage
 
 ## Vlastnosti
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
 | [BinaryData](../../aspose.slides/ppimage/binarydata) { get; } | Vrací kopii dat obrázku. Pouze pro čtení Byte[]. |
 | [ContentType](../../aspose.slides/ppimage/contenttype) { get; } | Vrací MIME typ obrázku, kódovaný v [`BinaryData`](./binarydata). Pouze pro čtení String. |
@@ -24,17 +24,17 @@ public class PPImage : IDisposable, IPPImage
 | [Image](../../aspose.slides/ppimage/image) { get; } | Vrací kopii obrázku. Pouze pro čtení [`IImage`](../iimage). |
 | [SvgImage](../../aspose.slides/ppimage/svgimage) { get; set; } | Vrací nebo nastavuje objekt ISvgImage [`ISvgImage`](../isvgimage) |
 | [Width](../../aspose.slides/ppimage/width) { get; } | Vrací šířku obrázku. Pouze pro čtení Int32. |
-| [X](../../aspose.slides/ppimage/x) { get; } | Vrací X-posun obrázku. Pouze pro čtení Int32. |
-| [Y](../../aspose.slides/ppimage/y) { get; } | Vrací Y-posun obrázku. Pouze pro čtení Int32. |
+| [X](../../aspose.slides/ppimage/x) { get; } | Vrací X-offset obrázku. Pouze pro čtení Int32. |
+| [Y](../../aspose.slides/ppimage/y) { get; } | Vrací Y-offset obrázku. Pouze pro čtení Int32. |
 
 ## Metody
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
 | [Dispose](../../aspose.slides/ppimage/dispose)() | Uvolní objekt. |
 | override [GetHashCode](../../aspose.slides/ppimage/gethashcode)() | Vrací hash kód obrázku. |
-| [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage_2)(byte[]) | Nahrazuje data obrázku. Data nového obrázku. Když je parametr newImageData null. |
-| [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage)(IImage) | Nahrazuje data obrázku. Pozor: když je Image metafile, bude rasterizována. Místo toho použijte ReplaceImage(byte[]). Nový obrázek. Když je parametr newImage null. |
+| [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage_2)(byte[]) | Nahrazuje data obrázku. Nová data obrázku. Když je parametr newImageData null. |
+| [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage)(IImage) | Nahrazuje data obrázku. Pozor: když je Image metafile – bude rasterizován. Použijte ReplaceImage(byte[]) místo. Nový obrázek. Když je parametr newImage null. |
 | [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage_1)(IPPImage) | Nahrazuje data obrázku. Nový IPPImage. Když je parametr newImage null. |
 
 ### Viz také

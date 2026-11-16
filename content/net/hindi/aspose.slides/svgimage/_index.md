@@ -3,18 +3,18 @@ title: SvgImage
 second_title: Aspose.Sildes for .NET API संदर्भ
 description: एक SVG छवि का प्रतिनिधित्व करता है।
 type: docs
-weight: 10800
+weight: 10820
 url: /hi/aspose.slides/svgimage/
 ---
 ## SvgImage क्लास
 
-एक SVG छवि का प्रतिनिधित्व करता है।
+SVG इमेज़ का प्रतिनिधित्व करता है।
 
 ```csharp
 public class SvgImage : ISvgImage
 ```
 
-## कंस्ट्रक्टर
+## निर्माता
 
 | नाम | विवरण |
 | --- | --- |
@@ -29,16 +29,16 @@ public class SvgImage : ISvgImage
 
 | नाम | विवरण |
 | --- | --- |
-| [BaseUri](../../aspose.slides/svgimage/baseuri) { get; } | निर्दिष्ट Svg की बेस URI लौटाता है। सापेक्ष लिंक को हल करने के लिए उपयोग किया जाता है। केवल-पढ़ने योग्य String। |
-| [ExternalResourceResolver](../../aspose.slides/svgimage/externalresourceresolver) { get; } | Svg दस्तावेज़ आयात के दौरान बाहरी संसाधनों को हल करने के लिए उपयोग किया जाने वाला कॉलबैक इंटरफ़ेस लौटाता है। केवल-पढ़ने योग्य [`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver)। |
+| [BaseUri](../../aspose.slides/svgimage/baseuri) { get; } | निर्दिष्ट Svg का बेस URI लौटाता है। सापेक्ष लिंक को हल करने के लिए उपयोग किया जाता है। केवल-पढ़ने योग्य String। |
+| [ExternalResourceResolver](../../aspose.slides/svgimage/externalresourceresolver) { get; } | Svg दस्तावेज़ आयात के दौरान बाहरी संसाधनों को हल करने के लिए उपयोग किया जाने वाला कॉलबैक interface लौटाता है। केवल-पढ़ने योग्य [`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver)। |
 | [SvgContent](../../aspose.slides/svgimage/svgcontent) { get; } | SVG सामग्री लौटाता है। केवल-पढ़ने योग्य String। |
 | [SvgData](../../aspose.slides/svgimage/svgdata) { get; } | SVG डेटा लौटाता है। केवल-पढ़ने योग्य Byte[]. |
 
-## मेथड्स
+## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [WriteAsEmf](../../aspose.slides/svgimage/writeasemf)(Stream) | SVG छवि को EMF फ़ाइल के रूप में सहेजता है। |
+| [WriteAsEmf](../../aspose.slides/svgimage/writeasemf)(Stream) | SVG इमेज़ को EMF फ़ाइल के रूप में सहेजता है। |
 
 ### संबंधित देखें
 

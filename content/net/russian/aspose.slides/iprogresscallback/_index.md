@@ -1,9 +1,9 @@
 ---
 title: IProgressCallback
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Aspose.Sildes для .NET справочник API
 description: Представляет объект обратного вызова для сохранения обновлений прогресса в процентах.
 type: docs
-weight: 6810
+weight: 6830
 url: /ru/aspose.slides/iprogresscallback/
 ---
 ## IProgressCallback интерфейс

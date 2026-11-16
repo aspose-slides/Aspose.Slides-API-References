@@ -1,9 +1,9 @@
 ---
 title: ICustomData
-second_title: Aspose.Sildes dla .NET – odniesienie API
+second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Reprezentuje kontener dla danych niestandardowych.
 type: docs
-weight: 5660
+weight: 5680
 url: /pl/aspose.slides/icustomdata/
 ---
 ## ICustomData interfejs

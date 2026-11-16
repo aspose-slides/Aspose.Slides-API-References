@@ -1,14 +1,14 @@
 ---
 title: IGradientFormat
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: ग्रेडिएंट फ़ॉर्मेट का प्रतिनिधित्व करता है।
+description: एक ग्रेडिएंट फ़ॉर्मेट का प्रतिनिधित्व करता है।
 type: docs
-weight: 6000
+weight: 6020
 url: /hi/aspose.slides/igradientformat/
 ---
 ## IGradientFormat इंटरफ़ेस
 
-ग्रेडिएंट फ़ॉर्मेट का प्रतिनिधित्व करता है।
+एक ग्रेडिएंट फ़ॉर्मेट का प्रतिनिधित्व करता है।
 
 ```csharp
 public interface IGradientFormat : IFillParamSource
@@ -18,15 +18,15 @@ public interface IGradientFormat : IFillParamSource
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/igradientformat/asifillparamsource) { get; } | बेस IFillParamSource इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IFillParamSource`](../ifillparamsource). |
-| [GradientDirection](../../aspose.slides/igradientformat/gradientdirection) { get; set; } | ग्रेडिएंट की शैली को प्राप्त करता है या सेट करता है। पढ़ना/लिखना [`GradientDirection`](../gradientdirection). |
-| [GradientShape](../../aspose.slides/igradientformat/gradientshape) { get; set; } | ग्रेडिएंट का आकार प्राप्त करता है या सेट करता है। पढ़ना/लिखना [`GradientShape`](../gradientshape). |
-| [GradientStops](../../aspose.slides/igradientformat/gradientstops) { get; } | ग्रेडिएंट स्टॉप्स का संग्रह प्राप्त करता है। केवल-पढ़ने योग्य [`IGradientStopCollection`](../igradientstopcollection). |
-| [LinearGradientAngle](../../aspose.slides/igradientformat/lineargradientangle) { get; set; } | ग्रेडिएंट का कोण प्राप्त करता है या सेट करता है। पढ़ना/लिखना Single. |
-| [LinearGradientScaled](../../aspose.slides/igradientformat/lineargradientscaled) { get; set; } | निर्धारित करता है कि ग्रेडिएंट स्केल किया गया है या नहीं। पढ़ना/लिखना [`NullableBool`](../nullablebool). |
-| [TileFlip](../../aspose.slides/igradientformat/tileflip) { get; set; } | ग्रेडिएंट के फ़्लिपिंग मोड को प्राप्त करता है या सेट करता है। पढ़ना/लिखना [`TileFlip`](../tileflip). |
+| [AsIFillParamSource](../../aspose.slides/igradientformat/asifillparamsource) { get; } | बेस IFillParamSource इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IFillParamSource`](../ifillparamsource)। |
+| [GradientDirection](../../aspose.slides/igradientformat/gradientdirection) { get; set; } | ग्रेडिएंट की शैली को लौटाता है या सेट करता है। पढ़ने/लिखने योग्य [`GradientDirection`](../gradientdirection)। |
+| [GradientShape](../../aspose.slides/igradientformat/gradientshape) { get; set; } | ग्रेडिएंट के आकार को लौटाता है या सेट करता है। पढ़ने/लिखने योग्य [`GradientShape`](../gradientshape)। |
+| [GradientStops](../../aspose.slides/igradientformat/gradientstops) { get; } | ग्रेडिएंट स्टॉप्स का संग्रह लौटाता है। केवल-पढ़ने योग्य [`IGradientStopCollection`](../igradientstopcollection)। |
+| [LinearGradientAngle](../../aspose.slides/igradientformat/lineargradientangle) { get; set; } | ग्रेडिएंट का कोण लौटाता है या सेट करता है। पढ़ने/लिखने योग्य Single। |
+| [LinearGradientScaled](../../aspose.slides/igradientformat/lineargradientscaled) { get; set; } | निर्धारित करता है कि ग्रेडिएंट स्केल किया गया है या नहीं। पढ़ने/लिखने योग्य [`NullableBool`](../nullablebool)। |
+| [TileFlip](../../aspose.slides/igradientformat/tileflip) { get; set; } | ग्रेडिएंट के फ़्लिपिंग मोड को लौटाता है या सेट करता है। पढ़ने/लिखने योग्य [`TileFlip`](../tileflip)। |
 
-### देखें भी
+### संबंधित देखें
 
 * इंटरफ़ेस [IFillParamSource](../ifillparamsource)
 * नेमस्पेस [Aspose.Slides](../../aspose.slides)

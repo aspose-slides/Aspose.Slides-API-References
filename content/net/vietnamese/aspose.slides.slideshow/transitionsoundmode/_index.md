@@ -1,12 +1,12 @@
 ---
 title: TransitionSoundMode
-second_title: Tham chiếu API Aspose.Sildes cho .NET
+second_title: Tham khảo API Aspose.Sildes cho .NET
 description: Biểu diễn chế độ âm thanh của chuyển tiếp.
 type: docs
-weight: 10430
+weight: 10450
 url: /vi/aspose.slides.slideshow/transitionsoundmode/
 ---
-## Kiểu liệt kê TransitionSoundMode
+## liệt kê TransitionSoundMode
 
 Biểu diễn chế độ âm thanh của chuyển tiếp.
 

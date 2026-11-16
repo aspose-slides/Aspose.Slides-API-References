@@ -1,14 +1,14 @@
 ---
 title: DataLabelCollection
-second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Représente les libellés d'une série.
+second_title: Aspose.Sildes pour .NET Référence d'API
+description: Représente les étiquettes de série.
 type: docs
-weight: 1560
+weight: 1570
 url: /fr/aspose.slides.charts/datalabelcollection/
 ---
-## DataLabelCollection classe
+## classe DataLabelCollection
 
-Représente les étiquettes d'une série.
+Represents a series labels.
 
 ```csharp
 public class DataLabelCollection : DomObject<ChartSeries>, IDataLabelCollection
@@ -18,22 +18,23 @@ public class DataLabelCollection : DomObject<ChartSeries>, IDataLabelCollection
 
 | Nom | Description |
 | --- | --- |
-| [Chart](../../aspose.slides.charts/datalabelcollection/chart) { get; } | Renvoie le diagramme parent. Lecture seule [`IChart`](../ichart). |
+| [Chart](../../aspose.slides.charts/datalabelcollection/chart) { get; } | Retourne le graphique parent. Lecture seule [`IChart`](../ichart). |
 | [Count](../../aspose.slides.charts/datalabelcollection/count) { get; } | Obtient le nombre de toutes les étiquettes de données dans la collection. Lecture seule Int32. |
 | [CountOfVisibleDataLabels](../../aspose.slides.charts/datalabelcollection/countofvisibledatalabels) { get; } | Obtient le nombre d'étiquettes de données visibles dans la collection. Lecture seule Int32. |
 | [DefaultDataLabelFormat](../../aspose.slides.charts/datalabelcollection/defaultdatalabelformat) { get; } | Obtient le format d'étiquette de données par défaut. Lecture seule [`IDataLabelFormat`](../idatalabelformat). |
-| [IsVisible](../../aspose.slides.charts/datalabelcollection/isvisible) { get; } | False signifie que l'étiquette de données n'est pas visible par défaut (et que tous les indicateurs Show*-flags (ShowValue, ...) de la propriété DefaultDataLabelFormat sont à false). Lecture seule Boolean. |
+| [DefaultLabelShapeType](../../aspose.slides.charts/datalabelcollection/defaultlabelshapetype) { get; set; } | Obtient ou définit le type de forme par défaut pour les étiquettes de données. Retourne NotDefined si aucune forme n'est définie. |
+| [IsVisible](../../aspose.slides.charts/datalabelcollection/isvisible) { get; } | False signifie que l'étiquette de données n'est pas visible par défaut (et donc tous les drapeaux Show*-flags (ShowValue, ...) de la propriété DefaultDataLabelFormat sont faux). Lecture seule Boolean. |
 | [Item](../../aspose.slides.charts/datalabelcollection/item) { get; } | Obtient l'étiquette de données pour le point de données avec l'index spécifié. |
-| [LeaderLinesFormat](../../aspose.slides.charts/datalabelcollection/leaderlinesformat) { get; } | Représente le format des lignes directrices des étiquettes de données. Lecture seule [`IChartLinesFormat`](../ichartlinesformat). |
-| [ParentSeries](../../aspose.slides.charts/datalabelcollection/parentseries) { get; } | Obtient la série parent. Lecture seule [`IChartSeries`](../ichartseries). |
+| [LeaderLinesFormat](../../aspose.slides.charts/datalabelcollection/leaderlinesformat) { get; } | Représente le format des lignes de repère des étiquettes de données. Lecture seule [`IChartLinesFormat`](../ichartlinesformat). |
+| [ParentSeries](../../aspose.slides.charts/datalabelcollection/parentseries) { get; } | Obtient la série parente. Lecture seule [`IChartSeries`](../ichartseries). |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
-| [GetEnumerator](../../aspose.slides.charts/datalabelcollection/getenumerator)() | Renvoie un énumérateur qui parcourt la collection. |
-| [Hide](../../aspose.slides.charts/datalabelcollection/hide)() | Masque l'étiquette de données par défaut en définissant tous les indicateurs Show*-flags (ShowValue, ...) de la propriété DefaultDataLabelFormat à l'état false. IsVisible sera false après cela. |
-| [IndexOf](../../aspose.slides.charts/datalabelcollection/indexof)(IDataLabel) | Renvoie l'index du DataLabel spécifié dans la collection. |
+| [GetEnumerator](../../aspose.slides.charts/datalabelcollection/getenumerator)() | Retourne un énumérateur qui parcourt la collection. |
+| [Hide](../../aspose.slides.charts/datalabelcollection/hide)() | Rend l'étiquette de données cachée par défaut en définissant tous les drapeaux Show*-flags (ShowValue, ...) de la propriété DefaultDataLabelFormat sur false. IsVisible sera false après cela. |
+| [IndexOf](../../aspose.slides.charts/datalabelcollection/indexof)(IDataLabel) | Retourne un index du DataLabel spécifié dans la collection. |
 
 ### Voir aussi
 

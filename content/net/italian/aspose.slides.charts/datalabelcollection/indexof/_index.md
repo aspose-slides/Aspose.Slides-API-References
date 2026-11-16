@@ -1,14 +1,14 @@
 ---
 title: IndexOf
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Restituisce un indice del DataLabel specificato nella raccolta.
+description: Restituisce un indice del DataLabel specificato nella collezione.
 type: docs
-weight: 110
+weight: 120
 url: /it/aspose.slides.charts/datalabelcollection/indexof/
 ---
 ## DataLabelCollection.IndexOf metodo
 
-Restituisce l'indice del DataLabel specificato nella raccolta.
+Restituisce un indice del DataLabel specificato nella collezione.
 
 ```csharp
 public int IndexOf(IDataLabel value)
@@ -18,9 +18,9 @@ public int IndexOf(IDataLabel value)
 | --- | --- | --- |
 | value | IDataLabel | DataLabel da trovare. |
 
-### Valore restituito
+### Valore di ritorno
 
-Indice di un DataLabel o -1 se il DataLabel non proviene da questa raccolta.
+Indice di un DataLabel o -1 se il DataLabel non proviene da questa collezione.
 
 ### Vedi anche
 

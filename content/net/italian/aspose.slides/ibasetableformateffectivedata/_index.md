@@ -1,14 +1,14 @@
 ---
 title: IBaseTableFormatEffectiveData
 second_title: Aspose.Sildes per .NET Riferimento API
-description: Interfaccia base per oggetti immutabili che contengono le proprietà di formattazione della tabella effettive.
+description: Interfaccia di base per oggetti immutabili che contengono le proprietà di formattazione della tabella efficace.
 type: docs
-weight: 5360
+weight: 5380
 url: /it/aspose.slides/ibasetableformateffectivedata/
 ---
 ## IBaseTableFormatEffectiveData interfaccia
 
-Interfaccia base per oggetti immutabili che contengono le proprietà di formattazione della tabella effettive.
+Interfaccia di base per oggetti immutabili che contengono le proprietà di formattazione della tabella efficace.
 
 ```csharp
 public interface IBaseTableFormatEffectiveData

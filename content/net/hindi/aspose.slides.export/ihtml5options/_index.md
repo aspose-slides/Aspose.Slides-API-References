@@ -1,31 +1,31 @@
 ---
 title: IHtml5Options
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: HTML5 निर्यात विकल्पों का प्रतिनिधित्व करता है।
+description: HTML5 निर्यात विकल्प का प्रतिनिधित्व करता है।
 type: docs
-weight: 3930
+weight: 3950
 url: /hi/aspose.slides.export/ihtml5options/
 ---
 ## IHtml5Options इंटरफ़ेस
 
-HTML5 निर्यात विकल्पों का प्रतिनिधित्व करता है।
+एक HTML5 निर्यात विकल्प का प्रतिनिधित्व करता है।
 
 ```csharp
 public interface IHtml5Options : ISaveOptions
 ```
 
-## गुण
+## प्रॉपर्टीज़
 
-| नाम | विवरण |
+| Name | Description |
 | --- | --- |
-| [AnimateShapes](../../aspose.slides.export/ihtml5options/animateshapes) { get; set; } | shapes एनीमेशन विकल्प को लौटाता है या सेट करता है। पढ़ें/लिखें Boolean. |
-| [AnimateTransitions](../../aspose.slides.export/ihtml5options/animatetransitions) { get; set; } | transitions एनीमेशन विकल्प को लौटाता है या सेट करता है। पढ़ें/लिखें Boolean. |
-| [AsISaveOptions](../../aspose.slides.export/ihtml5options/asisaveoptions) { get; } | ISaveOptions इंटरफ़ेस को लौटाता है। केवल-पढ़ने योग्य [`ISaveOptions`](../isaveoptions). |
-| [DisableFontLigatures](../../aspose.slides.export/ihtml5options/disablefontligatures) { get; set; } | टेक्स्ट को लिगेचर का उपयोग किए बिना रेंडर किया जाता है या नहीं, यह दर्शाने वाला मान प्राप्त करता है या सेट करता है। जब इसे `true` पर सेट किया जाता है, तो रेंडर किए गए आउटपुट में लिगेचर निष्क्रिय हो जाएंगे। डिफ़ॉल्ट रूप से, यह प्रॉपर्टी `false` पर सेट होती है। |
-| [EmbedImages](../../aspose.slides.export/ihtml5options/embedimages) { get; set; } | images एम्बेडिंग विकल्प को लौटाता है या सेट करता है। पढ़ें/लिखें Boolean. |
-| [OutputPath](../../aspose.slides.export/ihtml5options/outputpath) { get; set; } | निर्धारित करता है कि बाहरी संसाधन कहाँ संग्रहीत किए जाने चाहिए। पढ़ें/लिखें String. |
-| [PicturesCompression](../../aspose.slides.export/ihtml5options/picturescompression) { get; set; } | pictures संपीड़न स्तर को दर्शाता है। पढ़ें/लिखें [`PicturesCompression`](./picturescompression). |
-| [SlidesLayoutOptions](../../aspose.slides.export/ihtml5options/slideslayoutoptions) { get; set; } | एक प्रस्तुति निर्यात करते समय स्लाइड्स को पृष्ठ पर रखने के मोड को प्राप्त करता है या सेट करता है [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [AnimateShapes](../../aspose.slides.export/ihtml5options/animateshapes) { get; set; } | शेप्स एनीमेशन विकल्प को प्राप्त करता है या सेट करता है। पढ़ने/लिखने योग्य Boolean। |
+| [AnimateTransitions](../../aspose.slides.export/ihtml5options/animatetransitions) { get; set; } | ट्रांज़िशन एनीमेशन विकल्प को प्राप्त करता है या सेट करता है। पढ़ने/लिखने योग्य Boolean। |
+| [AsISaveOptions](../../aspose.slides.export/ihtml5options/asisaveoptions) { get; } | ISaveOptions इंटरफ़ेस को लौटाता है। केवल-पढ़ने योग्य [`ISaveOptions`](../isaveoptions)। |
+| [DisableFontLigatures](../../aspose.slides.export/ihtml5options/disablefontligatures) { get; set; } | टेक्स्ट को लिगेचर का उपयोग किए बिना रेंडर किया जाए यह दर्शाने वाला मान प्राप्त करता है या सेट करता है। जब इसे `true` पर सेट किया जाता है, तो रेंडर आउटपुट में लिगेचर अक्षम हो जाएँगे। डिफ़ॉल्ट रूप से, इस प्रॉपर्टी का मान `false` पर सेट किया गया है। |
+| [EmbedImages](../../aspose.slides.export/ihtml5options/embedimages) { get; set; } | इमेजेज एंबेडिंग विकल्प को प्राप्त करता है या सेट करता है। पढ़ने/लिखने योग्य Boolean। |
+| [OutputPath](../../aspose.slides.export/ihtml5options/outputpath) { get; set; } | निर्धारित करता है कि बाहरी संसाधन कहाँ संग्रहीत किए जाने चाहिए। पढ़ने/लिखने योग्य String। |
+| [PicturesCompression](../../aspose.slides.export/ihtml5options/picturescompression) { get; set; } | चित्रों के संपीड़न स्तर को दर्शाता है। पढ़ने/लिखने योग्य [`PicturesCompression`](./picturescompression)। |
+| [SlidesLayoutOptions](../../aspose.slides.export/ihtml5options/slideslayoutoptions) { get; set; } | प्रस्तुति [`ISlidesLayoutOptions`](../islideslayoutoptions) निर्यात करते समय स्लाइड्स को पेज पर रखने के मोड को प्राप्त करता है या सेट करता है। |
 
 ### उदाहरण
 
@@ -43,7 +43,7 @@ using (Presentation pres = new Presentation("demo.pptx"))
 }
 ```
 
-### देखें
+### संबंधित देखें
 
 * इंटरफ़ेस [ISaveOptions](../isaveoptions)
 * नामस्थान [Aspose.Slides.Export](../../aspose.slides.export)

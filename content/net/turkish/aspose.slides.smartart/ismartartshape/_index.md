@@ -1,12 +1,12 @@
 ---
 title: ISmartArtShape
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes for .NET API Referansı
 description: SmartArt diyagramı içinde bir şekli temsil eder
 type: docs
-weight: 10570
+weight: 10590
 url: /tr/aspose.slides.smartart/ismartartshape/
 ---
-## ISmartArtShape arabirim
+## ISmartArtShape arayüz
 
 SmartArt diyagramı içinde bir şekli temsil eder
 
@@ -16,14 +16,14 @@ public interface ISmartArtShape : IGeometryShape
 
 ## Özellikler
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
 | [AsIGeometryShape](../../aspose.slides.smartart/ismartartshape/asigeometryshape) { get; } | Temel IGeometryShape arayüzünü almayı sağlar. Salt okunur [`IGeometryShape`](../../aspose.slides/igeometryshape). |
 | [TextFrame](../../aspose.slides.smartart/ismartartshape/textframe) { get; } | SmartArt şeklinin metnini döndürür. Salt okunur [`ITextFrame`](../../aspose.slides/itextframe). |
 
 ### Ayrıca Bakınız
 
-* arabirim [IGeometryShape](../../aspose.slides/igeometryshape)
+* arayüz [IGeometryShape](../../aspose.slides/igeometryshape)
 * ad alanı [Aspose.Slides.SmartArt](../../aspose.slides.smartart)
 * derleme [Aspose.Slides](../../)
 

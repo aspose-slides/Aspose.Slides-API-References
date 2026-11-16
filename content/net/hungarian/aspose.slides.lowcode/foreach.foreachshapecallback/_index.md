@@ -1,12 +1,12 @@
 ---
 title: ForEach.ForEachShapeCallback
-second_title: Aspose.Sildes .NET API referencia
-description: Visszahívás, amely minden egyes Shape./foreach/shape esetén a Presentation../aspose.slides/presentation-ben lesz meghívva.
+second_title: Aspose.Sildes .NET API hivatkozása
+description: Visszahívás, amely a Presentation ../aspose.slides/presentation -ban minden egyes Shape./foreach/shape esetén aktiválódik.
 type: docs
-weight: 7950
+weight: 7970
 url: /hu/aspose.slides.lowcode/foreach.foreachshapecallback/
 ---
-## ForEach.ForEachShapeCallback delegate
+## ForEach.ForEachShapeCallback delegáta
 
 Visszahívás, amely minden egyes [`Shape`](../foreach/shape) esetén a [`Presentation`](../../aspose.slides/presentation)-ban meghívásra kerül.
 

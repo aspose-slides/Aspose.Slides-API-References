@@ -1,14 +1,14 @@
 ---
 title: IMathGroupingCharacter
 second_title: Aspose.Sildes för .NET API-referens
-description: Specificerar en grupperingstext ovanför eller nedanför ett uttryck, vanligtvis för att framhäva förhållandet mellan element
+description: Anger en gruppsymbol ovanför eller under ett uttryck, vanligtvis för att tydliggöra förhållandet mellan element
 type: docs
-weight: 8290
+weight: 8310
 url: /sv/aspose.slides.mathtext/imathgroupingcharacter/
 ---
-## IMathGroupingCharacter gränssnitt
+## IMathGroupingCharacter interface
 
-Specificerar en grupperingstext ovanför eller nedanför ett uttryck, vanligtvis för att framhäva förhållandet mellan element
+Anger en gruppsymbol ovanför eller under ett uttryck, vanligtvis för att tydliggöra förhållandet mellan element
 
 ```csharp
 public interface IMathGroupingCharacter : IMathElement
@@ -18,11 +18,11 @@ public interface IMathGroupingCharacter : IMathElement
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathgroupingcharacter/asimathelement) { get; } | Tillåter att hämta bas IMathElement-gränssnitt [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathgroupingcharacter/asimathelement) { get; } | Tillåter att hämta bas-IMathElement-gränssnittet [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathgroupingcharacter/base) { get; } | Basargument |
-| [Character](../../aspose.slides.mathtext/imathgroupingcharacter/character) { get; set; } | Standardvärde för grupperingstecken: U+23DF (BOTTOM CURLY BRACKET) |
-| [Position](../../aspose.slides.mathtext/imathgroupingcharacter/position) { get; set; } | Position för grupperingstecken. Standard: Bottom |
-| [VerticalJustification](../../aspose.slides.mathtext/imathgroupingcharacter/verticaljustification) { get; set; } | Vertikal justering av grupperingstecken. Anger objektets justering i förhållande till baslinjen. Till exempel, när grupperingstecknet är ovanför objektet, betyder VerticalJustification av Top att objektets topp ligger på baslinjen; när VerticalJustification är satt till Bottom ligger objektets botten på baslinjen Standard: Bottom för Position=Top och Top för Position=Bottom |
+| [Character](../../aspose.slides.mathtext/imathgroupingcharacter/character) { get; set; } | Standardvärde för grupperingssymbol: U+23DF (BOTTOM CURLY BRACKET) |
+| [Position](../../aspose.slides.mathtext/imathgroupingcharacter/position) { get; set; } | Position för gruppsymbol. Standard: Bottom |
+| [VerticalJustification](../../aspose.slides.mathtext/imathgroupingcharacter/verticaljustification) { get; set; } | Vertikal justering av gruppsymbol. Anger objektets inriktning i förhållande till baslinjen. Till exempel, när gruppsymbolen är ovanför objektet, betyder VerticalJustification av Top att objektets topp ligger på baslinjen; när VerticalJustification är satt till Bottom ligger objektets botten på baslinjen Standard: Bottom för Position=Top, och Top för Position=Bottom |
 
 ### Exempel
 
@@ -33,7 +33,7 @@ Exempel:
 IMathGroupingCharacter groupingElement = new MathematicalText("x;y;z").Group();
 ```
 
-### Se även
+### Se också
 
 * gränssnitt [IMathElement](../imathelement)
 * namnrymd [Aspose.Slides.MathText](../../aspose.slides.mathtext)

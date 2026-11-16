@@ -1,14 +1,14 @@
 ---
 title: GroupingLevels
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: คอนเทนเนอร์ที่จัดการค่าต่าง ๆ ของระดับการจัดกลุ่มของหมวดหมู่แผนภูมิ. หมวดหมู่หลายระดับมีมากกว่าหนึ่งระดับการจัดกลุ่ม. การทำดัชนีของระดับการจัดกลุ่มเริ่มจากศูนย์. อ่านอย่างเดียว IChartCategoryLevelsManageraspose.slides.charts/ichartcategorylevelsmanager.
+second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+description: คอนเทนเนอร์ที่จัดการค่าของระดับการจัดกลุ่มหมวดหมู่แผนภูมิ. หมวดหมู่หลายระดับมีระดับการจัดกลุ่มมากกว่าหนึ่งระดับ. การทำดัชนีของระดับการจัดกลุ่มใช้เลขฐานศูนย์. อ่านอย่างเดียว IChartCategoryLevelsManageraspose.slides.charts/ichartcategorylevelsmanager.
 type: docs
-weight: 30
+weight: 40
 url: /th/aspose.slides.charts/ichartcategory/groupinglevels/
 ---
 ## IChartCategory.GroupingLevels คุณสมบัติ
 
-คอนเทนเนอร์ที่จัดการค่าต่าง ๆ ของระดับการจัดกลุ่มของหมวดหมู่แผนภูมิ. หมวดหมู่หลายระดับมีมากกว่าหนึ่งระดับการจัดกลุ่ม. การทำดัชนีของระดับการจัดกลุ่มเริ่มจากศูนย์. อ่านอย่างเดียว [`IChartCategoryLevelsManager`](../../ichartcategorylevelsmanager).
+คอนเทนเนอร์ที่จัดการค่าของระดับการจัดกลุ่มหมวดหมู่แผนภูมิ. หมวดหมู่หลายระดับมีระดับการจัดกลุ่มมากกว่าหนึ่งระดับ. การจัดทำดัชนีของระดับการจัดกลุ่มใช้เลขฐานศูนย์. อ่านอย่างเดียว [`IChartCategoryLevelsManager`](../../ichartcategorylevelsmanager).
 
 ```csharp
 public IChartCategoryLevelsManager GroupingLevels { get; }

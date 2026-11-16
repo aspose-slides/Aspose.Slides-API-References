@@ -1,9 +1,9 @@
 ---
 title: ChartDataCell
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Referencia de la API de Aspose.Sildes para .NET
 description: Representa una celda para datos de gráfico.
 type: docs
-weight: 1320
+weight: 1330
 url: /es/aspose.slides.charts/chartdatacell/
 ---
 ## ChartDataCell clase
@@ -23,7 +23,7 @@ public class ChartDataCell : IChartDataCell
 | [CustomNumberFormat](../../aspose.slides.charts/chartdatacell/customnumberformat) { get; set; } | Obtiene o establece el formato de visualización personalizado de números y fechas. Si el valor está vacío se usará el valor PresetNumberFormat. Lectura/escritura String. |
 | [Formula](../../aspose.slides.charts/chartdatacell/formula) { get; set; } | Obtiene o establece la fórmula en estilo A1. |
 | [IsHidden](../../aspose.slides.charts/chartdatacell/ishidden) { get; } | Determina si la celda está oculta. Solo lectura Boolean. |
-| [PresetNumberFormat](../../aspose.slides.charts/chartdatacell/presetnumberformat) { get; set; } | Obtiene o establece el formato de visualización incorporado de números y fechas. El número preestablecido debe estar en [0..22] o [37..49]. Lectura/escritura Byte. |
+| [PresetNumberFormat](../../aspose.slides.charts/chartdatacell/presetnumberformat) { get; set; } | Obtiene o establece el formato de visualización incorporado de números y fechas. El número predefinido debe estar en [0..22] o [37..49]. Lectura/escritura Byte. |
 | [R1C1Formula](../../aspose.slides.charts/chartdatacell/r1c1formula) { get; set; } | Obtiene o establece la fórmula en estilo R1C1. |
 | [Row](../../aspose.slides.charts/chartdatacell/row) { get; } | Devuelve el índice de la fila de la hoja de cálculo en la que se encuentra la celda. Solo lectura Int32. |
 | [Value](../../aspose.slides.charts/chartdatacell/value) { get; set; } | Obtiene o establece el valor de una celda. Lectura/escritura Object. |
@@ -32,7 +32,7 @@ public class ChartDataCell : IChartDataCell
 
 | Nombre | Descripción |
 | --- | --- |
-| [Calculate](../../aspose.slides.charts/chartdatacell/calculate)(bool) | Si la celda contiene una fórmula, el valor se actualizará en base a esa fórmula. |
+| [Calculate](../../aspose.slides.charts/chartdatacell/calculate)(bool) | Si la celda contiene una fórmula, el valor se actualizará basándose en esa fórmula. |
 
 ### Ver también
 

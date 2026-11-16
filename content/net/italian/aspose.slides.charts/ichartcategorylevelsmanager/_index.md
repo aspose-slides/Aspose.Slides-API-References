@@ -3,7 +3,7 @@ title: IChartCategoryLevelsManager
 second_title: Aspose.Sildes per .NET Riferimento API
 description: Contenitore gestito dei valori dei livelli di categoria del grafico.
 type: docs
-weight: 1770
+weight: 1790
 url: /it/aspose.slides.charts/ichartcategorylevelsmanager/
 ---
 ## IChartCategoryLevelsManager interfaccia
@@ -18,7 +18,7 @@ public interface IChartCategoryLevelsManager
 
 | Nome | Descrizione |
 | --- | --- |
-| [Item](../../aspose.slides.charts/ichartcategorylevelsmanager/item) { get; } | Restituisce oggetto IChartDataCell per il livello definito. |
+| [Item](../../aspose.slides.charts/ichartcategorylevelsmanager/item) { get; } | Restituisce l'oggetto IChartDataCell per il livello definito. |
 
 ## Metodi
 

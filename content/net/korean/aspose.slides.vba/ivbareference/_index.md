@@ -1,9 +1,9 @@
 ---
 title: IVbaReference
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: VBA 프로젝트 참조의 이름을 나타냅니다.
 type: docs
-weight: 11570
+weight: 11590
 url: /ko/aspose.slides.vba/ivbareference/
 ---
 ## IVbaReference 인터페이스
@@ -18,9 +18,9 @@ public interface IVbaReference
 
 | 이름 | 설명 |
 | --- | --- |
-| [Name](../../aspose.slides.vba/ivbareference/name) { get; set; } | VBA 프로젝트 참조의 이름을 나타냅니다. 읽기/쓰기 String. |
+| [Name](../../aspose.slides.vba/ivbareference/name) { get; set; } | VBA 프로젝트 참조의 이름을 나타냅니다. 읽기/쓰기 문자열. |
 
-### 참조
+### 참고
 
 * 네임스페이스 [Aspose.Slides.Vba](../../aspose.slides.vba)
 * 어셈블리 [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: NotesCommentsLayoutingOptions
-second_title: Справочник API Aspose.Sildes для .NET
-description: Предоставляет параметры, позволяющие управлять внешним видом компоновки заметок и комментариев в экспортируемом документе.
+second_title: Справка API Aspose.Sildes для .NET
+description: Предоставляет параметры, управляющие внешним видом размещения заметок и комментариев в экспортированном документе.
 type: docs
-weight: 4290
+weight: 4310
 url: /ru/aspose.slides.export/notescommentslayoutingoptions/
 ---
 ## NotesCommentsLayoutingOptions класс
 
-Предоставляет параметры, которые управляют внешним видом компоновки заметок и комментариев в экспортируемом документе.
+Предоставляет параметры, управляющие внешним видом размещения заметок и комментариев в экспортированном документе.
 
 ```csharp
 public class NotesCommentsLayoutingOptions : ISlidesLayoutOptions
@@ -24,13 +24,13 @@ public class NotesCommentsLayoutingOptions : ISlidesLayoutOptions
 
 | Имя | Описание |
 | --- | --- |
-| [CommentsAreaColor](../../aspose.slides.export/notescommentslayoutingoptions/commentsareacolor) { get; set; } | Получает или задает цвет области комментариев (применяется только если комментарии отображаются справа). |
-| [CommentsAreaWidth](../../aspose.slides.export/notescommentslayoutingoptions/commentsareawidth) { get; set; } | Получает или задает ширину области вывода комментариев в пикселях (применяется только если комментарии отображаются справа). |
-| [CommentsPosition](../../aspose.slides.export/notescommentslayoutingoptions/commentsposition) { get; set; } | Получает или задает положение комментариев на странице. |
-| [NotesPosition](../../aspose.slides.export/notescommentslayoutingoptions/notesposition) { get; set; } | Получает или задает положение заметок на странице. |
+| [CommentsAreaColor](../../aspose.slides.export/notescommentslayoutingoptions/commentsareacolor) { get; set; } | Получает или задает цвет области комментариев (Применяется только если комментарии отображаются справа). |
+| [CommentsAreaWidth](../../aspose.slides.export/notescommentslayoutingoptions/commentsareawidth) { get; set; } | Получает или задает ширину области вывода комментариев в пикселях (Применяется только если комментарии отображаются справа). |
+| [CommentsPosition](../../aspose.slides.export/notescommentslayoutingoptions/commentsposition) { get; set; } | Получает или задает позицию комментариев на странице. |
+| [NotesPosition](../../aspose.slides.export/notescommentslayoutingoptions/notesposition) { get; set; } | Получает или задает позицию заметок на странице. |
 | [ShowCommentsByNoAuthor](../../aspose.slides.export/notescommentslayoutingoptions/showcommentsbynoauthor) { get; set; } | Получает или задает видимость комментариев без автора. Если true, комментарии будут отображаться. (Применяется только если комментарии отображаются). |
 
-### См. также
+### Смотрите также
 
 * интерфейс [ISlidesLayoutOptions](../islideslayoutoptions)
 * пространство имён [Aspose.Slides.Export](../../aspose.slides.export)

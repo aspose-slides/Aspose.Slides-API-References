@@ -1,14 +1,14 @@
 ---
 title: IControl
 second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje ActiveX ovládací prvek.
+description: Představuje ActiveX ovládací prvek.
 type: docs
-weight: 5630
+weight: 5650
 url: /cs/aspose.slides/icontrol/
 ---
 ## IControl rozhraní
 
-Reprezentuje ActiveX ovládací prvek.
+Představuje ActiveX ovládací prvek.
 
 ```csharp
 public interface IControl : ISlideComponent
@@ -18,13 +18,13 @@ public interface IControl : ISlideComponent
 
 | Název | Popis |
 | --- | --- |
-| [ActiveXControlBinary](../../aspose.slides/icontrol/activexcontrolbinary) { get; } | Určuje trvalost ActiveX ovládacího prvku, když metoda použitá k uchování je buď PersistStream, PersistStreamInit nebo PersistStorage. |
+| [ActiveXControlBinary](../../aspose.slides/icontrol/activexcontrolbinary) { get; } | Určuje uchování ActiveX ovládacího prvku, když je metodou pro uchování buď PersistStream, PersistStreamInit nebo PersistStorage. |
 | [AsISlideComponent](../../aspose.slides/icontrol/asislidecomponent) { get; } | Umožňuje získat základní rozhraní ISlideComponent. Pouze pro čtení [`ISlideComponent`](../islidecomponent). |
 | [ClassId](../../aspose.slides/icontrol/classid) { get; } | Získá ID třídy tohoto ovládacího prvku. Pouze pro čtení Guid. |
 | [Frame](../../aspose.slides/icontrol/frame) { get; set; } | Vrací nebo nastavuje rámec ovládacího prvku. Čtení/zápis [`IShapeFrame`](../ishapeframe). |
 | [Name](../../aspose.slides/icontrol/name) { get; set; } | Vrací název tohoto ovládacího prvku. Čtení/zápis String. |
-| [Persistence](../../aspose.slides/icontrol/persistence) { get; } | Získá metodu používanou k uložení vlastností ActiveX ovládacího prvku. Pouze pro čtení [`PersistenceType`](../persistencetype). |
-| [Properties](../../aspose.slides/icontrol/properties) { get; } | Vrací kolekci vlastností ActiveX. Pouze pro čtení [`IControlPropertiesCollection`](../icontrolpropertiescollection). |
+| [Persistence](../../aspose.slides/icontrol/persistence) { get; } | Získá metodu používanou k ukládání vlastností ActiveX ovládacího prvku. Pouze pro čtení [`PersistenceType`](../persistencetype). |
+| [Properties](../../aspose.slides/icontrol/properties) { get; } | Vrací kolekci ActiveX vlastností. Pouze pro čtení [`IControlPropertiesCollection`](../icontrolpropertiescollection). |
 | [SubstitutePictureFormat](../../aspose.slides/icontrol/substitutepictureformat) { get; } | Vrací objekt vlastností výplně obrázku ControlEx. Pouze pro čtení [`IPictureFillFormat`](../ipicturefillformat). |
 
 ### Viz také

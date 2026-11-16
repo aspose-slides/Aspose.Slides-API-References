@@ -1,14 +1,14 @@
 ---
 title: UseCell
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: true이면 AsCell 속성이 실제입니다. 즉, 워크시트가 카테고리를 저장하는 데 사용되며 이 경우 다중 레벨 카테고리를 지원합니다. false이면 AsLiteral 속성이 실제입니다. 즉, 워크시트가 카테고리를 저장하는 데 사용되지 않으며 이 경우 다중 레벨 카테고리를 지원하지 않습니다. 읽기 전용 Boolean.
+second_title: Aspose.Sildes .NET API 레퍼런스
+description: true이면 AsCell 속성이 실제 값입니다. 다시 말해 워크시트가 카테고리를 저장하는 데 사용되며 이 경우 다중 레벨 카테고리를 지원합니다. false이면 AsLiteral 속성이 실제 값입니다. 다시 말해 워크시트가 카테고리를 저장하는 데 사용되지 않으며 이 경우 다중 레벨 카테고리를 지원하지 않습니다. 읽기 전용 Boolean.
 type: docs
-weight: 40
+weight: 50
 url: /ko/aspose.slides.charts/ichartcategory/usecell/
 ---
 ## IChartCategory.UseCell 속성
 
-true이면 AsCell 속성이 실제입니다. 즉, 워크시트가 카테고리를 저장하는 데 사용됩니다(이 경우 다중 레벨 카테고리를 지원합니다). false이면 AsLiteral 속성이 실제입니다. 즉, 워크시트가 카테고리를 저장하는 데 사용되지 않으며(이 경우 다중 레벨 카테고리를 지원하지 않습니다). 읽기 전용 Boolean.
+true이면 AsCell 속성이 실제 값입니다. 다시 말해, 워크시트가 카테고리를 저장하는 데 사용됩니다(이 경우 다중 레벨 카테고리를 지원합니다). false이면 AsLiteral 속성이 실제 값입니다. 다시 말해, 워크시트가 카테고리를 저장하는 데 사용되지 않으며(이 경우 다중 레벨 카테고리를 지원하지 않습니다). 읽기 전용 Boolean.
 
 ```csharp
 public bool UseCell { get; }

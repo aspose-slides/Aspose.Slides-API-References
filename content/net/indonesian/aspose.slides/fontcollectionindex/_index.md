@@ -1,14 +1,14 @@
 ---
 title: FontCollectionIndex
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili indeks font dalam sebuah koleksi.
 type: docs
-weight: 4810
+weight: 4830
 url: /id/aspose.slides/fontcollectionindex/
 ---
 ## FontCollectionIndex enumerasi
 
-Mewakili indeks font dalam sebuah koleksi.
+Mewakili indeks font dalam koleksi.
 
 ```csharp
 public enum FontCollectionIndex : byte

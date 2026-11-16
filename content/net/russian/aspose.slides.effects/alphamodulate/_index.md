@@ -1,14 +1,14 @@
 ---
 title: AlphaModulate
-second_title: Aspose.Sildes для .NET Справочник API
-description: Представляет эффект Alpha Modulate. Значения альфа-непрозрачности эффекта умножаются на фиксированный процент. Контейнер эффекта указывает эффект, содержащий значения альфа для модуляции.
+second_title: Aspose.Sildes для .NET справочник API
+description: Представляет эффект Alpha Modulate. Значения альфа-непрозрачности эффекта умножаются на фиксированный процент. Контейнер эффекта указывает эффект, содержащий альфа-значения для модуляции.
 type: docs
-weight: 2880
+weight: 2900
 url: /ru/aspose.slides.effects/alphamodulate/
 ---
 ## AlphaModulate класс
 
-Представляет эффект Alpha Modulate. Значения альфа (непрозрачности) эффекта умножаются на фиксированный процент. Контейнер эффекта указывает эффект, содержащий значения альфа для модуляции.
+Представляет эффект Alpha Modulate. Значения альфа (непрозрачности) эффекта умножаются на фиксированный процент. Контейнер эффекта указывает эффект, содержащий альфа-значения для модуляции.
 
 ```csharp
 public sealed class AlphaModulate : ImageTransformOperation, IAlphaModulate
@@ -25,8 +25,8 @@ public sealed class AlphaModulate : ImageTransformOperation, IAlphaModulate
 | Имя | Описание |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/alphamodulate/equals)(object) | Определяет, равен ли указанный [`AlphaModulate`](../alphamodulate) текущему [`AlphaModulate`](../alphamodulate). |
-| [GetEffective](../../aspose.slides.effects/alphamodulate/geteffective)() | Получает эффективные данные эффекта Alpha Modulate с применённым наследованием. |
-| override [GetHashCode](../../aspose.slides.effects/alphamodulate/gethashcode)() | Служит хеш-функцией для определённого типа. |
+| [GetEffective](../../aspose.slides.effects/alphamodulate/geteffective)() | Получает эффективные данные эффекта Alpha Modulate с учётом наследования. |
+| override [GetHashCode](../../aspose.slides.effects/alphamodulate/gethashcode)() | Служит хеш-функцией для конкретного типа. |
 
 ### См. также
 

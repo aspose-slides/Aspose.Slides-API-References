@@ -1,14 +1,14 @@
 ---
 title: IMasterNotesSlide
-second_title: Aspose.Sildes برای .NET مرجع API
-description: نمایشگر اسلاید مستر برای یادداشت‌ها.
+second_title: Aspose.Sildes برای مرجع API .NET
+description: نمایشدهنده اسلاید اصلی برای یادداشت‌ها.
 type: docs
-weight: 6390
+weight: 6410
 url: /fa/aspose.slides/imasternotesslide/
 ---
 ## IMasterNotesSlide رابط
 
-نمایشگر اسلاید مستر برای یادداشت‌ها.
+نمایشدهنده اسلاید اصلی برای یادداشت‌ها.
 
 ```csharp
 public interface IMasterNotesSlide : IBaseSlide, IMasterThemeable
@@ -18,13 +18,13 @@ public interface IMasterNotesSlide : IBaseSlide, IMasterThemeable
 
 | نام | توضیح |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/imasternotesslide/asibaseslide) { get; } | به شما اجازه می‌دهد رابط پایه IBaseSlide را دریافت کنید. فقط-خواندنی [`IBaseSlide`](../ibaseslide). |
-| [AsIMasterThemeable](../../aspose.slides/imasternotesslide/asimasterthemeable) { get; } | رابط IMasterThemeable را برمی‌گرداند. فقط-خواندنی [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
-| [DrawingGuides](../../aspose.slides/imasternotesslide/drawingguides) { get; } | مجموعه‌ای از راهنمای‌های رسم برای اسلاید مستر یادداشت‌ها را برمی‌گرداند. فقط-خواندنی [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [HeaderFooterManager](../../aspose.slides/imasternotesslide/headerfootermanager) { get; } | مدیر HeaderFooter اسلاید مستر یادداشت‌ها را برمی‌گرداند. فقط-خواندنی [`IMasterNotesSlideHeaderFooterManager`](../imasternotesslideheaderfootermanager). |
-| [NotesStyle](../../aspose.slides/imasternotesslide/notesstyle) { get; } | سبک متن یادداشت‌ها را برمی‌گرداند. فقط-خواندنی [`ITextStyle`](../itextstyle). |
+| [AsIBaseSlide](../../aspose.slides/imasternotesslide/asibaseslide) { get; } | اجازۀ دسترسی به رابط پایه IBaseSlide. فقط خواندنی [`IBaseSlide`](../ibaseslide). |
+| [AsIMasterThemeable](../../aspose.slides/imasternotesslide/asimasterthemeable) { get; } | رابط IMasterThemeable را برمی‌گرداند. فقط خواندنی [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
+| [DrawingGuides](../../aspose.slides/imasternotesslide/drawingguides) { get; } | مجموعه‌ای از راهنمایی‌های رسم برای اسلاید اصلی یادداشت‌ها را برمی‌گرداند. فقط خواندنی [`IDrawingGuidesCollection`](../idrawingguidescollection). |
+| [HeaderFooterManager](../../aspose.slides/imasternotesslide/headerfootermanager) { get; } | مدیریت HeaderFooter اسلاید اصلی یادداشت‌ها را برمی‌گرداند. فقط خواندنی [`IMasterNotesSlideHeaderFooterManager`](../imasternotesslideheaderfootermanager). |
+| [NotesStyle](../../aspose.slides/imasternotesslide/notesstyle) { get; } | سبک متن یادداشت‌ها را برمی‌گرداند. فقط خواندنی [`ITextStyle`](../itextstyle). |
 
-### هم‌چنین
+### همچنین ببینید
 
 * رابط [IBaseSlide](../ibaseslide)
 * رابط [IMasterThemeable](../../aspose.slides.theme/imasterthemeable)

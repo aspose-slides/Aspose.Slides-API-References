@@ -1,28 +1,28 @@
 ---
 title: GradientDirection
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงสไตล์ของการไล่ระดับสี.
+second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+description: แสดงถึงรูปแบบการไล่ระดับสี.
 type: docs
-weight: 4990
+weight: 5010
 url: /th/aspose.slides/gradientdirection/
 ---
-## GradientDirection enumeration
+## GradientDirection การระบุค่า
 
-แสดงถึงสไตล์ของการไล่ระดับสี.
+แสดงถึงรูปแบบการไล่ระดับสี
 
 ```csharp
 public enum GradientDirection
 ```
 
-### ค่า
+### ค่าต่าง ๆ
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
 | NotDefined | `-1` | ไม่ได้กำหนด |
-| FromCorner1 | `0` | จากมุมบนซ้าย |
-| FromCorner2 | `1` | จากมุมบนขวา |
-| FromCorner3 | `2` | จากมุมล่างซ้าย |
-| FromCorner4 | `3` | จากมุมล่างขวา |
+| FromCorner1 | `0` | จากมุมซ้ายบน |
+| FromCorner2 | `1` | จากมุมขวาบน |
+| FromCorner3 | `2` | จากมุมซ้ายล่าง |
+| FromCorner4 | `3` | จากมุมขวาล่าง |
 | FromCenter | `4` | จากศูนย์กลาง |
 
 ### ดูเพิ่มเติม

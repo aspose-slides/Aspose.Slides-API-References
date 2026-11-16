@@ -1,14 +1,14 @@
 ---
 title: Tab
 second_title: Aspose.Sildes .NET API referencia
-description: Egy szöveg tabulációját ábrázolja.
+description: Egy szöveg tabulációját képviseli.
 type: docs
-weight: 10820
+weight: 10840
 url: /hu/aspose.slides/tab/
 ---
 ## Tab osztály
 
-Egy szöveghez tartozó tabulációt ábrázol.
+A szöveg tabulációját képviseli.
 
 ```csharp
 public sealed class Tab : PVIObject, ITab
@@ -16,21 +16,21 @@ public sealed class Tab : PVIObject, ITab
 
 ## Konstruktorok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
-| [Tab](tab)(double, TabAlignment) | Új Tab objektumot hoz létre |
+| [Tab](tab)(double, TabAlignment) | Creates new Tab |
 
 ## Tulajdonságok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
-| [Alignment](../../aspose.slides/tab/alignment) { get; set; } | Visszaadja vagy beállítja egy tab igazítási stílusát. Olvasás/írás [`TabAlignment`](../tabalignment). |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Lehetővé teszi a base IPresentationComponent interfész lekérését. Csak olvasható [`IPresentationComponent`](../ipresentationcomponent). |
-| [Position](../../aspose.slides/tab/position) { get; set; } | Visszaadja vagy beállítja egy tab pozícióját. Ennek a tulajdonságnak a beállítása megváltoztathatja a tab indexét a gyűjteményben, és érvénytelenítheti az enumerátort. Olvasás/írás Double. |
+| [Alignment](../../aspose.slides/tab/alignment) { get; set; } | Visszaadja vagy beállítja a tab igazítási stílusát. Olvasás/írás [`TabAlignment`](../tabalignment). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Lehetővé teszi az alap IPresentationComponent interfész lekérését. Csak olvasható [`IPresentationComponent`](../ipresentationcomponent). |
+| [Position](../../aspose.slides/tab/position) { get; set; } | Visszaadja vagy beállítja a tab pozícióját. Ennek a tulajdonságnak a beállítása megváltoztathatja a tab indexét a gyűjteményben és érvénytelenítheti az Enumerator-t. Olvasás/írás Double. |
 
 ## Metódusok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
 | [CompareTo](../../aspose.slides/tab/compareto)(object) | Összehasonlítja a jelenlegi példányt egy azonos típusú másik objektummal. |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Összehasonlítja a megadott objektummal. |

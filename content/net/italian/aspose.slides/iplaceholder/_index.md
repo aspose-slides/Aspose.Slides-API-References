@@ -1,14 +1,14 @@
 ---
 title: IPlaceholder
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta un segnaposto in una diapositiva.
+second_title: Aspose.Sildes per .NET Riferimento API
+description: Rappresenta un segnaposto su una diapositiva.
 type: docs
-weight: 6690
+weight: 6710
 url: /it/aspose.slides/iplaceholder/
 ---
-## interfaccia IPlaceholder
+## IPlaceholder interfaccia
 
-Rappresenta un segnaposto in una diapositiva.
+Rappresenta un segnaposto su una diapositiva.
 
 ```csharp
 public interface IPlaceholder

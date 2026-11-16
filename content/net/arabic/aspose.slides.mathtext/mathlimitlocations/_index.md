@@ -1,14 +1,14 @@
 ---
 title: MathLimitLocations
-second_title: Aspose.Sildes لـ .NET مرجع API
-description: موقع الحدود (المؤشر/العلامة العلوية) في العوامل n-ary.
+second_title: مرجع API لـ Aspose.Sildes لـ .NET
+description: موقع الحدود (منخفض/عالٍ) في عوامل n-ary.
 type: docs
-weight: 8840
+weight: 8860
 url: /ar/aspose.slides.mathtext/mathlimitlocations/
 ---
 ## MathLimitLocations تعداد
 
-موقع الحدود (المؤشر/العلامة العلوية) في العوامل n-ary.
+موقع الحدود (منخفض/عالٍ) في عوامل n-ary.
 
 ```csharp
 public enum MathLimitLocations
@@ -19,8 +19,8 @@ public enum MathLimitLocations
 | الاسم | القيمة | الوصف |
 | --- | --- | --- |
 | NotDefined | `0` | غير معرف |
-| UnderOver | `1` | ترسم الحدود في أعلى وأسفل رمز العامل |
-| SubscriptSuperscript | `2` | ترسم الحدود كمؤشر وعلامة علوية |
+| UnderOver | `1` | ترسم الحدود أعلى وأسفل رمز العامل |
+| SubscriptSuperscript | `2` | ترسم الحدود كمنخفض وعالي |
 
 ### انظر أيضًا
 

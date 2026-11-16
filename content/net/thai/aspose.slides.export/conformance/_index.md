@@ -3,10 +3,10 @@ title: Conformance
 second_title: Aspose.Sildes สำหรับ .NET API Reference
 description: ระบุคลาสการปฏิบัติตามที่เอกสาร PresentationML ปฏิบัติตาม
 type: docs
-weight: 3750
+weight: 3770
 url: /th/aspose.slides.export/conformance/
 ---
-## การจำแนกการปฏิบัติตาม
+## การจำแนกประเภทการปฏิบัติตาม
 
 ระบุคลาสการปฏิบัติตามที่เอกสาร PresentationML ปฏิบัติตาม
 
@@ -18,9 +18,9 @@ public enum Conformance
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
-| Ecma376_2006 | `0` | ระบุว่าเอกสารปฏิบัติตามมาตรฐาน ECMA376:2006 |
-| Iso29500_2008_Transitional | `1` | ระบุว่าเอกสารปฏิบัติตามคลาสการปฏิบัติตามแบบ Transitional ของ ISO/IEC 29500:2008 |
-| Iso29500_2008_Strict | `2` | ระบุว่าเอกสารปฏิบัติตามคลาสการปฏิบัติตามแบบ Strict ของ ISO/IEC 29500:2008 |
+| Ecma376_2006 | `0` | ระบุว่าเอกสารปฏิบัติตาม ECMA376:2006 |
+| Iso29500_2008_Transitional | `1` | ระบุว่าเอกสารปฏิบัติตามคลาสการปฏิบัติตาม ISO/IEC 29500:2008 Transitional |
+| Iso29500_2008_Strict | `2` | ระบุว่าเอกสารปฏิบัติตามคลาสการปฏิบัติตาม ISO/IEC 29500:2008 Strict |
 
 ### ดูเพิ่มเติม
 

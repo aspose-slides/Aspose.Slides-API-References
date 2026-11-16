@@ -1,14 +1,14 @@
 ---
 title: TransitionInOutDirectionType
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 인 또는 아웃 방향 전환 유형을 나타냅니다.
+description: 입 또는 출력 방향 전환 유형을 나타냅니다.
 type: docs
-weight: 10370
+weight: 10390
 url: /ko/aspose.slides.slideshow/transitioninoutdirectiontype/
 ---
 ## TransitionInOutDirectionType 열거형
 
-인 또는 아웃 방향 전환 유형을 나타냅니다.
+입 또는 출력 방향 전환 유형을 나타냅니다.
 
 ```csharp
 public enum TransitionInOutDirectionType

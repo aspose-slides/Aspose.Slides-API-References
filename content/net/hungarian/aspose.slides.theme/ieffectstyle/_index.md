@@ -3,7 +3,7 @@ title: IEffectStyle
 second_title: Aspose.Sildes .NET API referencia
 description: Egy effektus stílust képvisel.
 type: docs
-weight: 11170
+weight: 11190
 url: /hu/aspose.slides.theme/ieffectstyle/
 ---
 ## IEffectStyle interfész
@@ -16,10 +16,10 @@ public interface IEffectStyle
 
 ## Tulajdonságok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
-| [EffectFormat](../../aspose.slides.theme/ieffectstyle/effectformat) { get; } | Visszaad egy effektus formátumot. Csak olvasható [`IEffectFormat`](../../aspose.slides/ieffectformat). |
-| [ThreeDFormat](../../aspose.slides.theme/ieffectstyle/threedformat) { get; } | Visszaad egy 3d formátumot. Csak olvasható [`IThreeDFormat`](../../aspose.slides/ithreedformat). |
+| [EffectFormat](../../aspose.slides.theme/ieffectstyle/effectformat) { get; } | Egy effektus formátumot ad vissza. Csak olvasható [`IEffectFormat`](../../aspose.slides/ieffectformat). |
+| [ThreeDFormat](../../aspose.slides.theme/ieffectstyle/threedformat) { get; } | Egy 3D formátumot ad vissza. Csak olvasható [`IThreeDFormat`](../../aspose.slides/ithreedformat). |
 
 ### Lásd még
 

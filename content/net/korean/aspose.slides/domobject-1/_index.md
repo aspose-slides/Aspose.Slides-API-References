@@ -1,9 +1,9 @@
 ---
 title: DomObjectTParent
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 기본 DOM 객체
 type: docs
-weight: 2800
+weight: 2820
 url: /ko/aspose.slides/domobject-1/
 ---
 ## DomObject<TParent> 클래스
@@ -18,7 +18,7 @@ public abstract class DomObject<TParent>
 | --- | --- |
 | TParent | 부모 DOM 객체의 유형 |
 
-### 참고
+### 관련 항목
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

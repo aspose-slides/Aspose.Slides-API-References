@@ -1,9 +1,9 @@
 ---
 title: ISingleCellChartValue
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes .NET API Referansı
 description: Bir grafik veri hücresini temsil eder.
 type: docs
-weight: 2210
+weight: 2230
 url: /tr/aspose.slides.charts/isinglecellchartvalue/
 ---
 ## ISingleCellChartValue arayüz
@@ -18,10 +18,10 @@ public interface ISingleCellChartValue : IBaseChartValue
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsCell](../../aspose.slides.charts/isinglecellchartvalue/ascell) { get; set; } | Grafik veri hücresini döndürür veya ayarlar. Okunur/Yazılır [`IChartDataCell`](../ichartdatacell). |
-| [AsIBaseChartValue](../../aspose.slides.charts/isinglecellchartvalue/asibasechartvalue) { get; } | Temel IBaseChartValue arabirimine erişim sağlar. Salt okunur [`IBaseChartValue`](../ibasechartvalue). |
+| [AsCell](../../aspose.slides.charts/isinglecellchartvalue/ascell) { get; set; } | Grafik veri hücresini döndürür veya ayarlar. Okunur/yazılır [`IChartDataCell`](../ichartdatacell). |
+| [AsIBaseChartValue](../../aspose.slides.charts/isinglecellchartvalue/asibasechartvalue) { get; } | Temel IBaseChartValue arayüzünü almayı sağlar. Salt okunur [`IBaseChartValue`](../ibasechartvalue). |
 
-### Ayrıca Bakınız
+### Ayrıca
 
 * arayüz [IBaseChartValue](../ibasechartvalue)
 * ad alanı [Aspose.Slides.Charts](../../aspose.slides.charts)

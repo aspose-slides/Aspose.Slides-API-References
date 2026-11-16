@@ -3,7 +3,7 @@ title: Placeholder
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa un marcador de posición en una diapositiva.
 type: docs
-weight: 9430
+weight: 9450
 url: /es/aspose.slides/placeholder/
 ---
 ## Placeholder clase

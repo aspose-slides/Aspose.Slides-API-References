@@ -1,14 +1,14 @@
 ---
 title: HtmlGenerator
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Generatore HTML.
+description: Generatore Html.
 type: docs
-weight: 3880
+weight: 3900
 url: /it/aspose.slides.export/htmlgenerator/
 ---
 ## HtmlGenerator classe
 
-Generatore HTML.
+Generatore html.
 
 ```csharp
 public sealed class HtmlGenerator : IHtmlGenerator
@@ -18,20 +18,20 @@ public sealed class HtmlGenerator : IHtmlGenerator
 
 | Nome | Descrizione |
 | --- | --- |
-| [NextSlideIndex](../../aspose.slides.export/htmlgenerator/nextslideindex) { get; } | Restituisce l'indice di una diapositiva, che verrà renderizzata dopo la diapositiva corrente o -1 se si sta renderizzando l'ultima diapositiva. Solo lettura Int32. |
-| [PreviousSlideIndex](../../aspose.slides.export/htmlgenerator/previousslideindex) { get; } | Restituisce l'indice della diapositiva precedentemente renderizzata o -1 se si sta renderizzando la prima diapositiva. Solo lettura Int32. |
-| [SlideImageSize](../../aspose.slides.export/htmlgenerator/slideimagesize) { get; } | Restituisce la dimensione dell'immagine della diapositiva. Solo lettura SizeF. |
-| [SlideImageSizeUnit](../../aspose.slides.export/htmlgenerator/slideimagesizeunit) { get; } | Restituisce l'unità in cui è specificata la dimensione dell'immagine della diapositiva. Solo lettura [`SvgCoordinateUnit`](../svgcoordinateunit). |
-| [SlideImageSizeUnitCode](../../aspose.slides.export/htmlgenerator/slideimagesizeunitcode) { get; } | Restituisce il codice CSS dell'unità in cui è specificata la dimensione dell'immagine della diapositiva. Solo lettura String. |
-| [SlideIndex](../../aspose.slides.export/htmlgenerator/slideindex) { get; } | Restituisce l'indice della diapositiva attualmente in renderizzazione. Solo lettura Int32. |
+| [NextSlideIndex](../../aspose.slides.export/htmlgenerator/nextslideindex) { get; } | Restituisce l'indice di una diapositiva, che verrà renderizzata dopo la diapositiva corrente o -1 se si sta renderizzando l'ultima diapositiva. Sola lettura Int32. |
+| [PreviousSlideIndex](../../aspose.slides.export/htmlgenerator/previousslideindex) { get; } | Restituisce l'indice della diapositiva precedentemente renderizzata o -1 se la prima diapositiva è in fase di rendering. Sola lettura Int32. |
+| [SlideImageSize](../../aspose.slides.export/htmlgenerator/slideimagesize) { get; } | Restituisce la dimensione dell'immagine della diapositiva. Sola lettura SizeF. |
+| [SlideImageSizeUnit](../../aspose.slides.export/htmlgenerator/slideimagesizeunit) { get; } | Restituisce l'unità in cui è specificata la dimensione dell'immagine della diapositiva. Sola lettura [`SvgCoordinateUnit`](../svgcoordinateunit). |
+| [SlideImageSizeUnitCode](../../aspose.slides.export/htmlgenerator/slideimagesizeunitcode) { get; } | Restituisce un codice css dell'unità in cui è specificata la dimensione dell'immagine della diapositiva. Sola lettura String. |
+| [SlideIndex](../../aspose.slides.export/htmlgenerator/slideindex) { get; } | Restituisce l'indice della diapositiva attualmente in rendering. Sola lettura Int32. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue)(char[]) | Mette tra virgolette il valore dell'attributo e lo aggiunge al file html. |
-| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue_2)(string) | Mette tra virgolette il valore dell'attributo e lo aggiunge al file html. |
-| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue_1)(char[], int, int) | Mette tra virgolette il valore dell'attributo e lo aggiunge al file html. |
+| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue)(char[]) | Inserisce il valore dell'attributo tra virgolette e lo aggiunge al file html. |
+| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue_2)(string) | Inserisce il valore dell'attributo tra virgolette e lo aggiunge al file html. |
+| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue_1)(char[], int, int) | Inserisce il valore dell'attributo tra virgolette e lo aggiunge al file html. |
 | [AddHtml](../../aspose.slides.export/htmlgenerator/addhtml#addhtml)(char[]) | Aggiunge testo HTML formattato. |
 | [AddHtml](../../aspose.slides.export/htmlgenerator/addhtml#addhtml_2)(string) | Aggiunge testo HTML formattato. |
 | [AddHtml](../../aspose.slides.export/htmlgenerator/addhtml#addhtml_1)(char[], int, int) | Aggiunge testo HTML formattato. |

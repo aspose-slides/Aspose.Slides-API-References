@@ -1,9 +1,9 @@
 ---
 title: ReplaceText
-second_title: Aspose.Sildes .NET API hivatkozás
+second_title: Aspose.Sildes .NET API referencia
 description: Lecseréli a megadott szöveg összes előfordulását egy másik megadott szövegre.
 type: docs
-weight: 370
+weight: 380
 url: /hu/aspose.slides/ipresentation/replacetext/
 ---
 ## IPresentation.ReplaceText metódus
@@ -18,19 +18,19 @@ public void ReplaceText(string oldText, string newText, ITextSearchOptions optio
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
 | oldText | String | A lecserélendő karakterlánc. |
-| newText | String | A karakterlánc, amely lecseréli az oldText összes előfordulását. |
-| options | ITextSearchOptions | A szövegkeresés beállításai [`ITextSearchOptions`](../../itextsearchoptions). |
+| newText | String | A karakterlánc, amely az oldText összes előfordulását helyettesíti. |
+| options | ITextSearchOptions | Szövegkeresési beállítások [`ITextSearchOptions`](../../itextsearchoptions). |
 | callback | IFindResultCallback | A visszahívási objektum a keresési eredmények fogadásához [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### Példák
 
-Az alábbi példa kód bemutatja, hogyan lehet egy megadott karakterláncot egy másik megadott karakterláncra cserélni.
+Az alábbi minta kód bemutatja, hogyan cseréljünk egy megadott karakterláncot egy másik megadott karakterláncra.
 
 ```csharp
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
-	// Cserélje le az összes különálló 'the' előfordulást '***'-ra
+	// Cserélje le az összes elkülönült 'the' előfordulást '***'-ra
 	presentation.ReplaceText("the", "***", new TextSearchOptions() {WholeWordsOnly = true}, null);
 	presentation.Save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 }

@@ -1,14 +1,14 @@
 ---
 title: ParagraphFactory
-second_title: Aspose.Sildes .NET API referencia
+second_title: Aspose.Sildes a .NET API referencia
 description: Lehetővé teszi bekezdések létrehozását
 type: docs
-weight: 9300
+weight: 9320
 url: /hu/aspose.slides/paragraphfactory/
 ---
 ## ParagraphFactory osztály
 
-Lehetővé teszi bekezdések létrehozását
+Lehetővé teszi bekezdések létrehozását.
 
 ```csharp
 public class ParagraphFactory : IParagraphFactory
@@ -27,7 +27,7 @@ public class ParagraphFactory : IParagraphFactory
 | [CreateParagraph](../../aspose.slides/paragraphfactory/createparagraph#createparagraph)() | Új üres bekezdést hoz létre. |
 | [CreateParagraph](../../aspose.slides/paragraphfactory/createparagraph#createparagraph_1)(IParagraph) | Új bekezdést hoz létre a megadott bekezdésadatok használatával. |
 
-### Megjegyzés
+### Megjegyzések
 
 COM kompatibilitáshoz.
 

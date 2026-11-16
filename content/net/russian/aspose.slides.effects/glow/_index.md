@@ -1,14 +1,14 @@
 ---
 title: Glow
-second_title: Aspose.Sildes для .NET справочник API
-description: Представляет эффект Glow, при котором вокруг краёв объекта добавляется размытый контур цвета.
+second_title: Справочник API Aspose.Sildes для .NET
+description: Представляет эффект Glow, при котором размытая цветная контурная линия добавляется за пределами краёв объекта.
 type: docs
-weight: 2990
+weight: 3010
 url: /ru/aspose.slides.effects/glow/
 ---
 ## Glow класс
 
-Представляет эффект Glow, при котором вокруг краёв объекта добавляется размытый контур цвета.
+Представляет эффект Glow, при котором размытая цветная граница добавляется за пределами краёв объекта.
 
 ```csharp
 public sealed class Glow : IGlow
@@ -25,9 +25,9 @@ public sealed class Glow : IGlow
 
 | Имя | Описание |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/glow/equals)(object) | Определяет, соответствует ли указанный [`Glow`](../glow) текущему [`Glow`](../glow). |
-| [GetEffective](../../aspose.slides.effects/glow/geteffective)() | Получает эффективные данные эффекта Glow с применённым наследованием. |
-| override [GetHashCode](../../aspose.slides.effects/glow/gethashcode)() | Служит в качестве хеш-функции для конкретного типа. |
+| override [Equals](../../aspose.slides.effects/glow/equals)(object) | Определяет, равен ли указанный [`Glow`](../glow) текущему [`Glow`](../glow). |
+| [GetEffective](../../aspose.slides.effects/glow/geteffective)() | Получает эффективные данные эффекта Glow с учётом наследования. |
+| override [GetHashCode](../../aspose.slides.effects/glow/gethashcode)() | Служит функцией хеширования для конкретного типа. |
 
 ### См. также
 

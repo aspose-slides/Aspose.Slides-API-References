@@ -1,14 +1,14 @@
 ---
 title: Hide
-second_title: Aspose.Slides için .NET API Referansı
-description: Tüm Show-flag'lerini (ShowValue ...) false durumuna ayarlayarak veri etiketini gizli yapar. Bu işlemden sonra IsVisible false olur.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Tüm Show-flaglerini (ShowValue ...) false durumuna ayarlayarak veri etiketini gizleyin. Bu işlemden sonra IsVisible false olacaktır.
 type: docs
-weight: 200
+weight: 210
 url: /tr/aspose.slides.charts/datalabel/hide/
 ---
-## DataLabel.Hide yöntemi
+## DataLabel.Hide metot
 
-Tüm Show*-bayraklarını (ShowValue, ...) false durumuna ayarlayarak veri etiketini gizli yapar. Bu işlemden sonra IsVisible false olur.
+Tüm Show*-bayraklarını (ShowValue, ...) false durumuna ayarlayarak veri etiketini gizleyin. IsVisible bu işlemden sonra false olacaktır.
 
 ```csharp
 public void Hide()
@@ -16,9 +16,9 @@ public void Hide()
 
 ### Açıklamalar
 
-Veri etiketi görünür değilse (IsVisible false ise) Show*-bayraklarını (ShowValue, ...) true durumuna ayarlayarak veri etiketini görünür yapabilirsiniz.
+Veri etiketi görünür değilse (IsVisible false) Show*-bayraklarını (ShowValue, ...) true durumuna ayarlayarak veri etiketini görünür yapabilirsiniz.
 
-### Bakınız
+### Diğer Bağlantılar
 
 * sınıf [DataLabel](../../datalabel)
 * ad alanı [Aspose.Slides.Charts](../../datalabel)

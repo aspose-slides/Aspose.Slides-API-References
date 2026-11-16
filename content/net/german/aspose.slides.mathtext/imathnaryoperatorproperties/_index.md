@@ -1,9 +1,9 @@
 ---
 title: IMathNaryOperatorProperties
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Gibt die Eigenschaften von IMathNaryOperator an
+description: Gibt Eigenschaften von IMathNaryOperator an
 type: docs
-weight: 8380
+weight: 8400
 url: /de/aspose.slides.mathtext/imathnaryoperatorproperties/
 ---
 ## IMathNaryOperatorProperties Schnittstelle
@@ -18,10 +18,10 @@ public interface IMathNaryOperatorProperties
 
 | Name | Beschreibung |
 | --- | --- |
-| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathnaryoperatorproperties/growtomatchoperandheight) { get; set; } | Das Operatorzeichen wächst vertikal, um die Höhe seines Operanden anzupassen |
-| [HideSubscript](../../aspose.slides.mathtext/imathnaryoperatorproperties/hidesubscript) { get; set; } | Unterskript ausblenden |
+| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathnaryoperatorproperties/growtomatchoperandheight) { get; set; } | Operatorzeichen wächst vertikal, um die Höhe seines Operanden anzupassen |
+| [HideSubscript](../../aspose.slides.mathtext/imathnaryoperatorproperties/hidesubscript) { get; set; } | Tiefstellung ausblenden |
 | [HideSuperscript](../../aspose.slides.mathtext/imathnaryoperatorproperties/hidesuperscript) { get; set; } | Hochstellung ausblenden |
-| [LimitLocation](../../aspose.slides.mathtext/imathnaryoperatorproperties/limitlocation) { get; set; } | Der Ort der Grenzen (Unterskript und Hochstellung) |
+| [LimitLocation](../../aspose.slides.mathtext/imathnaryoperatorproperties/limitlocation) { get; set; } | Der Ort der Grenzen (Tiefstellung und Hochstellung) |
 | [Operator](../../aspose.slides.mathtext/imathnaryoperatorproperties/operator) { get; set; } | Nary-Operatorzeichen Zum Beispiel: '∑', '∫' |
 
 ### Siehe auch

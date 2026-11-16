@@ -1,14 +1,14 @@
 ---
 title: IBaseShapeLock
-second_title: Aspose.Sildes for .NET API 參考
-description: 表示已停用的形狀鎖定操作。
+second_title: Aspose.Sildes .NET API 參考
+description: 表示已停用的 Shape 鎖定操作。
 type: docs
-weight: 5330
+weight: 5350
 url: /zh-hant/aspose.slides/ibaseshapelock/
 ---
 ## IBaseShapeLock 介面
 
-表示形狀鎖定（已停用的操作）。
+表示 Shape 鎖定（已停用的操作）。
 
 ```csharp
 public interface IBaseShapeLock
@@ -18,9 +18,9 @@ public interface IBaseShapeLock
 
 | 名稱 | 說明 |
 | --- | --- |
-| [NoLocks](../../aspose.slides/ibaseshapelock/nolocks) { get; } | 如果所有 lock-flags 都已停用，則回傳 true。唯讀 Boolean。 |
+| [NoLocks](../../aspose.slides/ibaseshapelock/nolocks) { get; } | 如果所有鎖定旗標均已停用，則傳回 true。唯讀 Boolean。 |
 
-### 參見
+### 另請參閱
 
 * 命名空間 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

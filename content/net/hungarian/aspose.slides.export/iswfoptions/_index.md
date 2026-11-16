@@ -1,9 +1,9 @@
 ---
 title: ISwfOptions
-second_title: Aspose.Sildes .NET API referencia
-description: Beállításokat biztosít, amelyek szabályozzák, hogyan mentődik a prezentáció SWF formátumban.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Lehetőségeket biztosít, amelyek szabályozzák, hogyan mentődik a prezentáció SWF formátumban.
 type: docs
-weight: 4150
+weight: 4170
 url: /hu/aspose.slides.export/iswfoptions/
 ---
 ## ISwfOptions interfész
@@ -16,30 +16,30 @@ public interface ISwfOptions : ISaveOptions
 
 ## Tulajdonságok
 
-| Name | Description |
+| Név | Leírás |
 | --- | --- |
 | [AsISaveOptions](../../aspose.slides.export/iswfoptions/asisaveoptions) { get; } | Visszaadja az ISaveOptions interfészt. Csak olvasható [`ISaveOptions`](../isaveoptions). |
-| [Compressed](../../aspose.slides.export/iswfoptions/compressed) { get; set; } | Megadja, hogy a generált SWF dokumentum tömörítve legyen-e vagy sem. Alapértelmezett érték: `true`. |
-| [EnableContextMenu](../../aspose.slides.export/iswfoptions/enablecontextmenu) { get; set; } | A helyi menü engedélyezése/letiltása. Alapértelmezett érték: true. |
-| [JpegQuality](../../aspose.slides.export/iswfoptions/jpegquality) { get; set; } | Megadja a JPEG képek minőségét. Alapértelmezett érték: 95. |
-| [LogoImageBytes](../../aspose.slides.export/iswfoptions/logoimagebytes) { get; set; } | Kép, amely logóként jelenik meg a megjelenítő jobb felső sarkában. A képnek 32x64 pixeles PNG-nek kell lennie, különben a logó helytelenül jelenhet meg. |
-| [LogoLink](../../aspose.slides.export/iswfoptions/logolink) { get; set; } | Beállítja vagy lekéri a logó teljes hiperhivatkozási címét. Hatása csak akkor van, ha egy [`LogoImageBytes`](./logoimagebytes) meg van adva. |
-| [ShowBottomPane](../../aspose.slides.export/iswfoptions/showbottompane) { get; set; } | Az alsó ablaktábla megjelenítése/rejtése. Flashvars-ban felülírható. Alapértelmezett érték: true. |
-| [ShowFullScreen](../../aspose.slides.export/iswfoptions/showfullscreen) { get; set; } | A teljes képernyős gomb megjelenítése/rejtése. Flashvars-ban felülírható. Alapértelmezett érték: true. |
-| [ShowHiddenSlides](../../aspose.slides.export/iswfoptions/showhiddenslides) { get; set; } | Megadja, hogy a generált dokumentum tartalmazzon-e rejtett diákot vagy sem. Alapértelmezett érték: `false`. |
-| [ShowLeftPane](../../aspose.slides.export/iswfoptions/showleftpane) { get; set; } | A bal ablaktábla megjelenítése/rejtése. Flashvars-ban felülírható. Alapértelmezett érték: true. |
-| [ShowPageBorder](../../aspose.slides.export/iswfoptions/showpageborder) { get; set; } | Megadja, hogy a lapok körüli keret megjelenjen-e. Alapértelmezett érték: true. |
-| [ShowPageStepper](../../aspose.slides.export/iswfoptions/showpagestepper) { get; set; } | Az oldallépő megjelenítése/rejtése. Flashvars-ban felülírható. Alapértelmezett érték: true. |
-| [ShowSearch](../../aspose.slides.export/iswfoptions/showsearch) { get; set; } | A keresési szakasz megjelenítése/rejtése. Flashvars-ban felülírható. Alapértelmezett érték: true. |
-| [ShowTopPane](../../aspose.slides.export/iswfoptions/showtoppane) { get; set; } | Az egész felső ablaktábla megjelenítése/rejtése. Flashvars-ban felülírható. Alapértelmezett érték: true. |
-| [SlidesLayoutOptions](../../aspose.slides.export/iswfoptions/slideslayoutoptions) { get; set; } | Beállítja vagy lekéri azt a módot, ahogyan a diák a lapon elhelyezésre kerülnek egy prezentáció exportálásakor [`ISlidesLayoutOptions`](../islideslayoutoptions). Ez a tulajdonság nem támogatja a `Aspose.Slides.Export.HandoutLayoutingOptions` típusú objektumok hozzárendelését. |
-| [StartOpenLeftPane](../../aspose.slides.export/iswfoptions/startopenleftpane) { get; set; } | Azonnal megnyitott bal ablaktáblával indul. Flashvars-ban felülírható. Alapértelmezett érték: false. |
-| [ViewerIncluded](../../aspose.slides.export/iswfoptions/viewerincluded) { get; set; } | Megadja, hogy a generált SWF dokumentum tartalmazza-e a beépített dokumentum megjelenítőt vagy sem. Alapértelmezett érték: `true`. |
+| [Compressed](../../aspose.slides.export/iswfoptions/compressed) { get; set; } | Megadja, hogy a generált SWF dokumentum tömörített legyen-e vagy sem. Alapértelmezett `true`. |
+| [EnableContextMenu](../../aspose.slides.export/iswfoptions/enablecontextmenu) { get; set; } | Engedélyezi/letiltja a helyi menüt. Alapértelmezett true. |
+| [JpegQuality](../../aspose.slides.export/iswfoptions/jpegquality) { get; set; } | Megadja a JPEG képek minőségét. Alapértelmezett 95. |
+| [LogoImageBytes](../../aspose.slides.export/iswfoptions/logoimagebytes) { get; set; } | A kép, amely a megjelenítő jobb felső sarkában logóként jelenik meg. A képnek 32x64 pixel PNG-nek kell lennie, ellenkező esetben a logó helytelenül jelenhet meg. |
+| [LogoLink](../../aspose.slides.export/iswfoptions/logolink) { get; set; } | Lekéri vagy beállítja a logó teljes hiperhivatkozási címét. Csak akkor van hatása, ha a [`LogoImageBytes`](./logoimagebytes) meg van adva. |
+| [ShowBottomPane](../../aspose.slides.export/iswfoptions/showbottompane) { get; set; } | Megjeleníti/elrejti az alsó panelt. Felülírható a flashvars-ben. Alapértelmezett true. |
+| [ShowFullScreen](../../aspose.slides.export/iswfoptions/showfullscreen) { get; set; } | Megjeleníti/elrejti a teljes képernyős gombot. Felülírható a flashvars-ben. Alapértelmezett true. |
+| [ShowHiddenSlides](../../aspose.slides.export/iswfoptions/showhiddenslides) { get; set; } | Megadja, hogy a generált dokumentum tartalmazzon-e rejtett diákat vagy sem. Alapértelmezett `false`. |
+| [ShowLeftPane](../../aspose.slides.export/iswfoptions/showleftpane) { get; set; } | Megjeleníti/elrejti a bal panelt. Felülírható a flashvars-ben. Alapértelmezett true. |
+| [ShowPageBorder](../../aspose.slides.export/iswfoptions/showpageborder) { get; set; } | Megadja, hogy a lapok körüli keret megjelenjen-e. Alapértelmezett true. |
+| [ShowPageStepper](../../aspose.slides.export/iswfoptions/showpagestepper) { get; set; } | Megjeleníti/elrejti az oldalléptetőt. Felülírható a flashvars-ben. Alapértelmezett true. |
+| [ShowSearch](../../aspose.slides.export/iswfoptions/showsearch) { get; set; } | Megjeleníti/elrejti a keresési részt. Felülírható a flashvars-ben. Alapértelmezett true. |
+| [ShowTopPane](../../aspose.slides.export/iswfoptions/showtoppane) { get; set; } | Megjeleníti/elrejti a teljes felső panelt. Felülírható a flashvars-ben. Alapértelmezett true. |
+| [SlidesLayoutOptions](../../aspose.slides.export/iswfoptions/slideslayoutoptions) { get; set; } | Lekéri vagy beállítja a módot, amelyben a diák az oldalon elhelyezésre kerülnek a prezentáció exportálásakor [`ISlidesLayoutOptions`](../islideslayoutoptions). Ez a tulajdonság nem támogatja a `Aspose.Slides.Export.HandoutLayoutingOptions` típusú objektumok hozzárendelését |
+| [StartOpenLeftPane](../../aspose.slides.export/iswfoptions/startopenleftpane) { get; set; } | Bal panel megnyitott állapottal indul. Felülírható a flashvars-ben. Alapértelmezett false. |
+| [ViewerIncluded](../../aspose.slides.export/iswfoptions/viewerincluded) { get; set; } | Megadja, hogy a generált SWF dokumentum tartalmazza-e az integrált dokumentumnézeget vagy sem. Alapértelmezett `true`. |
 
 ### Lásd még
 
 * interfész [ISaveOptions](../isaveoptions)
 * névtér [Aspose.Slides.Export](../../aspose.slides.export)
-* assembly [Aspose.Slides](../../)
+* összeállítás [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

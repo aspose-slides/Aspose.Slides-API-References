@@ -1,14 +1,14 @@
 ---
 title: ISoftEdge
 second_title: Aspose.Sildes لـ .NET مرجع API
-description: يمثل تأثير الحافة الناعمة. تكون حواف الشكل مشوشة بينما لا يتأثر التعبئة.
+description: يمثل تأثير الحافة الناعمة. حواف الشكل مضببة بينما لا يتأثر التعبئة.
 type: docs
-weight: 3520
+weight: 3540
 url: /ar/aspose.slides.effects/isoftedge/
 ---
-## ISoftEdge واجهة
+## واجهة ISoftEdge
 
-يمثل تأثير الحافة الناعمة. حواف الشكل مشوشة، بينما لا يتأثر التعبئة.
+يمثل تأثير الحافة الناعمة. حواف الشكل مضببة، بينما لا يتأثر التعبئة.
 
 ```csharp
 public interface ISoftEdge : IAccessiblePVIObject<ISoftEdgeEffectiveData>, IImageTransformOperation
@@ -18,15 +18,15 @@ public interface ISoftEdge : IAccessiblePVIObject<ISoftEdgeEffectiveData>, IImag
 
 | الاسم | الوصف |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/isoftedge/asiaccessiblepviobject) { get; } | يسمح بالحصول على واجهة IAccessiblePVIObject الأساسية. للقراءة فقط [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/isoftedge/asiimagetransformoperation) { get; } | يسمح بالحصول على واجهة IImageTransformOperation الأساسية. للقراءة فقط [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Radius](../../aspose.slides.effects/isoftedge/radius) { get; set; } | يحدد نصف قطر الضبابية لتطبيقه على الحواف. قراءة/كتابة Double. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/isoftedge/asiaccessiblepviobject) { get; } | يسمح بالحصول على الواجهة الأساسية IAccessiblePVIObject. قراءة فقط [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/isoftedge/asiimagetransformoperation) { get; } | يسمح بالحصول على الواجهة الأساسية IImageTransformOperation. قراءة فقط [`IImageTransformOperation`](../iimagetransformoperation). |
+| [Radius](../../aspose.slides.effects/isoftedge/radius) { get; set; } | يحدد نصف قطر التمويه لتطبيقه على الحواف. قراءة/كتابة Double. |
 
 ### انظر أيضًا
 
-* واجهة [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
-* واجهة [ISoftEdgeEffectiveData](../isoftedgeeffectivedata)
-* واجهة [IImageTransformOperation](../iimagetransformoperation)
+* الواجهة [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
+* الواجهة [ISoftEdgeEffectiveData](../isoftedgeeffectivedata)
+* الواجهة [IImageTransformOperation](../iimagetransformoperation)
 * مساحة الاسم [Aspose.Slides.Effects](../../aspose.slides.effects)
 * التجميع [Aspose.Slides](../../)
 

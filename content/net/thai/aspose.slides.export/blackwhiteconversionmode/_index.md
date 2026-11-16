@@ -1,14 +1,14 @@
 ---
 title: BlackWhiteConversionMode
-second_title: Aspose.Sildes สำหรับ .NET API Reference
+second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
 description: ให้ตัวเลือกที่ควบคุมวิธีการแปลงภาพสไลด์เป็นภาพแบบสองสี
 type: docs
-weight: 3720
+weight: 3740
 url: /th/aspose.slides.export/blackwhiteconversionmode/
 ---
 ## BlackWhiteConversionMode enumeration
 
-ให้ตัวเลือกที่ควบคุมวิธีการแปลงภาพสไลด์เป็นภาพแบบสองสี
+ให้ตัวเลือกที่ควบคุมว่าภาพของสไลด์จะถูกแปลงเป็นภาพแบบสองสีอย่างไร
 
 ```csharp
 public enum BlackWhiteConversionMode
@@ -16,16 +16,16 @@ public enum BlackWhiteConversionMode
 
 ### ค่า
 
-| Name | Value | Description |
+| ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
-| Default | `0` | ระบุว่าไม่มีอัลกอริทึมการแปลง จะใช้อัลกอริทึมที่ทำงานในตัวเข้ารหัส TIFF (ค่าเริ่มต้น) |
-| Dithering | `1` | ระบุอัลกอริธึม dithering (Floyd-Steinberg) |
-| DitheringFloydSteinberg | `2` | ระบุอัลกอริธึม Floyd-Steinberg dithering |
-| Auto | `3` | ระบุอัลกอริธึมกำหนดค่าเกณฑ์ที่คำนวณโดยอัตโนมัติ (Otsu) |
-| AutoOtsu | `4` | ระบุอัลกอริธึมเกณฑ์ Otsu ที่คำนวณโดยอัตโนมัติ |
-| Threshold25 | `5` | ระบุอัลกอริธึมเกณฑ์คงที่ (25 %) |
-| Threshold50 | `6` | ระบุอัลกอริธึมเกณฑ์คงที่ (50 %) |
-| Threshold75 | `7` | ระบุอัลกอริธึมเกณฑ์คงที่ (75 %) |
+| Default | `0` | ระบุว่าไม่มีอัลกอริธึมการแปลง จะใช้อัลกอริธึมที่ทำงานใน TIFF codec (ค่าเริ่มต้น) |
+| Dithering | `1` | ระบุอัลกอริธึม dithering (Floyd-Steinberg). |
+| DitheringFloydSteinberg | `2` | ระบุอัลกอริธึม Floyd-Steinberg dithering. |
+| Auto | `3` | ระบุอัลกอริธึม threshold ที่คำนวณโดยอัตโนมัติ (Otsu). |
+| AutoOtsu | `4` | ระบุอัลกอริธิม threshold ของ Otsu ที่คำนวณโดยอัตโนมัติ. |
+| Threshold25 | `5` | ระบุอัลกอริธิม threshold คงที่ (25%). |
+| Threshold50 | `6` | ระบุอัลกอริธิม threshold คงที่ (50%). |
+| Threshold75 | `7` | ระบุอัลกอริธิม threshold คงที่ (75%). |
 
 ### ดูเพิ่มเติม
 

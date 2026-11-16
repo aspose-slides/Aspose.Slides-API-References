@@ -1,14 +1,14 @@
 ---
 title: PathCommandType
-second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Reprezentuje polecenia ścieżki graficznej
+second_title: Aspose.Sildes dla .NET – referencja API
+description: Reprezentuje polecenia ścieżek graficznych
 type: docs
-weight: 9320
+weight: 9340
 url: /pl/aspose.slides/pathcommandtype/
 ---
-## PathCommandType wyliczenie
+## PathCommandType enumeracja
 
-Reprezentuje polecenia ścieżki graficznej
+Reprezentuje polecenia ścieżek graficznych
 
 ```csharp
 public enum PathCommandType : byte

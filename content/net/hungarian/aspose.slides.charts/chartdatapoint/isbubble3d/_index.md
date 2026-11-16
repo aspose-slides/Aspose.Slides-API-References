@@ -1,14 +1,14 @@
 ---
 title: IsBubble3D
-second_title: Aspose.Sildes .NET API referencia
-description: Megadja, hogy a buborékok 3-D hatással rendelkeznek. Olvasás/írás Boolean.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Megadja, hogy a buborékokra 3-D hatás van alkalmazva. Olvasás/írás Boolean.
 type: docs
-weight: 130
+weight: 170
 url: /hu/aspose.slides.charts/chartdatapoint/isbubble3d/
 ---
 ## ChartDataPoint.IsBubble3D tulajdonság
 
-Megadja, hogy a buborékok 3-D hatással rendelkeznek. Olvasás/írás Boolean.
+Megadja, hogy a buborékokra 3-D hatás van alkalmazva. Olvasás/írás Boolean.
 
 ```csharp
 public bool IsBubble3D { get; set; }

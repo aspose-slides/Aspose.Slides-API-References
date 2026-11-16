@@ -1,14 +1,14 @@
 ---
 title: GrayScale
-second_title: Referência da API Aspose.Sildes para .NET
-description: Representa um efeito de Escala de Cinza. Converte todos os valores de cor do efeito para um tom de cinza correspondente à sua luminância. Os valores alfa (opacidade) do efeito não são afetados.
+second_title: Aspose.Sildes para a Referência da API .NET
+description: Representa um efeito de escala de cinza. Converte todos os valores de cor do efeito para um tom de cinza correspondente à sua luminância. Os valores alfa de opacidade do efeito não são afetados.
 type: docs
-weight: 3000
+weight: 3020
 url: /pt/aspose.slides.effects/grayscale/
 ---
 ## GrayScale classe
 
-Representa um efeito Escala de Cinza. Converte todos os valores de cor do efeito para um tom de cinza, correspondente à sua luminância. Os valores alfa (opacidade) do efeito não são afetados.
+Representa um efeito de escala de cinza. Converte todos os valores de cor do efeito para um tom de cinza, correspondente à sua luminância. Os valores alfa (opacidade) do efeito não são afetados.
 
 ```csharp
 public sealed class GrayScale : ImageTransformOperation, IGrayScale
@@ -25,10 +25,10 @@ public sealed class GrayScale : ImageTransformOperation, IGrayScale
 | Nome | Descrição |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/grayscale/equals)(object) | Determina se o [`GrayScale`](../grayscale) especificado é igual ao [`GrayScale`](../grayscale) atual. |
-| [GetEffective](../../aspose.slides.effects/grayscale/geteffective)() | Obtém os dados efetivos do efeito Escala de Cinza com a herança aplicada. |
+| [GetEffective](../../aspose.slides.effects/grayscale/geteffective)() | Obtém os dados efetivos do efeito Gray Scale com a herança aplicada. |
 | override [GetHashCode](../../aspose.slides.effects/grayscale/gethashcode)() | Serve como função hash para um tipo específico. |
 
-### Ver Também
+### Veja também
 
 * classe [ImageTransformOperation](../imagetransformoperation)
 * interface [IGrayScale](../igrayscale)

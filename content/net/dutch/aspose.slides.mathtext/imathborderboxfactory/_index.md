@@ -1,14 +1,14 @@
 ---
 title: IMathBorderBoxFactory
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Staat toe een wiskundige randvak te maken
+description: Staat toe een wiskundig randvak te maken
 type: docs
-weight: 8180
+weight: 8200
 url: /nl/aspose.slides.mathtext/imathborderboxfactory/
 ---
 ## IMathBorderBoxFactory interface
 
-Staat toe een wiskundige randvak te maken
+Staat toe een wiskundig randvak te maken
 
 ```csharp
 public interface IMathBorderBoxFactory
@@ -18,8 +18,8 @@ public interface IMathBorderBoxFactory
 
 | Naam | Beschrijving |
 | --- | --- |
-| [CreateMathBorderBox](../../aspose.slides.mathtext/imathborderboxfactory/createmathborderbox#createmathborderbox)(IMathElement) | Maak een wiskundige randvak door toe te passen op het element |
-| [CreateMathBorderBox](../../aspose.slides.mathtext/imathborderboxfactory/createmathborderbox#createmathborderbox_1)(IMathElement, bool, bool, bool, bool, bool, bool, bool, bool) | Maak een wiskundige randvak door toe te passen op het element |
+| [CreateMathBorderBox](../../aspose.slides.mathtext/imathborderboxfactory/createmathborderbox#createmathborderbox)(IMathElement) | Maak een wiskundig randvak door toe te passen op het element |
+| [CreateMathBorderBox](../../aspose.slides.mathtext/imathborderboxfactory/createmathborderbox#createmathborderbox_1)(IMathElement, bool, bool, bool, bool, bool, bool, bool, bool) | Maak een wiskundig randvak door toe te passen op het element |
 
 ### Opmerkingen
 

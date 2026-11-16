@@ -1,14 +1,14 @@
 ---
 title: HandoutLayoutingOptions
-second_title: Aspose.Sildes для .NET API справка
-description: Представляет режим компоновки раздаточной презентации для экспорта.
+second_title: Aspose.Sildes для .NET справочник API
+description: Представляет режим компоновки раздаточного документа презентации для экспорта.
 type: docs
-weight: 3840
+weight: 3860
 url: /ru/aspose.slides.export/handoutlayoutingoptions/
 ---
 ## HandoutLayoutingOptions класс
 
-Представляет режим компоновки раздаточных листов при экспорте.
+Представляет режим компоновки раздаточного материала презентации для экспорта.
 
 ```csharp
 public class HandoutLayoutingOptions : ISlidesLayoutOptions
@@ -25,11 +25,11 @@ public class HandoutLayoutingOptions : ISlidesLayoutOptions
 | Имя | Описание |
 | --- | --- |
 | [Handout](../../aspose.slides.export/handoutlayoutingoptions/handout) { get; set; } | Указывает, сколько слайдов и в каком порядке будет размещено на странице [`HandoutType`](../handouttype). |
-| [PrintComments](../../aspose.slides.export/handoutlayoutingoptions/printcomments) { get; set; } | Указывает, следует ли отображать комментарии на слайдах. |
-| [PrintFrameSlide](../../aspose.slides.export/handoutlayoutingoptions/printframeslide) { get; set; } | Указывает, рисовать рамки вокруг отображаемых слайдов или нет. |
-| [PrintSlideNumbers](../../aspose.slides.export/handoutlayoutingoptions/printslidenumbers) { get; set; } | Указывает, печатать номера отображаемых слайдов или нет. |
+| [PrintComments](../../aspose.slides.export/handoutlayoutingoptions/printcomments) { get; set; } | Указывает, отображать ли комментарии на слайдах. |
+| [PrintFrameSlide](../../aspose.slides.export/handoutlayoutingoptions/printframeslide) { get; set; } | Указывает, рисовать ли рамки вокруг отображаемых слайдов. |
+| [PrintSlideNumbers](../../aspose.slides.export/handoutlayoutingoptions/printslidenumbers) { get; set; } | Указывает, печатать ли номера отображаемых слайдов. |
 
-### См. также
+### Смотрите также
 
 * интерфейс [ISlidesLayoutOptions](../islideslayoutoptions)
 * пространство имён [Aspose.Slides.Export](../../aspose.slides.export)

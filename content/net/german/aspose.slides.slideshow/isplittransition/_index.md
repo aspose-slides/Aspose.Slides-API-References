@@ -1,14 +1,14 @@
 ---
 title: ISplitTransition
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Übergangseffekt für geteilte Folien.
+description: Split-Folienübergangseffekt.
 type: docs
-weight: 10200
+weight: 10220
 url: /de/aspose.slides.slideshow/isplittransition/
 ---
 ## ISplitTransition Schnittstelle
 
-Übergangseffekt für geteilte Folien.
+Split-Folienübergangseffekt.
 
 ```csharp
 public interface ISplitTransition : ITransitionValueBase
@@ -18,9 +18,9 @@ public interface ISplitTransition : ITransitionValueBase
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/isplittransition/asitransitionvaluebase) { get; } | Ermöglicht das Abrufen der Basis-ITransitionValueBase-Schnittstelle. Nur-Lesen [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/isplittransition/direction) { get; set; } | Richtung der Teilungs-Übergangs. Lesen/Schreiben [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [Orientation](../../aspose.slides.slideshow/isplittransition/orientation) { get; set; } | Ausrichtung des Teilungs-Übergangs. Lesen/Schreiben [`Orientation`](../../aspose.slides/orientation). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/isplittransition/asitransitionvaluebase) { get; } | Ermöglicht das Abrufen der Basis-Schnittstelle ITransitionValueBase. Nur-Lesen [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/isplittransition/direction) { get; set; } | Richtung des Übergangsaufteilens. Lesen/Schreiben [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
+| [Orientation](../../aspose.slides.slideshow/isplittransition/orientation) { get; set; } | Orientierung des Übergangsaufteilens. Lesen/Schreiben [`Orientation`](../../aspose.slides/orientation). |
 
 ### Siehe auch
 

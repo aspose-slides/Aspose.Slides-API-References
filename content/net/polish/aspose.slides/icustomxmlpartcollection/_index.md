@@ -1,14 +1,14 @@
 ---
 title: ICustomXmlPartCollection
-second_title: Aspose.Sildes dla .NET API Reference
+second_title: Aspose.Sildes dla referencji API .NET
 description: Reprezentuje kolekcję niestandardowych części XML.
 type: docs
-weight: 5680
+weight: 5700
 url: /pl/aspose.slides/icustomxmlpartcollection/
 ---
 ## ICustomXmlPartCollection interfejs
 
-Reprezentuje kolekcję niestandardowych części XML.
+Represents collection of custom xml parts.
 
 ```csharp
 public interface ICustomXmlPartCollection : IGenericCollection<ICustomXmlPart>
@@ -16,20 +16,20 @@ public interface ICustomXmlPartCollection : IGenericCollection<ICustomXmlPart>
 
 ## Właściwości
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
 | [Item](../../aspose.slides/icustomxmlpartcollection/item) { get; } | Zwraca element o podanym indeksie. |
 
 ## Metody
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
 | [Add](../../aspose.slides/icustomxmlpartcollection/add#add)(byte[]) | Dodaje nową niestandardową część XML. |
 | [Add](../../aspose.slides/icustomxmlpartcollection/add#add_1)(Stream) | Dodaje nową niestandardową część XML. |
 | [Add](../../aspose.slides/icustomxmlpartcollection/add#add_2)(string) | Dodaje nową niestandardową część XML. |
 | [Clear](../../aspose.slides/icustomxmlpartcollection/clear)() | Usuwa wszystkie elementy z kolekcji. |
 | [Remove](../../aspose.slides/icustomxmlpartcollection/remove)(ICustomXmlPart) | Usuwa pierwsze wystąpienie określonego obiektu z kolekcji. |
-| [RemoveAt](../../aspose.slides/icustomxmlpartcollection/removeat)(int) | Usuwa niestandardową część XML pod wskazanym indeksem. |
+| [RemoveAt](../../aspose.slides/icustomxmlpartcollection/removeat)(int) | Usuwa część custom xml o podanym indeksie. |
 
 ### Zobacz także
 

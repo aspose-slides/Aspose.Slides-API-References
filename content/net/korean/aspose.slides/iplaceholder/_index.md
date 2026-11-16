@@ -1,14 +1,14 @@
 ---
 title: IPlaceholder
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 슬라이드에 있는 플레이스홀더를 나타냅니다.
+description: 슬라이드의 플레이스홀더를 나타냅니다.
 type: docs
-weight: 6690
+weight: 6710
 url: /ko/aspose.slides/iplaceholder/
 ---
 ## IPlaceholder 인터페이스
 
-슬라이드에 있는 플레이스 홀더를 나타냅니다.
+슬라이드의 플레이스홀더를 나타냅니다.
 
 ```csharp
 public interface IPlaceholder
@@ -18,10 +18,10 @@ public interface IPlaceholder
 
 | 이름 | 설명 |
 | --- | --- |
-| [Index](../../aspose.slides/iplaceholder/index) { get; } | 플레이스 홀더의 인덱스를 가져옵니다. 읽기 전용 UInt32. |
-| [Orientation](../../aspose.slides/iplaceholder/orientation) { get; } | 플레이스 홀더의 방향을 가져옵니다. 읽기 전용 [`Orientation`](../orientation). |
-| [Size](../../aspose.slides/iplaceholder/size) { get; } | 플레이스 홀더의 크기를 가져옵니다. 읽기 전용 [`PlaceholderSize`](../placeholdersize). |
-| [Type](../../aspose.slides/iplaceholder/type) { get; } | 플레이스 홀더의 유형을 가져옵니다. 읽기 전용 [`PlaceholderType`](../placeholdertype). |
+| [Index](../../aspose.slides/iplaceholder/index) { get; } | 플레이스홀더의 인덱스를 가져옵니다. 읽기 전용 UInt32. |
+| [Orientation](../../aspose.slides/iplaceholder/orientation) { get; } | 플레이스홀더의 방향을 가져옵니다. 읽기 전용 [`Orientation`](../orientation). |
+| [Size](../../aspose.slides/iplaceholder/size) { get; } | 플레이스홀더의 크기를 가져옵니다. 읽기 전용 [`PlaceholderSize`](../placeholdersize). |
+| [Type](../../aspose.slides/iplaceholder/type) { get; } | 플레이스홀더의 유형을 가져옵니다. 읽기 전용 [`PlaceholderType`](../placeholdertype). |
 
 ### 참고
 

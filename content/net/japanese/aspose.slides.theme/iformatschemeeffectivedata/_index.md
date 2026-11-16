@@ -1,14 +1,14 @@
 ---
 title: IFormatSchemeEffectiveData
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 有効な書式スキームプロパティを含む不変オブジェクトです。
+description: 効果的なフォーマット スキーマ プロパティを含む不変オブジェクトです。
 type: docs
-weight: 11280
+weight: 11300
 url: /ja/aspose.slides.theme/iformatschemeeffectivedata/
 ---
 ## IFormatSchemeEffectiveData インターフェイス
 
-有効な書式スキームプロパティを含む不変オブジェクトです。
+効果的なフォーマット スキーマ プロパティを含む不変オブジェクトです。
 
 ```csharp
 public interface IFormatSchemeEffectiveData
@@ -25,7 +25,7 @@ public interface IFormatSchemeEffectiveData
 
 ### 備考
 
-このインターフェイスは [`IThemeEffectiveData`](../ithemeeffectivedata) の一部として使用されます。
+このインターフェイスは[`IThemeEffectiveData`](../ithemeeffectivedata)の一部として使用されます。
 
 ### 参照
 

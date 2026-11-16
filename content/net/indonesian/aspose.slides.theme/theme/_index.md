@@ -1,14 +1,14 @@
 ---
 title: Theme
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes for .NET API Reference
 description: Mewakili sebuah tema.
 type: docs
-weight: 11480
+weight: 11500
 url: /id/aspose.slides.theme/theme/
 ---
 ## Theme kelas
 
-Represents a theme.
+Mewakili sebuah tema.
 
 ```csharp
 public abstract class Theme : ITheme
@@ -20,7 +20,7 @@ public abstract class Theme : ITheme
 | --- | --- |
 | abstract [ColorScheme](../../aspose.slides.theme/theme/colorscheme) { get; } | Mengembalikan skema warna. Hanya-baca [`IColorScheme`](../icolorscheme). |
 | abstract [FontScheme](../../aspose.slides.theme/theme/fontscheme) { get; } | Mengembalikan skema font. Hanya-baca [`IFontScheme`](../ifontscheme). |
-| abstract [FormatScheme](../../aspose.slides.theme/theme/formatscheme) { get; } | Mengembalikan skema format shape. Hanya-baca [`IFormatScheme`](../iformatscheme). |
+| abstract [FormatScheme](../../aspose.slides.theme/theme/formatscheme) { get; } | Mengembalikan skema format bentuk. Hanya-baca [`IFormatScheme`](../iformatscheme). |
 | [Presentation](../../aspose.slides.theme/theme/presentation) { get; } | Mengembalikan presentasi induk. Hanya-baca [`IPresentation`](../../aspose.slides/ipresentation). |
 
 ## Metode

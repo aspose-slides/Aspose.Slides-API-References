@@ -1,14 +1,14 @@
 ---
 title: IInnerShadowEffectiveData
-second_title: Aspose.Sildes के लिये .NET API संदर्भ
-description: एक अपरिवर्तनीय वस्तु जो एक आंतरिक छाया प्रभाव का प्रतिनिधित्व करती है।
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: एक अपरिवर्तनीय ऑब्जेक्ट जो एक आंतरिक शैडो प्रभाव का प्रतिनिधित्व करता है।
 type: docs
-weight: 3430
+weight: 3450
 url: /hi/aspose.slides.effects/iinnershadoweffectivedata/
 ---
-## IInnerShadowEffectiveData इंटरफ़ेस
+## IInnerShadowEffectiveData interface
 
-एक अपरिवर्तनीय वस्तु जो एक आंतरिक छाया प्रभाव को दर्शाती है।
+एक अपरिवर्तनीय ऑब्जेक्ट जो एक आंतरिक शैडो प्रभाव का प्रतिनिधित्व करता है।
 
 ```csharp
 public interface IInnerShadowEffectiveData : IEffectEffectiveData
@@ -24,7 +24,7 @@ public interface IInnerShadowEffectiveData : IEffectEffectiveData
 | [Distance](../../aspose.slides.effects/iinnershadoweffectivedata/distance) { get; } | छाया की दूरी। केवल-पढ़ने-योग्य Double। |
 | [ShadowColor](../../aspose.slides.effects/iinnershadoweffectivedata/shadowcolor) { get; } | छाया का रंग। केवल-पढ़ने-योग्य Color। |
 
-### देखें
+### संबंधित देखें
 
 * इंटरफ़ेस [IEffectEffectiveData](../ieffecteffectivedata)
 * नामस्थान [Aspose.Slides.Effects](../../aspose.slides.effects)

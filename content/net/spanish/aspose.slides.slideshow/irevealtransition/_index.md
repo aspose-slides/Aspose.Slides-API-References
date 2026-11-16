@@ -1,9 +1,9 @@
 ---
 title: IRevealTransition
-second_title: Referencia de la API de Aspose.Sildes para .NET
+second_title: Aspose.Sildes para la referencia de API de .NET
 description: Efecto de transición de diapositiva Reveal.
 type: docs
-weight: 10160
+weight: 10180
 url: /es/aspose.slides.slideshow/irevealtransition/
 ---
 ## IRevealTransition interfaz

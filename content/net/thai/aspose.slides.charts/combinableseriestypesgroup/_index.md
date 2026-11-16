@@ -1,14 +1,14 @@
 ---
 title: CombinableSeriesTypesGroup
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: การกำหนดค่าแบบ enumeration ของกลุ่มประเภทซีรีส์ที่สามารถรวมกันได้ แต่ละองค์ประกอบสัมพันธ์กับกลุ่มประเภทของซีรีส์แผนภูมิที่สามารถอยู่ร่วมกันได้ใน ChartSeriesGroup หนึ่ง ตัวอย่างเช่น ซีรีส์ ChartType.PercentsStackedArea ไม่สามารถอยู่พร้อมกับซีรีส์ ChartType.StackedArea ใน ChartSeriesGroup หนึ่งได้ แต่สองหรือมากกว่า ChartType.PercentsStackedArea สามารถอยู่ใน ChartSeriesGroup หนึ่งพร้อมกันได้ CombinableSeriesTypesGroup.AreaChart_PercentsStackedArea และซีรีส์ ChartType.Line สามารถอยู่พร้อมกับซีรีส์ ChartType.LineWithMarkers ใน CombinableSeriesTypesGroup.LineChart_Line ของ ChartSeriesGroup.
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: การระบุค่าของกลุ่มประเภทซีรีส์ที่สามารถรวมกันได้ แต่ละองค์ประกอบสัมพันธ์กับกลุ่มประเภทของซีรีส์แผนภูมิที่สามารถอยู่พร้อมกันใน ChartSeriesGroup หนึ่งได้ ตัวอย่างเช่นซีรีส์ ChartType.PercentsStackedArea ไม่สามารถอยู่พร้อมกับซีรีส์ ChartType.StackedArea ใน ChartSeriesGroup หนึ่งได้ แต่สองหรือมากกว่า ChartType.PercentsStackedArea สามารถอยู่ใน ChartSeriesGroup หนึ่งพร้อมกันได้ เช่น CombinableSeriesTypesGroup.AreaChart_PercentsStackedArea. และซีรีส์ ChartType.Line สามารถอยู่กับซีรีส์ ChartType.LineWithMarkers พร้อมกันใน ChartSeriesGroup ของ CombinableSeriesTypesGroup.LineChart_Line ได้
 type: docs
-weight: 1530
+weight: 1540
 url: /th/aspose.slides.charts/combinableseriestypesgroup/
 ---
-## CombinableSeriesTypesGroup enumeration
+## CombinableSeriesTypesGroup การระบุค่า
 
-การกำหนดค่าแบบ enumeration ของกลุ่มประเภทซีรีส์ที่สามารถรวมกันได้ แต่ละองค์ประกอบสัมพันธ์กับกลุ่มประเภทของซีรีส์แผนภูมิที่สามารถอยู่ร่วมกันได้ใน ChartSeriesGroup หนึ่งอย่างพร้อมกัน ตัวอย่างเช่น: ซีรีส์ ChartType.PercentsStackedArea ไม่สามารถอยู่ร่วมกับซีรีส์ ChartType.StackedArea ใน ChartSeriesGroup หนึ่งได้ แต่สองหรือมากกว่า ChartType.PercentsStackedArea สามารถอยู่ใน ChartSeriesGroup หนึ่งพร้อมกันได้ (CombinableSeriesTypesGroup.AreaChart_PercentsStackedArea) และซีรีส์ ChartType.Line สามารถอยู่พร้อมกับซีรีส์ ChartType.LineWithMarkers ใน CombinableSeriesTypesGroup.LineChart_Line ของ ChartSeriesGroup ได้
+การระบุค่าของกลุ่มประเภทซีรีส์ที่สามารถรวมกันได้ แต่ละองค์ประกอบสัมพันธ์กับกลุ่มประเภทของซีรีส์แผนภูมิที่สามารถอยู่พร้อมกันใน ChartSeriesGroup หนึ่งได้ ตัวอย่างเช่น ซีรีส์ ChartType.PercentsStackedArea ไม่สามารถอยู่พร้อมกับซีรีส์ ChartType.StackedArea ใน ChartSeriesGroup เดียวกันได้ แต่สองหรือมากกว่า ChartType.PercentsStackedArea สามารถอยู่ใน ChartSeriesGroup เดียวกันพร้อมกัน (CombinableSeriesTypesGroup.AreaChart_PercentsStackedArea) และซีรีส์ ChartType.Line สามารถอยู่กับซีรีส์ ChartType.LineWithMarkers พร้อมกันใน ChartSeriesGroup.LineChart_Line หนึ่งได้
 
 ```csharp
 public enum CombinableSeriesTypesGroup

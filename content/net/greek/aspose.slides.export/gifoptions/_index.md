@@ -1,9 +1,9 @@
 ---
 title: GifOptions
-second_title: Aspose.Sildes για .NET API Αναφορά
-description: Αναπαριστά επιλογές εξαγωγής GIF.
+second_title: Aspose.Sildes για .NET Αναφορά API
+description: Αντιπροσωπεύει τις επιλογές εξαγωγής GIF.
 type: docs
-weight: 3820
+weight: 3840
 url: /el/aspose.slides.export/gifoptions/
 ---
 ## GifOptions κλάση
@@ -18,21 +18,21 @@ public class GifOptions : SaveOptions, IGifOptions
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [GifOptions](gifoptions)() | Αρχικοποιεί ένα νέο παράδειγμα της κλάσης GifOptions. |
+| [GifOptions](gifoptions)() | Αρχικοποιεί μια νέα παρουσία της κλάσης GifOptions. |
 
 ## Ιδιότητες
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [DefaultDelay](../../aspose.slides.export/gifoptions/defaultdelay) { get; set; } | Λαμβάνει ή ορίζει τον προεπιλεγμένο χρόνο καθυστέρησης [ms]. Αυτή η τιμή θα χρησιμοποιηθεί εάν το [`AdvanceAfterTime`](../../aspose.slides/islideshowtransition/advanceaftertime) δεν έχει οριστεί. Η προεπιλεγμένη τιμή είναι 1000. |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Επιστρέφει ή ορίζει τη γραμματοσειρά που χρησιμοποιείται όταν η πηγαία γραμματοσειρά δεν βρεθεί. Αναγνώσιμη-εγγράψιμη String. |
-| [ExportHiddenSlides](../../aspose.slides.export/gifoptions/exporthiddenslides) { get; set; } | Καθορίζει αν θα εξαχθούν οι κρυφές διαφάνειες. Η προεπιλεγμένη τιμή είναι false. |
+| [DefaultDelay](../../aspose.slides.export/gifoptions/defaultdelay) { get; set; } | Λαμβάνει ή ορίζει την προεπιλεγμένη χρονική καθυστέρηση [ms]. Αυτή η τιμή θα χρησιμοποιηθεί εάν το [`AdvanceAfterTime`](../../aspose.slides/islideshowtransition/advanceaftertime) δεν έχει οριστεί. Η προεπιλεγμένη τιμή είναι 1000. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Επιστρέφει ή ορίζει τη γραμματοσειρά που χρησιμοποιείται στην περίπτωση που η αρχική γραμματοσειρά δεν βρεθεί. Ανάγνωση-Εγγραφή String. |
+| [ExportHiddenSlides](../../aspose.slides.export/gifoptions/exporthiddenslides) { get; set; } | Καθορίζει εάν οι κρυφές διαφάνειες θα εξαχθούν. Η προεπιλεγμένη τιμή είναι false. |
 | [FrameSize](../../aspose.slides.export/gifoptions/framesize) { get; set; } | Λαμβάνει ή ορίζει το μέγεθος του πλαισίου. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Επιστρέφει ή ορίζει το οπτικό στυλ της διαβάθμισης. Αναγνώσιμη-εγγράψιμη [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Επιστρέφει ή ορίζει το οπτικό στυλ της διαβάθμισης. Ανάγνωση/Εγγραφή [`GradientStyle`](../../aspose.slides/gradientstyle). |
 | [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Αναπαριστά ένα αντικείμενο callback για αποθήκευση ενημερώσεων προόδου σε ποσοστό. Δείτε [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Καθορίζει αν θα παραλειφθούν οι υπερσυνδέσεις με κλήσεις JavaScript κατά την αποθήκευση της παρουσίασης. Αναγνώσιμη-εγγράψιμη Boolean. Η προεπιλεγμένη τιμή είναι **false**. |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Καθορίζει εάν θα παραληφθούν οι υπερσυνδέσεις με κλήσεις JavaScript κατά την αποθήκευση της παρουσίασης. Ανάγνωση/Εγγραφή Boolean. Η προεπιλεγμένη τιμή είναι **false**. |
 | [TransitionFps](../../aspose.slides.export/gifoptions/transitionfps) { get; set; } | Λαμβάνει ή ορίζει το FPS μετάβασης [frames/sec]. Η προεπιλεγμένη τιμή είναι 25. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Επιστρέφει ή ορίζει ένα αντικείμενο που λαμβάνει προειδοποιήσεις και αποφασίζει αν η διαδικασία φόρτωσης θα συνεχιστεί ή θα ματαιωθεί. Αναγνώσιμη-εγγράψιμη [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Επιστρέφει ή ορίζει ένα αντικείμενο που λαμβάνει προειδοποιήσεις και αποφασίζει εάν η διαδικασία φόρτωσης θα συνεχιστεί ή θα ματαιωθεί. Ανάγνωση/Εγγραφή [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Παραδείγματα
 
@@ -44,9 +44,9 @@ using (Presentation pres = new Presentation("pres.pptx"))
 {
     pres.Save("pres.gif", SaveFormat.Gif, new GifOptions
     {
-        FrameSize = new Size(960, 720), // το μέγεθος του δημιουργημένου GIF
-        DefaultDelay = 2000, // πόσο χρονικό διάστημα θα εμφανίζεται κάθε διαφάνεια πριν μεταβεί στην επόμενη
-        TransitionFps = 35 // αυξήστε το FPS για καλύτερη ποιότητα της μετάβασης
+        FrameSize = new Size(960, 720), // το μέγεθος του παραγόμενου GIF
+        DefaultDelay = 2000, // πόσος χρόνος θα εμφανίζεται κάθε διαφάνεια πριν αλλάξει στην επόμενη
+        TransitionFps = 35 // αυξήστε τα FPS για καλύτερη ποιότητα της κίνησης μετάβασης
     });
 }
 ```
@@ -56,6 +56,6 @@ using (Presentation pres = new Presentation("pres.pptx"))
 * κλάση [SaveOptions](../saveoptions)
 * διεπαφή [IGifOptions](../igifoptions)
 * χώρο ονομάτων [Aspose.Slides.Export](../../aspose.slides.export)
-* σύστημα [Aspose.Slides](../../)
+* συγκρότηση [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

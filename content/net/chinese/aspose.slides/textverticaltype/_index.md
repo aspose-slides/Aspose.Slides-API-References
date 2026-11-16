@@ -3,7 +3,7 @@ title: TextVerticalType
 second_title: Aspose.Sildes .NET API 参考
 description: 确定文本的垂直书写模式。
 type: docs
-weight: 11030
+weight: 11050
 url: /zh/aspose.slides/textverticaltype/
 ---
 ## TextVerticalType 枚举

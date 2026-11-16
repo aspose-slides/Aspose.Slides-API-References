@@ -3,7 +3,7 @@ title: OrientationTransition
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
 description: ओरिएंटेशन स्लाइड संक्रमण प्रभाव।
 type: docs
-weight: 10270
+weight: 10290
 url: /hi/aspose.slides.slideshow/orientationtransition/
 ---
 ## OrientationTransition वर्ग
@@ -14,7 +14,7 @@ url: /hi/aspose.slides.slideshow/orientationtransition/
 public class OrientationTransition : TransitionValueBase, IOrientationTransition
 ```
 
-## गुण
+## विशेषताएँ
 
 | नाम | विवरण |
 | --- | --- |
@@ -25,7 +25,7 @@ public class OrientationTransition : TransitionValueBase, IOrientationTransition
 | नाम | विवरण |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | निर्धारित करता है कि दो TransitionValueBase उदाहरण समान हैं या नहीं। |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | किसी विशेष प्रकार के लिए हैश फ़ंक्शन के रूप में कार्य करता है, जो हैशिंग एल्गोरिदम और हैश तालिका जैसे डेटा संरचनाओं में उपयोग के लिए उपयुक्त है। |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | किसी विशेष प्रकार के लिए एक हैश फ़ंक्शन के रूप में कार्य करता है, जो हैशिंग एल्गोरिदम और डेटा संरचनाओं जैसे हैश टेबल में उपयोग के लिए उपयुक्त है। |
 
 ### संबंधित देखें
 

@@ -1,14 +1,14 @@
 ---
 title: WorkbookType
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Menentukan jenis file workbook Open XML.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Menentukan jenis file buku kerja Open XML.
 type: docs
-weight: 2510
+weight: 2530
 url: /id/aspose.slides.charts/workbooktype/
 ---
 ## WorkbookType enumerasi
 
-Menentukan jenis file workbook Open XML.
+Menentukan jenis file buku kerja Open XML.
 
 ```csharp
 public enum WorkbookType
@@ -18,12 +18,12 @@ public enum WorkbookType
 
 | Nama | Nilai | Deskripsi |
 | --- | --- | --- |
-| NotDefined | `-1` | Tipe workbook tidak didefinisikan. |
-| Workbook | `0` | Workbook Excel (*.xlsx). |
-| WorkbookMacro | `1` | Workbook Excel yang mendukung macro (*.xlsm). |
-| Template | `2` | Template Excel (*.xltx). |
-| TemplateMacro | `3` | Template Excel yang mendukung macro (*.xltm). |
-| WorkbookBinaryMacro | `4` | Workbook Excel biner yang mendukung macro (*.xlsb). |
+| NotDefined | `-1` | Jenis buku kerja tidak didefinisikan. |
+| Workbook | `0` | Buku kerja Excel (*.xlsx). |
+| WorkbookMacro | `1` | Buku kerja Excel yang mendukung makro (*.xlsm). |
+| Template | `2` | Templat Excel (*.xltx). |
+| TemplateMacro | `3` | Templat Excel yang mendukung makro (*.xltm). |
+| WorkbookBinaryMacro | `4` | Buku kerja Excel biner yang mendukung makro (*.xlsb). |
 
 ### Lihat Juga
 

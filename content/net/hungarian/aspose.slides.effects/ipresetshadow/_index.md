@@ -1,19 +1,20 @@
 ---
 title: IPresetShadow
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Előre definiált árnyék effektust képvisel.
+second_title: Aspose.Sildes .NET API referencia
+description: Egy előre beállított árnyékhatást ábrázol.
 type: docs
-weight: 3480
+weight: 3500
 url: /hu/aspose.slides.effects/ippresetshadow/
 ---
 ## IPresetShadow interfész
 
-Egy előre definiált árnyék effektust képvisel.
+Egy Preset Shadow hatást ábrázol.
 
 ```csharp
 public interface IPresetShadow : IAccessiblePVIObject<IPresetShadowEffectiveData>, 
     IImageTransformOperation
 ```
+
 
 ## Tulajdonságok
 
@@ -21,10 +22,10 @@ public interface IPresetShadow : IAccessiblePVIObject<IPresetShadowEffectiveData
 | --- | --- |
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/ipresetshadow/asiaccessiblepviobject) { get; } | Lehetővé teszi az alap IAccessiblePVIObject interfész lekérését. Csak olvasható [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
 | [AsIImageTransformOperation](../../aspose.slides.effects/ipresetshadow/asiimagetransformoperation) { get; } | Lehetővé teszi az alap IImageTransformOperation interfész lekérését. Csak olvasható [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Direction](../../aspose.slides.effects/ipresetshadow/direction) { get; set; } | Az árnyék iránya. Olvasás/írás Single. |
-| [Distance](../../aspose.slides.effects/ipresetshadow/distance) { get; set; } | Az árnyék távolsága. Olvasás/írás Double. |
-| [Preset](../../aspose.slides.effects/ipresetshadow/preset) { get; set; } | Előre beállított. Olvasás/írás [`PresetShadowType`](../../aspose.slides/presetshadowtype). |
-| [ShadowColor](../../aspose.slides.effects/ipresetshadow/shadowcolor) { get; } | Az árnyék színe. Csak olvasható [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Direction](../../aspose.slides.effects/ipresetshadow/direction) { get; set; } | Árnyék iránya. Olvasható/írható Single. |
+| [Distance](../../aspose.slides.effects/ipresetshadow/distance) { get; set; } | Árnyék távolsága. Olvasható/írható Double. |
+| [Preset](../../aspose.slides.effects/ipresetshadow/preset) { get; set; } | Preset. Olvasható/írható [`PresetShadowType`](../../aspose.slides/presetshadowtype). |
+| [ShadowColor](../../aspose.slides.effects/ipresetshadow/shadowcolor) { get; } | Árnyék színe. Csak olvasható [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ### Lásd még
 

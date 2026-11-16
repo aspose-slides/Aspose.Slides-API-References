@@ -1,26 +1,26 @@
 ---
 title: PptxReadException
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Vertegenwoordigt een uitzondering die wordt gegooid bij fouten tijdens het lezen van een presentatie.
+description: Stelt een uitzondering voor die wordt gegooid bij fouten tijdens het lezen van presentaties.
 type: docs
-weight: 9570
+weight: 9590
 url: /nl/aspose.slides/pptxreadexception/
 ---
 ## PptxReadException klasse
 
-Vertegenwoordigt een uitzondering die wordt gegooid bij fouten tijdens het lezen van een presentatie.
+Stelt een uitzondering voor die wordt gegooid bij fouten bij het lezen van presentaties.
 
 ```csharp
 public class PptxReadException : PptxException
 ```
 
-## Constructors
+## Constructoren
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
 | [PptxReadException](pptxreadexception#constructor)() | Standaardconstructor. |
-| [PptxReadException](pptxreadexception#constructor_1)(string) | Constructor die een bericht toestaat toe te voegen aan deze uitzondering. |
-| [PptxReadException](pptxreadexception#constructor_2)(string, Exception) | Constructor voor een uitzondering die een bericht en een ingesloten uitzondering bevat. |
+| [PptxReadException](pptxreadexception#constructor_1)(string) | Constructor die een bericht aan deze uitzondering kan toevoegen. |
+| [PptxReadException](pptxreadexception#constructor_2)(string, Exception) | Constructor voor een uitzondering die een bericht en een ingebedde uitzondering bevat. |
 
 ### Zie ook
 

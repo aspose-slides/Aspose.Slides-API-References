@@ -1,9 +1,9 @@
 ---
 title: IWarningCallback
-second_title: Tham khảo API Aspose.Sildes cho .NET
+second_title: Tham chiếu API Aspose.Sildes cho .NET
 description: Giao diện cho các lớp nhận cảnh báo
 type: docs
-weight: 11800
+weight: 11820
 url: /vi/aspose.slides.warnings/iwarningcallback/
 ---
 ## IWarningCallback giao diện
@@ -18,7 +18,7 @@ public interface IWarningCallback
 
 | Tên | Mô tả |
 | --- | --- |
-| [Warning](../../aspose.slides.warnings/iwarningcallback/warning)(IWarningInfo) | Phương thức callback nhận cảnh báo và quyết định xem thao tác có nên bị hủy không. |
+| [Warning](../../aspose.slides.warnings/iwarningcallback/warning)(IWarningInfo) | Phương thức callback nhận cảnh báo và quyết định liệu thao tác có nên bị hủy hay không. |
 
 ### Xem thêm
 

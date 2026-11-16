@@ -1,9 +1,9 @@
 ---
 title: IEffectFactory
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+second_title: Aspose.Sildes สำหรับ .NET API Reference
 description: อนุญาตให้สร้างอินสแตนซ์ของเอฟเฟกต์
 type: docs
-weight: 3290
+weight: 3310
 url: /th/aspose.slides.effects/ieffectfactory/
 ---
 ## IEffectFactory อินเทอร์เฟซ
@@ -18,7 +18,7 @@ public interface IEffectFactory
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [ImageTransformOperationFactory](../../aspose.slides.effects/ieffectfactory/imagetransformoperationfactory) { get; } | คืนค่า ImageTransformOperationFactory. อ่านอย่างเดียว [`IImageTransformOperationFactory`](../iimagetransformoperationfactory). |
+| [ImageTransformOperationFactory](../../aspose.slides.effects/ieffectfactory/imagetransformoperationfactory) { get; } | ส่งกลับ ImageTransformOperationFactory. อ่านอย่างเดียว [`IImageTransformOperationFactory`](../iimagetransformoperationfactory). |
 
 ## เมธอด
 

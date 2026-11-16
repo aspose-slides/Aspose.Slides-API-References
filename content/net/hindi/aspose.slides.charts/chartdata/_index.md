@@ -1,14 +1,14 @@
 ---
 title: ChartData
-second_title: Aspose.Sildes .NET के लिए API संदर्भ
-description: एक चार्ट प्लॉटिंग के लिए उपयोग किए जाने वाले डेटा का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: चार्ट प्लॉटिंग के लिये उपयोग किए जाने वाले डेटा को दर्शाता है।
 type: docs
-weight: 1310
+weight: 1320
 url: /hi/aspose.slides.charts/chartdata/
 ---
-## ChartData क्लास
+## ChartData वर्ग
 
-एक चार्ट प्लॉटिंग के लिए उपयोग किए जाने वाले डेटा का प्रतिनिधित्व करता है।
+चार्ट प्लॉटिंग के लिये उपयोग किया जाने वाला डेटा दर्शाता है।
 
 ```csharp
 public class ChartData : DomObject<Chart>, IChartData
@@ -18,34 +18,35 @@ public class ChartData : DomObject<Chart>, IChartData
 
 | नाम | विवरण |
 | --- | --- |
-| [Categories](../../aspose.slides.charts/chartdata/categories) { get; } | प्राथमिक श्रेणियों को प्राप्त करता है (या दोनों प्राथमिक और द्वितीयक श्रेणियों को यदि [`UseSecondaryCategories`](./usesecondarycategories) गुण झूठा है)। केवल पढ़ने योग्य [`IChartCategoryCollection`](../ichartcategorycollection)। |
-| [ChartDataWorkbook](../../aspose.slides.charts/chartdata/chartdataworkbook) { get; } | चार्ट श्रृंखला या श्रेणियों के लिए उपयोग किए जाने वाले कोशिकाओं को बनाने के लिए सेल फ़ैक्टरी को प्राप्त करता है। केवल पढ़ने योग्य [`IChartDataWorkbook`](../ichartdataworkbook)। |
-| [DataSourceType](../../aspose.slides.charts/chartdata/datasourcetype) { get; } | यदि बाहरी डेटा स्रोत हो तो बाहरी वर्कबुक पथ को दर्शाता है, अन्यथा शून्य। |
-| [EmbeddedWorkbookType](../../aspose.slides.charts/chartdata/embeddedworkbooktype) { get; } | एम्बेडेड वर्कबुक का प्रकार प्राप्त करता है। यदि [`DataSourceType`](./datasourcetype) ExternalWorkbook है तो NotDefined लौटाता है। केवल पढ़ने योग्य [`WorkbookType`](../workbooktype)। |
-| [ExternalWorkbookPath](../../aspose.slides.charts/chartdata/externalworkbookpath) { get; } | चार्ट के डेटा स्रोत को दर्शाता है। |
-| [SecondaryCategories](../../aspose.slides.charts/chartdata/secondarycategories) { get; } | यदि [`UseSecondaryCategories`](./usesecondarycategories) गुण सत्य है तो द्वितीयक श्रेणियों को प्राप्त करता है। केवल पढ़ने योग्य [`IChartCategoryCollection`](../ichartcategorycollection)। |
+| [Categories](../../aspose.slides.charts/chartdata/categories) { get; } | प्राथमिक श्रेणियों को प्राप्त करता है (या यदि [`UseSecondaryCategories`](./usesecondarycategories) संपत्ति false है तो दोनों प्राथमिक और द्वितीयक श्रेणियों को)। केवल पढ़ने योग्य [`IChartCategoryCollection`](../ichartcategorycollection)। |
+| [ChartDataWorkbook](../../aspose.slides.charts/chartdata/chartdataworkbook) { get; } | चार्ट श्रृंखला या श्रेणियों के लिये उपयोग की जाने वाली कोशिकाओं को बनाने के लिये कोशिका फ़ैक्टरी को प्राप्त करता है। केवल पढ़ने योग्य [`IChartDataWorkbook`](../ichartdataworkbook)। |
+| [DataSourceType](../../aspose.slides.charts/chartdata/datasourcetype) { get; } | यदि बाहरी डेटा स्रोत है तो बाहरी कार्यपुस्तिका पथ को दर्शाता है, अन्यथा null |
+| [EmbeddedWorkbookType](../../aspose.slides.charts/chartdata/embeddedworkbooktype) { get; } | एम्बेडेड कार्यपुस्तिका का प्रकार प्राप्त करता है। यदि [`DataSourceType`](./datasourcetype) ExternalWorkbook है तो NotDefined लौटाता है। केवल पढ़ने योग्य [`WorkbookType`](../workbooktype)। |
+| [ExternalWorkbookPath](../../aspose.slides.charts/chartdata/externalworkbookpath) { get; } | चार्ट का डेटा स्रोत दर्शाता है |
+| [SecondaryCategories](../../aspose.slides.charts/chartdata/secondarycategories) { get; } | यदि [`UseSecondaryCategories`](./usesecondarycategories) संपत्ति true है तो द्वितीयक श्रेणियों को प्राप्त करता है। केवल पढ़ने योग्य [`IChartCategoryCollection`](../ichartcategorycollection)। |
 | [Series](../../aspose.slides.charts/chartdata/series) { get; } | श्रृंखलाओं को प्राप्त करता है। केवल पढ़ने योग्य [`IChartSeriesCollection`](../ichartseriescollection)। |
-| [SeriesGroups](../../aspose.slides.charts/chartdata/seriesgroups) { get; } | श्रृंखलाओं के समूह को प्राप्त करता है। केवल पढ़ने योग्य [`IChartSeriesGroupCollection`](../ichartseriesgroupcollection)। |
-| [UseSecondaryCategories](../../aspose.slides.charts/chartdata/usesecondarycategories) { get; set; } | यदि false है तो [`SecondaryCategories`](./secondarycategories) गुण null लौटाएगा और [`Categories`](./categories) गुण में डेटा प्राथमिक और द्वितीयक दोनों श्रृंखलाओं के लिए उपयोग किया जाएगा। यदि true है तो [`SecondaryCategories`](./secondarycategories) गुण में डेटा द्वितीयक श्रृंखला के लिए उपयोग किया जाएगा और [`Categories`](./categories) गुण में डेटा प्राथमिक श्रृंखला के लिए उपयोग किया जाएगा। पढ़ने/लिखने योग्य बूलियन। |
+| [SeriesGroups](../../aspose.slides.charts/chartdata/seriesgroups) { get; } | श्रृंखलाओं के समूहों को प्राप्त करता है। केवल पढ़ने योग्य [`IChartSeriesGroupCollection`](../ichartseriesgroupcollection)। |
+| [UseSecondaryCategories](../../aspose.slides.charts/chartdata/usesecondarycategories) { get; set; } | यदि false है तो [`SecondaryCategories`](./secondarycategories) संपत्ति null लौटाती है और [`Categories`](./categories) संपत्ति का डेटा दोनों प्राथमिक और द्वितीयक श्रृंखलाओं के लिये उपयोग किया जाता है। यदि true है तो [`SecondaryCategories`](./secondarycategories) संपत्ति का डेटा द्वितीयक श्रृंखलाओं के लिये उपयोग होता है और [`Categories`](./categories) संपत्ति का डेटा प्राथमिक श्रृंखलाओं के लिये उपयोग होता है। पढ़ने/लिखने योग्य Boolean। |
 
 ## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [GetRange](../../aspose.slides.charts/chartdata/getrange)() | चार्ट डेटा रेंज प्राप्त करता है। |
-| [ReadWorkbookStream](../../aspose.slides.charts/chartdata/readworkbookstream)() | अंतर्निहित Excel वर्कबुक को मेमोरी में स्ट्रीम के रूप में लिखता है। |
-| [SetExternalWorkbook](../../aspose.slides.charts/chartdata/setexternalworkbook#setexternalworkbook)(string) | बाहरी वर्कबुक को चार्ट के डेटा स्रोत के रूप में सेट करता है। चार्ट डेटा लक्ष्य वर्कबुक से अपडेट होगा। |
-| [SetExternalWorkbook](../../aspose.slides.charts/chartdata/setexternalworkbook#setexternalworkbook_1)(string, bool) | बाहरी वर्कबुक को चार्ट के डेटा स्रोत के रूप में सेट करता है। |
-| [SetRange](../../aspose.slides.charts/chartdata/setrange)(string) | चार्ट डेटा रेंज सेट करें। नई डेटा रेंज के आधार पर श्रृंखलाएँ और श्रेणियाँ अपडेट होंगी। यदि डेटा रेंज में श्रृंखलाओं की संख्या चार्ट डेटा में श्रृंखलाओं की गिनती से अधिक है तो वर्तमान संग्रह में अंतिम श्रृंखला के समान प्रकार की अतिरिक्त श्रृंखलाएँ संग्रह के अंत में जोड़ी जाएँगी। |
-| [SwitchRowColumn](../../aspose.slides.charts/chartdata/switchrowcolumn)() | धुरी के ऊपर डेटा बदलें। X धुरी पर चार्ट किया गया डेटा Y धुरी में चलेगा और इसके विपरीत। |
-| [WriteWorkbookStream](../../aspose.slides.charts/chartdata/writeworkbookstream)(MemoryStream) | अंतर्निहित Excel वर्कबुक को उपयोगकर्ता-निर्दिष्ट मान से प्रारम्भ करता है। |
+| [GetRange](../../aspose.slides.charts/chartdata/getrange)() | चार्ट डेटा रेंज को प्राप्त करता है। |
+| [ReadWorkbookStream](../../aspose.slides.charts/chartdata/readworkbookstream)() | आंतरिक रूप से सम्मिलित Excel कार्यपुस्तिका को मेमोरी-स्ट्रीम में लिखता है। |
+| [RefreshData](../../aspose.slides.charts/chartdata/refreshdata)() | स्रोत कार्यपुस्तिका से पुनः लोड करके चार्ट डेटा को रीफ़्रेश करता है। |
+| [SetExternalWorkbook](../../aspose.slides.charts/chartdata/setexternalworkbook#setexternalworkbook)(string) | चार्ट के लिये बाहरी कार्यपुस्तिका को डेटा स्रोत के रूप में सेट करता है। चार्ट डेटा लक्ष्य कार्यपुस्तिका से अपडेट किया जाएगा। |
+| [SetExternalWorkbook](../../aspose.slides.charts/chartdata/setexternalworkbook#setexternalworkbook_1)(string, bool) | चार्ट के लिये बाहरी कार्यपुस्तिका को डेटा स्रोत के रूप में सेट करता है। |
+| [SetRange](../../aspose.slides.charts/chartdata/setrange)(string) | चार्ट डेटा रेंज सेट करता है। नई डेटा रेंज के आधार पर श्रृंखलाएँ और श्रेणियाँ अपडेट होंगी। यदि डेटा रेंज में श्रृंखलाओं की संख्या चार्ट डेटा में श्रृंखलाओं की संख्या से अधिक है तो वर्तमान संग्रह में अंतिम श्रृंखला के समान प्रकार की अतिरिक्त श्रृंखलाएँ संग्रह के अंत में जोड़ी जाएँगी। |
+| [SwitchRowColumn](../../aspose.slides.charts/chartdata/switchrowcolumn)() | डेटा को अक्ष के ऊपर स्वैप करता है। X-अक्ष पर चार्ट किया गया डेटा Y-अक्ष पर चलेगा और इसके विपरीत। |
+| [WriteWorkbookStream](../../aspose.slides.charts/chartdata/writeworkbookstream)(MemoryStream) | उपयोगकर्ता-निर्दिष्ट मान के साथ आंतरिक रूप से सम्मिलित Excel कार्यपुस्तिका को प्रारंभ करता है। |
 
-### देखें
+### संबंधित
 
-* क्लास [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
-* क्लास [Chart](../chart)
+* वर्ग [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
+* वर्ग [Chart](../chart)
 * इंटरफ़ेस [IChartData](../ichartdata)
-* नेमस्पेस [Aspose.Slides.Charts](../../aspose.slides.charts)
+* नामस्थान [Aspose.Slides.Charts](../../aspose.slides.charts)
 * असेंबली [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

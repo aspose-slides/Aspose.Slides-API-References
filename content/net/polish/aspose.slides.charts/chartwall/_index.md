@@ -1,9 +1,9 @@
 ---
 title: ChartWall
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla .NET Referencja API
 description: Reprezentuje ściany na wykresach 3D.
 type: docs
-weight: 1520
+weight: 1530
 url: /pl/aspose.slides.charts/chartwall/
 ---
 ## ChartWall klasa
@@ -18,9 +18,9 @@ public class ChartWall : DomObject<Chart>, IChartWall
 
 | Nazwa | Opis |
 | --- | --- |
-| [Format](../../aspose.slides.charts/chartwall/format) { get; } | Zwraca wypełnienie ścian, linię, efekt, style 3D. Tylko do odczytu [`IFormat`](../iformat). |
-| [PictureType](../../aspose.slides.charts/chartwall/picturetype) { get; set; } | Zwraca lub ustawia typ obrazu. Odczyt/zapis [`PictureType`](../picturetype). |
-| [Thickness](../../aspose.slides.charts/chartwall/thickness) { get; set; } | Zwraca lub ustawia grubość ścian jako procent największego wymiaru objętości wykresu. Odczyt/zapis Int32. |
+| [Format](../../aspose.slides.charts/chartwall/format) { get; } | Zwraca wypełnienie ściany, linię, efekt, style 3D. tylko do odczytu [`IFormat`](../iformat). |
+| [PictureType](../../aspose.slides.charts/chartwall/picturetype) { get; set; } | Zwraca lub ustawia typ obrazu. odczyt/zapis [`PictureType`](../picturetype). |
+| [Thickness](../../aspose.slides.charts/chartwall/thickness) { get; set; } | Zwraca lub ustawia grubość ścian jako procent największego wymiaru objętości wykresu. odczyt/zapis Int32. |
 
 ### Zobacz także
 

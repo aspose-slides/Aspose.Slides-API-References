@@ -1,9 +1,9 @@
 ---
 title: ILegendEntryCollection
-second_title: Aspose.Sildes cho .NET tài liệu tham khảo API
+second_title: Tham khảo API Aspose.Sildes cho .NET
 description: Đại diện cho bộ sưu tập chú giải.
 type: docs
-weight: 2140
+weight: 2160
 url: /vi/aspose.slides.charts/ilegendentrycollection/
 ---
 ## ILegendEntryCollection giao diện
@@ -18,10 +18,10 @@ public interface ILegendEntryCollection
 
 | Tên | Mô tả |
 | --- | --- |
-| [Count](../../aspose.slides.charts/ilegendentrycollection/count) { get; } | Lấy số phần tử thực tế có trong bộ sưu tập. Chỉ đọc Int32. |
-| [Item](../../aspose.slides.charts/ilegendentrycollection/item) { get; } | Lấy các thuộc tính của mục chú giải tương ứng với Chart.ChartData.Series[0].DataPoints[index] trong trường hợp loại biểu đồ thuộc danh sách sau: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie; hoặc tương ứng với Chart.ChartData.Series[index] cho các loại biểu đồ khác. |
+| [Count](../../aspose.slides.charts/ilegendentrycollection/count) { get; } | Lấy số lượng phần tử thực tế được chứa trong bộ sưu tập. Chỉ đọc Int32. |
+| [Item](../../aspose.slides.charts/ilegendentrycollection/item) { get; } | Lấy các thuộc tính của mục chú giải tương ứng với Chart.ChartData.Series[0].DataPoints[index] trong trường hợp loại biểu đồ thuộc danh sách: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie; hoặc tương ứng với Chart.ChartData.Series[index] cho các loại biểu đồ khác. |
 
-### Xem thêm
+### Xem Thêm
 
 * không gian tên [Aspose.Slides.Charts](../../aspose.slides.charts)
 * tập hợp [Aspose.Slides](../../)

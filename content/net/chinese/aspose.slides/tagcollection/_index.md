@@ -1,9 +1,9 @@
 ---
 title: TagCollection
-second_title: Aspose.Sildes .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 表示标签的集合（用户定义的字符串对）
 type: docs
-weight: 10890
+weight: 10910
 url: /zh/aspose.slides/tagcollection/
 ---
 ## TagCollection 类
@@ -16,22 +16,22 @@ public sealed class TagCollection : ITagCollection
 
 ## 属性
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
 | [Count](../../aspose.slides/tagcollection/count) { get; } | 返回集合中标签的数量。只读 Int32。 |
-| [IsSynchronized](../../aspose.slides/tagcollection/issynchronized) { get; } | 返回一个值，指示对集合的访问是否已同步（线程安全）。只读 Boolean。 |
+| [IsSynchronized](../../aspose.slides/tagcollection/issynchronized) { get; } | 返回一个值，指示对集合的访问是否同步（线程安全）。只读 Boolean。 |
 | [Item](../../aspose.slides/tagcollection/item) { get; set; } | 返回或设置标签的键和值对。 |
 | [SyncRoot](../../aspose.slides/tagcollection/syncroot) { get; } | 返回同步根。只读 Object。 |
 
 ## 方法
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
-| [Add](../../aspose.slides/tagcollection/add)(string, string) | 向集合中添加新标签。 |
+| [Add](../../aspose.slides/tagcollection/add)(string, string) | 向集合中添加一个新标签。 |
 | [Clear](../../aspose.slides/tagcollection/clear)() | 从集合中移除所有标签。 |
 | [Contains](../../aspose.slides/tagcollection/contains)(string) | 确定集合是否包含特定名称。 |
 | [CopyTo](../../aspose.slides/tagcollection/copyto)(Array, int) | 将集合中的所有元素复制到指定的数组中。 |
-| [GetEnumerator](../../aspose.slides/tagcollection/getenumerator)() | 返回可遍历集合的枚举器。 |
+| [GetEnumerator](../../aspose.slides/tagcollection/getenumerator)() | 返回遍历集合的枚举器。 |
 | [GetNameByIndex](../../aspose.slides/tagcollection/getnamebyindex)(int) | 返回指定索引处标签的键。 |
 | [GetNamesOfTags](../../aspose.slides/tagcollection/getnamesoftags)() | 返回标签的名称。 |
 | [GetValueByIndex](../../aspose.slides/tagcollection/getvaluebyindex)(int) | 返回指定索引处标签的值。 |
@@ -41,7 +41,7 @@ public sealed class TagCollection : ITagCollection
 
 ### 示例
 
-以下示例展示了如何向 PowerPoint 演示文稿添加标签。
+以下示例演示如何向 PowerPoint 演示文稿添加标签。
 
 ```csharp
 [C#]
@@ -52,7 +52,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### 参见
+### 另请参阅
 
 * 接口 [ITagCollection](../itagcollection)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

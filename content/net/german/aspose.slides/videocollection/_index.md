@@ -1,9 +1,9 @@
 ---
 title: VideoCollection
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt eine Sammlung von Video-Objekten dar.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Stellt eine Sammlung von Videoobjekten dar.
 type: docs
-weight: 11710
+weight: 11730
 url: /de/aspose.slides/videocollection/
 ---
 ## VideoCollection Klasse
@@ -18,20 +18,20 @@ public class VideoCollection : DomObject<Presentation>, IVideoCollection
 
 | Name | Beschreibung |
 | --- | --- |
-| [Count](../../aspose.slides/videocollection/count) { get; } | Gibt die Anzahl der Videodateien in der Sammlung zurück. Nur lesbar Int32. |
-| [IsSynchronized](../../aspose.slides/videocollection/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert ist (thread-sicher). Nur lesbar Boolean. |
-| [Item](../../aspose.slides/videocollection/item) { get; } | Ruft das Element am angegebenen Index ab. Nur lesbar [`IVideo`](../ivideo). |
-| [SyncRoot](../../aspose.slides/videocollection/syncroot) { get; } | Gibt die Synchronisationswurzel zurück. Nur lesbar Object. |
+| [Count](../../aspose.slides/videocollection/count) { get; } | Gibt die Anzahl der Videodateien in der Sammlung zurück. Nur-Lesen Int32. |
+| [IsSynchronized](../../aspose.slides/videocollection/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert ist (Thread-sicher). Nur-Lesen Boolean. |
+| [Item](../../aspose.slides/videocollection/item) { get; } | Gibt das Element am angegebenen Index zurück. Nur-Lesen [`IVideo`](../ivideo). |
+| [SyncRoot](../../aspose.slides/videocollection/syncroot) { get; } | Gibt die Synchronisationswurzel zurück. Nur-Lesen Object. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo_1)(byte[]) | Erstellt und fügt ein Video einer Präsentation aus einem Byte-Array hinzu. |
+| [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo_1)(byte[]) | Erstellt ein Video und fügt es einer Präsentation aus einem Byte-Array hinzu. |
 | [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo)(IVideo) | Fügt eine Kopie einer Videodatei aus einer anderen Präsentation hinzu. |
-| [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo_2)(Stream, LoadingStreamBehavior) | Erstellt und fügt ein Video einer Präsentation aus einem Stream hinzu. |
-| [CopyTo](../../aspose.slides/videocollection/copyto)(Array, int) | Kopiert Videos in das angegebene Array, beginnend ab dem angegebenen Index. |
-| [GetEnumerator](../../aspose.slides/videocollection/getenumerator)() | Gibt einen Enumerator zurück, der die Sammlung durchläuft. |
+| [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo_2)(Stream, LoadingStreamBehavior) | Erstellt ein Video und fügt es einer Präsentation aus einem Stream hinzu. |
+| [CopyTo](../../aspose.slides/videocollection/copyto)(Array, int) | Kopiert Videos in das angegebene Array, beginnend beim angegebenen Index. |
+| [GetEnumerator](../../aspose.slides/videocollection/getenumerator)() | Gibt einen Enumerator zurück, der durch die Sammlung iteriert. |
 
 ### Siehe auch
 

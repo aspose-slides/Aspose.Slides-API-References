@@ -1,14 +1,14 @@
 ---
 title: CustomXmlPart
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Egyedi XML részt képvisel.
+second_title: Aspose.Sildes .NET API referencia
+description: Testreszabott xml részt képvisel.
 type: docs
-weight: 2740
+weight: 2760
 url: /hu/aspose.slides/customxmlpart/
 ---
 ## CustomXmlPart osztály
 
-Az egyedi XML részt képviseli.
+Reprezentálja a testreszabott xml részt.
 
 ```csharp
 public class CustomXmlPart : ICustomXmlPart
@@ -18,16 +18,16 @@ public class CustomXmlPart : ICustomXmlPart
 
 | Név | Leírás |
 | --- | --- |
-| [ItemId](../../aspose.slides/customxmlpart/itemid) { get; set; } | Megad egy globálisan egyedi azonosítót (GUID), amely egyetlen egyedi XML részt egy Office Open XML dokumentumban egyedien azonosít. Csak olvasható Guid. |
-| [NamespaceSchemas](../../aspose.slides/customxmlpart/namespaceschemas) { get; } | Visszaadja a gyűjtemény XML sémákat, amelyek a testreszabott XML részhez kapcsolódnak. Csak olvasható String[]. |
-| [XmlAsString](../../aspose.slides/customxmlpart/xmlasstring) { get; set; } | Visszaadja vagy beállítja az xml adatot UTF-8 karakterláncként. Olvasás/írás String. az érték `null`.az érték üres vagy xml-data érvénytelen. |
-| [XmlData](../../aspose.slides/customxmlpart/xmldata) { get; set; } | Visszaadja vagy beállítja az xml adatot. Olvasás/írás Byte[]. az érték `null`.az érték üres vagy xml-data érvénytelen. |
+| [ItemId](../../aspose.slides/customxmlpart/itemid) { get; set; } | Megad egy globálisan egyedi azonosítót (GUID), amely egyedi módon azonosít egyetlen testreszabott XML részt egy Office Open XML dokumentumban. Read-only Guid. |
+| [NamespaceSchemas](../../aspose.slides/customxmlpart/namespaceschemas) { get; } | Visszaadja az egyedi XML részhez társított XML séma gyűjteményt. Read-only String[]. |
+| [XmlAsString](../../aspose.slides/customxmlpart/xmlasstring) { get; set; } | Visszaadja vagy beállítja az xml adatot UTF-8 karakterláncként. Read/write String. az érték `null`. az érték üres vagy az xml-adat érvénytelen. |
+| [XmlData](../../aspose.slides/customxmlpart/xmldata) { get; set; } | Visszaadja vagy beállítja az xml adatot. Read/write Byte[]. az érték `null`. az érték üres vagy az xml-adat érvénytelen. |
 
-## Módszerek
+## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [Remove](../../aspose.slides/customxmlpart/remove)() | Eltávolítja a testreszabott XML részt a bemutatóból. |
+| [Remove](../../aspose.slides/customxmlpart/remove)() | Eltávolítja a testreszabott xml részt a prezentációból. |
 
 ### Lásd még
 

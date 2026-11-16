@@ -1,12 +1,12 @@
 ---
 title: IResourceLoadingArgs
-second_title: Aspose.Sildes para Referência da API .NET
+second_title: Referência da API Aspose.Sildes para .NET
 description: Interface para argumentos de carregamento de recursos externos.
 type: docs
-weight: 6830
+weight: 6850
 url: /pt/aspose.slides/iresourceloadingargs/
 ---
-## interface IResourceLoadingArgs
+## IResourceLoadingArgs interface
 
 Interface para argumentos de carregamento de recursos externos.
 
@@ -19,7 +19,7 @@ public interface IResourceLoadingArgs
 | Nome | Descrição |
 | --- | --- |
 | [OriginalUri](../../aspose.slides/iresourceloadingargs/originaluri) { get; } | URI original do recurso conforme especificado na apresentação importada. |
-| [Uri](../../aspose.slides/iresourceloadingargs/uri) { get; set; } | URI do recurso que é usado para download se [`ResourceLoading`](../iresourceloadingcallback/resourceloading) retornar Default. Inicialmente é definido como a URI original do recurso, mas pode ser redefinido para qualquer valor. |
+| [Uri](../../aspose.slides/iresourceloadingargs/uri) { get; set; } | URI do recurso que é usado para download se [`ResourceLoading`](../iresourceloadingcallback/resourceloading) retornar Default. Inicialmente, ele está definido como o URI original do recurso, mas pode ser redefinido para qualquer valor. |
 
 ## Métodos
 

@@ -1,14 +1,14 @@
 ---
 title: IGenericCloneableT
-second_title: Aspose.Sildes para la referencia de API .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa la versión genérica de ICloneable
 type: docs
-weight: 5950
+weight: 5970
 url: /es/aspose.slides/igenericcloneable-1/
 ---
 ## IGenericCloneable<T> interfaz
 
-Representa la versión genérica de ICloneable
+Represents generic version of ICloneable
 
 ```csharp
 public interface IGenericCloneable<T> : ICloneable
@@ -30,7 +30,7 @@ public interface IGenericCloneable<T> : ICloneable
 | --- | --- |
 | [CloneT](../../aspose.slides/igenericcloneable`1/clonet)() | Crea un nuevo objeto que es una copia de la instancia actual. |
 
-### Véase también
+### Ver también
 
 * espacio de nombres [Aspose.Slides](../../aspose.slides)
 * ensamblado [Aspose.Slides](../../)

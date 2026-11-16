@@ -1,12 +1,12 @@
 ---
 title: TextToHtmlConversionOptions
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Opciones para extraer HTML del texto Pptx.
 type: docs
-weight: 4550
+weight: 4570
 url: /es/aspose.slides.export/texttohtmlconversionoptions/
 ---
-## Clase TextToHtmlConversionOptions
+## TextToHtmlConversionOptions clase
 
 Opciones para extraer HTML del texto Pptx.
 
@@ -25,9 +25,9 @@ public sealed class TextToHtmlConversionOptions : ITextToHtmlConversionOptions
 | Nombre | Descripción |
 | --- | --- |
 | [AddClipboardFragmentHeader](../../aspose.slides.export/texttohtmlconversionoptions/addclipboardfragmentheader) { get; set; } | Devuelve o establece el valor, indicando si se deben agregar encabezados del Portapapeles. Lectura/escritura Boolean. |
-| [EncodingName](../../aspose.slides.export/texttohtmlconversionoptions/encodingname) { get; set; } | Devuelve o establece el nombre de codificación html. Este valor se guardará en el archivo HTML generado, pero corresponde al llamador asegurarse de que el archivo se guarde con esta codificación. Lectura/escritura String. |
+| [EncodingName](../../aspose.slides.export/texttohtmlconversionoptions/encodingname) { get; set; } | Devuelve o establece el nombre de la codificación html. Este valor se guardará en el archivo HTML generado, pero depende del llamador garantizar que el archivo se guarde con esta codificación. Lectura/escritura String. |
 | [LinkEmbedController](../../aspose.slides.export/texttohtmlconversionoptions/linkembedcontroller) { get; set; } | Devuelve o establece un objeto de devolución de llamada que controla cómo se almacenará el objeto externo. Lectura/escritura [`ILinkEmbedController`](../ilinkembedcontroller). |
-| [TextInheritanceLimit](../../aspose.slides.export/texttohtmlconversionoptions/textinheritancelimit) { get; set; } | Devuelve o establece la profundidad inherente para las propiedades de texto. Lectura/escritura [`TextInheritanceLimit`](../textinheritancelimit). |
+| [TextInheritanceLimit](../../aspose.slides.export/texttohtmlconversionoptions/textinheritancelimit) { get; set; } | Devuelve o establece la profundidad heredada para propiedades de texto. Lectura/escritura [`TextInheritanceLimit`](../textinheritancelimit). |
 
 ### Ver también
 

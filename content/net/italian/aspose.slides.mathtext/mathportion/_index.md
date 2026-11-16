@@ -1,14 +1,14 @@
 ---
 title: MathPortion
-second_title: Aspose.Sildes per .NET Riferimento API
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta una porzione con contesto matematico al suo interno.
 type: docs
-weight: 8930
+weight: 8950
 url: /it/aspose.slides.mathtext/mathportion/
 ---
 ## MathPortion classe
 
-Rappresenta una porzione con contesto matematico al suo interno.
+Rappresenta una porzione con contesto matematico all'interno.
 
 ```csharp
 public sealed class MathPortion : Portion, IMathPortion
@@ -35,8 +35,8 @@ public sealed class MathPortion : Portion, IMathPortion
 | --- | --- |
 | [AddField](../../aspose.slides/portion/addfield)(IFieldType) | Converte questa porzione nel campo aggiornato automaticamente. |
 | [AddField](../../aspose.slides/portion/addfield)(string) | Converte questa porzione nel campo aggiornato automaticamente. |
-| [GetCoordinates](../../aspose.slides/portion/getcoordinates)() | Ottiene le coordinate dell'inizio della porzione. La coordinata X del punto rappresenta l'inizio della porzione dal primo carattere, includendo il lato sinistro. La coordinata Y include il lato superiore. |
-| [GetRect](../../aspose.slides/portion/getrect)() | Ottiene le coordinate del rettangolo che delimita la porzione. Il rettangolo include tutte le linee di testo nella porzione, incluse quelle vuote. |
+| [GetCoordinates](../../aspose.slides/portion/getcoordinates)() | Ottiene le coordinate dell'inizio della porzione. La coordinata X del punto rappresenta l'inizio della porzione dal primo carattere includendo il margine sinistro. La coordinata Y include il margine superiore. |
+| [GetRect](../../aspose.slides/portion/getrect)() | Ottiene le coordinate del rettangolo che delimita la porzione. Il rettangolo include tutte le righe di testo nella porzione, incluse quelle vuote. |
 | [RemoveField](../../aspose.slides/portion/removefield)() | Converte questa porzione di campo nella porzione semplice. |
 
 ### Esempi

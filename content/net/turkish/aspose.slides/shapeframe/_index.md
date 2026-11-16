@@ -3,12 +3,12 @@ title: ShapeFrame
 second_title: Aspose.Sildes için .NET API Referansı
 description: Şekil çerçevelerinin özelliklerini temsil eder.
 type: docs
-weight: 9900
+weight: 9920
 url: /tr/aspose.slides/shapeframe/
 ---
 ## ShapeFrame sınıfı
 
-ShapeFrame çerçevesinin özelliklerini temsil eder.
+Şekil çerçevesinin özelliklerini temsil eder.
 
 ```csharp
 public class ShapeFrame : IShapeFrame
@@ -18,7 +18,7 @@ public class ShapeFrame : IShapeFrame
 
 | Ad | Açıklama |
 | --- | --- |
-| [ShapeFrame](shapeframe)(float, float, float, float, NullableBool, NullableBool, float) | Yeni bir ShapeFrame özelliği oluşturur. |
+| [ShapeFrame](shapeframe)(float, float, float, float, NullableBool, NullableBool, float) | Yeni bir şekil çerçevesinin özelliklerini oluşturur. |
 
 ## Özellikler
 
@@ -26,14 +26,14 @@ public class ShapeFrame : IShapeFrame
 | --- | --- |
 | [CenterX](../../aspose.slides/shapeframe/centerx) { get; } | Çerçevenin merkezinin X koordinatını döndürür. Salt okunur Single. |
 | [CenterY](../../aspose.slides/shapeframe/centery) { get; } | Çerçevenin merkezinin Y koordinatını döndürür. Salt okunur Single. |
-| [FlipH](../../aspose.slides/shapeframe/fliph) { get; } | Bir çerçevenin yatay olarak ters çevrilip çevrilmediğini belirler. Salt okunur [`NullableBool`](../nullablebool). |
-| [FlipV](../../aspose.slides/shapeframe/flipv) { get; } | Bir çerçevenin dikey olarak ters çevrilip çevrilmediğini belirler. Salt okunur [`NullableBool`](../nullablebool). |
-| [Height](../../aspose.slides/shapeframe/height) { get; } | Bir çerçevenin yüksekliğini döndürür. Salt okunur Single. |
-| [Rectangle](../../aspose.slides/shapeframe/rectangle) { get; } | Bir çerçevenin koordinatlarını döndürür. Salt okunur RectangleF. |
-| [Rotation](../../aspose.slides/shapeframe/rotation) { get; } | Bir çerçevenin z ekseni etrafında döndürülmüş olduğu derece sayısını döndürür. Pozitif bir değer saat yönünde döndürülmeyi; negatif bir değer saat yönünün tersine döndürülmeyi gösterir. Salt okunur Single. |
-| [Width](../../aspose.slides/shapeframe/width) { get; } | Bir çerçevenin genişliğini döndürür. Salt okunur Single. |
-| [X](../../aspose.slides/shapeframe/x) { get; } | Bir çerçevenin sol üst köşesinin X koordinatını döndürür. Salt okunur Single. |
-| [Y](../../aspose.slides/shapeframe/y) { get; } | Bir çerçevenin sol üst köşesinin Y koordinatını döndürür. Salt okunur Single. |
+| [FlipH](../../aspose.slides/shapeframe/fliph) { get; } | Çerçevenin yatay olarak çevrilip çevrilmediğini belirler. Salt okunur [`NullableBool`](../nullablebool). |
+| [FlipV](../../aspose.slides/shapeframe/flipv) { get; } | Çerçevenin dikey olarak çevrilip çevrilmediğini belirler. Salt okunur [`NullableBool`](../nullablebool). |
+| [Height](../../aspose.slides/shapeframe/height) { get; } | Çerçevenin yüksekliğini döndürür. Salt okunur Single. |
+| [Rectangle](../../aspose.slides/shapeframe/rectangle) { get; } | Çerçevenin koordinatlarını döndürür. Salt okunur RectangleF. |
+| [Rotation](../../aspose.slides/shapeframe/rotation) { get; } | Çerçevenin z ekseni etrafında döndürüldüğü derece sayısını döndürür. Pozitif değer saat yönünde, negatif değer saat yönünün tersine döndürmeyi gösterir. Salt okunur Single. |
+| [Width](../../aspose.slides/shapeframe/width) { get; } | Çerçevenin genişliğini döndürür. Salt okunur Single. |
+| [X](../../aspose.slides/shapeframe/x) { get; } | Çerçevenin sol üst köşesinin X koordinatını döndürür. Salt okunur Single. |
+| [Y](../../aspose.slides/shapeframe/y) { get; } | Çerçevenin sol üst köşesinin Y koordinatını döndürür. Salt okunur Single. |
 
 ## Yöntemler
 
@@ -41,11 +41,11 @@ public class ShapeFrame : IShapeFrame
 | --- | --- |
 | [Clone](../../aspose.slides/shapeframe/clone)() | Klonlar |
 | [CloneT](../../aspose.slides/shapeframe/clonet)() | Klonlar. |
-| override [Equals](../../aspose.slides/shapeframe/equals#equals_1)(object) | Bu örneğin belirtilen bir nesneyle eşit olup olmadığını gösteren bir değer döndürür. |
-| [Equals](../../aspose.slides/shapeframe/equals#equals)(ShapeFrame) | Bu örneğin belirtilen bir nesneyle eşit olup olmadığını gösteren bir değer döndürür. |
+| override [Equals](../../aspose.slides/shapeframe/equals#equals_1)(object) | Bu örneğin belirtilen nesneye eşit olup olmadığını gösteren bir değer döndürür. |
+| [Equals](../../aspose.slides/shapeframe/equals#equals)(ShapeFrame) | Bu örneğin belirtilen nesneye eşit olup olmadığını gösteren bir değer döndürür. |
 | override [GetHashCode](../../aspose.slides/shapeframe/gethashcode)() | Bu nesne için bir karma kodu döndürür. |
 
-### Bakınız
+### Ayrıca Bakınız
 
 * arayüz [IShapeFrame](../ishapeframe)
 * ad alanı [Aspose.Slides](../../aspose.slides)

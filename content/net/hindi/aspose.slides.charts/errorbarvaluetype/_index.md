@@ -1,14 +1,14 @@
 ---
 title: ErrorBarValueType
-second_title: Aspose.Sildes .NET के लिए API संदर्भ
-description: त्रुटि बार मान के प्रकार को दर्शाता है
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: त्रुटि बार मान के प्रकार का प्रतिनिधित्व करता है
 type: docs
-weight: 1650
+weight: 1660
 url: /hi/aspose.slides.charts/errorbarvaluetype/
 ---
-## ErrorBarValueType एन्हुमरेशन
+## ErrorBarValueType एनेमरेशन
 
-त्रुटि बार मान के प्रकार का प्रतिनिधित्व करता है
+त्रुटि बार मान के प्रकार को दर्शाता है
 
 ```csharp
 public enum ErrorBarValueType
@@ -18,11 +18,11 @@ public enum ErrorBarValueType
 
 | नाम | मान | विवरण |
 | --- | --- | --- |
-| Custom | `0` | निर्दिष्ट करता है कि त्रुटि बार की लंबाई प्लस और माइनस तत्वों द्वारा निर्धारित की जाएगी। |
-| Fixed | `1` | निर्दिष्ट करता है कि त्रुटि बार की लंबाई Error Bar Value द्वारा निर्धारित नियत मान होगी। |
-| Percentage | `2` | निर्दिष्ट करता है कि त्रुटि बार की लंबाई डेटा का Error Bar Value प्रतिशत होगी। |
-| StandardDeviation | `3` | निर्दिष्ट करता है कि त्रुटि बार की लंबाई डेटा के Error Bar Value मानक विचलन होगी। |
-| StandardError | `4` | निर्दिष्ट करता है कि त्रुटि बार की लंबाई डेटा के Error Bar Value मानक त्रुटियाँ होंगी। |
+| Custom | `0` | निर्देश देता है कि त्रुटि बार की लंबाई Plus और Minus तत्वों द्वारा निर्धारित की जाएगी। |
+| Fixed | `1` | निर्देश देता है कि त्रुटि बार की लंबाई Error Bar Value द्वारा निर्धारित निश्चित मान होगी। |
+| Percentage | `2` | निर्देश देता है कि त्रुटि बार की लंबाई डेटा का Error Bar Value प्रतिशत होगी। |
+| StandardDeviation | `3` | निर्देश देता है कि त्रुटि बार की लंबाई डेटा की Error Bar Value मानक विचलन होगी। |
+| StandardError | `4` | निर्देश देता है कि त्रुटि बार की लंबाई डेटा की Error Bar Value मानक त्रुटियां होगी। |
 
 ### संबंधित देखें
 

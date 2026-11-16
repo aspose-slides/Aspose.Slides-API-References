@@ -1,14 +1,14 @@
 ---
 title: IEffectStyle
-second_title: Aspose.Sildes .NET API संदर्भ
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
 description: एक इफ़ेक्ट शैली का प्रतिनिधित्व करता है।
 type: docs
-weight: 11170
+weight: 11190
 url: /hi/aspose.slides.theme/ieffectstyle/
 ---
 ## IEffectStyle इंटरफ़ेस
 
-इफ़ेक्ट शैली का प्रतिनिधित्व करता है।
+एक इफ़ेक्ट स्टाइल का प्रतिनिधित्व करता है।
 
 ```csharp
 public interface IEffectStyle
@@ -18,10 +18,10 @@ public interface IEffectStyle
 
 | नाम | विवरण |
 | --- | --- |
-| [EffectFormat](../../aspose.slides.theme/ieffectstyle/effectformat) { get; } | एक इफ़ेक्ट फ़ॉर्मेट लौटाता है। केवल पढ़ने योग्य [`IEffectFormat`](../../aspose.slides/ieffectformat). |
-| [ThreeDFormat](../../aspose.slides.theme/ieffectstyle/threedformat) { get; } | एक 3डी फ़ॉर्मेट लौटाता है। केवल पढ़ने योग्य [`IThreeDFormat`](../../aspose.slides/ithreedformat). |
+| [EffectFormat](../../aspose.slides.theme/ieffectstyle/effectformat) { get; } | एक इफ़ेक्ट फ़ॉर्मेट लौटाता है। केवल-पढ़ने योग्य [`IEffectFormat`](../../aspose.slides/ieffectformat)। |
+| [ThreeDFormat](../../aspose.slides.theme/ieffectstyle/threedformat) { get; } | एक 3d फ़ॉर्मेट लौटाता है। केवल-पढ़ने योग्य [`IThreeDFormat`](../../aspose.slides/ithreedformat)। |
 
-### देखें भी
+### संबंधित देखें
 
 * नामस्थान [Aspose.Slides.Theme](../../aspose.slides.theme)
 * असेंबली [Aspose.Slides](../../)

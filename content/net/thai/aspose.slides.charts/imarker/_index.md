@@ -1,9 +1,9 @@
 ---
 title: IMarker
-second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
-description: เป็นตัวแทนของเครื่องหมายของแผนภูมิ
+second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
+description: แสดงถึงเครื่องหมายของแผนภูมิ.
 type: docs
-weight: 2160
+weight: 2180
 url: /th/aspose.slides.charts/imarker/
 ---
 ## IMarker อินเทอร์เฟซ
@@ -18,9 +18,9 @@ public interface IMarker
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Format](../../aspose.slides.charts/imarker/format) { get; } | รับค่าเติมของเครื่องหมาย. อ่านอย่างเดียว [`IFormat`](../iformat). |
-| [Size](../../aspose.slides.charts/imarker/size) { get; set; } | เป็นตัวแทนของขนาดเครื่องหมายในแผนภูมิเส้น, แผนภูมิกระจาย, หรือแผนภูมิเรดาร์. อ่าน/เขียน Int32. |
-| [Symbol](../../aspose.slides.charts/imarker/symbol) { get; set; } | เป็นตัวแทนของสไตล์เครื่องหมายในแผนภูมิเส้น, แผนภูมิกระจาย, หรือแผนภูมิเรดาร์. อ่าน/เขียน [`MarkerStyleType`](../markerstyletype). |
+| [Format](../../aspose.slides.charts/imarker/format) { get; } | รับการเติมของเครื่องหมาย. อ่านอย่างเดียว [`IFormat`](../iformat). |
+| [Size](../../aspose.slides.charts/imarker/size) { get; set; } | เป็นตัวแทนของขนาดเครื่องหมายในแผนภูมิเส้น, แผนภูมิกระจาย, หรือแผนภูมิบัง. อ่าน/เขียน Int32. |
+| [Symbol](../../aspose.slides.charts/imarker/symbol) { get; set; } | เป็นตัวแทนของสไตล์เครื่องหมายในแผนภูมิเส้น, แผนภูมิกระจาย, หรือแผนภูมิบัง. อ่าน/เขียน [`MarkerStyleType`](../markerstyletype). |
 
 ### ดูเพิ่มเติม
 

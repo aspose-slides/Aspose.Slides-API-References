@@ -1,14 +1,14 @@
 ---
 title: GroupShapeLock
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: กำหนดว่าการดำเนินการใดถูกปิดใช้งานบน GroupShape พาเรนต์
+description: กำหนดว่าการดำเนินการใดถูกปิดการใช้งานบน GroupShape พ่อแม่
 type: docs
-weight: 5100
+weight: 5120
 url: /th/aspose.slides/groupshapelock/
 ---
 ## GroupShapeLock คลาส
 
-กำหนดว่าการดำเนินการใดถูกปิดใช้งานบน GroupShape พาเรนต์
+กำหนดว่าการดำเนินการใดถูกปิดการใช้งานบน GroupShape พ่อแม่
 
 ```csharp
 public class GroupShapeLock : BaseShapeLock, IGroupShapeLock
@@ -18,14 +18,14 @@ public class GroupShapeLock : BaseShapeLock, IGroupShapeLock
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AspectRatioLocked](../../aspose.slides/groupshapelock/aspectratiolocked) { get; set; } | กำหนดว่ารูปร่างต้องรักษาอัตราส่วนเมื่อตัดขนาดหรือไม่ อ่าน/เขียน Boolean. |
-| [GroupingLocked](../../aspose.slides/groupshapelock/groupinglocked) { get; set; } | กำหนดว่าการเพิ่มรูปร่างนี้เข้าไปในกลุ่มเป็นเรื่องต้องห้ามหรือไม่ อ่าน/เขียน Boolean. |
-| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | ส่งคืนค่า true หากฟล็อกการล็อคทั้งหมดถูกปิดใช้งาน อ่านอย่างเดียว Boolean. |
-| [PositionLocked](../../aspose.slides/groupshapelock/positionlocked) { get; set; } | กำหนดว่าการย้ายรูปร่างนี้เป็นเรื่องต้องห้ามหรือไม่ อ่าน/เขียน Boolean. |
-| [RotationLocked](../../aspose.slides/groupshapelock/rotationlocked) { get; set; } | กำหนดว่าการเปลี่ยนมุมการหมุนของรูปร่างนี้เป็นเรื่องต้องห้ามหรือไม่ อ่าน/เขียน Boolean. |
-| [SelectLocked](../../aspose.slides/groupshapelock/selectlocked) { get; set; } | กำหนดว่าการเลือกรูปร่างนี้เป็นเรื่องต้องห้ามหรือไม่ อ่าน/เขียน Boolean. |
-| [SizeLocked](../../aspose.slides/groupshapelock/sizelocked) { get; set; } | กำหนดว่าการปรับขนาดรูปร่างนี้เป็นเรื่องต้องห้ามหรือไม่ อ่าน/เขียน Boolean. |
-| [UngroupingLocked](../../aspose.slides/groupshapelock/ungroupinglocked) { get; set; } | กำหนดว่าการแยกรูปร่างกลุ่มนี้เป็นเรื่องต้องห้ามหรือไม่ อ่าน/เขียน Boolean. |
+| [AspectRatioLocked](../../aspose.slides/groupshapelock/aspectratiolocked) { get; set; } | กำหนดว่ารูปร่างต้องรักษาอัตราส่วนเมื่อปรับขนาดหรือไม่. อ่าน/เขียน Boolean. |
+| [GroupingLocked](../../aspose.slides/groupshapelock/groupinglocked) { get; set; } | กำหนดว่าการเพิ่มรูปร่างนี้เข้าไปในกลุ่มถูกห้ามหรือไม่. อ่าน/เขียน Boolean. |
+| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | คืนค่า true หากแฟล็กการล็อกทั้งหมดถูกปิดการใช้งาน. อ่านอย่างเดียว Boolean. |
+| [PositionLocked](../../aspose.slides/groupshapelock/positionlocked) { get; set; } | กำหนดว่าการย้ายรูปร่างนี้ถูกห้ามหรือไม่. อ่าน/เขียน Boolean. |
+| [RotationLocked](../../aspose.slides/groupshapelock/rotationlocked) { get; set; } | กำหนดว่าการเปลี่ยนมุมการหมุนของรูปร่างนี้ถูกห้ามหรือไม่. อ่าน/เขียน Boolean. |
+| [SelectLocked](../../aspose.slides/groupshapelock/selectlocked) { get; set; } | กำหนดว่าการเลือกรูปร่างนี้ถูกห้ามหรือไม่. อ่าน/เขียน Boolean. |
+| [SizeLocked](../../aspose.slides/groupshapelock/sizelocked) { get; set; } | กำหนดว่าการปรับขนาดรูปร่างนี้ถูกห้ามหรือไม่. อ่าน/เขียน Boolean. |
+| [UngroupingLocked](../../aspose.slides/groupshapelock/ungroupinglocked) { get; set; } | กำหนดว่าการแยกกลุ่มรูปร่างนี้ถูกห้ามหรือไม่. อ่าน/เขียน Boolean. |
 
 ### ดูเพิ่มเติม
 

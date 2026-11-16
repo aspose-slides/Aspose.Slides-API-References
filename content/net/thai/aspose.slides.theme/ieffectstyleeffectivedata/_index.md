@@ -1,14 +1,14 @@
 ---
 title: IEffectStyleEffectiveData
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งบรรจุคุณสมบัติของ effective effect style
+description: วัตถุที่ไม่สามารถแก้ไขได้ซึ่งมีคุณสมบัติสไตล์เอฟเฟกต์ที่มีผล.
 type: docs
-weight: 11200
+weight: 11220
 url: /th/aspose.slides.theme/ieffectstyleeffectivedata/
 ---
-## IEffectStyleEffectiveData ส่วนต่อประสาน
+## IEffectStyleEffectiveData อินเทอร์เฟซ
 
-วัตถุไม่เปลี่ยนแปลงซึ่งบรรจุคุณสมบัติของสไตล์เอฟเฟ็กต์ที่มีผล
+วัตถุที่ไม่สามารถแก้ไขได้ซึ่งมีคุณสมบัติสไตล์เอฟเฟกต์ที่มีผล.
 
 ```csharp
 public interface IEffectStyleEffectiveData
@@ -18,12 +18,12 @@ public interface IEffectStyleEffectiveData
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [EffectFormat](../../aspose.slides.theme/ieffectstyleeffectivedata/effectformat) { get; } | คืนค่าเอฟเฟ็กต์ฟอร์แมต. อ่านอย่างเดียว [`IEffectFormatEffectiveData`](../../aspose.slides/ieffectformateffectivedata). |
-| [ThreeDFormat](../../aspose.slides.theme/ieffectstyleeffectivedata/threedformat) { get; } | คืนค่าฟอร์แมต 3 มิติ. อ่านอย่างเดียว [`IThreeDFormatEffectiveData`](../../aspose.slides/ithreedformateffectivedata). |
+| [EffectFormat](../../aspose.slides.theme/ieffectstyleeffectivedata/effectformat) { get; } | ส่งคืนรูปแบบเอฟเฟกต์. อ่านอย่างเดียว [`IEffectFormatEffectiveData`](../../aspose.slides/ieffectformateffectivedata). |
+| [ThreeDFormat](../../aspose.slides.theme/ieffectstyleeffectivedata/threedformat) { get; } | ส่งคืนรูปแบบ 3d. อ่านอย่างเดียว [`IThreeDFormatEffectiveData`](../../aspose.slides/ithreedformateffectivedata). |
 
 ### หมายเหตุ
 
-ส่วนต่อประสานนี้ใช้เป็นส่วนหนึ่งของ [`IEffectStyleCollectionEffectiveData`](../ieffectstylecollectioneffectivedata).
+อินเทอร์เฟซนี้ใช้เป็นส่วนหนึ่งของ [`IEffectStyleCollectionEffectiveData`](../ieffectstylecollectioneffectivedata).
 
 ### ดูเพิ่มเติม
 

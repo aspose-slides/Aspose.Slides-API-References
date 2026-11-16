@@ -3,7 +3,7 @@ title: LineAlignment
 second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 줄 정렬 유형을 나타냅니다.
 type: docs
-weight: 7720
+weight: 7740
 url: /ko/aspose.slides/linealignment/
 ---
 ## LineAlignment 열거형
@@ -22,7 +22,7 @@ public enum LineAlignment : sbyte
 | Center | `0` |  |
 | Inset | `1` |  |
 
-### 참조
+### 참고
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

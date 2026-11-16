@@ -1,9 +1,9 @@
 ---
 title: TextSearchOptions
-second_title: Aspose.Sildes .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 表示可用于在 Presentation Slide 或 TextFrame 中搜索文本的选项。
 type: docs
-weight: 10970
+weight: 10990
 url: /zh/aspose.slides/textsearchoptions/
 ---
 ## TextSearchOptions 类
@@ -24,11 +24,11 @@ public class TextSearchOptions : ITextSearchOptions
 
 | 名称 | 描述 |
 | --- | --- |
-| [CaseSensitive](../../aspose.slides/textsearchoptions/casesensitive) { get; set; } | 设置为 true 以使用区分大小写的搜索，false 则不使用。读/写 Boolean。 |
-| [IncludeNotes](../../aspose.slides/textsearchoptions/includenotes) { get; set; } | 设置为 `true` 以在执行文本搜索、替换或高亮操作时包含幻灯片注释 ([`NotesSlide`](../notesslide)) 中的文本。默认值为 `false`。 |
-| [WholeWordsOnly](../../aspose.slides/textsearchoptions/wholewordsonly) { get; set; } | 设置为 true 只匹配完整单词，false 则不限制。读/写 Boolean。 |
+| [CaseSensitive](../../aspose.slides/textsearchoptions/casesensitive) { get; set; } | 设置 true 以使用区分大小写的搜索，false 则相反。读/写 Boolean。 |
+| [IncludeNotes](../../aspose.slides/textsearchoptions/includenotes) { get; set; } | 设置 `true` 以在执行文本搜索、替换或高亮操作时包含幻灯片备注 ([`NotesSlide`](../notesslide)) 中的文本。默认值为 `false`。 |
+| [WholeWordsOnly](../../aspose.slides/textsearchoptions/wholewordsonly) { get; set; } | 设置 true 仅匹配完整单词，false 则相反。读/写 Boolean。 |
 
-### 另请参阅
+### 另请参见
 
 * 接口 [ITextSearchOptions](../itextsearchoptions)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

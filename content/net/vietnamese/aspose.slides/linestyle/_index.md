@@ -1,14 +1,14 @@
 ---
 title: LineStyle
-second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Biểu thị kiểu dáng của một đường.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Mô tả kiểu của một đường.
 type: docs
-weight: 7820
+weight: 7840
 url: /vi/aspose.slides/linestyle/
 ---
 ## LineStyle liệt kê
 
-Biểu thị kiểu dáng của một đường.
+Mô tả kiểu của một đường.
 
 ```csharp
 public enum LineStyle : sbyte

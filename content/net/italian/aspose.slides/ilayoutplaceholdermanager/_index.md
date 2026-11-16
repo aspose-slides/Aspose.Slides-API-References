@@ -3,7 +3,7 @@ title: ILayoutPlaceholderManager
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta il gestore che consente di aggiungere segnaposti alla diapositiva di layout.
 type: docs
-weight: 6210
+weight: 6230
 url: /it/aspose.slides/ilayoutplaceholdermanager/
 ---
 ## ILayoutPlaceholderManager interfaccia
@@ -26,8 +26,8 @@ public interface ILayoutPlaceholderManager
 | [AddSmartArtPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addsmartartplaceholder)(float, float, float, float) | Aggiunge una nuova forma segnaposto alla diapositiva di layout per contenere un diagramma SmartArt. |
 | [AddTablePlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addtableplaceholder)(float, float, float, float) | Aggiunge una nuova forma segnaposto alla diapositiva di layout per contenere una tabella. |
 | [AddTextPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addtextplaceholder)(float, float, float, float) | Aggiunge una nuova forma segnaposto alla diapositiva di layout per contenere contenuto testuale. |
-| [AddVerticalContentPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addverticalcontentplaceholder)(float, float, float, float) | Aggiunge una nuova forma segnaposto alla diapositiva di layout per contenere contenuti, come un'immagine, una tabella, media o testo in verticale. |
-| [AddVerticalTextPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addverticaltextplaceholder)(float, float, float, float) | Aggiunge una nuova forma segnaposto alla diapositiva di layout per contenere contenuto testuale in verticale. |
+| [AddVerticalContentPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addverticalcontentplaceholder)(float, float, float, float) | Aggiunge una nuova forma segnaposto alla diapositiva di layout per contenere contenuti, come un'immagine, una tabella, media o testo in direzione verticale. |
+| [AddVerticalTextPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addverticaltextplaceholder)(float, float, float, float) | Aggiunge una nuova forma segnaposto alla diapositiva di layout per contenere contenuto testuale in direzione verticale. |
 
 ### Vedi anche
 

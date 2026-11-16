@@ -1,14 +1,14 @@
 ---
 title: Reflection
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Representa un efecto de reflexión.
+description: Representa un efecto Reflection.
 type: docs
-weight: 3640
+weight: 3660
 url: /es/aspose.slides.effects/reflection/
 ---
-## Reflection clase
+## Clase Reflection
 
-Representa un efecto de reflexión.
+Representa un efecto Reflection.
 
 ```csharp
 public sealed class Reflection : IReflection
@@ -25,9 +25,9 @@ public sealed class Reflection : IReflection
 | [EndReflectionOpacity](../../aspose.slides.effects/reflection/endreflectionopacity) { get; set; } | Opacidad final de la reflexión. (porcentajes). Lectura/escritura Single. |
 | [FadeDirection](../../aspose.slides.effects/reflection/fadedirection) { get; set; } | Especifica la dirección para desplazar la reflexión. (ángulo). Lectura/escritura Single. |
 | [RectangleAlign](../../aspose.slides.effects/reflection/rectanglealign) { get; set; } | Alineación del rectángulo. Lectura/escritura [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/reflection/rotateshadowwithshape) { get; set; } | Especifica si la reflexión debe rotar con la forma cuando la forma está rotada. Lectura/escritura Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/reflection/scalehorizontal) { get; set; } | Especifica el factor de escala horizontal, el escalado negativo provoca una inversión. (porcentajes) Lectura/escritura Double. |
-| [ScaleVertical](../../aspose.slides.effects/reflection/scalevertical) { get; set; } | Especifica el factor de escala vertical, el escalado negativo provoca una inversión. (porcentajes) Lectura/escritura Double. |
+| [RotateShadowWithShape](../../aspose.slides.effects/reflection/rotateshadowwithshape) { get; set; } | Especifica si la reflexión debe girar con la forma cuando la forma está girada. Lectura/escritura Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/reflection/scalehorizontal) { get; set; } | Especifica el factor de escala horizontal, el escalado negativo causa una inversión. (porcentajes) Lectura/escritura Double. |
+| [ScaleVertical](../../aspose.slides.effects/reflection/scalevertical) { get; set; } | Especifica el factor de escala vertical, el escalado negativo causa una inversión. (porcentajes) Lectura/escritura Double. |
 | [SkewHorizontal](../../aspose.slides.effects/reflection/skewhorizontal) { get; set; } | Especifica el ángulo de sesgo horizontal. Lectura/escritura Double. |
 | [SkewVertical](../../aspose.slides.effects/reflection/skewvertical) { get; set; } | Especifica el ángulo de sesgo vertical. Lectura/escritura Double. |
 | [StartPosAlpha](../../aspose.slides.effects/reflection/startposalpha) { get; set; } | Especifica la posición inicial (a lo largo de la rampa de degradado alfa) del valor alfa inicial (porcentajes). Lectura/escritura Single. |
@@ -38,8 +38,8 @@ public sealed class Reflection : IReflection
 | Nombre | Descripción |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/reflection/equals)(object) | Determina si el [`Reflection`](../reflection) especificado es igual al [`Reflection`](../reflection) actual. |
-| [GetEffective](../../aspose.slides.effects/reflection/geteffective)() | Obtiene los datos del efecto Reflection efectivo con la herencia aplicada. |
-| override [GetHashCode](../../aspose.slides.effects/reflection/gethashcode)() | Sirve como una función hash para un tipo particular. |
+| [GetEffective](../../aspose.slides.effects/reflection/geteffective)() | Obtiene los datos efectivos del efecto Reflection con la herencia aplicada. |
+| override [GetHashCode](../../aspose.slides.effects/reflection/gethashcode)() | Sirve como función hash para un tipo particular. |
 
 ### Ver también
 

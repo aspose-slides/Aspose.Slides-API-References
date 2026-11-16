@@ -1,14 +1,14 @@
 ---
 title: MathIntegralTypes
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Wiskundige integraaltypes
+description: Wiskundige integraaltypen
 type: docs
-weight: 8790
+weight: 8810
 url: /nl/aspose.slides.mathtext/mathintegraltypes/
 ---
 ## MathIntegralTypes enumeratie
 
-Wiskundige integraaltypes
+Wiskundige integraaltypen
 
 ```csharp
 public enum MathIntegralTypes
@@ -19,11 +19,11 @@ public enum MathIntegralTypes
 | Naam | Waarde | Beschrijving |
 | --- | --- | --- |
 | Simple | `0` | Integraal: '∫' |
-| Double | `1` | Dubbele integraal: '⌬' |
-| Triple | `2` | Tripel integraal: '⨌' |
-| Contour | `3` | Contourintegraal: '∮' |
-| Surface | `4` | Oppervlakteintegraal: '∯' |
-| Volume | `5` | Volume-integral: '∰' |
+| Double | `1` | Dubbele Integraal: '∬' |
+| Triple | `2` | Drievoudige Integraal: '∭' |
+| Contour | `3` | Contour Integraal: '∮' |
+| Surface | `4` | Oppervlakte Integraal: '∯' |
+| Volume | `5` | VolumeIntegral: '∰' |
 
 ### Zie ook
 

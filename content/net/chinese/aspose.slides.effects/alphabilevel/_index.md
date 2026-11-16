@@ -1,14 +1,14 @@
 ---
 title: AlphaBiLevel
-second_title: Aspose.Sildes .NET API 参考
-description: 表示 Alpha 双层效果。小于阈值的 Alpha 不透明度值将被更改为 0（完全透明），大于或等于阈值的 Alpha 值将被更改为 100（完全不透明）。
+second_title: Aspose.Sildes for .NET API 参考
+description: 表示 Alpha 双层效果。Alpha 不透明度值低于阈值的被更改为 0（完全透明），而大于或等于阈值的 Alpha 值被更改为 100（完全不透明）。
 type: docs
-weight: 2840
+weight: 2860
 url: /zh/aspose.slides.effects/alphabilevel/
 ---
 ## AlphaBiLevel 类
 
-表示 Alpha 双层效果。小于阈值的 Alpha（Opacity）值将更改为 0（完全透明），大于等于阈值的 Alpha 值将更改为 100%（完全不透明）。
+表示 Alpha 双层效果。阈值以下的 Alpha（不透明度）值将更改为 0（完全透明），阈值以上或等于阈值的 Alpha 值将更改为 100%（完全不透明）。
 
 ```csharp
 public sealed class AlphaBiLevel : ImageTransformOperation, IAlphaBiLevel
@@ -18,8 +18,8 @@ public sealed class AlphaBiLevel : ImageTransformOperation, IAlphaBiLevel
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基础 IPresentationComponent 接口。只读 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
-| [Threshold](../../aspose.slides.effects/alphabilevel/threshold) { get; set; } | 返回效果阈值。可读写 Single。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基 IPresentationComponent 接口。只读 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
+| [Threshold](../../aspose.slides.effects/alphabilevel/threshold) { get; set; } | 返回效果阈值。读/写 Single。 |
 
 ## 方法
 
@@ -27,9 +27,9 @@ public sealed class AlphaBiLevel : ImageTransformOperation, IAlphaBiLevel
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/alphabilevel/equals)(object) | 确定指定的 [`AlphaBiLevel`](../alphabilevel) 是否等于当前的 [`AlphaBiLevel`](../alphabilevel)。 |
 | [GetEffective](../../aspose.slides.effects/alphabilevel/geteffective)() | 获取在应用继承后的有效 Alpha Bi-Level 效果数据。 |
-| override [GetHashCode](../../aspose.slides.effects/alphabilevel/gethashcode)() | 作为特定类型的哈希函数。 |
+| override [GetHashCode](../../aspose.slides.effects/alphabilevel/gethashcode)() | 充当特定类型的散列函数。 |
 
-### 另请参见
+### 另见
 
 * 类 [ImageTransformOperation](../imagetransformoperation)
 * 接口 [IAlphaBiLevel](../ialphabilevel)

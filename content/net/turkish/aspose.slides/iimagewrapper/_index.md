@@ -1,14 +1,14 @@
 ---
 title: IImageWrapper
-second_title: Aspose.Sildes .NET için API Referansı
-description: COM arayüzü için System.Drawing.Image sarmalayıcısı.
+second_title: Aspose.Sildes for .NET API Referansı
+description: COM arabirimi için System.Drawing.Image sarmalayıcı.
 type: docs
-weight: 6170
+weight: 6190
 url: /tr/aspose.slides/iimagewrapper/
 ---
 ## IImageWrapper arayüz
 
-COM arayüzü için System.Drawing.Image sarmalayıcısı.
+System.Drawing.Image, COM arayüzü için sarmalayıcı.
 
 ```csharp
 public interface IImageWrapper : IDisposable
@@ -18,19 +18,19 @@ public interface IImageWrapper : IDisposable
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIDisposable](../../aspose.slides/iimagewrapper/asidisposable) { get; } | IDisposable arayüzünü döndürür. Yalnızca okunur IDisposable. |
-| [ImageSource](../../aspose.slides/iimagewrapper/imagesource) { get; } | Image'i alır. Yalnızca okunur Image. |
-| [Size](../../aspose.slides/iimagewrapper/size) { get; } | Image'in piksel cinsinden genişliğini ve yüksekliğini alır. Yalnızca okunur [`Size`](./size). |
+| [AsIDisposable](../../aspose.slides/iimagewrapper/asidisposable) { get; } | IDisposable arayüzünü döndürür. Salt okunur IDisposable. |
+| [ImageSource](../../aspose.slides/iimagewrapper/imagesource) { get; } | Görüntüyü alır. Salt okunur Image. |
+| [Size](../../aspose.slides/iimagewrapper/size) { get; } | Image'ın piksel cinsinden genişliğini ve yüksekliğini alır. Salt okunur [`Size`](./size). |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [Save](../../aspose.slides/iimagewrapper/save#save_1)(string) | Image'i belirtilen dosyaya kaydeder |
-| [Save](../../aspose.slides/iimagewrapper/save#save)(Stream, PPImageFormat) | Image'i belirtilen akışa belirtilen formatta kaydeder. |
-| [Save](../../aspose.slides/iimagewrapper/save#save_2)(string, PPImageFormat) | Image'i belirtilen dosyaya belirtilen formatta kaydeder. |
+| [Save](../../aspose.slides/iimagewrapper/save#save_1)(string) | Image'ı belirtilen dosyaya kaydeder |
+| [Save](../../aspose.slides/iimagewrapper/save#save)(Stream, PPImageFormat) | Image'ı belirtilen formatta belirtilen akışa kaydeder |
+| [Save](../../aspose.slides/iimagewrapper/save#save_2)(string, PPImageFormat) | Image'ı belirtilen formatta belirtilen dosyaya kaydeder |
 
-### Ayrıca Bakınız
+### İlgili
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

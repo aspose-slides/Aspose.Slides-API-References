@@ -1,14 +1,14 @@
 ---
 title: IFlyThroughTransition
-second_title: Aspose.Sildes .NET için API Referansı
-description: Uçuş tarzı slayt geçiş efekti.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Uçuş-üzerinden slayt geçiş efekti.
 type: docs
-weight: 10090
+weight: 10110
 url: /tr/aspose.slides.slideshow/iflythroughtransition/
 ---
-## IFlyThroughTransition arayüz
+## IFlyThroughTransition arayüzü
 
-Uçuş tarzı slayt geçiş efekti.
+Uçuş-üzerinden slayt geçiş efekti.
 
 ```csharp
 public interface IFlyThroughTransition : ITransitionValueBase
@@ -18,11 +18,11 @@ public interface IFlyThroughTransition : ITransitionValueBase
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/iflythroughtransition/asitransitionvaluebase) { get; } | Temel ITransitionValueBase arabirimini almaya izin verir. Sadece okuma [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/iflythroughtransition/direction) { get; set; } | Geçiş yönü. Okuma/yazma [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [HasBounce](../../aspose.slides.slideshow/iflythroughtransition/hasbounce) { get; set; } | Geçiş sırasında sunum slaytlarının hareketinin bir sekme içereceğini belirtir. Okuma/yazma Boolean. |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/iflythroughtransition/asitransitionvaluebase) { get; } | Base ITransitionValueBase arabirimine erişim sağlar. Salt okunur [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/iflythroughtransition/direction) { get; set; } | Geçiş yönü. Okunur/yazılabilir [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
+| [HasBounce](../../aspose.slides.slideshow/iflythroughtransition/hasbounce) { get; set; } | Geçiş sırasında sunum slaytlarının hareketinin sıçramayı içermesini belirtir. Okunur/yazılabilir Boolean. |
 
-### İlgili
+### Ayrıca Bakınız
 
 * arayüz [ITransitionValueBase](../itransitionvaluebase)
 * ad alanı [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

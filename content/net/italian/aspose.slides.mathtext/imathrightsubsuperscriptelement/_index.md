@@ -1,14 +1,14 @@
 ---
 title: IMathRightSubSuperscriptElement
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Specifica l'oggetto Sub-Superscript che consiste in una base e un pedice e un apice posizionati a destra della base.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Specifica l'oggetto Sub-Superscript che è composto da una base e da un pedice e un apice posizionati a destra della base.
 type: docs
-weight: 8450
+weight: 8470
 url: /it/aspose.slides.mathtext/imathrightsubsuperscriptelement/
 ---
 ## IMathRightSubSuperscriptElement interfaccia
 
-Specifica l'oggetto Sub-Superscript, che consiste in una base e un pedice e un apice posizionati a destra della base.
+Specifica l'oggetto Sub-Superscript, che è composto da una base e da un pedice e apice posizionati a destra della base.
 
 ```csharp
 public interface IMathRightSubSuperscriptElement : IMathElement

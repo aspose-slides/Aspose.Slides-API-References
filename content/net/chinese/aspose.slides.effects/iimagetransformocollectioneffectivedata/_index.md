@@ -3,7 +3,7 @@ title: IImageTransformOCollectionEffectiveData
 second_title: Aspose.Sildes for .NET API 参考
 description: 不可变对象，表示只读的有效图像变换效果集合。
 type: docs
-weight: 3380
+weight: 3400
 url: /zh/aspose.slides.effects/iimagetransformocollectioneffectivedata/
 ---
 ## IImageTransformOCollectionEffectiveData 接口
@@ -16,15 +16,15 @@ public interface IImageTransformOCollectionEffectiveData : IGenericCollection<IE
 
 ## 属性
 
-| 名称 | 描述 |
+| 名称 | 说明 |
 | --- | --- |
-| [Item](../../aspose.slides.effects/iimagetransformocollectioneffectivedata/item) { get; } | 返回指定索引处的元素。 |
+| [Item](../../aspose.slides.effects/iimagetransformocollectioneffectivedata/item) { get; } | 按索引返回元素。 |
 
 ### 备注
 
 名称 IImageTransformOperationCollectionEffectiveData 被截断为 IImageTransformOCollectionEffectiveData，因为 COM 名称长度不能超过 39。
 
-### 另请参见
+### 另见
 
 * 接口 [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * 接口 [IEffectEffectiveData](../ieffecteffectivedata)

@@ -1,14 +1,14 @@
 ---
 title: ErrorBarValueType
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Biểu thị kiểu giá trị thanh lỗi
+second_title: Aspose.Sildes cho .NET Tham chiếu API
+description: Biểu thị loại giá trị thanh lỗi
 type: docs
-weight: 1650
+weight: 1660
 url: /vi/aspose.slides.charts/errorbarvaluetype/
 ---
 ## ErrorBarValueType liệt kê
 
-Biểu thị kiểu giá trị thanh lỗi
+Biểu thị loại giá trị thanh lỗi
 
 ```csharp
 public enum ErrorBarValueType
@@ -24,7 +24,7 @@ public enum ErrorBarValueType
 | StandardDeviation | `3` | Chỉ định rằng độ dài của các thanh lỗi sẽ là độ lệch chuẩn Error Bar Value của dữ liệu. |
 | StandardError | `4` | Chỉ định rằng độ dài của các thanh lỗi sẽ là sai số chuẩn Error Bar Value của dữ liệu. |
 
-### Xem Thêm
+### Xem thêm
 
 * không gian tên [Aspose.Slides.Charts](../../aspose.slides.charts)
 * tập hợp [Aspose.Slides](../../)

@@ -1,9 +1,9 @@
 ---
 title: SystemColor
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 表示预定义的系统颜色。
 type: docs
-weight: 10810
+weight: 10830
 url: /zh/aspose.slides/systemcolor/
 ---
 ## SystemColor 枚举
@@ -16,7 +16,7 @@ public enum SystemColor
 
 ### 值
 
-| 名称 | 值 | 说明 |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `-1` | 系统颜色未定义。 |
 | ScrollBar | `0` |  |
@@ -50,7 +50,7 @@ public enum SystemColor
 | MenuHighlight | `29` |  |
 | MenuBar | `30` |  |
 
-### 另请参见
+### 另见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

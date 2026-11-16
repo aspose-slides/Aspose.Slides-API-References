@@ -1,9 +1,9 @@
 ---
 title: Save
-second_title: Aspose.Sildes per .NET Riferimento API
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Salva tutte le diapositive di una presentazione in un file con il formato specificato.
 type: docs
-weight: 380
+weight: 390
 url: /it/aspose.slides/ipresentation/save/
 ---
 ## Save(string, SaveFormat) {#save_5}
@@ -30,7 +30,7 @@ public void Save(string fname, SaveFormat format)
 
 ## Save(Stream, SaveFormat) {#save_1}
 
-Salva tutte le diapositive di una presentazione in uno stream nel formato specificato.
+Salva tutte le diapositive di una presentazione in un flusso nel formato specificato.
 
 ```csharp
 public void Save(Stream stream, SaveFormat format)
@@ -76,7 +76,7 @@ public void Save(string fname, SaveFormat format, ISaveOptions options)
 
 ## Save(Stream, SaveFormat, ISaveOptions) {#save_2}
 
-Salva tutte le diapositive di una presentazione in uno stream nel formato specificato e con opzioni aggiuntive.
+Salva tutte le diapositive di una presentazione in un flusso nel formato specificato e con opzioni aggiuntive.
 
 ```csharp
 public void Save(Stream stream, SaveFormat format, ISaveOptions options)
@@ -170,7 +170,7 @@ public void Save(string fname, int[] slides, SaveFormat format, ISaveOptions opt
 
 ## Save(Stream, int[], SaveFormat) {#save_3}
 
-Salva le diapositive specificate di una presentazione in uno stream nel formato specificato.
+Salva le diapositive specificate di una presentazione in un flusso nel formato specificato.
 
 ```csharp
 public void Save(Stream stream, int[] slides, SaveFormat format)
@@ -201,7 +201,7 @@ public void Save(Stream stream, int[] slides, SaveFormat format)
 
 ## Save(Stream, int[], SaveFormat, ISaveOptions) {#save_4}
 
-Salva le diapositive specificate di una presentazione in uno stream nel formato specificato.
+Salva le diapositive specificate di una presentazione in un flusso nel formato specificato.
 
 ```csharp
 public void Save(Stream stream, int[] slides, SaveFormat format, ISaveOptions options)
@@ -234,7 +234,7 @@ public void Save(Stream stream, int[] slides, SaveFormat format, ISaveOptions op
 
 ## Save(IXamlOptions) {#save}
 
-Salva tutte le diapositive di una presentazione in un insieme di file che rappresentano il markup XAML.
+Salva tutte le diapositive di una presentazione in un insieme di file che rappresentano markup XAML.
 
 ```csharp
 public void Save(IXamlOptions options)

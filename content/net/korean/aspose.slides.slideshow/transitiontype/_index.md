@@ -1,9 +1,9 @@
 ---
 title: TransitionType
-second_title: Aspose.Sildes용 .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 슬라이드 쇼 전환 유형을 나타냅니다.
 type: docs
-weight: 10450
+weight: 10470
 url: /ko/aspose.slides.slideshow/transitiontype/
 ---
 ## TransitionType 열거형
@@ -21,7 +21,7 @@ public enum TransitionType
 | None | `0` |  |
 | Blinds | `1` |  |
 | Checker | `2` |  |
-| Circle | `3` | PowerPoint 2010에서 전환 Shape (옵션 Circle)과 관련됩니다. |
+| Circle | `3` | PowerPoint 2010에서 전환 Shape (옵션 Circle)와 관련됩니다. |
 | Comb | `4` |  |
 | Cover | `5` |  |
 | Cut | `6` |  |
@@ -39,41 +39,41 @@ public enum TransitionType
 | Wedge | `18` | PowerPoint 2010에서 전환 Clock (옵션 Wedge)와 관련됩니다. |
 | Wheel | `19` | PowerPoint 2010에서 전환 Clock (옵션 Clockwise)와 관련됩니다. |
 | Wipe | `20` |  |
-| Zoom | `21` | PowerPoint 2010에서 전환 Shape (옵션 In/Out)와 관련됩니다. PowerPoint 2010에서 전환 Zoom과 관련된 Warp도 참조하십시오. |
-| Vortex | `22` | PowerPoint 2010에서 사용할 수 있습니다. |
-| Switch | `23` | PowerPoint 2010에서 사용할 수 있습니다. |
-| Flip | `24` | PowerPoint 2010에서 사용할 수 있습니다. |
-| Ripple | `25` | PowerPoint 2010에서 사용할 수 있습니다. |
-| Honeycomb | `26` | PowerPoint 2010에서 사용할 수 있습니다. |
-| Cube | `27` | PowerPoint 2010에서 사용할 수 있습니다. |
-| Box | `28` | PowerPoint 2010에서 사용할 수 있습니다. |
-| Rotate | `29` | PowerPoint 2010에서 사용할 수 있습니다. |
-| Orbit | `30` | PowerPoint 2010에서 사용할 수 있습니다. |
-| Doors | `31` | PowerPoint 2010에서 사용할 수 있습니다. |
-| Window | `32` | PowerPoint 2010에서 사용할 수 있습니다. |
-| Ferris | `33` | PowerPoint 2010에서 사용할 수 있습니다. |
-| Gallery | `34` | PowerPoint 2010에서 사용할 수 있습니다. |
-| Conveyor | `35` | PowerPoint 2010에서 사용할 수 있습니다. |
-| Pan | `36` | PowerPoint 2010에서 사용할 수 있습니다. |
-| Glitter | `37` | PowerPoint 2010에서 사용할 수 있습니다. |
-| Warp | `38` | PowerPoint 2010에서 전환 Zoom과 관련됩니다. PowerPoint 2010에서 사용할 수 있습니다. |
-| Flythrough | `39` | PowerPoint 2010에서 사용할 수 있습니다. |
-| Flash | `40` | PowerPoint 2010에서 사용할 수 있습니다. |
-| Shred | `41` | PowerPoint 2010에서 사용할 수 있습니다. |
-| Reveal | `42` | PowerPoint 2010에서 사용할 수 있습니다. |
-| WheelReverse | `43` | PowerPoint 2010에서 전환 Clock (옵션 Counterclockwise)와 관련됩니다. PowerPoint 2010에서 사용할 수 있습니다. |
-| FallOver | `44` | PowerPoint 2013에서 사용할 수 있습니다. |
-| Drape | `45` | PowerPoint 2013에서 사용할 수 있습니다. |
-| Curtains | `46` | PowerPoint 2013에서 사용할 수 있습니다. |
-| Wind | `47` | PowerPoint 2013에서 사용할 수 있습니다. |
-| Prestige | `48` | PowerPoint 2013에서 사용할 수 있습니다. |
-| Fracture | `49` | PowerPoint 2013에서 사용할 수 있습니다. |
-| Crush | `50` | PowerPoint 2013에서 사용할 수 있습니다. |
-| PeelOff | `51` | PowerPoint 2013에서 사용할 수 있습니다. |
-| PageCurlDouble | `52` | PowerPoint 2013에서 사용할 수 있습니다. |
-| PageCurlSingle | `53` | PowerPoint 2013에서 사용할 수 있습니다. |
-| Airplane | `54` | PowerPoint 2013에서 사용할 수 있습니다. |
-| Origami | `55` | PowerPoint 2013에서 사용할 수 있습니다. |
+| Zoom | `21` | PowerPoint 2010에서 전환 Shape (옵션 In/Out)와 관련됩니다. PowerPoint 2010에서 전환 Zoom과 관련된 Warp도 참고하십시오. |
+| Vortex | `22` | PowerPoint 2010에서 사용 가능. |
+| Switch | `23` | PowerPoint 2010에서 사용 가능. |
+| Flip | `24` | PowerPoint 2010에서 사용 가능. |
+| Ripple | `25` | PowerPoint 2010에서 사용 가능. |
+| Honeycomb | `26` | PowerPoint 2010에서 사용 가능. |
+| Cube | `27` | PowerPoint 2010에서 사용 가능. |
+| Box | `28` | PowerPoint 2010에서 사용 가능. |
+| Rotate | `29` | PowerPoint 2010에서 사용 가능. |
+| Orbit | `30` | PowerPoint 2010에서 사용 가능. |
+| Doors | `31` | PowerPoint 2010에서 사용 가능. |
+| Window | `32` | PowerPoint 2010에서 사용 가능. |
+| Ferris | `33` | PowerPoint 2010에서 사용 가능. |
+| Gallery | `34` | PowerPoint 2010에서 사용 가능. |
+| Conveyor | `35` | PowerPoint 2010에서 사용 가능. |
+| Pan | `36` | PowerPoint 2010에서 사용 가능. |
+| Glitter | `37` | PowerPoint 2010에서 사용 가능. |
+| Warp | `38` | PowerPoint 2010에서 전환 Zoom과 관련됩니다. PowerPoint 2010에서 사용 가능. |
+| Flythrough | `39` | PowerPoint 2010에서 사용 가능. |
+| Flash | `40` | PowerPoint 2010에서 사용 가능. |
+| Shred | `41` | PowerPoint 2010에서 사용 가능. |
+| Reveal | `42` | PowerPoint 2010에서 사용 가능. |
+| WheelReverse | `43` | PowerPoint 2010에서 전환 Clock (옵션 Counterclockwise)와 관련됩니다. PowerPoint 2010에서 사용 가능. |
+| FallOver | `44` | PowerPoint 2013에서 사용 가능. |
+| Drape | `45` | PowerPoint 2013에서 사용 가능. |
+| Curtains | `46` | PowerPoint 2013에서 사용 가능. |
+| Wind | `47` | PowerPoint 2013에서 사용 가능. |
+| Prestige | `48` | PowerPoint 2013에서 사용 가능. |
+| Fracture | `49` | PowerPoint 2013에서 사용 가능. |
+| Crush | `50` | PowerPoint 2013에서 사용 가능. |
+| PeelOff | `51` | PowerPoint 2013에서 사용 가능. |
+| PageCurlDouble | `52` | PowerPoint 2013에서 사용 가능. |
+| PageCurlSingle | `53` | PowerPoint 2013에서 사용 가능. |
+| Airplane | `54` | PowerPoint 2013에서 사용 가능. |
+| Origami | `55` | PowerPoint 2013에서 사용 가능. |
 | Morph | `56` | PowerPoint 2019에서 전환 Morph (옵션 Type)와 관련됩니다. |
 
 ### 참고

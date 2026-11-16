@@ -1,14 +1,14 @@
 ---
 title: Explosion
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 파이 중심에서 데이터 포인트가 이동할 양을 지정합니다. 읽기/쓰기 Int32.
+second_title: Aspose.Sildes for .NET API 참조
+description: 데이터 포인트가 파이 중심에서 이동할 양을 지정합니다. 읽기/쓰기 Int32.
 type: docs
-weight: 60
+weight: 100
 url: /ko/aspose.slides.charts/ichartdatapoint/explosion/
 ---
 ## IChartDataPoint.Explosion 속성
 
-파이의 중심에서 데이터 포인트가 이동할 양을 지정합니다. 읽기/쓰기 Int32.
+데이터 포인트가 파이 중심에서 이동할 양을 지정합니다. 읽기/쓰기 Int32.
 
 ```csharp
 public int Explosion { get; set; }

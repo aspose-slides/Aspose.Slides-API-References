@@ -1,9 +1,9 @@
 ---
 title: TableFormat
-second_title: Aspose.Sildes für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Stellt das Format einer Tabelle dar.
 type: docs
-weight: 10870
+weight: 10890
 url: /de/aspose.slides/tableformat/
 ---
 ## TableFormat Klasse
@@ -16,16 +16,16 @@ public sealed class TableFormat : DomObject<Table>, ITableFormat
 
 ## Eigenschaften
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
-| [FillFormat](../../aspose.slides/tableformat/fillformat) { get; } | Gibt ein Tabellenfüll-Eigenschaften-Objekt zurück. Nur-Lesen [`IFillFormat`](../ifillformat). |
-| [Transparency](../../aspose.slides/tableformat/transparency) { get; set; } | Liest oder legt die Transparenz der Füllfarbe fest. Lesen/Schreiben Single. |
+| [FillFormat](../../aspose.slides/tableformat/fillformat) { get; } | Gibt ein Tabellenfüllungs-Eigenschaftsobjekt zurück. Nur lesend [`IFillFormat`](../ifillformat). |
+| [Transparency](../../aspose.slides/tableformat/transparency) { get; set; } | Liest oder setzt die Transparenz der Füllfarbe. Lese/Schreib Single. |
 
 ## Methoden
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
-| [GetEffective](../../aspose.slides/tableformat/geteffective)() | Ermittelt die wirksamen Tabellenformatierungseigenschaften unter Berücksichtigung von Vererbung und angewendeten Tabellenstilen. |
+| [GetEffective](../../aspose.slides/tableformat/geteffective)() | Ermittelt die wirksamen Tabellenformatierungseigenschaften mit Vererbung und angewendeten Tabellenstilen. |
 
 ### Siehe auch
 

@@ -1,14 +1,14 @@
 ---
 title: IAlphaModulateFixedEffectiveData
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 不変オブジェクトで、Alpha Modulate Fixed エフェクトを表します。エフェクトのアルファ不透明度の値は固定のパーセンテージで乗算されます。
+description: 不変オブジェクトで、Alpha Modulate Fixed エフェクトを表します。エフェクトのアルファ不透明度値は固定パーセンテージで乗算されます。
 type: docs
-weight: 3130
+weight: 3150
 url: /ja/aspose.slides.effects/ialphamodulatefixedeffectivedata/
 ---
 ## IAlphaModulateFixedEffectiveData インターフェイス
 
-不変オブジェクトで、Alpha Modulate Fixed エフェクトを表します。エフェクトのアルファ（不透明度）値は固定のパーセンテージで乗算されます。
+不変オブジェクトで、Alpha Modulate Fixed エフェクトを表します。エフェクトのアルファ（不透明度）値は固定パーセンテージで乗算されます。
 
 ```csharp
 public interface IAlphaModulateFixedEffectiveData : IEffectEffectiveData
@@ -16,10 +16,10 @@ public interface IAlphaModulateFixedEffectiveData : IEffectEffectiveData
 
 ## プロパティ
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
-| [Amount](../../aspose.slides.effects/ialphamodulatefixedeffectivedata/amount) { get; } | 効果の量をパーセンテージで返します。 読み取り専用 Single. |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphamodulatefixedeffectivedata/asieffecteffectivedata) { get; } | ベースの IEffectEffectiveData インターフェイスを取得できます。 読み取り専用 [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Amount](../../aspose.slides.effects/ialphamodulatefixedeffectivedata/amount) { get; } | エフェクトの量をパーセントで返します。読み取り専用 Single. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphamodulatefixedeffectivedata/asieffecteffectivedata) { get; } | ベース IEffectEffectiveData インターフェイスを取得できます。読み取り専用 [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
 ### 参照
 

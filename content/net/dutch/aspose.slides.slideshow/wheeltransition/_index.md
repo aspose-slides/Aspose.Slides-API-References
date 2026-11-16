@@ -1,14 +1,14 @@
 ---
 title: WheelTransition
-second_title: Aspose.Sildes voor .NET API Reference
-description: Wielglij-overgangseffect.
+second_title: Aspose.Sildes voor .NET API-referentie
+description: Wielglijdovergangseffect.
 type: docs
-weight: 10470
+weight: 10490
 url: /nl/aspose.slides.slideshow/wheeltransition/
 ---
 ## WheelTransition klasse
 
-Wiel-overgangseffect.
+Wheel slide transition effect.
 
 ```csharp
 public class WheelTransition : TransitionValueBase, IWheelTransition
@@ -16,16 +16,16 @@ public class WheelTransition : TransitionValueBase, IWheelTransition
 
 ## Eigenschappen
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
-| [Spokes](../../aspose.slides.slideshow/wheeltransition/spokes) { get; set; } | Aantal spaken van wheel transition. Lezen/Schrijven UInt32. |
+| [Spokes](../../aspose.slides.slideshow/wheeltransition/spokes) { get; set; } | Aantal spaken van wheel transition. Read/write UInt32. |
 
 ## Methoden
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Bepaalt of de twee TransitionValueBase-instances gelijk zijn. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Dient als hash-functie voor een bepaald type, geschikt voor gebruik in hash-algoritmen en datastructuren zoals een hashtabel. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Bepaalt of de twee TransitionValueBase-instanties gelijk zijn. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Dient als hash-functie voor een bepaald type, geschikt voor gebruik in hashing-algoritmen en datastructuren zoals een hash-tabel. |
 
 ### Zie ook
 

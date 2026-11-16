@@ -1,14 +1,14 @@
 ---
 title: Luminance
-second_title: Aspose.Sildes για .NET Αναφορά API
-description: Αναπαριστά ένα εφέ Luminance. Η φωτεινότητα μετατοπίζει γραμμικά όλα τα χρώματα πιο κοντά στο λευκό ή το μαύρο. Η αντίθεση κλιμακώνει όλα τα χρώματα ώστε να είναι είτε πιο κοντά είτε πιο μακριά το ένα από το άλλο.
+second_title: Aspose.Sildes για .NET API Αναφορά
+description: Αντιπροσωπεύει ένα εφέ Luminance. Η Φωτεινότητα μετατοπίζει γραμμικά όλα τα χρώματα πιο κοντά στο λευκό ή το μαύρο. Η Αντίθεση κλιμακώνει όλα τα χρώματα ώστε να είναι είτε πιο κοντά είτε πιο μακριά.
 type: docs
-weight: 3610
+weight: 3630
 url: /el/aspose.slides.effects/luminance/
 ---
 ## Luminance κλάση
 
-Αναπαριστά ένα εφέ Luminance. Η φωτεινότητα μετατοπίζει γραμμικά όλα τα χρώματα πιο κοντά στο λευκό ή το μαύρο. Η αντίθεση κλιμακώνει όλα τα χρώματα ώστε να είναι είτε πιο κοντά είτε πιο μακριά το ένα από το άλλο.
+Αντιπροσωπεύει ένα εφέ Luminance. Η Φωτεινότητα μετατοπίζει γραμμικά όλα τα χρώματα πιο κοντά στο λευκό ή το μαύρο. Η Αντίθεση κλιμακώνει όλα τα χρώματα ώστε να είναι είτε πιο κοντά είτε πιο μακριά.
 
 ```csharp
 public sealed class Luminance : ImageTransformOperation, ILuminance
@@ -16,16 +16,16 @@ public sealed class Luminance : ImageTransformOperation, ILuminance
 
 ## Ιδιότητες
 
-| Όνομα | Περιγραφή |
+| Name | Description |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Επιτρέπει την ανάκτηση της βασικής διεπαφής IPresentationComponent. Μόνο για ανάγνωση [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Επιτρέπει την λήψη της βασικής διασύνδεσης IPresentationComponent. Μόνο προς ανάγνωση [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Μέθοδοι
 
-| Όνομα | Περιγραφή |
+| Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/luminance/equals)(object) | Καθορίζει εάν το συγκεκριμένο [`Luminance`](../luminance) είναι ίσο με το τρέχον [`Luminance`](../luminance). |
-| [GetEffective](../../aspose.slides.effects/luminance/geteffective)() | Παίρνει τα αποτελεσματικά δεδομένα του εφέ Luminance με την κληρονομική εφαρμογή. |
+| override [Equals](../../aspose.slides.effects/luminance/equals)(object) | Καθορίζει εάν το καθορισμένο [`Luminance`](../luminance) είναι ίσο με το τρέχον [`Luminance`](../luminance). |
+| [GetEffective](../../aspose.slides.effects/luminance/geteffective)() | Αποκτά τα αποτελεσματικά δεδομένα του εφέ Luminance με την εφαρμογή της κληρονομικότητας. |
 | override [GetHashCode](../../aspose.slides.effects/luminance/gethashcode)() | Λειτουργεί ως συνάρτηση κατακερματισμού για έναν συγκεκριμένο τύπο. |
 
 ### Δείτε επίσης

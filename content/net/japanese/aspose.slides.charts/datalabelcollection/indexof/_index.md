@@ -1,14 +1,14 @@
 ---
 title: IndexOf
-second_title: Aspose.Sildes for .NET API リファレンス
-description: 指定された DataLabel のコレクション内のインデックスを返します。
+second_title: Aspose.Sildes の .NET 用 API リファレンス
+description: コレクション内の指定された DataLabel のインデックスを返します。
 type: docs
-weight: 110
+weight: 120
 url: /ja/aspose.slides.charts/datalabelcollection/indexof/
 ---
 ## DataLabelCollection.IndexOf メソッド
 
-指定された DataLabel のコレクション内のインデックスを返します。
+コレクション内の指定された DataLabel のインデックスを返します。
 
 ```csharp
 public int IndexOf(IDataLabel value)
@@ -20,9 +20,9 @@ public int IndexOf(IDataLabel value)
 
 ### 戻り値
 
-DataLabel のインデックス、またはコレクションに属さない場合は -1 が返されます。
+DataLabel のインデックス、またはこのコレクションに属さない DataLabel の場合は -1 を返します。
 
-### 参照
+### 関連項目
 
 * インターフェイス [IDataLabel](../../idatalabel)
 * クラス [DataLabelCollection](../../datalabelcollection)

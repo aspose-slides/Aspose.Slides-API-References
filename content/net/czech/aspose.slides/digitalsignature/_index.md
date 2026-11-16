@@ -1,12 +1,12 @@
 ---
 title: DigitalSignature
-second_title: Aspose.Sildes pro .NET API Reference
+second_title: Aspose.Sildes pro .NET API referenci
 description: Digitální podpis v podepsaném souboru.
 type: docs
-weight: 2770
+weight: 2790
 url: /cs/aspose.slides/digitalsignature/
 ---
-## třída DigitalSignature
+## DigitalSignature třída
 
 Digitální podpis v podepsaném souboru.
 
@@ -18,8 +18,8 @@ public class DigitalSignature : IDigitalSignature
 
 | Název | Popis |
 | --- | --- |
-| [DigitalSignature](digitalsignature#constructor)(X509Certificate2) | Vytvoří nový objekt DigitalSignature se zadaným certifikátem. |
-| [DigitalSignature](digitalsignature#constructor_1)(string, string) | Vytvoří nový objekt DigitalSignature se zadanou cestou k souboru certifikátu a heslem. |
+| [DigitalSignature](digitalsignature#constructor)(X509Certificate2) | Vytvoří nový objekt DigitalSignature s určeným certifikátem. |
+| [DigitalSignature](digitalsignature#constructor_1)(string, string) | Vytvoří nový objekt DigitalSignature s určenou cestou k souboru certifikátu a heslem. |
 
 ## Vlastnosti
 
@@ -27,7 +27,7 @@ public class DigitalSignature : IDigitalSignature
 | --- | --- |
 | [Certificate](../../aspose.slides/digitalsignature/certificate) { get; } | Objekt certifikátu, který byl použit k podepsání dokumentu. Pouze pro čtení X509Certificate2. |
 | [Comments](../../aspose.slides/digitalsignature/comments) { get; set; } | Účel podpisu. Čtení/zápis String. |
-| [IsValid](../../aspose.slides/digitalsignature/isvalid) { get; } | Pokud je tento digitální podpis platný a dokument nebyl poškozen, bude tato hodnota true. Pouze pro čtení Boolean. |
+| [IsValid](../../aspose.slides/digitalsignature/isvalid) { get; } | Pokud je tento digitální podpis platný a dokument nebyl pozměněn, tato hodnota bude pravda. Pouze pro čtení Boolean. |
 | [SignTime](../../aspose.slides/digitalsignature/signtime) { get; } | Čas, kdy byl dokument podepsán. Pouze pro čtení DateTime. |
 
 ### Příklady
@@ -41,7 +41,7 @@ using (Presentation pres = new Presentation())
 {
     // Vytvořit objekt DigitalSignature s PFX souborem a PFX heslem
     DigitalSignature signature = new DigitalSignature("testsignature1.pfx", @"testpass1");
-    // Nastavit komentář nového digitálního podpisu
+    // Přidat komentář k novému digitálnímu podpisu
     signature.Comments = "Aspose.Slides digital signing test.";
     // Přidat digitální podpis do prezentace
     pres.DigitalSignatures.Add(signature);

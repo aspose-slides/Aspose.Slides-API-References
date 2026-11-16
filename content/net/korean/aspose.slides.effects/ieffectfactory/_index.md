@@ -1,9 +1,9 @@
 ---
 title: IEffectFactory
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 효과 인스턴스를 생성할 수 있습니다
 type: docs
-weight: 3290
+weight: 3310
 url: /ko/aspose.slides.effects/ieffectfactory/
 ---
 ## IEffectFactory 인터페이스
@@ -35,7 +35,7 @@ public interface IEffectFactory
 
 COM 호환성을 위해.
 
-### 참조
+### 또 보기
 
 * 네임스페이스 [Aspose.Slides.Effects](../../aspose.slides.effects)
 * 어셈블리 [Aspose.Slides](../../)

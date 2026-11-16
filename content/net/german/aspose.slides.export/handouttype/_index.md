@@ -3,7 +3,7 @@ title: HandoutType
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Gibt an, wie viele Folien und in welcher Reihenfolge auf der Seite platziert werden.
 type: docs
-weight: 3850
+weight: 3870
 url: /de/aspose.slides.export/handouttype/
 ---
 ## HandoutType Aufzählung

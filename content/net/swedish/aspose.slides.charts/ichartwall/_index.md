@@ -1,14 +1,14 @@
 ---
 title: IChartWall
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar väggar på 3d-diagram.
+description: Representerar väggar på 3D-diagram.
 type: docs
-weight: 2010
+weight: 2030
 url: /sv/aspose.slides.charts/ichartwall/
 ---
 ## IChartWall gränssnitt
 
-Representerar väggar på 3d-diagram.
+Representerar väggar på 3d diagram.
 
 ```csharp
 public interface IChartWall
@@ -19,10 +19,10 @@ public interface IChartWall
 | Namn | Beskrivning |
 | --- | --- |
 | [Format](../../aspose.slides.charts/ichartwall/format) { get; } | Returnerar väggens fyllning, linje, effekt, 3d-stilar. Skrivskyddad [`IFormat`](../iformat). |
-| [PictureType](../../aspose.slides.charts/ichartwall/picturetype) { get; set; } | Returnerar eller ställer in bildtypen. Läs/skriv [`PictureType`](./picturetype). |
-| [Thickness](../../aspose.slides.charts/ichartwall/thickness) { get; set; } | Returnerar eller ställer in väggtjockleken som en procentandel av den största dimensionen av plottvolymen. Läs/skriv Int32. |
+| [PictureType](../../aspose.slides.charts/ichartwall/picturetype) { get; set; } | Returnerar eller sätter bildtypen. Läs/skriv [`PictureType`](./picturetype). |
+| [Thickness](../../aspose.slides.charts/ichartwall/thickness) { get; set; } | Returnerar eller sätter väggtjockleken som en procentsats av den största dimensionen av diagrammets volym. Läs/skriv Int32. |
 
-### Se också
+### Se även
 
 * namnutrymme [Aspose.Slides.Charts](../../aspose.slides.charts)
 * samling [Aspose.Slides](../../)

@@ -1,12 +1,12 @@
 ---
 title: Flavor
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Aspose.Sildes для .NET справка API
 description: Все спецификации markdown, используемые в программе.
 type: docs
-weight: 3800
+weight: 3820
 url: /ru/aspose.slides.export/flavor/
 ---
-## Flavor перечисление
+## Перечисление Flavor
 
 Все спецификации markdown, используемые в программе.
 

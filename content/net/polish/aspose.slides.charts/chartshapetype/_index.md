@@ -1,12 +1,12 @@
 ---
 title: ChartShapeType
-second_title: Aspose.Sildes dla .NET – odniesienie API
+second_title: Aspose.Sildes dla .NET – odnośnik API
 description: Reprezentuje kształt wykresu.
 type: docs
-weight: 1470
+weight: 1480
 url: /pl/aspose.slides.charts/chartshapetype/
 ---
-## Wyliczenie ChartShapeType
+## ChartShapeType wyliczenie
 
 Reprezentuje kształt wykresu.
 
@@ -14,17 +14,17 @@ Reprezentuje kształt wykresu.
 public enum ChartShapeType
 ```
 
-### Wartości
+### Values
 
 | Nazwa | Wartość | Opis |
 | --- | --- | --- |
-| NotDefined | `-1` | Kształt wykresu nie jest zdefiniowany. |
-| Box | `0` | Określa, że wykres ma być rysowany w kształcie prostokąta. |
-| Cone | `1` | Określa, że wykres ma być rysowany jako stożek, z podstawą stożka na podłodze i wierzchołkiem stożka na górze znacznika danych. |
-| ConeToMax | `2` | Określa, że wykres ma być rysowany z obciętymi stożkami tak, aby wierzchołek stożka odpowiadał maksymalnej wartości danych. |
+| NotDefined | `-1` | Kształt wykresu nie jest określony. |
+| Box | `0` | Określa, że wykres ma być rysowany w kształcie pudełka. |
+| Cone | `1` | Określa, że wykres ma być rysowany jako stożek, z podstawą stożka na podłodze i szczytem stożka na szczycie znacznika danych. |
+| ConeToMax | `2` | Określa, że wykres ma być rysowany przy użyciu obciętych stożków tak, aby szczyt stożka odpowiadał maksymalnej wartości danych. |
 | Cylinder | `3` | Określa, że wykres ma być rysowany jako cylinder. |
-| Pyramid | `4` | Określa, że wykres ma być rysowany jako prostokątna piramida, z podstawą piramidy na podłodze i wierzchołkiem piramidy na górze znacznika danych. |
-| PyramidToMaximum | `5` | Określa, że wykres ma być rysowany z obciętymi stożkami tak, aby wierzchołek stożka odpowiadał maksymalnej wartości danych. |
+| Pyramid | `4` | Określa, że wykres ma być rysowany jako prostokątna piramida, z podstawą piramidy na podłodze i szczytem piramidy na szczycie znacznika danych. |
+| PyramidToMaximum | `5` | Określa, że wykres ma być rysowany przy użyciu obciętych piramid tak, aby szczyt piramidy odpowiadał maksymalnej wartości danych. |
 
 ### Zobacz także
 

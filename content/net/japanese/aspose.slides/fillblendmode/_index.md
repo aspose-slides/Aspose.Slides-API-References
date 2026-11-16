@@ -1,12 +1,12 @@
 ---
 title: FillBlendMode
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: ブレンドモードを決定します。
 type: docs
-weight: 4770
+weight: 4790
 url: /ja/aspose.slides/fillblendmode/
 ---
-## FillBlendMode 列挙型
+## FillBlendMode 列挙体
 
 ブレンドモードを決定します。
 

@@ -1,14 +1,14 @@
 ---
 title: LeftRightDirectionTransition
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla .NET Referencja API
 description: Efekt przejścia slajdu w kierunku lewo-prawo.
 type: docs
-weight: 10240
+weight: 10260
 url: /pl/aspose.slides.slideshow/leftrightdirectiontransition/
 ---
 ## LeftRightDirectionTransition klasa
 
-Efekt przejścia slajdu w kierunku lewo-prawo.
+Efekt przejścia slajdu w lewo-prawo.
 
 ```csharp
 public class LeftRightDirectionTransition : TransitionValueBase, ILeftRightDirectionTransition
@@ -16,16 +16,16 @@ public class LeftRightDirectionTransition : TransitionValueBase, ILeftRightDirec
 
 ## Właściwości
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/leftrightdirectiontransition/direction) { get; set; } | Kierunek przejścia. Odczyt/zapis [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
+| [Direction](../../aspose.slides.slideshow/leftrightdirectiontransition/direction) { get; set; } | Kierunek przejścia. odczyt/zapis [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
 
 ## Metody
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Określa, czy dwie instancje TransitionValueBase są równe. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Służy jako funkcja mieszająca dla określonego typu, nadająca się do użycia w algorytmach mieszających i strukturach danych, takich jak tablica mieszająca. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Określa, czy dwa wystąpienia TransitionValueBase są równe. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Służy jako funkcja skrótu dla określonego typu, odpowiednia do użycia w algorytmach mieszania i strukturach danych, takich jak tablica mieszająca. |
 
 ### Zobacz także
 

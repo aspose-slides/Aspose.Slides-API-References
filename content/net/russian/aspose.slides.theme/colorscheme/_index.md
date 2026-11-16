@@ -1,14 +1,14 @@
 ---
 title: ColorScheme
-second_title: Справочник API Aspose.Sildes для .NET
-description: Сохраняет цвета, определённые темой.
+second_title: Aspose.Sildes для .NET API Reference
+description: Хранит цвета, определённые темой.
 type: docs
-weight: 11070
+weight: 11090
 url: /ru/aspose.slides.theme/colorscheme/
 ---
 ## ColorScheme класс
 
-Сохраняет цвета, определённые темой.
+Хранит цвета, определённые темой.
 
 ```csharp
 public class ColorScheme : IColorScheme
@@ -26,8 +26,8 @@ public class ColorScheme : IColorScheme
 | [Accent6](../../aspose.slides.theme/colorscheme/accent6) { get; } | Шестой акцентный цвет в схеме. Только для чтения [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [Dark1](../../aspose.slides.theme/colorscheme/dark1) { get; } | Первый тёмный цвет в схеме. Только для чтения [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [Dark2](../../aspose.slides.theme/colorscheme/dark2) { get; } | Второй тёмный цвет в схеме. Только для чтения [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [FollowedHyperlink](../../aspose.slides.theme/colorscheme/followedhyperlink) { get; } | Цвет посещённых гиперссылок. Только для чтения [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Hyperlink](../../aspose.slides.theme/colorscheme/hyperlink) { get; } | Цвет гиперссылок. Только для чтения [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [FollowedHyperlink](../../aspose.slides.theme/colorscheme/followedhyperlink) { get; } | Цвет для посещённых гиперссылок. Только для чтения [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Hyperlink](../../aspose.slides.theme/colorscheme/hyperlink) { get; } | Цвет для гиперссылок. Только для чтения [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [Item](../../aspose.slides.theme/colorscheme/item) { get; } | Получает элемент по указанному индексу. Только для чтения [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [Light1](../../aspose.slides.theme/colorscheme/light1) { get; } | Первый светлый цвет в схеме. Только для чтения [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [Light2](../../aspose.slides.theme/colorscheme/light2) { get; } | Второй светлый цвет в схеме. Только для чтения [`IColorFormat`](../../aspose.slides/icolorformat). |

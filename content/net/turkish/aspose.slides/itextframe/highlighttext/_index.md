@@ -3,7 +3,7 @@ title: HighlightText
 second_title: Aspose.Sildes için .NET API Referansı
 description: Örnek metnin tüm eşleşmelerini belirtilen renk ile vurgular.
 type: docs
-weight: 90
+weight: 100
 url: /tr/aspose.slides/itextframe/highlighttext/
 ---
 ## HighlightText(string, Color) {#highlighttext}
@@ -19,7 +19,7 @@ public void HighlightText(string text, Color highlightColor)
 | text | String | Vurgulanacak metin. |
 | highlightColor | Color | Metni vurgulamak için renk. |
 
-### Ayrıca Bakınız
+### İlgili
 
 * arayüz [ITextFrame](../../itextframe)
 * ad alanı [Aspose.Slides](../../itextframe)
@@ -41,7 +41,7 @@ public void HighlightText(string text, Color highlightColor, ITextSearchOptions 
 | text | String | Vurgulanacak metin. |
 | highlightColor | Color | Metni vurgulamak için renk. |
 | options | ITextSearchOptions | Metin arama seçenekleri [`ITextSearchOptions`](../../itextsearchoptions). |
-| callback | IFindResultCallback | Arama sonuçlarını alacak geri çağırma nesnesi [`IFindResultCallback`](../../ifindresultcallback). |
+| callback | IFindResultCallback | Arama sonuçlarını almak için geri çağırma nesnesi [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### Örnekler
 
@@ -51,16 +51,16 @@ Aşağıdaki kod örneği, bir TextFrame içinde metni nasıl vurgulayacağını
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
-	// ‘important’ kelimesinin tüm tekrarlarını vurgulama
+	// tüm 'important' kelimelerini vurgulama
 	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.HighlightText("important", Color.LightBlue);
-	// ‘the’ kelimesinin tüm ayrı tekrarlarını vurgulama
+	// tüm ayrı 'the' oluşumlarını vurgulama
 	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.HighlightText("the", Color.Violet, new TextSearchOptions()
 	{ WholeWordsOnly = true }, null);
 	presentation.Save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 }
 ```
 
-### Ayrıca Bakınız
+### İlgili
 
 * arayüz [ITextSearchOptions](../../itextsearchoptions)
 * arayüz [IFindResultCallback](../../ifindresultcallback)

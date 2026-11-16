@@ -1,14 +1,14 @@
 ---
 title: ISummaryZoomSection
 second_title: Aspose.Sildes için .NET API Referansı
-description: Summary Zoom frame içinde bir Summary Zoom Section nesnesini temsil eder.
+description: Summary Zoom çerçevesinde bir Summary Zoom Section nesnesini temsil eder.
 type: docs
-weight: 7160
+weight: 7180
 url: /tr/aspose.slides/isummaryzoomsection/
 ---
 ## ISummaryZoomSection arayüz
 
-Summary Zoom Section nesnesini bir Summary Zoom frame içinde temsil eder.
+Özet Yakınlaştırma Bölümü nesnesini bir Özet Yakınlaştırma çerçevesinde temsil eder.
 
 ```csharp
 public interface ISummaryZoomSection : ISectionZoomFrame

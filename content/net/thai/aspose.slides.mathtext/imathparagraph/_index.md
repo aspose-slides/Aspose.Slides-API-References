@@ -1,14 +1,14 @@
 ---
 title: IMathParagraph
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
+second_title: Aspose.Sildes สำหรับ .NET API Reference
 description: ย่อหน้าคณิตศาสตร์ที่เป็นคอนเทนเนอร์สำหรับบล็อกคณิตศาสตร์ IMathBlock
 type: docs
-weight: 8390
+weight: 8410
 url: /th/aspose.slides.mathtext/imathparagraph/
 ---
 ## IMathParagraph อินเทอร์เฟซ
 
-ย่อหน้าคณิตศาสตร์ที่เป็นคอนเทนเนอร์สำหรับบล็อกคณิตศาสตร์ (IMathBlock)
+ย่อหน้าคณิตศาสตร์ที่เป็นที่จัดเก็บบล็อกคณิตศาสตร์ (IMathBlock)
 
 ```csharp
 public interface IMathParagraph : IMathBlockCollection
@@ -18,14 +18,14 @@ public interface IMathParagraph : IMathBlockCollection
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIMathBlockCollection](../../aspose.slides.mathtext/imathparagraph/asimathblockcollection) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IMathBlockCollection พื้นฐาน [`IMathBlockCollection`](../imathblockcollection) |
-| [Justification](../../aspose.slides.mathtext/imathparagraph/justification) { get; set; } | การจัดบรรทัดย่อหน้า ค่าเริ่มต้น: CenteredAsGroup |
+| [AsIMathBlockCollection](../../aspose.slides.mathtext/imathparagraph/asimathblockcollection) { get; } | อนุญาตให้รับอินเตอร์เฟซ IMathBlockCollection พื้นฐาน [`IMathBlockCollection`](../imathblockcollection) |
+| [Justification](../../aspose.slides.mathtext/imathparagraph/justification) { get; set; } | การจัดย่อหน้า ค่าเริ่มต้น: CenteredAsGroup |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [ToLatex](../../aspose.slides.mathtext/imathparagraph/tolatex)() | ดึงสมการคณิตศาสตร์ในรูปแบบ LaTeX |
+| [ToLatex](../../aspose.slides.mathtext/imathparagraph/tolatex)() | รับสมการคณิตศาสตร์ในรูปแบบ LaTeX |
 | [WriteAsMathMl](../../aspose.slides.mathtext/imathparagraph/writeasmathml)(Stream) | บันทึกเนื้อหาของ [`IMathParagraph`](../imathparagraph) นี้เป็น MathML |
 
 ### ตัวอย่าง

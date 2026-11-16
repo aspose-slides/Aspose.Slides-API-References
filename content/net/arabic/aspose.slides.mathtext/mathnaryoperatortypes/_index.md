@@ -1,14 +1,14 @@
 ---
 title: MathNaryOperatorTypes
 second_title: Aspose.Sildes لـ .NET مرجع API
-description: أنواع المشغل Nary IMathNaryOperator باستثناء المتكاملات للمتكاملات MathIntegralTypes./mathintegraltypes
+description: أنواع مشغل Nary IMathNaryOperator باستثناء المتكاملات للمتكاملات MathIntegralTypes./mathintegraltypes
 type: docs
-weight: 8890
+weight: 8910
 url: /ar/aspose.slides.mathtext/mathnaryoperatortypes/
 ---
-## MathNaryOperatorTypes تعداد
+## MathNaryOperatorTypes التعداد
 
-أنواع المشغل Nary IMathNaryOperator (باستثناء المتكاملات) للمتكاملات [`MathIntegralTypes`](../mathintegraltypes)
+أنواع مشغل Nary IMathNaryOperator (باستثناء المتكاملات) للمتكاملات [`MathIntegralTypes`](../mathintegraltypes)
 
 ```csharp
 public enum MathNaryOperatorTypes
@@ -16,7 +16,7 @@ public enum MathNaryOperatorTypes
 
 ### القيم
 
-| الاسم | القيمة | الوصف |
+| Name | Value | Description |
 | --- | --- | --- |
 | Summation | `0` | Summation: '∑' |
 | Product | `1` | Product: '∏' |
@@ -26,7 +26,7 @@ public enum MathNaryOperatorTypes
 | LogicalAnd | `5` | Logical And: '∧' |
 | LogicalOr | `6` | Logical Or: '∨' |
 
-### انظر أيضا
+### انظر أيضًا
 
 * نطاق [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * تجميع [Aspose.Slides](../../)

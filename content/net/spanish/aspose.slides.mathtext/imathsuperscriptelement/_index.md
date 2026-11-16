@@ -1,14 +1,14 @@
 ---
 title: IMathSuperscriptElement
-second_title: Referencia de la API de Aspose.Sildes para .NET
-description: Especifica el objeto superíndice que consta de una base y un superíndice de tamaño reducido situado encima y a la derecha
+second_title: Referencia de API de Aspose.Sildes para .NET
+description: Especifica el objeto superíndice que consiste en una base y un superíndice de tamaño reducido colocado arriba y a la derecha
 type: docs
-weight: 8490
+weight: 8510
 url: /es/aspose.slides.mathtext/imathsuperscriptelement/
 ---
 ## IMathSuperscriptElement interfaz
 
-Especifica el objeto superíndice, que consta de una base y un superíndice de tamaño reducido situado encima y a la derecha
+Especifica el objeto superíndice, que consiste en una base y un superíndice de tamaño reducido colocado arriba y a la derecha
 
 ```csharp
 public interface IMathSuperscriptElement : IMathElement

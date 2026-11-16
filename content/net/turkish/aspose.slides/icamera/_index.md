@@ -1,14 +1,14 @@
 ---
 title: ICamera
-second_title: Aspose.Sildes .NET için API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Kamerayı temsil eder.
 type: docs
-weight: 5410
+weight: 5430
 url: /tr/aspose.slides/icamera/
 ---
-## ICamera arayüz
+## ICamera arayüzü
 
-Kamerayı temsil eder.
+Kamera temsil eder.
 
 ```csharp
 public interface ICamera
@@ -20,16 +20,16 @@ public interface ICamera
 | --- | --- |
 | [CameraType](../../aspose.slides/icamera/cameratype) { get; set; } | Kamera tipi Okuma/Yazma [`CameraPresetType`](../camerapresettype). |
 | [FieldOfViewAngle](../../aspose.slides/icamera/fieldofviewangle) { get; set; } | Kamera FOV (0-180 derece, görüş alanı) Okuma/Yazma Single. |
-| [Zoom](../../aspose.slides/icamera/zoom) { get; set; } | Kamera yakınlaştırması (yüzde cinsinden pozitif değer) Okuma/Yazma Single. |
+| [Zoom](../../aspose.slides/icamera/zoom) { get; set; } | Kamera yakınlaştırması (yüzde olarak pozitif değer) Okuma/Yazma Single. |
 
-## Yöntemler
+## Metotlar
 
 | Ad | Açıklama |
 | --- | --- |
-| [GetRotation](../../aspose.slides/icamera/getrotation)() | Bir dönüş, enlem koordinatı, boylam koordinatı ve eksen etrafında dönüş ile tanımlanır. İlk öğe dönen dizi içinde - enlem, ikinci - boylam, üçüncü - dönüş. Tanımlı dönüş yoksa null döndürür. |
-| [SetRotation](../../aspose.slides/icamera/setrotation)(float, float, float) | Bir dönüş, enlem koordinatı, boylam koordinatı ve eksen etrafında dönüş ile tanımlanır. Koordinat değerlerinden biri float.NaN ise, tüm dönüş tanımsızdır. |
+| [GetRotation](../../aspose.slides/icamera/getrotation)() | Bir döndürme, enlem koordinatı, boylam koordinatı ve eksen etrafında bir devir kullanılarak tanımlanır. dönüşüm dizisinin ilk öğesi - enlem, ikincisi - boylam, üçüncüsü - devir. Tanımlı bir döndürme yoksa null döndürülür. |
+| [SetRotation](../../aspose.slides/icamera/setrotation)(float, float, float) | Bir döndürme, enlem koordinatı, boylam koordinatı ve eksen etrafında bir devir kullanılarak tanımlanır. Koordinat değerlerinden herhangi biri float.NaN ise, tüm döndürme tanımsızdır. |
 
-### Ayrıca Bakınız
+### Bakınız
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

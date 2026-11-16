@@ -1,14 +1,14 @@
 ---
 title: TableStylePreset
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 내장 테이블 스타일을 나타냅니다.
+second_title: Aspose.Sildes .NET API 레퍼런스
+description: 내장된 테이블 스타일을 나타냅니다.
 type: docs
-weight: 10880
+weight: 10900
 url: /ko/aspose.slides/tablestylepreset/
 ---
 ## TableStylePreset 열거형
 
-내장 테이블 스타일을 나타냅니다.
+내장된 테이블 스타일을 나타냅니다.
 
 ```csharp
 public enum TableStylePreset
@@ -18,18 +18,18 @@ public enum TableStylePreset
 
 | 이름 | 값 | 설명 |
 | --- | --- | --- |
-| Custom | `-1` | 테이블에 사용자 정의 스타일이 있습니다. 이는 반환 전용 값입니다. |
-| None | `0` | 스타일이 없습니다. |
+| Custom | `-1` | 테이블에 사용자 지정 스타일이 있습니다. 이는 읽기 전용 값입니다. |
+| None | `0` | 스타일 없음. |
 | MediumStyle2Accent1 | `1` | Medium Style 2 - Accent 1. |
 | MediumStyle2 | `2` | Medium Style 2. |
-| NoStyleNoGrid | `3` | 스타일 없음, 그리드 없음. |
+| NoStyleNoGrid | `3` | No Style, No Grid. |
 | ThemedStyle1Accent1 | `4` | Themed Style 1 - Accent 1. |
 | ThemedStyle1Accent2 | `5` | Themed Style 1 - Accent 2. |
 | ThemedStyle1Accent3 | `6` | Themed Style 1 - Accent 3. |
 | ThemedStyle1Accent4 | `7` | Themed Style 1 - Accent 4. |
 | ThemedStyle1Accent5 | `8` | Themed Style 1 - Accent 5. |
 | ThemedStyle1Accent6 | `9` | Themed Style 1 - Accent 6. |
-| NoStyleTableGrid | `10` | 스타일 없음, 테이블 그리드. |
+| NoStyleTableGrid | `10` | No Style, Table Grid. |
 | ThemedStyle2Accent1 | `11` | Themed Style 2 - Accent 1. |
 | ThemedStyle2Accent2 | `12` | Themed Style 2 - Accent 2. |
 | ThemedStyle2Accent3 | `13` | Themed Style 2 - Accent 3. |
@@ -95,7 +95,7 @@ public enum TableStylePreset
 | DarkStyle2Accent5Accent6 | `73` | Dark Style 2 - Accent 5/Accent 6. |
 | LightStyle1Accent5 | `74` | Light Style 1 - Accent 5. |
 
-### 참고
+### 관련
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

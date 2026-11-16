@@ -1,21 +1,20 @@
 ---
 title: Metered
-second_title: Aspose.Sildes สำหรับ .NET API อ้างอิง
-description: ให้เมธอดสำหรับตั้งค่า metered key.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: ให้เมธอดเพื่อกำหนดคีย์แบบมิเตอร์.
 type: docs
-weight: 9080
+weight: 9100
 url: /th/aspose.slides/metered/
 ---
-
 ## Metered คลาส
 
-Provides methods to set metered key.
+ให้เมธอดเพื่อกำหนดคีย์แบบมิเตอร์.
 
 ```csharp
 public class Metered
 ```
 
-## ตัวสร้าง
+## คอนสตรัคเตอร์
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
@@ -26,14 +25,14 @@ public class Metered
 | ชื่อ | คำอธิบาย |
 | --- | --- |
 | [GetProductName](../../aspose.slides/metered/getproductname)() |  |
-| [SetMeteredKey](../../aspose.slides/metered/setmeteredkey)(string, string) | ตั้งค่า metered public และ private key. หากคุณซื้อใบอนุญาต metered, เมื่อเริ่มแอปพลิเคชัน, ควรเรียก API นี้, โดยปกติแล้วนี่ก็เพียงพอ. อย่างไรก็ตาม, หากการอัปโหลดข้อมูลการใช้ล้มเหลวตลอดและเกิน 24 ชั่วโมง, ใบอนุญาตจะถูกตั้งค่าเป็นสถานะการประเมิน, เพื่อหลีกเลี่ยงกรณีดังกล่าว, คุณควรตรวจสอบสถานะใบอนญาตเป็นประจำ, หากเป็นสถานะการประเมิน, เรียก API นี้อีกครั้ง. |
-| static [GetConsumptionCredit](../../aspose.slides/metered/getconsumptioncredit)() | รับเครดิตการใช้งาน |
-| static [GetConsumptionQuantity](../../aspose.slides/metered/getconsumptionquantity)() | รับขนาดไฟล์การใช้งาน |
-| static [IsMeteredLicensed](../../aspose.slides/metered/ismeteredlicensed)() | ตรวจสอบว่า metered ได้รับอนุญาตหรือไม่ |
+| [SetMeteredKey](../../aspose.slides/metered/setmeteredkey)(string, string) | ตั้งค่าคีย์สาธารณะและส่วนตัวแบบมิเตอร์ หากคุณซื้อไลเซนส์แบบมิเตอร์ เมื่อเริ่มแอปพลิเคชัน ควรเรียก API นี้โดยทั่วไปก็เพียงพอ อย่างไรก็ตาม หากการอัปโหลดข้อมูลการใช้เสมอล้มเหลวและเกิน 24 ชั่วโมง ไลเซนซ์จะถูกตั้งเป็นสถานะทดลอง เพื่อหลีกเลี่ยงกรณีนี้ คุณควรตรวจสอบสถานะไลเซนซ์เป็นระยะ หากเป็นสถานะทดลอง ให้เรียก API นี้อีกครั้ง. |
+| static [GetConsumptionCredit](../../aspose.slides/metered/getconsumptioncredit)() | รับเครดิตการใช้ |
+| static [GetConsumptionQuantity](../../aspose.slides/metered/getconsumptionquantity)() | รับขนาดไฟล์การใช้ |
+| static [IsMeteredLicensed](../../aspose.slides/metered/ismeteredlicensed)() | ตรวจสอบว่ามิเตอร์ได้รับการอนุญาตหรือไม่ |
 
 ### ตัวอย่าง
 
-ในตัวอย่างนี้ จะพยายามตั้งค่า metered public และ private key
+ในตัวอย่างนี้ จะพยายามตั้งค่าคีย์สาธารณะและส่วนตัวแบบมิเตอร์
 
 ```csharp
 [C#]
@@ -48,7 +47,7 @@ Dim matered As Metered = New Metered
 matered.SetMeteredKey("PublicKey", "PrivateKey")
 ```
 
-ไฟล์ jar ส่วนประกอบ:
+ไฟล์ jar ของคอมโพเนนท์:
 
 ```csharp
 Metered matered = new Metered();

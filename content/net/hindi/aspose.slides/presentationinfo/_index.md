@@ -1,14 +1,14 @@
 ---
 title: PresentationInfo
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: प्रेज़ेंटेशन फ़ाइल के बारे में जानकारी
+description: प्रेजेंटेशन फ़ाइल के बारे में जानकारी
 type: docs
-weight: 9620
+weight: 9640
 url: /hi/aspose.slides/presentationinfo/
 ---
 ## PresentationInfo क्लास
 
-प्रेज़ेंटेशन फ़ाइल के बारे में जानकारी
+प्रेजेंटेशन फ़ाइल के बारे में जानकारी
 
 ```csharp
 public sealed class PresentationInfo : IPresentationInfo
@@ -16,21 +16,21 @@ public sealed class PresentationInfo : IPresentationInfo
 
 ## गुण
 
-| Name | Description |
+| नाम | विवरण |
 | --- | --- |
-| [IsEncrypted](../../aspose.slides/presentationinfo/isencrypted) { get; } | यदि बाइंडेड प्रेजेंटेशन एन्क्रिप्टेड हो तो True लौटाता है, अन्यथा False। केवल पढ़ने योग्य Boolean। |
-| [IsPasswordProtected](../../aspose.slides/presentationinfo/ispasswordprotected) { get; } | एक मान प्राप्त करता है जो दर्शाता है कि बाइंडेड प्रेजेंटेशन खोलने के लिए पासवर्ड द्वारा संरक्षित है या नहीं। |
-| [IsWriteProtected](../../aspose.slides/presentationinfo/iswriteprotected) { get; } | एक मान प्राप्त करता है जो दर्शाता है कि बाइंडेड प्रेजेंटेशन लेखन संरक्षणित है या नहीं। |
+| [IsEncrypted](../../aspose.slides/presentationinfo/isencrypted) { get; } | यदि बाइंडेड प्रेजेंटेशन एन्क्रिप्टेड है तो True लौटाता है, अन्यथा False। केवल पढ़ने योग्य Boolean। |
+| [IsPasswordProtected](../../aspose.slides/presentationinfo/ispasswordprotected) { get; } | एक मान लौटाता है जो दर्शाता है कि बाइंडेड प्रेजेंटेशन को खोलने के लिए पासवर्ड द्वारा संरक्षित है या नहीं। |
+| [IsWriteProtected](../../aspose.slides/presentationinfo/iswriteprotected) { get; } | एक मान लौटाता है जो दर्शाता है कि बाइंडेड प्रेजेंटेशन लिखित रूप से संरक्षित है या नहीं। |
 | [LoadFormat](../../aspose.slides/presentationinfo/loadformat) { get; } | बाइंडेड प्रेजेंटेशन का फ़ॉर्मेट प्राप्त करता है। केवल पढ़ने योग्य [`LoadFormat`](../loadformat)। |
 
-## मेथड्स
+## विधियाँ
 
-| Name | Description |
+| नाम | विवरण |
 | --- | --- |
-| [CheckPassword](../../aspose.slides/presentationinfo/checkpassword)(string) | जांचता है कि खुलने के पासवर्ड से संरक्षित प्रेजेंटेशन के लिए पासवर्ड सही है या नहीं। |
-| [CheckWriteProtection](../../aspose.slides/presentationinfo/checkwriteprotection)(string) | जांचता है कि लिखने के लिए संरक्षित प्रेजेंटेशन के लिए संशोधन पासवर्ड सही है या नहीं। |
-| [ReadDocumentProperties](../../aspose.slides/presentationinfo/readdocumentproperties)() | बाइंडेड प्रेजेंटेशन की दस्तावेज़ प्रॉपर्टीज़ प्राप्त करता है। |
-| [UpdateDocumentProperties](../../aspose.slides/presentationinfo/updatedocumentproperties)(IDocumentProperties) | बाइंडेड प्रेजेंटेशन की प्रॉपर्टीज़ को अपडेट करता है। |
+| [CheckPassword](../../aspose.slides/presentationinfo/checkpassword)(string) | जाँचता है कि ओपन पासवर्ड से संरक्षित प्रेजेंटेशन के लिए पासवर्ड सही है या नहीं। |
+| [CheckWriteProtection](../../aspose.slides/presentationinfo/checkwriteprotection)(string) | जाँचता है कि लिखित रूप से संरक्षित प्रेजेंटेशन के लिए संशोधन पासवर्ड सही है या नहीं। |
+| [ReadDocumentProperties](../../aspose.slides/presentationinfo/readdocumentproperties)() | बाइंडेड प्रेजेंटेशन के दस्तावेज़ गुण प्राप्त करता है। |
+| [UpdateDocumentProperties](../../aspose.slides/presentationinfo/updatedocumentproperties)(IDocumentProperties) | बाइंडेड प्रेजेंटेशन के गुणों को अद्यतन करता है। |
 | [WriteBindedPresentation](../../aspose.slides/presentationinfo/writebindedpresentation#writebindedpresentation)(Stream) | बाइंडेड प्रेजेंटेशन को स्ट्रीम में लिखता है। |
 | [WriteBindedPresentation](../../aspose.slides/presentationinfo/writebindedpresentation#writebindedpresentation_1)(string) | बाइंडेड प्रेजेंटेशन को फ़ाइल में लिखता है। |
 

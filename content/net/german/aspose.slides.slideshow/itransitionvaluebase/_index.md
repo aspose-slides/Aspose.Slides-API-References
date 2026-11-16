@@ -3,7 +3,7 @@ title: ITransitionValueBase
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt die Basisklasse für Folienübergangseffekte dar.
 type: docs
-weight: 10210
+weight: 10230
 url: /de/aspose.slides.slideshow/itransitionvaluebase/
 ---
 ## ITransitionValueBase Schnittstelle

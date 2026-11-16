@@ -1,14 +1,14 @@
 ---
 title: ISlideShowTransition
-second_title: Aspose.Sildes .NET API referencia
-description: A diavetítés átmenetét képviseli.
+second_title: Aspose.Sildes a .NET-hez API hivatkozás
+description: A diavetítés áttűnését képviseli.
 type: docs
-weight: 7080
+weight: 7100
 url: /hu/aspose.slides/islideshowtransition/
 ---
 ## ISlideShowTransition interfész
 
-A diavetítés átmenetét képviseli.
+A diavetítés áttűnését képviseli.
 
 ```csharp
 public interface ISlideShowTransition
@@ -19,17 +19,17 @@ public interface ISlideShowTransition
 | Név | Leírás |
 | --- | --- |
 | [AdvanceAfter](../../aspose.slides/islideshowtransition/advanceafter) { get; set; } | Ez az attribútum meghatározza, hogy a diavetítés egy bizonyos idő után a következő diára lép-e. Olvasás/írás Boolean. |
-| [AdvanceAfterTime](../../aspose.slides/islideshowtransition/advanceaftertime) { get; set; } | Megadja azt az időt (ezredmásodpercben), amely után az átmenetet el kell indítani. Ez a beállítás az advClick attribútummal együtt használható. Ha ez az attribútum nincs megadva, akkor azt feltételezik, hogy nem történik automatikus előrehaladás. Olvasás/írás UInt32. |
-| [AdvanceOnClick](../../aspose.slides/islideshowtransition/advanceonclick) { get; set; } | Megadja, hogy az egérkattintás előre viszi-e a diát vagy sem. Ha ez az attribútum nincs megadva, akkor a true érték feltételezhető. Olvasás/írás Boolean. |
-| [Duration](../../aspose.slides/islideshowtransition/duration) { get; set; } | Lekérdezi vagy beállítja a diák átmeneti effektusának időtartamát ezredmásodpercben. Olvasás/írás Int32. |
-| [Sound](../../aspose.slides/islideshowtransition/sound) { get; set; } | Visszaadja vagy beállítja a beágyazott audio adatot. Olvasás/írás [`IAudio`](../iaudio). |
-| [SoundIsBuiltIn](../../aspose.slides/islideshowtransition/soundisbuiltin) { get; set; } | Megadja, hogy ez a hang beépített hang-e vagy sem. Ha ez az attribútum true értékre van állítva, akkor a generáló alkalmazás értesítve lesz, hogy ellenőrizze a ennek a hangnak a name attribútumát a beépített hangok listájában, és szükség esetén egyedi nevet vagy felhasználói felületet jeleníthessen meg. Olvasás/írás Boolean. |
-| [SoundLoop](../../aspose.slides/islideshowtransition/soundloop) { get; set; } | Ez az attribútum meghatározza, hogy a hang a következő hangeseményig ismétlődik-e a diavetítésben. Olvasás/írás Boolean. |
-| [SoundMode](../../aspose.slides/islideshowtransition/soundmode) { get; set; } | Beállítja vagy visszaadja a hangmódot a diák átmenetéhez. Olvasás/írás [`TransitionSoundMode`](../../aspose.slides.slideshow/transitionsoundmode). |
-| [SoundName](../../aspose.slides/islideshowtransition/soundname) { get; set; } | Megad egy ember által olvasható nevet az átmenet hangjának. A [`Sound`](./sound) tulajdonságot kell beállítani a hang nevének lekérdezéséhez vagy módosításához. Olvasás/írás String. |
-| [Speed](../../aspose.slides/islideshowtransition/speed) { get; set; } | Megadja az átmenet sebességét, amelyet a jelenlegi dia a következőre való átmenet során használnak. Olvasás/írás [`TransitionSpeed`](../../aspose.slides.slideshow/transitionspeed). |
-| [Type](../../aspose.slides/islideshowtransition/type) { get; set; } | Az átmenet típusa. Olvasás/írás [`TransitionType`](../../aspose.slides.slideshow/transitiontype). |
-| [Value](../../aspose.slides/islideshowtransition/value) { get; } | A diavetítés átmenet értéke. Csak olvasható [`ITransitionValueBase`](../../aspose.slides.slideshow/itransitionvaluebase). |
+| [AdvanceAfterTime](../../aspose.slides/islideshowtransition/advanceaftertime) { get; set; } | Meghatározza azt az időt ezredmásodpercben, amely után a áttűnésnek el kell indulnia. Ez a beállítás használható az advClick attribútummal együtt. Ha ez az attribútum nincs megadva, akkor feltételezzük, hogy nem történik automatikus előrehaladás. Olvasás/írás UInt32. |
+| [AdvanceOnClick](../../aspose.slides/islideshowtransition/advanceonclick) { get; set; } | Megadja, hogy egy egérkattintás előrelép-e a diára vagy sem. Ha ez az attribútum nincs megadva, akkor az érték igazként van feltételezve. Olvasás/írás Boolean. |
+| [Duration](../../aspose.slides/islideshowtransition/duration) { get; set; } | A diák áttűnési hatás időtartamát határozza meg vagy állítja be ezredmásodpercben. Olvasás/írás Int32. |
+| [Sound](../../aspose.slides/islideshowtransition/sound) { get; set; } | Visszaadja vagy beállítja a beágyazott hangadatokat. Olvasás/írás [`IAudio`](../iaudio). |
+| [SoundIsBuiltIn](../../aspose.slides/islideshowtransition/soundisbuiltin) { get; set; } | Megadja, hogy ez a hang beépített hang-e vagy sem. Ha ez az attribútum igazra van állítva, akkor a generáló alkalmazás értesül, hogy ellenőrizze a name attribútumot, amelyet a hanghoz a beépített hangok listájában adtak meg, és szükség esetén egy egyedi nevet vagy felhasználói felületet jeleníthet meg. Olvasás/írás Boolean. |
+| [SoundLoop](../../aspose.slides/islideshowtransition/soundloop) { get; set; } | Ez az attribútum meghatározza, hogy a hang addig ismétlődjön, amíg a diavetítésben a következő hangesemény nem következik be. Olvasás/írás Boolean. |
+| [SoundMode](../../aspose.slides/islideshowtransition/soundmode) { get; set; } | Beállítja vagy visszaadja a hang módot a diák áttűnéséhez. Olvasás/írás [`TransitionSoundMode`](../../aspose.slides.slideshow/transitionsoundmode). |
+| [SoundName](../../aspose.slides/islideshowtransition/soundname) { get; set; } | Megadja a hang ember által olvasható nevét az áttűnéshez. A [`Sound`](./sound) tulajdonságot be kell állítani a hang név lekéréséhez vagy megadásához. Olvasás/írás String. |
+| [Speed](../../aspose.slides/islideshowtransition/speed) { get; set; } | Megadja az áttűnés sebességét, amelyet a jelenlegi dia és a következő dia közötti áttűnés során használnak. Olvasás/írás [`TransitionSpeed`](../../aspose.slides.slideshow/transitionspeed). |
+| [Type](../../aspose.slides/islideshowtransition/type) { get; set; } | Az áttűnés típusa. Olvasás/írás [`TransitionType`](../../aspose.slides.slideshow/transitiontype). |
+| [Value](../../aspose.slides/islideshowtransition/value) { get; } | Diavetítési áttűnés értéke. Csak olvasható [`ITransitionValueBase`](../../aspose.slides.slideshow/itransitionvaluebase). |
 
 ### Lásd még
 

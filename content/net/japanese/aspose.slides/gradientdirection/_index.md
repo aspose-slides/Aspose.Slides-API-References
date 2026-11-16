@@ -3,7 +3,7 @@ title: GradientDirection
 second_title: Aspose.Sildes for .NET API リファレンス
 description: グラデーションのスタイルを表します。
 type: docs
-weight: 4990
+weight: 5010
 url: /ja/aspose.slides/gradientdirection/
 ---
 ## GradientDirection 列挙型

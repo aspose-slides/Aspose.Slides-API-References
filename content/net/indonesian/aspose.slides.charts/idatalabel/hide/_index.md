@@ -1,12 +1,12 @@
 ---
 title: Hide
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Membuat label data tersembunyi dengan mengatur semua Show-flags ShowValue ... ke keadaan false. IsVisible akan menjadi false setelah ini.
 type: docs
-weight: 80
+weight: 90
 url: /id/aspose.slides.charts/idatalabel/hide/
 ---
-## IDataLabel.Hide method
+## IDataLabel.Hide metode
 
 Membuat label data tersembunyi dengan mengatur semua Show*-flags (ShowValue, ...) ke keadaan false. IsVisible akan menjadi false setelah ini.
 
@@ -14,9 +14,9 @@ Membuat label data tersembunyi dengan mengatur semua Show*-flags (ShowValue, ...
 public void Hide()
 ```
 
-### Remarks
+### Catatan
 
-Jika label data tidak terlihat (IsVisible false) Anda dapat membuat label data terlihat dengan mengatur Show*-flags (ShowValue, ...) ke keadaan true.
+Jika label data tidak terlihat (IsVisible adalah false) Anda dapat membuat label data terlihat dengan mengatur Show*-flags (ShowValue, ...) ke keadaan true.
 
 ### Lihat Juga
 

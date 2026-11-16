@@ -1,14 +1,14 @@
 ---
 title: GetEnumerator
-second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Trả về một enumerator cho phép duyệt qua bộ sưu tập.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Trả về một enumerator cho phép duyệt qua collection.
 type: docs
-weight: 90
+weight: 100
 url: /vi/aspose.slides.charts/datalabelcollection/getenumerator/
 ---
 ## DataLabelCollection.GetEnumerator phương thức
 
-Trả về một enumerator cho phép duyệt qua bộ sưu tập.
+Trả về một enumerator cho phép duyệt qua collection.
 
 ```csharp
 public IEnumerator<IDataLabel> GetEnumerator()

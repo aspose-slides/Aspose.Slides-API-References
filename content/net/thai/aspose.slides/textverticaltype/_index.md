@@ -1,14 +1,14 @@
 ---
 title: TextVerticalType
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: กำหนดโหมดการเขียนแบบแนวตั้งสำหรับข้อความ
+description: กำหนดโหมดการเขียนแนวตั้งสำหรับข้อความ.
 type: docs
-weight: 11030
+weight: 11050
 url: /th/aspose.slides/textverticaltype/
 ---
-## TextVerticalType การนับค่า
+## การนับค่า TextVerticalType
 
-กำหนดโหมดการเขียนแบบแนวตั้งสำหรับข้อความ.
+กำหนดโหมดการเขียนแนวตั้งสำหรับข้อความ.
 
 ```csharp
 public enum TextVerticalType : sbyte
@@ -18,14 +18,14 @@ public enum TextVerticalType : sbyte
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
-| NotDefined | `-1` | ไม่ได้กำหนด |
-| Horizontal | `0` | ข้อความแนวนอน |
-| Vertical | `1` | ข้อความแนวตั้ง |
-| Vertical270 | `2` | ข้อความแนวตั้ง 270 องศา |
-| WordArtVertical | `3` | ข้อความ WordArt แนวตั้ง |
-| EastAsianVertical | `4` | ข้อความแนวตั้งเอเชียตะวันออก |
-| MongolianVertical | `5` | ข้อความแนวตั้งมองโกเลีย |
-| WordArtVerticalRightToLeft | `6` | ข้อความ WordArt แนวตั้งจากขวาไปซ้าย |
+| NotDefined | `-1` | ไม่ได้กำหนด. |
+| Horizontal | `0` | ข้อความแนวนอน. |
+| Vertical | `1` | ข้อความแนวดิ่ง. |
+| Vertical270 | `2` | ข้อความแนวดิ่งที่หมุน 270 องศา. |
+| WordArtVertical | `3` | ข้อความ WordArt แนวดิ่ง. |
+| EastAsianVertical | `4` | ข้อความแนวดิ่งของเอเชียตะวันออก. |
+| MongolianVertical | `5` | ข้อความแนวดิ่งของมองโกเลีย. |
+| WordArtVerticalRightToLeft | `6` | ข้อความแนวดิ่ง WordArt จากขวาไปซ้าย. |
 
 ### ดูเพิ่มเติม
 

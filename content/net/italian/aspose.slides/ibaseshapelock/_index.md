@@ -1,14 +1,14 @@
 ---
 title: IBaseShapeLock
-second_title: Aspose.Sildes per .NET API Reference
-description: Rappresenta l'operazione di blocco della Shape disabilitata.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Rappresenta l'operazione di blocco Shape disabilitata.
 type: docs
-weight: 5330
+weight: 5350
 url: /it/aspose.slides/ibaseshapelock/
 ---
 ## IBaseShapeLock interfaccia
 
-Rappresenta il blocco della Shape (operazione disabilitata).
+Rappresenta il blocco Shape (operazione disabilitata).
 
 ```csharp
 public interface IBaseShapeLock

@@ -1,14 +1,14 @@
 ---
 title: IInk
-second_title: Référence API Aspose.Sildes pour .NET
-description: Représente un objet d'encre sur une diapositive.
+second_title: Référence de l'API Aspose.Sildes pour .NET
+description: Représente un objet encre sur une diapositive.
 type: docs
-weight: 7510
+weight: 7530
 url: /fr/aspose.slides.ink/iink/
 ---
-## interface IInk
+## IInk interface
 
-Représente un objet d'encre sur une diapositive.
+Représente un objet encre sur une diapositive.
 
 ```csharp
 public interface IInk : IGraphicalObject
@@ -16,7 +16,7 @@ public interface IInk : IGraphicalObject
 
 ## Propriétés
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
 | [AsIGraphicalObject](../../aspose.slides.ink/iink/asigraphicalobject) { get; } | Permet d'obtenir l'interface IGraphicalObject de base. Lecture seule [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
 | [Traces](../../aspose.slides.ink/iink/traces) { get; } | Obtient toutes les traces contenues dans l'élément IInk [`IInkTrace`](../iinktrace). Lecture seule. |

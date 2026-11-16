@@ -3,7 +3,7 @@ title: IChartDataCell
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示图表数据的单元格。
 type: docs
-weight: 1810
+weight: 1830
 url: /zh/aspose.slides.charts/ichartdatacell/
 ---
 ## IChartDataCell 接口
@@ -18,21 +18,21 @@ public interface IChartDataCell
 
 | 名称 | 描述 |
 | --- | --- |
-| [ChartDataWorksheet](../../aspose.slides.charts/ichartdatacell/chartdataworksheet) { get; } | 获取工作表。只读 [`IChartDataWorksheet`](../ichartdataworksheet)。 |
-| [Column](../../aspose.slides.charts/ichartdatacell/column) { get; } | 返回单元格所在工作表列的索引。只读 Int32。 |
-| [CustomNumberFormat](../../aspose.slides.charts/ichartdatacell/customnumberformat) { get; set; } | 获取或设置数字和日期的自定义显示格式。如果值为空，将使用 PresetNumberFormat 值。读写 String。 |
+| [ChartDataWorksheet](../../aspose.slides.charts/ichartdatacell/chartdataworksheet) { get; } | 获取工作表。只读 [`IChartDataWorksheet`](../ichartdataworksheet). |
+| [Column](../../aspose.slides.charts/ichartdatacell/column) { get; } | 返回单元格所在工作表的列索引。只读 Int32. |
+| [CustomNumberFormat](../../aspose.slides.charts/ichartdatacell/customnumberformat) { get; set; } | 获取或设置数字和日期的自定义显示格式。如果值为空，将使用 PresetNumberFormat 值。读/写 String. |
 | [Formula](../../aspose.slides.charts/ichartdatacell/formula) { get; set; } | 获取或设置 A1 样式的公式。 |
-| [IsHidden](../../aspose.slides.charts/ichartdatacell/ishidden) { get; } | 确定单元格是否隐藏。只读 Boolean。 |
-| [PresetNumberFormat](../../aspose.slides.charts/ichartdatacell/presetnumberformat) { get; set; } | 获取或设置数字和日期的内置显示格式。预设数字必须在 [0..22] 或 [37..49] 范围内。读写 Byte。 |
+| [IsHidden](../../aspose.slides.charts/ichartdatacell/ishidden) { get; } | 确定单元格是否隐藏。只读 Boolean. |
+| [PresetNumberFormat](../../aspose.slides.charts/ichartdatacell/presetnumberformat) { get; set; } | 获取或设置数字和日期的内置显示格式。预设编号必须在 [0..22] 或 [37..49] 范围内。读/写 Byte. |
 | [R1C1Formula](../../aspose.slides.charts/ichartdatacell/r1c1formula) { get; set; } | 获取或设置 R1C1 样式的公式。 |
-| [Row](../../aspose.slides.charts/ichartdatacell/row) { get; } | 返回单元格所在工作表行的索引。只读 Int32。 |
-| [Value](../../aspose.slides.charts/ichartdatacell/value) { get; set; } | 获取或设置单元格的值。读写 Object。 |
+| [Row](../../aspose.slides.charts/ichartdatacell/row) { get; } | 返回单元格所在工作表的行索引。只读 Int32. |
+| [Value](../../aspose.slides.charts/ichartdatacell/value) { get; set; } | 获取或设置单元格的值。读/写 Object. |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [Calculate](../../aspose.slides.charts/ichartdatacell/calculate)(bool) | 如果单元格包含公式，值将根据该公式进行更新。 |
+| [Calculate](../../aspose.slides.charts/ichartdatacell/calculate)(bool) | 如果单元格包含公式，值将根据该公式更新。 |
 
 ### 另见
 

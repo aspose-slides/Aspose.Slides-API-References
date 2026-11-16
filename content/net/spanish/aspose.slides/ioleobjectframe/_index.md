@@ -3,7 +3,7 @@ title: IOleObjectFrame
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa un objeto OLE en una diapositiva.
 type: docs
-weight: 6540
+weight: 6560
 url: /es/aspose.slides/ioleobjectframe/
 ---
 ## IOleObjectFrame interfaz
@@ -24,13 +24,13 @@ public interface IOleObjectFrame : IGraphicalObject
 | [EmbeddedFileName](../../aspose.slides/ioleobjectframe/embeddedfilename) { get; } | Devuelve la ruta del objeto OLE incrustado |
 | [IsObjectIcon](../../aspose.slides/ioleobjectframe/isobjecticon) { get; set; } | Determina si un objeto es visible como icono. Lectura/escritura Boolean. |
 | [IsObjectLink](../../aspose.slides/ioleobjectframe/isobjectlink) { get; } | Determina si un objeto está enlazado a un archivo externo. Solo lectura Boolean. |
-| [LinkFileName](../../aspose.slides/ioleobjectframe/linkfilename) { get; } | Devuelve la ruta completa a un archivo enlazado. Se usará el nombre corto del archivo. Solo lectura String. |
-| [LinkPathLong](../../aspose.slides/ioleobjectframe/linkpathlong) { get; set; } | Devuelve la ruta completa a un archivo enlazado. Se usará el nombre largo del archivo. Lectura/escritura String. |
+| [LinkFileName](../../aspose.slides/ioleobjectframe/linkfilename) { get; } | Devuelve la ruta completa a un archivo enlazado. Se utilizará el nombre de archivo corto. Solo lectura String. |
+| [LinkPathLong](../../aspose.slides/ioleobjectframe/linkpathlong) { get; set; } | Devuelve la ruta completa a un archivo enlazado. Se utilizará el nombre de archivo largo. Lectura/escritura String. |
 | [LinkPathRelative](../../aspose.slides/ioleobjectframe/linkpathrelative) { get; } | Devuelve la ruta relativa a un archivo enlazado si está presente, de lo contrario devuelve una cadena vacía. Solo lectura String. |
 | [ObjectName](../../aspose.slides/ioleobjectframe/objectname) { get; set; } | Devuelve o establece el nombre de un objeto. Lectura/escritura String. |
 | [ObjectProgId](../../aspose.slides/ioleobjectframe/objectprogid) { get; set; } | Devuelve el ProgID de un objeto. Solo lectura String. |
 | [SubstitutePictureFormat](../../aspose.slides/ioleobjectframe/substitutepictureformat) { get; } | Devuelve el objeto de propiedades de relleno de imagen OleObject. Solo lectura [`IPictureFillFormat`](../ipicturefillformat). |
-| [SubstitutePictureTitle](../../aspose.slides/ioleobjectframe/substitutepicturetitle) { get; set; } | Devuelve o establece el título del icono OleObject. Lectura/escritura String. |
+| [SubstitutePictureTitle](../../aspose.slides/ioleobjectframe/substitutepicturetitle) { get; set; } | Devuelve o establece el título para el icono OleObject. Lectura/escritura String. |
 | [UpdateAutomatic](../../aspose.slides/ioleobjectframe/updateautomatic) { get; set; } | Determina si el objeto incrustado enlazado se actualiza automáticamente cuando la presentación se abre o se imprime. Lectura/escritura Boolean. |
 
 ## Métodos

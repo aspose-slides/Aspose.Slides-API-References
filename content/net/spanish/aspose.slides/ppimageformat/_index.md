@@ -1,14 +1,14 @@
 ---
 title: PPImageFormat
-second_title: Aspose.Sildes para la referencia de API de .NET
-description: Formatos de imagen. Esta enumeración es un reemplazo de la clase System.Drawing.Imaging.ImageFormat. Es necesario para la compatibilidad COM.
+second_title: Aspose.Sildes para la referencia de API .NET
+description: Formatos de imagen. Esta enumeración es un reemplazo de la clase System.Drawing.Imaging.ImageFormat. Es necesario para la compatibilidad con COM.
 type: docs
-weight: 9260
+weight: 9280
 url: /es/aspose.slides/ppimageformat/
 ---
-## Enumeración PPImageFormat
+## PPImageFormat enumeración
 
-Formatos de imagen. Esta enumeración es un reemplazo de la clase `System.Drawing.Imaging.ImageFormat`. Es necesaria para la compatibilidad COM.
+Formatos de imagen. Esta enumeración es un reemplazo de la clase `System.Drawing.Imaging.ImageFormat`. Es necesaria para la compatibilidad con COM.
 
 ```csharp
 public enum PPImageFormat
@@ -22,12 +22,12 @@ public enum PPImageFormat
 | Emf | `1` | Obtiene el formato de imagen metafile mejorado (EMF). |
 | Exif | `2` | Obtiene el formato Exchangeable Image File (Exif). |
 | Gif | `3` | Obtiene el formato de imagen Graphics Interchange Format (GIF). |
-| Icon | `4` | Obtiene el formato de imagen de ícono de Windows. |
+| Icon | `4` | Obtiene el formato de imagen de icono de Windows. |
 | Jpeg | `5` | Obtiene el formato de imagen Joint Photographic Experts Group (JPEG). |
 | MemoryBmp | `6` | Obtiene el formato de un bitmap en memoria. |
 | Png | `7` | Obtiene el formato de imagen Portable Network Graphics (PNG) de W3C. |
 | Tiff | `8` | Obtiene el formato de imagen Tagged Image File Format (TIFF). |
-| Wmf | `9` | Obtiene el formato de imagen Windows metafile (WMF). |
+| Wmf | `9` | Obtiene el formato de imagen metafile de Windows (WMF). |
 
 ### Ver también
 

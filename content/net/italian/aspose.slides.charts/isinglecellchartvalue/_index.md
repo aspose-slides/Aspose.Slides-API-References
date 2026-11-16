@@ -1,9 +1,9 @@
 ---
 title: ISingleCellChartValue
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Riferimento API di Aspose.Sildes per .NET
 description: Rappresenta una cella di dati del grafico.
 type: docs
-weight: 2210
+weight: 2230
 url: /it/aspose.slides.charts/isinglecellchartvalue/
 ---
 ## ISingleCellChartValue interfaccia
@@ -16,10 +16,10 @@ public interface ISingleCellChartValue : IBaseChartValue
 
 ## Proprietà
 
-| Name | Description |
+| Nome | Descrizione |
 | --- | --- |
 | [AsCell](../../aspose.slides.charts/isinglecellchartvalue/ascell) { get; set; } | Restituisce o imposta la cella di dati del grafico. Lettura/scrittura [`IChartDataCell`](../ichartdatacell). |
-| [AsIBaseChartValue](../../aspose.slides.charts/isinglecellchartvalue/asibasechartvalue) { get; } | Consente di ottenere l'interfaccia base IBaseChartValue. Sola lettura [`IBaseChartValue`](../ibasechartvalue). |
+| [AsIBaseChartValue](../../aspose.slides.charts/isinglecellchartvalue/asibasechartvalue) { get; } | Consente di ottenere l'interfaccia base IBaseChartValue. Solo lettura [`IBaseChartValue`](../ibasechartvalue). |
 
 ### Vedi anche
 

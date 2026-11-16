@@ -1,12 +1,12 @@
 ---
 title: HandoutType
-second_title: Aspose.Sildes для .NET справочник API
+second_title: Aspose.Sildes для .NET справка API
 description: Указывает, сколько слайдов и в какой последовательности будет размещено на странице.
 type: docs
-weight: 3850
+weight: 3870
 url: /ru/aspose.slides.export/handouttype/
 ---
-## Перечисление HandoutType
+## HandoutType перечисление
 
 Указывает, сколько слайдов и в какой последовательности будет размещено на странице.
 

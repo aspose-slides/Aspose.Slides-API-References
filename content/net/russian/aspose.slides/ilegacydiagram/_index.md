@@ -1,14 +1,14 @@
 ---
 title: ILegacyDiagram
-second_title: Aspose.Sildes для .NET, справочник API
-description: Представляет объект устаревшей диаграммы
+second_title: Aspose.Sildes для .NET API Reference
+description: Представляет устаревший объект диаграммы
 type: docs
-weight: 6250
+weight: 6270
 url: /ru/aspose.slides/ilegacydiagram/
 ---
-## ILegacyDiagram interface
+## ILegacyDiagram интерфейс
 
-Представляет объект устаревшей диаграммы
+Представляет устаревший объект диаграммы
 
 ```csharp
 public interface ILegacyDiagram : IGraphicalObject
@@ -24,8 +24,8 @@ public interface ILegacyDiagram : IGraphicalObject
 
 | Имя | Описание |
 | --- | --- |
-| [ConvertToGroupShape](../../aspose.slides/ilegacydiagram/converttogroupshape)() | Преобразует устаревшую диаграмму в редактируемый объект GroupShape. Созданный объект GroupShape добавляется к родительской группе фигур в той же позиции. |
-| [ConvertToSmartArt](../../aspose.slides/ilegacydiagram/converttosmartart)() | Преобразует устаревшую диаграмму в редактируемый объект SmartArt. Созданный объект SmartArt добавляется к родительской группе фигур в той же позиции. |
+| [ConvertToGroupShape](../../aspose.slides/ilegacydiagram/converttogroupshape)() | Преобразует устаревшую диаграмму в редактируемую группу фигур. Созданный объект GroupShape добавляется к родительской группе фигур в том же положении. |
+| [ConvertToSmartArt](../../aspose.slides/ilegacydiagram/converttosmartart)() | Преобразует устаревшую диаграмму в редактируемый объект SmartArt. Созданный объект SmartArt добавляется к родительской группе фигур в том же положении. |
 
 ### См. также
 

@@ -3,7 +3,7 @@ title: IRowCollection
 second_title: Aspose.Sildes для .NET справочник API
 description: Представляет коллекцию строк таблицы.
 type: docs
-weight: 6860
+weight: 6880
 url: /ru/aspose.slides/irowcollection/
 ---
 ## IRowCollection интерфейс
@@ -24,8 +24,8 @@ public interface IRowCollection : IGenericCollection<IRow>
 
 | Имя | Описание |
 | --- | --- |
-| [AddClone](../../aspose.slides/irowcollection/addclone)(IRow, bool) | Создаёт копию указанной шаблонной строки и вставляет её в конец таблицы. |
-| [InsertClone](../../aspose.slides/irowcollection/insertclone)(int, IRow, bool) | Создаёт копию указанной шаблонной строки и вставляет её в указанную позицию таблицы. |
+| [AddClone](../../aspose.slides/irowcollection/addclone)(IRow, bool) | Создает копию указанной шаблонной строки и вставляет её в конец таблицы. |
+| [InsertClone](../../aspose.slides/irowcollection/insertclone)(int, IRow, bool) | Создает копию указанной шаблонной строки и вставляет её в указанную позицию таблицы. |
 | [RemoveAt](../../aspose.slides/irowcollection/removeat)(int, bool) | Удаляет строку в указанной позиции из таблицы. |
 
 ### См. также

@@ -1,14 +1,14 @@
 ---
 title: TextCapType
-second_title: Aspose.Sildes لـ .NET مرجع API
-description: يمثل نوع تحويل الأحرف للنص.
+second_title: Aspose.Sildes لواجهة برمجة التطبيقات .NET
+description: يمثل نوع تكبير الحروف في النص.
 type: docs
-weight: 10930
+weight: 10950
 url: /ar/aspose.slides/textcaptype/
 ---
 ## TextCapType تعداد
 
-يمثل نوع تحويل الأحرف للنص.
+يمثل نوع تكبير الحروف في النص.
 
 ```csharp
 public enum TextCapType : sbyte
@@ -23,7 +23,7 @@ public enum TextCapType : sbyte
 | Small | `1` |  |
 | All | `2` |  |
 
-### أنظر أيضًا
+### انظر أيضًا
 
 * النطاق [Aspose.Slides](../../aspose.slides)
 * التجميع [Aspose.Slides](../../)

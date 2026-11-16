@@ -3,10 +3,10 @@ title: HyperlinkActionType
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa un tipo de acción de hipervínculo.
 type: docs
-weight: 5130
+weight: 5150
 url: /es/aspose.slides/hyperlinkactiontype/
 ---
-## HyperlinkActionType enumeración
+## Enumeración HyperlinkActionType
 
 Representa un tipo de acción de hipervínculo.
 
@@ -21,19 +21,19 @@ public enum HyperlinkActionType
 | Unknown | `-1` | Tipo de acción no reconocido. |
 | NoAction | `0` | Sin acción. |
 | Hyperlink | `1` | Hipervínculo habitual. |
-| JumpFirstSlide | `2` | Salta a la primera diapositiva de la presentación. |
-| JumpPreviousSlide | `3` | Salta a la diapositiva anterior. |
-| JumpNextSlide | `4` | Salta a la siguiente diapositiva. |
-| JumpLastSlide | `5` | Salta a la última diapositiva de la presentación. |
-| JumpEndShow | `6` | Salta al final de la presentación. |
-| JumpLastViewedSlide | `7` | Salta a la última diapositiva vista. |
-| JumpSpecificSlide | `8` | Salta a la diapositiva específica, referenciada por la propiedad [`TargetSlide`](../ihyperlink/targetslide). |
-| StartCustomSlideShow | `9` | Inicia una presentación personalizada. |
-| OpenFile | `10` | Abre el archivo referenciado. |
-| OpenPresentation | `11` | Abre la presentación referenciada. |
-| StartStopMedia | `12` | Inicia/detiene la reproducción del archivo multimedia. |
-| StartMacro | `13` | Inicia la ejecución del script de macro. |
-| StartProgram | `14` | Inicia el programa. |
+| JumpFirstSlide | `2` | Ir a la primera diapositiva de la presentación. |
+| JumpPreviousSlide | `3` | Ir a la diapositiva anterior. |
+| JumpNextSlide | `4` | Ir a la diapositiva siguiente. |
+| JumpLastSlide | `5` | Ir a la última diapositiva de la presentación. |
+| JumpEndShow | `6` | Ir al final de la presentación. |
+| JumpLastViewedSlide | `7` | Ir a la última diapositiva visualizada. |
+| JumpSpecificSlide | `8` | Ir a la diapositiva específica, referida por la propiedad [`TargetSlide`](../ihyperlink/targetslide). |
+| StartCustomSlideShow | `9` | Iniciar presentación personalizada. |
+| OpenFile | `10` | Abrir archivo referenciado. |
+| OpenPresentation | `11` | Abrir presentación referenciada. |
+| StartStopMedia | `12` | Iniciar/detener la reproducción de archivo multimedia. |
+| StartMacro | `13` | Iniciar la ejecución del script de macro. |
+| StartProgram | `14` | Iniciar programa. |
 
 ### Ver también
 

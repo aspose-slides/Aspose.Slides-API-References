@@ -3,7 +3,7 @@ title: LightingDirection
 second_title: Aspose.Sildes per .NET Riferimento API
 description: Costanti che definiscono le direzioni della luce.
 type: docs
-weight: 7710
+weight: 7730
 url: /it/aspose.slides/lightingdirection/
 ---
 ## enumerazione LightingDirection

@@ -3,7 +3,7 @@ title: ITable
 second_title: Aspose.Sildes for .NET API リファレンス
 description: スライド上のテーブルを表します。
 type: docs
-weight: 7230
+weight: 7250
 url: /ja/aspose.slides/itable/
 ---
 ## ITable インターフェイス
@@ -16,7 +16,7 @@ public interface ITable : IBulkTextFormattable, IGraphicalObject
 
 ## プロパティ
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
 | [AsIBulkTextFormattable](../../aspose.slides/itable/asibulktextformattable) { get; } | ベースの IBulkTextFormattable インターフェイスを取得できます。読み取り専用 [`IBulkTextFormattable`](../ibulktextformattable)。 |
 | [AsIGraphicalObject](../../aspose.slides/itable/asigraphicalobject) { get; } | ベースの IGraphicalObject インターフェイスを取得できます。読み取り専用 [`IGraphicalObject`](../igraphicalobject)。 |
@@ -35,7 +35,7 @@ public interface ITable : IBulkTextFormattable, IGraphicalObject
 
 ## メソッド
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
 | [MergeCells](../../aspose.slides/itable/mergecells)(ICell, ICell, bool) | 隣接するセルを結合します。 |
 

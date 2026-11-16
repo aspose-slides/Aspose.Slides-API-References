@@ -1,9 +1,9 @@
 ---
 title: Explosion
-second_title: Aspose.Sildes untuk .NET Referensi API
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Menentukan jumlah titik data yang harus dipindahkan dari pusat diagram lingkaran. Baca/tulis Int32.
 type: docs
-weight: 60
+weight: 100
 url: /id/aspose.slides.charts/ichartdatapoint/explosion/
 ---
 ## IChartDataPoint.Explosion properti

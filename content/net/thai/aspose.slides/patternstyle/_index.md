@@ -1,20 +1,20 @@
 ---
 title: PatternStyle
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: แสดงถึงลักษณะของรูปแบบลาย.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงถึงสไตล์ลวดลาย
 type: docs
-weight: 9360
+weight: 9380
 url: /th/aspose.slides/patternstyle/
 ---
-## การระบุ PatternStyle
+## PatternStyle การระบุค่า
 
-แสดงถึงลักษณะแบบลาย
+แสดงถึงสไตล์ลวดลาย
 
 ```csharp
 public enum PatternStyle : sbyte
 ```
 
-### ค่าต่าง ๆ
+### ค่า
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |

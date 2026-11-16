@@ -1,14 +1,14 @@
 ---
 title: IHSLEffectiveData
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt einen Hue/Saturation/Luminance-Effekt dar. Der Farbton, die Sättigung und die Helligkeit können jeweils relativ zu ihrem aktuellen Wert angepasst werden.
+description: Stellt einen Farbton-/Sättigungs-/Luminanz-Effekt dar. Der Farbton, die Sättigung und die Luminanz können jeweils relativ zu ihrem aktuellen Wert angepasst werden.
 type: docs
-weight: 3370
+weight: 3390
 url: /de/aspose.slides.effects/ihsleffectivedata/
 ---
 ## IHSLEffectiveData Schnittstelle
 
-Stellt einen Hue/Saturation/Luminance-Effekt dar. Der Farbton, die Sättigung und die Helligkeit können jeweils relativ zu ihrem aktuellen Wert angepasst werden.
+Stellt einen Farbton-/Sättigungs-/Luminanz-Effekt dar. Der Farbton, die Sättigung und die Luminanz können jeweils relativ zu ihrem aktuellen Wert angepasst werden.
 
 ```csharp
 public interface IHSLEffectiveData : IEffectEffectiveData
@@ -18,10 +18,10 @@ public interface IHSLEffectiveData : IEffectEffectiveData
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ihsleffectivedata/asieffecteffectivedata) { get; } | Ermöglicht das Abrufen der Basis-IEffectEffectiveData Schnittstelle. Nur lesbar [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Hue](../../aspose.slides.effects/ihsleffectivedata/hue) { get; } | Gibt den Hue-Prozentsatz zurück. Nur lesbar Single. |
-| [Luminance](../../aspose.slides.effects/ihsleffectivedata/luminance) { get; } | Gibt den Luminance-Prozentsatz zurück. Nur lesbar Single. |
-| [Saturation](../../aspose.slides.effects/ihsleffectivedata/saturation) { get; } | Gibt den Saturation-Prozentsatz zurück. Nur lesbar Single. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ihsleffectivedata/asieffecteffectivedata) { get; } | Erlaubt das Abrufen der Basis-IEffectEffectiveData-Schnittstelle. Nur lesbar [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Hue](../../aspose.slides.effects/ihsleffectivedata/hue) { get; } | Gibt den Prozentwert des Farbtons zurück. Nur lesbar Single. |
+| [Luminance](../../aspose.slides.effects/ihsleffectivedata/luminance) { get; } | Gibt den Prozentwert der Luminanz zurück. Nur lesbar Single. |
+| [Saturation](../../aspose.slides.effects/ihsleffectivedata/saturation) { get; } | Gibt den Prozentwert der Sättigung zurück. Nur lesbar Single. |
 
 ### Siehe auch
 

@@ -1,14 +1,14 @@
 ---
 title: ColorOperation
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: แสดงถึงการดำเนินการสีต่าง ๆ ที่ใช้สำหรับการแปลงสี เป็นอ็อบเจ็กต์ที่ไม่เปลี่ยนแปลง.
+second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
+description: แสดงถึงการดำเนินการสีต่าง ๆ ที่ใช้สำหรับการแปลงสี. วัตถุไม่เปลี่ยนแปลงได้.
 type: docs
-weight: 2530
+weight: 2550
 url: /th/aspose.slides/coloroperation/
 ---
 ## ColorOperation คลาส
 
-แสดงถึงการดำเนินการสีต่าง ๆ ที่ใช้สำหรับการแปลงสี อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลง
+Represents different color operations used for color transformations. Immutable object.
 
 ```csharp
 public class ColorOperation : IColorOperation
@@ -18,22 +18,22 @@ public class ColorOperation : IColorOperation
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [ColorOperation](coloroperation#constructor)(ColorTransformOperation) | สร้างการดำเนินการแปลงสีใหม่ |
-| [ColorOperation](coloroperation#constructor_1)(ColorTransformOperation, float) | สร้างการดำเนินการแปลงสีใหม่ |
+| [ColorOperation](coloroperation#constructor)(ColorTransformOperation) | สร้างการแปลงสีใหม่. |
+| [ColorOperation](coloroperation#constructor_1)(ColorTransformOperation, float) | สร้างการแปลงสีใหม่. |
 
 ## คุณสมบัติ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [OperationType](../../aspose.slides/coloroperation/operationtype) { get; } | คืนค่า หรือกำหนดประเภทของการดำเนินการ อ่านอย่างเดียว [`ColorTransformOperation`](../colortransformoperation) |
-| [Parameter](../../aspose.slides/coloroperation/parameter) { get; } | คืนค่าพารามิเตอร์ของการดำเนินการ อ่านอย่างเดียว Single |
+| [OperationType](../../aspose.slides/coloroperation/operationtype) { get; } | คืนค่า หรือ ตั้งค่าชนิดของการดำเนินการ. อ่านอย่างเดียว [`ColorTransformOperation`](../colortransformoperation). |
+| [Parameter](../../aspose.slides/coloroperation/parameter) { get; } | คืนค่าพารามิเตอร์ของการดำเนินการ. อ่านอย่างเดียว Single. |
 
 ## วิธีการ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| override [Equals](../../aspose.slides/coloroperation/equals)(object) | กำหนดว่าตัวอย่าง ColorOperation สองตัวเท่ากันหรือไม่ |
-| override [GetHashCode](../../aspose.slides/coloroperation/gethashcode)() | ทำหน้าที่เป็นฟังก์ชันแฮชสำหรับชนิดเฉพาะ ที่เหมาะสำหรับใช้ในอัลกอริทึมแฮชและโครงสร้างข้อมูล เช่น ตารางแฮช |
+| override [Equals](../../aspose.slides/coloroperation/equals)(object) | กำหนดว่าตัวอย่าง ColorOperation สองอันเท่ากันหรือไม่. |
+| override [GetHashCode](../../aspose.slides/coloroperation/gethashcode)() | ทำหน้าที่เป็นฟังก์ชันแฮชสำหรับประเภทใดประเภทหนึ่ง ที่เหมาะสำหรับการใช้ในอัลกอริธิมแฮชและโครงสร้างข้อมูลเช่น ตารางแฮช. |
 
 ### ดูเพิ่มเติม
 

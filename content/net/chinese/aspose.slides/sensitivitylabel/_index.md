@@ -1,14 +1,14 @@
 ---
 title: SensitivityLabel
-second_title: Aspose.Sildes .NET API 参考
-description: 表示来自 Microsoft Purview 信息保护的敏感度标签。
+second_title: Aspose.Sildes for .NET API 参考
+description: 表示来自 Microsoft Purview Information Protection 的敏感度标签。
 type: docs
-weight: 9790
+weight: 9810
 url: /zh/aspose.slides/sensitivitylabel/
 ---
 ## SensitivityLabel 类
 
-表示来自 Microsoft Purview 信息保护的敏感度标签。
+表示来自 Microsoft Purview Information Protection 的敏感度标签。
 
 ```csharp
 public sealed class SensitivityLabel : ISensitivityLabel
@@ -18,12 +18,12 @@ public sealed class SensitivityLabel : ISensitivityLabel
 
 | 名称 | 描述 |
 | --- | --- |
-| [AssignmentMethodType](../../aspose.slides/sensitivitylabel/assignmentmethodtype) { get; set; } | 返回或设置敏感度标签的分配方法。读写 [`SensitivityLabelAssignmentType`](../sensitivitylabelassignmenttype)。 |
+| [AssignmentMethodType](../../aspose.slides/sensitivitylabel/assignmentmethodtype) { get; set; } | 返回或设置敏感度标签的分配方法。读/写 [`SensitivityLabelAssignmentType`](../sensitivitylabelassignmenttype)。 |
 | [ContentMarkTypes](../../aspose.slides/sensitivitylabel/contentmarktypes) { get; } | 返回应应用于文件的内容标记类型列表。 |
-| [Id](../../aspose.slides/sensitivitylabel/id) { get; set; } | 返回或设置敏感度标签的 ID。读写 String。 |
-| [IsEnabled](../../aspose.slides/sensitivitylabel/isenabled) { get; set; } | 指示敏感度标签是否已启用。 |
+| [Id](../../aspose.slides/sensitivitylabel/id) { get; set; } | 返回或设置敏感度标签的 ID。读/写 String。 |
+| [IsEnabled](../../aspose.slides/sensitivitylabel/isenabled) { get; set; } | 指示是否已启用敏感度标签。 |
 | [IsRemoved](../../aspose.slides/sensitivitylabel/isremoved) { get; set; } | 指示敏感度标签是否已被移除。 |
-| [SiteId](../../aspose.slides/sensitivitylabel/siteid) { get; set; } | 返回或设置对应于描述敏感度标签的敏感度标签策略的 Azure Active Directory (Azure AD) 站点标识符。读写 Guid。 |
+| [SiteId](../../aspose.slides/sensitivitylabel/siteid) { get; set; } | 返回或设置与描述该敏感度标签的敏感度标签策略对应的 Azure Active Directory (Azure AD) 站点标识符。读/写 Guid。 |
 
 ### 另请参见
 

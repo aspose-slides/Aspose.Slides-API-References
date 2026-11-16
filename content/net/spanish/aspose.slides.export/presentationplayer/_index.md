@@ -1,9 +1,9 @@
 ---
 title: PresentationPlayer
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Representa el reproductor de animaciones asociado con la Presentation../aspose.slides/presentation.
+description: Representa el reproductor de animaciones asociado con el Presentation../aspose.slides/presentation.
 type: docs
-weight: 4390
+weight: 4410
 url: /es/aspose.slides.export/presentationplayer/
 ---
 ## PresentationPlayer clase
@@ -16,27 +16,27 @@ public class PresentationPlayer : IDisposable
 
 ## Constructores
 
-| Name | Description |
+| Nombre | Descripción |
 | --- | --- |
-| [PresentationPlayer](presentationplayer)(PresentationAnimationsGenerator, double) | Crea una nueva instancia de [`PresentationPlayer`](../presentationplayer). |
+| [PresentationPlayer](presentationplayer)(PresentationAnimationsGenerator, double) | Crea una nueva instancia del [`PresentationPlayer`](../presentationplayer). |
 
 ## Propiedades
 
-| Name | Description |
+| Nombre | Descripción |
 | --- | --- |
-| [FrameIndex](../../aspose.slides.export/presentationplayer/frameindex) { get; } | Obtiene el índice del fotograma. |
+| [FrameIndex](../../aspose.slides.export/presentationplayer/frameindex) { get; } | Obtiene el índice de fotograma. |
 
 ## Métodos
 
-| Name | Description |
+| Nombre | Descripción |
 | --- | --- |
 | [Dispose](../../aspose.slides.export/presentationplayer/dispose)() | Descarta la instancia de [`PresentationPlayer`](../presentationplayer). |
 
-## Otros miembros
+## Otros Miembros
 
-| Name | Description |
+| Nombre | Descripción |
 | --- | --- |
-| delegate [FrameTickHandler](presentationplayer.frametickhandler) | Representa el controlador de tics de fotograma del evento [`FrameTick`](./frametick). |
+| delegate [FrameTickHandler](presentationplayer.frametickhandler) | Representa el manejador de ticks de fotograma del evento [`FrameTick`](./frametick). |
 
 ### Ejemplos
 

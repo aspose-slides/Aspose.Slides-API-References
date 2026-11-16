@@ -1,26 +1,26 @@
 ---
 title: FrameTickEventArgs
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
+second_title: Aspose.Sildes के लिए .NET API रेफ़रेंस
 description: FrameTick./presentationplayer/frametick इवेंट के तर्कों का प्रतिनिधित्व करता है।
 type: docs
-weight: 3810
+weight: 3830
 url: /hi/aspose.slides.export/frametickeventargs/
 ---
 ## FrameTickEventArgs क्लास
 
-यह [`FrameTick`](../presentationplayer/frametick) इवेंट के तर्कों को दर्शाता है।
+[`FrameTick`](../presentationplayer/frametick) इवेंट के तर्कों का प्रतिनिधित्व करता है।
 
 ```csharp
 public class FrameTickEventArgs
 ```
 
-## गुण
+## प्रॉपर्टीज़
 
 | नाम | विवरण |
 | --- | --- |
-| [Player](../../aspose.slides.export/frametickeventargs/player) { get; } | प्रस्तुति प्लेयर प्राप्त करें |
+| [Player](../../aspose.slides.export/frametickeventargs/player) { get; } | प्रेज़ेंटेशन प्लेयर प्राप्त करें |
 
-## विधियाँ
+## मेथड्स
 
 | नाम | विवरण |
 | --- | --- |
@@ -46,7 +46,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### और देखें
+### संबंधित देखें
 
 * नेमस्पेस [Aspose.Slides.Export](../../aspose.slides.export)
 * असेंबली [Aspose.Slides](../../)

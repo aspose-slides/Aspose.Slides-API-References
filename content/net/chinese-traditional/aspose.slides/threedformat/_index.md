@@ -1,14 +1,14 @@
 ---
 title: ThreeDFormat
-second_title: Aspose.Sildes for .NET API 參考
+second_title: Aspose.Sildes .NET API 參考
 description: 表示 3-D 屬性。
 type: docs
-weight: 11490
+weight: 11510
 url: /zh-hant/aspose.slides/threedformat/
 ---
 ## ThreeDFormat 類別
 
-表示 3-D 屬性。
+代表 3-D 屬性。
 
 ```csharp
 public sealed class ThreeDFormat : PVIObject, IThreeDFormat
@@ -16,31 +16,31 @@ public sealed class ThreeDFormat : PVIObject, IThreeDFormat
 
 ## 屬性
 
-| 名稱 | 描述 |
+| 名稱 | 說明 |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允許取得基礎 IPresentationComponent 介面。唯讀 [`IPresentationComponent`](../ipresentationcomponent)。 |
 | [BevelBottom](../../aspose.slides/threedformat/bevelbottom) { get; } | 取得或設定底部 3D 斜角的類型。唯讀 [`IShapeBevel`](../ishapebevel)。 |
 | [BevelTop](../../aspose.slides/threedformat/beveltop) { get; } | 取得或設定頂部 3D 斜角的類型。唯讀 [`IShapeBevel`](../ishapebevel)。 |
 | [Camera](../../aspose.slides/threedformat/camera) { get; } | 取得或設定相機的設定。唯讀 [`ICamera`](../icamera)。 |
 | [ContourColor](../../aspose.slides/threedformat/contourcolor) { get; } | 取得或設定輪廓的顏色。唯讀 [`IColorFormat`](../icolorformat)。 |
-| [ContourWidth](../../aspose.slides/threedformat/contourwidth) { get; set; } | 取得或設定 3D 輪廓的寬度。讀寫 Double。 |
-| [Depth](../../aspose.slides/threedformat/depth) { get; set; } | 取得或設定 3D 形狀的深度。讀寫 Double。 |
-| [ExtrusionColor](../../aspose.slides/threedformat/extrusioncolor) { get; } | 取得或設定擠壓的顏色。唯讀 [`IColorFormat`](../icolorformat)。 |
-| [ExtrusionHeight](../../aspose.slides/threedformat/extrusionheight) { get; set; } | 取得或設定擠壓效果的高度。讀寫 Double。 |
+| [ContourWidth](../../aspose.slides/threedformat/contourwidth) { get; set; } | 取得或設定 3D 輪廓的寬度。可讀寫 Double。 |
+| [Depth](../../aspose.slides/threedformat/depth) { get; set; } | 取得或設定 3D 形狀的深度。可讀寫 Double。 |
+| [ExtrusionColor](../../aspose.slides/threedformat/extrusioncolor) { get; } | 取得或設定擠出物的顏色。唯讀 [`IColorFormat`](../icolorformat)。 |
+| [ExtrusionHeight](../../aspose.slides/threedformat/extrusionheight) { get; set; } | 取得或設定擠出效果的高度。可讀寫 Double。 |
 | [LightRig](../../aspose.slides/threedformat/lightrig) { get; } | 取得或設定光源的類型。唯讀 [`ILightRig`](../ilightrig)。 |
-| [Material](../../aspose.slides/threedformat/material) { get; set; } | 取得或設定材質的類型。讀寫 [`MaterialPresetType`](../materialpresettype)。 |
+| [Material](../../aspose.slides/threedformat/material) { get; set; } | 取得或設定材質的類型。可讀寫 [`MaterialPresetType`](../materialpresettype)。 |
 
 ## 方法
 
-| 名稱 | 描述 |
+| 名稱 | 說明 |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | 與指定的物件比較。 |
-| [GetEffective](../../aspose.slides/threedformat/geteffective)() | 取得套用繼承後的有效 3-D 格式化資料。 |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | 回傳雜湊碼。 |
+| [GetEffective](../../aspose.slides/threedformat/geteffective)() | 取得套用繼承後的有效 3-D 格式資料。 |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | 傳回雜湊碼。 |
 
 ### 範例
 
-以下範例說明如何在 PowerPoint 簡報中新增 3D 形狀。
+以下範例說明如何在 PowerPoint 簡報中加入 3D 形狀。
 
 ```csharp
 [C#]
@@ -78,7 +78,7 @@ using (Presentation pres = new Presentation())
 	// 定義 TextFrame 及其屬性
     shape.TextFrame.Text = "3D Gradient";
     shape.TextFrame.Paragraphs[0].ParagraphFormat.DefaultPortionFormat.FontHeight = 64;
-	// 設定 FillFormat.FillType 為 FillType.Gradient 並定義漸層屬性
+	// 將 FillFormat.FillType 設為 FillType.Gradient 並定義漸層屬性
 	shape.FillFormat.FillType = FillType.Gradient;
     shape.FillFormat.GradientFormat.GradientStops.Add(0, Color.Blue);
     shape.FillFormat.GradientFormat.GradientStops.Add(100, Color.Orange);
@@ -96,7 +96,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-以下範例說明如何對文字套用 3D 效果。若要建立 3D 文字，可使用 WordArt 變形效果。
+以下範例說明如何對文字套用 3D 效果。若要建立 3D 文字，可以使用 WordArt 變形效果。
 
 ```csharp
 [C#]
@@ -107,10 +107,10 @@ using (Presentation pres = new Presentation())
      IAutoShape shape = pres.Slides[0].Shapes.AddAutoShape(ShapeType.Rectangle, 200, 150, 250, 250);
 	// 定義 TextFrame 及其屬性
     shape.TextFrame.Text = "3D Text";
-	// 設定 FillFormat.FillType 為 FillType.NoFill
+	// 將 FillFormat.FillType 設為 FillType.NoFill
 	shape.FillFormat.FillType = FillType.NoFill;
     shape.LineFormat.FillFormat.FillType = FillType.NoFill;
-	// 設定 TextFrame 的 Portion 並配置 PortionFormat 的屬性
+	// 設定 TextFrame 的 Portion 並設定 PortionFormat 的屬性
 	Portion portion = (Portion)shape.TextFrame.Paragraphs[0].Portions[0];
     portion.PortionFormat.FillFormat.FillType = FillType.Pattern;
     portion.PortionFormat.FillFormat.PatternFormat.ForeColor.Color = Color.DarkOrange;
@@ -118,7 +118,7 @@ using (Presentation pres = new Presentation())
     portion.PortionFormat.FillFormat.PatternFormat.PatternStyle = PatternStyle.LargeGrid;
 	shape.TextFrame.Paragraphs[0].ParagraphFormat.DefaultPortionFormat.FontHeight = 128;
     ITextFrame textFrame = shape.TextFrame;
-    // 設定「Arch Up」WordArt 變形效果
+    // 設定 "Arch Up" WordArt 變形效果
     textFrame.TextFrameFormat.Transform = TextShapeType.ArchUp;
 	// 定義 ITextFrame 的 ThreeDFormat 屬性
 	textFrame.TextFrameFormat.ThreeDFormat.ExtrusionHeight = 3.5f;

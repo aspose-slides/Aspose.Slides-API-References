@@ -3,10 +3,10 @@ title: ILegendEntryCollection
 second_title: Aspose.Sildes para .NET Referência da API
 description: Representa a coleção de legendas.
 type: docs
-weight: 2140
+weight: 2160
 url: /pt/aspose.slides.charts/ilegendentrycollection/
 ---
-## interface ILegendEntryCollection
+## ILegendEntryCollection interface
 
 Representa a coleção de legendas.
 
@@ -19,9 +19,9 @@ public interface ILegendEntryCollection
 | Nome | Descrição |
 | --- | --- |
 | [Count](../../aspose.slides.charts/ilegendentrycollection/count) { get; } | Obtém o número de elementos realmente contidos na coleção. Somente leitura Int32. |
-| [Item](../../aspose.slides.charts/ilegendentrycollection/item) { get; } | Obtém as propriedades da entrada da legenda correspondente a Chart.ChartData.Series[0].DataPoints[index] no caso de tipo de gráfico desta lista: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie; ou correspondente a Chart.ChartData.Series[index] para outros tipos de gráfico. |
+| [Item](../../aspose.slides.charts/ilegendentrycollection/item) { get; } | Obtém as propriedades da entrada de legenda correspondente a Chart.ChartData.Series[0].DataPoints[index] no caso de tipo de gráfico desta lista: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie; ou correspondente a Chart.ChartData.Series[index] para outros tipos de gráfico. |
 
-### Veja Também
+### Veja também
 
 * espaço de nomes [Aspose.Slides.Charts](../../aspose.slides.charts)
 * assembly [Aspose.Slides](../../)

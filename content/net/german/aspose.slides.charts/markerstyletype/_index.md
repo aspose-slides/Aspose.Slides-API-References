@@ -1,14 +1,14 @@
 ---
 title: MarkerStyleType
-second_title: Aspose.Sildes für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Bestimmt die Form des Markers am Datenpunkt von Diagrammen.
 type: docs
-weight: 2340
+weight: 2360
 url: /de/aspose.slides.charts/markerstyletype/
 ---
 ## MarkerStyleType Aufzählung
 
-Bestimmt die Form des Markers am Datenpunkt des Diagramms.
+Bestimmt die Form des Markers am Datenpunkt eines Diagramms.
 
 ```csharp
 public enum MarkerStyleType
@@ -19,17 +19,17 @@ public enum MarkerStyleType
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
-| Circle | `0` | Gibt an, dass an jedem Datenpunkt ein Kreis gezeichnet werden soll. |
-| Dash | `1` | Gibt an, dass an jedem Datenpunkt ein Strich gezeichnet werden soll. |
-| Diamond | `2` | Gibt an, dass an jedem Datenpunkt ein Diamant gezeichnet werden soll. |
-| Dot | `3` | Gibt an, dass an jedem Datenpunkt ein Punkt gezeichnet werden soll. |
-| None | `4` | Gibt an, dass an jedem Datenpunkt nichts gezeichnet werden soll. |
-| Picture | `5` | Gibt an, dass an jedem Datenpunkt ein Bild gezeichnet werden soll. |
-| Plus | `6` | Gibt an, dass an jedem Datenpunkt ein Pluszeichen gezeichnet werden soll. |
-| Square | `7` | Gibt an, dass an jedem Datenpunkt ein Quadrat gezeichnet werden soll. |
-| Star | `8` | Gibt an, dass an jedem Datenpunkt ein Stern gezeichnet werden soll. |
-| Triangle | `9` | Gibt an, dass an jedem Datenpunkt ein Dreieck gezeichnet werden soll. |
-| X | `10` | Gibt an, dass an jedem Datenpunkt ein X gezeichnet werden soll. |
+| Circle | `0` | Gibt an, dass ein Circle an jedem Datenpunkt gezeichnet wird. |
+| Dash | `1` | Gibt an, dass ein Dash an jedem Datenpunkt gezeichnet wird. |
+| Diamond | `2` | Gibt an, dass ein Diamond an jedem Datenpunkt gezeichnet wird. |
+| Dot | `3` | Gibt an, dass ein Dot an jedem Datenpunkt gezeichnet wird. |
+| None | `4` | Gibt an, dass nichts an jedem Datenpunkt gezeichnet wird. |
+| Picture | `5` | Gibt an, dass ein Picture an jedem Datenpunkt gezeichnet wird. |
+| Plus | `6` | Gibt an, dass ein Plus an jedem Datenpunkt gezeichnet wird. |
+| Square | `7` | Gibt an, dass ein Square an jedem Datenpunkt gezeichnet wird. |
+| Star | `8` | Gibt an, dass ein Star an jedem Datenpunkt gezeichnet wird. |
+| Triangle | `9` | Gibt an, dass ein Triangle an jedem Datenpunkt gezeichnet wird. |
+| X | `10` | Gibt an, dass ein X an jedem Datenpunkt gezeichnet wird. |
 
 ### Siehe auch
 

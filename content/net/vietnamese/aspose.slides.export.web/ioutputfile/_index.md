@@ -1,14 +1,14 @@
 ---
 title: IOutputFile
 second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Đại diện cho một tệp đầu ra.
+description: Biểu diễn một tệp đầu ra.
 type: docs
-weight: 4600
+weight: 4620
 url: /vi/aspose.slides.export.web/ioutputfile/
 ---
 ## IOutputFile giao diện
 
-Đại diện cho một tệp đầu ra.
+Biểu diễn một tệp đầu ra.
 
 ```csharp
 public interface IOutputFile
@@ -18,7 +18,7 @@ public interface IOutputFile
 
 | Tên | Mô tả |
 | --- | --- |
-| [Write](../../aspose.slides.export.web/ioutputfile/write)(Stream) | Ghi nội dung tệp vào luồng. |
+| [Write](../../aspose.slides.export.web/ioutputfile/write)(Stream) | Ghi nội dung tệp vào Stream. |
 
 ### Xem thêm
 

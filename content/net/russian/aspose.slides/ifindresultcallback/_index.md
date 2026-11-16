@@ -1,14 +1,14 @@
 ---
 title: IFindResultCallback
-second_title: Aspose.Sildes для .NET справочник API
-description: Интерфейс обратного вызова, используемый для получения результатов поиска текста.
+second_title: Справочник API Aspose.Sildes для .NET
+description: Интерфейс обратного вызова, используемый для получения результата поиска текста.
 type: docs
-weight: 5820
+weight: 5840
 url: /ru/aspose.slides/ifindresultcallback/
 ---
 ## IFindResultCallback интерфейс
 
-Интерфейс обратного вызова, используемый для получения результатов поиска текста.
+Интерфейс обратного вызова, используемый для получения результата поиска текста.
 
 ```csharp
 public interface IFindResultCallback
@@ -20,7 +20,7 @@ public interface IFindResultCallback
 | --- | --- |
 | [FoundResult](../../aspose.slides/ifindresultcallback/foundresult)(ITextFrame, string, string, int) | Метод обратного вызова, получающий данные о найденном тексте. |
 
-### Смотрите также
+### См. также
 
 * пространство имён [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

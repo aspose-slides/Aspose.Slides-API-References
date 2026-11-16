@@ -1,12 +1,12 @@
 ---
 title: ReplaceText
-second_title: Aspose.Sildes dla .NET – odniesienie API
+second_title: Aspose.Sildes dla .NET – referencja API
 description: Zastępuje wszystkie wystąpienia określonego tekstu innym określonym tekstem.
 type: docs
-weight: 130
+weight: 140
 url: /pl/aspose.slides/textframe/replacetext/
 ---
-## TextFrame.ReplaceText method
+## TextFrame.ReplaceText metoda
 
 Zastępuje wszystkie wystąpienia określonego tekstu innym określonym tekstem.
 
@@ -17,19 +17,19 @@ public void ReplaceText(string oldText, string newText, ITextSearchOptions optio
 
 | Parametr | Typ | Opis |
 | --- | --- | --- |
-| oldText | String | Łańcuch znaków do zastąpienia. |
-| newText | String | Łańcuch znaków, który zastąpi wszystkie wystąpienia oldText. |
+| oldText | String | Ciąg znaków do zastąpienia. |
+| newText | String | Ciąg znaków służący do zastąpienia wszystkich wystąpień oldText. |
 | options | ITextSearchOptions | Opcje wyszukiwania tekstu [`ITextSearchOptions`](../../itextsearchoptions). |
 | callback | IFindResultCallback | Obiekt wywołania zwrotnego służący do zapisywania wyniku operacji zamiany [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### Przykłady
 
-Poniższy przykładowy kod pokazuje, jak zamienić jeden określony łańcuch znaków na inny określony łańcuch znaków.
+Poniższy przykładowy kod pokazuje, jak zastąpić jeden określony ciąg innym określonym ciągiem.
 
 ```csharp
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx")){
-	// Zastąp wszystkie oddzielne wystąpienia 'the' ciągiem '***'
+	// Zamień wszystkie oddzielne wystąpienia 'the' na '***'
 	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.ReplaceText("the", "***", new TextSearchOptions()
 	{ WholeWordsOnly = true }, null);
 	presentation.Save("SomePresentation-out2.pptx", SaveFormat.Pptx);

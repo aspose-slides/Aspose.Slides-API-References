@@ -1,12 +1,12 @@
 ---
 title: IOverrideThemeManager
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Aspose.Sildes для .NET справочник API
 description: Обеспечивает доступ к различным типам переопределённых тем.
 type: docs
-weight: 11350
+weight: 11370
 url: /ru/aspose.slides.theme/ioverridethememanager/
 ---
-## IOverrideThemeManager interface
+## IOverrideThemeManager интерфейс
 
 Обеспечивает доступ к различным типам переопределённых тем.
 

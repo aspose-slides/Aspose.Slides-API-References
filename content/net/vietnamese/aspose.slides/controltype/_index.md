@@ -1,14 +1,14 @@
 ---
 title: ControlType
 second_title: Tham khảo API Aspose.Sildes cho .NET
-description: Xác định một kiểu điều khiển mà nên được nhúng bởi AddControl./icontrolcollection/addcontrol.
+description: Xác định một loại điều khiển cần được nhúng bởi AddControl./icontrolcollection/addcontrol.
 type: docs
-weight: 2720
+weight: 2740
 url: /vi/aspose.slides/controltype/
 ---
 ## ControlType liệt kê
 
-Xác định một kiểu điều khiển mà nên được nhúng bởi [`AddControl`](../icontrolcollection/addcontrol).
+Defines a control type which should be embedded by [`AddControl`](../icontrolcollection/addcontrol).
 
 ```csharp
 public enum ControlType

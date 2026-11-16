@@ -1,12 +1,12 @@
 ---
 title: SlideSizeScaleType
-second_title: Aspose.Sildes для .NET Справочник API
+second_title: Aspose.Sildes для .NET, справочник API
 description: Представляет тип масштабирования содержимого слайда.
 type: docs
-weight: 10510
+weight: 10530
 url: /ru/aspose.slides/slidesizescaletype/
 ---
-## SlideSizeScaleType перечисление
+## Перечисление SlideSizeScaleType
 
 Представляет тип масштабирования содержимого слайда.
 
@@ -19,7 +19,7 @@ public enum SlideSizeScaleType
 | Имя | Значение | Описание |
 | --- | --- | --- |
 | DoNotScale | `0` | Не масштабировать. |
-| EnsureFit | `1` | Масштабировать, чтобы обеспечить соответствие. |
+| EnsureFit | `1` | Масштабировать для обеспечения размещения. |
 | Maximize | `2` | Максимизировать размер содержимого. |
 
 ### См. также

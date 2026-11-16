@@ -3,7 +3,7 @@ title: ILegendEntryCollection
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili koleksi legenda.
 type: docs
-weight: 2140
+weight: 2160
 url: /id/aspose.slides.charts/ilegendentrycollection/
 ---
 ## ILegendEntryCollection antarmuka
@@ -16,10 +16,10 @@ public interface ILegendEntryCollection
 
 ## Properti
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides.charts/ilegendentrycollection/count) { get; } | Mengambil jumlah elemen yang sebenarnya terkandung dalam koleksi. Hanya-baca Int32. |
-| [Item](../../aspose.slides.charts/ilegendentrycollection/item) { get; } | Mengambil properti entri legenda yang sesuai dengan Chart.ChartData.Series[0].DataPoints[index] dalam kasus tipe diagram dari daftar ini: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie; atau yang sesuai dengan Chart.ChartData.Series[index] untuk tipe diagram lainnya. |
+| [Count](../../aspose.slides.charts/ilegendentrycollection/count) { get; } | Mengambil jumlah elemen yang sebenarnya terdapat dalam koleksi. Baca-saja Int32. |
+| [Item](../../aspose.slides.charts/ilegendentrycollection/item) { get; } | Mengambil properti entri legenda yang sesuai dengan Chart.ChartData.Series[0].DataPoints[index] jika tipe diagram termasuk dalam daftar berikut: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie; atau yang sesuai dengan Chart.ChartData.Series[index] untuk tipe diagram lainnya. |
 
 ### Lihat Juga
 

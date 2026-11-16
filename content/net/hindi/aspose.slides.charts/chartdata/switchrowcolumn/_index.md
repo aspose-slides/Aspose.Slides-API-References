@@ -1,14 +1,14 @@
 ---
 title: SwitchRowColumn
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: अक्ष के साथ डेटा को अदल-बदल करें। X अक्ष पर चार्ट किया गया डेटा Y अक्ष पर स्थानांतरित हो जाएगा और इसके विपरीत भी।
+description: अक्ष पर डेटा को बदलें। X अक्ष पर चार्ट किया गया डेटा Y अक्ष में स्थानांतरित हो जाएगा और इसके विपरीत भी।
 type: docs
-weight: 140
+weight: 150
 url: /hi/aspose.slides.charts/chartdata/switchrowcolumn/
 ---
-## ChartData.SwitchRowColumn विधि
+## ChartData.SwitchRowColumn मेथड
 
-अक्ष के साथ डेटा को अदल-बदल करें। X अक्ष पर चार्ट किया गया डेटा Y अक्ष पर स्थानांतरित हो जाएगा और इसके विपरीत भी।
+अक्ष पर डेटा को बदलें। X अक्ष पर चार्ट किया गया डेटा Y अक्ष में स्थानांतरित हो जाएगा और इसके विपरीत भी।
 
 ```csharp
 public void SwitchRowColumn()
@@ -16,7 +16,7 @@ public void SwitchRowColumn()
 
 ### संबंधित देखें
 
-* वर्ग [ChartData](../../chartdata)
+* क्लास [ChartData](../../chartdata)
 * नामस्थान [Aspose.Slides.Charts](../../chartdata)
 * असेंबली [Aspose.Slides](../../../)
 

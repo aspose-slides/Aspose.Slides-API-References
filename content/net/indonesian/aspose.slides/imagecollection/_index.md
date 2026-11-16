@@ -1,14 +1,14 @@
 ---
 title: ImageCollection
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili koleksi PPImage.
 type: docs
-weight: 7420
+weight: 7440
 url: /id/aspose.slides/imagecollection/
 ---
-## Kelas ImageCollection
+## ImageCollection kelas
 
-Mewakili koleksi PPImage.
+Represents collection of PPImage.
 
 ```csharp
 public sealed class ImageCollection : DomObject<Presentation>, IImageCollection
@@ -16,16 +16,16 @@ public sealed class ImageCollection : DomObject<Presentation>, IImageCollection
 
 ## Properti
 
-| Name | Deskripsi |
+| Nama | Deskripsi |
 | --- | --- |
-| [Count](../../aspose.slides/imagecollection/count) { get; } | Mengembalikan jumlah gambar dalam koleksi. Hanya-baca Int32. |
-| [IsSynchronized](../../aspose.slides/imagecollection/issynchronized) { get; } | Mengembalikan nilai yang menunjukkan apakah akses ke koleksi disinkronkan (aman untuk thread). Hanya-baca Boolean. |
-| [Item](../../aspose.slides/imagecollection/item) { get; } | Mendapatkan elemen pada indeks yang ditentukan. Hanya-baca [`IPPImage`](../ippimage). |
-| [SyncRoot](../../aspose.slides/imagecollection/syncroot) { get; } | Mengembalikan akar sinkronisasi. Hanya-baca Object. |
+| [Count](../../aspose.slides/imagecollection/count) { get; } | Mengembalikan jumlah gambar dalam koleksi. Baca-saja Int32. |
+| [IsSynchronized](../../aspose.slides/imagecollection/issynchronized) { get; } | Mengembalikan nilai yang menunjukkan apakah akses ke koleksi disinkronkan (thread-safe). Baca-saja Boolean. |
+| [Item](../../aspose.slides/imagecollection/item) { get; } | Mendapatkan elemen pada indeks yang ditentukan. Baca-saja [`IPPImage`](../ippimage). |
+| [SyncRoot](../../aspose.slides/imagecollection/syncroot) { get; } | Mengembalikan akar sinkronisasi. Baca-saja Object. |
 
 ## Metode
 
-| Name | Deskripsi |
+| Nama | Deskripsi |
 | --- | --- |
 | [AddImage](../../aspose.slides/imagecollection/addimage#addimage_3)(byte[]) | Menambahkan gambar ke presentasi dari buffer yang ditentukan. |
 | [AddImage](../../aspose.slides/imagecollection/addimage#addimage)(IImage) | Menambahkan gambar ke presentasi. |

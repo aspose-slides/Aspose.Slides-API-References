@@ -1,14 +1,14 @@
 ---
 title: IFonts
 second_title: Aspose.Sildes for .NET API リファレンス
-description: フォントのコレクションを表します。
+description: フォントコレクションを表します。
 type: docs
-weight: 5900
+weight: 5920
 url: /ja/aspose.slides/ifonts/
 ---
-## IFonts インターフェイス
+## IFonts インターフェース
 
-フォントのコレクションを表します。
+フォントコレクションを表します。
 
 ```csharp
 public interface IFonts
@@ -18,9 +18,9 @@ public interface IFonts
 
 | 名前 | 説明 |
 | --- | --- |
-| [ComplexScriptFont](../../aspose.slides/ifonts/complexscriptfont) { get; set; } | 複合スクリプト フォントを取得または設定します。読み書き可能 [`IFontData`](../ifontdata)。 |
-| [EastAsianFont](../../aspose.slides/ifonts/eastasianfont) { get; set; } | 東アジア フォントを取得または設定します。読み書き可能 [`IFontData`](../ifontdata)。 |
-| [LatinFont](../../aspose.slides/ifonts/latinfont) { get; set; } | ラテン フォントを取得または設定します。読み書き可能 [`IFontData`](../ifontdata)。 |
+| [ComplexScriptFont](../../aspose.slides/ifonts/complexscriptfont) { get; set; } | 複合スクリプトフォントを取得または設定します。読み取り/書き込み [`IFontData`](../ifontdata)。 |
+| [EastAsianFont](../../aspose.slides/ifonts/eastasianfont) { get; set; } | 東アジアフォントを取得または設定します。読み取り/書き込み [`IFontData`](../ifontdata)。 |
+| [LatinFont](../../aspose.slides/ifonts/latinfont) { get; set; } | ラテンフォントを取得または設定します。読み取り/書き込み [`IFontData`](../ifontdata)。 |
 
 ## メソッド
 
@@ -29,7 +29,7 @@ public interface IFonts
 | [GetScriptFont](../../aspose.slides/ifonts/getscriptfont)(string) | プレゼンテーションテーマから特定のスクリプトタグに関連付けられたフォント名を取得します。 |
 | [GetScriptFontMap](../../aspose.slides/ifonts/getscriptfontmap)() | プレゼンテーション内のすべてのスクリプトフォント定義の辞書を返します。 |
 | [RemoveScriptFont](../../aspose.slides/ifonts/removescriptfont)(string) | テーマのフォントコレクションから特定のスクリプトタグに関連付けられたフォント設定を削除します。 |
-| [SetScriptFont](../../aspose.slides/ifonts/setscriptfont)(string, string) | 特定のスクリプトタグにフォント名を割り当てます。これにより、そのスクリプトのテキストがプレゼンテーションでどのように表示されるかが定義されます。 |
+| [SetScriptFont](../../aspose.slides/ifonts/setscriptfont)(string, string) | 特定のスクリプトタグにフォント名を割り当て、そのスクリプトのテキストがプレゼンテーションでどのようにレンダリングされるかを定義します。 |
 
 ### 参照
 

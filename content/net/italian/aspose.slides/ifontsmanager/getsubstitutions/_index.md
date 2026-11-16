@@ -1,9 +1,9 @@
 ---
 title: GetSubstitutions
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Restituisce le informazioni sui font che verranno sostituiti durante il rendering delle presentazioni.
+second_title: Aspose.Sildes per .NET API Reference
+description: Restituisce le informazioni sui caratteri che verranno sostituiti durante il rendering delle presentazioni.
 type: docs
-weight: 80
+weight: 90
 url: /it/aspose.slides/ifontsmanager/getsubstitutions/
 ---
 ## GetSubstitutions() {#getsubstitutions}
@@ -14,9 +14,9 @@ Restituisce le informazioni sui caratteri che verranno sostituiti durante il ren
 public IEnumerable<FontSubstitutionInfo> GetSubstitutions()
 ```
 
-### Valore restituito
+### Valore di ritorno
 
-Raccolta di tutte le sostituzioni dei caratteri [`FontSubstitutionInfo`](../../fontsubstitutioninfo).
+Collezione di tutte le sostituzioni dei caratteri [`FontSubstitutionInfo`](../../fontsubstitutioninfo).
 
 ### Esempi
 
@@ -47,13 +47,13 @@ Restituisce le informazioni sui caratteri che verranno sostituiti durante il ren
 public IEnumerable<FontSubstitutionInfo> GetSubstitutions(int[] slides)
 ```
 
-| Parametro | Tipo | Descrizione |
+| Parameter | Type | Description |
 | --- | --- | --- |
-| slides | Int32[] | Un array di indici delle diapositive per le quali recuperare le informazioni di sostituzione dei caratteri, a partire da 1. |
+| slides | Int32[] | Un array di indici delle diapositive per le quali recuperare le informazioni sulla sostituzione dei caratteri, a partire da 1. |
 
-### Valore restituito
+### Valore di ritorno
 
-Una raccolta di tutte le sostituzioni dei caratteri ([`FontSubstitutionInfo`](../../fontsubstitutioninfo)) per le diapositive specificate.
+Una collezione di tutte le sostituzioni dei caratteri ([`FontSubstitutionInfo`](../../fontsubstitutioninfo)) per le diapositive specificate.
 
 ### Esempi
 

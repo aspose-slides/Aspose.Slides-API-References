@@ -1,14 +1,14 @@
 ---
 title: StreamWrapperFactory
-second_title: "Aspose.Sildes για .NET: Αναφορά API"
-description: Κατασκευαστής των StreamWrappers. Για διεπαφή COM.
+second_title: Aspose.Sildes για .NET API Αναφορά
+description: Εργοστάσιο StreamWrappers. Για διεπαφή COM.
 type: docs
-weight: 10760
+weight: 10780
 url: /el/aspose.slides/streamwrapperfactory/
 ---
 ## StreamWrapperFactory κλάση
 
-Κατασκευαστής του StreamWrappers. Για διεπαφή COM.
+Factory of StreamWrappers. For COM interface.
 
 ```csharp
 public class StreamWrapperFactory : IStreamWrapperFactory
@@ -24,10 +24,10 @@ public class StreamWrapperFactory : IStreamWrapperFactory
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [CreateFileStreamWrapper](../../aspose.slides/streamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper)(string, FileMode) | Δημιουργεί FileStream με το καθορισμένο μονοπάτι και λειτουργία δημιουργίας. |
-| [CreateFileStreamWrapper](../../aspose.slides/streamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper_1)(string, FileMode, FileAccess) | Δημιουργεί FileStream με το καθορισμένο μονοπάτι, λειτουργία δημιουργίας και άδεια ανάγνωσης/εγγραφής. |
-| [CreateMemoryStreamWrapper](../../aspose.slides/streamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper)() | Δημιουργεί περιτύλιξη MemoryStream. |
-| [CreateMemoryStreamWrapper](../../aspose.slides/streamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper_1)(byte[]) | Δημιουργεί περιτύλιξη MemoryStream με βάση τον καθορισμένο πίνακα bytes. |
+| [CreateFileStreamWrapper](../../aspose.slides/streamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper)(string, FileMode) | Δημιουργεί FileStream με το καθορισμένο μονοπάτι και τη λειτουργία δημιουργίας. |
+| [CreateFileStreamWrapper](../../aspose.slides/streamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper_1)(string, FileMode, FileAccess) | Δημιουργεί FileStream με το καθορισμένο μονοπάτι, τη λειτουργία δημιουργίας και την άδεια ανάγνωσης/γραφής. |
+| [CreateMemoryStreamWrapper](../../aspose.slides/streamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper)() | Δημιουργεί περιτύλιγμα MemoryStream. |
+| [CreateMemoryStreamWrapper](../../aspose.slides/streamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper_1)(byte[]) | Δημιουργεί περιτύλιγμα MemoryStream με βάση τον καθορισμένο byte[]. |
 
 ### Δείτε επίσης
 

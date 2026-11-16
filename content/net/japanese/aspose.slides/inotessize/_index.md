@@ -1,14 +1,14 @@
 ---
 title: INotesSize
 second_title: Aspose.Sildes for .NET API リファレンス
-description: ノートスライドのサイズを表します。
+description: Notes スライドのサイズを表します。
 type: docs
-weight: 6490
+weight: 6510
 url: /ja/aspose.slides/inotessize/
 ---
 ## INotesSize インターフェイス
 
-ノートスライドのサイズを表します。
+Notes slide のサイズを表します。
 
 ```csharp
 public interface INotesSize
@@ -16,9 +16,9 @@ public interface INotesSize
 
 ## プロパティ
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
-| [Size](../../aspose.slides/inotessize/size) { get; set; } | ポイント単位でサイズを取得または設定します。読み取り/書き込み SizeF. |
+| [Size](../../aspose.slides/inotessize/size) { get; set; } | ポイント単位でサイズを取得または設定します。読み取り/書き込み SizeF。 |
 
 ### 参照
 

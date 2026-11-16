@@ -1,12 +1,12 @@
 ---
 title: ISlide
-second_title: Aspose.Sildes pro .NET API referenci
+second_title: Aspose.Sildes pro .NET – reference API
 description: Představuje snímek v prezentaci.
 type: docs
-weight: 7040
+weight: 7060
 url: /cs/aspose.slides/islide/
 ---
-## ISlide rozhraní
+## Rozhraní ISlide
 
 Představuje snímek v prezentaci.
 
@@ -18,31 +18,31 @@ public interface ISlide : IBaseSlide, IOverrideThemeable
 
 | Název | Popis |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/islide/asibaseslide) { get; } | Umožňuje získat základní rozhraní IBaseSlide. Pouze pro čtení [`IBaseSlide`](../ibaseslide). |
-| [AsIOverrideThemeable](../../aspose.slides/islide/asioverridethemeable) { get; } | Vrací rozhraní IOverrideThemeable. Pouze pro čtení [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
-| [HeaderFooterManager](../../aspose.slides/islide/headerfootermanager) { get; } | Vrací správce HeaderFooter snímku. Pouze pro čtení [`ISlideHeaderFooterManager`](../islideheaderfootermanager). |
-| [Hidden](../../aspose.slides/islide/hidden) { get; set; } | Určuje, zda je zadaný snímek během prezentace skrytý. Čtení/zápis Boolean. |
-| [LayoutSlide](../../aspose.slides/islide/layoutslide) { get; set; } | Vrací nebo nastavuje rozvržení snímku pro aktuální snímek. Čtení/zápis [`ILayoutSlide`](../ilayoutslide). |
-| [NotesSlideManager](../../aspose.slides/islide/notesslidemanager) { get; } | Umožňuje přístup k poznámkovému snímku, přidávat a odstraňovat jej. Pouze pro čtení [`INotesSlideManager`](../inotesslidemanager). |
-| [SlideNumber](../../aspose.slides/islide/slidenumber) { get; set; } | Vrací číslo snímku. Index snímku v [`Slides`](../ipresentation/slides) kolekci je vždy roven SlideNumber - 1. Čtení/zápis Int32. |
+| [AsIBaseSlide](../../aspose.slides/islide/asibaseslide) { get; } | Umožňuje získat základní rozhraní IBaseSlide. Pouze ke čtení [`IBaseSlide`](../ibaseslide). |
+| [AsIOverrideThemeable](../../aspose.slides/islide/asioverridethemeable) { get; } | Vrací rozhraní IOverrideThemeable. Pouze ke čtení [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
+| [HeaderFooterManager](../../aspose.slides/islide/headerfootermanager) { get; } | Vrací správce HeaderFooter snímku. Pouze ke čtení [`ISlideHeaderFooterManager`](../islideheaderfootermanager). |
+| [Hidden](../../aspose.slides/islide/hidden) { get; set; } | Určuje, zda je určený snímek během prezentace skrytý. Čtení/Zápis Boolean. |
+| [LayoutSlide](../../aspose.slides/islide/layoutslide) { get; set; } | Vrací nebo nastavuje rozložení snímku pro aktuální snímek. Čtení/Zápis [`ILayoutSlide`](../ilayoutslide). |
+| [NotesSlideManager](../../aspose.slides/islide/notesslidemanager) { get; } | Umožňuje přístup k poznámkovému snímku, jeho přidání a odebrání. Pouze ke čtení [`INotesSlideManager`](../inotesslidemanager). |
+| [SlideNumber](../../aspose.slides/islide/slidenumber) { get; set; } | Vrací číslo snímku. Index snímku v kolekci [`Slides`](../ipresentation/slides) je vždy roven SlideNumber - 1. Čtení/Zápis Int32. |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| [GetImage](../../aspose.slides/islide/getimage#getimage)() | Vrací objekt Thumbnail Image (20 % skutečné velikosti). |
+| [GetImage](../../aspose.slides/islide/getimage#getimage)() | Vrací objekt Thumbnail Image (20% skutečné velikosti). |
 | [GetImage](../../aspose.slides/islide/getimage#getimage_1)(IRenderingOptions) | Vrací objekt Thumbnail Bitmap. |
 | [GetImage](../../aspose.slides/islide/getimage#getimage_4)(ITiffOptions) | Vrací objekt Thumbnail tiff bitmap s určenými parametry. |
-| [GetImage](../../aspose.slides/islide/getimage#getimage_6)(Size) | Vrací objekt image se zadanou velikostí. |
-| [GetImage](../../aspose.slides/islide/getimage#getimage_5)(float, float) | Vrací objekt image s vlastním měřítkem. |
-| [GetImage](../../aspose.slides/islide/getimage#getimage_3)(IRenderingOptions, Size) | Vrací objekt Thumbnail Bitmap se zadanou velikostí. |
-| [GetImage](../../aspose.slides/islide/getimage#getimage_2)(IRenderingOptions, float, float) | Vrací objekt Thumbnail Bitmap s vlastním měřítkem. |
-| [GetSlideComments](../../aspose.slides/islide/getslidecomments)(ICommentAuthor) | Vrací všechny komentáře snímku přidané konkrétním autorem. |
-| [Remove](../../aspose.slides/islide/remove)() | Odstraňuje snímek z prezentace. |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_6)(Size) | Vrací objekt obrázku s určenou velikostí. |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_5)(float, float) | Vrací objekt obrázku s vlastním škálováním. |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_3)(IRenderingOptions, Size) | Vrací objekt Thumbnail Bitmap s určenou velikostí. |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_2)(IRenderingOptions, float, float) | Vrací objekt Thumbnail Bitmap s vlastním škálováním. |
+| [GetSlideComments](../../aspose.slides/islide/getslidecomments)(ICommentAuthor) | Vrací všechny komentáře ke snímku přidané konkrétním autorem. |
+| [Remove](../../aspose.slides/islide/remove)() | Odstraní snímek z prezentace. |
 | [Reset](../../aspose.slides/islide/reset)() | Resetuje pozici, velikost a formátování každého tvaru, který má prototyp na LayoutSlide. |
-| [WriteAsEmf](../../aspose.slides/islide/writeasemf)(Stream) | Ukládá obsah snímku jako soubor EMF. |
-| [WriteAsSvg](../../aspose.slides/islide/writeassvg#writeassvg)(Stream) | Ukládá obsah snímku jako soubor SVG. |
-| [WriteAsSvg](../../aspose.slides/islide/writeassvg#writeassvg_1)(Stream, ISVGOptions) | Ukládá obsah snímku jako soubor SVG. |
+| [WriteAsEmf](../../aspose.slides/islide/writeasemf)(Stream) | Uloží obsah snímku jako soubor EMF. |
+| [WriteAsSvg](../../aspose.slides/islide/writeassvg#writeassvg)(Stream) | Uloží obsah snímku jako soubor SVG. |
+| [WriteAsSvg](../../aspose.slides/islide/writeassvg#writeassvg_1)(Stream, ISVGOptions) | Uloží obsah snímku jako soubor SVG. |
 
 ### Viz také
 

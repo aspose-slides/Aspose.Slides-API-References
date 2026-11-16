@@ -1,14 +1,14 @@
 ---
 title: IActualLayout
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Menentukan posisi aktual elemen diagram.
+description: Menentukan posisi aktual elemen grafik.
 type: docs
-weight: 1690
+weight: 1700
 url: /id/aspose.slides.charts/iactuallayout/
 ---
 ## IActualLayout antarmuka
 
-Menentukan posisi aktual elemen diagram.
+Menentukan posisi aktual elemen grafik.
 
 ```csharp
 public interface IActualLayout
@@ -18,10 +18,10 @@ public interface IActualLayout
 
 | Nama | Deskripsi |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/iactuallayout/actualheight) { get; } | Menentukan tinggi aktual elemen diagram. Panggil metode IChart.ValidateChartLayout() terlebih dahulu untuk mendapatkan nilai aktual. Baca Single. |
-| [ActualWidth](../../aspose.slides.charts/iactuallayout/actualwidth) { get; } | Menentukan lebar aktual elemen diagram. Panggil metode IChart.ValidateChartLayout() terlebih dahulu untuk mendapatkan nilai aktual. Baca Single. |
-| [ActualX](../../aspose.slides.charts/iactuallayout/actualx) { get; } | Menentukan lokasi x aktual (kiri) dari elemen diagram relatif terhadap sudut kiri atas diagram. Panggil metode IChart.ValidateChartLayout() terlebih dahulu untuk mendapatkan nilai aktual. Baca Single. |
-| [ActualY](../../aspose.slides.charts/iactuallayout/actualy) { get; } | Menentukan posisi atas aktual elemen diagram relatif terhadap sudut kiri atas diagram. Panggil metode IChart.ValidateChartLayout() terlebih dahulu untuk mendapatkan nilai aktual. Baca Single. |
+| [ActualHeight](../../aspose.slides.charts/iactuallayout/actualheight) { get; } | Menentukan tinggi aktual elemen grafik. Panggil metode IChart.ValidateChartLayout() sebelumnya untuk mendapatkan nilai aktual. Baca Single. |
+| [ActualWidth](../../aspose.slides.charts/iactuallayout/actualwidth) { get; } | Menentukan lebar aktual elemen grafik. Panggil metode IChart.ValidateChartLayout() sebelumnya untuk mendapatkan nilai aktual. Baca Single. |
+| [ActualX](../../aspose.slides.charts/iactuallayout/actualx) { get; } | Menentukan lokasi x aktual (kiri) dari elemen grafik relatif terhadap sudut kiri atas grafik. Panggil metode IChart.ValidateChartLayout() sebelumnya untuk mendapatkan nilai aktual. Baca Single. |
+| [ActualY](../../aspose.slides.charts/iactuallayout/actualy) { get; } | Menentukan bagian atas aktual elemen grafik relatif terhadap sudut kiri atas grafik. Panggil metode IChart.ValidateChartLayout() sebelumnya untuk mendapatkan nilai aktual. Baca Single. |
 
 ### Lihat Juga
 

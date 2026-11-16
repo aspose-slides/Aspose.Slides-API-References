@@ -3,10 +3,10 @@ title: IPresentationFactory
 second_title: Aspose.Sildes için .NET API Referansı
 description: COM arayüzü aracılığıyla sunum oluşturmayı sağlar
 type: docs
-weight: 6770
+weight: 6790
 url: /tr/aspose.slides/ipresentationfactory/
 ---
-## IPresentationFactory arayüz
+## IPresentationFactory arayüzü
 
 COM arayüzü aracılığıyla sunum oluşturmayı sağlar
 
@@ -19,20 +19,20 @@ public interface IPresentationFactory
 | Ad | Açıklama |
 | --- | --- |
 | [CreatePresentation](../../aspose.slides/ipresentationfactory/createpresentation#createpresentation)() | Yeni bir sunum oluşturur. |
-| [CreatePresentation](../../aspose.slides/ipresentationfactory/createpresentation#createpresentation_1)(ILoadOptions) | Ek yükleme seçenekleriyle yeni bir sunum oluşturur |
-| [GetPresentationInfo](../../aspose.slides/ipresentationfactory/getpresentationinfo#getpresentationinfo)(Stream) | Belirtilen akıştaki sunum hakkında bilgi alır. |
-| [GetPresentationInfo](../../aspose.slides/ipresentationfactory/getpresentationinfo#getpresentationinfo_1)(string) | Belirtilen dosyadaki sunum hakkında bilgi alır. |
+| [CreatePresentation](../../aspose.slides/ipresentationfactory/createpresentation#createpresentation_1)(ILoadOptions) | Ek yükleme seçenekleriyle yeni bir sunum oluşturur. |
+| [GetPresentationInfo](../../aspose.slides/ipresentationfactory/getpresentationinfo#getpresentationinfo)(Stream) | Belirtilen akışta sunum hakkında bilgi alır. |
+| [GetPresentationInfo](../../aspose.slides/ipresentationfactory/getpresentationinfo#getpresentationinfo_1)(string) | Belirtilen dosyada sunum hakkında bilgi alır. |
 | [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext#getpresentationtext)(Stream, TextExtractionArrangingMode) | Slaytlardan ham metni alır |
 | [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext#getpresentationtext_2)(string, TextExtractionArrangingMode) | Slaytlardan ham metni alır |
 | [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext#getpresentationtext_1)(Stream, TextExtractionArrangingMode, ILoadOptions) | Slaytlardan ham metni alır |
-| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation)(byte[]) | Dizi içinden mevcut bir sunumu okur |
+| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation)(byte[]) | Diziden mevcut bir sunumu okur |
 | [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_2)(Stream) | Akıştan mevcut bir sunumu okur |
 | [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_4)(string) | Dosyadan mevcut bir sunumu okur |
-| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_1)(byte[], ILoadOptions) | Dizi içinden ek yükleme seçenekleriyle mevcut bir sunumu okur |
-| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_3)(Stream, ILoadOptions) | Akıştan ek yükleme seçenekleriyle mevcut bir sunumu okur |
-| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_5)(string, ILoadOptions) | Akıştan ek yükleme seçenekleriyle mevcut bir sunumu okur |
+| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_1)(byte[], ILoadOptions) | Ek yükleme seçenekleriyle diziden mevcut bir sunumu okur |
+| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_3)(Stream, ILoadOptions) | Ek yükleme seçenekleriyle akıştan mevcut bir sunumu okur |
+| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_5)(string, ILoadOptions) | Ek yükleme seçenekleriyle akıştan mevcut bir sunumu okur |
 
-### Diğer Bağlantılar
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

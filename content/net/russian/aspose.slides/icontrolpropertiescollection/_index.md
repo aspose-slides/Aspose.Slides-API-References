@@ -1,14 +1,14 @@
 ---
 title: IControlPropertiesCollection
-second_title: Справочник API Aspose.Sildes для .NET
-description: Коллекция элементов управления ActiveX.
+second_title: Aspose.Sildes для .NET API Reference
+description: Коллекция ActiveX-элементов управления.
 type: docs
-weight: 5650
+weight: 5670
 url: /ru/aspose.slides/icontrolpropertiescollection/
 ---
 ## IControlPropertiesCollection интерфейс
 
-Коллекция элементов управления ActiveX.
+Коллекция ActiveX-элементов управления.
 
 ```csharp
 public interface IControlPropertiesCollection : IEnumerable<KeyValuePair<string, string>>

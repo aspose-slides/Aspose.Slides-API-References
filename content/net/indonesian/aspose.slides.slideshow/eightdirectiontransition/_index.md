@@ -1,9 +1,9 @@
 ---
 title: EightDirectionTransition
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Efek transisi slide delapan arah.
 type: docs
-weight: 10020
+weight: 10040
 url: /id/aspose.slides.slideshow/eightdirectiontransition/
 ---
 ## EightDirectionTransition kelas
@@ -16,13 +16,13 @@ public class EightDirectionTransition : TransitionValueBase, IEightDirectionTran
 
 ## Properti
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
 | [Direction](../../aspose.slides.slideshow/eightdirectiontransition/direction) { get; set; } | Arah transisi. Baca/tulis [`TransitionEightDirectionType`](../transitioneightdirectiontype). |
 
 ## Metode
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Menentukan apakah dua instance TransitionValueBase sama. |
 | override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Berfungsi sebagai fungsi hash untuk tipe tertentu, cocok untuk digunakan dalam algoritma hashing dan struktur data seperti tabel hash. |

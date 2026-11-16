@@ -1,14 +1,14 @@
 ---
 title: ChartCategoryCollection
-second_title: Aspose.Sildes .NET API Referencia
+second_title: Aspose.Slides a .NET API referencia
 description: A ChartCategory gyűjteményét képviseli./chartcategory
 type: docs
-weight: 1280
+weight: 1290
 url: /hu/aspose.slides.charts/chartcategorycollection/
 ---
 ## ChartCategoryCollection osztály
 
-Represents collection of [`ChartCategory`](../chartcategory)
+A [`ChartCategory`](../chartcategory) gyűjteményét képviseli.
 
 ```csharp
 public class ChartCategoryCollection : DomObject<ChartData>, IChartCategoryCollection
@@ -16,27 +16,27 @@ public class ChartCategoryCollection : DomObject<ChartData>, IChartCategoryColle
 
 ## Tulajdonságok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
 | [Count](../../aspose.slides.charts/chartcategorycollection/count) { get; } | Visszaadja az elemek számát a gyűjteményben. Csak olvasható Int32. |
-| [GroupingLevelCount](../../aspose.slides.charts/chartcategorycollection/groupinglevelcount) { get; } | Visszaadja a kategória csoportosítási szintek számát. Több, mint egy a többszintű kategóriák esetén. Csak olvasható Int32. |
-| [IsSynchronized](../../aspose.slides.charts/chartcategorycollection/issynchronized) { get; } | Visszaad egy értéket, amely jelzi, hogy a List hozzáférése szinkronizált-e (szálbiztos). Csak olvasható Boolean. |
-| [Item](../../aspose.slides.charts/chartcategorycollection/item) { get; } | Lekéri a megadott indexű elemet. |
-| [SyncRoot](../../aspose.slides.charts/chartcategorycollection/syncroot) { get; } | Visszaad egy objektumot, amely felhasználható a gyűjteményhez való hozzáférés szinkronizálására. Csak olvasható Object. |
-| [UseCells](../../aspose.slides.charts/chartcategorycollection/usecells) { get; set; } | Ha igaz, a munkalap a kategóriák tárolására szolgál (ez az eset több szintű kategóriákat támogat). Ha hamis, a munkalap NEM használatos az értékek tárolására (és ez az eset nem támogatja a több szintű kategóriákat). Olvasható/írható Boolean. |
+| [GroupingLevelCount](../../aspose.slides.charts/chartcategorycollection/groupinglevelcount) { get; } | Visszaadja a használt kategória-csoportosítási szintek számát. Több, mint egy a több szintű kategóriák esetén. Csak olvasható Int32. |
+| [IsSynchronized](../../aspose.slides.charts/chartcategorycollection/issynchronized) { get; } | Visszaad egy értéket, amely jelzi, hogy a Listához való hozzáférés szinkronizált (szálbiztos). Csak olvasható Boolean. |
+| [Item](../../aspose.slides.charts/chartcategorycollection/item) { get; } | Megkapja a megadott indexű elemet. |
+| [SyncRoot](../../aspose.slides.charts/chartcategorycollection/syncroot) { get; } | Visszaad egy objektumot, amely a gyűjteményhez való hozzáférés szinkronizálására használható. Csak olvasható Object. |
+| [UseCells](../../aspose.slides.charts/chartcategorycollection/usecells) { get; set; } | Ha true, akkor a munkalap a kategóriák tárolására használható (ez az eset több szintű kategóriákat támogat). Ha false, akkor a munkalap NEM használható az értékek tárolására (és ez az eset nem támogat több szintű kategóriákat). Olvasás/írás Boolean. |
 
 ## Metódusok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
 | [Add](../../aspose.slides.charts/chartcategorycollection/add#add)(IChartDataCell) | Ha a kategória létezik a gyűjteményben, visszaadja. Ellenkező esetben új diagramkategóriát hoz létre a [`IChartDataCell`](../ichartdatacell) alapján, és hozzáadja a gyűjteményhez. |
-| [Add](../../aspose.slides.charts/chartcategorycollection/add#add_1)(object) | Új [`ChartCategory`](../chartcategory) objektumot hoz létre az értékből, és hozzáadja a gyűjteményhez. |
+| [Add](../../aspose.slides.charts/chartcategorycollection/add#add_1)(object) | Új [`ChartCategory`](../chartcategory)-t hoz létre az értékből, és hozzáadja a gyűjteményhez. |
 | [Clear](../../aspose.slides.charts/chartcategorycollection/clear)() | Eltávolítja az összes elemet a gyűjteményből. |
-| [CopyTo](../../aspose.slides.charts/chartcategorycollection/copyto)(Array, int) | Átmásolja a gyűjtemény összes elemét a megadott tömbbe. |
-| [GetEnumerator](../../aspose.slides.charts/chartcategorycollection/getenumerator)() | Visszaad egy enumerátort, amely végigiterál a gyűjteményen. |
-| [IndexOf](../../aspose.slides.charts/chartcategorycollection/indexof)(IChartCategory) | Keres a megadott [`ChartCategory`](../chartcategory) alapján, és visszaadja a nulla alapú indexet az első előfordulásra az egész Gyűjteményben. |
+| [CopyTo](../../aspose.slides.charts/chartcategorycollection/copyto)(Array, int) | Az összes elemet a gyűjteményből a megadott tömbbe másolja. |
+| [GetEnumerator](../../aspose.slides.charts/chartcategorycollection/getenumerator)() | Visszaad egy felsorolót, amely végigiterál a gyűjteményen. |
+| [IndexOf](../../aspose.slides.charts/chartcategorycollection/indexof)(IChartCategory) | A megadott [`ChartCategory`](../chartcategory)-t keresi, és visszaadja az első előfordulás nulla alapú indexét az egész Gyűjteményben. |
 | [Remove](../../aspose.slides.charts/chartcategorycollection/remove)(IChartCategory) | Eltávolítja a megadott értéket. |
-| [RemoveAt](../../aspose.slides.charts/chartcategorycollection/removeat)(int) | Eltávolítja az elemet a megadott indexnél. |
+| [RemoveAt](../../aspose.slides.charts/chartcategorycollection/removeat)(int) | Eltávolítja a megadott indexű elemet. |
 
 ### Lásd még
 

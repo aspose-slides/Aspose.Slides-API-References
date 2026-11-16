@@ -1,9 +1,9 @@
 ---
 title: IColorChangeEffectiveData
-second_title: Aspose.Slides for .NET API リファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: Color Change エフェクトを表す不変オブジェクトです。FromColor のインスタンスは ToColor のインスタンスに置き換えられます。
 type: docs
-weight: 3230
+weight: 3250
 url: /ja/aspose.slides.effects/icolorchangeeffectivedata/
 ---
 ## IColorChangeEffectiveData インターフェイス
@@ -18,10 +18,10 @@ public interface IColorChangeEffectiveData : IEffectEffectiveData
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/icolorchangeeffectivedata/asieffecteffectivedata) { get; } | 基本 IEffectEffectiveData インターフェイスを取得できます。読み取り専用 [`IEffectEffectiveData`](../ieffecteffectivedata)。 |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/icolorchangeeffectivedata/asieffecteffectivedata) { get; } | ベースの IEffectEffectiveData インターフェイスを取得できます。読み取り専用 [`IEffectEffectiveData`](../ieffecteffectivedata)。 |
 | [FromColor](../../aspose.slides.effects/icolorchangeeffectivedata/fromcolor) { get; } | 置き換えられる Color。読み取り専用 Color。 |
-| [ToColor](../../aspose.slides.effects/icolorchangeeffectivedata/tocolor) { get; } | 置き換える Color。読み取り専用 Color。 |
-| [UseAlpha](../../aspose.slides.effects/icolorchangeeffectivedata/usealpha) { get; } | アルファ成分を使用するかどうかを示すブール値を返します。読み取り専用 Boolean。 |
+| [ToColor](../../aspose.slides.effects/icolorchangeeffectivedata/tocolor) { get; } | 置換する Color。読み取り専用 Color。 |
+| [UseAlpha](../../aspose.slides.effects/icolorchangeeffectivedata/usealpha) { get; } | アルファ成分を使用すべきかどうかを決定する Boolean 値を返します。読み取り専用 Boolean。 |
 
 ### 参照
 

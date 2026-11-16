@@ -3,7 +3,7 @@ title: IComment
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt einen Kommentar auf einer Folie dar.
 type: docs
-weight: 5560
+weight: 5580
 url: /de/aspose.slides/icomment/
 ---
 ## IComment Schnittstelle
@@ -16,18 +16,18 @@ public interface IComment
 
 ## Eigenschaften
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
 | [Author](../../aspose.slides/icomment/author) { get; } | Gibt den Autor eines Kommentars zurück. Nur lesbar [`ICommentAuthor`](../icommentauthor). |
-| [CreatedTime](../../aspose.slides/icomment/createdtime) { get; set; } | Gibt die Zeit der Erstellung eines Kommentars zurück oder legt sie fest. Das Setzen dieser Eigenschaft auf MinValue bedeutet, dass keine Kommentarzeit festgelegt ist. Lese/Schreib DateTime. |
-| [ParentComment](../../aspose.slides/icomment/parentcomment) { get; set; } | Gibt den übergeordneten Kommentar zurück oder legt ihn fest. Lese/Schreib [`IComment`](../icomment). |
-| [Position](../../aspose.slides/icomment/position) { get; set; } | Gibt die Position eines Kommentars auf einer Folie zurück oder legt sie fest. Lese/Schreib PointF. |
-| [Slide](../../aspose.slides/icomment/slide) { get; } | Gibt die übergeordnete Folie eines Kommentars zurück. Nur lesbar [`ISlide`](../islide). |
-| [Text](../../aspose.slides/icomment/text) { get; set; } | Gibt den einfachen Text eines Folienkommentars zurück oder legt ihn fest. Lese/Schreib String. |
+| [CreatedTime](../../aspose.slides/icomment/createdtime) { get; set; } | Gibt die Erstellungszeit eines Kommentars zurück oder legt sie fest. Das Setzen dieser Eigenschaft auf MinValue bedeutet, dass keine Kommentarzeit festgelegt ist. Lesen/Schreiben DateTime. |
+| [ParentComment](../../aspose.slides/icomment/parentcomment) { get; set; } | Liefert den übergeordneten Kommentar oder legt ihn fest. Lesen/Schreiben [`IComment`](../icomment). |
+| [Position](../../aspose.slides/icomment/position) { get; set; } | Gibt die Position eines Kommentars auf einer Folie zurück oder legt sie fest. Lesen/Schreiben PointF. |
+| [Slide](../../aspose.slides/icomment/slide) { get; } | Gibt die übergeordnete Folie eines Kommentars zurück oder legt sie fest. Nur lesbar [`ISlide`](../islide). |
+| [Text](../../aspose.slides/icomment/text) { get; set; } | Gibt den Klartext eines Folienkommentars zurück oder legt ihn fest. Lesen/Schreiben String. |
 
 ## Methoden
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
 | [Remove](../../aspose.slides/icomment/remove)() | Entfernt den Kommentar und alle seine Antworten aus der übergeordneten Sammlung. |
 

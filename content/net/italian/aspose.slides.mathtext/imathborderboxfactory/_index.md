@@ -1,14 +1,14 @@
 ---
 title: IMathBorderBoxFactory
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Consente di creare una math border box
+description: Consente di creare una casella di bordo matematico
 type: docs
-weight: 8180
+weight: 8200
 url: /it/aspose.slides.mathtext/imathborderboxfactory/
 ---
 ## IMathBorderBoxFactory interfaccia
 
-Consente di creare una math border box
+Consente di creare una casella di bordo matematico
 
 ```csharp
 public interface IMathBorderBoxFactory
@@ -18,8 +18,8 @@ public interface IMathBorderBoxFactory
 
 | Nome | Descrizione |
 | --- | --- |
-| [CreateMathBorderBox](../../aspose.slides.mathtext/imathborderboxfactory/createmathborderbox#createmathborderbox)(IMathElement) | Crea una math border box applicandola all'elemento |
-| [CreateMathBorderBox](../../aspose.slides.mathtext/imathborderboxfactory/createmathborderbox#createmathborderbox_1)(IMathElement, bool, bool, bool, bool, bool, bool, bool, bool) | Crea una math border box applicandola all'elemento |
+| [CreateMathBorderBox](../../aspose.slides.mathtext/imathborderboxfactory/createmathborderbox#createmathborderbox)(IMathElement) | Crea una casella di bordo matematico applicandola all'elemento |
+| [CreateMathBorderBox](../../aspose.slides.mathtext/imathborderboxfactory/createmathborderbox#createmathborderbox_1)(IMathElement, bool, bool, bool, bool, bool, bool, bool, bool) | Crea una casella di bordo matematico applicandola all'elemento |
 
 ### Osservazioni
 

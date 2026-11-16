@@ -1,9 +1,9 @@
 ---
 title: IFontSources
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
+second_title: Aspose.Sildes के लिए .NET API रेफ़रेंस
 description: बाहरी फ़ॉन्ट्स के लिए फ़ाइल और मेमोरी स्रोत प्रदान करता है।
 type: docs
-weight: 5870
+weight: 5890
 url: /hi/aspose.slides/ifontsources/
 ---
 ## IFontSources इंटरफ़ेस
@@ -18,10 +18,10 @@ public interface IFontSources
 
 | नाम | विवरण |
 | --- | --- |
-| [FontFolders](../../aspose.slides/ifontsources/fontfolders) { get; set; } | फ़ॉन्ट फ़ाइलों वाले फ़ोल्डर्स। इन फ़ोल्डर्स में स्थित सभी फ़ॉन्ट फ़ाइलें संग्रह में शामिल होती हैं। फ़ोल्डर्स को पुनरावृति रूप से खोजा जाता है। |
-| [MemoryFonts](../../aspose.slides/ifontsources/memoryfonts) { get; set; } | फ़ॉन्ट्स का संग्रह जो बाइट एरे के रूप में प्रतिनिधित्व किया गया है। |
+| [FontFolders](../../aspose.slides/ifontsources/fontfolders) { get; set; } | फ़ॉन्ट फ़ाइलों वाले फ़ोल्डर। इन फ़ोल्डर में स्थित सभी फ़ॉन्ट फ़ाइलें संग्रह में सम्मिलित की जाती हैं। फ़ोल्डर जिन्हें पुनरावर्ती रूप से खोजा जाता है। |
+| [MemoryFonts](../../aspose.slides/ifontsources/memoryfonts) { get; set; } | बाइट ऐरे के रूप में दर्शाए गए फ़ॉन्ट्स का संग्रह। |
 
-### संबंधित देखें
+### देखें
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

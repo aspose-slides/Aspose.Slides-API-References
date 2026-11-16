@@ -3,7 +3,7 @@ title: ColumnFormat
 second_title: Aspose.Sildes .NET API 参考
 description: 表示表列的格式。
 type: docs
-weight: 2610
+weight: 2630
 url: /zh/aspose.slides/columnformat/
 ---
 ## ColumnFormat 类
@@ -18,9 +18,9 @@ public sealed class ColumnFormat : DomObject<Column>, IColumnFormat
 
 | 名称 | 描述 |
 | --- | --- |
-| [GetEffective](../../aspose.slides/columnformat/geteffective)() | 获取在应用继承和表样式后有效的表列格式属性。 |
+| [GetEffective](../../aspose.slides/columnformat/geteffective)() | 获取在应用继承和表样式后生效的表列格式属性。 |
 
-### 另请参阅
+### 另请参见
 
 * 类 [DomObject&lt;TParent&gt;](../domobject-1)
 * 类 [Column](../column)

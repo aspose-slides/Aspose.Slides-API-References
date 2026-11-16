@@ -1,9 +1,9 @@
 ---
 title: ResponsiveHtmlController
-second_title: Aspose.Sildes için .NET API Referansı
-description: Responsive HTML Denetleyicisi
+second_title: Aspose.Sildes .NET API Referansı
+description: Duyarlı HTML Denetleyicisi
 type: docs
-weight: 4420
+weight: 4440
 url: /tr/aspose.slides.export/responsivehtmlcontroller/
 ---
 ## ResponsiveHtmlController sınıfı
@@ -16,12 +16,12 @@ public class ResponsiveHtmlController : IResponsiveHtmlController
 
 ## Yapıcılar
 
-| İsim | Açıklama |
+| Ad | Açıklama |
 | --- | --- |
 | [ResponsiveHtmlController](responsivehtmlcontroller#constructor)() | Yeni bir örnek oluşturur |
 | [ResponsiveHtmlController](responsivehtmlcontroller#constructor_1)(IHtmlFormattingController) | Yeni bir örnek oluşturur |
 
-### İlgili
+### Ayrıca Bakınız
 
 * arayüz [IResponsiveHtmlController](../iresponsivehtmlcontroller)
 * ad alanı [Aspose.Slides.Export](../../aspose.slides.export)

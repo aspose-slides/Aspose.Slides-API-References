@@ -1,9 +1,9 @@
 ---
 title: IImageTransformOperationFactory
-second_title: Tham chiếu API Aspose.Sildes cho .NET
+second_title: Tham khảo API Aspose.Sildes cho .NET
 description: Cho phép tạo các thể hiện của hiệu ứng hình ảnh
 type: docs
-weight: 3410
+weight: 3430
 url: /vi/aspose.slides.effects/iimagetransformoperationfactory/
 ---
 ## IImageTransformOperationFactory giao diện
@@ -38,7 +38,7 @@ public interface IImageTransformOperationFactory
 
 ### Ghi chú
 
-Cho giao diện COM.
+Đối với giao diện COM.
 
 ### Xem thêm
 

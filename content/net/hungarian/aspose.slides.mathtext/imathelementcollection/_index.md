@@ -1,14 +1,14 @@
 ---
 title: IMathElementCollection
-second_title: Aspose.Sildes .NET API Referenciája
-description: Matematikai elemek (MathElement) gyűjteményét képviseli.
+second_title: Aspose.Sildes .NET API referencia
+description: Matematikai elemek (MathElement) gyűjteményét reprezentálja.
 type: docs
-weight: 8240
+weight: 8260
 url: /hu/aspose.slides.mathtext/imathelementcollection/
 ---
 ## IMathElementCollection interfész
 
-A matematikai elemek (MathElement) gyűjteményét képviseli.
+Matematikai elemek (MathElement) gyűjteményét reprezentálja.
 
 ```csharp
 public interface IMathElementCollection : IEnumerable<IMathElement>
@@ -16,24 +16,24 @@ public interface IMathElementCollection : IEnumerable<IMathElement>
 
 ## Tulajdonságok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.mathtext/imathelementcollection/asienumerable) { get; } | Visszaadja az IEnumerable felületet. Csak olvasható IEnumerable. |
-| [Count](../../aspose.slides.mathtext/imathelementcollection/count) { get; } | Lekéri a gyűjteményben ténylegesen lévő elemek számát. Csak olvasható Int32. |
-| [Item](../../aspose.slides.mathtext/imathelementcollection/item) { get; } | Lekéri a megadott indexnél lévő elemet. Csak olvasható [`IMathElement`](../imathelement). |
+| [AsIEnumerable](../../aspose.slides.mathtext/imathelementcollection/asienumerable) { get; } | Visszaadja az IEnumerable interfészt. Csak olvasható IEnumerable. |
+| [Count](../../aspose.slides.mathtext/imathelementcollection/count) { get; } | A gyűjteményben ténylegesen lévő elemek számát adja vissza. Csak olvasható Int32. |
+| [Item](../../aspose.slides.mathtext/imathelementcollection/item) { get; } | A megadott indexű elemet adja vissza. Csak olvasható [`IMathElement`](../imathelement). |
 
 ## Metódusok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
-| [Add](../../aspose.slides.mathtext/imathelementcollection/add)(IMathElement) | Hozzáad egy matematikai elemet a gyűjtemény végéhez. |
+| [Add](../../aspose.slides.mathtext/imathelementcollection/add)(IMathElement) | Matematikai elemet ad a gyűjtemény végéhez. |
 | [Clear](../../aspose.slides.mathtext/imathelementcollection/clear)() | Eltávolítja a gyűjtemény összes elemét. |
 | [Contains](../../aspose.slides.mathtext/imathelementcollection/contains)(IMathElement) | Megállapítja, hogy a gyűjtemény tartalmaz-e egy adott értéket. |
-| [CopyTo](../../aspose.slides.mathtext/imathelementcollection/copyto)(IMathElement[], int) | Másolja a megadott tömbbe. |
+| [CopyTo](../../aspose.slides.mathtext/imathelementcollection/copyto)(IMathElement[], int) | Átmásolja a megadott tömbbe. |
 | [IndexOf](../../aspose.slides.mathtext/imathelementcollection/indexof)(IMathElement) | Megállapítja egy adott matematikai elem indexét a gyűjteményben. |
-| [Insert](../../aspose.slides.mathtext/imathelementcollection/insert)(int, IMathElement) | Beszúr egy matematikai elemet a gyűjteménybe a megadott indexen. |
-| [Remove](../../aspose.slides.mathtext/imathelementcollection/remove)(IMathElement) | Eltávolítja egy adott objektum első előfordulását a gyűjteményből. |
-| [RemoveAt](../../aspose.slides.mathtext/imathelementcollection/removeat)(int) | Eltávolítja a gyűjteményben a megadott indexen lévő elemet. |
+| [Insert](../../aspose.slides.mathtext/imathelementcollection/insert)(int, IMathElement) | Beszúr egy matematikai elemet a gyűjteménybe a megadott indexnél. |
+| [Remove](../../aspose.slides.mathtext/imathelementcollection/remove)(IMathElement) | Eltávolítja a megadott objektum első előfordulását a gyűjteményből. |
+| [RemoveAt](../../aspose.slides.mathtext/imathelementcollection/removeat)(int) | Eltávolítja a gyűjteményben a megadott indexű elemet. |
 
 ### Példák
 

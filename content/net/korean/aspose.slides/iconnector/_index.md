@@ -1,14 +1,14 @@
 ---
 title: IConnector
-second_title: Aspose.Sildes for .NET API 참조
-description: 연결자를 나타냅니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 연결기를 나타냅니다.
 type: docs
-weight: 5610
+weight: 5630
 url: /ko/aspose.slides/iconnector/
 ---
 ## IConnector 인터페이스
 
-연결자를 나타냅니다.
+Represents a connector.
 
 ```csharp
 public interface IConnector : IGeometryShape
@@ -19,18 +19,18 @@ public interface IConnector : IGeometryShape
 | 이름 | 설명 |
 | --- | --- |
 | [AsIGeometryShape](../../aspose.slides/iconnector/asigeometryshape) { get; } | 기본 IGeometryShape 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IGeometryShape`](../igeometryshape). |
-| [ConnectorLock](../../aspose.slides/iconnector/connectorlock) { get; } | Connector의 잠금 정보를 반환합니다. 읽기 전용 [`IConnectorLock`](../iconnectorlock). |
-| [EndShapeConnectedTo](../../aspose.slides/iconnector/endshapeconnectedto) { get; set; } | 연결기의 끝을 연결할 도형을 반환하거나 설정합니다. 읽기/쓰기 [`IShape`](../ishape). |
-| [EndShapeConnectionSiteIndex](../../aspose.slides/iconnector/endshapeconnectionsiteindex) { get; set; } | 끝 도형의 연결 지점 인덱스를 반환하거나 설정합니다. 읽기/쓰기 UInt32. |
-| [ShapeLock](../../aspose.slides/iconnector/shapelock) { get; } | 도형의 잠금 정보를 반환합니다. 읽기 전용 [`IConnectorLock`](../iconnectorlock). |
-| [StartShapeConnectedTo](../../aspose.slides/iconnector/startshapeconnectedto) { get; set; } | 연결기의 시작을 연결할 도형을 반환하거나 설정합니다. 읽기/쓰기 [`IShape`](../ishape). |
-| [StartShapeConnectionSiteIndex](../../aspose.slides/iconnector/startshapeconnectionsiteindex) { get; set; } | 시작 도형의 연결 지점 인덱스를 반환하거나 설정합니다. 읽기/쓰기 UInt32. |
+| [ConnectorLock](../../aspose.slides/iconnector/connectorlock) { get; } | Connector의 잠금을 반환합니다. 읽기 전용 [`IConnectorLock`](../iconnectorlock). |
+| [EndShapeConnectedTo](../../aspose.slides/iconnector/endshapeconnectedto) { get; set; } | 연결기의 끝을 연결할 모양을 반환하거나 설정합니다. 읽기/쓰기 [`IShape`](../ishape). |
+| [EndShapeConnectionSiteIndex](../../aspose.slides/iconnector/endshapeconnectionsiteindex) { get; set; } | 끝 모양의 연결 지점 인덱스를 반환하거나 설정합니다. 읽기/쓰기 UInt32. |
+| [ShapeLock](../../aspose.slides/iconnector/shapelock) { get; } | 모양의 잠금을 반환합니다. 읽기 전용 [`IConnectorLock`](../iconnectorlock). |
+| [StartShapeConnectedTo](../../aspose.slides/iconnector/startshapeconnectedto) { get; set; } | 연결기의 시작을 연결할 모양을 반환하거나 설정합니다. 읽기/쓰기 [`IShape`](../ishape). |
+| [StartShapeConnectionSiteIndex](../../aspose.slides/iconnector/startshapeconnectionsiteindex) { get; set; } | 시작 모양의 연결 지점 인덱스를 반환하거나 설정합니다. 읽기/쓰기 UInt32. |
 
 ## 메서드
 
 | 이름 | 설명 |
 | --- | --- |
-| [Reroute](../../aspose.slides/iconnector/reroute)() | 연결기를 재배치하여 연결된 도형들 사이의 가능한 가장 짧은 경로를 취하도록 합니다. |
+| [Reroute](../../aspose.slides/iconnector/reroute)() | 연결기가 연결하는 모양들 사이에서 가능한 가장 짧은 경로를 취하도록 연결기를 재경로 지정합니다. |
 
 ### 참조
 

@@ -1,14 +1,14 @@
 ---
 title: FontSubstCondition
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Biểu thị một quy tắc thay thế phông chữ
+second_title: Aspose.Sildes cho Tham khảo API .NET
+description: Biểu diễn một quy tắc thay thế phông chữ
 type: docs
-weight: 4880
+weight: 4900
 url: /vi/aspose.slides/fontsubstcondition/
 ---
-## FontSubstCondition liệt kê
+## FontSubstCondition enumeration
 
-Biểu thị một quy tắc thay thế phông chữ
+Biểu diễn một quy tắc thay thế phông chữ
 
 ```csharp
 public enum FontSubstCondition
@@ -19,7 +19,7 @@ public enum FontSubstCondition
 | Tên | Giá trị | Mô tả |
 | --- | --- | --- |
 | WhenInaccessible | `0` | Thay thế khi không tìm thấy phông chữ |
-| Always | `1` | Thay thế luôn |
+| Always | `1` | Luôn thay thế |
 
 ### Xem thêm
 

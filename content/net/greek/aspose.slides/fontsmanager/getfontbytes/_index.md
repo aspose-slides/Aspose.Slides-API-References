@@ -1,14 +1,14 @@
 ---
 title: GetFontBytes
-second_title: Aspose.Sildes για .NET Αναφορά API
-description: Ανακτά τον πίνακα byte που αντιπροσωπεύει τα δεδομένα γραμματοσειράς για ένα καθορισμένο στυλ γραμματοσειράς και δεδομένα γραμματοσειράς.
+second_title: Aspose.Sildes για .NET API Αναφορά
+description: Ανακτά τον πίνακα byte που αντιπροσωπεύει τα δεδομένα γραμματοσειράς για ένα συγκεκριμένο στυλ γραμματοσειράς και δεδομένα γραμματοσειράς.
 type: docs
-weight: 50
+weight: 60
 url: /el/aspose.slides/fontsmanager/getfontbytes/
 ---
-## FontsManager.GetFontBytes μέθοδος
+## FontsManager.GetFontBytes method
 
-Επιστρέφει τον πίνακα byte που αντιπροσωπεύει τα δεδομένα της γραμματοσειράς για ένα συγκεκριμένο στυλ γραμματοσειράς και δεδομένα γραμματοσειράς.
+Ανακτά τον πίνακα byte που αντιπροσωπεύει τα δεδομένα γραμματοσειράς για ένα συγκεκριμένο στυλ γραμματοσειράς και δεδομένα γραμματοσειράς.
 
 ```csharp
 public byte[] GetFontBytes(IFontData fontData, FontStyleType fontStyle)
@@ -17,13 +17,13 @@ public byte[] GetFontBytes(IFontData fontData, FontStyleType fontStyle)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fontData | IFontData | Το αντικείμενο δεδομένων γραμματοσειράς που περιέχει τις πληροφορίες για τη γραμματοσειρά [`IFontData`](../../ifontdata). |
-| fontStyle | FontStyleType | Το στυλ της γραμματοσειράς για το οποίο θα ανακτηθούν τα δεδομένα [`FontStyleType`](../../fontstyletype). |
+| fontStyle | FontStyleType | Το στυλ της γραμματοσειράς για το οποίο πρέπει να ανακτηθούν τα δεδομένα [`FontStyleType`](../../fontstyletype). |
 
-### Τιμή Επιστροφής
+### Return Value
 
-Ένας πίνακας byte που περιέχει τα δεδομένα της γραμματοσειράς για το καθορισμένο στυλ γραμματοσειράς. Εάν δεν βρεθούν τα δεδομένα ή το στυλ της γραμματοσειράς, επιστρέφει null.
+Ένας πίνακας byte που περιέχει τα δεδομένα γραμματοσειράς για το καθορισμένο στυλ γραμματοσειράς. Εάν δεν βρεθούν τα δεδομένα γραμματοσειράς ή το στυλ, επιστρέφει null.
 
-### Παραδείγματα
+### Examples
 
 ```csharp
 [C#]
@@ -32,15 +32,15 @@ using (Presentation pres = new Presentation ("Presentation.pptx"))
     // Ανακτά όλες τις γραμματοσειρές που χρησιμοποιούνται στην παρουσίαση
     IFontData[] fonts = pres.FontsManager.GetFonts();
 
-    // Αποκτά τον πίνακα byte που αντιπροσωπεύει το κανονικό στυλ της πρώτης γραμματοσειράς στην παρουσίαση
+    // Λαμβάνει τον πίνακα byte που αντιπροσωπεύει το κανονικό στυλ της πρώτης γραμματοσειράς στην παρουσίαση
     byte[] bytes = pres.FontsManager.GetFontBytes(fonts[0], FontStyleType.Regular);
 }
 ```
 
-### Δείτε επίσης
+### See Also
 
-* διασύνδεση [IFontData](../../ifontdata)
-* αριθμός [FontStyleType](../../fontstyletype)
+* διεπαφή [IFontData](../../ifontdata)
+* απαρίθμηση [FontStyleType](../../fontstyletype)
 * κλάση [FontsManager](../../fontsmanager)
 * χώρος ονομάτων [Aspose.Slides](../../fontsmanager)
 * συγκρότημα [Aspose.Slides](../../../)

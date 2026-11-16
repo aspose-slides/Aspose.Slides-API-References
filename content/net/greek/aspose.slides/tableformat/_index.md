@@ -1,9 +1,9 @@
 ---
 title: TableFormat
 second_title: Aspose.Sildes για .NET API Αναφορά
-description: Αντιπροσωπεύει τη μορφή ενός πίνακα.
+description: Αναπαριστά τη μορφή ενός πίνακα.
 type: docs
-weight: 10870
+weight: 10890
 url: /el/aspose.slides/tableformat/
 ---
 ## TableFormat κλάση
@@ -16,16 +16,16 @@ public sealed class TableFormat : DomObject<Table>, ITableFormat
 
 ## Ιδιότητες
 
-| Όνομα | Περιγραφή |
+| Name | Description |
 | --- | --- |
-| [FillFormat](../../aspose.slides/tableformat/fillformat) { get; } | Επιστρέφει ένα αντικείμενο ιδιοτήτων γεμίσματος πίνακα. Μόνο για ανάγνωση [`IFillFormat`](../ifillformat). |
-| [Transparency](../../aspose.slides/tableformat/transparency) { get; set; } | Λαμβάνει ή ορίζει τη διαφάνεια του χρώματος γεμίσματος. Ανάγνωση/εγγραφή Single. |
+| [FillFormat](../../aspose.slides/tableformat/fillformat) { get; } | Επιστρέφει ένα αντικείμενο ιδιοτήτων γεμίσματος πίνακα. Μόνο ανάγνωση [`IFillFormat`](../ifillformat). |
+| [Transparency](../../aspose.slides/tableformat/transparency) { get; set; } | Ανακτά ή ορίζει τη διαφάνεια του χρώματος γεμίσματος. Ανάγνωση/Εγγραφή Single. |
 
 ## Μέθοδοι
 
-| Όνομα | Περιγραφή |
+| Name | Description |
 | --- | --- |
-| [GetEffective](../../aspose.slides/tableformat/geteffective)() | Λαμβάνει τις αποτελεσματικές ιδιότητες μορφοποίησης πίνακα με κληρονομικότητα και εφαρμοσμένα στυλ πίνακα. |
+| [GetEffective](../../aspose.slides/tableformat/geteffective)() | Ανακτά τις αποτελεσματικές ιδιότητες μορφοποίησης πίνακα με κληρονομικά και εφαρμοσμένα στυλ πίνακα. |
 
 ### Δείτε επίσης
 

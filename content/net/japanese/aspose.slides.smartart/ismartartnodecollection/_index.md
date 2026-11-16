@@ -3,7 +3,7 @@ title: ISmartArtNodeCollection
 second_title: Aspose.Sildes for .NET API リファレンス
 description: SmartArt ノードのコレクションを表します。
 type: docs
-weight: 10560
+weight: 10580
 url: /ja/aspose.slides.smartart/ismartartnodecollection/
 ---
 ## ISmartArtNodeCollection インターフェイス
@@ -18,7 +18,7 @@ public interface ISmartArtNodeCollection : IGenericCollection<ISmartArtNode>
 
 | 名前 | 説明 |
 | --- | --- |
-| [Item](../../aspose.slides.smartart/ismartartnodecollection/item) { get; } | インデックスでノードを取得します。読み取り専用 [`ISmartArtNode`](../ismartartnode) |
+| [Item](../../aspose.slides.smartart/ismartartnodecollection/item) { get; } | インデックスでノードを返します。読み取り専用 [`ISmartArtNode`](../ismartartnode) |
 
 ## メソッド
 
@@ -29,7 +29,7 @@ public interface ISmartArtNodeCollection : IGenericCollection<ISmartArtNode>
 | [RemoveNode](../../aspose.slides.smartart/ismartartnodecollection/removenode#removenode_1)(int) | インデックスでノードまたはサブノードを削除します。 |
 | [RemoveNode](../../aspose.slides.smartart/ismartartnodecollection/removenode#removenode)(ISmartArtNode) | ノードまたはサブノードを削除します。 |
 
-### 参照
+### 関連項目
 
 * インターフェイス [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * インターフェイス [ISmartArtNode](../ismartartnode)

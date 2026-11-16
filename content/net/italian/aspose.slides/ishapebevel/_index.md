@@ -1,12 +1,12 @@
 ---
 title: IShapeBevel
-second_title: Aspose.Sildes per .NET Riferimento API
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta le proprietà del rilievo della faccia principale delle forme.
 type: docs
-weight: 6960
+weight: 6980
 url: /it/aspose.slides/ishapebevel/
 ---
-## IShapeBevel interfaccia
+## Interfaccia IShapeBevel
 
 Rappresenta le proprietà del rilievo della faccia principale della forma.
 
@@ -18,9 +18,9 @@ public interface IShapeBevel
 
 | Nome | Descrizione |
 | --- | --- |
-| [BevelType](../../aspose.slides/ishapebevel/beveltype) { get; set; } | Tipo di smusso. Lettura/scrittura [`BevelPresetType`](../bevelpresettype). |
-| [Height](../../aspose.slides/ishapebevel/height) { get; set; } | Altezza del smusso. Lettura/scrittura Double. |
-| [Width](../../aspose.slides/ishapebevel/width) { get; set; } | Larghezza del smusso. Lettura/scrittura Double. |
+| [BevelType](../../aspose.slides/ishapebevel/beveltype) { get; set; } | Tipo di smussatura. Lettura/scrittura [`BevelPresetType`](../bevelpresettype). |
+| [Height](../../aspose.slides/ishapebevel/height) { get; set; } | Altezza della smussatura. Lettura/scrittura Double. |
+| [Width](../../aspose.slides/ishapebevel/width) { get; set; } | Larghezza della smussatura. Lettura/scrittura Double. |
 
 ### Vedi anche
 

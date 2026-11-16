@@ -1,28 +1,28 @@
 ---
 title: TransitionMorphType
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงประเภทของการเปลี่ยนภาพแบบ morph.
+description: แสดงประเภทของการแปลง morph.
 type: docs
-weight: 10390
+weight: 10410
 url: /th/aspose.slides.slideshow/transitionmorphtype/
 ---
 ## TransitionMorphType enumeration
 
-แสดงถึงประเภทของการเปลี่ยนภาพแบบ morph.
+แสดงประเภทของการแปลง Morph
 
 ```csharp
 public enum TransitionMorphType
 ```
 
-### ค่า
+### Values
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
-| ByObject | `0` | การเปลี่ยนภาพแบบ morph จะดำเนินการโดยพิจารณา shapes เป็นวัตถุที่ไม่แยกย่อยได้. |
-| ByWord | `1` | การเปลี่ยนภาพแบบ morph จะดำเนินการโดยถ่ายโอน text ตามคำในที่เป็นไปได้. |
-| ByChar | `2` | การเปลี่ยนภาพแบบ morph จะดำเนินการโดยถ่ายโอน text ตามอักขระในที่เป็นไปได้. |
+| ByObject | `0` | การแปลง Morph จะทำโดยพิจารณา shapes เป็นวัตถุที่ไม่สามารถแยกย่อยได้. |
+| ByWord | `1` | การแปลง Morph จะทำโดยการถ่ายโอนข้อความตามคำเมื่อเป็นไปได้. |
+| ByChar | `2` | การแปลง Morph จะทำโดยการถ่ายโอนข้อความตามอักขระเมื่อเป็นไปได้. |
 
-### ดูเพิ่มเติม
+### See Also
 
 * เนมสเปซ [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * แอสเซมบลี [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: INormalViewRestoredProperties
-second_title: مرجع API لـ Aspose.Sildes على .NET
-description: يحدد حجم منطقة الشريحة (العرض عندما يكون فرعًا من restoredTop، الارتفاع عندما يكون فرعًا من restoredLeft) في العرض العادي عندما تكون المنطقة بحجم مستعاد متغير (ليس مصغرًا ولا مكبرًا).
+second_title: Aspose.Sildes للـ .NET مرجع API
+description: يحدد حجم منطقة الشريحة العرض عندما تكون فرعًا من restoredTop والارتفاع عندما تكون فرعًا من restoredLeft في العرض العادي عندما تكون المنطقة بحجم مستعاد متغير ليس مصغّرًا ولا مكبرًا.
 type: docs
-weight: 6480
+weight: 6500
 url: /ar/aspose.slides/inormalviewrestoredproperties/
 ---
 ## INormalViewRestoredProperties واجهة
 
-يحدد حجم منطقة الشريحة ((العرض عندما يكون فرعًا من restoredTop، الارتفاع عندما يكون فرعًا من restoredLeft) في العرض العادي، عندما تكون المنطقة بحجم مستعاد متغير (ليس مصغرًا ولا مكبرًا).
+يحدد حجم منطقة الشريحة ((العرض عندما تكون فرعًا من restoredTop، الارتفاع عندما تكون فرعًا من restoredLeft) في العرض العادي، عندما تكون المنطقة بحجم مستعاد متغير (ليس مصغرة ولا مكبرة).
 
 ```csharp
 public interface INormalViewRestoredProperties
@@ -18,8 +18,8 @@ public interface INormalViewRestoredProperties
 
 | الاسم | الوصف |
 | --- | --- |
-| [AutoAdjust](../../aspose.slides/inormalviewrestoredproperties/autoadjust) { get; set; } | يحدد ما إذا كان حجم منطقة المحتوى الجانبية يجب أن يعوض عن الحجم الجديد عند تغيير حجم النافذة التي تحتوي على العرض داخل التطبيق. قراءة/كتابة Boolean. |
-| [DimensionSize](../../aspose.slides/inormalviewrestoredproperties/dimensionsize) { get; set; } | يحدد حجم منطقة الشريحة (العرض عندما يكون فرعًا من RestoredTop، الارتفاع عندما يكون فرعًا من RestoredLeft). قراءة/كتابة Single. يطلق استثناء عندما تكون القيمة أقل من 0 أو أكبر من 100. |
+| [AutoAdjust](../../aspose.slides/inormalviewrestoredproperties/autoadjust) { get; set; } | حدد ما إذا كان يجب أن يعوض حجم منطقة المحتوى الجانبية الحجم الجديد عند تغيير حجم النافذة التي تحتوي على العرض داخل التطبيق قراءة/كتابة Boolean. |
+| [DimensionSize](../../aspose.slides/inormalviewrestoredproperties/dimensionsize) { get; set; } | حدد حجم منطقة الشريحة (العرض عندما تكون فرعًا من RestoredTop، الارتفاع عندما تكون فرعًا من RestoredLeft). قراءة/كتابة Single. يُطرح استثناءً عندما تكون القيمة أقل من 0 أو أكبر من 100. |
 
 ### انظر أيضًا
 

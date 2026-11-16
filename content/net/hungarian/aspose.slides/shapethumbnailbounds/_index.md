@@ -1,28 +1,28 @@
 ---
 title: ShapeThumbnailBounds
-second_title: Aspose.Sildes a .NET API referenciája
-description: Az alak bélyegkép határának típusainak felsorolása.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: A forma bélyegkép határainak típusainak felsorolása.
 type: docs
-weight: 9920
+weight: 9940
 url: /hu/aspose.slides/shapethumbnailbounds/
 ---
-## ShapeThumbnailBounds felsorolás
+## ShapeThumbnailBounds enumeration
 
-Az alak bélyegkép határának típusai.
+A forma bélyegkép határainak típusainak felsorolása.
 
 ```csharp
 public enum ShapeThumbnailBounds
 ```
 
-### Értékek
+### Values
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| Slide | `0` | Az alak bélyegkép mérete megegyezik a dia méretével. Az alak pozíciója mentésre kerül. |
-| Shape | `1` | Az alak bélyegkép mérete megegyezik az alak határátlaló téglalappal, figyelembe véve az alak körvonal beállításait. |
-| Appearance | `2` | Az alak bélyegkép mérete megegyezik az alak megjelenésével (a dia határain belül). Lehetnek esetek, amikor az alak megjelenése nem illeszkedik az alak határaihoz. Például forgatás, hegyes szögű illesztő, 3D effektusok stb. |
+| Slide | `0` | A forma bélyegkép mérete megegyezik a dia méretével. A forma pozíciója mentésre kerül. |
+| Shape | `1` | A forma bélyegkép mérete megegyezik a forma határkörzet téglalapjával, figyelembe véve a forma körvonal beállításait. |
+| Appearance | `2` | A forma bélyegkép mérete megegyezik a forma megjelenésével (a dia határain belül). Előfordulhat, hogy a forma megjelenése nem illeszkedik a forma határkörzetébe. Például forgatás, éles szögű metszéspont, 3D hatások stb. |
 
-### Lásd még
+### See Also
 
 * névtér [Aspose.Slides](../../aspose.slides)
 * összeállítás [Aspose.Slides](../../)

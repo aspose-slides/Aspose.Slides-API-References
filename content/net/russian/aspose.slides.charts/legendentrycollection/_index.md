@@ -1,9 +1,9 @@
 ---
 title: LegendEntryCollection
-second_title: Aspose.Sildes для .NET API справочник
+second_title: Aspose.Sildes для .NET API справка
 description: Представляет коллекцию легенд.
 type: docs
-weight: 2300
+weight: 2320
 url: /ru/aspose.slides.charts/legendentrycollection/
 ---
 ## LegendEntryCollection класс
@@ -18,8 +18,8 @@ public class LegendEntryCollection : ILegendEntryCollection
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides.charts/legendentrycollection/count) { get; } | Получает количество записей легенды. Только для чтения Int32. |
-| [Item](../../aspose.slides.charts/legendentrycollection/item) { get; } | Получает свойства записи легенды, соответствующей Chart.ChartData.Series[0].DataPoints[index] в случае типов диаграмм из следующего списка: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie; либо соответствующей Chart.ChartData.Series[index] для остальных типов диаграмм. |
+| [Count](../../aspose.slides.charts/legendentrycollection/count) { get; } | Возвращает количество элементов легенды. Только для чтения Int32. |
+| [Item](../../aspose.slides.charts/legendentrycollection/item) { get; } | Возвращает свойства элемента легенды, соответствующего Chart.ChartData.Series[0].DataPoints[index] в случае типа диаграммы из следующего списка: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie; или соответствующего Chart.ChartData.Series[index] для остальных типов диаграмм. |
 
 ### См. также
 

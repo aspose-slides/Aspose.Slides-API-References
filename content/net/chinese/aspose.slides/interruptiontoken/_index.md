@@ -1,9 +1,9 @@
 ---
 title: InterruptionToken
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 此类表示用于向长时间运行的任务发出是否请求中断的信号的令牌。
 type: docs
-weight: 7600
+weight: 7620
 url: /zh/aspose.slides/interruptiontoken/
 ---
 ## InterruptionToken 类
@@ -16,16 +16,16 @@ public class InterruptionToken : IInterruptionToken
 
 ## 属性
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
 | static [None](../../aspose.slides/interruptiontoken/none) { get; } | 表示一个空的中断令牌。使用此令牌时，长时间运行的操作永远不会通过 [`Interrupt`](../interruptiontokensource/interrupt) 被中断。 |
-| [IsInterruptionRequested](../../aspose.slides/interruptiontoken/isinterruptionrequested) { get; } | 如果已请求中断，则返回 Boolean.true。 |
+| [IsInterruptionRequested](../../aspose.slides/interruptiontoken/isinterruptionrequested) { get; } | 如果请求了中断，则返回 Boolean.true。 |
 
 ## 方法
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
-| [ThrowIfInterruptionRequested](../../aspose.slides/interruptiontoken/throwifinterruptionrequested)() | 如果已请求中断，则抛出 OperationCanceledException。 |
+| [ThrowIfInterruptionRequested](../../aspose.slides/interruptiontoken/throwifinterruptionrequested)() | 如果请求了中断，则抛出 OperationCanceledException。 |
 
 ### 另请参见
 

@@ -1,12 +1,12 @@
 ---
 title: FontDataFactory
-second_title: Aspose.Sildes .NET के लिए API संदर्भ
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
 description: FontData फ़ैक्टरी
 type: docs
-weight: 4830
+weight: 4850
 url: /hi/aspose.slides/fontdatafactory/
 ---
-## FontDataFactory क्लास
+## FontDataFactory वर्ग
 
 FontData फ़ैक्टरी
 
@@ -14,19 +14,19 @@ FontData फ़ैक्टरी
 public class FontDataFactory : IFontDataFactory
 ```
 
-## कंस्ट्रक्टर्स
+## कंस्ट्रक्टर
 
-| Name | Description |
+| नाम | विवरण |
 | --- | --- |
 | [FontDataFactory](fontdatafactory)() | डिफ़ॉल्ट कंस्ट्रक्टर। |
 
-## मेथड्स
+## विधियाँ
 
-| Name | Description |
+| नाम | विवरण |
 | --- | --- |
 | [CreateFontData](../../aspose.slides/fontdatafactory/createfontdata)(string) | निर्दिष्ट फ़ॉन्ट नाम के साथ FontData बनाता है। |
 
-### संबंधित देखें
+### देखें
 
 * इंटरफ़ेस [IFontDataFactory](../ifontdatafactory)
 * नेमस्पेस [Aspose.Slides](../../aspose.slides)

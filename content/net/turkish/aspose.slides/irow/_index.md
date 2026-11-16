@@ -1,9 +1,9 @@
 ---
 title: IRow
-second_title: Aspose.Slides için .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Bir tabloda bir satırı temsil eder.
 type: docs
-weight: 6850
+weight: 6870
 url: /tr/aspose.slides/irow/
 ---
 ## IRow arayüz
@@ -18,13 +18,13 @@ public interface IRow : IBulkTextFormattable, ICellCollection
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIBulkTextFormattable](../../aspose.slides/irow/asibulktextformattable) { get; } | Base IBulkTextFormattable arabirimini almayı sağlar. Yalnızca okuma [`IBulkTextFormattable`](../ibulktextformattable). |
-| [AsICellCollection](../../aspose.slides/irow/asicellcollection) { get; } | Base ICellCollection arabirimini almayı sağlar. Yalnızca okuma [`ICellCollection`](../icellcollection). |
-| [Height](../../aspose.slides/irow/height) { get; } | Bir satırın yüksekliğini döndürür. Yalnızca okuma Double. |
-| [MinimalHeight](../../aspose.slides/irow/minimalheight) { get; set; } | Bir satırın alabileceği en düşük yüksekliği döndürür veya ayarlar. Okuma/Yazma Double. |
-| [RowFormat](../../aspose.slides/irow/rowformat) { get; } | Bu satır için biçimlendirme özelliklerini içeren RowFormat nesnesini döndürür. Yalnızca okuma [`IRowFormat`](../irowformat). |
+| [AsIBulkTextFormattable](../../aspose.slides/irow/asibulktextformattable) { get; } | IBulkTextFormattable arayüzünü almayı sağlar. Yalnızca okunabilir [`IBulkTextFormattable`](../ibulktextformattable). |
+| [AsICellCollection](../../aspose.slides/irow/asicellcollection) { get; } | ICellCollection arayüzünü almayı sağlar. Yalnızca okunabilir [`ICellCollection`](../icellcollection). |
+| [Height](../../aspose.slides/irow/height) { get; } | Bir satırın yüksekliğini döndürür. Yalnızca okunabilir Double. |
+| [MinimalHeight](../../aspose.slides/irow/minimalheight) { get; set; } | Bir satırın olası en düşük yüksekliğini döndürür veya ayarlar. Okunabilir/Yazılabilir Double. |
+| [RowFormat](../../aspose.slides/irow/rowformat) { get; } | Bu satır için biçimlendirme özelliklerini içeren RowFormat nesnesini döndürür. Yalnızca okunabilir [`IRowFormat`](../irowformat). |
 
-### Ayrıca Bakınız
+### Diğer Bağlantılar
 
 * arayüz [IBulkTextFormattable](../ibulktextformattable)
 * arayüz [ICellCollection](../icellcollection)

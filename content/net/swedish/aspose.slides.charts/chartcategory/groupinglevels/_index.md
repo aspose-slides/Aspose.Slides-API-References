@@ -1,14 +1,14 @@
 ---
 title: GroupingLevels
 second_title: Aspose.Sildes för .NET API-referens
-description: Hanterad behållare för värdena i diagramkategorins grupperingnivåer. Flernivåkategori innehåller mer än en grupperingnivå. Indexering av grupperingnivåer är nollbaserad. Read-only IChartCategoryLevelsManageraspose.slides.charts/ichartcategorylevelsmanager.
+description: Hanterad behållare för värdena i diagramkategorins grupperingnivåer. Flernivåkategori innehåller mer än en grupperingnivå. Indexering av grupperingnivåer är nollbaserad. Endast läs IChartCategoryLevelsManageraspose.slides.charts/ichartcategorylevelsmanager.
 type: docs
-weight: 30
+weight: 40
 url: /sv/aspose.slides.charts/chartcategory/groupinglevels/
 ---
 ## ChartCategory.GroupingLevels egenskap
 
-Hanterad behållare för värdena i diagramkategorins grupperingnivåer. Flernivåkategori innehåller mer än en grupperingnivå. Indexering av grupperingnivåer är nollbaserad. Skrivskyddad [`IChartCategoryLevelsManager`](../../ichartcategorylevelsmanager).
+Hanterad behållare för värdena i diagramkategorins grupperingnivåer. En flernivåkategori innehåller mer än en grupperingnivå. Indexering av grupperingnivåer är nollbaserad. Endast läs [`IChartCategoryLevelsManager`](../../ichartcategorylevelsmanager).
 
 ```csharp
 public IChartCategoryLevelsManager GroupingLevels { get; }

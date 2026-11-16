@@ -1,9 +1,9 @@
 ---
 title: VideoPlayerHtmlControllerFactory
-second_title: Aspose.Sildes .NET API referencia
+second_title: Aspose.Sildes .NET-hez API hivatkozás
 description: Lehetővé teszi a VideoPlayerHtmlController létrehozását.
 type: docs
-weight: 4590
+weight: 4610
 url: /hu/aspose.slides.export/videoplayerhtmlcontrollerfactory/
 ---
 ## VideoPlayerHtmlControllerFactory osztály
@@ -24,11 +24,11 @@ public class VideoPlayerHtmlControllerFactory : IVideoPlayerHtmlControllerFactor
 
 | Név | Leírás |
 | --- | --- |
-| [CreateVideoPlayerHtmlController](../../aspose.slides.export/videoplayerhtmlcontrollerfactory/createvideoplayerhtmlcontroller)(string, string, string) | Új `VideoPlayerHtmlController` példányt hoz létre. |
+| [CreateVideoPlayerHtmlController](../../aspose.slides.export/videoplayerhtmlcontrollerfactory/createvideoplayerhtmlcontroller)(string, string, string) | Létrehoz egy új `VideoPlayerHtmlController`-t. |
 
-### Megjegyzések
+### Megjegyzés
 
-A COM kompatibilitás érdekében.
+COM kompatibilitáshoz.
 
 ### Lásd még
 

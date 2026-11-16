@@ -3,7 +3,7 @@ title: UpDownBarsManager
 second_title: Aspose.Sildes .NET API 参考
 description: 提供对折线图或股票图的上/下柱的访问。
 type: docs
-weight: 2500
+weight: 2520
 url: /zh/aspose.slides.charts/updownbarsmanager/
 ---
 ## UpDownBarsManager 类
@@ -14,6 +14,7 @@ url: /zh/aspose.slides.charts/updownbarsmanager/
 public class UpDownBarsManager : DomObject<ChartSeriesGroup>, IUpDownBarsManager
 ```
 
+
 ## 属性
 
 | 名称 | 描述 |
@@ -23,7 +24,7 @@ public class UpDownBarsManager : DomObject<ChartSeriesGroup>, IUpDownBarsManager
 | [HasUpDownBars](../../aspose.slides.charts/updownbarsmanager/hasupdownbars) { get; set; } | HasUpDownBars。读/写 Boolean。 |
 | [UpBarsFormat](../../aspose.slides.charts/updownbarsmanager/upbarsformat) { get; } | 返回 UpBars 格式。只读 [`IFormat`](../iformat)。 |
 
-### 另见
+### 参见
 
 * 类 [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * 类 [ChartSeriesGroup](../chartseriesgroup)

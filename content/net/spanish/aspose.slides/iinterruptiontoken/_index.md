@@ -1,14 +1,14 @@
 ---
 title: IInterruptionToken
-second_title: Referencia de la API de Aspose.Sildes para .NET
-description: Esta clase representa el token que se usa para señalizar a tareas de larga duración si se solicitó la interrupción.
+second_title: Referencia de API de Aspose.Sildes para .NET
+description: Esta clase representa el token que se debe usar para señalar tareas de larga duración si se solicitó la interrupción.
 type: docs
-weight: 6190
+weight: 6210
 url: /es/aspose.slides/iinterruptiontoken/
 ---
 ## IInterruptionToken interfaz
 
-Esta clase representa el token que se usa para señalizar a tareas de larga duración si se solicitó la interrupción.
+Esta clase representa el token que se debe usar para señalizar tareas de larga duración si se solicitó la interrupción.
 
 ```csharp
 public interface IInterruptionToken

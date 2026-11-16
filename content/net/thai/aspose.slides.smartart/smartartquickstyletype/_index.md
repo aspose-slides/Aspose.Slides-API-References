@@ -1,20 +1,20 @@
 ---
 title: SmartArtQuickStyleType
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: แสดงรูปแบบสไตล์ของแผนภาพ SmartArt.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงโครงร่างสไตล์ของแผนภาพ SmartArt.
 type: docs
-weight: 10650
+weight: 10670
 url: /th/aspose.slides.smartart/smartartquickstyletype/
 ---
-## SmartArtQuickStyleType enum
+## SmartArtQuickStyleType enumeration
 
-แสดงรูปแบบสไตล์ของแผนภาพ SmartArt.
+แสดงรูปแบบสไตล์ของแผนภูมิ SmartArt.
 
 ```csharp
 public enum SmartArtQuickStyleType
 ```
 
-### ค่า
+### ค่าต่างๆ
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |

@@ -1,14 +1,14 @@
 ---
 title: Value
-second_title: Aspose.Sildes .NET API referenciája
-description: Ha a UseCell igaz, akkor ez a tulajdonság az AsCell.Value tulajdonságot jelenti. Ha a UseCell hamis, akkor ez a tulajdonság az AsLiteral tulajdonságot jelenti. Olvasás/írás Object.
+second_title: Aspose.Sildes .NET API referencia
+description: Ha a UseCell igaz, akkor ez a tulajdonság az AsCell.Value tulajdonságot képviseli. Ha a UseCell hamis, akkor ez a tulajdonság az AsLiteral tulajdonságot képviseli. Olvasás/írás Object.
 type: docs
-weight: 50
+weight: 60
 url: /hu/aspose.slides.charts/ichartcategory/value/
 ---
 ## IChartCategory.Value tulajdonság
 
-Ha a UseCell igaz, akkor ez a tulajdonság az AsCell.Value tulajdonságot jelenti. Ha a UseCell hamis, akkor ez a tulajdonság az AsLiteral tulajdonságot jelenti. Olvasás/írás Object.
+Ha a UseCell igaz, akkor ez a tulajdonság az AsCell.Value tulajdonságot képviseli. Ha a UseCell hamis, akkor ez a tulajdonság az AsLiteral tulajdonságot képviseli. Olvasás/írás Object.
 
 ```csharp
 public object Value { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: IMathParagraph
 second_title: Aspose.Sildes for .NET API 参考
-description: 数学段落，是用于容纳数学块 IMathBlock 的容器
+description: 数学段落是数学块 IMathBlock 的容器
 type: docs
-weight: 8390
+weight: 8410
 url: /zh/aspose.slides.mathtext/imathparagraph/
 ---
 ## IMathParagraph 接口
 
-Mathematical paragraph that is a container for mathematical blocks (IMathBlock)
+数学段落是数学块 (IMathBlock) 的容器
 
 ```csharp
 public interface IMathParagraph : IMathBlockCollection
@@ -18,19 +18,20 @@ public interface IMathParagraph : IMathBlockCollection
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIMathBlockCollection](../../aspose.slides.mathtext/imathparagraph/asimathblockcollection) { get; } | Allows to get base IMathBlockCollection interface [`IMathBlockCollection`](../imathblockcollection) |
-| [Justification](../../aspose.slides.mathtext/imathparagraph/justification) { get; set; } | Paragraph Justification Default value: CenteredAsGroup |
+| [AsIMathBlockCollection](../../aspose.slides.mathtext/imathparagraph/asimathblockcollection) { get; } | 允许获取基本的 IMathBlockCollection 接口 [`IMathBlockCollection`](../imathblockcollection) |
+| [Justification](../../aspose.slides.mathtext/imathparagraph/justification) { get; set; } | 段落对齐 默认值: CenteredAsGroup |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [ToLatex](../../aspose.slides.mathtext/imathparagraph/tolatex)() | Gets mathematical equation in LaTeX format |
-| [WriteAsMathMl](../../aspose.slides.mathtext/imathparagraph/writeasmathml)(Stream) | Saves content of this [`IMathParagraph`](../imathparagraph) as MathML |
+| [ToLatex](../../aspose.slides.mathtext/imathparagraph/tolatex)() | 获取 LaTeX 格式的数学方程 |
+| [WriteAsMathMl](../../aspose.slides.mathtext/imathparagraph/writeasmathml)(Stream) | 将此 [`IMathParagraph`](../imathparagraph) 的内容保存为 MathML |
 
 ### 示例
 
-Example:
+示例：
+
 ```csharp
 [C#]
 IAutoShape shape = slide.Shapes.AddMathShape(x, y, width, height);
@@ -38,7 +39,7 @@ IMathParagraph mathParagraph = (shape.TextFrame.Paragraphs[0].Portions[0] as Mat
 mathParagraph.Justification = MathJustification.LeftJustified;
 ```
 
-### 参见
+### 另请参见
 
 * 接口 [IMathBlockCollection](../imathblockcollection)
 * 命名空间 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

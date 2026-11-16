@@ -3,12 +3,12 @@ title: IZoomObject
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili objek Zoom dalam slide.
 type: docs
-weight: 7410
+weight: 7430
 url: /id/aspose.slides/izoomobject/
 ---
 ## IZoomObject antarmuka
 
-Mewakili objek Zoom dalam slide.
+Represents a Zoom object in a slide.
 
 ```csharp
 public interface IZoomObject : IGraphicalObject
@@ -18,12 +18,12 @@ public interface IZoomObject : IGraphicalObject
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIGraphicalObject](../../aspose.slides/izoomobject/asigraphicalobject) { get; } | Mengizinkan untuk mendapatkan antarmuka IGraphicalObject dasar. Read-only [`IGraphicalObject`](../igraphicalobject). |
-| [ImageType](../../aspose.slides/izoomobject/imagetype) { get; set; } | Mendapatkan atau mengatur tipe gambar dari objek zoom. Read/write [`ZoomImageType`](../zoomimagetype). Nilai default: Preview |
-| [ReturnToParent](../../aspose.slides/izoomobject/returntoparent) { get; set; } | Mendapatkan atau mengatur perilaku navigasi dalam tayangan slide. Read/write Boolean. Nilai default: false |
-| [ShowBackground](../../aspose.slides/izoomobject/showbackground) { get; set; } | Mendapatkan atau mengatur nilai yang menentukan apakah Zoom akan menggunakan latar belakang slide tujuan. Read/write Boolean. Nilai default: true |
-| [TransitionDuration](../../aspose.slides/izoomobject/transitionduration) { get; set; } | Mendapatkan atau mengatur durasi transisi antara Zoom dan slide. Read/write Single. Nilai default: 1.0f |
-| [ZoomImage](../../aspose.slides/izoomobject/zoomimage) { get; set; } | Mendapatkan atau mengatur gambar untuk objek zoom. Read/write [`IPPImage`](../ippimage). |
+| [AsIGraphicalObject](../../aspose.slides/izoomobject/asigraphicalobject) { get; } | Mengizinkan mengambil antarmuka IGraphicalObject dasar. Hanya baca [`IGraphicalObject`](../igraphicalobject). |
+| [ImageType](../../aspose.slides/izoomobject/imagetype) { get; set; } | Mendapatkan atau mengatur tipe gambar dari objek zoom. Baca/tulis [`ZoomImageType`](../zoomimagetype). Nilai default: Preview |
+| [ReturnToParent](../../aspose.slides/izoomobject/returntoparent) { get; set; } | Mendapatkan atau mengatur perilaku navigasi dalam pertunjukan slide. Baca/tulis Boolean. Nilai default: false |
+| [ShowBackground](../../aspose.slides/izoomobject/showbackground) { get; set; } | Mendapatkan atau mengatur nilai yang menentukan apakah Zoom akan menggunakan latar belakang slide tujuan. Baca/tulis Boolean. Nilai default: true |
+| [TransitionDuration](../../aspose.slides/izoomobject/transitionduration) { get; set; } | Mendapatkan atau mengatur durasi transisi antara Zoom dan slide. Baca/tulis Single. Nilai default: 1.0f |
+| [ZoomImage](../../aspose.slides/izoomobject/zoomimage) { get; set; } | Mendapatkan atau mengatur gambar untuk objek zoom. Baca/tulis [`IPPImage`](../ippimage). |
 
 ### Lihat Juga
 

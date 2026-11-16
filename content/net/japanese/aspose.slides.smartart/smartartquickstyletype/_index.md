@@ -1,14 +1,14 @@
 ---
 title: SmartArtQuickStyleType
 second_title: Aspose.Sildes for .NET API リファレンス
-description: SmartArt ダイアグラムのスタイル スキームを表します。
+description: SmartArt 図のスタイル スキームを表します。
 type: docs
-weight: 10650
+weight: 10670
 url: /ja/aspose.slides.smartart/smartartquickstyletype/
 ---
 ## SmartArtQuickStyleType 列挙型
 
-SmartArt ダイアグラムのスタイル スキームを表します。
+SmartArt 図のスタイルスキームを表します。
 
 ```csharp
 public enum SmartArtQuickStyleType

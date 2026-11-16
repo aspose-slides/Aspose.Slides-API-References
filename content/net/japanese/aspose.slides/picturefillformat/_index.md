@@ -3,7 +3,7 @@ title: PictureFillFormat
 second_title: Aspose.Sildes for .NET API リファレンス
 description: 画像塗りつぶしスタイルを表します。
 type: docs
-weight: 9390
+weight: 9410
 url: /ja/aspose.slides/picturefillformat/
 ---
 ## PictureFillFormat クラス
@@ -18,32 +18,32 @@ public sealed class PictureFillFormat : PVIObject, IPictureFillFormat
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | ベース IPresentationComponent インターフェイスを取得できます。 読み取り専用 [`IPresentationComponent`](../ipresentationcomponent)。 |
-| [CropBottom](../../aspose.slides/picturefillformat/cropbottom) { get; set; } | 画像の下部がトリミングされる実際の画像高さのパーセンテージ数を取得または設定します。 読み書き可能 Single。 |
-| [CropLeft](../../aspose.slides/picturefillformat/cropleft) { get; set; } | 画像の左側がトリミングされる実際の画像幅のパーセンテージ数を取得または設定します。 読み書き可能 Single。 |
-| [CropRight](../../aspose.slides/picturefillformat/cropright) { get; set; } | 画像の右側がトリミングされる実際の画像幅のパーセンテージ数を取得または設定します。 読み書き可能 Single。 |
-| [CropTop](../../aspose.slides/picturefillformat/croptop) { get; set; } | 画像の上部がトリミングされる実際の画像高さのパーセンテージ数を取得または設定します。 読み書き可能 Single。 |
-| [Dpi](../../aspose.slides/picturefillformat/dpi) { get; set; } | 画像を塗りつぶす際に使用される DPI を取得または設定します。 読み書き可能 Int32。 |
-| [Picture](../../aspose.slides/picturefillformat/picture) { get; } | 画像を取得します。 読み取り専用 [`ISlidesPicture`](../islidespicture)。 |
-| [PictureFillMode](../../aspose.slides/picturefillformat/picturefillmode) { get; set; } | 画像の塗りつぶしモードを取得または設定します。 読み書き可能 [`PictureFillMode`](../picturefillmode)。 |
-| [StretchOffsetBottom](../../aspose.slides/picturefillformat/stretchoffsetbottom) { get; set; } | シェイプのバウンディング ボックスの下端からのパーセンテージオフセットで定義される塗りつぶし矩形の下端を取得または設定します。正のパーセンテージはインセットを、負のパーセンテージはアウトセットを指定します。 読み書き可能 Single。 |
-| [StretchOffsetLeft](../../aspose.slides/picturefillformat/stretchoffsetleft) { get; set; } | シェイプのバウンディング ボックスの左端からのパーセンテージオフセットで定義される塗りつぶし矩形の左端を取得または設定します。正のパーセンテージはインセットを、負のパーセンテージはアウトセットを指定します。 読み書き可能 Single。 |
-| [StretchOffsetRight](../../aspose.slides/picturefillformat/stretchoffsetright) { get; set; } | シェイプのバウンディング ボックスの右端からのパーセンテージオフセットで定義される塗りつぶし矩形の右端を取得または設定します。正のパーセンテージはインセットを、負のパーセンテージはアウトセットを指定します。 読み書き可能 Single。 |
-| [StretchOffsetTop](../../aspose.slides/picturefillformat/stretchoffsettop) { get; set; } | シェイプのバウンディング ボックスの上端からのパーセンテージオフセットで定義される塗りつぶし矩形の上端を取得または設定します。正のパーセンテージはインセットを、負のパーセンテージはアウトセットを指定します。 読み書き可能 Single。 |
-| [TileAlignment](../../aspose.slides/picturefillformat/tilealignment) { get; set; } | テクスチャがシェイプ内でどのように配置されるかを取得または設定します。この設定はテクスチャ パターンの開始点とシェイプ全体への繰り返し方法を制御します。 読み書き可能 [`RectangleAlignment`](../rectanglealignment)。 |
-| [TileFlip](../../aspose.slides/picturefillformat/tileflip) { get; set; } | テクスチャ タイルを水平方向、垂直方向、またはその両方の軸で反転させます。 読み書き可能 [`TileFlip`](../tileflip)。 |
-| [TileOffsetX](../../aspose.slides/picturefillformat/tileoffsetx) { get; set; } | テクスチャの水平方向オフセット（ポイント単位）を取得または設定します。正の値はテクスチャを右に、負の値は左に移動させます。 読み書き可能 Single。 |
-| [TileOffsetY](../../aspose.slides/picturefillformat/tileoffsety) { get; set; } | テクスチャの垂直方向オフセット（ポイント単位）を取得または設定します。正の値はテクスチャを下に、負の値は上に移動させます。 読み書き可能 Single。 |
-| [TileScaleX](../../aspose.slides/picturefillformat/tilescalex) { get; set; } | テクスチャ塗りつぶしの水平方向スケールをパーセンテージで取得または設定します。 読み書き可能 Single。 |
-| [TileScaleY](../../aspose.slides/picturefillformat/tilescaley) { get; set; } | テクスチャ塗りつぶしの垂直方向スケールをパーセンテージで取得または設定します。 読み書き可能 Single。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | ベースの IPresentationComponent インターフェイスを取得できます。読み取り専用 [`IPresentationComponent`](../ipresentationcomponent)。 |
+| [CropBottom](../../aspose.slides/picturefillformat/cropbottom) { get; set; } | 画像の実際の高さのパーセンテージで、画像の下部が切り取られる割合を取得または設定します。読み取り/書き込み Single。 |
+| [CropLeft](../../aspose.slides/picturefillformat/cropleft) { get; set; } | 画像の実際の幅のパーセンテージで、画像の左側が切り取られる割合を取得または設定します。読み取り/書き込み Single。 |
+| [CropRight](../../aspose.slides/picturefillformat/cropright) { get; set; } | 画像の実際の幅のパーセンテージで、画像の右側が切り取られる割合を取得または設定します。読み取り/書き込み Single。 |
+| [CropTop](../../aspose.slides/picturefillformat/croptop) { get; set; } | 画像の実際の高さのパーセンテージで、画像の上部が切り取られる割合を取得または設定します。読み取り/書き込み Single。 |
+| [Dpi](../../aspose.slides/picturefillformat/dpi) { get; set; } | 画像の塗りつぶしに使用される DPI を取得または設定します。読み取り/書き込み Int32。 |
+| [Picture](../../aspose.slides/picturefillformat/picture) { get; } | 画像を取得します。読み取り専用 [`ISlidesPicture`](../islidespicture)。 |
+| [PictureFillMode](../../aspose.slides/picturefillformat/picturefillmode) { get; set; } | 画像の塗りつぶしモードを取得または設定します。読み取り/書き込み [`PictureFillMode`](../picturefillmode)。 |
+| [StretchOffsetBottom](../../aspose.slides/picturefillformat/stretchoffsetbottom) { get; set; } | シェイプのバウンディングボックスの下端からのパーセンテージオフセットで定義された塗りつぶし矩形の下端を取得または設定します。正のパーセンテージはインセットを、負のパーセンテージはアウトセットを表します。読み取り/書き込み Single。 |
+| [StretchOffsetLeft](../../aspose.slides/picturefillformat/stretchoffsetleft) { get; set; } | シェイプのバウンディングボックスの左端からのパーセンテージオフセットで定義された塗りつぶし矩形の左端を取得または設定します。正のパーセンテージはインセットを、負のパーセンテージはアウトセットを表します。読み取り/書き込み Single。 |
+| [StretchOffsetRight](../../aspose.slides/picturefillformat/stretchoffsetright) { get; set; } | シェイプのバウンディングボックスの右端からのパーセンテージオフセットで定義された塗りつぶし矩形の右端を取得または設定します。正のパーセンテージはインセットを、負のパーセンテージはアウトセットを表します。読み取り/書き込み Single。 |
+| [StretchOffsetTop](../../aspose.slides/picturefillformat/stretchoffsettop) { get; set; } | シェイプのバウンディングボックスの上端からのパーセンテージオフセットで定義された塗りつぶし矩形の上端を取得または設定します。正のパーセンテージはインセットを、負のパーセンテージはアウトセットを表します。読み取り/書き込み Single。 |
+| [TileAlignment](../../aspose.slides/picturefillformat/tilealignment) { get; set; } | テクスチャがシェイプ内でどのように配置されるかを取得または設定します。この設定はテクスチャパターンの開始位置とシェイプ全体での繰り返し方法を制御します。読み取り/書き込み [`RectangleAlignment`](../rectanglealignment)。 |
+| [TileFlip](../../aspose.slides/picturefillformat/tileflip) { get; set; } | テクスチャタイルを水平、垂直、または両方の軸で反転させます。読み取り/書き込み [`TileFlip`](../tileflip)。 |
+| [TileOffsetX](../../aspose.slides/picturefillformat/tileoffsetx) { get; set; } | テクスチャの水平方向のオフセット（ポイント単位）をシェイプの原点から取得または設定します。正の値はテクスチャを右へ、負の値は左へ移動させます。読み取り/書き込み Single。 |
+| [TileOffsetY](../../aspose.slides/picturefillformat/tileoffsety) { get; set; } | テクスチャの垂直方向のオフセット（ポイント単位）をシェイプの原点から取得または設定します。正の値はテクスチャを下へ、負の値は上へ移動させます。読み取り/書き込み Single。 |
+| [TileScaleX](../../aspose.slides/picturefillformat/tilescalex) { get; set; } | テクスチャ塗りつぶしの水平方向のスケール（パーセンテージ）を取得または設定します。読み取り/書き込み Single。 |
+| [TileScaleY](../../aspose.slides/picturefillformat/tilescaley) { get; set; } | テクスチャ塗りつぶしの垂直方向のスケール（パーセンテージ）を取得または設定します。読み取り/書き込み Single。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [CompressImage](../../aspose.slides/picturefillformat/compressimage#compressimage_1)(bool, float) | 画像を圧縮し、シェイプのサイズと指定された解像度に基づいてサイズを縮小します。オプションで、トリミングされた領域も削除します。 |
-| [CompressImage](../../aspose.slides/picturefillformat/compressimage#compressimage)(bool, PicturesCompression) | 画像を圧縮し、シェイプのサイズと指定された解像度に基づいてサイズを縮小します。オプションで、トリミングされた領域も削除します。 |
-| [DeletePictureCroppedAreas](../../aspose.slides/picturefillformat/deletepicturecroppedareas)() | 塗りつぶし画像のトリミングされた領域を削除します。 |
+| [CompressImage](../../aspose.slides/picturefillformat/compressimage#compressimage_1)(bool, float) | シェイプサイズと指定された解像度に基づいて画像のサイズを縮小し、画像を圧縮します。必要に応じて、切り取られた領域も削除します。 |
+| [CompressImage](../../aspose.slides/picturefillformat/compressimage#compressimage)(bool, PicturesCompression) | シェイプサイズと指定された解像度に基づいて画像のサイズを縮小し、画像を圧縮します。必要に応じて、切り取られた領域も削除します。 |
+| [DeletePictureCroppedAreas](../../aspose.slides/picturefillformat/deletepicturecroppedareas)() | 塗りつぶし画像の切り取られた領域を削除します。 |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | 指定されたオブジェクトと比較します。 |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | ハッシュコードを返します。 |
 

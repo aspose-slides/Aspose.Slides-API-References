@@ -1,14 +1,14 @@
 ---
 title: LineCapStyle
-second_title: مرجع API لـ Aspose.Sildes لـ .NET
-description: يمثل نمط طرف الخط.
+second_title: Aspose.Sildes لـ .NET مرجع API
+description: يمثل نمط رأس الخط.
 type: docs
-weight: 7760
+weight: 7780
 url: /ar/aspose.slides/linecapstyle/
 ---
 ## تعداد LineCapStyle
 
-يمثل نمط نهايات الخط.
+يمثل نمط رأس الخط.
 
 ```csharp
 public enum LineCapStyle : sbyte
@@ -23,7 +23,7 @@ public enum LineCapStyle : sbyte
 | Square | `1` |  |
 | Flat | `2` |  |
 
-### انظر أيضًا
+### أنظر أيضًا
 
 * مساحة الاسم [Aspose.Slides](../../aspose.slides)
 * التجميع [Aspose.Slides](../../)

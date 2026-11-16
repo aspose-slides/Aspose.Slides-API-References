@@ -1,14 +1,14 @@
 ---
 title: IFillOverlayEffectiveData
-second_title: Aspose.Sildes .NET API 参考
-description: 不可变对象，表示填充覆盖效果。填充覆盖可用于为对象指定额外的填充，并将两种填充混合在一起。
+second_title: Aspose.Sildes for .NET API 参考
+description: 不可变对象，表示填充叠加效果。填充叠加可用于为对象指定额外的填充并将两种填充混合在一起。
 type: docs
-weight: 3310
+weight: 3330
 url: /zh/aspose.slides.effects/ifilloverlayeffectivedata/
 ---
 ## IFillOverlayEffectiveData 接口
 
-不可变对象，表示填充覆盖效果。填充覆盖可用于为对象指定额外的填充，并将两种填充混合在一起。
+不可变对象，表示填充叠加效果。填充叠加可用于为对象指定额外的填充并将两种填充混合在一起。
 
 ```csharp
 public interface IFillOverlayEffectiveData : IEffectEffectiveData
@@ -22,7 +22,7 @@ public interface IFillOverlayEffectiveData : IEffectEffectiveData
 | [Blend](../../aspose.slides.effects/ifilloverlayeffectivedata/blend) { get; } | FillBlendMode。只读 [`FillBlendMode`](../../aspose.slides/fillblendmode)。 |
 | [FillFormat](../../aspose.slides.effects/ifilloverlayeffectivedata/fillformat) { get; } | 填充格式。只读 [`IFillFormatEffectiveData`](../../aspose.slides/ifillformateffectivedata)。 |
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IEffectEffectiveData](../ieffecteffectivedata)
 * 命名空间 [Aspose.Slides.Effects](../../aspose.slides.effects)

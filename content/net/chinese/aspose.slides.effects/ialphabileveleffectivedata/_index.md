@@ -1,27 +1,27 @@
 ---
 title: IAlphaBiLevelEffectiveData
 second_title: Aspose.Sildes for .NET API 参考
-description: 不可变对象，表示 Alpha 双层效果。Alpha 不透明度值低于阈值的将被更改为 0（完全透明），而大于或等于阈值的将被更改为 100（完全不透明）。
+description: 不可变对象，表示 Alpha 双层效果。Alpha 不透明度值小于阈值的将被更改为 0（完全透明），大于或等于阈值的将被更改为 100（完全不透明）。
 type: docs
-weight: 3030
+weight: 3050
 url: /zh/aspose.slides.effects/ialphabileveleffectivedata/
 ---
-## IAlphaBiLevelEffectiveData interface
+## IAlphaBiLevelEffectiveData 接口
 
-不可变对象，表示 Alpha 双层效果。Alpha（Opacity）值低于阈值的将被更改为 0（完全透明），而大于或等于阈值的 Alpha 值将被更改为 100%（完全不透明）。
+不可变对象，表示 Alpha 双层效果。Alpha（Opacity）值小于阈值的将被更改为 0（完全透明），Alpha 值大于或等于阈值的将被更改为 100%（完全不透明）。
 
 ```csharp
 public interface IAlphaBiLevelEffectiveData : IEffectEffectiveData
 ```
 
-## Properties
+## 属性
 
 | 名称 | 描述 |
 | --- | --- |
 | [AsIEffectEffectiveData](../../aspose.slides.effects/ialphabileveleffectivedata/asieffecteffectivedata) { get; } | 允许获取基础 IEffectEffectiveData 接口。只读 [`IEffectEffectiveData`](../ieffecteffectivedata)。 |
 | [Threshold](../../aspose.slides.effects/ialphabileveleffectivedata/threshold) { get; } | 返回效果阈值。只读 Single。 |
 
-### 另请参见
+### 参见
 
 * 接口 [IEffectEffectiveData](../ieffecteffectivedata)
 * 命名空间 [Aspose.Slides.Effects](../../aspose.slides.effects)

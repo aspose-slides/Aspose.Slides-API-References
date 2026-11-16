@@ -3,7 +3,7 @@ title: Width
 second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Zwraca lub ustawia szerokość tytułu jako ułamek szerokości wykresu. Odczyt/zapis Single.
 type: docs
-weight: 150
+weight: 160
 url: /pl/aspose.slides.charts/datalabel/width/
 ---
 ## DataLabel.Width właściwość

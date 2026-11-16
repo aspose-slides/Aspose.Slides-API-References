@@ -1,14 +1,14 @@
 ---
 title: Merger
-second_title: Aspose.Sildes for .NET API Referansı
-description: Aynı formatta PowerPoint sunumlarını tek bir dosyada birleştirmek için yöntemlerin bir grubunu temsil eder.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Aynı formatta birden fazla PowerPoint sunumunu tek bir dosyada birleştirmek için kullanılan yöntem grubunu temsil eder.
 type: docs
-weight: 7970
+weight: 7990
 url: /tr/aspose.slides.lowcode/merger/
 ---
 ## Merger sınıfı
 
-Aynı formatta PowerPoint sunumlarını tek bir dosyada birleştirmek için yöntemlerin bir grubunu temsil eder.
+Aynı biçimdeki birden fazla PowerPoint sunumunu tek bir dosyada birleştirmek için kullanılan yöntem grubunu temsil eder.
 
 ```csharp
 public static class Merger
@@ -18,12 +18,12 @@ public static class Merger
 
 | Ad | Açıklama |
 | --- | --- |
-| static [Process](../../aspose.slides.lowcode/merger/process#process)(string[], Stream) | Aynı formatta birden fazla PowerPoint sunumunu tek bir sunum dosyasında birleştirir. |
-| static [Process](../../aspose.slides.lowcode/merger/process#process_2)(string[], string) | Aynı formatta birden fazla PowerPoint sunumunu tek bir sunum dosyasında birleştirir. |
-| static [Process](../../aspose.slides.lowcode/merger/process#process_1)(string[], Stream, ISaveOptions) | Aynı formatta birden fazla PowerPoint sunumunu tek bir sunum dosyasında birleştirir. |
-| static [Process](../../aspose.slides.lowcode/merger/process#process_3)(string[], string, ISaveOptions) | Aynı formatta birden fazla PowerPoint sunumunu tek bir sunum dosyasında birleştirir. |
+| static [Process](../../aspose.slides.lowcode/merger/process#process)(string[], Stream) | Aynı biçimdeki birden fazla PowerPoint sunumunu tek bir sunum dosyasına birleştirir. |
+| static [Process](../../aspose.slides.lowcode/merger/process#process_2)(string[], string) | Aynı biçimdeki birden fazla PowerPoint sunumunu tek bir sunum dosyasına birleştirir. |
+| static [Process](../../aspose.slides.lowcode/merger/process#process_1)(string[], Stream, ISaveOptions) | Aynı biçimdeki birden fazla PowerPoint sunumunu tek bir sunum dosyasına birleştirir. |
+| static [Process](../../aspose.slides.lowcode/merger/process#process_3)(string[], string, ISaveOptions) | Aynı biçimdeki birden fazla PowerPoint sunumunu tek bir sunum dosyasına birleştirir. |
 
-### Ayrıca Bakınız
+### İlgili
 
 * ad alanı [Aspose.Slides.LowCode](../../aspose.slides.lowcode)
 * derleme [Aspose.Slides](../../)

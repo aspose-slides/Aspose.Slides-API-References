@@ -1,9 +1,9 @@
 ---
 title: ISmartArtNodeCollection
-second_title: Aspose.Sildes .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 表示 SmartArt 节点的集合。
 type: docs
-weight: 10560
+weight: 10580
 url: /zh/aspose.slides.smartart/ismartartnodecollection/
 ---
 ## ISmartArtNodeCollection 接口
@@ -18,7 +18,7 @@ public interface ISmartArtNodeCollection : IGenericCollection<ISmartArtNode>
 
 | 名称 | 描述 |
 | --- | --- |
-| [Item](../../aspose.slides.smartart/ismartartnodecollection/item) { get; } | 通过索引返回节点。只读 [`ISmartArtNode`](../ismartartnode) |
+| [Item](../../aspose.slides.smartart/ismartartnodecollection/item) { get; } | 返回按索引的节点。只读 [`ISmartArtNode`](../ismartartnode) |
 
 ## 方法
 
@@ -26,10 +26,10 @@ public interface ISmartArtNodeCollection : IGenericCollection<ISmartArtNode>
 | --- | --- |
 | [AddNode](../../aspose.slides.smartart/ismartartnodecollection/addnode)() | 添加新节点或子节点。 |
 | [AddNodeByPosition](../../aspose.slides.smartart/ismartartnodecollection/addnodebyposition)(int) | 在节点集合的选定位置添加新节点。 |
-| [RemoveNode](../../aspose.slides.smartart/ismartartnodecollection/removenode#removenode_1)(int) | 通过索引删除节点或子节点。 |
+| [RemoveNode](../../aspose.slides.smartart/ismartartnodecollection/removenode#removenode_1)(int) | 按索引删除节点或子节点。 |
 | [RemoveNode](../../aspose.slides.smartart/ismartartnodecollection/removenode#removenode)(ISmartArtNode) | 删除节点或子节点。 |
 
-### 参见
+### 另见
 
 * 接口 [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * 接口 [ISmartArtNode](../ismartartnode)

@@ -1,20 +1,20 @@
 ---
 title: IShapeElement
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Biểu diễn một phần của hình có cùng các thuộc tính viền và tô.
+description: Biểu diễn một phần của shape với cùng các thuộc tính outline và fill.
 type: docs
-weight: 6990
+weight: 7010
 url: /vi/aspose.slides/ishapeelement/
 ---
-## IShapeElement giao diện
+## Giao diện IShapeElement
 
-Biểu diễn một phần của hình có cùng các thuộc tính viền và tô.
+Biểu diễn một phần của shape với cùng các thuộc tính outline và fill.
 
 ```csharp
 public interface IShapeElement
 ```
 
-### Xem thêm
+### Xem Thêm
 
 * không gian tên [Aspose.Slides](../../aspose.slides)
 * tập hợp [Aspose.Slides](../../)

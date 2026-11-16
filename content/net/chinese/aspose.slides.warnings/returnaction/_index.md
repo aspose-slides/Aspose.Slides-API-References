@@ -1,9 +1,9 @@
 ---
 title: ReturnAction
-second_title: Aspose.Sildes 的 .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 表示警告回调决策选项。
 type: docs
-weight: 11820
+weight: 11840
 url: /zh/aspose.slides.warnings/returnaction/
 ---
 ## ReturnAction 枚举
@@ -18,8 +18,8 @@ public enum ReturnAction
 
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
-| Continue | `0` | 应继续操作。 |
-| Abort | `1` | 应中止操作。 |
+| Continue | `0` | 操作应继续。 |
+| Abort | `1` | 操作应中止。 |
 
 ### 另见
 

@@ -1,12 +1,12 @@
 ---
 title: TextAutofitType
-second_title: Aspose.Sildes pro .NET API referenci
-description: Representuje režim automatického přizpůsobení textu.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Reprezentuje režim automatického přizpůsobení textu.
 type: docs
-weight: 10920
+weight: 10940
 url: /cs/aspose.slides/textautofittype/
 ---
-## Výčet TextAutofitType
+## TextAutofitType výčtový typ
 
 Reprezentuje režim automatického přizpůsobení textu.
 
@@ -20,7 +20,7 @@ public enum TextAutofitType : sbyte
 | --- | --- | --- |
 | NotDefined | `-1` | Není definováno. |
 | None | `0` | Žádné automatické přizpůsobení. |
-| Normal | `1` | Normální automatické přizpůsobení. Velikost písma a řádkování budou zmenšeny, aby se vešly do tvaru. |
+| Normal | `1` | Normální automatické přizpůsobení. Velikost písma a řádkování budou sníženy, aby se vešly do tvaru. |
 | Shape | `2` | Automatické přizpůsobení tvaru. Velikost tvaru bude změněna, aby se vešel text. |
 
 ### Viz také

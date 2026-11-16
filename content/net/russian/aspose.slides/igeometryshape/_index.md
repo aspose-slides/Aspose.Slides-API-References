@@ -1,14 +1,14 @@
 ---
 title: IGeometryShape
-second_title: Справочник API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET справочника API
 description: Представляет родительский класс для всех геометрических фигур.
 type: docs
-weight: 5980
+weight: 6000
 url: /ru/aspose.slides/igeometryshape/
 ---
 ## IGeometryShape интерфейс
 
-Представляет родительский класс для всех геометрических фигур.
+Represents the parent class for all geometric shapes.
 
 ```csharp
 public interface IGeometryShape : IShape
@@ -18,19 +18,19 @@ public interface IGeometryShape : IShape
 
 | Имя | Описание |
 | --- | --- |
-| [Adjustments](../../aspose.slides/igeometryshape/adjustments) { get; } | Возвращает коллекцию значений коррекции фигуры. Только для чтения [`IAdjustValueCollection`](../iadjustvaluecollection). |
+| [Adjustments](../../aspose.slides/igeometryshape/adjustments) { get; } | Возвращает коллекцию значений корректировки формы. Только для чтения [`IAdjustValueCollection`](../iadjustvaluecollection). |
 | [AsIShape](../../aspose.slides/igeometryshape/asishape) { get; } | Позволяет получить базовый интерфейс IShape. Только для чтения [`IShape`](../ishape). |
-| [ShapeStyle](../../aspose.slides/igeometryshape/shapestyle) { get; } | Возвращает объект стиля фигуры. Только для чтения [`IShapeStyle`](../ishapestyle). |
-| [ShapeType](../../aspose.slides/igeometryshape/shapetype) { get; set; } | Возвращает или задает тип предустановки геометрии. Примечание: при изменении значения все значения коррекции будут сброшены к значениям по умолчанию. Чтение/запись [`ShapeType`](../shapetype). |
+| [ShapeStyle](../../aspose.slides/igeometryshape/shapestyle) { get; } | Возвращает объект стиля формы. Только для чтения [`IShapeStyle`](../ishapestyle). |
+| [ShapeType](../../aspose.slides/igeometryshape/shapetype) { get; set; } | Возвращает или задает тип предустановки геометрии. Примечание: при изменении значения все значения корректировки будут сброшены к значениям по умолчанию. Чтение/запись [`ShapeType`](../shapetype). |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [CreateShapeElements](../../aspose.slides/igeometryshape/createshapeelements)() | Создает и возвращает массив элементов фигуры. |
-| [GetGeometryPaths](../../aspose.slides/igeometryshape/getgeometrypaths)() | Возвращает копию пути геометрической фигуры. Координаты задаются относительно левого верхнего угла фигуры. |
-| [SetGeometryPath](../../aspose.slides/igeometryshape/setgeometrypath)(IGeometryPath) | Обновляет геометрию фигуры из объекта [`IGeometryPath`](../igeometrypath). Координаты должны быть относительно левого верхнего угла фигуры. Изменяет тип фигуры ([`ShapeType`](./shapetype)) на Custom. |
-| [SetGeometryPaths](../../aspose.slides/igeometryshape/setgeometrypaths)(IGeometryPath[]) | Обновляет геометрию фигуры из массива [`IGeometryPath`](../igeometrypath). Координаты должны быть относительно левого верхнего угла фигуры. Изменяет тип фигуры ([`ShapeType`](./shapetype)) на Custom. |
+| [CreateShapeElements](../../aspose.slides/igeometryshape/createshapeelements)() | Создаёт и возвращает массив элементов формы. |
+| [GetGeometryPaths](../../aspose.slides/igeometryshape/getgeometrypaths)() | Возвращает копию пути геометрической формы. Координаты относятся к левому верхнему углу формы. |
+| [SetGeometryPath](../../aspose.slides/igeometryshape/setgeometrypath)(IGeometryPath) | Обновляет геометрию формы из объекта [`IGeometryPath`](../igeometrypath). Координаты должны относиться к левому верхнему углу формы. Изменяет тип формы ([`ShapeType`](./shapetype)) на Custom. |
+| [SetGeometryPaths](../../aspose.slides/igeometryshape/setgeometrypaths)(IGeometryPath[]) | Обновляет геометрию формы из массива [`IGeometryPath`](../igeometrypath). Координаты должны относиться к левому верхнему углу формы. Изменяет тип формы ([`ShapeType`](./shapetype)) на Custom. |
 
 ### См. также
 

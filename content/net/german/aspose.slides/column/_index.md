@@ -3,12 +3,12 @@ title: Column
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt eine Spalte in einer Tabelle dar.
 type: docs
-weight: 2590
+weight: 2610
 url: /de/aspose.slides/column/
 ---
 ## Column Klasse
 
-Repäsentiert eine Spalte in einer Tabelle.
+Stellt eine Spalte in einer Tabelle dar.
 
 ```csharp
 public sealed class Column : CellCollection, IColumn
@@ -16,26 +16,26 @@ public sealed class Column : CellCollection, IColumn
 
 ## Eigenschaften
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
-| [ColumnFormat](../../aspose.slides/column/columnformat) { get; } | Gibt das ColumnFormat-Objekt zurück, das Formatierungseigenschaften für diese Spalte enthält. Nur-Lesen [`IColumnFormat`](../icolumnformat). |
-| [Count](../../aspose.slides/cellcollection/count) { get; } | Gibt die Anzahl der Zellen in einer Sammlung zurück. Nur-Lesen Int32. |
-| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert ist (thread-sicher). Nur-Lesen Boolean. |
-| [Item](../../aspose.slides/cellcollection/item) { get; } | Gibt eine Zelle anhand ihrer Position zurück. Nur-Lesen [`Cell`](../cell). |
-| [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | Gibt die übergeordnete Präsentation einer CellCollection zurück. Nur-Lesen [`IPresentation`](../ipresentation). |
-| [Slide](../../aspose.slides/cellcollection/slide) { get; } | Gibt die übergeordnete Folie einer CellCollection zurück. Nur-Lesen [`IBaseSlide`](../ibaseslide). |
-| [SyncRoot](../../aspose.slides/cellcollection/syncroot) { get; } | Gibt ein Synchronisations-Root zurück. Nur-Lesen Object. |
+| [ColumnFormat](../../aspose.slides/column/columnformat) { get; } | Gibt das ColumnFormat-Objekt zurück, das Formatierungseigenschaften für diese Spalte enthält. Nur lesend [`IColumnFormat`](../icolumnformat). |
+| [Count](../../aspose.slides/cellcollection/count) { get; } | Gibt die Anzahl der Zellen in einer Sammlung zurück. Nur lesend Int32. |
+| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert (Thread-sicher) ist. Nur lesend Boolean. |
+| [Item](../../aspose.slides/cellcollection/item) { get; } | Gibt eine Zelle nach ihrer Position zurück. Nur lesend [`Cell`](../cell). |
+| [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | Gibt die übergeordnete Präsentation eines CellCollection zurück. Nur lesend [`IPresentation`](../ipresentation). |
+| [Slide](../../aspose.slides/cellcollection/slide) { get; } | Gibt die übergeordnete Folie eines CellCollection zurück. Nur lesend [`IBaseSlide`](../ibaseslide). |
+| [SyncRoot](../../aspose.slides/cellcollection/syncroot) { get; } | Gibt eine Synchronisationswurzel zurück. Nur lesend Object. |
 | [Width](../../aspose.slides/column/width) { get; set; } | Gibt die Breite einer Spalte zurück oder legt sie fest. Lesen/Schreiben Double. |
 
 ## Methoden
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
-| [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | Kopiert alle Elemente der Sammlung in das angegebene Array. |
+| [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | Kopiert alle Elemente aus der Sammlung in das angegebene Array. |
 | [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | Gibt einen Enumerator zurück, der die Sammlung durchläuft. |
-| [SetTextFormat](../../aspose.slides/column/settextformat#settextformat)(IParagraphFormat) | Legt definierte Absatzformat-Eigenschaften für alle Absätze der Spaltenzellen fest. |
-| [SetTextFormat](../../aspose.slides/column/settextformat#settextformat_1)(IPortionFormat) | Legt definierte Portionenformat-Eigenschaften für alle Portionen der Spaltenzellen fest. |
-| [SetTextFormat](../../aspose.slides/column/settextformat#settextformat_2)(ITextFrameFormat) | Legt definierte Textframe-Format-Eigenschaften für alle Textframes der Spaltenzellen fest. |
+| [SetTextFormat](../../aspose.slides/column/settextformat#settextformat)(IParagraphFormat) | Setzt definierte Absatzformat-Eigenschaften für alle Absätze der Spaltenzellen. |
+| [SetTextFormat](../../aspose.slides/column/settextformat#settextformat_1)(IPortionFormat) | Setzt definierte Portion-Format-Eigenschaften für alle Portionen der Spaltenzellen. |
+| [SetTextFormat](../../aspose.slides/column/settextformat#settextformat_2)(ITextFrameFormat) | Setzt definierte TextFrame-Format-Eigenschaften für alle TextFrames der Spaltenzellen. |
 
 ### Siehe auch
 

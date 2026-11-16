@@ -1,14 +1,14 @@
 ---
 title: ISummaryZoomSection
-second_title: เอกสารอ้างอิง API ของ Aspose.Sildes สำหรับ .NET
-description: แสดงอ็อบเจ็กต์ Summary Zoom Section ในกรอบ Summary Zoom.
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: แสดงวัตถุ Summary Zoom Section ในกรอบ Summary Zoom
 type: docs
-weight: 7160
+weight: 7180
 url: /th/aspose.slides/isummaryzoomsection/
 ---
 ## ISummaryZoomSection อินเทอร์เฟซ
 
-แสดงถึงอ็อบเจ็กต์ Summary Zoom Section ในกรอบ Summary Zoom.
+แสดงถึงออบเจ็กต์ Summary Zoom Section ในกรอบ Summary Zoom
 
 ```csharp
 public interface ISummaryZoomSection : ISectionZoomFrame
@@ -19,8 +19,8 @@ public interface ISummaryZoomSection : ISectionZoomFrame
 | ชื่อ | คำอธิบาย |
 | --- | --- |
 | [AsISectionZoomFrame](../../aspose.slides/isummaryzoomsection/asisectionzoomframe) { get; } | คืนค่า ISectionZoomFrame อินเทอร์เฟซ. |
-| [Description](../../aspose.slides/isummaryzoomsection/description) { get; set; } | คืนค่า คำอธิบายข้อความของอ็อบเจ็กต์ Summary Zoom Section. |
-| [Title](../../aspose.slides/isummaryzoomsection/title) { get; set; } | คืนค่า ชื่อเรื่องข้อความของอ็อบเจ็กต์ Summary Zoom Section. |
+| [Description](../../aspose.slides/isummaryzoomsection/description) { get; set; } | คืนค่า คำอธิบายข้อความของออบเจ็กต์ Summary Zoom Section. |
+| [Title](../../aspose.slides/isummaryzoomsection/title) { get; set; } | คืนค่า ชื่อข้อความของออบเจ็กต์ Summary Zoom Section. |
 
 ### ดูเพิ่มเติม
 

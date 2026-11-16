@@ -3,7 +3,7 @@ title: ImageWrapperFactory
 second_title: Aspose.Sildes for .NET API 参考
 description: 此类允许初始化 IBitmapWrapper。
 type: docs
-weight: 7450
+weight: 7470
 url: /zh/aspose.slides/imagewrapperfactory/
 ---
 ## ImageWrapperFactory 类

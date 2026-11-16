@@ -3,7 +3,7 @@ title: IFillParamSource
 second_title: Aspose.Sildes for .NET API 參考
 description: 輔助填充參數介面。
 type: docs
-weight: 5810
+weight: 5830
 url: /zh-hant/aspose.slides/ifillparamsource/
 ---
 ## IFillParamSource 介面
@@ -14,7 +14,7 @@ url: /zh-hant/aspose.slides/ifillparamsource/
 public interface IFillParamSource
 ```
 
-### 另見
+### 另請參閱
 
 * 命名空間 [Aspose.Slides](../../aspose.slides)
 * 組件 [Aspose.Slides](../../)

@@ -3,7 +3,7 @@ title: IHtmlOptions
 second_title: Aspose.Sildes για .NET Αναφορά API
 description: Αντιπροσωπεύει επιλογές εξαγωγής HTML.
 type: docs
-weight: 3970
+weight: 3990
 url: /el/aspose.slides.export/ihtmloptions/
 ---
 ## IHtmlOptions διασύνδεση
@@ -18,22 +18,22 @@ public interface IHtmlOptions : ISaveOptions
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/ihtmloptions/asisaveoptions) { get; } | Επιστρέφει τη διασύνδεση ISaveOptions. Μόνο ανάγνωση [`ISaveOptions`](../isaveoptions). |
-| [DeletePicturesCroppedAreas](../../aspose.slides.export/ihtmloptions/deletepicturescroppedareas) { get; set; } | Μία λογική σημαία υποδεικνύει εάν τα περικομμένα τμήματα παραμένουν ως μέρος του εγγράφου. Εάν είναι true, τα περικομμένα τμήματα θα αφαιρεθούν· εάν είναι false, θα σειριοποιηθούν στο έγγραφο (που μπορεί ενδεχομένως να οδηγήσει σε μεγαλύτερο αρχείο) Ανάγνωση/εγγραφή Boolean. |
-| [DisableFontLigatures](../../aspose.slides.export/ihtmloptions/disablefontligatures) { get; set; } | Παίρνει ή ορίζει τιμή που υποδεικνύει εάν το κείμενο αποδίδεται χωρίς χρήση ligatures. Όταν οριστεί σε `true`, οι ligatures θα απενεργοποιηθούν στην παραγόμενη έξοδο. Από προεπιλογή, αυτή η ιδιότητα είναι ορισμένη σε `false`. |
+| [AsISaveOptions](../../aspose.slides.export/ihtmloptions/asisaveoptions) { get; } | Επιστρέφει τη διεπαφή ISaveOptions. Μόνο για ανάγνωση [`ISaveOptions`](../isaveoptions). |
+| [DeletePicturesCroppedAreas](../../aspose.slides.export/ihtmloptions/deletepicturescroppedareas) { get; set; } | Μία σημαία Boolean υποδεικνύει αν τα περικομμένα τμήματα παραμένουν μέρος του εγγράφου. Εάν true τα περικομμένα τμήματα θα αφαιρεθούν, εάν false θα σειριοποιηθούν στο έγγραφο (που μπορεί ενδεχομένως να οδηγήσει σε μεγαλύτερο αρχείο). Ανάγνωση/εγγραφή Boolean. |
+| [DisableFontLigatures](../../aspose.slides.export/ihtmloptions/disablefontligatures) { get; set; } | Αποκτά ή ορίζει μια τιμή που υποδεικνύει εάν το κείμενο αποδίδεται χωρίς χρήση λιγασιών. Όταν οριστεί σε `true`, οι λιγασίες θα είναι απενεργοποιημένες στην απόδοση. Από προεπιλογή, αυτή η ιδιότητα είναι `false`. |
 | [HtmlFormatter](../../aspose.slides.export/ihtmloptions/htmlformatter) { get; set; } | Επιστρέφει ή ορίζει το πρότυπο HTML. Ανάγνωση/εγγραφή [`IHtmlFormatter`](../ihtmlformatter). |
-| [InkOptions](../../aspose.slides.export/ihtmloptions/inkoptions) { get; } | Παρέχει επιλογές που ελέγχουν την εμφάνιση των αντικειμένων Ink στο εξαγόμενο έγγραφο. Μόνο ανάγνωση [`IInkOptions`](../iinkoptions) |
-| [JpegQuality](../../aspose.slides.export/ihtmloptions/jpegquality) { get; set; } | Επιστρέφει ή ορίζει τιμή που καθορίζει την ποιότητα των εικόνων JPEG μέσα στο έγγραφο PDF. Ανάγνωση/εγγραφή Byte. |
+| [InkOptions](../../aspose.slides.export/ihtmloptions/inkoptions) { get; } | Παρέχει επιλογές που ελέγχουν την εμφάνιση των αντικειμένων Ink στο εξαγόμενο έγγραφο. Μόνο για ανάγνωση [`IInkOptions`](../iinkoptions) |
+| [JpegQuality](../../aspose.slides.export/ihtmloptions/jpegquality) { get; set; } | Επιστρέφει ή ορίζει μια τιμή που καθορίζει την ποιότητα των εικόνων JPEG μέσα στο έγγραφο PDF. Ανάγνωση/εγγραφή Byte. |
 | [PicturesCompression](../../aspose.slides.export/ihtmloptions/picturescompression) { get; set; } | Αντιπροσωπεύει το επίπεδο συμπίεσης των εικόνων. Ανάγνωση/εγγραφή [`PicturesCompression`](./picturescompression). |
-| [ShowHiddenSlides](../../aspose.slides.export/ihtmloptions/showhiddenslides) { get; set; } | Καθορίζει εάν το παραγόμενο έγγραφο πρέπει να περιλαμβάνει κρυμμένες διαφάνειες ή όχι. Η προεπιλογή είναι `false`. |
+| [ShowHiddenSlides](../../aspose.slides.export/ihtmloptions/showhiddenslides) { get; set; } | Καθορίζει αν το παραγόμενο έγγραφο πρέπει να περιέχει κρυφές διαφάνειες ή όχι. Η προεπιλογή είναι `false`. |
 | [SlideImageFormat](../../aspose.slides.export/ihtmloptions/slideimageformat) { get; set; } | Επιστρέφει ή ορίζει τις επιλογές μορφής εικόνας διαφάνειας. Ανάγνωση/εγγραφή [`ISlideImageFormat`](../islideimageformat). |
-| [SlidesLayoutOptions](../../aspose.slides.export/ihtmloptions/slideslayoutoptions) { get; set; } | Παίρνει ή ορίζει τη λειτουργία με την οποία τοποθετούνται οι διαφάνειες στη σελίδα κατά την εξαγωγή μιας παρουσίασης [`ISlidesLayoutOptions`](../islideslayoutoptions). |
-| [SvgResponsiveLayout](../../aspose.slides.export/ihtmloptions/svgresponsivelayout) { get; set; } | True για να εξαιρεθούν τα χαρακτηριστικά πλάτους και ύψους από το δοχείο SVG - αυτό θα κάνει τη διάταξη ανταποκρινόμενη. False - αλλιώς. Ανάγνωση/εγγραφή Boolean. |
+| [SlidesLayoutOptions](../../aspose.slides.export/ihtmloptions/slideslayoutoptions) { get; set; } | Αποκτά ή ορίζει τη λειτουργία με την οποία τοποθετούνται οι διαφάνειες στη σελίδα κατά την εξαγωγή μιας παρουσίασης [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [SvgResponsiveLayout](../../aspose.slides.export/ihtmloptions/svgresponsivelayout) { get; set; } | Αληθές για εξαίρεση των ιδιοτήτων width και height από το δοχείο SVG - αυτό θα κάνει τη διάταξη ανταποκρινόμενη. Ψευδές - διαφορετικά. Ανάγνωση/εγγραφή Boolean. |
 
 ### Δείτε επίσης
 
 * διασύνδεση [ISaveOptions](../isaveoptions)
 * χώρο ονομάτων [Aspose.Slides.Export](../../aspose.slides.export)
-* συγκρότημα [Aspose.Slides](../../)
+* συγκρότηση [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,12 +1,12 @@
 ---
 title: PictureFillMode
-second_title: Aspose.Sildes .NET API-referencia
+second_title: Aspose.Sildes a .NET API referenciához
 description: Meghatározza, hogyan tölti ki a kép a területet.
 type: docs
-weight: 9400
+weight: 9420
 url: /hu/aspose.slides/picturefillmode/
 ---
-## PictureFillMode enumeráció
+## PictureFillMode felsorolás
 
 Meghatározza, hogyan tölti ki a kép a területet.
 

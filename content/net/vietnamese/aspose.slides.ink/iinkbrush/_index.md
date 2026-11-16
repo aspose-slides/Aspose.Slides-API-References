@@ -1,14 +1,14 @@
 ---
 title: IInkBrush
-second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Biểu diễn cọ vẽ dấu vết.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Đại diện cho brush dấu vết.
 type: docs
-weight: 7530
+weight: 7550
 url: /vi/aspose.slides.ink/iinkbrush/
 ---
-## IInkBrush giao diện
+## Giao diện IInkBrush
 
-Biểu diễn cọ vẽ dấu vết.
+Đại diện cho brush.
 
 ```csharp
 public interface IInkBrush
@@ -18,11 +18,11 @@ public interface IInkBrush
 
 | Tên | Mô tả |
 | --- | --- |
-| [Color](../../aspose.slides.ink/iinkbrush/color) { get; set; } | Lấy hoặc đặt màu cọ cho một đường. |
-| [InkEffect](../../aspose.slides.ink/iinkbrush/inkeffect) { get; } | Lấy loại hiệu ứng mực (ví dụ: Galaxy, Gold, Silver) xác định kiểu dáng trực quan của nét mực. Giá trị được phân tích từ thuộc tính brush "inkEffects". Nếu không có hiệu ứng nào được công nhận, trả về NotDefined. |
-| [Size](../../aspose.slides.ink/iinkbrush/size) { get; set; } | Lấy hoặc đặt kích thước cọ cho một đường tính bằng điểm. |
+| [Color](../../aspose.slides.ink/iinkbrush/color) { get; set; } | Lấy hoặc đặt màu brush cho một đường. |
+| [InkEffect](../../aspose.slides.ink/iinkbrush/inkeffect) { get; } | Lấy loại hiệu ứng mực (ví dụ: Galaxy, Gold, Silver) định nghĩa kiểu dáng trực quan của nét mực. Giá trị được phân tích từ thuộc tính brush "inkEffects". Nếu không có hiệu ứng được công nhận nào được chỉ định, NotDefined được trả về. |
+| [Size](../../aspose.slides.ink/iinkbrush/size) { get; set; } | Lấy hoặc đặt kích thước brush cho một đường tính bằng điểm. |
 
-### Xem Thêm
+### Xem thêm
 
 * không gian tên [Aspose.Slides.Ink](../../aspose.slides.ink)
 * tập hợp [Aspose.Slides](../../)

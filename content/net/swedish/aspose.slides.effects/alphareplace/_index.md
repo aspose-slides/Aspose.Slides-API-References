@@ -3,7 +3,7 @@ title: AlphaReplace
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en Alpha Replace-effekt. Effektens alfa-opacitetsvärden ersätts med en fast alfa.
 type: docs
-weight: 2900
+weight: 2920
 url: /sv/aspose.slides.effects/alphareplace/
 ---
 ## AlphaReplace klass
@@ -25,8 +25,8 @@ public sealed class AlphaReplace : ImageTransformOperation, IAlphaReplace
 | Namn | Beskrivning |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/alphareplace/equals)(object) | Bestämmer om den angivna [`AlphaReplace`](../alphareplace) är lika med den aktuella [`AlphaReplace`](../alphareplace). |
-| [GetEffective](../../aspose.slides.effects/alphareplace/geteffective)() | Hämtar effektiva Alpha Replace-effektsdata med arv tillämpat. |
-| override [GetHashCode](../../aspose.slides.effects/alphareplace/gethashcode)() | Fungerar som en hash-funktion för en viss typ. |
+| [GetEffective](../../aspose.slides.effects/alphareplace/geteffective)() | Hämtar effektiv Alpha Replace-effektsdata med ärvning tillämpad. |
+| override [GetHashCode](../../aspose.slides.effects/alphareplace/gethashcode)() | Fungerar som en hashfunktion för en viss typ. |
 
 ### Se även
 

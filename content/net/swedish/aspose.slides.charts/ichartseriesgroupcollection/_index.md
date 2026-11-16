@@ -3,7 +3,7 @@ title: IChartSeriesGroupCollection
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar samlingen av grupper av kombinerbara serier.
 type: docs
-weight: 1960
+weight: 1980
 url: /sv/aspose.slides.charts/ichartseriesgroupcollection/
 ---
 ## IChartSeriesGroupCollection gränssnitt
@@ -18,14 +18,13 @@ public interface IChartSeriesGroupCollection : IGenericCollection<IChartSeriesGr
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Item](../../aspose.slides.charts/ichartseriesgroupcollection/item) { get; } | Hämtar seriegruppen efter serie. (2 indexerare) |
+| [Item](../../aspose.slides.charts/ichartseriesgroupcollection/item) { get; } | Hämtar seriesgruppen efter serie. (2 indexerare) |
 
 ### Anmärkningar
 
-1) Varje grupp av serier innehåller serier med kombinerbara typer. Grupper av kombinerbara serietyper definieras och beskrivas med CombinableSeriesTypesGroup enum. Dessutom innehåller varje grupp av serier serier som plottas antingen på primära axlar eller på sekundära axlar (inte båda fallen i samma grupp). Så principen för seriegroupering är en gruppering efter de ovan nämnda typgrupperna och efter primär/sekundär plottningstyp.  
-2) En grupp av serier innehåller vissa serieegenskaper som är gemensamma för varje serie i gruppen ("seriegruppsegenskaper"). "Seriegruppsegenskaper" i ChartSeriesGroup-klassen är läs/skriv. Varje av "seriegruppsegenskaperna" kan ha en skrivskyddad projektion i ChartSeries-klassen.
+1) Varje grupp av serier innehåller serier med kombinerbara typer. Grupper av kombinerbara serietyper definieras och beskrivs med enumen CombinableSeriesTypesGroup. Dessutom innehåller varje grupp av serier serier som plottas antingen på primära axlar eller på sekundära axlar (inte båda fallen i samma grupp). Således är principen för seriesammansättning en gruppering efter de ovan nämnda typgrupperna och efter primär/sekundär plottningstyp. 2) Grupp av serier innehåller vissa serieegenskaper som är gemensamma för varje serie i gruppen ("series group properties"). "Series group properties" i klassen ChartSeriesGroup är läs/skriv. Varje av "series group properties" kan ha en skrivskyddad projektion i klassen ChartSeries.
 
-### Se även
+### Se också
 
 * gränssnitt [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * gränssnitt [IChartSeriesGroup](../ichartseriesgroup)

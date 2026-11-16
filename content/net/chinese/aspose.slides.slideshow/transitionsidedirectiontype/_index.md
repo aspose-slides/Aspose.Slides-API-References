@@ -1,14 +1,14 @@
 ---
 title: TransitionSideDirectionType
 second_title: Aspose.Sildes .NET API 参考
-description: 表示侧向过渡类型。
+description: 表示侧向转换类型。
 type: docs
-weight: 10420
+weight: 10440
 url: /zh/aspose.slides.slideshow/transitionsidedirectiontype/
 ---
 ## TransitionSideDirectionType 枚举
 
-表示侧向过渡类型。
+表示侧向转换类型。
 
 ```csharp
 public enum TransitionSideDirectionType
@@ -16,7 +16,7 @@ public enum TransitionSideDirectionType
 
 ### 值
 
-| 名称 | 数值 | 描述 |
+| 名称 | 值 | 描述 |
 | --- | --- | --- |
 | Left | `0` |  |
 | Up | `1` |  |

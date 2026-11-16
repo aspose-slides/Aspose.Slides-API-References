@@ -1,54 +1,54 @@
 ---
 title: NotesSlide
-second_title: Aspose.Sildes برای .NET مرجع API
-description: یک اسلاید یادداشت را در یک ارائه نمایندگی می‌کند.
+second_title: Aspose.Sildes برای مرجع API .NET
+description: یک اسلاید یادداشت را در یک ارائه نمایش می‌دهد.
 type: docs
-weight: 9140
+weight: 9160
 url: /fa/aspose.slides/notesslide/
 ---
 ## NotesSlide کلاس
 
-نمایش یک اسلاید یادداشت در ارائه.
+یک اسلاید یادداشت در یک ارائه را نمایش می‌دهد.
 
 ```csharp
 public class NotesSlide : BaseSlide, INotesSlide
 ```
 
-## خصوصیات
+## ویژگی‌ها
 
-| نام | توضیحات |
+| Name | Description |
 | --- | --- |
-| [Background](../../aspose.slides/baseslide/background) { get; } | پشت‌زمینهٔ اسلاید را برمی‌گرداند. فقط خواندنی [`IBackground`](../ibackground). |
-| [Controls](../../aspose.slides/baseslide/controls) { get; } | مجموعهٔ کنترل‌های ActiveX روی اسلاید را برمی‌گرداند. فقط خواندنی [`IControlCollection`](../icontrolcollection). |
-| [CustomData](../../aspose.slides/baseslide/customdata) { get; } | دادهٔ سفارشی اسلاید را برمی‌گرداند. فقط خواندنی [`ICustomData`](../icustomdata). |
-| [HeaderFooterManager](../../aspose.slides/notesslide/headerfootermanager) { get; } | مدیر HeaderFooter اسلاید یادداشت را برمی‌گرداند. فقط خواندنی [`INotesSlideHeaderFooterManager`](../inotesslideheaderfootermanager). |
+| [Background](../../aspose.slides/baseslide/background) { get; } | پس‌زمینه اسلاید را برمی‌گرداند. فقط خواندنی [`IBackground`](../ibackground). |
+| [Controls](../../aspose.slides/baseslide/controls) { get; } | مجموعهٔ کنترل‌های ActiveX روی یک اسلاید را برمی‌گرداند. فقط خواندنی [`IControlCollection`](../icontrolcollection). |
+| [CustomData](../../aspose.slides/baseslide/customdata) { get; } | داده‌های سفارشی اسلاید را برمی‌گرداند. فقط خواندنی [`ICustomData`](../icustomdata). |
+| [HeaderFooterManager](../../aspose.slides/notesslide/headerfootermanager) { get; } | مدیر HeaderFooter اسلاید یادداشت‌ها را برمی‌گرداند. فقط خواندنی [`INotesSlideHeaderFooterManager`](../inotesslideheaderfootermanager). |
 | [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | دسترسی آسان به پیوندهای موجود را فراهم می‌کند. فقط خواندنی [`IHyperlinkQueries`](../ihyperlinkqueries). |
-| virtual [Name](../../aspose.slides/baseslide/name) { get; set; } | نام اسلاید را برمی‌گرداند یا تنظیم می‌کند. قابل خواندن/نوشتن String. |
-| [NotesTextFrame](../../aspose.slides/notesslide/notestextframe) { get; } | اگر موجود باشد، یک TextFrame با متن یادداشت‌ها را برمی‌گرداند. فقط خواندنی [`ITextFrame`](../itextframe). |
+| virtual [Name](../../aspose.slides/baseslide/name) { get; set; } | نام یک اسلاید را برمی‌گرداند یا تنظیم می‌کند. قابل خواندن/نوشتن String. |
+| [NotesTextFrame](../../aspose.slides/notesslide/notestextframe) { get; } | یک TextFrame با متن یادداشت‌ها را در صورت وجود برمی‌گرداند. فقط خواندنی [`ITextFrame`](../itextframe). |
 | [ParentSlide](../../aspose.slides/notesslide/parentslide) { get; } | اسلاید والد را برمی‌گرداند. فقط خواندنی [`ISlide`](../islide). |
 | [Presentation](../../aspose.slides/baseslide/presentation) { get; } | رابط IPresentation را برمی‌گرداند. فقط خواندنی [`IPresentation`](../ipresentation). |
 | [Shapes](../../aspose.slides/baseslide/shapes) { get; } | شکل‌های یک اسلاید را برمی‌گرداند. فقط خواندنی [`IShapeCollection`](../ishapecollection). |
-| override [ShowMasterShapes](../../aspose.slides/notesslide/showmastershapes) { get; set; } | مشخص می‌کند آیا شکل‌های اسلاید اصلی باید در اسلایدها نمایش داده شوند یا نه. قابل خواندن/نوشتن Boolean. |
+| override [ShowMasterShapes](../../aspose.slides/notesslide/showmastershapes) { get; set; } | مشخص می‌کند آیا شکل‌ها در اسلاید اصلی باید روی اسلایدها نمایش داده شوند یا نه. قابل خواندن/نوشتن Boolean. |
 | [SlideId](../../aspose.slides/baseslide/slideid) { get; } | شناسهٔ یک اسلاید را برمی‌گرداند. فقط خواندنی UInt32. |
-| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | شیء Transition را که شامل اطلاعاتی دربارهٔ پیشرفت اسلاید مشخص شده در طول نمایش اسلاید است، برمی‌گرداند. فقط خواندنی [`ISlideShowTransition`](../islideshowtransition). |
-| [ThemeManager](../../aspose.slides/notesslide/thememanager) { get; } | مدیر تم برگزیده را برمی‌گرداند. فقط خواندنی [`IOverrideThemeManager`](../../aspose.slides.theme/ioverridethememanager). |
+| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | شیء Transition را برمی‌گرداند که شامل اطلاعاتی دربارهٔ پیشرفت اسلاید مشخص در حین نمایش اسلایدها است. فقط خواندنی [`ISlideShowTransition`](../islideshowtransition). |
+| [ThemeManager](../../aspose.slides/notesslide/thememanager) { get; } | مدیر تم‌های جایگزین را برمی‌گرداند. فقط خواندنی [`IOverrideThemeManager`](../../aspose.slides.theme/ioverridethememanager). |
 | [Timeline](../../aspose.slides/baseslide/timeline) { get; } | شیء زمان‌بندی انیمیشن را برمی‌گرداند. فقط خواندنی [`IAnimationTimeLine`](../ianimationtimeline). |
 
 ## متدها
 
-| نام | توضیحات |
+| Name | Description |
 | --- | --- |
 | [CreateThemeEffective](../../aspose.slides/baseslide/createthemeeffective)() | یک تم مؤثر برای این اسلاید را برمی‌گرداند. |
-| [Equals](../../aspose.slides/baseslide/equals)(IBaseSlide) | تعیین می‌کند آیا دو نمونهٔ IBaseSlide برابر هستند یا نه. مقدار بازگشتی بر اساس ساختار اسلاید و محتوای ثابت محاسبه می‌شود. دو اسلاید برابر هستند اگر تمام شکل‌ها، سبک‌ها، متن‌ها، انیمیشن و سایر تنظیمات و غیره برابر باشند. مقایسه مقادیر شناسهٔ یکتا مانند SlideId و محتوای پویا مانند مقدار تاریخ فعلی در Date Placeholder را در نظر نمی‌گیرد. |
-| [FindShapeByAltText](../../aspose.slides/baseslide/findshapebyalttext)(string) | اولین وقوع یک شکل با متن جایگزینی مشخص‌شده را پیدا می‌کند. |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)() | دنباله‌های متنی با قالب‌بندی یکسان را در تمام پاراگراف‌های تمام شکل‌های قابل قبول ترکیب می‌کند. |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)(IShapeCollection) | دنباله‌های متنی با قالب‌بندی یکسان را در تمام پاراگراف‌های تمام شکل‌های قابل قبول ترکیب می‌کند. |
+| [Equals](../../aspose.slides/baseslide/equals)(IBaseSlide) | تعیین می‌کند آیا دو نمونهٔ IBaseSlide برابر هستند یا نه. مقدار بازگشتی بر اساس ساختار اسلاید و محتویات ثابت محاسبه می‌شود. دو اسلاید برابرند اگر تمام شکل‌ها، سبک‌ها، متن‌ها، انیمیشن‌ها و سایر تنظیمات و غیره برابر باشند. مقایسه مقادیر شناسهٔ منحصر به فرد مانند SlideId و محتویات پویا مانند مقدار تاریخ جاری در جای‌نگهدار تاریخ را در نظر نمی‌گیرد. |
+| [FindShapeByAltText](../../aspose.slides/baseslide/findshapebyalttext)(string) | اولین رخداد یک شکل با متن جایگزین مشخص را پیدا می‌کند. |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)() | بخش‌های متنی با قالب‌بندی یکسان را در تمام پاراگراف‌های همهٔ شکل‌های قابل قبول ترکیب می‌کند. |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)(IShapeCollection) | بخش‌های متنی با قالب‌بندی یکسان را در تمام پاراگراف‌های همهٔ شکل‌های قابل قبول ترکیب می‌کند. |
 
-### مطالب مرتبط
+### موارد مرتبط
 
 * کلاس [BaseSlide](../baseslide)
 * رابط [INotesSlide](../inotesslide)
 * فضای‌نام [Aspose.Slides](../../aspose.slides)
-* اسمبلی [Aspose.Slides](../../)
+* مجمع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,12 +1,11 @@
 ---
 title: ParentSeries
-second_title: Aspose.Sildes for .NET API Reference
-description: 获取父系列。只读 IChartSeriesaspose.slides.charts/ichartseries。
+second_title: Aspose.Sildes for .NET API 参考
+description: 获取父系列。只读 IChartSeriesaspose.slides.charts/ichartseries.
 type: docs
-weight: 80
+weight: 90
 url: /zh/aspose.slides.charts/datalabelcollection/parentseries/
 ---
-
 ## DataLabelCollection.ParentSeries 属性
 
 获取父系列。只读 [`IChartSeries`](../../ichartseries)。
@@ -15,7 +14,7 @@ url: /zh/aspose.slides.charts/datalabelcollection/parentseries/
 public IChartSeries ParentSeries { get; }
 ```
 
-### 另请参见
+### 另见
 
 * 接口 [IChartSeries](../../ichartseries)
 * 类 [DataLabelCollection](../../datalabelcollection)

@@ -1,14 +1,14 @@
 ---
 title: GradientShape
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Geeft de vorm van de gradiëntvulling weer.
+description: Stelt de vorm van de verloopvulling voor.
 type: docs
-weight: 5010
+weight: 5030
 url: /nl/aspose.slides/gradientshape/
 ---
 ## GradientShape enumeratie
 
-Geeft de vorm van de gradiëntvulling weer.
+Stelt de vorm van de verloopvulling voor.
 
 ```csharp
 public enum GradientShape : sbyte

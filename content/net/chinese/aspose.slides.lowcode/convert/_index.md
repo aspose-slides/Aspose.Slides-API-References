@@ -1,14 +1,14 @@
 ---
 title: Convert
-second_title: Aspose.Sildes 的 .NET API 参考
-description: 表示一组用于转换 Presentation../aspose.slides/presentation 的方法。
+second_title: Aspose.Sildes .NET API 参考
+description: 表示一组用于将 Presentation../aspose.slides/presentation 转换的方法。
 type: docs
-weight: 7880
+weight: 7900
 url: /zh/aspose.slides.lowcode/convert/
 ---
 ## Convert 类
 
-表示一组旨在转换 [`Presentation`](../../aspose.slides/presentation) 的方法。
+表示一组用于转换 [`Presentation`](../../aspose.slides/presentation) 的方法。
 
 ```csharp
 public static class Convert
@@ -16,32 +16,32 @@ public static class Convert
 
 ## 方法
 
-| Name | Description |
+| 名称 | 描述 |
 | --- | --- |
-| static [AutoByExtension](../../aspose.slides.lowcode/convert/autobyextension)(string, string) | 使用传入的输出路径扩展名来确定所需的导出格式，从而转换 [`Presentation`](../../aspose.slides/presentation)。 |
-| static [ToJpeg](../../aspose.slides.lowcode/convert/tojpeg#tojpeg)(Presentation, string) | 将输入演示文稿转换为一组 JPEG 格式的图像。如果输出文件名为 "myPath/myFilename.jpeg"，则结果将保存为一组 "myPath/myFilename_N.jpeg" 文件，其中 N 为幻灯片编号。 |
-| static [ToJpeg](../../aspose.slides.lowcode/convert/tojpeg#tojpeg_2)(Presentation, string, Size) | 将输入演示文稿转换为一组 JPEG 格式的图像。如果输出文件名为 "myPath/myFilename.jpeg"，则结果将保存为一组 "myPath/myFilename_N.jpeg" 文件，其中 N 为幻灯片编号。 |
-| static [ToJpeg](../../aspose.slides.lowcode/convert/tojpeg#tojpeg_1)(Presentation, string, float, IRenderingOptions) | 将输入演示文稿转换为一组 JPEG 格式的图像。如果输出文件名为 "myPath/myFilename.jpeg"，则结果将保存为一组 "myPath/myFilename_N.jpeg" 文件，其中 N 为幻灯片编号。 |
+| static [AutoByExtension](../../aspose.slides.lowcode/convert/autobyextension)(string, string) | 使用传入的输出路径扩展名来确定所需的导出格式，转换 [`Presentation`](../../aspose.slides/presentation)。 |
+| static [ToJpeg](../../aspose.slides.lowcode/convert/tojpeg#tojpeg)(Presentation, string) | 将输入的演示文稿转换为一组 JPEG 格式的图像。如果输出文件名为 "myPath/myFilename.jpeg"，结果将保存为一组 "myPath/myFilename_N.jpeg" 文件，其中 N 为幻灯片编号。 |
+| static [ToJpeg](../../aspose.slides.lowcode/convert/tojpeg#tojpeg_2)(Presentation, string, Size) | 将输入的演示文稿转换为一组 JPEG 格式的图像。如果输出文件名为 "myPath/myFilename.jpeg"，结果将保存为一组 "myPath/myFilename_N.jpeg" 文件，其中 N 为幻灯片编号。 |
+| static [ToJpeg](../../aspose.slides.lowcode/convert/tojpeg#tojpeg_1)(Presentation, string, float, IRenderingOptions) | 将输入的演示文稿转换为一组 JPEG 格式的图像。如果输出文件名为 "myPath/myFilename.jpeg"，结果将保存为一组 "myPath/myFilename_N.jpeg" 文件，其中 N 为幻灯片编号。 |
 | static [ToPdf](../../aspose.slides.lowcode/convert/topdf#topdf)(Presentation, string) | 将 [`Presentation`](../../aspose.slides/presentation) 转换为 PDF。 |
 | static [ToPdf](../../aspose.slides.lowcode/convert/topdf#topdf_2)(string, string) | 将 [`Presentation`](../../aspose.slides/presentation) 转换为 PDF。 |
 | static [ToPdf](../../aspose.slides.lowcode/convert/topdf#topdf_1)(Presentation, string, IPdfOptions) | 将 [`Presentation`](../../aspose.slides/presentation) 转换为 PDF。 |
 | static [ToPdf](../../aspose.slides.lowcode/convert/topdf#topdf_3)(string, string, IPdfOptions) | 将 [`Presentation`](../../aspose.slides/presentation) 转换为 PDF。 |
-| static [ToPng](../../aspose.slides.lowcode/convert/topng#topng)(Presentation, string) | 将输入演示文稿转换为一组 PNG 格式的图像。如果输出文件名为 "myPath/myFilename.png"，则结果将保存为一组 "myPath/myFilename_N.png" 文件，其中 N 为幻灯片编号。 |
-| static [ToPng](../../aspose.slides.lowcode/convert/topng#topng_2)(Presentation, string, Size) | 将输入演示文稿转换为一组 PNG 格式的图像。如果输出文件名为 "myPath/myFilename.png"，则结果将保存为一组 "myPath/myFilename_N.png" 文件，其中 N 为幻灯片编号。 |
-| static [ToPng](../../aspose.slides.lowcode/convert/topng#topng_1)(Presentation, string, float, IRenderingOptions) | 将输入演示文稿转换为一组 PNG 格式的图像。如果输出文件名为 "myPath/myFilename.png"，则结果将保存为一组 "myPath/myFilename_N.png" 文件，其中 N 为幻灯片编号。 |
+| static [ToPng](../../aspose.slides.lowcode/convert/topng#topng)(Presentation, string) | 将输入的演示文稿转换为一组 PNG 格式的图像。如果输出文件名为 "myPath/myFilename.png"，结果将保存为一组 "myPath/myFilename_N.png" 文件，其中 N 为幻灯片编号。 |
+| static [ToPng](../../aspose.slides.lowcode/convert/topng#topng_2)(Presentation, string, Size) | 将输入的演示文稿转换为一组 PNG 格式的图像。如果输出文件名为 "myPath/myFilename.png"，结果将保存为一组 "myPath/myFilename_N.png" 文件，其中 N 为幻灯片编号。 |
+| static [ToPng](../../aspose.slides.lowcode/convert/topng#topng_1)(Presentation, string, float, IRenderingOptions) | 将输入的演示文稿转换为一组 PNG 格式的图像。如果输出文件名为 "myPath/myFilename.png"，结果将保存为一组 "myPath/myFilename_N.png" 文件，其中 N 为幻灯片编号。 |
 | static [ToSvg](../../aspose.slides.lowcode/convert/tosvg#tosvg_3)(string) | 将 [`Presentation`](../../aspose.slides/presentation) 转换为 SVG。 |
 | static [ToSvg](../../aspose.slides.lowcode/convert/tosvg#tosvg_1)(Presentation, GetOutPathCallback) | 将 [`Presentation`](../../aspose.slides/presentation) 转换为 SVG。 |
 | static [ToSvg](../../aspose.slides.lowcode/convert/tosvg#tosvg)(Presentation, ISVGOptions) | 将 [`Presentation`](../../aspose.slides/presentation) 转换为 SVG。 |
 | static [ToSvg](../../aspose.slides.lowcode/convert/tosvg#tosvg_4)(string, GetOutPathCallback) | 将 [`Presentation`](../../aspose.slides/presentation) 转换为 SVG。 |
 | static [ToSvg](../../aspose.slides.lowcode/convert/tosvg#tosvg_2)(Presentation, GetOutPathCallback, ISVGOptions) | 将 [`Presentation`](../../aspose.slides/presentation) 转换为 SVG。 |
-| static [ToTiff](../../aspose.slides.lowcode/convert/totiff#totiff)(Presentation, string) | 将输入演示文稿转换为一组 TIFF 格式的图像。如果输出文件名为 "myPath/myFilename.tiff"，则结果将保存为一组 "myPath/myFilename_N.tiff" 文件，其中 N 为幻灯片编号。 |
-| static [ToTiff](../../aspose.slides.lowcode/convert/totiff#totiff_1)(Presentation, string, ITiffOptions, bool) | 使用自定义选项将输入演示文稿转换为 TIFF 格式。如果输出文件名为 "myPath/myFilename.tiff" 且 *multipage* 为 `false`，则结果将保存为一组 "myPath/myFilename_N.tiff" 文件，其中 N 为幻灯片编号。否则，如果 *multipage* 为 `true`，结果将是一个多页的 "myPath/myFilename.tiff" 文档。 |
+| static [ToTiff](../../aspose.slides.lowcode/convert/totiff#totiff)(Presentation, string) | 将输入的演示文稿转换为一组 TIFF 格式的图像。如果输出文件名为 "myPath/myFilename.tiff"，结果将保存为一组 "myPath/myFilename_N.tiff" 文件，其中 N 为幻灯片编号。 |
+| static [ToTiff](../../aspose.slides.lowcode/convert/totiff#totiff_1)(Presentation, string, ITiffOptions, bool) | 将输入的演示文稿以自定义选项转换为 TIFF 格式。如果输出文件名为 "myPath/myFilename.tiff" 且 *multipage* 为 `false`，结果将保存为一组 "myPath/myFilename_N.tiff" 文件，其中 N 为幻灯片编号。否则，如果 *multipage* 为 `true`，结果将是一个多页的 "myPath/myFilename.tiff" 文档。 |
 
 ## 其他成员
 
-| Name | Description |
+| 名称 | 描述 |
 | --- | --- |
-| delegate [GetOutPathCallback](convert.getoutpathcallback) | 回调将在每个 [`Slide`](../../aspose.slides/slide) 上被调用，期望返回输出路径。 |
+| delegate [GetOutPathCallback](convert.getoutpathcallback) | 将在每个 [`Slide`](../../aspose.slides/slide) 上调用的回调，期望返回输出路径。 |
 
 ### 示例
 

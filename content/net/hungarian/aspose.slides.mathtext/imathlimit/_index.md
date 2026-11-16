@@ -1,14 +1,14 @@
 ---
 title: IMathLimit
-second_title: Aspose.Slides .NET API referencia
-description: Megadja a Limit objektumot, amely a baseline-hoz tartozó szöveget és közvetlenül fölötte vagy alatt lévő kisebb méretű szöveget tartalmazza.
+second_title: Aspose.Sildes .NET API Referencia
+description: Meghatározza a Limit objektumot, amely a bázissoron lévő szöveget és a közvetlenül fölötte vagy alatta levő kicsinyített szöveget tartalmazza.
 type: docs
-weight: 8320
+weight: 8340
 url: /hu/aspose.slides.mathtext/imathlimit/
 ---
-## IMathLimit interfész
+## IMathLimit interface
 
-Meghatározza a Limit objektumot, amely a baseline-hoz tartozó szöveget és közvetlenül fölötte vagy alatt lévő kisebb méretű szöveget tartalmazza.
+Meghatározza a Limit objektumot, amely a bázissoron lévő szöveget és a közvetlenül fölötte vagy alatta levő kicsinyített szöveget tartalmazza.
 
 ```csharp
 public interface IMathLimit : IMathElement
@@ -18,10 +18,10 @@ public interface IMathLimit : IMathElement
 
 | Név | Leírás |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathlimit/asimathelement) { get; } | Lehetővé teszi az alap IMathElement interfész lekérdezését [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathlimit/asimathelement) { get; } | Lehetővé teszi a base IMathElement interface [`IMathElement`](../imathelement) lekérését |
 | [Base](../../aspose.slides.mathtext/imathlimit/base) { get; } | Alap argumentum |
 | [Limit](../../aspose.slides.mathtext/imathlimit/limit) { get; } | Limit argumentum |
-| [UpperLimit](../../aspose.slides.mathtext/imathlimit/upperlimit) { get; set; } | Megadja a felső vagy alsó határt |
+| [UpperLimit](../../aspose.slides.mathtext/imathlimit/upperlimit) { get; set; } | Meghatározza a felső vagy alsó határt |
 
 ### Példák
 

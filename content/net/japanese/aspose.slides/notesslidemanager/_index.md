@@ -1,14 +1,14 @@
 ---
 title: NotesSlideManager
-second_title: Aspose.Sildes for .NET API リファレンス
-description: ノートスライドマネージャー。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: ノートスライドマネージャーです。
 type: docs
-weight: 9160
+weight: 9180
 url: /ja/aspose.slides/notesslidemanager/
 ---
 ## NotesSlideManager クラス
 
-ノートスライドマネージャー。
+ノートスライドマネージャーです。
 
 ```csharp
 public sealed class NotesSlideManager : DomObject<Slide>, INotesSlideManager
@@ -18,7 +18,7 @@ public sealed class NotesSlideManager : DomObject<Slide>, INotesSlideManager
 
 | 名前 | 説明 |
 | --- | --- |
-| [NotesSlide](../../aspose.slides/notesslidemanager/notesslide) { get; } | 現在のスライドのノートスライドを返します。スライドにノートスライドが存在しない場合は null を返します。読み取り専用 [`INotesSlide`](../inotesslide)。 |
+| [NotesSlide](../../aspose.slides/notesslidemanager/notesslide) { get; } | 現在のスライドのノートスライドを返します。スライドにノートスライドがない場合は null を返します。読み取り専用 [`INotesSlide`](../inotesslide)。 |
 
 ## メソッド
 
@@ -29,31 +29,31 @@ public sealed class NotesSlideManager : DomObject<Slide>, INotesSlideManager
 
 ### 例
 
-次の例は、特定の PowerPoint プレゼンテーション スライドにノートを追加する方法を示しています。
+以下の例は、特定の PowerPoint プレゼンテーション スライドにノートを追加する方法を示します。
 
 ```csharp
 [C#]
-	// プレゼンテーションファイルを表す Presentation オブジェクトをインスタンス化します
+	// プレゼンテーションファイルを表す Presentation オブジェクトをインスタンス化する
 	using(Presentation presentation = new Presentation(dataDir + "AccessSlides.pptx")) {
-	  // 最初のスライドにノートを追加します
+	  // 最初のスライドにノートを追加する
 	  INotesSlideManager mgr = presentation.Slides[0].NotesSlideManager;
 	  INotesSlide noteSlide = mgr.AddNotesSlide();
 	  noteSlide.NotesTextFrame.Text = "Your Notes";
-	  // プレゼンテーションをディスクに保存します
+	  // プレゼンテーションをディスクに保存する
 	  presentation.Save(dataDir + "RemoveNotesAtSpecificSlide_out.pptx", SaveFormat.Pptx);
 	}
 ```
 
-次の例は、PowerPoint プレゼンテーションの特定のスライドからノートを削除する方法を示しています。
+以下の例は、PowerPoint プレゼンテーションの特定のスライドからノートを削除する方法を示します。
 
 ```csharp
 [C#]
-	// プレゼンテーションファイルを表す Presentation オブジェクトをインスタンス化します
+	// プレゼンテーションファイルを表す Presentation オブジェクトをインスタンス化する
 	using(Presentation presentation = new Presentation(dataDir + "AccessSlides.pptx")) {
-	  // 最初のスライドのノートを削除します
+	  // 最初のスライドのノートを削除する
 	  INotesSlideManager mgr = presentation.Slides[0].NotesSlideManager;
 	  mgr.RemoveNotesSlide();
-	  // プレゼンテーションをディスクに保存します
+	  // プレゼンテーションをディスクに保存する
 	  presentation.Save(dataDir + "RemoveNotesAtSpecificSlide_out.pptx", SaveFormat.Pptx);
 	}
 ```

@@ -3,7 +3,7 @@ title: IFormatSchemeEffectiveData
 second_title: Aspose.Sildes för .NET API-referens
 description: Oföränderligt objekt som innehåller effektiva formatmallsegenskaper.
 type: docs
-weight: 11280
+weight: 11300
 url: /sv/aspose.slides.theme/iformatschemeeffectivedata/
 ---
 ## IFormatSchemeEffectiveData gränssnitt
@@ -18,16 +18,16 @@ public interface IFormatSchemeEffectiveData
 
 | Namn | Beskrivning |
 | --- | --- |
-| [GetBackgroundFillStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getbackgroundfillstyles)(Color) | Returnerar en samling av temadefinierade bakgrundsfyllningsstilar. |
-| [GetEffectStyles](../../aspose.slides.theme/iformatschemeeffectivedata/geteffectstyles)(Color) | Returnerar en samling av temadefinierade effektstilar. |
-| [GetFillStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getfillstyles)(Color) | Returnerar en samling av temadefinierade fyllningsstilar. |
-| [GetLineStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getlinestyles)(Color) | Returnerar en samling av temadefinierade linjestilar. |
+| [GetBackgroundFillStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getbackgroundfillstyles)(Color) | Returnerar en samling av tema-definierade bakgrundsfyllnadsstilar. |
+| [GetEffectStyles](../../aspose.slides.theme/iformatschemeeffectivedata/geteffectstyles)(Color) | Returnerar en samling av tema-definierade effekstilar. |
+| [GetFillStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getfillstyles)(Color) | Returnerar en samling av tema-definierade fyllnadsstilar. |
+| [GetLineStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getlinestyles)(Color) | Returnerar en samling av tema-definierade linjestilar. |
 
 ### Anmärkningar
 
 Detta gränssnitt används som en del av [`IThemeEffectiveData`](../ithemeeffectivedata).
 
-### Se även
+### Se också
 
 * namnrymd [Aspose.Slides.Theme](../../aspose.slides.theme)
 * samling [Aspose.Slides](../../)

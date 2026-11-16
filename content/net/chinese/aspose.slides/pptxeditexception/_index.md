@@ -1,9 +1,9 @@
 ---
 title: PptxEditException
-second_title: Aspose.Sildes for .NET API 参考
-description: 表示在检测到编辑演示文稿错误时抛出的异常。
+second_title: Aspose.Sildes .NET API 参考
+description: 表示检测到编辑演示文稿错误时抛出的异常。
 type: docs
-weight: 9550
+weight: 9570
 url: /zh/aspose.slides/pptxeditexception/
 ---
 ## PptxEditException 类
@@ -19,10 +19,10 @@ public class PptxEditException : PptxException
 | 名称 | 描述 |
 | --- | --- |
 | [PptxEditException](pptxeditexception#constructor)() | 默认构造函数。 |
-| [PptxEditException](pptxeditexception#constructor_1)(string) | 构造函数，允许向此异常添加消息。 |
-| [PptxEditException](pptxeditexception#constructor_2)(string, Exception) | 构造函数，用于包含消息和内部异常的异常。 |
+| [PptxEditException](pptxeditexception#constructor_1)(string) | 允许向此异常添加消息的构造函数。 |
+| [PptxEditException](pptxeditexception#constructor_2)(string, Exception) | 包含消息和嵌入异常的构造函数。 |
 
-### 另见
+### 另请参见
 
 * 类 [PptxException](../pptxexception)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

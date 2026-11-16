@@ -3,7 +3,7 @@ title: IMathFunctionFactory
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Permite crear una función matemática
 type: docs
-weight: 8280
+weight: 8300
 url: /es/aspose.slides.mathtext/imathfunctionfactory/
 ---
 ## IMathFunctionFactory interfaz

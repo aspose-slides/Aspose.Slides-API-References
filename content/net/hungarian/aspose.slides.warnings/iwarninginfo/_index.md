@@ -1,14 +1,14 @@
 ---
 title: IWarningInfo
 second_title: Aspose.Sildes .NET API referencia
-description: Az összes figyelmeztetés alap interfészét képviseli.
+description: Egy alap interfészt képvisel minden figyelmeztetéshez.
 type: docs
-weight: 11810
+weight: 11830
 url: /hu/aspose.slides.warnings/iwarninginfo/
 ---
 ## IWarningInfo interfész
 
-Az összes figyelmeztetés alap interfészét képviseli.
+Visszaad egy alap interfészt minden figyelmeztetéshez.
 
 ```csharp
 public interface IWarningInfo
@@ -18,14 +18,14 @@ public interface IWarningInfo
 
 | Név | Leírás |
 | --- | --- |
-| [Description](../../aspose.slides.warnings/iwarninginfo/description) { get; } | Visszaadja ennek a figyelmeztetésnek az ember által olvasható leírását. Csak olvasható String. |
+| [Description](../../aspose.slides.warnings/iwarninginfo/description) { get; } | Visszaadja a figyelmeztetés emberi olvasható leírását. Csak olvasható String. |
 | [WarningType](../../aspose.slides.warnings/iwarninginfo/warningtype) { get; } | Visszaadja a figyelmeztetés típusát. Csak olvasható [`WarningType`](./warningtype). |
 
 ## Módszerek
 
 | Név | Leírás |
 | --- | --- |
-| [SendWarning](../../aspose.slides.warnings/iwarninginfo/sendwarning)(IWarningCallback) | Ha a fogadó nem null, a figyelmeztetést a megadott fogadóhoz küldi, és AbortRequestedException kivételt dob, ha a fogadó úgy dönt, hogy megszakítja a műveletet. |
+| [SendWarning](../../aspose.slides.warnings/iwarninginfo/sendwarning)(IWarningCallback) | Ha a receiver nem null, befejezi a figyelmeztetést a megadott receivernek, és AbortRequestedException-t dob, ha a receiver úgy dönt, hogy megszakítja a műveletet. |
 
 ### Lásd még
 

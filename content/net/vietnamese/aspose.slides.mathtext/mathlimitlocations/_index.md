@@ -1,24 +1,24 @@
 ---
 title: MathLimitLocations
-second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Vị trí của giới hạn (chỉ số dưới/chỉ số trên) trong các toán tử n-ary.
+second_title: Tham khảo API Aspose.Sildes cho .NET
+description: Vị trí của các giới hạn chỉ số dưới/chỉ số trên trong các toán tử n-ary.
 type: docs
-weight: 8840
+weight: 8860
 url: /vi/aspose.slides.mathtext/mathlimitlocations/
 ---
 ## MathLimitLocations liệt kê
 
-Vị trí của giới hạn (chỉ số dưới/chỉ số trên) trong các toán tử n-ary.
+Vị trí của các giới hạn (chỉ số dưới/chỉ số trên) trong các toán tử n-ary.
 
 ```csharp
 public enum MathLimitLocations
 ```
 
-### Values
+### Giá trị
 
 | Tên | Giá trị | Mô tả |
 | --- | --- | --- |
-| NotDefined | `0` | Chưa xác định |
+| NotDefined | `0` | Không xác định |
 | UnderOver | `1` | Giới hạn được vẽ ở trên và dưới ký hiệu toán tử |
 | SubscriptSuperscript | `2` | Giới hạn được vẽ dưới dạng chỉ số dưới và chỉ số trên |
 

@@ -1,9 +1,9 @@
 ---
 title: ChartShapeType
-second_title: Aspose.Sildes für .NET API-Referenz
+second_title: Aspose.Sildes for .NET API Referenz
 description: Stellt eine Diagrammform dar.
 type: docs
-weight: 1470
+weight: 1480
 url: /de/aspose.slides.charts/chartshapetype/
 ---
 ## ChartShapeType Aufzählung
@@ -16,15 +16,15 @@ public enum ChartShapeType
 
 ### Werte
 
-| Name | Wert | Beschreibung |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `-1` | Diagrammform ist nicht definiert. |
 | Box | `0` | Gibt an, dass das Diagramm mit einer Box-Form gezeichnet wird. |
-| Cone | `1` | Gibt an, dass das Diagramm als Kegel gezeichnet wird, wobei die Basis des Kegels auf dem Boden liegt und die Spitze des Kegels oben am Datenmarker steht. |
-| ConeToMax | `2` | Gibt an, dass das Diagramm mit abgeschnittenen Kegeln gezeichnet wird, sodass die Spitze des Kegels dem maximalen Datenwert entspricht. |
+| Cone | `1` | Gibt an, dass das Diagramm als Kegel gezeichnet wird, wobei die Basis des Kegels auf dem Boden liegt und die Spitze des Kegels oben am Datenmarker ist. |
+| ConeToMax | `2` | Gibt an, dass das Diagramm mit abgeschnittenen Kegeln gezeichnet wird, sodass die Spitze des Kegels den maximalen Datenwert darstellt. |
 | Cylinder | `3` | Gibt an, dass das Diagramm als Zylinder gezeichnet wird. |
-| Pyramid | `4` | Gibt an, dass das Diagramm als rechteckige Pyramide gezeichnet wird, wobei die Basis der Pyramide auf dem Boden liegt und die Spitze der Pyramide oben am Datenmarker steht. |
-| PyramidToMaximum | `5` | Gibt an, dass das Diagramm mit abgeschnittenen Kegeln gezeichnet wird, sodass die Spitze des Kegels dem maximalen Datenwert entspricht. |
+| Pyramid | `4` | Gibt an, dass das Diagramm als rechteckige Pyramide gezeichnet wird, wobei die Basis der Pyramide auf dem Boden liegt und die Spitze der Pyramide oben am Datenmarker ist. |
+| PyramidToMaximum | `5` | Gibt an, dass das Diagramm mit abgeschnittenen Pyramiden gezeichnet wird, sodass die Spitze der Pyramide den maximalen Datenwert darstellt. |
 
 ### Siehe auch
 

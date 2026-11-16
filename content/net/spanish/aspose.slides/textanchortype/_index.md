@@ -1,14 +1,14 @@
 ---
 title: TextAnchorType
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Aspose.Sildes para la referencia de API .NET
 description: alineación del cuadro de texto dentro de un área de texto.
 type: docs
-weight: 10910
+weight: 10930
 url: /es/aspose.slides/textanchortype/
 ---
 ## TextAnchorType enumeración
 
-Alineación del cuadro de texto dentro de un área de texto.
+alineación del cuadro de texto dentro de un área de texto.
 
 ```csharp
 public enum TextAnchorType : sbyte

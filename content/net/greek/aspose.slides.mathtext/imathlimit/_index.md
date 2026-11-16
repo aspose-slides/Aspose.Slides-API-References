@@ -1,14 +1,14 @@
 ---
 title: IMathLimit
-second_title: Aspose.Sildes για .NET API Αναφορά
-description: Καθορίζει το αντικείμενο Limit που αποτελείται από κείμενο στη γραμμή βάσης και κείμενο μειωμένου μεγέθους αμέσως πάνω ή κάτω από αυτό.
+second_title: Aspose.Sildes για .NET Αναφορά API
+description: Καθορίζει το αντικείμενο Limit που αποτελείται από κείμενο στην ευθεία βάσης και κείμενο μειωμένου μεγέθους αμέσως πάνω ή κάτω από αυτό.
 type: docs
-weight: 8320
+weight: 8340
 url: /el/aspose.slides.mathtext/imathlimit/
 ---
-## Διεπαφή IMathLimit
+## IMathLimit διεπαφή
 
-Καθορίζει το αντικείμενο Limit, που αποτελείται από κείμενο στη γραμμή βάσης και κείμενο μειωμένου μεγέθους αμέσως πάνω ή κάτω από αυτό.
+Specifies the Limit object, consisting of text on the baseline and reduced-size text immediately above or below it.
 
 ```csharp
 public interface IMathLimit : IMathElement
@@ -18,10 +18,10 @@ public interface IMathLimit : IMathElement
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathlimit/asimathelement) { get; } | Επιτρέπει τη λήψη της βασικής διεπαφής IMathElement [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathlimit/asimathelement) { get; } | Επιτρέπει την ανάκτηση της βασικής διεπαφής IMathElement [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathlimit/base) { get; } | Βασικό όρισμα |
-| [Limit](../../aspose.slides.mathtext/imathlimit/limit) { get; } | Όρισμα περιορισμού |
-| [UpperLimit](../../aspose.slides.mathtext/imathlimit/upperlimit) { get; set; } | Καθορίζει το ανώτερο ή κατώτερο όριο |
+| [Limit](../../aspose.slides.mathtext/imathlimit/limit) { get; } | Όρισμα ορίου |
+| [UpperLimit](../../aspose.slides.mathtext/imathlimit/upperlimit) { get; set; } | Καθορίζει άνω ή κάτω όριο |
 
 ### Παραδείγματα
 
@@ -34,7 +34,7 @@ IMathLimit limitElement = new MathLimit(new MathematicalText("lim"), new Mathema
 
 ### Δείτε επίσης
 
-* Διεπαφή [IMathElement](../imathelement)
+* διεπαφή [IMathElement](../imathelement)
 * χώρο ονομάτων [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * συγκρότημα [Aspose.Slides](../../)
 

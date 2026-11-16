@@ -1,14 +1,14 @@
 ---
 title: IMasterNotesSlide
-second_title: Aspose.Sildes dla .NET – referencja API
-description: Reprezentuje nadrzędny slajd notatek.
+second_title: Aspose.Sildes dla .NET – odniesienie API
+description: Reprezentuje główny slajd notatek.
 type: docs
-weight: 6390
+weight: 6410
 url: /pl/aspose.slides/imasternotesslide/
 ---
 ## IMasterNotesSlide interfejs
 
-Reprezentuje nadrzędny slajd notatek.
+Reprezentuje główny slajd notatek.
 
 ```csharp
 public interface IMasterNotesSlide : IBaseSlide, IMasterThemeable
@@ -18,10 +18,10 @@ public interface IMasterNotesSlide : IBaseSlide, IMasterThemeable
 
 | Nazwa | Opis |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/imasternotesslide/asibaseslide) { get; } | Umożliwia pobranie bazowego interfejsu IBaseSlide. Tylko do odczytu [`IBaseSlide`](../ibaseslide). |
+| [AsIBaseSlide](../../aspose.slides/imasternotesslide/asibaseslide) { get; } | Umożliwia pobranie podstawowego interfejsu IBaseSlide. Tylko do odczytu [`IBaseSlide`](../ibaseslide). |
 | [AsIMasterThemeable](../../aspose.slides/imasternotesslide/asimasterthemeable) { get; } | Zwraca interfejs IMasterThemeable. Tylko do odczytu [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
-| [DrawingGuides](../../aspose.slides/imasternotesslide/drawingguides) { get; } | Zwraca kolekcję prowadnic rysunkowych dla nadrzędnego slajdu notatek. Tylko do odczytu [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [HeaderFooterManager](../../aspose.slides/imasternotesslide/headerfootermanager) { get; } | Zwraca menedżera HeaderFooter nadrzędnego slajdu notatek. Tylko do odczytu [`IMasterNotesSlideHeaderFooterManager`](../imasternotesslideheaderfootermanager). |
+| [DrawingGuides](../../aspose.slides/imasternotesslide/drawingguides) { get; } | Zwraca kolekcję przewodników rysowania dla głównego slajdu notatek. Tylko do odczytu [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [HeaderFooterManager](../../aspose.slides/imasternotesslide/headerfootermanager) { get; } | Zwraca menedżera HeaderFooter głównego slajdu notatek. Tylko do odczytu [`IMasterNotesSlideHeaderFooterManager`](../imasternotesslideheaderfootermanager). |
 | [NotesStyle](../../aspose.slides/imasternotesslide/notesstyle) { get; } | Zwraca styl tekstu notatek. Tylko do odczytu [`ITextStyle`](../itextstyle). |
 
 ### Zobacz także

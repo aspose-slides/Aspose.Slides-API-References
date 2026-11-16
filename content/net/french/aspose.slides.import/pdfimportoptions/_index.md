@@ -1,9 +1,9 @@
 ---
 title: PdfImportOptions
-second_title: Référence API Aspose.Sildes pour .NET
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Représente les options d'importation PDF
 type: docs
-weight: 7500
+weight: 7520
 url: /fr/aspose.slides.import/pdfimportoptions/
 ---
 ## PdfImportOptions classe

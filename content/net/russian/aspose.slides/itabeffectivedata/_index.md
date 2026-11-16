@@ -1,9 +1,9 @@
 ---
 title: ITabEffectiveData
-second_title: Aspose.Sildes для .NET Справочник API
+second_title: Aspose.Sildes для .NET API справка
 description: Неизменяемый объект, содержащий свойства табуляции эффективных текстов.
 type: docs
-weight: 7210
+weight: 7230
 url: /ru/aspose.slides/itabeffectivedata/
 ---
 ## ITabEffectiveData интерфейс
@@ -20,7 +20,7 @@ public interface ITabEffectiveData : IComparable
 | --- | --- |
 | [Alignment](../../aspose.slides/itabeffectivedata/alignment) { get; } | Возвращает стиль выравнивания табуляции. Только для чтения [`TabAlignment`](../tabalignment). |
 | [AsIComparable](../../aspose.slides/itabeffectivedata/asicomparable) { get; } | Возвращает интерфейс IComparable. Только для чтения IComparable. |
-| [Position](../../aspose.slides/itabeffectivedata/position) { get; } | Возвращает позицию табуляции. Присваивание этому свойству может изменить индекс табуляции в коллекции и сделать недействительным Enumerator. Только для чтения Double. |
+| [Position](../../aspose.slides/itabeffectivedata/position) { get; } | Возвращает позицию табуляции. Присвоение этому свойству может изменить индекс табуляции в коллекции и сделать недействительным Enumerator. Только для чтения Double. |
 
 ### Примечания
 

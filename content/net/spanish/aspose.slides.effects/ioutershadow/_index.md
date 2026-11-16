@@ -1,14 +1,14 @@
 ---
 title: IOuterShadow
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Representa un efecto Outer Shadow.
+description: Representa un efecto de sombra externa.
 type: docs
-weight: 3460
+weight: 3480
 url: /es/aspose.slides.effects/ioutershadow/
 ---
 ## IOuterShadow interfaz
 
-Representa un efecto Outer Shadow.
+Representa un efecto de sombra externa.
 
 ```csharp
 public interface IOuterShadow : IAccessiblePVIObject<IOuterShadowEffectiveData>, 
@@ -26,8 +26,8 @@ public interface IOuterShadow : IAccessiblePVIObject<IOuterShadowEffectiveData>,
 | [Distance](../../aspose.slides.effects/ioutershadow/distance) { get; set; } | Distancia de la sombra al objeto, en puntos. Valor predeterminado – 0 pt. Lectura/escritura Double. |
 | [RectangleAlign](../../aspose.slides.effects/ioutershadow/rectanglealign) { get; set; } | Alineación del rectángulo. Valor predeterminado – Bottom. Lectura/escritura [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
 | [RotateShadowWithShape](../../aspose.slides.effects/ioutershadow/rotateshadowwithshape) { get; set; } | Indica si la sombra gira junto con la forma. Valor predeterminado – true. Lectura/escritura Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/ioutershadow/scalehorizontal) { get; set; } | Factor de escala horizontal, en porcentaje del tamaño original. El escalado negativo provoca una inversión. Valor predeterminado – 100 %. Lectura/escritura Double. |
-| [ScaleVertical](../../aspose.slides.effects/ioutershadow/scalevertical) { get; set; } | Factor de escala vertical, en porcentaje del tamaño original. El escalado negativo provoca una inversión. Valor predeterminado – 100 %. Lectura/escritura Double. |
+| [ScaleHorizontal](../../aspose.slides.effects/ioutershadow/scalehorizontal) { get; set; } | Factor de escala horizontal, en porcentaje del tamaño original. Un escalado negativo provoca una inversión. Valor predeterminado – 100 %. Lectura/escritura Double. |
+| [ScaleVertical](../../aspose.slides.effects/ioutershadow/scalevertical) { get; set; } | Factor de escala vertical, en porcentaje del tamaño original. Un escalado negativo provoca una inversión. Valor predeterminado – 100 %. Lectura/escritura Double. |
 | [ShadowColor](../../aspose.slides.effects/ioutershadow/shadowcolor) { get; } | Color de la sombra. Valor predeterminado – negro automático (dependiente del tema). Solo lectura [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [SkewHorizontal](../../aspose.slides.effects/ioutershadow/skewhorizontal) { get; set; } | Ángulo de sesgo horizontal, en grados. Valor predeterminado – 0 °. Lectura/escritura Double. |
 | [SkewVertical](../../aspose.slides.effects/ioutershadow/skewvertical) { get; set; } | Ángulo de sesgo vertical, en grados. Valor predeterminado – 0 °. Lectura/escritura Double. |

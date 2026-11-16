@@ -3,12 +3,12 @@ title: TabCollection
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili koleksi tab.
 type: docs
-weight: 10840
+weight: 10860
 url: /id/aspose.slides/tabcollection/
 ---
 ## TabCollection kelas
 
-Represents a collection of tabs.
+Mewakili koleksi tab.
 
 ```csharp
 public sealed class TabCollection : ITabCollection
@@ -18,23 +18,23 @@ public sealed class TabCollection : ITabCollection
 
 | Nama | Deskripsi |
 | --- | --- |
-| [Count](../../aspose.slides/tabcollection/count) { get; } | Mendapatkan jumlah elemen yang sebenarnya terdapat dalam koleksi. Baca-saja Int32. |
-| [IsSynchronized](../../aspose.slides/tabcollection/issynchronized) { get; } | Mengembalikan nilai yang menunjukkan apakah akses ke koleksi disinkronkan (aman dari thread). Baca-saja Boolean. |
-| [Item](../../aspose.slides/tabcollection/item) { get; } | Mendapatkan elemen pada indeks yang ditentukan. Baca-saja [`Tab`](../tab). |
-| [SyncRoot](../../aspose.slides/tabcollection/syncroot) { get; } | Mengembalikan akar sinkronisasi. Baca-saja Object. |
+| [Count](../../aspose.slides/tabcollection/count) { get; } | Mendapatkan jumlah elemen yang sebenarnya terdapat dalam koleksi. Hanya-baca Int32. |
+| [IsSynchronized](../../aspose.slides/tabcollection/issynchronized) { get; } | Mengembalikan nilai yang menunjukkan apakah akses ke koleksi disinkronkan (thread-safe). Hanya-baca Boolean. |
+| [Item](../../aspose.slides/tabcollection/item) { get; } | Mendapatkan elemen pada indeks yang ditentukan. Hanya-baca [`Tab`](../tab). |
+| [SyncRoot](../../aspose.slides/tabcollection/syncroot) { get; } | Mengembalikan root sinkronisasi. Hanya-baca Object. |
 
 ## Metode
 
 | Nama | Deskripsi |
 | --- | --- |
-| [Add](../../aspose.slides/tabcollection/add#add_1)(ITab) | Menambahkan Tab ke dalam koleksi. |
-| [Add](../../aspose.slides/tabcollection/add#add)(double, TabAlignment) | Menambahkan Tab ke dalam koleksi. |
+| [Add](../../aspose.slides/tabcollection/add#add_1)(ITab) | Menambahkan Tab ke koleksi. |
+| [Add](../../aspose.slides/tabcollection/add#add)(double, TabAlignment) | Menambahkan Tab ke koleksi. |
 | [Clear](../../aspose.slides/tabcollection/clear)() | Menghapus semua elemen dari koleksi. |
 | [CopyTo](../../aspose.slides/tabcollection/copyto)(Array, int) | Menyalin semua elemen dari koleksi ke array yang ditentukan. |
 | override [Equals](../../aspose.slides/tabcollection/equals)(object) | Menentukan apakah dua instance TabsEx sama. |
 | [GetEnumerator](../../aspose.slides/tabcollection/getenumerator)() | Mengembalikan enumerator yang mengiterasi koleksi. |
 | override [GetHashCode](../../aspose.slides/tabcollection/gethashcode)() | Mengembalikan kode hash untuk objek ini. |
-| [RemoveAt](../../aspose.slides/tabcollection/removeat)(int) | Menghapus elemen pada indeks yang ditentukan dalam koleksi. |
+| [RemoveAt](../../aspose.slides/tabcollection/removeat)(int) | Menghapus elemen pada indeks yang ditentukan dari koleksi. |
 
 ### Lihat Juga
 

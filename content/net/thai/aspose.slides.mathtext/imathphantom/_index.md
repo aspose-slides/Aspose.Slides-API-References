@@ -1,14 +1,14 @@
 ---
 title: IMathPhantom
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงวัตถุคณิตศาสตร์แฟนทอม ltmphantgt ที่ส่งผลต่อการจัดวางขององค์ประกอบลูกโดยไม่จำเป็นต้องแสดงผล. แฟนทอมสามารถซ่อนนิพจน์ฐานของมันในขณะที่คงความกว้าง ความสูง หรือความลึกไว้เพื่อจัดแนวสูตรหรือสำรองพื้นที่. การมองเห็นและพฤติกรรมเชิงเรขาคณิตถูกควบคุมโดยคุณสมบัติ เช่น Show ZeroWid ZeroAsc ZeroDesc และ Transp.
+description: แทนวัตถุคณิตศาสตร์แบบ phantom ltmphantgt ที่มีผลต่อการจัดวางขององค์ประกอบลูกโดยไม่จำเป็นต้องแสดงผลออกมา. phantom สามารถซ่อนนิพจน์ฐานของมันในขณะที่ยังคงรักษาความกว้าง, ความสูง หรือความลึกเพื่อจัดสูตรหรือสงวนพื้นที่. การมองเห็นและพฤติกรรมรูปทรงถูกควบคุมโดยคุณสมบัติเช่น Show ZeroWid ZeroAsc ZeroDesc และ Transp.
 type: docs
-weight: 8410
+weight: 8430
 url: /th/aspose.slides.mathtext/imathphantom/
 ---
 ## IMathPhantom อินเทอร์เฟซ
 
-แสดงถึงวัตถุคณิตศาสตร์แฟนทอม (<m:phant>) ที่มีผลต่อการจัดวางขององค์ประกอบลูกโดยไม่จำเป็นต้องแสดงผลออกมา แฟนทอมสามารถซ่อนนิพจน์ฐานของมันในขณะที่คงความกว้าง ความสูง หรือความลึกไว้เพื่อจัดแนวสูตรหรือสำรองพื้นที่ พฤติกรรมการมองเห็นและรูปทรงจะถูกควบคุมโดยคุณสมบัติต่างๆ เช่น Show, ZeroWid, ZeroAsc, ZeroDesc, และ Transp.
+เป็นตัวแทนของวัตถุคณิตศาสตร์แบบ phantom (&lt;m:phant&gt;) ที่มีผลต่อการจัดวางขององค์ประกอบลูกโดยไม่จำเป็นต้องแสดงผลออกมา. phantom สามารถซ่อนนิพจน์ฐานของมันในขณะที่ยังคงรักษาความกว้าง, ความสูง หรือความลึกเพื่อจัดสูตรหรือสงวนพื้นที่. พฤติกรรมการมองเห็นและรูปทรงถูกควบคุมโดยคุณสมบัติต่าง ๆ เช่น Show, ZeroWid, ZeroAsc, ZeroDesc, และ Transp.
 
 ```csharp
 public interface IMathPhantom : IMathElement
@@ -20,10 +20,10 @@ public interface IMathPhantom : IMathElement
 | --- | --- |
 | [Base](../../aspose.slides.mathtext/imathphantom/base) { get; } | อาร์กิวเมนต์ฐาน |
 | [Show](../../aspose.slides.mathtext/imathphantom/show) { get; set; } | รับหรือกำหนดค่าที่บ่งบอกว่าตัวองค์ประกอบฐานจะแสดงหรือไม่ |
-| [Transp](../../aspose.slides.mathtext/imathphantom/transp) { get; set; } | รับหรือกำหนดค่าที่บ่งบอกว่าแฟนทอมเป็นแบบโปร่งใสสำหรับกฎการเว้นระยะตามคลาสหรือไม่ |
-| [ZeroAsc](../../aspose.slides.mathtext/imathphantom/zeroasc) { get; set; } | รับหรือกำหนดค่าที่บ่งบอกว่าการขึ้น (ความสูงเหนือเส้นฐาน) ของตัวองค์ประกอบฐานควรพิจารณาเป็นศูนย์หรือไม่ |
-| [ZeroDesc](../../aspose.slides.mathtext/imathphantom/zerodesc) { get; set; } | รับหรือกำหนดค่าที่บ่งบอกว่าการลง (ความลึกใต้เส้นฐาน) ของตัวองค์ประกอบฐานควรพิจารณาเป็นศูนย์หรือไม่ |
-| [ZeroWidth](../../aspose.slides.mathtext/imathphantom/zerowidth) { get; set; } | รับหรือกำหนดค่าที่บ่งบอกว่าความกว้างของตัวองค์ประกอบฐานควรพิจารณาเป็นศูนย์หรือไม่ |
+| [Transp](../../aspose.slides.mathtext/imathphantom/transp) { get; set; } | รับหรือกำหนดค่าที่บ่งบอกว่า phantom มีความโปร่งใสสำหรับกฎการเว้นช่องแบบ class-based หรือไม่ |
+| [ZeroAsc](../../aspose.slides.mathtext/imathphantom/zeroasc) { get; set; } | รับหรือกำหนดค่าที่บ่งบอกว่าการขึ้น (ความสูงเหนือเส้นฐาน) ของตัวองค์ประกอบฐานควรถือเป็นศูนย์หรือไม่ |
+| [ZeroDesc](../../aspose.slides.mathtext/imathphantom/zerodesc) { get; set; } | รับหรือกำหนดค่าที่บ่งบอกว่าการลง (ความลึกต่ำกว่าเส้นฐาน) ของตัวองค์ประกอบฐานควรถือเป็นศูนย์หรือไม่ |
+| [ZeroWidth](../../aspose.slides.mathtext/imathphantom/zerowidth) { get; set; } | รับหรือกำหนดค่าที่บ่งบอกว่าความกว้างของตัวองค์ประกอบฐานควรถือเป็นศูนย์หรือไม่ |
 
 ### ตัวอย่าง
 
@@ -33,7 +33,7 @@ public interface IMathPhantom : IMathElement
 [C#]
 IMathPhantom phantom = new MathPhantom(new MathematicalText("1/2"));
 phantom.Show = false;          // ซ่อนเนื้อหา
-phantom.ZeroWidth = false;     // คงความกว้างไว้
+phantom.ZeroWidth = false;     // คงความกว้าง
 ```
 
 ### ดูเพิ่มเติม

@@ -1,26 +1,26 @@
 ---
 title: IAdjustValueCollection
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: เป็นคอลเลกชันของการปรับค่ารูปร่าง
+description: แสดงถึงคอลเลกชันของการปรับค่าของรูปร่าง
 type: docs
-weight: 5190
+weight: 5210
 url: /th/aspose.slides/iadjustvaluecollection/
 ---
 ## IAdjustValueCollection อินเทอร์เฟซ
 
-แสดงชุดของการปรับค่าของรูปร่าง
+แสดงถึงคอลเลกชันของการปรับค่า shape
 
 ```csharp
 public interface IAdjustValueCollection : ICollection
 ```
 
-## คุณสมบัติ
+## Properties
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [AsICollection](../../aspose.slides/iadjustvaluecollection/asicollection) { get; } | อ่านอย่างเดียว ICollection. |
-| [AsIEnumerable](../../aspose.slides/iadjustvaluecollection/asienumerable) { get; } | อ่านอย่างเดียว IEnumerable. |
-| [Item](../../aspose.slides/iadjustvaluecollection/item) { get; } | ส่งค่าการปรับตามดัชนี. |
+| [AsICollection](../../aspose.slides/iadjustvaluecollection/asicollection) { get; } | อนุญาตให้เข้าถึงอินเทอร์เฟซ ICollection พื้นฐาน. อินเทอร์เฟซ ICollection แบบอ่านอย่างเดียว. |
+| [AsIEnumerable](../../aspose.slides/iadjustvaluecollection/asienumerable) { get; } | คืนค่าอินเทอร์เฟซ IEnumerable. อินเทอร์เฟซ IEnumerable แบบอ่านอย่างเดียว. |
+| [Item](../../aspose.slides/iadjustvaluecollection/item) { get; } | คืนค่าการปรับโดยใช้ดัชนี. |
 
 ### ดูเพิ่มเติม
 

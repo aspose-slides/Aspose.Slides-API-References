@@ -1,14 +1,14 @@
 ---
 title: IEffectStyle
 second_title: Aspose.Sildes pro .NET API Reference
-description: Zastupuje styl efektu.
+description: Reprezentuje styl efektu.
 type: docs
-weight: 11170
+weight: 11190
 url: /cs/aspose.slides.theme/ieffectstyle/
 ---
 ## IEffectStyle rozhraní
 
-Zastupuje styl efektu.
+Představuje styl efektu.
 
 ```csharp
 public interface IEffectStyle
@@ -18,8 +18,8 @@ public interface IEffectStyle
 
 | Název | Popis |
 | --- | --- |
-| [EffectFormat](../../aspose.slides.theme/ieffectstyle/effectformat) { get; } | Vrací formát efektu. Pouze ke čtení [`IEffectFormat`](../../aspose.slides/ieffectformat). |
-| [ThreeDFormat](../../aspose.slides.theme/ieffectstyle/threedformat) { get; } | Vrací 3D formát. Pouze ke čtení [`IThreeDFormat`](../../aspose.slides/ithreedformat). |
+| [EffectFormat](../../aspose.slides.theme/ieffectstyle/effectformat) { get; } | Vrací formát efektu. Pouze pro čtení [`IEffectFormat`](../../aspose.slides/ieffectformat). |
+| [ThreeDFormat](../../aspose.slides.theme/ieffectstyle/threedformat) { get; } | Vrací 3D formát. Pouze pro čtení [`IThreeDFormat`](../../aspose.slides/ithreedformat). |
 
 ### Viz také
 

@@ -1,14 +1,14 @@
 ---
 title: LightRigPresetType
 second_title: Aspose.Sildes pro .NET API Reference
-description: Konstanty, které definují typy přednastaveného osvětlení.
+description: Konstanty, které definují typy přednastavených osvětlení.
 type: docs
-weight: 7700
+weight: 7720
 url: /cs/aspose.slides/lightrigpresettype/
 ---
 ## LightRigPresetType výčet
 
-Konstanty, které definují typy přednastaveného osvětlení.
+Konstanty, které definují typy přednastavených osvětlení.
 
 ```csharp
 public enum LightRigPresetType

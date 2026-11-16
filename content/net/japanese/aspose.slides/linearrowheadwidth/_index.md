@@ -3,10 +3,10 @@ title: LineArrowheadWidth
 second_title: Aspose.Sildes for .NET API リファレンス
 description: 矢じりの幅を表します。
 type: docs
-weight: 7750
+weight: 7770
 url: /ja/aspose.slides/linearrowheadwidth/
 ---
-## LineArrowheadWidth 列挙体
+## LineArrowheadWidth 列挙型
 
 矢じりの幅を表します。
 
@@ -23,7 +23,7 @@ public enum LineArrowheadWidth : sbyte
 | Medium | `1` |  |
 | Wide | `2` |  |
 
-### 参照
+### 関連項目
 
 * 名前空間 [Aspose.Slides](../../aspose.slides)
 * アセンブリ [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: IChartDataPointLevelsManager
 second_title: Aspose.Sildes för .NET API-referens
-description: Behållare för datapunktnivåer. Används för Treeamp- och Sunburst-serier. Indexering av datapunktnivåer är nollbaserad.
+description: Behållare för datapunktsnivåer. Används för Treeamp- och Sunburst-serier. Indexering av datapunktsnivåer är nollbaserad.
 type: docs
-weight: 1850
+weight: 1870
 url: /sv/aspose.slides.charts/ichartdatapointlevelsmanager/
 ---
 ## IChartDataPointLevelsManager gränssnitt
 
-Container för datapunktnivåer. Används för Treeamp- och Sunburst-serier. Indexering av datapunktnivåer är nollbaserad.
+Behållare för datapunktsnivåer. Används för Treeamp- och Sunburst-serier. Indexering av datapunktsnivåer är nollbaserad.
 
 ```csharp
 public interface IChartDataPointLevelsManager
@@ -18,8 +18,8 @@ public interface IChartDataPointLevelsManager
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Count](../../aspose.slides.charts/ichartdatapointlevelsmanager/count) { get; } | Returnerar antalet datapunktnivåer. |
-| [Item](../../aspose.slides.charts/ichartdatapointlevelsmanager/item) { get; } | Returnerar IChartDataPointLevel-objektet för angiven nivå. |
+| [Count](../../aspose.slides.charts/ichartdatapointlevelsmanager/count) { get; } | Returnerar antalet datapunktsnivåer. |
+| [Item](../../aspose.slides.charts/ichartdatapointlevelsmanager/item) { get; } | Returnerar IChartDataPointLevel-objektet för definierad nivå. |
 
 ### Se även
 

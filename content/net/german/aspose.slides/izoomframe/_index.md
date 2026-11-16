@@ -3,7 +3,7 @@ title: IZoomFrame
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt ein Slide Zoom-Objekt in einer Folie dar.
 type: docs
-weight: 7400
+weight: 7420
 url: /de/aspose.slides/izoomframe/
 ---
 ## IZoomFrame Schnittstelle
@@ -18,8 +18,8 @@ public interface IZoomFrame : IZoomObject
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIZoomObject](../../aspose.slides/izoomframe/asizoomobject) { get; } | Gibt die IZoomObject Schnittstelle zurück. |
-| [TargetSlide](../../aspose.slides/izoomframe/targetslide) { get; set; } | Ruft das Folienobjekt ab oder legt es fest, mit dem das Slide Zoom-Objekt verknüpft ist. Lesen/Schreiben [`ISlide`](../islide). |
+| [AsIZoomObject](../../aspose.slides/izoomframe/asizoomobject) { get; } | Gibt die IZoomObject-Schnittstelle zurück. |
+| [TargetSlide](../../aspose.slides/izoomframe/targetslide) { get; set; } | Liest oder schreibt das Folienobjekt, auf das das Slide Zoom-Objekt verweist. Lesen/Schreiben [`ISlide`](../islide). |
 
 ### Siehe auch
 

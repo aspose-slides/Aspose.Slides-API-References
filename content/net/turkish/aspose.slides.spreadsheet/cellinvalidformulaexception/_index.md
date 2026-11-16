@@ -3,7 +3,7 @@ title: CellInvalidFormulaException
 second_title: Aspose.Sildes for .NET API Referansı
 description: Hesaplanan bir formül doğru olmadığında veya ayrıştırılamadığında fırlatılan istisna.
 type: docs
-weight: 10710
+weight: 10730
 url: /tr/aspose.slides.spreadsheet/cellinvalidformulaexception/
 ---
 ## CellInvalidFormulaException sınıfı
@@ -16,18 +16,18 @@ public class CellInvalidFormulaException : PptxEditException
 
 ## Yapıcılar
 
-| İsim | Açıklama |
+| Ad | Açıklama |
 | --- | --- |
-| [CellInvalidFormulaException](cellinvalidformulaexception#constructor)() | [`CellInvalidFormulaException`](../cellinvalidformulaexception) sınıfının yeni bir örneğini başlatır. |
-| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_1)(string) | [`CellInvalidFormulaException`](../cellinvalidformulaexception) sınıfının belirtilen bir hata mesajı ile yeni bir örneğini başlatır. |
-| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_2)(string, Exception) | [`CellInvalidFormulaException`](../cellinvalidformulaexception) sınıfının belirtilen bir hata mesajı ve bu istisnanın nedeni olan iç istisnaya bir referans ile yeni bir örneğini başlatır. |
-| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_3)(string, string) | [`CellInvalidFormulaException`](../cellinvalidformulaexception) sınıfının belirtilen bir hata mesajı ve geçersiz formülü içeren bir hücre referansı ile yeni bir örneğini başlatır. |
+| [CellInvalidFormulaException](cellinvalidformulaexception#constructor)() | Yeni bir [`CellInvalidFormulaException`](../cellinvalidformulaexception) sınıfı örneği başlatır. |
+| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_1)(string) | Belirtilen hata mesajı ile yeni bir [`CellInvalidFormulaException`](../cellinvalidformulaexception) sınıfı örneği başlatır. |
+| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_2)(string, Exception) | Belirtilen hata mesajı ve bu istisnanın nedeni olan iç istisna referansı ile yeni bir [`CellInvalidFormulaException`](../cellinvalidformulaexception) sınıfı örneği başlatır. |
+| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_3)(string, string) | Belirtilen hata mesajı ve geçersiz formülü içeren bir hücre referansı ile yeni bir [`CellInvalidFormulaException`](../cellinvalidformulaexception) sınıfı örneği başlatır. |
 
 ## Özellikler
 
-| İsim | Açıklama |
+| Ad | Açıklama |
 | --- | --- |
-| [Reference](../../aspose.slides.spreadsheet/cellinvalidformulaexception/reference) { get; } | Geçersiz formülü içeren bir hücre referansını alır. |
+| [Reference](../../aspose.slides.spreadsheet/cellinvalidformulaexception/reference) { get; } | Geçersiz formülü içeren bir hücre referansını getirir. |
 
 ### Ayrıca Bakınız
 

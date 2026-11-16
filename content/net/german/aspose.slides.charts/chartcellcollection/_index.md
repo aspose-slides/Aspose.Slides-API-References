@@ -3,7 +3,7 @@ title: ChartCellCollection
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt eine Sammlung von Zellen mit Daten dar.
 type: docs
-weight: 1300
+weight: 1310
 url: /de/aspose.slides.charts/chartcellcollection/
 ---
 ## ChartCellCollection Klasse
@@ -18,19 +18,19 @@ public class ChartCellCollection : IChartCellCollection
 
 | Name | Beschreibung |
 | --- | --- |
-| [Count](../../aspose.slides.charts/chartcellcollection/count) { get; } | Ermittelt die Anzahl der Zellen in der Sammlung. Nur lesbar Int32. |
-| [Item](../../aspose.slides.charts/chartcellcollection/item) { get; } | Gibt eine Zelle (IChartDataCell) nach Index zurück. |
+| [Count](../../aspose.slides.charts/chartcellcollection/count) { get; } | Ermittelt die Anzahl der Zellen in der Sammlung. Nur lesbarer Int32. |
+| [Item](../../aspose.slides.charts/chartcellcollection/item) { get; } | Gibt eine Zelle (IChartDataCell) anhand des Index zurück. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
 | [Add](../../aspose.slides.charts/chartcellcollection/add#add)(IChartDataCell) | Fügt der Sammlung eine neue Zelle hinzu. |
-| [Add](../../aspose.slides.charts/chartcellcollection/add#add_1)(object) | Erstellt [`ChartDataCell`](../chartdatacell) aus dem angegebenen Wert und fügt ihn der Sammlung hinzu. |
-| [GetCellsAddress](../../aspose.slides.charts/chartcellcollection/getcellsaddress)() | Gibt die Adresse des Zellbereichs in der Arbeitsmappe zurück. |
-| [GetConcatenatedValuesFromCells](../../aspose.slides.charts/chartcellcollection/getconcatenatedvaluesfromcells)() | Verkettungszeichenfolge aus allen Zellzeichenfolgenwerten. |
+| [Add](../../aspose.slides.charts/chartcellcollection/add#add_1)(object) | Erstellt [`ChartDataCell`](../chartdatacell) aus dem angegebenen Wert und fügt es der Sammlung hinzu. |
+| [GetCellsAddress](../../aspose.slides.charts/chartcellcollection/getcellsaddress)() | Gibt die Adresse des Zellensatzes in der Arbeitsmappe zurück. |
+| [GetConcatenatedValuesFromCells](../../aspose.slides.charts/chartcellcollection/getconcatenatedvaluesfromcells)() | Verketten die Zeichenfolge aller Zellzeichenfolgenwerte. |
 | [GetEnumerator](../../aspose.slides.charts/chartcellcollection/getenumerator)() | Gibt einen Enumerator zurück, der die Sammlung durchläuft. |
-| [RemoveAt](../../aspose.slides.charts/chartcellcollection/removeat)(int) | Entfernt eine Zelle aus der Sammlung nach Index. |
+| [RemoveAt](../../aspose.slides.charts/chartcellcollection/removeat)(int) | Entfernt eine Zelle aus der Sammlung anhand des Index. |
 
 ### Siehe auch
 

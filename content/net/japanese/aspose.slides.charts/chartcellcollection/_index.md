@@ -1,9 +1,9 @@
 ---
 title: ChartCellCollection
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: データを含むセルのコレクションを表します。
 type: docs
-weight: 1300
+weight: 1310
 url: /ja/aspose.slides.charts/chartcellcollection/
 ---
 ## ChartCellCollection クラス
@@ -16,19 +16,19 @@ public class ChartCellCollection : IChartCellCollection
 
 ## プロパティ
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
-| [Count](../../aspose.slides.charts/chartcellcollection/count) { get; } | コレクション内のセル数を取得します。読み取り専用 Int32。 |
+| [Count](../../aspose.slides.charts/chartcellcollection/count) { get; } | コレクション内のセル数を取得します。読み取り専用の Int32。 |
 | [Item](../../aspose.slides.charts/chartcellcollection/item) { get; } | インデックスでセル (IChartDataCell) を返します。 |
 
 ## メソッド
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
-| [Add](../../aspose.slides.charts/chartcellcollection/add#add)(IChartDataCell) | 新しいセルをコレクションに追加します。 |
+| [Add](../../aspose.slides.charts/chartcellcollection/add#add)(IChartDataCell) | コレクションに新しいセルを追加します。 |
 | [Add](../../aspose.slides.charts/chartcellcollection/add#add_1)(object) | 指定された値から [`ChartDataCell`](../chartdatacell) を作成し、コレクションに追加します。 |
-| [GetCellsAddress](../../aspose.slides.charts/chartcellcollection/getcellsaddress)() | ワークブック内のセル集合のアドレスを返します。 |
-| [GetConcatenatedValuesFromCells](../../aspose.slides.charts/chartcellcollection/getconcatenatedvaluesfromcells)() | すべてのセルの文字列値を連結した文字列を返します。 |
+| [GetCellsAddress](../../aspose.slides.charts/chartcellcollection/getcellsaddress)() | ワークブック内のセルセットのアドレスを返します。 |
+| [GetConcatenatedValuesFromCells](../../aspose.slides.charts/chartcellcollection/getconcatenatedvaluesfromcells)() | すべてのセルの文字列値を連結した文字列です。 |
 | [GetEnumerator](../../aspose.slides.charts/chartcellcollection/getenumerator)() | コレクションを反復処理する列挙子を返します。 |
 | [RemoveAt](../../aspose.slides.charts/chartcellcollection/removeat)(int) | インデックスでコレクションからセルを削除します。 |
 

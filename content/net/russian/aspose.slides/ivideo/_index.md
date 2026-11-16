@@ -1,9 +1,9 @@
 ---
 title: IVideo
-second_title: Aspose.Sildes для .NET справочник API
+second_title: Aspose.Sildes для .NET: справочник API
 description: Представляет видео, встроенное в презентацию.
 type: docs
-weight: 7360
+weight: 7380
 url: /ru/aspose.slides/ivideo/
 ---
 ## IVideo интерфейс
@@ -18,7 +18,7 @@ public interface IVideo
 
 | Имя | Описание |
 | --- | --- |
-| [BinaryData](../../aspose.slides/ivideo/binarydata) { get; } | Возвращает копию данных аудио. При большом объёме данных рекомендуется использовать метод [`GetStream`](./getstream) для предотвращения ненужной загрузки данных видео в память или даже исключения OutOfMemoryException. Только для чтения Byte[]. |
+| [BinaryData](../../aspose.slides/ivideo/binarydata) { get; } | Возвращает копию данных аудио. В случае большого объёма данных рекомендуется использовать метод [`GetStream`](./getstream), чтобы предотвратить ненужную загрузку данных видео в память или даже OutOfMemoryException. Только для чтения Byte[]. |
 | [ContentType](../../aspose.slides/ivideo/contenttype) { get; } | Возвращает MIME-тип видео, закодированный в [`BinaryData`](./binarydata). Только для чтения String. |
 
 ## Методы

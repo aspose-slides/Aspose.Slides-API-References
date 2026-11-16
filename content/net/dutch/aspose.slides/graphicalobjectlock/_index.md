@@ -3,7 +3,7 @@ title: GraphicalObjectLock
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Bepaalt welke bewerkingen zijn uitgeschakeld op het bovenliggende GraphicalObject.
 type: docs
-weight: 5080
+weight: 5100
 url: /nl/aspose.slides/graphicalobjectlock/
 ---
 ## GraphicalObjectLock klasse
@@ -18,13 +18,13 @@ public class GraphicalObjectLock : BaseShapeLock, IGraphicalObjectLock
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AspectRatioLocked](../../aspose.slides/graphicalobjectlock/aspectratiolocked) { get; set; } | Bepaalt of de vorm de beeldverhouding moet behouden bij het schalen. Lezen/Schrijven Boolean. |
-| [DrilldownLocked](../../aspose.slides/graphicalobjectlock/drilldownlocked) { get; set; } | Bepaalt of het selecteren van subvormen van dit object verboden is. Lezen/Schrijven Boolean. |
-| [GroupingLocked](../../aspose.slides/graphicalobjectlock/groupinglocked) { get; set; } | Bepaalt of het toevoegen van deze vorm aan een groep verboden is. Lezen/Schrijven Boolean. |
-| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Geeft true terug als alle vergrendelingsvlaggen zijn uitgeschakeld. Alleen-lezen Boolean. |
-| [PositionLocked](../../aspose.slides/graphicalobjectlock/positionlocked) { get; set; } | Bepaalt of het verplaatsen van deze vorm verboden is. Lezen/Schrijven Boolean. |
-| [SelectLocked](../../aspose.slides/graphicalobjectlock/selectlocked) { get; set; } | Bepaalt of het selecteren van deze vorm verboden is. Lezen/Schrijven Boolean. |
-| [SizeLocked](../../aspose.slides/graphicalobjectlock/sizelocked) { get; set; } | Bepaalt of het schalen van deze vorm verboden is. Lezen/Schrijven Boolean. |
+| [AspectRatioLocked](../../aspose.slides/graphicalobjectlock/aspectratiolocked) { get; set; } | Bepaalt of de vorm de beeldverhouding moet behouden bij het schalen. Lees-/schrijf Boolean. |
+| [DrilldownLocked](../../aspose.slides/graphicalobjectlock/drilldownlocked) { get; set; } | Bepaalt of het selecteren van subvormen van dit object verboden is. Lees-/schrijf Boolean. |
+| [GroupingLocked](../../aspose.slides/graphicalobjectlock/groupinglocked) { get; set; } | Bepaalt of het toevoegen van deze vorm aan een groep verboden is. Lees-/schrijf Boolean. |
+| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Geeft true terug als alle lock-flags uitgeschakeld zijn. Alleen-lezen Boolean. |
+| [PositionLocked](../../aspose.slides/graphicalobjectlock/positionlocked) { get; set; } | Bepaalt of het verplaatsen van deze vorm verboden is. Lees-/schrijf Boolean. |
+| [SelectLocked](../../aspose.slides/graphicalobjectlock/selectlocked) { get; set; } | Bepaalt of het selecteren van deze vorm verboden is. Lees-/schrijf Boolean. |
+| [SizeLocked](../../aspose.slides/graphicalobjectlock/sizelocked) { get; set; } | Bepaalt of het wijzigen van de grootte van deze vorm verboden is. Lees-/schrijf Boolean. |
 
 ### Zie ook
 

@@ -1,14 +1,14 @@
 ---
 title: IEffectStyleCollectionEffectiveData
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Oggetto immutabile che rappresenta una collezione di sola lettura di stili di effetto efficaci.
+second_title: Riferimento API di Aspose.Sildes per .NET
+description: Oggetto immutabile che rappresenta una collezione di sola lettura di stili di effetto effettivi.
 type: docs
-weight: 11190
+weight: 11210
 url: /it/aspose.slides.theme/ieffectstylecollectioneffectivedata/
 ---
 ## IEffectStyleCollectionEffectiveData interfaccia
 
-Oggetto immutabile che rappresenta una collezione di sola lettura di stili di effetto efficaci.
+Oggetto immutabile che rappresenta una collezione di sola lettura di stili di effetto effettivi.
 
 ```csharp
 public interface IEffectStyleCollectionEffectiveData : IGenericCollection<IEffectStyleEffectiveData>
@@ -18,11 +18,11 @@ public interface IEffectStyleCollectionEffectiveData : IGenericCollection<IEffec
 
 | Nome | Descrizione |
 | --- | --- |
-| [Item](../../aspose.slides.theme/ieffectstylecollectioneffectivedata/item) { get; } | Ottiene l'elemento all'indice specificato. Sola lettura [`IEffectStyleEffectiveData`](../ieffectstyleeffectivedata). |
+| [Item](../../aspose.slides.theme/ieffectstylecollectioneffectivedata/item) { get; } | Ottiene l'elemento all'indice specificato. Solo lettura [`IEffectStyleEffectiveData`](../ieffectstyleeffectivedata). |
 
 ### Osservazioni
 
-Questa interfaccia è utilizzata come parte di [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata).
+Questa interfaccia è usata come parte di [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata).
 
 ### Vedi anche
 

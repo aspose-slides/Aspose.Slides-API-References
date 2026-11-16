@@ -3,12 +3,12 @@ title: MathDelimiterShape
 second_title: Aspose.Sildes para .NET Referência da API
 description: A localização e o tamanho dos delimitadores em relação ao conteúdo dos operandos
 type: docs
-weight: 8670
+weight: 8690
 url: /pt/aspose.slides.mathtext/mathdelimitershape/
 ---
 ## MathDelimiterShape enumeração
 
-A localização e o tamanho dos delimitadores relativos ao conteúdo dos operandos
+O local e o tamanho dos delimitadores em relação ao conteúdo dos operandos
 
 ```csharp
 public enum MathDelimiterShape

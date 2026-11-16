@@ -1,9 +1,9 @@
 ---
 title: IControlCollection
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes .NET API Referansı
 description: ActiveX denetimlerinin bir koleksiyonu.
 type: docs
-weight: 5640
+weight: 5660
 url: /tr/aspose.slides/icontrolcollection/
 ---
 ## IControlCollection arayüz
@@ -18,7 +18,7 @@ public interface IControlCollection : IGenericCollection<IControl>
 
 | Ad | Açıklama |
 | --- | --- |
-| [Item](../../aspose.slides/icontrolcollection/item) { get; } | Belirtilen konumdaki bir denetimi döndürür. |
+| [Item](../../aspose.slides/icontrolcollection/item) { get; } | Belirtilen konumda bir denetim döndürür. |
 
 ## Yöntemler
 
@@ -29,7 +29,7 @@ public interface IControlCollection : IGenericCollection<IControl>
 | [Remove](../../aspose.slides/icontrolcollection/remove)(IControl) | Koleksiyondan bir ActiveX denetimini kaldırır. |
 | [RemoveAt](../../aspose.slides/icontrolcollection/removeat)(int) | Koleksiyonda belirtilen konumda saklanan bir ActiveX denetimini kaldırır. |
 
-### Ayrıca bakınız
+### See Also
 
 * arayüz [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * arayüz [IControl](../icontrol)

@@ -1,34 +1,34 @@
 ---
 title: NotesCommentsLayoutingOptions
-second_title: Aspose.Sildes for .NET API リファレンス
-description: エクスポートされたドキュメントのノートとコメントのレイアウトの外観を制御するオプションを提供します。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: エクスポートされたドキュメントにおけるノートとコメントのレイアウト表示を制御するオプションを提供します。
 type: docs
-weight: 4290
+weight: 4310
 url: /ja/aspose.slides.export/notescommentslayoutingoptions/
 ---
 ## NotesCommentsLayoutingOptions クラス
 
-エクスポートされたドキュメントのノートとコメントのレイアウトの外観を制御するオプションを提供します。
+エクスポートされたドキュメントのノートとコメントのレイアウト表示を制御するオプションを提供します。
 
 ```csharp
 public class NotesCommentsLayoutingOptions : ISlidesLayoutOptions
 ```
 
-## コンストラクタ
+## コンストラクター
 
 | 名前 | 説明 |
 | --- | --- |
-| [NotesCommentsLayoutingOptions](notescommentslayoutingoptions)() | デフォルトコンストラクタ。 |
+| [NotesCommentsLayoutingOptions](notescommentslayoutingoptions)() | デフォルトコンストラクター。 |
 
 ## プロパティ
 
 | 名前 | 説明 |
 | --- | --- |
-| [CommentsAreaColor](../../aspose.slides.export/notescommentslayoutingoptions/commentsareacolor) { get; set; } | コメント領域の色を取得または設定します（コメントが右側に表示されている場合にのみ適用されます）。 |
-| [CommentsAreaWidth](../../aspose.slides.export/notescommentslayoutingoptions/commentsareawidth) { get; set; } | コメント出力領域の幅（ピクセル単位）を取得または設定します（コメントが右側に表示されている場合にのみ適用されます）。 |
+| [CommentsAreaColor](../../aspose.slides.export/notescommentslayoutingoptions/commentsareacolor) { get; set; } | コメント領域の色を取得または設定します（コメントが右側に表示されている場合のみ適用されます）。 |
+| [CommentsAreaWidth](../../aspose.slides.export/notescommentslayoutingoptions/commentsareawidth) { get; set; } | コメント出力領域の幅（ピクセル単位）を取得または設定します（コメントが右側に表示されている場合のみ適用されます）。 |
 | [CommentsPosition](../../aspose.slides.export/notescommentslayoutingoptions/commentsposition) { get; set; } | ページ上のコメントの位置を取得または設定します。 |
 | [NotesPosition](../../aspose.slides.export/notescommentslayoutingoptions/notesposition) { get; set; } | ページ上のノートの位置を取得または設定します。 |
-| [ShowCommentsByNoAuthor](../../aspose.slides.export/notescommentslayoutingoptions/showcommentsbynoauthor) { get; set; } | 著者が設定されていないコメントの表示可否を取得または設定します。true の場合、コメントが表示されます（コメントが表示されている場合にのみ適用されます）。 |
+| [ShowCommentsByNoAuthor](../../aspose.slides.export/notescommentslayoutingoptions/showcommentsbynoauthor) { get; set; } | 作者のないコメントの可視性を取得または設定します。true の場合、コメントが表示されます（コメントが表示されている場合のみ適用されます）。 |
 
 ### 参照
 

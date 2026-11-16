@@ -1,14 +1,14 @@
 ---
 title: NotesCommentsLayoutingOptions
-second_title: Referência da API Aspose.Sildes para .NET
-description: Fornece opções que controlam a aparência do layout de notas e comentários no documento exportado.
+second_title: Aspose.Sildes para .NET Referência da API
+description: Fornece opções que controlam a aparência da disposição de notas e comentários no documento exportado.
 type: docs
-weight: 4290
+weight: 4310
 url: /pt/aspose.slides.export/notescommentslayoutingoptions/
 ---
 ## NotesCommentsLayoutingOptions classe
 
-Fornece opções que controlam a aparência do layout de notas e comentários no documento exportado.
+Fornece opções que controlam a aparência da disposição de notas e comentários no documento exportado.
 
 ```csharp
 public class NotesCommentsLayoutingOptions : ISlidesLayoutOptions
@@ -24,11 +24,11 @@ public class NotesCommentsLayoutingOptions : ISlidesLayoutOptions
 
 | Nome | Descrição |
 | --- | --- |
-| [CommentsAreaColor](../../aspose.slides.export/notescommentslayoutingoptions/commentsareacolor) { get; set; } | Obtém ou define a cor da área de comentários (aplicável somente se os comentários forem exibidos à direita). |
-| [CommentsAreaWidth](../../aspose.slides.export/notescommentslayoutingoptions/commentsareawidth) { get; set; } | Obtém ou define a largura da área de saída de comentários em pixels (aplicável somente se os comentários forem exibidos à direita). |
+| [CommentsAreaColor](../../aspose.slides.export/notescommentslayoutingoptions/commentsareacolor) { get; set; } | Obtém ou define a cor da área de comentários (Aplica-se apenas se os comentários forem exibidos à direita). |
+| [CommentsAreaWidth](../../aspose.slides.export/notescommentslayoutingoptions/commentsareawidth) { get; set; } | Obtém ou define a largura da área de saída de comentários em pixels (Aplica-se apenas se os comentários forem exibidos à direita). |
 | [CommentsPosition](../../aspose.slides.export/notescommentslayoutingoptions/commentsposition) { get; set; } | Obtém ou define a posição dos comentários na página. |
 | [NotesPosition](../../aspose.slides.export/notescommentslayoutingoptions/notesposition) { get; set; } | Obtém ou define a posição das notas na página. |
-| [ShowCommentsByNoAuthor](../../aspose.slides.export/notescommentslayoutingoptions/showcommentsbynoauthor) { get; set; } | Obtém ou define a visibilidade dos comentários que não têm autor. Se verdadeiro, os comentários serão exibidos. (aplicável somente se os comentários forem exibidos). |
+| [ShowCommentsByNoAuthor](../../aspose.slides.export/notescommentslayoutingoptions/showcommentsbynoauthor) { get; set; } | Obtém ou define a visibilidade dos comentários que não têm autor. Se verdadeiro, os comentários serão exibidos. (Aplica-se apenas se os comentários forem exibidos). |
 
 ### Veja Também
 

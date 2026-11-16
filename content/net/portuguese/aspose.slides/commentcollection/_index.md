@@ -1,12 +1,12 @@
 ---
 title: CommentCollection
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Aspose.Sildes para .NET – Referência da API
 description: Representa uma coleção de comentários de um autor.
 type: docs
-weight: 2650
+weight: 2670
 url: /pt/aspose.slides/commentcollection/
 ---
-## CommentCollection class
+## CommentCollection classe
 
 Representa uma coleção de comentários de um autor.
 
@@ -19,20 +19,20 @@ public sealed class CommentCollection : DomObject<CommentAuthor>, ICommentCollec
 | Nome | Descrição |
 | --- | --- |
 | [Count](../../aspose.slides/commentcollection/count) { get; } | Obtém o número de elementos realmente contidos na coleção. Somente leitura Int32. |
-| [IsSynchronized](../../aspose.slides/commentcollection/issynchronized) { get; } | Retorna um valor indicando se o acesso à coleção é sincronizado (thread-safe). Somente leitura Boolean. |
+| [IsSynchronized](../../aspose.slides/commentcollection/issynchronized) { get; } | Retorna um valor que indica se o acesso à coleção está sincronizado (thread-safe). Somente leitura Boolean. |
 | [Item](../../aspose.slides/commentcollection/item) { get; } | Obtém o elemento no índice especificado. Somente leitura [`Comment`](../comment). |
-| [SyncRoot](../../aspose.slides/commentcollection/syncroot) { get; } | Retorna a raiz de sincronização. Somente leitura Object. |
+| [SyncRoot](../../aspose.slides/commentcollection/syncroot) { get; } | Retorna uma raiz de sincronização. Somente leitura Object. |
 
 ## Métodos
 
 | Nome | Descrição |
 | --- | --- |
-| [AddComment](../../aspose.slides/commentcollection/addcomment)(string, ISlide, PointF, DateTime) | Adiciona um novo comentário ao final de uma coleção. |
-| [AddModernComment](../../aspose.slides/commentcollection/addmoderncomment)(string, ISlide, IShape, PointF, DateTime) | Adiciona um novo comentário moderno ao final de uma coleção. |
+| [AddComment](../../aspose.slides/commentcollection/addcomment)(string, ISlide, PointF, DateTime) | Adiciona um novo comentário no final de uma coleção. |
+| [AddModernComment](../../aspose.slides/commentcollection/addmoderncomment)(string, ISlide, IShape, PointF, DateTime) | Adiciona um novo comentário moderno no final de uma coleção. |
 | [Clear](../../aspose.slides/commentcollection/clear)() | Remove todos os comentários de uma coleção. |
 | [CopyTo](../../aspose.slides/commentcollection/copyto)(Array, int) | Copia todos os elementos da coleção para o array especificado. |
 | [FindCommentByIdx](../../aspose.slides/commentcollection/findcommentbyidx)(int) | Encontra um comentário na coleção pelo índice. |
-| [GetEnumerator](../../aspose.slides/commentcollection/getenumerator)() | Retorna um enumerador que itera pela coleção. |
+| [GetEnumerator](../../aspose.slides/commentcollection/getenumerator)() | Retorna um enumerador que itera através da coleção. |
 | [InsertComment](../../aspose.slides/commentcollection/insertcomment)(int, string, ISlide, PointF, DateTime) | Insere um novo comentário em uma coleção no índice especificado. |
 | [InsertModernComment](../../aspose.slides/commentcollection/insertmoderncomment)(int, string, ISlide, IShape, PointF, DateTime) | Insere um novo comentário moderno em uma coleção no índice especificado. |
 | [Remove](../../aspose.slides/commentcollection/remove)(IComment) | Remove a primeira ocorrência do comentário especificado em uma coleção. |

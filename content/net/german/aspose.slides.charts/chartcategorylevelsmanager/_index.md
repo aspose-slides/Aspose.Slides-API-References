@@ -1,14 +1,14 @@
 ---
 title: ChartCategoryLevelsManager
 second_title: Aspose.Sildes für .NET API Referenz
-description: Verwalteter Container der Werte der Diagrammkategorienebenen.
+description: Verwalteter Container der Werte der Diagrammkategorieebenen.
 type: docs
-weight: 1290
+weight: 1300
 url: /de/aspose.slides.charts/chartcategorylevelsmanager/
 ---
 ## ChartCategoryLevelsManager Klasse
 
-Verwalteter Container der Werte der Diagrammkategorienebenen.
+Verwalteter Container der Werte der Diagrammkategorieebenen.
 
 ```csharp
 public class ChartCategoryLevelsManager : IChartCategoryLevelsManager
@@ -18,7 +18,7 @@ public class ChartCategoryLevelsManager : IChartCategoryLevelsManager
 
 | Name | Beschreibung |
 | --- | --- |
-| [Item](../../aspose.slides.charts/chartcategorylevelsmanager/item) { get; } | Gibt ein IChartDataCell-Objekt für die definierte Ebene zurück. |
+| [Item](../../aspose.slides.charts/chartcategorylevelsmanager/item) { get; } | Gibt das IChartDataCell-Objekt für die definierte Ebene zurück. |
 
 ## Methoden
 
@@ -27,7 +27,7 @@ public class ChartCategoryLevelsManager : IChartCategoryLevelsManager
 | [DeleteGroupingItem](../../aspose.slides.charts/chartcategorylevelsmanager/deletegroupingitem)(int) | Löscht das Gruppierungselement für die definierte Ebene. |
 | [SetGroupingItem](../../aspose.slides.charts/chartcategorylevelsmanager/setgroupingitem)(int, object) | Setzt das Gruppierungselement für die definierte Ebene. |
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IChartCategoryLevelsManager](../ichartcategorylevelsmanager)
 * Namensraum [Aspose.Slides.Charts](../../aspose.slides.charts)

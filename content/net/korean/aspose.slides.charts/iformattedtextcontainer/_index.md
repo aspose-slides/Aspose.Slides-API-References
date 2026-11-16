@@ -1,9 +1,9 @@
 ---
 title: IFormattedTextContainer
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 차트 텍스트 형식을 나타냅니다.
 type: docs
-weight: 2110
+weight: 2130
 url: /ko/aspose.slides.charts/iformattedtextcontainer/
 ---
 ## IFormattedTextContainer 인터페이스
@@ -21,7 +21,7 @@ public interface IFormattedTextContainer : IChartComponent
 | [AsIChartComponent](../../aspose.slides.charts/iformattedtextcontainer/asichartcomponent) { get; } | IChartComponent 인터페이스를 반환합니다. 읽기 전용 [`IChartComponent`](../ichartcomponent). |
 | [TextFormat](../../aspose.slides.charts/iformattedtextcontainer/textformat) { get; } | 차트 텍스트 형식을 반환합니다. 읽기 전용 [`IChartTextFormat`](../icharttextformat). |
 
-### 참고
+### 참조
 
 * 인터페이스 [IChartComponent](../ichartcomponent)
 * 네임스페이스 [Aspose.Slides.Charts](../../aspose.slides.charts)

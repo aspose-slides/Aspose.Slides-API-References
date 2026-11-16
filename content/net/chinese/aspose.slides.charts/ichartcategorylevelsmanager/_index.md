@@ -1,14 +1,14 @@
 ---
 title: IChartCategoryLevelsManager
 second_title: Aspose.Sildes for .NET API 参考
-description: 托管的图表类别级别值容器。
+description: 图表类别级别值的托管容器。
 type: docs
-weight: 1770
+weight: 1790
 url: /zh/aspose.slides.charts/ichartcategorylevelsmanager/
 ---
 ## IChartCategoryLevelsManager 接口
 
-托管的图表类别级别的值容器。
+Managed container of the values of the chart category levels.
 
 ```csharp
 public interface IChartCategoryLevelsManager
@@ -18,14 +18,14 @@ public interface IChartCategoryLevelsManager
 
 | 名称 | 描述 |
 | --- | --- |
-| [Item](../../aspose.slides.charts/ichartcategorylevelsmanager/item) { get; } | 返回已定义级别的 IChartDataCell 对象。 |
+| [Item](../../aspose.slides.charts/ichartcategorylevelsmanager/item) { get; } | 返回 为指定级别定义的 IChartDataCell 对象。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [DeleteGroupingItem](../../aspose.slides.charts/ichartcategorylevelsmanager/deletegroupingitem)(int) | 删除已定义级别的分组项。 |
-| [SetGroupingItem](../../aspose.slides.charts/ichartcategorylevelsmanager/setgroupingitem)(int, object) | 设置已定义级别的分组项。 |
+| [DeleteGroupingItem](../../aspose.slides.charts/ichartcategorylevelsmanager/deletegroupingitem)(int) | 删除 为指定级别定义的 分组项。 |
+| [SetGroupingItem](../../aspose.slides.charts/ichartcategorylevelsmanager/setgroupingitem)(int, object) | 设置 为指定级别定义的 分组项。 |
 
 ### 另见
 

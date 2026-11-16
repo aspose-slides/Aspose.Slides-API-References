@@ -3,7 +3,7 @@ title: SlidesRange
 second_title: Aspose.Sildes için .NET API Referansı
 description: Slayt aralığı
 type: docs
-weight: 10530
+weight: 10550
 url: /tr/aspose.slides/slidesrange/
 ---
 ## SlidesRange sınıfı
@@ -27,7 +27,7 @@ public class SlidesRange
 | [End](../../aspose.slides/slidesrange/end) { get; set; } | Bitiş |
 | [Start](../../aspose.slides/slidesrange/start) { get; set; } | Başlangıç |
 
-### Ayrıca Bakınız
+### Ayrıca
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

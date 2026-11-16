@@ -1,9 +1,9 @@
 ---
 title: IMathParagraphFactory
-second_title: Référence de l'API Aspose.Sildes pour .NET
+second_title: Référence API Aspose.Sildes pour .NET
 description: Permet de créer un paragraphe mathématique
 type: docs
-weight: 8400
+weight: 8420
 url: /fr/aspose.slides.mathtext/imathparagraphfactory/
 ---
 ## IMathParagraphFactory interface
@@ -19,7 +19,7 @@ public interface IMathParagraphFactory
 | Nom | Description |
 | --- | --- |
 | [CreateMathParagraph](../../aspose.slides.mathtext/imathparagraphfactory/createmathparagraph#createmathparagraph)() | Créer un paragraphe mathématique vide |
-| [CreateMathParagraph](../../aspose.slides.mathtext/imathparagraphfactory/createmathparagraph#createmathparagraph_1)(IMathBlock) | Crée un paragraphe mathématique et y place le bloc mathématique spécifié |
+| [CreateMathParagraph](../../aspose.slides.mathtext/imathparagraphfactory/createmathparagraph#createmathparagraph_1)(IMathBlock) | Crée un paragraphe mathématique et place le bloc mathématique spécifié dedans |
 
 ### Remarques
 

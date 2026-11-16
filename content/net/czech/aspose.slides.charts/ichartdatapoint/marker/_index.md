@@ -1,14 +1,14 @@
 ---
 title: Marker
-second_title: Aspose.Sildes pro .NET API referenci
-description: Určuje datovou značku. Pouze ke čtení IMarkeraspose.slides.charts/imarker.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Určuje datový marker. Pouze ke čtení IMarkeraspose.slides.charts/imarker.
 type: docs
-weight: 120
+weight: 160
 url: /cs/aspose.slides.charts/ichartdatapoint/marker/
 ---
 ## IChartDataPoint.Marker vlastnost
 
-Určuje datovou značku. Pouze ke čtení [`IMarker`](../../imarker).
+Určuje datový marker. Pouze ke čtení [`IMarker`](../../imarker).
 
 ```csharp
 public IMarker Marker { get; }

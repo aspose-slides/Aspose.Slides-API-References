@@ -1,14 +1,14 @@
 ---
 title: IOleObjectFrame
-second_title: Aspose.Sildes для .NET — справочник API
+second_title: Aspose.Sildes для .NET API справочник
 description: Представляет объект OLE на слайде.
 type: docs
-weight: 6540
+weight: 6560
 url: /ru/aspose.slides/ioleobjectframe/
 ---
 ## IOleObjectFrame интерфейс
 
-Represents an OLE object on a slide.
+Представляет объект OLE на слайде.
 
 ```csharp
 public interface IOleObjectFrame : IGraphicalObject
@@ -19,19 +19,19 @@ public interface IOleObjectFrame : IGraphicalObject
 | Имя | Описание |
 | --- | --- |
 | [AsIGraphicalObject](../../aspose.slides/ioleobjectframe/asigraphicalobject) { get; } | Позволяет получить базовый интерфейс IGraphicalObject. Только для чтения [`IGraphicalObject`](../igraphicalobject). |
-| [EmbeddedData](../../aspose.slides/ioleobjectframe/embeddeddata) { get; } | Получает информацию о встроенных данных OLE. Только для чтения [`IOleEmbeddedDataInfo`](../ioleembeddeddatainfo). |
-| [EmbeddedFileLabel](../../aspose.slides/ioleobjectframe/embeddedfilelabel) { get; } | Возвращает имя файла встроенного OLE-объекта |
-| [EmbeddedFileName](../../aspose.slides/ioleobjectframe/embeddedfilename) { get; } | Возвращает путь к встроенному OLE-объекту |
+| [EmbeddedData](../../aspose.slides/ioleobjectframe/embeddeddata) { get; } | Получает информацию об встроенных данных OLE. Только для чтения [`IOleEmbeddedDataInfo`](../ioleembeddeddatainfo). |
+| [EmbeddedFileLabel](../../aspose.slides/ioleobjectframe/embeddedfilelabel) { get; } | Возвращает имя файла встроенного объекта OLE |
+| [EmbeddedFileName](../../aspose.slides/ioleobjectframe/embeddedfilename) { get; } | Возвращает путь к встроенному объекту OLE |
 | [IsObjectIcon](../../aspose.slides/ioleobjectframe/isobjecticon) { get; set; } | Определяет, отображается ли объект как значок. Чтение/запись Boolean. |
 | [IsObjectLink](../../aspose.slides/ioleobjectframe/isobjectlink) { get; } | Определяет, связан ли объект с внешним файлом. Только для чтения Boolean. |
 | [LinkFileName](../../aspose.slides/ioleobjectframe/linkfilename) { get; } | Возвращает полный путь к связанному файлу. Будет использовано короткое имя файла. Только для чтения String. |
-| [LinkPathLong](../../aspose.slides/ioleobjectframe/linkpathlong) { get; set; } | Возвращает полный путь к связанному файлу. Будет использовано полное имя файла. Чтение/запись String. |
-| [LinkPathRelative](../../aspose.slides/ioleobjectframe/linkpathrelative) { get; } | Возвращает относительный путь к связанному файлу, если он существует, иначе возвращает пустую строку. Только для чтения String. |
+| [LinkPathLong](../../aspose.slides/ioleobjectframe/linkpathlong) { get; set; } | Возвращает полный путь к связанному файлу. Будет использовано длинное имя файла. Чтение/запись String. |
+| [LinkPathRelative](../../aspose.slides/ioleobjectframe/linkpathrelative) { get; } | Возвращает относительный путь к связанному файлу, если он присутствует, иначе возвращает пустую строку. Только для чтения String. |
 | [ObjectName](../../aspose.slides/ioleobjectframe/objectname) { get; set; } | Возвращает или задает имя объекта. Чтение/запись String. |
 | [ObjectProgId](../../aspose.slides/ioleobjectframe/objectprogid) { get; set; } | Возвращает ProgID объекта. Только для чтения String. |
 | [SubstitutePictureFormat](../../aspose.slides/ioleobjectframe/substitutepictureformat) { get; } | Возвращает объект свойств заливки изображения OleObject. Только для чтения [`IPictureFillFormat`](../ipicturefillformat). |
 | [SubstitutePictureTitle](../../aspose.slides/ioleobjectframe/substitutepicturetitle) { get; set; } | Возвращает или задает заголовок значка OleObject. Чтение/запись String. |
-| [UpdateAutomatic](../../aspose.slides/ioleobjectframe/updateautomatic) { get; set; } | Определяет, будет ли связанный встроенный объект автоматически обновляться при открытии или печати презентации. Чтение/запись Boolean. |
+| [UpdateAutomatic](../../aspose.slides/ioleobjectframe/updateautomatic) { get; set; } | Определяет, обновляется ли связанный встроенный объект автоматически при открытии или печати презентации. Чтение/запись Boolean. |
 
 ## Методы
 

@@ -1,14 +1,14 @@
 ---
 title: OleEmbeddedDataInfo
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar information om inbäddad data för OLE-objekt.
+description: Representerar inbäddad datainformation för OLE-objekt.
 type: docs
-weight: 2760
+weight: 2780
 url: /sv/aspose.slides.dom.ole/oleembeddeddatainfo/
 ---
 ## OleEmbeddedDataInfo klass
 
-Representerar information om inbäddad data för OLE-objekt.
+Representerar inbäddad datainformation för ett OLE-objekt.
 
 ```csharp
 public class OleEmbeddedDataInfo : IOleEmbeddedDataInfo
@@ -18,17 +18,17 @@ public class OleEmbeddedDataInfo : IOleEmbeddedDataInfo
 
 | Namn | Beskrivning |
 | --- | --- |
-| [OleEmbeddedDataInfo](oleembeddeddatainfo#constructor)() | Skapar ny inbäddad data information för OLE-objekt. |
-| [OleEmbeddedDataInfo](oleembeddeddatainfo#constructor_1)(byte[], string) | Skapar en ny instans av en inbäddad data information för OLE-objekt. Fildata för ett inbäddat OLE-objekt Byte[]. Filändelse för det aktuella inbäddade OLE-objektet String. |
+| [OleEmbeddedDataInfo](oleembeddeddatainfo#constructor)() | Skapar ny inbäddad datainformation för OLE-objekt. |
+| [OleEmbeddedDataInfo](oleembeddeddatainfo#constructor_1)(byte[], string) | Skapar en ny instans av en inbäddad datainformation för OLE-objekt. Fildata för ett inbäddat OLE-objekt Byte[].Filnamnstyp för det aktuella inbäddade OLE-objektet String. |
 
 ## Egenskaper
 
 | Namn | Beskrivning |
 | --- | --- |
-| [EmbeddedFileData](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfiledata) { get; } | Returnerar fildata för ett inbäddat OLE-objekt. Skrivskyddad Byte[]. |
-| [EmbeddedFileExtension](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfileextension) { get; } | Returnerar filändelsen för det aktuella inbäddade OLE-objektet. Skrivskyddad String. |
+| [EmbeddedFileData](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfiledata) { get; } | Returnerar fildata för ett inbäddat OLE-objekt Endast läs Byte[]. |
+| [EmbeddedFileExtension](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfileextension) { get; } | Returnerar filnamnstyp för det aktuella inbäddade OLE-objektet Endast läs String. |
 
-### Se även
+### Se också
 
 * gränssnitt [IOleEmbeddedDataInfo](../../aspose.slides/ioleembeddeddatainfo)
 * namnrymd [Aspose.Slides.DOM.Ole](../../aspose.slides.dom.ole)

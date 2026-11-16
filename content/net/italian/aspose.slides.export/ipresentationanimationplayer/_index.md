@@ -3,7 +3,7 @@ title: IPresentationAnimationPlayer
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta un lettore dell'animazione.  Animazioni generate da PresentationAnimationsGenerator./presentationanimationsgenerator tramite il suo evento NewAnimation./presentationanimationsgenerator/newanimation.
 type: docs
-weight: 4030
+weight: 4050
 url: /it/aspose.slides.export/ipresentationanimationplayer/
 ---
 ## IPresentationAnimationPlayer interfaccia
@@ -24,7 +24,7 @@ public interface IPresentationAnimationPlayer
 
 | Nome | Descrizione |
 | --- | --- |
-| [GetFrame](../../aspose.slides.export/ipresentationanimationplayer/getframe)() | Ottieni il fotogramma per la posizione temporale corrente precedentemente impostata con il metodo [`SetTimePosition`](./settimeposition). |
+| [GetFrame](../../aspose.slides.export/ipresentationanimationplayer/getframe)() | Ottieni il fotogramma per la posizione temporale corrente impostata precedentemente con il metodo [`SetTimePosition`](./settimeposition). |
 | [SetTimePosition](../../aspose.slides.export/ipresentationanimationplayer/settimeposition)(double) | Imposta la posizione temporale dell'animazione all'interno del [`Duration`](./duration). |
 
 ### Esempi

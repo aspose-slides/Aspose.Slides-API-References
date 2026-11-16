@@ -1,14 +1,14 @@
 ---
 title: IMasterSlideCollection
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili kumpulan master slide.
+description: Mewakili kumpulan slide master.
 type: docs
-weight: 6430
+weight: 6450
 url: /id/aspose.slides/imasterslidecollection/
 ---
 ## IMasterSlideCollection antarmuka
 
-Mewakili kumpulan master slide.
+Mewakili kumpulan slide master.
 
 ```csharp
 public interface IMasterSlideCollection : IGenericCollection<IMasterSlide>
@@ -16,19 +16,19 @@ public interface IMasterSlideCollection : IGenericCollection<IMasterSlide>
 
 ## Properti
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
 | [Item](../../aspose.slides/imasterslidecollection/item) { get; } | Mendapatkan elemen pada indeks yang ditentukan. Hanya-baca [`IMasterSlide`](../imasterslide). |
 
 ## Metode
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
-| [AddClone](../../aspose.slides/imasterslidecollection/addclone)(IMasterSlide) | Menambahkan salinan master slide tertentu ke akhir koleksi. Slide tata letak yang ditautkan juga akan disalin. |
-| [InsertClone](../../aspose.slides/imasterslidecollection/insertclone)(int, IMasterSlide) | Menyisipkan salinan master slide tertentu ke posisi yang ditentukan dalam koleksi. Slide tata letak yang ditautkan juga akan disalin. |
+| [AddClone](../../aspose.slides/imasterslidecollection/addclone)(IMasterSlide) | Menambahkan salinan slide master tertentu ke akhir koleksi. Slide tata letak yang terhubung juga akan disalin. |
+| [InsertClone](../../aspose.slides/imasterslidecollection/insertclone)(int, IMasterSlide) | Menyisipkan salinan slide master tertentu ke posisi yang ditentukan dalam koleksi. Slide tata letak yang terhubung juga akan disalin. |
 | [Remove](../../aspose.slides/imasterslidecollection/remove)(IMasterSlide) | Menghapus kemunculan pertama objek tertentu dari koleksi. |
 | [RemoveAt](../../aspose.slides/imasterslidecollection/removeat)(int) | Menghapus elemen pada indeks yang ditentukan dalam koleksi. |
-| [RemoveUnused](../../aspose.slides/imasterslidecollection/removeunused)(bool) | Menghapus master slide yang tidak terpakai. |
+| [RemoveUnused](../../aspose.slides/imasterslidecollection/removeunused)(bool) | Menghapus slide master yang tidak terpakai. |
 
 ### Lihat Juga
 

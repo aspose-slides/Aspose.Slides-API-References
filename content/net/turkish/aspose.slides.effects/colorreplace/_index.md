@@ -1,14 +1,12 @@
 ---
 title: ColorReplace
-second_title: Aspose.Slides için .NET API Referansı
-description: Bir Renk Değiştirme etkisini temsil eder. Tüm etki renkleri sabit bir renge değiştirilir. Alfa değerleri etkilenmez.
+second_title: Aspose.Sildes .NET API Referansı
+description: Bir Renk Değiştirme etkisini temsil eder. Tüm etki renkleri sabit bir renkle değiştirilir. Alfa değerleri etkilenmez.
 type: docs
-weight: 2950
+weight: 2970
 url: /tr/aspose.slides.effects/colorreplace/
 ---
-## ColorReplace sınıf
-
-Bir Renk Değiştirme etkisini temsil eder. Tüm etki renkleri sabit bir renge değiştirilir. Alfa değerleri etkilenmez.
+## ColorReplace sınıfı
 
 ```csharp
 public sealed class ColorReplace : ImageTransformOperation, IColorReplace
@@ -16,23 +14,23 @@ public sealed class ColorReplace : ImageTransformOperation, IColorReplace
 
 ## Özellikler
 
-| İsim | Açıklama |
+| Ad | Açıklama |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arabirimine erişim sağlar. Salt okunur [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
-| [Color](../../aspose.slides.effects/colorreplace/color) { get; } | Her pikselin rengini değiştirecek renk biçimini döndürür. Salt okunur [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arabirimine erişim sağlar. Salt-okunur [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [Color](../../aspose.slides.effects/colorreplace/color) { get; } | Her pikselin rengini değiştirecek renk biçimini döndürür. Salt-okunur [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ## Yöntemler
 
-| İsim | Açıklama |
+| Ad | Açıklama |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/colorreplace/equals)(object) | Belirtilen [`ColorReplace`](../colorreplace)'nin geçerli [`ColorReplace`](../colorreplace) ile eşit olup olmadığını belirler. |
-| [GetEffective](../../aspose.slides.effects/colorreplace/geteffective)() | Kalıtım uygulanmış etkili Renk Değiştirme etkisi verilerini alır. |
-| override [GetHashCode](../../aspose.slides.effects/colorreplace/gethashcode)() | Belirli bir tür için karma fonksiyonu olarak hizmet eder. |
+| override [Equals](../../aspose.slides.effects/colorreplace/equals)(object) | Belirtilen [`ColorReplace`](../colorreplace)'nin mevcut [`ColorReplace`](../colorreplace)'ye eşit olup olmadığını belirler. |
+| [GetEffective](../../aspose.slides.effects/colorreplace/geteffective)() | Miras uygulanmış etkili Color Replacement efekt verilerini alır. |
+| override [GetHashCode](../../aspose.slides.effects/colorreplace/gethashcode)() | Belirli bir tip için hash fonksiyonu görevi görür. |
 
 ### Ayrıca Bakınız
 
 * sınıf [ImageTransformOperation](../imagetransformoperation)
-* arayüz [IColorReplace](../icolorreplace)
+* arabirim [IColorReplace](../icolorreplace)
 * ad alanı [Aspose.Slides.Effects](../../aspose.slides.effects)
 * derleme [Aspose.Slides](../../)
 

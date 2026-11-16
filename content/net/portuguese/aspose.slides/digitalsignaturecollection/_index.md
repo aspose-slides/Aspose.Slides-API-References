@@ -1,9 +1,9 @@
 ---
 title: DigitalSignatureCollection
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Representa uma coleção de assinaturas digitais anexadas a um documento.
 type: docs
-weight: 2780
+weight: 2800
 url: /pt/aspose.slides/digitalsignaturecollection/
 ---
 ## DigitalSignatureCollection classe
@@ -16,21 +16,21 @@ public class DigitalSignatureCollection : DomObject<Presentation>, IDigitalSigna
 
 ## Propriedades
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
 | [Count](../../aspose.slides/digitalsignaturecollection/count) { get; } | Retorna o número de elementos na coleção. Somente leitura Int32. |
-| [IsSynchronized](../../aspose.slides/digitalsignaturecollection/issynchronized) { get; } | Retorna um valor indicando se o acesso à coleção está sincronizado (thread-safe). Somente leitura Boolean. |
+| [IsSynchronized](../../aspose.slides/digitalsignaturecollection/issynchronized) { get; } | Retorna um valor que indica se o acesso à coleção é sincronizado (thread-safe). Somente leitura Boolean. |
 | [Item](../../aspose.slides/digitalsignaturecollection/item) { get; } | Retorna a assinatura por índice. |
 | [SyncRoot](../../aspose.slides/digitalsignaturecollection/syncroot) { get; } | Retorna uma raiz de sincronização. Somente leitura Object. |
 
 ## Métodos
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
 | [Add](../../aspose.slides/digitalsignaturecollection/add)(IDigitalSignature) | Adiciona a assinatura ao final da coleção. |
 | [Clear](../../aspose.slides/digitalsignaturecollection/clear)() | Remove todas as assinaturas da coleção. |
 | [CopyTo](../../aspose.slides/digitalsignaturecollection/copyto)(Array, int) | Copia todos os elementos da coleção para a matriz especificada. |
-| [GetEnumerator](../../aspose.slides/digitalsignaturecollection/getenumerator)() | Retorna um enumerador que itera sobre a coleção. |
+| [GetEnumerator](../../aspose.slides/digitalsignaturecollection/getenumerator)() | Retorna um enumerador que itera pela coleção. |
 | [RemoveAt](../../aspose.slides/digitalsignaturecollection/removeat)(int) | Remove a assinatura no índice especificado. |
 
 ### Veja Também

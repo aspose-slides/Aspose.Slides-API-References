@@ -1,14 +1,14 @@
 ---
 title: PptxOptions
 second_title: Aspose.Sildes for .NET API 參考
-description: 表示用於儲存 OpenXml 簡報的選項，包括 PPTX、PPSX、POTX、PPTM、PPSM、POTM。
+description: 表示用於儲存 OpenXml 簡報 (PPTX、PPSX、POTX、PPTM、PPSM、POTM) 的選項。
 type: docs
-weight: 4370
+weight: 4390
 url: /zh-hant/aspose.slides.export/pptxoptions/
 ---
 ## PptxOptions 類別
 
-表示用於儲存 OpenXml 簡報的選項 (PPTX, PPSX, POTX, PPTM, PPSM, POTM)。
+表示用於儲存 OpenXml 簡報 (PPTX、PPSX、POTX、PPTM、PPSM、POTM) 的選項。
 
 ```csharp
 public sealed class PptxOptions : SaveOptions, IPptxOptions
@@ -16,22 +16,22 @@ public sealed class PptxOptions : SaveOptions, IPptxOptions
 
 ## 建構函式
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
-| [PptxOptions](pptxoptions)() | 建立 PptxOptions 的新執行個體 |
+| [PptxOptions](pptxoptions)() | 建立 PptxOptions 的新實例 |
 
 ## 屬性
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
 | [CompressionLevel](../../aspose.slides.export/pptxoptions/compressionlevel) { get; set; } | 指定儲存簡報文件時使用的壓縮等級。預設值為 Level6。 |
-| [Conformance](../../aspose.slides.export/pptxoptions/conformance) { get; set; } | 指定簡報文件符合的相容類別。預設值為 Ecma376_2006。 |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | 取得或設定在找不到原始字型時使用的字型。讀/寫 String。 |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | 取得或設定漸層的視覺樣式。讀/寫 [`GradientStyle`](../../aspose.slides/gradientstyle)。 |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 表示用於儲存過程中以百分比回報進度的回呼物件。請參閱 [`IProgressCallback`](../../aspose.slides/iprogresscallback)。 |
-| [RefreshThumbnail](../../aspose.slides.export/pptxoptions/refreshthumbnail) { get; set; } | 指定是否會重新整理簡報縮圖。讀/寫 Boolean。預設值為 **true**。 |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | 指定在儲存簡報時是否跳過包含 JavaScript 呼叫的超連結。讀/寫 Boolean。預設值為 **false**。 |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 取得或設定一個接收警告並決定載入過程是否繼續或中止的物件。讀/寫 [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)。 |
+| [Conformance](../../aspose.slides.export/pptxoptions/conformance) { get; set; } | 指定簡報文件符合的合規等級。預設值為 Ecma376_2006。 |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | 取得或設定當找不到來源字型時使用的字型。讀寫 String。 |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | 取得或設定漸層的視覺樣式。讀寫 [`GradientStyle`](../../aspose.slides/gradientstyle)。 |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 代表用於百分比儲存進度更新的回呼物件。請參閱 [`IProgressCallback`](../../aspose.slides/iprogresscallback)。 |
+| [RefreshThumbnail](../../aspose.slides.export/pptxoptions/refreshthumbnail) { get; set; } | 指定是否重新整理簡報縮圖。讀寫 Boolean。預設值為 **true**。 |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | 指定儲存簡報時是否跳過含有 JavaScript 呼叫的超連結。讀寫 Boolean。預設值為 **false**。 |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 取得或設定接收警告並決定載入過程是否繼續或中止的物件。讀寫 [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)。 |
 | [Zip64Mode](../../aspose.slides.export/pptxoptions/zip64mode) { get; set; } | 指定是否對簡報文件使用 ZIP64 格式。預設值為 IfNecessary。 |
 
 ### 另請參閱

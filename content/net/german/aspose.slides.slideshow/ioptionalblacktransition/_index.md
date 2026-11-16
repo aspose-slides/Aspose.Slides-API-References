@@ -3,12 +3,12 @@ title: IOptionalBlackTransition
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Optionaler schwarzer Folienübergangseffekt.
 type: docs
-weight: 10140
+weight: 10160
 url: /de/aspose.slides.slideshow/ioptionalblacktransition/
 ---
 ## IOptionalBlackTransition Schnittstelle
 
-Optionale schwarze Folienübergangseffekt.
+Optionaler schwarzer Folienübergangseffekt.
 
 ```csharp
 public interface IOptionalBlackTransition : ITransitionValueBase
@@ -19,7 +19,7 @@ public interface IOptionalBlackTransition : ITransitionValueBase
 | Name | Beschreibung |
 | --- | --- |
 | [AsITransitionValueBase](../../aspose.slides.slideshow/ioptionalblacktransition/asitransitionvaluebase) { get; } | Ermöglicht das Abrufen der Basis ITransitionValueBase Schnittstelle. Nur lesbar [`ITransitionValueBase`](../itransitionvaluebase). |
-| [FromBlack](../../aspose.slides.slideshow/ioptionalblacktransition/fromblack) { get; set; } | Dieses Attribut gibt an, ob der Übergang von einem schwarzen Bildschirm ausgeht (und dann die neue Folie über Schwarz überblendet). Lesen/Schreiben Boolean. |
+| [FromBlack](../../aspose.slides.slideshow/ioptionalblacktransition/fromblack) { get; set; } | Dieses Attribut gibt an, ob der Übergang von einem schwarzen Bildschirm aus startet (und dann die neue Folie über Schwarz überblendet). Lese/Schreib Boolean. |
 
 ### Siehe auch
 

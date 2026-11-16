@@ -1,14 +1,14 @@
 ---
 title: ShapeStyle
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Representa la referencia de estilo de las formas.
+description: Representa la referencia de estilo de formas.
 type: docs
-weight: 9910
+weight: 9930
 url: /es/aspose.slides/shapestyle/
 ---
-## ShapeStyle clase
+## Clase ShapeStyle
 
-Representa la referencia de estilo de la forma.
+Representa la referencia de estilo de una forma.
 
 ```csharp
 public class ShapeStyle : DomObject<Shape>, IShapeStyle
@@ -24,7 +24,7 @@ public class ShapeStyle : DomObject<Shape>, IShapeStyle
 | [FillStyleIndex](../../aspose.slides/shapestyle/fillstyleindex) { get; set; } | Devuelve o establece el índice de columna de relleno de la forma en matrices de estilo. 0 significa sin relleno, valor positivo - índice en los estilos de relleno del tema, valor negativo - índice en los estilos de fondo del tema. Lectura/escritura Int16. |
 | [FontCollectionIndex](../../aspose.slides/shapestyle/fontcollectionindex) { get; set; } | Devuelve o establece el índice de fuente de la forma en una colección de fuentes. Lectura/escritura [`FontCollectionIndex`](../fontcollectionindex). |
 | [FontColor](../../aspose.slides/shapestyle/fontcolor) { get; } | Devuelve el color de fuente de la forma. Solo lectura [`IColorFormat`](../icolorformat). |
-| [LineColor](../../aspose.slides/shapestyle/linecolor) { get; } | Devuelve el color del contorno de la forma. Solo lectura [`IColorFormat`](../icolorformat). |
+| [LineColor](../../aspose.slides/shapestyle/linecolor) { get; } | Devuelve el color de contorno de la forma. Solo lectura [`IColorFormat`](../icolorformat). |
 | [LineStyleIndex](../../aspose.slides/shapestyle/linestyleindex) { get; set; } | Devuelve o establece el índice de columna de la línea en una matriz de estilo. Lectura/escritura UInt16. |
 
 ### Ver también

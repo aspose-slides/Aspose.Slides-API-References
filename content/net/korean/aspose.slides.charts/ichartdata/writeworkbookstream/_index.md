@@ -1,14 +1,14 @@
 ---
 title: WriteWorkbookStream
-second_title: Aspose.Sildes for .NET API 참조
-description: 사용자가 지정한 값으로 내부에 포함된 Excel 워크북을 초기화합니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 내부에 포함된 Excel 워크북을 사용자 지정 값으로 초기화합니다.
 type: docs
-weight: 150
+weight: 160
 url: /ko/aspose.slides.charts/ichartdata/writeworkbookstream/
 ---
 ## IChartData.WriteWorkbookStream 메서드
 
-사용자가 지정한 값으로 내부에 포함된 Excel 워크북을 초기화합니다.
+내부에 포함된 Excel 워크북을 사용자 지정 값으로 초기화합니다.
 
 ```csharp
 public void WriteWorkbookStream(MemoryStream ms)
@@ -18,7 +18,7 @@ public void WriteWorkbookStream(MemoryStream ms)
 | --- | --- | --- |
 | ms | MemoryStream | 전체 Excel 워크북을 포함하는 사용자 제공 스트림입니다. |
 
-### 참고
+### 관련 항목
 
 * 인터페이스 [IChartData](../../ichartdata)
 * 네임스페이스 [Aspose.Slides.Charts](../../ichartdata)

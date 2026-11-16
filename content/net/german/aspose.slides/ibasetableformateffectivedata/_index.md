@@ -1,14 +1,14 @@
 ---
 title: IBaseTableFormatEffectiveData
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Basis-Schnittstelle für unveränderliche Objekte, die effektive Tabellformatierungseigenschaften enthalten.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Basis-Interface für unveränderliche Objekte, die effektive Tabellformatierungseigenschaften enthalten.
 type: docs
-weight: 5360
+weight: 5380
 url: /de/aspose.slides/ibasetableformateffectivedata/
 ---
 ## IBaseTableFormatEffectiveData Schnittstelle
 
-Basis-Schnittstelle für unveränderliche Objekte, die effektive Tabellformatierungseigenschaften enthalten.
+Basisschnittstelle für unveränderliche Objekte, die effektive Tabellformatierungseigenschaften enthalten.
 
 ```csharp
 public interface IBaseTableFormatEffectiveData
@@ -18,13 +18,13 @@ public interface IBaseTableFormatEffectiveData
 
 | Name | Beschreibung |
 | --- | --- |
-| [BorderBottom](../../aspose.slides/ibasetableformateffectivedata/borderbottom) { get; } | Gibt den effektiven Wert des unteren Randlinienformats zurück. Schreibgeschützt [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderDiagonalDown](../../aspose.slides/ibasetableformateffectivedata/borderdiagonaldown) { get; } | Gibt den effektiven Wert des nach unten verlaufenden Diagonal-Linienformats zurück. Schreibgeschützt [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderDiagonalUp](../../aspose.slides/ibasetableformateffectivedata/borderdiagonalup) { get; } | Gibt den effektiven Wert des nach oben verlaufenden Diagonal-Linienformats zurück. Schreibgeschützt [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderLeft](../../aspose.slides/ibasetableformateffectivedata/borderleft) { get; } | Gibt den effektiven Wert des linken Randlinienformats zurück. Schreibgeschützt [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderRight](../../aspose.slides/ibasetableformateffectivedata/borderright) { get; } | Gibt den effektiven Wert des rechten Randlinienformats zurück. Schreibgeschützt [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderTop](../../aspose.slides/ibasetableformateffectivedata/bordertop) { get; } | Gibt den effektiven Wert des oberen Randlinienformats zurück. Schreibgeschützt [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [FillFormat](../../aspose.slides/ibasetableformateffectivedata/fillformat) { get; } | Gibt den effektiven Wert des Füllformats zurück. Schreibgeschützt [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
+| [BorderBottom](../../aspose.slides/ibasetableformateffectivedata/borderbottom) { get; } | Gibt den effektiven Wert des unteren Randlinienformats zurück. Nur-Lesen [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderDiagonalDown](../../aspose.slides/ibasetableformateffectivedata/borderdiagonaldown) { get; } | Gibt den effektiven Wert des nach unten diagonal verlaufenden Linienformats zurück. Nur-Lesen [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderDiagonalUp](../../aspose.slides/ibasetableformateffectivedata/borderdiagonalup) { get; } | Gibt den effektiven Wert des nach oben diagonal verlaufenden Linienformats zurück. Nur-Lesen [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderLeft](../../aspose.slides/ibasetableformateffectivedata/borderleft) { get; } | Gibt den effektiven Wert des linken Randlinienformats zurück. Nur-Lesen [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderRight](../../aspose.slides/ibasetableformateffectivedata/borderright) { get; } | Gibt den effektiven Wert des rechten Randlinienformats zurück. Nur-Lesen [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderTop](../../aspose.slides/ibasetableformateffectivedata/bordertop) { get; } | Gibt den effektiven Wert des oberen Randlinienformats zurück. Nur-Lesen [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [FillFormat](../../aspose.slides/ibasetableformateffectivedata/fillformat) { get; } | Gibt den effektiven Wert des Füllformats zurück. Nur-Lesen [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
 
 ### Siehe auch
 

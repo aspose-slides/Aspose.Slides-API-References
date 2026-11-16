@@ -1,12 +1,12 @@
 ---
 title: IReflection
-second_title: Aspose.Sildes dla .NET – Dokumentacja API
+second_title: Aspose.Sildes dla .NET – referencja API
 description: Reprezentuje efekt odbicia.
 type: docs
-weight: 3500
+weight: 3520
 url: /pl/aspose.slides.effects/ireflection/
 ---
-## IReflection interfejs
+## interfejs IReflection
 
 Reprezentuje efekt odbicia.
 
@@ -19,24 +19,24 @@ public interface IReflection : IAccessiblePVIObject<IReflectionEffectiveData>,
 
 | Nazwa | Opis |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ireflection/asiaccessiblepviobject) { get; } | Umożliwia pobranie bazowego interfejsu IAccessiblePVIObject. Tylko do odczytu [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ireflection/asiimagetransformoperation) { get; } | Umożliwia pobranie bazowego interfejsu IImageTransformOperation. Tylko do odczytu [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ireflection/asiaccessiblepviobject) { get; } | Umożliwia pobranie podstawowego interfejsu IAccessiblePVIObject. Tylko do odczytu [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ireflection/asiimagetransformoperation) { get; } | Umożliwia pobranie podstawowego interfejsu IImageTransformOperation. Tylko do odczytu [`IImageTransformOperation`](../iimagetransformoperation). |
 | [BlurRadius](../../aspose.slides.effects/ireflection/blurradius) { get; set; } | Promień rozmycia. Odczyt/zapis Double. |
 | [Direction](../../aspose.slides.effects/ireflection/direction) { get; set; } | Kierunek odbicia. Odczyt/zapis Single. |
 | [Distance](../../aspose.slides.effects/ireflection/distance) { get; set; } | Odległość odbicia. Odczyt/zapis Double. |
-| [EndPosAlpha](../../aspose.slides.effects/ireflection/endposalpha) { get; set; } | Określa końcową pozycję (wzdłuż rampy gradientu alfa) końcowej wartości alfa (procenty). Odczyt/zapis Single. |
-| [EndReflectionOpacity](../../aspose.slides.effects/ireflection/endreflectionopacity) { get; set; } | Koniec nieprzezroczystości odbicia. (procenty). Odczyt/zapis Single. |
-| [FadeDirection](../../aspose.slides.effects/ireflection/fadedirection) { get; set; } | Określa kierunek przesunięcia odbicia. (kąt). Odczyt/zapis Single. |
+| [EndPosAlpha](../../aspose.slides.effects/ireflection/endposalpha) { get; set; } | Określa pozycję końcową (wzdłuż gradientu alfa) wartości końcowego alfa (procenty). Odczyt/zapis Single. |
+| [EndReflectionOpacity](../../aspose.slides.effects/ireflection/endreflectionopacity) { get; set; } | Końcowa nieprzezroczystość odbicia (procenty). Odczyt/zapis Single. |
+| [FadeDirection](../../aspose.slides.effects/ireflection/fadedirection) { get; set; } | Określa kierunek przesunięcia odbicia (kąt). Odczyt/zapis Single. |
 | [RectangleAlign](../../aspose.slides.effects/ireflection/rectanglealign) { get; set; } | Wyrównanie prostokąta. Odczyt/zapis [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/ireflection/rotateshadowwithshape) { get; set; } | Określa, czy odbicie powinno obracać się wraz z kształtem, jeśli kształt jest obrócony. Odczyt/zapis Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/ireflection/scalehorizontal) { get; set; } | Określa poziomy współczynnik skalowania, ujemne skalowanie powoduje odbicie. (procenty) Odczyt/zapis Double. |
-| [ScaleVertical](../../aspose.slides.effects/ireflection/scalevertical) { get; set; } | Określa pionowy współczynnik skalowania, ujemne skalowanie powoduje odbicie. (procenty) Odczyt/zapis Double. |
-| [SkewHorizontal](../../aspose.slides.effects/ireflection/skewhorizontal) { get; set; } | Określa kąt pochylenia poziomego. Odczyt/zapis Double. |
-| [SkewVertical](../../aspose.slides.effects/ireflection/skewvertical) { get; set; } | Określa kąt pochylenia pionowego. Odczyt/zapis Double. |
-| [StartPosAlpha](../../aspose.slides.effects/ireflection/startposalpha) { get; set; } | Określa początkową pozycję (wzdłuż rampy gradientu alfa) początkowej wartości alfa (procenty). Odczyt/zapis Single. |
-| [StartReflectionOpacity](../../aspose.slides.effects/ireflection/startreflectionopacity) { get; set; } | Początkowa nieprzezroczystość odbicia. (procenty). Odczyt/zapis Single. |
+| [RotateShadowWithShape](../../aspose.slides.effects/ireflection/rotateshadowwithshape) { get; set; } | Określa, czy odbicie powinno obracać się razem z kształtem, jeśli kształt jest obrócony. Odczyt/zapis Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/ireflection/scalehorizontal) { get; set; } | Określa poziomy współczynnik skalowania, ujemne skalowanie powoduje odbicie (procenty). Odczyt/zapis Double. |
+| [ScaleVertical](../../aspose.slides.effects/ireflection/scalevertical) { get; set; } | Określa pionowy współczynnik skalowania, ujemne skalowanie powoduje odbicie (procenty). Odczyt/zapis Double. |
+| [SkewHorizontal](../../aspose.slides.effects/ireflection/skewhorizontal) { get; set; } | Określa poziomy kąt pochylenia. Odczyt/zapis Double. |
+| [SkewVertical](../../aspose.slides.effects/ireflection/skewvertical) { get; set; } | Określa pionowy kąt pochylenia. Odczyt/zapis Double. |
+| [StartPosAlpha](../../aspose.slides.effects/ireflection/startposalpha) { get; set; } | Określa pozycję początkową (wzdłuż gradientu alfa) wartości początkowego alfa (procenty). Odczyt/zapis Single. |
+| [StartReflectionOpacity](../../aspose.slides.effects/ireflection/startreflectionopacity) { get; set; } | Początkowa nieprzezroczystość odbicia (procenty). Odczyt/zapis Single. |
 
-### Zobacz również
+### Zobacz także
 
 * interfejs [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * interfejs [IReflectionEffectiveData](../ireflectioneffectivedata)

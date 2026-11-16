@@ -1,14 +1,14 @@
 ---
 title: IAlphaCeilingEffectiveData
-second_title: Aspose.Sildes .NET API 参考
-description: 不可变对象，表示 Alpha Ceiling 效果。Alpha 不透明度值大于零时会被更改为 100%。换句话说，任何部分不透明的内容都会变为完全不透明。
+second_title: Aspose.Sildes for .NET API 参考
+description: 不可变对象，表示 Alpha Ceiling 效果。Alpha 不透明度值大于零的会被更改为 100。换句话说，任何部分不透明的对象都会变为完全不透明。
 type: docs
-weight: 3050
+weight: 3070
 url: /zh/aspose.slides.effects/ialphaceilingeffectivedata/
 ---
 ## IAlphaCeilingEffectiveData 接口
 
-不可变对象，表示 Alpha Ceiling 效果。Alpha（opacity）值大于零时会被更改为 100%。换句话说，任何部分不透明的内容都会变为完全不透明。
+不可变对象，表示 Alpha Ceiling 效果。Alpha（不透明度）值大于零的会被更改为 100%。换句话说，任何部分不透明的对象都将变为完全不透明。
 
 ```csharp
 public interface IAlphaCeilingEffectiveData : IEffectEffectiveData
@@ -18,9 +18,9 @@ public interface IAlphaCeilingEffectiveData : IEffectEffectiveData
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphaceilingeffectivedata/asieffecteffectivedata) { get; } | 允许获取基 IEffectEffectiveData 接口。只读 [`IEffectEffectiveData`](../ieffecteffectivedata)。 |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphaceilingeffectivedata/asieffecteffectivedata) { get; } | 允许获取基类 IEffectEffectiveData 接口。只读 [`IEffectEffectiveData`](../ieffecteffectivedata)。 |
 
-### 另见
+### 另请参阅
 
 * 接口 [IEffectEffectiveData](../ieffecteffectivedata)
 * 命名空间 [Aspose.Slides.Effects](../../aspose.slides.effects)

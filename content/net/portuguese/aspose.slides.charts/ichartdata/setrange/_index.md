@@ -3,7 +3,7 @@ title: SetRange
 second_title: Referência da API Aspose.Sildes para .NET
 description: Define o intervalo de dados do gráfico. Séries e categorias serão atualizadas com base no novo intervalo de dados. Se a quantidade de séries no intervalo de dados for maior que a contagem de séries nos dados do gráfico, então séries adicionais com o mesmo tipo da última série na coleção atual serão adicionadas ao final da coleção.
 type: docs
-weight: 130
+weight: 140
 url: /pt/aspose.slides.charts/ichartdata/setrange/
 ---
 ## IChartData.SetRange método
@@ -16,16 +16,16 @@ public void SetRange(string formula)
 
 | Parâmetro | Tipo | Descrição |
 | --- | --- | --- |
-| formula | String | A fórmula do intervalo de dados das células. Ex.: "Sheet1!$A$1:$C$4" , "SomeSheetName!A1:B100", "Sheet1!$A$1:$B$5;Sheet1!$D$1:$D$5". |
+| formula | String | A fórmula do intervalo de dados das células. Por ex.: "Sheet1!$A$1:$C$4" , "SomeSheetName!A1:B100", "Sheet1!$A$1:$B$5;Sheet1!$D$1:$D$5". |
 
 ### Exceções
 
 | exceção | condição |
 | --- | --- |
-| ArgumentNullException | a fórmula é nula. |
-| ArgumentException | a fórmula tem formato incorreto. |
+| ArgumentNullException | formula é nula. |
+| ArgumentException | formula tem formato incorreto. |
 
-### Veja Também
+### Ver Também
 
 * interface [IChartData](../../ichartdata)
 * namespace [Aspose.Slides.Charts](../../ichartdata)

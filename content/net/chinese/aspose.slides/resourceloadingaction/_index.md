@@ -3,7 +3,7 @@ title: ResourceLoadingAction
 second_title: Aspose.Sildes for .NET API 参考
 description: 指定外部资源加载的模式。
 type: docs
-weight: 9700
+weight: 9720
 url: /zh/aspose.slides/resourceloadingaction/
 ---
 ## ResourceLoadingAction 枚举
@@ -18,11 +18,11 @@ public enum ResourceLoadingAction
 
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
-| Default | `0` | Aspose.Slides 将照常加载外部资源。 |
+| Default | `0` | Aspose.Slides 将按常规方式加载外部资源。 |
 | Skip | `1` | Aspose.Slides 将跳过外部资源的加载。仅会为图像存储没有数据的链接。 |
 | UserProvided | `2` | Aspose.Slides 将使用用户在 [`SetData`](../iresourceloadingargs/setdata) 中提供的字节数组作为图像数据。 |
 
-### 另见
+### 另请参阅
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

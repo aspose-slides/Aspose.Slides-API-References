@@ -1,14 +1,14 @@
 ---
 title: BlackWhiteConversionMode
 second_title: Aspose.Sildes för .NET API-referens
-description: Tillhandahåller alternativ som kontrollerar hur bildspelsbilder konverteras till bitonala bilder.
+description: Tillhandahåller alternativ som styr hur bilder i bildspel konverteras till tvåtonsbilder.
 type: docs
-weight: 3720
+weight: 3740
 url: /sv/aspose.slides.export/blackwhiteconversionmode/
 ---
 ## BlackWhiteConversionMode enumeration
 
-Tillhandahåller alternativ som kontrollerar hur bildspelsbilder konverteras till bitonala bilder.
+Tillhandahåller alternativ som styr hur bildspelens bilder konverteras till tvåtonsbilder.
 
 ```csharp
 public enum BlackWhiteConversionMode
@@ -18,14 +18,14 @@ public enum BlackWhiteConversionMode
 
 | Namn | Värde | Beskrivning |
 | --- | --- | --- |
-| Default | `0` | Anger ingen konverteringsalgoritm. Algoritmen som implementeras i TIFF-codecen kommer att användas. (Standard) |
-| Dithering | `1` | Anger dithering-algoritmen (Floyd-Steinberg). |
+| Default | `0` | Anger ingen konverteringsalgoritm. Algoritmen som implementerats i TIFF-codecen kommer att användas. (Standard) |
+| Dithering | `1` | Anger ditheringalgoritmen (Floyd-Steinberg). |
 | DitheringFloydSteinberg | `2` | Anger Floyd-Steinberg-ditheringalgoritmen. |
 | Auto | `3` | Anger den automatiskt beräknade tröskelalgoritmen (Otsu). |
-| AutoOtsu | `4` | Anger den automatiskt beräknade Otsu-tröskelalgoritmen. |
-| Threshold25 | `5` | Anger den statiska tröskelalgoritmen (25 %). |
-| Threshold50 | `6` | Anger den statiska tröskelalgoritmen (50 %). |
-| Threshold75 | `7` | Anger den statiska tröskelalgoritmen (75 %). |
+| AutoOtsu | `4` | Anger den automatiskt beräknade Otsus tröskelalgoritm. |
+| Threshold25 | `5` | Anger den statiska tröskelalgoritmen (25%). |
+| Threshold50 | `6` | Anger den statiska tröskelalgoritmen (50%). |
+| Threshold75 | `7` | Anger den statiska tröskelalgoritmen (75%). |
 
 ### Se även
 

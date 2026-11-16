@@ -3,7 +3,7 @@ title: LegendEntryProperties
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示图表的图例属性。
 type: docs
-weight: 2310
+weight: 2330
 url: /zh/aspose.slides.charts/legendentryproperties/
 ---
 ## LegendEntryProperties 类
@@ -19,10 +19,10 @@ public class LegendEntryProperties : ILegendEntryProperties
 | 名称 | 描述 |
 | --- | --- |
 | [Chart](../../aspose.slides.charts/legendentryproperties/chart) { get; } | 返回父图表。只读 [`IChart`](../ichart)。 |
-| [Hide](../../aspose.slides.charts/legendentryproperties/hide) { get; set; } | 确定图例条目是否隐藏。可读写 Boolean。 |
+| [Hide](../../aspose.slides.charts/legendentryproperties/hide) { get; set; } | 确定图例项是否隐藏。可读写 Boolean。 |
 | [TextFormat](../../aspose.slides.charts/legendentryproperties/textformat) { get; } | 返回文本格式。只读 [`IChartTextFormat`](../icharttextformat)。 |
 
-### 另见
+### 另请参见
 
 * 接口 [ILegendEntryProperties](../ilegendentryproperties)
 * 命名空间 [Aspose.Slides.Charts](../../aspose.slides.charts)

@@ -1,14 +1,14 @@
 ---
 title: NotesSlide
-second_title: Aspose.Sildes voor .NET API Referentie
-description: Stelt een notitieslide in een presentatie voor.
+second_title: Aspose.Sildes voor .NET API-referentie
+description: Vertegenwoordigt een notitieslide in een presentatie.
 type: docs
-weight: 9140
+weight: 9160
 url: /nl/aspose.slides/notesslide/
 ---
 ## NotesSlide klasse
 
-Stelt een notitieslide in een presentatie voor.
+Vertegenwoordigt een notitieslide in een presentatie.
 
 ```csharp
 public class NotesSlide : BaseSlide, INotesSlide
@@ -18,31 +18,31 @@ public class NotesSlide : BaseSlide, INotesSlide
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Background](../../aspose.slides/baseslide/background) { get; } | Geeft de achtergrond van de slide terug. Alleen-lezen [`IBackground`](../ibackground). |
-| [Controls](../../aspose.slides/baseslide/controls) { get; } | Geeft de collectie van ActiveX-besturingselementen op een slide terug. Alleen-lezen [`IControlCollection`](../icontrolcollection). |
-| [CustomData](../../aspose.slides/baseslide/customdata) { get; } | Geeft de aangepaste gegevens van de slide terug. Alleen-lezen [`ICustomData`](../icustomdata). |
-| [HeaderFooterManager](../../aspose.slides/notesslide/headerfootermanager) { get; } | Geeft de HeaderFooter-beheerder van de notitieslide terug. Alleen-lezen [`INotesSlideHeaderFooterManager`](../inotesslideheaderfootermanager). |
-| [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | Biedt gemakkelijk toegang tot ingesloten hyperlinks. Alleen-lezen [`IHyperlinkQueries`](../ihyperlinkqueries). |
-| virtual [Name](../../aspose.slides/baseslide/name) { get; set; } | Geeft de naam van een slide terug of stelt deze in. Lezen/schrijven String. |
-| [NotesTextFrame](../../aspose.slides/notesslide/notestextframe) { get; } | Geeft een TextFrame met de notitietekst terug indien aanwezig. Alleen-lezen [`ITextFrame`](../itextframe). |
-| [ParentSlide](../../aspose.slides/notesslide/parentslide) { get; } | Geeft de bovenliggende slide terug. Alleen-lezen [`ISlide`](../islide). |
-| [Presentation](../../aspose.slides/baseslide/presentation) { get; } | Geeft de IPresentation-interface terug. Alleen-lezen [`IPresentation`](../ipresentation). |
-| [Shapes](../../aspose.slides/baseslide/shapes) { get; } | Geeft de vormen van een slide terug. Alleen-lezen [`IShapeCollection`](../ishapecollection). |
-| override [ShowMasterShapes](../../aspose.slides/notesslide/showmastershapes) { get; set; } | Specificeert of vormen op de masterslide getoond moeten worden op slides of niet. Lezen/schrijven Boolean. |
-| [SlideId](../../aspose.slides/baseslide/slideid) { get; } | Geeft de ID van een slide terug. Alleen-lezen UInt32. |
-| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | Geeft het Transition-object terug dat informatie bevat over hoe de opgegeven slide vordert tijdens een diavoorstelling. Alleen-lezen [`ISlideShowTransition`](../islideshowtransition). |
-| [ThemeManager](../../aspose.slides/notesslide/thememanager) { get; } | Geeft de overschrijfende themabeheerder terug. Alleen-lezen [`IOverrideThemeManager`](../../aspose.slides.theme/ioverridethememanager). |
-| [Timeline](../../aspose.slides/baseslide/timeline) { get; } | Geeft het animatietijdlijnobject terug. Alleen-lezen [`IAnimationTimeLine`](../ianimationtimeline). |
+| [Background](../../aspose.slides/baseslide/background) { get; } | Retourneert de achtergrond van de dia. Alleen-lezen [`IBackground`](../ibackground). |
+| [Controls](../../aspose.slides/baseslide/controls) { get; } | Retourneert de verzameling ActiveX-besturingselementen op een dia. Alleen-lezen [`IControlCollection`](../icontrolcollection). |
+| [CustomData](../../aspose.slides/baseslide/customdata) { get; } | Retourneert de aangepaste gegevens van de dia. Alleen-lezen [`ICustomData`](../icustomdata). |
+| [HeaderFooterManager](../../aspose.slides/notesslide/headerfootermanager) { get; } | Retourneert de HeaderFooter-beheerder van de notitieslide. Alleen-lezen [`INotesSlideHeaderFooterManager`](../inotesslideheaderfootermanager). |
+| [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | Biedt gemakkelijke toegang tot de ingesloten hyperlinks. Alleen-lezen [`IHyperlinkQueries`](../ihyperlinkqueries). |
+| virtual [Name](../../aspose.slides/baseslide/name) { get; set; } | Retourneert of stelt de naam van een dia in. Lezen/schrijven String. |
+| [NotesTextFrame](../../aspose.slides/notesslide/notestextframe) { get; } | Retourneert een TextFrame met de notitietekst indien aanwezig. Alleen-lezen [`ITextFrame`](../itextframe). |
+| [ParentSlide](../../aspose.slides/notesslide/parentslide) { get; } | Retourneert de bovenliggende dia. Alleen-lezen [`ISlide`](../islide). |
+| [Presentation](../../aspose.slides/baseslide/presentation) { get; } | Retourneert IPresentation-interface. Alleen-lezen [`IPresentation`](../ipresentation). |
+| [Shapes](../../aspose.slides/baseslide/shapes) { get; } | Retourneert de vormen van een dia. Alleen-lezen [`IShapeCollection`](../ishapecollection). |
+| override [ShowMasterShapes](../../aspose.slides/notesslide/showmastershapes) { get; set; } | Bepaalt of vormen op de masterslide getoond moeten worden op dia's. Lezen/schrijven Boolean. |
+| [SlideId](../../aspose.slides/baseslide/slideid) { get; } | Retourneert de ID van een dia. Alleen-lezen UInt32. |
+| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | Retourneert het Transition-object dat informatie bevat over hoe de opgegeven dia tijdens een diavoorstelling wordt voortgezet. Alleen-lezen [`ISlideShowTransition`](../islideshowtransition). |
+| [ThemeManager](../../aspose.slides/notesslide/thememanager) { get; } | Retourneert de overschrijvende themabeheerder. Alleen-lezen [`IOverrideThemeManager`](../../aspose.slides.theme/ioverridethememanager). |
+| [Timeline](../../aspose.slides/baseslide/timeline) { get; } | Retourneert animatietijdlijnobject. Alleen-lezen [`IAnimationTimeLine`](../ianimationtimeline). |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| [CreateThemeEffective](../../aspose.slides/baseslide/createthemeeffective)() | Geeft een effectief thema voor deze slide terug. |
-| [Equals](../../aspose.slides/baseslide/equals)(IBaseSlide) | Bepaalt of de twee IBaseSlide-instanties gelijk zijn. De geretourneerde waarde wordt berekend op basis van de structuur van de slide en statische inhoud. Twee slides zijn gelijk als alle vormen, stijlen, teksten, animaties en andere instellingen, enz., gelijk zijn. De vergelijking houdt geen rekening met unieke identifier-waarden, bijvoorbeeld SlideId, en dynamische inhoud, bijvoorbeeld de huidige datumwaarde in Date Placeholder. |
-| [FindShapeByAltText](../../aspose.slides/baseslide/findshapebyalttext)(string) | Vindt de eerste voorkomen van een vorm met de gespecificeerde alternatieve tekst. |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)() | Voegt runs met dezelfde opmaak samen in alle alinea's van alle aanvaardbare vormen. |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)(IShapeCollection) | Voegt runs met dezelfde opmaak samen in alle alinea's van alle aanvaardbare vormen. |
+| [CreateThemeEffective](../../aspose.slides/baseslide/createthemeeffective)() | Retourneert een effectief thema voor deze dia. |
+| [Equals](../../aspose.slides/baseslide/equals)(IBaseSlide) | Bepaalt of de twee IBaseSlide-instanties gelijk zijn. De geretourneerde waarde wordt berekend op basis van de structuur van de dia en statische inhoud. Twee dia's zijn gelijk als alle vormen, stijlen, teksten, animaties en andere instellingen, etc., gelijk zijn. De vergelijking houdt geen rekening met unieke identificatiewaarden, bijv. SlideId en dynamische inhoud, bijv. de huidige datumwaarde in Date Placeholder. |
+| [FindShapeByAltText](../../aspose.slides/baseslide/findshapebyalttext)(string) | Zoekt de eerste voorkoming van een vorm met de opgegeven alternatieve tekst. |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)() | Voegt reeksen samen met dezelfde opmaak in alle alinea's van alle acceptabele vormen. |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)(IShapeCollection) | Voegt reeksen samen met dezelfde opmaak in alle alinea's van alle acceptabele vormen. |
 
 ### Zie ook
 

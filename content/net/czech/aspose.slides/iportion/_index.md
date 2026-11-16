@@ -1,14 +1,14 @@
 ---
 title: IPortion
-second_title: Aspose.Sildes pro .NET – referenční příručka API
-description: Reprezentuje úsek textu uvnitř odstavce.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Reprezentuje část textu uvnitř textového odstavce.
 type: docs
-weight: 6700
+weight: 6720
 url: /cs/aspose.slides/iportion/
 ---
 ## IPortion rozhraní
 
-Reprezentuje úsek textu uvnitř odstavce.
+Represents a portion of text inside a text paragraph.
 
 ```csharp
 public interface IPortion : ISlideComponent
@@ -19,19 +19,19 @@ public interface IPortion : ISlideComponent
 | Název | Popis |
 | --- | --- |
 | [AsISlideComponent](../../aspose.slides/iportion/asislidecomponent) { get; } | Umožňuje získat základní rozhraní ISlideComponent. Pouze pro čtení [`ISlideComponent`](../islidecomponent). |
-| [Field](../../aspose.slides/iportion/field) { get; } | Vrací pole tohoto úseku. Pouze pro čtení [`IField`](../ifield). |
-| [PortionFormat](../../aspose.slides/iportion/portionformat) { get; } | Vrací objekt formátování, který obsahuje explicitně nastavené vlastnosti formátování úseku textu bez aplikované dědičnosti. Pouze pro čtení [`IPortionFormat`](../iportionformat). |
-| [Text](../../aspose.slides/iportion/text) { get; set; } | Získá nebo nastaví prostý text úseku. Čtení/Zápis String. |
+| [Field](../../aspose.slides/iportion/field) { get; } | Vrací pole této části. Pouze pro čtení [`IField`](../ifield). |
+| [PortionFormat](../../aspose.slides/iportion/portionformat) { get; } | Vrací objekt formátování, který obsahuje výslovně nastavené vlastnosti formátování textové části bez aplikované dědičnosti. Pouze pro čtení [`IPortionFormat`](../iportionformat). |
+| [Text](../../aspose.slides/iportion/text) { get; set; } | Získá nebo nastaví prostý text části. Čtení/zápis String. |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| [AddField](../../aspose.slides/iportion/addfield#addfield)(IFieldType) | Převede tento úsek na automaticky aktualizované pole. |
-| [AddField](../../aspose.slides/iportion/addfield#addfield_1)(string) | Převede tento úsek na automaticky aktualizované pole. |
-| [GetCoordinates](../../aspose.slides/iportion/getcoordinates)() | Získá souřadnice začátku úseku. Souřadnice X představuje začátek úseku od prvního znaku včetně levého postranního odsazení. Souřadnice Y zahrnuje horní postranní odsazení. |
-| [GetRect](../../aspose.slides/iportion/getrect)() | Získá souřadnice obdélníku ohraničujícího úsek. Obdélník zahrnuje všechny řádky textu v úseku, včetně prázdných. |
-| [RemoveField](../../aspose.slides/iportion/removefield)() | Převede tento úsek pole na jednoduchý úsek. |
+| [AddField](../../aspose.slides/iportion/addfield#addfield)(IFieldType) | Převádí tuto část na automaticky aktualizované pole. |
+| [AddField](../../aspose.slides/iportion/addfield#addfield_1)(string) | Převádí tuto část na automaticky aktualizované pole. |
+| [GetCoordinates](../../aspose.slides/iportion/getcoordinates)() | Získá souřadnice počátku části. Souřadnice X bodu představuje začátek části od prvního znaku včetně levého bočního posunu. Souřadnice Y zahrnuje horní boční posun. |
+| [GetRect](../../aspose.slides/iportion/getrect)() | Získá souřadnice obdélníku ohraničujícího část. Obdélník zahrnuje všechny řádky textu v části, včetně prázdných. |
+| [RemoveField](../../aspose.slides/iportion/removefield)() | Převádí tuto část pole na jednoduchou část. |
 
 ### Viz také
 

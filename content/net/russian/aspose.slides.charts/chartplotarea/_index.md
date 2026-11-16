@@ -1,14 +1,14 @@
 ---
 title: ChartPlotArea
-second_title: Aspose.Sildes для .NET API справочник
-description: Представляет прямоугольник, в котором должен быть построен график.
+second_title: Aspose.Sildes для .NET справочник API
+description: Представляет прямоугольник, в котором должна быть построена диаграмма.
 type: docs
-weight: 1420
+weight: 1430
 url: /ru/aspose.slides.charts/chartplotarea/
 ---
 ## ChartPlotArea класс
 
-Представляет прямоугольник, в котором должен быть построен график.
+Представляет прямоугольник, в котором должна быть построена диаграмма.
 
 ```csharp
 public class ChartPlotArea : DomObject<Chart>, IChartPlotArea
@@ -16,22 +16,22 @@ public class ChartPlotArea : DomObject<Chart>, IChartPlotArea
 
 ## Свойства
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/chartplotarea/actualheight) { get; } | Указывает фактическую высоту элемента диаграммы. Вызовите метод IChart.ValidateChartLayout() заранее, чтобы получить фактические значения. Только чтение Single. |
-| [ActualWidth](../../aspose.slides.charts/chartplotarea/actualwidth) { get; } | Указывает фактическую ширину элемента диаграммы. Вызовите метод IChart.ValidateChartLayout() заранее, чтобы получить фактические значения. Только чтение Single. |
-| [ActualX](../../aspose.slides.charts/chartplotarea/actualx) { get; } | Указывает фактическое положение по оси x (слева) элемента диаграммы относительно левого верхнего угла диаграммы. Вызовите метод IChart.ValidateChartLayout() заранее, чтобы получить фактические значения. Только чтение Single. |
-| [ActualY](../../aspose.slides.charts/chartplotarea/actualy) { get; } | Указывает фактическую верхнюю позицию элемента диаграммы относительно левого верхнего угла диаграммы. Вызовите метод IChart.ValidateChartLayout() заранее, чтобы получить фактические значения. Только чтение Single. |
-| [Bottom](../../aspose.slides.charts/chartplotarea/bottom) { get; } | Нижнее. Только чтение Single. |
-| [Chart](../../aspose.slides.charts/chartplotarea/chart) { get; } | Диаграмма. Только чтение [`IChart`](../ichart). |
-| [Format](../../aspose.slides.charts/chartplotarea/format) { get; } | Возвращает формат области построения. Только чтение [`IFormat`](../iformat). |
-| [Height](../../aspose.slides.charts/chartplotarea/height) { get; set; } | Возвращает или задает высоту ограничивающего прямоугольника области построения как долю от высоты диаграммы (от 0 до 1). Чтение/запись Single. |
-| [IsLocationAutocalculated](../../aspose.slides.charts/chartplotarea/islocationautocalculated) { get; } | Определяет, как должно рассчитываться расположение: true – рассчитывается автоматически; определяется свойствами X, Y, Width, Height. Только чтение Boolean. |
-| [LayoutTargetType](../../aspose.slides.charts/chartplotarea/layouttargettype) { get; set; } | Если расположение области построения определено вручную, это свойство указывает, размещать область построения внутри (не включая оси и подписи осей) или снаружи (включая оси и подписи осей). Чтение/запись [`LayoutTargetType`](./layouttargettype). |
-| [Right](../../aspose.slides.charts/chartplotarea/right) { get; } | Правая граница. Только чтение Single. |
-| [Width](../../aspose.slides.charts/chartplotarea/width) { get; set; } | Возвращает или задает ширину ограничивающего прямоугольника области построения как долю от ширины диаграммы (от 0 до 1). Чтение/запись Single. |
-| [X](../../aspose.slides.charts/chartplotarea/x) { get; set; } | Возвращает или задает координату x верхнего левого угла ограничивающего прямоугольника области построения как долю от ширины диаграммы (от 0 до 1). Чтение/запись Single. |
-| [Y](../../aspose.slides.charts/chartplotarea/y) { get; set; } | Возвращает или задает координату y верхнего левого угла ограничивающего прямоугольника области построения как долю от высоты диаграммы (от 0 до 1). Чтение/запись Single. |
+| [ActualHeight](../../aspose.slides.charts/chartplotarea/actualheight) { get; } | Указывает фактическую высоту элемента диаграммы. Вызовите метод IChart.ValidateChartLayout() до этого, чтобы получить реальные значения. Только чтение Single. |
+| [ActualWidth](../../aspose.slides.charts/chartplotarea/actualwidth) { get; } | Указывает фактическую ширину элемента диаграммы. Вызовите метод IChart.ValidateChartLayout() до этого, чтобы получить реальные значения. Только чтение Single. |
+| [ActualX](../../aspose.slides.charts/chartplotarea/actualx) { get; } | Указывает фактическое положение x (слева) элемента диаграммы относительно левого верхнего угла диаграммы. Вызовите метод IChart.ValidateChartLayout() до этого, чтобы получить реальные значения. Только чтение Single. |
+| [ActualY](../../aspose.slides.charts/chartplotarea/actualy) { get; } | Указывает фактическую позицию сверху элемента диаграммы относительно левого верхнего угла диаграммы. Вызовите метод IChart.ValidateChartLayout() до этого, чтобы получить реальные значения. Только чтение Single. |
+| [Bottom](../../aspose.slides.charts/chartplotarea/bottom) { get; } | Низ. Только для чтения Single. |
+| [Chart](../../aspose.slides.charts/chartplotarea/chart) { get; } | Диаграмма. Только для чтения [`IChart`](../ichart). |
+| [Format](../../aspose.slides.charts/chartplotarea/format) { get; } | Возвращает формат области построения. Только для чтения [`IFormat`](../iformat). |
+| [Height](../../aspose.slides.charts/chartplotarea/height) { get; set; } | Возвращает или задает высоту ограничивающего прямоугольника области построения как долю высоты диаграммы (от 0 до 1). Чтение/запись Single. |
+| [IsLocationAutocalculated](../../aspose.slides.charts/chartplotarea/islocationautocalculated) { get; } | Определяет, как должна вычисляться позиция: true – вычисляется автоматически; определяется свойствами X, Y, Width, Height. Только для чтения Boolean. |
+| [LayoutTargetType](../../aspose.slides.charts/chartplotarea/layouttargettype) { get; set; } | Если компоновка области построения задается вручную, это свойство указывает, следует ли компоновать область построения внутри (не включая оси и подписи осей) или снаружи (включая оси и подписи осей). Чтение/запись [`LayoutTargetType`](./layouttargettype). |
+| [Right](../../aspose.slides.charts/chartplotarea/right) { get; } | Правый. Только для чтения Single. |
+| [Width](../../aspose.slides.charts/chartplotarea/width) { get; set; } | Возвращает или задает ширину ограничивающего прямоугольника области построения как долю ширины диаграммы (от 0 до 1). Чтение/запись Single. |
+| [X](../../aspose.slides.charts/chartplotarea/x) { get; set; } | Возвращает или задает координату x верхнего левого угла ограничивающего прямоугольника области построения как долю ширины диаграммы (от 0 до 1). Чтение/запись Single. |
+| [Y](../../aspose.slides.charts/chartplotarea/y) { get; set; } | Возвращает или задает координату y верхнего левого угла ограничивающего прямоугольника области построения как долю высоты диаграммы (от 0 до 1). Чтение/запись Single. |
 
 ### См. также
 

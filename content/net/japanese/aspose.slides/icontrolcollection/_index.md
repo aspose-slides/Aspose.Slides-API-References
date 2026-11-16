@@ -1,9 +1,9 @@
 ---
 title: IControlCollection
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: ActiveX コントロールのコレクションです。
 type: docs
-weight: 5640
+weight: 5660
 url: /ja/aspose.slides/icontrolcollection/
 ---
 ## IControlCollection インターフェイス
@@ -18,16 +18,16 @@ public interface IControlCollection : IGenericCollection<IControl>
 
 | 名前 | 説明 |
 | --- | --- |
-| [Item](../../aspose.slides/icontrolcollection/item) { get; } | 指定された位置のコントロールを返します。 |
+| [Item](../../aspose.slides/icontrolcollection/item) { get; } | 指定された位置にあるコントロールを返します。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [AddControl](../../aspose.slides/icontrolcollection/addcontrol)(ControlType, float, float, float, float) | 新しいコントロールを作成し、コレクションに追加します。 |
+| [AddControl](../../aspose.slides/icontrolcollection/addcontrol)(ControlType, float, float, float, float) | コレクションに新しいコントロールを作成して追加します。 |
 | [Clear](../../aspose.slides/icontrolcollection/clear)() | コレクションからすべてのコントロールを削除します。 |
 | [Remove](../../aspose.slides/icontrolcollection/remove)(IControl) | コレクションから ActiveX コントロールを削除します。 |
-| [RemoveAt](../../aspose.slides/icontrolcollection/removeat)(int) | 指定された位置に格納されている ActiveX コントロールをコレクションから削除します。 |
+| [RemoveAt](../../aspose.slides/icontrolcollection/removeat)(int) | コレクション内の指定された位置に格納された ActiveX コントロールを削除します。 |
 
 ### 参照
 

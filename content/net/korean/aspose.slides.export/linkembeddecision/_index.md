@@ -1,9 +1,9 @@
 ---
 title: LinkEmbedDecision
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 저장 중 객체가 어떻게 처리되는지 결정합니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: 저장 중 객체가 어떻게 처리되는지를 결정합니다.
 type: docs
-weight: 4230
+weight: 4250
 url: /ko/aspose.slides.export/linkembeddecision/
 ---
 ## LinkEmbedDecision 열거형
@@ -16,10 +16,10 @@ public enum LinkEmbedDecision
 
 ### 값
 
-| Name | Value | Description |
+| 이름 | 값 | 설명 |
 | --- | --- | --- |
 | Link | `0` | 객체가 외부에 저장되며 URL로 참조됩니다 |
-| Embed | `1` | 가능한 경우 객체를 생성된 파일에 포함해야 합니다. 포함이 불가능한 경우 GetUrl이 호출되고 결과에 따라 객체가 URL로 참조되거나 무시됩니다 |
+| Embed | `1` | 가능하면 객체를 생성된 파일에 포함시켜야 합니다. 포함이 불가능한 경우 GetUrl이 호출되고 결과에 따라 객체가 URL로 참조되거나 무시됩니다 |
 | Ignore | `2` | 객체가 무시됩니다 |
 
 ### 참조

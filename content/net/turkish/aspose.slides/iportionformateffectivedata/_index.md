@@ -1,14 +1,14 @@
 ---
 title: IPortionFormatEffectiveData
 second_title: Aspose.Sildes için .NET API Referansı
-description: Etkili metin bölümü biçimlendirme özelliklerini içeren değiştirilemez nesne.
+description: Etkili metin parçası biçimlendirme özelliklerini içeren değişmez nesne.
 type: docs
-weight: 6740
+weight: 6760
 url: /tr/aspose.slides/iportionformateffectivedata/
 ---
-## IPortionFormatEffectiveData arayüz
+## IPortionFormatEffectiveData arayüzü
 
-Değiştirilemez nesne, etkili metin bölümü biçimlendirme özelliklerini içerir.
+Etkili metin parçası biçimlendirme özelliklerini içeren değişmez nesne.
 
 ```csharp
 public interface IPortionFormatEffectiveData : IBasePortionFormatEffectiveData
@@ -18,16 +18,16 @@ public interface IPortionFormatEffectiveData : IBasePortionFormatEffectiveData
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIBasePortionFormatEffectiveData](../../aspose.slides/iportionformateffectivedata/asibaseportionformateffectivedata) { get; } | IBasePortionFormatEffectiveData arayüzünü döndürür. |
-| [BookmarkId](../../aspose.slides/iportionformateffectivedata/bookmarkid) { get; } | Yer imi tanımlayıcısını döndürür. Salt Okunur String. |
-| [HyperlinkClick](../../aspose.slides/iportionformateffectivedata/hyperlinkclick) { get; } | Fare tıklaması için tanımlanan köprüyü döndürür. Salt Okunur [`IHyperlink`](../ihyperlink). |
-| [HyperlinkMouseOver](../../aspose.slides/iportionformateffectivedata/hyperlinkmouseover) { get; } | Fare üzerine gelindiğinde tanımlanan köprüyü döndürür. Salt Okunur [`IHyperlink`](../ihyperlink). |
+| [AsIBasePortionFormatEffectiveData](../../aspose.slides/iportionformateffectivedata/asibaseportionformateffectivedata) { get; } | IBasePortionFormatEffectiveData arabirimini döndürür. |
+| [BookmarkId](../../aspose.slides/iportionformateffectivedata/bookmarkid) { get; } | Yer imi tanımlayıcısını döndürür. Salt-okunur String. |
+| [HyperlinkClick](../../aspose.slides/iportionformateffectivedata/hyperlinkclick) { get; } | Fare tıklaması için tanımlanan hiperbağlantıyı döndürür. Salt-okunur [`IHyperlink`](../ihyperlink). |
+| [HyperlinkMouseOver](../../aspose.slides/iportionformateffectivedata/hyperlinkmouseover) { get; } | Fare üzerine gelindiğinde tanımlanan hiperbağlantıyı döndürür. Salt-okunur [`IHyperlink`](../ihyperlink). |
 
 ### Açıklamalar
 
-Bu arayüz, [`IPortionFormat`](../iportionformat) arayüzüyle birlikte kullanılarak kalıtım uygulanmış etkili biçimlendirme değerlerini döndürür.
+Bu arabirim, [`IPortionFormat`](../iportionformat) arabirimiyle birlikte, kalıtım uygulanmış etkili biçimlendirme değerlerini döndürmek için kullanılır.
 
-### Ayrıca Bakınız
+### İlgili
 
 * arayüz [IBasePortionFormatEffectiveData](../ibaseportionformateffectivedata)
 * ad alanı [Aspose.Slides](../../aspose.slides)

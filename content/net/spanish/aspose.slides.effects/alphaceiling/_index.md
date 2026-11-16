@@ -1,14 +1,14 @@
 ---
 title: AlphaCeiling
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Representa un efecto Alpha Ceiling. Los valores de opacidad Alpha mayores que cero se cambian al 100. En otras palabras, cualquier elemento parcialmente opaco se vuelve completamente opaco.
+description: Representa un efecto Alpha Ceiling. Los valores de opacidad Alpha mayores que cero se cambian al 100. En otras palabras, cualquier elemento parcialmente opaco se vuelve totalmente opaco.
 type: docs
-weight: 2850
+weight: 2870
 url: /es/aspose.slides.effects/alphaceiling/
 ---
 ## AlphaCeiling clase
 
-Representa un efecto Alpha Ceiling. Los valores Alpha (opacidad) mayores que cero se cambian al 100 %. En otras palabras, cualquier cosa parcialmente opaca se vuelve completamente opaca.
+Representa un efecto Alpha Ceiling. Los valores de Alpha (opacidad) mayores que cero se cambian al 100 %. En otras palabras, cualquier cosa parcialmente opaca se vuelve totalmente opaca.
 
 ```csharp
 public sealed class AlphaCeiling : ImageTransformOperation, IAlphaCeiling
@@ -26,7 +26,7 @@ public sealed class AlphaCeiling : ImageTransformOperation, IAlphaCeiling
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/alphaceiling/equals)(object) | Determina si el [`AlphaCeiling`](../alphaceiling) especificado es igual al [`AlphaCeiling`](../alphaceiling) actual. |
 | [GetEffective](../../aspose.slides.effects/alphaceiling/geteffective)() | Obtiene los datos efectivos del efecto Alpha Ceiling con la herencia aplicada. |
-| override [GetHashCode](../../aspose.slides.effects/alphaceiling/gethashcode)() | Funciona como una función hash para un tipo particular. |
+| override [GetHashCode](../../aspose.slides.effects/alphaceiling/gethashcode)() | Sirve como función hash para un tipo particular. |
 
 ### Ver también
 

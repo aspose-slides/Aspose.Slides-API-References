@@ -1,14 +1,14 @@
 ---
 title: LineDashStyle
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: रेखा डैश शैली का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: लाइन डैश शैली का प्रतिनिधित्व करता है।
 type: docs
-weight: 7770
+weight: 7790
 url: /hi/aspose.slides/linedashstyle/
 ---
 ## LineDashStyle एन्युमरेशन
 
-रेखाखण्ड शैली का प्रतिनिधित्व करता है।
+लाइन डैश शैली का प्रतिनिधित्व करता है।
 
 ```csharp
 public enum LineDashStyle : sbyte

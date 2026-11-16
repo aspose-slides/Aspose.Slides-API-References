@@ -3,7 +3,7 @@ title: SlideShowTransition
 second_title: Aspose.Sildes dla .NET – odniesienie API
 description: Reprezentuje przejście pokazu slajdów.
 type: docs
-weight: 10320
+weight: 10340
 url: /pl/aspose.slides.slideshow/slideshowtransition/
 ---
 ## SlideShowTransition klasa
@@ -18,27 +18,27 @@ public class SlideShowTransition : DomObject<BaseSlide>, ISlideShowTransition
 
 | Nazwa | Opis |
 | --- | --- |
-| [AdvanceAfter](../../aspose.slides.slideshow/slideshowtransition/advanceafter) { get; set; } | Ten atrybut określa, czy pokaz slajdów przejdzie do następnego slajdu po określonym czasie. odczyt/zapis Boolean. |
-| [AdvanceAfterTime](../../aspose.slides.slideshow/slideshowtransition/advanceaftertime) { get; set; } | Określa czas w milisekundach, po którym ma rozpocząć się przejście. To ustawienie może być użyte w połączeniu z atrybutem advClick. Jeśli atrybut nie jest określony, przyjmuje się, że automatyczne przejście nie wystąpi. odczyt/zapis UInt32. |
-| [AdvanceOnClick](../../aspose.slides.slideshow/slideshowtransition/advanceonclick) { get; set; } | Określa, czy kliknięcie myszy spowoduje przejście slajdu, czy nie. Jeśli atrybut nie jest określony, przyjmuje się wartość true. odczyt/zapis Boolean. |
-| [Duration](../../aspose.slides.slideshow/slideshowtransition/duration) { get; set; } | Pobiera lub ustawia czas trwania efektu przejścia slajdu w milisekundach. odczyt/zapis Int32. |
-| [Sound](../../aspose.slides.slideshow/slideshowtransition/sound) { get; set; } | Zwraca lub ustawia osadzone dane audio. odczyt/zapis [`IAudio`](../../aspose.slides/iaudio). |
-| [SoundIsBuiltIn](../../aspose.slides.slideshow/slideshowtransition/soundisbuiltin) { get; set; } | Określa, czy dźwięk jest wbudowany. Jeśli atrybut ma wartość true, aplikacja generująca zostaje powiadomiona, aby sprawdzić atrybut name określony dla tego dźwięku na liście wbudowanych dźwięków i może wówczas wyświetlić niestandardową nazwę lub interfejs użytkownika w razie potrzeby. odczyt/zapis Boolean. |
-| [SoundLoop](../../aspose.slides.slideshow/slideshowtransition/soundloop) { get; set; } | Ten atrybut określa, czy dźwięk będzie powtarzany, aż do wystąpienia kolejnego zdarzenia dźwiękowego w pokazie slajdów. odczyt/zapis Boolean. |
-| [SoundMode](../../aspose.slides.slideshow/slideshowtransition/soundmode) { get; set; } | Ustawia lub zwraca tryb dźwięku dla przejścia slajdu. odczyt/zapis [`TransitionSoundMode`](../transitionsoundmode). |
-| [SoundName](../../aspose.slides.slideshow/slideshowtransition/soundname) { get; set; } | Określa nazwę dźwięku przejścia czytelną dla człowieka. Właściwość [`Sound`](./sound) musi być przypisana, aby pobrać lub ustawić nazwę dźwięku. odczyt/zapis String. |
-| [Speed](../../aspose.slides.slideshow/slideshowtransition/speed) { get; set; } | Określa szybkość przejścia, jaka ma być użyta przy przechodzeniu z bieżącego slajdu do następnego. odczyt/zapis [`TransitionSpeed`](../transitionspeed). |
-| [Type](../../aspose.slides.slideshow/slideshowtransition/type) { get; set; } | Typ przejścia. odczyt/zapis [`TransitionType`](../transitiontype). |
-| [Value](../../aspose.slides.slideshow/slideshowtransition/value) { get; } | Wartość przejścia pokazu slajdów. tylko do odczytu [`ITransitionValueBase`](../itransitionvaluebase). |
+| [AdvanceAfter](../../aspose.slides.slideshow/slideshowtransition/advanceafter) { get; set; } | Ten atrybut określa, czy pokaz slajdów przejdzie do następnego slajdu po określonym czasie. Odczyt/zapis Boolean. |
+| [AdvanceAfterTime](../../aspose.slides.slideshow/slideshowtransition/advanceaftertime) { get; set; } | Określa czas w milisekundach, po którym powinna rozpocząć się tranzycja. To ustawienie może być użyte razem z atrybutem advClick. Jeśli atrybut nie zostanie podany, zakłada się, że nie nastąpi automatyczne przechodzenie. Odczyt/zapis UInt32. |
+| [AdvanceOnClick](../../aspose.slides.slideshow/slideshowtransition/advanceonclick) { get; set; } | Określa, czy kliknięcie myszy spowoduje przejście slajdu, czy nie. Jeśli atrybut nie zostanie podany, przyjmuje się wartość true. Odczyt/zapis Boolean. |
+| [Duration](../../aspose.slides.slideshow/slideshowtransition/duration) { get; set; } | Pobiera lub ustawia czas trwania efektu przejścia slajdu w milisekundach. Odczyt/zapis Int32. |
+| [Sound](../../aspose.slides.slideshow/slideshowtransition/sound) { get; set; } | Zwraca lub ustawia osadzone dane audio. Odczyt/zapis [`IAudio`](../../aspose.slides/iaudio). |
+| [SoundIsBuiltIn](../../aspose.slides.slideshow/slideshowtransition/soundisbuiltin) { get; set; } | Określa, czy dźwięk jest wbudowany. Jeśli atrybut jest ustawiony na true, aplikacja generująca zostaje powiadomiona, aby sprawdzić atrybut name podany dla tego dźwięku na swojej liście wbudowanych dźwięków i może wówczas wyświetlić niestandardową nazwę lub interfejs użytkownika w razie potrzeby. Odczyt/zapis Boolean. |
+| [SoundLoop](../../aspose.slides.slideshow/slideshowtransition/soundloop) { get; set; } | Ten atrybut określa, czy dźwięk będzie powtarzany w pętli aż do wystąpienia kolejnego zdarzenia dźwiękowego w pokazie. Odczyt/zapis Boolean. |
+| [SoundMode](../../aspose.slides.slideshow/slideshowtransition/soundmode) { get; set; } | Ustawia lub zwraca tryb dźwięku dla przejścia slajdu. Odczyt/zapis [`TransitionSoundMode`](../transitionsoundmode). |
+| [SoundName](../../aspose.slides.slideshow/slideshowtransition/soundname) { get; set; } | Określa czytelną nazwę dźwięku przejścia. Właściwość [`Sound`](./sound) musi być przypisana, aby pobrać lub ustawić nazwę dźwięku. Odczyt/zapis String. |
+| [Speed](../../aspose.slides.slideshow/slideshowtransition/speed) { get; set; } | Określa prędkość przejścia, która ma być użyta przy przechodzeniu z bieżącego slajdu do następnego. Odczyt/zapis [`TransitionSpeed`](../transitionspeed). |
+| [Type](../../aspose.slides.slideshow/slideshowtransition/type) { get; set; } | Typ przejścia. Odczyt/zapis [`TransitionType`](../transitiontype). |
+| [Value](../../aspose.slides.slideshow/slideshowtransition/value) { get; } | Wartość przejścia pokazu slajdów. Tylko do odczytu [`ITransitionValueBase`](../itransitionvaluebase). |
 
 ## Metody
 
 | Nazwa | Opis |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/slideshowtransition/equals)(object) | Określa, czy dwie instancje SlideShowTransition są równe. odczyt/zapis Boolean. |
-| override [GetHashCode](../../aspose.slides.slideshow/slideshowtransition/gethashcode)() | Służy jako funkcja skrótu dla danego typu, odpowiednia do użycia w algorytmach haszowania oraz strukturach danych, takich jak tablica mieszająca. |
+| override [Equals](../../aspose.slides.slideshow/slideshowtransition/equals)(object) | Określa, czy dwie instancje SlideShowTransition są równe. Odczyt/zapis Boolean. |
+| override [GetHashCode](../../aspose.slides.slideshow/slideshowtransition/gethashcode)() | Służy jako funkcja skrótu dla określonego typu, odpowiednia do użycia w algorytmach haszujących i strukturach danych, takich jak tablica hash. |
 
-### Zobacz także
+### Zobacz również
 
 * klasa [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * klasa [BaseSlide](../../aspose.slides/baseslide)

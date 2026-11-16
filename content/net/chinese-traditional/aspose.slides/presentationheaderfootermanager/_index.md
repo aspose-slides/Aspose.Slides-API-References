@@ -1,14 +1,14 @@
 ---
 title: PresentationHeaderFooterManager
-second_title: Aspose.Sildes 的 .NET API 參考
-description: 表示此管理員負責保存簡報中所有頁腳、日期時間及頁碼佔位符的行為。
+second_title: Aspose.Sildes for .NET API 參考文件
+description: 表示管理員，負責保存簡報中所有頁腳、日期時間和頁碼佔位符的行為。
 type: docs
-weight: 9610
+weight: 9630
 url: /zh-hant/aspose.slides/presentationheaderfootermanager/
 ---
 ## PresentationHeaderFooterManager 類別
 
-表示此管理員負責保存簡報中所有頁腳、日期時間及頁碼佔位符的行為。
+表示管理員，負責保存簡報中所有頁腳、日期時間和頁碼佔位符的行為。
 
 ```csharp
 public class PresentationHeaderFooterManager : BaseHeaderFooterManager, 
@@ -19,16 +19,16 @@ public class PresentationHeaderFooterManager : BaseHeaderFooterManager,
 
 | 名稱 | 說明 |
 | --- | --- |
-| [SetAllDateTimesText](../../aspose.slides/presentationheaderfootermanager/setalldatetimestext)(string) | 將文字設置到所有日期時間占位符，包括母片投影片、版面配置投影片、投影片、註解母片、註解投影片以及講義母片。 |
-| [SetAllDateTimesVisibility](../../aspose.slides/presentationheaderfootermanager/setalldatetimesvisibility)(bool) | 變更所有日期時間占位符的可見性，包括母片投影片、版面配置投影片、投影片、註解母片、註解投影片以及講義母片。 |
-| [SetAllFootersText](../../aspose.slides/presentationheaderfootermanager/setallfooterstext)(string) | 將文字設置到所有頁腳占位符，包括母片投影片、版面配置投影片、投影片、註解母片、註解投影片以及講義母片。 |
-| [SetAllFootersVisibility](../../aspose.slides/presentationheaderfootermanager/setallfootersvisibility)(bool) | 變更所有頁腳占位符的可見性，包括母片投影片、版面配置投影片、投影片、註解母片、註解投影片以及講義母片。 |
-| [SetAllHeadersText](../../aspose.slides/presentationheaderfootermanager/setallheaderstext)(string) | 將文字設置到所有頁首占位符，包括註解母片、註解投影片以及講義母片。 |
-| [SetAllHeadersVisibility](../../aspose.slides/presentationheaderfootermanager/setallheadersvisibility)(bool) | 變更所有頁首占位符的可見性，包括註解母片、註解投影片以及講義母片。 |
-| [SetAllSlideNumbersVisibility](../../aspose.slides/presentationheaderfootermanager/setallslidenumbersvisibility)(bool) | 變更所有頁碼占位符的可見性，包括母片投影片、版面配置投影片、投影片、註解母片、註解投影片以及講義母片。 |
-| [SetVisibilityOnAllTitleSlides](../../aspose.slides/presentationheaderfootermanager/setvisibilityonalltitleslides)(bool) | 變更所有標題投影片以及第一版面配置投影片的頁腳、日期時間與頁碼占位符的可見性。標題投影片 – 基於第一版面配置投影片的投影片（不論此第一版面配置的類型為何）。 |
+| [SetAllDateTimesText](../../aspose.slides/presentationheaderfootermanager/setalldatetimestext)(string) | 設定所有日期時間佔位符的文字，包含母片投影片、版面投影片、投影片、註記母片、註記投影片及講義母片。 |
+| [SetAllDateTimesVisibility](../../aspose.slides/presentationheaderfootermanager/setalldatetimesvisibility)(bool) | 變更所有日期時間佔位符的可見性，包含母片投影片、版面投影片、投影片、註記母片、註記投影片及講義母片。 |
+| [SetAllFootersText](../../aspose.slides/presentationheaderfootermanager/setallfooterstext)(string) | 設定所有頁腳佔位符的文字，包含母片投影片、版面投影片、投影片、註記母片、註記投影片及講義母片。 |
+| [SetAllFootersVisibility](../../aspose.slides/presentationheaderfootermanager/setallfootersvisibility)(bool) | 變更所有頁腳佔位符的可見性，包含母片投影片、版面投影片、投影片、註記母片、註記投影片及講義母片。 |
+| [SetAllHeadersText](../../aspose.slides/presentationheaderfootermanager/setallheaderstext)(string) | 設定所有頁首佔位符的文字，包含註記母片、註記投影片及講義母片。 |
+| [SetAllHeadersVisibility](../../aspose.slides/presentationheaderfootermanager/setallheadersvisibility)(bool) | 變更所有頁首佔位符的可見性，包含註記母片、註記投影片及講義母片。 |
+| [SetAllSlideNumbersVisibility](../../aspose.slides/presentationheaderfootermanager/setallslidenumbersvisibility)(bool) | 變更所有頁碼佔位符的可見性，包含母片投影片、版面投影片、投影片、註記母片、註記投影片及講義母片。 |
+| [SetVisibilityOnAllTitleSlides](../../aspose.slides/presentationheaderfootermanager/setvisibilityonalltitleslides)(bool) | 變更所有標題投影片以及第一版面投影片的頁腳、日期時間與頁碼佔位符的可見性。標題投影片 – 基於第一版面投影片的投影片（不論此第一版面的類型）。 |
 
-### 另請參閱
+### 參見
 
 * 類別 [BaseHeaderFooterManager](../baseheaderfootermanager)
 * 介面 [IPresentationHeaderFooterManager](../ipresentationheaderfootermanager)

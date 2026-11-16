@@ -1,14 +1,14 @@
 ---
 title: ISlideShowTransition
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt den Folienübergang der Diashow dar.
+description: Stellt den Folienpräsentationsübergang dar.
 type: docs
-weight: 7080
+weight: 7100
 url: /de/aspose.slides/islideshowtransition/
 ---
 ## ISlideShowTransition Schnittstelle
 
-Represents slide show transition.
+Stellt den Folienpräsentationsübergang dar.
 
 ```csharp
 public interface ISlideShowTransition
@@ -16,20 +16,20 @@ public interface ISlideShowTransition
 
 ## Eigenschaften
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
-| [AdvanceAfter](../../aspose.slides/islideshowtransition/advanceafter) { get; set; } | Dieses Attribut gibt an, ob die Präsentation nach einer bestimmten Zeit zur nächsten Folie springt. Lesen/Schreiben Boolean. |
-| [AdvanceAfterTime](../../aspose.slides/islideshowtransition/advanceaftertime) { get; set; } | Gibt die Zeit in Millisekunden an, nach der die Transition starten soll. Diese Einstellung kann zusammen mit dem advClick-Attribut verwendet werden. Wenn dieses Attribut nicht angegeben ist, wird angenommen, dass keine automatische Weiterleitung erfolgt. Lesen/Schreiben UInt32. |
-| [AdvanceOnClick](../../aspose.slides/islideshowtransition/advanceonclick) { get; set; } | Gibt an, ob ein Mausklick zur Folienweiterleitung führt oder nicht. Wenn dieses Attribut nicht angegeben ist, wird ein Wert von true angenommen. Lesen/Schreiben Boolean. |
-| [Duration](../../aspose.slides/islideshowtransition/duration) { get; set; } | Liest oder setzt die Dauer des Folienübergangseffekts in Millisekunden. Lesen/Schreiben Int32. |
-| [Sound](../../aspose.slides/islideshowtransition/sound) { get; set; } | Liefert oder setzt die eingebetteten Audiodaten. Lesen/Schreiben [`IAudio`](../iaudio). |
-| [SoundIsBuiltIn](../../aspose.slides/islideshowtransition/soundisbuiltin) { get; set; } | Gibt an, ob dieser Ton ein integrierter Ton ist oder nicht. Wenn dieses Attribut auf true gesetzt ist, wird die erzeugende Anwendung darauf hingewiesen, das name-Attribut dieses Tons in ihrer Liste integrierter Töne zu prüfen und kann dann bei Bedarf einen benutzerdefinierten Namen oder eine Benutzeroberfläche bereitstellen. Lesen/Schreiben Boolean. |
-| [SoundLoop](../../aspose.slides/islideshowtransition/soundloop) { get; set; } | Dieses Attribut gibt an, ob der Ton in der Präsentation wiederholt wird, bis das nächste Tonevent auftritt. Lesen/Schreiben Boolean. |
-| [SoundMode](../../aspose.slides/islideshowtransition/soundmode) { get; set; } | Setzt oder liefert den Soundmodus für den Folienübergang. Lesen/Schreiben [`TransitionSoundMode`](../../aspose.slides.slideshow/transitionsoundmode). |
-| [SoundName](../../aspose.slides/islideshowtransition/soundname) { get; set; } | Gibt einen menschenlesbaren Namen für den Sound des Übergangs an. Die [`Sound`](./sound)-Eigenschaft muss zugewiesen werden, um den Soundnamen zu erhalten oder zu setzen. Lesen/Schreiben String. |
-| [Speed](../../aspose.slides/islideshowtransition/speed) { get; set; } | Gibt die Übergangsgeschwindigkeit an, die beim Übergang von der aktuellen Folie zur nächsten verwendet werden soll. Lesen/Schreiben [`TransitionSpeed`](../../aspose.slides.slideshow/transitionspeed). |
-| [Type](../../aspose.slides/islideshowtransition/type) { get; set; } | Typ des Übergangs. Lesen/Schreiben [`TransitionType`](../../aspose.slides.slideshow/transitiontype). |
-| [Value](../../aspose.slides/islideshowtransition/value) { get; } | Wert des Präsentationsübergangs. Nur-Lesen [`ITransitionValueBase`](../../aspose.slides.slideshow/itransitionvaluebase). |
+| [AdvanceAfter](../../aspose.slides/islideshowtransition/advanceafter) { get; set; } | Dieses Attribut gibt an, ob die Bildschirmpräsentation nach einer bestimmten Zeit zur nächsten Folie wechselt. Lese/Schreib Boolean. |
+| [AdvanceAfterTime](../../aspose.slides/islideshowtransition/advanceaftertime) { get; set; } | Gibt die Zeit in Millisekunden an, nach der der Übergang beginnen soll. Diese Einstellung kann zusammen mit dem advClick-Attribut verwendet werden. Wird dieses Attribut nicht angegeben, wird angenommen, dass kein automatischer Wechsel stattfindet. Lese-Schreib UInt32. |
+| [AdvanceOnClick](../../aspose.slides/islideshowtransition/advanceonclick) { get; set; } | Gibt an, ob ein Mausklick zur Folienweiterleitung führt oder nicht. Wird dieses Attribut nicht angegeben, wird ein Wert von true angenommen. Lese-Schreib Boolean. |
+| [Duration](../../aspose.slides/islideshowtransition/duration) { get; set; } | Liest oder setzt die Dauer des Folienübergangseffekts in Millisekunden. Lese/Schreib Int32. |
+| [Sound](../../aspose.slides/islideshowtransition/sound) { get; set; } | Liefert oder setzt die eingebetteten Audiodaten. Lese-Schreib [`IAudio`](../iaudio). |
+| [SoundIsBuiltIn](../../aspose.slides/islideshowtransition/soundisbuiltin) { get; set; } | Gibt an, ob dieses Geräusch ein integriertes Geräusch ist oder nicht. Wird dieses Attribut auf true gesetzt, wird die erzeugende Anwendung darauf hingewiesen, das Namensattribut für dieses Geräusch in ihrer Liste integrierter Geräusche zu prüfen und kann dann bei Bedarf einen benutzerdefinierten Namen oder eine Benutzeroberfläche bereitstellen. Lese-Schreib Boolean. |
+| [SoundLoop](../../aspose.slides/islideshowtransition/soundloop) { get; set; } | Dieses Attribut gibt an, ob das Geräusch wiederholt wird, bis das nächste Geräuschereignis in der Präsentation auftritt. Lese-Schreib Boolean. |
+| [SoundMode](../../aspose.slides/islideshowtransition/soundmode) { get; set; } | Setzt oder liefert den Klangmodus für den Folienübergang. Lese-Schreib [`TransitionSoundMode`](../../aspose.slides.slideshow/transitionsoundmode). |
+| [SoundName](../../aspose.slides/islideshowtransition/soundname) { get; set; } | Gibt einen menschenlesbaren Namen für das Geräusch des Übergangs an. Die [`Sound`](./sound)-Eigenschaft muss zugewiesen werden, um den Geräuschnamen zu erhalten oder zu setzen. Lese-Schreib String. |
+| [Speed](../../aspose.slides/islideshowtransition/speed) { get; set; } | Gibt die Übergangsgeschwindigkeit an, die beim Übergang von der aktuellen Folie zur nächsten verwendet werden soll. Lese-Schreib [`TransitionSpeed`](../../aspose.slides.slideshow/transitionspeed). |
+| [Type](../../aspose.slides/islideshowtransition/type) { get; set; } | Typ des Übergangs. Lese-Schreib [`TransitionType`](../../aspose.slides.slideshow/transitiontype). |
+| [Value](../../aspose.slides/islideshowtransition/value) { get; } | Wert des Folienpräsentationsübergangs. Nur-Lesen [`ITransitionValueBase`](../../aspose.slides.slideshow/itransitionvaluebase). |
 
 ### Siehe auch
 

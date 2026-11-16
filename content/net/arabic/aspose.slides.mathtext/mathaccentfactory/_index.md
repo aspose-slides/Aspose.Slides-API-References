@@ -1,35 +1,35 @@
 ---
 title: MathAccentFactory
-second_title: Aspose.Sildes لمرجع API .NET
-description: يسمح بإنشاء تنوين رياضي
+second_title: Aspose.Sildes لواجهة برمجة تطبيقات .NET
+description: يسمح بإنشاء لهجة رياضية
 type: docs
-weight: 8540
+weight: 8560
 url: /ar/aspose.slides.mathtext/mathaccentfactory/
 ---
 ## MathAccentFactory فئة
 
-يسمح بإنشاء تنوين رياضي
+يسمح بإنشاء لهجة رياضية
 
 ```csharp
 public class MathAccentFactory : IMathAccentFactory
 ```
 
-## المُنشئات
+## المنشئات
 
 | الاسم | الوصف |
 | --- | --- |
-| [MathAccentFactory](mathaccentfactory)() | المنشئ الافتراضي. |
+| [MathAccentFactory](mathaccentfactory)() | المُنشئ الافتراضي. |
 
 ## الطرق
 
 | الاسم | الوصف |
 | --- | --- |
-| [CreateMathAccent](../../aspose.slides.mathtext/mathaccentfactory/createmathaccent#createmathaccent)(IMathElement) | ينشئ تنوينًا رياضيًا يُطبق على عنصر رياضي محدد باستخدام قيمة حرف التنوين الافتراضية |
-| [CreateMathAccent](../../aspose.slides.mathtext/mathaccentfactory/createmathaccent#createmathaccent_1)(IMathElement, char) | ينشئ تنوينًا رياضيًا يُطبق على عنصر رياضي محدد |
+| [CreateMathAccent](../../aspose.slides.mathtext/mathaccentfactory/createmathaccent#createmathaccent)(IMathElement) | ينشئ لهجة رياضية تُطبَّق على عنصر رياضي محدد باستخدام قيمة حرف التنوين الافتراضية |
+| [CreateMathAccent](../../aspose.slides.mathtext/mathaccentfactory/createmathaccent#createmathaccent_1)(IMathElement, char) | ينشئ لهجة رياضية تُطبَّق على عنصر رياضي محدد |
 
 ### ملاحظات
 
-لتوافق COM
+للتوافق مع COM
 
 ### انظر أيضًا
 

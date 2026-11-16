@@ -1,9 +1,9 @@
 ---
 title: TextSearchOptions
-second_title: Aspose.Sildes para .NET Referência de API
+second_title: Aspose.Sildes para Referência da API .NET
 description: Representa opções que podem ser usadas para pesquisar texto em uma Presentation Slide ou TextFrame.
 type: docs
-weight: 10970
+weight: 10990
 url: /pt/aspose.slides/textsearchoptions/
 ---
 ## TextSearchOptions classe
@@ -24,11 +24,11 @@ public class TextSearchOptions : ITextSearchOptions
 
 | Name | Description |
 | --- | --- |
-| [CaseSensitive](../../aspose.slides/textsearchoptions/casesensitive) { get; set; } | Defina true para usar pesquisa sensível a maiúsculas e minúsculas, false caso contrário. Leitura/gravação Boolean. |
-| [IncludeNotes](../../aspose.slides/textsearchoptions/includenotes) { get; set; } | Defina `true` para incluir texto contido nas notas do slide ([`NotesSlide`](../notesslide)) ao realizar pesquisa de texto, substituição ou operações de realce. O valor padrão é `false`. |
-| [WholeWordsOnly](../../aspose.slides/textsearchoptions/wholewordsonly) { get; set; } | Defina true para corresponder apenas a palavras inteiras, false caso contrário. Leitura/gravação Boolean. |
+| [CaseSensitive](../../aspose.slides/textsearchoptions/casesensitive) { get; set; } | Defina true para usar pesquisa que diferencia maiúsculas de minúsculas, false caso contrário. Leitura/gravação Boolean. |
+| [IncludeNotes](../../aspose.slides/textsearchoptions/includenotes) { get; set; } | Defina `true` para incluir texto contido nas notas do slide ([`NotesSlide`](../notesslide)) ao executar operações de pesquisa, substituição ou realce de texto. O valor padrão é `false`. |
+| [WholeWordsOnly](../../aspose.slides/textsearchoptions/wholewordsonly) { get; set; } | Defina true para combinar apenas palavras inteiras, false caso contrário. Leitura/gravação Boolean. |
 
-### Ver também
+### Veja também
 
 * interface [ITextSearchOptions](../itextsearchoptions)
 * espaço de nomes [Aspose.Slides](../../aspose.slides)

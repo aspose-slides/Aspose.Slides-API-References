@@ -1,33 +1,33 @@
 ---
 title: TextToHtmlConversionOptions
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Tùy chọn để trích xuất HTML từ văn bản Pptx.
+second_title: Aspose.Sildes cho .NET Tham khảo API
+description: Các tùy chọn để trích xuất HTML từ văn bản Pptx.
 type: docs
-weight: 4550
+weight: 4570
 url: /vi/aspose.slides.export/texttohtmlconversionoptions/
 ---
 ## TextToHtmlConversionOptions lớp
 
-Tùy chọn cho việc trích xuất HTML từ văn bản Pptx.
+Các tùy chọn để trích xuất HTML từ văn bản Pptx.
 
 ```csharp
 public sealed class TextToHtmlConversionOptions : ITextToHtmlConversionOptions
 ```
 
-## Hàm khởi tạo
+## Hàm tạo
 
-| Name | Description |
+| Tên | Mô tả |
 | --- | --- |
-| [TextToHtmlConversionOptions](texttohtmlconversionoptions)() | Hàm khởi tạo mặc định. |
+| [TextToHtmlConversionOptions](texttohtmlconversionoptions)() | Hàm tạo mặc định. |
 
 ## Thuộc tính
 
-| Name | Description |
+| Tên | Mô tả |
 | --- | --- |
-| [AddClipboardFragmentHeader](../../aspose.slides.export/texttohtmlconversionoptions/addclipboardfragmentheader) { get; set; } | Trả về hoặc đặt giá trị, cho biết liệu có nên thêm tiêu đề Clipboard hay không. Đọc/ghi Boolean. |
-| [EncodingName](../../aspose.slides.export/texttohtmlconversionoptions/encodingname) { get; set; } | Trả về hoặc đặt tên mã hoá html. Giá trị này sẽ được lưu vào tệp HTML được tạo, nhưng việc đảm bảo tệp sẽ được lưu bằng mã hoá này là trách nhiệm của người gọi. Đọc/ghi String. |
-| [LinkEmbedController](../../aspose.slides.export/texttohtmlconversionoptions/linkembedcontroller) { get; set; } | Trả về hoặc đặt một đối tượng callback điều khiển cách đối tượng bên ngoài sẽ được lưu trữ. Đọc/ghi [`ILinkEmbedController`](../ilinkembedcontroller). |
-| [TextInheritanceLimit](../../aspose.slides.export/texttohtmlconversionoptions/textinheritancelimit) { get; set; } | Trả về hoặc đặt độ sâu kế thừa cho thuộc tính văn bản. Đọc/ghi [`TextInheritanceLimit`](../textinheritancelimit). |
+| [AddClipboardFragmentHeader](../../aspose.slides.export/texttohtmlconversionoptions/addclipboardfragmentheader) { get; set; } | Trả về hoặc thiết lập giá trị, cho biết nếu tiêu đề Clipboard nên được thêm vào. Đọc/ghi Boolean. |
+| [EncodingName](../../aspose.slides.export/texttohtmlconversionoptions/encodingname) { get; set; } | Trả về hoặc thiết lập tên mã hóa html. Giá trị này sẽ được lưu vào tệp HTML đã tạo, nhưng phụ thuộc vào người gọi để đảm bảo tệp sẽ được lưu bằng mã hóa này. Đọc/ghi String. |
+| [LinkEmbedController](../../aspose.slides.export/texttohtmlconversionoptions/linkembedcontroller) { get; set; } | Trả về hoặc thiết lập đối tượng callback điều khiển cách đối tượng bên ngoài sẽ được lưu. Đọc/ghi [`ILinkEmbedController`](../ilinkembedcontroller). |
+| [TextInheritanceLimit](../../aspose.slides.export/texttohtmlconversionoptions/textinheritancelimit) { get; set; } | Trả về hoặc thiết lập độ sâu kế thừa cho các thuộc tính văn bản. Đọc/ghi [`TextInheritanceLimit`](../textinheritancelimit). |
 
 ### Xem thêm
 

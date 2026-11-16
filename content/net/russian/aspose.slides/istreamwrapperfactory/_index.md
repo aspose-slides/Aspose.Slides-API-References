@@ -1,29 +1,29 @@
 ---
 title: IStreamWrapperFactory
 second_title: Aspose.Sildes для .NET справочник API
-description: Фабрика StreamWrapper'ов. Для COM-интерфейса.
+description: Фабрика StreamWrappers. Для COM-интерфейса.
 type: docs
-weight: 7140
+weight: 7160
 url: /ru/aspose.slides/istreamwrapperfactory/
 ---
 ## IStreamWrapperFactory интерфейс
 
-Фабрика StreamWrapper'ов. Для COM-интерфейса.
+Фабрика StreamWrappers. Для COM-интерфейса.
 
 ```csharp
 public interface IStreamWrapperFactory
 ```
 
-## Methods
+## Методы
 
 | Имя | Описание |
 | --- | --- |
 | [CreateFileStreamWrapper](../../aspose.slides/istreamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper)(string, FileMode) | Создаёт FileStream с указанным путём и режимом создания. |
-| [CreateFileStreamWrapper](../../aspose.slides/istreamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper_1)(string, FileMode, FileAccess) | Создаёт FileStream с указанным путём, режимом создания и разрешением чтения/записи. |
+| [CreateFileStreamWrapper](../../aspose.slides/istreamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper_1)(string, FileMode, FileAccess) | Создаёт FileStream с указанным путём, режимом создания и правом чтения/записи. |
 | [CreateMemoryStreamWrapper](../../aspose.slides/istreamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper)() | Создаёт обёртку MemoryStream. |
 | [CreateMemoryStreamWrapper](../../aspose.slides/istreamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper_1)(byte[]) | Создаёт обёртку MemoryStream на основе указанного массива байтов. |
 
-### Смотрите также
+### См. также
 
 * пространство имён [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

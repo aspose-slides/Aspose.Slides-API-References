@@ -1,14 +1,14 @@
 ---
 title: HtmlOptions
-second_title: مرجع API Aspose.Sildes برای .NET
-description: نمایش‌دهنده گزینه‌های خروجی HTML.
+second_title: Aspose.Sildes برای .NET مرجع API
+description: گزینه‌های صادرات HTML را نشان می‌دهد.
 type: docs
-weight: 3890
+weight: 3910
 url: /fa/aspose.slides.export/htmloptions/
 ---
 ## کلاس HtmlOptions
 
-نمایشگر گزینه‌های خروجی HTML.
+گزینه‌های صادرات HTML را نشان می‌دهد.
 
 ```csharp
 public class HtmlOptions : SaveOptions, IHtmlOptions
@@ -16,36 +16,36 @@ public class HtmlOptions : SaveOptions, IHtmlOptions
 
 ## سازنده‌ها
 
-| Name | Description |
+| نام | توضیح |
 | --- | --- |
-| [HtmlOptions](htmloptions#constructor)() | یک شیء جدید HtmlOptions برای ذخیره‌سازی در یک فایل HTML واحد ایجاد می‌کند. |
-| [HtmlOptions](htmloptions#constructor_1)(ILinkEmbedController) | یک شیء جدید HtmlOptions با تعیین فراخوانی بازگشتی ایجاد می‌کند. |
+| [HtmlOptions](htmloptions#constructor)() | یک شیء جدید HtmlOptions را برای ذخیره‌سازی در یک فایل HTML تک ایجاد می‌کند. |
+| [HtmlOptions](htmloptions#constructor_1)(ILinkEmbedController) | یک شیء جدید HtmlOptions را با مشخص کردن بازخوانی ایجاد می‌کند. |
 
 ## ویژگی‌ها
 
-| Name | Description |
+| نام | توضیح |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | فونتی را که در صورت عدم یافتن فونت منبع استفاده می‌شود، برمی‌گرداند یا تنظیم می‌کند. Read-write String. |
-| [DeletePicturesCroppedAreas](../../aspose.slides.export/htmloptions/deletepicturescroppedareas) { get; set; } | پرچمی بولی که نشان می‌دهد آیا بخش‌های بریده‌شده باقی می‌مانند یا نه. اگر true باشد بخش‌های بریده‌شده حذف می‌شوند، اگر false باشند در سند سریالیزه می‌شوند (که می‌تواند منجر به فایل بزرگتر شود) |
-| [DisableFontLigatures](../../aspose.slides.export/htmloptions/disablefontligatures) { get; set; } | مقداردهی که تعیین می‌کند آیا متن بدون استفاده از لیگچرها رندر شود. هنگامی که `true` تنظیم شود، لیگچرها در خروجی رندردهی غیرفعال می‌شوند. به طور پیش‌فرض این ویژگی `false` است. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | سبک بصری گرادیان را باز می‌گرداند یا تنظیم می‌کند. Read/write [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [HtmlFormatter](../../aspose.slides.export/htmloptions/htmlformatter) { get; set; } | قالب HTML را باز می‌گرداند یا تنظیم می‌کند. Read/write [`IHtmlFormatter`](../ihtmlformatter). |
-| [InkOptions](../../aspose.slides.export/htmloptions/inkoptions) { get; } | گزینه‌هایی که ظاهر اشیا Ink را در سند خروجی کنترل می‌کند، فراهم می‌کند. Read-only [`IInkOptions`](../iinkoptions) |
-| [JpegQuality](../../aspose.slides.export/htmloptions/jpegquality) { get; set; } | مقداردهی که کیفیت تصاویر JPEG داخل سند PDF را تعیین می‌کند. Read/write Byte. |
-| [PicturesCompression](../../aspose.slides.export/htmloptions/picturescompression) { get; set; } | سطح فشرده‌سازی تصاویر را نمایان می‌کند |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | شیء فراخوانی بازگشتی برای دریافت به‌روزرسانی‌های پیشرفت ذخیره‌سازی به درصد. ببینید [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [ShowHiddenSlides](../../aspose.slides.export/htmloptions/showhiddenslides) { get; set; } | تعیین می‌کند آیا اسلایدهای مخفی باید در سند تولید شده گنجانده شوند یا نه. مقدار پیش‌فرض `false` است. |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | تعیین می‌کند آیا هنگام ذخیره‌سازی ارائه، فراخوانی‌های JavaScript درهایهای‌معرفی را نادیده بگیرد. Read/write Boolean. مقدار پیش‌فرض **false** است. |
-| [SlideImageFormat](../../aspose.slides.export/htmloptions/slideimageformat) { get; set; } | گزینه‌های فرمت تصویر اسلاید را باز می‌گرداند یا تنظیم می‌کند. Read/write [`ISlideImageFormat`](../islideimageformat). |
-| [SlidesLayoutOptions](../../aspose.slides.export/htmloptions/slideslayoutoptions) { get; set; } | حالت قرارگیری اسلایدها بر روی صفحه هنگام خروجی گرفتن ارائه را باز می‌گرداند یا تنظیم می‌کند [`ISlidesLayoutOptions`](../islideslayoutoptions). |
-| [SvgResponsiveLayout](../../aspose.slides.export/htmloptions/svgresponsivelayout) { get; set; } | true برای حذف ویژگی‌های width و height از محفظه svg - که باعث می‌شود طرح واکنش‌گرا شود. false - در غیر این صورت. Read/write Boolean. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | یک شیء که هشدارها را دریافت می‌کند و تصمیم می‌گیرد آیا فرآیند بارگذاری ادامه یابد یا قطع شود، باز می‌گرداند یا تنظیم می‌کند. Read/write [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | فونتی را که در صورت عدم یافتن فونت منبع استفاده می‌شود، برمی‌گرداند یا تنظیم می‌کند. قابل خواندن و نوشتن String. |
+| [DeletePicturesCroppedAreas](../../aspose.slides.export/htmloptions/deletepicturescroppedareas) { get; set; } | یک پرچم بولی نشان می‌دهد که آیا بخش‌های برش‌خورده به عنوان بخشی از سند باقی می‌مانند یا نه. اگر true باشد، بخش‌های برش‌خورده حذف می‌شوند؛ اگر false باشد، در سند سریالیزه می‌شوند (که ممکن است منجر به فایل بزرگ‌تر شود). |
+| [DisableFontLigatures](../../aspose.slides.export/htmloptions/disablefontligatures) { get; set; } | مقداری را که نشان می‌دهد متن بدون استفاده از لیگچرها رندر می‌شود، می‌گیرد یا تنظیم می‌کند. وقتی به `true` تنظیم شود، لیگچرها در خروجی رندر شده غیرفعال می‌شوند. به طور پیش‌فرض، این ویژگی به `false` تنظیم شده است. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | استایل بصری گرادیان را برمی‌گرداند یا تنظیم می‌کند. قابل خواندن/نوشتن [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [HtmlFormatter](../../aspose.slides.export/htmloptions/htmlformatter) { get; set; } | قالب HTML را برمی‌گرداند یا تنظیم می‌کند. قابل خواندن/نوشتن [`IHtmlFormatter`](../ihtmlformatter). |
+| [InkOptions](../../aspose.slides.export/htmloptions/inkoptions) { get; } | گزینه‌هایی که ظاهر اشیای Ink را در سند صادرشده کنترل می‌کنند، فراهم می‌کند. فقط-قابل-خواندن [`IInkOptions`](../iinkoptions) |
+| [JpegQuality](../../aspose.slides.export/htmloptions/jpegquality) { get; set; } | مقداری را که کیفیت تصاویر JPEG داخل سند PDF را تعیین می‌کند، برمی‌گرداند یا تنظیم می‌کند. قابل خواندن/نوشتن Byte. |
+| [PicturesCompression](../../aspose.slides.export/htmloptions/picturescompression) { get; set; } | سطح فشرده‌سازی تصاویر را نشان می‌دهد |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | شیء بازخوانی برای ذخیره‌سازی به‌روزرسانی‌های پیشرفت به‌صورت درصدی را نشان می‌دهد. به [`IProgressCallback`](../../aspose.slides/iprogresscallback) نگاه کنید. |
+| [ShowHiddenSlides](../../aspose.slides.export/htmloptions/showhiddenslides) { get; set; } | مشخص می‌کند که آیا سند تولیدشده باید اسلایدهای مخفی را شامل شود یا نه. مقدار پیش‌فرض `false` است. |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | مشخص می‌کند که آیا هنگام ذخیره ارائه، پیوندهای ابرمتنی که شامل فراخوانی‌های JavaScript هستند، صرف‌نظر شوند یا نه. قابل خواندن/نوشتن Boolean. مقدار پیش‌فرض **false** است. |
+| [SlideImageFormat](../../aspose.slides.export/htmloptions/slideimageformat) { get; set; } | گزینه‌های فرمت تصویر اسلاید را برمی‌گرداند یا تنظیم می‌کند. قابل خواندن/نوشتن [`ISlideImageFormat`](../islideimageformat). |
+| [SlidesLayoutOptions](../../aspose.slides.export/htmloptions/slideslayoutoptions) { get; set; } | حالت قرارگیری اسلایدها بر روی صفحه هنگام خروجی گرفتن از ارائه [`ISlidesLayoutOptions`](../islideslayoutoptions) را می‌گیرد یا تنظیم می‌کند. |
+| [SvgResponsiveLayout](../../aspose.slides.export/htmloptions/svgresponsivelayout) { get; set; } | اگر true باشد، ویژگی‌های عرض و ارتفاع از محفظه svg حذف می‌شوند - که لایه‌بندی را واکنش‌گرا می‌کند. اگر false باشد، این‌طور نیست. قابل خواندن/نوشتن Boolean. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | شیئی را که هشدارها را دریافت می‌کند و تصمیم می‌گیرد آیا فرایند بارگذاری ادامه یابد یا قطع شود، برمی‌گرداند یا تنظیم می‌کند. قابل خواندن/نوشتن [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### موارد مرتبط
 
-* class [SaveOptions](../saveoptions)
-* interface [IHtmlOptions](../ihtmloptions)
-* namespace [Aspose.Slides.Export](../../aspose.slides.export)
-* assembly [Aspose.Slides](../../)
+* کلاس [SaveOptions](../saveoptions)
+* واسط [IHtmlOptions](../ihtmloptions)
+* فضای‌نام [Aspose.Slides.Export](../../aspose.slides.export)
+* مجمع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

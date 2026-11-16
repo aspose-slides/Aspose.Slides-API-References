@@ -1,14 +1,14 @@
 ---
 title: ILayoutable
-second_title: Aspose.Sildes für .NET API Referenz
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Gibt die genaue Position eines Diagrammelements an.
 type: docs
-weight: 2120
+weight: 2140
 url: /de/aspose.slides.charts/ilayoutable/
 ---
 ## ILayoutable Schnittstelle
 
-Specifies the exact position of a chart element.
+Gibt die genaue Position eines Diagrammelements an.
 
 ```csharp
 public interface ILayoutable : IChartComponent
@@ -16,15 +16,15 @@ public interface ILayoutable : IChartComponent
 
 ## Eigenschaften
 
-| Name | Description |
+| Name | Beschreibung |
 | --- | --- |
-| [AsIChartComponent](../../aspose.slides.charts/ilayoutable/asichartcomponent) { get; } | Ermöglicht das Abrufen der Basis IChartComponent Schnittstelle. Nur lesend [`IChartComponent`](../ichartcomponent). |
-| [Bottom](../../aspose.slides.charts/ilayoutable/bottom) { get; } | Liefert den oberen Rand des Diagrammelements als Bruchteil der Diagrammhöhe. Nur lesend Single. |
-| [Height](../../aspose.slides.charts/ilayoutable/height) { get; set; } | Gibt die Höhe des Diagrammelements als Bruchteil der Diagrammhöhe an. Lesen/Schreiben Single. |
-| [Right](../../aspose.slides.charts/ilayoutable/right) { get; } | Liefert das rechte Ende des Diagrammelements als Bruchteil der Diagrammbreite. Nur lesend Single. |
-| [Width](../../aspose.slides.charts/ilayoutable/width) { get; set; } | Gibt die Breite des Diagrammelements als Bruchteil der Diagrammbreite an. Lesen/Schreiben Single. |
-| [X](../../aspose.slides.charts/ilayoutable/x) { get; set; } | Gibt die x-Position (links) des Diagrammelements als Bruchteil der Diagrammbreite an. Lesen/Schreiben Single. |
-| [Y](../../aspose.slides.charts/ilayoutable/y) { get; set; } | Gibt den oberen Rand des Diagrammelements als Bruchteil der Diagrammhöhe an. Lesen/Schreiben Single. |
+| [AsIChartComponent](../../aspose.slides.charts/ilayoutable/asichartcomponent) { get; } | Ermöglicht das Abrufen der Basis-IChartComponent-Schnittstelle. Nur lesbar [`IChartComponent`](../ichartcomponent). |
+| [Bottom](../../aspose.slides.charts/ilayoutable/bottom) { get; } | Ermittelt den oberen Rand des Diagrammelements als Bruchteil der Höhe des Diagramms. Nur lesbar Single. |
+| [Height](../../aspose.slides.charts/ilayoutable/height) { get; set; } | Gibt die Höhe des Diagrammelements als Bruchteil der Höhe des Diagramms an. Lese/Schreib Single. |
+| [Right](../../aspose.slides.charts/ilayoutable/right) { get; } | Ermittelt den rechten Rand des Diagrammelements als Bruchteil der Breite des Diagramms. Nur lesbar Single. |
+| [Width](../../aspose.slides.charts/ilayoutable/width) { get; set; } | Gibt die Breite des Diagrammelements als Bruchteil der Breite des Diagramms an. Lese/Schreib Single. |
+| [X](../../aspose.slides.charts/ilayoutable/x) { get; set; } | Gibt die x-Position (links) des Diagrammelements als Bruchteil der Breite des Diagramms an. Lese/Schreib Single. |
+| [Y](../../aspose.slides.charts/ilayoutable/y) { get; set; } | Gibt den oberen Rand des Diagrammelements als Bruchteil der Höhe des Diagramms an. Lese/Schreib Single. |
 
 ### Siehe auch
 

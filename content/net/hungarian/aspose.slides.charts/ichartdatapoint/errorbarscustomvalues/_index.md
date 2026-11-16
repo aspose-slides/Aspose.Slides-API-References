@@ -1,14 +1,14 @@
 ---
 title: ErrorBarsCustomValues
-second_title: Aspose.Sildes a .NET API hivatkozás
-description: Sorozat hibasáv értékeit ábrázolja egyéni értéktípus esetén. Csak olvasható IErrorBarsCustomValuesaspose.slides.charts/ierrorbarscustomvalues.
+second_title: Aspose.Sildes .NET API referencia
+description: A sorozat hibasáv értékeit jelöli egyedi értéktípus esetén. Csak olvasható IErrorBarsCustomValuesaspose.slides.charts/ierrorbarscustomvalues.
 type: docs
-weight: 50
+weight: 90
 url: /hu/aspose.slides.charts/ichartdatapoint/errorbarscustomvalues/
 ---
 ## IChartDataPoint.ErrorBarsCustomValues tulajdonság
 
-Ábrázolja a sorozat hibasáv értékeit az Egyéni értéktípus esetén. Csak olvasható [`IErrorBarsCustomValues`](../../ierrorbarscustomvalues).
+A sorozat hibasáv értékeit jelöli egyéni értéktípus esetén. Csak olvasható [`IErrorBarsCustomValues`](../../ierrorbarscustomvalues).
 
 ```csharp
 public IErrorBarsCustomValues ErrorBarsCustomValues { get; }

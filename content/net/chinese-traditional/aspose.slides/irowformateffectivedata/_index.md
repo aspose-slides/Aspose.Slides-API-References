@@ -1,9 +1,9 @@
 ---
 title: IRowFormatEffectiveData
-second_title: Aspose.Sildes for .NET API 參考
+second_title: Aspose.Sildes for .NET API 參考文件
 description: 不可變的物件，包含有效的表格列格式屬性。
 type: docs
-weight: 6880
+weight: 6900
 url: /zh-hant/aspose.slides/irowformateffectivedata/
 ---
 ## IRowFormatEffectiveData 介面
@@ -16,15 +16,15 @@ public interface IRowFormatEffectiveData : IBaseTableFormatEffectiveData
 
 ## 屬性
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
 | [AsIBaseTableFormatEffectiveData](../../aspose.slides/irowformateffectivedata/asibasetableformateffectivedata) { get; } | 允許取得基礎 IBaseTableFormatEffectiveData 介面。唯讀 [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata)。 |
 
 ### 備註
 
-此介面與 [`IRowFormat`](../irowformat) 介面一起使用，以回傳套用繼承與表格樣式後的有效格式化值。
+此介面與 [`IRowFormat`](../irowformat) 介面一起使用，返回套用繼承與表格樣式的有效格式值。
 
-### 另請參閱
+### 另見
 
 * 介面 [IBaseTableFormatEffectiveData](../ibasetableformateffectivedata)
 * 命名空間 [Aspose.Slides](../../aspose.slides)

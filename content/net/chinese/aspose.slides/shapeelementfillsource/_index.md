@@ -1,14 +1,14 @@
 ---
 title: ShapeElementFillSource
-second_title: Aspose.Sildes for .NET API 参考
-description: 表示形状元素的填充方式。
+second_title: Aspose.Sildes .NET API 参考
+description: 表示形状元素应如何填充。
 type: docs
-weight: 9880
+weight: 9900
 url: /zh/aspose.slides/shapeelementfillsource/
 ---
 ## ShapeElementFillSource 枚举
 
-表示形状元素的填充方式。
+表示形状元素应如何填充。
 
 ```csharp
 public enum ShapeElementFillSource : byte
@@ -16,16 +16,16 @@ public enum ShapeElementFillSource : byte
 
 ### 值
 
-| 名称 | 值 | 描述 |
+| Name | Value | Description |
 | --- | --- | --- |
-| NoFill | `0` | 不填充原始对象。 |
+| NoFill | `0` | 不填充原始形状。 |
 | Shape | `1` | 使用形状的填充。 |
 | Lighten | `2` | 使用变亮的形状填充。 |
-| LightenLess | `3` | 使用稍微变亮的形状填充。 |
+| LightenLess | `3` | 使用较少变亮的形状填充。 |
 | Darken | `4` | 使用变暗的形状填充。 |
-| DarkenLess | `5` | 使用稍微变暗的形状填充。 |
+| DarkenLess | `5` | 使用较少变暗的形状填充。 |
 
-### 另请参见
+### 另见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

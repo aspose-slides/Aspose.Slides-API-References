@@ -1,14 +1,14 @@
 ---
 title: TabFactory
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Consente di creare istanze di ITab
+second_title: Aspose.Sildes per .NET API Reference
+description: Consente di creare istanze ITab
 type: docs
-weight: 10850
+weight: 10870
 url: /it/aspose.slides/tabfactory/
 ---
 ## TabFactory classe
 
-Consente di creare istanze di ITab
+Consente di creare istanze ITab
 
 ```csharp
 public class TabFactory : ITabFactory
@@ -16,15 +16,15 @@ public class TabFactory : ITabFactory
 
 ## Costruttori
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
 | [TabFactory](tabfactory)() | Il costruttore predefinito. |
 
 ## Metodi
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
-| [CreateTab](../../aspose.slides/tabfactory/createtab)(double, TabAlignment) | Crea una nuova istanza di ITab. |
+| [CreateTab](../../aspose.slides/tabfactory/createtab)(double, TabAlignment) | Crea una nuova istanza ITab. |
 
 ### Osservazioni
 

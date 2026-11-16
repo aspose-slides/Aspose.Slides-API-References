@@ -1,14 +1,14 @@
 ---
 title: ErrorBarsFormat
-second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Représente les barres d'erreur d'une série de graphique. Les valeurs personnalisées d'ErrorBars se trouvent dans IChartDataPointCollection dans la propriété ErrorBarsCustomValues./ichartdatapoint/errorbarscustomvalues.
+second_title: Référence API Aspose.Sildes pour .NET
+description: Représente les barres d'erreur des séries de graphique. Les valeurs personnalisées d'ErrorBars se trouvent dans IChartDataPointCollection dans la propriété ErrorBarsCustomValues./ichartdatapoint/errorbarscustomvalues.
 type: docs
-weight: 1670
+weight: 1680
 url: /fr/aspose.slides.charts/errorbarsformat/
 ---
 ## ErrorBarsFormat classe
 
-Représente les barres d'erreur d'une série de graphique. Les valeurs personnalisées d'ErrorBars se trouvent dans IChartDataPointCollection (dans la propriété [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues)).
+Représente les barres d'erreur des séries de graphique. Les valeurs personnalisées d'ErrorBars se trouvent dans IChartDataPointCollection (dans la propriété [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues)).
 
 ```csharp
 public class ErrorBarsFormat : DomObject<ChartSeries>, IErrorBarsFormat
@@ -18,13 +18,13 @@ public class ErrorBarsFormat : DomObject<ChartSeries>, IErrorBarsFormat
 
 | Nom | Description |
 | --- | --- |
-| [Chart](../../aspose.slides.charts/errorbarsformat/chart) { get; } | Retourne le graphique parent. Lecture seule [`IChart`](../ichart). |
+| [Chart](../../aspose.slides.charts/errorbarsformat/chart) { get; } | Renvoie le graphique parent. Lecture seule [`IChart`](../ichart). |
 | [Format](../../aspose.slides.charts/errorbarsformat/format) { get; set; } | Représente le format des barres d'erreur. Lecture/écriture [`IFormat`](../iformat). |
-| [HasEndCap](../../aspose.slides.charts/errorbarsformat/hasendcap) { get; set; } | Indique qu'une extrémité n'est pas dessinée sur les barres d'erreur. Lecture/écriture Boolean. |
-| [IsVisible](../../aspose.slides.charts/errorbarsformat/isvisible) { get; set; } | Obtient ou définit la visibilité des barres d'erreur. Lecture/écriture Boolean. |
+| [HasEndCap](../../aspose.slides.charts/errorbarsformat/hasendcap) { get; set; } | Spécifie qu'une extrémité n'est pas dessinée sur les barres d'erreur. Lecture/écriture Boolean. |
+| [IsVisible](../../aspose.slides.charts/errorbarsformat/isvisible) { get; set; } | Obtient ou définit la visibilité des Error Bars. Lecture/écriture Boolean. |
 | [Type](../../aspose.slides.charts/errorbarsformat/type) { get; set; } | Obtient ou définit le type des barres d'erreur. Lecture/écriture [`ErrorBarType`](../errorbartype). |
-| [Value](../../aspose.slides.charts/errorbarsformat/value) { get; set; } | Obtient ou définit la valeur utilisée avec les types de valeur Fixed, Percentage et StandardDeviation pour déterminer la longueur des barres d'erreur. Dans tout autre cas, renvoie NaN. Lecture/écriture Single. |
-| [ValueType](../../aspose.slides.charts/errorbarsformat/valuetype) { get; set; } | Représente les façons possibles de déterminer la longueur des barres d'erreur. Dans le cas d'un type de valeur personnalisé, utilisez la propriété [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues) du point de données spécifique dans la collection DataPoints de la série. Dans le cas d'un type de valeur Fixed, Percentage ou StandardDeviation, utilisez la propriété Value pour spécifier la valeur. Lecture/écriture [`ErrorBarValueType`](../errorbarvaluetype). |
+| [Value](../../aspose.slides.charts/errorbarsformat/value) { get; set; } | Obtient ou définit la valeur utilisée avec les types de valeur Fixed, Percentage et StandardDeviation pour déterminer la longueur des barres d'erreur. Dans tout autre cas, renverra NaN. Lecture/écriture Single. |
+| [ValueType](../../aspose.slides.charts/errorbarsformat/valuetype) { get; set; } | Représente les façons possibles de déterminer la longueur des barres d'erreur. Dans le cas d'un type de valeur personnalisé, pour spécifier la valeur utilisez la propriété [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues) du point de données spécifique dans la collection DataPoints de la série. Dans le cas d'un type de valeur Fixed, Percentage ou StandardDeviation, utilisez la propriété Value pour spécifier la valeur. Lecture/écriture [`ErrorBarValueType`](../errorbarvaluetype). |
 
 ### Voir aussi
 

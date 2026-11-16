@@ -1,14 +1,14 @@
 ---
 title: IFillOverlay
-second_title: Aspose.Sildes для .NET API Reference
-description: Представляет эффект наложения заливки. Наложение заливки может использоваться для указания дополнительной заливки объекта и смешивания двух заливок вместе.
+second_title: Aspose.Sildes для .NET справочник API
+description: Представляет эффект Fill Overlay. Fill overlay может использоваться для указания дополнительного заполнения объекта и смешивания двух заполнений.
 type: docs
-weight: 3300
+weight: 3320
 url: /ru/aspose.slides.effects/ifilloverlay/
 ---
 ## IFillOverlay интерфейс
 
-Представляет эффект наложения заливки. Наложение заливки может использоваться для указания дополнительной заливки объекта и смешивания двух заливок вместе.
+Represents a Fill Overlay effect. A fill overlay may be used to specify an additional fill for an object and blend the two fills together.
 
 ```csharp
 public interface IFillOverlay : IAccessiblePVIObject<IFillOverlayEffectiveData>, 
@@ -22,7 +22,7 @@ public interface IFillOverlay : IAccessiblePVIObject<IFillOverlayEffectiveData>,
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/ifilloverlay/asiaccessiblepviobject) { get; } | Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
 | [AsIImageTransformOperation](../../aspose.slides.effects/ifilloverlay/asiimagetransformoperation) { get; } | Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтения [`IImageTransformOperation`](../iimagetransformoperation). |
 | [Blend](../../aspose.slides.effects/ifilloverlay/blend) { get; set; } | FillBlendMode. Чтение/запись [`FillBlendMode`](../../aspose.slides/fillblendmode). |
-| [FillFormat](../../aspose.slides.effects/ifilloverlay/fillformat) { get; } | Формат заливки. Только для чтения [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [FillFormat](../../aspose.slides.effects/ifilloverlay/fillformat) { get; } | Fill format. Только для чтения [`IFillFormat`](../../aspose.slides/ifillformat). |
 
 ### См. также
 

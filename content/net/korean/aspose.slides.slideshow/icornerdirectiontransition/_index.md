@@ -3,7 +3,7 @@ title: ICornerDirectionTransition
 second_title: Aspose.Sildes for .NET API 참조
 description: 코너 방향 슬라이드 전환 효과.
 type: docs
-weight: 10060
+weight: 10080
 url: /ko/aspose.slides.slideshow/icornerdirectiontransition/
 ---
 ## ICornerDirectionTransition 인터페이스

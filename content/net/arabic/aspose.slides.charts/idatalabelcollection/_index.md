@@ -1,14 +1,14 @@
 ---
 title: IDataLabelCollection
-second_title: Aspose.Sildes لـ .NET مرجع API
-description: يمثل تسميات السلسلة.
+second_title: Aspose.Sildes ل .NET مرجع API
+description: يمثل ملصقات السلسلة.
 type: docs
-weight: 2030
+weight: 2050
 url: /ar/aspose.slides.charts/idatalabelcollection/
 ---
 ## IDataLabelCollection واجهة
 
-Represents a series labels.
+يمثل ملصقات السلسلة.
 
 ```csharp
 public interface IDataLabelCollection : IChartComponent, IEnumerable<IDataLabel>
@@ -18,22 +18,23 @@ public interface IDataLabelCollection : IChartComponent, IEnumerable<IDataLabel>
 
 | الاسم | الوصف |
 | --- | --- |
-| [AsIChartComponent](../../aspose.slides.charts/idatalabelcollection/asichartcomponent) { get; } | يسمح بالحصول على واجهة IChartComponent الأساسية. للقراءة فقط [`IChartComponent`](../ichartcomponent). |
-| [AsIEnumerable](../../aspose.slides.charts/idatalabelcollection/asienumerable) { get; } | يسمح بالحصول على واجهة IEnumerable الأساسية. للقراءة فقط IEnumerable. |
-| [Count](../../aspose.slides.charts/idatalabelcollection/count) { get; } | يحصل على عدد جميع تسميات البيانات في المجموعة. للقراءة فقط Int32. |
-| [CountOfVisibleDataLabels](../../aspose.slides.charts/idatalabelcollection/countofvisibledatalabels) { get; } | يحصل على عدد تسميات البيانات المرئية في المجموعة. للقراءة فقط Int32. |
-| [DefaultDataLabelFormat](../../aspose.slides.charts/idatalabelcollection/defaultdatalabelformat) { get; } | يعيد التنسيق الافتراضي لجميع تسميات البيانات في المجموعة. للقراءة فقط [`IDataLabelFormat`](../idatalabelformat). |
-| [IsVisible](../../aspose.slides.charts/idatalabelcollection/isvisible) { get; } | False يعني أن تسمية البيانات غير مرئية افتراضيًا (وبالتالي جميع إشارات Show*-flags (ShowValue, ...) للخاصية DefaultDataLabelFormat هي false). للقراءة فقط Boolean. |
-| [Item](../../aspose.slides.charts/idatalabelcollection/item) { get; } | يحصل على تسمية البيانات للنقطة ذات الفهرس المحدد. |
-| [LeaderLinesFormat](../../aspose.slides.charts/idatalabelcollection/leaderlinesformat) { get; } | يمثل تنسيق خطوط الربط لتسميات البيانات. للقراءة فقط [`IChartLinesFormat`](../ichartlinesformat). |
-| [ParentSeries](../../aspose.slides.charts/idatalabelcollection/parentseries) { get; } | يعيد سلسلة المخطط الأصلية. للقراءة فقط [`IChartSeries`](../ichartseries). |
+| [AsIChartComponent](../../aspose.slides.charts/idatalabelcollection/asichartcomponent) { get; } | يسمح بالحصول على واجهة IChartComponent الأساسية. قراءة فقط [`IChartComponent`](../ichartcomponent). |
+| [AsIEnumerable](../../aspose.slides.charts/idatalabelcollection/asienumerable) { get; } | يسمح بالحصول على واجهة IEnumerable الأساسية. قراءة فقط IEnumerable. |
+| [Count](../../aspose.slides.charts/idatalabelcollection/count) { get; } | يحصل على عدد كل ملصقات البيانات في المجموعة. قراءة فقط Int32. |
+| [CountOfVisibleDataLabels](../../aspose.slides.charts/idatalabelcollection/countofvisibledatalabels) { get; } | يحصل على عدد ملصقات البيانات الظاهرة في المجموعة. قراءة فقط Int32. |
+| [DefaultDataLabelFormat](../../aspose.slides.charts/idatalabelcollection/defaultdatalabelformat) { get; } | يرجع التنسيق الافتراضي لجميع ملصقات البيانات في المجموعة. قراءة فقط [`IDataLabelFormat`](../idatalabelformat). |
+| [DefaultLabelShapeType](../../aspose.slides.charts/idatalabelcollection/defaultlabelshapetype) { get; set; } | يحصل أو يحدد نوع الشكل الافتراضي لملصقات البيانات. يرجع NotDefined إذا لم يتم تعريف شكل. |
+| [IsVisible](../../aspose.slides.charts/idatalabelcollection/isvisible) { get; } | False يعني أن ملصق البيانات غير مرئي بشكل افتراضي (وبالتالي جميع علامات Show*-flags (ShowValue, ...) لخاصية DefaultDataLabelFormat هي false). قراءة فقط Boolean. |
+| [Item](../../aspose.slides.charts/idatalabelcollection/item) { get; } | يحصل على ملصق البيانات للنقطة ذات الفهرس المحدد. |
+| [LeaderLinesFormat](../../aspose.slides.charts/idatalabelcollection/leaderlinesformat) { get; } | يمثل تنسيق خطوط القائد لملصقات البيانات. قراءة فقط [`IChartLinesFormat`](../ichartlinesformat). |
+| [ParentSeries](../../aspose.slides.charts/idatalabelcollection/parentseries) { get; } | يرجع سلسلة المخطط الأصلية. قراءة فقط [`IChartSeries`](../ichartseries). |
 
 ## الطرق
 
 | الاسم | الوصف |
 | --- | --- |
-| [Hide](../../aspose.slides.charts/idatalabelcollection/hide)() | اجعل تسمية البيانات مخفية افتراضيًا عن طريق تعيين جميع إشارات Show*-flags (ShowValue, ...) للخاصية DefaultDataLabelFormat إلى الحالة false. سيكون IsVisible false بعد ذلك. |
-| [IndexOf](../../aspose.slides.charts/idatalabelcollection/indexof)(IDataLabel) | يعيد فهرس DataLabel المحدد في المجموعة. |
+| [Hide](../../aspose.slides.charts/idatalabelcollection/hide)() | اجعل ملصق البيانات مخفيًا بشكل افتراضي عن طريق تعيين جميع علامات Show*-flags (ShowValue, ...) لخاصية DefaultDataLabelFormat إلى الحالة false. سيكون IsVisible false بعد ذلك. |
+| [IndexOf](../../aspose.slides.charts/idatalabelcollection/indexof)(IDataLabel) | يرجع فهرس DataLabel المحدد في المجموعة. |
 
 ### انظر أيضًا
 

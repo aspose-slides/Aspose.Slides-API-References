@@ -1,14 +1,14 @@
 ---
 title: RenderingOptions
-second_title: Aspose.Sildes .NET के लिए API संदर्भ
-description: एक प्रस्तुति/स्लाइड को रेंडर करने के तरीके को नियंत्रित करने वाले विकल्प प्रदान करता है।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: विकल्प प्रदान करता है जो नियंत्रित करते हैं कि प्रस्तुति/स्लाइड कैसे रेंडर की जाती है।
 type: docs
-weight: 4410
+weight: 4430
 url: /hi/aspose.slides.export/renderingoptions/
 ---
 ## RenderingOptions क्लास
 
-एक प्रस्तुति/स्लाइड को रेंडर करने के तरीके को नियंत्रित करने वाले विकल्प प्रदान करता है।
+Provides options that control how a presentation/slide is rendered.
 
 ```csharp
 public class RenderingOptions : SaveOptions, IRenderingOptions
@@ -18,20 +18,20 @@ public class RenderingOptions : SaveOptions, IRenderingOptions
 
 | नाम | विवरण |
 | --- | --- |
-| [RenderingOptions](renderingoptions)() | डिफ़ॉल्ट कन्स्ट्रक्टर। |
+| [RenderingOptions](renderingoptions)() | Default constructor. |
 
 ## गुण
 
 | नाम | विवरण |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | स्रोत फ़ॉन्ट न मिलने पर उपयोग किया जाने वाला फ़ॉन्ट लौटाता या सेट करता है। पढ़ने-लिखने योग्य String। |
-| [DisableFontLigatures](../../aspose.slides.export/renderingoptions/disablefontligatures) { get; set; } | यह निर्धारित करने वाला मान लौटाता या सेट करता है कि क्या टेक्स्ट को लिगेचर का उपयोग किए बिना रेंडर किया जाता है। जब इसे `true` पर सेट किया जाता है, तो रेंडर किए गए आउटपुट में लिगेचर अक्षम हो जाएंगे। डिफ़ॉल्ट रूप से, यह प्रॉपर्टी `false` पर सेट होती है। |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | ग्रेडिएंट की दृश्य शैली लौटाता या सेट करता है। पढ़ने-लिखने योग्य [`GradientStyle`](../../aspose.slides/gradientstyle)। |
-| [InkOptions](../../aspose.slides.export/renderingoptions/inkoptions) { get; } | निर्यात किए गए दस्तावेज़ में Ink वस्तुओं की उपस्थिति को नियंत्रित करने वाले विकल्प प्रदान करता है। पढ़ने-के-लिए-केवल [`IInkOptions`](../iinkoptions)। |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | प्रतिशत में प्रगति अद्यतन को सहेजने के लिए एक कॉलबैक ऑब्जेक्ट को दर्शाता है। देखें [`IProgressCallback`](../../aspose.slides/iprogresscallback)। |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | प्रस्तुति सहेजते समय JavaScript कॉल वाले हाइपरलिंक को छोड़ना है या नहीं, यह निर्दिष्ट करता है। पढ़ने-लिखने योग्य Boolean। डिफ़ॉल्ट मान **false** है। |
-| [SlidesLayoutOptions](../../aspose.slides.export/renderingoptions/slideslayoutoptions) { get; set; } | प्रस्तुति निर्यात करते समय स्लाइड्स को पृष्ठ पर रखने के मोड को लौटाता या सेट करता है [`ISlidesLayoutOptions`](../islideslayoutoptions)। |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | चेतावनियों को प्राप्त करने और यह तय करने वाला ऑब्जेक्ट लौटाता या सेट करता है कि लोडिंग प्रक्रिया जारी रहेगी या समाप्त हो जाएगी। पढ़ने-लिखने योग्य [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)। |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Returns or sets font used in case source font is not found. पढ़ें/लिखें String. |
+| [DisableFontLigatures](../../aspose.slides.export/renderingoptions/disablefontligatures) { get; set; } | Gets or sets a value indicating whether text is rendered without using ligatures. When set to `true`, ligatures will be disabled in the rendered output. By default, this property is set to `false`. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Returns or sets the visual style of the gradient. पढ़ें/लिखें [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [InkOptions](../../aspose.slides.export/renderingoptions/inkoptions) { get; } | Provides options that control the look of Ink objects in exported document. केवल पढ़ने योग्य [`IInkOptions`](../iinkoptions) |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Represents a callback object for saving progress updates in percentage. देखें [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Specifies whether to skip hyperlinks with JavaScript calls when saving the presentation. पढ़ें/लिखें Boolean. The default value is **false**. |
+| [SlidesLayoutOptions](../../aspose.slides.export/renderingoptions/slideslayoutoptions) { get; set; } | Gets or sets the mode in which slides are placed on the page when exporting a presentation [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted. पढ़ें/लिखें [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### उदाहरण
 
@@ -52,11 +52,11 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### देखें भी
+### संबंधित देखें
 
-* क्लास [SaveOptions](../saveoptions)
-* इंटरफ़ेस [IRenderingOptions](../irenderingoptions)
-* नेमस्पेस [Aspose.Slides.Export](../../aspose.slides.export)
-* असेंब्ली [Aspose.Slides](../../)
+* class [SaveOptions](../saveoptions)
+* interface [IRenderingOptions](../irenderingoptions)
+* namespace [Aspose.Slides.Export](../../aspose.slides.export)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

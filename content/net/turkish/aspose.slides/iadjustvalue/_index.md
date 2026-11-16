@@ -1,14 +1,14 @@
 ---
 title: IAdjustValue
-second_title: Aspose.Slides için .NET API Referansı
-description: Geometri şekillerinin ayar değerini temsil eder. Bu değerler şekillerin biçimini etkiler.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Bir geometrik şeklin ayar değerini temsil eder. Bu değerler şeklin biçimini etkiler.
 type: docs
-weight: 5180
+weight: 5200
 url: /tr/aspose.slides/iadjustvalue/
 ---
-## IAdjustValue arabirimi
+## IAdjustValue arayüz
 
-Geometri şeklinin ayar değerini temsil eder. Bu değerler şeklin biçimini etkiler.
+Bir geometrik şeklin ayar değerini temsil eder. Bu değerler şeklin formunu etkiler.
 
 ```csharp
 public interface IAdjustValue
@@ -18,12 +18,12 @@ public interface IAdjustValue
 
 | Ad | Açıklama |
 | --- | --- |
-| [AngleValue](../../aspose.slides/iadjustvalue/anglevalue) { get; set; } | Değeri döndürür veya ayarlar, derecelerde açı olarak yorumlar. Okunur/yazılır Single. |
-| [Name](../../aspose.slides/iadjustvalue/name) { get; } | Bu ayar değerinin adını döndürür. Yalnızca okunur String. |
-| [RawValue](../../aspose.slides/iadjustvalue/rawvalue) { get; set; } | Ayar değerini olduğu gibi döndürür veya ayarlar. Okunur/yazılır Int64. |
-| [Type](../../aspose.slides/iadjustvalue/type) { get; } | Şekil ayarının türünü döndürür. Yalnızca okunur [`ShapeAdjustmentType`](../shapeadjustmenttype). |
+| [AngleValue](../../aspose.slides/iadjustvalue/anglevalue) { get; set; } | Değeri döndürür veya ayarlar, derece cinsinden bir açı olarak yorumlar. Okunabilir/Yazılabilir Single. |
+| [Name](../../aspose.slides/iadjustvalue/name) { get; } | Bu ayar değerinin adını döndürür. Salt-okunur String. |
+| [RawValue](../../aspose.slides/iadjustvalue/rawvalue) { get; set; } | Ayarlama değerini olduğu gibi döndürür veya ayarlar. Okunabilir/Yazılabilir Int64. |
+| [Type](../../aspose.slides/iadjustvalue/type) { get; } | Şekil ayarının tipini döndürür. Salt-okunur [`ShapeAdjustmentType`](../shapeadjustmenttype). |
 
-### Ayrıca Bakınız
+### İlgili
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

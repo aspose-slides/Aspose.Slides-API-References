@@ -1,9 +1,9 @@
 ---
 title: Marker
-second_title: Aspose.Sildes dla .NET Referencja API
-description: Określa znacznik danych. Tylko do odczytu IMarkeraspose.slides.charts/imarker.
+second_title: Aspose.Sildes dla .NET – odniesienie API
+description: Określa znacznik danych. Tylko do odczytu IMarker aspose.slides.charts/imarker.
 type: docs
-weight: 120
+weight: 160
 url: /pl/aspose.slides.charts/ichartdatapoint/marker/
 ---
 ## IChartDataPoint.Marker właściwość

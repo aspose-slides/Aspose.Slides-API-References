@@ -1,9 +1,9 @@
 ---
 title: IStreamWrapperFactory
-second_title: Aspose.Sildes برای .NET مرجع API
+second_title: مرجع API Aspose.Sildes برای .NET
 description: کارخانه‌ای برای StreamWrappers. برای رابط COM.
 type: docs
-weight: 7140
+weight: 7160
 url: /fa/aspose.slides/istreamwrapperfactory/
 ---
 ## IStreamWrapperFactory رابط
@@ -14,14 +14,14 @@ url: /fa/aspose.slides/istreamwrapperfactory/
 public interface IStreamWrapperFactory
 ```
 
-## متدها
+## روش‌ها
 
 | نام | توضیح |
 | --- | --- |
-| [CreateFileStreamWrapper](../../aspose.slides/istreamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper)(string, FileMode) | یک FileStream را با مسیر و حالت ایجاد مشخص شده ایجاد می‌کند. |
-| [CreateFileStreamWrapper](../../aspose.slides/istreamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper_1)(string, FileMode, FileAccess) | یک FileStream را با مسیر، حالت ایجاد و مجوز خواندن/نوشتن مشخص شده ایجاد می‌کند. |
-| [CreateMemoryStreamWrapper](../../aspose.slides/istreamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper)() | یک wrapper برای MemoryStream ایجاد می‌کند. |
-| [CreateMemoryStreamWrapper](../../aspose.slides/istreamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper_1)(byte[]) | یک wrapper برای MemoryStream بر پایه آرایه بایت مشخص شده ایجاد می‌کند. |
+| [CreateFileStreamWrapper](../../aspose.slides/istreamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper)(string, FileMode) | FileStream را با مسیر مشخص و حالت ایجاد می‌سازد. |
+| [CreateFileStreamWrapper](../../aspose.slides/istreamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper_1)(string, FileMode, FileAccess) | FileStream را با مسیر مشخص، حالت ایجاد و مجوز خواندن/نوشتن می‌سازد. |
+| [CreateMemoryStreamWrapper](../../aspose.slides/istreamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper)() | پوشش MemoryStream را می‌سازد. |
+| [CreateMemoryStreamWrapper](../../aspose.slides/istreamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper_1)(byte[]) | پوشش MemoryStream را بر پایه آرایه بایتی مشخص می‌سازد. |
 
 ### موارد مرتبط
 

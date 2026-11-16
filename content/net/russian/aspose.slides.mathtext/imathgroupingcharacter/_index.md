@@ -1,14 +1,14 @@
 ---
 title: IMathGroupingCharacter
-second_title: Aspose.Sildes для .NET справочник API
-description: Указывает символ группировки над или под выражением, обычно для выделения взаимосвязи между элементами
+second_title: Справочник API Aspose.Sildes для .NET
+description: Указывает символ группировки над или под выражением, обычно для подчёркивания взаимосвязи элементов
 type: docs
-weight: 8290
+weight: 8310
 url: /ru/aspose.slides.mathtext/imathgroupingcharacter/
 ---
 ## IMathGroupingCharacter интерфейс
 
-Указывает символ группировки над или под выражением, обычно для выделения взаимосвязи между элементами
+Указывает символ группировки над или под выражением, обычно чтобы подчеркнуть взаимосвязь элементов
 
 ```csharp
 public interface IMathGroupingCharacter : IMathElement
@@ -20,9 +20,9 @@ public interface IMathGroupingCharacter : IMathElement
 | --- | --- |
 | [AsIMathElement](../../aspose.slides.mathtext/imathgroupingcharacter/asimathelement) { get; } | Позволяет получить базовый интерфейс IMathElement [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathgroupingcharacter/base) { get; } | Базовый аргумент |
-| [Character](../../aspose.slides.mathtext/imathgroupingcharacter/character) { get; set; } | Символ группировки. Значение по умолчанию: U+23DF (BOTTOM CURLY BRACKET) |
+| [Character](../../aspose.slides.mathtext/imathgroupingcharacter/character) { get; set; } | Grouping Character Значение по умолчанию: U+23DF (BOTTOM CURLY BRACKET) |
 | [Position](../../aspose.slides.mathtext/imathgroupingcharacter/position) { get; set; } | Позиция символа группировки. По умолчанию: Bottom |
-| [VerticalJustification](../../aspose.slides.mathtext/imathgroupingcharacter/verticaljustification) { get; set; } | Вертикальное выравнивание символа группировки. Указывает выравнивание объекта относительно базовой линии. Например, когда символ группировки находится над объектом, VerticalJustification Top означает, что верхняя часть объекта находится на базовой линии; когда VerticalJustification установлено в Bottom, нижняя часть объекта находится на базовой линии. По умолчанию: Bottom для Position=Top и Top для Position=Bottom |
+| [VerticalJustification](../../aspose.slides.mathtext/imathgroupingcharacter/verticaljustification) { get; set; } | Вертикальное выравнивание символа группы. Определяет согласование объекта относительно базовой линии. Например, когда символ группы находится над объектом, VerticalJustification со значением Top означает, что верхняя часть объекта находится на базовой линии; когда VerticalJustification установлен в Bottom, нижняя часть объекта находится на базовой линии. По умолчанию: Bottom для Position=Top и Top для Position=Bottom |
 
 ### Примеры
 

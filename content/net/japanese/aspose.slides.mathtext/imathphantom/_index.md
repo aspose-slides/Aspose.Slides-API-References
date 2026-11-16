@@ -1,14 +1,14 @@
 ---
 title: IMathPhantom
-second_title: Aspose.Sildes for .NET API リファレンス
-description: ファントム数式オブジェクトltmphantgtを表し、子要素のレイアウトに影響を与えるが、必ずしも表示されるわけではありません。ファントムは基本式を非表示にしながら、幅・高さ・深さを保持して数式の配置やスペース確保を行うことができます。表示状態や形状の動作は、Show、ZeroWid、ZeroAsc、ZeroDesc、Transp といったプロパティで制御されます。
+second_title: .NET 用 Aspose.Sildes API リファレンス
+description: 子要素のレイアウトに影響を与えるが、必ずしも表示しないファントム数式オブジェクト ltmphantgt を表します。ファントムは基本式を非表示にしながら、幅、高さ、または深さを保持して数式を整列させたり、空間を確保したりできます。表示と幾何の動作は Show、ZeroWid、ZeroAsc、ZeroDesc、Transp といったプロパティで制御されます。
 type: docs
-weight: 8410
+weight: 8430
 url: /ja/aspose.slides.mathtext/imathphantom/
 ---
 ## IMathPhantom インターフェイス
 
-ファントム数式オブジェクト（&lt;m:phant&gt;）を表し、子要素のレイアウトに影響を与えるが、必ずしも表示されるわけではありません。ファントムは基本式を非表示にしながら、幅・高さ・深さを保持して数式の配置やスペース確保を行うことができます。表示状態や形状の振る舞いは、Show、ZeroWid、ZeroAsc、ZeroDesc、Transp などのプロパティで制御されます。
+子要素のレイアウトに影響を与えるが必ずしも表示しないファントム数式オブジェクト (&lt;m:phant&gt;) を表します。ファントムは基本式を非表示にしながら、幅、高さ、または深さを保持して数式の整列や空間確保を行うことができます。表示と幾何の動作は Show、ZeroWid、ZeroAsc、ZeroDesc、Transp といったプロパティで制御されます。
 
 ```csharp
 public interface IMathPhantom : IMathElement
@@ -20,9 +20,9 @@ public interface IMathPhantom : IMathElement
 | --- | --- |
 | [Base](../../aspose.slides.mathtext/imathphantom/base) { get; } | 基本引数 |
 | [Show](../../aspose.slides.mathtext/imathphantom/show) { get; set; } | 基本要素が表示されるかどうかを示す値を取得または設定します。 |
-| [Transp](../../aspose.slides.mathtext/imathphantom/transp) { get; set; } | クラスベースのスペーシング規則に対して、ファントムが透過であるかどうかを示す値を取得または設定します。 |
+| [Transp](../../aspose.slides.mathtext/imathphantom/transp) { get; set; } | クラスベースの間隔規則に対してファントムが透過的かどうかを示す値を取得または設定します。 |
 | [ZeroAsc](../../aspose.slides.mathtext/imathphantom/zeroasc) { get; set; } | 基本要素の上昇（ベースライン上の高さ）をゼロとして扱うかどうかを示す値を取得または設定します。 |
-| [ZeroDesc](../../aspose.slides.mathtext/imathphantom/zerodesc) { get; set; } | 基本要素の降下（ベースライン下の深さ）をゼロとして扱うかどうかを示す値を取得または設定します。 |
+| [ZeroDesc](../../aspose.slides.mathtext/imathphantom/zerodesc) { get; set; } | 基本要素の下降（ベースライン下の深さ）をゼロとして扱うかどうかを示す値を取得または設定します。 |
 | [ZeroWidth](../../aspose.slides.mathtext/imathphantom/zerowidth) { get; set; } | 基本要素の幅をゼロとして扱うかどうかを示す値を取得または設定します。 |
 
 ### 例
@@ -32,7 +32,7 @@ public interface IMathPhantom : IMathElement
 ```csharp
 [C#]
 IMathPhantom phantom = new MathPhantom(new MathematicalText("1/2"));
-phantom.Show = false;          // コンテンツを非表示にする
+phantom.Show = false;          // 内容を非表示にする
 phantom.ZeroWidth = false;     // 幅を保持する
 ```
 

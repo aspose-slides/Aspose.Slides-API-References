@@ -1,14 +1,14 @@
 ---
 title: IHtmlGenerator
-second_title: Referensi API Aspose.Sildes untuk .NET
-description: Generator Html.
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Generator HTML.
 type: docs
-weight: 3960
+weight: 3980
 url: /id/aspose.slides.export/ihtmlgenerator/
 ---
-## IHtmlGenerator antarmuka
+## antarmuka IHtmlGenerator
 
-Generator Html.
+Generator HTML.
 
 ```csharp
 public interface IHtmlGenerator
@@ -16,28 +16,28 @@ public interface IHtmlGenerator
 
 ## Properti
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
-| [NextSlideIndex](../../aspose.slides.export/ihtmlgenerator/nextslideindex) { get; } | Mengembalikan indeks slide yang akan dirender setelah slide saat ini atau -1 jika sedang merender slide terakhir. Baca-saja Int32. |
-| [PreviousSlideIndex](../../aspose.slides.export/ihtmlgenerator/previousslideindex) { get; } | Mengembalikan indeks slide yang telah dirender sebelumnya atau -1 jika slide pertama sedang dirender. Baca-saja Int32. |
-| [SlideImageSize](../../aspose.slides.export/ihtmlgenerator/slideimagesize) { get; } | Mengembalikan ukuran gambar slide. Baca-saja SizeF. |
-| [SlideImageSizeUnit](../../aspose.slides.export/ihtmlgenerator/slideimagesizeunit) { get; } | Mengembalikan satuan yang digunakan untuk menentukan ukuran gambar slide. Baca-saja [`SvgCoordinateUnit`](../svgcoordinateunit). |
-| [SlideImageSizeUnitCode](../../aspose.slides.export/ihtmlgenerator/slideimagesizeunitcode) { get; } | Mengembalikan kode css satuan yang digunakan untuk menentukan ukuran gambar slide. Baca-saja String. |
-| [SlideIndex](../../aspose.slides.export/ihtmlgenerator/slideindex) { get; } | Mengembalikan indeks slide yang sedang dirender. Baca-saja Int32. |
+| [NextSlideIndex](../../aspose.slides.export/ihtmlgenerator/nextslideindex) { get; } | Mengembalikan indeks slide yang akan dirender setelah slide saat ini atau -1 jika saat ini merender slide terakhir. Hanya baca Int32. |
+| [PreviousSlideIndex](../../aspose.slides.export/ihtmlgenerator/previousslideindex) { get; } | Mengembalikan indeks slide yang sebelumnya dirender atau -1 jika slide pertama sedang dirender. Hanya baca Int32. |
+| [SlideImageSize](../../aspose.slides.export/ihtmlgenerator/slideimagesize) { get; } | Mengembalikan ukuran gambar slide. Hanya baca SizeF. |
+| [SlideImageSizeUnit](../../aspose.slides.export/ihtmlgenerator/slideimagesizeunit) { get; } | Mengembalikan satuan di mana ukuran gambar slide ditentukan. Hanya baca [`SvgCoordinateUnit`](../svgcoordinateunit). |
+| [SlideImageSizeUnitCode](../../aspose.slides.export/ihtmlgenerator/slideimagesizeunitcode) { get; } | Mengembalikan kode css dari satuan di mana ukuran gambar slide ditentukan. Hanya baca String. |
+| [SlideIndex](../../aspose.slides.export/ihtmlgenerator/slideindex) { get; } | Mengembalikan indeks slide yang sedang dirender. Hanya baca Int32. |
 
 ## Metode
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
 | [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue)(char[]) | Mengutip nilai atribut dan menambahkannya ke file html. |
 | [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue_2)(string) | Mengutip nilai atribut dan menambahkannya ke file html. |
 | [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue_1)(char[], int, int) | Mengutip nilai atribut dan menambahkannya ke file html. |
-| [AddHtml](../../aspose.slides.export/ihtmlgenerator/addhtml#addhtml)(char[]) | Menambahkan teks HTML terformat. |
-| [AddHtml](../../aspose.slides.export/ihtmlgenerator/addhtml#addhtml_2)(string) | Menambahkan teks HTML terformat. |
-| [AddHtml](../../aspose.slides.export/ihtmlgenerator/addhtml#addhtml_1)(char[], int, int) | Menambahkan teks HTML terformat. |
-| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext)(char[]) | Menambahkan teks biasa ke file html, menggantikan karakter khusus dengan entitas html. Baris baru dan spasi tidak diganti. |
-| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext_2)(string) | Menambahkan teks biasa ke file html, menggantikan karakter khusus dengan entitas html. Baris baru dan spasi tidak diganti. |
-| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext_1)(char[], int, int) | Menambahkan teks biasa ke file html, menggantikan karakter khusus dengan entitas html. Baris baru dan spasi tidak diganti. |
+| [AddHtml](../../aspose.slides.export/ihtmlgenerator/addhtml#addhtml)(char[]) | Menambahkan teks HTML yang diformat. |
+| [AddHtml](../../aspose.slides.export/ihtmlgenerator/addhtml#addhtml_2)(string) | Menambahkan teks HTML yang diformat. |
+| [AddHtml](../../aspose.slides.export/ihtmlgenerator/addhtml#addhtml_1)(char[], int, int) | Menambahkan teks HTML yang diformat. |
+| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext)(char[]) | Menambahkan teks biasa ke file html, mengganti karakter khusus dengan entitas html. Baris baru dan spasi tidak diganti. |
+| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext_2)(string) | Menambahkan teks biasa ke file html, mengganti karakter khusus dengan entitas html. Baris baru dan spasi tidak diganti. |
+| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext_1)(char[], int, int) | Menambahkan teks biasa ke file html, mengganti karakter khusus dengan entitas html. Baris baru dan spasi tidak diganti. |
 
 ### Lihat Juga
 

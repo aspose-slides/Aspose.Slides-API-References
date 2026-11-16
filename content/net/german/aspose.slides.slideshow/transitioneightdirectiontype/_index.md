@@ -1,14 +1,14 @@
 ---
 title: TransitionEightDirectionType
-second_title: Aspose.Sildes für .NET API Referenz
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt acht Richtungsübergangstypen dar.
 type: docs
-weight: 10360
+weight: 10380
 url: /de/aspose.slides.slideshow/transitioneightdirectiontype/
 ---
 ## TransitionEightDirectionType Aufzählung
 
-Stellt acht Richtungsübergangstypen dar.
+Repräsentiert acht Richtungsübergangstypen.
 
 ```csharp
 public enum TransitionEightDirectionType

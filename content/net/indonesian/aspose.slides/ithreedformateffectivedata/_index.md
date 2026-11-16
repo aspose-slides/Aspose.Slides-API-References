@@ -1,14 +1,14 @@
 ---
 title: IThreeDFormatEffectiveData
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Objek tidak dapat diubah yang mewakili properti pemformatan 3-D yang efektif.
+description: Objek tak dapat diubah yang mewakili properti format 3-D efektif.
 type: docs
-weight: 7340
+weight: 7360
 url: /id/aspose.slides/ithreedformateffectivedata/
 ---
 ## IThreeDFormatEffectiveData antarmuka
 
-Objek tidak dapat diubah yang mewakili properti pemformatan 3-D yang efektif.
+Objek tak dapat diubah yang mewakili properti format 3-D efektif.
 
 ```csharp
 public interface IThreeDFormatEffectiveData : IThreeDParamSource
@@ -32,7 +32,7 @@ public interface IThreeDFormatEffectiveData : IThreeDParamSource
 
 ### Catatan
 
-Antarmuka ini digunakan bersama dengan [`IThreeDFormat`](../ithreedformat) antarmuka untuk mengembalikan nilai pemformatan yang efektif dengan pewarisan yang diterapkan.
+Antarmuka ini digunakan bersama dengan antarmuka [`IThreeDFormat`](../ithreedformat) untuk mengembalikan nilai format efektif dengan pewarisan yang diterapkan.
 
 ### Lihat Juga
 

@@ -1,9 +1,9 @@
 ---
 title: TabCollection
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per .NET Riferimento API
 description: Rappresenta una collezione di tab.
 type: docs
-weight: 10840
+weight: 10860
 url: /it/aspose.slides/tabcollection/
 ---
 ## TabCollection classe
@@ -16,19 +16,19 @@ public sealed class TabCollection : ITabCollection
 
 ## Proprietà
 
-| Name | Description |
+| Nome | Descrizione |
 | --- | --- |
-| [Count](../../aspose.slides/tabcollection/count) { get; } | Ottiene il numero di elementi effettivamente contenuti nella collezione. Sola lettura Int32. |
+| [Count](../../aspose.slides/tabcollection/count) { get; } | Restituisce il numero di elementi effettivamente contenuti nella collezione. Sola lettura Int32. |
 | [IsSynchronized](../../aspose.slides/tabcollection/issynchronized) { get; } | Restituisce un valore che indica se l'accesso alla collezione è sincronizzato (thread-safe). Sola lettura Boolean. |
-| [Item](../../aspose.slides/tabcollection/item) { get; } | Ottiene l'elemento all'indice specificato. Sola lettura [`Tab`](../tab). |
+| [Item](../../aspose.slides/tabcollection/item) { get; } | Restituisce l'elemento all'indice specificato. Sola lettura [`Tab`](../tab). |
 | [SyncRoot](../../aspose.slides/tabcollection/syncroot) { get; } | Restituisce una radice di sincronizzazione. Sola lettura Object. |
 
 ## Metodi
 
-| Name | Description |
+| Nome | Descrizione |
 | --- | --- |
-| [Add](../../aspose.slides/tabcollection/add#add_1)(ITab) | Aggiunge una Tab alla collezione. |
-| [Add](../../aspose.slides/tabcollection/add#add)(double, TabAlignment) | Aggiunge una Tab alla collezione. |
+| [Add](../../aspose.slides/tabcollection/add#add_1)(ITab) | Aggiunge un Tab alla collezione. |
+| [Add](../../aspose.slides/tabcollection/add#add)(double, TabAlignment) | Aggiunge un Tab alla collezione. |
 | [Clear](../../aspose.slides/tabcollection/clear)() | Rimuove tutti gli elementi dalla collezione. |
 | [CopyTo](../../aspose.slides/tabcollection/copyto)(Array, int) | Copia tutti gli elementi dalla collezione nell'array specificato. |
 | override [Equals](../../aspose.slides/tabcollection/equals)(object) | Determina se due istanze di TabsEx sono uguali. |

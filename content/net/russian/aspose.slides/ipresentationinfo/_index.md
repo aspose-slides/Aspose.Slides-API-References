@@ -1,9 +1,9 @@
 ---
 title: IPresentationInfo
-second_title: Справочник API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET справочник API
 description: Информация о файле презентации
 type: docs
-weight: 6790
+weight: 6810
 url: /ru/aspose.slides/ipresentationinfo/
 ---
 ## IPresentationInfo интерфейс
@@ -27,8 +27,8 @@ public interface IPresentationInfo
 
 | Имя | Описание |
 | --- | --- |
-| [CheckPassword](../../aspose.slides/ipresentationinfo/checkpassword)(string) | Проверяет, корректен ли пароль для презентации, защищённой паролем открытия. |
-| [CheckWriteProtection](../../aspose.slides/ipresentationinfo/checkwriteprotection)(string) | Проверяет, корректен ли пароль для изменения у презентации, защищённой от записи. |
+| [CheckPassword](../../aspose.slides/ipresentationinfo/checkpassword)(string) | Проверяет, правильный ли пароль для презентации, защищённой паролем открытия. |
+| [CheckWriteProtection](../../aspose.slides/ipresentationinfo/checkwriteprotection)(string) | Проверяет, правильный ли пароль для изменения у презентации, защищённой от записи. |
 | [ReadDocumentProperties](../../aspose.slides/ipresentationinfo/readdocumentproperties)() | Возвращает свойства документа привязанной презентации. |
 | [UpdateDocumentProperties](../../aspose.slides/ipresentationinfo/updatedocumentproperties)(IDocumentProperties) | Обновляет свойства привязанной презентации. |
 | [WriteBindedPresentation](../../aspose.slides/ipresentationinfo/writebindedpresentation#writebindedpresentation)(Stream) | Записывает привязанную презентацию в поток. |

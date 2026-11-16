@@ -1,9 +1,9 @@
 ---
 title: ILayoutable
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 차트 요소의 정확한 위치를 지정합니다.
 type: docs
-weight: 2120
+weight: 2140
 url: /ko/aspose.slides.charts/ilayoutable/
 ---
 ## ILayoutable 인터페이스
@@ -26,7 +26,7 @@ public interface ILayoutable : IChartComponent
 | [X](../../aspose.slides.charts/ilayoutable/x) { get; set; } | 차트 요소의 x 위치(왼쪽)를 차트 너비의 비율로 지정합니다. 읽기/쓰기 Single. |
 | [Y](../../aspose.slides.charts/ilayoutable/y) { get; set; } | 차트 요소의 상단을 차트 높이의 비율로 지정합니다. 읽기/쓰기 Single. |
 
-### 참고
+### 관련 항목
 
 * 인터페이스 [IChartComponent](../ichartcomponent)
 * 네임스페이스 [Aspose.Slides.Charts](../../aspose.slides.charts)

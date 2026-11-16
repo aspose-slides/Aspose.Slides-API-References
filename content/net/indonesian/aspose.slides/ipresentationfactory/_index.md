@@ -1,14 +1,14 @@
 ---
 title: IPresentationFactory
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Memungkinkan membuat presentasi melalui antarmuka COM
 type: docs
-weight: 6770
+weight: 6790
 url: /id/aspose.slides/ipresentationfactory/
 ---
 ## IPresentationFactory antarmuka
 
-Memungkinkan untuk membuat presentasi melalui antarmuka COM
+Memungkinkan membuat presentasi melalui antarmuka COM
 
 ```csharp
 public interface IPresentationFactory
@@ -19,18 +19,18 @@ public interface IPresentationFactory
 | Nama | Deskripsi |
 | --- | --- |
 | [CreatePresentation](../../aspose.slides/ipresentationfactory/createpresentation#createpresentation)() | Membuat presentasi baru. |
-| [CreatePresentation](../../aspose.slides/ipresentationfactory/createpresentation#createpresentation_1)(ILoadOptions) | Membuat presentasi baru dengan opsi pemuatan tambahan |
-| [GetPresentationInfo](../../aspose.slides/ipresentationfactory/getpresentationinfo#getpresentationinfo)(Stream) | Mendapatkan informasi tentang presentasi dalam Stream yang ditentukan. |
-| [GetPresentationInfo](../../aspose.slides/ipresentationfactory/getpresentationinfo#getpresentationinfo_1)(string) | Mendapatkan informasi tentang presentasi dalam file yang ditentukan. |
+| [CreatePresentation](../../aspose.slides/ipresentationfactory/createpresentation#createpresentation_1)(ILoadOptions) | Membuat presentasi baru dengan opsi muat tambahan |
+| [GetPresentationInfo](../../aspose.slides/ipresentationfactory/getpresentationinfo#getpresentationinfo)(Stream) | Mendapatkan info tentang presentasi dalam stream yang ditentukan. |
+| [GetPresentationInfo](../../aspose.slides/ipresentationfactory/getpresentationinfo#getpresentationinfo_1)(string) | Mendapatkan info tentang presentasi dalam file yang ditentukan. |
 | [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext#getpresentationtext)(Stream, TextExtractionArrangingMode) | Mengambil teks mentah dari slide |
 | [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext#getpresentationtext_2)(string, TextExtractionArrangingMode) | Mengambil teks mentah dari slide |
 | [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext#getpresentationtext_1)(Stream, TextExtractionArrangingMode, ILoadOptions) | Mengambil teks mentah dari slide |
 | [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation)(byte[]) | Membaca presentasi yang ada dari array |
-| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_2)(Stream) | Membaca presentasi yang ada dari Stream |
+| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_2)(Stream) | Membaca presentasi yang ada dari stream |
 | [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_4)(string) | Membaca presentasi yang ada dari file |
-| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_1)(byte[], ILoadOptions) | Membaca presentasi yang ada dari array dengan opsi pemuatan tambahan |
-| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_3)(Stream, ILoadOptions) | Membaca presentasi yang ada dari Stream dengan opsi pemuatan tambahan |
-| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_5)(string, ILoadOptions) | Membaca presentasi yang ada dari string dengan opsi pemuatan tambahan |
+| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_1)(byte[], ILoadOptions) | Membaca presentasi yang ada dari array dengan opsi muat tambahan |
+| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_3)(Stream, ILoadOptions) | Membaca presentasi yang ada dari stream dengan opsi muat tambahan |
+| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_5)(string, ILoadOptions) | Membaca presentasi yang ada dari stream dengan opsi muat tambahan |
 
 ### Lihat Juga
 

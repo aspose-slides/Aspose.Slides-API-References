@@ -1,14 +1,14 @@
 ---
 title: IMathMatrix
 second_title: Aspose.Sildes för .NET API-referens
-description: Specificerar Matrix-objektet som består av underordnade element placerade i en eller flera rader och kolumner. Det är viktigt att notera att matriser inte har inbyggda avgränsare. För att placera matrisen i hakparenteserna bör du använda avgränsningsobjektet IMathDelimiter. Null-argument kan användas för att skapa luckor i matriser.
+description: Specificerar Matrix-objektet som består av underordnade element placerade i en eller flera rader och kolumner. Det är viktigt att notera att matriser inte har inbyggda avgränsare. För att placera matrisen i hakparenteserna bör du använda avgränsare-objektet IMathDelimiter. Null-argument kan användas för att skapa luckor i matriser.
 type: docs
-weight: 8340
+weight: 8360
 url: /sv/aspose.slides.mathtext/imathmatrix/
 ---
 ## IMathMatrix gränssnitt
 
-Specificerar Matrix-objektet, bestående av underordnade element som placeras i en eller flera rader och kolumner. Det är viktigt att notera att matriser inte har inbyggda avgränsare. För att placera matrisen i hakparenteser bör du använda avgränsningsobjektet (IMathDelimiter). Null-argument kan användas för att skapa luckor i matriser.
+Specificerar Matrix-objektet, bestående av underordnade element placerade i en eller flera rader och kolumner. Det är viktigt att notera att matriser inte har inbyggda avgränsare. För att placera matrisen i hakparenteserna bör du använda avgränsare-objektet (IMathDelimiter). Null argument kan användas för att skapa luckor i matriser.
 
 ```csharp
 public interface IMathMatrix : IMathElement
@@ -18,17 +18,17 @@ public interface IMathMatrix : IMathElement
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathmatrix/asimathelement) { get; } | Tillåter att hämta grundläggande IMathElement-gränssnitt [`IMathElement`](../imathelement) |
-| [BaseJustification](../../aspose.slides.mathtext/imathmatrix/basejustification) { get; set; } | Anger den vertikala justeringen i förhållande till omgivande text. Möjliga värden är top, bottom och center. Standard: Center |
+| [AsIMathElement](../../aspose.slides.mathtext/imathmatrix/asimathelement) { get; } | Tillåter att hämta bas-IMathElement-gränssnitt [`IMathElement`](../imathelement) |
+| [BaseJustification](../../aspose.slides.mathtext/imathmatrix/basejustification) { get; set; } | Anger den vertikala justeringen i förhållande till omgivande text. Möjliga värden är top, bottom, och center. Standard: Center |
 | [ColumnCount](../../aspose.slides.mathtext/imathmatrix/columncount) { get; } | Antal kolumner i matrisen |
-| [ColumnGap](../../aspose.slides.mathtext/imathmatrix/columngap) { get; set; } | Värdet för horisontellt avstånd mellan kolumner i en matris; om ColumnGapRule är satt till 3 ("Exactly") tolkas enheten som twips (1/20 av en punkt) om ColumnGapRule är satt till 4 ("Multiple") tolkas enheten som antal 0,5-em-steg. I andra fall ignoreras det. Standard: 0 |
-| [ColumnGapRule](../../aspose.slides.mathtext/imathmatrix/columngaprule) { get; set; } | Typen av horisontellt avstånd mellan kolumner i en matris; horisontella avståndsenheter kan vara ems eller punkter (lagrade som twips). Standard: SingleSpacingGap (0) |
-| [HidePlaceholders](../../aspose.slides.mathtext/imathmatrix/hideplaceholders) { get; set; } | Döljer platshållarna för tomma matriselement. Standard: false |
+| [ColumnGap](../../aspose.slides.mathtext/imathmatrix/columngap) { get; set; } | Värdet för horisontellt avstånd mellan kolumner i en matris; Om ColumnGapRule är satt till 3 ("Exactly"), tolkas enheten som twips (1/20 av en punkt) Om ColumnGapRule är satt till 4 ("Multiple"), tolkas enheten som antal 0,5 em-ökningar. I andra fall ignoreras. Standard: 0 |
+| [ColumnGapRule](../../aspose.slides.mathtext/imathmatrix/columngaprule) { get; set; } | Typen av horisontellt avstånd mellan kolumner i en matris; horisontella avståndsenheter kan vara ems eller points (lagrade som twips). Standard: SingleSpacingGap (0) |
+| [HidePlaceholders](../../aspose.slides.mathtext/imathmatrix/hideplaceholders) { get; set; } | Döljer platshållarna för tomma matriselement Standard: false |
 | [Item](../../aspose.slides.mathtext/imathmatrix/item) { get; set; } | Element i matrisen |
-| [MinColumnWidth](../../aspose.slides.mathtext/imathmatrix/mincolumnwidth) { get; set; } | Minimal kolumnbredd i twips (1/20 av en punkt). Gap-avståndet (även kallat “Column Gap” eller “Gap Width”) läggs till MinColumnWidth för att bestämma den totala matrisens kolumnavstånd (avståndet mellan samma kanter på olika kolumner). Standard: 0 |
+| [MinColumnWidth](../../aspose.slides.mathtext/imathmatrix/mincolumnwidth) { get; set; } | Minsta kolumnbredd i twips (1/20 av en punkt) Gap-avståndet (även kallat “Column Gap” eller “Gap Width”) läggs till MinColumnWidth för att bestämma den totala matrisens kolumnavstånd (avståndet mellan samma kanter på olika kolumner). Standard: 0. |
 | [RowCount](../../aspose.slides.mathtext/imathmatrix/rowcount) { get; } | Antal rader i matrisen |
-| [RowGap](../../aspose.slides.mathtext/imathmatrix/rowgap) { get; set; } | Värdet för vertikalt avstånd mellan rader i en matris; om RowGapRule är satt till 3 ("Exactly") tolkas enheten som twips (1/20 av en punkt). Om RowGapRule är satt till 4 ("Multiple") tolkas enheten som halva rader. Standard: 0 |
-| [RowGapRule](../../aspose.slides.mathtext/imathmatrix/rowgaprule) { get; set; } | Typen av vertikalt avstånd mellan rader i en matris; vertikala avståndsenheter kan vara rader eller punkter (lagrade som twips). Standard: SingleSpacingGap (0) |
+| [RowGap](../../aspose.slides.mathtext/imathmatrix/rowgap) { get; set; } | Värdet för vertikalt avstånd mellan rader i en matris; Om RowGapRule är satt till 3 ("Exactly"), tolkas enheten som twips (1/20 av en punkt) Om RowGapRule är satt till 4 ("Multiple"), tolkas enheten som halva rader. Standard: 0 |
+| [RowGapRule](../../aspose.slides.mathtext/imathmatrix/rowgaprule) { get; set; } | Typen av vertikalt avstånd mellan rader i en matris; vertikala avståndsenheter kan vara lines eller points (lagrade som twips). Standard: SingleSpacingGap (0) |
 
 ## Metoder
 
@@ -54,10 +54,10 @@ IMathMatrix matrix = new MathMatrix(2, 3);
 matrix[0, 0] = new MathematicalText("item.1.1");
 ```
 
-### Se även
+### Se också
 
 * gränssnitt [IMathElement](../imathelement)
 * namnrymd [Aspose.Slides.MathText](../../aspose.slides.mathtext)
-* assembly [Aspose.Slides](../../)
+* samling [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

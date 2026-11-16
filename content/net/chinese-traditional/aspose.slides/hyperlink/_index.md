@@ -1,14 +1,14 @@
 ---
 title: Hyperlink
 second_title: Aspose.Sildes for .NET API 參考文件
-description: 代表超連結。
+description: 表示一個超連結。
 type: docs
-weight: 5120
+weight: 5140
 url: /zh-hant/aspose.slides/hyperlink/
 ---
 ## Hyperlink 類別
 
-代表超連結。
+表示一個超連結。
 
 ```csharp
 public sealed class Hyperlink : PVIObject, IHyperlink
@@ -16,52 +16,52 @@ public sealed class Hyperlink : PVIObject, IHyperlink
 
 ## 建構函式
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
-| [Hyperlink](hyperlink#constructor_1)(ISlide) | 建立指向特定投影片的超連結實例。注意：建立的超連結應指派給同一簡報中的某個物件，否則連結將儲存為 NoAction。 |
-| [Hyperlink](hyperlink#constructor_2)(string) | 建立超連結實例。 |
-| [Hyperlink](hyperlink#constructor)(Hyperlink, string, string, bool, bool, bool) | 以另一個超連結為來源，覆寫次要屬性，建立超連結實例。 |
+| [Hyperlink](hyperlink#constructor_1)(ISlide) | 建立一個指向特定投影片的超連結實例。注意：建立的超連結應指派給同一簡報中的某個物件，否則連結將被儲存為 NoAction。 |
+| [Hyperlink](hyperlink#constructor_2)(string) | 建立一個超連結的實例。 |
+| [Hyperlink](hyperlink#constructor)(Hyperlink, string, string, bool, bool, bool) | 使用另一個超連結作為來源，覆寫次要屬性，建立超連結實例。 |
 
 ## 屬性
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
 | static [EndShow](../../aspose.slides/hyperlink/endshow) { get; } | 傳回結束簡報的超連結。唯讀 [`Hyperlink`](../hyperlink)。 |
-| static [FirstSlide](../../aspose.slides/hyperlink/firstslide) { get; } | 傳回指向簡報第一張投影片的超連結。唯讀 [`Hyperlink`](../hyperlink)。 |
-| static [LastSlide](../../aspose.slides/hyperlink/lastslide) { get; } | 傳回指向簡報最後一張投影片的超連結。唯讀 [`Hyperlink`](../hyperlink)。 |
-| static [LastVievedSlide](../../aspose.slides/hyperlink/lastvievedslide) { get; } | 傳回指向最近檢視投影片的超連結。唯讀 [`Hyperlink`](../hyperlink)。 |
-| static [Media](../../aspose.slides/hyperlink/media) { get; } | 傳回特殊的「播放媒體檔」超連結。用於 AudioFrame 和 VideoFrame。唯讀 [`Hyperlink`](../hyperlink)。 |
-| static [NextSlide](../../aspose.slides/hyperlink/nextslide) { get; } | 傳回指向下一張投影片的超連結。唯讀 [`Hyperlink`](../hyperlink)。 |
-| static [NoAction](../../aspose.slides/hyperlink/noaction) { get; } | 傳回特殊的「無操作」超連結。唯讀 [`Hyperlink`](../hyperlink)。 |
-| static [PreviousSlide](../../aspose.slides/hyperlink/previousslide) { get; } | 傳回指向前一張投影片的超連結。唯讀 [`Hyperlink`](../hyperlink)。 |
+| static [FirstSlide](../../aspose.slides/hyperlink/firstslide) { get; } | 傳回簡報第一張投影片的超連結。唯讀 [`Hyperlink`](../hyperlink)。 |
+| static [LastSlide](../../aspose.slides/hyperlink/lastslide) { get; } | 傳回簡報最後一張投影片的超連結。唯讀 [`Hyperlink`](../hyperlink)。 |
+| static [LastVievedSlide](../../aspose.slides/hyperlink/lastvievedslide) { get; } | 傳回最後檢視投影片的超連結。唯讀 [`Hyperlink`](../hyperlink)。 |
+| static [Media](../../aspose.slides/hyperlink/media) { get; } | 傳回特殊的「播放媒體檔案」超連結。用於 AudioFrame 與 VideoFrame。唯讀 [`Hyperlink`](../hyperlink)。 |
+| static [NextSlide](../../aspose.slides/hyperlink/nextslide) { get; } | 傳回下一張投影片的超連結。唯讀 [`Hyperlink`](../hyperlink)。 |
+| static [NoAction](../../aspose.slides/hyperlink/noaction) { get; } | 傳回特殊的「不執行」超連結。唯讀 [`Hyperlink`](../hyperlink)。 |
+| static [PreviousSlide](../../aspose.slides/hyperlink/previousslide) { get; } | 傳回前一張投影片的超連結。唯讀 [`Hyperlink`](../hyperlink)。 |
 | [ActionType](../../aspose.slides/hyperlink/actiontype) { get; } | 傳回 Hyperlink 動作的類型。唯讀 [`HyperlinkActionType`](../hyperlinkactiontype)。 |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允許取得基礎 IPresentationComponent 介面。唯讀 [`IPresentationComponent`](../ipresentationcomponent)。 |
-| [ColorSource](../../aspose.slides/hyperlink/colorsource) { get; set; } | 代表超連結顏色的來源——樣式或區段格式。讀寫 [`HyperlinkColorSource`](../hyperlinkcolorsource)。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允許取得基礎的 IPresentationComponent 介面。唯讀 [`IPresentationComponent`](../ipresentationcomponent)。 |
+| [ColorSource](../../aspose.slides/hyperlink/colorsource) { get; set; } | 表示超連結顏色的來源——樣式或區段格式。可讀寫 [`HyperlinkColorSource`](../hyperlinkcolorsource)。 |
 | [ExternalUrl](../../aspose.slides/hyperlink/externalurl) { get; } | 指定外部 URL。唯讀 String。 |
-| [ExternalUrlOriginal](../../aspose.slides/hyperlink/externalurloriginal) { get; } | 代表已為此區段設定的超連結，而不考慮該區段的實際內容。PowerPoint 會針對區段中的連結及其對應文字有特別的行為。它允許以有效的 URL 形式建立超連結文字，與真實的連結位址不同。在此情況下，當您在編輯視窗中檢視連結時，它會被改為與文字區段相符。此屬性代表超連結的原始值。 |
-| [HighlightClick](../../aspose.slides/hyperlink/highlightclick) { get; set; } | 決定在點擊時是否應突出顯示超連結。讀寫 Boolean。 |
-| [History](../../aspose.slides/hyperlink/history) { get; set; } | 決定在呼叫時是否將父超連結的目標加入已檢視超連結的清單。讀寫 Boolean。 |
-| [Sound](../../aspose.slides/hyperlink/sound) { get; set; } | 代表超連結的播放音效。讀寫 [`IAudio`](../iaudio)。 |
-| [StopSoundOnClick](../../aspose.slides/hyperlink/stopsoundonclick) { get; set; } | 決定在點擊超連結時是否停止音效。讀寫 Boolean。 |
-| [TargetFrame](../../aspose.slides/hyperlink/targetframe) { get; set; } | 傳回父 HTML frameset 中目標的框架（若存在）。讀寫 String。 |
-| [TargetSlide](../../aspose.slides/hyperlink/targetslide) { get; } | 如果 Hyperlink 針對特定投影片，則傳回該投影片。唯讀 [`ISlide`](../islide)。 |
-| [Tooltip](../../aspose.slides/hyperlink/tooltip) { get; set; } | 傳回可在使用者介面中顯示、與父超連結相關聯的字串。讀寫 String。 |
+| [ExternalUrlOriginal](../../aspose.slides/hyperlink/externalurloriginal) { get; } | 表示為此區段設定的超連結，而不考慮區段實際內容。PowerPoint 對於區段中的連結及其對應文字有特定行為。它允許以有效的 URL 形式建立超連結文字，與實際連結地址不同。在此情況下，當您在編輯視窗中檢視連結時，會被更改為符合文字區段。此屬性代表超連結的原始值。 |
+| [HighlightClick](../../aspose.slides/hyperlink/highlightclick) { get; set; } | 決定點擊時是否突顯超連結。可讀寫 Boolean。 |
+| [History](../../aspose.slides/hyperlink/history) { get; set; } | 決定在呼叫父級超連結時，是否將其目標加入已檢視超連結清單。可讀寫 Boolean。 |
+| [Sound](../../aspose.slides/hyperlink/sound) { get; set; } | 表示超連結的播放音效。可讀寫 [`IAudio`](../iaudio)。 |
+| [StopSoundOnClick](../../aspose.slides/hyperlink/stopsoundonclick) { get; set; } | 決定點擊超連結時是否停止音效。可讀寫 Boolean。 |
+| [TargetFrame](../../aspose.slides/hyperlink/targetframe) { get; set; } | 傳回父 HTML frameset 中，若存在則為父超連結目標所在的框架。可讀寫 String。 |
+| [TargetSlide](../../aspose.slides/hyperlink/targetslide) { get; } | 如果超連結指向特定投影片，則傳回該投影片。唯讀 [`ISlide`](../islide)。 |
+| [Tooltip](../../aspose.slides/hyperlink/tooltip) { get; set; } | 傳回可能在使用者介面上顯示、與父超連結相關聯的字串。可讀寫 String。 |
 
 ## 方法
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
 | [Equals](../../aspose.slides/hyperlink/equals#equals)(IHyperlink) | 判斷兩個 Hyperlink 實例是否相等。 |
 | override [Equals](../../aspose.slides/hyperlink/equals#equals_1)(object) | 判斷兩個 Hyperlink 實例是否相等。 |
-| override [GetHashCode](../../aspose.slides/hyperlink/gethashcode)() | 作為特定類型的雜湊函式，適用於雜湊演算法和資料結構（例如雜湊表）。 |
+| override [GetHashCode](../../aspose.slides/hyperlink/gethashcode)() | 作為特定類型的雜湊函式，適用於雜湊演算法與資料結構（如雜湊表）。 |
 | [operator ==](../../aspose.slides/hyperlink/op_equality) | 測試兩個超連結是否相等。 |
 | [operator !=](../../aspose.slides/hyperlink/op_inequality) | 測試兩個超連結是否不相等。 |
 
-### 另請參閱
+### 另見
 
 * 類別 [PVIObject](../pviobject)
 * 介面 [IHyperlink](../ihyperlink)
 * 命名空間 [Aspose.Slides](../../aspose.slides)
-* 程序集 [Aspose.Slides](../../)
+* 組件 [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

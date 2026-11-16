@@ -3,7 +3,7 @@ title: SectionCollection
 second_title: Aspose.Sildes .NET API referencia
 description: A szekciók gyűjteményét képviseli.
 type: docs
-weight: 9760
+weight: 9780
 url: /hu/aspose.slides/sectioncollection/
 ---
 ## SectionCollection osztály
@@ -16,27 +16,27 @@ public sealed class SectionCollection : DomObject<Presentation>, ISectionCollect
 
 ## Tulajdonságok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides/sectioncollection/count) { get; } | A gyűjteményben ténylegesen tárolt elemek számát adja vissza. Csak olvasható Int32. |
-| [IsSynchronized](../../aspose.slides/sectioncollection/issynchronized) { get; } | Visszaad egy értéket, amely azt jelzi, hogy a gyűjtemény hozzáférése szinkronizált-e (szálbiztos). Csak olvasható Boolean. |
+| [Count](../../aspose.slides/sectioncollection/count) { get; } | A gyűjteményben ténylegesen lévő elemek számát adja vissza. Csak olvasható Int32. |
+| [IsSynchronized](../../aspose.slides/sectioncollection/issynchronized) { get; } | Visszaad egy értéket, amely jelzi, hogy a gyűjteményhez való hozzáférés szinkronizált-e (szálbiztonság). Csak olvasható Boolean. |
 | [Item](../../aspose.slides/sectioncollection/item) { get; } | A megadott indexű elemet adja vissza. Csak olvasható [`ISection`](../isection). |
-| [SyncRoot](../../aspose.slides/sectioncollection/syncroot) { get; } | Visszaad egy szinkronizációs gyökeret. Csak olvasható Object. |
+| [SyncRoot](../../aspose.slides/sectioncollection/syncroot) { get; } | Visszaad egy szinkronizációs gyökért. Csak olvasható Object. |
 
-## Metódusok
+## Módszerek
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
-| [AddEmptySection](../../aspose.slides/sectioncollection/addemptysection)(string, int) | Üres szekciót ad a gyűjtemény meghatározott pozíciójához. |
-| [AddSection](../../aspose.slides/sectioncollection/addsection)(string, ISlide) | Diák szekciót ad hozzá, amely egy konkrét diától kezdődik. |
-| [AppendEmptySection](../../aspose.slides/sectioncollection/appendemptysection)(string) | Üres szekciót ad a gyűjtemény végéhez. |
-| [Clear](../../aspose.slides/sectioncollection/clear)() | Eltávolítja az összes szekciót a gyűjteményből. |
-| [CopyTo](../../aspose.slides/sectioncollection/copyto)(Array, int) | Az egész gyűjteményt a megadott tömbbe másolja. |
-| [GetEnumerator](../../aspose.slides/sectioncollection/getenumerator)() | Visszaad egy felsorolót, amely végigiterál a gyűjteményen. |
+| [AddEmptySection](../../aspose.slides/sectioncollection/addemptysection)(string, int) | Üres szekciót ad hozzá a gyűjtemény megadott pozíciójához. |
+| [AddSection](../../aspose.slides/sectioncollection/addsection)(string, ISlide) | Dia szekciót ad hozzá, amely egy adott diától kezdődik. |
+| [AppendEmptySection](../../aspose.slides/sectioncollection/appendemptysection)(string) | Üres szekciót ad a gyűjtemény végére. |
+| [Clear](../../aspose.slides/sectioncollection/clear)() | Eltávolít minden szekciót a gyűjteményből. |
+| [CopyTo](../../aspose.slides/sectioncollection/copyto)(Array, int) | A teljes gyűjteményt a megadott tömbbe másolja. |
+| [GetEnumerator](../../aspose.slides/sectioncollection/getenumerator)() | Visszaad egy enumerátort, amely végigiterál a gyűjteményen. |
 | [IndexOf](../../aspose.slides/sectioncollection/indexof)(ISection) | Visszaad a megadott szekció indexét a gyűjteményben. |
 | [RemoveSection](../../aspose.slides/sectioncollection/removesection)(ISection) | Eltávolítja a szekciót. A szekcióban lévő diák egyesülnek az előző szekcióval. |
 | [RemoveSectionWithSlides](../../aspose.slides/sectioncollection/removesectionwithslides)(ISection) | Eltávolítja a szekciót és a benne lévő diákat. |
-| [ReorderSectionWithSlides](../../aspose.slides/sectioncollection/reordersectionwithslides)(ISection, int) | Áthelyezi a szekciót és annak diáit a gyűjteményből a megadott pozícióba. |
+| [ReorderSectionWithSlides](../../aspose.slides/sectioncollection/reordersectionwithslides)(ISection, int) | Áthelyezi a szekciót és diákjait a gyűjteményből a megadott pozícióba. |
 
 ### Lásd még
 

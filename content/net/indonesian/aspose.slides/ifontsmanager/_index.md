@@ -3,7 +3,7 @@ title: IFontsManager
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mengelola font di seluruh presentasi.
 type: docs
-weight: 5930
+weight: 5950
 url: /id/aspose.slides/ifontsmanager/
 ---
 ## IFontsManager antarmuka
@@ -18,29 +18,30 @@ public interface IFontsManager
 
 | Nama | Deskripsi |
 | --- | --- |
-| [FontFallBackRulesCollection](../../aspose.slides/ifontsmanager/fontfallbackrulescollection) { get; set; } | Mewakili kumpulan aturan FontFallBack milik pengguna untuk mengelola koleksi font guna substitusi yang tepat melalui fungsi fallback Baca/tulis [`IFontFallBackRulesCollection`](../ifontfallbackrulescollection). |
+| [FontFallBackRulesCollection](../../aspose.slides/ifontsmanager/fontfallbackrulescollection) { get; set; } | Mewakili koleksi aturan FontFallBack milik pengguna untuk mengelola kumpulan font agar substitusi yang tepat dapat dilakukan oleh fungsi fallback Baca/tulis [`IFontFallBackRulesCollection`](../ifontfallbackrulescollection). |
 | [FontSubstRuleList](../../aspose.slides/ifontsmanager/fontsubstrulelist) { get; set; } | Substitusi font yang digunakan saat merender Baca/tulis [`IFontSubstRuleCollection`](../ifontsubstrulecollection). |
+| [PreferRegisteredFontsOverEmbedded](../../aspose.slides/ifontsmanager/preferregisteredfontsoverembedded) { get; set; } | Menentukan apakah font yang terdaftar harus diprioritaskan dibandingkan font yang disematkan dengan nama dan gaya font yang sama. Ketika diaktifkan, font yang disematkan yang cocok sementara diganti dengan font terdaftar yang bersesuaian selama ekspor. |
 
 ## Metode
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AddEmbeddedFont](../../aspose.slides/ifontsmanager/addembeddedfont#addembeddedfont_1)(byte[], EmbedFontCharacters) | Menambahkan font yang disematkan. Perlu diingat saat menambahkan font apa pun bahwa sebagian besar font dilindungi hak cipta. Pertama, temukan lisensi font terlebih dahulu dan pastikan dapat dipindahkan secara bebas ke mesin lain. ArgumentException dapat dilemparkan jika data font bernilai null atau font ini sudah disematkan. |
-| [AddEmbeddedFont](../../aspose.slides/ifontsmanager/addembeddedfont#addembeddedfont)(IFontData, EmbedFontCharacters) | Menambahkan font yang disematkan. Perlu diingat saat menyalin font apa pun bahwa sebagian besar font dilindungi hak cipta. Pertama, temukan lisensi font terlebih dahulu dan pastikan dapat dipindahkan secara bebas ke mesin lain. ArgumentException dapat dilemparkan jika data font bernilai null atau font ini sudah disematkan. |
-| [GetEmbeddedFonts](../../aspose.slides/ifontsmanager/getembeddedfonts)() | Mengembalikan font yang disematkan dalam presentasi. |
+| [AddEmbeddedFont](../../aspose.slides/ifontsmanager/addembeddedfont#addembeddedfont_1)(byte[], EmbedFontCharacters) | Menambahkan font yang disematkan. Perlu diingat saat menambahkan font apa pun bahwa sebagian besar font dilindungi hak cipta. Pertama, temukan lisensi font terlebih dahulu dan verifikasi bahwa mereka dapat dipindahkan secara bebas ke mesin lain. ArgumentException dapat dilemparkan jika data font null atau font ini sudah disematkan |
+| [AddEmbeddedFont](../../aspose.slides/ifontsmanager/addembeddedfont#addembeddedfont)(IFontData, EmbedFontCharacters) | Menambahkan font yang disematkan. Perlu diingat saat menyalin font apa pun bahwa sebagian besar font dilindungi hak cipta. Pertama, temukan lisensi font terlebih dahulu dan verifikasi bahwa mereka dapat dipindahkan secara bebas ke mesin lain. ArgumentException dapat dilemparkan jika data font null atau font ini sudah disematkan |
+| [GetEmbeddedFonts](../../aspose.slides/ifontsmanager/getembeddedfonts)() | Mengembalikan font yang disematkan dalam presentasi |
 | [GetFontBytes](../../aspose.slides/ifontsmanager/getfontbytes)(IFontData, FontStyleType) | Mengambil array byte yang mewakili data font untuk gaya font dan data font yang ditentukan. |
-| [GetFontEmbeddingLevel](../../aspose.slides/ifontsmanager/getfontembeddinglevel)(byte[], string) | Menentukan tingkat penyematan font dari array byte dan nama font yang diberikan. |
-| [GetFonts](../../aspose.slides/ifontsmanager/getfonts)() | Mengembalikan font yang digunakan dalam presentasi. |
+| [GetFontEmbeddingLevel](../../aspose.slides/ifontsmanager/getfontembeddinglevel)(byte[], string) | Menentukan tingkat penyematan sebuah font dari array byte yang diberikan dan nama font. |
+| [GetFonts](../../aspose.slides/ifontsmanager/getfonts)() | Mengembalikan font yang digunakan dalam presentasi |
 | [GetSubstitutions](../../aspose.slides/ifontsmanager/getsubstitutions#getsubstitutions)() | Mendapatkan informasi tentang font yang akan diganti pada proses rendering presentasi. |
 | [GetSubstitutions](../../aspose.slides/ifontsmanager/getsubstitutions#getsubstitutions_1)(int[]) | Mendapatkan informasi tentang font yang akan diganti selama rendering slide yang ditentukan. |
-| [RemoveEmbeddedFont](../../aspose.slides/ifontsmanager/removeembeddedfont)(IFontData) | Menghapus font yang disematkan. |
-| [ReplaceFont](../../aspose.slides/ifontsmanager/replacefont#replacefont_1)(IFontSubstRule) | Mengganti font dalam presentasi menggunakan informasi yang disediakan dalam [`IFontSubstRule`](../ifontsubstrule). |
-| [ReplaceFont](../../aspose.slides/ifontsmanager/replacefont#replacefont_2)(IFontSubstRuleCollection) | Mengganti font dalam presentasi menggunakan informasi yang disediakan dalam koleksi [`IFontSubstRule`](../ifontsubstrule). |
-| [ReplaceFont](../../aspose.slides/ifontsmanager/replacefont#replacefont)(IFontData, IFontData) | Mengganti font dalam presentasi. |
+| [RemoveEmbeddedFont](../../aspose.slides/ifontsmanager/removeembeddedfont)(IFontData) | Menghapus font yang disematkan |
+| [ReplaceFont](../../aspose.slides/ifontsmanager/replacefont#replacefont_1)(IFontSubstRule) | Ganti font dalam presentasi menggunakan informasi yang diberikan dalam [`IFontSubstRule`](../ifontsubstrule) |
+| [ReplaceFont](../../aspose.slides/ifontsmanager/replacefont#replacefont_2)(IFontSubstRuleCollection) | Ganti font dalam presentasi menggunakan informasi yang diberikan dalam koleksi [`IFontSubstRule`](../ifontsubstrule) |
+| [ReplaceFont](../../aspose.slides/ifontsmanager/replacefont#replacefont)(IFontData, IFontData) | Ganti font dalam presentasi |
 
 ### Lihat Juga
 
 * ruang nama [Aspose.Slides](../../aspose.slides)
-* rakitan [Aspose.Slides](../../)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,14 +1,14 @@
 ---
 title: IChartData
-second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili data yang digunakan untuk pemetaan bagan.
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Mewakili data yang digunakan untuk menggambar diagram.
 type: docs
-weight: 1800
+weight: 1820
 url: /id/aspose.slides.charts/ichartdata/
 ---
 ## IChartData antarmuka
 
-Mewakili data yang digunakan untuk pemetaan bagan.
+Mewakili data yang digunakan untuk menggambar diagram.
 
 ```csharp
 public interface IChartData
@@ -18,27 +18,28 @@ public interface IChartData
 
 | Nama | Deskripsi |
 | --- | --- |
-| [Categories](../../aspose.slides.charts/ichartdata/categories) { get; } | Mendapatkan kategori utama (atau baik kategori utama maupun sekunder jika properti [`UseSecondaryCategories`](./usesecondarycategories) bernilai false). Baca-saja [`IChartCategoryCollection`](../ichartcategorycollection). |
-| [ChartDataWorkbook](../../aspose.slides.charts/ichartdata/chartdataworkbook) { get; } | Mendapatkan pabrik sel untuk membuat sel yang digunakan untuk seri bagan atau kategori. Baca-saja [`IChartDataWorkbook`](../ichartdataworkbook). |
-| [DataSourceType](../../aspose.slides.charts/ichartdata/datasourcetype) { get; } | Mewakili sumber data bagan |
-| [EmbeddedWorkbookType](../../aspose.slides.charts/ichartdata/embeddedworkbooktype) { get; } | Mendapatkan tipe buku kerja tersemat. Mengembalikan NotDefined jika [`DataSourceType`](./datasourcetype) adalah ExternalWorkbook. Baca-saja [`WorkbookType`](../workbooktype). |
-| [ExternalWorkbookPath](../../aspose.slides.charts/ichartdata/externalworkbookpath) { get; } | Mewakili jalur buku kerja eksternal jika sumber data eksternal, null sebaliknya |
-| [SecondaryCategories](../../aspose.slides.charts/ichartdata/secondarycategories) { get; } | Mendapatkan kategori sekunder jika properti [`UseSecondaryCategories`](./usesecondarycategories) bernilai true. Baca-saja [`IChartCategoryCollection`](../ichartcategorycollection). |
-| [Series](../../aspose.slides.charts/ichartdata/series) { get; } | Mendapatkan seri. Baca-saja [`IChartSeriesCollection`](../ichartseriescollection). |
-| [SeriesGroups](../../aspose.slides.charts/ichartdata/seriesgroups) { get; } | Mendapatkan grup seri. Baca-saja [`IChartSeriesGroupCollection`](../ichartseriesgroupcollection). |
-| [UseSecondaryCategories](../../aspose.slides.charts/ichartdata/usesecondarycategories) { get; set; } | Jika false maka properti [`SecondaryCategories`](./secondarycategories) mengembalikan null dan data pada properti [`Categories`](./categories) digunakan untuk seri utama dan sekunder. Jika true maka data pada properti [`SecondaryCategories`](./secondarycategories) digunakan untuk seri sekunder dan data pada properti [`Categories`](./categories) digunakan untuk seri utama. Baca/tulis Boolean. |
+| [Categories](../../aspose.slides.charts/ichartdata/categories) { get; } | Mengambil kategori utama (atau baik kategori utama maupun sekunder jika properti [`UseSecondaryCategories`](./usesecondarycategories) bernilai false). Hanya-baca [`IChartCategoryCollection`](../ichartcategorycollection). |
+| [ChartDataWorkbook](../../aspose.slides.charts/ichartdata/chartdataworkbook) { get; } | Mengambil pabrik sel untuk membuat sel yang digunakan untuk seri diagram atau kategori. Hanya-baca [`IChartDataWorkbook`](../ichartdataworkbook). |
+| [DataSourceType](../../aspose.slides.charts/ichartdata/datasourcetype) { get; } | Mewakili sumber data diagram. |
+| [EmbeddedWorkbookType](../../aspose.slides.charts/ichartdata/embeddedworkbooktype) { get; } | Mengambil tipe buku kerja yang disematkan. Mengembalikan NotDefined jika [`DataSourceType`](./datasourcetype) adalah ExternalWorkbook. Hanya-baca [`WorkbookType`](../workbooktype). |
+| [ExternalWorkbookPath](../../aspose.slides.charts/ichartdata/externalworkbookpath) { get; } | Mewakili jalur buku kerja eksternal jika sumber data eksternal, null jika tidak. |
+| [SecondaryCategories](../../aspose.slides.charts/ichartdata/secondarycategories) { get; } | Mengambil kategori sekunder jika properti [`UseSecondaryCategories`](./usesecondarycategories) bernilai true. Hanya-baca [`IChartCategoryCollection`](../ichartcategorycollection). |
+| [Series](../../aspose.slides.charts/ichartdata/series) { get; } | Mengambil seri. Hanya-baca [`IChartSeriesCollection`](../ichartseriescollection). |
+| [SeriesGroups](../../aspose.slides.charts/ichartdata/seriesgroups) { get; } | Mengambil grup seri. Hanya-baca [`IChartSeriesGroupCollection`](../ichartseriesgroupcollection). |
+| [UseSecondaryCategories](../../aspose.slides.charts/ichartdata/usesecondarycategories) { get; set; } | Jika false maka properti [`SecondaryCategories`](./secondarycategories) mengembalikan null dan data dalam properti [`Categories`](./categories) digunakan untuk seri utama dan sekunder. Jika true maka data dalam properti [`SecondaryCategories`](./secondarycategories) digunakan untuk seri sekunder dan data dalam properti [`Categories`](./categories) digunakan untuk seri utama. Baca/tulis Boolean. |
 
 ## Metode
 
 | Nama | Deskripsi |
 | --- | --- |
-| [GetRange](../../aspose.slides.charts/ichartdata/getrange)() | Mendapatkan rentang data bagan. |
-| [ReadWorkbookStream](../../aspose.slides.charts/ichartdata/readworkbookstream)() | Menulis buku kerja Excel yang terdapat di dalamnya ke dalam aliran memori. |
-| [SetExternalWorkbook](../../aspose.slides.charts/ichartdata/setexternalworkbook#setexternalworkbook)(string) | Menetapkan buku kerja eksternal sebagai sumber data untuk bagan. Data bagan akan diperbarui dari buku kerja target. |
-| [SetExternalWorkbook](../../aspose.slides.charts/ichartdata/setexternalworkbook#setexternalworkbook_1)(string, bool) | Menetapkan buku kerja eksternal sebagai sumber data untuk bagan. |
-| [SetRange](../../aspose.slides.charts/ichartdata/setrange)(string) | Mengatur rentang data bagan. Seri dan kategori akan diperbarui berdasarkan rentang data baru. Jika jumlah seri dalam rentang data lebih besar dari jumlah seri dalam data bagan maka seri tambahan dengan tipe yang sama dengan seri terakhir dalam koleksi saat ini akan ditambahkan ke akhir koleksi. |
+| [GetRange](../../aspose.slides.charts/ichartdata/getrange)() | Mengambil rentang data diagram. |
+| [ReadWorkbookStream](../../aspose.slides.charts/ichartdata/readworkbookstream)() | Menulis buku kerja Excel yang disertakan secara internal ke dalam aliran memori. |
+| [RefreshData](../../aspose.slides.charts/ichartdata/refreshdata)() | Menyegarkan data diagram dengan memuat ulang dari buku kerja sumber. |
+| [SetExternalWorkbook](../../aspose.slides.charts/ichartdata/setexternalworkbook#setexternalworkbook)(string) | Menetapkan buku kerja eksternal sebagai sumber data untuk diagram. Data diagram akan diperbarui dari buku kerja target. |
+| [SetExternalWorkbook](../../aspose.slides.charts/ichartdata/setexternalworkbook#setexternalworkbook_1)(string, bool) | Menetapkan buku kerja eksternal sebagai sumber data untuk diagram. |
+| [SetRange](../../aspose.slides.charts/ichartdata/setrange)(string) | Menetapkan rentang data diagram. Seri dan kategori akan diperbarui berdasarkan rentang data baru. Jika jumlah seri dalam rentang data lebih besar dari jumlah seri dalam data diagram, maka seri tambahan dengan tipe yang sama seperti seri terakhir dalam koleksi saat ini akan ditambahkan ke akhir koleksi. |
 | [SwitchRowColumn](../../aspose.slides.charts/ichartdata/switchrowcolumn)() | Menukar data pada sumbu. Data yang digambarkan pada sumbu X akan dipindahkan ke sumbu Y dan sebaliknya. |
-| [WriteWorkbookStream](../../aspose.slides.charts/ichartdata/writeworkbookstream)(MemoryStream) | Menginisialisasi buku kerja Excel yang terdapat di dalamnya dengan nilai yang ditentukan pengguna. |
+| [WriteWorkbookStream](../../aspose.slides.charts/ichartdata/writeworkbookstream)(MemoryStream) | Menginisialisasi buku kerja Excel yang disertakan secara internal dengan nilai yang ditentukan pengguna. |
 
 ### Lihat Juga
 

@@ -1,14 +1,14 @@
 ---
 title: IVbaReferenceOleTypeLib
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar OLE Automation-typbiblioteksreferens.
+description: Representerar referens till OLE Automation-typbibliotek.
 type: docs
-weight: 11610
+weight: 11630
 url: /sv/aspose.slides.vba/ivbareferenceoletypelib/
 ---
 ## IVbaReferenceOleTypeLib gränssnitt
 
-Representerar OLE Automation-typbiblioteksreferens.
+Representerar referens till OLE Automation-typbibliotek.
 
 ```csharp
 public interface IVbaReferenceOleTypeLib : IVbaReference
@@ -18,10 +18,10 @@ public interface IVbaReferenceOleTypeLib : IVbaReference
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIVbaReference](../../aspose.slides.vba/ivbareferenceoletypelib/asivbareference) { get; } | Returnerar IVbaReference gränssnitt. Skrivskyddad [`IVbaReference`](../ivbareference). |
+| [AsIVbaReference](../../aspose.slides.vba/ivbareferenceoletypelib/asivbareference) { get; } | Returnerar IVbaReference-gränssnitt. Skrivskyddad [`IVbaReference`](../ivbareference). |
 | [Libid](../../aspose.slides.vba/ivbareferenceoletypelib/libid) { get; set; } | Representerar identifieraren för ett Automation-typbibliotek. Läs/skriv String. |
 
-### Se också
+### Se även
 
 * gränssnitt [IVbaReference](../ivbareference)
 * namnrymd [Aspose.Slides.Vba](../../aspose.slides.vba)

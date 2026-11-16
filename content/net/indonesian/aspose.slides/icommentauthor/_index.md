@@ -3,7 +3,7 @@ title: ICommentAuthor
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili penulis komentar.
 type: docs
-weight: 5570
+weight: 5590
 url: /id/aspose.slides/icommentauthor/
 ---
 ## ICommentAuthor antarmuka

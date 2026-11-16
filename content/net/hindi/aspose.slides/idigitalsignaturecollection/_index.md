@@ -1,9 +1,9 @@
 ---
 title: IDigitalSignatureCollection
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: एक दस्तावेज़ से जुड़े डिजिटल हस्ताक्षरों के संग्रह का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: डॉक्यूमेंट से जुड़े डिजिटल हस्ताक्षरों के संग्रह का प्रतिनिधित्व करता है।
 type: docs
-weight: 5700
+weight: 5720
 url: /hi/aspose.slides/idigitalsignaturecollection/
 ---
 ## IDigitalSignatureCollection इंटरफ़ेस
@@ -14,13 +14,13 @@ url: /hi/aspose.slides/idigitalsignaturecollection/
 public interface IDigitalSignatureCollection : IGenericCollection<IDigitalSignature>
 ```
 
-## प्रॉपर्टीज़
+## गुण
 
 | नाम | विवरण |
 | --- | --- |
 | [Item](../../aspose.slides/idigitalsignaturecollection/item) { get; } | इंडेक्स द्वारा हस्ताक्षर लौटाता है। |
 
-## मेथड्स
+## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
@@ -28,7 +28,7 @@ public interface IDigitalSignatureCollection : IGenericCollection<IDigitalSignat
 | [Clear](../../aspose.slides/idigitalsignaturecollection/clear)() | संग्रह से सभी हस्ताक्षर हटाता है। |
 | [RemoveAt](../../aspose.slides/idigitalsignaturecollection/removeat)(int) | निर्दिष्ट इंडेक्स पर हस्ताक्षर हटाता है। |
 
-### देखें
+### संबंधित देखें
 
 * इंटरफ़ेस [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * इंटरफ़ेस [IDigitalSignature](../idigitalsignature)

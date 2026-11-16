@@ -3,7 +3,7 @@ title: ModernComment
 second_title: Aspose.Sildes για .NET API Αναφορά
 description: Αντιπροσωπεύει ένα σχόλιο σε μια διαφάνεια.
 type: docs
-weight: 9090
+weight: 9110
 url: /el/aspose.slides/moderncomment/
 ---
 ## ModernComment κλάση
@@ -16,24 +16,24 @@ public sealed class ModernComment : Comment, IModernComment
 
 ## Ιδιότητες
 
-| Name | Description |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [Author](../../aspose.slides/comment/author) { get; } | Επιστρέφει τον συγγραφέα ενός σχολίου. Μόνο για ανάγνωση [`ICommentAuthor`](../icommentauthor). |
-| [CreatedTime](../../aspose.slides/comment/createdtime) { get; set; } | Επιστρέφει ή ορίζει την ώρα δημιουργίας ενός σχολίου. Ορισμός αυτής της ιδιότητας σε MinValue σημαίνει ότι δεν έχει οριστεί ώρα σχολίου. Ανάγνωση/εγγραφή DateTime. |
-| [ParentComment](../../aspose.slides/comment/parentcomment) { get; set; } | Παίρνει ή ορίζει το γονικό σχόλιο. Ανάγνωση/εγγραφή [`IComment`](../icomment). |
+| [Author](../../aspose.slides/comment/author) { get; } | Επιστρέφει τον δημιουργό ενός σχολίου. Μόνο για ανάγνωση [`ICommentAuthor`](../icommentauthor). |
+| [CreatedTime](../../aspose.slides/comment/createdtime) { get; set; } | Επιστρέφει ή ορίζει τον χρόνο δημιουργίας ενός σχολίου. Ορισμός αυτής της ιδιότητας σε MinValue σημαίνει ότι δεν έχει οριστεί χρόνος σχολίου. Ανάγνωση/εγγραφή DateTime. |
+| [ParentComment](../../aspose.slides/comment/parentcomment) { get; set; } | Λαμβάνει ή ορίζει το γονικό σχόλιο. Ανάγνωση/εγγραφή [`IComment`](../icomment). |
 | [Position](../../aspose.slides/comment/position) { get; set; } | Επιστρέφει ή ορίζει τη θέση ενός σχολίου σε μια διαφάνεια. Ανάγνωση/εγγραφή PointF. |
 | [Shape](../../aspose.slides/moderncomment/shape) { get; } | Επιστρέφει ένα σχήμα που σχετίζεται με το σχόλιο. Μόνο για ανάγνωση [`IShape`](../ishape). |
 | [Slide](../../aspose.slides/comment/slide) { get; } | Επιστρέφει ή ορίζει τη γονική διαφάνεια ενός σχολίου. Μόνο για ανάγνωση [`ISlide`](../islide). |
-| [Status](../../aspose.slides/moderncomment/status) { get; set; } | Παίρνει ή ορίζει την κατάσταση του σχολίου. Ανάγνωση/εγγραφή [`ModernCommentStatus`](../moderncommentstatus). |
+| [Status](../../aspose.slides/moderncomment/status) { get; set; } | Λαμβάνει ή ορίζει την κατάσταση του σχολίου. Ανάγνωση/εγγραφή [`ModernCommentStatus`](../moderncommentstatus). |
 | [Text](../../aspose.slides/comment/text) { get; set; } | Επιστρέφει ή ορίζει το απλό κείμενο ενός σχολίου διαφάνειας. Ανάγνωση/εγγραφή String. |
-| [TextSelectionLength](../../aspose.slides/moderncomment/textselectionlength) { get; set; } | Παίρνει ή ορίζει το μήκος επιλογής κειμένου σε πλαίσιο κειμένου αν το σχόλιο συνδέεται με AutoShape. Ανάγνωση/εγγραφή Int32. |
-| [TextSelectionStart](../../aspose.slides/moderncomment/textselectionstart) { get; set; } | Παίρνει ή ορίζει τη θέση έναρξης της επιλογής κειμένου σε πλαίσιο κειμένου αν το σχόλιο συνδέεται με AutoShape. Ανάγνωση/εγγραφή Int32. |
+| [TextSelectionLength](../../aspose.slides/moderncomment/textselectionlength) { get; set; } | Λαμβάνει ή ορίζει το μήκος επιλογής κειμένου σε πλαίσιο κειμένου εάν το σχόλιο σχετίζεται με AutoShape. Ανάγνωση/εγγραφή Int32. |
+| [TextSelectionStart](../../aspose.slides/moderncomment/textselectionstart) { get; set; } | Λαμβάνει ή ορίζει τη θέση εκκίνησης της επιλογής κειμένου σε πλαίσιο κειμένου εάν το σχόλιο σχετίζεται με AutoShape. Ανάγνωση/εγγραφή Int32. |
 
 ## Μέθοδοι
 
-| Name | Description |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [Remove](../../aspose.slides/comment/remove)() | Αφαιρεί το σχόλιο και όλες τις απαντήσεις του από τη γονική συλλογή. |
+| [Remove](../../aspose.slides/comment/remove)() | Καταργεί το σχόλιο και όλες τις απαντήσεις του από τη γονική συλλογή. |
 
 ### Παραδείγματα
 

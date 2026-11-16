@@ -1,9 +1,9 @@
 ---
 title: Compress
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla .NET – referencja API
 description: Reprezentuje grupę metod przeznaczonych do kompresji Presentation../aspose.slides/presentation.
 type: docs
-weight: 7870
+weight: 7890
 url: /pl/aspose.slides.lowcode/compress/
 ---
 ## Compress klasa
@@ -18,9 +18,11 @@ public static class Compress
 
 | Nazwa | Opis |
 | --- | --- |
-| static [CompressEmbeddedFonts](../../aspose.slides.lowcode/compress/compressembeddedfonts)(Presentation) | Wykonuje kompresję [`Presentation`](../../aspose.slides/presentation) poprzez usunięcie nieużywanych znaków z osadzonych czcionek. |
-| static [RemoveUnusedLayoutSlides](../../aspose.slides.lowcode/compress/removeunusedlayoutslides)(Presentation) | Wykonuje kompresję [`Presentation`](../../aspose.slides/presentation) poprzez usunięcie nieużywanych slajdów układu. |
-| static [RemoveUnusedMasterSlides](../../aspose.slides.lowcode/compress/removeunusedmasterslides)(Presentation) | Wykonuje kompresję [`Presentation`](../../aspose.slides/presentation) poprzez usunięcie nieużywanych slajdów głównych. |
+| static [CompressEmbeddedFonts](../../aspose.slides.lowcode/compress/compressembeddedfonts)(Presentation) | Wykonuje kompresję [`Presentation`](../../aspose.slides/presentation) usuwając nieużywane znaki z osadzonych czcionek. |
+| static [CompressImages](../../aspose.slides.lowcode/compress/compressimages)(IPresentation, PicturesCompression) | Zmniejsza rozdzielczość obrazów w prezentacji i usuwa ich przycięte obszary, podobnie jak funkcja PowerPoint "Compress Pictures" zastosowana do wszystkich obrazów. Obrazy na slajdach, slajdach układu i slajdach głównych są przetwarzane, w tym obrazy wewnątrz grupowych kształtów oraz wypełnienia obrazami kształtów. |
+| static [CompressPresentation](../../aspose.slides.lowcode/compress/compresspresentation)(Presentation) | Zmniejsza rozmiar prezentacji stosując wszystkie dostępne kroki kompresji: |
+| static [RemoveUnusedLayoutSlides](../../aspose.slides.lowcode/compress/removeunusedlayoutslides)(Presentation) | Wykonuje kompresję [`Presentation`](../../aspose.slides/presentation) usuwając nieużywane slajdy układu. |
+| static [RemoveUnusedMasterSlides](../../aspose.slides.lowcode/compress/removeunusedmasterslides)(Presentation) | Wykonuje kompresję [`Presentation`](../../aspose.slides/presentation) usuwając nieużywane slajdy główne. |
 
 ### Przykłady
 

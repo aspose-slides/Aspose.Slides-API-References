@@ -1,14 +1,14 @@
 ---
 title: IBaseTableFormatEffectiveData
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 효과적인 테이블 서식 속성을 포함하는 불변 객체를 위한 기본 인터페이스입니다.
 type: docs
-weight: 5360
+weight: 5380
 url: /ko/aspose.slides/ibasetableformateffectivedata/
 ---
 ## IBaseTableFormatEffectiveData 인터페이스
 
-효과적인 테이블 서식 속성을 포함하는 불변 객체를 위한 기본 인터페이스입니다.
+Base interface for immutable objects which contain effective table formatting properties.
 
 ```csharp
 public interface IBaseTableFormatEffectiveData
@@ -18,13 +18,13 @@ public interface IBaseTableFormatEffectiveData
 
 | 이름 | 설명 |
 | --- | --- |
-| [BorderBottom](../../aspose.slides/ibasetableformateffectivedata/borderbottom) { get; } | 하단 테두리 선 서식의 효과적인 값을 반환합니다. 읽기 전용 [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderDiagonalDown](../../aspose.slides/ibasetableformateffectivedata/borderdiagonaldown) { get; } | 하향 대각선 선 서식의 효과적인 값을 반환합니다. 읽기 전용 [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderDiagonalUp](../../aspose.slides/ibasetableformateffectivedata/borderdiagonalup) { get; } | 상향 대각선 선 서식의 효과적인 값을 반환합니다. 읽기 전용 [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderLeft](../../aspose.slides/ibasetableformateffectivedata/borderleft) { get; } | 좌측 테두리 선 서식의 효과적인 값을 반환합니다. 읽기 전용 [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderRight](../../aspose.slides/ibasetableformateffectivedata/borderright) { get; } | 우측 테두리 선 서식의 효과적인 값을 반환합니다. 읽기 전용 [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderTop](../../aspose.slides/ibasetableformateffectivedata/bordertop) { get; } | 상단 테두리 선 서식의 효과적인 값을 반환합니다. 읽기 전용 [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [FillFormat](../../aspose.slides/ibasetableformateffectivedata/fillformat) { get; } | 채우기 서식의 효과적인 값을 반환합니다. 읽기 전용 [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
+| [BorderBottom](../../aspose.slides/ibasetableformateffectivedata/borderbottom) { get; } | 아래쪽 테두리 선 형식의 유효값을 반환합니다. 읽기 전용 [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderDiagonalDown](../../aspose.slides/ibasetableformateffectivedata/borderdiagonaldown) { get; } | 아래쪽 대각선 선 형식의 유효값을 반환합니다. 읽기 전용 [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderDiagonalUp](../../aspose.slides/ibasetableformateffectivedata/borderdiagonalup) { get; } | 위쪽 대각선 선 형식의 유효값을 반환합니다. 읽기 전용 [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderLeft](../../aspose.slides/ibasetableformateffectivedata/borderleft) { get; } | 왼쪽 테두리 선 형식의 유효값을 반환합니다. 읽기 전용 [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderRight](../../aspose.slides/ibasetableformateffectivedata/borderright) { get; } | 오른쪽 테두리 선 형식의 유효값을 반환합니다. 읽기 전용 [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderTop](../../aspose.slides/ibasetableformateffectivedata/bordertop) { get; } | 위쪽 테두리 선 형식의 유효값을 반환합니다. 읽기 전용 [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [FillFormat](../../aspose.slides/ibasetableformateffectivedata/fillformat) { get; } | 채우기 형식의 유효값을 반환합니다. 읽기 전용 [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
 
 ### 참고
 

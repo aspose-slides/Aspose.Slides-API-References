@@ -1,9 +1,9 @@
 ---
 title: IPathSegment
-second_title: Aspose.Sildes для .NET справка API
+second_title: Aspose.Sildes для .NET справочник API
 description: Представляет сегмент графического пути GeometryShape
 type: docs
-weight: 6610
+weight: 6630
 url: /ru/aspose.slides/ipathsegment/
 ---
 ## IPathSegment интерфейс

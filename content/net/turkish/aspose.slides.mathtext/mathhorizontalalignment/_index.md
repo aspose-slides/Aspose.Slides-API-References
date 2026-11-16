@@ -3,10 +3,10 @@ title: MathHorizontalAlignment
 second_title: Aspose.Sildes için .NET API Referansı
 description: Yatay Hizalama
 type: docs
-weight: 8780
+weight: 8800
 url: /tr/aspose.slides.mathtext/mathhorizontalalignment/
 ---
-## MathHorizontalAlignment enumerasyonu
+## MathHorizontalAlignment enum
 
 Yatay Hizalama
 
@@ -14,7 +14,7 @@ Yatay Hizalama
 public enum MathHorizontalAlignment
 ```
 
-### Values
+### Değerler
 
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
@@ -23,7 +23,7 @@ public enum MathHorizontalAlignment
 | Center | `2` | Orta |
 | Right | `3` | Sağ |
 
-### See Also
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * derleme [Aspose.Slides](../../)

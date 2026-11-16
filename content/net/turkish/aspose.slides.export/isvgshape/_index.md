@@ -3,10 +3,10 @@ title: ISvgShape
 second_title: Aspose.Sildes için .NET API Referansı
 description: SVG şekli için seçenekleri temsil eder.
 type: docs
-weight: 4110
+weight: 4130
 url: /tr/aspose.slides.export/isvgshape/
 ---
-## ISvgShape arayüz
+## ISvgShape arayüzü
 
 SVG şekli için seçenekleri temsil eder.
 
@@ -18,9 +18,9 @@ public interface ISvgShape
 
 | Ad | Açıklama |
 | --- | --- |
-| [Id](../../aspose.slides.export/isvgshape/id) { get; set; } | Şekil için id ayarlar veya alır |
+| [Id](../../aspose.slides.export/isvgshape/id) { get; set; } | Şekil için kimliği ayarlar veya alır |
 
-## Metotlar
+## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |

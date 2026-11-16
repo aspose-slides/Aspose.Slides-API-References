@@ -1,14 +1,14 @@
 ---
 title: ICellFormat
-second_title: Aspose.Sildes .NET API hivatkozás
-description: A táblázat cellájának formátumát reprezentálja.
+second_title: Aspose.Sildes .NET API referencia
+description: A táblázat cellájának formátumát képviseli.
 type: docs
-weight: 5470
+weight: 5490
 url: /hu/aspose.slides/icellformat/
 ---
 ## ICellFormat interfész
 
-A táblázat cellájának formátumát reprezentálja.
+A táblázat cellájának formátumát képviseli.
 
 ```csharp
 public interface ICellFormat
@@ -16,22 +16,22 @@ public interface ICellFormat
 
 ## Tulajdonságok
 
-| Name | Description |
+| Név | Leírás |
 | --- | --- |
-| [BorderBottom](../../aspose.slides/icellformat/borderbottom) { get; } | Visszaad egy alsó keret vonal tulajdonságok objektumot. Csak olvasható [`ILineFormat`](../ilineformat). |
-| [BorderDiagonalDown](../../aspose.slides/icellformat/borderdiagonaldown) { get; } | Visszaad egy bal felső-bal jobb átlós vonal tulajdonságok objektumot. Csak olvasható [`ILineFormat`](../ilineformat). |
-| [BorderDiagonalUp](../../aspose.slides/icellformat/borderdiagonalup) { get; } | Visszaad egy bal alsó-jobb felső átlós vonal tulajdonságok objektumot. Csak olvasható [`ILineFormat`](../ilineformat). |
-| [BorderLeft](../../aspose.slides/icellformat/borderleft) { get; } | Visszaad egy bal keret vonal tulajdonságok objektumot. Csak olvasható [`ILineFormat`](../ilineformat). |
-| [BorderRight](../../aspose.slides/icellformat/borderright) { get; } | Visszaad egy jobb keret vonal tulajdonságok objektumot. Csak olvasható [`ILineFormat`](../ilineformat). |
-| [BorderTop](../../aspose.slides/icellformat/bordertop) { get; } | Visszaad egy felső keret vonal tulajdonságok objektumot. Csak olvasható [`ILineFormat`](../ilineformat). |
-| [FillFormat](../../aspose.slides/icellformat/fillformat) { get; } | Visszaad egy cella kitöltési tulajdonságok objektumot. Csak olvasható [`IFillFormat`](../ifillformat). |
-| [Transparency](../../aspose.slides/icellformat/transparency) { get; set; } | A kitöltő szín átlátszóságát lekéri vagy beállítja. Olvasás/írás Single. |
+| [BorderBottom](../../aspose.slides/icellformat/borderbottom) { get; } | Visszaad egy alsó szegélyvonal tulajdonság objektumot. Csak olvasható [`ILineFormat`](../ilineformat). |
+| [BorderDiagonalDown](../../aspose.slides/icellformat/borderdiagonaldown) { get; } | Visszaad egy bal felső saroktól jobb alsó sarokig ívelt vonal tulajdonság objektumot. Csak olvasható [`ILineFormat`](../ilineformat). |
+| [BorderDiagonalUp](../../aspose.slides/icellformat/borderdiagonalup) { get; } | Visszaad egy bal alsó saroktól jobb felső sarokig ívelt vonal tulajdonság objektumot. Csak olvasható [`ILineFormat`](../ilineformat). |
+| [BorderLeft](../../aspose.slides/icellformat/borderleft) { get; } | Visszaad egy bal szegélyvonal tulajdonság objektumot. Csak olvasható [`ILineFormat`](../ilineformat). |
+| [BorderRight](../../aspose.slides/icellformat/borderright) { get; } | Visszaad egy jobb szegélyvonal tulajdonság objektumot. Csak olvasható [`ILineFormat`](../ilineformat). |
+| [BorderTop](../../aspose.slides/icellformat/bordertop) { get; } | Visszaad egy felső szegélyvonal tulajdonság objektumot. Csak olvasható [`ILineFormat`](../ilineformat). |
+| [FillFormat](../../aspose.slides/icellformat/fillformat) { get; } | Visszaad egy cella kitöltés tulajdonság objektumot. Csak olvasható [`IFillFormat`](../ifillformat). |
+| [Transparency](../../aspose.slides/icellformat/transparency) { get; set; } | Lekéri vagy beállítja a kitöltő szín átlátszóságát. Olvasható/írható Single. |
 
 ## Módszerek
 
-| Name | Description |
+| Név | Leírás |
 | --- | --- |
-| [GetEffective](../../aspose.slides/icellformat/geteffective)() | Lekéri a hatékony táblacellaformázási tulajdonságokat öröklődéssel és táblastílusok alkalmazásával. |
+| [GetEffective](../../aspose.slides/icellformat/geteffective)() | Visszaadja a hatékony táblacella formázási tulajdonságokat öröklődéssel és a táblasablonok alkalmazásával. |
 
 ### Lásd még
 

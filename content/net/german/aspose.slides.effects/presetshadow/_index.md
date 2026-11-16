@@ -1,14 +1,14 @@
 ---
 title: PresetShadow
-second_title: Aspose.Sildes für .NET API Referenz
-description: Stellt einen Preset-Shadow-Effekt dar.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Stellt einen Preset Shadow-Effekt dar.
 type: docs
-weight: 3630
+weight: 3650
 url: /de/aspose.slides.effects/presetshadow/
 ---
 ## PresetShadow Klasse
 
-Stellt einen Preset-Shadow-Effekt dar.
+Stellt einen Preset Shadow-Effekt dar.
 
 ```csharp
 public sealed class PresetShadow : IPresetShadow
@@ -16,19 +16,19 @@ public sealed class PresetShadow : IPresetShadow
 
 ## Eigenschaften
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
 | [Direction](../../aspose.slides.effects/presetshadow/direction) { get; set; } | Richtung des Schattens. Lesen/Schreiben Single. |
 | [Distance](../../aspose.slides.effects/presetshadow/distance) { get; set; } | Entfernung des Schattens. Lesen/Schreiben Double. |
 | [Preset](../../aspose.slides.effects/presetshadow/preset) { get; set; } | Voreinstellung. Lesen/Schreiben [`PresetShadowType`](../../aspose.slides/presetshadowtype). |
-| [ShadowColor](../../aspose.slides.effects/presetshadow/shadowcolor) { get; } | Farbe des Schattens. Nur lesend [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [ShadowColor](../../aspose.slides.effects/presetshadow/shadowcolor) { get; } | Farbe des Schattens. Nur Lesen [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ## Methoden
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/presetshadow/equals)(object) | Bestimmt, ob das angegebene [`PresetShadow`](../presetshadow) gleich dem aktuellen [`PresetShadow`](../presetshadow) ist. |
-| [GetEffective](../../aspose.slides.effects/presetshadow/geteffective)() | Ruft die wirksamen Preset-Shadow-Effektdaten mit angewandter Vererbung ab. |
+| [GetEffective](../../aspose.slides.effects/presetshadow/geteffective)() | Ruft effektive Preset Shadow-Effekt-Daten mit angewandter Vererbung ab. |
 | override [GetHashCode](../../aspose.slides.effects/presetshadow/gethashcode)() | Dient als Hash-Funktion für einen bestimmten Typ. |
 
 ### Siehe auch

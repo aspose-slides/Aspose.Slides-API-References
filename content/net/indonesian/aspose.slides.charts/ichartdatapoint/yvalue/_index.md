@@ -1,14 +1,14 @@
 ---
 title: YValue
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mengembalikan nilai y dari titik data diagram. Hanya-baca IDoubleChartValueaspose.slides.charts/idoublechartvalue.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Mendapatkan nilai y dari titik data grafik. Hanya baca IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
-weight: 180
+weight: 220
 url: /id/aspose.slides.charts/ichartdatapoint/yvalue/
 ---
 ## IChartDataPoint.YValue properti
 
-Mengembalikan nilai y dari titik data diagram. Hanya-baca [`IDoubleChartValue`](../../idoublechartvalue).
+Mendapatkan nilai y dari titik data grafik. Hanya baca [`IDoubleChartValue`](../../idoublechartvalue).
 
 ```csharp
 public IDoubleChartValue YValue { get; }

@@ -3,7 +3,7 @@ title: MathGroupingCharacterFactory
 second_title: Aspose.Sildes pro .NET API Reference
 description: Umožňuje vytvořit matematický seskupovací znak
 type: docs
-weight: 8770
+weight: 8790
 url: /cs/aspose.slides.mathtext/mathgroupingcharacterfactory/
 ---
 ## MathGroupingCharacterFactory třída

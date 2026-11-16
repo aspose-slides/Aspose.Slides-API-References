@@ -1,9 +1,9 @@
 ---
 title: ReplaceFont
-second_title: Aspose.Sildes .NET API referencia
+second_title: Aspose.Sildes .NET API Referencia
 description: Betűtípus cseréje a prezentációban
 type: docs
-weight: 100
+weight: 110
 url: /hu/aspose.slides/fontsmanager/replacefont/
 ---
 ## ReplaceFont(IFontData, IFontData) {#replacefont}
@@ -30,7 +30,7 @@ public void ReplaceFont(IFontData sourceFont, IFontData destFont)
 
 ## ReplaceFont(IFontSubstRule) {#replacefont_1}
 
-Betűtípus cseréje a prezentációban a [`FontSubstRule`](../../fontsubstrule) által biztosított információk felhasználásával
+Betűtípus cseréje a prezentációban a [`FontSubstRule`](../../fontsubstrule)-ben megadott információk alapján
 
 ```csharp
 public void ReplaceFont(IFontSubstRule substRule)
@@ -51,7 +51,7 @@ public void ReplaceFont(IFontSubstRule substRule)
 
 ## ReplaceFont(IFontSubstRuleCollection) {#replacefont_2}
 
-Betűtípus cseréje a prezentációban a [`FontSubstRule`](../../fontsubstrule) gyűjteményében megadott információk felhasználásával
+Betűtípus cseréje a prezentációban a [`FontSubstRule`](../../fontsubstrule) gyűjteményben megadott információk szerint
 
 ```csharp
 public void ReplaceFont(IFontSubstRuleCollection substRules)

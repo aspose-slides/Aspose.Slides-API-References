@@ -1,14 +1,14 @@
 ---
 title: IImageTransformOCollectionEffectiveData
 second_title: Aspose.Sildes для .NET справка API
-description: Неизменяемый объект, представляющий коллекцию только для чтения эффективных эффектов преобразования изображения.
+description: Неизменяемый объект, представляющий только для чтения коллекцию эффективных эффектов преобразования изображения.
 type: docs
-weight: 3380
+weight: 3400
 url: /ru/aspose.slides.effects/iimagetransformocollectioneffectivedata/
 ---
-## IImageTransformOCollectionEffectiveData интерфейс
+## IImageTransformOCollectionEffectiveData interface
 
-Неизменяемый объект, представляющий коллекцию только для чтения эффективных эффектов преобразования изображения.
+Неизменяемый объект, представляющий только для чтения коллекцию эффективных эффектов преобразования изображения.
 
 ```csharp
 public interface IImageTransformOCollectionEffectiveData : IGenericCollection<IEffectEffectiveData>
@@ -20,9 +20,9 @@ public interface IImageTransformOCollectionEffectiveData : IGenericCollection<IE
 | --- | --- |
 | [Item](../../aspose.slides.effects/iimagetransformocollectioneffectivedata/item) { get; } | Возвращает элемент по индексу. |
 
-### Примечания
+### Замечания
 
-Имя IImageTransformOperationCollectionEffectiveData сокращено до IImageTransformOCollectionEffectiveData из-за ограничения длины имен COM, которое не может превышать 39.
+Имя IImageTransformOperationCollectionEffectiveData сокращено до IImageTransformOCollectionEffectiveData из-за того, что длина имён COM не может превышать 39 символов.
 
 ### См. также
 

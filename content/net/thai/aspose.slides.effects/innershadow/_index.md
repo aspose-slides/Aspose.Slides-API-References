@@ -1,14 +1,14 @@
 ---
 title: InnerShadow
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงเอฟเฟกต์เงาภายใน
+description: แสดงถึงเอฟเฟกต์ Inner Shadow.
 type: docs
-weight: 3600
+weight: 3620
 url: /th/aspose.slides.effects/innershadow/
 ---
-## คลาส InnerShadow
+## InnerShadow คลาส
 
-แสดงถึงเอฟเฟกต์เงาภายใน
+แสดงถึงเอฟเฟกต์ Inner Shadow.
 
 ```csharp
 public sealed class InnerShadow : IInnerShadow
@@ -20,15 +20,15 @@ public sealed class InnerShadow : IInnerShadow
 | --- | --- |
 | [BlurRadius](../../aspose.slides.effects/innershadow/blurradius) { get; set; } | รัศมีเบลอ. อ่าน/เขียน Double. |
 | [Direction](../../aspose.slides.effects/innershadow/direction) { get; set; } | ทิศทางของเงา. อ่าน/เขียน Single. |
-| [Distance](../../aspose.slides.effects/innershadow/distance) { get; set; } | ระยะของเงา. อ่าน/เขียน Double. |
+| [Distance](../../aspose.slides.effects/innershadow/distance) { get; set; } | ระยะทางของเงา. อ่าน/เขียน Double. |
 | [ShadowColor](../../aspose.slides.effects/innershadow/shadowcolor) { get; } | สีของเงา. อ่านอย่างเดียว [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/innershadow/equals)(object) | กำหนดว่าตัว [`InnerShadow`](../innershadow) ที่ระบุเทียบเท่ากับ [`InnerShadow`](../innershadow) ปัจจุบันหรือไม่. |
-| [GetEffective](../../aspose.slides.effects/innershadow/geteffective)() | รับข้อมูลเอฟเฟกต์เงาภายในที่มีผลของการสืบทอดที่ใช้. |
+| override [Equals](../../aspose.slides.effects/innershadow/equals)(object) | กำหนดว่า [`InnerShadow`](../innershadow) ที่ระบุเท่ากับ [`InnerShadow`](../innershadow) ปัจจุบันหรือไม่. |
+| [GetEffective](../../aspose.slides.effects/innershadow/geteffective)() | รับข้อมูลเอฟเฟกต์ Inner Shadow ที่มีประสิทธิภาพพร้อมการสืบทอดที่นำมาใช้. |
 | override [GetHashCode](../../aspose.slides.effects/innershadow/gethashcode)() | ทำหน้าที่เป็นฟังก์ชันแฮชสำหรับประเภทเฉพาะ. |
 
 ### ดูเพิ่มเติม

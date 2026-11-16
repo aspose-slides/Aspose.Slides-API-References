@@ -1,14 +1,14 @@
 ---
 title: OrganizationChartLayoutType
-second_title: Aspose.Sildes für .NET API Referenz
-description: Stellt den Formatierungstyp der Kindknoten in einem Organisationsdiagramm dar
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Stellt den Formatierungstyp der untergeordneten Knoten in einem Organisationsdiagramm dar
 type: docs
-weight: 10590
+weight: 10610
 url: /de/aspose.slides.smartart/organizationchartlayouttype/
 ---
 ## OrganizationChartLayoutType Aufzählung
 
-Stellt den Formatierungstyp der Kindknoten in einem Organisationsdiagramm dar
+Stellt den Formatierungstyp der untergeordneten Knoten in einem Organisationsdiagramm dar.
 
 ```csharp
 public enum OrganizationChartLayoutType
@@ -19,10 +19,10 @@ public enum OrganizationChartLayoutType
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
 | Initial | `0` | Initialer Layouttyp |
-| Standart | `1` | Platziert Kindknoten horizontal unter dem übergeordneten Knoten. |
-| BothHanging | `2` | Platziert Kindknoten vertikal unter dem übergeordneten Knoten auf der linken und rechten Seite. |
-| LeftHanging | `3` | Platziert Kindknoten vertikal unter dem übergeordneten Knoten auf der linken Seite. |
-| RightHanging | `4` | Platziert Kindknoten vertikal unter dem übergeordneten Knoten auf der rechten Seite. |
+| Standart | `1` | Platziert untergeordnete Knoten horizontal unter dem übergeordneten Knoten. |
+| BothHanging | `2` | Platziert untergeordnete Knoten vertikal unter dem übergeordneten Knoten sowohl auf der linken als auch auf der rechten Seite. |
+| LeftHanging | `3` | Platziert untergeordnete Knoten vertikal unter dem übergeordneten Knoten auf der linken Seite. |
+| RightHanging | `4` | Platziert untergeordnete Knoten vertikal unter dem übergeordneten Knoten auf der rechten Seite. |
 
 ### Siehe auch
 

@@ -1,14 +1,14 @@
 ---
 title: ShapeElement
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงส่วนหนึ่งของรูปทรงที่มีเส้นขอบและคุณสมบัติการเติมสีเดียวกัน.
+second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
+description: แสดงถึงส่วนของรูปร่างที่มีเส้นขอบและการเติมสีเดียวกัน.
 type: docs
-weight: 9870
+weight: 9890
 url: /th/aspose.slides/shapeelement/
 ---
 ## ShapeElement คลาส
 
-แสดงส่วนหนึ่งของรูปทรงที่มีเส้นขอบและคุณสมบัตการเติมสีเดียวกัน.
+แสดงถึงส่วนของรูปร่างที่มีลักษณะขอบและการเติมสีเดียวกัน.
 
 ```csharp
 public class ShapeElement : IShapeElement
@@ -18,11 +18,11 @@ public class ShapeElement : IShapeElement
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [FillSource](../../aspose.slides/shapeelement/fillsource) { get; } | ส่งคืนข้อมูลเกี่ยวกับวิธีการเติมส่วนประกอบ. อ่านอย่างเดียว [`ShapeElementFillSource`](../shapeelementfillsource). |
-| [ParentShape](../../aspose.slides/shapeelement/parentshape) { get; } | ส่งคืน Shape_PPT ที่สร้างส่วนประกอบนี้. อ่านอย่างเดียว [`Shape`](../shape). |
-| [PathPoints](../../aspose.slides/shapeelement/pathpoints) { get; } | รับอาเรย์ของจุดที่กำหนดเรขาคณิตของเส้นทางของส่วนประกอบ. |
-| [PathTypes](../../aspose.slides/shapeelement/pathtypes) { get; } | รับอาเรย์ของค่าไบต์ที่ระบุประเภทของแต่ละจุดในเส้นทางของส่วนประกอบ. |
-| [StrokeSource](../../aspose.slides/shapeelement/strokesource) { get; } | ส่งคืนข้อมูลเกี่ยวกับวิธีการวาดเส้นขอบของส่วนประกอบ. อ่านอย่างเดียว [`ShapeElementStrokeSource`](../shapeelementstrokesource). |
+| [FillSource](../../aspose.slides/shapeelement/fillsource) { get; } | คืนค่าข้อมูลเกี่ยวกับวิธีการเติมสีให้กับองค์ประกอบ. อ่านอย่างเดียว [`ShapeElementFillSource`](../shapeelementfillsource). |
+| [ParentShape](../../aspose.slides/shapeelement/parentshape) { get; } | คืนค่า Shape_PPT ที่สร้างองค์ประกอบนี้ขึ้นมา. อ่านอย่างเดียว [`Shape`](../shape). |
+| [PathPoints](../../aspose.slides/shapeelement/pathpoints) { get; } | รับอาร์เรย์ของจุดที่กำหนดรูปทรงของเส้นทางขององค์ประกอบ. |
+| [PathTypes](../../aspose.slides/shapeelement/pathtypes) { get; } | รับอาร์เรย์ของค่าบิตที่ระบุประเภทของแต่ละจุดในเส้นทางขององค์ประกอบ. |
+| [StrokeSource](../../aspose.slides/shapeelement/strokesource) { get; } | คืนค่าข้อมูลเกี่ยวกับวิธีการวาดขอบให้กับองค์ประกอบ. อ่านอย่างเดียว [`ShapeElementStrokeSource`](../shapeelementstrokesource). |
 
 ### ดูเพิ่มเติม
 

@@ -1,9 +1,9 @@
 ---
 title: IRenderingOptions
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Bietet Optionen, die steuern, wie eine Präsentation/Folie gerendert wird.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Stellt Optionen bereit, die steuern, wie eine Präsentation/Folie gerendert wird.
 type: docs
-weight: 4040
+weight: 4060
 url: /de/aspose.slides.export/irenderingoptions/
 ---
 ## IRenderingOptions Schnittstelle
@@ -18,10 +18,10 @@ public interface IRenderingOptions : ISaveOptions
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/irenderingoptions/asisaveoptions) { get; } | Gibt die ISaveOptions-Schnittstelle zurück. Nur lesbar [`ISaveOptions`](../isaveoptions). |
-| [DisableFontLigatures](../../aspose.slides.export/irenderingoptions/disablefontligatures) { get; set; } | Liest oder legt einen Wert fest, der angibt, ob Text ohne Ligaturen dargestellt wird. Wenn auf `true` gesetzt, werden Ligaturen in der gerenderten Ausgabe deaktiviert. Standardmäßig ist diese Eigenschaft auf `false` gesetzt. |
+| [AsISaveOptions](../../aspose.slides.export/irenderingoptions/asisaveoptions) { get; } | Gibt ISaveOptions Schnittstelle zurück. Nur lesbar [`ISaveOptions`](../isaveoptions). |
+| [DisableFontLigatures](../../aspose.slides.export/irenderingoptions/disablefontligatures) { get; set; } | Liest oder setzt einen Wert, der angibt, ob Text ohne Ligaturen gerendert wird. Wenn auf `true` gesetzt, werden Ligaturen in der gerenderten Ausgabe deaktiviert. Standardmäßig ist diese Eigenschaft auf `false` gesetzt. |
 | [InkOptions](../../aspose.slides.export/irenderingoptions/inkoptions) { get; } | Stellt Optionen bereit, die das Aussehen von Ink-Objekten im exportierten Dokument steuern. Nur lesbar [`IInkOptions`](../iinkoptions) |
-| [SlidesLayoutOptions](../../aspose.slides.export/irenderingoptions/slideslayoutoptions) { get; set; } | Liest oder legt den Modus fest, in dem Folien beim Export einer Präsentation auf der Seite angeordnet werden [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [SlidesLayoutOptions](../../aspose.slides.export/irenderingoptions/slideslayoutoptions) { get; set; } | Liest oder setzt den Modus, in dem Folien beim Export einer Präsentation auf der Seite platziert werden [`ISlidesLayoutOptions`](../islideslayoutoptions). |
 
 ### Beispiele
 

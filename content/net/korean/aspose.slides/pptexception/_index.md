@@ -1,9 +1,9 @@
 ---
 title: PptException
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes .NET API 레퍼런스
 description: 표준 내부 예외 유형을 나타냅니다.
 type: docs
-weight: 9520
+weight: 9540
 url: /ko/aspose.slides/pptexception/
 ---
 ## PptException 클래스
@@ -18,11 +18,11 @@ public class PptException : Exception
 
 | 이름 | 설명 |
 | --- | --- |
-| [PptException](pptexception#constructor)() | 기본 생성자. |
-| [PptException](pptexception#constructor_1)(string) | 예외에 메시지를 추가할 수 있는 생성자. |
-| [PptException](pptexception#constructor_2)(string, Exception) | 메시지와 내포된 예외를 포함하는 생성자. |
+| [PptException](pptexception#constructor)() | 기본 생성자입니다. |
+| [PptException](pptexception#constructor_1)(string) | 이 예외에 메시지를 추가할 수 있는 생성자입니다. |
+| [PptException](pptexception#constructor_2)(string, Exception) | 메시지와 포함된 예외를 갖는 예외에 대한 생성자입니다. |
 
-### 참고
+### 참조
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

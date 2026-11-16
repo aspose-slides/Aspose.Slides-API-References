@@ -1,9 +1,9 @@
 ---
 title: PptUnsupportedFormatException
-second_title: Aspose.Sildes for .NET API 參考
+second_title: Aspose.Sildes 的 .NET API 參考
 description: 當簡報檔案格式不受支援時拋出的例外。
 type: docs
-weight: 9540
+weight: 9560
 url: /zh-hant/aspose.slides/pptunsupportedformatexception/
 ---
 ## PptUnsupportedFormatException 類別
@@ -14,13 +14,13 @@ url: /zh-hant/aspose.slides/pptunsupportedformatexception/
 public class PptUnsupportedFormatException : PptReadException
 ```
 
-## 建構子
+## 建構函式
 
-| 名稱 | 說明 |
+| Name | Description |
 | --- | --- |
-| [PptUnsupportedFormatException](pptunsupportedformatexception#constructor)() | 預設建構子。 |
-| [PptUnsupportedFormatException](pptunsupportedformatexception#constructor_1)(string) | 允許將訊息加入此例外的建構子。 |
-| [PptUnsupportedFormatException](pptunsupportedformatexception#constructor_2)(string, Exception) | 包含訊息與內嵌例外的建構子。 |
+| [PptUnsupportedFormatException](pptunsupportedformatexception#constructor)() | 預設建構函式。 |
+| [PptUnsupportedFormatException](pptunsupportedformatexception#constructor_1)(string) | 允許將訊息加入此例外的建構函式。 |
+| [PptUnsupportedFormatException](pptunsupportedformatexception#constructor_2)(string, Exception) | 用於建立包含訊息和嵌入式例外的例外的建構函式。 |
 
 ### 另請參閱
 

@@ -3,10 +3,10 @@ title: IField
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt ein Feld dar.
 type: docs
-weight: 5770
+weight: 5790
 url: /de/aspose.slides/ifield/
 ---
-## IField Schnittstelle
+## Schnittstelle IField
 
 Stellt ein Feld dar.
 
@@ -18,8 +18,8 @@ public interface IField : ISlideComponent
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides/ifield/asislidecomponent) { get; } | Ermöglicht das Abrufen der Basis-ISlideComponent-Schnittstelle. Nur lesbar [`ISlideComponent`](../islidecomponent). |
-| [Type](../../aspose.slides/ifield/type) { get; set; } | Gibt den Typ des Feldes zurück oder legt ihn fest. Lese-/Schreib [`IFieldType`](../ifieldtype). |
+| [AsISlideComponent](../../aspose.slides/ifield/asislidecomponent) { get; } | Ermöglicht das Abrufen der Basis-ISlideComponent-Schnittstelle. Nur lesend [`ISlideComponent`](../islidecomponent). |
+| [Type](../../aspose.slides/ifield/type) { get; set; } | Gibt den Typ des Feldes zurück oder setzt ihn. Lesen/Schreiben [`IFieldType`](../ifieldtype). |
 
 ### Siehe auch
 

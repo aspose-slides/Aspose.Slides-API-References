@@ -1,14 +1,14 @@
 ---
 title: ExcelDataWorkbook
-second_title: Aspose.Sildes for .NET API 参考
-description: 表示一个工作簿，可用于通用访问 Excel 数据。
+second_title: Aspose.Sildes .NET API 参考
+description: 表示一个工作簿，可为一般用途提供对 Excel 数据的访问。
 type: docs
-weight: 3690
+weight: 3710
 url: /zh/aspose.slides.excel/exceldataworkbook/
 ---
 ## ExcelDataWorkbook 类
 
-表示一个工作簿，可用于通用访问 Excel 数据。
+表示一个工作簿，可为一般用途提供对 Excel 数据的访问。
 
 ```csharp
 public class ExcelDataWorkbook : IExcelDataWorkbook
@@ -25,15 +25,15 @@ public class ExcelDataWorkbook : IExcelDataWorkbook
 
 | 名称 | 描述 |
 | --- | --- |
-| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell_1)(int, string) | 使用索引和 Excel 样式的单元格名称（例如 "B2"）从指定的工作表检索单元格。 |
-| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell_3)(string, string) | 使用 Excel 样式的单元格名称（例如 "B2"）从指定的工作表检索单元格。 |
-| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell)(int, int, int) | 使用索引和单元格坐标从指定的工作表检索单元格。 |
-| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell_2)(string, int, int) | 使用名称和单元格坐标从指定的工作表检索单元格。 |
+| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell_1)(int, string) | 检索指定工作表中的单元格，使用其索引和 Excel 样式的单元格名称（例如 "B2"）。 |
+| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell_3)(string, string) | 检索指定工作表中的单元格，使用 Excel 样式的单元格名称（例如 "B2"）。 |
+| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell)(int, int, int) | 检索指定工作表中的单元格，使用其索引和单元格坐标。 |
+| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell_2)(string, int, int) | 检索指定工作表中的单元格，使用其名称和单元格坐标。 |
 | [GetCells](../../aspose.slides.excel/exceldataworkbook/getcells)(string, bool) | 检索工作簿中符合指定公式的单元格集合。 |
-| [GetChartsFromWorksheet](../../aspose.slides.excel/exceldataworkbook/getchartsfromworksheet)(string) | 检索字典，其中包含 Excel 工作簿中指定工作表的所有图表的索引和名称。 |
+| [GetChartsFromWorksheet](../../aspose.slides.excel/exceldataworkbook/getchartsfromworksheet)(string) | 检索 Excel 工作簿中指定工作表的所有图表的索引和名称的字典。 |
 | [GetWorksheetNames](../../aspose.slides.excel/exceldataworkbook/getworksheetnames)() | 检索 Excel 工作簿中包含的所有工作表的名称。 |
 
-### 另请参见
+### 另见
 
 * 接口 [IExcelDataWorkbook](../iexceldataworkbook)
 * 命名空间 [Aspose.Slides.Excel](../../aspose.slides.excel)

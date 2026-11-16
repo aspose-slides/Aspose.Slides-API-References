@@ -1,14 +1,14 @@
 ---
 title: ISectionSlideCollection
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงคอลเลกชันของสไลด์ในส่วน.
+description: แสดงถึงคอลเลกชันของสไลด์ในส่วน
 type: docs
-weight: 6910
+weight: 6930
 url: /th/aspose.slides/isectionslidecollection/
 ---
 ## ISectionSlideCollection อินเทอร์เฟซ
 
-แสดงถึงคอลเลกชันของสไลด์ในส่วน.
+แสดงถึงคอลเลกชันของสไลด์ในส่วน
 
 ```csharp
 public interface ISectionSlideCollection : IGenericCollection<ISlide>
@@ -18,7 +18,7 @@ public interface ISectionSlideCollection : IGenericCollection<ISlide>
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Item](../../aspose.slides/isectionslidecollection/item) { get; } | ดึงองค์ประกอบที่ตำแหน่งที่ระบุ. อ่านเท่านั้น [`ISlide`](../islide). |
+| [Item](../../aspose.slides/isectionslidecollection/item) { get; } | ดึงอิลิเมนต์ที่ตำแหน่งที่ระบุ. อ่านอย่างเดียว [`ISlide`](../islide). |
 
 ### ดูเพิ่มเติม
 

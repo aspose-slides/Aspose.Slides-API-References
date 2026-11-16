@@ -1,12 +1,12 @@
 ---
 title: PatternFormat
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes for .NET API Referansı
 description: Bir şekli doldurmak için bir deseni temsil eder.
 type: docs
-weight: 9350
+weight: 9370
 url: /tr/aspose.slides/patternformat/
 ---
-## PatternFormat sınıfı
+## PatternFormat sınıf
 
 Bir şekli doldurmak için bir deseni temsil eder.
 
@@ -18,21 +18,21 @@ public sealed class PatternFormat : PVIObject, IPatternFormat
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arayüzünü almayı sağlar. Yalnızca okunur [`IPresentationComponent`](../ipresentationcomponent). |
-| [BackColor](../../aspose.slides/patternformat/backcolor) { get; } | Arka plan deseni rengini döndürür. Yalnızca okunur [`IColorFormat`](../icolorformat). |
-| [ForeColor](../../aspose.slides/patternformat/forecolor) { get; } | Ön plan deseni rengini döndürür. Yalnızca okunur [`IColorFormat`](../icolorformat). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arabirimini almaya izin verir. Salt okunur [`IPresentationComponent`](../ipresentationcomponent). |
+| [BackColor](../../aspose.slides/patternformat/backcolor) { get; } | Arka plan desen rengini döndürür. Salt okunur [`IColorFormat`](../icolorformat). |
+| [ForeColor](../../aspose.slides/patternformat/forecolor) { get; } | Ön plan desen rengini döndürür. Salt okunur [`IColorFormat`](../icolorformat). |
 | [PatternStyle](../../aspose.slides/patternformat/patternstyle) { get; set; } | Desen stilini döndürür veya ayarlar. Okunabilir/yazılabilir [`PatternStyle`](../patternstyle). |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | Belirtilen nesne ile karşılaştırır. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Karma kodu döndürür. |
-| [GetTile](../../aspose.slides/patternformat/gettile#gettile)(Color) | Desen doldurması için bir döşeme görüntüsü oluşturur. |
-| [GetTile](../../aspose.slides/patternformat/gettile#gettile_1)(Color, Color) | Belirtilen renklerle desen doldurması için bir döşeme görüntüsü oluşturur. |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | Belirtilen nesneyle karşılaştırır. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Karma kodunu döndürür. |
+| [GetTile](../../aspose.slides/patternformat/gettile#gettile)(Color) | Desen doldurması için bir karo görüntüsü oluşturur. |
+| [GetTile](../../aspose.slides/patternformat/gettile#gettile_1)(Color, Color) | Belirtilen renklerle desen doldurması için bir karo görüntüsü oluşturur. |
 
-### Ayrıca Bakınız
+### Diğer
 
 * sınıf [PVIObject](../pviobject)
 * arayüz [IPatternFormat](../ipatternformat)

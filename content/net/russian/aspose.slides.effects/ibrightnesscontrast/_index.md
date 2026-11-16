@@ -1,9 +1,9 @@
 ---
 title: IBrightnessContrast
-second_title: Aspose.Sildes для .NET справочник API
+second_title: Справочник API Aspose.Sildes для .NET
 description: Представляет эффект BrightnessContrast. Регулирует яркость и контраст
 type: docs
-weight: 3200
+weight: 3220
 url: /ru/aspose.slides.effects/ibrightnesscontrast/
 ---
 ## IBrightnessContrast интерфейс

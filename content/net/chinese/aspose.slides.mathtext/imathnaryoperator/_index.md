@@ -1,14 +1,14 @@
 ---
 title: IMathNaryOperator
 second_title: Aspose.Sildes for .NET API 参考
-description: 指定一个 N-ary 数学对象，例如 Summation 和 Integral。它由运算符、基数或操作数以及可选的上、下限组成。N-ary 运算符的示例包括 Summation、Union、Intersection、Integral。
+description: 指定一种 N-ary 数学对象，例如 Summation 和 Integral。它由一个运算符、一个基数或操作数以及可选的上限和下限组成。N-ary 运算符的示例包括 Summation Union Intersection Integral
 type: docs
-weight: 8360
+weight: 8380
 url: /zh/aspose.slides.mathtext/imathnaryoperator/
 ---
 ## IMathNaryOperator 接口
 
-指定一个 N-ary 数学对象，例如 Summation 和 Integral。它由运算符、基数（或操作数）以及可选的上、下限组成。N-ary 运算符的示例包括：Summation、Union、Intersection、Integral
+指定一种 N 元数学对象，例如 Summation 和 Integral。它由一个运算符、一个基数（或操作数）以及可选的上限和下限组成。N 元运算符的例子包括：Summation、Union、Intersection、Integral
 
 ```csharp
 public interface IMathNaryOperator : IMathElement, IMathNaryOperatorProperties
@@ -18,11 +18,11 @@ public interface IMathNaryOperator : IMathElement, IMathNaryOperatorProperties
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathnaryoperator/asimathelement) { get; } | 允许获取基础 IMathElement 接口 [`IMathElement`](../imathelement) |
-| [AsIMathNaryOperatorProperties](../../aspose.slides.mathtext/imathnaryoperator/asimathnaryoperatorproperties) { get; } | 允许获取基础 IMathNaryOperatorProperties 接口 [`IMathNaryOperatorProperties`](../imathnaryoperatorproperties) |
-| [Base](../../aspose.slides.mathtext/imathnaryoperator/base) { get; } | 基础参数 |
-| [Subscript](../../aspose.slides.mathtext/imathnaryoperator/subscript) { get; } | 指定下标参数，例如在 Integral 的情况下，设置下限 |
-| [Superscript](../../aspose.slides.mathtext/imathnaryoperator/superscript) { get; } | 指定上标参数，例如在 Integral 的情况下，设置上限 |
+| [AsIMathElement](../../aspose.slides.mathtext/imathnaryoperator/asimathelement) { get; } | 允许获取基 IMathElement 接口 [`IMathElement`](../imathelement) |
+| [AsIMathNaryOperatorProperties](../../aspose.slides.mathtext/imathnaryoperator/asimathnaryoperatorproperties) { get; } | 允许获取基 IMathNaryOperatorProperties 接口 [`IMathNaryOperatorProperties`](../imathnaryoperatorproperties) |
+| [Base](../../aspose.slides.mathtext/imathnaryoperator/base) { get; } | 基参数 |
+| [Subscript](../../aspose.slides.mathtext/imathnaryoperator/subscript) { get; } | 指定下标参数，例如在积分的情况下，设置下限 |
+| [Superscript](../../aspose.slides.mathtext/imathnaryoperator/superscript) { get; } | 指定上标参数，例如在积分的情况下，设置上限 |
 
 ### 示例
 
@@ -33,7 +33,7 @@ public interface IMathNaryOperator : IMathElement, IMathNaryOperatorProperties
 IMathNaryOperator naryOperator = new MathematicalText("x").Nary(MathNaryOperatorTypes.Summation, "x=1", "100");
 ```
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IMathElement](../imathelement)
 * 接口 [IMathNaryOperatorProperties](../imathnaryoperatorproperties)

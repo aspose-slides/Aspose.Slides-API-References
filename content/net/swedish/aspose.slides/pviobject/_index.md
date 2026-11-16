@@ -1,14 +1,14 @@
 ---
 title: PVIObject
 second_title: Aspose.Sildes för .NET API-referens
-description: Inkapslar grundläggande serviceinfrastruktur för objekt som kan vara föremål för arv av egenskapsvärden.
+description: Innesluter grundläggande serviceinfrastruktur för objekt som kan vara föremål för arv av egenskapsvärden.
 type: docs
-weight: 9270
+weight: 9290
 url: /sv/aspose.slides/pviobject/
 ---
 ## PVIObject klass
 
-Inkapslar grundläggande serviceinfrastruktur för objekt som kan vara föremål för ärftlighet av egenskapsvärden.
+Encapsulates basic service infrastructure for objects can be a subject of property value inheritance.
 
 ```csharp
 public abstract class PVIObject : ISlideComponent
@@ -18,13 +18,13 @@ public abstract class PVIObject : ISlideComponent
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Tillåter att få bas-IPresentationComponent-gränssnittet. Endast läsning [`IPresentationComponent`](../ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Tillåter att hämta bas-IPresentationComponent-gränssnittet. Skrivskyddad [`IPresentationComponent`](../ipresentationcomponent). |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | Jämför med det specificerade objektet. |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | Jämför med specificerat objekt. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Returnerar hash-kod. |
 
 ### Se även

@@ -1,12 +1,12 @@
 ---
 title: MarkerStyleType
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Determina la forma del marcador en el punto de datos del gráfico.
+description: Determina la forma del marcador en el punto de datos de los gráficos.
 type: docs
-weight: 2340
+weight: 2360
 url: /es/aspose.slides.charts/markerstyletype/
 ---
-## enumeración MarkerStyleType
+## MarkerStyleType enumeración
 
 Determina la forma del marcador en el punto de datos del gráfico.
 
@@ -20,7 +20,7 @@ public enum MarkerStyleType
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | Circle | `0` | Especifica que se dibujará un círculo en cada punto de datos. |
-| Dash | `1` | Especifica que se dibujará un guion en cada punto de datos. |
+| Dash | `1` | Especifica que se dibujará una raya en cada punto de datos. |
 | Diamond | `2` | Especifica que se dibujará un diamante en cada punto de datos. |
 | Dot | `3` | Especifica que se dibujará un punto en cada punto de datos. |
 | None | `4` | Especifica que no se dibujará nada en cada punto de datos. |

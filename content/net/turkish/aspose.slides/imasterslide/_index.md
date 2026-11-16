@@ -3,10 +3,10 @@ title: IMasterSlide
 second_title: Aspose.Sildes için .NET API Referansı
 description: Bir sunumdaki ana slaytı temsil eder.
 type: docs
-weight: 6420
+weight: 6440
 url: /tr/aspose.slides/imasterslide/
 ---
-## IMasterSlide arayüzü
+## IMasterSlide arayüz
 
 Bir sunumda ana slaytı temsil eder.
 
@@ -18,23 +18,23 @@ public interface IMasterSlide : IBaseSlide, IMasterThemeable
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/imasterslide/asibaseslide) { get; } | Temel IBaseSlide arayüzünü almayı sağlar. Yalnızca okuma [`IBaseSlide`](../ibaseslide). |
-| [AsIMasterThemeable](../../aspose.slides/imasterslide/asimasterthemeable) { get; } | IMasterThemeable arayüzünü döndürür. Yalnızca okuma [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
-| [BodyStyle](../../aspose.slides/imasterslide/bodystyle) { get; } | Bir gövde metninin stilini döndürür. Yalnızca okuma [`ITextStyle`](../itextstyle). |
-| [DrawingGuides](../../aspose.slides/imasterslide/drawingguides) { get; } | Ana slayt için bir çizim kılavuzu koleksiyonunu döndürür. Yalnızca okuma [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [HasDependingSlides](../../aspose.slides/imasterslide/hasdependingslides) { get; } | Bu ana slayta bağımlı en az bir slayt bulunuyorsa true döndürür. Yalnızca okuma Boolean. |
-| [HeaderFooterManager](../../aspose.slides/imasterslide/headerfootermanager) { get; } | Ana slaydın HeaderFooter yöneticisini döndürür. Yalnızca okuma [`IMasterSlideHeaderFooterManager`](../imasterslideheaderfootermanager). |
-| [LayoutSlides](../../aspose.slides/imasterslide/layoutslides) { get; } | Bu ana slayd için alt düzen slaytlarının koleksiyonunu döndürür. Yalnızca okuma [`IMasterLayoutSlideCollection`](../imasterlayoutslidecollection). |
-| [OtherStyle](../../aspose.slides/imasterslide/otherstyle) { get; } | Diğer bir metnin stilini döndürür. Yalnızca okuma [`ITextStyle`](../itextstyle). |
-| [Preserve](../../aspose.slides/imasterslide/preserve) { get; set; } | İlgili ana slaydın, o ana slaytı izleyen tüm slaytlar silindiğinde silinip silinmeyeceğini belirler. Not: Aspose.Slides hiçbir zaman kullanılmayan bir anayı kendi başına kaldırmaz; kullanılmayan ana slaytları gerçekten kaldırmak için [`RemoveUnused`](../imasterslidecollection/removeunused) çağırın Okuma/Yazma Boolean. |
-| [TitleStyle](../../aspose.slides/imasterslide/titlestyle) { get; } | Bir başlık metninin stilini döndürür. Yalnızca okuma [`ITextStyle`](../itextstyle). |
+| [AsIBaseSlide](../../aspose.slides/imasterslide/asibaseslide) { get; } | Temel IBaseSlide arayüzünü almayı sağlar. Salt okunur [`IBaseSlide`](../ibaseslide). |
+| [AsIMasterThemeable](../../aspose.slides/imasterslide/asimasterthemeable) { get; } | IMasterThemeable arayüzünü döndürür. Salt okunur [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
+| [BodyStyle](../../aspose.slides/imasterslide/bodystyle) { get; } | Gövde metninin stilini döndürür. Salt okunur [`ITextStyle`](../itextstyle). |
+| [DrawingGuides](../../aspose.slides/imasterslide/drawingguides) { get; } | Ana slayt için çizim kılavuzlarının bir koleksiyonunu döndürür. Salt okunur [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [HasDependingSlides](../../aspose.slides/imasterslide/hasdependingslides) { get; } | Bu ana slayta bağımlı en az bir slayt varsa true döndürür. Salt okunur Boolean. |
+| [HeaderFooterManager](../../aspose.slides/imasterslide/headerfootermanager) { get; } | Ana slaytın HeaderFooter yöneticisini döndürür. Salt okunur [`IMasterSlideHeaderFooterManager`](../imasterslideheaderfootermanager). |
+| [LayoutSlides](../../aspose.slides/imasterslide/layoutslides) { get; } | Bu ana slayt için alt düzen slaytlarının koleksiyonunu döndürür. Salt okunur [`IMasterLayoutSlideCollection`](../imasterlayoutslidecollection). |
+| [OtherStyle](../../aspose.slides/imasterslide/otherstyle) { get; } | Diğer bir metnin stilini döndürür. Salt okunur [`ITextStyle`](../itextstyle). |
+| [Preserve](../../aspose.slides/imasterslide/preserve) { get; set; } | İlgili ana slaydın, onu izleyen tüm slaytlar silindiğinde silinip silinmeyeceğini belirler. Not: Aspose.Slides hiçbir zaman kullanılmayan bir ana slaydı kendiliğinden kaldırmaz, kullanılmayan ana slaytları gerçekten kaldırmak için [`RemoveUnused`](../imasterslidecollection/removeunused) çağırın. Okuma/yazma Boolean. |
+| [TitleStyle](../../aspose.slides/imasterslide/titlestyle) { get; } | Başlık metninin stilini döndürür. Salt okunur [`ITextStyle`](../itextstyle). |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [ApplyExternalThemeToDependingSlides](../../aspose.slides/imasterslide/applyexternalthemetodependingslides)(string) | Mevcut olan temelinde yeni bir ana slayt oluşturur, ona harici bir tema uygular ve oluşturulan ana slaytı tüm bağımlı slaytlara uygular. |
-| [GetDependingSlides](../../aspose.slides/imasterslide/getdependingslides)() | Bu ana slayta bağımlı tüm slaytları içeren bir dizi döndürür. |
+| [ApplyExternalThemeToDependingSlides](../../aspose.slides/imasterslide/applyexternalthemetodependingslides)(string) | Mevcut slayta dayanarak yeni bir ana slayt oluşturur, ona harici bir tema uygular ve oluşturulan ana slaytı tüm bağımlı slaytlara uygular. |
+| [GetDependingSlides](../../aspose.slides/imasterslide/getdependingslides)() | Bu ana slayta bağımlı olan tüm slaytları içeren bir dizi döndürür. |
 
 ### Ayrıca Bakınız
 

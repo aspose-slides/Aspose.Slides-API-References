@@ -1,9 +1,9 @@
 ---
 title: MathSuperscriptElementFactory
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Aspose.Sildes untuk .NET Referensi API
 description: Memungkinkan untuk membuat IMathSuperscriptElement
 type: docs
-weight: 9030
+weight: 9050
 url: /id/aspose.slides.mathtext/mathsuperscriptelementfactory/
 ---
 ## MathSuperscriptElementFactory kelas
@@ -26,7 +26,7 @@ public class MathSuperscriptElementFactory : IMathSuperscriptElementFactory
 | --- | --- |
 | [CreateMathSuperscriptElement](../../aspose.slides.mathtext/mathsuperscriptelementfactory/createmathsuperscriptelement)(IMathElement, IMathElement) | Membuat IMathSuperscriptElement |
 
-### Keterangan
+### Catatan
 
 Untuk kompatibilitas COM
 

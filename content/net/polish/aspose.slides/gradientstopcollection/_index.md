@@ -1,9 +1,9 @@
 ---
 title: GradientStopCollection
-second_title: Aspose.Slides dla .NET – odniesienie API
+second_title: Aspose.Sildes dla .NET Dokumentacja API
 description: Reprezentuje kolekcję punktów gradientu.
 type: docs
-weight: 5030
+weight: 5050
 url: /pl/aspose.slides/gradientstopcollection/
 ---
 ## GradientStopCollection klasa
@@ -18,10 +18,10 @@ public sealed class GradientStopCollection : PVIObject, IGradientStopCollection
 
 | Nazwa | Opis |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Umożliwia pobranie interfejsu IPresentationComponent. Tylko do odczytu [`IPresentationComponent`](../ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Umożliwia pobranie podstawowego interfejsu IPresentationComponent. Tylko do odczytu [`IPresentationComponent`](../ipresentationcomponent). |
 | [Count](../../aspose.slides/gradientstopcollection/count) { get; } | Zwraca liczbę punktów gradientu w kolekcji. Tylko do odczytu Int32. |
 | [IsSynchronized](../../aspose.slides/gradientstopcollection/issynchronized) { get; } | Zwraca wartość wskazującą, czy dostęp do kolekcji jest synchronizowany (wątkowo bezpieczny). Tylko do odczytu Boolean. |
-| [Item](../../aspose.slides/gradientstopcollection/item) { get; } | Zwraca punkt gradientu wg indeksu. |
+| [Item](../../aspose.slides/gradientstopcollection/item) { get; } | Zwraca punkt gradientu według indeksu. |
 | [SyncRoot](../../aspose.slides/gradientstopcollection/syncroot) { get; } | Zwraca korzeń synchronizacji. Tylko do odczytu Object. |
 
 ## Metody
@@ -33,13 +33,13 @@ public sealed class GradientStopCollection : PVIObject, IGradientStopCollection
 | [Add](../../aspose.slides/gradientstopcollection/add#add_1)(float, SchemeColor) | Tworzy nowy punkt gradientu i dodaje go na koniec kolekcji. |
 | [Clear](../../aspose.slides/gradientstopcollection/clear)() | Usuwa wszystkie punkty gradientu z kolekcji. |
 | [CopyTo](../../aspose.slides/gradientstopcollection/copyto)(Array, int) | Kopiuje wszystkie elementy z kolekcji do określonej tablicy. |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | Porównuje z określonym obiektem. |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | Porównuje z podanym obiektem. |
 | [GetEnumerator](../../aspose.slides/gradientstopcollection/getenumerator)() | Zwraca enumerator, który iteruje po kolekcji. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Zwraca kod skrótu. |
-| [Insert](../../aspose.slides/gradientstopcollection/insert#insert_2)(int, float, Color) | Tworzy nowy punkt gradientu i wstawia go w określonym indeksie do kolekcji. |
-| [Insert](../../aspose.slides/gradientstopcollection/insert#insert)(int, float, PresetColor) | Tworzy nowy punkt gradientu i wstawia go w określonym indeksie do kolekcji. |
-| [Insert](../../aspose.slides/gradientstopcollection/insert#insert_1)(int, float, SchemeColor) | Tworzy nowy punkt gradientu i wstawia go w określonym indeksie do kolekcji. |
-| [RemoveAt](../../aspose.slides/gradientstopcollection/removeat)(int) | Usuwa punkt gradientu pod określonym indeksem. |
+| [Insert](../../aspose.slides/gradientstopcollection/insert#insert_2)(int, float, Color) | Tworzy nowy punkt gradientu i wstawia go pod wskazanym indeksem w kolekcji. |
+| [Insert](../../aspose.slides/gradientstopcollection/insert#insert)(int, float, PresetColor) | Tworzy nowy punkt gradientu i wstawia go pod wskazanym indeksem w kolekcji. |
+| [Insert](../../aspose.slides/gradientstopcollection/insert#insert_1)(int, float, SchemeColor) | Tworzy nowy punkt gradientu i wstawia go pod wskazanym indeksem w kolekcji. |
+| [RemoveAt](../../aspose.slides/gradientstopcollection/removeat)(int) | Usuwa punkt gradientu pod wskazanym indeksem. |
 
 ### Zobacz także
 

@@ -1,14 +1,14 @@
 ---
 title: IChartDataWorksheetCollection
-second_title: مرجع API Aspose.Sildes برای .NET
-description: نمایانگر مجموعهٔ برگه‌های کاری کتاب‌کار داده‌های نمودار است.
+second_title: Aspose.Sildes برای .NET مرجع API
+description: نمایانگر مجموعه‌ای از برگ‌های کاری کتاب‌کار داده‌های نمودار است.
 type: docs
-weight: 1880
+weight: 1900
 url: /fa/aspose.slides.charts/ichartdataworksheetcollection/
 ---
 ## IChartDataWorksheetCollection رابط
 
-نمایانگر مجموعهٔ برگه‌های کاری کتاب‌کار داده‌های نمودار است.
+مجموعه‌ای از برگ‌های کاری کتاب‌کار دادهٔ نمودار را نشان می‌دهد.
 
 ```csharp
 public interface IChartDataWorksheetCollection : IGenericCollection<IChartDataWorksheet>
@@ -18,7 +18,7 @@ public interface IChartDataWorksheetCollection : IGenericCollection<IChartDataWo
 
 | نام | توضیح |
 | --- | --- |
-| [Item](../../aspose.slides.charts/ichartdataworksheetcollection/item) { get; } | برگه کار را بر اساس شاخص باز می‌گرداند. |
+| [Item](../../aspose.slides.charts/ichartdataworksheetcollection/item) { get; } | برگ کاری را بر اساس اندیس برمی‌گرداند. |
 
 ### مثال‌ها
 

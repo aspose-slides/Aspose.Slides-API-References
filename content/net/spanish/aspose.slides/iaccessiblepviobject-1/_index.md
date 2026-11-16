@@ -3,7 +3,7 @@ title: IAccessiblePVIObjectT
 second_title: Aspose.Sildes para .NET Referencia de API
 description: Representa un tipo que puede devolver los datos efectivos correspondientes con la herencia aplicada.
 type: docs
-weight: 5170
+weight: 5190
 url: /es/aspose.slides/iaccessiblepviobject-1/
 ---
 ## IAccessiblePVIObject<T> interfaz

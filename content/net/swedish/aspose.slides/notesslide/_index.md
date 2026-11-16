@@ -1,14 +1,14 @@
 ---
 title: NotesSlide
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar en notessida i en presentation.
+description: Representerar en notes-bild i en presentation.
 type: docs
-weight: 9140
+weight: 9160
 url: /sv/aspose.slides/notesslide/
 ---
 ## NotesSlide klass
 
-Representerar en notessida i en presentation.
+Representerar en notes-bild i en presentation.
 
 ```csharp
 public class NotesSlide : BaseSlide, INotesSlide
@@ -16,33 +16,33 @@ public class NotesSlide : BaseSlide, INotesSlide
 
 ## Egenskaper
 
-| Name | Description |
+| Namn | Beskrivning |
 | --- | --- |
-| [Background](../../aspose.slides/baseslide/background) { get; } | Returnerar bildens bakgrund. skrivskyddad [`IBackground`](../ibackground). |
-| [Controls](../../aspose.slides/baseslide/controls) { get; } | Returnerar samlingen av ActiveX-kontroller på en slide. skrivskyddad [`IControlCollection`](../icontrolcollection). |
-| [CustomData](../../aspose.slides/baseslide/customdata) { get; } | Returnerar slidens anpassade data. skrivskyddad [`ICustomData`](../icustomdata). |
-| [HeaderFooterManager](../../aspose.slides/notesslide/headerfootermanager) { get; } | Returnerar HeaderFooter-hanteraren för notessidan. skrivskyddad [`INotesSlideHeaderFooterManager`](../inotesslideheaderfootermanager). |
-| [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | Tillhandahåller enkel åtkomst till inbäddade hyperlänkar. skrivskyddad [`IHyperlinkQueries`](../ihyperlinkqueries). |
-| virtual [Name](../../aspose.slides/baseslide/name) { get; set; } | Returnerar eller anger namnet på en slide. Läs/skriv String. |
-| [NotesTextFrame](../../aspose.slides/notesslide/notestextframe) { get; } | Returnerar ett TextFrame med noternas text om det finns. skrivskyddad [`ITextFrame`](../itextframe). |
-| [ParentSlide](../../aspose.slides/notesslide/parentslide) { get; } | Returnerar den överordnade sliden. skrivskyddad [`ISlide`](../islide). |
-| [Presentation](../../aspose.slides/baseslide/presentation) { get; } | Returnerar IPresentation-gränssnitt. skrivskyddad [`IPresentation`](../ipresentation). |
-| [Shapes](../../aspose.slides/baseslide/shapes) { get; } | Returnerar formerna på en slide. skrivskyddad [`IShapeCollection`](../ishapecollection). |
-| override [ShowMasterShapes](../../aspose.slides/notesslide/showmastershapes) { get; set; } | Anger om former på master-sliden ska visas på slids eller inte. Läs/skriv Boolean. |
-| [SlideId](../../aspose.slides/baseslide/slideid) { get; } | Returnerar ID:n för en slide. skrivskyddad UInt32. |
-| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | Returnerar Transition-objektet som innehåller information om hur den angivna sliden avancerar under en bildspelsvisning. skrivskyddad [`ISlideShowTransition`](../islideshowtransition). |
-| [ThemeManager](../../aspose.slides/notesslide/thememanager) { get; } | Returnerar den överskrivande temahanteraren. skrivskyddad [`IOverrideThemeManager`](../../aspose.slides.theme/ioverridethememanager). |
-| [Timeline](../../aspose.slides/baseslide/timeline) { get; } | Returnerar animations-tidslinje-objektet. skrivskyddad [`IAnimationTimeLine`](../ianimationtimeline). |
+| [Background](../../aspose.slides/baseslide/background) { get; } | Returnerar bildens bakgrund. Skrivskyddad [`IBackground`](../ibackground). |
+| [Controls](../../aspose.slides/baseslide/controls) { get; } | Returnerar samlingen av ActiveX-kontroller på en bild. Skrivskyddad [`IControlCollection`](../icontrolcollection). |
+| [CustomData](../../aspose.slides/baseslide/customdata) { get; } | Returnerar bildens anpassade data. Skrivskyddad [`ICustomData`](../icustomdata). |
+| [HeaderFooterManager](../../aspose.slides/notesslide/headerfootermanager) { get; } | Returnerar HeaderFooter-hanteraren för notes-bilden. Skrivskyddad [`INotesSlideHeaderFooterManager`](../inotesslideheaderfootermanager). |
+| [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | Tillhandahåller enkel åtkomst till innehållna hyperlänkar. Skrivskyddad [`IHyperlinkQueries`](../ihyperlinkqueries). |
+| virtual [Name](../../aspose.slides/baseslide/name) { get; set; } | Returnerar eller sätter namn på en bild. Läs/skriv String. |
+| [NotesTextFrame](../../aspose.slides/notesslide/notestextframe) { get; } | Returnerar ett TextFrame med notes-texten om det finns någon. Skrivskyddad [`ITextFrame`](../itextframe). |
+| [ParentSlide](../../aspose.slides/notesslide/parentslide) { get; } | Returnerar den överordnade bilden. Skrivskyddad [`ISlide`](../islide). |
+| [Presentation](../../aspose.slides/baseslide/presentation) { get; } | Returnerar IPresentation-gränssnittet. Skrivskyddad [`IPresentation`](../ipresentation). |
+| [Shapes](../../aspose.slides/baseslide/shapes) { get; } | Returnerar formerna på en bild. Skrivskyddad [`IShapeCollection`](../ishapecollection). |
+| override [ShowMasterShapes](../../aspose.slides/notesslide/showmastershapes) { get; set; } | Anger om former på huvudbilden ska visas på bilder eller inte. Läs/skriv Boolean. |
+| [SlideId](../../aspose.slides/baseslide/slideid) { get; } | Returnerar ID-t för en bild. Skrivskyddad UInt32. |
+| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | Returnerar Transition-objektet som innehåller information om hur den angivna bilden avancerar under en bildspelsvisning. Skrivskyddad [`ISlideShowTransition`](../islideshowtransition). |
+| [ThemeManager](../../aspose.slides/notesslide/thememanager) { get; } | Returnerar den överordnade temahanteraren. Skrivskyddad [`IOverrideThemeManager`](../../aspose.slides.theme/ioverridethememanager). |
+| [Timeline](../../aspose.slides/baseslide/timeline) { get; } | Returnerar animations-tidslinje-objektet. Skrivskyddad [`IAnimationTimeLine`](../ianimationtimeline). |
 
 ## Metoder
 
-| Name | Description |
+| Namn | Beskrivning |
 | --- | --- |
-| [CreateThemeEffective](../../aspose.slides/baseslide/createthemeeffective)() | Returnerar ett effektivt tema för den här sliden. |
-| [Equals](../../aspose.slides/baseslide/equals)(IBaseSlide) | Avgör om två IBaseSlide-instanser är lika. Returvärdet beräknas baserat på slidens struktur och statiska innehåll. Två slids är lika om alla former, stilar, texter, animationer och andra inställningar osv. är lika. Jämförelsen tar inte hänsyn till unika identifierare, t.ex. SlideId, eller dynamiskt innehåll, t.ex. aktuellt datumvärde i datum-platshållare. |
-| [FindShapeByAltText](../../aspose.slides/baseslide/findshapebyalttext)(string) | Hittar första förekomst av en form med angiven alternativ text. |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)() | Slår ihop körningar med samma formatering i alla stycken i alla accepterade former. |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)(IShapeCollection) | Slår ihop körningar med samma formatering i alla stycken i alla accepterade former. |
+| [CreateThemeEffective](../../aspose.slides/baseslide/createthemeeffective)() | Returnerar ett effektivt tema för denna bild. |
+| [Equals](../../aspose.slides/baseslide/equals)(IBaseSlide) | Bestämmer om de två IBaseSlide-instanserna är lika. Returneringsvärdet beräknas baserat på bildens struktur och statiska innehåll. Två bilder är lika om alla former, stilar, texter, animationer och övriga inställningar osv. är lika. Jämförelsen tar inte hänsyn till unika identifierarvärden, t.ex. SlideId och dynamiskt innehåll, t.ex. aktuell datumvärde i Date Placeholder. |
+| [FindShapeByAltText](../../aspose.slides/baseslide/findshapebyalttext)(string) | Hittar första förekomsten av en form med den angivna alternativa texten. |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)() | Sammanfogar löp med samma formatering i alla stycken i alla acceptabla former. |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)(IShapeCollection) | Sammanfogar löp med samma formatering i alla stycken i alla acceptabla former. |
 
 ### Se även
 

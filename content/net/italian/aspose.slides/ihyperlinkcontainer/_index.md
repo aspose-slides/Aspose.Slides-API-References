@@ -1,14 +1,14 @@
 ---
 title: IHyperlinkContainer
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta l'oggetto collegamento ipertestuale.
+description: Rappresenta l'oggetto hyperlink.
 type: docs
-weight: 6120
+weight: 6140
 url: /it/aspose.slides/ihyperlinkcontainer/
 ---
 ## IHyperlinkContainer interfaccia
 
-Rappresenta l'oggetto collegamento ipertestuale.
+Rappresenta l'oggetto hyperlink.
 
 ```csharp
 public interface IHyperlinkContainer
@@ -18,9 +18,9 @@ public interface IHyperlinkContainer
 
 | Nome | Descrizione |
 | --- | --- |
-| [HyperlinkClick](../../aspose.slides/ihyperlinkcontainer/hyperlinkclick) { get; set; } | Restituisce o imposta il collegamento ipertestuale definito per il clic del mouse. Lettura/scrittura [`IHyperlink`](../ihyperlink). |
-| [HyperlinkManager](../../aspose.slides/ihyperlinkcontainer/hyperlinkmanager) { get; } | Gestore dei collegamenti ipertestuali Sola lettura [`IHyperlinkManager`](../ihyperlinkmanager). |
-| [HyperlinkMouseOver](../../aspose.slides/ihyperlinkcontainer/hyperlinkmouseover) { get; set; } | Restituisce o imposta il collegamento ipertestuale definito per il passaggio del mouse. Lettura/scrittura [`IHyperlink`](../ihyperlink). |
+| [HyperlinkClick](../../aspose.slides/ihyperlinkcontainer/hyperlinkclick) { get; set; } | Restituisce o imposta il hyperlink definito per il clic del mouse. Lettura/scrittura [`IHyperlink`](../ihyperlink). |
+| [HyperlinkManager](../../aspose.slides/ihyperlinkcontainer/hyperlinkmanager) { get; } | Gestore Hyperlinks Solo lettura [`IHyperlinkManager`](../ihyperlinkmanager). |
+| [HyperlinkMouseOver](../../aspose.slides/ihyperlinkcontainer/hyperlinkmouseover) { get; set; } | Restituisce o imposta il hyperlink definito per il passaggio del mouse. Lettura/scrittura [`IHyperlink`](../ihyperlink). |
 
 ### Vedi anche
 

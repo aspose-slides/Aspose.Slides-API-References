@@ -3,7 +3,7 @@ title: MathFractionFactory
 second_title: Aspose.Sildes for .NET API 参考
 description: 允许创建数学分数
 type: docs
-weight: 8700
+weight: 8720
 url: /zh/aspose.slides.mathtext/mathfractionfactory/
 ---
 ## MathFractionFactory 类
@@ -24,8 +24,8 @@ public class MathFractionFactory : IMathFractionFactory
 
 | 名称 | 描述 |
 | --- | --- |
-| [CreateMathFraction](../../aspose.slides.mathtext/mathfractionfactory/createmathfraction#createmathfraction)(IMathElement, IMathElement) | 创建数学分数 |
-| [CreateMathFraction](../../aspose.slides.mathtext/mathfractionfactory/createmathfraction#createmathfraction_1)(IMathElement, IMathElement, MathFractionTypes) | 创建数学分数 |
+| [CreateMathFraction](../../aspose.slides.mathtext/mathfractionfactory/createmathfraction#createmathfraction)(IMathElement, IMathElement) | 创建一个数学分数 |
+| [CreateMathFraction](../../aspose.slides.mathtext/mathfractionfactory/createmathfraction#createmathfraction_1)(IMathElement, IMathElement, MathFractionTypes) | 创建一个数学分数 |
 
 ### 备注
 

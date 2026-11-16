@@ -1,9 +1,9 @@
 ---
 title: GetEmbeddedFonts
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 프레젠테이션에 포함된 글꼴을 반환합니다
 type: docs
-weight: 40
+weight: 50
 url: /ko/aspose.slides/ifontsmanager/getembeddedfonts/
 ---
 ## IFontsManager.GetEmbeddedFonts 메서드
@@ -16,7 +16,7 @@ public IFontData[] GetEmbeddedFonts()
 
 ### 반환값
 
-내장 글꼴 [`IFontData`](../../ifontdata)[]
+포함된 글꼴 [`IFontData`](../../ifontdata)[]
 
 ### 참조
 

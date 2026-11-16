@@ -1,14 +1,14 @@
 ---
 title: IEffectStyleCollectionEffectiveData
-second_title: Aspose.Sildes for .NET API संदर्भ
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
 description: एक अपरिवर्तनीय ऑब्जेक्ट जो प्रभावी इफ़ेक्ट शैलियों का केवल-पढ़ने योग्य संग्रह दर्शाता है।
 type: docs
-weight: 11190
+weight: 11210
 url: /hi/aspose.slides.theme/ieffectstylecollectioneffectivedata/
 ---
 ## IEffectStyleCollectionEffectiveData इंटरफ़ेस
 
-एक अपरिवर्तनीय ऑब्जेक्ट जो प्रभावी इफ़ेक्ट शैलियों का केवल-पढ़ने योग्य संग्रह दर्शाता है।
+Immutable object that represents a readonly collection of effective effect styles.
 
 ```csharp
 public interface IEffectStyleCollectionEffectiveData : IGenericCollection<IEffectStyleEffectiveData>
@@ -18,13 +18,13 @@ public interface IEffectStyleCollectionEffectiveData : IGenericCollection<IEffec
 
 | नाम | विवरण |
 | --- | --- |
-| [Item](../../aspose.slides.theme/ieffectstylecollectioneffectivedata/item) { get; } | निर्दिष्ट इंडेक्स पर तत्व प्राप्त करता है। केवल-पढ़ने योग्य [`IEffectStyleEffectiveData`](../ieffectstyleeffectivedata)। |
+| [Item](../../aspose.slides.theme/ieffectstylecollectioneffectivedata/item) { get; } | निर्दिष्ट अनुक्रमांक पर तत्व प्राप्त करता है। केवल-पढ़ने योग्य [`IEffectStyleEffectiveData`](../ieffectstyleeffectivedata)। |
 
-### टिप्पणियाँ
+### टिप्पणी
 
-यह इंटरफ़ेस [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata) का एक भाग के रूप में उपयोग किया जाता है।
+यह इंटरफ़ेस [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata) का एक हिस्सा के रूप में उपयोग किया जाता है।
 
-### संबंधित देखें
+### संबंधित
 
 * इंटरफ़ेस [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * इंटरफ़ेस [IEffectStyleEffectiveData](../ieffectstyleeffectivedata)

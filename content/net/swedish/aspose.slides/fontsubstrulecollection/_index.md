@@ -3,7 +3,7 @@ title: FontSubstRuleCollection
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en samling av teckensnittssubstitutioner.
 type: docs
-weight: 4900
+weight: 4920
 url: /sv/aspose.slides/fontsubstrulecollection/
 ---
 ## FontSubstRuleCollection klass
@@ -14,7 +14,7 @@ Representerar en samling av teckensnittssubstitutioner.
 public class FontSubstRuleCollection : IFontSubstRuleCollection
 ```
 
-## Konstruktorer
+## Konstruktörer
 
 | Namn | Beskrivning |
 | --- | --- |
@@ -24,16 +24,16 @@ public class FontSubstRuleCollection : IFontSubstRuleCollection
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Count](../../aspose.slides/fontsubstrulecollection/count) { get; } | Hämtar antalet element som faktiskt finns i samlingen. Skrivskyddad Int32. |
-| [IsSynchronized](../../aspose.slides/fontsubstrulecollection/issynchronized) { get; } | Returnerar ett värde som indikerar om åtkomst till samlingen är synkroniserad (trådsäker). Skrivskyddad Boolean. |
+| [Count](../../aspose.slides/fontsubstrulecollection/count) { get; } | Hämtar antalet element som faktiskt finns i samlingen. Read-only Int32. |
+| [IsSynchronized](../../aspose.slides/fontsubstrulecollection/issynchronized) { get; } | Returnerar ett värde som indikerar om åtkomst till samlingen är synkroniserad (trådsäker). Read-only Boolean. |
 | [Item](../../aspose.slides/fontsubstrulecollection/item) { get; } | Hämtar elementet på det angivna indexet. |
-| [SyncRoot](../../aspose.slides/fontsubstrulecollection/syncroot) { get; } | Returnerar ett synkroniseringsrot. Skrivskyddad Object. |
+| [SyncRoot](../../aspose.slides/fontsubstrulecollection/syncroot) { get; } | Returnerar ett synkroniseringsrot. Read-only Object. |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Add](../../aspose.slides/fontsubstrulecollection/add)(IFontSubstRule) | Lägger till den nya teckensnittsbytesregeln i samlingen |
+| [Add](../../aspose.slides/fontsubstrulecollection/add)(IFontSubstRule) | Lägger till den nya teckensnittssubstitutionsregeln i samlingen |
 | [CopyTo](../../aspose.slides/fontsubstrulecollection/copyto)(Array, int) | Kopierar alla element från samlingen till den angivna arrayen. |
 | [GetEnumerator](../../aspose.slides/fontsubstrulecollection/getenumerator)() | Returnerar en enumerator som itererar genom samlingen. |
 | [Remove](../../aspose.slides/fontsubstrulecollection/remove)(IFontSubstRule) | Tar bort den första förekomsten av ett specifikt objekt från samlingen. |

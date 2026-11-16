@@ -1,9 +1,9 @@
 ---
 title: PptCorruptFileException
-second_title: Aspose.Sildes pour la référence de l'API .NET
-description: Exception qui est levée lorsque le fichier de présentation est probablement corrompu.
+second_title: Référence de l'API Aspose.Sildes pour .NET
+description: Exception levée lorsque le fichier de présentation est probablement corrompu.
 type: docs
-weight: 9500
+weight: 9520
 url: /fr/aspose.slides/pptcorruptfileexception/
 ---
 ## PptCorruptFileException classe

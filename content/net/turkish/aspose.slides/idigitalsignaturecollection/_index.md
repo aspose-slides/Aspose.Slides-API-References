@@ -1,9 +1,9 @@
 ---
 title: IDigitalSignatureCollection
-second_title: Aspose.Sildes .NET için API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Bir belgeye eklenmiş dijital imzaların bir koleksiyonunu temsil eder.
 type: docs
-weight: 5700
+weight: 5720
 url: /tr/aspose.slides/idigitalsignaturecollection/
 ---
 ## IDigitalSignatureCollection arayüz
@@ -18,17 +18,17 @@ public interface IDigitalSignatureCollection : IGenericCollection<IDigitalSignat
 
 | Ad | Açıklama |
 | --- | --- |
-| [Item](../../aspose.slides/idigitalsignaturecollection/item) { get; } | İmzayı indeksine göre döndürür. |
+| [Item](../../aspose.slides/idigitalsignaturecollection/item) { get; } | İmza, indeks ile geri döndürülür. |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
 | [Add](../../aspose.slides/idigitalsignaturecollection/add)(IDigitalSignature) | İmzayı koleksiyonun sonuna ekler. |
-| [Clear](../../aspose.slides/idigitalsignaturecollection/clear)() | Koleksiyondan tüm imzaları kaldırır. |
+| [Clear](../../aspose.slides/idigitalsignaturecollection/clear)() | Koleksiyondaki tüm imzaları kaldırır. |
 | [RemoveAt](../../aspose.slides/idigitalsignaturecollection/removeat)(int) | Belirtilen indeksdeki imzayı kaldırır. |
 
-### Diğer
+### Bakınız
 
 * arayüz [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * arayüz [IDigitalSignature](../idigitalsignature)

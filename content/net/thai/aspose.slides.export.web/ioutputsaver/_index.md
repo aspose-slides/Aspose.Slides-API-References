@@ -1,14 +1,14 @@
 ---
 title: IOutputSaver
-second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
-description: แสดงถึงบริการการบันทึกผลลัพธ์
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: เป็นบริการสำหรับการบันทึกเอาต์พุต
 type: docs
-weight: 4610
+weight: 4630
 url: /th/aspose.slides.export.web/ioutputsaver/
 ---
 ## IOutputSaver อินเทอร์เฟซ
 
-แสดงถึงบริการการบันทึกผลลัพธ์
+เป็นบริการสำหรับการบันทึกเอาต์พุต.
 
 ```csharp
 public interface IOutputSaver
@@ -18,7 +18,7 @@ public interface IOutputSaver
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Save](../../aspose.slides.export.web/ioutputsaver/save)(string, IOutputFile) | บันทึกไฟล์ผลลัพธ์ไปยังพาธที่ระบุ |
+| [Save](../../aspose.slides.export.web/ioutputsaver/save)(string, IOutputFile) | บันทึกไฟล์เอาต์พุตไปยังพาธที่กำหนด |
 
 ### ดูเพิ่มเติม
 

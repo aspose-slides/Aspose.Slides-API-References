@@ -1,14 +1,14 @@
 ---
 title: IGeometryPath
 second_title: Aspose.Sildes için .NET API Referansı
-description: GeometryShape nesnesinin geometri yolunu temsil eder
+description: GeometryShape'in geometri yolunu temsil eder
 type: docs
-weight: 5970
+weight: 5990
 url: /tr/aspose.slides/igeometrypath/
 ---
-## IGeometryPath arayüzü
+## IGeometryPath arayüz
 
-GeometryShape nesnesinin geometri yolunu temsil eder
+GeometryShape'in geometri yolunu temsil eder
 
 ```csharp
 public interface IGeometryPath
@@ -16,32 +16,32 @@ public interface IGeometryPath
 
 ## Özellikler
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
-| [FillMode](../../aspose.slides/igeometrypath/fillmode) { get; set; } | Dolgu kipini ayarlar |
-| [PathData](../../aspose.slides/igeometrypath/pathdata) { get; } | GeometryShape nesnesinin geometri yolunu yol segmentleri dizisi olarak döndürür. |
+| [FillMode](../../aspose.slides/igeometrypath/fillmode) { get; set; } | Doldurma kipini ayarlar |
+| [PathData](../../aspose.slides/igeometrypath/pathdata) { get; } | GeometryShape'in geometri yolunu yol segmentlerinin bir dizisi olarak döndürür. |
 | [Stroke](../../aspose.slides/igeometrypath/stroke) { get; set; } | Çizgi görünümünü ayarlar |
 
 ## Yöntemler
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
-| [ArcTo](../../aspose.slides/igeometrypath/arcto)(float, float, float, float) | Belirtilen yay yolu ekler. |
-| [CloseFigure](../../aspose.slides/igeometrypath/closefigure)() | Bu yolun mevcut şekilini kapatır. |
+| [ArcTo](../../aspose.slides/igeometrypath/arcto)(float, float, float, float) | Belirtilen yayını yola ekler. |
+| [CloseFigure](../../aspose.slides/igeometrypath/closefigure)() | Bu yolun geçerli şekilini kapatır |
 | [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto_2)(PointF, PointF, PointF) | Yolun sonuna kübik Bezier eğrisi ekler. |
 | [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto_3)(PointF, PointF, PointF, uint) | Yolun belirtilen yerine kübik Bezier eğrisi ekler. |
 | [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto)(float, float, float, float, float, float) | Yolun sonuna kübik Bezier eğrisi ekler. |
 | [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto_1)(float, float, float, float, float, float, uint) | Yolun belirtilen yerine kübik Bezier eğrisi ekler. |
-| [LineTo](../../aspose.slides/igeometrypath/lineto#lineto_2)(PointF) | Yolun sonuna bir çizgi ekler. |
-| [LineTo](../../aspose.slides/igeometrypath/lineto#lineto)(float, float) | Yolun sonuna bir çizgi ekler. |
-| [LineTo](../../aspose.slides/igeometrypath/lineto#lineto_3)(PointF, uint) | Yolun belirtilen yerine bir çizgi ekler. |
-| [LineTo](../../aspose.slides/igeometrypath/lineto#lineto_1)(float, float, uint) | Yolun belirtilen yerine bir çizgi ekler. |
+| [LineTo](../../aspose.slides/igeometrypath/lineto#lineto_2)(PointF) | Yolun sonuna çizgi ekler. |
+| [LineTo](../../aspose.slides/igeometrypath/lineto#lineto)(float, float) | Yolun sonuna çizgi ekler. |
+| [LineTo](../../aspose.slides/igeometrypath/lineto#lineto_3)(PointF, uint) | Yolun belirtilen yerine çizgi ekler. |
+| [LineTo](../../aspose.slides/igeometrypath/lineto#lineto_1)(float, float, uint) | Yolun belirtilen yerine çizgi ekler. |
 | [MoveTo](../../aspose.slides/igeometrypath/moveto#moveto_1)(PointF) | Sonraki nokta konumunu ayarlar. |
 | [MoveTo](../../aspose.slides/igeometrypath/moveto#moveto)(float, float) | Sonraki nokta konumunu ayarlar. |
-| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto_2)(PointF, PointF) | Yolun sonuna ikili Bezier eğrisi ekler. |
-| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto_3)(PointF, PointF, uint) | Yolun belirtilen yerine ikili Bezier eğrisi ekler. |
-| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto)(float, float, float, float) | Yolun sonuna ikili Bezier eğrisi ekler. |
-| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto_1)(float, float, float, float, uint) | Yolun belirtilen yerine ikili Bezier eğrisi ekler. |
+| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto_2)(PointF, PointF) | Yolun sonuna ikincil Bezier eğrisi ekler. |
+| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto_3)(PointF, PointF, uint) | Yolun belirtilen yerine ikincil Bezier eğrisi ekler. |
+| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto)(float, float, float, float) | Yolun sonuna ikincil Bezier eğrisi ekler. |
+| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto_1)(float, float, float, float, uint) | Yolun belirtilen yerine ikincil Bezier eğrisi ekler. |
 | [RemoveAt](../../aspose.slides/igeometrypath/removeat)(int) | Geometri yolunun belirtilen indeksindeki segmenti kaldırır. |
 
 ### Ayrıca Bakınız

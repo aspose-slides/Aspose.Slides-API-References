@@ -1,14 +1,14 @@
 ---
 title: ColorChange
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een Color Change-effect voor. Instanties van FromColor worden vervangen door instanties van ToColor.
+description: Stelt een Color Change effect voor. Instanties van FromColor worden vervangen door instanties van ToColor.
 type: docs
-weight: 2940
+weight: 2960
 url: /nl/aspose.slides.effects/colorchange/
 ---
 ## ColorChange klasse
 
-Stelt een Color Change-effect voor. Instanties van FromColor worden vervangen door instanties van ToColor.
+Representeert een Color Change-effect. Instanties van FromColor worden vervangen door instanties van ToColor.
 
 ```csharp
 public sealed class ColorChange : ImageTransformOperation, IColorChange
@@ -16,18 +16,18 @@ public sealed class ColorChange : ImageTransformOperation, IColorChange
 
 ## Eigenschappen
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Staat toe de basis IPresentationComponent-interface op te halen. Alleen-lezen [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
-| [FromColor](../../aspose.slides.effects/colorchange/fromcolor) { get; } | Kleur die vervangen zal worden. Alleen-lezen [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [ToColor](../../aspose.slides.effects/colorchange/tocolor) { get; } | Kleur die vervangt. Alleen-lezen [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Staat toe om de basis IPresentationComponent interface op te halen. Alleen-lezen [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [FromColor](../../aspose.slides.effects/colorchange/fromcolor) { get; } | Kleur die wordt vervangen. Alleen-lezen [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [ToColor](../../aspose.slides.effects/colorchange/tocolor) { get; } | Kleur die zal vervangen. Alleen-lezen [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ## Methoden
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/colorchange/equals)(object) | Bepaalt of de opgegeven [`ColorChange`](../colorchange) gelijk is aan de huidige [`ColorChange`](../colorchange). |
-| [GetEffective](../../aspose.slides.effects/colorchange/geteffective)() | Haal effectieve Color Change-effectgegevens op met geërfde instellingen toegepast. |
+| [GetEffective](../../aspose.slides.effects/colorchange/geteffective)() | Haalt effectieve Color Change effectgegevens op met de toegepaste overerving. |
 | override [GetHashCode](../../aspose.slides.effects/colorchange/gethashcode)() | Dient als hash-functie voor een bepaald type. |
 
 ### Zie ook

@@ -3,7 +3,7 @@ title: MasterTheme
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa un tema maestro.
 type: docs
-weight: 11430
+weight: 11450
 url: /es/aspose.slides.theme/mastertheme/
 ---
 ## MasterTheme clase
@@ -18,8 +18,8 @@ public sealed class MasterTheme : Theme, IMasterTheme
 
 | Nombre | Descripción |
 | --- | --- |
-| override [ColorScheme](../../aspose.slides.theme/mastertheme/colorscheme) { get; } | Devuelve el esquema de colores. Solo lectura [`IColorScheme`](../icolorscheme). |
-| [ExtraColorSchemes](../../aspose.slides.theme/mastertheme/extracolorschemes) { get; } | Devuelve la colección de esquemas de color adicionales. Estos esquemas no afectan el aspecto de la presentación, pueden seleccionarse como esquema de color principal para una diapositiva. Solo lectura [`IExtraColorSchemeCollection`](../iextracolorschemecollection). |
+| override [ColorScheme](../../aspose.slides.theme/mastertheme/colorscheme) { get; } | Devuelve el esquema de color. Solo lectura [`IColorScheme`](../icolorscheme). |
+| [ExtraColorSchemes](../../aspose.slides.theme/mastertheme/extracolorschemes) { get; } | Devuelve la colección de esquemas de color adicionales. Estos esquemas no afectan la apariencia de la presentación, pueden seleccionarse como esquema de color principal para una diapositiva. Solo lectura [`IExtraColorSchemeCollection`](../iextracolorschemecollection). |
 | override [FontScheme](../../aspose.slides.theme/mastertheme/fontscheme) { get; } | Devuelve el esquema de fuentes. Solo lectura [`IFontScheme`](../ifontscheme). |
 | override [FormatScheme](../../aspose.slides.theme/mastertheme/formatscheme) { get; } | Devuelve el esquema de formato de forma. Solo lectura [`IFormatScheme`](../iformatscheme). |
 | [Name](../../aspose.slides.theme/mastertheme/name) { get; set; } | Devuelve el nombre de un tema. Lectura/escritura String. |
@@ -29,7 +29,7 @@ public sealed class MasterTheme : Theme, IMasterTheme
 
 | Nombre | Descripción |
 | --- | --- |
-| [GetEffective](../../aspose.slides.theme/theme/geteffective)() | Obtiene los datos del tema efectivo con la herencia aplicada. |
+| [GetEffective](../../aspose.slides.theme/theme/geteffective)() | Obtiene los datos de tema efectivos con la herencia aplicada. |
 
 ### Ver también
 

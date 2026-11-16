@@ -1,14 +1,14 @@
 ---
 title: IImageTransformOperationCollection
-second_title: Aspose.Sildes .NET API 参考
-description: 表示对图像应用的效果集合。
+second_title: Aspose.Sildes for .NET API 参考
+description: 表示对图像应用的一系列效果的集合。
 type: docs
-weight: 3400
+weight: 3420
 url: /zh/aspose.slides.effects/iimagetransformoperationcollection/
 ---
 ## IImageTransformOperationCollection 接口
 
-表示对图像应用的效果集合。
+表示对图像应用的一系列效果的集合。
 
 ```csharp
 public interface IImageTransformOperationCollection : ICollection<IImageTransformOperation>
@@ -19,31 +19,31 @@ public interface IImageTransformOperationCollection : ICollection<IImageTransfor
 | 名称 | 描述 |
 | --- | --- |
 | [AsIEnumerable](../../aspose.slides.effects/iimagetransformoperationcollection/asienumerable) { get; } | 返回 IEnumerable 接口。只读 IEnumerable。 |
-| [Item](../../aspose.slides.effects/iimagetransformoperationcollection/item) { get; } | 返回集合中通过其索引获取的 [`IImageTransformOperation`](../iimagetransformoperation)。 |
+| [Item](../../aspose.slides.effects/iimagetransformoperationcollection/item) { get; } | 返回集合中位于其索引的 [`IImageTransformOperation`](../iimagetransformoperation)。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [AddAlphaBiLevelEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphabileveleffect)(float) | 在集合的末尾添加新的 Alpha Bi-Level 效果。 |
-| [AddAlphaCeilingEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphaceilingeffect)() | 在集合的末尾添加新的 Alpha Ceiling 效果。 |
-| [AddAlphaFloorEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphaflooreffect)() | 在集合的末尾添加新的 Alpha Floor 效果。 |
-| [AddAlphaInverseEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphainverseeffect)() | 在集合的末尾添加新的 Alpha Inverse 效果。 |
-| [AddAlphaModulateEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphamodulateeffect)() | 在集合的末尾添加新的 Alpha Modulate 效果。 |
-| [AddAlphaModulateFixedEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphamodulatefixedeffect)(float) | 在集合的末尾添加新的 Alpha Modulate Fixed 效果。 |
-| [AddAlphaReplaceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphareplaceeffect)(float) | 在集合的末尾添加新的 Alpha Replace 效果。 |
-| [AddBiLevelEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addbileveleffect)(float) | 在集合的末尾添加新的 Bi-Level（黑/白）效果。 |
-| [AddBlurEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addblureffect)(double, bool) | 在集合的末尾添加新的 Blur 效果。 |
-| [AddBrightnessContrastEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addbrightnesscontrasteffect)(float, float) | 在集合的末尾添加新的 BrightnessContrast 效果。 |
-| [AddColorChangeEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addcolorchangeeffect)() | 在集合的末尾添加新的 Color Change 效果。 |
-| [AddColorReplaceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addcolorreplaceeffect)() | 在集合的末尾添加新的 Color Replacement 效果。 |
-| [AddDuotoneEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addduotoneeffect)() | 在集合的末尾添加新的 Duotone 效果。 |
-| [AddFillOverlayEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addfilloverlayeffect)() | 在集合的末尾添加新的 Fill Overlay 效果。 |
-| [AddGrayScaleEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addgrayscaleeffect)() | 在集合的末尾添加新的 Gray Scale 效果。 |
-| [AddHSLEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addhsleffect)(float, float, float) | 在集合的末尾添加新的 Hue/Saturation/Luminance 效果。 |
-| [AddLuminanceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addluminanceeffect)(float, float) | 在集合的末尾添加新的 Luminance 效果。 |
-| [AddTintEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addtinteffect)(float, float) | 在集合的末尾添加新的 Tint 效果。 |
-| [RemoveAt](../../aspose.slides.effects/iimagetransformoperationcollection/removeat)(int) | 从集合中删除指定索引的图像效果。 |
+| [AddAlphaBiLevelEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphabileveleffect)(float) | 向集合末尾添加新的 Alpha Bi-Level 效果。 |
+| [AddAlphaCeilingEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphaceilingeffect)() | 向集合末尾添加新的 Alpha Ceiling 效果。 |
+| [AddAlphaFloorEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphaflooreffect)() | 向集合末尾添加新的 Alpha Floor 效果。 |
+| [AddAlphaInverseEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphainverseeffect)() | 向集合末尾添加新的 Alpha Inverse 效果。 |
+| [AddAlphaModulateEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphamodulateeffect)() | 向集合末尾添加新的 Alpha Modulate 效果。 |
+| [AddAlphaModulateFixedEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphamodulatefixedeffect)(float) | 向集合末尾添加新的 Alpha Modulate Fixed 效果。 |
+| [AddAlphaReplaceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphareplaceeffect)(float) | 向集合末尾添加新的 Alpha Replace 效果。 |
+| [AddBiLevelEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addbileveleffect)(float) | 向集合末尾添加新的 Bi-Level (黑/白) 效果。 |
+| [AddBlurEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addblureffect)(double, bool) | 向集合末尾添加新的 Blur 效果。 |
+| [AddBrightnessContrastEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addbrightnesscontrasteffect)(float, float) | 向集合末尾添加新的 BrightnessContrast 效果。 |
+| [AddColorChangeEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addcolorchangeeffect)() | 向集合末尾添加新的 Color Change 效果。 |
+| [AddColorReplaceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addcolorreplaceeffect)() | 向集合末尾添加新的 Color Replacement 效果。 |
+| [AddDuotoneEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addduotoneeffect)() | 向集合末尾添加新的 Duotone 效果。 |
+| [AddFillOverlayEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addfilloverlayeffect)() | 向集合末尾添加新的 Fill Overlay 效果。 |
+| [AddGrayScaleEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addgrayscaleeffect)() | 向集合末尾添加新的 Gray Scale 效果。 |
+| [AddHSLEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addhsleffect)(float, float, float) | 向集合末尾添加新的 Hue/Saturation/Luminance 效果。 |
+| [AddLuminanceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addluminanceeffect)(float, float) | 向集合末尾添加新的 Luminance 效果。 |
+| [AddTintEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addtinteffect)(float, float) | 向集合末尾添加新的 Tint 效果。 |
+| [RemoveAt](../../aspose.slides.effects/iimagetransformoperationcollection/removeat)(int) | 在集合中指定索引处删除图像效果。 |
 
 ### 参见
 

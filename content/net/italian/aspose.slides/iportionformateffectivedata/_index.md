@@ -1,12 +1,12 @@
 ---
 title: IPortionFormatEffectiveData
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Oggetto immutabile che contiene le proprietà di formattazione efficace della porzione di testo.
+second_title: Riferimento API di Aspose.Sildes per .NET
+description: Oggetto immutabile che contiene le proprietà di formattazione efficace delle porzioni di testo.
 type: docs
-weight: 6740
+weight: 6760
 url: /it/aspose.slides/iportionformateffectivedata/
 ---
-## IPortionFormatEffectiveData interfaccia
+## Interfaccia IPortionFormatEffectiveData
 
 Oggetto immutabile che contiene le proprietà di formattazione efficace della porzione di testo.
 
@@ -19,13 +19,13 @@ public interface IPortionFormatEffectiveData : IBasePortionFormatEffectiveData
 | Nome | Descrizione |
 | --- | --- |
 | [AsIBasePortionFormatEffectiveData](../../aspose.slides/iportionformateffectivedata/asibaseportionformateffectivedata) { get; } | Restituisce l'interfaccia IBasePortionFormatEffectiveData. |
-| [BookmarkId](../../aspose.slides/iportionformateffectivedata/bookmarkid) { get; } | Restituisce l'identificatore del segnalibro. Solo lettura String. |
-| [HyperlinkClick](../../aspose.slides/iportionformateffectivedata/hyperlinkclick) { get; } | Restituisce il collegamento ipertestuale definito per il click del mouse. Solo lettura [`IHyperlink`](../ihyperlink). |
-| [HyperlinkMouseOver](../../aspose.slides/iportionformateffectivedata/hyperlinkmouseover) { get; } | Restituisce il collegamento ipertestuale definito per il passaggio del mouse. Solo lettura [`IHyperlink`](../ihyperlink). |
+| [BookmarkId](../../aspose.slides/iportionformateffectivedata/bookmarkid) { get; } | Restituisce l'identificatore del segnalibro. Sola lettura String. |
+| [HyperlinkClick](../../aspose.slides/iportionformateffectivedata/hyperlinkclick) { get; } | Restituisce l'ipertesto definito per il clic del mouse. Sola lettura [`IHyperlink`](../ihyperlink). |
+| [HyperlinkMouseOver](../../aspose.slides/iportionformateffectivedata/hyperlinkmouseover) { get; } | Restituisce l'ipertesto definito per il passaggio del mouse. Sola lettura [`IHyperlink`](../ihyperlink). |
 
-### Osservazioni
+### Note
 
-Questa interfaccia è utilizzata insieme all'interfaccia [`IPortionFormat`](../iportionformat) per restituire i valori di formattazione efficace con ereditarietà applicata.
+Questa interfaccia è usata insieme all'interfaccia [`IPortionFormat`](../iportionformat) per restituire i valori di formattazione efficaci con l'ereditarietà applicata.
 
 ### Vedi anche
 

@@ -3,12 +3,12 @@ title: PictureFrameLock
 second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
 description: กำหนดว่าการดำเนินการใดบ้างที่ถูกปิดใช้งานบน PictureFrame พาเรนท์
 type: docs
-weight: 9420
+weight: 9440
 url: /th/aspose.slides/pictureframelock/
 ---
 ## PictureFrameLock คลาส
 
-Determines which operations are disabled on the parent PictureFrame.
+กำหนดว่าการดำเนินการใดบ้างที่ถูกปิดใช้งานบน PictureFrame พาเรนท์
 
 ```csharp
 public class PictureFrameLock : BaseShapeLock, IPictureFrameLock
@@ -18,18 +18,18 @@ public class PictureFrameLock : BaseShapeLock, IPictureFrameLock
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AdjustHandlesLocked](../../aspose.slides/pictureframelock/adjusthandleslocked) { get; set; } | กำหนดว่าการเปลี่ยนค่าการปรับเป็นสิ่งต้องห้ามหรือไม่. อ่าน/เขียน Boolean. |
-| [ArrowheadsLocked](../../aspose.slides/pictureframelock/arrowheadslocked) { get; set; } | กำหนดว่าการเปลี่ยนหัวลูกศรเป็นสิ่งต้องห้ามหรือไม่. อ่าน/เขียน Boolean. |
-| [AspectRatioLocked](../../aspose.slides/pictureframelock/aspectratiolocked) { get; set; } | กำหนดว่ารูปทรงต้องรักษาอัตราส่วนเมื่อปรับขนาดหรือไม่. อ่าน/เขียน Boolean. |
-| [CropLocked](../../aspose.slides/pictureframelock/croplocked) { get; set; } | กำหนดว่าการตัดรูปภาพเป็นสิ่งต้องห้ามหรือไม่. อ่าน/เขียน Boolean. |
-| [EditPointsLocked](../../aspose.slides/pictureframelock/editpointslocked) { get; set; } | กำหนดว่าการเปลี่ยนรูปร่างโดยตรงของรูปทรงนี้เป็นสิ่งต้องห้ามหรือไม่. อ่าน/เขียน Boolean. |
-| [GroupingLocked](../../aspose.slides/pictureframelock/groupinglocked) { get; set; } | กำหนดว่าการเพิ่มรูปทรงนี้เข้าไปในกลุ่มเป็นสิ่งต้องห้ามหรือไม่. อ่าน/เขียน Boolean. |
-| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | คืนค่า true หากธงล็อกทั้งหมดถูกปิดการใช้งาน. อ่านอย่างเดียว Boolean. |
-| [PositionLocked](../../aspose.slides/pictureframelock/positionlocked) { get; set; } | กำหนดว่าการย้ายรูปทรงนี้เป็นสิ่งต้องห้ามหรือไม่. อ่าน/เขียน Boolean. |
-| [RotationLocked](../../aspose.slides/pictureframelock/rotationlocked) { get; set; } | กำหนดว่าการเปลี่ยนมุมการหมุนของรูปทรงนี้เป็นสิ่งต้องห้ามหรือไม่. อ่าน/เขียน Boolean. |
-| [SelectLocked](../../aspose.slides/pictureframelock/selectlocked) { get; set; } | กำหนดว่าการเลือกรูปทรงนี้เป็นสิ่งต้องห้ามหรือไม่. อ่าน/เขียน Boolean. |
-| [ShapeTypeLocked](../../aspose.slides/pictureframelock/shapetypelocked) { get; set; } | กำหนดว่าการเปลี่ยนประเภทของรูปทรงเป็นสิ่งต้องห้ามหรือไม่. อ่าน/เขียน Boolean. |
-| [SizeLocked](../../aspose.slides/pictureframelock/sizelocked) { get; set; } | กำหนดว่าการปรับขนาดรูปทรงนี้เป็นสิ่งต้องห้ามหรือไม่. อ่าน/เขียน Boolean. |
+| [AdjustHandlesLocked](../../aspose.slides/pictureframelock/adjusthandleslocked) { get; set; } | กำหนดว่าการเปลี่ยนค่า adjust values เป็นสิ่งที่ห้ามทำหรือไม่. อ่าน/เขียน Boolean. |
+| [ArrowheadsLocked](../../aspose.slides/pictureframelock/arrowheadslocked) { get; set; } | กำหนดว่าการเปลี่ยน arrowheads เป็นสิ่งที่ห้ามทำหรือไม่. อ่าน/เขียน Boolean. |
+| [AspectRatioLocked](../../aspose.slides/pictureframelock/aspectratiolocked) { get; set; } | กำหนดว่ารูปร่างต้องรักษาอัตราส่วนเดิมเมื่อทำการปรับขนาดหรือไม่. อ่าน/เขียน Boolean. |
+| [CropLocked](../../aspose.slides/pictureframelock/croplocked) { get; set; } | กำหนดว่าการครอบภาพเป็นสิ่งที่ห้ามทำหรือไม่. อ่าน/เขียน Boolean. |
+| [EditPointsLocked](../../aspose.slides/pictureframelock/editpointslocked) { get; set; } | กำหนดว่าการเปลี่ยน contour ของรูปร่างโดยตรงเป็นสิ่งที่ห้ามทำหรือไม่. อ่าน/เขียน Boolean. |
+| [GroupingLocked](../../aspose.slides/pictureframelock/groupinglocked) { get; set; } | กำหนดว่าการเพิ่มรูปร่างนี้เข้าไปในกลุ่มเป็นสิ่งที่ห้ามทำหรือไม่. อ่าน/เขียน Boolean. |
+| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | คืนค่า true หาก lock-flags ทั้งหมดถูกปิดใช้งาน. อ่านอย่างเดียว Boolean. |
+| [PositionLocked](../../aspose.slides/pictureframelock/positionlocked) { get; set; } | กำหนดว่าการย้ายรูปร่างนี้เป็นสิ่งที่ห้ามทำหรือไม่. อ่าน/เขียน Boolean. |
+| [RotationLocked](../../aspose.slides/pictureframelock/rotationlocked) { get; set; } | กำหนดว่าการเปลี่ยนมุมการหมุนของรูปร่างนี้เป็นสิ่งที่ห้ามทำหรือไม่. อ่าน/เขียน Boolean. |
+| [SelectLocked](../../aspose.slides/pictureframelock/selectlocked) { get; set; } | กำหนดว่าการเลือกรูปร่างนี้เป็นสิ่งที่ห้ามทำหรือไม่. อ่าน/เขียน Boolean. |
+| [ShapeTypeLocked](../../aspose.slides/pictureframelock/shapetypelocked) { get; set; } | กำหนดว่าการเปลี่ยนประเภทของรูปร่างเป็นสิ่งที่ห้ามทำหรือไม่. อ่าน/เขียน Boolean. |
+| [SizeLocked](../../aspose.slides/pictureframelock/sizelocked) { get; set; } | กำหนดว่าการปรับขนาดรูปร่างนี้เป็นสิ่งที่ห้ามทำหรือไม่. อ่าน/เขียน Boolean. |
 
 ### ดูเพิ่มเติม
 

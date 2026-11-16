@@ -1,14 +1,14 @@
 ---
 title: INotesSize
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per .NET Riferimento API
 description: Rappresenta una dimensione della diapositiva delle note.
 type: docs
-weight: 6490
+weight: 6510
 url: /it/aspose.slides/inotessize/
 ---
-## Interfaccia INotesSize
+## INotesSize interfaccia
 
-Rappresenta una dimensione di diapositiva delle note.
+Rappresenta una dimensione della diapositiva delle note.
 
 ```csharp
 public interface INotesSize

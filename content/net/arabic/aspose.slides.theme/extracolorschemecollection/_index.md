@@ -1,14 +1,14 @@
 ---
 title: ExtraColorSchemeCollection
 second_title: مرجع API Aspose.Sildes لـ .NET
-description: يمثل مجموعة من مخططات الألوان الإضافية.
+description: يمثل مجموعة من أنظمة الألوان الإ إضافية.
 type: docs
-weight: 11110
+weight: 11130
 url: /ar/aspose.slides.theme/extracolorschemecollection/
 ---
 ## ExtraColorSchemeCollection فئة
 
-يمثل مجموعة من مخططات الألوان الإضافية.
+يمثل مجموعة من أنظمة الألوان الإضافية.
 
 ```csharp
 public class ExtraColorSchemeCollection : IExtraColorSchemeCollection
@@ -18,17 +18,17 @@ public class ExtraColorSchemeCollection : IExtraColorSchemeCollection
 
 | الاسم | الوصف |
 | --- | --- |
-| [Count](../../aspose.slides.theme/extracolorschemecollection/count) { get; } | يعيد عدد العناصر في المجموعة. للقراءة فقط Int32. |
-| [IsSynchronized](../../aspose.slides.theme/extracolorschemecollection/issynchronized) { get; } | يعيد قيمة تشير إلى ما إذا كان الوصول إلى ArrayList متزامنًا (آمن خيوطياً). للقراءة فقط Boolean. |
-| [Item](../../aspose.slides.theme/extracolorschemecollection/item) { get; } | يعيد مخطط ألوان وفق الفهرس. للقراءة فقط [`ExtraColorScheme`](../extracolorscheme). |
-| [SyncRoot](../../aspose.slides.theme/extracolorschemecollection/syncroot) { get; } | يعيد كائنًا يمكن استخدامه لمزامنة الوصول إلى المجموعة. للقراءة فقط Object. |
+| [Count](../../aspose.slides.theme/extracolorschemecollection/count) { get; } | إرجاع عدد العناصر في المجموعة. قراءة فقط Int32. |
+| [IsSynchronized](../../aspose.slides.theme/extracolorschemecollection/issynchronized) { get; } | إرجاع قيمة تشير إلى ما إذا كان الوصول إلى ArrayList متزامنًا (آمن عبر الخيوط). قراءة فقط Boolean. |
+| [Item](../../aspose.slides.theme/extracolorschemecollection/item) { get; } | إرجاع نظام ألوان حسب الفهرس. قراءة فقط [`ExtraColorScheme`](../extracolorscheme). |
+| [SyncRoot](../../aspose.slides.theme/extracolorschemecollection/syncroot) { get; } | إرجاع كائن يمكن استخدامه لمزامنة الوصول إلى المجموعة. قراءة فقط Object. |
 
 ## الطرق
 
 | الاسم | الوصف |
 | --- | --- |
 | [CopyTo](../../aspose.slides.theme/extracolorschemecollection/copyto)(Array, int) | ينسخ جميع عناصر المجموعة إلى المصفوفة المحددة. |
-| [GetEnumerator](../../aspose.slides.theme/extracolorschemecollection/getenumerator)() | يعيد عدّادًا يتكرر عبر المجموعة. |
+| [GetEnumerator](../../aspose.slides.theme/extracolorschemecollection/getenumerator)() | إرجاع مُعدِّد يعبر عبر المجموعة. |
 
 ### انظر أيضًا
 

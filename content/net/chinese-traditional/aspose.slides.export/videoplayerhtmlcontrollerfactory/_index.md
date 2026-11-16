@@ -1,9 +1,9 @@
 ---
 title: VideoPlayerHtmlControllerFactory
 second_title: Aspose.Sildes for .NET API 參考
-description: 允許建立 VideoPlayerHtmlController。
+description: 允許建立 VideoPlayerHtmlController.
 type: docs
-weight: 4590
+weight: 4610
 url: /zh-hant/aspose.slides.export/videoplayerhtmlcontrollerfactory/
 ---
 ## VideoPlayerHtmlControllerFactory 類別
@@ -28,7 +28,7 @@ public class VideoPlayerHtmlControllerFactory : IVideoPlayerHtmlControllerFactor
 
 ### 備註
 
-用於 COM 相容性。
+針對 COM 相容性。
 
 ### 另請參閱
 

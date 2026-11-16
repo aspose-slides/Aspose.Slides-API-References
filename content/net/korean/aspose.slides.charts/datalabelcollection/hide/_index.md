@@ -1,14 +1,14 @@
 ---
 title: Hide
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 데이터 레이블을 기본적으로 숨기려면 DefaultDataLabelFormat 속성의 모든 Show-flags ShowValue ... 를 false 상태로 설정합니다. IsVisible는 이 후 false가 됩니다.
+description: DefaultDataLabelFormat 속성의 모든 Show-플래그(ShowValue ...)를 false 상태로 설정하여 데이터 레이블을 기본적으로 숨깁니다. 이후 IsVisible는 false가 됩니다.
 type: docs
-weight: 100
+weight: 110
 url: /ko/aspose.slides.charts/datalabelcollection/hide/
 ---
-## DataLabelCollection.Hide method
+## DataLabelCollection.Hide 메서드
 
-DefaultDataLabelFormat 속성의 모든 Show*-플래그(ShowValue, ...)를 false 상태로 설정하여 데이터 레이블을 기본적으로 숨깁니다. IsVisible는 이 후 false가 됩니다.
+데이터 라벨을 기본적으로 숨기려면 DefaultDataLabelFormat 속성의 모든 Show*-flags (ShowValue, ...)를 false 상태로 설정합니다. IsVisible는 이후 false가 됩니다.
 
 ```csharp
 public void Hide()
@@ -16,9 +16,9 @@ public void Hide()
 
 ### 비고
 
-데이터 레이블이 기본적으로 표시되지 않는 경우(IsVisible가 false) DefaultDataLabelFormat 속성의 Show*-플래그(ShowValue, ...)를 true 상태로 설정하여 데이터 레이블을 "기본적으로 표시"하도록 할 수 있습니다.
+데이터 라벨이 기본적으로 표시되지 않는 경우(IsVisible가 false) Show*-flags (ShowValue, ...)를 true 상태로 설정하여 데이터 라벨을 기본적으로 표시하도록 만들 수 있습니다.
 
-### 또 보기
+### 관련 항목
 
 * 클래스 [DataLabelCollection](../../datalabelcollection)
 * 네임스페이스 [Aspose.Slides.Charts](../../datalabelcollection)

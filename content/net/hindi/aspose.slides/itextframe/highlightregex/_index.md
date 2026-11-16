@@ -1,14 +1,14 @@
 ---
 title: HighlightRegex
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: निर्दिष्ट रंग के साथ नियमित अभिव्यक्ति के सभी मिलानों को हाइलाइट करता है।
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: निर्दिष्ट रंग के साथ नियमित अभिव्यक्ति के सभी मिलान को उजागर करता है।
 type: docs
-weight: 80
+weight: 90
 url: /hi/aspose.slides/itextframe/highlightregex/
 ---
 ## ITextFrame.HighlightRegex विधि
 
-निर्दिष्ट रंग के साथ नियमित अभिव्यक्ति के सभी मिलानों को हाइलाइट करता है।
+निर्दिष्ट रंग के साथ नियमित अभिव्यक्ति के सभी मिलान को उजागर करता है।
 
 ```csharp
 public void HighlightRegex(Regex regex, Color highlightColor, IFindResultCallback callback)
@@ -16,20 +16,20 @@ public void HighlightRegex(Regex regex, Color highlightColor, IFindResultCallbac
 
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| regex | Regex | हाइलाइट करने के लिए स्ट्रिंग प्राप्त करने हेतु नियमित अभिव्यक्ति Regex। |
-| highlightColor | Color | पाठ को हाइलाइट करने के लिए रंग। |
+| regex | Regex | उजागर करने के लिए स्ट्रिंग्स प्राप्त करने हेतु नियमित अभिव्यक्ति Regex। |
+| highlightColor | Color | पाठ को उजागर करने के लिए रंग। |
 | callback | IFindResultCallback | खोज परिणाम प्राप्त करने के लिए कॉलबैक ऑब्जेक्ट [`IFindResultCallback`](../../ifindresultcallback)। |
 
 ### उदाहरण
 
-निम्नलिखित कोड नमूना प्रदर्शित करता है कि नियमित अभिव्यक्ति का उपयोग करके TextFrame में टेक्स्ट को कैसे हाइलाइट किया जाए।
+निम्नलिखित कोड उदाहरण दिखाता है कि नियमित अभिव्यक्ति का उपयोग करके TextFrame में पाठ को कैसे उजागर किया जाए।
 
 ```csharp
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
 	Regex regex = new Regex(@"\b[^\s]{10,}\b");
-	// 10 या अधिक अक्षरों वाले सभी शब्दों को हाइलाइट कर रहा है
+	// 10 या अधिक अक्षरों वाले सभी शब्दों को उजागर कर रहा है
 	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.HighlightRegex(regex, Color.Blue, null);
 	presentation.Save("SomePresentation-out.pptx", SaveFormat.Pptx);
 }

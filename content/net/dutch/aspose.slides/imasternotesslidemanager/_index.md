@@ -1,14 +1,14 @@
 ---
 title: IMasterNotesSlideManager
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Beheerder van masternotitieslides.
+description: Beheerder voor masternotitiesdia's.
 type: docs
-weight: 6410
+weight: 6430
 url: /nl/aspose.slides/imasternotesslidemanager/
 ---
 ## IMasterNotesSlideManager interface
 
-Beheerder van masternotitieslides.
+Beheerder voor masternotitiesdia's.
 
 ```csharp
 public interface IMasterNotesSlideManager
@@ -16,16 +16,16 @@ public interface IMasterNotesSlideManager
 
 ## Eigenschappen
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
 | [MasterNotesSlide](../../aspose.slides/imasternotesslidemanager/masternotesslide) { get; } | Retourneert een master voor alle notitieslides van deze presentatie als die er is, anders retourneert null. Alleen-lezen [`IMasterNotesSlide`](../imasternotesslide). |
 
 ## Methoden
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
-| [RemoveMasterNotesSlide](../../aspose.slides/imasternotesslidemanager/removemasternotesslide)() | Verwijdert masternotitieslide. |
-| [SetDefaultMasterNotesSlide](../../aspose.slides/imasternotesslidemanager/setdefaultmasternotesslide)() | Stelt de standaard masternotitieslide in voor de gerelateerde notitieslide. |
+| [RemoveMasterNotesSlide](../../aspose.slides/imasternotesslidemanager/removemasternotesslide)() | Verwijdert de master-notitiesdia. |
+| [SetDefaultMasterNotesSlide](../../aspose.slides/imasternotesslidemanager/setdefaultmasternotesslide)() | Stelt de standaard master-notitiesdia in voor gerelateerde notitiesdia. |
 
 ### Zie ook
 

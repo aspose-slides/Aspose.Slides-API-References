@@ -1,14 +1,14 @@
 ---
 title: FontSubstRule
 second_title: Aspose.Sildes for .NET API 參考文件
-description: 表示字型替代資訊
+description: 代表字型置換資訊
 type: docs
-weight: 4890
+weight: 4910
 url: /zh-hant/aspose.slides/fontsubstrule/
 ---
 ## FontSubstRule 類別
 
-表示字型替代資訊
+表示字型置換資訊
 
 ```csharp
 public class FontSubstRule : IFontSubstRule
@@ -16,18 +16,18 @@ public class FontSubstRule : IFontSubstRule
 
 ## 建構函式
 
-| 名稱 | 說明 |
+| Name | Description |
 | --- | --- |
-| [FontSubstRule](fontsubstrule#constructor)(IFontData, IFontData) | 建立新執行個體。 |
-| [FontSubstRule](fontsubstrule#constructor_1)(IFontData, IFontData, FontSubstCondition) | 建立新執行個體。 |
+| [FontSubstRule](fontsubstrule#constructor)(IFontData, IFontData) | 建立新實例。 |
+| [FontSubstRule](fontsubstrule#constructor_1)(IFontData, IFontData, FontSubstCondition) | 建立新實例。 |
 
 ## 屬性
 
-| 名稱 | 說明 |
+| Name | Description |
 | --- | --- |
-| [DestFont](../../aspose.slides/fontsubstrule/destfont) { get; } | 用於替代的字型。唯讀 [`IFontData`](../ifontdata)。 |
-| [ReplaceFontCondition](../../aspose.slides/fontsubstrule/replacefontcondition) { get; } | 套用於替代的規則。唯讀 [`FontSubstCondition`](../fontsubstcondition)。 |
-| [SourceFont](../../aspose.slides/fontsubstrule/sourcefont) { get; } | 要替代的字型。唯讀 [`IFontData`](../ifontdata)。 |
+| [DestFont](../../aspose.slides/fontsubstrule/destfont) { get; } | 用於置換的字型。唯讀 [`IFontData`](../ifontdata)。 |
+| [ReplaceFontCondition](../../aspose.slides/fontsubstrule/replacefontcondition) { get; } | 置換時套用的規則。唯讀 [`FontSubstCondition`](../fontsubstcondition)。 |
+| [SourceFont](../../aspose.slides/fontsubstrule/sourcefont) { get; } | 要置換的字型。唯讀 [`IFontData`](../ifontdata)。 |
 
 ### 另請參閱
 

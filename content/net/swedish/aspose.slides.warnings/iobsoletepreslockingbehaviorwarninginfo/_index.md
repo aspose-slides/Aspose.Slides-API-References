@@ -1,9 +1,9 @@
 ---
 title: IObsoletePresLockingBehaviorWarningInfo
 second_title: Aspose.Sildes för .NET API-referens
-description: Denna varning indikerar att ett föråldrat presentationslåsningsbeteende används.
+description: Denna varning anger att ett föråldrat presentationslåsningsbeteende används.
 type: docs
-weight: 11780
+weight: 11800
 url: /sv/aspose.slides.warnings/iobsoletepreslockingbehaviorwarninginfo/
 ---
 ## IObsoletePresLockingBehaviorWarningInfo gränssnitt
@@ -18,7 +18,7 @@ public interface IObsoletePresLockingBehaviorWarningInfo : IWarningInfo
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIWarningInfo](../../aspose.slides.warnings/iobsoletepreslockingbehaviorwarninginfo/asiwarninginfo) { get; } | Returnerar IWarningInfo gränssnitt. Skrivskyddad [`IWarningInfo`](../iwarninginfo). |
+| [AsIWarningInfo](../../aspose.slides.warnings/iobsoletepreslockingbehaviorwarninginfo/asiwarninginfo) { get; } | Returnerar IWarningInfo interface. Skrivskyddad [`IWarningInfo`](../iwarninginfo). |
 
 ### Se även
 

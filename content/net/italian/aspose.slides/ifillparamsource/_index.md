@@ -1,14 +1,14 @@
 ---
 title: IFillParamSource
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Interfaccia per parametri di riempimento ausiliari.
+description: Interfaccia ausiliaria dei parametri di riempimento.
 type: docs
-weight: 5810
+weight: 5830
 url: /it/aspose.slides/ifillparamsource/
 ---
 ## IFillParamSource interfaccia
 
-Interfaccia per parametri di riempimento ausiliari.
+Interfaccia ausiliaria dei parametri di riempimento.
 
 ```csharp
 public interface IFillParamSource

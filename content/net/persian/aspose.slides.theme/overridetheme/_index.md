@@ -1,50 +1,50 @@
 ---
 title: OverrideTheme
 second_title: مرجع API Aspose.Sildes برای .NET
-description: نمایانگر یک تم جایگزین.
+description: نمایانگر یک تم بازنویسی شده است.
 type: docs
-weight: 11460
+weight: 11480
 url: /fa/aspose.slides.theme/overridetheme/
 ---
-## OverrideTheme کلاس
+## کلاس OverrideTheme
 
-نمایانگر یک تم جایگزین.
+Represents a overriding theme.
 
 ```csharp
 public sealed class OverrideTheme : Theme, IOverrideTheme
 ```
 
-## خصوصیات
+## ویژگی‌ها
 
 | نام | توضیح |
 | --- | --- |
-| override [ColorScheme](../../aspose.slides.theme/overridetheme/colorscheme) { get; } | رنگ‌بندی را برمی‌گرداند. فقط خواندنی [`IColorScheme`](../icolorscheme). |
-| override [FontScheme](../../aspose.slides.theme/overridetheme/fontscheme) { get; } | قلم‌بندی را برمی‌گرداند. فقط خواندنی [`IFontScheme`](../ifontscheme). |
-| override [FormatScheme](../../aspose.slides.theme/overridetheme/formatscheme) { get; } | قالب‌بندی‌شکل را برمی‌گرداند. فقط خواندنی [`IFormatScheme`](../iformatscheme). |
-| [IsEmpty](../../aspose.slides.theme/overridetheme/isempty) { get; } | مقدار true به این معنی است که ColorScheme، FontScheme، FormatScheme تهی است و هر گونه جایگزینی با این شی تم غیرفعال می‌شود. فقط خواندنی Boolean. |
-| [Presentation](../../aspose.slides.theme/theme/presentation) { get; } | ارائهٔ والد را برمی‌گرداند. فقط خواندنی [`IPresentation`](../../aspose.slides/ipresentation). |
+| override [ColorScheme](../../aspose.slides.theme/overridetheme/colorscheme) { get; } | ColorScheme را برمی‌گرداند. فقط خواندنی [`IColorScheme`](../icolorscheme). |
+| override [FontScheme](../../aspose.slides.theme/overridetheme/fontscheme) { get; } | FontScheme را برمی‌گرداند. فقط خواندنی [`IFontScheme`](../ifontscheme). |
+| override [FormatScheme](../../aspose.slides.theme/overridetheme/formatscheme) { get; } | FormatScheme را برمی‌گرداند. فقط خواندنی [`IFormatScheme`](../iformatscheme). |
+| [IsEmpty](../../aspose.slides.theme/overridetheme/isempty) { get; } | مقدار True به این معنی است که ColorScheme، FontScheme، FormatScheme برابر null است و هر گونه overriding با این شیء تم غیرفعال می‌شود. فقط خواندنی Boolean. |
+| [Presentation](../../aspose.slides.theme/theme/presentation) { get; } | Presentation والد را برمی‌گرداند. فقط خواندنی [`IPresentation`](../../aspose.slides/ipresentation). |
 
 ## متدها
 
 | نام | توضیح |
 | --- | --- |
-| [Clear](../../aspose.slides.theme/overridetheme/clear)() | ColorScheme، FontScheme، FormatScheme را به null تنظیم می‌کند تا هر گونه جایگزینی با این شی تم غیرفعال شود. |
+| [Clear](../../aspose.slides.theme/overridetheme/clear)() | ColorScheme، FontScheme، FormatScheme را به null تنظیم می‌کند تا هر گونه overriding با این شیء تم غیرفعال شود. |
 | [GetEffective](../../aspose.slides.theme/theme/geteffective)() | داده‌های تم مؤثر را با اعمال ارث‌بری دریافت می‌کند. |
-| [InitColorScheme](../../aspose.slides.theme/overridetheme/initcolorscheme)() | ColorScheme را با شیء جدیدی برای جایگزینی ColorScheme از InheritedTheme مقداردهی اولیه می‌کند. |
-| [InitColorSchemeFrom](../../aspose.slides.theme/overridetheme/initcolorschemefrom)(IColorScheme) | ColorScheme را با شیء جدیدی برای جایگزینی ColorScheme از InheritedTheme مقداردهی اولیه می‌کند. |
-| [InitColorSchemeFromInherited](../../aspose.slides.theme/overridetheme/initcolorschemefrominherited)() | ColorScheme را با شیء جدیدی برای جایگزینی ColorScheme از InheritedTheme مقداردهی اولیه می‌کند و داده‌های این شیء جدید را با داده‌های ColorScheme از InheritedTheme مقداردهی می‌کند. |
-| [InitFontScheme](../../aspose.slides.theme/overridetheme/initfontscheme)() | FontScheme را با شیء جدیدی برای جایگزینی FontScheme از InheritedTheme مقداردهی اولیه می‌کند. |
-| [InitFontSchemeFrom](../../aspose.slides.theme/overridetheme/initfontschemefrom)(IFontScheme) | FontScheme را با شیء جدیدی برای جایگزینی FontScheme از InheritedTheme مقداردهی اولیه می‌کند. |
-| [InitFontSchemeFromInherited](../../aspose.slides.theme/overridetheme/initfontschemefrominherited)() | FontScheme را با شیء جدیدی برای جایگزینی FontScheme از InheritedTheme مقداردهی اولیه می‌کند و داده‌های این شیء جدید را با داده‌های FontScheme از InheritedTheme مقداردهی می‌کند. |
-| [InitFormatScheme](../../aspose.slides.theme/overridetheme/initformatscheme)() | FormatScheme را با شیء جدیدی برای جایگزینی FormatScheme از InheritedTheme مقداردهی اولیه می‌کند. |
-| [InitFormatSchemeFrom](../../aspose.slides.theme/overridetheme/initformatschemefrom)(IFormatScheme) | FormatScheme را با شیء جدیدی برای جایگزینی FormatScheme از InheritedTheme مقداردهی اولیه می‌کند. |
-| [InitFormatSchemeFromInherited](../../aspose.slides.theme/overridetheme/initformatschemefrominherited)() | FormatScheme را با شیء جدیدی برای جایگزینی FormatScheme از InheritedTheme مقداردهی اولیه می‌کند و داده‌های این شیء جدید را با داده‌های FormatScheme از InheritedTheme مقداردهی می‌کند. |
+| [InitColorScheme](../../aspose.slides.theme/overridetheme/initcolorscheme)() | ColorScheme را با شیء جدید برای overriding ColorScheme از InheritedTheme مقداردهی اولیه می‌کند. |
+| [InitColorSchemeFrom](../../aspose.slides.theme/overridetheme/initcolorschemefrom)(IColorScheme) | ColorScheme را با شیء جدید برای overriding ColorScheme از InheritedTheme مقداردهی اولیه می‌کند. |
+| [InitColorSchemeFromInherited](../../aspose.slides.theme/overridetheme/initcolorschemefrominherited)() | ColorScheme را با شیء جدید برای overriding ColorScheme از InheritedTheme مقداردهی اولیه می‌کند و داده‌های این شیء جدید را با داده‌های ColorScheme از InheritedTheme مقداردهی می‌کند. |
+| [InitFontScheme](../../aspose.slides.theme/overridetheme/initfontscheme)() | FontScheme را با شیء جدید برای overriding FontScheme از InheritedTheme مقداردهی اولیه می‌کند. |
+| [InitFontSchemeFrom](../../aspose.slides.theme/overridetheme/initfontschemefrom)(IFontScheme) | FontScheme را با شیء جدید برای overriding FontScheme از InheritedTheme مقداردهی اولیه می‌کند. |
+| [InitFontSchemeFromInherited](../../aspose.slides.theme/overridetheme/initfontschemefrominherited)() | FontScheme را با شیء جدید برای overriding FontScheme از InheritedTheme مقداردهی اولیه می‌کند و داده‌های این شیء جدید را با داده‌های FontScheme از InheritedTheme مقداردهی می‌کند. |
+| [InitFormatScheme](../../aspose.slides.theme/overridetheme/initformatscheme)() | FormatScheme را با شیء جدید برای overriding FormatScheme از InheritedTheme مقداردهی اولیه می‌کند. |
+| [InitFormatSchemeFrom](../../aspose.slides.theme/overridetheme/initformatschemefrom)(IFormatScheme) | FormatScheme را با شیء جدید برای overriding FormatScheme از InheritedTheme مقداردهی اولیه می‌کند. |
+| [InitFormatSchemeFromInherited](../../aspose.slides.theme/overridetheme/initformatschemefrominherited)() | FormatScheme را با شیء جدید برای overriding FormatScheme از InheritedTheme مقداردهی اولیه می‌کند و داده‌های این شیء جدید را با داده‌های FormatScheme از InheritedTheme مقداردهی می‌کند. |
 
-### مراجع
+### موارد مرتبط
 
 * کلاس [Theme](../theme)
-* اینترفیس [IOverrideTheme](../ioverridetheme)
+* رابط [IOverrideTheme](../ioverridetheme)
 * فضای نام [Aspose.Slides.Theme](../../aspose.slides.theme)
-* اسمبلی [Aspose.Slides](../../)
+* مجمع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

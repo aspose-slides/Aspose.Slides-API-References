@@ -1,14 +1,14 @@
 ---
 title: MasterSlideCollection
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Rappresenta una raccolta di diapositive master.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Rappresenta una collezione di master slide.
 type: docs
-weight: 8040
+weight: 8060
 url: /it/aspose.slides/masterslidecollection/
 ---
 ## MasterSlideCollection classe
 
-Rappresenta una raccolta di diapositive master.
+Rappresenta una collezione di master slide.
 
 ```csharp
 public sealed class MasterSlideCollection : DomObject<Presentation>, IMasterSlideCollection
@@ -18,22 +18,22 @@ public sealed class MasterSlideCollection : DomObject<Presentation>, IMasterSlid
 
 | Nome | Descrizione |
 | --- | --- |
-| [Count](../../aspose.slides/masterslidecollection/count) { get; } | Restituisce il numero di elementi effettivamente contenuti nella raccolta. Solo lettura Int32. |
-| [IsSynchronized](../../aspose.slides/masterslidecollection/issynchronized) { get; } | Restituisce un valore che indica se l'accesso alla raccolta è sincronizzato (thread-safe). Solo lettura Boolean. |
-| [Item](../../aspose.slides/masterslidecollection/item) { get; } | Restituisce l'elemento all'indice specificato. Solo lettura [`MasterSlide`](../masterslide). |
-| [SyncRoot](../../aspose.slides/masterslidecollection/syncroot) { get; } | Restituisce una radice di sincronizzazione. Solo lettura Object. |
+| [Count](../../aspose.slides/masterslidecollection/count) { get; } | Ottiene il numero di elementi effettivamente contenuti nella collezione. Solo lettura Int32. |
+| [IsSynchronized](../../aspose.slides/masterslidecollection/issynchronized) { get; } | Restituisce un valore che indica se l'accesso alla collezione è sincronizzato (thread-safe). Solo lettura Boolean. |
+| [Item](../../aspose.slides/masterslidecollection/item) { get; } | Ottiene l'elemento all'indice specificato. Solo lettura [`MasterSlide`](../masterslide). |
+| [SyncRoot](../../aspose.slides/masterslidecollection/syncroot) { get; } | Restituisce la radice di sincronizzazione. Solo lettura Object. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [AddClone](../../aspose.slides/masterslidecollection/addclone)(IMasterSlide) | Aggiunge una copia di una diapositiva master specificata alla fine della raccolta. Anche le diapositive layout collegate verranno copiate. |
-| [CopyTo](../../aspose.slides/masterslidecollection/copyto)(Array, int) | Copia tutti gli elementi dalla raccolta nell'array specificato. |
-| [GetEnumerator](../../aspose.slides/masterslidecollection/getenumerator)() | Restituisce un enumeratore che itera attraverso la raccolta. |
-| [InsertClone](../../aspose.slides/masterslidecollection/insertclone)(int, IMasterSlide) | Inserisce una copia di una diapositiva master specificata nella posizione specificata della raccolta. Anche le diapositive layout collegate verranno copiate. |
-| [Remove](../../aspose.slides/masterslidecollection/remove)(IMasterSlide) | Rimuove la prima occorrenza di un oggetto specifico dalla raccolta. |
-| [RemoveAt](../../aspose.slides/masterslidecollection/removeat)(int) | Rimuove l'elemento all'indice specificato della raccolta. |
-| [RemoveUnused](../../aspose.slides/masterslidecollection/removeunused)(bool) | Rimuove le diapositive master inutilizzate. |
+| [AddClone](../../aspose.slides/masterslidecollection/addclone)(IMasterSlide) | Aggiunge una copia di una master slide specificata alla fine della collezione. Anche le slide di layout collegate verranno copiate. |
+| [CopyTo](../../aspose.slides/masterslidecollection/copyto)(Array, int) | Copia tutti gli elementi dalla collezione nell'array specificato. |
+| [GetEnumerator](../../aspose.slides/masterslidecollection/getenumerator)() | Restituisce un enumeratore che itera attraverso la collezione. |
+| [InsertClone](../../aspose.slides/masterslidecollection/insertclone)(int, IMasterSlide) | Inserisce una copia di una master slide specificata nella posizione indicata della collezione. Anche le slide di layout collegate verranno copiate. |
+| [Remove](../../aspose.slides/masterslidecollection/remove)(IMasterSlide) | Rimuove la prima occorrenza di un oggetto specifico dalla collezione. |
+| [RemoveAt](../../aspose.slides/masterslidecollection/removeat)(int) | Rimuove l'elemento all'indice specificato della collezione. |
+| [RemoveUnused](../../aspose.slides/masterslidecollection/removeunused)(bool) | Rimuove le master slide non utilizzate. |
 
 ### Vedi anche
 

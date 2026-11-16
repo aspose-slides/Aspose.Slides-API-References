@@ -1,14 +1,14 @@
 ---
 title: IAlphaModulateEffectiveData
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: วัตถุคงที่ที่เป็นตัวแทนของเอฟเฟกต์ Alpha Modulate. ค่าความโปร่งใส alpha ของเอฟเฟกต์จะถูกคูณด้วยเปอร์เซ็นต์คงที่. คอนเทนเนอร์เอฟเฟกต์ระบุเอฟเฟกต์ที่มีค่าความโปร่งใสให้ทำการปรับเปลี่ยน.
+description: วัตถุที่ไม่เปลี่ยนแปลงซึ่งแสดงถึงเอฟเฟกต์ Alpha Modulate. ค่าความทึบของ alpha จะถูกคูณด้วยเปอร์เซ็นต์คงที่. ตัวคอนเทนเนอร์ของเอฟเฟกต์ระบุเอฟเฟกต์ที่มีค่า alpha เพื่อทำการปรับเปลี่ยน.
 type: docs
-weight: 3110
+weight: 3130
 url: /th/aspose.slides.effects/ialphamodulateeffectivedata/
 ---
-## IAlphaModulateEffectiveData อินเทอร์เฟซ
+## IAlphaModulateEffectiveData อินเตอร์เฟซ
 
-วัตถุคงที่ที่เป็นตัวแทนของเอฟเฟกต์ Alpha Modulate. ค่าความโปร่งใส (alpha) ของเอฟเฟกต์จะถูกคูณด้วยเปอร์เซ็นต์คงที่. คอนเทนเนอร์เอฟเฟกต์ระบุเอฟเฟกต์ที่มีค่าความโปร่งใสให้ทำการปรับเปลี่ยน.
+วัตถุที่ไม่เปลี่ยนแปลงที่แสดงถึงเอฟเฟกต์ Alpha Modulate. ค่าตัวอักษร alpha (ความทึบ) จะถูกคูณด้วยเปอร์เซ็นต์คงที่. ตัวคอนเทนเนอร์ของเอฟเฟกต์ระบุเอฟเฟกต์ที่มีค่า alpha เพื่อทำการปรับเปลี่ยน.
 
 ```csharp
 public interface IAlphaModulateEffectiveData : IEffectEffectiveData
@@ -18,11 +18,11 @@ public interface IAlphaModulateEffectiveData : IEffectEffectiveData
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphamodulateeffectivedata/asieffecteffectivedata) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IEffectEffectiveData พื้นฐาน. อ่านอย่างเดียว [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphamodulateeffectivedata/asieffecteffectivedata) { get; } | อนุญาตให้ดึง IEffectEffectiveData อินเตอร์เฟซพื้นฐาน. อ่านอย่างเดียว [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
 ### ดูเพิ่มเติม
 
-* อินเทอร์เฟซ [IEffectEffectiveData](../ieffecteffectivedata)
+* อินเตอร์เฟซ [IEffectEffectiveData](../ieffecteffectivedata)
 * เนมสเปซ [Aspose.Slides.Effects](../../aspose.slides.effects)
 * แอสเซมบลี [Aspose.Slides](../../)
 

@@ -3,7 +3,7 @@ title: LightRig
 second_title: Aspose.Sildes .NET API 参考
 description: 表示 LightRig。
 type: docs
-weight: 7690
+weight: 7710
 url: /zh/aspose.slides/lightrig/
 ---
 ## LightRig 类
@@ -18,18 +18,18 @@ public sealed class LightRig : PVIObject, ILightRig
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基类 IPresentationComponent 接口。只读 [`IPresentationComponent`](../ipresentationcomponent)。 |
-| [Direction](../../aspose.slides/lightrig/direction) { get; set; } | 光线方向。读写 [`LightingDirection`](../lightingdirection)。 |
-| [LightType](../../aspose.slides/lightrig/lighttype) { get; set; } | 表示可应用于形状的预设灯光方向。LightRig 表示相对于 3D 场景以特定方式定向的一组灯光。读写 [`LightRigPresetType`](../lightrigpresettype)。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基 IPresentationComponent 接口。只读 [`IPresentationComponent`](../ipresentationcomponent)。 |
+| [Direction](../../aspose.slides/lightrig/direction) { get; set; } | 光方向。读/写 [`LightingDirection`](../lightingdirection)。 |
+| [LightType](../../aspose.slides/lightrig/lighttype) { get; set; } | 表示可应用于形状的预设灯光。Light rig 表示相对于 3D 场景特定方向排列的一组灯光。读/写 [`LightRigPresetType`](../lightrigpresettype)。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | 与指定对象进行比较。 |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | 与指定对象比较。 |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | 返回哈希码。 |
-| [GetRotation](../../aspose.slides/lightrig/getrotation)() | 通过使用纬度坐标、经度坐标以及围绕轴的旋转来定义旋转。返回数组的第一个元素为纬度，第二个为经度，第三个为旋转。如果未定义旋转，则返回 null。 |
-| [SetRotation](../../aspose.slides/lightrig/setrotation)(float, float, float) | 通过使用纬度坐标、经度坐标以及围绕轴的旋转来定义旋转。如果任意坐标值为 float.NaN，则旋转未定义。 |
+| [GetRotation](../../aspose.slides/lightrig/getrotation)() | 旋转通过使用纬度坐标、经度坐标以及围绕轴的旋转来定义，返回数组的第一个元素为纬度，第二个为经度，第三个为旋转。如未定义旋转，则返回 null。 |
+| [SetRotation](../../aspose.slides/lightrig/setrotation)(float, float, float) | 旋转通过使用纬度坐标、经度坐标以及围绕轴的旋转来定义。如果任意坐标值为 float.NaN，则所有旋转均未定义。 |
 
 ### 另见
 

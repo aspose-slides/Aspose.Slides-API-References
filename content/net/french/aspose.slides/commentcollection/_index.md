@@ -1,14 +1,14 @@
 ---
 title: CommentCollection
-second_title: Référence de l'API Aspose.Sildes pour .NET
+second_title: Aspose.Sildes pour .NET Référence de l'API
 description: Représente une collection de commentaires d'un auteur.
 type: docs
-weight: 2650
+weight: 2670
 url: /fr/aspose.slides/commentcollection/
 ---
 ## classe CommentCollection
 
-Represents a collection of comments of one author.
+Représente une collection de commentaires d'un auteur.
 
 ```csharp
 public sealed class CommentCollection : DomObject<CommentAuthor>, ICommentCollection
@@ -31,7 +31,7 @@ public sealed class CommentCollection : DomObject<CommentAuthor>, ICommentCollec
 | [AddModernComment](../../aspose.slides/commentcollection/addmoderncomment)(string, ISlide, IShape, PointF, DateTime) | Ajoute un nouveau commentaire moderne à la fin d'une collection. |
 | [Clear](../../aspose.slides/commentcollection/clear)() | Supprime tous les commentaires d'une collection. |
 | [CopyTo](../../aspose.slides/commentcollection/copyto)(Array, int) | Copie tous les éléments de la collection dans le tableau spécifié. |
-| [FindCommentByIdx](../../aspose.slides/commentcollection/findcommentbyidx)(int) | Trouve un commentaire dans la collection par indice. |
+| [FindCommentByIdx](../../aspose.slides/commentcollection/findcommentbyidx)(int) | Trouve un commentaire dans la collection par index. |
 | [GetEnumerator](../../aspose.slides/commentcollection/getenumerator)() | Renvoie un énumérateur qui parcourt la collection. |
 | [InsertComment](../../aspose.slides/commentcollection/insertcomment)(int, string, ISlide, PointF, DateTime) | Insère un nouveau commentaire dans une collection à l'index spécifié. |
 | [InsertModernComment](../../aspose.slides/commentcollection/insertmoderncomment)(int, string, ISlide, IShape, PointF, DateTime) | Insère un nouveau commentaire moderne dans une collection à l'index spécifié. |

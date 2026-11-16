@@ -1,14 +1,14 @@
 ---
 title: MarkerStyleType
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Menentukan bentuk penanda pada titik data grafik.
+description: Menentukan bentuk marker pada data point chart.
 type: docs
-weight: 2340
+weight: 2360
 url: /id/aspose.slides.charts/markerstyletype/
 ---
-## enumerasi MarkerStyleType
+## MarkerStyleType enumerasi
 
-Menentukan bentuk penanda pada titik data grafik.
+Menentukan bentuk marker pada data point chart.
 
 ```csharp
 public enum MarkerStyleType
@@ -19,17 +19,17 @@ public enum MarkerStyleType
 | Nama | Nilai | Deskripsi |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
-| Circle | `0` | Menentukan bahwa sebuah lingkaran akan digambar pada setiap titik data. |
-| Dash | `1` | Menentukan bahwa sebuah garis putus akan digambar pada setiap titik data. |
-| Diamond | `2` | Menentukan bahwa sebuah belah ketupat akan digambar pada setiap titik data. |
-| Dot | `3` | Menentukan bahwa sebuah titik akan digambar pada setiap titik data. |
-| None | `4` | Menentukan bahwa tidak ada yang akan digambar pada setiap titik data. |
-| Picture | `5` | Menentukan bahwa sebuah gambar akan digambar pada setiap titik data. |
-| Plus | `6` | Menentukan bahwa sebuah tanda plus akan digambar pada setiap titik data. |
-| Square | `7` | Menentukan bahwa sebuah kotak akan digambar pada setiap titik data. |
-| Star | `8` | Menentukan bahwa sebuah bintang akan digambar pada setiap titik data. |
-| Triangle | `9` | Menentukan bahwa sebuah segitiga akan digambar pada setiap titik data. |
-| X | `10` | Menentukan bahwa sebuah X akan digambar pada setiap titik data. |
+| Circle | `0` | Menentukan bahwa sebuah lingkaran akan digambar pada setiap data point. |
+| Dash | `1` | Menentukan bahwa sebuah garis putus-putus akan digambar pada setiap data point. |
+| Diamond | `2` | Menentukan bahwa sebuah belah ketupat akan digambar pada setiap data point. |
+| Dot | `3` | Menentukan bahwa sebuah titik akan digambar pada setiap data point. |
+| None | `4` | Menentukan bahwa tidak ada yang akan digambar pada setiap data point. |
+| Picture | `5` | Menentukan bahwa sebuah gambar akan digambar pada setiap data point. |
+| Plus | `6` | Menentukan bahwa sebuah tanda plus akan digambar pada setiap data point. |
+| Square | `7` | Menentukan bahwa sebuah persegi akan digambar pada setiap data point. |
+| Star | `8` | Menentukan bahwa sebuah bintang akan digambar pada setiap data point. |
+| Triangle | `9` | Menentukan bahwa sebuah segitiga akan digambar pada setiap data point. |
+| X | `10` | Menentukan bahwa sebuah X akan digambar pada setiap data point. |
 
 ### Lihat Juga
 

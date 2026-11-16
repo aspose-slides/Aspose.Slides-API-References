@@ -1,9 +1,9 @@
 ---
 title: IRowCollection
-second_title: Aspose.Sildes for .NET API 參考文件
+second_title: Aspose.Sildes .NET API 參考
 description: 表示表格列集合。
 type: docs
-weight: 6860
+weight: 6880
 url: /zh-hant/aspose.slides/irowcollection/
 ---
 ## IRowCollection 介面
@@ -24,11 +24,11 @@ public interface IRowCollection : IGenericCollection<IRow>
 
 | 名稱 | 說明 |
 | --- | --- |
-| [AddClone](../../aspose.slides/irowcollection/addclone)(IRow, bool) | 建立指定範本列的副本，並插入表格的底部。 |
-| [InsertClone](../../aspose.slides/irowcollection/insertclone)(int, IRow, bool) | 建立指定範本列的副本，並插入表格的指定位置。 |
-| [RemoveAt](../../aspose.slides/irowcollection/removeat)(int, bool) | 從表格中移除指定位置的列。 |
+| [AddClone](../../aspose.slides/irowcollection/addclone)(IRow, bool) | 建立指定範本列的副本，並將其插入表格的底部。 |
+| [InsertClone](../../aspose.slides/irowcollection/insertclone)(int, IRow, bool) | 建立指定範本列的副本，並將其插入表格的指定位置。 |
+| [RemoveAt](../../aspose.slides/irowcollection/removeat)(int, bool) | 從表格的指定位置移除列。 |
 
-### 另請參閱
+### 相關參考
 
 * 介面 [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * 介面 [IRow](../irow)

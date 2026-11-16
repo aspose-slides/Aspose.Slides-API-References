@@ -1,9 +1,9 @@
 ---
 title: VbaProject
-second_title: Aspose.Sildes pour .NET Référence API
+second_title: Aspose.Sildes pour .NET Référence de l'API
 description: Représente un projet VBA avec des macros de présentation.
 type: docs
-weight: 11650
+weight: 11670
 url: /fr/aspose.slides.vba/vbaproject/
 ---
 ## VbaProject classe
@@ -16,14 +16,14 @@ public sealed class VbaProject : IVbaProject
 
 ## Constructeurs
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
-| [VbaProject](vbaproject#constructor)() | Ce constructeur crée un nouveau projet VBA à partir de zéro. Le projet sera créé avec le jeu de caractères 1252 Windows Latin 1 (ANSI). |
+| [VbaProject](vbaproject#constructor)() | Ce constructeur crée un nouveau projet VBA à partir de zéro. Le projet sera créé avec la page de code 1252 Windows Latin 1 (ANSI) |
 | [VbaProject](vbaproject#constructor_1)(byte[]) | Ce constructeur charge le projet VBA à partir de la représentation binaire du conteneur OLE. |
 
 ## Propriétés
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
 | [IsPasswordProtected](../../aspose.slides.vba/vbaproject/ispasswordprotected) { get; } | Indique si le VBAProject est protégé par un mot de passe pour afficher les propriétés du projet. Lecture seule Boolean. |
 | [Modules](../../aspose.slides.vba/vbaproject/modules) { get; } | Renvoie la liste de tous les modules contenus dans le projet VBA. Lecture seule [`IVbaModuleCollection`](../ivbamodulecollection). |
@@ -32,7 +32,7 @@ public sealed class VbaProject : IVbaProject
 
 ## Méthodes
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
 | [ToBinary](../../aspose.slides.vba/vbaproject/tobinary)() | Renvoie la représentation binaire du projet VBA sous forme de conteneur OLE |
 

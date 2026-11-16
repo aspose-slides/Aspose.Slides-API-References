@@ -1,14 +1,14 @@
 ---
 title: IGraphicalObject
-second_title: مرجع API Aspose.Sildes لـ .NET
-description: يمثل كائنًا رسوميًا مجردًا.
+second_title: Aspose.Sildes لمرجع API .NET
+description: يمثل كائنًا رسوميًا تجريديًا.
 type: docs
-weight: 6060
+weight: 6080
 url: /ar/aspose.slides/igraphicalobject/
 ---
-## واجهة IGraphicalObject
+## IGraphicalObject واجهة
 
-يمثل كائنًا رسوميًا مجردًا.
+يمثل كائنًا رسوميًا تجريديًا.
 
 ```csharp
 public interface IGraphicalObject : IShape
@@ -18,11 +18,11 @@ public interface IGraphicalObject : IShape
 
 | الاسم | الوصف |
 | --- | --- |
-| [AsIShape](../../aspose.slides/igraphicalobject/asishape) { get; } | يسمح بالحصول على واجهة IShape الأساسية. قراءة فقط [`IShape`](../ishape). |
-| [GraphicalObjectLock](../../aspose.slides/igraphicalobject/graphicalobjectlock) { get; } | يرجع أقفال الشكل. قراءة فقط [`IGraphicalObjectLock`](../igraphicalobjectlock). |
-| [ShapeLock](../../aspose.slides/igraphicalobject/shapelock) { get; } | يرجع أقفال الشكل. قراءة فقط [`IGraphicalObjectLock`](../igraphicalobjectlock). |
+| [AsIShape](../../aspose.slides/igraphicalobject/asishape) { get; } | يسمح بالحصول على واجهة IShape الأساسية. للقراءة فقط [`IShape`](../ishape). |
+| [GraphicalObjectLock](../../aspose.slides/igraphicalobject/graphicalobjectlock) { get; } | يعيد أقفال الشكل. للقراءة فقط [`IGraphicalObjectLock`](../igraphicalobjectlock). |
+| [ShapeLock](../../aspose.slides/igraphicalobject/shapelock) { get; } | يعيد أقفال الشكل. للقراءة فقط [`IGraphicalObjectLock`](../igraphicalobjectlock). |
 
-### انظر أيضًا
+### انظر أيضا
 
 * واجهة [IShape](../ishape)
 * مساحة الاسم [Aspose.Slides](../../aspose.slides)

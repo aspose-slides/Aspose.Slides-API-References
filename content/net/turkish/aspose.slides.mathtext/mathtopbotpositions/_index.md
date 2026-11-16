@@ -1,14 +1,14 @@
 ---
 title: MathTopBotPositions
-second_title: Aspose.Sildes .NET için API Referansı
-description: Üst/alt konumları enumu
+second_title: Aspose.Sildes için .NET API Referansı
+description: Üst/alt konumları enumerasyonu
 type: docs
-weight: 9040
+weight: 9060
 url: /tr/aspose.slides.mathtext/mathtopbotpositions/
 ---
-## MathTopBotPositions enum
+## MathTopBotPositions enumerasyonu
 
-Üst/alt konumları enumu
+Üst/alt konumları enumerasyonu
 
 ```csharp
 public enum MathTopBotPositions
@@ -18,7 +18,7 @@ public enum MathTopBotPositions
 
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
-| NotDefined | `0` | Tanımlanmamış |
+| NotDefined | `0` | Tanımlı değil |
 | Top | `1` | Üst |
 | Bottom | `2` | Alt |
 

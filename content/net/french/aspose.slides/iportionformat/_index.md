@@ -1,14 +1,14 @@
 ---
 title: IPortionFormat
-second_title: Référence API Aspose.Sildes pour .NET
-description: Cette classe contient les propriétés de mise en forme des parties de texte. Contrairement à IPortionFormatEffectiveData./iportionformateffectivedata, toutes les propriétés de cette classe sont modifiables.
+second_title: Aspose.Sildes pour .NET Référence de l'API
+description: Cette classe contient les propriétés de formatage de portion de texte. Contrairement à IPortionFormatEffectiveData./iportionformateffectivedata toutes les propriétés de cette classe sont modifiables.
 type: docs
-weight: 6730
+weight: 6750
 url: /fr/aspose.slides/iportionformat/
 ---
-## interface IPortionFormat
+## IPortionFormat interface
 
-Cette classe contient les propriétés de mise en forme des parties de texte. Contrairement à [`IPortionFormatEffectiveData`](../iportionformateffectivedata), toutes les propriétés de cette classe sont modifiables.
+Cette classe contient les propriétés de formatage de portion de texte. Contrairement à [`IPortionFormatEffectiveData`](../iportionformateffectivedata), toutes les propriétés de cette classe sont modifiables.
 
 ```csharp
 public interface IPortionFormat : IBasePortionFormat, IHyperlinkContainer
@@ -19,21 +19,21 @@ public interface IPortionFormat : IBasePortionFormat, IHyperlinkContainer
 | Nom | Description |
 | --- | --- |
 | [AsIBasePortionFormat](../../aspose.slides/iportionformat/asibaseportionformat) { get; } | Renvoie l'interface IBasePortionFormat. Lecture seule [`IBasePortionFormat`](../ibaseportionformat). |
-| [AsIHyperlinkContainer](../../aspose.slides/iportionformat/asihyperlinkcontainer) { get; } | Permet d'obtenir l'interface de base IHyperlinkContainer. Lecture seule [`IHyperlinkContainer`](../ihyperlinkcontainer). |
+| [AsIHyperlinkContainer](../../aspose.slides/iportionformat/asihyperlinkcontainer) { get; } | Permet d’obtenir l'interface de base IHyperlinkContainer. Lecture seule [`IHyperlinkContainer`](../ihyperlinkcontainer). |
 | [BookmarkId](../../aspose.slides/iportionformat/bookmarkid) { get; set; } | Renvoie ou définit l'identifiant du signet. Lecture/écriture String. |
-| [SmartTagClean](../../aspose.slides/iportionformat/smarttagclean) { get; set; } | Détermine si la balise intelligente doit être nettoyée. Aucun héritage appliqué. Lecture/écriture Boolean. |
+| [SmartTagClean](../../aspose.slides/iportionformat/smarttagclean) { get; set; } | Détermine si la smart tag doit être nettoyée. Aucun héritage appliqué. Lecture/écriture Boolean. |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
-| [GetEffective](../../aspose.slides/iportionformat/geteffective)() | Obtient les données de mise en forme de la portion effective avec l'héritage appliqué. |
+| [GetEffective](../../aspose.slides/iportionformat/geteffective)() | Obtient les données de formatage de portion effectives avec l'héritage appliqué. |
 
 ### Remarques
 
-Cette classe est utilisée pour renvoyer et manipuler les propriétés de mise en forme des parties de texte définies pour la portion particulière. Cela signifie qu'aucun héritage n'est appliqué lors de la récupération des valeurs, de sorte que dans la plupart des cas vous obtiendrez des valeurs signifiant « indéfini ».
+Cette classe est utilisée pour renvoyer et manipuler les propriétés de formatage de portion de texte définies pour la portion particulière. Cela signifie qu'aucun héritage n'est appliqué lors de l'obtention des valeurs, de sorte que dans la plupart des cas vous obtiendrez des valeurs signifiant « undefined ».
 
-Afin d'obtenir les valeurs effectives des paramètres de mise en forme, y compris celles héritées, vous devez utiliser la méthode [`GetEffective`](./geteffective) qui renvoie une instance [`IPortionFormatEffectiveData`](../iportionformateffectivedata).
+Afin d'obtenir les valeurs effectives des paramètres de formatage, y compris celles héritées, vous devez utiliser la méthode [`GetEffective`](./geteffective) qui renvoie une instance [`IPortionFormatEffectiveData`](../iportionformateffectivedata).
 
 ### Voir aussi
 

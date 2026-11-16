@@ -3,7 +3,7 @@ title: IControlCollection
 second_title: Aspose.Sildes pro .NET API Reference
 description: Kolekce ovládacích prvků ActiveX.
 type: docs
-weight: 5640
+weight: 5660
 url: /cs/aspose.slides/icontrolcollection/
 ---
 ## IControlCollection rozhraní

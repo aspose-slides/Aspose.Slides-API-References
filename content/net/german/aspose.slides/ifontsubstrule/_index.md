@@ -1,14 +1,14 @@
 ---
 title: IFontSubstRule
-second_title: Aspose.Sildes für .NET API Referenz
-description: Stellt Informationen zur Schriftart-Substitution bereit
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Stellt Informationen zur Substitution von Schriftarten bereit
 type: docs
-weight: 5880
+weight: 5900
 url: /de/aspose.slides/ifontsubstrule/
 ---
 ## IFontSubstRule Schnittstelle
 
-Stellt Informationen zur Schriftart-Substitution bereit
+Stellt Informationen zur Substitution von Schriftarten bereit
 
 ```csharp
 public interface IFontSubstRule
@@ -18,9 +18,9 @@ public interface IFontSubstRule
 
 | Name | Beschreibung |
 | --- | --- |
-| [DestFont](../../aspose.slides/ifontsubstrule/destfont) { get; } | Font zur Verwendung bei der Substitution Schreibgeschützt [`IFontData`](../ifontdata). |
+| [DestFont](../../aspose.slides/ifontsubstrule/destfont) { get; } | Font zur Verwendung bei Substitution Schreibgeschützt [`IFontData`](../ifontdata). |
 | [ReplaceFontCondition](../../aspose.slides/ifontsubstrule/replacefontcondition) { get; } | Regel, die für die Substitution angewendet wird Schreibgeschützt [`FontSubstCondition`](../fontsubstcondition). |
-| [SourceFont](../../aspose.slides/ifontsubstrule/sourcefont) { get; } | Font, das substituiert werden soll Schreibgeschützt [`IFontData`](../ifontdata). |
+| [SourceFont](../../aspose.slides/ifontsubstrule/sourcefont) { get; } | Font zum Substituieren Schreibgeschützt [`IFontData`](../ifontdata). |
 
 ### Siehe auch
 

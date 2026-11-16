@@ -1,14 +1,14 @@
 ---
 title: IAdjustValueCollection
-second_title: Aspose.Sildes для .NET, справка API
+second_title: Aspose.Sildes для .NET справочник API
 description: Представляет коллекцию настроек фигур.
 type: docs
-weight: 5190
+weight: 5210
 url: /ru/aspose.slides/iadjustvaluecollection/
 ---
-## IAdjustValueCollection interface
+## IAdjustValueCollection интерфейс
 
-Представляет коллекцию настроек фигуры.
+Представляет коллекцию настроек формы.
 
 ```csharp
 public interface IAdjustValueCollection : ICollection

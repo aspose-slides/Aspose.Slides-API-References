@@ -1,14 +1,14 @@
 ---
 title: IChartLinesFormat
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt Format-Eigenschaften für Gitternetzlinien dar.
+description: Stellt die Format-Eigenschaften von Gitternetzlinien dar.
 type: docs
-weight: 1890
+weight: 1910
 url: /de/aspose.slides.charts/ichartlinesformat/
 ---
 ## IChartLinesFormat Schnittstelle
 
-Stellt Format-Eigenschaften für Gitternetzlinien dar.
+Stellt die Format-Eigenschaften von Gitternetzlinien dar.
 
 ```csharp
 public interface IChartLinesFormat
@@ -18,8 +18,8 @@ public interface IChartLinesFormat
 
 | Name | Beschreibung |
 | --- | --- |
-| [Effect](../../aspose.slides.charts/ichartlinesformat/effect) { get; } | Gibt die für eine Diagrammlinie verwendeten Effekte zurück. Schreibgeschützt [`IEffectFormat`](../../aspose.slides/ieffectformat). |
-| [Line](../../aspose.slides.charts/ichartlinesformat/line) { get; } | Gibt die Linienstil-Eigenschaften einer Diagrammlinie zurück. Schreibgeschützt [`ILineFormat`](../../aspose.slides/ilineformat). |
+| [Effect](../../aspose.slides.charts/ichartlinesformat/effect) { get; } | Gibt die für eine Diagrammlinie verwendeten Effekte zurück. Nur lesbar [`IEffectFormat`](../../aspose.slides/ieffectformat). |
+| [Line](../../aspose.slides.charts/ichartlinesformat/line) { get; } | Gibt die Linienstil-Eigenschaften einer Diagrammlinie zurück. Nur lesbar [`ILineFormat`](../../aspose.slides/ilineformat). |
 
 ### Siehe auch
 

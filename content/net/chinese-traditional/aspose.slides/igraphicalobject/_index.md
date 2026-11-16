@@ -1,14 +1,14 @@
 ---
 title: IGraphicalObject
-second_title: Aspose.Sildes for .NET API 參考
+second_title: Aspose.Sildes .NET API 參考
 description: 表示抽象圖形物件。
 type: docs
-weight: 6060
+weight: 6080
 url: /zh-hant/aspose.slides/igraphicalobject/
 ---
 ## IGraphicalObject 介面
 
-Represents abstract graphical object.
+表示抽象圖形物件。
 
 ```csharp
 public interface IGraphicalObject : IShape
@@ -19,10 +19,10 @@ public interface IGraphicalObject : IShape
 | 名稱 | 說明 |
 | --- | --- |
 | [AsIShape](../../aspose.slides/igraphicalobject/asishape) { get; } | 允許取得基礎 IShape 介面。唯讀 [`IShape`](../ishape)。 |
-| [GraphicalObjectLock](../../aspose.slides/igraphicalobject/graphicalobjectlock) { get; } | 傳回形狀的鎖定。唯讀 [`IGraphicalObjectLock`](../igraphicalobjectlock)。 |
-| [ShapeLock](../../aspose.slides/igraphicalobject/shapelock) { get; } | 傳回形狀的鎖定。唯讀 [`IGraphicalObjectLock`](../igraphicalobjectlock)。 |
+| [GraphicalObjectLock](../../aspose.slides/igraphicalobject/graphicalobjectlock) { get; } | 返回形狀的鎖定。唯讀 [`IGraphicalObjectLock`](../igraphicalobjectlock)。 |
+| [ShapeLock](../../aspose.slides/igraphicalobject/shapelock) { get; } | 返回形狀的鎖定。唯讀 [`IGraphicalObjectLock`](../igraphicalobjectlock)。 |
 
-### 另見
+### 另請參閱
 
 * 介面 [IShape](../ishape)
 * 命名空間 [Aspose.Slides](../../aspose.slides)

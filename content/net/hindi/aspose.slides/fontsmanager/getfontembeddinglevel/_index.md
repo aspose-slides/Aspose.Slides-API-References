@@ -1,14 +1,14 @@
 ---
 title: GetFontEmbeddingLevel
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: दिए गए बाइट ऐरे और फ़ॉन्ट नाम से फ़ॉन्ट के एम्बेडिंग स्तर को निर्धारित करता है।
+description: दिए गए बाइट एरे और फ़ॉन्ट नाम से फ़ॉन्ट के एंबेडिंग स्तर को निर्धारित करता है।
 type: docs
-weight: 60
+weight: 70
 url: /hi/aspose.slides/fontsmanager/getfontembeddinglevel/
 ---
 ## FontsManager.GetFontEmbeddingLevel मेथड
 
-दिए गए बाइट ऐरे और फ़ॉन्ट नाम से फ़ॉन्ट के एम्बेडिंग स्तर को निर्धारित करता है।
+दिए गए बाइट एरे और फ़ॉन्ट नाम से फ़ॉन्ट के एंबेडिंग स्तर को निर्धारित करता है।
 
 ```csharp
 public EmbeddingLevel GetFontEmbeddingLevel(byte[] fontBytes, string fontName)
@@ -16,7 +16,7 @@ public EmbeddingLevel GetFontEmbeddingLevel(byte[] fontBytes, string fontName)
 
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| fontBytes | Byte[] | फ़ॉन्ट डेटा वाला बाइट ऐरे। |
+| fontBytes | Byte[] | फ़ॉन्ट डेटा वाले बाइट एरे। |
 | fontName | String | फ़ॉन्ट का नाम। |
 
 ### रिटर्न वैल्यू
@@ -25,7 +25,7 @@ public EmbeddingLevel GetFontEmbeddingLevel(byte[] fontBytes, string fontName)
 
 ### अपवाद
 
-| अपवाद | स्थिति |
+| अपवाद | शर्त |
 | --- | --- |
 | ArgumentNullException | जब *fontBytes* null हो तो फेंका जाता है। |
 
@@ -35,10 +35,10 @@ public EmbeddingLevel GetFontEmbeddingLevel(byte[] fontBytes, string fontName)
 [C#]
 using (Presentation pres = new Presentation(pptxFileName))
 {
-    // प्रेज़ेंटेशन में उपयोग किए गए सभी फ़ॉन्ट प्राप्त करें
+    // प्रस्तुति में उपयोग किए गए सभी फ़ॉन्ट प्राप्त करें
     IFontData[] fontDatas = pres.FontsManager.GetFonts();
 
-    // प्रेज़ेंटेशन में पहले फ़ॉन्ट की रेगुलर शैली का बाइट ऐरे प्राप्त करें
+    // प्रस्तुति में पहली फ़ॉन्ट की नियमित शैली का बाइट एरे प्राप्त करें
     byte[] bytes = pres.FontsManager.GetFontBytes(fontDatas[0], FontStyle.Regular);
 
     // फ़ॉन्ट के एम्बेडिंग स्तर का निर्धारण करें

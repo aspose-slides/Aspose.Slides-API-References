@@ -1,14 +1,14 @@
 ---
 title: AddEmbeddedFont
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Hozzáadja a beágyazott betűkészletet. Vegye figyelembe, hogy a betűkészletek többsége szerzői jogvédelem alatt áll. Először keresse meg a betűkészlet licencét, és ellenőrizze, hogy szabadon áthelyezhető-e egy másik gépre. ArgumentException dobható, ha a betűkészlet adatai null értékűek, vagy a betűkészlet már be van ágyazva.
+second_title: Aspose.Sildes .NET API referenciája
+description: Hozzáadja a beágyazott betűtípust. Tartsa szem előtt, hogy a legtöbb betűtípus szerzői jogvédelem alatt áll, amikor betűtípusokat másol. Először keresse meg a betűtípus licencét, és ellenőrizze, hogy szabadon átvihető-e egy másik gépre. ArgumentException dobható, ha a betűtípus adat null, vagy a betűtípus már be van ágyazva.
 type: docs
-weight: 30
+weight: 40
 url: /hu/aspose.slides/ifontsmanager/addembeddedfont/
 ---
 ## AddEmbeddedFont(IFontData, EmbedFontCharacters) {#addembeddedfont}
 
-Az beágyazott betűkészletet hozzáadja. Vegye figyelembe, hogy a legtöbb betűkészlet szerzői jogvédelem alatt áll. Először keresse meg a betűkészlet licencét, és ellenőrizze, hogy szabadon áthelyezhető-e egy másik gépre. ArgumentException dobható, ha a betűkészlet adatai null értékűek, vagy a betűkészlet már be van ágyazva.
+Hozzáadja a beágyazott betűtípust. Tartsa szem előtt, hogy a legtöbb betűtípus szerzői jogvédelem alatt áll, amikor betűtípusokat másol. Először keresse meg a betűtípus licencét, és ellenőrizze, hogy szabadon átvihető-e egy másik gépre. ArgumentException dobható, ha a betűtípus adat null, vagy a betűtípus már be van ágyazva.
 
 ```csharp
 public void AddEmbeddedFont(IFontData fontData, EmbedFontCharacters embedFontRule)
@@ -16,8 +16,8 @@ public void AddEmbeddedFont(IFontData fontData, EmbedFontCharacters embedFontRul
 
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
-| fontData | IFontData | Betűkészlet adat objektum [`IFontData`](../../ifontdata) |
-| embedFontRule | EmbedFontCharacters | Beágyazott betűkészlet szabály [`EmbedFontCharacters`](../../../aspose.slides.export/embedfontcharacters) |
+| fontData | IFontData | Font data object [`IFontData`](../../ifontdata) |
+| embedFontRule | EmbedFontCharacters | Embedded font rule [`EmbedFontCharacters`](../../../aspose.slides.export/embedfontcharacters) |
 
 ### Lásd még
 
@@ -31,7 +31,7 @@ public void AddEmbeddedFont(IFontData fontData, EmbedFontCharacters embedFontRul
 
 ## AddEmbeddedFont(byte[], EmbedFontCharacters) {#addembeddedfont_1}
 
-Az beágyazott betűkészletet hozzáadja. Vegye figyelembe, hogy a legtöbb betűkészlet szerzői jogvédelem alatt áll. Először keresse meg a betűkészlet licencét, és ellenőrizze, hogy szabadon áthelyezhető-e egy másik gépre. ArgumentException dobható, ha a betűkészlet adatai null értékűek, vagy a betűkészlet már be van ágyazva.
+Hozzáadja a beágyazott betűtípust. Tartsa szem előtt, hogy a legtöbb betűtípus szerzői jogvédelem alatt áll, amikor betűtípusokat ad hozzá. Először keresse meg a betűtípus licencét, és ellenőrizze, hogy szabadon átvihető-e egy másik gépre. ArgumentException dobható, ha a betűtípus adat null, vagy a betűtípus már be van ágyazva.
 
 ```csharp
 public void AddEmbeddedFont(byte[] fontData, EmbedFontCharacters embedFontRule)
@@ -39,8 +39,8 @@ public void AddEmbeddedFont(byte[] fontData, EmbedFontCharacters embedFontRule)
 
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
-| fontData | Byte[] | Betűkészlet adat Byte[] |
-| embedFontRule | EmbedFontCharacters | Beágyazott betűkészlet szabály [`EmbedFontCharacters`](../../../aspose.slides.export/embedfontcharacters) |
+| fontData | Byte[] | Font data Byte[] |
+| embedFontRule | EmbedFontCharacters | Embedded font rule [`EmbedFontCharacters`](../../../aspose.slides.export/embedfontcharacters) |
 
 ### Lásd még
 

@@ -1,14 +1,14 @@
 ---
 title: IProgressCallback
 second_title: Aspose.Sildes for .NET API 参考
-description: 表示用于以百分比保存进度更新的回调对象。
+description: 表示一个用于以百分比保存进度更新的回调对象。
 type: docs
-weight: 6810
+weight: 6830
 url: /zh/aspose.slides/iprogresscallback/
 ---
 ## IProgressCallback 接口
 
-表示用于保存以百分比表示的进度更新的回调对象。
+表示一个用于以百分比保存进度更新的回调对象。
 
 ```csharp
 public interface IProgressCallback

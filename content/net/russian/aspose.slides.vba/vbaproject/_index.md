@@ -1,14 +1,14 @@
 ---
 title: VbaProject
-second_title: Aspose.Sildes для .NET — справочник API
-description: Предоставляет VBA-проект с макросами презентации.
+second_title: Aspose.Sildes для .NET API справочник
+description: Представляет проект VBA с макросами презентации.
 type: docs
-weight: 11650
+weight: 11670
 url: /ru/aspose.slides.vba/vbaproject/
 ---
 ## VbaProject класс
 
-Представляет VBA-проект с макросами презентации.
+Представляет проект VBA с макросами презентации.
 
 ```csharp
 public sealed class VbaProject : IVbaProject
@@ -16,25 +16,25 @@ public sealed class VbaProject : IVbaProject
 
 ## Конструкторы
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
-| [VbaProject](vbaproject#constructor)() | Этот конструктор создает новый VBA-проект с нуля. Проект будет создан в кодовой странице 1252 Windows Latin 1 (ANSI) |
-| [VbaProject](vbaproject#constructor_1)(byte[]) | Этот конструктор загружает VBA-проект из бинарного представления контейнера OLE. |
+| [VbaProject](vbaproject#constructor)() | Этот конструктор создает новый проект VBA с нуля. Проект будет создан в кодовой странице 1252 Windows Latin 1 (ANSI). |
+| [VbaProject](vbaproject#constructor_1)(byte[]) | Этот конструктор загружает проект VBA из бинарного представления контейнера OLE. |
 
 ## Свойства
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
-| [IsPasswordProtected](../../aspose.slides.vba/vbaproject/ispasswordprotected) { get; } | Указывает, защищён ли VBAProject паролем для просмотра свойств проекта. Только для чтения Boolean. |
-| [Modules](../../aspose.slides.vba/vbaproject/modules) { get; } | Возвращает список всех модулей, содержащихся в VBA-проекте. Только для чтения [`IVbaModuleCollection`](../ivbamodulecollection). |
-| [Name](../../aspose.slides.vba/vbaproject/name) { get; } | Возвращает имя VBA-проекта. Только для чтения String. |
-| [References](../../aspose.slides.vba/vbaproject/references) { get; } | Возвращает список всех ссылок, содержащихся в VBA-проекте. Только для чтения [`IVbaReferenceCollection`](../ivbareferencecollection). |
+| [IsPasswordProtected](../../aspose.slides.vba/vbaproject/ispasswordprotected) { get; } | Указывает, защищен ли VBAProject паролем для просмотра свойств проекта. Только для чтения Boolean. |
+| [Modules](../../aspose.slides.vba/vbaproject/modules) { get; } | Возвращает список всех модулей, содержащихся в проекте VBA. Только для чтения [`IVbaModuleCollection`](../ivbamodulecollection). |
+| [Name](../../aspose.slides.vba/vbaproject/name) { get; } | Возвращает имя проекта VBA. Только для чтения String. |
+| [References](../../aspose.slides.vba/vbaproject/references) { get; } | Возвращает список всех ссылок, содержащихся в проекте VBA. Только для чтения [`IVbaReferenceCollection`](../ivbareferencecollection). |
 
 ## Методы
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
-| [ToBinary](../../aspose.slides.vba/vbaproject/tobinary)() | Возвращает бинарное представление VBA-проекта в виде контейнера OLE |
+| [ToBinary](../../aspose.slides.vba/vbaproject/tobinary)() | Возвращает бинарное представление проекта VBA в виде контейнера OLE |
 
 ### См. также
 

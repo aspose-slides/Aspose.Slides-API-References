@@ -1,9 +1,9 @@
 ---
 title: IMathNaryOperatorProperties
-second_title: Aspose.Sildes .NET API hivatkozás
+second_title: Aspose.Sildes .NET API referencia
 description: Meghatározza az IMathNaryOperator tulajdonságait
 type: docs
-weight: 8380
+weight: 8400
 url: /hu/aspose.slides.mathtext/imathnaryoperatorproperties/
 ---
 ## IMathNaryOperatorProperties interfész
@@ -18,11 +18,11 @@ public interface IMathNaryOperatorProperties
 
 | Név | Leírás |
 | --- | --- |
-| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathnaryoperatorproperties/growtomatchoperandheight) { get; set; } | Az operátori karakter függőlegesen növekszik, hogy megfeleljen az operandus magasságának |
-| [HideSubscript](../../aspose.slides.mathtext/imathnaryoperatorproperties/hidesubscript) { get; set; } | Alsó index elrejtése |
-| [HideSuperscript](../../aspose.slides.mathtext/imathnaryoperatorproperties/hidesuperscript) { get; set; } | Felső index elrejtése |
+| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathnaryoperatorproperties/growtomatchoperandheight) { get; set; } | Az operátor karakter függőlegesen nő, hogy megegyezzen az operandus magasságával |
+| [HideSubscript](../../aspose.slides.mathtext/imathnaryoperatorproperties/hidesubscript) { get; set; } | Az alsó index elrejtése |
+| [HideSuperscript](../../aspose.slides.mathtext/imathnaryoperatorproperties/hidesuperscript) { get; set; } | A felső index elrejtése |
 | [LimitLocation](../../aspose.slides.mathtext/imathnaryoperatorproperties/limitlocation) { get; set; } | A határok (alsó index és felső index) helye |
-| [Operator](../../aspose.slides.mathtext/imathnaryoperatorproperties/operator) { get; set; } | N-áris operátor karakter Például: '∑', '∫' |
+| [Operator](../../aspose.slides.mathtext/imathnaryoperatorproperties/operator) { get; set; } | Nary operátor karakter, például: '∑', '∫' |
 
 ### Lásd még
 

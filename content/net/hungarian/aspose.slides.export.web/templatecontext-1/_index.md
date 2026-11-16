@@ -1,14 +1,14 @@
 ---
 title: TemplateContextTObject
-second_title: Aspose.Sildes .NET-hez API referencia
-description: Egy sablonmotor számára modellobjektum interfészt képvisel.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Model objektum interfészt képvisel egy sablonmotor számára.
 type: docs
-weight: 4670
+weight: 4690
 url: /hu/aspose.slides.export.web/templatecontext-1/
 ---
-## TemplateContext&lt;TObject&gt; osztály
+## TemplateContext<TObject> osztály
 
-A sablonmotor számára modellobjektum interfészt képvisel.
+Represents a model object interface for a template engine.
 
 ```csharp
 public sealed class TemplateContext<TObject>
@@ -18,16 +18,16 @@ public sealed class TemplateContext<TObject>
 
 | Név | Leírás |
 | --- | --- |
-| [Global](../../aspose.slides.export.web/templatecontext`1/global) { get; } | Visszaadja a gazda dokumentum globális tárolóját. Csak olvasható [`Storage`](../storage). |
+| [Global](../../aspose.slides.export.web/templatecontext`1/global) { get; } | Visszaadja a host dokumentum globális tárolóját. Csak olvasható [`Storage`](../storage). |
 | [Local](../../aspose.slides.export.web/templatecontext`1/local) { get; } | Visszaadja az aktuális sablonkörnyezet helyi tárolóját. Csak olvasható [`Storage`](../storage). |
-| [Object](../../aspose.slides.export.web/templatecontext`1/object) { get; } | Visszaadja a modellobjektumot. Csak olvasható !:TObject. |
-| [Output](../../aspose.slides.export.web/templatecontext`1/output) { get; } | Visszaadja a gazda dokumentum kimeneti elemeinek gyűjteményét. Csak olvasható [`Output`](./output). |
+| [Object](../../aspose.slides.export.web/templatecontext`1/object) { get; } | Visszaadja a modell objektumot. Csak olvasható !:TObject. |
+| [Output](../../aspose.slides.export.web/templatecontext`1/output) { get; } | Visszaadja a host dokumentum kimeneti elemeinek gyűjteményét. Csak olvasható [`Output`](./output). |
 
 ## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [SubModel&lt;TSubModel&gt;](../../aspose.slides.export.web/templatecontext`1/submodel)(TSubModel) | Létrehoz egy gyermek sablonkörnyezetet. |
+| [SubModel&lt;TSubModel&gt;](../../aspose.slides.export.web/templatecontext`1/submodel)(TSubModel) | Létrehozza egy gyermek sablonkörnyezetet. |
 
 ### Lásd még
 

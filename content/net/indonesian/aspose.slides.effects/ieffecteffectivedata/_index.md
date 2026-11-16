@@ -3,7 +3,7 @@ title: IEffectEffectiveData
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Kelas dasar untuk objek yang tidak dapat diubah yang mewakili efek.
 type: docs
-weight: 3280
+weight: 3300
 url: /id/aspose.slides.effects/ieffecteffectivedata/
 ---
 ## IEffectEffectiveData antarmuka

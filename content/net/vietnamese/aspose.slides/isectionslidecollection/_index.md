@@ -1,14 +1,14 @@
 ---
 title: ISectionSlideCollection
-second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Đại diện cho một bộ sưu tập các slide trong phần.
+second_title: Aspose.Sildes cho Tham chiếu API .NET
+description: Biểu diễn một bộ sưu tập các slide trong phần.
 type: docs
-weight: 6910
+weight: 6930
 url: /vi/aspose.slides/isectionslidecollection/
 ---
 ## ISectionSlideCollection giao diện
 
-Đại diện cho một bộ sưu tập các slide trong phần.
+Biểu diễn một bộ sưu tập các slide trong phần.
 
 ```csharp
 public interface ISectionSlideCollection : IGenericCollection<ISlide>
@@ -18,7 +18,7 @@ public interface ISectionSlideCollection : IGenericCollection<ISlide>
 
 | Tên | Mô tả |
 | --- | --- |
-| [Item](../../aspose.slides/isectionslidecollection/item) { get; } | Lấy phần tử tại chỉ mục được chỉ định. Chỉ đọc [`ISlide`](../islide). |
+| [Item](../../aspose.slides/isectionslidecollection/item) { get; } | Lấy phần tử tại chỉ mục được chỉ định. Chỉ-đọc [`ISlide`](../islide). |
 
 ### Xem thêm
 

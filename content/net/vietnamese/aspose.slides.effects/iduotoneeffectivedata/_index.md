@@ -1,9 +1,9 @@
 ---
 title: IDuotoneEffectiveData
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đối tượng bất biến đại diện cho hiệu ứng Duotone. Đối với mỗi pixel, kết hợp clr1 và clr2 thông qua nội suy tuyến tính để xác định màu mới cho pixel đó.
+description: Đối tượng bất biến đại diện cho hiệu ứng Duotone. Đối với mỗi pixel, kết hợp clr1 và clr2 qua nội suy tuyến tính để xác định màu mới cho pixel đó.
 type: docs
-weight: 3270
+weight: 3290
 url: /vi/aspose.slides.effects/iduotoneeffectivedata/
 ---
 ## IDuotoneEffectiveData giao diện
@@ -18,7 +18,7 @@ public interface IDuotoneEffectiveData : IEffectEffectiveData
 
 | Tên | Mô tả |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/iduotoneeffectivedata/asieffecteffectivedata) { get; } | Cho phép lấy giao diện IEffectEffectiveData cơ sở. Chỉ đọc [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/iduotoneeffectivedata/asieffecteffectivedata) { get; } | Cho phép lấy giao diện IEffectEffectiveData cơ bản. Chỉ đọc [`IEffectEffectiveData`](../ieffecteffectivedata). |
 | [Color1](../../aspose.slides.effects/iduotoneeffectivedata/color1) { get; } | Trả về định dạng màu mục tiêu cho các pixel tối. Chỉ đọc Color. |
 | [Color2](../../aspose.slides.effects/iduotoneeffectivedata/color2) { get; } | Trả về định dạng màu mục tiêu cho các pixel sáng. Chỉ đọc Color. |
 

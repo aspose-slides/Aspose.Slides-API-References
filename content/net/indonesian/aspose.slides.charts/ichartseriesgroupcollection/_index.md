@@ -3,12 +3,12 @@ title: IChartSeriesGroupCollection
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili koleksi grup seri yang dapat digabungkan.
 type: docs
-weight: 1960
+weight: 1980
 url: /id/aspose.slides.charts/ichartseriesgroupcollection/
 ---
 ## IChartSeriesGroupCollection antarmuka
 
-Mewakili kumpulan grup seri yang dapat digabungkan.
+Mewakili koleksi grup seri yang dapat digabungkan.
 
 ```csharp
 public interface IChartSeriesGroupCollection : IGenericCollection<IChartSeriesGroup>
@@ -22,10 +22,9 @@ public interface IChartSeriesGroupCollection : IGenericCollection<IChartSeriesGr
 
 ### Catatan
 
-1) Setiap grup seri berisi seri dengan tipe yang dapat digabungkan. Grup tipe seri yang dapat digabungkan didefinisikan dan dijelaskan dengan enum CombinableSeriesTypesGroup. Juga setiap grup seri berisi seri yang dipetakan baik pada sumbu utama maupun pada sumbu sekunder (tidak kedua-duanya dalam satu grup). Jadi, prinsip pengelompokan seri adalah pengelompokan berdasarkan grup tipe yang disebutkan di atas dan berdasarkan jenis pemetaan utama/sekunder.  
-2) Grup seri berisi beberapa properti seri yang umum bagi setiap seri dalam grup ("properti grup seri"). "Properti grup seri" dalam kelas ChartSeriesGroup bersifat baca/tulis. Setiap "properti grup seri" dapat memiliki proyeksi hanya-baca dalam kelas ChartSeries.
+1) Setiap grup seri berisi seri dengan tipe yang dapat digabungkan. Grup tipe seri yang dapat digabungkan didefinisikan dan dijelaskan dengan enum CombinableSeriesTypesGroup. Juga setiap grup seri berisi seri yang dipetakan pada sumbu primer atau pada sumbu sekunder (tidak keduanya dalam satu grup). Jadi, prinsip pengelompokan seri adalah pengelompokan berdasarkan tipe grup yang disebutkan di atas dan berdasarkan tipe pemetaan primer/sekunder. 2) Grup seri berisi beberapa properti seri yang umum untuk setiap seri dalam grup ("series group properties"). "Series group properties" dalam kelas ChartSeriesGroup bersifat read/write. Setiap "Series group properties" dapat memiliki proyeksi read-only dalam kelas ChartSeries.
 
-### Lihat Juga
+## Lihat Juga
 
 * antarmuka [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * antarmuka [IChartSeriesGroup](../ichartseriesgroup)

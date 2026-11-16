@@ -1,9 +1,9 @@
 ---
 title: MathLimitLocations
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes .NET용 API 참조
 description: n항 연산자에서 제한(아래첨자/위첨자)의 위치.
 type: docs
-weight: 8840
+weight: 8860
 url: /ko/aspose.slides.mathtext/mathlimitlocations/
 ---
 ## MathLimitLocations 열거형

@@ -1,24 +1,24 @@
 ---
 title: GetSubstitutions
 second_title: Aspose.Sildes for .NET API リファレンス
-description: プレゼンテーションのレンダリング時に置き換えられるフォントに関する情報を取得します。
+description: プレゼンテーションのレンダリング時に置換されるフォントに関する情報を取得します。
 type: docs
-weight: 80
+weight: 90
 url: /ja/aspose.slides/fontsmanager/getsubstitutions/
 ---
 ## GetSubstitutions() {#getsubstitutions}
 
-プレゼンテーションのレンダリング時に置き換えられるフォントに関する情報を取得します。
+プレゼンテーションのレンダリング時に置換されるフォントに関する情報を取得します。
 
 ```csharp
 public IEnumerable<FontSubstitutionInfo> GetSubstitutions()
 ```
 
-### Return Value
+### 戻り値
 
 すべてのフォント置換のコレクション [`FontSubstitutionInfo`](../../fontsubstitutioninfo)。
 
-### Examples
+### 例
 
 ```csharp
 using (Presentation pres = new Presentation("pres.pptx"))
@@ -30,7 +30,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }        
 ```
 
-### See Also
+### 関連項目
 
 * クラス [FontSubstitutionInfo](../../fontsubstitutioninfo)
 * クラス [FontsManager](../../fontsmanager)
@@ -41,7 +41,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 ## GetSubstitutions(int[]) {#getsubstitutions_1}
 
-指定されたスライドのレンダリング中に置き換えられるフォントに関する情報を取得します。
+指定されたスライドのレンダリング中に置換されるフォントに関する情報を取得します。
 
 ```csharp
 public IEnumerable<FontSubstitutionInfo> GetSubstitutions(int[] slides)
@@ -49,13 +49,13 @@ public IEnumerable<FontSubstitutionInfo> GetSubstitutions(int[] slides)
 
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| slides | Int32[] | フォント置換情報を取得するスライドインデックスの配列（インデックスは 1 から開始）。 |
+| slides | Int32[] | フォント置換情報を取得するスライドインデックスの配列（1 から始まります）。 |
 
-### Return Value
+### 戻り値
 
-指定されたスライドに対するすべてのフォント置換のコレクション（[`FontSubstitutionInfo`](../../fontsubstitutioninfo)）。
+指定されたスライドのすべてのフォント置換のコレクション ([`FontSubstitutionInfo`](../../fontsubstitutioninfo))。
 
-### Examples
+### 例
 
 ```csharp
 using (Presentation pres = new Presentation("pres.pptx"))
@@ -68,7 +68,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### See Also
+### 関連項目
 
 * クラス [FontSubstitutionInfo](../../fontsubstitutioninfo)
 * クラス [FontsManager](../../fontsmanager)

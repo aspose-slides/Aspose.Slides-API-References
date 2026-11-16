@@ -1,24 +1,24 @@
 ---
 title: Remove
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Menghapus kategori dari grafik.
+description: Menghapus kategori dari diagram.
 type: docs
-weight: 60
+weight: 70
 url: /id/aspose.slides.charts/ichartcategory/remove/
 ---
 ## IChartCategory.Remove metode
 
-Menghapus kategori dari grafik.
+Menghapus kategori dari diagram.
 
 ```csharp
 public void Remove()
 ```
 
-### Pengecualian
+### Exceptions
 
-| pengecualian | kondisi |
+| eksepsi | kondisi |
 | --- | --- |
-| [PptxEditException](../../../aspose.slides/pptxeditexception) | Dilemparkan jika kategori sudah dihapus dari grafik. |
+| [PptxEditException](../../../aspose.slides/pptxeditexception) | Dilemparkan jika kategori sudah dihapus dari diagram. |
 
 ### Lihat Juga
 

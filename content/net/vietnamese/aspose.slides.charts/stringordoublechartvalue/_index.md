@@ -1,14 +1,14 @@
 ---
 title: StringOrDoubleChartValue
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: "Biểu diễn giá trị chuỗi hoặc số thực có thể được lưu trữ trong tài liệu trình chiếu pptx theo hai cách: 1) trong ô/ô của sổ làm việc liên quan đến biểu đồ; 2) dưới dạng giá trị nguyên thủy."
+second_title: Aspose.Sildes cho .NET Tham khảo API
+description: Biểu diễn giá trị chuỗi hoặc double có thể được lưu trong tài liệu trình chiếu pptx theo hai cách: 1) trong ô/ô của bảng tính liên quan đến biểu đồ 2) dưới dạng giá trị nguyên thuỷ.
 type: docs
-weight: 2420
+weight: 2440
 url: /vi/aspose.slides.charts/stringordoublechartvalue/
 ---
 ## StringOrDoubleChartValue lớp
 
-Biểu diễn giá trị chuỗi hoặc số thực có thể được lưu trữ trong tài liệu trình chiếu pptx theo hai cách: 1) trong ô/ô của sổ làm việc liên quan đến biểu đồ; 2) dưới dạng giá trị nguyên thủy.
+Biểu diễn giá trị kiểu chuỗi hoặc double có thể được lưu trong tài liệu trình chiếu pptx theo hai cách: 1) trong ô/ô của bảng tính liên quan tới biểu đồ; 2) dưới dạng giá trị nguyên thuỷ.
 
 ```csharp
 public class StringOrDoubleChartValue : BaseChartValue, IStringOrDoubleChartValue
@@ -19,16 +19,16 @@ public class StringOrDoubleChartValue : BaseChartValue, IStringOrDoubleChartValu
 | Tên | Mô tả |
 | --- | --- |
 | [AsCell](../../aspose.slides.charts/stringordoublechartvalue/ascell) { get; set; } | Trả về hoặc đặt ô dữ liệu biểu đồ. Đọc/ghi [`IChartDataCell`](../ichartdatacell). |
-| [AsLiteralDouble](../../aspose.slides.charts/stringordoublechartvalue/asliteraldouble) { get; set; } | Trả về hoặc đặt giá trị dưới dạng số thực nguyên thủy. Đọc/ghi Double. |
-| [AsLiteralString](../../aspose.slides.charts/stringordoublechartvalue/asliteralstring) { get; set; } | Trả về hoặc đặt giá trị dưới dạng chuỗi nguyên thủy. Đọc/ghi String. |
+| [AsLiteralDouble](../../aspose.slides.charts/stringordoublechartvalue/asliteraldouble) { get; set; } | Trả về hoặc đặt giá trị dạng double nguyên thuỷ. Đọc/ghi Double. |
+| [AsLiteralString](../../aspose.slides.charts/stringordoublechartvalue/asliteralstring) { get; set; } | Trả về hoặc đặt giá trị dạng chuỗi nguyên thuỷ. Đọc/ghi String. |
 | override [Data](../../aspose.slides.charts/stringordoublechartvalue/data) { get; set; } | Trả về hoặc đặt đối tượng Data. Đọc/ghi Object. |
-| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Xác định xem thuộc tính AsCell, AsCells, AsLiteralString hoặc AsLiteralDouble có thực tế trong các lớp kế thừa hay không. Nói cách khác, nó xác định kiểu giá trị của thuộc tính Data. Đọc/ghi [`DataSourceType`](../datasourcetype). |
+| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Xác định xem thuộc tính AsCell, AsCells, AsLiteralString hoặc AsLiteralDouble có thực tế trong các lớp con không. Nói cách khác, nó xác định kiểu giá trị của thuộc tính Data. Đọc/ghi [`DataSourceType`](../datasourcetype). |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| [ToDouble](../../aspose.slides.charts/stringordoublechartvalue/todouble)() | Chuyển đổi sang số thực. |
+| [ToDouble](../../aspose.slides.charts/stringordoublechartvalue/todouble)() | Chuyển đổi sang double. |
 
 ### Xem thêm
 

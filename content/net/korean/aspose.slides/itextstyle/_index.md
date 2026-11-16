@@ -1,9 +1,9 @@
 ---
 title: ITextStyle
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes용 .NET API 레퍼런스
 description: 텍스트 스타일 서식 속성.
 type: docs
-weight: 7310
+weight: 7330
 url: /ko/aspose.slides/itextstyle/
 ---
 ## ITextStyle 인터페이스
@@ -24,10 +24,10 @@ public interface ITextStyle
 
 | 이름 | 설명 |
 | --- | --- |
-| [GetEffective](../../aspose.slides/itextstyle/geteffective)() | 상속이 적용된 실제 텍스트 스타일 서식 데이터를 가져옵니다. |
-| [GetLevel](../../aspose.slides/itextstyle/getlevel)(int) | 스타일 수준이 존재하면 반환하고, 그렇지 않으면 null을 반환합니다. |
+| [GetEffective](../../aspose.slides/itextstyle/geteffective)() | 상속이 적용된 효과적인 텍스트 스타일 서식 데이터를 가져옵니다. |
+| [GetLevel](../../aspose.slides/itextstyle/getlevel)(int) | 스타일 레벨이 존재하면 반환하고, 그렇지 않으면 null을 반환합니다. |
 
-### 참고
+### 참조
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

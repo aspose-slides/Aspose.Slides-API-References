@@ -1,14 +1,14 @@
 ---
 title: IMathSubscriptElement
-second_title: Aspose.Sildes pro .NET referenční příručka API
-description: Specifikuje objekt dolního indexu, který se skládá ze základny a zmenšeného dolního indexu umístěného pod a vpravo.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Určuje objekt dolního indexu, který se skládá ze základu a zmenšeného dolního indexu umístěného pod a vpravo.
 type: docs
-weight: 8470
+weight: 8490
 url: /cs/aspose.slides.mathtext/imathsubscriptelement/
 ---
 ## IMathSubscriptElement rozhraní
 
-Specifikuje objekt dolního indexu, který se skládá ze základny a zmenšeného dolního indexu umístěného pod a vpravo.
+Určuje objekt dolního indexu, který se skládá ze základu a zmenšeného dolního indexu umístěného pod a vpravo.
 
 ```csharp
 public interface IMathSubscriptElement : IMathElement

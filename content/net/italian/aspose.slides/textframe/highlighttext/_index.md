@@ -1,14 +1,14 @@
 ---
 title: HighlightText
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Evidenzia tutte le corrispondenze del testo di esempio con il colore specificato.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Evidenzia tutte le occorrenze del testo di esempio con il colore specificato.
 type: docs
-weight: 100
+weight: 110
 url: /it/aspose.slides/textframe/highlighttext/
 ---
 ## HighlightText(string, Color) {#highlighttext}
 
-Evidenzia tutte le corrispondenze del testo di esempio con il colore specificato.
+Evidenzia tutte le occorrenze del testo di esempio con il colore specificato.
 
 ```csharp
 public void HighlightText(string text, Color highlightColor)
@@ -29,7 +29,7 @@ public void HighlightText(string text, Color highlightColor)
 
 ## HighlightText(string, Color, ITextSearchOptions, IFindResultCallback) {#highlighttext_2}
 
-Evidenzia tutte le corrispondenze del testo di esempio con il colore specificato.
+Evidenzia tutte le occorrenze del testo di esempio con il colore specificato.
 
 ```csharp
 public void HighlightText(string text, Color highlightColor, ITextSearchOptions options, 
@@ -41,7 +41,7 @@ public void HighlightText(string text, Color highlightColor, ITextSearchOptions 
 | text | String | Il testo da evidenziare. |
 | highlightColor | Color | Il colore per evidenziare il testo. |
 | options | ITextSearchOptions | Opzioni di ricerca del testo [`ITextSearchOptions`](../../itextsearchoptions). |
-| callback | IFindResultCallback | L'oggetto di callback per ricevere i risultati della ricerca [`IFindResultCallback`](../../ifindresultcallback). |
+| callback | IFindResultCallback | L'oggetto callback per ricevere i risultati della ricerca [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### Esempi
 
@@ -51,9 +51,9 @@ Il seguente esempio di codice mostra come evidenziare il testo in un TextFrame.
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
-	// evidenziare tutte le parole 'important'
+	// evidenziando tutte le parole 'important'
 	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.HighlightText("important", Color.LightBlue);
-	// evidenziare tutte le occorrenze separate di 'the'
+	// evidenziando tutte le occorrenze separate di 'the'
 	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.HighlightText("the", Color.Violet, new TextSearchOptions()
 	{ WholeWordsOnly = true }, null);
 	presentation.Save("SomePresentation-out2.pptx", SaveFormat.Pptx);

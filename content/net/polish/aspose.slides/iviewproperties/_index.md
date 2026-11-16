@@ -1,26 +1,26 @@
 ---
 title: IViewProperties
-second_title: Aspose.Sildes dla platformy .NET – odniesienie API
+second_title: Aspose.Sildes dla referencji API .NET
 description: Właściwości widoku obejmujące całą prezentację.
 type: docs
-weight: 7390
+weight: 7410
 url: /pl/aspose.slides/iviewproperties/
 ---
-## IViewProperties interfejs
+## interfejs IViewProperties
 
-Właściwości widoku prezentacji.
+Właściwości widoku całej prezentacji.
 
 ```csharp
 public interface IViewProperties
 ```
 
-## Właściwości
+## Properties
 
 | Nazwa | Opis |
 | --- | --- |
 | [GridSpacing](../../aspose.slides/iviewproperties/gridspacing) { get; set; } | Zwraca lub ustawia odstęp siatki, który powinien być używany dla siatki leżącej u podstaw dokumentu prezentacji, w punktach. Odczyt/zapis Single. |
-| [LastView](../../aspose.slides/iviewproperties/lastview) { get; set; } | Określa tryb widoku, który był używany, gdy dokument prezentacji został ostatnio zapisany. Odczyt/zapis [`ViewType`](../viewtype). |
-| [NormalViewProperties](../../aspose.slides/iviewproperties/normalviewproperties) { get; } | Reprezentuje właściwości normalnego widoku. Normalny widok składa się z trzech regionów zawartości: samego slajdu, bocznego regionu zawartości oraz dolnego regionu zawartości. Tylko do odczytu [`INormalViewProperties`](../inormalviewproperties). |
+| [LastView](../../aspose.slides/iviewproperties/lastview) { get; set; } | Określa tryb widoku, który został użyty, gdy dokument prezentacji został ostatnio zapisany. Odczyt/zapis [`ViewType`](../viewtype). |
+| [NormalViewProperties](../../aspose.slides/iviewproperties/normalviewproperties) { get; } | Reprezentuje właściwości normalnego widoku. Normalny widok składa się z trzech obszarów treści: samego slajdu, bocznego obszaru treści oraz dolnego obszaru treści. Tylko do odczytu [`INormalViewProperties`](../inormalviewproperties). |
 | [NotesViewProperties](../../aspose.slides/iviewproperties/notesviewproperties) { get; } | Określa wspólne właściwości widoku powiązane z trybem widoku notatek. Tylko do odczytu [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
 | [ShowComments](../../aspose.slides/iviewproperties/showcomments) { get; set; } | Określa, czy komentarze slajdu powinny być wyświetlane. Odczyt/zapis [`NullableBool`](../nullablebool). |
 | [SlideViewProperties](../../aspose.slides/iviewproperties/slideviewproperties) { get; } | Określa wspólne właściwości widoku powiązane z trybem widoku slajdu. Tylko do odczytu [`ICommonSlideViewProperties`](../icommonslideviewproperties). |

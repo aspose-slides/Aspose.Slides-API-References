@@ -3,7 +3,7 @@ title: IMathematicalTextFactory
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Ermöglicht das Erstellen eines MathematicalText-Elements
 type: docs
-weight: 8520
+weight: 8540
 url: /de/aspose.slides.mathtext/imathematicaltextfactory/
 ---
 ## IMathematicalTextFactory Schnittstelle
@@ -18,12 +18,12 @@ public interface IMathematicalTextFactory
 
 | Name | Beschreibung |
 | --- | --- |
-| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext)() | Erstellt ein leeres MathematicalText-Element |
-| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_1)(char) | Erstellt ein MathematicalText-Element mit dem angegebenen Wert |
-| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_2)(string) | Erstellt ein leeres MathematicalText-Element mit dem angegebenen Wert |
-| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_3)(string, IPortionFormat) | Erstellt ein leeres MathematicalText-Element mit dem angegebenen Wert und Formatierungseigenschaften |
+| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext)() | Erstelle ein leeres MathematicalText-Element |
+| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_1)(char) | Erstelle ein MathematicalText-Element mit dem angegebenen Wert |
+| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_2)(string) | Erstelle ein leeres MathematicalText-Element mit dem angegebenen Wert |
+| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_3)(string, IPortionFormat) | Erstelle ein leeres MathematicalText-Element mit dem angegebenen Wert und Formatierungseigenschaften |
 
-### Bemerkungen
+### Hinweise
 
 Für COM-Kompatibilität
 

@@ -3,10 +3,10 @@ title: LineStyle
 second_title: Aspose.Sildes for .NET API リファレンス
 description: 線のスタイルを表します。
 type: docs
-weight: 7820
+weight: 7840
 url: /ja/aspose.slides/linestyle/
 ---
-## LineStyle 列挙体
+## LineStyle 列挙型
 
 線のスタイルを表します。
 

@@ -1,14 +1,14 @@
 ---
 title: RelatedLegendEntry
-second_title: Aspose.Sildes .NET के लिए API संदर्भ
-description: इस सूची में दर्शाए गए चार्ट प्रकार के मामलों में संबंधित लेजेंड प्रविष्टि की प्रॉपर्टीज़ ChartType.BarOfPie ChartType.ExplodedPie ChartType.ExplodedPie3D ChartType.Pie ChartType.Pie3D ChartType.PieOfPie. केवल-पढ़ने योग्य ILegendEntryPropertiesaspose.slides.charts/ilegendentryproperties.
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: इस सूची में चार्ट प्रकारों के लिए संबंधित लेजेंड एंट्री की प्रॉपर्टीज़ ChartType.BarOfPie ChartType.ExplodedPie ChartType.ExplodedPie3D ChartType.Pie ChartType.Pie3D ChartType.PieOfPie. केवल पढ़ने योग्य ILegendEntryPropertiesaspose.slides.charts/ilegendentryproperties.
 type: docs
-weight: 160
+weight: 200
 url: /hi/aspose.slides.charts/chartdatapoint/relatedlegendentry/
 ---
 ## ChartDataPoint.RelatedLegendEntry प्रॉपर्टी
 
-इस सूची में से चार्ट प्रकार के मामलों में संबंधित लेजेंड प्रविष्टि की प्रॉपर्टीज़: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. केवल-पढ़ने योग्य [`ILegendEntryProperties`](../../ilegendentryproperties)।
+इस सूची में दिए गए चार्ट प्रकारों के लिए संबंधित लेजेंड एंट्री की प्रॉपर्टीज़: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. केवल पढ़ने योग्य [`ILegendEntryProperties`](../../ilegendentryproperties).
 
 ```csharp
 public ILegendEntryProperties RelatedLegendEntry { get; }

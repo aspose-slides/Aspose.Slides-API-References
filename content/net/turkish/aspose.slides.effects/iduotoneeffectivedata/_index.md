@@ -1,14 +1,14 @@
 ---
 title: IDuotoneEffectiveData
 second_title: Aspose.Sildes için .NET API Referansı
-description: Duotone etkisini temsil eden değiştirilemez nesne. Her piksel için clr1 ve clr2'yi doğrusal bir enterpolasyonla birleştirerek o pikselin yeni rengini belirler.
+description: Duotone efektini temsil eden değiştirilemez nesne. Her piksel için clr1 ve clr2'yi doğrusal bir ara değerleme yoluyla birleştirerek o pikselin yeni rengini belirler.
 type: docs
-weight: 3270
+weight: 3290
 url: /tr/aspose.slides.effects/iduotoneeffectivedata/
 ---
-## IDuotoneEffectiveData arayüz
+## IDuotoneEffectiveData arayüzü
 
-Duotone efektini temsil eden değiştirilemez nesne. Her piksel için clr1 ve clr2'yi doğrusal bir enterpolasyonla birleştirerek o pikselin yeni rengini belirler.
+Duotone efektini temsil eden değiştirilemez nesne. Her piksel için, clr1 ve clr2'yi doğrusal bir ara değerleme yoluyla birleştirerek o pikselin yeni rengini belirler.
 
 ```csharp
 public interface IDuotoneEffectiveData : IEffectEffectiveData
@@ -18,11 +18,11 @@ public interface IDuotoneEffectiveData : IEffectEffectiveData
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/iduotoneeffectivedata/asieffecteffectivedata) { get; } | Temel IEffectEffectiveData arayüzünü almayı sağlar. Salt-okunur [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Color1](../../aspose.slides.effects/iduotoneeffectivedata/color1) { get; } | Koyu pikseller için hedef renk biçimini döndürür. Salt-okunur Color. |
-| [Color2](../../aspose.slides.effects/iduotoneeffectivedata/color2) { get; } | Açık pikseller için hedef renk biçimini döndürür. Salt-okunur Color. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/iduotoneeffectivedata/asieffecteffectivedata) { get; } | Temel IEffectEffectiveData arayüzüne erişim sağlar. Yalnızca okunabilir [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Color1](../../aspose.slides.effects/iduotoneeffectivedata/color1) { get; } | Koyu pikseller için hedef renk biçimini döndürür. Yalnızca okunabilir Color. |
+| [Color2](../../aspose.slides.effects/iduotoneeffectivedata/color2) { get; } | Açık pikseller için hedef renk biçimini döndürür. Yalnızca okunabilir Color. |
 
-### Ayrıca
+### Ayrıca Bakınız
 
 * arayüz [IEffectEffectiveData](../ieffecteffectivedata)
 * ad alanı [Aspose.Slides.Effects](../../aspose.slides.effects)

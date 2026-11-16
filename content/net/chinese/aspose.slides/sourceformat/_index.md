@@ -1,9 +1,9 @@
 ---
 title: SourceFormat
-second_title: Aspose.Sildes 的 .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 表示源文件格式。
 type: docs
-weight: 10680
+weight: 10700
 url: /zh/aspose.slides/sourceformat/
 ---
 ## SourceFormat 枚举
@@ -21,11 +21,11 @@ public enum SourceFormat
 | Ppt | `0` | Microsoft PowerPoint 97-2003 演示文稿 (*.ppt). |
 | Pptx | `1` | Microsoft Office Open XML 演示文稿 (*.pptx). |
 | Odp | `2` | OpenDocument 演示文稿 (*.odp). |
-| Pptm | `3` | Microsoft Office Open XML 宏启用演示文稿 (*.pptm). |
+| Pptm | `3` | Microsoft Office Open XML 宏启用的演示文稿 (*.pptm). |
 | Ppsx | `4` | Microsoft Office Open XML 幻灯片放映 (*.ppsx). |
-| Ppsm | `5` | Microsoft Office Open XML 宏启用幻灯片放映 (*.ppsm). |
+| Ppsm | `5` | Microsoft Office Open XML 宏启用的幻灯片放映 (*.ppsm). |
 | Potx | `6` | Microsoft Office Open XML 模板 (*.potx). |
-| Potm | `7` | Microsoft Office Open XML 宏启用模板 (*.potm). |
+| Potm | `7` | Microsoft Office Open XML 宏启用的模板 (*.potm). |
 | Pps | `8` | Microsoft PowerPoint 97-2003 幻灯片放映 (*.pps). |
 | Pot | `9` | Microsoft PowerPoint 97-2003 模板 (*.pot). |
 | Otp | `10` | OpenDocument 演示文稿模板 (*.otp). |

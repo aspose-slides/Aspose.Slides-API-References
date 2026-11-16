@@ -1,14 +1,14 @@
 ---
 title: UpDownBarsManager
-second_title: Referencia de API de Aspose.Sildes para .NET
-description: Proporciona acceso a las barras arriba/abajo de un gráfico de línea o de acciones.
+second_title: Referencia de la API de Aspose.Sildes para .NET
+description: Proporciona acceso a las barras arriba/abajo de un gráfico de líneas o de acciones.
 type: docs
-weight: 2500
+weight: 2520
 url: /es/aspose.slides.charts/updownbarsmanager/
 ---
-## clase UpDownBarsManager
+## Clase UpDownBarsManager
 
-Proporciona acceso a las barras arriba/abajo de un gráfico de línea o de acciones.
+Proporciona acceso a las barras arriba/abajo de un gráfico de líneas o de acciones.
 
 ```csharp
 public class UpDownBarsManager : DomObject<ChartSeriesGroup>, IUpDownBarsManager

@@ -1,9 +1,9 @@
 ---
 title: IMasterSlideCollection
-second_title: Aspose.Sildes para .NET Referencia de API
+second_title: Aspose.Sildes para la referencia de API de .NET
 description: Representa una colección de diapositivas maestras.
 type: docs
-weight: 6430
+weight: 6450
 url: /es/aspose.slides/imasterslidecollection/
 ---
 ## IMasterSlideCollection interfaz
@@ -18,17 +18,17 @@ public interface IMasterSlideCollection : IGenericCollection<IMasterSlide>
 
 | Nombre | Descripción |
 | --- | --- |
-| [Item](../../aspose.slides/imasterslidecollection/item) { get; } | Obtiene el elemento en el índice especificado. Sólo lectura [`IMasterSlide`](../imasterslide). |
+| [Item](../../aspose.slides/imasterslidecollection/item) { get; } | Obtiene el elemento en el índice especificado. Solo lectura [`IMasterSlide`](../imasterslide). |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
 | [AddClone](../../aspose.slides/imasterslidecollection/addclone)(IMasterSlide) | Agrega una copia de una diapositiva maestra especificada al final de la colección. Las diapositivas de diseño vinculadas también se copiarán. |
-| [InsertClone](../../aspose.slides/imasterslidecollection/insertclone)(int, IMasterSlide) | Inserta una copia de una diapositiva maestra especificada en la posición indicada de la colección. Las diapositivas de diseño vinculadas también se copiarán. |
-| [Remove](../../aspose.slides/imasterslidecollection/remove)(IMasterSlide) | Elimina la primera aparición de un objeto específico de la colección. |
+| [InsertClone](../../aspose.slides/imasterslidecollection/insertclone)(int, IMasterSlide) | Inserta una copia de una diapositiva maestra especificada en la posición especificada de la colección. Las diapositivas de diseño vinculadas también se copiarán. |
+| [Remove](../../aspose.slides/imasterslidecollection/remove)(IMasterSlide) | Elimina la primera ocurrencia de un objeto específico de la colección. |
 | [RemoveAt](../../aspose.slides/imasterslidecollection/removeat)(int) | Elimina el elemento en el índice especificado de la colección. |
-| [RemoveUnused](../../aspose.slides/imasterslidecollection/removeunused)(bool) | Elimina las diapositivas maestras no utilizadas. |
+| [RemoveUnused](../../aspose.slides/imasterslidecollection/removeunused)(bool) | Elimina las diapositivas maestras no usadas. |
 
 ### Ver también
 

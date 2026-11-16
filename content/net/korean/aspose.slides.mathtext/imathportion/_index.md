@@ -1,14 +1,14 @@
 ---
 title: IMathPortion
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 수학적 컨텍스트가 포함된 부분을 나타냅니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: 수학적 컨텍스트를 포함하는 부분을 나타냅니다.
 type: docs
-weight: 8420
+weight: 8440
 url: /ko/aspose.slides.mathtext/imathportion/
 ---
 ## IMathPortion 인터페이스
 
-수학적 컨텍스트가 포함된 부분을 나타냅니다.
+수학적 컨텍스트를 포함하는 부분을 나타냅니다.
 
 ```csharp
 public interface IMathPortion
@@ -35,7 +35,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### 참고
+### 참조
 
 * 네임스페이스 [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * 어셈블리 [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: IEffectStyleCollectionEffectiveData
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Objek tidak dapat diubah yang mewakili koleksi gaya efek efektif yang bersifat baca-saja.
+second_title: Aspose.Sildes untuk .NET Referensi API
+description: Objek tidak dapat diubah yang mewakili koleksi hanya-baca dari gaya efek yang efektif.
 type: docs
-weight: 11190
+weight: 11210
 url: /id/aspose.slides.theme/ieffectstylecollectioneffectivedata/
 ---
 ## IEffectStyleCollectionEffectiveData antarmuka
 
-Objek tidak dapat diubah yang mewakili koleksi gaya efek efektif yang bersifat baca-saja.
+Objek tidak dapat diubah yang mewakili koleksi hanya-baca dari gaya efek yang efektif.
 
 ```csharp
 public interface IEffectStyleCollectionEffectiveData : IGenericCollection<IEffectStyleEffectiveData>
@@ -18,7 +18,7 @@ public interface IEffectStyleCollectionEffectiveData : IGenericCollection<IEffec
 
 | Nama | Deskripsi |
 | --- | --- |
-| [Item](../../aspose.slides.theme/ieffectstylecollectioneffectivedata/item) { get; } | Mendapatkan elemen pada indeks yang ditentukan. Baca-saja [`IEffectStyleEffectiveData`](../ieffectstyleeffectivedata). |
+| [Item](../../aspose.slides.theme/ieffectstylecollectioneffectivedata/item) { get; } | Mengambil elemen pada indeks yang ditentukan. Hanya-baca [`IEffectStyleEffectiveData`](../ieffectstyleeffectivedata). |
 
 ### Catatan
 

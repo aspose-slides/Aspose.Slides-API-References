@@ -1,14 +1,14 @@
 ---
 title: PathSegment
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: GeometryShape के ग्राफ़िक्स पाथ का सेगमेंट प्रस्तुत करता है
+description: GeometryShape के ग्राफ़िक्स पाथ का खंड दर्शाता है
 type: docs
-weight: 9340
+weight: 9360
 url: /hi/aspose.slides/pathsegment/
 ---
 ## PathSegment वर्ग
 
-GeometryShape के ग्राफ़िक्स पाथ के सेगमेंट का प्रतिनिधित्व करता है
+GeometryShape के ग्राफ़िक्स पाथ का खंड दर्शाता है
 
 ```csharp
 public sealed class PathSegment : IPathSegment
@@ -18,10 +18,10 @@ public sealed class PathSegment : IPathSegment
 
 | नाम | विवरण |
 | --- | --- |
-| [PathCommand](../../aspose.slides/pathsegment/pathcommand) { get; } | सेगमेंट का Path प्रकार |
-| [SegmentData](../../aspose.slides/pathsegment/segmentdata) { get; } | सेगमेंट का Path डेटा |
+| [PathCommand](../../aspose.slides/pathsegment/pathcommand) { get; } | सेगमेंट का पाथ प्रकार |
+| [SegmentData](../../aspose.slides/pathsegment/segmentdata) { get; } | सेगमेंट का पाथ डेटा |
 
-### संबंधित देखें
+### देखें
 
 * इंटरफ़ेस [IPathSegment](../ipathsegment)
 * नामस्थान [Aspose.Slides](../../aspose.slides)

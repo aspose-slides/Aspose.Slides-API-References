@@ -3,10 +3,10 @@ title: IWarningInfo
 second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Représente une interface de base pour tous les avertissements.
 type: docs
-weight: 11810
+weight: 11830
 url: /fr/aspose.slides.warnings/iwarninginfo/
 ---
-## interface IWarningInfo
+## IWarningInfo interface
 
 Représente une interface de base pour tous les avertissements.
 
@@ -18,14 +18,14 @@ public interface IWarningInfo
 
 | Nom | Description |
 | --- | --- |
-| [Description](../../aspose.slides.warnings/iwarninginfo/description) { get; } | Renvoie une description lisible de cet avertissement. Lecture seule String. |
+| [Description](../../aspose.slides.warnings/iwarninginfo/description) { get; } | Renvoie une description lisible par l'homme de cet avertissement. Lecture seule String. |
 | [WarningType](../../aspose.slides.warnings/iwarninginfo/warningtype) { get; } | Renvoie un type d'avertissement. Lecture seule [`WarningType`](./warningtype). |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
-| [SendWarning](../../aspose.slides.warnings/iwarninginfo/sendwarning)(IWarningCallback) | Si le récepteur n’est pas nul, termine l’avertissement vers le récepteur spécifié et lève l’exception AbortRequestedException si le récepteur décide d’annuler une opération. |
+| [SendWarning](../../aspose.slides.warnings/iwarninginfo/sendwarning)(IWarningCallback) | Si receiver n'est pas null, termine l'avertissement à un récepteur spécifié et lève l'AbortRequestedException si le récepteur décide d'annuler une opération. |
 
 ### Voir aussi
 

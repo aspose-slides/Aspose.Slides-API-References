@@ -1,9 +1,9 @@
 ---
 title: Save
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Salva todos os slides de uma apresentação em um arquivo com o formato especificado.
 type: docs
-weight: 380
+weight: 390
 url: /pt/aspose.slides/ipresentation/save/
 ---
 ## Save(string, SaveFormat) {#save_5}
@@ -92,7 +92,7 @@ public void Save(Stream stream, SaveFormat format, ISaveOptions options)
 
 | exceção | condição |
 | --- | --- |
-| NotSupportedException | Se tentar salvar um arquivo criptografado em um formato que não seja Office 2007-2010 |
+| NotSupportedException | Se você tentar salvar um arquivo criptografado em um formato que não seja Office 2007-2010 |
 
 ### Veja Também
 
@@ -115,7 +115,7 @@ public void Save(string fname, int[] slides, SaveFormat format)
 | Parâmetro | Tipo | Descrição |
 | --- | --- | --- |
 | fname | String | Caminho para o arquivo criado. |
-| slides | Int32[] | Vetor com as posições dos slides, começando em 1. |
+| slides | Int32[] | Array com as posições dos slides, começando em 1. |
 | format | SaveFormat | Formato dos dados exportados. |
 
 ### Exceções
@@ -146,7 +146,7 @@ public void Save(string fname, int[] slides, SaveFormat format, ISaveOptions opt
 | Parâmetro | Tipo | Descrição |
 | --- | --- | --- |
 | fname | String | Caminho para o arquivo criado. |
-| slides | Int32[] | Vetor com as posições dos slides, começando em 1. |
+| slides | Int32[] | Array com as posições dos slides, começando em 1. |
 | format | SaveFormat | Formato dos dados exportados. |
 | options | ISaveOptions | Opções de formato adicionais. |
 
@@ -179,7 +179,7 @@ public void Save(Stream stream, int[] slides, SaveFormat format)
 | Parâmetro | Tipo | Descrição |
 | --- | --- | --- |
 | stream | Stream | Fluxo de saída. |
-| slides | Int32[] | Vetor com as posições dos slides, começando em 1. |
+| slides | Int32[] | Array com as posições dos slides, começando em 1. |
 | format | SaveFormat | Formato dos dados exportados. |
 
 ### Exceções
@@ -210,7 +210,7 @@ public void Save(Stream stream, int[] slides, SaveFormat format, ISaveOptions op
 | Parâmetro | Tipo | Descrição |
 | --- | --- | --- |
 | stream | Stream | Fluxo de saída. |
-| slides | Int32[] | Vetor com as posições dos slides, começando em 1. |
+| slides | Int32[] | Array com as posições dos slides, começando em 1. |
 | format | SaveFormat | Formato dos dados exportados. |
 | options | ISaveOptions | Opções de formato adicionais. |
 

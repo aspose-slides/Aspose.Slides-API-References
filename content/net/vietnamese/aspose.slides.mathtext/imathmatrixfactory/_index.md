@@ -3,7 +3,7 @@ title: IMathMatrixFactory
 second_title: Tham chiếu API Aspose.Sildes cho .NET
 description: Cho phép tạo một ma trận toán học
 type: docs
-weight: 8350
+weight: 8370
 url: /vi/aspose.slides.mathtext/imathmatrixfactory/
 ---
 ## IMathMatrixFactory giao diện

@@ -1,14 +1,14 @@
 ---
 title: IFontDataFactory
-second_title: Aspose.Sildes .NET API 参考
-description: FontData 工厂接口
+second_title: Aspose.Sildes for .NET API 参考
+description: FontData 工厂 接口
 type: docs
-weight: 5840
+weight: 5860
 url: /zh/aspose.slides/ifontdatafactory/
 ---
 ## IFontDataFactory 接口
 
-FontData 工厂接口
+FontData 工厂 接口
 
 ```csharp
 public interface IFontDataFactory

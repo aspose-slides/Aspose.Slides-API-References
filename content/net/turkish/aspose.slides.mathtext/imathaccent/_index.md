@@ -1,14 +1,14 @@
 ---
 title: IMathAccent
 second_title: Aspose.Sildes için .NET API Referansı
-description: "Temel ve birleştirici diakritik işaretten oluşan aksan işlevini belirtir. Örnek: ́"
+description: Bir temel ve birleştirici diakritik işaret içeren vurgu işlevini belirtir. Örnek ́
 type: docs
-weight: 8080
+weight: 8100
 url: /tr/aspose.slides.mathtext/imathaccent/
 ---
-## IMathAccent arayüz
+## IMathAccent arayüzü
 
-Temel ve birleştirici diakritik işaretten oluşan aksan işlevini tanımlar. Örnek: 𝑎́
+Specifies the accent function, consisting of a base and a combining diacritical mark Example: 𝑎́
 
 ```csharp
 public interface IMathAccent : IMathElement
@@ -18,9 +18,9 @@ public interface IMathAccent : IMathElement
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathaccent/asimathelement) { get; } | Temel IMathElement arayüzünü almayı sağlar [`IMathElement`](../imathelement) |
-| [Base](../../aspose.slides.mathtext/imathaccent/base) { get; } | Aksentin uygulandığı argüman |
-| [Character](../../aspose.slides.mathtext/imathaccent/character) { get; set; } | Aksan Karakteri Değer (U+0300–U+036F) veya (U+20D0–U+20EF) aralığında olmalıdır. Varsayılan değer: Kombine Çatı Aksanı (U+0302) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathaccent/asimathelement) { get; } | Temel IMathElement arayüzünü almak için izin verir [`IMathElement`](../imathelement) |
+| [Base](../../aspose.slides.mathtext/imathaccent/base) { get; } | Vurgunun uygulandığı argüman |
+| [Character](../../aspose.slides.mathtext/imathaccent/character) { get; set; } | Vurgu Karakteri Değer (U+0300–U+036F) veya (U+20D0–U+20EF) aralığında olmalıdır Varsayılan değer: Combining Circumflex Accent (U+0302) |
 
 ### Örnekler
 

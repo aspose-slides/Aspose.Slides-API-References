@@ -1,14 +1,14 @@
 ---
 title: GetAutomaticDataPointColor
-second_title: Aspose.Sildes for .NET API リファレンス
-description: シリーズインデックス、データポイントインデックス、ParentSeriesGroup.IsColorVaried プロパティ、チャートスタイルに基づいてデータポイントの自動カラーを返します。このカラーは FillType が NotDefined の場合、デフォルトで使用されます。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: シリーズ インデックス、データ ポイント インデックス、ParentSeriesGroup.IsColorVaried プロパティ、およびチャート スタイルに基づいてデータ ポイントの自動カラーを返します。FillType が NotDefined に等しい場合、このカラーはデフォルトで使用されます。
 type: docs
-weight: 220
+weight: 260
 url: /ja/aspose.slides.charts/chartdatapoint/getautomaticdatapointcolor/
 ---
 ## ChartDataPoint.GetAutomaticDataPointColor メソッド
 
-シリーズインデックス、データポイントインデックス、ParentSeriesGroup.IsColorVaried プロパティ、およびチャートスタイルに基づいてデータポイントの自動カラーを返します。このカラーは FillType が NotDefined の場合、デフォルトで使用されます。
+データ ポイントの自動カラーを、シリーズ インデックス、データ ポイント インデックス、ParentSeriesGroup.IsColorVaried プロパティ、およびチャート スタイルに基づいて返します。FillType が NotDefined に等しい場合、このカラーはデフォルトで使用されます。
 
 ```csharp
 public Color GetAutomaticDataPointColor()

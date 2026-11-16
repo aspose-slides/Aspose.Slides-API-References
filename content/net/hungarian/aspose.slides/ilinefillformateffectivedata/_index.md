@@ -1,14 +1,14 @@
 ---
 title: ILineFillFormatEffectiveData
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Változtathatatlan objektum, amely a hatékony vonalkitöltés tulajdonságait tartalmazza.
+second_title: Aspose.Sildes .NET API-referencia
+description: Megváltoztathatatlan objektum, amely a hatékony vonalkitöltési tulajdonságokat tartalmazza.
 type: docs
-weight: 6300
+weight: 6320
 url: /hu/aspose.slides/ilinefillformateffectivedata/
 ---
 ## ILineFillFormatEffectiveData interfész
 
-Immutable objektum, amely a hatékony vonalkitöltés tulajdonságait tartalmazza.
+Megváltoztathatatlan objektum, amely a hatékony vonalkitöltési tulajdonságokat tartalmazza.
 
 ```csharp
 public interface ILineFillFormatEffectiveData : IFillParamSource
@@ -20,14 +20,14 @@ public interface ILineFillFormatEffectiveData : IFillParamSource
 | --- | --- |
 | [AsIFillParamSource](../../aspose.slides/ilinefillformateffectivedata/asifillparamsource) { get; } | Visszaadja az IFillParamSource interfészt. Csak olvasható [`IFillParamSource`](../ifillparamsource). |
 | [FillType](../../aspose.slides/ilinefillformateffectivedata/filltype) { get; } | Visszaadja a kitöltés típusát. Csak olvasható [`FillType`](../filltype). |
-| [GradientFormat](../../aspose.slides/ilinefillformateffectivedata/gradientformat) { get; } | Visszaadja a színátmenetes kitöltés formátumát. Csak olvasható [`IGradientFormatEffectiveData`](../igradientformateffectivedata). |
-| [PatternFormat](../../aspose.slides/ilinefillformateffectivedata/patternformat) { get; } | Visszaadja a minta kitöltés formátumát. Csak olvasható [`IPatternFormatEffectiveData`](../ipatternformateffectivedata). |
-| [RotateWithShape](../../aspose.slides/ilinefillformateffectivedata/rotatewithshape) { get; } | Meghatározza, hogy a kitöltést egy alakzattal kell-e elforgatni. Csak olvasható Boolean. |
-| [SolidFillColor](../../aspose.slides/ilinefillformateffectivedata/solidfillcolor) { get; } | Visszaadja a szilárd kitöltés színét. Csak olvasható Color. |
+| [GradientFormat](../../aspose.slides/ilinefillformateffectivedata/gradientformat) { get; } | Visszaadja a fokozatos kitöltés formátumát. Csak olvasható [`IGradientFormatEffectiveData`](../igradientformateffectivedata). |
+| [PatternFormat](../../aspose.slides/ilinefillformateffectivedata/patternformat) { get; } | Visszaadja a mintás kitöltés formátumát. Csak olvasható [`IPatternFormatEffectiveData`](../ipatternformateffectivedata). |
+| [RotateWithShape](../../aspose.slides/ilinefillformateffectivedata/rotatewithshape) { get; } | Megállapítja, hogy a kitöltést egy alakzattal kell-e forgatni. Csak olvasható Boolean. |
+| [SolidFillColor](../../aspose.slides/ilinefillformateffectivedata/solidfillcolor) { get; } | Visszaadja az egyenes kitöltés színét. Csak olvasható Color. |
 
-### Megjegyzések
+### Megjegyzés
 
-Ez az interfész a(z) [`ILineFormatEffectiveData`](../ilineformateffectivedata) részeként használatos.
+Ez az interfész a [`ILineFormatEffectiveData`](../ilineformateffectivedata) részeként használatos.
 
 ### Lásd még
 

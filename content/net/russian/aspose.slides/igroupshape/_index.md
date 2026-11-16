@@ -1,9 +1,9 @@
 ---
 title: IGroupShape
-second_title: Aspose.Sildes для справки по API .NET
+second_title: Aspose.Sildes для .NET справочник API
 description: Представляет группу фигур на слайде.
 type: docs
-weight: 6080
+weight: 6100
 url: /ru/aspose.slides/igroupshape/
 ---
 ## IGroupShape интерфейс

@@ -3,10 +3,10 @@ title: SmartArtColorType
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili skema warna diagram SmartArt.
 type: docs
-weight: 10610
+weight: 10630
 url: /id/aspose.slides.smartart/smartartcolortype/
 ---
-## enumerasi SmartArtColorType
+## Enumerasi SmartArtColorType
 
 Mewakili skema warna diagram SmartArt.
 

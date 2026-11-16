@@ -1,14 +1,14 @@
 ---
 title: RowCollection
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đại diện cho bộ sưu tập các hàng trong bảng.
+description: Đại diện cho bộ sưu tập các hàng của bảng.
 type: docs
-weight: 9720
+weight: 9740
 url: /vi/aspose.slides/rowcollection/
 ---
-## RowCollection lớp
+## Lớp RowCollection
 
-Đại diện cho bộ sưu tập các hàng trong bảng.
+Đại diện cho bộ sưu tập các hàng của bảng.
 
 ```csharp
 public sealed class RowCollection : DomObject<Table>, IRowCollection
@@ -18,8 +18,8 @@ public sealed class RowCollection : DomObject<Table>, IRowCollection
 
 | Tên | Mô tả |
 | --- | --- |
-| [Count](../../aspose.slides/rowcollection/count) { get; } | Lấy số lượng hàng thực tế có trong bộ sưu tập. Chỉ đọc Int32. |
-| [IsSynchronized](../../aspose.slides/rowcollection/issynchronized) { get; } | Trả về giá trị cho biết liệu việc truy cập vào bộ sưu tập có được đồng bộ (an toàn với đa luồng) hay không. Chỉ đọc Boolean. |
+| [Count](../../aspose.slides/rowcollection/count) { get; } | Lấy số lượng hàng thực sự có trong bộ sưu tập. Chỉ đọc Int32. |
+| [IsSynchronized](../../aspose.slides/rowcollection/issynchronized) { get; } | Trả về giá trị cho biết liệu việc truy cập bộ sưu tập có được đồng bộ (an toàn đa luồng) hay không. Chỉ đọc Boolean. |
 | [Item](../../aspose.slides/rowcollection/item) { get; } | Trả về hàng tại chỉ mục được chỉ định. Chỉ đọc [`Row`](../row). |
 | [SyncRoot](../../aspose.slides/rowcollection/syncroot) { get; } | Trả về gốc đồng bộ. Chỉ đọc Object. |
 
@@ -29,11 +29,11 @@ public sealed class RowCollection : DomObject<Table>, IRowCollection
 | --- | --- |
 | [AddClone](../../aspose.slides/rowcollection/addclone)(IRow, bool) | Tạo một bản sao của hàng mẫu được chỉ định và chèn nó vào cuối bảng. |
 | [CopyTo](../../aspose.slides/rowcollection/copyto)(Array, int) | Sao chép tất cả các phần tử từ bộ sưu tập vào mảng được chỉ định. |
-| [GetEnumerator](../../aspose.slides/rowcollection/getenumerator)() | Trả về một enumerator cho phép duyệt qua bộ sưu tập. |
+| [GetEnumerator](../../aspose.slides/rowcollection/getenumerator)() | Trả về một enumerator duyệt qua bộ sưu tập. |
 | [InsertClone](../../aspose.slides/rowcollection/insertclone)(int, IRow, bool) | Tạo một bản sao của hàng mẫu được chỉ định và chèn nó vào vị trí được chỉ định trong bảng. |
-| [RemoveAt](../../aspose.slides/rowcollection/removeat)(int, bool) | Xóa một hàng tại vị trí được chỉ định khỏi bảng. |
+| [RemoveAt](../../aspose.slides/rowcollection/removeat)(int, bool) | Xóa một hàng ở vị trí được chỉ định khỏi bảng. |
 
-### Xem Thêm
+### Xem thêm
 
 * lớp [DomObject&lt;TParent&gt;](../domobject-1)
 * lớp [Table](../table)

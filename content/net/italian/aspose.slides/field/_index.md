@@ -1,12 +1,12 @@
 ---
 title: Field
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per il riferimento API .NET
 description: Rappresenta un campo.
 type: docs
-weight: 4750
+weight: 4770
 url: /it/aspose.slides/field/
 ---
-## Classe Field
+## Field classe
 
 Rappresenta un campo.
 

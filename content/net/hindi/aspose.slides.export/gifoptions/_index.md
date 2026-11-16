@@ -1,12 +1,12 @@
 ---
 title: GifOptions
-second_title: Aspose.Sildes for .NET API संदर्भ
+second_title: Aspose.Sildes के लिए .NET API रेफ़रेंस
 description: GIF निर्यात विकल्पों का प्रतिनिधित्व करता है।
 type: docs
-weight: 3820
+weight: 3840
 url: /hi/aspose.slides.export/gifoptions/
 ---
-## GifOptions वर्ग
+## GifOptions क्लास
 
 GIF निर्यात विकल्पों का प्रतिनिधित्व करता है।
 
@@ -14,29 +14,29 @@ GIF निर्यात विकल्पों का प्रतिनि�
 public class GifOptions : SaveOptions, IGifOptions
 ```
 
-## कंस्ट्रक्टर्स
+## निर्माता
 
-| नाम | विवरण |
+| Name | Description |
 | --- | --- |
-| [GifOptions](gifoptions)() | GifOptions वर्ग की नई उदाहरण को प्रारम्भ करता है। |
+| [GifOptions](gifoptions)() | GifOptions क्लास की एक नई उदाहरण को प्रारंभ करता है। |
 
-## प्रॉपर्टीज़
+## गुण
 
-| नाम | विवरण |
+| Name | Description |
 | --- | --- |
-| [DefaultDelay](../../aspose.slides.export/gifoptions/defaultdelay) { get; set; } | डिफ़ॉल्ट देरी समय [ms] को प्राप्त या निर्धारित करता है। यह मान तब उपयोग होगा जब [`AdvanceAfterTime`](../../aspose.slides/islideshowtransition/advanceaftertime) सेट न हो। डिफ़ॉल्ट मान 1000 है। |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | यदि स्रोत फ़ॉन्ट नहीं मिला तो उपयोग किया जाने वाला फ़ॉन्ट प्राप्त या निर्धारित करता है। पढ़ने-लिखने योग्य String। |
+| [DefaultDelay](../../aspose.slides.export/gifoptions/defaultdelay) { get; set; } | डिफ़ॉल्ट देरी समय [ms] प्राप्त करता है या सेट करता है। यह मान तब उपयोग किया जाएगा जब [`AdvanceAfterTime`](../../aspose.slides/islideshowtransition/advanceaftertime) सेट नहीं है। डिफ़ॉल्ट मान 1000 है। |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | यदि मूल फ़ॉन्ट नहीं मिला तो उपयोग होने वाला फ़ॉन्ट लौटाता है या सेट करता है। पढ़ने-लिखने योग्य String। |
 | [ExportHiddenSlides](../../aspose.slides.export/gifoptions/exporthiddenslides) { get; set; } | निर्धारित करता है कि छिपी स्लाइड्स निर्यात की जाएँगी या नहीं। डिफ़ॉल्ट मान false है। |
-| [FrameSize](../../aspose.slides.export/gifoptions/framesize) { get; set; } | फ़्रेम आकार को प्राप्त या निर्धारित करता है। |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | ग्रेडिएंट की दृश्य शैली को प्राप्त या निर्धारित करता है। पढ़ने-लिखने योग्य [`GradientStyle`](../../aspose.slides/gradientstyle)। |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | प्रतिशत में प्रगति अपडेट सहेजने के लिए कॉलबैक ऑब्जेक्ट का प्रतिनिधित्व करता है। देखें [`IProgressCallback`](../../aspose.slides/iprogresscallback)। |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | प्रस्तुति सहेजते समय JavaScript कॉल वाले हाइपरलिंक को छोड़ना है या नहीं, निर्धारित करता है। पढ़ने-लिखने योग्य Boolean। डिफ़ॉल्ट मान **false** है। |
-| [TransitionFps](../../aspose.slides.export/gifoptions/transitionfps) { get; set; } | ट्रांज़िशन FPS [फ़्रेम/सेक] को प्राप्त या निर्धारित करता है। डिफ़ॉल्ट मान 25 है। |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | एक ऑब्जेक्ट को प्राप्त या निर्धारित करता है जो चेतावनियों को प्राप्त करता है और तय करता है कि लोडिंग प्रक्रिया जारी रहेगी या रद्द की जाएगी। पढ़ने-लिखने योग्य [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)। |
+| [FrameSize](../../aspose.slides.export/gifoptions/framesize) { get; set; } | फ़्रेम आकार प्राप्त करता है या सेट करता है। |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | ग्रेडिएंट की दृश्य शैली लौटाता है या सेट करता है। पढ़ने/लिखने योग्य [`GradientStyle`](../../aspose.slides/gradientstyle)। |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | प्रगति अपडेट को प्रतिशत में सहेजने के लिए एक कॉलबैक ऑब्जेक्ट का प्रतिनिधित्व करता है। देखें [`IProgressCallback`](../../aspose.slides/iprogresscallback)। |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | प्रेजेंटेशन सहेजते समय जावास्क्रिप्ट कॉल वाले हाइपरलिंक को छोड़ना है या नहीं निर्दिष्ट करता है। पढ़ने/लिखने योग्य Boolean। डिफ़ॉल्ट मान **false** है। |
+| [TransitionFps](../../aspose.slides.export/gifoptions/transitionfps) { get; set; } | ट्रांज़िशन FPS [frames/sec] प्राप्त करता है या सेट करता है। डिफ़ॉल्ट मान 25 है। |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | एक ऑब्जेक्ट लौटाता है या सेट करता है जो चेतावनियाँ प्राप्त करता है और तय करता है कि लोडिंग प्रक्रिया जारी रहेगी या रद्द हो जाएगी। पढ़ने/लिखने योग्य [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)। |
 
 ### उदाहरण
 
-निम्न उदाहरण कस्टम सेटिंग्स का उपयोग करके प्रस्तुतियों को एनिमेटेड GIF में बदलने को दर्शाता है।
+निम्नलिखित उदाहरण दिखाता है कि कस्टम सेटिंग्स का उपयोग करके प्रस्तुतियों को एनिमेटेड GIF में कैसे परिवर्तित किया जाए।
 
 ```csharp
 [C#]
@@ -44,14 +44,14 @@ using (Presentation pres = new Presentation("pres.pptx"))
 {
     pres.Save("pres.gif", SaveFormat.Gif, new GifOptions
     {
-        FrameSize = new Size(960, 720), // निर्मित GIF का आकार
-        DefaultDelay = 2000, // प्रत्येक स्लाइड कितनी देर तक दर्शाई जाएगी जब तक वह अगली में बदल न जाये
-        TransitionFps = 35 // बेहतर ट्रांज़िशन एनीमेशन क्वालिटी के लिए FPS बढ़ाएँ
+        FrameSize = new Size(960, 720), // उत्पन्न GIF का आकार
+        DefaultDelay = 2000, // प्रत्येक स्लाइड को अगले पर बदलने से पहले दिखाए रखने का समय
+        TransitionFps = 35 // बेहतर ट्रांज़िशन एनीमेशन गुणवत्ता के लिए FPS बढ़ाएँ
     });
 }
 ```
 
-### संबंधित
+### संबंधित देखें
 
 * वर्ग [SaveOptions](../saveoptions)
 * इंटरफ़ेस [IGifOptions](../igifoptions)

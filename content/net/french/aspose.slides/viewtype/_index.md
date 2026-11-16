@@ -1,14 +1,14 @@
 ---
 title: ViewType
-second_title: Référence API Aspose.Sildes pour .NET
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Types de vue de présentation
 type: docs
-weight: 11750
+weight: 11770
 url: /fr/aspose.slides/viewtype/
 ---
 ## Énumération ViewType
 
-Types de vue de la présentation
+Types de vue de présentation
 
 ```csharp
 public enum ViewType
@@ -18,7 +18,7 @@ public enum ViewType
 
 | Nom | Valeur | Description |
 | --- | --- | --- |
-| NotDefined | `0` | La valeur n'est pas définie |
+| NotDefined | `0` | La valeur n’est pas définie |
 | SlideView | `1` | Vue de diapositive normale |
 | SlideMasterView | `2` | Vue du masque de diapositive |
 | NotesView | `3` | Vue des notes |

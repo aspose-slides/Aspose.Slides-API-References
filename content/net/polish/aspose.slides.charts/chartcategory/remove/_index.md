@@ -1,9 +1,9 @@
 ---
 title: Remove
-second_title: Aspose.Sildes dla .NET Dokumentacja API
+second_title: Aspose.Sildes dla dokumentacji API .NET
 description: Usuwa kategorię z wykresu.
 type: docs
-weight: 60
+weight: 70
 url: /pl/aspose.slides.charts/chartcategory/remove/
 ---
 ## ChartCategory.Remove metoda

@@ -1,9 +1,9 @@
 ---
 title: MathSubscriptElementFactory
-second_title: Aspose.Sildes for .NET API 參考文件
+second_title: Aspose.Sildes for .NET API 參考
 description: 允許建立 IMathSubscriptElement
 type: docs
-weight: 9010
+weight: 9030
 url: /zh-hant/aspose.slides.mathtext/mathsubscriptelementfactory/
 ---
 ## MathSubscriptElementFactory 類別
@@ -28,7 +28,7 @@ public class MathSubscriptElementFactory : IMathSubscriptElementFactory
 
 ### 備註
 
-用於 COM 相容性
+針對 COM 相容性
 
 ### 另請參閱
 

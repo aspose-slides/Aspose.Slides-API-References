@@ -1,14 +1,14 @@
 ---
 title: Label
-second_title: Aspose.Sildes برای مرجع API .NET
-description: Label. فقط‌خواندنی IDataLabelaspose.slides.charts/idatalabel.
+second_title: Aspose.Sildes برای .NET مرجع API
+description: Label. فقط خواندنی IDataLabelaspose.slides.charts/idatalabel.
 type: docs
-weight: 140
+weight: 180
 url: /fa/aspose.slides.charts/chartdatapoint/label/
 ---
 ## ChartDataPoint.Label ویژگی
 
-Label. فقط‌خواندنی [`IDataLabel`](../../idatalabel).
+Label. فقط خواندنی [`IDataLabel`](../../idatalabel).
 
 ```csharp
 public IDataLabel Label { get; }

@@ -1,12 +1,12 @@
 ---
 title: ReplaceRegex
 second_title: Aspose.Sildes için .NET API Referansı
-description: Belirtilen dize ile düzenli ifadenin tüm eşleşmelerini değiştirir.
+description: Belirtilen dizeyle düzenli ifadenin tüm eşleşmelerini değiştirir.
 type: docs
-weight: 370
+weight: 380
 url: /tr/aspose.slides/presentation/replaceregex/
 ---
-## Presentation.ReplaceRegex metodu
+## Presentation.ReplaceRegex metod
 
 Belirtilen dizeyle düzenli ifadenin tüm eşleşmelerini değiştirir.
 
@@ -16,8 +16,8 @@ public void ReplaceRegex(Regex regex, string newText, IFindResultCallback callba
 
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| regex | Regex | Değiştirilecek dizeleri almak için kullanılan düzenli ifade Regex. |
-| newText | String | Değiştirilecek dizelerin tüm oluşumlarını değiştirecek dize. |
+| regex | Regex | Değiştirilecek dizeleri elde etmek için kullanılan düzenli ifade Regex. |
+| newText | String | Değiştirilecek dizelerin tüm örneklerini değiştirecek dize. |
 | callback | IFindResultCallback | Arama sonuçlarını almak için geri çağırma nesnesi [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### Örnekler

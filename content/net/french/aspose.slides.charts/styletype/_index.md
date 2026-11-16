@@ -3,10 +3,10 @@ title: StyleType
 second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Représente le style du graphique.
 type: docs
-weight: 2430
+weight: 2450
 url: /fr/aspose.slides.charts/styletype/
 ---
-## Enumération StyleType
+## StyleType énumération
 
 Représente le style du graphique.
 
@@ -16,7 +16,7 @@ public enum StyleType
 
 ### Valeurs
 
-| Nom | Valeur | Description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Style1 | `0` | Style 1 |
 | Style2 | `1` | Style 2 |

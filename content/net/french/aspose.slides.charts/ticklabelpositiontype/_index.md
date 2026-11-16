@@ -1,14 +1,14 @@
 ---
 title: TickLabelPositionType
 second_title: Référence API Aspose.Sildes pour .NET
-description: Représente le type de position des étiquettes de repères sur l'axe spécifié.
+description: Représente le type de position des étiquettes de marques de graduation sur l'axe spécifié.
 type: docs
-weight: 2440
+weight: 2460
 url: /fr/aspose.slides.charts/ticklabelpositiontype/
 ---
-## Énumération TickLabelPositionType
+## TickLabelPositionType énumération
 
-Représente le type de position des étiquettes de repères sur l'axe spécifié.
+Représente le type de position des étiquettes de marques de graduation sur l'axe spécifié.
 
 ```csharp
 public enum TickLabelPositionType
@@ -18,10 +18,10 @@ public enum TickLabelPositionType
 
 | Nom | Valeur | Description |
 | --- | --- | --- |
-| High | `0` | Spécifie que les étiquettes de l'axe doivent être à l'extrémité supérieure de l'axe perpendiculaire. |
-| Low | `1` | Spécifie que les étiquettes de l'axe doivent être à l'extrémité inférieure de l'axe perpendiculaire. |
-| NextTo | `2` | Spécifie que les étiquettes de l'axe doivent être à côté de l'axe. |
-| None | `3` | Spécifie que les étiquettes de l'axe ne sont pas dessinées. |
+| High | `0` | Spécifie que les étiquettes d'axe doivent être à l'extrémité haute de l'axe perpendiculaire. |
+| Low | `1` | Spécifie que les étiquettes d'axe doivent être à l'extrémité basse de l'axe perpendiculaire. |
+| NextTo | `2` | Spécifie que les étiquettes d'axe doivent être à côté de l'axe. |
+| None | `3` | Spécifie que les étiquettes d'axe ne sont pas dessinées. |
 
 ### Voir aussi
 

@@ -1,14 +1,14 @@
 ---
 title: Compress
-second_title: Aspose.Sildes pro .NET referenční příručku API
-description: Představuje skupinu metod určených ke kompresi Presentation../aspose.slides/presentation.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Representuje skupinu metod určených ke kompresi Presentation../aspose.slides/presentation.
 type: docs
-weight: 7870
+weight: 7890
 url: /cs/aspose.slides.lowcode/compress/
 ---
 ## Compress třída
 
-Představuje skupinu metod určených ke kompresi [`Presentation`](../../aspose.slides/presentation).
+Reprezentuje skupinu metod určených ke kompresi [`Presentation`](../../aspose.slides/presentation).
 
 ```csharp
 public static class Compress
@@ -18,9 +18,11 @@ public static class Compress
 
 | Název | Popis |
 | --- | --- |
-| static [CompressEmbeddedFonts](../../aspose.slides.lowcode/compress/compressembeddedfonts)(Presentation) | Provádí kompresi [`Presentation`](../../aspose.slides/presentation) odstraněním nepoužívaných znaků z vložených písem. |
-| static [RemoveUnusedLayoutSlides](../../aspose.slides.lowcode/compress/removeunusedlayoutslides)(Presentation) | Provádí kompresi [`Presentation`](../../aspose.slides/presentation) odstraněním nepoužívaných snímků rozložení. |
-| static [RemoveUnusedMasterSlides](../../aspose.slides.lowcode/compress/removeunusedmasterslides)(Presentation) | Provádí kompresi [`Presentation`](../../aspose.slides/presentation) odstraněním nepoužívaných hlavních snímků. |
+| static [CompressEmbeddedFonts](../../aspose.slides.lowcode/compress/compressembeddedfonts)(Presentation) | Provádí kompresi [`Presentation`](../../aspose.slides/presentation) odstraněním nepoužitých znaků z vložených fontů. |
+| static [CompressImages](../../aspose.slides.lowcode/compress/compressimages)(IPresentation, PicturesCompression) | Snižuje rozlišení obrázků v prezentaci a odstraňuje jejich oříznuté oblasti, podobně jako funkce PowerPoint "Compress Pictures" aplikovaná na všechny obrázky. Obrázky na snímcích, rozložení snímcích a master snímcích jsou zpracovány, včetně obrázků uvnitř skupinových tvarů a výplní obrázků tvarů. |
+| static [CompressPresentation](../../aspose.slides.lowcode/compress/compresspresentation)(Presentation) | Snižuje velikost prezentace aplikací všech dostupných kroků komprese: |
+| static [RemoveUnusedLayoutSlides](../../aspose.slides.lowcode/compress/removeunusedlayoutslides)(Presentation) | Provádí kompresi [`Presentation`](../../aspose.slides/presentation) odstraněním nepoužitých rozvržení snímků. |
+| static [RemoveUnusedMasterSlides](../../aspose.slides.lowcode/compress/removeunusedmasterslides)(Presentation) | Provádí kompresi [`Presentation`](../../aspose.slides/presentation) odstraněním nepoužitých master snímků. |
 
 ### Příklady
 

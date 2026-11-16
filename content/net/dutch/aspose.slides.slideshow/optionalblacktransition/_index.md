@@ -3,7 +3,7 @@ title: OptionalBlackTransition
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Optioneel zwart diaovergangseffect.
 type: docs
-weight: 10260
+weight: 10280
 url: /nl/aspose.slides.slideshow/optionalblacktransition/
 ---
 ## OptionalBlackTransition klasse
@@ -18,14 +18,14 @@ public class OptionalBlackTransition : TransitionValueBase, IOptionalBlackTransi
 
 | Naam | Beschrijving |
 | --- | --- |
-| [FromBlack](../../aspose.slides.slideshow/optionalblacktransition/fromblack) { get; set; } | Dit attribuut geeft aan of de overgang start vanaf een zwart scherm (en vervolgens de nieuwe dia over zwart overgaat). Lezen/schrijven Boolean. |
+| [FromBlack](../../aspose.slides.slideshow/optionalblacktransition/fromblack) { get; set; } | Dit attribuut geeft aan of de overgang begint vanaf een zwart scherm (en vervolgens de nieuwe dia over zwart overgaat). Lees/schrijf Boolean. |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Bepaalt of de twee TransitionValueBase-instanties gelijk zijn. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Dient als hash-functie voor een bepaald type, geschikt voor gebruik in hash-algoritmen en datastructuren zoals een hashtabel. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Dient als een hashfunctie voor een bepaald type, geschikt voor gebruik in hash-algoritmen en datastructuren zoals een hashtabel. |
 
 ### Zie ook
 

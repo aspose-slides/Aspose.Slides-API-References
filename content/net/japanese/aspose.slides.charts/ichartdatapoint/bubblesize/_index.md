@@ -1,14 +1,14 @@
 ---
 title: BubbleSize
 second_title: Aspose.Sildes for .NET API リファレンス
-description: チャート データ ポイントのバブル サイズを返します。 読み取り専用 IDoubleChartValueaspose.slides.charts/idoublechartvalue.
+description: チャート データ ポイントのバブル サイズを取得します。 読み取り専用 IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
 weight: 20
 url: /ja/aspose.slides.charts/ichartdatapoint/bubblesize/
 ---
 ## IChartDataPoint.BubbleSize プロパティ
 
-チャート データ ポイントのバブル サイズを返します。 読み取り専用 [`IDoubleChartValue`](../../idoublechartvalue).
+チャート データ ポイントのバブル サイズを取得します。 読み取り専用 [`IDoubleChartValue`](../../idoublechartvalue).
 
 ```csharp
 public IDoubleChartValue BubbleSize { get; }

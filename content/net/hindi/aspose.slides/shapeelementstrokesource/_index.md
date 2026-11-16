@@ -1,14 +1,14 @@
 ---
 title: ShapeElementStrokeSource
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: यह दर्शाता है कि shape तत्व को कैसे चित्रित किया जाना चाहिए।
+second_title: Aspose.Sildes .NET API संदर्भ
+description: बताता है कि shape element को कैसे चित्रित किया जाना चाहिए।
 type: docs
-weight: 9890
+weight: 9910
 url: /hi/aspose.slides/shapeelementstrokesource/
 ---
-## ShapeElementStrokeSource एन्यूमरेशन
+## ShapeElementStrokeSource एनोमरेशन
 
-प्रस्तुत करता है कि shape तत्व को कैसे चित्रित किया जाना चाहिए।
+यह दर्शाता है कि shape element को कैसे चित्रित किया जाना चाहिए।
 
 ```csharp
 public enum ShapeElementStrokeSource : byte
@@ -18,11 +18,11 @@ public enum ShapeElementStrokeSource : byte
 
 | नाम | मान | विवरण |
 | --- | --- | --- |
-| NoStroke | `0` | प्रिमिटिव पर स्ट्रोक न करें। |
-| Shape | `1` | Shape की LineFormat का उपयोग करें। |
+| NoStroke | `0` | प्रिमिटिव पर स्ट्रोक न लागू करें। |
+| Shape | `1` | shape की LineFormat का उपयोग करें। |
 | OwnStroke | `2` | अपना स्ट्रोक उपयोग करें। |
 
-### संबंधित देखें
+### देखें
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

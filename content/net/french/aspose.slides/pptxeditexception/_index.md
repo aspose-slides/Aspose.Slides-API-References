@@ -1,14 +1,14 @@
 ---
 title: PptxEditException
-second_title: Référence de l'API Aspose.Sildes pour .NET
+second_title: Aspose.Sildes pour .NET Référence d'API
 description: Représente une exception levée lorsqu'une erreur de modification de la présentation est détectée.
 type: docs
-weight: 9550
+weight: 9570
 url: /fr/aspose.slides/pptxeditexception/
 ---
 ## PptxEditException classe
 
-Représente une exception levée lorsqu'une erreur de modification de la présentation est détectée.
+Représente une exception levée lorsqu’une erreur de modification de la présentation est détectée.
 
 ```csharp
 public class PptxEditException : PptxException
@@ -19,8 +19,8 @@ public class PptxEditException : PptxException
 | Nom | Description |
 | --- | --- |
 | [PptxEditException](pptxeditexception#constructor)() | Constructeur par défaut. |
-| [PptxEditException](pptxeditexception#constructor_1)(string) | Constructeur permettant d'ajouter un message à cette exception. |
-| [PptxEditException](pptxeditexception#constructor_2)(string, Exception) | Constructeur pour une exception contenant un message et une exception interne. |
+| [PptxEditException](pptxeditexception#constructor_1)(string) | Constructeur permettant d’ajouter un message à cette exception. |
+| [PptxEditException](pptxeditexception#constructor_2)(string, Exception) | Constructeur pour une exception contenant un message et une exception imbriquée. |
 
 ### Voir aussi
 

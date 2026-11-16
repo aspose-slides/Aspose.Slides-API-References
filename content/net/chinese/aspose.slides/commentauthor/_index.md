@@ -1,14 +1,14 @@
 ---
 title: CommentAuthor
-second_title: Aspose.Sildes for .NET API 参考
-description: 表示注释的作者。
+second_title: Aspose.Sildes .NET API 参考
+description: 表示评论的作者。
 type: docs
-weight: 2630
+weight: 2650
 url: /zh/aspose.slides/commentauthor/
 ---
 ## CommentAuthor 类
 
-表示注释的作者。
+表示评论的作者。
 
 ```csharp
 public sealed class CommentAuthor : ICommentAuthor
@@ -18,15 +18,15 @@ public sealed class CommentAuthor : ICommentAuthor
 
 | 名称 | 描述 |
 | --- | --- |
-| [Comments](../../aspose.slides/commentauthor/comments) { get; } | 返回此作者所做的注释集合。只读 [`ICommentCollection`](../icommentcollection)。 |
-| [Initials](../../aspose.slides/commentauthor/initials) { get; set; } | 返回或设置作者的首字母缩写。读写 String。 |
-| [Name](../../aspose.slides/commentauthor/name) { get; set; } | 返回或设置作者的名称。读写 String。 |
+| [Comments](../../aspose.slides/commentauthor/comments) { get; } | 返回此作者所做评论的集合。只读 [`ICommentCollection`](../icommentcollection)。 |
+| [Initials](../../aspose.slides/commentauthor/initials) { get; set; } | 返回或设置作者的首字母缩写。可读写 String。 |
+| [Name](../../aspose.slides/commentauthor/name) { get; set; } | 返回或设置作者的姓名。可读写 String。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [Remove](../../aspose.slides/commentauthor/remove)() | 将作者从父集合中移除。 |
+| [Remove](../../aspose.slides/commentauthor/remove)() | 从父集合中移除作者。 |
 
 ### 另请参见
 

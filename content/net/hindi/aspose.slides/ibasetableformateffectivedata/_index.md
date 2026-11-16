@@ -1,14 +1,14 @@
 ---
 title: IBaseTableFormatEffectiveData
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: अचल वस्तुओं के लिए मूल इंटरफ़ेस जो प्रभावी तालिका स्वरूपण गुणों को शामिल करती हैं।
+description: ऐसे अपरिवर्तनीय वस्तुओं के लिए बेस इंटरफ़ेस जिसमें प्रभावी तालिका स्वरूपण गुण शामिल हैं।
 type: docs
-weight: 5360
+weight: 5380
 url: /hi/aspose.slides/ibasetableformateffectivedata/
 ---
 ## IBaseTableFormatEffectiveData इंटरफ़ेस
 
-अचल वस्तुओं के लिए मूल इंटरफ़ेस जो प्रभावी तालिका स्वरूपण गुणों को शामिल करते हैं।
+अपरिवर्तनीय वस्तुओं के लिए बेस इंटरफ़ेस जिसमें प्रभावी तालिका स्वरूपण गुण शामिल हैं।
 
 ```csharp
 public interface IBaseTableFormatEffectiveData
@@ -18,13 +18,13 @@ public interface IBaseTableFormatEffectiveData
 
 | नाम | विवरण |
 | --- | --- |
-| [BorderBottom](../../aspose.slides/ibasetableformateffectivedata/borderbottom) { get; } | निचली सीमा रेखा स्वरूप का प्रभावी मान लौटाता है। केवल-पढ़ने योग्य [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderDiagonalDown](../../aspose.slides/ibasetableformateffectivedata/borderdiagonaldown) { get; } | निचली विकर्ण रेखा स्वरूप का प्रभावी मान लौटाता है। केवल-पढ़ने योग्य [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderDiagonalUp](../../aspose.slides/ibasetableformateffectivedata/borderdiagonalup) { get; } | ऊपरी विकर्ण रेखा स्वरूप का प्रभावी मान लौटाता है। केवल-पढ़ने योग्य [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderLeft](../../aspose.slides/ibasetableformateffectivedata/borderleft) { get; } | बायाँ सीमा रेखा स्वरूप का प्रभावी मान लौटाता है। केवल-पढ़ने योग्य [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderRight](../../aspose.slides/ibasetableformateffectivedata/borderright) { get; } | दायाँ सीमा रेखा स्वरूप का प्रभावी मान लौटाता है। केवल-पढ़ने योग्य [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderTop](../../aspose.slides/ibasetableformateffectivedata/bordertop) { get; } | ऊपरी सीमा रेखा स्वरूप का प्रभावी मान लौटाता है। केवल-पढ़ने योग्य [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [FillFormat](../../aspose.slides/ibasetableformateffectivedata/fillformat) { get; } | भरण स्वरूप का प्रभावी मान लौटाता है। केवल-पढ़ने योग्य [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
+| [BorderBottom](../../aspose.slides/ibasetableformateffectivedata/borderbottom) { get; } | नीचे की बॉर्डर लाइन फ़ॉर्मेट का प्रभावी मान लौटाता है। केवल पढ़ने योग्य [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderDiagonalDown](../../aspose.slides/ibasetableformateffectivedata/borderdiagonaldown) { get; } | नीचे की विकर्ण रेखा फ़ॉर्मेट का प्रभावी मान लौटाता है। केवल पढ़ने योग्य [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderDiagonalUp](../../aspose.slides/ibasetableformateffectivedata/borderdiagonalup) { get; } | ऊपर की विकर्ण रेखा फ़ॉर्मेट का प्रभावी मान लौटाता है। केवल पढ़ने योग्य [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderLeft](../../aspose.slides/ibasetableformateffectivedata/borderleft) { get; } | बाईं बॉर्डर लाइन फ़ॉर्मेट का प्रभावी मान लौटाता है। केवल पढ़ने योग्य [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderRight](../../aspose.slides/ibasetableformateffectivedata/borderright) { get; } | दाईं बॉर्डर लाइन फ़ॉर्मेट का प्रभावी मान लौटाता है। केवल पढ़ने योग्य [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderTop](../../aspose.slides/ibasetableformateffectivedata/bordertop) { get; } | ऊपर की बॉर्डर लाइन फ़ॉर्मेट का प्रभावी मान लौटाता है। केवल पढ़ने योग्य [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [FillFormat](../../aspose.slides/ibasetableformateffectivedata/fillformat) { get; } | भराव फ़ॉर्मेट का प्रभावी मान लौटाता है। केवल पढ़ने योग्य [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
 
 ### संबंधित देखें
 

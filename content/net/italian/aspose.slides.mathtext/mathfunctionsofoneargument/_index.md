@@ -1,9 +1,9 @@
 ---
 title: MathFunctionsOfOneArgument
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per .NET Riferimento API
 description: Funzioni matematiche comuni di un argomento
 type: docs
-weight: 8740
+weight: 8760
 url: /it/aspose.slides.mathtext/mathfunctionsofoneargument/
 ---
 ## MathFunctionsOfOneArgument enumerazione
@@ -35,15 +35,15 @@ public enum MathFunctionsOfOneArgument
 | ArcSin | `14` | Arcoseno |
 | ArcCos | `15` | Arcocoseno |
 | ArcTan | `16` | Arcotangente |
-| ArcCsc | `17` | Arcocosecante |
+| ArcCsc | `17` | Arccosecante |
 | ArcSec | `18` | Arcosecante |
-| ArcCot | `19` | Arcocotangente |
+| ArcCot | `19` | Arccotangente |
 | HyperbolicArcSin | `20` | Arcoseno iperbolico |
 | HyperbolicArcCos | `21` | Arcocoseno iperbolico |
-| HyperbolicArcTan | `22` | Arcotangente iperbolica |
-| HyperbolicArcCsc | `23` | Arcocosecante iperbolica |
-| HyperbolicArcSec | `24` | Arcosecante iperbolica |
-| HyperbolicArcCot | `25` | Arcocotangente iperbolica |
+| HyperbolicArcTan | `22` | Arcotangente iperbolico |
+| HyperbolicArcCsc | `23` | Arccosecante iperbolico |
+| HyperbolicArcSec | `24` | Arcosecante iperbolico |
+| HyperbolicArcCot | `25` | Arccotangente iperbolico |
 
 ### Vedi anche
 

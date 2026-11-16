@@ -1,14 +1,14 @@
 ---
 title: ExcelDataWorkbook
-second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili sebuah workbook yang menyediakan akses ke data Excel untuk penggunaan umum.
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Mewakili workbook yang menyediakan akses ke data Excel untuk penggunaan umum.
 type: docs
-weight: 3690
+weight: 3710
 url: /id/aspose.slides.excel/exceldataworkbook/
 ---
 ## ExcelDataWorkbook kelas
 
-Mewakili sebuah buku kerja yang menyediakan akses ke data Excel untuk penggunaan umum.
+Mewakili workbook yang menyediakan akses ke data Excel untuk penggunaan umum.
 
 ```csharp
 public class ExcelDataWorkbook : IExcelDataWorkbook
@@ -16,22 +16,22 @@ public class ExcelDataWorkbook : IExcelDataWorkbook
 
 ## Konstruktor
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
-| [ExcelDataWorkbook](exceldataworkbook#constructor)(Stream) | Menginisialisasi instance baru dari kelas menggunakan stream yang disediakan. |
-| [ExcelDataWorkbook](exceldataworkbook#constructor_1)(string) | Menginisialisasi instance baru menggunakan jalur file yang ditentukan. |
+| [ExcelDataWorkbook](exceldataworkbook#constructor)(Stream) | Memulai instance baru dari kelas menggunakan stream yang disediakan. |
+| [ExcelDataWorkbook](exceldataworkbook#constructor_1)(string) | Memulai instance baru menggunakan jalur file yang ditentukan. |
 
 ## Metode
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
-| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell_1)(int, string) | Mengambil sel dari lembar kerja yang ditentukan menggunakan indeksnya dan nama sel gaya Excel (mis., "B2"). |
-| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell_3)(string, string) | Mengambil sel dari lembar kerja yang ditentukan menggunakan nama sel gaya Excel (mis., "B2"). |
+| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell_1)(int, string) | Mengambil sel dari lembar kerja yang ditentukan menggunakan indeksnya dan nama sel bergaya Excel (mis., "B2"). |
+| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell_3)(string, string) | Mengambil sel dari lembar kerja yang ditentukan menggunakan nama sel bergaya Excel (mis., "B2"). |
 | [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell)(int, int, int) | Mengambil sel dari lembar kerja yang ditentukan menggunakan indeksnya dan koordinat sel. |
 | [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell_2)(string, int, int) | Mengambil sel dari lembar kerja yang ditentukan menggunakan namanya dan koordinat sel. |
-| [GetCells](../../aspose.slides.excel/exceldataworkbook/getcells)(string, bool) | Mengambil kumpulan sel dari buku kerja yang cocok dengan rumus yang ditentukan. |
-| [GetChartsFromWorksheet](../../aspose.slides.excel/exceldataworkbook/getchartsfromworksheet)(string) | Mengambil kamus yang berisi indeks dan nama semua diagram dalam lembar kerja yang ditentukan dari buku kerja Excel. |
-| [GetWorksheetNames](../../aspose.slides.excel/exceldataworkbook/getworksheetnames)() | Mengambil nama semua lembar kerja yang terdapat dalam buku kerja Excel. |
+| [GetCells](../../aspose.slides.excel/exceldataworkbook/getcells)(string, bool) | Mengambil kumpulan sel dari workbook yang cocok dengan rumus yang ditentukan. |
+| [GetChartsFromWorksheet](../../aspose.slides.excel/exceldataworkbook/getchartsfromworksheet)(string) | Mengambil kamus yang berisi indeks dan nama semua bagan di lembar kerja yang ditentukan dari sebuah workbook Excel. |
+| [GetWorksheetNames](../../aspose.slides.excel/exceldataworkbook/getworksheetnames)() | Mengambil nama semua lembar kerja yang terdapat dalam workbook Excel. |
 
 ### Lihat Juga
 

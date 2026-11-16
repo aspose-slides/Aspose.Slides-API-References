@@ -1,14 +1,14 @@
 ---
 title: QuartileMethodType
-second_title: Aspose.Sildes .NET API referencia
+second_title: Aspose.Sildes .NET API hivatkozás
 description: Visszaadja a kvartilis módszer típusát
 type: docs
-weight: 2390
+weight: 2410
 url: /hu/aspose.slides.charts/quartilemethodtype/
 ---
-## QuartileMethodType enumeráció
+## QuartileMethodType felsorolás
 
-Visszaadja a kvartilis módszer típusát
+A kvartilis módszer típusát adja vissza
 
 ```csharp
 public enum QuartileMethodType
@@ -18,8 +18,8 @@ public enum QuartileMethodType
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| Exclusive | `0` | Az exkluzív kvartilis módszert jelöli. |
-| Inclusive | `1` | Az inkluzív kvartilis módszert jelöli. |
+| Exclusive | `0` | Az exclusive kvartilis módszert jelenti. |
+| Inclusive | `1` | Az inclusive kvartilis módszert jelenti. |
 
 ### Lásd még
 

@@ -3,7 +3,7 @@ title: OuterShadow
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示外部阴影效果。
 type: docs
-weight: 3620
+weight: 3640
 url: /zh/aspose.slides.effects/outershadow/
 ---
 ## OuterShadow 类
@@ -18,24 +18,24 @@ public sealed class OuterShadow : IOuterShadow
 
 | 名称 | 描述 |
 | --- | --- |
-| [BlurRadius](../../aspose.slides.effects/outershadow/blurradius) { get; set; } | 模糊半径，单位为点。默认值 – 0 pt。读/写 Double。 |
-| [Direction](../../aspose.slides.effects/outershadow/direction) { get; set; } | 阴影方向，以度为单位。默认值 – 0 °（从左到右）。读/写 Single。 |
-| [Distance](../../aspose.slides.effects/outershadow/distance) { get; set; } | 阴影与对象的距离，单位为点。默认值 – 0 pt。读/写 Double。 |
-| [RectangleAlign](../../aspose.slides.effects/outershadow/rectanglealign) { get; set; } | 矩形对齐方式。默认值 – Bottom。读/写 [`RectangleAlignment`](../../aspose.slides/rectanglealignment)。 |
-| [RotateShadowWithShape](../../aspose.slides.effects/outershadow/rotateshadowwithshape) { get; set; } | 指示阴影是否随形状一起旋转。默认值 – true。读/写 Boolean。 |
-| [ScaleHorizontal](../../aspose.slides.effects/outershadow/scalehorizontal) { get; set; } | 水平缩放因子，以原始尺寸的百分比表示。负缩放会导致翻转。默认值 – 100%。读/写 Double。 |
-| [ScaleVertical](../../aspose.slides.effects/outershadow/scalevertical) { get; set; } | 垂直缩放因子，以原始尺寸的百分比表示。负缩放会导致翻转。默认值 – 100%。读/写 Double。 |
+| [BlurRadius](../../aspose.slides.effects/outershadow/blurradius) { get; set; } | 模糊半径，以点为单位。默认值 – 0 pt。可读写 Double。 |
+| [Direction](../../aspose.slides.effects/outershadow/direction) { get; set; } | 阴影方向，以度为单位。默认值 – 0 °（从左到右）。可读写 Single。 |
+| [Distance](../../aspose.slides.effects/outershadow/distance) { get; set; } | 阴影与对象的距离，以点为单位。默认值 – 0 pt。可读写 Double。 |
+| [RectangleAlign](../../aspose.slides.effects/outershadow/rectanglealign) { get; set; } | 矩形对齐。默认值 – Bottom。可读写 [`RectangleAlignment`](../../aspose.slides/rectanglealignment)。 |
+| [RotateShadowWithShape](../../aspose.slides.effects/outershadow/rotateshadowwithshape) { get; set; } | 指示阴影是否随形状一起旋转。默认值 – true。可读写 Boolean。 |
+| [ScaleHorizontal](../../aspose.slides.effects/outershadow/scalehorizontal) { get; set; } | 水平缩放系数，以原始大小的百分比表示。负缩放会导致翻转。默认值 – 100 %。可读写 Double。 |
+| [ScaleVertical](../../aspose.slides.effects/outershadow/scalevertical) { get; set; } | 垂直缩放系数，以原始大小的百分比表示。负缩放会导致翻转。默认值 – 100 %。可读写 Double。 |
 | [ShadowColor](../../aspose.slides.effects/outershadow/shadowcolor) { get; } | 阴影颜色。默认值 – 自动黑色（受主题影响）。只读 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
-| [SkewHorizontal](../../aspose.slides.effects/outershadow/skewhorizontal) { get; set; } | 水平倾斜角度，以度为单位。默认值 – 0 °。读/写 Double。 |
-| [SkewVertical](../../aspose.slides.effects/outershadow/skewvertical) { get; set; } | 垂直倾斜角度，以度为单位。默认值 – 0 °。读/写 Double。 |
+| [SkewHorizontal](../../aspose.slides.effects/outershadow/skewhorizontal) { get; set; } | 水平倾斜角，以度为单位。默认值 – 0 °。可读写 Double。 |
+| [SkewVertical](../../aspose.slides.effects/outershadow/skewvertical) { get; set; } | 垂直倾斜角，以度为单位。默认值 – 0 °。可读写 Double。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/outershadow/equals)(object) | 确定指定的 [`OuterShadow`](../outershadow) 是否等于当前的 [`OuterShadow`](../outershadow)。 |
-| [GetEffective](../../aspose.slides.effects/outershadow/geteffective)() | 获取在应用继承后的有效外部阴影效果数据。 |
-| override [GetHashCode](../../aspose.slides.effects/outershadow/gethashcode)() | 充当特定类型的哈希函数。 |
+| [GetEffective](../../aspose.slides.effects/outershadow/geteffective)() | 获取应用继承后的有效外部阴影效果数据。 |
+| override [GetHashCode](../../aspose.slides.effects/outershadow/gethashcode)() | 作为特定类型的哈希函数。 |
 
 ### 另见
 

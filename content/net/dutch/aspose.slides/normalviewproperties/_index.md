@@ -1,14 +1,14 @@
 ---
 title: NormalViewProperties
 second_title: Aspose.Sildes voor .NET API-referentie
-description: "Geeft de eigenschappen van de normale weergave weer. De normale weergave bestaat uit drie inhoudsgebieden: de dia zelf, een zij-inhoudsgebied en een onder-inhoudsgebied."
+description: Stelt normale weergave-eigenschappen voor. De normale weergave bestaat uit drie inhoudsgebieden: de dia zelf, een zij-inhoudsgebied en een onder-inhoudsgebied.
 type: docs
-weight: 9110
+weight: 9130
 url: /nl/aspose.slides/normalviewproperties/
 ---
 ## NormalViewProperties klasse
 
-Geeft de eigenschappen van de normale weergave weer. De normale weergave bestaat uit drie inhoudsgebieden: de dia zelf, een zij-inhoudsgebied en een onder-inhoudsgebied.
+Stelt de eigenschappen van de normale weergave voor. De normale weergave bestaat uit drie inhoudsgebieden: de dia zelf, een zij-inhoudsgebied en een onder-inhoudsgebied.
 
 ```csharp
 public class NormalViewProperties : INormalViewProperties
@@ -18,21 +18,21 @@ public class NormalViewProperties : INormalViewProperties
 
 | Naam | Beschrijving |
 | --- | --- |
-| [HorizontalBarState](../../aspose.slides/normalviewproperties/horizontalbarstate) { get; set; } | Specificeert de toestand waarin de horizontale scheidingsbalk moet worden weergegeven. Een horizontale scheidingsbalk scheidt de dia van het inhoudsgebied onder de dia. |
-| [PreferSingleView](../../aspose.slides/normalviewproperties/prefersingleview) { get; set; } | Specificeert of de gebruiker de voorkeur geeft aan een volledig venster met één inhoudsgebied boven de standaard normale weergave met drie inhoudsgebieden. Indien ingeschakeld kan de applicatie ervoor kiezen om één van de inhoudsgebieden in het volledige venster weer te geven. Lees/Schrijf Boolean. |
+| [HorizontalBarState](../../aspose.slides/normalviewproperties/horizontalbarstate) { get; set; } | Specificeert de staat waarin de horizontale splitterbalk moet worden weergegeven. Een horizontale splitterbalk scheidt de dia van het inhoudsgebied onder de dia. |
+| [PreferSingleView](../../aspose.slides/normalviewproperties/prefersingleview) { get; set; } | Geeft aan of de gebruiker de voorkeur geeft aan een enkel inhoudsgebied op volledig venster boven de standaard normale weergave met drie inhoudsgebieden. Indien ingeschakeld, kan de applicatie ervoor kiezen om een van de inhoudsgebieden in het volledige venster weer te geven. Lezen/Schrijven Boolean. |
 | [RestoredLeft](../../aspose.slides/normalviewproperties/restoredleft) { get; } | Dit element specificeert de grootte van het zij-inhoudsgebied van de normale weergave, wanneer het gebied een variabele herstelde grootte heeft (noch geminimaliseerd, noch gemaximaliseerd). Alleen-lezen [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
 | [RestoredTop](../../aspose.slides/normalviewproperties/restoredtop) { get; } | Dit element specificeert de grootte van het bovenste dia-gebied van de normale weergave, wanneer het gebied een variabele herstelde grootte heeft (noch geminimaliseerd, noch gemaximaliseerd). Alleen-lezen [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
-| [ShowOutlineIcons](../../aspose.slides/normalviewproperties/showoutlineicons) { get; set; } | Specificeert of de applicatie pictogrammen moet tonen bij het weergeven van overzichtsinhoud in een van de inhoudsgebieden van de normale weergavemodus. Lees/Schrijf Boolean. |
-| [SnapVerticalSplitter](../../aspose.slides/normalviewproperties/snapverticalsplitter) { get; set; } | Specificeert of de verticale scheidingsbalk moet vastklampen aan een geminimaliseerde toestand wanneer het zijgebied voldoende klein is. Lees/Schrijf Boolean. |
-| [VerticalBarState](../../aspose.slides/normalviewproperties/verticalbarstate) { get; set; } | Specificeert de toestand waarin de verticale scheidingsbalk moet worden weergegeven. Een verticale scheidingsbalk scheidt de dia van het zij-inhoudsgebied. |
+| [ShowOutlineIcons](../../aspose.slides/normalviewproperties/showoutlineicons) { get; set; } | Geeft aan of de applicatie pictogrammen moet weergeven bij het tonen van de outline-inhoud in een van de inhoudsgebieden van de normale weergavemodus. Lezen/Schrijven Boolean. |
+| [SnapVerticalSplitter](../../aspose.slides/normalviewproperties/snapverticalsplitter) { get; set; } | Geeft aan of de verticale splitter moet vastklikken op een geminimaliseerde staat wanneer het zij-gebied voldoende klein is. Lezen/Schrijven Boolean. |
+| [VerticalBarState](../../aspose.slides/normalviewproperties/verticalbarstate) { get; set; } | Specificeert de staat waarin de verticale splitterbalk moet worden weergegeven. Een verticale splitterbalk scheidt de dia van het zij-inhoudsgebied. |
 
 ### Voorbeelden
 
-Het volgende voorbeeld toont hoe de ViewProperties.NormalViewProperties-eigenschappen van een PowerPoint-presentatie kunnen worden geconfigureerd.
+Het volgende voorbeeld toont hoe de eigenschappen van ViewProperties.NormalViewProperties van een PowerPoint-presentatie geconfigureerd kunnen worden.
 
 ```csharp
 [C#]
-//Instantieer een presentatieobject dat een presentatiebestand vertegenwoordigt
+//Instantieer een presentatie-object dat een presentatiebestand vertegenwoordigt
 using (Presentation pres = new Presentation("demo.pptx"))
 {
     pres.ViewProperties.NormalViewProperties.HorizontalBarState = SplitterBarStateType.Restored;

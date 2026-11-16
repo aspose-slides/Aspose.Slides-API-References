@@ -1,12 +1,12 @@
 ---
 title: LineFormat
-second_title: Aspose.Sildes для .NET API справочник
+second_title: Aspose.Sildes для .NET API Reference
 description: Представляет формат линии.
 type: docs
-weight: 7790
+weight: 7810
 url: /ru/aspose.slides/lineformat/
 ---
-## Класс LineFormat
+## LineFormat класс
 
 Представляет формат линии.
 
@@ -32,10 +32,10 @@ public sealed class LineFormat : PVIObject, ILineFormat
 | [FillFormat](../../aspose.slides/lineformat/fillformat) { get; } | Возвращает формат заливки линии. Только для чтения [`ILineFillFormat`](../ilinefillformat). |
 | [IsFormatNotDefined](../../aspose.slides/lineformat/isformatnotdefined) { get; } | Возвращает true, если формат линии не определён (только что создан, по умолчанию). Только для чтения Boolean. |
 | [JoinStyle](../../aspose.slides/lineformat/joinstyle) { get; set; } | Возвращает или задает стиль соединения линий. Чтение/запись [`LineJoinStyle`](../linejoinstyle). |
-| [MiterLimit](../../aspose.slides/lineformat/miterlimit) { get; set; } | Возвращает или задает предельный угол среза линии. Чтение/запись Single. |
-| [SketchFormat](../../aspose.slides/lineformat/sketchformat) { get; } | Возвращает формат наброска линии. Только для чтения [`ILineFillFormat`](../ilinefillformat). |
+| [MiterLimit](../../aspose.slides/lineformat/miterlimit) { get; set; } | Возвращает или задает предел среза линии. Чтение/запись Single. |
+| [SketchFormat](../../aspose.slides/lineformat/sketchformat) { get; } | Возвращает формат эскиза линии. Только для чтения [`ILineFillFormat`](../ilinefillformat). |
 | [Style](../../aspose.slides/lineformat/style) { get; set; } | Возвращает или задает стиль линии. Чтение/запись [`LineStyle`](../linestyle). |
-| [Width](../../aspose.slides/lineformat/width) { get; set; } | Возвращает или задает ширину линии. Чтение/запись Double. |
+| [Width](../../aspose.slides/lineformat/width) { get; set; } | Возвращает или задает толщину линии. Чтение/запись Double. |
 
 ## Методы
 
@@ -43,8 +43,8 @@ public sealed class LineFormat : PVIObject, ILineFormat
 | --- | --- |
 | [Equals](../../aspose.slides/lineformat/equals#equals)(ILineFormat) | Определяет, равны ли два экземпляра LineFormat. |
 | override [Equals](../../aspose.slides/lineformat/equals#equals_1)(object) |  |
-| [GetEffective](../../aspose.slides/lineformat/geteffective)() | Получает эффективные данные форматирования линии с применённым наследованием. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Возвращает код хеша. |
+| [GetEffective](../../aspose.slides/lineformat/geteffective)() | Получает эффективные данные форматирования линии с учётом наследования. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Возвращает код хэша. |
 
 ### См. также
 

@@ -1,14 +1,14 @@
 ---
 title: GetEnumerator
 second_title: Aspose.Sildes pro .NET API Reference
-description: Vrátí enumerátor, který prochází kolekcí.
+description: Vrací enumerátor, který prochází kolekcí.
 type: docs
-weight: 90
+weight: 100
 url: /cs/aspose.slides.charts/datalabelcollection/getenumerator/
 ---
 ## DataLabelCollection.GetEnumerator metoda
 
-Vrátí enumerátor, který prochází kolekci.
+Vrací enumerátor, který prochází kolekcí.
 
 ```csharp
 public IEnumerator<IDataLabel> GetEnumerator()
@@ -16,7 +16,7 @@ public IEnumerator<IDataLabel> GetEnumerator()
 
 ### Návratová hodnota
 
-IEnumerator, který lze použít k procházení kolekce.
+IEnumerator, který lze použít k iteraci přes kolekci.
 
 ### Viz také
 

@@ -3,7 +3,7 @@ title: ITextToHtmlConversionOptions
 second_title: Aspose.Sildes for .NET API リファレンス
 description: Pptx テキストから HTML を抽出するためのオプションです。
 type: docs
-weight: 4160
+weight: 4180
 url: /ja/aspose.slides.export/itexttohtmlconversionoptions/
 ---
 ## ITextToHtmlConversionOptions インターフェイス
@@ -18,10 +18,10 @@ public interface ITextToHtmlConversionOptions
 
 | 名前 | 説明 |
 | --- | --- |
-| [AddClipboardFragmentHeader](../../aspose.slides.export/itexttohtmlconversionoptions/addclipboardfragmentheader) { get; set; } | Clipboard ヘッダーを追加するかどうかを示す値を取得または設定します。読み書き Boolean. |
-| [EncodingName](../../aspose.slides.export/itexttohtmlconversionoptions/encodingname) { get; set; } | HTML エンコーディング名を取得または設定します。この値は生成された HTML ファイルに保存されますが、ファイルがこのエンコーディングで保存されることを保証するのは呼び出し側の責任です。読み書き String. |
-| [LinkEmbedController](../../aspose.slides.export/itexttohtmlconversionoptions/linkembedcontroller) { get; set; } | 外部オブジェクトの保存方法を制御するコールバックオブジェクトを取得または設定します。読み書き [`ILinkEmbedController`](../ilinkembedcontroller). |
-| [TextInheritanceLimit](../../aspose.slides.export/itexttohtmlconversionoptions/textinheritancelimit) { get; set; } | テキストプロパティの継承深さを取得または設定します。読み書き [`TextInheritanceLimit`](./textinheritancelimit). |
+| [AddClipboardFragmentHeader](../../aspose.slides.export/itexttohtmlconversionoptions/addclipboardfragmentheader) { get; set; } | 値を取得または設定します。クリップボード ヘッダーを追加するかどうかを示します。読み取り/書き込み Boolean。 |
+| [EncodingName](../../aspose.slides.export/itexttohtmlconversionoptions/encodingname) { get; set; } | HTML エンコーディング名を取得または設定します。この値は生成された HTML ファイルに保存されますが、ファイルがこのエンコーディングで保存されることを呼び出し元が保証する必要があります。読み取り/書き込み String。 |
+| [LinkEmbedController](../../aspose.slides.export/itexttohtmlconversionoptions/linkembedcontroller) { get; set; } | 外部オブジェクトの保存方法を制御するコールバック オブジェクトを取得または設定します。読み取り/書き込み [`ILinkEmbedController`](../ilinkembedcontroller)。 |
+| [TextInheritanceLimit](../../aspose.slides.export/itexttohtmlconversionoptions/textinheritancelimit) { get; set; } | テキスト プロパティの継承深度を取得または設定します。読み取り/書き込み [`TextInheritanceLimit`](./textinheritancelimit)。 |
 
 ### 参照
 

@@ -1,14 +1,14 @@
 ---
 title: IRowCollection
-second_title: Aspose.Sildes .NET API hivatkozás
-description: A táblázat sorainak gyűjteményét képviseli.
+second_title: Aspose.Sildes .NET API-referencia
+description: A táblázat sorok gyűjteményét jelöli.
 type: docs
-weight: 6860
+weight: 6880
 url: /hu/aspose.slides/irowcollection/
 ---
 ## IRowCollection interfész
 
-A táblázat sorainak gyűjteményét képviseli.
+A táblázat sorok gyűjteményét jelöli.
 
 ```csharp
 public interface IRowCollection : IGenericCollection<IRow>
@@ -18,14 +18,14 @@ public interface IRowCollection : IGenericCollection<IRow>
 
 | Név | Leírás |
 | --- | --- |
-| [Item](../../aspose.slides/irowcollection/item) { get; } | Lekéri a megadott indexű elemet. |
+| [Item](../../aspose.slides/irowcollection/item) { get; } | A megadott indexű elemet adja vissza. |
 
-## Módszerek
+## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [AddClone](../../aspose.slides/irowcollection/addclone)(IRow, bool) | Létrehoz egy másolatot a megadott sablon sorból, és a táblázat aljára illeszti. |
-| [InsertClone](../../aspose.slides/irowcollection/insertclone)(int, IRow, bool) | Létrehoz egy másolatot a megadott sablon sorból, és a táblázat megadott pozíciójába illeszti. |
+| [AddClone](../../aspose.slides/irowcollection/addclone)(IRow, bool) | Létrehoz egy másolatot a megadott sablonsorról, és a táblázat aljára illeszti. |
+| [InsertClone](../../aspose.slides/irowcollection/insertclone)(int, IRow, bool) | Létrehoz egy másolatot a megadott sablonsorról, és a táblázat megadott pozíciójába illeszti. |
 | [RemoveAt](../../aspose.slides/irowcollection/removeat)(int, bool) | Eltávolít egy sort a táblázat megadott pozíciójából. |
 
 ### Lásd még

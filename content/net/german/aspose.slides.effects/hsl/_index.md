@@ -1,14 +1,14 @@
 ---
 title: HSL
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt einen Hue/Saturation/Luminance-Effekt dar. Der Farbton, die Sättigung und die Helligkeit können jeweils relativ zu ihrem aktuellen Wert angepasst werden.
+description: Stellt einen Hue/Saturation/Luminance-Effekt dar. Der Farbton, die Sättigung und die Luminanz können jeweils relativ zu ihrem aktuellen Wert angepasst werden.
 type: docs
-weight: 3010
+weight: 3030
 url: /de/aspose.slides.effects/hsl/
 ---
-## HSL-Klasse
+## HSL Klasse
 
-Stellt einen Hue/Saturation/Luminance-Effekt dar. Farbton, Sättigung und Helligkeit können jeweils relativ zu ihrem aktuellen Wert angepasst werden.
+Represents a Hue/Saturation/Luminance effect. The hue, saturation, and luminance may each be adjusted relative to its current value.
 
 ```csharp
 public sealed class HSL : ImageTransformOperation, IHSL
@@ -16,13 +16,13 @@ public sealed class HSL : ImageTransformOperation, IHSL
 
 ## Eigenschaften
 
-| Name | Description |
+| Name | Beschreibung |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Ermöglicht das Abrufen der Basis-IPresentationComponent-Schnittstelle. Nur lesbar [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Methoden
 
-| Name | Description |
+| Name | Beschreibung |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/hsl/equals)(object) | Bestimmt, ob das angegebene [`HSL`](../hsl) gleich dem aktuellen [`HSL`](../hsl) ist. |
 | [GetEffective](../../aspose.slides.effects/hsl/geteffective)() | Ruft die wirksamen Hue/Saturation/Luminance-Effektdaten ab, bei denen die Vererbung angewendet wurde. |

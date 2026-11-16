@@ -1,14 +1,14 @@
 ---
 title: FillOverlay
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar en Fill Overlay-effekt. En fill overlay kan användas för att ange ett ytterligare fyllnad för ett objekt och blanda de två fyllnaderna tillsammans.
+description: Representerar en Fill Overlay-effekt. En fill overlay kan användas för att ange en extra fyllning för ett objekt och blanda de två fyllningarna tillsammans.
 type: docs
-weight: 2980
+weight: 3000
 url: /sv/aspose.slides.effects/filloverlay/
 ---
 ## FillOverlay klass
 
-Representerar en Fill Overlay-effekt. En fill overlay kan användas för att ange ett ytterligare fyllnad för ett objekt och blanda de två fyllnaderna tillsammans.
+Representerar en Fill Overlay-effekt. En fill overlay kan användas för att ange ett extra fyllnad för ett objekt och blanda de två fyllnaderna tillsammans.
 
 ```csharp
 public sealed class FillOverlay : ImageTransformOperation, IFillOverlay
@@ -18,19 +18,19 @@ public sealed class FillOverlay : ImageTransformOperation, IFillOverlay
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Tillåter att hämta bas-IPresentationComponent-gränssnittet. Skrivskyddad [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Tillåter att hämta bas-IPresentationComponent-gränssnittet. Endast läsning [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 | [Blend](../../aspose.slides.effects/filloverlay/blend) { get; set; } | FillBlendMode. Läs/skriv [`FillBlendMode`](../../aspose.slides/fillblendmode). |
-| [FillFormat](../../aspose.slides.effects/filloverlay/fillformat) { get; } | Fill format. Skrivskyddad [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [FillFormat](../../aspose.slides.effects/filloverlay/fillformat) { get; } | Fill-format. Endast läsning [`IFillFormat`](../../aspose.slides/ifillformat). |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/filloverlay/equals)(object) | Bestämmer om den angivna [`FillOverlay`](../filloverlay) är lika med den aktuella [`FillOverlay`](../filloverlay). |
-| [GetEffective](../../aspose.slides.effects/filloverlay/geteffective)() | Hämtar effektiv Fill Overlay-effektsdata med ärvning tillämpad. |
+| [GetEffective](../../aspose.slides.effects/filloverlay/geteffective)() | Hämtar effektiv Fill Overlay-effektdat med ärftlighet tillämpad. |
 | override [GetHashCode](../../aspose.slides.effects/filloverlay/gethashcode)() | Fungerar som en hash-funktion för en viss typ. |
 
-### Se även
+### Se också
 
 * klass [ImageTransformOperation](../imagetransformoperation)
 * gränssnitt [IFillOverlay](../ifilloverlay)

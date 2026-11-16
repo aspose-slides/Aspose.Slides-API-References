@@ -1,20 +1,20 @@
 ---
 title: SwitchRowColumn
 second_title: Aspose.Sildes için .NET API Referansı
-description: Verileri eksen üzerinde değiştir. X ekseninde grafiklenen veriler Y eksenine taşınacak ve tersine.
+description: Verileri eksen boyunca değiştirir. X ekseninde grafiğe alınan veriler Y eksenine, Y ekseninde grafiğe alınan veriler ise X eksenine taşınır.
 type: docs
-weight: 140
+weight: 150
 url: /tr/aspose.slides.charts/chartdata/switchrowcolumn/
 ---
-## ChartData.SwitchRowColumn metod
+## ChartData.SwitchRowColumn yöntemi
 
-Verileri eksen boyunca değiştir. X ekseninde grafiklenen veri Y eksenine taşınacak ve tersine.
+Verileri eksen boyunca değiştirir. X ekseninde grafiğe alınan veriler Y eksenine, Y ekseninde grafiğe alınan veriler ise X eksenine taşınır.
 
 ```csharp
 public void SwitchRowColumn()
 ```
 
-### Ayrıca Bakınız
+### Bakınız
 
 * sınıf [ChartData](../../chartdata)
 * ad alanı [Aspose.Slides.Charts](../../chartdata)

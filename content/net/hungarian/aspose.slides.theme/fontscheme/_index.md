@@ -1,14 +1,14 @@
 ---
 title: FontScheme
-second_title: Aspose.Sildes .NET API referencia
-description: Tárolja a téma által definiált betűtípusokat.
+second_title: Aspose.Sildes .NET API referenciához
+description: A téma által meghatározott betűtípusokat tárolja.
 type: docs
-weight: 11130
+weight: 11150
 url: /hu/aspose.slides.theme/fontscheme/
 ---
 ## FontScheme osztály
 
-Tárolja a témával definiált betűtípusokat.
+A téma által definiált betűtípusokat tárolja.
 
 ```csharp
 public class FontScheme : IFontScheme
@@ -18,9 +18,9 @@ public class FontScheme : IFontScheme
 
 | Név | Leírás |
 | --- | --- |
-| [Major](../../aspose.slides.theme/fontscheme/major) { get; } | Visszaadja a betűtípus-gyűjteményt a dia "heading" részéhez. Csak olvasható [`IFonts`](../../aspose.slides/ifonts). |
-| [Minor](../../aspose.slides.theme/fontscheme/minor) { get; } | Visszaadja a betűtípus-gyűjteményt a dia "body" részéhez. Csak olvasható [`IFonts`](../../aspose.slides/ifonts). |
-| [Name](../../aspose.slides.theme/fontscheme/name) { get; set; } | Visszaadja a betűtípus-séma nevét. Olvasható/írható String. |
+| [Major](../../aspose.slides.theme/fontscheme/major) { get; } | Visszaadja a betűtípusok gyűjteményét a diák "fejléc" részéhez. Csak olvasható [`IFonts`](../../aspose.slides/ifonts). |
+| [Minor](../../aspose.slides.theme/fontscheme/minor) { get; } | Visszaadja a betűtípusok gyűjteményét a diák "törzs" részéhez. Csak olvasható [`IFonts`](../../aspose.slides/ifonts). |
+| [Name](../../aspose.slides.theme/fontscheme/name) { get; set; } | Visszaadja a betűtípus-séma nevét. Olvasás/írás String. |
 
 ### Lásd még
 

@@ -1,14 +1,14 @@
 ---
 title: HandoutType
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
-description: ระบุจำนวนสไลด์และลำดับที่สไลด์จะถูกวางบนหน้า.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: ระบุจำนวนสไลด์และลำดับที่จะวางบนหน้า
 type: docs
-weight: 3850
+weight: 3870
 url: /th/aspose.slides.export/handouttype/
 ---
-## การนับ HandoutType
+## การกำหนดค่า HandoutType enumeration
 
-ระบุจำนวนสไลด์และลำดับที่สไลด์จะวางบนหน้า
+ระบุจำนวนสไลด์และลำดับที่จะวางบนหน้า
 
 ```csharp
 public enum HandoutType
@@ -18,15 +18,15 @@ public enum HandoutType
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
-| Handouts1 | `0` | หนึ่งสไลด์ต่อหน้า. |
-| Handouts2 | `1` | สองสไลด์ต่อหน้า. |
-| Handouts3 | `2` | สามสไลด์ต่อหน้า. |
-| Handouts4Horizontal | `3` | สี่สไลด์ต่อหน้าในลำดับแนวนอน. |
-| Handouts4Vertical | `4` | สี่สไลด์ต่อหน้าในลำดับแนวตั้ง. |
-| Handouts6Horizontal | `5` | หกสไลด์ต่อหน้าในลำดับแนวนอน. |
-| Handouts6Vertical | `6` | หกสไลด์ต่อหน้าในลำดับแนวตั้ง. |
-| Handouts9Horizontal | `7` | เก้าสไลด์ต่อหน้าในลำดับแนวนอน. |
-| Handouts9Vertical | `8` | เก้าสไลด์ต่อหน้าในลำดับแนวตั้ง. |
+| Handouts1 | `0` | หนึ่งสไลด์ต่อหน้า |
+| Handouts2 | `1` | สองสไลด์ต่อหน้า |
+| Handouts3 | `2` | สามสไลด์ต่อหน้า |
+| Handouts4Horizontal | `3` | สี่สไลด์ต่อหน้าในลำดับแนวนอน |
+| Handouts4Vertical | `4` | สี่สไลด์ต่อหน้าในลำดับแนวตั้ง |
+| Handouts6Horizontal | `5` | หกสไลด์ต่อหน้าในลำดับแนวนอน |
+| Handouts6Vertical | `6` | หกสไลด์ต่อหน้าในลำดับแนวตั้ง |
+| Handouts9Horizontal | `7` | เก้าสตไลด์ต่อหน้าในลำดับแนวนอน |
+| Handouts9Vertical | `8` | เก้าสตไลด์ต่อหน้าในลำดับแนวตั้ง |
 
 ### ดูเพิ่มเติม
 

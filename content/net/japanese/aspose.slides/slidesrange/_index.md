@@ -3,12 +3,12 @@ title: SlidesRange
 second_title: Aspose.Sildes for .NET API リファレンス
 description: スライド範囲
 type: docs
-weight: 10530
+weight: 10550
 url: /ja/aspose.slides/slidesrange/
 ---
 ## SlidesRange クラス
 
-スライドの範囲
+スライド範囲
 
 ```csharp
 public class SlidesRange
@@ -16,13 +16,13 @@ public class SlidesRange
 
 ## コンストラクタ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [SlidesRange](slidesrange)() | デフォルトコンストラクタです。 |
+| [SlidesRange](slidesrange)() | デフォルト コンストラクタ。 |
 
 ## プロパティ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
 | [End](../../aspose.slides/slidesrange/end) { get; set; } | 終了 |
 | [Start](../../aspose.slides/slidesrange/start) { get; set; } | 開始 |

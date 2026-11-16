@@ -3,7 +3,7 @@ title: IEffectStyleEffectiveData
 second_title: Aspose.Sildes for .NET API 参考
 description: 不可变对象，包含有效的效果样式属性。
 type: docs
-weight: 11200
+weight: 11220
 url: /zh/aspose.slides.theme/ieffectstyleeffectivedata/
 ---
 ## IEffectStyleEffectiveData 接口
@@ -18,14 +18,14 @@ public interface IEffectStyleEffectiveData
 
 | 名称 | 描述 |
 | --- | --- |
-| [EffectFormat](../../aspose.slides.theme/ieffectstyleeffectivedata/effectformat) { get; } | 返回一个效果格式。只读 [`IEffectFormatEffectiveData`](../../aspose.slides/ieffectformateffectivedata)。 |
-| [ThreeDFormat](../../aspose.slides.theme/ieffectstyleeffectivedata/threedformat) { get; } | 返回一个 3d 格式。只读 [`IThreeDFormatEffectiveData`](../../aspose.slides/ithreedformateffectivedata)。 |
+| [EffectFormat](../../aspose.slides.theme/ieffectstyleeffectivedata/effectformat) { get; } | 返回效果格式。只读 [`IEffectFormatEffectiveData`](../../aspose.slides/ieffectformateffectivedata)。 |
+| [ThreeDFormat](../../aspose.slides.theme/ieffectstyleeffectivedata/threedformat) { get; } | 返回 3d 格式。只读 [`IThreeDFormatEffectiveData`](../../aspose.slides/ithreedformateffectivedata)。 |
 
 ### 备注
 
 此接口用作 [`IEffectStyleCollectionEffectiveData`](../ieffectstylecollectioneffectivedata) 的一部分。
 
-### 另见
+### 另请参见
 
 * 命名空间 [Aspose.Slides.Theme](../../aspose.slides.theme)
 * 程序集 [Aspose.Slides](../../)

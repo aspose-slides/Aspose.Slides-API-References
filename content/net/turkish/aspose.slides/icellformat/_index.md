@@ -1,12 +1,12 @@
 ---
 title: ICellFormat
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes .NET API Referansı
 description: Bir tablo hücresinin biçimini temsil eder.
 type: docs
-weight: 5470
+weight: 5490
 url: /tr/aspose.slides/icellformat/
 ---
-## ICellFormat arayüzü
+## ICellFormat arayüz
 
 Bir tablo hücresinin biçimini temsil eder.
 
@@ -18,16 +18,16 @@ public interface ICellFormat
 
 | Ad | Açıklama |
 | --- | --- |
-| [BorderBottom](../../aspose.slides/icellformat/borderbottom) { get; } | Alt kenar çizgi özellikleri nesnesini döndürür. Salt-okunur [`ILineFormat`](../ilineformat). |
-| [BorderDiagonalDown](../../aspose.slides/icellformat/borderdiagonaldown) { get; } | Sol üstten sağ alta çapraz çizgi özellikleri nesnesini döndürür. Salt-okunur [`ILineFormat`](../ilineformat). |
-| [BorderDiagonalUp](../../aspose.slides/icellformat/borderdiagonalup) { get; } | Sol alttan sağ üste çapraz çizgi özellikleri nesnesini döndürür. Salt-okunur [`ILineFormat`](../ilineformat). |
-| [BorderLeft](../../aspose.slides/icellformat/borderleft) { get; } | Sol kenar çizgi özellikleri nesnesini döndürür. Salt-okunur [`ILineFormat`](../ilineformat). |
-| [BorderRight](../../aspose.slides/icellformat/borderright) { get; } | Sağ kenar çizgi özellikleri nesnesini döndürür. Salt-okunur [`ILineFormat`](../ilineformat). |
-| [BorderTop](../../aspose.slides/icellformat/bordertop) { get; } | Üst kenar çizgi özellikleri nesnesini döndürür. Salt-okunur [`ILineFormat`](../ilineformat). |
-| [FillFormat](../../aspose.slides/icellformat/fillformat) { get; } | Hücre dolgu özellikleri nesnesini döndürür. Salt-okunur [`IFillFormat`](../ifillformat). |
-| [Transparency](../../aspose.slides/icellformat/transparency) { get; set; } | Dolgu renginin saydamlığını alır veya ayarlar. Okunur/Yazılabilir Single. |
+| [BorderBottom](../../aspose.slides/icellformat/borderbottom) { get; } | Alt kenar çizgi özellikleri nesnesini döndürür. Salt okunur [`ILineFormat`](../ilineformat). |
+| [BorderDiagonalDown](../../aspose.slides/icellformat/borderdiagonaldown) { get; } | Sol üstten sağ alta köşegen çizgi özellikleri nesnesini döndürür. Salt okunur [`ILineFormat`](../ilineformat). |
+| [BorderDiagonalUp](../../aspose.slides/icellformat/borderdiagonalup) { get; } | Sol altten sağ üst köşegen çizgi özellikleri nesnesini döndürür. Salt okunur [`ILineFormat`](../ilineformat). |
+| [BorderLeft](../../aspose.slides/icellformat/borderleft) { get; } | Sol kenar çizgi özellikleri nesnesini döndürür. Salt okunur [`ILineFormat`](../ilineformat). |
+| [BorderRight](../../aspose.slides/icellformat/borderright) { get; } | Sağ kenar çizgi özellikleri nesnesini döndürür. Salt okunur [`ILineFormat`](../ilineformat). |
+| [BorderTop](../../aspose.slides/icellformat/bordertop) { get; } | Üst kenar çizgi özellikleri nesnesini döndürür. Salt okunur [`ILineFormat`](../ilineformat). |
+| [FillFormat](../../aspose.slides/icellformat/fillformat) { get; } | Hücre dolgu özellikleri nesnesini döndürür. Salt okunur [`IFillFormat`](../ifillformat). |
+| [Transparency](../../aspose.slides/icellformat/transparency) { get; set; } | Dolgu renginin saydamlığını alır veya ayarlar. Okunabilir/Yazılabilir Single. |
 
-## Metotlar
+## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |

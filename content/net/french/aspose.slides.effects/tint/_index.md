@@ -1,14 +1,14 @@
 ---
 title: Tint
-second_title: Référence API Aspose.Sildes pour .NET
-description: Représente un effet Tint. Décale les valeurs de couleur de l'effet vers ou depuis la teinte selon la quantité spécifiée.
+second_title: Aspose.Sildes pour .NET Référence de l'API
+description: Représente un effet Tint. Décale les valeurs de couleur de l'effet vers ou loin de la teinte selon la quantité spécifiée.
 type: docs
-weight: 3660
+weight: 3680
 url: /fr/aspose.slides.effects/tint/
 ---
-## Classe Tint
+## Tint classe
 
-Représente un effet Tint. Décale les valeurs de couleur de l'effet vers ou depuis la teinte spécifiée, selon la quantité indiquée.
+Represents a Tint effect. Shifts effect color values towards/away from hue by the specified amount.
 
 ```csharp
 public sealed class Tint : ImageTransformOperation, ITint
@@ -25,7 +25,7 @@ public sealed class Tint : ImageTransformOperation, ITint
 | Nom | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/tint/equals)(object) | Détermine si le [`Tint`](../tint) spécifié est égal au [`Tint`](../tint) actuel. |
-| [GetEffective](../../aspose.slides.effects/tint/geteffective)() | Obtient les données effectives de l'effet Tint avec l'héritage appliqué. |
+| [GetEffective](../../aspose.slides.effects/tint/geteffective)() | Obtient les données d'effet Tint avec l'héritage appliqué. |
 | override [GetHashCode](../../aspose.slides.effects/tint/gethashcode)() | Sert de fonction de hachage pour un type particulier. |
 
 ### Voir aussi

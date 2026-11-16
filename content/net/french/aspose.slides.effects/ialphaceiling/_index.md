@@ -1,27 +1,26 @@
 ---
 title: IAlphaCeiling
-second_title: Aspose.Sildes pour la référence API .NET
-description: Représente un effet de plafond Alpha. Les valeurs d'opacité Alpha supérieures à zéro sont remplacées par 100. En d'autres termes, tout ce qui est partiellement opaque devient totalement opaque.
+second_title: Référence API Aspose.Sildes pour .NET
+description: Représente un effet Alpha Ceiling. Les valeurs d'opacité Alpha supérieures à zéro sont modifiées à 100. En d'autres termes, tout ce qui est partiellement opaque devient totalement opaque.
 type: docs
-weight: 3040
+weight: 3060
 url: /fr/aspose.slides.effects/ialphaceiling/
 ---
 ## IAlphaCeiling interface
 
-Représente un effet de plafond Alpha. Les valeurs Alpha (opacité) supérieures à zéro sont remplacées par 100 %. En d’autres termes, tout ce qui est partiellement opaque devient totalement opaque.
+Représente un effet Alpha Ceiling. Les valeurs Alpha (opacité) supérieures à zéro sont changées à 100%. En d'autres termes, tout ce qui est partiellement opaque devient totalement opaque.
 
 ```csharp
 public interface IAlphaCeiling : IAccessiblePVIObject<IAlphaCeilingEffectiveData>, 
     IImageTransformOperation
 ```
 
-
 ## Propriétés
 
 | Nom | Description |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphaceiling/asiaccessiblepviobject) { get; } | Permet d’obtenir l’interface de base IAccessiblePVIObject. Lecture seule [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphaceiling/asiimagetransformoperation) { get; } | Permet d’obtenir l’interface de base IImageTransformOperationEx. Lecture seule [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphaceiling/asiaccessiblepviobject) { get; } | Permet d'obtenir l'interface de base IAccessiblePVIObject. Lecture seule [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphaceiling/asiimagetransformoperation) { get; } | Permet d'obtenir l'interface de base IImageTransformOperationEx. Lecture seule [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### Voir aussi
 

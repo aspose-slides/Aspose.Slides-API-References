@@ -1,14 +1,14 @@
 ---
 title: FontSubstitutionInfo
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Diese Struktur repräsentiert die Informationen zum Schriftartenaustausch, wenn sie gerendert wird.
+description: Diese Struktur stellt die Informationen zum Schriftartersatz bereit, wenn sie gerendert wird.
 type: docs
-weight: 4910
+weight: 4930
 url: /de/aspose.slides/fontsubstitutioninfo/
 ---
 ## FontSubstitutionInfo Klasse
 
-Diese Struktur repräsentiert die Informationen zum Schriftartenaustausch, wenn sie gerendert wird.
+Diese Struktur stellt die Informationen zum Schriftartersatz bereit, wenn sie gerendert wird.
 
 ```csharp
 public class FontSubstitutionInfo
@@ -18,14 +18,14 @@ public class FontSubstitutionInfo
 
 | Name | Beschreibung |
 | --- | --- |
-| [FontSubstitutionInfo](fontsubstitutioninfo)(string, string) | Erstellt eine Instanz der [`FontSubstitutionInfo`](../fontsubstitutioninfo) Klasse. |
+| [FontSubstitutionInfo](fontsubstitutioninfo)(string, string) | Erzeugt eine Instanz der [`FontSubstitutionInfo`](../fontsubstitutioninfo) Klasse. |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [OriginalFontName](../../aspose.slides/fontsubstitutioninfo/originalfontname) { get; } | Gibt den Namen der Quellschriftart in der Präsentation an. Nur-Lesen String |
-| [SubstitutedFontName](../../aspose.slides/fontsubstitutioninfo/substitutedfontname) { get; } | Gibt den Namen der Ersatzschriftart für die Originalschriftart an. Nur-Lesen String |
+| [OriginalFontName](../../aspose.slides/fontsubstitutioninfo/originalfontname) { get; } | Gibt den Quellschriftartnamen in der Präsentation an. Nur lesbar String |
+| [SubstitutedFontName](../../aspose.slides/fontsubstitutioninfo/substitutedfontname) { get; } | Gibt den Ersatzschriftartnamen für die Originalschriftart an. Nur lesbar String |
 
 ### Beispiele
 

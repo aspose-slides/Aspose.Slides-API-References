@@ -1,12 +1,12 @@
 ---
 title: DisplayUnitType
-second_title: Aspose.Sildes para .NET - Referência da API
+second_title: Aspose.Sildes para .NET Referência da API
 description: Determina a multiplicidade dos dados exibidos.
 type: docs
-weight: 1620
+weight: 1630
 url: /pt/aspose.slides.charts/displayunittype/
 ---
-## Enumeração DisplayUnitType
+## enumeração DisplayUnitType
 
 Determina a multiplicidade dos dados exibidos.
 
@@ -20,14 +20,14 @@ public enum DisplayUnitType
 | --- | --- | --- |
 | None | `0` | Os valores serão exibidos como estão. |
 | Hundreds | `1` | Especifica que os valores no gráfico devem ser divididos por 100. |
-| Thousands | `2` | Especifica que os valores no gráfico devem ser divididos por 1,000. |
-| TenThousands | `3` | Especifica que os valores no gráfico devem ser divididos por 10,000. |
-| HundredThousands | `4` | Especifica que os valores no gráfico devem ser divididos por 100,000. |
-| Millions | `5` | Especifica que os valores no gráfico devem ser divididos por 1,000,000. |
-| TenMillions | `6` | Especifica que os valores no gráfico devem ser divididos por 10,000,000. |
-| HundredMillions | `7` | Especifica que os valores no gráfico devem ser divididos por 100,000,000. |
-| Billions | `8` | Especifica que os valores no gráfico devem ser divididos por 1,000,000,000. |
-| Trillions | `9` | Especifica que os valores no gráfico devem ser divididos por 1,000,000,000,000. |
+| Thousands | `2` | Especifica que os valores no gráfico devem ser divididos por 1.000. |
+| TenThousands | `3` | Especifica que os valores no gráfico devem ser divididos por 10.000. |
+| HundredThousands | `4` | Especifica que os valores no gráfico devem ser divididos por 100.000. |
+| Millions | `5` | Especifica que os valores no gráfico devem ser divididos por 1.000.000. |
+| TenMillions | `6` | Especifica que os valores no gráfico devem ser divididos por 10.000.000. |
+| HundredMillions | `7` | Especifica que os valores no gráfico devem ser divididos por 100.000.000. |
+| Billions | `8` | Especifica que os valores no gráfico devem ser divididos por 1.000.000.000. |
+| Trillions | `9` | Especifica que os valores no gráfico devem ser divididos por 1.000.000.000.000. |
 | CustomValue | `10` | Especifica que os valores no gráfico devem ser divididos por um valor personalizado. |
 
 ### Veja Também

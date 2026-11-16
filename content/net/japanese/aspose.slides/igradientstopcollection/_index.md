@@ -1,14 +1,14 @@
 ---
 title: IGradientStopCollection
 second_title: Aspose.Sildes for .NET API リファレンス
-description: グラデーションストップのコレクションを表します。
+description: gradient stops のコレクションを表します。
 type: docs
-weight: 6030
+weight: 6050
 url: /ja/aspose.slides/igradientstopcollection/
 ---
 ## IGradientStopCollection インターフェイス
 
-グラデーションストップのコレクションを表します。
+gradient stops のコレクションを表します。
 
 ```csharp
 public interface IGradientStopCollection : IGenericCollection<IGradientStop>
@@ -18,20 +18,20 @@ public interface IGradientStopCollection : IGenericCollection<IGradientStop>
 
 | 名前 | 説明 |
 | --- | --- |
-| [Item](../../aspose.slides/igradientstopcollection/item) { get; } | インデックスでグラデーションストップを取得します。 |
+| [Item](../../aspose.slides/igradientstopcollection/item) { get; } | インデックスで gradient stop を取得します。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [Add](../../aspose.slides/igradientstopcollection/add#add_2)(float, Color) | 新しいグラデーションストップを作成し、コレクションの末尾に追加します。 |
-| [Add](../../aspose.slides/igradientstopcollection/add#add)(float, PresetColor) | 新しいグラデーションストップを作成し、コレクションの末尾に追加します。 |
-| [Add](../../aspose.slides/igradientstopcollection/add#add_1)(float, SchemeColor) | 新しいグラデーションストップを作成し、コレクションの末尾に追加します。 |
-| [Clear](../../aspose.slides/igradientstopcollection/clear)() | コレクションからすべてのグラデーションストップを削除します。 |
-| [Insert](../../aspose.slides/igradientstopcollection/insert#insert_2)(int, float, Color) | 新しいグラデーションストップを作成し、指定されたインデックスに挿入します。 |
-| [Insert](../../aspose.slides/igradientstopcollection/insert#insert)(int, float, PresetColor) | 新しいグラデーションストップを作成し、指定されたインデックスに挿入します。 |
-| [Insert](../../aspose.slides/igradientstopcollection/insert#insert_1)(int, float, SchemeColor) | 新しいグラデーションストップを作成し、指定されたインデックスに挿入します。 |
-| [RemoveAt](../../aspose.slides/igradientstopcollection/removeat)(int) | 指定されたインデックスのグラデーションストップを削除します。 |
+| [Add](../../aspose.slides/igradientstopcollection/add#add_2)(float, Color) | 新しい gradient stop を作成し、コレクションの末尾に追加します。 |
+| [Add](../../aspose.slides/igradientstopcollection/add#add)(float, PresetColor) | 新しい gradient stop を作成し、コレクションの末尾に追加します。 |
+| [Add](../../aspose.slides/igradientstopcollection/add#add_1)(float, SchemeColor) | 新しい gradient stop を作成し、コレクションの末尾に追加します。 |
+| [Clear](../../aspose.slides/igradientstopcollection/clear)() | コレクションからすべての gradient stop を削除します。 |
+| [Insert](../../aspose.slides/igradientstopcollection/insert#insert_2)(int, float, Color) | 新しい gradient stop を作成し、指定したインデックスにコレクションへ挿入します。 |
+| [Insert](../../aspose.slides/igradientstopcollection/insert#insert)(int, float, PresetColor) | 新しい gradient stop を作成し、指定したインデックスにコレクションへ挿入します。 |
+| [Insert](../../aspose.slides/igradientstopcollection/insert#insert_1)(int, float, SchemeColor) | 新しい gradient stop を作成し、指定したインデックスにコレクションへ挿入します。 |
+| [RemoveAt](../../aspose.slides/igradientstopcollection/removeat)(int) | 指定したインデックスの gradient stop を削除します。 |
 
 ### 参照
 

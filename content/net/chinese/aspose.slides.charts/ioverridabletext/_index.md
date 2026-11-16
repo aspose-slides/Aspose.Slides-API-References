@@ -1,14 +1,14 @@
 ---
 title: IOverridableText
 second_title: Aspose.Sildes for .NET API 参考
-description: 表示图表的可覆盖文本。
+description: 表示图表可覆盖的文本。
 type: docs
-weight: 2180
+weight: 2200
 url: /zh/aspose.slides.charts/ioverridabletext/
 ---
 ## IOverridableText 接口
 
-表示可覆盖的图表文本。
+表示图表可覆盖的文本。
 
 ```csharp
 public interface IOverridableText : IFormattedTextContainer
@@ -19,15 +19,15 @@ public interface IOverridableText : IFormattedTextContainer
 | 名称 | 描述 |
 | --- | --- |
 | [AsIFormattedTextContainer](../../aspose.slides.charts/ioverridabletext/asiformattedtextcontainer) { get; } | 允许获取基础 IFormattedTextContainer 接口。只读 [`IFormattedTextContainer`](../iformattedtextcontainer)。 |
-| [TextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/textframeforoverriding) { get; } | 可以包含富格式文本。如果此属性不为 null，则该格式化文本值会覆盖自动生成的文本。自动生成的文本是数据标签、值轴的显示单位标签、轴标题、图表标题、趋势线标签的隐式属性。自动生成的文本使用 IFormattedTextContainer.TextFormat 属性进行格式化。只读 [`ITextFrame`](../../aspose.slides/itextframe)。 |
+| [TextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/textframeforoverriding) { get; } | 可以包含富格式文本。如果此属性不为 null，则此格式化文本值会覆盖自动生成的文本。自动生成的文本是数据标签、值轴的显示单位标签、坐标轴标题、图表标题、趋势线标签的隐式属性。自动生成的文本使用 IFormattedTextContainer.TextFormat 属性进行格式化。只读 [`ITextFrame`](../../aspose.slides/itextframe)。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [AddTextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/addtextframeforoverriding)(string) | 使用参数 "text" 中的文本初始化 TextFrameForOverriding。如果 TextFrameForOverriding 已经初始化，则仅更改其文本。 |
+| [AddTextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/addtextframeforoverriding)(string) | 使用参数 “text” 中的文本初始化 TextFrameForOverriding。如果 TextFrameForOverriding 已经初始化，则仅更改其文本。 |
 
-### 另见
+### 另请参阅
 
 * 接口 [IFormattedTextContainer](../iformattedtextcontainer)
 * 命名空间 [Aspose.Slides.Charts](../../aspose.slides.charts)

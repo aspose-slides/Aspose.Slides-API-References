@@ -1,9 +1,9 @@
 ---
 title: IMathDelimiterFactory
-second_title: Aspose.Sildes per .NET Riferimento API
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Consente di creare un delimitatore matematico
 type: docs
-weight: 8220
+weight: 8240
 url: /it/aspose.slides.mathtext/imathdelimiterfactory/
 ---
 ## IMathDelimiterFactory interfaccia
@@ -21,7 +21,7 @@ public interface IMathDelimiterFactory
 | [CreateMathDelimiter](../../aspose.slides.mathtext/imathdelimiterfactory/createmathdelimiter#createmathdelimiter)(IMathElement) | Crea un delimitatore matematico applicandolo all'elemento |
 | [CreateMathDelimiter](../../aspose.slides.mathtext/imathdelimiterfactory/createmathdelimiter#createmathdelimiter_1)(IMathElementCollection) | Crea un delimitatore matematico applicandolo all'elemento |
 
-### Note
+### Osservazioni
 
 Per compatibilità COM
 

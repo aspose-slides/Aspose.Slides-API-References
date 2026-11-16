@@ -1,9 +1,9 @@
 ---
 title: Format
-second_title: Tham chiếu API Aspose.Sildes cho .NET
+second_title: Aspose.Sildes cho .NET Tham chiếu API
 description: Đại diện cho các thuộc tính định dạng. Đọc/ghi IFormataspose.slides.charts/iformat.
 type: docs
-weight: 70
+weight: 110
 url: /vi/aspose.slides.charts/ichartdatapoint/format/
 ---
 ## IChartDataPoint.Format thuộc tính
@@ -14,7 +14,7 @@ url: /vi/aspose.slides.charts/ichartdatapoint/format/
 public IFormat Format { get; set; }
 ```
 
-### Xem thêm
+### Xem Thêm
 
 * giao diện [IFormat](../../iformat)
 * giao diện [IChartDataPoint](../../ichartdatapoint)

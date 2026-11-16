@@ -3,10 +3,10 @@ title: MathHorizontalAlignment
 second_title: Aspose.Sildes para .NET Referência da API
 description: Alinhamento Horizontal
 type: docs
-weight: 8780
+weight: 8800
 url: /pt/aspose.slides.mathtext/mathhorizontalalignment/
 ---
-## enumeração MathHorizontalAlignment
+## MathHorizontalAlignment enumeração
 
 Alinhamento Horizontal
 

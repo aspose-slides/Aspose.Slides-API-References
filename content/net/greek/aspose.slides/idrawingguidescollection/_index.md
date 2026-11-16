@@ -1,14 +1,14 @@
 ---
 title: IDrawingGuidesCollection
-second_title: Aspose.Sildes για .NET Αναφορά API
-description: Αντιπροσωπεύει μια συλλογή των ρυθμιζόμενων οδηγών σχεδίασης.
+second_title: Aspose.Sildes για .NET API Αναφορά
+description: Αντιπροσωπεύει μια συλλογή των προσαρμόσιμων οδηγών σχεδίασης.
 type: docs
-weight: 5730
+weight: 5750
 url: /el/aspose.slides/idrawingguidescollection/
 ---
 ## IDrawingGuidesCollection διασύνδεση
 
-Αντιπροσωπεύει μια συλλογή των ρυθμιζόμενων οδηγιών σχεδίασης.
+Αντιπροσωπεύει μια συλλογή των προσαρμόσιμων οδηγών σχεδίασης.
 
 ```csharp
 public interface IDrawingGuidesCollection : IEnumerable<IDrawingGuide>
@@ -16,18 +16,18 @@ public interface IDrawingGuidesCollection : IEnumerable<IDrawingGuide>
 
 ## Ιδιότητες
 
-| Όνομα | Περιγραφή |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides/idrawingguidescollection/count) { get; } | Επιστρέφει τον αριθμό όλων των στοιχείων στη συλλογή. Μόνο για ανάγνωση Int32. |
-| [Item](../../aspose.slides/idrawingguidescollection/item) { get; } | Επιστρέφει την οδηγία σχεδίασης με βάση το δείκτη. Μόνο για ανάγνωση [`IDrawingGuide`](../idrawingguide). |
+| [Count](../../aspose.slides/idrawingguidescollection/count) { get; } | Λαμβάνει τον αριθμό όλων των στοιχείων στη συλλογή. Μόνο για ανάγνωση Int32. |
+| [Item](../../aspose.slides/idrawingguidescollection/item) { get; } | Επιστρέφει τον οδηγό σχεδίασης με βάση το δείκτη. Μόνο για ανάγνωση [`IDrawingGuide`](../idrawingguide). |
 
 ## Μέθοδοι
 
-| Όνομα | Περιγραφή |
+| Name | Description |
 | --- | --- |
-| [Add](../../aspose.slides/idrawingguidescollection/add)(Orientation, float) | Προσθέτει την οδηγία σχεδίασης στο τέλος της συλλογής. |
+| [Add](../../aspose.slides/idrawingguidescollection/add)(Orientation, float) | Προσθέτει τον οδηγό σχεδίασης στο τέλος της συλλογής. |
 | [Clear](../../aspose.slides/idrawingguidescollection/clear)() | Αφαιρεί όλα τα στοιχεία από τη συλλογή. |
-| [RemoveAt](../../aspose.slides/idrawingguidescollection/removeat)(int) | Αφαιρεί την οδηγία σχεδίασης στον καθορισμένο δείκτη. |
+| [RemoveAt](../../aspose.slides/idrawingguidescollection/removeat)(int) | Αφαιρεί τον οδηγό σχεδίασης στο καθορισμένο δείκτη. |
 
 ### Δείτε επίσης
 

@@ -1,14 +1,14 @@
 ---
 title: IChartSeriesGroupCollection
-second_title: Aspose.Sildes для .NET справочник API
-description: Представляет коллекцию групп совместимых серий.
+second_title: Aspose.Sildes для .NET, справочник API
+description: Представляет коллекцию групп совместимых рядов.
 type: docs
-weight: 1960
+weight: 1980
 url: /ru/aspose.slides.charts/ichartseriesgroupcollection/
 ---
 ## IChartSeriesGroupCollection интерфейс
 
-Represents the collection of groups of combinable series.
+Представляет коллекцию групп совместимых рядов.
 
 ```csharp
 public interface IChartSeriesGroupCollection : IGenericCollection<IChartSeriesGroup>
@@ -16,15 +16,15 @@ public interface IChartSeriesGroupCollection : IGenericCollection<IChartSeriesGr
 
 ## Свойства
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
-| [Item](../../aspose.slides.charts/ichartseriesgroupcollection/item) { get; } | Получает группу серий по серии. (2 индексатора) |
+| [Item](../../aspose.slides.charts/ichartseriesgroupcollection/item) { get; } | Получает группу рядов по ряду. (2 индексатора) |
 
 ### Примечания
 
-1) Каждая группа серий содержит серии совместимых типов. Группы совместимых типов серий определены и описаны перечислением CombinableSeriesTypesGroup. Также каждая группа серий содержит серии, которые построены либо на основных осях, либо на вторичных осях (не оба случая в одной группе). Таким образом, принцип группировки серий — группировка по типам групп, упомянутым выше, и по типу построения на основной/вторичной оси. 2) Группа серий содержит некоторые свойства серий, общие для каждой серии в группе («Series group properties»). «Series group properties» в классе ChartSeriesGroup — read/write. Каждая из «Series group properties» может иметь проекцию только для чтения в классе ChartSeries.
+1) Каждая группа рядов содержит ряды с совместимыми типами. Группы совместимых типов рядов определяются и описываются перечислением CombinableSeriesTypesGroup. Также каждая группа рядов содержит ряды, которые отображаются либо на основных осях, либо на вторичных осях (не оба варианта в одной группе). Таким образом, принцип группировки рядов — это группировка по упомянутым выше типовым группам и по типу построения на основной/вторичной оси. 2) Группа рядов содержит некоторые свойства рядов, общие для каждого ряда в группе ("series group properties"). "Series group properties" в классе ChartSeriesGroup имеет режим чтения/записи. Каждый из "series group properties" может иметь проекцию только для чтения в классе ChartSeries.
 
-### См. также
+### Смотрите также
 
 * интерфейс [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * интерфейс [IChartSeriesGroup](../ichartseriesgroup)

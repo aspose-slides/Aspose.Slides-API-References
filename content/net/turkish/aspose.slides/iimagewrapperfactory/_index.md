@@ -1,14 +1,14 @@
 ---
 title: IImageWrapperFactory
-second_title: Aspose.Sildes for .NET API Referansı
-description: Bu arayüz, IBitmapWrapper'ı başlatmaya olanak tanır.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Bu arayüz IBitmapWrapper'ı başlatmaya izin verir.
 type: docs
-weight: 6180
+weight: 6200
 url: /tr/aspose.slides/iimagewrapperfactory/
 ---
 ## IImageWrapperFactory arayüz
 
-Bu arayüz, IBitmapWrapper'ı başlatmaya olanak tanır.
+Bu arayüz IBitmapWrapperʼı başlatmaya izin verir.
 
 ```csharp
 public interface IImageWrapperFactory
@@ -18,11 +18,11 @@ public interface IImageWrapperFactory
 
 | Ad | Açıklama |
 | --- | --- |
-| [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper)(IImage) | Belirtilen mevcut görselle ImageWrapper sınıfının yeni bir örneğini başlatır. |
+| [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper)(IImage) | Belirtilen mevcut görüntüden ImageWrapper sınıfının yeni bir örneğini başlatır. |
 | [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper_1)(Stream) | Belirtilen veri akışından ImageWrapper sınıfının yeni bir örneğini başlatır. |
 | [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper_2)(string) | Belirtilen dosyadan ImageWrapper sınıfının yeni bir örneğini başlatır. |
 
-### İlgili
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

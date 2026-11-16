@@ -3,7 +3,7 @@ title: IResourceLoadingCallback
 second_title: Aspose.Sildes için .NET API Referansı
 description: Harici kaynakların yüklenmesini yönetmek için kullanılan geri arama arayüzü.
 type: docs
-weight: 6840
+weight: 6860
 url: /tr/aspose.slides/iresourceloadingcallback/
 ---
 ## IResourceLoadingCallback arayüz

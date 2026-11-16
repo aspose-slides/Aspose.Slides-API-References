@@ -1,14 +1,14 @@
 ---
 title: SetRange
-second_title: Aspose.Sildes .NET API referenciája
-description: Állítsa be a diagram adat tartományt. A sorozatok és kategóriák az új adat tartomány alapján frissülnek. Ha a tartományban lévő sorozatok száma nagyobb, mint a diagram adatban lévő sorozatok száma, akkor további sorozatok, amelyek típusa megegyezik a jelenlegi gyűjtemény utolsó sorozatának típusával, a gyűjtemény végére kerülnek.
+second_title: Aspose.Sildes for .NET API Referenciája
+description: Állítsa be a diagram adat tartományát. A sorozatok és a kategóriák az új adat tartomány alapján frissülnek. Ha az adat tartományban lévő sorozatok száma nagyobb, mint a diagram adatban lévő sorozatok száma, akkor további sorozatok lesznek hozzáadva a gyűjtemény végéhez, amelyek típusa megegyezik a jelenlegi gyűjtemény utolsó sorozatával.
 type: docs
-weight: 130
+weight: 140
 url: /hu/aspose.slides.charts/chartdata/setrange/
 ---
 ## ChartData.SetRange metódus
 
-Állítsa be a diagram adat tartományt. A Series és a kategóriák az új adat tartomány alapján frissülnek. Ha a tartományban lévő Series száma nagyobb, mint a diagram adatban lévő Series száma, akkor további Series, amelynek típusa megegyezik az aktuális gyűjtemény utolsó Series-ének típusával, hozzá lesz adva a gyűjtemény végéhez.
+Állítsa be a diagram adat tartományát. A Series és a kategóriák az új adat tartomány alapján frissülnek. Ha az adat tartományban lévő sorozatok száma nagyobb, mint a diagram adatban lévő sorozatok száma, akkor további sorozatok lesznek hozzáadva a gyűjtemény végéhez, amelyek típusa megegyezik az aktuális gyűjtemény utolsó sorozatával.
 
 ```csharp
 public void SetRange(string formula)
@@ -16,15 +16,15 @@ public void SetRange(string formula)
 
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
-| formula | String | A cellák adat tartomány képlete. Például: "Sheet1!$A$1:$C$4" , "SomeSheetName!A1:B100", "Sheet1!$A$1:$B$5;Sheet1!$D$1:$D$5". |
+| formula | String | A cellák adat tartományának képlete. Például: "Sheet1!$A$1:$C$4", "SomeSheetName!A1:B100", "Sheet1!$A$1:$B$5;Sheet1!$D$1:$D$5". |
 
 ### Kivételek
 
 | kivétel | feltétel |
 | --- | --- |
-| ArgumentNullException | formula null. |
+| ArgumentNullException | a formula null. |
 | InvalidOperationException | Nem támogatott diagramtípus |
-| ArgumentException | a formula helytelen formátumú. |
+| ArgumentException | a formula formátuma helytelen. |
 
 ### Lásd még
 

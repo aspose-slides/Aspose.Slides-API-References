@@ -1,9 +1,9 @@
 ---
 title: Hide
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Rendi l'etichetta dati nascosta impostando tutti i flag Show (ShowValue ...) allo stato false. IsVisible sarà false dopo questo.
+description: Rendi l'etichetta dati nascosta impostando tutti i flag Show-flags ShowValue ... allo stato false. IsVisible sarà false dopo questo.
 type: docs
-weight: 200
+weight: 210
 url: /it/aspose.slides.charts/datalabel/hide/
 ---
 ## DataLabel.Hide method

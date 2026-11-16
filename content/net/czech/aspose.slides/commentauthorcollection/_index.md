@@ -3,7 +3,7 @@ title: CommentAuthorCollection
 second_title: Aspose.Sildes pro .NET API Reference
 description: Reprezentuje kolekci autorů komentářů.
 type: docs
-weight: 2640
+weight: 2660
 url: /cs/aspose.slides/commentauthorcollection/
 ---
 ## CommentAuthorCollection třída
@@ -18,10 +18,10 @@ public sealed class CommentAuthorCollection : DomObject<Presentation>, ICommentA
 
 | Název | Popis |
 | --- | --- |
-| [Count](../../aspose.slides/commentauthorcollection/count) { get; } | Vrací počet skutečných prvků obsažených v kolekci. Pouze pro čtení Int32. |
-| [IsSynchronized](../../aspose.slides/commentauthorcollection/issynchronized) { get; } | Vrací hodnotu označující, zda je přístup k kolekci synchronizovaný (thread-safe). Pouze pro čtení Boolean. |
-| [Item](../../aspose.slides/commentauthorcollection/item) { get; } | Vrací prvek na zadaném indexu. Pouze pro čtení [`ICommentAuthor`](../icommentauthor). |
-| [SyncRoot](../../aspose.slides/commentauthorcollection/syncroot) { get; } | Vrací kořen synchronizace. Pouze pro čtení Object. |
+| [Count](../../aspose.slides/commentauthorcollection/count) { get; } | Získá počet prvků skutečně obsažených v kolekci. Pouze pro čtení Int32. |
+| [IsSynchronized](../../aspose.slides/commentauthorcollection/issynchronized) { get; } | Vrátí hodnotu indikující, zda je přístup ke kolekci synchronizován (vláknově bezpečný). Pouze pro čtení Boolean. |
+| [Item](../../aspose.slides/commentauthorcollection/item) { get; } | Získá prvek na zadaném indexu. Pouze pro čtení [`ICommentAuthor`](../icommentauthor). |
+| [SyncRoot](../../aspose.slides/commentauthorcollection/syncroot) { get; } | Vrátí kořen synchronizace. Pouze pro čtení Object. |
 
 ## Metody
 
@@ -32,9 +32,9 @@ public sealed class CommentAuthorCollection : DomObject<Presentation>, ICommentA
 | [CopyTo](../../aspose.slides/commentauthorcollection/copyto)(Array, int) | Zkopíruje všechny prvky z kolekce do zadaného pole. |
 | [FindByName](../../aspose.slides/commentauthorcollection/findbyname)(string) | Najde autora v kolekci podle jména. |
 | [FindByNameAndInitials](../../aspose.slides/commentauthorcollection/findbynameandinitials)(string, string) | Najde autora v kolekci podle jména a iniciál. |
-| [GetEnumerator](../../aspose.slides/commentauthorcollection/getenumerator)() | Vrací enumerátor, který prochází kolekcí. |
+| [GetEnumerator](../../aspose.slides/commentauthorcollection/getenumerator)() | Vrátí enumerátor, který prochází kolekcí. |
 | [Remove](../../aspose.slides/commentauthorcollection/remove)(ICommentAuthor) | Odstraní první výskyt zadaného autora v kolekci. |
-| [RemoveAt](../../aspose.slides/commentauthorcollection/removeat)(int) | Odstraní autora na zadaném indexu kolekce. |
+| [RemoveAt](../../aspose.slides/commentauthorcollection/removeat)(int) | Odstraní autora na zadaném indexu v kolekci. |
 | [ToArray](../../aspose.slides/commentauthorcollection/toarray)() | Vytvoří a vrátí pole se všemi autory. |
 
 ### Viz také

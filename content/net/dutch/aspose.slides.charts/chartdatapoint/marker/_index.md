@@ -1,14 +1,14 @@
 ---
 title: Marker
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Specificeert een gegevensmarkering. Alleen-lezen IMarkeraspose.slides.charts/imarker.
+description: Specificeert een datamarker. Alleen-lezen IMarkeraspose.slides.charts/imarker.
 type: docs
-weight: 150
+weight: 190
 url: /nl/aspose.slides.charts/chartdatapoint/marker/
 ---
 ## ChartDataPoint.Marker eigenschap
 
-Specificeert een gegevensmarkering. Alleen-lezen [`IMarker`](../../imarker).
+Specificeert een datamarker. Alleen-lezen [`IMarker`](../../imarker).
 
 ```csharp
 public IMarker Marker { get; }

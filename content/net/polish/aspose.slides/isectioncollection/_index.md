@@ -1,9 +1,9 @@
 ---
 title: ISectionCollection
-second_title: Aspose.Sildes dla .NET – referencja API
+second_title: Aspose.Sildes dla .NET – odniesienie API
 description: Reprezentuje kolekcję sekcji.
 type: docs
-weight: 6900
+weight: 6920
 url: /pl/aspose.slides/isectioncollection/
 ---
 ## ISectionCollection interfejs
@@ -18,14 +18,14 @@ public interface ISectionCollection : IGenericCollection<ISection>
 
 | Nazwa | Opis |
 | --- | --- |
-| [Item](../../aspose.slides/isectioncollection/item) { get; } | Pobiera element o podanym indeksie. Tylko do odczytu [`ISection`](../isection). |
+| [Item](../../aspose.slides/isectioncollection/item) { get; } | Pobiera element o określonym indeksie. Tylko do odczytu [`ISection`](../isection). |
 
 ## Metody
 
 | Nazwa | Opis |
 | --- | --- |
-| [AddEmptySection](../../aspose.slides/isectioncollection/addemptysection)(string, int) | Dodaje pustą sekcję w określonej pozycji w kolekcji. |
-| [AddSection](../../aspose.slides/isectioncollection/addsection)(string, ISlide) | Dodaje nową sekcję rozpoczynającą się od określonego slajdu. |
+| [AddEmptySection](../../aspose.slides/isectioncollection/addemptysection)(string, int) | Dodaje pustą sekcję do określonej pozycji w kolekcji. |
+| [AddSection](../../aspose.slides/isectioncollection/addsection)(string, ISlide) | Dodaje nową sekcję rozpoczynającą się od konkretnego slajdu. |
 | [AppendEmptySection](../../aspose.slides/isectioncollection/appendemptysection)(string) | Dodaje pustą sekcję na końcu kolekcji. |
 | [Clear](../../aspose.slides/isectioncollection/clear)() | Usuwa wszystkie sekcje z kolekcji. |
 | [IndexOf](../../aspose.slides/isectioncollection/indexof)(ISection) | Zwraca indeks określonej sekcji w kolekcji. |

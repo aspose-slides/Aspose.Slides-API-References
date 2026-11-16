@@ -1,14 +1,14 @@
 ---
 title: ILineFormatCollection
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงการรวบรวมรูปแบบเส้น.
+second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
+description: แสดงถึงการรวบรวมของรูปแบบเส้น.
 type: docs
-weight: 11290
+weight: 11310
 url: /th/aspose.slides.theme/ilineformatcollection/
 ---
 ## ILineFormatCollection อินเทอร์เฟซ
 
-แสดงการรวบรวมรูปแบบเส้น.
+แสดงถึงการรวบรวมของรูปแบบเส้น.
 
 ```csharp
 public interface ILineFormatCollection : IGenericCollection<ILineFormat>
@@ -16,9 +16,9 @@ public interface ILineFormatCollection : IGenericCollection<ILineFormat>
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| ชื่อ | รายละเอียด |
 | --- | --- |
-| [Item](../../aspose.slides.theme/ilineformatcollection/item) { get; } | ดึงอิลีเมนต์ที่ตำแหน่งที่ระบุ. อ่านอย่างเดียว [`ILineFormat`](../../aspose.slides/ilineformat). |
+| [Item](../../aspose.slides.theme/ilineformatcollection/item) { get; } | รับองค์ประกอบที่ตำแหน่งที่ระบุ. อ่านอย่างเดียว [`ILineFormat`](../../aspose.slides/ilineformat). |
 
 ### ดูเพิ่มเติม
 

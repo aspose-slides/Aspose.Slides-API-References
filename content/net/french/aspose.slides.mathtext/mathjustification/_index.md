@@ -1,9 +1,9 @@
 ---
 title: MathJustification
-second_title: Référence API Aspose.Sildes pour .NET
-description: Spécifie la justification du paragraphe mathématique, une série d'instances adjacentes de texte mathématique dans le même paragraphe
+second_title: Référence de l'API Aspose.Sildes pour .NET
+description: Spécifie la justification du paragraphe mathématique, une série d'instances adjacentes de texte mathématique au sein du même paragraphe
 type: docs
-weight: 8800
+weight: 8820
 url: /fr/aspose.slides.mathtext/mathjustification/
 ---
 ## Énumération MathJustification
@@ -18,10 +18,10 @@ public enum MathJustification
 
 | Nom | Valeur | Description |
 | --- | --- | --- |
-| LeftJustified | `1` | Aligne le texte mathématique à gauche |
-| RightJustified | `2` | Aligne le texte mathématique à droite |
-| Centered | `3` | Aligne le texte mathématique au centre |
-| CenteredAsGroup | `4` | Centre sur la page l'ensemble du groupe de blocs mathématiques comme une unité unique. Cela signifie que les instances de texte mathématique peuvent être alignées les unes par rapport aux autres, mais que l'ensemble du groupe de texte mathématique est centré dans sa globalité. |
+| LeftJustified | `1` | Aligner le texte mathématique à gauche |
+| RightJustified | `2` | Aligner le texte mathématique à droite |
+| Centered | `3` | Aligner le texte mathématique au centre |
+| CenteredAsGroup | `4` | Centrer sur la page l'ensemble du groupe de blocs mathématiques en tant qu'unité unique. Cela signifie que les instances de texte mathématique peuvent être alignées les unes par rapport aux autres, mais l'ensemble du groupe de texte mathématique est centré dans son ensemble. |
 
 ### Voir aussi
 

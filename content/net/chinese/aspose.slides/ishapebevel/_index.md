@@ -1,14 +1,14 @@
 ---
 title: IShapeBevel
-second_title: Aspose.Sildes .NET API 参考
-description: 表示形状主表面的浮雕属性。
+second_title: Aspose.Sildes for .NET API 参考
+description: 表示形状主面浮雕的属性。
 type: docs
-weight: 6960
+weight: 6980
 url: /zh/aspose.slides/ishapebevel/
 ---
 ## IShapeBevel 接口
 
-表示形状主表面的浮雕属性。
+表示形状主面雕刻的属性。
 
 ```csharp
 public interface IShapeBevel
@@ -18,11 +18,11 @@ public interface IShapeBevel
 
 | 名称 | 描述 |
 | --- | --- |
-| [BevelType](../../aspose.slides/ishapebevel/beveltype) { get; set; } | 斜角类型。Read/write [`BevelPresetType`](../bevelpresettype). |
-| [Height](../../aspose.slides/ishapebevel/height) { get; set; } | 斜角高度。Read/write Double. |
-| [Width](../../aspose.slides/ishapebevel/width) { get; set; } | 斜角宽度。Read/write Double. |
+| [BevelType](../../aspose.slides/ishapebevel/beveltype) { get; set; } | 斜面类型。读/写 [`BevelPresetType`](../bevelpresettype)。 |
+| [Height](../../aspose.slides/ishapebevel/height) { get; set; } | 斜面高度。读/写 Double。 |
+| [Width](../../aspose.slides/ishapebevel/width) { get; set; } | 斜面宽度。读/写 Double。 |
 
-### 另请参见
+### 另见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

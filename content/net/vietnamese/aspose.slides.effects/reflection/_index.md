@@ -3,7 +3,7 @@ title: Reflection
 second_title: Tham chiếu API Aspose.Sildes cho .NET
 description: Biểu thị một hiệu ứng Reflection.
 type: docs
-weight: 3640
+weight: 3660
 url: /vi/aspose.slides.effects/reflection/
 ---
 ## Lớp Reflection
@@ -19,32 +19,32 @@ public sealed class Reflection : IReflection
 | Tên | Mô tả |
 | --- | --- |
 | [BlurRadius](../../aspose.slides.effects/reflection/blurradius) { get; set; } | Bán kính làm mờ. Đọc/ghi Double. |
-| [Direction](../../aspose.slides.effects/reflection/direction) { get; set; } | Hướng của reflection. Đọc/ghi Single. |
-| [Distance](../../aspose.slides.effects/reflection/distance) { get; set; } | Khoảng cách của reflection. Đọc/ghi Double. |
+| [Direction](../../aspose.slides.effects/reflection/direction) { get; set; } | Hướng của phản chiếu. Đọc/ghi Single. |
+| [Distance](../../aspose.slides.effects/reflection/distance) { get; set; } | Khoảng cách của phản chiếu. Đọc/ghi Double. |
 | [EndPosAlpha](../../aspose.slides.effects/reflection/endposalpha) { get; set; } | Xác định vị trí cuối (theo dốc gradient alpha) của giá trị alpha cuối (phần trăm). Đọc/ghi Single. |
-| [EndReflectionOpacity](../../aspose.slides.effects/reflection/endreflectionopacity) { get; set; } | Độ mờ cuối của reflection. (phần trăm). Đọc/ghi Single. |
-| [FadeDirection](../../aspose.slides.effects/reflection/fadedirection) { get; set; } | Xác định hướng để dịch offset reflection. (góc). Đọc/ghi Single. |
+| [EndReflectionOpacity](../../aspose.slides.effects/reflection/endreflectionopacity) { get; set; } | Độ mờ cuối của phản chiếu. (phần trăm). Đọc/ghi Single. |
+| [FadeDirection](../../aspose.slides.effects/reflection/fadedirection) { get; set; } | Xác định hướng để dịch chuyển phản chiếu. (góc). Đọc/ghi Single. |
 | [RectangleAlign](../../aspose.slides.effects/reflection/rectanglealign) { get; set; } | Căn hình chữ nhật. Đọc/ghi [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/reflection/rotateshadowwithshape) { get; set; } | Xác định liệu reflection có nên quay cùng hình dạng nếu hình dạng được quay hay không. Đọc/ghi Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/reflection/scalehorizontal) { get; set; } | Xác định hệ số co theo chiều ngang, co âm gây lật. (phần trăm) Đọc/ghi Double. |
-| [ScaleVertical](../../aspose.slides.effects/reflection/scalevertical) { get; set; } | Xác định hệ số co theo chiều dọc, co âm gây lật. (phần trăm) Đọc/ghi Double. |
-| [SkewHorizontal](../../aspose.slides.effects/reflection/skewhorizontal) { get; set; } | Xác định góc nghiêng theo chiều ngang. Đọc/ghi Double. |
-| [SkewVertical](../../aspose.slides.effects/reflection/skewvertical) { get; set; } | Xác định góc nghiêng theo chiều dọc. Đọc/ghi Double. |
+| [RotateShadowWithShape](../../aspose.slides.effects/reflection/rotateshadowwithshape) { get; set; } | Xác định xem phản chiếu có nên xoay cùng hình dạng nếu hình dạng được xoay hay không. Đọc/ghi Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/reflection/scalehorizontal) { get; set; } | Xác định hệ số co dọc chiều ngang, co âm gây lật. (phần trăm) Đọc/ghi Double. |
+| [ScaleVertical](../../aspose.slides.effects/reflection/scalevertical) { get; set; } | Xác định hệ số co dọc chiều dọc, co âm gây lật. (phần trăm) Đọc/ghi Double. |
+| [SkewHorizontal](../../aspose.slides.effects/reflection/skewhorizontal) { get; set; } | Xác định góc lệch chiều ngang. Đọc/ghi Double. |
+| [SkewVertical](../../aspose.slides.effects/reflection/skewvertical) { get; set; } | Xác định góc lệch chiều dọc. Đọc/ghi Double. |
 | [StartPosAlpha](../../aspose.slides.effects/reflection/startposalpha) { get; set; } | Xác định vị trí bắt đầu (theo dốc gradient alpha) của giá trị alpha bắt đầu (phần trăm). Đọc/ghi Single. |
-| [StartReflectionOpacity](../../aspose.slides.effects/reflection/startreflectionopacity) { get; set; } | Độ mờ bắt đầu của reflection. (phần trăm). Đọc/ghi Single. |
+| [StartReflectionOpacity](../../aspose.slides.effects/reflection/startreflectionopacity) { get; set; } | Độ mờ bắt đầu của phản chiếu. (phần trăm). Đọc/ghi Single. |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/reflection/equals)(object) | Xác định xem [`Reflection`](../reflection) được chỉ định có bằng với [`Reflection`](../reflection) hiện tại hay không. |
-| [GetEffective](../../aspose.slides.effects/reflection/geteffective)() | Lấy dữ liệu hiệu ứng Reflection thực tế với kế thừa đã được áp dụng. |
+| [GetEffective](../../aspose.slides.effects/reflection/geteffective)() | Lấy dữ liệu hiệu ứng Reflection thực tế với tính kế thừa được áp dụng. |
 | override [GetHashCode](../../aspose.slides.effects/reflection/gethashcode)() | Đóng vai trò như một hàm băm cho một kiểu cụ thể. |
 
-### Xem Thêm
+### Xem thêm
 
 * giao diện [IReflection](../ireflection)
 * không gian tên [Aspose.Slides.Effects](../../aspose.slides.effects)
-* tập hợp [Aspose.Slides](../../)
+* bộ lắp ráp [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

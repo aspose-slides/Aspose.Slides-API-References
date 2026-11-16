@@ -1,14 +1,14 @@
 ---
 title: IParagraphFormat
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: คลาสนี้มีคุณสมบัติการจัดรูปย่อหน้า. ไม่เหมือน IParagraphFormatEffectiveData./iparagraphformateffectivedata ทุกคุณสมบัติของคลาสนี้สามารถเขียนได้.
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: คลาสนี้มีคุณสมบัติการจัดรูปแบบย่อหน้า. ไม่เหมือนกับ IParagraphFormatEffectiveData./iparagraphformateffectivedata คุณสมบัติเ�ทั้งหมดของคลาสนี้สามารถเขียนได้.
 type: docs
-weight: 6590
+weight: 6610
 url: /th/aspose.slides/iparagraphformat/
 ---
 ## IParagraphFormat อินเทอร์เฟซ
 
-This class contains the paragraph formatting properties. Unlike [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata), all properties of this class are writeable.
+คลาสนี้มีคุณสมบัติการจัดรูปแบบย่อหน้า. ไม่เหมือนกับ [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata) ทั้งคุณสมบัติของคลาสนี้สามารถเขียนได้.
 
 ```csharp
 public interface IParagraphFormat
@@ -18,39 +18,39 @@ public interface IParagraphFormat
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Alignment](../../aspose.slides/iparagraphformat/alignment) { get; set; } | คืนค่า หรือกำหนดการจัดแนวข้อความในย่อหน้าที่ไม่มีการสืบทอด. อ่าน/เขียน [`TextAlignment`](../textalignment). |
-| [Bullet](../../aspose.slides/iparagraphformat/bullet) { get; } | คืนค่า ฟอร์แมตสัญลักษณ์หัวข้อของย่อหน้า. อ่านอย่างเดียว [`IBulletFormat`](../ibulletformat). |
-| [DefaultPortionFormat](../../aspose.slides/iparagraphformat/defaultportionformat) { get; } | คืนค่า ฟอร์แมตส่วนเริ่มต้นของย่อหน้า. ไม่ใช้การสืบทอด. อ่านอย่างเดียว [`IPortionFormat`](../iportionformat). |
-| [DefaultTabSize](../../aspose.slides/iparagraphformat/defaulttabsize) { get; set; } | คืนค่า หรือกำหนดขนาดการตั้งค่าตารางเริ่มต้นที่ไม่มีการสืบทอด. อ่าน/เขียน Single. |
-| [Depth](../../aspose.slides/iparagraphformat/depth) { get; set; } | คืนค่า หรือกำหนดความลึกของย่อหน้า. ค่า 0 หมายถึงค่าที่ไม่ได้กำหนด. อ่าน/เขียน Int16. |
-| [EastAsianLineBreak](../../aspose.slides/iparagraphformat/eastasianlinebreak) { get; set; } | กำหนดว่าการตัดบรรทัดแบบเอเชียตะวันออกจะถูกใช้ในย่อหน้าหรือไม่. ไม่ใช้การสืบทอด. อ่าน/เขียน [`NullableBool`](../nullablebool). |
-| [FontAlignment](../../aspose.slides/iparagraphformat/fontalignment) { get; set; } | คืนค่า หรือกำหนดการจัดแนวฟอนต์ในย่อหน้าที่ไม่มีการสืบทอด. อ่าน/เขียน [`FontAlignment`](../fontalignment). |
-| [HangingPunctuation](../../aspose.slides/iparagraphformat/hangingpunctuation) { get; set; } | กำหนดว่าการใช้เครื่องหมายวรรคตอนห้อยจะถูกใช้ในย่อหน้าหรือไม่. ไม่ใช้การสืบทอด. อ่าน/เขียน [`NullableBool`](../nullablebool). |
-| [Indent](../../aspose.slides/iparagraphformat/indent) { get; set; } | คืนค่า หรือกำหนดการเยื้องบรรทัดแรก/การเยื้องห้อยของย่อหน้าที่ไม่มีการสืบทอด. การเยื้องห้อยสามารถกำหนดด้วยค่าลบ. อ่าน/เขียน Single. |
-| [LatinLineBreak](../../aspose.slides/iparagraphformat/latinlinebreak) { get; set; } | กำหนดว่าการตัดบรรทัดแบบละตินจะถูกใช้ในย่อหน้าหรือไม่. ไม่ใช้การสืบทอด. อ่าน/เขียน [`NullableBool`](../nullablebool). |
-| [MarginLeft](../../aspose.slides/iparagraphformat/marginleft) { get; set; } | คืนค่า หรือกำหนดระยะขอบซ้ายในย่อหน้าที่ไม่มีการสืบทอด. อ่าน/เขียน Single. |
-| [MarginRight](../../aspose.slides/iparagraphformat/marginright) { get; set; } | คืนค่า หรือกำหนดระยะขอบขวาในย่อหน้าที่ไม่มีการสืบทอด. อ่าน/เขียน Single. |
-| [RightToLeft](../../aspose.slides/iparagraphformat/righttoleft) { get; set; } | กำหนดว่าการเขียนจากขวาไปซ้ายจะถูกใช้ในย่อหน้าหรือไม่. ไม่ใช้การสืบทอด. อ่าน/เขียน [`NullableBool`](../nullablebool). |
-| [SpaceAfter](../../aspose.slides/iparagraphformat/spaceafter) { get; set; } | คืนค่า หรือกำหนดปริมาณช่องว่างหลังบรรทัดสุดท้ายในย่อหน้าที่ไม่มีการสืบทอด. ค่าบวกระบุเปอร์เซ็นต์ของขนาดฟอนต์ที่ช่องว่างควรเป็น. ค่าลบระบุขนาดของช่องว่างเป็นจุด. อ่าน/เขียน Single. |
-| [SpaceBefore](../../aspose.slides/iparagraphformat/spacebefore) { get; set; } | คืนค่า หรือกำหนดปริมาณช่องว่างก่อนบรรทัดแรกในย่อหน้าที่ไม่มีการสืบทอด. ค่าบวกระบุเปอร์เซ็นต์ของขนาดฟอนต์ที่ช่องว่างควรเป็น. ค่าลบระบุขนาดของช่องว่างเป็นจุด. อ่าน/เขียน Single. |
-| [SpaceWithin](../../aspose.slides/iparagraphformat/spacewithin) { get; set; } | คืนค่า หรือกำหนดปริมาณช่องว่างระหว่างบรรทัดฐานในย่อหน้า. ค่าบวกหมายถึงเปอร์เซ็นต์, ค่าลบหมายถึงขนาดเป็นจุด. ไม่ใช้การสืบทอด. อ่าน/เขียน Single. |
-| [Tabs](../../aspose.slides/iparagraphformat/tabs) { get; } | คืนค่าการตั้งค่าตารางของย่อหน้า. ไม่ใช้การสืบทอด. อ่านอย่างเดียว [`ITabCollection`](../itabcollection). |
+| [Alignment](../../aspose.slides/iparagraphformat/alignment) { get; set; } | คืนค่า หรือกำหนดการจัดแนวข้อความในย่อหน้าโดยไม่มีการสืบทอด. อ่าน/เขียน [`TextAlignment`](../textalignment). |
+| [Bullet](../../aspose.slides/iparagraphformat/bullet) { get; } | คืนค่ารูปแบบสัญลักษณ์ของย่อหน้า. อ่านอย่างเดียว [`IBulletFormat`](../ibulletformat). |
+| [DefaultPortionFormat](../../aspose.slides/iparagraphformat/defaultportionformat) { get; } | คืนค่ารูปแบบส่วนเริ่มต้นของย่อหน้า. ไม่ได้ใช้การสืบทอด. อ่านอย่างเดียว [`IPortionFormat`](../iportionformat). |
+| [DefaultTabSize](../../aspose.slides/iparagraphformat/defaulttabsize) { get; set; } | คืนค่า หรือกำหนดขนาดการแท็บเริ่มต้นโดยไม่มีการสืบทอด. อ่าน/เขียน Single. |
+| [Depth](../../aspose.slides/iparagraphformat/depth) { get; set; } | คืนค่า หรือกำหนดความลึกของย่อหน้า. ค่า 0 หมายถึงค่าที่ไม่กำหนด. อ่าน/เขียน Int16. |
+| [EastAsianLineBreak](../../aspose.slides/iparagraphformat/eastasianlinebreak) { get; set; } | กำหนดว่าการตัดบรรทัดเอเชียตะวันออกจะใช้ในย่อหน้าหรือไม่. ไม่ได้ใช้การสืบทอด. อ่าน/เขียน [`NullableBool`](../nullablebool). |
+| [FontAlignment](../../aspose.slides/iparagraphformat/fontalignment) { get; set; } | คืนค่า หรือกำหนดการจัดแนวแบบอักษรในย่อหน้าโดยไม่มีการสืบทอด. อ่าน/เขียน [`FontAlignment`](../fontalignment). |
+| [HangingPunctuation](../../aspose.slides/iparagraphformat/hangingpunctuation) { get; set; } | กำหนดว่าการใช้เครื่องหมายวรรคตอนห้อยจะใช้ในย่อหน้าหรือไม่. ไม่ได้ใช้การสืบทอด. อ่าน/เขียน [`NullableBool`](../nullablebool). |
+| [Indent](../../aspose.slides/iparagraphformat/indent) { get; set; } | คืนค่า หรือกำหนดการเยื้องบรรทัดแรก/เยื้องห้อยของย่อหน้าโดยไม่มีการสืบทอด. การเยื้องห้อยสามารถกำหนดด้วยค่าติดลบ. อ่าน/เขียน Single. |
+| [LatinLineBreak](../../aspose.slides/iparagraphformat/latinlinebreak) { get; set; } | กำหนดว่าการตัดบรรทัดละตินจะใช้ในย่อหน้าหรือไม่. ไม่ได้ใช้การสืบทอด. อ่าน/เขียน [`NullableBool`](../nullablebool). |
+| [MarginLeft](../../aspose.slides/iparagraphformat/marginleft) { get; set; } | คืนค่า หรือกำหนดระยะขอบซ้ายในย่อหน้าโดยไม่มีการสืบทอด. อ่าน/เขียน Single. |
+| [MarginRight](../../aspose.slides/iparagraphformat/marginright) { get; set; } | คืนค่า หรือกำหนดระยะขอบขวาในย่อหน้าโดยไม่มีการสืบทอด. อ่าน/เขียน Single. |
+| [RightToLeft](../../aspose.slides/iparagraphformat/righttoleft) { get; set; } | กำหนดว่าการเขียนจากขวาไปซ้ายจะใช้ในย่อหน้าหรือไม่. ไม่ได้ใช้การสืบทอด. อ่าน/เขียน [`NullableBool`](../nullablebool). |
+| [SpaceAfter](../../aspose.slides/iparagraphformat/spaceafter) { get; set; } | คืนค่า หรือกำหนดปริมาณช่องว่างหลังบรรทัดสุดท้ายในย่อหน้าโดยไม่มีการสืบทอด. ค่าบวกระบุร้อยละของขนาดฟอนต์ที่ช่องว่างควรเป็น. ค่าลบระบุขนาดของช่องว่างเป็นจุด. อ่าน/เขียน Single. |
+| [SpaceBefore](../../aspose.slides/iparagraphformat/spacebefore) { get; set; } | คืนค่า หรือกำหนดปริมาณช่องว่างก่อนบรรทัดแรกในย่อหน้าโดยไม่มีการสืบทอด. ค่าบวกระบุร้อยละของขนาดฟอนต์ที่ช่องว่างควรเป็น. ค่าลบระบุขนาดของช่องว่างเป็นจุด. อ่าน/เขียน Single. |
+| [SpaceWithin](../../aspose.slides/iparagraphformat/spacewithin) { get; set; } | คืนค่า หรือกำหนดปริมาณช่องว่างระหว่างบรรทัดฐานในย่อหน้า. ค่าเป็นบวกหมายถึงร้อยละ, ลบหมายถึงขนาดเป็นจุด. ไม่ได้ใช้การสืบทอด. อ่าน/เขียน Single. |
+| [Tabs](../../aspose.slides/iparagraphformat/tabs) { get; } | คืนค่าการแท็บของย่อหน้า. ไม่ได้ใช้การสืบทอด. อ่านอย่างเดียว [`ITabCollection`](../itabcollection). |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [GetEffective](../../aspose.slides/iparagraphformat/geteffective)() | รับข้อมูลการจัดรูปย่อหน้าที่มีผลโดยใช้การสืบทอด. |
+| [GetEffective](../../aspose.slides/iparagraphformat/geteffective)() | รับข้อมูลการจัดรูปแบบย่อหน้าที่มีผลโดยมีการสืบทอดที่ใช้. |
 
 ### หมายเหตุ
 
-คลาสนี้ใช้เพื่อคืนค่าและจัดการคุณสมบัติการจัดรูปย่อหน้าที่กำหนดสำหรับย่อหน้าเฉพาะ. นี้หมายความว่าไม่มีการสืบทอดเมื่อดึงค่าจึงในหลายกรณีคุณจะได้รับค่าที่หมายถึง "undefined".
+คลาสนี้ใช้เพื่อคืนค่าและจัดการคุณสมบัติการจัดรูปแบบย่อหน้าที่กำหนดสำหรับย่อหน้าที่เฉพาะเจาะจง. ซึ่งหมายความว่าไม่มีการสืบทอดเมื่อดึงค่าจึงในกรณีส่วนใหญ่คุณจะได้รับค่าที่หมายถึง "undefined".
 
-เพื่อรับค่าพารามิเตอร์การจัดรูปที่มีผลรวมถึงที่สืบทอด คุณต้องใช้เมธอด [`GetEffective`](./geteffective) ซึ่งคืนค่าอินสแตนซ์ [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata).
+เพื่อให้ได้ค่าพารามิเตอร์การจัดรูปแบบที่มีผลรวมถึงที่สืบทอดคุณจำเป็นต้องใช้เมธอด [`GetEffective`](./geteffective) ซึ่งส่งคืนอินสแตนซ์ [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata).
 
 ### ดูเพิ่มเติม
 
-* เนมสเปซ [Aspose.Slides](../../aspose.slides)
-* แอสเซมบลี [Aspose.Slides](../../)
+* namespace [Aspose.Slides](../../aspose.slides)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

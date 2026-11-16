@@ -3,7 +3,7 @@ title: ITrendlineCollection
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en samling av TrendlineEx
 type: docs
-weight: 2250
+weight: 2270
 url: /sv/aspose.slides.charts/itrendlinecollection/
 ---
 ## ITrendlineCollection gränssnitt
@@ -20,7 +20,7 @@ public interface ITrendlineCollection : IEnumerable<ITrendline>
 | --- | --- |
 | [AsIEnumerable](../../aspose.slides.charts/itrendlinecollection/asienumerable) { get; } | Tillåter att hämta bas-IEnumerable-gränssnittet. Skrivskyddad IEnumerable. |
 | [Count](../../aspose.slides.charts/itrendlinecollection/count) { get; } | Hämtar antalet element som faktiskt finns i samlingen. Skrivskyddad Int32. |
-| [Item](../../aspose.slides.charts/itrendlinecollection/item) { get; } | Hämtar elementet på angivet index. Skrivskyddad [`ITrendline`](../itrendline). |
+| [Item](../../aspose.slides.charts/itrendlinecollection/item) { get; } | Hämtar elementet vid det angivna indexet. Skrivskyddad [`ITrendline`](../itrendline). |
 
 ## Metoder
 

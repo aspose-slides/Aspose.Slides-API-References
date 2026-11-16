@@ -1,14 +1,14 @@
 ---
 title: ChartPlotArea
-second_title: Aspose.Sildes für .NET API Referenz
-description: Stellt ein Rechteck dar, in dem das Diagramm gezeichnet werden soll.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Stellt das Rechteck dar, in dem das Diagramm gezeichnet werden soll.
 type: docs
-weight: 1420
+weight: 1430
 url: /de/aspose.slides.charts/chartplotarea/
 ---
 ## ChartPlotArea Klasse
 
-Stellt ein Rechteck dar, in dem das Diagramm gezeichnet werden soll.
+Stellt das Rechteck dar, in dem das Diagramm gezeichnet werden soll.
 
 ```csharp
 public class ChartPlotArea : DomObject<Chart>, IChartPlotArea
@@ -18,20 +18,20 @@ public class ChartPlotArea : DomObject<Chart>, IChartPlotArea
 
 | Name | Beschreibung |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/chartplotarea/actualheight) { get; } | Gibt die tatsächliche Höhe des Diagrammelements an. Rufen Sie vorher die Methode IChart.ValidateChartLayout() auf, um die tatsächlichen Werte zu erhalten. Lesen Single. |
-| [ActualWidth](../../aspose.slides.charts/chartplotarea/actualwidth) { get; } | Gibt die tatsächliche Breite des Diagrammelements an. Rufen Sie vorher die Methode IChart.ValidateChartLayout() auf, um die tatsächlichen Werte zu erhalten. Lesen Single. |
-| [ActualX](../../aspose.slides.charts/chartplotarea/actualx) { get; } | Gibt die tatsächliche x-Position (links) des Diagrammelements relativ zur linken oberen Ecke des Diagramms an. Rufen Sie vorher die Methode IChart.ValidateChartLayout() auf, um die tatsächlichen Werte zu erhalten. Lesen Single. |
-| [ActualY](../../aspose.slides.charts/chartplotarea/actualy) { get; } | Gibt die tatsächliche obere Position des Diagrammelements relativ zur linken oberen Ecke des Diagramms an. Rufen Sie vorher die Methode IChart.ValidateChartLayout() auf, um die tatsächlichen Werte zu erhalten. Lesen Single. |
-| [Bottom](../../aspose.slides.charts/chartplotarea/bottom) { get; } | Unterseite. Nur-Lesen Single. |
+| [ActualHeight](../../aspose.slides.charts/chartplotarea/actualheight) { get; } | Gibt die tatsächliche Höhe des Diagrammelements an. Rufen Sie die Methode IChart.ValidateChartLayout() vorher auf, um die tatsächlichen Werte zu erhalten. Nur-Lesen Single. |
+| [ActualWidth](../../aspose.slides.charts/chartplotarea/actualwidth) { get; } | Gibt die tatsächliche Breite des Diagrammelements an. Rufen Sie die Methode IChart.ValidateChartLayout() vorher auf, um die tatsächlichen Werte zu erhalten. Nur-Lesen Single. |
+| [ActualX](../../aspose.slides.charts/chartplotarea/actualx) { get; } | Gibt die tatsächliche x-Position (links) des Diagrammelements relativ zur linken oberen Ecke des Diagramms an. Rufen Sie die Methode IChart.ValidateChartLayout() vorher auf, um die tatsächlichen Werte zu erhalten. Nur-Lesen Single. |
+| [ActualY](../../aspose.slides.charts/chartplotarea/actualy) { get; } | Gibt die tatsächliche obere Position des Diagrammelements relativ zur linken oberen Ecke des Diagramms an. Rufen Sie die Methode IChart.ValidateChartLayout() vorher auf, um die tatsächlichen Werte zu erhalten. Nur-Lesen Single. |
+| [Bottom](../../aspose.slides.charts/chartplotarea/bottom) { get; } | Unten. Nur-Lesen Single. |
 | [Chart](../../aspose.slides.charts/chartplotarea/chart) { get; } | Diagramm. Nur-Lesen [`IChart`](../ichart). |
-| [Format](../../aspose.slides.charts/chartplotarea/format) { get; } | Gibt das Format eines Plotbereichs zurück. Nur-Lesen [`IFormat`](../iformat). |
-| [Height](../../aspose.slides.charts/chartplotarea/height) { get; set; } | Gibt die Höhe einer Plotbereich-Bounding-Box als Bruchteil der Diagrammhöhe zurück oder legt sie fest (von 0 bis 1). Lesen/Schreiben Single. |
-| [IsLocationAutocalculated](../../aspose.slides.charts/chartplotarea/islocationautocalculated) { get; } | Legt fest, wie die Position berechnet werden soll: true – automatisch berechnet; definiert durch die Eigenschaften X, Y, Width, Height. Nur-Lesen Boolean. |
-| [LayoutTargetType](../../aspose.slides.charts/chartplotarea/layouttargettype) { get; set; } | Wenn das Layout des Plotbereichs manuell definiert ist, gibt diese Eigenschaft an, ob der Plotbereich nach seinem Inneren (ohne Achsen und Achsenbeschriftungen) oder nach seinem Äußeren (inklusive Achsen und Achsenbeschriftungen) angeordnet werden soll. Lesen/Schreiben [`LayoutTargetType`](./layouttargettype). |
+| [Format](../../aspose.slides.charts/chartplotarea/format) { get; } | Gibt das Format eines Zeichenbereichs zurück. Nur-Lesen [`IFormat`](../iformat). |
+| [Height](../../aspose.slides.charts/chartplotarea/height) { get; set; } | Gibt die Höhe eines Begrenzungsrahmens des Zeichenbereichs als Bruchteil der Diagrammhöhe zurück oder legt sie fest (von 0 bis 1). Lesen/Schreiben Single. |
+| [IsLocationAutocalculated](../../aspose.slides.charts/chartplotarea/islocationautocalculated) { get; } | Definiert, wie die Position berechnet werden soll: true – automatisch berechnet; definiert durch die Eigenschaften X, Y, Width, Height. Nur-Lesen Boolean. |
+| [LayoutTargetType](../../aspose.slides.charts/chartplotarea/layouttargettype) { get; set; } | Wenn das Layout des Zeichenbereichs manuell definiert ist, gibt diese Eigenschaft an, ob der Zeichenbereich nach innen (ohne Achsen und Achsenbeschriftungen) oder nach außen (einschließlich Achsen und Achsenbeschriftungen) ausgerichtet werden soll. Lesen/Schreiben [`LayoutTargetType`](./layouttargettype). |
 | [Right](../../aspose.slides.charts/chartplotarea/right) { get; } | Rechts. Nur-Lesen Single. |
-| [Width](../../aspose.slides.charts/chartplotarea/width) { get; set; } | Gibt die Breite einer Plotbereich-Bounding-Box als Bruchteil der Diagrammbreite zurück oder legt sie fest (von 0 bis 1). Lesen/Schreiben Single. |
-| [X](../../aspose.slides.charts/chartplotarea/x) { get; set; } | Gibt die x-Koordinate der oberen linken Ecke der Plotbereich-Bounding-Box als Bruchteil der Diagrammbreite zurück oder legt sie fest (von 0 bis 1). Lesen/Schreiben Single. |
-| [Y](../../aspose.slides.charts/chartplotarea/y) { get; set; } | Gibt die y-Koordinate der oberen linken Ecke der Plotbereich-Bounding-Box als Bruchteil der Diagrammhöhe zurück oder legt sie fest (von 0 bis 1). Lesen/Schreiben Single. |
+| [Width](../../aspose.slides.charts/chartplotarea/width) { get; set; } | Gibt die Breite eines Begrenzungsrahmens des Zeichenbereichs als Bruchteil der Diagrammbreite zurück oder legt sie fest (von 0 bis 1). Lesen/Schreiben Single. |
+| [X](../../aspose.slides.charts/chartplotarea/x) { get; set; } | Gibt die x-Koordinate der oberen linken Ecke des Zeichenbereichsbegrenzungsrahmens als Bruchteil der Diagrammbreite zurück oder legt sie fest (von 0 bis 1). Lesen/Schreiben Single. |
+| [Y](../../aspose.slides.charts/chartplotarea/y) { get; set; } | Gibt die y-Koordinate der oberen linken Ecke des Zeichenbereichsbegrenzungsrahmens als Bruchteil der Diagrammhöhe zurück oder legt sie fest (von 0 bis 1). Lesen/Schreiben Single. |
 
 ### Siehe auch
 

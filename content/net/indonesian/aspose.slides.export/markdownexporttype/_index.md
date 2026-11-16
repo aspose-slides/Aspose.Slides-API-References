@@ -1,14 +1,14 @@
 ---
 title: MarkdownExportType
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Tipe dokumen rendering.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Jenis dokumen yang dirender.
 type: docs
-weight: 4240
+weight: 4260
 url: /id/aspose.slides.export/markdownexporttype/
 ---
-## MarkdownExportType enumeration
+## enumerasi MarkdownExportType
 
-Tipe render dokumen.
+Jenis dokumen yang dirender.
 
 ```csharp
 public enum MarkdownExportType

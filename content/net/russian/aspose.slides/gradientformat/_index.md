@@ -1,9 +1,9 @@
 ---
 title: GradientFormat
-second_title: Справка API Aspose.Sildes для .NET
+second_title: Ссылка на API Aspose.Sildes для .NET
 description: Представляет формат градиента.
 type: docs
-weight: 5000
+weight: 5020
 url: /ru/aspose.slides/gradientformat/
 ---
 ## GradientFormat класс
@@ -16,19 +16,19 @@ public sealed class GradientFormat : PVIObject, IGradientFormat
 
 ## Свойства
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения [`IPresentationComponent`](../ipresentationcomponent). |
 | [GradientDirection](../../aspose.slides/gradientformat/gradientdirection) { get; set; } | Возвращает или задает стиль градиента. Чтение/запись [`GradientDirection`](../gradientdirection). |
 | [GradientShape](../../aspose.slides/gradientformat/gradientshape) { get; set; } | Возвращает или задает форму градиента. Чтение/запись [`GradientShape`](../gradientshape). |
-| [GradientStops](../../aspose.slides/gradientformat/gradientstops) { get; } | Возвращает коллекцию остановок градиента. Только для чтения [`IGradientStopCollection`](../igradientstopcollection). |
+| [GradientStops](../../aspose.slides/gradientformat/gradientstops) { get; } | Возвращает коллекцию стоп градиента. Только для чтения [`IGradientStopCollection`](../igradientstopcollection). |
 | [LinearGradientAngle](../../aspose.slides/gradientformat/lineargradientangle) { get; set; } | Возвращает или задает угол градиента. Чтение/запись Single. |
 | [LinearGradientScaled](../../aspose.slides/gradientformat/lineargradientscaled) { get; set; } | Определяет, масштабируется ли градиент. Чтение/запись [`NullableBool`](../nullablebool). |
 | [TileFlip](../../aspose.slides/gradientformat/tileflip) { get; set; } | Возвращает или задает режим отражения градиента. Чтение/запись [`TileFlip`](../tileflip). |
 
 ## Методы
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Сравнивает с указанным объектом. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Возвращает хэш-код. |

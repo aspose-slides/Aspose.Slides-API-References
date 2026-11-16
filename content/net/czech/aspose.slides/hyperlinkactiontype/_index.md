@@ -1,9 +1,9 @@
 ---
 title: HyperlinkActionType
-second_title: Aspose.Sildes pro .NET API Reference
+second_title: Aspose.Sildes pro .NET referenci API
 description: Reprezentuje typ akce hypertextového odkazu.
 type: docs
-weight: 5130
+weight: 5150
 url: /cs/aspose.slides/hyperlinkactiontype/
 ---
 ## HyperlinkActionType enumerace
@@ -23,7 +23,7 @@ public enum HyperlinkActionType
 | Hyperlink | `1` | Běžný hypertextový odkaz. |
 | JumpFirstSlide | `2` | Přeskočit na první snímek prezentace. |
 | JumpPreviousSlide | `3` | Přeskočit na předchozí snímek. |
-| JumpNextSlide | `4` | Přeskočit na další snímek. |
+| JumpNextSlide | `4` | Přeskočit na následující snímek. |
 | JumpLastSlide | `5` | Přeskočit na poslední snímek prezentace. |
 | JumpEndShow | `6` | Přeskočit na konec prezentace. |
 | JumpLastViewedSlide | `7` | Přeskočit na poslední zobrazený snímek. |
@@ -31,8 +31,8 @@ public enum HyperlinkActionType
 | StartCustomSlideShow | `9` | Spustit vlastní prezentaci. |
 | OpenFile | `10` | Otevřít odkazovaný soubor. |
 | OpenPresentation | `11` | Otevřít odkazovanou prezentaci. |
-| StartStopMedia | `12` | Spustit/stopovat přehrávání mediálního souboru. |
-| StartMacro | `13` | Spustit vykonávání skriptu makra. |
+| StartStopMedia | `12` | Spustit/zastavit přehrávání mediálního souboru. |
+| StartMacro | `13` | Spustit vykonávání makro skriptu. |
 | StartProgram | `14` | Spustit program. |
 
 ### Viz také

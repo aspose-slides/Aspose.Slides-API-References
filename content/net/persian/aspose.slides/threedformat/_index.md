@@ -1,58 +1,58 @@
 ---
 title: ThreeDFormat
 second_title: Aspose.Sildes برای .NET مرجع API
-description: نمایانگر ویژگی‌های 3-D.
+description: نمایانگر ویژگی‌های 3-بعدی است.
 type: docs
-weight: 11490
+weight: 11510
 url: /fa/aspose.slides/threedformat/
 ---
-## ThreeDFormat کلاس
+## کلاس ThreeDFormat
 
-نمایانگر ویژگی‌های 3-D است.
+نمایش می‌دهد ویژگی‌های 3-بعدی.
 
 ```csharp
 public sealed class ThreeDFormat : PVIObject, IThreeDFormat
 ```
 
-## ویژگی‌ها
+## خصوصیات
 
 | نام | توضیح |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | اجازه دریافت رابط پایه IPresentationComponent را می‌دهد. فقط خواندنی [`IPresentationComponent`](../ipresentationcomponent). |
-| [BevelBottom](../../aspose.slides/threedformat/bevelbottom) { get; } | نوع برجستگی 3D پایین را برمی‌گرداند یا تنظیم می‌کند. فقط خواندنی [`IShapeBevel`](../ishapebevel). |
-| [BevelTop](../../aspose.slides/threedformat/beveltop) { get; } | نوع برجستگی 3D بالا را برمی‌گرداند یا تنظیم می‌کند. فقط خواندنی [`IShapeBevel`](../ishapebevel). |
-| [Camera](../../aspose.slides/threedformat/camera) { get; } | تنظیمات دوربین را برمی‌گرداند یا تنظیم می‌کند. فقط خواندنی [`ICamera`](../icamera). |
-| [ContourColor](../../aspose.slides/threedformat/contourcolor) { get; } | رنگ یک contour را برمی‌گرداند یا تنظیم می‌کند. فقط خواندنی [`IColorFormat`](../icolorformat). |
-| [ContourWidth](../../aspose.slides/threedformat/contourwidth) { get; set; } | عرض یک contour 3D را برمی‌گرداند یا تنظیم می‌کند. قابل خواندن/نوشتن Double. |
-| [Depth](../../aspose.slides/threedformat/depth) { get; set; } | عمق یک شکل 3D را برمی‌گرداند یا تنظیم می‌کند. قابل خواندن/نوشتن Double. |
-| [ExtrusionColor](../../aspose.slides/threedformat/extrusioncolor) { get; } | رنگ یک extrusion را برمی‌گرداند یا تنظیم می‌کند. فقط خواندنی [`IColorFormat`](../icolorformat). |
-| [ExtrusionHeight](../../aspose.slides/threedformat/extrusionheight) { get; set; } | ارتفاع اثر extrusion را برمی‌گرداند یا تنظیم می‌کند. قابل خواندن/نوشتن Double. |
-| [LightRig](../../aspose.slides/threedformat/lightrig) { get; } | نوع یک نور را برمی‌گرداند یا تنظیم می‌کند. فقط خواندنی [`ILightRig`](../ilightrig). |
-| [Material](../../aspose.slides/threedformat/material) { get; set; } | نوع یک ماده را برمی‌گرداند یا تنظیم می‌کند. قابل خواندن/نوشتن [`MaterialPresetType`](../materialpresettype). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | اجازه دریافت رابط IPresentationComponent پایه. فقط خواندنی [`IPresentationComponent`](../ipresentationcomponent). |
+| [BevelBottom](../../aspose.slides/threedformat/bevelbottom) { get; } | بازگرداندن یا تنظیم نوع برجستگی 3-بعدی پایین. فقط خواندنی [`IShapeBevel`](../ishapebevel). |
+| [BevelTop](../../aspose.slides/threedformat/beveltop) { get; } | بازگرداندن یا تنظیم نوع برجستگی 3-بعدی بالا. فقط خواندنی [`IShapeBevel`](../ishapebevel). |
+| [Camera](../../aspose.slides/threedformat/camera) { get; } | بازگرداندن یا تنظیم تنظیمات دوربین. فقط خواندنی [`ICamera`](../icamera). |
+| [ContourColor](../../aspose.slides/threedformat/contourcolor) { get; } | بازگرداندن یا تنظیم رنگ خطوط دور. فقط خواندنی [`IColorFormat`](../icolorformat). |
+| [ContourWidth](../../aspose.slides/threedformat/contourwidth) { get; set; } | بازگرداندن یا تنظیم عرض خطوط دور 3-بعدی. قابل خواندن و نوشتن Double. |
+| [Depth](../../aspose.slides/threedformat/depth) { get; set; } | بازگرداندن یا تنظیم عمق یک اشکال 3-بعدی. قابل خواندن و نوشتن Double. |
+| [ExtrusionColor](../../aspose.slides/threedformat/extrusioncolor) { get; } | بازگرداندن یا تنظیم رنگ بیرون‌زدگی. فقط خواندنی [`IColorFormat`](../icolorformat). |
+| [ExtrusionHeight](../../aspose.slides/threedformat/extrusionheight) { get; set; } | بازگرداندن یا تنظیم ارتفاع اثر بیرون‌زدگی. قابل خواندن و نوشتن Double. |
+| [LightRig](../../aspose.slides/threedformat/lightrig) { get; } | بازگرداندن یا تنظیم نوع نور. فقط خواندنی [`ILightRig`](../ilightrig). |
+| [Material](../../aspose.slides/threedformat/material) { get; set; } | بازگرداندن یا تنظیم نوع ماده. قابل خواندن و نوشتن [`MaterialPresetType`](../materialpresettype). |
 
 ## متدها
 
 | نام | توضیح |
 | --- | --- |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | با شیء مشخص‌شده مقایسه می‌کند. |
-| [GetEffective](../../aspose.slides/threedformat/geteffective)() | داده‌های قالب‌بندی موثر 3-D را با اعمال وراثت دریافت می‌کند. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | کد هش را برمی‌گرداند. |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | مقایسه با شیء مشخص شده. |
+| [GetEffective](../../aspose.slides/threedformat/geteffective)() | دریافت داده‌های قالب‌بندی مؤثر 3-بعدی با اعمال وراثت. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | بازگرداندن کد هش. |
 
 ### مثال‌ها
 
-مثال زیر نشان می‌دهد چگونه یک شکل 3D را در ارائه PowerPoint اضافه کنید.
+مثال زیر نشان می‌دهد چطور یک شکل 3-بعدی را در ارائه PowerPoint اضافه کنیم.
 
 ```csharp
 [C#]
-// یک نمونه از کلاس Presentation را ایجاد می‌کند.
+// یک نمونه از کلاس Presentation ایجاد کنید.
 using (Presentation pres = new Presentation())
 {
-	// یک شکل با استفاده از متد AddAutoShape اضافه می‌کند
+	// یک شکل را با استفاده از متد AddAutoShape اضافه کنید
     IAutoShape shape = pres.Slides[0].Shapes.AddAutoShape(ShapeType.Rectangle, 200, 150, 200, 200);
 	// تعریف TextFrame و ویژگی‌های آن
     shape.TextFrame.Text = "3D";
     shape.TextFrame.Paragraphs[0].ParagraphFormat.DefaultPortionFormat.FontHeight = 64;
-	// تعریف ویژگی‌های ThreeDFormat
+	// تعریف خصوصیات ThreeDFormat
     shape.ThreeDFormat.Camera.CameraType = CameraPresetType.OrthographicFront;
     shape.ThreeDFormat.Camera.SetRotation(20, 30, 40);
     shape.ThreeDFormat.LightRig.LightType = LightRigPresetType.Flat;
@@ -61,19 +61,19 @@ using (Presentation pres = new Presentation())
     shape.ThreeDFormat.ExtrusionHeight = 100;
     shape.ThreeDFormat.ExtrusionColor.Color = Color.Blue;
     pres.Slides[0].GetThumbnail(2, 2).Save("sample_3d.png");
-	// فایل Presentation را ذخیره می‌کند.
+	// فایل Presentation را ذخیره کنید
     pres.Save("sandbox_3d.pptx", SaveFormat.Pptx);
 }
 ```
 
-مثال زیر نشان می‌دهد چگونه اثر Gradient را به شکل 3D در ارائه PowerPoint اعمال کنید.
+مثال زیر نشان می‌دهد چطور اثر Gradient را بر شکل 3-بعدی در ارائه PowerPoint اعمال کنیم.
 
 ```csharp
 [C#]
-// یک نمونه از کلاس Presentation ایجاد می‌کند.
+// یک نمونه از کلاس Presentation ایجاد کنید.
 using (Presentation pres = new Presentation())
 {
-	// یک شکل با استفاده از متد AddAutoShape اضافه می‌کند
+	// یک شکل را با استفاده از متد AddAutoShape اضافه کنید
      IAutoShape shape = pres.Slides[0].Shapes.AddAutoShape(ShapeType.Rectangle, 200, 150, 250, 250);
 	// تعریف TextFrame و ویژگی‌های آن
     shape.TextFrame.Text = "3D Gradient";
@@ -82,7 +82,7 @@ using (Presentation pres = new Presentation())
 	shape.FillFormat.FillType = FillType.Gradient;
     shape.FillFormat.GradientFormat.GradientStops.Add(0, Color.Blue);
     shape.FillFormat.GradientFormat.GradientStops.Add(100, Color.Orange);
-	// تعریف ویژگی‌های ThreeDFormat
+	// تعریف خصوصیات ThreeDFormat
     shape.ThreeDFormat.Camera.CameraType = CameraPresetType.OrthographicFront;
     shape.ThreeDFormat.Camera.SetRotation(20, 30, 40);
     shape.ThreeDFormat.LightRig.LightType = LightRigPresetType.Flat;
@@ -96,14 +96,14 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-مثال زیر نشان می‌دهد چگونه اثر 3D را بر متن اعمال کنید. برای ایجاد متن 3D می‌توانید از اثر تبدیل WordArt استفاده کنید.
+مثال زیر نشان می‌دهد چطور اثر 3-بعدی را بر متن اعمال کنیم. برای ایجاد متن 3-بعدی می‌توان از اثر تبدیل WordArt استفاده کرد.
 
 ```csharp
 [C#]
-// یک نمونه از کلاس Presentation ایجاد می‌کند.
+// یک نمونه از کلاس Presentation ایجاد کنید.
 using (Presentation pres = new Presentation())
 {
-	// یک شکل با استفاده از متد AddAutoShape اضافه می‌کند
+	// یک شکل را با استفاده از متد AddAutoShape اضافه کنید
      IAutoShape shape = pres.Slides[0].Shapes.AddAutoShape(ShapeType.Rectangle, 200, 150, 250, 250);
 	// تعریف TextFrame و ویژگی‌های آن
     shape.TextFrame.Text = "3D Text";
@@ -118,9 +118,9 @@ using (Presentation pres = new Presentation())
     portion.PortionFormat.FillFormat.PatternFormat.PatternStyle = PatternStyle.LargeGrid;
 	shape.TextFrame.Paragraphs[0].ParagraphFormat.DefaultPortionFormat.FontHeight = 128;
     ITextFrame textFrame = shape.TextFrame;
-    // راه‌اندازی اثر تبدیل WordArt "Arch Up"
+    // تنظیم اثر تبدیل WordArt "Arch Up"
     textFrame.TextFrameFormat.Transform = TextShapeType.ArchUp;
-	// تعریف ویژگی‌های ThreeDFormat از ITextFrame
+	// تعریف خصوصیات ThreeDFormat از ITextFrame
 	textFrame.TextFrameFormat.ThreeDFormat.ExtrusionHeight = 3.5f;
     textFrame.TextFrameFormat.ThreeDFormat.Depth = 3;
     textFrame.TextFrameFormat.ThreeDFormat.Material = MaterialPresetType.Plastic;
@@ -134,11 +134,11 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### موارد مرتبط
+### همچنین ببینید
 
 * کلاس [PVIObject](../pviobject)
 * رابط [IThreeDFormat](../ithreedformat)
 * فضای‌نام [Aspose.Slides](../../aspose.slides)
-* مجتمع [Aspose.Slides](../../)
+* مجمع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,9 +1,9 @@
 ---
 title: HSL
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Aspose.Sildes для .NET Справочник API
 description: Представляет эффект Hue/Saturation/Luminance. Оттенок, насыщенность и яркость могут быть скорректированы относительно их текущих значений.
 type: docs
-weight: 3010
+weight: 3030
 url: /ru/aspose.slides.effects/hsl/
 ---
 ## HSL класс
@@ -18,17 +18,17 @@ public sealed class HSL : ImageTransformOperation, IHSL
 
 | Имя | Описание |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только чтение [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/hsl/equals)(object) | Определяет, равен ли указанный [`HSL`](../hsl) текущему [`HSL`](../hsl). |
-| [GetEffective](../../aspose.slides.effects/hsl/geteffective)() | Получает действительные данные эффекта Hue/Saturation/Luminance с учётом наследования. |
-| override [GetHashCode](../../aspose.slides.effects/hsl/gethashcode)() | Служит функцией хеширования для определённого типа. |
+| [GetEffective](../../aspose.slides.effects/hsl/geteffective)() | Получает данные эффективного эффекта Hue/Saturation/Luminance с учётом наследования. |
+| override [GetHashCode](../../aspose.slides.effects/hsl/gethashcode)() | Служит в качестве хеш-функции для определенного типа. |
 
-### См. также
+### Смотрите также
 
 * класс [ImageTransformOperation](../imagetransformoperation)
 * интерфейс [IHSL](../ihsl)

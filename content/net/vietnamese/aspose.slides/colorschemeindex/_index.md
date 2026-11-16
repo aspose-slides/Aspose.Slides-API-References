@@ -1,14 +1,14 @@
 ---
 title: ColorSchemeIndex
 second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Biểu thị một chỉ mục trong một bảng màu.
+description: Mô tả một chỉ mục trong bảng màu.
 type: docs
-weight: 2550
+weight: 2570
 url: /vi/aspose.slides/colorschemeindex/
 ---
 ## ColorSchemeIndex liệt kê
 
-Biểu thị một chỉ mục trong một bảng màu.
+Mô tả một chỉ mục trong bảng màu.
 
 ```csharp
 public enum ColorSchemeIndex : byte
@@ -18,18 +18,18 @@ public enum ColorSchemeIndex : byte
 
 | Tên | Giá trị | Mô tả |
 | --- | --- | --- |
-| Dark1 | `0` | Màu tối 1. |
-| Light1 | `1` | Màu sáng 1. |
-| Dark2 | `2` | Màu tối 2. |
-| Light2 | `3` | Màu sáng 2. |
-| Accent1 | `4` | Màu nhấn 1. |
-| Accent2 | `5` | Màu nhấn 2. |
-| Accent3 | `6` | Màu nhấn 3. |
-| Accent4 | `7` | Màu nhấn 4. |
-| Accent5 | `8` | Màu nhấn 5. |
-| Accent6 | `9` | Màu nhấn 6. |
-| Hyperlink | `10` | Liên kết siêu văn bản. |
-| FollowedHyperlink | `11` | Liên kết siêu văn bản đã mở. |
+| Dark1 | `0` | Tối 1. |
+| Light1 | `1` | Sáng 1. |
+| Dark2 | `2` | Tối 2. |
+| Light2 | `3` | Sáng 2. |
+| Accent1 | `4` | Nhấn mạnh 1. |
+| Accent2 | `5` | Nhấn mạnh 2. |
+| Accent3 | `6` | Nhấn mạnh 3. |
+| Accent4 | `7` | Nhấn mạnh 4. |
+| Accent5 | `8` | Nhấn mạnh 5. |
+| Accent6 | `9` | Nhấn mạnh 6. |
+| Hyperlink | `10` | Hyperlink. |
+| FollowedHyperlink | `11` | Hyperlink đã theo dõi. |
 
 ### Xem thêm
 

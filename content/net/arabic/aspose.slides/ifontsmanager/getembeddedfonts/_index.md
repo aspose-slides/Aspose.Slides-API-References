@@ -1,14 +1,14 @@
 ---
 title: GetEmbeddedFonts
 second_title: Aspose.Sildes لـ .NET مرجع API
-description: يعيد الخطوط المدمجة في العرض التقديمي
+description: يعيد الخطوط المضمنة في العرض التقديمي
 type: docs
-weight: 40
+weight: 50
 url: /ar/aspose.slides/ifontsmanager/getembeddedfonts/
 ---
 ## IFontsManager.GetEmbeddedFonts طريقة
 
-يعيد الخطوط المدمجة في العرض التقديمي
+يعيد الخطوط المضمنة في العرض التقديمي
 
 ```csharp
 public IFontData[] GetEmbeddedFonts()
@@ -16,9 +16,9 @@ public IFontData[] GetEmbeddedFonts()
 
 ### قيمة الإرجاع
 
-الخطوط المدمجة [`IFontData`](../../ifontdata)[]
+الخطوط المضمنة [`IFontData`](../../ifontdata)[]
 
-### انظر أيضًا
+### انظر أيضا
 
 * واجهة [IFontData](../../ifontdata)
 * واجهة [IFontsManager](../../ifontsmanager)

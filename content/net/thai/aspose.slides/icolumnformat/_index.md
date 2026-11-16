@@ -1,14 +1,14 @@
 ---
 title: IColumnFormat
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงรูปแบบของคอลัมน์ในตาราง.
+second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
+description: แสดงถึงรูปแบบของคอลัมน์ตาราง.
 type: docs
-weight: 5540
+weight: 5560
 url: /th/aspose.slides/icolumnformat/
 ---
 ## IColumnFormat อินเทอร์เฟซ
 
-แสดงถึงรูปแบบของคอลัมน์ในตาราง.
+แสดงถึงรูปแบบของคอลัมน์ตาราง.
 
 ```csharp
 public interface IColumnFormat
@@ -18,7 +18,7 @@ public interface IColumnFormat
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [GetEffective](../../aspose.slides/icolumnformat/geteffective)() | รับคุณสมบัติการจัดรูปแบบคอลัมน์ของตารางที่มีผลพร้อมการสืบทอดและสไตล์ของตารางที่ใช้ |
+| [GetEffective](../../aspose.slides/icolumnformat/geteffective)() | รับคุณสมบัติการจัดรูปแบบคอลัมน์ตารางที่มีประสิทธิภาพพร้อมการสืบทอดและสไตล์ตารางที่นำไปใช้. |
 
 ### ดูเพิ่มเติม
 

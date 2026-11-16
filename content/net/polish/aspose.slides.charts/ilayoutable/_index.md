@@ -1,14 +1,14 @@
 ---
 title: ILayoutable
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla .NET – Dokumentacja API
 description: Określa dokładną pozycję elementu wykresu.
 type: docs
-weight: 2120
+weight: 2140
 url: /pl/aspose.slides.charts/ilayoutable/
 ---
 ## ILayoutable interfejs
 
-Określa dokładne położenie elementu wykresu.
+Specifies the exact position of a chart element.
 
 ```csharp
 public interface ILayoutable : IChartComponent
@@ -20,11 +20,11 @@ public interface ILayoutable : IChartComponent
 | --- | --- |
 | [AsIChartComponent](../../aspose.slides.charts/ilayoutable/asichartcomponent) { get; } | Umożliwia pobranie podstawowego interfejsu IChartComponent. Tylko do odczytu [`IChartComponent`](../ichartcomponent). |
 | [Bottom](../../aspose.slides.charts/ilayoutable/bottom) { get; } | Pobiera górę elementu wykresu jako ułamek wysokości wykresu. Tylko do odczytu Single. |
-| [Height](../../aspose.slides.charts/ilayoutable/height) { get; set; } | Określa wysokość elementu wykresu jako ułamek wysokości wykresu. Do odczytu/zapisu Single. |
+| [Height](../../aspose.slides.charts/ilayoutable/height) { get; set; } | Określa wysokość elementu wykresu jako ułamek wysokości wykresu. Odczyt/zapis Single. |
 | [Right](../../aspose.slides.charts/ilayoutable/right) { get; } | Pobiera prawą krawędź elementu wykresu jako ułamek szerokości wykresu. Tylko do odczytu Single. |
-| [Width](../../aspose.slides.charts/ilayoutable/width) { get; set; } | Określa szerokość elementu wykresu jako ułamek szerokości wykresu. Do odczytu/zapisu Single. |
-| [X](../../aspose.slides.charts/ilayoutable/x) { get; set; } | Określa położenie x (lewo) elementu wykresu jako ułamek szerokości wykresu. Do odczytu/zapisu Single. |
-| [Y](../../aspose.slides.charts/ilayoutable/y) { get; set; } | Określa górę elementu wykresu jako ułamek wysokości wykresu. Do odczytu/zapisu Single. |
+| [Width](../../aspose.slides.charts/ilayoutable/width) { get; set; } | Określa szerokość elementu wykresu jako ułamek szerokości wykresu. Odczyt/zapis Single. |
+| [X](../../aspose.slides.charts/ilayoutable/x) { get; set; } | Określa położenie x (lewy) elementu wykresu jako ułamek szerokości wykresu. Odczyt/zapis Single. |
+| [Y](../../aspose.slides.charts/ilayoutable/y) { get; set; } | Określa górę elementu wykresu jako ułamek wysokości wykresu. Odczyt/zapis Single. |
 
 ### Zobacz także
 

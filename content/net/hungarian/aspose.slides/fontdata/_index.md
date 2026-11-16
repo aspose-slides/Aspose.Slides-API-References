@@ -1,14 +1,14 @@
 ---
 title: FontData
-second_title: Aspose.Sildes .NET API referencia
-description: Egy betűtípusdefiníciót képvisel. Változtathatatlan.
+second_title: Aspose.Sildes a .NET-hez API-referencia
+description: Egy betűtípusdefiníciót reprezentál. Nem módosítható.
 type: docs
-weight: 4820
+weight: 4840
 url: /hu/aspose.slides/fontdata/
 ---
 ## FontData osztály
 
-Egy betűtípusdefiníciót képvisel. Változtathatatlan.
+Egy betűtípusdefiníciót reprezentál. Nem módosítható.
 
 ```csharp
 public sealed class FontData : IFontData
@@ -18,22 +18,22 @@ public sealed class FontData : IFontData
 
 | Név | Leírás |
 | --- | --- |
-| [FontData](fontdata)(string) | Létrehoz egy új FontData objektumot a megadott betűtípus-névvel. |
+| [FontData](fontdata)(string) | Létrehoz egy új FontData objektumot a megadott betűtípusnévvel. |
 
 ## Tulajdonságok
 
 | Név | Leírás |
 | --- | --- |
-| [FontName](../../aspose.slides/fontdata/fontname) { get; } | Visszaadja a betűtípus nevét. Olvasható/írható String. |
+| [FontName](../../aspose.slides/fontdata/fontname) { get; } | Visszaadja a betűtípus nevét. Olvasás/írás String. |
 
 ## Metódusok
 
 | Név | Leírás |
 | --- | --- |
 | override [Equals](../../aspose.slides/fontdata/equals)(object) | Megállapítja, hogy két FontData példány egyenlő-e. |
-| [GetFontName](../../aspose.slides/fontdata/getfontname)(IThemeEffectiveData) | Visszaadja a betűtípus nevét, helyettesítve a téma hivatkozást a ténylegesen használt betűtípussal. |
-| override [GetHashCode](../../aspose.slides/fontdata/gethashcode)() | Hash függvényként szolgál egy adott típushoz, amely alkalmas hashelő algoritmusokban és adatszerkezetekben, például hash tábla használatára. |
-| override [ToString](../../aspose.slides/fontdata/tostring)() | Visszaadja a karakterlánc ábrázolást. |
+| [GetFontName](../../aspose.slides/fontdata/getfontname)(IThemeEffectiveData) | Visszaadja a betűtípus nevét, a téma hivatkozást a ténylegesen használt betűtípussal helyettesítve. |
+| override [GetHashCode](../../aspose.slides/fontdata/gethashcode)() | Hash függvényként szolgál egy adott típushoz, amely alkalmas hash algoritmusokban és adatstruktúrákban, például hash táblában való használatra. |
+| override [ToString](../../aspose.slides/fontdata/tostring)() | Visszaadja a karakterlánc ábrázolását. |
 
 ### Lásd még
 

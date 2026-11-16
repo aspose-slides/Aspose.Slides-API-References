@@ -3,10 +3,10 @@ title: ISplitTransition
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Efek transisi slide terpisah.
 type: docs
-weight: 10200
+weight: 10220
 url: /id/aspose.slides.slideshow/isplittransition/
 ---
-## Antarmuka ISplitTransition
+## antarmuka ISplitTransition
 
 Efek transisi slide terpisah.
 
@@ -19,8 +19,8 @@ public interface ISplitTransition : ITransitionValueBase
 | Nama | Deskripsi |
 | --- | --- |
 | [AsITransitionValueBase](../../aspose.slides.slideshow/isplittransition/asitransitionvaluebase) { get; } | Mengizinkan untuk mendapatkan antarmuka ITransitionValueBase dasar. Hanya-baca [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/isplittransition/direction) { get; set; } | Arah pembelahan transisi. Baca/tulis [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [Orientation](../../aspose.slides.slideshow/isplittransition/orientation) { get; set; } | Orientasi pembelahan transisi. Baca/tulis [`Orientation`](../../aspose.slides/orientation). |
+| [Direction](../../aspose.slides.slideshow/isplittransition/direction) { get; set; } | Arah pemisahan transisi. Baca/tulis [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
+| [Orientation](../../aspose.slides.slideshow/isplittransition/orientation) { get; set; } | Orientasi pemisahan transisi. Baca/tulis [`Orientation`](../../aspose.slides/orientation). |
 
 ### Lihat Juga
 

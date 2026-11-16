@@ -1,14 +1,14 @@
 ---
 title: OuterShadow
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Rappresenta un effetto Ombra Esterna.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Rappresenta un effetto Outer Shadow.
 type: docs
-weight: 3620
+weight: 3640
 url: /it/aspose.slides.effects/outershadow/
 ---
-## classe OuterShadow
+## OuterShadow classe
 
-Rappresenta un effetto Ombra Esterna.
+Rappresenta un effetto Outer Shadow.
 
 ```csharp
 public sealed class OuterShadow : IOuterShadow
@@ -19,13 +19,13 @@ public sealed class OuterShadow : IOuterShadow
 | Name | Description |
 | --- | --- |
 | [BlurRadius](../../aspose.slides.effects/outershadow/blurradius) { get; set; } | Raggio di sfocatura, in punti. Valore predefinito – 0 pt. Lettura/scrittura Double. |
-| [Direction](../../aspose.slides.effects/outershadow/direction) { get; set; } | Direzione dell’ombra, in gradi. Valore predefinito – 0 ° (da sinistra a destra). Lettura/scrittura Single. |
-| [Distance](../../aspose.slides.effects/outershadow/distance) { get; set; } | Distanza dell’ombra dall’oggetto, in punti. Valore predefinito – 0 pt. Lettura/scrittura Double. |
+| [Direction](../../aspose.slides.effects/outershadow/direction) { get; set; } | Direzione dell'ombra, in gradi. Valore predefinito – 0 ° (da sinistra a destra). Lettura/scrittura Single. |
+| [Distance](../../aspose.slides.effects/outershadow/distance) { get; set; } | Distanza dell'ombra dall'oggetto, in punti. Valore predefinito – 0 pt. Lettura/scrittura Double. |
 | [RectangleAlign](../../aspose.slides.effects/outershadow/rectanglealign) { get; set; } | Allineamento del rettangolo. Valore predefinito – Bottom. Lettura/scrittura [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/outershadow/rotateshadowwithshape) { get; set; } | Indica se l’ombra ruota insieme alla forma. Valore predefinito – true. Lettura/scrittura Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/outershadow/scalehorizontal) { get; set; } | Fattore di scala orizzontale, in percentuale della dimensione originale. Una scala negativa provoca un capovolgimento. Valore predefinito – 100 %. Lettura/scrittura Double. |
-| [ScaleVertical](../../aspose.slides.effects/outershadow/scalevertical) { get; set; } | Fattore di scala verticale, in percentuale della dimensione originale. Una scala negativa provoca un capovolgimento. Valore predefinito – 100 %. Lettura/scrittura Double. |
-| [ShadowColor](../../aspose.slides.effects/outershadow/shadowcolor) { get; } | Colore dell’ombra. Valore predefinito – nero automatico (dipendente dal tema). Sola lettura [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [RotateShadowWithShape](../../aspose.slides.effects/outershadow/rotateshadowwithshape) { get; set; } | Indica se l'ombra ruota insieme alla forma. Valore predefinito – true. Lettura/scrittura Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/outershadow/scalehorizontal) { get; set; } | Fattore di scala orizzontale, in percentuale della dimensione originale. Una scala negativa provoca un ribaltamento. Valore predefinito – 100 %. Lettura/scrittura Double. |
+| [ScaleVertical](../../aspose.slides.effects/outershadow/scalevertical) { get; set; } | Fattore di scala verticale, in percentuale della dimensione originale. Una scala negativa provoca un ribaltamento. Valore predefinito – 100 %. Lettura/scrittura Double. |
+| [ShadowColor](../../aspose.slides.effects/outershadow/shadowcolor) { get; } | Colore dell'ombra. Valore predefinito – automatic black (theme-dependent). Sola lettura [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [SkewHorizontal](../../aspose.slides.effects/outershadow/skewhorizontal) { get; set; } | Angolo di inclinazione orizzontale, in gradi. Valore predefinito – 0 °. Lettura/scrittura Double. |
 | [SkewVertical](../../aspose.slides.effects/outershadow/skewvertical) { get; set; } | Angolo di inclinazione verticale, in gradi. Valore predefinito – 0 °. Lettura/scrittura Double. |
 
@@ -33,9 +33,9 @@ public sealed class OuterShadow : IOuterShadow
 
 | Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/outershadow/equals)(object) | Determina se il [`OuterShadow`](../outershadow) specificato è uguale all’attuale [`OuterShadow`](../outershadow). |
-| [GetEffective](../../aspose.slides.effects/outershadow/geteffective)() | Ottiene i dati effettivi dell’effetto Ombra Esterna con l’eredità applicata. |
-| override [GetHashCode](../../aspose.slides.effects/outershadow/gethashcode)() | Funziona come funzione hash per un tipo particolare. |
+| override [Equals](../../aspose.slides.effects/outershadow/equals)(object) | Determina se il [`OuterShadow`](../outershadow) specificato è uguale all'attuale [`OuterShadow`](../outershadow). |
+| [GetEffective](../../aspose.slides.effects/outershadow/geteffective)() | Ottiene i dati dell'effetto Outer Shadow effettivo con l'ereditarietà applicata. |
+| override [GetHashCode](../../aspose.slides.effects/outershadow/gethashcode)() | Funziona come funzione hash per un particolare tipo. |
 
 ### Vedi anche
 

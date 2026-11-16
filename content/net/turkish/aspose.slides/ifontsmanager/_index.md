@@ -1,14 +1,14 @@
 ---
 title: IFontsManager
 second_title: Aspose.Sildes için .NET API Referansı
-description: Sunum boyunca yazı tiplerini yönetir.
+description: Sunum boyunca fontları yönetir.
 type: docs
-weight: 5930
+weight: 5950
 url: /tr/aspose.slides/ifontsmanager/
 ---
-## IFontsManager arayüz
+## IFontsManager arayüzü
 
-Sunum boyunca yazı tiplerini yönetir.
+Sunum boyunca fontları yönetir.
 
 ```csharp
 public interface IFontsManager
@@ -18,27 +18,28 @@ public interface IFontsManager
 
 | Ad | Açıklama |
 | --- | --- |
-| [FontFallBackRulesCollection](../../aspose.slides/ifontsmanager/fontfallbackrulescollection) { get; set; } | Kullanıcının FontFallBack kurallarının koleksiyonunu temsil eder; yedekleme işleviyle doğru yazı tipi ikameleri için yazı tipleri koleksiyonlarını yönetir. Okunur/yazılır [`IFontFallBackRulesCollection`](../ifontfallbackrulescollection). |
-| [FontSubstRuleList](../../aspose.slides/ifontsmanager/fontsubstrulelist) { get; set; } | Render sırasında kullanılacak yazı tipi ikameleri. Okunur/yazılır [`IFontSubstRuleCollection`](../ifontsubstrulecollection). |
+| [FontFallBackRulesCollection](../../aspose.slides/ifontsmanager/fontfallbackrulescollection) { get; set; } | Kullanıcının, yedekleme işleviyle doğru değişiklikleri sağlamak için font koleksiyonlarını yönetmek amacıyla FontFallBack kurallarının koleksiyonunu temsil eder Read/write [`IFontFallBackRulesCollection`](../ifontfallbackrulescollection). |
+| [FontSubstRuleList](../../aspose.slides/ifontsmanager/fontsubstrulelist) { get; set; } | Render sırasında kullanılacak font ikameleri Read/write [`IFontSubstRuleCollection`](../ifontsubstrulecollection). |
+| [PreferRegisteredFontsOverEmbedded](../../aspose.slides/ifontsmanager/preferregisteredfontsoverembedded) { get; set; } | Kayıtlı fontların, aynı font adı ve stiline sahip gömülü fontlara göre tercih edilip edilmeyeceğini belirtir. Etkinleştirildiğinde, eşleşen gömülü fontlar ihracat sırasında geçici olarak ilgili kayıtlı fontlarla değiştirilir. |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [AddEmbeddedFont](../../aspose.slides/ifontsmanager/addembeddedfont#addembeddedfont_1)(byte[], EmbedFontCharacters) | Embedded font ekler. Herhangi bir yazı tipi eklerken çoğu yazı tipinin telif hakkına sahip olduğunu unutmayın. Öncelikle bir yazı tipinin lisansını bulun ve başka bir makineye özgürce aktarılabileceğini doğrulayın. Font verisi null ise veya bu yazı tipi zaten gömülü ise ArgumentException fırlatılabilir. |
-| [AddEmbeddedFont](../../aspose.slides/ifontsmanager/addembeddedfont#addembeddedfont)(IFontData, EmbedFontCharacters) | Embedded font ekler. Herhangi bir yazı tipi kopyalarken çoğu yazı tipinin telif hakkına sahip olduğunu unutmayın. Öncelikle bir yazı tipinin lisansını bulun ve başka bir makineye özgürce aktarılabileceğini doğrulayın. Font verisi null ise veya bu yazı tipi zaten gömülü ise ArgumentException fırlatılabilir. |
-| [GetEmbeddedFonts](../../aspose.slides/ifontsmanager/getembeddedfonts)() | Sunumda gömülü olan yazı tiplerini döndürür. |
-| [GetFontBytes](../../aspose.slides/ifontsmanager/getfontbytes)(IFontData, FontStyleType) | Belirtilen bir yazı tipi stili ve yazı tipi verisi için yazı tipi verisini temsil eden bayt dizisini alır. |
-| [GetFontEmbeddingLevel](../../aspose.slides/ifontsmanager/getfontembeddinglevel)(byte[], string) | Verilen bayt dizisi ve yazı tipi adı üzerinden bir yazı tipinin gömme seviyesini belirler. |
-| [GetFonts](../../aspose.slides/ifontsmanager/getfonts)() | Sunumda kullanılan yazı tiplerini döndürür. |
-| [GetSubstitutions](../../aspose.slides/ifontsmanager/getsubstitutions#getsubstitutions)() | Sunumun render edilmesi sırasında değiştirilecek yazı tipleri hakkında bilgi alır. |
-| [GetSubstitutions](../../aspose.slides/ifontsmanager/getsubstitutions#getsubstitutions_1)(int[]) | Belirtilen slaytların render edilmesi sırasında değiştirilecek yazı tipleri hakkında bilgi alır. |
-| [RemoveEmbeddedFont](../../aspose.slides/ifontsmanager/removeembeddedfont)(IFontData) | Gömülü yazı tipini kaldırır. |
-| [ReplaceFont](../../aspose.slides/ifontsmanager/replacefont#replacefont_1)(IFontSubstRule) | Sunumda, [`IFontSubstRule`](../ifontsubstrule) içinde sağlanan bilgileri kullanarak yazı tipini değiştirir. |
-| [ReplaceFont](../../aspose.slides/ifontsmanager/replacefont#replacefont_2)(IFontSubstRuleCollection) | Sunumda, [`IFontSubstRule`](../ifontsubstrule) koleksiyonunda sağlanan bilgileri kullanarak yazı tipini değiştirir. |
-| [ReplaceFont](../../aspose.slides/ifontsmanager/replacefont#replacefont)(IFontData, IFontData) | Sunumda yazı tipini değiştirir. |
+| [AddEmbeddedFont](../../aspose.slides/ifontsmanager/addembeddedfont#addembeddedfont_1)(byte[], EmbedFontCharacters) | Gömülü fontu ekler. Font eklerken çoğu fontun telif hakkı koruması altında olduğunu unutmayın. Öncelikle bir fontun lisansını bulun ve başka bir makineye serbestçe aktarılabileceğini doğrulayın. Font verisi null ise veya bu font zaten gömülü ise bir ArgumentException fırlatılabilir |
+| [AddEmbeddedFont](../../aspose.slides/ifontsmanager/addembeddedfont#addembeddedfont)(IFontData, EmbedFontCharacters) | Gömülü fontu ekler. Font kopyalarken çoğu fontun telif hakkı koruması altında olduğunu unutmayın. Öncelikle bir fontun lisansını bulun ve başka bir makineye serbestçe aktarılabileceğini doğrulayın. Font verisi null ise veya bu font zaten gömülü ise bir ArgumentException fırlatılabilir |
+| [GetEmbeddedFonts](../../aspose.slides/ifontsmanager/getembeddedfonts)() | Sunumda gömülü fontları döndürür |
+| [GetFontBytes](../../aspose.slides/ifontsmanager/getfontbytes)(IFontData, FontStyleType) | Belirtilen font stili ve font verisi için font verisini temsil eden byte dizisini alır |
+| [GetFontEmbeddingLevel](../../aspose.slides/ifontsmanager/getfontembeddinglevel)(byte[], string) | Verilen byte dizisi ve font adından fontun gömme seviyesini belirler |
+| [GetFonts](../../aspose.slides/ifontsmanager/getfonts)() | Sunumda kullanılan fontları döndürür |
+| [GetSubstitutions](../../aspose.slides/ifontsmanager/getsubstitutions#getsubstitutions)() | Sunumun render edilmesinde değiştirilecek fontlar hakkındaki bilgileri alır |
+| [GetSubstitutions](../../aspose.slides/ifontsmanager/getsubstitutions#getsubstitutions_1)(int[]) | Belirtilen slaytların render edilmesi sırasında değiştirilecek fontlar hakkında bilgileri alır |
+| [RemoveEmbeddedFont](../../aspose.slides/ifontsmanager/removeembeddedfont)(IFontData) | Gömülü fontu kaldırır |
+| [ReplaceFont](../../aspose.slides/ifontsmanager/replacefont#replacefont_1)(IFontSubstRule) | Sunumda fontu, [`IFontSubstRule`](../ifontsubstrule) içinde sağlanan bilgilerle değiştirir |
+| [ReplaceFont](../../aspose.slides/ifontsmanager/replacefont#replacefont_2)(IFontSubstRuleCollection) | Sunumda fontu, [`IFontSubstRule`](../ifontsubstrule) koleksiyonunda sağlanan bilgilerle değiştirir |
+| [ReplaceFont](../../aspose.slides/ifontsmanager/replacefont#replacefont)(IFontData, IFontData) | Sunumda fontu değiştirir |
 
-### Ayrıca Bakınız
+### Bakınız
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

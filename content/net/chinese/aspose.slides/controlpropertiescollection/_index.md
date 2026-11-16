@@ -1,14 +1,14 @@
 ---
 title: ControlPropertiesCollection
-second_title: Aspose.Sildes .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: AcitveX 属性的集合。
 type: docs
-weight: 2710
+weight: 2730
 url: /zh/aspose.slides/controlpropertiescollection/
 ---
 ## ControlPropertiesCollection 类
 
-AcitveX属性的集合。
+AcitveX 属性的集合。
 
 ```csharp
 public class ControlPropertiesCollection : IControlPropertiesCollection
@@ -27,11 +27,11 @@ public class ControlPropertiesCollection : IControlPropertiesCollection
 | 名称 | 描述 |
 | --- | --- |
 | [Add](../../aspose.slides/controlpropertiescollection/add)(string, string) | 向集合中添加属性。 |
-| [Clear](../../aspose.slides/controlpropertiescollection/clear)() | 删除所有属性。 |
-| [GetEnumerator](../../aspose.slides/controlpropertiescollection/getenumerator)() | 返回一个遍历集合的枚举器。 |
-| [Remove](../../aspose.slides/controlpropertiescollection/remove)(string) | 删除具有指定名称的属性。 |
+| [Clear](../../aspose.slides/controlpropertiescollection/clear)() | 移除所有属性。 |
+| [GetEnumerator](../../aspose.slides/controlpropertiescollection/getenumerator)() | 返回遍历集合的枚举器。 |
+| [Remove](../../aspose.slides/controlpropertiescollection/remove)(string) | 移除具有指定名称的属性。 |
 
-### 另请参见
+### 另见
 
 * 接口 [IControlPropertiesCollection](../icontrolpropertiescollection)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

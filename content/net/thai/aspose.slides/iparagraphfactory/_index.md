@@ -1,9 +1,9 @@
 ---
 title: IParagraphFactory
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
+second_title: Aspose.Sildes สำหรับ .NET API Reference
 description: อนุญาตให้สร้างย่อหน้า
 type: docs
-weight: 6580
+weight: 6600
 url: /th/aspose.slides/iparagraphfactory/
 ---
 ## IParagraphFactory อินเทอร์เฟซ
@@ -16,10 +16,10 @@ public interface IParagraphFactory
 
 ## เมธอด
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [CreateParagraph](../../aspose.slides/iparagraphfactory/createparagraph#createparagraph)() | สร้างย่อหน้าใหม่ที่ว่างเปล่า. |
-| [CreateParagraph](../../aspose.slides/iparagraphfactory/createparagraph#createparagraph_1)(IParagraph) | สร้างย่อหน้าใหม่ด้วยข้อมูลย่อหน้าที่กำหนด. |
+| [CreateParagraph](../../aspose.slides/iparagraphfactory/createparagraph#createparagraph)() | สร้างย่อหน้าใหม่ที่ว่างเปล่า |
+| [CreateParagraph](../../aspose.slides/iparagraphfactory/createparagraph#createparagraph_1)(IParagraph) | สร้างย่อหน้าใหม่โดยใช้ข้อมูลย่อหน้าที่ระบุ |
 
 ### หมายเหตุ
 

@@ -1,14 +1,14 @@
 ---
 title: VbaModule
-second_title: Aspose.Sildes pro .NET API Reference
-description: Representuje modul, který je součástí projektu VBA.
+second_title: Aspose.Sildes pro .NET – referenční příručka API
+description: Reprezentuje modul, který je obsažen v projektu VBA.
 type: docs
-weight: 11630
+weight: 11650
 url: /cs/aspose.slides.vba/vbamodule/
 ---
 ## VbaModule třída
 
-Representuje modul, který je součástí projektu VBA.
+Reprezentuje modul, který je součástí projektu VBA.
 
 ```csharp
 public sealed class VbaModule : IVbaModule
@@ -18,8 +18,8 @@ public sealed class VbaModule : IVbaModule
 
 | Název | Popis |
 | --- | --- |
-| [Name](../../aspose.slides.vba/vbamodule/name) { get; } | Získá název modulu. String pouze pro čtení. |
-| [SourceCode](../../aspose.slides.vba/vbamodule/sourcecode) { get; set; } | Vrací nebo nastavuje zdrojový kód modulu. String pro čtení i zápis. |
+| [Name](../../aspose.slides.vba/vbamodule/name) { get; } | Získá název modulu. Pouze ke čtení String. |
+| [SourceCode](../../aspose.slides.vba/vbamodule/sourcecode) { get; set; } | Vrací nebo nastavuje zdrojový kód modulu. Pro čtení i zápis String. |
 
 ### Viz také
 

@@ -1,20 +1,20 @@
 ---
 title: ShapeUtil
-second_title: Aspose.Sildes の .NET API リファレンス
-description: シェイプ オブジェクトの処理を支援するメソッドを提供します。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: シェイプ オブジェクトの処理に役立つメソッドを提供します。
 type: docs
-weight: 11510
+weight: 11530
 url: /ja/aspose.slides.util/shapeutil/
 ---
 ## ShapeUtil クラス
 
-シェイプ オブジェクトの処理に役立つメソッドを提供します。
+シェイプ オブジェクトを処理するのに役立つメソッドを提供します。
 
 ```csharp
 public static class ShapeUtil
 ```
 
-### 参照
+### 関連項目
 
 * 名前空間 [Aspose.Slides.Util](../../aspose.slides.util)
 * アセンブリ [Aspose.Slides](../../)

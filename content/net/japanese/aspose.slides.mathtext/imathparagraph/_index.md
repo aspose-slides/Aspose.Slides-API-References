@@ -1,36 +1,36 @@
 ---
 title: IMathParagraph
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: 数式ブロック IMathBlock のコンテナである数式段落
 type: docs
-weight: 8390
+weight: 8410
 url: /ja/aspose.slides.mathtext/imathparagraph/
 ---
-## IMathParagraph interface
+## IMathParagraph インターフェイス
 
-Mathematical paragraph that is a container for mathematical blocks (IMathBlock)
+数式ブロック (IMathBlock) のコンテナである数式段落
 
 ```csharp
 public interface IMathParagraph : IMathBlockCollection
 ```
 
-## Properties
+## プロパティ
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIMathBlockCollection](../../aspose.slides.mathtext/imathparagraph/asimathblockcollection) { get; } | ベース IMathBlockCollection インターフェイス [`IMathBlockCollection`](../imathblockcollection) を取得できます |
-| [Justification](../../aspose.slides.mathtext/imathparagraph/justification) { get; set; } | Paragraph Justification デフォルト値: CenteredAsGroup |
+| [AsIMathBlockCollection](../../aspose.slides.mathtext/imathparagraph/asimathblockcollection) { get; } | ベースの IMathBlockCollection インターフェイス [`IMathBlockCollection`](../imathblockcollection) を取得できます |
+| [Justification](../../aspose.slides.mathtext/imathparagraph/justification) { get; set; } | Paragraph Justification の既定値: CenteredAsGroup |
 
-## Methods
+## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
 | [ToLatex](../../aspose.slides.mathtext/imathparagraph/tolatex)() | LaTeX 形式の数式を取得します |
 | [WriteAsMathMl](../../aspose.slides.mathtext/imathparagraph/writeasmathml)(Stream) | この [`IMathParagraph`](../imathparagraph) の内容を MathML として保存します |
 
-### Examples
+### 例
 
-例:
+Example:
 
 ```csharp
 [C#]
@@ -39,7 +39,7 @@ IMathParagraph mathParagraph = (shape.TextFrame.Paragraphs[0].Portions[0] as Mat
 mathParagraph.Justification = MathJustification.LeftJustified;
 ```
 
-### See Also
+### 参照
 
 * インターフェイス [IMathBlockCollection](../imathblockcollection)
 * 名前空間 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

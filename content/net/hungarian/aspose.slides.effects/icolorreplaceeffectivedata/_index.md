@@ -1,14 +1,14 @@
 ---
 title: IColorReplaceEffectiveData
 second_title: Aspose.Sildes .NET API referencia
-description: Módosíthatatlan objektum, amely egy színcsere hatást képvisel. Az összes effektusszín egy rögzített színre van módosítva. Az alfa értékek változatlanok.
+description: A színcserélési hatást reprezentáló immutábilis objektum. Az összes hatásszín egy rögzített színre lesz módosítva. Az alfa értékek változatlanok maradnak.
 type: docs
-weight: 3250
+weight: 3270
 url: /hu/aspose.slides.effects/icolorreplaceeffectivedata/
 ---
 ## IColorReplaceEffectiveData interfész
 
-Módosíthatatlan objektum, amely egy színcsere hatást képvisel. Az összes effektusszín egy rögzített színre van módosítva. Az alfa értékek változatlanok.
+Immutable object which represents a Color Replacement effect. All effect colors are changed to a fixed color. Alpha values are unaffected.
 
 ```csharp
 public interface IColorReplaceEffectiveData : IEffectEffectiveData
@@ -18,7 +18,7 @@ public interface IColorReplaceEffectiveData : IEffectEffectiveData
 
 | Név | Leírás |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/icolorreplaceeffectivedata/asieffecteffectivedata) { get; } | Lehetővé teszi az alap IEffectEffectiveData interfész lekérdezését. Csak olvasható [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/icolorreplaceeffectivedata/asieffecteffectivedata) { get; } | Lehetővé teszi a base IEffectEffectiveData interfész lekérését. Csak olvasható [`IEffectEffectiveData`](../ieffecteffectivedata). |
 | [Color](../../aspose.slides.effects/icolorreplaceeffectivedata/color) { get; } | Visszaadja a színformátumot, amely minden pixel színét helyettesíti. Csak olvasható Color. |
 
 ### Lásd még

@@ -3,7 +3,7 @@ title: IMasterSlide
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt eine Masterfolie in einer Präsentation dar.
 type: docs
-weight: 6420
+weight: 6440
 url: /de/aspose.slides/imasterslide/
 ---
 ## IMasterSlide Schnittstelle
@@ -16,7 +16,7 @@ public interface IMasterSlide : IBaseSlide, IMasterThemeable
 
 ## Eigenschaften
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
 | [AsIBaseSlide](../../aspose.slides/imasterslide/asibaseslide) { get; } | Ermöglicht das Abrufen der Basis-IBaseSlide-Schnittstelle. Nur lesbar [`IBaseSlide`](../ibaseslide). |
 | [AsIMasterThemeable](../../aspose.slides/imasterslide/asimasterthemeable) { get; } | Gibt die IMasterThemeable-Schnittstelle zurück. Nur lesbar [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
@@ -24,16 +24,16 @@ public interface IMasterSlide : IBaseSlide, IMasterThemeable
 | [DrawingGuides](../../aspose.slides/imasterslide/drawingguides) { get; } | Gibt eine Sammlung von Zeichenhilfen für die Masterfolie zurück. Nur lesbar [`IDrawingGuidesCollection`](../idrawingguidescollection) |
 | [HasDependingSlides](../../aspose.slides/imasterslide/hasdependingslides) { get; } | Gibt true zurück, wenn mindestens eine Folie von dieser Masterfolie abhängt. Nur lesbar Boolean. |
 | [HeaderFooterManager](../../aspose.slides/imasterslide/headerfootermanager) { get; } | Gibt den HeaderFooter-Manager der Masterfolie zurück. Nur lesbar [`IMasterSlideHeaderFooterManager`](../imasterslideheaderfootermanager). |
-| [LayoutSlides](../../aspose.slides/imasterslide/layoutslides) { get; } | Gibt die Sammlung von untergeordneten Layout-Folien für diese Masterfolie zurück. Nur lesbar [`IMasterLayoutSlideCollection`](../imasterlayoutslidecollection). |
+| [LayoutSlides](../../aspose.slides/imasterslide/layoutslides) { get; } | Gibt die Sammlung von untergeordneten Layoutfolien für diese Masterfolie zurück. Nur lesbar [`IMasterLayoutSlideCollection`](../imasterlayoutslidecollection). |
 | [OtherStyle](../../aspose.slides/imasterslide/otherstyle) { get; } | Gibt den Stil eines anderen Textes zurück. Nur lesbar [`ITextStyle`](../itextstyle). |
-| [Preserve](../../aspose.slides/imasterslide/preserve) { get; set; } | Bestimmt, ob die zugehörige Masterfolie gelöscht wird, wenn alle Folien, die dieser Masterfolie folgen, gelöscht werden. Hinweis: Aspose.Slides entfernt niemals automatisch unverwendete Masterfolien; um unverwendete Masterfolien tatsächlich zu entfernen, rufen Sie [`RemoveUnused`](../imasterslidecollection/removeunused) auf. Lese-Schreib Boolean. |
+| [Preserve](../../aspose.slides/imasterslide/preserve) { get; set; } | Bestimmt, ob die zugehörige Masterfolie gelöscht wird, wenn alle Folien, die diesem Master folgen, gelöscht werden. Hinweis: Aspose.Slides entfernt niemals unbenutzte Masterfolien automatisch; um unbenutzte Masterfolien tatsächlich zu entfernen, rufen Sie [`RemoveUnused`](../imasterslidecollection/removeunused) auf. Lese-/Schreibzugriff Boolean. |
 | [TitleStyle](../../aspose.slides/imasterslide/titlestyle) { get; } | Gibt den Stil eines Titeltextes zurück. Nur lesbar [`ITextStyle`](../itextstyle). |
 
 ## Methoden
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
-| [ApplyExternalThemeToDependingSlides](../../aspose.slides/imasterslide/applyexternalthemetodependingslides)(string) | Erstellt eine neue Masterfolie basierend auf der aktuellen, wendet ihr ein externes Design an und wendet die erstellte Masterfolie auf alle abhängigen Folien an. |
+| [ApplyExternalThemeToDependingSlides](../../aspose.slides/imasterslide/applyexternalthemetodependingslides)(string) | Erstellt eine neue Masterfolie basierend auf der aktuellen, wendet ein externes Theme darauf an und wendet die erstellte Masterfolie auf alle abhängigen Folien an. |
 | [GetDependingSlides](../../aspose.slides/imasterslide/getdependingslides)() | Gibt ein Array mit allen Folien zurück, die von dieser Masterfolie abhängen. |
 
 ### Siehe auch

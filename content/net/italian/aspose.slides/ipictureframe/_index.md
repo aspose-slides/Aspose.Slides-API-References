@@ -1,14 +1,14 @@
 ---
 title: IPictureFrame
-second_title: Aspose.Sildes per la documentazione di riferimento API .NET
-description: Rappresenta un riquadro con un'immagine al suo interno.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Rappresenta una cornice con un'immagine all'interno.
 type: docs
-weight: 6670
+weight: 6690
 url: /it/aspose.slides/ipictureframe/
 ---
 ## IPictureFrame interfaccia
 
-Rappresenta un riquadro con un'immagine al suo interno.
+Rappresenta una cornice con un'immagine all'interno.
 
 ```csharp
 public interface IPictureFrame : IGeometryShape
@@ -19,10 +19,10 @@ public interface IPictureFrame : IGeometryShape
 | Nome | Descrizione |
 | --- | --- |
 | [AsIGeometryShape](../../aspose.slides/ipictureframe/asigeometryshape) { get; } | Consente di ottenere l'interfaccia base IGeometryShape. Solo lettura [`IGeometryShape`](../igeometryshape). |
-| [PictureFormat](../../aspose.slides/ipictureframe/pictureformat) { get; } | Restituisce l'oggetto PictureFillFormat per un riquadro immagine. Solo lettura [`IPictureFillFormat`](../ipicturefillformat). |
+| [PictureFormat](../../aspose.slides/ipictureframe/pictureformat) { get; } | Restituisce l'oggetto PictureFillFormat per un picture frame. Solo lettura [`IPictureFillFormat`](../ipicturefillformat). |
 | [PictureFrameLock](../../aspose.slides/ipictureframe/pictureframelock) { get; } | Restituisce i blocchi di PictureFrame. Solo lettura [`IPictureFrameLock`](../ipictureframelock). |
-| [RelativeScaleHeight](../../aspose.slides/ipictureframe/relativescaleheight) { get; set; } | Restituisce o imposta la scala dell'altezza (relativa alle dimensioni originali dell'immagine) del riquadro immagine. Il valore 1.0 corrisponde al 100%. Lettura/scrittura Single. |
-| [RelativeScaleWidth](../../aspose.slides/ipictureframe/relativescalewidth) { get; set; } | Restituisce o imposta la scala della larghezza (relativa alle dimensioni originali dell'immagine) del riquadro immagine. Il valore 1.0 corrisponde al 100%. Lettura/scrittura Single. |
+| [RelativeScaleHeight](../../aspose.slides/ipictureframe/relativescaleheight) { get; set; } | Restituisce o imposta la scala dell'altezza (relativa alle dimensioni originali dell'immagine) del picture frame. Il valore 1.0 corrisponde al 100%. Lettura/scrittura Single. |
+| [RelativeScaleWidth](../../aspose.slides/ipictureframe/relativescalewidth) { get; set; } | Restituisce o imposta la scala della larghezza (relativa alle dimensioni originali dell'immagine) del picture frame. Il valore 1.0 corrisponde al 100%. Lettura/scrittura Single. |
 | [ShapeLock](../../aspose.slides/ipictureframe/shapelock) { get; } | Restituisce i blocchi della forma. Solo lettura [`IPictureFrameLock`](../ipictureframelock). |
 
 ### Vedi anche

@@ -1,9 +1,9 @@
 ---
 title: ILightRig
-second_title: مرجع API Aspose.Sildes لـ .NET
+second_title: Aspose.Sildes لمرجع API لـ .NET
 description: يمثل LightRig.
 type: docs
-weight: 6270
+weight: 6290
 url: /ar/aspose.slides/ilightrig/
 ---
 ## ILightRig واجهة
@@ -19,14 +19,14 @@ public interface ILightRig
 | الاسم | الوصف |
 | --- | --- |
 | [Direction](../../aspose.slides/ilightrig/direction) { get; set; } | اتجاه الضوء. قراءة/كتابة [`LightingDirection`](../lightingdirection). |
-| [LightType](../../aspose.slides/ilightrig/lighttype) { get; set; } | يمثل إعدادًا مسبقًا للضوء يمكن تطبيقه على شكل. يمثل light rig مجموعة من الأضواء الموجهة بطريقة محددة بالنسبة إلى مشهد ثلاثي الأبعاد. قراءة/كتابة [`LightRigPresetType`](../lightrigpresettype). |
+| [LightType](../../aspose.slides/ilightrig/lighttype) { get; set; } | يمثل إضاءة مسبقة يمكن تطبيقها على شكل. تمثل مجموعة الإضاءة مجموعة من الأضواء موجهة بطريقة معينة بالنسبة إلى مشهد ثلاثي الأبعاد. قراءة/كتابة [`LightRigPresetType`](../lightrigpresettype). |
 
 ## الطرق
 
 | الاسم | الوصف |
 | --- | --- |
-| [GetRotation](../../aspose.slides/ilightrig/getrotation)() | يتم تعريف دوران من خلال استخدام إحداثي خط العرض، إحداثي خط الطول، وثورة حول المحور كإحداثيات خط العرض وخط الطول. العنصر الأول في مصفوفة النتيجة - خط العرض، الثاني - خط الطول، الثالث - الثورة. |
-| [SetRotation](../../aspose.slides/ilightrig/setrotation)(float, float, float) | يتم تعريف دوران من خلال استخدام إحداثي خط العرض، إحداثي خط الطول، وثورة حول المحور كإحداثيات خط العرض وخط الطول. |
+| [GetRotation](../../aspose.slides/ilightrig/getrotation)() | يتم تعريف الدوران من خلال استخدام إحداثي خط العرض، إحداثي خط الطول، ودورة حول المحور كإحداثي خط العرض وخط الطول. العنصر الأول في المصفوفة المعادة - خط العرض، الثاني - خط الطول، الثالث - الدورة. |
+| [SetRotation](../../aspose.slides/ilightrig/setrotation)(float, float, float) | يتم تعريف الدوران من خلال استخدام إحداثي خط العرض، إحداثي خط الطول، ودورة حول المحور كإحداثي خط العرض وخط الطول. |
 
 ### انظر أيضًا
 

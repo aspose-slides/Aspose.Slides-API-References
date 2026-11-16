@@ -1,14 +1,14 @@
 ---
 title: NotesSlideThemeManager
-second_title: "Aspose.Sildes для .NET: справочник API"
+second_title: Aspose.Sildes для .NET справки API
 description: Обеспечивает доступ к переопределённой теме слайдов заметок.
 type: docs
-weight: 11450
+weight: 11470
 url: /ru/aspose.slides.theme/notesslidethememanager/
 ---
 ## NotesSlideThemeManager класс
 
-Предоставляет доступ к переопределённой теме слайдов заметок.
+Обеспечивает доступ к переопределённой теме слайдов заметок.
 
 ```csharp
 public class NotesSlideThemeManager : BaseOverrideThemeManager
@@ -18,7 +18,7 @@ public class NotesSlideThemeManager : BaseOverrideThemeManager
 
 | Имя | Описание |
 | --- | --- |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Определяет, переопределяет ли OverrideTheme унаследованную эффективную тему или нет. Чтобы включить OverrideTheme для переопределения, используйте методы OverrideTheme.Init*(). Чтобы отключить OverrideTheme от переопределения, используйте метод OverrideTheme.Clear(). Только чтение Boolean. |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Определяет, переопределяет ли OverrideTheme унаследованную эффективную тему или нет. Чтобы включить OverrideTheme для переопределения, используйте методы OverrideTheme.Init*(). Чтобы отключить OverrideTheme от переопределения, используйте метод OverrideTheme.Clear(). Только для чтения Boolean. |
 | [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Возвращает объект переопределяющей темы. Чтение/запись [`IOverrideTheme`](../ioverridetheme). |
 
 ## Методы
@@ -28,7 +28,7 @@ public class NotesSlideThemeManager : BaseOverrideThemeManager
 | [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | Применяет дополнительную цветовую схему к слайду. |
 | [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | Возвращает объект темы. |
 
-### Смотрите также
+### См. также
 
 * класс [BaseOverrideThemeManager](../baseoverridethememanager)
 * пространство имён [Aspose.Slides.Theme](../../aspose.slides.theme)

@@ -1,14 +1,14 @@
 ---
 title: EightDirectionTransition
-second_title: Aspose.Sildes for .NET API Referenciája
-description: Nyolc irányú diaátmeneti hatás.
+second_title: Aspose.Sildes .NET API referencia
+description: Nyolc irányú diaátmenet hatása.
 type: docs
-weight: 10020
+weight: 10040
 url: /hu/aspose.slides.slideshow/eightdirectiontransition/
 ---
-## EightDirectionTransition osztály
+## EightDirectionTransition class
 
-Nyolc irányú diaátmeneti hatás.
+Nyolc irányú dia átmenet hatás.
 
 ```csharp
 public class EightDirectionTransition : TransitionValueBase, IEightDirectionTransition
@@ -16,16 +16,16 @@ public class EightDirectionTransition : TransitionValueBase, IEightDirectionTran
 
 ## Tulajdonságok
 
-| Name | Description |
+| Név | Leírás |
 | --- | --- |
 | [Direction](../../aspose.slides.slideshow/eightdirectiontransition/direction) { get; set; } | Az átmenet iránya. Olvasás/írás [`TransitionEightDirectionType`](../transitioneightdirectiontype). |
 
-## Módszerek
+## Metódusok
 
-| Name | Description |
+| Név | Leírás |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Megállapítja, hogy a két TransitionValueBase példány egyenlő-e. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Hash függvényként működik egy adott típushoz, amely alkalmas hasító algoritmusokban és adatstruktúrákban, például hash táblában való használatra. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Hash-függvényként szolgál egy adott típushoz, amely alkalmas hash algoritmusokban és adatstruktúrákban, például hash táblában való használatra. |
 
 ### Lásd még
 

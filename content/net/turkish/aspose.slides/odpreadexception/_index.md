@@ -1,27 +1,26 @@
 ---
 title: OdpReadException
-second_title: Aspose.Sildes için .NET API Referansı
-description: Sunum okuma hatalarında ortaya çıkan bir istisnayı temsil eder.
+second_title: Aspose.Sildes .NET için API Referansı
+description: Sunum okuma hatalarında atılan bir istisnayı temsil eder.
 type: docs
-weight: 9220
+weight: 9240
 url: /tr/aspose.slides/odpreadexception/
 ---
-## OdpReadException sınıfı
+## OdpReadException sınıf
 
-Sunum okuma hatalarında ortaya çıkan bir istisnayı temsil eder.
+Sunum okuma hatalarında atılan bir istisna temsil eder.
 
 ```csharp
 public class OdpReadException : OdpException
 ```
-
 
 ## Yapıcılar
 
 | Ad | Açıklama |
 | --- | --- |
 | [OdpReadException](odpreadexception#constructor)() | Varsayılan yapıcı |
-| [OdpReadException](odpreadexception#constructor_1)(string) | Bu istisnaya bir ileti eklenmesini sağlayan yapıcı. |
-| [OdpReadException](odpreadexception#constructor_2)(string, Exception) | Bir ileti ve gömülü bir istisna içeren bir istisna için yapıcı. |
+| [OdpReadException](odpreadexception#constructor_1)(string) | Bu istisnaya bir mesaj eklenmesini sağlayan yapıcı. |
+| [OdpReadException](odpreadexception#constructor_2)(string, Exception) | Mesaj ve gömülü bir istisna içeren bir istisna için yapıcı. |
 
 ### Ayrıca Bakınız
 

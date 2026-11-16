@@ -1,14 +1,14 @@
 ---
 title: Fonts
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Colección de fuentes.
+description: Colección de Fonts.
 type: docs
-weight: 4920
+weight: 4940
 url: /es/aspose.slides/fonts/
 ---
-## Clase Fonts
+## Fonts clase
 
-Colección de fuentes.
+Colección de Fonts.
 
 ```csharp
 public class Fonts : IFonts
@@ -19,14 +19,14 @@ public class Fonts : IFonts
 | Nombre | Descripción |
 | --- | --- |
 | [ComplexScriptFont](../../aspose.slides/fonts/complexscriptfont) { get; set; } | Devuelve o establece la fuente de script complejo. Lectura/escritura [`IFontData`](../ifontdata). |
-| [EastAsianFont](../../aspose.slides/fonts/eastasianfont) { get; set; } | Devuelve o establece la fuente de Asia Oriental. Lectura/escritura [`IFontData`](../ifontdata). |
+| [EastAsianFont](../../aspose.slides/fonts/eastasianfont) { get; set; } | Devuelve o establece la fuente asiática oriental. Lectura/escritura [`IFontData`](../ifontdata). |
 | [LatinFont](../../aspose.slides/fonts/latinfont) { get; set; } | Devuelve o establece la fuente latina. Lectura/escritura [`IFontData`](../ifontdata). |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [GetScriptFont](../../aspose.slides/fonts/getscriptfont)(string) | Obtiene el nombre de fuente asociado a una etiqueta de script específica del tema de la presentación. |
+| [GetScriptFont](../../aspose.slides/fonts/getscriptfont)(string) | Obtiene el nombre de la fuente asociado a una etiqueta de script específica del tema de la presentación. |
 | [GetScriptFontMap](../../aspose.slides/fonts/getscriptfontmap)() | Devuelve un diccionario de todas las definiciones de fuentes de script en la presentación. |
 | [RemoveScriptFont](../../aspose.slides/fonts/removescriptfont)(string) | Elimina la configuración de fuente asociada a una etiqueta de script específica de la colección de fuentes del tema. |
 | [SetScriptFont](../../aspose.slides/fonts/setscriptfont)(string, string) | Asigna un nombre de fuente a una etiqueta de script específica, lo que define cómo se renderizará el texto de ese script en la presentación. |

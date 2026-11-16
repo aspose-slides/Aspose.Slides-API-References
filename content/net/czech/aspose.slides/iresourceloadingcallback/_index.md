@@ -1,14 +1,14 @@
 ---
 title: IResourceLoadingCallback
-second_title: Aspose.Sildes pro .NET referenci API
-description: Rozhraní zpětného volání používané k řízení načítání externích zdrojů.
+second_title: Aspose.Sildes pro .NET API referenci
+description: Rozhraní zpětného volání používané ke správě načítání externích zdrojů.
 type: docs
-weight: 6840
+weight: 6860
 url: /cs/aspose.slides/iresourceloadingcallback/
 ---
 ## IResourceLoadingCallback rozhraní
 
-Rozhraní zpětného volání používané k řízení načítání externích zdrojů.
+Rozhraní zpětného volání slouží ke správě načítání externích zdrojů.
 
 ```csharp
 public interface IResourceLoadingCallback
@@ -18,7 +18,7 @@ public interface IResourceLoadingCallback
 
 | Název | Popis |
 | --- | --- |
-| [ResourceLoading](../../aspose.slides/iresourceloadingcallback/resourceloading)(IResourceLoadingArgs) | Metoda zpětného volání, která řídí načítání externích zdrojů. |
+| [ResourceLoading](../../aspose.slides/iresourceloadingcallback/resourceloading)(IResourceLoadingArgs) | Metoda zpětného volání, která reguluje načítání externích zdrojů. |
 
 ### Viz také
 

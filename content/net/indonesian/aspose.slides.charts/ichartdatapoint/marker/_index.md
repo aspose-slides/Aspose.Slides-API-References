@@ -1,14 +1,14 @@
 ---
 title: Marker
-second_title: Referensi API Aspose.Sildes untuk .NET
-description: Menentukan penanda data. Hanya-baca IMarkeraspose.slides.charts/imarker.
+second_title: Aspose.Sildes untuk .NET Referensi API
+description: Menentukan penanda data. Hanya baca IMarkeraspose.slides.charts/imarker.
 type: docs
-weight: 120
+weight: 160
 url: /id/aspose.slides.charts/ichartdatapoint/marker/
 ---
 ## IChartDataPoint.Marker properti
 
-Menentukan penanda data. hanya-baca [`IMarker`](../../imarker).
+Menentukan penanda data. Hanya baca [`IMarker`](../../imarker).
 
 ```csharp
 public IMarker Marker { get; }

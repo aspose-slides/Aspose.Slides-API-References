@@ -1,14 +1,14 @@
 ---
 title: ExternalResourceResolver
-second_title: Aspose.Sildes pro .NET – referenční příručka API
-description: Třída zpětného volání používaná k řešení externích zdrojů během importu dokumentů Html a Svg. Použití tohoto řešiče může vytvořit zranitelnost, když klient poskytne soubor HTML nebo SVG a způsobí, že serverový software získá místní nebo síťový soubor. Používejte s opatrností. Doporučuje se neuvádět ExternalResourceResolver vůbec – budou čteny pouze vložené objekty – nebo vytvořit podtřídu, která kontroluje, zda je uvedený uri platný.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Callback třída používaná k řešení externích zdrojů během importu dokumentů Html a Svg. Použití tohoto řešiče může vytvořit zranitelnost, kdy soubor HTML nebo SVG poskytnutý klientem způsobí, že serverový software získá lokální nebo síťový soubor. Používejte opatrně. Doporučuje se vůbec nespecifikovat ExternalResourceResolver, pouze vložené objekty budou načteny, nebo vytvořit podtřídu, která kontroluje, zda je uvedené uri platné.
 type: docs
-weight: 7480
+weight: 7500
 url: /cs/aspose.slides.import/externalresourceresolver/
 ---
 ## ExternalResourceResolver třída
 
-Třída zpětného volání používaná k řešení externích zdrojů během importu dokumentů Html a Svg. Použití tohoto řešiče může vytvořit zranitelnost, když klient poskytne soubor HTML nebo SVG a způsobí, že serverový software získá místní nebo síťový soubor. Používejte s opatrností. Doporučuje se neuvádět ExternalResourceResolver vůbec (budou čteny pouze vložené objekty) nebo vytvořit podtřídu, která kontroluje, zda je uvedený uri platný.
+Třída zpětného volání používaná k řešení externích zdrojů během importu dokumentů Html a Svg. Použití tohoto řešení může vytvořit zranitelnost, kdy soubor HTML nebo SVG poskytnutý klientem způsobí, že serverový software získá lokální nebo síťový soubor. Používejte opatrně. Doporučuje se vůbec nespecifikovat ExternalResourceResolver (budou načteny pouze vložené objekty) nebo vytvořit podtřídu, která kontroluje, zda je uvedená uri platná.
 
 ```csharp
 public class ExternalResourceResolver : IExternalResourceResolver
@@ -25,7 +25,7 @@ public class ExternalResourceResolver : IExternalResourceResolver
 | Název | Popis |
 | --- | --- |
 | virtual [GetEntity](../../aspose.slides.import/externalresourceresolver/getentity)(string) | Mapuje URI na objekt obsahující skutečný zdroj. |
-| virtual [ResolveUri](../../aspose.slides.import/externalresourceresolver/resolveuri)(string, string) | Vyřeší absolutní URI z základního a relativního URI. |
+| virtual [ResolveUri](../../aspose.slides.import/externalresourceresolver/resolveuri)(string, string) | Řeší absolutní URI z základního a relativního URI. |
 
 ### Viz také
 

@@ -1,14 +1,14 @@
 ---
 title: Tint
 second_title: Aspose.Sildes for .NET API リファレンス
-description: Tint エフェクトを表します。指定された量だけ効果の色値を色相に向けたり離したりします。
+description: Tint 効果を表します。指定された量だけ色相に向かって、または離れるように効果のカラー値をシフトします。
 type: docs
-weight: 3660
+weight: 3680
 url: /ja/aspose.slides.effects/tint/
 ---
 ## Tint クラス
 
-ベースのカラー値を指定した量だけ色相に近づけたり遠ざけたりする Tint エフェクトを表します。
+Tint 効果を表します。指定された量だけ色相に向かって、または離れるように効果のカラー値をシフトします。
 
 ```csharp
 public sealed class Tint : ImageTransformOperation, ITint
@@ -16,16 +16,16 @@ public sealed class Tint : ImageTransformOperation, ITint
 
 ## プロパティ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | ベースの IPresentationComponent インターフェイスを取得できます。読み取り専用 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
 
 ## メソッド
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/tint/equals)(object) | 指定された [`Tint`](../tint) が現在の [`Tint`](../tint) と等しいかどうかを判断します。 |
-| [GetEffective](../../aspose.slides.effects/tint/geteffective)() | 継承が適用された効果的な Tint 効果データを取得します。 |
+| override [Equals](../../aspose.slides.effects/tint/equals)(object) | 指定された [`Tint`](../tint) が現在の [`Tint`](../tint) と等しいかどうかを判定します。 |
+| [GetEffective](../../aspose.slides.effects/tint/geteffective)() | 継承が適用された有効な Tint 効果データを取得します。 |
 | override [GetHashCode](../../aspose.slides.effects/tint/gethashcode)() | 特定の型に対するハッシュ関数として機能します。 |
 
 ### 参照

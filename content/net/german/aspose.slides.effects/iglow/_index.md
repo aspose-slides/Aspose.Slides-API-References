@@ -1,14 +1,14 @@
 ---
 title: IGlow
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt einen Glow-Effekt dar, bei dem eine farbige, verschwommene Kontur außerhalb der Objektkanten hinzugefügt wird.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Stellt einen Glow-Effekt dar, bei dem ein farbiger, unscharfer Umriss außerhalb der Kanten des Objekts hinzugefügt wird.
 type: docs
-weight: 3320
+weight: 3340
 url: /de/aspose.slides.effects/iglow/
 ---
 ## IGlow Schnittstelle
 
-Stellt einen Glow-Effekt dar, bei dem eine farbige, verwischte Kontur außerhalb der Objektkanten hinzugefügt wird.
+Stellt einen Glow-Effekt dar, bei dem ein farbiger, unscharfer Umriss außerhalb der Kanten des Objekts hinzugefügt wird.
 
 ```csharp
 public interface IGlow : IAccessiblePVIObject<IGlowEffectiveData>, IImageTransformOperation
@@ -18,10 +18,10 @@ public interface IGlow : IAccessiblePVIObject<IGlowEffectiveData>, IImageTransfo
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/iglow/asiaccessiblepviobject) { get; } | Ermöglicht das Abrufen der Basis-Schnittstelle IAccessiblePVIObject. Nur lesbar [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/iglow/asiimagetransformoperation) { get; } | Ermöglicht das Abrufen der Basis-Schnittstelle IImageTransformOperation. Nur lesbar [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Color](../../aspose.slides.effects/iglow/color) { get; } | Farbformat. Nur lesbar [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Radius](../../aspose.slides.effects/iglow/radius) { get; set; } | Radius. Lese-/Schreib-Double. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/iglow/asiaccessiblepviobject) { get; } | Ermöglicht das Abrufen der Basis-IAccessiblePVIObject Schnittstelle. Schreibgeschützt [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/iglow/asiimagetransformoperation) { get; } | Ermöglicht das Abrufen der Basis-IImageTransformOperation Schnittstelle. Schreibgeschützt [`IImageTransformOperation`](../iimagetransformoperation). |
+| [Color](../../aspose.slides.effects/iglow/color) { get; } | Farbformat. Schreibgeschützt [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Radius](../../aspose.slides.effects/iglow/radius) { get; set; } | Radius. Lesen/Schreiben Double. |
 
 ### Siehe auch
 

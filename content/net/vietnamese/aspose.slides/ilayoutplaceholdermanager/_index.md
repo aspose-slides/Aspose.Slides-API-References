@@ -1,14 +1,14 @@
 ---
 title: ILayoutPlaceholderManager
-second_title: Aspose.Sildes cho Tham chiếu API .NET
+second_title: Tham chiếu API Aspose.Sildes cho .NET
 description: Đại diện cho trình quản lý cho phép bạn thêm các placeholder vào slide bố cục.
 type: docs
-weight: 6210
+weight: 6230
 url: /vi/aspose.slides/ilayoutplaceholdermanager/
 ---
 ## ILayoutPlaceholderManager giao diện
 
-Đại diện cho trình quản lý cho phép bạn thêm các placeholder vào slide bố cục.
+Represents manager that allows you to add placeholders to the layout slide.
 
 ```csharp
 public interface ILayoutPlaceholderManager
@@ -18,20 +18,20 @@ public interface ILayoutPlaceholderManager
 
 | Tên | Mô tả |
 | --- | --- |
-| [AddChartPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addchartplaceholder)(float, float, float, float) | Thêm một hình dạng placeholder mới vào slide bố cục để chứa biểu đồ. |
-| [AddContentPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addcontentplaceholder)(float, float, float, float) | Thêm một hình dạng placeholder mới vào slide bố cục để chứa nội dung, chẳng hạn như hình ảnh, bảng, phương tiện hoặc văn bản. |
-| [AddMediaPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addmediaplaceholder)(float, float, float, float) | Thêm một hình dạng placeholder mới vào slide bố cục để chứa đối tượng media. |
-| [AddOnlineImagePlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addonlineimageplaceholder)(float, float, float, float) | Thêm một hình dạng placeholder mới vào slide bố cục để chứa hình ảnh trực tuyến. |
-| [AddPicturePlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addpictureplaceholder)(float, float, float, float) | Thêm một hình dạng placeholder mới vào slide bố cục để chứa hình ảnh. |
-| [AddSmartArtPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addsmartartplaceholder)(float, float, float, float) | Thêm một hình dạng placeholder mới vào slide bố cục để chứa sơ đồ SmartArt. |
-| [AddTablePlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addtableplaceholder)(float, float, float, float) | Thêm một hình dạng placeholder mới vào slide bố cục để chứa bảng. |
+| [AddChartPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addchartplaceholder)(float, float, float, float) | Thêm một hình dạng placeholder mới vào slide bố cục để chứa một biểu đồ. |
+| [AddContentPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addcontentplaceholder)(float, float, float, float) | Thêm một hình dạng placeholder mới vào slide bố cục để chứa nội dung, chẳng hạn như hình ảnh, bảng, media hoặc văn bản. |
+| [AddMediaPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addmediaplaceholder)(float, float, float, float) | Thêm một hình dạng placeholder mới vào slide bố cục để chứa một đối tượng media. |
+| [AddOnlineImagePlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addonlineimageplaceholder)(float, float, float, float) | Thêm một hình dạng placeholder mới vào slide bố cục để chứa một hình ảnh trực tuyến. |
+| [AddPicturePlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addpictureplaceholder)(float, float, float, float) | Thêm một hình dạng placeholder mới vào slide bố cục để chứa một hình ảnh. |
+| [AddSmartArtPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addsmartartplaceholder)(float, float, float, float) | Thêm một hình dạng placeholder mới vào slide bố cục để chứa một sơ đồ SmartArt. |
+| [AddTablePlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addtableplaceholder)(float, float, float, float) | Thêm một hình dạng placeholder mới vào slide bố cục để chứa một bảng. |
 | [AddTextPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addtextplaceholder)(float, float, float, float) | Thêm một hình dạng placeholder mới vào slide bố cục để chứa nội dung văn bản. |
-| [AddVerticalContentPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addverticalcontentplaceholder)(float, float, float, float) | Thêm một hình dạng placeholder mới vào slide bố cục để chứa nội dung, chẳng hạn như hình ảnh, bảng, phương tiện hoặc văn bản theo hướng dọc. |
-| [AddVerticalTextPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addverticaltextplaceholder)(float, float, float, float) | Thêm một hình dạng placeholder mới vào slide bố cục để chứa nội dung văn bản theo hướng dọc. |
+| [AddVerticalContentPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addverticalcontentplaceholder)(float, float, float, float) | Thêm một hình dạng placeholder mới vào slide bố cục để chứa nội dung, chẳng hạn như hình ảnh, bảng, media hoặc văn bản theo chiều dọc. |
+| [AddVerticalTextPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addverticaltextplaceholder)(float, float, float, float) | Thêm một hình dạng placeholder mới vào slide bố cục để chứa nội dung văn bản theo chiều dọc. |
 
 ### Xem Thêm
 
 * không gian tên [Aspose.Slides](../../aspose.slides)
-* tập tin [Aspose.Slides](../../)
+* tập hợp [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

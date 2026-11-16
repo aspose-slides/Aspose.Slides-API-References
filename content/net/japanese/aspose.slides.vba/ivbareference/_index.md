@@ -3,7 +3,7 @@ title: IVbaReference
 second_title: Aspose.Sildes for .NET API リファレンス
 description: VBA プロジェクト参照の名前を表します。
 type: docs
-weight: 11570
+weight: 11590
 url: /ja/aspose.slides.vba/ivbareference/
 ---
 ## IVbaReference インターフェイス
@@ -18,7 +18,7 @@ public interface IVbaReference
 
 | 名前 | 説明 |
 | --- | --- |
-| [Name](../../aspose.slides.vba/ivbareference/name) { get; set; } | VBA プロジェクト参照の名前を表します。読み書き可能 String。 |
+| [Name](../../aspose.slides.vba/ivbareference/name) { get; set; } | VBA プロジェクト参照の名前を表します。読み取り/書き込み String。 |
 
 ### 参照
 

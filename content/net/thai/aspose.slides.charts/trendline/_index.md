@@ -1,14 +1,14 @@
 ---
 title: Trendline
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: คลาสแสดงถึงเส้นแนวโน้มของชุดข้อมูลแผนภูมิ
+second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
+description: คลาสที่เป็นตัวแทนของเส้นแนวโน้มของชุดข้อมูลแผนภูมิ
 type: docs
-weight: 2470
+weight: 2490
 url: /th/aspose.slides.charts/trendline/
 ---
 ## Trendline คลาส
 
-คลาสแสดงถึงเส้นแนวโน้มของชุดข้อมูลแผนภูมิ
+คลาสนี้เป็นตัวแทนของเส้นแนวโน้มของชุดข้อมูลแผนภูมิ
 
 ```csharp
 public class Trendline : DomObject<TrendlineCollection>, ITrendline
@@ -16,35 +16,35 @@ public class Trendline : DomObject<TrendlineCollection>, ITrendline
 
 ## คุณสมบัติ
 
-| Name | Description |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Backward](../../aspose.slides.charts/trendline/backward) { get; set; } | ระบุจำนวนของประเภท (หรือหน่วยบนแผนภูมิกระจาย) ที่เส้นแนวโน้มขยายออกไปก่อนข้อมูลของชุดที่กำลังเทรนด์ ขึ้นบนแผนภูมิกระจายและแผนภูมิที่ไม่ใช่กระจาย ค่าอาจเป็นค่าที่ไม่เป็นลบใด ๆ ได้ อ่าน/เขียน Double. |
-| [Chart](../../aspose.slides.charts/trendline/chart) { get; } | คืนค่าแผนภูมาพาเรนต์. อ่านเท่านั้น [`IChart`](../ichart). |
-| [DisplayEquation](../../aspose.slides.charts/trendline/displayequation) { get; set; } | ระบุว่าสมการของเส้นแนวโน้มจะแสดงบนแผนภูมิ (ในป้ายกำกับเดียวกับ Rsquaredvalue) อ่าน/เขียน Boolean. |
-| [DisplayRSquaredValue](../../aspose.slides.charts/trendline/displayrsquaredvalue) { get; set; } | ระบุว่าค่า R-squared ของเส้นแนวโน้มจะแสดงบนแผนภูมิ (ในป้ายกำกับเดียวกับสมการ) อ่าน/เขียน Boolean. |
-| [Format](../../aspose.slides.charts/trendline/format) { get; set; } | แสดงรูปแบบของเส้นแนวโน้ม. อ่าน/เขียน [`IFormat`](../iformat). |
-| [Forward](../../aspose.slides.charts/trendline/forward) { get; set; } | ระบุจำนวนของประเภท (หรือหน่วยบนแผนภูมิกระจาย) ที่เส้นแนวโน้มขยายออกไปหลังข้อมูลของชุดที่กำลังเทรนด์ ขึ้นบนแผนภูมิกระจายและแผนภูมิที่ไม่ใช่กระจาย ค่าอาจเป็นค่าที่ไม่เป็นลบใด ๆ ได้ อ่าน/เขียน Double. |
-| [Intercept](../../aspose.slides.charts/trendline/intercept) { get; set; } | ระบุค่าที่เส้นแนวโน้มจะตัดแกน y. คุณสมบัตินี้จะสนับสนุนเฉพาะเมื่อประเภทของเส้นแนวโน้มเป็น exp, linear หรือ poly. อ่าน/เขียน Double. |
-| [Order](../../aspose.slides.charts/trendline/order) { get; set; } | ระบุลำดับของเส้นแนวโน้มพหุนาม. จะถูกละเว้นสำหรับประเภทเส้นแนวโน้มอื่น ๆ ค่าต้องอยู่ระหว่าง 2 ถึง 6. อ่าน/เขียน Byte. |
-| [Period](../../aspose.slides.charts/trendline/period) { get; set; } | ระบุช่วงเวลาของเส้นแนวโน้มสำหรับเส้นแนวโน้มค่าเฉลี่ยเคลื่อนที่. จะถูกละเว้นสำหรับรูปแบบเส้นแนวโน้มอื่น ๆ ค่าต้องอยู่ระหว่าง 2 ถึง 255. อ่าน/เขียน Byte. |
-| [RelatedLegendEntry](../../aspose.slides.charts/trendline/relatedlegendentry) { get; } | แสดงรายการคำอธิบายที่สัมพันธ์กับเส้นแนวโน้มนี้ อ่านเท่านั้น [`ILegendEntryProperties`](../ilegendentryproperties). |
-| [TextFormat](../../aspose.slides.charts/trendline/textformat) { get; } | คืนรูปแบบข้อความ. อ่านเท่านั้น [`IChartTextFormat`](../icharttextformat). |
-| [TextFrameForOverriding](../../aspose.slides.charts/trendline/textframeforoverriding) { get; } | สามารถบรรจุข้อความที่จัดรูปแบบอย่างเข้มข้นได้ หากคุณสมบัตินี้ไม่เป็นค่าว่างค่าข้อความที่จัดรูปแบบนี้จะทับข้อความที่สร้างอัตโนมัติของป้ายข้อมูล ข้อความที่สร้างอัตโนมัติของป้ายข้อมูลหมายถึงข้อความที่จัดการโดย ShowSeriesName, ShowValue, ... และจัดรูปแบบด้วยคุณสมบัติ TextFormatManager.TextFormat. อ่านเท่านั้น [`ITextFrame`](../../aspose.slides/itextframe). |
-| [TrendlineName](../../aspose.slides.charts/trendline/trendlinename) { get; set; } | รับหรือกำหนดชื่อของเส้นแนวโน้ม. อ่าน/เขียน String. |
-| [TrendlineType](../../aspose.slides.charts/trendline/trendlinetype) { get; set; } | รับหรือกำหนดประเภทของเส้นแนวโน้ม. อ่าน/เขียน [`TrendlineType`](../trendlinetype). |
+| [Backward](../../aspose.slides.charts/trendline/backward) { get; set; } | ระบุจำนวนหมวดหมู่ (หรือหน่วยบนแผนภูมิกระจาย) ที่เส้นแนวโน้มขยายออกก่อนข้อมูลของชุดข้อมูลที่กำลังทำแนวโน้ม ในแผนภูมิกระจายและแผนภูมิที่ไม่ใช่กระจาย ค่าเป็นค่าที่ไม่เป็นลบใด ๆ Read/write Double. |
+| [Chart](../../aspose.slides.charts/trendline/chart) { get; } | คืนค่าแผนภูมิต้นแบบ Read-only [`IChart`](../ichart). |
+| [DisplayEquation](../../aspose.slides.charts/trendline/displayequation) { get; set; } | ระบุว่าสมการสำหรับเส้นแนวโน้มจะแสดงบนแผนภูมิ (ในป้ายกำกับเดียวกับ Rsquaredvalue) Read/write Boolean. |
+| [DisplayRSquaredValue](../../aspose.slides.charts/trendline/displayrsquaredvalue) { get; set; } | ระบุว่าค่า R-squared ของเส้นแนวโน้มจะแสดงบนแผนภูมิ (ในป้ายกำกับเดียวกับสมการ) Read/write Boolean. |
+| [Format](../../aspose.slides.charts/trendline/format) { get; set; } | แสดงรูปแบบของเส้นแนวโน้ม Read/write [`IFormat`](../iformat). |
+| [Forward](../../aspose.slides.charts/trendline/forward) { get; set; } | ระบุจำนวนหมวดหมู่ (หรือหน่วยบนแผนภูมิกระจาย) ที่เส้นแนวโน้มขยายออกหลังจากข้อมูลของชุดข้อมูลที่กำลังทำแนวโน้ม ในแผนภูมิกระจายและแผนภูมิที่ไม่ใช่กระจาย ค่าเป็นค่าที่ไม่เป็นลบใด ๆ Read/write Double. |
+| [Intercept](../../aspose.slides.charts/trendline/intercept) { get; set; } | ระบุค่าที่เส้นแนวโน้มจะตัดแกน y คุณสมบัตินี้จะรองรับเฉพาะเมื่อประเภทเส้นแนวโน้มเป็น exp, linear หรือ poly Read/write Double. |
+| [Order](../../aspose.slides.charts/trendline/order) { get; set; } | ระบุลำดับของเส้นแนวโน้มพหุนุมิติ ถูกละเว้นสำหรับประเภทเส้นแนวโน้มอื่น ค่า ต้องอยู่ระหว่าง 2 ถึง 6 Read/write Byte. |
+| [Period](../../aspose.slides.charts/trendline/period) { get; set; } | ระบุระยะเวลาของเส้นแนวโน้มสำหรับเส้นแนวโน้มค่าเฉลี่ยเคลื่อนที่ ถูกละเว้นสำหรับรูปแบบเส้นแนวโน้มอื่น ค่า ต้องอยู่ระหว่าง 2 ถึง 255 Read/write Byte. |
+| [RelatedLegendEntry](../../aspose.slides.charts/trendline/relatedlegendentry) { get; } | แสดงรายการคำอธิบายตารางที่เกี่ยวข้องกับเส้นแนวโน้มนี้ Read-only [`ILegendEntryProperties`](../ilegendentryproperties). |
+| [TextFormat](../../aspose.slides.charts/trendline/textformat) { get; } | คืนค่ารูปแบบข้อความ Read-only [`IChartTextFormat`](../icharttextformat). |
+| [TextFrameForOverriding](../../aspose.slides.charts/trendline/textframeforoverriding) { get; } | สามารถบรรจุข้อความที่จัดรูปแบบแบบ rich ได้ หากคุณสมบัตินี้ไม่เป็น null แล้วค่าข้อความที่จัดรูปแบบนี้จะทับข้อความที่สร้างอัตโนมัติของป้ายข้อมูล ข้อความที่สร้างอัตโนมัติของป้ายข้อมูลหมายถึงข้อความที่จัดการโดย ShowSeriesName, ShowValue, … properties และจัดรูปแบบด้วยคุณสมบัติ TextFormatManager.TextFormat Read-only [`ITextFrame`](../../aspose.slides/itextframe). |
+| [TrendlineName](../../aspose.slides.charts/trendline/trendlinename) { get; set; } | รับหรือกำหนดชื่อของเส้นแนวโน้ม Read/write String. |
+| [TrendlineType](../../aspose.slides.charts/trendline/trendlinetype) { get; set; } | รับหรือกำหนดประเภทของเส้นแนวโน้ม Read/write [`TrendlineType`](../trendlinetype). |
 
-## เมธอด
+## วิธีการ
 
-| Name | Description |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AddTextFrameForOverriding](../../aspose.slides.charts/trendline/addtextframeforoverriding)(string) | เริ่มต้น TextFrameForOverriding ด้วยข้อความในพารามิเตอร์ "text". หาก TextFrameForOverriding ถูกเริ่มต้นแล้วจะเปลี่ยนข้อความของมันเท่านั้น. |
+| [AddTextFrameForOverriding](../../aspose.slides.charts/trendline/addtextframeforoverriding)(string) | เริ่มต้น TextFrameForOverriding ด้วยข้อความในพารามิเตอร์ "text" หาก TextFrameForOverriding ถูกเริ่มต้นแล้วก็เพียงแค่เปลี่ยนข้อความของมัน |
 
 ### ดูเพิ่มเติม
 
 * คลาส [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * คลาส [TrendlineCollection](../trendlinecollection)
-* อินเทอร์เฟส [ITrendline](../itrendline)
+* อินเทอร์เฟซ [ITrendline](../itrendline)
 * เนมสเปซ [Aspose.Slides.Charts](../../aspose.slides.charts)
-* แอสเซ็มบลี [Aspose.Slides](../../)
+* แอสเซมบลี [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

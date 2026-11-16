@@ -1,9 +1,9 @@
 ---
 title: IParagraph
-second_title: Aspose.Sildes pro .NET API referenci
-description: Reprezentuje odstavec textu.
+second_title: Aspose.Sildes pro .NET referenci API
+description: Zastupuje odstavec textu.
 type: docs
-weight: 6560
+weight: 6580
 url: /cs/aspose.slides/iparagraph/
 ---
 ## IParagraph rozhraní
@@ -19,17 +19,19 @@ public interface IParagraph : ISlideComponent
 | Název | Popis |
 | --- | --- |
 | [AsISlideComponent](../../aspose.slides/iparagraph/asislidecomponent) { get; } | Umožňuje získat základní rozhraní ISlideComponent. Pouze pro čtení [`ISlideComponent`](../islidecomponent). |
-| [EndParagraphPortionFormat](../../aspose.slides/iparagraph/endparagraphportionformat) { get; set; } | Určuje vlastnosti části, které mají být použity, pokud je po poslední vložena další část. |
+| [EndParagraphPortionFormat](../../aspose.slides/iparagraph/endparagraphportionformat) { get; set; } | Určuje vlastnosti úseku, které se mají použít, pokud je po posledním úseku vložen další úsek. |
 | [ParagraphFormat](../../aspose.slides/iparagraph/paragraphformat) { get; } | Vrací objekt formátování pro tento odstavec. Pouze pro čtení [`IParagraphFormat`](../iparagraphformat). |
-| [Portions](../../aspose.slides/iparagraph/portions) { get; } | Vrací kolekci textových částí. Pouze pro čtení [`IPortionCollection`](../iportioncollection). |
+| [Portions](../../aspose.slides/iparagraph/portions) { get; } | Vrací kolekci textových úseků. Pouze pro čtení [`IPortionCollection`](../iportioncollection). |
 | [Text](../../aspose.slides/iparagraph/text) { get; set; } | Získává nebo nastavuje prostý text odstavce. Čtení/zápis String. |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
+| [GetImage](../../aspose.slides/iparagraph/getimage#getimage)() | Vrací obrázek odstavce. |
+| [GetImage](../../aspose.slides/iparagraph/getimage#getimage_1)(float, float) | Vrací obrázek odstavce se zadaným měřítkem. |
 | [GetLinesCount](../../aspose.slides/iparagraph/getlinescount)() | Získá počet řádků v odstavci. |
-| [GetRect](../../aspose.slides/iparagraph/getrect)() | Získá souřadnice obdélníka ohraničujícího odstavec. Obdélník zahrnuje všechny řádky textu v odstavci, včetně prázdných. |
+| [GetRect](../../aspose.slides/iparagraph/getrect)() | Získá souřadnice obdélníku ohraničujícího odstavec. Obdélník zahrnuje všechny řádky textu v odstavci, včetně prázdných. |
 | [JoinPortionsWithSameFormatting](../../aspose.slides/iparagraph/joinportionswithsameformatting)() | Spojí běhy se stejným formátováním. |
 
 ### Viz také

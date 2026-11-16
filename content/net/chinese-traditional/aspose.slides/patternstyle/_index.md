@@ -1,9 +1,9 @@
 ---
 title: PatternStyle
-second_title: Aspose.Sildes .NET API 參考
+second_title: Aspose.Sildes for .NET API 參考
 description: 表示圖案樣式。
 type: docs
-weight: 9360
+weight: 9380
 url: /zh-hant/aspose.slides/patternstyle/
 ---
 ## PatternStyle 列舉
@@ -16,7 +16,7 @@ public enum PatternStyle : sbyte
 
 ### 值
 
-| 名稱 | 值 | 描述 |
+| 名稱 | 值 | 說明 |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | Unknown | `0` |  |
@@ -75,7 +75,7 @@ public enum PatternStyle : sbyte
 | UpwardDiagonal | `53` |  |
 | DiagonalCross | `54` |  |
 
-### 另請參閱
+### 另見
 
 * 命名空間 [Aspose.Slides](../../aspose.slides)
 * 組件 [Aspose.Slides](../../)

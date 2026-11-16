@@ -1,14 +1,14 @@
 ---
 title: PptxUnsupportedFormatException
-second_title: Aspose.Sildes pro .NET API Reference
-description: Výjimka, která je vyhozena, když je formát souboru prezentace nepodporován.
+second_title: Aspose.Sildes pro .NET referenci API
+description: Výjimka, která je vyvolána, když je formát souboru prezentace nepodporován.
 type: docs
-weight: 9580
+weight: 9600
 url: /cs/aspose.slides/pptxunsupportedformatexception/
 ---
 ## PptxUnsupportedFormatException třída
 
-Výjimka, která je vyhozena, když je formát souboru prezentace nepodporován.
+Výjimka, která je vyvolána, když je formát souboru prezentace nepodporován.
 
 ```csharp
 public class PptxUnsupportedFormatException : PptxReadException

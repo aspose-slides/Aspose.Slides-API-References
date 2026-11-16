@@ -3,7 +3,7 @@ title: TextCapType
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt den Typ der Textkapitalisierung dar.
 type: docs
-weight: 10930
+weight: 10950
 url: /de/aspose.slides/textcaptype/
 ---
 ## TextCapType Aufzählung

@@ -1,9 +1,9 @@
 ---
 title: Orientation
-second_title: Aspose.Sildes для .NET справка API
+second_title: Aspose.Sildes для .NET справочник API
 description: Представляет ориентацию фигуры.
 type: docs
-weight: 9240
+weight: 9260
 url: /ru/aspose.slides/orientation/
 ---
 ## Перечисление Orientation
@@ -18,8 +18,8 @@ public enum Orientation : sbyte
 
 | Имя | Значение | Описание |
 | --- | --- | --- |
-| Horizontal | `0` | Горизонтальная. |
-| Vertical | `1` | Вертикальная. |
+| Horizontal | `0` | Горизонтально. |
+| Vertical | `1` | Вертикально. |
 
 ### См. также
 

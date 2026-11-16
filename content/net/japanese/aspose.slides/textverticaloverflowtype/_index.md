@@ -1,14 +1,14 @@
 ---
 title: TextVerticalOverflowType
 second_title: Aspose.Sildes for .NET API リファレンス
-description: テキストの垂直オーバーフロータイプを表します。
+description: テキストの縦方向オーバーフロータイプを表します。
 type: docs
-weight: 11020
+weight: 11040
 url: /ja/aspose.slides/textverticaloverflowtype/
 ---
 ## TextVerticalOverflowType 列挙型
 
-テキストの垂直オーバーフロータイプを表します。
+テキストの縦方向オーバーフロー タイプを表します。
 
 ```csharp
 public enum TextVerticalOverflowType : sbyte

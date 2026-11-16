@@ -1,29 +1,29 @@
 ---
 title: IMathFunctionFactory
-second_title: Aspose.Sildes .NET API referencia
-description: Lehetővé teszi egy matematikai függvény létrehozását
+second_title: Aspose.Sildes a .NET API referencia
+description: Lehetővé teszi matematikai függvény létrehozását
 type: docs
-weight: 8280
+weight: 8300
 url: /hu/aspose.slides.mathtext/imathfunctionfactory/
 ---
 ## IMathFunctionFactory interfész
 
-Lehetővé teszi egy matematikai függvény létrehozását
+Lehetővé teszi matematikai függvény létrehozását
 
 ```csharp
 public interface IMathFunctionFactory
 ```
 
-## Módszerek
+## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [CreateMathFunction](../../aspose.slides.mathtext/imathfunctionfactory/createmathfunction#createmathfunction)(IMathElement, IMathElement) | Létrehoz matematikai függvényt |
-| [CreateMathFunction](../../aspose.slides.mathtext/imathfunctionfactory/createmathfunction#createmathfunction_1)(string, IMathElement) | Létrehoz matematikai függvényt |
+| [CreateMathFunction](../../aspose.slides.mathtext/imathfunctionfactory/createmathfunction#createmathfunction)(IMathElement, IMathElement) | Matematikai függvényt hoz létre |
+| [CreateMathFunction](../../aspose.slides.mathtext/imathfunctionfactory/createmathfunction#createmathfunction_1)(string, IMathElement) | Matematikai függvényt hoz létre |
 
 ### Megjegyzés
 
-COM kompatibilitás miatt
+COM kompatibilitáshoz
 
 ### Lásd még
 

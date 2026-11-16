@@ -1,9 +1,9 @@
 ---
 title: PdfImportOptions
-second_title: Aspose.Sildes для .NET справочник API
+second_title: Справочник API Aspose.Sildes для .NET
 description: Представляет параметры импорта PDF
 type: docs
-weight: 7500
+weight: 7520
 url: /ru/aspose.slides.import/pdfimportoptions/
 ---
 ## PdfImportOptions класс

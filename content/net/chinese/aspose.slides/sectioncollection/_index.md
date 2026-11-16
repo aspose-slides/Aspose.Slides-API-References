@@ -1,14 +1,14 @@
 ---
 title: SectionCollection
-second_title: Aspose.Sildes .NET API 参考
-description: 表示一个节的集合。
+second_title: Aspose.Sildes for .NET API 参考
+description: 表示节的集合。
 type: docs
-weight: 9760
+weight: 9780
 url: /zh/aspose.slides/sectioncollection/
 ---
 ## SectionCollection 类
 
-表示一个节的集合。
+表示一组节。
 
 ```csharp
 public sealed class SectionCollection : DomObject<Presentation>, ISectionCollection
@@ -18,7 +18,7 @@ public sealed class SectionCollection : DomObject<Presentation>, ISectionCollect
 
 | 名称 | 描述 |
 | --- | --- |
-| [Count](../../aspose.slides/sectioncollection/count) { get; } | 获取集合中实际包含的元素数量。只读 Int32。 |
+| [Count](../../aspose.slides/sectioncollection/count) { get; } | 获取集合实际包含的元素数量。只读 Int32。 |
 | [IsSynchronized](../../aspose.slides/sectioncollection/issynchronized) { get; } | 返回一个值，指示对集合的访问是否已同步（线程安全）。只读 Boolean。 |
 | [Item](../../aspose.slides/sectioncollection/item) { get; } | 获取指定索引处的元素。只读 [`ISection`](../isection)。 |
 | [SyncRoot](../../aspose.slides/sectioncollection/syncroot) { get; } | 返回同步根。只读 Object。 |
@@ -30,12 +30,12 @@ public sealed class SectionCollection : DomObject<Presentation>, ISectionCollect
 | [AddEmptySection](../../aspose.slides/sectioncollection/addemptysection)(string, int) | 在集合的指定位置添加空节。 |
 | [AddSection](../../aspose.slides/sectioncollection/addsection)(string, ISlide) | 添加从特定幻灯片开始的幻灯片节。 |
 | [AppendEmptySection](../../aspose.slides/sectioncollection/appendemptysection)(string) | 在集合的末尾添加空节。 |
-| [Clear](../../aspose.slides/sectioncollection/clear)() | 从集合中删除所有节。 |
-| [CopyTo](../../aspose.slides/sectioncollection/copyto)(Array, int) | 将整个集合复制到指定的数组中。 |
+| [Clear](../../aspose.slides/sectioncollection/clear)() | 从集合中移除所有节。 |
+| [CopyTo](../../aspose.slides/sectioncollection/copyto)(Array, int) | 将整个集合复制到指定数组。 |
 | [GetEnumerator](../../aspose.slides/sectioncollection/getenumerator)() | 返回遍历集合的枚举器。 |
 | [IndexOf](../../aspose.slides/sectioncollection/indexof)(ISection) | 返回集合中指定节的索引。 |
-| [RemoveSection](../../aspose.slides/sectioncollection/removesection)(ISection) | 删除节。节中包含的幻灯片将合并到前一个节。 |
-| [RemoveSectionWithSlides](../../aspose.slides/sectioncollection/removesectionwithslides)(ISection) | 删除节及其包含的幻灯片。 |
+| [RemoveSection](../../aspose.slides/sectioncollection/removesection)(ISection) | 移除节。节中包含的幻灯片将合并到前一个节。 |
+| [RemoveSectionWithSlides](../../aspose.slides/sectioncollection/removesectionwithslides)(ISection) | 移除节及其包含的幻灯片。 |
 | [ReorderSectionWithSlides](../../aspose.slides/sectioncollection/reordersectionwithslides)(ISection, int) | 将节及其幻灯片从集合移动到指定位置。 |
 
 ### 另见

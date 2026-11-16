@@ -1,14 +1,14 @@
 ---
 title: IFillFormatCollection
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt de verzameling van opvullingsstijlen voor.
+description: Stelt de collectie van opvulstijlen voor.
 type: docs
-weight: 11230
+weight: 11250
 url: /nl/aspose.slides.theme/ifillformatcollection/
 ---
 ## IFillFormatCollection interface
 
-Stelt de verzameling van opvullingsstijlen voor.
+Stelt de collectie van opvulstijlen voor.
 
 ```csharp
 public interface IFillFormatCollection : IGenericCollection<IFillFormat>

@@ -1,12 +1,12 @@
 ---
 title: ImagePixelFormat
-second_title: Aspose.Sildes .NET API hivatkozás
+second_title: Aspose.Sildes .NET API referencia
 description: Meghatározza a generált képek pixelformátumát.
 type: docs
-weight: 4210
+weight: 4230
 url: /hu/aspose.slides.export/imagepixelformat/
 ---
-## ImagePixelFormat enumeráció
+## ImagePixelFormat felsorolás
 
 Meghatározza a generált képek pixelformátumát.
 
@@ -18,11 +18,11 @@ public enum ImagePixelFormat
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| Format1bppIndexed | `1` | 1 bit képpontonként, indexelt. |
-| Format4bppIndexed | `4` | 4 bit képpontonként, indexelt. |
-| Format8bppIndexed | `8` | 8 bit képpontonként, indexelt. |
-| Format24bppRgb | `24` | 24 bit képpontonként, RGB. |
-| Format32bppArgb | `32` | 32 bit képpontonként, ARGB. |
+| Format1bppIndexed | `1` | 1 bit per pixel, indexelt. |
+| Format4bppIndexed | `4` | 4 bit per pixel, indexelt. |
+| Format8bppIndexed | `8` | 8 bit per pixel, indexelt. |
+| Format24bppRgb | `24` | 24 bit per pixel, RGB. |
+| Format32bppArgb | `32` | 32 bit per pixel, ARGB. |
 
 ### Lásd még
 

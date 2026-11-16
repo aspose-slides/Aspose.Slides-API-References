@@ -1,9 +1,9 @@
 ---
 title: ILuminanceEffectiveData
-second_title: Aspose.Sildes dla .NET – odniesienie API
-description: Reprezentuje efekt luminancji. Jasność liniowo przesuwa wszystkie kolory bliżej bieli lub czerni. Kontrast skaluje wszystkie kolory tak, aby były bliżej siebie lub dalej od siebie.
+second_title: Aspose.Sildes dla .NET API Reference
+description: Reprezentuje efekt Luminancji. Jasność liniowo przesuwa wszystkie kolory bliżej bieli lub czerni. Kontrast skaluje wszystkie kolory, aby były bliżej siebie lub dalej od siebie.
 type: docs
-weight: 3450
+weight: 3470
 url: /pl/aspose.slides.effects/iluminanceeffectivedata/
 ---
 ## ILuminanceEffectiveData interfejs
@@ -18,7 +18,7 @@ public interface ILuminanceEffectiveData : IEffectEffectiveData
 
 | Nazwa | Opis |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/iluminanceeffectivedata/asieffecteffectivedata) { get; } | Umożliwia pobranie podstawowego interfejsu IEffectEffectiveData. Tylko do odczytu [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/iluminanceeffectivedata/asieffecteffectivedata) { get; } | Umożliwia pobranie bazowego interfejsu IEffectEffectiveData. Tylko do odczytu [`IEffectEffectiveData`](../ieffecteffectivedata). |
 | [Brightness](../../aspose.slides.effects/iluminanceeffectivedata/brightness) { get; } | Jasność. Tylko do odczytu Single. |
 | [Contrast](../../aspose.slides.effects/iluminanceeffectivedata/contrast) { get; } | Kontrast. Tylko do odczytu Single. |
 

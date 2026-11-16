@@ -1,14 +1,14 @@
 ---
 title: IMasterHandoutSlideManager
 second_title: Aspose.Sildes for .NET API 參考
-description: 母版講義投影片管理員。
+description: 母版講義投影片管理器。
 type: docs
-weight: 6370
+weight: 6390
 url: /zh-hant/aspose.slides/imasterhandoutslidemanager/
 ---
 ## IMasterHandoutSlideManager 介面
 
-母版講義投影片管理員。
+母版講義投影片管理器。
 
 ```csharp
 public interface IMasterHandoutSlideManager
@@ -18,7 +18,7 @@ public interface IMasterHandoutSlideManager
 
 | 名稱 | 說明 |
 | --- | --- |
-| [MasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/masterhandoutslide) { get; } | 如果此簡報有母版，則傳回此簡報所有註解投影片的母版，否則傳回 null。 唯讀 [`IMasterHandoutSlide`](../imasterhandoutslide). |
+| [MasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/masterhandoutslide) { get; } | 如果此簡報有母版，則返回此簡報所有註解投影片的母版，否則返回 null。唯讀 [`IMasterHandoutSlide`](../imasterhandoutslide)。 |
 
 ## 方法
 

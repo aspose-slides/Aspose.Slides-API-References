@@ -1,9 +1,9 @@
 ---
 title: IHtml5Options
-second_title: Aspose.Sildes для .NET справка API
+second_title: Aspose.Sildes для .NET справочник API
 description: Представляет параметры экспорта HTML5.
 type: docs
-weight: 3930
+weight: 3950
 url: /ru/aspose.slides.export/ihtml5options/
 ---
 ## IHtml5Options интерфейс
@@ -20,12 +20,12 @@ public interface IHtml5Options : ISaveOptions
 | --- | --- |
 | [AnimateShapes](../../aspose.slides.export/ihtml5options/animateshapes) { get; set; } | Возвращает или задает параметр анимации фигур. Чтение/запись Boolean. |
 | [AnimateTransitions](../../aspose.slides.export/ihtml5options/animatetransitions) { get; set; } | Возвращает или задает параметр анимации переходов. Чтение/запись Boolean. |
-| [AsISaveOptions](../../aspose.slides.export/ihtml5options/asisaveoptions) { get; } | Возвращает интерфейс ISaveOptions. Только для чтения [`ISaveOptions`](../isaveoptions). |
-| [DisableFontLigatures](../../aspose.slides.export/ihtml5options/disablefontligatures) { get; set; } | Возвращает или задает значение, указывающее, отображается ли текст без использования лигатур. При установке в `true` лигатуры будут отключены в выводе. По умолчанию это свойство имеет значение `false`. |
+| [AsISaveOptions](../../aspose.slides.export/ihtml5options/asisaveoptions) { get; } | Возвращает интерфейс ISaveOptions. Только чтение [`ISaveOptions`](../isaveoptions). |
+| [DisableFontLigatures](../../aspose.slides.export/ihtml5options/disablefontligatures) { get; set; } | Получает или задает значение, указывающее, рендерится ли текст без использования лигатур. При установке в `true` лигатуры будут отключены в выводе. По умолчанию это свойство установлено в `false`. |
 | [EmbedImages](../../aspose.slides.export/ihtml5options/embedimages) { get; set; } | Возвращает или задает параметр встраивания изображений. Чтение/запись Boolean. |
 | [OutputPath](../../aspose.slides.export/ihtml5options/outputpath) { get; set; } | Определяет, где должны храниться внешние ресурсы. Чтение/запись String. |
 | [PicturesCompression](../../aspose.slides.export/ihtml5options/picturescompression) { get; set; } | Представляет уровень сжатия изображений. Чтение/запись [`PicturesCompression`](./picturescompression). |
-| [SlidesLayoutOptions](../../aspose.slides.export/ihtml5options/slideslayoutoptions) { get; set; } | Возвращает или задает режим, в котором слайды размещаются на странице при экспорте презентации [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [SlidesLayoutOptions](../../aspose.slides.export/ihtml5options/slideslayoutoptions) { get; set; } | Получает или задает режим размещения слайдов на странице при экспорте презентации [`ISlidesLayoutOptions`](../islideslayoutoptions). |
 
 ### Примеры
 
@@ -43,7 +43,7 @@ using (Presentation pres = new Presentation("demo.pptx"))
 }
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [ISaveOptions](../isaveoptions)
 * пространство имён [Aspose.Slides.Export](../../aspose.slides.export)

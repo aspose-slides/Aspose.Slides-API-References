@@ -1,9 +1,9 @@
 ---
 title: IPictureFillFormatEffectiveData
-second_title: مرجع API لـ Aspose.Sildes للـ .NET
+second_title: مرجع API لـ Aspose.Sildes لـ .NET
 description: كائن ثابت يحتوي على خصائص تعبئة الصورة.
 type: docs
-weight: 6660
+weight: 6680
 url: /ar/aspose.slides/ipicturefillformateffectivedata/
 ---
 ## IPictureFillFormatEffectiveData واجهة
@@ -19,13 +19,13 @@ public interface IPictureFillFormatEffectiveData : IFillParamSource
 | الاسم | الوصف |
 | --- | --- |
 | [AsIFillParamSource](../../aspose.slides/ipicturefillformateffectivedata/asifillparamsource) { get; } | يسمح بالحصول على واجهة IFillParamSource الأساسية. للقراءة فقط [`IFillParamSource`](../ifillparamsource). |
-| [CropBottom](../../aspose.slides/ipicturefillformateffectivedata/cropbottom) { get; } | يعيد عدد النسب المئوية لارتفاع الصورة الحقيقي الذي يتم اقتصاصه من أسفل الصورة. للقراءة فقط Single. |
-| [CropLeft](../../aspose.slides/ipicturefillformateffectivedata/cropleft) { get; } | يعيد عدد النسب المئوية لعرض الصورة الحقيقي الذي يتم اقتصاصه من اليسار. للقراءة فقط Single. |
-| [CropRight](../../aspose.slides/ipicturefillformateffectivedata/cropright) { get; } | يعيد عدد النسب المئوية لعرض الصورة الحقيقي الذي يتم اقتصاصه من اليمين. للقراءة فقط Single. |
-| [CropTop](../../aspose.slides/ipicturefillformateffectivedata/croptop) { get; } | يعيد عدد النسب المئوية لارتفاع الصورة الحقيقي الذي يتم اقتصاصه من الأعلى. للقراءة فقط Single. |
-| [Dpi](../../aspose.slides/ipicturefillformateffectivedata/dpi) { get; } | يعيد قيمة الـ dpi المستخدمة لتعبئة الصورة. للقراءة فقط Int32. |
+| [CropBottom](../../aspose.slides/ipicturefillformateffectivedata/cropbottom) { get; } | يعيد عدد النسب المئوية لارتفاع الصورة الحقيقي الذي تم قصه من أسفل الصورة. للقراءة فقط Single. |
+| [CropLeft](../../aspose.slides/ipicturefillformateffectivedata/cropleft) { get; } | يعيد عدد النسب المئوية لعرض الصورة الحقيقي الذي تم قصه من اليسار. للقراءة فقط Single. |
+| [CropRight](../../aspose.slides/ipicturefillformateffectivedata/cropright) { get; } | يعيد عدد النسب المئوية لعرض الصورة الحقيقي الذي تم قصه من اليمين. للقراءة فقط Single. |
+| [CropTop](../../aspose.slides/ipicturefillformateffectivedata/croptop) { get; } | يعيد عدد النسب المئوية لارتفاع الصورة الحقيقي الذي تم قصه من الأعلى. للقراءة فقط Single. |
+| [Dpi](../../aspose.slides/ipicturefillformateffectivedata/dpi) { get; } | يعيد قيمة DPI المستخدمة لملء الصورة. للقراءة فقط Int32. |
 | [Picture](../../aspose.slides/ipicturefillformateffectivedata/picture) { get; } | يعيد الصورة. للقراءة فقط [`IPictureEffectiveData`](../ipictureeffectivedata). |
-| [PictureFillMode](../../aspose.slides/ipicturefillformateffectivedata/picturefillmode) { get; } | يعيد وضع تعبئة الصورة. للقراءة فقط [`PictureFillMode`](../picturefillmode). |
+| [PictureFillMode](../../aspose.slides/ipicturefillformateffectivedata/picturefillmode) { get; } | يعيد نمط ملء الصورة. للقراءة فقط [`PictureFillMode`](../picturefillmode). |
 
 ### ملاحظات
 

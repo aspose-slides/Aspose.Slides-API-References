@@ -1,9 +1,9 @@
 ---
 title: ImageTransformOperation
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar abstrakt bildtransformeringseffekt.
+description: Representerar en abstrakt bildtransformeringseffekt.
 type: docs
-weight: 3570
+weight: 3590
 url: /sv/aspose.slides.effects/imagetransformoperation/
 ---
 ## ImageTransformOperation klass
@@ -18,16 +18,16 @@ public abstract class ImageTransformOperation : PVIObject, IImageTransformOperat
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Tillåter att hämta bas-IPresentationComponent-gränssnittet. Skrivskyddad [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Tillåter att hämta bas IPresentationComponent gränssnittet. Skrivskyddad [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Jämför med angivet objekt. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Returnerar hashkod. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Returnerar hash-kod. |
 
-### Se även
+### Se också
 
 * klass [PVIObject](../../aspose.slides/pviobject)
 * gränssnitt [IImageTransformOperation](../iimagetransformoperation)

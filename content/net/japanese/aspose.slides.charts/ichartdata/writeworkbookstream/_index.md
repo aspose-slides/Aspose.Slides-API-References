@@ -1,9 +1,9 @@
 ---
 title: WriteWorkbookStream
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: ユーザーが指定した値で、内部に含まれる Excel ワークブックを初期化します。
 type: docs
-weight: 150
+weight: 160
 url: /ja/aspose.slides.charts/ichartdata/writeworkbookstream/
 ---
 ## IChartData.WriteWorkbookStream メソッド
@@ -14,9 +14,9 @@ url: /ja/aspose.slides.charts/ichartdata/writeworkbookstream/
 public void WriteWorkbookStream(MemoryStream ms)
 ```
 
-| パラメーター | 型 | 説明 |
+| パラメータ | 型 | 説明 |
 | --- | --- | --- |
-| ms | MemoryStream | Excel ワークブック全体を含む、ユーザーが提供したストリーム。 |
+| ms | MemoryStream | ユーザーが提供した、Excel ワークブック全体を含むストリーム。 |
 
 ### 参照
 

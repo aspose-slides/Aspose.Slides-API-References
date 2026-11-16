@@ -3,12 +3,12 @@ title: ChartThemeManager
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt Zugriff auf das überschriebene Diagrammthema bereit.
 type: docs
-weight: 11060
+weight: 11080
 url: /de/aspose.slides.theme/chartthememanager/
 ---
 ## ChartThemeManager Klasse
 
-Stellt Zugriff auf das überschriebene Diagrammthema bereit.
+Stellt Zugriff auf überschriebenes Diagrammthema bereit.
 
 ```csharp
 public class ChartThemeManager : BaseOverrideThemeManager
@@ -18,15 +18,15 @@ public class ChartThemeManager : BaseOverrideThemeManager
 
 | Name | Beschreibung |
 | --- | --- |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Bestimmt, ob OverrideTheme das geerbte effektive Thema überschreibt oder nicht. Um OverrideTheme zum Überschreiben zu aktivieren, verwenden Sie die OverrideTheme.Init*()-Methoden. Um OverrideTheme vom Überschreiben zu deaktivieren, verwenden Sie die OverrideTheme.Clear()-Methode. Nur-Lese-Boolean. |
-| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Gibt das überschreibende Theme-Objekt zurück. Lesen/Schreiben [`IOverrideTheme`](../ioverridetheme). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Bestimmt, ob OverrideTheme das geerbte effektive Thema überschreibt oder nicht. Um OverrideTheme zum Überschreiben zu aktivieren, verwenden Sie die OverrideTheme.Init*()-Methoden. Um OverrideTheme vom Überschreiben zu deaktivieren, verwenden Sie die OverrideTheme.Clear()-Methode. Nur-Lese Boolean. |
+| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Gibt das überschreibende Themenobjekt zurück. Lese-/Schreib [`IOverrideTheme`](../ioverridetheme). |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
 | [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | Wendet ein zusätzliches Farbschema auf eine Folie an. |
-| [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | Gibt das Theme-Objekt zurück. |
+| [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | Gibt das Themenobjekt zurück. |
 
 ### Siehe auch
 

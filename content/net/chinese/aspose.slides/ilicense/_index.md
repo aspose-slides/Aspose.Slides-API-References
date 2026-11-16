@@ -1,14 +1,14 @@
 ---
 title: ILicense
-second_title: Aspose.Sildes for .NET API 参考
-description: 提供用于授权组件的方法。
+second_title: Aspose.Sildes .NET API 参考
+description: 提供对组件进行许可的方法。
 type: docs
-weight: 6260
+weight: 6280
 url: /zh/aspose.slides/ilicense/
 ---
 ## ILicense 接口
 
-提供用于授权组件的方法。
+提供对组件进行许可的方法。
 
 ```csharp
 public interface ILicense
@@ -18,14 +18,14 @@ public interface ILicense
 
 | 名称 | 描述 |
 | --- | --- |
-| [IsLicensed](../../aspose.slides/ilicense/islicensed)() | 检查组件是否已应用许可证 |
+| [IsLicensed](../../aspose.slides/ilicense/islicensed)() | 检查是否已将许可证应用于组件 |
 | [ResetLicense](../../aspose.slides/ilicense/resetlicense)() | 重置许可证 |
 | [SetLicense](../../aspose.slides/ilicense/setlicense#setlicense)(Stream) | 为组件授权。 |
 | [SetLicense](../../aspose.slides/ilicense/setlicense#setlicense_1)(string) | 为组件授权。 |
 
 ### 示例
 
-在此示例中，将尝试在包含组件的文件夹、调用程序集所在的文件夹、入口程序集所在的文件夹以及调用程序集的嵌入资源中查找名为 MyLicense.lic 的许可证文件。
+在本示例中，将尝试在包含组件的文件夹、包含调用程序集的文件夹、入口程序集的文件夹以及调用程序集的嵌入资源中查找名为 MyLicense.lic 的许可证文件。
 
 ```csharp
 [C#]
@@ -40,7 +40,7 @@ Dim license As license = New license
 License.SetLicense("MyLicense.lic")
 ```
 
-### 另见
+### 另请参阅
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

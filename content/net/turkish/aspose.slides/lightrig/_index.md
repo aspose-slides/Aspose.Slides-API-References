@@ -1,9 +1,9 @@
 ---
 title: LightRig
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Slides için .NET API Referansı
 description: LightRig'i temsil eder.
 type: docs
-weight: 7690
+weight: 7710
 url: /tr/aspose.slides/lightrig/
 ---
 ## LightRig sınıfı
@@ -18,20 +18,20 @@ public sealed class LightRig : PVIObject, ILightRig
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | IPresentationComponent temel arayüzünü almayı sağlar. Sadece okuma [`IPresentationComponent`](../ipresentationcomponent). |
-| [Direction](../../aspose.slides/lightrig/direction) { get; set; } | Işık yönü. Okuma/yazma [`LightingDirection`](../lightingdirection). |
-| [LightType](../../aspose.slides/lightrig/lighttype) { get; set; } | Bir şekle uygulanabilen önceden ayarlanmış bir ışık hakkını temsil eder. Light rig, 3D sahneye göre belirli bir şekilde konumlandırılmış bir ışık grubunu temsil eder. Okuma/yazma [`LightRigPresetType`](../lightrigpresettype). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arayüzünü almayı sağlar. Salt okunur [`IPresentationComponent`](../ipresentationcomponent). |
+| [Direction](../../aspose.slides/lightrig/direction) { get; set; } | Işık yönü. Okunup yazılabilir [`LightingDirection`](../lightingdirection). |
+| [LightType](../../aspose.slides/lightrig/lighttype) { get; set; } | Bir şekle uygulanabilen önceden ayarlanmış bir ışık yönünü temsil eder. Light rig, 3B sahneye göre belirli bir şekilde yönlendirilmiş bir ışık grubunu temsil eder. Okunup yazılabilir [`LightRigPresetType`](../lightrigpresettype). |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Belirtilen nesneyle karşılaştırır. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Hash kodunu döndürür. |
-| [GetRotation](../../aspose.slides/lightrig/getrotation)() | Bir döndürme, enlem koordinatı, boylam koordinatı ve eksen etrafında enlem ve boylam koordinatları olarak bir devrim kullanılarak tanımlanır. Dönüş dizisinin ilk öğesi - enlem, ikincisi - boylam, üçüncüsü - devrim. Döndürme tanımlı değilse null döndürür. |
-| [SetRotation](../../aspose.slides/lightrig/setrotation)(float, float, float) | Bir döndürme, enlem koordinatı, boylam koordinatı ve eksen etrafında enlem ve boylam koordinatları olarak bir devrim kullanılarak tanımlanır. Koordinat değerlerinden herhangi biri float.NaN ise, tüm döndürme tanımsızdır. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Karma kod döndürür. |
+| [GetRotation](../../aspose.slides/lightrig/getrotation)() | Bir dönüş, enlem koordinatı, boylam koordinatı ve eksen etrafındaki bir devrim kullanılarak tanımlanır; enlem ve boylam koordinatları gibi. Döndürülen dizideki ilk öğe - enlem, ikinci - boylam, üçüncü - devrim. Tanımlı bir dönüş yoksa null döndürür. |
+| [SetRotation](../../aspose.slides/lightrig/setrotation)(float, float, float) | Bir dönüş, enlem koordinatı, boylam koordinatı ve eksen etrafındaki bir devrim kullanılarak tanımlanır; enlem ve boylam koordinatları gibi. Koordinat değerlerinden herhangi biri float.NaN ise, tüm dönüş tanımsızdır. |
 
-### Diğer Bağlantılar
+### Ayrıca Bakınız
 
 * sınıf [PVIObject](../pviobject)
 * arayüz [ILightRig](../ilightrig)

@@ -1,14 +1,14 @@
 ---
 title: IFormat
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt de opmaak-eigenschappen van een diagram voor.
+description: Stelt de opmaak-eigenschappen van een grafiek voor.
 type: docs
-weight: 2100
+weight: 2120
 url: /nl/aspose.slides.charts/iformat/
 ---
 ## IFormat interface
 
-Stelt de opmaak-eigenschappen van een diagram voor.
+Stelt de opmaak-eigenschappen van een grafiek voor.
 
 ```csharp
 public interface IFormat
@@ -18,10 +18,10 @@ public interface IFormat
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Effect](../../aspose.slides.charts/iformat/effect) { get; } | Retourneert de effecten die voor een diagram worden gebruikt. Alleen-lezen [`IEffectFormat`](../../aspose.slides/ieffectformat). |
-| [Effect3D](../../aspose.slides.charts/iformat/effect3d) { get; } | Retourneert het 3D-formaat van een diagram. Alleen-lezen [`IThreeDFormat`](../../aspose.slides/ithreedformat). |
-| [Fill](../../aspose.slides.charts/iformat/fill) { get; } | Retourneert de opvulstijleigenschappen van een diagram. Alleen-lezen [`IFillFormat`](../../aspose.slides/ifillformat). |
-| [Line](../../aspose.slides.charts/iformat/line) { get; } | Retourneert de lijneigenschappen van een diagram. Alleen-lezen [`ILineFormat`](../../aspose.slides/ilineformat). |
+| [Effect](../../aspose.slides.charts/iformat/effect) { get; } | Retourneert de effecten die voor een grafiek worden gebruikt. Alleen-lezen [`IEffectFormat`](../../aspose.slides/ieffectformat). |
+| [Effect3D](../../aspose.slides.charts/iformat/effect3d) { get; } | Retourneert 3D-formaat van een grafiek. Alleen-lezen [`IThreeDFormat`](../../aspose.slides/ithreedformat). |
+| [Fill](../../aspose.slides.charts/iformat/fill) { get; } | Retourneert vulstijl-eigenschappen van een grafiek. Alleen-lezen [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [Line](../../aspose.slides.charts/iformat/line) { get; } | Retourneert lijnstijl-eigenschappen van een grafiek. Alleen-lezen [`ILineFormat`](../../aspose.slides/ilineformat). |
 
 ### Zie ook
 

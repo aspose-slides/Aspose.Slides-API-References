@@ -1,14 +1,14 @@
 ---
 title: EffectFormat
-second_title: Aspose.Sildes για .NET – Αναφορά API
-description: Αναπαριστά τις ιδιότητες εφέ του σχήματος.
+second_title: Aspose.Sildes για .NET Αναφορά API
+description: Αντιπροσωπεύει τις ιδιότητες εφέ του σχήματος.
 type: docs
-weight: 2830
+weight: 2850
 url: /el/aspose.slides/effectformat/
 ---
 ## EffectFormat κλάση
 
-Αναπαριστά τις ιδιότητες εφέ του σχήματος.
+Represents effect properties of shape.
 
 ```csharp
 public sealed class EffectFormat : PVIObject, IEffectFormat
@@ -18,46 +18,46 @@ public sealed class EffectFormat : PVIObject, IEffectFormat
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Επιτρέπει την πρόσβαση στη βασική διασύνδεση IPresentationComponent. Μόνο για ανάγνωση [`IPresentationComponent`](../ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Επιτρέπει την απόκτηση της βασικής διεπαφής IPresentationComponent. Μόνο για ανάγνωση [`IPresentationComponent`](../ipresentationcomponent). |
 | [BlurEffect](../../aspose.slides/effectformat/blureffect) { get; set; } | Εφέ θολώματος. Ανάγνωση/εγγραφή [`IBlur`](../../aspose.slides.effects/iblur). |
-| [FillOverlayEffect](../../aspose.slides/effectformat/filloverlayeffect) { get; set; } | Εφέ καλυμμάτων γεμίσματος. Ανάγνωση/εγγραφή [`IFillOverlay`](../../aspose.slides.effects/ifilloverlay). |
+| [FillOverlayEffect](../../aspose.slides/effectformat/filloverlayeffect) { get; set; } | Εφέ επικάλυψης γεμίσματος. Ανάγνωση/εγγραφή [`IFillOverlay`](../../aspose.slides.effects/ifilloverlay). |
 | [GlowEffect](../../aspose.slides/effectformat/gloweffect) { get; set; } | Εφέ λάμψης. Ανάγνωση/εγγραφή [`IGlow`](../../aspose.slides.effects/iglow). |
 | [InnerShadowEffect](../../aspose.slides/effectformat/innershadoweffect) { get; set; } | Εσωτερική σκιά. Ανάγνωση/εγγραφή [`IInnerShadow`](../../aspose.slides.effects/iinnershadow). |
 | [IsNoEffects](../../aspose.slides/effectformat/isnoeffects) { get; } | Επιστρέφει true εάν όλα τα εφέ είναι απενεργοποιημένα (όπως μόλις δημιουργήθηκε, προεπιλεγμένο αντικείμενο EffectFormat). Μόνο για ανάγνωση Boolean. |
 | [OuterShadowEffect](../../aspose.slides/effectformat/outershadoweffect) { get; set; } | Εξωτερική σκιά. Ανάγνωση/εγγραφή [`IOuterShadow`](../../aspose.slides.effects/ioutershadow). |
 | [PresetShadowEffect](../../aspose.slides/effectformat/presetshadoweffect) { get; set; } | Προκαθορισμένη σκιά. Ανάγνωση/εγγραφή [`IPresetShadow`](../../aspose.slides.effects/ipresetshadow). |
 | [ReflectionEffect](../../aspose.slides/effectformat/reflectioneffect) { get; set; } | Αντανάκλαση. Ανάγνωση/εγγραφή [`IReflection`](../../aspose.slides.effects/ireflection). |
-| [SoftEdgeEffect](../../aspose.slides/effectformat/softedgeeffect) { get; set; } | Απαλό άκρο. Ανάγνωση/εγγραφή [`ISoftEdge`](../../aspose.slides.effects/isoftedge). |
+| [SoftEdgeEffect](../../aspose.slides/effectformat/softedgeeffect) { get; set; } | Μαλακό περίγραμμα. Ανάγνωση/εγγραφή [`ISoftEdge`](../../aspose.slides.effects/isoftedge). |
 
 ## Μέθοδοι
 
 | Όνομα | Περιγραφή |
 | --- | --- |
 | [DisableBlurEffect](../../aspose.slides/effectformat/disableblureffect)() | Απενεργοποιεί το εφέ θολώματος. |
-| [DisableFillOverlayEffect](../../aspose.slides/effectformat/disablefilloverlayeffect)() | Απενεργοποιεί το εφέ καλυμμάτων γεμίσματος. |
+| [DisableFillOverlayEffect](../../aspose.slides/effectformat/disablefilloverlayeffect)() | Απενεργοποιεί το εφέ επικάλυψης γεμίσματος. |
 | [DisableGlowEffect](../../aspose.slides/effectformat/disablegloweffect)() | Απενεργοποιεί το εφέ λάμψης. |
 | [DisableInnerShadowEffect](../../aspose.slides/effectformat/disableinnershadoweffect)() | Απενεργοποιεί το εφέ εσωτερικής σκιάς. |
 | [DisableOuterShadowEffect](../../aspose.slides/effectformat/disableoutershadoweffect)() | Απενεργοποιεί το εφέ εξωτερικής σκιάς. |
 | [DisablePresetShadowEffect](../../aspose.slides/effectformat/disablepresetshadoweffect)() | Απενεργοποιεί το εφέ προκαθορισμένης σκιάς. |
 | [DisableReflectionEffect](../../aspose.slides/effectformat/disablereflectioneffect)() | Απενεργοποιεί το εφέ αντανάκλασης. |
-| [DisableSoftEdgeEffect](../../aspose.slides/effectformat/disablesoftedgeeffect)() | Απενεργοποιεί το εφέ απαλού άκρου. |
-| [EnableFillOverlayEffect](../../aspose.slides/effectformat/enablefilloverlayeffect)() | Ενεργοποιεί το εφέ καλυμμάτων γεμίσματος. |
+| [DisableSoftEdgeEffect](../../aspose.slides/effectformat/disablesoftedgeeffect)() | Απενεργοποιεί το εφέ μαλακού περιγράμματος. |
+| [EnableFillOverlayEffect](../../aspose.slides/effectformat/enablefilloverlayeffect)() | Ενεργοποιεί το εφέ επικάλυψης γεμίσματος. |
 | [EnableGlowEffect](../../aspose.slides/effectformat/enablegloweffect)() | Ενεργοποιεί το εφέ λάμψης. |
 | [EnableInnerShadowEffect](../../aspose.slides/effectformat/enableinnershadoweffect)() | Ενεργοποιεί το εφέ εσωτερικής σκιάς. |
 | [EnableOuterShadowEffect](../../aspose.slides/effectformat/enableoutershadoweffect)() | Ενεργοποιεί το εφέ εξωτερικής σκιάς. |
 | [EnablePresetShadowEffect](../../aspose.slides/effectformat/enablepresetshadoweffect)() | Ενεργοποιεί το εφέ προκαθορισμένων σκιών. |
 | [EnableReflectionEffect](../../aspose.slides/effectformat/enablereflectioneffect)() | Ενεργοποιεί το εφέ αντανάκλασης. |
-| [EnableSoftEdgeEffect](../../aspose.slides/effectformat/enablesoftedgeeffect)() | Ενεργοποιεί το εφέ απαλού άκρου. |
+| [EnableSoftEdgeEffect](../../aspose.slides/effectformat/enablesoftedgeeffect)() | Ενεργοποιεί το εφέ μαλακού περιγράμματος. |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Συγκρίνει με το καθορισμένο αντικείμενο. |
 | [GetEffective](../../aspose.slides/effectformat/geteffective)() | Λαμβάνει τα αποτελεσματικά δεδομένα μορφοποίησης εφέ με την κληρονομικότητα εφαρμοσμένη. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Επιστρέφει κώδικα κατακερματισμού. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Επιστρέφει κωδικό κατακερματισμού. |
 | [SetBlurEffect](../../aspose.slides/effectformat/setblureffect)(double, bool) | Ορίζει το εφέ θολώματος. |
 
 ### Δείτε επίσης
 
 * κλάση [PVIObject](../pviobject)
-* διασύνδεση [IEffectFormat](../ieffectformat)
+* διεπαφή [IEffectFormat](../ieffectformat)
 * χώρο ονομάτων [Aspose.Slides](../../aspose.slides)
-* συγκρότημα [Aspose.Slides](../../)
+* συγκρότηση [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

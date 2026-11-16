@@ -1,14 +1,14 @@
 ---
 title: IGlitterTransition
-second_title: Aspose.Sildes для .NET API Reference
-description: Эффект перехода со блестками для слайда.
+second_title: Справочник API Aspose.Sildes для .NET
+description: Эффект блестящего перехода слайда.
 type: docs
-weight: 10100
+weight: 10120
 url: /ru/aspose.slides.slideshow/iglittertransition/
 ---
 ## IGlitterTransition интерфейс
 
-Эффект перехода с блестками для слайда.
+Эффект блестящего перехода слайда.
 
 ```csharp
 public interface IGlitterTransition : ITransitionValueBase

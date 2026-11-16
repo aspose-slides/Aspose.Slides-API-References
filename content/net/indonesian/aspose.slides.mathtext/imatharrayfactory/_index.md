@@ -1,14 +1,14 @@
 ---
 title: IMathArrayFactory
-second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mengizinkan membuat array matematika
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Memungkinkan membuat array matematika
 type: docs
-weight: 8110
+weight: 8130
 url: /id/aspose.slides.mathtext/imatharrayfactory/
 ---
 ## IMathArrayFactory antarmuka
 
-Mengizinkan membuat array matematika
+Memungkinkan membuat array matematika
 
 ```csharp
 public interface IMathArrayFactory

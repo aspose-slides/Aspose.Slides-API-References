@@ -1,9 +1,9 @@
 ---
 title: MathFractionTypes
-second_title: Aspose.Sildes para .NET Referencia de API
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Tipos de fracción
 type: docs
-weight: 8710
+weight: 8730
 url: /es/aspose.slides.mathtext/mathfractiontypes/
 ---
 ## MathFractionTypes enumeración
@@ -18,10 +18,10 @@ public enum MathFractionTypes
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| Bar | `1` | Fracción de barra |
-| Skewed | `2` | Sesgada |
-| Linear | `3` | Fracción lineal |
-| NoBar | `4` | Fracción sin barra (Pila) |
+| Bar | `1` | Bar Fracción |
+| Skewed | `2` | Skewed |
+| Linear | `3` | Linear Fracción |
+| NoBar | `4` | No-Bar Fracción (Stack) |
 
 ### Ver también
 

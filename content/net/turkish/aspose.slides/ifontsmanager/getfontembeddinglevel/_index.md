@@ -1,27 +1,27 @@
 ---
 title: GetFontEmbeddingLevel
 second_title: Aspose.Sildes için .NET API Referansı
-description: Belirtilen bayt dizisi ve yazı tipi adından bir yazı tipinin gömme seviyesini belirler.
+description: Verilen bayt dizisi ve yazı tipi adından bir yazı tipinin gömme seviyesini belirler.
 type: docs
-weight: 60
+weight: 70
 url: /tr/aspose.slides/ifontsmanager/getfontembeddinglevel/
 ---
-## IFontsManager.GetFontEmbeddingLevel yöntemi
+## IFontsManager.GetFontEmbeddingLevel metodu
 
-Belirtilen bayt dizisi ve yazı tipi adından bir yazı tipinin gömme seviyesini belirler.
+Verilen bayt dizisi ve yazı tipi adından bir yazı tipinin gömme düzeyini belirler.
 
 ```csharp
 public EmbeddingLevel GetFontEmbeddingLevel(byte[] fontBytes, string fontName)
 ```
 
-| Parametre | Tip | Açıklama |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| fontBytes | Byte[] | Yazı tipinin verilerini içeren bayt dizisi. |
+| fontBytes | Byte[] | Yazı tipi verilerini içeren bayt dizisi. |
 | fontName | String | Yazı tipinin adı. |
 
 ### Dönüş Değeri
 
-Belirtilen yazı tipinin gömme seviyesi.
+Belirtilen yazı tipinin gömme düzeyi.
 
 ### İstisnalar
 
@@ -46,7 +46,7 @@ using (Presentation pres = new Presentation(pptxFileName))
 }
 ```
 
-### Ayrıca Bakınız
+### İlgili Bağlantılar
 
 * enum [EmbeddingLevel](../../embeddinglevel)
 * arayüz [IFontsManager](../../ifontsmanager)

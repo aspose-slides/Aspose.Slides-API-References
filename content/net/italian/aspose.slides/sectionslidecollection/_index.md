@@ -1,14 +1,14 @@
 ---
 title: SectionSlideCollection
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Rappresenta una raccolta di diapositive nella sezione.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Rappresenta una collezione di diapositive nella sezione.
 type: docs
-weight: 9770
+weight: 9790
 url: /it/aspose.slides/sectionslidecollection/
 ---
 ## SectionSlideCollection classe
 
-Rappresenta una raccolta di diapositive nella sezione.
+Rappresenta una collezione di diapositive nella sezione.
 
 ```csharp
 public sealed class SectionSlideCollection : DomObject<Section>, ISectionSlideCollection
@@ -18,8 +18,8 @@ public sealed class SectionSlideCollection : DomObject<Section>, ISectionSlideCo
 
 | Nome | Descrizione |
 | --- | --- |
-| [Count](../../aspose.slides/sectionslidecollection/count) { get; } | Restituisce il numero di elementi effettivamente contenuti nella raccolta. Solo lettura Int32. |
-| [IsSynchronized](../../aspose.slides/sectionslidecollection/issynchronized) { get; } | Restituisce un valore che indica se l'accesso alla raccolta è sincronizzato (thread-safe). Solo lettura Boolean. |
+| [Count](../../aspose.slides/sectionslidecollection/count) { get; } | Restituisce il numero di elementi effettivamente contenuti nella collezione. Solo lettura Int32. |
+| [IsSynchronized](../../aspose.slides/sectionslidecollection/issynchronized) { get; } | Restituisce un valore che indica se l'accesso alla collezione è sincronizzato (thread-safe). Solo lettura Boolean. |
 | [Item](../../aspose.slides/sectionslidecollection/item) { get; } | Restituisce l'elemento all'indice specificato. Solo lettura [`ISlide`](../islide). |
 | [SyncRoot](../../aspose.slides/sectionslidecollection/syncroot) { get; } | Restituisce una radice di sincronizzazione. Solo lettura Object. |
 
@@ -27,8 +27,8 @@ public sealed class SectionSlideCollection : DomObject<Section>, ISectionSlideCo
 
 | Nome | Descrizione |
 | --- | --- |
-| [CopyTo](../../aspose.slides/sectionslidecollection/copyto)(Array, int) | Copia l'intera raccolta nell'array specificato. |
-| [GetEnumerator](../../aspose.slides/sectionslidecollection/getenumerator)() | Restituisce un enumeratore che itera attraverso la raccolta. |
+| [CopyTo](../../aspose.slides/sectionslidecollection/copyto)(Array, int) | Copia l'intera collezione nell'array specificato. |
+| [GetEnumerator](../../aspose.slides/sectionslidecollection/getenumerator)() | Restituisce un enumeratore che itera attraverso la collezione. |
 
 ### Vedi anche
 

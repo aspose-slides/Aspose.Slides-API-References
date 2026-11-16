@@ -1,14 +1,14 @@
 ---
 title: YValue
-second_title: Aspose.Sildes .NET API referencia
-description: Visszaadja a diagram adatpont y értékét. Csak-olvasású IDoubleChartValueaspose.slides.charts/idoublechartvalue.
+second_title: Aspose.Sildes .NET API-referencia
+description: Lekéri egy diagram adatpont y értékét. Csak olvasható IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
-weight: 180
+weight: 220
 url: /hu/aspose.slides.charts/ichartdatapoint/yvalue/
 ---
 ## IChartDataPoint.YValue tulajdonság
 
-Visszaadja a diagram adatpont y értékét. Csak-olvasású [`IDoubleChartValue`](../../idoublechartvalue).
+Lekéri egy diagram adatpont y értékét. Csak olvasható [`IDoubleChartValue`](../../idoublechartvalue).
 
 ```csharp
 public IDoubleChartValue YValue { get; }

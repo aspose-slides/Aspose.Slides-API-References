@@ -1,14 +1,14 @@
 ---
 title: IGeometryShape
-second_title: Aspose.Sildes für .NET API Referenz
-description: Stellt die übergeordnete Klasse für alle geometrischen Formen dar.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Stellt die Basisklasse für alle geometrischen Formen dar.
 type: docs
-weight: 5980
+weight: 6000
 url: /de/aspose.slides/igeometryshape/
 ---
 ## IGeometryShape Schnittstelle
 
-Stellt die übergeordnete Klasse für alle geometrischen Formen dar.
+Stellt die Basisklasse für alle geometrischen Formen dar.
 
 ```csharp
 public interface IGeometryShape : IShape
@@ -18,10 +18,10 @@ public interface IGeometryShape : IShape
 
 | Name | Beschreibung |
 | --- | --- |
-| [Adjustments](../../aspose.slides/igeometryshape/adjustments) { get; } | Gibt eine Sammlung von Anpassungswerten der Form zurück. Nur lesbar [`IAdjustValueCollection`](../iadjustvaluecollection). |
-| [AsIShape](../../aspose.slides/igeometryshape/asishape) { get; } | Ermöglicht das Abrufen der Basis-IShape Schnittstelle. Nur lesbar [`IShape`](../ishape). |
-| [ShapeStyle](../../aspose.slides/igeometryshape/shapestyle) { get; } | Gibt das Stilobjekt der Form zurück. Nur lesbar [`IShapeStyle`](../ishapestyle). |
-| [ShapeType](../../aspose.slides/igeometryshape/shapetype) { get; set; } | Gibt den voreingestellten Geometrie-Typ zurück oder setzt ihn. Hinweis: Beim Ändern des Werts werden alle Anpassungswerte auf ihre Standardwerte zurückgesetzt. Lesen/Schreiben [`ShapeType`](../shapetype). |
+| [Adjustments](../../aspose.slides/igeometryshape/adjustments) { get; } | Gibt eine Sammlung von Anpassungswerten der Form zurück. Nur-Lesen [`IAdjustValueCollection`](../iadjustvaluecollection). |
+| [AsIShape](../../aspose.slides/igeometryshape/asishape) { get; } | Ermöglicht das Abrufen der Basis-IShape-Schnittstelle. Nur-Lesen [`IShape`](../ishape). |
+| [ShapeStyle](../../aspose.slides/igeometryshape/shapestyle) { get; } | Gibt das Stilobjekt der Form zurück. Nur-Lesen [`IShapeStyle`](../ishapestyle). |
+| [ShapeType](../../aspose.slides/igeometryshape/shapetype) { get; set; } | Gibt den voreingestellten Geometrietyp zurück oder legt ihn fest. Hinweis: Bei Änderung des Werts werden alle Anpassungswerte auf ihre Standardwerte zurückgesetzt. Lesen/Schreiben [`ShapeType`](../shapetype). |
 
 ## Methoden
 
@@ -29,8 +29,8 @@ public interface IGeometryShape : IShape
 | --- | --- |
 | [CreateShapeElements](../../aspose.slides/igeometryshape/createshapeelements)() | Erstellt und gibt ein Array von Form-Elementen zurück. |
 | [GetGeometryPaths](../../aspose.slides/igeometryshape/getgeometrypaths)() | Gibt eine Kopie des Pfads der geometrischen Form zurück. Koordinaten sind relativ zur linken oberen Ecke der Form. |
-| [SetGeometryPath](../../aspose.slides/igeometryshape/setgeometrypath)(IGeometryPath) | Aktualisiert die Geometrie der Form anhand des [`IGeometryPath`](../igeometrypath) Objekts. Koordinaten müssen relativ zur linken oberen Ecke der Form sein. Ändert den Typ der Form ([`ShapeType`](./shapetype)) zu Custom. |
-| [SetGeometryPaths](../../aspose.slides/igeometryshape/setgeometrypaths)(IGeometryPath[]) | Aktualisiert die Geometrie der Form anhand eines Arrays von [`IGeometryPath`](../igeometrypath). Koordinaten müssen relativ zur linken oberen Ecke der Form sein. Ändert den Typ der Form ([`ShapeType`](./shapetype)) zu Custom. |
+| [SetGeometryPath](../../aspose.slides/igeometryshape/setgeometrypath)(IGeometryPath) | Aktualisiert die Geometrie der Form aus dem [`IGeometryPath`](../igeometrypath)-Objekt. Koordinaten müssen relativ zur linken oberen Ecke der Form sein. Ändert den Typ der Form ([`ShapeType`](./shapetype)) zu Custom. |
+| [SetGeometryPaths](../../aspose.slides/igeometryshape/setgeometrypaths)(IGeometryPath[]) | Aktualisiert die Geometrie der Form aus einem Array von [`IGeometryPath`](../igeometrypath). Koordinaten müssen relativ zur linken oberen Ecke der Form sein. Ändert den Typ der Form ([`ShapeType`](./shapetype)) zu Custom. |
 
 ### Siehe auch
 

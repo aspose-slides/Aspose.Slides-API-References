@@ -1,14 +1,14 @@
 ---
 title: AlphaReplace
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đại diện cho hiệu ứng Alpha Replace. Các giá trị alpha (độ trong suốt) của hiệu ứng được thay thế bằng một giá trị alpha cố định.
+description: Biểu diễn hiệu ứng Alpha Replace. Giá trị alpha (độ trong suốt) của hiệu ứng được thay thế bằng một giá trị alpha cố định.
 type: docs
-weight: 2900
+weight: 2920
 url: /vi/aspose.slides.effects/alphareplace/
 ---
 ## AlphaReplace lớp
 
-Đại diện cho hiệu ứng Alpha Replace. Các giá trị alpha (độ trong suốt) được thay thế bằng một giá trị alpha cố định.
+Biểu diễn hiệu ứng Alpha Replace. Giá trị alpha (độ trong suốt) của hiệu ứng được thay thế bằng một giá trị alpha cố định.
 
 ```csharp
 public sealed class AlphaReplace : ImageTransformOperation, IAlphaReplace
@@ -25,8 +25,8 @@ public sealed class AlphaReplace : ImageTransformOperation, IAlphaReplace
 | Tên | Mô tả |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/alphareplace/equals)(object) | Xác định xem [`AlphaReplace`](../alphareplace) được chỉ định có bằng với [`AlphaReplace`](../alphareplace) hiện tại hay không. |
-| [GetEffective](../../aspose.slides.effects/alphareplace/geteffective)() | Lấy dữ liệu hiệu ứng Alpha Replace thực tế với kế thừa được áp dụng. |
-| override [GetHashCode](../../aspose.slides.effects/alphareplace/gethashcode)() | Đóng vai trò như một hàm băm cho một kiểu cụ thể. |
+| [GetEffective](../../aspose.slides.effects/alphareplace/geteffective)() | Lấy dữ liệu hiệu ứng Alpha Replace hiệu lực với kế thừa được áp dụng. |
+| override [GetHashCode](../../aspose.slides.effects/alphareplace/gethashcode)() | Đóng vai trò như hàm băm cho một kiểu cụ thể. |
 
 ### Xem thêm
 

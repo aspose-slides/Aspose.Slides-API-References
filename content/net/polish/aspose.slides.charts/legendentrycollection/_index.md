@@ -1,9 +1,9 @@
 ---
 title: LegendEntryCollection
-second_title: Aspose.Sildes dla .NET API Reference
+second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Reprezentuje kolekcję legend.
 type: docs
-weight: 2300
+weight: 2320
 url: /pl/aspose.slides.charts/legendentrycollection/
 ---
 ## LegendEntryCollection klasa
@@ -19,7 +19,7 @@ public class LegendEntryCollection : ILegendEntryCollection
 | Nazwa | Opis |
 | --- | --- |
 | [Count](../../aspose.slides.charts/legendentrycollection/count) { get; } | Zwraca liczbę elementów legendy. Tylko do odczytu Int32. |
-| [Item](../../aspose.slides.charts/legendentrycollection/item) { get; } | Zwraca właściwości elementu legendy odpowiadającego Chart.ChartData.Series[0].DataPoints[index] w przypadku typu wykresu z tej listy: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie; lub odpowiadającego Chart.ChartData.Series[index] dla innych typów wykresów. |
+| [Item](../../aspose.slides.charts/legendentrycollection/item) { get; } | Pobiera właściwości elementu legendy odpowiadającego Chart.ChartData.Series[0].DataPoints[index] w przypadku typu wykresu z tej listy: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie; lub odpowiadającego Chart.ChartData.Series[index] dla innych typów wykresów. |
 
 ### Zobacz także
 

@@ -1,14 +1,14 @@
 ---
 title: IKnownIssueWarningInfo
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Egy ismert problémára vonatkozó figyelmeztetést reprezentál, amely a közeljövőben nem lesz javítva.
+second_title: Aspose.Sildes a .NET API Referenciához
+description: Olyan figyelmeztetést képvisel, amely ismert problémára vonatkozik, és a közeljövőben nem kerül javításra.
 type: docs
-weight: 11760
+weight: 11780
 url: /hu/aspose.slides.warnings/iknownissuewarninginfo/
 ---
 ## IKnownIssueWarningInfo interfész
 
-Egy ismert problémára vonatkozó figyelmeztetést képvisel, amely a közeljövőben nem lesz javítva.
+Olyan figyelmeztetést képvisel, amely ismert problémára vonatkozik, és a közeljövőben nem kerül javításra.
 
 ```csharp
 public interface IKnownIssueWarningInfo : IWarningInfo
@@ -18,7 +18,7 @@ public interface IKnownIssueWarningInfo : IWarningInfo
 
 | Név | Leírás |
 | --- | --- |
-| [AsIWarningInfo](../../aspose.slides.warnings/iknownissuewarninginfo/asiwarninginfo) { get; } | Visszaadja az IWarningInfo interfészt. Csak olvasható [`IWarningInfo`](../iwarninginfo). |
+| [AsIWarningInfo](../../aspose.slides.warnings/iknownissuewarninginfo/asiwarninginfo) { get; } | Visszaadja IWarningInfo interfész. Csak olvasható [`IWarningInfo`](../iwarninginfo). |
 
 ### Lásd még
 

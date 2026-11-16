@@ -1,14 +1,14 @@
 ---
 title: LayoutTargetType
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Als de lay-out van het plotgebied handmatig wordt gedefinieerd, geeft deze eigenschap aan of het plotgebied moet worden ingedeeld op basis van de binnenkant, exclusief assen en aslabels, of de buitenkant, inclusief assen en aslabels.
+description: Als de lay-out van het plotgebied handmatig is gedefinieerd, specificeert deze eigenschap of het plotgebied moet worden gelayout door de binnenkant (exclusief assen en aslabels) of de buitenkant (inclusief assen en aslabels).
 type: docs
-weight: 2270
+weight: 2290
 url: /nl/aspose.slides.charts/layouttargettype/
 ---
-## enumeratie LayoutTargetType
+## LayoutTargetType enumeratie
 
-Als de lay-out van het plotgebied handmatig is gedefinieerd, geeft deze eigenschap aan of het plotgebied moet worden ingedeeld op basis van de binnenkant (exclusief assen en aslabels) of de buitenkant (inclusief assen en aslabels).
+Als de lay-out van het plotgebied handmatig is gedefinieerd, geeft deze eigenschap aan of het plotgebied moet worden gelayout door de binnenkant (exclusief assen en aslabels) of de buitenkant (inclusief assen en aslabels).
 
 ```csharp
 public enum LayoutTargetType
@@ -16,10 +16,10 @@ public enum LayoutTargetType
 
 ### Waarden
 
-| Naam | Waarde | Beschrijving |
+| Name | Value | Description |
 | --- | --- | --- |
-| Inner | `0` | Geeft aan dat de afmeting van het plotgebied wordt bepaald door de afmeting van het plotgebied, exclusief de tickmarks en aslabels. |
-| Outer | `1` | Geeft aan dat de afmeting van het plotgebied wordt bepaald door de afmeting van het plotgebied, de tickmarks en de aslabels. |
+| Inner | `0` | Geeft aan dat de grootte van het plotgebied de grootte van het plotgebied bepaalt, exclusief de tick marks en aslabels. |
+| Outer | `1` | Geeft aan dat de grootte van het plotgebied de grootte van het plotgebied bepaalt, inclusief de tick marks en de aslabels. |
 
 ### Zie ook
 

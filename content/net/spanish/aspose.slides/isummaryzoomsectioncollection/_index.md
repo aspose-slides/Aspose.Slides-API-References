@@ -3,10 +3,10 @@ title: ISummaryZoomSectionCollection
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa una colección de objetos Summary Zoom Section.
 type: docs
-weight: 7170
+weight: 7190
 url: /es/aspose.slides/isummaryzoomsectioncollection/
 ---
-## ISummaryZoomSectionCollection interfaz
+## Interfaz ISummaryZoomSectionCollection
 
 Representa una colección de objetos Summary Zoom Section.
 
@@ -18,7 +18,7 @@ public interface ISummaryZoomSectionCollection : IGenericCollection<ISummaryZoom
 
 | Nombre | Descripción |
 | --- | --- |
-| [Item](../../aspose.slides/isummaryzoomsectioncollection/item) { get; } | Obtiene el elemento en el índice especificado. Sólo lectura [`ISummaryZoomSection`](../isummaryzoomsection). |
+| [Item](../../aspose.slides/isummaryzoomsectioncollection/item) { get; } | Obtiene el elemento en el índice especificado. Solo lectura [`ISummaryZoomSection`](../isummaryzoomsection). |
 
 ## Métodos
 
@@ -27,7 +27,7 @@ public interface ISummaryZoomSectionCollection : IGenericCollection<ISummaryZoom
 | [AddSummaryZoomSection](../../aspose.slides/isummaryzoomsectioncollection/addsummaryzoomsection)(ISection) | Crea un nuevo objeto Summary Zoom Section y lo agrega a la colección |
 | [Clear](../../aspose.slides/isummaryzoomsectioncollection/clear)() | Elimina todos los objetos SummaryZoomSection de la colección. |
 | [GetSummarySection](../../aspose.slides/isummaryzoomsectioncollection/getsummarysection)(ISection) | Devuelve el elemento Summary Zoom Section para la sección dada. |
-| [IndexOf](../../aspose.slides/isummaryzoomsectioncollection/indexof)(ISummaryZoomSection) | Devuelve un índice del objeto SummaryZoomSection especificado. |
+| [IndexOf](../../aspose.slides/isummaryzoomsectioncollection/indexof)(ISummaryZoomSection) | Devuelve el índice del objeto SummaryZoomSection especificado. |
 | [RemoveSummaryZoomSection](../../aspose.slides/isummaryzoomsectioncollection/removesummaryzoomsection)(ISection) | Elimina el objeto Summary Zoom Section de la colección. |
 
 ### Ver también

@@ -1,14 +1,14 @@
 ---
 title: ITemplateEngine
-second_title: Referência da API Aspose.Sildes para .NET
-description: Representa um mecanismo de modelo que transforma o par de modelo e dados em saída resultante geralmente HTML.
+second_title: Aspose.Sildes para .NET - Referência da API
+description: Representa um motor de template que transforma o par de template e dados na saída resultante, geralmente HTML.
 type: docs
-weight: 4620
+weight: 4640
 url: /pt/aspose.slides.export.web/itemplateengine/
 ---
 ## ITemplateEngine interface
 
-Representa um mecanismo de modelo que transforma o par de modelo e dados em saída resultante (geralmente HTML).
+Representa um motor de templates que transforma o par template e dados em saída resultante (geralmente HTML).
 
 ```csharp
 public interface ITemplateEngine
@@ -21,7 +21,7 @@ public interface ITemplateEngine
 | [AddTemplate](../../aspose.slides.export.web/itemplateengine/addtemplate)(string, string, Type) | Adiciona o modelo à coleção de modelos. |
 | [Compile](../../aspose.slides.export.web/itemplateengine/compile)(string, object) | Transforma o modelo com a chave fornecida e o objeto de modelo para a saída. |
 
-### Veja Também
+### Ver Também
 
 * namespace [Aspose.Slides.Export.Web](../../aspose.slides.export.web)
 * assembly [Aspose.Slides](../../)

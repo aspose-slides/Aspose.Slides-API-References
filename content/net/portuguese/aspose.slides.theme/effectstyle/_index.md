@@ -1,10 +1,10 @@
 ---
 title: EffectStyle
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para Referência de API .NET
 description: Representa um estilo de efeito.
 type: docs
-weight: 11080
-url: /pt/aspose.slides.theme/effectstyle/
+weight: 11100
+url: /pt/aspose.slides/theme/effectstyle/
 ---
 ## EffectStyle classe
 
@@ -19,9 +19,9 @@ public class EffectStyle : DomObject<EffectStyleCollection>, IEffectStyle
 | Nome | Descrição |
 | --- | --- |
 | [EffectFormat](../../aspose.slides.theme/effectstyle/effectformat) { get; } | Retorna um formato de efeito. Somente leitura [`IEffectFormat`](../../aspose.slides/ieffectformat). |
-| [ThreeDFormat](../../aspose.slides.theme/effectstyle/threedformat) { get; } | Retorna um formato 3D. Somente leitura [`IThreeDFormat`](../../aspose.slides/ithreedformat). |
+| [ThreeDFormat](../../aspose.slides.theme/effectstyle/threedformat) { get; } | Retorna um formato 3d. Somente leitura [`IThreeDFormat`](../../aspose.slides/ithreedformat). |
 
-### Ver também
+### Veja Também
 
 * classe [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * classe [EffectStyleCollection](../effectstylecollection)

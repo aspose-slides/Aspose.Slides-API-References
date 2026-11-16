@@ -1,9 +1,9 @@
 ---
 title: IOverrideThemeManager
-second_title: Aspose.Sildes dla .NET – Dokumentacja API
+second_title: Aspose.Sildes dla .NET Referencja API
 description: Umożliwia dostęp do różnych typów nadpisanych motywów.
 type: docs
-weight: 11350
+weight: 11370
 url: /pl/aspose.slides.theme/ioverridethememanager/
 ---
 ## IOverrideThemeManager interfejs
@@ -16,11 +16,11 @@ public interface IOverrideThemeManager : IThemeManager
 
 ## Właściwości
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
-| [AsIThemeManager](../../aspose.slides.theme/ioverridethememanager/asithememanager) { get; } | Umożliwia pobranie podstawowego interfejsu IThemeManager. Tylko do odczytu [`IThemeManager`](../ithememanager). |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/ioverridethememanager/isoverridethemeenabled) { get; } | Określa, czy OverrideTheme nadpisuje odziedziczony efektywny motyw, czy nie. Aby włączyć nadpisywanie przez OverrideTheme, użyj metod OverrideTheme.Init*(). Aby wyłączyć nadpisywanie przez OverrideTheme, użyj metody OverrideTheme.Clear(). Tylko do odczytu Boolean. |
-| [OverrideTheme](../../aspose.slides.theme/ioverridethememanager/overridetheme) { get; set; } | Zwraca obiekt nadpisującego motywu. Odczyt/zapis [`IOverrideTheme`](../ioverridetheme). |
+| [AsIThemeManager](../../aspose.slides.theme/ioverridethememanager/asithememanager) { get; } | Umożliwia pobranie podstawowego interfejsu IThemeManager. tylko do odczytu [`IThemeManager`](../ithememanager). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/ioverridethememanager/isoverridethemeenabled) { get; } | Określa, czy OverrideTheme nadpisuje odziedziczony skuteczny motyw. Aby włączyć nadpisywanie OverrideTheme, użyj metod OverrideTheme.Init*(). Aby wyłączyć nadpisywanie OverrideTheme, użyj metody OverrideTheme.Clear(). tylko do odczytu Boolean. |
+| [OverrideTheme](../../aspose.slides.theme/ioverridethememanager/overridetheme) { get; set; } | Zwraca obiekt nadpisującego motywu. odczyt/zapis [`IOverrideTheme`](../ioverridetheme). |
 
 ### Zobacz także
 

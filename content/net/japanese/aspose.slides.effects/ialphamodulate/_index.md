@@ -1,14 +1,14 @@
 ---
 title: IAlphaModulate
 second_title: Aspose.Sildes for .NET API リファレンス
-description: Alpha Modulate エフェクトを表します。エフェクトのアルファ（不透明度）値は固定パーセンテージで乗算されます。エフェクト コンテナは、アルファ値を変調するエフェクトを指定します。
+description: Alpha Modulate エフェクトを表します。エフェクトのアルファ不透明度値は固定のパーセンテージで乗算されます。エフェクト コンテナは、変調するアルファ値を含むエフェクトを指定します。
 type: docs
-weight: 3100
+weight: 3120
 url: /ja/aspose.slides.effects/ialphamodulate/
 ---
 ## IAlphaModulate インターフェイス
 
-Alpha Modulate エフェクトを表します。エフェクトのアルファ (不透明度) 値は固定パーセンテージで乗算されます。エフェクト コンテナは、アルファ値を変調するエフェクトを指定します。
+Alpha Modulate エフェクトを表します。エフェクトのアルファ (不透明度) 値は固定割合で乗算されます。エフェクト コンテナは、アルファ値を変調するエフェクトを指定します。
 
 ```csharp
 public interface IAlphaModulate : IAccessiblePVIObject<IAlphaModulateEffectiveData>, 
@@ -19,8 +19,8 @@ public interface IAlphaModulate : IAccessiblePVIObject<IAlphaModulateEffectiveDa
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphamodulate/asiaccessiblepviobject) { get; } | ベース IAccessiblePVIObject インターフェイスを取得できます。読み取り専用 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphamodulate/asiimagetransformoperation) { get; } | ベース IImageTransformOperation インターフェイスを取得できます。読み取り専用 [`IImageTransformOperation`](../iimagetransformoperation)。 |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphamodulate/asiaccessiblepviobject) { get; } | ベースの IAccessiblePVIObject インターフェイスを取得できます。読み取り専用 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphamodulate/asiimagetransformoperation) { get; } | ベースの IImageTransformOperation インターフェイスを取得できます。読み取り専用 [`IImageTransformOperation`](../iimagetransformoperation)。 |
 
 ### 参照
 

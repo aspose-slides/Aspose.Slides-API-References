@@ -1,14 +1,14 @@
 ---
 title: ISectionCollection
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: सेक्शनों का संग्रह दर्शाता है।
+description: सेक्शन के एक संग्रह का प्रतिनिधित्व करता है।
 type: docs
-weight: 6900
+weight: 6920
 url: /hi/aspose.slides/isectioncollection/
 ---
 ## ISectionCollection इंटरफ़ेस
 
-सेक्शनों का संग्रह प्रतिनिधित्व करता है।
+सेक्शन का एक संग्रह प्रस्तुत करता है।
 
 ```csharp
 public interface ISectionCollection : IGenericCollection<ISection>
@@ -18,22 +18,22 @@ public interface ISectionCollection : IGenericCollection<ISection>
 
 | नाम | विवरण |
 | --- | --- |
-| [Item](../../aspose.slides/isectioncollection/item) { get; } | निर्दिष्ट अनुक्रमणिका पर तत्व प्राप्त करता है। केवल-पढ़ने योग्य [`ISection`](../isection). |
+| [Item](../../aspose.slides/isectioncollection/item) { get; } | निर्दिष्ट अनुक्रमांक पर तत्व प्राप्त करता है। केवल पढ़ने योग्य [`ISection`](../isection)। |
 
-## विधियां
+## मेथड्स
 
 | नाम | विवरण |
 | --- | --- |
-| [AddEmptySection](../../aspose.slides/isectioncollection/addemptysection)(string, int) | संग्रह के निर्दिष्ट स्थिति में खाली सेक्शन जोड़ें। |
-| [AddSection](../../aspose.slides/isectioncollection/addsection)(string, ISlide) | विशिष्ट स्लाइड से शुरू होने वाला नया सेक्शन जोड़ें। |
-| [AppendEmptySection](../../aspose.slides/isectioncollection/appendemptysection)(string) | संग्रह के अंत में खाली सेक्शन जोड़ें। |
-| [Clear](../../aspose.slides/isectioncollection/clear)() | संग्रह से सभी सेक्शन हटाता है। |
-| [IndexOf](../../aspose.slides/isectioncollection/indexof)(ISection) | संग्रह में निर्दिष्ट सेक्शन का अनुक्रमणिका लौटाता है। |
+| [AddEmptySection](../../aspose.slides/isectioncollection/addemptysection)(string, int) | कलेक्शन में निर्दिष्ट स्थिति पर खाली सेक्शन जोड़ता है। |
+| [AddSection](../../aspose.slides/isectioncollection/addsection)(string, ISlide) | विशिष्ट स्लाइड से शुरू होने वाला नया सेक्शन जोड़ता है। |
+| [AppendEmptySection](../../aspose.slides/isectioncollection/appendemptysection)(string) | कलेक्शन के अंत में खाली सेक्शन जोड़ता है। |
+| [Clear](../../aspose.slides/isectioncollection/clear)() | कलेक्शन से सभी सेक्शन हटाता है। |
+| [IndexOf](../../aspose.slides/isectioncollection/indexof)(ISection) | कलेक्शन में निर्दिष्ट सेक्शन का अनुक्रमांक लौटाता है। |
 | [RemoveSection](../../aspose.slides/isectioncollection/removesection)(ISection) | सेक्शन हटाता है। सेक्शन में शामिल स्लाइड्स को पिछले सेक्शन में मिलाया जाएगा। |
-| [RemoveSectionWithSlides](../../aspose.slides/isectioncollection/removesectionwithslides)(ISection) | सेक्शन और उसमें शामिल स्लाइड्स को हटाता है। |
-| [ReorderSectionWithSlides](../../aspose.slides/isectioncollection/reordersectionwithslides)(ISection, int) | सेक्शन और उसकी स्लाइड्स को संग्रह से हटाकर निर्दिष्ट स्थिति में ले जाता है। |
+| [RemoveSectionWithSlides](../../aspose.slides/isectioncollection/removesectionwithslides)(ISection) | सेक्शन और उसके भीतर की स्लाइड्स को हटाता है। |
+| [ReorderSectionWithSlides](../../aspose.slides/isectioncollection/reordersectionwithslides)(ISection, int) | सेक्शन और उसकी स्लाइड्स को कलेक्शन से निर्दिष्ट स्थान पर ले जाता है। |
 
-### और देखें
+### देखें भी
 
 * इंटरफ़ेस [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * इंटरफ़ेस [ISection](../isection)

@@ -1,14 +1,14 @@
 ---
 title: SketchFormat
 second_title: Aspose.Sildes para .NET Referência da API
-description: Representa propriedades para o formato de esboço de linhas.
+description: Representa propriedades do formato de esboço de linhas.
 type: docs
-weight: 9950
+weight: 9970
 url: /pt/aspose.slides/sketchformat/
 ---
 ## SketchFormat classe
 
-Representa propriedades para formato de esboço de linhas.
+Representa propriedades do formato de esboço de linhas.
 
 ```csharp
 public sealed class SketchFormat : PVIObject, ISketchFormat
@@ -28,7 +28,7 @@ public sealed class SketchFormat : PVIObject, ISketchFormat
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Compara com o objeto especificado. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Retorna o código hash. |
 
-### Veja também
+### Veja Também
 
 * classe [PVIObject](../pviobject)
 * interface [ISketchFormat](../isketchformat)

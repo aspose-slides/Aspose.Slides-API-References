@@ -1,9 +1,9 @@
 ---
 title: IGradientStopCollectionEffectiveData
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงคอลเลกชันของอ็อบเจ็กต์ GradientStopDataEx
+second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
+description: แสดงถึงคอลเลกชันของอ็อบเจ็กต์ GradientStopDataEx.
 type: docs
-weight: 6040
+weight: 6060
 url: /th/aspose.slides/igradientstopcollectioneffectivedata/
 ---
 ## IGradientStopCollectionEffectiveData อินเทอร์เฟซ
@@ -19,7 +19,7 @@ public interface IGradientStopCollectionEffectiveData :
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Item](../../aspose.slides/igradientstopcollectioneffectivedata/item) { get; } | ส่งคืน gradient stop ตามดัชนี |
+| [Item](../../aspose.slides/igradientstopcollectioneffectivedata/item) { get; } | ส่งคืนจุดไล่ระดับสีตามดัชนี |
 
 ### ดูเพิ่มเติม
 

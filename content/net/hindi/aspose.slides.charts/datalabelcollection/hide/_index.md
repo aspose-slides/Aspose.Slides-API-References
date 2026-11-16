@@ -1,26 +1,26 @@
 ---
 title: Hide
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: डिफ़ॉल्ट रूप से डेटा लेबल को छिपा बनाने के लिए DefaultDataLabelFormat प्रॉपर्टी के सभी Show-flags ShowValue ... को false स्थिति में सेट करें। इसके बाद IsVisible false होगा।
+second_title: Aspose.Sildes .NET के लिए API संदर्भ
+description: डेटा लेबल को डिफ़ॉल्ट रूप से छिपा हुआ बनाने के लिए DefaultDataLabelFormat प्रॉपर्टी के सभी Show-flags ShowValue ... को false स्थिति में सेट करें। IsVisible इस के बाद false होगा।
 type: docs
-weight: 100
+weight: 110
 url: /hi/aspose.slides.charts/datalabelcollection/hide/
 ---
 ## DataLabelCollection.Hide विधि
 
-डेटा लेबल को डिफ़ॉल्ट रूप से छिपा बनाने के लिये DefaultDataLabelFormat प्रॉपर्टी के सभी Show*-flags (ShowValue, ...) को false स्थिति में सेट करें। इसके बाद IsVisible false होगा।
+डेटा लेबल को डिफ़ॉल्ट रूप से छिपा हुआ बनाने के लिए DefaultDataLabelFormat प्रॉपर्टी के सभी Show*-flags (ShowValue, ...) को false स्थिति में सेट करें। IsVisible इस के बाद false होगा।
 
 ```csharp
 public void Hide()
 ```
 
-### टिप्‍पणियाँ
+### टिप्पणियाँ
 
-यदि डेटा लेबल डिफ़ॉल्ट रूप से दृश्यमान नहीं है (IsVisible false है) तो आप Show*-flags (ShowValue, ...) को true स्थिति में सेट करके डेटा लेबल को "डिफ़ॉल्ट रूप से दृश्यमान" बना सकते हैं।
+यदि डेटा लेबल डिफ़ॉल्ट रूप से दृश्यमान नहीं है (IsVisible false है) तो आप Show*-flags (ShowValue, ...) को true स्थिति में सेट करके डेटा लेबल को “डिफ़ॉल्ट रूप से दृश्यमान” बना सकते हैं।
 
-### देखें
+### संबंधित देखें
 
-* वर्ग [DataLabelCollection](../../datalabelcollection)
+* क्लास [DataLabelCollection](../../datalabelcollection)
 * नामस्थान [Aspose.Slides.Charts](../../datalabelcollection)
 * असेंबली [Aspose.Slides](../../../)
 

@@ -1,43 +1,43 @@
 ---
 title: PresetShadowType
-second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Biểu diễn một thiết lập sẵn cho hiệu ứng bóng.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Biểu thị một thiết lập trước cho hiệu ứng bóng.
 type: docs
-weight: 9670
+weight: 9690
 url: /vi/aspose.slides/presetshadowtype/
 ---
-## Liệt kê PresetShadowType
+## Kiểu enum PresetShadowType
 
-Biểu diễn một thiết lập sẵn cho hiệu ứng bóng.
+Biểu thị một thiết lập trước cho hiệu ứng bóng.
 
 ```csharp
 public enum PresetShadowType
 ```
 
-### Giá trị
+### Values
 
 | Tên | Giá trị | Mô tả |
 | --- | --- | --- |
-| TopLeftDropShadow | `0` | Biểu diễn Top Left Drop Shadow. |
-| TopLeftLargeDropShadow | `1` | Biểu diễn Top Left Large Drop Shadow. |
-| BackLeftLongPerspectiveShadow | `2` | Biểu diễn Back Left Long Perspective Shadow. |
-| BackRightLongPerspectiveShadow | `3` | Biểu diễn Back Right Long Perspective Shadow. |
-| TopLeftDoubleDropShadow | `4` | Biểu diễn Top Left Double Drop Shadow. |
-| BottomRightSmallDropShadow | `5` | Biểu diễn Bottom Right Small Drop Shadow. |
-| FrontLeftLongPerspectiveShadow | `6` | Biểu diễn Front Left Long Perspective Shadow. |
-| FrontRightLongPerspectiveShadow | `7` | Biểu diễn Front Right Long Perspective Shadow. |
-| OuterBoxShadow3D | `8` | Biểu diễn Outer Box Shadow 3D. |
-| InnerBoxShadow3D | `9` | Biểu diễn Inner Box Shadow 3D. |
-| BackCenterPerspectiveShadow | `10` | Biểu diễn Back Center Perspective Shadow. |
-| TopRightDropShadow | `11` | Biểu diễn Top Right Drop Shadow. |
-| FrontBottomShadow | `12` | Biểu diễn Front Bottom Shadow. |
-| BackLeftPerspectiveShadow | `13` | Biểu diễn Back Left Perspective Shadow. |
-| BackRightPerspectiveShadow | `14` | Biểu diễn Back Right Perspective Shadow. |
-| BottomLeftDropShadow | `15` | Biểu diễn Bottom Left Drop Shadow. |
-| BottomRightDropShadow | `16` | Biểu diễn Bottom Right Drop Shadow. |
-| FrontLeftPerspectiveShadow | `17` | Biểu diễn Front Left Perspective Shadow. |
-| FrontRightPerspectiveShadow | `18` | Biểu diễn Front Right Perspective Shadow. |
-| TopLeftSmallDropShadow | `19` | Biểu diễn Top Left Small Drop Shadow. |
+| TopLeftDropShadow | `0` | Biểu thị Top Left Drop Shadow. |
+| TopLeftLargeDropShadow | `1` | Biểu thị Top Left Large Drop Shadow. |
+| BackLeftLongPerspectiveShadow | `2` | Biểu thị Back Left Long Perspective Shadow |
+| BackRightLongPerspectiveShadow | `3` | Biểu thị Back Right Long Perspective Shadow |
+| TopLeftDoubleDropShadow | `4` | Biểu thị Top Left Double Drop Shadow. |
+| BottomRightSmallDropShadow | `5` | Biểu thị Bottom Right Small Drop Shadow. |
+| FrontLeftLongPerspectiveShadow | `6` | Biểu thị Front Left Long Perspective Shadow. |
+| FrontRightLongPerspectiveShadow | `7` | Biểu thị Front Right Long Perspective Shadow. |
+| OuterBoxShadow3D | `8` | Biểu thị Outer Box Shadow 3D. |
+| InnerBoxShadow3D | `9` | Biểu thị Inner Box Shadow 3D. |
+| BackCenterPerspectiveShadow | `10` | Biểu thị Back Center Perspective Shadow. |
+| TopRightDropShadow | `11` | Biểu thị Top Right Drop Shadow. |
+| FrontBottomShadow | `12` | Biểu thị Front Bottom Shadow. |
+| BackLeftPerspectiveShadow | `13` | Biểu thị Back Left Perspective Shadow. |
+| BackRightPerspectiveShadow | `14` | Biểu thị Back Right Perspective Shadow. |
+| BottomLeftDropShadow | `15` | Biểu thị Bottom Left Drop Shadow. |
+| BottomRightDropShadow | `16` | Biểu thị Bottom Right Drop Shadow. |
+| FrontLeftPerspectiveShadow | `17` | Biểu thị Front Left Perspective Shadow. |
+| FrontRightPerspectiveShadow | `18` | Biểu thị Front Right Perspective Shadow. |
+| TopLeftSmallDropShadow | `19` | Biểu thị Top Left Small Drop Shadow. |
 
 ### Xem thêm
 

@@ -1,12 +1,12 @@
 ---
 title: ILicense
-second_title: Tham chiếu API Aspose.Sildes cho .NET
+second_title: Tham khảo API Aspose.Sildes cho .NET
 description: Cung cấp các phương thức để cấp phép cho thành phần.
 type: docs
-weight: 6260
+weight: 6280
 url: /vi/aspose.slides/ilicense/
 ---
-## ILicense giao diện
+## Giao diện ILicense
 
 Cung cấp các phương thức để cấp phép cho thành phần.
 
@@ -25,7 +25,7 @@ public interface ILicense
 
 ### Ví dụ
 
-Trong ví dụ này, sẽ cố gắng tìm tệp giấy phép có tên MyLicense.lic trong thư mục chứa thành phần, trong thư mục chứa assembly gọi, trong thư mục của entry assembly và sau đó trong các tài nguyên nhúng của assembly gọi.
+Trong ví dụ này, sẽ cố gắng tìm tệp giấy phép có tên MyLicense.lic trong thư mục chứa thành phần, trong thư mục chứa assembly gọi, trong thư mục của entry assembly và sau đó trong tài nguyên nhúng của assembly gọi.
 
 ```csharp
 [C#]

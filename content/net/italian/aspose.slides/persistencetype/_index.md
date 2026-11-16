@@ -1,14 +1,14 @@
 ---
 title: PersistenceType
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Specifica il metodo utilizzato per memorizzare le proprietà del controllo ActiveX.
+second_title: Aspose.Sildes per il riferimento API .NET
+description: Specifica il metodo utilizzato per archiviare le proprietà del controllo ActiveX.
 type: docs
-weight: 9370
+weight: 9390
 url: /it/aspose.slides/persistencetype/
 ---
-## Enumerazione PersistenceType
+## PersistenceType enumerazione
 
-Specifica il metodo utilizzato per memorizzare le proprietà del controllo ActiveX.
+Specifica il metodo usato per archiviare le proprietà del controllo ActiveX.
 
 ```csharp
 public enum PersistenceType
@@ -19,10 +19,10 @@ public enum PersistenceType
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
 | NotDefined | `-1` | ID di persistenza non specificato. |
-| PersistPropertyBag | `0` | Specifica che il controllo ActiveX viene conservato utilizzando la persistenza basata su property-bag. La persistenza basata su property-bag memorizza un controllo ActiveX mediante una raccolta di coppie nome-valore che specificano i dati persistiti dal controllo ActiveX. |
-| PersistStream | `1` | Specifica che il controllo ActiveX viene conservato utilizzando una persistenza basata su stream che non supporta l'inizializzazione del controllo ActiveX in uno stato predefinito. |
-| PersistStreamInit | `2` | Specifica che il controllo ActiveX viene conservato utilizzando una persistenza basata su stream che supporta l'inizializzazione del controllo ActiveX in uno stato predefinito. |
-| PersistStorage | `3` | Specifica che il controllo ActiveX viene conservato utilizzando una persistenza basata su storage. |
+| PersistPropertyBag | `0` | Specifica che il controllo ActiveX è conservato utilizzando la persistenza basata su property-bag. La persistenza basata su property-bag memorizza un controllo ActiveX mediante una raccolta di coppie nome e valore che specificano i dati conservati dal controllo ActiveX. |
+| PersistStream | `1` | Specifica che il controllo ActiveX è conservato utilizzando una persistenza basata su stream che non supporta l’inizializzazione del controllo ActiveX in uno stato predefinito. |
+| PersistStreamInit | `2` | Specifica che il controllo ActiveX è conservato utilizzando una persistenza basata su stream che supporta l’inizializzazione del controllo ActiveX in uno stato predefinito. |
+| PersistStorage | `3` | Specifica che il controllo ActiveX è conservato utilizzando una persistenza basata su storage. |
 
 ### Vedi anche
 

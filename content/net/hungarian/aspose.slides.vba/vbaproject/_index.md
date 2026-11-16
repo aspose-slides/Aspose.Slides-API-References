@@ -1,14 +1,14 @@
 ---
 title: VbaProject
-second_title: Aspose.Sildes .NET API Referencia
-description: VBA projektet képvisel, amely prezentációs makrókat tartalmaz.
+second_title: Aspose.Sildes a .NET API referenciához
+description: A VBA projektet reprezentálja prezentációs makrókkal.
 type: docs
-weight: 11650
+weight: 11670
 url: /hu/aspose.slides.vba/vbaproject/
 ---
 ## VbaProject osztály
 
-VBA projektet képvisel, amely prezentációs makrókat tartalmaz.
+Representálja a VBA projektet a prezentáció makróival.
 
 ```csharp
 public sealed class VbaProject : IVbaProject
@@ -16,25 +16,25 @@ public sealed class VbaProject : IVbaProject
 
 ## Konstruktorok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
-| [VbaProject](vbaproject#constructor)() | Ez a konstruktor új VBA projektet hoz létre a semmiből. A projekt 1252 Windows Latin 1 (ANSI) kódlapon lesz létrehozva |
-| [VbaProject](vbaproject#constructor_1)(byte[]) | Ez a konstruktor VBA projektet tölt be az OLE tároló bináris ábrázolásából. |
+| [VbaProject](vbaproject#constructor)() | Ez a konstruktor új VBA projektet hoz létre a semmiből. A projekt a 1252 Windows Latin 1 (ANSI) kódlapon lesz létrehozva |
+| [VbaProject](vbaproject#constructor_1)(byte[]) | Ez a konstruktor betölti a VBA projektet az OLE tároló bináris reprezentációjából. |
 
 ## Tulajdonságok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
 | [IsPasswordProtected](../../aspose.slides.vba/vbaproject/ispasswordprotected) { get; } | Jelzi, hogy a VBAProject jelszóval védett-e a projekt tulajdonságok megtekintéséhez. Csak olvasható Boolean. |
-| [Modules](../../aspose.slides.vba/vbaproject/modules) { get; } | Visszaadja a VBA projektben szereplő összes modul listáját. Csak olvasható [`IVbaModuleCollection`](../ivbamodulecollection). |
+| [Modules](../../aspose.slides.vba/vbaproject/modules) { get; } | Visszaadja az összes modult, amely a VBA projektben található. Csak olvasható [`IVbaModuleCollection`](../ivbamodulecollection). |
 | [Name](../../aspose.slides.vba/vbaproject/name) { get; } | Visszaadja a VBA projekt nevét. Csak olvasható String. |
-| [References](../../aspose.slides.vba/vbaproject/references) { get; } | Visszaadja a VBA projektben szereplő összes hivatkozás listáját. Csak olvasható [`IVbaReferenceCollection`](../ivbareferencecollection). |
+| [References](../../aspose.slides.vba/vbaproject/references) { get; } | Visszaadja az összes hivatkozást, amely a VBA projektben található. Csak olvasható [`IVbaReferenceCollection`](../ivbareferencecollection). |
 
 ## Metódusok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
-| [ToBinary](../../aspose.slides.vba/vbaproject/tobinary)() | Visszaadja a VBA projekt bináris ábrázolását OLE tárolóként |
+| [ToBinary](../../aspose.slides.vba/vbaproject/tobinary)() | Visszaadja a VBA projekt bináris reprezentációját OLE tárolóként |
 
 ### Lásd még
 

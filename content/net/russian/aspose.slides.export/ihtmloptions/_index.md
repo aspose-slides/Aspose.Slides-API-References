@@ -1,34 +1,31 @@
 ---
 title: IHtmlOptions
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Справочник API Aspose.Sildes для .NET
 description: Представляет параметры экспорта HTML.
 type: docs
-weight: 3970
+weight: 3990
 url: /ru/aspose.slides.export/ihtmloptions/
 ---
 ## IHtmlOptions интерфейс
-
 Представляет параметры экспорта HTML.
-
 ```csharp
 public interface IHtmlOptions : ISaveOptions
 ```
-
 ## Свойства
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
 | [AsISaveOptions](../../aspose.slides.export/ihtmloptions/asisaveoptions) { get; } | Возвращает интерфейс ISaveOptions. Только для чтения [`ISaveOptions`](../isaveoptions). |
-| [DeletePicturesCroppedAreas](../../aspose.slides.export/ihtmloptions/deletepicturescroppedareas) { get; set; } | Логический флаг, указывающий, остаются ли обрезанные части частью документа. Если true, обрезанные части будут удалены, если false, они будут сериализованы в документе (что может привести к увеличению размера файла). Чтение/запись Boolean. |
-| [DisableFontLigatures](../../aspose.slides.export/ihtmloptions/disablefontligatures) { get; set; } | Получает или задает значение, указывающее, рендерится ли текст без использования лигатур. При установке в `true` лигатуры будут отключены в выводе. По умолчанию это свойство имеет значение `false`. |
+| [DeletePicturesCroppedAreas](../../aspose.slides.export/ihtmloptions/deletepicturescroppedareas) { get; set; } | Логический флаг, указывающий, остаются ли обрезанные части частью документа. Если true, обрезанные части будут удалены, если false, они будут сериализованы в документе (что может привести к большему файлу). Чтение/запись Boolean. |
+| [DisableFontLigatures](../../aspose.slides.export/ihtmloptions/disablefontligatures) { get; set; } | Получает или задает значение, указывающее, отображается ли текст без использования лигатур. При значении `true` лигатуры будут отключены в выводе. По умолчанию это свойство имеет значение `false`. |
 | [HtmlFormatter](../../aspose.slides.export/ihtmloptions/htmlformatter) { get; set; } | Возвращает или задает HTML-шаблон. Чтение/запись [`IHtmlFormatter`](../ihtmlformatter). |
 | [InkOptions](../../aspose.slides.export/ihtmloptions/inkoptions) { get; } | Предоставляет параметры, управляющие внешним видом объектов Ink в экспортируемом документе. Только для чтения [`IInkOptions`](../iinkoptions) |
-| [JpegQuality](../../aspose.slides.export/ihtmloptions/jpegquality) { get; set; } | Возвращает или задает значение, определяющее качество JPEG-изображений в PDF-документе. Чтение/запись Byte. |
+| [JpegQuality](../../aspose.slides.export/ihtmloptions/jpegquality) { get; set; } | Возвращает или задает значение, определяющее качество JPEG-изображений в документе PDF. Чтение/запись Byte. |
 | [PicturesCompression](../../aspose.slides.export/ihtmloptions/picturescompression) { get; set; } | Представляет уровень сжатия изображений. Чтение/запись [`PicturesCompression`](./picturescompression). |
-| [ShowHiddenSlides](../../aspose.slides.export/ihtmloptions/showhiddenslides) { get; set; } | Указывает, следует ли включать скрытые слайды в генерируемый документ. По умолчанию `false`. |
-| [SlideImageFormat](../../aspose.slides.export/ihtmloptions/slideimageformat) { get; set; } | Возвращает или задает параметры формата изображения слайда. Чтение/запись [`ISlideImageFormat`](../islideimageformat). |
+| [ShowHiddenSlides](../../aspose.slides.export/ihtmloptions/showhiddenslides) { get; set; } | Указывает, следует ли включать скрытые слайды в сгенерированный документ. По умолчанию `false`. |
+| [SlideImageFormat](../../aspose.slides.export/ihtmloptions/slideimageformat) { get; set; } | Возвращает или задает параметры формата изображений слайдов. Чтение/запись [`ISlideImageFormat`](../islideimageformat). |
 | [SlidesLayoutOptions](../../aspose.slides.export/ihtmloptions/slideslayoutoptions) { get; set; } | Получает или задает режим размещения слайдов на странице при экспорте презентации [`ISlidesLayoutOptions`](../islideslayoutoptions). |
-| [SvgResponsiveLayout](../../aspose.slides.export/ihtmloptions/svgresponsivelayout) { get; set; } | True, чтобы исключить атрибуты width и height из контейнера SVG — это сделает макет адаптивным. False — иначе. Чтение/запись Boolean. |
+| [SvgResponsiveLayout](../../aspose.slides.export/ihtmloptions/svgresponsivelayout) { get; set; } | True для исключения атрибутов width и height из контейнера SVG - это сделает макет адаптивным. False - иначе. Чтение/запись Boolean. |
 
 ### См. также
 

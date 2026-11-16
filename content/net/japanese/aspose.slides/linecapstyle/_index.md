@@ -1,14 +1,14 @@
 ---
 title: LineCapStyle
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: ラインキャップスタイルを表します。
 type: docs
-weight: 7760
+weight: 7780
 url: /ja/aspose.slides/linecapstyle/
 ---
 ## LineCapStyle 列挙型
 
-LineCapStyle のラインキャップスタイルを表します。
+ラインキャップスタイルを表します。
 
 ```csharp
 public enum LineCapStyle : sbyte
@@ -23,7 +23,7 @@ public enum LineCapStyle : sbyte
 | Square | `1` |  |
 | Flat | `2` |  |
 
-### 参照
+### 関連項目
 
 * 名前空間 [Aspose.Slides](../../aspose.slides)
 * アセンブリ [Aspose.Slides](../../)

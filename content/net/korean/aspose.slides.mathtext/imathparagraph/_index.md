@@ -1,9 +1,9 @@
 ---
 title: IMathParagraph
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 수학 블록 IMathBlock의 컨테이너인 수학 단락
+description: 수학 블록 IMathBlock을 위한 컨테이너인 수학 단락
 type: docs
-weight: 8390
+weight: 8410
 url: /ko/aspose.slides.mathtext/imathparagraph/
 ---
 ## IMathParagraph 인터페이스
@@ -19,7 +19,7 @@ public interface IMathParagraph : IMathBlockCollection
 | 이름 | 설명 |
 | --- | --- |
 | [AsIMathBlockCollection](../../aspose.slides.mathtext/imathparagraph/asimathblockcollection) { get; } | 기본 IMathBlockCollection 인터페이스를 가져올 수 있습니다 [`IMathBlockCollection`](../imathblockcollection) |
-| [Justification](../../aspose.slides.mathtext/imathparagraph/justification) { get; set; } | Paragraph Justification 기본값: CenteredAsGroup |
+| [Justification](../../aspose.slides.mathtext/imathparagraph/justification) { get; set; } | 문단 정렬 기본값: CenteredAsGroup |
 
 ## 메서드
 
@@ -30,7 +30,7 @@ public interface IMathParagraph : IMathBlockCollection
 
 ### 예제
 
-예시:
+Example:
 
 ```csharp
 [C#]

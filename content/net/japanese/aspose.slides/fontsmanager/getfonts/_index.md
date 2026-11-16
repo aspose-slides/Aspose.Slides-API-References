@@ -3,7 +3,7 @@ title: GetFonts
 second_title: Aspose.Sildes for .NET API リファレンス
 description: プレゼンテーションで使用されているフォントを返します
 type: docs
-weight: 70
+weight: 80
 url: /ja/aspose.slides/fontsmanager/getfonts/
 ---
 ## FontsManager.GetFonts メソッド

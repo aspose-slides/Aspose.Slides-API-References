@@ -1,14 +1,14 @@
 ---
 title: SlideSizeScaleType
-second_title: Aspose.Sildes for .NET API 參考文件
-description: 代表投影片內容的縮放類型。
+second_title: Aspose.Sildes .NET API 參考文件
+description: 表示投影片內容的縮放類型。
 type: docs
-weight: 10510
+weight: 10530
 url: /zh-hant/aspose.slides/slidesizescaletype/
 ---
 ## SlideSizeScaleType 列舉
 
-代表投影片內容的縮放類型。
+表示投影片內容的縮放類型。
 
 ```csharp
 public enum SlideSizeScaleType
@@ -18,11 +18,11 @@ public enum SlideSizeScaleType
 
 | 名稱 | 值 | 說明 |
 | --- | --- | --- |
-| DoNotScale | `0` | 不縮放。 |
+| DoNotScale | `0` | 不要縮放。 |
 | EnsureFit | `1` | 縮放以確保適合。 |
 | Maximize | `2` | 最大化內容的大小。 |
 
-### 參見
+### 另請參閱
 
 * 命名空間 [Aspose.Slides](../../aspose.slides)
 * 組件 [Aspose.Slides](../../)

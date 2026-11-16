@@ -1,14 +1,14 @@
 ---
 title: IGlow
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 색상이 흐려진 외곽선이 객체의 가장자리 밖에 추가되는 Glow 효과를 나타냅니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: 객체의 가장자리를 넘어 색상이 흐려진 외곽선이 추가되는 Glow 효과를 나타냅니다.
 type: docs
-weight: 3320
+weight: 3340
 url: /ko/aspose.slides.effects/iglow/
 ---
 ## IGlow 인터페이스
 
-Glow 효과를 나타내며, 색상이 흐려진 외곽선이 객체의 가장자리 밖에 추가됩니다.
+객체의 가장자리를 넘어 색상이 흐려진 외곽선이 추가되는 Glow 효과를 나타냅니다.
 
 ```csharp
 public interface IGlow : IAccessiblePVIObject<IGlowEffectiveData>, IImageTransformOperation
@@ -23,7 +23,7 @@ public interface IGlow : IAccessiblePVIObject<IGlowEffectiveData>, IImageTransfo
 | [Color](../../aspose.slides.effects/iglow/color) { get; } | 색상 형식. 읽기 전용 [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [Radius](../../aspose.slides.effects/iglow/radius) { get; set; } | 반경. 읽기/쓰기 Double. |
 
-### 참조
+### 참고
 
 * 인터페이스 [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * 인터페이스 [IGlowEffectiveData](../igloweffectivedata)

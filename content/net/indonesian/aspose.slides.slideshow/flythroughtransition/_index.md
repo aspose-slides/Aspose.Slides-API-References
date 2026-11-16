@@ -3,10 +3,10 @@ title: FlyThroughTransition
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Efek transisi slide fly-through.
 type: docs
-weight: 10040
+weight: 10060
 url: /id/aspose.slides.slideshow/flythroughtransition/
 ---
-## Kelas FlyThroughTransition
+## FlyThroughTransition kelas
 
 Efek transisi slide fly-through.
 

@@ -1,9 +1,9 @@
 ---
 title: VbaModuleCollection
-second_title: Aspose.Sildes для .NET справка API
+second_title: Aspose.Sildes для .NET справочник API
 description: Представляет коллекцию модулей проекта VBA.
 type: docs
-weight: 11640
+weight: 11660
 url: /ru/aspose.slides.vba/vbamodulecollection/
 ---
 ## VbaModuleCollection класс
@@ -18,10 +18,10 @@ public sealed class VbaModuleCollection : IVbaModuleCollection
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides.vba/vbamodulecollection/count) { get; } | Возвращает количество элементов, фактически содержащихся в коллекции. Только для чтения Int32. |
+| [Count](../../aspose.slides.vba/vbamodulecollection/count) { get; } | Получает количество элементов, фактически содержащихся в коллекции. Только для чтения Int32. |
 | [IsSynchronized](../../aspose.slides.vba/vbamodulecollection/issynchronized) { get; } | Возвращает значение, указывающее, синхронизирован ли доступ к коллекции (потокобезопасный). Только для чтения Boolean. |
-| [Item](../../aspose.slides.vba/vbamodulecollection/item) { get; } | Возвращает элемент по указанному индексу. |
-| [SyncRoot](../../aspose.slides.vba/vbamodulecollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтения Object. |
+| [Item](../../aspose.slides.vba/vbamodulecollection/item) { get; } | Получает элемент по указанному индексу. |
+| [SyncRoot](../../aspose.slides.vba/vbamodulecollection/syncroot) { get; } | Возвращает объект синхронизации. Только для чтения Object. |
 
 ## Методы
 
@@ -29,7 +29,7 @@ public sealed class VbaModuleCollection : IVbaModuleCollection
 | --- | --- |
 | [AddEmptyModule](../../aspose.slides.vba/vbamodulecollection/addemptymodule)(string) | Добавляет новый пустой модуль в проект VBA. |
 | [CopyTo](../../aspose.slides.vba/vbamodulecollection/copyto)(Array, int) | Копирует все элементы из коллекции в указанный массив. |
-| [GetEnumerator](../../aspose.slides.vba/vbamodulecollection/getenumerator)() | Возвращает перечислитель, который перебирает элементы коллекции. |
+| [GetEnumerator](../../aspose.slides.vba/vbamodulecollection/getenumerator)() | Возвращает перечислитель, который проходит по элементам коллекции. |
 | [Remove](../../aspose.slides.vba/vbamodulecollection/remove)(IVbaModule) | Удаляет первое вхождение указанного объекта из коллекции. |
 
 ### См. также

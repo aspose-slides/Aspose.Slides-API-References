@@ -3,7 +3,7 @@ title: IHtmlOptions
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Stelt HTML-exportopties voor.
 type: docs
-weight: 3970
+weight: 3990
 url: /nl/aspose.slides.export/ihtmloptions/
 ---
 ## IHtmlOptions interface
@@ -14,26 +14,26 @@ Stelt HTML-exportopties voor.
 public interface IHtmlOptions : ISaveOptions
 ```
 
-## Eigenschappen
+## Properties
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/ihtmloptions/asisaveoptions) { get; } | Retourneert ISaveOptions interface. Alleen-lezen [`ISaveOptions`](../isaveoptions). |
-| [DeletePicturesCroppedAreas](../../aspose.slides.export/ihtmloptions/deletepicturescroppedareas) { get; set; } | Een booleaanse vlag geeft aan of de bijgesneden delen behouden blijven als onderdeel van het document. Als true worden de bijgesneden delen verwijderd, als false worden ze geserialiseerd in het document (wat mogelijk kan leiden tot een groter bestand) Lezen/schrijven Boolean. |
-| [DisableFontLigatures](../../aspose.slides.export/ihtmloptions/disablefontligatures) { get; set; } | Haalt op of stelt een waarde in die aangeeft of tekst wordt gerenderd zonder ligaturen te gebruiken. Wanneer ingesteld op `true`, worden ligaturen uitgeschakeld in de weergegeven output. Standaard is deze eigenschap ingesteld op `false`. |
-| [HtmlFormatter](../../aspose.slides.export/ihtmloptions/htmlformatter) { get; set; } | Retourneert of stelt HTML-sjabloon in. Lezen/schrijven [`IHtmlFormatter`](../ihtmlformatter). |
-| [InkOptions](../../aspose.slides.export/ihtmloptions/inkoptions) { get; } | Biedt opties die de weergave van Ink-objecten in het geëxporteerde document regelen. Alleen-lezen [`IInkOptions`](../iinkoptions) |
-| [JpegQuality](../../aspose.slides.export/ihtmloptions/jpegquality) { get; set; } | Retourneert of stelt een waarde in die de kwaliteit van de JPEG-afbeeldingen in een PDF-document bepaalt. Lezen/schrijven Byte. |
-| [PicturesCompression](../../aspose.slides.export/ihtmloptions/picturescompression) { get; set; } | Stelt het compressieniveau van afbeeldingen voor. Lezen/schrijven [`PicturesCompression`](./picturescompression). |
-| [ShowHiddenSlides](../../aspose.slides.export/ihtmloptions/showhiddenslides) { get; set; } | Specificeert of het gegenereerde document verborgenen dia's moet bevatten of niet. Standaard is `false`. |
-| [SlideImageFormat](../../aspose.slides.export/ihtmloptions/slideimageformat) { get; set; } | Retourneert of stelt opties voor dia-afbeeldingsformaat in. Lezen/schrijven [`ISlideImageFormat`](../islideimageformat). |
-| [SlidesLayoutOptions](../../aspose.slides.export/ihtmloptions/slideslayoutoptions) { get; set; } | Haalt op of stelt de modus in waarmee dia's op de pagina worden geplaatst bij het exporteren van een presentatie [`ISlidesLayoutOptions`](../islideslayoutoptions). |
-| [SvgResponsiveLayout](../../aspose.slides.export/ihtmloptions/svgresponsivelayout) { get; set; } | True om breedte- en hoogte-attributen uit de SVG-container uit te sluiten – dit maakt de lay-out responsief. False – anders. Lezen/schrijven Boolean. |
+| [AsISaveOptions](../../aspose.slides.export/ihtmloptions/asisaveoptions) { get; } | Retourneert de ISaveOptions interface. Alleen-lezen [`ISaveOptions`](../isaveoptions). |
+| [DeletePicturesCroppedAreas](../../aspose.slides.export/ihtmloptions/deletepicturescroppedareas) { get; set; } | Een boolse vlag geeft aan of de bijgesneden delen deel blijven uitmaken van het document. Indien true worden de bijgesneden delen verwijderd, indien false worden ze geserialiseerd in het document (wat mogelijk kan leiden tot een groter bestand) Lezen/Schrijven Boolean. |
+| [DisableFontLigatures](../../aspose.slides.export/ihtmloptions/disablefontligatures) { get; set; } | Haalt een waarde op of stelt deze in die aangeeft of tekst wordt gerenderd zonder ligaturen te gebruiken. Wanneer ingesteld op `true`, worden ligaturen uitgeschakeld in de gerenderde output. Standaard is deze eigenschap ingesteld op `false`. |
+| [HtmlFormatter](../../aspose.slides.export/ihtmloptions/htmlformatter) { get; set; } | Retourneert of stelt de HTML-sjabloon in. Lezen/Schrijven [`IHtmlFormatter`](../ihtmlformatter). |
+| [InkOptions](../../aspose.slides.export/ihtmloptions/inkoptions) { get; } | Biedt opties die het uiterlijk van Ink-objecten in het geëxporteerde document regelen. Alleen-lezen [`IInkOptions`](../iinkoptions) |
+| [JpegQuality](../../aspose.slides.export/ihtmloptions/jpegquality) { get; set; } | Retourneert of stelt een waarde in die de kwaliteit van JPEG-afbeeldingen in een PDF-document bepaalt. Lezen/Schrijven Byte. |
+| [PicturesCompression](../../aspose.slides.export/ihtmloptions/picturescompression) { get; set; } | Stelt het compressieniveau van afbeeldingen voor. Lezen/Schrijven [`PicturesCompression`](./picturescompression). |
+| [ShowHiddenSlides](../../aspose.slides.export/ihtmloptions/showhiddenslides) { get; set; } | Specificeert of het gegenereerde document verborgen dia's moet bevatten of niet. Standaard is `false`. |
+| [SlideImageFormat](../../aspose.slides.export/ihtmloptions/slideimageformat) { get; set; } | Retourneert of stelt de opties voor dia-afbeeldingsindeling in. Lezen/Schrijven [`ISlideImageFormat`](../islideimageformat). |
+| [SlidesLayoutOptions](../../aspose.slides.export/ihtmloptions/slideslayoutoptions) { get; set; } | Haalt de modus op of stelt deze in waarin dia's op de pagina worden geplaatst bij het exporteren van een presentatie [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [SvgResponsiveLayout](../../aspose.slides.export/ihtmloptions/svgresponsivelayout) { get; set; } | True om de breedte- en hoogte-attributen uit de SVG-container uit te sluiten – dit maakt de lay-out responsief. False – anders. Lezen/Schrijven Boolean. |
 
 ### Zie ook
 
 * interface [ISaveOptions](../isaveoptions)
 * naamruimte [Aspose.Slides.Export](../../aspose.slides.export)
-* assembly [Aspose.Slides](../../)
+* assemblage [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

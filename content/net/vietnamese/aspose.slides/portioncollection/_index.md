@@ -1,9 +1,9 @@
 ---
 title: PortionCollection
-second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Đại diện cho một tập hợp các phần.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Biểu diễn một tập hợp các phần.
 type: docs
-weight: 9470
+weight: 9490
 url: /vi/aspose.slides/portioncollection/
 ---
 ## PortionCollection lớp
@@ -16,25 +16,25 @@ public sealed class PortionCollection : DomObject<Paragraph>, IPortionCollection
 
 ## Thuộc tính
 
-| Tên | Mô tả |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides/portioncollection/count) { get; } | Lấy số phần tử thực sự chứa trong bộ sưu tập. Chỉ đọc Int32. |
-| [IsReadOnly](../../aspose.slides/portioncollection/isreadonly) { get; } | Lấy giá trị cho biết ICollection có phải chỉ đọc hay không. Boolean chỉ đọc. |
-| [Item](../../aspose.slides/portioncollection/item) { get; set; } | Lấy phần tử tại chỉ số đã chỉ định. |
+| [Count](../../aspose.slides/portioncollection/count) { get; } | Lấy số lượng phần tử thực sự có trong bộ sưu tập. Chỉ đọc Int32. |
+| [IsReadOnly](../../aspose.slides/portioncollection/isreadonly) { get; } | Lấy giá trị cho biết ICollection có phải là chỉ đọc hay không. Chỉ đọc Boolean. |
+| [Item](../../aspose.slides/portioncollection/item) { get; set; } | Lấy phần tử tại chỉ số được chỉ định. |
 
 ## Phương thức
 
-| Tên | Mô tả |
+| Name | Description |
 | --- | --- |
 | [Add](../../aspose.slides/portioncollection/add)(IPortion) | Thêm một Portion vào cuối bộ sưu tập. |
 | [Clear](../../aspose.slides/portioncollection/clear)() | Xóa tất cả các phần tử khỏi bộ sưu tập. |
-| [Contains](../../aspose.slides/portioncollection/contains)(IPortion) | Xác định xem ICollection có chứa giá trị cụ thể hay không. |
+| [Contains](../../aspose.slides/portioncollection/contains)(IPortion) | Xác định xem ICollection có chứa một giá trị cụ thể hay không. |
 | [CopyTo](../../aspose.slides/portioncollection/copyto)(IPortion[], int) | Sao chép các phần tử của ICollection vào một Array, bắt đầu tại một chỉ số Array nhất định. |
 | [GetEnumerator](../../aspose.slides/portioncollection/getenumerator)() | Trả về một enumerator duyệt qua bộ sưu tập. |
-| [IndexOf](../../aspose.slides/portioncollection/indexof)(IPortion) | Xác định chỉ mục của một mục cụ thể trong IList. |
-| [Insert](../../aspose.slides/portioncollection/insert)(int, IPortion) | Chèn một Portion vào bộ sưu tập tại chỉ số đã chỉ định. |
+| [IndexOf](../../aspose.slides/portioncollection/indexof)(IPortion) | Xác định chỉ số của một mục cụ thể trong IList. |
+| [Insert](../../aspose.slides/portioncollection/insert)(int, IPortion) | Chèn một Portion vào bộ sưu tập tại chỉ số được chỉ định. |
 | [Remove](../../aspose.slides/portioncollection/remove)(IPortion) | Xóa lần xuất hiện đầu tiên của một đối tượng cụ thể khỏi ICollection. |
-| [RemoveAt](../../aspose.slides/portioncollection/removeat)(int) | Xóa phần tử tại chỉ số đã chỉ định của bộ sưu tập. |
+| [RemoveAt](../../aspose.slides/portioncollection/removeat)(int) | Xóa phần tử tại chỉ số được chỉ định của bộ sưu tập. |
 
 ### Xem thêm
 

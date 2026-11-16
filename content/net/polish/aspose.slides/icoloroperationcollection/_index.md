@@ -1,9 +1,9 @@
 ---
 title: IColorOperationCollection
-second_title: Aspose.Sildes dla .NET – Odniesienie API
+second_title: Aspose.Sildes dla .NET – odniesienie API
 description: Reprezentuje kolekcję operacji transformacji kolorów.
 type: docs
-weight: 5510
+weight: 5530
 url: /pl/aspose.slides/icoloroperationcollection/
 ---
 ## IColorOperationCollection interfejs
@@ -17,16 +17,16 @@ public interface IColorOperationCollection : IGenericCloneable<IColorOperationCo
 
 ## Właściwości
 
-| Name | Description |
+| Nazwa | Opis |
 | --- | --- |
 | [Item](../../aspose.slides/icoloroperationcollection/item) { get; set; } | Zwraca lub ustawia operację pod określonym indeksem. Odczyt/zapis [`IColorOperation`](../icoloroperation). |
 
 ## Metody
 
-| Name | Description |
+| Nazwa | Opis |
 | --- | --- |
-| [Add](../../aspose.slides/icoloroperationcollection/add#add)(ColorTransformOperation) | Dodaje nową operację na końcu kolekcji. |
-| [Add](../../aspose.slides/icoloroperationcollection/add#add_1)(ColorTransformOperation, float) | Dodaje nową operację na końcu kolekcji. |
+| [Add](../../aspose.slides/icoloroperationcollection/add#add)(ColorTransformOperation) | Dodaje nową operację na koniec kolekcji. |
+| [Add](../../aspose.slides/icoloroperationcollection/add#add_1)(ColorTransformOperation, float) | Dodaje nową operację na koniec kolekcji. |
 | [Clear](../../aspose.slides/icoloroperationcollection/clear)() | Usuwa wszystkie operacje kolorów. |
 | [Insert](../../aspose.slides/icoloroperationcollection/insert#insert)(int, ColorTransformOperation) | Wstawia nową operację do kolekcji. |
 | [Insert](../../aspose.slides/icoloroperationcollection/insert#insert_1)(int, ColorTransformOperation, float) | Wstawia nową operację do kolekcji. |

@@ -1,14 +1,14 @@
 ---
 title: IOutputSaver
 second_title: Aspose.Sildes für .NET API Referenz
-description: Stellt einen Ausgabespeicherdienst dar.
+description: Repräsentiert einen Ausgabespeicherdienst.
 type: docs
-weight: 4610
+weight: 4630
 url: /de/aspose.slides.export.web/ioutputsaver/
 ---
 ## IOutputSaver Schnittstelle
 
-Stellt einen Ausgabe-Speicherdienst dar.
+Repäsentiert einen Ausgabespeicherdienst.
 
 ```csharp
 public interface IOutputSaver

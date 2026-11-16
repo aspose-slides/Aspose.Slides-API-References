@@ -1,14 +1,14 @@
 ---
 title: InvertIfNegative
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Menentukan bahwa titik data akan membalikkan warnanya jika nilainya negatif. Baca/tulis Boolean.
 type: docs
-weight: 90
+weight: 130
 url: /id/aspose.slides.charts/ichartdatapoint/invertifnegative/
 ---
 ## IChartDataPoint.InvertIfNegative properti
 
-Menentukan bahwa titik data akan membalikkan warnanya jika nilainya negatif. Baca/tulis Boolean.
+Menentukan bahwa titik data akan membalikkan warnanya jika nilai negatif. Baca/tulis Boolean.
 
 ```csharp
 public bool InvertIfNegative { get; set; }

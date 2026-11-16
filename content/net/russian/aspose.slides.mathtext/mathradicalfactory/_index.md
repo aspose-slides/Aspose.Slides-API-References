@@ -1,9 +1,9 @@
 ---
 title: MathRadicalFactory
-second_title: Aspose.Sildes для .NET справочника API
+second_title: Aspose.Sildes для .NET справочник API
 description: Позволяет создавать математический радикал
 type: docs
-weight: 8950
+weight: 8970
 url: /ru/aspose.slides.mathtext/mathradicalfactory/
 ---
 ## MathRadicalFactory класс
@@ -26,7 +26,7 @@ public class MathRadicalFactory : IMathRadicalFactory
 | --- | --- |
 | [CreateMathRadical](../../aspose.slides.mathtext/mathradicalfactory/createmathradical)(IMathElement, IMathElement) | Создаёт математический радикал |
 
-### Примечания
+### Замечания
 
 Для совместимости с COM
 

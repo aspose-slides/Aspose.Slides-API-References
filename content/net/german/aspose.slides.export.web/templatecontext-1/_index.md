@@ -3,7 +3,7 @@ title: TemplateContextTObject
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt eine Modellobjekt-Schnittstelle für eine Vorlagen-Engine dar.
 type: docs
-weight: 4670
+weight: 4690
 url: /de/aspose.slides.export.web/templatecontext-1/
 ---
 ## TemplateContext<TObject> Klasse
@@ -18,16 +18,16 @@ public sealed class TemplateContext<TObject>
 
 | Name | Beschreibung |
 | --- | --- |
-| [Global](../../aspose.slides.export.web/templatecontext`1/global) { get; } | Gibt den globalen Speicher des Hostdokuments zurück. Nur lesbar [`Storage`](../storage). |
-| [Local](../../aspose.slides.export.web/templatecontext`1/local) { get; } | Gibt den lokalen Speicher des aktuellen Vorlagenkontexts zurück. Nur lesbar [`Storage`](../storage). |
-| [Object](../../aspose.slides.export.web/templatecontext`1/object) { get; } | Gibt das Modellobjekt zurück. Nur lesbar !:TObject. |
-| [Output](../../aspose.slides.export.web/templatecontext`1/output) { get; } | Gibt die Sammlung von Ausgabeelementen des Hostdokuments zurück. Nur lesbar [`Output`](./output). |
+| [Global](../../aspose.slides.export.web/templatecontext`1/global) { get; } | Gibt den globalen Speicher des Host-Dokuments zurück. Nur Lesezugriff [`Storage`](../storage). |
+| [Local](../../aspose.slides.export.web/templatecontext`1/local) { get; } | Gibt den lokalen Speicher des aktuellen Vorlagen-Kontexts zurück. Nur Lesezugriff [`Storage`](../storage). |
+| [Object](../../aspose.slides.export.web/templatecontext`1/object) { get; } | Gibt das Modellobjekt zurück. Nur Lesezugriff !:TObject. |
+| [Output](../../aspose.slides.export.web/templatecontext`1/output) { get; } | Gibt die Sammlung der Ausgabeelemente des Host-Dokuments zurück. Nur Lesezugriff [`Output`](./output). |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [SubModel&lt;TSubModel&gt;](../../aspose.slides.export.web/templatecontext`1/submodel)(TSubModel) | Erstellt einen untergeordneten Vorlagenkontext. |
+| [SubModel&lt;TSubModel&gt;](../../aspose.slides.export.web/templatecontext`1/submodel)(TSubModel) | Erstellt einen untergeordneten Vorlagen-Kontext. |
 
 ### Siehe auch
 

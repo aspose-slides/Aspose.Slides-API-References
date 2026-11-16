@@ -1,14 +1,14 @@
 ---
 title: BiLevel
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt einen Bi-Level schwarz/weiß Effekt dar. Eingabefarben, deren Luminanz kleiner als der angegebene Schwellenwert ist, werden zu Schwarz geändert. Eingabefarben, deren Luminanz größer oder gleich dem angegebenen Wert ist, werden auf Weiß gesetzt. Die Alpha-Effektwerte bleiben von diesem Effekt unberührt.
+description: Stellt einen Bi-Level-Schwarz-weiß-Effekt dar. Eingabefarben, deren Luminanz kleiner ist als der angegebene Schwellenwert, werden zu Schwarz geändert. Eingabefarben, deren Luminanz größer oder gleich dem angegebenen Wert ist, werden zu Weiß gesetzt. Die Alpha-Effektwerte bleiben von diesem Effekt unberührt.
 type: docs
-weight: 2910
+weight: 2930
 url: /de/aspose.slides.effects/bilevel/
 ---
 ## BiLevel Klasse
 
-Stellt einen Bi-Level (schwarz/weiß) Effekt dar. Eingabefarben, deren Luminanz kleiner als der angegebene Schwellenwert ist, werden zu Schwarz geändert. Eingabefarben, deren Luminanz größer oder gleich dem angegebenen Wert ist, werden auf Weiß gesetzt. Die Alpha-Effektwerte bleiben von diesem Effekt unberührt.
+Stellt einen Bi-Level-(schwarz/weiß)-Effekt dar. Eingabefarben, deren Luminanz kleiner als der angegebene Schwellenwert ist, werden zu Schwarz geändert. Eingabefarben, deren Luminanz größer als oder gleich dem angegebenen Wert ist, werden zu Weiß gesetzt. Die Alpha-Effektwerte bleiben von diesem Effekt unberührt.
 
 ```csharp
 public sealed class BiLevel : ImageTransformOperation, IBiLevel
@@ -24,8 +24,8 @@ public sealed class BiLevel : ImageTransformOperation, IBiLevel
 
 | Name | Beschreibung |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/bilevel/equals)(object) | Bestimmt, ob das angegebene [`BiLevel`](../bilevel) gleich dem aktuellen [`BiLevel`](../bilevel) ist. |
-| [GetEffective](../../aspose.slides.effects/bilevel/geteffective)() | Ruft die effektiven Bi-Level-Effektdaten mit angewandter Vererbung ab. |
+| override [Equals](../../aspose.slides.effects/bilevel/equals)(object) | Bestimmt, ob das angegebene [`BiLevel`](../bilevel) dem aktuellen [`BiLevel`](../bilevel) entspricht. |
+| [GetEffective](../../aspose.slides.effects/bilevel/geteffective)() | Liefert die effektiven Bi-Level-Effektdaten mit angewandter Vererbung. |
 | override [GetHashCode](../../aspose.slides.effects/bilevel/gethashcode)() | Dient als Hash-Funktion für einen bestimmten Typ. |
 
 ### Siehe auch

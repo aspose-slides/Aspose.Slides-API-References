@@ -1,33 +1,33 @@
 ---
 title: GetFontEmbeddingLevel
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 주어진 바이트 배열과 글꼴 이름에서 글꼴의 임베딩 수준을 결정합니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: 주어진 바이트 배열과 폰트 이름에서 폰트의 임베딩 레벨을 결정합니다.
 type: docs
-weight: 60
+weight: 70
 url: /ko/aspose.slides/ifontsmanager/getfontembeddinglevel/
 ---
 ## IFontsManager.GetFontEmbeddingLevel 메서드
 
-주어진 바이트 배열과 글꼴 이름에서 글꼴의 임베딩 수준을 결정합니다.
+Determines the embedding level of a font from the given byte array and font name.
 
 ```csharp
 public EmbeddingLevel GetFontEmbeddingLevel(byte[] fontBytes, string fontName)
 ```
 
-| 매개변수 | 유형 | 설명 |
+| 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
-| fontBytes | Byte[] | 글꼴 데이터를 포함하는 바이트 배열입니다. |
-| fontName | String | 글꼴의 이름입니다. |
+| fontBytes | Byte[] | 폰트 데이터를 포함하는 바이트 배열입니다. |
+| fontName | String | 폰트 이름입니다. |
 
 ### 반환 값
 
-지정된 글꼴의 임베딩 수준입니다.
+지정된 폰트의 임베딩 레벨입니다.
 
 ### 예외
 
 | 예외 | 조건 |
 | --- | --- |
-| ArgumentNullException | *fontBytes*가 null인 경우 발생합니다. |
+| ArgumentNullException | *fontBytes*가 null입니다. |
 
 ### 예제
 
@@ -35,20 +35,20 @@ public EmbeddingLevel GetFontEmbeddingLevel(byte[] fontBytes, string fontName)
 [C#]
 using (Presentation pres = new Presentation(pptxFileName))
 {
-    // 프레젠테이션에서 사용된 모든 글꼴을 가져옵니다
+    // 프레젠테이션에 사용된 모든 폰트를 가져옵니다.
     IFontData[] fontDatas = pres.FontsManager.GetFonts();
 
-    // 프레젠테이션에서 첫 번째 글꼴의 일반 스타일을 나타내는 바이트 배열을 가져옵니다
+    // 프레젠테이션에서 첫 번째 폰트의 일반 스타일을 나타내는 바이트 배열을 가져옵니다.
     byte[] bytes = pres.FontsManager.GetFontBytes(fontDatas[0], FontStyle.Regular);
 
-    // 글꼴의 임베딩 수준을 결정합니다
+    // 폰트의 임베딩 레벨을 결정합니다.
     EmbeddingLevel embeddingLevel = pres.FontsManager.GetFontEmbeddingLevel(bytes, fontDatas[0].FontName);
 }
 ```
 
-### 참조
+### 참고
 
-* enum [EmbeddingLevel](../../embeddinglevel)
+* 열거형 [EmbeddingLevel](../../embeddinglevel)
 * 인터페이스 [IFontsManager](../../ifontsmanager)
 * 네임스페이스 [Aspose.Slides](../../ifontsmanager)
 * 어셈블리 [Aspose.Slides](../../../)

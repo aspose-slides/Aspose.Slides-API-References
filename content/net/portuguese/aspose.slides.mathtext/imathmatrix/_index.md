@@ -1,14 +1,14 @@
 ---
 title: IMathMatrix
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET API Reference
 description: Especifica o objeto Matrix composto por elementos filhos organizados em uma ou mais linhas e colunas. É importante observar que as matrizes não possuem delimitadores incorporados. Para colocar a matriz entre colchetes, você deve usar o objeto delimitador IMathDelimiter. Argumentos nulos podem ser usados para criar lacunas nas matrizes.
 type: docs
-weight: 8340
+weight: 8360
 url: /pt/aspose.slides.mathtext/imathmatrix/
 ---
 ## IMathMatrix interface
 
-Especifica o objeto Matrix, constituído por elementos filhos dispostos em uma ou mais linhas e colunas. É importante observar que as matrizes não possuem delimitadores incorporados. Para colocar a matriz entre colchetes, você deve usar o objeto delimitador (IMathDelimiter). Argumentos nulos podem ser usados para criar lacunas nas matrizes.
+Especifica o objeto Matrix, composto por elementos filhos dispostos em uma ou mais linhas e colunas. É importante observar que as matrizes não possuem delimitadores incorporados. Para colocar a matriz entre colchetes, você deve usar o objeto delimitador (IMathDelimiter). Argumentos nulos podem ser usados para criar espaços nas matrizes.
 
 ```csharp
 public interface IMathMatrix : IMathElement
@@ -21,14 +21,14 @@ public interface IMathMatrix : IMathElement
 | [AsIMathElement](../../aspose.slides.mathtext/imathmatrix/asimathelement) { get; } | Permite obter a interface base IMathElement [`IMathElement`](../imathelement) |
 | [BaseJustification](../../aspose.slides.mathtext/imathmatrix/basejustification) { get; set; } | Especifica a justificação vertical em relação ao texto ao redor. Os valores possíveis são top, bottom e center. Padrão: Center |
 | [ColumnCount](../../aspose.slides.mathtext/imathmatrix/columncount) { get; } | Número de colunas na matriz |
-| [ColumnGap](../../aspose.slides.mathtext/imathmatrix/columngap) { get; set; } | O valor do espaçamento horizontal entre colunas de uma matriz; Se o ColumnGapRule for definido como 3 ("Exactly"), a unidade é interpretada como twips (1/20 de ponto). Se o ColumnGapRule for definido como 4 ("Multiple"), a unidade é interpretada como número de incrementos de 0.5 em. Em outros casos é ignorado. Padrão: 0 |
-| [ColumnGapRule](../../aspose.slides.mathtext/imathmatrix/columngaprule) { get; set; } | O tipo de espaçamento horizontal entre colunas de uma matriz; As unidades de espaçamento horizontal podem ser ems ou points (armazenados como twips). Padrão: SingleSpacingGap (0) |
-| [HidePlaceholders](../../aspose.slides.mathtext/imathmatrix/hideplaceholders) { get; set; } | Oculta os espaços reservados para elementos vazios da matriz. Padrão: false |
+| [ColumnGap](../../aspose.slides.mathtext/imathmatrix/columngap) { get; set; } | O valor do espaçamento horizontal entre colunas de uma matriz; Se o ColumnGapRule for definido como 3 (\"Exactly\"), a unidade é interpretada como twips (1/20 de ponto). Se o ColumnGapRule for definido como 4 (\"Multiple\"), a unidade é interpretada como número de incrementos de 0,5 em. Em outros casos é ignorado. Padrão: 0 |
+| [ColumnGapRule](../../aspose.slides.mathtext/imathmatrix/columngaprule) { get; set; } | O tipo de espaçamento horizontal entre colunas de uma matriz; unidades de espaçamento horizontal podem ser ems ou pontos (armazenados como twips). Padrão: SingleSpacingGap (0) |
+| [HidePlaceholders](../../aspose.slides.mathtext/imathmatrix/hideplaceholders) { get; set; } | Oculta os marcadores de posição para elementos vazios da matriz. Padrão: false |
 | [Item](../../aspose.slides.mathtext/imathmatrix/item) { get; set; } | Elementos da matriz |
-| [MinColumnWidth](../../aspose.slides.mathtext/imathmatrix/mincolumnwidth) { get; set; } | Largura mínima da coluna em twips (1/20 de ponto) O espaçamento de lacuna (também referido como “Column Gap” ou “Gap Width”) é adicionado ao MinColumnWidth para determinar o espaçamento total da coluna da matriz (distância entre as mesmas bordas de colunas diferentes). Padrão: 0. |
+| [MinColumnWidth](../../aspose.slides.mathtext/imathmatrix/mincolumnwidth) { get; set; } | Largura mínima da coluna em twips (1/20 de ponto). O espaçamento de lacuna (também referido como “Column Gap” ou “Gap Width”) é adicionado ao MinColumnWidth para determinar o espaçamento total da coluna da matriz (distância entre as mesmas bordas de colunas diferentes). Padrão: 0. |
 | [RowCount](../../aspose.slides.mathtext/imathmatrix/rowcount) { get; } | Número de linhas na matriz |
-| [RowGap](../../aspose.slides.mathtext/imathmatrix/rowgap) { get; set; } | O valor do espaçamento vertical entre linhas de uma matriz; Se o RowGapRule for definido como 3 ("Exactly"), a unidade é interpretada como twips (1/20 de ponto). Se o RowGapRule for definido como 4 ("Multiple"), a unidade é interpretada como meio-linhas. Padrão: 0 |
-| [RowGapRule](../../aspose.slides.mathtext/imathmatrix/rowgaprule) { get; set; } | O tipo de espaçamento vertical entre linhas de uma matriz; As unidades de espaçamento vertical podem ser lines ou points (armazenados como twips). Padrão: SingleSpacingGap (0) |
+| [RowGap](../../aspose.slides.mathtext/imathmatrix/rowgap) { get; set; } | O valor do espaçamento vertical entre linhas de uma matriz; Se o RowGapRule for definido como 3 (\"Exactly\"), a unidade é interpretada como twips (1/20 de ponto). Se o RowGapRule for definido como 4 (\"Multiple\"), a unidade é interpretada como meia linha. Padrão: 0 |
+| [RowGapRule](../../aspose.slides.mathtext/imathmatrix/rowgaprule) { get; set; } | O tipo de espaçamento vertical entre linhas de uma matriz; unidades de espaçamento vertical podem ser linhas ou pontos (armazenados como twips). Padrão: SingleSpacingGap (0) |
 
 ## Métodos
 
@@ -54,7 +54,7 @@ IMathMatrix matrix = new MathMatrix(2, 3);
 matrix[0, 0] = new MathematicalText("item.1.1");
 ```
 
-### Veja Também
+### Ver Também
 
 * interface [IMathElement](../imathelement)
 * namespace [Aspose.Slides.MathText](../../aspose.slides.mathtext)

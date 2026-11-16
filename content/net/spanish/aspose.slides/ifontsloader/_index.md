@@ -1,9 +1,9 @@
 ---
 title: IFontsLoader
-second_title: Referencia de la API de Aspose.Sildes para .NET
+second_title: Aspose.Sildes para la referencia de API de .NET
 description: Clase para cargar fuentes personalizadas definidas por el usuario. Debe usarse antes de crear cualquier objeto de presentación.
 type: docs
-weight: 5920
+weight: 5940
 url: /es/aspose.slides/ifontsloader/
 ---
 ## IFontsLoader interfaz

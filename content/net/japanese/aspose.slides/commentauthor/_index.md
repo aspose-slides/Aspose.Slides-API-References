@@ -3,7 +3,7 @@ title: CommentAuthor
 second_title: Aspose.Sildes for .NET API リファレンス
 description: コメントの作成者を表します。
 type: docs
-weight: 2630
+weight: 2650
 url: /ja/aspose.slides/commentauthor/
 ---
 ## CommentAuthor クラス
@@ -18,15 +18,15 @@ public sealed class CommentAuthor : ICommentAuthor
 
 | 名前 | 説明 |
 | --- | --- |
-| [Comments](../../aspose.slides/commentauthor/comments) { get; } | この作成者が作成したコメントのコレクションを返します。読み取り専用 [`ICommentCollection`](../icommentcollection)。 |
-| [Initials](../../aspose.slides/commentauthor/initials) { get; set; } | 作成者のイニシャルを取得または設定します。読み書き可能 String。 |
-| [Name](../../aspose.slides/commentauthor/name) { get; set; } | 作成者の名前を取得または設定します。読み書き可能 String。 |
+| [Comments](../../aspose.slides/commentauthor/comments) { get; } | この作者が作成したコメントのコレクションを返します。読み取り専用 [`ICommentCollection`](../icommentcollection). |
+| [Initials](../../aspose.slides/commentauthor/initials) { get; set; } | 作者のイニシャルを取得または設定します。読み書き可能 String. |
+| [Name](../../aspose.slides/commentauthor/name) { get; set; } | 作者の名前を取得または設定します。読み書き可能 String. |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [Remove](../../aspose.slides/commentauthor/remove)() | 作成者を親コレクションから削除します。 |
+| [Remove](../../aspose.slides/commentauthor/remove)() | 親コレクションから作者を削除します。 |
 
 ### 参照
 

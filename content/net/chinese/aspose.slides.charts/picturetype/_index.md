@@ -1,27 +1,27 @@
 ---
 title: PictureType
-second_title: Aspose.Sildes .NET API 参考
-description: 确定条形图片填充的模式。
+second_title: Aspose.Sildes for .NET API 参考
+description: 确定条形图图片填充的模式。
 type: docs
-weight: 2360
+weight: 2380
 url: /zh/aspose.slides.charts/picturetype/
 ---
 ## PictureType 枚举
 
-确定条形图片填充的模式。
+确定条形图图片填充的模式。
 
 ```csharp
 public enum PictureType
 ```
 
-### Values
+### 值
 
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
 | NotDefined | `-1` | 未定义。 |
-| Stack | `0` | 图片被调整为在最长的堆叠条中最多重复 15 次。 |
-| StackScale | `1` | 图片被调整为指定数量的单位，并沿条形的长度重复。 |
-| Stretch | `2` | 图片被拉伸至堆叠条的完整长度。 |
+| Stack | `0` | 图片大小被设定为在最长的堆叠条形图中最多重复 15 次。 |
+| StackScale | `1` | 图片大小被设定为指定的单位数，并在条形图长度上重复。 |
+| Stretch | `2` | 图片在堆叠条形图的整个长度上被拉伸。 |
 
 ### 另见
 

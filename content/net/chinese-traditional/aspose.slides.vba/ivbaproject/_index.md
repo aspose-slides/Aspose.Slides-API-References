@@ -1,14 +1,14 @@
 ---
 title: IVbaProject
-second_title: Aspose.Sildes 用於 .NET API 參考
-description: 代表具有簡報巨集的 VBA 專案。
+second_title: Aspose.Sildes for .NET API 參考
+description: 代表具有投影片巨集的 VBA 專案。
 type: docs
-weight: 11550
+weight: 11570
 url: /zh-hant/aspose.slides.vba/ivbaproject/
 ---
 ## IVbaProject 介面
 
-代表具有簡報巨集的 VBA 專案。
+Represents VBA project with presentation macros.
 
 ```csharp
 public interface IVbaProject
@@ -19,15 +19,15 @@ public interface IVbaProject
 | 名稱 | 說明 |
 | --- | --- |
 | [IsPasswordProtected](../../aspose.slides.vba/ivbaproject/ispasswordprotected) { get; } | 指示 VBAProject 是否受到密碼保護以檢視專案屬性。唯讀 Boolean。 |
-| [Modules](../../aspose.slides.vba/ivbaproject/modules) { get; } | 傳回 VBA 專案中所包含的所有模組的清單。唯讀 [`IVbaModuleCollection`](../ivbamodulecollection)。 |
+| [Modules](../../aspose.slides.vba/ivbaproject/modules) { get; } | 傳回 VBA 專案中包含的所有模組的清單。唯讀 [`IVbaModuleCollection`](../ivbamodulecollection)。 |
 | [Name](../../aspose.slides.vba/ivbaproject/name) { get; } | 傳回 VBA 專案的名稱。唯讀 String。 |
-| [References](../../aspose.slides.vba/ivbaproject/references) { get; } | 傳回 VBA 專案中所包含的所有參考的清單。唯讀 [`IVbaReferenceCollection`](../ivbareferencecollection)。 |
+| [References](../../aspose.slides.vba/ivbaproject/references) { get; } | 傳回 VBA 專案中包含的所有參考的清單。唯讀 [`IVbaReferenceCollection`](../ivbareferencecollection)。 |
 
 ## 方法
 
 | 名稱 | 說明 |
 | --- | --- |
-| [ToBinary](../../aspose.slides.vba/ivbaproject/tobinary)() | 傳回 VBA 專案的二進位表示形式，作為 OLE 容器。唯讀 Byte[]。 |
+| [ToBinary](../../aspose.slides.vba/ivbaproject/tobinary)() | 傳回 VBA 專案的二進位表示形式（以 OLE 容器）。唯讀 Byte[]。 |
 
 ### 另請參閱
 

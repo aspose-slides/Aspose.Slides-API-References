@@ -1,14 +1,14 @@
 ---
 title: EmbeddingLevel
-second_title: Aspose.Sildes .NET API hivatkozás
-description: A betűtípus beágyazására vonatkozó licencjogokat jelöli.
+second_title: Aspose.Sildes for .NET API referencia
+description: A betűkészlet beágyazásához kapcsolódó licencjogokat reprezentálja.
 type: docs
-weight: 3670
+weight: 3690
 url: /hu/aspose.slides/embeddinglevel/
 ---
 ## EmbeddingLevel enumeráció
 
-A betűtípus beágyazására vonatkozó licencjogokat jelöli.
+A betűkészlet beágyazásához kapcsolódó licencjogokat képviseli.
 
 ```csharp
 [Flags]
@@ -19,12 +19,12 @@ public enum EmbeddingLevel : ushort
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| Installable | `0` | A betűtípusok ezzel a beállítással jelzik, hogy beágyazhatók és tartósan telepíthetők a távoli rendszerre egy alkalmazás által. A távoli rendszer felhasználója ugyanazokat a jogokat, kötelezettségeket és licenceket kapja az adott betűtípusról, mint annak eredeti vásárlója, és ugyanazt a felhasználói licencszerződést, szerzői jogot, formatervezési szabadalmat és/vagy védjegyet kell betartania, mint az eredeti vásárló. |
-| Restricted | `2` | Azok a betűtípusok, amelyeknél csak ez a bit van beállítva, nem módosíthatók, beágyazhatók vagy cserélhetők semmilyen módon, anélkül, hogy előbb a jogtulajdonos engedélyét meg nem szereznék. |
-| PreviewPrint | `4` | Ha ez a bit be van állítva, a betűtípus beágyazható, és ideiglenesen betölthető a távoli rendszerre. A Preview &amp; Print betűtípusokat tartalmazó dokumentumokat csak "read-only" módban lehet megnyitni; a dokumentumot nem lehet módosítani. |
-| Editable | `8` | Ha ez a bit be van állítva, a betűtípus beágyazható, de csak ideiglenesen telepíthető más rendszerekre. A Preview &amp; Print betűtípusokkal ellentétben a Editable betűtípusokat tartalmazó dokumentumok megnyithatók olvasásra, a szerkesztés engedélyezett, és a módosítások menthetők. |
-| NoSubsetting | `100` | Ha ez a bit be van állítva, a betűtípust nem lehet részhalmazra korlátozni a beágyazás előtt. A 0-3 és 9 bitekben megadott egyéb beágyazási korlátozások szintén érvényesek. |
-| BitmapOnly | `200` | Ha ez a bit be van állítva, csak a betűtípusban található bitmapek ágyazhatók be. Kontúradatok nem ágyazhatók be. Ha a betűtípusban nincs elérhető bitmap, akkor a betűtípus nem beágyazható, és a beágyazási szolgáltatások hibával végződnek. |
+| Installable | `0` | Az ezzel a beállítással rendelkező betűkészletek jelzik, hogy beágyazhatók és állandóan telepíthetők a távoli rendszerre egy alkalmazás által. A távoli rendszer felhasználója azonos jogokat, kötelezettségeket és licenceket kap a betűkészletre, mint a betűkészlet eredeti vásárlója, és azonos felhasználói licencszerződésnek, szerzői jognak, formatervezési szabadalomnak és/vagy védjegynek van alávetve, mint az eredeti vásárló. |
+| Restricted | `2` | Azok a betűkészletek, amelyeknél csak ez a bit van beállítva, nem módosíthatók, beágyazhatók vagy cserélhetők semmilyen módon anélkül, hogy először meg nem szereznék a jogtulajdonos engedélyét. |
+| PreviewPrint | `4` | Ha ez a bit be van állítva, a betűkészlet beágyazható, és ideiglenesen betölthető a távoli rendszerre. A Preview &amp; Print betűkészleteket tartalmazó dokumentumokat csak "read-only" módban lehet megnyitni; a dokumentumot nem lehet módosítani. |
+| Editable | `8` | Ha ez a bit be van állítva, a betűkészlet beágyazható, de csak ideiglenesen telepíthető más rendszerekre. A Preview &amp; Print betűkészletekkel ellentétben a Editable betűkészleteket tartalmazó dokumentumok megnyithatók olvasásra, a szerkesztés engedélyezett, és a változtatások menthetők. |
+| NoSubsetting | `100` | Ha ez a bit be van állítva, a betűkészlet nem vonható ki részekre a beágyazás előtt. A 0-3 és 9. bitekben megadott egyéb beágyazási korlátozások is alkalmazandók. |
+| BitmapOnly | `200` | Ha ez a bit be van állítva, csak a betűkészletben található bitmap képek ágyazhatók be. Kontúr adatok nem ágyazhatók be. Ha a betűkészletben nincs elérhető bitmap, a betűkészlet beágyazhatatlanként lesz kezelve, és a beágyazási szolgáltatás meghiúsul. |
 
 ### Lásd még
 

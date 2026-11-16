@@ -3,7 +3,7 @@ title: ISectionSlideCollection
 second_title: Aspose.Sildes for .NET API リファレンス
 description: セクション内のスライドのコレクションを表します。
 type: docs
-weight: 6910
+weight: 6930
 url: /ja/aspose.slides/isectionslidecollection/
 ---
 ## ISectionSlideCollection インターフェイス

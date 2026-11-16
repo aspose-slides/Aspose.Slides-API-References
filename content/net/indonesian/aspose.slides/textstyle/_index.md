@@ -1,9 +1,9 @@
 ---
 title: TextStyle
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Kelas ini berisi properti pemformatan gaya teks.
 type: docs
-weight: 11000
+weight: 11020
 url: /id/aspose.slides/textstyle/
 ---
 ## TextStyle kelas
@@ -16,17 +16,17 @@ public sealed class TextStyle : PVIObject, ITextStyle
 
 ## Properti
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Mengizinkan mendapatkan antarmuka dasar IPresentationComponent. Hanya-baca [`IPresentationComponent`](../ipresentationcomponent). |
-| [DefaultParagraphFormat](../../aspose.slides/textstyle/defaultparagraphformat) { get; } | Properti paragraf default. Hanya-baca [`IParagraphFormat`](../iparagraphformat). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Mengizinkan untuk mendapatkan antarmuka IPresentationComponent dasar. Hanya-baca [`IPresentationComponent`](../ipresentationcomponent). |
+| [DefaultParagraphFormat](../../aspose.slides/textstyle/defaultparagraphformat) { get; } | Properti paragraf bawaan. Hanya-baca [`IParagraphFormat`](../iparagraphformat). |
 
 ## Metode
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Membandingkan dengan objek yang ditentukan. |
-| [GetEffective](../../aspose.slides/textstyle/geteffective)() | Mendapatkan data pemformatan gaya teks yang efektif dengan pewarisan yang diterapkan. |
+| [GetEffective](../../aspose.slides/textstyle/geteffective)() | Mengambil data pemformatan gaya teks yang efektif dengan pewarisan yang diterapkan. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Mengembalikan kode hash. |
 | [GetLevel](../../aspose.slides/textstyle/getlevel)(int) | Jika level gaya ada, mengembalikannya; jika tidak, mengembalikan null. |
 

@@ -1,14 +1,14 @@
 ---
 title: NormalViewRestoredProperties
 second_title: Aspose.Sildes för .NET API-referens
-description: Anger storleken på bildområdet, bredd när den är ett barn till restoredTop och höjd när den är ett barn till restoredLeft i normalvyn, när området har en variabel återställd storlek som varken är minimerad eller maximiserad.
+description: Anger storleken på bildspelsområdet, bredd när ett barn till restoredTop, höjd när ett barn till restoredLeft i normalvyn när området har en variabel återställd storlek, varken minimerad eller maximerad.
 type: docs
-weight: 9120
+weight: 9140
 url: /sv/aspose.slides/normalviewrestoredproperties/
 ---
 ## NormalViewRestoredProperties klass
 
-Anger storleken på bildområdet ((bredd när den är ett barn till restoredTop, höjd när den är ett barn till restoredLeft) i normalvyn, när området har en variabel återställd storlek (varken minimerad eller maximerad)).
+Anger storleken på bildspelsområdet ((bredd när ett barn till restoredTop, höjd när ett barn till restoredLeft) i normalvyn, när området har en variabel återställd storlek (varken minimerad eller maximerad).
 
 ```csharp
 public class NormalViewRestoredProperties : INormalViewRestoredProperties
@@ -18,10 +18,10 @@ public class NormalViewRestoredProperties : INormalViewRestoredProperties
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AutoAdjust](../../aspose.slides/normalviewrestoredproperties/autoadjust) { get; set; } | Anger om storleken på sidoinnehållsområdet ska kompensera för den nya storleken när fönstret som innehåller vyn i applikationen ändras storlek Läs/skriv Boolean. |
-| [DimensionSize](../../aspose.slides/normalviewrestoredproperties/dimensionsize) { get; set; } | Anger storleken på bildområdet (bredd när den är ett barn till RestoredTop, höjd när den är ett barn till RestoredLeft). Läs/skriv Single. |
+| [AutoAdjust](../../aspose.slides/normalviewrestoredproperties/autoadjust) { get; set; } | Anger huruvida storleken på sidoinnehållsområdet ska kompensera för den nya storleken när fönstret som innehåller vyn i applikationen ändras storlek. Läs/skriv Boolean. |
+| [DimensionSize](../../aspose.slides/normalviewrestoredproperties/dimensionsize) { get; set; } | Anger storleken på bildspelsområdet (bredd när ett barn till RestoredTop, höjd när ett barn till RestoredLeft). Läs/skriv Single. |
 
-### Se även
+### Se också
 
 * gränssnitt [INormalViewRestoredProperties](../inormalviewrestoredproperties)
 * namnrymd [Aspose.Slides](../../aspose.slides)

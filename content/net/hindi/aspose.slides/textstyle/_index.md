@@ -1,14 +1,14 @@
 ---
 title: TextStyle
-second_title: Aspose.Sildes .NET के लिए API संदर्भ
-description: यह वर्ग टेक्स्ट शैली फॉर्मेटिंग गुणों को सम्मिलित करता है।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: यह वर्ग टेक्स्ट स्टाइल फ़ॉर्मेटिंग गुणों को शामिल करता है।
 type: docs
-weight: 11000
+weight: 11020
 url: /hi/aspose.slides/textstyle/
 ---
-## TextStyle वर्ग
+## TextStyle class
 
-यह वर्ग टेक्स्ट शैली फॉर्मेटिंग गुणों को सम्मिलित करता है।
+यह वर्ग टेक्स्ट स्टाइल फ़ॉर्मेटिंग गुणों को शामिल करता है।
 
 ```csharp
 public sealed class TextStyle : PVIObject, ITextStyle
@@ -18,21 +18,21 @@ public sealed class TextStyle : PVIObject, ITextStyle
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | बेस IPresentationComponent इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल पढ़ने योग्य [`IPresentationComponent`](../ipresentationcomponent). |
-| [DefaultParagraphFormat](../../aspose.slides/textstyle/defaultparagraphformat) { get; } | डिफ़ॉल्ट पैराग्राफ गुण। केवल पढ़ने योग्य [`IParagraphFormat`](../iparagraphformat). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | आधार IPresentationComponent इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IPresentationComponent`](../ipresentationcomponent)। |
+| [DefaultParagraphFormat](../../aspose.slides/textstyle/defaultparagraphformat) { get; } | डिफ़ॉल्ट पैराग्राफ गुण। केवल-पढ़ने योग्य [`IParagraphFormat`](../iparagraphformat)। |
 
 ## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | निर्दिष्ट वस्तु के साथ तुलना करता है। |
-| [GetEffective](../../aspose.slides/textstyle/geteffective)() | विरासत लागू होने पर प्रभावी text style फ़ॉर्मेटिंग डेटा प्राप्त करता है। |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | निर्दिष्ट ऑब्जेक्ट के साथ तुलना करता है। |
+| [GetEffective](../../aspose.slides/textstyle/geteffective)() | विरासत लागू होने के साथ प्रभावी टेक्स्ट स्टाइल फ़ॉर्मेटिंग डेटा प्राप्त करता है। |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | हैश कोड लौटाता है। |
-| [GetLevel](../../aspose.slides/textstyle/getlevel)(int) | यदि शैली का स्तर मौजूद है तो उसे लौटाता है, अन्यथा null लौटाता है। |
+| [GetLevel](../../aspose.slides/textstyle/getlevel)(int) | यदि स्टाइल का स्तर मौजूद है तो उसे लौटाता है, अन्यथा null लौटाता है। |
 
 ### संबंधित देखें
 
-* वर्ग [PVIObject](../pviobject)
+* क्लास [PVIObject](../pviobject)
 * इंटरफ़ेस [ITextStyle](../itextstyle)
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

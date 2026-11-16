@@ -1,14 +1,14 @@
 ---
 title: PresentationText
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt de uit de presentatie geëxtraheerde tekst voor
+description: Stelt de tekst voor die uit de presentatie is gehaald
 type: docs
-weight: 9640
+weight: 9660
 url: /nl/aspose.slides/presentationtext/
 ---
 ## PresentationText klasse
 
-Stelt de tekst die uit de presentatie is geëxtraheerd voor
+Stelt de tekst voor die uit de presentatie is gehaald
 
 ```csharp
 public class PresentationText : IPresentationText

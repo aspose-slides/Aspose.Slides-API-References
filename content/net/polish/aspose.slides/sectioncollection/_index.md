@@ -1,9 +1,9 @@
 ---
 title: SectionCollection
-second_title: Aspose.Sildes dla .NET - odniesienie API
+second_title: Aspose.Sildes dla .NET – Dokumentacja API
 description: Reprezentuje kolekcję sekcji.
 type: docs
-weight: 9760
+weight: 9780
 url: /pl/aspose.slides/sectioncollection/
 ---
 ## SectionCollection klasa
@@ -19,15 +19,15 @@ public sealed class SectionCollection : DomObject<Presentation>, ISectionCollect
 | Nazwa | Opis |
 | --- | --- |
 | [Count](../../aspose.slides/sectioncollection/count) { get; } | Zwraca liczbę elementów faktycznie znajdujących się w kolekcji. Tylko do odczytu Int32. |
-| [IsSynchronized](../../aspose.slides/sectioncollection/issynchronized) { get; } | Zwraca wartość wskazującą, czy dostęp do kolekcji jest zsynchronizowany (wątkowo bezpieczny). Tylko do odczytu Boolean. |
-| [Item](../../aspose.slides/sectioncollection/item) { get; } | Zwraca element pod określonym indeksem. Tylko do odczytu [`ISection`](../isection). |
+| [IsSynchronized](../../aspose.slides/sectioncollection/issynchronized) { get; } | Zwraca wartość wskazującą, czy dostęp do kolekcji jest synchronizowany (wątkowo bezpieczny). Tylko do odczytu Boolean. |
+| [Item](../../aspose.slides/sectioncollection/item) { get; } | Zwraca element o podanym indeksie. Tylko do odczytu [`ISection`](../isection). |
 | [SyncRoot](../../aspose.slides/sectioncollection/syncroot) { get; } | Zwraca korzeń synchronizacji. Tylko do odczytu Object. |
 
 ## Metody
 
 | Nazwa | Opis |
 | --- | --- |
-| [AddEmptySection](../../aspose.slides/sectioncollection/addemptysection)(string, int) | Dodaje pustą sekcję na określone pozycje w kolekcji. |
+| [AddEmptySection](../../aspose.slides/sectioncollection/addemptysection)(string, int) | Dodaje pustą sekcję do określonej pozycji w kolekcji. |
 | [AddSection](../../aspose.slides/sectioncollection/addsection)(string, ISlide) | Dodaje sekcję slajdów rozpoczynającą się od określonego slajdu. |
 | [AppendEmptySection](../../aspose.slides/sectioncollection/appendemptysection)(string) | Dodaje pustą sekcję na koniec kolekcji. |
 | [Clear](../../aspose.slides/sectioncollection/clear)() | Usuwa wszystkie sekcje z kolekcji. |
@@ -35,10 +35,10 @@ public sealed class SectionCollection : DomObject<Presentation>, ISectionCollect
 | [GetEnumerator](../../aspose.slides/sectioncollection/getenumerator)() | Zwraca enumerator, który iteruje po kolekcji. |
 | [IndexOf](../../aspose.slides/sectioncollection/indexof)(ISection) | Zwraca indeks określonej sekcji w kolekcji. |
 | [RemoveSection](../../aspose.slides/sectioncollection/removesection)(ISection) | Usuwa sekcję. Slajdy zawarte w sekcji zostaną połączone z poprzednią sekcją. |
-| [RemoveSectionWithSlides](../../aspose.slides/sectioncollection/removesectionwithslides)(ISection) | Usuwa sekcję oraz slajdy zawarte w sekcji. |
-| [ReorderSectionWithSlides](../../aspose.slides/sectioncollection/reordersectionwithslides)(ISection, int) | Przenosi sekcję i jej slajdy z kolekcji na określoną pozycję. |
+| [RemoveSectionWithSlides](../../aspose.slides/sectioncollection/removesectionwithslides)(ISection) | Usuwa sekcję i slajdy zawarte w sekcji. |
+| [ReorderSectionWithSlides](../../aspose.slides/sectioncollection/reordersectionwithslides)(ISection, int) | Przenosi sekcję i jej slajdy z kolekcji do określonej pozycji. |
 
-### Zobacz także
+### Zobacz również
 
 * klasa [DomObject&lt;TParent&gt;](../domobject-1)
 * klasa [Presentation](../presentation)

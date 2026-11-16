@@ -1,14 +1,14 @@
 ---
 title: ILineParamSource
-second_title: Aspose.Sildes for .NET API リファレンス
-description: 補助ライン パラメータ インターフェイス。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: 補助ライン パラメータのインターフェイス。
 type: docs
-weight: 6330
+weight: 6350
 url: /ja/aspose.slides/ilineparamsource/
 ---
 ## ILineParamSource インターフェイス
 
-補助ライン パラメータ インターフェイス。
+補助ライン パラメータのインターフェイス。
 
 ```csharp
 public interface ILineParamSource

@@ -1,14 +1,14 @@
 ---
 title: ChartDataWorksheetCollection
-second_title: Aspose.Sildes для .NET справочник API
+second_title: Aspose.Sildes для .NET: справочник API
 description: Представляет коллекцию листов рабочей книги данных диаграммы.
 type: docs
-weight: 1400
+weight: 1410
 url: /ru/aspose.slides.charts/chartdataworksheetcollection/
 ---
 ## ChartDataWorksheetCollection класс
 
-Представляет коллекцию листов рабочего книги данных диаграммы.
+Представляет коллекцию листов рабочей книги данных диаграммы.
 
 ```csharp
 public sealed class ChartDataWorksheetCollection : IChartDataWorksheetCollection
@@ -20,14 +20,14 @@ public sealed class ChartDataWorksheetCollection : IChartDataWorksheetCollection
 | --- | --- |
 | [Count](../../aspose.slides.charts/chartdataworksheetcollection/count) { get; } | Возвращает количество. Только для чтения Int32. |
 | [IsSynchronized](../../aspose.slides.charts/chartdataworksheetcollection/issynchronized) { get; } | Возвращает значение, указывающее, синхронизирован ли доступ к коллекции (потокобезопасный). Только для чтения Boolean. |
-| [Item](../../aspose.slides.charts/chartdataworksheetcollection/item) { get; } | Возвращает лист по индексу. |
-| [SyncRoot](../../aspose.slides.charts/chartdataworksheetcollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтения Object. |
+| [Item](../../aspose.slides.charts/chartdataworksheetcollection/item) { get; } | Возвращает лист рабочей книги по индексу. |
+| [SyncRoot](../../aspose.slides.charts/chartdataworksheetcollection/syncroot) { get; } | Возвращает объект синхронизации. Только для чтения Object. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [CopyTo](../../aspose.slides.charts/chartdataworksheetcollection/copyto)(Array, int) | Копировать в указанный массив. |
+| [CopyTo](../../aspose.slides.charts/chartdataworksheetcollection/copyto)(Array, int) | Копирует в указанный массив. |
 | [GetEnumerator](../../aspose.slides.charts/chartdataworksheetcollection/getenumerator)() | Возвращает перечислитель, который перебирает элементы коллекции. |
 
 ### Примеры
@@ -47,7 +47,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IChartDataWorksheetCollection](../ichartdataworksheetcollection)
 * пространство имён [Aspose.Slides.Charts](../../aspose.slides.charts)

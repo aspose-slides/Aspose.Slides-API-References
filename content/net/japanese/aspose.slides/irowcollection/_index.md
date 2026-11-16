@@ -3,7 +3,7 @@ title: IRowCollection
 second_title: Aspose.Sildes for .NET API リファレンス
 description: テーブル行コレクションを表します。
 type: docs
-weight: 6860
+weight: 6880
 url: /ja/aspose.slides/irowcollection/
 ---
 ## IRowCollection インターフェイス
@@ -24,9 +24,9 @@ public interface IRowCollection : IGenericCollection<IRow>
 
 | 名前 | 説明 |
 | --- | --- |
-| [AddClone](../../aspose.slides/irowcollection/addclone)(IRow, bool) | 指定されたテンプレート行のコピーを作成し、テーブルの末尾に挿入します。 |
-| [InsertClone](../../aspose.slides/irowcollection/insertclone)(int, IRow, bool) | 指定されたテンプレート行のコピーを作成し、テーブル内の指定された位置に挿入します。 |
-| [RemoveAt](../../aspose.slides/irowcollection/removeat)(int, bool) | テーブルから指定された位置の行を削除します。 |
+| [AddClone](../../aspose.slides/irowcollection/addclone)(IRow, bool) | 指定されたテンプレート行のコピーを作成し、テーブルの下部に挿入します。 |
+| [InsertClone](../../aspose.slides/irowcollection/insertclone)(int, IRow, bool) | 指定されたテンプレート行のコピーを作成し、テーブルの指定された位置に挿入します。 |
+| [RemoveAt](../../aspose.slides/irowcollection/removeat)(int, bool) | テーブルの指定された位置から行を削除します。 |
 
 ### 参照
 

@@ -1,14 +1,14 @@
 ---
 title: IColorChangeEffectiveData
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: एक अपरिवर्तनीय वस्तु जो एक Color Change प्रभाव का प्रतिनिधित्व करती है। FromColor के उदाहरणों को ToColor के उदाहरणों के साथ प्रतिस्थापित किया जाता है।
+description: एक अपरिवर्तनीय ऑब्जेक्ट जो Color परिवर्तन प्रभाव का प्रतिनिधित्व करता है। FromColor की इंस्टेंसेस को ToColor की इंस्टेंसेस द्वारा बदल दिया जाता है।
 type: docs
-weight: 3230
+weight: 3250
 url: /hi/aspose.slides.effects/icolorchangeeffectivedata/
 ---
 ## IColorChangeEffectiveData इंटरफ़ेस
 
-एक अपरिवर्तनीय वस्तु जो एक Color Change प्रभाव का प्रतिनिधित्व करती है। FromColor की उदाहरणों को ToColor की उदाहरणों के साथ प्रतिस्थापित किया जाता है।
+एक अपरिवर्तनीय ऑब्जेक्ट जो Color परिवर्तन प्रभाव का प्रतिनिधित्व करता है। FromColor की इंस्टेंस को ToColor की इंस्टेंस द्वारा बदल दिया जाता है।
 
 ```csharp
 public interface IColorChangeEffectiveData : IEffectEffectiveData
@@ -18,10 +18,10 @@ public interface IColorChangeEffectiveData : IEffectEffectiveData
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/icolorchangeeffectivedata/asieffecteffectivedata) { get; } | Base IEffectEffectiveData इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IEffectEffectiveData`](../ieffecteffectivedata)। |
-| [FromColor](../../aspose.slides.effects/icolorchangeeffectivedata/fromcolor) { get; } | रंग जो प्रतिस्थापित किया जाएगा। केवल-पढ़ने योग्य Color। |
-| [ToColor](../../aspose.slides.effects/icolorchangeeffectivedata/tocolor) { get; } | रंग जो प्रतिस्थापित करेगा। केवल-पढ़ने योग्य Color। |
-| [UseAlpha](../../aspose.slides.effects/icolorchangeeffectivedata/usealpha) { get; } | एक बूलियन मान लौटाता है जो निर्धारित करता है कि क्या अल्फा घटक का उपयोग किया जाना चाहिए। केवल-पढ़ने योग्य Boolean। |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/icolorchangeeffectivedata/asieffecteffectivedata) { get; } | बेस IEffectEffectiveData इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [FromColor](../../aspose.slides.effects/icolorchangeeffectivedata/fromcolor) { get; } | वह Color जिसे बदला जाएगा। केवल-पढ़ने योग्य Color. |
+| [ToColor](../../aspose.slides.effects/icolorchangeeffectivedata/tocolor) { get; } | वह Color जो प्रतिस्थापित करेगा। केवल-पढ़ने योग्य Color. |
+| [UseAlpha](../../aspose.slides.effects/icolorchangeeffectivedata/usealpha) { get; } | एक Boolean मान लौटाता है जो निर्धारित करता है कि क्या अल्फा घटक का उपयोग किया जाना चाहिए। केवल-पढ़ने योग्य Boolean. |
 
 ### संबंधित देखें
 

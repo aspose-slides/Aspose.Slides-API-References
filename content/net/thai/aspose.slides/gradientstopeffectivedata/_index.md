@@ -1,14 +1,14 @@
 ---
 title: GradientStopEffectiveData
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: อ็อบเจกต์ที่ไม่เปลี่ยนแปลงซึ่งแทนจุดไล่สี
+description: อ็อบเจ็กต์ไม่เปลี่ยนแปลงที่แสดงถึงจุดหยุดไล่ระดับสี.
 type: docs
-weight: 5050
+weight: 5070
 url: /th/aspose.slides/gradientstopeffectivedata/
 ---
 ## GradientStopEffectiveData คลาส
 
-อ็อบเจกต์ที่ไม่สามารถเปลี่ยนแปลงได้ซึ่งแทนจุดไล่สี
+อ็อบเจ็กต์ไม่เปลี่ยนแปลงที่แสดงถึงจุดหยุดไล่ระดับสี.
 
 ```csharp
 public class GradientStopEffectiveData : IGradientStopEffectiveData
@@ -18,14 +18,14 @@ public class GradientStopEffectiveData : IGradientStopEffectiveData
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Color](../../aspose.slides/gradientstopeffectivedata/color) { get; } | ส่งคืนสีของจุดไล่สี. อ่านอย่างเดียว Color. |
-| [Position](../../aspose.slides/gradientstopeffectivedata/position) { get; } | ส่งคืนตำแหน่ง (0..1) ของจุดไล่สี. อ่านอย่างเดียว Single. |
+| [Color](../../aspose.slides/gradientstopeffectivedata/color) { get; } | คืนค่าสีของจุดหยุดไล่ระดับสี. อ่านอย่างเดียว Color. |
+| [Position](../../aspose.slides/gradientstopeffectivedata/position) { get; } | คืนค่าตำแหน่ง (0..1) ของจุดหยุดไล่ระดับสี. อ่านอย่างเดียว Single. |
 
 ## วิธีการ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| override [Equals](../../aspose.slides/gradientstopeffectivedata/equals)(object) | กำหนดว่าค่า [`GradientStopEffectiveData`](../gradientstopeffectivedata) ที่ระบุเท่ากับ [`GradientStopEffectiveData`](../gradientstopeffectivedata) ปัจจุบันหรือไม่. |
+| override [Equals](../../aspose.slides/gradientstopeffectivedata/equals)(object) | กำหนดว่าประเภท [`GradientStopEffectiveData`](../gradientstopeffectivedata) ที่ระบุเท่ากับ [`GradientStopEffectiveData`](../gradientstopeffectivedata) ปัจจุบันหรือไม่. |
 | override [GetHashCode](../../aspose.slides/gradientstopeffectivedata/gethashcode)() |  |
 
 ### ดูเพิ่มเติม

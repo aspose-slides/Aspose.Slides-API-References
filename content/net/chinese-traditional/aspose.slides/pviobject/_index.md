@@ -1,14 +1,14 @@
 ---
 title: PVIObject
-second_title: Aspose.Sildes .NET API 參考
-description: 封裝了可作為屬性值繼承主體之物件的基本服務基礎設施。
+second_title: Aspose.Sildes for .NET API 參考
+description: 封裝可作為屬性值繼承主體之物件的基本服務基礎設施。
 type: docs
-weight: 9270
+weight: 9290
 url: /zh-hant/aspose.slides/pviobject/
 ---
 ## PVIObject 類別
 
-封裝了可作為屬性值繼承主體之物件的基本服務基礎設施。
+封裝可作為屬性值繼承主體之物件的基本服務基礎設施。
 
 ```csharp
 public abstract class PVIObject : ISlideComponent
@@ -27,7 +27,7 @@ public abstract class PVIObject : ISlideComponent
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | 與指定的物件比較。 |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | 傳回雜湊碼。 |
 
-### 參見
+### 另見
 
 * 介面 [ISlideComponent](../islidecomponent)
 * 命名空間 [Aspose.Slides](../../aspose.slides)

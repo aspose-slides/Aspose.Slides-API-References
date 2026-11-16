@@ -1,14 +1,14 @@
 ---
 title: ZoomImageType
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: กำหนดว่าอ็อบเจ็กต์ Zoom ใช้การพรีวิวสไลด์หรือภาพปก
+description: กำหนดว่าวัตถุ Zoom ใช้การแสดงตัวอย่างสไลด์หรือภาพหน้าปกหรือไม่
 type: docs
-weight: 11850
+weight: 11870
 url: /th/aspose.slides/zoomimagetype/
 ---
-## ZoomImageType การนับค่า
+## ZoomImageType การระบุ
 
-กำหนดว่าอ็อบเจ็กต์ Zoom ใช้การพรีวิวสไลด์หรือภาพปก
+กำหนดว่าระบุ Zoom ใช้การแสดงตัวอย่างสไลด์หรือภาพหน้าปกหรือไม่.
 
 ```csharp
 public enum ZoomImageType

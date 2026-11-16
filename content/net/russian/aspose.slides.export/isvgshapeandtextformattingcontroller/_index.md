@@ -1,14 +1,14 @@
 ---
 title: ISvgShapeAndTextFormattingController
 second_title: Aspose.Sildes для .NET справочник API
-description: Управляет генерацией фигур SVG и текста.
+description: Управляет созданием SVG-форм и текста.
 type: docs
-weight: 4120
+weight: 4140
 url: /ru/aspose.slides.export/isvgshapeandtextformattingcontroller/
 ---
 ## ISvgShapeAndTextFormattingController интерфейс
 
-Управляет генерацией фигур SVG и текста.
+Управляет созданием SVG-форм и текста.
 
 ```csharp
 public interface ISvgShapeAndTextFormattingController : ISvgShapeFormattingController
@@ -16,15 +16,15 @@ public interface ISvgShapeAndTextFormattingController : ISvgShapeFormattingContr
 
 ## Свойства
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
 | [AsISvgShapeFormattingController](../../aspose.slides.export/isvgshapeandtextformattingcontroller/asisvgshapeformattingcontroller) { get; } | Возвращает интерфейс ISvgShapeFormattingController. |
 
 ## Методы
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
-| [FormatText](../../aspose.slides.export/isvgshapeandtextformattingcontroller/formattext)(ISvgTSpan, IPortion, ITextFrame) | Эта функция вызывается перед преобразованием части текста в SVG, чтобы позволить пользователю управлять результирующим SVG. |
+| [FormatText](../../aspose.slides.export/isvgshapeandtextformattingcontroller/formattext)(ISvgTSpan, IPortion, ITextFrame) | Эта функция вызывается перед рендерингом части текста в SVG, чтобы пользователь мог управлять полученным SVG. |
 
 ### Примеры
 
@@ -63,7 +63,7 @@ class CustomSvgShapeFormattingController : ISvgShapeAndTextFormattingController
 }
 ```
 
-### Смотрите также
+### См. также
 
 * интерфейс [ISvgShapeFormattingController](../isvgshapeformattingcontroller)
 * пространство имён [Aspose.Slides.Export](../../aspose.slides.export)

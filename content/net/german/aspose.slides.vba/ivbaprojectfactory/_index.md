@@ -1,9 +1,9 @@
 ---
 title: IVbaProjectFactory
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Ermöglicht das Erstellen eines VBA-Projekts über die COM-Schnittstelle
+description: Ermöglicht das Erstellen von VBA-Projekten über die COM-Schnittstelle
 type: docs
-weight: 11560
+weight: 11580
 url: /de/aspose.slides.vba/ivbaprojectfactory/
 ---
 ## IVbaProjectFactory Schnittstelle

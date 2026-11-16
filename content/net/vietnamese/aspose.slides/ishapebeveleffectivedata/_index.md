@@ -1,14 +1,14 @@
 ---
 title: IShapeBevelEffectiveData
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đối tượng bất biến chứa các thuộc tính relief bề mặt hình hiệu quả.
+description: Đối tượng bất biến chứa các thuộc tính relief mặt của các hình dạng hiệu lực.
 type: docs
-weight: 6970
+weight: 6990
 url: /vi/aspose.slides/ishapebeveleffectivedata/
 ---
 ## IShapeBevelEffectiveData giao diện
 
-Đối tượng bất biến chứa các thuộc tính relief bề mặt hình hiệu quả.
+Đối tượng bất biến chứa các thuộc tính relief mặt của hình dạng hiệu lực.
 
 ```csharp
 public interface IShapeBevelEffectiveData

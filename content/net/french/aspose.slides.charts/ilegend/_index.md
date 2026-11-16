@@ -1,9 +1,9 @@
 ---
 title: ILegend
-second_title: Référence de l'API .NET Aspose.Sildes
-description: Représente les propriétés de la légende des graphiques.
+second_title: Référence de l'API Aspose.Sildes pour .NET
+description: Représente les propriétés de légende des graphiques.
 type: docs
-weight: 2130
+weight: 2150
 url: /fr/aspose.slides.charts/ilegend/
 ---
 ## ILegend interface
@@ -18,11 +18,11 @@ public interface ILegend : IActualLayout, IFormattedTextContainer, ILayoutable
 
 | Nom | Description |
 | --- | --- |
-| [AsIFormattedTextContainer](../../aspose.slides.charts/ilegend/asiformattedtextcontainer) { get; } | Permet d'obtenir l'interface IFormattedTextContainer de base. Lecture seule [`IFormattedTextContainer`](../iformattedtextcontainer). |
-| [AsILayoutable](../../aspose.slides.charts/ilegend/asilayoutable) { get; } | Permet d'obtenir l'interface ILayoutable de base. Lecture seule [`ILayoutable`](../ilayoutable). |
-| [Entries](../../aspose.slides.charts/ilegend/entries) { get; } | Obtient les entrées de la légende. Lecture seule [`ILegendEntryCollection`](../ilegendentrycollection). |
+| [AsIFormattedTextContainer](../../aspose.slides.charts/ilegend/asiformattedtextcontainer) { get; } | Permet d'obtenir l'interface de base IFormattedTextContainer. Lecture seule [`IFormattedTextContainer`](../iformattedtextcontainer). |
+| [AsILayoutable](../../aspose.slides.charts/ilegend/asilayoutable) { get; } | Permet d'obtenir l'interface de base ILayoutable. Lecture seule [`ILayoutable`](../ilayoutable). |
+| [Entries](../../aspose.slides.charts/ilegend/entries) { get; } | Obtient les entrées de légende. Lecture seule [`ILegendEntryCollection`](../ilegendentrycollection). |
 | [Format](../../aspose.slides.charts/ilegend/format) { get; } | Renvoie le format d'une légende. Lecture seule [`IFormat`](../iformat). |
-| [Overlay](../../aspose.slides.charts/ilegend/overlay) { get; set; } | Détermine si d'autres éléments du graphique sont autorisés à chevaucher la légende. Lecture/écriture Boolean. |
+| [Overlay](../../aspose.slides.charts/ilegend/overlay) { get; set; } | Détermine si d'autres éléments du graphique peuvent chevaucher la légende. Lecture/écriture Boolean. |
 | [Position](../../aspose.slides.charts/ilegend/position) { get; set; } | Spécifie la position de la légende sur un graphique. Les valeurs non NaN des propriétés X, Y, Width, Heigt remplacent l'effet de cette propriété. Lecture/écriture [`LegendPositionType`](../legendpositiontype). |
 
 ### Voir aussi

@@ -1,9 +1,9 @@
 ---
 title: IThreeDParamSource
-second_title: Aspose.Sildes .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 3D 属性源辅助接口
 type: docs
-weight: 7350
+weight: 7370
 url: /zh/aspose.slides/ithreedparamsource/
 ---
 ## IThreeDParamSource 接口
@@ -14,7 +14,7 @@ url: /zh/aspose.slides/ithreedparamsource/
 public interface IThreeDParamSource
 ```
 
-### 另见
+### 参见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

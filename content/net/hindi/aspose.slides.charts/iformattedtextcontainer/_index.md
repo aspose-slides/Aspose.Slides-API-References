@@ -1,9 +1,9 @@
 ---
 title: IFormattedTextContainer
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
+second_title: Aspose.Sildes for .NET API संदर्भ
 description: चार्ट टेक्स्ट फ़ॉर्मेट का प्रतिनिधित्व करता है।
 type: docs
-weight: 2110
+weight: 2130
 url: /hi/aspose.slides.charts/iformattedtextcontainer/
 ---
 ## IFormattedTextContainer इंटरफ़ेस
@@ -18,8 +18,8 @@ public interface IFormattedTextContainer : IChartComponent
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIChartComponent](../../aspose.slides.charts/iformattedtextcontainer/asichartcomponent) { get; } | रिटर्न करता है IChartComponent इंटरफ़ेस। केवल-पढ़ने योग्य [`IChartComponent`](../ichartcomponent). |
-| [TextFormat](../../aspose.slides.charts/iformattedtextcontainer/textformat) { get; } | रिटर्न करता है चार्ट टेक्स्ट फ़ॉर्मेट। केवल-पढ़ने योग्य [`IChartTextFormat`](../icharttextformat). |
+| [AsIChartComponent](../../aspose.slides.charts/iformattedtextcontainer/asichartcomponent) { get; } | IChartComponent इंटरफ़ेस को लौटाता है। केवल-पढ़ने योग्य [`IChartComponent`](../ichartcomponent)। |
+| [TextFormat](../../aspose.slides.charts/iformattedtextcontainer/textformat) { get; } | चार्ट टेक्स्ट फ़ॉर्मेट को लौटाता है। केवल-पढ़ने योग्य [`IChartTextFormat`](../icharttextformat)। |
 
 ### संबंधित देखें
 

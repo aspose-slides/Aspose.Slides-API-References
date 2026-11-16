@@ -1,14 +1,14 @@
 ---
 title: ILightRigEffectiveData
-second_title: Aspose.Sildes dla .NET – odniesienie API
-description: Niezmienny obiekt zawierający efektywne właściwości układu oświetlenia.
+second_title: Referencja API Aspose.Sildes dla .NET
+description: Niezmienny obiekt zawierający skuteczne właściwości układu oświetlenia.
 type: docs
-weight: 6280
+weight: 6300
 url: /pl/aspose.slides/ilightrigeffectivedata/
 ---
 ## ILightRigEffectiveData interfejs
 
-Niezmienny obiekt zawierający efektywne właściwości układu oświetlenia.
+Niezmienny obiekt zawierający skuteczne właściwości układu oświetlenia.
 
 ```csharp
 public interface ILightRigEffectiveData
@@ -19,13 +19,13 @@ public interface ILightRigEffectiveData
 | Nazwa | Opis |
 | --- | --- |
 | [Direction](../../aspose.slides/ilightrigeffectivedata/direction) { get; } | Kierunek światła. Tylko do odczytu [`LightingDirection`](../lightingdirection). |
-| [LightType](../../aspose.slides/ilightrigeffectivedata/lighttype) { get; } | Reprezentuje wstępnie ustawione światło prawy, które może być zastosowane do kształtu. Układ oświetlenia reprezentuje grupę świateł ustawionych w określony sposób względem sceny 3D. Tylko do odczytu [`LightRigPresetType`](../lightrigpresettype). |
+| [LightType](../../aspose.slides/ilightrigeffectivedata/lighttype) { get; } | Reprezentuje wstępnie ustawione światło po prawej, które może zostać zastosowane do kształtu. Układ oświetlenia reprezentuje grupę świateł ustawionych w określony sposób względem sceny 3D. Tylko do odczytu [`LightRigPresetType`](../lightrigpresettype). |
 
 ## Metody
 
 | Nazwa | Opis |
 | --- | --- |
-| [GetRotation](../../aspose.slides/ilightrigeffectivedata/getrotation)() | Rotacja jest definiowana przy użyciu współrzędnej szerokości, współrzędnej długości oraz obrotu wokół osi jako współrzędnych szerokości i długości. Pierwszy element w zwracanej tablicy – szerokość, drugi – długość, trzeci – obrót. |
+| [GetRotation](../../aspose.slides/ilightrigeffectivedata/getrotation)() | Obrót jest definiowany przy użyciu współrzędnej szerokości, współrzędnej długości oraz obrotu wokół osi jako współrzędnych szerokości i długości. Pierwszy element zwracanej tablicy - szerokość, drugi - długość, trzeci - obrót. |
 
 ### Uwagi
 

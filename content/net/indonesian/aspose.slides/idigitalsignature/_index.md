@@ -1,14 +1,14 @@
 ---
 title: IDigitalSignature
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Tanda tangan digital dalam berkas yang ditandatangani.
+description: Tanda tangan digital dalam file yang ditandatangani.
 type: docs
-weight: 5690
+weight: 5710
 url: /id/aspose.slides/idigitalsignature/
 ---
 ## IDigitalSignature antarmuka
 
-Tanda tangan digital dalam berkas yang ditandatangani.
+Tanda tangan digital dalam file yang ditandatangani.
 
 ```csharp
 public interface IDigitalSignature
@@ -18,10 +18,10 @@ public interface IDigitalSignature
 
 | Nama | Deskripsi |
 | --- | --- |
-| [Certificate](../../aspose.slides/idigitalsignature/certificate) { get; } | Objek sertifikat yang digunakan untuk menandatangani dokumen. Baca-saja X509Certificate2. |
+| [Certificate](../../aspose.slides/idigitalsignature/certificate) { get; } | Objek sertifikat yang digunakan untuk menandatangani dokumen. Hanya-baca X509Certificate2. |
 | [Comments](../../aspose.slides/idigitalsignature/comments) { get; set; } | Tujuan tanda tangan. Baca/tulis String. |
-| [IsValid](../../aspose.slides/idigitalsignature/isvalid) { get; } | Jika tanda tangan digital ini valid dan dokumen tidak diubah, nilai ini akan true. Baca-saja Boolean. |
-| [SignTime](../../aspose.slides/idigitalsignature/signtime) { get; } | Waktu saat dokumen ditandatangani. Baca-saja DateTime. |
+| [IsValid](../../aspose.slides/idigitalsignature/isvalid) { get; } | Jika tanda tangan digital ini valid dan dokumen tidak diubah, nilai ini akan menjadi true. Hanya-baca Boolean. |
+| [SignTime](../../aspose.slides/idigitalsignature/signtime) { get; } | Waktu ketika dokumen ditandatangani. Hanya-baca DateTime. |
 
 ### Lihat Juga
 

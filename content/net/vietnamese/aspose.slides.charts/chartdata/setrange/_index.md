@@ -1,14 +1,14 @@
 ---
 title: SetRange
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đặt phạm vi dữ liệu biểu đồ. Các chuỗi và danh mục sẽ được cập nhật dựa trên phạm vi dữ liệu mới. Nếu số lượng chuỗi trong phạm vi dữ liệu lớn hơn số chuỗi trong dữ liệu biểu đồ, các chuỗi bổ sung có cùng kiểu với chuỗi cuối cùng trong bộ sưu tập hiện tại sẽ được thêm vào cuối bộ sưu tập.
+second_title: Aspose.Sildes cho .NET Tham chiếu API
+description: Đặt phạm vi dữ liệu biểu đồ. Series và categories sẽ được cập nhật dựa trên phạm vi dữ liệu mới. Nếu số lượng series trong phạm vi dữ liệu lớn hơn số series trong dữ liệu biểu đồ thì series bổ sung có cùng kiểu với series cuối cùng trong bộ sưu tập hiện tại sẽ được thêm vào cuối bộ sưu tập.
 type: docs
-weight: 130
+weight: 140
 url: /vi/aspose.slides.charts/chartdata/setrange/
 ---
 ## Phương thức ChartData.SetRange
 
-Đặt phạm vi dữ liệu biểu đồ. Các chuỗi và danh mục sẽ được cập nhật dựa trên phạm vi dữ liệu mới. Nếu số lượng chuỗi trong phạm vi dữ liệu lớn hơn số chuỗi trong dữ liệu biểu đồ, các chuỗi bổ sung có cùng kiểu với chuỗi cuối cùng trong bộ sưu tập hiện tại sẽ được thêm vào cuối bộ sưu tập.
+Đặt phạm vi dữ liệu biểu đồ. Các Series và categories sẽ được cập nhật dựa trên phạm vi dữ liệu mới. Nếu số lượng series trong phạm vi dữ liệu lớn hơn số series trong dữ liệu biểu đồ thì các series bổ sung có cùng kiểu với series cuối cùng trong bộ sưu tập hiện tại sẽ được thêm vào cuối bộ sưu tập.
 
 ```csharp
 public void SetRange(string formula)
@@ -20,11 +20,11 @@ public void SetRange(string formula)
 
 ### Ngoại lệ
 
-| Ngoại lệ | Điều kiện |
+| ngoại lệ | điều kiện |
 | --- | --- |
 | ArgumentNullException | formula là null. |
-| InvalidOperationException | Kiểu biểu đồ không được hỗ trợ |
-| ArgumentException | formula có định dạng không đúng. |
+| InvalidOperationException | Loại biểu đồ không được hỗ trợ |
+| ArgumentException | formula có định dạng không chính xác. |
 
 ### Xem thêm
 

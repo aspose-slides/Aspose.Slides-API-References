@@ -3,7 +3,7 @@ title: IFillFormatCollection
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示填充样式的集合。
 type: docs
-weight: 11230
+weight: 11250
 url: /zh/aspose.slides.theme/ifillformatcollection/
 ---
 ## IFillFormatCollection 接口
@@ -20,7 +20,7 @@ public interface IFillFormatCollection : IGenericCollection<IFillFormat>
 | --- | --- |
 | [Item](../../aspose.slides.theme/ifillformatcollection/item) { get; } | 获取指定索引处的元素。只读 [`IFillFormat`](../../aspose.slides/ifillformat)。 |
 
-### 参见
+### 另请参见
 
 * 接口 [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * 接口 [IFillFormat](../../aspose.slides/ifillformat)

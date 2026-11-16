@@ -3,7 +3,7 @@ title: IControl
 second_title: Aspose.Sildes .NET API 参考
 description: 表示一个 ActiveX 控件。
 type: docs
-weight: 5630
+weight: 5650
 url: /zh/aspose.slides/icontrol/
 ---
 ## IControl 接口
@@ -18,8 +18,8 @@ public interface IControl : ISlideComponent
 
 | 名称 | 描述 |
 | --- | --- |
-| [ActiveXControlBinary](../../aspose.slides/icontrol/activexcontrolbinary) { get; } | 指定 ActiveX 控件的持久性，当用于持久化的方法是 PersistStream、PersistStreamInit 或 PersistStorage 时。 |
-| [AsISlideComponent](../../aspose.slides/icontrol/asislidecomponent) { get; } | 允许获取基类 ISlideComponent 接口。只读 [`ISlideComponent`](../islidecomponent)。 |
+| [ActiveXControlBinary](../../aspose.slides/icontrol/activexcontrolbinary) { get; } | 指定 ActiveX 控件的持久性方式，当用于持久化的方法是 PersistStream、PersistStreamInit 或 PersistStorage 时。 |
+| [AsISlideComponent](../../aspose.slides/icontrol/asislidecomponent) { get; } | 允许获取基础 ISlideComponent 接口。只读 [`ISlideComponent`](../islidecomponent)。 |
 | [ClassId](../../aspose.slides/icontrol/classid) { get; } | 获取此控件的类标识。只读 Guid。 |
 | [Frame](../../aspose.slides/icontrol/frame) { get; set; } | 返回或设置控件的框架。读/写 [`IShapeFrame`](../ishapeframe)。 |
 | [Name](../../aspose.slides/icontrol/name) { get; set; } | 返回此控件的名称。读/写 String。 |

@@ -3,7 +3,7 @@ title: IMathNaryOperatorFactory
 second_title: Aspose.Sildes สำหรับ .NET API Reference
 description: อนุญาตให้สร้าง IMathNaryOperator
 type: docs
-weight: 8370
+weight: 8390
 url: /th/aspose.slides.mathtext/imathnaryoperatorfactory/
 ---
 ## IMathNaryOperatorFactory อินเทอร์เฟซ
@@ -24,7 +24,7 @@ public interface IMathNaryOperatorFactory
 
 ### หมายเหตุ
 
-สำหรับความเข้ากันได้กับ COM
+เพื่อความเข้ากันได้กับ COM
 
 ### ดูเพิ่มเติม
 

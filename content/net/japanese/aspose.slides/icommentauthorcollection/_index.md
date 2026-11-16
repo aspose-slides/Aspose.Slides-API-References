@@ -3,7 +3,7 @@ title: ICommentAuthorCollection
 second_title: Aspose.Sildes for .NET API リファレンス
 description: コメント作成者のコレクションを表します。
 type: docs
-weight: 5580
+weight: 5600
 url: /ja/aspose.slides/icommentauthorcollection/
 ---
 ## ICommentAuthorCollection インターフェイス
@@ -18,7 +18,7 @@ public interface ICommentAuthorCollection : IGenericCollection<ICommentAuthor>
 
 | 名前 | 説明 |
 | --- | --- |
-| [Item](../../aspose.slides/icommentauthorcollection/item) { get; } | 指定されたインデックスの要素を取得します。読み取り専用 [`ICommentAuthor`](../icommentauthor)。 |
+| [Item](../../aspose.slides/icommentauthorcollection/item) { get; } | 指定されたインデックスの要素を取得します。読み取り専用 [`ICommentAuthor`](../icommentauthor). |
 
 ## メソッド
 
@@ -28,8 +28,8 @@ public interface ICommentAuthorCollection : IGenericCollection<ICommentAuthor>
 | [Clear](../../aspose.slides/icommentauthorcollection/clear)() | コレクションからすべての作成者を削除します。 |
 | [FindByName](../../aspose.slides/icommentauthorcollection/findbyname)(string) | 名前でコレクション内の作成者を検索します。 |
 | [FindByNameAndInitials](../../aspose.slides/icommentauthorcollection/findbynameandinitials)(string, string) | 名前とイニシャルでコレクション内の作成者を検索します。 |
-| [Remove](../../aspose.slides/icommentauthorcollection/remove)(ICommentAuthor) | コレクション内の指定された作成者の最初の出現を削除します。 |
-| [RemoveAt](../../aspose.slides/icommentauthorcollection/removeat)(int) | コレクションの指定されたインデックスにある作成者を削除します。 |
+| [Remove](../../aspose.slides/icommentauthorcollection/remove)(ICommentAuthor) | コレクション内で指定された作成者の最初の出現を削除します。 |
+| [RemoveAt](../../aspose.slides/icommentauthorcollection/removeat)(int) | 指定されたインデックスの作成者をコレクションから削除します。 |
 | [ToArray](../../aspose.slides/icommentauthorcollection/toarray)() | すべての作成者を含む配列を作成して返します。 |
 
 ### 参照

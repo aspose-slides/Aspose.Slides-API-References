@@ -1,14 +1,14 @@
 ---
 title: ParentLabelLayoutType
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: カテゴリ データ ラベルのレイアウトを表します。Treemap 系列でのみ使用されます。
 type: docs
-weight: 2350
+weight: 2370
 url: /ja/aspose.slides.charts/parentlabellayouttype/
 ---
 ## ParentLabelLayoutType 列挙型
 
-カテゴリ データ ラベルのレイアウトを表します。Treemap 系列でのみ使用できます。
+カテゴリ データ ラベルのレイアウトを表します。Treemap 系列でのみ使用されます。
 
 ```csharp
 public enum ParentLabelLayoutType
@@ -18,11 +18,11 @@ public enum ParentLabelLayoutType
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
-| Banner | `0` | 親カテゴリ ラベル がバナーとして表示されることを指定します |
-| None | `1` | 親カテゴリ ラベル が描画されないことを指定します |
-| Overlapping | `2` | 親カテゴリ ラベル が重なり合って表示されることを指定します |
+| Banner | `0` | 親カテゴリラベルがバナーとして表示されることを指定します |
+| None | `1` | 親カテゴリラベルが描画されないことを指定します |
+| Overlapping | `2` | 親カテゴリラベルが重なり合って表示されることを指定します |
 
-### 関連項目
+### 参照
 
 * 名前空間 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * アセンブリ [Aspose.Slides](../../)

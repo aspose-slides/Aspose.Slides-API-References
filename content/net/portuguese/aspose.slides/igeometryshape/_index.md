@@ -1,14 +1,14 @@
 ---
 title: IGeometryShape
-second_title: Aspose.Sildes para .NET Referência da API
-description: Representa a classe base para todas as formas geométricas.
+second_title: Aspose.Sildes para .NET Referência de API
+description: Representa a classe pai para todas as formas geométricas.
 type: docs
-weight: 5980
+weight: 6000
 url: /pt/aspose.slides/igeometryshape/
 ---
 ## IGeometryShape interface
 
-Representa a classe base para todas as formas geométricas.
+Representa a classe pai para todas as formas geométricas.
 
 ```csharp
 public interface IGeometryShape : IShape
@@ -16,23 +16,23 @@ public interface IGeometryShape : IShape
 
 ## Propriedades
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
 | [Adjustments](../../aspose.slides/igeometryshape/adjustments) { get; } | Retorna uma coleção dos valores de ajuste da forma. Somente leitura [`IAdjustValueCollection`](../iadjustvaluecollection). |
-| [AsIShape](../../aspose.slides/igeometryshape/asishape) { get; } | Permite obter a interface base IShape. Somente leitura [`IShape`](../ishape). |
+| [AsIShape](../../aspose.slides/igeometryshape/asishape) { get; } | Permite obter a interface IShape base. Somente leitura [`IShape`](../ishape). |
 | [ShapeStyle](../../aspose.slides/igeometryshape/shapestyle) { get; } | Retorna o objeto de estilo da forma. Somente leitura [`IShapeStyle`](../ishapestyle). |
-| [ShapeType](../../aspose.slides/igeometryshape/shapetype) { get; set; } | Retorna ou define o tipo predefinido de geometria. Nota: ao alterar o valor, todos os valores de ajuste serão redefinidos para seus valores padrão. Leitura/gravação [`ShapeType`](../shapetype). |
+| [ShapeType](../../aspose.slides/igeometryshape/shapetype) { get; set; } | Retorna ou define o tipo predefinido de geometria. Nota: ao mudar o valor, todos os valores de ajuste serão redefinidos para seus valores padrão. Leitura/gravação [`ShapeType`](../shapetype). |
 
 ## Métodos
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
 | [CreateShapeElements](../../aspose.slides/igeometryshape/createshapeelements)() | Cria e retorna um array dos elementos da forma. |
-| [GetGeometryPaths](../../aspose.slides/igeometryshape/getgeometrypaths)() | Retorna uma cópia do caminho da forma geométrica. As coordenadas são relativas ao canto superior esquerdo da forma. |
+| [GetGeometryPaths](../../aspose.slides/igeometryshape/getgeometrypaths)() | Retorna a cópia do caminho da forma geométrica. As coordenadas são relativas ao canto superior esquerdo da forma. |
 | [SetGeometryPath](../../aspose.slides/igeometryshape/setgeometrypath)(IGeometryPath) | Atualiza a geometria da forma a partir do objeto [`IGeometryPath`](../igeometrypath). As coordenadas devem ser relativas ao canto superior esquerdo da forma. Altera o tipo da forma ([`ShapeType`](./shapetype)) para Custom. |
 | [SetGeometryPaths](../../aspose.slides/igeometryshape/setgeometrypaths)(IGeometryPath[]) | Atualiza a geometria da forma a partir de um array de [`IGeometryPath`](../igeometrypath). As coordenadas devem ser relativas ao canto superior esquerdo da forma. Altera o tipo da forma ([`ShapeType`](./shapetype)) para Custom. |
 
-### Veja Também
+### Ver também
 
 * interface [IShape](../ishape)
 * namespace [Aspose.Slides](../../aspose.slides)

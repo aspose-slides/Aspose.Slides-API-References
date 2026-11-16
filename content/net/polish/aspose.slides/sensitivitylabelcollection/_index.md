@@ -1,14 +1,14 @@
 ---
 title: SensitivityLabelCollection
-second_title: Aspose.Sildes dla .NET - dokumentacja API
-description: Reprezentuje kolekcję etykiet wrażliwości zastosowanych w dokumencie.
+second_title: Aspose.Sildes dla .NET API Referencja
+description: Reprezentuje kolekcję etykiet poufności zastosowanych w dokumencie.
 type: docs
-weight: 9810
+weight: 9830
 url: /pl/aspose.slides/sensitivitylabelcollection/
 ---
 ## SensitivityLabelCollection klasa
 
-Reprezentuje kolekcję etykiet wrażliwości zastosowanych w dokumencie.
+Reprezentuje kolekcję etykiet poufności zastosowanych do dokumentu.
 
 ```csharp
 public sealed class SensitivityLabelCollection : DomObject<Presentation>, 
@@ -17,21 +17,21 @@ public sealed class SensitivityLabelCollection : DomObject<Presentation>,
 
 ## Właściwości
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
 | [Count](../../aspose.slides/sensitivitylabelcollection/count) { get; } | Zwraca liczbę elementów w kolekcji. Tylko do odczytu Int32. |
-| [Item](../../aspose.slides/sensitivitylabelcollection/item) { get; } | Zwraca etykietę wrażliwości według indeksu. |
+| [Item](../../aspose.slides/sensitivitylabelcollection/item) { get; } | Zwraca etykietę poufności według indeksu. |
 
 ## Metody
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
 | [Add](../../aspose.slides/sensitivitylabelcollection/add#add_1)(ISensitivityLabel) | Dodaje SensitivityLabel do kolekcji. |
-| [Add](../../aspose.slides/sensitivitylabelcollection/add#add)(string, Guid, bool, SensitivityLabelAssignmentType) | Dodaje etykietę wrażliwości na koniec kolekcji. |
+| [Add](../../aspose.slides/sensitivitylabelcollection/add#add)(string, Guid, bool, SensitivityLabelAssignmentType) | Dodaje etykietę poufności na końcu kolekcji. |
 | [Clear](../../aspose.slides/sensitivitylabelcollection/clear)() | Usuwa wszystkie elementy z kolekcji. |
 | [CopyTo](../../aspose.slides/sensitivitylabelcollection/copyto)(ISensitivityLabel[], int) | Kopiuje wszystkie elementy z kolekcji do określonej tablicy. |
 | [GetEnumerator](../../aspose.slides/sensitivitylabelcollection/getenumerator)() | Zwraca enumerator, który iteruje po kolekcji. |
-| [RemoveAt](../../aspose.slides/sensitivitylabelcollection/removeat)(int) | Usuwa etykietę wrażliwości podanym indeksem. |
+| [RemoveAt](../../aspose.slides/sensitivitylabelcollection/removeat)(int) | Usuwa etykietę poufności pod podanym indeksem. |
 
 ### Zobacz także
 

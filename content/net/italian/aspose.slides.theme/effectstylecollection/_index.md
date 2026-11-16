@@ -3,7 +3,7 @@ title: EffectStyleCollection
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta una raccolta di stili di effetto.
 type: docs
-weight: 11090
+weight: 11110
 url: /it/aspose.slides.theme/effectstylecollection/
 ---
 ## EffectStyleCollection classe
@@ -27,7 +27,7 @@ public sealed class EffectStyleCollection : DomObject<FormatScheme>, IEffectStyl
 
 | Nome | Descrizione |
 | --- | --- |
-| [CopyTo](../../aspose.slides.theme/effectstylecollection/copyto)(Array, int) | Copia tutti gli elementi della raccolta nell'array specificato. |
+| [CopyTo](../../aspose.slides.theme/effectstylecollection/copyto)(Array, int) | Copia tutti gli elementi dalla raccolta nell'array specificato. |
 | [GetEnumerator](../../aspose.slides.theme/effectstylecollection/getenumerator)() | Restituisce un enumeratore che itera attraverso la raccolta. |
 
 ### Vedi anche

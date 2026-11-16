@@ -1,14 +1,14 @@
 ---
 title: TrendlineType
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt den Typ der Trendlinie dar
+description: Stellt den Typ einer Trendlinie dar
 type: docs
-weight: 2490
+weight: 2510
 url: /de/aspose.slides.charts/trendlinetype/
 ---
 ## TrendlineType Aufzählung
 
-Stellt den Typ der Trendlinie dar
+Stellt den Typ einer Trendlinie dar
 
 ```csharp
 public enum TrendlineType
@@ -20,9 +20,9 @@ public enum TrendlineType
 | --- | --- | --- |
 | Exponential | `0` | Gibt an, dass die Trendlinie eine exponentielle Kurve in der Form sein soll. |
 | Linear | `1` | Gibt an, dass die Trendlinie eine Linie in der Form sein soll. |
-| Logarithmic | `2` | Gibt an, dass die Trendlinie eine logarithmische Kurve in der Form, wobei log der natürliche Logarithmus ist. |
+| Logarithmic | `2` | Gibt an, dass die Trendlinie eine logarithmische Kurve in der Form ist, wobei log der natürliche Logarithmus ist. |
 | MovingAverage | `3` | Gibt an, dass die Trendlinie ein gleitender Durchschnitt der Periode Period sein soll. |
-| Polynomial | `4` | Gibt an, dass die Trendlinie eine polynomiale Kurve der Ordnung Order in der Form sein soll. |
+| Polynomial | `4` | Gibt an, dass die Trendlinie eine Polynomkurve der Ordnung Order in der Form sein soll. |
 | Power | `5` | Gibt an, dass die Trendlinie eine Potenzkurve in der Form sein soll. |
 
 ### Siehe auch

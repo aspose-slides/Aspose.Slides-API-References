@@ -3,7 +3,7 @@ title: TabFactory
 second_title: Aspose.Sildes for .NET API 参考
 description: 允许创建 ITab 实例
 type: docs
-weight: 10850
+weight: 10870
 url: /zh/aspose.slides/tabfactory/
 ---
 ## TabFactory 类
@@ -30,7 +30,7 @@ public class TabFactory : ITabFactory
 
 用于 COM 兼容性。
 
-### 另请参阅
+### 另见
 
 * 接口 [ITabFactory](../itabfactory)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

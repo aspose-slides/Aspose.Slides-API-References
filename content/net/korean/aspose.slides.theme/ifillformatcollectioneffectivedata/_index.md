@@ -1,14 +1,14 @@
 ---
 title: IFillFormatCollectionEffectiveData
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 읽기 전용 컬렉션인 효과적인 채우기 형식을 나타내는 불변 객체입니다.
+description: 효과적인 채우기 형식의 읽기 전용 컬렉션을 나타내는 불변 객체입니다.
 type: docs
-weight: 11240
+weight: 11260
 url: /ko/aspose.slides.theme/ifillformatcollectioneffectivedata/
 ---
 ## IFillFormatCollectionEffectiveData 인터페이스
 
-읽기 전용 컬렉션인 효과적인 채우기 형식을 나타내는 불변 객체입니다.
+읽기 전용 컬렉션의 효과적인 채우기 형식을 나타내는 불변 객체입니다.
 
 ```csharp
 public interface IFillFormatCollectionEffectiveData : IGenericCollection<IFillFormatEffectiveData>
@@ -24,7 +24,7 @@ public interface IFillFormatCollectionEffectiveData : IGenericCollection<IFillFo
 
 이 인터페이스는 [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata)의 일부로 사용됩니다.
 
-### 참고
+### 관련 항목
 
 * 인터페이스 [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * 인터페이스 [IFillFormatEffectiveData](../../aspose.slides/ifillformateffectivedata)

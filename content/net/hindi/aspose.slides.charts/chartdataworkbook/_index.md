@@ -1,14 +1,14 @@
 ---
 title: ChartDataWorkbook
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: एंबेडेड Excel वर्कबुक तक पहुंच प्रदान करता है
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: एम्बेडेड Excel वर्कबुक तक पहुँच प्रदान करता है
 type: docs
-weight: 1380
+weight: 1390
 url: /hi/aspose.slides.charts/chartdataworkbook/
 ---
 ## ChartDataWorkbook क्लास
 
-एंबेडेड Excel वर्कबुक तक पहुंच प्रदान करता है
+एम्बेडेड Excel वर्कबुक तक पहुँच प्रदान करता है
 
 ```csharp
 public class ChartDataWorkbook : DomObject<ChartData>, IChartDataWorkbook
@@ -24,16 +24,16 @@ public class ChartDataWorkbook : DomObject<ChartData>, IChartDataWorkbook
 
 | नाम | विवरण |
 | --- | --- |
-| [CalculateFormulas](../../aspose.slides.charts/chartdataworkbook/calculateformulas)() | वर्कबुक में सभी फॉर्मूले की गणना करता है और संबंधित सेल मानों को अपडेट करता है। |
-| [Clear](../../aspose.slides.charts/chartdataworkbook/clear)(int) | शीट पर सभी सेल मान साफ़ करता है। |
-| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_2)(int, string) | ऐसे सेल को प्राप्त करता है जिसका उपयोग चार्ट सीरीज़ या श्रेणियों के लिए किया जा सकता है। |
-| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell)(int, int, int) | ऐसे सेल को प्राप्त करता है जिसका उपयोग चार्ट सीरीज़ या श्रेणियों के लिए किया जा सकता है। |
-| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_3)(int, string, object) | ऐसे सेल को प्राप्त करता है जिसका उपयोग चार्ट सीरीज़ या श्रेणियों के लिए किया जा सकता है। |
-| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_4)(string, int, int) | ऐसे सेल को प्राप्त करता है जिसका उपयोग चार्ट सीरीज़ या श्रेणियों के लिए किया जा सकता है। |
-| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_1)(int, int, int, object) | ऐसे सेल को प्राप्त करता है जिसका उपयोग चार्ट सीरीज़ या श्रेणियों के लिए किया जा सकता है। |
+| [CalculateFormulas](../../aspose.slides.charts/chartdataworkbook/calculateformulas)() | वर्कबुक में सभी सूत्रों की गणना करता है और संबंधित सेल मानों को अपडेट करता है। |
+| [Clear](../../aspose.slides.charts/chartdataworkbook/clear)(int) | शीट पर सभी सेल मानों को साफ़ करें। |
+| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_2)(int, string) | चार्ट सीरीज या वर्गों के लिए प्रयुक्त हो सकने वाले सेल को प्राप्त करता है। |
+| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell)(int, int, int) | चार्ट सीरीज या वर्गों के लिए प्रयुक्त हो सकने वाले सेल को प्राप्त करता है। |
+| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_3)(int, string, object) | चार्ट सीरीज या वर्गों के लिए प्रयुक्त हो सकने वाले सेल को प्राप्त करता है। |
+| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_4)(string, int, int) | चार्ट सीरीज या वर्गों के लिए प्रयुक्त हो सकने वाले सेल को प्राप्त करता है। |
+| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_1)(int, int, int, object) | चार्ट सीरीज या वर्गों के लिए प्रयुक्त हो सकने वाले सेल को प्राप्त करता है। |
 | [GetCellCollection](../../aspose.slides.charts/chartdataworkbook/getcellcollection)(string, bool) | सेलों का सेट प्राप्त करता है। |
 
-### देखें
+### संबंधित देखें
 
 * क्लास [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * क्लास [ChartData](../chartdata)

@@ -1,9 +1,9 @@
 ---
 title: IBulletFormat
-second_title: Aspose.Sildes für .NET API Referenz
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt Eigenschaften für die Aufzählungsformatierung von Absätzen dar.
 type: docs
-weight: 5390
+weight: 5410
 url: /de/aspose.slides/ibulletformat/
 ---
 ## IBulletFormat Schnittstelle
@@ -18,23 +18,23 @@ public interface IBulletFormat
 
 | Name | Beschreibung |
 | --- | --- |
-| [Char](../../aspose.slides/ibulletformat/char) { get; set; } | Gibt das Aufzählungszeichenzeichen eines Absatzes ohne Vererbung zurück oder legt es fest. Lesen/Schreiben Char. |
+| [Char](../../aspose.slides/ibulletformat/char) { get; set; } | Gibt das Aufzählungszeichen-Zeichen eines Absatzes ohne Vererbung zurück oder setzt es. Lese/Schreib Char. |
 | [Color](../../aspose.slides/ibulletformat/color) { get; } | Gibt das Farbformat eines Aufzählungszeichens eines Absatzes ohne Vererbung zurück. Nur lesbar [`IColorFormat`](../icolorformat). |
-| [Font](../../aspose.slides/ibulletformat/font) { get; set; } | Gibt die Aufzählungszeichen-Schriftart eines Absatzes ohne Vererbung zurück oder legt sie fest. Lesen/Schreiben [`IFontData`](../ifontdata). |
-| [Height](../../aspose.slides/ibulletformat/height) { get; set; } | Gibt die Aufzählungszeichen-Höhe eines Absatzes ohne Vererbung zurück oder legt sie fest. Der Wert float.NaN bestimmt, dass das Aufzählungszeichen die Höhe vom ersten Abschnitt im Absatz erbt. Lesen/Schreiben Single. |
-| [IsBulletHardColor](../../aspose.slides/ibulletformat/isbullethardcolor) { get; set; } | Ermittelt, ob das Aufzählungszeichen eine eigene Farbe hat oder sie vom ersten Abschnitt im Absatz erbt. **NullableBool.True** wenn das Aufzählungszeichen eine eigene Farbe hat und **NullableBool.False** wenn das Aufzählungszeichen die Farbe vom ersten Abschnitt im Absatz erbt. Lesen/Schreiben [`NullableBool`](../nullablebool). |
-| [IsBulletHardFont](../../aspose.slides/ibulletformat/isbullethardfont) { get; set; } | Ermittelt, ob das Aufzählungszeichen eine eigene Schriftart hat oder sie vom ersten Abschnitt im Absatz erbt. **NullableBool.True** wenn das Aufzählungszeichen eine eigene Schriftart hat und **NullableBool.False** wenn das Aufzählungszeichen die Schriftart vom ersten Abschnitt im Absatz erbt. Lesen/Schreiben [`NullableBool`](../nullablebool). |
-| [NumberedBulletStartWith](../../aspose.slides/ibulletformat/numberedbulletstartwith) { get; set; } | Gibt die erste Zahl zurück, die für eine Gruppe nummerierter Aufzählungszeichen ohne Vererbung verwendet wird, oder legt sie fest. Lesen/Schreiben Int16. |
-| [NumberedBulletStyle](../../aspose.slides/ibulletformat/numberedbulletstyle) { get; set; } | Gibt den Stil eines nummerierten Aufzählungszeichens ohne Vererbung zurück oder legt ihn fest. Lesen/Schreiben [`NumberedBulletStyle`](./numberedbulletstyle). |
+| [Font](../../aspose.slides/ibulletformat/font) { get; set; } | Gibt die Schriftart des Aufzählungszeichens eines Absatzes ohne Vererbung zurück oder setzt sie. Lese/Schreib [`IFontData`](../ifontdata). |
+| [Height](../../aspose.slides/ibulletformat/height) { get; set; } | Gibt die Höhe des Aufzählungszeichens eines Absatzes ohne Vererbung zurück oder setzt sie. Der Wert float.NaN bestimmt, dass das Aufzählungszeichen die Höhe vom ersten Abschnitt im Absatz erbt. Lese/Schreib Single. |
+| [IsBulletHardColor](../../aspose.slides/ibulletformat/isbullethardcolor) { get; set; } | Bestimmt, ob das Aufzählungszeichen eine eigene Farbe hat oder sie vom ersten Abschnitt im Absatz erbt. **NullableBool.True** wenn das Aufzählungszeichen eine eigene Farbe hat und **NullableBool.False** wenn das Aufzählungszeichen die Farbe vom ersten Abschnitt im Absatz erbt. Lese/Schreib [`NullableBool`](../nullablebool). |
+| [IsBulletHardFont](../../aspose.slides/ibulletformat/isbullethardfont) { get; set; } | Bestimmt, ob das Aufzählungszeichen eine eigene Schriftart hat oder sie vom ersten Abschnitt im Absatz erbt. **NullableBool.True** wenn das Aufzählungszeichen eine eigene Schriftart hat und **NullableBool.False** wenn das Aufzählungszeichen die Schriftart vom ersten Abschnitt im Absatz erbt. Lese/Schreib [`NullableBool`](../nullablebool). |
+| [NumberedBulletStartWith](../../aspose.slides/ibulletformat/numberedbulletstartwith) { get; set; } | Gibt die erste Nummer zurück, die für eine Gruppe nummerierter Aufzählungszeichen ohne Vererbung verwendet wird, oder setzt sie. Lese/Schreib Int16. |
+| [NumberedBulletStyle](../../aspose.slides/ibulletformat/numberedbulletstyle) { get; set; } | Gibt den Stil eines nummerierten Aufzählungszeichens ohne Vererbung zurück oder setzt ihn. Lese/Schreib [`NumberedBulletStyle`](./numberedbulletstyle). |
 | [Picture](../../aspose.slides/ibulletformat/picture) { get; } | Gibt das Bild zurück, das als Aufzählungszeichen in einem Absatz ohne Vererbung verwendet wird. Nur lesbar [`ISlidesPicture`](../islidespicture). |
-| [Type](../../aspose.slides/ibulletformat/type) { get; set; } | Gibt den Aufzählungszeichen-Typ eines Absatzes ohne Vererbung zurück oder legt ihn fest. Lesen/Schreiben [`BulletType`](../bullettype). |
+| [Type](../../aspose.slides/ibulletformat/type) { get; set; } | Gibt den Aufzählungszeichentyp eines Absatzes ohne Vererbung zurück oder setzt ihn. Lese/Schreib [`BulletType`](../bullettype). |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [ApplyDefaultParagraphIndentsShifts](../../aspose.slides/ibulletformat/applydefaultparagraphindentsshifts)() | Setzt Standardverschiebungen (nicht Null) für den effektiven Absatz-Einzug und MarginLeft, wenn Aufzählungszeichen aktiviert sind (wie PowerPoint es macht, wenn Absatz-Aufzählungszeichen/Nummerierung aktiviert werden). Ist Aufzählungszeichen deaktiviert, werden Absatz-Einzug und MarginLeft einfach zurückgesetzt (wie PowerPoint es macht, wenn Absatz-Aufzählungszeichen/Nummerierung deaktiviert werden). Einzugs-Verschiebungen werden in Bezug auf den aktuellen Aufzählungszeichen-Kontext angewendet – IBulletFormat.Type, .NumberedBulletStyle und FontHeight des ersten Abschnitts. Nicht-Null-Einzugs-Verschiebungen werden auf den effektiven Einzug und MarginLeft des aktuellen Absatzes angewendet (dadurch werden Ergebniswerte zu lokalen Werten). |
-| [GetEffective](../../aspose.slides/ibulletformat/geteffective)() | Ermittelt die wirksamen Aufzählungszeichen-Formatierungsdaten mit angewandter Vererbung. |
+| [ApplyDefaultParagraphIndentsShifts](../../aspose.slides/ibulletformat/applydefaultparagraphindentsshifts)() | Setzt Standard-Verschiebungen ungleich Null für den effektiven Absatz-Indent und MarginLeft, wenn Aufzählungszeichen aktiviert sind (wie PowerPoint es macht, wenn Absatz-Aufzählungszeichen/Nummerierung aktiviert werden). Wenn Aufzählungszeichen deaktiviert sind, wird lediglich Absatz-Indent und MarginLeft zurückgesetzt (wie PowerPoint es macht, wenn Absatz-Aufzählungszeichen/Nummerierung deaktiviert werden). Die Verschiebungen werden in Bezug auf den aktuellen Aufzählungskontext angewendet – IBulletFormat.Type, .NumberedBulletStyle und FontHeight des ersten Abschnitts. Nicht-null-Verschiebungen werden auf den effektiven Indent und MarginLeft des aktuellen Absatzes angewendet (machen die Ergebniswerte zu lokalen Werten). |
+| [GetEffective](../../aspose.slides/ibulletformat/geteffective)() | Ruft effektive Aufzählungsformatierungsdaten ab, bei denen die Vererbung angewendet wurde. |
 
 ### Siehe auch
 

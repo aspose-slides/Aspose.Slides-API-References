@@ -1,12 +1,12 @@
 ---
 title: ITab
-second_title: Référence de l'API Aspose.Sildes pour .NET
+second_title: Référence API Aspose.Sildes for .NET
 description: Représente une tabulation pour un texte.
 type: docs
-weight: 7190
+weight: 7210
 url: /fr/aspose.slides/itab/
 ---
-## ITab interface
+## interface ITab
 
 Représente une tabulation pour un texte.
 
@@ -20,7 +20,7 @@ public interface ITab : IComparable
 | --- | --- |
 | [Alignment](../../aspose.slides/itab/alignment) { get; set; } | Renvoie ou définit le style d'alignement d'une tabulation. Lecture/écriture [`TabAlignment`](../tabalignment). |
 | [AsIComparable](../../aspose.slides/itab/asicomparable) { get; } | Renvoie l'interface IComparable. Lecture seule IComparable. |
-| [Position](../../aspose.slides/itab/position) { get; set; } | Renvoie ou définit la position d'une tabulation. L'affectation de cette propriété peut changer l'index de la tabulation dans la collection et invalider l'énumérateur. Lecture/écriture Double. |
+| [Position](../../aspose.slides/itab/position) { get; set; } | Renvoie ou définit la position d'une tabulation. L'affectation de cette propriété peut modifier l'index de la tabulation dans la collection et invalider l'énumérateur. Lecture/écriture Double. |
 
 ### Voir aussi
 

@@ -1,9 +1,9 @@
 ---
 title: IDataLabelCollection
-second_title: Aspose.Sildes için .NET API Referansı
-description: Bir serinin etiketlerini temsil eder.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Seri etiketlerini temsil eder.
 type: docs
-weight: 2030
+weight: 2050
 url: /tr/aspose.slides.charts/idatalabelcollection/
 ---
 ## IDataLabelCollection arayüz
@@ -18,24 +18,25 @@ public interface IDataLabelCollection : IChartComponent, IEnumerable<IDataLabel>
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIChartComponent](../../aspose.slides.charts/idatalabelcollection/asichartcomponent) { get; } | Temel IChartComponent arayüzünü almaya izin verir. Salt okunur [`IChartComponent`](../ichartcomponent). |
-| [AsIEnumerable](../../aspose.slides.charts/idatalabelcollection/asienumerable) { get; } | Temel IEnumerable arayüzünü almaya izin verir. Salt okunur IEnumerable. |
-| [Count](../../aspose.slides.charts/idatalabelcollection/count) { get; } | Koleksiyondaki tüm veri etiketlerinin sayısını alır. Salt okunur Int32. |
-| [CountOfVisibleDataLabels](../../aspose.slides.charts/idatalabelcollection/countofvisibledatalabels) { get; } | Koleksiyondaki görünür veri etiketlerinin sayısını alır. Salt okunur Int32. |
-| [DefaultDataLabelFormat](../../aspose.slides.charts/idatalabelcollection/defaultdatalabelformat) { get; } | Koleksiyondaki tüm veri etiketlerinin varsayılan biçimini döndürür. Salt okunur [`IDataLabelFormat`](../idatalabelformat). |
-| [IsVisible](../../aspose.slides.charts/idatalabelcollection/isvisible) { get; } | False, veri etiketinin varsayılan olarak görünür olmadığını (ve böylece DefaultDataLabelFormat özelliğinin tüm Show*-bayraklarının (ShowValue, ...) false olduğunu) belirtir. Salt okunur Boolean. |
+| [AsIChartComponent](../../aspose.slides.charts/idatalabelcollection/asichartcomponent) { get; } | Temel IChartComponent arayüzünü almaya izin verir. Yalnızca okuma [`IChartComponent`](../ichartcomponent). |
+| [AsIEnumerable](../../aspose.slides.charts/idatalabelcollection/asienumerable) { get; } | Temel IEnumerable arayüzünü almaya izin verir. Yalnızca okuma IEnumerable. |
+| [Count](../../aspose.slides.charts/idatalabelcollection/count) { get; } | Koleksiyondaki tüm veri etiketlerinin sayısını alır. Yalnızca okuma Int32. |
+| [CountOfVisibleDataLabels](../../aspose.slides.charts/idatalabelcollection/countofvisibledatalabels) { get; } | Koleksiyondaki görülebilir veri etiketlerinin sayısını alır. Yalnızca okuma Int32. |
+| [DefaultDataLabelFormat](../../aspose.slides.charts/idatalabelcollection/defaultdatalabelformat) { get; } | Koleksiyondaki tüm veri etiketlerinin varsayılan biçimini döndürür. Yalnızca okuma [`IDataLabelFormat`](../idatalabelformat). |
+| [DefaultLabelShapeType](../../aspose.slides.charts/idatalabelcollection/defaultlabelshapetype) { get; set; } | Veri etiketleri için varsayılan şekil türünü alır veya ayarlar. Şekil tanımlı değilse NotDefined döndürür. |
+| [IsVisible](../../aspose.slides.charts/idatalabelcollection/isvisible) { get; } | False, veri etiketinin varsayılan olarak görünür olmadığını (ve böylece DefaultDataLabelFormat özelliğinin tüm Show*-bayrakları (ShowValue, ...) false olduğunu) ifade eder. Yalnızca okuma Boolean. |
 | [Item](../../aspose.slides.charts/idatalabelcollection/item) { get; } | Belirtilen dizine sahip veri noktasının veri etiketini alır. |
-| [LeaderLinesFormat](../../aspose.slides.charts/idatalabelcollection/leaderlinesformat) { get; } | Veri etiketlerinin lider çizgi biçimini temsil eder. Salt okunur [`IChartLinesFormat`](../ichartlinesformat). |
-| [ParentSeries](../../aspose.slides.charts/idatalabelcollection/parentseries) { get; } | Üst chart serisini döndürür. Salt okunur [`IChartSeries`](../ichartseries). |
+| [LeaderLinesFormat](../../aspose.slides.charts/idatalabelcollection/leaderlinesformat) { get; } | Veri etiketleri lider çizgileri biçimini temsil eder. Yalnızca okuma [`IChartLinesFormat`](../ichartlinesformat). |
+| [ParentSeries](../../aspose.slides.charts/idatalabelcollection/parentseries) { get; } | Üst chart serisini döndürür. Yalnızca okuma [`IChartSeries`](../ichartseries). |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [Hide](../../aspose.slides.charts/idatalabelcollection/hide)() | Veri etiketini varsayılan olarak gizlemek için DefaultDataLabelFormat özelliğinin tüm Show*-bayraklarını (ShowValue, ...) false durumuna ayarlar. Bu işlemden sonra IsVisible false olur. |
-| [IndexOf](../../aspose.slides.charts/idatalabelcollection/indexof)(IDataLabel) | Koleksiyondaki belirtilen DataLabel’ın dizinini döndürür. |
+| [Hide](../../aspose.slides.charts/idatalabelcollection/hide)() | Varsayılan olarak tüm Show*-bayraklarını (ShowValue, ...) DefaultDataLabelFormat özelliğinde false durumuna ayarlayarak veri etiketini gizli yapar. Bu işlem sonrası IsVisible false olacaktır. |
+| [IndexOf](../../aspose.slides.charts/idatalabelcollection/indexof)(IDataLabel) | Koleksiyondaki belirtilen DataLabel'ın dizinini döndürür. |
 
-### İlgili
+### Bkz
 
 * arayüz [IChartComponent](../ichartcomponent)
 * arayüz [IDataLabel](../idatalabel)

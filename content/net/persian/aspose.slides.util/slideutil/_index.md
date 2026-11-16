@@ -1,14 +1,14 @@
 ---
 title: SlideUtil
-second_title: Aspose.Sildes برای مرجع API .NET
+second_title: Aspose.Sildes برای .NET مرجع API
 description: متدهایی را ارائه می‌دهد که به جستجوی اشکال و متن در یک ارائه کمک می‌کند.
 type: docs
-weight: 11520
+weight: 11540
 url: /fa/aspose.slides.util/slideutil/
 ---
-## کلاس SlideUtil
+## SlideUtil کلاس
 
-متدهایی را ارائه می‌دهد که به جستجوی اشکال و متن در یک ارائه کمک می‌کند.
+متدهایی را ارائه می‌دهد که به جستجوی اشکال و متن در ارائه کمک می‌کند.
 
 ```csharp
 public static class SlideUtil
@@ -18,22 +18,22 @@ public static class SlideUtil
 
 | نام | توضیح |
 | --- | --- |
-| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes)(ShapesAlignmentType, bool, IBaseSlide) | محل تمام اشکال در اسلاید را تغییر می‌دهد. اشکال را به حاشیه‌ها یا لبه اسلاید هم‌راستا می‌کند یا نسبت به یکدیگر هم‌راستا می‌کند. |
-| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_2)(ShapesAlignmentType, bool, IGroupShape) | محل تمام اشکال در اسلاید را تغییر می‌دهد. اشکال را به حاشیه‌ها یا لبه اسلاید هم‌راستا می‌کند یا نسبت به یکدیگر هم‌راستا می‌کند. |
-| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_1)(ShapesAlignmentType, bool, IBaseSlide, int[]) | محل اشکال انتخاب‌شده در اسلاید را تغییر می‌دهد. اشکال را به حاشیه‌ها یا لبه اسلاید هم‌راستا می‌کند یا نسبت به یکدیگر هم‌راستا می‌کند. |
-| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_3)(ShapesAlignmentType, bool, IGroupShape, int[]) | محل اشکال انتخاب‌شده در گروه‌اشکال را تغییر می‌دهد. اشکال را به حاشیه‌ها یا لبه اسلاید هم‌راستا می‌کند یا نسبت به یکدیگر هم‌راستا می‌کند. |
-| static [FindAndReplaceText](../../aspose.slides.util/slideutil/findandreplacetext)(IPresentation, bool, string, string, PortionFormat) | متن را در ارائه جستجو و با فرمت داده‌شده جایگزین می‌کند. |
-| static [FindShape](../../aspose.slides.util/slideutil/findshape#findshape)(IBaseSlide, string) | شکل را با متن جایگزین در یک اسلاید از ارائه PPTX پیدا می‌کند. |
-| static [FindShape](../../aspose.slides.util/slideutil/findshape#findshape_1)(IPresentation, string) | شکل را با متن جایگزین در یک ارائه PPTX پیدا می‌کند. |
-| static [FindShapesByPlaceholderType](../../aspose.slides.util/slideutil/findshapesbyplaceholdertype)(IBaseSlide, PlaceholderType) | تمام اشکال در اسلاید مشخص‌شده را که با نوع جایگزین‌کننده داده‌شده مطابقت دارند جستجو می‌کند. |
-| static [GetAllTextBoxes](../../aspose.slides.util/slideutil/getalltextboxes)(IBaseSlide) | تمام قاب‌های متن را در یک اسلاید از ارائه PPTX برمی‌گرداند. |
-| static [GetAllTextFrames](../../aspose.slides.util/slideutil/getalltextframes)(IPresentation, bool) | تمام قاب‌های متن را در یک ارائه PPTX برمی‌گرداند. |
-| static [GetTextBoxesContainsText](../../aspose.slides.util/slideutil/gettextboxescontainstext)(IBaseSlide, string, bool) | تمام قاب‌های متنی را که در اسلاید مشخص‌شده شامل متن داده‌شده هستند برمی‌گرداند. |
+| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes)(ShapesAlignmentType, bool, IBaseSlide) | موقعیت تمامی اشکال روی اسلاید را تغییر می‌دهد. اشکال را به حاشیه‌ها یا لبه اسلاید هم‌تراز می‌کند یا آن‌ها را نسبت به یکدیگر هم‌تراز می‌نماید. |
+| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_2)(ShapesAlignmentType, bool, IGroupShape) | موقعیت تمامی اشکال داخل گروه‌اشکال را تغییر می‌دهد. اشکال را به حاشیه‌ها یا لبه اسلاید هم‌تراز می‌کند یا آن‌ها را نسبت به یکدیگر هم‌تراز می‌نماید. |
+| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_1)(ShapesAlignmentType, bool, IBaseSlide, int[]) | موقعیت اشکال انتخاب‌شده روی اسلاید را تغییر می‌دهد. اشکال را به حاشیه‌ها یا لبه اسلاید هم‌تراز می‌کند یا آن‌ها را نسبت به یکدیگر هم‌تراز می‌نماید. |
+| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_3)(ShapesAlignmentType, bool, IGroupShape, int[]) | موقعیت اشکال انتخاب‌شده داخل گروه‌اشکال را تغییر می‌دهد. اشکال را به حاشیه‌ها یا لبه اسلاید هم‌تراز می‌کند یا آن‌ها را نسبت به یکدیگر هم‌تراز می‌نماید. |
+| static [FindAndReplaceText](../../aspose.slides.util/slideutil/findandreplacetext)(IPresentation, bool, string, string, PortionFormat) | متن را در ارائه پیدا می‌کند و با فرمت داده‌شده جایگزین می‌نماید. |
+| static [FindShape](../../aspose.slides.util/slideutil/findshape#findshape)(IBaseSlide, string) | یک شکل را بر اساس متن جایگزین در اسلایدی از ارائهٔ PPTX پیدا می‌کند. |
+| static [FindShape](../../aspose.slides.util/slideutil/findshape#findshape_1)(IPresentation, string) | یک شکل را بر اساس متن جایگزین در یک ارائهٔ PPTX پیدا می‌کند. |
+| static [FindShapesByPlaceholderType](../../aspose.slides.util/slideutil/findshapesbyplaceholdertype)(IBaseSlide, PlaceholderType) | تمام اشکال موجود در اسلاید مشخص‌شده که با نوع جایگزین‌گر داده‌شده مطابقت دارند را جستجو می‌کند. |
+| static [GetAllTextBoxes](../../aspose.slides.util/slideutil/getalltextboxes)(IBaseSlide) | تمام فریم‌های متن روی اسلایدی در ارائهٔ PPTX را باز می‌گرداند. |
+| static [GetAllTextFrames](../../aspose.slides.util/slideutil/getalltextframes)(IPresentation, bool) | تمام فریم‌های متن در یک ارائهٔ PPTX را باز می‌گرداند. |
+| static [GetTextBoxesContainsText](../../aspose.slides.util/slideutil/gettextboxescontainstext)(IBaseSlide, string, bool) | تمام فریم‌های متن روی اسلاید مشخص‌شده که شامل متن داده‌شده هستند را باز می‌گرداند. |
 | static [ToSaveFormat](../../aspose.slides.util/slideutil/tosaveformat)(SourceFormat) | یک فرمت فایل منبع را به [`SaveFormat`](../../aspose.slides.export/saveformat) متناظر تبدیل می‌کند. |
 
-### موارد مرتبط
+### مطالب مرتبط
 
-* فضای نام [Aspose.Slides.Util](../../aspose.slides.util)
-* مجمع [Aspose.Slides](../../)
+* فضای‌نام [Aspose.Slides.Util](../../aspose.slides.util)
+* مجوعه [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

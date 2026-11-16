@@ -1,9 +1,9 @@
 ---
 title: FormatFactory
-second_title: Referencia de la API de Aspose.Sildes para .NET
+second_title: Aspose.Sildes para la referencia de API de .NET
 description: Permite crear formatos a través de la interfaz COM.
 type: docs
-weight: 4950
+weight: 4970
 url: /es/aspose.slides/formatfactory/
 ---
 ## FormatFactory clase
@@ -24,7 +24,7 @@ public class FormatFactory : IFormatFactory
 
 | Nombre | Descripción |
 | --- | --- |
-| static [Instance](../../aspose.slides/formatfactory/instance) { get; } | Instancia estática de la fábrica de formatos. Solo lectura [`FormatFactory`](../formatfactory). |
+| static [Instance](../../aspose.slides/formatfactory/instance) { get; } | Instancia estática de la fábrica de formatos. Solo de lectura [`FormatFactory`](../formatfactory). |
 
 ## Métodos
 

@@ -1,14 +1,14 @@
 ---
 title: IVbaReferenceOleTypeLib
-second_title: Aspose.Sildes .NET için API Referansı
-description: OLE Automation tip kitaplığı referansını temsil eder.
+second_title: .NET için Aspose.Sildes API Referansı
+description: OLE Automation tür kitaplığı referansını temsil eder.
 type: docs
-weight: 11610
+weight: 11630
 url: /tr/aspose.slides.vba/ivbareferenceoletypelib/
 ---
-## IVbaReferenceOleTypeLib arayüzü
+## IVbaReferenceOleTypeLib arayüz
 
-OLE Automation tip kitaplığı referansını temsil eder.
+OLE Automation tür kitaplığı referansını temsil eder.
 
 ```csharp
 public interface IVbaReferenceOleTypeLib : IVbaReference
@@ -18,8 +18,8 @@ public interface IVbaReferenceOleTypeLib : IVbaReference
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIVbaReference](../../aspose.slides.vba/ivbareferenceoletypelib/asivbareference) { get; } | IVbaReference arayüzünü döndürür. Salt okunur [`IVbaReference`](../ivbareference). |
-| [Libid](../../aspose.slides.vba/ivbareferenceoletypelib/libid) { get; set; } | Automation tip kitaplığının tanımlayıcısını temsil eder. Okunabilir/Yazılabilir String. |
+| [AsIVbaReference](../../aspose.slides.vba/ivbareferenceoletypelib/asivbareference) { get; } | IVbaReference arayüzünü döndürür. Yalnızca okunabilir [`IVbaReference`](../ivbareference). |
+| [Libid](../../aspose.slides.vba/ivbareferenceoletypelib/libid) { get; set; } | Bir Automation tip kitaplığının tanımlayıcısını temsil eder. Okunabilir/yazılabilir String. |
 
 ### Ayrıca Bakınız
 

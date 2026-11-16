@@ -1,46 +1,46 @@
 ---
 title: IStreamWrapper
-second_title: مرجع API Aspose.Sildes برای .NET
-description: لفاف Aspose.IO.Stream برای رابط COM.
+second_title: Aspose.Sildes برای مرجع API .NET
+description: پوشش Aspose.IO.Stream برای رابط COM.
 type: docs
-weight: 7130
+weight: 7150
 url: /fa/aspose.slides/istreamwrapper/
 ---
 ## IStreamWrapper رابط
 
-Aspose.IO.Stream wrapper for COM interface.
+پوشش Aspose.IO.Stream برای رابط COM.
 
 ```csharp
 public interface IStreamWrapper : IDisposable
 ```
 
-## خصوصیات
+## ویژگی‌ها
 
-| Name | Description |
+| نام | توضیح |
 | --- | --- |
-| [AsIDisposable](../../aspose.slides/istreamwrapper/asidisposable) { get; } | امکان دسترسی به رابط پایه IDisposable را فراهم می‌کند. فقط-خواندنی IDisposable. |
-| [CanRead](../../aspose.slides/istreamwrapper/canread) { get; } | یک مقدار را برمی‌گرداند که نشان می‌دهد آیا جریان فعلی از خواندن پشتیبانی می‌کند یا خیر. فقط-خواندنی Boolean. |
-| [CanSeek](../../aspose.slides/istreamwrapper/canseek) { get; } | یک مقدار را برمی‌گرداند که نشان می‌دهد آیا جریان فعلی از جستجو پشتیبانی می‌کند یا خیر. فقط-خواندنی Boolean. |
-| [CanWrite](../../aspose.slides/istreamwrapper/canwrite) { get; } | یک مقدار را برمی‌گرداند که نشان می‌دهد آیا جریان فعلی از نوشتن پشتیبانی می‌کند یا خیر. فقط-خواندنی Boolean. |
-| [Length](../../aspose.slides/istreamwrapper/length) { get; } | طول جریان را بر حسب بایت برمی‌گرداند. فقط-خواندنی Int64. |
-| [Position](../../aspose.slides/istreamwrapper/position) { get; } | موقعیت داخل جریان فعلی را برمی‌گرداند. فقط-خواندنی Int64. |
-| [Stream](../../aspose.slides/istreamwrapper/stream) { get; } | یک جریان را برمی‌گرداند. فقط-خواندنی Stream. |
+| [AsIDisposable](../../aspose.slides/istreamwrapper/asidisposable) { get; } | امکان دریافت رابط پایه IDisposable را فراهم می‌کند. فقط خواندنی IDisposable. |
+| [CanRead](../../aspose.slides/istreamwrapper/canread) { get; } | مقداری را برمی‌گرداند که نشان می‌دهد آیا جریان جاری از خواندن پشتیبانی می‌کند یا خیر. فقط خواندنی Boolean. |
+| [CanSeek](../../aspose.slides/istreamwrapper/canseek) { get; } | مقداری را برمی‌گرداند که نشان می‌دهد آیا جریان جاری از جستجو (seeking) پشتیبانی می‌کند یا خیر. فقط خواندنی Boolean. |
+| [CanWrite](../../aspose.slides/istreamwrapper/canwrite) { get; } | مقداری را برمی‌گرداند که نشان می‌دهد آیا جریان جاری از نوشتن پشتیبانی می‌کند یا خیر. فقط خواندنی Boolean. |
+| [Length](../../aspose.slides/istreamwrapper/length) { get; } | طول جریان بر حسب بایت را برمی‌گرداند. فقط خواندنی Int64. |
+| [Position](../../aspose.slides/istreamwrapper/position) { get; } | موقعیت درون جریان جاری را برمی‌گرداند. فقط خواندنی Int64. |
+| [Stream](../../aspose.slides/istreamwrapper/stream) { get; } | یک Stream را برمی‌گرداند. فقط خواندنی Stream. |
 
 ## متدها
 
-| Name | Description |
+| نام | توضیح |
 | --- | --- |
-| [Close](../../aspose.slides/istreamwrapper/close)() | جریان فعلی را می‌بندد و تمام منابع را آزاد می‌کند. |
-| [Flush](../../aspose.slides/istreamwrapper/flush)() | تمام بافرهای این جریان را پاک می‌کند و داده‌های بافرشده را به دستگاه پایه می‌نویسد. |
-| [Read](../../aspose.slides/istreamwrapper/read)(byte[], int, int) | یک دنباله از بایت‌ها را از جریان فعلی می‌خواند و موقعیت را به اندازه تعداد بایت خوانده‌شده جلو می‌برد. |
-| [ReadByte](../../aspose.slides/istreamwrapper/readbyte)() | یک بایت را از جریان می‌خواند و موقعیت را یک بایت جلو می‌برد، یا در صورت رسیدن به انتهای جریان -1 برمی‌گرداند. |
-| [Seek](../../aspose.slides/istreamwrapper/seek)(long, SeekOrigin) | موقعیت داخل جریان فعلی را تنظیم می‌کند. |
-| [Write](../../aspose.slides/istreamwrapper/write)(byte[], int, int) | دنباله‌ای از بایت‌ها را به جریان فعلی می‌نویسد و موقعیت جاری را به اندازه تعداد بایت نوشته شده جلو می‌برد. |
-| [WriteByte](../../aspose.slides/istreamwrapper/writebyte)(byte) | یک بایت را در موقعیت جاری جریان می‌نویسد و موقعیت را یک بایت جلو می‌برد. |
+| [Close](../../aspose.slides/istreamwrapper/close)() | جریان جاری را می‌بندد و تمام منابع را آزاد می‌کند. |
+| [Flush](../../aspose.slides/istreamwrapper/flush)() | تمام بافرهای این جریان را پاک می‌کند و داده‌های بافرشده را به دستگاه زیرین می‌نویسد. |
+| [Read](../../aspose.slides/istreamwrapper/read)(byte[], int, int) | یک دنباله بایت را از جریان جاری می‌خواند و موقعیت جریان را به اندازه تعداد بایت‌های خوانده شده جابجا می‌کند. |
+| [ReadByte](../../aspose.slides/istreamwrapper/readbyte)() | یک بایت را از جریان می‌خواند و موقعیت را به اندازه یک بایت جلو می‌برد، یا اگر در انتهای جریان باشد -1 برمی‌گرداند. |
+| [Seek](../../aspose.slides/istreamwrapper/seek)(long, SeekOrigin) | موقعیت درون جریان جاری را تنظیم می‌کند. |
+| [Write](../../aspose.slides/istreamwrapper/write)(byte[], int, int) | یک دنباله بایت را به جریان جاری می‌نویسد و موقعیت فعلی را در این جریان به اندازه تعداد بایت‌های نوشته شده جابجا می‌کند. |
+| [WriteByte](../../aspose.slides/istreamwrapper/writebyte)(byte) | یک بایت را در موقعیت فعلی در جریان می‌نویسد و موقعیت را در جریان به اندازه یک بایت جلو می‌برد. |
 
-### ارجاع‌ها
+### همچنین ببینید
 
-* فضای‌نامی [Aspose.Slides](../../aspose.slides)
-* مجوعه [Aspose.Slides](../../)
+* فضای‌نام [Aspose.Slides](../../aspose.slides)
+* اسمبلی [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

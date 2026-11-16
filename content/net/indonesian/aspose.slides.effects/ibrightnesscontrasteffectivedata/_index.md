@@ -1,14 +1,14 @@
 ---
 title: IBrightnessContrastEffectiveData
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Objek tidak berubah yang mewakili efek BrightnessContrast. Menyesuaikan kecerahan dan kontras
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Objek tak berubah yang mewakili efek BrightnessContrast. Menyesuaikan kecerahan dan kontras
 type: docs
-weight: 3210
+weight: 3230
 url: /id/aspose.slides.effects/ibrightnesscontrasteffectivedata/
 ---
 ## IBrightnessContrastEffectiveData antarmuka
 
-Objek tidak berubah yang mewakili efek BrightnessContrast. Menyesuaikan kecerahan dan kontras
+Objek tak berubah yang mewakili efek BrightnessContrast. Menyesuaikan kecerahan dan kontras
 
 ```csharp
 public interface IBrightnessContrastEffectiveData : IEffectEffectiveData
@@ -18,8 +18,8 @@ public interface IBrightnessContrastEffectiveData : IEffectEffectiveData
 
 | Nama | Deskripsi |
 | --- | --- |
-| [Brightness](../../aspose.slides.effects/ibrightnesscontrasteffectivedata/brightness) { get; } | Mengembalikan kecerahan. Hanya-baca Single. |
-| [Contrast](../../aspose.slides.effects/ibrightnesscontrasteffectivedata/contrast) { get; } | Mengembalikan kontras. Hanya-baca Single. |
+| [Brightness](../../aspose.slides.effects/ibrightnesscontrasteffectivedata/brightness) { get; } | Mengembalikan kecerahan. Baca-saja Single. |
+| [Contrast](../../aspose.slides.effects/ibrightnesscontrasteffectivedata/contrast) { get; } | Mengembalikan kontras. Baca-saja Single. |
 
 ### Lihat Juga
 

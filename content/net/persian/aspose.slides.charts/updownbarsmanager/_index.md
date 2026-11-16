@@ -1,29 +1,29 @@
 ---
 title: UpDownBarsManager
 second_title: Aspose.Sildes برای مرجع API .NET
-description: دسترسی به نوارهای بالا/پایین نمودار خط یا نمودار سهام را فراهم می‌کند.
+description: دسترسی به نوارهای بالا/پایین در نمودار خط یا سهام را فراهم می‌کند.
 type: docs
-weight: 2500
+weight: 2520
 url: /fa/aspose.slides.charts/updownbarsmanager/
 ---
 ## UpDownBarsManager کلاس
 
-دسترسی به نوارهای بالا/پایین نمودار خط یا نمودار سهام را فراهم می‌کند.
+دسترسی به نوارهای بالا/پایین در نمودار خط یا سهام را فراهم می‌کند.
 
 ```csharp
 public class UpDownBarsManager : DomObject<ChartSeriesGroup>, IUpDownBarsManager
 ```
 
-## خصوصیات
+## ویژگی‌ها
 
 | نام | توضیح |
 | --- | --- |
-| [DownBarsFormat](../../aspose.slides.charts/updownbarsmanager/downbarsformat) { get; } | قالب DownBars را برمی‌گرداند. فقط-خواندنی [`IFormat`](../iformat). |
-| [GapWidth](../../aspose.slides.charts/updownbarsmanager/gapwidth) { get; set; } | GapWidth. خواندنی/نوشتنی Int32. |
-| [HasUpDownBars](../../aspose.slides.charts/updownbarsmanager/hasupdownbars) { get; set; } | HasUpDownBars. خواندنی/نوشتنی Boolean. |
-| [UpBarsFormat](../../aspose.slides.charts/updownbarsmanager/upbarsformat) { get; } | قالب UpBars را برمی‌گرداند. فقط-خواندنی [`IFormat`](../iformat). |
+| [DownBarsFormat](../../aspose.slides.charts/updownbarsmanager/downbarsformat) { get; } | فرمت DownBars را برمی‌گرداند. فقط‌خواندنی [`IFormat`](../iformat). |
+| [GapWidth](../../aspose.slides.charts/updownbarsmanager/gapwidth) { get; set; } | GapWidth. قابل‌خواندن/نوشتن Int32. |
+| [HasUpDownBars](../../aspose.slides.charts/updownbarsmanager/hasupdownbars) { get; set; } | HasUpDownBars. قابل‌خواندن/نوشتن Boolean. |
+| [UpBarsFormat](../../aspose.slides.charts/updownbarsmanager/upbarsformat) { get; } | فرمت UpBars را برمی‌گرداند. فقط‌خواندنی [`IFormat`](../iformat). |
 
-### همچنین ببینید
+### موارد مرتبط
 
 * کلاس [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * کلاس [ChartSeriesGroup](../chartseriesgroup)

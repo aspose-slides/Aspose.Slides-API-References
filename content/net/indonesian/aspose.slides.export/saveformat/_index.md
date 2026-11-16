@@ -1,12 +1,12 @@
 ---
 title: SaveFormat
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Konstanta yang menentukan format presentasi yang disimpan.
 type: docs
-weight: 4440
+weight: 4460
 url: /id/aspose.slides.export/saveformat/
 ---
-## enumerasi SaveFormat
+## Enumerasi SaveFormat
 
 Konstanta yang menentukan format presentasi yang disimpan.
 
@@ -25,10 +25,10 @@ public enum SaveFormat
 | Ppsx | `4` | Simpan presentasi dalam format PPSX (slideshow). |
 | Tiff | `5` | Simpan presentasi sebagai gambar TIFF multi-halaman. |
 | Odp | `6` | Simpan presentasi dalam format ODP. |
-| Pptm | `7` | Simpan presentasi dalam format PPTM (presentasi dengan makro). |
-| Ppsm | `9` | Simpan presentasi dalam format PPSM (slideshow dengan makro). |
+| Pptm | `7` | Simpan presentasi dalam format PPTM (presentasi yang mendukung makro). |
+| Ppsm | `9` | Simpan presentasi dalam format PPSM (slideshow yang mendukung makro). |
 | Potx | `10` | Simpan presentasi dalam format POTX (templat). |
-| Potm | `11` | Simpan presentasi dalam format POTM (templat dengan makro). |
+| Potm | `11` | Simpan presentasi dalam format POTM (templat yang mendukung makro). |
 | Html | `13` | Simpan presentasi dalam format HTML. |
 | Swf | `15` | Simpan presentasi dalam format SWF. |
 | Otp | `17` | Simpan presentasi dalam format OTP (templat presentasi). |

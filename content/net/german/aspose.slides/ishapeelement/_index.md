@@ -1,14 +1,14 @@
 ---
 title: IShapeElement
-second_title: Aspose.Sildes für .NET API Referenz
-description: Stellt einen Teil einer Form dar, der dieselben Kontur- und Fülleigenschaften hat.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Stellt einen Teil einer Form dar, der dieselben Kontur- und Füll-Eigenschaften hat.
 type: docs
-weight: 6990
+weight: 7010
 url: /de/aspose.slides/ishapeelement/
 ---
 ## IShapeElement Schnittstelle
 
-Stellt einen Teil einer Form dar, der dieselben Kontur- und Fülleigenschaften hat.
+Stellt einen Teil einer Form dar, der dieselben Kontur- und Füll-Eigenschaften hat.
 
 ```csharp
 public interface IShapeElement

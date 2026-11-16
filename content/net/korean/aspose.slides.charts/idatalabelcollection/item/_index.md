@@ -3,12 +3,12 @@ title: Item
 second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 지정된 인덱스를 가진 데이터 포인트에 대한 데이터 레이블을 가져옵니다.
 type: docs
-weight: 70
+weight: 80
 url: /ko/aspose.slides.charts/idatalabelcollection/item/
 ---
 ## IDataLabelCollection 인덱서
 
-지정된 인덱스를 가진 데이터 포인트에 대한 데이터 레이블을 가져옵니다.
+지정된 인덱스를 가진 데이터 포인트의 데이터 레이블을 가져옵니다.
 
 ```csharp
 public IDataLabel this[int index] { get; }
@@ -16,9 +16,9 @@ public IDataLabel this[int index] { get; }
 
 ### 비고
 
-데이터 레이블에 접근하는 대체 방법은 다음과 같습니다: - SeriesEx.DataPoints[i].Label - 레이블 속성을 관리합니다.
+데이터 레이블에 접근하는 다른 방법은: - SeriesEx.DataPoints[i].Label - 레이블 속성을 관리합니다.
 
-### 관련 항목
+### 참고
 
 * 인터페이스 [IDataLabel](../../idatalabel)
 * 인터페이스 [IDataLabelCollection](../../idatalabelcollection)

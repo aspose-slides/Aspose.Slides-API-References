@@ -1,14 +1,14 @@
 ---
 title: ParentSeries
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: ดึงซีรีส์พาเรนท์. อ่านอย่างเดียว IChartSeriesaspose.slides.charts/ichartseries.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: รับชุดข้อมูลหลัก. อ่านอย่างเดียว IChartSeriesaspose.slides.charts/ichartseries.
 type: docs
-weight: 80
+weight: 90
 url: /th/aspose.slides.charts/datalabelcollection/parentseries/
 ---
 ## DataLabelCollection.ParentSeries คุณสมบัติ
 
-ดึงซีรีส์พาเรนท์. อ่านอย่างเดียว [`IChartSeries`](../../ichartseries).
+รับชุดข้อมูลหลัก. อ่านอย่างเดียว [`IChartSeries`](../../ichartseries).
 
 ```csharp
 public IChartSeries ParentSeries { get; }

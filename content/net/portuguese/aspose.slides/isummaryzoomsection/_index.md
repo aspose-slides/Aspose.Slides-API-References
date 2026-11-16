@@ -1,14 +1,14 @@
 ---
 title: ISummaryZoomSection
-second_title: Aspose.Slides para .NET Referência da API
-description: Representa um objeto Summary Zoom Section em um quadro Summary Zoom.
+second_title: Aspose.Sildes para .NET Referência de API
+description: Representa um objeto Summary Zoom Section em um frame Summary Zoom.
 type: docs
-weight: 7160
+weight: 7180
 url: /pt/aspose.slides/isummaryzoomsection/
 ---
 ## ISummaryZoomSection interface
 
-Representa um objeto Summary Zoom Section em um quadro Summary Zoom.
+Representa um objeto Summary Zoom Section em um frame Summary Zoom.
 
 ```csharp
 public interface ISummaryZoomSection : ISectionZoomFrame
@@ -18,11 +18,11 @@ public interface ISummaryZoomSection : ISectionZoomFrame
 
 | Nome | Descrição |
 | --- | --- |
-| [AsISectionZoomFrame](../../aspose.slides/isummaryzoomsection/asisectionzoomframe) { get; } | Retorna ISectionZoomFrame interface. |
+| [AsISectionZoomFrame](../../aspose.slides/isummaryzoomsection/asisectionzoomframe) { get; } | Retorna a interface ISectionZoomFrame. |
 | [Description](../../aspose.slides/isummaryzoomsection/description) { get; set; } | Retorna a descrição de texto do objeto Summary Zoom Section. |
 | [Title](../../aspose.slides/isummaryzoomsection/title) { get; set; } | Retorna o título de texto do objeto Summary Zoom Section. |
 
-### Veja Também
+### Veja também
 
 * interface [ISectionZoomFrame](../isectionzoomframe)
 * namespace [Aspose.Slides](../../aspose.slides)

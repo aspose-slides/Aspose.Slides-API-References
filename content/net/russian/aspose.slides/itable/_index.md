@@ -1,9 +1,9 @@
 ---
 title: ITable
-second_title: Aspose.Sildes для .NET API справочник
+second_title: Aspose.Sildes для .NET справочник API
 description: Представляет таблицу на слайде.
 type: docs
-weight: 7230
+weight: 7250
 url: /ru/aspose.slides/itable/
 ---
 ## ITable интерфейс

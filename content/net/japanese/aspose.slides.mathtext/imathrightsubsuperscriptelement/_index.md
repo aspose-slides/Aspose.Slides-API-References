@@ -1,14 +1,14 @@
 ---
 title: IMathRightSubSuperscriptElement
 second_title: Aspose.Sildes for .NET API リファレンス
-description: ベースとベースの右側に配置された下付き文字と上付き文字からなるサブ・スーパースクリプトオブジェクトを指定します。
+description: ベースと、ベースの右側に配置された下付文字および上付文字からなるサブスーパースクリプトオブジェクトを指定します。
 type: docs
-weight: 8450
+weight: 8470
 url: /ja/aspose.slides.mathtext/imathrightsubsuperscriptelement/
 ---
 ## IMathRightSubSuperscriptElement インターフェイス
 
-サブ・スーパースクリプト オブジェクトを指定します。このオブジェクトは、ベースとベースの右側に配置された下付き文字と上付き文字から構成されます。
+ベースと、ベースの右側に配置された下付文字および上付文字からなるサブスーパースクリプトオブジェクトを指定します。
 
 ```csharp
 public interface IMathRightSubSuperscriptElement : IMathElement
@@ -18,11 +18,11 @@ public interface IMathRightSubSuperscriptElement : IMathElement
 
 | 名前 | 説明 |
 | --- | --- |
-| [AlignScripts](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/alignscripts) { get; set; } | 下付き文字/上付き文字の配置を指定します。true の場合、下付き文字と上付き文字は水平方向に揃えられます。false の場合、ベースの形状に合わせてカーニングされます。既定値は false です。 |
-| [AsIMathElement](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/asimathelement) { get; } | ベースの IMathElement インターフェイスを取得できます [`IMathElement`](../imathelement) |
+| [AlignScripts](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/alignscripts) { get; set; } | 下付文字/上付文字の配置を指定します。true の場合、下付文字と上付文字は水平方向に互いに揃えられます。false の場合、ベースの形状に合わせてカーニングされます。デフォルト値は false です。 |
+| [AsIMathElement](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/asimathelement) { get; } | ベースの IMathElement インターフェイス [`IMathElement`](../imathelement) を取得できるようにします。 |
 | [Base](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/base) { get; } | ベース引数 |
-| [Subscript](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/subscript) { get; } | 下付き文字引数 |
-| [Superscript](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/superscript) { get; } | 上付き文字引数 |
+| [Subscript](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/subscript) { get; } | 下付文字引数 |
+| [Superscript](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/superscript) { get; } | 上付文字引数 |
 
 ### 例
 
@@ -33,7 +33,7 @@ public interface IMathRightSubSuperscriptElement : IMathElement
 IMathRightSubSuperscriptElement subsuperscript = new MathematicalText("N").SetSubSuperscriptOnTheRight("i", "j");
 ```
 
-### 関連項目
+### 参照
 
 * インターフェイス [IMathElement](../imathelement)
 * 名前空間 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

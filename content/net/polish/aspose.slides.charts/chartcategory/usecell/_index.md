@@ -1,14 +1,14 @@
 ---
 title: UseCell
-second_title: Aspose.Sildes dla .NET API Reference
-description: Jeżeli prawda, to właściwość AsCell jest aktualna. Innymi słowy arkusz jest używany do przechowywania kategorii, ten przypadek obsługuje kategorię wielopoziomową. Jeżeli fałsz, to właściwość AsLiteral jest aktualna. Innymi słowy arkusz NIE jest używany do przechowywania kategorii i ten przypadek nie obsługuje kategorii wielopoziomowych. Tylko do odczytu Boolean.
+second_title: Aspose.Sildes dla dokumentacji API .NET
+description: Jeżeli true, to właściwość AsCell jest aktualna. Innymi słowy arkusz jest używany do przechowywania kategorii, ten przypadek obsługuje kategorię wielopoziomową. Jeżeli false, to właściwość AsLiteral jest aktualna. Innymi słowy arkusz NIE jest używany do przechowywania kategorii i ten przypadek nie obsługuje kategorii wielopoziomowych. Tylko do odczytu Boolean.
 type: docs
-weight: 40
+weight: 50
 url: /pl/aspose.slides.charts/chartcategory/usecell/
 ---
 ## ChartCategory.UseCell właściwość
 
-Jeśli wartość jest prawda, to właściwość AsCell jest aktualna. Innymi słowy, arkusz jest używany do przechowywania kategorii (ten przypadek obsługuje kategorię wielopoziomową). Jeśli wartość jest fałsz, to właściwość AsLiteral jest aktualna. Innymi słowy, arkusz NIE jest używany do przechowywania kategorii (i ten przypadek nie obsługuje kategorii wielopoziomowych). Tylko do odczytu Boolean.
+Jeśli true, to właściwość AsCell jest aktualna. Innymi słowy, arkusz jest używany do przechowywania kategorii (ten przypadek obsługuje kategorię wielopoziomową). Jeśli false, to właściwość AsLiteral jest aktualna. Innymi słowy, arkusz NIE jest używany do przechowywania kategorii (i ten przypadek nie obsługuje kategorii wielopoziomowych). Tylko do odczytu Boolean.
 
 ```csharp
 public bool UseCell { get; }
@@ -16,7 +16,7 @@ public bool UseCell { get; }
 
 ### Uwagi
 
-Aby zmienić wartość tej właściwości (dla wszystkich kategorii w kolekcji) ustaw nową wartość w właściwości ChartCategoryCollection.UseCells.
+Aby zmienić wartość tej właściwości (dla wszystkich kategorii w kolekcji), ustaw nową wartość w właściwości ChartCategoryCollection.UseCells.
 
 ### Zobacz także
 

@@ -1,14 +1,14 @@
 ---
 title: ITransitionValueBase
-second_title: Aspose.Sildes .NET API Referencia
-description: Az alap osztályt képviseli a dia átmeneti hatásokhoz.
+second_title: Aspose.Sildes .NET API referenciája
+description: A diaátmeneti hatások alaposztályát képviseli.
 type: docs
-weight: 10210
+weight: 10230
 url: /hu/aspose.slides.slideshow/itransitionvaluebase/
 ---
 ## ITransitionValueBase interfész
 
-Az alap osztályt képviseli a diavetítési átmeneti hatásokhoz.
+A diaátmeneti hatások alaposztályát képviseli.
 
 ```csharp
 public interface ITransitionValueBase

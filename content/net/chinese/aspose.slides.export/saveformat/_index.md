@@ -1,9 +1,9 @@
 ---
 title: SaveFormat
-second_title: Aspose.Sildes .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 定义已保存演示文稿格式的常量。
 type: docs
-weight: 4440
+weight: 4460
 url: /zh/aspose.slides.export/saveformat/
 ---
 ## SaveFormat 枚举
@@ -36,11 +36,11 @@ public enum SaveFormat
 | Pot | `20` | 以 POT 格式保存演示文稿。 |
 | Fodp | `21` | 以 FODP 格式保存演示文稿。 |
 | Gif | `22` | 以 GIF 格式保存演示文稿。 |
-| Html5 | `23` | 使用全新 HTML5 模板系统以 HTML 格式保存演示文稿。 |
+| Html5 | `23` | 使用新的 HTML5 模板系统以 HTML 格式保存演示文稿。 |
 | Md | `24` | 以 Markdown 格式保存演示文稿 |
 | Xml | `25` | 以 PowerPoint XML 演示文稿格式保存演示文稿。 |
 
-### 另请参阅
+### 另见
 
 * 命名空间 [Aspose.Slides.Export](../../aspose.slides.export)
 * 程序集 [Aspose.Slides](../../)

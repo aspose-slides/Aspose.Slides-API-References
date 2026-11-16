@@ -1,12 +1,12 @@
 ---
 title: TextCapType
-second_title: Aspose.Sildes for .NET API Referencia
+second_title: Aspose.Sildes .NET API Referencia
 description: A szöveg nagybetűsítésének típusát jelöli.
 type: docs
-weight: 10930
+weight: 10950
 url: /hu/aspose.slides/textcaptype/
 ---
-## TextCapType felsorolás
+## TextCapType enumeráció
 
 A szöveg nagybetűsítésének típusát jelöli.
 

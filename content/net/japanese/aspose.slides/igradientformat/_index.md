@@ -1,14 +1,14 @@
 ---
 title: IGradientFormat
-second_title: Aspose.Sildes for .NET API リファレンス
-description: グラデーション形式を表します。
+second_title: Aspose.Sildes for .NET APIリファレンス
+description: 勾配フォーマットを表します。
 type: docs
-weight: 6000
+weight: 6020
 url: /ja/aspose.slides/igradientformat/
 ---
 ## IGradientFormat インターフェイス
 
-グラデーション形式を表します。
+勾配フォーマットを表します。
 
 ```csharp
 public interface IGradientFormat : IFillParamSource
@@ -18,13 +18,13 @@ public interface IGradientFormat : IFillParamSource
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/igradientformat/asifillparamsource) { get; } | ベースの IFillParamSource インターフェイスを取得できます。読み取り専用 [`IFillParamSource`](../ifillparamsource)。 |
-| [GradientDirection](../../aspose.slides/igradientformat/gradientdirection) { get; set; } | グラデーションのスタイルを取得または設定します。読み取り/書き込み可能 [`GradientDirection`](../gradientdirection)。 |
-| [GradientShape](../../aspose.slides/igradientformat/gradientshape) { get; set; } | グラデーションの形状を取得または設定します。読み取り/書き込み可能 [`GradientShape`](../gradientshape)。 |
-| [GradientStops](../../aspose.slides/igradientformat/gradientstops) { get; } | グラデーションストップのコレクションを取得します。読み取り専用 [`IGradientStopCollection`](../igradientstopcollection)。 |
-| [LinearGradientAngle](../../aspose.slides/igradientformat/lineargradientangle) { get; set; } | グラデーションの角度を取得または設定します。読み取り/書き込み可能 Single。 |
-| [LinearGradientScaled](../../aspose.slides/igradientformat/lineargradientscaled) { get; set; } | グラデーションがスケーリングされるかどうかを決定します。読み取り/書き込み可能 [`NullableBool`](../nullablebool)。 |
-| [TileFlip](../../aspose.slides/igradientformat/tileflip) { get; set; } | グラデーションのフリッピングモードを取得または設定します。読み取り/書き込み可能 [`TileFlip`](../tileflip)。 |
+| [AsIFillParamSource](../../aspose.slides/igradientformat/asifillparamsource) { get; } | IFillParamSourceインターフェイスのベースを取得できます。読み取り専用 [`IFillParamSource`](../ifillparamsource)。 |
+| [GradientDirection](../../aspose.slides/igradientformat/gradientdirection) { get; set; } | 勾配のスタイルを取得または設定します。読み書き [`GradientDirection`](../gradientdirection)。 |
+| [GradientShape](../../aspose.slides/igradientformat/gradientshape) { get; set; } | 勾配の形状を取得または設定します。読み書き [`GradientShape`](../gradientshape)。 |
+| [GradientStops](../../aspose.slides/igradientformat/gradientstops) { get; } | 勾配ストップのコレクションを取得します。読み取り専用 [`IGradientStopCollection`](../igradientstopcollection)。 |
+| [LinearGradientAngle](../../aspose.slides/igradientformat/lineargradientangle) { get; set; } | 勾配の角度を取得または設定します。読み書き Single。 |
+| [LinearGradientScaled](../../aspose.slides/igradientformat/lineargradientscaled) { get; set; } | 勾配がスケールされるかどうかを決定します。読み書き [`NullableBool`](../nullablebool)。 |
+| [TileFlip](../../aspose.slides/igradientformat/tileflip) { get; set; } | 勾配のフリッピングモードを取得または設定します。読み書き [`TileFlip`](../tileflip)。 |
 
 ### 参照
 

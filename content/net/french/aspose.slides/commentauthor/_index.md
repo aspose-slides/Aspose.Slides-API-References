@@ -3,7 +3,7 @@ title: CommentAuthor
 second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Représente un auteur de commentaires.
 type: docs
-weight: 2630
+weight: 2650
 url: /fr/aspose.slides/commentauthor/
 ---
 ## CommentAuthor classe
@@ -18,7 +18,7 @@ public sealed class CommentAuthor : ICommentAuthor
 
 | Nom | Description |
 | --- | --- |
-| [Comments](../../aspose.slides/commentauthor/comments) { get; } | Renvoie la collection de commentaires faits par cet auteur. Lecture seule [`ICommentCollection`](../icommentcollection). |
+| [Comments](../../aspose.slides/commentauthor/comments) { get; } | Renvoie la collection des commentaires créés par cet auteur. Lecture seule [`ICommentCollection`](../icommentcollection). |
 | [Initials](../../aspose.slides/commentauthor/initials) { get; set; } | Renvoie ou définit les initiales de l'auteur. Lecture/écriture String. |
 | [Name](../../aspose.slides/commentauthor/name) { get; set; } | Renvoie ou définit le nom de l'auteur. Lecture/écriture String. |
 
@@ -26,7 +26,7 @@ public sealed class CommentAuthor : ICommentAuthor
 
 | Nom | Description |
 | --- | --- |
-| [Remove](../../aspose.slides/commentauthor/remove)() | Supprime l'auteur de la collection parent. |
+| [Remove](../../aspose.slides/commentauthor/remove)() | Supprime l'auteur de la collection parente. |
 
 ### Voir aussi
 

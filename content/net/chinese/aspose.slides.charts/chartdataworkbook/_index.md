@@ -1,9 +1,9 @@
 ---
 title: ChartDataWorkbook
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 提供对嵌入式 Excel 工作簿的访问
 type: docs
-weight: 1380
+weight: 1390
 url: /zh/aspose.slides.charts/chartdataworkbook/
 ---
 ## ChartDataWorkbook 类
@@ -16,24 +16,24 @@ public class ChartDataWorkbook : DomObject<ChartData>, IChartDataWorkbook
 
 ## 属性
 
-| 名称 | 描述 |
+| 名称 | 说明 |
 | --- | --- |
 | [Worksheets](../../aspose.slides.charts/chartdataworkbook/worksheets) { get; } | 获取工作表集合。 |
 
 ## 方法
 
-| 名称 | 描述 |
+| 名称 | 说明 |
 | --- | --- |
 | [CalculateFormulas](../../aspose.slides.charts/chartdataworkbook/calculateformulas)() | 计算工作簿中的所有公式并更新相应单元格的值。 |
-| [Clear](../../aspose.slides.charts/chartdataworkbook/clear)(int) | 清除工作表上所有单元格的值 |
-| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_2)(int, string) | 获取可用于图表系列或类别的单元格 |
-| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell)(int, int, int) | 获取可用于图表系列或类别的单元格 |
-| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_3)(int, string, object) | 获取可用于图表系列或类别的单元格 |
-| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_4)(string, int, int) | 获取可用于图表系列或类别的单元格 |
-| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_1)(int, int, int, object) | 获取可用于图表系列或类别的单元格 |
-| [GetCellCollection](../../aspose.slides.charts/chartdataworkbook/getcellcollection)(string, bool) | 获取单元格集合。 |
+| [Clear](../../aspose.slides.charts/chartdataworkbook/clear)(int) | 清除工作表上所有单元格的值。 |
+| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_2)(int, string) | 获取可用于图表系列或类别的单元格。 |
+| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell)(int, int, int) | 获取可用于图表系列或类别的单元格。 |
+| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_3)(int, string, object) | 获取可用于图表系列或类别的单元格。 |
+| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_4)(string, int, int) | 获取可用于图表系列或类别的单元格。 |
+| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_1)(int, int, int, object) | 获取可用于图表系列或类别的单元格。 |
+| [GetCellCollection](../../aspose.slides.charts/chartdataworkbook/getcellcollection)(string, bool) | 获取单元格的集合。 |
 
-### 另见
+### 另请参阅
 
 * 类 [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * 类 [ChartData](../chartdata)

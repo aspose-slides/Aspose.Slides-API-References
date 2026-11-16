@@ -1,9 +1,9 @@
 ---
 title: MaterialPresetType
-second_title: Aspose.Sildes для .NET API справка
+second_title: Aspose.Sildes для .NET справочное руководство API
 description: Константы, определяющие материал формы.
 type: docs
-weight: 8060
+weight: 8080
 url: /ru/aspose.slides/materialpresettype/
 ---
 ## MaterialPresetType перечисление

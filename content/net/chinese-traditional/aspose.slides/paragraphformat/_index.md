@@ -1,14 +1,14 @@
 ---
 title: ParagraphFormat
-second_title: Aspose.Sildes for .NET API 參考
-description: 此類別包含段落格式設定屬性。與 IParagraphFormatEffectiveData./iparagraphformateffectivedata 不同，此類別的所有屬性皆可寫入。
+second_title: Aspose.Sildes for .NET API 參考文件
+description: 此類別包含段落格式屬性。不同於 IParagraphFormatEffectiveData./iparagraphformateffectivedata，此類別的所有屬性皆可寫入。
 type: docs
-weight: 9310
+weight: 9330
 url: /zh-hant/aspose.slides/paragraphformat/
 ---
 ## ParagraphFormat 類別
 
-此類別包含段落格式設定屬性。與 [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata) 不同，此類別的所有屬性皆可寫入。
+此類別包含段落格式屬性。不同於 [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata)，此類別的所有屬性皆可寫入。
 
 ```csharp
 public sealed class ParagraphFormat : PVIObject, IChartParagraphFormat, IParagraphFormat
@@ -16,43 +16,43 @@ public sealed class ParagraphFormat : PVIObject, IChartParagraphFormat, IParagra
 
 ## 建構函式
 
-| 名稱 | 描述 |
+| 名稱 | 說明 |
 | --- | --- |
 | [ParagraphFormat](paragraphformat)() | 初始化 [`ParagraphFormat`](../paragraphformat) 類別的新執行個體。 |
 
 ## 屬性
 
-| 名稱 | 描述 |
+| 名稱 | 說明 |
 | --- | --- |
-| [Alignment](../../aspose.slides/paragraphformat/alignment) { get; set; } | 傳回或設定段落中文本對齊方式，且不套用繼承。可讀寫 [`TextAlignment`](../textalignment)。 |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允許取得基底 IPresentationComponent 介面。唯讀 [`IPresentationComponent`](../ipresentationcomponent)。 |
-| [DefaultTabSize](../../aspose.slides/paragraphformat/defaulttabsize) { get; set; } | 傳回或設定預設定位大小，且不套用繼承。可讀寫 Single。 |
-| [EastAsianLineBreak](../../aspose.slides/paragraphformat/eastasianlinebreak) { get; set; } | 決定段落是否使用東亞換行。未套用繼承。可讀寫 [`NullableBool`](../nullablebool)。 |
-| [FontAlignment](../../aspose.slides/paragraphformat/fontalignment) { get; set; } | 傳回或設定段落中的字型對齊，且不套用繼承。可讀寫 [`FontAlignment`](../fontalignment)。 |
-| [HangingPunctuation](../../aspose.slides/paragraphformat/hangingpunctuation) { get; set; } | 決定段落是否使用懸掛標點。未套用繼承。可讀寫 [`NullableBool`](../nullablebool)。 |
-| [Indent](../../aspose.slides/paragraphformat/indent) { get; set; } | 傳回或設定段落的首行縮排/懸掛縮排，且不套用繼承。懸掛縮排可使用負值定義。可讀寫 Single。 |
-| [LatinLineBreak](../../aspose.slides/paragraphformat/latinlinebreak) { get; set; } | 決定段落是否使用拉丁換行。未套用繼承。可讀寫 [`NullableBool`](../nullablebool)。 |
-| [MarginLeft](../../aspose.slides/paragraphformat/marginleft) { get; set; } | 傳回或設定段落的左邊距，且不套用繼承。可讀寫 Single。 |
-| [MarginRight](../../aspose.slides/paragraphformat/marginright) { get; set; } | 傳回或設定段落的右邊距，且不套用繼承。可讀寫 Single。 |
-| [RightToLeft](../../aspose.slides/paragraphformat/righttoleft) { get; set; } | 決定段落是否使用從右至左書寫。未套用繼承。可讀寫 [`NullableBool`](../nullablebool)。 |
-| [SpaceAfter](../../aspose.slides/paragraphformat/spaceafter) { get; set; } | 傳回或設定段落最後一行之後的間距，且不套用繼承。正值表示以字型大小的百分比為單位，負值則以點數表示。可讀寫 Single。 |
-| [SpaceBefore](../../aspose.slides/paragraphformat/spacebefore) { get; set; } | 傳回或設定段落第一行之前的間距，且不套用繼承。正值表示以字型大小的百分比為單位，負值則以點數表示。可讀寫 Single。 |
-| [SpaceWithin](../../aspose.slides/paragraphformat/spacewithin) { get; set; } | 傳回或設定段落基線之間的間距。正值表示百分比，負值表示點數大小。未套用繼承。可讀寫 Single。 |
-| [Tabs](../../aspose.slides/paragraphformat/tabs) { get; } | 傳回段落的定位。未套用繼承。唯讀 [`ITabCollection`](../itabcollection)。 |
+| [Alignment](../../aspose.slides/paragraphformat/alignment) { get; set; } | 取得或設定段落中沒有繼承的文字對齊方式。讀/寫 [`TextAlignment`](../textalignment)。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允許取得基礎 IPresentationComponent 介面。唯讀 [`IPresentationComponent`](../ipresentationcomponent)。 |
+| [DefaultTabSize](../../aspose.slides/paragraphformat/defaulttabsize) { get; set; } | 取得或設定沒有繼承的預設定位大小。讀/寫 Single。 |
+| [EastAsianLineBreak](../../aspose.slides/paragraphformat/eastasianlinebreak) { get; set; } | 判定段落中是否使用東亞換行。未套用繼承。讀/寫 [`NullableBool`](../nullablebool)。 |
+| [FontAlignment](../../aspose.slides/paragraphformat/fontalignment) { get; set; } | 取得或設定段落中沒有繼承的字型對齊方式。讀/寫 [`FontAlignment`](../fontalignment)。 |
+| [HangingPunctuation](../../aspose.slides/paragraphformat/hangingpunctuation) { get; set; } | 判定段落中是否使用懸掛標點。未套用繼承。讀/寫 [`NullableBool`](../nullablebool)。 |
+| [Indent](../../aspose.slides/paragraphformat/indent) { get; set; } | 取得或設定段落的首行縮排/懸掛縮排，且不套用繼承。懸掛縮排可使用負值定義。讀/寫 Single。 |
+| [LatinLineBreak](../../aspose.slides/paragraphformat/latinlinebreak) { get; set; } | 判定段落中是否使用拉丁換行。未套用繼承。讀/寫 [`NullableBool`](../nullablebool)。 |
+| [MarginLeft](../../aspose.slides/paragraphformat/marginleft) { get; set; } | 取得或設定段落中沒有繼承的左邊距。讀/寫 Single。 |
+| [MarginRight](../../aspose.slides/paragraphformat/marginright) { get; set; } | 取得或設定段落中沒有繼承的右邊距。讀/寫 Single。 |
+| [RightToLeft](../../aspose.slides/paragraphformat/righttoleft) { get; set; } | 判定段落中是否使用從右至左書寫。未套用繼承。讀/寫 [`NullableBool`](../nullablebool)。 |
+| [SpaceAfter](../../aspose.slides/paragraphformat/spaceafter) { get; set; } | 取得或設定段落中最後一行之後的間距，且不套用繼承。正值表示以字型大小的百分比作為間距。負值則以點數指定間距的大小。讀/寫 Single。 |
+| [SpaceBefore](../../aspose.slides/paragraphformat/spacebefore) { get; set; } | 取得或設定段落中第一行之前的間距，且不套用繼承。正值表示以字型大小的百分比作為間距。負值則以點數指定間距的大小。讀/寫 Single。 |
+| [SpaceWithin](../../aspose.slides/paragraphformat/spacewithin) { get; set; } | 取得或設定段落中基線之間的間距。正值表示百分比，負值則為點數大小。未套用繼承。讀/寫 Single。 |
+| [Tabs](../../aspose.slides/paragraphformat/tabs) { get; } | 取得段落的定位。未套用繼承。唯讀 [`ITabCollection`](../itabcollection)。 |
 
 ## 方法
 
-| 名稱 | 描述 |
+| 名稱 | 說明 |
 | --- | --- |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | 比較指定的物件。 |
-| [GetEffective](../../aspose.slides/paragraphformat/geteffective)() | 取得套用繼承後的有效段落格式資料。 |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | 與指定的物件比較。 |
+| [GetEffective](../../aspose.slides/paragraphformat/geteffective)() | 取得套用繼承的有效段落格式資料。 |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | 傳回雜湊碼。 |
 
 ### 備註
 
-此類別用於傳回與操作特定段落定義的段落格式屬性。這表示在取得值時不套用繼承，因此在大多數情況下會得到「未定義」的值。
+此類別用於返回和操作針對特定段落定義的段落格式屬性。這意味著在取得值時不會套用繼承，因此在大多數情況下您將得到「未定義」的值。
 
-若要取得包括繼承在內的有效格式參數值，必須使用 [`GetEffective`](./geteffective) 方法，該方法會傳回 [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata) 實例。
+若要取得包括繼承在內的有效格式參數值，您需要使用 [`GetEffective`](./geteffective) 方法，該方法傳回一個 [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata) 執行個體。
 
 ### 另請參閱
 
@@ -60,6 +60,6 @@ public sealed class ParagraphFormat : PVIObject, IChartParagraphFormat, IParagra
 * 介面 [IChartParagraphFormat](../../aspose.slides.charts/ichartparagraphformat)
 * 介面 [IParagraphFormat](../iparagraphformat)
 * 命名空間 [Aspose.Slides](../../aspose.slides)
-* 組件 [Aspose.Slides](../../)
+* 程式集 [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

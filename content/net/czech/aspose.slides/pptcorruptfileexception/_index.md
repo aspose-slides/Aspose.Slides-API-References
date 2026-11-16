@@ -1,14 +1,14 @@
 ---
 title: PptCorruptFileException
 second_title: Aspose.Sildes pro .NET API Reference
-description: Výjimka, která je vyvolána, když je soubor prezentace pravděpodobně poškozený.
+description: Výjimka, která je vyvolána, když je soubor prezentace pravděpodobně poškozen.
 type: docs
-weight: 9500
+weight: 9520
 url: /cs/aspose.slides/pptcorruptfileexception/
 ---
 ## PptCorruptFileException třída
 
-Výjimka, která je vyvolána, když je soubor prezentace pravděpodobně poškozený.
+Exception, která je vyvolána, když je soubor prezentace pravděpodobně poškozen.
 
 ```csharp
 public class PptCorruptFileException : PptReadException
@@ -19,8 +19,8 @@ public class PptCorruptFileException : PptReadException
 | Název | Popis |
 | --- | --- |
 | [PptCorruptFileException](pptcorruptfileexception#constructor)() | Výchozí konstruktor. |
-| [PptCorruptFileException](pptcorruptfileexception#constructor_1)(string) | Konstruktor umožňující přidat zprávu k této výjimce. |
-| [PptCorruptFileException](pptcorruptfileexception#constructor_2)(string, Exception) | Konstruktor pro výjimku obsahující zprávu a vloženou výjimku. |
+| [PptCorruptFileException](pptcorruptfileexception#constructor_1)(string) | Konstruktor umožňující přidat zprávu k této exception. |
+| [PptCorruptFileException](pptcorruptfileexception#constructor_2)(string, Exception) | Konstruktor pro exception obsahující zprávu a vloženou exception. |
 
 ### Viz také
 

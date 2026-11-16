@@ -1,14 +1,14 @@
 ---
 title: IPortionFormatEffectiveData
 second_title: Aspose.Sildes för .NET API-referens
-description: Oföränderligt objekt som innehåller effektiva formatinställningar för textdelar.
+description: Oföränderligt objekt som innehåller effektiva formateringsattribut för textavsnitt.
 type: docs
-weight: 6740
+weight: 6760
 url: /sv/aspose.slides/iportionformateffectivedata/
 ---
 ## IPortionFormatEffectiveData gränssnitt
 
-Oföränderligt objekt som innehåller effektiva formatinställningar för textdelar.
+Oföränderligt objekt som innehåller effektiva formateringsattribut för textavsnitt.
 
 ```csharp
 public interface IPortionFormatEffectiveData : IBasePortionFormatEffectiveData

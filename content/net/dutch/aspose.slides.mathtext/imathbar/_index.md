@@ -1,9 +1,9 @@
 ---
 title: IMathBar
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Specificeert de balkfunctie die bestaat uit een basisargument en een bovenbalk of onderbalk
+description: Specificeert de balkfunctie, bestaande uit een basisargument en een bovenbalk of onderbalk
 type: docs
-weight: 8120
+weight: 8140
 url: /nl/aspose.slides.mathtext/imathbar/
 ---
 ## IMathBar interface
@@ -18,9 +18,9 @@ public interface IMathBar : IMathElement
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathbar/asimathelement) { get; } | Staat toe om de basis IMathElement interface op te halen [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathbar/asimathelement) { get; } | Staat toe om de basis IMathElement interface [`IMathElement`](../imathelement) op te halen |
 | [Base](../../aspose.slides.mathtext/imathbar/base) { get; } | Basisargument |
-| [Position](../../aspose.slides.mathtext/imathbar/position) { get; set; } | Positie van de balklijn. Standaard: Boven |
+| [Position](../../aspose.slides.mathtext/imathbar/position) { get; set; } | Positie van de balklijn. Standaard: Top |
 
 ### Voorbeelden
 

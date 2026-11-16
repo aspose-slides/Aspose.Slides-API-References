@@ -3,10 +3,10 @@ title: SlideThemeManager
 second_title: Aspose.Sildes for .NET API 参考
 description: 提供对幻灯片主题覆盖的访问。
 type: docs
-weight: 11470
+weight: 11490
 url: /zh/aspose.slides.theme/slidethememanager/
 ---
-## SlideThemeManager class
+## SlideThemeManager 类
 
 提供对幻灯片主题覆盖的访问。
 
@@ -16,19 +16,19 @@ public class SlideThemeManager : BaseOverrideThemeManager
 
 ## 属性
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
 | [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | 确定 OverrideTheme 是否覆盖继承的有效主题。要启用 OverrideTheme 进行覆盖，请使用 OverrideTheme.Init*() 方法。要禁用 OverrideTheme 的覆盖，请使用 OverrideTheme.Clear() 方法。只读 Boolean。 |
 | [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | 返回覆盖的主题对象。读/写 [`IOverrideTheme`](../ioverridetheme)。 |
 
 ## 方法
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
 | [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | 将额外的配色方案应用于幻灯片。 |
 | [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | 返回主题对象。 |
 
-### 另请参见
+### 另见
 
 * 类 [BaseOverrideThemeManager](../baseoverridethememanager)
 * 命名空间 [Aspose.Slides.Theme](../../aspose.slides.theme)

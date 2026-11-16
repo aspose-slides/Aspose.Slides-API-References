@@ -1,14 +1,14 @@
 ---
 title: IGlitterTransition
 second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: เอฟเฟกต์การเปลี่ยนสไลด์แบบ Glitter.
+description: เอฟเฟกต์การเปลี่ยนสไลด์แบบส่องแสง.
 type: docs
-weight: 10100
+weight: 10120
 url: /th/aspose.slides.slideshow/iglittertransition/
 ---
-## IGlitterTransition อินเทอร์เฟซ
+## IGlitterTransition interface
 
-Glitter slide transition effect.
+เอฟเฟกต์การเปลี่ยนสไลด์แบบส่องแสง.
 
 ```csharp
 public interface IGlitterTransition : ITransitionValueBase
@@ -18,9 +18,9 @@ public interface IGlitterTransition : ITransitionValueBase
 
 | Name | Description |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/iglittertransition/asitransitionvaluebase) { get; } | อนุญาตให้เข้าถึงอินเทอร์เฟซ ITransitionValueBase base. อ่านอย่างเดียว [`ITransitionValueBase`](../itransitionvaluebase). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/iglittertransition/asitransitionvaluebase) { get; } | อนุญาตให้ดึงค่า base ITransitionValueBase อินเทอร์เฟซ. อ่านอย่างเดียว [`ITransitionValueBase`](../itransitionvaluebase). |
 | [Direction](../../aspose.slides.slideshow/iglittertransition/direction) { get; set; } | ทิศทางของการเปลี่ยนภาพ. อ่าน/เขียน [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
-| [Pattern](../../aspose.slides.slideshow/iglittertransition/pattern) { get; set; } | ระบุรูปร่างของภาพที่ใช้ในระหว่างการเปลี่ยนภาพ. อ่าน/เขียน [`TransitionPattern`](../transitionpattern). |
+| [Pattern](../../aspose.slides.slideshow/iglittertransition/pattern) { get; set; } | ระบุรูปร่างของภาพที่ใช้ระหว่างการเปลี่ยนภาพ. อ่าน/เขียน [`TransitionPattern`](../transitionpattern). |
 
 ### ดูเพิ่มเติม
 

@@ -3,7 +3,7 @@ title: TextShapeType
 second_title: Aspose.Sildes for .NET API 참조
 description: 텍스트 래핑 모양을 나타냅니다.
 type: docs
-weight: 10980
+weight: 11000
 url: /ko/aspose.slides/textshapetype/
 ---
 ## TextShapeType 열거형
@@ -16,7 +16,7 @@ public enum TextShapeType : sbyte
 
 ### 값
 
-| 이름 | 값 | 설명 |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `-1` | 정의되지 않음 |
 | None | `0` | 모양 없음 |
@@ -24,45 +24,45 @@ public enum TextShapeType : sbyte
 | Stop | `2` | 정지 표지 |
 | Triangle | `3` | 삼각형 |
 | TriangleInverted | `4` | 역삼각형 |
-| Chevron | `5` | 쉐브론 |
-| ChevronInverted | `6` | 역쉐브론 |
+| Chevron | `5` | 계단형 |
+| ChevronInverted | `6` | 역계단형 |
 | RingInside | `7` | 내부 링 |
 | RingOutside | `8` | 외부 링 |
 | ArchUp | `9` | 위쪽 아치 |
 | ArchDown | `10` | 아래쪽 아치 |
 | Circle | `11` | 원 |
 | Button | `12` | 버튼 |
-| ArchUpPour | `13` | 위쪽 쏟아지는 아치 |
-| ArchDownPour | `14` | 아래쪽 쏟아지는 아치 |
-| CirclePour | `15` | 원 쏟아짐 |
-| ButtonPour | `16` | 버튼 쏟아짐 |
+| ArchUpPour | `13` | 위쪽 채우기 아치 |
+| ArchDownPour | `14` | 아래쪽 채우기 아치 |
+| CirclePour | `15` | 원 채우기 |
+| ButtonPour | `16` | 버튼 채우기 |
 | CurveUp | `17` | 위쪽 곡선 |
 | CurveDown | `18` | 아래쪽 곡선 |
-| CanUp | `19` | 위쪽 통 |
-| CanDown | `20` | 아래쪽 통 |
+| CanUp | `19` | 위쪽 캔 |
+| CanDown | `20` | 아래쪽 캔 |
 | Wave1 | `21` | 파형 1 |
 | Wave2 | `22` | 파형 2 |
 | DoubleWave1 | `23` | 이중 파형 1 |
 | Wave4 | `24` | 파형 4 |
-| Inflate | `25` | 부풀리기 |
-| Deflate | `26` | 축소 |
-| InflateBottom | `27` | 아래쪽 부풀리기 |
-| DeflateBottom | `28` | 아래쪽 축소 |
-| InflateTop | `29` | 위쪽 부풀리기 |
-| DeflateTop | `30` | 위쪽 축소 |
-| DeflateInflate | `31` | 축소-부풀리기 |
-| DeflateInflateDeflate | `32` | 축소-부풀리기-축소 |
-| FadeRight | `33` | 오른쪽 페이드 |
-| FadeLeft | `34` | 왼쪽 페이드 |
+| Inflate | `25` | 팽창 |
+| Deflate | `26` | 수축 |
+| InflateBottom | `27` | 하단 팽창 |
+| DeflateBottom | `28` | 하단 수축 |
+| InflateTop | `29` | 상단 팽창 |
+| DeflateTop | `30` | 상단 수축 |
+| DeflateInflate | `31` | 수축-팽창 |
+| DeflateInflateDeflate | `32` | 수축-팽창-수축 |
+| FadeRight | `33` | 우측 페이드 |
+| FadeLeft | `34` | 좌측 페이드 |
 | FadeUp | `35` | 위쪽 페이드 |
 | FadeDown | `36` | 아래쪽 페이드 |
 | SlantUp | `37` | 위쪽 기울기 |
 | SlantDown | `38` | 아래쪽 기울기 |
-| CascadeUp | `39` | 위쪽 캐스케이드 |
-| CascadeDown | `40` | 아래쪽 캐스케이드 |
+| CascadeUp | `39` | 위쪽 계단 |
+| CascadeDown | `40` | 아래쪽 계단 |
 | Custom | `41` | 사용자 정의 |
 
-### 관련 항목
+### 참고
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

@@ -3,7 +3,7 @@ title: NumberedBulletStyle
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar stilen för de numrerade punkterna.
 type: docs
-weight: 9180
+weight: 9200
 url: /sv/aspose.slides/numberedbulletstyle/
 ---
 ## NumberedBulletStyle uppräkning
@@ -21,49 +21,49 @@ public enum NumberedBulletStyle : sbyte
 | NotDefined | `-1` | Ej definierad. |
 | BulletAlphaLCPeriod | `0` | Gemena alfabetiska tecken med en punkt. Exempel: a., b., c., ... |
 | BulletAlphaUCPeriod | `1` | Versala alfabetiska tecken med en punkt. Exempel: A., B., C., ... |
-| BulletArabicParenRight | `2` | Arabiska siffror med slutparentes. Exempel: 1), 2), 3), ... |
+| BulletArabicParenRight | `2` | Arabiska siffror med avslutande parentes. Exempel: 1), 2), 3), ... |
 | BulletArabicPeriod | `3` | Arabiska siffror med en punkt. Exempel: 1., 2., 3., ... |
 | BulletRomanLCParenBoth | `4` | Gemena romerska siffror med båda parenteserna. Exempel: (i), (ii), (iii), ... |
-| BulletRomanLCParenRight | `5` | Gemena romerska siffror med slutparentes. Exempel: i), ii), iii), ... |
-| BulletRomanLCPeriod | `6` | Gemena romerska siffror med en punkt. Exempel: i., ii., iii., ... |
-| BulletRomanUCPeriod | `7` | Versala romerska siffror med en punkt. Exempel: I., II., III., ... |
+| BulletRomanLCParenRight | `5` | Gemena romerska siffror med avslutande parentes. Exempel: i), ii), iii), ... |
+| BulletRomanLCPeriod | `6` | Gemena romerska siffror med punkt. Exempel: i., ii., iii., ... |
+| BulletRomanUCPeriod | `7` | Versala romerska siffror med punkt. Exempel: I., II., III., ... |
 | BulletAlphaLCParenBoth | `8` | Gemena alfabetiska tecken med båda parenteserna. Exempel: (a), (b), (c), ... |
-| BulletAlphaLCParenRight | `9` | Gemena alfabetiska tecken med slutparentes. Exempel: a), b), c), ... |
+| BulletAlphaLCParenRight | `9` | Gemena alfabetiska tecken med avslutande parentes. Exempel: a), b), c), ... |
 | BulletAlphaUCParenBoth | `10` | Versala alfabetiska tecken med båda parenteserna. Exempel: (A), (B), (C), ... |
-| BulletAlphaUCParenRight | `11` | Versala alfabetiska tecken med slutparentes. Exempel: A), B), C), ... |
+| BulletAlphaUCParenRight | `11` | Versala alfabetiska tecken med avslutande parentes. Exempel: A), B), C), ... |
 | BulletArabicParenBoth | `12` | Arabiska siffror med båda parenteserna. Exempel: (1), (2), (3), ... |
 | BulletArabicPlain | `13` | Arabiska siffror. Exempel: 1, 2, 3, ... |
 | BulletRomanUCParenBoth | `14` | Versala romerska siffror med båda parenteserna. Exempel: (I), (II), (III), ... |
-| BulletRomanUCParenRight | `15` | Versala romerska siffror med slutparentes. Exempel: I), II), III), ... |
+| BulletRomanUCParenRight | `15` | Versala romerska siffror med avslutande parentes. Exempel: I), II), III), ... |
 | BulletSimpChinPlain | `16` | Förenklad kinesiska utan punkt. |
-| BulletSimpChinPeriod | `17` | Förenklad kinesiska med en punkt. |
+| BulletSimpChinPeriod | `17` | Förenklad kinesiska med punkt. |
 | BulletCircleNumDBPlain | `18` | Dubbel-byte inringade siffror för värden upp till 10, från 11 - arabiska siffror. |
-| BulletCircleNumWDWhitePlain | `19` | Textfärgad siffra med cirkel i samma färg ritad runt den (Wingdings vita cirkelnummer). Från 11 - arabiska siffror. |
-| BulletCircleNumWDBlackPlain | `20` | Skuggfärgad siffra med cirkulär bakgrund i normal textfärg (Wingdings svarta cirkelnummer). |
+| BulletCircleNumWDWhitePlain | `19` | Textfärgad siffra med en cirkel i samma färg ritad runt den (Wingdings vita cirkelnummer). Från 11 - arabiska siffror. |
+| BulletCircleNumWDBlackPlain | `20` | Skuggfärgad siffra med cirkulär bakgrund i vanlig textfärg (Wingdings svarta cirkelnummer). |
 | BulletTradChinPlain | `21` | Traditionell kinesiska utan punkt. |
-| BulletTradChinPeriod | `22` | Traditionell kinesiska med en punkt. |
+| BulletTradChinPeriod | `22` | Traditionell kinesiska med punkt. |
 | BulletArabicAlphaDash | `23` | Arabiska alfabetiska tecken med ett bindestreck. |
 | BulletArabicAbjadDash | `24` | Arabiska Abjad-alfabet med ett bindestreck. |
 | BulletHebrewAlphaDash | `25` | Hebreiska alfabetiska tecken med ett bindestreck. |
 | BulletKanjiKoreanPlain | `26` | Japanska/koreanska siffror utan punkt. |
-| BulletKanjiKoreanPeriod | `27` | Japanska/koreanska siffror med en punkt. |
-| BulletArabicDBPlain | `28` | Dubbel-byte arabisk numreringsordning (ingen interpunktion). |
-| BulletArabicDBPeriod | `29` | Dubbel-byte arabisk numreringsordning med dubbel-byte punkt. |
-| BulletThaiAlphaPeriod | `30` | Thailändska alfabet med punkt. |
-| BulletThaiAlphaParenRight | `31` | Thailändska alfabet parenteser - höger. |
-| BulletThaiAlphaParenBoth | `32` | Thailändska alfabet parenteser - båda. |
-| BulletThaiNumPeriod | `33` | Thailändska numeriska punkt. |
-| BulletThaiNumParenRight | `34` | Thailändska numeriska parenteser - höger. |
-| BulletThaiNumParenBoth | `35` | Thailändska numeriska parenteser - båda. |
+| BulletKanjiKoreanPeriod | `27` | Japanska/koreanska siffror med punkt. |
+| BulletArabicDBPlain | `28` | Dubbel-byte arabisk numreringssystem (utan skiljetecken). |
+| BulletArabicDBPeriod | `29` | Dubbel-byte arabisk numreringssystem med dubbel-byte punkt. |
+| BulletThaiAlphaPeriod | `30` | Thailändskt alfabet med punkt. |
+| BulletThaiAlphaParenRight | `31` | Thailändskt alfabet med parenteser - höger. |
+| BulletThaiAlphaParenBoth | `32` | Thailändskt alfabet med parenteser - båda. |
+| BulletThaiNumPeriod | `33` | Thailändska siffror med punkt. |
+| BulletThaiNumParenRight | `34` | Thailändska siffror med parenteser - höger. |
+| BulletThaiNumParenBoth | `35` | Thailändska siffror med parenteser - båda. |
 | BulletHindiAlphaPeriod | `36` | Hindi alfabet med punkt - vokaler. |
-| BulletHindiNumPeriod | `37` | Hindi numerisk punkt. |
+| BulletHindiNumPeriod | `37` | Hindi siffror med punkt. |
 | BulletKanjiSimpChinDBPeriod | `38` | Kanji förenklad kinesiska DBPeriod. |
-| BulletHindiNumParenRight | `39` | Hindi numeriska parenteser - höger. |
+| BulletHindiNumParenRight | `39` | Hindi siffror med parenteser - höger. |
 | BulletHindiAlpha1Period | `40` | Hindi alfabet med punkt - konsonanter. |
 
 ### Se även
 
-* namnrymd [Aspose.Slides](../../aspose.slides)
-* samling [Aspose.Slides](../../)
+* namnutrymme [Aspose.Slides](../../aspose.slides)
+* sammansättning [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,14 +1,14 @@
 ---
 title: LineArrowheadWidth
-second_title: Aspose.Sildes .NET API Referencia
-description: A nyílfej szélességét jelöli.
+second_title: Aspose.Sildes .NET számára API hivatkozás
+description: Az nyílfej szélességét jelöli.
 type: docs
-weight: 7750
+weight: 7770
 url: /hu/aspose.slides/linearrowheadwidth/
 ---
 ## LineArrowheadWidth enumeráció
 
-Az nyílhegy szélességét jelöli.
+Az nyílfej szélességét reprezentálja.
 
 ```csharp
 public enum LineArrowheadWidth : sbyte

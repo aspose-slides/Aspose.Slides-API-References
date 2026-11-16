@@ -1,9 +1,9 @@
 ---
 title: Comment
-second_title: Aspose.Sildes for .NET APIリファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: スライド上のコメントを表します。
 type: docs
-weight: 2620
+weight: 2640
 url: /ja/aspose.slides/comment/
 ---
 ## Comment クラス
@@ -16,24 +16,24 @@ public class Comment : IComment
 
 ## プロパティ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [Author](../../aspose.slides/comment/author) { get; } | コメントの作成者を返します。読み取り専用 [`ICommentAuthor`](../icommentauthor). |
-| [CreatedTime](../../aspose.slides/comment/createdtime) { get; set; } | コメント作成時刻を取得または設定します。このプロパティに MinValue を設定すると、コメント時刻が設定されていないことを意味します。読み書き DateTime. |
-| [ParentComment](../../aspose.slides/comment/parentcomment) { get; set; } | 親コメントを取得または設定します。読み書き [`IComment`](../icomment). |
-| [Position](../../aspose.slides/comment/position) { get; set; } | スライド上のコメントの位置を取得または設定します。読み書き PointF. |
-| [Slide](../../aspose.slides/comment/slide) { get; } | コメントの親スライドを取得または設定します。読み取り専用 [`ISlide`](../islide). |
-| [Text](../../aspose.slides/comment/text) { get; set; } | スライドコメントのプレーンテキストを取得または設定します。読み書き String. |
+| [Author](../../aspose.slides/comment/author) { get; } | コメントの作成者を返します。読み取り専用 [`ICommentAuthor`](../icommentauthor)。 |
+| [CreatedTime](../../aspose.slides/comment/createdtime) { get; set; } | コメント作成時刻を取得または設定します。 このプロパティに MinValue を設定すると、コメントの時刻が設定されていないことを意味します。読み書き DateTime。 |
+| [ParentComment](../../aspose.slides/comment/parentcomment) { get; set; } | 親コメントを取得または設定します。読み書き [`IComment`](../icomment)。 |
+| [Position](../../aspose.slides/comment/position) { get; set; } | スライド上のコメントの位置を取得または設定します。読み書き PointF。 |
+| [Slide](../../aspose.slides/comment/slide) { get; } | コメントの親スライドを取得します。読み取り専用 [`ISlide`](../islide)。 |
+| [Text](../../aspose.slides/comment/text) { get; set; } | スライドコメントのプレーンテキストを取得または設定します。読み書き String。 |
 
 ## メソッド
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
 | [Remove](../../aspose.slides/comment/remove)() | コメントとそのすべての返信を親コレクションから削除します。 |
 
-### 使用例
+### 例
 
-この例は、PowerPoint プレゼンテーションのスライドにコメントを追加する方法を示します。
+この例では、PowerPoint プレゼンテーションのスライドにコメントを追加する方法を示します。
 
 ```csharp
 [C#]
@@ -48,27 +48,27 @@ using (Presentation presentation = new Presentation())
     PointF point = new PointF();
     point.X = 0.2f;
     point.Y = 0.2f;
-    // スライド1の作成者向けにスライドコメントを追加します
+    // スライド 1 の作成者のスライドコメントを追加します
     author.Comments.AddComment("Hello Jawad, this is slide comment", presentation.Slides[0], point, DateTime.Now);
-    // スライド2の作成者向けにスライドコメントを追加します
+    // スライド 2 の作成者のスライドコメントを追加します
     author.Comments.AddComment("Hello Jawad, this is second slide comment", presentation.Slides[1], point, DateTime.Now);
-	// PowerPoint プレゼンテーションファイルを保存します
+	// PowerPoint プレゼンテーション ファイルを保存します
     presentation.Save("Comments_out.pptx", SaveFormat.Pptx);
 }
 ```
 
-この例は、PowerPoint プレゼンテーションのスライド上の既存のコメントにアクセスする方法を示します。
+この例では、PowerPoint プレゼンテーションのスライド上の既存のコメントにアクセスする方法を示します。
 
 ```csharp
 [C#]
 // Presentation クラスのインスタンスを作成します
 using (Presentation presentation = new Presentation("Comments1.pptx"))
 {
-	// CommentAuthors を列挙します
+	// CommentAuthors を反復処理します
     foreach (var commentAuthor in presentation.CommentAuthors)
     {
         var author = (CommentAuthor) commentAuthor;
-		// Comments を列挙します
+	// コメントを反復処理します
         foreach (var comment1 in author.Comments)
         {
             var comment = (Comment) comment1;
@@ -78,7 +78,7 @@ using (Presentation presentation = new Presentation("Comments1.pptx"))
 }
 ```
 
-この例は、コメントを追加し、それらへの返信を取得する方法を示します。
+この例では、コメントを追加し、それらへの返信を取得する方法を示します。
 
 ```csharp
 [C#]
@@ -88,14 +88,14 @@ using (Presentation pres = new Presentation())
     // コメントを追加します
     ICommentAuthor author1 = pres.CommentAuthors.AddAuthor("Author_1", "A.A.");
     IComment comment1 = author1.Comments.AddComment("comment1", pres.Slides[0], new PointF(10, 10), DateTime.Now);
-    // comment1 に対する返信を追加します
+    // comment1 への返信を追加します
     ICommentAuthor author2 = pres.CommentAuthors.AddAuthor("Autror_2", "B.B.");
     IComment reply1 = author2.Comments.AddComment("reply 1 for comment 1", pres.Slides[0], new PointF(10, 10), DateTime.Now);
     reply1.ParentComment = comment1;
-    // comment1 に対する別の返信を追加します
+    // comment1 への別の返信を追加します
     IComment reply2 = author2.Comments.AddComment("reply 2 for comment 1", pres.Slides[0], new PointF(10, 10), DateTime.Now);
     reply2.ParentComment = comment1;
-    // 既存の返信に対する返信を追加します
+    // 既存の返信への返信を追加します
     IComment subReply = author1.Comments.AddComment("subreply 3 for reply 2", pres.Slides[0], new PointF(10, 10), DateTime.Now);
     subReply.ParentComment = reply2;
     IComment comment2 = author2.Comments.AddComment("comment 2", pres.Slides[0], new PointF(10, 10), DateTime.Now);
@@ -117,7 +117,7 @@ using (Presentation pres = new Presentation())
         Console.WriteLine();
     }
     pres.Save("parent_comment.pptx",SaveFormat.Pptx);
-    // comment1 とそれへの全ての返信を削除します
+    // comment1 とそのすべての返信を削除します
     comment1.Remove();
     pres.Save("remove_comment.pptx", SaveFormat.Pptx);
 }

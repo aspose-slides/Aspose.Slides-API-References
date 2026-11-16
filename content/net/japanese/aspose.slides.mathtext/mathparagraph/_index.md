@@ -1,47 +1,47 @@
 ---
 title: MathParagraph
 second_title: Aspose.Sildes for .NET API リファレンス
-description: IMathBlock の数式ブロックをコンテナとする数学段落
+description: 数式ブロック IMathBlock のコンテナである数式段落
 type: docs
-weight: 8900
+weight: 8920
 url: /ja/aspose.slides.mathtext/mathparagraph/
 ---
 ## MathParagraph クラス
 
-数式ブロック (IMathBlock) のコンテナである数学段落です。
+数式ブロック (IMathBlock) のコンテナである数式段落
 
 ```csharp
 public class MathParagraph : IMathParagraph
 ```
 
-## コンストラクタ
+## コンストラクター
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
 | [MathParagraph](mathparagraph#constructor)() | MathParagraph クラスの新しいインスタンスを初期化します。 |
 | [MathParagraph](mathparagraph#constructor_1)(IMathBlock) | MathParagraph クラスの新しいインスタンスを初期化します。 |
 
 ## プロパティ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
 | [Count](../../aspose.slides.mathtext/mathparagraph/count) { get; } | コレクションに実際に含まれる要素数を取得します。読み取り専用 Int32。 |
 | [Item](../../aspose.slides.mathtext/mathparagraph/item) { get; set; } | 指定されたインデックスの項目を取得します。読み取り専用 [`IMathBlock`](../imathblock)。 |
-| [Justification](../../aspose.slides.mathtext/mathparagraph/justification) { get; set; } | Paragraph Justification デフォルト値: CenteredAsGroup |
+| [Justification](../../aspose.slides.mathtext/mathparagraph/justification) { get; set; } | 段落の配置 デフォルト値: CenteredAsGroup |
 
 ## メソッド
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
 | [Add](../../aspose.slides.mathtext/mathparagraph/add)(IMathBlock) | IMathBlock をコレクションの末尾に追加します。 |
 | [Clear](../../aspose.slides.mathtext/mathparagraph/clear)() | コレクションからすべての要素を削除します。 |
 | [Contains](../../aspose.slides.mathtext/mathparagraph/contains)(IMathBlock) | コレクションが特定の値を含むかどうかを判断します。 |
-| [IndexOf](../../aspose.slides.mathtext/mathparagraph/indexof)(IMathBlock) | コレクション内の特定の IMathBlock のインデックスを決定します。 |
+| [IndexOf](../../aspose.slides.mathtext/mathparagraph/indexof)(IMathBlock) | コレクション内の特定の IMMathBlock のインデックスを判断します。 |
 | [Insert](../../aspose.slides.mathtext/mathparagraph/insert)(int, IMathBlock) | 指定されたインデックスに IMathBlock をコレクションに挿入します。 |
-| [Remove](../../aspose.slides.mathtext/mathparagraph/remove)(IMathBlock) | コレクションから特定のオブジェクトの最初の出現を削除します。/>. |
+| [Remove](../../aspose.slides.mathtext/mathparagraph/remove)(IMathBlock) | コレクションから特定のオブジェクトの最初の出現を削除します/&gt;。 |
 | [RemoveAt](../../aspose.slides.mathtext/mathparagraph/removeat)(int) | コレクションの指定されたインデックスの項目を削除します。 |
 | [ToLatex](../../aspose.slides.mathtext/mathparagraph/tolatex)() | LaTeX 形式の数式を取得します |
-| [WriteAsMathMl](../../aspose.slides.mathtext/mathparagraph/writeasmathml)(Stream) | この [`MathParagraph`](../mathparagraph) の内容を MathML として保存します |
+| [WriteAsMathMl](../../aspose.slides.mathtext/mathparagraph/writeasmathml)(Stream) | [`MathParagraph`](../mathparagraph) の内容を MathML として保存します |
 
 ### 例
 
@@ -56,7 +56,7 @@ mathParagraph.Justification = MathJustification.LeftJustified;
 
 ### 参照
 
-* インターフェイス [IMathParagraph](../imathparagraph)
+* インターフェース [IMathParagraph](../imathparagraph)
 * 名前空間 [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * アセンブリ [Aspose.Slides](../../)
 

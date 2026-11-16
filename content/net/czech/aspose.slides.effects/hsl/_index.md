@@ -1,14 +1,14 @@
 ---
 title: HSL
-second_title: Aspose.Sildes pro .NET API referenci
-description: Representuje efekt Hue/Saturation/Luminance. Hue, saturation a luminance mohou být každé upraveny relativně k jejich aktuální hodnotě.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Představuje efekt Hue/Saturation/Luminance. Odstín, sytost a jasnost mohou být každé upraveny relativně k jejich aktuální hodnotě.
 type: docs
-weight: 3010
+weight: 3030
 url: /cs/aspose.slides.effects/hsl/
 ---
-## HSL třída
+## Třída HSL
 
-Representuje efekt Hue/Saturation/Luminance. Hue, saturation a luminance mohou být každé upraveny relativně k jejich aktuální hodnotě.
+Představuje efekt Hue/Saturation/Luminance. Odstín, sytost a jasnost mohou být každé upraveny relativně k jejich aktuální hodnotě.
 
 ```csharp
 public sealed class HSL : ImageTransformOperation, IHSL
@@ -18,7 +18,7 @@ public sealed class HSL : ImageTransformOperation, IHSL
 
 | Název | Popis |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Umožňuje získat základní rozhraní IPresentationComponent. Pouze pro čtení [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Umožňuje získat základní rozhraní IPPresentationComponent. Pouze pro čtení [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Metody
 

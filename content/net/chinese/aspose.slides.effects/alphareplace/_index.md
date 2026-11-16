@@ -1,14 +1,14 @@
 ---
 title: AlphaReplace
 second_title: Aspose.Sildes for .NET API 参考
-description: 表示 Alpha Replace 效果。效果的 alpha（不透明度）值被固定的 alpha 替换。
+description: 表示 Alpha Replace 效果。效果的 alpha 不透明度值被固定的 alpha 替换。
 type: docs
-weight: 2900
+weight: 2920
 url: /zh/aspose.slides.effects/alphareplace/
 ---
 ## AlphaReplace 类
 
-表示 Alpha Replace 效果。效果的 alpha（不透明度）值将被固定的 alpha 替换。
+表示 Alpha Replace 效果。效果的 alpha（不透明度）值被固定的 alpha 替换。
 
 ```csharp
 public sealed class AlphaReplace : ImageTransformOperation, IAlphaReplace
@@ -18,17 +18,17 @@ public sealed class AlphaReplace : ImageTransformOperation, IAlphaReplace
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基 IPresentationComponent 接口。只读 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基础 IPresentationComponent 接口。只读 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/alphareplace/equals)(object) | 确定指定的 [`AlphaReplace`](../alphareplace) 是否等于当前的 [`AlphaReplace`](../alphareplace)。 |
-| [GetEffective](../../aspose.slides.effects/alphareplace/geteffective)() | 获取在应用继承后有效的 Alpha Replace 效果数据。 |
-| override [GetHashCode](../../aspose.slides.effects/alphareplace/gethashcode)() | 作为特定类型的哈希函数。 |
+| [GetEffective](../../aspose.slides.effects/alphareplace/geteffective)() | 获取在应用继承后的有效 Alpha Replace 效果数据。 |
+| override [GetHashCode](../../aspose.slides.effects/alphareplace/gethashcode)() | 充当特定类型的哈希函数。 |
 
-### 另见
+### 另请参阅
 
 * 类 [ImageTransformOperation](../imagetransformoperation)
 * 接口 [IAlphaReplace](../ialphareplace)

@@ -1,14 +1,14 @@
 ---
 title: IImageTransformOperationCollection
-second_title: Aspose.Sildes .NET API Referenciája
-description: Egy képre alkalmazott hatások gyűjteményét képviseli.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Egy képhez alkalmazott effektusok gyűjteményét képviseli.
 type: docs
-weight: 3400
+weight: 3420
 url: /hu/aspose.slides.effects/iimagetransformoperationcollection/
 ---
 ## IImageTransformOperationCollection interfész
 
-Olyan gyűjteményt képvisel, amely képre alkalmazott hatásokat tartalmaz.
+Egy képhez alkalmazott effektusok gyűjteményét képviseli.
 
 ```csharp
 public interface IImageTransformOperationCollection : ICollection<IImageTransformOperation>
@@ -18,32 +18,32 @@ public interface IImageTransformOperationCollection : ICollection<IImageTransfor
 
 | Név | Leírás |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.effects/iimagetransformoperationcollection/asienumerable) { get; } | Visszaadja az IEnumerable felületet. Csak olvasható IEnumerable. |
-| [Item](../../aspose.slides.effects/iimagetransformoperationcollection/item) { get; } | Visszaad egy [`IImageTransformOperation`](../iimagetransformoperation) a gyűjteményből az indexe alapján. |
+| [AsIEnumerable](../../aspose.slides.effects/iimagetransformoperationcollection/asienumerable) { get; } | Visszaadja az IEnumerable interfészt. Csak olvasható IEnumerable. |
+| [Item](../../aspose.slides.effects/iimagetransformoperationcollection/item) { get; } | Visszaad egy [`IImageTransformOperation`](../iimagetransformoperation) a gyűjteményből a megfelelő index alapján. |
 
-## Módszerek
+## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [AddAlphaBiLevelEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphabileveleffect)(float) | Új Alpha Bi-Level hatást ad a gyűjtemény végéhez. |
-| [AddAlphaCeilingEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphaceilingeffect)() | Új Alpha Ceiling hatást ad a gyűjtemény végéhez. |
-| [AddAlphaFloorEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphaflooreffect)() | Új Alpha Floor hatást ad a gyűjtemény végéhez. |
-| [AddAlphaInverseEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphainverseeffect)() | Új Alpha Inverse hatást ad a gyűjtemény végéhez. |
-| [AddAlphaModulateEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphamodulateeffect)() | Új Alpha Modulate hatást ad a gyűjtemény végéhez. |
-| [AddAlphaModulateFixedEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphamodulatefixedeffect)(float) | Új Alpha Modulate Fixed hatást ad a gyűjtemény végéhez. |
-| [AddAlphaReplaceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphareplaceeffect)(float) | Új Alpha Replace hatást ad a gyűjtemény végéhez. |
-| [AddBiLevelEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addbileveleffect)(float) | Új Bi-Level (black/white) hatást ad a gyűjtemény végéhez. |
-| [AddBlurEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addblureffect)(double, bool) | Új Blur hatást ad a gyűjtemény végéhez. |
-| [AddBrightnessContrastEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addbrightnesscontrasteffect)(float, float) | Új BrightnessContrast hatást ad a gyűjtemény végéhez. |
-| [AddColorChangeEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addcolorchangeeffect)() | Új Color Change hatást ad a gyűjtemény végéhez. |
-| [AddColorReplaceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addcolorreplaceeffect)() | Új Color Replacement hatást ad a gyűjtemény végéhez. |
-| [AddDuotoneEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addduotoneeffect)() | Új Duotone hatást ad a gyűjtemény végéhez. |
-| [AddFillOverlayEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addfilloverlayeffect)() | Új Fill Overlay hatást ad a gyűjtemény végéhez. |
-| [AddGrayScaleEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addgrayscaleeffect)() | Új Gray Scale hatást ad a gyűjtemény végéhez. |
-| [AddHSLEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addhsleffect)(float, float, float) | Új Hue/Saturation/Luminance hatást ad a gyűjtemény végéhez. |
-| [AddLuminanceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addluminanceeffect)(float, float) | Új Luminance hatást ad a gyűjtemény végéhez. |
-| [AddTintEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addtinteffect)(float, float) | Új Tint hatást ad a gyűjtemény végéhez. |
-| [RemoveAt](../../aspose.slides.effects/iimagetransformoperationcollection/removeat)(int) | Eltávolít egy képhatást a gyűjteményből a megadott indexnél. |
+| [AddAlphaBiLevelEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphabileveleffect)(float) | Hozzáad egy új Alpha Bi-Level effektust a gyűjtemény végéhez. |
+| [AddAlphaCeilingEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphaceilingeffect)() | Hozzáad egy új Alpha Ceiling effektust a gyűjtemény végéhez. |
+| [AddAlphaFloorEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphaflooreffect)() | Hozzáad egy új Alpha Floor effektust a gyűjtemény végéhez. |
+| [AddAlphaInverseEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphainverseeffect)() | Hozzáad egy új Alpha Inverse effektust a gyűjtemény végéhez. |
+| [AddAlphaModulateEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphamodulateeffect)() | Hozzáad egy új Alpha Modulate effektust a gyűjtemény végéhez. |
+| [AddAlphaModulateFixedEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphamodulatefixedeffect)(float) | Hozzáad egy új Alpha Modulate Fixed effektust a gyűjtemény végéhez. |
+| [AddAlphaReplaceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphareplaceeffect)(float) | Hozzáad egy új Alpha Replace efektust a gyűjtemény végéhez. |
+| [AddBiLevelEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addbileveleffect)(float) | Hozzáad egy új Bi-Level (black/white) effektust a gyűjtemény végéhez. |
+| [AddBlurEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addblureffect)(double, bool) | Hozzáad egy új Blur efektust a gyűjtemény végéhez. |
+| [AddBrightnessContrastEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addbrightnesscontrasteffect)(float, float) | Hozzáad egy új BrightnessContrast effektust a gyűjtemény végéhez. |
+| [AddColorChangeEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addcolorchangeeffect)() | Hozzáad egy új Color Change effektust a gyűjtemény végéhez. |
+| [AddColorReplaceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addcolorreplaceeffect)() | Hozzáad egy új Color Replacement effektust a gyűjtemény végéhez. |
+| [AddDuotoneEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addduotoneeffect)() | Hozzáad egy új Duotone effektust a gyűjtemény végéhez. |
+| [AddFillOverlayEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addfilloverlayeffect)() | Hozzáad egy új Fill Overlay effektust a gyűjtemény végéhez. |
+| [AddGrayScaleEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addgrayscaleeffect)() | Hozzáad egy új Gray Scale effektust a gyűjtemény végéhez. |
+| [AddHSLEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addhsleffect)(float, float, float) | Hozzáad egy új Hue/Saturation/Luminance effektust a gyűjtemény végéhez. |
+| [AddLuminanceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addluminanceeffect)(float, float) | Hozzáad egy új Luminance effektust a gyűjtemény végéhez. |
+| [AddTintEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addtinteffect)(float, float) | Hozzáad egy új Tint effektust a gyűjtemény végéhez. |
+| [RemoveAt](../../aspose.slides.effects/iimagetransformoperationcollection/removeat)(int) | Eltávolít egy képeffektust a gyűjteményből a megadott indexnél. |
 
 ### Lásd még
 

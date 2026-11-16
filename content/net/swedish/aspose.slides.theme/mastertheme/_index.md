@@ -3,7 +3,7 @@ title: MasterTheme
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar ett mastertema.
 type: docs
-weight: 11430
+weight: 11450
 url: /sv/aspose.slides.theme/mastertheme/
 ---
 ## MasterTheme klass
@@ -18,20 +18,20 @@ public sealed class MasterTheme : Theme, IMasterTheme
 
 | Namn | Beskrivning |
 | --- | --- |
-| override [ColorScheme](../../aspose.slides.theme/mastertheme/colorscheme) { get; } | Returnerar färgschemat. Read-only [`IColorScheme`](../icolorscheme). |
-| [ExtraColorSchemes](../../aspose.slides.theme/mastertheme/extracolorschemes) { get; } | Returnerar samlingen av ytterligare färgscheman. Dessa scheman påverkar inte presentationens utseende, de kan väljas som huvudfärgschema för en bild. Read-only [`IExtraColorSchemeCollection`](../iextracolorschemecollection). |
-| override [FontScheme](../../aspose.slides.theme/mastertheme/fontscheme) { get; } | Returnerar typsnittsschemat. Read-only [`IFontScheme`](../ifontscheme). |
-| override [FormatScheme](../../aspose.slides.theme/mastertheme/formatscheme) { get; } | Returnerar formformatsschemat. Read-only [`IFormatScheme`](../iformatscheme). |
-| [Name](../../aspose.slides.theme/mastertheme/name) { get; set; } | Returnerar namnet på ett tema. Read/write String. |
-| [Presentation](../../aspose.slides.theme/theme/presentation) { get; } | Returnerar den överordnade presentationen. Read-only [`IPresentation`](../../aspose.slides/ipresentation). |
+| override [ColorScheme](../../aspose.slides.theme/mastertheme/colorscheme) { get; } | Returnerar färgschemat. Endast läsning [`IColorScheme`](../icolorscheme). |
+| [ExtraColorSchemes](../../aspose.slides.theme/mastertheme/extracolorschemes) { get; } | Returnerar samlingen av ytterligare färgscheman. Dessa scheman påverkar inte presentationens utseende, de kan väljas som huvudfärgschema för en bild. Endast läsning [`IExtraColorSchemeCollection`](../iextracolorschemecollection). |
+| override [FontScheme](../../aspose.slides.theme/mastertheme/fontscheme) { get; } | Returnerar teckensnittsschemat. Endast läsning [`IFontScheme`](../ifontscheme). |
+| override [FormatScheme](../../aspose.slides.theme/mastertheme/formatscheme) { get; } | Returnerar formatmall för former. Endast läsning [`IFormatScheme`](../iformatscheme). |
+| [Name](../../aspose.slides.theme/mastertheme/name) { get; set; } | Returnerar namnet på ett tema. Läs/skriv String. |
+| [Presentation](../../aspose.slides.theme/theme/presentation) { get; } | Returnerar den överordnade presentationen. Endast läsning [`IPresentation`](../../aspose.slides/ipresentation). |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
-| [GetEffective](../../aspose.slides.theme/theme/geteffective)() | Hämtar effektiv temadata med arv tillämpat. |
+| [GetEffective](../../aspose.slides.theme/theme/geteffective)() | Hämtar den effektiva temadatan med ärftlighet tillämpad. |
 
-### Se också
+### Se även
 
 * klass [Theme](../theme)
 * gränssnitt [IMasterTheme](../imastertheme)

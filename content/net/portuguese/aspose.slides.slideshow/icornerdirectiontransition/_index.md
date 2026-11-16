@@ -1,14 +1,14 @@
 ---
 title: ICornerDirectionTransition
-second_title: Aspose.Sildes para .NET Referência da API
-description: Efeito de transição de slide em direção ao canto.
+second_title: Aspose.Sildes para referência da API .NET
+description: Efeito de transição de slide na direção do canto.
 type: docs
-weight: 10060
+weight: 10080
 url: /pt/aspose.slides.slideshow/icornerdirectiontransition/
 ---
 ## ICornerDirectionTransition interface
 
-Efeito de transição de slide em direção ao canto.
+Efeito de transição de slide na direção do canto.
 
 ```csharp
 public interface ICornerDirectionTransition : ITransitionValueBase

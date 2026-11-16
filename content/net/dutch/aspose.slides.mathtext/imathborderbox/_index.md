@@ -3,7 +3,7 @@ title: IMathBorderBox
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Tekent een rechthoekige of andere rand rond de IMathElement.
 type: docs
-weight: 8170
+weight: 8190
 url: /nl/aspose.slides.mathtext/imathborderbox/
 ---
 ## IMathBorderBox interface
@@ -18,16 +18,16 @@ public interface IMathBorderBox : IMathElement
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathborderbox/asimathelement) { get; } | Staat toe de basis-IMathElement-interface op te halen [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathborderbox/asimathelement) { get; } | Staat toe om base IMathElement interface [`IMathElement`](../imathelement) op te halen |
 | [Base](../../aspose.slides.mathtext/imathborderbox/base) { get; } | Basisargument |
-| [HideBottom](../../aspose.slides.mathtext/imathborderbox/hidebottom) { get; set; } | Verberg onderkant (standaard is false) - specificeert de verborgen of weergegeven staat van de onderkant van de randvak. |
-| [HideLeft](../../aspose.slides.mathtext/imathborderbox/hideleft) { get; set; } | Verberg linkerrand (standaard is false) - specificeert de verborgen of weergegeven staat van de linkerrand van de randvak. |
-| [HideRight](../../aspose.slides.mathtext/imathborderbox/hideright) { get; set; } | Verberg rechterrand (standaard is false) - specificeert de verborgen of weergegeven staat van de rechterrand van de randvak. |
-| [HideTop](../../aspose.slides.mathtext/imathborderbox/hidetop) { get; set; } | Verberg bovenkant (standaard is false) - specificeert de verborgen of weergegeven staat van de bovenkant van de randvak. |
-| [StrikethroughBottomLeftToTopRight](../../aspose.slides.mathtext/imathborderbox/strikethroughbottomlefttotopright) { get; set; } | Doorhalen van onder-linkerhoek naar boven-rechterhoek (standaard is false). Specificeert de verborgen of weergegeven staat van een diagonale doorhalingslijn van de onder-linkerhoek naar de boven-rechterhoek van de randvak. |
-| [StrikethroughHorizontal](../../aspose.slides.mathtext/imathborderbox/strikethroughhorizontal) { get; set; } | Horizontale doorhaling (standaard is false) - specificeert de verborgen of weergegeven staat van een horizontale doorhalingslijn. |
-| [StrikethroughTopLeftToBottomRight](../../aspose.slides.mathtext/imathborderbox/strikethroughtoplefttobottomright) { get; set; } | Doorhalen van boven-linkerhoek naar onder-rechterhoek (standaard is false). Specificeert de verborgen of weergegeven staat van een diagonale doorhalingslijn van de boven-linkerhoek naar de onder-rechterhoek van de randvak. |
-| [StrikethroughVertical](../../aspose.slides.mathtext/imathborderbox/strikethroughvertical) { get; set; } | Doorhaling verticaal (standaard is false) - specificeert de verborgen of weergegeven staat van een verticale doorhalingslijn. |
+| [HideBottom](../../aspose.slides.mathtext/imathborderbox/hidebottom) { get; set; } | Verberg onderrand (standaard is false) - geeft de verborgen of weergegeven toestand van de onderrand van de border box aan. |
+| [HideLeft](../../aspose.slides.mathtext/imathborderbox/hideleft) { get; set; } | Verberg linkerrand (standaard is false) - geeft de verborgen of weergegeven toestand van de linkerrand van de border box aan. |
+| [HideRight](../../aspose.slides.mathtext/imathborderbox/hideright) { get; set; } | Verberg rechterrand (standaard is false) - geeft de verborgen of weergegeven toestand van de rechterrand van de border box aan. |
+| [HideTop](../../aspose.slides.mathtext/imathborderbox/hidetop) { get; set; } | Verberg bovengrond (standaard is false) - geeft de verborgen of weergegeven toestand van de bovengrond van de border box aan. |
+| [StrikethroughBottomLeftToTopRight](../../aspose.slides.mathtext/imathborderbox/strikethroughbottomlefttotopright) { get; set; } | Doorhalen van beneden-links naar boven-rechts (standaard is false). Geeft de verborgen of weergegeven toestand van een doorhalingsdiagonaal van de beneden-linker hoek naar de boven-rechter hoek van de border box aan. |
+| [StrikethroughHorizontal](../../aspose.slides.mathtext/imathborderbox/strikethroughhorizontal) { get; set; } | Doorhalen horizontaal (standaard is false) - geeft de verborgen of weergegeven toestand van een horizontale doorhalingslijn aan. |
+| [StrikethroughTopLeftToBottomRight](../../aspose.slides.mathtext/imathborderbox/strikethroughtoplefttobottomright) { get; set; } | Doorhalen van boven-links naar beneden-rechts (standaard is false). Geeft de verborgen of weergegeven toestand van een doorhalingsdiagonaal van de boven-linker hoek naar de beneden-rechter hoek van de border box aan. |
+| [StrikethroughVertical](../../aspose.slides.mathtext/imathborderbox/strikethroughvertical) { get; set; } | Doorhalen verticaal (standaard is false) - geeft de verborgen of weergegeven toestand van een verticale doorhalingslijn aan. |
 
 ### Voorbeelden
 

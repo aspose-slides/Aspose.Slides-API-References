@@ -1,14 +1,14 @@
 ---
 title: NotesSize
-second_title: Aspose.Sildes pour l'API de référence .NET
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Représente une taille de diapositive de notes.
 type: docs
-weight: 9130
+weight: 9150
 url: /fr/aspose.slides/notessize/
 ---
 ## NotesSize classe
 
-Représente une taille de diapositive de notes.
+Represents a size of notes slide.
 
 ```csharp
 public class NotesSize : INotesSize
@@ -18,7 +18,7 @@ public class NotesSize : INotesSize
 
 | Nom | Description |
 | --- | --- |
-| [NotesSize](notessize)() | Le constructeur par défaut. |
+| [NotesSize](notessize)() | The default constructor. |
 
 ## Propriétés
 

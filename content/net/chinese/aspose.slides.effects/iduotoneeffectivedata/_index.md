@@ -1,14 +1,14 @@
 ---
 title: IDuotoneEffectiveData
-second_title: Aspose.Sildes for .NET API 参考
-description: 不可变对象，表示一种双调效果。对于每个像素，通过线性插值将 clr1 和 clr2 合并，以确定该像素的新颜色。
+second_title: Aspose.Sildes 的 .NET API 参考
+description: 不可变对象，表示 Duotone 效果。对于每个像素，通过线性插值将 clr1 和 clr2 组合，以确定该像素的新颜色。
 type: docs
-weight: 3270
+weight: 3290
 url: /zh/aspose.slides.effects/iduotoneeffectivedata/
 ---
 ## IDuotoneEffectiveData 接口
 
-不可变对象，表示一种双调效果。对于每个像素，通过线性插值将 clr1 和 clr2 合并，以确定该像素的新颜色。
+不可变对象，表示 Duotone 效果。对于每个像素，通过线性插值将 clr1 和 clr2 组合，以确定该像素的新颜色。
 
 ```csharp
 public interface IDuotoneEffectiveData : IEffectEffectiveData
@@ -22,7 +22,7 @@ public interface IDuotoneEffectiveData : IEffectEffectiveData
 | [Color1](../../aspose.slides.effects/iduotoneeffectivedata/color1) { get; } | 返回暗像素的目标颜色格式。只读 Color。 |
 | [Color2](../../aspose.slides.effects/iduotoneeffectivedata/color2) { get; } | 返回亮像素的目标颜色格式。只读 Color。 |
 
-### 另见
+### 另请参见
 
 * 接口 [IEffectEffectiveData](../ieffecteffectivedata)
 * 命名空间 [Aspose.Slides.Effects](../../aspose.slides.effects)

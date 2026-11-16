@@ -1,9 +1,9 @@
 ---
 title: IFonts
-second_title: Aspose.Sildes für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Stellt die Schriftartensammlung dar.
 type: docs
-weight: 5900
+weight: 5920
 url: /de/aspose.slides/ifonts/
 ---
 ## IFonts Schnittstelle
@@ -18,18 +18,18 @@ public interface IFonts
 
 | Name | Beschreibung |
 | --- | --- |
-| [ComplexScriptFont](../../aspose.slides/ifonts/complexscriptfont) { get; set; } | Gibt die komplexe Skript-Schrift zurück oder legt sie fest. Lesen/Schreiben [`IFontData`](../ifontdata). |
-| [EastAsianFont](../../aspose.slides/ifonts/eastasianfont) { get; set; } | Gibt die ostasiatische Schrift zurück oder legt sie fest. Lesen/Schreiben [`IFontData`](../ifontdata). |
-| [LatinFont](../../aspose.slides/ifonts/latinfont) { get; set; } | Gibt die lateinische Schrift zurück oder legt sie fest. Lesen/Schreiben [`IFontData`](../ifontdata). |
+| [ComplexScriptFont](../../aspose.slides/ifonts/complexscriptfont) { get; set; } | Gibt die komplexe Skript-Schriftart zurück oder legt sie fest. Lesen/Schreiben [`IFontData`](../ifontdata). |
+| [EastAsianFont](../../aspose.slides/ifonts/eastasianfont) { get; set; } | Gibt die ostasiatische Schriftart zurück oder legt sie fest. Lesen/Schreiben [`IFontData`](../ifontdata). |
+| [LatinFont](../../aspose.slides/ifonts/latinfont) { get; set; } | Gibt die lateinische Schriftart zurück oder legt sie fest. Lesen/Schreiben [`IFontData`](../ifontdata). |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [GetScriptFont](../../aspose.slides/ifonts/getscriptfont)(string) | Ermittelt den Schriftartnamen, der mit einem bestimmten Skript-Tag aus dem Präsentationsthema verknüpft ist. |
-| [GetScriptFontMap](../../aspose.slides/ifonts/getscriptfontmap)() | Gibt ein Wörterbuch aller Skript-Schriftdefinitionen in der Präsentation zurück. |
-| [RemoveScriptFont](../../aspose.slides/ifonts/removescriptfont)(string) | Entfernt die Schriftarteinstellung, die mit einem bestimmten Skript-Tag aus der Schriftartsammlung des Themas verknüpft ist. |
-| [SetScriptFont](../../aspose.slides/ifonts/setscriptfont)(string, string) | Ordnet einem bestimmten Skript-Tag einen Schriftartnamen zu, der definiert, wie Text dieses Skripts in der Präsentation gerendert wird. |
+| [GetScriptFont](../../aspose.slides/ifonts/getscriptfont)(string) | Ermittelt den Schriftartnamen, der einem bestimmten Skript-Tag aus dem Präsentationsthema zugeordnet ist. |
+| [GetScriptFontMap](../../aspose.slides/ifonts/getscriptfontmap)() | Gibt ein Wörterbuch aller Skript-Schriftartdefinitionen in der Präsentation zurück. |
+| [RemoveScriptFont](../../aspose.slides/ifonts/removescriptfont)(string) | Entfernt die Schriftarteinstellung, die einem bestimmten Skript-Tag aus der Schriftartsammlung des Themas zugeordnet ist. |
+| [SetScriptFont](../../aspose.slides/ifonts/setscriptfont)(string, string) | Weist einem bestimmten Skript-Tag einen Schriftartnamen zu, der definiert, wie Text dieses Skripts in der Präsentation dargestellt wird. |
 
 ### Siehe auch
 

@@ -1,14 +1,14 @@
 ---
 title: NullableBool
-second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Biểu diễn các giá trị boolean ba trạng thái.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Biểu thị ba giá trị boolean.
 type: docs
-weight: 9170
+weight: 9190
 url: /vi/aspose.slides/nullablebool/
 ---
 ## NullableBool liệt kê
 
-Biểu diễn các giá trị boolean ba trạng thái.
+Biểu thị ba giá trị boolean.
 
 ```csharp
 public enum NullableBool : sbyte
@@ -18,7 +18,7 @@ public enum NullableBool : sbyte
 
 | Tên | Giá trị | Mô tả |
 | --- | --- | --- |
-| NotDefined | `-1` | Giá trị boolean không xác định. |
+| NotDefined | `-1` | Giá trị boolean chưa được xác định. |
 | False | `0` | Giá trị False. |
 | True | `1` | Giá trị True. |
 

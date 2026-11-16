@@ -1,14 +1,14 @@
 ---
 title: PatternStyle
-second_title: Aspose.Sildes .NET API संदर्भ के लिए
-description: पैटर्न स्टाइल का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: पैटर्न शैली को दर्शाता है।
 type: docs
-weight: 9360
+weight: 9380
 url: /hi/aspose.slides/patternstyle/
 ---
-## PatternStyle एनेमरेशन
+## PatternStyle एन्यूमरेशन
 
-पैटर्न स्टाइल का प्रतिनिधित्व करता है।
+पैटर्न शैली को दर्शाता है।
 
 ```csharp
 public enum PatternStyle : sbyte
@@ -75,7 +75,7 @@ public enum PatternStyle : sbyte
 | UpwardDiagonal | `53` |  |
 | DiagonalCross | `54` |  |
 
-### और देखें
+### संबंधित देखें
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

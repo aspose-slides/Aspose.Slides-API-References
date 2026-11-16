@@ -1,14 +1,14 @@
 ---
 title: FontSubstCondition
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงกฎสำหรับการแทนที่ฟอนต์
+second_title: Aspose.Sildes สำหรับ .NET API อ้างอิง
+description: แสดงถึงกฎสำหรับการแทนที่แบบอักษร
 type: docs
-weight: 4880
+weight: 4900
 url: /th/aspose.slides/fontsubstcondition/
 ---
 ## FontSubstCondition enumeration
 
-แสดงถึงกฎสำหรับการแทนที่ฟอนต์
+แสดงถึงกฎสำหรับการแทนที่แบบอักษร
 
 ```csharp
 public enum FontSubstCondition
@@ -18,7 +18,7 @@ public enum FontSubstCondition
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
-| WhenInaccessible | `0` | แทนที่เมื่อไม่พบฟอนต์ |
+| WhenInaccessible | `0` | แทนที่เมื่อไม่พบแบบอักษร |
 | Always | `1` | แทนที่เสมอ |
 
 ### ดูเพิ่มเติม

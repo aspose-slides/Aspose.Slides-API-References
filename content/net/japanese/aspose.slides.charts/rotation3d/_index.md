@@ -1,9 +1,9 @@
 ---
 title: Rotation3D
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: チャートの 3D 回転を表します。
 type: docs
-weight: 2400
+weight: 2420
 url: /ja/aspose.slides.charts/rotation3d/
 ---
 ## Rotation3D クラス
@@ -18,12 +18,12 @@ public class Rotation3D : IRotation3D
 
 | 名前 | 説明 |
 | --- | --- |
-| [DepthPercents](../../aspose.slides.charts/rotation3d/depthpercents) { get; set; } | 3D チャートの深さを、チャート幅のパーセンテージとして取得または設定します（20〜2000 パーセントの範囲）。読み取り/書き込み UInt16. |
-| [HeightPercents](../../aspose.slides.charts/rotation3d/heightpercents) { get; set; } | 3-D チャートの高さを、チャート幅のパーセンテージとして指定します（5〜500 パーセントの範囲）。読み取り/書き込み UInt16. |
-| [Perspective](../../aspose.slides.charts/rotation3d/perspective) { get; set; } | 3D チャートの遠近感の値（視野角）を取得または設定します（0〜240 の範囲）。RightAngleAxes プロパティの値が true の場合は無視されます。読み取り/書き込み Byte. |
-| [RightAngleAxes](../../aspose.slides.charts/rotation3d/rightangleaxes) { get; set; } | チャート軸が遠近法で描画されるのではなく、直角であるかどうかを決定します。言い換えれば、軸の角度がチャートの回転や傾きから独立しているかどうかを決定します。読み取り/書き込み Boolean. |
-| [RotationX](../../aspose.slides.charts/rotation3d/rotationx) { get; set; } | X 軸（3D チャートでは Y 方向）周りの回転角度を取得または設定します（-90〜90 度の範囲）。このプロパティは ECMA-376 の 21.2.2.157 rotX（X Rotation）項目および PowerPoint 2007+ の「Y Rotation」オプションに対応しています。読み取り/書き込み SByte. |
-| [RotationY](../../aspose.slides.charts/rotation3d/rotationy) { get; set; } | Y 軸（3D チャートでは X 方向）周りの回転角度を取得または設定します（0〜360 度の範囲）。このプロパティは ECMA-376 の 21.2.2.158 rotY（Y Rotation）項目および PowerPoint 2007+ の「X Rotation」オプションに対応しています。読み取り/書き込み UInt16. |
+| [DepthPercents](../../aspose.slides.charts/rotation3d/depthpercents) { get; set; } | 3D チャートの深さを、チャート幅のパーセンテージとして取得または設定します (20% から 2000% の範囲)。読み取り/書き込み UInt16。 |
+| [HeightPercents](../../aspose.slides.charts/rotation3d/heightpercents) { get; set; } | 3-D チャートの高さを、チャート幅のパーセンテージとして指定します (5% から 500% の範囲)。読み取り/書き込み UInt16。 |
+| [Perspective](../../aspose.slides.charts/rotation3d/perspective) { get; set; } | 3D チャートの遠近値 (視野角) を取得または設定します (0 から 240 の範囲)。RightAngleAxes プロパティの値が true の場合は無視されます。読み取り/書き込み Byte。 |
+| [RightAngleAxes](../../aspose.slides.charts/rotation3d/rightangleaxes) { get; set; } | チャートの軸が遠近ではなく直角であるかどうかを決定します。つまり、軸の角度がチャートの回転や傾きから独立しているかどうかを決定します。読み取り/書き込み Boolean。 |
+| [RotationX](../../aspose.slides.charts/rotation3d/rotationx) { get; set; } | 3D チャートの X 軸周りの回転角度、すなわち Y 方向の回転角度を取得または設定します (-90 から 90 度の範囲)。このプロパティは ECMA-376 の 21.2.2.157 rotX (X Rotation) 項目および PowerPoint 2007+ の "Y Rotation" オプションと一致します。読み取り/書き込み SByte。 |
+| [RotationY](../../aspose.slides.charts/rotation3d/rotationy) { get; set; } | 3D チャートの Y 軸周りの回転角度、すなわち X 方向の回転角度を取得または設定します (0 から 360 度の範囲)。このプロパティは ECMA-376 の 21.2.2.158 rotY (Y Rotation) 項目および PowerPoint 2007+ の "X Rotation" オプションと一致します。読み取り/書き込み UInt16。 |
 
 ### 参照
 

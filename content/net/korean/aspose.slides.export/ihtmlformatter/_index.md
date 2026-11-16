@@ -3,7 +3,7 @@ title: IHtmlFormatter
 second_title: Aspose.Sildes for .NET API 레퍼런스
 description: HTML 파일 템플릿을 나타냅니다.
 type: docs
-weight: 3940
+weight: 3960
 url: /ko/aspose.slides.export/ihtmlformatter/
 ---
 ## IHtmlFormatter 인터페이스
@@ -14,7 +14,7 @@ HTML 파일 템플릿을 나타냅니다.
 public interface IHtmlFormatter
 ```
 
-### 관련 항목
+### 참고
 
 * 네임스페이스 [Aspose.Slides.Export](../../aspose.slides.export)
 * 어셈블리 [Aspose.Slides](../../)

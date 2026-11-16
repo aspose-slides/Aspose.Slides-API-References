@@ -1,9 +1,9 @@
 ---
 title: IFormatScheme
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Aspose.Sildes para referência de API .NET
 description: Armazena formatos definidos pelo tema para as formas.
 type: docs
-weight: 11270
+weight: 11290
 url: /pt/aspose.slides.theme/iformatscheme/
 ---
 ## IFormatScheme interface
@@ -24,7 +24,7 @@ public interface IFormatScheme : ISlideComponent
 | [FillStyles](../../aspose.slides.theme/iformatscheme/fillstyles) { get; } | Retorna uma coleção de estilos de preenchimento definidos pelo tema. Somente leitura [`IFillFormatCollection`](../ifillformatcollection). |
 | [LineStyles](../../aspose.slides.theme/iformatscheme/linestyles) { get; } | Retorna uma coleção de estilos de linha definidos pelo tema. Somente leitura [`ILineFormatCollection`](../ilineformatcollection). |
 
-### Veja Também
+### Ver também
 
 * interface [ISlideComponent](../../aspose.slides/islidecomponent)
 * namespace [Aspose.Slides.Theme](../../aspose.slides.theme)

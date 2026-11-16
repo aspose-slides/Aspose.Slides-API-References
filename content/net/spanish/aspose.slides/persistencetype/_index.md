@@ -1,14 +1,14 @@
 ---
 title: PersistenceType
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Aspose.Sildes para la referencia de API de .NET
 description: Especifica el método utilizado para almacenar las propiedades del control ActiveX.
 type: docs
-weight: 9370
+weight: 9390
 url: /es/aspose.slides/persistencetype/
 ---
-## enumeración PersistenceType
+## PersistenceType enumeración
 
-Especifica el método usado para almacenar las propiedades del control ActiveX.
+Especifica el método utilizado para almacenar las propiedades del control ActiveX.
 
 ```csharp
 public enum PersistenceType
@@ -18,10 +18,10 @@ public enum PersistenceType
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| NotDefined | `-1` | Id de persistencia no especificado. |
-| PersistPropertyBag | `0` | Especifica que el control ActiveX se persiste usando persistencia basada en contenedores de propiedades. La persistencia basada en contenedores de propiedades almacena un control ActiveX mediante una colección de pares nombre-valor que especifican los datos persistidos por el control ActiveX. |
-| PersistStream | `1` | Especifica que el control ActiveX se persiste usando una persistencia basada en flujo que no soporta la inicialización del control ActiveX a un estado predeterminado. |
-| PersistStreamInit | `2` | Especifica que el control ActiveX se persiste usando una persistencia basada en flujo que soporta la inicialización del control ActiveX a un estado predeterminado. |
+| NotDefined | `-1` | Identificador de persistencia no especificado. |
+| PersistPropertyBag | `0` | Especifica que el control ActiveX se persiste usando persistencia basada en bolsas de propiedades. La persistencia basada en bolsas de propiedades almacena un control ActiveX mediante una colección de pares nombre y valor que especifican los datos persistidos por el control ActiveX. |
+| PersistStream | `1` | Especifica que el control ActiveX se persiste usando una persistencia basada en flujo que no admite la inicialización del control ActiveX a un estado predeterminado. |
+| PersistStreamInit | `2` | Especifica que el control ActiveX se persiste usando una persistencia basada en flujo que admite la inicialización del control ActiveX a un estado predeterminado. |
 | PersistStorage | `3` | Especifica que el control ActiveX se persiste usando una persistencia basada en almacenamiento. |
 
 ### Ver también

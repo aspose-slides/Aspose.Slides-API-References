@@ -3,7 +3,7 @@ title: IChartDataCell
 second_title: Aspose.Sildes для .NET API Reference
 description: Представляет ячейку данных диаграммы.
 type: docs
-weight: 1810
+weight: 1830
 url: /ru/aspose.slides.charts/ichartdatacell/
 ---
 ## IChartDataCell интерфейс
@@ -18,12 +18,12 @@ public interface IChartDataCell
 
 | Имя | Описание |
 | --- | --- |
-| [ChartDataWorksheet](../../aspose.slides.charts/ichartdatacell/chartdataworksheet) { get; } | Получает лист электронной таблицы. Только для чтения [`IChartDataWorksheet`](../ichartdataworksheet). |
+| [ChartDataWorksheet](../../aspose.slides.charts/ichartdatacell/chartdataworksheet) { get; } | Получает лист рабочей книги. Только для чтения [`IChartDataWorksheet`](../ichartdataworksheet). |
 | [Column](../../aspose.slides.charts/ichartdatacell/column) { get; } | Возвращает индекс столбца листа, в котором находится ячейка. Только для чтения Int32. |
-| [CustomNumberFormat](../../aspose.slides.charts/ichartdatacell/customnumberformat) { get; set; } | Получает или задает пользовательский формат отображения чисел и дат. Если значение пусто, будет использовано значение PresetNumberFormat. Чтение/запись String. |
+| [CustomNumberFormat](../../aspose.slides.charts/ichartdatacell/customnumberformat) { get; set; } | Получает или задает пользовательский формат отображения чисел и дат. Если значение пустое, будет использовано значение PresetNumberFormat. Чтение/запись String. |
 | [Formula](../../aspose.slides.charts/ichartdatacell/formula) { get; set; } | Получает или задает формулу в стиле A1. |
 | [IsHidden](../../aspose.slides.charts/ichartdatacell/ishidden) { get; } | Определяет, скрыта ли ячейка. Только для чтения Boolean. |
-| [PresetNumberFormat](../../aspose.slides.charts/ichartdatacell/presetnumberformat) { get; set; } | Получает или задает встроенный формат отображения чисел и дат. Предустановленное значение должно находиться в диапазоне [0..22] или [37..49]. Чтение/запись Byte. |
+| [PresetNumberFormat](../../aspose.slides.charts/ichartdatacell/presetnumberformat) { get; set; } | Получает или задает встроенный формат отображения чисел и дат. Предустановленное число должно быть в диапазоне [0..22] или [37..49]. Чтение/запись Byte. |
 | [R1C1Formula](../../aspose.slides.charts/ichartdatacell/r1c1formula) { get; set; } | Получает или задает формулу в стиле R1C1. |
 | [Row](../../aspose.slides.charts/ichartdatacell/row) { get; } | Возвращает индекс строки листа, в котором находится ячейка. Только для чтения Int32. |
 | [Value](../../aspose.slides.charts/ichartdatacell/value) { get; set; } | Получает или задает значение ячейки. Чтение/запись Object. |

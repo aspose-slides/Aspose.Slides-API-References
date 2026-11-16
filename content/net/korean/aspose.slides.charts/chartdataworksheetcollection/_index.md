@@ -1,9 +1,9 @@
 ---
 title: ChartDataWorksheetCollection
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 차트 데이터 워크북의 워크시트 컬렉션을 나타냅니다.
 type: docs
-weight: 1400
+weight: 1410
 url: /ko/aspose.slides.charts/chartdataworksheetcollection/
 ---
 ## ChartDataWorksheetCollection 클래스
@@ -32,7 +32,7 @@ public sealed class ChartDataWorksheetCollection : IChartDataWorksheetCollection
 
 ### 예제
 
-Example:
+예시:
 
 ```csharp
 [C#]

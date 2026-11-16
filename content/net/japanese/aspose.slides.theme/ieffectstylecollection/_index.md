@@ -1,14 +1,14 @@
 ---
 title: IEffectStyleCollection
 second_title: Aspose.Sildes for .NET API リファレンス
-description: エフェクトスタイルのコレクションを表します。
+description: エフェクト スタイルのコレクションを表します。
 type: docs
-weight: 11180
+weight: 11200
 url: /ja/aspose.slides.theme/ieffectstylecollection/
 ---
 ## IEffectStyleCollection インターフェイス
 
-エフェクトスタイルのコレクションを表します。
+エフェクト スタイルのコレクションを表します。
 
 ```csharp
 public interface IEffectStyleCollection : IGenericCollection<IEffectStyle>
@@ -18,7 +18,7 @@ public interface IEffectStyleCollection : IGenericCollection<IEffectStyle>
 
 | 名前 | 説明 |
 | --- | --- |
-| [Item](../../aspose.slides.theme/ieffectstylecollection/item) { get; } | 指定された位置の要素を返します。 読み取り専用 [`IEffectStyle`](../ieffectstyle)。 |
+| [Item](../../aspose.slides.theme/ieffectstylecollection/item) { get; } | 指定された位置の要素を返します。読み取り専用 [`IEffectStyle`](../ieffectstyle)。 |
 
 ### 参照
 

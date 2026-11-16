@@ -1,18 +1,22 @@
 ---
 title: GapDepth
-second_title: Aspose.Sildes pro .NET API Reference
-description: Vrací nebo nastavuje vzdálenost jako procento šířky značky mezi datovými řadami ve 3D grafu. Čtení/zápis UInt16.
+second_title: Aspose.Sildes pro .NET API referenci
+description: Získá nebo nastaví vzdálenost mezi datovými řadami ve 3D grafu jako procento šířky značky. Hodnota musí být v rozmezí od 0 do 500. Read/write UInt16.
 type: docs
 weight: 60
 url: /cs/aspose.slides.charts/ichartseriesgroup/gapdepth/
 ---
 ## IChartSeriesGroup.GapDepth vlastnost
 
-Vrací nebo nastavuje vzdálenost, jako procento šířky značky, mezi datovými řadami ve 3D grafu. Čtení/zápis UInt16.
+Získá nebo nastaví vzdálenost mezi datovými řadami ve 3D grafu jako procento šířky značky. Hodnota musí být v rozmezí od 0 do 500. Číst/Zapisovat UInt16.
 
 ```csharp
 public ushort GapDepth { get; set; }
 ```
+
+### Poznámky
+
+Tato vlastnost se vztahuje na řady následujících typů: 3D bar a column podtypy, Line3D, Area3D, StackedArea3D, PercentsStackedArea3D.
 
 ### Viz také
 

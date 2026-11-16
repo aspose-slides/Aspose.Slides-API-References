@@ -3,7 +3,7 @@ title: ChartCategoryLevelsManager
 second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Conteneur géré des valeurs des niveaux de catégorie du graphique.
 type: docs
-weight: 1290
+weight: 1300
 url: /fr/aspose.slides.charts/chartcategorylevelsmanager/
 ---
 ## ChartCategoryLevelsManager classe
@@ -24,8 +24,8 @@ public class ChartCategoryLevelsManager : IChartCategoryLevelsManager
 
 | Nom | Description |
 | --- | --- |
-| [DeleteGroupingItem](../../aspose.slides.charts/chartcategorylevelsmanager/deletegroupingitem)(int) | Supprime l'élément de regroupement pour le niveau défini. |
-| [SetGroupingItem](../../aspose.slides.charts/chartcategorylevelsmanager/setgroupingitem)(int, object) | Définit l'élément de regroupement pour le niveau défini. |
+| [DeleteGroupingItem](../../aspose.slides.charts/chartcategorylevelsmanager/deletegroupingitem)(int) | Supprime l'élément de groupement pour le niveau défini. |
+| [SetGroupingItem](../../aspose.slides.charts/chartcategorylevelsmanager/setgroupingitem)(int, object) | Définit l'élément de groupement pour le niveau défini. |
 
 ### Voir aussi
 

@@ -1,28 +1,27 @@
 ---
 title: GlobalLayoutSlideCollection
-second_title: Aspose.Sildes .NET API Referansı
-description: Sunumda bulunan tüm düzen slaytlarının bir koleksiyonunu temsil eder. Bireysel ana düzen slayt koleksiyonlarının birleştirilmesi bağlamında düzen slaytlarını ekleme/kopyalama yöntemleri içeren LayoutSlideCollection sınıfını genişletir.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Sunumdaki tüm düzen slaytlarının bir koleksiyonunu temsil eder. LayoutSlideCollection sınıfını, ana düzen slaytlarının bireysel koleksiyonlarını birleştirme bağlamında düzen slaytları ekleme/kopyalama metodlarıyla genişletir.
 type: docs
-weight: 4980
+weight: 5000
 url: /tr/aspose.slides/globallayoutslidecollection/
 ---
-## GlobalLayoutSlideCollection sınıf
+## GlobalLayoutSlideCollection sınıfı
 
-Sunumdaki tüm düzen slaytlarının bir koleksiyonunu temsil eder. Bireysel ana düzen slayt koleksiyonlarını birleştirme bağlamında düzen slaytları eklemek/kopyalamak için yöntemler içeren LayoutSlideCollection sınıfını genişletir.
+Represents a collection of all layout slides in presentation. Extends LayoutSlideCollection class with methods for adding/cloning layout slides in context of uniting of the individual collections of master's layout slides.
 
 ```csharp
 public sealed class GlobalLayoutSlideCollection : LayoutSlideCollection, 
     IGlobalLayoutSlideCollection
 ```
 
-
 ## Özellikler
 
 | Ad | Açıklama |
 | --- | --- |
 | [Count](../../aspose.slides/layoutslidecollection/count) { get; } | Bir koleksiyondaki düzen slaytlarının sayısını döndürür. Salt okunur Int32. |
-| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | Koleksiyona erişimin eşzamanlı (iş parçacığı güvenli) olup olmadığını gösteren bir değeri döndürür. Salt okunur Boolean. |
-| [Item](../../aspose.slides/layoutslidecollection/item) { get; } | İndeksle düzen slaytını döndürür. Salt okunur [`LayoutSlide`](../layoutslide). |
+| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | Koleksiyona erişimin eşzamanlı (thread-safe) olup olmadığını gösteren bir değer döndürür. Salt okunur Boolean. |
+| [Item](../../aspose.slides/layoutslidecollection/item) { get; } | Dizine göre düzen slaytını döndürür. Salt okunur [`LayoutSlide`](../layoutslide). |
 | [SyncRoot](../../aspose.slides/layoutslidecollection/syncroot) { get; } | Bir senkronizasyon kökü döndürür. Salt okunur Object. |
 
 ## Yöntemler
@@ -30,11 +29,11 @@ public sealed class GlobalLayoutSlideCollection : LayoutSlideCollection,
 | Ad | Açıklama |
 | --- | --- |
 | [Add](../../aspose.slides/globallayoutslidecollection/add)(IMasterSlide, SlideLayoutType, string) | Sunuma yeni bir düzen slaytı ekler. |
-| [AddClone](../../aspose.slides/globallayoutslidecollection/addclone#addclone)(ILayoutSlide) | Belirtilen bir düzen slaytının bir kopyasını sunuma ekler. |
-| [AddClone](../../aspose.slides/globallayoutslidecollection/addclone#addclone_1)(ILayoutSlide, IMasterSlide) | Belirtilen bir düzen slaytının bir kopyasını sunuma ekler. |
+| [AddClone](../../aspose.slides/globallayoutslidecollection/addclone#addclone)(ILayoutSlide) | Belirtilen düzen slaytının bir kopyasını sunuma ekler. |
+| [AddClone](../../aspose.slides/globallayoutslidecollection/addclone#addclone_1)(ILayoutSlide, IMasterSlide) | Belirtilen düzen slaytının bir kopyasını sunuma ekler. |
 | [CopyTo](../../aspose.slides/layoutslidecollection/copyto)(Array, int) | Koleksiyondaki tüm öğeleri belirtilen diziye kopyalar. |
-| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | Belirtilen tipteki ilk düzen slaytını döndürür. Bulunacak düzen slaytının tipi.[`LayoutSlide`](../layoutslide) belirtilen tipte veya düzen bulunamazsa null. |
-| [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | Koleksiyon içinde yineleme yapan bir döngü getirir. |
+| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | Belirtilen türdeki ilk düzen slaytını döndürür. Bulunacak düzen slaytının türü.[`LayoutSlide`](../layoutslide) belirtilen türle veya hiçbir düzen bulunamazsa null. |
+| [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | Koleksiyon içinde yineleme yapan bir enumerator döndürür. |
 | [Remove](../../aspose.slides/layoutslidecollection/remove)(ILayoutSlide) | Koleksiyondan bir düzeni kaldırır. |
 | [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | Kullanılmayan düzen slaytlarını kaldırır (HasDependingSlides özelliği false olan düzen slaytları). |
 

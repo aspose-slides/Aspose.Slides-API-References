@@ -1,12 +1,12 @@
 ---
 title: ImageWrapperFactory
-second_title: Aspose.Slides için .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Bu sınıf IBitmapWrapper'ı başlatmaya olanak tanır.
 type: docs
-weight: 7450
+weight: 7470
 url: /tr/aspose.slides/imagewrapperfactory/
 ---
-## ImageWrapperFactory sınıfı
+## ImageWrapperFactory sınıf
 
 Bu sınıf IBitmapWrapper'ı başlatmaya olanak tanır.
 
@@ -14,7 +14,7 @@ Bu sınıf IBitmapWrapper'ı başlatmaya olanak tanır.
 public class ImageWrapperFactory : IImageWrapperFactory
 ```
 
-## Kurucular
+## Yapıcılar
 
 | Ad | Açıklama |
 | --- | --- |
@@ -24,11 +24,11 @@ public class ImageWrapperFactory : IImageWrapperFactory
 
 | Ad | Açıklama |
 | --- | --- |
-| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper)(IImage) | Belirtilen mevcut görüntüden ImageWrapper sınıfının yeni bir örneğini başlatır. |
-| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper_1)(Stream) | Belirtilen veri akışından BitmapWrapper sınıfının yeni bir örneğini başlatır. |
-| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper_2)(string) | Belirtilen dosyadan BitmapWrapper sınıfının yeni bir örneğini başlatır. |
+| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper)(IImage) | Belirtilen mevcut görselle ImageWrapper sınıfının yeni bir örneğini başlatır. |
+| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper_1)(Stream) | Belirtilen veri akışıyla BitmapWrapper sınıfının yeni bir örneğini başlatır. |
+| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper_2)(string) | Belirtilen dosyayla BitmapWrapper sınıfının yeni bir örneğini başlatır. |
 
-### Diğer Bağlantılar
+### Ayrıca Bakınız
 
 * arayüz [IImageWrapperFactory](../iimagewrapperfactory)
 * ad alanı [Aspose.Slides](../../aspose.slides)

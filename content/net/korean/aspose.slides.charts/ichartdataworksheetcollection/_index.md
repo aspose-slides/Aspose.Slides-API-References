@@ -1,9 +1,9 @@
 ---
 title: IChartDataWorksheetCollection
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 차트 데이터 워크북의 워크시트 컬렉션을 나타냅니다.
 type: docs
-weight: 1880
+weight: 1900
 url: /ko/aspose.slides.charts/ichartdataworksheetcollection/
 ---
 ## IChartDataWorksheetCollection 인터페이스
@@ -16,13 +16,13 @@ public interface IChartDataWorksheetCollection : IGenericCollection<IChartDataWo
 
 ## 속성
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
 | [Item](../../aspose.slides.charts/ichartdataworksheetcollection/item) { get; } | 인덱스로 워크시트를 반환합니다. |
 
 ### 예제
 
-예제:
+예시:
 
 ```csharp
 [C#]
@@ -37,7 +37,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### 참고
+### 참조
 
 * 인터페이스 [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * 인터페이스 [IChartDataWorksheet](../ichartdataworksheet)

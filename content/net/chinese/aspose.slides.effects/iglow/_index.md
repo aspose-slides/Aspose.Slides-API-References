@@ -1,14 +1,14 @@
 ---
 title: IGlow
-second_title: Aspose.Sildes for .NET API 参考
-description: 表示一种辉光效果，在该效果中，颜色模糊的轮廓会添加在对象的边缘之外。
+second_title: Aspose.Sildes .NET API 参考
+description: 表示一种 Glow 效果，其中在对象的边缘之外添加了颜色模糊的轮廓。
 type: docs
-weight: 3320
+weight: 3340
 url: /zh/aspose.slides.effects/iglow/
 ---
-## IGlow 接口
+## IGlow interface
 
-表示一种辉光效果，在该效果中，颜色模糊的轮廓会添加在对象的边缘之外。
+表示一种 Glow 效果，其中在对象的边缘之外添加了颜色模糊的轮廓。
 
 ```csharp
 public interface IGlow : IAccessiblePVIObject<IGlowEffectiveData>, IImageTransformOperation
@@ -16,14 +16,14 @@ public interface IGlow : IAccessiblePVIObject<IGlowEffectiveData>, IImageTransfo
 
 ## 属性
 
-| 名称 | 描述 |
+| 名称 | 说明 |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/iglow/asiaccessiblepviobject) { get; } | 允许获取基础 IAccessiblePVIObject 接口。只读 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
-| [AsIImageTransformOperation](../../aspose.slides.effects/iglow/asiimagetransformoperation) { get; } | 允许获取基础 IImageTransformOperation 接口。只读 [`IImageTransformOperation`](../iimagetransformoperation)。 |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/iglow/asiaccessiblepviobject) { get; } | 允许获取基类 IAccessiblePVIObject 接口。只读 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
+| [AsIImageTransformOperation](../../aspose.slides.effects/iglow/asiimagetransformoperation) { get; } | 允许获取基类 IImageTransformOperation 接口。只读 [`IImageTransformOperation`](../iimagetransformoperation)。 |
 | [Color](../../aspose.slides.effects/iglow/color) { get; } | 颜色格式。只读 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
-| [Radius](../../aspose.slides.effects/iglow/radius) { get; set; } | 半径。读写 Double。 |
+| [Radius](../../aspose.slides.effects/iglow/radius) { get; set; } | 半径。读/写 Double。 |
 
-### 参见
+### 另见
 
 * 接口 [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * 接口 [IGlowEffectiveData](../igloweffectivedata)

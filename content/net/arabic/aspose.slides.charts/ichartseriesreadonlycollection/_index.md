@@ -1,14 +1,14 @@
 ---
 title: IChartSeriesReadonlyCollection
 second_title: Aspose.Sildes لـ .NET مرجع API
-description: يمثل مجموعة للقراءة فقط من IChartSeries./ichartseries
+description: يمثل مجموعة قراءة فقط من IChartSeries./ichartseries
 type: docs
-weight: 1970
+weight: 1990
 url: /ar/aspose.slides.charts/ichartseriesreadonlycollection/
 ---
 ## IChartSeriesReadonlyCollection واجهة
 
-يمثل مجموعة للقراءة فقط من [`IChartSeries`](../ichartseries)
+يمثل مجموعة قراءة فقط من [`IChartSeries`](../ichartseries)
 
 ```csharp
 public interface IChartSeriesReadonlyCollection : IGenericCollection<IChartSeries>
@@ -18,7 +18,7 @@ public interface IChartSeriesReadonlyCollection : IGenericCollection<IChartSerie
 
 | الاسم | الوصف |
 | --- | --- |
-| [Item](../../aspose.slides.charts/ichartseriesreadonlycollection/item) { get; } | يحصل على العنصر في الفهرس المحدد. |
+| [Item](../../aspose.slides.charts/ichartseriesreadonlycollection/item) { get; } | يحصل على العنصر عند الفهرس المحدد. |
 
 ### انظر أيضًا
 

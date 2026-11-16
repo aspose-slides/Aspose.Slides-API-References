@@ -1,14 +1,14 @@
 ---
 title: IChartDataPointLevel
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt die Datenpunkt-Ebene dar. Gilt für Treemap- und Sunburst-Diagramme.
+description: Stellt die Datenpunkebene dar. Gilt für Treemap- und Sunburst-Diagramme.
 type: docs
-weight: 1840
+weight: 1860
 url: /de/aspose.slides.charts/ichartdatapointlevel/
 ---
 ## IChartDataPointLevel Schnittstelle
 
-Stellt die Datenpunkt-Ebene dar. Gilt für Treemap- und Sunburst-Diagramme.
+Stellt die Datenpunkebene dar. Gilt für Treemap und Sunburst-Diagramme.
 
 ```csharp
 public interface IChartDataPointLevel
@@ -18,8 +18,8 @@ public interface IChartDataPointLevel
 
 | Name | Beschreibung |
 | --- | --- |
-| [Format](../../aspose.slides.charts/ichartdatapointlevel/format) { get; } | Stellt die Formatierungseigenschaften der Datenpunkt-Ebene dar. Lesen/Schreiben [`IFormat`](../iformat). |
-| [Label](../../aspose.slides.charts/ichartdatapointlevel/label) { get; } | Stellt die Datenbeschriftung der Datenpunkt-Ebene dar. Gilt für Treemap- und Sunburst-Serientypen. Nur-Lesen [`IDataLabel`](../idatalabel). |
+| [Format](../../aspose.slides.charts/ichartdatapointlevel/format) { get; } | Stellt Formatierungseigenschaften der Datenpunkebene dar. Lese/Schreib [`IFormat`](../iformat). |
+| [Label](../../aspose.slides.charts/ichartdatapointlevel/label) { get; } | Stellt Datenbeschriftung der Datenpunkebene dar. Wird für Treemap und Sunburst-Serientypen angewendet. Nur-Lesen [`IDataLabel`](../idatalabel). |
 
 ### Siehe auch
 

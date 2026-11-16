@@ -3,12 +3,12 @@ title: ISwfOptions
 second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
 description: ให้ตัวเลือกที่ควบคุมวิธีการบันทึกงานนำเสนอในรูปแบบ SWF.
 type: docs
-weight: 4150
+weight: 4170
 url: /th/aspose.slides.export/iswfoptions/
 ---
-## ISwfOptions interface
+## ISwfOptions อินเทอร์เฟซ
 
-ให้ตัวเลือกที่ควบคุมวิธีการบันทึกงานนำเสนอในรูปแบบ SWF
+Provides options that control how a presentation is saved in SWF format.
 
 ```csharp
 public interface ISwfOptions : ISaveOptions
@@ -16,25 +16,25 @@ public interface ISwfOptions : ISaveOptions
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/iswfoptions/asisaveoptions) { get; } | คืนค่าอินเทอร์เฟซ ISaveOptions. อ่านอย่างเดียว [`ISaveOptions`](../isaveoptions). |
-| [Compressed](../../aspose.slides.export/iswfoptions/compressed) { get; set; } | ระบุว่าหนังสือเอกสาร SWF ที่สร้างขึ้นควรบีบอัดหรือไม่ ค่าเริ่มต้นคือ `true`. |
-| [EnableContextMenu](../../aspose.slides.export/iswfoptions/enablecontextmenu) { get; set; } | เปิด/ปิดเมนูบริบท ค่าเริ่มต้นคือ true. |
-| [JpegQuality](../../aspose.slides.export/iswfoptions/jpegquality) { get; set; } | ระบุคุณภาพของภาพ JPEG ค่าเริ่มต้นคือ 95. |
-| [LogoImageBytes](../../aspose.slides.export/iswfoptions/logoimagebytes) { get; set; } | ภาพที่จะแสดงเป็นโลโก้ที่มุมบนขวาของตัวดูภาพ ควรเป็นภาพ PNG ขนาด 32x64 พิกเซล มิฉะนั้นโลโก้อาจแสดงไม่ถูกต้อง. |
-| [LogoLink](../../aspose.slides.export/iswfoptions/logolink) { get; set; } | รับหรือกำหนดที่อยู่ไฮเปอร์ลิงก์เต็มสำหรับโลโก้ จะมีผลเฉพาะเมื่อมีการระบุ [`LogoImageBytes`](./logoimagebytes). |
-| [ShowBottomPane](../../aspose.slides.export/iswfoptions/showbottompane) { get; set; } | แสดง/ซ่อนพาเนลด้านล่าง สามารถถูกเขียนทับได้ใน flashvars ค่าเริ่มต้นคือ true. |
-| [ShowFullScreen](../../aspose.slides.export/iswfoptions/showfullscreen) { get; set; } | แสดง/ซ่อนปุ่มเต็มจอ สามารถถูกเขียนทับได้ใน flashvars ค่าเริ่มต้นคือ true. |
-| [ShowHiddenSlides](../../aspose.slides.export/iswfoptions/showhiddenslides) { get; set; } | ระบุว่าเอกสารที่สร้างขึ้นควรรวมสไลด์ที่ซ่อนหรือไม่ ค่าเริ่มต้นคือ `false`. |
-| [ShowLeftPane](../../aspose.slides.export/iswfoptions/showleftpane) { get; set; } | แสดง/ซ่อนพาเนลด้านซ้าย สามารถถูกเขียนทับได้ใน flashvars ค่าเริ่มต้นคือ true. |
-| [ShowPageBorder](../../aspose.slides.export/iswfoptions/showpageborder) { get; set; } | ระบุว่าควรแสดงกรอบรอบหน้า หรือไม่ ค่าเริ่มต้นคือ true. |
-| [ShowPageStepper](../../aspose.slides.export/iswfoptions/showpagestepper) { get; set; } | แสดง/ซ่อนตัวควบคุมหน้าขั้นตอน สามารถถูกเขียนทับได้ใน flashvars ค่าเริ่มต้นคือ true. |
-| [ShowSearch](../../aspose.slides.export/iswfoptions/showsearch) { get; set; } | แสดง/ซ่อนส่วนการค้นหา สามารถถูกเขียนทับได้ใน flashvars ค่าเริ่มต้นคือ true. |
-| [ShowTopPane](../../aspose.slides.export/iswfoptions/showtoppane) { get; set; } | แสดง/ซ่อนพาเนลบนทั้งหมด สามารถถูกเขียนทับได้ใน flashvars ค่าเริ่มต้นคือ true. |
-| [SlidesLayoutOptions](../../aspose.slides.export/iswfoptions/slideslayoutoptions) { get; set; } | รับหรือกำหนดโหมดที่สไลด์จะจัดวางบนหน้าเมื่อส่งออกงานนำเสนอ [`ISlidesLayoutOptions`](../islideslayoutoptions) คุณสมบัตินี้ไม่รองรับการกำหนดออบเจ็กต์ประเภท `Aspose.Slides.Export.HandoutLayoutingOptions` |
-| [StartOpenLeftPane](../../aspose.slides.export/iswfoptions/startopenleftpane) { get; set; } | เริ่มด้วยพาเนลด้านซ้ายที่เปิดอยู่ สามารถถูกเขียนทับได้ใน flashvars ค่าเริ่มต้นคือ false. |
-| [ViewerIncluded](../../aspose.slides.export/iswfoptions/viewerincluded) { get; set; } | ระบุว่าหนังสือเอกสาร SWF ที่สร้างขึ้นควรรวมผู้ดูเอกสารแบบบูรณาการหรือไม่ ค่าเริ่มต้นคือ `true`. |
+| [AsISaveOptions](../../aspose.slides.export/iswfoptions/asisaveoptions) { get; } | ส่งคืนอินเทอร์เฟซ ISaveOptions. อ่านอย่างเดียว [`ISaveOptions`](../isaveoptions). |
+| [Compressed](../../aspose.slides.export/iswfoptions/compressed) { get; set; } | ระบุว่าเอกสาร SWF ที่สร้างขึ้นควรถูกบีบอัดหรือไม่. ค่าเริ่มต้นคือ `true`. |
+| [EnableContextMenu](../../aspose.slides.export/iswfoptions/enablecontextmenu) { get; set; } | เปิดหรือปิดเมนูบริบท. ค่าเริ่มต้นคือ true. |
+| [JpegQuality](../../aspose.slides.export/iswfoptions/jpegquality) { get; set; } | ระบุคุณภาพของภาพ JPEG. ค่าเริ่มต้นคือ 95. |
+| [LogoImageBytes](../../aspose.slides.export/iswfoptions/logoimagebytes) { get; set; } | รูปภาพที่จะแสดงเป็นโลโก้ที่มุมบนขวาของโปรแกรมดู. รูปควรเป็นภาพ PNG ขนาด 32x64 พิกเซล, ไม่เช่นนั้นโลโก้อาจแสดงผิดพลาด. |
+| [LogoLink](../../aspose.slides.export/iswfoptions/logolink) { get; set; } | รับหรือกำหนดที่อยู่ไฮเปอร์ลิงก์เต็มสำหรับโลโก้. มีผลเฉพาะเมื่อมีการระบุ [`LogoImageBytes`](./logoimagebytes). |
+| [ShowBottomPane](../../aspose.slides.export/iswfoptions/showbottompane) { get; set; } | แสดง/ซ่อนแถบด้านล่าง. สามารถถูกแทนที่ด้วย flashvars. ค่าเริ่มต้นคือ true. |
+| [ShowFullScreen](../../aspose.slides.export/iswfoptions/showfullscreen) { get; set; } | แสดง/ซ่อนปุ่มเต็มจอ. สามารถถูกแทนที่ด้วย flashvars. ค่าเริ่มต้นคือ true. |
+| [ShowHiddenSlides](../../aspose.slides.export/iswfoptions/showhiddenslides) { get; set; } | ระบุว่าเอกสารที่สร้างควรรวมสไลด์ที่ซ่อนอยู่หรือไม่. ค่าเริ่มต้นคือ `false`. |
+| [ShowLeftPane](../../aspose.slides.export/iswfoptions/showleftpane) { get; set; } | แสดง/ซ่อนแถบด้านซ้าย. สามารถถูกแทนที่ด้วย flashvars. ค่าเริ่มต้นคือ true. |
+| [ShowPageBorder](../../aspose.slides.export/iswfoptions/showpageborder) { get; set; } | ระบุว่าขอบรอบหน้าเพจควรแสดงหรือไม่. ค่าเริ่มต้นคือ true. |
+| [ShowPageStepper](../../aspose.slides.export/iswfoptions/showpagestepper) { get; set; } | แสดง/ซ่อนตัวควบคุมหน้ากระดาน. สามารถถูกแทนที่ด้วย flashvars. ค่าเริ่มต้นคือ true. |
+| [ShowSearch](../../aspose.slides.export/iswfoptions/showsearch) { get; set; } | แสดง/ซ่อนส่วนการค้นหา. สามารถถูกแทนที่ด้วย flashvars. ค่าเริ่มต้นคือ true. |
+| [ShowTopPane](../../aspose.slides.export/iswfoptions/showtoppane) { get; set; } | แสดง/ซ่อนแถบบนทั้งหมด. สามารถถูกแทนที่ด้วย flashvars. ค่าเริ่มต้นคือ true. |
+| [SlidesLayoutOptions](../../aspose.slides.export/iswfoptions/slideslayoutoptions) { get; set; } | รับหรือกำหนดโหมดที่สไลด์จะถูกจัดวางบนหน้าเมื่อส่งออกงานนำเสนอ [`ISlidesLayoutOptions`](../islideslayoutoptions). คุณสมบัตินี้ไม่สนับสนุนการกำหนดออบเจกต์ประเภท `Aspose.Slides.Export.HandoutLayoutingOptions` |
+| [StartOpenLeftPane](../../aspose.slides.export/iswfoptions/startopenleftpane) { get; set; } | เริ่มต้นด้วยแถบด้านซ้ายที่เปิดอยู่. สามารถถูกแทนที่ด้วย flashvars. ค่าเริ่มต้นคือ false. |
+| [ViewerIncluded](../../aspose.slides.export/iswfoptions/viewerincluded) { get; set; } | ระบุว่าเอกสาร SWF ที่สร้างควรรวมโปรแกรมดูเอกสารในตัวหรือไม่. ค่าเริ่มต้นคือ `true`. |
 
 ### ดูเพิ่มเติม
 
@@ -42,4 +42,4 @@ public interface ISwfOptions : ISaveOptions
 * เนมสเปซ [Aspose.Slides.Export](../../aspose.slides.export)
 * แอสเซมบลี [Aspose.Slides](../../)
 
-<!-- DO NOT EDIT: generated by xmldoccmd for Aspose.Slides.dll -->
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

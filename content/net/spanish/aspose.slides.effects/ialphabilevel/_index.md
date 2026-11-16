@@ -1,14 +1,14 @@
 ---
 title: IAlphaBiLevel
-second_title: Aspose.Slides para .NET Referencia de API
-description: Representa un efecto Alpha Bi-Level. Los valores de Opacidad Alpha menores que el umbral se cambian a 0 totalmente transparente y los valores alpha mayores o iguales al umbral se cambian a 100 totalmente opaco.
+second_title: Referencia de API de Aspose.Sildes para .NET
+description: Representa un efecto Alpha Bi-Level. Los valores de Opacidad Alpha menores que el umbral se cambian a 0 completamente transparente y los valores alpha mayores o iguales al umbral se cambian a 100 completamente opaco.
 type: docs
-weight: 3020
+weight: 3040
 url: /es/aspose.slides.effects/ialphabilevel/
 ---
 ## IAlphaBiLevel interfaz
 
-Representa un efecto Alpha Bi-Level. Los valores Alpha (Opacidad) menores que el umbral se cambian a 0 (totalmente transparente) y los valores alpha mayores o iguales al umbral se cambian a 100 % (totalmente opaco).
+Representa un efecto Alpha Bi-Level. Los valores Alpha (Opacidad) menores que el umbral se cambian a 0 (completamente transparente) y los valores alpha mayores o iguales al umbral se cambian al 100% (completamente opaco).
 
 ```csharp
 public interface IAlphaBiLevel : IAccessiblePVIObject<IAlphaBiLevelEffectiveData>, 
@@ -19,8 +19,8 @@ public interface IAlphaBiLevel : IAccessiblePVIObject<IAlphaBiLevelEffectiveData
 
 | Nombre | Descripción |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphabilevel/asiaccessiblepviobject) { get; } | Permite obtener la interfaz IAccessiblePVIObject base. Solo lectura [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphabilevel/asiimagetransformoperation) { get; } | Permite obtener la interfaz IImageTransformOperation base. Solo lectura [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphabilevel/asiaccessiblepviobject) { get; } | Permite obtener la interfaz base IAccessiblePVIObject. Solo lectura [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphabilevel/asiimagetransformoperation) { get; } | Permite obtener la interfaz base IImageTransformOperation. Solo lectura [`IImageTransformOperation`](../iimagetransformoperation). |
 | [Threshold](../../aspose.slides.effects/ialphabilevel/threshold) { get; set; } | Devuelve el umbral del efecto. Lectura/escritura Single. |
 
 ### Observaciones

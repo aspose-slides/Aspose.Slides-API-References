@@ -1,14 +1,14 @@
 ---
 title: InkBrush
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Egy inkBrush objektumot képvisel.
+second_title: Aspose.Sildes .NET API referenciája
+description: Az inkBrush objektumot reprezentálja.
 type: docs
-weight: 7570
+weight: 7590
 url: /hu/aspose.slides.ink/inkbrush/
 ---
 ## InkBrush osztály
 
-Egy inkBrush objektumot képvisel.
+Az inkBrush objektumot reprezentálja.
 
 ```csharp
 public class InkBrush : IInkBrush
@@ -18,9 +18,9 @@ public class InkBrush : IInkBrush
 
 | Név | Leírás |
 | --- | --- |
-| [Color](../../aspose.slides.ink/inkbrush/color) { get; set; } | Lekérdezi vagy beállítja a vonal ecsetszínét. |
-| [InkEffect](../../aspose.slides.ink/inkbrush/inkeffect) { get; } | Lekérdezi a tinta hatás típusát (pl. Galaxy, Gold, Silver), amely meghatározza a tinta vonal vizuális stílusát. Az érték a brush tulajdonság "inkEffects" mezőjéből kerül kiolvasásra. Ha nincs felismert hatás megadva, a NotDefined érték kerül visszaadásra. |
-| [Size](../../aspose.slides.ink/inkbrush/size) { get; set; } | Lekérdezi vagy beállítja a vonal ecsetméretét pontokban. |
+| [Color](../../aspose.slides.ink/inkbrush/color) { get; set; } | Lekéri vagy beállítja a vonal ecsetszínét. |
+| [InkEffect](../../aspose.slides.ink/inkbrush/inkeffect) { get; } | Lekéri a tintaeffektus típusát (pl. Galaxy, Gold, Silver), amely meghatározza a tinta vonás vizuális stílusát. Az érték a brush tulajdonságból, a "inkEffects"-ből kerül beolvasásra. Ha nincs felismert effektus megadva, a NotDefined érték kerül visszaadásra. |
+| [Size](../../aspose.slides.ink/inkbrush/size) { get; set; } | Lekéri vagy beállítja a vonal ecsetméretét pontban. |
 
 ### Lásd még
 

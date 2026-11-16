@@ -1,12 +1,12 @@
 ---
 title: SlideOrientation
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla .NET – odniesienie API
 description: Reprezentuje orientację slajdu.
 type: docs
-weight: 10000
+weight: 10020
 url: /pl/aspose.slides/slideorientation/
 ---
-## enumeracja SlideOrientation
+## SlideOrientation enumeracja
 
 Reprezentuje orientację slajdu.
 

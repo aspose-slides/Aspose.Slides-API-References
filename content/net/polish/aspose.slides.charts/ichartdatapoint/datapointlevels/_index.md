@@ -1,14 +1,14 @@
 ---
 title: DataPointLevels
-second_title: Aspose.Sildes dla .NET – referencja API
-description: Zwraca kontener poziomów punktów danych. Stosowane w seriach Treeamp i Sunburst. Indeksowanie poziomów punktów danych jest zerobazowe.
+second_title: Aspose.Sildes dla .NET referencja API
+description: Zwraca kontener poziomów punktów danych. Stosowane dla serii Treeamp i Sunburst. Indeksowanie poziomów punktów danych jest zerobazowe.
 type: docs
-weight: 40
+weight: 80
 url: /pl/aspose.slides.charts/ichartdatapoint/datapointlevels/
 ---
 ## IChartDataPoint.DataPointLevels właściwość
 
-Zwraca kontener poziomów punktów danych. Stosowane w seriach Treeamp i Sunburst. Indeksowanie poziomów punktów danych jest zerobazowe.
+Zwraca kontener poziomów punktów danych. Stosowane dla serii Treeamp i Sunburst. Indeksowanie poziomów punktów danych jest zerowe.
 
 ```csharp
 public IChartDataPointLevelsManager DataPointLevels { get; }

@@ -1,9 +1,9 @@
 ---
 title: GradientStopCollectionEffectiveData
-second_title: Référence API Aspose.Sildes pour .NET
+second_title: Aspose.Sildes pour .NET Référence API
 description: Représente une collection d'objets GradientStopData.
 type: docs
-weight: 5040
+weight: 5060
 url: /fr/aspose.slides/gradientstopcollectioneffectivedata/
 ---
 ## GradientStopCollectionEffectiveData classe
@@ -18,9 +18,9 @@ public class GradientStopCollectionEffectiveData : IGradientStopCollectionEffect
 
 | Nom | Description |
 | --- | --- |
-| [Count](../../aspose.slides/gradientstopcollectioneffectivedata/count) { get; } | Renvoie le nombre d'arrêts de dégradé dans une collection. Lecture seule Int32. |
+| [Count](../../aspose.slides/gradientstopcollectioneffectivedata/count) { get; } | Renvoie le nombre de points d'arrêt de dégradé dans une collection. Lecture seule Int32. |
 | [IsSynchronized](../../aspose.slides/gradientstopcollectioneffectivedata/issynchronized) { get; } | Renvoie une valeur indiquant si l'accès à la collection est synchronisé (thread-safe). Lecture seule Boolean. |
-| [Item](../../aspose.slides/gradientstopcollectioneffectivedata/item) { get; } | Renvoie l'arrêt de dégradé par indice. |
+| [Item](../../aspose.slides/gradientstopcollectioneffectivedata/item) { get; } | Renvoie le point d'arrêt de dégradé par indice. |
 | [SyncRoot](../../aspose.slides/gradientstopcollectioneffectivedata/syncroot) { get; } | Renvoie une racine de synchronisation. Lecture seule Object. |
 
 ## Méthodes
@@ -28,7 +28,7 @@ public class GradientStopCollectionEffectiveData : IGradientStopCollectionEffect
 | Nom | Description |
 | --- | --- |
 | [CopyTo](../../aspose.slides/gradientstopcollectioneffectivedata/copyto)(Array, int) | Copie tous les éléments de la collection dans le tableau spécifié. |
-| [GetEnumerator](../../aspose.slides/gradientstopcollectioneffectivedata/getenumerator)() | Renvoie un énumérateur qui parcourt la collection. |
+| [GetEnumerator](../../aspose.slides/gradientstopcollectioneffectivedata/getenumerator)() | Renvoie un itérateur qui parcourt la collection. |
 
 ### Voir aussi
 

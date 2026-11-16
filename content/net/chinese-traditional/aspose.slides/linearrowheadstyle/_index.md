@@ -3,7 +3,7 @@ title: LineArrowheadStyle
 second_title: Aspose.Sildes for .NET API 參考
 description: 表示箭頭的樣式。
 type: docs
-weight: 7740
+weight: 7760
 url: /zh-hant/aspose.slides/linearrowheadstyle/
 ---
 ## LineArrowheadStyle 列舉
@@ -26,7 +26,7 @@ public enum LineArrowheadStyle : sbyte
 | Oval | `4` |  |
 | Open | `5` |  |
 
-### 另請參閱
+### 參見
 
 * 命名空間 [Aspose.Slides](../../aspose.slides)
 * 組件 [Aspose.Slides](../../)

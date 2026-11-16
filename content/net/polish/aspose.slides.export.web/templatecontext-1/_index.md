@@ -1,12 +1,12 @@
 ---
 title: TemplateContextTObject
-second_title: Aspose.Sildes dla .NET – odniesienie API
+second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Reprezentuje interfejs obiektu modelu dla silnika szablonów.
 type: docs
-weight: 4670
+weight: 4690
 url: /pl/aspose.slides.export.web/templatecontext-1/
 ---
-## TemplateContext&lt;TObject&gt; klasa
+## TemplateContext<TObject> klasa
 
 Reprezentuje interfejs obiektu modelu dla silnika szablonów.
 
@@ -16,18 +16,18 @@ public sealed class TemplateContext<TObject>
 
 ## Właściwości
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
-| [Global](../../aspose.slides.export.web/templatecontext`1/global) { get; } | Zwraca globalną przestrzeń przechowywania dokumentu głównego. Tylko do odczytu [`Storage`](../storage). |
-| [Local](../../aspose.slides.export.web/templatecontext`1/local) { get; } | Zwraca lokalną przestrzeń przechowywania bieżącego kontekstu szablonu. Tylko do odczytu [`Storage`](../storage). |
+| [Global](../../aspose.slides.export.web/templatecontext`1/global) { get; } | Zwraca globalną pamięć dokumentu hosta. Tylko do odczytu [`Storage`](../storage). |
+| [Local](../../aspose.slides.export.web/templatecontext`1/local) { get; } | Zwraca lokalną pamięć bieżącego kontekstu szablonu. Tylko do odczytu [`Storage`](../storage). |
 | [Object](../../aspose.slides.export.web/templatecontext`1/object) { get; } | Zwraca obiekt modelu. Tylko do odczytu !:TObject. |
-| [Output](../../aspose.slides.export.web/templatecontext`1/output) { get; } | Zwraca kolekcję elementów wyjściowych dokumentu głównego. Tylko do odczytu [`Output`](./output). |
+| [Output](../../aspose.slides.export.web/templatecontext`1/output) { get; } | Zwraca kolekcję elementów wyjściowych dokumentu hosta. Tylko do odczytu [`Output`](./output). |
 
 ## Metody
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
-| [SubModel&lt;TSubModel&gt;](../../aspose.slides.export.web/templatecontext`1/submodel)(TSubModel) | Tworzy kontekst szablonu podrzędnego. |
+| [SubModel&lt;TSubModel&gt;](../../aspose.slides.export.web/templatecontext`1/submodel)(TSubModel) | Tworzy kontekst szablonu potomnego. |
 
 ### Zobacz także
 

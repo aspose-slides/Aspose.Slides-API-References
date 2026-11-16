@@ -1,9 +1,9 @@
 ---
 title: SystemColor
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 미리 정의된 시스템 색상을 나타냅니다.
 type: docs
-weight: 10810
+weight: 10830
 url: /ko/aspose.slides/systemcolor/
 ---
 ## SystemColor 열거형
@@ -18,7 +18,7 @@ public enum SystemColor
 
 | 이름 | 값 | 설명 |
 | --- | --- | --- |
-| NotDefined | `-1` | 시스템 색상이 정의되지 않았습니다. |
+| NotDefined | `-1` | System color is not defined. |
 | ScrollBar | `0` |  |
 | Background | `1` |  |
 | ActiveCaption | `2` |  |
@@ -50,7 +50,7 @@ public enum SystemColor
 | MenuHighlight | `29` |  |
 | MenuBar | `30` |  |
 
-### 참고
+### 참조
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

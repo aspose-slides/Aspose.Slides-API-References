@@ -1,14 +1,14 @@
 ---
 title: SketchFormat
-second_title: Aspose.Sildes برای مرجع API .NET
-description: ویژگی‌های فرمت طرح خطوط را نشان می‌دهد.
+second_title: Aspose.Sildes برای .NET مرجع API
+description: ویژگی‌های فرم اسکچ خطوط را نمایندگی می‌کند.
 type: docs
-weight: 9950
+weight: 9970
 url: /fa/aspose.slides/sketchformat/
 ---
 ## SketchFormat کلاس
 
-نمایش می‌دهد ویژگی‌های فرمت طرح خطوط.
+خواص فرم اسکچ خطوط را نمایندگی می‌کند.
 
 ```csharp
 public sealed class SketchFormat : PVIObject, ISketchFormat
@@ -18,17 +18,17 @@ public sealed class SketchFormat : PVIObject, ISketchFormat
 
 | نام | توضیح |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | اجازه می‌دهد تا رابط IPresentationComponent پایه را دریافت کند. فقط خواندنی [`IPresentationComponent`](../ipresentationcomponent). |
-| [SketchType](../../aspose.slides/sketchformat/sketchtype) { get; set; } | مقدار یا تنظیم نوع اسکچ. خواندنی/نوشتنی [`LineSketchType`](../linesketchtype). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | اجازه می‌دهد رابط IPresentationComponent پایه را دریافت کند. فقط خواندنی [`IPresentationComponent`](../ipresentationcomponent). |
+| [SketchType](../../aspose.slides/sketchformat/sketchtype) { get; set; } | مقدار یا تنظیم نوع اسکچ را برمی‌گرداند. خواندنی/نوشتنی [`LineSketchType`](../linesketchtype). |
 
 ## متدها
 
 | نام | توضیح |
 | --- | --- |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | مقایسه می‌کند با شیء مشخص شده. |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | با شیء مشخص‌شده مقایسه می‌کند. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | کد هش را برمی‌گرداند. |
 
-### مراجع
+### موارد مرتبط
 
 * کلاس [PVIObject](../pviobject)
 * رابط [ISketchFormat](../isketchformat)

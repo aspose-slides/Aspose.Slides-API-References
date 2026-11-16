@@ -3,7 +3,7 @@ title: ICell
 second_title: Aspose.Sildes for .NET API 參考
 description: 表示表格中的儲存格。
 type: docs
-weight: 5450
+weight: 5470
 url: /zh-hant/aspose.slides/icell/
 ---
 ## ICell 介面
@@ -16,26 +16,26 @@ public interface ICell : ISlideComponent
 
 ## 屬性
 
-| 名稱 | 說明 |
+| Name | Description |
 | --- | --- |
-| [AnchorCenter](../../aspose.slides/icell/anchorcenter) { get; set; } | 判斷文字方塊是否置中於儲存格內。可讀寫 Boolean。 |
+| [AnchorCenter](../../aspose.slides/icell/anchorcenter) { get; set; } | 決定文字框是否在儲存格內置中。可讀寫 Boolean。 |
 | [AsISlideComponent](../../aspose.slides/icell/asislidecomponent) { get; } | 允許取得基礎 ISlideComponent 介面。唯讀 [`ISlideComponent`](../islidecomponent)。 |
 | [CellFormat](../../aspose.slides/icell/cellformat) { get; } | 傳回包含此儲存格格式屬性的 CellFormat 物件。唯讀 [`ICellFormat`](../icellformat)。 |
-| [ColSpan](../../aspose.slides/icell/colspan) { get; } | 傳回父表格之表格格線中，當前儲存格所跨越的格列數。此屬性允許儲存格呈現合併外觀，因其跨越表格中其他儲存格的垂直邊界。唯讀 Int32。 |
+| [ColSpan](../../aspose.slides/icell/colspan) { get; } | 傳回母表格之表格格線中，當前儲存格應跨越的欄數。此屬性允許儲存格呈現合併外觀，因其跨越表格中其他儲存格的垂直邊界。唯讀 Int32。 |
 | [FirstColumn](../../aspose.slides/icell/firstcolumn) { get; } | 取得儲存格的第一欄。唯讀 [`IColumn`](../icolumn)。 |
-| [FirstColumnIndex](../../aspose.slides/icell/firstcolumnindex) { get; } | 傳回儲存格所覆蓋之第一欄的索引。唯讀 Int32。 |
+| [FirstColumnIndex](../../aspose.slides/icell/firstcolumnindex) { get; } | 傳回儲存格所覆蓋的第一欄索引。唯讀 Int32。 |
 | [FirstRow](../../aspose.slides/icell/firstrow) { get; } | 取得儲存格的第一列。唯讀 [`IRow`](../irow)。 |
-| [FirstRowIndex](../../aspose.slides/icell/firstrowindex) { get; } | 傳回儲存格所覆蓋之第一列的索引。唯讀 Int32。 |
+| [FirstRowIndex](../../aspose.slides/icell/firstrowindex) { get; } | 傳回儲存格所覆蓋的第一列索引。唯讀 Int32。 |
 | [Height](../../aspose.slides/icell/height) { get; } | 傳回儲存格的高度。唯讀 Double。 |
-| [IsMergedCell](../../aspose.slides/icell/ismergedcell) { get; } | 若儲存格已與任何相鄰儲存格合併，則傳回 true，否則傳回 false。唯讀 Boolean。 |
-| [MarginBottom](../../aspose.slides/icell/marginbottom) { get; set; } | 傳回或設定 TextFrame 中的底部邊距。可讀寫 Double。 |
-| [MarginLeft](../../aspose.slides/icell/marginleft) { get; set; } | 傳回或設定 TextFrame 中的左側邊距。可讀寫 Double。 |
-| [MarginRight](../../aspose.slides/icell/marginright) { get; set; } | 傳回或設定 TextFrame 中的右側邊距。可讀寫 Double。 |
-| [MarginTop](../../aspose.slides/icell/margintop) { get; set; } | 傳回或設定 TextFrame 中的頂部邊距。可讀寫 Double。 |
-| [MinimalHeight](../../aspose.slides/icell/minimalheight) { get; } | 傳回儲存格的最小高度。這是所有被儲存格覆蓋之列的最小高度之總和。唯讀 Double。 |
+| [IsMergedCell](../../aspose.slides/icell/ismergedcell) { get; } | 如果儲存格與任何已調整的儲存格合併，則傳回 true，否則傳回 false。唯讀 Boolean。 |
+| [MarginBottom](../../aspose.slides/icell/marginbottom) { get; set; } | 傳回或設定 TextFrame 的底部邊距。可讀寫 Double。 |
+| [MarginLeft](../../aspose.slides/icell/marginleft) { get; set; } | 傳回或設定 TextFrame 的左側邊距。可讀寫 Double。 |
+| [MarginRight](../../aspose.slides/icell/marginright) { get; set; } | 傳回或設定 TextFrame 的右側邊距。可讀寫 Double。 |
+| [MarginTop](../../aspose.slides/icell/margintop) { get; set; } | 傳回或設定 TextFrame 的上方邊距。可讀寫 Double。 |
+| [MinimalHeight](../../aspose.slides/icell/minimalheight) { get; } | 傳回儲存格的最小高度。這是被儲存格覆蓋的所有列之最小高度之總和。唯讀 Double。 |
 | [OffsetX](../../aspose.slides/icell/offsetx) { get; } | 傳回表格左側到儲存格左側的距離。唯讀 Double。 |
 | [OffsetY](../../aspose.slides/icell/offsety) { get; } | 傳回表格上側到儲存格上側的距離。唯讀 Double。 |
-| [RowSpan](../../aspose.slides/icell/rowspan) { get; } | 傳回合併儲存格跨越的列數。此屬性與其他儲存格的 vMerge 屬性結合使用，以指定水平合併的起始儲存格。唯讀 Int32。 |
+| [RowSpan](../../aspose.slides/icell/rowspan) { get; } | 傳回合併儲存格跨越的列數。此用於與其他儲存格的 vMerge 屬性結合，以指定水平合併的起始儲存格。唯讀 Int32。 |
 | [Table](../../aspose.slides/icell/table) { get; } | 傳回儲存格的父 Table 物件。唯讀 [`ITable`](../itable)。 |
 | [TextAnchorType](../../aspose.slides/icell/textanchortype) { get; set; } | 傳回或設定文字錨點類型。可讀寫 [`TextAnchorType`](../textanchortype)。 |
 | [TextFrame](../../aspose.slides/icell/textframe) { get; } | 傳回儲存格的文字框。唯讀 [`ITextFrame`](../itextframe)。 |
@@ -44,14 +44,14 @@ public interface ICell : ISlideComponent
 
 ## 方法
 
-| 名稱 | 說明 |
+| Name | Description |
 | --- | --- |
 | [SplitByColSpan](../../aspose.slides/icell/splitbycolspan)(int) | 依欄索引將儲存格分割為兩個儲存格。 |
 | [SplitByHeight](../../aspose.slides/icell/splitbyheight)(double) | 依高度將儲存格分割。 |
 | [SplitByRowSpan](../../aspose.slides/icell/splitbyrowspan)(int) | 依列索引將儲存格分割為兩個儲存格。 |
 | [SplitByWidth](../../aspose.slides/icell/splitbywidth)(double) | 依寬度將儲存格分割。 |
 
-### 另見
+### 另請參閱
 
 * 介面 [ISlideComponent](../islidecomponent)
 * 命名空間 [Aspose.Slides](../../aspose.slides)

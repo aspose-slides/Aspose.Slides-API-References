@@ -1,9 +1,9 @@
 ---
 title: LineFormatCollection
-second_title: Aspose.Sildes .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 表示线条样式的集合。
 type: docs
-weight: 11420
+weight: 11440
 url: /zh/aspose.slides.theme/lineformatcollection/
 ---
 ## LineFormatCollection 类
@@ -27,10 +27,10 @@ public sealed class LineFormatCollection : DomObject<FormatScheme>, ILineFormatC
 
 | 名称 | 描述 |
 | --- | --- |
-| [CopyTo](../../aspose.slides.theme/lineformatcollection/copyto)(Array, int) | 将集合中的所有元素复制到指定数组。 |
+| [CopyTo](../../aspose.slides.theme/lineformatcollection/copyto)(Array, int) | 复制集合中的所有元素到指定的数组。 |
 | [GetEnumerator](../../aspose.slides.theme/lineformatcollection/getenumerator)() | 返回一个枚举器，用于遍历集合。 |
 
-### 另见
+### 另请参见
 
 * 类 [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * 类 [FormatScheme](../formatscheme)

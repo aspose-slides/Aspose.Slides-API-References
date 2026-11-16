@@ -1,14 +1,14 @@
 ---
 title: EightDirectionTransition
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Acht-Richtungs-Folienübergangseffekt.
+description: Acht-Richtungen-Folienübergangseffekt.
 type: docs
-weight: 10020
+weight: 10040
 url: /de/aspose.slides.slideshow/eightdirectiontransition/
 ---
 ## EightDirectionTransition Klasse
 
-Acht-Richtungs-Folienübergangseffekt.
+Acht-Richtungen-Folienübergangseffekt.
 
 ```csharp
 public class EightDirectionTransition : TransitionValueBase, IEightDirectionTransition
@@ -16,16 +16,16 @@ public class EightDirectionTransition : TransitionValueBase, IEightDirectionTran
 
 ## Eigenschaften
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/eightdirectiontransition/direction) { get; set; } | Richtung des Übergangs. Lesen/Schreiben [`TransitionEightDirectionType`](../transitioneightdirectiontype). |
+| [Direction](../../aspose.slides.slideshow/eightdirectiontransition/direction) { get; set; } | Richtung des Übergangs. Lese-/Schreib [`TransitionEightDirectionType`](../transitioneightdirectiontype). |
 
 ## Methoden
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Bestimmt, ob die beiden TransitionValueBase-Instanzen gleich sind. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Dient als Hash-Funktion für einen bestimmten Typ, geeignet für den Einsatz in Hash-Algorithmen und Datenstrukturen wie einer Hashtabelle. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Dient als Hashfunktion für einen bestimmten Typ, geeignet für den Einsatz in Hash-Algorithmen und Datenstrukturen wie einer Hashtabelle. |
 
 ### Siehe auch
 

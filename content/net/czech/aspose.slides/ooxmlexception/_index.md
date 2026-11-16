@@ -1,14 +1,14 @@
 ---
 title: OOXMLException
 second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje standardní interní typ výjimky související s formátem souboru Office Open XML.
+description: Zastupuje standardní interní typ výjimky související s formátem souboru Office Open XML.
 type: docs
-weight: 9200
+weight: 9220
 url: /cs/aspose.slides/ooxmlexception/
 ---
-## třída OOXMLException
+## OOXMLException třída
 
-Reprezentuje standardní interní typ výjimky související s formátem souboru Office Open XML.
+Zastupuje standardní interní typ výjimky související s formátem souboru Office Open XML.
 
 ```csharp
 public class OOXMLException : Exception
@@ -19,8 +19,8 @@ public class OOXMLException : Exception
 | Název | Popis |
 | --- | --- |
 | [OOXMLException](ooxmlexception#constructor)() | Výchozí konstruktor. |
-| [OOXMLException](ooxmlexception#constructor_1)(string) | Konstruktor umožňující přidat zprávu do této výjimky. |
-| [OOXMLException](ooxmlexception#constructor_2)(string, Exception) | Konstruktor výjimky obsahující zprávu a vloženou výjimku. |
+| [OOXMLException](ooxmlexception#constructor_1)(string) | Konstruktor umožňující přidat zprávu k této výjimce. |
+| [OOXMLException](ooxmlexception#constructor_2)(string, Exception) | Konstruktor pro výjimku obsahující zprávu a vloženou výjimku. |
 
 ### Viz také
 

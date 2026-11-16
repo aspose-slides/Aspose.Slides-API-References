@@ -1,14 +1,14 @@
 ---
 title: SvgTSpan
-second_title: Referência da API Aspose.Sildes para .NET
-description: Representa opções para a parte de texto SVG tspan.
+second_title: Aspose.Sildes para a Referência de API .NET
+description: Representa opções para a porção de texto SVG tspan.
 type: docs
-weight: 4520
+weight: 4540
 url: /pt/aspose.slides.export/svgtspan/
 ---
 ## SvgTSpan classe
 
-Representa opções para a parte de texto SVG ("tspan").
+Representa opções para a porção de texto SVG ("tspan").
 
 ```csharp
 public sealed class SvgTSpan : ISvgTSpan
@@ -20,7 +20,7 @@ public sealed class SvgTSpan : ISvgTSpan
 | --- | --- |
 | [Id](../../aspose.slides.export/svgtspan/id) { get; set; } | Obtém o id do elemento "tspan" |
 
-### Veja também
+### Ver também
 
 * interface [ISvgTSpan](../isvgtspan)
 * namespace [Aspose.Slides.Export](../../aspose.slides.export)

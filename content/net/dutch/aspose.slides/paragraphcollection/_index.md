@@ -1,14 +1,14 @@
 ---
 title: ParagraphCollection
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een verzameling alinea's voor.
+description: Stelt een collectie van alinea's voor.
 type: docs
-weight: 9290
+weight: 9310
 url: /nl/aspose.slides/paragraphcollection/
 ---
 ## ParagraphCollection klasse
 
-Stelt een verzameling alinea's voor.
+Stelt een collectie van alinea's voor.
 
 ```csharp
 public sealed class ParagraphCollection : DomObject<TextFrame>, IParagraphCollection
@@ -18,7 +18,7 @@ public sealed class ParagraphCollection : DomObject<TextFrame>, IParagraphCollec
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Count](../../aspose.slides/paragraphcollection/count) { get; } | Haalt het aantal elementen op dat daadwerkelijk in de collectie zit. Alleen-lezen Int32. |
+| [Count](../../aspose.slides/paragraphcollection/count) { get; } | Haalt het aantal elementen op dat daadwerkelijk in de collectie aanwezig is. Alleen-lezen Int32. |
 | [IsReadOnly](../../aspose.slides/paragraphcollection/isreadonly) { get; } | Haalt een waarde op die aangeeft of de ICollection alleen-lezen is. Alleen-lezen Boolean. |
 | [Item](../../aspose.slides/paragraphcollection/item) { get; } | Haalt het element op op de opgegeven index. |
 
@@ -27,18 +27,18 @@ public sealed class ParagraphCollection : DomObject<TextFrame>, IParagraphCollec
 | Naam | Beschrijving |
 | --- | --- |
 | [Add](../../aspose.slides/paragraphcollection/add#add_1)(IParagraph) | Voegt een Paragraph toe aan het einde van de collectie. |
-| [Add](../../aspose.slides/paragraphcollection/add#add)(IParagraphCollection) | Voegt de inhoud van een ParagraphCollection toe aan het einde van de collectie. |
-| [AddFromHtml](../../aspose.slides/paragraphcollection/addfromhtml#addfromhtml)(string) | Voegt tekst van de opgegeven html-string toe aan de collectie. |
-| [AddFromHtml](../../aspose.slides/paragraphcollection/addfromhtml#addfromhtml_1)(string, IExternalResourceResolver, string) | Voegt tekst van de opgegeven html-string toe aan de collectie. |
+| [Add](../../aspose.slides/paragraphcollection/add#add)(IParagraphCollection) | Voegt de inhoud van ParagraphCollection toe aan het einde van de collectie. |
+| [AddFromHtml](../../aspose.slides/paragraphcollection/addfromhtml#addfromhtml)(string) | Voegt tekst uit de opgegeven html-string toe aan de collectie. |
+| [AddFromHtml](../../aspose.slides/paragraphcollection/addfromhtml#addfromhtml_1)(string, IExternalResourceResolver, string) | Voegt tekst uit de opgegeven html-string toe aan de collectie. |
 | [Clear](../../aspose.slides/paragraphcollection/clear)() | Verwijdert alle elementen uit de collectie. |
 | [Contains](../../aspose.slides/paragraphcollection/contains)(IParagraph) | Bepaalt of de ICollection een specifieke waarde bevat. |
-| [CopyTo](../../aspose.slides/paragraphcollection/copyto)(IParagraph[], int) | Kopieert de elementen van de ICollection naar een Array, beginnend op een bepaalde Array-index. |
-| [ExportToHtml](../../aspose.slides/paragraphcollection/exporttohtml)(int, int, ITextToHtmlConversionOptions) | Converteert de opgegeven alinea’s naar HTML en retourneert dit als String-object. |
+| [CopyTo](../../aspose.slides/paragraphcollection/copyto)(IParagraph[], int) | Kopieert de elementen van de ICollection naar een Array, beginnend bij een specifieke Array-index. |
+| [ExportToHtml](../../aspose.slides/paragraphcollection/exporttohtml)(int, int, ITextToHtmlConversionOptions) | Converteert opgegeven alinea's naar HTML en retourneert dit als String-object. |
 | [GetEnumerator](../../aspose.slides/paragraphcollection/getenumerator)() | Retourneert een enumerator die door de collectie iterereert. |
 | [IndexOf](../../aspose.slides/paragraphcollection/indexof)(IParagraph) | Bepaalt de index van een specifiek item in de IList. |
 | [Insert](../../aspose.slides/paragraphcollection/insert#insert)(int, IParagraph) | Voegt een Paragraph in de collectie in op de opgegeven index. |
-| [Insert](../../aspose.slides/paragraphcollection/insert#insert_1)(int, IParagraphCollection) | Voegt de inhoud van een ParagraphCollection in de collectie in op de opgegeven index. |
-| [Remove](../../aspose.slides/paragraphcollection/remove)(IParagraph) | Verwijdert de eerste verschijning van een specifiek object uit de ICollection. |
+| [Insert](../../aspose.slides/paragraphcollection/insert#insert_1)(int, IParagraphCollection) | Voegt de inhoud van ParagraphCollection in de collectie in op de opgegeven index. |
+| [Remove](../../aspose.slides/paragraphcollection/remove)(IParagraph) | Verwijdert het eerste voorkomen van een specifiek object uit de ICollection. |
 | [RemoveAt](../../aspose.slides/paragraphcollection/removeat)(int) | Verwijdert het element op de opgegeven index van de collectie. |
 
 ### Zie ook

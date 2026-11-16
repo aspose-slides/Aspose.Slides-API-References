@@ -1,14 +1,14 @@
 ---
 title: SensitivityLabelContentType
 second_title: Aspose.Sildes dla .NET API Reference
-description: Reprezentuje typy oznaczania treści, które powinny być stosowane w dokumencie.
+description: Reprezentuje typy oznaczania treści, które powinny być zastosowane w dokumencie.
 type: docs
-weight: 9820
+weight: 9840
 url: /pl/aspose.slides/sensitivitylabelcontenttype/
 ---
-## SensitivityLabelContentType enumeracja
+## SensitivityLabelContentType wyliczenie
 
-Reprezentuje typy oznaczania treści, które powinny być stosowane w dokumencie.
+Reprezentuje typy oznaczania treści, które powinny być zastosowane w dokumencie.
 
 ```csharp
 public enum SensitivityLabelContentType
@@ -18,11 +18,11 @@ public enum SensitivityLabelContentType
 
 | Nazwa | Wartość | Opis |
 | --- | --- | --- |
-| None | `0` | Implikuje, że znacznik jest stosowany domyślnie lub automatycznie. |
-| Header | `1` | Implikuje, że znacznik został zastosowany ręcznie. Użyj dla dowolnego znacznika wrażliwości, który został bezpośrednio zastosowany przez użytkownika. |
-| Footer | `2` | Implikuje, że znacznik został zastosowany ręcznie. Użyj dla dowolnego znacznika wrażliwości, który został bezpośrednio zastosowany przez użytkownika. |
-| Watermark | `4` | Implikuje, że znacznik został zastosowany ręcznie. Użyj dla dowolnego znacznika wrażliwości, który został bezpośrednio zastosowany przez użytkownika. |
-| Encryption | `8` | Implikuje, że znacznik został zastosowany ręcznie. Użyj dla dowolnego znacznika wrażliwości, który został bezpośrednio zastosowany przez użytkownika. |
+| None | `0` | Oznacza, że etykieta jest zastosowana domyślnie lub automatycznie. |
+| Header | `1` | Oznacza, że etykieta została zastosowana ręcznie. Użyj dla dowolnej etykiety poufności, która została bezpośrednio zastosowana przez użytkownika. |
+| Footer | `2` | Oznacza, że etykieta została zastosowana ręcznie. Użyj dla dowolnej etykiety poufności, która została bezpośrednio zastosowana przez użytkownika. |
+| Watermark | `4` | Oznacza, że etykieta została zastosowana ręcznie. Użyj dla dowolnej etykiety poufności, która została bezpośrednio zastosowana przez użytkownika. |
+| Encryption | `8` | Oznacza, że etykieta została zastosowana ręcznie. Użyj dla dowolnej etykiety poufności, która została bezpośrednio zastosowana przez użytkownika. |
 
 ### Zobacz także
 

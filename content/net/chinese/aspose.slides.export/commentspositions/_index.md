@@ -1,14 +1,14 @@
 ---
 title: CommentsPositions
-second_title: Aspose.Slides for .NET API 参考
-description: 表示将在导出文档中呈现批注的规则
+second_title: Aspose.Sildes .NET API 参考
+description: 表示将注释渲染到导出文档的规则
 type: docs
-weight: 3730
+weight: 3750
 url: /zh/aspose.slides.export/commentspositions/
 ---
 ## CommentsPositions 枚举
 
-表示将在导出文档中呈现批注的规则
+表示将注释渲染到导出文档的规则
 
 ```csharp
 public enum CommentsPositions
@@ -18,9 +18,9 @@ public enum CommentsPositions
 
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
-| None | `0` | 指定批注根本不显示。 |
-| Bottom | `1` | 指定批注应显示在页面底部。 |
-| Right | `2` | 指定批注应显示在页面右侧。 |
+| None | `0` | 指定不应显示注释。 |
+| Bottom | `1` | 指定在页面底部显示注释。 |
+| Right | `2` | 指定在页面右侧显示注释。 |
 
 ### 另见
 

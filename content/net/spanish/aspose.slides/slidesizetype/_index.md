@@ -1,14 +1,14 @@
 ---
 title: SlideSizeType
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Representa la configuración predefinida del tamaño de la diapositiva.
+description: Representa la configuración predefinida del tamaño de diapositiva.
 type: docs
-weight: 10520
+weight: 10540
 url: /es/aspose.slides/slidesizetype/
 ---
 ## SlideSizeType enumeración
 
-Representa la configuración predefinida del tamaño de la diapositiva.
+Representa la configuración predefinida del tamaño de diapositiva.
 
 ```csharp
 public enum SlideSizeType
@@ -25,7 +25,7 @@ public enum SlideSizeType
 | Overhead | `4` | Transparencia |
 | Banner | `5` | Banner |
 | Custom | `6` | Tamaño personalizado |
-| Ledger | `7` | Libro mayor |
+| Ledger | `7` | Ledger |
 | A3Paper | `8` | A3 |
 | B4IsoPaper | `9` | B4 ISO |
 | B5IsoPaper | `10` | B5 ISO |

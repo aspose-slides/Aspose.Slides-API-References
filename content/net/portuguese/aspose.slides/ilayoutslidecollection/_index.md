@@ -3,7 +3,7 @@ title: ILayoutSlideCollection
 second_title: Aspose.Sildes para .NET Referência da API
 description: Representa uma classe base para a coleção de slides de layout.
 type: docs
-weight: 6230
+weight: 6250
 url: /pt/aspose.slides/ilayoutslidecollection/
 ---
 ## ILayoutSlideCollection interface
@@ -16,19 +16,19 @@ public interface ILayoutSlideCollection : IGenericCollection<ILayoutSlide>
 
 ## Propriedades
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
 | [Item](../../aspose.slides/ilayoutslidecollection/item) { get; } | Retorna o slide de layout por índice. Somente leitura [`ILayoutSlide`](../ilayoutslide). |
 
 ## Métodos
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
 | [GetByType](../../aspose.slides/ilayoutslidecollection/getbytype)(SlideLayoutType) | Retorna o primeiro slide de layout do tipo especificado. |
 | [Remove](../../aspose.slides/ilayoutslidecollection/remove)(ILayoutSlide) | Remove um layout da coleção. |
 | [RemoveUnused](../../aspose.slides/ilayoutslidecollection/removeunused)() | Remove slides de layout não utilizados (slides de layout cujo HasDependingSlides é false). |
 
-### Ver também
+### Veja também
 
 * interface [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * interface [ILayoutSlide](../ilayoutslide)

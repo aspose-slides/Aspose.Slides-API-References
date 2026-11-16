@@ -3,7 +3,7 @@ title: RippleTransition
 second_title: Aspose.Sildes για .NET API Αναφορά
 description: Εφέ μετάβασης διαφάνειας Ripple.
 type: docs
-weight: 10290
+weight: 10310
 url: /el/aspose.slides.slideshow/rippletransition/
 ---
 ## RippleTransition κλάση
@@ -16,15 +16,15 @@ public class RippleTransition : TransitionValueBase, IRippleTransition
 
 ## Ιδιότητες
 
-| Name | Description |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/rippletransition/direction) { get; set; } | Κατεύθυνση μετάβασης. Ανάγνωση/εγγραφή [`TransitionCornerAndCenterDirectionType`](../transitioncornerandcenterdirectiontype). |
+| [Direction](../../aspose.slides.slideshow/rippletransition/direction) { get; set; } | Κατεύθυνση της μετάβασης. Ανάγνωση/εγγραφή [`TransitionCornerAndCenterDirectionType`](../transitioncornerandcenterdirectiontype). |
 
 ## Μέθοδοι
 
-| Name | Description |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Καθορίζει εάν τα δύο στιγμιότυπα TransitionValueBase είναι ίσα. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Καθορίζει αν τα δύο TransitionValueBase στιγμιότυπα είναι ίσα. |
 | override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Λειτουργεί ως συνάρτηση κατακερματισμού για έναν συγκεκριμένο τύπο, κατάλληλη για χρήση σε αλγόριθμους κατακερματισμού και δομές δεδομένων όπως ένας πίνακας κατακερματισμού. |
 
 ### Δείτε επίσης

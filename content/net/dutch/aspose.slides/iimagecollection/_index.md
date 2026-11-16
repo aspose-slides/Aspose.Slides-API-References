@@ -1,14 +1,14 @@
 ---
 title: IImageCollection
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een verzameling PPImage voor.
+description: Stelt een verzameling van PPImage voor.
 type: docs
-weight: 6160
+weight: 6180
 url: /nl/aspose.slides/iimagecollection/
 ---
 ## IImageCollection interface
 
-Stelt een verzameling PPImage voor.
+Stelt een verzameling van PPImage voor.
 
 ```csharp
 public interface IImageCollection : IGenericCollection<IPPImage>
@@ -16,19 +16,19 @@ public interface IImageCollection : IGenericCollection<IPPImage>
 
 ## Eigenschappen
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
-| [Item](../../aspose.slides/iimagecollection/item) { get; } | Retourneert de afbeelding op basis van zijn index. |
+| [Item](../../aspose.slides/iimagecollection/item) { get; } | Retourneert afbeelding op basis van de index. |
 
 ## Methoden
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_3)(byte[]) | Voegt een afbeelding toe aan een presentatie vanuit de opgegeven buffer. |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_3)(byte[]) | Voegt een afbeelding toe aan een presentatie vanuit een opgegeven buffer. |
 | [AddImage](../../aspose.slides/iimagecollection/addimage#addimage)(IImage) | Voegt een afbeelding toe aan een presentatie. |
 | [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_1)(IPPImage) | Voegt een kopie van een afbeelding toe vanuit een andere presentatie. |
 | [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_2)(ISvgImage) | Voegt een afbeelding toe aan een presentatie vanuit een SVG-object. |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_4)(MemoryStream) | Voegt een afbeelding toe vanuit een geheugenstroom. |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_4)(MemoryStream) | Voegt afbeelding toe vanuit een geheugenstroom. |
 | [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_5)(Stream) | Voegt een afbeelding toe aan een presentatie vanuit een stream. |
 | [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_6)(Stream, LoadingStreamBehavior) | Maakt een afbeelding aan en voegt deze toe aan een presentatie vanuit een stream. |
 

@@ -1,9 +1,9 @@
 ---
 title: Save
-second_title: Aspose.Sildes για .NET Αναφορά API
-description: Αποθηκεύει όλες τις διαφάνειες μιας παρουσίασης σε αρχείο με τη συγκεκριμένη μορφή.
+second_title: Aspose.Sildes για .NET API Αναφορά
+description: Αποθηκεύει όλες τις διαφάνειες μιας παρουσίασης σε αρχείο με την καθορισμένη μορφή.
 type: docs
-weight: 390
+weight: 400
 url: /el/aspose.slides/presentation/save/
 ---
 ## Save(string, SaveFormat) {#save_5}
@@ -17,14 +17,14 @@ public void Save(string fname, SaveFormat format)
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
 | fname | String | Διαδρομή του δημιουργημένου αρχείου. |
-| format | SaveFormat | Μορφή των δεδομένων που εξάγονται. |
+| format | SaveFormat | Μορφή των εξαχθέντων δεδομένων. |
 
 ### Δείτε επίσης
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
-* class [Presentation](../../presentation)
-* namespace [Aspose.Slides](../../presentation)
-* assembly [Aspose.Slides](../../../)
+* κλάση [Presentation](../../presentation)
+* χώρο ονομάτων [Aspose.Slides](../../presentation)
+* συναρμολόγηση [Aspose.Slides](../../../)
 
 ---
 
@@ -39,14 +39,14 @@ public void Save(Stream stream, SaveFormat format)
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
 | stream | Stream | Ροή εξόδου. |
-| format | SaveFormat | Μορφή των δεδομένων που εξάγονται. |
+| format | SaveFormat | Μορφή των εξαχθέντων δεδομένων. |
 
 ### Δείτε επίσης
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
-* class [Presentation](../../presentation)
-* namespace [Aspose.Slides](../../presentation)
-* assembly [Aspose.Slides](../../../)
+* κλάση [Presentation](../../presentation)
+* χώρο ονομάτων [Aspose.Slides](../../presentation)
+* συναρμολόγηση [Aspose.Slides](../../../)
 
 ---
 
@@ -59,10 +59,10 @@ public void Save(string fname, SaveFormat format, ISaveOptions options)
 ### Δείτε επίσης
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
-* interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
-* class [Presentation](../../presentation)
-* namespace [Aspose.Slides](../../presentation)
-* assembly [Aspose.Slides](../../../)
+* διεπαφή [ISaveOptions](../../../aspose.slides.export/isaveoptions)
+* κλάση [Presentation](../../presentation)
+* χώρο ονομάτων [Aspose.Slides](../../presentation)
+* συναρμολόγηση [Aspose.Slides](../../../)
 
 ---
 
@@ -77,28 +77,28 @@ public void Save(Stream stream, SaveFormat format, ISaveOptions options)
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
 | stream | Stream | Ροή εξόδου. |
-| format | SaveFormat | Μορφή των δεδομένων που εξάγονται. |
-| options | ISaveOptions | Επιπλέον επιλογές μορφής. |
+| format | SaveFormat | Μορφή των εξαχθέντων δεδομένων. |
+| options | ISaveOptions | Πρόσθετες επιλογές μορφής. |
 
 ### Εξαιρέσεις
 
-| Εξαίρεση | Συνθήκη |
+| εξαίρεση | συνθήκη |
 | --- | --- |
-| NotSupportedException | Εάν προσπαθήσετε να αποθηκεύσετε κρυπτογραφημένο αρχείο σε μορφή διαφορετική από Office 2007-2010 |
+| NotSupportedException | Εάν προσπαθήσετε να αποθηκεύσετε κρυπτογραφημένο αρχείο σε μορφή εκτός Office 2007-2010 |
 
 ### Δείτε επίσης
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
-* interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
-* class [Presentation](../../presentation)
-* namespace [Aspose.Slides](../../presentation)
-* assembly [Aspose.Slides](../../../)
+* διεπαφή [ISaveOptions](../../../aspose.slides.export/isaveoptions)
+* κλάση [Presentation](../../presentation)
+* χώρο ονομάτων [Aspose.Slides](../../presentation)
+* συναρμολόγηση [Aspose.Slides](../../../)
 
 ---
 
 ## Save(IXamlOptions) {#save}
 
-Αποθηκεύει όλες τις διαφάνειες μιας παρουσίασης σε ένα σύνολο αρχείων που αντιπροσωπεύουν τη σήμανση XAML.
+Αποθηκεύει όλες τις διαφάνειες μιας παρουσίασης σε σύνολο αρχείων που αντιπροσωπεύουν τη σήμανση XAML.
 
 ```csharp
 public void Save(IXamlOptions options)
@@ -120,16 +120,16 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 ### Δείτε επίσης
 
-* interface [IXamlOptions](../../../aspose.slides.export.xaml/ixamloptions)
-* class [Presentation](../../presentation)
-* namespace [Aspose.Slides](../../presentation)
-* assembly [Aspose.Slides](../../../)
+* διεπαφή [IXamlOptions](../../../aspose.slides.export.xaml/ixamloptions)
+* κλάση [Presentation](../../presentation)
+* χώρο ονομάτων [Aspose.Slides](../../presentation)
+* συναρμολόγηση [Aspose.Slides](../../../)
 
 ---
 
 ## Save(string, int[], SaveFormat) {#save_7}
 
-Αποθηκεύει τις καθορισμένες διαφάνειες μιας παρουσίασης σε αρχείο με τη συγκεκριμένη μορφή, διατηρώντας τον αριθμό σελίδας.
+Αποθηκεύει συγκεκριμένες διαφάνειες μιας παρουσίασης σε αρχείο με τη συγκεκριμένη μορφή διατηρώντας τον αριθμό σελίδας.
 
 ```csharp
 public void Save(string fname, int[] slides, SaveFormat format)
@@ -138,29 +138,29 @@ public void Save(string fname, int[] slides, SaveFormat format)
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
 | fname | String | Διαδρομή του δημιουργημένου αρχείου. |
-| slides | Int32[] | Πίνακας με τις θέσεις των διαφανειών, ξεκινώντας από 1. |
-| format | SaveFormat | Μορφή των δεδομένων που εξάγονται. |
+| slides | Int32[] | Πίνακας με θέσεις διαφανειών, αρχίζοντας από 1. |
+| format | SaveFormat | Μορφή των εξαχθέντων δεδομένων. |
 
 ### Εξαιρέσεις
 
-| Εξαίρεση | Συνθήκη |
+| εξαίρεση | συνθήκη |
 | --- | --- |
 | ArgumentNullException | Όταν η παράμετρος stream ή slides είναι null. |
 | ArgumentOutOfRangeException | Όταν η παράμετρος slides περιέχει λανθασμένους αριθμούς σελίδων. |
-| InvalidOperationException | Όταν χρησιμοποιείται μη υποστηριζόμενη μορφή SaveFormat, π.χ. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+| InvalidOperationException | Όταν χρησιμοποιηθεί μη υποστηριζόμενη μορφή SaveFormat, π.χ. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
 ### Δείτε επίσης
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
-* class [Presentation](../../presentation)
-* namespace [Aspose.Slides](../../presentation)
-* assembly [Aspose.Slides](../../../)
+* κλάση [Presentation](../../presentation)
+* χώρο ονομάτων [Aspose.Slides](../../presentation)
+* συναρμολόγηση [Aspose.Slides](../../../)
 
 ---
 
 ## Save(string, int[], SaveFormat, ISaveOptions) {#save_8}
 
-Αποθηκεύει τις καθορισμένες διαφάνειες μιας παρουσίασης σε αρχείο με τη συγκεκριμένη μορφή, διατηρώντας τον αριθμό σελίδας.
+Αποθηκεύει συγκεκριμένες διαφάνειες μιας παρουσίασης σε αρχείο με τη συγκεκριμένη μορφή διατηρώντας τον αριθμό σελίδας.
 
 ```csharp
 public void Save(string fname, int[] slides, SaveFormat format, ISaveOptions options)
@@ -169,23 +169,23 @@ public void Save(string fname, int[] slides, SaveFormat format, ISaveOptions opt
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
 | fname | String | Διαδρομή του δημιουργημένου αρχείου. |
-| slides | Int32[] | Πίνακας με τις θέσεις των διαφανειών, ξεκινώντας από 1. |
-| format | SaveFormat | Μορφή των δεδομένων που εξάγονται. |
-| options | ISaveOptions | Επιπλέον επιλογές μορφής. |
+| slides | Int32[] | Πίνακας με θέσεις διαφανειών, αρχίζοντας από 1. |
+| format | SaveFormat | Μορφή των εξαχθέντων δεδομένων. |
+| options | ISaveOptions | Πρόσθετες επιλογές μορφής. |
 
 ### Δείτε επίσης
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
-* interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
-* class [Presentation](../../presentation)
-* namespace [Aspose.Slides](../../presentation)
-* assembly [Aspose.Slides](../../../)
+* διεπαφή [ISaveOptions](../../../aspose.slides.export/isaveoptions)
+* κλάση [Presentation](../../presentation)
+* χώρο ονομάτων [Aspose.Slides](../../presentation)
+* συναρμολόγηση [Aspose.Slides](../../../)
 
 ---
 
 ## Save(Stream, int[], SaveFormat) {#save_3}
 
-Αποθηκεύει τις καθορισμένες διαφάνειες μιας παρουσίασης σε ροή με τη συγκεκριμένη μορφή, διατηρώντας τον αριθμό σελίδας.
+Αποθηκεύει συγκεκριμένες διαφάνειες μιας παρουσίασης σε ροή με τη συγκεκριμένη μορφή διατηρώντας τον αριθμό σελίδας.
 
 ```csharp
 public void Save(Stream stream, int[] slides, SaveFormat format)
@@ -194,21 +194,21 @@ public void Save(Stream stream, int[] slides, SaveFormat format)
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
 | stream | Stream | Ροή εξόδου. |
-| slides | Int32[] | Πίνακας με τις θέσεις των διαφανειών, ξεκινώντας από 1. |
-| format | SaveFormat | Μορφή των δεδομένων που εξάγονται. |
+| slides | Int32[] | Πίνακας με θέσεις διαφανειών, αρχίζοντας από 1. |
+| format | SaveFormat | Μορφή των εξαχθέντων δεδομένων. |
 
 ### Δείτε επίσης
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
-* class [Presentation](../../presentation)
-* namespace [Aspose.Slides](../../presentation)
-* assembly [Aspose.Slides](../../../)
+* κλάση [Presentation](../../presentation)
+* χώρο ονομάτων [Aspose.Slides](../../presentation)
+* συναρμολόγηση [Aspose.Slides](../../../)
 
 ---
 
 ## Save(Stream, int[], SaveFormat, ISaveOptions) {#save_4}
 
-Αποθηκεύει τις καθορισμένες διαφάνειες μιας παρουσίασης σε ροή με τη συγκεκριμένη μορφή, διατηρώντας τον αριθμό σελίδας.
+Αποθηκεύει συγκεκριμένες διαφάνειες μιας παρουσίασης σε ροή με τη συγκεκριμένη μορφή διατηρώντας τον αριθμό σελίδας.
 
 ```csharp
 public void Save(Stream stream, int[] slides, SaveFormat format, ISaveOptions options)
@@ -217,21 +217,21 @@ public void Save(Stream stream, int[] slides, SaveFormat format, ISaveOptions op
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
 | stream | Stream | Ροή εξόδου. |
-| slides | Int32[] | Πίνακας με τις θέσεις των διαφανειών, ξεκινώντας από 1. |
-| format | SaveFormat | Μορφή των δεδομένων που εξάγονται. |
-| options | ISaveOptions | Επιπλέον επιλογές μορφής. |
+| slides | Int32[] | Πίνακας με θέσεις διαφανειών, αρχίζοντας από 1. |
+| format | SaveFormat | Μορφή των εξαχθέντων δεδομένων. |
+| options | ISaveOptions | Πρόσθετες επιλογές μορφής. |
 
 ### Εξαιρέσεις
 
-| Εξαίρεση | Συνθήκη |
+| εξαίρεση | συνθήκη |
 | --- | --- |
 | ArgumentNullException | Όταν η παράμετρος stream ή slides είναι null. |
 | ArgumentOutOfRangeException | Όταν η παράμετρος slides περιέχει λανθασμένους αριθμούς σελίδων. |
-| InvalidOperationException | Όταν χρησιμοποιείται μη υποστηριζόμενη μορφή SaveFormat, π.χ. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+| InvalidOperationException | Όταν χρησιμοποιηθεί μη υποστηριζόμενη μορφή SaveFormat, π.χ. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
 ### Παραδείγματα
 
-Το ακόλουθο παράδειγμα δείχνει πώς να μετατρέψετε το PowerPoint σε PNG.
+Το παρακάτω παράδειγμα δείχνει πώς να μετατρέψετε το PowerPoint σε PNG.
 
 ```csharp
 [C#]
@@ -245,7 +245,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-Το ακόλουθο παράδειγμα δείχνει πώς να μετατρέψετε το PowerPoint σε PNG με προσαρμοσμένες διαστάσεις.
+Το παρακάτω παράδειγμα δείχνει πώς να μετατρέψετε το PowerPoint σε PNG με προσαρμοσμένες διαστάσεις.
 
 ```csharp
 [C#]
@@ -261,7 +261,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-Το ακόλουθο παράδειγμα δείχνει πώς να μετατρέψετε το PowerPoint σε PNG με προσαρμοσμένο μέγεθος.
+Το παρακάτω παράδειγμα δείχνει πώς να μετατρέψετε το PowerPoint σε PNG με προσαρμοσμένο μέγεθος.
 
 ```csharp
 [C#]
@@ -279,9 +279,9 @@ using (Presentation pres = new Presentation("pres.pptx"))
 ### Δείτε επίσης
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
-* interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
-* class [Presentation](../../presentation)
-* namespace [Aspose.Slides](../../presentation)
-* assembly [Aspose.Slides](../../../)
+* διεπαφή [ISaveOptions](../../../aspose.slides.export/isaveoptions)
+* κλάση [Presentation](../../presentation)
+* χώρο ονομάτων [Aspose.Slides](../../presentation)
+* συναρμολόγηση [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

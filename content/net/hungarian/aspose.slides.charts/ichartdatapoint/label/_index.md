@@ -1,14 +1,14 @@
 ---
 title: Label
-second_title: Aspose.Sildes .NET API referencia
-description: A diagram adatpont címkéjét képviseli. Csak olvasható IDataLabelaspose.slides.charts/idatalabel.
+second_title: Aspose.Sildes for .NET API referencia
+description: A diagram adatpont címkéjét jelöli. Csak olvasható IDataLabelaspose.slides.charts/idatalabel.
 type: docs
-weight: 110
+weight: 150
 url: /hu/aspose.slides.charts/ichartdatapoint/label/
 ---
 ## IChartDataPoint.Label tulajdonság
 
-A diagram adatpont címkéjét képviseli. Csak olvasható [`IDataLabel`](../../idatalabel).
+A diagram adatpont címkéjét jelöli. Csak olvasható [`IDataLabel`](../../idatalabel).
 
 ```csharp
 public IDataLabel Label { get; }

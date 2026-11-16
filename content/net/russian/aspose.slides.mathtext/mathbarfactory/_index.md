@@ -1,9 +1,9 @@
 ---
 title: MathBarFactory
-second_title: Aspose.Sildes для .NET справка API
+second_title: Aspose.Sildes для .NET справочник API
 description: Позволяет создать математическую черту
 type: docs
-weight: 8580
+weight: 8600
 url: /ru/aspose.slides.mathtext/mathbarfactory/
 ---
 ## MathBarFactory класс
@@ -16,16 +16,16 @@ public class MathBarFactory : IMathBarFactory
 
 ## Конструкторы
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
 | [MathBarFactory](mathbarfactory)() | Конструктор по умолчанию. |
 
 ## Методы
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
-| [CreateMathBar](../../aspose.slides.mathtext/mathbarfactory/createmathbar#createmathbar)(IMathElement) | Создает математическую черту, применяя к элементу |
-| [CreateMathBar](../../aspose.slides.mathtext/mathbarfactory/createmathbar#createmathbar_1)(IMathElement, MathTopBotPositions) | Создает математическую черту, применяя к элементу |
+| [CreateMathBar](../../aspose.slides.mathtext/mathbarfactory/createmathbar#createmathbar)(IMathElement) | Создаёт математическую черту, применяя её к элементу |
+| [CreateMathBar](../../aspose.slides.mathtext/mathbarfactory/createmathbar#createmathbar_1)(IMathElement, MathTopBotPositions) | Создаёт математическую черту, применяя её к элементу |
 
 ### Примечания
 

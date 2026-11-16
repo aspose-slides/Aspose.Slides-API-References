@@ -1,27 +1,24 @@
 ---
 title: LineFormatCollection
-second_title: Aspose.Sildes for .NET API 參考文件
+second_title: Aspose.Sildes .NET API 參考
 description: 表示線條樣式的集合。
 type: docs
-weight: 11420
+weight: 11440
 url: /zh-hant/aspose.slides.theme/lineformatcollection/
 ---
 ## LineFormatCollection 類別
-
 表示線條樣式的集合。
-
 ```csharp
 public sealed class LineFormatCollection : DomObject<FormatScheme>, ILineFormatCollection
 ```
-
 ## 屬性
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Count](../../aspose.slides.theme/lineformatcollection/count) { get; } | 取得集合中實際包含的元素數量。唯讀 Int32。 |
+| [Count](../../aspose.slides.theme/lineformatcollection/count) { get; } | 取得集合實際包含的元素數量。唯讀 Int32。 |
 | [IsSynchronized](../../aspose.slides.theme/lineformatcollection/issynchronized) { get; } | 傳回一個值，指示對集合的存取是否已同步（執行緒安全）。唯讀 Boolean。 |
 | [Item](../../aspose.slides.theme/lineformatcollection/item) { get; } | 取得指定索引處的元素。唯讀 [`ILineFormat`](../../aspose.slides/ilineformat)。 |
-| [SyncRoot](../../aspose.slides.theme/lineformatcollection/syncroot) { get; } | 傳回同步根。唯讀 Object。 |
+| [SyncRoot](../../aspose.slides.theme/lineformatcollection/syncroot) { get; } | 傳回一個同步根。唯讀 Object。 |
 
 ## 方法
 

@@ -1,14 +1,14 @@
 ---
 title: IFlyThroughTransition
-second_title: Aspose.Sildes for .NET API リファレンス
-description: フライスルー スライド遷移効果。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: スライドのフライスルー遷移効果。
 type: docs
-weight: 10090
+weight: 10110
 url: /ja/aspose.slides.slideshow/iflythroughtransition/
 ---
 ## IFlyThroughTransition インターフェイス
 
-フライスルー スライド遷移効果です。
+スライドのフライスルー遷移効果。
 
 ```csharp
 public interface IFlyThroughTransition : ITransitionValueBase
@@ -18,9 +18,9 @@ public interface IFlyThroughTransition : ITransitionValueBase
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/iflythroughtransition/asitransitionvaluebase) { get; } | ベースの ITransitionValueBase インターフェイスを取得できます。読み取り専用 [`ITransitionValueBase`](../itransitionvaluebase)。 |
-| [Direction](../../aspose.slides.slideshow/iflythroughtransition/direction) { get; set; } | 遷移の方向。読み書き可能 [`TransitionInOutDirectionType`](../transitioninoutdirectiontype)。 |
-| [HasBounce](../../aspose.slides.slideshow/iflythroughtransition/hasbounce) { get; set; } | 遷移中にプレゼンテーション スライドの移動にバウンドが含まれることを指定します。読み書き可能 Boolean。 |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/iflythroughtransition/asitransitionvaluebase) { get; } | ベース ITransitionValueBase インターフェイスを取得できます。[`ITransitionValueBase`](../itransitionvaluebase) は読み取り専用です。 |
+| [Direction](../../aspose.slides.slideshow/iflythroughtransition/direction) { get; set; } | 遷移の方向。[`TransitionInOutDirectionType`](../transitioninoutdirectiontype) は読み書き可能です。 |
+| [HasBounce](../../aspose.slides.slideshow/iflythroughtransition/hasbounce) { get; set; } | 遷移中のプレゼンテーション スライドの移動にバウンドが含まれることを指定します。Boolean は読み書き可能です。 |
 
 ### 参照
 

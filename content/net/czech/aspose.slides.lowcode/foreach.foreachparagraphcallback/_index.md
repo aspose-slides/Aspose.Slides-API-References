@@ -1,14 +1,14 @@
 ---
 title: ForEach.ForEachParagraphCallback
-second_title: Aspose.Sildes pro .NET API Reference
-description: Callback, který bude vyvolán pro každý Paragraph./foreach/paragraph na BaseSlide../aspose.slides/baseslide.
+second_title: Aspose.Sildes pro .NET API Referenci
+description: Zpětné volání, které bude vyvoláno pro každé Paragraph./foreach/paragraph na BaseSlide../aspose.slides/baseslide.
 type: docs
-weight: 7930
+weight: 7950
 url: /cs/aspose.slides.lowcode/foreach.foreachparagraphcallback/
 ---
-## ForEach.ForEachParagraphCallback delegát
+## ForEach.ForEachParagraphCallback delegate
 
-Callback that will be invoked for each [`Paragraph`](../foreach/paragraph) on the [`BaseSlide`](../../aspose.slides/baseslide).
+Zpětné volání, které bude vyvoláno pro každé [`Paragraph`](../foreach/paragraph) na [`BaseSlide`](../../aspose.slides/baseslide).
 
 ```csharp
 public delegate void ForEachParagraphCallback(Paragraph para, BaseSlide slide, int index);

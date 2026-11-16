@@ -1,14 +1,14 @@
 ---
 title: TransitionShredPattern
-second_title: Aspose.Sildes for .NET API 参考
-description: 指定一种几何形状，可相互拼接以填充更大的区域。
+second_title: Aspose.Sildes .NET API 参考
+description: 指定一种几何形状，可拼接在一起填充更大的区域。
 type: docs
-weight: 10410
+weight: 10430
 url: /zh/aspose.slides.slideshow/transitionshredpattern/
 ---
 ## TransitionShredPattern 枚举
 
-指定一种几何形状，能够相互拼接以填充更大的区域。
+指定一种几何形状，可拼接在一起填充更大的区域。
 
 ```csharp
 public enum TransitionShredPattern

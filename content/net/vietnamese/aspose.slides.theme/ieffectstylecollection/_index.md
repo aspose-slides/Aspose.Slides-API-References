@@ -1,14 +1,14 @@
 ---
 title: IEffectStyleCollection
-second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Biểu diễn một tập hợp các kiểu hiệu ứng.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Biểu thị một tập hợp các kiểu hiệu ứng.
 type: docs
-weight: 11180
+weight: 11200
 url: /vi/aspose.slides.theme/ieffectstylecollection/
 ---
-## IEffectStyleCollection giao diện
+## IEffectStyleCollection interface
 
-Biểu diễn một tập hợp các kiểu hiệu ứng.
+Biểu thị một tập hợp các kiểu hiệu ứng.
 
 ```csharp
 public interface IEffectStyleCollection : IGenericCollection<IEffectStyle>

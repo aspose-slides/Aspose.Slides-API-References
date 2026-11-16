@@ -1,14 +1,14 @@
 ---
 title: SourceFormat
-second_title: Aspose.Sildes pro .NET API Reference
-description: Zastupuje formát zdrojového souboru.
+second_title: Aspose.Sildes pro .NET referenční příručku API
+description: Reprezentuje formát zdrojového souboru.
 type: docs
-weight: 10680
+weight: 10700
 url: /cs/aspose.slides/sourceformat/
 ---
-## Výčtový typ SourceFormat
+## Výčet SourceFormat
 
-Zastupuje formát zdrojového souboru.
+Reprezentuje formát zdrojového souboru.
 
 ```csharp
 public enum SourceFormat
@@ -18,21 +18,21 @@ public enum SourceFormat
 
 | Název | Hodnota | Popis |
 | --- | --- | --- |
-| Ppt | `0` | Microsoft PowerPoint 97-2003 Prezentace (*.ppt). |
-| Pptx | `1` | Microsoft Office Open XML Prezentace (*.pptx). |
-| Odp | `2` | OpenDocument Prezentace (*.odp). |
-| Pptm | `3` | Microsoft Office Open XML Makro-povolená Prezentace (*.pptm). |
-| Ppsx | `4` | Microsoft Office Open XML Prezentace (*.ppsx). |
-| Ppsm | `5` | Microsoft Office Open XML Makro-povolená Prezentace (*.ppsm). |
-| Potx | `6` | Microsoft Office Open XML Šablona (*.potx). |
-| Potm | `7` | Microsoft Office Open XML Makro-povolená Šablona (*.potm). |
-| Pps | `8` | Microsoft PowerPoint 97-2003 Prezentace (*.pps). |
-| Pot | `9` | Microsoft PowerPoint 97-2003 Šablona (*.pot). |
-| Otp | `10` | OpenDocument Prezentace Šablona (*.otp). |
-| Fodp | `11` | Flat XML ODF Prezentace (*.fodp). |
-| Xml | `12` | PowerPoint XML Prezentace (*.xml). |
+| Ppt | `0` | Prezentace Microsoft PowerPoint 97-2003 (*.ppt). |
+| Pptx | `1` | Prezentace Microsoft Office Open XML (*.pptx). |
+| Odp | `2` | Prezentace OpenDocument (*.odp). |
+| Pptm | `3` | Prezentace Microsoft Office Open XML s makry (*.pptm). |
+| Ppsx | `4` | Prezentace Microsoft Office Open XML (slideshow) (*.ppsx). |
+| Ppsm | `5` | Prezentace Microsoft Office Open XML s makry (slideshow) (*.ppsm). |
+| Potx | `6` | Šablona Microsoft Office Open XML (*.potx). |
+| Potm | `7` | Šablona Microsoft Office Open XML s makry (*.potm). |
+| Pps | `8` | Prezentace Microsoft PowerPoint 97-2003 (slideshow) (*.pps). |
+| Pot | `9` | Šablona Microsoft PowerPoint 97-2003 (*.pot). |
+| Otp | `10` | Šablona prezentace OpenDocument (*.otp). |
+| Fodp | `11` | Prezentace Flat XML ODF (*.fodp). |
+| Xml | `12` | Prezentace PowerPoint XML (*.xml). |
 
-### Viz také
+### Další informace
 
 * jmenný prostor [Aspose.Slides](../../aspose.slides)
 * sestavení [Aspose.Slides](../../)

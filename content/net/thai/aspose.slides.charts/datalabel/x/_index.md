@@ -1,14 +1,14 @@
 ---
 title: X
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+second_title: Aspose.Sildes สำหรับ .NET API Reference
 description: คืนค่า หรือกำหนดพิกัด x ของหัวเรื่องเป็นส่วนของความกว้างของแผนภูมิ. อ่าน/เขียน Single.
 type: docs
-weight: 160
+weight: 170
 url: /th/aspose.slides.charts/datalabel/x/
 ---
 ## DataLabel.X คุณสมบัติ
 
-คืนค่า หรือ กำหนดพิกัด x ของหัวเรื่องเป็นส่วนของความกว้างของแผนภูมิ. อ่าน/เขียน Single.
+คืนค่า หรือกำหนดพิกัด x ของหัวเรื่องเป็นส่วนของความกว้างของแผนภูมิ. อ่าน/เขียน Single.
 
 ```csharp
 public float X { get; set; }

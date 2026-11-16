@@ -1,9 +1,9 @@
 ---
 title: Column
-second_title: Aspose.Sildes per .NET Riferimento API
+second_title: Aspose.Sildes per il riferimento API .NET
 description: Rappresenta una colonna in una tabella.
 type: docs
-weight: 2590
+weight: 2610
 url: /it/aspose.slides/column/
 ---
 ## Classe Column
@@ -33,9 +33,9 @@ public sealed class Column : CellCollection, IColumn
 | --- | --- |
 | [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | Copia tutti gli elementi dalla raccolta nell'array specificato. |
 | [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | Restituisce un enumeratore che itera attraverso la raccolta. |
-| [SetTextFormat](../../aspose.slides/column/settextformat#settextformat)(IParagraphFormat) | Imposta le proprietà di formattazione del paragrafo definite a tutti i paragrafi delle celle della colonna. |
-| [SetTextFormat](../../aspose.slides/column/settextformat#settextformat_1)(IPortionFormat) | Imposta le proprietà di formattazione della porzione definite a tutte le porzioni delle celle della colonna. |
-| [SetTextFormat](../../aspose.slides/column/settextformat#settextformat_2)(ITextFrameFormat) | Imposta le proprietà di formattazione del frame di testo definite a tutti i frame di testo delle celle della colonna. |
+| [SetTextFormat](../../aspose.slides/column/settextformat#settextformat)(IParagraphFormat) | Imposta le proprietà di formattazione del paragrafo definite su tutti i paragrafi delle celle della colonna. |
+| [SetTextFormat](../../aspose.slides/column/settextformat#settextformat_1)(IPortionFormat) | Imposta le proprietà di formattazione della porzione definite su tutte le porzioni delle celle della colonna. |
+| [SetTextFormat](../../aspose.slides/column/settextformat#settextformat_2)(ITextFrameFormat) | Imposta le proprietà di formattazione del frame di testo definite su tutti i frame di testo delle celle della colonna. |
 
 ### Vedi anche
 

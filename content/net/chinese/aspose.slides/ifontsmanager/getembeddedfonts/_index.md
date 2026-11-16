@@ -1,12 +1,11 @@
 ---
 title: GetEmbeddedFonts
-second_title: Aspose.Sildes for .NET API Reference
+second_title: Aspose.Sildes for .NET API 参考
 description: 返回演示文稿中嵌入的字体
 type: docs
-weight: 40
+weight: 50
 url: /zh/aspose.slides/ifontsmanager/getembeddedfonts/
 ---
-
 ## IFontsManager.GetEmbeddedFonts 方法
 
 返回演示文稿中嵌入的字体
@@ -19,7 +18,7 @@ public IFontData[] GetEmbeddedFonts()
 
 嵌入的字体 [`IFontData`](../../ifontdata)[]
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IFontData](../../ifontdata)
 * 接口 [IFontsManager](../../ifontsmanager)

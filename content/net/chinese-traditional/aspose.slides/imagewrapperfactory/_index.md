@@ -1,14 +1,14 @@
 ---
 title: ImageWrapperFactory
 second_title: Aspose.Sildes for .NET API 參考
-description: 此類別允許初始化 IBitmapWrapper。
+description: 此類別可用於初始化 IBitmapWrapper.
 type: docs
-weight: 7450
+weight: 7470
 url: /zh-hant/aspose.slides/imagewrapperfactory/
 ---
 ## ImageWrapperFactory 類別
 
-此類別允許初始化 IBitmapWrapper。
+此類別可用於初始化 IBitmapWrapper.
 
 ```csharp
 public class ImageWrapperFactory : IImageWrapperFactory
@@ -24,11 +24,11 @@ public class ImageWrapperFactory : IImageWrapperFactory
 
 | Name | Description |
 | --- | --- |
-| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper)(IImage) | 從指定的現有圖像初始化 ImageWrapper 類別的新執行個體。 |
-| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper_1)(Stream) | 從指定的資料流初始化 BitmapWrapper 類別的新執行個體。 |
+| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper)(IImage) | 從指定的現有影像初始化 ImageWrapper 類別的新執行個體。 |
+| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper_1)(Stream) | 從指定的資料串流初始化 BitmapWrapper 類別的新執行個體。 |
 | [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper_2)(string) | 從指定的檔案初始化 BitmapWrapper 類別的新執行個體。 |
 
-### 另請參閱
+### 相關參考
 
 * 介面 [IImageWrapperFactory](../iimagewrapperfactory)
 * 命名空間 [Aspose.Slides](../../aspose.slides)

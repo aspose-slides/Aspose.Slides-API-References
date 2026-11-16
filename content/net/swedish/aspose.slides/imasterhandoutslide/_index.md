@@ -3,12 +3,12 @@ title: IMasterHandoutSlide
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar masterbild för handouts.
 type: docs
-weight: 6350
+weight: 6370
 url: /sv/aspose.slides/imasterhandoutslide/
 ---
 ## IMasterHandoutSlide gränssnitt
 
-Representerar masterbild för handouts.
+Representerar masterbilden för handout-bilder.
 
 ```csharp
 public interface IMasterHandoutSlide : IBaseSlide, IMasterThemeable
@@ -18,12 +18,12 @@ public interface IMasterHandoutSlide : IBaseSlide, IMasterThemeable
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/imasterhandoutslide/asibaseslide) { get; } | Allows to get base IBaseSlide interface. Skrivskyddad [`IBaseSlide`](../ibaseslide). |
-| [AsIMasterThemeable](../../aspose.slides/imasterhandoutslide/asimasterthemeable) { get; } | Returns IMasterThemeable interface. Skrivskyddad [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
-| [DrawingGuides](../../aspose.slides/imasterhandoutslide/drawingguides) { get; } | Returns a collection of drawing guides for the master handout slide. Skrivskyddad [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [HeaderFooterManager](../../aspose.slides/imasterhandoutslide/headerfootermanager) { get; } | Returns HeaderFooter manager of the master handout slide. Skrivskyddad [`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager). |
+| [AsIBaseSlide](../../aspose.slides/imasterhandoutslide/asibaseslide) { get; } | Tillåter att hämta bas IBaseSlide gränssnitt. Skrivskyddad [`IBaseSlide`](../ibaseslide). |
+| [AsIMasterThemeable](../../aspose.slides/imasterhandoutslide/asimasterthemeable) { get; } | Returnerar IMasterThemeable gränssnitt. Skrivskyddad [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
+| [DrawingGuides](../../aspose.slides/imasterhandoutslide/drawingguides) { get; } | Returnerar en samling ritguider för master-handout-bilden. Skrivskyddad [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [HeaderFooterManager](../../aspose.slides/imasterhandoutslide/headerfootermanager) { get; } | Returnerar HeaderFooter-hanterare för master-handout-bilden. Skrivskyddad [`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager). |
 
-### Se också
+### Se även
 
 * gränssnitt [IBaseSlide](../ibaseslide)
 * gränssnitt [IMasterThemeable](../../aspose.slides.theme/imasterthemeable)

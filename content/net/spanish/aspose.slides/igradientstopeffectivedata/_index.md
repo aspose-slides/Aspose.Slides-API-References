@@ -3,7 +3,7 @@ title: IGradientStopEffectiveData
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: objeto inmutable que representa una parada de degradado.
 type: docs
-weight: 6050
+weight: 6070
 url: /es/aspose.slides/igradientstopeffectivedata/
 ---
 ## IGradientStopEffectiveData interfaz

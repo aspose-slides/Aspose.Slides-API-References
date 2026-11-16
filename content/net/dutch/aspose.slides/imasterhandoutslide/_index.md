@@ -1,14 +1,14 @@
 ---
 title: IMasterHandoutSlide
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Vertegenwoordigt de masterdia voor handouts.
+description: Stelt de masterdia voor handouts voor.
 type: docs
-weight: 6350
+weight: 6370
 url: /nl/aspose.slides/imasterhandoutslide/
 ---
 ## IMasterHandoutSlide interface
 
-Vertegenwoordigt de masterdia voor hand-outs.
+Stelt de masterdia voor hand-outs voor.
 
 ```csharp
 public interface IMasterHandoutSlide : IBaseSlide, IMasterThemeable
@@ -20,8 +20,8 @@ public interface IMasterHandoutSlide : IBaseSlide, IMasterThemeable
 | --- | --- |
 | [AsIBaseSlide](../../aspose.slides/imasterhandoutslide/asibaseslide) { get; } | Staat toe om de basis IBaseSlide interface op te halen. Alleen-lezen [`IBaseSlide`](../ibaseslide). |
 | [AsIMasterThemeable](../../aspose.slides/imasterhandoutslide/asimasterthemeable) { get; } | Retourneert de IMasterThemeable interface. Alleen-lezen [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
-| [DrawingGuides](../../aspose.slides/imasterhandoutslide/drawingguides) { get; } | Retourneert een collectie van teken-gidsen voor de master handout slide. Alleen-lezen [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [HeaderFooterManager](../../aspose.slides/imasterhandoutslide/headerfootermanager) { get; } | Retourneert de HeaderFooter manager van de master handout slide. Alleen-lezen [`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager). |
+| [DrawingGuides](../../aspose.slides/imasterhandoutslide/drawingguides) { get; } | Retourneert een collectie tekenrichtlijnen voor de masterhandoutdia. Alleen-lezen [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [HeaderFooterManager](../../aspose.slides/imasterhandoutslide/headerfootermanager) { get; } | Retourneert de HeaderFooter manager van de masterhandoutdia. Alleen-lezen [`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager). |
 
 ### Zie ook
 

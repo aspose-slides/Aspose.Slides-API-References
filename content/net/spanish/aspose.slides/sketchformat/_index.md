@@ -1,9 +1,9 @@
 ---
 title: SketchFormat
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Referencia de la API de Aspose.Sildes para .NET
 description: Representa propiedades para el formato de boceto de líneas.
 type: docs
-weight: 9950
+weight: 9970
 url: /es/aspose.slides/sketchformat/
 ---
 ## SketchFormat clase
@@ -18,7 +18,7 @@ public sealed class SketchFormat : PVIObject, ISketchFormat
 
 | Nombre | Descripción |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permite obtener la interfaz base IPresentationComponent. Solo lectura [`IPresentationComponent`](../ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permite obtener la interfaz base IPresentationComponent. Sólo lectura [`IPresentationComponent`](../ipresentationcomponent). |
 | [SketchType](../../aspose.slides/sketchformat/sketchtype) { get; set; } | Devuelve o establece el tipo de boceto. Lectura/escritura [`LineSketchType`](../linesketchtype). |
 
 ## Métodos

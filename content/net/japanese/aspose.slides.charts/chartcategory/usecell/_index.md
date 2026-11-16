@@ -1,14 +1,14 @@
 ---
 title: UseCell
 second_title: Aspose.Sildes for .NET API リファレンス
-description: true の場合、AsCell プロパティが有効です。つまり、ワークシートはカテゴリの保存に使用されます（このケースは多層カテゴリをサポートします）。false の場合、AsLiteral プロパティが有効です。つまり、ワークシートはカテゴリの保存に使用されません（このケースは多層カテゴリをサポートしません）。読み取り専用 Boolean.
+description: true の場合は AsCell プロパティが有効です。言い換えれば、ワークシートはカテゴリの保存に使用され、このケースは多層カテゴリをサポートします。false の場合は AsLiteral プロパティが有効です。言い換えれば、ワークシートはカテゴリの保存に使用されず、このケースは多層カテゴリをサポートしません。読み取り専用 Boolean。
 type: docs
-weight: 40
+weight: 50
 url: /ja/aspose.slides.charts/chartcategory/usecell/
 ---
 ## ChartCategory.UseCell プロパティ
 
-true の場合、AsCell プロパティが有効です。言い換えると、ワークシートはカテゴリの保存に使用されます（この場合は多層カテゴリをサポートします）。false の場合、AsLiteral プロパティが有効です。言い換えると、ワークシートはカテゴリの保存に使用されません（この場合は多層カテゴリをサポートしません）。読み取り専用 Boolean。
+true の場合、AsCell プロパティが有効です。言い換えれば、ワークシートはカテゴリの保存に使用されます（このケースは多層カテゴリをサポートします）。false の場合、AsLiteral プロパティが有効です。言い換えれば、ワークシートはカテゴリの保存に使用されません（このケースは多層カテゴリをサポートしません）。読み取り専用の Boolean。
 
 ```csharp
 public bool UseCell { get; }

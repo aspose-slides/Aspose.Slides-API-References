@@ -1,14 +1,14 @@
 ---
 title: Row
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 테이블의 행을 나타냅니다.
 type: docs
-weight: 9710
+weight: 9730
 url: /ko/aspose.slides/row/
 ---
 ## Row 클래스
 
-테이블에서 행을 나타냅니다.
+테이블의 행을 나타냅니다.
 
 ```csharp
 public sealed class Row : CellCollection, IRow
@@ -18,10 +18,10 @@ public sealed class Row : CellCollection, IRow
 
 | 이름 | 설명 |
 | --- | --- |
-| [Count](../../aspose.slides/cellcollection/count) { get; } | 컬렉션에 포함된 셀의 수를 반환합니다. 읽기 전용 Int32. |
+| [Count](../../aspose.slides/cellcollection/count) { get; } | 컬렉션의 셀 수를 반환합니다. 읽기 전용 Int32. |
 | [Height](../../aspose.slides/row/height) { get; } | 행의 높이를 반환합니다. 읽기 전용 Double. |
-| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | 컬렉션에 대한 접근이 동기화(스레드 안전)되어 있는지를 나타내는 값을 반환합니다. 읽기 전용 Boolean. |
-| [Item](../../aspose.slides/cellcollection/item) { get; } | 위치에 따라 셀을 반환합니다. 읽기 전용 [`Cell`](../cell). |
+| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | 컬렉션에 대한 접근이 동기화(스레드 안전)되는지 여부를 나타내는 값을 반환합니다. 읽기 전용 Boolean. |
+| [Item](../../aspose.slides/cellcollection/item) { get; } | 해당 위치의 셀을 반환합니다. 읽기 전용 [`Cell`](../cell). |
 | [MinimalHeight](../../aspose.slides/row/minimalheight) { get; set; } | 행의 최소 가능한 높이를 반환하거나 설정합니다. 읽기/쓰기 Double. |
 | [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | CellCollection의 상위 프레젠테이션을 반환합니다. 읽기 전용 [`IPresentation`](../ipresentation). |
 | [RowFormat](../../aspose.slides/row/rowformat) { get; } | 이 행에 대한 서식 속성을 포함하는 RowFormat 객체를 반환합니다. 읽기 전용 [`IRowFormat`](../irowformat). |
@@ -32,13 +32,13 @@ public sealed class Row : CellCollection, IRow
 
 | 이름 | 설명 |
 | --- | --- |
-| [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | 컬렉션의 모든 요소를 지정된 배열에 복사합니다. |
+| [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | 컬렉션의 모든 요소를 지정된 배열로 복사합니다. |
 | [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | 컬렉션을 순회하는 열거자를 반환합니다. |
-| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat)(IParagraphFormat) | 정의된 단락 서식 속성을 모든 행 셀의 단락에 적용합니다. |
-| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat_1)(IPortionFormat) | 정의된 구역 서식 속성을 모든 행 셀의 구역에 적용합니다. |
-| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat_2)(ITextFrameFormat) | 정의된 텍스트 프레임 서식 속성을 모든 행 셀의 텍스트 프레임에 적용합니다. |
+| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat)(IParagraphFormat) | 모든 행 셀의 단락에 정의된 단락 서식 속성을 설정합니다. |
+| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat_1)(IPortionFormat) | 모든 행 셀의 부분에 정의된 부분 서식 속성을 설정합니다. |
+| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat_2)(ITextFrameFormat) | 모든 행 셀의 텍스트 프레임에 정의된 텍스트 프레임 서식 속성을 설정합니다. |
 
-### 또한 보기
+### 참조
 
 * 클래스 [CellCollection](../cellcollection)
 * 인터페이스 [IRow](../irow)

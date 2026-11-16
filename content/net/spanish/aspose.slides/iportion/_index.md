@@ -1,9 +1,9 @@
 ---
 title: IPortion
-second_title: Referencia de la API de Aspose.Sildes para .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa una porción de texto dentro de un párrafo de texto.
 type: docs
-weight: 6700
+weight: 6720
 url: /es/aspose.slides/iportion/
 ---
 ## IPortion interfaz
@@ -29,7 +29,7 @@ public interface IPortion : ISlideComponent
 | --- | --- |
 | [AddField](../../aspose.slides/iportion/addfield#addfield)(IFieldType) | Convierte esta porción en el campo actualizado automáticamente. |
 | [AddField](../../aspose.slides/iportion/addfield#addfield_1)(string) | Convierte esta porción en el campo actualizado automáticamente. |
-| [GetCoordinates](../../aspose.slides/iportion/getcoordinates)() | Obtiene las coordenadas del inicio de la porción. La coordenada X del punto representa el inicio de la porción desde el primer carácter, incluido el margen izquierdo. La coordenada Y incluye el margen superior. |
+| [GetCoordinates](../../aspose.slides/iportion/getcoordinates)() | Obtiene las coordenadas del inicio de la porción. La coordenada X del punto representa el comienzo de la porción desde el primer carácter, incluyendo el margen lateral izquierdo. La coordenada Y incluye el margen superior. |
 | [GetRect](../../aspose.slides/iportion/getrect)() | Obtiene las coordenadas del rectángulo que delimita la porción. El rectángulo incluye todas las líneas de texto en la porción, incluidas las vacías. |
 | [RemoveField](../../aspose.slides/iportion/removefield)() | Convierte esta porción de campo en una porción simple. |
 

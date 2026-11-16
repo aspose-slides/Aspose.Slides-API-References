@@ -1,27 +1,27 @@
 ---
 title: EmbedFontCharacters
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงกฎที่ใช้สำหรับการเพิ่มแบบอักษรฝังใหม่ลงใน IPresentation../aspose.slides/ipresentation
+description: แสดงกฎที่ใช้สำหรับเพิ่มฟอนต์ฝังใหม่ลงใน IPresentation../aspose.slides/ipresentation
 type: docs
-weight: 3770
+weight: 3790
 url: /th/aspose.slides.export/embedfontcharacters/
 ---
 ## EmbedFontCharacters enumeration
 
-แสดงกฎที่ใช้สำหรับการเพิ่มแบบอักษรฝังใหม่ลงใน [`IPresentation`](../../aspose.slides/ipresentation)
+Represents the rule to use for adding new embedding font into [`IPresentation`](../../aspose.slides/ipresentation)
 
 ```csharp
 public enum EmbedFontCharacters
 ```
 
-### ค่า
+### Values
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
 | OnlyUsed | `0` | ฝังเฉพาะอักขระที่ใช้ในงานนำเสนอ (ดีที่สุดสำหรับลดขนาดไฟล์) |
 | All | `1` | ฝังอักขระทั้งหมด (ดีที่สุดสำหรับการแก้ไขโดยบุคคลอื่น) |
 
-### ดูเพิ่มเติม
+### See Also
 
 * เนมสเปซ [Aspose.Slides.Export](../../aspose.slides.export)
 * แอสเซมบลี [Aspose.Slides](../../)

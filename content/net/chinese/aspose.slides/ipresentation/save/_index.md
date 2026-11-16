@@ -1,15 +1,14 @@
 ---
 title: Save
-second_title: Aspose.Sildes for .NET API Reference
-description: 将演示文稿的所有幻灯片保存到指定格式的文件中。
+second_title: Aspose.Sildes .NET API 参考
+description: 将演示文稿的所有幻灯片保存为具有指定格式的文件。
 type: docs
-weight: 370
+weight: 390
 url: /zh/aspose.slides/ipresentation/save/
 ---
+## Save(string, SaveFormat) {#save_5}
 
-## Save(string, SaveFormat) {#save_5}
-
-将演示文稿的所有幻灯片保存到指定格式的文件中。
+将演示文稿的所有幻灯片保存为具有指定格式的文件。
 
 ```csharp
 public void Save(string fname, SaveFormat format)
@@ -17,19 +16,19 @@ public void Save(string fname, SaveFormat format)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| fname | String | 创建文件的路径。 |
+| fname | String | 创建的文件路径。 |
 | format | SaveFormat | 导出数据的格式。 |
 
-### 另见
+### 参见
 
-* enum [SaveFormat](../../../aspose.slides.export/saveformat)
-* interface [IPresentation](../../ipresentation)
-* namespace [Aspose.Slides](../../ipresentation)
-* assembly [Aspose.Slides](../../../)
+* enum [SaveFormat](../../../aspose.slides.export/saveformat)
+* 接口 [IPresentation](../../ipresentation)
+* 命名空间 [Aspose.Slides](../../ipresentation)
+* 程序集 [Aspose.Slides](../../../)
 
 ---
 
-## Save(Stream, SaveFormat) {#save_1}
+## Save(Stream, SaveFormat) {#save_1}
 
 将演示文稿的所有幻灯片保存到指定格式的流中。
 
@@ -42,18 +41,18 @@ public void Save(Stream stream, SaveFormat format)
 | stream | Stream | 输出流。 |
 | format | SaveFormat | 导出数据的格式。 |
 
-### 另见
+### 参见
 
-* enum [SaveFormat](../../../aspose.slides.export/saveformat)
-* interface [IPresentation](../../ipresentation)
-* namespace [Aspose.Slides](../../ipresentation)
-* assembly [Aspose.Slides](../../../)
+* enum [SaveFormat](../../../aspose.slides.export/saveformat)
+* 接口 [IPresentation](../../ipresentation)
+* 命名空间 [Aspose.Slides](../../ipresentation)
+* 程序集 [Aspose.Slides](../../../)
 
 ---
 
-## Save(string, SaveFormat, ISaveOptions) {#save_6}
+## Save(string, SaveFormat, ISaveOptions) {#save_6}
 
-将演示文稿的所有幻灯片保存到指定格式的文件中，并附带额外选项。
+将演示文稿的所有幻灯片保存为具有指定格式并附加选项的文件。
 
 ```csharp
 public void Save(string fname, SaveFormat format, ISaveOptions options)
@@ -61,23 +60,23 @@ public void Save(string fname, SaveFormat format, ISaveOptions options)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| fname | String | 创建文件的路径。 |
+| fname | String | 创建的文件路径。 |
 | format | SaveFormat | 导出数据的格式。 |
-| options | ISaveOptions | 额外格式选项。 |
+| options | ISaveOptions | 附加格式选项。 |
 
-### 另见
+### 参见
 
-* enum [SaveFormat](../../../aspose.slides.export/saveformat)
-* interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
-* interface [IPresentation](../../ipresentation)
-* namespace [Aspose.Slides](../../ipresentation)
-* assembly [Aspose.Slides](../../../)
+* enum [SaveFormat](../../../aspose.slides.export/saveformat)
+* 接口 [ISaveOptions](../../../aspose.slides.export/isaveoptions)
+* 接口 [IPresentation](../../ipresentation)
+* 命名空间 [Aspose.Slides](../../ipresentation)
+* 程序集 [Aspose.Slides](../../../)
 
 ---
 
-## Save(Stream, SaveFormat, ISaveOptions) {#save_2}
+## Save(Stream, SaveFormat, ISaveOptions) {#save_2}
 
-将演示文稿的所有幻灯片保存到指定格式的流中，并附带额外选项。
+将演示文稿的所有幻灯片保存到指定格式并附加选项的流中。
 
 ```csharp
 public void Save(Stream stream, SaveFormat format, ISaveOptions options)
@@ -87,27 +86,27 @@ public void Save(Stream stream, SaveFormat format, ISaveOptions options)
 | --- | --- | --- |
 | stream | Stream | 输出流。 |
 | format | SaveFormat | 导出数据的格式。 |
-| options | ISaveOptions | 额外格式选项。 |
+| options | ISaveOptions | 附加格式选项。 |
 
 ### 异常
 
 | 异常 | 条件 |
 | --- | --- |
-| NotSupportedException | 如果尝试以非 Office 2007-2010 格式保存加密文件 |
+| NotSupportedException | 当尝试以非 Office 2007-2010 格式保存加密文件时 |
 
-### 另见
+### 参见
 
-* enum [SaveFormat](../../../aspose.slides.export/saveformat)
-* interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
-* interface [IPresentation](../../ipresentation)
-* namespace [Aspose.Slides](../../ipresentation)
-* assembly [Aspose.Slides](../../../)
+* enum [SaveFormat](../../../aspose.slides.export/saveformat)
+* 接口 [ISaveOptions](../../../aspose.slides.export/isaveoptions)
+* 接口 [IPresentation](../../ipresentation)
+* 命名空间 [Aspose.Slides](../../ipresentation)
+* 程序集 [Aspose.Slides](../../../)
 
 ---
 
-## Save(string, int[], SaveFormat) {#save_7}
+## Save(string, int[], SaveFormat) {#save_7}
 
-将指定的演示文稿幻灯片保存到指定格式的文件中。
+将演示文稿的指定幻灯片保存为具有指定格式的文件。
 
 ```csharp
 public void Save(string fname, int[] slides, SaveFormat format)
@@ -115,30 +114,30 @@ public void Save(string fname, int[] slides, SaveFormat format)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| fname | String | 创建文件的路径。 |
-| slides | Int32[] | 包含幻灯片位置的数组，从 1 开始。 |
+| fname | String | 创建的文件路径。 |
+| slides | Int32[] | 幻灯片位置数组，从 1 开始计数。 |
 | format | SaveFormat | 导出数据的格式。 |
 
 ### 异常
 
 | 异常 | 条件 |
 | --- | --- |
-| ArgumentNullException | 当流或幻灯片参数为 null 时。 |
-| ArgumentOutOfRangeException | 当幻灯片参数包含错误的页码时。 |
-| InvalidOperationException | 当使用不支持的 SaveFormat 时，例如 PPTX、PPTM、PPSX、PPSM、POTX、POTM、PPT、ODP。 |
+| ArgumentNullException | 当 stream 或 slides 参数为 null 时。 |
+| ArgumentOutOfRangeException | 当 slides 参数包含错误的页码时。 |
+| InvalidOperationException | 当使用不受支持的 SaveFormat 时，例如 PPTX、PPTM、PPSX、PPSM、POTX、POTM、PPT、ODP。 |
 
-### 另见
+### 参见
 
-* enum [SaveFormat](../../../aspose.slides.export/saveformat)
-* interface [IPresentation](../../ipresentation)
-* namespace [Aspose.Slides](../../ipresentation)
-* assembly [Aspose.Slides](../../../)
+* enum [SaveFormat](../../../aspose.slides.export/saveformat)
+* 接口 [IPresentation](../../ipresentation)
+* 命名空间 [Aspose.Slides](../../ipresentation)
+* 程序集 [Aspose.Slides](../../../)
 
 ---
 
-## Save(string, int[], SaveFormat, ISaveOptions) {#save_8}
+## Save(string, int[], SaveFormat, ISaveOptions) {#save_8}
 
-将指定的演示文稿幻灯片保存到指定格式的文件中。
+将演示文稿的指定幻灯片保存为具有指定格式的文件。
 
 ```csharp
 public void Save(string fname, int[] slides, SaveFormat format, ISaveOptions options)
@@ -146,32 +145,32 @@ public void Save(string fname, int[] slides, SaveFormat format, ISaveOptions opt
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| fname | String | 创建文件的路径。 |
-| slides | Int32[] | 包含幻灯片位置的数组，从 1 开始。 |
+| fname | String | 创建的文件路径。 |
+| slides | Int32[] | 幻灯片位置数组，从 1 开始计数。 |
 | format | SaveFormat | 导出数据的格式。 |
-| options | ISaveOptions | 额外格式选项。 |
+| options | ISaveOptions | 附加格式选项。 |
 
 ### 异常
 
 | 异常 | 条件 |
 | --- | --- |
-| ArgumentNullException | 当流或幻灯片参数为 null 时。 |
-| ArgumentOutOfRangeException | 当幻灯片参数包含错误的页码时。 |
-| InvalidOperationException | 当使用不支持的 SaveFormat 时，例如 PPTX、PPTM、PPSX、PPSM、POTX、POTM、PPT、ODP。 |
+| ArgumentNullException | 当 stream 或 slides 参数为 null 时。 |
+| ArgumentOutOfRangeException | 当 slides 参数包含错误的页码时。 |
+| InvalidOperationException | 当使用不受支持的 SaveFormat 时，例如 PPTX、PPTM、PPSX、PPSM、POTX、POTM、PPT、ODP。 |
 
-### 另见
+### 参见
 
-* enum [SaveFormat](../../../aspose.slides.export/saveformat)
-* interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
-* interface [IPresentation](../../ipresentation)
-* namespace [Aspose.Slides](../../ipresentation)
-* assembly [Aspose.Slides](../../../)
+* enum [SaveFormat](../../../aspose.slides.export/saveformat)
+* 接口 [ISaveOptions](../../../aspose.slides.export/isaveoptions)
+* 接口 [IPresentation](../../ipresentation)
+* 命名空间 [Aspose.Slides](../../ipresentation)
+* 程序集 [Aspose.Slides](../../../)
 
 ---
 
-## Save(Stream, int[], SaveFormat) {#save_3}
+## Save(Stream, int[], SaveFormat) {#save_3}
 
-将指定的演示文稿幻灯片保存到指定格式的流中。
+将演示文稿的指定幻灯片保存到指定格式的流中。
 
 ```csharp
 public void Save(Stream stream, int[] slides, SaveFormat format)
@@ -180,29 +179,29 @@ public void Save(Stream stream, int[] slides, SaveFormat format)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | stream | Stream | 输出流。 |
-| slides | Int32[] | 包含幻灯片位置的数组，从 1 开始。 |
+| slides | Int32[] | 幻灯片位置数组，从 1 开始计数。 |
 | format | SaveFormat | 导出数据的格式。 |
 
 ### 异常
 
 | 异常 | 条件 |
 | --- | --- |
-| ArgumentNullException | 当流或幻灯片参数为 null 时。 |
-| ArgumentOutOfRangeException | 当幻灯片参数包含错误的页码时。 |
-| InvalidOperationException | 当使用不支持的 SaveFormat 时，例如 PPTX、PPTM、PPSX、PPSM、POTX、POTM、PPT、ODP。 |
+| ArgumentNullException | 当 stream 或 slides 参数为 null 时。 |
+| ArgumentOutOfRangeException | 当 slides 参数包含错误的页码时。 |
+| InvalidOperationException | 当使用不受支持的 SaveFormat 时，例如 PPTX、PPTM、PPSX、PPSM、POTX、POTM、PPT、ODP。 |
 
-### 另见
+### 参见
 
-* enum [SaveFormat](../../../aspose.slides.export/saveformat)
-* interface [IPresentation](../../ipresentation)
-* namespace [Aspose.Slides](../../ipresentation)
-* assembly [Aspose.Slides](../../../)
+* enum [SaveFormat](../../../aspose.slides.export/saveformat)
+* 接口 [IPresentation](../../ipresentation)
+* 命名空间 [Aspose.Slides](../../ipresentation)
+* 程序集 [Aspose.Slides](../../../)
 
 ---
 
-## Save(Stream, int[], SaveFormat, ISaveOptions) {#save_4}
+## Save(Stream, int[], SaveFormat, ISaveOptions) {#save_4}
 
-将指定的演示文稿幻灯片保存到指定格式的流中。
+将演示文稿的指定幻灯片保存到指定格式并附加选项的流中。
 
 ```csharp
 public void Save(Stream stream, int[] slides, SaveFormat format, ISaveOptions options)
@@ -211,31 +210,31 @@ public void Save(Stream stream, int[] slides, SaveFormat format, ISaveOptions op
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | stream | Stream | 输出流。 |
-| slides | Int32[] | 包含幻灯片位置的数组，从 1 开始。 |
+| slides | Int32[] | 幻灯片位置数组，从 1 开始计数。 |
 | format | SaveFormat | 导出数据的格式。 |
-| options | ISaveOptions | 额外格式选项。 |
+| options | ISaveOptions | 附加格式选项。 |
 
 ### 异常
 
 | 异常 | 条件 |
 | --- | --- |
-| ArgumentNullException | 当流或幻灯片参数为 null 时。 |
-| ArgumentOutOfRangeException | 当幻灯片参数包含错误的页码时。 |
-| InvalidOperationException | 当使用不支持的 SaveFormat 时，例如 PPTX、PPTM、PPSX、PPSM、POTX、POTM、PPT、ODP。 |
+| ArgumentNullException | 当 stream 或 slides 参数为 null 时。 |
+| ArgumentOutOfRangeException | 当 slides 参数包含错误的页码时。 |
+| InvalidOperationException | 当使用不受支持的 SaveFormat 时，例如 PPTX、PPTM、PPSX、PPSM、POTX、POTM、PPT、ODP。 |
 
-### 另见
+### 参见
 
-* enum [SaveFormat](../../../aspose.slides.export/saveformat)
-* interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
-* interface [IPresentation](../../ipresentation)
-* namespace [Aspose.Slides](../../ipresentation)
-* assembly [Aspose.Slides](../../../)
+* enum [SaveFormat](../../../aspose.slides.export/saveformat)
+* 接口 [ISaveOptions](../../../aspose.slides.export/isaveoptions)
+* 接口 [IPresentation](../../ipresentation)
+* 命名空间 [Aspose.Slides](../../ipresentation)
+* 程序集 [Aspose.Slides](../../../)
 
 ---
 
 ## Save(IXamlOptions) {#save}
 
-将演示文稿的所有幻灯片保存为表示 XAML 标记的一组文件。
+将演示文稿的所有幻灯片保存为一组表示 XAML 标记的文件。
 
 ```csharp
 public void Save(IXamlOptions options)
@@ -255,11 +254,11 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### 另见
+### 参见
 
-* interface [IXamlOptions](../../../aspose.slides.export.xaml/ixamloptions)
-* interface [IPresentation](../../ipresentation)
-* namespace [Aspose.Slides](../../ipresentation)
-* assembly [Aspose.Slides](../../../)
+* 接口 [IXamlOptions](../../../aspose.slides.export.xaml/ixamloptions)
+* 接口 [IPresentation](../../ipresentation)
+* 命名空间 [Aspose.Slides](../../ipresentation)
+* 程序集 [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

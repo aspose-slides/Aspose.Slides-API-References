@@ -1,14 +1,14 @@
 ---
 title: GifOptions
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Representa opciones de exportación de GIF.
+description: Representa las opciones de exportación GIF.
 type: docs
-weight: 3820
+weight: 3840
 url: /es/aspose.slides.export/gifoptions/
 ---
 ## GifOptions clase
 
-Representa opciones de exportación GIF.
+Representa las opciones de exportación GIF.
 
 ```csharp
 public class GifOptions : SaveOptions, IGifOptions
@@ -25,14 +25,14 @@ public class GifOptions : SaveOptions, IGifOptions
 | Nombre | Descripción |
 | --- | --- |
 | [DefaultDelay](../../aspose.slides.export/gifoptions/defaultdelay) { get; set; } | Obtiene o establece el tiempo de retardo predeterminado [ms]. Este valor se usará si [`AdvanceAfterTime`](../../aspose.slides/islideshowtransition/advanceaftertime) no está configurado. El valor predeterminado es 1000. |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Obtiene o establece la fuente utilizada en caso de que la fuente de origen no se encuentre. Lectura-escritura String. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Devuelve o establece la fuente utilizada en caso de que no se encuentre la fuente original. Lectura-escritura String. |
 | [ExportHiddenSlides](../../aspose.slides.export/gifoptions/exporthiddenslides) { get; set; } | Determina si las diapositivas ocultas se exportarán. El valor predeterminado es false. |
-| [FrameSize](../../aspose.slides.export/gifoptions/framesize) { get; set; } | Obtiene o establece el tamaño del marco. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Obtiene o establece el estilo visual del degradado. Lectura/escritura [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [FrameSize](../../aspose.slides.export/gifoptions/framesize) { get; set; } | Obtiene o establece el tamaño del fotograma. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Devuelve o establece el estilo visual del degradado. Lectura/escritura [`GradientStyle`](../../aspose.slides/gradientstyle). |
 | [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Representa un objeto de devolución de llamada para guardar actualizaciones de progreso en porcentaje. Ver [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Especifica si se omiten los hipervínculos con llamadas JavaScript al guardar la presentación. Lectura/escritura Boolean. El valor predeterminado es **false**. |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Especifica si se deben omitir los hipervínculos con llamadas JavaScript al guardar la presentación. Lectura/escritura Boolean. El valor predeterminado es **false**. |
 | [TransitionFps](../../aspose.slides.export/gifoptions/transitionfps) { get; set; } | Obtiene o establece los FPS de transición [frames/sec]. El valor predeterminado es 25. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Obtiene o establece un objeto que recibe advertencias y decide si el proceso de carga continuará o se abortará. Lectura/escritura [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Devuelve o establece un objeto que recibe advertencias y decide si el proceso de carga continuará o se abortará. Lectura/escritura [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Ejemplos
 
@@ -46,7 +46,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
     {
         FrameSize = new Size(960, 720), // el tamaño del GIF resultante
         DefaultDelay = 2000, // cuánto tiempo se mostrará cada diapositiva antes de cambiar a la siguiente
-        TransitionFps = 35 // aumenta los FPS para mejorar la calidad de la animación de transición
+        TransitionFps = 35 // incrementar FPS para mejorar la calidad de la animación de transición
     });
 }
 ```

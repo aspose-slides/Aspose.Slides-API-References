@@ -1,26 +1,26 @@
 ---
 title: IFontSubstRule
-second_title: Aspose.Sildes برای مرجع API .NET
-description: اطلاعات جایگزینی قلم را نشان می‌دهد
+second_title: Aspose.Sildes برای .NET مرجع API
+description: نمایش اطلاعات جایگزینی قلم
 type: docs
-weight: 5880
+weight: 5900
 url: /fa/aspose.slides/ifontsubstrule/
 ---
 ## IFontSubstRule رابط
 
-اطلاعات جایگزینی قلم را نشان می‌دهد
+نمایش اطلاعات جایگزینی قلم
 
 ```csharp
 public interface IFontSubstRule
 ```
 
-## ویژگی‌ها
+## خواص
 
 | نام | توضیح |
 | --- | --- |
-| [DestFont](../../aspose.slides/ifontsubstrule/destfont) { get; } | قلم مورد استفاده برای جایگزینی فقط خواندنی [`IFontData`](../ifontdata). |
-| [ReplaceFontCondition](../../aspose.slides/ifontsubstrule/replacefontcondition) { get; } | قانون برای اعمال جایگزینی فقط خواندنی [`FontSubstCondition`](../fontsubstcondition). |
-| [SourceFont](../../aspose.slides/ifontsubstrule/sourcefont) { get; } | قلم برای جایگزینی فقط خواندنی [`IFontData`](../ifontdata). |
+| [DestFont](../../aspose.slides/ifontsubstrule/destfont) { get; } | قلمی که برای جایگزینی استفاده می‌شود فقط-خواندنی [`IFontData`](../ifontdata). |
+| [ReplaceFontCondition](../../aspose.slides/ifontsubstrule/replacefontcondition) { get; } | قاعده‌ای که برای جایگزینی اعمال می‌شود فقط-خواندنی [`FontSubstCondition`](../fontsubstcondition). |
+| [SourceFont](../../aspose.slides/ifontsubstrule/sourcefont) { get; } | قلم برای جایگزینی فقط-خواندنی [`IFontData`](../ifontdata). |
 
 ### موارد مرتبط
 

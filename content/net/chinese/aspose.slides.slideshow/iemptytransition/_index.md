@@ -1,9 +1,9 @@
 ---
 title: IEmptyTransition
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 空幻灯片过渡效果。
 type: docs
-weight: 10080
+weight: 10100
 url: /zh/aspose.slides.slideshow/iemptytransition/
 ---
 ## IEmptyTransition 接口
@@ -18,7 +18,7 @@ public interface IEmptyTransition : ITransitionValueBase
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/iemptytransition/asitransitionvaluebase) { get; } | 允许获取基础 ITransitionValueBase 接口。只读 [`ITransitionValueBase`](../itransitionvaluebase)。 |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/iemptytransition/asitransitionvaluebase) { get; } | 允许获取基 ITransitionValueBase 接口。只读 [`ITransitionValueBase`](../itransitionvaluebase)。 |
 
 ### 另请参见
 

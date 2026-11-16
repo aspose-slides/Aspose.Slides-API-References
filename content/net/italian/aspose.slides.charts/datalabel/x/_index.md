@@ -1,14 +1,14 @@
 ---
 title: X
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Restituisce o imposta la coordinata x di un titolo come frazione della larghezza del grafico. Lettura/Scrittura Single.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Restituisce o imposta la coordinata x di un titolo come frazione della larghezza del grafico. Lettura/scrittura Single.
 type: docs
-weight: 160
+weight: 170
 url: /it/aspose.slides.charts/datalabel/x/
 ---
-## DataLabel.X proprietà
+## DataLabel.X property
 
-Restituisce o imposta la coordinata x di un titolo come frazione della larghezza del grafico. Lettura/Scrittura Single.
+Restituisce o imposta la coordinata x di un titolo come frazione della larghezza del grafico. Lettura/scrittura Single.
 
 ```csharp
 public float X { get; set; }

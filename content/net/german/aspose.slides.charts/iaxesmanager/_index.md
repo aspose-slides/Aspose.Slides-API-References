@@ -1,14 +1,14 @@
 ---
 title: IAxesManager
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Bietet Zugriff auf Diagrammachsen.
+description: Stellt Zugriff auf Diagrammachsen bereit.
 type: docs
-weight: 1700
+weight: 1710
 url: /de/aspose.slides.charts/iaxesmanager/
 ---
 ## IAxesManager Schnittstelle
 
-Bietet Zugriff auf Diagrammachsen.
+Stellt Zugriff auf Diagrammachsen bereit.
 
 ```csharp
 public interface IAxesManager
@@ -18,11 +18,11 @@ public interface IAxesManager
 
 | Name | Beschreibung |
 | --- | --- |
-| [HorizontalAxis](../../aspose.slides.charts/iaxesmanager/horizontalaxis) { get; } | Gibt die horizontale Achse des Diagramms zurück. Nur lesbar [`IAxis`](../iaxis). |
-| [SecondaryHorizontalAxis](../../aspose.slides.charts/iaxesmanager/secondaryhorizontalaxis) { get; } | Gibt die sekundäre horizontale Achse des Diagramms zurück. Nur lesbar [`IAxis`](../iaxis). |
-| [SecondaryVerticalAxis](../../aspose.slides.charts/iaxesmanager/secondaryverticalaxis) { get; } | Gibt die sekundäre vertikale Achse des Diagramms zurück. Nur lesbar [`IAxis`](../iaxis). |
-| [SeriesAxis](../../aspose.slides.charts/iaxesmanager/seriesaxis) { get; } | Gibt die Serienachse des Diagramms zurück. Nur lesbar [`IAxis`](../iaxis). |
-| [VerticalAxis](../../aspose.slides.charts/iaxesmanager/verticalaxis) { get; } | Gibt die vertikale Achse des Diagramms zurück. Nur lesbar [`IAxis`](../iaxis). |
+| [HorizontalAxis](../../aspose.slides.charts/iaxesmanager/horizontalaxis) { get; } | Ruft die horizontale Achse des Diagramms ab. Nur lesbar [`IAxis`](../iaxis). |
+| [SecondaryHorizontalAxis](../../aspose.slides.charts/iaxesmanager/secondaryhorizontalaxis) { get; } | Ruft die sekundäre horizontale Achse des Diagramms ab. Nur lesbar [`IAxis`](../iaxis). |
+| [SecondaryVerticalAxis](../../aspose.slides.charts/iaxesmanager/secondaryverticalaxis) { get; } | Ruft die sekundäre vertikale Achse des Diagramms ab. Nur lesbar [`IAxis`](../iaxis). |
+| [SeriesAxis](../../aspose.slides.charts/iaxesmanager/seriesaxis) { get; } | Ruft die Serienachse des Diagramms ab. Nur lesbar [`IAxis`](../iaxis). |
+| [VerticalAxis](../../aspose.slides.charts/iaxesmanager/verticalaxis) { get; } | Ruft die vertikale Achse des Diagramms ab. Nur lesbar [`IAxis`](../iaxis). |
 
 ### Siehe auch
 

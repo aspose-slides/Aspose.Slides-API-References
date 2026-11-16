@@ -1,14 +1,14 @@
 ---
 title: ISaveOptionsFactory
 second_title: Aspose.Sildes pro .NET API referenci
-description: Umožňuje vytvářet instance možností uložení
+description: Umožňuje vytvářet instance možností ukládání
 type: docs
-weight: 4080
+weight: 4100
 url: /cs/aspose.slides.export/isaveoptionsfactory/
 ---
 ## ISaveOptionsFactory rozhraní
 
-Umožňuje vytvářet instance možností uložení
+Umožňuje vytvářet instance možností ukládání
 
 ```csharp
 public interface ISaveOptionsFactory
@@ -18,7 +18,7 @@ public interface ISaveOptionsFactory
 
 | Název | Popis |
 | --- | --- |
-| [CreatePptxOptions](../../aspose.slides.export/isaveoptionsfactory/createpptxoptions)() | Vytváří možnosti uložení PPTX. |
+| [CreatePptxOptions](../../aspose.slides.export/isaveoptionsfactory/createpptxoptions)() | Vytváří možnosti ukládání PPTX. |
 
 ### Poznámky
 

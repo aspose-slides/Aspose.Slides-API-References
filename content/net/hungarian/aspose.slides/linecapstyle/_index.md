@@ -1,14 +1,14 @@
 ---
 title: LineCapStyle
-second_title: Aspose.Sildes .NET API referenciája
-description: A vonalvége stílusát reprezentálja.
+second_title: Aspose.Sildes a .NET API referenciához
+description: A vonal vége stílusát jelöli.
 type: docs
-weight: 7760
+weight: 7780
 url: /hu/aspose.slides/linecapstyle/
 ---
-## LineCapStyle felsorolás
+## LineCapStyle enumeráció
 
-A vonalvége stílusát reprezentálja.
+A vonal vége stílusát képviseli.
 
 ```csharp
 public enum LineCapStyle : sbyte

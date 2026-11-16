@@ -1,14 +1,14 @@
 ---
 title: FormatFactory
 second_title: Aspose.Sildes for .NET API リファレンス
-description: COM インターフェイスを使用してフォーマットを作成できます。
+description: COM インターフェイスを介してフォーマットを作成できます。
 type: docs
-weight: 4950
+weight: 4970
 url: /ja/aspose.slides/formatfactory/
 ---
 ## FormatFactory クラス
 
-COM インターフェイスを通じてフォーマットを作成できます。
+COM インターフェイスを介してフォーマットを作成できます。
 
 ```csharp
 public class FormatFactory : IFormatFactory
@@ -16,25 +16,25 @@ public class FormatFactory : IFormatFactory
 
 ## コンストラクター
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [FormatFactory](formatfactory)() | 既定のコンストラクターです。 |
+| [FormatFactory](formatfactory)() | デフォルトコンストラクターです。 |
 
 ## プロパティ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| static [Instance](../../aspose.slides/formatfactory/instance) { get; } | フォーマットファクトリの静的インスタンスです。読み取り専用 [`FormatFactory`](../formatfactory)。 |
+| static [Instance](../../aspose.slides/formatfactory/instance) { get; } | フォーマットファクトリの静的インスタンス。読み取り専用 [`FormatFactory`](../formatfactory)。 |
 
 ## メソッド
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
 | [CreateParagraphFormat](../../aspose.slides/formatfactory/createparagraphformat)() | 新しい [`IParagraphFormat`](../iparagraphformat) を作成します。 |
 | [CreatePortionFormat](../../aspose.slides/formatfactory/createportionformat)() | 新しい [`IPortionFormat`](../iportionformat) を作成します。 |
 | [CreateTextFrameFormat](../../aspose.slides/formatfactory/createtextframeformat)() | 新しい [`ITextFrameFormat`](../itextframeformat) を作成します。 |
 
-### 参照
+### 関連項目
 
 * インターフェイス [IFormatFactory](../iformatfactory)
 * 名前空間 [Aspose.Slides](../../aspose.slides)

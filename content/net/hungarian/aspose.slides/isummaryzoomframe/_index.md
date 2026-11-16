@@ -1,14 +1,14 @@
 ---
 title: ISummaryZoomFrame
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Egy Summary Zoom keretet ábrázol egy dián.
+second_title: Aspose.Sildes .NET API Referencia
+description: Egy dián egy Summary Zoom keretet képvisel.
 type: docs
-weight: 7150
+weight: 7170
 url: /hu/aspose.slides/isummaryzoomframe/
 ---
 ## ISummaryZoomFrame interfész
 
-Egy Summary Zoom keretet ábrázol egy dián.
+Egy dián egy Summary Zoom keretet képvisel.
 
 ```csharp
 public interface ISummaryZoomFrame : IGraphicalObject
@@ -19,8 +19,8 @@ public interface ISummaryZoomFrame : IGraphicalObject
 | Név | Leírás |
 | --- | --- |
 | [AsIGraphicalObject](../../aspose.slides/isummaryzoomframe/asigraphicalobject) { get; } | Visszaadja az IGraphicalObject interfészt. |
-| [Layout](../../aspose.slides/isummaryzoomframe/layout) { get; } | Lekéri a keretben lévő Summary Zoom Sections elrendezését. Az alapértelmezett érték a GridLayout. |
-| [SummaryZoomCollection](../../aspose.slides/isummaryzoomframe/summaryzoomcollection) { get; } | Lekéri [`ISummaryZoomSectionCollection`](../isummaryzoomsectioncollection) a Summary Zoom Frame objektumhoz. |
+| [Layout](../../aspose.slides/isummaryzoomframe/layout) { get; } | Lekéri a Summary Zoom Sections elrendezését a keretben. Alapértelmezett érték a GridLayout. |
+| [SummaryZoomCollection](../../aspose.slides/isummaryzoomframe/summaryzoomcollection) { get; } | Lekéri a [`ISummaryZoomSectionCollection`](../isummaryzoomsectioncollection) a Summary Zoom Frame objektum számára. |
 
 ### Lásd még
 

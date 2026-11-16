@@ -1,14 +1,14 @@
 ---
 title: ILegendEntryCollection
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een legendencollectie voor.
+description: Vertegenwoordigt een verzameling legends.
 type: docs
-weight: 2140
+weight: 2160
 url: /nl/aspose.slides.charts/ilegendentrycollection/
 ---
 ## ILegendEntryCollection interface
 
-Stelt een collectie legenden voor.
+Vertegenwoordigt een verzameling legends.
 
 ```csharp
 public interface ILegendEntryCollection
@@ -19,7 +19,7 @@ public interface ILegendEntryCollection
 | Naam | Beschrijving |
 | --- | --- |
 | [Count](../../aspose.slides.charts/ilegendentrycollection/count) { get; } | Haalt het aantal elementen op dat daadwerkelijk in de collectie zit. Alleen-lezen Int32. |
-| [Item](../../aspose.slides.charts/ilegendentrycollection/item) { get; } | Haalt de eigenschappen op van het legendelement dat overeenkomt met Chart.ChartData.Series[0].DataPoints[index] in het geval van een grafiektype uit deze lijst: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie; of dat overeenkomt met Chart.ChartData.Series[index] voor andere grafiektypen. |
+| [Item](../../aspose.slides.charts/ilegendentrycollection/item) { get; } | Haalt de eigenschappen op van de legend entry die overeenkomt met Chart.ChartData.Series[0].DataPoints[index] in het geval van een grafiektype uit deze lijst: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie; of overeenkomt met Chart.ChartData.Series[index] voor andere grafiektype. |
 
 ### Zie ook
 

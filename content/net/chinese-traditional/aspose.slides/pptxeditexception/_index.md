@@ -1,14 +1,14 @@
 ---
 title: PptxEditException
 second_title: Aspose.Sildes for .NET API 參考
-description: 表示在偵測到編輯簡報錯誤時拋出的例外。
+description: 表示當偵測到編輯簡報錯誤時拋出的例外。
 type: docs
-weight: 9550
+weight: 9570
 url: /zh-hant/aspose.slides/pptxeditexception/
 ---
 ## PptxEditException 類別
 
-表示在偵測到編輯簡報錯誤時拋出的例外。
+表示當偵測到編輯簡報錯誤時拋出的例外。
 
 ```csharp
 public class PptxEditException : PptxException
@@ -18,11 +18,11 @@ public class PptxEditException : PptxException
 
 | 名稱 | 說明 |
 | --- | --- |
-| [PptxEditException](pptxeditexception#constructor)() | 預設建構式。 |
-| [PptxEditException](pptxeditexception#constructor_1)(string) | 允許為此例外加入訊息的建構式。 |
-| [PptxEditException](pptxeditexception#constructor_2)(string, Exception) | 包含訊息與內嵌例外的建構式。 |
+| [PptxEditException](pptxeditexception#constructor)() | 預設建構函式。 |
+| [PptxEditException](pptxeditexception#constructor_1)(string) | 允許向此例外新增訊息的建構函式。 |
+| [PptxEditException](pptxeditexception#constructor_2)(string, Exception) | 包含訊息與內嵌例外的建構函式。 |
 
-### 參見
+### 另請參考
 
 * 類別 [PptxException](../pptxexception)
 * 命名空間 [Aspose.Slides](../../aspose.slides)

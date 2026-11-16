@@ -1,14 +1,14 @@
 ---
 title: IMathSubscriptElement
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: एक बेस और नीचे व दाईं ओर स्थित घटे आकार के सबस्क्रिप्ट से बना सबस्क्रिप्ट ऑब्जेक्ट निर्दिष्ट करता है।
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: नीचे और दाईं ओर रखे गए बेस और छोटे आकार के सबस्क्रिप्ट से बनाया गया सबस्क्रिप्ट ऑब्जेक्ट को निर्दिष्ट करता है।
 type: docs
-weight: 8470
+weight: 8490
 url: /hi/aspose.slides.mathtext/imathsubscriptelement/
 ---
 ## IMathSubscriptElement इंटरफ़ेस
 
-सबस्क्रिप्ट ऑब्जेक्ट को निर्दिष्ट करता है, जो एक बेस और एक घटे आकार का सबस्क्रिप्ट नीचे और दाएँ स्थित होता है।
+बेस और छोटा आकार का सबस्क्रिप्ट जो नीचे और दाईं ओर रखा जाता है, से मिलकर बनाने वाले सबस्क्रिप्ट ऑब्जेक्ट को निर्दिष्ट करता है।
 
 ```csharp
 public interface IMathSubscriptElement : IMathElement
@@ -18,7 +18,7 @@ public interface IMathSubscriptElement : IMathElement
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathsubscriptelement/asimathelement) { get; } | बेस IMathElement इंटरफ़ेस [`IMathElement`](../imathelement) प्राप्त करने की अनुमति देता है |
+| [AsIMathElement](../../aspose.slides.mathtext/imathsubscriptelement/asimathelement) { get; } | बेस IMathElement इंटरफ़ेस प्राप्त करने की अनुमति देता है [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathsubscriptelement/base) { get; } | बेस तर्क |
 | [Subscript](../../aspose.slides.mathtext/imathsubscriptelement/subscript) { get; } | सबस्क्रिप्ट |
 

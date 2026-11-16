@@ -1,14 +1,14 @@
 ---
 title: IPPImage
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili sebuah gambar dalam presentasi.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Mewakili gambar dalam sebuah presentasi.
 type: docs
-weight: 6550
+weight: 6570
 url: /id/aspose.slides/ippimage/
 ---
 ## IPPImage antarmuka
 
-Mewakili sebuah gambar dalam presentasi.
+Mewakili gambar dalam sebuah presentasi.
 
 ```csharp
 public interface IPPImage
@@ -18,14 +18,14 @@ public interface IPPImage
 
 | Nama | Deskripsi |
 | --- | --- |
-| [BinaryData](../../aspose.slides/ippimage/binarydata) { get; } | Mengembalikan salinan data gambar. Hanya baca Byte[]. |
-| [ContentType](../../aspose.slides/ippimage/contenttype) { get; } | Mengembalikan tipe MIME gambar, yang dienkode dalam [`BinaryData`](./binarydata). Hanya baca String. |
-| [Height](../../aspose.slides/ippimage/height) { get; } | Mengembalikan tinggi gambar. Hanya baca Int32. |
-| [Image](../../aspose.slides/ippimage/image) { get; } | Mengembalikan salinan gambar. Hanya baca [`Image`](./image). |
+| [BinaryData](../../aspose.slides/ippimage/binarydata) { get; } | Mengembalikan salinan data gambar. Hanya-baca Byte[]. |
+| [ContentType](../../aspose.slides/ippimage/contenttype) { get; } | Mengembalikan tipe MIME gambar, yang dienkode dalam [`BinaryData`](./binarydata). Hanya-baca String. |
+| [Height](../../aspose.slides/ippimage/height) { get; } | Mengembalikan tinggi gambar. Hanya-baca Int32. |
+| [Image](../../aspose.slides/ippimage/image) { get; } | Mengembalikan salinan gambar. Hanya-baca [`Image`](./image). |
 | [SvgImage](../../aspose.slides/ippimage/svgimage) { get; set; } | Mengembalikan atau mengatur objek ISvgImage [`ISvgImage`](../isvgimage) |
-| [Width](../../aspose.slides/ippimage/width) { get; } | Mengembalikan lebar gambar. Hanya baca Int32. |
-| [X](../../aspose.slides/ippimage/x) { get; } | Mengembalikan offset X gambar. Hanya baca Int32. |
-| [Y](../../aspose.slides/ippimage/y) { get; } | Mengembalikan offset Y gambar. Hanya baca Int32. |
+| [Width](../../aspose.slides/ippimage/width) { get; } | Mengembalikan lebar gambar. Hanya-baca Int32. |
+| [X](../../aspose.slides/ippimage/x) { get; } | Mengembalikan offset X gambar. Hanya-baca Int32. |
+| [Y](../../aspose.slides/ippimage/y) { get; } | Mengembalikan offset Y gambar. Hanya-baca Int32. |
 
 ## Metode
 

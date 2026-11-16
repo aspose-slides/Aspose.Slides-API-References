@@ -1,14 +1,14 @@
 ---
 title: IHyperlinkContainer
-second_title: Référence de l'API Aspose.Sildes for .NET
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Représente un objet hyperlien.
 type: docs
-weight: 6120
+weight: 6140
 url: /fr/aspose.slides/ihyperlinkcontainer/
 ---
 ## IHyperlinkContainer interface
 
-Représente un objet hyperlien.
+Représente l'objet hyperlien.
 
 ```csharp
 public interface IHyperlinkContainer
@@ -18,8 +18,8 @@ public interface IHyperlinkContainer
 
 | Nom | Description |
 | --- | --- |
-| [HyperlinkClick](../../aspose.slides/ihyperlinkcontainer/hyperlinkclick) { get; set; } | Renvoie ou définit le hyperlien défini pour le clic de souris. Lecture/écriture [`IHyperlink`](../ihyperlink). |
-| [HyperlinkManager](../../aspose.slides/ihyperlinkcontainer/hyperlinkmanager) { get; } | Gestionnaire de hyperliens Lecture seule [`IHyperlinkManager`](../ihyperlinkmanager). |
+| [HyperlinkClick](../../aspose.slides/ihyperlinkcontainer/hyperlinkclick) { get; set; } | Renvoie ou définit le hyperlien défini pour le clic de la souris. Lecture/écriture [`IHyperlink`](../ihyperlink). |
+| [HyperlinkManager](../../aspose.slides/ihyperlinkcontainer/hyperlinkmanager) { get; } | Gestionnaire de liens hypertexte Lecture seule [`IHyperlinkManager`](../ihyperlinkmanager). |
 | [HyperlinkMouseOver](../../aspose.slides/ihyperlinkcontainer/hyperlinkmouseover) { get; set; } | Renvoie ou définit le hyperlien défini pour le survol de la souris. Lecture/écriture [`IHyperlink`](../ihyperlink). |
 
 ### Voir aussi

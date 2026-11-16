@@ -1,14 +1,14 @@
 ---
 title: Metered
-second_title: Aspose.Sildes 的 .NET API 參考
-description: 提供設定計費金鑰的方法。
+second_title: Aspose.Sildes for .NET API 參考
+description: 提供設定計量金鑰的方法。
 type: docs
-weight: 9080
+weight: 9100
 url: /zh-hant/aspose.slides/metered/
 ---
-## 計費類別
+## Metered 類別
 
-提供設定計費金鑰的方法。
+Provides methods to set metered key.
 
 ```csharp
 public class Metered
@@ -18,21 +18,21 @@ public class Metered
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Metered](metered)() | 初始化此類別的新執行個體。 |
+| [Metered](metered)() | Initializes a new instance of this class. |
 
 ## 方法
 
 | 名稱 | 說明 |
 | --- | --- |
 | [GetProductName](../../aspose.slides/metered/getproductname)() |  |
-| [SetMeteredKey](../../aspose.slides/metered/setmeteredkey)(string, string) | 設定計費的公開與私密金鑰。如果您購買計費授權，在應用程式啟動時應呼叫此 API，通常這已足夠。然而，如果一直無法上傳使用量資料且超過 24 小時，授權將會被設定為評估狀態，為避免此情況，您應定期檢查授權狀態，若為評估狀態，請再度呼叫此 API。 |
-| static [GetConsumptionCredit](../../aspose.slides/metered/getconsumptioncredit)() | 取得使用量信用額度 |
-| static [GetConsumptionQuantity](../../aspose.slides/metered/getconsumptionquantity)() | 取得使用量檔案大小 |
-| static [IsMeteredLicensed](../../aspose.slides/metered/ismeteredlicensed)() | 檢查計費是否已取得授權 |
+| [SetMeteredKey](../../aspose.slides/metered/setmeteredkey)(string, string) | 設定計量的公鑰與私鑰。如果您購買了計量授權，當應用程式啟動時應呼叫此 API，通常這樣就足夠。但如果始終無法上傳使用資料且超過 24 小時，授權會被設定為評估狀態。為避免此情況，您應定期檢查授權狀態，若為評估狀態，請再次呼叫此 API。 |
+| static [GetConsumptionCredit](../../aspose.slides/metered/getconsumptioncredit)() | 取得消耗額度 |
+| static [GetConsumptionQuantity](../../aspose.slides/metered/getconsumptionquantity)() | 取得消耗檔案大小 |
+| static [IsMeteredLicensed](../../aspose.slides/metered/ismeteredlicensed)() | 檢查計量是否已授權 |
 
 ### 範例
 
-在此範例中，將嘗試設定計費的公開與私密金鑰
+在此範例中，將嘗試設定計量的公鑰與私鑰
 
 ```csharp
 [C#]

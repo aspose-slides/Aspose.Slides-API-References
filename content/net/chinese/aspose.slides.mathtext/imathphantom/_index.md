@@ -1,14 +1,14 @@
 ---
 title: IMathPhantom
 second_title: Aspose.Sildes for .NET API 参考
-description: 表示一个幻影数学对象 ltmphantgt ，它影响其子元素的布局，但不一定显示它。幻影可以在保留宽度、高度或深度以对齐公式或保留空间的同时隐藏其基表达式。可见性和几何行为由诸如 Show、ZeroWid、ZeroAsc、ZeroDesc 和 Transp 等属性控制。
+description: 表示一个幻影数学对象 ltmphantgt，它会影响子元素的布局，但不一定显示它。幻影可以隐藏其基础表达式，同时保留宽度、高度或深度，以对齐公式或保留空间。可见性和几何行为由属性如 Show、ZeroWid、ZeroAsc、ZeroDesc 和 Transp 控制。
 type: docs
-weight: 8410
+weight: 8430
 url: /zh/aspose.slides.mathtext/imathphantom/
 ---
 ## IMathPhantom 接口
 
-表示一个幻影数学对象 (<m:phant>)，它影响其子元素的布局，但不一定显示它。幻影可以在保留宽度、高度或深度以对齐公式或保留空间的同时隐藏其基表达式。可见性和几何行为由诸如 Show、ZeroWid、ZeroAsc、ZeroDesc 和 Transp 等属性控制。
+表示一个幻影数学对象（<m:phant>），它会影响其子元素的布局，但不一定显示该元素。幻影可以隐藏其基表达式，同时保留宽度、高度或深度，以对齐公式或保留空间。可见性和几何行为由属性如 Show、ZeroWid、ZeroAsc、ZeroDesc 和 Transp 控制。
 
 ```csharp
 public interface IMathPhantom : IMathElement
@@ -36,7 +36,7 @@ phantom.Show = false;          // 隐藏内容
 phantom.ZeroWidth = false;     // 保持宽度
 ```
 
-### 另见
+### 另请参见
 
 * 接口 [IMathElement](../imathelement)
 * 命名空间 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

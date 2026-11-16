@@ -1,14 +1,14 @@
 ---
 title: RemoveEmbeddedFont
 second_title: Aspose.Sildes pro .NET API Reference
-description: Odstraňuje vložené písmo
+description: Odstraní vložené písmo
 type: docs
-weight: 90
+weight: 100
 url: /cs/aspose.slides/fontsmanager/removeembeddedfont/
 ---
 ## FontsManager.RemoveEmbeddedFont metoda
 
-Odstraňuje vložené písmo
+Odstraní vložené písmo
 
 ```csharp
 public void RemoveEmbeddedFont(IFontData fontData)

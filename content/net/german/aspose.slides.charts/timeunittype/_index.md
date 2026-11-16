@@ -1,9 +1,9 @@
 ---
 title: TimeUnitType
-second_title: Aspose.Sildes für .NET API Referenz
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt die Basiseinheit für die Kategorienachse dar
 type: docs
-weight: 2460
+weight: 2480
 url: /de/aspose.slides.charts/timeunittype/
 ---
 ## TimeUnitType Aufzählung

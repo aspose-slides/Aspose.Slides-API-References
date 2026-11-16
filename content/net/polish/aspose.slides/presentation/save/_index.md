@@ -1,9 +1,9 @@
 ---
 title: Save
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla .NET – odniesienie API
 description: Zapisuje wszystkie slajdy prezentacji do pliku w określonym formacie.
 type: docs
-weight: 390
+weight: 400
 url: /pl/aspose.slides/presentation/save/
 ---
 ## Save(string, SaveFormat) {#save_5}
@@ -82,9 +82,9 @@ public void Save(Stream stream, SaveFormat format, ISaveOptions options)
 
 ### Wyjątki
 
-| Wyjątek | Warunek |
+| wyjątek | warunek |
 | --- | --- |
-| NotSupportedException | Jeśli spróbujesz zapisać zaszyfrowany plik w formacie innym niż Office 2007-2010 |
+| NotSupportedException | Jeśli próbujesz zapisać zaszyfrowany plik w formacie innym niż Office 2007-2010 |
 
 ### Zobacz także
 
@@ -129,7 +129,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 ## Save(string, int[], SaveFormat) {#save_7}
 
-Zapisuje określone slajdy prezentacji do pliku w określonym formacie, zachowując numerację stron.
+Zapisuje wybrane slajdy prezentacji do pliku w określonym formacie z zachowaniem numeracji stron.
 
 ```csharp
 public void Save(string fname, int[] slides, SaveFormat format)
@@ -138,15 +138,15 @@ public void Save(string fname, int[] slides, SaveFormat format)
 | Parametr | Typ | Opis |
 | --- | --- | --- |
 | fname | String | Ścieżka do tworzonego pliku. |
-| slides | Int32[] | Tablica pozycji slajdów, zaczynając od 1. |
+| slides | Int32[] | Tablica z pozycjami slajdów, zaczynając od 1. |
 | format | SaveFormat | Format eksportowanych danych. |
 
 ### Wyjątki
 
-| Wyjątek | Warunek |
+| wyjątek | warunek |
 | --- | --- |
-| ArgumentNullException | Gdy parametr stream lub slides jest równy null. |
-| ArgumentOutOfRangeException | Gdy parametr slides zawiera nieprawidłowe numery slajdów. |
+| ArgumentNullException | Gdy parametr stream lub slides jest nullem. |
+| ArgumentOutOfRangeException | Gdy parametr slides zawiera błędne numery stron. |
 | InvalidOperationException | Gdy użyto nieobsługiwanego SaveFormat, np. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
 ### Zobacz także
@@ -160,7 +160,7 @@ public void Save(string fname, int[] slides, SaveFormat format)
 
 ## Save(string, int[], SaveFormat, ISaveOptions) {#save_8}
 
-Zapisuje określone slajdy prezentacji do pliku w określonym formacie, zachowując numerację stron.
+Zapisuje wybrane slajdy prezentacji do pliku w określonym formacie z zachowaniem numeracji stron.
 
 ```csharp
 public void Save(string fname, int[] slides, SaveFormat format, ISaveOptions options)
@@ -169,7 +169,7 @@ public void Save(string fname, int[] slides, SaveFormat format, ISaveOptions opt
 | Parametr | Typ | Opis |
 | --- | --- | --- |
 | fname | String | Ścieżka do tworzonego pliku. |
-| slides | Int32[] | Tablica pozycji slajdów, zaczynając od 1. |
+| slides | Int32[] | Tablica z pozycjami slajdów, zaczynając od 1. |
 | format | SaveFormat | Format eksportowanych danych. |
 | options | ISaveOptions | Dodatkowe opcje formatu. |
 
@@ -185,7 +185,7 @@ public void Save(string fname, int[] slides, SaveFormat format, ISaveOptions opt
 
 ## Save(Stream, int[], SaveFormat) {#save_3}
 
-Zapisuje określone slajdy prezentacji do strumienia w określonym formacie, zachowując numerację stron.
+Zapisuje wybrane slajdy prezentacji do strumienia w określonym formacie z zachowaniem numeracji stron.
 
 ```csharp
 public void Save(Stream stream, int[] slides, SaveFormat format)
@@ -194,7 +194,7 @@ public void Save(Stream stream, int[] slides, SaveFormat format)
 | Parametr | Typ | Opis |
 | --- | --- | --- |
 | stream | Stream | Strumień wyjściowy. |
-| slides | Int32[] | Tablica pozycji slajdów, zaczynając od 1. |
+| slides | Int32[] | Tablica z pozycjami slajdów, zaczynając od 1. |
 | format | SaveFormat | Format eksportowanych danych. |
 
 ### Zobacz także
@@ -208,7 +208,7 @@ public void Save(Stream stream, int[] slides, SaveFormat format)
 
 ## Save(Stream, int[], SaveFormat, ISaveOptions) {#save_4}
 
-Zapisuje określone slajdy prezentacji do strumienia w określonym formacie, zachowując numerację stron.
+Zapisuje wybrane slajdy prezentacji do strumienia w określonym formacie z zachowaniem numeracji stron.
 
 ```csharp
 public void Save(Stream stream, int[] slides, SaveFormat format, ISaveOptions options)
@@ -217,16 +217,16 @@ public void Save(Stream stream, int[] slides, SaveFormat format, ISaveOptions op
 | Parametr | Typ | Opis |
 | --- | --- | --- |
 | stream | Stream | Strumień wyjściowy. |
-| slides | Int32[] | Tablica pozycji slajdów, zaczynając od 1. |
+| slides | Int32[] | Tablica z pozycjami slajdów, zaczynając od 1. |
 | format | SaveFormat | Format eksportowanych danych. |
 | options | ISaveOptions | Dodatkowe opcje formatu. |
 
 ### Wyjątki
 
-| Wyjątek | Warunek |
+| wyjątek | warunek |
 | --- | --- |
-| ArgumentNullException | Gdy parametr stream lub slides jest równy null. |
-| ArgumentOutOfRangeException | Gdy parametr slides zawiera nieprawidłowe numery slajdów. |
+| ArgumentNullException | Gdy parametr stream lub slides jest nullem. |
+| ArgumentOutOfRangeException | Gdy parametr slides zawiera błędne numery stron. |
 | InvalidOperationException | Gdy użyto nieobsługiwanego SaveFormat, np. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
 ### Przykłady
@@ -245,7 +245,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-Poniższy przykład pokazuje, jak przekonwertować PowerPoint na PNG z niestandardowymi wymiarami.
+Poniższy przykład pokazuje, jak przekonwertować PowerPoint na PNG przy użyciu własnych wymiarów.
 
 ```csharp
 [C#]

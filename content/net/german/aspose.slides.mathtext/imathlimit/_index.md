@@ -1,9 +1,9 @@
 ---
 title: IMathLimit
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Gibt das Limit-Objekt an, das aus Text auf der Grundlinie und verkleinertem Text unmittelbar darüber oder darunter besteht.
+description: Gibt das Limit-Objekt an, das aus Text auf der Grundlinie und unmittelbar darüber oder darunter befindlichem verkleinertem Text besteht.
 type: docs
-weight: 8320
+weight: 8340
 url: /de/aspose.slides.mathtext/imathlimit/
 ---
 ## IMathLimit Schnittstelle
@@ -20,8 +20,8 @@ public interface IMathLimit : IMathElement
 | --- | --- |
 | [AsIMathElement](../../aspose.slides.mathtext/imathlimit/asimathelement) { get; } | Ermöglicht das Abrufen der Basis-IMathElement-Schnittstelle [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathlimit/base) { get; } | Basisargument |
-| [Limit](../../aspose.slides.mathtext/imathlimit/limit) { get; } | Limit-Argument |
-| [UpperLimit](../../aspose.slides.mathtext/imathlimit/upperlimit) { get; set; } | Gibt obere oder untere Grenze an |
+| [Limit](../../aspose.slides.mathtext/imathlimit/limit) { get; } | Limitargument |
+| [UpperLimit](../../aspose.slides.mathtext/imathlimit/upperlimit) { get; set; } | Gibt die obere oder untere Grenze an |
 
 ### Beispiele
 

@@ -1,14 +1,14 @@
 ---
 title: IOptionalBlackTransition
-second_title: Aspose.Sildes の .NET 用 API リファレンス
-description: オプションの黒スライド遷移効果。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: オプションの黒いスライド遷移効果。
 type: docs
-weight: 10140
+weight: 10160
 url: /ja/aspose.slides.slideshow/ioptionalblacktransition/
 ---
 ## IOptionalBlackTransition インターフェイス
 
-オプションの黒スライド遷移効果。
+オプションの黒いスライド遷移効果。
 
 ```csharp
 public interface IOptionalBlackTransition : ITransitionValueBase
@@ -19,7 +19,7 @@ public interface IOptionalBlackTransition : ITransitionValueBase
 | 名前 | 説明 |
 | --- | --- |
 | [AsITransitionValueBase](../../aspose.slides.slideshow/ioptionalblacktransition/asitransitionvaluebase) { get; } | ベース ITransitionValueBase インターフェイスを取得できます。読み取り専用 [`ITransitionValueBase`](../itransitionvaluebase)。 |
-| [FromBlack](../../aspose.slides.slideshow/ioptionalblacktransition/fromblack) { get; set; } | この属性は、遷移が黒い画面から開始され（その後、新しいスライドが黒の上で遷移します）かどうかを指定します。読み書き可能な Boolean。 |
+| [FromBlack](../../aspose.slides.slideshow/ioptionalblacktransition/fromblack) { get; set; } | この属性は、トランジションが黒い画面から開始するかどうかを指定します（その後、新しいスライドが黒の上で切り替わります）。読み取り/書き込み Boolean。 |
 
 ### 関連項目
 

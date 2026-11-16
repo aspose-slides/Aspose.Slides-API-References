@@ -1,14 +1,14 @@
 ---
 title: HyperlinkActionType
-second_title: Aspose.Sildes για .NET Αναφορά API
-description: Αντιπροσωπεύει έναν τύπο δράσης υπερσύνδεσης.
+second_title: Αναφορά API Aspose.Slides για .NET
+description: Αναπαριστά έναν τύπο ενέργειας υπερσύνδεσμου.
 type: docs
-weight: 5130
+weight: 5150
 url: /el/aspose.slides/hyperlinkactiontype/
 ---
-## HyperlinkActionType απαρίθμηση
+## Απαρίθμηση HyperlinkActionType
 
-Αντιπροσωπεύει έναν τύπο δράσης υπερσύνδεσης.
+Αναπαριστά έναν τύπο ενέργειας υπερσυνδέσμου.
 
 ```csharp
 public enum HyperlinkActionType
@@ -18,20 +18,20 @@ public enum HyperlinkActionType
 
 | Όνομα | Τιμή | Περιγραφή |
 | --- | --- | --- |
-| Unknown | `-1` | Μη αναγνωρισμένος τύπος δράσης. |
-| NoAction | `0` | Καμία δράση. |
-| Hyperlink | `1` | Συνηθισμένη υπερσύνδεση. |
+| Unknown | `-1` | Μη αναγνωρισμένος τύπος ενέργειας. |
+| NoAction | `0` | Καμία ενέργεια. |
+| Hyperlink | `1` | Κανονικός υπερσύνδεσμος. |
 | JumpFirstSlide | `2` | Μετάβαση στην πρώτη διαφάνεια της παρουσίασης. |
 | JumpPreviousSlide | `3` | Μετάβαση στην προηγούμενη διαφάνεια. |
 | JumpNextSlide | `4` | Μετάβαση στην επόμενη διαφάνεια. |
 | JumpLastSlide | `5` | Μετάβαση στην τελευταία διαφάνεια της παρουσίασης. |
 | JumpEndShow | `6` | Μετάβαση στο τέλος της παρουσίασης διαφανειών. |
-| JumpLastViewedSlide | `7` | Μετάβαση στην τελευταία προβλεπόμενη διαφάνεια. |
+| JumpLastViewedSlide | `7` | Μετάβαση στην τελευταία προβληθείσα διαφάνεια. |
 | JumpSpecificSlide | `8` | Μετάβαση στην συγκεκριμένη διαφάνεια, που αναφέρεται από την ιδιότητα [`TargetSlide`](../ihyperlink/targetslide). |
 | StartCustomSlideShow | `9` | Έναρξη προσαρμοσμένης παρουσίασης διαφανειών. |
 | OpenFile | `10` | Άνοιγμα του αναφερόμενου αρχείου. |
 | OpenPresentation | `11` | Άνοιγμα της αναφερόμενης παρουσίασης. |
-| StartStopMedia | `12` | Έναρξη/διακοπή αναπαραγωγής αρχείου πολυμέσων. |
+| StartStopMedia | `12` | Έναρξη/διακοπή αναπαραγωγής αρχείου μέσου. |
 | StartMacro | `13` | Έναρξη εκτέλεσης σεναρίου μακροεντολής. |
 | StartProgram | `14` | Έναρξη προγράμματος. |
 

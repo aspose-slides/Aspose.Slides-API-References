@@ -3,7 +3,7 @@ title: TabCollection
 second_title: Référence API Aspose.Sildes pour .NET
 description: Représente une collection d'onglets.
 type: docs
-weight: 10840
+weight: 10860
 url: /fr/aspose.slides/tabcollection/
 ---
 ## TabCollection classe
@@ -14,7 +14,7 @@ Représente une collection d'onglets.
 public sealed class TabCollection : ITabCollection
 ```
 
-## Propriétés
+## Properties
 
 | Nom | Description |
 | --- | --- |
@@ -23,7 +23,7 @@ public sealed class TabCollection : ITabCollection
 | [Item](../../aspose.slides/tabcollection/item) { get; } | Obtient l'élément à l'index spécifié. Lecture seule [`Tab`](../tab). |
 | [SyncRoot](../../aspose.slides/tabcollection/syncroot) { get; } | Renvoie une racine de synchronisation. Lecture seule Object. |
 
-## Méthodes
+## Methods
 
 | Nom | Description |
 | --- | --- |
@@ -33,7 +33,7 @@ public sealed class TabCollection : ITabCollection
 | [CopyTo](../../aspose.slides/tabcollection/copyto)(Array, int) | Copie tous les éléments de la collection dans le tableau spécifié. |
 | override [Equals](../../aspose.slides/tabcollection/equals)(object) | Détermine si deux instances de TabsEx sont égales. |
 | [GetEnumerator](../../aspose.slides/tabcollection/getenumerator)() | Renvoie un énumérateur qui parcourt la collection. |
-| override [GetHashCode](../../aspose.slides/tabcollection/gethashcode)() | Renvoie le code de hachage de cet objet. |
+| override [GetHashCode](../../aspose.slides/tabcollection/gethashcode)() | Renvoie le code de hachage pour cet objet. |
 | [RemoveAt](../../aspose.slides/tabcollection/removeat)(int) | Supprime l'élément à l'index spécifié de la collection. |
 
 ### Voir aussi

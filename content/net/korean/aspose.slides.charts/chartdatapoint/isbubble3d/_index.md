@@ -1,14 +1,14 @@
 ---
 title: IsBubble3D
-second_title: Aspose.Sildes for .NET API 참조
-description: 버블에 3-D 효과가 적용되도록 지정합니다. 읽기/쓰기 부울.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 버블에 3-D 효과가 적용된다고 지정합니다. 읽기/쓰기 Boolean.
 type: docs
-weight: 130
+weight: 170
 url: /ko/aspose.slides.charts/chartdatapoint/isbubble3d/
 ---
 ## ChartDataPoint.IsBubble3D 속성
 
-버블에 3-D 효과가 적용되도록 지정합니다. 읽기/쓰기 부울.
+버블에 3-D 효과가 적용된다고 지정합니다. 읽기/쓰기 Boolean.
 
 ```csharp
 public bool IsBubble3D { get; set; }

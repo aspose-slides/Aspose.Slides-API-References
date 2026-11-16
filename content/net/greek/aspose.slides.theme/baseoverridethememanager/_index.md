@@ -1,14 +1,14 @@
 ---
 title: BaseOverrideThemeManager
 second_title: Aspose.Sildes για .NET API Αναφορά
-description: Βασική κλάση για κλάσεις που παρέχουν πρόσβαση σε διαφορετικούς τύπους παρακαμφθέντων θεμάτων.
+description: Βασική κλάση για κλάσεις που παρέχουν πρόσβαση σε διαφορετικούς τύπους παραμερισμένων θεμάτων.
 type: docs
-weight: 11040
+weight: 11060
 url: /el/aspose.slides.theme/baseoverridethememanager/
 ---
 ## BaseOverrideThemeManager κλάση
 
-Βασική κλάση για κλάσεις που παρέχουν πρόσβαση σε διαφορετικούς τύπους παρακαμφθέντων θεμάτων.
+Βασική κλάση για κλάσεις που παρέχουν πρόσβαση σε διαφορετικούς τύπους παραμερισμένων θεμάτων.
 
 ```csharp
 public abstract class BaseOverrideThemeManager : BaseThemeManager, IOverrideThemeManager
@@ -18,14 +18,14 @@ public abstract class BaseOverrideThemeManager : BaseThemeManager, IOverrideThem
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Καθορίζει εάν το OverrideTheme παρακάμπτει το κληρονομημένο ενεργό θέμα ή όχι. Για να ενεργοποιήσετε το OverrideTheme για παρακαμπτήρια χρήση, χρησιμοποιήστε τις μεθόδους OverrideTheme.Init*(). Για να απενεργοποιήσετε το OverrideTheme από την παρακαμπτήρια χρήση, χρησιμοποιήστε τη μέθοδο OverrideTheme.Clear(). Μόνο για ανάγνωση Boolean. |
-| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Επιστρέφει το αντικείμενο του παρακαμφθέντος θέματος. Ανάγνωση/εγγραφή [`IOverrideTheme`](../ioverridetheme). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Καθορίζει αν το OverrideTheme αντικαθιστά το κληρονομημένο αποτελεσματικό θέμα ή όχι. Για να ενεργοποιήσετε το OverrideTheme για αντικατάσταση, χρησιμοποιήστε τις μεθόδους OverrideTheme.Init*(). Για να απενεργοποιήσετε το OverrideTheme από την αντικατάσταση, χρησιμοποιήστε τη μέθοδο OverrideTheme.Clear(). Μόνο-ανάγνωση Boolean. |
+| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Επιστρέφει το αντικείμενο του θέματος αντικατάστασης. Ανάγνωση/εγγραφή [`IOverrideTheme`](../ioverridetheme). |
 
-## Μεθόδοι
+## Μέθοδοι
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | Εφαρμόζει επιπλέον χρωματικό σχήμα σε μια διαφάνεια. |
+| [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | Εφαρμόζει πρόσθετο σχήμα χρώματος σε μια διαφάνεια. |
 | [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | Επιστρέφει το αντικείμενο του θέματος. |
 
 ### Δείτε επίσης

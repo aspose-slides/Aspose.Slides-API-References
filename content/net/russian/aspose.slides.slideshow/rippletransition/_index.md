@@ -1,14 +1,14 @@
 ---
 title: RippleTransition
-second_title: Aspose.Sildes для .NET справочник API
-description: Эффект перехода с волной для слайда.
+second_title: Aspose.Sildes для .NET API Справка
+description: Эффект перехода с рябью.
 type: docs
-weight: 10290
+weight: 10310
 url: /ru/aspose.slides.slideshow/rippletransition/
 ---
 ## RippleTransition класс
 
-Эффект перехода с волной для слайда.
+Эффект перехода с рябью.
 
 ```csharp
 public class RippleTransition : TransitionValueBase, IRippleTransition
@@ -25,7 +25,7 @@ public class RippleTransition : TransitionValueBase, IRippleTransition
 | Имя | Описание |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Определяет, равны ли два экземпляра TransitionValueBase. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Служит хэш-функцией для определённого типа, подходящей для использования в алгоритмах хеширования и таких структурах данных, как хеш-таблица. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Служит в качестве хеш-функции для данного типа, подходящей для использования в алгоритмах хеширования и структурах данных, таких как хеш-таблица. |
 
 ### См. также
 

@@ -1,14 +1,14 @@
 ---
 title: ShapeThumbnailBounds
 second_title: Aspose.Sildes for .NET API Referansı
-description: Şekil küçük önizleme sınırlarının türlerinin listesi.
+description: Şekil küçük resmi sınır türlerinin numaralandırması.
 type: docs
-weight: 9920
+weight: 9940
 url: /tr/aspose.slides/shapethumbnailbounds/
 ---
-## ShapeThumbnailBounds enumerasyonu
+## ShapeThumbnailBounds numaralandırması
 
-Şekil küçük önizleme sınırlarının türlerinin listesi.
+Şekil küçük resmi sınır türlerinin numaralandırması.
 
 ```csharp
 public enum ShapeThumbnailBounds
@@ -18,9 +18,9 @@ public enum ShapeThumbnailBounds
 
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
-| Slide | `0` | Şekil küçük önizlemesi slayt boyutuna eşit olacak. Şekil konumu kaydedilecek. |
-| Shape | `1` | Şekil küçük önizlemesi, şekil kontur ayarları dikkate alınarak şekil sınır dikdörtgenine eşit boyutta olacak. |
-| Appearance | `2` | Şekil küçük önizlemesi, şekil görünümüne (slayt sınırları içinde) eşit boyutta olacak. Görünüm, şekil sınırlarına sığmayabilir. Örneğin döndürme, dar açıdaki kiriş birleşimi, 3B etkiler vb. |
+| Slide | `0` | Şekil küçük resmi, slayt boyutuna eşit bir boyuta sahip olacaktır. Şekil konumu kaydedilecektir. |
+| Shape | `1` | Şekil küçük resmi, şekil kontur ayarları dikkate alınarak şekil sınırları dikdörtgenine eşit bir boyuta sahip olacaktır. |
+| Appearance | `2` | Şekil küçük resmi, şekil görünümüne (slayt sınırları içinde) eşit bir boyuta sahip olacaktır. Şekil görünümü, şekil sınırlarına sığmayabilir. Örneğin, döndürme, keskin açının mitre birleşimi, 3D efektleri vb. |
 
 ### Ayrıca Bakınız
 

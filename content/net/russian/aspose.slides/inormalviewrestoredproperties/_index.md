@@ -1,14 +1,14 @@
 ---
 title: INormalViewRestoredProperties
-second_title: Aspose.Sildes для .NET Справочник API
-description: "Определяет размеры области слайда: ширина, когда дочерний элемент restoredTop, высота, когда дочерний элемент restoredLeft, в обычном представлении, когда область имеет переменный восстановленный размер (не минимизирована и не развернута)."
+second_title: Aspose.Sildes для .NET — справка по API
+description: Указывает размеры области слайда: ширина, когда это дочерний элемент restoredTop; высота, когда это дочерний элемент restoredLeft, в нормальном представлении, когда область имеет переменный восстановленный размер — ни минимизирована, ни развернута.
 type: docs
-weight: 6480
+weight: 6500
 url: /ru/aspose.slides/inormalviewrestoredproperties/
 ---
 ## INormalViewRestoredProperties интерфейс
 
-Определяет размеры области слайда (ширина, когда дочерний элемент RestoredTop, высота, когда дочерний элемент RestoredLeft) в обычном представлении, когда область имеет переменный восстановленный размер (не минимизирована и не развернута).
+Указывает размеры области слайда (ширина, когда дочерний элемент restoredTop, высота, когда дочерний элемент restoredLeft) нормального представления, когда область имеет переменный восстановленный размер (не минимизирована и не развернута).
 
 ```csharp
 public interface INormalViewRestoredProperties
@@ -18,10 +18,10 @@ public interface INormalViewRestoredProperties
 
 | Имя | Описание |
 | --- | --- |
-| [AutoAdjust](../../aspose.slides/inormalviewrestoredproperties/autoadjust) { get; set; } | Указывает, должна ли область бокового содержимого компенсировать новый размер при изменении размеров окна, содержащего представление в приложении. Чтение/запись Boolean. |
-| [DimensionSize](../../aspose.slides/inormalviewrestoredproperties/dimensionsize) { get; set; } | Указывает размер области слайда (ширина, когда дочерний элемент RestoredTop, высота, когда дочерний элемент RestoredLeft). Чтение/запись Single. Выдаёт исключение, когда значение меньше 0 или больше 100. |
+| [AutoAdjust](../../aspose.slides/inormalviewrestoredproperties/autoadjust) { get; set; } | Указывает, должна ли размер области бокового содержимого компенсировать новый размер при изменении размеров окна, содержащего представление в приложении. Чтение/запись Boolean. |
+| [DimensionSize](../../aspose.slides/inormalviewrestoredproperties/dimensionsize) { get; set; } | Указывает размер области слайда (ширина, когда дочерний элемент RestoredTop, высота, когда дочерний элемент RestoredLeft). Чтение/запись Single. Вызывает исключение, когда значение меньше 0 или больше 100. |
 
-### См. также
+### Смотрите также
 
 * пространство имён [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

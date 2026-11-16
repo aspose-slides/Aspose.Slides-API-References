@@ -1,14 +1,14 @@
 ---
 title: IMathBar
-second_title: Αναφορά API Aspose.Sildes για .NET
-description: Καθορίζει τη συνάρτηση μπάρας που αποτελείται από ένα βασικό όρισμα και μια υπερίσωση ή υποίσωση
+second_title: Aspose.Sildes για .NET Αναφορά API
+description: Καθορίζει τη συνάρτηση μπάρας που αποτελείται από ένα βασικό όρισμα και μια πάνω ή κάτω μπάρα
 type: docs
-weight: 8120
+weight: 8140
 url: /el/aspose.slides.mathtext/imathbar/
 ---
 ## IMathBar διασύνδεση
 
-Καθορίζει τη συνάρτηση μπάρας, η οποία αποτελείται από ένα βασικό όρισμα και μια υπερίσωση ή υποίσωση
+Καθορίζει τη συνάρτηση μπάρας, που αποτελείται από ένα βασικό όρισμα και μία πάνω ή κάτω μπάρα
 
 ```csharp
 public interface IMathBar : IMathElement

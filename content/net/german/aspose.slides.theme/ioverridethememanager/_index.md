@@ -1,14 +1,14 @@
 ---
 title: IOverrideThemeManager
-second_title: Aspose.Sildes für .NET API Referenz
-description: Stellt Zugriff auf verschiedene Arten von überschriebenen Themes bereit.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Stellt Zugriff auf verschiedene Arten von überschriebenen Themen bereit.
 type: docs
-weight: 11350
+weight: 11370
 url: /de/aspose.slides.theme/ioverridethememanager/
 ---
 ## IOverrideThemeManager Schnittstelle
 
-Stellt Zugriff auf verschiedene Arten von überschriebenen Themes bereit.
+Stellt Zugriff auf verschiedene Arten von überschriebenen Themen bereit.
 
 ```csharp
 public interface IOverrideThemeManager : IThemeManager
@@ -18,9 +18,9 @@ public interface IOverrideThemeManager : IThemeManager
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIThemeManager](../../aspose.slides.theme/ioverridethememanager/asithememanager) { get; } | Ermöglicht das Abrufen der Basisschnittstelle IThemeManager. Nur lesbar [`IThemeManager`](../ithememanager). |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/ioverridethememanager/isoverridethemeenabled) { get; } | Bestimmt, ob OverrideTheme das geerbte effektive Theme überschreibt oder nicht. Um OverrideTheme zum Überschreiben zu aktivieren, verwenden Sie die Methoden OverrideTheme.Init*(). Um OverrideTheme vom Überschreiben zu deaktivieren, verwenden Sie die Methode OverrideTheme.Clear(). Nur lesbar Boolean. |
-| [OverrideTheme](../../aspose.slides.theme/ioverridethememanager/overridetheme) { get; set; } | Gibt das überschreibende Theme-Objekt zurück. Lese/Schreib [`IOverrideTheme`](../ioverridetheme). |
+| [AsIThemeManager](../../aspose.slides.theme/ioverridethememanager/asithememanager) { get; } | Ermöglicht das Abrufen der Basisschnittstelle IThemeManager. Nur-Lesen [`IThemeManager`](../ithememanager). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/ioverridethememanager/isoverridethemeenabled) { get; } | Bestimmt, ob OverrideTheme das vererbte effektive Theme überschreibt oder nicht. Um OverrideTheme zum Überschreiben zu aktivieren, verwenden Sie die Methoden OverrideTheme.Init*(). Um OverrideTheme vom Überschreiben zu deaktivieren, verwenden Sie die Methode OverrideTheme.Clear(). Nur-Lesen Boolean. |
+| [OverrideTheme](../../aspose.slides.theme/ioverridethememanager/overridetheme) { get; set; } | Gibt das überschreibende Theme-Objekt zurück. Lesen/Schreiben [`IOverrideTheme`](../ioverridetheme). |
 
 ### Siehe auch
 

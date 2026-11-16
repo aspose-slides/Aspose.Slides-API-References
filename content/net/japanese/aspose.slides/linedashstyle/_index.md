@@ -1,14 +1,14 @@
 ---
 title: LineDashStyle
-second_title: Aspose.Sildes for .NET API リファレンス
-description: 線の破線スタイルを表します。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: 行の破線スタイルを表します。
 type: docs
-weight: 7770
+weight: 7790
 url: /ja/aspose.slides/linedashstyle/
 ---
 ## LineDashStyle 列挙体
 
-線の破線スタイルを表します。
+行の破線スタイルを表します。
 
 ```csharp
 public enum LineDashStyle : sbyte

@@ -1,14 +1,14 @@
 ---
 title: IMarker
-second_title: Aspose.Sildes .NET API 参考
-description: 表示图表的标记。
+second_title: Aspose.Sildes for .NET API 参考
+description: 表示燧石的标记。
 type: docs
-weight: 2160
+weight: 2180
 url: /zh/aspose.slides.charts/imarker/
 ---
 ## IMarker 接口
 
-表示图表的标记。
+表示燧石的标记。
 
 ```csharp
 public interface IMarker
@@ -19,10 +19,10 @@ public interface IMarker
 | 名称 | 描述 |
 | --- | --- |
 | [Format](../../aspose.slides.charts/imarker/format) { get; } | 获取标记填充。只读 [`IFormat`](../iformat)。 |
-| [Size](../../aspose.slides.charts/imarker/size) { get; set; } | 表示线形图、散点图或雷达图中的标记大小。读/写 Int32。 |
-| [Symbol](../../aspose.slides.charts/imarker/symbol) { get; set; } | 表示线形图、散点图或雷达图中的标记样式。读/写 [`MarkerStyleType`](../markerstyletype)。 |
+| [Size](../../aspose.slides.charts/imarker/size) { get; set; } | 表示线形图、散点图或雷达图中的标记大小。可读写 Int32。 |
+| [Symbol](../../aspose.slides.charts/imarker/symbol) { get; set; } | 表示线形图、散点图或雷达图中的标记样式。可读写 [`MarkerStyleType`](../markerstyletype)。 |
 
-### 另见
+### 另请参阅
 
 * 命名空间 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 程序集 [Aspose.Slides](../../)

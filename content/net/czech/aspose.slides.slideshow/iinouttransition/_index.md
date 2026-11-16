@@ -1,14 +1,14 @@
 ---
 title: IInOutTransition
-second_title: Aspose.Sildes pro .NET API Reference
+second_title: Aspose.Sildes pro .NET API referenci
 description: Efekt přechodu snímku In-Out.
 type: docs
-weight: 10110
+weight: 10130
 url: /cs/aspose.slides.slideshow/iinouttransition/
 ---
 ## IInOutTransition rozhraní
 
-In-Out přechodový efekt snímku.
+Efekt přechodu slide In-Out.
 
 ```csharp
 public interface IInOutTransition : ITransitionValueBase
@@ -16,10 +16,10 @@ public interface IInOutTransition : ITransitionValueBase
 
 ## Vlastnosti
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/iinouttransition/asitransitionvaluebase) { get; } | Umožňuje získat základní rozhraní ITransitionValueBase. Pouze ke čtení [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/iinouttransition/direction) { get; set; } | Směr efektu přechodu. Číst/zapisovat [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/iinouttransition/asitransitionvaluebase) { get; } | Umožňuje získat základní rozhraní ITransitionValueBase. Pouze pro čtení [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/iinouttransition/direction) { get; set; } | Směr přechodového efektu. Čtení/zápis [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
 
 ### Viz také
 

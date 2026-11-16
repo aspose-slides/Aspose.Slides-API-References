@@ -1,46 +1,46 @@
 ---
 title: ImageTransformOCollectionEffectiveData
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 有効な画像変換エフェクトの読み取り専用コレクションを表すイミュータブルオブジェクトです。
+description: 有効な画像変換効果の読み取り専用コレクションを表す不変オブジェクトです。
 type: docs
-weight: 3560
+weight: 3580
 url: /ja/aspose.slides.effects/imagetransformocollectioneffectivedata/
 ---
 ## ImageTransformOCollectionEffectiveData クラス
 
-イミュータブルなオブジェクトで、効果的な画像変換エフェクトの読み取り専用コレクションを表します。
+有効な画像変換効果の読み取り専用コレクションを表す不変オブジェクトです。
 
 ```csharp
 public class ImageTransformOCollectionEffectiveData : IImageTransformOCollectionEffectiveData
 ```
 
-## コンストラクタ
+## Constructors
 
 | 名前 | 説明 |
 | --- | --- |
-| [ImageTransformOCollectionEffectiveData](imagetransformocollectioneffectivedata)() | デフォルトコンストラクターです。 |
+| [ImageTransformOCollectionEffectiveData](imagetransformocollectioneffectivedata)() | デフォルトコンストラクタです。 |
 
-## プロパティ
+## Properties
 
 | 名前 | 説明 |
 | --- | --- |
-| [Count](../../aspose.slides.effects/imagetransformocollectioneffectivedata/count) { get; } | コレクション内の画像エフェクトの数を返します。読み取り専用 Int32。 |
-| [IsSynchronized](../../aspose.slides.effects/imagetransformocollectioneffectivedata/issynchronized) { get; } | コレクションへのアクセスが同期化されているか（スレッドセーフ）を示す値を返します。読み取り専用 Boolean。 |
+| [Count](../../aspose.slides.effects/imagetransformocollectioneffectivedata/count) { get; } | コレクション内の画像効果の数を返します。読み取り専用の Int32。 |
+| [IsSynchronized](../../aspose.slides.effects/imagetransformocollectioneffectivedata/issynchronized) { get; } | コレクションへのアクセスが同期化されているか（スレッド セーフ）を示す値を返します。読み取り専用の Boolean。 |
 | [Item](../../aspose.slides.effects/imagetransformocollectioneffectivedata/item) { get; } | インデックスで要素を返します。 |
-| [SyncRoot](../../aspose.slides.effects/imagetransformocollectioneffectivedata/syncroot) { get; } | 同期ルートを返します。読み取り専用 Object。 |
+| [SyncRoot](../../aspose.slides.effects/imagetransformocollectioneffectivedata/syncroot) { get; } | 同期化ルートを返します。読み取り専用の Object。 |
 
-## メソッド
+## Methods
 
 | 名前 | 説明 |
 | --- | --- |
 | [CopyTo](../../aspose.slides.effects/imagetransformocollectioneffectivedata/copyto)(Array, int) | コレクションのすべての要素を指定された配列にコピーします。 |
 | override [Equals](../../aspose.slides.effects/imagetransformocollectioneffectivedata/equals)(object) | 指定されたオブジェクトが現在のオブジェクトと等しいかどうかを判断します。 |
 | [GetEnumerator](../../aspose.slides.effects/imagetransformocollectioneffectivedata/getenumerator)() | コレクションを反復処理する列挙子を返します。 |
-| override [GetHashCode](../../aspose.slides.effects/imagetransformocollectioneffectivedata/gethashcode)() | 特定の型に対するハッシュ関数として機能し、ハッシュアルゴリズムやハッシュテーブルのようなデータ構造で使用するのに適しています。 |
+| override [GetHashCode](../../aspose.slides.effects/imagetransformocollectioneffectivedata/gethashcode)() | 特定の型のハッシュ関数として機能し、ハッシュアルゴリズムやハッシュテーブルなどのデータ構造での使用に適しています。 |
 
 ### 備考
 
-COM の名前の長さは 39 文字を超えてはいけないため、IImageTransformOperationCollectionEffectiveData の名前は IImageTransformOCollectionEffectiveData に短縮されました。
+COM の名前長が 39 文字以下でなければならないため、IImageTransformOperationCollectionEffectiveData の名前は IImageTransformOCollectionEffectiveData に短縮されました。
 
 ### 参照
 

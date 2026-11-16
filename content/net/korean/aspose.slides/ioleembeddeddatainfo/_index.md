@@ -1,14 +1,14 @@
 ---
 title: IOleEmbeddedDataInfo
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: OLE 개체에 대한 내장 데이터 정보를 나타냅니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: OLE 개체에 대한 임베디드 데이터 정보를 나타냅니다.
 type: docs
-weight: 6530
+weight: 6550
 url: /ko/aspose.slides/ioleembeddeddatainfo/
 ---
 ## IOleEmbeddedDataInfo 인터페이스
 
-OLE 개체에 대한 내장 데이터 정보를 나타냅니다.
+OLE 개체에 대한 임베디드 데이터 정보를 나타냅니다.
 
 ```csharp
 public interface IOleEmbeddedDataInfo
@@ -18,10 +18,10 @@ public interface IOleEmbeddedDataInfo
 
 | 이름 | 설명 |
 | --- | --- |
-| [EmbeddedFileData](../../aspose.slides/ioleembeddeddatainfo/embeddedfiledata) { get; } | 내장 OLE 개체의 파일 데이터를 반환합니다. 읽기 전용 Byte[]. |
-| [EmbeddedFileExtension](../../aspose.slides/ioleembeddeddatainfo/embeddedfileextension) { get; } | 현재 내장 OLE 개체의 파일 확장자를 반환합니다. 읽기 전용 String. |
+| [EmbeddedFileData](../../aspose.slides/ioleembeddeddatainfo/embeddedfiledata) { get; } | 임베디드 OLE 객체의 파일 데이터를 반환합니다. 읽기 전용 Byte[]. |
+| [EmbeddedFileExtension](../../aspose.slides/ioleembeddeddatainfo/embeddedfileextension) { get; } | 현재 임베디드 OLE 객체의 파일 확장자를 반환합니다. 읽기 전용 String. |
 
-### 관련 항목
+### 참조
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

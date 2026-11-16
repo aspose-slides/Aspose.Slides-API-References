@@ -1,12 +1,12 @@
 ---
 title: UpDownBarsManager
-second_title: Aspose.Sildes for .NET API 參考文件
+second_title: Aspose.Sildes for .NET API 參考
 description: 提供對折線圖或股票圖的上/下棒的存取。
 type: docs
-weight: 2500
+weight: 2520
 url: /zh-hant/aspose.slides.charts/updownbarsmanager/
 ---
-## UpDownBarsManager 類別
+## UpDownBarsManager class
 
 提供對折線圖或股票圖的上/下棒的存取。
 
@@ -18,10 +18,10 @@ public class UpDownBarsManager : DomObject<ChartSeriesGroup>, IUpDownBarsManager
 
 | 名稱 | 說明 |
 | --- | --- |
-| [DownBarsFormat](../../aspose.slides.charts/updownbarsmanager/downbarsformat) { get; } | 返回 DownBars 格式。只讀 [`IFormat`](../iformat)。 |
-| [GapWidth](../../aspose.slides.charts/updownbarsmanager/gapwidth) { get; set; } | GapWidth。可讀寫 Int32。 |
-| [HasUpDownBars](../../aspose.slides.charts/updownbarsmanager/hasupdownbars) { get; set; } | HasUpDownBars。可讀寫 Boolean。 |
-| [UpBarsFormat](../../aspose.slides.charts/updownbarsmanager/upbarsformat) { get; } | 返回 UpBars 格式。只讀 [`IFormat`](../iformat)。 |
+| [DownBarsFormat](../../aspose.slides.charts/updownbarsmanager/downbarsformat) { get; } | 傳回 DownBars 格式。唯讀 [`IFormat`](../iformat)。 |
+| [GapWidth](../../aspose.slides.charts/updownbarsmanager/gapwidth) { get; set; } | GapWidth。讀寫 Int32。 |
+| [HasUpDownBars](../../aspose.slides.charts/updownbarsmanager/hasupdownbars) { get; set; } | HasUpDownBars。讀寫 Boolean。 |
+| [UpBarsFormat](../../aspose.slides.charts/updownbarsmanager/upbarsformat) { get; } | 傳回 UpBars 格式。唯讀 [`IFormat`](../iformat)。 |
 
 ### 另請參閱
 

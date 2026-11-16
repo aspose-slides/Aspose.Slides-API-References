@@ -1,14 +1,14 @@
 ---
 title: ReplaceRegex
 second_title: Aspose.Sildes .NET API referencia
-description: Lecseréli a reguláris kifejezés összes egyezését a megadott karakterlánccal.
+description: Lecseréli a reguláris kifejezés összes egyezését a megadott karakterláncra.
 type: docs
-weight: 120
+weight: 130
 url: /hu/aspose.slides/textframe/replaceregex/
 ---
 ## TextFrame.ReplaceRegex metódus
 
-Lecsere a reguláris kifejezés összes egyezését a megadott karakterlánccal.
+Lecseréli a reguláris kifejezés összes egyezését a megadott karakterláncra.
 
 ```csharp
 public void ReplaceRegex(Regex regex, string newText, IFindResultCallback callback)
@@ -16,19 +16,19 @@ public void ReplaceRegex(Regex regex, string newText, IFindResultCallback callba
 
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
-| regex | Regex | A helyettesítendő karakterláncok meghatározásához használt reguláris kifejezés Regex. |
-| newText | String | A karakterlánc, amely a helyettesítendő karakterláncok minden előfordulását lecseréli. |
-| callback | IFindResultCallback | Callback objektum a csere művelet eredményének mentéséhez [`IFindResultCallback`](../../ifindresultcallback). |
+| regex | Regex | A helyettesítendő karakterláncok megszerzéséhez használt reguláris kifejezés Regex. |
+| newText | String | A helyettesítendő karakterláncok összes előfordulásának cseréjére szolgáló karakterlánc. |
+| callback | IFindResultCallback | Visszahívási objektum a helyettesítési művelet eredményének mentéséhez [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### Példák
 
-Az alábbi példa kód bemutatja, hogyan lehet szöveget cserélni reguláris kifejezéssel a megadott karakterlánc használatával.
+A következő mintakód bemutatja, hogyan lehet szöveget kicserélni reguláris kifejezéssel a megadott karakterlánc használatával.
 
 ```csharp
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx")){
 	Regex regex = new Regex(@"\b[^\s]{10,}\b");
-	// Cserélje le az összes 10 vagy több karaktert tartalmazó szót '***'-re
+	// Cserélje le az összes 10 vagy több karaktert tartalmazó szót '***'-ra
 	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.ReplaceRegex(regex, "***", null);
 	presentation.Save("SomePresentation-out.pptx", SaveFormat.Pptx);
 }

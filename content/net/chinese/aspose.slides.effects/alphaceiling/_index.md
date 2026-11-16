@@ -1,14 +1,14 @@
 ---
 title: AlphaCeiling
-second_title: Aspose.Sildes for .NET API 参考
-description: 表示 Alpha Ceiling 效果。Alpha 不透明度值大于零的将被更改为 100%。换句话说，任何部分不透明的都会变为完全不透明。
+second_title: Aspose.Sildes 的 .NET API 参考
+description: 表示 Alpha Ceiling 效果。Alpha 不透明度值大于零的将被更改为 100%。换句话说，任何部分透明的对象都会变为完全不透明。
 type: docs
-weight: 2850
+weight: 2870
 url: /zh/aspose.slides.effects/alphaceiling/
 ---
 ## AlphaCeiling 类
 
-表示 Alpha Ceiling 效果。Alpha（不透明度）值大于零的将被更改为 100%。换句话说，任何部分不透明的都会变为完全不透明。
+表示 Alpha Ceiling 效果。Alpha（不透明度）值大于零的将被更改为 100%。换句话说，任何部分透明的对象都会变为完全不透明。
 
 ```csharp
 public sealed class AlphaCeiling : ImageTransformOperation, IAlphaCeiling
@@ -25,10 +25,10 @@ public sealed class AlphaCeiling : ImageTransformOperation, IAlphaCeiling
 | 名称 | 描述 |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/alphaceiling/equals)(object) | 确定指定的 [`AlphaCeiling`](../alphaceiling) 是否等于当前的 [`AlphaCeiling`](../alphaceiling)。 |
-| [GetEffective](../../aspose.slides.effects/alphaceiling/geteffective)() | 获取应用继承后的有效 Alpha Ceiling 效果数据。 |
-| override [GetHashCode](../../aspose.slides.effects/alphaceiling/gethashcode)() | 充当特定类型的哈希函数。 |
+| [GetEffective](../../aspose.slides.effects/alphaceiling/geteffective)() | 获取在应用继承后的有效 Alpha Ceiling 效果数据。 |
+| override [GetHashCode](../../aspose.slides.effects/alphaceiling/gethashcode)() | 作为特定类型的哈希函数。 |
 
-### 参见
+### 另见
 
 * 类 [ImageTransformOperation](../imagetransformoperation)
 * 接口 [IAlphaCeiling](../ialphaceiling)

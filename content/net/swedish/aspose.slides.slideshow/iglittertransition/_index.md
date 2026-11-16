@@ -1,14 +1,14 @@
 ---
 title: IGlitterTransition
-second_title: Aspose.Slides för .NET API-referens
-description: Glitter-övergångseffekt för bildspel.
+second_title: Aspose.Sildes för .NET API-referens
+description: Glitter-bildövergångseffekt.
 type: docs
-weight: 10100
+weight: 10120
 url: /sv/aspose.slides.slideshow/iglittertransition/
 ---
 ## IGlitterTransition gränssnitt
 
-Glitter-övergångseffekt för bild.
+Glitter-bildövergångseffekt.
 
 ```csharp
 public interface IGlitterTransition : ITransitionValueBase
@@ -18,9 +18,9 @@ public interface IGlitterTransition : ITransitionValueBase
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/iglittertransition/asitransitionvaluebase) { get; } | Tillåter att hämta bas-gränssnittet ITransitionValueBase. Skrivskyddad [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/iglittertransition/direction) { get; set; } | Övergångens riktning. Läs/skriv [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
-| [Pattern](../../aspose.slides.slideshow/iglittertransition/pattern) { get; set; } | Anger formen på de visuella element som används under övergången. Läs/skriv [`TransitionPattern`](../transitionpattern). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/iglittertransition/asitransitionvaluebase) { get; } | Tillåter att hämta bas-ITTransitionValueBase gränssnittet. Skrivskyddad [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/iglittertransition/direction) { get; set; } | Riktning för övergången. Läs/skriv [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
+| [Pattern](../../aspose.slides.slideshow/iglittertransition/pattern) { get; set; } | Specificerar formen på de visuella element som används under övergången. Läs/skriv [`TransitionPattern`](../transitionpattern). |
 
 ### Se även
 

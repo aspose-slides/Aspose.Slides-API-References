@@ -1,14 +1,14 @@
 ---
 title: SizeValue
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: ส่งคืนค่าขนาดของจุดข้อมูลแผนภูมิ ใช้ร่วมกับแผนภูมิ Treemap และ Sunburst อ่านอย่างเดียว IDoubleChartValueaspose.slides.charts/idoublechartvalue.
+second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
+description: รับค่าขนาดของจุดข้อมูลแผนภูมิ ใช้กับแผนภูมิ Treemap และ Sunburst อ่านอย่างเดียว IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
-weight: 150
+weight: 190
 url: /th/aspose.slides.charts/ichartdatapoint/sizevalue/
 ---
 ## IChartDataPoint.SizeValue คุณสมบัติ
 
-ส่งคืนค่าขนาดของจุดข้อมูลแผนภูมิ ใช้ร่วมกับแผนภูมิ Treemap และ Sunburst อ่านอย่างเดียว [`IDoubleChartValue`](../../idoublechartvalue).
+รับค่าขนาดของจุดข้อมูลแผนภูมิ ใช้กับแผนภูมิ Treemap และ Sunburst อ่านอย่างเดียว [`IDoubleChartValue`](../../idoublechartvalue).
 
 ```csharp
 public IDoubleChartValue SizeValue { get; }

@@ -1,14 +1,14 @@
 ---
 title: ILayoutSlideCollection
-second_title: Aspose.Sildes .NET API referenciája
-description: Egy alaposztályt képvisel az elrendezés-diák gyűjteményéhez.
+second_title: Aspose.Sildes a .NET API referenciához
+description: Alap osztályt képvisel egy elrendezési diák gyűjteményéhez.
 type: docs
-weight: 6230
+weight: 6250
 url: /hu/aspose.slides/ilayoutslidecollection/
 ---
 ## ILayoutSlideCollection interfész
 
-Egy alaposztályt képvisel az elrendezés-diák gyűjteményéhez.
+Egy alaposztályt képvisel elrendezési diák gyűjteményéhez.
 
 ```csharp
 public interface ILayoutSlideCollection : IGenericCollection<ILayoutSlide>
@@ -18,15 +18,15 @@ public interface ILayoutSlideCollection : IGenericCollection<ILayoutSlide>
 
 | Név | Leírás |
 | --- | --- |
-| [Item](../../aspose.slides/ilayoutslidecollection/item) { get; } | Visszaadja az elrendezés-diát index alapján. Csak olvasható [`ILayoutSlide`](../ilayoutslide). |
+| [Item](../../aspose.slides/ilayoutslidecollection/item) { get; } | Visszaadja a layout diát index szerint. Csak olvasható [`ILayoutSlide`](../ilayoutslide). |
 
-## Metódusok
+## Módszerek
 
 | Név | Leírás |
 | --- | --- |
-| [GetByType](../../aspose.slides/ilayoutslidecollection/getbytype)(SlideLayoutType) | Visszaadja az első elrendezés-diát a megadott típusban. |
-| [Remove](../../aspose.slides/ilayoutslidecollection/remove)(ILayoutSlide) | Eltávolít egy elrendezést a gyűjteményből. |
-| [RemoveUnused](../../aspose.slides/ilayoutslidecollection/removeunused)() | Eltávolítja a nem használt elrendezés-diákat (azokat az elrendezés-diákat, amelyeknél a HasDependingSlides hamis). |
+| [GetByType](../../aspose.slides/ilayoutslidecollection/getbytype)(SlideLayoutType) | Visszaadja a megadott típusú első layout diát. |
+| [Remove](../../aspose.slides/ilayoutslidecollection/remove)(ILayoutSlide) | Eltávolít egy layoutot a gyűjteményből. |
+| [RemoveUnused](../../aspose.slides/ilayoutslidecollection/removeunused)() | Eltávolítja a nem használt layout diákat (azokat a layout diákat, amelyeknél a HasDependingSlides hamis). |
 
 ### Lásd még
 

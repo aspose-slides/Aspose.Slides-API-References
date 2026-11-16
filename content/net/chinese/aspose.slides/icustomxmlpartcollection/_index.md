@@ -1,14 +1,14 @@
 ---
 title: ICustomXmlPartCollection
 second_title: Aspose.Sildes for .NET API 参考
-description: 表示自定义 XML 部件的集合。
+description: 表示自定义 xml 部分的集合。
 type: docs
-weight: 5680
+weight: 5700
 url: /zh/aspose.slides/icustomxmlpartcollection/
 ---
 ## ICustomXmlPartCollection 接口
 
-表示自定义 XML 部件的集合。
+表示自定义 XML 部分的集合。
 
 ```csharp
 public interface ICustomXmlPartCollection : IGenericCollection<ICustomXmlPart>
@@ -16,22 +16,22 @@ public interface ICustomXmlPartCollection : IGenericCollection<ICustomXmlPart>
 
 ## 属性
 
-| 名称 | 描述 |
+| 名称 | 说明 |
 | --- | --- |
 | [Item](../../aspose.slides/icustomxmlpartcollection/item) { get; } | 返回指定索引处的元素。 |
 
 ## 方法
 
-| 名称 | 描述 |
+| 名称 | 说明 |
 | --- | --- |
-| [Add](../../aspose.slides/icustomxmlpartcollection/add#add)(byte[]) | 添加新的自定义 XML 部件。 |
-| [Add](../../aspose.slides/icustomxmlpartcollection/add#add_1)(Stream) | 添加新的自定义 XML 部件。 |
-| [Add](../../aspose.slides/icustomxmlpartcollection/add#add_2)(string) | 添加新的自定义 XML 部件。 |
+| [Add](../../aspose.slides/icustomxmlpartcollection/add#add)(byte[]) | 添加新的自定义 XML 部分。 |
+| [Add](../../aspose.slides/icustomxmlpartcollection/add#add_1)(Stream) | 添加新的自定义 XML 部分。 |
+| [Add](../../aspose.slides/icustomxmlpartcollection/add#add_2)(string) | 添加新的自定义 XML 部分。 |
 | [Clear](../../aspose.slides/icustomxmlpartcollection/clear)() | 从集合中移除所有项。 |
-| [Remove](../../aspose.slides/icustomxmlpartcollection/remove)(ICustomXmlPart) | 从集合中移除特定对象的第一次出现。 |
-| [RemoveAt](../../aspose.slides/icustomxmlpartcollection/removeat)(int) | 移除指定索引处的自定义 XML 部件。 |
+| [Remove](../../aspose.slides/icustomxmlpartcollection/remove)(ICustomXmlPart) | 从集合中移除首次出现的特定对象。 |
+| [RemoveAt](../../aspose.slides/icustomxmlpartcollection/removeat)(int) | 移除指定索引处的自定义 XML 部分。 |
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * 接口 [ICustomXmlPart](../icustomxmlpart)

@@ -1,14 +1,14 @@
 ---
 title: SoftEdge
 second_title: Aspose.Sildes for .NET API リファレンス
-description: ソフト エッジ効果を表します。シェイプのエッジはぼかされますが、塗りつぶしは影響を受けません。
+description: ソフト エッジ効果を表します。シェイプのエッジはぼやけますが、塗りつぶしは影響を受けません。
 type: docs
-weight: 3650
+weight: 3670
 url: /ja/aspose.slides.effects/softedge/
 ---
 ## SoftEdge クラス
 
-ソフト エッジ効果を表します。シェイプのエッジはぼかされますが、塗りつぶしは影響を受けません。
+ソフト エッジ 効果を表します。シェイプのエッジがぼやけますが、塗りつぶしは影響を受けません。
 
 ```csharp
 public sealed class SoftEdge : ISoftEdge

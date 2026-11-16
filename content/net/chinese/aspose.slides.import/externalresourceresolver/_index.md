@@ -1,14 +1,14 @@
 ---
 title: ExternalResourceResolver
-second_title: Aspose.Sildes .NET API 参考
-description: 在导入 Html、Svg 文档期间用于解析外部资源的回调类。使用此解析器可能会导致漏洞，当客户端提供的 HTML 或 SVG 文件使服务器软件获取本地或网络文件时。请谨慎使用。建议完全不指定 ExternalResourceResolver（仅读取嵌入的对象），或创建子类以检查指定的 uri 是否有效。
+second_title: Aspose.Sildes for .NET API 参考
+description: 回调类用于在 Html Svg 文档导入期间解析外部资源。使用此解析器可能会导致漏洞，当客户端提供的 HTML 或 SVG 文件使服务器软件获取本地或网络文件时。请谨慎使用。建议根本不指定 ExternalResourceResolver，仅读取嵌入对象，或创建检查指定 uri 是否有效的子类。
 type: docs
-weight: 7480
+weight: 7500
 url: /zh/aspose.slides.import/externalresourceresolver/
 ---
 ## ExternalResourceResolver 类
 
-回调类，用于在导入 Html、Svg 文档时解析外部资源。使用此解析器可能会导致漏洞，当客户端提供的 HTML 或 SVG 文件使服务器软件获取本地或网络文件时。请谨慎使用。建议完全不要指定 ExternalResourceResolver（仅读取嵌入的对象），或者创建子类来检查指定的 uri 是否有效。
+回调类用于在 Html、Svg 文档导入期间解析外部资源。使用此解析器可能会导致漏洞，当客户端提供的 HTML 或 SVG 文件使服务器软件获取本地或网络文件时。使用时请谨慎。建议根本不指定 ExternalResourceResolver（仅读取嵌入对象），或创建检查指定 uri 是否有效的子类。
 
 ```csharp
 public class ExternalResourceResolver : IExternalResourceResolver
@@ -27,7 +27,7 @@ public class ExternalResourceResolver : IExternalResourceResolver
 | virtual [GetEntity](../../aspose.slides.import/externalresourceresolver/getentity)(string) | 将 URI 映射到包含实际资源的对象。 |
 | virtual [ResolveUri](../../aspose.slides.import/externalresourceresolver/resolveuri)(string, string) | 从基 URI 和相对 URI 解析出绝对 URI。 |
 
-### 另见
+### 另请参阅
 
 * 接口 [IExternalResourceResolver](../iexternalresourceresolver)
 * 命名空间 [Aspose.Slides.Import](../../aspose.slides.import)

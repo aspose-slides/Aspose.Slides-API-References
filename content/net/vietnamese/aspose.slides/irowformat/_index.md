@@ -1,14 +1,14 @@
 ---
 title: IRowFormat
-second_title: Tham khảo API Aspose.Sildes cho .NET
-description: Mô tả định dạng của một hàng bảng.
+second_title: Aspose.Sildes for .NET Tham chiếu API
+description: Biểu diễn định dạng của một hàng bảng.
 type: docs
-weight: 6870
+weight: 6890
 url: /vi/aspose.slides/irowformat/
 ---
 ## IRowFormat giao diện
 
-Mô tả định dạng của một hàng bảng.
+Biểu diễn định dạng của một hàng bảng.
 
 ```csharp
 public interface IRowFormat
@@ -18,7 +18,7 @@ public interface IRowFormat
 
 | Tên | Mô tả |
 | --- | --- |
-| [GetEffective](../../aspose.slides/irowformat/geteffective)() | Lấy các thuộc tính định dạng hàng bảng hiệu quả với kế thừa và áp dụng các kiểu bảng. |
+| [GetEffective](../../aspose.slides/irowformat/geteffective)() | Lấy các thuộc tính định dạng hàng bảng hiệu quả với việc kế thừa và áp dụng kiểu bảng. |
 
 ### Xem thêm
 

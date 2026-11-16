@@ -1,14 +1,14 @@
 ---
 title: Reflection
 second_title: Aspose.Sildes για .NET API Αναφορά
-description: Αντιπροσωπεύει ένα εφέ Reflection.
+description: Αναπαριστά ένα εφέ Reflection.
 type: docs
-weight: 3640
+weight: 3660
 url: /el/aspose.slides.effects/reflection/
 ---
-## Κλάση Reflection
+## Reflection κλάση
 
-Αντιπροσωπεύει ένα εφέ Reflection.
+Αναπαριστά ένα εφέ Reflection.
 
 ```csharp
 public sealed class Reflection : IReflection
@@ -18,28 +18,28 @@ public sealed class Reflection : IReflection
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [BlurRadius](../../aspose.slides.effects/reflection/blurradius) { get; set; } | Ακτίνα θολώματος. Ανάγνωση/εγγραφή Double. |
-| [Direction](../../aspose.slides.effects/reflection/direction) { get; set; } | Κατεύθυνση του reflection. Ανάγνωση/εγγραφή Single. |
-| [Distance](../../aspose.slides.effects/reflection/distance) { get; set; } | Απόσταση του reflection. Ανάγνωση/εγγραφή Double. |
-| [EndPosAlpha](../../aspose.slides.effects/reflection/endposalpha) { get; set; } | Καθορίζει τη θέση τέλους (κατά μήκος της κλίσης αλφα διαβάθμισης) της τιμής αλφα τέλους (ποσοστά). Ανάγνωση/εγγραφή Single. |
-| [EndReflectionOpacity](../../aspose.slides.effects/reflection/endreflectionopacity) { get; set; } | Διαφάνεια τέλους reflection. (ποσοστά). Ανάγνωση/εγγραφή Single. |
-| [FadeDirection](../../aspose.slides.effects/reflection/fadedirection) { get; set; } | Καθορίζει την κατεύθυνση μετατόπισης του reflection. (γωνία). Ανάγνωση/εγγραφή Single. |
-| [RectangleAlign](../../aspose.slides.effects/reflection/rectanglealign) { get; set; } | Στοίχιση παραλληλόγραμμου. Ανάγνωση/εγγραφή [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/reflection/rotateshadowwithshape) { get; set; } | Καθορίζει αν το reflection πρέπει να περιστραφεί με το σχήμα αν το σχήμα περιστραφεί. Ανάγνωση/εγγραφή Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/reflection/scalehorizontal) { get; set; } | Καθορίζει τον οριζόντιο παράγοντα κλιμάκωσης, η αρνητική κλιμάκωση προκαλεί αναστροφή. (ποσοστά) Ανάγνωση/εγγραφή Double. |
-| [ScaleVertical](../../aspose.slides.effects/reflection/scalevertical) { get; set; } | Καθορίζει τον κάθετο παράγοντα κλιμάκωσης, η αρνητική κλιμάκωση προκαλεί αναστροφή. (ποσοστά) Ανάγνωση/εγγραφή Double. |
+| [BlurRadius](../../aspose.slides.effects/reflection/blurradius) { get; set; } | Ακτίνα θολώσεως. Ανάγνωση/εγγραφή Double. |
+| [Direction](../../aspose.slides.effects/reflection/direction) { get; set; } | Κατεύθυνση αντανάκλασης. Ανάγνωση/εγγραφή Single. |
+| [Distance](../../aspose.slides.effects/reflection/distance) { get; set; } | Απόσταση αντανάκλασης. Ανάγνωση/εγγραφή Double. |
+| [EndPosAlpha](../../aspose.slides.effects/reflection/endposalpha) { get; set; } | Καθορίζει τη θέση λήξης (κατά μήκος του λόφου διαβάθμισης άλφα) της τιμής άλφα λήξης (ποσοστά). Ανάγνωση/εγγραφή Single. |
+| [EndReflectionOpacity](../../aspose.slides.effects/reflection/endreflectionopacity) { get; set; } | Διαφάνεια τελικής αντανάκλασης. (ποσοστά). Ανάγνωση/εγγραφή Single. |
+| [FadeDirection](../../aspose.slides.effects/reflection/fadedirection) { get; set; } | Καθορίζει την κατεύθυνση για μετατόπιση της αντανάκλασης. (γωνία). Ανάγνωση/εγγραφή Single. |
+| [RectangleAlign](../../aspose.slides.effects/reflection/rectanglealign) { get; set; } | Στοίχιση ορθογωνίου. Ανάγνωση/εγγραφή [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/reflection/rotateshadowwithshape) { get; set; } | Καθορίζει εάν η αντανάκλαση πρέπει να περιστρέφεται με το σχήμα εάν το σχήμα περιστραφεί. Ανάγνωση/εγγραφή Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/reflection/scalehorizontal) { get; set; } | Καθορίζει τον οριζόντιο συντελεστή κλιμάκωσης, η αρνητική κλιμάκωση προκαλεί αντιστροφή. (ποσοστά) Ανάγνωση/εγγραφή Double. |
+| [ScaleVertical](../../aspose.slides.effects/reflection/scalevertical) { get; set; } | Καθορίζει τον κάθετο συντελεστή κλιμάκωσης, η αρνητική κλιμάκωση προκαλεί αντιστροφή. (ποσοστά) Ανάγνωση/εγγραφή Double. |
 | [SkewHorizontal](../../aspose.slides.effects/reflection/skewhorizontal) { get; set; } | Καθορίζει τη γωνία οριζόντιας παραμόρφωσης. Ανάγνωση/εγγραφή Double. |
 | [SkewVertical](../../aspose.slides.effects/reflection/skewvertical) { get; set; } | Καθορίζει τη γωνία κάθετης παραμόρφωσης. Ανάγνωση/εγγραφή Double. |
-| [StartPosAlpha](../../aspose.slides.effects/reflection/startposalpha) { get; set; } | Καθορίζει τη θέση εκκίνησης (κατά μήκος της κλίσης αλφα διαβάθμισης) της τιμής αλφα εκκίνησης (ποσοστά). Ανάγνωση/εγγραφή Single. |
-| [StartReflectionOpacity](../../aspose.slides.effects/reflection/startreflectionopacity) { get; set; } | Αρχική διαφάνεια reflection. (ποσοστά). Ανάγνωση/εγγραφή Single. |
+| [StartPosAlpha](../../aspose.slides.effects/reflection/startposalpha) { get; set; } | Καθορίζει τη θέση εκκίνησης (κατά μήκος του λόφου διαβάθμισης άλφα) της τιμής άλφα εκκίνησης (ποσοστά). Ανάγνωση/εγγραφή Single. |
+| [StartReflectionOpacity](../../aspose.slides.effects/reflection/startreflectionopacity) { get; set; } | Αρχική διαφάνεια αντανάκλασης. (ποσοστά). Ανάγνωση/εγγραφή Single. |
 
 ## Μέθοδοι
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/reflection/equals)(object) | Καθορίζει εάν το καθορισμένο [`Reflection`](../reflection) είναι ίσο με το τρέχον [`Reflection`](../reflection). |
-| [GetEffective](../../aspose.slides.effects/reflection/geteffective)() | Λαμβάνει τα αποτελεσματικά δεδομένα εφέ Reflection με την εφαρμοζόμενη κληρονόμηση. |
-| override [GetHashCode](../../aspose.slides.effects/reflection/gethashcode)() | Λειτουργεί ως συνάρτηση κατατεμαχισμού για έναν συγκεκριμένο τύπο. |
+| override [Equals](../../aspose.slides.effects/reflection/equals)(object) | Καθορίζει αν το καθορισμένο [`Reflection`](../reflection) είναι ίσο με το τρέχον [`Reflection`](../reflection). |
+| [GetEffective](../../aspose.slides.effects/reflection/geteffective)() | Λαμβάνει τα αποτελεσματικά δεδομένα εφέ Reflection με την κληρονομικότητα εφαρμοσμένη. |
+| override [GetHashCode](../../aspose.slides.effects/reflection/gethashcode)() | Λειτουργεί ως συνάρτηση κατακερματισμού για έναν συγκεκριμένο τύπο. |
 
 ### Δείτε επίσης
 

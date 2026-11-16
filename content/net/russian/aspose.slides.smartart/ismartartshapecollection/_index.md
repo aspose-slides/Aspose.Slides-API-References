@@ -3,7 +3,7 @@ title: ISmartArtShapeCollection
 second_title: Aspose.Sildes для .NET API Reference
 description: Представляет коллекцию фигур SmartArt
 type: docs
-weight: 10580
+weight: 10600
 url: /ru/aspose.slides.smartart/ismartartshapecollection/
 ---
 ## ISmartArtShapeCollection интерфейс
@@ -18,7 +18,7 @@ public interface ISmartArtShapeCollection : IGenericCollection<ISmartArtShape>
 
 | Имя | Описание |
 | --- | --- |
-| [Item](../../aspose.slides.smartart/ismartartshapecollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения [`ISmartArtShape`](../ismartartshape). Нулевой индекс элемента |
+| [Item](../../aspose.slides.smartart/ismartartshapecollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения [`ISmartArtShape`](../ismartartshape). Индекс элемента начинается с нуля |
 
 ### См. также
 

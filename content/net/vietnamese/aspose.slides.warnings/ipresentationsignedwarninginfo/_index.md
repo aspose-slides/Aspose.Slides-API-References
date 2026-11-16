@@ -1,9 +1,9 @@
 ---
 title: IPresentationSignedWarningInfo
-second_title: Tham chiếu API Aspose.Sildes cho .NET
+second_title: Tham khảo API Aspose.Sildes cho .NET
 description: Cảnh báo này cho biết bản trình chiếu đang được đọc có chữ ký và chữ ký này sẽ bị xóa trong quá trình xử lý.
 type: docs
-weight: 11790
+weight: 11810
 url: /vi/aspose.slides.warnings/ipresentationsignedwarninginfo/
 ---
 ## IPresentationSignedWarningInfo giao diện

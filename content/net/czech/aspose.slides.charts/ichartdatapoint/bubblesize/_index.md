@@ -1,14 +1,14 @@
 ---
 title: BubbleSize
 second_title: Aspose.Sildes pro .NET API Reference
-description: Vrací velikost bubliny datového bodu grafu. Pouze ke čtení IDoubleChartValueaspose.slides.charts/idoublechartvalue.
+description: Získá velikost bubliny datového bodu grafu. Pouze pro čtení IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
 weight: 20
 url: /cs/aspose.slides.charts/ichartdatapoint/bubblesize/
 ---
 ## IChartDataPoint.BubbleSize vlastnost
 
-Vrací velikost bubliny datového bodu grafu. Pouze ke čtení [`IDoubleChartValue`](../../idoublechartvalue).
+Získá velikost bubliny datového bodu grafu. Pouze pro čtení [`IDoubleChartValue`](../../idoublechartvalue).
 
 ```csharp
 public IDoubleChartValue BubbleSize { get; }

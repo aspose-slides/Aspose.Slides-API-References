@@ -1,14 +1,14 @@
 ---
 title: IMasterNotesSlideManager
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes for .NET API Referansı
 description: Ana not slaytı yöneticisi.
 type: docs
-weight: 6410
+weight: 6430
 url: /tr/aspose.slides/imasternotesslidemanager/
 ---
-## IMasterNotesSlideManager arayüz
+## IMasterNotesSlideManager interface
 
-Not slaytı yöneticisi.
+Ana not slaytı yöneticisi.
 
 ```csharp
 public interface IMasterNotesSlideManager
@@ -18,7 +18,7 @@ public interface IMasterNotesSlideManager
 
 | Ad | Açıklama |
 | --- | --- |
-| [MasterNotesSlide](../../aspose.slides/imasternotesslidemanager/masternotesslide) { get; } | Bu sunumun tüm not slaytları için bir ana slayt döndürür; eğer mevcutsa, aksi takdirde null döndürür. Salt okunur [`IMasterNotesSlide`](../imasternotesslide). |
+| [MasterNotesSlide](../../aspose.slides/imasternotesslidemanager/masternotesslide) { get; } | Bu sunumdaki tüm not slaytları için bir ana not slaytı döndürür; eğer mevcutsa, aksi takdirde null döndürür. Yalnızca okunabilir [`IMasterNotesSlide`](../imasternotesslide). |
 
 ## Yöntemler
 

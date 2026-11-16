@@ -1,9 +1,9 @@
 ---
 title: ITabCollection
-second_title: Aspose.Sildes для .NET справочник API
+second_title: Справочник API Aspose.Sildes для .NET
 description: Представляет коллекцию вкладок.
 type: docs
-weight: 7200
+weight: 7220
 url: /ru/aspose.slides/itabcollection/
 ---
 ## ITabCollection интерфейс
@@ -27,9 +27,9 @@ public interface ITabCollection : IGenericCollection<ITab>
 | [Add](../../aspose.slides/itabcollection/add#add_1)(ITab) | Добавляет Tab в коллекцию. |
 | [Add](../../aspose.slides/itabcollection/add#add)(double, TabAlignment) | Добавляет Tab в коллекцию. |
 | [Clear](../../aspose.slides/itabcollection/clear)() | Удаляет все элементы из коллекции. |
-| [RemoveAt](../../aspose.slides/itabcollection/removeat)(int) | Удаляет элемент по указанному индексу в коллекции. |
+| [RemoveAt](../../aspose.slides/itabcollection/removeat)(int) | Удаляет элемент по указанному индексу из коллекции. |
 
-### Смотрите также
+### См. также
 
 * интерфейс [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * интерфейс [ITab](../itab)

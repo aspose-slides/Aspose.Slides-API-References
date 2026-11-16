@@ -1,14 +1,14 @@
 ---
 title: TransitionType
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili jenis transisi pertunjukan slide.
+description: Mewakili tipe transisi slideshow.
 type: docs
-weight: 10450
+weight: 10470
 url: /id/aspose.slides.slideshow/transitiontype/
 ---
-## TransitionType enumerasi
+## enumerasi TransitionType
 
-Represent slide show transition type.
+Mewakili tipe transisi slideshow.
 
 ```csharp
 public enum TransitionType
@@ -21,25 +21,25 @@ public enum TransitionType
 | None | `0` |  |
 | Blinds | `1` |  |
 | Checker | `2` |  |
-| Circle | `3` | Berhubungan dengan transisi Shape (dengan opsi Circle) di PowerPoint 2010. |
+| Circle | `3` | Berkaitan dengan transisi Shape (dengan opsi Circle) di PowerPoint 2010. |
 | Comb | `4` |  |
 | Cover | `5` |  |
 | Cut | `6` |  |
-| Diamond | `7` | Berhubungan dengan transisi Shape (dengan opsi Diamond) di PowerPoint 2010. |
+| Diamond | `7` | Berkaitan dengan transisi Shape (dengan opsi Diamond) di PowerPoint 2010. |
 | Dissolve | `8` |  |
 | Fade | `9` |  |
 | Newsflash | `10` |  |
-| Plus | `11` | Berhubungan dengan transisi Shape (dengan opsi Plus) di PowerPoint 2010. |
+| Plus | `11` | Berkaitan dengan transisi Shape (dengan opsi Plus) di PowerPoint 2010. |
 | Pull | `12` |  |
 | Push | `13` |  |
 | Random | `14` |  |
 | RandomBar | `15` |  |
 | Split | `16` | Setara dengan transisi Wipe di PowerPoint 2010. |
 | Strips | `17` |  |
-| Wedge | `18` | Berhubungan dengan transisi Clock (dengan opsi Wedge) di PowerPoint 2010. |
-| Wheel | `19` | Berhubungan dengan transisi Clock (dengan opsi Clockwise) di PowerPoint 2010. |
+| Wedge | `18` | Berkaitan dengan transisi Clock (dengan opsi Wedge) di PowerPoint 2010. |
+| Wheel | `19` | Berkaitan dengan transisi Clock (dengan opsi Clockwise) di PowerPoint 2010. |
 | Wipe | `20` |  |
-| Zoom | `21` | Berhubungan dengan transisi Shape (dengan opsi In/Out) di PowerPoint 2010. Lihat juga Warp yang berhubungan dengan transisi Zoom di PowerPoint 2010. |
+| Zoom | `21` | Berkaitan dengan transisi Shape (dengan opsi In/Out) di PowerPoint 2010. Lihat juga Warp yang berkaitan dengan transisi Zoom di PowerPoint 2010. |
 | Vortex | `22` | Tersedia di PowerPoint 2010. |
 | Switch | `23` | Tersedia di PowerPoint 2010. |
 | Flip | `24` | Tersedia di PowerPoint 2010. |
@@ -56,12 +56,12 @@ public enum TransitionType
 | Conveyor | `35` | Tersedia di PowerPoint 2010. |
 | Pan | `36` | Tersedia di PowerPoint 2010. |
 | Glitter | `37` | Tersedia di PowerPoint 2010. |
-| Warp | `38` | Berhubungan dengan transisi Zoom di PowerPoint 2010. Tersedia di PowerPoint 2010. |
+| Warp | `38` | Berkaitan dengan transisi Zoom di PowerPoint 2010. Tersedia di PowerPoint 2010. |
 | Flythrough | `39` | Tersedia di PowerPoint 2010. |
 | Flash | `40` | Tersedia di PowerPoint 2010. |
 | Shred | `41` | Tersedia di PowerPoint 2010. |
 | Reveal | `42` | Tersedia di PowerPoint 2010. |
-| WheelReverse | `43` | Berhubungan dengan transisi Clock (dengan opsi Counterclockwise) di PowerPoint 2010. Tersedia di PowerPoint 2010. |
+| WheelReverse | `43` | Berkaitan dengan transisi Clock (dengan opsi Counterclockwise) di PowerPoint 2010. Tersedia di PowerPoint 2010. |
 | FallOver | `44` | Tersedia di PowerPoint 2013. |
 | Drape | `45` | Tersedia di PowerPoint 2013. |
 | Curtains | `46` | Tersedia di PowerPoint 2013. |
@@ -74,7 +74,7 @@ public enum TransitionType
 | PageCurlSingle | `53` | Tersedia di PowerPoint 2013. |
 | Airplane | `54` | Tersedia di PowerPoint 2013. |
 | Origami | `55` | Tersedia di PowerPoint 2013. |
-| Morph | `56` | Berhubungan dengan transisi Morph (dengan opsi Type) di PowerPoint 2019. |
+| Morph | `56` | Berkaitan dengan transisi Morph (dengan opsi Type) di PowerPoint 2019. |
 
 ### Lihat Juga
 

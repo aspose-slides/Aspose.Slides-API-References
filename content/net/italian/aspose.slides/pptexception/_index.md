@@ -1,9 +1,9 @@
 ---
 title: PptException
-second_title: Aspose.Sildes per .NET Riferimento API
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta un tipo di eccezione interno standard.
 type: docs
-weight: 9520
+weight: 9540
 url: /it/aspose.slides/pptexception/
 ---
 ## PptException classe
@@ -20,7 +20,7 @@ public class PptException : Exception
 | --- | --- |
 | [PptException](pptexception#constructor)() | Costruttore predefinito. |
 | [PptException](pptexception#constructor_1)(string) | Costruttore che consente di aggiungere un messaggio a questa eccezione. |
-| [PptException](pptexception#constructor_2)(string, Exception) | Costruttore per un'eccezione contenente un messaggio e un'eccezione incorporata. |
+| [PptException](pptexception#constructor_2)(string, Exception) | Costruttore per un'eccezione contenente un messaggio e un'Exception incorporata. |
 
 ### Vedi anche
 

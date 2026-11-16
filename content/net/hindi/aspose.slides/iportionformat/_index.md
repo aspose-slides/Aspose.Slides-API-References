@@ -1,14 +1,14 @@
 ---
 title: IPortionFormat
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: यह क्लास टेक्स्ट पोर्शन फ़ॉर्मेटिंग प्रॉपर्टीज़ को सम्मिलित करती है। IPortionFormatEffectiveData./iportionformateffectivedata के विपरीत, इस क्लास की सभी प्रॉपर्टीज़ लिखने योग्य हैं।
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: यह क्लास टेक्स्ट पोर्शन फ़ॉर्मेटिंग प्रॉपर्टीज़ को समाहित करती है। IPortionFormatEffectiveData./iportionformateffectivedata के विपरीत, इस क्लास की सभी प्रॉपर्टीज़ लिखने योग्य हैं।
 type: docs
-weight: 6730
+weight: 6750
 url: /hi/aspose.slides/iportionformat/
 ---
 ## IPortionFormat इंटरफ़ेस
 
-यह क्लास टेक्स्ट पोर्शन फ़ॉर्मैटिंग गुणों को सम्मिलित करती है। [`IPortionFormatEffectiveData`](../iportionformateffectivedata) के विपरीत, इस क्लास की सभी प्रॉपर्टीज़ लिखने योग्य हैं।
+यह क्लास टेक्स्ट भाग स्वरूपण गुणों को शामिल करती है। [`IPortionFormatEffectiveData`](../iportionformateffectivedata) के विपरीत, इस क्लास की सभी गुण लिखने योग्य हैं।
 
 ```csharp
 public interface IPortionFormat : IBasePortionFormat, IHyperlinkContainer
@@ -18,22 +18,22 @@ public interface IPortionFormat : IBasePortionFormat, IHyperlinkContainer
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIBasePortionFormat](../../aspose.slides/iportionformat/asibaseportionformat) { get; } | IBasePortionFormat इंटरफ़ेस को लौटाता है। केवल-पठनीय [`IBasePortionFormat`](../ibaseportionformat)। |
-| [AsIHyperlinkContainer](../../aspose.slides/iportionformat/asihyperlinkcontainer) { get; } | बेस IHyperlinkContainer इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पठनीय [`IHyperlinkContainer`](../ihyperlinkcontainer)। |
-| [BookmarkId](../../aspose.slides/iportionformat/bookmarkid) { get; set; } | बुकमार्क पहचानकर्ता को लौटाता है या सेट करता है। पढ़ने/लिखने योग्य String। |
-| [SmartTagClean](../../aspose.slides/iportionformat/smarttagclean) { get; set; } | निर्धारित करता है कि स्मार्ट टैग को साफ़ किया जाना चाहिए या नहीं। कोई विरासत लागू नहीं होती। पढ़ने/लिखने योग्य Boolean। |
+| [AsIBasePortionFormat](../../aspose.slides/iportionformat/asibaseportionformat) { get; } | IBasePortionFormat इंटरफ़ेस वापस देता है। केवल-पढ़ने योग्य [`IBasePortionFormat`](../ibaseportionformat)। |
+| [AsIHyperlinkContainer](../../aspose.slides/iportionformat/asihyperlinkcontainer) { get; } | base IHyperlinkContainer इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IHyperlinkContainer`](../ihyperlinkcontainer)। |
+| [BookmarkId](../../aspose.slides/iportionformat/bookmarkid) { get; set; } | बुकमार्क पहचानकर्ता को वापस देता है या सेट करता है। पढ़ने/लिखने योग्य String। |
+| [SmartTagClean](../../aspose.slides/iportionformat/smarttagclean) { get; set; } | निर्धारित करता है कि स्मार्ट टैग को साफ़ किया जाना चाहिए। कोई विरासत लागू नहीं। पढ़ने/लिखने योग्य Boolean। |
 
 ## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [GetEffective](../../aspose.slides/iportionformat/geteffective)() | विरासत लागू किए हुए प्रभावी पोर्शन फ़ॉर्मैटिंग डेटा प्राप्त करता है। |
+| [GetEffective](../../aspose.slides/iportionformat/geteffective)() | विरासत लागू होने के साथ प्रभावी भाग स्वरूपण डेटा प्राप्त करता है। |
 
 ### टिप्पणी
 
-इस क्लास का उपयोग विशेष भाग के लिए परिभाषित टेक्स्ट पोर्शन फ़ॉर्मैटिंग गुणों को लौटाने और संशोधित करने के लिए किया जाता है। इसका मतलब है कि मान प्राप्त करते समय कोई विरासत लागू नहीं होती, इसलिए अधिकांश मामलों में आपको "अपरिभाषित" अर्थ वाले मान मिलेंगे।
+यह क्लास विशेष भाग के लिए परिभाषित टेक्स्ट भाग स्वरूपण गुणों को लौटाने और संशोधित करने के लिए उपयोग किया जाता है। इसका अर्थ है कि मान प्राप्त करते समय कोई विरासत लागू नहीं होती, इसलिए अधिकांश मामलों में आपको "अपरिभाषित" अर्थ वाले मान मिलेंगे।
 
-विरासत सहित प्रभावी फ़ॉर्मैटिंग पैरामीटर मूल्यों को प्राप्त करने के लिए आपको [`GetEffective`](./geteffective) मेथड का उपयोग करना होगा जो एक [`IPortionFormatEffectiveData`](../iportionformateffectivedata) इंस्टेंस लौटाता है।
+इनहेरिटेड सहित प्रभावी स्वरूपण पैरामीटर मान प्राप्त करने के लिए आपको [`GetEffective`](./geteffective) विधि का उपयोग करना होगा जो एक [`IPortionFormatEffectiveData`](../iportionformateffectivedata) इंस्टेंस वापस करती है।
 
 ### देखें
 

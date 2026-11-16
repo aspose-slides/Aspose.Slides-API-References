@@ -1,9 +1,9 @@
 ---
 title: StreamWrapperFactory
-second_title: Aspose.Sildes cho Tham chiếu API .NET
+second_title: Tham khảo API Aspose.Sildes cho .NET
 description: Factory của StreamWrappers. Dành cho giao diện COM.
 type: docs
-weight: 10760
+weight: 10780
 url: /vi/aspose.slides/streamwrapperfactory/
 ---
 ## StreamWrapperFactory lớp
@@ -14,20 +14,20 @@ Factory của StreamWrappers. Dành cho giao diện COM.
 public class StreamWrapperFactory : IStreamWrapperFactory
 ```
 
-## Các hàm khởi tạo
+## Hàm khởi tạo
 
 | Tên | Mô tả |
 | --- | --- |
 | [StreamWrapperFactory](streamwrapperfactory)() | Hàm khởi tạo mặc định. |
 
-## Các phương thức
+## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
 | [CreateFileStreamWrapper](../../aspose.slides/streamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper)(string, FileMode) | Tạo FileStream với đường dẫn và chế độ tạo được chỉ định. |
 | [CreateFileStreamWrapper](../../aspose.slides/streamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper_1)(string, FileMode, FileAccess) | Tạo FileStream với đường dẫn, chế độ tạo và quyền đọc/ghi được chỉ định. |
-| [CreateMemoryStreamWrapper](../../aspose.slides/streamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper)() | Tạo wrapper MemoryStream. |
-| [CreateMemoryStreamWrapper](../../aspose.slides/streamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper_1)(byte[]) | Tạo wrapper MemoryStream dựa trên mảng byte được chỉ định. |
+| [CreateMemoryStreamWrapper](../../aspose.slides/streamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper)() | Tạo bộ bao MemoryStream. |
+| [CreateMemoryStreamWrapper](../../aspose.slides/streamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper_1)(byte[]) | Tạo bộ bao MemoryStream dựa trên mảng byte được chỉ định. |
 
 ### Xem thêm
 

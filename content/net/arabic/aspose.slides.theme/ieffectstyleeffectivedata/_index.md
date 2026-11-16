@@ -1,14 +1,14 @@
 ---
 title: IEffectStyleEffectiveData
-second_title: مرجع API لـ Aspose.Sildes لـ .NET
-description: كائن غير قابل للتغيير يحتوي على خصائص نمط التأثير الفعلي.
+second_title: مرجع API لـ Aspose.Sildes for .NET
+description: كائن غير قابل للتغيير يحتوي على خصائص نمط التأثير الفعّال.
 type: docs
-weight: 11200
+weight: 11220
 url: /ar/aspose.slides.theme/ieffectstyleeffectivedata/
 ---
 ## IEffectStyleEffectiveData واجهة
 
-كائن غير قابل للتغيير يحتوي على خصائص نمط التأثير الفعلي.
+كائن غير قابل للتغيير يحتوي على خصائص نمط التأثير الفعّال.
 
 ```csharp
 public interface IEffectStyleEffectiveData
@@ -18,14 +18,14 @@ public interface IEffectStyleEffectiveData
 
 | الاسم | الوصف |
 | --- | --- |
-| [EffectFormat](../../aspose.slides.theme/ieffectstyleeffectivedata/effectformat) { get; } | إرجاع تنسيق تأثير. للقراءة فقط [`IEffectFormatEffectiveData`](../../aspose.slides/ieffectformateffectivedata). |
-| [ThreeDFormat](../../aspose.slides.theme/ieffectstyleeffectivedata/threedformat) { get; } | إرجاع تنسيق ثلاثي الأبعاد. للقراءة فقط [`IThreeDFormatEffectiveData`](../../aspose.slides/ithreedformateffectivedata). |
+| [EffectFormat](../../aspose.slides.theme/ieffectstyleeffectivedata/effectformat) { get; } | يرجع تنسيق تأثير. للقراءة فقط [`IEffectFormatEffectiveData`](../../aspose.slides/ieffectformateffectivedata). |
+| [ThreeDFormat](../../aspose.slides.theme/ieffectstyleeffectivedata/threedformat) { get; } | يرجع تنسيق ثلاثي الأبعاد. للقراءة فقط [`IThreeDFormatEffectiveData`](../../aspose.slides/ithreedformateffectivedata). |
 
 ### ملاحظات
 
-يتم استخدام هذه الواجهة كجزء من [`IEffectStyleCollectionEffectiveData`](../ieffectstylecollectioneffectivedata).
+تُستخدم هذه الواجهة كجزء من [`IEffectStyleCollectionEffectiveData`](../ieffectstylecollectioneffectivedata).
 
-### انظر أيضاً
+### أنظر أيضًا
 
 * مساحة الاسم [Aspose.Slides.Theme](../../aspose.slides.theme)
 * تجميع [Aspose.Slides](../../)

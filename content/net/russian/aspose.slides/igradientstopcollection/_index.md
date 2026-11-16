@@ -1,9 +1,9 @@
 ---
 title: IGradientStopCollection
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Aspose.Sildes для .NET API справочник
 description: Представляет коллекцию градиентных остановок.
 type: docs
-weight: 6030
+weight: 6050
 url: /ru/aspose.slides/igradientstopcollection/
 ---
 ## IGradientStopCollection интерфейс
@@ -16,13 +16,13 @@ public interface IGradientStopCollection : IGenericCollection<IGradientStop>
 
 ## Свойства
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
 | [Item](../../aspose.slides/igradientstopcollection/item) { get; } | Возвращает градиентную остановку по индексу. |
 
 ## Методы
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
 | [Add](../../aspose.slides/igradientstopcollection/add#add_2)(float, Color) | Создает новую градиентную остановку и добавляет её в конец коллекции. |
 | [Add](../../aspose.slides/igradientstopcollection/add#add)(float, PresetColor) | Создает новую градиентную остановку и добавляет её в конец коллекции. |

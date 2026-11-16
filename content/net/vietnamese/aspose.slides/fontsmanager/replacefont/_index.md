@@ -1,9 +1,9 @@
 ---
 title: ReplaceFont
-second_title: Tài liệu tham khảo API Aspose.Sildes cho .NET
+second_title: Aspose.Sildes cho Tham chiếu API .NET
 description: Thay thế phông chữ trong bản trình chiếu
 type: docs
-weight: 100
+weight: 110
 url: /vi/aspose.slides/fontsmanager/replacefont/
 ---
 ## ReplaceFont(IFontData, IFontData) {#replacefont}
@@ -30,7 +30,7 @@ public void ReplaceFont(IFontData sourceFont, IFontData destFont)
 
 ## ReplaceFont(IFontSubstRule) {#replacefont_1}
 
-Thay thế phông chữ trong bản trình chiếu bằng thông tin được cung cấp trong [`FontSubstRule`](../../fontsubstrule)
+Thay thế phông chữ trong bản trình chiếu sử dụng thông tin được cung cấp trong [`FontSubstRule`](../../fontsubstrule)
 
 ```csharp
 public void ReplaceFont(IFontSubstRule substRule)
@@ -51,7 +51,7 @@ public void ReplaceFont(IFontSubstRule substRule)
 
 ## ReplaceFont(IFontSubstRuleCollection) {#replacefont_2}
 
-Thay thế phông chữ trong bản trình chiếu bằng thông tin được cung cấp trong bộ sưu tập của [`FontSubstRule`](../../fontsubstrule)
+Thay thế phông chữ trong bản trình chiếu sử dụng thông tin được cung cấp trong bộ sưu tập của [`FontSubstRule`](../../fontsubstrule)
 
 ```csharp
 public void ReplaceFont(IFontSubstRuleCollection substRules)

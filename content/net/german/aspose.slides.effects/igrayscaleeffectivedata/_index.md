@@ -1,24 +1,23 @@
 ---
 title: IGrayScaleEffectiveData
 second_title: Aspose.Sildes für .NET API Referenz
-description: Unveränderliches Objekt, das einen Graustufeneffekt darstellt. Konvertiert alle Effekt-Farbwerte in einen Grauton, der ihrer Luminanz entspricht. Alpha-Opazitätswerte des Effekts bleiben unverändert.
+description: Unveränderliches Objekt, das einen Graustufen-Effekt darstellt. Konvertiert alle Farbwerte des Effekts in einen Grauton, der ihrer Leuchtdichte entspricht. Alpha-Undurchsichtigkeitswerte des Effekts bleiben unverändert.
 type: docs
-weight: 3350
+weight: 3370
 url: /de/aspose.slides.effects/igrayscaleeffectivedata/
 ---
 ## IGrayScaleEffectiveData Schnittstelle
 
-Unveränderliches Objekt, das einen Graustufeneffekt darstellt. Konvertiert alle Farbwerte des Effekts in einen Grauton, der ihrer Luminanz entspricht. Alpha-Werte (Transparenz) des Effekts bleiben unverändert.
+Unveränderliches Objekt, das einen Graustufen-Effekt darstellt. Konvertiert alle Farbwerte des Effekts in einen Grauton, der ihrer Leuchtdichte entspricht. Alpha-Werte (Undurchsichtigkeit) des Effekts bleiben unverändert.
 
 ```csharp
 public interface IGrayScaleEffectiveData : IEffectEffectiveData
 ```
-
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/igrayscaleeffectivedata/asieffecteffectivedata) { get; } | Ermöglicht das Abrufen der Basis-IEffectEffectiveData-Schnittstelle. Nur lesbar [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/igrayscaleeffectivedata/asieffecteffectivedata) { get; } | Ermöglicht das Abrufen der Basisschnittstelle IEffectEffectiveData. Nur lesbar [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
 ### Siehe auch
 

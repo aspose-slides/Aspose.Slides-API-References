@@ -1,14 +1,14 @@
 ---
 title: ITextFrame
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึง TextFrame.
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: เป็นตัวแทนของ TextFrame.
 type: docs
-weight: 7270
+weight: 7290
 url: /th/aspose.slides/itextframe/
 ---
 ## ITextFrame อินเทอร์เฟซ
 
-แสดงถึง TextFrame.
+เป็นตัวแทนของ TextFrame.
 
 ```csharp
 public interface ITextFrame : ISlideComponent
@@ -18,25 +18,26 @@ public interface ITextFrame : ISlideComponent
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides/itextframe/asislidecomponent) { get; } | อนุญาตให้รับอินเทอร์เฟซ ISlideComponent พื้นฐาน. อ่านอย่างเดียว [`ISlideComponent`](../islidecomponent). |
-| [HyperlinkQueries](../../aspose.slides/itextframe/hyperlinkqueries) { get; } | ให้การเข้าถึงไฮเปอร์ลิงก์ที่บรรจุอย่างง่าย. อ่านอย่างเดียว [`IHyperlinkQueries`](../ihyperlinkqueries). |
-| [Paragraphs](../../aspose.slides/itextframe/paragraphs) { get; } | ส่งคืนรายการของย่อหน้าทั้งหมดในกรอบ. อ่านอย่างเดียว [`IParagraphCollection`](../iparagraphcollection). |
-| [ParentCell](../../aspose.slides/itextframe/parentcell) { get; } | ส่งคืนเซลล์พาเรนท์หรือ null หากอ็อบเจ็กต์พาเรนท์ไม่ได้ทำตามอินเทอร์เฟซ ICell. อ่านอย่างเดียว [`ICell`](../icell). |
-| [ParentShape](../../aspose.slides/itextframe/parentshape) { get; } | ส่งคืนรูปร่างพาเรนท์หรือ null หากอ็อบเจ็กต์พาเรนท์ไม่ได้ทำตามอินเทอร์เฟซ IShape. อ่านอย่างเดียว [`IShape`](../ishape). |
+| [AsISlideComponent](../../aspose.slides/itextframe/asislidecomponent) { get; } | อนุญาตให้เข้าถึงอินเทอร์เฟซ ISlideComponent พื้นฐาน. อ่านอย่างเดียว [`ISlideComponent`](../islidecomponent). |
+| [HyperlinkQueries](../../aspose.slides/itextframe/hyperlinkqueries) { get; } | ให้การเข้าถึงลิงก์ไฮเปอร์เท็กซ์ที่อยู่ภายในอย่างง่ายดาย. อ่านอย่างเดียว [`IHyperlinkQueries`](../ihyperlinkqueries). |
+| [Paragraphs](../../aspose.slides/itextframe/paragraphs) { get; } | คืนรายการของย่อหน้าทั้งหมดในกรอบ. อ่านอย่างเดียว [`IParagraphCollection`](../iparagraphcollection). |
+| [ParentCell](../../aspose.slides/itextframe/parentcell) { get; } | คืนเซลล์พาเรนต์หรือ null หากอ็อบเจ็กต์พาเรนต์ไม่ได้ทำงานตามอินเทอร์เฟซ ICell. อ่านอย่างเดียว [`ICell`](../icell). |
+| [ParentShape](../../aspose.slides/itextframe/parentshape) { get; } | คืนรูปทรงพาเรนต์หรือ null หากอ็อบเจ็กต์พาเรนต์ไม่ได้ทำงานตามอินเทอร์เฟซ IShape อ่านอย่างเดียว [`IShape`](../ishape). |
 | [Text](../../aspose.slides/itextframe/text) { get; set; } | รับหรือกำหนดข้อความธรรมดาสำหรับ TextFrame. อ่าน/เขียน String. |
-| [TextFrameFormat](../../aspose.slides/itextframe/textframeformat) { get; } | ส่งคืนอ็อบเจ็กต์การจัดรูปแบบสำหรับอ็อบเจ็กต์ TextFrame นี้. อ่านอย่างเดียว [`ITextFrameFormat`](../itextframeformat). |
+| [TextFrameFormat](../../aspose.slides/itextframe/textframeformat) { get; } | คืนออบเจ็กต์การจัดรูปแบบสำหรับออบเจ็กต์ TextFrame นี้. อ่านอย่างเดียว [`ITextFrameFormat`](../itextframeformat). |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [HighlightRegex](../../aspose.slides/itextframe/highlightregex#highlightregex_1)(Regex, Color, IFindResultCallback) | เน้นสีทั้งหมดที่ตรงกับนิพจน์ปกติด้วยสีที่ระบุ. |
-| [HighlightText](../../aspose.slides/itextframe/highlighttext#highlighttext)(string, Color) | เน้นสีทั้งหมดที่ตรงกับข้อความตัวอย่างด้วยสีที่ระบุ. |
-| [HighlightText](../../aspose.slides/itextframe/highlighttext#highlighttext_2)(string, Color, ITextSearchOptions, IFindResultCallback) | เน้นสีทั้งหมดที่ตรงกับข้อความตัวอย่างด้วยสีที่ระบุ. |
-| [JoinPortionsWithSameFormatting](../../aspose.slides/itextframe/joinportionswithsameformatting)() | รวมรันที่มีการจัดรูปแบบเดียวกันในทุกย่อหน้า. |
-| [ReplaceRegex](../../aspose.slides/itextframe/replaceregex)(Regex, string, IFindResultCallback) | แทนที่ทั้งหมดที่ตรงกับนิพจน์ปกติกับสตริงที่ระบุ. |
-| [ReplaceText](../../aspose.slides/itextframe/replacetext)(string, string, ITextSearchOptions, IFindResultCallback) | แทนที่ทุกการพบของข้อความที่ระบุด้วยข้อความที่ระบุอีกข้อความหนึ่ง. |
-| [SplitTextByColumns](../../aspose.slides/itextframe/splittextbycolumns)() | แยกเนื้อหาข้อความของ [`ITextFrame`](../itextframe) เป็นอาเรย์ของสตริง ซึ่งแต่ละองค์ประกอบสอดคล้องกับคอลัมน์ข้อความแยกภายในกรอบ. |
+| [GetTextRect](../../aspose.slides/itextframe/gettextrect)() | รับสี่เหลี่ยมข้อความที่กำหนดโดยรูปทรงพาเรนต์. |
+| [HighlightRegex](../../aspose.slides/itextframe/highlightregex#highlightregex_1)(Regex, Color, IFindResultCallback) | เน้นข้อความที่ตรงกับ regular expression ทั้งหมดด้วยสีที่ระบุ. |
+| [HighlightText](../../aspose.slides/itextframe/highlighttext#highlighttext)(string, Color) | เน้นข้อความตัวอย่างทั้งหมดด้วยสีที่ระบุ. |
+| [HighlightText](../../aspose.slides/itextframe/highlighttext#highlighttext_2)(string, Color, ITextSearchOptions, IFindResultCallback) | เน้นข้อความตัวอย่างทั้งหมดด้วยสีที่ระบุ. |
+| [JoinPortionsWithSameFormatting](../../aspose.slides/itextframe/joinportionswithsameformatting)() | รวม run ที่มีการจัดรูปแบบเดียวกันในทุกย่อหน้า. |
+| [ReplaceRegex](../../aspose.slides/itextframe/replaceregex)(Regex, string, IFindResultCallback) | แทนที่ทุกการจับคู่ของ regular expression ด้วยสตริงที่ระบุ. |
+| [ReplaceText](../../aspose.slides/itextframe/replacetext)(string, string, ITextSearchOptions, IFindResultCallback) | แทนที่การเกิดขึ้นทั้งหมดของข้อความที่ระบุด้วยข้อความที่ระบุอื่น. |
+| [SplitTextByColumns](../../aspose.slides/itextframe/splittextbycolumns)() | แยกเนื้อความข้อความของ [`ITextFrame`](../itextframe) เป็นอาร์เรย์ของสตริง, โดยแต่ละองค์ประกอบสอดคล้องกับคอลัมน์ข้อความแยกในกรอบ. |
 
 ### ดูเพิ่มเติม
 

@@ -1,14 +1,14 @@
 ---
 title: LeaderLinesFormat
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Geeft het formaat van de leidende lijnen van datalabels weer. Alleen-lezen IChartLinesFormataspose.slides.charts/ichartlinesformat.
+description: Geeft de opmaak van de leiderslijnen van gegevenslabels weer. Alleen-lezen IChartLinesFormataspose.slides.charts/ichartlinesformat.
 type: docs
-weight: 70
+weight: 80
 url: /nl/aspose.slides.charts/datalabelcollection/leaderlinesformat/
 ---
 ## DataLabelCollection.LeaderLinesFormat eigenschap
 
-Geeft het format van de leidende lijnen van datalabels weer. Alleen-lezen [`IChartLinesFormat`](../../ichartlinesformat).
+Geeft de opmaak van de leiderslijnen van gegevenslabels weer. Alleen-lezen [`IChartLinesFormat`](../../ichartlinesformat).
 
 ```csharp
 public IChartLinesFormat LeaderLinesFormat { get; }

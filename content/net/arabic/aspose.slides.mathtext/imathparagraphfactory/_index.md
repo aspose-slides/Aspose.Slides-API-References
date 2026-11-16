@@ -3,7 +3,7 @@ title: IMathParagraphFactory
 second_title: مرجع API لـ Aspose.Sildes لـ .NET
 description: يسمح بإنشاء فقرة رياضية
 type: docs
-weight: 8400
+weight: 8420
 url: /ar/aspose.slides.mathtext/imathparagraphfactory/
 ---
 ## IMathParagraphFactory واجهة
@@ -25,7 +25,7 @@ public interface IMathParagraphFactory
 
 للتوافق مع COM
 
-### أنظر أيضًا
+### انظر أيضًا
 
 * مساحة الاسم [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * التجميع [Aspose.Slides](../../)

@@ -1,9 +1,9 @@
 ---
 title: PptOptions
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Biedt opties die bepalen hoe een presentatie wordt opgeslagen in PPT-formaat.
+description: Biedt opties die bepalen hoe een presentatie wordt opgeslagen in PPT-indeling.
 type: docs
-weight: 4360
+weight: 4380
 url: /nl/aspose.slides.export/pptoptions/
 ---
 ## PptOptions klasse
@@ -16,20 +16,20 @@ public class PptOptions : SaveOptions, IPptOptions
 
 ## Constructoren
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
 | [PptOptions](pptoptions)() | De standaardconstructor. |
 
 ## Eigenschappen
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Geeft of stelt het lettertype in dat wordt gebruikt wanneer het bronlettertype niet wordt gevonden. Lees/schrijf String. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Geeft of stelt de visuele stijl van de verloop in. Lees/schrijf [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Stelt een callback-object voor voor het bijwerken van de voortgang van het opslaan in procenten. Zie [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [RootDirectoryClsid](../../aspose.slides.export/pptoptions/rootdirectoryclsid) { get; set; } | Stelt de objectklasse-GUID (CLSID) voor die is opgeslagen in de hoofdmapinvoer. Kan worden gebruikt voor COM-activering van de applicatie van het document. De standaardwaarde is '64818D11-4F9B-11CF-86EA-00AA00B929E8' die overeenkomt met 'Microsoft Powerpoint.Slide.8'. |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Specificeert of hyperlinks met JavaScript-aanroepen moeten worden overgeslagen bij het opslaan van de presentatie. Lees/schrijf Boolean. De standaardwaarde is **false**. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Geeft een object terug of stelt het in dat waarschuwingen ontvangt en beslist of het laadproces wordt voortgezet of wordt afgebroken. Lees/schrijf [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Retourneert of stelt het lettertype in dat wordt gebruikt als het bronlettertype niet wordt gevonden. Lezen-schrijven String. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Retourneert of stelt de visuele stijl van de gradient in. Lezen/schrijven [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Stelt een callback-object voor het opslaan van voortgangsupdates in percentage voor. Zie [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [RootDirectoryClsid](../../aspose.slides.export/pptoptions/rootdirectoryclsid) { get; set; } | Stelt de object-klasse GUID (CLSID) voor die is opgeslagen in de root-directory-vermelding. Kan worden gebruikt voor COM-activatie van de toepassing van het document. De standaardwaarde is '64818D11-4F9B-11CF-86EA-00AA00B929E8' die overeenkomt met 'Microsoft Powerpoint.Slide.8'. |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Specificeert of hyperlinks met JavaScript-aanroepen moeten worden overgeslagen bij het opslaan van de presentatie. Lezen/schrijven Boolean. De standaardwaarde is **false**. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Retourneert of stelt een object in dat waarschuwingen ontvangt en beslist of het laadproces wordt voortgezet of wordt afgebroken. Lezen/schrijven [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Zie ook
 

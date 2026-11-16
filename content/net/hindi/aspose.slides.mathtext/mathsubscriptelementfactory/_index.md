@@ -1,9 +1,9 @@
 ---
 title: MathSubscriptElementFactory
-second_title: Aspose.Sildes for .NET API संदर्भ
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
 description: IMathSubscriptElement बनाने की अनुमति देता है
 type: docs
-weight: 9010
+weight: 9030
 url: /hi/aspose.slides.mathtext/mathsubscriptelementfactory/
 ---
 ## MathSubscriptElementFactory क्लास
@@ -14,21 +14,21 @@ IMathSubscriptElement बनाने की अनुमति देता ह
 public class MathSubscriptElementFactory : IMathSubscriptElementFactory
 ```
 
-## कंस्ट्रक्टर्स
+## निर्माताएँ
 
-| Name | Description |
+| नाम | विवरण |
 | --- | --- |
 | [MathSubscriptElementFactory](mathsubscriptelementfactory)() | डिफ़ॉल्ट कंस्ट्रक्टर। |
 
-## मेथड्स
+## विधियाँ
 
-| Name | Description |
+| नाम | विवरण |
 | --- | --- |
 | [CreateMathSubscriptElement](../../aspose.slides.mathtext/mathsubscriptelementfactory/createmathsubscriptelement)(IMathElement, IMathElement) | IMathSubscriptElement बनाता है |
 
-### टिप्पणी
+### टिप्पणियाँ
 
-COM संगतता हेतु
+COM संगतता के लिए
 
 ### देखें
 

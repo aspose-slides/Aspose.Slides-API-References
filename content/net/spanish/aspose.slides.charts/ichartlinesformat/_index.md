@@ -1,14 +1,14 @@
 ---
 title: IChartLinesFormat
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Representa las propiedades de formato de líneas de cuadrícula.
+description: Representa las propiedades de formato de líneas de la cuadrícula.
 type: docs
-weight: 1890
+weight: 1910
 url: /es/aspose.slides.charts/ichartlinesformat/
 ---
-## interface IChartLinesFormat
+## IChartLinesFormat interfaz
 
-Representa las propiedades de formato de las líneas de cuadrícula.
+Representa las propiedades de formato de líneas de la cuadrícula.
 
 ```csharp
 public interface IChartLinesFormat
@@ -18,7 +18,7 @@ public interface IChartLinesFormat
 
 | Nombre | Descripción |
 | --- | --- |
-| [Effect](../../aspose.slides.charts/ichartlinesformat/effect) { get; } | Devuelve los efectos usados para una línea de gráfico. Solo lectura [`IEffectFormat`](../../aspose.slides/ieffectformat). |
+| [Effect](../../aspose.slides.charts/ichartlinesformat/effect) { get; } | Devuelve los efectos utilizados para una línea de gráfico. Solo lectura [`IEffectFormat`](../../aspose.slides/ieffectformat). |
 | [Line](../../aspose.slides.charts/ichartlinesformat/line) { get; } | Devuelve las propiedades de estilo de línea de una línea de gráfico. Solo lectura [`ILineFormat`](../../aspose.slides/ilineformat). |
 
 ### Ver también

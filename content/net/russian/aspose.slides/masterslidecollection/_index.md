@@ -1,14 +1,14 @@
 ---
 title: MasterSlideCollection
-second_title: Aspose.Sildes для .NET справочник API
-description: Представляет коллекцию мастер-слайдов.
+second_title: Справочник API Aspose.Sildes для .NET
+description: Представляет коллекцию главных слайдов.
 type: docs
-weight: 8040
+weight: 8060
 url: /ru/aspose.slides/masterslidecollection/
 ---
 ## MasterSlideCollection класс
 
-Представляет коллекцию мастер-слайдов.
+Представляет коллекцию главных слайдов.
 
 ```csharp
 public sealed class MasterSlideCollection : DomObject<Presentation>, IMasterSlideCollection
@@ -18,24 +18,24 @@ public sealed class MasterSlideCollection : DomObject<Presentation>, IMasterSlid
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides/masterslidecollection/count) { get; } | Возвращает количество элементов, действительно содержащихся в коллекции. Только чтение Int32. |
-| [IsSynchronized](../../aspose.slides/masterslidecollection/issynchronized) { get; } | Возвращает значение, указывающее, синхронизирован ли доступ к коллекции (потокобезопасный). Только чтение Boolean. |
-| [Item](../../aspose.slides/masterslidecollection/item) { get; } | Возвращает элемент по указанному индексу. Только чтение [`MasterSlide`](../masterslide). |
-| [SyncRoot](../../aspose.slides/masterslidecollection/syncroot) { get; } | Возвращает корневой объект синхронизации. Только чтение Object. |
+| [Count](../../aspose.slides/masterslidecollection/count) { get; } | Получает количество элементов, фактически содержащихся в коллекции. Только для чтения Int32. |
+| [IsSynchronized](../../aspose.slides/masterslidecollection/issynchronized) { get; } | Возвращает значение, указывающее, синхронизирован ли доступ к коллекции (потокобезопасный). Только для чтения Boolean. |
+| [Item](../../aspose.slides/masterslidecollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения [`MasterSlide`](../masterslide). |
+| [SyncRoot](../../aspose.slides/masterslidecollection/syncroot) { get; } | Возвращает объект синхронизации. Только для чтения Object. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [AddClone](../../aspose.slides/masterslidecollection/addclone)(IMasterSlide) | Добавляет копию указанного мастер-слайда в конец коллекции. Связанные макеты слайдов также будут скопированы. |
+| [AddClone](../../aspose.slides/masterslidecollection/addclone)(IMasterSlide) | Добавляет копию указанного главного слайда в конец коллекции. Связанные макетные слайды также будут скопированы. |
 | [CopyTo](../../aspose.slides/masterslidecollection/copyto)(Array, int) | Копирует все элементы из коллекции в указанный массив. |
-| [GetEnumerator](../../aspose.slides/masterslidecollection/getenumerator)() | Возвращает перечислитель, проходящий по коллекции. |
-| [InsertClone](../../aspose.slides/masterslidecollection/insertclone)(int, IMasterSlide) | Вставляет копию указанного мастер-слайда в указанную позицию коллекции. Связанные макеты слайдов также будут скопированы. |
-| [Remove](../../aspose.slides/masterslidecollection/remove)(IMasterSlide) | Удаляет первое вхождение определённого объекта из коллекции. |
-| [RemoveAt](../../aspose.slides/masterslidecollection/removeat)(int) | Удаляет элемент по указанному индексу в коллекции. |
-| [RemoveUnused](../../aspose.slides/masterslidecollection/removeunused)(bool) | Удаляет неиспользуемые мастер-слайды. |
+| [GetEnumerator](../../aspose.slides/masterslidecollection/getenumerator)() | Возвращает перечислитель, который перебирает элементы коллекции. |
+| [InsertClone](../../aspose.slides/masterslidecollection/insertclone)(int, IMasterSlide) | Вставляет копию указанного главного слайда в указанную позицию коллекции. Связанные макетные слайды также будут скопированы. |
+| [Remove](../../aspose.slides/masterslidecollection/remove)(IMasterSlide) | Удаляет первое вхождение указанного объекта из коллекции. |
+| [RemoveAt](../../aspose.slides/masterslidecollection/removeat)(int) | Удаляет элемент по указанному индексу коллекции. |
+| [RemoveUnused](../../aspose.slides/masterslidecollection/removeunused)(bool) | Удаляет неиспользуемые главные слайды. |
 
-### Смотрите также
+### См. также
 
 * класс [DomObject&lt;TParent&gt;](../domobject-1)
 * класс [Presentation](../presentation)

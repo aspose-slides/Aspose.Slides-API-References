@@ -1,12 +1,12 @@
 ---
 title: TrendlineType
-second_title: Aspose.Sildes dla .NET – odniesienie API
+second_title: Aspose.Sildes dla .NET – odniesienie do API
 description: Reprezentuje typ linii trendu
 type: docs
-weight: 2490
+weight: 2510
 url: /pl/aspose.slides.charts/trendlinetype/
 ---
-## Wyliczenie TrendlineType
+## TrendlineType enumeracja
 
 Reprezentuje typ linii trendu
 
@@ -16,14 +16,14 @@ public enum TrendlineType
 
 ### Wartości
 
-| Nazwa | Wartość | Opis |
+| Name | Value | Description |
 | --- | --- | --- |
-| Exponential | `0` | Określa, że linia trendu powinna być krzywą wykładniczą w postaci. |
-| Linear | `1` | Określa, że linia trendu powinna być linią w postaci. |
-| Logarithmic | `2` | Określa, że linia trendu powinna być krzywą logarytmiczną w postaci, gdzie log jest logarytmem naturalnym. |
-| MovingAverage | `3` | Określa, że linia trendu powinna być średnią kroczącą okresu Period. |
-| Polynomial | `4` | Określa, że linia trendu powinna być krzywą wielomianową rzędu Order w postaci. |
-| Power | `5` | Określa, że linia trendu powinna być krzywą potęgową w postaci. |
+| Exponential | `0` | Określa, że linia trendu ma być krzywą wykładniczą w postaci. |
+| Linear | `1` | Określa, że linia trendu ma być linią w postaci. |
+| Logarithmic | `2` | Określa, że linia trendu ma być krzywą logarytmiczną w postaci, gdzie log jest logarytmem naturalnym. |
+| MovingAverage | `3` | Określa, że linia trendu ma być średnią kroczącą okresu Period. |
+| Polynomial | `4` | Określa, że linia trendu ma być krzywą wielomianową rzędu Order w postaci. |
+| Power | `5` | Określa, że linia trendu ma być krzywą potęgową w postaci. |
 
 ### Zobacz także
 

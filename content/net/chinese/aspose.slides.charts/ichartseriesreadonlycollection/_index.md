@@ -3,12 +3,12 @@ title: IChartSeriesReadonlyCollection
 second_title: Aspose.Sildes .NET API 参考
 description: 表示 IChartSeries 的只读集合./ichartseries
 type: docs
-weight: 1970
+weight: 1990
 url: /zh/aspose.slides.charts/ichartseriesreadonlycollection/
 ---
 ## IChartSeriesReadonlyCollection 接口
 
-表示 [`IChartSeries`](../ichartseries) 的只读集合
+表示一个只读集合 [`IChartSeries`](../ichartseries)
 
 ```csharp
 public interface IChartSeriesReadonlyCollection : IGenericCollection<IChartSeries>
@@ -20,7 +20,7 @@ public interface IChartSeriesReadonlyCollection : IGenericCollection<IChartSerie
 | --- | --- |
 | [Item](../../aspose.slides.charts/ichartseriesreadonlycollection/item) { get; } | 获取指定索引处的元素。 |
 
-### 另请参见
+### 参见
 
 * 接口 [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * 接口 [IChartSeries](../ichartseries)

@@ -1,14 +1,14 @@
 ---
 title: AlphaModulateFixed
 second_title: Aspose.Sildes için .NET API Referansı
-description: Alpha Modulate Fixed etkisini temsil eder. Etkinin alfa opaklık değerleri sabit bir yüzde ile çarpılır.
+description: Alfa Modüle Sabit etkisini temsil eder. Efektin alfa opaklık değerleri sabit bir yüzde ile çarpılır.
 type: docs
-weight: 2890
+weight: 2910
 url: /tr/aspose.slides.effects/alphamodulatefixed/
 ---
-## AlphaModulateFixed sınıf
+## AlphaModulateFixed sınıfı
 
-Alpha Modulate Fixed etkisini temsil eder. Etkinin alfa (opaklık) değerleri sabit bir yüzde ile çarpılır.
+Represents an Alpha Modulate Fixed effect. Effect alpha (opacity) values are multiplied by a fixed percentage.
 
 ```csharp
 public sealed class AlphaModulateFixed : ImageTransformOperation, IAlphaModulateFixed
@@ -16,20 +16,20 @@ public sealed class AlphaModulateFixed : ImageTransformOperation, IAlphaModulate
 
 ## Özellikler
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
-| [Amount](../../aspose.slides.effects/alphamodulatefixed/amount) { get; set; } | Yüzde olarak etkinin miktarını döndürür. Okuma/yazma Single. |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arayüzünü almayı sağlar. Sadece-okunur [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [Amount](../../aspose.slides.effects/alphamodulatefixed/amount) { get; set; } | Etkinin miktarını yüzde olarak döndürür. Okunur/Yazılır Single. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arayüzünü almayı sağlar. Salt-okunur [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Yöntemler
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/alphamodulatefixed/equals)(object) | Belirtilen [`AlphaModulateFixed`](../alphamodulatefixed) nesnenin mevcut [`AlphaModulateFixed`](../alphamodulatefixed) ile eşit olup olmadığını belirler. |
-| [GetEffective](../../aspose.slides.effects/alphamodulatefixed/geteffective)() | Kalıtım uygulanmış etkili Alpha Modulate Fixed efekt verilerini alır. |
-| override [GetHashCode](../../aspose.slides.effects/alphamodulatefixed/gethashcode)() | Belirli bir tür için bir karma (hash) işlevi olarak hizmet eder. |
+| override [Equals](../../aspose.slides.effects/alphamodulatefixed/equals)(object) | Belirtilen [`AlphaModulateFixed`](../alphamodulatefixed)'nin mevcut [`AlphaModulateFixed`](../alphamodulatefixed) ile eşit olup olmadığını belirler. |
+| [GetEffective](../../aspose.slides.effects/alphamodulatefixed/geteffective)() | Kalıtım uygulanmış etkili Alpha Modulate Fixed etkisi verilerini alır. |
+| override [GetHashCode](../../aspose.slides.effects/alphamodulatefixed/gethashcode)() | Belirli bir tip için hash işlevi olarak hizmet eder. |
 
-### Bakınız
+### Ayrıca Bakınız
 
 * sınıf [ImageTransformOperation](../imagetransformoperation)
 * arayüz [IAlphaModulateFixed](../ialphamodulatefixed)

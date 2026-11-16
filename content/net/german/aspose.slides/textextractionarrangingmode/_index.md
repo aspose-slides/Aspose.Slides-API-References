@@ -1,14 +1,14 @@
 ---
 title: TextExtractionArrangingMode
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Gibt den Modus an, der bei der Textextraktion verwendet wird
+description: Beschreibt den zu verwendenden Modus während der Textextraktion
 type: docs
-weight: 10940
+weight: 10960
 url: /de/aspose.slides/textextractionarrangingmode/
 ---
-## TextExtractionArrangingMode-Aufzählung
+## TextExtractionArrangingMode Aufzählung
 
-Gibt den Modus an, der bei der Textextraktion verwendet wird
+Beschreibt den Modus, der während der Textextraktion verwendet wird
 
 ```csharp
 public enum TextExtractionArrangingMode
@@ -19,7 +19,7 @@ public enum TextExtractionArrangingMode
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
 | Unarranged | `0` | Der Rohtext ohne Rücksicht auf die Position auf der Folie |
-| Arranged | `1` | Der Text ist in derselben Reihenfolge positioniert wie auf der Folie |
+| Arranged | `1` | Der Text ist in derselben Reihenfolge wie auf der Folie positioniert |
 
 ### Siehe auch
 

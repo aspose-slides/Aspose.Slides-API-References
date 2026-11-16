@@ -1,14 +1,14 @@
 ---
 title: PicturesCompression
-second_title: Aspose.Sildes para la referencia de API de .NET
-description: Representa el nivel de compresión de imágenes
+second_title: Referencia de API de Aspose.Sildes para .NET
+description: Representa el nivel de compresión de las imágenes
 type: docs
-weight: 4350
+weight: 4370
 url: /es/aspose.slides.export/picturescompression/
 ---
-## enumeración PicturesCompression
+## PicturesCompression enumeration
 
-Representa el nivel de compresión de imágenes
+Representa el nivel de compresión de las imágenes
 
 ```csharp
 public enum PicturesCompression
@@ -16,16 +16,16 @@ public enum PicturesCompression
 
 ### Valores
 
-| Nombre | Valor | Descripción |
+| Name | Value | Description |
 | --- | --- | --- |
 | Dpi330 | `0` | Buena calidad para pantallas de alta definición (HD) |
-| Dpi220 | `1` | Excelente calidad en la mayoría de impresoras y pantallas |
-| Dpi150 | `2` | Buena para páginas web y proyectores |
+| Dpi220 | `1` | Calidad excelente en la mayoría de impresoras y pantallas |
+| Dpi150 | `2` | Adecuada para páginas web y proyectores |
 | Dpi96 | `3` | Minimiza el tamaño del documento para compartir |
 | Dpi72 | `4` | Nivel de compresión predeterminado |
 | DocumentResolution | `5` | Utiliza la resolución del documento - la imagen no se comprimirá y se usará en el documento tal cual |
 
-### Ver también
+### Véase también
 
 * espacio de nombres [Aspose.Slides.Export](../../aspose.slides.export)
 * ensamblado [Aspose.Slides](../../)

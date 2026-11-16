@@ -1,9 +1,9 @@
 ---
 title: SetExternalWorkbook
 second_title: Referência da API Aspose.Sildes para .NET
-description: Define uma pasta de trabalho externa como fonte de dados para o gráfico. Os dados do gráfico serão atualizados a partir da pasta de trabalho de destino.
+description: Define a pasta de trabalho externa como fonte de dados para o gráfico. Os dados do gráfico serão atualizados a partir da pasta de trabalho de destino.
 type: docs
-weight: 120
+weight: 130
 url: /pt/aspose.slides.charts/ichartdata/setexternalworkbook/
 ---
 ## SetExternalWorkbook(string) {#setexternalworkbook}
@@ -20,9 +20,9 @@ public void SetExternalWorkbook(string workbookPath)
 
 ### Exceções
 
-| Exceção | Condição |
+| exceção | condição |
 | --- | --- |
-| InvalidOperationException | External workbook is not available or can't be loaded. |
+| InvalidOperationException | A pasta de trabalho externa não está disponível ou não pôde ser carregada. |
 
 ### Exemplos
 
@@ -55,13 +55,13 @@ public void SetExternalWorkbook(string workbookPath, bool updateChartData)
 | Parâmetro | Tipo | Descrição |
 | --- | --- | --- |
 | workbookPath | String | Caminho para a pasta de trabalho de destino |
-| updateChartData | Boolean | Se o valor for false, apenas o caminho da pasta de trabalho será atualizado. Os dados do gráfico não serão carregados nem atualizados a partir da pasta de trabalho de destino. Pode ser usado quando a pasta de trabalho de destino não existe ou não está disponível. Se o valor for true, os dados do gráfico serão atualizados a partir da pasta de trabalho de destino. |
+| updateChartData | Boolean | Se o valor for false, somente o caminho da pasta de trabalho será atualizado. Os dados do gráfico não serão carregados nem atualizados a partir da pasta de trabalho de destino. Pode ser usado quando a pasta de trabalho de destino não existe ou não está disponível. Se o valor for true, os dados do gráfico serão atualizados a partir da pasta de trabalho de destino. |
 
 ### Exceções
 
-| Exceção | Condição |
+| exceção | condição |
 | --- | --- |
-| InvalidOperationException | External workbook is not available or can't be loaded. |
+| InvalidOperationException | A pasta de trabalho externa não está disponível ou não pôde ser carregada. |
 
 ### Exemplos
 

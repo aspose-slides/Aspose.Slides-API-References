@@ -3,7 +3,7 @@ title: ColorValue
 second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
 description: ส่งคืนค่สีของจุดข้อมูลแผนภูมิ. ใช้กับแผนภูมิแผนที่. อ่านอย่างเดียว IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
-weight: 60
+weight: 100
 url: /th/aspose.slides.charts/chartdatapoint/colorvalue/
 ---
 ## ChartDataPoint.ColorValue คุณสมบัติ

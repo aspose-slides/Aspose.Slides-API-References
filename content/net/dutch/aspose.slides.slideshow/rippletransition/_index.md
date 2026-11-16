@@ -3,12 +3,12 @@ title: RippleTransition
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Ripple diaovergangseffect.
 type: docs
-weight: 10290
+weight: 10310
 url: /nl/aspose.slides.slideshow/rippletransition/
 ---
-## RippleTransition class
+## RippleTransition klasse
 
-Ripple slide transition effect.
+Ripple dia-overgangseffect.
 
 ```csharp
 public class RippleTransition : TransitionValueBase, IRippleTransition
@@ -18,16 +18,16 @@ public class RippleTransition : TransitionValueBase, IRippleTransition
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/rippletransition/direction) { get; set; } | Direction of transition. Lezen/schrijven [`TransitionCornerAndCenterDirectionType`](../transitioncornerandcenterdirectiontype). |
+| [Direction](../../aspose.slides.slideshow/rippletransition/direction) { get; set; } | Richting van de overgang. Lezen/schrijven [`TransitionCornerAndCenterDirectionType`](../transitioncornerandcenterdirectiontype). |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Determines whether the two TransitionValueBase instances are equal. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Bepaalt of de twee TransitionValueBase-instanties gelijk zijn. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Dient als een hashfunctie voor een bepaald type, geschikt voor gebruik in hash-algoritmen en datastructuren zoals een hashtabel. |
 
-### Zie ook
+### Zie Ook
 
 * klasse [TransitionValueBase](../transitionvaluebase)
 * interface [IRippleTransition](../irippletransition)

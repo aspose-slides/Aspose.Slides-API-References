@@ -3,12 +3,12 @@ title: IPresentationText
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt den aus der Folie extrahierten Text dar
 type: docs
-weight: 6800
+weight: 6820
 url: /de/aspose.slides/ipresentationtext/
 ---
 ## IPresentationText Schnittstelle
 
-Stellt den aus der Folie extrahierten Text dar.
+Stellt den aus der Folie extrahierten Text dar
 
 ```csharp
 public interface IPresentationText

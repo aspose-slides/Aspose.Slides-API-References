@@ -3,7 +3,7 @@ title: IColumn
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili sebuah kolom dalam tabel.
 type: docs
-weight: 5520
+weight: 5540
 url: /id/aspose.slides/icolumn/
 ---
 ## IColumn antarmuka
@@ -16,11 +16,11 @@ public interface IColumn : IBulkTextFormattable, ICellCollection
 
 ## Properti
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
-| [AsIBulkTextFormattable](../../aspose.slides/icolumn/asibulktextformattable) { get; } | Mengizinkan untuk mendapatkan antarmuka dasar IBulkTextFormattable. Baca-saja [`IBulkTextFormattable`](../ibulktextformattable). |
-| [AsICellCollection](../../aspose.slides/icolumn/asicellcollection) { get; } | Mengizinkan untuk mendapatkan antarmuka dasar ICellCollection. Baca-saja [`ICellCollection`](../icellcollection). |
-| [ColumnFormat](../../aspose.slides/icolumn/columnformat) { get; } | Mengembalikan objek ColumnFormat yang berisi properti pemformatan untuk kolom ini. Baca-saja [`IColumnFormat`](../icolumnformat). |
+| [AsIBulkTextFormattable](../../aspose.slides/icolumn/asibulktextformattable) { get; } | Mengizinkan untuk mendapatkan antarmuka dasar IBulkTextFormattable. Hanya-baca [`IBulkTextFormattable`](../ibulktextformattable). |
+| [AsICellCollection](../../aspose.slides/icolumn/asicellcollection) { get; } | Mengizinkan untuk mendapatkan antarmuka dasar ICellCollection. Hanya-baca [`ICellCollection`](../icellcollection). |
+| [ColumnFormat](../../aspose.slides/icolumn/columnformat) { get; } | Mengembalikan objek ColumnFormat yang berisi properti pemformatan untuk kolom ini. Hanya-baca [`IColumnFormat`](../icolumnformat). |
 | [Width](../../aspose.slides/icolumn/width) { get; set; } | Mengembalikan atau mengatur lebar sebuah kolom. Baca/tulis Double. |
 
 ### Lihat Juga

@@ -1,14 +1,14 @@
 ---
 title: ISwfOptions
-second_title: Aspose.Sildes для .NET – справочник API
-description: Предоставляет параметры, управляющие тем, как презентация сохраняется в формате SWF.
+second_title: Справка API Aspose.Sildes для .NET
+description: Предоставляет параметры, которые контролируют, как презентация сохраняется в формате SWF.
 type: docs
-weight: 4150
+weight: 4170
 url: /ru/aspose.slides.export/iswfoptions/
 ---
 ## ISwfOptions интерфейс
 
-Предоставляет параметры, управляющие тем, как презентация сохраняется в формате SWF.
+Предоставляет параметры, которые контролируют, как презентация сохраняется в формате SWF.
 
 ```csharp
 public interface ISwfOptions : ISaveOptions
@@ -19,22 +19,22 @@ public interface ISwfOptions : ISaveOptions
 | Имя | Описание |
 | --- | --- |
 | [AsISaveOptions](../../aspose.slides.export/iswfoptions/asisaveoptions) { get; } | Возвращает интерфейс ISaveOptions. Только для чтения [`ISaveOptions`](../isaveoptions). |
-| [Compressed](../../aspose.slides.export/iswfoptions/compressed) { get; set; } | Указывает, должен ли сгенерированный документ SWF быть сжатым или нет. По умолчанию `true`. |
-| [EnableContextMenu](../../aspose.slides.export/iswfoptions/enablecontextmenu) { get; set; } | Включить/отключить контекстное меню. По умолчанию true. |
+| [Compressed](../../aspose.slides.export/iswfoptions/compressed) { get; set; } | Указывает, следует ли сжимать генерируемый документ SWF. По умолчанию `true`. |
+| [EnableContextMenu](../../aspose.slides.export/iswfoptions/enablecontextmenu) { get; set; } | Включить/отключить контекстное меню. По умолчанию `true`. |
 | [JpegQuality](../../aspose.slides.export/iswfoptions/jpegquality) { get; set; } | Указывает качество JPEG-изображений. По умолчанию 95. |
-| [LogoImageBytes](../../aspose.slides.export/iswfoptions/logoimagebytes) { get; set; } | Изображение, которое будет отображаться в качестве логотипа в правом верхнем углу просмотрщика. Изображение должно быть PNG размером 32×64 пикселя, иначе логотип может отображаться некорректно. |
-| [LogoLink](../../aspose.slides.export/iswfoptions/logolink) { get; set; } | Получает или задает полный гиперссылочный адрес для логотипа. Имеет эффект только если указано [`LogoImageBytes`](./logoimagebytes). |
-| [ShowBottomPane](../../aspose.slides.export/iswfoptions/showbottompane) { get; set; } | Показать/скрыть нижнюю панель. Может быть переопределено в flashvars. По умолчанию true. |
-| [ShowFullScreen](../../aspose.slides.export/iswfoptions/showfullscreen) { get; set; } | Показать/скрыть кнопку полноэкранного режима. Может быть переопределено в flashvars. По умолчанию true. |
-| [ShowHiddenSlides](../../aspose.slides.export/iswfoptions/showhiddenslides) { get; set; } | Указывает, должен ли сгенерированный документ включать скрытые слайды или нет. По умолчанию `false`. |
-| [ShowLeftPane](../../aspose.slides.export/iswfoptions/showleftpane) { get; set; } | Показать/скрыть левую панель. Может быть переопределено в flashvars. По умолчанию true. |
-| [ShowPageBorder](../../aspose.slides.export/iswfoptions/showpageborder) { get; set; } | Указывает, должна ли отображаться рамка вокруг страниц. По умолчанию true. |
-| [ShowPageStepper](../../aspose.slides.export/iswfoptions/showpagestepper) { get; set; } | Показать/скрыть переключатель страниц. Может быть переопределено в flashvars. По умолчанию true. |
-| [ShowSearch](../../aspose.slides.export/iswfoptions/showsearch) { get; set; } | Показать/скрыть раздел поиска. Может быть переопределено в flashvars. По умолчанию true. |
-| [ShowTopPane](../../aspose.slides.export/iswfoptions/showtoppane) { get; set; } | Показать/скрыть всю верхнюю панель. Может быть переопределено в flashvars. По умолчанию true. |
-| [SlidesLayoutOptions](../../aspose.slides.export/iswfoptions/slideslayoutoptions) { get; set; } | Получает или задает режим размещения слайдов на странице при экспорте презентации [`ISlidesLayoutOptions`](../islideslayoutoptions). Это свойство не поддерживает присвоение объектов типа `Aspose.Slides.Export.HandoutLayoutingOptions` |
-| [StartOpenLeftPane](../../aspose.slides.export/iswfoptions/startopenleftpane) { get; set; } | Начинать с открытой левой панели. Может быть переопределено в flashvars. По умолчанию false. |
-| [ViewerIncluded](../../aspose.slides.export/iswfoptions/viewerincluded) { get; set; } | Указывает, должен ли сгенерированный документ SWF включать встроенный просмотрщик документа или нет. По умолчанию `true`. |
+| [LogoImageBytes](../../aspose.slides.export/iswfoptions/logoimagebytes) { get; set; } | Изображение, которое будет отображено как логотип в правом верхнем углу просмотрщика. Должно быть PNG-изображение размером 32×64 пикселей, иначе логотип может отображаться некорректно. |
+| [LogoLink](../../aspose.slides.export/iswfoptions/logolink) { get; set; } | Получает или задает полный адрес гиперссылки для логотипа. Действует только при указании [`LogoImageBytes`](./logoimagebytes). |
+| [ShowBottomPane](../../aspose.slides.export/iswfoptions/showbottompane) { get; set; } | Показать/скрыть нижнюю панель. Может быть переопределено в flashvars. По умолчанию `true`. |
+| [ShowFullScreen](../../aspose.slides.export/iswfoptions/showfullscreen) { get; set; } | Показать/скрыть кнопку полноэкранного режима. Может быть переопределено в flashvars. По умолчанию `true`. |
+| [ShowHiddenSlides](../../aspose.slides.export/iswfoptions/showhiddenslides) { get; set; } | Указывает, следует ли включать скрытые слайды в генерируемый документ. По умолчанию `false`. |
+| [ShowLeftPane](../../aspose.slides.export/iswfoptions/showleftpane) { get; set; } | Показать/скрыть левую панель. Может быть переопределено в flashvars. По умолчанию `true`. |
+| [ShowPageBorder](../../aspose.slides.export/iswfoptions/showpageborder) { get; set; } | Указывает, следует ли показывать границу вокруг страниц. По умолчанию `true`. |
+| [ShowPageStepper](../../aspose.slides.export/iswfoptions/showpagestepper) { get; set; } | Показать/скрыть переключатель страниц. Может быть переопределено в flashvars. По умолчанию `true`. |
+| [ShowSearch](../../aspose.slides.export/iswfoptions/showsearch) { get; set; } | Показать/скрыть секцию поиска. Может быть переопределено в flashvars. По умолчанию `true`. |
+| [ShowTopPane](../../aspose.slides.export/iswfoptions/showtoppane) { get; set; } | Показать/скрыть всю верхнюю панель. Может быть переопределено в flashvars. По умолчанию `true`. |
+| [SlidesLayoutOptions](../../aspose.slides.export/iswfoptions/slideslayoutoptions) { get; set; } | Получает или задает режим размещения слайдов на странице при экспорте презентации [`ISlidesLayoutOptions`](../islideslayoutoptions). Это свойство не поддерживает назначение объектов типа `Aspose.Slides.Export.HandoutLayoutingOptions`. |
+| [StartOpenLeftPane](../../aspose.slides.export/iswfoptions/startopenleftpane) { get; set; } | Начинать с открытой левой панелью. Может быть переопределено в flashvars. По умолчанию `false`. |
+| [ViewerIncluded](../../aspose.slides.export/iswfoptions/viewerincluded) { get; set; } | Указывает, следует ли включать встроенный просмотрщик документа в генерируемый документ SWF. По умолчанию `true`. |
 
 ### См. также
 

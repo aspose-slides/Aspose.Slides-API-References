@@ -1,14 +1,14 @@
 ---
 title: ITextFrameFormatEffectiveData
-second_title: Aspose.Sildes لمرجع API .NET
-description: كائن غير قابل للتغيير يحتوي على خصائص تنسيق إطار النص الفعّالة.
+second_title: Aspose.Sildes لـ .NET مرجع API
+description: كائن غير قابل للتغيير يحتوي على خصائص تنسيق إطار النص الفعّال.
 type: docs
-weight: 7290
+weight: 7310
 url: /ar/aspose.slides/itextframeformateffectivedata/
 ---
 ## ITextFrameFormatEffectiveData واجهة
 
-كائن غير قابل للتغيير يحتوي على خصائص تنسيق إطار النص الفعّالة.
+كائن غير قابل للتغيير يحتوي على خصائص تنسيق إطار النص الفعّال.
 
 ```csharp
 public interface ITextFrameFormatEffectiveData
@@ -16,28 +16,28 @@ public interface ITextFrameFormatEffectiveData
 
 ## الخصائص
 
-| Name | Description |
+| الاسم | الوصف |
 | --- | --- |
-| [AnchoringType](../../aspose.slides/itextframeformateffectivedata/anchoringtype) { get; } | يرجع نص الارتكاز العمودي في TextFrame. للقراءة فقط [`TextAnchorType`](../textanchortype). |
-| [AutofitType](../../aspose.slides/itextframeformateffectivedata/autofittype) { get; } | يرجع وضع ملاءمة النص التلقائي. للقراءة فقط [`TextAutofitType`](../textautofittype). |
-| [CenterText](../../aspose.slides/itextframeformateffectivedata/centertext) { get; } | يرجع ما إذا كان يجب تركيز النص أفقياً في الصندوق. للقراءة فقط Boolean. |
+| [AnchoringType](../../aspose.slides/itextframeformateffectivedata/anchoringtype) { get; } | يعيد النص العمودي المعلق في TextFrame. للقراءة فقط [`TextAnchorType`](../textanchortype). |
+| [AutofitType](../../aspose.slides/itextframeformateffectivedata/autofittype) { get; } | يعيد وضع الملاءمة التلقائية للنص. للقراءة فقط [`TextAutofitType`](../textautofittype). |
+| [CenterText](../../aspose.slides/itextframeformateffectivedata/centertext) { get; } | يعيد ما إذا كان يجب توسيط النص داخل الصندوق أفقيًا. للقراءة فقط Boolean. |
 | [ColumnCount](../../aspose.slides/itextframeformateffectivedata/columncount) { get; } | يحدد عدد أعمدة النص في المستطيل المحدد. للقراءة فقط Int32. |
-| [ColumnSpacing](../../aspose.slides/itextframeformateffectivedata/columnspacing) { get; } | يحدد المسافة بين أعمدة النص في منطقة النص (بالنقاط). للقراءة فقط Single. |
-| [MarginBottom](../../aspose.slides/itextframeformateffectivedata/marginbottom) { get; } | يرجع الهامش السفلي (نقاط) في TextFrame. للقراءة فقط Double. |
-| [MarginLeft](../../aspose.slides/itextframeformateffectivedata/marginleft) { get; } | يرجع الهامش الأيسر (نقاط) في TextFrame. للقراءة فقط Double. |
-| [MarginRight](../../aspose.slides/itextframeformateffectivedata/marginright) { get; } | يرجع الهامش الأيمن (نقاط) في TextFrame. للقراءة فقط Double. |
-| [MarginTop](../../aspose.slides/itextframeformateffectivedata/margintop) { get; } | يرجع الهامش العلوي (نقاط) في TextFrame. للقراءة فقط Double. |
-| [TextStyle](../../aspose.slides/itextframeformateffectivedata/textstyle) { get; } | يرجع نمط النص الفعّال. للقراءة فقط [`ITextStyleEffectiveData`](../itextstyleeffectivedata). |
-| [TextVerticalType](../../aspose.slides/itextframeformateffectivedata/textverticaltype) { get; } | يرجع توجّه النص. للقراءة فقط [`TextVerticalType`](../textverticaltype). |
-| [WrapText](../../aspose.slides/itextframeformateffectivedata/wraptext) { get; } | يرجع ما إذا كان النص ملتفًا عند هوامش TextFrame. للقراءة فقط Boolean. |
+| [ColumnSpacing](../../aspose.slides/itextframeformateffectivedata/columnspacing) { get; } | يحدد المسافة بين أعمدة النص في مساحة النص (بالنقاط). للقراءة فقط Single. |
+| [MarginBottom](../../aspose.slides/itextframeformateffectivedata/marginbottom) { get; } | يعيد الهامش السفلي (بالنقاط) في TextFrame. للقراءة فقط Double. |
+| [MarginLeft](../../aspose.slides/itextframeformateffectivedata/marginleft) { get; } | يعيد الهامش الأيسر (بالنقاط) في TextFrame. للقراءة فقط Double. |
+| [MarginRight](../../aspose.slides/itextframeformateffectivedata/marginright) { get; } | يعيد الهامش الأيمن (بالنقاط) في TextFrame. للقراءة فقط Double. |
+| [MarginTop](../../aspose.slides/itextframeformateffectivedata/margintop) { get; } | يعيد الهامش العلوي (بالنقاط) في TextFrame. للقراءة فقط Double. |
+| [TextStyle](../../aspose.slides/itextframeformateffectivedata/textstyle) { get; } | يعيد نمط النص الفعّال. للقراءة فقط [`ITextStyleEffectiveData`](../itextstyleeffectivedata). |
+| [TextVerticalType](../../aspose.slides/itextframeformateffectivedata/textverticaltype) { get; } | يعيد اتجاه النص. للقراءة فقط [`TextVerticalType`](../textverticaltype). |
+| [WrapText](../../aspose.slides/itextframeformateffectivedata/wraptext) { get; } | يعيد ما إذا كان النص يُسطر على هوامش TextFrame. للقراءة فقط Boolean. |
 
 ### ملاحظات
 
-تُستخدم هذه الواجهة مع واجهة [`ITextFrameFormat`](../itextframeformat) لإرجاع قيم التنسيق الفعّالة مع تطبيق الوراثة.
+تُستخدم هذه الواجهة مع [`ITextFrameFormat`](../itextframeformat) واجهة لإرجاع قيم التنسيق الفعّالة مع تطبيق الوراثة.
 
 ### انظر أيضًا
 
-* النطاق [Aspose.Slides](../../aspose.slides)
-* التجميع [Aspose.Slides](../../)
+* نطاق الاسم [Aspose.Slides](../../aspose.slides)
+* مجمع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

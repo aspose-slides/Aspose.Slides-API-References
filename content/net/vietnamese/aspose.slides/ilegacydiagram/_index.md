@@ -1,14 +1,14 @@
 ---
 title: ILegacyDiagram
-second_title: Tham khảo API Aspose.Sildes cho .NET
-description: Đại diện cho một đối tượng sơ đồ kế thừa
+second_title: Aspose.Sildes cho Tham chiếu API .NET
+description: Biểu diễn một đối tượng sơ đồ legacy
 type: docs
-weight: 6250
+weight: 6270
 url: /vi/aspose.slides/ilegacydiagram/
 ---
 ## ILegacyDiagram giao diện
 
-Đại diện cho một đối tượng sơ đồ kế thừa
+Biểu diễn một đối tượng sơ đồ legacy
 
 ```csharp
 public interface ILegacyDiagram : IGraphicalObject
@@ -18,14 +18,14 @@ public interface ILegacyDiagram : IGraphicalObject
 
 | Tên | Mô tả |
 | --- | --- |
-| [AsIGraphicalObject](../../aspose.slides/ilegacydiagram/asigraphicalobject) { get; } | Cho phép lấy giao diện cơ sở IGraphicalObject. Chỉ đọc [`IGraphicalObject`](../igraphicalobject). |
+| [AsIGraphicalObject](../../aspose.slides/ilegacydiagram/asigraphicalobject) { get; } | Cho phép lấy giao diện IGraphicalObject cơ bản. Chỉ đọc [`IGraphicalObject`](../igraphicalobject). |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| [ConvertToGroupShape](../../aspose.slides/ilegacydiagram/converttogroupshape)() | Chuyển đổi sơ đồ legacy sang nhóm hình dạng có thể chỉnh sửa. Đối tượng GroupShape được tạo sẽ được thêm vào nhóm hình dạng cha ở cùng vị trí. |
-| [ConvertToSmartArt](../../aspose.slides/ilegacydiagram/converttosmartart)() | Chuyển đổi sơ đồ legacy sang đối tượng SmartArt có thể chỉnh sửa. Đối tượng SmartArt được tạo sẽ được thêm vào nhóm hình dạng cha ở cùng vị trí. |
+| [ConvertToGroupShape](../../aspose.slides/ilegacydiagram/converttogroupshape)() | Chuyển đổi sơ đồ legacy thành nhóm hình có thể chỉnh sửa. Đối tượng GroupShape được tạo thêm vào nhóm cha ở cùng vị trí. |
+| [ConvertToSmartArt](../../aspose.slides/ilegacydiagram/converttosmartart)() | Chuyển đổi sơ đồ legacy thành đối tượng SmartArt có thể chỉnh sửa. Đối tượng SmartArt được tạo thêm vào nhóm cha ở cùng vị trí. |
 
 ### Xem thêm
 

@@ -1,14 +1,14 @@
 ---
 title: IEmptyTransition
-second_title: "Aspose.Sildes для .NET: справочник API"
-description: Пустой эффект перехода слайда.
+second_title: Aspose.Sildes для .NET справочная документация API
+description: Эффект перехода пустого слайда.
 type: docs
-weight: 10080
+weight: 10100
 url: /ru/aspose.slides.slideshow/iemptytransition/
 ---
 ## IEmptyTransition интерфейс
 
-Пустой эффект перехода слайда.
+Эффект перехода пустого слайда.
 
 ```csharp
 public interface IEmptyTransition : ITransitionValueBase

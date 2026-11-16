@@ -1,14 +1,14 @@
 ---
 title: PresentationAnimationsGenerator
-second_title: Aspose.Sildes για .NET API Αναφορά
-description: Αντιπροσωπεύει έναν γεννήτρια των κινήσεων στο Presentation../aspose.slides/presentation.
+second_title: Αναφορά API Aspose.Sildes για .NET
+description: Αντιπροσωπεύει μια γεννήτρια των κινήσεων στην Παρουσίαση../aspose.slides/presentation.
 type: docs
-weight: 4380
+weight: 4400
 url: /el/aspose.slides.export/presentationanimationsgenerator/
 ---
 ## PresentationAnimationsGenerator κλάση
 
-Αντιπροσωπεύει έναν γεννήτρια των κινούμενων εφέ στο [`Presentation`](../../aspose.slides/presentation).
+Αντιπροσωπεύει μια γεννήτρια των κινήσεων στο [`Presentation`](../../aspose.slides/presentation).
 
 ```csharp
 public class PresentationAnimationsGenerator : IDisposable
@@ -16,38 +16,38 @@ public class PresentationAnimationsGenerator : IDisposable
 
 ## Κατασκευαστές
 
-| Name | Description |
+| Όνομα | Περιγραφή |
 | --- | --- |
 | [PresentationAnimationsGenerator](presentationanimationsgenerator#constructor)(Presentation) | Δημιουργεί ένα νέο στιγμιότυπο του [`PresentationAnimationsGenerator`](../presentationanimationsgenerator). |
 | [PresentationAnimationsGenerator](presentationanimationsgenerator#constructor_1)(Size) | Δημιουργεί ένα νέο στιγμιότυπο του [`PresentationAnimationsGenerator`](../presentationanimationsgenerator). |
 
 ## Ιδιότητες
 
-| Name | Description |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [DefaultDelay](../../aspose.slides.export/presentationanimationsgenerator/defaultdelay) { get; set; } | Λαμβάνει ή ορίζει το προεπιλεγμένο χρόνο καθυστέρησης [ms]. |
+| [DefaultDelay](../../aspose.slides.export/presentationanimationsgenerator/defaultdelay) { get; set; } | Λαμβάνει ή καθορίζει το προεπιλεγμένο χρόνο καθυστέρησης [ms]. |
 | [ExportedSlides](../../aspose.slides.export/presentationanimationsgenerator/exportedslides) { get; } | Λαμβάνει τον αριθμό των εξαγόμενων διαφανειών. |
-| [IncludeHiddenSlides](../../aspose.slides.export/presentationanimationsgenerator/includehiddenslides) { get; set; } | Λαμβάνει ή ορίζει εάν πρέπει να συμπεριληφθούν οι κρυφές διαφάνειες. |
+| [IncludeHiddenSlides](../../aspose.slides.export/presentationanimationsgenerator/includehiddenslides) { get; set; } | Λαμβάνει ή καθορίζει αν πρέπει να συμπεριληφθούν οι κρυμμένες διαφάνειες. |
 
 ## Μέθοδοι
 
-| Name | Description |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [Dispose](../../aspose.slides.export/presentationanimationsgenerator/dispose)() | Απελευθερώνει το στιγμιότυπο του [`PresentationAnimationsGenerator`](../presentationanimationsgenerator). |
-| [Run](../../aspose.slides.export/presentationanimationsgenerator/run#run)(IEnumerable&lt;ISlide&gt;) | Εκτελεί τη δημιουργία γεγονότων κίνησης για κάθε διαφάνεια. |
-| [Run](../../aspose.slides.export/presentationanimationsgenerator/run#run_1)(IEnumerable&lt;ISlide&gt;, int, FrameTickHandler) | Εκτελεί τη δημιουργία γεγονότων κίνησης για κάθε διαφάνεια. |
+| [Dispose](../../aspose.slides.export/presentationanimationsgenerator/dispose)() | Αποδεσμεύει το στιγμιότυπο του [`PresentationAnimationsGenerator`](../presentationanimationsgenerator). |
+| [Run](../../aspose.slides.export/presentationanimationsgenerator/run#run)(IEnumerable&lt;ISlide&gt;) | Εκτελεί τη δημιουργία των γεγονότων κίνησης για κάθε διαφάνεια. |
+| [Run](../../aspose.slides.export/presentationanimationsgenerator/run#run_1)(IEnumerable&lt;ISlide&gt;, int, FrameTickHandler) | Εκτελεί τη δημιουργία των γεγονότων κίνησης για κάθε διαφάνεια. |
 
 ## Πεδία
 
-| Name | Description |
+| Όνομα | Περιγραφή |
 | --- | --- |
 | readonly [FrameSize](../../aspose.slides.export/presentationanimationsgenerator/framesize) | Λαμβάνει το μέγεθος του πλαισίου. |
 
 ## Συμβάντα
 
-| Name | Description |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| event [NewAnimation](../../aspose.slides.export/presentationanimationsgenerator/newanimation) | Ένα γεγονός δηλώνει ότι δημιουργήθηκε μια νέα κίνηση. |
+| event [NewAnimation](../../aspose.slides.export/presentationanimationsgenerator/newanimation) | Ένα συμβάν δηλώνει ότι δημιουργήθηκε μια νέα κίνηση. |
 
 ### Παραδείγματα
 

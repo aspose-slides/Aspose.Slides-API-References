@@ -1,9 +1,9 @@
 ---
 title: IDigitalSignatureCollection
-second_title: Référence API Aspose.Sildes pour .NET
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Représente une collection de signatures numériques attachées à un document.
 type: docs
-weight: 5700
+weight: 5720
 url: /fr/aspose.slides/idigitalsignaturecollection/
 ---
 ## IDigitalSignatureCollection interface
@@ -16,17 +16,17 @@ public interface IDigitalSignatureCollection : IGenericCollection<IDigitalSignat
 
 ## Propriétés
 
-| Name | Description |
+| Nom | Description |
 | --- | --- |
-| [Item](../../aspose.slides/idigitalsignaturecollection/item) { get; } | Renvoie la signature par indice. |
+| [Item](../../aspose.slides/idigitalsignaturecollection/item) { get; } | Renvoie la signature à l'index. |
 
 ## Méthodes
 
-| Name | Description |
+| Nom | Description |
 | --- | --- |
 | [Add](../../aspose.slides/idigitalsignaturecollection/add)(IDigitalSignature) | Ajoute la signature à la fin de la collection. |
 | [Clear](../../aspose.slides/idigitalsignaturecollection/clear)() | Supprime toutes les signatures de la collection. |
-| [RemoveAt](../../aspose.slides/idigitalsignaturecollection/removeat)(int) | Supprime la signature à l'indice spécifié. |
+| [RemoveAt](../../aspose.slides/idigitalsignaturecollection/removeat)(int) | Supprime la signature à l'index spécifié. |
 
 ### Voir aussi
 

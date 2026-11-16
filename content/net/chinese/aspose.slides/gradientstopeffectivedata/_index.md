@@ -3,12 +3,12 @@ title: GradientStopEffectiveData
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示梯度停止点的不可变对象。
 type: docs
-weight: 5050
+weight: 5070
 url: /zh/aspose.slides/gradientstopeffectivedata/
 ---
 ## GradientStopEffectiveData 类
 
-不可变对象，表示一个梯度停止点。
+不可变对象，表示梯度停止点。
 
 ```csharp
 public class GradientStopEffectiveData : IGradientStopEffectiveData
@@ -28,7 +28,7 @@ public class GradientStopEffectiveData : IGradientStopEffectiveData
 | override [Equals](../../aspose.slides/gradientstopeffectivedata/equals)(object) | 确定指定的 [`GradientStopEffectiveData`](../gradientstopeffectivedata) 是否等于当前的 [`GradientStopEffectiveData`](../gradientstopeffectivedata)。 |
 | override [GetHashCode](../../aspose.slides/gradientstopeffectivedata/gethashcode)() |  |
 
-### 参见
+### 另请参见
 
 * 接口 [IGradientStopEffectiveData](../igradientstopeffectivedata)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

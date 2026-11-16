@@ -1,14 +1,14 @@
 ---
 title: CornerDirectionTransition
-second_title: Aspose.Sildes para .NET API Reference
-description: Efeito de transição de slide em direção de canto.
+second_title: Aspose.Sildes para .NET Referência de API
+description: Efeito de transição de slide na direção do canto.
 type: docs
-weight: 10010
+weight: 10030
 url: /pt/aspose.slides.slideshow/cornerdirectiontransition/
 ---
-## CornerDirectionTransition classe
+## CornerDirectionTransition class
 
-Efeito de transição de slide com direção de canto.
+Corner direction slide transition effect.
 
 ```csharp
 public class CornerDirectionTransition : TransitionValueBase, ICornerDirectionTransition
@@ -25,7 +25,7 @@ public class CornerDirectionTransition : TransitionValueBase, ICornerDirectionTr
 | Nome | Descrição |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Determina se as duas instâncias de TransitionValueBase são iguais. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Funciona como uma função hash para um tipo específico, adequada para uso em algoritmos de hash e estruturas de dados como uma tabela hash. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Atua como função hash para um tipo específico, adequado para uso em algoritmos de hash e estruturas de dados como uma tabela hash. |
 
 ### Veja Também
 

@@ -1,14 +1,14 @@
 ---
 title: Marker
-second_title: Aspose.Sildes a .NET API dokumentációja
+second_title: Aspose.Sildes .NET API referencia
 description: Megad egy adatjelölőt. Csak olvasható IMarkeraspose.slides.charts/imarker.
 type: docs
-weight: 120
+weight: 160
 url: /hu/aspose.slides.charts/ichartdatapoint/marker/
 ---
 ## IChartDataPoint.Marker tulajdonság
 
-Adatjelölőt határoz meg. Csak olvasható [`IMarker`](../../imarker).
+Megad egy adatjelölőt. Csak olvasható [`IMarker`](../../imarker).
 
 ```csharp
 public IMarker Marker { get; }

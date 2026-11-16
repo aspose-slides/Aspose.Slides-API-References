@@ -1,14 +1,14 @@
 ---
 title: SetExternalWorkbook
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 外部ブックブックをチャートのデータ ソースとして設定します。チャート データは対象ブックから更新されます。
+description: 外部ブックをチャートのデータ ソースとして設定します。チャート データは対象ブックから更新されます。
 type: docs
-weight: 120
+weight: 130
 url: /ja/aspose.slides.charts/ichartdata/setexternalworkbook/
 ---
 ## SetExternalWorkbook(string) {#setexternalworkbook}
 
-外部ブックブックをチャートのデータ ソースとして設定します。チャート データは対象ブックから更新されます。
+外部ブックをチャートのデータ ソースとして設定します。チャート データは対象のブックから更新されます。
 
 ```csharp
 public void SetExternalWorkbook(string workbookPath)
@@ -22,7 +22,7 @@ public void SetExternalWorkbook(string workbookPath)
 
 | 例外 | 条件 |
 | --- | --- |
-| InvalidOperationException | 外部ブックブックが利用できないか、ロードできません。 |
+| InvalidOperationException | 外部ブックが利用できないか、読み込めません。 |
 
 ### 例
 
@@ -36,9 +36,9 @@ using (Presentation pres = new Presentation())
 
 ```
 
-### 関連項目
+### 参照
 
-* インターフェイス [IChartData](../../ichartdata)
+* インターフェース [IChartData](../../ichartdata)
 * 名前空間 [Aspose.Slides.Charts](../../ichartdata)
 * アセンブリ [Aspose.Slides](../../../)
 
@@ -46,7 +46,7 @@ using (Presentation pres = new Presentation())
 
 ## SetExternalWorkbook(string, bool) {#setexternalworkbook_1}
 
-外部ブックブックをチャートのデータ ソースとして設定します。
+外部ブックをチャートのデータ ソースとして設定します。
 
 ```csharp
 public void SetExternalWorkbook(string workbookPath, bool updateChartData)
@@ -55,13 +55,13 @@ public void SetExternalWorkbook(string workbookPath, bool updateChartData)
 | パラメータ | 型 | 説明 |
 | --- | --- | --- |
 | workbookPath | String | 対象ブックへのパス |
-| updateChartData | Boolean | false の場合はブックパスのみが更新され、チャート データは対象ブックからロードおよび更新されません。対象ブックが存在しない、または利用できない場合に使用できます。true の場合はチャート データが対象ブックから更新されます。 |
+| updateChartData | Boolean | 値が false の場合、ブック パスのみが更新されます。チャート データは対象ブックから読み込まれず、更新もされません。対象ブックが存在しない場合や利用できない場合に使用できます。値が true の場合、チャート データは対象ブックから更新されます。 |
 
 ### 例外
 
 | 例外 | 条件 |
 | --- | --- |
-| InvalidOperationException | 外部ブックブックが利用できないか、ロードできません。 |
+| InvalidOperationException | 外部ブックが利用できないか、読み込めません。 |
 
 ### 例
 
@@ -76,9 +76,9 @@ using (Presentation pres = new Presentation())
 
 ```
 
-### 関連項目
+### 参照
 
-* インターフェイス [IChartData](../../ichartdata)
+* インターフェース [IChartData](../../ichartdata)
 * 名前空間 [Aspose.Slides.Charts](../../ichartdata)
 * アセンブリ [Aspose.Slides](../../../)
 

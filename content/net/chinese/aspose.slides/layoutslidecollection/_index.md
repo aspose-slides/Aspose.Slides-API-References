@@ -3,7 +3,7 @@ title: LayoutSlideCollection
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示布局幻灯片集合的基类。
 type: docs
-weight: 7650
+weight: 7670
 url: /zh/aspose.slides/layoutslidecollection/
 ---
 ## LayoutSlideCollection 类
@@ -19,8 +19,8 @@ public class LayoutSlideCollection : ILayoutSlideCollection
 | 名称 | 描述 |
 | --- | --- |
 | [Count](../../aspose.slides/layoutslidecollection/count) { get; } | 返回集合中布局幻灯片的数量。只读 Int32。 |
-| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | 返回一个值，指示对集合的访问是否已同步（线程安全）。只读 Boolean。 |
-| [Item](../../aspose.slides/layoutslidecollection/item) { get; } | 根据索引返回布局幻灯片。只读 [`LayoutSlide`](../layoutslide)。 |
+| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | 返回指示对集合的访问是否同步（线程安全）的值。只读 Boolean。 |
+| [Item](../../aspose.slides/layoutslidecollection/item) { get; } | 通过索引返回布局幻灯片。只读 [`LayoutSlide`](../layoutslide)。 |
 | [SyncRoot](../../aspose.slides/layoutslidecollection/syncroot) { get; } | 返回同步根。只读 Object。 |
 
 ## 方法
@@ -28,12 +28,12 @@ public class LayoutSlideCollection : ILayoutSlideCollection
 | 名称 | 描述 |
 | --- | --- |
 | [CopyTo](../../aspose.slides/layoutslidecollection/copyto)(Array, int) | 将集合中的所有元素复制到指定的数组。 |
-| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | 返回指定类型的第一个布局幻灯片。要查找的布局幻灯片类型。[`LayoutSlide`](../layoutslide) 指定类型的，若未找到布局则返回 null。 |
-| [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | 返回一个枚举器，用于遍历集合。 |
-| [Remove](../../aspose.slides/layoutslidecollection/remove)(ILayoutSlide) | 从集合中移除一个布局。 |
-| [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | 移除未使用的布局幻灯片（其 HasDependingSlides 为 false 的布局幻灯片）。 |
+| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | 返回指定类型的第一个布局幻灯片。要查找的布局幻灯片类型。[`LayoutSlide`](../layoutslide)具有指定类型，如果未找到布局则返回 null。 |
+| [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | 返回一个枚举器，遍历集合。 |
+| [Remove](../../aspose.slides/layoutslidecollection/remove)(ILayoutSlide) | 从集合中移除布局。 |
+| [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | 移除未使用的布局幻灯片（HasDependingSlides 为 false 的布局幻灯片）。 |
 
-### 参见
+### 另见
 
 * 接口 [ILayoutSlideCollection](../ilayoutslidecollection)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

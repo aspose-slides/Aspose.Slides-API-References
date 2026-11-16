@@ -3,7 +3,7 @@ title: IChartTitle
 second_title: Référence API Aspose.Sildes pour .NET
 description: Représente les propriétés du titre du graphique.
 type: docs
-weight: 2000
+weight: 2020
 url: /fr/aspose.slides.charts/icharttitle/
 ---
 ## IChartTitle interface
@@ -20,8 +20,8 @@ public interface IChartTitle : IActualLayout, ILayoutable, IOverridableText
 | --- | --- |
 | [AsILayoutable](../../aspose.slides.charts/icharttitle/asilayoutable) { get; } | Permet d'obtenir l'interface de base ILayoutable. Lecture seule [`ILayoutable`](../ilayoutable). |
 | [AsIOverridableText](../../aspose.slides.charts/icharttitle/asioverridabletext) { get; } | Permet d'obtenir l'interface de base IOverridableText. Lecture seule [`IOverridableText`](../ioverridabletext). |
-| [Format](../../aspose.slides.charts/icharttitle/format) { get; } | Renvoie les styles de remplissage, ligne et effet d'un titre. Lecture seule [`IFormat`](../iformat). |
-| [Overlay](../../aspose.slides.charts/icharttitle/overlay) { get; set; } | Détermine si d'autres éléments du graphique peuvent se chevaucher avec le titre. Lecture/écriture Boolean. |
+| [Format](../../aspose.slides.charts/icharttitle/format) { get; } | Renvoie les styles de remplissage, de ligne et d'effet d'un titre. Lecture seule [`IFormat`](../iformat). |
+| [Overlay](../../aspose.slides.charts/icharttitle/overlay) { get; set; } | Détermine si d'autres éléments du graphique peuvent chevaucher le titre. Lecture/écriture Boolean. |
 
 ### Voir aussi
 

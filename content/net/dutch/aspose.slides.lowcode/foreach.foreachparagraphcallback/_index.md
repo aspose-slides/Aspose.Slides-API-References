@@ -1,14 +1,14 @@
 ---
 title: ForEach.ForEachParagraphCallback
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Callback die wordt aangeroepen voor elke Paragraph./foreach/paragraph op de BaseSlide../aspose.slides/baseslide.
+description: Terugroepfunctie die wordt aangeroepen voor elke Paragraph./foreach/paragraph op de BaseSlide../aspose.slides/baseslide.
 type: docs
-weight: 7930
+weight: 7950
 url: /nl/aspose.slides.lowcode/foreach.foreachparagraphcallback/
 ---
 ## ForEach.ForEachParagraphCallback delegate
 
-Callback die wordt aangeroepen voor elke [`Paragraph`](../foreach/paragraph) op de [`BaseSlide`](../../aspose.slides/baseslide).
+Terugroepfunctie die wordt aangeroepen voor elke [`Paragraph`](../foreach/paragraph) op de [`BaseSlide`](../../aspose.slides/baseslide).
 
 ```csharp
 public delegate void ForEachParagraphCallback(Paragraph para, BaseSlide slide, int index);

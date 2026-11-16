@@ -1,39 +1,39 @@
 ---
 title: Comment
 second_title: Aspose.Sildes for .NET API 參考文件
-description: 表示投影片上的評論。
+description: 表示投影片上的 Comment。
 type: docs
-weight: 2620
+weight: 2640
 url: /zh-hant/aspose.slides/comment/
 ---
-## Comment 類別
+## Comment class
 
-表示投影片上的評論。
+表示投影片上的 Comment。
 
 ```csharp
 public class Comment : IComment
 ```
 
-## 屬性
+## Properties
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Author](../../aspose.slides/comment/author) { get; } | 返回評論的作者。唯讀 [`ICommentAuthor`](../icommentauthor)。 |
-| [CreatedTime](../../aspose.slides/comment/createdtime) { get; set; } | 返回或設定評論建立的時間。將此屬性設定為 MinValue 表示未設定評論時間。可讀寫 DateTime。 |
-| [ParentComment](../../aspose.slides/comment/parentcomment) { get; set; } | 取得或設定父評論。可讀寫 [`IComment`](../icomment)。 |
-| [Position](../../aspose.slides/comment/position) { get; set; } | 返回或設定評論在投影片上的位置。可讀寫 PointF。 |
-| [Slide](../../aspose.slides/comment/slide) { get; } | 返回或設定評論的父投影片。唯讀 [`ISlide`](../islide)。 |
-| [Text](../../aspose.slides/comment/text) { get; set; } | 返回或設定投影片評論的純文字。可讀寫 String。 |
+| [Author](../../aspose.slides/comment/author) { get; } | 傳回 Comment 的作者。唯讀 [`ICommentAuthor`](../icommentauthor)。 |
+| [CreatedTime](../../aspose.slides/comment/createdtime) { get; set; } | 傳回或設定 Comment 建立的時間。將此屬性設為 MinValue 表示未設定 Comment 時間。可讀寫 DateTime。 |
+| [ParentComment](../../aspose.slides/comment/parentcomment) { get; set; } | 傳回或設定父 Comment。可讀寫 [`IComment`](../icomment)。 |
+| [Position](../../aspose.slides/comment/position) { get; set; } | 傳回或設定 Comment 在投影片上的位置。可讀寫 PointF。 |
+| [Slide](../../aspose.slides/comment/slide) { get; } | 傳回 Comment 的父投影片。唯讀 [`ISlide`](../islide)。 |
+| [Text](../../aspose.slides/comment/text) { get; set; } | 傳回或設定投影片 Comment 的純文字。可讀寫 String。 |
 
-## 方法
+## Methods
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Remove](../../aspose.slides/comment/remove)() | 從父集合中移除評論及其所有回覆。 |
+| [Remove](../../aspose.slides/comment/remove)() | 從父集合中移除 Comment 以及其所有回覆。 |
 
 ### 範例
 
-此範例說明如何在 PowerPoint 簡報的投影片中新增評論。
+此範例示範如何在 PowerPoint 簡報的投影片中新增 Comment。
 
 ```csharp
 [C#]
@@ -48,16 +48,16 @@ using (Presentation presentation = new Presentation())
     PointF point = new PointF();
     point.X = 0.2f;
     point.Y = 0.2f;
-    // 為作者在第 1 張投影片新增評論
+    // 為作者在投影片 1 上新增投影片評論
     author.Comments.AddComment("Hello Jawad, this is slide comment", presentation.Slides[0], point, DateTime.Now);
-    // 為作者在第 2 張投影片新增評論
+    // 為作者在投影片 2 上新增投影片評論
     author.Comments.AddComment("Hello Jawad, this is second slide comment", presentation.Slides[1], point, DateTime.Now);
-	// 保存 PowerPoint 簡報檔案
+	// 儲存 PowerPoint 簡報檔案
     presentation.Save("Comments_out.pptx", SaveFormat.Pptx);
 }
 ```
 
-此範例說明如何在 PowerPoint 簡報的投影片上存取現有的評論。
+此範例示範如何在 PowerPoint 簡報的投影片上存取現有的 Comment。
 
 ```csharp
 [C#]
@@ -78,7 +78,7 @@ using (Presentation presentation = new Presentation("Comments1.pptx"))
 }
 ```
 
-此範例說明如何新增評論並取得其回覆。
+此範例示範如何新增 Comment 並取得其回覆。
 
 ```csharp
 [C#]
@@ -92,10 +92,10 @@ using (Presentation pres = new Presentation())
     ICommentAuthor author2 = pres.CommentAuthors.AddAuthor("Autror_2", "B.B.");
     IComment reply1 = author2.Comments.AddComment("reply 1 for comment 1", pres.Slides[0], new PointF(10, 10), DateTime.Now);
     reply1.ParentComment = comment1;
-    // 為 comment1 再新增回覆
+    // 為 comment1 新增另一個回覆
     IComment reply2 = author2.Comments.AddComment("reply 2 for comment 1", pres.Slides[0], new PointF(10, 10), DateTime.Now);
     reply2.ParentComment = comment1;
-    // 為現有回覆新增回覆
+    // 為現有的回覆新增回覆
     IComment subReply = author1.Comments.AddComment("subreply 3 for reply 2", pres.Slides[0], new PointF(10, 10), DateTime.Now);
     subReply.ParentComment = reply2;
     IComment comment2 = author2.Comments.AddComment("comment 2", pres.Slides[0], new PointF(10, 10), DateTime.Now);
@@ -123,7 +123,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### 參見
+### 另請參閱
 
 * 介面 [IComment](../icomment)
 * 命名空間 [Aspose.Slides](../../aspose.slides)

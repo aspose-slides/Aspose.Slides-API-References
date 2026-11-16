@@ -3,7 +3,7 @@ title: InvalidPasswordException
 second_title: Aspose.Sildes for .NET API 참조
 description: 프레젠테이션 파일 형식이 지원되지 않을 때 발생하는 예외.
 type: docs
-weight: 7620
+weight: 7640
 url: /ko/aspose.slides/invalidpasswordexception/
 ---
 ## InvalidPasswordException 클래스
@@ -20,9 +20,9 @@ public class InvalidPasswordException : Exception
 | --- | --- |
 | [InvalidPasswordException](invalidpasswordexception#constructor)() | 기본 생성자. |
 | [InvalidPasswordException](invalidpasswordexception#constructor_1)(string) | 예외에 메시지를 추가할 수 있는 생성자. |
-| [InvalidPasswordException](invalidpasswordexception#constructor_2)(string, Exception) | 메시지와 내부 예외를 포함하는 예외를 위한 생성자. |
+| [InvalidPasswordException](invalidpasswordexception#constructor_2)(string, Exception) | 메시지와 포함된 예외를 포함하는 예외용 생성자. |
 
-### 또한 보기
+### 다음도 참고
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

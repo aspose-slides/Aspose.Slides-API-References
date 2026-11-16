@@ -1,14 +1,14 @@
 ---
 title: IMathNaryOperator
-second_title: Aspose.Sildes برای .NET مرجع API
-description: یک شیء ریاضی N-ary را مشخص می‌کند، مانند Summation و Integral. این شامل یک عملگر، یک پایه یا عملوند و محدودیت‌های اختیاری بالا و پایین است. مثال‌های عملگرهای N-ary عبارتند از Summation Union Intersection Integral
+second_title: Aspose.Sildes برای مرجع API .NET
+description: یک شیء ریاضی چند-تایی را مشخص می‌کند، مانند Summation و Integral. این شامل یک عملگر، یک پایه یا عملوند و حدهای بالایی و پایینی اختیاری است. مثال‌های عملگرهای چند-تایی عبارتند از Summation Union Intersection Integral
 type: docs
-weight: 8360
+weight: 8380
 url: /fa/aspose.slides.mathtext/imathnaryoperator/
 ---
 ## IMathNaryOperator رابط
 
-یک شیء ریاضی N-ary را مشخص می‌کند، مانند Summation و Integral. این شیء شامل یک عملگر، یک پایه (یا عملوند) و محدودیت‌های بالا و پایین اختیاری است. مثال‌های عملگرهای N-ary عبارتند از: Summation, Union, Intersection, Integral
+یک شیء ریاضی N-ary را توصیف می‌کند، مانند Summation و Integral. این شامل یک عملگر، یک پایه (یا عملوند) و حدهای بالایی و پایینی اختیاری است. مثال‌های عملگرهای N-ary عبارتند از: Summation، Union، Intersection، Integral
 
 ```csharp
 public interface IMathNaryOperator : IMathElement, IMathNaryOperatorProperties
@@ -18,11 +18,11 @@ public interface IMathNaryOperator : IMathElement, IMathNaryOperatorProperties
 
 | نام | توضیح |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathnaryoperator/asimathelement) { get; } | اجازۀ دریافت پایه IMathElement رابط [`IMathElement`](../imathelement) |
-| [AsIMathNaryOperatorProperties](../../aspose.slides.mathtext/imathnaryoperator/asimathnaryoperatorproperties) { get; } | اجازۀ دریافت پایه IMathNaryOperatorProperties رابط [`IMathNaryOperatorProperties`](../imathnaryoperatorproperties) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathnaryoperator/asimathelement) { get; } | امکان دریافت رابط پایه IMathElement را فراهم می‌کند [`IMathElement`](../imathelement) |
+| [AsIMathNaryOperatorProperties](../../aspose.slides.mathtext/imathnaryoperator/asimathnaryoperatorproperties) { get; } | امکان دریافت رابط پایه IMathNaryOperatorProperties را فراهم می‌کند [`IMathNaryOperatorProperties`](../imathnaryoperatorproperties) |
 | [Base](../../aspose.slides.mathtext/imathnaryoperator/base) { get; } | آرگومان پایه |
-| [Subscript](../../aspose.slides.mathtext/imathnaryoperator/subscript) { get; } | یک آرگومان زیرنویس را مشخص می‌کند که به عنوان مثال در مورد یک Integral، حد پایین را تنظیم می‌کند |
-| [Superscript](../../aspose.slides.mathtext/imathnaryoperator/superscript) { get; } | یک آرگومان بالانویس را مشخص می‌کند که به عنوان مثال در مورد یک Integral، حد بالا را تنظیم می‌کند |
+| [Subscript](../../aspose.slides.mathtext/imathnaryoperator/subscript) { get; } | یک آرگومان زیرنویس را مشخص می‌کند که به عنوان مثال، در مورد یک انتگرال، حد پایینی را تنظیم می‌کند |
+| [Superscript](../../aspose.slides.mathtext/imathnaryoperator/superscript) { get; } | یک آرگومان فوق‌نویس را مشخص می‌کند که به عنوان مثال، در مورد یک انتگرال، حد بالایی را تنظیم می‌کند |
 
 ### مثال‌ها
 

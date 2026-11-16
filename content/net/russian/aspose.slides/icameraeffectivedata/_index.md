@@ -1,9 +1,9 @@
 ---
 title: ICameraEffectiveData
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Aspose.Sildes для .NET справочник API
 description: Неизменяемый объект, содержащий эффективные свойства камеры.
 type: docs
-weight: 5420
+weight: 5440
 url: /ru/aspose.slides/icameraeffectivedata/
 ---
 ## ICameraEffectiveData интерфейс
@@ -16,17 +16,17 @@ public interface ICameraEffectiveData
 
 ## Свойства
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
 | [CameraType](../../aspose.slides/icameraeffectivedata/cameratype) { get; } | Тип камеры. Только для чтения [`CameraPresetType`](../camerapresettype). |
-| [FieldOfViewAngle](../../aspose.slides/icameraeffectivedata/fieldofviewangle) { get; } | Поле зрения камеры (0-180 °, field of View). Только для чтения Single. |
-| [Zoom](../../aspose.slides/icameraeffectivedata/zoom) { get; } | Масштаб камеры (положительное значение в процентах). Только для чтения Single. |
+| [FieldOfViewAngle](../../aspose.slides/icameraeffectivedata/fieldofviewangle) { get; } | Поле зрения камеры (0-180 deg). Только для чтения Single. |
+| [Zoom](../../aspose.slides/icameraeffectivedata/zoom) { get; } | Увеличение камеры (положительное значение в процентах). Только для чтения Single. |
 
 ## Методы
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
-| [GetRotation](../../aspose.slides/icameraeffectivedata/getrotation)() | Поворот определяется использованием координаты широты, координаты долготы и вращения вокруг оси в соответствии с этими координатами. Первый элемент в возвращаемом массиве — широта, второй — долгота, третий — вращение. Возвращает null, если поворот не определён. |
+| [GetRotation](../../aspose.slides/icameraeffectivedata/getrotation)() | Вращение определяется с помощью координаты широты, координаты долготы и оборота вокруг оси в качестве координат широты и долготы. Первый элемент возвращаемого массива — широта, второй — долгота, третий — оборот. Возвращает null, если вращение не определено. |
 
 ### Примечания
 

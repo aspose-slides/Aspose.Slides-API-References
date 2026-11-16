@@ -1,14 +1,14 @@
 ---
 title: GetFonts
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 프레젠테이션에서 사용되는 글꼴을 반환합니다
+second_title: Aspose.Sildes for .NET API 참조
+description: 프레젠테이션에 사용된 글꼴을 반환합니다
 type: docs
-weight: 70
+weight: 80
 url: /ko/aspose.slides/ifontsmanager/getfonts/
 ---
 ## IFontsManager.GetFonts 메서드
 
-프레젠테이션에서 사용되는 글꼴을 반환합니다
+프레젠테이션에 사용된 글꼴을 반환합니다
 
 ```csharp
 public IFontData[] GetFonts()
@@ -18,7 +18,7 @@ public IFontData[] GetFonts()
 
 글꼴 배열
 
-### 참조
+### 참고
 
 * 인터페이스 [IFontData](../../ifontdata)
 * 인터페이스 [IFontsManager](../../ifontsmanager)

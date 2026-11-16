@@ -1,14 +1,14 @@
 ---
 title: IAxesManager
-second_title: Aspose.Sildes dla .NET – Referencja API
-description: Zapewnia dostęp do osi wykresu.
+second_title: Aspose.Sildes dla .NET – Dokumentacja API
+description: Umożliwia dostęp do osi wykresu.
 type: docs
-weight: 1700
+weight: 1710
 url: /pl/aspose.slides.charts/iaxesmanager/
 ---
 ## IAxesManager interfejs
 
-Provides access to chart axes.
+Umożliwia dostęp do osi wykresu.
 
 ```csharp
 public interface IAxesManager
@@ -18,11 +18,11 @@ public interface IAxesManager
 
 | Nazwa | Opis |
 | --- | --- |
-| [HorizontalAxis](../../aspose.slides.charts/iaxesmanager/horizontalaxis) { get; } | Zwraca poziomą oś wykresu. Tylko do odczytu [`IAxis`](../iaxis). |
-| [SecondaryHorizontalAxis](../../aspose.slides.charts/iaxesmanager/secondaryhorizontalaxis) { get; } | Zwraca wtórną poziomą oś wykresu. Tylko do odczytu [`IAxis`](../iaxis). |
-| [SecondaryVerticalAxis](../../aspose.slides.charts/iaxesmanager/secondaryverticalaxis) { get; } | Zwraca wtórną pionową oś wykresu. Tylko do odczytu [`IAxis`](../iaxis). |
-| [SeriesAxis](../../aspose.slides.charts/iaxesmanager/seriesaxis) { get; } | Zwraca oś serii wykresu. Tylko do odczytu [`IAxis`](../iaxis). |
-| [VerticalAxis](../../aspose.slides.charts/iaxesmanager/verticalaxis) { get; } | Zwraca pionową oś wykresu. Tylko do odczytu [`IAxis`](../iaxis). |
+| [HorizontalAxis](../../aspose.slides.charts/iaxesmanager/horizontalaxis) { get; } | Pobiera poziomą oś wykresu. Tylko do odczytu [`IAxis`](../iaxis). |
+| [SecondaryHorizontalAxis](../../aspose.slides.charts/iaxesmanager/secondaryhorizontalaxis) { get; } | Pobiera drugorzędną poziomą oś wykresu. Tylko do odczytu [`IAxis`](../iaxis). |
+| [SecondaryVerticalAxis](../../aspose.slides.charts/iaxesmanager/secondaryverticalaxis) { get; } | Pobiera drugorzędną pionową oś wykresu. Tylko do odczytu [`IAxis`](../iaxis). |
+| [SeriesAxis](../../aspose.slides.charts/iaxesmanager/seriesaxis) { get; } | Pobiera oś serii wykresu. Tylko do odczytu [`IAxis`](../iaxis). |
+| [VerticalAxis](../../aspose.slides.charts/iaxesmanager/verticalaxis) { get; } | Pobiera pionową oś wykresu. Tylko do odczytu [`IAxis`](../iaxis). |
 
 ### Zobacz także
 

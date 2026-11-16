@@ -1,14 +1,14 @@
 ---
 title: DataSourceType
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Tipe sumber data.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Jenis sumber data.
 type: docs
-weight: 1580
+weight: 1590
 url: /id/aspose.slides.charts/datasourcetype/
 ---
 ## DataSourceType enumerasi
 
-Tipe sumber data.
+Jenis sumber data.
 
 ```csharp
 public enum DataSourceType
@@ -18,9 +18,9 @@ public enum DataSourceType
 
 | Nama | Nilai | Deskripsi |
 | --- | --- | --- |
-| Worksheet | `0` | Gunakan objek CellXls untuk menyimpan XValue, YValue, Value, atau BubbleSize dari titik data di lembar kerja. |
-| StringLiterals | `1` | Gunakan variabel string akses cepat untuk menyimpan XValue, YValue, Value, atau BubbleSize dari titik data. Worksheet tidak digunakan untuk menyimpan nilai. |
-| DoubleLiterals | `2` | Gunakan variabel double akses cepat untuk menyimpan XValue, YValue, Value, atau BubbleSize dari titik data. Worksheet tidak digunakan untuk menyimpan nilai. |
+| Worksheet | `0` | Gunakan objek CellXls untuk menyimpan XValue, YValue, Value, atau BubbleSize dari titik data di worksheet. |
+| StringLiterals | `1` | Gunakan variabel string akses cepat untuk menyimpan XValue, YValue, Value, atau BubbleSize dari titik data. Worksheet TIDAK digunakan untuk menyimpan nilai. |
+| DoubleLiterals | `2` | Gunakan variabel double akses cepat untuk menyimpan XValue, YValue, Value, atau BubbleSize dari titik data. Worksheet TIDAK digunakan untuk menyimpan nilai. |
 
 ### Lihat Juga
 

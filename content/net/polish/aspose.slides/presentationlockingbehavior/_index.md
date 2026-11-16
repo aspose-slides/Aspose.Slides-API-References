@@ -1,14 +1,14 @@
 ---
 title: PresentationLockingBehavior
-second_title: Aspose.Sildes dla .NET – Dokumentacja API
-description: Reprezentuje zachowanie dotyczące traktowania pliku źródłowego IPresentation./ipresentation lub Stream podczas ładowania i pracy z instancją IPresentation./ipresentation.
+second_title: Aspose.Sildes dla .NET - odniesienie API
+description: Reprezentuje zachowanie dotyczące traktowania pliku źródłowego lub Stream IPresentation./ipresentation podczas ładowania i pracy z instancją IPresentation./ipresentation.
 type: docs
-weight: 9630
+weight: 9650
 url: /pl/aspose.slides/presentationlockingbehavior/
 ---
-## PresentationLockingBehavior enumeracja
+## PresentationLockingBehavior wyliczenie
 
-Reprezentuje zachowanie dotyczące traktowania źródła [`IPresentation`](../ipresentation) (plik lub Stream) podczas ładowania i pracy z instancją [`IPresentation`](../ipresentation).
+Reprezentuje zachowanie dotyczące traktowania źródła [`IPresentation`](../ipresentation) (pliku lub strumienia) podczas ładowania i pracy z instancją [`IPresentation`](../ipresentation).
 
 ```csharp
 public enum PresentationLockingBehavior
@@ -18,12 +18,12 @@ public enum PresentationLockingBehavior
 
 | Nazwa | Wartość | Opis |
 | --- | --- | --- |
-| LoadAndRelease | `0` | Źródło będzie zablokowane tylko na czas wykonywania konstruktora [`IPresentation`](../ipresentation). Jeśli [`IsTemporaryFilesAllowed`](../iblobmanagementoptions/istemporaryfilesallowed) jest ustawione na false, wszystkie BLOBy zostaną załadowane do pamięci. W przeciwnym razie mogą zostać użyte inne metody, takie jak pliki tymczasowe. To zachowanie jest wolniejsze niż KeepLocked, a jeśli możliwe jest przekazanie własności źródła do [`IPresentation`](../ipresentation), zaleca się użycie KeepLocked. |
-| KeepLocked | `1` | Źródło będzie zablokowane na cały okres życia instancji [`IPresentation`](../ipresentation), aż zostanie zwolnione. [`IsTemporaryFilesAllowed`](../iblobmanagementoptions/istemporaryfilesallowed) musi być ustawione na true, aby używać tego zachowania, w przeciwnym razie zostanie zgłoszony wyjątek. To zachowanie jest zalecane, jest szybsze i zużywa mniej pamięci niż LoadAndRelease. |
+| LoadAndRelease | `0` | Źródło będzie zablokowane tylko na czas wykonywania konstruktora [`IPresentation`](../ipresentation). Jeśli [`IsTemporaryFilesAllowed`](../iblobmanagementoptions/istemporaryfilesallowed) jest ustawione na false, wszystkie BLOBy zostaną załadowane do pamięci. W przeciwnym razie mogą zostać użyte inne metody, takie jak pliki tymczasowe. To zachowanie jest wolniejsze niż KeepLocked i jeśli możliwe jest przekazanie własności źródła do [`IPresentation`](../ipresentation), zaleca się użycie KeepLocked. |
+| KeepLocked | `1` | Źródło będzie zablokowane przez cały okres życia instancji [`IPresentation`](../ipresentation), aż do jej zwolnienia. [`IsTemporaryFilesAllowed`](../iblobmanagementoptions/istemporaryfilesallowed) musi być ustawione na true, aby używać tego zachowania, w przeciwnym razie zostanie zgłoszony wyjątek. To zachowanie jest zalecane, jest szybsze i zużywa mniej pamięci niż LoadAndRelease. |
 
 ### Uwagi
 
-Źródło jest parametrem przekazywanym do konstruktora [`IPresentation`](../ipresentation). W poniższym przykładzie źródłem jest plik "pres.pptx":
+Źródło jest parametrem przekazywanym do konstruktora [`IPresentation`](../ipresentation). W przykładzie poniżej źródłem jest plik "pres.pptx":
 
 ```csharp
 LoadOptions loadOptions = new LoadOptions { 
@@ -31,7 +31,7 @@ LoadOptions loadOptions = new LoadOptions {
 using (IPresentation pres = new Presentation("pres.pptx", loadOptions)) { }
 ```
 
-W tym przykładzie źródło (plik "pres.pptx") będzie zablokowane na cały okres życia instancji [`IPresentation`](../ipresentation), tzn. nie może być zmienione ani usunięte przez inny proces.
+Dla tego przykładu źródło (plik "pres.pptx") będzie zablokowane na cały okres życia instancji [`IPresentation`](../ipresentation), tzn. nie może być zmieniane ani usuwane przez inny proces.
 
 ### Zobacz także
 

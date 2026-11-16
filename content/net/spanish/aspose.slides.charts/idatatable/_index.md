@@ -3,10 +3,10 @@ title: IDataTable
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa las propiedades de la tabla de datos.
 type: docs
-weight: 2060
+weight: 2080
 url: /es/aspose.slides.charts/idatatable/
 ---
-## Interfaz IDataTable
+## IDataTable interfaz
 
 Representa las propiedades de la tabla de datos.
 
@@ -16,14 +16,14 @@ public interface IDataTable : IFormattedTextContainer
 
 ## Propiedades
 
-| Nombre | Descripción |
+| Name | Description |
 | --- | --- |
 | [AsIFormattedTextContainer](../../aspose.slides.charts/idatatable/asiformattedtextcontainer) { get; } | Permite obtener la interfaz base IFormattedTextContainer. Solo lectura [`IFormattedTextContainer`](../iformattedtextcontainer). |
 | [Format](../../aspose.slides.charts/idatatable/format) { get; } | Devuelve los estilos de línea, relleno y efecto de un objeto. Solo lectura [`IFormat`](../iformat). |
 | [HasBorderHorizontal](../../aspose.slides.charts/idatatable/hasborderhorizontal) { get; set; } | True si la tabla de datos del gráfico tiene bordes de celda horizontales. Lectura/escritura Boolean. |
 | [HasBorderOutline](../../aspose.slides.charts/idatatable/hasborderoutline) { get; set; } | True si la tabla de datos del gráfico tiene bordes de contorno. Lectura/escritura Boolean. |
 | [HasBorderVertical](../../aspose.slides.charts/idatatable/hasbordervertical) { get; set; } | True si la tabla de datos del gráfico tiene bordes de celda verticales. Lectura/escritura Boolean. |
-| [ShowLegendKey](../../aspose.slides.charts/idatatable/showlegendkey) { get; set; } | True si la clave de la leyenda de la etiqueta de datos es visible. Lectura/escritura Boolean. |
+| [ShowLegendKey](../../aspose.slides.charts/idatatable/showlegendkey) { get; set; } | True si la clave de leyenda de la etiqueta de datos es visible. Lectura/escritura Boolean. |
 
 ### Ver también
 

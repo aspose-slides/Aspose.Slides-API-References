@@ -1,14 +1,14 @@
 ---
 title: IHSL
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Representa un efecto de tono/saturación/luminancia. El tono, la saturación y la luminancia pueden ajustarse individualmente en relación con su valor actual.
+description: Representa un efecto de Matiz/Saturación/Luminancia. El matiz, la saturación y la luminancia pueden ajustarse individualmente en relación con su valor actual.
 type: docs
-weight: 3360
+weight: 3380
 url: /es/aspose.slides.effects/ihsl/
 ---
 ## IHSL interfaz
 
-Representa un efecto de tono/saturación/luminosidad. El tono, la saturación y la luminosidad pueden ajustarse individualmente en relación con su valor actual.
+Representa un efecto de Matiz/Saturación/Luminancia. El matiz, la saturación y la luminancia pueden ajustarse individualmente en relación con su valor actual.
 
 ```csharp
 public interface IHSL : IAccessiblePVIObject<IHSLEffectiveData>, IImageTransformOperation

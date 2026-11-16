@@ -1,14 +1,14 @@
 ---
 title: SensitivityLabel
-second_title: Aspose.Sildes .NET API referenciája
-description: Ábrázolja a Microsoft Purview Information Protection érzékenységi címkéjét.
+second_title: Aspose.Sildes .NET API-referencia
+description: A Microsoft Purview Information Protection érzékenységi címkéjét reprezentálja.
 type: docs
-weight: 9790
+weight: 9810
 url: /hu/aspose.slides/sensitivitylabel/
 ---
 ## SensitivityLabel osztály
 
-Ábrázolja a Microsoft Purview Information Protection érzékenységi címkéjét.
+A Microsoft Purview Information Protection érzékenységi címkéjét reprezentálja.
 
 ```csharp
 public sealed class SensitivityLabel : ISensitivityLabel
@@ -16,14 +16,14 @@ public sealed class SensitivityLabel : ISensitivityLabel
 
 ## Tulajdonságok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
-| [AssignmentMethodType](../../aspose.slides/sensitivitylabel/assignmentmethodtype) { get; set; } | Visszaadja vagy beállítja a hozzárendelési módszert a sensitivity label számára. Olvasás/írás [`SensitivityLabelAssignmentType`](../sensitivitylabelassignmenttype). |
+| [AssignmentMethodType](../../aspose.slides/sensitivitylabel/assignmentmethodtype) { get; set; } | Visszaadja vagy beállítja az érzékenységi címke hozzárendelési módját. Olvasás/írás [`SensitivityLabelAssignmentType`](../sensitivitylabelassignmenttype). |
 | [ContentMarkTypes](../../aspose.slides/sensitivitylabel/contentmarktypes) { get; } | Visszaadja a fájlra alkalmazandó tartalomjelölés típusainak listáját. |
-| [Id](../../aspose.slides/sensitivitylabel/id) { get; set; } | Visszaadja vagy beállítja a sensitivity label azonosítóját. Olvasás/írás String. |
-| [IsEnabled](../../aspose.slides/sensitivitylabel/isenabled) { get; set; } | Jelzi, hogy a sensitivity label engedélyezve van. |
-| [IsRemoved](../../aspose.slides/sensitivitylabel/isremoved) { get; set; } | Jelzi, hogy a sensitivity label eltávolításra került. |
-| [SiteId](../../aspose.slides/sensitivitylabel/siteid) { get; set; } | Visszaadja vagy beállítja az Azure Active Directory (Azure AD) helyazonosítót, amely a sensitivity label leíró szabályzatnak megfelelő. Olvasás/írás Guid. |
+| [Id](../../aspose.slides/sensitivitylabel/id) { get; set; } | Visszaadja vagy beállítja az érzékenységi címke azonosítóját. Olvasás/írás String. |
+| [IsEnabled](../../aspose.slides/sensitivitylabel/isenabled) { get; set; } | Jelzi, hogy az érzékenységi címke engedélyezett-e. |
+| [IsRemoved](../../aspose.slides/sensitivitylabel/isremoved) { get; set; } | Jelzi, hogy az érzékenységi címke eltávolításra került-e. |
+| [SiteId](../../aspose.slides/sensitivitylabel/siteid) { get; set; } | Visszaadja vagy beállítja a Azure Active Directory (Azure AD) helyazonosítót, amely az érzékenységi címkét leíró címkepolitikához tartozik. Olvasás/írás Guid. |
 
 ### Lásd még
 

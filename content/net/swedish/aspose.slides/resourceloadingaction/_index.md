@@ -1,28 +1,28 @@
 ---
 title: ResourceLoadingAction
 second_title: Aspose.Sildes för .NET API-referens
-description: Anger läget för inläsning av externa resurser.
+description: Anger läget för laddning av externa resurser.
 type: docs
-weight: 9700
+weight: 9720
 url: /sv/aspose.slides/resourceloadingaction/
 ---
-## ResourceLoadingAction enum
+## ResourceLoadingAction enumeration
 
-Anger läget för inläsning av externa resurser.
+Anger läget för laddning av externa resurser.
 
 ```csharp
 public enum ResourceLoadingAction
 ```
 
-### Värden
+### Values
 
-| Namn | Värde | Beskrivning |
+| Name | Value | Description |
 | --- | --- | --- |
-| Default | `0` | Aspose.Slides kommer att läsa in extern resurs som vanligt. |
-| Skip | `1` | Aspose.Slides kommer att hoppa över inläsning av extern resurs. Endast en länk utan data kommer att lagras för en bild. |
-| UserProvided | `2` | Aspose.Slides kommer att använda byte array som tillhandahålls av användaren i [`SetData`](../iresourceloadingargs/setdata) som bilddata. |
+| Default | `0` | Aspose.Slides kommer att ladda extern resurs som vanligt. |
+| Skip | `1` | Aspose.Slides kommer att hoppa över laddning av extern resurs. Endast en länk utan data kommer att sparas för en bild. |
+| UserProvided | `2` | Aspose.Slides kommer att använda byte-array som tillhandahålls av användaren i [`SetData`](../iresourceloadingargs/setdata) som bilddata. |
 
-### Se även
+### See Also
 
 * namnrymd [Aspose.Slides](../../aspose.slides)
 * samling [Aspose.Slides](../../)

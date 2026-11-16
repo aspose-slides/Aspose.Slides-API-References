@@ -1,9 +1,9 @@
 ---
 title: DataSourceType
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 数据源类型。
 type: docs
-weight: 1580
+weight: 1590
 url: /zh/aspose.slides.charts/datasourcetype/
 ---
 ## DataSourceType 枚举
@@ -19,8 +19,8 @@ public enum DataSourceType
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
 | Worksheet | `0` | 使用 CellXls 对象在工作表中存储数据点的 XValue、YValue、Value 或 BubbleSize。 |
-| StringLiterals | `1` | 使用快速访问的 string 变量来存储数据点的 XValue、YValue、Value 或 BubbleSize。Worksheet 未用于存储值。 |
-| DoubleLiterals | `2` | 使用快速访问的 double 变量来存储数据点的 XValue、YValue、Value 或 BubbleSize。Worksheet 未用于存储值。 |
+| StringLiterals | `1` | 使用快速访问的字符串变量存储数据点的 XValue、YValue、Value 或 BubbleSize。Worksheet NOT 用于存储值。 |
+| DoubleLiterals | `2` | 使用快速访问的 double 变量存储数据点的 XValue、YValue、Value 或 BubbleSize。Worksheet NOT 用于存储值。 |
 
 ### 另请参见
 

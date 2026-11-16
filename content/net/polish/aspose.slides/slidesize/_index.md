@@ -1,12 +1,12 @@
 ---
 title: SlideSize
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla .NET referencja API
 description: Reprezentuje rozmiar i orientację slajdu.
 type: docs
-weight: 10500
+weight: 10520
 url: /pl/aspose.slides/slidesize/
 ---
-## SlideSize klasa
+## Klasa SlideSize
 
 Reprezentuje rozmiar i orientację slajdu.
 
@@ -16,7 +16,7 @@ public class SlideSize : DomObject<Presentation>, ISlideSize
 
 ## Właściwości
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
 | [Orientation](../../aspose.slides/slidesize/orientation) { get; set; } | Pobiera lub ustawia orientację slajdu. |
 | [Size](../../aspose.slides/slidesize/size) { get; } | Pobiera wymiary slajdu w punktach. |
@@ -24,10 +24,10 @@ public class SlideSize : DomObject<Presentation>, ISlideSize
 
 ## Metody
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
-| [SetSize](../../aspose.slides/slidesize/setsize#setsize)(SlideSizeType, SlideSizeScaleType) | Ustawia rozmiar slajdu według typu i skalując istniejącą zawartość. |
-| [SetSize](../../aspose.slides/slidesize/setsize#setsize_1)(float, float, SlideSizeScaleType) | Ustawia wymiary slajdu wyraźnie i skalowuje istniejącą zawartość. |
+| [SetSize](../../aspose.slides/slidesize/setsize#setsize)(SlideSizeType, SlideSizeScaleType) | Ustawia rozmiar slajdu według typu i skalują istniejącą zawartość. |
+| [SetSize](../../aspose.slides/slidesize/setsize#setsize_1)(float, float, SlideSizeScaleType) | Ustawia wymiary slajdu jawnie i skalują istniejącą zawartość. |
 
 ### Zobacz także
 

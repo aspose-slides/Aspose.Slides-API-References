@@ -1,14 +1,14 @@
 ---
 title: IFontFallBackRulesCollection
-second_title: Aspose.Sildes .NET API 参考
-description: 表示由用户定义的 FontFallBack 规则集合
+second_title: Aspose.Sildes for .NET API 参考
+description: 表示用户定义的 FontFallBack 规则集合
 type: docs
-weight: 5860
+weight: 5880
 url: /zh/aspose.slides/ifontfallbackrulescollection/
 ---
 ## IFontFallBackRulesCollection 接口
 
-表示一个由用户定义的 FontFallBack 规则集合
+表示用户定义的 FontFallBack 规则集合
 
 ```csharp
 public interface IFontFallBackRulesCollection : IGenericCollection<IFontFallBackRule>
@@ -16,18 +16,18 @@ public interface IFontFallBackRulesCollection : IGenericCollection<IFontFallBack
 
 ## 属性
 
-| 名称 | 描述 |
+| 名称 | 说明 |
 | --- | --- |
-| [Item](../../aspose.slides/ifontfallbackrulescollection/item) { get; } | 获取指定索引处的规则。只读 [`IFontFallBackRule`](../ifontfallbackrule). |
+| [Item](../../aspose.slides/ifontfallbackrulescollection/item) { get; } | 获取指定索引处的规则。只读 [`IFontFallBackRule`](../ifontfallbackrule)。 |
 
 ## 方法
 
-| 名称 | 描述 |
+| 名称 | 说明 |
 | --- | --- |
-| [Add](../../aspose.slides/ifontfallbackrulescollection/add)(IFontFallBackRule) | 向集合末尾添加新的 FallBack 规则。 |
+| [Add](../../aspose.slides/ifontfallbackrulescollection/add)(IFontFallBackRule) | 在集合末尾添加新的 FallBack 规则。 |
 | [Remove](../../aspose.slides/ifontfallbackrulescollection/remove)(IFontFallBackRule) | 从集合中移除特定 FallBack 规则的第一次出现。 |
 
-### 参见
+### 另请参阅
 
 * 接口 [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * 接口 [IFontFallBackRule](../ifontfallbackrule)

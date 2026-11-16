@@ -1,12 +1,12 @@
 ---
 title: ColorFormat
-second_title: مرجع API لـ Aspose.Sildes لـ .NET
+second_title: Aspose.Sildes لـ .NET مرجع API
 description: يمثل لونًا يُستخدم في عرض تقديمي.
 type: docs
-weight: 2520
+weight: 2540
 url: /ar/aspose.slides/colorformat/
 ---
-## فئة ColorFormat
+## ColorFormat فئة
 
 يمثل لونًا يُستخدم في عرض تقديمي.
 
@@ -16,31 +16,31 @@ public sealed class ColorFormat : PVIObject, IColorFormat
 
 ## الخصائص
 
-| الاسم | الوصف |
+| Name | Description |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | يسمح بالحصول على واجهة IPresentationComponent الأساسية. قراءة فقط [`IPresentationComponent`](../ipresentationcomponent). |
-| [B](../../aspose.slides/colorformat/b) { get; set; } | يعيد أو يضبط المكوّن الأزرق للون. يتم تجاهل جميع تحويلات اللون. قراءة/كتابة Byte. |
-| [Color](../../aspose.slides/colorformat/color) { get; set; } | يعيد اللون الناتج (مع تطبيق جميع تحويلات اللون). يضبط ألوان RGB ويزيل جميع تحويلات اللون. قراءة/كتابة Color. |
-| [ColorTransform](../../aspose.slides/colorformat/colortransform) { get; } | يعيد مجموعة تحويلات اللون المطبقة على لون. قراءة فقط [`IColorOperationCollection`](../icoloroperationcollection). |
-| [ColorType](../../aspose.slides/colorformat/colortype) { get; set; } | يعيد أو يضبط طريقة تعريف اللون. قراءة/كتابة [`ColorType`](../colortype). |
-| [FloatB](../../aspose.slides/colorformat/floatb) { get; set; } | يعيد أو يضبط المكوّن الأزرق للون. يتم تجاهل جميع تحويلات اللون. قراءة/كتابة Single. |
-| [FloatG](../../aspose.slides/colorformat/floatg) { get; set; } | يعيد أو يضبط المكوّن الأخضر للون. يتم تجاهل جميع تحويلات اللون. قراءة/كتابة Single. |
-| [FloatR](../../aspose.slides/colorformat/floatr) { get; set; } | يعيد أو يضبط المكوّن الأحمر للون. يتم تجاهل جميع تحويلات اللون. قراءة/كتابة Single. |
-| [G](../../aspose.slides/colorformat/g) { get; set; } | يعيد أو يضبط المكوّن الأخضر للون. يتم تجاهل جميع تحويلات اللون. |
-| [Hue](../../aspose.slides/colorformat/hue) { get; set; } | يعيد أو يضبط مكوّن الصبغة للون في تمثيل HSL. يتم تجاهل جميع تحويلات اللون. قراءة/كتابة Single. |
-| [Luminance](../../aspose.slides/colorformat/luminance) { get; set; } | يعيد أو يضبط مكوّن الإضاءة للون في تمثيل HSL. يتم تجاهل جميع تحويلات اللون. قراءة/كتابة Single. |
-| [PresetColor](../../aspose.slides/colorformat/presetcolor) { get; set; } | يعيد أو يضبط الإعداد المسبق للون. قراءة/كتابة [`PresetColor`](../presetcolor). |
-| [R](../../aspose.slides/colorformat/r) { get; set; } | يعيد أو يضبط المكوّن الأحمر للون. يتم تجاهل جميع تحويلات اللون. قراءة/كتابة Byte. |
-| [Saturation](../../aspose.slides/colorformat/saturation) { get; set; } | يعيد أو يضبط مكوّن التشبع للون في تمثيل HSL. يتم تجاهل جميع تحويلات اللون. قراءة/كتابة Single. |
-| [SchemeColor](../../aspose.slides/colorformat/schemecolor) { get; set; } | يعيد أو يضبط اللون المحدد بواسطة نظام ألوان. قراءة/كتابة [`SchemeColor`](../schemecolor). |
-| [SystemColor](../../aspose.slides/colorformat/systemcolor) { get; set; } | يعيد أو يضبط اللون المحدد بواسطة جدول ألوان النظام. قراءة/كتابة [`SystemColor`](../systemcolor). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | يسمح بالحصول على واجهة IPresentationComponent الأساسي. للقراءة فقط [`IPresentationComponent`](../ipresentationcomponent). |
+| [B](../../aspose.slides/colorformat/b) { get; set; } | يعيد أو يعيّن المكوّن الأزرق للون. تُهمل جميع تحويلات اللون. للقراءة/الكتابة Byte. |
+| [Color](../../aspose.slides/colorformat/color) { get; set; } | يعيد اللون الناتج (مع تطبيق جميع تحويلات اللون). يعيّن ألوان RGB ويزيل جميع تحويلات اللون. للقراءة/الكتابة Color. |
+| [ColorTransform](../../aspose.slides/colorformat/colortransform) { get; } | يعيد مجموعة تحويلات اللون المطبقة على اللون. للقراءة فقط [`IColorOperationCollection`](../icoloroperationcollection). |
+| [ColorType](../../aspose.slides/colorformat/colortype) { get; set; } | يعيد أو يعيّن طريقة تعريف اللون. للقراءة/الكتابة [`ColorType`](../colortype). |
+| [FloatB](../../aspose.slides/colorformat/floatb) { get; set; } | يعيد أو يعيّن المكوّن الأزرق للون. تُهمل جميع تحويلات اللون. للقراءة/الكتابة Single. |
+| [FloatG](../../aspose.slides/colorformat/floatg) { get; set; } | يعيد أو يعيّن المكوّن الأخضر للون. تُهمل جميع تحويلات اللون. للقراءة/الكتابة Single. |
+| [FloatR](../../aspose.slides/colorformat/floatr) { get; set; } | يعيد أو يعيّن المكوّن الأحمر للون. تُهمل جميع تحويلات اللون. للقراءة/الكتابة Single. |
+| [G](../../aspose.slides/colorformat/g) { get; set; } | يعيد أو يعيّن المكوّن الأخضر للون. تُهمل جميع تحويلات اللون. |
+| [Hue](../../aspose.slides/colorformat/hue) { get; set; } | يعيد أو يعيّن مكوّن الصبغة للون في تمثيل HSL. تُهمل جميع تحويلات اللون. للقراءة/الكتابة Single. |
+| [Luminance](../../aspose.slides/colorformat/luminance) { get; set; } | يعيد أو يعيّن مكوّن السطوع للون في تمثيل HSL. تُهمل جميع تحويلات اللون. للقراءة/الكتابة Single. |
+| [PresetColor](../../aspose.slides/colorformat/presetcolor) { get; set; } | يعيد أو يعيّن إعداد اللون المسبق. للقراءة/الكتابة [`PresetColor`](../presetcolor). |
+| [R](../../aspose.slides/colorformat/r) { get; set; } | يعيد أو يعيّن المكوّن الأحمر للون. تُهمل جميع تحويلات اللون. للقراءة/الكتابة Byte. |
+| [Saturation](../../aspose.slides/colorformat/saturation) { get; set; } | يعيد أو يعيّن مكوّن التشبع للون في تمثيل HSL. تُهمل جميع تحويلات اللون. للقراءة/الكتابة Single. |
+| [SchemeColor](../../aspose.slides/colorformat/schemecolor) { get; set; } | يعيد أو يعيّن اللون المحدد بواسطة نظام ألوان. للقراءة/الكتابة [`SchemeColor`](../schemecolor). |
+| [SystemColor](../../aspose.slides/colorformat/systemcolor) { get; set; } | يعيد أو يعيّن اللون المحدد بواسطة جدول ألوان النظام. للقراءة/الكتابة [`SystemColor`](../systemcolor). |
 
-## الأساليب
+## الطرق
 
-| الاسم | الوصف |
+| Name | Description |
 | --- | --- |
 | [CopyFrom](../../aspose.slides/colorformat/copyfrom)(IColorFormat) | نسخ تنسيق اللون من "color". |
-| override [Equals](../../aspose.slides/colorformat/equals)(object) | يفحص المساواة مع الكائن المحدد. |
+| override [Equals](../../aspose.slides/colorformat/equals)(object) | يتحقق من المساواة مع الكائن المحدد. |
 | override [GetHashCode](../../aspose.slides/colorformat/gethashcode)() | يعيد رمز التجزئة. |
 | [ToString](../../aspose.slides/colorformat/tostring#tostring_1)(ColorStringFormat) | يعيد سلسلة تمثل تنسيق اللون الحالي. |
 
@@ -48,7 +48,7 @@ public sealed class ColorFormat : PVIObject, IColorFormat
 
 * فئة [PVIObject](../pviobject)
 * واجهة [IColorFormat](../icolorformat)
-* مساحة اسم [Aspose.Slides](../../aspose.slides)
+* مساحة الاسم [Aspose.Slides](../../aspose.slides)
 * تجميع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

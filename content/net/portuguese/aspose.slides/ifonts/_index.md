@@ -1,12 +1,12 @@
 ---
 title: IFonts
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Aspose.Sildes para a referência da API .NET
 description: Representa a coleção de fontes.
 type: docs
-weight: 5900
+weight: 5920
 url: /pt/aspose.slides/ifonts/
 ---
-## IFonts interface
+## interface IFonts
 
 Representa a coleção de fontes.
 
@@ -19,8 +19,8 @@ public interface IFonts
 | Nome | Descrição |
 | --- | --- |
 | [ComplexScriptFont](../../aspose.slides/ifonts/complexscriptfont) { get; set; } | Retorna ou define a fonte de script complexo. Leitura/gravação [`IFontData`](../ifontdata). |
-| [EastAsianFont](../../aspose.slides/ifonts/eastasianfont) { get; set; } | Retorna ou define a fonte do Leste Asiático. Leitura/gravação [`IFontData`](../ifontdata). |
-| [LatinFont](../../aspose.slides/ifonts/latinfont) { get; set; } | Retorna ou define a fonte latina. Leitura/gravação [`IFontData`](../ifontdata). |
+| [EastAsianFont](../../aspose.slides/ifonts/eastasianfont) { get; set; } | Retorna ou define a fonte de East Asian. Leitura/gravação [`IFontData`](../ifontdata). |
+| [LatinFont](../../aspose.slides/ifonts/latinfont) { get; set; } | Retorna ou define a fonte Latin. Leitura/gravação [`IFontData`](../ifontdata). |
 
 ## Métodos
 
@@ -31,7 +31,7 @@ public interface IFonts
 | [RemoveScriptFont](../../aspose.slides/ifonts/removescriptfont)(string) | Remove a configuração de fonte associada a uma tag de script específica da coleção de fontes do tema. |
 | [SetScriptFont](../../aspose.slides/ifonts/setscriptfont)(string, string) | Atribui um nome de fonte a uma tag de script específica, que define como o texto desse script será renderizado na apresentação. |
 
-### Veja Também
+### Ver também
 
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

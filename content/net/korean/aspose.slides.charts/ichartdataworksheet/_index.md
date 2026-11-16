@@ -1,14 +1,14 @@
 ---
 title: IChartDataWorksheet
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: IChartDataCell와 연결된 워크시트를 나타냅니다./ichartdatacell
 type: docs
-weight: 1870
+weight: 1890
 url: /ko/aspose.slides.charts/ichartdataworksheet/
 ---
 ## IChartDataWorksheet 인터페이스
 
-[`IChartDataCell`](../ichartdatacell)와 연결된 워크시트를 나타냅니다
+지정된 [`IChartDataCell`](../ichartdatacell)와 연관된 워크시트를 나타냅니다.
 
 ```csharp
 public interface IChartDataWorksheet
@@ -21,7 +21,7 @@ public interface IChartDataWorksheet
 | [Index](../../aspose.slides.charts/ichartdataworksheet/index) { get; } | 인덱스를 가져옵니다. 읽기 전용 Int32. |
 | [Name](../../aspose.slides.charts/ichartdataworksheet/name) { get; } | 이름을 가져옵니다. 읽기 전용 String. |
 
-### 참고
+### 참조
 
 * 네임스페이스 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 어셈블리 [Aspose.Slides](../../)

@@ -3,7 +3,7 @@ title: ModernComment
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa un comentario en una diapositiva.
 type: docs
-weight: 9090
+weight: 9110
 url: /es/aspose.slides/moderncomment/
 ---
 ## ModernComment clase
@@ -19,15 +19,15 @@ public sealed class ModernComment : Comment, IModernComment
 | Nombre | Descripción |
 | --- | --- |
 | [Author](../../aspose.slides/comment/author) { get; } | Devuelve el autor de un comentario. Solo lectura [`ICommentAuthor`](../icommentauthor). |
-| [CreatedTime](../../aspose.slides/comment/createdtime) { get; set; } | Devuelve o establece la hora de creación de un comentario. Establecer esta propiedad en MinValue significa que no se ha establecido la hora del comentario. Lectura/escritura DateTime. |
-| [ParentComment](../../aspose.slides/comment/parentcomment) { get; set; } | Obtiene o establece el comentario principal. Lectura/escritura [`IComment`](../icomment). |
+| [CreatedTime](../../aspose.slides/comment/createdtime) { get; set; } | Devuelve o establece la hora de creación de un comentario. Establecer esta propiedad a MinValue significa que no se ha establecido la hora del comentario. Lectura/escritura DateTime. |
+| [ParentComment](../../aspose.slides/comment/parentcomment) { get; set; } | Obtiene o establece el comentario padre. Lectura/escritura [`IComment`](../icomment). |
 | [Position](../../aspose.slides/comment/position) { get; set; } | Devuelve o establece la posición de un comentario en una diapositiva. Lectura/escritura PointF. |
 | [Shape](../../aspose.slides/moderncomment/shape) { get; } | Devuelve una forma asociada al comentario. Solo lectura [`IShape`](../ishape). |
-| [Slide](../../aspose.slides/comment/slide) { get; } | Devuelve o establece la diapositiva principal de un comentario. Solo lectura [`ISlide`](../islide). |
+| [Slide](../../aspose.slides/comment/slide) { get; } | Devuelve o establece la diapositiva padre de un comentario. Solo lectura [`ISlide`](../islide). |
 | [Status](../../aspose.slides/moderncomment/status) { get; set; } | Obtiene o establece el estado del comentario. Lectura/escritura [`ModernCommentStatus`](../moderncommentstatus). |
-| [Text](../../aspose.slides/comment/text) { get; set; } | Devuelve o establece el texto plano de un comentario en la diapositiva. Lectura/escritura String. |
-| [TextSelectionLength](../../aspose.slides/moderncomment/textselectionlength) { get; set; } | Obtiene o establece la longitud de la selección de texto en el marco de texto si el comentario está asociado a AutoShape. Lectura/escritura Int32. |
-| [TextSelectionStart](../../aspose.slides/moderncomment/textselectionstart) { get; set; } | Obtiene o establece la posición inicial de la selección de texto en el marco de texto si el comentario está asociado a AutoShape. Lectura/escritura Int32. |
+| [Text](../../aspose.slides/comment/text) { get; set; } | Devuelve o establece el texto sin formato de un comentario de diapositiva. Lectura/escritura String. |
+| [TextSelectionLength](../../aspose.slides/moderncomment/textselectionlength) { get; set; } | Obtiene o establece la longitud de la selección de texto en el marco de texto si el comentario está asociado con AutoShape. Lectura/escritura Int32. |
+| [TextSelectionStart](../../aspose.slides/moderncomment/textselectionstart) { get; set; } | Obtiene o establece la posición inicial de la selección de texto en el marco de texto si el comentario está asociado con AutoShape. Lectura/escritura Int32. |
 
 ## Métodos
 

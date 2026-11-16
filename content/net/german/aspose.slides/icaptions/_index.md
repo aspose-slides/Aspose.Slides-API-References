@@ -3,7 +3,7 @@ title: ICaptions
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt die WebVTT-Untertitel dar.
 type: docs
-weight: 5430
+weight: 5450
 url: /de/aspose.slides/icaptions/
 ---
 ## ICaptions Schnittstelle
@@ -18,10 +18,10 @@ public interface ICaptions
 
 | Name | Beschreibung |
 | --- | --- |
-| [BinaryData](../../aspose.slides/icaptions/binarydata) { get; } | Gibt die Binärdaten der Untertitel zurück. Nur lesbar Byte[]. |
-| [CaptionId](../../aspose.slides/icaptions/captionid) { get; } | Gibt den global eindeutigen Bezeichner (GUID) der Untertitel zurück. Nur lesbar Guid. |
-| [DataAsString](../../aspose.slides/icaptions/dataasstring) { get; } | Gibt die Untertitel-Daten als UTF-8-kodierten String zurück. Nur lesbar String. |
-| [Label](../../aspose.slides/icaptions/label) { get; set; } | Gibt das Label der Untertitel zurück oder setzt es. Lese/Schreib String. |
+| [BinaryData](../../aspose.slides/icaptions/binarydata) { get; } | Gibt die Binärdaten der Untertitel zurück. Nur lesend Byte[]. |
+| [CaptionId](../../aspose.slides/icaptions/captionid) { get; } | Gibt den global eindeutig eindeutigen Bezeichner (GUID) der Untertitel zurück. Nur lesend Guid. |
+| [DataAsString](../../aspose.slides/icaptions/dataasstring) { get; } | Gibt die Untertitel-Daten als UTF-8-kodierten String zurück. Nur lesend String. |
+| [Label](../../aspose.slides/icaptions/label) { get; set; } | Gibt das Label der Untertitel zurück oder legt es fest. Lesen/Schreiben String. |
 
 ### Siehe auch
 

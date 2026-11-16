@@ -3,7 +3,7 @@ title: ColorOperation
 second_title: Aspose.Sildes pro .NET API Reference
 description: Reprezentuje různé operace barev používané pro transformace barev. Neměnný objekt.
 type: docs
-weight: 2530
+weight: 2550
 url: /cs/aspose.slides/coloroperation/
 ---
 ## ColorOperation třída
@@ -16,24 +16,24 @@ public class ColorOperation : IColorOperation
 
 ## Konstruktory
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
-| [ColorOperation](coloroperation#constructor)(ColorTransformOperation) | Vytváří novou operaci transformace barev. |
-| [ColorOperation](coloroperation#constructor_1)(ColorTransformOperation, float) | Vytváří novou operaci transformace barev. |
+| [ColorOperation](coloroperation#constructor)(ColorTransformOperation) | Vytvoří novou operaci transformace barev. |
+| [ColorOperation](coloroperation#constructor_1)(ColorTransformOperation, float) | Vytvoří novou operaci transformace barev. |
 
 ## Vlastnosti
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
 | [OperationType](../../aspose.slides/coloroperation/operationtype) { get; } | Vrací nebo nastavuje typ operace. Pouze pro čtení [`ColorTransformOperation`](../colortransformoperation). |
 | [Parameter](../../aspose.slides/coloroperation/parameter) { get; } | Vrací parametr operace. Pouze pro čtení Single. |
 
 ## Metody
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides/coloroperation/equals)(object) | Určuje, zda jsou dvě instance ColorOperation rovny. |
-| override [GetHashCode](../../aspose.slides/coloroperation/gethashcode)() | Slouží jako hashovací funkce pro daný typ, vhodná pro použití v hashovacích algoritmech a datových strukturách, jako je hash tabulka. |
+| override [GetHashCode](../../aspose.slides/coloroperation/gethashcode)() | Slouží jako hashovací funkce pro konkrétní typ, vhodná pro použití v hashovacích algoritmoch a datových strukturách, jako je hash tabulka. |
 
 ### Viz také
 

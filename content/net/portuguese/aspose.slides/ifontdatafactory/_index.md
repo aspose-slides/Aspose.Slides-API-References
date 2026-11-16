@@ -1,14 +1,14 @@
 ---
 title: IFontDataFactory
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Interface de fábrica FontData
 type: docs
-weight: 5840
+weight: 5860
 url: /pt/aspose.slides/ifontdatafactory/
 ---
 ## IFontDataFactory interface
 
-Interface de fábrica FontData
+interface de fábrica FontData
 
 ```csharp
 public interface IFontDataFactory
@@ -20,7 +20,7 @@ public interface IFontDataFactory
 | --- | --- |
 | [CreateFontData](../../aspose.slides/ifontdatafactory/createfontdata)(string) | Cria FontData com o nome da fonte especificado. |
 
-### Veja também
+### Veja Também
 
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

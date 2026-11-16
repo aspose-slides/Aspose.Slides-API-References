@@ -1,14 +1,14 @@
 ---
 title: IPresentationSignedWarningInfo
-second_title: Aspose.Sildes .NET API Referansı
-description: Bu uyarı, okunan sunumun bir imzası olduğunu ve bu imzanın işleme sırasında kaldırılacağını gösterir.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Bu uyarı, okunan sunumun imzası olduğunu ve bu imzanın işleme sırasında kaldırılacağını gösterir.
 type: docs
-weight: 11790
+weight: 11810
 url: /tr/aspose.slides.warnings/ipresentationsignedwarninginfo/
 ---
-## IPresentationSignedWarningInfo arayüz
+## IPresentationSignedWarningInfo arabirimi
 
-Bu uyarı, okunan sunumun imzası olduğunu ve bu imzanın işleme sırasında kaldırılacağını gösterir.
+Bu uyarı, okunan sunumun imzası olduğu ve bu imzanın işleme sırasında kaldırılacağı anlamına gelir.
 
 ```csharp
 public interface IPresentationSignedWarningInfo : IWarningInfo
@@ -18,11 +18,11 @@ public interface IPresentationSignedWarningInfo : IWarningInfo
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIWarningInfo](../../aspose.slides.warnings/ipresentationsignedwarninginfo/asiwarninginfo) { get; } | IWarningInfo arayüzünü döndürür. Salt okuma [`IWarningInfo`](../iwarninginfo). |
+| [AsIWarningInfo](../../aspose.slides.warnings/ipresentationsignedwarninginfo/asiwarninginfo) { get; } | IWarningInfo arabirimini döndürür. Yalnızca okuma [`IWarningInfo`](../iwarninginfo). |
 
-### İlgili
+### Ayrıca Bakınız
 
-* arayüz [IWarningInfo](../iwarninginfo)
+* arabirimi [IWarningInfo](../iwarninginfo)
 * ad alanı [Aspose.Slides.Warnings](../../aspose.slides.warnings)
 * derleme [Aspose.Slides](../../)
 

@@ -1,14 +1,14 @@
 ---
 title: ExternalResourceResolver
-second_title: Aspose.Sildes .NET API 레퍼런스
-description: HTML 및 SVG 문서 가져오기 중 외부 리소스를 해결하는 데 사용되는 콜백 클래스입니다. 이 해결자를 사용하면 클라이언트가 제공한 HTML 또는 SVG 파일이 서버 소프트웨어가 로컬 또는 네트워크 파일에 접근하도록 하여 취약점이 발생할 수 있습니다. 사용에 주의하십시오. ExternalResourceResolver를 전혀 지정하지 않는 것이 권장됩니다(임베디드 객체만 읽어들여짐) 또는 지정된 URI가 유효한지 확인하는 서브클래스를 생성하십시오.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: Html 및 Svg 문서 가져오기 중 외부 리소스를 해결하기 위해 사용되는 콜백 클래스입니다. 이 리졸버를 사용하면 클라이언트가 제공한 HTML 또는 SVG 파일이 서버 소프트웨어가 로컬 또는 네트워크 파일에 접근하도록 하여 취약점이 발생할 수 있습니다. 사용에 주의하십시오. ExternalResourceResolver를 전혀 지정하지 않는 것이 권장됩니다(임베디드 객체만 읽히게 됨) 또는 지정된 URI가 유효한지 검사하는 서브클래스를 생성하십시오.
 type: docs
-weight: 7480
+weight: 7500
 url: /ko/aspose.slides.import/externalresourceresolver/
 ---
 ## ExternalResourceResolver 클래스
 
-HTML 및 SVG 문서 가져오기 중 외부 리소스를 해결하는 데 사용되는 콜백 클래스입니다. 이 해결자를 사용하면 클라이언트가 제공한 HTML 또는 SVG 파일이 서버 소프트웨어가 로컬 또는 네트워크 파일에 접근하게 만들어 취약점이 발생할 수 있습니다. 사용에 주의하십시오. ExternalResourceResolver를 지정하지 않는 것이 권장됩니다(임베디드 객체만 읽어들여짐) 또는 지정된 URI가 유효한지 확인하는 서브클래스를 생성하십시오.
+Html, Svg 문서 가져오기 중 외부 리소스를 해결하기 위해 사용되는 콜백 클래스입니다. 이 리졸버를 사용하면 클라이언트가 제공한 HTML 또는 SVG 파일이 서버 소프트웨어가 로컬 또는 네트워크 파일에 접근하도록 만들 수 있어 취약점이 발생할 수 있습니다. 사용에 주의하십시오. ExternalResourceResolver 를 전혀 지정하지 않는 것이 권장됩니다(임베디드 객체만 읽히게 됨) 또는 지정된 uri 가 유효한지 검사하는 서브클래스를 생성하십시오.
 
 ```csharp
 public class ExternalResourceResolver : IExternalResourceResolver
@@ -18,16 +18,16 @@ public class ExternalResourceResolver : IExternalResourceResolver
 
 | 이름 | 설명 |
 | --- | --- |
-| [ExternalResourceResolver](externalresourceresolver)() | 기본 생성자입니다. |
+| [ExternalResourceResolver](externalresourceresolver)() | 기본 생성자. |
 
 ## 메서드
 
 | 이름 | 설명 |
 | --- | --- |
-| virtual [GetEntity](../../aspose.slides.import/externalresourceresolver/getentity)(string) | URI를 실제 리소스를 포함하는 객체에 매핑합니다. |
-| virtual [ResolveUri](../../aspose.slides.import/externalresourceresolver/resolveuri)(string, string) | 기본 및 상대 URI로부터 절대 URI를 해결합니다. |
+| virtual [GetEntity](../../aspose.slides.import/externalresourceresolver/getentity)(string) | URI 를 실제 리소스를 포함하는 객체에 매핑합니다. |
+| virtual [ResolveUri](../../aspose.slides.import/externalresourceresolver/resolveuri)(string, string) | 기본 URI와 상대 URI 로부터 절대 URI 를 해결합니다. |
 
-### 또한 보기
+### 참조
 
 * 인터페이스 [IExternalResourceResolver](../iexternalresourceresolver)
 * 네임스페이스 [Aspose.Slides.Import](../../aspose.slides.import)

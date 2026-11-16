@@ -1,14 +1,14 @@
 ---
 title: IOverrideThemeable
-second_title: Aspose.Sildes の .NET API リファレンス
-description: オーバーライドテーママネージャーを表します。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: オーバーライド テーマ マネージャーを表します。
 type: docs
-weight: 11360
+weight: 11380
 url: /ja/aspose.slides.theme/ioverridethemeable/
 ---
 ## IOverrideThemeable インターフェイス
 
-オーバーライドテーママネージャーを表します。
+オーバーライド テーマ マネージャーを表します。
 
 ```csharp
 public interface IOverrideThemeable : IThemeable
@@ -18,8 +18,8 @@ public interface IOverrideThemeable : IThemeable
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIThemeable](../../aspose.slides.theme/ioverridethemeable/asithemeable) { get; } | IThemeable インターフェイスを返します。読み取り専用 [`IThemeable`](../ithemeable). |
-| [ThemeManager](../../aspose.slides.theme/ioverridethemeable/thememanager) { get; } | オーバーライドテーママネージャーを返します。読み取り専用 [`IOverrideThemeManager`](../ioverridethememanager). |
+| [AsIThemeable](../../aspose.slides.theme/ioverridethemeable/asithemeable) { get; } | IThemeable インターフェイスを返します。読み取り専用 [`IThemeable`](../ithemeable)。 |
+| [ThemeManager](../../aspose.slides.theme/ioverridethemeable/thememanager) { get; } | オーバーライドテーマ マネージャーを返します。読み取り専用 [`IOverrideThemeManager`](../ioverridethememanager)。 |
 
 ### 参照
 

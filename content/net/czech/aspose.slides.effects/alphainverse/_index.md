@@ -1,14 +1,14 @@
 ---
 title: AlphaInverse
-second_title: Aspose.Sildes pro .NET API referenci
-description: Reprezentuje efekt Alpha Inverse. Hodnoty průhlednosti Alpha jsou invertovány odečtením od 100.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Reprezentuje efekt Alpha Inverse. Hodnoty opacity Alpha jsou invertovány odečtením od 100%.
 type: docs
-weight: 2870
+weight: 2890
 url: /cs/aspose.slides.effects/alphainverse/
 ---
 ## třída AlphaInverse
 
-Representuje efekt Alpha Inverse. Hodnoty alfa (průhlednosti) jsou invertovány odečtením od 100 %.
+Represents an Alpha Inverse effect. Alpha (opacity) values are inverted by subtracting from 100%.
 
 ```csharp
 public sealed class AlphaInverse : ImageTransformOperation, IAlphaInverse
@@ -18,15 +18,15 @@ public sealed class AlphaInverse : ImageTransformOperation, IAlphaInverse
 
 | Název | Popis |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Umožňuje získat základní rozhraní IPresentationComponent. Pouze ke čtení [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Umožňuje získat základní IPresentationComponent interface. Pouze pro čtení [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/alphainverse/equals)(object) | Určuje, zda zadaný [`AlphaInverse`](../alphainverse) je roven aktuálnímu [`AlphaInverse`](../alphainverse). |
-| [GetEffective](../../aspose.slides.effects/alphainverse/geteffective)() | Získá efektivní data efektu Alpha Inverse s aplikovaným děděním. |
-| override [GetHashCode](../../aspose.slides.effects/alphainverse/gethashcode)() | Slouží jako hashovací funkce pro konkrétní typ. |
+| override [Equals](../../aspose.slides.effects/alphainverse/equals)(object) | Určuje, zda je zadaný [`AlphaInverse`](../alphainverse) roven aktuálnímu [`AlphaInverse`](../alphainverse). |
+| [GetEffective](../../aspose.slides.effects/alphainverse/geteffective)() | Získá efektivní Alpha Inverse effect data s aplikovaným děděním. |
+| override [GetHashCode](../../aspose.slides.effects/alphainverse/gethashcode)() | Slouží jako hash function for a particular type. |
 
 ### Viz také
 

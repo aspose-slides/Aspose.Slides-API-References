@@ -1,14 +1,14 @@
 ---
 title: ITable
-second_title: Aspose.Sildes .NET API referenciája
-description: Egy dián található táblázatot reprezentál.
+second_title: Aspose.Sildes .NET API referencia
+description: Egy dián lévő táblát reprezentál.
 type: docs
-weight: 7230
+weight: 7250
 url: /hu/aspose.slides/itable/
 ---
 ## ITable interfész
 
-Egy dián található táblázatot reprezentál.
+Egy dián lévő táblát reprezentál.
 
 ```csharp
 public interface ITable : IBulkTextFormattable, IGraphicalObject
@@ -18,20 +18,20 @@ public interface ITable : IBulkTextFormattable, IGraphicalObject
 
 | Név | Leírás |
 | --- | --- |
-| [AsIBulkTextFormattable](../../aspose.slides/itable/asibulktextformattable) { get; } | Lehetővé teszi az alap IBulkTextFormattable interfész lekérdezését. Csak olvasható [`IBulkTextFormattable`](../ibulktextformattable). |
-| [AsIGraphicalObject](../../aspose.slides/itable/asigraphicalobject) { get; } | Lehetővé teszi az alap IGraphicalObject interfész lekérdezését. Csak olvasható [`IGraphicalObject`](../igraphicalobject). |
-| [Columns](../../aspose.slides/itable/columns) { get; } | Visszaadja az oszlopok gyűjteményét. Csak olvasható [`IColumnCollection`](../icolumncollection). |
-| [FirstCol](../../aspose.slides/itable/firstcol) { get; set; } | Megállapítja, hogy a táblázat első oszlopát speciális formázással kell-e megjeleníteni. Olvasás/írás Boolean. |
-| [FirstRow](../../aspose.slides/itable/firstrow) { get; set; } | Megállapítja, hogy a táblázat első sorát speciális formázással kell-e megjeleníteni. Olvasás/írás Boolean. |
-| [HorizontalBanding](../../aspose.slides/itable/horizontalbanding) { get; set; } | Megállapítja, hogy a páros sorokat különböző formázással kell-e megjeleníteni. Olvasás/írás Boolean. |
-| [Item](../../aspose.slides/itable/item) { get; } | Visszaadja a megadott oszlop- és sorindexeknél lévő cellát. Csak olvasható [`ICell`](../icell). |
-| [LastCol](../../aspose.slides/itable/lastcol) { get; set; } | Megállapítja, hogy a táblázat utolsó oszlopát speciális formázással kell-e megjeleníteni. Olvasás/írás Boolean. |
-| [LastRow](../../aspose.slides/itable/lastrow) { get; set; } | Megállapítja, hogy a táblázat utolsó sorát speciális formázással kell-e megjeleníteni. Olvasás/írás Boolean. |
-| [RightToLeft](../../aspose.slides/itable/righttoleft) { get; set; } | Megállapítja, hogy a táblázat jobb-balra olvasási sorrendet használ-e. Olvasás/írás Boolean. |
-| [Rows](../../aspose.slides/itable/rows) { get; } | Visszaadja a sorok gyűjteményét. Csak olvasható [`IRowCollection`](../irowcollection). |
-| [StylePreset](../../aspose.slides/itable/stylepreset) { get; set; } | A beépített táblázatstílust kérdezi le vagy állítja be. Olvasás/írás [`TableStylePreset`](../tablestylepreset). |
-| [TableFormat](../../aspose.slides/itable/tableformat) { get; } | Visszaadja a TableFormat objektumot, amely a táblázat formázási tulajdonságait tartalmazza. Csak olvasható [`ITableFormat`](../itableformat). |
-| [VerticalBanding](../../aspose.slides/itable/verticalbanding) { get; set; } | Megállapítja, hogy a páros oszlopokat különböző formázással kell-e megjeleníteni. Olvasás/írás Boolean. |
+| [AsIBulkTextFormattable](../../aspose.slides/itable/asibulktextformattable) { get; } | Lehetővé teszi a base IBulkTextFormattable interfész lekérését. Csak olvasás [`IBulkTextFormattable`](../ibulktextformattable). |
+| [AsIGraphicalObject](../../aspose.slides/itable/asigraphicalobject) { get; } | Lehetővé teszi a base IGraphicalObject interfész lekérését. Csak olvasás [`IGraphicalObject`](../igraphicalobject). |
+| [Columns](../../aspose.slides/itable/columns) { get; } | Visszaadja az oszlopok gyűjteményét. Csak olvasás [`IColumnCollection`](../icolumncollection). |
+| [FirstCol](../../aspose.slides/itable/firstcol) { get; set; } | Megállapítja, hogy a tábla első oszlopát speciális formázással kell-e megjeleníteni. Olvasás/írás Boolean. |
+| [FirstRow](../../aspose.slides/itable/firstrow) { get; set; } | Megállapítja, hogy a tábla első sorát speciális formázással kell-e megjeleníteni. Olvasás/írás Boolean. |
+| [HorizontalBanding](../../aspose.slides/itable/horizontalbanding) { get; set; } | Megállapítja, hogy a páros sorokat eltérő formázással kell-e megjeleníteni. Olvasás/írás Boolean. |
+| [Item](../../aspose.slides/itable/item) { get; } | Visszaadja a megadott oszlop- és sormegadókhoz tartozó cellát. Csak olvasás [`ICell`](../icell). |
+| [LastCol](../../aspose.slides/itable/lastcol) { get; set; } | Megállapítja, hogy a tábla utolsó oszlopát speciális formázással kell-e megjeleníteni. Olvasás/írás Boolean. |
+| [LastRow](../../aspose.slides/itable/lastrow) { get; set; } | Megállapítja, hogy a tábla utolsó sorát speciális formázással kell-e megjeleníteni. Olvasás/írás Boolean. |
+| [RightToLeft](../../aspose.slides/itable/righttoleft) { get; set; } | Megállapítja, hogy a tábla jobb-bal olvasási sorrendben van-e. Olvasás/írás Boolean. |
+| [Rows](../../aspose.slides/itable/rows) { get; } | Visszaadja a sorok gyűjteményét. Csak olvasás [`IRowCollection`](../irowcollection). |
+| [StylePreset](../../aspose.slides/itable/stylepreset) { get; set; } | Lekéri vagy beállítja a beépített tábla stílust. Olvasás/írás [`TableStylePreset`](../tablestylepreset). |
+| [TableFormat](../../aspose.slides/itable/tableformat) { get; } | Visszaadja a TableFormat objektumot, amely a táblához tartozó formázási tulajdonságokat tartalmazza. Csak olvasás [`ITableFormat`](../itableformat). |
+| [VerticalBanding](../../aspose.slides/itable/verticalbanding) { get; set; } | Megállapítja, hogy a páros oszlopokat eltérő formázással kell-e megjeleníteni. Olvasás/írás Boolean. |
 
 ## Módszerek
 

@@ -1,14 +1,14 @@
 ---
 title: BiLevel
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een Bi-Level zwart/wit effect voor. Invoerkleuren waarvan de luminantie kleiner is dan de opgegeven drempelwaarde worden zwart. Invoerkleuren waarvan de luminantie groter dan of gelijk aan de opgegeven waarde is, worden wit. De alfa-effectwaarden blijven door dit effect onaangedaan.
+description: Stelt een Bi-Level zwart/wit effect voor. Invoerkleuren waarvan de luminantie lager is dan de opgegeven drempelwaarde worden gewijzigd naar zwart. Invoerkleuren waarvan de luminantie groter dan of gelijk aan de opgegeven waarde is, worden ingesteld op wit. De alfa-effectwaarden worden niet beïnvloed door dit effect.
 type: docs
-weight: 2910
+weight: 2930
 url: /nl/aspose.slides.effects/bilevel/
 ---
 ## BiLevel klasse
 
-Stelt een Bi-Level (zwart/wit) effect voor. Invoerkleuren waarvan de luminantie lager is dan de opgegeven drempelwaarde worden veranderd in zwart. Invoerkleuren waarvan de luminantie groter dan of gelijk aan de opgegeven waarde is, worden ingesteld op wit. De alfa-effectwaarden blijven door dit effect onaangedaan.
+Stelt een Bi-Level (zwart/wit) effect voor. Invoerkleuren waarvan de luminantie lager is dan de opgegeven drempelwaarde worden gewijzigd naar zwart. Invoerkleuren waarvan de luminantie groter dan of gelijk aan de opgegeven waarde is, worden ingesteld op wit. De alfa-effectwaarden worden niet beïnvloed door dit effect.
 
 ```csharp
 public sealed class BiLevel : ImageTransformOperation, IBiLevel
@@ -18,14 +18,14 @@ public sealed class BiLevel : ImageTransformOperation, IBiLevel
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Stelt toe om de basis IPresentationComponent interface op te halen. Alleen-lezen [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Staatst toe om de basis IPresentationComponent interface op te halen. Alleen-lezen [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/bilevel/equals)(object) | Bepaalt of de opgegeven [`BiLevel`](../bilevel) gelijk is aan de huidige [`BiLevel`](../bilevel). |
-| [GetEffective](../../aspose.slides.effects/bilevel/geteffective)() | Haalt effectieve Bi-Level effectgegevens op met de toegepaste overerving. |
+| [GetEffective](../../aspose.slides.effects/bilevel/geteffective)() | Haalt de effectieve Bi-Level effectgegevens op met de overerving toegepast. |
 | override [GetHashCode](../../aspose.slides.effects/bilevel/gethashcode)() | Dient als een hash-functie voor een bepaald type. |
 
 ### Zie ook

@@ -3,12 +3,12 @@ title: IAlphaInverse
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en Alpha Inverse-effekt. Alpha opacitetsvärden inverteras genom att subtrahera från 100.
 type: docs
-weight: 3080
+weight: 3100
 url: /sv/aspose.slides.effects/ialphainverse/
 ---
 ## IAlphaInverse gränssnitt
 
-Representerar en Alpha Invers-effekt. Alpha (opacitet)-värden inverteras genom att subtrahera från 100%.
+Representerar en Alpha Inverse-effekt. Alpha (opacitet) värden inverteras genom att subtrahera från 100 %.
 
 ```csharp
 public interface IAlphaInverse : IAccessiblePVIObject<IAlphaInverseEffectiveData>, 
@@ -19,10 +19,10 @@ public interface IAlphaInverse : IAccessiblePVIObject<IAlphaInverseEffectiveData
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphainverse/asiaccessiblepviobject) { get; } | Tillåter att hämta bas-IAccessiblePVIObject-gränssnittet. Skrivskyddad [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphainverse/asiimagetransformoperation) { get; } | Tillåter att hämta bas-IImageTransformOperation-gränssnittet. Skrivskyddad [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphainverse/asiaccessiblepviobject) { get; } | Gör det möjligt att hämta bas IAccessiblePVIObject gränssnitt. Skrivskyddad [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphainverse/asiimagetransformoperation) { get; } | Gör det möjligt att hämta bas IImageTransformOperation gränssnitt. Skrivskyddad [`IImageTransformOperation`](../iimagetransformoperation). |
 
-### Se även
+### Se också
 
 * gränssnitt [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * gränssnitt [IAlphaInverseEffectiveData](../ialphainverseeffectivedata)

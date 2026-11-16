@@ -1,12 +1,12 @@
 ---
 title: IDataTable
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Aspose.Sildes para .NET API de Referência
 description: Representa as propriedades da tabela de dados.
 type: docs
-weight: 2060
+weight: 2080
 url: /pt/aspose.slides.charts/idatatable/
 ---
-## interface IDataTable
+## IDataTable interface
 
 Representa as propriedades da tabela de dados.
 
@@ -16,14 +16,14 @@ public interface IDataTable : IFormattedTextContainer
 
 ## Propriedades
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
-| [AsIFormattedTextContainer](../../aspose.slides.charts/idatatable/asiformattedtextcontainer) { get; } | Permite obter a interface base IFormattedTextContainer. Somente leitura [`IFormattedTextContainer`](../iformattedtextcontainer). |
+| [AsIFormattedTextContainer](../../aspose.slides.charts/idatatable/asiformattedtextcontainer) { get; } | Permite obter a interface IFormattedTextContainer base. Somente leitura [`IFormattedTextContainer`](../iformattedtextcontainer). |
 | [Format](../../aspose.slides.charts/idatatable/format) { get; } | Retorna os estilos de linha, preenchimento e efeito de um objeto. Somente leitura [`IFormat`](../iformat). |
-| [HasBorderHorizontal](../../aspose.slides.charts/idatatable/hasborderhorizontal) { get; set; } | Verdadeiro se a tabela de dados do gráfico tem bordas de célula horizontais. Leitura/gravação Boolean. |
-| [HasBorderOutline](../../aspose.slides.charts/idatatable/hasborderoutline) { get; set; } | Verdadeiro se a tabela de dados do gráfico tem bordas de contorno. Leitura/gravação Boolean. |
-| [HasBorderVertical](../../aspose.slides.charts/idatatable/hasbordervertical) { get; set; } | Verdadeiro se a tabela de dados do gráfico tem bordas de célula verticais. Leitura/gravação Boolean. |
-| [ShowLegendKey](../../aspose.slides.charts/idatatable/showlegendkey) { get; set; } | Verdadeiro se a chave da legenda do rótulo de dados está visível. Leitura/gravação Boolean. |
+| [HasBorderHorizontal](../../aspose.slides.charts/idatatable/hasborderhorizontal) { get; set; } | Verdadeiro se a tabela de dados do gráfico possui bordas de célula horizontais. Booleano leitura/gravação. |
+| [HasBorderOutline](../../aspose.slides.charts/idatatable/hasborderoutline) { get; set; } | Verdadeiro se a tabela de dados do gráfico possui bordas de contorno. Booleano leitura/gravação. |
+| [HasBorderVertical](../../aspose.slides.charts/idatatable/hasbordervertical) { get; set; } | Verdadeiro se a tabela de dados do gráfico possui bordas de célula verticais. Booleano leitura/gravação. |
+| [ShowLegendKey](../../aspose.slides.charts/idatatable/showlegendkey) { get; set; } | Verdadeiro se a chave da legenda do rótulo de dados está visível. Booleano leitura/gravação. |
 
 ### Veja Também
 

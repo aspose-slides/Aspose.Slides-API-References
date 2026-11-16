@@ -3,7 +3,7 @@ title: ViewType
 second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 프레젠테이션 보기 유형
 type: docs
-weight: 11750
+weight: 11770
 url: /ko/aspose.slides/viewtype/
 ---
 ## ViewType 열거형
@@ -28,7 +28,7 @@ public enum ViewType
 | SlideSorterView | `7` | 슬라이드 정렬기 보기 |
 | SlideThumbnailView | `8` | 슬라이드 썸네일 보기 |
 
-### 참고
+### 참조
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

@@ -1,9 +1,9 @@
 ---
 title: ISmartArtNodeCollection
-second_title: Aspose.Sildes dla .NET API Reference
+second_title: Aspose.Sildes dla .NET – odniesienie API
 description: Reprezentuje kolekcję węzłów SmartArt.
 type: docs
-weight: 10560
+weight: 10580
 url: /pl/aspose.slides.smartart/ismartartnodecollection/
 ---
 ## ISmartArtNodeCollection interfejs

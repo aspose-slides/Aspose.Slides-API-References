@@ -1,9 +1,9 @@
 ---
 title: SmartArtNodeCollection
-second_title: Aspose.Sildes .NET API Referencia
+second_title: Aspose.Sildes .NET API referenciája
 description: A SmartArt csomópontok gyűjteményét képviseli.
 type: docs
-weight: 10640
+weight: 10660
 url: /hu/aspose.slides.smartart/smartartnodecollection/
 ---
 ## SmartArtNodeCollection osztály
@@ -16,23 +16,23 @@ public sealed class SmartArtNodeCollection : ISmartArtNodeCollection
 
 ## Tulajdonságok
 
-| Name | Description |
+| Név | Leírás |
 | --- | --- |
-| [Count](../../aspose.slides.smartart/smartartnodecollection/count) { get; } | Visszaadja a gyűjteményben lévő csomópontok számát Csak olvasható Int32 Csak olvasható Int32. |
-| [IsSynchronized](../../aspose.slides.smartart/smartartnodecollection/issynchronized) { get; } | Visszaad egy értéket, amely jelzi, hogy a gyűjteményhez való hozzáférés szinkronizált-e (szálbiztos). Csak olvasható Boolean. |
-| [Item](../../aspose.slides.smartart/smartartnodecollection/item) { get; } | Visszaad egy csomópontot index szerint |
-| [SyncRoot](../../aspose.slides.smartart/smartartnodecollection/syncroot) { get; } | Visszaad egy szinkronizációs gyökérobjektumot. Csak olvasható Object. |
+| [Count](../../aspose.slides.smartart/smartartnodecollection/count) { get; } | A gyűjteményben lévő csomópontok számát adja vissza Csak olvasható Int32 Csak olvasható Int32. |
+| [IsSynchronized](../../aspose.slides.smartart/smartartnodecollection/issynchronized) { get; } | Értéket ad vissza, amely jelzi, hogy a gyűjteményhez való hozzáférés szinkronizált (szálbiztos) Csak olvasható Boolean. |
+| [Item](../../aspose.slides.smartart/smartartnodecollection/item) { get; } | Csomópontot ad vissza index alapján |
+| [SyncRoot](../../aspose.slides.smartart/smartartnodecollection/syncroot) { get; } | Szinkronizációs gyökér objektumot ad vissza. Csak olvasható Object. |
 
-## Módszerek
+## Metódusok
 
-| Name | Description |
+| Név | Leírás |
 | --- | --- |
-| [AddNode](../../aspose.slides.smartart/smartartnodecollection/addnode)() | Új smart art csomópontot vagy alcsomópontot ad hozzá. |
-| [AddNodeByPosition](../../aspose.slides.smartart/smartartnodecollection/addnodebyposition)(int) | Új csomópontot ad hozzá a csomópontok gyűjteményének kiválasztott pozíciójában |
-| [CopyTo](../../aspose.slides.smartart/smartartnodecollection/copyto)(Array, int) | Átmásolja a gyűjtemény összes elemét a megadott tömbbe. |
+| [AddNode](../../aspose.slides.smartart/smartartnodecollection/addnode)() | Új smart art csomópont vagy alcsomópont hozzáadása. |
+| [AddNodeByPosition](../../aspose.slides.smartart/smartartnodecollection/addnodebyposition)(int) | Új csomópont hozzáadása a csomópontok gyűjteményének kiválasztott pozíciójába |
+| [CopyTo](../../aspose.slides.smartart/smartartnodecollection/copyto)(Array, int) | Az összes elemet a gyűjteményből a megadott tömbbe másolja. |
 | [GetEnumerator](../../aspose.slides.smartart/smartartnodecollection/getenumerator)() | Visszaad egy enumerátort, amely végigiterál a gyűjteményen. |
-| [RemoveNode](../../aspose.slides.smartart/smartartnodecollection/removenode#removenode_1)(int) | Eltávolít egy csomópontot vagy alcsomópontot index szerint |
-| [RemoveNode](../../aspose.slides.smartart/smartartnodecollection/removenode#removenode)(ISmartArtNode) | Eltávolít egy csomópontot vagy alcsomópontot |
+| [RemoveNode](../../aspose.slides.smartart/smartartnodecollection/removenode#removenode_1)(int) | Csomópont vagy alcsomópont eltávolítása index alapján |
+| [RemoveNode](../../aspose.slides.smartart/smartartnodecollection/removenode#removenode)(ISmartArtNode) | Csomópont vagy alcsomópont eltávolítása |
 
 ### Lásd még
 

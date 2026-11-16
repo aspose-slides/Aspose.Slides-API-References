@@ -1,20 +1,20 @@
 ---
 title: Value
-second_title: Aspose.Sildes .NET API Referansı
-description: Grafiğin veri noktasının değerini döndürür. Salt okunur IDoubleChartValueaspose.slides.charts/idoublechartvalue.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Bir grafik veri noktasının değerini alır. Salt okunur IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
-weight: 160
+weight: 200
 url: /tr/aspose.slides.charts/ichartdatapoint/value/
 ---
 ## IChartDataPoint.Value özelliği
 
-Grafik veri noktasının değerini döndürür. Salt okunur [`IDoubleChartValue`](../../idoublechartvalue).
+Bir grafik veri noktasının değerini alır. Salt okunur [`IDoubleChartValue`](../../idoublechartvalue).
 
 ```csharp
 public IDoubleChartValue Value { get; }
 ```
 
-### İlgili
+### Ayrıca bakınız
 
 * arayüz [IDoubleChartValue](../../idoublechartvalue)
 * arayüz [IChartDataPoint](../../ichartdatapoint)

@@ -1,14 +1,14 @@
 ---
 title: OrientationTransition
-second_title: Aspose.Sildes for .NET API リファレンス
-description: スライドの向き遷移効果。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: 方向スライド遷移効果。
 type: docs
-weight: 10270
+weight: 10290
 url: /ja/aspose.slides.slideshow/orientationtransition/
 ---
 ## OrientationTransition クラス
 
-スライドの向き遷移効果。
+スライドの方向遷移効果。
 
 ```csharp
 public class OrientationTransition : TransitionValueBase, IOrientationTransition
@@ -24,8 +24,8 @@ public class OrientationTransition : TransitionValueBase, IOrientationTransition
 
 | 名前 | 説明 |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 2 つの TransitionValueBase インスタンスが等しいかどうかを判断します。 |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 特定の型に対するハッシュ関数として機能し、ハッシュアルゴリズムやハッシュテーブルのようなデータ構造での使用に適しています。 |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 2つの TransitionValueBase インスタンスが等しいかどうかを判断します。 |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 特定の型に対するハッシュ関数として機能し、ハッシュアルゴリズムやハッシュテーブルなどのデータ構造での使用に適しています。 |
 
 ### 参照
 

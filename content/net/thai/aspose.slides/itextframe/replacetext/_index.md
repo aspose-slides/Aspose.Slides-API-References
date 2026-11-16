@@ -1,36 +1,36 @@
 ---
 title: ReplaceText
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แทนที่ทุกการปรากฏของข้อความที่ระบุด้วยข้อความอื่นที่ระบุ
+description: แทนที่ทุกเหตุการณ์ของข้อความที่ระบุด้วยข้อความอื่นที่ระบุ
 type: docs
-weight: 120
+weight: 130
 url: /th/aspose.slides/itextframe/replacetext/
 ---
 ## ITextFrame.ReplaceText เมธอด
 
-แทนที่ทุกการปรากฏของข้อความที่ระบุด้วยข้อความอื่นที่ระบุ
+แทนที่ทุกเหตุการณ์ของข้อความที่ระบุด้วยข้อความที่ระบุอื่น
 
 ```csharp
 public void ReplaceText(string oldText, string newText, ITextSearchOptions options, 
     IFindResultCallback callback)
 ```
 
-| พารามิเตอร์ | ชนิด | คำอธิบาย |
+| พารามิเตอร์ | ประเภท | คำอธิบาย |
 | --- | --- | --- |
-| oldText | String | สตริงที่จะถูกแทนที่ |
-| newText | String | สตริงที่จะแทนที่ทุกการปรากฏของ oldText |
+| oldText | String | สตริงที่ต้องการแทนที่ |
+| newText | String | สตริงสำหรับแทนที่ทุกเหตุการณ์ของ oldText |
 | options | ITextSearchOptions | ตัวเลือกการค้นหาข้อความ [`ITextSearchOptions`](../../itextsearchoptions) |
-| callback | IFindResultCallback | อ็อบเจ็กต์คอลแบ็กสำหรับรับผลการค้นหา [`IFindResultCallback`](../../ifindresultcallback) |
+| callback | IFindResultCallback | อ็อบเจกต์ callback สำหรับรับผลการค้นหา [`IFindResultCallback`](../../ifindresultcallback) |
 
 ### ตัวอย่าง
 
-โค้ดตัวอย่างต่อไปนี้แสดงวิธีการแทนที่สตริงที่ระบุหนึ่งด้วยสตริงที่ระบุอีกหนึ่ง
+ตัวอย่างโค้ดต่อไปนี้แสดงวิธีการแทนที่สตริงที่ระบุหนึ่งด้วยสตริงที่ระบุอื่น
 
 ```csharp
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
-	// แทนที่ทุกการปรากฏของคำ 'the' ที่แยกกันด้วย '***'
+	// แทนที่ทุกการเกิดของ 'the' ที่แยกออกเป็นคำโดดด้วย '***'
 	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.ReplaceText("the", "***", new TextSearchOptions()
 	{ WholeWordsOnly = true }, null);
 	presentation.Save("SomePresentation-out2.pptx", SaveFormat.Pptx);

@@ -1,14 +1,14 @@
 ---
 title: ITextFrame
 second_title: Aspose.Sildes .NET API referencia
-description: Képviseli a TextFrame-et.
+description: Egy TextFrame-et képvisel.
 type: docs
-weight: 7270
+weight: 7290
 url: /hu/aspose.slides/itextframe/
 ---
 ## ITextFrame interfész
 
-Képviseli a TextFrame-et.
+A TextFrame-et képviseli.
 
 ```csharp
 public interface ITextFrame : ISlideComponent
@@ -18,30 +18,31 @@ public interface ITextFrame : ISlideComponent
 
 | Név | Leírás |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides/itextframe/asislidecomponent) { get; } | Lehetővé teszi az ISlideComponent alapeszközének lekérését. Csak olvasható [`ISlideComponent`](../islidecomponent). |
-| [HyperlinkQueries](../../aspose.slides/itextframe/hyperlinkqueries) { get; } | Egyszerű hozzáférést biztosít a tartalmazott hiperhivatkozásokhoz. Csak olvasható [`IHyperlinkQueries`](../ihyperlinkqueries). |
+| [AsISlideComponent](../../aspose.slides/itextframe/asislidecomponent) { get; } | Lehetővé teszi a base ISlideComponent interfész lekérdezését. Csak olvasható [`ISlideComponent`](../islidecomponent). |
+| [HyperlinkQueries](../../aspose.slides/itextframe/hyperlinkqueries) { get; } | Egyszerű hozzáférést biztosít a tartalmazott hyperlinkekhez. Csak olvasható [`IHyperlinkQueries`](../ihyperlinkqueries). |
 | [Paragraphs](../../aspose.slides/itextframe/paragraphs) { get; } | Visszaadja a keretben lévő összes bekezdés listáját. Csak olvasható [`IParagraphCollection`](../iparagraphcollection). |
-| [ParentCell](../../aspose.slides/itextframe/parentcell) { get; } | Visszaadja a szülő cellát, vagy null, ha a szülőobjektum nem valósítja meg az ICell interfészt. Csak olvasható [`ICell`](../icell). |
-| [ParentShape](../../aspose.slides/itextframe/parentshape) { get; } | Visszaadja a szülő alakzatot, vagy null, ha a szülőobjektum nem valósítja meg az IShape interfészt. Csak olvasható [`IShape`](../ishape). |
-| [Text](../../aspose.slides/itextframe/text) { get; set; } | Lekéri vagy beállítja a TextFrame egyszerű szövegét. Olvasás/írás String. |
+| [ParentCell](../../aspose.slides/itextframe/parentcell) { get; } | Visszaadja a szülő cellát, vagy null értéket, ha a szülőobjektum nem valósítja meg az ICell interfészt. Csak olvasható [`ICell`](../icell). |
+| [ParentShape](../../aspose.slides/itextframe/parentshape) { get; } | Visszaadja a szülő alakzatot, vagy null értéket, ha a szülőobjektum nem valósítja meg az IShape interfészt. Csak olvasható [`IShape`](../ishape). |
+| [Text](../../aspose.slides/itextframe/text) { get; set; } | Lekéri vagy beállítja a TextFrame egyszerű szövegét. Olvasható/írható String. |
 | [TextFrameFormat](../../aspose.slides/itextframe/textframeformat) { get; } | Visszaadja a formázási objektumot ehhez a TextFrame objektumhoz. Csak olvasható [`ITextFrameFormat`](../itextframeformat). |
 
-## Módszerek
+## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [HighlightRegex](../../aspose.slides/itextframe/highlightregex#highlightregex_1)(Regex, Color, IFindResultCallback) | Kiemeli a reguláris kifejezés összes egyezését a megadott színnel. |
-| [HighlightText](../../aspose.slides/itextframe/highlighttext#highlighttext)(string, Color) | Kiemeli a minta szöveg összes egyezését a megadott színnel. |
-| [HighlightText](../../aspose.slides/itextframe/highlighttext#highlighttext_2)(string, Color, ITextSearchOptions, IFindResultCallback) | Kiemeli a minta szöveg összes egyezését a megadott színnel. |
-| [JoinPortionsWithSameFormatting](../../aspose.slides/itextframe/joinportionswithsameformatting)() | Összevonja a futamokat azonos formázással az összes bekezdésben. |
-| [ReplaceRegex](../../aspose.slides/itextframe/replaceregex)(Regex, string, IFindResultCallback) | Lecseréli a reguláris kifejezés összes egyezését a megadott karakterláncra. |
+| [GetTextRect](../../aspose.slides/itextframe/gettextrect)() | Lekéri a szülő alakzat geometriája által meghatározott szövegtéglalapot. |
+| [HighlightRegex](../../aspose.slides/itextframe/highlightregex#highlightregex_1)(Regex, Color, IFindResultCallback) | Kiemeli a reguláris kifejezés összes találatát a megadott színnel. |
+| [HighlightText](../../aspose.slides/itextframe/highlighttext#highlighttext)(string, Color) | Kiemeli a minta szöveg összes találatát a megadott színnel. |
+| [HighlightText](../../aspose.slides/itextframe/highlighttext#highlighttext_2)(string, Color, ITextSearchOptions, IFindResultCallback) | Kiemeli a minta szöveg összes találatát a megadott színnel. |
+| [JoinPortionsWithSameFormatting](../../aspose.slides/itextframe/joinportionswithsameformatting)() | Összevonja az azonos formázású futamokat az összes bekezdésben. |
+| [ReplaceRegex](../../aspose.slides/itextframe/replaceregex)(Regex, string, IFindResultCallback) | Lecseréli a reguláris kifejezés összes találatát a megadott karakterláncra. |
 | [ReplaceText](../../aspose.slides/itextframe/replacetext)(string, string, ITextSearchOptions, IFindResultCallback) | Lecseréli a megadott szöveg összes előfordulását egy másik megadott szövegre. |
-| [SplitTextByColumns](../../aspose.slides/itextframe/splittextbycolumns)() | Felosztja a(z) [`ITextFrame`](../itextframe) szövegtartalmát karakterláncok tömbjére, ahol minden elem a kereten belüli különálló szövegoszlopnak felel meg. |
+| [SplitTextByColumns](../../aspose.slides/itextframe/splittextbycolumns)() | Felosztja a [`ITextFrame`](../itextframe) szövegtartalmát karakterláncok tömbjére, ahol minden elem a kereten belül egy külön szövegoszlopnak felel meg. |
 
-### Kapcsolódó elemek
+### Lásd még
 
 * interfész [ISlideComponent](../islidecomponent)
 * névtér [Aspose.Slides](../../aspose.slides)
-* összegzés [Aspose.Slides](../../)
+* összeállítás [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

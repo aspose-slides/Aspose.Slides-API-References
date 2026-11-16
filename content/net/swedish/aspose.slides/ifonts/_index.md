@@ -3,7 +3,7 @@ title: IFonts
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar teckensnittssamling.
 type: docs
-weight: 5900
+weight: 5920
 url: /sv/aspose.slides/ifonts/
 ---
 ## IFonts gränssnitt
@@ -27,9 +27,9 @@ public interface IFonts
 | Namn | Beskrivning |
 | --- | --- |
 | [GetScriptFont](../../aspose.slides/ifonts/getscriptfont)(string) | Hämtar teckensnittsnamnet som är associerat med en specifik skripttagg från presentationens tema. |
-| [GetScriptFontMap](../../aspose.slides/ifonts/getscriptfontmap)() | Returnerar en ordbok med alla skriptteckensnittsdefinitioner i presentationen. |
+| [GetScriptFontMap](../../aspose.slides/ifonts/getscriptfontmap)() | Returnerar en ordbok med alla skriptteckensnittdefinitioner i presentationen. |
 | [RemoveScriptFont](../../aspose.slides/ifonts/removescriptfont)(string) | Tar bort teckensnittsinställningen som är associerad med en specifik skripttagg från temats teckensnittssamling. |
-| [SetScriptFont](../../aspose.slides/ifonts/setscriptfont)(string, string) | Tilldelar ett teckensnittsnamn till en specifik skripttagg, vilket definierar hur text i det skriptet kommer att renderas i presentationen. |
+| [SetScriptFont](../../aspose.slides/ifonts/setscriptfont)(string, string) | Tilldelar ett teckensnittsnamn till en specifik skripttagg, vilket definierar hur texten för det skriptet kommer att renderas i presentationen. |
 
 ### Se även
 

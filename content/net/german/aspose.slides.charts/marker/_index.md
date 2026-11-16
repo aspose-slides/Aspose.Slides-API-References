@@ -1,14 +1,14 @@
 ---
 title: Marker
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt den Marker eines Cherts dar.
+description: Stellt den Marker eines Schiefers dar.
 type: docs
-weight: 2330
+weight: 2350
 url: /de/aspose.slides.charts/marker/
 ---
-## Marker Klasse
+## Markerklasse
 
-Stellt den Marker eines Cherts dar.
+Stellt den Marker eines Schiefers dar.
 
 ```csharp
 public class Marker : IMarker
@@ -18,9 +18,9 @@ public class Marker : IMarker
 
 | Name | Beschreibung |
 | --- | --- |
-| [Format](../../aspose.slides.charts/marker/format) { get; } | Liest oder setzt die Marker-Füllung. Nur lesend [`IFormat`](../iformat). |
-| [Size](../../aspose.slides.charts/marker/size) { get; set; } | Stellt die Markergröße in einem Liniendiagramm, Streudiagramm oder Radar-Diagramm dar. Lesen/Schreiben Int32. |
-| [Symbol](../../aspose.slides.charts/marker/symbol) { get; set; } | Stellt den Markerstil in einem Liniendiagramm, Streudiagramm oder Radar-Diagramm dar. Lesen/Schreiben [`MarkerStyleType`](../markerstyletype). |
+| [Format](../../aspose.slides.charts/marker/format) { get; } | Liest oder setzt die Markerfüllung. Nur-Lesen [`IFormat`](../iformat). |
+| [Size](../../aspose.slides.charts/marker/size) { get; set; } | Stellt die Markergöße in einem Liniendiagramm, Punktdiagramm oder Radar-Diagramm dar. Lesen/Schreiben Int32. |
+| [Symbol](../../aspose.slides.charts/marker/symbol) { get; set; } | Stellt den Marker-Stil in einem Liniendiagramm, Punktdiagramm oder Radar-Diagramm dar. Lesen/Schreiben [`MarkerStyleType`](../markerstyletype). |
 
 ### Siehe auch
 

@@ -1,14 +1,14 @@
 ---
 title: IDrawingGuidesCollection
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Vertegenwoordigt een collectie van de verstelbare tekenlijnen.
+description: Stelt een collectie van de verstelbare tekengidsen voor.
 type: docs
-weight: 5730
+weight: 5750
 url: /nl/aspose.slides/idrawingguidescollection/
 ---
 ## IDrawingGuidesCollection interface
 
-Vertegenwoordigt een collectie van de aanpasbare tekenlijnen.
+Stelt een collectie van de verstelbare tekengidsen voor.
 
 ```csharp
 public interface IDrawingGuidesCollection : IEnumerable<IDrawingGuide>
@@ -16,18 +16,18 @@ public interface IDrawingGuidesCollection : IEnumerable<IDrawingGuide>
 
 ## Eigenschappen
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides/idrawingguidescollection/count) { get; } | Haalt het aantal elementen in de collectie op. Alleen-lezen Int32. |
-| [Item](../../aspose.slides/idrawingguidescollection/item) { get; } | Retourneert de tekenlijn op basis van de index. Alleen-lezen [`IDrawingGuide`](../idrawingguide). |
+| [Count](../../aspose.slides/idrawingguidescollection/count) { get; } | Haalt het aantal van alle elementen in de collectie op. Alleen-lezen Int32. |
+| [Item](../../aspose.slides/idrawingguidescollection/item) { get; } | Geeft de tekengids terug op index. Alleen-lezen [`IDrawingGuide`](../idrawingguide). |
 
 ## Methoden
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
-| [Add](../../aspose.slides/idrawingguidescollection/add)(Orientation, float) | Voegt de tekenlijn toe aan het einde van de collectie. |
+| [Add](../../aspose.slides/idrawingguidescollection/add)(Orientation, float) | Voegt de tekengids toe aan het einde van de collectie. |
 | [Clear](../../aspose.slides/idrawingguidescollection/clear)() | Verwijdert alle elementen uit de collectie. |
-| [RemoveAt](../../aspose.slides/idrawingguidescollection/removeat)(int) | Verwijdert de tekenlijn op de gespecificeerde index. |
+| [RemoveAt](../../aspose.slides/idrawingguidescollection/removeat)(int) | Verwijdert de tekengids op de opgegeven index. |
 
 ### Zie ook
 

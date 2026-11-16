@@ -3,12 +3,12 @@ title: IMathDelimiterFactory
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Ermöglicht das Erstellen eines mathematischen Trennzeichens
 type: docs
-weight: 8220
+weight: 8240
 url: /de/aspose.slides.mathtext/imathdelimiterfactory/
 ---
 ## IMathDelimiterFactory Schnittstelle
 
-Ermöglicht das Erzeugen eines mathematischen Trennzeichens
+Ermöglicht das Erstellen eines mathematischen Trennzeichens
 
 ```csharp
 public interface IMathDelimiterFactory
@@ -21,7 +21,7 @@ public interface IMathDelimiterFactory
 | [CreateMathDelimiter](../../aspose.slides.mathtext/imathdelimiterfactory/createmathdelimiter#createmathdelimiter)(IMathElement) | Erstellt ein mathematisches Trennzeichen, indem es auf das Element angewendet wird |
 | [CreateMathDelimiter](../../aspose.slides.mathtext/imathdelimiterfactory/createmathdelimiter#createmathdelimiter_1)(IMathElementCollection) | Erstellt ein mathematisches Trennzeichen, indem es auf das Element angewendet wird |
 
-### Bemerkungen
+### Anmerkungen
 
 Für COM-Kompatibilität
 

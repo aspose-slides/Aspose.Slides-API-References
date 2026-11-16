@@ -1,9 +1,9 @@
 ---
 title: EffectStyleCollection
-second_title: مرجع API Aspose.Sildes لـ .NET
-description: تمثّل مجموعة من أنماط التأثير.
+second_title: Aspose.Sildes لـ .NET مرجع API
+description: يمثل مجموعة من أنماط التأثير.
 type: docs
-weight: 11090
+weight: 11110
 url: /ar/aspose.slides.theme/effectstylecollection/
 ---
 ## EffectStyleCollection فئة
@@ -18,17 +18,17 @@ public sealed class EffectStyleCollection : DomObject<FormatScheme>, IEffectStyl
 
 | الاسم | الوصف |
 | --- | --- |
-| [Count](../../aspose.slides.theme/effectstylecollection/count) { get; } | يعيد عدد العناصر في المجموعة. Int32 للقراءة فقط، Int32 للقراءة فقط. |
-| [IsSynchronized](../../aspose.slides.theme/effectstylecollection/issynchronized) { get; } | يعيد قيمة تشير إلى ما إذا كان الوصول إلى المجموعة متزامنًا (آمن للخيوط). Boolean للقراءة فقط. |
-| [Item](../../aspose.slides.theme/effectstylecollection/item) { get; } | يعيد عنصرًا في الموضع المحدد. [`EffectStyle`](../effectstyle) للقراءة فقط. |
-| [SyncRoot](../../aspose.slides.theme/effectstylecollection/syncroot) { get; } | يعيد جذر المزامنة. Object للقراءة فقط. |
+| [Count](../../aspose.slides.theme/effectstylecollection/count) { get; } | يعيد عدد العناصر في المجموعة. للقراءة فقط Int32, للقراءة فقط Int32. |
+| [IsSynchronized](../../aspose.slides.theme/effectstylecollection/issynchronized) { get; } | يعيد قيمة تشير إلى ما إذا كان الوصول إلى المجموعة متزامنًا (آمن للخيوط). للقراءة فقط Boolean. |
+| [Item](../../aspose.slides.theme/effectstylecollection/item) { get; } | يعيد عنصرًا في الموضع المحدد. للقراءة فقط [`EffectStyle`](../effectstyle). |
+| [SyncRoot](../../aspose.slides.theme/effectstylecollection/syncroot) { get; } | يعيد جذر المزامنة. للقراءة فقط Object. |
 
 ## الطرق
 
 | الاسم | الوصف |
 | --- | --- |
 | [CopyTo](../../aspose.slides.theme/effectstylecollection/copyto)(Array, int) | ينسخ جميع العناصر من المجموعة إلى المصفوفة المحددة. |
-| [GetEnumerator](../../aspose.slides.theme/effectstylecollection/getenumerator)() | يعيد كائن تعداد يتنقل عبر المجموعة. |
+| [GetEnumerator](../../aspose.slides.theme/effectstylecollection/getenumerator)() | يعيد عدادًا يتنقل عبر المجموعة. |
 
 ### انظر أيضًا
 

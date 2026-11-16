@@ -3,7 +3,7 @@ title: ICommentAuthorCollection
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en samling av kommentarsförfattare.
 type: docs
-weight: 5580
+weight: 5600
 url: /sv/aspose.slides/icommentauthorcollection/
 ---
 ## ICommentAuthorCollection gränssnitt
@@ -18,18 +18,18 @@ public interface ICommentAuthorCollection : IGenericCollection<ICommentAuthor>
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Item](../../aspose.slides/icommentauthorcollection/item) { get; } | Hämtar elementet på det angivna indexet. Läs-endast [`ICommentAuthor`](../icommentauthor). |
+| [Item](../../aspose.slides/icommentauthorcollection/item) { get; } | Hämtar elementet på den angivna indexen. Skrivskyddad [`ICommentAuthor`](../icommentauthor). |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AddAuthor](../../aspose.slides/icommentauthorcollection/addauthor)(string, string) | Lägger till en ny författare i slutet av en samling. |
+| [AddAuthor](../../aspose.slides/icommentauthorcollection/addauthor)(string, string) | Lägg till en ny författare i slutet av en samling. |
 | [Clear](../../aspose.slides/icommentauthorcollection/clear)() | Tar bort alla författare från en samling. |
-| [FindByName](../../aspose.slides/icommentauthorcollection/findbyname)(string) | Hittar författare i en samling efter namn. |
-| [FindByNameAndInitials](../../aspose.slides/icommentauthorcollection/findbynameandinitials)(string, string) | Hittar författare i en samling efter namn och initialer. |
+| [FindByName](../../aspose.slides/icommentauthorcollection/findbyname)(string) | Hitta författare i en samling efter namn. |
+| [FindByNameAndInitials](../../aspose.slides/icommentauthorcollection/findbynameandinitials)(string, string) | Hitta författare i en samling efter namn och initialer. |
 | [Remove](../../aspose.slides/icommentauthorcollection/remove)(ICommentAuthor) | Tar bort den första förekomsten av den angivna författaren i en samling. |
-| [RemoveAt](../../aspose.slides/icommentauthorcollection/removeat)(int) | Tar bort författaren på det angivna indexet i samlingen. |
+| [RemoveAt](../../aspose.slides/icommentauthorcollection/removeat)(int) | Tar bort författaren på den angivna indexen i samlingen. |
 | [ToArray](../../aspose.slides/icommentauthorcollection/toarray)() | Skapar och returnerar en array med alla författare. |
 
 ### Se också

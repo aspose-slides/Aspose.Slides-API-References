@@ -1,14 +1,14 @@
 ---
 title: IFlyThroughTransition
-second_title: Referensi API Aspose.Sildes untuk .NET
-description: Efek transisi slide meluncur.
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Efek transisi slide fly-through.
 type: docs
-weight: 10090
+weight: 10110
 url: /id/aspose.slides.slideshow/iflythroughtransition/
 ---
 ## IFlyThroughTransition antarmuka
 
-Efek transisi slide meluncur.
+Efek transisi slide fly-through.
 
 ```csharp
 public interface IFlyThroughTransition : ITransitionValueBase
@@ -18,9 +18,9 @@ public interface IFlyThroughTransition : ITransitionValueBase
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/iflythroughtransition/asitransitionvaluebase) { get; } | Mengizinkan untuk mendapatkan antarmuka ITransitionValueBase dasar. Hanya-baca [`ITransitionValueBase`](../itransitionvaluebase). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/iflythroughtransition/asitransitionvaluebase) { get; } | Mengizinkan untuk mendapatkan antarmuka ITransitionValueBase dasar. Baca-saja [`ITransitionValueBase`](../itransitionvaluebase). |
 | [Direction](../../aspose.slides.slideshow/iflythroughtransition/direction) { get; set; } | Arah transisi. Baca/tulis [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [HasBounce](../../aspose.slides.slideshow/iflythroughtransition/hasbounce) { get; set; } | Menentukan bahwa pergerakan slide presentasi selama transisi termasuk pantulan. Baca/tulis Boolean. |
+| [HasBounce](../../aspose.slides.slideshow/iflythroughtransition/hasbounce) { get; set; } | Menentukan bahwa pergerakan slide presentasi selama transisi mencakup pantulan. Baca/tulis Boolean. |
 
 ### Lihat Juga
 

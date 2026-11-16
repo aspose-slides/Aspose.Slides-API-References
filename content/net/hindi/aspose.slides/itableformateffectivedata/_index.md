@@ -1,31 +1,31 @@
 ---
 title: ITableFormatEffectiveData
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: एक अपरिवर्तनीय वस्तु जो प्रभावी टेबल फ़ॉर्मेटिंग गुणों को सम्मिलित करती है।
+description: एक अपरिवर्तनीय ऑब्जेक्ट जिसमें प्रभावी टेबल फ़ॉर्मेटिंग प्रॉपर्टीज़ शामिल हैं।
 type: docs
-weight: 7250
+weight: 7270
 url: /hi/aspose.slides/itableformateffectivedata/
 ---
-## ITabelFormatEffectiveData इंटरफ़ेस
+## ITableFormatEffectiveData इंटरफ़ेस
 
-एक अपरिवर्तनीय ऑब्जेक्ट जो प्रभावी टेबल फ़ॉर्मेटिंग गुणों को रखता है।
+अपरिवर्तनीय ऑब्जेक्ट जिसमें प्रभावी टेबल फ़ॉर्मेटिंग प्रॉपर्टीज़ शामिल हैं।
 
 ```csharp
 public interface ITableFormatEffectiveData : IBaseTableFormatEffectiveData
 ```
 
-## गुण
+## प्रॉपर्टीज़
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIBaseTableFormatEffectiveData](../../aspose.slides/itableformateffectivedata/asibasetableformateffectivedata) { get; } | IBaseTableFormatEffectiveData इंटरफ़ेस का बेस प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
-| [Transparency](../../aspose.slides/itableformateffectivedata/transparency) { get; } | फ़िल रंग की पारदर्शिता प्राप्त करता है। पढ़ें Single. |
+| [AsIBaseTableFormatEffectiveData](../../aspose.slides/itableformateffectivedata/asibasetableformateffectivedata) { get; } | बेस IBaseTableFormatEffectiveData इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने-योग्य [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata)। |
+| [Transparency](../../aspose.slides/itableformateffectivedata/transparency) { get; } | भराव रंग की पारदर्शिता प्राप्त करता है। Single पढ़ें। |
 
 ### टिप्पणी
 
-यह इंटरफ़ेस [`ITableFormat`](../itableformat) इंटरफ़ेस के साथ मिलकर उपयोग किया जाता है ताकि विरासत और टेबल शैलियों के लागू होने पर प्रभावी फ़ॉर्मेटिंग मान लौटाए जाएँ।
+यह इंटरफ़ेस [`ITableFormat`](../itableformat) इंटरफ़ेस के साथ मिलकर उपयोग किया जाता है ताकि विरासत और लागू टेबल शैलियों के साथ प्रभावी फ़ॉर्मेटिंग मान लौटाए जा सकें।
 
-### संबंधित देखें
+### देखें
 
 * इंटरफ़ेस [IBaseTableFormatEffectiveData](../ibasetableformateffectivedata)
 * नेमस्पेस [Aspose.Slides](../../aspose.slides)

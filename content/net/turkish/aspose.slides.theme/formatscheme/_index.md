@@ -1,14 +1,14 @@
 ---
 title: FormatScheme
-second_title: Aspose.Sildes .NET için API Referansı
-description: Şekiller için tema tarafından tanımlanan biçimleri depolar.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Şekiller için tema tanımlı biçimleri depolar.
 type: docs
-weight: 11140
+weight: 11160
 url: /tr/aspose.slides.theme/formatscheme/
 ---
-## FormatScheme sınıf
+## FormatScheme sınıfı
 
-Şekiller için tema tarafından tanımlanan biçimleri depolar.
+Tema tarafından tanımlanan biçimleri şekiller için saklar.
 
 ```csharp
 public class FormatScheme : IFormatScheme
@@ -18,14 +18,14 @@ public class FormatScheme : IFormatScheme
 
 | Ad | Açıklama |
 | --- | --- |
-| [BackgroundFillStyles](../../aspose.slides.theme/formatscheme/backgroundfillstyles) { get; } | Tema tarafından tanımlanan arka plan doldurma stillerinin bir koleksiyonunu döndürür. Yalnızca okuma [`IFillFormatCollection`](../ifillformatcollection). |
-| [EffectStyles](../../aspose.slides.theme/formatscheme/effectstyles) { get; } | Tema tarafından tanımlanan efekt stillerinin bir koleksiyonunu döndürür. Yalnızca okuma [`IEffectStyleCollection`](../ieffectstylecollection). |
-| [FillStyles](../../aspose.slides.theme/formatscheme/fillstyles) { get; } | Tema tarafından tanımlanan doldurma stillerinin bir koleksiyonunu döndürür. Yalnızca okuma [`IFillFormatCollection`](../ifillformatcollection). |
-| [LineStyles](../../aspose.slides.theme/formatscheme/linestyles) { get; } | Tema tarafından tanımlanan çizgi stillerinin bir koleksiyonunu döndürür. Yalnızca okuma [`ILineFormatCollection`](../ilineformatcollection). |
+| [BackgroundFillStyles](../../aspose.slides.theme/formatscheme/backgroundfillstyles) { get; } | Tema tanımlı arka plan doldurma stillerinin bir koleksiyonunu döndürür. Yalnızca okuma [`IFillFormatCollection`](../ifillformatcollection). |
+| [EffectStyles](../../aspose.slides.theme/formatscheme/effectstyles) { get; } | Tema tanımlı efekt stillerinin bir koleksiyonunu döndürür. Yalnızca okuma [`IEffectStyleCollection`](../ieffectstylecollection). |
+| [FillStyles](../../aspose.slides.theme/formatscheme/fillstyles) { get; } | Tema tanımlı doldurma stillerinin bir koleksiyonunu döndürür. Yalnızca okuma [`IFillFormatCollection`](../ifillformatcollection). |
+| [LineStyles](../../aspose.slides.theme/formatscheme/linestyles) { get; } | Tema tanımlı çizgi stillerinin bir koleksiyonunu döndürür. Yalnızca okuma [`ILineFormatCollection`](../ilineformatcollection). |
 | [Presentation](../../aspose.slides.theme/formatscheme/presentation) { get; } | Üst sunumu döndürür. Yalnızca okuma [`IPresentation`](../../aspose.slides/ipresentation). |
 | [Slide](../../aspose.slides.theme/formatscheme/slide) { get; } | Üst slaytı döndürür. Yalnızca okuma [`IBaseSlide`](../../aspose.slides/ibaseslide). |
 
-### İlgili Bağlantılar
+### Ayrıca Bakınız
 
 * arayüz [IFormatScheme](../iformatscheme)
 * ad alanı [Aspose.Slides.Theme](../../aspose.slides.theme)

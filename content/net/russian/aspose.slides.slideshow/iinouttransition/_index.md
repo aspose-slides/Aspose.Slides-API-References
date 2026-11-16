@@ -1,14 +1,14 @@
 ---
 title: IInOutTransition
-second_title: Aspose.Sildes для .NET API Reference
-description: Эффект перехода слайда In-Out.
+second_title: Aspose.Sildes для .NET Справочник API
+description: Эффект перехода слайдов In-Out.
 type: docs
-weight: 10110
+weight: 10130
 url: /ru/aspose.slides.slideshow/iinouttransition/
 ---
 ## IInOutTransition интерфейс
 
-Эффект перехода слайда In-Out.
+Эффект перехода слайдов In-Out.
 
 ```csharp
 public interface IInOutTransition : ITransitionValueBase

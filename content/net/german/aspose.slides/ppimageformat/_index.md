@@ -1,14 +1,14 @@
 ---
 title: PPImageFormat
-second_title: Aspose.Sildes für .NET API Referenz
-description: Bildformate. Dieses Enum ist ein Ersatz für die Klasse System.Drawing.Imaging.ImageFormat. Es wird für COM-Kompatibilität benötigt.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Bildformate. Diese Aufzählung ist ein Ersatz für die Klasse System.Drawing.Imaging.ImageFormat. Sie wird für die COM-Kompatibilität benötigt.
 type: docs
-weight: 9260
+weight: 9280
 url: /de/aspose.slides/ppimageformat/
 ---
 ## PPImageFormat Aufzählung
 
-Bildformate. Dieses Enum ist ein Ersatz für die Klasse `System.Drawing.Imaging.ImageFormat`. Es wird für COM-Kompatibilität benötigt.
+Bildformate. Diese Aufzählung ist ein Ersatz für die Klasse `System.Drawing.Imaging.ImageFormat`. Sie wird für die COM-Kompatibilität benötigt.
 
 ```csharp
 public enum PPImageFormat
@@ -16,18 +16,18 @@ public enum PPImageFormat
 
 ### Werte
 
-| Name | Value | Description |
+| Name | Wert | Beschreibung |
 | --- | --- | --- |
-| Bmp | `0` | Gibt das Bitmap (BMP)-Bildformat zurück. |
-| Emf | `1` | Gibt das erweiterte Metafile (EMF)-Bildformat zurück. |
-| Exif | `2` | Gibt das Exchangeable Image File (Exif)-Format zurück. |
-| Gif | `3` | Gibt das Graphics Interchange Format (GIF)-Bildformat zurück. |
-| Icon | `4` | Gibt das Windows-Icon-Bildformat zurück. |
-| Jpeg | `5` | Gibt das Joint Photographic Experts Group (JPEG)-Bildformat zurück. |
-| MemoryBmp | `6` | Gibt das Format eines im Speicher befindlichen Bitmaps zurück. |
-| Png | `7` | Gibt das W3C Portable Network Graphics (PNG)-Bildformat zurück. |
-| Tiff | `8` | Gibt das Tagged Image File Format (TIFF)-Bildformat zurück. |
-| Wmf | `9` | Gibt das Windows-Metafile (WMF)-Bildformat zurück. |
+| Bmp | `0` | Liefert das Bitmap (BMP) Bildformat. |
+| Emf | `1` | Liefert das erweiterte Metadatei (EMF) Bildformat. |
+| Exif | `2` | Liefert das Exchangeable Image File (Exif)-Format. |
+| Gif | `3` | Liefert das Graphics Interchange Format (GIF) Bildformat. |
+| Icon | `4` | Liefert das Windows-Icon-Bildformat. |
+| Jpeg | `5` | Liefert das Joint Photographic Experts Group (JPEG) Bildformat. |
+| MemoryBmp | `6` | Liefert das Format eines im Speicher befindlichen Bitmaps. |
+| Png | `7` | Liefert das W3C Portable Network Graphics (PNG) Bildformat. |
+| Tiff | `8` | Liefert das Tagged Image File Format (TIFF) Bildformat. |
+| Wmf | `9` | Liefert das Windows-Metadatei (WMF) Bildformat. |
 
 ### Siehe auch
 

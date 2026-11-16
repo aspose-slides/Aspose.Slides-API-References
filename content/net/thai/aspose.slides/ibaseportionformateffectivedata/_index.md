@@ -1,14 +1,14 @@
 ---
 title: IBasePortionFormatEffectiveData
-second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
-description: อินเทอร์เฟซพื้นฐานสำหรับอ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงได้ซึ่งประกอบด้วยคุณลักษณะการจัดรูปแบบส่วนข้อความที่มีผล
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: อินเทอร์เฟซฐานสำหรับวัตถุที่ไม่เปลี่ยนแปลงซึ่งมีคุณลักษณะการจัดรูปแบบส่วนข้อความที่มีผล
 type: docs
-weight: 5320
+weight: 5340
 url: /th/aspose.slides/ibaseportionformateffectivedata/
 ---
 ## IBasePortionFormatEffectiveData อินเทอร์เฟซ
 
-อินเทอร์เฟซพื้นฐานสำหรับอ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงได้ซึ่งมีคุณสมบัติการจัดรูปแบบส่วนข้อความที่มีผล
+Base interface for immutable objects which contain effective text portion formatting properties.
 
 ```csharp
 public interface IBasePortionFormatEffectiveData
@@ -18,37 +18,37 @@ public interface IBasePortionFormatEffectiveData
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AlternativeLanguageId](../../aspose.slides/ibaseportionformateffectivedata/alternativelanguageid) { get; } | คืนค่า Id ของภาษาทางเลือก. อ่านอย่างเดียว String. |
-| [ComplexScriptFont](../../aspose.slides/ibaseportionformateffectivedata/complexscriptfont) { get; } | คืนข้อมูลฟอนต์สคริปต์ซับซ้อน. อ่านอย่างเดียว [`IFontData`](../ifontdata). |
-| [EastAsianFont](../../aspose.slides/ibaseportionformateffectivedata/eastasianfont) { get; } | คืนข้อมูลฟอนต์เอเชียตะวันออก. อ่านอย่างเดียว [`IFontData`](../ifontdata). |
-| [EffectFormat](../../aspose.slides/ibaseportionformateffectivedata/effectformat) { get; } | คืนคุณสมบัติ EffectFormat ของข้อความ. อ่านอย่างเดียว [`IEffectFormatEffectiveData`](../ieffectformateffectivedata). |
-| [Escapement](../../aspose.slides/ibaseportionformateffectivedata/escapement) { get; } | คืนข้อความซูเปอร์สคริปต์หรือซับสคริปต์. ค่าตั้งแต่ -100% (ซับสคริปต์) ถึง 100% (ซูเปอร์สคริปต์). อ่านอย่างเดียว Single. |
-| [FillFormat](../../aspose.slides/ibaseportionformateffectivedata/fillformat) { get; } | คืนคุณสมบัติ FillFormat ของข้อความ. อ่านอย่างเดียว [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
-| [FontBold](../../aspose.slides/ibaseportionformateffectivedata/fontbold) { get; } | กำหนดว่าแบบอักษรเป็นตัวหนาหรือไม่. อ่านอย่างเดียว Boolean. |
-| [FontHeight](../../aspose.slides/ibaseportionformateffectivedata/fontheight) { get; } | คืนความสูงของแบบอักษรในส่วนข้อความ หน่วยเป็นพอยต์. อ่านอย่างเดียว Single. |
-| [FontItalic](../../aspose.slides/ibaseportionformateffectivedata/fontitalic) { get; } | กำหนดว่าแบบอักษรเป็นอิตาลิกหรือไม่. อ่านอย่างเดียว Boolean. |
-| [FontUnderline](../../aspose.slides/ibaseportionformateffectivedata/fontunderline) { get; } | คืนประเภทการขีดเส้นใต้ของข้อความ. อ่านอย่างเดียว [`TextUnderlineType`](../textunderlinetype). |
-| [HighlightColor](../../aspose.slides/ibaseportionformateffectivedata/highlightcolor) { get; } | คืนสีที่ใช้ไฮไลต์ข้อความ. อ่านอย่างเดียว Color. |
-| [IsHardUnderlineFill](../../aspose.slides/ibaseportionformateffectivedata/ishardunderlinefill) { get; } | กำหนดว่ารูปแบบการขีดเส้นใต้มีคุณสมบัติ FillFormat ของตนเองหรือสืบทอดจากคุณสมบัติ FillFormat ของข้อความ. อ่านอย่างเดียว Boolean. |
-| [IsHardUnderlineLine](../../aspose.slides/ibaseportionformateffectivedata/ishardunderlineline) { get; } | กำหนดว่ารูปแบบการขีดเส้นใต้มีคุณสมบัติ LineFormat ของตนเองหรือสืบทอดจากคุณสมบัติ LineFormat ของข้อความ. อ่านอย่างเดียว Boolean. |
-| [KerningMinimalSize](../../aspose.slides/ibaseportionformateffectivedata/kerningminimalsize) { get; } | คืนขนาดฟอนต์ขั้นต่ำที่ควรเปิดการเคอร์นิง. อ่านอย่างเดียว Single. |
-| [Kumimoji](../../aspose.slides/ibaseportionformateffectivedata/kumimoji) { get; } | กำหนดว่าตัวเลขควรละเลยการจัดแนวข้อความตั้งฉากที่เฉพาะเจาะจงต่อภาษาในเอเชียตะวันออกหรือไม่. อ่านอย่างเดียว Boolean. |
-| [LanguageId](../../aspose.slides/ibaseportionformateffectivedata/languageid) { get; } | คืนค่า Id ของภาษา. อ่านอย่างเดียว String. |
-| [LatinFont](../../aspose.slides/ibaseportionformateffectivedata/latinfont) { get; } | คืนข้อมูลฟอนต์ละติน. อ่านอย่างเดียว [`IFontData`](../ifontdata). |
-| [LineFormat](../../aspose.slides/ibaseportionformateffectivedata/lineformat) { get; } | คืนคุณสมบัติ LineFormat สำหรับการทำ outlines ของข้อความ. อ่านอย่างเดียว [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [NormaliseHeight](../../aspose.slides/ibaseportionformateffectivedata/normaliseheight) { get; } | กำหนดว่าความสูงของข้อความควรถูกทำให้เป็นมาตรฐานหรือไม่. อ่านอย่างเดียว Boolean. |
-| [ProofDisabled](../../aspose.slides/ibaseportionformateffectivedata/proofdisabled) { get; } | กำหนดว่าข้อความไม่ควรตรวจสอบการสะกดหรือไม่. อ่านอย่างเดียว Boolean. |
-| [SmartTagClean](../../aspose.slides/ibaseportionformateffectivedata/smarttagclean) { get; } | กำหนดว่า smart tag ควรถูกล้างหรือไม่. อ่านอย่างเดียว Boolean. |
-| [Spacing](../../aspose.slides/ibaseportionformateffectivedata/spacing) { get; } | คืนการเพิ่มระยะห่างระหว่างอักขระ หน่วยเป็นพอยต์. อ่านอย่างเดียว Single. |
-| [StrikethroughType](../../aspose.slides/ibaseportionformateffectivedata/strikethroughtype) { get; } | คืนประเภทการขีดฆ่าในข้อความ. อ่านอย่างเดียว [`TextStrikethroughType`](../textstrikethroughtype). |
-| [SymbolFont](../../aspose.slides/ibaseportionformateffectivedata/symbolfont) { get; } | คืนข้อมูลฟอนต์สัญลักษณ์. อ่านอย่างเดียว [`IFontData`](../ifontdata). |
-| [TextCapType](../../aspose.slides/ibaseportionformateffectivedata/textcaptype) { get; } | คืนประเภทการใช้ตัวพิมพ์ใหญ่ในข้อความ. อ่านอย่างเดียว [`TextCapType`](../textcaptype). |
-| [UnderlineFillFormat](../../aspose.slides/ibaseportionformateffectivedata/underlinefillformat) { get; } | คืนคุณสมบัติ FillFormat ของเส้นขีดเส้นใต้. อ่านอย่างเดียว [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
-| [UnderlineLineFormat](../../aspose.slides/ibaseportionformateffectivedata/underlinelineformat) { get; } | คืนคุณสมบัติ LineFormat ที่ใช้ในการทำ outlines ของเส้นขีดเส้นใต้. อ่านอย่างเดียว [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [AlternativeLanguageId](../../aspose.slides/ibaseportionformateffectivedata/alternativelanguageid) { get; } | Returns the Id of an alternative language. อ่านอย่างเดียว String. |
+| [ComplexScriptFont](../../aspose.slides/ibaseportionformateffectivedata/complexscriptfont) { get; } | Returns the complex script font info. อ่านอย่างเดียว [`IFontData`](../ifontdata). |
+| [EastAsianFont](../../aspose.slides/ibaseportionformateffectivedata/eastasianfont) { get; } | Returns the East Asian font info. อ่านอย่างเดียว [`IFontData`](../ifontdata). |
+| [EffectFormat](../../aspose.slides/ibaseportionformateffectivedata/effectformat) { get; } | Returns the text EffectFormat properties. อ่านอย่างเดียว [`IEffectFormatEffectiveData`](../ieffectformateffectivedata). |
+| [Escapement](../../aspose.slides/ibaseportionformateffectivedata/escapement) { get; } | Returns the superscript or subscript text. Value from -100% (subscript) to 100% (superscript). อ่านอย่างเดียว Single. |
+| [FillFormat](../../aspose.slides/ibaseportionformateffectivedata/fillformat) { get; } | Returns the text FillFormat properties. อ่านอย่างเดียว [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
+| [FontBold](../../aspose.slides/ibaseportionformateffectivedata/fontbold) { get; } | Determines whether the font is bold. อ่านอย่างเดียว Boolean. |
+| [FontHeight](../../aspose.slides/ibaseportionformateffectivedata/fontheight) { get; } | Returns the font height of the text portion, in points. อ่านอย่างเดียว Single. |
+| [FontItalic](../../aspose.slides/ibaseportionformateffectivedata/fontitalic) { get; } | Determines whether the font is itallic. อ่านอย่างเดียว Boolean. |
+| [FontUnderline](../../aspose.slides/ibaseportionformateffectivedata/fontunderline) { get; } | Returns the text underline type. อ่านอย่างเดียว [`TextUnderlineType`](../textunderlinetype). |
+| [HighlightColor](../../aspose.slides/ibaseportionformateffectivedata/highlightcolor) { get; } | Returns the color used to highlight a text. อ่านอย่างเดียว Color. |
+| [IsHardUnderlineFill](../../aspose.slides/ibaseportionformateffectivedata/ishardunderlinefill) { get; } | Determines whether the underline style has own FillFormat properties or inherits it from the FillFormat properties of the text. อ่านอย่างเดียว Boolean. |
+| [IsHardUnderlineLine](../../aspose.slides/ibaseportionformateffectivedata/ishardunderlineline) { get; } | Determines whether the underline style has own LineFormat properties or inherits it from the LineFormat properties of the text. อ่านอย่างเดียว Boolean. |
+| [KerningMinimalSize](../../aspose.slides/ibaseportionformateffectivedata/kerningminimalsize) { get; } | Returns the minimal font size, for which kerning should be switched on. อ่านอย่างเดียว Single. |
+| [Kumimoji](../../aspose.slides/ibaseportionformateffectivedata/kumimoji) { get; } | Determines whether the numbers should ignore text eastern language-specific vertical text layout. อ่านอย่างเดียว Boolean. |
+| [LanguageId](../../aspose.slides/ibaseportionformateffectivedata/languageid) { get; } | Returns the Id of a language. อ่านอย่างเดียว String. |
+| [LatinFont](../../aspose.slides/ibaseportionformateffectivedata/latinfont) { get; } | Returns the Latin font info. อ่านอย่างเดียว [`IFontData`](../ifontdata). |
+| [LineFormat](../../aspose.slides/ibaseportionformateffectivedata/lineformat) { get; } | Returns the LineFormat properties for text outlining. อ่านอย่างเดียว [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [NormaliseHeight](../../aspose.slides/ibaseportionformateffectivedata/normaliseheight) { get; } | Determines whether the height of a text should be normalized. อ่านอย่างเดียว Boolean. |
+| [ProofDisabled](../../aspose.slides/ibaseportionformateffectivedata/proofdisabled) { get; } | Determines whether the text shouldn't be proofed. อ่านอย่างเดียว Boolean. |
+| [SmartTagClean](../../aspose.slides/ibaseportionformateffectivedata/smarttagclean) { get; } | Determines whether the smart tag should be cleaned. อ่านอย่างเดียว Boolean. |
+| [Spacing](../../aspose.slides/ibaseportionformateffectivedata/spacing) { get; } | Returns the intercharacter spacing increment, in points. อ่านอย่างเดียว Single. |
+| [StrikethroughType](../../aspose.slides/ibaseportionformateffectivedata/strikethroughtype) { get; } | Returns the strikethrough type of a text. อ่านอย่างเดียว [`TextStrikethroughType`](../textstrikethroughtype). |
+| [SymbolFont](../../aspose.slides/ibaseportionformateffectivedata/symbolfont) { get; } | Returns the symbolic font info. อ่านอย่างเดียว [`IFontData`](../ifontdata). |
+| [TextCapType](../../aspose.slides/ibaseportionformateffectivedata/textcaptype) { get; } | Returns the type of text capitalization. อ่านอย่างเดียว [`TextCapType`](../textcaptype). |
+| [UnderlineFillFormat](../../aspose.slides/ibaseportionformateffectivedata/underlinefillformat) { get; } | Returns the underline line FillFormat properties. อ่านอย่างเดียว [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
+| [UnderlineLineFormat](../../aspose.slides/ibaseportionformateffectivedata/underlinelineformat) { get; } | Returns the LineFormat properties used to outline underline line. อ่านอย่างเดียว [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
 
 ### ดูเพิ่มเติม
 
-* ชื่อเนมสเปซ [Aspose.Slides](../../aspose.slides)
+* เนมสเปซ [Aspose.Slides](../../aspose.slides)
 * แอสเซมบลี [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,14 +1,14 @@
 ---
 title: GetFontEmbeddingLevel
-second_title: Aspose.Sildes .NET API referenciája
-description: Meghatározza a betűtípus beágyazási szintjét a megadott bájt tömbből és a betűtípus nevéből.
+second_title: Aspose.Sildes .NET API Referencia
+description: Meghatározza egy betűtípus beágyazási szintjét a megadott bájt tömbből és a betűtípus nevéből.
 type: docs
-weight: 60
+weight: 70
 url: /hu/aspose.slides/ifontsmanager/getfontembeddinglevel/
 ---
-## IFontsManager.GetFontEmbeddingLevel method
+## IFontsManager.GetFontEmbeddingLevel metódus
 
-Meghatározza egy betűtípus beágyazási szintjét a megadott bájt tömbből és betűtípus névből.
+Meghatározza a betűtípus beágyazási szintjét a megadott bájt tömbből és a betűtípus nevéből.
 
 ```csharp
 public EmbeddingLevel GetFontEmbeddingLevel(byte[] fontBytes, string fontName)
@@ -16,18 +16,18 @@ public EmbeddingLevel GetFontEmbeddingLevel(byte[] fontBytes, string fontName)
 
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
-| fontBytes | Byte[] | A betűtípus adatokat tartalmazó bájt tömb. |
+| fontBytes | Byte[] | A betűtípus adatait tartalmazó bájt tömb. |
 | fontName | String | A betűtípus neve. |
 
 ### Visszatérési érték
 
 A megadott betűtípus beágyazási szintje.
 
-### Kivétel
+### Kivételek
 
 | kivétel | feltétel |
 | --- | --- |
-| ArgumentNullException | Dobott, ha a *fontBytes* null. |
+| ArgumentNullException | Kivétel dobódik, ha a *fontBytes* null. |
 
 ### Példák
 
@@ -35,10 +35,10 @@ A megadott betűtípus beágyazási szintje.
 [C#]
 using (Presentation pres = new Presentation(pptxFileName))
 {
-    // A bemutatóban használt összes betűtípus lekérése
+    // A prezentációban használt összes betűtípus lekérdezése
     IFontData[] fontDatas = pres.FontsManager.GetFonts();
 
-    // A bemutató első betűtípusának normál (regular) stílusát reprezentáló bájt tömb lekérése
+    // A prezentáció első betűtípusának normál stílusát reprezentáló bájt tömb lekérése
     byte[] bytes = pres.FontsManager.GetFontBytes(fontDatas[0], FontStyle.Regular);
 
     // A betűtípus beágyazási szintjének meghatározása

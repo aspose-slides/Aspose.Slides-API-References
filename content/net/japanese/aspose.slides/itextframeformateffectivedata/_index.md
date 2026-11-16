@@ -1,14 +1,14 @@
 ---
 title: ITextFrameFormatEffectiveData
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 有効なテキストフレームの書式設定プロパティを含む不変オブジェクトです。
+description: 有効なテキストフレームの書式設定プロパティを含む不変オブジェクト。
 type: docs
-weight: 7290
+weight: 7310
 url: /ja/aspose.slides/itextframeformateffectivedata/
 ---
 ## ITextFrameFormatEffectiveData インターフェイス
 
-有効なテキスト フレームの書式設定プロパティを含む不変オブジェクトです。
+有効なテキストフレームの書式設定プロパティを含む不変オブジェクト。
 
 ```csharp
 public interface ITextFrameFormatEffectiveData
@@ -19,10 +19,10 @@ public interface ITextFrameFormatEffectiveData
 | 名前 | 説明 |
 | --- | --- |
 | [AnchoringType](../../aspose.slides/itextframeformateffectivedata/anchoringtype) { get; } | TextFrame の垂直アンカー テキストを返します。読み取り専用 [`TextAnchorType`](../textanchortype)。 |
-| [AutofitType](../../aspose.slides/itextframeformateffectivedata/autofittype) { get; } | テキスト自動調整モードを返します。読み取り専用 [`TextAutofitType`](../textautofittype)。 |
-| [CenterText](../../aspose.slides/itextframeformateffectivedata/centertext) { get; } | テキストを水平にボックスの中央に配置すべきかどうかを返します。読み取り専用 Boolean。 |
+| [AutofitType](../../aspose.slides/itextframeformateffectivedata/autofittype) { get; } | テキストの自動フィット モードを返します。読み取り専用 [`TextAutofitType`](../textautofittype)。 |
+| [CenterText](../../aspose.slides/itextframeformateffectivedata/centertext) { get; } | テキストがボックス内で水平にセンタリングされるかどうかを返します。読み取り専用 Boolean。 |
 | [ColumnCount](../../aspose.slides/itextframeformateffectivedata/columncount) { get; } | バウンディング矩形内のテキスト列数を指定します。読み取り専用 Int32。 |
-| [ColumnSpacing](../../aspose.slides/itextframeformateffectivedata/columnspacing) { get; } | テキスト領域内のテキスト列間のスペース（ポイント単位）を指定します。読み取り専用 Single。 |
+| [ColumnSpacing](../../aspose.slides/itextframeformateffectivedata/columnspacing) { get; } | テキスト領域内のテキスト列間のスペース（ポイント）を指定します。読み取り専用 Single。 |
 | [MarginBottom](../../aspose.slides/itextframeformateffectivedata/marginbottom) { get; } | TextFrame の下余白（ポイント）を返します。読み取り専用 Double。 |
 | [MarginLeft](../../aspose.slides/itextframeformateffectivedata/marginleft) { get; } | TextFrame の左余白（ポイント）を返します。読み取り専用 Double。 |
 | [MarginRight](../../aspose.slides/itextframeformateffectivedata/marginright) { get; } | TextFrame の右余白（ポイント）を返します。読み取り専用 Double。 |
@@ -33,7 +33,7 @@ public interface ITextFrameFormatEffectiveData
 
 ### 備考
 
-[`ITextFrameFormat`](../itextframeformat) インターフェイスと共に使用され、継承が適用された有効な書式設定値を返します。
+このインターフェイスは [`ITextFrameFormat`](../itextframeformat) インターフェイスと組み合わせて使用され、継承が適用された有効な書式設定値を返します。
 
 ### 参照
 

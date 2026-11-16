@@ -1,26 +1,26 @@
 ---
 title: IAlphaFloorEffectiveData
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Onveranderlijk object dat een Alpha Floor-effect vertegenwoordigt. Alpha-opaciteitswaarden lager dan 100 worden naar nul veranderd. Met andere woorden wordt alles wat gedeeltelijk transparant is volledig transparant.
+description: Onveranderlijk object dat een Alpha Floor-effect weergeeft. Alpha-opaciteitswaarden lager dan 100 worden op nul gezet. Met andere woorden wordt alles wat gedeeltelijk transparant is volledig transparant.
 type: docs
-weight: 3070
+weight: 3090
 url: /nl/aspose.slides.effects/ialphaflooreffectivedata/
 ---
 ## IAlphaFloorEffectiveData interface
 
-Onveranderlijk object dat een Alpha Floor-effect vertegenwoordigt. Alpha (opaciteit) waarden lager dan 100 % worden naar nul veranderd. Met andere woorden, alles wat gedeeltelijk transparant is, wordt volledig transparant.
+Onveranderlijk object dat een Alpha Floor-effect weergeeft. Alpha (opaciteit) waarden lager dan 100% worden gewijzigd naar nul. Met andere woorden, alles wat gedeeltelijk transparant is, wordt volledig transparant.
 
 ```csharp
 public interface IAlphaFloorEffectiveData : IEffectEffectiveData
 ```
 
-## Eigenschappen
+## Properties
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphaflooreffectivedata/asieffecteffectivedata) { get; } | Stelt toe om de basis IEffectEffectiveData interface op te vragen. Alleen-lezen [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphaflooreffectivedata/asieffecteffectivedata) { get; } | Standaard om de basis IEffectEffectiveData interface op te halen. Alleen-lezen [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
-### Zie ook
+### See Also
 
 * interface [IEffectEffectiveData](../ieffecteffectivedata)
 * namespace [Aspose.Slides.Effects](../../aspose.slides.effects)

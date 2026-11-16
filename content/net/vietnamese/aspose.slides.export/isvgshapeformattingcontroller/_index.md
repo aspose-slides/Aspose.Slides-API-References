@@ -1,9 +1,9 @@
 ---
 title: ISvgShapeFormattingController
-second_title: Aspose.Sildes cho .NET Tham chiếu API
+second_title: Tham chiếu API Aspose.Sildes cho .NET
 description: Kiểm soát việc tạo hình dạng SVG.
 type: docs
-weight: 4130
+weight: 4150
 url: /vi/aspose.slides.export/isvgshapeformattingcontroller/
 ---
 ## ISvgShapeFormattingController giao diện
@@ -18,7 +18,7 @@ public interface ISvgShapeFormattingController
 
 | Tên | Mô tả |
 | --- | --- |
-| [FormatShape](../../aspose.slides.export/isvgshapeformattingcontroller/formatshape)(ISvgShape, IShape) | Hàm này được gọi trước khi vẽ hình dạng ra SVG để cho phép người dùng kiểm soát SVG kết quả. |
+| [FormatShape](../../aspose.slides.export/isvgshapeformattingcontroller/formatshape)(ISvgShape, IShape) | Hàm này được gọi trước khi vẽ hình dạng sang SVG để cho phép người dùng kiểm soát SVG kết quả. |
 
 ### Xem thêm
 

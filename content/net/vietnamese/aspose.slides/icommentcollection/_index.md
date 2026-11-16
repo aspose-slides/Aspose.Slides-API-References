@@ -1,14 +1,14 @@
 ---
 title: ICommentCollection
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Biểu thị một bộ sưu tập các bình luận của một tác giả.
+second_title: Aspose.Sildes cho .NET Tham chiếu API
+description: Biểu diễn một bộ sưu tập các nhận xét của một tác giả.
 type: docs
-weight: 5590
+weight: 5610
 url: /vi/aspose.slides/icommentcollection/
 ---
 ## ICommentCollection giao diện
 
-Biểu thị một bộ sưu tập các bình luận của một tác giả.
+Biểu diễn một bộ sưu tập các nhận xét của một tác giả.
 
 ```csharp
 public interface ICommentCollection : IGenericCollection<IComment>
@@ -24,15 +24,15 @@ public interface ICommentCollection : IGenericCollection<IComment>
 
 | Tên | Mô tả |
 | --- | --- |
-| [AddComment](../../aspose.slides/icommentcollection/addcomment)(string, ISlide, PointF, DateTime) | Thêm bình luận mới vào cuối bộ sưu tập. |
-| [AddModernComment](../../aspose.slides/icommentcollection/addmoderncomment)(string, ISlide, IShape, PointF, DateTime) | Thêm bình luận hiện đại mới vào cuối bộ sưu tập. |
-| [Clear](../../aspose.slides/icommentcollection/clear)() | Xóa tất cả bình luận khỏi bộ sưu tập. |
-| [InsertComment](../../aspose.slides/icommentcollection/insertcomment)(int, string, ISlide, PointF, DateTime) | Chèn bình luận mới vào bộ sưu tập tại chỉ mục được chỉ định. |
-| [InsertModernComment](../../aspose.slides/icommentcollection/insertmoderncomment)(int, string, ISlide, IShape, PointF, DateTime) | Chèn bình luận hiện đại mới vào bộ sưu tập tại chỉ mục được chỉ định. |
-| [Remove](../../aspose.slides/icommentcollection/remove)(IComment) | Xóa lần xuất hiện đầu tiên của bình luận được chỉ định trong bộ sưu tập. |
+| [AddComment](../../aspose.slides/icommentcollection/addcomment)(string, ISlide, PointF, DateTime) | Thêm nhận xét mới vào cuối bộ sưu tập. |
+| [AddModernComment](../../aspose.slides/icommentcollection/addmoderncomment)(string, ISlide, IShape, PointF, DateTime) | Thêm nhận xét hiện đại mới vào cuối bộ sưu tập. |
+| [Clear](../../aspose.slides/icommentcollection/clear)() | Xóa tất cả các nhận xét khỏi bộ sưu tập. |
+| [InsertComment](../../aspose.slides/icommentcollection/insertcomment)(int, string, ISlide, PointF, DateTime) | Chèn nhận xét mới vào bộ sưu tập tại chỉ mục được chỉ định. |
+| [InsertModernComment](../../aspose.slides/icommentcollection/insertmoderncomment)(int, string, ISlide, IShape, PointF, DateTime) | Chèn nhận xét hiện đại mới vào bộ sưu tập tại chỉ mục được chỉ định. |
+| [Remove](../../aspose.slides/icommentcollection/remove)(IComment) | Xóa lần xuất hiện đầu tiên của nhận xét được chỉ định trong bộ sưu tập. |
 | [RemoveAt](../../aspose.slides/icommentcollection/removeat)(int) | Xóa phần tử tại chỉ mục được chỉ định trong bộ sưu tập. |
-| [ToArray](../../aspose.slides/icommentcollection/toarray#toarray)() | Tạo và trả về một mảng chứa tất cả bình luận. |
-| [ToArray](../../aspose.slides/icommentcollection/toarray#toarray_1)(int, int) | Tạo và trả về một mảng chứa tất cả bình luận từ phạm vi được chỉ định. |
+| [ToArray](../../aspose.slides/icommentcollection/toarray#toarray)() | Tạo và trả về một mảng chứa tất cả các nhận xét. |
+| [ToArray](../../aspose.slides/icommentcollection/toarray#toarray_1)(int, int) | Tạo và trả về một mảng chứa các nhận xét từ phạm vi được chỉ định. |
 
 ### Xem thêm
 

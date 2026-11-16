@@ -3,10 +3,10 @@ title: ILineParamSource
 second_title: Aspose.Sildes για .NET Αναφορά API
 description: Δευτερεύουσα διεπαφή παραμέτρων γραμμής.
 type: docs
-weight: 6330
+weight: 6350
 url: /el/aspose.slides/ilineparamsource/
 ---
-## ILineParamSource διασύνδεση
+## ILineParamSource διεπαφή
 
 Δευτερεύουσα διεπαφή παραμέτρων γραμμής.
 

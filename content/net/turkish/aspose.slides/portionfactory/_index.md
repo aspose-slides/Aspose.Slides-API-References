@@ -3,7 +3,7 @@ title: PortionFactory
 second_title: Aspose.Sildes için .NET API Referansı
 description: Test bölümleri oluşturmayı sağlar
 type: docs
-weight: 9480
+weight: 9500
 url: /tr/aspose.slides/portionfactory/
 ---
 ## PortionFactory sınıfı
@@ -32,7 +32,7 @@ public class PortionFactory : IPortionFactory
 
 COM uyumluluğu için
 
-### Diğerlerine Bak
+### Ayrıca Bakınız
 
 * arayüz [IPortionFactory](../iportionfactory)
 * ad alanı [Aspose.Slides](../../aspose.slides)

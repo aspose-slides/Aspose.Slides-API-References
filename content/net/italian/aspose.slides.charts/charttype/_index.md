@@ -1,12 +1,12 @@
 ---
 title: ChartType
-second_title: Riferimento API di Aspose.Sildes per .NET
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta un tipo di grafico.
 type: docs
-weight: 1500
+weight: 1510
 url: /it/aspose.slides.charts/charttype/
 ---
-## ChartType enumerazione
+## Enumerazione ChartType
 
 Rappresenta un tipo di grafico.
 
@@ -40,16 +40,16 @@ public enum ChartType
 | Line | `19` | Rappresenta il grafico a linee. |
 | StackedLine | `20` | Rappresenta il grafico a linee impilate. |
 | PercentsStackedLine | `21` | Rappresenta il grafico a linee impilate al 100%. |
-| LineWithMarkers | `22` | Rappresenta il grafico a linee con marcatori di dati. |
-| StackedLineWithMarkers | `23` | Rappresenta il grafico a linee impilate con marcatori di dati. |
-| PercentsStackedLineWithMarkers | `24` | Rappresenta il grafico a linee impilate al 100% con marcatori di dati. |
+| LineWithMarkers | `22` | Rappresenta il grafico a linee con indicatori dati. |
+| StackedLineWithMarkers | `23` | Rappresenta il grafico a linee impilate con indicatori dati. |
+| PercentsStackedLineWithMarkers | `24` | Rappresenta il grafico a linee impilate al 100% con indicatori dati. |
 | Line3D | `25` | Rappresenta il grafico a linee 3D. |
 | Pie | `26` | Rappresenta il grafico a torta. |
 | Pie3D | `27` | Rappresenta il grafico a torta 3D. |
-| PieOfPie | `28` | Rappresenta il grafico torta su torta. |
+| PieOfPie | `28` | Rappresenta il grafico a torta di torta. |
 | ExplodedPie | `29` | Rappresenta il grafico a torta esplosa. |
 | ExplodedPie3D | `30` | Rappresenta il grafico a torta esplosa 3D. |
-| BarOfPie | `31` | Rappresenta il grafico a barre su torta. |
+| BarOfPie | `31` | Rappresenta il grafico a barra di torta. |
 | PercentsStackedBar | `32` | Rappresenta il grafico a barre impilate al 100%. |
 | ClusteredBar3D | `33` | Rappresenta il grafico a barre raggruppate 3D. |
 | ClusteredBar | `34` | Rappresenta il grafico a barre raggruppate. |
@@ -72,38 +72,38 @@ public enum ChartType
 | StackedArea3D | `51` | Rappresenta il grafico ad area impilato 3D. |
 | PercentsStackedArea3D | `52` | Rappresenta il grafico ad area impilato al 100% 3D. |
 | ScatterWithMarkers | `53` | Rappresenta il grafico a dispersione. |
-| ScatterWithSmoothLinesAndMarkers | `54` | Rappresenta il grafico a dispersione collegato da curve, con marcatori di dati. |
-| ScatterWithSmoothLines | `55` | Rappresenta il grafico a dispersione collegato da curve, senza marcatori di dati. |
-| ScatterWithStraightLinesAndMarkers | `56` | Rappresenta il grafico a dispersione collegato da linee, con marcatori di dati. |
-| ScatterWithStraightLines | `57` | Rappresenta il grafico a dispersione collegato da linee, senza marcatori di dati. |
+| ScatterWithSmoothLinesAndMarkers | `54` | Rappresenta il grafico a dispersione collegato da curve, con indicatori dati. |
+| ScatterWithSmoothLines | `55` | Rappresenta il grafico a dispersione collegato da curve, senza indicatori dati. |
+| ScatterWithStraightLinesAndMarkers | `56` | Rappresenta il grafico a dispersione collegato da linee, con indicatori dati. |
+| ScatterWithStraightLines | `57` | Rappresenta il grafico a dispersione collegato da linee, senza indicatori dati. |
 | HighLowClose | `58` | Rappresenta il grafico azionario High-Low-Close. |
 | OpenHighLowClose | `59` | Rappresenta il grafico azionario Open-High-Low-Close. |
 | VolumeHighLowClose | `60` | Rappresenta il grafico azionario Volume-High-Low-Close. |
 | VolumeOpenHighLowClose | `61` | Rappresenta il grafico azionario Volume-Open-High-Low-Close. |
 | Surface3D | `62` | Rappresenta il grafico di superficie 3D. |
 | WireframeSurface3D | `63` | Rappresenta il grafico di superficie 3D a wireframe. |
-| Contour | `64` | Rappresenta il grafico di contorno. |
-| WireframeContour | `65` | Rappresenta il grafico di contorno a wireframe. |
+| Contour | `64` | Rappresenta il grafico a contorno. |
+| WireframeContour | `65` | Rappresenta il grafico a contorno wireframe. |
 | Doughnut | `66` | Rappresenta il grafico a ciambella. |
 | ExplodedDoughnut | `67` | Rappresenta il grafico a ciambella esplosa. |
 | Bubble | `68` | Rappresenta il grafico a bolle. |
 | BubbleWith3D | `69` | Rappresenta il grafico a bolle 3D. |
 | Radar | `70` | Rappresenta il grafico radar. |
-| RadarWithMarkers | `71` | Rappresenta il grafico radar con marcatori di dati. |
+| RadarWithMarkers | `71` | Rappresenta il grafico radar con indicatori dati. |
 | FilledRadar | `72` | Rappresenta il grafico radar riempito. |
-| SeriesOfMixedTypes | `73` | Questo valore può essere restituito solo dalla proprietà ChartEx.Type. Indica che il grafico ha serie di tipi misti. |
-| Treemap | `74` | Rappresenta il grafico treemap. |
-| Sunburst | `75` | Rappresenta il grafico sunburst. |
-| Histogram | `76` | Rappresenta il grafico istogramma. |
+| SeriesOfMixedTypes | `73` | Questo valore può essere restituito solo dalla proprietà ChartEx.Type. Significa che il grafico ha serie di tipi misti. |
+| Treemap | `74` | Rappresenta il grafico a mappa ad albero. |
+| Sunburst | `75` | Rappresenta il grafico a raggi solari. |
+| Histogram | `76` | Rappresenta il grafico a istogramma. |
 | ParetoLine | `77` | Rappresenta il tipo di serie linea Pareto (grafico istogramma Pareto). |
 | BoxAndWhisker | `78` | Rappresenta il grafico BoxAndWhisker. |
-| Waterfall | `79` | Rappresenta il grafico waterfall. |
+| Waterfall | `79` | Rappresenta il grafico a cascata. |
 | Funnel | `80` | Rappresenta il grafico a imbuto. |
 | Map | `81` | Rappresenta il grafico mappa. |
 
 ### Vedi anche
 
-* spazio dei nomi [Aspose.Slides.Charts](../../aspose.slides.charts)
+* namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
 * assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

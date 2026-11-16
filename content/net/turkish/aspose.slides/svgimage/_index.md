@@ -1,14 +1,14 @@
 ---
 title: SvgImage
-second_title: Aspose.Sildes için .NET API Referansı
-description: Bir SVG görüntüsünü temsil eder.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Bir SVG görüntüyü temsil eder.
 type: docs
-weight: 10800
+weight: 10820
 url: /tr/aspose.slides/svgimage/
 ---
 ## SvgImage sınıfı
 
-Bir SVG görüntüsünü temsil eder.
+Bir SVG görüntüyü temsil eder.
 
 ```csharp
 public class SvgImage : ISvgImage
@@ -29,16 +29,16 @@ public class SvgImage : ISvgImage
 
 | Ad | Açıklama |
 | --- | --- |
-| [BaseUri](../../aspose.slides/svgimage/baseuri) { get; } | Belirtilen Svg'nin temel URI'sini döndürür. Göreli bağlantıları çözmek için kullanılır. Salt okunur String. |
-| [ExternalResourceResolver](../../aspose.slides/svgimage/externalresourceresolver) { get; } | Svg belgeleri içe aktarılırken harici kaynakları çözmek için kullanılan geri çağırma arayüzünü döndürür. Salt okunur [`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver). |
-| [SvgContent](../../aspose.slides/svgimage/svgcontent) { get; } | SVG içeriğini döndürür. Salt okunur String. |
-| [SvgData](../../aspose.slides/svgimage/svgdata) { get; } | SVG verisini döndürür. Salt okunur Byte[]. |
+| [BaseUri](../../aspose.slides/svgimage/baseuri) { get; } | Belirtilen Svg'nin temel URI'sini döndürür. Göreceli bağlantıları çözmek için kullanılır. Salt-okunur String. |
+| [ExternalResourceResolver](../../aspose.slides/svgimage/externalresourceresolver) { get; } | Svg belgelerinin içe aktarımı sırasında dış kaynakları çözmek için kullanılan geri arama arayüzünü döndürür. Salt-okunur [`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver). |
+| [SvgContent](../../aspose.slides/svgimage/svgcontent) { get; } | SVG içeriğini döndürür. Salt-okunur String. |
+| [SvgData](../../aspose.slides/svgimage/svgdata) { get; } | SVG verisini döndürür. Salt-okunur Byte[]. |
 
-## Metotlar
+## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [WriteAsEmf](../../aspose.slides/svgimage/writeasemf)(Stream) | SVG görüntüsünü EMF dosyası olarak kaydeder. |
+| [WriteAsEmf](../../aspose.slides/svgimage/writeasemf)(Stream) | SVG görüntüyü bir EMF dosyası olarak kaydeder. |
 
 ### Ayrıca Bakınız
 

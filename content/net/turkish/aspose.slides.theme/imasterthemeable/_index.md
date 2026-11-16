@@ -1,9 +1,9 @@
 ---
 title: IMasterThemeable
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes for .NET API Referansı
 description: Ana tema yöneticisini temsil eder.
 type: docs
-weight: 11330
+weight: 11350
 url: /tr/aspose.slides.theme/imasterthemeable/
 ---
 ## IMasterThemeable arayüz
@@ -18,10 +18,10 @@ public interface IMasterThemeable : IThemeable
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIThemeable](../../aspose.slides.theme/imasterthemeable/asithemeable) { get; } | IThemeable arayüzünü döndürür. Salt okunur [`IThemeable`](../ithemeable). |
+| [AsIThemeable](../../aspose.slides.theme/imasterthemeable/asithemeable) { get; } | IThemeable arabirimini döndürür. Salt okunur [`IThemeable`](../ithemeable). |
 | [ThemeManager](../../aspose.slides.theme/imasterthemeable/thememanager) { get; } | Ana tema yöneticisini döndürür. Salt okunur [`IMasterThemeManager`](../imasterthememanager). |
 
-### Ayrıca Bakınız
+### Başvurular
 
 * arayüz [IThemeable](../ithemeable)
 * ad alanı [Aspose.Slides.Theme](../../aspose.slides.theme)

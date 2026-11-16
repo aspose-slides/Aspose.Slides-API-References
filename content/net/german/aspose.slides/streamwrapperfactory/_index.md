@@ -1,9 +1,9 @@
 ---
 title: StreamWrapperFactory
-second_title: Aspose.Sildes für .NET API Referenz
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Fabrik von StreamWrappers. Für COM-Schnittstelle.
 type: docs
-weight: 10760
+weight: 10780
 url: /de/aspose.slides/streamwrapperfactory/
 ---
 ## StreamWrapperFactory Klasse
@@ -16,15 +16,15 @@ public class StreamWrapperFactory : IStreamWrapperFactory
 
 ## Konstruktoren
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
 | [StreamWrapperFactory](streamwrapperfactory)() | Der Standardkonstruktor. |
 
 ## Methoden
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
-| [CreateFileStreamWrapper](../../aspose.slides/streamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper)(string, FileMode) | Erstellt FileStream mit dem angegebenen Pfad und Erstellungsmodus. |
+| [CreateFileStreamWrapper](../../aspose.slides/streamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper)(string, FileMode) | Erstellt FileStream mit dem angegebenen Pfad und dem Erstellungsmodus. |
 | [CreateFileStreamWrapper](../../aspose.slides/streamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper_1)(string, FileMode, FileAccess) | Erstellt FileStream mit dem angegebenen Pfad, Erstellungsmodus und Lese-/Schreibberechtigung. |
 | [CreateMemoryStreamWrapper](../../aspose.slides/streamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper)() | Erstellt MemoryStream-Wrapper. |
 | [CreateMemoryStreamWrapper](../../aspose.slides/streamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper_1)(byte[]) | Erstellt MemoryStream-Wrapper basierend auf dem angegebenen Byte-Array. |

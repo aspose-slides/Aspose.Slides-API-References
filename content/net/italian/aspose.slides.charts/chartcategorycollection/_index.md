@@ -1,14 +1,14 @@
 ---
 title: ChartCategoryCollection
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta una collezione di ChartCategory./chartcategory
+description: Rappresenta la raccolta di ChartCategory./chartcategory
 type: docs
-weight: 1280
+weight: 1290
 url: /it/aspose.slides.charts/chartcategorycollection/
 ---
 ## ChartCategoryCollection classe
 
-Rappresenta una collezione di [`ChartCategory`](../chartcategory)
+Rappresenta la raccolta di [`ChartCategory`](../chartcategory)
 
 ```csharp
 public class ChartCategoryCollection : DomObject<ChartData>, IChartCategoryCollection
@@ -18,23 +18,23 @@ public class ChartCategoryCollection : DomObject<ChartData>, IChartCategoryColle
 
 | Nome | Descrizione |
 | --- | --- |
-| [Count](../../aspose.slides.charts/chartcategorycollection/count) { get; } | Restituisce il numero di elementi nella collezione. Solo lettura Int32. |
-| [GroupingLevelCount](../../aspose.slides.charts/chartcategorycollection/groupinglevelcount) { get; } | Restituisce il conteggio dei livelli di raggruppamento delle categorie utilizzati. È maggiore di uno per categorie multilivello. Solo lettura Int32. |
-| [IsSynchronized](../../aspose.slides.charts/chartcategorycollection/issynchronized) { get; } | Restituisce un valore che indica se l'accesso al List è sincronizzato (thread safe). Solo lettura Boolean. |
+| [Count](../../aspose.slides.charts/chartcategorycollection/count) { get; } | Restituisce un numero di elementi nella raccolta. Solo lettura Int32. |
+| [GroupingLevelCount](../../aspose.slides.charts/chartcategorycollection/groupinglevelcount) { get; } | Restituisce il conteggio dei livelli di raggruppamento delle categorie utilizzati. È più di uno per categorie a più livelli. Solo lettura Int32. |
+| [IsSynchronized](../../aspose.slides.charts/chartcategorycollection/issynchronized) { get; } | Restituisce un valore che indica se l'accesso all'elenco è sincronizzato (thread safe). Solo lettura Boolean. |
 | [Item](../../aspose.slides.charts/chartcategorycollection/item) { get; } | Ottiene l'elemento all'indice specificato. |
-| [SyncRoot](../../aspose.slides.charts/chartcategorycollection/syncroot) { get; } | Restituisce un oggetto che può essere usato per sincronizzare l'accesso alla collezione. Solo lettura Object. |
-| [UseCells](../../aspose.slides.charts/chartcategorycollection/usecells) { get; set; } | Se true allora il worksheet è usato per memorizzare le categorie (questo caso supporta categorie a più livelli). Se false allora il worksheet NON è usato per memorizzare i valori (e questo caso non supporta categorie a più livelli). Lettura/scrittura Boolean. |
+| [SyncRoot](../../aspose.slides.charts/chartcategorycollection/syncroot) { get; } | Restituisce un oggetto che può essere usato per sincronizzare l'accesso alla raccolta. Solo lettura Object. |
+| [UseCells](../../aspose.slides.charts/chartcategorycollection/usecells) { get; set; } | Se vero, il foglio di lavoro è usato per memorizzare le categorie (questo caso supporta categorie a più livelli). Se false, il foglio di lavoro NON è usato per memorizzare i valori (e questo caso non supporta categorie a più livelli). Lettura/scrittura Boolean. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [Add](../../aspose.slides.charts/chartcategorycollection/add#add)(IChartDataCell) | Se la categoria esiste nella collezione, la restituisce. Altrimenti crea una nuova categoria di grafico da [`IChartDataCell`](../ichartdatacell) e la aggiunge alla collezione. |
-| [Add](../../aspose.slides.charts/chartcategorycollection/add#add_1)(object) | Crea un nuovo [`ChartCategory`](../chartcategory) dal valore e lo aggiunge alla collezione. |
-| [Clear](../../aspose.slides.charts/chartcategorycollection/clear)() | Rimuove tutti gli elementi dalla collezione. |
-| [CopyTo](../../aspose.slides.charts/chartcategorycollection/copyto)(Array, int) | Copia tutti gli elementi della collezione nell'array specificato. |
-| [GetEnumerator](../../aspose.slides.charts/chartcategorycollection/getenumerator)() | Restituisce un enumeratore che itera attraverso la collezione. |
-| [IndexOf](../../aspose.slides.charts/chartcategorycollection/indexof)(IChartCategory) | Cerca il [`ChartCategory`](../chartcategory) specificato e restituisce l'indice basato su zero della prima occorrenza all'interno dell'intera Collection. |
+| [Add](../../aspose.slides.charts/chartcategorycollection/add#add)(IChartDataCell) | Se la categoria esiste nella raccolta, la restituisce. Altrimenti crea una nuova categoria di grafico da [`IChartDataCell`](../ichartdatacell) e la aggiunge alla raccolta. |
+| [Add](../../aspose.slides.charts/chartcategorycollection/add#add_1)(object) | Crea un nuovo [`ChartCategory`](../chartcategory) dal valore e lo aggiunge alla raccolta. |
+| [Clear](../../aspose.slides.charts/chartcategorycollection/clear)() | Rimuove tutti gli elementi dalla raccolta. |
+| [CopyTo](../../aspose.slides.charts/chartcategorycollection/copyto)(Array, int) | Copia tutti gli elementi della raccolta nell'array specificato. |
+| [GetEnumerator](../../aspose.slides.charts/chartcategorycollection/getenumerator)() | Restituisce un enumeratore che itera attraverso la raccolta. |
+| [IndexOf](../../aspose.slides.charts/chartcategorycollection/indexof)(IChartCategory) | Cerca il [`ChartCategory`](../chartcategory) specificato e restituisce l'indice a base zero della prima occorrenza nell'intera Raccolta. |
 | [Remove](../../aspose.slides.charts/chartcategorycollection/remove)(IChartCategory) | Rimuove il valore specificato. |
 | [RemoveAt](../../aspose.slides.charts/chartcategorycollection/removeat)(int) | Rimuove l'elemento all'indice indicato. |
 

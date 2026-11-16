@@ -1,14 +1,14 @@
 ---
 title: IGlitterTransition
-second_title: Aspose.Sildes .NET API Referansı
-description: Parıltılı slayt geçiş efekti.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Parıltı slayt geçiş efekti.
 type: docs
-weight: 10100
+weight: 10120
 url: /tr/aspose.slides.slideshow/iglittertransition/
 ---
 ## IGlitterTransition arayüzü
 
-Parıltılı slayt geçiş efekti.
+Parıltı slayt geçiş efekti.
 
 ```csharp
 public interface IGlitterTransition : ITransitionValueBase
@@ -18,11 +18,11 @@ public interface IGlitterTransition : ITransitionValueBase
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/iglittertransition/asitransitionvaluebase) { get; } | Temel ITransitionValueBase arayüzünü almayı sağlar. Yalnızca okuma [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/iglittertransition/direction) { get; set; } | Geçiş yönü. Okuma/yazma [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
-| [Pattern](../../aspose.slides.slideshow/iglittertransition/pattern) { get; set; } | Geçiş sırasında kullanılan görsellerin şeklini belirler. Okuma/yazma [`TransitionPattern`](../transitionpattern). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/iglittertransition/asitransitionvaluebase) { get; } | Temel ITransitionValueBase arayüzünü almayı sağlar. Salt okunur [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/iglittertransition/direction) { get; set; } | Geçiş yönü. Okunur/yazılır [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
+| [Pattern](../../aspose.slides.slideshow/iglittertransition/pattern) { get; set; } | Geçiş sırasında kullanılan görsellerin şeklini belirtir. Okunur/yazılır [`TransitionPattern`](../transitionpattern). |
 
-### İlgili
+### Ayrıca Bakınız
 
 * arayüz [ITransitionValueBase](../itransitionvaluebase)
 * ad alanı [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

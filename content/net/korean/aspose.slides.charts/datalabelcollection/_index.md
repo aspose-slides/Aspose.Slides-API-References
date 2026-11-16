@@ -3,7 +3,7 @@ title: DataLabelCollection
 second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 시리즈 레이블을 나타냅니다.
 type: docs
-weight: 1560
+weight: 1570
 url: /ko/aspose.slides.charts/datalabelcollection/
 ---
 ## DataLabelCollection 클래스
@@ -16,26 +16,27 @@ public class DataLabelCollection : DomObject<ChartSeries>, IDataLabelCollection
 
 ## 속성
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
-| [Chart](../../aspose.slides.charts/datalabelcollection/chart) { get; } | 상위 차트를 반환합니다. 읽기 전용 [`IChart`](../ichart). |
-| [Count](../../aspose.slides.charts/datalabelcollection/count) { get; } | 컬렉션에 있는 모든 데이터 레이블 수를 가져옵니다. 읽기 전용 Int32. |
-| [CountOfVisibleDataLabels](../../aspose.slides.charts/datalabelcollection/countofvisibledatalabels) { get; } | 컬렉션에 있는 표시되는 데이터 레이블 수를 가져옵니다. 읽기 전용 Int32. |
-| [DefaultDataLabelFormat](../../aspose.slides.charts/datalabelcollection/defaultdatalabelformat) { get; } | 기본 데이터 레이블 서식을 가져옵니다. 읽기 전용 [`IDataLabelFormat`](../idatalabelformat). |
-| [IsVisible](../../aspose.slides.charts/datalabelcollection/isvisible) { get; } | False는 기본적으로 데이터 레이블이 표시되지 않음을 의미합니다(따라서 DefaultDataLabelFormat 속성의 모든 Show* 플래그(ShowValue 등)가 false입니다). 읽기 전용 Boolean. |
-| [Item](../../aspose.slides.charts/datalabelcollection/item) { get; } | 지정된 인덱스를 가진 데이터 포인트의 데이터 레이블을 가져옵니다. |
-| [LeaderLinesFormat](../../aspose.slides.charts/datalabelcollection/leaderlinesformat) { get; } | 데이터 레이블 리더 라인 서식을 나타냅니다. 읽기 전용 [`IChartLinesFormat`](../ichartlinesformat). |
-| [ParentSeries](../../aspose.slides.charts/datalabelcollection/parentseries) { get; } | 상위 시리즈를 가져옵니다. 읽기 전용 [`IChartSeries`](../ichartseries). |
+| [Chart](../../aspose.slides.charts/datalabelcollection/chart) { get; } | 부모 차트를 반환합니다. 읽기 전용 [`IChart`](../ichart). |
+| [Count](../../aspose.slides.charts/datalabelcollection/count) { get; } | 컬렉션에 있는 모든 데이터 레이블의 수를 가져옵니다. 읽기 전용 Int32. |
+| [CountOfVisibleDataLabels](../../aspose.slides.charts/datalabelcollection/countofvisibledatalabels) { get; } | 컬렉션에 있는 표시 가능한 데이터 레이블의 수를 가져옵니다. 읽기 전용 Int32. |
+| [DefaultDataLabelFormat](../../aspose.slides.charts/datalabelcollection/defaultdatalabelformat) { get; } | 기본 데이터 레이블 형식을 가져옵니다. 읽기 전용 [`IDataLabelFormat`](../idatalabelformat). |
+| [DefaultLabelShapeType](../../aspose.slides.charts/datalabelcollection/defaultlabelshapetype) { get; set; } | 데이터 레이블에 대한 기본 모양 유형을 가져오거나 설정합니다. 모양이 정의되지 않은 경우 NotDefined를 반환합니다. |
+| [IsVisible](../../aspose.slides.charts/datalabelcollection/isvisible) { get; } | False는 데이터 레이블이 기본적으로 표시되지 않음을 의미합니다(따라서 DefaultDataLabelFormat 속성의 모든 Show*-플래그(ShowValue 등)가 false가 됩니다). 읽기 전용 Boolean. |
+| [Item](../../aspose.slides.charts/datalabelcollection/item) { get; } | 지정된 인덱스를 가진 데이터 포인트에 대한 데이터 레이블을 가져옵니다. |
+| [LeaderLinesFormat](../../aspose.slides.charts/datalabelcollection/leaderlinesformat) { get; } | 데이터 레이블 리더 라인 형식을 나타냅니다. 읽기 전용 [`IChartLinesFormat`](../ichartlinesformat). |
+| [ParentSeries](../../aspose.slides.charts/datalabelcollection/parentseries) { get; } | 부모 시리즈를 가져옵니다. 읽기 전용 [`IChartSeries`](../ichartseries). |
 
 ## 메서드
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
-| [GetEnumerator](../../aspose.slides.charts/datalabelcollection/getenumerator)() | 컬렉션을 순회하는 열거자를 반환합니다. |
-| [Hide](../../aspose.slides.charts/datalabelcollection/hide)() | DefaultDataLabelFormat 속성의 모든 Show* 플래그(ShowValue 등)를 false 상태로 설정하여 데이터 레이블을 기본적으로 숨깁니다. 이후 IsVisible는 false가 됩니다. |
+| [GetEnumerator](../../aspose.slides.charts/datalabelcollection/getenumerator)() | 컬렉션을 반복하는 열거자를 반환합니다. |
+| [Hide](../../aspose.slides.charts/datalabelcollection/hide)() | DefaultDataLabelFormat 속성의 모든 Show*-플래그(ShowValue 등)를 false 상태로 설정하여 데이터 레이블을 기본적으로 숨깁니다. 이 후 IsVisible는 false가 됩니다. |
 | [IndexOf](../../aspose.slides.charts/datalabelcollection/indexof)(IDataLabel) | 컬렉션에서 지정된 DataLabel의 인덱스를 반환합니다. |
 
-### 참조
+### 또한 보기
 
 * 클래스 [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * 클래스 [ChartSeries](../chartseries)

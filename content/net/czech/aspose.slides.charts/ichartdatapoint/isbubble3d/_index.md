@@ -1,14 +1,14 @@
 ---
 title: IsBubble3D
-second_title: Aspose.Sildes pro .NET API reference
-description: Určuje, že bubliny mají aplikovaný 3-D efekt. Čtení/Zápis Boolean.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Určuje, že bubliny mají aplikovaný 3-D efekt. Čtení/zápis Boolean.
 type: docs
-weight: 100
+weight: 140
 url: /cs/aspose.slides.charts/ichartdatapoint/isbubble3d/
 ---
 ## IChartDataPoint.IsBubble3D vlastnost
 
-Určuje, že bubliny mají na sobě aplikovaný 3-D efekt. Čtení/Zápis Boolean.
+Určuje, že bubliny mají aplikovaný 3-D efekt. Čtení/zápis Boolean.
 
 ```csharp
 public bool IsBubble3D { get; set; }

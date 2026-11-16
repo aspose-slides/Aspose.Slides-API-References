@@ -1,9 +1,9 @@
 ---
 title: IBackground
-second_title: Aspose.Sildes .NET के लिए API संदर्भ
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
 description: एक स्लाइड की पृष्ठभूमि का प्रतिनिधित्व करता है।
 type: docs
-weight: 5270
+weight: 5290
 url: /hi/aspose.slides/ibackground/
 ---
 ## IBackground इंटरफ़ेस
@@ -18,21 +18,21 @@ public interface IBackground : IFillParamSource, ISlideComponent
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/ibackground/asifillparamsource) { get; } | IFillParamSource इंटरफ़ेस को लौटाता है। केवल-पढ़ने योग्य [`IFillParamSource`](../ifillparamsource). |
-| [AsISlideComponent](../../aspose.slides/ibackground/asislidecomponent) { get; } | ISlideComponent इंटरफ़ेस को लौटाता है। केवल-पढ़ने योग्य [`ISlideComponent`](../islidecomponent). |
-| [EffectFormat](../../aspose.slides/ibackground/effectformat) { get; } | BackgroundType.OwnBackground फ़िल के लिए EffectFormat लौटाता है। केवल-पढ़ने योग्य [`IEffectFormat`](../ieffectformat). |
-| [FillFormat](../../aspose.slides/ibackground/fillformat) { get; } | BackgroundType.OwnBackground फ़िल के लिए FillFormat लौटाता है। केवल-पढ़ने योग्य [`IFillFormat`](../ifillformat). |
-| [StyleColor](../../aspose.slides/ibackground/stylecolor) { get; } | BackgroundType.Themed फ़िल के लिए ColorFormat लौटाता है। केवल-पढ़ने योग्य [`IColorFormat`](../icolorformat). |
-| [StyleIndex](../../aspose.slides/ibackground/styleindex) { get; set; } | BackgroundType.Themed फ़िल के लिए पृष्ठभूमि थीम संग्रह में सूचकांक लौटाता है। 0 का अर्थ कोई फ़िल नहीं। 1..999 - सूचकांक। पढ़ने/लिखने UInt16. |
-| [Type](../../aspose.slides/ibackground/type) { get; set; } | पृष्ठभूमि फ़िल का प्रकार लौटाता है। पढ़ने/लिखने [`BackgroundType`](../backgroundtype). |
+| [AsIFillParamSource](../../aspose.slides/ibackground/asifillparamsource) { get; } | वापस देता है IFillParamSource इंटरफ़ेस। केवल-पठन [`IFillParamSource`](../ifillparamsource)। |
+| [AsISlideComponent](../../aspose.slides/ibackground/asislidecomponent) { get; } | वापस देता है ISlideComponent इंटरफ़ेस। केवल-पठन [`ISlideComponent`](../islidecomponent)। |
+| [EffectFormat](../../aspose.slides/ibackground/effectformat) { get; } | वापस देता है BackgroundType.OwnBackground फ़िल के लिए EffectFormat। केवल-पठन [`IEffectFormat`](../ieffectformat)। |
+| [FillFormat](../../aspose.slides/ibackground/fillformat) { get; } | वापस देता है BackgroundType.OwnBackground फ़िल के लिए FillFormat। केवल-पठन [`IFillFormat`](../ifillformat)। |
+| [StyleColor](../../aspose.slides/ibackground/stylecolor) { get; } | वापस देता है BackgroundType.Themed फ़िल के लिए ColorFormat। केवल-पठन [`IColorFormat`](../icolorformat)। |
+| [StyleIndex](../../aspose.slides/ibackground/styleindex) { get; set; } | बैकग्राउंड थीम संग्रह में BackgroundType.Themed फ़िल का इंडेक्स वापस देता है। 0 का अर्थ कोई फ़िल नहीं। 1..999 - इंडेक्स। पढ़ें/लिखें UInt16। |
+| [Type](../../aspose.slides/ibackground/type) { get; set; } | बैकग्राउंड फ़िल का प्रकार वापस देता है। पढ़ें/लिखें [`BackgroundType`](../backgroundtype)। |
 
 ## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [GetEffective](../../aspose.slides/ibackground/geteffective)() | विरासत लागू होते हुए प्रभावी पृष्ठभूमि डेटा प्राप्त करता है। |
+| [GetEffective](../../aspose.slides/ibackground/geteffective)() | प्रभावी बैकग्राउंड डेटा प्राप्त करता है जिसमें विरासत लागू हुई है। |
 
-### और देखें
+### संबंधित देखें
 
 * इंटरफ़ेस [IFillParamSource](../ifillparamsource)
 * इंटरफ़ेस [ISlideComponent](../islidecomponent)

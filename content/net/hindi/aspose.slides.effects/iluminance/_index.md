@@ -1,9 +1,9 @@
 ---
 title: ILuminance
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: एक Luminance प्रभाव को दर्शाता है। Brightness रैखिक रूप से सभी रंगों को सफ़ेद या काली के करीब ले जाता है। Contrast सभी रंगों को या तो अधिक करीब या अधिक दूर स्केल करता है।
+second_title: Aspose.Sildes .NET के लिये API संदर्भ
+description: एक Luminance प्रभाव का प्रतिनिधित्व करता है। Brightness रैखिक रूप से सभी रंगों को सफेद या काले के करीब ले जाता है। Contrast सभी रंगों को या तो करीब या दूर होने के लिये स्केल करता है।
 type: docs
-weight: 3440
+weight: 3460
 url: /hi/aspose.slides.effects/iluminance/
 ---
 ## ILuminance इंटरफ़ेस
@@ -19,10 +19,10 @@ public interface ILuminance : IAccessiblePVIObject<ILuminanceEffectiveData>,
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/iluminance/asiaccessiblepviobject) { get; } | बेस IAccessiblePVIObject इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)। |
-| [AsIImageTransformOperation](../../aspose.slides.effects/iluminance/asiimagetransformoperation) { get; } | बेस IImageTransformOperation इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IImageTransformOperation`](../iimagetransformoperation)। |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/iluminance/asiaccessiblepviobject) { get; } | बेस IAccessiblePVIObject इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/iluminance/asiimagetransformoperation) { get; } | बेस IImageTransformOperation इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IImageTransformOperation`](../iimagetransformoperation). |
 
-### देखें
+### संबंधित देखें
 
 * इंटरफ़ेस [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * इंटरफ़ेस [ILuminanceEffectiveData](../iluminanceeffectivedata)

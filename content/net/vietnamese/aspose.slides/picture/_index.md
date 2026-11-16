@@ -1,12 +1,12 @@
 ---
 title: Picture
-second_title: Tham chiếu API Aspose.Sildes cho .NET
+second_title: Aspose.Sildes cho .NET Tham chiếu API
 description: Biểu diễn một hình ảnh trong bài thuyết trình.
 type: docs
-weight: 9380
+weight: 9400
 url: /vi/aspose.slides/picture/
 ---
-## Picture lớp
+## Lớp Picture
 
 Biểu diễn một hình ảnh trong bài thuyết trình.
 
@@ -19,11 +19,11 @@ public sealed class Picture : ISlidesPicture
 | Tên | Mô tả |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/picture/asipresentationcomponent) { get; } | Cho phép lấy giao diện IPresentationComponent cơ bản. Chỉ đọc [`IPresentationComponent`](../ipresentationcomponent). |
-| [Image](../../aspose.slides/picture/image) { get; set; } | Trả về hoặc đặt ảnh nhúng. Đọc/ghi [`IPPImage`](../ippimage). |
-| [ImageTransform](../../aspose.slides/picture/imagetransform) { get; } | Trả về bộ sưu tập các hiệu ứng biến đổi ảnh. Chỉ đọc [`IImageTransformOperationCollection`](../../aspose.slides.effects/iimagetransformoperationcollection). |
-| [LinkPathLong](../../aspose.slides/picture/linkpathlong) { get; set; } | Trả về hoặc đặt URL của ảnh liên kết. Đọc/ghi String. |
+| [Image](../../aspose.slides/picture/image) { get; set; } | Trả về hoặc đặt hình ảnh nhúng. Đọc/ghi [`IPPImage`](../ippimage). |
+| [ImageTransform](../../aspose.slides/picture/imagetransform) { get; } | Trả về bộ sưu tập các hiệu ứng chuyển đổi ảnh. Chỉ đọc [`IImageTransformOperationCollection`](../../aspose.slides.effects/iimagetransformoperationcollection). |
+| [LinkPathLong](../../aspose.slides/picture/linkpathlong) { get; set; } | Trả về hoặc đặt URL của ảnh được liên kết. Đọc/ghi String. |
 | [Presentation](../../aspose.slides/picture/presentation) { get; } | Trả về bài thuyết trình. Chỉ đọc [`IPresentation`](../ipresentation). |
-| [Slide](../../aspose.slides/picture/slide) { get; } | Trả về slide cha của hình ảnh. Chỉ đọc [`IBaseSlide`](../ibaseslide). |
+| [Slide](../../aspose.slides/picture/slide) { get; } | Trả về slide cha của một hình ảnh. Chỉ đọc [`IBaseSlide`](../ibaseslide). |
 
 ## Phương thức
 

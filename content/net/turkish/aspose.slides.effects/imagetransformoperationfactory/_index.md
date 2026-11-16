@@ -1,14 +1,14 @@
 ---
 title: ImageTransformOperationFactory
 second_title: Aspose.Sildes için .NET API Referansı
-description: Görüntü dönüştürme işlemleri oluşturmayı sağlar
+description: Görüntü dönüşüm işlemleri oluşturmayı sağlar
 type: docs
-weight: 3590
+weight: 3610
 url: /tr/aspose.slides.effects/imagetransformoperationfactory/
 ---
 ## ImageTransformOperationFactory sınıfı
 
-Görüntü dönüştürme işlemleri oluşturmayı sağlar
+Görüntü dönüşüm işlemleri oluşturmayı sağlar
 
 ```csharp
 public class ImageTransformOperationFactory : IImageTransformOperationFactory
@@ -16,31 +16,31 @@ public class ImageTransformOperationFactory : IImageTransformOperationFactory
 
 ## Yapıcılar
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
 | [ImageTransformOperationFactory](imagetransformoperationfactory)() | Varsayılan yapıcı. |
 
 ## Yöntemler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
-| [CreateAlphaBiLevel](../../aspose.slides.effects/imagetransformoperationfactory/createalphabilevel)(float) | Alpha BiLevel etkisini oluşturur. |
-| [CreateAlphaFloor](../../aspose.slides.effects/imagetransformoperationfactory/createalphafloor)() | Alpha floor etkisini oluşturur. |
-| [CreateAlphaInverse](../../aspose.slides.effects/imagetransformoperationfactory/createalphainverse)() | Alpha inverse etkisini oluşturur. |
-| [CreateAlphaModulate](../../aspose.slides.effects/imagetransformoperationfactory/createalphamodulate)() | Alpha modulate etkisini oluşturur. |
-| [CreateAlphaModulateFixed](../../aspose.slides.effects/imagetransformoperationfactory/createalphamodulatefixed)(float) | Alpha modulate fixed etkisini oluşturur. |
-| [CreateAlphaReplace](../../aspose.slides.effects/imagetransformoperationfactory/createalphareplace)(float) | Alpha replace etkisini oluşturur. |
-| [CreateAlphCeiling](../../aspose.slides.effects/imagetransformoperationfactory/createalphceiling)() | Alpha Ceiling etkisini oluşturur. |
-| [CreateBiLevel](../../aspose.slides.effects/imagetransformoperationfactory/createbilevel)(float) | BiLevel etkisini oluşturur. |
-| [CreateBlur](../../aspose.slides.effects/imagetransformoperationfactory/createblur)(double, bool) | Blur etkisini oluşturur. |
-| [CreateColorChange](../../aspose.slides.effects/imagetransformoperationfactory/createcolorchange)() | Color change etkisini oluşturur. |
-| [CreateColorReplace](../../aspose.slides.effects/imagetransformoperationfactory/createcolorreplace)() | Color replace etkisini oluşturur. |
-| [CreateDuotone](../../aspose.slides.effects/imagetransformoperationfactory/createduotone)() | Duotone etkisini oluşturur. |
-| [CreateFillOverlay](../../aspose.slides.effects/imagetransformoperationfactory/createfilloverlay)() | Fill overlay etkisini oluşturur. |
-| [CreateGrayScale](../../aspose.slides.effects/imagetransformoperationfactory/creategrayscale)() | Gray scale etkisini oluşturur. |
-| [CreateHSL](../../aspose.slides.effects/imagetransformoperationfactory/createhsl)(float, float, float) | Hue Saturation Luminance etkisini oluşturur. |
-| [CreateLuminance](../../aspose.slides.effects/imagetransformoperationfactory/createluminance)(float, float) | Luminance etkisini oluşturur. |
-| [CreateTint](../../aspose.slides.effects/imagetransformoperationfactory/createtint)(float, float) | Tint etkisini oluşturur. |
+| [CreateAlphaBiLevel](../../aspose.slides.effects/imagetransformoperationfactory/createalphabilevel)(float) | Alpha BiLevel etkisi oluşturur. |
+| [CreateAlphaFloor](../../aspose.slides.effects/imagetransformoperationfactory/createalphafloor)() | Alpha floor etkisi oluşturur. |
+| [CreateAlphaInverse](../../aspose.slides.effects/imagetransformoperationfactory/createalphainverse)() | Alpha inverse etkisi oluşturur. |
+| [CreateAlphaModulate](../../aspose.slides.effects/imagetransformoperationfactory/createalphamodulate)() | Alpha modulate etkisi oluşturur. |
+| [CreateAlphaModulateFixed](../../aspose.slides.effects/imagetransformoperationfactory/createalphamodulatefixed)(float) | Alpha modulate sabit etkisi oluşturur. |
+| [CreateAlphaReplace](../../aspose.slides.effects/imagetransformoperationfactory/createalphareplace)(float) | Alpha replace etkisi oluşturur. |
+| [CreateAlphCeiling](../../aspose.slides.effects/imagetransformoperationfactory/createalphceiling)() | Alpha Ceiling etkisi oluşturur. |
+| [CreateBiLevel](../../aspose.slides.effects/imagetransformoperationfactory/createbilevel)(float) | BiLevel etkisi oluşturur. |
+| [CreateBlur](../../aspose.slides.effects/imagetransformoperationfactory/createblur)(double, bool) | Blur etkisi oluşturur. |
+| [CreateColorChange](../../aspose.slides.effects/imagetransformoperationfactory/createcolorchange)() | Color change etkisi oluşturur. |
+| [CreateColorReplace](../../aspose.slides.effects/imagetransformoperationfactory/createcolorreplace)() | Color replace etkisi oluşturur. |
+| [CreateDuotone](../../aspose.slides.effects/imagetransformoperationfactory/createduotone)() | Duotone etkisi oluşturur. |
+| [CreateFillOverlay](../../aspose.slides.effects/imagetransformoperationfactory/createfilloverlay)() | Fill overlay etkisi oluşturur. |
+| [CreateGrayScale](../../aspose.slides.effects/imagetransformoperationfactory/creategrayscale)() | Gray scale etkisi oluşturur. |
+| [CreateHSL](../../aspose.slides.effects/imagetransformoperationfactory/createhsl)(float, float, float) | Hue Saturation Luminance etkisi oluşturur. |
+| [CreateLuminance](../../aspose.slides.effects/imagetransformoperationfactory/createluminance)(float, float) | Luminance etkisi oluşturur. |
+| [CreateTint](../../aspose.slides.effects/imagetransformoperationfactory/createtint)(float, float) | Tint etkisi oluşturur. |
 
 ### Açıklamalar
 

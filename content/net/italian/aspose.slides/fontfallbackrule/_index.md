@@ -1,14 +1,14 @@
 ---
 title: FontFallBackRule
 second_title: Aspose.Sildes per .NET Riferimento API
-description: Rappresenta la regola di fallback dei caratteri
+description: Rappresenta la regola di fallback dei font
 type: docs
-weight: 4840
+weight: 4860
 url: /it/aspose.slides/fontfallbackrule/
 ---
 ## FontFallBackRule classe
 
-Rappresenta la regola di fallback dei caratteri
+Rappresenta la regola di fallback dei font
 
 ```csharp
 public class FontFallBackRule : IFontFallBackRule
@@ -25,8 +25,8 @@ public class FontFallBackRule : IFontFallBackRule
 
 | Nome | Descrizione |
 | --- | --- |
-| [Count](../../aspose.slides/fontfallbackrule/count) { get; } | Ottiene il numero di caratteri effettivamente definiti per l'intervallo. Solo lettura Int32. |
-| [Item](../../aspose.slides/fontfallbackrule/item) { get; } | Ottiene il nome del carattere all'indice specificato. Solo lettura [`IFontFallBackRule`](../ifontfallbackrule). |
+| [Count](../../aspose.slides/fontfallbackrule/count) { get; } | Ottiene il numero di font effettivamente definiti per l'intervallo. Sola lettura Int32. |
+| [Item](../../aspose.slides/fontfallbackrule/item) { get; } | Ottiene il nome del font all'indice specificato. Sola lettura [`IFontFallBackRule`](../ifontfallbackrule). |
 | [RangeEndIndex](../../aspose.slides/fontfallbackrule/rangeendindex) { get; set; } | Ottiene l'ultimo indice dell'intervallo unicode continuo. |
 | [RangeStartIndex](../../aspose.slides/fontfallbackrule/rangestartindex) { get; set; } | Ottiene il primo indice dell'intervallo unicode continuo. |
 
@@ -34,14 +34,14 @@ public class FontFallBackRule : IFontFallBackRule
 
 | Nome | Descrizione |
 | --- | --- |
-| [AddFallBackFonts](../../aspose.slides/fontfallbackrule/addfallbackfonts#addfallbackfonts)(string) | Aggiunge uno o più nuovi caratteri all'elenco dei caratteri FallBack. |
-| [AddFallBackFonts](../../aspose.slides/fontfallbackrule/addfallbackfonts#addfallbackfonts_1)(string[]) | Aggiunge nuovi caratteri all'elenco dei caratteri FallBack. |
-| [Clear](../../aspose.slides/fontfallbackrule/clear)() | Rimuove tutti i caratteri dall'elenco. |
-| [IndexOf](../../aspose.slides/fontfallbackrule/indexof)(string) | Restituisce un indice della regola specificata nella raccolta. |
-| [Remove](../../aspose.slides/fontfallbackrule/remove)(string) | Rimuove la prima occorrenza di un carattere FallBack specifico dall'elenco. |
-| [RemoveAt](../../aspose.slides/fontfallbackrule/removeat)(int) | Rimuove il carattere FallBack all'indice specificato dell'elenco. |
-| [ToArray](../../aspose.slides/fontfallbackrule/toarray#toarray)() | Crea e restituisce un array con tutti i caratteri FallBack per questa regola. |
-| [ToArray](../../aspose.slides/fontfallbackrule/toarray#toarray_1)(int, int) | Crea e restituisce un array con tutti i caratteri FallBack dell'intervallo specificato nell'elenco. |
+| [AddFallBackFonts](../../aspose.slides/fontfallbackrule/addfallbackfonts#addfallbackfonts)(string) | Aggiunge un nuovo font alla lista di font FallBack. |
+| [AddFallBackFonts](../../aspose.slides/fontfallbackrule/addfallbackfonts#addfallbackfonts_1)(string[]) | Aggiunge nuovi font alla lista di font FallBack. |
+| [Clear](../../aspose.slides/fontfallbackrule/clear)() | Rimuove tutti i font dalla lista. |
+| [IndexOf](../../aspose.slides/fontfallbackrule/indexof)(string) | Restituisce un indice della regola specificata nella collezione. |
+| [Remove](../../aspose.slides/fontfallbackrule/remove)(string) | Rimuove la prima occorrenza di un font FallBack specifico dalla lista. |
+| [RemoveAt](../../aspose.slides/fontfallbackrule/removeat)(int) | Rimuove il font FallBack all'indice specificato nella lista. |
+| [ToArray](../../aspose.slides/fontfallbackrule/toarray#toarray)() | Crea e restituisce un array con tutti i font FallBack per questa regola. |
+| [ToArray](../../aspose.slides/fontfallbackrule/toarray#toarray_1)(int, int) | Crea e restituisce un array con tutti i font FallBack dall'intervallo specificato nella lista. |
 
 ### Vedi anche
 

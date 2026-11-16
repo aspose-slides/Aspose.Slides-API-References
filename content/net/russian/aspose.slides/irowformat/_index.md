@@ -1,9 +1,9 @@
 ---
 title: IRowFormat
-second_title: Справочник API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET, справочник API
 description: Представляет формат строки таблицы.
 type: docs
-weight: 6870
+weight: 6890
 url: /ru/aspose.slides/irowformat/
 ---
 ## IRowFormat интерфейс

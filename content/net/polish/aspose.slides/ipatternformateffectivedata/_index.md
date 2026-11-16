@@ -1,14 +1,14 @@
 ---
 title: IPatternFormatEffectiveData
-second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Niezmienny obiekt, który zawiera efektywne właściwości wypełniania wzorem.
+second_title: Aspose.Sildes dla .NET - dokumentacja API
+description: Niezmienny obiekt zawierający efektywne właściwości wypełniania wzorcem.
 type: docs
-weight: 6630
+weight: 6650
 url: /pl/aspose.slides/ipatternformateffectivedata/
 ---
 ## IPatternFormatEffectiveData interfejs
 
-Niezmienny obiekt, który zawiera efektywne właściwości wypełniania wzorem.
+Niezmienny obiekt zawierający efektywne właściwości wypełniania wzorcem.
 
 ```csharp
 public interface IPatternFormatEffectiveData
@@ -16,7 +16,7 @@ public interface IPatternFormatEffectiveData
 
 ## Właściwości
 
-| Name | Description |
+| Nazwa | Opis |
 | --- | --- |
 | [BackColor](../../aspose.slides/ipatternformateffectivedata/backcolor) { get; } | Zwraca kolor tła wzoru. Tylko do odczytu Color. |
 | [ForeColor](../../aspose.slides/ipatternformateffectivedata/forecolor) { get; } | Zwraca kolor pierwszego planu wzoru. Tylko do odczytu Color. |
@@ -24,7 +24,7 @@ public interface IPatternFormatEffectiveData
 
 ## Metody
 
-| Name | Description |
+| Nazwa | Opis |
 | --- | --- |
 | [GetTileIImage](../../aspose.slides/ipatternformateffectivedata/gettileiimage)(Color, Color) | Tworzy obraz kafelka dla wypełnienia wzorem z określonymi kolorami. |
 
@@ -32,7 +32,7 @@ public interface IPatternFormatEffectiveData
 
 Ten interfejs jest używany jako część [`IFillFormatEffectiveData`](../ifillformateffectivedata) i [`ILineFillFormatEffectiveData`](../ilinefillformateffectivedata).
 
-### Zobacz też
+### Zobacz także
 
 * przestrzeń nazw [Aspose.Slides](../../aspose.slides)
 * zestaw [Aspose.Slides](../../)

@@ -3,10 +3,10 @@ title: DisplayBlanksAsType
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Determina cómo se mostrarán los datos faltantes.
 type: docs
-weight: 1610
+weight: 1620
 url: /es/aspose.slides.charts/displayblanksastype/
 ---
-## enumeración DisplayBlanksAsType
+## DisplayBlanksAsType enumeración
 
 Determina cómo se mostrarán los datos faltantes.
 
@@ -14,12 +14,12 @@ Determina cómo se mostrarán los datos faltantes.
 public enum DisplayBlanksAsType
 ```
 
-### Valores
+### Values
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| Gap | `0` | Especifica que los valores en blanco se dejarán como una brecha. |
-| Span | `1` | Especifica que los valores en blanco se rellenarán con una línea. |
+| Gap | `0` | Especifica que los valores en blanco deben dejarse como un espacio. |
+| Span | `1` | Especifica que los valores en blanco se extenderán con una línea. |
 | Zero | `2` | Especifica que los valores en blanco se tratarán como cero. |
 
 ### Ver también

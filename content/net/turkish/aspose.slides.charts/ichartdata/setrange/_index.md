@@ -1,31 +1,31 @@
 ---
 title: SetRange
-second_title: Aspose.Sildes .NET API Referansı
-description: Grafik veri aralığını ayarlayın. Seriler ve kategoriler yeni veri aralığına göre güncellenecek. Veri aralığındaki seri sayısı grafik verisindeki seri sayısından büyükse, mevcut koleksiyondaki son serinin aynı türünde ek seriler koleksiyonun sonuna eklenecektir.
+second_title: Aspose.Slides için .NET API Referansı
+description: Grafik veri aralığını ayarlayın. Seriler ve kategoriler yeni veri aralığına göre güncellenecek. Eğer veri aralığındaki seri sayısı grafik verisindeki seri sayısından daha fazla ise, mevcut koleksiyondaki son seriye aynı türe sahip ek seriler koleksiyonun sonuna eklenecek.
 type: docs
-weight: 130
+weight: 140
 url: /tr/aspose.slides.charts/ichartdata/setrange/
 ---
-## IChartData.SetRange method
+## IChartData.SetRange yöntemi
 
-Grafik veri aralığını ayarlayın. Seriler ve kategoriler yeni veri aralığına göre güncellenecek. Veri aralığındaki seri sayısı, grafik verisindeki seri sayısından büyükse, mevcut koleksiyondaki son serinin aynı türünde ek seriler koleksiyonun sonuna eklenecektir.
+Grafik veri aralığını ayarlayın. Seriler ve kategoriler yeni veri aralığına göre güncellenecek. Eğer veri aralığındaki seri sayısı grafik verisindeki seri sayısından daha fazla ise, mevcut koleksiyondaki son seriye aynı türe sahip ek seriler koleksiyonun sonuna eklenecek.
 
 ```csharp
 public void SetRange(string formula)
 ```
 
-| Parameter | Type | Description |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | formula | String | Hücrelerin veri aralığı formülü. Örneğin: "Sheet1!$A$1:$C$4" , "SomeSheetName!A1:B100", "Sheet1!$A$1:$B$5;Sheet1!$D$1:$D$5". |
 
-### Exceptions
+### İstisnalar
 
-| istisna | şart |
+| İstisna | Koşul |
 | --- | --- |
-| ArgumentNullException | formula null'dır. |
-| ArgumentException | formula hatalı biçime sahiptir. |
+| ArgumentNullException | formül null. |
+| ArgumentException | formül hatalı biçimde. |
 
-### Ayrıca Bakınız
+### Bakınız
 
 * arayüz [IChartData](../../ichartdata)
 * ad alanı [Aspose.Slides.Charts](../../ichartdata)

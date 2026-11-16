@@ -1,14 +1,14 @@
 ---
 title: IColumnFormat
-second_title: Aspose.Sildes の .NET 用 API リファレンス
-description: テーブル列の書式を表します。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: テーブル列のフォーマットを表します。
 type: docs
-weight: 5540
+weight: 5560
 url: /ja/aspose.slides/icolumnformat/
 ---
 ## IColumnFormat インターフェイス
 
-テーブル列の書式を表します。
+テーブル列のフォーマットを表します。
 
 ```csharp
 public interface IColumnFormat
@@ -18,7 +18,7 @@ public interface IColumnFormat
 
 | 名前 | 説明 |
 | --- | --- |
-| [GetEffective](../../aspose.slides/icolumnformat/geteffective)() | 継承とテーブルスタイルが適用された、有効なテーブル列の書式設定プロパティを取得します。 |
+| [GetEffective](../../aspose.slides/icolumnformat/geteffective)() | 継承とテーブル スタイルが適用された有効なテーブル列のフォーマッティング プロパティを取得します。 |
 
 ### 参照
 

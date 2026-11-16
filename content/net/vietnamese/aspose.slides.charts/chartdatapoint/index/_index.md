@@ -3,7 +3,7 @@ title: Index
 second_title: Tham chiếu API Aspose.Sildes cho .NET
 description: 
 type: docs
-weight: 110
+weight: 150
 url: /vi/aspose.slides.charts/chartdatapoint/index/
 ---
 ## ChartDataPoint.Index thuộc tính

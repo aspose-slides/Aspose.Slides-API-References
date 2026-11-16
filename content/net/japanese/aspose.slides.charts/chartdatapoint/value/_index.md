@@ -3,12 +3,12 @@ title: Value
 second_title: Aspose.Sildes for .NET API リファレンス
 description: Value. 読み取り専用 IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
-weight: 190
+weight: 230
 url: /ja/aspose.slides.charts/chartdatapoint/value/
 ---
 ## ChartDataPoint.Value プロパティ
 
-Value. 読み取り専用 [`IDoubleChartValue`](../../idoublechartvalue).
+値。 読み取り専用 [`IDoubleChartValue`](../../idoublechartvalue)。
 
 ```csharp
 public IDoubleChartValue Value { get; }

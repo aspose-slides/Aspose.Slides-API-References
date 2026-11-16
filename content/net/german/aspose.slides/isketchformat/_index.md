@@ -1,14 +1,14 @@
 ---
 title: ISketchFormat
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt Eigenschaften für das Linien-Skizzenformat dar.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Stellt Eigenschaften für das Linien-Skizzformat bereit.
 type: docs
-weight: 7020
+weight: 7040
 url: /de/aspose.slides/isketchformat/
 ---
 ## ISketchFormat Schnittstelle
 
-Stellt Eigenschaften für das Linien-Skizzenformat dar.
+Stellt Eigenschaften für das Linien-Skizzenformat bereit.
 
 ```csharp
 public interface ISketchFormat
@@ -18,7 +18,7 @@ public interface ISketchFormat
 
 | Name | Beschreibung |
 | --- | --- |
-| [SketchType](../../aspose.slides/isketchformat/sketchtype) { get; set; } | Gibt den Sketch-Typ zurück oder legt ihn fest. Lesen/Schreiben [`LineSketchType`](../linesketchtype). |
+| [SketchType](../../aspose.slides/isketchformat/sketchtype) { get; set; } | Gibt den Skizzentyp zurück oder legt ihn fest. Lesen/Schreiben [`LineSketchType`](../linesketchtype). |
 
 ### Siehe auch
 

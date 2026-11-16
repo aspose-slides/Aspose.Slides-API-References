@@ -3,7 +3,7 @@ title: ExcelDataCell
 second_title: Aspose.Sildes .NET API 参考
 description: 表示 Excel 工作簿中的单个单元格。
 type: docs
-weight: 3680
+weight: 3700
 url: /zh/aspose.slides.excel/exceldatacell/
 ---
 ## ExcelDataCell 类
@@ -21,9 +21,9 @@ public class ExcelDataCell : IExcelDataCell
 | [Column](../../aspose.slides.excel/exceldatacell/column) { get; } | 获取单元格所在工作表中列的零基索引。只读 Int32。 |
 | [Name](../../aspose.slides.excel/exceldatacell/name) { get; } | 获取图表数据单元格的名称。 |
 | [Row](../../aspose.slides.excel/exceldatacell/row) { get; } | 获取单元格所在工作表中行的零基索引。只读 Int32。 |
-| [Value](../../aspose.slides.excel/exceldatacell/value) { get; } | 获取 Excel 单元格中包含的值。 |
+| [Value](../../aspose.slides.excel/exceldatacell/value) { get; } | 获取 Excel 单元格中的值。 |
 
-### 另见
+### 另请参阅
 
 * 接口 [IExcelDataCell](../iexceldatacell)
 * 命名空间 [Aspose.Slides.Excel](../../aspose.slides.excel)

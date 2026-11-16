@@ -1,14 +1,14 @@
 ---
 title: ReplaceRegex
-second_title: Aspose.Sildes for .NET API リファレンス
-description: 正規表現のすべての一致を指定された文字列に置き換えます。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: 正規表現のすべての一致を指定した文字列に置き換えます。
 type: docs
-weight: 370
+weight: 380
 url: /ja/aspose.slides/presentation/replaceregex/
 ---
 ## Presentation.ReplaceRegex メソッド
 
-正規表現のすべての一致を指定された文字列に置き換えます。
+正規表現のすべての一致を指定した文字列に置き換えます。
 
 ```csharp
 public void ReplaceRegex(Regex regex, string newText, IFindResultCallback callback)
@@ -16,13 +16,13 @@ public void ReplaceRegex(Regex regex, string newText, IFindResultCallback callba
 
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| regex | Regex | 置換対象文字列を取得する正規表現 Regex。 |
-| newText | String | 置換対象文字列のすべての出現箇所を置き換える文字列。 |
+| regex | Regex | 置換対象の文字列を取得する正規表現 Regex。 |
+| newText | String | 置換される文字列のすべての出現箇所を置き換える文字列。 |
 | callback | IFindResultCallback | 検索結果を受け取るためのコールバックオブジェクト [`IFindResultCallback`](../../ifindresultcallback)。 |
 
 ### 例
 
-以下のコード例は、正規表現を使用してテキストを指定された文字列に置き換える方法を示しています。
+以下のコードサンプルは、正規表現を使用してテキストを指定した文字列に置き換える方法を示します。
 
 ```csharp
 [C#]
@@ -37,7 +37,7 @@ using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 
 ### 参照
 
-* インターフェース [IFindResultCallback](../../ifindresultcallback)
+* インターフェイス [IFindResultCallback](../../ifindresultcallback)
 * クラス [Presentation](../../presentation)
 * 名前空間 [Aspose.Slides](../../presentation)
 * アセンブリ [Aspose.Slides](../../../)

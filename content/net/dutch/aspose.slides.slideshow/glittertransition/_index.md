@@ -3,7 +3,7 @@ title: GlitterTransition
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Glitter diaovergangseffect.
 type: docs
-weight: 10050
+weight: 10070
 url: /nl/aspose.slides.slideshow/glittertransition/
 ---
 ## GlitterTransition klasse
@@ -18,15 +18,15 @@ public class GlitterTransition : TransitionValueBase, IGlitterTransition
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/glittertransition/direction) { get; set; } | Richting van de overgang. Lezen/schrijven [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
-| [Pattern](../../aspose.slides.slideshow/glittertransition/pattern) { get; set; } | Specificeert de vorm van de visuele elementen die tijdens de overgang worden gebruikt. Lezen/schrijven [`TransitionPattern`](../transitionpattern). |
+| [Direction](../../aspose.slides.slideshow/glittertransition/direction) { get; set; } | Richting van de overgang. Lezen/Schrijven [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
+| [Pattern](../../aspose.slides.slideshow/glittertransition/pattern) { get; set; } | Specificeert de vorm van de visuals die tijdens de overgang worden gebruikt. Lezen/Schrijven [`TransitionPattern`](../transitionpattern). |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Bepaalt of de twee TransitionValueBase-instanties gelijk zijn. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Dient als een hash-functie voor een bepaald type, geschikt voor gebruik in hash-algoritmen en datastructuren zoals een hashtabel. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Dient als een hash-functie voor een bepaald type, geschikt voor gebruik in hash-algoritmen en datastructuren zoals een hash-tabel. |
 
 ### Zie ook
 

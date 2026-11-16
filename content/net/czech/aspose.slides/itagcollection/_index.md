@@ -1,14 +1,14 @@
 ---
 title: ITagCollection
 second_title: Aspose.Sildes pro .NET API Reference
-description: Představuje kolekci značek, uživatelem definovaných dvojic řetězců
+description: Representuje kolekci značek definovaných uživatelem jako páry řetězců
 type: docs
-weight: 7260
+weight: 7280
 url: /cs/aspose.slides/itagcollection/
 ---
 ## ITagCollection rozhraní
 
-Představuje kolekci značek (uživatelem definované dvojice řetězců)
+Representuje kolekci značek (uživatelem definované páry řetězců)
 
 ```csharp
 public interface ITagCollection : IGenericCollection<KeyValuePair<string, string>>
@@ -30,9 +30,9 @@ public interface ITagCollection : IGenericCollection<KeyValuePair<string, string
 | [GetNameByIndex](../../aspose.slides/itagcollection/getnamebyindex)(int) | Vrací klíč značky na zadaném indexu. |
 | [GetNamesOfTags](../../aspose.slides/itagcollection/getnamesoftags)() | Vrací názvy značek. |
 | [GetValueByIndex](../../aspose.slides/itagcollection/getvaluebyindex)(int) | Vrací hodnotu značky na zadaném indexu. |
-| [IndexOfName](../../aspose.slides/itagcollection/indexofname)(string) | Vrací nulově-založený index zadaného klíče v kolekci. |
-| [Remove](../../aspose.slides/itagcollection/remove)(string) | Odstraní značku s určeným názvem z kolekce. |
-| [RemoveAt](../../aspose.slides/itagcollection/removeat)(int) | Odstraní značku na zadaném indexu. |
+| [IndexOfName](../../aspose.slides/itagcollection/indexofname)(string) | Vrací nulový index zadaného klíče v kolekci. |
+| [Remove](../../aspose.slides/itagcollection/remove)(string) | Odstraňuje značku se zadaným názvem z kolekce. |
+| [RemoveAt](../../aspose.slides/itagcollection/removeat)(int) | Odstraňuje značku na zadaném indexu. |
 
 ### Viz také
 

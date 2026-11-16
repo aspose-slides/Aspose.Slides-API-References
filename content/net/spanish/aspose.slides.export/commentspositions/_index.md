@@ -1,14 +1,14 @@
 ---
 title: CommentsPositions
-second_title: Aspose.Sildes para la referencia de API de .NET
-description: Representa la regla para renderizar comentarios en el documento exportado
+second_title: Referencia de API de Aspose.Sildes para .NET
+description: Representa la regla para renderizar los comentarios en el documento exportado
 type: docs
-weight: 3730
+weight: 3750
 url: /es/aspose.slides.export/commentspositions/
 ---
-## enumeración CommentsPositions
+## CommentsPositions enumeración
 
-Representa la regla para renderizar comentarios en el documento exportado
+Representa la regla para renderizar los comentarios en el documento exportado
 
 ```csharp
 public enum CommentsPositions

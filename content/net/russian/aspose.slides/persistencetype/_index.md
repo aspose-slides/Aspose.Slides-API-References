@@ -1,14 +1,14 @@
 ---
 title: PersistenceType
-second_title: Aspose.Sildes для .NET – справочник API
-description: Указывает метод, используемый для хранения свойств ActiveX control.
+second_title: Aspose.Sildes для .NET API Reference
+description: Указывает метод, используемый для хранения свойств ActiveX-контрола.
 type: docs
-weight: 9370
+weight: 9390
 url: /ru/aspose.slides/persistencetype/
 ---
 ## Перечисление PersistenceType
 
-Указывает метод, используемый для хранения свойств ActiveX control.
+Указывает метод, используемый для хранения свойств ActiveX-контрола.
 
 ```csharp
 public enum PersistenceType
@@ -18,11 +18,11 @@ public enum PersistenceType
 
 | Имя | Значение | Описание |
 | --- | --- | --- |
-| NotDefined | `-1` | Идентификатор persistance не указан. |
-| PersistPropertyBag | `0` | Указывает, что ActiveX control сохраняется с помощью persistence на основе property-bag. Persistence на основе property-bag сохраняет ActiveX control посредством коллекции пар имя-значение, которые определяют данные, сохраняемые ActiveX control. |
-| PersistStream | `1` | Указывает, что ActiveX control сохраняется с помощью persistence на основе потока, которая не поддерживает инициализацию ActiveX control в состояние по умолчанию. |
-| PersistStreamInit | `2` | Указывает, что ActiveX control сохраняется с помощью persistence на основе потока, которая поддерживает инициализацию ActiveX control в состояние по умолчанию. |
-| PersistStorage | `3` | Указывает, что ActiveX control сохраняется с помощью persistence на основе хранилища. |
+| NotDefined | `-1` | Идентификатор постоянства не указан. |
+| PersistPropertyBag | `0` | Указывает, что ActiveX control сохраняется с помощью персистентности на основе пакета свойств. Персистентность на основе пакета свойств сохраняет ActiveX control посредством коллекции пар имя-значение, которые определяют данные, сохраняемые ActiveX control. |
+| PersistStream | `1` | Указывает, что ActiveX control сохраняется с помощью персистентности на основе потоков, которая не поддерживает инициализацию ActiveX control в состояние по умолчанию. |
+| PersistStreamInit | `2` | Указывает, что ActiveX control сохраняется с помощью персистентности на основе потоков, которая поддерживает инициализацию ActiveX control в состояние по умолчанию. |
+| PersistStorage | `3` | Указывает, что ActiveX control сохраняется с помощью персистентности на основе хранилища. |
 
 ### См. также
 

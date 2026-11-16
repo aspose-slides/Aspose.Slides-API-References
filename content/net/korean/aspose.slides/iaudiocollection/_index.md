@@ -1,9 +1,9 @@
 ---
 title: IAudioCollection
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 내장된 오디오 파일 컬렉션을 나타냅니다.
+description: 임베드된 오디오 파일 컬렉션을 나타냅니다.
 type: docs
-weight: 5220
+weight: 5240
 url: /ko/aspose.slides/iaudiocollection/
 ---
 ## IAudioCollection 인터페이스
@@ -16,17 +16,17 @@ public interface IAudioCollection : IGenericCollection<IAudio>
 
 ## 속성
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
-| [Item](../../aspose.slides/iaudiocollection/item) { get; } | 지정된 인덱스에 있는 요소를 가져옵니다. 읽기 전용 [`IAudio`](../iaudio). |
+| [Item](../../aspose.slides/iaudiocollection/item) { get; } | 지정된 인덱스의 요소를 가져옵니다. 읽기 전용 [`IAudio`](../iaudio). |
 
 ## 메서드
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
-| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_1)(byte[]) | 바이트 배열에서 오디오를 생성하여 프레젠테이션에 추가합니다. |
+| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_1)(byte[]) | 바이트 배열에서 프레젠테이션에 오디오를 생성하고 추가합니다. |
 | [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio)(IAudio) | 다른 프레젠테이션에서 오디오 파일의 복사본을 추가합니다. |
-| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_3)(Stream, LoadingStreamBehavior) | 스트림에서 오디오를 생성하여 프레젠테이션에 추가합니다. |
+| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_3)(Stream, LoadingStreamBehavior) | 스트림에서 프레젠테이션에 오디오를 생성하고 추가합니다. |
 
 ### 참조
 

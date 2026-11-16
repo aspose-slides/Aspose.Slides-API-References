@@ -1,12 +1,12 @@
 ---
 title: DataSourceType
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Aspose.Sildes для .NET API Справка
 description: Типы источников данных.
 type: docs
-weight: 1580
+weight: 1590
 url: /ru/aspose.slides.charts/datasourcetype/
 ---
-## Перечисление DataSourceType
+## DataSourceType перечисление
 
 Типы источников данных.
 
@@ -18,9 +18,9 @@ public enum DataSourceType
 
 | Имя | Значение | Описание |
 | --- | --- | --- |
-| Worksheet | `0` | Использовать объекты CellXls для хранения XValue, YValue, Value или BubbleSize точки данных в рабочем листе. |
-| StringLiterals | `1` | Использовать быстро доступную строковую переменную для хранения XValue, YValue, Value или BubbleSize точки данных. Worksheet НЕ используется для хранения значений. |
-| DoubleLiterals | `2` | Использовать быстро доступную переменную типа double для хранения XValue, YValue, Value или BubbleSize точки данных. Worksheet НЕ используется для хранения значений. |
+| Worksheet | `0` | Использовать объекты CellXls для хранения XValue, YValue, Value или BubbleSize точки данных в листе. |
+| StringLiterals | `1` | Использовать быстро-доступную строковую переменную для хранения XValue, YValue, Value или BubbleSize точки данных. Worksheet НЕ используется для хранения значений. |
+| DoubleLiterals | `2` | Использовать быстро-доступную переменную типа double для хранения XValue, YValue, Value или BubbleSize точки данных. Worksheet НЕ используется для хранения значений. |
 
 ### См. также
 

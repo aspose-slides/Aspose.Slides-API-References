@@ -1,14 +1,14 @@
 ---
 title: IHtmlFormatter
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: HTML फ़ाइल टेम्पलेट का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: HTML फ़ाइल टेम्प्लेट का प्रतिनिधित्व करता है।
 type: docs
-weight: 3940
+weight: 3960
 url: /hi/aspose.slides.export/ihtmlformatter/
 ---
 ## IHtmlFormatter इंटरफ़ेस
 
-HTML फ़ाइल टेम्पलेट का प्रतिनिधित्व करता है।
+HTML फ़ाइल टेम्प्लेट का प्रतिनिधित्व करता है।
 
 ```csharp
 public interface IHtmlFormatter

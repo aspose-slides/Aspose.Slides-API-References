@@ -1,9 +1,9 @@
 ---
 title: IOrientationTransition
-second_title: Aspose.Sildes pro .NET API Referenci
+second_title: Aspose.Sildes pro .NET API Reference
 description: Efekt přechodu orientace snímku.
 type: docs
-weight: 10150
+weight: 10170
 url: /cs/aspose.slides.slideshow/iorientationtransition/
 ---
 ## IOrientationTransition rozhraní
@@ -16,7 +16,7 @@ public interface IOrientationTransition : ITransitionValueBase
 
 ## Vlastnosti
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
 | [AsITransitionValueBase](../../aspose.slides.slideshow/iorientationtransition/asitransitionvaluebase) { get; } | Umožňuje získat základní rozhraní ITransitionValueBase. Pouze ke čtení [`ITransitionValueBase`](../itransitionvaluebase). |
 | [Direction](../../aspose.slides.slideshow/iorientationtransition/direction) { get; set; } | Směr přechodu. Čtení/zápis [`Orientation`](../../aspose.slides/orientation). |

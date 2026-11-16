@@ -1,14 +1,14 @@
 ---
 title: IMathParagraph
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Mathematischer Absatz, der ein Container für mathematische Blöcke ist IMathBlock
+description: Mathematischer Absatz, der ein Container für mathematische Blöcke IMathBlock ist
 type: docs
-weight: 8390
+weight: 8410
 url: /de/aspose.slides.mathtext/imathparagraph/
 ---
 ## IMathParagraph Schnittstelle
 
-Mathematischer Absatz, der ein Container für mathematische Blöcke (IMathBlock) ist.
+Mathematical paragraph that is a container for mathematical blocks (IMathBlock)
 
 ```csharp
 public interface IMathParagraph : IMathBlockCollection
@@ -16,16 +16,16 @@ public interface IMathParagraph : IMathBlockCollection
 
 ## Eigenschaften
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
-| [AsIMathBlockCollection](../../aspose.slides.mathtext/imathparagraph/asimathblockcollection) { get; } | Ermöglicht das Abrufen der Basis-IMathBlockCollection Schnittstelle [`IMathBlockCollection`](../imathblockcollection) |
-| [Justification](../../aspose.slides.mathtext/imathparagraph/justification) { get; set; } | Absatzausrichtung Standardwert: CenteredAsGroup |
+| [AsIMathBlockCollection](../../aspose.slides.mathtext/imathparagraph/asimathblockcollection) { get; } | Ermöglicht das Abrufen der Basis-IMathBlockCollection-Schnittstelle [`IMathBlockCollection`](../imathblockcollection) |
+| [Justification](../../aspose.slides.mathtext/imathparagraph/justification) { get; set; } | Paragraph Justification Standardwert: CenteredAsGroup |
 
 ## Methoden
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
-| [ToLatex](../../aspose.slides.mathtext/imathparagraph/tolatex)() | Liefert die mathematische Gleichung im LaTeX-Format |
+| [ToLatex](../../aspose.slides.mathtext/imathparagraph/tolatex)() | Liefert mathematische Gleichung im LaTeX-Format |
 | [WriteAsMathMl](../../aspose.slides.mathtext/imathparagraph/writeasmathml)(Stream) | Speichert den Inhalt dieses [`IMathParagraph`](../imathparagraph) als MathML |
 
 ### Beispiele

@@ -1,14 +1,14 @@
 ---
 title: Row
 second_title: Aspose.Sildes for .NET API Referansı
-description: Bir tabloda satırı temsil eder.
+description: Bir tabloda bir satırı temsil eder.
 type: docs
-weight: 9710
+weight: 9730
 url: /tr/aspose.slides/row/
 ---
 ## Row sınıfı
 
-Bir tabloda satırı temsil eder.
+Bir tabloda bir satırı temsil eder.
 
 ```csharp
 public sealed class Row : CellCollection, IRow
@@ -20,23 +20,23 @@ public sealed class Row : CellCollection, IRow
 | --- | --- |
 | [Count](../../aspose.slides/cellcollection/count) { get; } | Bir koleksiyondaki hücre sayısını döndürür. Salt okunur Int32. |
 | [Height](../../aspose.slides/row/height) { get; } | Bir satırın yüksekliğini döndürür. Salt okunur Double. |
-| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | Koleksiyona erişimin senkronize (iş parçacığı güvenli) olup olmadığını gösteren bir değer döndürür. Salt okunur Boolean. |
+| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | Koleksiyona erişimin eşzamanlı (thread-safe) olup olmadığını gösteren bir değer döndürür. Salt okunur Boolean. |
 | [Item](../../aspose.slides/cellcollection/item) { get; } | Pozisyonuna göre bir hücre döndürür. Salt okunur [`Cell`](../cell). |
-| [MinimalHeight](../../aspose.slides/row/minimalheight) { get; set; } | Bir satırın alabileceği minimum yüksekliği döndürür veya ayarlar. Oku/yaz Double. |
-| [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | CellCollection'ın ana sunumunu döndürür. Salt okunur [`IPresentation`](../ipresentation). |
+| [MinimalHeight](../../aspose.slides/row/minimalheight) { get; set; } | Bir satırın olabilecek en düşük yüksekliğini döndürür veya ayarlar. Okunabilir/yazılabilir Double. |
+| [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | Bir CellCollection'ın üst sunumunu döndürür. Salt okunur [`IPresentation`](../ipresentation). |
 | [RowFormat](../../aspose.slides/row/rowformat) { get; } | Bu satır için biçimlendirme özelliklerini içeren RowFormat nesnesini döndürür. Salt okunur [`IRowFormat`](../irowformat). |
-| [Slide](../../aspose.slides/cellcollection/slide) { get; } | CellCollection'ın ana slaytını döndürür. Salt okunur [`IBaseSlide`](../ibaseslide). |
-| [SyncRoot](../../aspose.slides/cellcollection/syncroot) { get; } | Bir senkronizasyon kökü döndürür. Salt okunur Object. |
+| [Slide](../../aspose.slides/cellcollection/slide) { get; } | Bir CellCollection'ın üst slaytını döndürür. Salt okunur [`IBaseSlide`](../ibaseslide). |
+| [SyncRoot](../../aspose.slides/cellcollection/syncroot) { get; } | Bir eşzamanlama kökü döndürür. Salt okunur Object. |
 
-## Yöntemler
+## Metotlar
 
 | Ad | Açıklama |
 | --- | --- |
-| [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | Koleksiyondaki tüm öğeleri belirtilen diziye kopyalar. |
+| [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | Koleksiyondaki tüm elemanları belirtilen diziye kopyalar. |
 | [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | Koleksiyon içinde yineleme yapan bir enumerator döndürür. |
-| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat)(IParagraphFormat) | Tanımlı paragraf biçim özelliklerini tüm satır hücrelerinin paragraflarına uygular. |
-| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat_1)(IPortionFormat) | Tanımlı bölüm biçim özelliklerini tüm satır hücrelerinin bölümlerine uygular. |
-| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat_2)(ITextFrameFormat) | Tanımlı metin çerçevesi biçim özelliklerini tüm satır hücrelerinin metin çerçevelerine uygular. |
+| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat)(IParagraphFormat) | Tanımlı paragraf formatı özelliklerini tüm satır hücrelerinin paragraflarına ayarlar. |
+| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat_1)(IPortionFormat) | Tanımlı bölüm formatı özelliklerini tüm satır hücrelerinin bölümlerine ayarlar. |
+| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat_2)(ITextFrameFormat) | Tanımlı metin çerçevesi formatı özelliklerini tüm satır hücrelerinin metin çerçevelerine ayarlar. |
 
 ### Ayrıca Bakınız
 

@@ -1,14 +1,14 @@
 ---
 title: IPictureEffectiveData
 second_title: Aspose.Sildes .NET API referencia
-description: Megváltoztathatatlan objektum, amely a hatékony kép tulajdonságait tartalmazza.
+description: Módosíthatatlan objektum, amely a hatékony képtulajdonságokat tartalmazza.
 type: docs
-weight: 6640
+weight: 6660
 url: /hu/aspose.slides/ipictureeffectivedata/
 ---
-## IPictureEffectiveData interfész
+## IPictureEffectiveData felület
 
-Megváltoztathatatlan objektum, amely a hatékony kép tulajdonságait tartalmazza.
+Módosíthatatlan objektum, amely a hatékony képtulajdonságokat tartalmazza.
 
 ```csharp
 public interface IPictureEffectiveData
@@ -19,12 +19,12 @@ public interface IPictureEffectiveData
 | Név | Leírás |
 | --- | --- |
 | [Image](../../aspose.slides/ipictureeffectivedata/image) { get; } | Visszaadja a beágyazott képet. Csak olvasható [`IPPImage`](../ippimage). |
-| [ImageTransform](../../aspose.slides/ipictureeffectivedata/imagetransform) { get; } | Visszaadja a képtranszformációs hatások gyűjteményét. Csak olvasható [`IImageTransformOCollectionEffectiveData`](../../aspose.slides.effects/iimagetransformocollectioneffectivedata). |
+| [ImageTransform](../../aspose.slides/ipictureeffectivedata/imagetransform) { get; } | Visszaadja a képek átalakítási hatásainak gyűjteményét. Csak olvasható [`IImageTransformOCollectionEffectiveData`](../../aspose.slides.effects/iimagetransformocollectioneffectivedata). |
 | [LinkPathLong](../../aspose.slides/ipictureeffectivedata/linkpathlong) { get; } | Visszaadja a hivatkozott kép URL-jét. Csak olvasható String. |
 
-### Megjegyzés
+### Megjegyzések
 
-Ez az interfész a [`IPictureFillFormatEffectiveData`](../ipicturefillformateffectivedata) és a [`IBulletFormatEffectiveData`](../ibulletformateffectivedata) részeként használatos.
+Ez a felület a [`IPictureFillFormatEffectiveData`](../ipicturefillformateffectivedata) és a [`IBulletFormatEffectiveData`](../ibulletformateffectivedata) részeként használatos.
 
 ### Lásd még
 

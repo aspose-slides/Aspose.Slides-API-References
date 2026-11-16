@@ -1,14 +1,14 @@
 ---
 title: HighlightRegex
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: ทำให้ไฮไลท์การจับคู่ทั้งหมดของ regular expression ด้วยสีที่ระบุ.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: เน้นสีการจับคู่ทั้งหมดของนิพจน์ทั่วไปด้วยสีที่ระบุ
 type: docs
-weight: 80
+weight: 90
 url: /th/aspose.slides/itextframe/highlightregex/
 ---
 ## ITextFrame.HighlightRegex เมธอด
 
-ทำให้ไฮไลท์การจับคู่ทั้งหมดของ regular expression ด้วยสีที่ระบุ
+เน้นสีส่วนที่ตรงกับนิพจน์ทั่วไปทั้งหมดด้วยสีที่ระบุ
 
 ```csharp
 public void HighlightRegex(Regex regex, Color highlightColor, IFindResultCallback callback)
@@ -16,20 +16,20 @@ public void HighlightRegex(Regex regex, Color highlightColor, IFindResultCallbac
 
 | พารามิเตอร์ | ประเภท | คำอธิบาย |
 | --- | --- | --- |
-| regex | Regex | Regular expression Regex ที่ใช้เพื่อรับสตริงที่จะทำการไฮไลท์ |
-| highlightColor | Color | สีที่ใช้เพื่อทำการไฮไลท์ข้อความ |
-| callback | IFindResultCallback | อ็อบเจ็กต์ callback สำหรับรับผลการค้นหา [`IFindResultCallback`](../../ifindresultcallback) |
+| regex | Regex | นิพจน์ทั่วไป Regex เพื่อรับสตริงที่ต้องการเน้นสี |
+| highlightColor | Color | สีที่ใช้เพื่อเน้นข้อความ |
+| callback | IFindResultCallback | วัตถุ callback สำหรับรับผลการค้นหา [`IFindResultCallback`](../../ifindresultcallback) |
 
 ### ตัวอย่าง
 
-โค้ดตัวอย่างต่อไปนี้แสดงวิธีการทำไฮไลท์ข้อความใน TextFrame โดยใช้ regular expression
+ตัวอย่างโค้ดต่อไปนี้แสดงวิธีการเน้นข้อความใน TextFrame โดยใช้นิพจน์ทั่วไป
 
 ```csharp
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
 	Regex regex = new Regex(@"\b[^\s]{10,}\b");
-	// ไฮไลท์คำทั้งหมดที่มีความยาว 10 ตัวอักษรหรือมากกว่า
+	// เน้นสีทุกคำที่มีความยาว 10 ตัวอักษรหรือมากกว่า
 	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.HighlightRegex(regex, Color.Blue, null);
 	presentation.Save("SomePresentation-out.pptx", SaveFormat.Pptx);
 }

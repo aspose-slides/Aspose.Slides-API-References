@@ -1,14 +1,14 @@
 ---
 title: IGlowEffectiveData
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Onveranderlijk object dat een Glow-effect weergeeft, waarbij een gekleurde vervaagde omtrek buiten de randen van het object wordt toegevoegd.
+description: Onveranderlijk object dat een Glow-effect vertegenwoordigt, waarbij een kleurvervaging omtrek buiten de randen van het object wordt toegevoegd.
 type: docs
-weight: 3330
+weight: 3350
 url: /nl/aspose.slides.effects/igloweffectivedata/
 ---
 ## IGlowEffectiveData interface
 
-Onveranderlijk object dat een Glow-effect weergeeft, waarbij een vervaagde gekleurde omtrek buiten de randen van het object wordt toegevoegd.
+Onveranderlijk object dat een Glow-effect vertegenwoordigt, waarbij een kleurvervaging omtrek buiten de randen van het object wordt toegevoegd.
 
 ```csharp
 public interface IGlowEffectiveData : IEffectEffectiveData
@@ -16,11 +16,11 @@ public interface IGlowEffectiveData : IEffectEffectiveData
 
 ## Eigenschappen
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/igloweffectivedata/asieffecteffectivedata) { get; } | Stelt toe om de basis IEffectEffectiveData interface op te halen. Alleen-lezen [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/igloweffectivedata/asieffecteffectivedata) { get; } | Maakt het mogelijk om de basale IEffectEffectiveData interface op te halen. Alleen-lezen [`IEffectEffectiveData`](../ieffecteffectivedata). |
 | [Color](../../aspose.slides.effects/igloweffectivedata/color) { get; } | Color. Alleen-lezen Color. |
-| [Radius](../../aspose.slides.effects/igloweffectivedata/radius) { get; } | Straal. Alleen-lezen Double. |
+| [Radius](../../aspose.slides.effects/igloweffectivedata/radius) { get; } | Radius. Alleen-lezen Double. |
 
 ### Zie ook
 

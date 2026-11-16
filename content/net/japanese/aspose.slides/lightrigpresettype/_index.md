@@ -1,14 +1,14 @@
 ---
 title: LightRigPresetType
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 光プリセットタイプを定義する定数。
+description: 光プリセットタイプを定義する定数です。
 type: docs
-weight: 7700
+weight: 7720
 url: /ja/aspose.slides/lightrigpresettype/
 ---
 ## LightRigPresetType 列挙型
 
-光プリセットタイプを定義する定数。
+光プリセットタイプを定義する定数です。
 
 ```csharp
 public enum LightRigPresetType
@@ -47,7 +47,7 @@ public enum LightRigPresetType
 | ThreePt | `25` |  |
 | TwoPt | `26` |  |
 
-### 関連項目
+### 参照
 
 * 名前空間 [Aspose.Slides](../../aspose.slides)
 * アセンブリ [Aspose.Slides](../../)

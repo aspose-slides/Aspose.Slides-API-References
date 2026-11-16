@@ -1,12 +1,12 @@
 ---
 title: Table
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Aspose.Sildes para la referencia de API .NET
 description: Representa una tabla en una diapositiva.
 type: docs
-weight: 10860
+weight: 10880
 url: /es/aspose.slides/table/
 ---
-## Table clase
+## Clase Table
 
 Representa una tabla en una diapositiva.
 
@@ -20,9 +20,9 @@ public sealed class Table : GraphicalObject, ITable
 | --- | --- |
 | [AlternativeText](../../aspose.slides/shape/alternativetext) { get; set; } | Devuelve o establece el texto alternativo asociado a una forma. Lectura/escritura String. |
 | [AlternativeTextTitle](../../aspose.slides/shape/alternativetexttitle) { get; set; } | Devuelve o establece el título del texto alternativo asociado a una forma. Lectura/escritura String. |
-| [BlackWhiteMode](../../aspose.slides/shape/blackwhitemode) { get; set; } | La propiedad especifica cómo se renderizará una forma en modo de visualización en blanco y negro. Lectura/escritura [`BlackWhiteMode`](../blackwhitemode). |
+| [BlackWhiteMode](../../aspose.slides/shape/blackwhitemode) { get; set; } | Propiedad que especifica cómo se renderizará una forma en modo de visualización en blanco y negro. Lectura/escritura [`BlackWhiteMode`](../blackwhitemode). |
 | [Columns](../../aspose.slides/table/columns) { get; } | Devuelve la colección de columnas. Solo lectura [`IColumnCollection`](../icolumncollection). |
-| [ConnectionSiteCount](../../aspose.slides/shape/connectionsitecount) { get; } | Devuelve el número de sitios de conexión en la forma. Solo lectura Int32. |
+| [ConnectionSiteCount](../../aspose.slides/shape/connectionsitecount) { get; } | Devuelve el número de puntos de conexión en la forma. Solo lectura Int32. |
 | [CustomData](../../aspose.slides/shape/customdata) { get; } | Devuelve los datos personalizados de la forma. Solo lectura [`ICustomData`](../icustomdata). |
 | virtual [EffectFormat](../../aspose.slides/shape/effectformat) { get; } | Devuelve el objeto EffectFormat que contiene los efectos de píxel aplicados a una forma. Nota: puede devolver null para ciertos tipos de formas que no tienen propiedades de efecto. Solo lectura [`IEffectFormat`](../ieffectformat). |
 | override [FillFormat](../../aspose.slides/table/fillformat) { get; } | Devuelve un objeto TableFormat.FillFormat que contiene el formato de relleno para la Table. Solo lectura [`IFillFormat`](../ifillformat). |
@@ -33,9 +33,9 @@ public sealed class Table : GraphicalObject, ITable
 | [Height](../../aspose.slides/shape/height) { get; set; } | Obtiene o establece la altura de la forma, medida en puntos. Lectura/escritura Single. |
 | [Hidden](../../aspose.slides/shape/hidden) { get; set; } | Determina si la forma está oculta. Lectura/escritura Boolean. |
 | [HorizontalBanding](../../aspose.slides/table/horizontalbanding) { get; set; } | Determina si las filas pares deben dibujarse con un formato diferente. Lectura/escritura Boolean. |
-| [HyperlinkClick](../../aspose.slides/shape/hyperlinkclick) { get; set; } | Devuelve o establece el hipervínculo definido para el clic del mouse. Lectura/escritura [`IHyperlink`](../ihyperlink). |
-| [HyperlinkManager](../../aspose.slides/shape/hyperlinkmanager) { get; } | Devuelve el gestor de hipervínculos. Solo lectura [`IHyperlinkManager`](../ihyperlinkmanager). |
-| [HyperlinkMouseOver](../../aspose.slides/shape/hyperlinkmouseover) { get; set; } | Devuelve o establece el hipervínculo definido para pasar el mouse por encima. Lectura/escritura [`IHyperlink`](../ihyperlink). |
+| [HyperlinkClick](../../aspose.slides/shape/hyperlinkclick) { get; set; } | Devuelve o establece el hipervínculo definido para el clic del ratón. Lectura/escritura [`IHyperlink`](../ihyperlink). |
+| [HyperlinkManager](../../aspose.slides/shape/hyperlinkmanager) { get; } | Devuelve el administrador de hipervínculos. Solo lectura [`IHyperlinkManager`](../ihyperlinkmanager). |
+| [HyperlinkMouseOver](../../aspose.slides/shape/hyperlinkmouseover) { get; set; } | Devuelve o establece el hipervínculo definido para pasar el ratón por encima. Lectura/escritura [`IHyperlink`](../ihyperlink). |
 | [IsDecorative](../../aspose.slides/shape/isdecorative) { get; set; } | Obtiene o establece la opción 'Marcar como decorativo'. Lectura/escritura Boolean. |
 | [IsGrouped](../../aspose.slides/shape/isgrouped) { get; } | Determina si la forma está agrupada. Solo lectura Boolean. |
 | [IsTextHolder](../../aspose.slides/shape/istextholder) { get; } | Determina si la forma es TextHolder_PPT. Solo lectura Boolean. |
@@ -43,21 +43,21 @@ public sealed class Table : GraphicalObject, ITable
 | [LastCol](../../aspose.slides/table/lastcol) { get; set; } | Determina si la última columna de una tabla debe dibujarse con un formato especial. Lectura/escritura Boolean. |
 | [LastRow](../../aspose.slides/table/lastrow) { get; set; } | Determina si la última fila de una tabla debe dibujarse con un formato especial. Lectura/escritura Boolean. |
 | virtual [LineFormat](../../aspose.slides/shape/lineformat) { get; } | Devuelve el objeto LineFormat que contiene las propiedades de formato de línea para una forma. Nota: puede devolver null para ciertos tipos de formas que no tienen propiedades de línea. Solo lectura [`ILineFormat`](../ilineformat). |
-| [Name](../../aspose.slides/shape/name) { get; set; } | Devuelve o establece el nombre de una forma. No debe ser nulo. Use una cadena vacía si es necesario. Lectura/escritura String. |
-| [OfficeInteropShapeId](../../aspose.slides/shape/officeinteropshapeid) { get; } | Devuelve un identificador único de alcance de diapositiva que permanece constante durante la vida útil de la forma y permite que PowerPoint o el código de interop haga referencia a la forma de forma fiable desde cualquier lugar del documento. Solo lectura UInt32. Ver también [`UniqueId`](../shape/uniqueid). |
-| [ParentGroup](../../aspose.slides/shape/parentgroup) { get; } | Devuelve el objeto GroupShape padre si la forma está agrupada. De lo contrario devuelve null. Solo lectura [`IGroupShape`](../igroupshape). |
+| [Name](../../aspose.slides/shape/name) { get; set; } | Devuelve o establece el nombre de una forma. No debe ser null. Use una cadena vacía si es necesario. Lectura/escritura String. |
+| [OfficeInteropShapeId](../../aspose.slides/shape/officeinteropshapeid) { get; } | Devuelve un identificador único con alcance de diapositiva que permanece constante durante la vida de la forma y permite que PowerPoint o el código de interop referencien la forma de forma fiable desde cualquier parte del documento. Solo lectura UInt32. Ver también [`UniqueId`](../shape/uniqueid). |
+| [ParentGroup](../../aspose.slides/shape/parentgroup) { get; } | Devuelve el objeto GroupShape padre si la forma está agrupada. En caso contrario devuelve null. Solo lectura [`IGroupShape`](../igroupshape). |
 | [Placeholder](../../aspose.slides/shape/placeholder) { get; } | Devuelve el marcador de posición de una forma. Devuelve null si la forma no tiene marcador de posición. Solo lectura [`IPlaceholder`](../iplaceholder). |
-| [Presentation](../../aspose.slides/shape/presentation) { get; } | Devuelve la presentación principal de una diapositiva. Solo lectura [`IPresentation`](../ipresentation). |
-| [RawFrame](../../aspose.slides/shape/rawframe) { get; set; } | Devuelve o establece las propiedades sin procesar del marco de la forma. Lectura/escritura [`IShapeFrame`](../ishapeframe). |
+| [Presentation](../../aspose.slides/shape/presentation) { get; } | Devuelve la presentación padre de una diapositiva. Solo lectura [`IPresentation`](../ipresentation). |
+| [RawFrame](../../aspose.slides/shape/rawframe) { get; set; } | Devuelve o establece las propiedades del marco bruto de la forma. Lectura/escritura [`IShapeFrame`](../ishapeframe). |
 | [RightToLeft](../../aspose.slides/table/righttoleft) { get; set; } | Determina si la tabla tiene orden de lectura de derecha a izquierda. Lectura/escritura Boolean. |
 | [Rotation](../../aspose.slides/shape/rotation) { get; set; } | Devuelve o establece el número de grados que la forma especificada está rotada alrededor del eje z. Un valor positivo indica rotación en sentido horario; un valor negativo indica rotación en sentido antihorario. Lectura/escritura Single. |
 | [Rows](../../aspose.slides/table/rows) { get; } | Devuelve la colección de filas. Solo lectura [`IRowCollection`](../irowcollection). |
 | [ShapeLock](../../aspose.slides/graphicalobject/shapelock) { get; } | Devuelve los bloqueos de la forma. Solo lectura [`IGraphicalObjectLock`](../igraphicalobjectlock). (2 propiedades) |
-| [Slide](../../aspose.slides/shape/slide) { get; } | Devuelve la diapositiva principal de una forma. Solo lectura [`IBaseSlide`](../ibaseslide). |
+| [Slide](../../aspose.slides/shape/slide) { get; } | Devuelve la diapositiva padre de una forma. Solo lectura [`IBaseSlide`](../ibaseslide). |
 | [StylePreset](../../aspose.slides/table/stylepreset) { get; set; } | Obtiene o establece el estilo de tabla incorporado. Lectura/escritura [`TableStylePreset`](../tablestylepreset). |
 | [TableFormat](../../aspose.slides/table/tableformat) { get; } | Devuelve el objeto TableFormat que contiene las propiedades de formato para esta tabla. Solo lectura [`ITableFormat`](../itableformat). |
 | virtual [ThreeDFormat](../../aspose.slides/shape/threedformat) { get; } | Devuelve el objeto ThreeDFormat que contiene las propiedades de efecto 3D para una forma. Nota: puede devolver null para ciertos tipos de formas que no tienen propiedades 3D. Solo lectura [`IThreeDFormat`](../ithreedformat). |
-| [UniqueId](../../aspose.slides/shape/uniqueid) { get; } | Devuelve un identificador interno de alcance de presentación destinado al uso por complementos u otro código. Dado que este valor puede ser reasignado por el usuario o programáticamente, no debe tratarse como una clave única persistente. Solo lectura UInt32. Ver también [`OfficeInteropShapeId`](../shape/officeinteropshapeid). |
+| [UniqueId](../../aspose.slides/shape/uniqueid) { get; } | Devuelve un identificador interno con alcance de presentación destinado al uso de complementos u otro código. Debido a que este valor puede ser reasignado por el usuario o programáticamente, no debe tratarse como una clave única persistente. Solo lectura UInt32. Ver también [`OfficeInteropShapeId`](../shape/officeinteropshapeid). |
 | [VerticalBanding](../../aspose.slides/table/verticalbanding) { get; set; } | Determina si las columnas pares deben dibujarse con un formato diferente. Lectura/escritura Boolean. |
 | [Width](../../aspose.slides/shape/width) { get; set; } | Obtiene o establece el ancho de la forma, medido en puntos. Lectura/escritura Single. |
 | [X](../../aspose.slides/shape/x) { get; set; } | Obtiene o establece la coordenada x de la esquina superior izquierda de la forma, medida en puntos. Lectura/escritura Single. |
@@ -69,14 +69,14 @@ public sealed class Table : GraphicalObject, ITable
 | Nombre | Descripción |
 | --- | --- |
 | [AddPlaceholder](../../aspose.slides/shape/addplaceholder)(IPlaceholder) | Agrega un nuevo marcador de posición si no existe y establece las propiedades del marcador de posición a una especificada. |
-| [GetBasePlaceholder](../../aspose.slides/shape/getbaseplaceholder)() | Devuelve una forma de marcador de posición básica (forma del diseño y/o diapositiva maestra de la cual la forma actual hereda). Se devuelve null si la forma actual no hereda. |
-| [GetImage](../../aspose.slides/shape/getimage)() | Devuelve la miniatura de la forma. El tipo ShapeThumbnailBounds.Shape de los límites de la miniatura se usa por defecto. |
+| [GetBasePlaceholder](../../aspose.slides/shape/getbaseplaceholder)() | Devuelve una forma de marcador de posición básica (forma del diseño y/o diapositiva maestra de la que se hereda la forma actual). Se devuelve null si la forma actual no está heredada. |
+| [GetImage](../../aspose.slides/shape/getimage)() | Devuelve la miniatura de la forma. El tipo ShapeThumbnailBounds.Shape se usa por defecto para los límites de la miniatura. |
 | [GetImage](../../aspose.slides/shape/getimage)(ShapeThumbnailBounds, float, float) | Devuelve la miniatura de la forma. |
 | [GetVisualBounds](../../aspose.slides/shape/getvisualbounds)() | Obtiene los límites visuales de la forma calculados a partir de su contenido renderizado. |
 | [MergeCells](../../aspose.slides/table/mergecells)(ICell, ICell, bool) | Fusiona celdas vecinas. |
 | [RemovePlaceholder](../../aspose.slides/shape/removeplaceholder)() | Define que esta forma no es un marcador de posición. |
 | [SetTextFormat](../../aspose.slides/table/settextformat#settextformat)(IParagraphFormat) | Establece las propiedades de formato de párrafo definidas a los párrafos de todas las celdas de la tabla. |
-| [SetTextFormat](../../aspose.slides/table/settextformat#settextformat_1)(IPortionFormat) | Establece las propiedades de formato de porción definidas a todas las porciones de las celdas de la tabla. |
+| [SetTextFormat](../../aspose.slides/table/settextformat#settextformat_1)(IPortionFormat) | Establece las propiedades de formato de porción definidas a las porciones de todas las celdas de la tabla. |
 | [SetTextFormat](../../aspose.slides/table/settextformat#settextformat_2)(ITextFrameFormat) | Establece las propiedades de formato de marco de texto definidas a los marcos de texto de todas las celdas de la tabla. |
 | [WriteAsSvg](../../aspose.slides/shape/writeassvg)(Stream) | Guarda el contenido de la Forma como archivo SVG. |
 | [WriteAsSvg](../../aspose.slides/shape/writeassvg)(Stream, ISVGOptions) | Guarda el contenido de la Forma como archivo SVG. |

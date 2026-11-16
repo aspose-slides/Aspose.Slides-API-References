@@ -1,9 +1,9 @@
 ---
 title: ILayoutSlide
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Aspose.Sildes para la referencia de API de .NET
 description: Representa una diapositiva de diseño.
 type: docs
-weight: 6220
+weight: 6240
 url: /es/aspose.slides/ilayoutslide/
 ---
 ## ILayoutSlide interfaz
@@ -18,7 +18,7 @@ public interface ILayoutSlide : IBaseSlide, IOverrideThemeable
 
 | Nombre | Descripción |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/ilayoutslide/asibaseslide) { get; } | Permite obtener la interfaz base IBaseSlide. Solo lectura [`IBaseSlide`](../ibaseslide). |
+| [AsIBaseSlide](../../aspose.slides/ilayoutslide/asibaseslide) { get; } | Permite obtener la interfaz IBaseSlide base. Solo lectura [`IBaseSlide`](../ibaseslide). |
 | [AsIOverrideThemeable](../../aspose.slides/ilayoutslide/asioverridethemeable) { get; } | Devuelve la interfaz IOverrideThemeable. Solo lectura [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
 | [DrawingGuides](../../aspose.slides/ilayoutslide/drawingguides) { get; } | Devuelve una colección de guías de dibujo para la diapositiva de diseño. Solo lectura [`IDrawingGuidesCollection`](../idrawingguidescollection) |
 | [HasDependingSlides](../../aspose.slides/ilayoutslide/hasdependingslides) { get; } | Devuelve true si existe al menos una diapositiva que depende de esta diapositiva de diseño. Solo lectura Boolean. |

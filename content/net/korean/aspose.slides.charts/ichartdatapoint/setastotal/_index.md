@@ -1,14 +1,14 @@
 ---
 title: SetAsTotal
-second_title: Aspose.Sildes for .NET API 참조
-description: 데이터 포인트를 총계로 설정합니다. 워터폴 시리즈 유형에만 적용됩니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 데이터 포인트를 총계로 설정합니다. Waterfall 시리즈 유형에만 적용됩니다.
 type: docs
-weight: 140
+weight: 180
 url: /ko/aspose.slides.charts/ichartdatapoint/setastotal/
 ---
-## IChartDataPoint.SetAsTotal 속성
+## IChartDataPoint.SetAsTotal property
 
-데이터 포인트를 총계로 설정합니다. 워터폴 시리즈 유형에만 적용됩니다.
+데이터 포인트를 총계로 설정합니다. Waterfall 시리즈 유형에만 적용됩니다.
 
 ```csharp
 public bool SetAsTotal { get; set; }

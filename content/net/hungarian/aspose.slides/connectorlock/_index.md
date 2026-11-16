@@ -1,14 +1,14 @@
 ---
 title: ConnectorLock
-second_title: Aspose.Sildes .NET API referenciája
-description: Meghatározza, hogy mely műveletek vannak letiltva a szülő Connectoron.
+second_title: Aspose.Sildes .NET API referencia
+description: Meghatározza, hogy mely műveletek vannak letiltva a szülő Connector-on.
 type: docs
-weight: 2680
+weight: 2700
 url: /hu/aspose.slides/connectorlock/
 ---
 ## ConnectorLock osztály
 
-Meghatározza, hogy mely műveletek vannak letiltva a szülő Connectoron.
+Meghatározza, hogy mely műveletek le vannak tiltva a szülő Connector-on.
 
 ```csharp
 public class ConnectorLock : BaseShapeLock, IConnectorLock
@@ -18,17 +18,17 @@ public class ConnectorLock : BaseShapeLock, IConnectorLock
 
 | Név | Leírás |
 | --- | --- |
-| [AdjustHandlesLocked](../../aspose.slides/connectorlock/adjusthandleslocked) { get; set; } | Megállapítja, hogy a módosítási értékek változtatása tiltott-e. Olvasás/írás Boolean. |
-| [ArrowheadsLocked](../../aspose.slides/connectorlock/arrowheadslocked) { get; set; } | Megállapítja, hogy a nyílfejek változtatása tiltott-e. Olvasás/írás Boolean. |
-| [AspectRatioLocked](../../aspose.slides/connectorlock/aspectratiolocked) { get; set; } | Megállapítja, hogy a forma megőrizze-e az arányt a méretezéskor. Olvasás/írás Boolean. |
-| [EditPointsLocked](../../aspose.slides/connectorlock/editpointslocked) { get; set; } | Megállapítja, hogy a forma körvonalának közvetlen módosítása tiltott-e. Olvasás/írás Boolean. |
-| [GroupingLocked](../../aspose.slides/connectorlock/groupinglocked) { get; set; } | Megállapítja, hogy a forma csoportba való hozzáadása tiltott-e. Olvasás/írás Boolean. |
-| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Igaz, ha minden zárási jelző le van tiltva. Csak olvasás Boolean. |
-| [PositionMove](../../aspose.slides/connectorlock/positionmove) { get; set; } | Megállapítja, hogy a forma mozgatása tiltott-e. Olvasás/írás Boolean. |
-| [RotateLocked](../../aspose.slides/connectorlock/rotatelocked) { get; set; } | Megállapítja, hogy a forma forgatási szögének változtatása tiltott-e. Olvasás/írás Boolean. |
-| [SelectLocked](../../aspose.slides/connectorlock/selectlocked) { get; set; } | Megállapítja, hogy a forma kiválasztása tiltott-e. Olvasás/írás Boolean. |
-| [ShapeTypeLocked](../../aspose.slides/connectorlock/shapetypelocked) { get; set; } | Megállapítja, hogy a forma típusának változtatása tiltott-e. Olvasás/írás Boolean. |
-| [SizeLocked](../../aspose.slides/connectorlock/sizelocked) { get; set; } | Megállapítja, hogy a forma méretezése tiltott-e. Olvasás/írás Boolean. |
+| [AdjustHandlesLocked](../../aspose.slides/connectorlock/adjusthandleslocked) { get; set; } | Meghatározza, hogy a beállítási értékek módosítása tiltott-e. Olvasás/írás Boolean. |
+| [ArrowheadsLocked](../../aspose.slides/connectorlock/arrowheadslocked) { get; set; } | Meghatározza, hogy a nyílfejek módosítása tiltott-e. Olvasás/írás Boolean. |
+| [AspectRatioLocked](../../aspose.slides/connectorlock/aspectratiolocked) { get; set; } | Meghatározza, hogy a forma megőrizze-e az oldalarányt átméretezéskor. Olvasás/írás Boolean. |
+| [EditPointsLocked](../../aspose.slides/connectorlock/editpointslocked) { get; set; } | Meghatározza, hogy a forma körvonalának közvetlen módosítása tiltott-e. Olvasás/írás Boolean. |
+| [GroupingLocked](../../aspose.slides/connectorlock/groupinglocked) { get; set; } | Meghatározza, hogy a forma csoportba való hozzáadása tiltott-e. Olvasás/írás Boolean. |
+| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Igaz értéket ad vissza, ha minden zárolási jelző le van tiltva. Csak olvasható Boolean. |
+| [PositionMove](../../aspose.slides/connectorlock/positionmove) { get; set; } | Meghatározza, hogy a forma mozgatása tiltott-e. Olvasás/írás Boolean. |
+| [RotateLocked](../../aspose.slides/connectorlock/rotatelocked) { get; set; } | Meghatározza, hogy a forma forgásszögének módosítása tiltott-e. Olvasás/írás Boolean. |
+| [SelectLocked](../../aspose.slides/connectorlock/selectlocked) { get; set; } | Meghatározza, hogy a forma kiválasztása tiltott-e. Olvasás/írás Boolean. |
+| [ShapeTypeLocked](../../aspose.slides/connectorlock/shapetypelocked) { get; set; } | Meghatározza, hogy a forma típusának módosítása tiltott-e. Olvasás/írás Boolean. |
+| [SizeLocked](../../aspose.slides/connectorlock/sizelocked) { get; set; } | Meghatározza, hogy a forma átméretezése tiltott-e. Olvasás/írás Boolean. |
 
 ### Lásd még
 

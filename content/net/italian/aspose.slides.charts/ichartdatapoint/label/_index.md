@@ -1,9 +1,9 @@
 ---
 title: Label
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per .NET Riferimento API
 description: Rappresenta l'etichetta del punto dati del grafico. Solo lettura IDataLabelaspose.slides.charts/idatalabel.
 type: docs
-weight: 110
+weight: 150
 url: /it/aspose.slides.charts/ichartdatapoint/label/
 ---
 ## IChartDataPoint.Label proprietà

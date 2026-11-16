@@ -3,10 +3,10 @@ title: DataTable
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa las propiedades de la tabla de datos.
 type: docs
-weight: 1600
+weight: 1610
 url: /es/aspose.slides.charts/datatable/
 ---
-## DataTable clase
+## Clase DataTable
 
 Representa las propiedades de la tabla de datos.
 
@@ -18,13 +18,13 @@ public class DataTable : DomObject<Chart>, IDataTable
 
 | Nombre | Descripción |
 | --- | --- |
-| [Chart](../../aspose.slides.charts/datatable/chart) { get; } | Devuelve el gráfico. Solo lectura [`IChart`](../ichart). |
-| [Format](../../aspose.slides.charts/datatable/format) { get; } | Devuelve los estilos de línea, relleno y efecto de un objeto. Solo lectura [`IFormat`](../iformat). |
-| [HasBorderHorizontal](../../aspose.slides.charts/datatable/hasborderhorizontal) { get; set; } | Verdadero si la tabla de datos del gráfico tiene bordes de celda horizontales. Lectura/escritura Boolean. |
-| [HasBorderOutline](../../aspose.slides.charts/datatable/hasborderoutline) { get; set; } | Verdadero si la tabla de datos del gráfico tiene bordes de contorno. Lectura/escritura Boolean. |
-| [HasBorderVertical](../../aspose.slides.charts/datatable/hasbordervertical) { get; set; } | Verdadero si la tabla de datos del gráfico tiene bordes de celda verticales. Lectura/escritura Boolean. |
-| [ShowLegendKey](../../aspose.slides.charts/datatable/showlegendkey) { get; set; } | Verdadero si la clave de leyenda de la etiqueta de datos es visible. Lectura/escritura Boolean. |
-| [TextFormat](../../aspose.slides.charts/datatable/textformat) { get; } | Devuelve el formato de texto. Solo lectura [`IChartTextFormat`](../icharttextformat). |
+| [Chart](../../aspose.slides.charts/datatable/chart) { get; } | Devuelve el gráfico. Sólo lectura [`IChart`](../ichart). |
+| [Format](../../aspose.slides.charts/datatable/format) { get; } | Devuelve los estilos de línea, relleno y efecto de un objeto. Sólo lectura [`IFormat`](../iformat). |
+| [HasBorderHorizontal](../../aspose.slides.charts/datatable/hasborderhorizontal) { get; set; } | True si la tabla de datos del gráfico tiene bordes de celda horizontales. Lectura/escritura Boolean. |
+| [HasBorderOutline](../../aspose.slides.charts/datatable/hasborderoutline) { get; set; } | True si la tabla de datos del gráfico tiene bordes de contorno. Lectura/escritura Boolean. |
+| [HasBorderVertical](../../aspose.slides.charts/datatable/hasbordervertical) { get; set; } | True si la tabla de datos del gráfico tiene bordes de celda verticales. Lectura/escritura Boolean. |
+| [ShowLegendKey](../../aspose.slides.charts/datatable/showlegendkey) { get; set; } | True si la clave de leyenda de la etiqueta de datos está visible. Lectura/escritura Boolean. |
+| [TextFormat](../../aspose.slides.charts/datatable/textformat) { get; } | Devuelve el formato de texto. Sólo lectura [`IChartTextFormat`](../icharttextformat). |
 
 ### Ver también
 

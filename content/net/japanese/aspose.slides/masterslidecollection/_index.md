@@ -3,7 +3,7 @@ title: MasterSlideCollection
 second_title: Aspose.Sildes for .NET API リファレンス
 description: マスタースライドのコレクションを表します。
 type: docs
-weight: 8040
+weight: 8060
 url: /ja/aspose.slides/masterslidecollection/
 ---
 ## MasterSlideCollection クラス
@@ -19,8 +19,8 @@ public sealed class MasterSlideCollection : DomObject<Presentation>, IMasterSlid
 | 名前 | 説明 |
 | --- | --- |
 | [Count](../../aspose.slides/masterslidecollection/count) { get; } | コレクションに実際に含まれる要素の数を取得します。読み取り専用 Int32。 |
-| [IsSynchronized](../../aspose.slides/masterslidecollection/issynchronized) { get; } | コレクションへのアクセスが同期化されているか（スレッドセーフか）を示す値を返します。読み取り専用 Boolean。 |
-| [Item](../../aspose.slides/masterslidecollection/item) { get; } | 指定されたインデックスにある要素を取得します。読み取り専用 [`MasterSlide`](../masterslide)。 |
+| [IsSynchronized](../../aspose.slides/masterslidecollection/issynchronized) { get; } | コレクションへのアクセスが同期されているか (スレッドセーフ) を示す値を返します。読み取り専用 Boolean。 |
+| [Item](../../aspose.slides/masterslidecollection/item) { get; } | 指定されたインデックスの要素を取得します。読み取り専用 [`MasterSlide`](../masterslide)。 |
 | [SyncRoot](../../aspose.slides/masterslidecollection/syncroot) { get; } | 同期ルートを返します。読み取り専用 Object。 |
 
 ## メソッド
@@ -30,9 +30,9 @@ public sealed class MasterSlideCollection : DomObject<Presentation>, IMasterSlid
 | [AddClone](../../aspose.slides/masterslidecollection/addclone)(IMasterSlide) | 指定されたマスタースライドのコピーをコレクションの末尾に追加します。リンクされたレイアウトスライドもコピーされます。 |
 | [CopyTo](../../aspose.slides/masterslidecollection/copyto)(Array, int) | コレクション内のすべての要素を指定された配列にコピーします。 |
 | [GetEnumerator](../../aspose.slides/masterslidecollection/getenumerator)() | コレクションを反復処理する列挙子を返します。 |
-| [InsertClone](../../aspose.slides/masterslidecollection/insertclone)(int, IMasterSlide) | 指定された位置に指定されたマスタースライドのコピーを挿入します。リンクされたレイアウトスライドもコピーされます。 |
+| [InsertClone](../../aspose.slides/masterslidecollection/insertclone)(int, IMasterSlide) | 指定されたマスタースライドのコピーをコレクションの指定位置に挿入します。リンクされたレイアウトスライドもコピーされます。 |
 | [Remove](../../aspose.slides/masterslidecollection/remove)(IMasterSlide) | コレクションから特定のオブジェクトの最初の出現を削除します。 |
-| [RemoveAt](../../aspose.slides/masterslidecollection/removeat)(int) | 指定されたインデックスの要素をコレクションから削除します。 |
+| [RemoveAt](../../aspose.slides/masterslidecollection/removeat)(int) | コレクションの指定インデックスの要素を削除します。 |
 | [RemoveUnused](../../aspose.slides/masterslidecollection/removeunused)(bool) | 未使用のマスタースライドを削除します。 |
 
 ### 参照

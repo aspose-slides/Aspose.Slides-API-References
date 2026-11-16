@@ -3,7 +3,7 @@ title: SlidesRange
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Folienbereich
 type: docs
-weight: 10530
+weight: 10550
 url: /de/aspose.slides/slidesrange/
 ---
 ## SlidesRange Klasse

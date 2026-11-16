@@ -1,9 +1,9 @@
 ---
 title: RemoveEmbeddedFont
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
+second_title: Aspose.Sildes สำหรับ .NET API อ้างอิง
 description: ลบแบบอักษรที่ฝังไว้
 type: docs
-weight: 90
+weight: 100
 url: /th/aspose.slides/ifontsmanager/removeembeddedfont/
 ---
 ## IFontsManager.RemoveEmbeddedFont เมธอด
@@ -14,9 +14,9 @@ url: /th/aspose.slides/ifontsmanager/removeembeddedfont/
 public void RemoveEmbeddedFont(IFontData fontData)
 ```
 
-| พารามิเตอร์ | ประเภท | คำอธิบาย |
+| พารามิเตอร์ | ชนิด | คำอธิบาย |
 | --- | --- | --- |
-| fontData | IFontData | อ็อบเจ็กต์ข้อมูลแบบอักษร [`IFontData`](../../ifontdata) |
+| fontData | IFontData | วัตถุข้อมูลแบบอักษร [`IFontData`](../../ifontdata) |
 
 ### ดูเพิ่มเติม
 

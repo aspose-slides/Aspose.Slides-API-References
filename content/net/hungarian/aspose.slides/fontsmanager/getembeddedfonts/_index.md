@@ -3,12 +3,12 @@ title: GetEmbeddedFonts
 second_title: Aspose.Sildes .NET API referencia
 description: Visszaadja a prezentációba beágyazott betűtípusokat
 type: docs
-weight: 40
+weight: 50
 url: /hu/aspose.slides/fontsmanager/getembeddedfonts/
 ---
 ## FontsManager.GetEmbeddedFonts metódus
 
-Visszaadja a bemutatóba beágyazott betűtípusokat
+Visszaadja a prezentációba beágyazott betűtípusokat
 
 ```csharp
 public IFontData[] GetEmbeddedFonts()

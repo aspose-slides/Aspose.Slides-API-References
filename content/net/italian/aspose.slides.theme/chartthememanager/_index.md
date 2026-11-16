@@ -1,9 +1,9 @@
 ---
 title: ChartThemeManager
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per .NET Riferimento API
 description: Fornisce l'accesso al tema del grafico sovrascritto.
 type: docs
-weight: 11060
+weight: 11080
 url: /it/aspose.slides.theme/chartthememanager/
 ---
 ## ChartThemeManager classe
@@ -18,14 +18,14 @@ public class ChartThemeManager : BaseOverrideThemeManager
 
 | Nome | Descrizione |
 | --- | --- |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Determina se OverrideTheme sovrascrive o meno il tema effettivo ereditato. Per abilitare OverrideTheme per la sovrascrittura, utilizzare i metodi OverrideTheme.Init*(). Per disabilitare OverrideTheme dalla sovrascrittura, utilizzare il metodo OverrideTheme.Clear(). Booleano di sola lettura. |
-| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Restituisce l'oggetto tema di sovrascrittura. Lettura/scrittura [`IOverrideTheme`](../ioverridetheme). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Determina se OverrideTheme sovrascrive o meno il tema efficace ereditato. Per abilitare OverrideTheme per la sovrascrittura, usare i metodi OverrideTheme.Init*(). Per disabilitare OverrideTheme dalla sovrascrittura, usare il metodo OverrideTheme.Clear(). Solo lettura Boolean. |
+| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Restituisce l'oggetto tema sovrascrivente. Lettura/scrittura [`IOverrideTheme`](../ioverridetheme). |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | Applica uno schema di colore extra a una diapositiva. |
+| [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | Applica lo schema di colori extra a una diapositiva. |
 | [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | Restituisce l'oggetto tema. |
 
 ### Vedi anche

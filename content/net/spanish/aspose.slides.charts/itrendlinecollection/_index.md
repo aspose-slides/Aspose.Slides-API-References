@@ -3,7 +3,7 @@ title: ITrendlineCollection
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa una colección de TrendlineEx
 type: docs
-weight: 2250
+weight: 2270
 url: /es/aspose.slides.charts/itrendlinecollection/
 ---
 ## ITrendlineCollection interfaz
@@ -18,15 +18,15 @@ public interface ITrendlineCollection : IEnumerable<ITrendline>
 
 | Nombre | Descripción |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.charts/itrendlinecollection/asienumerable) { get; } | Permite obtener la interfaz base IEnumerable. IEnumerable de solo lectura. |
-| [Count](../../aspose.slides.charts/itrendlinecollection/count) { get; } | Obtiene el número de elementos realmente contenidos en la colección. Int32 de solo lectura. |
-| [Item](../../aspose.slides.charts/itrendlinecollection/item) { get; } | Obtiene el elemento en el índice especificado. [`ITrendline`](../itrendline) de solo lectura. |
+| [AsIEnumerable](../../aspose.slides.charts/itrendlinecollection/asienumerable) { get; } | Permite obtener la interfaz IEnumerable base. Solo lectura IEnumerable. |
+| [Count](../../aspose.slides.charts/itrendlinecollection/count) { get; } | Obtiene el número de elementos realmente contenidos en la colección. Solo lectura Int32. |
+| [Item](../../aspose.slides.charts/itrendlinecollection/item) { get; } | Obtiene el elemento en el índice especificado. Solo lectura [`ITrendline`](../itrendline). |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [Add](../../aspose.slides.charts/itrendlinecollection/add)(TrendlineType) | Añade la nueva Trendline al final de una colección y la devuelve. |
+| [Add](../../aspose.slides.charts/itrendlinecollection/add)(TrendlineType) | Añade el nuevo Trendline al final de una colección y lo devuelve. |
 | [Remove](../../aspose.slides.charts/itrendlinecollection/remove)(ITrendline) | Elimina el valor especificado. |
 
 ### Ver también

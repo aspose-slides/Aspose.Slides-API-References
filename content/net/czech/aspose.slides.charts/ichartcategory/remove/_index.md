@@ -1,9 +1,9 @@
 ---
 title: Remove
-second_title: Aspose.Sildes pro .NET – referenční dokumentace API
+second_title: Aspose.Sildes pro .NET API Reference
 description: Odstraní kategorii z grafu.
 type: docs
-weight: 60
+weight: 70
 url: /cs/aspose.slides.charts/ichartcategory/remove/
 ---
 ## IChartCategory.Remove metoda

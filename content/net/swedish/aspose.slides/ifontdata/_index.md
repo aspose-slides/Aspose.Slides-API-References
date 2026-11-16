@@ -3,7 +3,7 @@ title: IFontData
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en teckensnittsdefinition.
 type: docs
-weight: 5830
+weight: 5850
 url: /sv/aspose.slides/ifontdata/
 ---
 ## IFontData gränssnitt
@@ -18,13 +18,13 @@ public interface IFontData
 
 | Namn | Beskrivning |
 | --- | --- |
-| [FontName](../../aspose.slides/ifontdata/fontname) { get; } | Returnerar fontnamnet. Skrivskyddad String. |
+| [FontName](../../aspose.slides/ifontdata/fontname) { get; } | Returnerar teckensnittsnamnet. Skrivskyddad String. |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
-| [GetFontName](../../aspose.slides/ifontdata/getfontname)(IThemeEffectiveData) | Returnerar fontnamnet och ersätter temareferensen med ett faktiskt använt teckensnitt. |
+| [GetFontName](../../aspose.slides/ifontdata/getfontname)(IThemeEffectiveData) | Returnerar teckensnittsnamnet och ersätter temareferensen med ett faktiskt använt teckensnitt. |
 
 ### Se även
 

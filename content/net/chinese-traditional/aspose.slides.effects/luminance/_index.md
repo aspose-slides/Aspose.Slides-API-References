@@ -1,14 +1,14 @@
 ---
 title: Luminance
-second_title: Aspose.Sildes for .NET API 參考文件
-description: 表示 Luminance 效果。亮度會線性將所有顏色向白色或黑色移動。對比度會將所有顏色縮放，使它們彼此更接近或更遠離。
+second_title: Aspose.Sildes for .NET API 參考
+description: 代表 Luminance 效果。Brightness 以線性方式將所有顏色向白色或黑色移動。Contrast 調整所有顏色的間距，使其更接近或更遠離。
 type: docs
-weight: 3610
+weight: 3630
 url: /zh-hant/aspose.slides.effects/luminance/
 ---
 ## Luminance 類別
 
-表示 Luminance 效果。亮度會線性將所有顏色向白色或黑色移動。對比度會將所有顏色縮放，使它們彼此更接近或更遠。
+代表 Luminance 效果。Brightness 以線性方式將所有顏色向白色或黑色移動。Contrast 使所有顏色的間距變大或變小。
 
 ```csharp
 public sealed class Luminance : ImageTransformOperation, ILuminance
@@ -25,7 +25,7 @@ public sealed class Luminance : ImageTransformOperation, ILuminance
 | 名稱 | 說明 |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/luminance/equals)(object) | 判斷指定的 [`Luminance`](../luminance) 是否等於目前的 [`Luminance`](../luminance)。 |
-| [GetEffective](../../aspose.slides.effects/luminance/geteffective)() | 取得套用繼承後的有效 Luminance 效果資料。 |
+| [GetEffective](../../aspose.slides.effects/luminance/geteffective)() | 取得已套用繼承的有效 Luminance 效果資料。 |
 | override [GetHashCode](../../aspose.slides.effects/luminance/gethashcode)() | 作為特定類型的雜湊函式。 |
 
 ### 另請參閱

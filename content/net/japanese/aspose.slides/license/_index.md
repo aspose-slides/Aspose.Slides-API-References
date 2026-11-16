@@ -1,14 +1,14 @@
 ---
 title: License
-second_title: Aspose.Sildes for .NET API リファレンス
-description: コンポーネントをライセンスするためのメソッドを提供します。
+second_title: Aspose.Sildes for .NET API Reference
+description: コンポーネントにライセンスを付与するためのメソッドを提供します。
 type: docs
-weight: 7680
+weight: 7700
 url: /ja/aspose.slides/license/
 ---
 ## License クラス
 
-コンポーネントをライセンスするためのメソッドを提供します。
+コンポーネントのライセンスを付与するためのメソッドを提供します。
 
 ```csharp
 public class License : ILicense
@@ -31,7 +31,7 @@ public class License : ILicense
 
 ### 例
 
-この例では、コンポーネントが含まれるフォルダー、呼び出し側アセンブリが含まれるフォルダー、エントリアセンブリのフォルダー、そして呼び出し側アセンブリの埋め込みリソースの順に、MyLicense.lic という名前のライセンスファイルを探すことを試みます。
+この例では、コンポーネントが含まれるフォルダー、呼び出し元アセンブリが含まれるフォルダー、エントリ アセンブリのフォルダー、そして呼び出し元アセンブリの埋め込みリソースの順に、MyLicense.lic という名前のライセンス ファイルを検索しようとします。
 
 ```csharp
 [C#]
@@ -46,7 +46,7 @@ Dim license As license = New license
 License.SetLicense("MyLicense.lic")
 ```
 
-### 関連項目
+### 参照
 
 * インターフェイス [ILicense](../ilicense)
 * 名前空間 [Aspose.Slides](../../aspose.slides)

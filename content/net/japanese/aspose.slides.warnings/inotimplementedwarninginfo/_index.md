@@ -1,14 +1,14 @@
 ---
 title: INotImplementedWarningInfo
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 既知の未実装機能に関する警告を表します。この機能は近い将来に実装される予定はありません。
+description: 近い将来に実装されないことが既知の未実装機能に関する警告を表します。
 type: docs
-weight: 11770
+weight: 11790
 url: /ja/aspose.slides.warnings/inotimplementedwarninginfo/
 ---
 ## INotImplementedWarningInfo インターフェイス
 
-既知の未実装機能に関する警告を表します。この機能は近い将来に実装される予定はありません。
+近い将来に実装されないことが既知の未実装機能に関する警告を表します。
 
 ```csharp
 public interface INotImplementedWarningInfo : IWarningInfo

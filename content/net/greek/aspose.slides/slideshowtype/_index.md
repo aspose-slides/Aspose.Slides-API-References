@@ -1,14 +1,14 @@
 ---
 title: SlideShowType
 second_title: Aspose.Sildes για .NET API Αναφορά
-description: Βασικές ρυθμίσεις παρουσίασης διαφάνειας. Οι πρόγονοι αντιπροσωπεύουν τύπους της παρουσίασης διαφάνειας PresentedBySpeaker./presentedbyspeaker Παρουσιάζεται από ομιλητή πλήρης οθόνη BrowsedByIndividual./browsedbyindividual Προβάλλεται από άτομο παράθυρο BrowsedAtKiosk./browsedatkiosk Προβάλλεται σε περίπτερο πλήρης οθόνη
+description: Βασικές ρυθμίσεις παρουσίασης διαφανειών. Οι προγόνες αντιπροσωπεύουν τύπους της παρουσίασης διαφανειων PresentedBySpeaker./presentedbyspeaker Παρουσιάζεται από ομιλητή πλήρης οθόνη BrowsedByIndividual./browsedbyindividual Περιηγείται από άτομο παράθυρο BrowsedAtKiosk./browsedatkiosk Περιηγείται σε περίπτερο πλήρης οθόνα
 type: docs
-weight: 10490
+weight: 10510
 url: /el/aspose.slides/slideshowtype/
 ---
 ## SlideShowType κλάση
 
-Βασικές ρυθμίσεις παρουσίασης διαφάνειας. Οι πρόγονοι αντιπροσωπεύουν τύπους της παρουσίασης διαφάνειας: [`PresentedBySpeaker`](../presentedbyspeaker) Παρουσιάζεται από ομιλητή (πλήρης οθόνη) [`BrowsedByIndividual`](../browsedbyindividual) Προβάλλεται από άτομο (παράθυρο) [`BrowsedAtKiosk`](../browsedatkiosk) Προβάλλεται σε περίπτερο (πλήρης οθόνη)
+Βασικές ρυθμίσεις παρουσίασης διαφανειών. Οι προγόνες αντιπροσωπεύουν τύπους της παρουσίασης διαφανειών: [`PresentedBySpeaker`](../presentedbyspeaker) Παρουσιάζεται από ομιλητή (πλήρης οθόνη) [`BrowsedByIndividual`](../browsedbyindividual) Περιηγείται από άτομο (παράθυρο) [`BrowsedAtKiosk`](../browsedatkiosk) Περιηγείται σε περίπτερο (πλήρης οθόνη)
 
 ```csharp
 public abstract class SlideShowType

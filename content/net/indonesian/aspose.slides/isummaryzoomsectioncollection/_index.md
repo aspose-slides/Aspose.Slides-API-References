@@ -1,14 +1,14 @@
 ---
 title: ISummaryZoomSectionCollection
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili koleksi objek Summary Zoom Section.
+second_title: Aspose.Sildes untuk .NET Referensi API
+description: Mewakili kumpulan objek Summary Zoom Section.
 type: docs
-weight: 7170
+weight: 7190
 url: /id/aspose.slides/isummaryzoomsectioncollection/
 ---
 ## ISummaryZoomSectionCollection antarmuka
 
-Mewakili koleksi objek Summary Zoom Section.
+Mewakili kumpulan objek Summary Zoom Section.
 
 ```csharp
 public interface ISummaryZoomSectionCollection : IGenericCollection<ISummaryZoomSection>

@@ -1,14 +1,14 @@
 ---
 title: IRenderingOptions
-second_title: Aspose.Sildes для .NET справочник API
-description: Предоставляет параметры, которые контролируют способ рендеринга презентации/слайда.
+second_title: Aspose.Sildes для .NET API справочник
+description: Предоставляет параметры, которые управляют тем, как отображается презентация/слайд.
 type: docs
-weight: 4040
+weight: 4060
 url: /ru/aspose.slides.export/irenderingoptions/
 ---
 ## IRenderingOptions интерфейс
 
-Предоставляет параметры, которые контролируют способ рендеринга презентации/слайда.
+Предоставляет параметры, которые управляют тем, как отображается презентация/слайд.
 
 ```csharp
 public interface IRenderingOptions : ISaveOptions
@@ -18,9 +18,9 @@ public interface IRenderingOptions : ISaveOptions
 
 | Имя | Описание |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/irenderingoptions/asisaveoptions) { get; } | Возвращает интерфейс ISaveOptions. Только для чтения [`ISaveOptions`](../isaveoptions). |
-| [DisableFontLigatures](../../aspose.slides.export/irenderingoptions/disablefontligatures) { get; set; } | Получает или задает значение, указывающее, отображается ли текст без использования лигатур. При значении `true` лигатуры будут отключены в выводимом результате. По умолчанию это свойство имеет значение `false`. |
-| [InkOptions](../../aspose.slides.export/irenderingoptions/inkoptions) { get; } | Предоставляет параметры, которые контролируют внешний вид объектов Ink в экспортированном документе. Только для чтения [`IInkOptions`](../iinkoptions) |
+| [AsISaveOptions](../../aspose.slides.export/irenderingoptions/asisaveoptions) { get; } | Возвращает ISaveOptions интерфейс. Только для чтения [`ISaveOptions`](../isaveoptions). |
+| [DisableFontLigatures](../../aspose.slides.export/irenderingoptions/disablefontligatures) { get; set; } | Получает или задает значение, указывающее, отображается ли текст без использования лигатур. Если установить `true`, лигатуры будут отключены в выводе. По умолчанию это свойство имеет значение `false`. |
+| [InkOptions](../../aspose.slides.export/irenderingoptions/inkoptions) { get; } | Предоставляет параметры, которые управляют внешним видом объектов Ink в экспортированном документе. Только для чтения [`IInkOptions`](../iinkoptions) |
 | [SlidesLayoutOptions](../../aspose.slides.export/irenderingoptions/slideslayoutoptions) { get; set; } | Получает или задает режим, в котором слайды размещаются на странице при экспорте презентации [`ISlidesLayoutOptions`](../islideslayoutoptions). |
 
 ### Примеры
@@ -42,7 +42,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Смотрите также
+### См. также
 
 * интерфейс [ISaveOptions](../isaveoptions)
 * пространство имён [Aspose.Slides.Export](../../aspose.slides.export)

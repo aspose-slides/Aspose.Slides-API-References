@@ -1,14 +1,14 @@
 ---
 title: Width
-second_title: Aspose.Sildes の .NET API リファレンス
-description: タイトルの幅をチャートの幅に対する割合として取得または設定します。読み取り/書き込み Single.
+second_title: Aspose.Sildes for .NET API リファレンス
+description: タイトルの幅をチャートの幅の割合として取得または設定します。 読み取り/書き込み Single.
 type: docs
-weight: 150
+weight: 160
 url: /ja/aspose.slides.charts/datalabel/width/
 ---
 ## DataLabel.Width プロパティ
 
-タイトルの幅をチャートの幅に対する割合として取得または設定します。読み取り/書き込み Single.
+タイトルの幅をチャートの幅の割合として取得または設定します。 読み取り/書き込み Single.
 
 ```csharp
 public float Width { get; set; }

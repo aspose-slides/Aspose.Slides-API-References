@@ -1,14 +1,14 @@
 ---
 title: IParagraphFormatEffectiveData
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Objek tak dapat diubah yang berisi properti pemformatan paragraf yang efektif.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Objek tidak dapat diubah yang berisi properti format paragraf efektif.
 type: docs
-weight: 6600
+weight: 6620
 url: /id/aspose.slides/iparagraphformateffectivedata/
 ---
 ## IParagraphFormatEffectiveData antarmuka
 
-Objek tak dapat diubah yang berisi properti pemformatan paragraf yang efektif.
+Objek tidak dapat diubah yang berisi properti format paragraf efektif.
 
 ```csharp
 public interface IParagraphFormatEffectiveData
@@ -18,31 +18,31 @@ public interface IParagraphFormatEffectiveData
 
 | Nama | Deskripsi |
 | --- | --- |
-| [Alignment](../../aspose.slides/iparagraphformateffectivedata/alignment) { get; } | Mengembalikan perataan teks dalam paragraf. Hanya-baca [`TextAlignment`](../textalignment). |
-| [Bullet](../../aspose.slides/iparagraphformateffectivedata/bullet) { get; } | Mengembalikan format bullet paragraf. Hanya-baca [`IBulletFormatEffectiveData`](../ibulletformateffectivedata). |
-| [DefaultPortionFormat](../../aspose.slides/iparagraphformateffectivedata/defaultportionformat) { get; } | Mengembalikan format bagian default paragraf. Hanya-baca [`IPortionFormatEffectiveData`](../iportionformateffectivedata). |
-| [DefaultTabSize](../../aspose.slides/iparagraphformateffectivedata/defaulttabsize) { get; } | Mengembalikan ukuran tabulasi default. Hanya-baca Single. |
-| [Depth](../../aspose.slides/iparagraphformateffectivedata/depth) { get; } | Mengembalikan kedalaman paragraf. Hanya-baca Int16. |
-| [EastAsianLineBreak](../../aspose.slides/iparagraphformateffectivedata/eastasianlinebreak) { get; } | Menentukan apakah jeda baris Asia Timur digunakan dalam paragraf. Hanya-baca Boolean. |
-| [FontAlignment](../../aspose.slides/iparagraphformateffectivedata/fontalignment) { get; } | Mengembalikan perataan font dalam paragraf. Hanya-baca [`FontAlignment`](../fontalignment). |
-| [HangingPunctuation](../../aspose.slides/iparagraphformateffectivedata/hangingpunctuation) { get; } | Menentukan apakah tanda baca gantung digunakan dalam paragraf. Hanya-baca Boolean. |
-| [Indent](../../aspose.slides/iparagraphformateffectivedata/indent) { get; } | Mengembalikan First Line Indent/Hanging Indent paragraf. Hanging Indent dapat didefinisikan dengan nilai negatif. Hanya-baca Single. |
-| [LatinLineBreak](../../aspose.slides/iparagraphformateffectivedata/latinlinebreak) { get; } | Menentukan apakah jeda baris Latin digunakan dalam paragraf. Hanya-baca Boolean. |
-| [MarginLeft](../../aspose.slides/iparagraphformateffectivedata/marginleft) { get; } | Mengembalikan margin kiri dalam paragraf. Hanya-baca Single. |
-| [MarginRight](../../aspose.slides/iparagraphformateffectivedata/marginright) { get; } | Mengembalikan margin kanan dalam paragraf. Hanya-baca Single. |
-| [RightToLeft](../../aspose.slides/iparagraphformateffectivedata/righttoleft) { get; } | Menentukan apakah penulisan Right to Left digunakan dalam paragraf. Hanya-baca Boolean. |
-| [SpaceAfter](../../aspose.slides/iparagraphformateffectivedata/spaceafter) { get; } | Mengembalikan jumlah ruang setelah baris terakhir dalam paragraf. Hanya-baca Single. |
-| [SpaceBefore](../../aspose.slides/iparagraphformateffectivedata/spacebefore) { get; } | Mengembalikan jumlah ruang sebelum baris pertama dalam paragraf. Hanya-baca Single. |
-| [SpaceWithin](../../aspose.slides/iparagraphformateffectivedata/spacewithin) { get; } | Mengembalikan jumlah ruang antara garis dasar dalam paragraf. Hanya-baca Single. |
-| [Tabs](../../aspose.slides/iparagraphformateffectivedata/tabs) { get; } | Mengembalikan tabulasi paragraf. Hanya-baca [`ITabEffectiveData`](../itabeffectivedata)[]. |
+| [Alignment](../../aspose.slides/iparagraphformateffectivedata/alignment) { get; } | Mengembalikan perataan teks dalam paragraf. Hanya baca [`TextAlignment`](../textalignment). |
+| [Bullet](../../aspose.slides/iparagraphformateffectivedata/bullet) { get; } | Mengembalikan format bullet dari paragraf. Hanya baca [`IBulletFormatEffectiveData`](../ibulletformateffectivedata). |
+| [DefaultPortionFormat](../../aspose.slides/iparagraphformateffectivedata/defaultportionformat) { get; } | Mengembalikan format bagian default paragraf. Hanya baca [`IPortionFormatEffectiveData`](../iportionformateffectivedata). |
+| [DefaultTabSize](../../aspose.slides/iparagraphformateffectivedata/defaulttabsize) { get; } | Mengembalikan ukuran tabulasi default. Hanya baca Single. |
+| [Depth](../../aspose.slides/iparagraphformateffectivedata/depth) { get; } | Mengembalikan kedalaman paragraf. Hanya baca Int16. |
+| [EastAsianLineBreak](../../aspose.slides/iparagraphformateffectivedata/eastasianlinebreak) { get; } | Menentukan apakah pemutusan baris Asia Timur digunakan dalam paragraf. Hanya baca Boolean. |
+| [FontAlignment](../../aspose.slides/iparagraphformateffectivedata/fontalignment) { get; } | Mengembalikan perataan font dalam paragraf. Hanya baca [`FontAlignment`](../fontalignment). |
+| [HangingPunctuation](../../aspose.slides/iparagraphformateffectivedata/hangingpunctuation) { get; } | Menentukan apakah tanda baca menggantung digunakan dalam paragraf. Hanya baca Boolean. |
+| [Indent](../../aspose.slides/iparagraphformateffectivedata/indent) { get; } | Mengembalikan Indent Baris Pertama/Indent Menggantung paragraf. Indent Menggantung dapat didefinisikan dengan nilai negatif. Hanya baca Single. |
+| [LatinLineBreak](../../aspose.slides/iparagraphformateffectivedata/latinlinebreak) { get; } | Menentukan apakah pemutusan baris Latin digunakan dalam paragraf. Hanya baca Boolean. |
+| [MarginLeft](../../aspose.slides/iparagraphformateffectivedata/marginleft) { get; } | Mengembalikan margin kiri dalam paragraf. Hanya baca Single. |
+| [MarginRight](../../aspose.slides/iparagraphformateffectivedata/marginright) { get; } | Mengembalikan margin kanan dalam paragraf. Hanya baca Single. |
+| [RightToLeft](../../aspose.slides/iparagraphformateffectivedata/righttoleft) { get; } | Menentukan apakah penulisan Dari Kanan ke Kiri digunakan dalam paragraf. Hanya baca Boolean. |
+| [SpaceAfter](../../aspose.slides/iparagraphformateffectivedata/spaceafter) { get; } | Mengembalikan jumlah ruang setelah baris terakhir dalam paragraf. Hanya baca Single. |
+| [SpaceBefore](../../aspose.slides/iparagraphformateffectivedata/spacebefore) { get; } | Mengembalikan jumlah ruang sebelum baris pertama dalam paragraf. Hanya baca Single. |
+| [SpaceWithin](../../aspose.slides/iparagraphformateffectivedata/spacewithin) { get; } | Mengembalikan jumlah ruang antara garis dasar dalam paragraf. Hanya baca Single. |
+| [Tabs](../../aspose.slides/iparagraphformateffectivedata/tabs) { get; } | Mengembalikan tabulasi paragraf. Hanya baca [`ITabEffectiveData`](../itabeffectivedata)[]. |
 
 ### Catatan
 
-Antarmuka ini digunakan bersama dengan antarmuka [`IParagraphFormat`](../iparagraphformat) untuk mengembalikan nilai pemformatan efektif dengan pewarisan yang diterapkan.
+Antarmuka ini digunakan bersama dengan antarmuka [`IParagraphFormat`](../iparagraphformat) untuk mengembalikan nilai format efektif dengan pewarisan yang diterapkan.
 
 ### Lihat Juga
 
 * ruang nama [Aspose.Slides](../../aspose.slides)
-* rakitan [Aspose.Slides](../../)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

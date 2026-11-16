@@ -1,12 +1,12 @@
 ---
 title: INotesSlideManager
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Referência de API Aspose.Sildes para .NET
 description: Gerenciador de slide de notas.
 type: docs
-weight: 6520
+weight: 6540
 url: /pt/aspose.slides/inotesslidemanager/
 ---
-## interface INotesSlideManager
+## INotesSlideManager interface
 
 Gerenciador de slide de notas.
 
@@ -18,14 +18,14 @@ public interface INotesSlideManager
 
 | Nome | Descrição |
 | --- | --- |
-| [NotesSlide](../../aspose.slides/inotesslidemanager/notesslide) { get; } | Retorna o slide de notas da lâmina atual. Retorna null se a lâmina não possuir slide de notas. Somente leitura [`INotesSlide`](../inotesslide). |
+| [NotesSlide](../../aspose.slides/inotesslidemanager/notesslide) { get; } | Retorna o slide de notas para o slide atual. Retorna null se o slide não possui slide de notas. Somente leitura [`INotesSlide`](../inotesslide). |
 
 ## Métodos
 
 | Nome | Descrição |
 | --- | --- |
-| [AddNotesSlide](../../aspose.slides/inotesslidemanager/addnotesslide)() | Retorna o slide de notas da lâmina atual, criando um se não houver. |
-| [RemoveNotesSlide](../../aspose.slides/inotesslidemanager/removenotesslide)() | Remove o slide de notas da lâmina atual. |
+| [AddNotesSlide](../../aspose.slides/inotesslidemanager/addnotesslide)() | Retorna o slide de notas para o slide atual, criando um se não houver. |
+| [RemoveNotesSlide](../../aspose.slides/inotesslidemanager/removenotesslide)() | Remove o slide de notas do slide atual. |
 
 ### Veja Também
 

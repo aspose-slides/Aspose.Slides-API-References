@@ -1,14 +1,14 @@
 ---
 title: IAlphaCeilingEffectiveData
-second_title: Aspose.Sildes para .NET – Referência da API
+second_title: Aspose.Sildes para referência de API .NET
 description: Objeto imutável que representa um efeito Alpha Ceiling. Valores de opacidade Alpha maiores que zero são alterados para 100. Em outras palavras, tudo que é parcialmente opaco torna-se totalmente opaco.
 type: docs
-weight: 3050
+weight: 3070
 url: /pt/aspose.slides.effects/ialphaceilingeffectivedata/
 ---
 ## IAlphaCeilingEffectiveData interface
 
-Objeto imutável que representa um efeito Alpha Ceiling. Valores de Alpha (opacidade) maiores que zero são alterados para 100%. Em outras palavras, tudo que é parcialmente opaco torna-se totalmente opaco.
+Objeto imutável que representa um efeito Alpha Ceiling. Valores Alpha (opacity) maiores que zero são alterados para 100%. Em outras palavras, tudo que é parcialmente opaco torna-se totalmente opaco.
 
 ```csharp
 public interface IAlphaCeilingEffectiveData : IEffectEffectiveData
@@ -16,11 +16,11 @@ public interface IAlphaCeilingEffectiveData : IEffectEffectiveData
 
 ## Propriedades
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
 | [AsIEffectEffectiveData](../../aspose.slides.effects/ialphaceilingeffectivedata/asieffecteffectivedata) { get; } | Permite obter a interface base IEffectEffectiveData. Somente leitura [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
-### Veja também
+### Ver também
 
 * interface [IEffectEffectiveData](../ieffecteffectivedata)
 * namespace [Aspose.Slides.Effects](../../aspose.slides.effects)

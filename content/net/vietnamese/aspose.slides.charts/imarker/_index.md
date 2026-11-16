@@ -1,28 +1,28 @@
 ---
 title: IMarker
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Biểu diễn dấu hiệu của một chert.
+description: Biểu diễn dấu chấm của một biểu đồ.
 type: docs
-weight: 2160
+weight: 2180
 url: /vi/aspose.slides.charts/imarker/
 ---
 ## IMarker giao diện
 
-Biểu diễn dấu hiệu của một chert.
+Biểu diễn dấu chấm của một biểu đồ.
 
 ```csharp
 public interface IMarker
 ```
 
-## Properties
+## Thuộc tính
 
-| Tên | Mô tả |
+| Name | Description |
 | --- | --- |
-| [Format](../../aspose.slides.charts/imarker/format) { get; } | Lấy phần tô của dấu hiệu. Chỉ đọc [`IFormat`](../iformat). |
-| [Size](../../aspose.slides.charts/imarker/size) { get; set; } | Biểu thị kích thước dấu hiệu trong biểu đồ đường, biểu đồ phân tán hoặc biểu đồ radar. Đọc/ghi Int32. |
-| [Symbol](../../aspose.slides.charts/imarker/symbol) { get; set; } | Biểu thị kiểu dấu hiệu trong biểu đồ đường, biểu đồ phân tán hoặc biểu đồ radar. Đọc/ghi [`MarkerStyleType`](../markerstyletype). |
+| [Format](../../aspose.slides.charts/imarker/format) { get; } | Lấy màu nền của dấu chấm. Chỉ đọc [`IFormat`](../iformat). |
+| [Size](../../aspose.slides.charts/imarker/size) { get; set; } | Biểu diễn kích thước dấu chấm trong biểu đồ đường, biểu đồ phân tán hoặc biểu đồ radar. Đọc/ghi Int32. |
+| [Symbol](../../aspose.slides.charts/imarker/symbol) { get; set; } | Biểu diễn kiểu dấu chấm trong biểu đồ đường, biểu đồ phân tán hoặc biểu đồ radar. Đọc/ghi [`MarkerStyleType`](../markerstyletype). |
 
-### Xem Thêm
+### Xem thêm
 
 * không gian tên [Aspose.Slides.Charts](../../aspose.slides.charts)
 * tập hợp [Aspose.Slides](../../)

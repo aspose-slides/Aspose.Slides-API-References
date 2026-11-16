@@ -1,14 +1,14 @@
 ---
 title: MaterialPresetType
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Constanten die het materiaal van een vorm definiëren.
+description: Constanten die het materiaal van de vorm definiëren.
 type: docs
-weight: 8060
+weight: 8080
 url: /nl/aspose.slides/materialpresettype/
 ---
 ## MaterialPresetType enumeratie
 
-Constanten die het materiaal van een vorm definiëren.
+Constanten die het materiaal van de vorm definiëren.
 
 ```csharp
 public enum MaterialPresetType

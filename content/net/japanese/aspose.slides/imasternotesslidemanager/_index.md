@@ -3,7 +3,7 @@ title: IMasterNotesSlideManager
 second_title: Aspose.Sildes for .NET API リファレンス
 description: マスターノートスライドマネージャー。
 type: docs
-weight: 6410
+weight: 6430
 url: /ja/aspose.slides/imasternotesslidemanager/
 ---
 ## IMasterNotesSlideManager インターフェイス
@@ -18,14 +18,14 @@ public interface IMasterNotesSlideManager
 
 | 名前 | 説明 |
 | --- | --- |
-| [MasterNotesSlide](../../aspose.slides/imasternotesslidemanager/masternotesslide) { get; } | このプレゼンテーションのすべてのノートスライドのマスターが存在すればそれを返し、存在しなければ null を返します。読み取り専用 [`IMasterNotesSlide`](../imasternotesslide)。 |
+| [MasterNotesSlide](../../aspose.slides/imasternotesslidemanager/masternotesslide) { get; } | このプレゼンテーションのすべてのノートスライドのマスターが存在する場合はそれを返し、存在しない場合は null を返します。読み取り専用 [`IMasterNotesSlide`](../imasternotesslide)。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
 | [RemoveMasterNotesSlide](../../aspose.slides/imasternotesslidemanager/removemasternotesslide)() | マスターノートスライドを削除します。 |
-| [SetDefaultMasterNotesSlide](../../aspose.slides/imasternotesslidemanager/setdefaultmasternotesslide)() | 関連するノートスライドのデフォルトマスターノートスライドを設定します。 |
+| [SetDefaultMasterNotesSlide](../../aspose.slides/imasternotesslidemanager/setdefaultmasternotesslide)() | 関連ノートスライドの既定のマスターノートスライドを設定します。 |
 
 ### 参照
 

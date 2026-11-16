@@ -3,7 +3,7 @@ title: IInterruptionToken
 second_title: Referência da API Aspose.Sildes para .NET
 description: Esta classe representa o token a ser usado para sinalizar tarefas de longa duração se a interrupção foi solicitada.
 type: docs
-weight: 6190
+weight: 6210
 url: /pt/aspose.slides/iinterruptiontoken/
 ---
 ## IInterruptionToken interface
@@ -24,7 +24,7 @@ public interface IInterruptionToken
 
 | Nome | Descrição |
 | --- | --- |
-| [ThrowIfInterruptionRequested](../../aspose.slides/iinterruptiontoken/throwifinterruptionrequested)() | Lança uma OperationCanceledException se a interrupção foi solicitada. Lançado quando a interrupção foi solicitada. |
+| [ThrowIfInterruptionRequested](../../aspose.slides/iinterruptiontoken/throwifinterruptionrequested)() | Lança uma OperationCanceledException se a interrupção foi solicitada. Lançada quando a interrupção foi solicitada. |
 
 ### Veja Também
 

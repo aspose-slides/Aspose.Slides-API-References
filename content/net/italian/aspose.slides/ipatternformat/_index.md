@@ -1,14 +1,14 @@
 ---
 title: IPatternFormat
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Rappresenta un pattern per riempire una forma.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Rappresenta un modello per riempire una forma.
 type: docs
-weight: 6620
+weight: 6640
 url: /it/aspose.slides/ipatternformat/
 ---
 ## IPatternFormat interfaccia
 
-Rappresenta un pattern per riempire una forma.
+Rappresenta un modello per riempire una forma.
 
 ```csharp
 public interface IPatternFormat
@@ -16,18 +16,18 @@ public interface IPatternFormat
 
 ## Proprietà
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
-| [BackColor](../../aspose.slides/ipatternformat/backcolor) { get; } | Restituisce il colore del pattern di sfondo. Sola lettura [`IColorFormat`](../icolorformat). |
-| [ForeColor](../../aspose.slides/ipatternformat/forecolor) { get; } | Restituisce il colore del pattern di primo piano. Sola lettura [`IColorFormat`](../icolorformat). |
-| [PatternStyle](../../aspose.slides/ipatternformat/patternstyle) { get; set; } | Restituisce o imposta lo stile del pattern. Lettura/scrittura [`PatternStyle`](../patternstyle). |
+| [BackColor](../../aspose.slides/ipatternformat/backcolor) { get; } | Restituisce il colore di sfondo del modello. Solo lettura [`IColorFormat`](../icolorformat). |
+| [ForeColor](../../aspose.slides/ipatternformat/forecolor) { get; } | Restituisce il colore di primo piano del modello. Solo lettura [`IColorFormat`](../icolorformat). |
+| [PatternStyle](../../aspose.slides/ipatternformat/patternstyle) { get; set; } | Restituisce o imposta lo stile del modello. Lettura/Scrittura [`PatternStyle`](../patternstyle). |
 
 ## Metodi
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
-| [GetTile](../../aspose.slides/ipatternformat/gettile#gettile)(Color) | Crea un’immagine tile per il riempimento del pattern. |
-| [GetTile](../../aspose.slides/ipatternformat/gettile#gettile_1)(Color, Color) | Crea un’immagine tile per il riempimento del pattern con i colori specificati. |
+| [GetTile](../../aspose.slides/ipatternformat/gettile#gettile)(Color) | Crea un'immagine tile per il riempimento del modello. |
+| [GetTile](../../aspose.slides/ipatternformat/gettile#gettile_1)(Color, Color) | Crea un'immagine tile per il riempimento del modello con i colori specificati. |
 
 ### Vedi anche
 

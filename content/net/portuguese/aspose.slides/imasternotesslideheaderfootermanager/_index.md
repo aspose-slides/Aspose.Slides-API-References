@@ -1,14 +1,14 @@
 ---
 title: IMasterNotesSlideHeaderFooterManager
-second_title: Referência da API Aspose.Sildes para .NET
-description: Representa o gerenciador que contém o comportamento dos marcadores de rodapé, data/hora, número de página do slide de notas mestre e de todos os marcadores filhos. Marcadores filhos significam que os marcadores estão contidos em slides de notas dependentes. Slides de notas dependentes utilizam e dependem do slide de notas mestre.
+second_title: Aspose.Sildes para .NET Referência da API
+description: Representa o gerenciador que contém o comportamento dos placeholders de rodapé, data e hora, número de página do slide de notas mestre e de todos os placeholders filhos. Placeholders filhos significam que os placeholders estão contidos em slides de notas dependentes. Slides de notas dependentes utilizam e dependem do slide de notas mestre.
 type: docs
-weight: 6400
+weight: 6420
 url: /pt/aspose.slides/imasternotesslideheaderfootermanager/
 ---
 ## IMasterNotesSlideHeaderFooterManager interface
 
-Representa o gerenciador que contém o comportamento do rodapé do slide de notas mestre, dos marcadores de data/hora, número de página e de todos os marcadores filhos. Marcadores filhos significam que os marcadores estão contidos em slides de notas dependentes. Slides de notas dependentes utilizam e dependem do slide de notas mestre.
+Representa o gerenciador que contém o comportamento do rodapé do slide de notas mestre, dos placeholders de data e hora, número de página e de todos os placeholders filhos. Placeholders filhos significam que os placeholders estão contidos em slides de notas dependentes. Slides de notas dependentes utilizam e dependem do slide de notas mestre.
 
 ```csharp
 public interface IMasterNotesSlideHeaderFooterManager : IBaseHandoutNotesSlideHeaderFooterManag
@@ -16,21 +16,21 @@ public interface IMasterNotesSlideHeaderFooterManager : IBaseHandoutNotesSlideHe
 
 ## Propriedades
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
 | [AsIBaseHandoutNotesSlideHeaderFooterManag](../../aspose.slides/imasternotesslideheaderfootermanager/asibasehandoutnotesslideheaderfootermanag) { get; } | Retorna IBaseHandoutNotesSlideHeaderFooterManag interface. |
 
 ## Métodos
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Define o texto no marcador de data/hora do slide de notas mestre e em todos os marcadores de data/hora filhos. Marcadores filhos significam que os marcadores estão contidos em slides de notas dependentes. Slides de notas dependentes utilizam e dependem do slide de notas mestre. |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Altera a visibilidade do marcador de data/hora do slide de notas mestre e de todos os marcadores de data/hora filhos. Marcadores filhos significam que os marcadores estão contidos em slides de notas dependentes. Slides de notas dependentes utilizam e dependem do slide de notas mestre. |
-| [SetFooterAndChildFootersText](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfooterstext)(string) | Define o texto no marcador de rodapé do slide de notas mestre e em todos os marcadores de rodapé filhos. Marcadores filhos significam que os marcadores estão contidos em slides de notas dependentes. Slides de notas dependentes utilizam e dependem do slide de notas mestre. |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Altera a visibilidade do marcador de rodapé do slide de notas mestre e de todos os marcadores de rodapé filhos. Marcadores filhos significam que os marcadores estão contidos em slides de notas dependentes. Slides de notas dependentes utilizam e dependem do slide de notas mestre. |
-| [SetHeaderAndChildHeadersText](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheaderstext)(string) | Define o texto no marcador de cabeçalho do slide de notas mestre e em todos os marcadores de cabeçalho filhos. Marcadores filhos significam que os marcadores estão contidos em slides de notas dependentes. Slides de notas dependentes utilizam e dependem do slide de notas mestre. |
-| [SetHeaderAndChildHeadersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheadersvisibility)(bool) | Altera a visibilidade do marcador de cabeçalho do slide de notas mestre e de todos os marcadores de cabeçalho filhos. Marcadores filhos significam que os marcadores estão contidos em slides de notas dependentes. Slides de notas dependentes utilizam e dependem do slide de notas mestre. |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Altera a visibilidade do marcador de número de página do slide de notas mestre e de todos os marcadores de número de página filhos. Marcadores filhos significam que os marcadores estão contidos em slides de notas dependentes. Slides de notas dependentes utilizam e dependem do slide de notas mestre. |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Define o texto no placeholder de data e hora do slide de notas mestre e em todos os placeholders de data e hora filhos. Placeholders filhos significam que os placeholders estão contidos em slides de notas dependentes. Slides de notas dependentes utilizam e dependem do slide de notas mestre. |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Altera a visibilidade do placeholder de data e hora do slide de notas mestre e de todos os placeholders de data e hora filhos. Placeholders filhos significam que os placeholders estão contidos em slides de notas dependentes. Slides de notas dependentes utilizam e dependem do slide de notas mestre. |
+| [SetFooterAndChildFootersText](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfooterstext)(string) | Define o texto no placeholder de rodapé do slide de notas mestre e em todos os placeholders de rodapé filhos. Placeholders filhos significam que os placeholders estão contidos em slides de notas dependentes. Slides de notas dependentes utilizam e dependem do slide de notas mestre. |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Altera a visibilidade do placeholder de rodapé do slide de notas mestre e de todos os placeholders de rodapé filhos. Placeholders filhos significam que os placeholders estão contidos em slides de notas dependentes. Slides de notas dependentes utilizam e dependem do slide de notas mestre. |
+| [SetHeaderAndChildHeadersText](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheaderstext)(string) | Define o texto no placeholder de cabeçalho do slide de notas mestre e em todos os placeholders de cabeçalho filhos. Placeholders filhos significam que os placeholders estão contidos em slides de notas dependentes. Slides de notas dependentes utilizam e dependem do slide de notas mestre. |
+| [SetHeaderAndChildHeadersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheadersvisibility)(bool) | Altera a visibilidade do placeholder de cabeçalho do slide de notas mestre e de todos os placeholders de cabeçalho filhos. Placeholders filhos significam que os placeholders estão contidos em slides de notas dependentes. Slides de notas dependentes utilizam e dependem do slide de notas mestre. |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Altera a visibilidade do placeholder de número de página do slide de notas mestre e de todos os placeholders de número de página filhos. Placeholders filhos significam que os placeholders estão contidos em slides de notas dependentes. Slides de notas dependentes utilizam e dependem do slide de notas mestre. |
 
 ### Ver também
 

@@ -1,9 +1,9 @@
 ---
 title: TickMarkType
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes .NET API 레퍼런스
 description: 지정된 축에 대한 눈금 표시 유형을 나타냅니다.
 type: docs
-weight: 2450
+weight: 2470
 url: /ko/aspose.slides.charts/tickmarktype/
 ---
 ## TickMarkType 열거형
@@ -18,10 +18,10 @@ public enum TickMarkType
 
 | 이름 | 값 | 설명 |
 | --- | --- | --- |
-| Cross | `0` | 눈금이 축과 교차하도록 지정합니다. |
-| Inside | `1` | 눈금이 플롯 영역 안에 있도록 지정합니다. |
-| None | `2` | 눈금이 없도록 지정합니다. |
-| Outside | `3` | 눈금이 플롯 영역 밖에 있도록 지정합니다. |
+| Cross | `0` | 눈금 표시가 축을 가로지르도록 지정합니다. |
+| Inside | `1` | 눈금 표시가 플롯 영역 안쪽에 있도록 지정합니다. |
+| None | `2` | 눈금 표시가 없도록 지정합니다. |
+| Outside | `3` | 눈금 표시가 플롯 영역 밖에 있도록 지정합니다. |
 
 ### 참조
 

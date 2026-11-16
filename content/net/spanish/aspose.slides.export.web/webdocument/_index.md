@@ -3,7 +3,7 @@ title: WebDocument
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa una forma de transición de la presentación para guardarla en un formato web.
 type: docs
-weight: 4680
+weight: 4700
 url: /es/aspose.slides.export.web/webdocument/
 ---
 ## WebDocument clase
@@ -16,13 +16,13 @@ public class WebDocument
 
 ## Constructores
 
-| Nombre | Descripción |
+| Name | Description |
 | --- | --- |
 | [WebDocument](webdocument)(WebDocumentOptions) | [`WebDocument`](../webdocument) constructor. |
 
 ## Propiedades
 
-| Nombre | Descripción |
+| Name | Description |
 | --- | --- |
 | [Global](../../aspose.slides.export.web/webdocument/global) { get; } | Devuelve el almacenamiento global del documento. Solo lectura [`Storage`](../storage). |
 | [Input](../../aspose.slides.export.web/webdocument/input) { get; } |  |
@@ -30,7 +30,7 @@ public class WebDocument
 
 ## Métodos
 
-| Nombre | Descripción |
+| Name | Description |
 | --- | --- |
 | [Save](../../aspose.slides.export.web/webdocument/save)() | Guarda la salida del documento. |
 

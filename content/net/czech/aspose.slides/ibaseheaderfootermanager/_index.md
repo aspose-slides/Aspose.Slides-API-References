@@ -1,14 +1,14 @@
 ---
 title: IBaseHeaderFooterManager
 second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje správce, který určuje chování zástupných znaků zápatí, data-času a čísla stránky pro všechny typy snímků.
+description: Představuje správce, který uchovává chování zástupných znaků zápatí, data-času a číslování stránek pro všechny typy snímků.
 type: docs
-weight: 5300
+weight: 5320
 url: /cs/aspose.slides/ibaseheaderfootermanager/
 ---
 ## IBaseHeaderFooterManager rozhraní
 
-Reprezentuje správce, který určuje chování zástupných znaků zápatí, data-času a čísla stránky pro všechny typy snímků.
+Představuje správce, který uchovává chování zápatí, datum-času a zástupných znaků čísel stránek pro všechny typy snímků.
 
 ```csharp
 public interface IBaseHeaderFooterManager

@@ -1,14 +1,14 @@
 ---
 title: IHtmlOptions
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Representa opções de exportação HTML.
 type: docs
-weight: 3970
+weight: 3990
 url: /pt/aspose.slides.export/ihtmloptions/
 ---
-## interface IHtmlOptions
+## IHtmlOptions interface
 
-Representa opções de exportação HTML.
+Represents a HTML exporting options.
 
 ```csharp
 public interface IHtmlOptions : ISaveOptions
@@ -19,18 +19,18 @@ public interface IHtmlOptions : ISaveOptions
 | Nome | Descrição |
 | --- | --- |
 | [AsISaveOptions](../../aspose.slides.export/ihtmloptions/asisaveoptions) { get; } | Retorna a interface ISaveOptions. Somente leitura [`ISaveOptions`](../isaveoptions). |
-| [DeletePicturesCroppedAreas](../../aspose.slides.export/ihtmloptions/deletepicturescroppedareas) { get; set; } | Indicador booleano que indica se as partes recortadas permanecem como parte do documento. Se true, as partes recortadas serão removidas; se false, serão serializadas no documento (o que pode levar a um arquivo maior). Leitura/gravação Boolean. |
+| [DeletePicturesCroppedAreas](../../aspose.slides.export/ihtmloptions/deletepicturescroppedareas) { get; set; } | Um sinal booleano que indica se as partes recortadas permanecem como parte do documento. Se true, as partes recortadas serão removidas; se false, serão serializadas no documento (o que pode levar a um arquivo maior) Leitura/Gravação Boolean. |
 | [DisableFontLigatures](../../aspose.slides.export/ihtmloptions/disablefontligatures) { get; set; } | Obtém ou define um valor que indica se o texto é renderizado sem usar ligaduras. Quando definido como `true`, as ligaduras serão desativadas na saída renderizada. Por padrão, esta propriedade está definida como `false`. |
-| [HtmlFormatter](../../aspose.slides.export/ihtmloptions/htmlformatter) { get; set; } | Retorna ou define o modelo HTML. Leitura/gravação [`IHtmlFormatter`](../ihtmlformatter). |
+| [HtmlFormatter](../../aspose.slides.export/ihtmloptions/htmlformatter) { get; set; } | Retorna ou define o modelo HTML. Leitura/Gravação [`IHtmlFormatter`](../ihtmlformatter). |
 | [InkOptions](../../aspose.slides.export/ihtmloptions/inkoptions) { get; } | Fornece opções que controlam a aparência de objetos Ink no documento exportado. Somente leitura [`IInkOptions`](../iinkoptions) |
-| [JpegQuality](../../aspose.slides.export/ihtmloptions/jpegquality) { get; set; } | Retorna ou define um valor que determina a qualidade das imagens JPEG dentro do documento PDF. Leitura/gravação Byte. |
-| [PicturesCompression](../../aspose.slides.export/ihtmloptions/picturescompression) { get; set; } | Representa o nível de compressão das imagens. Leitura/gravação [`PicturesCompression`](./picturescompression). |
+| [JpegQuality](../../aspose.slides.export/ihtmloptions/jpegquality) { get; set; } | Retorna ou define um valor que determina a qualidade das imagens JPEG dentro do documento PDF. Leitura/Gravação Byte. |
+| [PicturesCompression](../../aspose.slides.export/ihtmloptions/picturescompression) { get; set; } | Representa o nível de compressão das imagens. Leitura/Gravação [`PicturesCompression`](./picturescompression). |
 | [ShowHiddenSlides](../../aspose.slides.export/ihtmloptions/showhiddenslides) { get; set; } | Especifica se o documento gerado deve incluir slides ocultos ou não. O padrão é `false`. |
-| [SlideImageFormat](../../aspose.slides.export/ihtmloptions/slideimageformat) { get; set; } | Retorna ou define opções de formato de imagem de slide. Leitura/gravação [`ISlideImageFormat`](../islideimageformat). |
-| [SlidesLayoutOptions](../../aspose.slides.export/ihtmloptions/slideslayoutoptions) { get; set; } | Obtém ou define o modo como os slides são posicionados na página ao exportar uma apresentação [`ISlidesLayoutOptions`](../islideslayoutoptions). |
-| [SvgResponsiveLayout](../../aspose.slides.export/ihtmloptions/svgresponsivelayout) { get; set; } | True para excluir atributos de largura e altura do contêiner SVG – isso tornará o layout responsivo. False caso contrário. Leitura/gravação Boolean. |
+| [SlideImageFormat](../../aspose.slides.export/ihtmloptions/slideimageformat) { get; set; } | Retorna ou define as opções de formato da imagem do slide. Leitura/Gravação [`ISlideImageFormat`](../islideimageformat). |
+| [SlidesLayoutOptions](../../aspose.slides.export/ihtmloptions/slideslayoutoptions) { get; set; } | Obtém ou define o modo em que os slides são posicionados na página ao exportar uma apresentação [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [SvgResponsiveLayout](../../aspose.slides.export/ihtmloptions/svgresponsivelayout) { get; set; } | Verdadeiro para excluir os atributos width e height do contêiner SVG - isso tornará o layout responsivo. Falso - caso contrário. Leitura/Gravação Boolean. |
 
-### Ver também
+### Veja Também
 
 * interface [ISaveOptions](../isaveoptions)
 * namespace [Aspose.Slides.Export](../../aspose.slides.export)

@@ -1,14 +1,14 @@
 ---
 title: ViewProperties
-second_title: Aspose.Sildes for .NET API 參考文件
-description: 簡報整體的檢視屬性。
+second_title: Aspose.Sildes for .NET API 參考
+description: 簡報全域檢視屬性。
 type: docs
-weight: 11740
+weight: 11760
 url: /zh-hant/aspose.slides/viewproperties/
 ---
 ## ViewProperties 類別
 
-整個簡報的檢視屬性。
+簡報的全域檢視屬性。
 
 ```csharp
 public class ViewProperties : IViewProperties
@@ -18,12 +18,12 @@ public class ViewProperties : IViewProperties
 
 | 名稱 | 說明 |
 | --- | --- |
-| [GridSpacing](../../aspose.slides/viewproperties/gridspacing) { get; set; } | 返回或設定應用於簡報文件底層格線的格距，單位為點。讀寫 Single。 |
-| [LastView](../../aspose.slides/viewproperties/lastview) { get; set; } | 指定簡報文件上次儲存時使用的檢視模式。讀寫 [`ViewType`](../viewtype)。 |
-| [NormalViewProperties](../../aspose.slides/viewproperties/normalviewproperties) { get; } | 表示普通檢視屬性。普通檢視包含三個內容區域：投影片本身、側邊內容區以及底部內容區。唯讀 [`INormalViewProperties`](../inormalviewproperties)。 |
-| [NotesViewProperties](../../aspose.slides/viewproperties/notesviewproperties) { get; } | 指定與註解檢視模式相關的共用檢視屬性。唯讀 [`ICommonSlideViewProperties`](../icommonslideviewproperties)。 |
+| [GridSpacing](../../aspose.slides/viewproperties/gridspacing) { get; set; } | 取得或設定用於簡報文件底層格線的格距，以點為單位。讀寫 Single。 |
+| [LastView](../../aspose.slides/viewproperties/lastview) { get; set; } | 指定最後儲存簡報文件時所使用的檢視模式。讀寫 [`ViewType`](../viewtype)。 |
+| [NormalViewProperties](../../aspose.slides/viewproperties/normalviewproperties) { get; } | 表示普通檢視的屬性。普通檢視由三個內容區域組成：投影片本身、側邊內容區域以及底部內容區域。唯讀 [`INormalViewProperties`](../inormalviewproperties)。 |
+| [NotesViewProperties](../../aspose.slides/viewproperties/notesviewproperties) { get; } | 指定與備註檢視模式相關的通用檢視屬性。唯讀 [`ICommonSlideViewProperties`](../icommonslideviewproperties)。 |
 | [ShowComments](../../aspose.slides/viewproperties/showcomments) { get; set; } | 指定是否顯示投影片註解。讀寫 [`NullableBool`](../nullablebool)。 |
-| [SlideViewProperties](../../aspose.slides/viewproperties/slideviewproperties) { get; } | 指定與投影片檢視模式相關的共用檢視屬性。唯讀 [`ICommonSlideViewProperties`](../icommonslideviewproperties)。 |
+| [SlideViewProperties](../../aspose.slides/viewproperties/slideviewproperties) { get; } | 指定與投影片檢視模式相關的通用檢視屬性。唯讀 [`ICommonSlideViewProperties`](../icommonslideviewproperties)。 |
 
 ### 另請參閱
 

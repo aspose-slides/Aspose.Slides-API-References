@@ -1,9 +1,9 @@
 ---
 title: RippleTransition
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: Ripple 슬라이드 전환 효과.
 type: docs
-weight: 10290
+weight: 10310
 url: /ko/aspose.slides.slideshow/rippletransition/
 ---
 ## RippleTransition 클래스
@@ -25,9 +25,9 @@ public class RippleTransition : TransitionValueBase, IRippleTransition
 | 이름 | 설명 |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 두 TransitionValueBase 인스턴스가 같은지 여부를 결정합니다. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 특정 형식에 대한 해시 함수 역할을 하며, 해시 알고리즘 및 해시 테이블과 같은 데이터 구조에 사용할 수 있습니다. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 특정 유형에 대한 해시 함수 역할을 하며, 해시 알고리즘 및 해시 테이블과 같은 데이터 구조에서 사용하기에 적합합니다. |
 
-### 참조
+### 참고
 
 * 클래스 [TransitionValueBase](../transitionvaluebase)
 * 인터페이스 [IRippleTransition](../irippletransition)

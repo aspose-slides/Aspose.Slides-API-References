@@ -1,9 +1,9 @@
 ---
 title: IColorSchemeEffectiveData
-second_title: Aspose.Sildes pro .NET - referenční příručka API
+second_title: Aspose.Sildes pro .NET API Reference
 description: Neměnný objekt, který obsahuje efektivní vlastnosti schématu barev.
 type: docs
-weight: 11160
+weight: 11180
 url: /cs/aspose.slides.theme/icolorschemeeffectivedata/
 ---
 ## IColorSchemeEffectiveData rozhraní
@@ -18,25 +18,25 @@ public interface IColorSchemeEffectiveData
 
 | Název | Popis |
 | --- | --- |
-| [Accent1](../../aspose.slides.theme/icolorschemeeffectivedata/accent1) { get; } | První akcentní barva ve schématu. Pouze pro čtení Color. |
-| [Accent2](../../aspose.slides.theme/icolorschemeeffectivedata/accent2) { get; } | Druhá akcentní barva ve schématu. Pouze pro čtení Color. |
-| [Accent3](../../aspose.slides.theme/icolorschemeeffectivedata/accent3) { get; } | Třetí akcentní barva ve schématu. Pouze pro čtení Color. |
-| [Accent4](../../aspose.slides.theme/icolorschemeeffectivedata/accent4) { get; } | Čtvrtá akcentní barva ve schématu. Pouze pro čtení Color. |
-| [Accent5](../../aspose.slides.theme/icolorschemeeffectivedata/accent5) { get; } | Pátá akcentní barva ve schématu. Pouze pro čtení Color. |
-| [Accent6](../../aspose.slides.theme/icolorschemeeffectivedata/accent6) { get; } | Šestá akcentní barva ve schématu. Pouze pro čtení Color. |
-| [Dark1](../../aspose.slides.theme/icolorschemeeffectivedata/dark1) { get; } | První tmavá barva ve schématu. Pouze pro čtení Color. |
-| [Dark2](../../aspose.slides.theme/icolorschemeeffectivedata/dark2) { get; } | Druhá tmavá barva ve schématu. Pouze pro čtení Color. |
-| [FollowedHyperlink](../../aspose.slides.theme/icolorschemeeffectivedata/followedhyperlink) { get; } | Barva pro navštívené hypertextové odkazy. Pouze pro čtení Color. |
-| [Hyperlink](../../aspose.slides.theme/icolorschemeeffectivedata/hyperlink) { get; } | Barva pro hypertextové odkazy. Pouze pro čtení Color. |
-| [Item](../../aspose.slides.theme/icolorschemeeffectivedata/item) { get; } | Získá prvek na zadaném indexu. Pouze pro čtení Color. |
-| [Light1](../../aspose.slides.theme/icolorschemeeffectivedata/light1) { get; } | První světelná barva ve schématu. Pouze pro čtení Color. |
-| [Light2](../../aspose.slides.theme/icolorschemeeffectivedata/light2) { get; } | Druhá světelná barva ve schématu. Pouze pro čtení Color. |
+| [Accent1](../../aspose.slides.theme/icolorschemeeffectivedata/accent1) { get; } | První akcentní barva ve schématu. Barva pouze pro čtení. |
+| [Accent2](../../aspose.slides.theme/icolorschemeeffectivedata/accent2) { get; } | Druhá akcentní barva ve schématu. Barva pouze pro čtení. |
+| [Accent3](../../aspose.slides.theme/icolorschemeeffectivedata/accent3) { get; } | Třetí akcentní barva ve schématu. Barva pouze pro čtení. |
+| [Accent4](../../aspose.slides.theme/icolorschemeeffectivedata/accent4) { get; } | Čtvrtá akcentní barva ve schématu. Barva pouze pro čtení. |
+| [Accent5](../../aspose.slides.theme/icolorschemeeffectivedata/accent5) { get; } | Pátá akcentní barva ve schématu. Barva pouze pro čtení. |
+| [Accent6](../../aspose.slides.theme/icolorschemeeffectivedata/accent6) { get; } | Šestá akcentní barva ve schématu. Barva pouze pro čtení. |
+| [Dark1](../../aspose.slides.theme/icolorschemeeffectivedata/dark1) { get; } | První tmavá barva ve schématu. Barva pouze pro čtení. |
+| [Dark2](../../aspose.slides.theme/icolorschemeeffectivedata/dark2) { get; } | Druhá tmavá barva ve schématu. Barva pouze pro čtení. |
+| [FollowedHyperlink](../../aspose.slides.theme/icolorschemeeffectivedata/followedhyperlink) { get; } | Barva pro navštívené hypertextové odkazy. Barva pouze pro čtení. |
+| [Hyperlink](../../aspose.slides.theme/icolorschemeeffectivedata/hyperlink) { get; } | Barva pro hypertextové odkazy. Barva pouze pro čtení. |
+| [Item](../../aspose.slides.theme/icolorschemeeffectivedata/item) { get; } | Získá prvek na určeném indexu. Barva pouze pro čtení. |
+| [Light1](../../aspose.slides.theme/icolorschemeeffectivedata/light1) { get; } | První světlá barva ve schématu. Barva pouze pro čtení. |
+| [Light2](../../aspose.slides.theme/icolorschemeeffectivedata/light2) { get; } | Druhá světlá barva ve schématu. Barva pouze pro čtení. |
 
-## Poznámky
+### Poznámky
 
 Tato třída se používá jako součást [`IThemeEffectiveData`](../ithemeeffectivedata).
 
-## Viz také
+### Viz také
 
 * jmenný prostor [Aspose.Slides.Theme](../../aspose.slides.theme)
 * sestavení [Aspose.Slides](../../)

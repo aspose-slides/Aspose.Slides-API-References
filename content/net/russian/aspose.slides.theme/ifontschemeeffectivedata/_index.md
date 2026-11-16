@@ -1,14 +1,14 @@
 ---
 title: IFontSchemeEffectiveData
-second_title: Aspose.Sildes для .NET справочника API
-description: Неизменяемый объект, содержащий эффективные свойства схемы шрифтов.
+second_title: Aspose.Sildes для .NET: справочник API
+description: Неизменяемый объект, содержащий свойства эффективной схемы шрифтов.
 type: docs
-weight: 11260
+weight: 11280
 url: /ru/aspose.slides.theme/ifontschemeeffectivedata/
 ---
 ## IFontSchemeEffectiveData интерфейс
 
-Неизменяемый объект, содержащий эффективные свойства схемы шрифтов.
+Неизменяемый объект, содержащий свойства эффективной схемы шрифтов.
 
 ```csharp
 public interface IFontSchemeEffectiveData
@@ -18,15 +18,15 @@ public interface IFontSchemeEffectiveData
 
 | Имя | Описание |
 | --- | --- |
-| [Major](../../aspose.slides.theme/ifontschemeeffectivedata/major) { get; } | Возвращает коллекцию шрифтов для части слайда «заголовок». Только для чтения [`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata). |
-| [Minor](../../aspose.slides.theme/ifontschemeeffectivedata/minor) { get; } | Возвращает коллекцию шрифтов для части слайда «основной текст». Только для чтения [`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata). |
-| [Name](../../aspose.slides.theme/ifontschemeeffectivedata/name) { get; } | Возвращает имя схемы шрифтов. Только для чтения String. |
+| [Major](../../aspose.slides.theme/ifontschemeeffectivedata/major) { get; } | Возвращает коллекцию шрифтов для части "heading" слайда. Только для чтения [`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata). |
+| [Minor](../../aspose.slides.theme/ifontschemeeffectivedata/minor) { get; } | Возвращает коллекцию шрифтов для части "body" слайда. Только для чтения [`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata). |
+| [Name](../../aspose.slides.theme/ifontschemeeffectivedata/name) { get; } | Возвращает название схемы шрифтов. Только для чтения String. |
 
 ### Примечания
 
 Этот интерфейс используется как часть [`IThemeEffectiveData`](../ithemeeffectivedata).
 
-### См. также
+### Смотрите также
 
 * пространство имён [Aspose.Slides.Theme](../../aspose.slides.theme)
 * сборка [Aspose.Slides](../../)

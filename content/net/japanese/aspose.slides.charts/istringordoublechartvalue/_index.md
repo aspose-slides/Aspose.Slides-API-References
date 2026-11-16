@@ -1,14 +1,14 @@
 ---
 title: IStringOrDoubleChartValue
-second_title: Aspose.Sildes の .NET API リファレンス
-description: 文字列または double の値を表し、pptx プレゼンテーション ドキュメントに 2 つの方法で格納できます。1) チャートに関連するブックのセル/セル群に、2) リテラル値として。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: pptx プレゼンテーション ドキュメントに保存できる文字列または double 値を、2 つの方法で表します。1) チャートに関連付けられたブックのセル/セル群に、2) リテラル値として。
 type: docs
-weight: 2230
+weight: 2250
 url: /ja/aspose.slides.charts/istringordoublechartvalue/
 ---
 ## IStringOrDoubleChartValue インターフェイス
 
-文字列または double の値を表し、pptx プレゼンテーション ドキュメントに 2 つの方法で格納できます: 1) チャートに関連付けられたブックのセル/セル群に; 2) リテラル値として。
+文字列または double 値を表し、pptx プレゼンテーション ドキュメントに 2 つの方法で保存できます: 1) チャートに関連付けられたブックのセル/セル群に; 2) リテラル値として。
 
 ```csharp
 public interface IStringOrDoubleChartValue : ISingleCellChartValue
@@ -16,19 +16,19 @@ public interface IStringOrDoubleChartValue : ISingleCellChartValue
 
 ## プロパティ
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
 | [AsISingleCellChartValue](../../aspose.slides.charts/istringordoublechartvalue/asisinglecellchartvalue) { get; } | ベースの ISingleCellChartValue インターフェイスを取得できます。読み取り専用 [`ISingleCellChartValue`](../isinglecellchartvalue)。 |
-| [AsLiteralDouble](../../aspose.slides.charts/istringordoublechartvalue/asliteraldouble) { get; set; } | DataSourceType プロパティが DataSourceType.DoubleLiterals の場合、リテラルの double を取得または設定します。読み書き可能 Double。 |
-| [AsLiteralString](../../aspose.slides.charts/istringordoublechartvalue/asliteralstring) { get; set; } | DataSourceType プロパティが DataSourceType.StringLiterals の場合、リテラルの文字列を取得または設定します。読み書き可能 String。 |
+| [AsLiteralDouble](../../aspose.slides.charts/istringordoublechartvalue/asliteraldouble) { get; set; } | DataSourceType プロパティが DataSourceType.DoubleLiterals の場合、リテラル double を取得または設定します。読み書き可能 Double。 |
+| [AsLiteralString](../../aspose.slides.charts/istringordoublechartvalue/asliteralstring) { get; set; } | DataSourceType プロパティが DataSourceType.StringLiterals の場合、リテラル文字列を取得または設定します。読み書き可能 String。 |
 
 ## メソッド
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
 | [ToDouble](../../aspose.slides.charts/istringordoublechartvalue/todouble)() | 値を double に変換します。 |
 
-### 参照
+### 関連項目
 
 * インターフェイス [ISingleCellChartValue](../isinglecellchartvalue)
 * 名前空間 [Aspose.Slides.Charts](../../aspose.slides.charts)

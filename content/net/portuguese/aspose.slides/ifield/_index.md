@@ -1,9 +1,9 @@
 ---
 title: IField
-second_title: Aspose.Sildes para .NET API Reference
+second_title: Aspose.Sildes para Referência de API .NET
 description: Representa um campo.
 type: docs
-weight: 5770
+weight: 5790
 url: /pt/aspose.slides/ifield/
 ---
 ## IField interface
@@ -21,7 +21,7 @@ public interface IField : ISlideComponent
 | [AsISlideComponent](../../aspose.slides/ifield/asislidecomponent) { get; } | Permite obter a interface base ISlideComponent. Somente leitura [`ISlideComponent`](../islidecomponent). |
 | [Type](../../aspose.slides/ifield/type) { get; set; } | Retorna ou define o tipo do campo. Leitura/gravação [`IFieldType`](../ifieldtype). |
 
-### Veja também
+### Ver também
 
 * interface [ISlideComponent](../islidecomponent)
 * espaço de nomes [Aspose.Slides](../../aspose.slides)

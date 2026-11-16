@@ -1,14 +1,14 @@
 ---
 title: TransitionSideDirectionType
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
-description: แทนประเภทการเปลี่ยนแปลงทิศทางด้าน
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: แสดงประเภทการเปลี่ยนแปลงทิศทางด้านข้าง.
 type: docs
-weight: 10420
+weight: 10440
 url: /th/aspose.slides.slideshow/transitionsidedirectiontype/
 ---
-## TransitionSideDirectionType การกำหนดค่า
+## TransitionSideDirectionType enum
 
-แทนประเภทการเปลี่ยนแปลงทิศทางด้าน
+แสดงประเภทการเปลี่ยนทิศทางด้านข้าง.
 
 ```csharp
 public enum TransitionSideDirectionType
@@ -23,7 +23,7 @@ public enum TransitionSideDirectionType
 | Down | `2` |  |
 | Right | `3` |  |
 
-### ดูเพิ่ม
+### ดูเพิ่มเติม
 
 * เนมสเปซ [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * แอสเซมบลี [Aspose.Slides](../../)

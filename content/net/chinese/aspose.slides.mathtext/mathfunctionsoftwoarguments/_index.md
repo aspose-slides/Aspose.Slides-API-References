@@ -1,29 +1,29 @@
 ---
 title: MathFunctionsOfTwoArguments
-second_title: Aspose.Sildes for .NET API 参考
-description: 常用的二参数数学函数
+second_title: Aspose.Sildes .NET API 参考
+description: 常用的二元数学函数
 type: docs
-weight: 8750
+weight: 8770
 url: /zh/aspose.slides.mathtext/mathfunctionsoftwoarguments/
 ---
 ## MathFunctionsOfTwoArguments 枚举
 
-常用的二参数数学函数
+常用的二元数学函数
 
 ```csharp
 public enum MathFunctionsOfTwoArguments
 ```
 
-### 取值
+### 值
 
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
-| Log | `0` | 对数 |
-| Lim | `1` | 极限 |
-| Min | `2` | 最小值 |
-| Max | `3` | 最大值 |
+| Log | `0` | Log |
+| Lim | `1` | Limit |
+| Min | `2` | Minimum |
+| Max | `3` | Maximum |
 
-### 另请参见
+### 另请参阅
 
 * 命名空间 [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * 程序集 [Aspose.Slides](../../)

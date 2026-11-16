@@ -1,14 +1,14 @@
 ---
 title: ForEach.ForEachSlideCallback
-second_title: Aspose.Sildes for .NET API Referansı
-description: Her Slide./foreach/slide için Sunum içinde tetiklenecek geri arama../aspose.slides/presentation.
+second_title: Aspose.Sildes .NET için API Referansı
+description: Geri çağırma, Presentation../aspose.slides/presentation içinde her bir Slide./foreach/slide için tetiklenecek.
 type: docs
-weight: 7960
+weight: 7980
 url: /tr/aspose.slides.lowcode/foreach.foreachslidecallback/
 ---
 ## ForEach.ForEachSlideCallback delege
 
-Her bir [`Slide`](../foreach/slide) için, [`Presentation`](../../aspose.slides/presentation) içinde tetiklenecek geri arama.
+Her [`Slide`](../foreach/slide) için [`Presentation`](../../aspose.slides/presentation) içinde tetiklenecek geri çağırma.
 
 ```csharp
 public delegate void ForEachSlideCallback(Slide slide, int index);
@@ -16,10 +16,10 @@ public delegate void ForEachSlideCallback(Slide slide, int index);
 
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| slide | Slide | Geçerli yinelemekte olan slayt |
-| index | Int32 | Geçerli slaytın indeksi |
+| slide | Slide | Şu anda yinelemekte olan slayt |
+| index | Int32 | Geçerli slaydın indeksi |
 
-### Ayrıca Bakınız
+### İlgili Bağlantılar
 
 * sınıf [Slide](../../aspose.slides/slide)
 * sınıf [ForEach](../foreach)

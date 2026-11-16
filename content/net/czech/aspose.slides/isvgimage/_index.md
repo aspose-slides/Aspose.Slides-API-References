@@ -1,12 +1,12 @@
 ---
 title: ISvgImage
-second_title: Aspose.Sildes pro .NET – referenční příručka API
+second_title: Aspose.Sildes pro .NET API Reference
 description: Reprezentuje SVG obrázek.
 type: docs
-weight: 7180
+weight: 7200
 url: /cs/aspose.slides/isvgimage/
 ---
-## rozhraní ISvgImage
+## ISvgImage rozhraní
 
 Reprezentuje SVG obrázek.
 
@@ -19,7 +19,7 @@ public interface ISvgImage
 | Název | Popis |
 | --- | --- |
 | [BaseUri](../../aspose.slides/isvgimage/baseuri) { get; } | Vrací základní URI zadaného SVG. Používá se k řešení relativních odkazů. Pouze pro čtení String. |
-| [ExternalResourceResolver](../../aspose.slides/isvgimage/externalresourceresolver) { get; } | Vrací rozhraní zpětného volání použité k řešení externích zdrojů během importu SVG dokumentů. Pouze pro čtení [`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver). |
+| [ExternalResourceResolver](../../aspose.slides/isvgimage/externalresourceresolver) { get; } | Vrací rozhraní zpětného volání používané k řešení externích zdrojů při importu SVG dokumentů. Pouze pro čtení [`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver). |
 | [SvgContent](../../aspose.slides/isvgimage/svgcontent) { get; } | Vrací obsah SVG. Pouze pro čtení String. |
 | [SvgData](../../aspose.slides/isvgimage/svgdata) { get; } | Vrací data SVG. Pouze pro čtení Byte[]. |
 

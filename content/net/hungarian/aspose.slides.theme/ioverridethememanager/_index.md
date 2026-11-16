@@ -1,14 +1,14 @@
 ---
 title: IOverrideThemeManager
-second_title: Aspose.Sildes a .NET API referenciája
-description: Különböző típusú felülírt témákhoz biztosít hozzáférést.
+second_title: Aspose.Sildes .NET API-referencia
+description: Hozzáférést biztosít a különböző típusú felülírt témákhoz.
 type: docs
-weight: 11350
+weight: 11370
 url: /hu/aspose.slides.theme/ioverridethememanager/
 ---
 ## IOverrideThemeManager interfész
 
-Különböző típusú felülírt témákhoz biztosít hozzáférést.
+Hozzáférést biztosít a különböző típusú felülírt témákhoz.
 
 ```csharp
 public interface IOverrideThemeManager : IThemeManager
@@ -18,9 +18,9 @@ public interface IOverrideThemeManager : IThemeManager
 
 | Név | Leírás |
 | --- | --- |
-| [AsIThemeManager](../../aspose.slides.theme/ioverridethememanager/asithememanager) { get; } | Lehetővé teszi az alap IThemeManager interfész lekérését. Csak olvasható [`IThemeManager`](../ithememanager). |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/ioverridethememanager/isoverridethemeenabled) { get; } | Megállapítja, hogy az OverrideTheme felülírja-e a leszármazott hatékony témát vagy sem. Az OverrideTheme felülírásának engedélyezéséhez használja az OverrideTheme.Init*() metódusokat. Az OverrideTheme felülírásának letiltásához használja az OverrideTheme.Clear() metódust. Csak olvasható Boolean. |
-| [OverrideTheme](../../aspose.slides.theme/ioverridethememanager/overridetheme) { get; set; } | Visszaadja a felülíró téma objektumát. Olvasás/írás [`IOverrideTheme`](../ioverridetheme). |
+| [AsIThemeManager](../../aspose.slides.theme/ioverridethememanager/asithememanager) { get; } | Lehetővé teszi a base IThemeManager interfész lekérését. Csak olvasható [`IThemeManager`](../ithememanager). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/ioverridethememanager/isoverridethemeenabled) { get; } | Meghatározza, hogy az OverrideTheme felülírja-e a örökölt hatékony témát vagy sem. Az OverrideTheme felülírásának engedélyezéséhez használja az OverrideTheme.Init*() metódusokat. Az OverrideTheme felülírásának letiltásához használja az OverrideTheme.Clear() metódust. Csak olvasható Boolean. |
+| [OverrideTheme](../../aspose.slides.theme/ioverridethememanager/overridetheme) { get; set; } | Visszaadja a felülíró téma objektumot. Olvasható/írható [`IOverrideTheme`](../ioverridetheme). |
 
 ### Lásd még
 

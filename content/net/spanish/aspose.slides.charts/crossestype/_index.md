@@ -3,10 +3,10 @@ title: CrossesType
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Determina dónde se cruzará el eje.
 type: docs
-weight: 1540
+weight: 1550
 url: /es/aspose.slides.charts/crossestype/
 ---
-## Enumeración CrossesType
+## enumeración CrossesType
 
 Determina dónde se cruzará el eje.
 

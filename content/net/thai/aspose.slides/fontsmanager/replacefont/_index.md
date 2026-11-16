@@ -1,20 +1,20 @@
 ---
 title: ReplaceFont
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: เปลี่ยนฟอนต์ในงานนำเสนอ
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แทนที่ฟอนต์ในงานนำเสนอ
 type: docs
-weight: 100
+weight: 110
 url: /th/aspose.slides/fontsmanager/replacefont/
 ---
 ## ReplaceFont(IFontData, IFontData) {#replacefont}
 
-เปลี่ยนฟอนต์ในงานนำเสนอ
+แทนที่ฟอนต์ในงานนำเสนอ
 
 ```csharp
 public void ReplaceFont(IFontData sourceFont, IFontData destFont)
 ```
 
-| พารามิเตอร์ | ประเภท | คำอธิบาย |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | sourceFont | IFontData | ฟอนต์ต้นฉบับ |
 | destFont | IFontData | ฟอนต์ปลายทาง |
@@ -30,13 +30,13 @@ public void ReplaceFont(IFontData sourceFont, IFontData destFont)
 
 ## ReplaceFont(IFontSubstRule) {#replacefont_1}
 
-เปลี่ยนฟอนต์ในงานนำเสนอโดยใช้ข้อมูลที่ให้ไว้ใน [`FontSubstRule`](../../fontsubstrule)
+แทนที่ฟอนต์ในงานนำเสนอโดยใช้ข้อมูลที่ให้ไว้ใน [`FontSubstRule`](../../fontsubstrule)
 
 ```csharp
 public void ReplaceFont(IFontSubstRule substRule)
 ```
 
-| พารามิเตอร์ | ประเภท | คำอธิบาย |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | substRule | IFontSubstRule | ข้อมูลการแทนที่ฟอนต์ |
 
@@ -51,13 +51,13 @@ public void ReplaceFont(IFontSubstRule substRule)
 
 ## ReplaceFont(IFontSubstRuleCollection) {#replacefont_2}
 
-เปลี่ยนฟอนต์ในงานนำเสนอโดยใช้ข้อมูลที่ให้ไว้ในคอลเลกชันของ [`FontSubstRule`](../../fontsubstrule)
+แทนที่ฟอนต์ในงานนำเสนอโดยใช้ข้อมูลที่ให้ไว้ในคอลเลกชันของ [`FontSubstRule`](../../fontsubstrule)
 
 ```csharp
 public void ReplaceFont(IFontSubstRuleCollection substRules)
 ```
 
-| พารามิเตอร์ | ประเภท | คำอธิบาย |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | substRules | IFontSubstRuleCollection | คอลเลกชันของกฎการแทนที่ฟอนต์ |
 

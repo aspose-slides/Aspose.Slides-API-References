@@ -1,48 +1,49 @@
 ---
 title: TextFrame
 second_title: مرجع API Aspose.Sildes برای .NET
-description: نمایانگر یک TextFrame است.
+description: یک TextFrame را نمایش می‌دهد.
 type: docs
-weight: 10950
+weight: 10970
 url: /fa/aspose.slides/textframe/
 ---
-## کلاس TextFrame
+## TextFrame کلاس
 
-نمایانگر یک TextFrame است.
+یک TextFrame را نمایش می‌دهد.
 
 ```csharp
 public sealed class TextFrame : ITextFrame
 ```
 
-## ویژگی‌ها
+## Properties
 
 | نام | توضیح |
 | --- | --- |
-| [HyperlinkQueries](../../aspose.slides/textframe/hyperlinkqueries) { get; } | دسترسی آسان به لینک‌های داخلی را فراهم می‌کند. فقط خواندنی [`IHyperlinkQueries`](../ihyperlinkqueries). |
-| [Paragraphs](../../aspose.slides/textframe/paragraphs) { get; } | فهرست تمام پاراگراف‌های موجود در یک فریم را برمی‌گرداند. فقط خواندنی [`IParagraphCollection`](../iparagraphcollection). |
-| [ParentCell](../../aspose.slides/textframe/parentcell) { get; } | سلول والد را برمی‌گرداند یا در صورتی که شی والد پیاده‌سازی ICell interface نکند مقدار null برمی‌گرداند. فقط خواندنی [`ICell`](../icell). |
-| [ParentShape](../../aspose.slides/textframe/parentshape) { get; } | شکل والد را برمی‌گرداند یا در صورتی که شی والد پیاده‌سازی IShape interface نکند مقدار null برمی‌گرداند. فقط خواندنی [`IShape`](../ishape). |
-| [Presentation](../../aspose.slides/textframe/presentation) { get; } | Presentation والد یک TextFrame را برمی‌گرداند. فقط خواندنی [`IPresentation`](../ipresentation). |
-| [Slide](../../aspose.slides/textframe/slide) { get; } | Slide والد یک TextFrame را برمی‌گرداند. فقط خواندنی [`IBaseSlide`](../ibaseslide). |
-| [Text](../../aspose.slides/textframe/text) { get; set; } | متن سادهٔ یک TextFrame را دریافت یا تنظیم می‌کند. خواندن/نوشتن String. |
-| [TextFrameFormat](../../aspose.slides/textframe/textframeformat) { get; } | شیء قالب‌بندی برای این شیء TextFrame را برمی‌گرداند. فقط خواندنی [`ITextFrameFormat`](../itextframeformat). |
+| [HyperlinkQueries](../../aspose.slides/textframe/hyperlinkqueries) { get; } | دسترسی آسان به پیوندهای موجود را فراهم می‌کند. فقط-خواندنی [`IHyperlinkQueries`](../ihyperlinkqueries). |
+| [Paragraphs](../../aspose.slides/textframe/paragraphs) { get; } | فهرست تمام پاراگراف‌های موجود در یک فریم را برمی‌گرداند. فقط-خواندنی [`IParagraphCollection`](../iparagraphcollection). |
+| [ParentCell](../../aspose.slides/textframe/parentcell) { get; } | سلول والد یا null را برمی‌گرداند اگر شیء والد رابط ICell را پیاده‌سازی نکند. فقط-خواندنی [`ICell`](../icell). |
+| [ParentShape](../../aspose.slides/textframe/parentshape) { get; } | شکل والد یا null را برمی‌گرداند اگر شیء والد رابط IShape را پیاده‌سازی نکند. فقط-خواندنی [`IShape`](../ishape). |
+| [Presentation](../../aspose.slides/textframe/presentation) { get; } | ارائه والد یک TextFrame را برمی‌گرداند. فقط-خواندنی [`IPresentation`](../ipresentation). |
+| [Slide](../../aspose.slides/textframe/slide) { get; } | اسلاید والد یک TextFrame را برمی‌گرداند. فقط-خواندنی [`IBaseSlide`](../ibaseslide). |
+| [Text](../../aspose.slides/textframe/text) { get; set; } | متن ساده یک TextFrame را دریافت یا تنظیم می‌کند. قابل-خواندن/قابل-نوشتن String. |
+| [TextFrameFormat](../../aspose.slides/textframe/textframeformat) { get; } | شیء قالب‌بندی برای این شیء TextFrame را برمی‌گرداند. فقط-خواندنی [`ITextFrameFormat`](../itextframeformat). |
 
-## متدها
+## Methods
 
 | نام | توضیح |
 | --- | --- |
-| [HighlightRegex](../../aspose.slides/textframe/highlightregex#highlightregex_1)(Regex, Color, IFindResultCallback) | همه تطابق‌های عبارت منظم را با رنگ مشخص شده برجسته می‌کند. |
-| [HighlightText](../../aspose.slides/textframe/highlighttext#highlighttext)(string, Color) | همه تطابق‌های متن نمونه را با رنگ مشخص شده برجسته می‌کند. |
-| [HighlightText](../../aspose.slides/textframe/highlighttext#highlighttext_2)(string, Color, ITextSearchOptions, IFindResultCallback) | همه تطابق‌های متن نمونه را با رنگ مشخص شده برجسته می‌کند. |
-| [JoinPortionsWithSameFormatting](../../aspose.slides/textframe/joinportionswithsameformatting)() | بخش‌های متنی با قالب‌بندی یکسان را در تمام پاراگراف‌ها ترکیب می‌کند. |
-| [ReplaceRegex](../../aspose.slides/textframe/replaceregex)(Regex, string, IFindResultCallback) | تمام تطابق‌های عبارت منظم را با رشتهٔ مشخص شده جایگزین می‌کند. |
-| [ReplaceText](../../aspose.slides/textframe/replacetext)(string, string, ITextSearchOptions, IFindResultCallback) | تمام رخدادهای متن مشخص شده را با متن دیگر مشخص شده جایگزین می‌کند. |
-| [SplitTextByColumns](../../aspose.slides/textframe/splittextbycolumns)() | محتوای متنی [`ITextFrame`](../itextframe) را به آرایه‌ای از رشته‌ها تقسیم می‌کند که هر عنصر متناظر با یک ستون متن جداگانه درون فریم است. |
+| [GetTextRect](../../aspose.slides/textframe/gettextrect)() | مستطیل متن تعریف-شده توسط هندسه‌ی شکل والد را دریافت می‌کند. |
+| [HighlightRegex](../../aspose.slides/textframe/highlightregex#highlightregex_1)(Regex, Color, IFindResultCallback) | تمام تطبیق‌های عبارات منظم را با رنگ مشخص شده برجسته می‌کند. |
+| [HighlightText](../../aspose.slides/textframe/highlighttext#highlighttext)(string, Color) | تمام تطبیق‌های متن نمونه را با رنگ مشخص شده برجسته می‌کند. |
+| [HighlightText](../../aspose.slides/textframe/highlighttext#highlighttext_2)(string, Color, ITextSearchOptions, IFindResultCallback) | تمام تطبیق‌های متن نمونه را با رنگ مشخص شده برجسته می‌کند. |
+| [JoinPortionsWithSameFormatting](../../aspose.slides/textframe/joinportionswithsameformatting)() | بخش‌های متنی با قالب‌بندی یکسان را در تمام پاراگراف‌ها به هم می‌پیوند. |
+| [ReplaceRegex](../../aspose.slides/textframe/replaceregex)(Regex, string, IFindResultCallback) | تمام تطبیق‌های عبارات منظم را با رشته‌ی مشخص شده جایگزین می‌کند. |
+| [ReplaceText](../../aspose.slides/textframe/replacetext)(string, string, ITextSearchOptions, IFindResultCallback) | تمام رخدادهای متن مشخص شده را با متن دیگری که مشخص شده است جایگزین می‌کند. |
+| [SplitTextByColumns](../../aspose.slides/textframe/splittextbycolumns)() | محتوای متنی [`ITextFrame`](../itextframe) را به آرایه‌ای از رشته‌ها تقسیم می‌کند که هر عنصر متناظر با یک ستون متنی جداگانه درون فریم است. |
 
 ### موارد مرتبط
 
 * رابط [ITextFrame](../itextframe)
 * فضای نام [Aspose.Slides](../../aspose.slides)
-* مجوعه [Aspose.Slides](../../)
+* مونتاژ [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

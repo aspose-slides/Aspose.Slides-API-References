@@ -1,14 +1,14 @@
 ---
 title: HighlightText
-second_title: Aspose.Sildes pro .NET API Reference
-description: Zvýrazní všechny výskyty ukázkového textu zadanou barvou.
+second_title: Aspose.Sildes pro .NET referenční příručku API
+description: Zvýrazní všechny výskyty vzorového textu zadanou barvou.
 type: docs
-weight: 100
+weight: 110
 url: /cs/aspose.slides/textframe/highlighttext/
 ---
 ## HighlightText(string, Color) {#highlighttext}
 
-Zvýrazní všechny výskyty ukázkového textu zadanou barvou.
+Zvýrazní všechny výskyty vzorového textu zadanou barvou.
 
 ```csharp
 public void HighlightText(string text, Color highlightColor)
@@ -16,8 +16,8 @@ public void HighlightText(string text, Color highlightColor)
 
 | Parametr | Typ | Popis |
 | --- | --- | --- |
-| text | String | Ukázkový text k zvýraznění. |
-| highlightColor | Color | Barva k zvýraznění textu. |
+| text | String | Text vzorku, který se má zvýraznit. |
+| highlightColor | Color | Barva pro zvýraznění textu. |
 
 ### Viz také
 
@@ -29,7 +29,7 @@ public void HighlightText(string text, Color highlightColor)
 
 ## HighlightText(string, Color, ITextSearchOptions, IFindResultCallback) {#highlighttext_2}
 
-Zvýrazní všechny výskyty ukázkového textu zadanou barvou.
+Zvýrazní všechny výskyty vzorového textu zadanou barvou.
 
 ```csharp
 public void HighlightText(string text, Color highlightColor, ITextSearchOptions options, 
@@ -38,14 +38,14 @@ public void HighlightText(string text, Color highlightColor, ITextSearchOptions 
 
 | Parametr | Typ | Popis |
 | --- | --- | --- |
-| text | String | Text k zvýraznění. |
-| highlightColor | Color | Barva k zvýraznění textu. |
-| options | ITextSearchOptions | Možnosti prohledávání textu [`ITextSearchOptions`](../../itextsearchoptions). |
-| callback | IFindResultCallback | Objekt zpětného volání pro přijímání výsledků hledání [`IFindResultCallback`](../../ifindresultcallback). |
+| text | String | Text, který se má zvýraznit. |
+| highlightColor | Color | Barva pro zvýraznění textu. |
+| options | ITextSearchOptions | Možnosti vyhledávání textu [`ITextSearchOptions`](../../itextsearchoptions). |
+| callback | IFindResultCallback | Objekt zpětného volání pro přijímání výsledků vyhledávání [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### Příklady
 
-Následující ukázka kódu demonstruje, jak zvýraznit text v TextFrame.
+Následující ukázkový kód demonstruje, jak zvýraznit text v TextFrame.
 
 ```csharp
 [C#]

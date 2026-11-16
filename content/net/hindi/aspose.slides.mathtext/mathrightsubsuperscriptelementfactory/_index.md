@@ -1,38 +1,38 @@
 ---
 title: MathRightSubSuperscriptElementFactory
-second_title: Aspose.Sildes .NET API संदर्भ के लिए
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
 description: IMathRightSubSuperscriptElementFactory बनाने की अनुमति देता है
 type: docs
-weight: 8970
+weight: 8990
 url: /hi/aspose.slides.mathtext/mathrightsubsuperscriptelementfactory/
 ---
 ## MathRightSubSuperscriptElementFactory क्लास
 
-IMathRightSubSuperscriptElementFactory बनाने की अनुमति देता है
+Allows to create IMathRightSubSuperscriptElementFactory
 
 ```csharp
 public class MathRightSubSuperscriptElementFactory : IMathRightSubSuperscriptElementFactory
 ```
 
-## कन्स्ट्रक्टर्स
+## निर्माता
 
 | नाम | विवरण |
 | --- | --- |
-| [MathRightSubSuperscriptElementFactory](mathrightsubsuperscriptelementfactory)() | डिफ़ॉल्ट कन्स्ट्रक्टर। |
+| [MathRightSubSuperscriptElementFactory](mathrightsubsuperscriptelementfactory)() | डिफ़ॉल्ट कंस्ट्रक्टर। |
 
-## मेथड्स
+## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [CreateMathRightSubSuperscriptElement](../../aspose.slides.mathtext/mathrightsubsuperscriptelementfactory/createmathrightsubsuperscriptelement)(IMathElement, IMathElement, IMathElement) | IMathRightSubSuperscriptElementFactory का एक इंस्टेंस बनाता है |
+| [CreateMathRightSubSuperscriptElement](../../aspose.slides.mathtext/mathrightsubsuperscriptelementfactory/createmathrightsubsuperscriptelement)(IMathElement, IMathElement, IMathElement) | IMathRightSubSuperscriptElementFactory का एक उदाहरण बनाता है |
 
 ### टिप्पणी
 
-COM संगतता के लिये
+COM संगतता के लिए
 
 ### संबंधित देखें
 
-* इंटरफेस [IMathRightSubSuperscriptElementFactory](../imathrightsubsuperscriptelementfactory)
+* इंटरफ़ेस [IMathRightSubSuperscriptElementFactory](../imathrightsubsuperscriptelementfactory)
 * नेमस्पेस [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * असेंबली [Aspose.Slides](../../)
 

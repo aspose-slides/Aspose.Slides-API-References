@@ -1,26 +1,26 @@
 ---
 title: PptCorruptFileException
-second_title: Aspose.Sildes cho .NET API Tham chiếu
-description: Ngoại lệ được ném khi tệp trình chiếu có thể bị hỏng.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Ngoại lệ được ném khi tệp trình chiếu có khả năng bị hỏng.
 type: docs
-weight: 9500
+weight: 9520
 url: /vi/aspose.slides/pptcorruptfileexception/
 ---
 ## PptCorruptFileException lớp
 
-Ngoại lệ được ném khi tệp trình chiếu có thể bị hỏng.
+Ngoại lệ được ném khi tệp trình chiếu có khả năng bị hỏng.
 
 ```csharp
 public class PptCorruptFileException : PptReadException
 ```
 
-## Hàm khởi tạo
+## Các hàm khởi tạo
 
 | Tên | Mô tả |
 | --- | --- |
 | [PptCorruptFileException](pptcorruptfileexception#constructor)() | Hàm khởi tạo mặc định. |
 | [PptCorruptFileException](pptcorruptfileexception#constructor_1)(string) | Hàm khởi tạo cho phép thêm thông báo vào ngoại lệ này. |
-| [PptCorruptFileException](pptcorruptfileexception#constructor_2)(string, Exception) | Hàm khởi tạo cho một ngoại lệ chứa thông báo và một ngoại lệ nhúng. |
+| [PptCorruptFileException](pptcorruptfileexception#constructor_2)(string, Exception) | Hàm khởi tạo cho một ngoại lệ chứa thông báo và một ngoại lệ được nhúng. |
 
 ### Xem thêm
 

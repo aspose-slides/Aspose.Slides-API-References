@@ -1,12 +1,12 @@
 ---
 title: PathCommandType
-second_title: Aspose.Sildes per .NET API Reference
+second_title: Aspose.Sildes per il riferimento API .NET
 description: Rappresenta i comandi del percorso grafico
 type: docs
-weight: 9320
+weight: 9340
 url: /it/aspose.slides/pathcommandtype/
 ---
-## Enumerazione PathCommandType
+## PathCommandType enumerazione
 
 Rappresenta i comandi del percorso grafico
 
@@ -18,12 +18,12 @@ public enum PathCommandType : byte
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| Close | `0` | Chiude il percorso della geometria |
-| MoveTo | `1` | Imposta la posizione del punto successivo del percorso della geometria |
-| LineTo | `2` | Aggiunge una linea al percorso della geometria |
-| ArcTo | `3` | Aggiunge l'arco specificato al percorso della geometria. |
-| QuadBezierTo | `4` | Aggiunge una curva di Bezier quadratica al percorso della geometria |
-| CubicBezierTo | `5` | Aggiunge una curva di Bezier cubica al percorso della geometria |
+| Close | `0` | Chiude il percorso geometrico |
+| MoveTo | `1` | Imposta la posizione del punto successivo del percorso geometrico |
+| LineTo | `2` | Aggiunge una linea al percorso geometrico |
+| ArcTo | `3` | Aggiunge l'arco specificato al percorso geometrico. |
+| QuadBezierTo | `4` | Aggiunge una curva di Bezier quadratica al percorso geometrico |
+| CubicBezierTo | `5` | Aggiunge una curva di Bezier cubica al percorso geometrico |
 
 ### Vedi anche
 

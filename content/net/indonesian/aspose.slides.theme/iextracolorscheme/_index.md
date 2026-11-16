@@ -3,7 +3,7 @@ title: IExtraColorScheme
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili skema warna tambahan yang dapat ditetapkan ke slide.
 type: docs
-weight: 11210
+weight: 11230
 url: /id/aspose.slides.theme/iextracolorscheme/
 ---
 ## IExtraColorScheme antarmuka
@@ -18,8 +18,8 @@ public interface IExtraColorScheme
 
 | Nama | Deskripsi |
 | --- | --- |
-| [ColorScheme](../../aspose.slides.theme/iextracolorscheme/colorscheme) { get; } | Mengembalikan skema warna. Baca-saja [`IColorScheme`](../icolorscheme). |
-| [Name](../../aspose.slides.theme/iextracolorscheme/name) { get; } | Mengembalikan nama skema ini. Baca-saja String. |
+| [ColorScheme](../../aspose.slides.theme/iextracolorscheme/colorscheme) { get; } | Mengembalikan skema warna. Hanya-baca [`IColorScheme`](../icolorscheme). |
+| [Name](../../aspose.slides.theme/iextracolorscheme/name) { get; } | Mengembalikan nama skema ini. Hanya-baca String. |
 
 ### Lihat Juga
 

@@ -3,7 +3,7 @@ title: IHyperlinkContainer
 second_title: Aspose.Sildes için .NET API Referansı
 description: Köprü nesnesini temsil eder.
 type: docs
-weight: 6120
+weight: 6140
 url: /tr/aspose.slides/ihyperlinkcontainer/
 ---
 ## IHyperlinkContainer arayüzü
@@ -18,9 +18,9 @@ public interface IHyperlinkContainer
 
 | Ad | Açıklama |
 | --- | --- |
-| [HyperlinkClick](../../aspose.slides/ihyperlinkcontainer/hyperlinkclick) { get; set; } | Fare tıklaması için tanımlanan hyperlink'i döndürür veya ayarlar. Okuma/Yazma [`IHyperlink`](../ihyperlink). |
-| [HyperlinkManager](../../aspose.slides/ihyperlinkcontainer/hyperlinkmanager) { get; } | Hyperlink yöneticisi Sadece Okunur [`IHyperlinkManager`](../ihyperlinkmanager). |
-| [HyperlinkMouseOver](../../aspose.slides/ihyperlinkcontainer/hyperlinkmouseover) { get; set; } | Fare üstünde olduğunda tanımlanan hyperlink'i döndürür veya ayarlar. Okuma/Yazma [`IHyperlink`](../ihyperlink). |
+| [HyperlinkClick](../../aspose.slides/ihyperlinkcontainer/hyperlinkclick) { get; set; } | Fare tıklaması için tanımlanan köprüyü döndürür veya ayarlar. Okunur/yazılabilir [`IHyperlink`](../ihyperlink). |
+| [HyperlinkManager](../../aspose.slides/ihyperlinkcontainer/hyperlinkmanager) { get; } | Köprü yöneticisi Salt okunur [`IHyperlinkManager`](../ihyperlinkmanager). |
+| [HyperlinkMouseOver](../../aspose.slides/ihyperlinkcontainer/hyperlinkmouseover) { get; set; } | Fare üzerine gelindiğinde tanımlanan köprüyü döndürür veya ayarlar. Okunur/yazılabilir [`IHyperlink`](../ihyperlink). |
 
 ### Ayrıca Bakınız
 

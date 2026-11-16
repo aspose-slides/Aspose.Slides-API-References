@@ -1,14 +1,14 @@
 ---
 title: UseCell
 second_title: Aspose.Sildes for .NET API 참조
-description: true이면 AsCell 속성이 실제입니다. 다시 말해 워크시트가 카테고리를 저장하는 데 사용되며 이 경우 다중 레벨 카테고리를 지원합니다. false이면 AsLiteral 속성이 실제입니다. 다시 말해 워크시트가 카테고리를 저장하는 데 사용되지 않으며 이 경우 다중 레벨 카테고리를 지원하지 않습니다. 읽기 전용 Boolean.
+description: true이면 AsCell 속성이 실제값입니다. 다시 말해, worksheet는 카테고리를 저장하는 데 사용되며 이 경우 다중 레벨 카테고리를 지원합니다. false이면 AsLiteral 속성이 실제값입니다. 다시 말해, worksheet는 카테고리를 저장하는 데 사용되지 않으며 이 경우 다중 레벨 카테고리를 지원하지 않습니다. 읽기 전용 Boolean.
 type: docs
-weight: 40
+weight: 50
 url: /ko/aspose.slides.charts/chartcategory/usecell/
 ---
 ## ChartCategory.UseCell 속성
 
-true이면 AsCell 속성이 실제입니다. 다른 말로 하면, 워크시트는 카테고리를 저장하는 데 사용됩니다 (이 경우 다중 레벨 카테고리를 지원합니다). false이면 AsLiteral 속성이 실제입니다. 다른 말로 하면, 워크시트는 카테고리를 저장하는 데 사용되지 않으며 (이 경우 다중 레벨 카테고리를 지원하지 않습니다). 읽기 전용 Boolean.
+true이면 AsCell 속성이 실제값입니다. 다시 말해, worksheet는 카테고리를 저장하는 데 사용됩니다(이 경우 다중 레벨 카테고리를 지원합니다). false이면 AsLiteral 속성이 실제값입니다. 다시 말해, worksheet는 카테고리를 저장하는 데 사용되지 않으며(이 경우 다중 레벨 카테고리를 지원하지 않습니다). 읽기 전용 Boolean.
 
 ```csharp
 public bool UseCell { get; }
@@ -16,9 +16,9 @@ public bool UseCell { get; }
 
 ### 비고
 
-이 속성의 값을 변경하려면 (컬렉션의 모든 카테고리에 대해) ChartCategoryCollection.UseCells 속성에 새 값을 설정하십시오.
+모든 카테고리 컬렉션에 대해 이 속성 값을 변경하려면 ChartCategoryCollection.UseCells 속성에 새로운 값을 설정하십시오.
 
-### 참고
+### 관련 항목
 
 * 클래스 [ChartCategory](../../chartcategory)
 * 네임스페이스 [Aspose.Slides.Charts](../../chartcategory)

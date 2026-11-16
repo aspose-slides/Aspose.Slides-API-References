@@ -1,14 +1,14 @@
 ---
 title: DrawingGuidesCollection
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: समायोज्य ड्राइंग गाइड्स के संग्रह का प्रतिनिधित्व करता है।
+description: समायोज्य ड्राइंग गाइड्स का एक संग्रह प्रस्तुत करता है।
 type: docs
-weight: 2820
+weight: 2840
 url: /hi/aspose.slides/drawingguidescollection/
 ---
 ## DrawingGuidesCollection क्लास
 
-समायोज्य ड्राइंग गाइड्स का संग्रह दर्शाता है।
+समायोज्य ड्राइंग गाइड्स का एक संग्रह प्रस्तुत करता है।
 
 ```csharp
 public sealed class DrawingGuidesCollection : IDrawingGuidesCollection
@@ -18,8 +18,8 @@ public sealed class DrawingGuidesCollection : IDrawingGuidesCollection
 
 | नाम | विवरण |
 | --- | --- |
-| [Count](../../aspose.slides/drawingguidescollection/count) { get; } | संग्रह में तत्वों की संख्या लौटाता है। केवल-पढ़ने योग्य Int32. |
-| [Item](../../aspose.slides/drawingguidescollection/item) { get; } | इंडेक्स द्वारा ड्राइंग गाइड लौटाता है। केवल-पढ़ने योग्य [`IDrawingGuide`](../idrawingguide). |
+| [Count](../../aspose.slides/drawingguidescollection/count) { get; } | संग्रह में तत्वों की संख्या लौटाता है। केवल पढ़ने योग्य Int32। |
+| [Item](../../aspose.slides/drawingguidescollection/item) { get; } | सूचकांक द्वारा ड्राइंग गाइड लौटाता है। केवल पढ़ने योग्य [`IDrawingGuide`](../idrawingguide)। |
 
 ## विधियाँ
 
@@ -27,9 +27,9 @@ public sealed class DrawingGuidesCollection : IDrawingGuidesCollection
 | --- | --- |
 | [Add](../../aspose.slides/drawingguidescollection/add)(Orientation, float) | संग्रह के अंत में ड्राइंग गाइड जोड़ता है। |
 | [Clear](../../aspose.slides/drawingguidescollection/clear)() | संग्रह से सभी तत्वों को हटाता है। |
-| [CopyTo](../../aspose.slides/drawingguidescollection/copyto)(IDrawingGuide[], int) | संग्रह से सभी तत्वों को निर्दिष्ट ऐरे में कॉपी करता है। |
-| [GetEnumerator](../../aspose.slides/drawingguidescollection/getenumerator)() | संग्रह के माध्यम से पुनरावृति करने वाला एन्यूमरेटर लौटाता है। |
-| [RemoveAt](../../aspose.slides/drawingguidescollection/removeat)(int) | निर्दिष्ट इंडेक्स पर ड्राइंग गाइड को हटाता है। |
+| [CopyTo](../../aspose.slides/drawingguidescollection/copyto)(IDrawingGuide[], int) | संग्रह से सभी तत्वों को निर्दिष्ट एरे में कॉपी करता है। |
+| [GetEnumerator](../../aspose.slides/drawingguidescollection/getenumerator)() | एक एन्यूमीटर लौटाता है जो संग्रह के माध्यम से पुनरावृति करता है। |
+| [RemoveAt](../../aspose.slides/drawingguidescollection/removeat)(int) | निर्दिष्ट सूचकांक पर ड्राइंग गाइड हटाता है। |
 
 ### संबंधित देखें
 

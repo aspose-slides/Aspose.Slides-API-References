@@ -1,14 +1,14 @@
 ---
 title: IOuterShadowEffectiveData
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งแสดงถึงเอฟเฟกต์เงานอก
+description: อ็อบเจกต์ที่ไม่เปลี่ยนแปลงซึ่งเป็นตัวแทนของเอฟเฟกต์เงานอก
 type: docs
-weight: 3470
+weight: 3490
 url: /th/aspose.slides.effects/ioutershadoweffectivedata/
 ---
 ## IOuterShadowEffectiveData อินเทอร์เฟซ
 
-อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งแสดงถึงเอฟเฟกต์เงานอก
+อ็อบเจกต์ที่ไม่เปลี่ยนแปลงซึ่งเป็นตัวแทนของเอฟเฟกต์เงานอก
 
 ```csharp
 public interface IOuterShadowEffectiveData : IEffectEffectiveData
@@ -16,19 +16,19 @@ public interface IOuterShadowEffectiveData : IEffectEffectiveData
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
 | [AsIEffectEffectiveData](../../aspose.slides.effects/ioutershadoweffectivedata/asieffecteffectivedata) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IEffectEffectiveData พื้นฐาน. อ่านอย่างเดียว [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [BlurRadius](../../aspose.slides.effects/ioutershadoweffectivedata/blurradius) { get; } | รัศมีเบลอ. อ่านอย่างเดียว Double. |
+| [BlurRadius](../../aspose.slides.effects/ioutershadoweffectivedata/blurradius) { get; } | รัศมีเบลอร์. อ่านอย่างเดียว Double. |
 | [Direction](../../aspose.slides.effects/ioutershadoweffectivedata/direction) { get; } | ทิศทางของเงา. อ่านอย่างเดียว Single. |
-| [Distance](../../aspose.slides.effects/ioutershadoweffectivedata/distance) { get; } | ระยะทางของเงา. อ่านอย่างเดียว Double. |
+| [Distance](../../aspose.slides.effects/ioutershadoweffectivedata/distance) { get; } | ระยะของเงา. อ่านอย่างเดียว Double. |
 | [RectangleAlign](../../aspose.slides.effects/ioutershadoweffectivedata/rectanglealign) { get; } | การจัดแนวสี่เหลี่ยม. อ่านอย่างเดียว [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadoweffectivedata/rotateshadowwithshape) { get; } | ระบุว่าเงาควรหมุนตามรูปทรงหรือไม่ หากรูปทรงถูกหมุน. อ่านอย่างเดียว Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/ioutershadoweffectivedata/scalehorizontal) { get; } | ระบุปัจจัยการปรับขนาดแนวนอน, การปรับขนาดเป็นค่าลบทำให้พลิก. อ่านอย่างเดียว Double. |
-| [ScaleVertical](../../aspose.slides.effects/ioutershadoweffectivedata/scalevertical) { get; } | ระบุปัจจัยการปรับขนาดแนวตั้ง, การปรับขนาดเป็นค่าลบทำให้พลิก. อ่านอย่างเดียว Double. |
+| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadoweffectivedata/rotateshadowwithshape) { get; } | ระบุว่าเงาควรหมุนตามรูปทรงหรือไม่หากรูปทรงถูกหมุน. อ่านอย่างเดียว Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/ioutershadoweffectivedata/scalehorizontal) { get; } | ระบุปัจจัยการย่อขนาดแนวนอน, การย่อขนาดเป็นลบทำให้พลิก. อ่านอย่างเดียว Double. |
+| [ScaleVertical](../../aspose.slides.effects/ioutershadoweffectivedata/scalevertical) { get; } | ระบุปัจจัยการย่อขนาดแนวตั้ง, การย่อขนาดเป็นลบทำให้พลิก. อ่านอย่างเดียว Double. |
 | [ShadowColor](../../aspose.slides.effects/ioutershadoweffectivedata/shadowcolor) { get; } | สีของเงา. อ่านอย่างเดียว Color. |
-| [SkewHorizontal](../../aspose.slides.effects/ioutershadoweffectivedata/skewhorizontal) { get; } | ระบุมุมเอียงแนวนอน (เป็นองศา). อ่านอย่างเดียว Double. |
-| [SkewVertical](../../aspose.slides.effects/ioutershadoweffectivedata/skewvertical) { get; } | ระบุมุมเอียงแนวตั้ง (เป็นองศา). อ่านอย่างเดียว Double. |
+| [SkewHorizontal](../../aspose.slides.effects/ioutershadoweffectivedata/skewhorizontal) { get; } | ระบุมุมเอียงแนวนอน (ในหน่วยองศา). อ่านอย่างเดียว Double. |
+| [SkewVertical](../../aspose.slides.effects/ioutershadoweffectivedata/skewvertical) { get; } | ระบุมุมเอียงแนวตั้ง (ในหน่วยองศา). อ่านอย่างเดียว Double. |
 
 ### ดูเพิ่มเติม
 

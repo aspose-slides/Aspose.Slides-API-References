@@ -1,27 +1,27 @@
 ---
 title: GetFontBytes
-second_title: مرجع API لـ Aspose.Sildes لـ .NET
-description: يسترجع مصفوفة البايت التي تمثل بيانات الخط لأسلوب خط محدد وبيانات الخط.
+second_title: Aspose.Sildes لـ .NET مرجع API
+description: يسترجع المصفوفة البايتية التي تمثل بيانات الخط لنمط خط محدد وبيانات الخط.
 type: docs
-weight: 50
+weight: 60
 url: /ar/aspose.slides/fontsmanager/getfontbytes/
 ---
 ## FontsManager.GetFontBytes طريقة
 
-يسترجع مصفوفة البايت التي تمثل بيانات الخط لأسلوب خط محدد وبيانات الخط.
+تسترجع المصفوفة البايتية التي تمثل بيانات الخط لنمط خط محدد وبيانات الخط.
 
 ```csharp
 public byte[] GetFontBytes(IFontData fontData, FontStyleType fontStyle)
 ```
 
-| المعلمة | النوع | الوصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
 | fontData | IFontData | كائن بيانات الخط الذي يحتوي على المعلومات حول الخط [`IFontData`](../../ifontdata). |
-| fontStyle | FontStyleType | نمط الخط الذي سيتم استرجاع البيانات له [`FontStyleType`](../../fontstyletype). |
+| fontStyle | FontStyleType | نمط الخط الذي يتعين استرداد البيانات له [`FontStyleType`](../../fontstyletype). |
 
 ### قيمة الإرجاع
 
-مصفوفة بايت تحتوي على بيانات الخط للأسلوب المحدد. إذا لم يتم العثور على بيانات الخط أو الأسلوب، تُعيد null.
+مصفوفة بايت تحتوي على بيانات الخط للنمط المحدد. إذا لم يتم العثور على بيانات الخط أو النمط، يتم إرجاع null.
 
 ### أمثلة
 
@@ -32,14 +32,14 @@ using (Presentation pres = new Presentation ("Presentation.pptx"))
     // استرجاع جميع الخطوط المستخدمة في العرض التقديمي
     IFontData[] fonts = pres.FontsManager.GetFonts();
 
-    // الحصول على مصفوفة البايت التي تمثل الأسلوب العادي لأول خط في العرض التقديمي
+    // الحصول على مصفوفة البايت التي تمثل النمط العادي لأول خط في العرض التقديمي
     byte[] bytes = pres.FontsManager.GetFontBytes(fonts[0], FontStyleType.Regular);
 }
 ```
 
-### انظر أيضاً
+### انظر أيضا
 
-* واجهة [IFontData](../../ifontdata)
+* الواجهة [IFontData](../../ifontdata)
 * تعداد [FontStyleType](../../fontstyletype)
 * فئة [FontsManager](../../fontsmanager)
 * مساحة اسم [Aspose.Slides](../../fontsmanager)

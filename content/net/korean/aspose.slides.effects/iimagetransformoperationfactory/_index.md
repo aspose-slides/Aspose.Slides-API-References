@@ -1,14 +1,14 @@
 ---
 title: IImageTransformOperationFactory
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 이미지 효과 인스턴스를 생성할 수 있습니다
 type: docs
-weight: 3410
+weight: 3430
 url: /ko/aspose.slides.effects/iimagetransformoperationfactory/
 ---
 ## IImageTransformOperationFactory 인터페이스
 
-이미지 효과의 인스턴스를 생성할 수 있습니다
+이미지 효과 인스턴스를 생성할 수 있습니다
 
 ```csharp
 public interface IImageTransformOperationFactory
@@ -40,7 +40,7 @@ public interface IImageTransformOperationFactory
 
 COM 인터페이스용입니다.
 
-### 참고
+### 관련 항목
 
 * 네임스페이스 [Aspose.Slides.Effects](../../aspose.slides.effects)
 * 어셈블리 [Aspose.Slides](../../)

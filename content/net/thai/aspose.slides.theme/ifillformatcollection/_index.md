@@ -1,14 +1,14 @@
 ---
 title: IFillFormatCollection
-second_title: Aspose.Sildes สำหรับ .NET API อ้างอิง
-description: เป็นตัวแทนของคอลเลกชันของรูปแบบการเติมสี.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงคอลเลกชันของสไตล์การเติม.
 type: docs
-weight: 11230
+weight: 11250
 url: /th/aspose.slides.theme/ifillformatcollection/
 ---
 ## IFillFormatCollection อินเทอร์เฟซ
 
-เป็นตัวแทนของคอลเลกชันของรูปแบบการเติมสี.
+แสดงคอลเลกชันของสไตล์การเติม
 
 ```csharp
 public interface IFillFormatCollection : IGenericCollection<IFillFormat>
@@ -18,7 +18,7 @@ public interface IFillFormatCollection : IGenericCollection<IFillFormat>
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Item](../../aspose.slides.theme/ifillformatcollection/item) { get; } | ดึงเอาอิลีเมนต์ที่ตำแหน่งที่ระบุ. อ่านอย่างเดียว [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [Item](../../aspose.slides.theme/ifillformatcollection/item) { get; } | ดึงเอาองค์ประกอบที่ตำแหน่งที่ระบุ. อ่านอย่างเดียว [`IFillFormat`](../../aspose.slides/ifillformat). |
 
 ### ดูเพิ่มเติม
 

@@ -1,14 +1,14 @@
 ---
 title: GetSubstitutions
 second_title: Aspose.Sildes için .NET API Referansı
-description: Sunumların işlenmesi sırasında değiştirilecek yazı tipleri hakkında bilgi alır.
+description: Sunumların oluşturulması sırasında değiştirilecek yazı tipleri hakkında bilgi alır.
 type: docs
-weight: 80
+weight: 90
 url: /tr/aspose.slides/fontsmanager/getsubstitutions/
 ---
 ## GetSubstitutions() {#getsubstitutions}
 
-Sunumun işlenmesi sırasında değiştirilecek yazı tipleri hakkında bilgi alır.
+Sunumun oluşturulması sırasında değiştirilecek yazı tipleri hakkında bilgi alır.
 
 ```csharp
 public IEnumerable<FontSubstitutionInfo> GetSubstitutions()
@@ -16,7 +16,7 @@ public IEnumerable<FontSubstitutionInfo> GetSubstitutions()
 
 ### Dönüş Değeri
 
-Tüm yazı tipi değişimlerinin koleksiyonu [`FontSubstitutionInfo`](../../fontsubstitutioninfo).
+Tüm yazı tipi değişikliklerinin koleksiyonu [`FontSubstitutionInfo`](../../fontsubstitutioninfo).
 
 ### Örnekler
 
@@ -30,7 +30,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }        
 ```
 
-### Bakınız
+### Ayrıca Bakınız
 
 * sınıf [FontSubstitutionInfo](../../fontsubstitutioninfo)
 * sınıf [FontsManager](../../fontsmanager)
@@ -41,7 +41,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 ## GetSubstitutions(int[]) {#getsubstitutions_1}
 
-Belirtilen slaytların işlenmesi sırasında değiştirilecek yazı tipleri hakkında bilgi alır.
+Belirtilen slaytların oluşturulması sırasında değiştirilecek yazı tipleri hakkında bilgi alır.
 
 ```csharp
 public IEnumerable<FontSubstitutionInfo> GetSubstitutions(int[] slides)
@@ -49,11 +49,11 @@ public IEnumerable<FontSubstitutionInfo> GetSubstitutions(int[] slides)
 
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| slides | Int32[] | Yazı tipi değişim bilgilerini almak istediğiniz slayt indekslerinin dizisi, 1'den başlar. |
+| slides | Int32[] | Yazı tipi değişikliği bilgilerini almak için kullanılacak slayt indekslerinin bir dizisi, 1'den başlayarak. |
 
 ### Dönüş Değeri
 
-Belirtilen slaytlar için tüm yazı tipi değişimlerinin bir koleksiyonu ([`FontSubstitutionInfo`](../../fontsubstitutioninfo)).
+Belirtilen slaytlar için tüm yazı tipi değişikliklerinin bir koleksiyonu ([`FontSubstitutionInfo`](../../fontsubstitutioninfo)).
 
 ### Örnekler
 
@@ -68,7 +68,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Bakınız
+### Ayrıca Bakınız
 
 * sınıf [FontSubstitutionInfo](../../fontsubstitutioninfo)
 * sınıf [FontsManager](../../fontsmanager)

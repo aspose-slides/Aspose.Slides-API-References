@@ -1,14 +1,14 @@
 ---
 title: CellInvalidFormulaException
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: La excepción que se lanza cuando una fórmula calculada no es correcta o no fue analizada.
+description: La excepción que se lanza cuando una fórmula calculada no es correcta o no se pudo analizar.
 type: docs
-weight: 10710
+weight: 10730
 url: /es/aspose.slides.spreadsheet/cellinvalidformulaexception/
 ---
 ## CellInvalidFormulaException clase
 
-La excepción que se lanza cuando una fórmula calculada no es correcta o no fue analizada.
+La excepción que se lanza cuando una fórmula calculada no es correcta o no se pudo analizar.
 
 ```csharp
 public class CellInvalidFormulaException : PptxEditException
@@ -16,7 +16,7 @@ public class CellInvalidFormulaException : PptxEditException
 
 ## Constructores
 
-| Nombre | Descripción |
+| Name | Description |
 | --- | --- |
 | [CellInvalidFormulaException](cellinvalidformulaexception#constructor)() | Inicializa una nueva instancia de la clase [`CellInvalidFormulaException`](../cellinvalidformulaexception). |
 | [CellInvalidFormulaException](cellinvalidformulaexception#constructor_1)(string) | Inicializa una nueva instancia de la clase [`CellInvalidFormulaException`](../cellinvalidformulaexception) con un mensaje de error especificado. |
@@ -25,11 +25,11 @@ public class CellInvalidFormulaException : PptxEditException
 
 ## Propiedades
 
-| Nombre | Descripción |
+| Name | Description |
 | --- | --- |
 | [Reference](../../aspose.slides.spreadsheet/cellinvalidformulaexception/reference) { get; } | Obtiene una referencia de celda que contiene la fórmula no válida. |
 
-### Ver también
+### Véase también
 
 * clase [PptxEditException](../../aspose.slides/pptxeditexception)
 * espacio de nombres [Aspose.Slides.Spreadsheet](../../aspose.slides.spreadsheet)

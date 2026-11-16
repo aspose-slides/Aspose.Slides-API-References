@@ -1,14 +1,14 @@
 ---
 title: IMathSubscriptElement
-second_title: Aspose.Sildes .NET API-referencia
-description: Meghatározza az alsó index objektumát, amely egy alapból és egy jobb oldalra, alulra elhelyezett, méretcsökkentett alsó indexből áll.
+second_title: Aspose.Sildes .NET API referencia
+description: Meghatározza az alsó index objektumot, amely egy alapból és egy kisebb méretű, alulra és jobbra helyezkedő alsó indexből áll.
 type: docs
-weight: 8470
+weight: 8490
 url: /hu/aspose.slides.mathtext/imathsubscriptelement/
 ---
 ## IMathSubscriptElement interfész
 
-Meghatározza az alsó index objektumát, amely egy alapból és egy jobb oldalon, alatta elhelyezkedő, méretcsökkentett alsó indexből áll.
+Meghatározza az alsó index objektumot, amely egy alapból és egy kisebb méretű, alulra és jobbra helyezkedő alsó indexből áll.
 
 ```csharp
 public interface IMathSubscriptElement : IMathElement
@@ -18,8 +18,8 @@ public interface IMathSubscriptElement : IMathElement
 
 | Név | Leírás |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathsubscriptelement/asimathelement) { get; } | Lehetővé teszi az alap IMathElement interfész lekérdezését [`IMathElement`](../imathelement) |
-| [Base](../../aspose.slides.mathtext/imathsubscriptelement/base) { get; } | Alap argumentum |
+| [AsIMathElement](../../aspose.slides.mathtext/imathsubscriptelement/asimathelement) { get; } | Lehetővé teszi a bázis IMathElement interfész lekérdezését [`IMathElement`](../imathelement) |
+| [Base](../../aspose.slides.mathtext/imathsubscriptelement/base) { get; } | Bázis argumentum |
 | [Subscript](../../aspose.slides.mathtext/imathsubscriptelement/subscript) { get; } | Alsó index |
 
 ### Példák

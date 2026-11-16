@@ -1,9 +1,9 @@
 ---
 title: IChartCategoryCollection
-second_title: Aspose.Sildes dla .NET – odniesienie API
+second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Reprezentuje kolekcję IChartCategory./ichartcategory
 type: docs
-weight: 1760
+weight: 1780
 url: /pl/aspose.slides.charts/ichartcategorycollection/
 ---
 ## IChartCategoryCollection interfejs
@@ -18,8 +18,8 @@ public interface IChartCategoryCollection : IGenericCollection<IChartCategory>
 
 | Nazwa | Opis |
 | --- | --- |
-| [GroupingLevelCount](../../aspose.slides.charts/ichartcategorycollection/groupinglevelcount) { get; } | Zwraca liczbę poziomów grupowania kategorii używanych. Jest większa niż jeden dla wielopoziomowych kategorii. Tylko do odczytu Int32. |
-| [Item](../../aspose.slides.charts/ichartcategorycollection/item) { get; } | Pobiera element o podanym indeksie. |
+| [GroupingLevelCount](../../aspose.slides.charts/ichartcategorycollection/groupinglevelcount) { get; } | Zwraca liczbę użytych poziomów grupowania kategorii. Jest większa niż jeden dla wielopoziomowych kategorii. Tylko do odczytu Int32. |
+| [Item](../../aspose.slides.charts/ichartcategorycollection/item) { get; } | Pobiera element o określonym indeksie. |
 | [UseCells](../../aspose.slides.charts/ichartcategorycollection/usecells) { get; set; } | Jeśli true, arkusz jest używany do przechowywania kategorii (ten przypadek obsługuje wielopoziomowe kategorie). Jeśli false, arkusz NIE jest używany do przechowywania wartości (i ten przypadek nie obsługuje wielopoziomowych kategorii). Odczyt/zapis Boolean. |
 
 ## Metody
@@ -29,11 +29,11 @@ public interface IChartCategoryCollection : IGenericCollection<IChartCategory>
 | [Add](../../aspose.slides.charts/ichartcategorycollection/add#add)(IChartDataCell) | Jeśli kategoria istnieje w kolekcji, zwraca ją. W przeciwnym razie tworzy nową kategorię wykresu z [`IChartDataCell`](../ichartdatacell) i dodaje ją do kolekcji. |
 | [Add](../../aspose.slides.charts/ichartcategorycollection/add#add_1)(object) | Tworzy nowy [`IChartCategory`](../ichartcategory) z wartości i dodaje go do kolekcji. |
 | [Clear](../../aspose.slides.charts/ichartcategorycollection/clear)() | Usuwa wszystkie elementy z kolekcji. |
-| [IndexOf](../../aspose.slides.charts/ichartcategorycollection/indexof)(IChartCategory) | Wyszukuje określony [`IChartCategory`](../ichartcategory) i zwraca indeks zerowy pierwszego wystąpienia w całej kolekcji |
+| [IndexOf](../../aspose.slides.charts/ichartcategorycollection/indexof)(IChartCategory) | Wyszukuje określony [`IChartCategory`](../ichartcategory) i zwraca indeks (od zera) pierwszego wystąpienia w całej kolekcji |
 | [Remove](../../aspose.slides.charts/ichartcategorycollection/remove)(IChartCategory) | Usuwa określoną wartość. |
 | [RemoveAt](../../aspose.slides.charts/ichartcategorycollection/removeat)(int) | Usuwa element o podanym indeksie. |
 
-### Zobacz także
+### Zobacz również
 
 * interfejs [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * interfejs [IChartCategory](../ichartcategory)

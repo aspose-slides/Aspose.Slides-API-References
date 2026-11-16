@@ -1,14 +1,14 @@
 ---
 title: FormatFactory
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: อนุญาตให้สร้างรูปแบบผ่านอินเทอร์เฟซ COM.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: อนุญาตให้สร้างฟอร์แมตผ่านอินเทอร์เฟซ COM.
 type: docs
-weight: 4950
+weight: 4970
 url: /th/aspose.slides/formatfactory/
 ---
 ## FormatFactory คลาส
 
-อนุญาตให้สร้างรูปแบบผ่านอินเทอร์เฟซ COM.
+Allows to create formats via COM interface.
 
 ```csharp
 public class FormatFactory : IFormatFactory
@@ -16,19 +16,19 @@ public class FormatFactory : IFormatFactory
 
 ## คอนสตรัคเตอร์
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [FormatFactory](formatfactory)() | ตัวสร้างค่าเริ่มต้น |
+| [FormatFactory](formatfactory)() | คอนสตรัคเตอร์เริ่มต้น. |
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| static [Instance](../../aspose.slides/formatfactory/instance) { get; } | อินสแตนซ์แบบสเตติกของ Format factory. อ่านอย่างเดียว [`FormatFactory`](../formatfactory). |
+| static [Instance](../../aspose.slides/formatfactory/instance) { get; } | อินสแตนซ์ฟอร์แมตแฟคทอรีแบบคงที่. อ่านอย่างเดียว [`FormatFactory`](../formatfactory). |
 
-## วิธีการ
+## เมธอด
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
 | [CreateParagraphFormat](../../aspose.slides/formatfactory/createparagraphformat)() | สร้างใหม่ [`IParagraphFormat`](../iparagraphformat). |
 | [CreatePortionFormat](../../aspose.slides/formatfactory/createportionformat)() | สร้างใหม่ [`IPortionFormat`](../iportionformat). |
@@ -36,7 +36,7 @@ public class FormatFactory : IFormatFactory
 
 ### ดูเพิ่มเติม
 
-* อินเตอร์เฟซ [IFormatFactory](../iformatfactory)
+* อินเทอร์เฟซ [IFormatFactory](../iformatfactory)
 * เนมสเปซ [Aspose.Slides](../../aspose.slides)
 * แอสเซมบลี [Aspose.Slides](../../)
 

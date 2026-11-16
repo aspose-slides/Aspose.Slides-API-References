@@ -1,9 +1,9 @@
 ---
 title: InterruptionTokenSource
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 表示 InterruptionToken./interruptiontoken 的来源。
 type: docs
-weight: 7610
+weight: 7630
 url: /zh/aspose.slides/interruptiontokensource/
 ---
 ## InterruptionTokenSource 类
@@ -24,8 +24,8 @@ public class InterruptionTokenSource : IInterruptionTokenSource
 
 | 名称 | 描述 |
 | --- | --- |
-| [IsInterruptionRequested](../../aspose.slides/interruptiontokensource/isinterruptionrequested) { get; } | 如果已请求中断，则返回 true，否则返回 false。 |
-| [Token](../../aspose.slides/interruptiontokensource/token) { get; } | 返回绑定到此 [`InterruptionTokenSource`](../interruptiontokensource) 的新令牌。 |
+| [IsInterruptionRequested](../../aspose.slides/interruptiontokensource/isinterruptionrequested) { get; } | 如果请求中断则返回 true，否则返回 false。 |
+| [Token](../../aspose.slides/interruptiontokensource/token) { get; } | 返回绑定到此 [`InterruptionTokenSource`](../interruptiontokensource) 的新 token。 |
 
 ## 方法
 
@@ -33,7 +33,7 @@ public class InterruptionTokenSource : IInterruptionTokenSource
 | --- | --- |
 | [Interrupt](../../aspose.slides/interruptiontokensource/interrupt)() | 初始化中断请求。 |
 
-### 另见
+### 参见
 
 * 接口 [IInterruptionTokenSource](../iinterruptiontokensource)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

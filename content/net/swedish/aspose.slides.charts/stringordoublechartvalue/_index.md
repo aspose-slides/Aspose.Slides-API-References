@@ -1,9 +1,9 @@
 ---
 title: StringOrDoubleChartValue
 second_title: Aspose.Sildes för .NET API-referens
-description: "Representerar sträng eller dubbelvärde som kan lagras i pptx-presentationsdokument på två sätt: 1) i cell/celler i arbetsbok relaterad till diagram 2) som ett bokstavligt värde."
+description: "Representerar sträng- eller dubbelvärde som kan lagras i pptx-presentationsdokument på två sätt: 1) i cell/celler i arbetsbok relaterad till diagram; 2) som ett bokstavligt värde."
 type: docs
-weight: 2420
+weight: 2440
 url: /sv/aspose.slides.charts/stringordoublechartvalue/
 ---
 ## StringOrDoubleChartValue klass
@@ -18,11 +18,11 @@ public class StringOrDoubleChartValue : BaseChartValue, IStringOrDoubleChartValu
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsCell](../../aspose.slides.charts/stringordoublechartvalue/ascell) { get; set; } | Returnerar eller anger diagrammets datapunktcell. Läs/skriv [`IChartDataCell`](../ichartdatacell). |
-| [AsLiteralDouble](../../aspose.slides.charts/stringordoublechartvalue/asliteraldouble) { get; set; } | Returnerar eller anger värdet som bokstavlig dubbel. Läs/skriv Double. |
-| [AsLiteralString](../../aspose.slides.charts/stringordoublechartvalue/asliteralstring) { get; set; } | Returnerar eller anger värdet som bokstavlig sträng. Läs/skriv String. |
-| override [Data](../../aspose.slides.charts/stringordoublechartvalue/data) { get; set; } | Returnerar eller anger Data-objektet. Läs/skriv Object. |
-| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Anger om AsCell, AsCells, AsLiteralString eller AsLiteralDouble-egenskapen är aktuell i avledda typer. Med andra ord anger den typen av värde för Data-egenskapen. Läs/skriv [`DataSourceType`](../datasourcetype). |
+| [AsCell](../../aspose.slides.charts/stringordoublechartvalue/ascell) { get; set; } | Returnerar eller anger diagramdatacell. Läs/skriv [`IChartDataCell`](../ichartdatacell). |
+| [AsLiteralDouble](../../aspose.slides.charts/stringordoublechartvalue/asliteraldouble) { get; set; } | Returnerar eller anger värde som bokstavlig dubbel. Läs/skriv Double. |
+| [AsLiteralString](../../aspose.slides.charts/stringordoublechartvalue/asliteralstring) { get; set; } | Returnerar eller anger värde som bokstavlig sträng. Läs/skriv String. |
+| override [Data](../../aspose.slides.charts/stringordoublechartvalue/data) { get; set; } | Returnerar eller anger Data-objekt. Läs/skriv Object. |
+| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Anger om AsCell, AsCells, AsLiteralString eller AsLiteralDouble-egenskapen är aktuell i avledda klasser. Med andra ord anger den typen av värde för Data-egenskapen. Läs/skriv [`DataSourceType`](../datasourcetype). |
 
 ## Metoder
 

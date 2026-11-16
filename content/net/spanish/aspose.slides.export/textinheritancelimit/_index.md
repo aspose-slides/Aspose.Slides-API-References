@@ -1,9 +1,9 @@
 ---
 title: TextInheritanceLimit
-second_title: Aspose.Sildes para la referencia de API de .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Controla la profundidad de la herencia de las propiedades de texto.
 type: docs
-weight: 4540
+weight: 4560
 url: /es/aspose.slides.export/textinheritancelimit/
 ---
 ## TextInheritanceLimit enumeración
@@ -20,7 +20,7 @@ public enum TextInheritanceLimit
 | --- | --- | --- |
 | All | `0` | Hereda todas las propiedades de texto. |
 | TextBox | `1` | Hereda solo del estilo de TextFrame. |
-| ParagraphOnly | `2` | Utiliza solo las propiedades definidas para el párrafo. |
+| ParagraphOnly | `2` | Utiliza solo las propiedades definidas para párrafo. |
 
 ### Ver también
 

@@ -1,12 +1,12 @@
 ---
 title: EmbeddingLevel
-second_title: Aspose.Sildes para la referencia de API de .NET
+second_title: Referencia de la API de Aspose.Sildes para .NET
 description: Representa los derechos de licencia para incrustar la fuente.
 type: docs
-weight: 3670
+weight: 3690
 url: /es/aspose.slides/embeddinglevel/
 ---
-## Enumeración EmbeddingLevel
+## EmbeddingLevel enumeración
 
 Representa los derechos de licencia para incrustar la fuente.
 
@@ -20,11 +20,11 @@ public enum EmbeddingLevel : ushort
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
 | Installable | `0` | Las fuentes con esta configuración indican que pueden ser incrustadas e instaladas permanentemente en el sistema remoto por una aplicación. El usuario del sistema remoto adquiere los mismos derechos, obligaciones y licencias para esa fuente que el comprador original de la fuente, y está sujeto al mismo acuerdo de licencia de usuario final, derechos de autor, patente de diseño y/o marca registrada que tenía el comprador original. |
-| Restricted | `2` | Las fuentes que sólo tienen este bit activado no deben ser modificadas, incrustadas o intercambiadas de ninguna manera sin obtener primero el permiso del propietario legal. |
-| PreviewPrint | `4` | Cuando este bit está activado, la fuente puede ser incrustada y cargada temporalmente en el sistema remoto. Los documentos que contienen fuentes Preview & Print deben abrirse "solo lectura"; no se pueden aplicar ediciones al documento. |
-| Editable | `8` | Cuando este bit está activado, la fuente puede ser incrustada pero sólo debe instalarse temporalmente en otros sistemas. A diferencia de las fuentes Preview & Print, los documentos que contienen fuentes Editable pueden abrirse para lectura, se permite la edición y los cambios pueden guardarse. |
-| NoSubsetting | `100` | Cuando este bit está activado, la fuente no puede ser subestablecida antes de la incrustación. Otras restricciones de incrustación especificadas en los bits 0-3 y 9 también se aplican. |
-| BitmapOnly | `200` | Cuando este bit está activado, sólo los bitmapas contenidos en la fuente pueden ser incrustados. No se pueden incrustar datos de contorno. Si no hay bitmapas disponibles en la fuente, entonces la fuente se considera no incrustable y los servicios de incrustación fallarán. |
+| Restricted | `2` | Las fuentes que solo tienen este bit activado no deben modificarse, incrustarse ni intercambiarse de ninguna manera sin obtener primero el permiso del propietario legal. |
+| PreviewPrint | `4` | Cuando este bit está activado, la fuente puede ser incrustada y cargada temporalmente en el sistema remoto. Los documentos que contienen fuentes Preview &amp; Print deben abrirse "solo lectura;" no se pueden aplicar ediciones al documento. |
+| Editable | `8` | Cuando este bit está activado, la fuente puede ser incrustada pero solo debe instalarse temporalmente en otros sistemas. En contraste con las fuentes Preview &amp; Print, los documentos que contienen fuentes Editable pueden abrirse para lectura, se permite la edición y los cambios pueden guardarse. |
+| NoSubsetting | `100` | Cuando este bit está activado, la fuente no puede ser subconjuntada antes de la incrustación. Otras restricciones de incrustación especificadas en los bits 0-3 y 9 también se aplican. |
+| BitmapOnly | `200` | Cuando este bit está activado, solo los mapas de bits contenidos en la fuente pueden ser incrustados. No se pueden incrustar datos de contorno. Si no hay mapas de bits disponibles en la fuente, entonces la fuente se considera no incrustable y los servicios de incrustación fallarán. |
 
 ### Ver también
 

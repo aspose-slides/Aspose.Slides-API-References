@@ -1,9 +1,9 @@
 ---
 title: IAudio
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 表示嵌入的音频文件。
 type: docs
-weight: 5210
+weight: 5230
 url: /zh/aspose.slides/iaudio/
 ---
 ## IAudio 接口
@@ -18,8 +18,8 @@ public interface IAudio
 
 | 名称 | 描述 |
 | --- | --- |
-| [BinaryData](../../aspose.slides/iaudio/binarydata) { get; } | 返回音频数据的副本。对于大量数据，考虑使用 [`GetStream`](./getstream) 方法，以防止不必要地将音频数据加载到内存中或导致 OutOfMemoryException。只读 Byte[]. |
-| [ContentType](../../aspose.slides/iaudio/contenttype) { get; } | 返回音频的 MIME 类型，使用 [`BinaryData`](./binarydata) 编码。只读 String. |
+| [BinaryData](../../aspose.slides/iaudio/binarydata) { get; } | 返回音频数据的副本。如果数据量很大，考虑使用 [`GetStream`](./getstream) 方法，以防止不必要地将音频数据加载到内存中，甚至导致 OutOfMemoryException。只读 Byte[]. |
+| [ContentType](../../aspose.slides/iaudio/contenttype) { get; } | 返回音频的 MIME 类型，使用 [`BinaryData`](./binarydata) 编码。只读 String。 |
 
 ## 方法
 
@@ -27,7 +27,7 @@ public interface IAudio
 | --- | --- |
 | [GetStream](../../aspose.slides/iaudio/getstream)() | 返回用于读取的 Stream 流。使用 'using' 或在使用后关闭流。 |
 
-### 另请参见
+### 另请参阅
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

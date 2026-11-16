@@ -1,14 +1,14 @@
 ---
 title: IHtmlFormatter
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili templat file HTML.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Mewakili templat berkas HTML.
 type: docs
-weight: 3940
+weight: 3960
 url: /id/aspose.slides.export/ihtmlformatter/
 ---
 ## IHtmlFormatter antarmuka
 
-Mewakili templat file HTML.
+Mewakili templat berkas HTML.
 
 ```csharp
 public interface IHtmlFormatter

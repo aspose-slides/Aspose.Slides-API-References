@@ -1,14 +1,14 @@
 ---
 title: IInOutTransition
-second_title: Aspose.Sildes a .NET API referencia
-description: In-Out diaátmeneti hatás.
+second_title: Aspose.Sildes .NET API referencia
+description: Be- és kilépő diaátmenet hatás.
 type: docs
-weight: 10110
+weight: 10130
 url: /hu/aspose.slides.slideshow/iinouttransition/
 ---
 ## IInOutTransition interfész
 
-In-Out diaátmeneti hatás.
+In-Out slide transition effect.
 
 ```csharp
 public interface IInOutTransition : ITransitionValueBase
@@ -18,8 +18,8 @@ public interface IInOutTransition : ITransitionValueBase
 
 | Név | Leírás |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/iinouttransition/asitransitionvaluebase) { get; } | Lehetővé teszi, hogy lekérje az alap ITransitionValueBase interfészt. Csak olvasható [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/iinouttransition/direction) { get; set; } | Az átmeneti effektus iránya. Olvasás/írás [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/iinouttransition/asitransitionvaluebase) { get; } | Lehetővé teszi a base ITransitionValueBase interfész lekérdezését. Csak olvasható [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/iinouttransition/direction) { get; set; } | Az átmenet hatásának iránya. Olvasható/írható [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
 
 ### Lásd még
 

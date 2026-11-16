@@ -1,22 +1,22 @@
 ---
 title: IInnerShadowEffectiveData
-second_title: Aspose.Sildes for .NET API 參考
-description: 不可變的物件，表示內部陰影效果。
+second_title: Aspose.Sildes for .NET API 參考文件
+description: 表示內部陰影效果的不可變物件。
 type: docs
-weight: 3430
+weight: 3450
 url: /zh-hant/aspose.slides.effects/iinnershadoweffectivedata/
 ---
-## IInnerShadowEffectiveData 介面
+## IInnerShadowEffectiveData interface
 
-不可變物件，表示內部陰影效果。
+不可變的物件，表示內部陰影效果。
 
 ```csharp
 public interface IInnerShadowEffectiveData : IEffectEffectiveData
 ```
 
-## 屬性
+## Properties
 
-| Name | Description |
+| 名稱 | 說明 |
 | --- | --- |
 | [AsIEffectEffectiveData](../../aspose.slides.effects/iinnershadoweffectivedata/asieffecteffectivedata) { get; } | 允許取得基礎 IEffectEffectiveData 介面。唯讀 [`IEffectEffectiveData`](../ieffecteffectivedata)。 |
 | [BlurRadius](../../aspose.slides.effects/iinnershadoweffectivedata/blurradius) { get; } | 模糊半徑。唯讀 Double。 |
@@ -24,7 +24,7 @@ public interface IInnerShadowEffectiveData : IEffectEffectiveData
 | [Distance](../../aspose.slides.effects/iinnershadoweffectivedata/distance) { get; } | 陰影距離。唯讀 Double。 |
 | [ShadowColor](../../aspose.slides.effects/iinnershadoweffectivedata/shadowcolor) { get; } | 陰影顏色。唯讀 Color。 |
 
-### 另見
+### 另請參閱
 
 * 介面 [IEffectEffectiveData](../ieffecteffectivedata)
 * 命名空間 [Aspose.Slides.Effects](../../aspose.slides.effects)

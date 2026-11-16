@@ -1,20 +1,20 @@
 ---
 title: Tab
-second_title: Aspose.Sildes .NET API 參考文件
-description: 表示文字的製表。
+second_title: Aspose.Sildes for .NET API 參考
+description: 表示文字的定位點。
 type: docs
-weight: 10820
+weight: 10840
 url: /zh-hant/aspose.slides/tab/
 ---
 ## Tab 類別
 
-表示文字的製表。
+表示文字的定位點。
 
 ```csharp
 public sealed class Tab : PVIObject, ITab
 ```
 
-## 建構式
+## 建構函式
 
 | 名稱 | 說明 |
 | --- | --- |
@@ -24,17 +24,17 @@ public sealed class Tab : PVIObject, ITab
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Alignment](../../aspose.slides/tab/alignment) { get; set; } | 取得或設定定位點的對齊樣式。讀/寫 [`TabAlignment`](../tabalignment)。 |
+| [Alignment](../../aspose.slides/tab/alignment) { get; set; } | 取得或設定定位點的對齊樣式。可讀寫 [`TabAlignment`](../tabalignment)。 |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允許取得基礎 IPresentationComponent 介面。唯讀 [`IPresentationComponent`](../ipresentationcomponent)。 |
-| [Position](../../aspose.slides/tab/position) { get; set; } | 取得或設定定位點的位置。設定此屬性可能會變更集合中定位點的索引並使 Enumerator 失效。讀/寫 Double。 |
+| [Position](../../aspose.slides/tab/position) { get; set; } | 取得或設定定位點的位置。指派此屬性可能會變更定位點在集合中的索引並使列舉器失效。可讀寫 Double。 |
 
 ## 方法
 
 | 名稱 | 說明 |
 | --- | --- |
-| [CompareTo](../../aspose.slides/tab/compareto)(object) | 比較目前的實例與相同類型的另一個 object。 |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | 與指定的 object 比較。 |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | 取得雜湊碼。 |
+| [CompareTo](../../aspose.slides/tab/compareto)(object) | 比較目前的實例與相同類型的另一個物件。 |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | 與指定的物件比較。 |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | 傳回雜湊碼。 |
 
 ### 另請參閱
 

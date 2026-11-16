@@ -1,14 +1,14 @@
 ---
 title: IMorphTransition
-second_title: Aspose.Sildes για .NET API Αναφορά
-description: Εφέ μετάβασης slide ripple.
+second_title: Aspose.Sildes για .NET API Reference
+description: Εφέ μετάβασης διαφάνειας Ripple.
 type: docs
-weight: 10130
+weight: 10150
 url: /el/aspose.slides.slideshow/imorphtransition/
 ---
 ## IMorphTransition διασύνδεση
 
-Ripple slide transition effect.
+Εφέ μετάβασης διαφάνειας Ripple.
 
 ```csharp
 public interface IMorphTransition : ITransitionValueBase
@@ -18,8 +18,8 @@ public interface IMorphTransition : ITransitionValueBase
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/imorphtransition/asitransitionvaluebase) { get; } | Επιτρέπει τη λήψη της βασικής διεπαφής ITransitionValueBase. Μόνο για ανάγνωση [`ITransitionValueBase`](../itransitionvaluebase). |
-| [MorphType](../../aspose.slides.slideshow/imorphtransition/morphtype) { get; set; } | Τύπος της morph transition. Ανάγνωση/εγγραφή [`TransitionMorphType`](../transitionmorphtype). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/imorphtransition/asitransitionvaluebase) { get; } | Επιτρέπει την πρόσβαση στη βασική διεπαφή ITransitionValueBase. Μόνο ανάγνωση [`ITransitionValueBase`](../itransitionvaluebase). |
+| [MorphType](../../aspose.slides.slideshow/imorphtransition/morphtype) { get; set; } | Τύπος της μεταβολής μετάβασης. Ανάγνωση/εγγραφή [`TransitionMorphType`](../transitionmorphtype). |
 
 ### Δείτε επίσης
 

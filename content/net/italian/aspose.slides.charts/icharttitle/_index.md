@@ -1,12 +1,12 @@
 ---
 title: IChartTitle
-second_title: Aspose.Sildes per .NET Riferimento API
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta le proprietà del titolo del grafico.
 type: docs
-weight: 2000
+weight: 2020
 url: /it/aspose.slides.charts/icharttitle/
 ---
-## IChartTitle interface
+## IChartTitle interfaccia
 
 Rappresenta le proprietà del titolo del grafico.
 
@@ -18,10 +18,10 @@ public interface IChartTitle : IActualLayout, ILayoutable, IOverridableText
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsILayoutable](../../aspose.slides.charts/icharttitle/asilayoutable) { get; } | Consente di ottenere l'interfaccia base ILayoutable. Solo lettura [`ILayoutable`](../ilayoutable). |
-| [AsIOverridableText](../../aspose.slides.charts/icharttitle/asioverridabletext) { get; } | Consente di ottenere l'interfaccia base IOverridableText. Solo lettura [`IOverridableText`](../ioverridabletext). |
-| [Format](../../aspose.slides.charts/icharttitle/format) { get; } | Restituisce gli stili di riempimento, contorno ed effetto di un titolo. Solo lettura [`IFormat`](../iformat). |
-| [Overlay](../../aspose.slides.charts/icharttitle/overlay) { get; set; } | Determina se altri elementi del grafico devono poter sovrapporre il titolo. Lettura/scrittura Boolean. |
+| [AsILayoutable](../../aspose.slides.charts/icharttitle/asilayoutable) { get; } | Consente di ottenere l'interfaccia base ILayoutable. Sola lettura [`ILayoutable`](../ilayoutable). |
+| [AsIOverridableText](../../aspose.slides.charts/icharttitle/asioverridabletext) { get; } | Consente di ottenere l'interfaccia base IOverridableText. Sola lettura [`IOverridableText`](../ioverridabletext). |
+| [Format](../../aspose.slides.charts/icharttitle/format) { get; } | Restituisce gli stili di riempimento, linea ed effetto di un titolo. Sola lettura [`IFormat`](../iformat). |
+| [Overlay](../../aspose.slides.charts/icharttitle/overlay) { get; set; } | Determina se altri elementi del grafico possono sovrapporsi al titolo. Lettura/Scrittura Booleano. |
 
 ### Vedi anche
 

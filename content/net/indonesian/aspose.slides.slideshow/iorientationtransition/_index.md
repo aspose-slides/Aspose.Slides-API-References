@@ -3,7 +3,7 @@ title: IOrientationTransition
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Efek transisi slide orientasi.
 type: docs
-weight: 10150
+weight: 10170
 url: /id/aspose.slides.slideshow/iorientationtransition/
 ---
 ## IOrientationTransition antarmuka
@@ -18,7 +18,7 @@ public interface IOrientationTransition : ITransitionValueBase
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/iorientationtransition/asitransitionvaluebase) { get; } | Memungkinkan untuk mendapatkan antarmuka dasar ITransitionValueBase. Baca-saja [`ITransitionValueBase`](../itransitionvaluebase). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/iorientationtransition/asitransitionvaluebase) { get; } | Memungkinkan untuk mendapatkan antarmuka ITransitionValueBase dasar. Hanya-baca [`ITransitionValueBase`](../itransitionvaluebase). |
 | [Direction](../../aspose.slides.slideshow/iorientationtransition/direction) { get; set; } | Arah transisi. Baca/tulis [`Orientation`](../../aspose.slides/orientation). |
 
 ### Lihat Juga

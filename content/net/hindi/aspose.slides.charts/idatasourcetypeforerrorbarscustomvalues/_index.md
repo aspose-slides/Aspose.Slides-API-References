@@ -1,14 +1,14 @@
 ---
 title: IDataSourceTypeForErrorBarsCustomValues
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: ChartDataPoint.ErrorBarsCustomValues प्रॉपर्टीज़ सूची में मानों के प्रकार निर्दिष्ट करता है
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: ChartDataPoint.ErrorBarsCustomValues प्रॉपर्टी सूची में मानों के प्रकार निर्दिष्ट करता है
 type: docs
-weight: 2050
+weight: 2070
 url: /hi/aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/
 ---
 ## IDataSourceTypeForErrorBarsCustomValues इंटरफ़ेस
 
-ChartDataPoint.ErrorBarsCustomValues प्रॉपर्टीज़ सूची में मानों के प्रकार निर्दिष्ट करता है
+ChartDataPoint.ErrorBarsCustomValues प्रॉपर्टी सूची में मानों के प्रकार निर्दिष्ट करता है
 
 ```csharp
 public interface IDataSourceTypeForErrorBarsCustomValues
@@ -18,12 +18,12 @@ public interface IDataSourceTypeForErrorBarsCustomValues
 
 | नाम | विवरण |
 | --- | --- |
-| [DataSourceTypeForXMinusValues](../../aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforxminusvalues) { get; set; } | निर्दिष्ट करता है कि AsCell या AsLiteralString या AsLiteralDouble प्रॉपर्टी त्रुटि बार कस्टम मानों के डेटा पॉइंट्स XMinus प्रॉपर्टी ऑब्जेक्ट में वास्तविक है या नहीं। दूसरे शब्दों में यह ChartDataPoint.ErrorBarsCustomValues.XMinus.Data प्रॉपर्टी के मान के प्रकार को निर्दिष्ट करता है। पढ़ें/लिखें [`DataSourceType`](../datasourcetype). |
-| [DataSourceTypeForXPlusValues](../../aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforxplusvalues) { get; set; } | निर्दिष्ट करता है कि AsCell या AsLiteralString या AsLiteralDouble प्रॉपर्टी त्रुटि बार कस्टम मानों के डेटा पॉइंट्स XPlus प्रॉपर्टी ऑब्जेक्ट में वास्तविक है या नहीं। दूसरे शब्दों में यह ChartDataPoint.ErrorBarsCustomValues.XPlus.Data प्रॉपर्टी के मान के प्रकार को निर्दिष्ट करता है। पढ़ें/लिखें [`DataSourceType`](../datasourcetype). |
-| [DataSourceTypeForYMinusValues](../../aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforyminusvalues) { get; set; } | निर्दिष्ट करता है कि AsCell या AsLiteralString या AsLiteralDouble प्रॉपर्टी त्रुटि बार कस्टम मानों के डेटा पॉइंट्स YMinus प्रॉपर्टी ऑब्जेक्ट में वास्तविक है या नहीं। दूसरे शब्दों में यह ChartDataPointEx.ErrorBarsCustomValues.YMinus.Data प्रॉपर्टी के मान के प्रकार को निर्दिष्ट करता है। पढ़ें/लिखें [`DataSourceType`](../datasourcetype). |
-| [DataSourceTypeForYPlusValues](../../aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforyplusvalues) { get; set; } | निर्दिष्ट करता है कि AsCell या AsLiteralString या AsLiteralDouble प्रॉपर्टी त्रुटि बार कस्टम मानों के डेटा पॉइंट्स YPlus प्रॉपर्टी ऑब्जेक्ट में वास्तविक है या नहीं। दूसरे शब्दों में यह ChartDataPointEx.ErrorBarsCustomValues.YPlus.Data प्रॉपर्टी के मान के प्रकार को निर्दिष्ट करता है। पढ़ें/लिखें [`DataSourceType`](../datasourcetype). |
+| [DataSourceTypeForXMinusValues](../../aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforxminusvalues) { get; set; } | निर्दिष्ट करता है कि AsCell या AsLiteralString या AsLiteralDouble प्रॉपर्टी त्रुटि बार कस्टम मानों के लिए डेटा पॉइंट्स के XMinus प्रॉपर्टी ऑब्जेक्ट में वास्तविक है या नहीं। अन्य शब्दों में यह ChartDataPoint.ErrorBarsCustomValues.XMinus.Data प्रॉपर्टी के मान के प्रकार को निर्दिष्ट करता है। पढ़ें/लिखें [`DataSourceType`](../datasourcetype). |
+| [DataSourceTypeForXPlusValues](../../aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforxplusvalues) { get; set; } | निर्दिष्ट करता है कि AsCell या AsLiteralString या AsLiteralDouble प्रॉपर्टी त्रुटि बार कस्टम मानों के लिए डेटा पॉइंट्स के XPlus प्रॉपर्टी ऑब्जेक्ट में वास्तविक है या नहीं। अन्य शब्दों में यह ChartDataPoint.ErrorBarsCustomValues.XPlus.Data प्रॉपर्टी के मान के प्रकार को निर्दिष्ट करता है। पढ़ें/लिखें [`DataSourceType`](../datasourcetype). |
+| [DataSourceTypeForYMinusValues](../../aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforyminusvalues) { get; set; } | निर्दिष्ट करता है कि AsCell या AsLiteralString या AsLiteralDouble प्रॉपर्टी त्रुटि बार कस्टम मानों के लिए डेटा पॉइंट्स के YMinus प्रॉपर्टी ऑब्जेक्ट में वास्तविक है या नहीं। अन्य शब्दों में यह ChartDataPointEx.ErrorBarsCustomValues.YMinus.Data प्रॉपर्टी के मान के प्रकार को निर्दिष्ट करता है। पढ़ें/लिखें [`DataSourceType`](../datasourcetype). |
+| [DataSourceTypeForYPlusValues](../../aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforyplusvalues) { get; set; } | निर्दिष्ट करता है कि AsCell या AsLiteralString या AsLiteralDouble प्रॉपर्टी त्रुटि बार कस्टम मानों के लिए डेटा पॉइंट्स के YPlus प्रॉपर्टी ऑब्जेक्ट में वास्तविक है या नहीं। अन्य शब्दों में यह ChartDataPointEx.ErrorBarsCustomValues.YPlus.Data प्रॉपर्टी के मान के प्रकार को निर्दिष्ट करता है। पढ़ें/लिखें [`DataSourceType`](../datasourcetype). |
 
-### देखें
+### संबंधित देखें
 
 * नामस्थान [Aspose.Slides.Charts](../../aspose.slides.charts)
 * असेंबली [Aspose.Slides](../../)

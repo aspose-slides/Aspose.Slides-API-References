@@ -3,12 +3,12 @@ title: ITextFrame
 second_title: Aspose.Sildes для .NET справочник API
 description: Представляет TextFrame.
 type: docs
-weight: 7270
+weight: 7290
 url: /ru/aspose.slides/itextframe/
 ---
 ## ITextFrame интерфейс
 
-Represents a TextFrame.
+Представляет TextFrame.
 
 ```csharp
 public interface ITextFrame : ISlideComponent
@@ -18,25 +18,26 @@ public interface ITextFrame : ISlideComponent
 
 | Имя | Описание |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides/itextframe/asislidecomponent) { get; } | Позволяет получить базовый интерфейс ISlideComponent. Только чтение [`ISlideComponent`](../islidecomponent). |
-| [HyperlinkQueries](../../aspose.slides/itextframe/hyperlinkqueries) { get; } | Обеспечивает простой доступ к содержащимся гиперссылкам. Только чтение [`IHyperlinkQueries`](../ihyperlinkqueries). |
-| [Paragraphs](../../aspose.slides/itextframe/paragraphs) { get; } | Возвращает список всех абзацев в кадре. Только чтение [`IParagraphCollection`](../iparagraphcollection). |
-| [ParentCell](../../aspose.slides/itextframe/parentcell) { get; } | Возвращает родительскую ячейку или null, если родительский объект не реализует интерфейс ICell. Только чтение [`ICell`](../icell). |
-| [ParentShape](../../aspose.slides/itextframe/parentshape) { get; } | Возвращает родительскую фигуру или null, если родительский объект не реализует интерфейс IShape. Только чтение [`IShape`](../ishape). |
-| [Text](../../aspose.slides/itextframe/text) { get; set; } | Получает или задает простой текст для TextFrame. Чтение/запись String. |
-| [TextFrameFormat](../../aspose.slides/itextframe/textframeformat) { get; } | Возвращает объект форматирования для этого объекта TextFrame. Только чтение [`ITextFrameFormat`](../itextframeformat). |
+| [AsISlideComponent](../../aspose.slides/itextframe/asislidecomponent) { get; } | Позволяет получить базовый интерфейс ISlideComponent. Только для чтения [`ISlideComponent`](../islidecomponent). |
+| [HyperlinkQueries](../../aspose.slides/itextframe/hyperlinkqueries) { get; } | Обеспечивает простой доступ к содержащимся гиперссылкам. Только для чтения [`IHyperlinkQueries`](../ihyperlinkqueries). |
+| [Paragraphs](../../aspose.slides/itextframe/paragraphs) { get; } | Возвращает список всех абзацев во фрейме. Только для чтения [`IParagraphCollection`](../iparagraphcollection). |
+| [ParentCell](../../aspose.slides/itextframe/parentcell) { get; } | Возвращает родительскую ячейку или null, если родительский объект не реализует интерфейс ICell. Только для чтения [`ICell`](../icell). |
+| [ParentShape](../../aspose.slides/itextframe/parentshape) { get; } | Возвращает родительскую фигуру или null, если родительский объект не реализует интерфейс IShape. Только для чтения [`IShape`](../ishape). |
+| [Text](../../aspose.slides/itextframe/text) { get; set; } | Получает или задает обычный текст для TextFrame. Чтение/запись String. |
+| [TextFrameFormat](../../aspose.slides/itextframe/textframeformat) { get; } | Возвращает объект форматирования для этого объекта TextFrame. Только для чтения [`ITextFrameFormat`](../itextframeformat). |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
+| [GetTextRect](../../aspose.slides/itextframe/gettextrect)() | Получает прямоугольник текста, определяемый геометрией родительской фигуры. |
 | [HighlightRegex](../../aspose.slides/itextframe/highlightregex#highlightregex_1)(Regex, Color, IFindResultCallback) | Выделяет все совпадения регулярного выражения указанным цветом. |
 | [HighlightText](../../aspose.slides/itextframe/highlighttext#highlighttext)(string, Color) | Выделяет все совпадения образца текста указанным цветом. |
 | [HighlightText](../../aspose.slides/itextframe/highlighttext#highlighttext_2)(string, Color, ITextSearchOptions, IFindResultCallback) | Выделяет все совпадения образца текста указанным цветом. |
 | [JoinPortionsWithSameFormatting](../../aspose.slides/itextframe/joinportionswithsameformatting)() | Объединяет фрагменты с одинаковым форматированием во всех абзацах. |
 | [ReplaceRegex](../../aspose.slides/itextframe/replaceregex)(Regex, string, IFindResultCallback) | Заменяет все совпадения регулярного выражения указанной строкой. |
 | [ReplaceText](../../aspose.slides/itextframe/replacetext)(string, string, ITextSearchOptions, IFindResultCallback) | Заменяет все вхождения указанного текста другим указанным текстом. |
-| [SplitTextByColumns](../../aspose.slides/itextframe/splittextbycolumns)() | Разделяет текстовое содержимое [`ITextFrame`](../itextframe) на массив строк, где каждый элемент соответствует отдельному текстовому столбцу внутри кадра. |
+| [SplitTextByColumns](../../aspose.slides/itextframe/splittextbycolumns)() | Разбивает текстовое содержимое [`ITextFrame`](../itextframe) на массив строк, где каждый элемент соответствует отдельному текстовому столбцу внутри фрейма. |
 
 ### См. также
 

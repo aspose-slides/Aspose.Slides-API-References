@@ -1,14 +1,14 @@
 ---
 title: IDigitalSignature
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: ลายเซ็นดิจิทัลในไฟล์ที่ลงนาม.
+description: ลายเซ็นดิจิทัลในไฟล์ที่ลงลายเซ็น
 type: docs
-weight: 5690
+weight: 5710
 url: /th/aspose.slides/idigitalsignature/
 ---
 ## IDigitalSignature อินเทอร์เฟซ
 
-ลายเซ็นดิจิทัลในไฟล์ที่ลงนาม.
+ลายเซ็นดิจิทัลในไฟล์ที่ลงลายเซ็น
 
 ```csharp
 public interface IDigitalSignature
@@ -18,10 +18,10 @@ public interface IDigitalSignature
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Certificate](../../aspose.slides/idigitalsignature/certificate) { get; } | อ็อบเจ็กต์ใบรับรองที่ใช้ลงนามเอกสาร. อ่านอย่างเดียว X509Certificate2. |
+| [Certificate](../../aspose.slides/idigitalsignature/certificate) { get; } | วัตถุ Certificate ที่ใช้ลงลายเซ็นในเอกสาร. อ่านอย่างเดียว X509Certificate2. |
 | [Comments](../../aspose.slides/idigitalsignature/comments) { get; set; } | วัตถุประสงค์ของลายเซ็น. อ่าน/เขียน String. |
-| [IsValid](../../aspose.slides/idigitalsignature/isvalid) { get; } | หากลายเซ็นดิจิทัลนี้เป็นที่ถูกต้องและเอกสารไม่ได้ถูกดัดแปลง ค่าจะเป็น true. อ่านอย่างเดียว Boolean. |
-| [SignTime](../../aspose.slides/idigitalsignature/signtime) { get; } | เวลาเมื่อเอกสารถูกลงนาม. อ่านอย่างเดียว DateTime. |
+| [IsValid](../../aspose.slides/idigitalsignature/isvalid) { get; } | หากลายเซ็นดิจิทัลนี้ถูกต้องและเอกสารถูกแก้ไขไม่ได้ ค่าจะเป็น true. อ่านอย่างเดียว Boolean. |
+| [SignTime](../../aspose.slides/idigitalsignature/signtime) { get; } | เวลาที่เอกสารถูกลงลายเซ็น. อ่านอย่างเดียว DateTime. |
 
 ### ดูเพิ่มเติม
 

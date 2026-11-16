@@ -3,7 +3,7 @@ title: IProgressCallback
 second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Représente un objet de rappel pour enregistrer les mises à jour de progression en pourcentage.
 type: docs
-weight: 6810
+weight: 6830
 url: /fr/aspose.slides/iprogresscallback/
 ---
 ## IProgressCallback interface
@@ -18,7 +18,7 @@ public interface IProgressCallback
 
 | Nom | Description |
 | --- | --- |
-| [Reporting](../../aspose.slides/iprogresscallback/reporting)(double) | Signale une mise à jour de progression. |
+| [Reporting](../../aspose.slides/iprogresscallback/reporting)(double) | Signale une mise à jour de la progression. |
 
 ### Voir aussi
 

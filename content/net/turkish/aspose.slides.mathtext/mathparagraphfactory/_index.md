@@ -1,12 +1,12 @@
 ---
 title: MathParagraphFactory
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes .NET API Referansı için
 description: Matematik paragrafı oluşturmayı sağlar
 type: docs
-weight: 8910
+weight: 8930
 url: /tr/aspose.slides.mathtext/mathparagraphfactory/
 ---
-## MathParagraphFactory sınıfı
+## MathParagraphFactory sınıf
 
 Matematik paragrafı oluşturmayı sağlar
 
@@ -18,20 +18,20 @@ public class MathParagraphFactory : IMathParagraphFactory
 
 | Ad | Açıklama |
 | --- | --- |
-| [MathParagraphFactory](mathparagraphfactory)() | Varsayılan yapıcı. |
+| [MathParagraphFactory](mathparagraphfactory)() | The default constructor. |
 
-## Metodlar
+## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [CreateMathParagraph](../../aspose.slides.mathtext/mathparagraphfactory/createmathparagraph#createmathparagraph)() | Boş matematik paragrafı oluşturur |
-| [CreateMathParagraph](../../aspose.slides.mathtext/mathparagraphfactory/createmathparagraph#createmathparagraph_1)(IMathBlock) | Bir matematik paragrafı oluşturur ve belirtilen matematik bloğunu içine yerleştirir |
+| [CreateMathParagraph](../../aspose.slides.mathtext/mathparagraphfactory/createmathparagraph#createmathparagraph)() | Create empty math paragraph |
+| [CreateMathParagraph](../../aspose.slides.mathtext/mathparagraphfactory/createmathparagraph#createmathparagraph_1)(IMathBlock) | Creates a math paragraph and places the specified math block in it |
 
 ### Açıklamalar
 
 COM uyumluluğu için
 
-### İlgili Bilgiler
+### Ayrıca Bakınız
 
 * arayüz [IMathParagraphFactory](../imathparagraphfactory)
 * ad alanı [Aspose.Slides.MathText](../../aspose.slides.mathtext)

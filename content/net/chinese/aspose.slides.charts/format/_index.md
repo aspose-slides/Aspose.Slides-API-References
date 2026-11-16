@@ -1,9 +1,9 @@
 ---
 title: Format
-second_title: Aspose.Sildes .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 表示图表格式属性。
 type: docs
-weight: 1680
+weight: 1690
 url: /zh/aspose.slides.charts/format/
 ---
 ## Format 类
@@ -19,7 +19,7 @@ public sealed class Format : PVIObject, IFormat
 | 名称 | 描述 |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基 IPresentationComponent 接口。只读 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
-| [Effect](../../aspose.slides.charts/format/effect) { get; } | 返回图表使用的效果。只读 [`IEffectFormat`](../../aspose.slides/ieffectformat)。 |
+| [Effect](../../aspose.slides.charts/format/effect) { get; } | 返回用于图表的效果。只读 [`IEffectFormat`](../../aspose.slides/ieffectformat)。 |
 | [Effect3D](../../aspose.slides.charts/format/effect3d) { get; } | 返回图表的 3D 格式。只读 [`IThreeDFormat`](../../aspose.slides/ithreedformat)。 |
 | [Fill](../../aspose.slides.charts/format/fill) { get; } | 返回图表的填充样式属性。只读 [`IFillFormat`](../../aspose.slides/ifillformat)。 |
 | [Line](../../aspose.slides.charts/format/line) { get; } | 返回图表的线条样式属性。只读 [`ILineFormat`](../../aspose.slides/ilineformat)。 |
@@ -28,10 +28,10 @@ public sealed class Format : PVIObject, IFormat
 
 | 名称 | 描述 |
 | --- | --- |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | 与指定对象比较。 |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | 与指定对象进行比较。 |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | 返回哈希码。 |
 
-### 另请参阅
+### 另见
 
 * 类 [PVIObject](../../aspose.slides/pviobject)
 * 接口 [IFormat](../iformat)

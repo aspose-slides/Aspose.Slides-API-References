@@ -1,14 +1,14 @@
 ---
 title: EmbedFontCharacters
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET APIリファレンス
 description: IPresentation../aspose.slides/ipresentation に新しい埋め込みフォントを追加する際に使用するルールを表します
 type: docs
-weight: 3770
+weight: 3790
 url: /ja/aspose.slides.export/embedfontcharacters/
 ---
-## EmbedFontCharacters 列挙型
+## EmbedFontCharacters 列挙体
 
-プレゼンテーションに新しい埋め込みフォントを追加する際に使用するルールを表します [`IPresentation`](../../aspose.slides/ipresentation)
+新しい埋め込みフォントを [`IPresentation`](../../aspose.slides/ipresentation) に追加する際に使用するルールを表します。
 
 ```csharp
 public enum EmbedFontCharacters
@@ -18,8 +18,8 @@ public enum EmbedFontCharacters
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
-| OnlyUsed | `0` | プレゼンテーションで使用されている文字だけを埋め込みます（ファイルサイズを削減するのに最適です）。 |
-| All | `1` | すべての文字を埋め込みます（他のユーザーが編集するのに最適です）。 |
+| OnlyUsed | `0` | プレゼンテーションで使用されている文字だけを埋め込む（ファイルサイズを削減するのに最適）。 |
+| All | `1` | すべての文字を埋め込む（他のユーザーが編集するのに最適）。 |
 
 ### 参照
 

@@ -1,14 +1,14 @@
 ---
 title: LayoutSlideThemeManager
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt Zugriff auf das überschriebene Layout-Folien-Theme bereit.
+description: Stellt Zugriff auf das überschriebenen Layout-Folienthema bereit.
 type: docs
-weight: 11410
+weight: 11430
 url: /de/aspose.slides.theme/layoutslidethememanager/
 ---
 ## LayoutSlideThemeManager Klasse
 
-Stellt Zugriff auf das überschriebene Layout-Folien-Theme bereit.
+Stellt Zugriff auf das überschriebene Layout-Folienthema bereit.
 
 ```csharp
 public class LayoutSlideThemeManager : BaseOverrideThemeManager
@@ -18,15 +18,15 @@ public class LayoutSlideThemeManager : BaseOverrideThemeManager
 
 | Name | Beschreibung |
 | --- | --- |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Bestimmt, ob OverrideTheme das geerbte effektive Theme überschreibt oder nicht. Um OverrideTheme zum Überschreiben zu aktivieren, verwenden Sie die OverrideTheme.Init*()-Methoden. Um OverrideTheme vom Überschreiben zu deaktivieren, verwenden Sie die OverrideTheme.Clear()-Methode. Nur lesbarer Boolean. |
-| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Gibt das überschreibende Theme-Objekt zurück. Lese-/Schreib [`IOverrideTheme`](../ioverridetheme). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Bestimmt, ob OverrideTheme das geerbte effektive Thema überschreibt oder nicht. Um OverrideTheme für das Überschreiben zu aktivieren, verwenden Sie die OverrideTheme.Init*()-Methoden. Um OverrideTheme vom Überschreiben zu deaktivieren, verwenden Sie die OverrideTheme.Clear()-Methode. Nur lesbar Boolean. |
+| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Gibt das überschreibende Themenobjekt zurück. Lese-/schreibbar [`IOverrideTheme`](../ioverridetheme). |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
 | [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | Wendet ein zusätzliches Farbschema auf eine Folie an. |
-| [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | Gibt das Theme-Objekt zurück. |
+| [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | Gibt das Themenobjekt zurück. |
 
 ### Siehe auch
 

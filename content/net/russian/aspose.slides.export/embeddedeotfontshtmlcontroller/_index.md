@@ -1,14 +1,14 @@
 ---
 title: EmbeddedEotFontsHtmlController
-second_title: Aspose.Sildes для .NET справочник API
-description: Класс контроллера форматирования, используемый для встраивания шрифтов в формат EOT
+second_title: Aspose.Sildes для .NET: справочник API
+description: Класс контроллера форматирования, используемый для встраивания шрифтов в формате EOT
 type: docs
-weight: 3780
+weight: 3800
 url: /ru/aspose.slides.export/embeddedeotfontshtmlcontroller/
 ---
 ## EmbeddedEotFontsHtmlController класс
 
-Контроллер форматирования, используемый для встраивания шрифтов в формате EOT
+Класс контроллера форматирования, используемый для встраивания шрифтов в формате EOT
 
 ```csharp
 public class EmbeddedEotFontsHtmlController : IEmbeddedEotFontsHtmlController
@@ -18,10 +18,10 @@ public class EmbeddedEotFontsHtmlController : IEmbeddedEotFontsHtmlController
 
 | Имя | Описание |
 | --- | --- |
-| [EmbeddedEotFontsHtmlController](embeddedeotfontshtmlcontroller#constructor)() | Создает новый экземпляр. |
-| [EmbeddedEotFontsHtmlController](embeddedeotfontshtmlcontroller#constructor_1)(IHtmlFormattingController) | Создает новый экземпляр. |
+| [EmbeddedEotFontsHtmlController](embeddedeotfontshtmlcontroller#constructor)() | Создаёт новый экземпляр. |
+| [EmbeddedEotFontsHtmlController](embeddedeotfontshtmlcontroller#constructor_1)(IHtmlFormattingController) | Создаёт новый экземпляр. |
 
-### См. также
+### Смотрите также
 
 * интерфейс [IEmbeddedEotFontsHtmlController](../iembeddedeotfontshtmlcontroller)
 * пространство имён [Aspose.Slides.Export](../../aspose.slides.export)

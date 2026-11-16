@@ -1,9 +1,9 @@
 ---
 title: ISvgImage
-second_title: Aspose.Sildes .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 表示一个 SVG 图像。
 type: docs
-weight: 7180
+weight: 7200
 url: /zh/aspose.slides/isvgimage/
 ---
 ## ISvgImage 接口
@@ -29,7 +29,7 @@ public interface ISvgImage
 | --- | --- |
 | [WriteAsEmf](../../aspose.slides/isvgimage/writeasemf)(Stream) | 将 SVG 图像保存为 EMF 文件。 |
 
-### 另见
+### 另请参阅
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

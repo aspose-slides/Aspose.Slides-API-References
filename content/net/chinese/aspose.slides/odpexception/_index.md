@@ -1,14 +1,14 @@
 ---
 title: OdpException
 second_title: Aspose.Sildes for .NET API 参考
-description: 表示标准的内部异常类型。
+description: 表示标准内部异常类型。
 type: docs
-weight: 9210
+weight: 9230
 url: /zh/aspose.slides/odpexception/
 ---
 ## OdpException 类
 
-表示标准的内部异常类型。
+表示标准内部异常类型。
 
 ```csharp
 public class OdpException : Exception
@@ -20,9 +20,9 @@ public class OdpException : Exception
 | --- | --- |
 | [OdpException](odpexception#constructor)() | 默认构造函数 |
 | [OdpException](odpexception#constructor_1)(string) | 允许向此异常添加消息的构造函数。 |
-| [OdpException](odpexception#constructor_2)(string, Exception) | 用于包含消息和内部异常的异常的构造函数。 |
+| [OdpException](odpexception#constructor_2)(string, Exception) | 用于包含消息和嵌入异常的异常的构造函数。 |
 
-### 另请参见
+### 另见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

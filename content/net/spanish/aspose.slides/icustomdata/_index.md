@@ -3,10 +3,10 @@ title: ICustomData
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa un contenedor para datos personalizados.
 type: docs
-weight: 5660
+weight: 5680
 url: /es/aspose.slides/icustomdata/
 ---
-## ICustomData interfaz
+## Interfaz ICustomData
 
 Representa un contenedor para datos personalizados.
 

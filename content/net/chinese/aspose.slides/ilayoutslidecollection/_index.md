@@ -1,12 +1,12 @@
 ---
 title: ILayoutSlideCollection
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 表示布局幻灯片集合的基类。
 type: docs
-weight: 6230
+weight: 6250
 url: /zh/aspose.slides/ilayoutslidecollection/
 ---
-## ILayoutSlideCollection 接口
+## ILayoutSlideCollection interface
 
 表示布局幻灯片集合的基类。
 
@@ -18,13 +18,13 @@ public interface ILayoutSlideCollection : IGenericCollection<ILayoutSlide>
 
 | 名称 | 描述 |
 | --- | --- |
-| [Item](../../aspose.slides/ilayoutslidecollection/item) { get; } | 通过索引返回布局幻灯片。只读 [`ILayoutSlide`](../ilayoutslide)。 |
+| [Item](../../aspose.slides/ilayoutslidecollection/item) { get; } | 返回指定索引的布局幻灯片。只读 [`ILayoutSlide`](../ilayoutslide)。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [GetByType](../../aspose.slides/ilayoutslidecollection/getbytype)(SlideLayoutType) | 返回指定类型的第一张布局幻灯片。 |
+| [GetByType](../../aspose.slides/ilayoutslidecollection/getbytype)(SlideLayoutType) | 返回指定类型的第一个布局幻灯片。 |
 | [Remove](../../aspose.slides/ilayoutslidecollection/remove)(ILayoutSlide) | 从集合中移除布局。 |
 | [RemoveUnused](../../aspose.slides/ilayoutslidecollection/removeunused)() | 移除未使用的布局幻灯片（HasDependingSlides 为 false 的布局幻灯片）。 |
 

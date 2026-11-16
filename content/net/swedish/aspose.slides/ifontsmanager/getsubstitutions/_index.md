@@ -1,14 +1,14 @@
 ---
 title: GetSubstitutions
 second_title: Aspose.Sildes för .NET API-referens
-description: Hämtar information om teckensnitt som kommer att ersättas vid rendering av presentationen.
+description: Hämtar information om teckensnitt som kommer att ersättas vid presentationens rendering.
 type: docs
-weight: 80
+weight: 90
 url: /sv/aspose.slides/ifontsmanager/getsubstitutions/
 ---
 ## GetSubstitutions() {#getsubstitutions}
 
-Hämtar information om teckensnitt som kommer att ersättas vid rendering av presentationen.
+Hämtar information om teckensnitt som kommer att ersättas vid presentationens rendering.
 
 ```csharp
 public IEnumerable<FontSubstitutionInfo> GetSubstitutions()
@@ -30,7 +30,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }        
 ```
 
-### Se även
+### Se också
 
 * klass [FontSubstitutionInfo](../../fontsubstitutioninfo)
 * gränssnitt [IFontsManager](../../ifontsmanager)
@@ -47,9 +47,9 @@ Hämtar information om teckensnitt som kommer att ersättas under rendering av d
 public IEnumerable<FontSubstitutionInfo> GetSubstitutions(int[] slides)
 ```
 
-| Parameter | Typ | Beskrivning |
+| Parameter | Type | Description |
 | --- | --- | --- |
-| slides | Int32[] | En array av bildindex för vilka teckensnittsersättningsinformation ska hämtas, med början från 1. |
+| slides | Int32[] | En array av bildindex för vilka teckensnittsersättningsinformation ska hämtas, med start från 1. |
 
 ### Returvärde
 
@@ -68,7 +68,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Se även
+### Se också
 
 * klass [FontSubstitutionInfo](../../fontsubstitutioninfo)
 * gränssnitt [IFontsManager](../../ifontsmanager)

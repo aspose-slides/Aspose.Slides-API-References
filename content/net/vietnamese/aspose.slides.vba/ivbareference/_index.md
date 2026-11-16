@@ -3,7 +3,7 @@ title: IVbaReference
 second_title: Tham chiếu API Aspose.Sildes cho .NET
 description: Biểu thị tên của tham chiếu dự án VBA.
 type: docs
-weight: 11570
+weight: 11590
 url: /vi/aspose.slides.vba/ivbareference/
 ---
 ## IVbaReference giao diện

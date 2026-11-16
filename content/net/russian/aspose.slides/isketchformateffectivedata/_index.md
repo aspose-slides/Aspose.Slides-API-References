@@ -1,14 +1,14 @@
 ---
 title: ISketchFormatEffectiveData
-second_title: Aspose.Sildes для .NET справки API
-description: Неизменяемый объект, содержащий эффективные свойства линии наброска.
+second_title: Aspose.Sildes для .NET API Reference
+description: Неизменяемый объект, содержащий эффективные свойства наброска линии.
 type: docs
-weight: 7030
+weight: 7050
 url: /ru/aspose.slides/isketchformateffectivedata/
 ---
 ## ISketchFormatEffectiveData интерфейс
 
-Неизменяемый объект, содержащий эффективные свойства линии наброска.
+Неизменяемый объект, содержащий эффективные свойства наброска линии.
 
 ```csharp
 public interface ISketchFormatEffectiveData
@@ -24,7 +24,7 @@ public interface ISketchFormatEffectiveData
 
 Этот интерфейс используется как часть [`ILineFormatEffectiveData`](../ilineformateffectivedata).
 
-### См. также
+### Смотрите также
 
 * пространство имён [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

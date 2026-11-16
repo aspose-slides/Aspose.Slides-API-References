@@ -1,12 +1,12 @@
 ---
 title: IInk
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes for .NET API Referansı
 description: Bir slaytta mürekkep nesnesini temsil eder.
 type: docs
-weight: 7510
+weight: 7530
 url: /tr/aspose.slides.ink/iink/
 ---
-## IInk arayüz
+## IInk arabirimi
 
 Bir slaytta mürekkep nesnesini temsil eder.
 
@@ -18,12 +18,12 @@ public interface IInk : IGraphicalObject
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIGraphicalObject](../../aspose.slides.ink/iink/asigraphicalobject) { get; } | Temel IGraphicalObject arayüzünü almayı sağlar. Salt okunur [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
-| [Traces](../../aspose.slides.ink/iink/traces) { get; } | IInk öğesinde bulunan tüm izleri alır [`IInkTrace`](../iinktrace). Salt okunur. |
+| [AsIGraphicalObject](../../aspose.slides.ink/iink/asigraphicalobject) { get; } | Temel IGraphicalObject arabirimini almaya izin verir. Salt-okunur [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
+| [Traces](../../aspose.slides.ink/iink/traces) { get; } | IInk öğesindeki [`IInkTrace`](../iinktrace) içinde bulunan tüm izleri alır. Salt-okunur. |
 
 ### Ayrıca Bakınız
 
-* arayüz [IGraphicalObject](../../aspose.slides/igraphicalobject)
+* arabirim [IGraphicalObject](../../aspose.slides/igraphicalobject)
 * ad alanı [Aspose.Slides.Ink](../../aspose.slides.ink)
 * derleme [Aspose.Slides](../../)
 

@@ -1,14 +1,14 @@
 ---
 title: FontScheme
-second_title: Aspose.Sildes для .NET справка API
-description: Сохраняет шрифты, определённые темой.
+second_title: Aspose.Sildes for .NET справочник API
+description: Хранит шрифты, определённые темой.
 type: docs
-weight: 11130
+weight: 11150
 url: /ru/aspose.slides.theme/fontscheme/
 ---
 ## FontScheme класс
 
-Сохраняет шрифты, определённые темой.
+Хранит шрифты, определённые темой.
 
 ```csharp
 public class FontScheme : IFontScheme
@@ -20,7 +20,7 @@ public class FontScheme : IFontScheme
 | --- | --- |
 | [Major](../../aspose.slides.theme/fontscheme/major) { get; } | Возвращает коллекцию шрифтов для части с «heading» слайда. Только для чтения [`IFonts`](../../aspose.slides/ifonts). |
 | [Minor](../../aspose.slides.theme/fontscheme/minor) { get; } | Возвращает коллекцию шрифтов для части с «body» слайда. Только для чтения [`IFonts`](../../aspose.slides/ifonts). |
-| [Name](../../aspose.slides.theme/fontscheme/name) { get; set; } | Возвращает имя схемы шрифтов. Чтение/запись String. |
+| [Name](../../aspose.slides.theme/fontscheme/name) { get; set; } | Возвращает имя схемы шрифта. Чтение/запись String. |
 
 ### См. также
 

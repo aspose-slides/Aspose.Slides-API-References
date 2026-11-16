@@ -1,14 +1,14 @@
 ---
 title: IPictureEffectiveData
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Objeto inmutable que contiene propiedades efectivas de la imagen.
+description: Objeto inmutable que contiene las propiedades efectivas de la imagen.
 type: docs
-weight: 6640
+weight: 6660
 url: /es/aspose.slides/ipictureeffectivedata/
 ---
 ## IPictureEffectiveData interfaz
 
-Objeto inmutable que contiene propiedades efectivas de la imagen.
+Objeto inmutable que contiene las propiedades efectivas de la imagen.
 
 ```csharp
 public interface IPictureEffectiveData
@@ -19,14 +19,14 @@ public interface IPictureEffectiveData
 | Nombre | Descripción |
 | --- | --- |
 | [Image](../../aspose.slides/ipictureeffectivedata/image) { get; } | Devuelve la imagen incrustada. Solo lectura [`IPPImage`](../ippimage). |
-| [ImageTransform](../../aspose.slides/ipictureeffectivedata/imagetransform) { get; } | Devuelve la colección de efectos de transformación de imagen. Solo lectura [`IImageTransformOCollectionEffectiveData`](../../aspose.slides.effects/iimagetransformocollectioneffectivedata). |
+| [ImageTransform](../../aspose.slides/ipictureeffectivedata/imagetransform) { get; } | Devuelve la colección de efectos de transformación de la imagen. Solo lectura [`IImageTransformOCollectionEffectiveData`](../../aspose.slides.effects/iimagetransformocollectioneffectivedata). |
 | [LinkPathLong](../../aspose.slides/ipictureeffectivedata/linkpathlong) { get; } | Devuelve la URL de la imagen vinculada. Solo lectura String. |
 
 ### Observaciones
 
 Esta interfaz se usa como parte de [`IPictureFillFormatEffectiveData`](../ipicturefillformateffectivedata) y [`IBulletFormatEffectiveData`](../ibulletformateffectivedata).
 
-### Ver también
+### Véase también
 
 * espacio de nombres [Aspose.Slides](../../aspose.slides)
 * ensamblado [Aspose.Slides](../../)

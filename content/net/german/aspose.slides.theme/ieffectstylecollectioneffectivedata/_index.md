@@ -1,14 +1,14 @@
 ---
 title: IEffectStyleCollectionEffectiveData
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Unveränderliches Objekt, das eine schreibgeschützte Sammlung von effektiven Effektstilen darstellt.
+description: Unveränderliches Objekt, das eine schreibgeschützte Sammlung wirksamer Effektstile darstellt.
 type: docs
-weight: 11190
+weight: 11210
 url: /de/aspose.slides.theme/ieffectstylecollectioneffectivedata/
 ---
 ## IEffectStyleCollectionEffectiveData Schnittstelle
 
-Unveränderliches Objekt, das eine schreibgeschützte Sammlung von effektiven Effektstilen darstellt.
+Unveränderliches Objekt, das eine schreibgeschützte Sammlung wirksamer Effektstile darstellt.
 
 ```csharp
 public interface IEffectStyleCollectionEffectiveData : IGenericCollection<IEffectStyleEffectiveData>
@@ -18,11 +18,11 @@ public interface IEffectStyleCollectionEffectiveData : IGenericCollection<IEffec
 
 | Name | Beschreibung |
 | --- | --- |
-| [Item](../../aspose.slides.theme/ieffectstylecollectioneffectivedata/item) { get; } | Ruft das Element am angegebenen Index ab. Schreibgeschützt [`IEffectStyleEffectiveData`](../ieffectstyleeffectivedata). |
+| [Item](../../aspose.slides.theme/ieffectstylecollectioneffectivedata/item) { get; } | Liefert das Element am angegebenen Index. Nur lesbar [`IEffectStyleEffectiveData`](../ieffectstyleeffectivedata). |
 
-### Anmerkungen
+### Hinweise
 
-This interface is used as a part of [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata).
+Diese Schnittstelle wird als Teil von [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata) verwendet.
 
 ### Siehe auch
 

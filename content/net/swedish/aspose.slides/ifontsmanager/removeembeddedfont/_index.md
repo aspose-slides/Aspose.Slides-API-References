@@ -3,12 +3,12 @@ title: RemoveEmbeddedFont
 second_title: Aspose.Sildes för .NET API-referens
 description: Tar bort det inbäddade teckensnittet
 type: docs
-weight: 90
+weight: 100
 url: /sv/aspose.slides/ifontsmanager/removeembeddedfont/
 ---
 ## IFontsManager.RemoveEmbeddedFont metod
 
-Tar bort den inbäddade teckensnittet
+Tar bort det inbäddade teckensnittet
 
 ```csharp
 public void RemoveEmbeddedFont(IFontData fontData)
@@ -16,7 +16,7 @@ public void RemoveEmbeddedFont(IFontData fontData)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| fontData | IFontData | Font data-objekt [`IFontData`](../../ifontdata) |
+| fontData | IFontData | Teckensnittsdataobjekt [`IFontData`](../../ifontdata) |
 
 ### Se även
 

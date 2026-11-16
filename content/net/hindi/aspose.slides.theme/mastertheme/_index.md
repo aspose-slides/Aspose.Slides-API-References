@@ -3,12 +3,12 @@ title: MasterTheme
 second_title: Aspose.Sildes for .NET API संदर्भ
 description: एक मास्टर थीम का प्रतिनिधित्व करता है।
 type: docs
-weight: 11430
+weight: 11450
 url: /hi/aspose.slides.theme/mastertheme/
 ---
 ## MasterTheme क्लास
 
-Represents a master theme.
+एक मास्टर थीम का प्रतिनिधित्व करता है।
 
 ```csharp
 public sealed class MasterTheme : Theme, IMasterTheme
@@ -16,18 +16,18 @@ public sealed class MasterTheme : Theme, IMasterTheme
 
 ## गुण
 
-| Name | Description |
+| नाम | विवरण |
 | --- | --- |
-| override [ColorScheme](../../aspose.slides.theme/mastertheme/colorscheme) { get; } | रंग योजना लौटाता है। केवल-पढ़ने योग्य [`IColorScheme`](../icolorscheme)। |
-| [ExtraColorSchemes](../../aspose.slides.theme/mastertheme/extracolorschemes) { get; } | अतिरिक्त रंग योजनाओं के संग्रह को लौटाता है। ये योजनाएँ प्रस्तुति के स्वरूप को प्रभावित नहीं करतीं, इन्हें स्लाइड के लिए मुख्य रंग योजना के रूप में चुना जा सकता है। केवल-पढ़ने योग्य [`IExtraColorSchemeCollection`](../iextracolorschemecollection)। |
-| override [FontScheme](../../aspose.slides.theme/mastertheme/fontscheme) { get; } | फ़ॉन्ट योजना लौटाता है। केवल-पढ़ने योग्य [`IFontScheme`](../ifontscheme)। |
-| override [FormatScheme](../../aspose.slides.theme/mastertheme/formatscheme) { get; } | आकार प्रारूप योजना लौटाता है। केवल-पढ़ने योग्य [`IFormatScheme`](../iformatscheme)। |
-| [Name](../../aspose.slides.theme/mastertheme/name) { get; set; } | एक थीम का नाम लौटाता है। पढ़ने/लिखने योग्य String। |
-| [Presentation](../../aspose.slides.theme/theme/presentation) { get; } | मातृ प्रस्तुति लौटाता है। केवल-पढ़ने योग्य [`IPresentation`](../../aspose.slides/ipresentation)। |
+| override [ColorScheme](../../aspose.slides.theme/mastertheme/colorscheme) { get; } | रंग योजना को लौटाता है। केवल-पढ़ने योग्य [`IColorScheme`](../icolorscheme)। |
+| [ExtraColorSchemes](../../aspose.slides.theme/mastertheme/extracolorschemes) { get; } | अतिरिक्त रंग योजनाओं के संग्रह को लौटाता है। ये योजनाएँ प्रस्तुति की उपस्थिति को प्रभावित नहीं करतीं, इन्हें स्लाइड के मुख्य रंग योजना के रूप में चुना जा सकता है। केवल-पढ़ने योग्य [`IExtraColorSchemeCollection`](../iextracolorschemecollection)। |
+| override [FontScheme](../../aspose.slides.theme/mastertheme/fontscheme) { get; } | फ़ॉन्ट योजना को लौटाता है। केवल-पढ़ने योग्य [`IFontScheme`](../ifontscheme)। |
+| override [FormatScheme](../../aspose.slides.theme/mastertheme/formatscheme) { get; } | आकृति प्रारूप योजना को लौटाता है। केवल-पढ़ने योग्य [`IFormatScheme`](../iformatscheme)। |
+| [Name](../../aspose.slides.theme/mastertheme/name) { get; set; } | थीम का नाम लौटाता है। पढ़ने/लिखने योग्य स्ट्रिंग। |
+| [Presentation](../../aspose.slides.theme/theme/presentation) { get; } | मूल प्रस्तुति को लौटाता है। केवल-पढ़ने योग्य [`IPresentation`](../../aspose.slides/ipresentation)। |
 
 ## विधियाँ
 
-| Name | Description |
+| नाम | विवरण |
 | --- | --- |
 | [GetEffective](../../aspose.slides.theme/theme/geteffective)() | विरासत लागू करके प्रभावी थीम डेटा प्राप्त करता है। |
 

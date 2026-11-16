@@ -1,14 +1,14 @@
 ---
 title: IPptxOptions
-second_title: Справочник API Aspose.Sildes для .NET
-description: Представляет параметры сохранения презентаций OpenXml форматов PPTX, PPSX, POTX, PPTM, PPSM, POTM.
+second_title: Aspose.Sildes для .NET справочник API
+description: Представляет параметры для сохранения презентаций OpenXml PPTX PPSX POTX PPTM PPSM POTM.
 type: docs
-weight: 4020
+weight: 4040
 url: /ru/aspose.slides.export/ipptxoptions/
 ---
 ## IPptxOptions интерфейс
 
-Represents options for saving OpenXml presentations (PPTX, PPSX, POTX, PPTM, PPSM, POTM).
+Представляет параметры для сохранения презентаций OpenXml (PPTX, PPSX, POTX, PPTM, PPSM, POTM).
 
 ```csharp
 public interface IPptxOptions : ISaveOptions
@@ -19,10 +19,10 @@ public interface IPptxOptions : ISaveOptions
 | Имя | Описание |
 | --- | --- |
 | [AsISaveOptions](../../aspose.slides.export/ipptxoptions/asisaveoptions) { get; } | Позволяет получить базовый интерфейс ISaveOptions. Только для чтения [`ISaveOptions`](../isaveoptions). |
-| [CompressionLevel](../../aspose.slides.export/ipptxoptions/compressionlevel) { get; set; } | Указывает уровень сжатия, используемый при сохранении файла презентации. Значение по умолчанию — Level6. |
-| [Conformance](../../aspose.slides.export/ipptxoptions/conformance) { get; set; } | Указывает класс соответствия, которому соответствует документ Presentation. Значение по умолчанию — Ecma376_2006 |
-| [RefreshThumbnail](../../aspose.slides.export/ipptxoptions/refreshthumbnail) { get; set; } | Указывает, будет ли обновлен миниатюрный образ презентации. Чтение/запись Boolean. Значение по умолчанию — **true**. |
-| [Zip64Mode](../../aspose.slides.export/ipptxoptions/zip64mode) { get; set; } | Указывает, используется ли формат ZIP64 для документа Presentation. Значение по умолчанию — IfNecessary |
+| [CompressionLevel](../../aspose.slides.export/ipptxoptions/compressionlevel) { get; set; } | Указывает уровень сжатия, используемый при сохранении документа презентации. Значение по умолчанию Level6. |
+| [Conformance](../../aspose.slides.export/ipptxoptions/conformance) { get; set; } | Указывает класс соответствия, которому соответствует документ Presentation. Значение по умолчанию Ecma376_2006 |
+| [RefreshThumbnail](../../aspose.slides.export/ipptxoptions/refreshthumbnail) { get; set; } | Указывает, будет ли обновлен эскиз презентации. Чтение/запись Boolean. Значение по умолчанию — **true**. |
+| [Zip64Mode](../../aspose.slides.export/ipptxoptions/zip64mode) { get; set; } | Указывает, используется ли формат ZIP64 для документа Presentation. Значение по умолчанию IfNecessary |
 
 ### См. также
 

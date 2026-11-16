@@ -3,7 +3,7 @@ title: LineDashStyle
 second_title: Aspose.Sildes for .NET API 참조
 description: 라인 대시 스타일을 나타냅니다.
 type: docs
-weight: 7770
+weight: 7790
 url: /ko/aspose.slides/linedashstyle/
 ---
 ## LineDashStyle 열거형
@@ -32,7 +32,7 @@ public enum LineDashStyle : sbyte
 | SystemDashDotDot | `10` |  |
 | Custom | `11` |  |
 
-### 참조
+### 참고
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

@@ -3,12 +3,12 @@ title: IOleObjectFrame
 second_title: Aspose.Sildes for .NET API संदर्भ
 description: स्लाइड पर एक OLE ऑब्जेक्ट का प्रतिनिधित्व करता है।
 type: docs
-weight: 6540
+weight: 6560
 url: /hi/aspose.slides/ioleobjectframe/
 ---
 ## IOleObjectFrame इंटरफ़ेस
 
-स्लाइड पर एक OLE ऑब्जेक्ट का प्रतिनिधित्व करता है।
+एक स्लाइड पर OLE ऑब्जेक्ट का प्रतिनिधित्व करता है।
 
 ```csharp
 public interface IOleObjectFrame : IGraphicalObject
@@ -16,33 +16,33 @@ public interface IOleObjectFrame : IGraphicalObject
 
 ## गुण
 
-| नाम | विवरण |
+| Name | Description |
 | --- | --- |
-| [AsIGraphicalObject](../../aspose.slides/ioleobjectframe/asigraphicalobject) { get; } | base IGraphicalObject इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IGraphicalObject`](../igraphicalobject)। |
-| [EmbeddedData](../../aspose.slides/ioleobjectframe/embeddeddata) { get; } | OLE एम्बेडेड डेटा के बारे में जानकारी प्राप्त करता है। केवल-पढ़ने योग्य [`IOleEmbeddedDataInfo`](../ioleembeddeddatainfo)। |
-| [EmbeddedFileLabel](../../aspose.slides/ioleobjectframe/embeddedfilelabel) { get; } | एम्बेडेड OLE ऑब्जेक्ट का फ़ाइल नाम लौटाता है। |
-| [EmbeddedFileName](../../aspose.slides/ioleobjectframe/embeddedfilename) { get; } | एम्बेडेड OLE ऑब्जेक्ट का पथ लौटाता है। |
-| [IsObjectIcon](../../aspose.slides/ioleobjectframe/isobjecticon) { get; set; } | निर्धारित करता है कि ऑब्जेक्ट आइकन के रूप में दिखाई देता है या नहीं। पढ़ने/लिखने योग्य Boolean। |
-| [IsObjectLink](../../aspose.slides/ioleobjectframe/isobjectlink) { get; } | निर्धारित करता है कि ऑब्जेक्ट बाहरी फ़ाइल से लिंक्ड है या नहीं। केवल-पढ़ने योग्य Boolean। |
-| [LinkFileName](../../aspose.slides/ioleobjectframe/linkfilename) { get; } | लिंक्ड फ़ाइल का पूर्ण पथ लौटाता है। छोटा फ़ाइल नाम उपयोग किया जाएगा। केवल-पढ़ने योग्य String। |
-| [LinkPathLong](../../aspose.slides/ioleobjectframe/linkpathlong) { get; set; } | लिंक्ड फ़ाइल का पूर्ण पथ लौटाता है। लंबा फ़ाइल नाम उपयोग किया जाएगा। पढ़ने/लिखने योग्य String। |
-| [LinkPathRelative](../../aspose.slides/ioleobjectframe/linkpathrelative) { get; } | यदि उपलब्ध हो तो लिंक्ड फ़ाइल का सापेक्ष पथ लौटाता है, अन्यथा खाली स्ट्रिंग लौटाता है। केवल-पढ़ने योग्य String। |
-| [ObjectName](../../aspose.slides/ioleobjectframe/objectname) { get; set; } | ऑब्जेक्ट का नाम लौटाता है या सेट करता है। पढ़ने/लिखने योग्य String। |
-| [ObjectProgId](../../aspose.slides/ioleobjectframe/objectprogid) { get; set; } | ऑब्जेक्ट का ProgID लौटाता है। केवल-पढ़ने योग्य String। |
-| [SubstitutePictureFormat](../../aspose.slides/ioleobjectframe/substitutepictureformat) { get; } | OleObject इमेज फ़िल प्रॉपर्टीज़ ऑब्जेक्ट लौटाता है। केवल-पढ़ने योग्य [`IPictureFillFormat`](../ipicturefillformat)। |
-| [SubstitutePictureTitle](../../aspose.slides/ioleobjectframe/substitutepicturetitle) { get; set; } | OleObject आइकन का शीर्षक लौटाता है या सेट करता है। पढ़ने/लिखने योग्य String। |
-| [UpdateAutomatic](../../aspose.slides/ioleobjectframe/updateautomatic) { get; set; } | निर्धारित करता है कि लिंक्ड एम्बेडेड ऑब्जेक्ट प्रस्तुति खुलते या प्रिंट होते समय स्वचालित रूप से अपडेट होता है या नहीं। पढ़ने/लिखने योग्य Boolean। |
+| [AsIGraphicalObject](../../aspose.slides/ioleobjectframe/asigraphicalobject) { get; } | Allows to get base IGraphicalObject interface. केवल-पढ़ने योग्य [`IGraphicalObject`](../igraphicalobject). |
+| [EmbeddedData](../../aspose.slides/ioleobjectframe/embeddeddata) { get; } | Gets information about OLE embedded data. केवल-पढ़ने योग्य [`IOleEmbeddedDataInfo`](../ioleembeddeddatainfo). |
+| [EmbeddedFileLabel](../../aspose.slides/ioleobjectframe/embeddedfilelabel) { get; } | एंबेडेड OLE ऑब्जेक्ट का फ़ाइल नाम लौटाता है |
+| [EmbeddedFileName](../../aspose.slides/ioleobjectframe/embeddedfilename) { get; } | एंबेडेड OLE ऑब्जेक्ट का पथ लौटाता है |
+| [IsObjectIcon](../../aspose.slides/ioleobjectframe/isobjecticon) { get; set; } | निर्धारित करता है कि ऑब्जेक्ट आइकन के रूप में दिखाई देता है या नहीं। पढ़ने/लिखने योग्य Boolean. |
+| [IsObjectLink](../../aspose.slides/ioleobjectframe/isobjectlink) { get; } | निर्धारित करता है कि ऑब्जेक्ट बाहरी फ़ाइल से लिंक है या नहीं। केवल-पढ़ने योग्य Boolean. |
+| [LinkFileName](../../aspose.slides/ioleobjectframe/linkfilename) { get; } | लिंक्ड फ़ाइल का पूर्ण पथ लौटाता है। छोटा फ़ाइल नाम उपयोग किया जाएगा। केवल-पढ़ने योग्य String. |
+| [LinkPathLong](../../aspose.slides/ioleobjectframe/linkpathlong) { get; set; } | लिंक्ड फ़ाइल का पूर्ण पथ लौटाता है। लंबा फ़ाइल नाम उपयोग किया जाएगा। पढ़ने/लिखने योग्य String. |
+| [LinkPathRelative](../../aspose.slides/ioleobjectframe/linkpathrelative) { get; } | यदि मौजूद हो तो लिंक्ड फ़ाइल का सापेक्ष पथ लौटाता है, अन्यथा खाली स्ट्रिंग लौटाता है। केवल-पढ़ने योग्य String. |
+| [ObjectName](../../aspose.slides/ioleobjectframe/objectname) { get; set; } | ऑब्जेक्ट का नाम प्राप्त करता या सेट करता है। पढ़ने/लिखने योग्य String. |
+| [ObjectProgId](../../aspose.slides/ioleobjectframe/objectprogid) { get; set; } | ऑब्जेक्ट का ProgID प्राप्त करता है। केवल-पढ़ने योग्य String. |
+| [SubstitutePictureFormat](../../aspose.slides/ioleobjectframe/substitutepictureformat) { get; } | OleObject इमेज फ़िल प्रॉपर्टीज़ ऑब्जेक्ट लौटाता है। केवल-पढ़ने योग्य [`IPictureFillFormat`](../ipicturefillformat). |
+| [SubstitutePictureTitle](../../aspose.slides/ioleobjectframe/substitutepicturetitle) { get; set; } | OleObject आइकन का शीर्षक प्राप्त करता या सेट करता है। पढ़ने/लिखने योग्य String. |
+| [UpdateAutomatic](../../aspose.slides/ioleobjectframe/updateautomatic) { get; set; } | निर्धारित करता है कि प्रस्तुति खोलने या प्रिंट करने पर लिंक्ड एंबेडेड ऑब्जेक्ट स्वतः अपडेट हो जाता है या नहीं। पढ़ने/लिखने योग्य Boolean. |
 
 ## विधियाँ
 
-| नाम | विवरण |
+| Name | Description |
 | --- | --- |
 | [SetEmbeddedData](../../aspose.slides/ioleobjectframe/setembeddeddata)(IOleEmbeddedDataInfo) | OLE एम्बेडेड डेटा के बारे में जानकारी सेट करता है। |
 
 ### देखें
 
 * इंटरफ़ेस [IGraphicalObject](../igraphicalobject)
-* नेमस्पेस [Aspose.Slides](../../aspose.slides)
-* असेंब्ली [Aspose.Slides](../../)
+* नामस्थान [Aspose.Slides](../../aspose.slides)
+* असेंबली [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

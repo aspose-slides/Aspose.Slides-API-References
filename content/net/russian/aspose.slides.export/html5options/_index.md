@@ -1,9 +1,9 @@
 ---
 title: Html5Options
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Aspose.Sildes для .NET, справочник API
 description: Представляет параметры экспорта в HTML5.
 type: docs
-weight: 3860
+weight: 3880
 url: /ru/aspose.slides.export/html5options/
 ---
 ## Html5Options класс
@@ -14,32 +14,32 @@ url: /ru/aspose.slides.export/html5options/
 public class Html5Options : SaveOptions, IHtml5Options
 ```
 
-## Constructors
+## Конструкторы
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
 | [Html5Options](html5options)() | Конструктор по умолчанию. |
 
-## Properties
+## Свойства
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
-| [AnimateShapes](../../aspose.slides.export/html5options/animateshapes) { get; set; } | Возвращает или задает параметр анимации фигур. Чтение/запись Boolean. |
-| [AnimateTransitions](../../aspose.slides.export/html5options/animatetransitions) { get; set; } | Возвращает или задает параметр анимации переходов. Чтение/запись Boolean. |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Возвращает или задает шрифт, используемый, если исходный шрифт не найден. Чтение/запись String. |
-| [DisableFontLigatures](../../aspose.slides.export/html5options/disablefontligatures) { get; set; } | Возвращает или задает значение, указывающее, рендерится ли текст без лигатур. При установке в `true` лигатуры будут отключены в выводе. По умолчанию значение равно `false`. |
-| [EmbedImages](../../aspose.slides.export/html5options/embedimages) { get; set; } | Возвращает или задает параметр внедрения изображений. Чтение/запись Boolean. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Возвращает или задает визуальный стиль градиента. Чтение/запись [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [OutputPath](../../aspose.slides.export/html5options/outputpath) { get; set; } | Определяет, где должны храниться внешние ресурсы. Чтение/запись String. |
-| [PicturesCompression](../../aspose.slides.export/html5options/picturescompression) { get; set; } | Представляет уровень сжатия изображений. |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Представляет объект обратного вызова для обновления прогресса сохранения в процентах. См. [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Указывает, следует ли пропускать гиперссылки с вызовами JavaScript при сохранении презентации. Чтение/запись Boolean. Значение по умолчанию **false**. |
-| [SlidesLayoutOptions](../../aspose.slides.export/html5options/slideslayoutoptions) { get; set; } | Возвращает или задает режим размещения слайдов на странице при экспорте презентации [`ISlidesLayoutOptions`](../islideslayoutoptions). |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Возвращает или задает объект, получающий предупреждения и определяющий, будет ли процесс загрузки продолжен или прерван. Чтение/запись [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [AnimateShapes](../../aspose.slides.export/html5options/animateshapes) { get; set; } | Возвращает или задаёт параметр анимации фигур. Чтение/запись Boolean. |
+| [AnimateTransitions](../../aspose.slides.export/html5options/animatetransitions) { get; set; } | Возвращает или задаёт параметр анимации переходов. Чтение/запись Boolean. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Возвращает или задаёт шрифт, используемый в случае, если исходный шрифт не найден. Чтение/запись String. |
+| [DisableFontLigatures](../../aspose.slides.export/html5options/disablefontligatures) { get; set; } | Возвращает или задаёт значение, указывающее, отображается ли текст без использования лигатур. При установке в `true` лигатуры будут отключены в выводе. По умолчанию это свойство имеет значение `false`. |
+| [EmbedImages](../../aspose.slides.export/html5options/embedimages) { get; set; } | Возвращает или задаёт параметр встраивания изображений. Чтение/запись Boolean. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Возвращает или задаёт визуальный стиль градиента. Чтение/запись [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [OutputPath](../../aspose.slides.export/html5options/outputpath) { get; set; } | Определяет, где следует хранить внешние ресурсы. Чтение/запись String. |
+| [PicturesCompression](../../aspose.slides.export/html5options/picturescompression) { get; set; } | Представляет уровень сжатия изображений |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Представляет объект обратного вызова для сохранения обновлений прогресса в процентах. См. [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Указывает, следует ли пропускать гиперссылки с вызовами JavaScript при сохранении презентации. Чтение/запись Boolean. Значение по умолчанию — **false**. |
+| [SlidesLayoutOptions](../../aspose.slides.export/html5options/slideslayoutoptions) { get; set; } | Возвращает или задаёт режим размещения слайдов на странице при экспорте презентации [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Возвращает или задаёт объект, получающий предупреждения и решающий, будет ли процесс загрузки продолжен или прерван. Чтение/запись [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
-### Examples
+### Примеры
 
-Example:
+Пример:
 
 ```csharp
 [C#]
@@ -53,7 +53,7 @@ using (Presentation pres = new Presentation("demo.pptx"))
 }
 ```
 
-### See Also
+### См. также
 
 * класс [SaveOptions](../saveoptions)
 * интерфейс [IHtml5Options](../ihtml5options)

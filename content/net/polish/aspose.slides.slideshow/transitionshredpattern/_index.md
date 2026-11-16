@@ -1,14 +1,14 @@
 ---
 title: TransitionShredPattern
-second_title: Aspose.Sildes dla .NET – Dokumentacja API
-description: Określa kształt geometryczny, który łączy się w kafelki, aby wypełnić większy obszar.
+second_title: Aspose.Sildes dla .NET – referencja API
+description: Określa kształt geometryczny, który układa się razem, aby wypełnić większy obszar.
 type: docs
-weight: 10410
+weight: 10430
 url: /pl/aspose.slides.slideshow/transitionshredpattern/
 ---
-## TransitionShredPattern wyliczenie
+## TransitionShredPattern enumeracja
 
-Określa kształt geometryczny, który łączy się w kafelki, aby wypełnić większy obszar.
+Określa kształt geometryczny, który układa się razem, aby wypełnić większy obszar.
 
 ```csharp
 public enum TransitionShredPattern
@@ -18,7 +18,7 @@ public enum TransitionShredPattern
 
 | Nazwa | Wartość | Opis |
 | --- | --- | --- |
-| Strip | `0` | Pionowe pasy |
+| Strip | `0` | Pionowe paski |
 | Rectangle | `1` | Małe prostokąty |
 
 ### Zobacz także

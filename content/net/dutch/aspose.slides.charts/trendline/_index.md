@@ -1,14 +1,14 @@
 ---
 title: Trendline
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Klasse stelt de trendlijn van een seriediagram voor
+description: Klasse vertegenwoordigt de trendlijn van de grafieksreeks
 type: docs
-weight: 2470
+weight: 2490
 url: /nl/aspose.slides.charts/trendline/
 ---
-## Trendline-klasse
+## Trendline klasse
 
-Klasse stelt de trendlijn van een seriediagram voor
+Klasse vertegenwoordigt de trendlijn van de grafieksreeks
 
 ```csharp
 public class Trendline : DomObject<TrendlineCollection>, ITrendline
@@ -18,33 +18,33 @@ public class Trendline : DomObject<TrendlineCollection>, ITrendline
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Backward](../../aspose.slides.charts/trendline/backward) { get; set; } | Geeft het aantal categorieën (of eenheden op een spreidingsdiagram) op dat de trendlijn zich uitstrekt vóór de gegevens van de serie die wordt getrendeerd. Bij spreidings- en niet-spreidingsdiagrammen mag de waarde elk niet-negatieve getal zijn. Alleen-lezen Double. |
-| [Chart](../../aspose.slides.charts/trendline/chart) { get; } | Retourneert het bovenliggende diagram. Alleen-lezen [`IChart`](../ichart). |
-| [DisplayEquation](../../aspose.slides.charts/trendline/displayequation) { get; set; } | Geeft aan dat de vergelijking voor de trendlijn op het diagram wordt weergegeven (in hetzelfde label als de Rsquared-waarde). Lezen/Schrijven Boolean. |
-| [DisplayRSquaredValue](../../aspose.slides.charts/trendline/displayrsquaredvalue) { get; set; } | Geeft aan dat de R-kwadraat-waarde van de trendlijn op het diagram wordt weergegeven (in hetzelfde label als de vergelijking). Lezen/Schrijven Boolean. |
-| [Format](../../aspose.slides.charts/trendline/format) { get; set; } | Vertegenwoordigt het opmaak van de trendlijn. Lezen/Schrijven [`IFormat`](../iformat). |
-| [Forward](../../aspose.slides.charts/trendline/forward) { get; set; } | Geeft het aantal categorieën (of eenheden op een spreidingsdiagram) op dat de trendlijn zich uitstrekt na de gegevens van de serie die wordt getrendeerd. Bij spreidings- en niet-spreidingsdiagrammen mag de waarde elk niet-negatieve getal zijn. Lezen/Schrijven Double. |
-| [Intercept](../../aspose.slides.charts/trendline/intercept) { get; set; } | Geeft de waarde op waar de trendlijn de y-as moet kruisen. Deze eigenschap wordt alleen ondersteund wanneer het trendlijntype exp, linear of poly is. Lezen/Schrijven Double. |
-| [Order](../../aspose.slides.charts/trendline/order) { get; set; } | Geeft de orde van de polynomiale trendlijn op. Wordt genegeerd voor andere trendlijntypen. Waarde moet tussen 2 en 6 liggen. Lezen/Schrijven Byte. |
-| [Period](../../aspose.slides.charts/trendline/period) { get; set; } | Geeft de periode van de trendlijn op voor een voortschrijdend gemiddelde. Wordt genegeerd voor andere trendlijnvarianten. Waarde moet tussen 2 en 255 liggen. Lezen/Schrijven Byte. |
-| [RelatedLegendEntry](../../aspose.slides.charts/trendline/relatedlegendentry) { get; } | Vertegenwoordigt de legende-vermelding die bij deze trendlijn hoort. Alleen-lezen [`ILegendEntryProperties`](../ilegendentryproperties). |
-| [TextFormat](../../aspose.slides.charts/trendline/textformat) { get; } | Retourneert tekstopmaak. Alleen-lezen [`IChartTextFormat`](../icharttextformat). |
-| [TextFrameForOverriding](../../aspose.slides.charts/trendline/textframeforoverriding) { get; } | Kan een rijk opgemaakte tekst bevatten. Als deze eigenschap niet null is, dan overschrijft de opgemaakte tekstwaarde de automatisch gegenereerde tekst van het gegevenselement. Automatisch gegenereerde tekst van het gegevenselement betekent tekst die wordt beheerd door de eigenschappen ShowSeriesName, ShowValue, … en die wordt opgemaakt met de eigenschap TextFormatManager.TextFormat. Alleen-lezen [`ITextFrame`](../../aspose.slides/itextframe). |
-| [TrendlineName](../../aspose.slides.charts/trendline/trendlinename) { get; set; } | Haalt de naam van de trendlijn op of stelt deze in. Lezen/Schrijven String. |
-| [TrendlineType](../../aspose.slides.charts/trendline/trendlinetype) { get; set; } | Haalt het type van de trendlijn op of stelt dit in. Lezen/Schrijven [`TrendlineType`](../trendlinetype). |
+| [Backward](../../aspose.slides.charts/trendline/backward) { get; set; } | Specificeert het aantal categorieën (of eenheden op een spreidingsgrafiek) dat de trendlijn zich uitstrekt vóór de gegevens voor de serie die wordt geanalyseerd. Op spreidings- en niet-spreidingsgrafieken mag de waarde elke niet-negatieve waarde zijn. Lezen/schrijven Double. |
+| [Chart](../../aspose.slides.charts/trendline/chart) { get; } | Retourneert de bovenliggende grafiek. Alleen-lezen [`IChart`](../ichart). |
+| [DisplayEquation](../../aspose.slides.charts/trendline/displayequation) { get; set; } | Specificeert dat de vergelijking voor de trendlijn op de grafiek wordt weergegeven (in hetzelfde label als de Rsquaredvalue). Lezen/schrijven Boolean. |
+| [DisplayRSquaredValue](../../aspose.slides.charts/trendline/displayrsquaredvalue) { get; set; } | Specificeert dat de R-squared-waarde van de trendlijn op de grafiek wordt weergegeven (in hetzelfde label als de vergelijking). Lezen/schrijven Boolean. |
+| [Format](../../aspose.slides.charts/trendline/format) { get; set; } | Stelt het formaat van de trendlijn voor. Lezen/schrijven [`IFormat`](../iformat). |
+| [Forward](../../aspose.slides.charts/trendline/forward) { get; set; } | Specificeert het aantal categorieën (of eenheden op een spreidingsgrafiek) dat de trendlijn zich uitstrekt na de gegevens voor de serie die wordt geanalyseerd. Op spreidings- en niet-spreidingsgrafieken mag de waarde elke niet-negatieve waarde zijn. Lezen/schrijven Double. |
+| [Intercept](../../aspose.slides.charts/trendline/intercept) { get; set; } | Specificeert de waarde waar de trendlijn de y-as kruist. Deze eigenschap wordt alleen ondersteund wanneer het trendlijntype exp, linear of poly is. Lezen/schrijven Double. |
+| [Order](../../aspose.slides.charts/trendline/order) { get; set; } | Specificeert de orde van de polynomiale trendlijn. Het wordt genegeerd voor andere trendlijntypen. Waarde moet tussen 2 en 6 liggen. Lezen/schrijven Byte. |
+| [Period](../../aspose.slides.charts/trendline/period) { get; set; } | Specificeert de periode van de trendlijn voor een voortschrijdend gemiddelde trendlijn. Het wordt genegeerd voor andere trendlijnvarianten. Waarde moet tussen 2 en 255 liggen. Lezen/schrijven Byte. |
+| [RelatedLegendEntry](../../aspose.slides.charts/trendline/relatedlegendentry) { get; } | Stelt de legende-vermelding gerelateerd aan deze trendlijn voor. Alleen-lezen [`ILegendEntryProperties`](../ilegendentryproperties). |
+| [TextFormat](../../aspose.slides.charts/trendline/textformat) { get; } | Retourneert tekstformaat. Alleen-lezen [`IChartTextFormat`](../icharttextformat). |
+| [TextFrameForOverriding](../../aspose.slides.charts/trendline/textframeforoverriding) { get; } | Kan een rijk opgemaakte tekst bevatten. Als deze eigenschap niet null is, dan overschrijft deze opgemaakte tekstwaarde de automatisch gegenereerde tekst van het gegevenslabel. Automatisch gegenereerde tekst van het gegevenslabel betekent tekst die wordt beheerd door de ShowSeriesName, ShowValue, ... eigenschappen en wordt opgemaakt met de TextFormatManager.TextFormat eigenschap. Alleen-lezen [`ITextFrame`](../../aspose.slides/itextframe). |
+| [TrendlineName](../../aspose.slides.charts/trendline/trendlinename) { get; set; } | Haalt de naam van de trendlijn op of stelt deze in. Lezen/schrijven String. |
+| [TrendlineType](../../aspose.slides.charts/trendline/trendlinetype) { get; set; } | Haalt het type van de trendlijn op of stelt dit in. Lezen/schrijven [`TrendlineType`](../trendlinetype). |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AddTextFrameForOverriding](../../aspose.slides.charts/trendline/addtextframeforoverriding)(string) | Initialiseert TextFrameForOverriding met de tekst in parameter “text”. Als TextFrameForOverriding al geïnitialiseerd is, wordt simpelweg de tekst aangepast. |
+| [AddTextFrameForOverriding](../../aspose.slides.charts/trendline/addtextframeforoverriding)(string) | Initialiseert TextFrameForOverriding met de tekst in parameter "text". Als TextFrameForOverriding al is geïnitialiseerd, wordt de tekst simpelweg gewijzigd. |
 
 ### Zie ook
 
 * klasse [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * klasse [TrendlineCollection](../trendlinecollection)
 * interface [ITrendline](../itrendline)
-* naamruimte [Aspose.Slides.Charts](../../aspose.slides.charts)
+* namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
 * assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -3,7 +3,7 @@ title: Paragraph
 second_title: Aspose.Sildes .NET API 参考
 description: 表示一段文本。
 type: docs
-weight: 9280
+weight: 9300
 url: /zh/aspose.slides/paragraph/
 ---
 ## Paragraph 类
@@ -16,29 +16,31 @@ public sealed class Paragraph : IParagraph
 
 ## 构造函数
 
-| Name | Description |
+| 名称 | 描述 |
 | --- | --- |
 | [Paragraph](paragraph#constructor)() | 使用默认属性初始化 Paragraph 类的新实例。 |
-| [Paragraph](paragraph#constructor_1)(Paragraph) | 复制构造函数，用于初始化 Paragraph 类的新实例。 |
+| [Paragraph](paragraph#constructor_1)(Paragraph) | 复制构造函数，初始化 Paragraph 类的新实例。 |
 
 ## 属性
 
-| Name | Description |
+| 名称 | 描述 |
 | --- | --- |
-| [EndParagraphPortionFormat](../../aspose.slides/paragraph/endparagraphportionformat) { get; set; } | 指定在上一个部分之后插入另一个部分时要使用的部分属性。 |
+| [EndParagraphPortionFormat](../../aspose.slides/paragraph/endparagraphportionformat) { get; set; } | 指定如果在最后一个部分后插入另一部分时要使用的部分属性。 |
 | [ParagraphFormat](../../aspose.slides/paragraph/paragraphformat) { get; } | 返回此段落的格式化对象。只读 [`IParagraphFormat`](../iparagraphformat)。 |
 | [Portions](../../aspose.slides/paragraph/portions) { get; } | 返回文本部分的集合。只读 [`IPortionCollection`](../iportioncollection)。 |
-| [Text](../../aspose.slides/paragraph/text) { get; set; } | 获取或设置段落的纯文本。可读写 String。 |
+| [Text](../../aspose.slides/paragraph/text) { get; set; } | 获取或设置段落的纯文本。读/写 String。 |
 
 ## 方法
 
-| Name | Description |
+| 名称 | 描述 |
 | --- | --- |
+| [GetImage](../../aspose.slides/paragraph/getimage#getimage)() | 返回段落的图像。 |
+| [GetImage](../../aspose.slides/paragraph/getimage#getimage_1)(float, float) | 返回按指定比例的段落图像。 |
 | [GetLinesCount](../../aspose.slides/paragraph/getlinescount)() | 获取段落中的行数。 |
-| [GetRect](../../aspose.slides/paragraph/getrect)() | 获取限定段落的矩形坐标。该矩形包括段落中所有文本行，包括空行。 |
-| [JoinPortionsWithSameFormatting](../../aspose.slides/paragraph/joinportionswithsameformatting)() | 将具有相同格式的运行合并。 |
+| [GetRect](../../aspose.slides/paragraph/getrect)() | 获取围绕段落的矩形坐标。该矩形包括段落中的所有文本行，包括空行。 |
+| [JoinPortionsWithSameFormatting](../../aspose.slides/paragraph/joinportionswithsameformatting)() | 将具有相同格式的运行连接在一起。 |
 
-### 另请参见
+### 另见
 
 * 接口 [IParagraph](../iparagraph)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

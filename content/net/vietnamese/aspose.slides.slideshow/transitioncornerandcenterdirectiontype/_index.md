@@ -3,10 +3,10 @@ title: TransitionCornerAndCenterDirectionType
 second_title: Tham chiếu API Aspose.Sildes cho .NET
 description: Xác định một hướng bị giới hạn ở các góc và trung tâm.
 type: docs
-weight: 10340
+weight: 10360
 url: /vi/aspose.slides.slideshow/transitioncornerandcenterdirectiontype/
 ---
-## TransitionCornerAndCenterDirectionType enumeration
+## TransitionCornerAndCenterDirectionType liệt kê
 
 Xác định một hướng bị giới hạn ở các góc và trung tâm.
 
@@ -14,7 +14,7 @@ Xác định một hướng bị giới hạn ở các góc và trung tâm.
 public enum TransitionCornerAndCenterDirectionType
 ```
 
-### Các giá trị
+### Giá trị
 
 | Tên | Giá trị | Mô tả |
 | --- | --- | --- |
@@ -24,7 +24,7 @@ public enum TransitionCornerAndCenterDirectionType
 | RightUp | `3` |  |
 | Center | `4` |  |
 
-### Xem thêm
+### Xem Thêm
 
 * không gian tên [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * assembly [Aspose.Slides](../../)

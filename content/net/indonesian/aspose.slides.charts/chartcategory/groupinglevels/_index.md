@@ -1,14 +1,14 @@
 ---
 title: GroupingLevels
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Kontainer yang dikelola untuk nilai-nilai level pengelompokan kategori diagram. Kategori multi-level berisi lebih dari satu level pengelompokan. Indeks level pengelompokan berbasis nol. Hanya-baca IChartCategoryLevelsManageraspose.slides.charts/ichartcategorylevelsmanager.
+description: Kontainer terkelola nilai-nilai level pengelompokan kategori diagram. Kategori multi-level berisi lebih dari satu level pengelompokan. Indeks level pengelompokan berbasis nol. Hanya-baca IChartCategoryLevelsManageraspose.slides.charts/ichartcategorylevelsmanager.
 type: docs
-weight: 30
+weight: 40
 url: /id/aspose.slides.charts/chartcategory/groupinglevels/
 ---
-## ChartCategory.GroupingLevels property
+## ChartCategory.GroupingLevels properti
 
-Kontainer yang dikelola untuk nilai-nilai level pengelompokan kategori diagram. Kategori multi-level berisi lebih dari satu level pengelompokan. Indeks level pengelompokan berbasis nol. Hanya-baca [`IChartCategoryLevelsManager`](../../ichartcategorylevelsmanager).
+Kontainer terkelola nilai-nilai level pengelompokan kategori diagram. Kategori multi-level berisi lebih dari satu level pengelompokan. Indeks level pengelompokan berbasis nol. Hanya-baca [`IChartCategoryLevelsManager`](../../ichartcategorylevelsmanager).
 
 ```csharp
 public IChartCategoryLevelsManager GroupingLevels { get; }

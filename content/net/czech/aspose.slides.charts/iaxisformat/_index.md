@@ -1,14 +1,14 @@
 ---
 title: IAxisFormat
-second_title: Aspose.Sildes pro .NET API
-description: Reprezentuje vlastnosti formátu grafu.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Reprezentuje vlastnosti formátování grafu.
 type: docs
-weight: 1720
+weight: 1730
 url: /cs/aspose.slides.charts/iaxisformat/
 ---
 ## IAxisFormat rozhraní
 
-Reprezentuje vlastnosti formátu grafu.
+Represents chart format properties.
 
 ```csharp
 public interface IAxisFormat
@@ -16,11 +16,11 @@ public interface IAxisFormat
 
 ## Vlastnosti
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
 | [Effect](../../aspose.slides.charts/iaxisformat/effect) { get; } | Vrací efekty použité pro osu. Pouze pro čtení [`IEffectFormat`](../../aspose.slides/ieffectformat). |
-| [Fill](../../aspose.slides.charts/iaxisformat/fill) { get; } | Vrací vlastnosti výplňového stylu osy. Pouze pro čtení [`IFillFormat`](../../aspose.slides/ifillformat). |
-| [Line](../../aspose.slides.charts/iaxisformat/line) { get; } | Vrací vlastnosti čárového stylu osy. Pouze pro čtení [`ILineFormat`](../../aspose.slides/ilineformat). |
+| [Fill](../../aspose.slides.charts/iaxisformat/fill) { get; } | Vrací vlastnosti výplně osy. Pouze pro čtení [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [Line](../../aspose.slides.charts/iaxisformat/line) { get; } | Vrací vlastnosti čáry osy. Pouze pro čtení [`ILineFormat`](../../aspose.slides/ilineformat). |
 
 ### Viz také
 

@@ -3,10 +3,10 @@ title: BaseOverrideThemeManager
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Clase base para clases que proporcionan acceso a diferentes tipos de temas sobrescritos.
 type: docs
-weight: 11040
+weight: 11060
 url: /es/aspose.slides.theme/baseoverridethememanager/
 ---
-## BaseOverrideThemeManager clase
+## Clase BaseOverrideThemeManager
 
 Clase base para clases que proporcionan acceso a diferentes tipos de temas sobrescritos.
 
@@ -25,10 +25,10 @@ public abstract class BaseOverrideThemeManager : BaseThemeManager, IOverrideThem
 
 | Nombre | Descripción |
 | --- | --- |
-| [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | Aplica esquema de color adicional a una diapositiva. |
+| [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | Aplica un esquema de color adicional a una diapositiva. |
 | [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | Devuelve el objeto de tema. |
 
-### Ver también
+### Véase también
 
 * clase [BaseThemeManager](../basethememanager)
 * interfaz [IOverrideThemeManager](../ioverridethememanager)

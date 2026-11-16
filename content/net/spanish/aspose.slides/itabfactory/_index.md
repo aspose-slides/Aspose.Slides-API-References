@@ -3,10 +3,10 @@ title: ITabFactory
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Permite crear instancias de ITab
 type: docs
-weight: 7220
+weight: 7240
 url: /es/aspose.slides/itabfactory/
 ---
-## Interfaz ITabFactory
+## ITabFactory interfaz
 
 Permite crear instancias de ITab
 

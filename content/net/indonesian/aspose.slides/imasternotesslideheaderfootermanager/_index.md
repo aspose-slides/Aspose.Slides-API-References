@@ -1,14 +1,14 @@
 ---
 title: IMasterNotesSlideHeaderFooterManager
-second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili manajer yang menyimpan perilaku placeholder footer slide catatan master, tanggal-waktu, nomor halaman, dan semua placeholder anak. Placeholder anak berarti placeholder yang terdapat pada slide catatan yang bergantung. Slide catatan yang bergantung menggunakan dan bergantung pada slide catatan master.
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Mewakili manajer yang memegang perilaku placeholder footer slide catatan master, tanggal-waktu, nomor halaman, dan semua placeholder anak. Placeholder anak berarti placeholder berada pada slide catatan yang bergantung. Slide catatan yang bergantung menggunakan dan bergantung pada master notes slide.
 type: docs
-weight: 6400
+weight: 6420
 url: /id/aspose.slides/imasternotesslideheaderfootermanager/
 ---
 ## IMasterNotesSlideHeaderFooterManager antarmuka
 
-Mewakili manajer yang memegang perilaku footer slide catatan master, placeholder tanggal-waktu, nomor halaman, dan semua placeholder anak. Placeholder anak berarti placeholder yang terdapat pada slide catatan yang bergantung. Slide catatan yang bergantung menggunakan dan bergantung pada slide catatan master.
+Mewakili manajer yang memegang perilaku footer slide catatan master, placeholder tanggal-waktu, nomor halaman, dan semua placeholder anak. Placeholder anak berarti placeholder berada pada slide catatan yang bergantung. Slide catatan yang bergantung menggunakan dan bergantung pada master notes slide.
 
 ```csharp
 public interface IMasterNotesSlideHeaderFooterManager : IBaseHandoutNotesSlideHeaderFooterManag
@@ -18,19 +18,19 @@ public interface IMasterNotesSlideHeaderFooterManager : IBaseHandoutNotesSlideHe
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIBaseHandoutNotesSlideHeaderFooterManag](../../aspose.slides/imasternotesslideheaderfootermanager/asibasehandoutnotesslideheaderfootermanag) { get; } | Mengembalikan antarmuka IBaseHandoutNotesSlideHeaderFooterManag. |
+| [AsIBaseHandoutNotesSlideHeaderFooterManag](../../aspose.slides/imasternotesslideheaderfootermanager/asibasehandoutnotesslideheaderfootermanag) { get; } | Mengembalikan IBaseHandoutNotesSlideHeaderFooterManag interface. |
 
 ## Metode
 
 | Nama | Deskripsi |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Mengatur teks ke placeholder tanggal-waktu slide catatan master dan semua placeholder tanggal-waktu anak. Placeholder anak berarti placeholder yang terdapat pada slide catatan yang bergantung. Slide catatan yang bergantung menggunakan dan bergantung pada slide catatan master. |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Mengubah visibilitas placeholder tanggal-waktu slide catatan master dan semua placeholder tanggal-waktu anak. Placeholder anak berarti placeholder yang terdapat pada slide catatan yang bergantung. Slide catatan yang bergantung menggunakan dan bergantung pada slide catatan master. |
-| [SetFooterAndChildFootersText](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfooterstext)(string) | Mengatur teks ke placeholder footer slide catatan master dan semua placeholder footer anak. Placeholder anak berarti placeholder yang terdapat pada slide catatan yang bergantung. Slide catatan yang bergantung menggunakan dan bergantung pada slide catatan master. |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Mengubah visibilitas placeholder footer slide catatan master dan semua placeholder footer anak. Placeholder anak berarti placeholder yang terdapat pada slide catatan yang bergantung. Slide catatan yang bergantung menggunakan dan bergantung pada slide catatan master. |
-| [SetHeaderAndChildHeadersText](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheaderstext)(string) | Mengatur teks ke placeholder header slide catatan master dan semua placeholder header anak. Placeholder anak berarti placeholder yang terdapat pada slide catatan yang bergantung. Slide catatan yang bergantung menggunakan dan bergantung pada slide catatan master. |
-| [SetHeaderAndChildHeadersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheadersvisibility)(bool) | Mengubah visibilitas placeholder header slide catatan master dan semua placeholder header anak. Placeholder anak berarti placeholder yang terdapat pada slide catatan yang bergantung. Slide catatan yang bergantung menggunakan dan bergantung pada slide catatan master. |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Mengubah visibilitas placeholder nomor halaman slide catatan master dan semua placeholder nomor halaman anak. Placeholder anak berarti placeholder yang terdapat pada slide catatan yang bergantung. Slide catatan yang bergantung menggunakan dan bergantung pada slide catatan master. |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Menetapkan teks ke placeholder tanggal-waktu master notes slide dan semua placeholder tanggal-waktu anak. Placeholder anak berarti placeholder berada pada slide catatan yang bergantung. Slide catatan yang bergantung menggunakan dan bergantung pada master notes slide. |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Mengubah visibilitas placeholder tanggal-waktu master notes slide dan semua placeholder tanggal-waktu anak. Placeholder anak berarti placeholder berada pada slide catatan yang bergantung. Slide catatan yang bergantung menggunakan dan bergantung pada master notes slide. |
+| [SetFooterAndChildFootersText](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfooterstext)(string) | Menetapkan teks ke placeholder footer master notes slide dan semua placeholder footer anak. Placeholder anak berarti placeholder berada pada slide catatan yang bergantung. Slide catatan yang bergantung menggunakan dan bergantung pada master notes slide. |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Mengubah visibilitas placeholder footer master notes slide dan semua placeholder footer anak. Placeholder anak berarti placeholder berada pada slide catatan yang bergantung. Slide catatan yang bergantung menggunakan dan bergantung pada master notes slide. |
+| [SetHeaderAndChildHeadersText](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheaderstext)(string) | Menetapkan teks ke placeholder header master notes slide dan semua placeholder header anak. Placeholder anak berarti placeholder berada pada slide catatan yang bergantung. Slide catatan yang bergantung menggunakan dan bergantung pada master notes slide. |
+| [SetHeaderAndChildHeadersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheadersvisibility)(bool) | Mengubah visibilitas placeholder header master notes slide dan semua placeholder header anak. Placeholder anak berarti placeholder berada pada slide catatan yang bergantung. Slide catatan yang bergantung menggunakan dan bergantung pada master notes slide. |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Mengubah visibilitas placeholder nomor halaman master notes slide dan semua placeholder nomor halaman anak. Placeholder anak berarti placeholder berada pada slide catatan yang bergantung. Slide catatan yang bergantung menggunakan dan bergantung pada master notes slide. |
 
 ### Lihat Juga
 

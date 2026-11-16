@@ -3,10 +3,10 @@ title: ICustomXmlPartCollection
 second_title: Aspose.Sildes için .NET API Referansı
 description: Özel xml parçalarının koleksiyonunu temsil eder.
 type: docs
-weight: 5680
+weight: 5700
 url: /tr/aspose.slides/icustomxmlpartcollection/
 ---
-## ICustomXmlPartCollection arayüz
+## ICustomXmlPartCollection interface
 
 Özel xml parçalarının koleksiyonunu temsil eder.
 
@@ -28,7 +28,7 @@ public interface ICustomXmlPartCollection : IGenericCollection<ICustomXmlPart>
 | [Add](../../aspose.slides/icustomxmlpartcollection/add#add_1)(Stream) | Yeni bir özel xml parçası ekler. |
 | [Add](../../aspose.slides/icustomxmlpartcollection/add#add_2)(string) | Yeni bir özel xml parçası ekler. |
 | [Clear](../../aspose.slides/icustomxmlpartcollection/clear)() | Koleksiyondaki tüm öğeleri kaldırır. |
-| [Remove](../../aspose.slides/icustomxmlpartcollection/remove)(ICustomXmlPart) | Koleksiyondan belirli bir nesnenin ilk görünümünü kaldırır. |
+| [Remove](../../aspose.slides/icustomxmlpartcollection/remove)(ICustomXmlPart) | Koleksiyondan belirli bir nesnenin ilk oluşumunu kaldırır. |
 | [RemoveAt](../../aspose.slides/icustomxmlpartcollection/removeat)(int) | Belirtilen dizindeki özel xml parçasını kaldırır. |
 
 ### Ayrıca Bakınız

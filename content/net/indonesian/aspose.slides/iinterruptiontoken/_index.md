@@ -1,14 +1,14 @@
 ---
 title: IInterruptionToken
-second_title: Referensi API Aspose.Sildes untuk .NET
-description: Kelas ini mewakili token yang digunakan untuk memberi sinyal pada tugas yang berjalan lama apakah interupsi diminta.
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Kelas ini mewakili token yang digunakan untuk memberi sinyal pada tugas yang berjalan lama apakah interupsi telah diminta.
 type: docs
-weight: 6190
+weight: 6210
 url: /id/aspose.slides/iinterruptiontoken/
 ---
 ## IInterruptionToken antarmuka
 
-Kelas ini mewakili token yang digunakan untuk memberi sinyal pada tugas yang berjalan lama apakah interupsi diminta.
+Kelas ini mewakili token yang digunakan untuk memberi sinyal pada tugas yang berjalan lama apakah interupsi telah diminta.
 
 ```csharp
 public interface IInterruptionToken

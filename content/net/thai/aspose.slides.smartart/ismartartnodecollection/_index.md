@@ -1,14 +1,14 @@
 ---
 title: ISmartArtNodeCollection
 second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
-description: เป็นคอลเลกชันของโหนด SmartArt.
+description: เป็นตัวแทนของคอลเลกชันของโหนด SmartArt.
 type: docs
-weight: 10560
+weight: 10580
 url: /th/aspose.slides.smartart/ismartartnodecollection/
 ---
 ## ISmartArtNodeCollection อินเทอร์เฟซ
 
-เป็นคอลเลกชันของโหนด SmartArt.
+เป็นตัวแทนของคอลเลกชันของโหนด SmartArt.
 
 ```csharp
 public interface ISmartArtNodeCollection : IGenericCollection<ISmartArtNode>
@@ -16,17 +16,17 @@ public interface ISmartArtNodeCollection : IGenericCollection<ISmartArtNode>
 
 ## คุณสมบัติ
 
-| Name | Description |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Item](../../aspose.slides.smartart/ismartartnodecollection/item) { get; } | ส่งคืนโหนดตามดัชนี. อ่านอย่างเดียว [`ISmartArtNode`](../ismartartnode) |
+| [Item](../../aspose.slides.smartart/ismartartnodecollection/item) { get; } | คืนค่าโหนดตามดัชนี. อ่านอย่างเดียว [`ISmartArtNode`](../ismartartnode) |
 
 ## เมธอด
 
-| Name | Description |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
 | [AddNode](../../aspose.slides.smartart/ismartartnodecollection/addnode)() | เพิ่มโหนดใหม่หรือโหนดย่อย. |
 | [AddNodeByPosition](../../aspose.slides.smartart/ismartartnodecollection/addnodebyposition)(int) | เพิ่มโหนดใหม่ในตำแหน่งที่เลือกของคอลเลกชันโหนด. |
-| [RemoveNode](../../aspose.slides.smartart/ismartartnodecollection/removenode#removenode_1)(int) | ลบโหนดหรือโหนดย่อยตามดัชนี. |
+| [RemoveNode](../../aspose.slides.smartart/ismartartnodecollection/removenode#removenode_1)(int) | ลบโหนดหรือโหนดย่อยโดยใช้ดัชนี. |
 | [RemoveNode](../../aspose.slides.smartart/ismartartnodecollection/removenode#removenode)(ISmartArtNode) | ลบโหนดหรือโหนดย่อย. |
 
 ### ดูเพิ่มเติม

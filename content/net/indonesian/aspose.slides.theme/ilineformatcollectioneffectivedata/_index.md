@@ -1,14 +1,14 @@
 ---
 title: ILineFormatCollectionEffectiveData
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Objek tak dapat diubah yang mewakili koleksi format garis efektif yang hanya dapat dibaca.
+description: Objek tidak dapat diubah yang mewakili koleksi hanya-baca dari format baris efektif.
 type: docs
-weight: 11300
+weight: 11320
 url: /id/aspose.slides.theme/ilineformatcollectioneffectivedata/
 ---
 ## ILineFormatCollectionEffectiveData antarmuka
 
-Objek tak dapat diubah yang mewakili koleksi format garis efektif yang hanya dapat dibaca.
+Objek tidak dapat diubah yang mewakili koleksi hanya-baca dari format baris efektif.
 
 ```csharp
 public interface ILineFormatCollectionEffectiveData : IGenericCollection<ILineFormatEffectiveData>

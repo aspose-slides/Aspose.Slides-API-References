@@ -3,10 +3,10 @@ title: ColorType
 second_title: Aspose.Sildes pro .NET API Reference
 description: Představuje různé režimy barev.
 type: docs
-weight: 2580
+weight: 2600
 url: /cs/aspose.slides/colortype/
 ---
-## ColorType enumerace
+## výčet ColorType
 
 Představuje různé režimy barev.
 
@@ -18,13 +18,13 @@ public enum ColorType
 
 | Název | Hodnota | Popis |
 | --- | --- | --- |
-| NotDefined | `-1` | Barva není vůbec definována. |
+| NotDefined | `-1` | Barva není definována. |
 | RGB | `0` | Standardní 24bitová RGB barva. |
-| RGBPercentage | `1` | Barva RGB ve vysokém rozlišení. |
-| HSL | `2` | Barva HSL ve vysokém rozlišení. |
+| RGBPercentage | `1` | Barva RGB s vysokým rozlišením. |
+| HSL | `2` | Barva HSL s vysokým rozlišením. |
 | Scheme | `3` | Barva schématu. |
 | System | `4` | Systémová barva. |
-| Preset | `5` | Předdefinovaná barva. |
+| Preset | `5` | Přednastavená barva. |
 
 ### Viz také
 

@@ -1,14 +1,14 @@
 ---
 title: LineAlignment
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar typ av radjustering.
+description: Representerar linjernas justeringstyp.
 type: docs
-weight: 7720
+weight: 7740
 url: /sv/aspose.slides/linealignment/
 ---
-## LineAlignment enumeration
+## LineAlignment-enumeration
 
-Representerar typ av radjustering.
+Representerar linjens justeringstyp.
 
 ```csharp
 public enum LineAlignment : sbyte

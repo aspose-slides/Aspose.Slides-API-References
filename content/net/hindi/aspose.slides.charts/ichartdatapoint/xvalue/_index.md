@@ -1,20 +1,20 @@
 ---
 title: XValue
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: चार्ट डेटा पॉइंट के x मान को लौटाता है। केवल पढ़ने योग्य IStringOrDoubleChartValueaspose.slides.charts/istringordoublechartvalue.
+second_title: Aspose.Sildes .NET के लिए API रेफ़रेंस
+description: एक चार्ट डेटा पॉइंट का x मान प्राप्त करता है। केवल-पढ़ने योग्य IStringOrDoubleChartValueaspose.slides.charts/istringordoublechartvalue.
 type: docs
-weight: 170
+weight: 210
 url: /hi/aspose.slides.charts/ichartdatapoint/xvalue/
 ---
 ## IChartDataPoint.XValue गुण
 
-चार्ट डेटा पॉइंट के x मान को लौटाता है। केवल पढ़ने योग्य [`IStringOrDoubleChartValue`](../../istringordoublechartvalue).
+एक चार्ट डेटा पॉइंट का x मान प्राप्त करता है। केवल-पढ़ने योग्य [`IStringOrDoubleChartValue`](../../istringordoublechartvalue).
 
 ```csharp
 public IStringOrDoubleChartValue XValue { get; }
 ```
 
-### संबंधित देखें
+### देखें
 
 * इंटरफ़ेस [IStringOrDoubleChartValue](../../istringordoublechartvalue)
 * इंटरफ़ेस [IChartDataPoint](../../ichartdatapoint)

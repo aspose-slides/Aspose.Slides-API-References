@@ -3,7 +3,7 @@ title: IChartCellCollection
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa una colección de celdas con datos.
 type: docs
-weight: 1780
+weight: 1800
 url: /es/aspose.slides.charts/ichartcellcollection/
 ---
 ## IChartCellCollection interfaz
@@ -26,10 +26,10 @@ public interface IChartCellCollection : IEnumerable<IChartDataCell>
 
 | Nombre | Descripción |
 | --- | --- |
-| [Add](../../aspose.slides.charts/ichartcellcollection/add#add)(IChartDataCell) | Agrega una nueva celda a la colección. |
+| [Add](../../aspose.slides.charts/ichartcellcollection/add#add)(IChartDataCell) | Agregar una nueva celda a la colección. |
 | [Add](../../aspose.slides.charts/ichartcellcollection/add#add_1)(object) | Crea [`IChartDataCell`](../ichartdatacell) a partir del valor especificado y lo agrega a la colección. |
 | [GetCellsAddress](../../aspose.slides.charts/ichartcellcollection/getcellsaddress)() | Devuelve la dirección del conjunto de celdas en el libro de trabajo. |
-| [GetConcatenatedValuesFromCells](../../aspose.slides.charts/ichartcellcollection/getconcatenatedvaluesfromcells)() | Cadena de concatenación a partir de los valores de cadena de todas las celdas. |
+| [GetConcatenatedValuesFromCells](../../aspose.slides.charts/ichartcellcollection/getconcatenatedvaluesfromcells)() | Cadena de concatenación de los valores de cadena de todas las celdas. |
 | [RemoveAt](../../aspose.slides.charts/ichartcellcollection/removeat)(int) | Elimina una celda de la colección por índice. |
 
 ### Ver también

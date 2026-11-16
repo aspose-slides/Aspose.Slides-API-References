@@ -1,14 +1,14 @@
 ---
 title: IImage
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Representeert een raster- of vectorafbeelding.
+description: Representeert een raster of vectorafbeelding.
 type: docs
-weight: 6150
+weight: 6170
 url: /nl/aspose.slides/iimage/
 ---
 ## IImage interface
 
-Stelt een raster- of vectorafbeelding voor.
+Representeert een raster- of vectorafbeelding.
 
 ```csharp
 public interface IImage : IDisposable
@@ -19,7 +19,7 @@ public interface IImage : IDisposable
 | Naam | Beschrijving |
 | --- | --- |
 | [Height](../../aspose.slides/iimage/height) { get; } | Haalt de hoogte van de afbeelding op in pixels. |
-| [Size](../../aspose.slides/iimage/size) { get; } | Haalt de grootte van de afbeelding op. |
+| [Size](../../aspose.slides/iimage/size) { get; } | Geeft de grootte van de afbeelding. |
 | [Width](../../aspose.slides/iimage/width) { get; } | Haalt de breedte van de afbeelding op in pixels. |
 
 ## Methoden
@@ -34,7 +34,7 @@ public interface IImage : IDisposable
 
 ### Opmerkingen
 
-Deze interface biedt een algemene abstractie voor het verwerken van zowel raster- als vectorafbeeldingen. Implementaties kunnen variëren afhankelijk van het onderliggende afbeeldingstype.
+Deze interface biedt een gemeenschappelijke abstractie voor het verwerken van zowel raster- als vectorafbeeldingen. Implementaties kunnen variëren afhankelijk van het onderliggende afbeeldingstype.
 
 ### Zie ook
 

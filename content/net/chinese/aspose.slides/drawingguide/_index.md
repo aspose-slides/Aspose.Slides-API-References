@@ -1,14 +1,14 @@
 ---
 title: DrawingGuide
-second_title: Aspose.Sildes 的 .NET API 参考
-description: 表示一个可调节的绘图参考线。
+second_title: Aspose.Sildes for .NET API 参考
+description: 表示可调节的绘图指南。
 type: docs
-weight: 2810
+weight: 2830
 url: /zh/aspose.slides/drawingguide/
 ---
 ## DrawingGuide 类
 
-表示一个可调节的绘图参考线。
+Represents an adjustable drawing guide.
 
 ```csharp
 public sealed class DrawingGuide : IDrawingGuide
@@ -18,11 +18,11 @@ public sealed class DrawingGuide : IDrawingGuide
 
 | 名称 | 描述 |
 | --- | --- |
-| [Color](../../aspose.slides/drawingguide/color) { get; set; } | 返回或设置绘图参考线的颜色。可读写 Color. |
-| [Orientation](../../aspose.slides/drawingguide/orientation) { get; set; } | 返回或设置绘图参考线的方向。可读写 [`Orientation`](../orientation). |
-| [Position](../../aspose.slides/drawingguide/position) { get; set; } | 返回或设置绘图参考线相对于幻灯片左上角的位置信息（单位为点）。可读写 Single. |
+| [Color](../../aspose.slides/drawingguide/color) { get; set; } | 返回或设置绘图指南的颜色。Read/write Color. |
+| [Orientation](../../aspose.slides/drawingguide/orientation) { get; set; } | 返回或设置绘图指南的方向。Read/write [`Orientation`](../orientation). |
+| [Position](../../aspose.slides/drawingguide/position) { get; set; } | 返回或设置绘图指南相对于幻灯片左上角的点位置。Read/write Single. |
 
-### 另见
+### 另请参见
 
 * 接口 [IDrawingGuide](../idrawingguide)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

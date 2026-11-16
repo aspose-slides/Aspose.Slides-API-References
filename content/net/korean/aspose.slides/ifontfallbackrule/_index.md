@@ -1,14 +1,14 @@
 ---
 title: IFontFallBackRule
 second_title: Aspose.Sildes for .NET API 참조
-description: 글꼴 폴백 규칙을 나타냅니다.
+description: 글꼴 대체 규칙을 나타냅니다.
 type: docs
-weight: 5850
+weight: 5870
 url: /ko/aspose.slides/ifontfallbackrule/
 ---
 ## IFontFallBackRule 인터페이스
 
-범위에 대한 글꼴 폴백 규칙을 나타냅니다.
+글꼴 대체 규칙을 나타냅니다.
 
 ```csharp
 public interface IFontFallBackRule
@@ -16,7 +16,7 @@ public interface IFontFallBackRule
 
 ## 속성
 
-| Name | Description |
+| 이름 | 설명 |
 | --- | --- |
 | [Count](../../aspose.slides/ifontfallbackrule/count) { get; } | 범위에 대해 실제로 정의된 글꼴 수를 가져옵니다. |
 | [Item](../../aspose.slides/ifontfallbackrule/item) { get; } | 지정된 인덱스의 글꼴 이름을 가져옵니다. |
@@ -25,18 +25,18 @@ public interface IFontFallBackRule
 
 ## 메서드
 
-| Name | Description |
+| 이름 | 설명 |
 | --- | --- |
 | [AddFallBackFonts](../../aspose.slides/ifontfallbackrule/addfallbackfonts#addfallbackfonts)(string) | 새 글꼴을 FallBack 글꼴 목록에 추가합니다. |
 | [AddFallBackFonts](../../aspose.slides/ifontfallbackrule/addfallbackfonts#addfallbackfonts_1)(string[]) | 새 글꼴을 FallBack 글꼴 목록에 추가합니다. |
 | [Clear](../../aspose.slides/ifontfallbackrule/clear)() | 목록에서 모든 글꼴을 제거합니다. |
 | [IndexOf](../../aspose.slides/ifontfallbackrule/indexof)(string) | 컬렉션에서 지정된 규칙의 인덱스를 반환합니다. |
-| [Remove](../../aspose.slides/ifontfallbackrule/remove)(string) | 목록에서 특정 FallBack 글꼴의 첫 번째 항목을 제거합니다. |
-| [RemoveAt](../../aspose.slides/ifontfallbackrule/removeat)(int) | 목록에서 지정된 인덱스의 FallBack 글꼴을 제거합니다. |
-| [ToArray](../../aspose.slides/ifontfallbackrule/toarray#toarray)() | 이 규칙에 대한 모든 FallBack 글꼴을 포함한 배열을 생성하고 반환합니다. |
-| [ToArray](../../aspose.slides/ifontfallbackrule/toarray#toarray_1)(int, int) | 목록에서 지정된 범위에 있는 모든 FallBack 글꼴을 포함한 배열을 생성하고 반환합니다. |
+| [Remove](../../aspose.slides/ifontfallbackrule/remove)(string) | 목록에서 특정 FallBack 글꼴의 첫 번째 발생을 제거합니다. |
+| [RemoveAt](../../aspose.slides/ifontfallbackrule/removeat)(int) | 지정된 인덱스의 FallBack 글꼴을 목록에서 제거합니다. |
+| [ToArray](../../aspose.slides/ifontfallbackrule/toarray#toarray)() | 이 규칙에 대한 모든 FallBack 글꼴이 포함된 배열을 생성하고 반환합니다. |
+| [ToArray](../../aspose.slides/ifontfallbackrule/toarray#toarray_1)(int, int) | 목록에서 지정된 범위의 모든 FallBack 글꼴이 포함된 배열을 생성하고 반환합니다. |
 
-### 관련 항목
+### 자세히 보기
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

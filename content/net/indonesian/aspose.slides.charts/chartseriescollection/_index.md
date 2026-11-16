@@ -3,7 +3,7 @@ title: ChartSeriesCollection
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili koleksi ChartSeries./chartseries
 type: docs
-weight: 1450
+weight: 1460
 url: /id/aspose.slides.charts/chartseriescollection/
 ---
 ## ChartSeriesCollection kelas
@@ -16,7 +16,7 @@ public class ChartSeriesCollection : DomObject<ChartData>, IChartSeriesCollectio
 
 ## Properti
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
 | [Count](../../aspose.slides.charts/chartseriescollection/count) { get; } | Mengembalikan jumlah objek dalam koleksi. Hanya-baca Int32. |
 | [IsSynchronized](../../aspose.slides.charts/chartseriescollection/issynchronized) { get; } | Mengembalikan nilai yang menunjukkan apakah akses ke koleksi disinkronkan (thread-safe). Hanya-baca Boolean. |
@@ -25,7 +25,7 @@ public class ChartSeriesCollection : DomObject<ChartData>, IChartSeriesCollectio
 
 ## Metode
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
 | [Add](../../aspose.slides.charts/chartseriescollection/add#add)(ChartType) | Membuat seri diagram baru dan menambahkannya ke koleksi. |
 | [Add](../../aspose.slides.charts/chartseriescollection/add#add_1)(IChartCellCollection, ChartType) | Membuat seri diagram baru dari [`ChartCellCollection`](../chartcellcollection) dan menambahkannya ke koleksi. |
@@ -35,7 +35,7 @@ public class ChartSeriesCollection : DomObject<ChartData>, IChartSeriesCollectio
 | [CopyTo](../../aspose.slides.charts/chartseriescollection/copyto)(Array, int) | Menyalin seluruh koleksi ke array yang ditentukan. |
 | [GetEnumerator](../../aspose.slides.charts/chartseriescollection/getenumerator)() | Mengembalikan enumerator yang mengiterasi koleksi. |
 | [IndexOf](../../aspose.slides.charts/chartseriescollection/indexof)(IChartSeries) | Mencari [`ChartSeries`](../chartseries) yang ditentukan dan mengembalikan indeks berbasis nol dari kemunculan pertama dalam seluruh koleksi |
-| [Insert](../../aspose.slides.charts/chartseriescollection/insert)(int, ChartType) | Membuat seri diagram baru dan memasukkannya ke dalam koleksi. |
+| [Insert](../../aspose.slides.charts/chartseriescollection/insert)(int, ChartType) | Membuat seri diagram baru dan menyisipkannya ke dalam koleksi. |
 | [Remove](../../aspose.slides.charts/chartseriescollection/remove)(IChartSeries) | Menghapus nilai yang ditentukan. |
 | [RemoveAt](../../aspose.slides.charts/chartseriescollection/removeat)(int) | Menghapus kontrol ActiveX yang disimpan pada posisi yang ditentukan dari koleksi. |
 

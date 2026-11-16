@@ -3,7 +3,7 @@ title: IZoomObject
 second_title: Aspose.Sildes for .NET API 參考
 description: 表示投影片中的 Zoom 物件。
 type: docs
-weight: 7410
+weight: 7430
 url: /zh-hant/aspose.slides/izoomobject/
 ---
 ## IZoomObject 介面
@@ -19,11 +19,11 @@ public interface IZoomObject : IGraphicalObject
 | 名稱 | 說明 |
 | --- | --- |
 | [AsIGraphicalObject](../../aspose.slides/izoomobject/asigraphicalobject) { get; } | 允許取得基礎 IGraphicalObject 介面。唯讀 [`IGraphicalObject`](../igraphicalobject)。 |
-| [ImageType](../../aspose.slides/izoomobject/imagetype) { get; set; } | 取得或設定 Zoom 物件的影像類型。可讀寫 [`ZoomImageType`](../zoomimagetype)。預設值: Preview |
-| [ReturnToParent](../../aspose.slides/izoomobject/returntoparent) { get; set; } | 取得或設定投影片放映時的導覽行為。可讀寫 Boolean。預設值: false |
-| [ShowBackground](../../aspose.slides/izoomobject/showbackground) { get; set; } | 取得或設定指定 Zoom 是否使用目標投影片的背景。可讀寫 Boolean。預設值: true |
-| [TransitionDuration](../../aspose.slides/izoomobject/transitionduration) { get; set; } | 取得或設定 Zoom 與投影片之間過渡的持續時間。可讀寫 Single。預設值: 1.0f |
-| [ZoomImage](../../aspose.slides/izoomobject/zoomimage) { get; set; } | 取得或設定 Zoom 物件的影像。可讀寫 [`IPPImage`](../ippimage)。 |
+| [ImageType](../../aspose.slides/izoomobject/imagetype) { get; set; } | 取得或設定 zoom 物件的圖像類型。可讀寫 [`ZoomImageType`](../zoomimagetype)。預設值：Preview |
+| [ReturnToParent](../../aspose.slides/izoomobject/returntoparent) { get; set; } | 取得或設定投影片放映時的導覽行為。可讀寫 Boolean。預設值：false |
+| [ShowBackground](../../aspose.slides/izoomobject/showbackground) { get; set; } | 取得或設定指定 Zoom 是否使用目標投影片背景的值。可讀寫 Boolean。預設值：true |
+| [TransitionDuration](../../aspose.slides/izoomobject/transitionduration) { get; set; } | 取得或設定 Zoom 與投影片之間過渡的持續時間。可讀寫 Single。預設值：1.0f |
+| [ZoomImage](../../aspose.slides/izoomobject/zoomimage) { get; set; } | 取得或設定 zoom 物件的圖像。可讀寫 [`IPPImage`](../ippimage)。 |
 
 ### 另請參閱
 

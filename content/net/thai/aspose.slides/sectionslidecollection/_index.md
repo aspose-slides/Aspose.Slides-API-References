@@ -1,14 +1,14 @@
 ---
 title: SectionSlideCollection
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แทนคอลเลกชันของสไลด์ในส่วน.
+second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
+description: แสดงคอลเลกชันของสไลด์ในส่วน.
 type: docs
-weight: 9770
+weight: 9790
 url: /th/aspose.slides/sectionslidecollection/
 ---
-## คลาส SectionSlideCollection
+## SectionSlideCollection คลาส
 
-แทนคอลเลกชันของสไลด์ในส่วน.
+แสดงชุดสไลด์ในส่วน.
 
 ```csharp
 public sealed class SectionSlideCollection : DomObject<Section>, ISectionSlideCollection
@@ -18,17 +18,17 @@ public sealed class SectionSlideCollection : DomObject<Section>, ISectionSlideCo
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Count](../../aspose.slides/sectionslidecollection/count) { get; } | รับจำนวนขององค์ประกอบที่จริง ๆ แล้วอยู่ในคอลเลกชันนี้. อ่านอย่างเดียว Int32. |
-| [IsSynchronized](../../aspose.slides/sectionslidecollection/issynchronized) { get; } | คืนค่าซึ่งระบุว่าการเข้าถึงคอลเลกชันนี้เป็นไปอย่างประสานงาน (ปลอดภัยต่อเธรด). อ่านอย่างเดียว Boolean. |
-| [Item](../../aspose.slides/sectionslidecollection/item) { get; } | รับองค์ประกอบที่ตำแหน่งที่ระบุ. อ่านอย่างเดียว [`ISlide`](../islide). |
-| [SyncRoot](../../aspose.slides/sectionslidecollection/syncroot) { get; } | คืนค่ารากของการประสานงาน. อ่านอย่างเดียว Object. |
+| [Count](../../aspose.slides/sectionslidecollection/count) { get; } | รับจำนวนขององค์ประกอบที่มีอยู่จริงในคอลเลกชัน. อ่านเท่านั้น Int32. |
+| [IsSynchronized](../../aspose.slides/sectionslidecollection/issynchronized) { get; } | คืนค่าที่บ่งชี้ว่าการเข้าถึงคอลเลกชันมีการซิงโครไนซ์ (ปลอดภัยต่อเธรด). อ่านเท่านั้น Boolean. |
+| [Item](../../aspose.slides/sectionslidecollection/item) { get; } | รับองค์ประกอบที่ตำแหน่งที่กำหนด. อ่านเท่านั้น [`ISlide`](../islide). |
+| [SyncRoot](../../aspose.slides/sectionslidecollection/syncroot) { get; } | คืนค่ารากของการซิงโครไนซ์. อ่านเท่านั้น Object. |
 
-## วิธีการ
+## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [CopyTo](../../aspose.slides/sectionslidecollection/copyto)(Array, int) | คัดลอกคอลเลกชันทั้งหมดไปยังอาเรย์ที่ระบุ. |
-| [GetEnumerator](../../aspose.slides/sectionslidecollection/getenumerator)() | คืนค่า enumerator ที่วนซ้ำผ่านคอลเลกชัน. |
+| [CopyTo](../../aspose.slides/sectionslidecollection/copyto)(Array, int) | คัดลอกคอลเลกชันทั้งหมดไปยังอาร์เรย์ที่ระบุ. |
+| [GetEnumerator](../../aspose.slides/sectionslidecollection/getenumerator)() | คืนค่า Enumerator ที่วนผ่านคอลเลกชัน. |
 
 ### ดูเพิ่มเติม
 

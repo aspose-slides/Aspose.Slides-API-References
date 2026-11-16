@@ -1,20 +1,20 @@
 ---
 title: Explosion
-second_title: Aspose.Sildes dla .NET - dokumentacja API
-description: Określa, o ile punkt danych ma zostać przesunięty od środka wykresu kołowego. Read/write Int32.
+second_title: Aspose.Sildes dla .NET - odniesienie API
+description: Określa ilość, o jaką punkt danych ma być przesunięty od środka wykresu kołowego. Odczyt/zapis Int32.
 type: docs
-weight: 90
+weight: 130
 url: /pl/aspose.slides.charts/chartdatapoint/explosion/
 ---
 ## ChartDataPoint.Explosion właściwość
 
-Określa wartość, o jaką punkt danych ma zostać przesunięty od środka wykresu kołowego. Read/write Int32.
+Określa ilość, o jaką punkt danych ma być przesunięty od środka wykresu kołowego. Odczyt/zapis Int32.
 
 ```csharp
 public int Explosion { get; set; }
 ```
 
-### Zobacz również
+### Zobacz także
 
 * klasa [ChartDataPoint](../../chartdatapoint)
 * przestrzeń nazw [Aspose.Slides.Charts](../../chartdatapoint)

@@ -1,14 +1,14 @@
 ---
 title: Output
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: IWebDocument के लिए आउटपुट तत्वों का संग्रह दर्शाता है।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: IWebDocument के लिए आउटपुट तत्वों का संग्रह प्रतिनिधित्व करता है।
 type: docs
-weight: 4640
+weight: 4660
 url: /hi/aspose.slides.export.web/output/
 ---
 ## आउटपुट क्लास
 
-Represents a collection of output elements for !:IWebDocument.
+!:IWebDocument के लिए आउटपुट तत्वों का संग्रह प्रतिनिधित्व करता है।
 
 ```csharp
 public sealed class Output
@@ -18,14 +18,15 @@ public sealed class Output
 
 | नाम | विवरण |
 | --- | --- |
-| [Add](../../aspose.slides.export.web/output/add#add_1)(string, IImage) | छवि के लिए एक आउटपुट तत्व जोड़ता है। |
-| [Add](../../aspose.slides.export.web/output/add#add_2)(string, IPPImage) | छवि के लिए एक आउटपुट तत्व जोड़ता है। |
-| [Add](../../aspose.slides.export.web/output/add#add_3)(string, IVideo) | वीडियो के लिए एक आउटपुट तत्व जोड़ता है। |
-| [Add](../../aspose.slides.export.web/output/add#add_4)(string, string) | पाठ सामग्री के लिए एक आउटपुट तत्व जोड़ता है। |
-| [Add](../../aspose.slides.export.web/output/add#add)(string, IFontData, FontStyleType) | निर्दिष्ट फ़ॉन्ट के लिए एक आउटपुट फ़ाइल तत्व बनाता और जोड़ता है। |
-| [Add&lt;TContextObject&gt;](../../aspose.slides.export.web/output/add#add_5)(string, string, TContextObject) | संदर्भ वस्तु के लिए एक आउटपुट तत्व जोड़ता है। |
-| [BindResource](../../aspose.slides.export.web/output/bindresource)(IOutputFile, object) | संसाधन को आउटपुट फ़ाइल से बाँधता है। |
-| [GetResourcePath](../../aspose.slides.export.web/output/getresourcepath)(object) | दिए गए संसाधन के पथ को लौटाता है। |
+| [Add](../../aspose.slides.export.web/output/add#add)(string, IAudio) | ऑडियो के लिए एक आउटपुट तत्व जोड़ता है। |
+| [Add](../../aspose.slides.export.web/output/add#add_2)(string, IImage) | छवि के लिए एक आउटपुट तत्व जोड़ता है। |
+| [Add](../../aspose.slides.export.web/output/add#add_3)(string, IPPImage) | छवि के लिए एक आउटपुट तत्व जोड़ता है। |
+| [Add](../../aspose.slides.export.web/output/add#add_4)(string, IVideo) | वीडियो के लिए एक आउटपुट तत्व जोड़ता है। |
+| [Add](../../aspose.slides.export.web/output/add#add_5)(string, string) | टेक्स्ट सामग्री के लिए एक आउटपुट तत्व जोड़ता है। |
+| [Add](../../aspose.slides.export.web/output/add#add_1)(string, IFontData, FontStyleType) | निर्दिष्ट फ़ॉन्ट के लिए एक आउटपुट फ़ाइल तत्व बनाता है और जोड़ता है। |
+| [Add&lt;TContextObject&gt;](../../aspose.slides.export.web/output/add#add_6)(string, string, TContextObject) | कॉन्टेक्स्ट ऑब्जेक्ट के लिए एक आउटपुट तत्व जोड़ता है। |
+| [BindResource](../../aspose.slides.export.web/output/bindresource)(IOutputFile, object) | रिसोर्स को आउटपुट फ़ाइल से बाँधता है। |
+| [GetResourcePath](../../aspose.slides.export.web/output/getresourcepath)(object) | दिए गए रिसोर्स का पथ लौटाता है। |
 
 ### संबंधित देखें
 

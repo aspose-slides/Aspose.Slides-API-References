@@ -1,14 +1,14 @@
 ---
 title: ITextSearchOptions
-second_title: Aspose.Sildes für .NET API Referenz
-description: Stellt Optionen bereit, die zum Suchen von Text in einer Presentation Slide oder einem TextFrame verwendet werden können.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Stellt Optionen bereit, die zum Suchen von Text in einer Presentation Slide oder TextFrame verwendet werden können.
 type: docs
-weight: 7300
+weight: 7320
 url: /de/aspose.slides/itextsearchoptions/
 ---
 ## ITextSearchOptions Schnittstelle
 
-Stellt Optionen bereit, die zum Suchen von Text in einer Presentation, einer Slide oder einem TextFrame verwendet werden können.
+Stellt Optionen bereit, die zum Suchen von Text in einer Presentation, Slide oder TextFrame verwendet werden können.
 
 ```csharp
 public interface ITextSearchOptions
@@ -16,11 +16,11 @@ public interface ITextSearchOptions
 
 ## Eigenschaften
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
-| [CaseSensitive](../../aspose.slides/itextsearchoptions/casesensitive) { get; set; } | Setzen Sie true, um eine groß-/kleinschreibungssensible Suche zu verwenden, andernfalls false. Lese/Schreib Boolean. |
-| [IncludeNotes](../../aspose.slides/itextsearchoptions/includenotes) { get; set; } | Setzen Sie `true`, um Text, der in slide Notizen enthalten ist, bei der Durchführung von Textsuche, Ersetzung oder Hervorhebungsoperationen einzuschließen. Der Standardwert ist `false`. |
-| [WholeWordsOnly](../../aspose.slides/itextsearchoptions/wholewordsonly) { get; set; } | Setzen Sie true, um nur ganze Wörter zu matchen, andernfalls false. Lese/Schreib Boolean. |
+| [CaseSensitive](../../aspose.slides/itextsearchoptions/casesensitive) { get; set; } | Set true to use case-sensitive search, false - otherwise. Lese-/Schreib Boolean. |
+| [IncludeNotes](../../aspose.slides/itextsearchoptions/includenotes) { get; set; } | Set `true` to include text contained in slide notes when performing text search, replacement, or highlighting operations. The default value is `false`. |
+| [WholeWordsOnly](../../aspose.slides/itextsearchoptions/wholewordsonly) { get; set; } | Set true to match only whole words, false - otherwise. Lese-/Schreib Boolean. |
 
 ### Siehe auch
 

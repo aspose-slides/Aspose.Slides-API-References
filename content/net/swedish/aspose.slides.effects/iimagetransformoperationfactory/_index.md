@@ -3,7 +3,7 @@ title: IImageTransformOperationFactory
 second_title: Aspose.Sildes för .NET API-referens
 description: Tillåter att skapa instanser av bildeffekter
 type: docs
-weight: 3410
+weight: 3430
 url: /sv/aspose.slides.effects/iimagetransformoperationfactory/
 ---
 ## IImageTransformOperationFactory gränssnitt

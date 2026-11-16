@@ -3,18 +3,18 @@ title: IMathBoxFactory
 second_title: Aspose.Sildes for .NET API リファレンス
 description: 数式ボックスを作成できます
 type: docs
-weight: 8200
+weight: 8220
 url: /ja/aspose.slides.mathtext/imathboxfactory/
 ---
 ## IMathBoxFactory インターフェイス
 
-数式ボックスを作成できます
+数式ボックスを作成することができます
 
 ```csharp
 public interface IMathBoxFactory
 ```
 
-## メソッド
+## Methods
 
 | 名前 | 説明 |
 | --- | --- |
@@ -24,7 +24,7 @@ public interface IMathBoxFactory
 
 COM 互換性のため
 
-### 関連項目
+### 参照
 
 * 名前空間 [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * アセンブリ [Aspose.Slides](../../)

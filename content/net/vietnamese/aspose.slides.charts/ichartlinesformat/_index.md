@@ -1,9 +1,9 @@
 ---
 title: IChartLinesFormat
-second_title: Aspose.Sildes cho .NET Tham khảo API
-description: Đại diện cho các thuộc tính định dạng lưới.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Đại diện cho các thuộc tính định dạng đường lưới.
 type: docs
-weight: 1890
+weight: 1910
 url: /vi/aspose.slides.charts/ichartlinesformat/
 ---
 ## IChartLinesFormat giao diện
@@ -18,8 +18,8 @@ public interface IChartLinesFormat
 
 | Tên | Mô tả |
 | --- | --- |
-| [Effect](../../aspose.slides.charts/ichartlinesformat/effect) { get; } | Trả về các hiệu ứng được sử dụng cho một dòng biểu đồ. Chỉ đọc [`IEffectFormat`](../../aspose.slides/ieffectformat). |
-| [Line](../../aspose.slides.charts/ichartlinesformat/line) { get; } | Trả về các thuộc tính kiểu đường của một dòng biểu đồ. Chỉ đọc [`ILineFormat`](../../aspose.slides/ilineformat). |
+| [Effect](../../aspose.slides.charts/ichartlinesformat/effect) { get; } | Trả về các hiệu ứng được sử dụng cho một đường biểu đồ. Chỉ đọc [`IEffectFormat`](../../aspose.slides/ieffectformat). |
+| [Line](../../aspose.slides.charts/ichartlinesformat/line) { get; } | Trả về các thuộc tính kiểu đường của một đường biểu đồ. Chỉ đọc [`ILineFormat`](../../aspose.slides/ilineformat). |
 
 ### Xem thêm
 

@@ -1,14 +1,14 @@
 ---
 title: WebDocument
-second_title: Aspose.Sildes для .NET справочник API
-description: Представляет переходную форму презентации для сохранения в веб-формате.
+second_title: Aspose.Sildes для .NET справочника API
+description: Представляет промежуточную форму презентации для сохранения в веб-формате.
 type: docs
-weight: 4680
+weight: 4700
 url: /ru/aspose.slides.export.web/webdocument/
 ---
-## Класс WebDocument
+## WebDocument класс
 
-Представляет переходную форму презентации для сохранения в веб-формате.
+Представляет промежуточную форму презентации для сохранения в веб-формате.
 
 ```csharp
 public class WebDocument
@@ -18,7 +18,7 @@ public class WebDocument
 
 | Имя | Описание |
 | --- | --- |
-| [WebDocument](webdocument)(WebDocumentOptions) | [`WebDocument`](../webdocument) конструктор. |
+| [WebDocument](webdocument)(WebDocumentOptions) | [`WebDocument`](../webdocument) constructor. |
 
 ## Свойства
 

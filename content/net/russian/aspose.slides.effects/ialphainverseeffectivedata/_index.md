@@ -1,14 +1,14 @@
 ---
 title: IAlphaInverseEffectiveData
-second_title: Aspose.Sildes для .NET API справка
-description: Неизменяемый объект, представляющий эффект обратной альфа. Значения альфа непрозрачности инвертируются вычитанием из 100.
+second_title: Aspose.Sildes для .NET API Reference
+description: Неизменяемый объект, представляющий эффект обратного альфа. Значения непрозрачности альфа инвертируются вычитанием из 100.
 type: docs
-weight: 3090
+weight: 3110
 url: /ru/aspose.slides.effects/ialphainverseeffectivedata/
 ---
 ## IAlphaInverseEffectiveData интерфейс
 
-Неизменяемый объект, представляющий эффект обратной альфа. Значения альфа (непрозрачности) инвертируются вычитанием из 100%.
+Неизменяемый объект, представляющий эффект обратного альфа. Значения альфа (непрозрачность) инвертируются вычитанием из 100%.
 
 ```csharp
 public interface IAlphaInverseEffectiveData : IEffectEffectiveData
@@ -20,7 +20,7 @@ public interface IAlphaInverseEffectiveData : IEffectEffectiveData
 | --- | --- |
 | [AsIEffectEffectiveData](../../aspose.slides.effects/ialphainverseeffectivedata/asieffecteffectivedata) { get; } | Позволяет получить базовый интерфейс IEffectEffectiveData. Только для чтения [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
-### Смотрите также
+### См. также
 
 * интерфейс [IEffectEffectiveData](../ieffecteffectivedata)
 * пространство имён [Aspose.Slides.Effects](../../aspose.slides.effects)

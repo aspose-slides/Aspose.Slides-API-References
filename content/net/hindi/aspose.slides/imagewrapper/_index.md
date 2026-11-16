@@ -1,12 +1,12 @@
 ---
 title: ImageWrapper
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: COM इंटरफ़ेस के लिए System.Drawing.Image रैपर।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: COM इंटरफ़ेस के लिए System.Drawing.Image रैपर
 type: docs
-weight: 7440
+weight: 7460
 url: /hi/aspose.slides/imagewrapper/
 ---
-## ImageWrapper कक्षा
+## ImageWrapper क्लास
 
 System.Drawing.Image wrapper for COM interface.
 
@@ -18,17 +18,17 @@ public class ImageWrapper : IImageWrapper
 
 | नाम | विवरण |
 | --- | --- |
-| [ImageSource](../../aspose.slides/imagewrapper/imagesource) { get; } | Image प्राप्त करता है। केवल-पढ़ने योग्य [`IImage`](../iimage)। |
-| [Size](../../aspose.slides/imagewrapper/size) { get; } | Image की चौड़ाई और ऊँचाई, पिक्सेल में, प्राप्त करता है। केवल-पढ़ने योग्य [`Size`](./size)। |
+| [ImageSource](../../aspose.slides/imagewrapper/imagesource) { get; } | Image प्राप्त करता है। केवल पढ़ने योग्य [`IImage`](../iimage)। |
+| [Size](../../aspose.slides/imagewrapper/size) { get; } | Image की चौड़ाई और ऊँचाई, पिक्सेल में प्राप्त करता है। केवल पढ़ने योग्य [`Size`](./size)। |
 
-## मेथड्स
+## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
 | [Dispose](../../aspose.slides/imagewrapper/dispose)() | ImageWrapper को नष्ट करें |
 | [Save](../../aspose.slides/imagewrapper/save#save_1)(string) | Image को निर्दिष्ट फ़ाइल में सहेजता है |
-| [Save](../../aspose.slides/imagewrapper/save#save)(Stream, PPImageFormat) | Image को निर्दिष्ट प्रारूप में निर्दिष्ट स्ट्रीम में सहेजता है। |
-| [Save](../../aspose.slides/imagewrapper/save#save_2)(string, PPImageFormat) | Image को निर्दिष्ट प्रारूप में निर्दिष्ट फ़ाइल में सहेजता है। |
+| [Save](../../aspose.slides/imagewrapper/save#save)(Stream, PPImageFormat) | Image को निर्दिष्ट स्ट्रीम में निर्दिष्ट स्वरूप में सहेजता है |
+| [Save](../../aspose.slides/imagewrapper/save#save_2)(string, PPImageFormat) | Image को निर्दिष्ट फ़ाइल में निर्दिष्ट स्वरूप में सहेजता है |
 
 ### संबंधित देखें
 

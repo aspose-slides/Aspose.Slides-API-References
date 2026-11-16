@@ -3,7 +3,7 @@ title: FillOverlay
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta un effetto Fill Overlay. Un fill overlay può essere utilizzato per specificare un riempimento aggiuntivo per un oggetto e fondere i due riempimenti insieme.
 type: docs
-weight: 2980
+weight: 3000
 url: /it/aspose.slides.effects/filloverlay/
 ---
 ## FillOverlay classe
@@ -16,17 +16,17 @@ public sealed class FillOverlay : ImageTransformOperation, IFillOverlay
 
 ## Proprietà
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Consente di ottenere l'interfaccia base IPresentationComponent. Solo lettura [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
-| [Blend](../../aspose.slides.effects/filloverlay/blend) { get; set; } | FillBlendMode. Lettura/Scrittura [`FillBlendMode`](../../aspose.slides/fillblendmode). |
+| [Blend](../../aspose.slides.effects/filloverlay/blend) { get; set; } | FillBlendMode. Lettura/scrittura [`FillBlendMode`](../../aspose.slides/fillblendmode). |
 | [FillFormat](../../aspose.slides.effects/filloverlay/fillformat) { get; } | Formato di riempimento. Solo lettura [`IFillFormat`](../../aspose.slides/ifillformat). |
 
 ## Metodi
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/filloverlay/equals)(object) | Determina se l'[`FillOverlay`](../filloverlay) specificato è uguale al [`FillOverlay`](../filloverlay) corrente. |
+| override [Equals](../../aspose.slides.effects/filloverlay/equals)(object) | Determina se il [`FillOverlay`](../filloverlay) specificato è uguale all'attuale [`FillOverlay`](../filloverlay). |
 | [GetEffective](../../aspose.slides.effects/filloverlay/geteffective)() | Ottiene i dati dell'effetto Fill Overlay effettivo con l'ereditarietà applicata. |
 | override [GetHashCode](../../aspose.slides.effects/filloverlay/gethashcode)() | Funge da funzione hash per un tipo particolare. |
 

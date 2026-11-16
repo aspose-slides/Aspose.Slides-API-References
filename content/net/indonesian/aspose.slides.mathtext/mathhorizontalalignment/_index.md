@@ -1,9 +1,9 @@
 ---
 title: MathHorizontalAlignment
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Perataan Horizontal
 type: docs
-weight: 8780
+weight: 8800
 url: /id/aspose.slides.mathtext/mathhorizontalalignment/
 ---
 ## MathHorizontalAlignment enumerasi
@@ -18,8 +18,8 @@ public enum MathHorizontalAlignment
 
 | Nama | Nilai | Deskripsi |
 | --- | --- | --- |
-| NotDefined | `0` | Nilai tidak didefinisikan |
-| Left | `1` | Rata Kiri |
+| NotDefined | `0` | Nilai tidak ditentukan |
+| Left | `1` | Justifikasi Kiri |
 | Center | `2` | Tengah |
 | Right | `3` | Kanan |
 

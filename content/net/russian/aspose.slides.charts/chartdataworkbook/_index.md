@@ -1,14 +1,14 @@
 ---
 title: ChartDataWorkbook
-second_title: Справочник API Aspose.Sildes для .NET
-description: Обеспечивает доступ к встроенной книге Excel
+second_title: Aspose.Sildes для .NET: справка API
+description: Предоставляет доступ к встроенной книге Excel
 type: docs
-weight: 1380
+weight: 1390
 url: /ru/aspose.slides.charts/chartdataworkbook/
 ---
 ## ChartDataWorkbook класс
 
-Предоставляет доступ к встроенной книге Excel
+Provides access to embedded Excel workbook
 
 ```csharp
 public class ChartDataWorkbook : DomObject<ChartData>, IChartDataWorkbook
@@ -16,24 +16,24 @@ public class ChartDataWorkbook : DomObject<ChartData>, IChartDataWorkbook
 
 ## Свойства
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
-| [Worksheets](../../aspose.slides.charts/chartdataworkbook/worksheets) { get; } | Получает коллекцию листов. |
+| [Worksheets](../../aspose.slides.charts/chartdataworkbook/worksheets) { get; } | Возвращает коллекцию листов рабочего листа. |
 
 ## Методы
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
 | [CalculateFormulas](../../aspose.slides.charts/chartdataworkbook/calculateformulas)() | Вычисляет все формулы в рабочей книге и обновляет соответствующие значения ячеек. |
 | [Clear](../../aspose.slides.charts/chartdataworkbook/clear)(int) | Очищает все значения ячеек на листе |
-| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_2)(int, string) | Получает ячейку, которую можно использовать для серии диаграммы или категорий |
-| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell)(int, int, int) | Получает ячейку, которую можно использовать для серии диаграммы или категорий |
-| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_3)(int, string, object) | Получает ячейку, которую можно использовать для серии диаграммы или категорий |
-| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_4)(string, int, int) | Получает ячейку, которую можно использовать для серии диаграммы или категорий |
-| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_1)(int, int, int, object) | Получает ячейку, которую можно использовать для серии диаграммы или категорий |
-| [GetCellCollection](../../aspose.slides.charts/chartdataworkbook/getcellcollection)(string, bool) | Получает набор ячеек. |
+| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_2)(int, string) | Возвращает ячейку, которую можно использовать для серии диаграммы или категорий |
+| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell)(int, int, int) | Возвращает ячейку, которую можно использовать для серии диаграммы или категорий |
+| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_3)(int, string, object) | Возвращает ячейку, которую можно использовать для серии диаграммы или категорий |
+| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_4)(string, int, int) | Возвращает ячейку, которую можно использовать для серии диаграммы или категорий |
+| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_1)(int, int, int, object) | Возвращает ячейку, которую можно использовать для серии диаграммы или категорий |
+| [GetCellCollection](../../aspose.slides.charts/chartdataworkbook/getcellcollection)(string, bool) | Возвращает набор ячеек. |
 
-### Смотрите также
+### См. также
 
 * класс [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * класс [ChartData](../chartdata)

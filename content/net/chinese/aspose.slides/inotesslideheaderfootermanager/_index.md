@@ -1,9 +1,9 @@
 ---
 title: INotesSlideHeaderFooterManager
-second_title: Aspose.Sildes .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 表示管理器，负责处理备注幻灯片占位符的行为，包括页眉占位符。
 type: docs
-weight: 6510
+weight: 6530
 url: /zh/aspose.slides/inotesslideheaderfootermanager/
 ---
 ## INotesSlideHeaderFooterManager 接口
@@ -20,7 +20,7 @@ public interface INotesSlideHeaderFooterManager : IBaseHandoutNotesSlideHeaderFo
 | --- | --- |
 | [AsIBaseHandoutNotesSlideHeaderFooterManag](../../aspose.slides/inotesslideheaderfootermanager/asibasehandoutnotesslideheaderfootermanag) { get; } | 返回 IBaseHandoutNotesSlideHeaderFooterManag 接口。 |
 
-### 另请参阅
+### 参见
 
 * 接口 [IBaseHandoutNotesSlideHeaderFooterManag](../ibasehandoutnotesslideheaderfootermanag)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

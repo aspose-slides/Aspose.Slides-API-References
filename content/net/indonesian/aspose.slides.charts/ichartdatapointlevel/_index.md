@@ -1,14 +1,14 @@
 ---
 title: IChartDataPointLevel
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili level titik data. Berlaku untuk bagan Treemap dan Sunburst.
+description: Mewakili tingkat titik data. Berlaku untuk grafik Treemap dan Sunburst.
 type: docs
-weight: 1840
+weight: 1860
 url: /id/aspose.slides.charts/ichartdatapointlevel/
 ---
 ## IChartDataPointLevel antarmuka
 
-Mewakili level titik data. Berlaku untuk bagan Treemap dan Sunburst.
+Mewakili tingkat titik data. Berlaku untuk grafik Treemap dan Sunburst.
 
 ```csharp
 public interface IChartDataPointLevel
@@ -18,8 +18,8 @@ public interface IChartDataPointLevel
 
 | Nama | Deskripsi |
 | --- | --- |
-| [Format](../../aspose.slides.charts/ichartdatapointlevel/format) { get; } | Mewakili properti pemformatan level titik data. Baca/tulis [`IFormat`](../iformat). |
-| [Label](../../aspose.slides.charts/ichartdatapointlevel/label) { get; } | Mewakili label data level titik data. Diterapkan untuk tipe seri Treemap dan Sunburst. Hanya-baca [`IDataLabel`](../idatalabel). |
+| [Format](../../aspose.slides.charts/ichartdatapointlevel/format) { get; } | Mewakili properti pemformatan tingkat titik data. Baca/tulis [`IFormat`](../iformat). |
+| [Label](../../aspose.slides.charts/ichartdatapointlevel/label) { get; } | Mewakili label data tingkat titik data. Diterapkan untuk tipe seri Treemap dan Sunburst. Hanya-baca [`IDataLabel`](../idatalabel). |
 
 ### Lihat Juga
 

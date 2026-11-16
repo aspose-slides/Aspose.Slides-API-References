@@ -3,7 +3,7 @@ title: IVideoPlayerHtmlController
 second_title: Aspose.Sildes for .NET API 参考
 description: 此类允许将视频和音频文件导出为 HTML
 type: docs
-weight: 4180
+weight: 4200
 url: /zh/aspose.slides.export/ivideoplayerhtmlcontroller/
 ---
 ## IVideoPlayerHtmlController 接口
@@ -19,9 +19,9 @@ public interface IVideoPlayerHtmlController : IHtmlFormattingController, ILinkEm
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIHtmlFormattingController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asihtmlformattingcontroller) { get; } | 允许获取基 IHtmlFormattingController 接口。只读 [`IHtmlFormattingController`](../ihtmlformattingcontroller)。 |
-| [AsILinkEmbedController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asilinkembedcontroller) { get; } | 允许获取基 ILinkEmbedController 接口。只读 [`ILinkEmbedController`](../ilinkembedcontroller)。 |
-| [AsISvgShapeFormattingController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asisvgshapeformattingcontroller) { get; } | 允许获取基 ISvgShapeFormattingController 接口。只读 [`ISvgShapeFormattingController`](../isvgshapeformattingcontroller)。 |
+| [AsIHtmlFormattingController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asihtmlformattingcontroller) { get; } | 允许获取基类 IHtmlFormattingController 接口。只读 [`IHtmlFormattingController`](../ihtmlformattingcontroller)。 |
+| [AsILinkEmbedController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asilinkembedcontroller) { get; } | 允许获取基类 ILinkEmbedController 接口。只读 [`ILinkEmbedController`](../ilinkembedcontroller)。 |
+| [AsISvgShapeFormattingController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asisvgshapeformattingcontroller) { get; } | 允许获取基类 ISvgShapeFormattingController 接口。只读 [`ISvgShapeFormattingController`](../isvgshapeformattingcontroller)。 |
 
 ### 另见
 

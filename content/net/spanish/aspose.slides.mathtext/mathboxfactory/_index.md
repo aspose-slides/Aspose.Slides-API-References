@@ -1,9 +1,9 @@
 ---
 title: MathBoxFactory
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Aspose.Sildes para la referencia de API de .NET
 description: Permite crear una caja matemática
 type: docs
-weight: 8640
+weight: 8660
 url: /es/aspose.slides.mathtext/mathboxfactory/
 ---
 ## MathBoxFactory clase
@@ -28,7 +28,7 @@ public class MathBoxFactory : IMathBoxFactory
 
 ### Observaciones
 
-Para compatibilidad COM
+Para compatibilidad con COM
 
 ### Ver también
 

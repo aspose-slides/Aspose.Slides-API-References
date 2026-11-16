@@ -1,14 +1,14 @@
 ---
 title: IVideoCollection
-second_title: Aspose.Sildes .NET API referenciája
-description: A Video objektumok gyűjteményét képviseli.
+second_title: Aspose.Sildes .NET API Referencia
+description: Video objektumok gyűjteményét képviseli.
 type: docs
-weight: 7370
+weight: 7390
 url: /hu/aspose.slides/ivideocollection/
 ---
 ## IVideoCollection interface
 
-A Video objektumok gyűjteményét képviseli.
+Egy Video objektumok gyűjteményét képviseli.
 
 ```csharp
 public interface IVideoCollection : IGenericCollection<IVideo>
@@ -16,17 +16,17 @@ public interface IVideoCollection : IGenericCollection<IVideo>
 
 ## Tulajdonságok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
-| [Item](../../aspose.slides/ivideocollection/item) { get; } | Lekérdezi az adott indexű elemet. Csak olvasható [`IVideo`](../ivideo). |
+| [Item](../../aspose.slides/ivideocollection/item) { get; } | Visszaadja a megadott indexű elemet. Csak olvasható [`IVideo`](../ivideo). |
 
-## Módszerek
+## Metódusok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
-| [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo_1)(byte[]) | Videót hoz létre és ad hozzá egy bemutatóhoz bájttömbből. |
-| [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo)(IVideo) | Videofájl másolatát adja hozzá egy másik bemutatóból. |
-| [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo_2)(Stream, LoadingStreamBehavior) | Videót hoz létre és ad hozzá egy bemutatóhoz adatfolyamról. |
+| [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo_1)(byte[]) | Létrehoz és hozzáad egy videót egy prezentációhoz bájttömbből. |
+| [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo)(IVideo) | Hozzáad egy videófájl másolatát egy másik prezentációból. |
+| [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo_2)(Stream, LoadingStreamBehavior) | Létrehoz és hozzáad egy videót egy prezentációhoz adatfolyamból. |
 
 ### Lásd még
 

@@ -1,14 +1,14 @@
 ---
 title: MathLimitFactory
-second_title: Referensi API Aspose.Sildes untuk .NET
-description: Memungkinkan membuat IMathLimit
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Mengizinkan membuat IMathLimit
 type: docs
-weight: 8830
+weight: 8850
 url: /id/aspose.slides.mathtext/mathlimitfactory/
 ---
-## kelas MathLimitFactory
+## MathLimitFactory kelas
 
-Memungkinkan membuat IMathLimit
+Mengizinkan membuat IMathLimit
 
 ```csharp
 public class MathLimitFactory : IMathLimitFactory

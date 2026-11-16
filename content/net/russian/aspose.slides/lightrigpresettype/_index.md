@@ -1,14 +1,14 @@
 ---
 title: LightRigPresetType
-second_title: Aspose.Sildes для .NET справка по API
-description: Константы, определяющие типы предустановок освещения.
+second_title: Aspose.Sildes для .NET справки API
+description: Константы, определяющие типы предустановок света.
 type: docs
-weight: 7700
+weight: 7720
 url: /ru/aspose.slides/lightrigpresettype/
 ---
 ## LightRigPresetType перечисление
 
-Константы, определяющие типы предустановок освещения.
+Константы, определяющие типы предустановок света.
 
 ```csharp
 public enum LightRigPresetType

@@ -1,12 +1,12 @@
 ---
 title: FormatFactory
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla .NET – odniesienie API
 description: Umożliwia tworzenie formatów za pośrednictwem interfejsu COM.
 type: docs
-weight: 4950
+weight: 4970
 url: /pl/aspose.slides/formatfactory/
 ---
-## klasa FormatFactory
+## FormatFactory klasa
 
 Umożliwia tworzenie formatów za pośrednictwem interfejsu COM.
 

@@ -1,14 +1,14 @@
 ---
 title: ILeftRightDirectionTransition
-second_title: Aspose.Sildes для .NET — справочник API
-description: Эффект перехода слайда слева направо.
+second_title: Aspose.Sildes для .NET API справка
+description: Эффект перехода слайда в левую-правую сторону.
 type: docs
-weight: 10120
+weight: 10140
 url: /ru/aspose.slides.slideshow/ileftrightdirectiontransition/
 ---
 ## ILeftRightDirectionTransition интерфейс
 
-Эффект перехода слайда слева направо.
+Эффект перехода слайда в левую-правую сторону.
 
 ```csharp
 public interface ILeftRightDirectionTransition : ITransitionValueBase

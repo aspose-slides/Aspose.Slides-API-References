@@ -1,14 +1,14 @@
 ---
 title: ICamera
 second_title: Aspose.Sildes for .NET API 참조
-description: Camera를 나타냅니다.
+description: 카메라를 나타냅니다.
 type: docs
-weight: 5410
+weight: 5430
 url: /ko/aspose.slides/icamera/
 ---
 ## ICamera 인터페이스
 
-Camera를 나타냅니다.
+카메라를 나타냅니다.
 
 ```csharp
 public interface ICamera
@@ -18,18 +18,18 @@ public interface ICamera
 
 | 이름 | 설명 |
 | --- | --- |
-| [CameraType](../../aspose.slides/icamera/cameratype) { get; set; } | Camera 유형 읽기/쓰기 [`CameraPresetType`](../camerapresettype). |
-| [FieldOfViewAngle](../../aspose.slides/icamera/fieldofviewangle) { get; set; } | Camera FOV (0-180 deg, 시야) 읽기/쓰기 Single. |
-| [Zoom](../../aspose.slides/icamera/zoom) { get; set; } | Camera 줌 (백분율로 양수 값) 읽기/쓰기 Single. |
+| [CameraType](../../aspose.slides/icamera/cameratype) { get; set; } | 카메라 유형 읽기/쓰기 [`CameraPresetType`](../camerapresettype). |
+| [FieldOfViewAngle](../../aspose.slides/icamera/fieldofviewangle) { get; set; } | Camera FOV (0-180 deg, field of View) 읽기/쓰기 Single. |
+| [Zoom](../../aspose.slides/icamera/zoom) { get; set; } | Camera zoom (positive value in percentage) 읽기/쓰기 Single. |
 
 ## 메서드
 
 | 이름 | 설명 |
 | --- | --- |
-| [GetRotation](../../aspose.slides/icamera/getrotation)() | 위도 좌표와 경도 좌표 및 축을 중심으로 하는 회전을 사용하여 회전이 정의됩니다. 반환 배열의 첫 번째 요소는 위도, 두 번째는 경도, 세 번째는 회전입니다. 정의된 회전이 없으면 null을 반환합니다. |
-| [SetRotation](../../aspose.slides/icamera/setrotation)(float, float, float) | 위도 좌표와 경도 좌표 및 축을 중심으로 하는 회전을 사용하여 회전이 정의됩니다. 좌표 값 중 하나가 float.NaN인 경우, 모든 회전이 정의되지 않습니다. |
+| [GetRotation](../../aspose.slides/icamera/getrotation)() | 위도 좌표, 경도 좌표 및 축을 중심으로 하는 회전을 사용하여 회전을 정의합니다. 반환 배열의 첫 번째 요소 - 위도, 두 번째 - 경도, 세 번째 - 회전. 회전이 정의되지 않은 경우 null을 반환합니다. |
+| [SetRotation](../../aspose.slides/icamera/setrotation)(float, float, float) | 위도 좌표, 경도 좌표 및 축을 중심으로 하는 회전을 사용하여 회전을 정의합니다. 좌표값 중 하나라도 float.NaN이면 모든 회전이 정의되지 않습니다. |
 
-### 참고
+### 관련 항목
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

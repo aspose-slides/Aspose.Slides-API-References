@@ -1,12 +1,12 @@
 ---
 title: LineFillFormat
-second_title: Aspose.Sildes для .NET API Справка
+second_title: Aspose.Sildes для .NET справочник API
 description: Представляет свойства для заполнения линий.
 type: docs
-weight: 7780
+weight: 7800
 url: /ru/aspose.slides/linefillformat/
 ---
-## Класс LineFillFormat
+## LineFillFormat класс
 
 Представляет свойства для заполнения линий.
 
@@ -19,9 +19,9 @@ public sealed class LineFillFormat : PVIObject, ILineFillFormat
 | Имя | Описание |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения [`IPresentationComponent`](../ipresentationcomponent). |
-| [FillType](../../aspose.slides/linefillformat/filltype) { get; set; } | Возвращает или задает тип заливки. Чтение/запись [`FillType`](../filltype). |
+| [FillType](../../aspose.slides/linefillformat/filltype) { get; set; } | Возвращает или задаёт тип заливки. Чтение/запись [`FillType`](../filltype). |
 | [GradientFormat](../../aspose.slides/linefillformat/gradientformat) { get; } | Возвращает формат градиентной заливки. Только для чтения [`IGradientFormat`](../igradientformat). |
-| [PatternFormat](../../aspose.slides/linefillformat/patternformat) { get; } | Возвращает формат узорной заливки. Только для чтения [`IPatternFormat`](../ipatternformat). |
+| [PatternFormat](../../aspose.slides/linefillformat/patternformat) { get; } | Возвращает формат шаблонной заливки. Только для чтения [`IPatternFormat`](../ipatternformat). |
 | [RotateWithShape](../../aspose.slides/linefillformat/rotatewithshape) { get; set; } | Определяет, должна ли заливка вращаться вместе с фигурой. Чтение/запись [`NullableBool`](../nullablebool). |
 | [SolidFillColor](../../aspose.slides/linefillformat/solidfillcolor) { get; } | Возвращает цвет сплошной заливки. Только для чтения [`IColorFormat`](../icolorformat). |
 
@@ -30,9 +30,9 @@ public sealed class LineFillFormat : PVIObject, ILineFillFormat
 | Имя | Описание |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Сравнивает с указанным объектом. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Возвращает хеш-код. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Возвращает хэш-код. |
 
-### Смотрите также
+### См. также
 
 * класс [PVIObject](../pviobject)
 * интерфейс [ILineFillFormat](../ilinefillformat)

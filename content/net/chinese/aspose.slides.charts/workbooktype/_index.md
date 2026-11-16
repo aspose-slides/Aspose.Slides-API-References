@@ -3,7 +3,7 @@ title: WorkbookType
 second_title: Aspose.Sildes for .NET API 参考
 description: 指定 Open XML 工作簿文件的类型。
 type: docs
-weight: 2510
+weight: 2530
 url: /zh/aspose.slides.charts/workbooktype/
 ---
 ## WorkbookType 枚举
@@ -25,7 +25,7 @@ public enum WorkbookType
 | TemplateMacro | `3` | Excel 启用宏的模板 (*.xltm)。 |
 | WorkbookBinaryMacro | `4` | Excel 二进制启用宏的工作簿 (*.xlsb)。 |
 
-### 另请参阅
+### 另见
 
 * 命名空间 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 程序集 [Aspose.Slides](../../)

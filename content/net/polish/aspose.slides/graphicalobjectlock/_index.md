@@ -1,12 +1,12 @@
 ---
 title: GraphicalObjectLock
-second_title: Aspose.Sildes dla .NET - dokumentacja API
+second_title: Aspose.Sildes dla .NET – Referencja API
 description: Określa, które operacje są wyłączone w nadrzędnym obiekcie GraphicalObject.
 type: docs
-weight: 5080
+weight: 5100
 url: /pl/aspose.slides/graphicalobjectlock/
 ---
-## Klasa GraphicalObjectLock
+## GraphicalObjectLock klasa
 
 Określa, które operacje są wyłączone w nadrzędnym obiekcie GraphicalObject.
 
@@ -19,11 +19,11 @@ public class GraphicalObjectLock : BaseShapeLock, IGraphicalObjectLock
 | Nazwa | Opis |
 | --- | --- |
 | [AspectRatioLocked](../../aspose.slides/graphicalobjectlock/aspectratiolocked) { get; set; } | Określa, czy kształt ma zachować proporcje przy zmianie rozmiaru. Odczyt/zapis Boolean. |
-| [DrilldownLocked](../../aspose.slides/graphicalobjectlock/drilldownlocked) { get; set; } | Określa, czy wybieranie podkształtów tego obiektu jest zabronione. Odczyt/zapis Boolean. |
-| [GroupingLocked](../../aspose.slides/graphicalobjectlock/groupinglocked) { get; set; } | Określa, czy dodawanie tego kształtu do grupy jest zabronione. Odczyt/zapis Boolean. |
+| [DrilldownLocked](../../aspose.slides/graphicalobjectlock/drilldownlocked) { get; set; } | Określa, czy wybór podkształtów tego obiektu jest zabroniony. Odczyt/zapis Boolean. |
+| [GroupingLocked](../../aspose.slides/graphicalobjectlock/groupinglocked) { get; set; } | Określa, czy dodanie tego kształtu do grupy jest zabronione. Odczyt/zapis Boolean. |
 | [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Zwraca true, jeśli wszystkie flagi blokady są wyłączone. Tylko do odczytu Boolean. |
 | [PositionLocked](../../aspose.slides/graphicalobjectlock/positionlocked) { get; set; } | Określa, czy przemieszczanie tego kształtu jest zabronione. Odczyt/zapis Boolean. |
-| [SelectLocked](../../aspose.slides/graphicalobjectlock/selectlocked) { get; set; } | Określa, czy wybieranie tego kształtu jest zabronione. Odczyt/zapis Boolean. |
+| [SelectLocked](../../aspose.slides/graphicalobjectlock/selectlocked) { get; set; } | Określa, czy wybór tego kształtu jest zabroniony. Odczyt/zapis Boolean. |
 | [SizeLocked](../../aspose.slides/graphicalobjectlock/sizelocked) { get; set; } | Określa, czy zmiana rozmiaru tego kształtu jest zabroniona. Odczyt/zapis Boolean. |
 
 ### Zobacz także

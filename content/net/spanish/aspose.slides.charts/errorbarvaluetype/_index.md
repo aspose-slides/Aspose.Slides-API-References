@@ -1,12 +1,12 @@
 ---
 title: ErrorBarValueType
-second_title: Referencia de la API de Aspose.Sildes para .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa el tipo de valor de barra de error
 type: docs
-weight: 1650
+weight: 1660
 url: /es/aspose.slides.charts/errorbarvaluetype/
 ---
-## ErrorBarValueType enumeración
+## Enumeración ErrorBarValueType
 
 Representa el tipo de valor de barra de error
 
@@ -18,11 +18,11 @@ public enum ErrorBarValueType
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| Custom | `0` | Especifica que la longitud de las barras de error será determinada por los elementos Plus y Minus. |
-| Fixed | `1` | Especifica que la longitud de las barras de error será el valor fijo determinado por Error Bar Value. |
-| Percentage | `2` | Especifica que la longitud de las barras de error será el porcentaje de Error Bar Value de los datos. |
-| StandardDeviation | `3` | Especifica que la longitud de las barras de error será el número de desviaciones estándar de Error Bar Value de los datos. |
-| StandardError | `4` | Especifica que la longitud de las barras de error será el número de errores estándar de Error Bar Value de los datos. |
+| Custom | `0` | Especifica que la longitud de las barras de error debe determinarse mediante los elementos Plus y Minus. |
+| Fixed | `1` | Especifica que la longitud de las barras de error debe ser el valor fijo determinado por Error Bar Value. |
+| Percentage | `2` | Especifica que la longitud de las barras de error debe ser el porcentaje Error Bar Value de los datos. |
+| StandardDeviation | `3` | Especifica que la longitud de las barras de error debe ser Error Bar Value desviaciones estándar de los datos. |
+| StandardError | `4` | Especifica que la longitud de las barras de error debe ser Error Bar Value errores estándar de los datos. |
 
 ### Ver también
 

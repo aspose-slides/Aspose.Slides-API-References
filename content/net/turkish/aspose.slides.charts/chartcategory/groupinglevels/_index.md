@@ -1,20 +1,20 @@
 ---
 title: GroupingLevels
 second_title: Aspose.Sildes için .NET API Referansı
-description: Grafiğin kategori gruplama seviyelerinin değerlerinin yönetilen konteyneri. Çok seviyeli kategori birden fazla gruplama seviyesi içerir. Gruplama seviyelerinin indekslemesi sıfır tabanlıdır. Salt okunur IChartCategoryLevelsManageraspose.slides.charts/ichartcategorylevelsmanager.
+description: Grafik kategori gruplama seviyelerinin değerlerinin yönetilen kapsayıcısı. Çok seviyeli kategori birden fazla gruplama seviyesi içerir. Gruplama seviyelerinin indekslemesi sıfır tabanlıdır. Yalnızca okuma IChartCategoryLevelsManageraspose.slides.charts/ichartcategorylevelsmanager.
 type: docs
-weight: 30
+weight: 40
 url: /tr/aspose.slides.charts/chartcategory/groupinglevels/
 ---
 ## ChartCategory.GroupingLevels özelliği
 
-Grafik kategorisi gruplama seviyelerinin değerlerinin yönetilen konteyneri. Çok seviyeli kategori birden fazla gruplama seviyesi içerir. Gruplama seviyelerinin indekslemesi sıfır tabanlıdır. Salt okunur [`IChartCategoryLevelsManager`](../../ichartcategorylevelsmanager).
+Grafik kategori gruplama seviyelerinin değerlerinin yönetilen kapsayıcısı. Çok seviyeli kategori birden fazla gruplama seviyesi içerir. Gruplama seviyelerinin indekslemesi sıfır tabanlıdır. Yalnızca okuma [`IChartCategoryLevelsManager`](../../ichartcategorylevelsmanager).
 
 ```csharp
 public IChartCategoryLevelsManager GroupingLevels { get; }
 ```
 
-### İlgili
+### Ayrıca Bakınız
 
 * arayüz [IChartCategoryLevelsManager](../../ichartcategorylevelsmanager)
 * sınıf [ChartCategory](../../chartcategory)

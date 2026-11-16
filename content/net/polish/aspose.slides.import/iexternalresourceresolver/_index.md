@@ -1,14 +1,14 @@
 ---
 title: IExternalResourceResolver
-second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Interfejs wywoławczy używany do rozwiązywania zasobów zewnętrznych podczas importu dokumentów Html i Svg.
+second_title: Aspose.Sildes dla .NET Referencja API
+description: Interfejs wywołania zwrotnego używany do rozwiązywania zasobów zewnętrznych podczas importu dokumentów Html i Svg.
 type: docs
-weight: 7490
+weight: 7510
 url: /pl/aspose.slides.import/iexternalresourceresolver/
 ---
 ## IExternalResourceResolver interfejs
 
-Interfejs wywoławczy używany do rozwiązywania zasobów zewnętrznych podczas importu dokumentów Html, Svg.
+Interfejs wywołania zwrotnego używany do rozwiązywania zasobów zewnętrznych podczas importu dokumentów Html, Svg.
 
 ```csharp
 public interface IExternalResourceResolver
@@ -18,8 +18,8 @@ public interface IExternalResourceResolver
 
 | Nazwa | Opis |
 | --- | --- |
-| [GetEntity](../../aspose.slides.import/iexternalresourceresolver/getentity)(string) | Mapuje URI na obiekt zawierający rzeczywisty zasób. |
-| [ResolveUri](../../aspose.slides.import/iexternalresourceresolver/resolveuri)(string, string) | Rozwiązuje bezwzględny URI z bazowego i względnego URI. |
+| [GetEntity](../../aspose.slides.import/iexternalresourceresolver/getentity)(string) | Mapuje identyfikator URI na obiekt zawierający rzeczywisty zasób. |
+| [ResolveUri](../../aspose.slides.import/iexternalresourceresolver/resolveuri)(string, string) | Rozwiązuje bezwzględny URI z bazowego i względnego identyfikatorów URI. |
 
 ### Zobacz także
 

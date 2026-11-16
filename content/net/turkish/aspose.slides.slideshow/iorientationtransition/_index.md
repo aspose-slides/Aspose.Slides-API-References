@@ -1,14 +1,14 @@
 ---
 title: IOrientationTransition
-second_title: Aspose.Sildes .NET API Referansı
-description: Yönelim slayt geçiş efekti.
+second_title: Aspose.Sildes .NET için API Referansı
+description: Yönlendirme slayt geçiş etkisi.
 type: docs
-weight: 10150
+weight: 10170
 url: /tr/aspose.slides.slideshow/iorientationtransition/
 ---
 ## IOrientationTransition arayüzü
 
-Slayt yönlendirme geçiş efekti.
+Yönlendirme slayt geçiş etkisi.
 
 ```csharp
 public interface IOrientationTransition : ITransitionValueBase
@@ -16,12 +16,12 @@ public interface IOrientationTransition : ITransitionValueBase
 
 ## Özellikler
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
 | [AsITransitionValueBase](../../aspose.slides.slideshow/iorientationtransition/asitransitionvaluebase) { get; } | Temel ITransitionValueBase arayüzünü almayı sağlar. Yalnızca okunabilir [`ITransitionValueBase`](../itransitionvaluebase). |
 | [Direction](../../aspose.slides.slideshow/iorientationtransition/direction) { get; set; } | Geçiş yönü. Okunabilir/yazılabilir [`Orientation`](../../aspose.slides/orientation). |
 
-### İlgili
+### Ayrıca Bakınız
 
 * arayüz [ITransitionValueBase](../itransitionvaluebase)
 * ad alanı [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

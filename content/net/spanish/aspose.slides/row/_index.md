@@ -3,12 +3,12 @@ title: Row
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa una fila en una tabla.
 type: docs
-weight: 9710
+weight: 9730
 url: /es/aspose.slides/row/
 ---
-## Clase Row
+## Row clase
 
-Representa una fila en una tabla.
+Represents a row in a table.
 
 ```csharp
 public sealed class Row : CellCollection, IRow
@@ -20,11 +20,11 @@ public sealed class Row : CellCollection, IRow
 | --- | --- |
 | [Count](../../aspose.slides/cellcollection/count) { get; } | Devuelve el número de celdas en una colección. Solo lectura Int32. |
 | [Height](../../aspose.slides/row/height) { get; } | Devuelve la altura de una fila. Solo lectura Double. |
-| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | Devuelve un valor que indica si el acceso a la colección está sincronizado (seguro para subprocesos). Solo lectura Boolean. |
+| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | Devuelve un valor que indica si el acceso a la colección está sincronizado (thread-safe). Solo lectura Boolean. |
 | [Item](../../aspose.slides/cellcollection/item) { get; } | Devuelve una celda por su posición. Solo lectura [`Cell`](../cell). |
 | [MinimalHeight](../../aspose.slides/row/minimalheight) { get; set; } | Devuelve o establece la altura mínima posible de una fila. Lectura/escritura Double. |
 | [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | Devuelve la presentación principal de una CellCollection. Solo lectura [`IPresentation`](../ipresentation). |
-| [RowFormat](../../aspose.slides/row/rowformat) { get; } | Devuelve el objeto RowFormat que contiene las propiedades de formato para esta fila. Solo lectura [`IRowFormat`](../irowformat). |
+| [RowFormat](../../aspose.slides/row/rowformat) { get; } | Devuelve el objeto RowFormat que contiene propiedades de formato para esta fila. Solo lectura [`IRowFormat`](../irowformat). |
 | [Slide](../../aspose.slides/cellcollection/slide) { get; } | Devuelve la diapositiva principal de una CellCollection. Solo lectura [`IBaseSlide`](../ibaseslide). |
 | [SyncRoot](../../aspose.slides/cellcollection/syncroot) { get; } | Devuelve una raíz de sincronización. Solo lectura Object. |
 

@@ -1,14 +1,14 @@
 ---
 title: InvalidPasswordException
-second_title: Aspose.Sildes для .NET справки API
-description: Исключение, которое генерируется, когда формат файла презентации не поддерживается.
+second_title: Aspose.Sildes для .NET справочник API
+description: Исключение, которое выбрасывается, когда формат файла презентации не поддерживается.
 type: docs
-weight: 7620
+weight: 7640
 url: /ru/aspose.slides/invalidpasswordexception/
 ---
 ## InvalidPasswordException класс
 
-Exception, который выбрасывается, когда формат файла презентации не поддерживается.
+Исключение, которое выбрасывается, когда формат файла презентации не поддерживается.
 
 ```csharp
 public class InvalidPasswordException : Exception

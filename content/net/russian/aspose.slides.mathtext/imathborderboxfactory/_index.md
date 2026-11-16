@@ -1,14 +1,14 @@
 ---
 title: IMathBorderBoxFactory
-second_title: Aspose.Sildes для .NET справочник API
-description: Позволяет создать математическую рамку
+second_title: Aspose.Sildes для .NET API Reference
+description: Позволяет создавать математическую рамку
 type: docs
-weight: 8180
+weight: 8200
 url: /ru/aspose.slides.mathtext/imathborderboxfactory/
 ---
 ## IMathBorderBoxFactory интерфейс
 
-Позволяет создать математическую рамку
+Позволяет создавать математическую рамку
 
 ```csharp
 public interface IMathBorderBoxFactory
@@ -18,14 +18,14 @@ public interface IMathBorderBoxFactory
 
 | Имя | Описание |
 | --- | --- |
-| [CreateMathBorderBox](../../aspose.slides.mathtext/imathborderboxfactory/createmathborderbox#createmathborderbox)(IMathElement) | Создает математическую рамку, применяя к элементу |
-| [CreateMathBorderBox](../../aspose.slides.mathtext/imathborderboxfactory/createmathborderbox#createmathborderbox_1)(IMathElement, bool, bool, bool, bool, bool, bool, bool, bool) | Создает математическую рамку, применяя к элементу |
+| [CreateMathBorderBox](../../aspose.slides.mathtext/imathborderboxfactory/createmathborderbox#createmathborderbox)(IMathElement) | Создать рамку для математического элемента, применяя её к элементу |
+| [CreateMathBorderBox](../../aspose.slides.mathtext/imathborderboxfactory/createmathborderbox#createmathborderbox_1)(IMathElement, bool, bool, bool, bool, bool, bool, bool, bool) | Создать рамку для математического элемента, применяя её к элементу |
 
-### Примечания
+### Замечания
 
-For COM comparibility
+Для совместимости с COM
 
-### См. также
+### Смотрите также
 
 * пространство имён [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * сборка [Aspose.Slides](../../)

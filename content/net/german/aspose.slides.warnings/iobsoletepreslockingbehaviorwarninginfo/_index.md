@@ -1,9 +1,9 @@
 ---
 title: IObsoletePresLockingBehaviorWarningInfo
-second_title: Aspose.Sildes für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Diese Warnung weist darauf hin, dass ein veraltetes Präsentationssperrverhalten verwendet wird.
 type: docs
-weight: 11780
+weight: 11800
 url: /de/aspose.slides.warnings/iobsoletepreslockingbehaviorwarninginfo/
 ---
 ## IObsoletePresLockingBehaviorWarningInfo Schnittstelle
@@ -18,7 +18,7 @@ public interface IObsoletePresLockingBehaviorWarningInfo : IWarningInfo
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIWarningInfo](../../aspose.slides.warnings/iobsoletepreslockingbehaviorwarninginfo/asiwarninginfo) { get; } | Gibt die IWarningInfo-Schnittstelle zurück. Nur lesbar [`IWarningInfo`](../iwarninginfo). |
+| [AsIWarningInfo](../../aspose.slides.warnings/iobsoletepreslockingbehaviorwarninginfo/asiwarninginfo) { get; } | Gibt IWarningInfo Schnittstelle zurück. Nur-Lese [`IWarningInfo`](../iwarninginfo). |
 
 ### Siehe auch
 

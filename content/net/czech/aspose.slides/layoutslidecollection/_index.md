@@ -1,14 +1,14 @@
 ---
 title: LayoutSlideCollection
-second_title: Aspose.Sildes pro .NET API Reference
-description: Představuje základní třídu pro kolekci rozložení snímků.
+second_title: Aspose.Sildes pro .NET API – referenční příručka
+description: Představuje základní třídu pro kolekci rozvržení snímků.
 type: docs
-weight: 7650
+weight: 7670
 url: /cs/aspose.slides/layoutslidecollection/
 ---
 ## LayoutSlideCollection třída
 
-Reprezentuje základní třídu pro kolekci rozložení snímků.
+Představuje základní třídu pro kolekci rozvržení snímků.
 
 ```csharp
 public class LayoutSlideCollection : ILayoutSlideCollection
@@ -18,9 +18,9 @@ public class LayoutSlideCollection : ILayoutSlideCollection
 
 | Název | Popis |
 | --- | --- |
-| [Count](../../aspose.slides/layoutslidecollection/count) { get; } | Vrací počet rozložení snímků v kolekci. Pouze pro čtení Int32. |
-| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | Vrací hodnotu, která určuje, zda je přístup ke kolekci synchronizován (vláknově bezpečný). Pouze pro čtení Boolean. |
-| [Item](../../aspose.slides/layoutslidecollection/item) { get; } | Vrací rozložení snímku podle indexu. Pouze pro čtení [`LayoutSlide`](../layoutslide). |
+| [Count](../../aspose.slides/layoutslidecollection/count) { get; } | Vrací počet rozvržení snímků v kolekci. Pouze pro čtení Int32. |
+| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | Vrací hodnotu určující, zda je přístup ke kolekci synchronizován (vláknově bezpečný). Pouze pro čtení Boolean. |
+| [Item](../../aspose.slides/layoutslidecollection/item) { get; } | Vrací rozvržení snímku podle indexu. Pouze pro čtení [`LayoutSlide`](../layoutslide). |
 | [SyncRoot](../../aspose.slides/layoutslidecollection/syncroot) { get; } | Vrací kořen synchronizace. Pouze pro čtení Object. |
 
 ## Metody
@@ -28,10 +28,10 @@ public class LayoutSlideCollection : ILayoutSlideCollection
 | Název | Popis |
 | --- | --- |
 | [CopyTo](../../aspose.slides/layoutslidecollection/copyto)(Array, int) | Kopíruje všechny prvky z kolekce do zadaného pole. |
-| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | Vrací první rozložení snímku zadaného typu. Typ rozložení snímku, který se má najít.[`LayoutSlide`](../layoutslide) s uvedeným typem nebo null, pokud nebylo nalezeno žádné rozložení. |
+| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | Vrací první rozvržení snímku daného typu. Typ rozvržení snímku k vyhledání.[`LayoutSlide`](../layoutslide) s určeným typem nebo null, pokud nebyly nalezeny žádné rozvržení. |
 | [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | Vrací enumerátor, který prochází kolekcí. |
-| [Remove](../../aspose.slides/layoutslidecollection/remove)(ILayoutSlide) | Odstraňuje rozložení z kolekce. |
-| [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | Odstraňuje nepoužívaná rozložení snímků (rozložení snímků, jejichž HasDependingSlides je false). |
+| [Remove](../../aspose.slides/layoutslidecollection/remove)(ILayoutSlide) | Odstraňuje rozvržení z kolekce. |
+| [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | Odstraňuje nepoužité rozvržení snímků (rozvržení snímků, jejichž HasDependingSlides je false). |
 
 ### Viz také
 

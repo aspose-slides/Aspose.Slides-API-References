@@ -3,7 +3,7 @@ title: GetFonts
 second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Zwraca czcionki użyte w prezentacji
 type: docs
-weight: 70
+weight: 80
 url: /pl/aspose.slides/ifontsmanager/getfonts/
 ---
 ## IFontsManager.GetFonts metoda

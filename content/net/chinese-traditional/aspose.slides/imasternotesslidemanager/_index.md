@@ -1,14 +1,14 @@
 ---
 title: IMasterNotesSlideManager
-second_title: Aspose.Sildes for .NET API 參考
-description: 主備註投影片管理員。
+second_title: Aspose.Sildes for .NET API 參考文件
+description: 母片筆記投影片管理器。
 type: docs
-weight: 6410
+weight: 6430
 url: /zh-hant/aspose.slides/imasternotesslidemanager/
 ---
 ## IMasterNotesSlideManager 介面
 
-主備註投影片管理員。
+母片筆記投影片管理器。
 
 ```csharp
 public interface IMasterNotesSlideManager
@@ -16,18 +16,18 @@ public interface IMasterNotesSlideManager
 
 ## 屬性
 
-| 名稱 | 說明 |
+| Name | Description |
 | --- | --- |
-| [MasterNotesSlide](../../aspose.slides/imasternotesslidemanager/masternotesslide) { get; } | 如果此簡報有主備註投影片，則傳回該簡報所有備註投影片的主版，否則傳回 null。唯讀 [`IMasterNotesSlide`](../imasternotesslide)。 |
+| [MasterNotesSlide](../../aspose.slides/imasternotesslidemanager/masternotesslide) { get; } | 如果此簡報有母片，則返回此簡報所有筆記投影片的母片，否則返回 null。唯讀 [`IMasterNotesSlide`](../imasternotesslide)。 |
 
 ## 方法
 
-| 名稱 | 說明 |
+| Name | Description |
 | --- | --- |
-| [RemoveMasterNotesSlide](../../aspose.slides/imasternotesslidemanager/removemasternotesslide)() | 移除主備註投影片。 |
-| [SetDefaultMasterNotesSlide](../../aspose.slides/imasternotesslidemanager/setdefaultmasternotesslide)() | 設定相關備註投影片的預設主備註投影片。 |
+| [RemoveMasterNotesSlide](../../aspose.slides/imasternotesslidemanager/removemasternotesslide)() | 移除母片筆記投影片。 |
+| [SetDefaultMasterNotesSlide](../../aspose.slides/imasternotesslidemanager/setdefaultmasternotesslide)() | 設定相關筆記投影片的預設母片筆記投影片。 |
 
-### 參見
+### 另請參閱
 
 * 命名空間 [Aspose.Slides](../../aspose.slides)
 * 組件 [Aspose.Slides](../../)

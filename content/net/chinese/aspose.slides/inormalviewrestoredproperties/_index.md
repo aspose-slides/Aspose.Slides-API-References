@@ -1,14 +1,14 @@
 ---
 title: INormalViewRestoredProperties
 second_title: Aspose.Sildes .NET API 参考
-description: 指定普通视图中幻灯片区域的大小：当为 restoredTop 的子项时为宽度， 当为 restoredLeft 的子项时为高度；当区域具有可变的恢复大小（既未最小化也未最大化）时。
+description: 指定普通视图中幻灯片区域的大小：当为 restoredTop 的子项时为宽度，当为 restoredLeft 的子项时为高度，且该区域具有可变的恢复大小（既非最小化也非最大化）。
 type: docs
-weight: 6480
+weight: 6500
 url: /zh/aspose.slides/inormalviewrestoredproperties/
 ---
 ## INormalViewRestoredProperties 接口
 
-指定普通视图中幻灯片区域的大小（当为 restoredTop 的子项时为宽度，当为 restoredLeft 的子项时为高度），当该区域具有可变的恢复大小（既未最小化也未最大化）时。
+指定普通视图中幻灯片区域的大小（当为 restoredTop 的子项时为宽度，当为 restoredLeft 的子项时为高度），当区域具有可变的恢复大小（既非最小化也非最大化）时。
 
 ```csharp
 public interface INormalViewRestoredProperties
@@ -19,7 +19,7 @@ public interface INormalViewRestoredProperties
 | 名称 | 描述 |
 | --- | --- |
 | [AutoAdjust](../../aspose.slides/inormalviewrestoredproperties/autoadjust) { get; set; } | 指定在调整包含视图的窗口大小时，侧内容区域的大小是否应补偿新的大小。读/写 Boolean。 |
-| [DimensionSize](../../aspose.slides/inormalviewrestoredproperties/dimensionsize) { get; set; } | 指定幻灯片区域的大小（当为 RestoredTop 的子项时为宽度，当为 RestoredLeft 的子项时为高度）。读/写 Single。 当值小于 0 或 大于 100 时抛出。 |
+| [DimensionSize](../../aspose.slides/inormalviewrestoredproperties/dimensionsize) { get; set; } | 指定幻灯片区域的大小（当为 RestoredTop 的子项时为宽度，当为 RestoredLeft 的子项时为高度）。读/写 Single。 当值小于 0 或大于 100 时抛出异常。 |
 
 ### 另请参见
 

@@ -1,9 +1,9 @@
 ---
 title: MathSuperscriptElementFactory
-second_title: Aspose.Sildes pro .NET API Reference
+second_title: Aspose.Sildes pro .NET API - reference
 description: Umožňuje vytvořit IMathSuperscriptElement
 type: docs
-weight: 9030
+weight: 9050
 url: /cs/aspose.slides.mathtext/mathsuperscriptelementfactory/
 ---
 ## MathSuperscriptElementFactory třída

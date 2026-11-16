@@ -1,9 +1,9 @@
 ---
 title: HyperlinkActionType
-second_title: Aspose.Sildes for .NET Référence de l'API
+second_title: Référence API Aspose.Sildes pour .NET
 description: Représente un type d'action de lien hypertexte.
 type: docs
-weight: 5130
+weight: 5150
 url: /fr/aspose.slides/hyperlinkactiontype/
 ---
 ## HyperlinkActionType énumération
@@ -31,7 +31,7 @@ public enum HyperlinkActionType
 | StartCustomSlideShow | `9` | Démarrer le diaporama personnalisé. |
 | OpenFile | `10` | Ouvrir le fichier référencé. |
 | OpenPresentation | `11` | Ouvrir la présentation référencée. |
-| StartStopMedia | `12` | Démarrer/arrêter la lecture du fichier média. |
+| StartStopMedia | `12` | Démarrer/arrêter la lecture du fichier multimédia. |
 | StartMacro | `13` | Démarrer l'exécution du script macro. |
 | StartProgram | `14` | Démarrer le programme. |
 

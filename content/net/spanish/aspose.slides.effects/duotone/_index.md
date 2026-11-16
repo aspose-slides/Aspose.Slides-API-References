@@ -3,10 +3,10 @@ title: Duotone
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa un efecto Duotone. Para cada píxel combina Color1 y Color2 mediante una interpolación lineal para determinar el nuevo color de ese píxel.
 type: docs
-weight: 2960
+weight: 2980
 url: /es/aspose.slides.effects/duotone/
 ---
-## Duotone clase
+## Clase Duotone
 
 Representa un efecto Duotone. Para cada píxel, combina Color1 y Color2 mediante una interpolación lineal para determinar el nuevo color de ese píxel.
 
@@ -18,9 +18,9 @@ public sealed class Duotone : ImageTransformOperation, IDuotone
 
 | Nombre | Descripción |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permite obtener la interfaz base IPresentationComponent. Solo lectura [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
-| [Color1](../../aspose.slides.effects/duotone/color1) { get; } | Devuelve el formato de color objetivo para píxeles oscuros. Solo lectura [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Color2](../../aspose.slides.effects/duotone/color2) { get; } | Devuelve el formato de color objetivo para píxeles claros. Solo lectura [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permite obtener la interfaz base IPresentationComponent. Solo de lectura [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [Color1](../../aspose.slides.effects/duotone/color1) { get; } | Devuelve el formato de color objetivo para píxeles oscuros. Solo de lectura [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Color2](../../aspose.slides.effects/duotone/color2) { get; } | Devuelve el formato de color objetivo para píxeles claros. Solo de lectura [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ## Métodos
 
@@ -28,7 +28,7 @@ public sealed class Duotone : ImageTransformOperation, IDuotone
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/duotone/equals)(object) | Determina si el [`Duotone`](../duotone) especificado es igual al [`Duotone`](../duotone) actual. |
 | [GetEffective](../../aspose.slides.effects/duotone/geteffective)() | Obtiene los datos efectivos del efecto Duotone con la herencia aplicada. |
-| override [GetHashCode](../../aspose.slides.effects/duotone/gethashcode)() | Sirve como función hash para un tipo particular. |
+| override [GetHashCode](../../aspose.slides.effects/duotone/gethashcode)() | Funciona como una función hash para un tipo particular. |
 
 ### Ver también
 

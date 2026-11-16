@@ -1,26 +1,26 @@
 ---
 title: ParentLabelLayoutType
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงการจัดวางของป้ายข้อมูลประเภท. ใช้กับซีรีส์ Treemap เท่านั้น.
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: แสดงการจัดวางของป้ายข้อมูลประเภท ใช้กับ Treemap series เท่านั้น.
 type: docs
-weight: 2350
+weight: 2370
 url: /th/aspose.slides.charts/parentlabellayouttype/
 ---
-## ParentLabelLayoutType การ列舉
+## ParentLabelLayoutType ประเภท enumeration
 
-แสดงการจัดวางของป้ายข้อมูลประเภท ใช้กับชุด Treemap เท่านั้น.
+แสดงการจัดวางของป้ายข้อมูลประเภท ใช้กับ series Treemap เท่านั้น.
 
 ```csharp
 public enum ParentLabelLayoutType
 ```
 
-### ค่า
+### ค่าต่าง
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
-| Banner | `0` | ระบุว่าป้ายหมวดหมู่พาเรนท์จะแสดงเป็นแบนเนอร์ |
-| None | `1` | ระบุว่าป้ายหมวดหมู่พาเรนท์จะไม่ถูกวาด |
-| Overlapping | `2` | ระบุว่าป้ายหมวดหมู่พาเรนท์จะแสดงเป็นการซ้อนทับ |
+| Banner | `0` | ระบุว่าป้ายหมวดหมู่ระดับพาเรนต์จะแสดงเป็นแบนเนอร์ |
+| None | `1` | ระบุว่าป้ายหมวดหมู่ระดับพาเรนต์จะไม่ถูกวาด |
+| Overlapping | `2` | ระบุว่าป้ายหมวดหมู่ระดับพาเรนต์จะแสดงแบบทับซ้อน |
 
 ### ดูเพิ่มเติม
 

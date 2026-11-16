@@ -3,7 +3,7 @@ title: PatternFormat
 second_title: Aspose.Sildes .NET API 参考
 description: 表示用于填充形状的图案。
 type: docs
-weight: 9350
+weight: 9370
 url: /zh/aspose.slides/patternformat/
 ---
 ## PatternFormat 类
@@ -27,12 +27,12 @@ public sealed class PatternFormat : PVIObject, IPatternFormat
 
 | 名称 | 描述 |
 | --- | --- |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | 与指定的对象进行比较。 |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | 与指定对象比较。 |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | 返回哈希码。 |
 | [GetTile](../../aspose.slides/patternformat/gettile#gettile)(Color) | 创建用于图案填充的平铺图像。 |
-| [GetTile](../../aspose.slides/patternformat/gettile#gettile_1)(Color, Color) | 使用指定的颜色创建用于图案填充的平铺图像。 |
+| [GetTile](../../aspose.slides/patternformat/gettile#gettile_1)(Color, Color) | 使用指定颜色创建用于图案填充的平铺图像。 |
 
-### 另请参阅
+### 另请参见
 
 * 类 [PVIObject](../pviobject)
 * 接口 [IPatternFormat](../ipatternformat)

@@ -1,9 +1,9 @@
 ---
 title: IMathematicalTextFactory
-second_title: Aspose.Sildes for .NET API 參考
+second_title: Aspose.Sildes for .NET API 參考文件
 description: 允許建立 MathematicalText 元素
 type: docs
-weight: 8520
+weight: 8540
 url: /zh-hant/aspose.slides.mathtext/imathematicaltextfactory/
 ---
 ## IMathematicalTextFactory 介面
@@ -16,12 +16,12 @@ public interface IMathematicalTextFactory
 
 ## 方法
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
 | [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext)() | 建立空的 MathematicalText 元素 |
 | [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_1)(char) | 建立具有指定值的 MathematicalText 元素 |
-| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_2)(string) | 建立具有指定值的空的 MathematicalText 元素 |
-| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_3)(string, IPortionFormat) | 建立具有指定值和格式屬性的空的 MathematicalText 元素 |
+| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_2)(string) | 建立具有指定值的空 MathematicalText 元素 |
+| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_3)(string, IPortionFormat) | 建立具有指定值和格式屬性的空 MathematicalText 元素 |
 
 ### 備註
 

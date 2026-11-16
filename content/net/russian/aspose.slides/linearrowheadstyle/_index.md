@@ -1,12 +1,12 @@
 ---
 title: LineArrowheadStyle
-second_title: Aspose.Sildes для .NET справочник API
+second_title: Aspose.Sildes для .NET справочника API
 description: Представляет стиль наконечника стрелки.
 type: docs
-weight: 7740
+weight: 7760
 url: /ru/aspose.slides/linearrowheadstyle/
 ---
-## Перечисление LineArrowheadStyle
+## LineArrowheadStyle перечисление
 
 Представляет стиль наконечника стрелки.
 

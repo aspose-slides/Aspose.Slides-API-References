@@ -1,14 +1,14 @@
 ---
 title: MathBorderBoxFactory
-second_title: Aspose.Sildes の .NET API リファレンス
-description: 数式境界ボックスを作成できます
+second_title: Aspose.Sildes for .NET API リファレンス
+description: 数式境界ボックスの作成を可能にします
 type: docs
-weight: 8620
+weight: 8640
 url: /ja/aspose.slides.mathtext/mathborderboxfactory/
 ---
 ## MathBorderBoxFactory クラス
 
-数式境界ボックスを作成できます。
+数式境界ボックスの作成を可能にします
 
 ```csharp
 public class MathBorderBoxFactory : IMathBorderBoxFactory
@@ -18,7 +18,7 @@ public class MathBorderBoxFactory : IMathBorderBoxFactory
 
 | 名前 | 説明 |
 | --- | --- |
-| [MathBorderBoxFactory](mathborderboxfactory)() | 既定のコンストラクタです。 |
+| [MathBorderBoxFactory](mathborderboxfactory)() | デフォルトコンストラクタです。 |
 
 ## メソッド
 

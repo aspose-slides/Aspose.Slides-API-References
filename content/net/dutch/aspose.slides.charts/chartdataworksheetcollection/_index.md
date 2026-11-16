@@ -1,14 +1,14 @@
 ---
 title: ChartDataWorksheetCollection
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt de collectie werkbladen van het diagramgegevens-werkboek voor.
+description: Stelt de collectie van werkbladen van het chart-data-werkboek voor.
 type: docs
-weight: 1400
+weight: 1410
 url: /nl/aspose.slides.charts/chartdataworksheetcollection/
 ---
 ## ChartDataWorksheetCollection klasse
 
-Represents the collection of worksheets of chart data workbook.
+Stelt de collectie van werkbladen van het chart-data-werkboek voor.
 
 ```csharp
 public sealed class ChartDataWorksheetCollection : IChartDataWorksheetCollection
@@ -18,17 +18,17 @@ public sealed class ChartDataWorksheetCollection : IChartDataWorksheetCollection
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Count](../../aspose.slides.charts/chartdataworksheetcollection/count) { get; } | Retourneert het aantal. Alleen-lezen Int32. |
-| [IsSynchronized](../../aspose.slides.charts/chartdataworksheetcollection/issynchronized) { get; } | Retourneert een waarde die aangeeft of de toegang tot de collectie gesynchroniseerd is (thread-safe). Alleen-lezen Boolean. |
+| [Count](../../aspose.slides.charts/chartdataworksheetcollection/count) { get; } | Retourneert de telling. Alleen-lezen Int32. |
+| [IsSynchronized](../../aspose.slides.charts/chartdataworksheetcollection/issynchronized) { get; } | Retourneert een waarde die aangeeft of toegang tot de collectie gesynchroniseerd is (thread-safe). Alleen-lezen Boolean. |
 | [Item](../../aspose.slides.charts/chartdataworksheetcollection/item) { get; } | Retourneert het werkblad op index. |
-| [SyncRoot](../../aspose.slides.charts/chartdataworksheetcollection/syncroot) { get; } | Retourneert een synchronisatieroot. Alleen-lezen Object. |
+| [SyncRoot](../../aspose.slides.charts/chartdataworksheetcollection/syncroot) { get; } | Retourneert een synchronisatiewortel. Alleen-lezen Object. |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| [CopyTo](../../aspose.slides.charts/chartdataworksheetcollection/copyto)(Array, int) | Kopieer naar opgegeven array. |
-| [GetEnumerator](../../aspose.slides.charts/chartdataworksheetcollection/getenumerator)() | Retourneert een enumerator die door de collectie iterereert. |
+| [CopyTo](../../aspose.slides.charts/chartdataworksheetcollection/copyto)(Array, int) | Kopieert naar opgegeven array. |
+| [GetEnumerator](../../aspose.slides.charts/chartdataworksheetcollection/getenumerator)() | Retourneert een enumerator die door de collectie itereert. |
 
 ### Voorbeelden
 

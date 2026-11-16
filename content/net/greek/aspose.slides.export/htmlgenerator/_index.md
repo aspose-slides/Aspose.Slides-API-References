@@ -1,9 +1,9 @@
 ---
 title: HtmlGenerator
-second_title: Aspose.Sildes για .NET Αναφορά API
+second_title: Aspose.Sildes για .NET API Αναφορά
 description: Γεννήτρια HTML.
 type: docs
-weight: 3880
+weight: 3900
 url: /el/aspose.slides.export/htmlgenerator/
 ---
 ## HtmlGenerator κλάση
@@ -18,31 +18,31 @@ public sealed class HtmlGenerator : IHtmlGenerator
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [NextSlideIndex](../../aspose.slides.export/htmlgenerator/nextslideindex) { get; } | Επιστρέφει τον δείκτη μιας διαφάνειας που θα αποδοθεί μετά τη τρέχουσα διαφάνεια ή -1 εάν αποδίδεται η τελευταία διαφάνεια. Μόνο ανάγνωση Int32. |
-| [PreviousSlideIndex](../../aspose.slides.export/htmlgenerator/previousslideindex) { get; } | Επιστρέφει τον δείκτη της προηγουμένως αποδοθείσας διαφάνειας ή -1 εάν αποδίδεται η πρώτη διαφάνεια. Μόνο ανάγνωση Int32. |
-| [SlideImageSize](../../aspose.slides.export/htmlgenerator/slideimagesize) { get; } | Επιστρέφει το μέγεθος της εικόνας της διαφάνειας. Μόνο ανάγνωση SizeF. |
-| [SlideImageSizeUnit](../../aspose.slides.export/htmlgenerator/slideimagesizeunit) { get; } | Επιστρέφει τη μονάδα στην οποία καθορίζεται το μέγεθος της εικόνας της διαφάνειας. Μόνο ανάγνωση [`SvgCoordinateUnit`](../svgcoordinateunit). |
-| [SlideImageSizeUnitCode](../../aspose.slides.export/htmlgenerator/slideimagesizeunitcode) { get; } | Επιστρέφει έναν κώδικα css της μονάδας στην οποία καθορίζεται το μέγεθος της εικόνας της διαφάνειας. Μόνο ανάγνωση String. |
-| [SlideIndex](../../aspose.slides.export/htmlgenerator/slideindex) { get; } | Επιστρέφει τον δείκτη της τρέχουσας διαφάνειας που αποδίδεται. Μόνο ανάγνωση Int32. |
+| [NextSlideIndex](../../aspose.slides.export/htmlgenerator/nextslideindex) { get; } | Επιστρέφει τον δείκτη μιας διαφάνειας, η οποία θα αποδοθεί μετά τη τρέχουσα διαφάνεια ή -1 εάν αποδίδεται η τελευταία διαφάνεια. Μόνο για ανάγνωση Int32. |
+| [PreviousSlideIndex](../../aspose.slides.export/htmlgenerator/previousslideindex) { get; } | Επιστρέφει τον δείκτη της προηγούμενης αποδοθείσας διαφάνειας ή -1 εάν η πρώτη διαφάνεια αποδίδεται. Μόνο για ανάγνωση Int32. |
+| [SlideImageSize](../../aspose.slides.export/htmlgenerator/slideimagesize) { get; } | Επιστρέφει το μέγεθος της εικόνας της διαφάνειας. Μόνο για ανάγνωση SizeF. |
+| [SlideImageSizeUnit](../../aspose.slides.export/htmlgenerator/slideimagesizeunit) { get; } | Επιστρέφει τη μονάδα στην οποία καθορίζεται το μέγεθος της εικόνας της διαφάνειας. Μόνο για ανάγνωση [`SvgCoordinateUnit`](../svgcoordinateunit). |
+| [SlideImageSizeUnitCode](../../aspose.slides.export/htmlgenerator/slideimagesizeunitcode) { get; } | Επιστρέφει έναν κωδικό css της μονάδας στην οποία καθορίζεται το μέγεθος της εικόνας της διαφάνειας. Μόνο για ανάγνωση String. |
+| [SlideIndex](../../aspose.slides.export/htmlgenerator/slideindex) { get; } | Επιστρέφει τον δείκτη της τρέχουσας αποδοτικής διαφάνειας. Μόνο για ανάγνωση Int32. |
 
 ## Μέθοδοι
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue)(char[]) | Παραθέτει την τιμή του χαρακτηριστικού και την προσθέτει στο αρχείο html. |
-| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue_2)(string) | Παραθέτει την τιμή του χαρακτηριστικού και την προσθέτει στο αρχείο html. |
-| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue_1)(char[], int, int) | Παραθέτει την τιμή του χαρακτηριστικού και την προσθέτει στο αρχείο html. |
-| [AddHtml](../../aspose.slides.export/htmlgenerator/addhtml#addhtml)(char[]) | Προσθέτει μορφοποιημένο κείμενο HTML. |
-| [AddHtml](../../aspose.slides.export/htmlgenerator/addhtml#addhtml_2)(string) | Προσθέτει μορφοποιημένο κείμενο HTML. |
-| [AddHtml](../../aspose.slides.export/htmlgenerator/addhtml#addhtml_1)(char[], int, int) | Προσθέτει μορφοποιημένο κείμενο HTML. |
-| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext)(char[]) | Προσθέτει απλό κείμενο στα αρχεία html, αντικαθιστώντας ειδικούς χαρακτήρες με οντότητες html. Οι αλλαγές γραμμής και τα κενά δεν αντικαθίστανται. |
-| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext_2)(string) | Προσθέτει απλό κείμενο στα αρχεία html, αντικαθιστώντας ειδικούς χαρακτήρες με οντότητες html. Οι αλλαγές γραμμής και τα κενά δεν αντικαθίστανται. |
-| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext_1)(char[], int, int) | Προσθέτει απλό κείμενο στα αρχεία html, αντικαθιστώντας ειδικούς χαρακτήρες με οντότητες html. Οι αλλαγές γραμμής και τα κενά δεν αντικαθίστανται. |
+| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue)(char[]) | Αποδίδει την τιμή χαρακτηριστικού με εισαγωγικά και την προσθέτει στο αρχείο HTML. |
+| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue_2)(string) | Αποδίδει την τιμή χαρακτηριστικού με εισαγωγικά και την προσθέτει στο αρχείο HTML. |
+| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue_1)(char[], int, int) | Αποδίδει την τιμή χαρακτηριστικού με εισαγωγικά και την προσθέτει στο αρχείο HTML. |
+| [AddHtml](../../aspose.slides.export/htmlgenerator/addhtml#addhtml)(char[]) | Προσθέτει μορφοποιημένο HTML κείμενο. |
+| [AddHtml](../../aspose.slides.export/htmlgenerator/addhtml#addhtml_2)(string) | Προσθέτει μορφοποιημένο HTML κείμενο. |
+| [AddHtml](../../aspose.slides.export/htmlgenerator/addhtml#addhtml_1)(char[], int, int) | Προσθέτει μορφοποιημένο HTML κείμενο. |
+| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext)(char[]) | Προσθέτει ακατέργαστο κείμενο στα αρχεία HTML, αντικαθιστώντας ειδικούς χαρακτήρες με οντότητες HTML. Οι αλλαγές γραμμής και τα κενά δεν αντικαθίστανται. |
+| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext_2)(string) | Προσθέτει ακατέργαστο κείμενο στα αρχεία HTML, αντικαθιστώντας ειδικούς χαρακτήρες με οντότητες HTML. Οι αλλαγές γραμμής και τα κενά δεν αντικαθίστανται. |
+| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext_1)(char[], int, int) | Προσθέτει ακατέργαστο κείμενο στα αρχεία HTML, αντικαθιστώντας ειδικούς χαρακτήρες με οντότητες HTML. Οι αλλαγές γραμμής και τα κενά δεν αντικαθίστανται. |
 
 ### Δείτε επίσης
 
-* διεπαφή [IHtmlGenerator](../ihtmlgenerator)
+* διασύνδεση [IHtmlGenerator](../ihtmlgenerator)
 * χώρο ονομάτων [Aspose.Slides.Export](../../aspose.slides.export)
-* συγκρότημα [Aspose.Slides](../../)
+* συναρμολόγηση [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,14 +1,14 @@
 ---
 title: GradientShape
-second_title: Aspose.Sildes .NET API Referenciája
-description: A színátmenetes kitöltés alakját jelöli.
+second_title: Aspose.Sildes a .NET API-referencia
+description: A színátmenetes kitöltés alakját reprezentálja.
 type: docs
-weight: 5010
+weight: 5030
 url: /hu/aspose.slides/gradientshape/
 ---
-## GradientShape enumeráció
+## GradientShape felsorolás
 
-A színátmenetes kitöltés alakját jelöli.
+A színátmenetes kitöltés alakját reprezentálja.
 
 ```csharp
 public enum GradientShape : sbyte

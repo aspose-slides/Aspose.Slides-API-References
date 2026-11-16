@@ -3,7 +3,7 @@ title: IHyperlinkContainer
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示超链接对象。
 type: docs
-weight: 6120
+weight: 6140
 url: /zh/aspose.slides/ihyperlinkcontainer/
 ---
 ## IHyperlinkContainer 接口
@@ -18,11 +18,11 @@ public interface IHyperlinkContainer
 
 | 名称 | 描述 |
 | --- | --- |
-| [HyperlinkClick](../../aspose.slides/ihyperlinkcontainer/hyperlinkclick) { get; set; } | 返回或设置鼠标点击时定义的超链接。读/写 [`IHyperlink`](../ihyperlink). |
-| [HyperlinkManager](../../aspose.slides/ihyperlinkcontainer/hyperlinkmanager) { get; } | 超链接管理器 只读 [`IHyperlinkManager`](../ihyperlinkmanager). |
-| [HyperlinkMouseOver](../../aspose.slides/ihyperlinkcontainer/hyperlinkmouseover) { get; set; } | 返回或设置鼠标悬停时定义的超链接。读/写 [`IHyperlink`](../ihyperlink). |
+| [HyperlinkClick](../../aspose.slides/ihyperlinkcontainer/hyperlinkclick) { get; set; } | 返回或设置鼠标点击时定义的超链接。读/写 [`IHyperlink`](../ihyperlink)。 |
+| [HyperlinkManager](../../aspose.slides/ihyperlinkcontainer/hyperlinkmanager) { get; } | 超链接管理器只读 [`IHyperlinkManager`](../ihyperlinkmanager)。 |
+| [HyperlinkMouseOver](../../aspose.slides/ihyperlinkcontainer/hyperlinkmouseover) { get; set; } | 返回或设置鼠标悬停时定义的超链接。读/写 [`IHyperlink`](../ihyperlink)。 |
 
-### 参见
+### 另见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

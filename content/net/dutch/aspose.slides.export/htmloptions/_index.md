@@ -1,9 +1,9 @@
 ---
 title: HtmlOptions
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Representeert HTML-exportopties.
+description: Stelt HTML-exportopties voor.
 type: docs
-weight: 3890
+weight: 3910
 url: /nl/aspose.slides.export/htmloptions/
 ---
 ## HtmlOptions klasse
@@ -16,36 +16,36 @@ public class HtmlOptions : SaveOptions, IHtmlOptions
 
 ## Constructoren
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
-| [HtmlOptions](htmloptions#constructor)() | Maakt een nieuw HtmlOptions-object aan voor opslaan in één HTML-bestand. |
-| [HtmlOptions](htmloptions#constructor_1)(ILinkEmbedController) | Maakt een nieuw HtmlOptions-object aan met een callback. |
+| [HtmlOptions](htmloptions#constructor)() | Maak een nieuw HtmlOptions-object aan voor opslaan in een enkel HTML-bestand. |
+| [HtmlOptions](htmloptions#constructor_1)(ILinkEmbedController) | Maak een nieuw HtmlOptions-object aan met een callback. |
 
 ## Eigenschappen
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Geeft een lettertype terug of stelt het in dat wordt gebruikt als het bronlettertype niet wordt gevonden. Lezen/Schrijven String. |
-| [DeletePicturesCroppedAreas](../../aspose.slides.export/htmloptions/deletepicturescroppedareas) { get; set; } | Een booleaanse vlag geeft aan of de bijgesneden delen deel blijven uitmaken van het document. Indien true worden de bijgesneden delen verwijderd, indien false worden ze geserialiseerd in het document (wat mogelijk tot een groter bestand kan leiden) |
-| [DisableFontLigatures](../../aspose.slides.export/htmloptions/disablefontligatures) { get; set; } | Geeft een waarde terug of stelt een waarde in die aangeeft of tekst wordt gerenderd zonder ligaturen te gebruiken. Bij `true` worden ligaturen uitgeschakeld in de gegenereerde output. Standaard staat deze eigenschap op `false`. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Geeft de visuele stijl van de gradiënt terug of stelt deze in. Lezen/Schrijven [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [HtmlFormatter](../../aspose.slides.export/htmloptions/htmlformatter) { get; set; } | Geeft de HTML-sjabloon terug of stelt deze in. Lezen/Schrijven [`IHtmlFormatter`](../ihtmlformatter). |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Retourneert of stelt het lettertype in dat wordt gebruikt als het bronlettertype niet wordt gevonden. Lezen-schrijven String. |
+| [DeletePicturesCroppedAreas](../../aspose.slides.export/htmloptions/deletepicturescroppedareas) { get; set; } | Een booleanvlag die aangeeft of de bijgesneden delen behouden blijven als onderdeel van het document. Als true worden de bijgesneden delen verwijderd, als false worden ze geserialiseerd in het document (wat mogelijk tot een groter bestand kan leiden). |
+| [DisableFontLigatures](../../aspose.slides.export/htmloptions/disablefontligatures) { get; set; } | Haalt of stelt een waarde in die aangeeft of tekst wordt gerenderd zonder ligaturen te gebruiken. Wanneer ingesteld op `true`, worden ligaturen uitgeschakeld in de gerenderde output. Standaard staat deze eigenschap ingesteld op `false`. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Retourneert of stelt de visuele stijl van de gradient in. Lezen/Schrijven [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [HtmlFormatter](../../aspose.slides.export/htmloptions/htmlformatter) { get; set; } | Retourneert of stelt de HTML-sjabloon in. Lezen/Schrijven [`IHtmlFormatter`](../ihtmlformatter). |
 | [InkOptions](../../aspose.slides.export/htmloptions/inkoptions) { get; } | Biedt opties die het uiterlijk van Ink-objecten in het geëxporteerde document regelen. Alleen-lezen [`IInkOptions`](../iinkoptions) |
-| [JpegQuality](../../aspose.slides.export/htmloptions/jpegquality) { get; set; } | Geeft een waarde terug of stelt een waarde in die de kwaliteit van JPEG-afbeeldingen in PDF-document bepaalt. Lezen/Schrijven Byte. |
-| [PicturesCompression](../../aspose.slides.export/htmloptions/picturescompression) { get; set; } | Stelt het compressieniveau van afbeeldingen voor |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Stelt een callback-object voor voor het opslaan van voortgangsupdates in procenten. Zie [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [JpegQuality](../../aspose.slides.export/htmloptions/jpegquality) { get; set; } | Retourneert of stelt een waarde in die de kwaliteit van de JPEG-afbeeldingen in een PDF-document bepaalt. Lezen/Schrijven Byte. |
+| [PicturesCompression](../../aspose.slides.export/htmloptions/picturescompression) { get; set; } | Stelt het compressieniveau van de afbeeldingen voor |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Stelt een callbackobject voor het opslaan van voortgangsupdates in percentage voor. Zie [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
 | [ShowHiddenSlides](../../aspose.slides.export/htmloptions/showhiddenslides) { get; set; } | Specificeert of het gegenereerde document verborgen dia's moet bevatten of niet. Standaard is `false`. |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Specificeert of hyperlinks met JavaScript-oproepen overgeslagen moeten worden bij het opslaan van de presentatie. Lezen/Schrijven Boolean. De standaardwaarde is **false**. |
-| [SlideImageFormat](../../aspose.slides.export/htmloptions/slideimageformat) { get; set; } | Geeft opties voor het dia-afbeeldingsformaat terug of stelt deze in. Lezen/Schrijven [`ISlideImageFormat`](../islideimageformat). |
-| [SlidesLayoutOptions](../../aspose.slides.export/htmloptions/slideslayoutoptions) { get; set; } | Geeft de modus terug of stelt deze in waarin dia's op de pagina worden geplaatst bij het exporteren van een presentatie [`ISlidesLayoutOptions`](../islideslayoutoptions). |
-| [SvgResponsiveLayout](../../aspose.slides.export/htmloptions/svgresponsivelayout) { get; set; } | True om breedte- en hoogte-attributen uit de svg-container uit te sluiten – hierdoor wordt de lay-out responsief. False – anders. Lezen/Schrijven Boolean. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Geeft een object terug of stelt een object in dat waarschuwingen ontvangt en beslist of het laadproces wordt voortgezet of wordt afgebroken. Lezen/Schrijven [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Specificeert of hyperlinks met JavaScript-aanroepen overgeslagen moeten worden bij het opslaan van de presentatie. Lezen/Schrijven Boolean. De standaardwaarde is **false**. |
+| [SlideImageFormat](../../aspose.slides.export/htmloptions/slideimageformat) { get; set; } | Retourneert of stelt opties voor het dia-afbeeldingsformaat in. Lezen/Schrijven [`ISlideImageFormat`](../islideimageformat). |
+| [SlidesLayoutOptions](../../aspose.slides.export/htmloptions/slideslayoutoptions) { get; set; } | Haalt of stelt de modus in waarin dia's op de pagina worden geplaatst bij het exporteren van een presentatie [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [SvgResponsiveLayout](../../aspose.slides.export/htmloptions/svgresponsivelayout) { get; set; } | True om breedte- en hoogte-attributen uit de svg-container uit te sluiten – dit maakt de lay-out responsief. False – anders. Lezen/Schrijven Boolean. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Retourneert of stelt een object in dat waarschuwingen ontvangt en beslist of het laadproces wordt voortgezet of wordt afgebroken. Lezen/Schrijven [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Zie ook
 
 * klasse [SaveOptions](../saveoptions)
 * interface [IHtmlOptions](../ihtmloptions)
 * naamruimte [Aspose.Slides.Export](../../aspose.slides.export)
-* assemblage [Aspose.Slides](../../)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

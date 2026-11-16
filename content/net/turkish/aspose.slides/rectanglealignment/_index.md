@@ -1,12 +1,12 @@
 ---
 title: RectangleAlignment
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes .NET API Referansı için
 description: 2 boyutlu hizalamayı tanımlar.
 type: docs
-weight: 9690
+weight: 9710
 url: /tr/aspose.slides/rectanglealignment/
 ---
-## RectangleAlignment sayımı
+## RectangleAlignment enumu
 
 2 boyutlu hizalamayı tanımlar.
 

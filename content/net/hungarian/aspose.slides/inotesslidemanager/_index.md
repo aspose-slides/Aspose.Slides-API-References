@@ -1,14 +1,14 @@
 ---
 title: INotesSlideManager
-second_title: Aspose.Sildes .NET API referenciája
-description: Jegyzetdia-kezelő.
+second_title: Aspose.Sildes .NET API referencia
+description: Jegyzetdia kezelő.
 type: docs
-weight: 6520
+weight: 6540
 url: /hu/aspose.slides/inotesslidemanager/
 ---
 ## INotesSlideManager interfész
 
-Jegyzetdia-kezelő.
+Jegyzetdia kezelő.
 
 ```csharp
 public interface INotesSlideManager
@@ -16,16 +16,16 @@ public interface INotesSlideManager
 
 ## Tulajdonságok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
-| [NotesSlide](../../aspose.slides/inotesslidemanager/notesslide) { get; } | Visszaadja a jegyzetdiát az aktuális diára. Null értéket ad vissza, ha a diának nincs jegyzetdia. Csak olvasható [`INotesSlide`](../inotesslide). |
+| [NotesSlide](../../aspose.slides/inotesslidemanager/notesslide) { get; } | Visszaadja a jelenlegi diára vonatkozó jegyzetdiai. Null értéket ad, ha a diához nincs jegyzetdia. Csak olvasható [`INotesSlide`](../inotesslide). |
 
-## Módszerek
+## Metódusok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
-| [AddNotesSlide](../../aspose.slides/inotesslidemanager/addnotesslide)() | Visszaadja a jegyzetdiát az aktuális diára, és létrehozza, ha nincs. |
-| [RemoveNotesSlide](../../aspose.slides/inotesslidemanager/removenotesslide)() | Eltávolítja az aktuális dia jegyzetdiáját. |
+| [AddNotesSlide](../../aspose.slides/inotesslidemanager/addnotesslide)() | Visszaadja a jelenlegi diára vonatkozó jegyzetdiai, és létrehozza, ha nincs. |
+| [RemoveNotesSlide](../../aspose.slides/inotesslidemanager/removenotesslide)() | Eltávolítja a jelenlegi dia jegyzetdiaját. |
 
 ### Lásd még
 

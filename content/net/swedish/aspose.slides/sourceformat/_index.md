@@ -3,10 +3,10 @@ title: SourceFormat
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar källfilformat.
 type: docs
-weight: 10680
+weight: 10700
 url: /sv/aspose.slides/sourceformat/
 ---
-## SourceFormat uppräkning
+## SourceFormat-enumeration
 
 Representerar källfilformat.
 
@@ -18,21 +18,21 @@ public enum SourceFormat
 
 | Namn | Värde | Beskrivning |
 | --- | --- | --- |
-| Ppt | `0` | Microsoft PowerPoint 97-2003-presentation (*.ppt). |
-| Pptx | `1` | Microsoft Office Open XML-presentation (*.pptx). |
-| Odp | `2` | OpenDocument-presentation (*.odp). |
-| Pptm | `3` | Microsoft Office Open XML-makroaktiverad presentation (*.pptm). |
-| Ppsx | `4` | Microsoft Office Open XML-bildspel (*.ppsx). |
-| Ppsm | `5` | Microsoft Office Open XML-makroaktiverat bildspel (*.ppsm). |
-| Potx | `6` | Microsoft Office Open XML-mall (*.potx). |
-| Potm | `7` | Microsoft Office Open XML-makroaktiverad mall (*.potm). |
-| Pps | `8` | Microsoft PowerPoint 97-2003-bildspel (*.pps). |
-| Pot | `9` | Microsoft PowerPoint 97-2003-mall (*.pot). |
-| Otp | `10` | OpenDocument-presentationmall (*.otp). |
-| Fodp | `11` | Flat XML ODF-presentation (*.fodp). |
-| Xml | `12` | PowerPoint XML-presentation (*.xml). |
+| Ppt | `0` | Microsoft PowerPoint 97-2003 Presentation (*.ppt). |
+| Pptx | `1` | Microsoft Office Open XML Presentation (*.pptx). |
+| Odp | `2` | OpenDocument Presentation (*.odp). |
+| Pptm | `3` | Microsoft Office Open XML Macro-enabled Presentation (*.pptm). |
+| Ppsx | `4` | Microsoft Office Open XML SlideShow (*.ppsx). |
+| Ppsm | `5` | Microsoft Office Open XML Macro-enabled SlideShow (*.ppsm). |
+| Potx | `6` | Microsoft Office Open XML Template (*.potx). |
+| Potm | `7` | Microsoft Office Open XML Macro-enabled Template (*.potm). |
+| Pps | `8` | Microsoft PowerPoint 97-2003 SlideShow (*.pps). |
+| Pot | `9` | Microsoft PowerPoint 97-2003 Template (*.pot). |
+| Otp | `10` | OpenDocument Presentation Template (*.otp). |
+| Fodp | `11` | Flat XML ODF Presentation (*.fodp). |
+| Xml | `12` | PowerPoint XML Presentation (*.xml). |
 
-### Se även
+### Se också
 
 * namnrymd [Aspose.Slides](../../aspose.slides)
 * samling [Aspose.Slides](../../)

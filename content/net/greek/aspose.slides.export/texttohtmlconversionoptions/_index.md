@@ -1,9 +1,9 @@
 ---
 title: TextToHtmlConversionOptions
-second_title: Aspose.Sildes για .NET API Reference
+second_title: Aspose.Sildes για .NET API Αναφορά
 description: Επιλογές για εξαγωγή HTML από το κείμενο Pptx.
 type: docs
-weight: 4550
+weight: 4570
 url: /el/aspose.slides.export/texttohtmlconversionoptions/
 ---
 ## TextToHtmlConversionOptions κλάση
@@ -24,14 +24,14 @@ public sealed class TextToHtmlConversionOptions : ITextToHtmlConversionOptions
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [AddClipboardFragmentHeader](../../aspose.slides.export/texttohtmlconversionoptions/addclipboardfragmentheader) { get; set; } | Επιστρέφει ή ορίζει τιμή, που υποδεικνύει εάν πρέπει να προστεθούν κεφαλίδες Clipboard. Ανάγνωση/Εγγραφή Boolean. |
-| [EncodingName](../../aspose.slides.export/texttohtmlconversionoptions/encodingname) { get; set; } | Επιστρέφει ή ορίζει το όνομα κωδικοποίησης html. Αυτή η τιμή θα αποθηκευτεί στο παραγόμενο αρχείο HTML, αλλά εξαρτάται από τον καλούντα να διασφαλίσει ότι το αρχείο θα αποθηκευτεί σε αυτή την κωδικοποίηση. Ανάγνωση/Εγγραφή String. |
-| [LinkEmbedController](../../aspose.slides.export/texttohtmlconversionoptions/linkembedcontroller) { get; set; } | Επιστρέφει ή ορίζει ένα αντικείμενο callback που ελέγχει τον τρόπο αποθήκευσης του εξωτερικού αντικειμένου. Ανάγνωση/Εγγραφή [`ILinkEmbedController`](../ilinkembedcontroller). |
-| [TextInheritanceLimit](../../aspose.slides.export/texttohtmlconversionoptions/textinheritancelimit) { get; set; } | Επιστρέφει ή ορίζει το βάθος κληρονομικότητας για ιδιότητες κειμένου. Ανάγνωση/Εγγραφή [`TextInheritanceLimit`](../textinheritancelimit). |
+| [AddClipboardFragmentHeader](../../aspose.slides.export/texttohtmlconversionoptions/addclipboardfragmentheader) { get; set; } | Επιστρέφει ή ορίζει τη τιμή, υποδεικνύοντας εάν πρέπει να προστεθούν κεφαλίδες Clipboard. Ανάγνωση/εγγραφή Boolean. |
+| [EncodingName](../../aspose.slides.export/texttohtmlconversionoptions/encodingname) { get; set; } | Επιστρέφει ή ορίζει το όνομα κωδικοποίησης html. Αυτή η τιμή θα αποθηκευτεί στο παραγόμενο αρχείο HTML, αλλά εξαρτάται από τον καλούντα να διασφαλίσει ότι το αρχείο θα αποθηκευτεί σε αυτήν την κωδικοποίηση. Ανάγνωση/εγγραφή String. |
+| [LinkEmbedController](../../aspose.slides.export/texttohtmlconversionoptions/linkembedcontroller) { get; set; } | Επιστρέφει ή ορίζει ένα αντικείμενο callback που ελέγχει πώς θα αποθηκευτεί το εξωτερικό αντικείμενο. Ανάγνωση/εγγραφή [`ILinkEmbedController`](../ilinkembedcontroller). |
+| [TextInheritanceLimit](../../aspose.slides.export/texttohtmlconversionoptions/textinheritancelimit) { get; set; } | Επιστρέφει ή ορίζει το επίπεδο εμβάθυνσης για τις ιδιότητες κειμένου. Ανάγνωση/εγγραφή [`TextInheritanceLimit`](../textinheritancelimit). |
 
 ### Δείτε επίσης
 
-* διεπαφή [ITextToHtmlConversionOptions](../itexttohtmlconversionoptions)
+* διασύνδεση [ITextToHtmlConversionOptions](../itexttohtmlconversionoptions)
 * χώρο ονομάτων [Aspose.Slides.Export](../../aspose.slides.export)
 * συναρμολόγηση [Aspose.Slides](../../)
 

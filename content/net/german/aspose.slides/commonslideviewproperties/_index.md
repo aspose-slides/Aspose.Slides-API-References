@@ -3,12 +3,12 @@ title: CommonSlideViewProperties
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt gemeinsame Folienansichtseigenschaften dar.
 type: docs
-weight: 2660
+weight: 2680
 url: /de/aspose.slides/commonslideviewproperties/
 ---
 ## CommonSlideViewProperties Klasse
 
-Stellt gemeinsame Folienansichtseigenschaften dar.
+Repräsentiert gemeinsame Folienansichtseigenschaften.
 
 ```csharp
 public class CommonSlideViewProperties : ICommonSlideViewProperties
@@ -18,20 +18,20 @@ public class CommonSlideViewProperties : ICommonSlideViewProperties
 
 | Name | Beschreibung |
 | --- | --- |
-| [DrawingGuides](../../aspose.slides/commonslideviewproperties/drawingguides) { get; } | Gibt die Sammlung der Zeichenhilfen zurück. Nur lesbar [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [Scale](../../aspose.slides/commonslideviewproperties/scale) { get; set; } | Gibt das Skalierungsverhältnis der Ansicht in Prozent an. Lese-/schreibend Int32. |
-| [VariableScale](../../aspose.slides/commonslideviewproperties/variablescale) { get; set; } | Gibt an, dass der Ansichtsinhalt automatisch skaliert werden soll, um optimal in die aktuelle Fenstergröße zu passen. Lese-/schreibend Boolean. |
+| [DrawingGuides](../../aspose.slides/commonslideviewproperties/drawingguides) { get; } | Gibt die Sammlung der Zeichenhilfslinien zurück. Nur-lesen [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [Scale](../../aspose.slides/commonslideviewproperties/scale) { get; set; } | Gibt das Skalierungsverhältnis der Ansicht in Prozent an. Lesen/Schreiben Int32. |
+| [VariableScale](../../aspose.slides/commonslideviewproperties/variablescale) { get; set; } | Gibt an, dass der Ansichtsinhalt automatisch skaliert werden soll, um optimal in die aktuelle Fenstergröße zu passen. Lesen/Schreiben Boolean. |
 
 ### Beispiele
 
-Das folgende Beispiel zeigt, wie man den Zoomwert für eine Folie einer PowerPoint-Präsentation einstellt.
+Das folgende Beispiel zeigt, wie der Zoomwert für Folien einer PowerPoint-Präsentation festgelegt wird.
 
 ```csharp
 [C#]
-// Instanziiert ein Presentation-Objekt, das eine Präsentationsdatei repräsentiert
+// Erstelle ein Presentation-Objekt, das eine Präsentationsdatei repräsentiert
 using (Presentation presentation = new Presentation("demo.pptx"))
 {
-    // Festlegen der Ansichtseigenschaften der Präsentation
+    // Einstellen der Ansichtseigenschaften der Präsentation
     presentation.ViewProperties.SlideViewProperties.Scale = 100; // Zoomwert in Prozent für die Folienansicht
 	presentation.ViewProperties.NotesViewProperties.Scale = 100; // Zoomwert in Prozent für die Notizansicht
     presentation.Save("Zoom_out.pptx", SaveFormat.Pptx);

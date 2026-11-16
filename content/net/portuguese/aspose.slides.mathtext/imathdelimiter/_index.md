@@ -1,9 +1,9 @@
 ---
 title: IMathDelimiter
-second_title: Aspose.Slides para .NET Referência da API
-description: Especifica o objeto delimitador composto por caracteres de abertura e fechamento, tais como parênteses, chaves, colchetes e barras verticais, e um ou mais elementos matemáticos dentro, separados por um caractere especificado. Exemplos 2 2x7C2
+second_title: Referência da API Aspose.Sildes para .NET
+description: Especifica o objeto delimitador que consiste em caracteres de abertura e fechamento, como parênteses, chaves, colchetes e barras verticais, e um ou mais elementos matemáticos dentro, separados por um caractere especificado. Exemplos 2 2x7C2
 type: docs
-weight: 8210
+weight: 8230
 url: /pt/aspose.slides.mathtext/imathdelimiter/
 ---
 ## IMathDelimiter interface
@@ -14,25 +14,25 @@ Especifica o objeto delimitador, composto por caracteres de abertura e fechament
 public interface IMathDelimiter : IMathElement
 ```
 
-## Properties
+## Propriedades
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
 | [Arguments](../../aspose.slides.mathtext/imathdelimiter/arguments) { get; } | Um ou mais elementos matemáticos separados por caracteres delimitadores |
 | [AsIMathElement](../../aspose.slides.mathtext/imathdelimiter/asimathelement) { get; } | Permite obter a interface base IMathElement [`IMathElement`](../imathelement) |
-| [BeginningCharacter](../../aspose.slides.mathtext/imathdelimiter/beginningcharacter) { get; set; } | Delimiter Beginning Character especifica o início, ou caractere de abertura, do delimitador. Delimitadores matemáticos são caracteres de fechamento como parênteses, colchetes e chaves. O valor padrão: '('. |
-| [DelimiterShape](../../aspose.slides.mathtext/imathdelimiter/delimitershape) { get; set; } | Especifica a forma dos delimitadores no objeto delimitador. Quando is MathDelimiterShape.Centered, os delimitadores são centralizados ao redor do eixo matemático do texto e ainda podem ser ajustados para caber na altura total de seu conteúdo. Quando is MathDelimiterShape.Match, sua altura e forma são alteradas para corresponder exatamente ao conteúdo. |
-| [EndingCharacter](../../aspose.slides.mathtext/imathdelimiter/endingcharacter) { get; set; } | Delimiter Ending Character especifica o caractere final, ou de fechamento, do delimitador. Delimitadores matemáticos são caracteres de fechamento como parênteses, colchetes e chaves. O padrão: ')'. |
-| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathdelimiter/growtomatchoperandheight) { get; set; } | Especifica o crescimento de BeginningCharacter, SeparatorCharacter, EndingCharacter. Quando true, os delimitadores crescem verticalmente para corresponder à altura do operando. O valor padrão é true |
+| [BeginningCharacter](../../aspose.slides.mathtext/imathdelimiter/beginningcharacter) { get; set; } | Delimiter Beginning Character especifica o início, ou caractere delimitador de abertura. Delimitadores matemáticos são caracteres de fechamento como parênteses, colchetes e chaves. O valor padrão: '('. |
+| [DelimiterShape](../../aspose.slides.mathtext/imathdelimiter/delimitershape) { get; set; } | Especifica a forma dos delimitadores no objeto delimitador. Quando for MathDelimiterShape.Centered, os delimitadores são centralizados ao redor do eixo matemático do texto e ainda podem ser ajustados para caber toda a altura de seu conteúdo. Quando for MathDelimiterShape.Match, sua altura e forma são alteradas para corresponder exatamente ao conteúdo. |
+| [EndingCharacter](../../aspose.slides.mathtext/imathdelimiter/endingcharacter) { get; set; } | Delimiter Ending Character especifica o caractere delimitador final, ou de fechamento. Delimitadores matemáticos são caracteres de fechamento como parênteses, colchetes e chaves. O padrão: ')'. |
+| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathdelimiter/growtomatchoperandheight) { get; set; } | Especifica o crescimento de BeginningCharacter, SeparatorCharacter, EndingCharacter. Quando verdadeiro, os delimitadores crescem verticalmente para corresponder à altura de seu operando. O valor padrão é true |
 | [SeparatorCharacter](../../aspose.slides.mathtext/imathdelimiter/separatorcharacter) { get; set; } | Delimiter Separator Character especifica o caractere que separa os argumentos no objeto delimitador. O padrão: '&#x7C;'. |
 
-## Methods
+## Métodos
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
 | [Delimit](../../aspose.slides.mathtext/imathdelimiter/delimit)(char) | Delimita argumentos usando o caractere delimitador especificado |
 
-### Examples
+### Exemplos
 
 Exemplo:
 
@@ -42,7 +42,7 @@ IMathElement element = new MathematicalText("x");
 IMathDelimiter delimiter = element.Enclose();
 ```
 
-### See Also
+### Veja também
 
 * interface [IMathElement](../imathelement)
 * namespace [Aspose.Slides.MathText](../../aspose.slides.mathtext)

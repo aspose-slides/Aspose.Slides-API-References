@@ -3,7 +3,7 @@ title: Output
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt eine Sammlung von Ausgabeelementen für IWebDocument dar.
 type: docs
-weight: 4640
+weight: 4660
 url: /de/aspose.slides.export.web/output/
 ---
 ## Ausgabeklasse
@@ -18,13 +18,14 @@ public sealed class Output
 
 | Name | Beschreibung |
 | --- | --- |
-| [Add](../../aspose.slides.export.web/output/add#add_1)(string, IImage) | Fügt ein Ausgabeelement für das Bild hinzu. |
-| [Add](../../aspose.slides.export.web/output/add#add_2)(string, IPPImage) | Fügt ein Ausgabeelement für das Bild hinzu. |
-| [Add](../../aspose.slides.export.web/output/add#add_3)(string, IVideo) | Fügt ein Ausgabeelement für das Video hinzu. |
-| [Add](../../aspose.slides.export.web/output/add#add_4)(string, string) | Fügt ein Ausgabeelement für den Textinhalt hinzu. |
-| [Add](../../aspose.slides.export.web/output/add#add)(string, IFontData, FontStyleType) | Erstellt und fügt ein Ausgabedateielement für die angegebene Schriftart hinzu. |
-| [Add&lt;TContextObject&gt;](../../aspose.slides.export.web/output/add#add_5)(string, string, TContextObject) | Fügt ein Ausgabeelement für das Kontextobjekt hinzu. |
-| [BindResource](../../aspose.slides.export.web/output/bindresource)(IOutputFile, object) | Bindet die Ressource an die Ausgabedatei. |
+| [Add](../../aspose.slides.export.web/output/add#add)(string, IAudio) | Fügt ein Ausgabeelement für das Audio hinzu. |
+| [Add](../../aspose.slides.export.web/output/add#add_2)(string, IImage) | Fügt ein Ausgabeelement für das Bild hinzu. |
+| [Add](../../aspose.slides.export.web/output/add#add_3)(string, IPPImage) | Fügt ein Ausgabeelement für das Bild hinzu. |
+| [Add](../../aspose.slides.export.web/output/add#add_4)(string, IVideo) | Fügt ein Ausgabeelement für das Video hinzu. |
+| [Add](../../aspose.slides.export.web/output/add#add_5)(string, string) | Fügt ein Ausgabeelement für den Textinhalt hinzu. |
+| [Add](../../aspose.slides.export.web/output/add#add_1)(string, IFontData, FontStyleType) | Erstellt und fügt ein Ausgabedateielement für die angegebene Schriftart hinzu. |
+| [Add&lt;TContextObject&gt;](../../aspose.slides.export.web/output/add#add_6)(string, string, TContextObject) | Fügt ein Ausgabeelement für das Kontextobjekt hinzu. |
+| [BindResource](../../aspose.slides.export.web/output/bindresource)(IOutputFile, object) | Bindet Ressource an die Ausgabedatei. |
 | [GetResourcePath](../../aspose.slides.export.web/output/getresourcepath)(object) | Gibt den Pfad für eine gegebene Ressource zurück. |
 
 ### Siehe auch

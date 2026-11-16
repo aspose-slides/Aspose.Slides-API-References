@@ -1,14 +1,14 @@
 ---
 title: PPImageFormat
-second_title: Aspose.Sildes .NET API referencia
-description: Képtípusok. Ez az enum helyettesíti a System.Drawing.Imaging.ImageFormat osztályt. COM kompatibilitáshoz szükséges.
+second_title: Aspose.Sildes .NET API referenciája
+description: Képformátumok. Ez az enum a System.Drawing.Imaging.ImageFormat osztály helyettesítője. A COM kompatibilitáshoz szükséges.
 type: docs
-weight: 9260
+weight: 9280
 url: /hu/aspose.slides/ppimageformat/
 ---
 ## PPImageFormat enumeráció
 
-Képtípusok. Ez az enum helyettesíti a `System.Drawing.Imaging.ImageFormat` osztályt. COM kompatibilitáshoz szükséges.
+Képformátumok. Ez az enum a `System.Drawing.Imaging.ImageFormat` osztály helyettesítője. A COM kompatibilitáshoz szükséges.
 
 ```csharp
 public enum PPImageFormat
@@ -18,16 +18,16 @@ public enum PPImageFormat
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| Bmp | `0` | A bitmap (BMP) képtípust adja vissza. |
-| Emf | `1` | A kibővített metafájl (EMF) képtípust adja vissza. |
-| Exif | `2` | Az Exchangeable Image File (Exif) formátumot adja vissza. |
-| Gif | `3` | A Graphics Interchange Format (GIF) képtípust adja vissza. |
-| Icon | `4` | A Windows ikon képtípust adja vissza. |
-| Jpeg | `5` | A Joint Photographic Experts Group (JPEG) képtípust adja vissza. |
-| MemoryBmp | `6` | A memóriában lévő bitmap formátumát adja vissza. |
-| Png | `7` | A W3C Portable Network Graphics (PNG) képtípust adja vissza. |
-| Tiff | `8` | A Tagged Image File Format (TIFF) képtípust adja vissza. |
-| Wmf | `9` | A Windows metafájl (WMF) képtípust adja vissza. |
+| Bmp | `0` | Lekéri a bitmap (BMP) képformátumot. |
+| Emf | `1` | Lekéri a bővített metafájl (EMF) képformátumot. |
+| Exif | `2` | Lekéri az Exchangeable Image File (Exif) formátumot. |
+| Gif | `3` | Lekéri a Graphics Interchange Format (GIF) képformátumot. |
+| Icon | `4` | Lekéri a Windows ikon képformátumot. |
+| Jpeg | `5` | Lekéri a Joint Photographic Experts Group (JPEG) képformátumot. |
+| MemoryBmp | `6` | Lekéri a memóriában lévő bitmap formátumát. |
+| Png | `7` | Lekéri a W3C Portable Network Graphics (PNG) képformátumot. |
+| Tiff | `8` | Lekéri a Tagged Image File Format (TIFF) képformátumot. |
+| Wmf | `9` | Lekéri a Windows metafájl (WMF) képformátumot. |
 
 ### Lásd még
 

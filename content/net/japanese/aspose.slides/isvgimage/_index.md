@@ -1,9 +1,9 @@
 ---
 title: ISvgImage
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: SVG 画像を表します。
 type: docs
-weight: 7180
+weight: 7200
 url: /ja/aspose.slides/isvgimage/
 ---
 ## ISvgImage インターフェイス

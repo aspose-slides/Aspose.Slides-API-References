@@ -1,14 +1,14 @@
 ---
 title: IMathLeftSubSuperscriptElement
-second_title: Aspose.Slides .NET API Referansı
-description: Temel bir tabanın solunda yer alan alt ve üst simgeyi içeren Sub-Superscript nesnesini belirtir.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Temelinin sol tarafına yerleştirilen bir temel, alt simge ve üst simge içeren Sub-Superscript nesnesini belirtir.
 type: docs
-weight: 8310
+weight: 8330
 url: /tr/aspose.slides.mathtext/imathleftsubsuperscriptelement/
 ---
 ## IMathLeftSubSuperscriptElement arayüz
 
-Temel bir tabanın solunda yer alan alt ve üst simgeyi içeren Sub-Superscript nesnesini tanımlar.
+Temel, alt simge ve üst simgeyi temelinin sol tarafına yerleştiren Sub-Superscript nesnesini belirtir.
 
 ```csharp
 public interface IMathLeftSubSuperscriptElement : IMathElement
@@ -18,10 +18,10 @@ public interface IMathLeftSubSuperscriptElement : IMathElement
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/asimathelement) { get; } | Temel IMathElement arayüzünü almayı sağlar [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/asimathelement) { get; } | Temel IMathElement arayüzünü [`IMathElement`](../imathelement) almayı sağlar |
 | [Base](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/base) { get; } | Temel argüman |
-| [Subscript](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/subscript) { get; } | Alt simge |
-| [Superscript](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/superscript) { get; } | Üst simge |
+| [Subscript](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/subscript) { get; } | Alt Simge |
+| [Superscript](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/superscript) { get; } | Üst Simge |
 
 ### Örnekler
 
@@ -32,7 +32,7 @@ public interface IMathLeftSubSuperscriptElement : IMathElement
 IMathLeftSubSuperscriptElement leftSubsuperscript = new MathematicalText("N").SetSubSuperscriptOnTheLeft("i", "j");
 ```
 
-## Diğer
+### Ayrıca Bakınız
 
 * arayüz [IMathElement](../imathelement)
 * ad alanı [Aspose.Slides.MathText](../../aspose.slides.mathtext)

@@ -3,7 +3,7 @@ title: IStreamWrapperFactory
 second_title: Aspose.Sildes dla referencji API .NET
 description: Fabryka StreamWrappers. Dla interfejsu COM.
 type: docs
-weight: 7140
+weight: 7160
 url: /pl/aspose.slides/istreamwrapperfactory/
 ---
 ## IStreamWrapperFactory interfejs
@@ -18,8 +18,8 @@ public interface IStreamWrapperFactory
 
 | Nazwa | Opis |
 | --- | --- |
-| [CreateFileStreamWrapper](../../aspose.slides/istreamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper)(string, FileMode) | Tworzy FileStream z określoną ścieżką i trybem tworzenia. |
-| [CreateFileStreamWrapper](../../aspose.slides/istreamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper_1)(string, FileMode, FileAccess) | Tworzy FileStream z określoną ścieżką, trybem tworzenia i uprawnieniami odczytu/zapisu. |
+| [CreateFileStreamWrapper](../../aspose.slides/istreamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper)(string, FileMode) | Tworzy FileStream ze wskazaną ścieżką i trybem tworzenia. |
+| [CreateFileStreamWrapper](../../aspose.slides/istreamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper_1)(string, FileMode, FileAccess) | Tworzy FileStream ze wskazaną ścieżką, trybem tworzenia oraz uprawnieniem odczytu/zapisu. |
 | [CreateMemoryStreamWrapper](../../aspose.slides/istreamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper)() | Tworzy opakowanie MemoryStream. |
 | [CreateMemoryStreamWrapper](../../aspose.slides/istreamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper_1)(byte[]) | Tworzy opakowanie MemoryStream na podstawie określonej tablicy bajtów. |
 

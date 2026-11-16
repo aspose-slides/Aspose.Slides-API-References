@@ -1,14 +1,14 @@
 ---
 title: IMathArray
 second_title: Aspose.Sildes for .NET API 참조
-description: 방정식 또는 기타 수학 개체의 수직 배열을 지정합니다
+description: 수식 또는 다양한 수학 객체의 수직 배열을 지정합니다
 type: docs
-weight: 8100
+weight: 8120
 url: /ko/aspose.slides.mathtext/imatharray/
 ---
 ## IMathArray 인터페이스
 
-방정식 또는 기타 수학 개체의 수직 배열을 지정합니다
+수식 혹은 다양한 수학 객체의 수직 배열을 지정합니다
 
 ```csharp
 public interface IMathArray : IMathElement
@@ -19,11 +19,11 @@ public interface IMathArray : IMathElement
 | 이름 | 설명 |
 | --- | --- |
 | [Arguments](../../aspose.slides.mathtext/imatharray/arguments) { get; } | 배열의 항목 집합 |
-| [AsIMathElement](../../aspose.slides.mathtext/imatharray/asimathelement) { get; } | 기본 IMathElement 인터페이스를 가져오는 것을 허용합니다 [`IMathElement`](../imathelement) |
-| [BaseJustification](../../aspose.slides.mathtext/imatharray/basejustification) { get; set; } | 배열이 주변 텍스트에 상대적인 정렬을 지정합니다. 배열 외부의 텍스트는 배열 객체의 아래쪽, 위쪽 또는 중앙에 맞출 수 있습니다. 기본값: Center |
-| [MaximumDistribution](../../aspose.slides.mathtext/imatharray/maximumdistribution) { get; set; } | true인 경우, 배열은 포함 요소(페이지, 열, 셀 등)의 최대 너비에 맞게 간격이 조정됩니다. |
-| [ObjectDistribution](../../aspose.slides.mathtext/imatharray/objectdistribution) { get; set; } | true인 경우, 배열의 내용은 배열 객체의 최대 너비에 맞게 간격이 조정됩니다. |
-| [RowSpacing](../../aspose.slides.mathtext/imatharray/rowspacing) { get; set; } | 배열 행 사이의 간격입니다. RowSpacingRule이 3(Exactly)으로 설정된 경우에만 사용되며, 이 경우 측정 단위는 포인트입니다. 또는 Multiple인 경우 측정 단위는 반 라인입니다. 기본값: 0 |
+| [AsIMathElement](../../aspose.slides.mathtext/imatharray/asimathelement) { get; } | 기본 IMathElement 인터페이스를 가져올 수 있습니다 [`IMathElement`](../imathelement) |
+| [BaseJustification](../../aspose.slides.mathtext/imatharray/basejustification) { get; set; } | 배열을 주변 텍스트에 상대적으로 정렬을 지정합니다. 배열 외부의 텍스트는 배열 객체의 아래, 위 또는 중앙에 맞출 수 있습니다. 기본값: Center |
+| [MaximumDistribution](../../aspose.slides.mathtext/imatharray/maximumdistribution) { get; set; } | 최대 배포 True인 경우, 배열이 포함 요소(page, column, cell, 등)의 최대 너비에 맞게 배치됩니다. |
+| [ObjectDistribution](../../aspose.slides.mathtext/imatharray/objectdistribution) { get; set; } | 객체 배포 True인 경우, 배열의 내용이 배열 객체의 최대 너비에 맞게 배치됩니다. |
+| [RowSpacing](../../aspose.slides.mathtext/imatharray/rowspacing) { get; set; } | 배열 행 사이의 간격 RowSpacingRule이 3 Exactly으로 설정된 경우에만 사용됩니다. 이 경우 측정 단위는 포인트이며, Multiple인 경우 측정 단위는 반줄입니다. 기본값: 0 |
 | [RowSpacingRule](../../aspose.slides.mathtext/imatharray/rowspacingrule) { get; set; } | 배열 요소 사이의 수직 간격 유형 |
 
 ### 예제
@@ -35,7 +35,7 @@ public interface IMathArray : IMathElement
 IMathArray mathArray = new MathArray(new MathematicalText("item1"));
 ```
 
-### 참조
+### 참고
 
 * 인터페이스 [IMathElement](../imathelement)
 * 네임스페이스 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

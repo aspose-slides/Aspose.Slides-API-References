@@ -1,9 +1,9 @@
 ---
 title: DigitalSignatureCollection
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Representa una colección de firmas digitales adjuntas a un documento.
 type: docs
-weight: 2780
+weight: 2800
 url: /es/aspose.slides/digitalsignaturecollection/
 ---
 ## DigitalSignatureCollection clase
@@ -19,9 +19,9 @@ public class DigitalSignatureCollection : DomObject<Presentation>, IDigitalSigna
 | Nombre | Descripción |
 | --- | --- |
 | [Count](../../aspose.slides/digitalsignaturecollection/count) { get; } | Devuelve el número de elementos en la colección. Solo lectura Int32. |
-| [IsSynchronized](../../aspose.slides/digitalsignaturecollection/issynchronized) { get; } | Devuelve un valor que indica si el acceso a la colección está sincronizado (thread-safe). Solo lectura Boolean. |
+| [IsSynchronized](../../aspose.slides/digitalsignaturecollection/issynchronized) { get; } | Devuelve un valor que indica si el acceso a la colección está sincronizado (seguro para subprocesos). Solo lectura Boolean. |
 | [Item](../../aspose.slides/digitalsignaturecollection/item) { get; } | Devuelve la firma por índice. |
-| [SyncRoot](../../aspose.slides/digitalsignaturecollection/syncroot) { get; } | Devuelve la raíz de sincronización. Solo lectura Object. |
+| [SyncRoot](../../aspose.slides/digitalsignaturecollection/syncroot) { get; } | Devuelve una raíz de sincronización. Solo lectura Object. |
 
 ## Métodos
 
@@ -33,7 +33,7 @@ public class DigitalSignatureCollection : DomObject<Presentation>, IDigitalSigna
 | [GetEnumerator](../../aspose.slides/digitalsignaturecollection/getenumerator)() | Devuelve un enumerador que itera a través de la colección. |
 | [RemoveAt](../../aspose.slides/digitalsignaturecollection/removeat)(int) | Elimina la firma en el índice especificado. |
 
-### Ver también
+### Véase también
 
 * clase [DomObject&lt;TParent&gt;](../domobject-1)
 * clase [Presentation](../presentation)

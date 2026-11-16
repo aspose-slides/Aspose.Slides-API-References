@@ -3,7 +3,7 @@ title: RemoveUnusedLayoutSlides
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Melakukan kompresi Presentationaspose.slides/presentation dengan menghapus slide tata letak yang tidak digunakan.
 type: docs
-weight: 20
+weight: 40
 url: /id/aspose.slides.lowcode/compress/removeunusedlayoutslides/
 ---
 ## Compress.RemoveUnusedLayoutSlides metode

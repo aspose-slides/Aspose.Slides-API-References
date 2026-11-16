@@ -1,14 +1,14 @@
 ---
 title: ISlideHeaderFooterManager
-second_title: Referencia de API de Aspose.Sildes para .NET
-description: Representa el gestor que contiene el comportamiento del pie de diapositiva, la fecha y hora, y los marcadores de posición del número de página.
+second_title: Referencia de la API de Aspose.Sildes para .NET
+description: Representa el administrador que mantiene el comportamiento del pie de diapositiva, los marcadores de posición de fecha y hora y de número de página.
 type: docs
-weight: 7070
+weight: 7090
 url: /es/aspose.slides/islideheaderfootermanager/
 ---
 ## ISlideHeaderFooterManager interfaz
 
-Representa el gestor que contiene el comportamiento del pie de diapositiva, la fecha y hora, y los marcadores de posición del número de página.
+Representa el administrador que mantiene el comportamiento del pie de diapositiva, los marcadores de posición de fecha y hora, y de número de página.
 
 ```csharp
 public interface ISlideHeaderFooterManager : IBaseSlideHeaderFooterManager

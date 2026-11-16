@@ -1,14 +1,14 @@
 ---
 title: ShapesAlignmentType
-second_title: Aspose.Sildes .NET için API Referansı
-description: Seçili şekillerin slayttaki konumunu değiştirmek için bir yol tanımlar.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Seçili şekillerin slayt üzerindeki konumunu değiştirmek için bir yol tanımlar.
 type: docs
-weight: 9940
+weight: 9960
 url: /tr/aspose.slides/shapesalignmenttype/
 ---
-## ShapesAlignmentType enumerasyon
+## ShapesAlignmentType enum
 
-Seçili şekillerin slayttaki konumunu değiştirmek için bir yol tanımlar.
+Seçili şekillerin slayt üzerindeki konumunu değiştirmek için bir yol tanımlar.
 
 ```csharp
 public enum ShapesAlignmentType
@@ -22,12 +22,12 @@ public enum ShapesAlignmentType
 | AlignRight | `1` | Sağa hizala |
 | AlignCenter | `2` | Ortaya hizala |
 | AlignTop | `3` | Üste hizala |
-| AlignMiddle | `4` | Ortaya hizala |
+| AlignMiddle | `4` | Ortada hizala |
 | AlignBottom | `5` | Alta hizala |
 | DistributeHorizontally | `6` | Yatay olarak dağıt |
 | DistributeVertically | `7` | Dikey olarak dağıt |
 
-### Ayrıca Bakınız
+### Bakınız
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

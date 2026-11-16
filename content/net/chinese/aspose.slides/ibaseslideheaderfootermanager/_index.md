@@ -1,14 +1,14 @@
 ---
 title: IBaseSlideHeaderFooterManager
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes 的 .NET API 参考
 description: 表示管理器，负责所有幻灯片类型的页脚、日期时间和页码占位符的行为。
 type: docs
-weight: 5350
+weight: 5370
 url: /zh/aspose.slides/ibaseslideheaderfootermanager/
 ---
 ## IBaseSlideHeaderFooterManager 接口
 
-表示管理器，负责所有幻灯片类型的页脚、日期时间和页码占位符的行为。
+表示管理器，该管理器控制所有幻灯片类型的页脚、日期时间和页码占位符的行为。
 
 ```csharp
 public interface IBaseSlideHeaderFooterManager : IBaseHeaderFooterManager
@@ -33,7 +33,7 @@ public interface IBaseSlideHeaderFooterManager : IBaseHeaderFooterManager
 | [SetFooterVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setfootervisibility)(bool) | 更改幻灯片页脚占位符的可见性。 |
 | [SetSlideNumberVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setslidenumbervisibility)(bool) | 更改幻灯片页码占位符的可见性。 |
 
-### 另请参见
+### 另见
 
 * 接口 [IBaseHeaderFooterManager](../ibaseheaderfootermanager)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

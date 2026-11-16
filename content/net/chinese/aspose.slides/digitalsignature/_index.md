@@ -3,7 +3,7 @@ title: DigitalSignature
 second_title: Aspose.Sildes .NET API 参考
 description: 已签名文件中的数字签名。
 type: docs
-weight: 2770
+weight: 2790
 url: /zh/aspose.slides/digitalsignature/
 ---
 ## DigitalSignature 类
@@ -16,23 +16,23 @@ public class DigitalSignature : IDigitalSignature
 
 ## 构造函数
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
-| [DigitalSignature](digitalsignature#constructor)(X509Certificate2) | 使用指定的证书创建新的 DigitalSignature 对象。 |
-| [DigitalSignature](digitalsignature#constructor_1)(string, string) | 使用指定的证书文件路径和密码创建新的 DigitalSignature 对象。 |
+| [DigitalSignature](digitalsignature#constructor)(X509Certificate2) | 使用指定的证书创建一个新的 DigitalSignature 对象。 |
+| [DigitalSignature](digitalsignature#constructor_1)(string, string) | 使用指定的证书文件路径和密码创建一个新的 DigitalSignature 对象。 |
 
 ## 属性
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
-| [Certificate](../../aspose.slides/digitalsignature/certificate) { get; } | 用于对文档签名的证书对象。只读 X509Certificate2。 |
-| [Comments](../../aspose.slides/digitalsignature/comments) { get; set; } | 签名的用途。可读写 String。 |
-| [IsValid](../../aspose.slides/digitalsignature/isvalid) { get; } | 如果此数字签名有效且文档未被篡改，则此值为 true。只读 Boolean。 |
+| [Certificate](../../aspose.slides/digitalsignature/certificate) { get; } | 用于签署文档的证书对象。只读 X509Certificate2。 |
+| [Comments](../../aspose.slides/digitalsignature/comments) { get; set; } | 签名的目的。读写 String。 |
+| [IsValid](../../aspose.slides/digitalsignature/isvalid) { get; } | 如果此数字签名有效且文档未被篡改，则该值为 true。只读 Boolean。 |
 | [SignTime](../../aspose.slides/digitalsignature/signtime) { get; } | 文档签署的时间。只读 DateTime。 |
 
 ### 示例
 
-下面的示例演示如何在 PowerPoint 演示文稿中使用 PFX 证书添加数字签名。
+以下示例演示如何在 PowerPoint 演示文稿中使用 PFX 证书添加数字签名。
 
 ```csharp
 [C#]
@@ -50,7 +50,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-下面的示例代码演示如何验证 PowerPoint 演示文稿的数字签名。
+以下示例代码演示如何验证 PowerPoint 演示文稿的数字签名。
 
 ```csharp
 [C#]

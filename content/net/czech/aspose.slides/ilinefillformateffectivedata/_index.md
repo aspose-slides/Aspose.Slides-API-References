@@ -1,14 +1,14 @@
 ---
 title: ILineFillFormatEffectiveData
 second_title: Aspose.Sildes pro .NET API Reference
-description: Neměnný objekt, který obsahuje efektivní vlastnosti výplně čar.
+description: Neměnný objekt, který obsahuje účinné vlastnosti výplně čáry.
 type: docs
-weight: 6300
+weight: 6320
 url: /cs/aspose.slides/ilinefillformateffectivedata/
 ---
 ## ILineFillFormatEffectiveData rozhraní
 
-Neměnný objekt, který obsahuje efektivní vlastnosti výplně čar.
+Neměnný objekt, který obsahuje účinné vlastnosti výplně čáry.
 
 ```csharp
 public interface ILineFillFormatEffectiveData : IFillParamSource
@@ -20,9 +20,9 @@ public interface ILineFillFormatEffectiveData : IFillParamSource
 | --- | --- |
 | [AsIFillParamSource](../../aspose.slides/ilinefillformateffectivedata/asifillparamsource) { get; } | Vrací rozhraní IFillParamSource. Pouze pro čtení [`IFillParamSource`](../ifillparamsource). |
 | [FillType](../../aspose.slides/ilinefillformateffectivedata/filltype) { get; } | Vrací typ výplně. Pouze pro čtení [`FillType`](../filltype). |
-| [GradientFormat](../../aspose.slides/ilinefillformateffectivedata/gradientformat) { get; } | Vrací formát přechodové výplně. Pouze pro čtení [`IGradientFormatEffectiveData`](../igradientformateffectivedata). |
+| [GradientFormat](../../aspose.slides/ilinefillformateffectivedata/gradientformat) { get; } | Vrací formát gradientové výplně. Pouze pro čtení [`IGradientFormatEffectiveData`](../igradientformateffectivedata). |
 | [PatternFormat](../../aspose.slides/ilinefillformateffectivedata/patternformat) { get; } | Vrací formát vzorové výplně. Pouze pro čtení [`IPatternFormatEffectiveData`](../ipatternformateffectivedata). |
-| [RotateWithShape](../../aspose.slides/ilinefillformateffectivedata/rotatewithshape) { get; } | Určuje, zda má být výplň otáčena s tvarem. Pouze pro čtení Boolean. |
+| [RotateWithShape](../../aspose.slides/ilinefillformateffectivedata/rotatewithshape) { get; } | Určuje, zda by výplň měla být otáčena spolu s tvarem. Pouze pro čtení Boolean. |
 | [SolidFillColor](../../aspose.slides/ilinefillformateffectivedata/solidfillcolor) { get; } | Vrací barvu plné výplně. Pouze pro čtení Color. |
 
 ### Poznámky

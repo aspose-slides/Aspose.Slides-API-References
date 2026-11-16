@@ -1,20 +1,20 @@
 ---
 title: IGenericCollectionT
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 補助的なジェネリックコレクションインターフェイスです。
+description: 補助的なジェネリックコレクション インターフェイス。
 type: docs
-weight: 5960
+weight: 5980
 url: /ja/aspose.slides/igenericcollection-1/
 ---
-## IGenericCollection<T> インターフェイス
+## IGenericCollection&lt;T&gt; インターフェイス
 
-補助的なジェネリックコレクションインターフェイスです。
+補助的なジェネリックコレクション インターフェイス。
 
 ```csharp
 public interface IGenericCollection<T> : ICollection, IEnumerable<T>
 ```
 
-| パラメーター | 説明 |
+| パラメータ | 説明 |
 | --- | --- |
 | T |  |
 

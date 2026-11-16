@@ -1,9 +1,9 @@
 ---
 title: HighlightText
-second_title: Aspose.Sildes for .NET APIリファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: 指定された色でサンプルテキストのすべての一致箇所をハイライトします。
 type: docs
-weight: 100
+weight: 110
 url: /ja/aspose.slides/textframe/highlighttext/
 ---
 ## HighlightText(string, Color) {#highlighttext}
@@ -14,12 +14,12 @@ url: /ja/aspose.slides/textframe/highlighttext/
 public void HighlightText(string text, Color highlightColor)
 ```
 
-| パラメーター | 型 | 説明 |
+| パラメーター | タイプ | 説明 |
 | --- | --- | --- |
 | text | String | ハイライトするテキストサンプル。 |
 | highlightColor | Color | テキストをハイライトする色。 |
 
-### 参照
+### 関連項目
 
 * クラス [TextFrame](../../textframe)
 * 名前空間 [Aspose.Slides](../../textframe)
@@ -36,7 +36,7 @@ public void HighlightText(string text, Color highlightColor, ITextSearchOptions 
     IFindResultCallback callback)
 ```
 
-| パラメーター | 型 | 説明 |
+| パラメーター | タイプ | 説明 |
 | --- | --- | --- |
 | text | String | ハイライトするテキスト。 |
 | highlightColor | Color | テキストをハイライトする色。 |
@@ -45,20 +45,22 @@ public void HighlightText(string text, Color highlightColor, ITextSearchOptions 
 
 ### 例
 
+次のコードサンプルは、TextFrame 内のテキストをハイライトする方法を示しています。
+
 ```csharp
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
-	// すべての単語 'important' をハイライト
+	// 'important' というすべての単語をハイライトします
 	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.HighlightText("important", Color.LightBlue);
-	// すべての個別の 'the' の出現箇所をハイライト
+	// 'the' のすべての単独出現をハイライトします
 	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.HighlightText("the", Color.Violet, new TextSearchOptions()
 	{ WholeWordsOnly = true }, null);
 	presentation.Save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 }
 ```
 
-### 参照
+### 関連項目
 
 * インターフェイス [ITextSearchOptions](../../itextsearchoptions)
 * インターフェイス [IFindResultCallback](../../ifindresultcallback)

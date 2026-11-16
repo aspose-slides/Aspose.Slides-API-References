@@ -1,20 +1,20 @@
 ---
 title: PlaceholderType
-second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
+second_title: Aspose.Sildes สำหรับ .NET API Reference
 description: แสดงประเภทของ placeholder.
 type: docs
-weight: 9450
+weight: 9470
 url: /th/aspose.slides/placeholdertype/
 ---
-## PlaceholderType enumeration
+## PlaceholderType การ列舉
 
-Represents the type of a placeholder.
+แสดงประเภทของ placeholder
 
 ```csharp
 public enum PlaceholderType : sbyte
 ```
 
-### ค่าต่างๆ
+### ค่า
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |

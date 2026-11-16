@@ -1,14 +1,14 @@
 ---
 title: CustomXmlPart
 second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Reprezentuje niestandardowy element xml.
+description: Reprezentuje niestandardową część XML.
 type: docs
-weight: 2740
+weight: 2760
 url: /pl/aspose.slides/customxmlpart/
 ---
 ## CustomXmlPart klasa
 
-Reprezentuje niestandardowy element xml.
+Reprezentuje niestandardową część XML.
 
 ```csharp
 public class CustomXmlPart : ICustomXmlPart
@@ -16,18 +16,18 @@ public class CustomXmlPart : ICustomXmlPart
 
 ## Właściwości
 
-| Name | Description |
+| Nazwa | Opis |
 | --- | --- |
-| [ItemId](../../aspose.slides/customxmlpart/itemid) { get; set; } | Określa globalnie unikalny identyfikator (GUID), który jednoznacznie identyfikuje pojedynczy niestandardowy element XML w dokumencie Office Open XML. Guid tylko do odczytu. |
-| [NamespaceSchemas](../../aspose.slides/customxmlpart/namespaceschemas) { get; } | Zwraca kolekcję schematów XML powiązanych z niestandardowym elementem XML. String[] tylko do odczytu. |
-| [XmlAsString](../../aspose.slides/customxmlpart/xmlasstring) { get; set; } | Zwraca lub ustawia dane xml jako ciąg znaków UTF-8. String odczyt/zapis. wartość jest `null`.wartość jest pusta lub dane xml są nieprawidłowe. |
-| [XmlData](../../aspose.slides/customxmlpart/xmldata) { get; set; } | Zwraca lub ustawia dane xml. Byte[] odczyt/zapis. wartość jest `null`.wartość jest pusta lub dane xml są nieprawidłowe. |
+| [ItemId](../../aspose.slides/customxmlpart/itemid) { get; set; } | Określa globalnie unikatowy identyfikator (GUID), który jednoznacznie identyfikuje pojedynczą niestandardową część XML w dokumencie Office Open XML. Guid tylko do odczytu. |
+| [NamespaceSchemas](../../aspose.slides/customxmlpart/namespaceschemas) { get; } | Zwraca zbiór schematów XML, które są powiązane z niestandardową częścią XML. String[] tylko do odczytu. |
+| [XmlAsString](../../aspose.slides/customxmlpart/xmlasstring) { get; set; } | Zwraca lub ustawia dane XML jako ciąg UTF-8. String do odczytu/zapisu. wartość jest `null`. wartość jest pusta lub dane XML są nieprawidłowe. |
+| [XmlData](../../aspose.slides/customxmlpart/xmldata) { get; set; } | Zwraca lub ustawia dane XML. Byte[] do odczytu/zapisu. wartość jest `null`. wartość jest pusta lub dane XML są nieprawidłowe. |
 
 ## Metody
 
-| Name | Description |
+| Nazwa | Opis |
 | --- | --- |
-| [Remove](../../aspose.slides/customxmlpart/remove)() | Usuwa niestandardowy element xml z prezentacji. |
+| [Remove](../../aspose.slides/customxmlpart/remove)() | Usuwa niestandardową część XML z prezentacji. |
 
 ### Zobacz także
 

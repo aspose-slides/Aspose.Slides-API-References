@@ -3,7 +3,7 @@ title: IChartData
 second_title: Aspose.Sildes for .NET API リファレンス
 description: チャートのプロットに使用されるデータを表します。
 type: docs
-weight: 1800
+weight: 1820
 url: /ja/aspose.slides.charts/ichartdata/
 ---
 ## IChartData インターフェイス
@@ -18,27 +18,28 @@ public interface IChartData
 
 | 名前 | 説明 |
 | --- | --- |
-| [Categories](../../aspose.slides.charts/ichartdata/categories) { get; } | 主カテゴリを取得します（[`UseSecondaryCategories`](./usesecondarycategories) プロパティが false の場合は、主カテゴリと副カテゴリの両方を取得します）。読み取り専用 [`IChartCategoryCollection`](../ichartcategorycollection)。 |
-| [ChartDataWorkbook](../../aspose.slides.charts/ichartdata/chartdataworkbook) { get; } | チャートの系列またはカテゴリで使用されるセルを作成するセルファクトリを取得します。読み取り専用 [`IChartDataWorkbook`](../ichartdataworkbook)。 |
-| [DataSourceType](../../aspose.slides.charts/ichartdata/datasourcetype) { get; } | チャートのデータ ソースを表します。 |
-| [EmbeddedWorkbookType](../../aspose.slides.charts/ichartdata/embeddedworkbooktype) { get; } | 埋め込みブックブックのタイプを取得します。[`DataSourceType`](./datasourcetype) が ExternalWorkbook の場合、NotDefined を返します。読み取り専用 [`WorkbookType`](../workbooktype)。 |
-| [ExternalWorkbookPath](../../aspose.slides.charts/ichartdata/externalworkbookpath) { get; } | データ ソースが外部の場合は外部ブックブックのパスを表し、そうでない場合は null を返します。 |
-| [SecondaryCategories](../../aspose.slides.charts/ichartdata/secondarycategories) { get; } | [`UseSecondaryCategories`](./usesecondarycategories) プロパティが true の場合、副カテゴリを取得します。読み取り専用 [`IChartCategoryCollection`](../ichartcategorycollection)。 |
+| [Categories](../../aspose.slides.charts/ichartdata/categories) { get; } | プライマリ カテゴリを取得します（[`UseSecondaryCategories`](./usesecondarycategories) プロパティが false の場合、プライマリとセカンダリの両方のカテゴリを取得します）。読み取り専用 [`IChartCategoryCollection`](../ichartcategorycollection)。 |
+| [ChartDataWorkbook](../../aspose.slides.charts/ichartdata/chartdataworkbook) { get; } | チャート系列またはカテゴリで使用されるセルを作成するセルファクトリを取得します。読み取り専用 [`IChartDataWorkbook`](../ichartdataworkbook)。 |
+| [DataSourceType](../../aspose.slides.charts/ichartdata/datasourcetype) { get; } | チャートのデータ ソースを表します |
+| [EmbeddedWorkbookType](../../aspose.slides.charts/ichartdata/embeddedworkbooktype) { get; } | 埋め込みワークブックのタイプを取得します。[`DataSourceType`](./datasourcetype) が ExternalWorkbook の場合は NotDefined を返します。読み取り専用 [`WorkbookType`](../workbooktype)。 |
+| [ExternalWorkbookPath](../../aspose.slides.charts/ichartdata/externalworkbookpath) { get; } | データ ソースが外部の場合は外部ワークブックのパスを表し、それ以外の場合は null を表します |
+| [SecondaryCategories](../../aspose.slides.charts/ichartdata/secondarycategories) { get; } | [`UseSecondaryCategories`](./usesecondarycategories) プロパティが true の場合、セカンダリ カテゴリを取得します。読み取り専用 [`IChartCategoryCollection`](../ichartcategorycollection)。 |
 | [Series](../../aspose.slides.charts/ichartdata/series) { get; } | 系列を取得します。読み取り専用 [`IChartSeriesCollection`](../ichartseriescollection)。 |
 | [SeriesGroups](../../aspose.slides.charts/ichartdata/seriesgroups) { get; } | 系列のグループを取得します。読み取り専用 [`IChartSeriesGroupCollection`](../ichartseriesgroupcollection)。 |
-| [UseSecondaryCategories](../../aspose.slides.charts/ichartdata/usesecondarycategories) { get; set; } | false の場合、[`SecondaryCategories`](./secondarycategories) プロパティは null を返し、[`Categories`](./categories) プロパティのデータは主系列と副系列の両方に使用されます。true の場合、[`SecondaryCategories`](./secondarycategories) プロパティのデータは副系列に、[`Categories`](./categories) プロパティのデータは主系列に使用されます。読み書き可能な Boolean。 |
+| [UseSecondaryCategories](../../aspose.slides.charts/ichartdata/usesecondarycategories) { get; set; } | false の場合、[`SecondaryCategories`](./secondarycategories) プロパティは null を返し、[`Categories`](./categories) プロパティのデータはプライマリとセカンダリの系列の両方に使用されます。true の場合、[`SecondaryCategories`](./secondarycategories) プロパティのデータはセカンダリ系列に、[`Categories`](./categories) プロパティのデータはプライマリ系列に使用されます。読み書き可能な Boolean。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
 | [GetRange](../../aspose.slides.charts/ichartdata/getrange)() | チャート データ範囲を取得します。 |
-| [ReadWorkbookStream](../../aspose.slides.charts/ichartdata/readworkbookstream)() | 内部に含まれる Excel ブックブックをメモリ内ストリームに書き込みます。 |
-| [SetExternalWorkbook](../../aspose.slides.charts/ichartdata/setexternalworkbook#setexternalworkbook)(string) | 外部ブックブックをチャートのデータ ソースとして設定します。チャート データは対象ブックブックから更新されます。 |
-| [SetExternalWorkbook](../../aspose.slides.charts/ichartdata/setexternalworkbook#setexternalworkbook_1)(string, bool) | 外部ブックブックをチャートのデータ ソースとして設定します。 |
-| [SetRange](../../aspose.slides.charts/ichartdata/setrange)(string) | チャート データ範囲を設定します。系列とカテゴリは新しいデータ範囲に基づいて更新されます。データ範囲内の系列数がチャート データの系列数を超える場合、現在のコレクションの最後の系列と同じタイプの追加系列がコレクションの末尾に追加されます。 |
-| [SwitchRowColumn](../../aspose.slides.charts/ichartdata/switchrowcolumn)() | 軸上のデータを入れ替えます。X 軸でプロットされたデータは Y 軸に移動し、逆も同様です。 |
-| [WriteWorkbookStream](../../aspose.slides.charts/ichartdata/writeworkbookstream)(MemoryStream) | 内部に含まれる Excel ブックブックをユーザー指定の値で初期化します。 |
+| [ReadWorkbookStream](../../aspose.slides.charts/ichartdata/readworkbookstream)() | 内部に含まれる Excel ワークブックをメモリ ストリームに書き込みます。 |
+| [RefreshData](../../aspose.slides.charts/ichartdata/refreshdata)() | ソース ワークブックから再読み込みしてチャート データを更新します。 |
+| [SetExternalWorkbook](../../aspose.slides.charts/ichartdata/setexternalworkbook#setexternalworkbook)(string) | 外部ワークブックをチャートのデータ ソースとして設定します。チャート データはターゲット ワークブックから更新されます。 |
+| [SetExternalWorkbook](../../aspose.slides.charts/ichartdata/setexternalworkbook#setexternalworkbook_1)(string, bool) | 外部ワークブックをチャートのデータ ソースとして設定します。 |
+| [SetRange](../../aspose.slides.charts/ichartdata/setrange)(string) | チャート データ範囲を設定します。シリーズとカテゴリは新しいデータ範囲に基づいて更新されます。データ範囲のシリーズ数がチャート データのシリーズ数より多い場合、現在のコレクションの最後のシリーズと同じタイプの追加シリーズがコレクションの末尾に追加されます。 |
+| [SwitchRowColumn](../../aspose.slides.charts/ichartdata/switchrowcolumn)() | 軸上のデータを入れ替えます。X 軸でチャート化されているデータが Y 軸に移動し、その逆も同様です。 |
+| [WriteWorkbookStream](../../aspose.slides.charts/ichartdata/writeworkbookstream)(MemoryStream) | 内部に含まれる Excel ワークブックをユーザー指定の値で初期化します。 |
 
 ### 参照
 

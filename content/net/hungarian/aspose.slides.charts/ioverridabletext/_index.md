@@ -1,14 +1,14 @@
 ---
 title: IOverridableText
-second_title: Aspose.Sildes .NET API referencia
-description: Felülírható szöveget képvisel egy diagramhoz.
+second_title: Aspose.Sildes a .NET API referenciához
+description: Ábrához felülírható szöveget képvisel.
 type: docs
-weight: 2180
+weight: 2200
 url: /hu/aspose.slides.charts/ioverridabletext/
 ---
 ## IOverridableText interfész
 
-Felülírható szöveget képvisel egy diagramhoz.
+A diagram felülírható szövegét képviseli.
 
 ```csharp
 public interface IOverridableText : IFormattedTextContainer
@@ -19,13 +19,13 @@ public interface IOverridableText : IFormattedTextContainer
 | Név | Leírás |
 | --- | --- |
 | [AsIFormattedTextContainer](../../aspose.slides.charts/ioverridabletext/asiformattedtextcontainer) { get; } | Lehetővé teszi az alap IFormattedTextContainer interfész lekérését. Csak olvasható [`IFormattedTextContainer`](../iformattedtextcontainer). |
-| [TextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/textframeforoverriding) { get; } | Tartalmazhat gazdag formázott szöveget. Ha ez a tulajdonság nem null, akkor ez a formázott szöveg érték felülírja az automatikusan generált szöveget. Az automatikusan generált szöveg a data label, a display unit label of the value axis, a axis title, a chart title, a label of the trendline implícit tulajdonsága. Az automatikusan generált szöveget a IFormattedTextContainer.TextFormat tulajdonság formázza. Csak olvasható [`ITextFrame`](../../aspose.slides/itextframe). |
+| [TextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/textframeforoverriding) { get; } | Tartalmazhat gazdag formázott szöveget. Ha ez a tulajdonság nem null, akkor ez a formázott szövegérték felülírja az automatikusan generált szöveget. Az automatikusan generált szöveg a adatcímke, az értéktengely megjelenítési egység címkéje, a tengelycím, a diagramcím, a trendvonal címkéje implicit tulajdonsága. Az automatikusan generált szöveget az IFormattedTextContainer.TextFormat tulajdonsággal formázzák. Csak olvasható [`ITextFrame`](../../aspose.slides/itextframe). |
 
 ## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [AddTextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/addtextframeforoverriding)(string) | Inicializálja a TextFrameForOverriding-et a paraméterben megadott "text" szöveggel. Ha a TextFrameForOverriding már inicializálva van, akkor egyszerűen megváltoztatja annak szövegét. |
+| [AddTextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/addtextframeforoverriding)(string) | Inicializálja a TextFrameForOverriding objektumot a "text" paraméterben megadott szöveggel. Ha a TextFrameForOverriding már inicializálva van, akkor egyszerűen módosítja a szövegét. |
 
 ### Lásd még
 

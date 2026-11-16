@@ -1,14 +1,14 @@
 ---
 title: DigitalSignatureCollection
-second_title: Aspose.Sildes dla .NET – odniesienie API
+second_title: Aspose.Sildes dla .NET API Reference
 description: Reprezentuje kolekcję podpisów cyfrowych dołączonych do dokumentu.
 type: docs
-weight: 2780
+weight: 2800
 url: /pl/aspose.slides/digitalsignaturecollection/
 ---
 ## DigitalSignatureCollection klasa
 
-Reprezentuje kolekcję podpisów cyfrowych dołączonych do dokumentu.
+Represents a collection of digital signatures attached to a document.
 
 ```csharp
 public class DigitalSignatureCollection : DomObject<Presentation>, IDigitalSignatureCollection
@@ -19,19 +19,19 @@ public class DigitalSignatureCollection : DomObject<Presentation>, IDigitalSigna
 | Name | Description |
 | --- | --- |
 | [Count](../../aspose.slides/digitalsignaturecollection/count) { get; } | Zwraca liczbę elementów w kolekcji. Tylko do odczytu Int32. |
-| [IsSynchronized](../../aspose.slides/digitalsignaturecollection/issynchronized) { get; } | Zwraca wartość wskazującą, czy dostęp do kolekcji jest synchronizowany (thread-safe). Tylko do odczytu Boolean. |
-| [Item](../../aspose.slides/digitalsignaturecollection/item) { get; } | Zwraca podpis według indeksu. |
+| [IsSynchronized](../../aspose.slides/digitalsignaturecollection/issynchronized) { get; } | Zwraca wartość wskazującą, czy dostęp do kolekcji jest zsynchronizowany (wątkowo-bezpieczny). Tylko do odczytu Boolean. |
+| [Item](../../aspose.slides/digitalsignaturecollection/item) { get; } | Zwraca sygnaturę według indeksu. |
 | [SyncRoot](../../aspose.slides/digitalsignaturecollection/syncroot) { get; } | Zwraca korzeń synchronizacji. Tylko do odczytu Object. |
 
 ## Metody
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.slides/digitalsignaturecollection/add)(IDigitalSignature) | Dodaje podpis na końcu kolekcji. |
-| [Clear](../../aspose.slides/digitalsignaturecollection/clear)() | Usuwa wszystkie podpisy z kolekcji. |
+| [Add](../../aspose.slides/digitalsignaturecollection/add)(IDigitalSignature) | Dodaje sygnaturę na koniec kolekcji. |
+| [Clear](../../aspose.slides/digitalsignaturecollection/clear)() | Usuwa wszystkie sygnatury z kolekcji. |
 | [CopyTo](../../aspose.slides/digitalsignaturecollection/copyto)(Array, int) | Kopiuje wszystkie elementy z kolekcji do określonej tablicy. |
-| [GetEnumerator](../../aspose.slides/digitalsignaturecollection/getenumerator)() | Zwraca enumerator, który iteruje po kolekcji. |
-| [RemoveAt](../../aspose.slides/digitalsignaturecollection/removeat)(int) | Usuwa podpis pod określonym indeksem. |
+| [GetEnumerator](../../aspose.slides/digitalsignaturecollection/getenumerator)() | Zwraca wylicznik, który iteruje po kolekcji. |
+| [RemoveAt](../../aspose.slides/digitalsignaturecollection/removeat)(int) | Usuwa sygnaturę pod określonym indeksem. |
 
 ### Zobacz także
 

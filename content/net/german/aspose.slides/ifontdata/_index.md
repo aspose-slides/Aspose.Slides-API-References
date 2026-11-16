@@ -3,7 +3,7 @@ title: IFontData
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt eine Schriftartdefinition dar.
 type: docs
-weight: 5830
+weight: 5850
 url: /de/aspose.slides/ifontdata/
 ---
 ## IFontData Schnittstelle
@@ -18,13 +18,13 @@ public interface IFontData
 
 | Name | Beschreibung |
 | --- | --- |
-| [FontName](../../aspose.slides/ifontdata/fontname) { get; } | Gibt den Schriftartnamen zurück. Nur lesbar String. |
+| [FontName](../../aspose.slides/ifontdata/fontname) { get; } | Gibt den Schriftartnamen zurück. Nur-Lesen String. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [GetFontName](../../aspose.slides/ifontdata/getfontname)(IThemeEffectiveData) | Gibt den Schriftartnamen zurück und ersetzt die Theme-Referenz durch die tatsächlich verwendete Schriftart. |
+| [GetFontName](../../aspose.slides/ifontdata/getfontname)(IThemeEffectiveData) | Gibt den Schriftartnamen zurück und ersetzt die Themenreferenz durch die tatsächlich verwendete Schriftart. |
 
 ### Siehe auch
 

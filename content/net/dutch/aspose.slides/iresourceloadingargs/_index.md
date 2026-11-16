@@ -1,14 +1,14 @@
 ---
 title: IResourceLoadingArgs
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Interface voor argumenten bij het laden van externe resources.
+description: Interface voor externe resource-laadargumenten.
 type: docs
-weight: 6830
+weight: 6850
 url: /nl/aspose.slides/iresourceloadingargs/
 ---
 ## IResourceLoadingArgs interface
 
-Interface voor argumenten bij het laden van externe resources.
+Interface voor externe resource-laadargumenten.
 
 ```csharp
 public interface IResourceLoadingArgs
@@ -18,14 +18,14 @@ public interface IResourceLoadingArgs
 
 | Naam | Beschrijving |
 | --- | --- |
-| [OriginalUri](../../aspose.slides/iresourceloadingargs/originaluri) { get; } | Originele URI van de resource zoals gespecificeerd in de geïmporteerde presentatie. |
-| [Uri](../../aspose.slides/iresourceloadingargs/uri) { get; set; } | URI van de resource die wordt gebruikt voor downloaden als [`ResourceLoading`](../iresourceloadingcallback/resourceloading) Default retourneert. Aanvankelijk is deze ingesteld op de originele URI van de resource, maar kan naar elke waarde worden herdefinieerd. |
+| [OriginalUri](../../aspose.slides/iresourceloadingargs/originaluri) { get; } | Oorspronkelijke URI van de resource zoals gespecificeerd in de geïmporteerde presentatie. |
+| [Uri](../../aspose.slides/iresourceloadingargs/uri) { get; set; } | URI van de resource die wordt gebruikt voor het downloaden als [`ResourceLoading`](../iresourceloadingcallback/resourceloading) Default retourneert. Aanvankelijk is dit ingesteld op de oorspronkelijke URI van de resource, maar kan worden hergedefinieerd naar elke waarde. |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| [SetData](../../aspose.slides/iresourceloadingargs/setdata)(byte[]) | Stelt door de gebruiker verstrekte gegevens van de resource in die worden gebruikt als [`ResourceLoading`](../iresourceloadingcallback/resourceloading) UserProvided retourneert. |
+| [SetData](../../aspose.slides/iresourceloadingargs/setdata)(byte[]) | Stelt door de gebruiker geleverde gegevens van de resource in die worden gebruikt als [`ResourceLoading`](../iresourceloadingcallback/resourceloading) UserProvided retourneert. |
 
 ### Zie ook
 

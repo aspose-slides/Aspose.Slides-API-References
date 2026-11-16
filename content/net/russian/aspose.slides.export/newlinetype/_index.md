@@ -1,14 +1,14 @@
 ---
 title: NewLineType
-second_title: Aspose.Sildes для .NET справка по API
-description: Тип новой строки, который будет использоваться в сгенерированном документе.
+second_title: Справочник API Aspose.Sildes для .NET
+description: Тип разрыва строки, который будет использоваться в сгенерированном документе.
 type: docs
-weight: 4280
+weight: 4300
 url: /ru/aspose.slides.export/newlinetype/
 ---
-## NewLineType перечисление
+## Перечисление NewLineType
 
-Тип новой строки, который будет использоваться в сгенерированном документе.
+Тип разрыва строки, который будет использоваться в сгенерированном документе.
 
 ```csharp
 public enum NewLineType
@@ -20,7 +20,7 @@ public enum NewLineType
 | --- | --- | --- |
 | Windows | `0` |  |
 | Unix | `1` |  |
-| Mac | `2` | Mac (OS 9) новая строка - \\r |
+| Mac | `2` | Mac (OS 9) new line - \\r |
 
 ### Примеры
 

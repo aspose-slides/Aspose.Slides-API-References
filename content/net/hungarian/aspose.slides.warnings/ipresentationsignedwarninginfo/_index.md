@@ -1,14 +1,14 @@
 ---
 title: IPresentationSignedWarningInfo
-second_title: Aspose.Sildes .NET API referencia
-description: Ez a figyelmeztetés azt jelzi, hogy a beolvasott prezentáció aláírással rendelkezik, és ez az aláírás a feldolgozás során eltávolításra kerül.
+second_title: Aspose.Sildes a .NET API Referencia
+description: Ez a figyelmeztetés azt jelzi, hogy a beolvasott előadás rendelkezik aláírással, és ez az aláírás a feldolgozás során el lesz távolítva.
 type: docs
-weight: 11790
+weight: 11810
 url: /hu/aspose.slides.warnings/ipresentationsignedwarninginfo/
 ---
 ## IPresentationSignedWarningInfo interfész
 
-Ez a figyelmeztetés azt jelzi, hogy a beolvasott bemutató aláírással rendelkezik, és ez az aláírás a feldolgozás során eltávolításra kerül.
+Ez a figyelmeztetés azt jelzi, hogy a beolvasott előadás tartalmaz aláírást, és ez az aláírás a feldolgozás során eltávolításra kerül.
 
 ```csharp
 public interface IPresentationSignedWarningInfo : IWarningInfo
@@ -18,7 +18,7 @@ public interface IPresentationSignedWarningInfo : IWarningInfo
 
 | Név | Leírás |
 | --- | --- |
-| [AsIWarningInfo](../../aspose.slides.warnings/ipresentationsignedwarninginfo/asiwarninginfo) { get; } | Visszaadja IWarningInfo interfész. Csak olvasható [`IWarningInfo`](../iwarninginfo). |
+| [AsIWarningInfo](../../aspose.slides.warnings/ipresentationsignedwarninginfo/asiwarninginfo) { get; } | Visszaadja az IWarningInfo interfészt. Csak olvasható [`IWarningInfo`](../iwarninginfo). |
 
 ### Lásd még
 

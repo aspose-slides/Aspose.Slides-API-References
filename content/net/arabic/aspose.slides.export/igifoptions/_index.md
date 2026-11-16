@@ -3,7 +3,7 @@ title: IGifOptions
 second_title: Aspose.Sildes لـ .NET مرجع API
 description: يمثل خيارات تصدير GIF.
 type: docs
-weight: 3920
+weight: 3940
 url: /ar/aspose.slides.export/igifoptions/
 ---
 ## IGifOptions واجهة
@@ -18,13 +18,13 @@ public interface IGifOptions : ISaveOptions
 
 | الاسم | الوصف |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/igifoptions/asisaveoptions) { get; } | يرجع واجهة ISaveOptions. للقراءة فقط [`ISaveOptions`](../isaveoptions). |
-| [DefaultDelay](../../aspose.slides.export/igifoptions/defaultdelay) { get; set; } | يحصل أو يحدد زمن التأخير الافتراضي [ms]. سيتم استخدام هذه القيمة إذا لم يتم تعيين [`AdvanceAfterTime`](../../aspose.slides/islideshowtransition/advanceaftertime). القيمة الافتراضية هي 1000. |
-| [ExportHiddenSlides](../../aspose.slides.export/igifoptions/exporthiddenslides) { get; set; } | يحدد ما إذا كانت الشرائح المخفية سيتم تصديرها. القيمة الافتراضية هي false. |
+| [AsISaveOptions](../../aspose.slides.export/igifoptions/asisaveoptions) { get; } | يعيد ISaveOptions interface. للقراءة فقط [`ISaveOptions`](../isaveoptions). |
+| [DefaultDelay](../../aspose.slides.export/igifoptions/defaultdelay) { get; set; } | يحصل أو يحدد وقت التأخير الافتراضي [ms]. سيتم استخدام هذه القيمة إذا لم يتم تعيين [`AdvanceAfterTime`](../../aspose.slides/islideshowtransition/advanceaftertime). القيمة الافتراضية هي 1000. |
+| [ExportHiddenSlides](../../aspose.slides.export/igifoptions/exporthiddenslides) { get; set; } | يتحدد ما إذا كانت الشرائح المخفية سيتم تصديرها. القيمة الافتراضية هي false. |
 | [FrameSize](../../aspose.slides.export/igifoptions/framesize) { get; set; } | يحصل أو يحدد حجم الإطار. |
-| [TransitionFps](../../aspose.slides.export/igifoptions/transitionfps) { get; set; } | يحصل أو يحدد FPS الانتقال [frames/sec]. القيمة الافتراضية هي 25. |
+| [TransitionFps](../../aspose.slides.export/igifoptions/transitionfps) { get; set; } | يحصل أو يحدد معدل الإطارات للانتقال [frames/sec] القيمة الافتراضية هي 25. |
 
-### انظر أيضًا
+### انظر أيضا
 
 * واجهة [ISaveOptions](../isaveoptions)
 * نطاق الاسم [Aspose.Slides.Export](../../aspose.slides.export)

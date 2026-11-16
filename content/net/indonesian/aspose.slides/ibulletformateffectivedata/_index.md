@@ -1,14 +1,14 @@
 ---
 title: IBulletFormatEffectiveData
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Objek tak dapat diubah yang berisi properti format bullet paragraf secara efektif.
+description: Objek tak dapat diubah yang berisi properti format bullet paragraf yang efektif.
 type: docs
-weight: 5400
+weight: 5420
 url: /id/aspose.slides/ibulletformateffectivedata/
 ---
 ## IBulletFormatEffectiveData antarmuka
 
-Objek tak dapat diubah yang berisi properti format bullet paragraf secara efektif.
+Objek tak dapat diubah yang berisi properti format bullet paragraf yang efektif.
 
 ```csharp
 public interface IBulletFormatEffectiveData
@@ -16,18 +16,18 @@ public interface IBulletFormatEffectiveData
 
 ## Properti
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
-| [ActualBulletValue](../../aspose.slides/ibulletformateffectivedata/actualbulletvalue) { get; } | Mengembalikan nilai bullet aktual untuk paragraf induk. Read-only String. |
-| [Char](../../aspose.slides/ibulletformateffectivedata/char) { get; } | Mengembalikan karakter bullet dari sebuah paragraf. Read-only Char. |
-| [FillFormat](../../aspose.slides/ibulletformateffectivedata/fillformat) { get; } | Mengembalikan format isian bullet dari sebuah paragraf. Read-only [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
-| [Font](../../aspose.slides/ibulletformateffectivedata/font) { get; } | Mengembalikan font bullet dari sebuah paragraf. Read-only [`IFontData`](../ifontdata). |
-| [Height](../../aspose.slides/ibulletformateffectivedata/height) { get; } | Mengembalikan tinggi bullet dari sebuah paragraf. Read-only Single. |
-| [IsBulletHardColor](../../aspose.slides/ibulletformateffectivedata/isbullethardcolor) { get; } | Menentukan apakah bullet memiliki warna sendiri atau mewarisinya dari bagian pertama dalam paragraf. Mengembalikan **true** jika bullet memiliki warna sendiri dan **false** jika bullet mewarisi warna dari bagian pertama dalam paragraf. Read-only Boolean. |
-| [IsBulletHardFont](../../aspose.slides/ibulletformateffectivedata/isbullethardfont) { get; } | Menentukan apakah bullet memiliki font sendiri atau mewarisinya dari bagian pertama dalam paragraf. Mengembalikan **true** jika bullet memiliki font sendiri dan **true** jika bullet mewarisi font dari bagian pertama dalam paragraf. Read-only Boolean. |
-| [NumberedBulletStartWith](../../aspose.slides/ibulletformateffectivedata/numberedbulletstartwith) { get; } | Mengembalikan nomor pertama yang digunakan untuk kelompok bullet bernomor. Read-only Int16. |
-| [NumberedBulletStyle](../../aspose.slides/ibulletformateffectivedata/numberedbulletstyle) { get; } | Mengembalikan gaya bullet bernomor. Read-only [`NumberedBulletStyle`](../numberedbulletstyle). |
-| [Type](../../aspose.slides/ibulletformateffectivedata/type) { get; } | Mengembalikan tipe bullet dari sebuah paragraf. Read-only [`BulletType`](../bullettype). |
+| [ActualBulletValue](../../aspose.slides/ibulletformateffectivedata/actualbulletvalue) { get; } | Mengembalikan nilai bullet aktual untuk paragraf induk. Hanya-baca String. |
+| [Char](../../aspose.slides/ibulletformateffectivedata/char) { get; } | Mengembalikan karakter bullet dari sebuah paragraf. Hanya-baca Char. |
+| [FillFormat](../../aspose.slides/ibulletformateffectivedata/fillformat) { get; } | Mengembalikan format isi bullet dari sebuah paragraf. Hanya-baca [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
+| [Font](../../aspose.slides/ibulletformateffectivedata/font) { get; } | Mengembalikan font bullet dari sebuah paragraf. Hanya-baca [`IFontData`](../ifontdata). |
+| [Height](../../aspose.slides/ibulletformateffectivedata/height) { get; } | Mengembalikan tinggi bullet dari sebuah paragraf. Hanya-baca Single. |
+| [IsBulletHardColor](../../aspose.slides/ibulletformateffectivedata/isbullethardcolor) { get; } | Menentukan apakah bullet memiliki warna sendiri atau mewarisinya dari bagian pertama dalam paragraf. Mengembalikan **true** jika bullet memiliki warna sendiri dan **false** jika bullet mewarisi warna dari bagian pertama dalam paragraf. Hanya-baca Boolean. |
+| [IsBulletHardFont](../../aspose.slides/ibulletformateffectivedata/isbullethardfont) { get; } | Menentukan apakah bullet memiliki font sendiri atau mewarisinya dari bagian pertama dalam paragraf. Mengembalikan **true** jika bullet memiliki font sendiri dan **true** jika bullet mewarisi font dari bagian pertama dalam paragraf. Hanya-baca Boolean. |
+| [NumberedBulletStartWith](../../aspose.slides/ibulletformateffectivedata/numberedbulletstartwith) { get; } | Mengembalikan nomor pertama yang digunakan untuk kelompok bullet bernomor. Hanya-baca Int16. |
+| [NumberedBulletStyle](../../aspose.slides/ibulletformateffectivedata/numberedbulletstyle) { get; } | Mengembalikan gaya bullet bernomor. Hanya-baca [`NumberedBulletStyle`](../numberedbulletstyle). |
+| [Type](../../aspose.slides/ibulletformateffectivedata/type) { get; } | Mengembalikan tipe bullet dari sebuah paragraf. Hanya-baca [`BulletType`](../bullettype). |
 
 ### Catatan
 

@@ -1,14 +1,14 @@
 ---
 title: ShredTransition
 second_title: Aspose.Sildes .NET API referencia
-description: Shred diavetítés átmeneti effektus.
+description: Szakadó diaátmenet hatása.
 type: docs
-weight: 10300
+weight: 10320
 url: /hu/aspose.slides.slideshow/shredtransition/
 ---
 ## ShredTransition osztály
 
-Shred diavetítés átmeneti effektus.
+Szakadó diaátmenet hatás.
 
 ```csharp
 public class ShredTransition : TransitionValueBase, IShredTransition
@@ -18,15 +18,15 @@ public class ShredTransition : TransitionValueBase, IShredTransition
 
 | Név | Leírás |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/shredtransition/direction) { get; set; } | A transzíció iránya. Olvasás/írás [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [Pattern](../../aspose.slides.slideshow/shredtransition/pattern) { get; set; } | Meghatározza a transzíció során használt vizuális elemek alakját. Olvasás/írás [`TransitionShredPattern`](../transitionshredpattern). |
+| [Direction](../../aspose.slides.slideshow/shredtransition/direction) { get; set; } | Az átmenet iránya. Olvasás/írás [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
+| [Pattern](../../aspose.slides.slideshow/shredtransition/pattern) { get; set; } | Meghatározza az átmenet során használt vizuális elemek alakját. Olvasás/írás [`TransitionShredPattern`](../transitionshredpattern). |
 
 ## Módszerek
 
 | Név | Leírás |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Megállapítja, hogy a két TransitionValueBase példány egyenlő-e. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Hashfüggvényként szolgál egy adott típushoz, amely alkalmas hash-algoritmusokban és olyan adatstruktúrákban, mint a hash-táblázat. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Hashfüggvényként szolgál egy adott típushoz, amely alkalmas hash-algoritmusokban és olyan adatstruktúrákban, mint a hash tábla. |
 
 ### Lásd még
 

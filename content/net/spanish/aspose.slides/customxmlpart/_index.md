@@ -1,14 +1,14 @@
 ---
 title: CustomXmlPart
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Representa una parte xml personalizada.
+description: Representa una parte XML personalizada.
 type: docs
-weight: 2740
+weight: 2760
 url: /es/aspose.slides/customxmlpart/
 ---
 ## CustomXmlPart clase
 
-Representa una parte xml personalizada.
+Representa una parte XML personalizada.
 
 ```csharp
 public class CustomXmlPart : ICustomXmlPart
@@ -18,16 +18,16 @@ public class CustomXmlPart : ICustomXmlPart
 
 | Nombre | Descripción |
 | --- | --- |
-| [ItemId](../../aspose.slides/customxmlpart/itemid) { get; set; } | Especifica un identificador globalmente único (GUID) que identifica de forma única una única parte XML personalizada dentro de un documento Office Open XML. Sólo de lectura Guid. |
-| [NamespaceSchemas](../../aspose.slides/customxmlpart/namespaceschemas) { get; } | Devuelve la colección de esquemas XML que están asociados con la parte XML personalizada. Sólo de lectura String[]. |
-| [XmlAsString](../../aspose.slides/customxmlpart/xmlasstring) { get; set; } | Obtiene o establece los datos XML como cadena UTF-8. Lectura/escritura String. el valor es `null`. el valor está vacío o los datos XML son inválidos. |
-| [XmlData](../../aspose.slides/customxmlpart/xmldata) { get; set; } | Obtiene o establece los datos XML. Lectura/escritura Byte[]. el valor es `null`. el valor está vacío o los datos XML son inválidos. |
+| [ItemId](../../aspose.slides/customxmlpart/itemid) { get; set; } | Especifica un identificador global único (GUID) que identifica de forma exclusiva una única parte XML personalizada dentro de un documento Office Open XML. Solo de lectura Guid. |
+| [NamespaceSchemas](../../aspose.slides/customxmlpart/namespaceschemas) { get; } | Devuelve la colección de esquemas XML que están asociados con la parte XML personalizada. Solo de lectura String[]. |
+| [XmlAsString](../../aspose.slides/customxmlpart/xmlasstring) { get; set; } | Devuelve o establece los datos xml como cadena UTF-8. Lectura/escritura String. el valor es `null`. el valor está vacío o los datos xml son inválidos. |
+| [XmlData](../../aspose.slides/customxmlpart/xmldata) { get; set; } | Devuelve o establece los datos xml. Lectura/escritura Byte[]. el valor es `null`. el valor está vacío o los datos xml son inválidos. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [Remove](../../aspose.slides/customxmlpart/remove)() | Elimina la parte xml personalizada de la presentación. |
+| [Remove](../../aspose.slides/customxmlpart/remove)() | Elimina la parte XML personalizada de la presentación. |
 
 ### Ver también
 

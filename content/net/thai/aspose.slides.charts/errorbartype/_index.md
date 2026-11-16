@@ -1,14 +1,14 @@
 ---
 title: ErrorBarType
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงประเภทของ error bar
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: แสดงประเภทของแถบความคลาดเคลื่อน
 type: docs
-weight: 1640
+weight: 1650
 url: /th/aspose.slides.charts/errorbartype/
 ---
-## ErrorBarType การนับค่า
+## ErrorBarType enumeration
 
-แสดงประเภทของ error bar
+แสดงประเภทของแถบความคลาดเคลื่อน
 
 ```csharp
 public enum ErrorBarType
@@ -18,9 +18,9 @@ public enum ErrorBarType
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
-| Both | `0` | ระบุว่า error bars จะถูกแสดงในทิศทางบวกและลบ |
-| Minus | `1` | ระบุว่า error bars จะถูกแสดงในทิศทางลบเท่านั้น |
-| Plus | `2` | ระบุว่า error bars จะถูกแสดงในทิศทางบวกเท่านั้น |
+| Both | `0` | ระบุว่าแถบความคลาดเคลื่อนจะแสดงในทิศทางบวกและลบ |
+| Minus | `1` | ระบุว่าแถบความคลาดเคลื่อนจะแสดงในทิศทางลบเท่านั้น |
+| Plus | `2` | ระบุว่าแถบความคลาดเคลื่อนจะแสดงในทิศทางบวกเท่านั้น |
 
 ### ดูเพิ่มเติม
 

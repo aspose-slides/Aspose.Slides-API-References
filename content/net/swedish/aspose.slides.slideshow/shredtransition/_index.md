@@ -1,14 +1,14 @@
 ---
 title: ShredTransition
 second_title: Aspose.Sildes för .NET API-referens
-description: Shred-effekt för bildspelsövergång.
+description: Shred-bildövergångseffekt.
 type: docs
-weight: 10300
+weight: 10320
 url: /sv/aspose.slides.slideshow/shredtransition/
 ---
-## klass ShredTransition
+## ShredTransition klass
 
-Shred-effekt för bildspelsövergång.
+Shred-bildövergångseffekt.
 
 ```csharp
 public class ShredTransition : TransitionValueBase, IShredTransition
@@ -16,19 +16,19 @@ public class ShredTransition : TransitionValueBase, IShredTransition
 
 ## Egenskaper
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
 | [Direction](../../aspose.slides.slideshow/shredtransition/direction) { get; set; } | Riktning för övergången. Läs/skriv [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
 | [Pattern](../../aspose.slides.slideshow/shredtransition/pattern) { get; set; } | Anger formen på de visuella element som används under övergången. Läs/skriv [`TransitionShredPattern`](../transitionshredpattern). |
 
 ## Metoder
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Avgör om två TransitionValueBase-instanser är lika. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Fungerar som en hash-funktion för en viss typ, lämplig för användning i hash-algoritmer och datastrukturer som en hashtabell. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Bestämmer om de två TransitionValueBase-instanserna är lika. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Fungerar som en hashfunktion för en viss typ, lämplig för användning i hashalgoritmer och datastrukturer som en hashtabell. |
 
-### Se också
+### Se även
 
 * klass [TransitionValueBase](../transitionvaluebase)
 * gränssnitt [IShredTransition](../ishredtransition)

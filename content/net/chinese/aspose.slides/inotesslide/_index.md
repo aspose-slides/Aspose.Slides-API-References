@@ -3,7 +3,7 @@ title: INotesSlide
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示演示文稿中的备注幻灯片。
 type: docs
-weight: 6500
+weight: 6520
 url: /zh/aspose.slides/inotesslide/
 ---
 ## INotesSlide 接口
@@ -21,10 +21,10 @@ public interface INotesSlide : IBaseSlide, IOverrideThemeable
 | [AsIBaseSlide](../../aspose.slides/inotesslide/asibaseslide) { get; } | 允许获取基 IBaseSlide 接口。只读 [`IBaseSlide`](../ibaseslide)。 |
 | [AsIOverrideThemeable](../../aspose.slides/inotesslide/asioverridethemeable) { get; } | 返回 IOverrideThemeable 接口。只读 [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable)。 |
 | [HeaderFooterManager](../../aspose.slides/inotesslide/headerfootermanager) { get; } | 返回 备注幻灯片的 HeaderFooter 管理器。只读 [`INotesSlideHeaderFooterManager`](../inotesslideheaderfootermanager)。 |
-| [NotesTextFrame](../../aspose.slides/inotesslide/notestextframe) { get; } | 如果存在，则返回带有备注文本的 TextFrame。只读 [`ITextFrame`](../itextframe)。 |
+| [NotesTextFrame](../../aspose.slides/inotesslide/notestextframe) { get; } | 如果存在，则返回包含备注文本的 TextFrame。只读 [`ITextFrame`](../itextframe)。 |
 | [ParentSlide](../../aspose.slides/inotesslide/parentslide) { get; } | 返回 ParentSlide。只读 [`ISlide`](../islide)。 |
 
-### 另请参见
+### 另见
 
 * 接口 [IBaseSlide](../ibaseslide)
 * 接口 [IOverrideThemeable](../../aspose.slides.theme/ioverridethemeable)

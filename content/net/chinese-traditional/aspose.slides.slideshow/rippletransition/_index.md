@@ -1,33 +1,33 @@
 ---
 title: RippleTransition
-second_title: Aspose.Sildes .NET API 參考
-description: Ripple 投影片過渡效果。
+second_title: Aspose.Slides for .NET API 參考
+description: Ripple 幻燈片過渡效果。
 type: docs
-weight: 10290
+weight: 10310
 url: /zh-hant/aspose.slides.slideshow/rippletransition/
 ---
-## RippleTransition class
+## RippleTransition 類別
 
-Ripple 投影片過渡效果。
+Ripple 幻燈片過渡效果。
 
 ```csharp
 public class RippleTransition : TransitionValueBase, IRippleTransition
 ```
 
-## Properties
+## 屬性
 
-| 名稱 | 描述 |
+| 名稱 | 說明 |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/rippletransition/direction) { get; set; } | 方向過渡。讀寫 [`TransitionCornerAndCenterDirectionType`](../transitioncornerandcenterdirectiontype)。 |
+| [Direction](../../aspose.slides.slideshow/rippletransition/direction) { get; set; } | 過渡方向。讀/寫 [`TransitionCornerAndCenterDirectionType`](../transitioncornerandcenterdirectiontype)。 |
 
-## Methods
+## 方法
 
-| 名稱 | 描述 |
+| 名稱 | 說明 |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 判斷兩個 TransitionValueBase 實例是否相等。 |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 作為特定類型的雜湊函式，適用於雜湊演算法和資料結構（如雜湊表）。 |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 為特定類型提供雜湊函式，適用於雜湊演算法和資料結構（例如雜湊表）。 |
 
-### See Also
+### 另請參閱
 
 * 類別 [TransitionValueBase](../transitionvaluebase)
 * 介面 [IRippleTransition](../irippletransition)

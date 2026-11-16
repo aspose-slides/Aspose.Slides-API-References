@@ -1,14 +1,14 @@
 ---
 title: IStreamWrapperFactory
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: StreamWrappers का फ़ैक्टरी। COM इंटरफ़ेस के लिए।
+description: StreamWrappers का फैक्टरी। COM इंटरफ़ेस के लिए।
 type: docs
-weight: 7140
+weight: 7160
 url: /hi/aspose.slides/istreamwrapperfactory/
 ---
 ## IStreamWrapperFactory इंटरफ़ेस
 
-StreamWrappers का फ़ैक्टरी। COM इंटरफ़ेस के लिए।
+Factory of StreamWrappers. For COM interface.
 
 ```csharp
 public interface IStreamWrapperFactory
@@ -21,9 +21,9 @@ public interface IStreamWrapperFactory
 | [CreateFileStreamWrapper](../../aspose.slides/istreamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper)(string, FileMode) | निर्दिष्ट पथ और निर्माण मोड के साथ FileStream बनाता है। |
 | [CreateFileStreamWrapper](../../aspose.slides/istreamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper_1)(string, FileMode, FileAccess) | निर्दिष्ट पथ, निर्माण मोड और पढ़ने/लिखने की अनुमति के साथ FileStream बनाता है। |
 | [CreateMemoryStreamWrapper](../../aspose.slides/istreamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper)() | MemoryStream रैपर बनाता है। |
-| [CreateMemoryStreamWrapper](../../aspose.slides/istreamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper_1)(byte[]) | निर्दिष्ट बाइट ऐरे के आधार पर MemoryStream रैपर बनाता है। |
+| [CreateMemoryStreamWrapper](../../aspose.slides/istreamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper_1)(byte[]) | निर्दिष्ट बाइट एरे के आधार पर MemoryStream रैपर बनाता है। |
 
-### संबंधित देखें
+### देखें
 
 * नेमस्पेस [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

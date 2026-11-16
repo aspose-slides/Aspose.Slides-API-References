@@ -1,14 +1,14 @@
 ---
 title: ZoomImageType
-second_title: Aspose.Sildes dla .NET - odniesienie API
-description: Określa, czy obiekt Zoom używa podglądu slajdu lub obrazu okładki.
+second_title: Aspose.Sildes dla referencji API .NET
+description: Określa, czy obiekt Zoom używa podglądu slajdu, czy obrazu okładki.
 type: docs
-weight: 11850
+weight: 11870
 url: /pl/aspose.slides/zoomimagetype/
 ---
 ## ZoomImageType wyliczenie
 
-Określa, czy obiekt Zoom używa podglądu slajdu lub obrazu okładki.
+Definiuje, czy obiekt Zoom używa podglądu slajdu lub obrazu okładki.
 
 ```csharp
 public enum ZoomImageType

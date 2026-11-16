@@ -1,12 +1,12 @@
 ---
 title: SensitivityLabelContentType
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Bir belgeye uygulanması gereken içerik işaretleme türlerini temsil eder.
 type: docs
-weight: 9820
+weight: 9840
 url: /tr/aspose.slides/sensitivitylabelcontenttype/
 ---
-## SensitivityLabelContentType enumerasyon
+## SensitivityLabelContentType enum
 
 Bir belgeye uygulanması gereken içerik işaretleme türlerini temsil eder.
 
@@ -18,15 +18,13 @@ public enum SensitivityLabelContentType
 
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
-| None | `0` | Etiketin varsayılan olarak veya otomatik olarak uygulandığını ima eder. |
-| Header | `1` | Etiketin manuel olarak uygulandığını ima eder. Kullanıcı tarafından doğrudan uygulanan herhangi bir hassasiyet etiketinde kullanılmalıdır. |
-| Footer | `2` | Etiketin manuel olarak uygulandığını ima eder. Kullanıcı tarafından doğrudan uygulanan herhangi bir hassasiyet etiketinde kullanılmalıdır. |
-| Watermark | `4` | Etiketin manuel olarak uygulan
-dığını ima eder. Kullanıcı tarafından doğrudan uygulanan herhangi bir hassasiyet etiketinde kullanılmalıdır. |
-| Encryption | `8` | Etiketin manuel olarak uygulan
-dığını ima eder. Kullanıcı tarafından doğrudan uygulanan herhangi bir hassasiyet etiketinde kullanılmalıdır. |
+| None | `0` | Etiketin varsayılan olarak veya otomatik şekilde uygulandığını ima eder. |
+| Header | `1` | Etiketin manuel olarak uygulandığını ima eder. Kullanıcı tarafından doğrudan uygulanan herhangi bir hassasiyet etiketinde kullanın. |
+| Footer | `2` | Etiketin manuel olarak uygulandığını ima eder. Kullanıcı tarafından doğrudan uygulanan herhangi bir hassasiyet etiketinde kullanın. |
+| Watermark | `4` | Etiketin manuel olarak uygulandığını ima eder. Kullanıcı tarafından doğrudan uygulanan herhangi bir hassasiyet etiketinde kullanın. |
+| Encryption | `8` | Etiketin manuel olarak uygulandığını ima eder. Kullanıcı tarafından doğrudan uygulanan herhangi bir hassasiyet etiketinde kullanın. |
 
-### İlgili
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

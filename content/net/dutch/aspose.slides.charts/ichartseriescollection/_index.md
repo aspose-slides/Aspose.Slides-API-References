@@ -1,14 +1,14 @@
 ---
 title: IChartSeriesCollection
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Representeert verzameling van IChartSeries./ichartseries
+description: Vertegenwoordigt verzameling van IChartSeries./ichartseries
 type: docs
-weight: 1940
+weight: 1960
 url: /nl/aspose.slides.charts/ichartseriescollection/
 ---
 ## IChartSeriesCollection interface
 
-Representeert een verzameling van [`IChartSeries`](../ichartseries)
+Vertegenwoordigt verzameling van [`IChartSeries`](../ichartseries)
 
 ```csharp
 public interface IChartSeriesCollection : IGenericCollection<IChartSeries>
@@ -16,23 +16,23 @@ public interface IChartSeriesCollection : IGenericCollection<IChartSeries>
 
 ## Eigenschappen
 
-| Naam | Omschrijving |
+| Naam | Beschrijving |
 | --- | --- |
 | [Item](../../aspose.slides.charts/ichartseriescollection/item) { get; } | Haalt het element op op de opgegeven index. |
 
-## Methoden
+## Methodes
 
-| Naam | Omschrijving |
+| Naam | Beschrijving |
 | --- | --- |
-| [Add](../../aspose.slides.charts/ichartseriescollection/add#add)(ChartType) | Maakt een nieuwe grafiekreeks en voegt deze toe aan de collectie. |
-| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_1)(IChartCellCollection, ChartType) | Maakt een nieuwe grafiekreeks van [`IChartCellCollection`](../ichartcellcollection) en voegt deze toe aan de collectie. |
-| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_2)(IChartDataCell, ChartType) | Maakt een nieuwe grafiekreeks van [`IChartDataCell`](../ichartdatacell) en voegt deze toe aan de collectie. |
-| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_3)(string, ChartType) | Maakt een nieuwe grafiekreeks van een waarde en voegt deze toe aan de collectie. |
+| [Add](../../aspose.slides.charts/ichartseriescollection/add#add)(ChartType) | Maakt een nieuwe grafiekserie aan en voegt deze toe aan de collectie. |
+| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_1)(IChartCellCollection, ChartType) | Maakt een nieuwe grafiekserie aan vanuit [`IChartCellCollection`](../ichartcellcollection) en voegt deze toe aan de collectie. |
+| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_2)(IChartDataCell, ChartType) | Maakt een nieuwe grafiekserie aan vanuit [`IChartDataCell`](../ichartdatacell) en voegt deze toe aan de collectie. |
+| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_3)(string, ChartType) | Maakt een nieuwe grafiekserie aan vanuit waarde en voegt deze toe aan de collectie. |
 | [Clear](../../aspose.slides.charts/ichartseriescollection/clear)() | Verwijdert alle elementen (inclusief de grafiekstijl) uit de collectie. |
-| [IndexOf](../../aspose.slides.charts/ichartseriescollection/indexof)(IChartSeries) | Zoekt naar de opgegeven [`IChartSeries`](../ichartseries) en retourneert de nulgebaseerde index van de eerste vondst binnen de volledige collectie. |
-| [Insert](../../aspose.slides.charts/ichartseriescollection/insert)(int, ChartType) | Maakt een nieuwe grafiekreeks en plaatst deze in de collectie. |
+| [IndexOf](../../aspose.slides.charts/ichartseriescollection/indexof)(IChartSeries) | Zoekt naar de opgegeven [`IChartSeries`](../ichartseries) en retourneert de nulgebaseerde index van de eerste voorkoming binnen de volledige collectie |
+| [Insert](../../aspose.slides.charts/ichartseriescollection/insert)(int, ChartType) | Maakt een nieuwe grafiekserie aan en voegt deze in de collectie in. |
 | [Remove](../../aspose.slides.charts/ichartseriescollection/remove)(IChartSeries) | Verwijdert de opgegeven waarde. |
-| [RemoveAt](../../aspose.slides.charts/ichartseriescollection/removeat)(int) | Verwijdert het element op de opgegeven index. |
+| [RemoveAt](../../aspose.slides.charts/ichartseriescollection/removeat)(int) | Verwijdert het element op de opgegeven index |
 
 ### Zie ook
 

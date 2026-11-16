@@ -1,12 +1,12 @@
 ---
 title: IFonts
-second_title: Riferimento API di Aspose.Sildes per .NET
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta la raccolta di font.
 type: docs
-weight: 5900
+weight: 5920
 url: /it/aspose.slides/ifonts/
 ---
-## IFonts interfaccia
+## Interfaccia IFonts
 
 Rappresenta la raccolta di font.
 
@@ -16,20 +16,20 @@ public interface IFonts
 
 ## Proprietà
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
-| [ComplexScriptFont](../../aspose.slides/ifonts/complexscriptfont) { get; set; } | Restituisce o imposta il font per script complesso. Lettura/scrittura [`IFontData`](../ifontdata). |
-| [EastAsianFont](../../aspose.slides/ifonts/eastasianfont) { get; set; } | Restituisce o imposta il font East Asian. Lettura/scrittura [`IFontData`](../ifontdata). |
-| [LatinFont](../../aspose.slides/ifonts/latinfont) { get; set; } | Restituisce o imposta il font Latin. Lettura/scrittura [`IFontData`](../ifontdata). |
+| [ComplexScriptFont](../../aspose.slides/ifonts/complexscriptfont) { get; set; } | Restituisce o imposta il carattere dello script complesso. Lettura/scrittura [`IFontData`](../ifontdata). |
+| [EastAsianFont](../../aspose.slides/ifonts/eastasianfont) { get; set; } | Restituisce o imposta il carattere dell'Asia orientale. Lettura/scrittura [`IFontData`](../ifontdata). |
+| [LatinFont](../../aspose.slides/ifonts/latinfont) { get; set; } | Restituisce o imposta il carattere latino. Lettura/scrittura [`IFontData`](../ifontdata). |
 
 ## Metodi
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
-| [GetScriptFont](../../aspose.slides/ifonts/getscriptfont)(string) | Recupera il nome del font associato a un tag script specifico dal tema della presentazione. |
-| [GetScriptFontMap](../../aspose.slides/ifonts/getscriptfontmap)() | Restituisce un dizionario di tutte le definizioni di font script nella presentazione. |
-| [RemoveScriptFont](../../aspose.slides/ifonts/removescriptfont)(string) | Rimuove l'impostazione del font associata a un tag script specifico dalla raccolta di font del tema. |
-| [SetScriptFont](../../aspose.slides/ifonts/setscriptfont)(string, string) | Assegna un nome di font a un tag script specifico, definendo come il testo di quello script verrà renderizzato nella presentazione. |
+| [GetScriptFont](../../aspose.slides/ifonts/getscriptfont)(string) | Ottiene il nome del carattere associato a un tag script specifico dal tema della presentazione. |
+| [GetScriptFontMap](../../aspose.slides/ifonts/getscriptfontmap)() | Restituisce un dizionario di tutte le definizioni di caratteri script nella presentazione. |
+| [RemoveScriptFont](../../aspose.slides/ifonts/removescriptfont)(string) | Rimuove l'impostazione del carattere associata a un tag script specifico dalla collezione di caratteri del tema. |
+| [SetScriptFont](../../aspose.slides/ifonts/setscriptfont)(string, string) | Assegna un nome di carattere a un tag script specifico, definendo come il testo di quello script verrà visualizzato nella presentazione. |
 
 ### Vedi anche
 

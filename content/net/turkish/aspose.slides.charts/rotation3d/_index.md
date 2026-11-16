@@ -1,14 +1,14 @@
 ---
 title: Rotation3D
-second_title: Aspose.Sildes .NET API Referansı
-description: Bir grafiğin 3B dönüşünü temsil eder.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Bir grafiğin 3D dönüşünü temsil eder.
 type: docs
-weight: 2400
+weight: 2420
 url: /tr/aspose.slides.charts/rotation3d/
 ---
 ## Rotation3D sınıfı
 
-Bir grafiğin 3B dönüşünü temsil eder.
+Bir grafiğin 3D dönüşünü temsil eder.
 
 ```csharp
 public class Rotation3D : IRotation3D
@@ -18,14 +18,14 @@ public class Rotation3D : IRotation3D
 
 | Ad | Açıklama |
 | --- | --- |
-| [DepthPercents](../../aspose.slides.charts/rotation3d/depthpercents) { get; set; } | Bir 3B grafiğin derinliğini, grafiğin genişliğinin yüzde olarak döndürür veya ayarlar (20 ile 2000 yüzde arasında). Okunur/yazılır UInt16. |
-| [HeightPercents](../../aspose.slides.charts/rotation3d/heightpercents) { get; set; } | Grafiğin genişliğinin yüzdesi olarak bir 3B grafiğin yüksekliğini belirtir (5 ile 500 yüzde arasında). Okunur/yazılır UInt16. |
-| [Perspective](../../aspose.slides.charts/rotation3d/perspective) { get; set; } | Bir 3B grafiğin perspektif değerini (görüş alanı açısı) döndürür veya ayarlar (0 ile 240 arasında). RightAngleAxes özelliği değeri true ise yoksayılır. Okunur/yazılır Byte. |
-| [RightAngleAxes](../../aspose.slides.charts/rotation3d/rightangleaxes) { get; set; } | Grafik eksenlerinin perspektif çizim yerine dik açılarda olup olmadığını belirler. Başka bir deyişle, eksen açılarının grafik dönüşü veya yükselmesinden bağımsız olup olmadığını belirler. Okunur/yazılır Boolean. |
-| [RotationX](../../aspose.slides.charts/rotation3d/rotationx) { get; set; } | X ekseni etrafındaki dönüş derecesini, yani 3B grafikler için Y yönünde döndürmeyi döndürür veya ayarlar (-90 ile 90 derece arasında). Özellik, ECMA-376'da 21.2.2.157 rotX (X Rotation) öğesi ve PowerPoint 2007+ "Y Rotation" seçeneğiyle eşleşir. Okunur/yazılır SByte. |
-| [RotationY](../../aspose.slides.charts/rotation3d/rotationy) { get; set; } | Y ekseni etrafındaki dönüş derecesini, yani 3B grafikler için X yönünde döndürmeyi döndürür veya ayarlar (0 ile 360 derece arasında). Özellik, ECMA-376'da 21.2.2.158 rotY (Y Rotation) öğesi ve PowerPoint 2007+ "X Rotation" seçeneğiyle eşleşir. Okunur/yazılır UInt16. |
+| [DepthPercents](../../aspose.slides.charts/rotation3d/depthpercents) { get; set; } | Bir 3D grafiğin derinliğini, grafik genişliğinin yüzde olarak (20 ile 2000 arasında) döndürür veya ayarlar. Okuma/yazma UInt16. |
+| [HeightPercents](../../aspose.slides.charts/rotation3d/heightpercents) { get; set; } | Bir 3D grafiğin yüksekliğini, grafik genişliğinin yüzde olarak (5 ile 500 arasında) belirtir. Okuma/yazma UInt16. |
+| [Perspective](../../aspose.slides.charts/rotation3d/perspective) { get; set; } | 3D grafikler için perspektif değerini (görüş alanı açısı) döndürür veya ayarlar (0 ile 240 arasında). RightAngleAxes özelliği true ise göz ardı edilir. Okuma/yazma Byte. |
+| [RightAngleAxes](../../aspose.slides.charts/rotation3d/rightangleaxes) { get; set; } | Grafik eksenlerinin perspektif yerine dik açıyla olup olmadığını belirler. Başka bir deyişle, eksen açılarıın grafik dönüşünden veya eğiminden bağımsız olup olmadığını belirler. Okuma/yazma Boolean. |
+| [RotationX](../../aspose.slides.charts/rotation3d/rotationx) { get; set; } | 3D grafikler için X ekseni etrafındaki (Y yönünde) dönüş derecesini döndürür veya ayarlar (-90 ile 90 derece arasında). Özellik, ECMA-376'daki 21.2.2.157 rotX (X Rotation) öğesi ve PowerPoint 2007+ sürümlerindeki "Y Rotation" seçeneği ile eşleşir. Okuma/yazma SByte. |
+| [RotationY](../../aspose.slides.charts/rotation3d/rotationy) { get; set; } | 3D grafikler için Y ekseni etrafındaki (X yönünde) dönüş derecesini döndürür veya ayarlar (0 ile 360 derece arasında). Özellik, ECMA-376'daki 21.2.2.158 rotY (Y Rotation) öğesi ve PowerPoint 2007+ sürümlerindeki "X Rotation" seçeneği ile eşleşir. Okuma/yazma UInt16. |
 
-### İlgili
+### Ayrıca Bakınız
 
 * arayüz [IRotation3D](../irotation3d)
 * ad alanı [Aspose.Slides.Charts](../../aspose.slides.charts)

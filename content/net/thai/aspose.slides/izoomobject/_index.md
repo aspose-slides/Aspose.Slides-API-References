@@ -1,9 +1,9 @@
 ---
 title: IZoomObject
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+second_title: Aspose.Sildes สำหรับ .NET API Reference
 description: แทนวัตถุ Zoom ในสไลด์หนึ่ง
 type: docs
-weight: 7410
+weight: 7430
 url: /th/aspose.slides/izoomobject/
 ---
 ## IZoomObject อินเทอร์เฟซ
@@ -18,12 +18,12 @@ public interface IZoomObject : IGraphicalObject
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIGraphicalObject](../../aspose.slides/izoomobject/asigraphicalobject) { get; } | อนุญาตให้รับอินเทอร์เฟซ IGraphicalObject พื้นฐานแบบอ่านอย่างเดียว [`IGraphicalObject`](../igraphicalobject). |
-| [ImageType](../../aspose.slides/izoomobject/imagetype) { get; set; } | รับหรือกำหนดประเภทรูปภาพของวัตถุ Zoom. อ่าน/เขียน [`ZoomImageType`](../zoomimagetype). ค่าเริ่มต้น: Preview |
-| [ReturnToParent](../../aspose.slides/izoomobject/returntoparent) { get; set; } | รับหรือกำหนดพฤติกรรมการนำทางในสไลด์โชว์. อ่าน/เขียน Boolean. ค่าเริ่มต้น: false |
-| [ShowBackground](../../aspose.slides/izoomobject/showbackground) { get; set; } | รับหรือกำหนดค่าที่ระบุว่า Zoom จะใช้พื้นหลังของสไลด์เป้าหมายหรือไม่. อ่าน/เขียน Boolean. ค่าเริ่มต้น: true |
-| [TransitionDuration](../../aspose.slides/izoomobject/transitionduration) { get; set; } | รับหรือกำหนดระยะเวลาการเปลี่ยนระหว่าง Zoom กับสไลด์. อ่าน/เขียน Single. ค่าเริ่มต้น: 1.0f |
-| [ZoomImage](../../aspose.slides/izoomobject/zoomimage) { get; set; } | รับหรือกำหนดภาพสำหรับวัตถุ zoom. อ่าน/เขียน [`IPPImage`](../ippimage). |
+| [AsIGraphicalObject](../../aspose.slides/izoomobject/asigraphicalobject) { get; } | อนุญาตให้รับอินเทอร์เฟซ IGraphicalObject base ได้แบบอ่านอย่างเดียว [`IGraphicalObject`](../igraphicalobject) |
+| [ImageType](../../aspose.slides/izoomobject/imagetype) { get; set; } | รับหรือกำหนดประเภทภาพของวัตถุ zoom แบบอ่าน/เขียน [`ZoomImageType`](../zoomimagetype) ค่าเริ่มต้น: Preview |
+| [ReturnToParent](../../aspose.slides/izoomobject/returntoparent) { get; set; } | รับหรือกำหนดพฤติกรรมการนำทางในสไลด์โชว์ แบบอ่าน/เขียน Boolean ค่าเริ่มต้น: false |
+| [ShowBackground](../../aspose.slides/izoomobject/showbackground) { get; set; } | รับหรือกำหนดค่าที่ระบุว่า Zoom จะใช้พื้นหลังของสไลด์ปลายทางหรือไม่ แบบอ่าน/เขียน Boolean ค่าเริ่มต้น: true |
+| [TransitionDuration](../../aspose.slides/izoomobject/transitionduration) { get; set; } | รับหรือกำหนดระยะเวลาของการเปลี่ยนภาพระหว่าง Zoom และสไลด์ แบบอ่าน/เขียน Single ค่าเริ่มต้น: 1.0f |
+| [ZoomImage](../../aspose.slides/izoomobject/zoomimage) { get; set; } | รับหรือกำหนดภาพสำหรับวัตถุ zoom แบบอ่าน/เขียน [`IPPImage`](../ippimage) |
 
 ### ดูเพิ่มเติม
 

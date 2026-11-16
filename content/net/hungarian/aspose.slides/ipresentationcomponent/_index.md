@@ -3,7 +3,7 @@ title: IPresentationComponent
 second_title: Aspose.Sildes .NET API referencia
 description: Egy prezentáció komponensét képviseli.
 type: docs
-weight: 6760
+weight: 6780
 url: /hu/aspose.slides/ipresentationcomponent/
 ---
 ## IPresentationComponent interfész

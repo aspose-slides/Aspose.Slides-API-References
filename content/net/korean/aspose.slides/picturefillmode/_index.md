@@ -1,14 +1,14 @@
 ---
 title: PictureFillMode
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 이미지가 영역을 채우는 방식을 결정합니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: 그림이 영역을 채우는 방식을 결정합니다.
 type: docs
-weight: 9400
+weight: 9420
 url: /ko/aspose.slides/picturefillmode/
 ---
 ## PictureFillMode 열거형
 
-이미지가 영역을 채우는 방식을 결정합니다.
+그림이 영역을 채우는 방식을 결정합니다.
 
 ```csharp
 public enum PictureFillMode

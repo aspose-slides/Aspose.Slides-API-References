@@ -3,12 +3,12 @@ title: EffectStyleCollection
 second_title: Aspose.Sildes için .NET API Referansı
 description: Efekt stillerinin bir koleksiyonunu temsil eder.
 type: docs
-weight: 11090
+weight: 11110
 url: /tr/aspose.slides.theme/effectstylecollection/
 ---
-## EffectStyleCollection sınıfı
+## EffectStyleCollection sınıf
 
-Koleksiyon efekt stillerini temsil eder.
+Efekt stillerinin bir koleksiyonunu temsil eder.
 
 ```csharp
 public sealed class EffectStyleCollection : DomObject<FormatScheme>, IEffectStyleCollection
@@ -16,21 +16,21 @@ public sealed class EffectStyleCollection : DomObject<FormatScheme>, IEffectStyl
 
 ## Özellikler
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
-| [Count](../../aspose.slides.theme/effectstylecollection/count) { get; } | Koleksiyondaki öğe sayısını döndürür. Yalnızca okuma Int32, Yalnızca okuma Int32. |
-| [IsSynchronized](../../aspose.slides.theme/effectstylecollection/issynchronized) { get; } | Erişimin koleksiyona senkronize (thread-safe) olup olmadığını gösteren bir değer döndürür. Yalnızca okuma Boolean. |
-| [Item](../../aspose.slides.theme/effectstylecollection/item) { get; } | Belirtilen konumdaki bir öğeyi döndürür. Yalnızca okuma [`EffectStyle`](../effectstyle). |
-| [SyncRoot](../../aspose.slides.theme/effectstylecollection/syncroot) { get; } | Bir senkronizasyon kökü döndürür. Yalnızca okuma Object. |
+| [Count](../../aspose.slides.theme/effectstylecollection/count) { get; } | Koleksiyondaki eleman sayısını döndürür. Salt-okunur Int32, Salt-okunur Int32. |
+| [IsSynchronized](../../aspose.slides.theme/effectstylecollection/issynchronized) { get; } | Koleksiyona erişimin senkronize (çok iş parçacıklı) olup olmadığını gösteren bir değeri döndürür. Salt-okunur Boolean. |
+| [Item](../../aspose.slides.theme/effectstylecollection/item) { get; } | Belirtilen konumdaki bir elemanı döndürür. Salt-okunur [`EffectStyle`](../effectstyle). |
+| [SyncRoot](../../aspose.slides.theme/effectstylecollection/syncroot) { get; } | Bir senkronizasyon kökünü döndürür. Salt-okunur Object. |
 
-## Metotlar
+## Yöntemler
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
-| [CopyTo](../../aspose.slides.theme/effectstylecollection/copyto)(Array, int) | Koleksiyondaki tüm öğeleri belirtilen diziye kopyalar. |
-| [GetEnumerator](../../aspose.slides.theme/effectstylecollection/getenumerator)() | Koleksiyon içinde yineleme yapan bir enumeratörü döndürür. |
+| [CopyTo](../../aspose.slides.theme/effectstylecollection/copyto)(Array, int) | Koleksiyondaki tüm elemanları belirtilen diziye kopyalar. |
+| [GetEnumerator](../../aspose.slides.theme/effectstylecollection/getenumerator)() | Koleksiyon içinde yineleme yapan bir döngücü döndürür. |
 
-### Ayrıca Bakınız
+### İlgili
 
 * sınıf [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * sınıf [FormatScheme](../formatscheme)

@@ -1,14 +1,14 @@
 ---
 title: FontSubstRuleCollection
-second_title: Aspose.Sildes pro .NET API Reference
+second_title: Aspose.Sildes pro .NET API referenci
 description: Představuje kolekci substitucí fontů.
 type: docs
-weight: 4900
+weight: 4920
 url: /cs/aspose.slides/fontsubstrulecollection/
 ---
 ## FontSubstRuleCollection třída
 
-Representuje kolekci substitucí fontů.
+Represents collection of fonts substitution.
 
 ```csharp
 public class FontSubstRuleCollection : IFontSubstRuleCollection
@@ -18,25 +18,25 @@ public class FontSubstRuleCollection : IFontSubstRuleCollection
 
 | Název | Popis |
 | --- | --- |
-| [FontSubstRuleCollection](fontsubstrulecollection)() | Výchozí konstruktor. |
+| [FontSubstRuleCollection](fontsubstrulecollection)() | The default constructor. |
 
 ## Vlastnosti
 
 | Název | Popis |
 | --- | --- |
-| [Count](../../aspose.slides/fontsubstrulecollection/count) { get; } | Získá počet prvků skutečně obsažených v kolekci. Pouze pro čtení Int32. |
-| [IsSynchronized](../../aspose.slides/fontsubstrulecollection/issynchronized) { get; } | Vrací hodnotu, která naznačuje, zda je přístup ke kolekci synchronizován (vláknově bezpečný). Pouze pro čtení Boolean. |
-| [Item](../../aspose.slides/fontsubstrulecollection/item) { get; } | Získá prvek na zadaném indexu. |
-| [SyncRoot](../../aspose.slides/fontsubstrulecollection/syncroot) { get; } | Vrací kořen synchronizace. Pouze pro čtení Object. |
+| [Count](../../aspose.slides/fontsubstrulecollection/count) { get; } | Gets the number of elements actually contained in the collection. Pouze ke čtení Int32. |
+| [IsSynchronized](../../aspose.slides/fontsubstrulecollection/issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Pouze ke čtení Boolean. |
+| [Item](../../aspose.slides/fontsubstrulecollection/item) { get; } | Gets the element at the specified index. |
+| [SyncRoot](../../aspose.slides/fontsubstrulecollection/syncroot) { get; } | Returns a synchronization root. Pouze ke čtení Object. |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| [Add](../../aspose.slides/fontsubstrulecollection/add)(IFontSubstRule) | Přidá nové pravidlo substituce fontu do kolekce |
-| [CopyTo](../../aspose.slides/fontsubstrulecollection/copyto)(Array, int) | Zkopíruje všechny prvky z kolekce do zadaného pole. |
-| [GetEnumerator](../../aspose.slides/fontsubstrulecollection/getenumerator)() | Vrací enumerátor, který iteruje přes kolekci. |
-| [Remove](../../aspose.slides/fontsubstrulecollection/remove)(IFontSubstRule) | Odstraní první výskyt konkrétního objektu z kolekce. |
+| [Add](../../aspose.slides/fontsubstrulecollection/add)(IFontSubstRule) | Adds the new font substitution rule to the collection |
+| [CopyTo](../../aspose.slides/fontsubstrulecollection/copyto)(Array, int) | Copies all elements from the collection to the specified array. |
+| [GetEnumerator](../../aspose.slides/fontsubstrulecollection/getenumerator)() | Returns an enumerator that iterates through the collection. |
+| [Remove](../../aspose.slides/fontsubstrulecollection/remove)(IFontSubstRule) | Removes the first occurrence of a specific object from the collection. |
 
 ### Viz také
 

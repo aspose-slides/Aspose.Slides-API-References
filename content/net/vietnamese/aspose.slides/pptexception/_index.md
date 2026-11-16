@@ -1,14 +1,14 @@
 ---
 title: PptException
-second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Đại diện cho một loại ngoại lệ nội bộ tiêu chuẩn.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Đại diện cho một loại ngoại lệ nội bộ chuẩn.
 type: docs
-weight: 9520
+weight: 9540
 url: /vi/aspose.slides/pptexception/
 ---
 ## PptException lớp
 
-Đại diện cho một loại ngoại lệ nội bộ tiêu chuẩn.
+Đại diện cho một loại ngoại lệ nội bộ chuẩn.
 
 ```csharp
 public class PptException : Exception
@@ -18,9 +18,9 @@ public class PptException : Exception
 
 | Tên | Mô tả |
 | --- | --- |
-| [PptException](pptexception#constructor)() | Hàm tạo mặc định. |
-| [PptException](pptexception#constructor_1)(string) | Hàm tạo cho phép thêm thông báo vào ngoại lệ này. |
-| [PptException](pptexception#constructor_2)(string, Exception) | Hàm tạo cho một ngoại lệ chứa thông báo và một ngoại lệ nhúng. |
+| [PptException](pptexception#constructor)() | Phương thức khởi tạo mặc định. |
+| [PptException](pptexception#constructor_1)(string) | Phương thức khởi tạo cho phép thêm thông điệp vào ngoại lệ này. |
+| [PptException](pptexception#constructor_2)(string, Exception) | Phương thức khởi tạo cho một ngoại lệ chứa thông điệp và một ngoại lệ nhúng. |
 
 ### Xem thêm
 

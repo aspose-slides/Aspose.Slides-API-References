@@ -1,14 +1,14 @@
 ---
 title: IMathBlock
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: MathParagraph के भीतर स्थित गणितीय पाठ का एक उदाहरण निर्दिष्ट करता है जो अपनी स्वयं की पंक्ति पर शुरू होता है। सभी गणितीय क्षेत्र, जिसमें समीकरण, अभिव्यक्तियाँ, समीकरणों या अभिव्यक्तियों के सरणी, और सूत्र शामिल हैं, को math block द्वारा प्रतिनिधित्व किया जाता है।
+description: गणितीय पाठ की एक instance निर्दिष्ट करता है जो MathParagraph के भीतर स्थित है और अपनी स्वयं की पंक्ति पर शुरू होता है। सभी math zones, जिसमें समीकरण, अभिव्यक्तियाँ, समीकरणों या अभिव्यक्तियों के ऐरे, और फ़ॉर्मूले शामिल हैं, को गणितीय ब्लॉक द्वारा प्रतिनिधित्व किया जाता है।
 type: docs
-weight: 8140
+weight: 8160
 url: /hi/aspose.slides.mathtext/imathblock/
 ---
 ## IMathBlock इंटरफ़ेस
 
-एक गणितीय पाठ का उदाहरण निर्धारित करता है जो MathParagraph के भीतर स्थित है और अपनी स्वयं की पंक्ति पर शुरू होता है। सभी गणितीय क्षेत्र, जिसमें समीकरण, अभिव्यक्तियाँ, समीकरणों या अभिव्यक्तियों के ऐरे, और सूत्र शामिल हैं, को math block द्वारा प्रतिनिधित्व किया जाता है।
+यह MathParagraph के भीतर स्थित गणितीय पाठ की एक इंस्टेंस को निर्दिष्ट करता है और यह अपनी स्वयं की पंक्ति पर शुरू होती है। सभी गणितीय ज़ोन, जिनमें समीकरण, अभिव्यक्तियाँ, समीकरणों या अभिव्यक्तियों की ऐरे, तथा फ़ॉर्मूले शामिल हैं, को गणितीय ब्लॉक द्वारा प्रतिनिधित्व किया जाता है।
 
 ```csharp
 public interface IMathBlock : IMathElement, IMathElementCollection
@@ -18,16 +18,16 @@ public interface IMathBlock : IMathElement, IMathElementCollection
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathblock/asimathelement) { get; } | बेस IMathElement इंटरफ़ेस [`IMathElement`](../imathelement) को प्राप्त करने की अनुमति देता है |
-| [AsIMathElementCollection](../../aspose.slides.mathtext/imathblock/asimathelementcollection) { get; } | बेस IMathElementCollection इंटरफ़ेस [`IMathElementCollection`](../imathelementcollection) को प्राप्त करने की अनुमति देता है |
+| [AsIMathElement](../../aspose.slides.mathtext/imathblock/asimathelement) { get; } | आधारभूत IMathElement इंटरफ़ेस [`IMathElement`](../imathelement) को प्राप्त करने की अनुमति देता है |
+| [AsIMathElementCollection](../../aspose.slides.mathtext/imathblock/asimathelementcollection) { get; } | आधारभूत IMathElementCollection इंटरफ़ेस [`IMathElementCollection`](../imathelementcollection) को प्राप्त करने की अनुमति देता है |
 
 ## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [Delimit](../../aspose.slides.mathtext/imathblock/delimit)(char) | सेपरेटर कैरेक्टर (बिना ब्रैकेट के) के साथ सभी चाइल्ड एलिमेंट को सीमांकित करता है |
-| [Enclose](../../aspose.slides.mathtext/imathblock/enclose)(char, char, char) | इस ब्लॉक के चाइल्ड एलिमेंट को निर्दिष्ट कैरेक्टर (जैसे कोष्ठक या अन्य) में फ्रेम करता है और सेपरेटर कैरेक्टर के साथ सीमांकित करता है |
-| [JoinBlock](../../aspose.slides.mathtext/imathblock/joinblock)(IMathBlock) | एक अन्य गणितीय ब्लॉक को इस ब्लॉक के साथ जोड़ता है |
+| [Delimit](../../aspose.slides.mathtext/imathblock/delimit)(char) | सेपरेटर वर्ण के साथ सभी चाइल्ड तत्वों को सीमांकित करता है (कोष्ठकों के बिना) |
+| [Enclose](../../aspose.slides.mathtext/imathblock/enclose)(char, char, char) | इस ब्लॉक के चाइल्ड तत्वों को निर्दिष्ट वर्णों में घेरता है जैसे कि कोष्ठक या अन्य, फ्रेमिंग के रूप में और एक सेपरेटर वर्ण के साथ सीमांकित करता है |
+| [JoinBlock](../../aspose.slides.mathtext/imathblock/joinblock)(IMathBlock) | एक अन्य गणितीय ब्लॉक को इस के साथ जोड़ता है |
 | [WriteAsMathMl](../../aspose.slides.mathtext/imathblock/writeasmathml)(Stream) | इस [`IMathBlock`](../imathblock) की सामग्री को MathML के रूप में सहेजता है |
 
 ### उदाहरण
@@ -39,7 +39,7 @@ public interface IMathBlock : IMathElement, IMathElementCollection
 IMathBlock mathBlock = new MathBlock();
 ```
 
-### देखें
+### संबंधित देखें
 
 * इंटरफ़ेस [IMathElement](../imathelement)
 * इंटरफ़ेस [IMathElementCollection](../imathelementcollection)

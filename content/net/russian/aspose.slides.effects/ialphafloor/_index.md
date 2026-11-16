@@ -1,14 +1,14 @@
 ---
 title: IAlphaFloor
-second_title: Aspose.Sildes для .NET справка API
-description: Представляет эффект Alpha Floor. Значения непрозрачности альфа менее 100 преобразуются в ноль. Другими словами, всё частично прозрачное становится полностью прозрачным.
+second_title: Aspose.Sildes для .NET справочник API
+description: Представляет эффект Alpha Floor. Значения альфа-прозрачности менее 100 изменяются на ноль. Другими словами, любые частично прозрачные объекты становятся полностью прозрачными.
 type: docs
-weight: 3060
+weight: 3080
 url: /ru/aspose.slides.effects/ialphafloor/
 ---
 ## IAlphaFloor интерфейс
 
-Представляет эффект “Alpha Floor”. Значения альфа (непрозрачности) менее 100 % преобразуются в ноль. Другими словами, всё частично прозрачное становится полностью прозрачным.
+Представляет эффект Alpha Floor. Значения Alpha (непрозрачности) менее 100 % изменяются на ноль. Другими словами, любые частично прозрачные объекты становятся полностью прозрачными.
 
 ```csharp
 public interface IAlphaFloor : IAccessiblePVIObject<IAlphaFloorEffectiveData>, 
@@ -22,7 +22,7 @@ public interface IAlphaFloor : IAccessiblePVIObject<IAlphaFloorEffectiveData>,
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphafloor/asiaccessiblepviobject) { get; } | Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
 | [AsIImageTransformOperation](../../aspose.slides.effects/ialphafloor/asiimagetransformoperation) { get; } | Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтения [`IImageTransformOperation`](../iimagetransformoperation). |
 
-### См. также
+### Смотрите также
 
 * интерфейс [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * интерфейс [IAlphaFloorEffectiveData](../ialphaflooreffectivedata)

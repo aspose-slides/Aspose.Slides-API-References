@@ -1,14 +1,14 @@
 ---
 title: IBulletFormatEffectiveData
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Oggetto immutabile che contiene le proprietà di formattazione effettiva dei punti elenco del paragrafo.
+second_title: Aspose.Sildes per il riferimento API .NET
+description: Oggetto immutabile che contiene le proprietà effettive di formattazione dei punti elenco del paragrafo.
 type: docs
-weight: 5400
+weight: 5420
 url: /it/aspose.slides/ibulletformateffectivedata/
 ---
 ## Interfaccia IBulletFormatEffectiveData
 
-Oggetto immutabile che contiene le proprietà di formattazione effettiva dei punti elenco del paragrafo.
+Oggetto immutabile che contiene le proprietà effettive di formattazione dei punti elenco del paragrafo.
 
 ```csharp
 public interface IBulletFormatEffectiveData
@@ -18,20 +18,20 @@ public interface IBulletFormatEffectiveData
 
 | Nome | Descrizione |
 | --- | --- |
-| [ActualBulletValue](../../aspose.slides/ibulletformateffectivedata/actualbulletvalue) { get; } | Restituisce il valore effettivo del punto elenco per il paragrafo padre. Solo lettura String. |
-| [Char](../../aspose.slides/ibulletformateffectivedata/char) { get; } | Restituisce il carattere del punto elenco di un paragrafo. Solo lettura Char. |
-| [FillFormat](../../aspose.slides/ibulletformateffectivedata/fillformat) { get; } | Restituisce il formato di riempimento del punto elenco di un paragrafo. Solo lettura [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
-| [Font](../../aspose.slides/ibulletformateffectivedata/font) { get; } | Restituisce il carattere tipografico del punto elenco di un paragrafo. Solo lettura [`IFontData`](../ifontdata). |
-| [Height](../../aspose.slides/ibulletformateffectivedata/height) { get; } | Restituisce l'altezza del punto elenco di un paragrafo. Solo lettura Single. |
-| [IsBulletHardColor](../../aspose.slides/ibulletformateffectivedata/isbullethardcolor) { get; } | Determina se il punto elenco ha un colore proprio o lo eredita dalla prima porzione del paragrafo. Restituisce **true** se il punto elenco ha un colore proprio e **false** se il punto elenco eredita il colore dalla prima porzione del paragrafo. Solo lettura Boolean. |
-| [IsBulletHardFont](../../aspose.slides/ibulletformateffectivedata/isbullethardfont) { get; } | Determina se il punto elenco ha un carattere tipografico proprio o lo eredita dalla prima porzione del paragrafo. Restituisce **true** se il punto elenco ha un carattere tipografico proprio e **true** se il punto elenco eredita il carattere tipografico dalla prima porzione del paragrafo. Solo lettura Boolean. |
-| [NumberedBulletStartWith](../../aspose.slides/ibulletformateffectivedata/numberedbulletstartwith) { get; } | Restituisce il primo numero utilizzato per il gruppo di punti elenco numerati. Solo lettura Int16. |
-| [NumberedBulletStyle](../../aspose.slides/ibulletformateffectivedata/numberedbulletstyle) { get; } | Restituisce lo stile di un punto elenco numerato. Solo lettura [`NumberedBulletStyle`](../numberedbulletstyle). |
-| [Type](../../aspose.slides/ibulletformateffectivedata/type) { get; } | Restituisce il tipo di punto elenco di un paragrafo. Solo lettura [`BulletType`](../bullettype). |
+| [ActualBulletValue](../../aspose.slides/ibulletformateffectivedata/actualbulletvalue) { get; } | Restituisce il valore effettivo del punto elenco per il paragrafo genitore. Sola lettura String. |
+| [Char](../../aspose.slides/ibulletformateffectivedata/char) { get; } | Restituisce il carattere del punto elenco di un paragrafo. Sola lettura Char. |
+| [FillFormat](../../aspose.slides/ibulletformateffectivedata/fillformat) { get; } | Restituisce il formato di riempimento del punto elenco di un paragrafo. Sola lettura [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
+| [Font](../../aspose.slides/ibulletformateffectivedata/font) { get; } | Restituisce il font del punto elenco di un paragrafo. Sola lettura [`IFontData`](../ifontdata). |
+| [Height](../../aspose.slides/ibulletformateffectivedata/height) { get; } | Restituisce l'altezza del punto elenco di un paragrafo. Sola lettura Single. |
+| [IsBulletHardColor](../../aspose.slides/ibulletformateffectivedata/isbullethardcolor) { get; } | Determina se il punto elenco ha un colore proprio o lo eredita dalla prima porzione del paragrafo. Restituisce **true** se il punto elenco ha un colore proprio e **false** se il punto elenco eredita il colore dalla prima porzione del paragrafo. Sola lettura Boolean. |
+| [IsBulletHardFont](../../aspose.slides/ibulletformateffectivedata/isbullethardfont) { get; } | Determina se il punto elenco ha un font proprio o lo eredita dalla prima porzione del paragrafo. Restituisce **true** se il punto elenco ha un font proprio e **true** se il punto elenco eredita il font dalla prima porzione del paragrafo. Sola lettura Boolean. |
+| [NumberedBulletStartWith](../../aspose.slides/ibulletformateffectivedata/numberedbulletstartwith) { get; } | Restituisce il primo numero usato per il gruppo di punti elenco numerati. Sola lettura Int16. |
+| [NumberedBulletStyle](../../aspose.slides/ibulletformateffectivedata/numberedbulletstyle) { get; } | Restituisce lo stile di un punto elenco numerato. Sola lettura [`NumberedBulletStyle`](../numberedbulletstyle). |
+| [Type](../../aspose.slides/ibulletformateffectivedata/type) { get; } | Restituisce il tipo di punto elenco di un paragrafo. Sola lettura [`BulletType`](../bullettype). |
 
 ### Osservazioni
 
-Questa interfaccia è usata come parte di [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata).
+Questa interfaccia è utilizzata come parte di [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata).
 
 ### Vedi anche
 

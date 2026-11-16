@@ -1,14 +1,14 @@
 ---
 title: GradientShape
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 그라디언트 채우기의 모양을 나타냅니다.
+description: 그라데이션 채우기의 형상을 나타냅니다.
 type: docs
-weight: 5010
+weight: 5030
 url: /ko/aspose.slides/gradientshape/
 ---
 ## GradientShape 열거형
 
-그라디언트 채우기의 모양을 나타냅니다.
+그라데이션 채우기의 형상을 나타냅니다.
 
 ```csharp
 public enum GradientShape : sbyte

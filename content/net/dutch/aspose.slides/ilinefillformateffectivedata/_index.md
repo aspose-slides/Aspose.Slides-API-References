@@ -1,14 +1,14 @@
 ---
 title: ILineFillFormatEffectiveData
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Onveranderlijk object dat effectieve lijnvullings eigenschappen bevat.
+description: Onveranderlijk object dat effectieve lijnvulling-eigenschappen bevat.
 type: docs
-weight: 6300
+weight: 6320
 url: /nl/aspose.slides/ilinefillformateffectivedata/
 ---
 ## ILineFillFormatEffectiveData interface
 
-Onveranderlijk object dat effectieve lijnvullings-eigenschappen bevat.
+Onveranderlijk object dat effectieve lijnvulling-eigenschappen bevat.
 
 ```csharp
 public interface ILineFillFormatEffectiveData : IFillParamSource
@@ -20,9 +20,9 @@ public interface ILineFillFormatEffectiveData : IFillParamSource
 | --- | --- |
 | [AsIFillParamSource](../../aspose.slides/ilinefillformateffectivedata/asifillparamsource) { get; } | Retourneert IFillParamSource interface. Alleen-lezen [`IFillParamSource`](../ifillparamsource). |
 | [FillType](../../aspose.slides/ilinefillformateffectivedata/filltype) { get; } | Retourneert het vultype. Alleen-lezen [`FillType`](../filltype). |
-| [GradientFormat](../../aspose.slides/ilinefillformateffectivedata/gradientformat) { get; } | Retourneert het verloopvulformat. Alleen-lezen [`IGradientFormatEffectiveData`](../igradientformateffectivedata). |
+| [GradientFormat](../../aspose.slides/ilinefillformateffectivedata/gradientformat) { get; } | Retourneert het gradientvulopmaak. Alleen-lezen [`IGradientFormatEffectiveData`](../igradientformateffectivedata). |
 | [PatternFormat](../../aspose.slides/ilinefillformateffectivedata/patternformat) { get; } | Retourneert het patroonvulopmaak. Alleen-lezen [`IPatternFormatEffectiveData`](../ipatternformateffectivedata). |
-| [RotateWithShape](../../aspose.slides/ilinefillformateffectivedata/rotatewithshape) { get; } | Bepaalt of de vulling moet worden geroteerd met een vorm. Alleen-lezen Boolean. |
+| [RotateWithShape](../../aspose.slides/ilinefillformateffectivedata/rotatewithshape) { get; } | Bepaalt of de vulling moet worden gedraaid met een vorm. Alleen-lezen Boolean. |
 | [SolidFillColor](../../aspose.slides/ilinefillformateffectivedata/solidfillcolor) { get; } | Retourneert de kleur van een effen vulling. Alleen-lezen Color. |
 
 ### Opmerkingen

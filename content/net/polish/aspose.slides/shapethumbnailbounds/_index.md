@@ -1,14 +1,14 @@
 ---
 title: ShapeThumbnailBounds
-second_title: Aspose.Sildes dla .NET – Dokumentacja API
-description: Wyliczenie rodzajów granic miniatury kształtu.
+second_title: Aspose.Sildes dla .NET - referencja API
+description: Wyliczenie typów granic miniatury kształtu.
 type: docs
-weight: 9920
+weight: 9940
 url: /pl/aspose.slides/shapethumbnailbounds/
 ---
 ## Wyliczenie ShapeThumbnailBounds
 
-Wyliczenie rodzajów granic miniatury kształtu.
+Wyliczenie typów granic miniatury kształtu.
 
 ```csharp
 public enum ShapeThumbnailBounds
@@ -18,9 +18,9 @@ public enum ShapeThumbnailBounds
 
 | Nazwa | Wartość | Opis |
 | --- | --- | --- |
-| Slide | `0` | Miniatura kształtu będzie miała rozmiar równy rozmiarowi slajdu. Pozycja kształtu zostanie zapisana. |
-| Shape | `1` | Miniatura kształtu będzie miała rozmiar równy prostokątowi ograniczającemu kształt, z uwzględnieniem ustawień obrysu kształtu. |
-| Appearance | `2` | Miniatura kształtu będzie miała rozmiar równy wyglądowi kształtu (w granicach slajdu). Mogą wystąpić przypadki, gdy wygląd kształtu nie mieści się w granicach kształtu. Np. rotacja, łączenie ostrego kąta typu miter, efekty 3D itp. |
+| Slide | `0` | Miniatura kształtu będzie mieć rozmiar równy rozmiarowi slajdu. Pozycja kształtu zostanie zapisana. |
+| Shape | `1` | Miniatura kształtu będzie mieć rozmiar równy prostokątowi ograniczającemu kształt, uwzględniając ustawienia konturu kształtu. |
+| Appearance | `2` | Miniatura kształtu będzie mieć rozmiar równy wyglądowi kształtu (w granicach slajdu). Mogą wystąpić sytuacje, gdy wygląd kształtu nie mieści się w granicach kształtu. Np. rotacja, połączenie skośne ostrego kąta, efekty 3D, itp. |
 
 ### Zobacz także
 

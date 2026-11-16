@@ -1,14 +1,14 @@
 ---
 title: IFillOverlayEffectiveData
 second_title: Aspose.Sildes for .NET API 參考
-description: 不可變物件，表示 Fill Overlay 效果。Fill Overlay 可用於為物件指定額外的填充，並將兩個填充混合在一起。
+description: 表示填充覆蓋效果的不可變物件。填充覆蓋可用於為對象指定額外的填充，並將兩個填充混合在一起。
 type: docs
-weight: 3310
+weight: 3330
 url: /zh-hant/aspose.slides.effects/ifilloverlayeffectivedata/
 ---
 ## IFillOverlayEffectiveData 介面
 
-不可變物件，表示 Fill Overlay 效果。Fill Overlay 可用於為物件指定額外的填充，並將兩個填充混合在一起。
+表示填充覆蓋效果的不可變物件。填充覆蓋可用於為對象指定額外的填充，並將兩個填充混合在一起。
 
 ```csharp
 public interface IFillOverlayEffectiveData : IEffectEffectiveData
@@ -18,9 +18,9 @@ public interface IFillOverlayEffectiveData : IEffectEffectiveData
 
 | 名稱 | 說明 |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ifilloverlayeffectivedata/asieffecteffectivedata) { get; } | 允許取得基礎 IEffectEffectiveData 介面。唯讀 [`IEffectEffectiveData`](../ieffecteffectivedata)。 |
-| [Blend](../../aspose.slides.effects/ifilloverlayeffectivedata/blend) { get; } | FillBlendMode。唯讀 [`FillBlendMode`](../../aspose.slides/fillblendmode)。 |
-| [FillFormat](../../aspose.slides.effects/ifilloverlayeffectivedata/fillformat) { get; } | Fill 格式。唯讀 [`IFillFormatEffectiveData`](../../aspose.slides/ifillformateffectivedata)。 |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ifilloverlayeffectivedata/asieffecteffectivedata) { get; } | 允許取得基礎 IEffectEffectiveData 介面。唯讀 [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Blend](../../aspose.slides.effects/ifilloverlayeffectivedata/blend) { get; } | FillBlendMode. 唯讀 [`FillBlendMode`](../../aspose.slides/fillblendmode). |
+| [FillFormat](../../aspose.slides.effects/ifilloverlayeffectivedata/fillformat) { get; } | Fill format. 唯讀 [`IFillFormatEffectiveData`](../../aspose.slides/ifillformateffectivedata). |
 
 ### 另請參閱
 

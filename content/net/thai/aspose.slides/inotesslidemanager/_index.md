@@ -1,14 +1,14 @@
 ---
 title: INotesSlideManager
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: ผู้จัดการสไลด์บันทึก.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: ตัวจัดการสไลด์บันทึก.
 type: docs
-weight: 6520
+weight: 6540
 url: /th/aspose.slides/inotesslidemanager/
 ---
 ## INotesSlideManager อินเทอร์เฟซ
 
-ผู้จัดการสไลด์บันทึก.
+ตัวจัดการสไลด์บันทึก.
 
 ```csharp
 public interface INotesSlideManager
@@ -18,14 +18,14 @@ public interface INotesSlideManager
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [NotesSlide](../../aspose.slides/inotesslidemanager/notesslide) { get; } | คืนสไลด์โน้ตสำหรับสไลด์ปัจจุบัน. คืนค่า null หากสไลด์ไม่มีสไลด์โน้ต. อ่านอย่างเดียว [`INotesSlide`](../inotesslide). |
+| [NotesSlide](../../aspose.slides/inotesslidemanager/notesslide) { get; } | ส่งคืนสไลด์บันทึกสำหรับสไลด์ปัจจุบัน. หากสไลด์ไม่มีสไลด์บันทึกจะส่งคืนค่า null. อ่านอย่างเดียว [`INotesSlide`](../inotesslide). |
 
-## วิธีการ
+## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AddNotesSlide](../../aspose.slides/inotesslidemanager/addnotesslide)() | คืนสไลด์โน้ตสำหรับสไลด์ปัจจุบัน หากไม่มีจะสร้างขึ้น. |
-| [RemoveNotesSlide](../../aspose.slides/inotesslidemanager/removenotesslide)() | ลบสไลด์โน้ตของสไลด์ปัจจุบัน. |
+| [AddNotesSlide](../../aspose.slides/inotesslidemanager/addnotesslide)() | ส่งคืนสไลด์บันทึกสำหรับสไลด์ปัจจุบัน, สร้างขึ้นหากไม่มี. |
+| [RemoveNotesSlide](../../aspose.slides/inotesslidemanager/removenotesslide)() | ลบสไลด์บันทึกของสไลด์ปัจจุบัน. |
 
 ### ดูเพิ่มเติม
 

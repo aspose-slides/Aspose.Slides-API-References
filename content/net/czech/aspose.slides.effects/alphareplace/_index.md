@@ -1,14 +1,14 @@
 ---
 title: AlphaReplace
-second_title: Aspose.Sildes pro .NET - reference API
-description: Reprezentuje efekt Alpha Replace. Hodnoty alfa (průhlednosti) efektu jsou nahrazeny pevnou alfa hodnotou.
+second_title: Aspose.Sildes pro .NET referenční příručka API
+description: Reprezentuje efekt Alpha Replace. Hodnoty alfa (průhlednost) efektu jsou nahrazeny pevnou hodnotou alfa.
 type: docs
-weight: 2900
+weight: 2920
 url: /cs/aspose.slides.effects/alphareplace/
 ---
 ## AlphaReplace třída
 
-Reprezentuje efekt Alpha Replace. Hodnoty alfa (průhlednost) efektu jsou nahrazeny pevnou alfa hodnotou.
+Reprezentuje efekt Alpha Replace. Hodnoty alfa (průhlednost) efektu jsou nahrazeny pevnou hodnotou alfa.
 
 ```csharp
 public sealed class AlphaReplace : ImageTransformOperation, IAlphaReplace

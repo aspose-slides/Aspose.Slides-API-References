@@ -1,14 +1,14 @@
 ---
 title: IComment
-second_title: Aspose.Sildes para .NET Referência de API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Representa um comentário em um slide.
 type: docs
-weight: 5560
+weight: 5580
 url: /pt/aspose.slides/icomment/
 ---
-## interface IComment
+## IComment interface
 
-Representa um comentário em um slide.
+Represents a comment on a slide.
 
 ```csharp
 public interface IComment
@@ -19,11 +19,11 @@ public interface IComment
 | Nome | Descrição |
 | --- | --- |
 | [Author](../../aspose.slides/icomment/author) { get; } | Retorna o autor de um comentário. Somente leitura [`ICommentAuthor`](../icommentauthor). |
-| [CreatedTime](../../aspose.slides/icomment/createdtime) { get; set; } | Retorna ou define o horário de criação de um comentário. Definir esta propriedade como MinValue significa que nenhum horário de comentário está definido. Leitura/gravação DateTime. |
-| [ParentComment](../../aspose.slides/icomment/parentcomment) { get; set; } | Obtém ou define o comentário pai. Leitura/gravação [`IComment`](../icomment). |
-| [Position](../../aspose.slides/icomment/position) { get; set; } | Retorna ou define a posição de um comentário em um slide. Leitura/gravação PointF. |
+| [CreatedTime](../../aspose.slides/icomment/createdtime) { get; set; } | Retorna ou define o horário de criação de um comentário. Definir esta propriedade como MinValue significa que nenhum horário de comentário está definido. Leitura/Gravação DateTime. |
+| [ParentComment](../../aspose.slides/icomment/parentcomment) { get; set; } | Obtém ou define o comentário pai. Leitura/Gravação [`IComment`](../icomment). |
+| [Position](../../aspose.slides/icomment/position) { get; set; } | Retorna ou define a posição de um comentário em um slide. Leitura/Gravação PointF. |
 | [Slide](../../aspose.slides/icomment/slide) { get; } | Retorna ou define o slide pai de um comentário. Somente leitura [`ISlide`](../islide). |
-| [Text](../../aspose.slides/icomment/text) { get; set; } | Retorna ou define o texto simples de um comentário de slide. Leitura/gravação String. |
+| [Text](../../aspose.slides/icomment/text) { get; set; } | Retorna ou define o texto simples de um comentário de slide. Leitura/Gravação String. |
 
 ## Métodos
 

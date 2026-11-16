@@ -1,14 +1,14 @@
 ---
 title: SmartArtQuickStyleType
-second_title: Aspose.Sildes .NET API hivatkozás
-description: A SmartArt diagram stílusának sémáját reprezentálja.
+second_title: Aspose.Sildes a .NET API referencia
+description: A SmartArt diagram stílusának sémáját képviseli.
 type: docs
-weight: 10650
+weight: 10670
 url: /hu/aspose.slides.smartart/smartartquickstyletype/
 ---
-## SmartArtQuickStyleType felsorolás
+## SmartArtQuickStyleType enumeráció
 
-A SmartArt diagram stílusának sémáját reprezentálja.
+A SmartArt diagram stílusának sémáját képviseli.
 
 ```csharp
 public enum SmartArtQuickStyleType

@@ -1,9 +1,9 @@
 ---
 title: ImageTransformOperationCollection
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Referência de API Aspose.Sildes para .NET
 description: Representa uma coleção de efeitos aplicados a uma imagem.
 type: docs
-weight: 3580
+weight: 3600
 url: /pt/aspose.slides.effects/imagetransformoperationcollection/
 ---
 ## ImageTransformOperationCollection classe
@@ -19,7 +19,7 @@ public sealed class ImageTransformOperationCollection : PVIObject,
 
 | Nome | Descrição |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permite obter a interface base IPresentationComponent. Somente leitura [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permite obter a interface IPresentationComponent base. Somente leitura [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 | [Count](../../aspose.slides.effects/imagetransformoperationcollection/count) { get; } | Retorna o número de efeitos de imagem em uma coleção. Somente leitura Int32. |
 | [IsReadOnly](../../aspose.slides.effects/imagetransformoperationcollection/isreadonly) { get; } | Obtém um valor que indica se a ICollection é somente leitura. Somente leitura Boolean. |
 | [Item](../../aspose.slides.effects/imagetransformoperationcollection/item) { get; } | Retorna um [`ImageTransformOperation`](../imagetransformoperation) da coleção pelo seu índice. |
@@ -51,7 +51,7 @@ public sealed class ImageTransformOperationCollection : PVIObject,
 | [Contains](../../aspose.slides.effects/imagetransformoperationcollection/contains)(IImageTransformOperation) | Determina se a ICollection contém um valor específico. |
 | [CopyTo](../../aspose.slides.effects/imagetransformoperationcollection/copyto)(IImageTransformOperation[], int) | Copia os elementos da ICollection para um Array, começando em um índice específico do Array. |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Compara com o objeto especificado. |
-| [GetEnumerator](../../aspose.slides.effects/imagetransformoperationcollection/getenumerator)() | Retorna um enumerador que itera sobre a coleção. |
+| [GetEnumerator](../../aspose.slides.effects/imagetransformoperationcollection/getenumerator)() | Retorna um enumerador que itera pela coleção. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Retorna o código hash. |
 | [Remove](../../aspose.slides.effects/imagetransformoperationcollection/remove)(IImageTransformOperation) | Remove a primeira ocorrência de um objeto específico da ICollection. |
 | [RemoveAt](../../aspose.slides.effects/imagetransformoperationcollection/removeat)(int) | Remove um efeito de imagem de uma coleção no índice especificado. |

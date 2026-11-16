@@ -1,14 +1,14 @@
 ---
 title: ILineFormat
-second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje formát čáry.
+second_title: Aspose.Sildes pro .NET API Referenci
+description: Představuje formát čáry.
 type: docs
-weight: 6310
+weight: 6330
 url: /cs/aspose.slides/ilineformat/
 ---
 ## ILineFormat rozhraní
 
-Reprezentuje formát čáry.
+Představuje formát čáry.
 
 ```csharp
 public interface ILineFormat : ILineParamSource
@@ -16,33 +16,33 @@ public interface ILineFormat : ILineParamSource
 
 ## Vlastnosti
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
-| [Alignment](../../aspose.slides/ilineformat/alignment) { get; set; } | Vrací nebo nastavuje zarovnání čáry. Pouze pro čtení a zápis [`LineAlignment`](../linealignment). |
-| [AsILineParamSource](../../aspose.slides/ilineformat/asilineparamsource) { get; } | Umožňuje získat základní rozhraní ILineParamSource. Pouze pro čtení [`ILineParamSource`](../ilineparamsource). |
-| [BeginArrowheadLength](../../aspose.slides/ilineformat/beginarrowheadlength) { get; set; } | Vrací nebo nastavuje délku šipky na začátku čáry. Pouze pro čtení a zápis [`LineArrowheadLength`](../linearrowheadlength). |
-| [BeginArrowheadStyle](../../aspose.slides/ilineformat/beginarrowheadstyle) { get; set; } | Vrací nebo nastavuje styl šipky na začátku čáry. Pouze pro čtení a zápis [`LineArrowheadStyle`](../linearrowheadstyle). |
-| [BeginArrowheadWidth](../../aspose.slides/ilineformat/beginarrowheadwidth) { get; set; } | Vrací nebo nastavuje šířku šipky na začátku čáry. Pouze pro čtení a zápis [`LineArrowheadWidth`](../linearrowheadwidth). |
-| [CapStyle](../../aspose.slides/ilineformat/capstyle) { get; set; } | Vrací nebo nastavuje styl zakončení čáry. Pouze pro čtení a zápis [`LineCapStyle`](../linecapstyle). |
-| [CustomDashPattern](../../aspose.slides/ilineformat/customdashpattern) { get; set; } | Vrací nebo nastavuje vlastní vzor čárkování. Pouze pro čtení a zápis Single[]. |
-| [DashStyle](../../aspose.slides/ilineformat/dashstyle) { get; set; } | Vrací nebo nastavuje styl čárkování čáry. Pouze pro čtení a zápis [`LineDashStyle`](../linedashstyle). |
-| [EndArrowheadLength](../../aspose.slides/ilineformat/endarrowheadlength) { get; set; } | Vrací nebo nastavuje délku šipky na konci čáry. Pouze pro čtení a zápis [`LineArrowheadLength`](../linearrowheadlength). |
-| [EndArrowheadStyle](../../aspose.slides/ilineformat/endarrowheadstyle) { get; set; } | Vrací nebo nastavuje styl šipky na konci čáry. Pouze pro čtení a zápis [`LineArrowheadStyle`](../linearrowheadstyle). |
-| [EndArrowheadWidth](../../aspose.slides/ilineformat/endarrowheadwidth) { get; set; } | Vrací nebo nastavuje šířku šipky na konci čáry. Pouze pro čtení a zápis [`LineArrowheadWidth`](../linearrowheadwidth). |
-| [FillFormat](../../aspose.slides/ilineformat/fillformat) { get; } | Vrací formát výplně čáry. Pouze pro čtení [`ILineFillFormat`](../ilinefillformat). |
-| [IsFormatNotDefined](../../aspose.slides/ilineformat/isformatnotdefined) { get; } | Vrací true, pokud formát čáry není definován (právě vytvořen, výchozí). Pouze pro čtení Boolean. |
-| [JoinStyle](../../aspose.slides/ilineformat/joinstyle) { get; set; } | Vrací nebo nastavuje styl spojení čar. Pouze pro čtení a zápis [`LineJoinStyle`](../linejoinstyle). |
-| [MiterLimit](../../aspose.slides/ilineformat/miterlimit) { get; set; } | Vrací nebo nastavuje limit šikmosti (miter) čáry. Pouze pro čtení a zápis Single. |
-| [SketchFormat](../../aspose.slides/ilineformat/sketchformat) { get; } | Vrací formát skicu čáry. Pouze pro čtení [`ISketchFormat`](../isketchformat). |
-| [Style](../../aspose.slides/ilineformat/style) { get; set; } | Vrací nebo nastavuje styl čáry. Pouze pro čtení a zápis [`LineStyle`](../linestyle). |
-| [Width](../../aspose.slides/ilineformat/width) { get; set; } | Vrací nebo nastavuje šířku čáry. Pouze pro čtení a zápis Double. |
+| [Alignment](../../aspose.slides/ilineformat/alignment) { get; set; } | Vrací nebo nastavuje zarovnání čáry. Čtení/zápis [`LineAlignment`](../linealignment). |
+| [AsILineParamSource](../../aspose.slides/ilineformat/asilineparamsource) { get; } | Umožňuje získat základní rozhraní ILineParamSource. Pouze ke čtení [`ILineParamSource`](../ilineparamsource). |
+| [BeginArrowheadLength](../../aspose.slides/ilineformat/beginarrowheadlength) { get; set; } | Vrací nebo nastavuje délku šipky na začátku čáry. Čtení/zápis [`LineArrowheadLength`](../linearrowheadlength). |
+| [BeginArrowheadStyle](../../aspose.slides/ilineformat/beginarrowheadstyle) { get; set; } | Vrací nebo nastavuje styl šipky na začátku čáry. Čtení/zápis [`LineArrowheadStyle`](../linearrowheadstyle). |
+| [BeginArrowheadWidth](../../aspose.slides/ilineformat/beginarrowheadwidth) { get; set; } | Vrací nebo nastavuje šířku šipky na začátku čáry. Čtení/zápis [`LineArrowheadWidth`](../linearrowheadwidth). |
+| [CapStyle](../../aspose.slides/ilineformat/capstyle) { get; set; } | Vrací nebo nastavuje styl zakončení čáry. Čtení/zápis [`LineCapStyle`](../linecapstyle). |
+| [CustomDashPattern](../../aspose.slides/ilineformat/customdashpattern) { get; set; } | Vrací nebo nastavuje vlastní vzor řezání. Čtení/zápis Single[]. |
+| [DashStyle](../../aspose.slides/ilineformat/dashstyle) { get; set; } | Vrací nebo nastavuje styl čárkování čáry. Čtení/zápis [`LineDashStyle`](../linedashstyle). |
+| [EndArrowheadLength](../../aspose.slides/ilineformat/endarrowheadlength) { get; set; } | Vrací nebo nastavuje délku šipky na konci čáry. Čtení/zápis [`LineArrowheadLength`](../linearrowheadlength). |
+| [EndArrowheadStyle](../../aspose.slides/ilineformat/endarrowheadstyle) { get; set; } | Vrací nebo nastavuje styl šipky na konci čáry. Čtení/zápis [`LineArrowheadStyle`](../linearrowheadstyle). |
+| [EndArrowheadWidth](../../aspose.slides/ilineformat/endarrowheadwidth) { get; set; } | Vrací nebo nastavuje šířku šipky na konci čáry. Čtení/zápis [`LineArrowheadWidth`](../linearrowheadwidth). |
+| [FillFormat](../../aspose.slides/ilineformat/fillformat) { get; } | Vrací formát výplně čáry. Pouze ke čtení [`ILineFillFormat`](../ilinefillformat). |
+| [IsFormatNotDefined](../../aspose.slides/ilineformat/isformatnotdefined) { get; } | Vrací true, pokud formát čáry není definován (právě vytvořený, výchozí). Pouze ke čtení Boolean. |
+| [JoinStyle](../../aspose.slides/ilineformat/joinstyle) { get; set; } | Vrací nebo nastavuje styl spojení čar. Čtení/zápis [`LineJoinStyle`](../linejoinstyle). |
+| [MiterLimit](../../aspose.slides/ilineformat/miterlimit) { get; set; } | Vrací nebo nastavuje limit řezu čáry. Čtení/zápis Single. |
+| [SketchFormat](../../aspose.slides/ilineformat/sketchformat) { get; } | Vrací formát skicu čáry. Pouze ke čtení [`ISketchFormat`](../isketchformat). |
+| [Style](../../aspose.slides/ilineformat/style) { get; set; } | Vrací nebo nastavuje styl čáry. Čtení/zápis [`LineStyle`](../linestyle). |
+| [Width](../../aspose.slides/ilineformat/width) { get; set; } | Vrací nebo nastavuje šířku čáry. Čtení/zápis Double. |
 
 ## Metody
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
-| [Equals](../../aspose.slides/ilineformat/equals)(ILineFormat) | Určuje, zda jsou dvě instance LineFormat stejné. |
-| [GetEffective](../../aspose.slides/ilineformat/geteffective)() | Získá efektivní data formátování čáry s aplikovaným děděním. |
+| [Equals](../../aspose.slides/ilineformat/equals)(ILineFormat) | Určuje, zda jsou dvě instance LineFormat rovnocenné. |
+| [GetEffective](../../aspose.slides/ilineformat/geteffective)() | Získává efektivní data formátování čáry s aplikovaným děděním. |
 
 ### Viz také
 

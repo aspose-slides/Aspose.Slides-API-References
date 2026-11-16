@@ -1,14 +1,14 @@
 ---
 title: IColorChangeEffectiveData
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Objek tak dapat diubah yang mewakili efek Perubahan Warna. Instansi FromColor digantikan dengan instansi ToColor.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Objek tak dapat diubah yang mewakili efek Color Change. Instansi FromColor digantikan dengan instansi ToColor.
 type: docs
-weight: 3230
+weight: 3250
 url: /id/aspose.slides.effects/icolorchangeeffectivedata/
 ---
 ## IColorChangeEffectiveData antarmuka
 
-Objek tak dapat diubah yang mewakili efek Perubahan Warna. Instansi FromColor digantikan dengan instansi ToColor.
+Objek tak dapat diubah yang mewakili efek Color Change. Instansi FromColor digantikan dengan instansi ToColor.
 
 ```csharp
 public interface IColorChangeEffectiveData : IEffectEffectiveData
@@ -18,10 +18,10 @@ public interface IColorChangeEffectiveData : IEffectEffectiveData
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/icolorchangeeffectivedata/asieffecteffectivedata) { get; } | Mengizinkan untuk mendapatkan antarmuka dasar IEffectEffectiveData. Baca-saja [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [FromColor](../../aspose.slides.effects/icolorchangeeffectivedata/fromcolor) { get; } | Warna yang akan digantikan. Baca-saja Color. |
-| [ToColor](../../aspose.slides.effects/icolorchangeeffectivedata/tocolor) { get; } | Warna yang akan menggantikan. Baca-saja Color. |
-| [UseAlpha](../../aspose.slides.effects/icolorchangeeffectivedata/usealpha) { get; } | Mengembalikan nilai boolean yang menentukan apakah komponen alpha harus digunakan. Baca-saja Boolean. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/icolorchangeeffectivedata/asieffecteffectivedata) { get; } | Memungkinkan mengambil antarmuka IEffectEffectiveData dasar. Baca-saja [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [FromColor](../../aspose.slides.effects/icolorchangeeffectivedata/fromcolor) { get; } | Color yang akan diganti. Baca-saja Color. |
+| [ToColor](../../aspose.slides.effects/icolorchangeeffectivedata/tocolor) { get; } | Color yang akan menggantikan. Baca-saja Color. |
+| [UseAlpha](../../aspose.slides.effects/icolorchangeeffectivedata/usealpha) { get; } | Mengembalikan nilai Boolean yang menentukan apakah komponen alpha harus digunakan. Baca-saja Boolean. |
 
 ### Lihat Juga
 

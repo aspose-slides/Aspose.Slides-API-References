@@ -1,12 +1,12 @@
 ---
 title: TemplateContextTObject
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 템플릿 엔진을 위한 모델 객체 인터페이스를 나타냅니다.
 type: docs
-weight: 4670
+weight: 4690
 url: /ko/aspose.slides.export.web/templatecontext-1/
 ---
-## TemplateContext&lt;TObject&gt; 클래스
+## TemplateContext<TObject> 클래스
 
 템플릿 엔진을 위한 모델 객체 인터페이스를 나타냅니다.
 
@@ -29,7 +29,7 @@ public sealed class TemplateContext<TObject>
 | --- | --- |
 | [SubModel&lt;TSubModel&gt;](../../aspose.slides.export.web/templatecontext`1/submodel)(TSubModel) | 자식 템플릿 컨텍스트를 생성합니다. |
 
-### 관련 항목
+### 참고
 
 * 네임스페이스 [Aspose.Slides.Export.Web](../../aspose.slides.export.web)
 * 어셈블리 [Aspose.Slides](../../)

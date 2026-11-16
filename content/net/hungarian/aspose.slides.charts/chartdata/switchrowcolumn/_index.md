@@ -1,14 +1,14 @@
 ---
 title: SwitchRowColumn
 second_title: Aspose.Sildes .NET API referencia
-description: Cserélje fel az adatokat a tengelyen. Az X tengelyen ábrázolt adatok átkerülnek a Y tengelyre, és fordítva.
+description: Cserélje fel az adatokat a tengelyek között. A X tengelyen ábrázolt adatok az Y tengelyre kerülnek, és fordítva.
 type: docs
-weight: 140
+weight: 150
 url: /hu/aspose.slides.charts/chartdata/switchrowcolumn/
 ---
 ## ChartData.SwitchRowColumn metódus
 
-Cserélje fel az adatokat a tengelyen. Az X tengelyen ábrázolt adatok átkerülnek a Y tengelyre, és fordítva.
+Cserélje fel az adatokat a tengelyek között. A X tengelyen ábrázolt adatok az Y tengelyre kerülnek, és fordítva.
 
 ```csharp
 public void SwitchRowColumn()

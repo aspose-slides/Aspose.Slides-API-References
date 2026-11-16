@@ -1,14 +1,14 @@
 ---
 title: Glow
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: एक Glow इफ़ेक्ट का प्रतिनिधित्व करता है, जिसमें वस्तु के किनारों के बाहर एक धुंधली रंगीन रूपरेखा जोड़ी जाती है।
+description: ऑब्जेक्ट के किनारों के बाहर रंग धुंधला रूपरेखा जोड़कर Glow प्रभाव का प्रतिनिधित्व करता है।
 type: docs
-weight: 2990
+weight: 3010
 url: /hi/aspose.slides.effects/glow/
 ---
 ## Glow क्लास
 
-एक Glow इफ़ेक्ट का प्रतिनिधित्व करता है, जिसमें वस्तु के किनारों के बाहर एक धुंधला रंगीन रूपरेखा जोड़ी जाती है।
+Represents a Glow effect, in which a color blurred outline is added outside the edges of the object.
 
 ```csharp
 public sealed class Glow : IGlow
@@ -21,15 +21,15 @@ public sealed class Glow : IGlow
 | [Color](../../aspose.slides.effects/glow/color) { get; } | रंग स्वरूप. केवल-पढ़ने योग्य [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [Radius](../../aspose.slides.effects/glow/radius) { get; set; } | त्रिज्या. पढ़ने/लिखने योग्य Double. |
 
-## विधियां
+## मेथड्स
 
 | नाम | विवरण |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/glow/equals)(object) | निर्धारित करता है कि निर्दिष्ट [`Glow`](../glow) वर्तमान [`Glow`](../glow) के बराबर है या नहीं। |
-| [GetEffective](../../aspose.slides.effects/glow/geteffective)() | विरासत लागू किए गए प्रभाव के साथ प्रभावी Glow इफ़ेक्ट डेटा प्राप्त करता है। |
-| override [GetHashCode](../../aspose.slides.effects/glow/gethashcode)() | किसी विशिष्ट प्रकार के लिए हैश फ़ंक्शन के रूप में कार्य करता है। |
+| override [Equals](../../aspose.slides.effects/glow/equals)(object) | नियत करता है कि निर्दिष्ट [`Glow`](../glow) वर्तमान [`Glow`](../glow) के बराबर है या नहीं। |
+| [GetEffective](../../aspose.slides.effects/glow/geteffective)() | विरासत लागू करके प्रभावी Glow प्रभाव डेटा प्राप्त करता है। |
+| override [GetHashCode](../../aspose.slides.effects/glow/gethashcode)() | किसी विशेष प्रकार के लिए हैश फ़ंक्शन के रूप में कार्य करता है। |
 
-### संबंधित देखें
+### देखें भी
 
 * इंटरफ़ेस [IGlow](../iglow)
 * नामस्थान [Aspose.Slides.Effects](../../aspose.slides.effects)

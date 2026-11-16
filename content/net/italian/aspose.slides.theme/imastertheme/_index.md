@@ -3,7 +3,7 @@ title: IMasterTheme
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta un tema master.
 type: docs
-weight: 11310
+weight: 11330
 url: /it/aspose.slides.theme/imastertheme/
 ---
 ## IMasterTheme interfaccia
@@ -19,7 +19,7 @@ public interface IMasterTheme : ITheme
 | Nome | Descrizione |
 | --- | --- |
 | [AsITheme](../../aspose.slides.theme/imastertheme/asitheme) { get; } | Consente di ottenere l'interfaccia base ITheme. Solo lettura [`ITheme`](../itheme). |
-| [ExtraColorSchemes](../../aspose.slides.theme/imastertheme/extracolorschemes) { get; } | Restituisce la raccolta di schemi di colore aggiuntivi. Questi schemi non influenzano l'aspetto della presentazione, possono essere selezionati come schema di colore principale per una diapositiva. Solo lettura [`IExtraColorSchemeCollection`](../iextracolorschemecollection). |
+| [ExtraColorSchemes](../../aspose.slides.theme/imastertheme/extracolorschemes) { get; } | Restituisce la raccolta di schemi colore aggiuntivi. Questi schemi non influiscono sull'aspetto della presentazione, possono essere selezionati come schema colore principale per una diapositiva. Solo lettura [`IExtraColorSchemeCollection`](../iextracolorschemecollection). |
 | [Name](../../aspose.slides.theme/imastertheme/name) { get; set; } | Restituisce il nome di un tema. Lettura/scrittura String. |
 
 ### Vedi anche

@@ -3,12 +3,12 @@ title: IPresetShadowEffectiveData
 second_title: Aspose.Sildes för .NET API-referens
 description: Oföränderligt objekt som representerar en förinställd skuggeffekt.
 type: docs
-weight: 3490
+weight: 3510
 url: /sv/aspose.slides.effects/ippresetshadoweffectivedata/
 ---
 ## IPresetShadowEffectiveData gränssnitt
 
-Oföränderligt objekt som representerar en förinställd skugg-effekt.
+Oföränderligt objekt som representerar en förinställd skuggeffekt.
 
 ```csharp
 public interface IPresetShadowEffectiveData : IEffectEffectiveData

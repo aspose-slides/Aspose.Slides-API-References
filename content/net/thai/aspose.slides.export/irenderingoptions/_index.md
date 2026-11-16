@@ -1,9 +1,9 @@
 ---
 title: IRenderingOptions
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: ให้ตัวเลือกที่ควบคุมวิธีการเรนเดอร์ของงานนำเสนอ/สไลด์
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: ให้ตัวเลือกที่ควบคุมวิธีการแสดงผลของงานนำเสนอ/สไลด์.
 type: docs
-weight: 4040
+weight: 4060
 url: /th/aspose.slides.export/irenderingoptions/
 ---
 ## IRenderingOptions อินเทอร์เฟซ
@@ -14,14 +14,14 @@ url: /th/aspose.slides.export/irenderingoptions/
 public interface IRenderingOptions : ISaveOptions
 ```
 
-## Properties
+## คุณสมบัติ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/irenderingoptions/asisaveoptions) { get; } | ส่งคืน ISaveOptions อินเทอร์เฟซ. อ่านอย่างเดียว [`ISaveOptions`](../isaveoptions). |
-| [DisableFontLigatures](../../aspose.slides.export/irenderingoptions/disablefontligatures) { get; set; } | รับหรือกำหนดค่าแสดงว่าข้อความถูกเรนเดอร์โดยไม่ใช้ลิการเจอร์หรือไม่. เมื่อกำหนดเป็น `true` ลิการเจอร์จะถูกปิดในผลลัพธ์ที่เรนเดอร์. โดยค่าเริ่มต้น, คุณสมบัตินี้ตั้งค่าเป็น `false`. |
+| [AsISaveOptions](../../aspose.slides.export/irenderingoptions/asisaveoptions) { get; } | ส่งคืนอินเทอร์เฟซ ISaveOptions. อ่านอย่างเดียว [`ISaveOptions`](../isaveoptions). |
+| [DisableFontLigatures](../../aspose.slides.export/irenderingoptions/disablefontligatures) { get; set; } | รับหรือกำหนดค่าที่บ่งชี้ว่าข้อความจะถูกแสดงผลโดยไม่ใช้ลิแกเจอร์หรือไม่. เมื่อกำหนดเป็น `true` ลิแกเจอร์จะถูกปิดใช้งานในผลลัพธ์ที่แสดง. ตามค่าเริ่มต้นคุณสมบัตินี้ถูกตั้งค่าเป็น `false`. |
 | [InkOptions](../../aspose.slides.export/irenderingoptions/inkoptions) { get; } | ให้ตัวเลือกที่ควบคุมลักษณะของวัตถุ Ink ในเอกสารที่ส่งออก. อ่านอย่างเดียว [`IInkOptions`](../iinkoptions) |
-| [SlidesLayoutOptions](../../aspose.slides.export/irenderingoptions/slideslayoutoptions) { get; set; } | รับหรือกำหนดโหมดที่สไลด์ถูกวางบนหน้าเมื่อส่งออกงานนำเสนอ [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [SlidesLayoutOptions](../../aspose.slides.export/irenderingoptions/slideslayoutoptions) { get; set; } | รับหรือกำหนดโหมดที่สไลด์จะถูกวางบนหน้าเมื่อส่งออกงานนำเสนอ [`ISlidesLayoutOptions`](../islideslayoutoptions). |
 
 ### ตัวอย่าง
 

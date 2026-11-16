@@ -1,9 +1,9 @@
 ---
 title: IParagraphFactory
-second_title: Aspose.Sildes für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Ermöglicht das Erstellen von Absätzen
 type: docs
-weight: 6580
+weight: 6600
 url: /de/aspose.slides/iparagraphfactory/
 ---
 ## IParagraphFactory Schnittstelle

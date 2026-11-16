@@ -3,7 +3,7 @@ title: IZoomObject
 second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Représente un objet Zoom dans une diapositive.
 type: docs
-weight: 7410
+weight: 7430
 url: /fr/aspose.slides/izoomobject/
 ---
 ## IZoomObject interface
@@ -19,10 +19,10 @@ public interface IZoomObject : IGraphicalObject
 | Nom | Description |
 | --- | --- |
 | [AsIGraphicalObject](../../aspose.slides/izoomobject/asigraphicalobject) { get; } | Permet d'obtenir l'interface de base IGraphicalObject. Lecture seule [`IGraphicalObject`](../igraphicalobject). |
-| [ImageType](../../aspose.slides/izoomobject/imagetype) { get; set; } | Obtient ou définit le type d'image d'un objet zoom. Lecture/écriture [`ZoomImageType`](../zoomimagetype). Valeur par défaut : Preview |
-| [ReturnToParent](../../aspose.slides/izoomobject/returntoparent) { get; set; } | Obtient ou définit le comportement de navigation dans le diaporama. Lecture/écriture Boolean. Valeur par défaut : false |
-| [ShowBackground](../../aspose.slides/izoomobject/showbackground) { get; set; } | Obtient ou définit la valeur qui indique si le Zoom utilisera l'arrière-plan de la diapositive de destination. Lecture/écriture Boolean. Valeur par défaut : true |
-| [TransitionDuration](../../aspose.slides/izoomobject/transitionduration) { get; set; } | Obtient ou définit la durée de la transition entre le Zoom et la diapositive. Lecture/écriture Single. Valeur par défaut : 1.0f |
+| [ImageType](../../aspose.slides/izoomobject/imagetype) { get; set; } | Obtient ou définit le type d'image d'un objet zoom. Lecture/écriture [`ZoomImageType`](../zoomimagetype). Valeur par défaut: Preview |
+| [ReturnToParent](../../aspose.slides/izoomobject/returntoparent) { get; set; } | Obtient ou définit le comportement de navigation dans le diaporama. Lecture/écriture Boolean. Valeur par défaut: false |
+| [ShowBackground](../../aspose.slides/izoomobject/showbackground) { get; set; } | Obtient ou définit la valeur qui indique si le Zoom utilisera l'arrière-plan de la diapositive de destination. Lecture/écriture Boolean. Valeur par défaut: true |
+| [TransitionDuration](../../aspose.slides/izoomobject/transitionduration) { get; set; } | Obtient ou définit la durée de la transition entre le Zoom et la diapositive. Lecture/écriture Single. Valeur par défaut: 1.0f |
 | [ZoomImage](../../aspose.slides/izoomobject/zoomimage) { get; set; } | Obtient ou définit l'image pour l'objet zoom. Lecture/écriture [`IPPImage`](../ippimage). |
 
 ### Voir aussi

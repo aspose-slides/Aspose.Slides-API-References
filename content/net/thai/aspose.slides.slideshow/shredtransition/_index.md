@@ -3,7 +3,7 @@ title: ShredTransition
 second_title: Aspose.Sildes สำหรับ .NET API Reference
 description: เอฟเฟกต์การเปลี่ยนสไลด์แบบ Shred.
 type: docs
-weight: 10300
+weight: 10320
 url: /th/aspose.slides.slideshow/shredtransition/
 ---
 ## ShredTransition คลาส
@@ -16,17 +16,17 @@ public class ShredTransition : TransitionValueBase, IShredTransition
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/shredtransition/direction) { get; set; } | ทิศทางของการเปลี่ยนสไลด์ อ่าน/เขียน [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [Pattern](../../aspose.slides.slideshow/shredtransition/pattern) { get; set; } | ระบุรูปร่างของภาพที่ใช้ระหว่างการเปลี่ยนสไลด์ อ่าน/เขียน [`TransitionShredPattern`](../transitionshredpattern). |
+| [Direction](../../aspose.slides.slideshow/shredtransition/direction) { get; set; } | ทิศทางของการเปลี่ยน. อ่าน/เขียน [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
+| [Pattern](../../aspose.slides.slideshow/shredtransition/pattern) { get; set; } | ระบุรูปแบบของภาพที่ใช้ระหว่างการเปลี่ยน. อ่าน/เขียน [`TransitionShredPattern`](../transitionshredpattern). |
 
-## วิธีการ
+## เมธอด
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | กำหนดว่าตัวอย่าง TransitionValueBase ทั้งสองเท่ากันหรือไม่. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | ทำหน้าที่เป็นฟังก์ชันแฮชสำหรับชนิดเฉพาะ ที่เหมาะสำหรับใช้ในอัลกอริทึมแฮชและโครงสร้างข้อมูลเช่น ตารางแฮช. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | กำหนดว่าตัวอย่าง TransitionValueBase สองตัวเท่ากันหรือไม่. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | ทำหน้าที่เป็นฟังก์ชันแฮชสำหรับประเภทหนึ่ง, เหมาะสำหรับการใช้ในอัลกอริทึมแฮชและโครงสร้างข้อมูลเช่น ตารางแฮช. |
 
 ### ดูเพิ่มเติม
 

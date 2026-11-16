@@ -1,14 +1,14 @@
 ---
 title: IMathBar
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Gibt die Bar-Funktion an, die aus einem Basisargument und einem Überstrich bzw. Unterstrich besteht
+description: Gibt die Balkenfunktion an, bestehend aus einem Basisargument und einem Ober- bzw. Unterbalken
 type: docs
-weight: 8120
+weight: 8140
 url: /de/aspose.slides.mathtext/imathbar/
 ---
 ## IMathBar Schnittstelle
 
-Gibt die Bar-Funktion an, bestehend aus einem Basisargument und einem Überstrich bzw. Unterstrich
+Gibt die Balkenfunktion an, bestehend aus einem Basisargument und einem Ober- bzw. Unterbalken
 
 ```csharp
 public interface IMathBar : IMathElement
@@ -18,9 +18,9 @@ public interface IMathBar : IMathElement
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathbar/asimathelement) { get; } | Ermöglicht den Zugriff auf die Basis-IMathElement-Schnittstelle [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathbar/asimathelement) { get; } | Ermöglicht das Abrufen der Basis IMathElement Schnittstelle [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathbar/base) { get; } | Basisargument |
-| [Position](../../aspose.slides.mathtext/imathbar/position) { get; set; } | Position der Bar-Linie. Standard: Top |
+| [Position](../../aspose.slides.mathtext/imathbar/position) { get; set; } | Position der Balkenlinie. Standard: Oben |
 
 ### Beispiele
 

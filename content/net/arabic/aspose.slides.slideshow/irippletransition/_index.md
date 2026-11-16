@@ -1,14 +1,14 @@
 ---
 title: IRippleTransition
-second_title: مرجع API Aspose.Sildes لـ .NET
+second_title: Aspose.Sildes لـ .NET مرجع API
 description: تأثير انتقال شريحة تموج.
 type: docs
-weight: 10170
+weight: 10190
 url: /ar/aspose.slides.slideshow/irippletransition/
 ---
 ## IRippleTransition واجهة
 
-تأثير انتقال شريحة تموج.
+Ripple slide transition effect.
 
 ```csharp
 public interface IRippleTransition : ITransitionValueBase

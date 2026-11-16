@@ -1,14 +1,14 @@
 ---
 title: IThreeDFormatEffectiveData
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: อ็อบเจ็กต์ไม่เปลี่ยนแปลงซึ่งแสดงคุณสมบัติการจัดรูปแบบ 3-D ที่มีผล
+description: อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งแสดงถึงคุณสมบัติการจัดรูปแบบ 3-D ที่มีผล
 type: docs
-weight: 7340
+weight: 7360
 url: /th/aspose.slides/ithreedformateffectivedata/
 ---
 ## IThreeDFormatEffectiveData อินเทอร์เฟซ
 
-อ็อบเจ็กต์ไม่เปลี่ยนแปลงที่แสดงคุณสมบัติการจัดรูปแบบ 3-D ที่มีผล
+อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งแสดงถึงคุณสมบัติการจัดรูปแบบ 3-D ที่มีผล
 
 ```csharp
 public interface IThreeDFormatEffectiveData : IThreeDParamSource
@@ -18,21 +18,21 @@ public interface IThreeDFormatEffectiveData : IThreeDParamSource
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIThreeDParamSource](../../aspose.slides/ithreedformateffectivedata/asithreedparamsource) { get; } | อนุญาตให้รับ IThreeDParamSource อินเทอร์เฟซพื้นฐาน. อ่านอย่างเดียว [`IThreeDParamSource`](../ithreedparamsource). |
-| [BevelBottom](../../aspose.slides/ithreedformateffectivedata/bevelbottom) { get; } | ส่งกลับประเภทของ bevel 3D ด้านล่าง. อ่านอย่างเดียว [`IShapeBevelEffectiveData`](../ishapebeveleffectivedata). |
-| [BevelTop](../../aspose.slides/ithreedformateffectivedata/beveltop) { get; } | ส่งกลับประเภทของ bevel 3D ด้านบน. อ่านอย่างเดียว [`IShapeBevelEffectiveData`](../ishapebeveleffectivedata). |
-| [Camera](../../aspose.slides/ithreedformateffectivedata/camera) { get; } | ส่งกลับการตั้งค่ากล้อง. อ่านอย่างเดียว [`ICameraEffectiveData`](../icameraeffectivedata). |
-| [ContourColor](../../aspose.slides/ithreedformateffectivedata/contourcolor) { get; } | ส่งกลับสีของคอนทูร์. อ่านอย่างเดียว Color. |
-| [ContourWidth](../../aspose.slides/ithreedformateffectivedata/contourwidth) { get; } | ส่งกลับความกว้างของคอนทูร์ 3D. อ่านอย่างเดียว Double. |
-| [Depth](../../aspose.slides/ithreedformateffectivedata/depth) { get; } | ส่งกลับความลึกของรูปร่าง 3D. อ่านอย่างเดียว Double. |
-| [ExtrusionColor](../../aspose.slides/ithreedformateffectivedata/extrusioncolor) { get; } | ส่งกลับสีของการดันออก (extrusion). อ่านอย่างเดียว Color. |
-| [ExtrusionHeight](../../aspose.slides/ithreedformateffectivedata/extrusionheight) { get; } | ส่งกลับความสูงของเอฟเฟกต์การดันออก. อ่านอย่างเดียว Double. |
-| [LightRig](../../aspose.slides/ithreedformateffectivedata/lightrig) { get; } | ส่งกลับประเภทของแสง. อ่านอย่างเดียว [`ILightRigEffectiveData`](../ilightrigeffectivedata). |
-| [Material](../../aspose.slides/ithreedformateffectivedata/material) { get; } | ส่งกลับประเภทของวัสดุ. อ่านอย่างเดียว [`MaterialPresetType`](../materialpresettype). |
+| [AsIThreeDParamSource](../../aspose.slides/ithreedformateffectivedata/asithreedparamsource) { get; } | อนุญาตให้รับอินเทอร์เฟซ IThreeDParamSource พื้นฐาน. อ่านอย่างเดียว [`IThreeDParamSource`](../ithreedparamsource). |
+| [BevelBottom](../../aspose.slides/ithreedformateffectivedata/bevelbottom) { get; } | ส่งคืนประเภทของ bevel 3D ด้านล่าง. อ่านอย่างเดียว [`IShapeBevelEffectiveData`](../ishapebeveleffectivedata). |
+| [BevelTop](../../aspose.slides/ithreedformateffectivedata/beveltop) { get; } | ส่งคืนประเภทของ bevel 3D ด้านบน. อ่านอย่างเดียว [`IShapeBevelEffectiveData`](../ishapebeveleffectivedata). |
+| [Camera](../../aspose.slides/ithreedformateffectivedata/camera) { get; } | ส่งคืนการตั้งค่าของกล้อง. อ่านอย่างเดียว [`ICameraEffectiveData`](../icameraeffectivedata). |
+| [ContourColor](../../aspose.slides/ithreedformateffectivedata/contourcolor) { get; } | ส่งคืนสีของคอนทัวร์. อ่านอย่างเดียว Color. |
+| [ContourWidth](../../aspose.slides/ithreedformateffectivedata/contourwidth) { get; } | ส่งคืนความกว้างของคอนทัวร์ 3D. อ่านอย่างเดียว Double. |
+| [Depth](../../aspose.slides/ithreedformateffectivedata/depth) { get; } | ส่งคืนความลึกของรูปร่าง 3D. อ่านอย่างเดียว Double. |
+| [ExtrusionColor](../../aspose.slides/ithreedformateffectivedata/extrusioncolor) { get; } | ส่งคืนสีของ extrusion. อ่านอย่างเดียว Color. |
+| [ExtrusionHeight](../../aspose.slides/ithreedformateffectivedata/extrusionheight) { get; } | ส่งคืนความสูงของเอฟเฟกต์ extrusion. อ่านอย่างเดียว Double. |
+| [LightRig](../../aspose.slides/ithreedformateffectivedata/lightrig) { get; } | ส่งคืนประเภทของแสง. อ่านอย่างเดียว [`ILightRigEffectiveData`](../ilightrigeffectivedata). |
+| [Material](../../aspose.slides/ithreedformateffectivedata/material) { get; } | ส่งคืนประเภทของวัสดุ. อ่านอย่างเดียว [`MaterialPresetType`](../materialpresettype). |
 
 ### หมายเหตุ
 
-อินเทอร์เฟซนี้ใช้ร่วมกับอินเทอร์เฟซ [`IThreeDFormat`](../ithreedformat) เพื่อส่งกลับค่าการจัดรูปแบบที่มีผลโดยใช้การสืบทอด
+อินเทอร์เฟซนี้ใช้ร่วมกับอินเทอร์เฟซ [`IThreeDFormat`](../ithreedformat) เพื่อส่งคืนค่าการจัดรูปแบบที่มีผลพร้อมกับการใช้การสืบทอด
 
 ### ดูเพิ่มเติม
 

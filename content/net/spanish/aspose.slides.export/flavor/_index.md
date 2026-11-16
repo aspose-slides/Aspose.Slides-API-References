@@ -1,12 +1,12 @@
 ---
 title: Flavor
-second_title: Referencia API de Aspose.Sildes para .NET
+second_title: Aspose.Sildes para la referencia de la API de .NET
 description: Todas las especificaciones markdown usadas en el programa.
 type: docs
-weight: 3800
+weight: 3820
 url: /es/aspose.slides.export/flavor/
 ---
-## Enumeración de Flavor
+## Enumeración de sabores
 
 Todas las especificaciones markdown usadas en el programa.
 
@@ -41,7 +41,7 @@ public enum Flavor
 | S9ETextFormatter | `20` | Sabor S9E text formatter. |
 | XWiki | `21` | Sabor XWiki. |
 | StackOverflow | `22` | Sabor Stack overflow. |
-| Default | `23` | Sabor markdown predeterminado. |
+| Default | `23` | Sabor Default markdown. |
 
 ### Ejemplos
 

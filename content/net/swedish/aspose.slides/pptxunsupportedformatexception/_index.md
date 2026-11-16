@@ -3,7 +3,7 @@ title: PptxUnsupportedFormatException
 second_title: Aspose.Sildes för .NET API-referens
 description: Undantag som kastas när presentationsfilens format inte stöds.
 type: docs
-weight: 9580
+weight: 9600
 url: /sv/aspose.slides/pptxunsupportedformatexception/
 ---
 ## PptxUnsupportedFormatException klass
@@ -19,7 +19,7 @@ public class PptxUnsupportedFormatException : PptxReadException
 | Namn | Beskrivning |
 | --- | --- |
 | [PptxUnsupportedFormatException](pptxunsupportedformatexception#constructor)() | Standardkonstruktor. |
-| [PptxUnsupportedFormatException](pptxunsupportedformatexception#constructor_1)(string) | Konstruktor som tillåter att ett meddelande läggs till detta undantag. |
+| [PptxUnsupportedFormatException](pptxunsupportedformatexception#constructor_1)(string) | Konstruktor som tillåter ett meddelande att läggas till i detta undantag. |
 | [PptxUnsupportedFormatException](pptxunsupportedformatexception#constructor_2)(string, Exception) | Konstruktor för ett undantag som innehåller ett meddelande och ett inbäddat undantag. |
 
 ### Se även

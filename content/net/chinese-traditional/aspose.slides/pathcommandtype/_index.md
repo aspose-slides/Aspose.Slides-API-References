@@ -1,14 +1,14 @@
 ---
 title: PathCommandType
 second_title: Aspose.Sildes for .NET API 參考
-description: 表示圖形路徑命令
+description: 表示圖形路徑指令
 type: docs
-weight: 9320
+weight: 9340
 url: /zh-hant/aspose.slides/pathcommandtype/
 ---
 ## PathCommandType 列舉
 
-表示圖形路徑命令
+表示圖形路徑指令
 
 ```csharp
 public enum PathCommandType : byte
@@ -20,12 +20,12 @@ public enum PathCommandType : byte
 | --- | --- | --- |
 | Close | `0` | 關閉幾何路徑 |
 | MoveTo | `1` | 設定幾何路徑的下一個點位置 |
-| LineTo | `2` | 將線條附加到幾何路徑 |
-| ArcTo | `3` | 將指定的弧線附加到幾何路徑。 |
-| QuadBezierTo | `4` | 將二次 Bezier 曲線附加到幾何路徑 |
-| CubicBezierTo | `5` | 將三次 Bezier 曲線附加到幾何路徑 |
+| LineTo | `2` | 在幾何路徑中加入直線 |
+| ArcTo | `3` | 在幾何路徑中加入指定的弧線。 |
+| QuadBezierTo | `4` | 在幾何路徑中加入二次貝塞爾曲線 |
+| CubicBezierTo | `5` | 在幾何路徑中加入三次貝塞爾曲線 |
 
-### 參見
+### 另見
 
 * 命名空間 [Aspose.Slides](../../aspose.slides)
 * 組件 [Aspose.Slides](../../)

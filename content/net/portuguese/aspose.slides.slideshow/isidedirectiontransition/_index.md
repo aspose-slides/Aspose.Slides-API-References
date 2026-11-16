@@ -1,14 +1,14 @@
 ---
 title: ISideDirectionTransition
-second_title: Aspose.Sildes para .NET Referência da API
-description: Efeito de transição de slide por direção lateral.
+second_title: Aspose.Sildes para .NET Referência de API
+description: Efeito de transição de slide em direção lateral.
 type: docs
-weight: 10190
+weight: 10210
 url: /pt/aspose.slides.slideshow/isidedirectiontransition/
 ---
 ## ISideDirectionTransition interface
 
-Efeito de transição de slide por direção lateral.
+Efeito de transição de slide em direção lateral.
 
 ```csharp
 public interface ISideDirectionTransition : ITransitionValueBase
@@ -19,9 +19,9 @@ public interface ISideDirectionTransition : ITransitionValueBase
 | Nome | Descrição |
 | --- | --- |
 | [AsITransitionValueBase](../../aspose.slides.slideshow/isidedirectiontransition/asitransitionvaluebase) { get; } | Permite obter a interface base ITransitionValueBase. Somente leitura [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/isidedirectiontransition/direction) { get; set; } | Direção da transição. Leitura/Gravação [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
+| [Direction](../../aspose.slides.slideshow/isidedirectiontransition/direction) { get; set; } | Direção da transição. Leitura/gravação [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
 
-### Ver também
+### Veja Também
 
 * interface [ITransitionValueBase](../itransitionvaluebase)
 * namespace [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

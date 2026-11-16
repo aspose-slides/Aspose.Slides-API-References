@@ -1,18 +1,19 @@
 ---
 title: IPortionFormatEffectiveData
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: अपरिवर्तनीय वस्तु जो प्रभावी पाठ भाग स्वरूपण गुणों को समाहित करती है।
+description: एक अपरिवर्तनीय वस्तु जिसमें प्रभावी टेक्स्ट भाग फ़ॉर्मेटिंग गुण होते हैं।
 type: docs
-weight: 6740
+weight: 6760
 url: /hi/aspose.slides/iportionformateffectivedata/
 ---
 ## IPortionFormatEffectiveData इंटरफ़ेस
 
-अपरिवर्तनीय ऑब्जेक्ट जो प्रभावी टेक्स्ट भाग स्वरूपण गुणों को समाहित करता है।
+एक अपरिवर्तनीय वस्तु जिसमें प्रभावी टेक्स्ट भाग फ़ॉर्मेटिंग गुण होते हैं।
 
 ```csharp
 public interface IPortionFormatEffectiveData : IBasePortionFormatEffectiveData
 ```
+
 ## गुण
 
 | नाम | विवरण |
@@ -24,9 +25,9 @@ public interface IPortionFormatEffectiveData : IBasePortionFormatEffectiveData
 
 ### टिप्पणियाँ
 
-इस इंटरफ़ेस को [`IPortionFormat`](../iportionformat) इंटरफ़ेस के साथ मिलकर उपयोग किया जाता है ताकि विरासत लागू होने के साथ प्रभावी स्वरूपण मान वापस किए जा सकें।
+इस इंटरफ़ेस का उपयोग [`IPortionFormat`](../iportionformat) इंटरफ़ेस के साथ किया जाता है ताकि विरासत लागू होते हुए प्रभावी फ़ॉर्मेटिंग मान लौटाए जा सकें।
 
-### देखें
+### संबंधित देखें
 
 * इंटरफ़ेस [IBasePortionFormatEffectiveData](../ibaseportionformateffectivedata)
 * नामस्थान [Aspose.Slides](../../aspose.slides)

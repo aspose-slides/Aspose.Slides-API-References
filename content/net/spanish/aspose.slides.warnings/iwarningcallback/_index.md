@@ -1,9 +1,9 @@
 ---
 title: IWarningCallback
-second_title: Aspose.Sildes para la referencia de API de .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Interfaz para clases que reciben advertencias
 type: docs
-weight: 11800
+weight: 11820
 url: /es/aspose.slides.warnings/iwarningcallback/
 ---
 ## IWarningCallback interfaz

@@ -1,12 +1,12 @@
 ---
 title: Trendline
-second_title: Aspose.Sildes لـ .NET مرجع API
+second_title: مرجع API لـ Aspose.Sildes لـ .NET
 description: الفئة تمثل خط الاتجاه لسلسلة المخطط
 type: docs
-weight: 2470
+weight: 2490
 url: /ar/aspose.slides.charts/trendline/
 ---
-## فئة Trendline
+## Trendline الفئة
 
 الفئة تمثل خط الاتجاه لسلسلة المخطط
 
@@ -18,33 +18,33 @@ public class Trendline : DomObject<TrendlineCollection>, ITrendline
 
 | الاسم | الوصف |
 | --- | --- |
-| [Backward](../../aspose.slides.charts/trendline/backward) { get; set; } | يحدد عدد الفئات (أو الوحدات في مخطط مبعثر) التي يمتد خط الاتجاه قبل البيانات الخاصة بالسلسلة التي يتم تتبعها. في المخططات المبعثرة وغير المبعثرة، يجب أن تكون القيمة أي قيمة غير سالبة. قراءة/كتابة Double. |
-| [Chart](../../aspose.slides.charts/trendline/chart) { get; } | يعيد المخطط الأب. قراءة فقط [`IChart`](../ichart). |
-| [DisplayEquation](../../aspose.slides.charts/trendline/displayequation) { get; set; } | يحدد أن المعادلة لخط الاتجاه تُعرض على المخطط (في التسمية نفسها التي تظهر قيمة R المربعة). قراءة/كتابة Boolean. |
-| [DisplayRSquaredValue](../../aspose.slides.charts/trendline/displayrsquaredvalue) { get; set; } | يحدد أن قيمة R المربعة لخط الاتجاه تُعرض على المخطط (في التسمية نفسها التي تظهر المعادلة). قراءة/كتابة Boolean. |
-| [Format](../../aspose.slides.charts/trendline/format) { get; set; } | يمثل تنسيق خط الاتجاه. قراءة/كتابة [`IFormat`](../iformat). |
-| [Forward](../../aspose.slides.charts/trendline/forward) { get; set; } | يحدد عدد الفئات (أو الوحدات في مخطط مبعثر) التي يمتد خط الاتجاه بعد البيانات الخاصة بالسلسلة التي يتم تتبعها. في المخططات المبعثرة وغير المبعثرة، يجب أن تكون القيمة أي قيمة غير سالبة. قراءة/كتابة Double. |
-| [Intercept](../../aspose.slides.charts/trendline/intercept) { get; set; } | يحدد القيمة التي يقطع فيها خط الاتجاه محور y. يجب أن يدعم هذا الخصائص فقط عندما يكون نوع خط الاتجاه exp أو linear أو poly. قراءة/كتابة Double. |
-| [Order](../../aspose.slides.charts/trendline/order) { get; set; } | يحدد رتبة خط الاتجاه متعدد الحدود. يتم تجاهله للأنواع الأخرى من خطوط الاتجاه. يجب أن تكون القيمة بين 2 و 6. قراءة/كتابة Byte. |
-| [Period](../../aspose.slides.charts/trendline/period) { get; set; } | يحدد فترة خط الاتجاه للمتوسط المتحرك. يتم تجاهله للأنواع الأخرى من خطوط الاتجاه. يجب أن تكون القيمة بين 2 و 255. قراءة/كتابة Byte. |
-| [RelatedLegendEntry](../../aspose.slides.charts/trendline/relatedlegendentry) { get; } | يمثل مدخل الأسطورة المتعلق بهذا خط الاتجاه. قراءة فقط [`ILegendEntryProperties`](../ilegendentryproperties). |
-| [TextFormat](../../aspose.slides.charts/trendline/textformat) { get; } | يعيد تنسيق النص. قراءة فقط [`IChartTextFormat`](../icharttextformat). |
-| [TextFrameForOverriding](../../aspose.slides.charts/trendline/textframeforoverriding) { get; } | يمكن أن يحتوي على نص منسق غني. إذا لم يكن هذا الخصائص فارغًا، فإن قيمة النص المنسق تتجاوز النص المُولد تلقائيًا لتسمية البيانات. النص المُولد تلقائيًا لتسمية البيانات يعني النص الذي يتم إدارته بواسطة الخصائص ShowSeriesName و ShowValue … ويتم تنسيقه بخصائص TextFormatManager.TextFormat. قراءة فقط [`ITextFrame`](../../aspose.slides/itextframe). |
-| [TrendlineName](../../aspose.slides.charts/trendline/trendlinename) { get; set; } | يحصل أو يضبط اسم خط الاتجاه. قراءة/كتابة String. |
-| [TrendlineType](../../aspose.slides.charts/trendline/trendlinetype) { get; set; } | يحصل أو يضبط نوع خط الاتجاه. قراءة/كتابة [`TrendlineType`](../trendlinetype). |
+| [Backward](../../aspose.slides.charts/trendline/backward) { get; set; } | يحدد عدد الفئات (أو الوحدات في مخطط مبعثر) التي يمتد إليها خط الاتجاه قبل البيانات الخاصة بالسلسلة التي يتم تحليل الاتجاه لها. في المخططات المبعثرة وغير المبعثرة، يجب أن تكون القيمة أي قيمة غير سالبة. قابل للقراءة والكتابة Double. |
+| [Chart](../../aspose.slides.charts/trendline/chart) { get; } | يرجع المخطط الأصل. للقراءة فقط [`IChart`](../ichart). |
+| [DisplayEquation](../../aspose.slides.charts/trendline/displayequation) { get; set; } | يحدد أنه يتم عرض المعادلة لخط الاتجاه على المخطط (في نفس التسمية مثل Rsquaredvalue). قابل للقراءة والكتابة Boolean. |
+| [DisplayRSquaredValue](../../aspose.slides.charts/trendline/displayrsquaredvalue) { get; set; } | يحدد أنه يتم عرض قيمة R-squared لخط الاتجاه على المخطط (في نفس التسمية مثل المعادلة). قابل للقراءة والكتابة Boolean. |
+| [Format](../../aspose.slides.charts/trendline/format) { get; set; } | يمثل تنسيق خط الاتجاه. قابل للقراءة والكتابة [`IFormat`](../iformat). |
+| [Forward](../../aspose.slides.charts/trendline/forward) { get; set; } | يحدد عدد الفئات (أو الوحدات في مخطط مبعثر) التي يمتد إليها خط الاتجاه بعد البيانات الخاصة بالسلسلة التي يتم تحليل الاتجاه لها. في المخططات المبعثرة وغير المبعثرة، يجب أن تكون القيمة أي قيمة غير سالبة. قابل للقراءة والكتابة Double. |
+| [Intercept](../../aspose.slides.charts/trendline/intercept) { get; set; } | يحدد القيمة التي سيعبر عندها خط الاتجاه محور y. يجب دعم هذه الخاصية فقط عندما يكون نوع خط الاتجاه exp أو linear أو poly. قابل للقراءة والكتابة Double. |
+| [Order](../../aspose.slides.charts/trendline/order) { get; set; } | يحدد رتبة خط الاتجاه المتعدد الحدود. يتم تجاهلها لأنواع خطوط الاتجاه الأخرى. يجب أن تكون القيمة بين 2 و 6. قابل للقراءة والكتابة Byte. |
+| [Period](../../aspose.slides.charts/trendline/period) { get; set; } | يحدد فترة خط الاتجاه لخط المتوسط المتحرك. يتم تجاهلها للأنواع الأخرى من خطوط الاتجاه. يجب أن تكون القيمة بين 2 و 255. قابل للقراءة والكتابة Byte. |
+| [RelatedLegendEntry](../../aspose.slides.charts/trendline/relatedlegendentry) { get; } | يمثل مدخل الأسطورة المتعلق بهذا خط الاتجاه للقراءة فقط [`ILegendEntryProperties`](../ilegendentryproperties). |
+| [TextFormat](../../aspose.slides.charts/trendline/textformat) { get; } | يرجع تنسيق النص. للقراءة فقط [`IChartTextFormat`](../icharttextformat). |
+| [TextFrameForOverriding](../../aspose.slides.charts/trendline/textframeforoverriding) { get; } | يمكن أن يحتوي على نص منسق غني. إذا لم تكن هذه الخاصية فارغة فإن قيمة النص المنسق ستحل محل النص الذي يتم إنشاؤه تلقائياً لتسمية البيانات. النص الذي يتم إنشاؤه تلقائياً لتسمية البيانات يعني النص الذي تديره الخصائص ShowSeriesName و ShowValue … ويتم تنسيقه باستخدام الخاصية TextFormatManager.TextFormat. للقراءة فقط [`ITextFrame`](../../aspose.slides/itextframe). |
+| [TrendlineName](../../aspose.slides.charts/trendline/trendlinename) { get; set; } | يحصل أو يضبط اسم خط الاتجاه. قابل للقراءة والكتابة String. |
+| [TrendlineType](../../aspose.slides.charts/trendline/trendlinetype) { get; set; } | يحصل أو يضبط نوع خط الاتجاه. قابل للقراءة والكتابة [`TrendlineType`](../trendlinetype). |
 
 ## الطرق
 
 | الاسم | الوصف |
 | --- | --- |
-| [AddTextFrameForOverriding](../../aspose.slides.charts/trendline/addtextframeforoverriding)(string) | تهيئة TextFrameForOverriding بالنص الموجود في المعامل "text". إذا كان TextFrameForOverriding مُهيأً بالفعل فسيتم ببساطة تغيير نصه. |
+| [AddTextFrameForOverriding](../../aspose.slides.charts/trendline/addtextframeforoverriding)(string) | تهيئة TextFrameForOverriding بالنص في المعامل "text". إذا تم تهيئة TextFrameForOverriding بالفعل فسيتم فقط تغيير نصه. |
 
-### انظر أيضًا
+### انظر أيضاً
 
-* فئة [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
-* فئة [TrendlineCollection](../trendlinecollection)
-* واجهة [ITrendline](../itrendline)
-* نطاق الاسم [Aspose.Slides.Charts](../../aspose.slides.charts)
-* تجميع [Aspose.Slides](../../)
+* الفئة [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
+* الفئة [TrendlineCollection](../trendlinecollection)
+* الواجهة [ITrendline](../itrendline)
+* المساحة الاسمية [Aspose.Slides.Charts](../../aspose.slides.charts)
+* التجميع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

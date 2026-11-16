@@ -3,7 +3,7 @@ title: MasterSlideCollection
 second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Représente une collection de diapositives maîtresses.
 type: docs
-weight: 8040
+weight: 8060
 url: /fr/aspose.slides/masterslidecollection/
 ---
 ## MasterSlideCollection classe
@@ -16,7 +16,7 @@ public sealed class MasterSlideCollection : DomObject<Presentation>, IMasterSlid
 
 ## Propriétés
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
 | [Count](../../aspose.slides/masterslidecollection/count) { get; } | Obtient le nombre d'éléments réellement contenus dans la collection. Lecture seule Int32. |
 | [IsSynchronized](../../aspose.slides/masterslidecollection/issynchronized) { get; } | Renvoie une valeur indiquant si l'accès à la collection est synchronisé (thread-safe). Lecture seule Boolean. |
@@ -25,12 +25,12 @@ public sealed class MasterSlideCollection : DomObject<Presentation>, IMasterSlid
 
 ## Méthodes
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
 | [AddClone](../../aspose.slides/masterslidecollection/addclone)(IMasterSlide) | Ajoute une copie d'une diapositive maîtresse spécifiée à la fin de la collection. Les diapositives de mise en page liées seront également copiées. |
 | [CopyTo](../../aspose.slides/masterslidecollection/copyto)(Array, int) | Copie tous les éléments de la collection dans le tableau spécifié. |
 | [GetEnumerator](../../aspose.slides/masterslidecollection/getenumerator)() | Renvoie un énumérateur qui parcourt la collection. |
-| [InsertClone](../../aspose.slides/masterslidecollection/insertclone)(int, IMasterSlide) | Insère une copie d'une diapositive maîtresse spécifiée à la position indiquée de la collection. Les diapositives de mise en page liées seront également copiées. |
+| [InsertClone](../../aspose.slides/masterslidecollection/insertclone)(int, IMasterSlide) | Insère une copie d'une diapositive maîtresse spécifiée à la position spécifiée de la collection. Les diapositives de mise en page liées seront également copiées. |
 | [Remove](../../aspose.slides/masterslidecollection/remove)(IMasterSlide) | Supprime la première occurrence d'un objet spécifique de la collection. |
 | [RemoveAt](../../aspose.slides/masterslidecollection/removeat)(int) | Supprime l'élément à l'index spécifié de la collection. |
 | [RemoveUnused](../../aspose.slides/masterslidecollection/removeunused)(bool) | Supprime les diapositives maîtresses inutilisées. |

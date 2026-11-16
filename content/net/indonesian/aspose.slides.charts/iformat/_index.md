@@ -1,14 +1,14 @@
 ---
 title: IFormat
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili properti format diagram.
+description: Mewakili properti format bagan.
 type: docs
-weight: 2100
+weight: 2120
 url: /id/aspose.slides.charts/iformat/
 ---
-## IFormat antarmuka
+## Antarmuka IFormat
 
-Mewakili properti format diagram.
+Mewakili properti format bagan.
 
 ```csharp
 public interface IFormat
@@ -18,10 +18,10 @@ public interface IFormat
 
 | Nama | Deskripsi |
 | --- | --- |
-| [Effect](../../aspose.slides.charts/iformat/effect) { get; } | Mengembalikan efek yang digunakan untuk sebuah diagram. Hanya baca [`IEffectFormat`](../../aspose.slides/ieffectformat). |
-| [Effect3D](../../aspose.slides.charts/iformat/effect3d) { get; } | Mengembalikan format 3D sebuah diagram. Hanya baca [`IThreeDFormat`](../../aspose.slides/ithreedformat). |
-| [Fill](../../aspose.slides.charts/iformat/fill) { get; } | Mengembalikan properti gaya isi sebuah diagram. Hanya baca [`IFillFormat`](../../aspose.slides/ifillformat). |
-| [Line](../../aspose.slides.charts/iformat/line) { get; } | Mengembalikan properti gaya garis sebuah diagram. Hanya baca [`ILineFormat`](../../aspose.slides/ilineformat). |
+| [Effect](../../aspose.slides.charts/iformat/effect) { get; } | Mengembalikan efek yang digunakan untuk bagan. Hanya Baca [`IEffectFormat`](../../aspose.slides/ieffectformat). |
+| [Effect3D](../../aspose.slides.charts/iformat/effect3d) { get; } | Mengembalikan format 3D bagan. Hanya Baca [`IThreeDFormat`](../../aspose.slides/ithreedformat). |
+| [Fill](../../aspose.slides.charts/iformat/fill) { get; } | Mengembalikan properti gaya isi bagan. Hanya Baca [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [Line](../../aspose.slides.charts/iformat/line) { get; } | Mengembalikan properti gaya garis bagan. Hanya Baca [`ILineFormat`](../../aspose.slides/ilineformat). |
 
 ### Lihat Juga
 

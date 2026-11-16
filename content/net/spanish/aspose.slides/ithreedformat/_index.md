@@ -1,12 +1,12 @@
 ---
 title: IThreeDFormat
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Aspose.Sildes para la referencia de API de .NET
 description: Representa propiedades 3-D.
 type: docs
-weight: 7330
+weight: 7350
 url: /es/aspose.slides/ithreedformat/
 ---
-## Interfaz IThreeDFormat
+## IThreeDFormat interfaz
 
 Representa propiedades 3-D.
 
@@ -19,14 +19,14 @@ public interface IThreeDFormat : IThreeDParamSource
 | Nombre | Descripción |
 | --- | --- |
 | [AsIThreeDParamSource](../../aspose.slides/ithreedformat/asithreedparamsource) { get; } | Permite obtener la interfaz base IThreeDParamSource. Solo lectura [`IThreeDParamSource`](../ithreedparamsource). |
-| [BevelBottom](../../aspose.slides/ithreedformat/bevelbottom) { get; } | Devuelve o establece el tipo de un bisel 3D inferior. Solo lectura [`IShapeBevel`](../ishapebevel). |
-| [BevelTop](../../aspose.slides/ithreedformat/beveltop) { get; } | Devuelve o establece el tipo de un bisel 3D superior. Solo lectura [`IShapeBevel`](../ishapebevel). |
+| [BevelBottom](../../aspose.slides/ithreedformat/bevelbottom) { get; } | Devuelve o establece el tipo de bisel 3D inferior. Solo lectura [`IShapeBevel`](../ishapebevel). |
+| [BevelTop](../../aspose.slides/ithreedformat/beveltop) { get; } | Devuelve o establece el tipo de bisel 3D superior. Solo lectura [`IShapeBevel`](../ishapebevel). |
 | [Camera](../../aspose.slides/ithreedformat/camera) { get; } | Devuelve o establece la configuración de una cámara. Solo lectura [`ICamera`](../icamera). |
 | [ContourColor](../../aspose.slides/ithreedformat/contourcolor) { get; } | Devuelve o establece el color de un contorno. Solo lectura [`IColorFormat`](../icolorformat). |
 | [ContourWidth](../../aspose.slides/ithreedformat/contourwidth) { get; set; } | Devuelve o establece el ancho de un contorno 3D. Lectura/escritura Double. |
 | [Depth](../../aspose.slides/ithreedformat/depth) { get; set; } | Devuelve o establece la profundidad de una forma 3D. Lectura/escritura Double. |
 | [ExtrusionColor](../../aspose.slides/ithreedformat/extrusioncolor) { get; } | Devuelve o establece el color de una extrusión. Solo lectura [`IColorFormat`](../icolorformat). |
-| [ExtrusionHeight](../../aspose.slides/ithreedformat/extrusionheight) { get; set; } | Devuelve o establece la altura del efecto de extrusión. Lectura/escritura Double. |
+| [ExtrusionHeight](../../aspose.slides/ithreedformat/extrusionheight) { get; set; } | Devuelve o establece la altura de un efecto de extrusión. Lectura/escritura Double. |
 | [LightRig](../../aspose.slides/ithreedformat/lightrig) { get; } | Devuelve o establece el tipo de una luz. Solo lectura [`ILightRig`](../ilightrig). |
 | [Material](../../aspose.slides/ithreedformat/material) { get; set; } | Devuelve o establece el tipo de un material. Lectura/escritura [`MaterialPresetType`](../materialpresettype). |
 

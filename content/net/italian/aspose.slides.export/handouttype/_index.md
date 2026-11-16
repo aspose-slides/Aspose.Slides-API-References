@@ -1,14 +1,14 @@
 ---
 title: HandoutType
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per .NET Riferimento API
 description: Specifica quante diapositive e in quale sequenza saranno posizionate sulla pagina.
 type: docs
-weight: 3850
+weight: 3870
 url: /it/aspose.slides.export/handouttype/
 ---
-## HandoutType enumerazione
+## Enumerazione HandoutType
 
-Specifica quante diapositive e in quale sequenza saranno posizionate sulla pagina.
+Specifica quante diapositive e in quale sequenza verranno posizionate sulla pagina.
 
 ```csharp
 public enum HandoutType

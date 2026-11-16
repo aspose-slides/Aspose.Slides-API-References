@@ -3,7 +3,7 @@ title: EffectStyleCollection
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt eine Sammlung von Effektstilen dar.
 type: docs
-weight: 11090
+weight: 11110
 url: /de/aspose.slides.theme/effectstylecollection/
 ---
 ## EffectStyleCollection Klasse
@@ -18,16 +18,16 @@ public sealed class EffectStyleCollection : DomObject<FormatScheme>, IEffectStyl
 
 | Name | Beschreibung |
 | --- | --- |
-| [Count](../../aspose.slides.theme/effectstylecollection/count) { get; } | Gibt die Anzahl der Elemente in der Sammlung zurück. Nur-Lese Int32, Nur-Lese Int32. |
-| [IsSynchronized](../../aspose.slides.theme/effectstylecollection/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert (thread-sicher) ist. Nur-Lese Boolean. |
-| [Item](../../aspose.slides.theme/effectstylecollection/item) { get; } | Gibt ein Element an der angegebenen Position zurück. Nur-Lese [`EffectStyle`](../effectstyle). |
-| [SyncRoot](../../aspose.slides.theme/effectstylecollection/syncroot) { get; } | Gibt die Synchronisationswurzel zurück. Nur-Lese Object. |
+| [Count](../../aspose.slides.theme/effectstylecollection/count) { get; } | Gibt die Anzahl der Elemente in der Sammlung zurück. Nur lesbar Int32, Nur lesbar Int32. |
+| [IsSynchronized](../../aspose.slides.theme/effectstylecollection/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert ist (thread-sicher). Nur lesbar Boolean. |
+| [Item](../../aspose.slides.theme/effectstylecollection/item) { get; } | Gibt ein Element an der angegebenen Position zurück. Nur lesbar [`EffectStyle`](../effectstyle). |
+| [SyncRoot](../../aspose.slides.theme/effectstylecollection/syncroot) { get; } | Gibt die Synchronisationswurzel zurück. Nur lesbar Object. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [CopyTo](../../aspose.slides.theme/effectstylecollection/copyto)(Array, int) | Kopiert alle Elemente der Sammlung in das angegebene Array. |
+| [CopyTo](../../aspose.slides.theme/effectstylecollection/copyto)(Array, int) | Kopiert alle Elemente aus der Sammlung in das angegebene Array. |
 | [GetEnumerator](../../aspose.slides.theme/effectstylecollection/getenumerator)() | Gibt einen Enumerator zurück, der durch die Sammlung iteriert. |
 
 ### Siehe auch

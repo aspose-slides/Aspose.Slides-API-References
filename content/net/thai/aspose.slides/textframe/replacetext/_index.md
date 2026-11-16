@@ -1,14 +1,14 @@
 ---
 title: ReplaceText
-second_title: เอกสารอ้างอิง API ของ Aspose.Sildes สำหรับ .NET
-description: แทนที่การปรากฏทั้งหมดของข้อความที่ระบุด้วยข้อความอื่น
+second_title: Aspose.Sildes สำหรับ .NET API อ้างอิง
+description: แทนที่ข้อความที่ระบุทั้งหมดด้วยข้อความอื่นที่ระบุ
 type: docs
-weight: 130
+weight: 140
 url: /th/aspose.slides/textframe/replacetext/
 ---
 ## TextFrame.ReplaceText เมธอด
 
-แทนที่ทุกการพบข้อความที่ระบุด้วยข้อความที่ระบุอื่น
+แทนที่ข้อความที่ระบุทั้งหมดด้วยข้อความที่ระบุอื่น
 
 ```csharp
 public void ReplaceText(string oldText, string newText, ITextSearchOptions options, 
@@ -18,9 +18,9 @@ public void ReplaceText(string oldText, string newText, ITextSearchOptions optio
 | พารามิเตอร์ | ประเภท | คำอธิบาย |
 | --- | --- | --- |
 | oldText | String | สตริงที่ต้องการแทนที่ |
-| newText | String | สตริงที่ใช้แทนที่การพบทั้งหมดของ oldText |
+| newText | String | สตริงที่ใช้แทนที่ทุกการปรากฏของ oldText |
 | options | ITextSearchOptions | ตัวเลือกการค้นหาข้อความ [`ITextSearchOptions`](../../itextsearchoptions) |
-| callback | IFindResultCallback | อ็อบเจ็กต์ callback สำหรับบันทึกผลการดำเนินการแทนที่ [`IFindResultCallback`](../../ifindresultcallback) |
+| callback | IFindResultCallback | อ็อบเจ็กต์ Callback สำหรับบันทึกผลการดำเนินการแทนที่ [`IFindResultCallback`](../../ifindresultcallback) |
 
 ### ตัวอย่าง
 
@@ -29,7 +29,7 @@ public void ReplaceText(string oldText, string newText, ITextSearchOptions optio
 ```csharp
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx")){
-	// แทนที่การพบคำ 'the' แยกทั้งหมดด้วย '***'
+	// แทนที่การปรากฏของ 'the' ที่เป็นคำแยกทั้งหมดด้วย '***'
 	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.ReplaceText("the", "***", new TextSearchOptions()
 	{ WholeWordsOnly = true }, null);
 	presentation.Save("SomePresentation-out2.pptx", SaveFormat.Pptx);

@@ -1,14 +1,14 @@
 ---
 title: NormalViewRestoredProperties
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: स्लाइड क्षेत्र के आकार को निर्धारित करता है जब यह restoredTop का चाइल्ड हो तो चौड़ाई और restoredLeft का चाइल्ड हो तो ऊँचाई, सामान्य दृश्य में, जब क्षेत्र परिवर्तनीय पुनर्स्थापित आकार (न तो न्यूनतम और न ही अधिकतम) में हो।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: स्लाइड क्षेत्र के आकार को निर्दिष्ट करता है, जहाँ सामान्य दृश्य में पुनर्स्थापित टॉप का बच्चा होने पर चौड़ाई और पुनर्स्थापित लेफ़्ट का बच्चा होने पर ऊँचाई निर्धारित की जाती है, जब क्षेत्र का आकार परिवर्तनशील पुनर्स्थापित आकार (न न्यूनतम न अधिकतम) हो।
 type: docs
-weight: 9120
+weight: 9140
 url: /hi/aspose.slides/normalviewrestoredproperties/
 ---
 ## NormalViewRestoredProperties क्लास
 
-स्लाइड क्षेत्र के आकार को निर्धारित करता है ((restoredTop का चाइल्ड होने पर चौड़ाई, restoredLeft का चाइल्ड होने पर ऊँचाई) सामान्य दृश्य का, जब क्षेत्र परिवर्तनीय पुनर्स्थापित आकार (न तो न्यूनतम और न ही अधिकतम) में हो)।
+स्लाइड क्षेत्र का आकार निर्दिष्ट करता है ((चौड़ाई जब यह restoredTop का बच्चा हो, ऊँचाई जब यह restoredLeft का बच्चा हो) सामान्य दृश्य का, जब क्षेत्र का आकार परिवर्तनशील पुनर्स्थापित आकार (न न्यूनतम और न अधिकतम) हो।
 
 ```csharp
 public class NormalViewRestoredProperties : INormalViewRestoredProperties
@@ -16,12 +16,12 @@ public class NormalViewRestoredProperties : INormalViewRestoredProperties
 
 ## गुण
 
-| नाम | विवरण |
+| Name | Description |
 | --- | --- |
-| [AutoAdjust](../../aspose.slides/normalviewrestoredproperties/autoadjust) { get; set; } | निर्दिष्ट करता है कि अनुप्रयोग के भीतर दृश्य को समेटने वाली विंडो को पुनः आकार देने पर साइड कंटेंट क्षेत्र का आकार नई आकार के लिए मुआवजा देना चाहिए या नहीं पढ़ें/लिखें Boolean. |
-| [DimensionSize](../../aspose.slides/normalviewrestoredproperties/dimensionsize) { get; set; } | स्लाइड क्षेत्र का आकार निर्दिष्ट करता है (RestoredTop का चाइल्ड होने पर चौड़ाई, RestoredLeft का चाइल्ड होने पर ऊँचाई)। पढ़ें/लिखें Single. |
+| [AutoAdjust](../../aspose.slides/normalviewrestoredproperties/autoadjust) { get; set; } | निर्दिष्ट करता है कि क्या साइड कंटेंट क्षेत्र का आकार व्यू को समेटे हुए एप्लिकेशन की विंडो को पुनःआकारित करने पर नई आकार के लिए मुआवजा देना चाहिए। पढ़ने/लिखने योग्य Boolean. |
+| [DimensionSize](../../aspose.slides/normalviewrestoredproperties/dimensionsize) { get; set; } | स्लाइड क्षेत्र का आकार निर्दिष्ट करता है (चौड़ाई जब यह RestoredTop का बच्चा हो, ऊँचाई जब यह RestoredLeft का बच्चा हो)। पढ़ने/लिखने योग्य Single. |
 
-### देखें भी
+### संबंधित देखें
 
 * इंटरफ़ेस [INormalViewRestoredProperties](../inormalviewrestoredproperties)
 * नामस्थान [Aspose.Slides](../../aspose.slides)

@@ -1,14 +1,14 @@
 ---
 title: IPictureFrameLock
-second_title: Aspose.Sildes a .NET API referencia
-description: Meghatározza, hogy a szülő PictureFrameEx mely műveletei vannak letiltva.
+second_title: Aspose.Sildes .NET API referencia
+description: Meghatározza, hogy a szülő PictureFrameEx elemen mely műveletek vannak letiltva.
 type: docs
-weight: 6680
+weight: 6700
 url: /hu/aspose.slides/ipictureframelock/
 ---
 ## IPictureFrameLock interfész
 
-Meghatározza, hogy a szülő PictureFrameEx milyen műveletek esetén tiltott.
+Megállapítja, hogy mely műveletek vannak letiltva a szülő PictureFrameEx elemben.
 
 ```csharp
 public interface IPictureFrameLock : IBaseShapeLock
@@ -18,18 +18,18 @@ public interface IPictureFrameLock : IBaseShapeLock
 
 | Név | Leírás |
 | --- | --- |
-| [AdjustHandlesLocked](../../aspose.slides/ipictureframelock/adjusthandleslocked) { get; set; } | Meghatározza, hogy a beállítási értékek módosítása tiltott-e. Olvasás/írás Boolean. |
-| [ArrowheadsLocked](../../aspose.slides/ipictureframelock/arrowheadslocked) { get; set; } | Meghatározza, hogy a nyílgörcsök módosítása tiltott-e. Olvasás/írás Boolean. |
-| [AsIBaseShapeLock](../../aspose.slides/ipictureframelock/asibaseshapelock) { get; } | Lehetővé teszi az IBaseShapeLock alapesetű interfész lekérését. Csak olvasás [`IBaseShapeLock`](../ibaseshapelock). |
-| [AspectRatioLocked](../../aspose.slides/ipictureframelock/aspectratiolocked) { get; set; } | Meghatározza, hogy az alakzatnak meg kell őriznie az arányt átméretezéskor. Olvasás/írás Boolean. |
-| [CropLocked](../../aspose.slides/ipictureframelock/croplocked) { get; set; } | Meghatározza, hogy a kép vágása tiltott-e. Olvasás/írás Boolean. |
-| [EditPointsLocked](../../aspose.slides/ipictureframelock/editpointslocked) { get; set; } | Meghatározza, hogy ennek az alakzatnak a körvonalának közvetlen módosítása tiltott-e. Olvasás/írás Boolean. |
-| [GroupingLocked](../../aspose.slides/ipictureframelock/groupinglocked) { get; set; } | Meghatározza, hogy ennek az alakzatnak a csoportba adása tiltott-e. Olvasás/írás Boolean. |
-| [PositionLocked](../../aspose.slides/ipictureframelock/positionlocked) { get; set; } | Meghatározza, hogy az alakzat mozgatása tiltott-e. Olvasás/írás Boolean. |
-| [RotationLocked](../../aspose.slides/ipictureframelock/rotationlocked) { get; set; } | Meghatározza, hogy az alakzat forgatási szögének módosítása tiltott-e. Olvasás/írás Boolean. |
-| [SelectLocked](../../aspose.slides/ipictureframelock/selectlocked) { get; set; } | Meghatározza, hogy az alakzat kiválasztása tiltott-e. Olvasás/írás Boolean. |
-| [ShapeTypeLocked](../../aspose.slides/ipictureframelock/shapetypelocked) { get; set; } | Meghatározza, hogy az alakzat típusának módosítása tiltott-e. Olvasás/írás Boolean. |
-| [SizeLocked](../../aspose.slides/ipictureframelock/sizelocked) { get; set; } | Meghatározza, hogy az alakzat átméretezése tiltott-e. Olvasás/írás Boolean. |
+| [AdjustHandlesLocked](../../aspose.slides/ipictureframelock/adjusthandleslocked) { get; set; } | Megállapítja, hogy a beállítási értékek módosítása tiltott-e. Olvasás/írás Boolean. |
+| [ArrowheadsLocked](../../aspose.slides/ipictureframelock/arrowheadslocked) { get; set; } | Megállapítja, hogy a nyílfejek módosítása tiltott-e. Olvasás/írás Boolean. |
+| [AsIBaseShapeLock](../../aspose.slides/ipictureframelock/asibaseshapelock) { get; } | Lehetővé teszi a base IBaseShapeLock interfész lekérését. Csak olvasás [`IBaseShapeLock`](../ibaseshapelock). |
+| [AspectRatioLocked](../../aspose.slides/ipictureframelock/aspectratiolocked) { get; set; } | Megállapítja, hogy a formának meg kell-e őriznie az oldalarányt átméretezéskor. Olvasás/írás Boolean. |
+| [CropLocked](../../aspose.slides/ipictureframelock/croplocked) { get; set; } | Megállapítja, hogy a képvágás tiltott-e. Olvasás/írás Boolean. |
+| [EditPointsLocked](../../aspose.slides/ipictureframelock/editpointslocked) { get; set; } | Megállapítja, hogy ennek a formának a körvonalának közvetlen módosítása tiltott-e. Olvasás/írás Boolean. |
+| [GroupingLocked](../../aspose.slides/ipictureframelock/groupinglocked) { get; set; } | Megállapítja, hogy a forma csoportba való hozzáadása tiltott-e. Olvasás/írás Boolean. |
+| [PositionLocked](../../aspose.slides/ipictureframelock/positionlocked) { get; set; } | Megállapítja, hogy a forma mozgatása tiltott-e. Olvasás/írás Boolean. |
+| [RotationLocked](../../aspose.slides/ipictureframelock/rotationlocked) { get; set; } | Megállapítja, hogy a forma forgatási szögének módosítása tiltott-e. Olvasás/írás Boolean. |
+| [SelectLocked](../../aspose.slides/ipictureframelock/selectlocked) { get; set; } | Megállapítja, hogy a forma kiválasztása tiltott-e. Olvasás/írás Boolean. |
+| [ShapeTypeLocked](../../aspose.slides/ipictureframelock/shapetypelocked) { get; set; } | Megállapítja, hogy a forma típusának módosítása tiltott-e. Olvasás/írás Boolean. |
+| [SizeLocked](../../aspose.slides/ipictureframelock/sizelocked) { get; set; } | Megállapítja, hogy a forma átméretezése tiltott-e. Olvasás/írás Boolean. |
 
 ### Lásd még
 

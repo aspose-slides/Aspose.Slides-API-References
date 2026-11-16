@@ -1,23 +1,23 @@
 ---
 title: AddEmbeddedFont
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: एंबेडेड फ़ॉन्ट जोड़ता है। फ़ॉन्ट कॉपी करते समय ध्यान रखें कि अधिकांश फ़ॉन्ट कॉपीराइटेड होते हैं। पहले फ़ॉन्ट का लाइसेंस खोजें और सुनिश्चित करें कि इसे अन्य मशीन पर स्वतंत्र रूप से स्थानांतरित किया जा सकता है। यदि फ़ॉन्ट डेटा null है या यह फ़ॉन्ट पहले से एंबेडेड है तो ArgumentException फेंका जा सकता है।
+second_title: Aspose.Sildes for .NET API रेफ़रेंस
+description: एंबेडेड फ़ॉन्ट जोड़ता है। फ़ॉन्ट कॉपी करते समय यह ध्यान रखें कि अधिकांश फ़ॉन्ट कॉपीराइट द्वारा सुरक्षित हैं। पहले फ़ॉन्ट का लाइसेंस प्राप्त करें और सत्यापित करें कि उसे दूसरे मशीन में स्वतंत्र रूप से स्थानांतरित किया जा सकता है। यदि फ़ॉन्ट डेटा null है या यह फ़ॉन्ट पहले से एम्बेडेड है, तो ArgumentException फेंका जा सकता है।
 type: docs
-weight: 30
+weight: 40
 url: /hi/aspose.slides/fontsmanager/addembeddedfont/
 ---
 ## AddEmbeddedFont(IFontData, EmbedFontCharacters) {#addembeddedfont}
 
-एंबेडेड फ़ॉन्ट जोड़ता है। किसी भी फ़ॉन्ट को कॉपी करते समय ध्यान रखें कि अधिकांश फ़ॉन्ट कॉपीराइटेड होते हैं। पहले फ़ॉन्ट का लाइसेंस खोजें और सुनिश्चित करें कि इसे अन्य मशीन में स्वतंत्र रूप से स्थानांतरित किया जा सकता है। यदि फ़ॉन्ट डेटा null है या यह फ़ॉन्ट पहले से एंबेडेड है तो ArgumentException फेंका जा सकता है।
+एम्बेडेड फ़ॉन्ट जोड़ता है। फ़ॉन्ट कॉपी करते समय यह ध्यान रखें कि अधिकांश फ़ॉन्ट कॉपीराइट द्वारा सुरक्षित हैं। पहले फ़ॉन्ट का लाइसेंस प्राप्त करें और सत्यापित करें कि उसे दूसरे मशीन में स्वतंत्र रूप से स्थानांतरित किया जा सकता है। यदि फ़ॉन्ट डेटा null है या यह फ़ॉन्ट पहले से एम्बेडेड है, तो ArgumentException फेंका जा सकता है।
 
 ```csharp
 public void AddEmbeddedFont(IFontData fontData, EmbedFontCharacters embedFontRule)
 ```
 
-### देखें भी
+### देखें
 
 * इंटरफ़ेस [IFontData](../../ifontdata)
-* एन्युम [EmbedFontCharacters](../../../aspose.slides.export/embedfontcharacters)
+* एनम [EmbedFontCharacters](../../../aspose.slides.export/embedfontcharacters)
 * क्लास [FontsManager](../../fontsmanager)
 * नेमस्पेस [Aspose.Slides](../../fontsmanager)
 * असेंबली [Aspose.Slides](../../../)
@@ -26,15 +26,15 @@ public void AddEmbeddedFont(IFontData fontData, EmbedFontCharacters embedFontRul
 
 ## AddEmbeddedFont(byte[], EmbedFontCharacters) {#addembeddedfont_1}
 
-एंबेडेड फ़ॉन्ट जोड़ता है। किसी भी फ़ॉन्ट को कॉपी करते समय ध्यान रखें कि अधिकांश फ़ॉन्ट कॉपीराइटेड होते हैं। पहले फ़ॉन्ट का लाइसेंस खोजें और सुनिश्चित करें कि इसे अन्य मशीन में स्वतंत्र रूप से स्थानांतरित किया जा सकता है। यदि फ़ॉन्ट डेटा null है या यह फ़ॉन्ट पहले से एंबेडेड है तो ArgumentException फेंका जा सकता है।
+एम्बेडेड फ़ॉन्ट जोड़ता है। फ़ॉन्ट कॉपी करते समय यह ध्यान रखें कि अधिकांश फ़ॉन्ट कॉपीराइट द्वारा सुरक्षित हैं। पहले फ़ॉन्ट का लाइसेंस प्राप्त करें और सत्यापित करें कि उसे दूसरे मशीन में स्वतंत्र रूप से स्थानांतरित किया जा सकता है। यदि फ़ॉन्ट डेटा null है या यह फ़ॉन्ट पहले से एम्बेडेड है, तो ArgumentException फेंका जा सकता है।
 
 ```csharp
 public void AddEmbeddedFont(byte[] fontData, EmbedFontCharacters embedFontRule)
 ```
 
-### देखें भी
+### देखें
 
-* एन्युम [EmbedFontCharacters](../../../aspose.slides.export/embedfontcharacters)
+* एनम [EmbedFontCharacters](../../../aspose.slides.export/embedfontcharacters)
 * क्लास [FontsManager](../../fontsmanager)
 * नेमस्पेस [Aspose.Slides](../../fontsmanager)
 * असेंबली [Aspose.Slides](../../../)

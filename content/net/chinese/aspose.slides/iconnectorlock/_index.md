@@ -1,14 +1,14 @@
 ---
 title: IConnectorLock
 second_title: Aspose.Sildes .NET API 参考
-description: 确定在父连接器上被禁用的操作。
+description: 确定在父连接器上禁用哪些操作。
 type: docs
-weight: 5620
+weight: 5640
 url: /zh/aspose.slides/iconnectorlock/
 ---
 ## IConnectorLock 接口
 
-确定在父连接器上被禁用的操作。
+确定在父连接器上哪些操作被禁用。
 
 ```csharp
 public interface IConnectorLock : IBaseShapeLock
@@ -18,10 +18,10 @@ public interface IConnectorLock : IBaseShapeLock
 
 | 名称 | 描述 |
 | --- | --- |
-| [AdjustHandlesLocked](../../aspose.slides/iconnectorlock/adjusthandleslocked) { get; set; } | 确定是否禁止更改调整值。可读写 Boolean。 |
-| [ArrowheadsLocked](../../aspose.slides/iconnectorlock/arrowheadslocked) { get; set; } | 确定是否禁止更改箭头。可读写 Boolean。 |
-| [AsIBaseShapeLock](../../aspose.slides/iconnectorlock/asibaseshapelock) { get; } | 允许获取基 IBaseShapeLock 接口。只读 [`IBaseShapeLock`](../ibaseshapelock)。 |
-| [AspectRatioLocked](../../aspose.slides/iconnectorlock/aspectratiolocked) { get; set; } | 确定在调整大小时是否必须保持形状的纵横比。可读写 Boolean。 |
+| [AdjustHandlesLocked](../../aspose.slides/iconnectorlock/adjusthandleslocked) { get; set; } | 确定是否禁止更改 adjust values。可读写 Boolean。 |
+| [ArrowheadsLocked](../../aspose.slides/iconnectorlock/arrowheadslocked) { get; set; } | 确定是否禁止更改 arrowheads。可读写 Boolean。 |
+| [AsIBaseShapeLock](../../aspose.slides/iconnectorlock/asibaseshapelock) { get; } | 允许获取基础 IBaseShapeLock 接口。只读 [`IBaseShapeLock`](../ibaseshapelock)。 |
+| [AspectRatioLocked](../../aspose.slides/iconnectorlock/aspectratiolocked) { get; set; } | 确定在调整大小时是否必须保持形状的宽高比。可读写 Boolean。 |
 | [EditPointsLocked](../../aspose.slides/iconnectorlock/editpointslocked) { get; set; } | 确定是否禁止直接更改此形状的轮廓。可读写 Boolean。 |
 | [GroupingLocked](../../aspose.slides/iconnectorlock/groupinglocked) { get; set; } | 确定是否禁止将此形状添加到组中。可读写 Boolean。 |
 | [PositionMove](../../aspose.slides/iconnectorlock/positionmove) { get; set; } | 确定是否禁止移动此形状。可读写 Boolean。 |

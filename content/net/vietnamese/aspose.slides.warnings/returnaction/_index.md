@@ -1,14 +1,14 @@
 ---
 title: ReturnAction
-second_title: Tham chiếu API Aspose.Sildes cho .NET
+second_title: Aspose.Sildes cho Tham chiếu API .NET
 description: Đại diện cho các tùy chọn quyết định callback cảnh báo.
 type: docs
-weight: 11820
+weight: 11840
 url: /vi/aspose.slides.warnings/returnaction/
 ---
-## Kiểu liệt kê ReturnAction
+## kiỂu liệt kê ReturnAction
 
-Mô tả các tùy chọn quyết định callback cảnh báo.
+Đại diện cho các tùy chọn quyết định callback cảnh báo.
 
 ```csharp
 public enum ReturnAction

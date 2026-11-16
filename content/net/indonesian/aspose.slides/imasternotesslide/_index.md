@@ -3,7 +3,7 @@ title: IMasterNotesSlide
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili slide master untuk catatan.
 type: docs
-weight: 6390
+weight: 6410
 url: /id/aspose.slides/imasternotesslide/
 ---
 ## IMasterNotesSlide antarmuka
@@ -18,11 +18,11 @@ public interface IMasterNotesSlide : IBaseSlide, IMasterThemeable
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/imasternotesslide/asibaseslide) { get; } | Memungkinkan untuk mendapatkan antarmuka IBaseSlide dasar. Hanya-baca [`IBaseSlide`](../ibaseslide). |
-| [AsIMasterThemeable](../../aspose.slides/imasternotesslide/asimasterthemeable) { get; } | Mengembalikan antarmuka IMasterThemeable. Hanya-baca [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
-| [DrawingGuides](../../aspose.slides/imasternotesslide/drawingguides) { get; } | Mengembalikan koleksi panduan menggambar untuk slide master catatan. Hanya-baca [`IDrawingGuidesCollection`](../idrawingguidescollection). |
-| [HeaderFooterManager](../../aspose.slides/imasternotesslide/headerfootermanager) { get; } | Mengembalikan manajer HeaderFooter dari slide master catatan. Hanya-baca [`IMasterNotesSlideHeaderFooterManager`](../imasternotesslideheaderfootermanager). |
-| [NotesStyle](../../aspose.slides/imasternotesslide/notesstyle) { get; } | Mengembalikan gaya teks catatan. Hanya-baca [`ITextStyle`](../itextstyle). |
+| [AsIBaseSlide](../../aspose.slides/imasternotesslide/asibaseslide) { get; } | Mengizinkan untuk mendapatkan antarmuka dasar IBaseSlide. Baca-saja [`IBaseSlide`](../ibaseslide). |
+| [AsIMasterThemeable](../../aspose.slides/imasternotesslide/asimasterthemeable) { get; } | Mengembalikan antarmuka IMasterThemeable. Baca-saja [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
+| [DrawingGuides](../../aspose.slides/imasternotesslide/drawingguides) { get; } | Mengembalikan koleksi panduan gambar untuk slide master catatan. Baca-saja [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [HeaderFooterManager](../../aspose.slides/imasternotesslide/headerfootermanager) { get; } | Mengembalikan manajer HeaderFooter dari slide master catatan. Baca-saja [`IMasterNotesSlideHeaderFooterManager`](../imasternotesslideheaderfootermanager). |
+| [NotesStyle](../../aspose.slides/imasternotesslide/notesstyle) { get; } | Mengembalikan gaya teks catatan. Baca-saja [`ITextStyle`](../itextstyle). |
 
 ### Lihat Juga
 

@@ -1,14 +1,14 @@
 ---
 title: PVIObject
 second_title: Aspose.Sildes for .NET API Referansı
-description: Nesneler için temel hizmet altyapısını kapsüller; özellik değeri mirasının konusu olabilir.
+description: Nesneler için temel hizmet altyapısını kapsüller ve özellik değeri kalıtımının konusu olabilir.
 type: docs
-weight: 9270
+weight: 9290
 url: /tr/aspose.slides/pviobject/
 ---
 ## PVIObject sınıf
 
-Temel hizmet altyapısını kapsüller; nesneler özellik değeri mirasının konusu olabilir.
+Temel hizmet altyapısını kapsülleyerek, nesneler özellik değeri kalıtımının konusu olabilir.
 
 ```csharp
 public abstract class PVIObject : ISlideComponent
@@ -18,14 +18,14 @@ public abstract class PVIObject : ISlideComponent
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arabirimini almayı sağlar. Yalnızca okunabilir [`IPresentationComponent`](../ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arabirimini almaya izin verir. Salt okunur [`IPresentationComponent`](../ipresentationcomponent). |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | Belirtilen nesneyle karşılaştırır. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Karma kodu döndürür. |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | Belirtilen nesne ile karşılaştırır. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Karma kodunu döndürür. |
 
 ### Ayrıca Bakınız
 

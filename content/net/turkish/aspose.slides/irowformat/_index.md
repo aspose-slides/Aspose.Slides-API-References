@@ -1,12 +1,12 @@
 ---
 title: IRowFormat
-second_title: Aspose.Slides için .NET API Referansı
+second_title: Aspose.Sildes .NET API Referansı
 description: Bir tablo satırının biçimini temsil eder.
 type: docs
-weight: 6870
+weight: 6890
 url: /tr/aspose.slides/irowformat/
 ---
-## IRowFormat arayüz
+## IRowFormat arayüzü
 
 Bir tablo satırının biçimini temsil eder.
 
@@ -18,9 +18,9 @@ public interface IRowFormat
 
 | Ad | Açıklama |
 | --- | --- |
-| [GetEffective](../../aspose.slides/irowformat/geteffective)() | Kalıtım ve tablo stilleri uygulandığında etkili tablo satırı biçimlendirme özelliklerini alır. |
+| [GetEffective](../../aspose.slides/irowformat/geteffective)() | Kalıtım ve tablo stilleri uygulanmış etkili tablo satırı biçimlendirme özelliklerini alır. |
 
-### İlgili
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

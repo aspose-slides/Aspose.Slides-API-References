@@ -1,9 +1,9 @@
 ---
 title: FontData
-second_title: Aspose.Sildes для .NET API справка
+second_title: Aspose.Sildes для .NET справка API
 description: Представляет определение шрифта. Неизменяемый.
 type: docs
-weight: 4820
+weight: 4840
 url: /ru/aspose.slides/fontdata/
 ---
 ## FontData класс
@@ -32,7 +32,7 @@ public sealed class FontData : IFontData
 | --- | --- |
 | override [Equals](../../aspose.slides/fontdata/equals)(object) | Определяет, равны ли два экземпляра FontData. |
 | [GetFontName](../../aspose.slides/fontdata/getfontname)(IThemeEffectiveData) | Возвращает имя шрифта, заменяя ссылку на тему фактическим используемым шрифтом. |
-| override [GetHashCode](../../aspose.slides/fontdata/gethashcode)() | Служит хеш-функцией для определённого типа, подходящей для использования в хеш-алгоритмах и структурах данных, таких как хеш-таблица. |
+| override [GetHashCode](../../aspose.slides/fontdata/gethashcode)() | Служит хеш-функцией для конкретного типа, пригодной для использования в алгоритмах хеширования и структурах данных, таких как хеш-таблица. |
 | override [ToString](../../aspose.slides/fontdata/tostring)() | Возвращает строковое представление. |
 
 ### См. также

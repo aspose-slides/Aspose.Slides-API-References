@@ -3,10 +3,10 @@ title: Html5Options
 second_title: Aspose.Sildes için .NET API Referansı
 description: HTML5 dışa aktarma seçeneklerini temsil eder.
 type: docs
-weight: 3860
+weight: 3880
 url: /tr/aspose.slides.export/html5options/
 ---
-## Html5Options sınıf
+## Html5Options sınıfı
 
 HTML5 dışa aktarma seçeneklerini temsil eder.
 
@@ -24,18 +24,18 @@ public class Html5Options : SaveOptions, IHtml5Options
 
 | Ad | Açıklama |
 | --- | --- |
-| [AnimateShapes](../../aspose.slides.export/html5options/animateshapes) { get; set; } | Şekil animasyonu seçeneğini alır veya ayarlar. Okunur/Yazılabilir Boolean. |
-| [AnimateTransitions](../../aspose.slides.export/html5options/animatetransitions) { get; set; } | Geçiş animasyonu seçeneğini alır veya ayarlar. Okunur/Yazılabilir Boolean. |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Kaynak yazı tipi bulunamadığında kullanılacak yazı tipini alır veya ayarlar. Okunur/Yazılabilir String. |
-| [DisableFontLigatures](../../aspose.slides.export/html5options/disablefontligatures) { get; set; } | Metnin ligatürler kullanılmadan işlenip işlenmediğini belirten bir değeri alır veya ayarlar. `true` olarak ayarlandığında, ligatürler oluşturulan çıktıda devre dışı bırakılır. Varsayılan olarak bu özellik `false` olarak ayarlanmıştır. |
-| [EmbedImages](../../aspose.slides.export/html5options/embedimages) { get; set; } | Görsellerin gömülme seçeneğini alır veya ayarlar. Okunur/Yazılabilir Boolean. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Gradyanın görsel stilini alır veya ayarlar. Okunur/Yazılabilir [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [OutputPath](../../aspose.slides.export/html5options/outputpath) { get; set; } | Harici kaynakların nerede depolanacağını belirler. Okunur/Yazılabilir String. |
+| [AnimateShapes](../../aspose.slides.export/html5options/animateshapes) { get; set; } | Döndürür veya ayarlar şekiller animasyon seçeneği. Okunur/Yazılır Boolean. |
+| [AnimateTransitions](../../aspose.slides.export/html5options/animatetransitions) { get; set; } | Döndürür veya ayarlar geçişler animasyon seçeneği. Okunur/Yazılır Boolean. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Döndürür veya ayarlar, kaynak yazı tipi bulunamadığında kullanılan yazı tipini. Okunur/Yazılır String. |
+| [DisableFontLigatures](../../aspose.slides.export/html5options/disablefontligatures) { get; set; } | Alır veya ayarlar bir değer, metnin ligatür kullanılmadan render edilip edilmediğini belirten. `true` olarak ayarlandığında, ligatürler render edilen çıktıda devre dışı bırakılacaktır. Varsayılan olarak, bu özellik `false` olarak ayarlıdır. |
+| [EmbedImages](../../aspose.slides.export/html5options/embedimages) { get; set; } | Döndürür veya ayarlar resim gömme seçeneği. Okunur/Yazılır Boolean. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Döndürür veya ayarlar degrade'in görsel stilini. Okunur/Yazılır [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [OutputPath](../../aspose.slides.export/html5options/outputpath) { get; set; } | Dış kaynakların nerede saklanacağını belirler. Okunur/Yazılır String. |
 | [PicturesCompression](../../aspose.slides.export/html5options/picturescompression) { get; set; } | Resim sıkıştırma seviyesini temsil eder |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Yüzde cinsinden kaydetme ilerleme güncellemeleri için bir geri çağırma nesnesini temsil eder. Bakınız [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Sunumu kaydederken JavaScript çağrıları içeren köprülerin atlanıp atlanmayacağını belirtir. Okunur/Yazılabilir Boolean. Varsayılan değer **false**. |
-| [SlidesLayoutOptions](../../aspose.slides.export/html5options/slideslayoutoptions) { get; set; } | Sunumu dışa aktarırken slaytların sayfaya yerleştirildiği modu alır veya ayarlar [`ISlidesLayoutOptions`](../islideslayoutoptions). |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Uyarıları alan ve yükleme işleminin devam edip etmeyeceğini veya iptal edileceğini belirleyen bir nesneyi alır veya ayarlar. Okunur/Yazılabilir [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Yüzde cinsinden kaydetme ilerleme güncellemeleri için bir geri arama nesnesini temsil eder. Bkz. [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Sunumu kaydederken JavaScript çağrıları içeren hiper bağlantıları atlayıp atlamayacağını belirler. Okunur/Yazılır Boolean. Varsayılan değer **false**. |
+| [SlidesLayoutOptions](../../aspose.slides.export/html5options/slideslayoutoptions) { get; set; } | Sunumu [`ISlidesLayoutOptions`](../islideslayoutoptions) dışa aktarırken slaytların sayfada yerleştirildiği modu alır veya ayarlar. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Uyarıları alan ve yükleme işleminin devam edip etmeyeceğine karar veren bir nesneyi döndürür veya ayarlar. Okunur/Yazılır [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Örnekler
 
@@ -53,7 +53,7 @@ using (Presentation pres = new Presentation("demo.pptx"))
 }
 ```
 
-### Ayrıca Bakınız
+### Diğerlerine Bakınız
 
 * sınıf [SaveOptions](../saveoptions)
 * arayüz [IHtml5Options](../ihtml5options)

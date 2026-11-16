@@ -3,7 +3,7 @@ title: ModernComment
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en kommentar på en bild.
 type: docs
-weight: 9090
+weight: 9110
 url: /sv/aspose.slides/moderncomment/
 ---
 ## ModernComment klass
@@ -18,14 +18,14 @@ public sealed class ModernComment : Comment, IModernComment
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Author](../../aspose.slides/comment/author) { get; } | Returnerar författaren till en kommentar. Endast läsning [`ICommentAuthor`](../icommentauthor). |
+| [Author](../../aspose.slides/comment/author) { get; } | Returnerar författaren till en kommentar. Skrivskyddad [`ICommentAuthor`](../icommentauthor). |
 | [CreatedTime](../../aspose.slides/comment/createdtime) { get; set; } | Returnerar eller anger tiden för en kommentarskapning. Att sätta denna egenskap till MinValue betyder att ingen kommentarstid är angiven. Läs/skriv DateTime. |
 | [ParentComment](../../aspose.slides/comment/parentcomment) { get; set; } | Hämtar eller anger föräldrakommentar. Läs/skriv [`IComment`](../icomment). |
 | [Position](../../aspose.slides/comment/position) { get; set; } | Returnerar eller anger positionen för en kommentar på en bild. Läs/skriv PointF. |
-| [Shape](../../aspose.slides/moderncomment/shape) { get; } | Returnerar en form som är associerad med kommentaren. Endast läsning [`IShape`](../ishape). |
-| [Slide](../../aspose.slides/comment/slide) { get; } | Returnerar eller anger föräldrabilden för en kommentar. Endast läsning [`ISlide`](../islide). |
-| [Status](../../aspose.slides/moderncomment/status) { get; set; } | Hämtar eller anger kommentarsstatusen. Läs/skriv [`ModernCommentStatus`](../moderncommentstatus). |
-| [Text](../../aspose.slides/comment/text) { get; set; } | Returnerar eller anger den rena texten för en bildkommentar. Läs/skriv String. |
+| [Shape](../../aspose.slides/moderncomment/shape) { get; } | Returnerar en form som är associerad med kommentaren. Skrivskyddad [`IShape`](../ishape). |
+| [Slide](../../aspose.slides/comment/slide) { get; } | Returnerar eller anger den föräldra-bilden för en kommentar. Skrivskyddad [`ISlide`](../islide). |
+| [Status](../../aspose.slides/moderncomment/status) { get; set; } | Hämtar eller anger statusen för kommentaren. Läs/skriv [`ModernCommentStatus`](../moderncommentstatus). |
+| [Text](../../aspose.slides/comment/text) { get; set; } | Returnerar eller anger vanlig text för en bildkommentar. Läs/skriv String. |
 | [TextSelectionLength](../../aspose.slides/moderncomment/textselectionlength) { get; set; } | Hämtar eller anger längden på textmarkeringen i textramen om kommentaren är associerad med AutoShape. Läs/skriv Int32. |
 | [TextSelectionStart](../../aspose.slides/moderncomment/textselectionstart) { get; set; } | Hämtar eller anger startpositionen för textmarkeringen i textramen om kommentaren är associerad med AutoShape. Läs/skriv Int32. |
 
@@ -33,7 +33,7 @@ public sealed class ModernComment : Comment, IModernComment
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Remove](../../aspose.slides/comment/remove)() | Tar bort kommentaren och alla dess svar från föräldrakollektionen. |
+| [Remove](../../aspose.slides/comment/remove)() | Tar bort kommentaren och alla dess svar från den överordnade samlingen. |
 
 ### Exempel
 

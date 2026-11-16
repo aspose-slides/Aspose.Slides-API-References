@@ -1,14 +1,14 @@
 ---
 title: INotImplementedWarningInfo
 second_title: Aspose.Sildes için .NET API Referansı
-description: Yakın gelecekte uygulanmayacak bilinen uygulanmamış bir özellik hakkında uyarıyı temsil eder.
+description: Yakın gelecekte uygulanmayacak bilinen uygulanmamış bir özellik hakkında bir uyarıyı temsil eder.
 type: docs
-weight: 11770
+weight: 11790
 url: /tr/aspose.slides.warnings/inotimplementedwarninginfo/
 ---
 ## INotImplementedWarningInfo arayüz
 
-Uzak gelecekte uygulanmayacak bilinen uygulanmamış bir özellik hakkında uyarıyı temsil eder.
+Yakın gelecekte uygulanmayacak bilinen uygulanmamış bir özellik hakkında bir uyarıyı temsil eder.
 
 ```csharp
 public interface INotImplementedWarningInfo : IWarningInfo
@@ -18,7 +18,7 @@ public interface INotImplementedWarningInfo : IWarningInfo
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIWarningInfo](../../aspose.slides.warnings/inotimplementedwarninginfo/asiwarninginfo) { get; } | IWarningInfo arayüzünü döndürür. Salt okunur [`IWarningInfo`](../iwarninginfo). |
+| [AsIWarningInfo](../../aspose.slides.warnings/inotimplementedwarninginfo/asiwarninginfo) { get; } | IWarningInfo arayüzünü döndürür. Salt-okunur [`IWarningInfo`](../iwarninginfo). |
 
 ### Ayrıca Bakınız
 

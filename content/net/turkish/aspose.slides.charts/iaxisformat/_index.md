@@ -3,7 +3,7 @@ title: IAxisFormat
 second_title: Aspose.Sildes .NET API Referansı
 description: Grafik biçim özelliklerini temsil eder.
 type: docs
-weight: 1720
+weight: 1730
 url: /tr/aspose.slides.charts/iaxisformat/
 ---
 ## IAxisFormat arayüz
@@ -18,11 +18,11 @@ public interface IAxisFormat
 
 | Ad | Açıklama |
 | --- | --- |
-| [Effect](../../aspose.slides.charts/iaxisformat/effect) { get; } | Bir eksen için kullanılan efektleri döndürür. Salt okunur [`IEffectFormat`](../../aspose.slides/ieffectformat). |
-| [Fill](../../aspose.slides.charts/iaxisformat/fill) { get; } | Bir eksenin doldurma stil özelliklerini döndürür. Salt okunur [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [Effect](../../aspose.slides.charts/iaxisformat/effect) { get; } | Bir eksende kullanılan efektleri döndürür. Salt okunur [`IEffectFormat`](../../aspose.slides/ieffectformat). |
+| [Fill](../../aspose.slides.charts/iaxisformat/fill) { get; } | Bir eksenin dolgu stil özelliklerini döndürür. Salt okunur [`IFillFormat`](../../aspose.slides/ifillformat). |
 | [Line](../../aspose.slides.charts/iaxisformat/line) { get; } | Bir eksenin çizgi stil özelliklerini döndürür. Salt okunur [`ILineFormat`](../../aspose.slides/ilineformat). |
 
-### İlgili
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides.Charts](../../aspose.slides.charts)
 * derleme [Aspose.Slides](../../)

@@ -1,9 +1,9 @@
 ---
 title: IFormatScheme
-second_title: Aspose.Sildes für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Speichert themendefinierte Formate für die Formen.
 type: docs
-weight: 11270
+weight: 11290
 url: /de/aspose.slides.theme/iformatscheme/
 ---
 ## IFormatScheme Schnittstelle
@@ -18,11 +18,11 @@ public interface IFormatScheme : ISlideComponent
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides.theme/iformatscheme/asislidecomponent) { get; } | Ermöglicht das Abrufen der Basis-ISlideComponent-Schnittstelle. Nur-Lesen [`ISlideComponent`](../../aspose.slides/islidecomponent). |
-| [BackgroundFillStyles](../../aspose.slides.theme/iformatscheme/backgroundfillstyles) { get; } | Gibt eine Sammlung von themendefinierten Hintergrundfüllungsstilen zurück. Nur-Lesen [`IFillFormatCollection`](../ifillformatcollection). |
-| [EffectStyles](../../aspose.slides.theme/iformatscheme/effectstyles) { get; } | Gibt eine Sammlung von themendefinierten Effektstilen zurück. Nur-Lesen [`IEffectStyleCollection`](../ieffectstylecollection). |
-| [FillStyles](../../aspose.slides.theme/iformatscheme/fillstyles) { get; } | Gibt eine Sammlung von themendefinierten Füllstilen zurück. Nur-Lesen [`IFillFormatCollection`](../ifillformatcollection). |
-| [LineStyles](../../aspose.slides.theme/iformatscheme/linestyles) { get; } | Gibt eine Sammlung von themendefinierten Linienstilen zurück. Nur-Lesen [`ILineFormatCollection`](../ilineformatcollection). |
+| [AsISlideComponent](../../aspose.slides.theme/iformatscheme/asislidecomponent) { get; } | Ermöglicht das Abrufen der Basis-ISlideComponent Schnittstelle. Nur lesbar [`ISlideComponent`](../../aspose.slides/islidecomponent). |
+| [BackgroundFillStyles](../../aspose.slides.theme/iformatscheme/backgroundfillstyles) { get; } | Gibt eine Sammlung von themendefinierten Hintergrundfüllungsstilen zurück. Nur lesbar [`IFillFormatCollection`](../ifillformatcollection). |
+| [EffectStyles](../../aspose.slides.theme/iformatscheme/effectstyles) { get; } | Gibt eine Sammlung von themendefinierten Effektstilen zurück. Nur lesbar [`IEffectStyleCollection`](../ieffectstylecollection). |
+| [FillStyles](../../aspose.slides.theme/iformatscheme/fillstyles) { get; } | Gibt eine Sammlung von themendefinierten Füllungsstilen zurück. Nur lesbar [`IFillFormatCollection`](../ifillformatcollection). |
+| [LineStyles](../../aspose.slides.theme/iformatscheme/linestyles) { get; } | Gibt eine Sammlung von themendefinierten Linienstilen zurück. Nur lesbar [`ILineFormatCollection`](../ilineformatcollection). |
 
 ### Siehe auch
 

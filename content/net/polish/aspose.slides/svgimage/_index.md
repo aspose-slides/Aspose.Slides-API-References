@@ -1,9 +1,9 @@
 ---
 title: SvgImage
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla .NET – referencja API
 description: Reprezentuje obraz SVG.
 type: docs
-weight: 10800
+weight: 10820
 url: /pl/aspose.slides/svgimage/
 ---
 ## SvgImage klasa
@@ -30,7 +30,7 @@ public class SvgImage : ISvgImage
 | Nazwa | Opis |
 | --- | --- |
 | [BaseUri](../../aspose.slides/svgimage/baseuri) { get; } | Zwraca bazowy URI określonego Svg. Używany do rozwiązywania względnych odnośników. Tylko do odczytu String. |
-| [ExternalResourceResolver](../../aspose.slides/svgimage/externalresourceresolver) { get; } | Zwraca interfejs wywołania zwrotnego używany do rozwiązywania zasobów zewnętrznych podczas importu dokumentów Svg. Tylko do odczytu [`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver). |
+| [ExternalResourceResolver](../../aspose.slides/svgimage/externalresourceresolver) { get; } | Zwraca interfejs wywołania zwrotnego używany do rozwiązywania zewnętrznych zasobów podczas importu dokumentów Svg. Tylko do odczytu [`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver). |
 | [SvgContent](../../aspose.slides/svgimage/svgcontent) { get; } | Zwraca zawartość SVG. Tylko do odczytu String. |
 | [SvgData](../../aspose.slides/svgimage/svgdata) { get; } | Zwraca dane SVG. Tylko do odczytu Byte[]. |
 

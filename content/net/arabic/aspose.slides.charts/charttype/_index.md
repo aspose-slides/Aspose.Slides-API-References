@@ -1,14 +1,14 @@
 ---
 title: ChartType
-second_title: مرجع API لـ Aspose.Sildes للـ .NET
+second_title: مرجع API لـ Aspose.Sildes لـ .NET
 description: يمثل نوعًا من المخطط.
 type: docs
-weight: 1500
+weight: 1510
 url: /ar/aspose.slides.charts/charttype/
 ---
-## تعداد ChartType
+## ChartType تعداد
 
-يمثل نوعًا من المخطط.
+Represents a type of chart.
 
 ```csharp
 public enum ChartType
@@ -18,92 +18,92 @@ public enum ChartType
 
 | الاسم | القيمة | الوصف |
 | --- | --- | --- |
-| ClusteredColumn | `0` | يمثل مخطط عمود متجمع. |
-| StackedColumn | `1` | يمثل مخطط عمود مكدس. |
-| PercentsStackedColumn | `2` | يمثل مخطط عمود مكدس بنسبة 100٪. |
-| ClusteredColumn3D | `3` | يمثل مخطط عمود متجمع ثلاثي الأبعاد. |
-| StackedColumn3D | `4` | يمثل مخطط عمود مكدس ثلاثي الأبعاد. |
-| PercentsStackedColumn3D | `5` | يمثل مخطط عمود مكدس ثلاثي الأبعاد بنسبة 100٪. |
-| Column3D | `6` | يمثل مخطط عمود ثلاثي الأبعاد. |
-| ClusteredCylinder | `7` | يمثل مخطط أسطوانة. |
-| StackedCylinder | `8` | يمثل مخطط أسطوانة مكدس. |
-| PercentsStackedCylinder | `9` | يمثل مخطط أسطوانة مكدس بنسبة 100٪. |
-| Cylinder3D | `10` | يمثل مخطط عمود أسطواني ثلاثي الأبعاد. |
-| ClusteredCone | `11` | يمثل مخطط مخروط. |
-| StackedCone | `12` | يمثل مخطط مخروط مكدس. |
-| PercentsStackedCone | `13` | يمثل مخطط مخروط مكدس بنسبة 100٪. |
-| Cone3D | `14` | يمثل مخطط عمود مخروطي ثلاثي الأبعاد. |
-| ClusteredPyramid | `15` | يمثل مخطط هرم. |
-| StackedPyramid | `16` | يمثل مخطط هرم مكدس. |
-| PercentsStackedPyramid | `17` | يمثل مخطط هرم مكدس بنسبة 100٪. |
-| Pyramid3D | `18` | يمثل مخطط عمود هرمي ثلاثي الأبعاد. |
-| Line | `19` | يمثل مخطط خطي. |
-| StackedLine | `20` | يمثل مخطط خطي مكدس. |
-| PercentsStackedLine | `21` | يمثل مخطط خطي مكدس بنسبة 100٪. |
-| LineWithMarkers | `22` | يمثل مخطط خطي مع علامات البيانات. |
-| StackedLineWithMarkers | `23` | يمثل مخطط خطي مكدس مع علامات البيانات. |
-| PercentsStackedLineWithMarkers | `24` | يمثل مخطط خطي مكدس بنسبة 100٪ مع علامات البيانات. |
-| Line3D | `25` | يمثل مخطط خطي ثلاثي الأبعاد. |
-| Pie | `26` | يمثل مخطط دائري. |
-| Pie3D | `27` | يمثل مخطط دائري ثلاثي الأبعاد. |
-| PieOfPie | `28` | يمثل مخطط دائري داخل دائري. |
-| ExplodedPie | `29` | يمثل مخطط دائري متفتت. |
-| ExplodedPie3D | `30` | يمثل مخطط دائري ثلاثي الأبعاد متفتت. |
-| BarOfPie | `31` | يمثل مخطط شريطي داخل دائري. |
-| PercentsStackedBar | `32` | يمثل مخطط شريطي مكدس بنسبة 100٪. |
-| ClusteredBar3D | `33` | يمثل مخطط شريطي متجمع ثلاثي الأبعاد. |
-| ClusteredBar | `34` | يمثل مخطط شريطي متجمع. |
-| StackedBar | `35` | يمثل مخطط شريطي مكدس. |
-| StackedBar3D | `36` | يمثل مخطط شريطي مكدس ثلاثي الأبعاد. |
-| PercentsStackedBar3D | `37` | يمثل مخطط شريطي مكدس ثلاثي الأبعاد بنسبة 100٪. |
-| ClusteredHorizontalCylinder | `38` | يمثل مخطط شريطي أسطواني. |
-| StackedHorizontalCylinder | `39` | يمثل مخطط شريطي أسطواني مكدس. |
-| PercentsStackedHorizontalCylinder | `40` | يمثل مخطط شريطي أسطواني مكدس بنسبة 100٪. |
-| ClusteredHorizontalCone | `41` | يمثل مخطط شريطي مخروطي. |
-| StackedHorizontalCone | `42` | يمثل مخطط شريطي مخروطي مكدس. |
-| PercentsStackedHorizontalCone | `43` | يمثل مخطط شريطي مخروطي مكدس بنسبة 100٪. |
-| ClusteredHorizontalPyramid | `44` | يمثل مخطط شريطي هرمي. |
-| StackedHorizontalPyramid | `45` | يمثل مخطط شريطي هرمي مكدس. |
-| PercentsStackedHorizontalPyramid | `46` | يمثل مخطط شريطي هرمي مكدس بنسبة 100٪. |
-| Area | `47` | يمثل مخطط مساحي. |
-| StackedArea | `48` | يمثل مخطط مساحي مكدس. |
-| PercentsStackedArea | `49` | يمثل مخطط مساحي مكدس بنسبة 100٪. |
-| Area3D | `50` | يمثل مخطط مساحي ثلاثي الأبعاد. |
-| StackedArea3D | `51` | يمثل مخطط مساحي مكدس ثلاثي الأبعاد. |
-| PercentsStackedArea3D | `52` | يمثل مخطط مساحي مكدس ثلاثي الأبعاد بنسبة 100٪. |
-| ScatterWithMarkers | `53` | يمثل مخطط مبعثر. |
-| ScatterWithSmoothLinesAndMarkers | `54` | يمثل مخطط مبعثر متصل بالمنحنيات ومع علامات البيانات. |
-| ScatterWithSmoothLines | `55` | يمثل مخطط مبعثر متصل بالمنحنيات بدون علامات البيانات. |
-| ScatterWithStraightLinesAndMarkers | `56` | يمثل مخطط مبعثر متصل بخطوط مستقيمة ومع علامات البيانات. |
-| ScatterWithStraightLines | `57` | يمثل مخطط مبعثر متصل بخطوط مستقيمة بدون علامات البيانات. |
-| HighLowClose | `58` | يمثل مخطط الأسهم مرتفع-منخفض-إغلاق. |
-| OpenHighLowClose | `59` | يمثل مخطط الأسهم فتح-مرتفع-منخفض-إغلاق. |
-| VolumeHighLowClose | `60` | يمثل مخطط الأسهم حجم-مرتفع-منخفض-إغلاق. |
-| VolumeOpenHighLowClose | `61` | يمثل مخطط الأسهم حجم-فتح-مرتفع-منخفض-إغلاق. |
-| Surface3D | `62` | يمثل مخطط سطح ثلاثي الأبعاد. |
-| WireframeSurface3D | `63` | يمثل مخطط سطح ثلاثي الأبعاد بنسخة سلكية. |
-| Contour | `64` | يمثل مخطط كونتور. |
-| WireframeContour | `65` | يمثل مخطط كونتور سلكي. |
-| Doughnut | `66` | يمثل مخطط دوامة. |
-| ExplodedDoughnut | `67` | يمثل مخطط دوامة متفتت. |
-| Bubble | `68` | يمثل مخطط فقاعة. |
-| BubbleWith3D | `69` | يمثل مخطط فقاعة ثلاثي الأبعاد. |
-| Radar | `70` | يمثل مخطط رادار. |
-| RadarWithMarkers | `71` | يمثل مخطط رادار مع علامات البيانات. |
-| FilledRadar | `72` | يمثل مخطط رادار مملوء. |
-| SeriesOfMixedTypes | `73` | يمكن إرجاع هذه القيمة فقط عبر الخاصية ChartEx.Type. وهذا يعني أن المخطط يحتوي على سلسلة من الأنواع المختلطة. |
-| Treemap | `74` | يمثل مخطط شجرة خريطة. |
-| Sunburst | `75` | يمثل مخطط شعاع الشمس. |
-| Histogram | `76` | يمثل مخطط هيستوجرام. |
-| ParetoLine | `77` | يمثل نوع سلسلة خط باريتو (مخطط هيستوجرام باريتو). |
-| BoxAndWhisker | `78` | يمثل مخطط صندوق وشارب. |
-| Waterfall | `79` | يمثل مخطط شلال. |
-| Funnel | `80` | يمثل مخطط قمع. |
-| Map | `81` | يمثل مخطط خريطة. |
+| ClusteredColumn | `0` | يمثل Clustered Column Chart. |
+| StackedColumn | `1` | يمثل Stacked Column Chart. |
+| PercentsStackedColumn | `2` | يمثل 100% Stacked Column Chart. |
+| ClusteredColumn3D | `3` | يمثل 3D Colustered Column Chart. |
+| StackedColumn3D | `4` | يمثل 3D Stacked Column Chart. |
+| PercentsStackedColumn3D | `5` | يمثل 3D 100% Stacked Column Chart. |
+| Column3D | `6` | يمثل 3D Column Chart. |
+| ClusteredCylinder | `7` | يمثل Cylinder Chart. |
+| StackedCylinder | `8` | يمثل Stacked Cylinder Chart. |
+| PercentsStackedCylinder | `9` | يمثل 100% Stacked Cylinder Chart. |
+| Cylinder3D | `10` | يمثل 3D Cylindrical Column Chart. |
+| ClusteredCone | `11` | يمثل Cone Chart. |
+| StackedCone | `12` | يمثل Stacked Cone Chart. |
+| PercentsStackedCone | `13` | يمثل 100% Stacked Cone Chart. |
+| Cone3D | `14` | يمثل 3D Conical Column Chart. |
+| ClusteredPyramid | `15` | يمثّل Pyramid Chart. |
+| StackedPyramid | `16` | يمثّل Stacked Pyramid Chart. |
+| PercentsStackedPyramid | `17` | يمثّل 100% Stacked Pyramid Chart. |
+| Pyramid3D | `18` | يمثّل 3D Pyramid Column Chart. |
+| Line | `19` | يمثّل Line Chart. |
+| StackedLine | `20` | يمثّل Stacked Line Chart. |
+| PercentsStackedLine | `21` | يمثّل 100% Stacked Line Chart. |
+| LineWithMarkers | `22` | يمثّل Line Chart with data markers. |
+| StackedLineWithMarkers | `23` | يمثّل Stacked Line Chart with data markers. |
+| PercentsStackedLineWithMarkers | `24` | يمثّل 100% Stacked Line Chart with data markers. |
+| Line3D | `25` | يمثّل 3D Line Chart. |
+| Pie | `26` | يمثّل Pie Chart. |
+| Pie3D | `27` | يمثّل 3D Pie Chart. |
+| PieOfPie | `28` | يمثّل Pie of Pie Chart. |
+| ExplodedPie | `29` | يمثّل Exploded Pie Chart. |
+| ExplodedPie3D | `30` | يمثّل 3D Exploded Pie Chart. |
+| BarOfPie | `31` | يمثّل Bar of Pie Chart. |
+| PercentsStackedBar | `32` | يمثّل 100% Stacked Bar Chart. |
+| ClusteredBar3D | `33` | يمثّل 3D Colustered Bar Chart. |
+| ClusteredBar | `34` | يمثّل Clustered Bar Chart. |
+| StackedBar | `35` | يمثّل Stacked Bar Chart. |
+| StackedBar3D | `36` | يمثّل 3D Stacked Bar Chart. |
+| PercentsStackedBar3D | `37` | يمثّل 3D 100% Stacked Bar Chart. |
+| ClusteredHorizontalCylinder | `38` | يمثّل Cylindrical Bar Chart. |
+| StackedHorizontalCylinder | `39` | يمثّل Stacked Cylindrical Bar Chart. |
+| PercentsStackedHorizontalCylinder | `40` | يمثّل 100% Stacked Cylindrical Bar Chart. |
+| ClusteredHorizontalCone | `41` | يمثّل Conical Bar Chart. |
+| StackedHorizontalCone | `42` | يمثّل Stacked Conical Bar Chart. |
+| PercentsStackedHorizontalCone | `43` | يمثّل 100% Stacked Conical Bar Chart. |
+| ClusteredHorizontalPyramid | `44` | يمثّل Pyramid Bar Chart. |
+| StackedHorizontalPyramid | `45` | يمثّل Stacked Pyramid Bar Chart. |
+| PercentsStackedHorizontalPyramid | `46` | يمثّل 100% Stacked Pyramid Bar Chart. |
+| Area | `47` | يمثّل Area Chart. |
+| StackedArea | `48` | يمثّل Stacked Area Chart. |
+| PercentsStackedArea | `49` | يمثّل 100% Stacked Area Chart. |
+| Area3D | `50` | يمثّل 3D Area Chart. |
+| StackedArea3D | `51` | يمثّل 3D Stacked Area Chart. |
+| PercentsStackedArea3D | `52` | يمثّل 3D 100% Stacked Area Chart. |
+| ScatterWithMarkers | `53` | يمثّل Scatter Chart. |
+| ScatterWithSmoothLinesAndMarkers | `54` | يمثّل Scatter Chart connected by curves, with data markers. |
+| ScatterWithSmoothLines | `55` | يمثّل Scatter Chart connected by curves, without data markers. |
+| ScatterWithStraightLinesAndMarkers | `56` | يمثّل Scatter Chart connected by lines, with data markers. |
+| ScatterWithStraightLines | `57` | يمثّل Scatter Chart connected by lines, without data markers. |
+| HighLowClose | `58` | يمثّل High-Low-Close Stock Chart. |
+| OpenHighLowClose | `59` | يمثّل Open-High-Low-Close Stock Chart. |
+| VolumeHighLowClose | `60` | يمثّل Volume-High-Low-Close Stock Chart. |
+| VolumeOpenHighLowClose | `61` | يمثّل Volume-Open-High-Low-Close Stock Chart. |
+| Surface3D | `62` | يمثّل 3D Surface Chart. |
+| WireframeSurface3D | `63` | يمثّل Wireframe 3D Surface Chart. |
+| Contour | `64` | يمثّل Contour Chart. |
+| WireframeContour | `65` | يمثّل Wireframe Contour Chart. |
+| Doughnut | `66` | يمثّل Doughnut Chart. |
+| ExplodedDoughnut | `67` | يمثّل Exploded Doughnut Chart. |
+| Bubble | `68` | يمثّل Bubble Chart. |
+| BubbleWith3D | `69` | يمثّل 3D Bubble Chart. |
+| Radar | `70` | يمثّل Radar Chart. |
+| RadarWithMarkers | `71` | يمثّل Radar Chart with data markers. |
+| FilledRadar | `72` | يمثّل Filled Radar Chart. |
+| SeriesOfMixedTypes | `73` | يمكن إرجاع هذه القيمة فقط بواسطة الخاصية ChartEx.Type. يعني ذلك أن المخطط يحتوي على سلسلة من الأنواع المختلطة. |
+| Treemap | `74` | يمثّل Treemap chart. |
+| Sunburst | `75` | يمثّل Sunburst chart. |
+| Histogram | `76` | يمثّل Histogram chart. |
+| ParetoLine | `77` | يمثّل Pareto line series type (Histogram Pareto chart). |
+| BoxAndWhisker | `78` | يمثّل BoxAndWhisker chart. |
+| Waterfall | `79` | يمثّل Waterfall chart. |
+| Funnel | `80` | يمثّل Funnel chart. |
+| Map | `81` | يمثّل Map chart. |
 
 ### انظر أيضًا
 
-* النطاق [Aspose.Slides.Charts](../../aspose.slides.charts)
-* التجميع [Aspose.Slides](../../)
+* مساحة الاسم [Aspose.Slides.Charts](../../aspose.slides.charts)
+* تجميع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

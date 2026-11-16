@@ -1,14 +1,14 @@
 ---
 title: IInkBrush
-second_title: Aspose.Sildes для .NET справка API
-description: Представляет кисть трассировки.
+second_title: Aspose.Slides для .NET справочник API
+description: Представляет кисть для трассировки.
 type: docs
-weight: 7530
+weight: 7550
 url: /ru/aspose.slides.ink/iinkbrush/
 ---
 ## IInkBrush интерфейс
 
-Представляет кисть трассировки.
+Представляет кисть для трассировки.
 
 ```csharp
 public interface IInkBrush
@@ -19,7 +19,7 @@ public interface IInkBrush
 | Имя | Описание |
 | --- | --- |
 | [Color](../../aspose.slides.ink/iinkbrush/color) { get; set; } | Получает или задает цвет кисти для линии. |
-| [InkEffect](../../aspose.slides.ink/iinkbrush/inkeffect) { get; } | Получает тип эффекта чернил (например, Galaxy, Gold, Silver), который определяет визуальный стиль штриха чернила. Значение извлекается из свойства кисти "inkEffects". Если не указано распознанного эффекта, возвращается NotDefined. |
+| [InkEffect](../../aspose.slides.ink/iinkbrush/inkeffect) { get; } | Получает тип эффекта чернил (например, Galaxy, Gold, Silver), определяющий визуальный стиль штриха чернила. Значение разбирается из свойства кисти \"inkEffects\". Если не указан распознанный эффект, возвращается NotDefined. |
 | [Size](../../aspose.slides.ink/iinkbrush/size) { get; set; } | Получает или задает размер кисти для линии в пунктах. |
 
 ### См. также

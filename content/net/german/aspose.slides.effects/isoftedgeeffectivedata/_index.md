@@ -1,14 +1,14 @@
 ---
 title: ISoftEdgeEffectiveData
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Unveränderliches Objekt, das einen weichen Kanten-Effekt darstellt. Die Kanten der Form sind verschwommen, während die Füllung nicht beeinflusst wird.
+description: Unveränderliches Objekt, das einen Soft-Edge-Effekt darstellt. Die Kanten der Form sind verschwommen, während die Füllung nicht beeinflusst wird.
 type: docs
-weight: 3530
+weight: 3550
 url: /de/aspose.slides.effects/isoftedgeeffectivedata/
 ---
 ## ISoftEdgeEffectiveData Schnittstelle
 
-Unveränderliches Objekt, das einen weichen Kanten-Effekt darstellt. Die Kanten der Form sind verschwommen, während die Füllung nicht beeinflusst wird.
+Unveränderliches Objekt, das einen Soft-Edge-Effekt darstellt. Die Kanten der Form sind verschwommen, während die Füllung nicht beeinflusst wird.
 
 ```csharp
 public interface ISoftEdgeEffectiveData : IEffectEffectiveData
@@ -18,8 +18,8 @@ public interface ISoftEdgeEffectiveData : IEffectEffectiveData
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/isoftedgeeffectivedata/asieffecteffectivedata) { get; } | Ermöglicht das Abrufen der Basis-IEffectEffectiveData-Schnittstelle. Nur-Lese [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Radius](../../aspose.slides.effects/isoftedgeeffectivedata/radius) { get; } | Gibt den Radius der Unschärfe an, der auf die Kanten angewendet wird. Nur-Lese Double. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/isoftedgeeffectivedata/asieffecteffectivedata) { get; } | Ermöglicht das Abrufen der Basis-IEffectEffectiveData Schnittstelle. Nur lesbar [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Radius](../../aspose.slides.effects/isoftedgeeffectivedata/radius) { get; } | Gibt den Radius der Unschärfe an, der auf die Kanten angewendet wird. Nur lesbar Double. |
 
 ### Siehe auch
 

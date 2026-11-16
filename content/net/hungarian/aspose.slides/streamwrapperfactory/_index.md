@@ -1,14 +1,14 @@
 ---
 title: StreamWrapperFactory
-second_title: Aspose.Sildes .NET API referencia
-description: A StreamWrappers gyára. COM interfészhez.
+second_title: Aspose.Sildes .NET API referenciája
+description: StreamWrapper-ek gyára. COM interfészhez.
 type: docs
-weight: 10760
+weight: 10780
 url: /hu/aspose.slides/streamwrapperfactory/
 ---
 ## StreamWrapperFactory osztály
 
-A StreamWrappers gyára. COM interfészhez.
+A StreamWrapper-ek gyára. COM interfészhez.
 
 ```csharp
 public class StreamWrapperFactory : IStreamWrapperFactory
@@ -27,7 +27,7 @@ public class StreamWrapperFactory : IStreamWrapperFactory
 | [CreateFileStreamWrapper](../../aspose.slides/streamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper)(string, FileMode) | Létrehozza a FileStream-et a megadott úttal és létrehozási móddal. |
 | [CreateFileStreamWrapper](../../aspose.slides/streamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper_1)(string, FileMode, FileAccess) | Létrehozza a FileStream-et a megadott úttal, létrehozási móddal és olvasási/írási jogosultsággal. |
 | [CreateMemoryStreamWrapper](../../aspose.slides/streamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper)() | Létrehozza a MemoryStream csomagolót. |
-| [CreateMemoryStreamWrapper](../../aspose.slides/streamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper_1)(byte[]) | Létrehozza a MemoryStream csomagolót a megadott bájt tömb alapján. |
+| [CreateMemoryStreamWrapper](../../aspose.slides/streamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper_1)(byte[]) | Létrehozza a MemoryStream csomagolót a megadott byte tömb alapján. |
 
 ### Lásd még
 

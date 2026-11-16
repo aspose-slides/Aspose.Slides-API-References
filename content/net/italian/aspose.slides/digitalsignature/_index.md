@@ -1,9 +1,9 @@
 ---
 title: DigitalSignature
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per .NET Riferimento API
 description: Firma digitale in un file firmato.
 type: docs
-weight: 2770
+weight: 2790
 url: /it/aspose.slides/digitalsignature/
 ---
 ## DigitalSignature classe
@@ -25,10 +25,10 @@ public class DigitalSignature : IDigitalSignature
 
 | Nome | Descrizione |
 | --- | --- |
-| [Certificate](../../aspose.slides/digitalsignature/certificate) { get; } | Oggetto certificato che è stato usato per firmare il documento. Solo lettura X509Certificate2. |
-| [Comments](../../aspose.slides/digitalsignature/comments) { get; set; } | Lo scopo della firma. Lettura/Scrittura String. |
+| [Certificate](../../aspose.slides/digitalsignature/certificate) { get; } | Oggetto Certificate che è stato usato per firmare il documento. Solo lettura X509Certificate2. |
+| [Comments](../../aspose.slides/digitalsignature/comments) { get; set; } | Lo scopo della firma. Lettura/scrittura String. |
 | [IsValid](../../aspose.slides/digitalsignature/isvalid) { get; } | Se questa firma digitale è valida e il documento non è stato manomesso, questo valore sarà vero. Solo lettura Boolean. |
-| [SignTime](../../aspose.slides/digitalsignature/signtime) { get; } | Il tempo in cui il documento è stato firmato. Solo lettura DateTime. |
+| [SignTime](../../aspose.slides/digitalsignature/signtime) { get; } | Il momento in cui il documento è stato firmato. Solo lettura DateTime. |
 
 ### Esempi
 
@@ -39,9 +39,9 @@ Il seguente esempio dimostra come aggiungere una firma digitale da un certificat
 // Inizializza l'istanza Presentation
 using (Presentation pres = new Presentation())
 {
-    // Crea un oggetto DigitalSignature con file PFX e password PFX
+    // Crea oggetto DigitalSignature con file PFX e password PFX
     DigitalSignature signature = new DigitalSignature("testsignature1.pfx", @"testpass1");
-    // Commenta la nuova firma digitale
+    // Commenta nuova firma digitale
     signature.Comments = "Aspose.Slides digital signing test.";
     // Aggiungi firma digitale alla presentazione
     pres.DigitalSignatures.Add(signature);

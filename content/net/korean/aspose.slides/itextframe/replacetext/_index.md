@@ -1,9 +1,9 @@
 ---
 title: ReplaceText
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes .NET API 레퍼런스
 description: 지정된 텍스트의 모든 발생을 다른 지정된 텍스트로 교체합니다.
 type: docs
-weight: 120
+weight: 130
 url: /ko/aspose.slides/itextframe/replacetext/
 ---
 ## ITextFrame.ReplaceText 메서드
@@ -15,29 +15,29 @@ public void ReplaceText(string oldText, string newText, ITextSearchOptions optio
     IFindResultCallback callback)
 ```
 
-| 매개변수 | 유형 | 설명 |
+| 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
-| oldText | String | 교체될 문자열입니다. |
-| newText | String | oldText의 모든 발생을 교체할 문자열입니다. |
+| oldText | String | 교체될 문자열. |
+| newText | String | oldText의 모든 발생을 교체할 문자열. |
 | options | ITextSearchOptions | 텍스트 검색 옵션 [`ITextSearchOptions`](../../itextsearchoptions). |
 | callback | IFindResultCallback | 검색 결과를 수신하기 위한 콜백 객체 [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### 예제
 
-다음 샘플 코드는 지정된 문자열 하나를 다른 지정된 문자열로 교체하는 방법을 보여줍니다.
+다음 샘플 코드는 하나의 지정된 문자열을 다른 지정된 문자열로 교체하는 방법을 보여줍니다.
 
 ```csharp
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
-	// 전체 별도 'the' 발생을 '***' 로 교체합니다
+	// 'the'라는 단어가 별도로 나타나는 모든 경우를 '***'으로 교체합니다.
 	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.ReplaceText("the", "***", new TextSearchOptions()
 	{ WholeWordsOnly = true }, null);
 	presentation.Save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 }
 ```
 
-### 참고
+### 참조
 
 * 인터페이스 [ITextSearchOptions](../../itextsearchoptions)
 * 인터페이스 [IFindResultCallback](../../ifindresultcallback)

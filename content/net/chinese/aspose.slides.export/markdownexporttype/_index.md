@@ -1,14 +1,14 @@
 ---
 title: MarkdownExportType
 second_title: Aspose.Sildes 的 .NET API 参考
-description: 渲染文档的类型。
+description: 文档渲染的类型。
 type: docs
-weight: 4240
+weight: 4260
 url: /zh/aspose.slides.export/markdownexporttype/
 ---
 ## MarkdownExportType 枚举
 
-渲染文档的类型。
+文档渲染的类型。
 
 ```csharp
 public enum MarkdownExportType
@@ -18,13 +18,13 @@ public enum MarkdownExportType
 
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
-| Sequential | `0` | 单独渲染所有项。一次一个。 |
+| Sequential | `0` | 分别渲染所有项目。一次一个。 |
 | TextOnly | `1` | 仅渲染文本。 |
-| Visual | `2` | 渲染所有项，对于被分组的项一起渲染。 |
+| Visual | `2` | 渲染所有项目，已分组的项目 - 一起渲染。 |
 
 ### 示例
 
-示例:
+示例：
 
 ```csharp
 [C#]
@@ -43,7 +43,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### 另请参见
+### 另请参阅
 
 * 命名空间 [Aspose.Slides.Export](../../aspose.slides.export)
 * 程序集 [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: IPieSplitCustomPointCollection
-second_title: Aspose.Sildes para la referencia de la API .NET
-description: Representa una colección de puntos que se dibujarán en el segundo sector o barra de un gráfico de barra-de-pie o pie-de-pie con una división personalizada.
+second_title: Referencia de API de Aspose.Sildes para .NET
+description: Representa una colección de puntos que se dibujarán en el segundo pastel o barra en un gráfico de barra de pastel o pastel de pastel con una división personalizada.
 type: docs
-weight: 2190
+weight: 2210
 url: /es/aspose.slides.charts/ipiesplitcustompointcollection/
 ---
 ## IPieSplitCustomPointCollection interfaz
 
-Representa una colección de puntos que se dibujarán en el segundo sector o barra de un gráfico de barra-de-pie o pie-de-pie con una división personalizada.
+Representa una colección de puntos que se dibujarán en el segundo pastel o barra en un gráfico de barra-sobre-pastel o pastel-sobre-pastel con una división personalizada.
 
 ```csharp
 public interface IPieSplitCustomPointCollection : ICollection<IChartDataPoint>
@@ -16,14 +16,14 @@ public interface IPieSplitCustomPointCollection : ICollection<IChartDataPoint>
 
 ## Propiedades
 
-| Nombre | Descripción |
+| Name | Description |
 | --- | --- |
 | [AsIEnumerable](../../aspose.slides.charts/ipiesplitcustompointcollection/asienumerable) { get; } | Devuelve la interfaz IEnumerable. |
 | [Item](../../aspose.slides.charts/ipiesplitcustompointcollection/item) { get; } | Devuelve el punto de datos del gráfico por índice. |
 
 ## Métodos
 
-| Nombre | Descripción |
+| Name | Description |
 | --- | --- |
 | [Add](../../aspose.slides.charts/ipiesplitcustompointcollection/add)(int) | Agrega un punto de datos por su índice en la colección de puntos de la serie principal. |
 | [Remove](../../aspose.slides.charts/ipiesplitcustompointcollection/remove)(int) | Elimina el elemento de la colección por su índice en la colección de puntos de la serie principal. |

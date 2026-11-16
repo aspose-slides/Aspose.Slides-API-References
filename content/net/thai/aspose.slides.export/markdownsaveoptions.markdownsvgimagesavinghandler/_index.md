@@ -1,14 +1,14 @@
 ---
 title: MarkdownSaveOptions.MarkdownSvgImageSavingHandler
-second_title: เอกสารอ้างอิง API ของ Aspose.Sildes สำหรับ .NET
-description: ถูกเรียกสำหรับแต่ละภาพ SVG ระหว่างการส่งออก Markdown. คืนค่า true เพื่อใช้ลิงก์ที่ระบุหรือ false เพื่อใช้ตรรกะการบันทึกค่าเริ่มต้น.
+second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
+description: ถูกเรียกใช้สำหรับแต่ละภาพ SVG ระหว่างการส่งออก Markdown. คืนค่า true เพื่อใช้ลิงก์ที่ระบุหรือ false เพื่อใช้ตรรกะการบันทึกเริ่มต้น.
 type: docs
-weight: 4270
+weight: 4290
 url: /th/aspose.slides.export/markdownsaveoptions.markdownsvgimagesavinghandler/
 ---
-## MarkdownSaveOptions.MarkdownSvgImageSavingHandler delegate
+## MarkdownSaveOptions.MarkdownSvgImageSavingHandler ตัวแทน
 
-ถูกเรียกสำหรับแต่ละภาพ SVG ระหว่างการส่งออก Markdown. คืนค่า `true` เพื่อใช้ *ลิงก์* ที่ระบุ, หรือ `false` เพื่อใช้ตรรกะการบันทึกค่าเริ่มต้น.
+เรียกใช้สำหรับแต่ละภาพ SVG ระหว่างการส่งออก Markdown. คืนค่า `true` เพื่อใช้ *ลิงก์* ที่ระบุ, หรือ `false` เพื่อใช้ตรรกะการบันทึกเริ่มต้น.
 
 ```csharp
 public delegate bool MarkdownSvgImageSavingHandler(ISvgImage svgImage, ref string link);

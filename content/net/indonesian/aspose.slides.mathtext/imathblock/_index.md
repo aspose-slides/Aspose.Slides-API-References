@@ -1,14 +1,14 @@
 ---
 title: IMathBlock
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Menentukan sebuah contoh teks matematika yang berada dalam MathParagraph dan dimulai pada barisnya sendiri. Semua zona matematika termasuk persamaan, ekspresi, kumpulan persamaan atau ekspresi, dan formula direpresentasikan oleh blok matematika.
+description: Menentukan sebuah contoh teks matematika yang berada dalam MathParagraph dan dimulai pada barisnya sendiri. Semua zona matematika termasuk persamaan, ekspresi, array persamaan atau ekspresi, dan formula direpresentasikan oleh blok matematika.
 type: docs
-weight: 8140
+weight: 8160
 url: /id/aspose.slides.mathtext/imathblock/
 ---
-## antarmuka IMathBlock
+## IMathBlock antarmuka
 
-Menentukan sebuah contoh teks matematika yang berada dalam MathParagraph dan dimulai pada barisnya sendiri. Semua zona matematika, termasuk persamaan, ekspresi, kumpulan persamaan atau ekspresi, dan formulir direpresentasikan oleh blok matematika.
+Menentukan sebuah contoh teks matematika yang berada dalam MathParagraph dan dimulai pada barisnya sendiri. Semua zona matematika, termasuk persamaan, ekspresi, array persamaan atau ekspresi, dan formula direpresentasikan oleh blok matematika.
 
 ```csharp
 public interface IMathBlock : IMathElement, IMathElementCollection
@@ -27,7 +27,7 @@ public interface IMathBlock : IMathElement, IMathElementCollection
 | --- | --- |
 | [Delimit](../../aspose.slides.mathtext/imathblock/delimit)(char) | Membatasi semua elemen anak dengan karakter pemisah (tanpa tanda kurung) |
 | [Enclose](../../aspose.slides.mathtext/imathblock/enclose)(char, char, char) | Membungkus elemen anak blok ini dengan karakter yang ditentukan seperti tanda kurung atau lainnya sebagai bingkai dan memisahkan dengan karakter pemisah |
-| [JoinBlock](../../aspose.slides.mathtext/imathblock/joinblock)(IMathBlock) | Menggabungkan blok matematis lain dengan blok ini |
+| [JoinBlock](../../aspose.slides.mathtext/imathblock/joinblock)(IMathBlock) | Menggabungkan blok matematika lain dengan yang ini |
 | [WriteAsMathMl](../../aspose.slides.mathtext/imathblock/writeasmathml)(Stream) | Menyimpan konten [`IMathBlock`](../imathblock) ini sebagai MathML |
 
 ### Contoh

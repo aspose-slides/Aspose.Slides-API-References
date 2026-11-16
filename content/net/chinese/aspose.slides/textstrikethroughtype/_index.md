@@ -3,7 +3,7 @@ title: TextStrikethroughType
 second_title: Aspose.Sildes .NET API 参考
 description: 表示文本删除线的类型。
 type: docs
-weight: 10990
+weight: 11010
 url: /zh/aspose.slides/textstrikethroughtype/
 ---
 ## TextStrikethroughType 枚举
@@ -14,16 +14,16 @@ url: /zh/aspose.slides/textstrikethroughtype/
 public enum TextStrikethroughType : sbyte
 ```
 
-### 值
+### Values
 
-| 名称 | 值 | 描述 |
+| 名称 | 值 | 说明 |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | None | `0` |  |
 | Single | `1` |  |
 | Double | `2` |  |
 
-### 另请参见
+### See Also
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: ILayoutSlideCollection
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: เป็นคลาสฐานสำหรับคอลเลกชันของสไลด์เค้าโครง.
+description: แสดงถึงคลาสพื้นฐานสำหรับการเก็บรวบรวมสไลด์เทมเพลต.
 type: docs
-weight: 6230
+weight: 6250
 url: /th/aspose.slides/ilayoutslidecollection/
 ---
 ## ILayoutSlideCollection อินเทอร์เฟซ
 
-เป็นคลาสฐานสำหรับคอลเลกชันของสไลด์เค้าโครง
+แสดงถึงคลาสฐานสำหรับการเก็บรวบรวมสไลด์เทมเพลต
 
 ```csharp
 public interface ILayoutSlideCollection : IGenericCollection<ILayoutSlide>
@@ -18,15 +18,15 @@ public interface ILayoutSlideCollection : IGenericCollection<ILayoutSlide>
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Item](../../aspose.slides/ilayoutslidecollection/item) { get; } | คืนสไลด์เค้าโครงตามดัชนี อ่านอย่างเดียว [`ILayoutSlide`](../ilayoutslide). |
+| [Item](../../aspose.slides/ilayoutslidecollection/item) { get; } | ส่งคืนสไลด์เทมเพลตตามดัชนี. อ่านอย่างเดียว [`ILayoutSlide`](../ilayoutslide). |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [GetByType](../../aspose.slides/ilayoutslidecollection/getbytype)(SlideLayoutType) | คืนสไลด์เค้าโครงแรกของประเภทที่ระบุ |
-| [Remove](../../aspose.slides/ilayoutslidecollection/remove)(ILayoutSlide) | ลบเค้าโครงออกจากคอลเลกชัน |
-| [RemoveUnused](../../aspose.slides/ilayoutslidecollection/removeunused)() | ลบสไลด์เค้าโครงที่ไม่ได้ใช้ (สไลด์เค้าโครงที่ HasDependingSlides เป็น false) |
+| [GetByType](../../aspose.slides/ilayoutslidecollection/getbytype)(SlideLayoutType) | ส่งคืนสไลด์เทมเพลตแรกของประเภทที่ระบุ. |
+| [Remove](../../aspose.slides/ilayoutslidecollection/remove)(ILayoutSlide) | ลบเทมเพลตออกจากการเก็บรวบรวม. |
+| [RemoveUnused](../../aspose.slides/ilayoutslidecollection/removeunused)() | ลบสไลด์เทมเพลตที่ไม่ใช้ (สไลด์เทมเพลตที่ HasDependingSlides เป็น false). |
 
 ### ดูเพิ่มเติม
 

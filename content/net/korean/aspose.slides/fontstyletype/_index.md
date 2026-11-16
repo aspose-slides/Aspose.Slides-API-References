@@ -1,9 +1,9 @@
 ---
 title: FontStyleType
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 텍스트에 적용할 수 있는 서식 스타일을 정의합니다.
 type: docs
-weight: 4870
+weight: 4890
 url: /ko/aspose.slides/fontstyletype/
 ---
 ## FontStyleType 열거형
@@ -21,11 +21,11 @@ public enum FontStyleType
 | --- | --- | --- |
 | Regular | `0` | 표준 텍스트. |
 | Bold | `1` | 굵은 텍스트. |
-| Italic | `2` | 기울임 텍스트. |
-| Underline | `4` | 밑줄이 그어진 텍스트. |
-| Strikeout | `8` | 수평선으로 가로줄이 그어진 텍스트. |
+| Italic | `2` | 이탤릭 텍스트. |
+| Underline | `4` | 밑줄이 있는 텍스트. |
+| Strikeout | `8` | 가로 선으로 취소선이 있는 텍스트. |
 
-### 관련 항목
+### 참고
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

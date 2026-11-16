@@ -1,46 +1,46 @@
 ---
 title: ImageTransformOCollectionEffectiveData
 second_title: Aspose.Sildes for .NET API 參考
-description: 不可變物件，代表一個唯讀的有效影像轉換效果集合。
+description: 不可變的物件，代表有效圖像轉換效果的唯讀集合。
 type: docs
-weight: 3560
+weight: 3580
 url: /zh-hant/aspose.slides.effects/imagetransformocollectioneffectivedata/
 ---
 ## ImageTransformOCollectionEffectiveData 類別
 
-不可變物件，代表一個唯讀的有效影像轉換效果集合。
+不可變的物件，代表有效圖像轉換效果的唯讀集合。
 
 ```csharp
 public class ImageTransformOCollectionEffectiveData : IImageTransformOCollectionEffectiveData
 ```
 
-## 建構函式
+## 建構子
 
-| 名稱 | 說明 |
+| Name | Description |
 | --- | --- |
-| [ImageTransformOCollectionEffectiveData](imagetransformocollectioneffectivedata)() | 預設建構函式。 |
+| [ImageTransformOCollectionEffectiveData](imagetransformocollectioneffectivedata)() | 預設建構子。 |
 
 ## 屬性
 
-| 名稱 | 說明 |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides.effects/imagetransformocollectioneffectivedata/count) { get; } | 傳回集合中影像效果的數量。唯讀 Int32。 |
-| [IsSynchronized](../../aspose.slides.effects/imagetransformocollectioneffectivedata/issynchronized) { get; } | 傳回一個值，指示對集合的存取是否已同步（執行緒安全）。唯讀 Boolean。 |
-| [Item](../../aspose.slides.effects/imagetransformocollectioneffectivedata/item) { get; } | 依索引傳回元素。 |
-| [SyncRoot](../../aspose.slides.effects/imagetransformocollectioneffectivedata/syncroot) { get; } | 傳回同步根。唯讀 Object。 |
+| [Count](../../aspose.slides.effects/imagetransformocollectioneffectivedata/count) { get; } | 返回集合中圖像效果的數量。唯讀 Int32。 |
+| [IsSynchronized](../../aspose.slides.effects/imagetransformocollectioneffectivedata/issynchronized) { get; } | 返回一個值，指出對集合的存取是否已同步（執行緒安全）。唯讀 Boolean。 |
+| [Item](../../aspose.slides.effects/imagetransformocollectioneffectivedata/item) { get; } | 根據索引返回元素。 |
+| [SyncRoot](../../aspose.slides.effects/imagetransformocollectioneffectivedata/syncroot) { get; } | 返回同步根。唯讀 Object。 |
 
 ## 方法
 
-| 名稱 | 說明 |
+| Name | Description |
 | --- | --- |
 | [CopyTo](../../aspose.slides.effects/imagetransformocollectioneffectivedata/copyto)(Array, int) | 將集合中的所有元素複製到指定的陣列中。 |
 | override [Equals](../../aspose.slides.effects/imagetransformocollectioneffectivedata/equals)(object) | 判斷指定的物件是否等於目前的物件。 |
-| [GetEnumerator](../../aspose.slides.effects/imagetransformocollectioneffectivedata/getenumerator)() | 傳回可以遍歷集合的列舉器。 |
-| override [GetHashCode](../../aspose.slides.effects/imagetransformocollectioneffectivedata/gethashcode)() | 作為特定類型的雜湊函式，適用於雜湊演算法和像雜湊表之類的資料結構。 |
+| [GetEnumerator](../../aspose.slides.effects/imagetransformocollectioneffectivedata/getenumerator)() | 返回一個列舉器，用於遍歷集合。 |
+| override [GetHashCode](../../aspose.slides.effects/imagetransformocollectioneffectivedata/gethashcode)() | 作為特定類型的雜湊函式，可用於雜湊演算法和資料結構（如雜湊表）。 |
 
 ### 備註
 
-名稱 IImageTransformOperationCollectionEffectiveData 被截斷為 IImageTransformOCollectionEffectiveData，因為 COM 名稱長度不得超過 39 個字元。
+名稱 IImageTransformOperationCollectionEffectiveData 被截斷為 IImageTransformOCollectionEffectiveData，因為 COM 名稱長度不能超過 39。
 
 ### 另請參閱
 

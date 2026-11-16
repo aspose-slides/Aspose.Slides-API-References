@@ -1,9 +1,9 @@
 ---
 title: PlaceholderSize
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per .NET Riferimento API
 description: Rappresenta la dimensione di un segnaposto.
 type: docs
-weight: 9440
+weight: 9460
 url: /it/aspose.slides/placeholdersize/
 ---
 ## enumerazione PlaceholderSize

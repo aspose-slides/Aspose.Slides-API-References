@@ -1,14 +1,14 @@
 ---
 title: IMathLeftSubSuperscriptElement
-second_title: Riferimento API di Aspose.Slides per .NET
-description: Specifica l'oggetto Sub-Superscript che è composto da una base e da un apice inferiore e un apice superiore posizionati a sinistra della base.
+second_title: Aspose.Sildes per .NET API Reference
+description: Specifica l'oggetto Sub-Superscript che è composto da una base, un pedice e un apice posizionati a sinistra della base.
 type: docs
-weight: 8310
+weight: 8330
 url: /it/aspose.slides.mathtext/imathleftsubsuperscriptelement/
 ---
 ## IMathLeftSubSuperscriptElement interfaccia
 
-Specifica l'oggetto Sub-Superscript, che è composto da una base e da un apice inferiore e un apice superiore posizionati a sinistra della base.
+Specifica l'oggetto Sub-Superscript, che è composto da una base, un pedice e un apice posizionati a sinistra della base.
 
 ```csharp
 public interface IMathLeftSubSuperscriptElement : IMathElement
@@ -20,8 +20,8 @@ public interface IMathLeftSubSuperscriptElement : IMathElement
 | --- | --- |
 | [AsIMathElement](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/asimathelement) { get; } | Consente di ottenere l'interfaccia base IMathElement [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/base) { get; } | Argomento base |
-| [Subscript](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/subscript) { get; } | Apice inferiore |
-| [Superscript](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/superscript) { get; } | Apice superiore |
+| [Subscript](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/subscript) { get; } | Pedice |
+| [Superscript](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/superscript) { get; } | Apice |
 
 ### Esempi
 

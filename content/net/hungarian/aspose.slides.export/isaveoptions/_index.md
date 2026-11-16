@@ -1,14 +1,14 @@
 ---
 title: ISaveOptions
-second_title: Aspose.Sildes .NET API referenciája
-description: Beállítások, amelyek meghatározzák, hogyan mentődik a bemutató.
+second_title: Aspose.Sildes .NET API referencia
+description: Beállítások, amelyek szabályozzák, hogyan mentődik a prezentáció.
 type: docs
-weight: 4070
+weight: 4090
 url: /hu/aspose.slides.export/isaveoptions/
 ---
 ## ISaveOptions interfész
 
-Beállítások, amelyek meghatározzák, hogyan mentődik a bemutató.
+Beállítások, amelyek szabályozzák, hogyan mentődik a prezentáció.
 
 ```csharp
 public interface ISaveOptions
@@ -18,11 +18,11 @@ public interface ISaveOptions
 
 | Név | Leírás |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/isaveoptions/defaultregularfont) { get; set; } | Visszaadja vagy beállítja a betűtípust, amely akkor használatos, ha a forrás betűtípus nem található. Olvasás-írás String. |
-| [GradientStyle](../../aspose.slides.export/isaveoptions/gradientstyle) { get; set; } | Visszaadja vagy beállítja a gradiens vizuális stílusát. Olvasás/írás [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [ProgressCallback](../../aspose.slides.export/isaveoptions/progresscallback) { get; set; } | Egy visszahívási objektumot képvisel a mentési folyamat százalékos frissítéseihez. Lásd [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SkipJavaScriptLinks](../../aspose.slides.export/isaveoptions/skipjavascriptlinks) { get; set; } | Megadja, hogy a bemutató mentésekor kihagyandók-e a JavaScript hívásokat tartalmazó hiperhivatkozások. Olvasás/írás Boolean. Az alapértelmezett érték a **false**. |
-| [WarningCallback](../../aspose.slides.export/isaveoptions/warningcallback) { get; set; } | Visszaadja vagy beállítja azt az objektumot, amely figyelmeztetéseket kap, és eldönti, hogy a betöltési folyamat folytatódik-e vagy megszakad. Olvasás/írás [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [DefaultRegularFont](../../aspose.slides.export/isaveoptions/defaultregularfont) { get; set; } | Visszaadja vagy beállítja a forrásbetűkészlet nem található esetén használt betűtípust. Olvasás-írás String. |
+| [GradientStyle](../../aspose.slides.export/isaveoptions/gradientstyle) { get; set; } | Visszaadja vagy beállítja a színátmenet vizuális stílusát. Olvasás-írás [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [ProgressCallback](../../aspose.slides.export/isaveoptions/progresscallback) { get; set; } | Egy visszahívási objektumot képvisel a mentési előrehaladás százalékos frissítéseihez. Lásd [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [SkipJavaScriptLinks](../../aspose.slides.export/isaveoptions/skipjavascriptlinks) { get; set; } | Megadja, hogy a prezentáció mentésekor kihagyja-e a JavaScript hívásokat tartalmazó hiperhivatkozásokat. Olvasás-írás Boolean. Az alapértelmezett érték **false**. |
+| [WarningCallback](../../aspose.slides.export/isaveoptions/warningcallback) { get; set; } | Visszaadja vagy beállítja azt az objektumot, amely figyelmeztetéseket kap, és eldönti, hogy a betöltési folyamat folytatódik-e vagy megszakad. Olvasás-írás [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Lásd még
 

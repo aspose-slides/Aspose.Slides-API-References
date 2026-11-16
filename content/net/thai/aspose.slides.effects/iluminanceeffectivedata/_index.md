@@ -1,14 +1,14 @@
 ---
 title: ILuminanceEffectiveData
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงเอฟเฟกต์ Luminance. Brightness จะเลื่อนสีทั้งหมดอย่างเชิงเส้นให้ใกล้กับสีขาวหรือสีดำมากขึ้น. Contrast จะปรับสเกลสีทั้งหมดให้ใกล้หรือห่างกันมากขึ้น.
+second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
+description: เป็นตัวแทนของเอฟเฟกต์ Luminance. Brightness ปรับสีทั้งหมดให้เคลื่อนเข้าใกล้สีขาวหรือสีดำแบบเชิงเส้น. Contrast ปรับสเกลสีทั้งหมดให้ใกล้กันหรือห่างกันมากขึ้น.
 type: docs
-weight: 3450
+weight: 3470
 url: /th/aspose.slides.effects/iluminanceeffectivedata/
 ---
 ## ILuminanceEffectiveData อินเทอร์เฟซ
 
-แสดงถึงเอฟเฟกต์ Luminance. Brightness จะเลื่อนสีทั้งหมดอย่างเชิงเส้นให้ใกล้กับสีขาวหรือสีดำมากขึ้น. Contrast จะปรับสเกลสีทั้งหมดให้ใกล้หรือห่างกันมากขึ้น.
+เป็นตัวแทนของเอฟเฟ็กต์ Luminance. Brightness ปรับสีทั้งหมดให้เคลื่อนเข้าหา สีขาว หรือ สีดำ อย่างเชิงเส้น. Contrast ปรับสเกลสีทั้งหมดให้อยู่ใกล้กันหรือห่างกันมากขึ้น.
 
 ```csharp
 public interface ILuminanceEffectiveData : IEffectEffectiveData
@@ -18,9 +18,9 @@ public interface ILuminanceEffectiveData : IEffectEffectiveData
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/iluminanceeffectivedata/asieffecteffectivedata) { get; } | อนุญาตให้ดึงส่วนต่อประสาน IEffectEffectiveData พื้นฐาน. อ่านอย่างเดียว [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Brightness](../../aspose.slides.effects/iluminanceeffectivedata/brightness) { get; } | Brightness. อ่านอย่างเดียว Single. |
-| [Contrast](../../aspose.slides.effects/iluminanceeffectivedata/contrast) { get; } | Contrast. อ่านอย่างเดียว Single. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/iluminanceeffectivedata/asieffecteffectivedata) { get; } | อนุญาตให้รับ base IEffectEffectiveData อินเทอร์เฟซ. อ่านเท่านั้น [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Brightness](../../aspose.slides.effects/iluminanceeffectivedata/brightness) { get; } | Brightness. อ่านเท่านั้น Single. |
+| [Contrast](../../aspose.slides.effects/iluminanceeffectivedata/contrast) { get; } | Contrast. อ่านเท่านั้น Single. |
 
 ### ดูเพิ่มเติม
 

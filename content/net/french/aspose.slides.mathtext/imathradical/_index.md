@@ -1,14 +1,14 @@
 ---
 title: IMathRadical
-second_title: Référence API Aspose.Sildes pour .NET
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Spécifie la fonction radicale composée d'une base et d'un degré optionnel. Exemple d'objet radical est .
 type: docs
-weight: 8430
+weight: 8450
 url: /fr/aspose.slides.mathtext/imathradical/
 ---
 ## IMathRadical interface
 
-Spécifie la fonction radicale, composée d'une base et d'un degré optionnel. Exemple d'objet radical : √𝑥.
+Spécifie la fonction radicale, composée d'une base et d'un degré optionnel. Exemple d'objet radical est √𝑥.
 
 ```csharp
 public interface IMathRadical : IMathElement
@@ -18,10 +18,10 @@ public interface IMathRadical : IMathElement
 
 | Nom | Description |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathradical/asimathelement) { get; } | Permet d'obtenir l'interface de base IMathElement [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathradical/asimathelement) { get; } | Permet d'obtenir l'interface IMathElement de base [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathradical/base) { get; } | Argument de base |
-| [Degree](../../aspose.slides.mathtext/imathradical/degree) { get; } | Argument de degré |
-| [HideDegree](../../aspose.slides.mathtext/imathradical/hidedegree) { get; set; } | Masquer le degré. Lorsque la valeur est vraie, le degré n'est pas affiché, comme dans √𝑥 |
+| [Degree](../../aspose.slides.mathtext/imathradical/degree) { get; } | Argument du degré |
+| [HideDegree](../../aspose.slides.mathtext/imathradical/hidedegree) { get; set; } | Masquer le degré. Lorsque vrai, le degré n'est pas affiché, comme dans √𝑥 |
 
 ### Exemples
 

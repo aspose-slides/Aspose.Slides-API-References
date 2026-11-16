@@ -1,14 +1,14 @@
 ---
 title: ChartWall
 second_title: Aspose.Sildes .NET API 參考
-description: 表示 3d 圖表上的牆壁。
+description: 表示 3D 圖表上的牆面。
 type: docs
-weight: 1520
+weight: 1530
 url: /zh-hant/aspose.slides.charts/chartwall/
 ---
 ## ChartWall 類別
 
-表示 3d 圖表上的牆壁。
+表示 3D 圖表上的牆面。
 
 ```csharp
 public class ChartWall : DomObject<Chart>, IChartWall
@@ -16,11 +16,11 @@ public class ChartWall : DomObject<Chart>, IChartWall
 
 ## 屬性
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
-| [Format](../../aspose.slides.charts/chartwall/format) { get; } | 返回牆壁填充、線條、效果、3d 樣式。唯讀 [`IFormat`](../iformat)。 |
-| [PictureType](../../aspose.slides.charts/chartwall/picturetype) { get; set; } | 返回或設定圖片類型。讀寫 [`PictureType`](../picturetype)。 |
-| [Thickness](../../aspose.slides.charts/chartwall/thickness) { get; set; } | 返回或設定牆壁厚度，作為圖表體積最大尺寸的百分比。讀寫 Int32。 |
+| [Format](../../aspose.slides.charts/chartwall/format) { get; } | 傳回牆面的填充、線條、效果、3D 樣式。唯讀 [`IFormat`](../iformat)。 |
+| [PictureType](../../aspose.slides.charts/chartwall/picturetype) { get; set; } | 傳回或設定圖片類型。可讀寫 [`PictureType`](../picturetype)。 |
+| [Thickness](../../aspose.slides.charts/chartwall/thickness) { get; set; } | 傳回或設定牆壁的厚度，以圖表體積最大尺寸的百分比表示。可讀寫 Int32。 |
 
 ### 另請參閱
 

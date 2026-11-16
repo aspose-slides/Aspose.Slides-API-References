@@ -1,14 +1,14 @@
 ---
 title: TickLabelPositionType
-second_title: Aspose.Sildes .NET API referencia
-description: A megadott tengelyen a beosztáscímkék pozíciótípusát képviseli.
+second_title: Aspose.Sildes a .NET API referencia
+description: A megadott tengelyen a jelölőcímkék helyzetének típusát képviseli.
 type: docs
-weight: 2440
+weight: 2460
 url: /hu/aspose.slides.charts/ticklabelpositiontype/
 ---
 ## TickLabelPositionType enumeráció
 
-A megadott tengelyen a beosztáscímke pozíciótípusát képviseli.
+A megadott tengelyen a jelölőcímkék helyzetének típusát képviseli.
 
 ```csharp
 public enum TickLabelPositionType
@@ -18,10 +18,10 @@ public enum TickLabelPositionType
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| High | `0` | Megadja, hogy a tengelycímkék a merőleges tengely magas végén legyenek. |
-| Low | `1` | Megadja, hogy a tengelycímkék a merőleges tengely alacsony végén legyenek. |
+| High | `0` | Megadja, hogy a tengelycímkék a merőleges tengely felső végén legyenek. |
+| Low | `1` | Megadja, hogy a tengelycímkék a merőleges tengely alsó végén legyenek. |
 | NextTo | `2` | Megadja, hogy a tengelycímkék a tengely mellett legyenek. |
-| None | `3` | Megadja, hogy a tengelycímkék nincsenek megrajzolva. |
+| None | `3` | Megadja, hogy a tengelycímkék ne legyenek megrajzolva. |
 
 ### Lásd még
 

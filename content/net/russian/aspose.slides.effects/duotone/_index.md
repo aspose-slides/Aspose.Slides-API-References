@@ -1,14 +1,14 @@
 ---
 title: Duotone
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Aspose.Sildes для .NET справочник API
 description: Представляет эффект Duotone. Для каждого пикселя комбинирует Color1 и Color2 с помощью линейной интерполяции, чтобы определить новый цвет этого пикселя.
 type: docs
-weight: 2960
+weight: 2980
 url: /ru/aspose.slides.effects/duotone/
 ---
 ## Duotone класс
 
-Представляет эффект Duotone. Для каждого пикселя комбинирует Color1 и Color2 с помощью линейной интерполяции, чтобы определить новый цвет этого пикселя.
+Представляет эффект Duotone. Для каждого пикселя комбинирует Color1 и Color2 с помощью линейной интерполяции, чтобы определить новый цвет для этого пикселя.
 
 ```csharp
 public sealed class Duotone : ImageTransformOperation, IDuotone

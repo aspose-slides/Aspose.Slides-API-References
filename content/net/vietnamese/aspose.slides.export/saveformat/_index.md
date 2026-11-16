@@ -1,14 +1,14 @@
 ---
 title: SaveFormat
-second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Các hằng số xác định định dạng của bản trình chiếu đã lưu.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Các hằng số xác định định dạng của bản trình bày đã lưu.
 type: docs
-weight: 4440
+weight: 4460
 url: /vi/aspose.slides.export/saveformat/
 ---
-## Kiểu liệt kê SaveFormat
+## Liệt kê SaveFormat
 
-Các hằng số xác định định dạng của bản trình chiếu đã lưu.
+Các hằng số xác định định dạng của bản trình bày đã lưu.
 
 ```csharp
 public enum SaveFormat
@@ -18,29 +18,29 @@ public enum SaveFormat
 
 | Tên | Giá trị | Mô tả |
 | --- | --- | --- |
-| Ppt | `0` | Lưu bản trình chiếu ở định dạng PPT. |
-| Pdf | `1` | Lưu bản trình chiếu ở định dạng PDF. |
-| Xps | `2` | Lưu bản trình chiếu ở định dạng XPS. |
-| Pptx | `3` | Lưu bản trình chiếu ở định dạng PPTX. |
-| Ppsx | `4` | Lưu bản trình chiếu ở định dạng PPSX (trình chiếu). |
-| Tiff | `5` | Lưu bản trình chiếu dưới dạng ảnh TIFF đa trang. |
-| Odp | `6` | Lưu bản trình chiếu ở định dạng ODP. |
-| Pptm | `7` | Lưu bản trình chiếu ở định dạng PPTM (bản trình chiếu hỗ trợ macro). |
-| Ppsm | `9` | Lưu bản trình chiếu ở định dạng PPSM (trình chiếu hỗ trợ macro). |
-| Potx | `10` | Lưu bản trình chiếu ở định dạng POTX (mẫu). |
-| Potm | `11` | Lưu bản trình chiếu ở định dạng POTM (mẫu hỗ trợ macro). |
-| Html | `13` | Lưu bản trình chiếu ở định dạng HTML. |
-| Swf | `15` | Lưu bản trình chiếu ở định dạng SWF. |
-| Otp | `17` | Lưu bản trình chiếu ở định dạng OTP (mẫu bản trình chiếu). |
-| Pps | `19` | Lưu bản trình chiếu ở định dạng PPS. |
-| Pot | `20` | Lưu bản trình chiếu ở định dạng POT. |
-| Fodp | `21` | Lưu bản trình chiếu ở định dạng FODP. |
-| Gif | `22` | Lưu bản trình chiếu ở định dạng GIF. |
-| Html5 | `23` | Lưu bản trình chiếu ở định dạng HTML sử dụng hệ thống mẫu HTML5 mới. |
-| Md | `24` | Lưu bản trình chiếu ở định dạng Markdown |
-| Xml | `25` | Lưu bản trình chiếu ở định dạng PowerPoint XML Presentation. |
+| Ppt | `0` | Lưu bản trình bày ở định dạng PPT. |
+| Pdf | `1` | Lưu bản trình bày ở định dạng PDF. |
+| Xps | `2` | Lưu bản trình bày ở định dạng XPS. |
+| Pptx | `3` | Lưu bản trình bày ở định dạng PPTX. |
+| Ppsx | `4` | Lưu bản trình bày ở định dạng PPSX (bộ trình chiếu). |
+| Tiff | `5` | Lưu bản trình bày dưới dạng ảnh TIFF đa trang. |
+| Odp | `6` | Lưu bản trình bày ở định dạng ODP. |
+| Pptm | `7` | Lưu bản trình bày ở định dạng PPTM (bản trình bày có macro). |
+| Ppsm | `9` | Lưu bản trình bày ở định dạng PPSM (bộ trình chiếu có macro). |
+| Potx | `10` | Lưu bản trình bày ở định dạng POTX (mẫu). |
+| Potm | `11` | Lưu bản trình bày ở định dạng POTM (mẫu có macro). |
+| Html | `13` | Lưu bản trình bày ở định dạng HTML. |
+| Swf | `15` | Lưu bản trình bày ở định dạng SWF. |
+| Otp | `17` | Lưu bản trình bày ở định dạng OTP (mẫu trình bày). |
+| Pps | `19` | Lưu bản trình bày ở định dạng PPS. |
+| Pot | `20` | Lưu bản trình bày ở định dạng POT. |
+| Fodp | `21` | Lưu bản trình bày ở định dạng FODP. |
+| Gif | `22` | Lưu bản trình bày ở định dạng GIF. |
+| Html5 | `23` | Lưu bản trình bày ở định dạng HTML bằng hệ thống mẫu mới HTML5. |
+| Md | `24` | Lưu bản trình bày ở định dạng Markdown |
+| Xml | `25` | Lưu bản trình bày ở định dạng PowerPoint XML Presentation. |
 
-### Xem Thêm
+### Xem thêm
 
 * không gian tên [Aspose.Slides.Export](../../aspose.slides.export)
 * assembly [Aspose.Slides](../../)

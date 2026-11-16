@@ -1,20 +1,20 @@
 ---
 title: IMathMatrixFactory
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Matematik matrisi oluşturmayı sağlar
 type: docs
-weight: 8350
+weight: 8370
 url: /tr/aspose.slides.mathtext/imathmatrixfactory/
 ---
 ## IMathMatrixFactory arayüz
 
-Matematik matrisi oluşturmayı sağlar
+Bir matematik matrisi oluşturmayı sağlar
 
 ```csharp
 public interface IMathMatrixFactory
 ```
 
-## Metotlar
+## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
@@ -24,7 +24,7 @@ public interface IMathMatrixFactory
 
 COM uyumluluğu için
 
-### Ayrıca Bakınız
+### Ayrıca Bakılacak
 
 * ad alanı [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * derleme [Aspose.Slides](../../)

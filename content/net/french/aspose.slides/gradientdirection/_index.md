@@ -1,14 +1,14 @@
 ---
 title: GradientDirection
-second_title: Aspose.Sildes pour .NET Référence d'API
-description: Représente le style du dégradé.
+second_title: Aspose.Sildes pour la référence de l'API .NET
+description: Représente le style de dégradé.
 type: docs
-weight: 4990
+weight: 5010
 url: /fr/aspose.slides/gradientdirection/
 ---
-## GradientDirection énumération
+## Énumération GradientDirection
 
-Représente le style du dégradé.
+Représente le style de dégradé.
 
 ```csharp
 public enum GradientDirection

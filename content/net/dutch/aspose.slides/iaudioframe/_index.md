@@ -1,14 +1,14 @@
 ---
 title: IAudioFrame
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een audio-fragment op een dia voor.
+description: Stelt een audiofragment voor op een dia.
 type: docs
-weight: 5230
+weight: 5250
 url: /nl/aspose.slides/iaudioframe/
 ---
 ## IAudioFrame interface
 
-Stelt een audio-fragment op een dia voor.
+Represents an audio clip on a slide.
 
 ```csharp
 public interface IAudioFrame : IPictureFrame
@@ -18,31 +18,31 @@ public interface IAudioFrame : IPictureFrame
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIPictureFrame](../../aspose.slides/iaudioframe/asipictureframe) { get; } | Staat toe de basis IPictureFrame interface op te halen. Alleen-lezen [`IPictureFrame`](../ipictureframe). |
-| [AudioCdEndTrack](../../aspose.slides/iaudioframe/audiocdendtrack) { get; set; } | Geeft de laatste track-index terug of stelt deze in. Lezen/schrijven Int32. |
-| [AudioCdEndTrackTime](../../aspose.slides/iaudioframe/audiocdendtracktime) { get; set; } | Geeft de tijd van de laatste track terug of stelt deze in. Lezen/schrijven Int32. |
-| [AudioCdStartTrack](../../aspose.slides/iaudioframe/audiocdstarttrack) { get; set; } | Geeft de starttrack-index terug of stelt deze in. Lezen/schrijven Int32. |
-| [AudioCdStartTrackTime](../../aspose.slides/iaudioframe/audiocdstarttracktime) { get; set; } | Geeft de tijd van de starttrack terug of stelt deze in. Lezen/schrijven Int32. |
-| [CaptionTracks](../../aspose.slides/iaudioframe/captiontracks) { get; } | Haalt de collectie van gesloten bijschriften op die bij het audioframe horen. Deze eigenschap is alleen-lezen en geeft een [`ICaptionsCollection`](../icaptionscollection) terug met alle ondertitel-tracks. |
-| [Embedded](../../aspose.slides/iaudioframe/embedded) { get; } | Bepaalt of een geluid is ingebed in de presentatie. Alleen-lezen Boolean. |
-| [EmbeddedAudio](../../aspose.slides/iaudioframe/embeddedaudio) { get; set; } | Geeft het ingebedde audio-object terug of stelt dit in. Lezen/schrijven [`IAudio`](../iaudio). |
-| [FadeInDuration](../../aspose.slides/iaudioframe/fadeinduration) { get; set; } | Specificeert de tijdsduur van de initiële fade-in van de media in milliseconden. Lezen/schrijven Single. |
-| [FadeOutDuration](../../aspose.slides/iaudioframe/fadeoutduration) { get; set; } | Specificeert de tijdsduur van de uiteindelijke fade-out van de media in milliseconden. Lezen/schrijven Single. |
+| [AsIPictureFrame](../../aspose.slides/iaudioframe/asipictureframe) { get; } | Staat toe om de basis IPictureFrame interface op te halen. Alleen-lezen [`IPictureFrame`](../ipictureframe). |
+| [AudioCdEndTrack](../../aspose.slides/iaudioframe/audiocdendtrack) { get; set; } | Retourneert of stelt een laatste trackindex in. Lezen/schrijven Int32. |
+| [AudioCdEndTrackTime](../../aspose.slides/iaudioframe/audiocdendtracktime) { get; set; } | Retourneert of stelt een laatste tracktijd in. Lezen/schrijven Int32. |
+| [AudioCdStartTrack](../../aspose.slides/iaudioframe/audiocdstarttrack) { get; set; } | Retourneert of stelt een start trackindex in. Lezen/schrijven Int32. |
+| [AudioCdStartTrackTime](../../aspose.slides/iaudioframe/audiocdstarttracktime) { get; set; } | Retourneert of stelt een start tracktijd in. Lezen/schrijven Int32. |
+| [CaptionTracks](../../aspose.slides/iaudioframe/captiontracks) { get; } | Haalt de verzameling ondertitels op die bij het audioframe horen. Deze eigenschap is alleen-lezen en retourneert een [`ICaptionsCollection`](../icaptionscollection) met alle ondertitelsporen. |
+| [Embedded](../../aspose.slides/iaudioframe/embedded) { get; } | Bepaalt of een geluid is ingesloten in een presentatie. Alleen-lezen Boolean. |
+| [EmbeddedAudio](../../aspose.slides/iaudioframe/embeddedaudio) { get; set; } | Retourneert of stelt het ingebedde audioobject in. Lezen/schrijven [`IAudio`](../iaudio). |
+| [FadeInDuration](../../aspose.slides/iaudioframe/fadeinduration) { get; set; } | Specificeert de tijdsduur voor de eerste fade-in van de media in milliseconden. Lezen/schrijven Single. |
+| [FadeOutDuration](../../aspose.slides/iaudioframe/fadeoutduration) { get; set; } | Specificeert de tijdsduur voor de laatste fade-out van de media in milliseconden. Lezen/schrijven Single. |
 | [HideAtShowing](../../aspose.slides/iaudioframe/hideatshowing) { get; set; } | Bepaalt of een AudioFrame verborgen is. Lezen/schrijven Boolean. |
-| [LinkPathLong](../../aspose.slides/iaudioframe/linkpathlong) { get; set; } | Geeft de naam van een audiobestand terug die gekoppeld is aan een AudioFrame of stelt deze in. Lezen/schrijven String. |
-| [PlayAcrossSlides](../../aspose.slides/iaudioframe/playacrossslides) { get; set; } | Bepaalt of een audio over de dia's wordt afgespeeld. Lezen/schrijven Boolean. |
-| [PlayLoopMode](../../aspose.slides/iaudioframe/playloopmode) { get; set; } | Bepaalt of een audio in lus wordt afgespeeld. Lezen/schrijven Boolean. |
-| [PlayMode](../../aspose.slides/iaudioframe/playmode) { get; set; } | Geeft de afspeelmodus van de audio terug of stelt deze in. Lezen/schrijven [`AudioPlayModePreset`](../audioplaymodepreset). |
-| [RewindAudio](../../aspose.slides/iaudioframe/rewindaudio) { get; set; } | Bepaalt of een audio automatisch naar het begin wordt terugspoeld na afspelen. Lezen/schrijven Boolean. |
-| [TrimFromEnd](../../aspose.slides/iaudioframe/trimfromend) { get; set; } | Specificeert de tijdsduur die aan het einde van de media wordt verwijderd tijdens het afspelen, in milliseconden. Lezen/schrijven Single. |
-| [TrimFromStart](../../aspose.slides/iaudioframe/trimfromstart) { get; set; } | Specificeert de tijdsduur die aan het begin van de media wordt verwijderd tijdens het afspelen, in milliseconden. Lezen/schrijven Single. |
-| [Volume](../../aspose.slides/iaudioframe/volume) { get; set; } | Geeft het audio-volume terug of stelt dit in. Lezen/schrijven [`AudioVolumeMode`](../audiovolumemode). |
-| [VolumeValue](../../aspose.slides/iaudioframe/volumevalue) { get; set; } | Geeft het audio-volume in procenten terug of stelt dit in. Lezen/schrijven Single. |
+| [LinkPathLong](../../aspose.slides/iaudioframe/linkpathlong) { get; set; } | Retourneert of stelt de naam van een audiobestand in dat gekoppeld is aan een AudioFrame. Lezen/schrijven String. |
+| [PlayAcrossSlides](../../aspose.slides/iaudioframe/playacrossslides) { get; set; } | Bepaalt of audio wordt afgespeeld over de dia's. Lezen/schrijven Boolean. |
+| [PlayLoopMode](../../aspose.slides/iaudioframe/playloopmode) { get; set; } | Bepaalt of audio wordt herhaald. Lezen/schrijven Boolean. |
+| [PlayMode](../../aspose.slides/iaudioframe/playmode) { get; set; } | Retourneert of stelt de audio-afspeelmodus in. Lezen/schrijven [`AudioPlayModePreset`](../audioplaymodepreset). |
+| [RewindAudio](../../aspose.slides/iaudioframe/rewindaudio) { get; set; } | Bepaalt of audio automatisch terugspoelt naar het begin na het afspelen. Lezen/schrijven Boolean. |
+| [TrimFromEnd](../../aspose.slides/iaudioframe/trimfromend) { get; set; } | Specificeert de tijdsduur die van het einde van de media moet worden verwijderd tijdens het afspelen, in milliseconden. Lezen/schrijven Single. |
+| [TrimFromStart](../../aspose.slides/iaudioframe/trimfromstart) { get; set; } | Specificeert de tijdsduur die van het begin van de media moet worden verwijderd tijdens het afspelen, in milliseconden. Lezen/schrijven Single. |
+| [Volume](../../aspose.slides/iaudioframe/volume) { get; set; } | Retourneert of stelt het audio volume in. Lezen/schrijven [`AudioVolumeMode`](../audiovolumemode). |
+| [VolumeValue](../../aspose.slides/iaudioframe/volumevalue) { get; set; } | Retourneert of stelt het audio volume in procenten. Lezen/schrijven Single. |
 
 ### Zie ook
 
 * interface [IPictureFrame](../ipictureframe)
-* naamruimte [Aspose.Slides](../../aspose.slides)
+* namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

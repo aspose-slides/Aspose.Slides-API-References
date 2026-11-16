@@ -1,14 +1,14 @@
 ---
 title: ChartTextFormat
-second_title: Aspose.Sildes .NET API referencia
-description: Megadja a diagram szövegelemeinek alapértelmezett szövegformázását.
+second_title: Aspose.Sildes a .NET API Referenciához
+description: Alapértelmezett szövegformázást ad meg a diagram szövegelemekhez.
 type: docs
-weight: 1480
+weight: 1490
 url: /hu/aspose.slides.charts/charttextformat/
 ---
 ## ChartTextFormat osztály
 
-Meghatározza a diagram szövegelemeinek alapértelmezett szövegformázását.
+Megadja az alapértelmezett szövegformázást a diagram szövegelemekhez.
 
 ```csharp
 public class ChartTextFormat : IChartTextFormat

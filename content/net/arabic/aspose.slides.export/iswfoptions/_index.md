@@ -1,14 +1,14 @@
 ---
 title: ISwfOptions
-second_title: Aspose.Sildes لـ .NET مرجع API
-description: يوفر خيارات تتحكم في كيفية حفظ عرض تقديمي بصيغة SWF.
+second_title: مرجع API لـ Aspose.Sildes لـ .NET
+description: يوفر خيارات تتحكم في طريقة حفظ العرض التقديمي بتنسيق SWF.
 type: docs
-weight: 4150
+weight: 4170
 url: /ar/aspose.slides.export/iswfoptions/
 ---
 ## ISwfOptions واجهة
 
-يوفر خيارات تتحكم في كيفية حفظ عرض تقديمي بصيغة SWF.
+توفر خيارات تتحكم في طريقة حفظ العرض التقديمي بتنسيق SWF.
 
 ```csharp
 public interface ISwfOptions : ISaveOptions
@@ -18,28 +18,28 @@ public interface ISwfOptions : ISaveOptions
 
 | الاسم | الوصف |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/iswfoptions/asisaveoptions) { get; } | يعيد واجهة ISaveOptions. للقراءة فقط [`ISaveOptions`](../isaveoptions). |
-| [Compressed](../../aspose.slides.export/iswfoptions/compressed) { get; set; } | يحدد ما إذا كان يجب ضغط مستند SWF المُنشئ أم لا. القيمة الافتراضية هي `true`. |
+| [AsISaveOptions](../../aspose.slides.export/iswfoptions/asisaveoptions) { get; } | يرجع واجهة ISaveOptions. قراءة فقط [`ISaveOptions`](../isaveoptions). |
+| [Compressed](../../aspose.slides.export/iswfoptions/compressed) { get; set; } | يحدد ما إذا كان يجب ضغط مستند SWF الذي تم إنشاؤه أم لا. القيمة الافتراضية هي `true`. |
 | [EnableContextMenu](../../aspose.slides.export/iswfoptions/enablecontextmenu) { get; set; } | تمكين/تعطيل قائمة السياق. القيمة الافتراضية هي true. |
 | [JpegQuality](../../aspose.slides.export/iswfoptions/jpegquality) { get; set; } | يحدد جودة صور JPEG. القيمة الافتراضية هي 95. |
-| [LogoImageBytes](../../aspose.slides.export/iswfoptions/logoimagebytes) { get; set; } | الصورة التي سيتم عرضها كشعار في الزاوية العليا اليمنى للعارض. يجب أن تكون الصورة PNG بمقاس 32×64 بكسل، وإلا قد يُعرض الشعار بشكل غير صحيح. |
-| [LogoLink](../../aspose.slides.export/iswfoptions/logolink) { get; set; } | يحصل على أو يحدد العنوان الكامل للارتباط التشعبي للشعار. له تأثير فقط إذا تم تحديد [`LogoImageBytes`](./logoimagebytes). |
+| [LogoImageBytes](../../aspose.slides.export/iswfoptions/logoimagebytes) { get; set; } | الصورة التي ستُعرض كشعار في الزاوية العلوية اليمنى للعارض. يجب أن تكون الصورة PNG بحجم 32x64 بكسل، وإلا قد يُعرض الشعار بشكل غير صحيح. |
+| [LogoLink](../../aspose.slides.export/iswfoptions/logolink) { get; set; } | يحصل أو يحدد عنوان الارتباط الكامل للشعار. له تأثير فقط إذا تم تحديد [`LogoImageBytes`](./logoimagebytes). |
 | [ShowBottomPane](../../aspose.slides.export/iswfoptions/showbottompane) { get; set; } | إظهار/إخفاء اللوحة السفلية. يمكن تجاوزها في flashvars. القيمة الافتراضية هي true. |
 | [ShowFullScreen](../../aspose.slides.export/iswfoptions/showfullscreen) { get; set; } | إظهار/إخفاء زر ملء الشاشة. يمكن تجاوزها في flashvars. القيمة الافتراضية هي true. |
-| [ShowHiddenSlides](../../aspose.slides.export/iswfoptions/showhiddenslides) { get; set; } | يحدد ما إذا كان المستند المُنشئ يجب أن يتضمن الشرائح المخفية أم لا. القيمة الافتراضية هي `false`. |
+| [ShowHiddenSlides](../../aspose.slides.export/iswfoptions/showhiddenslides) { get; set; } | يحدد ما إذا كان المستند الذي تم إنشاؤه يجب أن يتضمن الشرائح المخفية أم لا. القيمة الافتراضية هي `false`. |
 | [ShowLeftPane](../../aspose.slides.export/iswfoptions/showleftpane) { get; set; } | إظهار/إخفاء اللوحة اليسرى. يمكن تجاوزها في flashvars. القيمة الافتراضية هي true. |
-| [ShowPageBorder](../../aspose.slides.export/iswfoptions/showpageborder) { get; set; } | يحدد ما إذا كان يجب إظهار الحد حول الصفحات. القيمة الافتراضية هي true. |
-| [ShowPageStepper](../../aspose.slides.export/iswfoptions/showpagestepper) { get; set; } | إظهار/إخفاء متحكم الصفحات. يمكن تجاوزها في flashvars. القيمة الافتراضية هي true. |
+| [ShowPageBorder](../../aspose.slides.export/iswfoptions/showpageborder) { get; set; } | يحدد ما إذا كان يجب إظهار الإطار حول الصفحات. القيمة الافتراضية هي true. |
+| [ShowPageStepper](../../aspose.slides.export/iswfoptions/showpagestepper) { get; set; } | إظهار/إخفاء مؤشرات الصفحة. يمكن تجاوزها في flashvars. القيمة الافتراضية هي true. |
 | [ShowSearch](../../aspose.slides.export/iswfoptions/showsearch) { get; set; } | إظهار/إخفاء قسم البحث. يمكن تجاوزها في flashvars. القيمة الافتراضية هي true. |
-| [ShowTopPane](../../aspose.slides.export/iswfoptions/showtoppane) { get; set; } | إظهار/إخفاء اللوحة العليا بالكامل. يمكن تجاوزها في flashvars. القيمة الافتراضية هي true. |
-| [SlidesLayoutOptions](../../aspose.slides.export/iswfoptions/slideslayoutoptions) { get; set; } | يحصل على أو يحدد الوضع الذي تُوضع فيه الشرائح على الصفحة عند تصدير عرض تقديمي [`ISlidesLayoutOptions`](../islideslayoutoptions). لا تدعم هذه الخاصية تعيين كائنات من النوع `Aspose.Slides.Export.HandoutLayoutingOptions`. |
-| [StartOpenLeftPane](../../aspose.slides.export/iswfoptions/startopenleftpane) { get; set; } | ابدأ باللوحة اليسرى المفتوحة. يمكن تجاوزها في flashvars. القيمة الافتراضية هي false. |
-| [ViewerIncluded](../../aspose.slides.export/iswfoptions/viewerincluded) { get; set; } | يحدد ما إذا كان مستند SWF المُنشئ يجب أن يتضمن عارض المستند المتكامل أم لا. القيمة الافتراضية هي `true`. |
+| [ShowTopPane](../../aspose.slides.export/iswfoptions/showtoppane) { get; set; } | إظهار/إخفاء اللوحة العلوية بالكامل. يمكن تجاوزها في flashvars. القيمة الافتراضية هي true. |
+| [SlidesLayoutOptions](../../aspose.slides.export/iswfoptions/slideslayoutoptions) { get; set; } | يحصل أو يحدد الوضع الذي توضع فيه الشرائح على الصفحة عند تصدير عرض تقديمي [`ISlidesLayoutOptions`](../islideslayoutoptions). هذه الخاصية لا تدعم تعيين كائنات من النوع `Aspose.Slides.Export.HandoutLayoutingOptions` |
+| [StartOpenLeftPane](../../aspose.slides.export/iswfoptions/startopenleftpane) { get; set; } | يبدأ بفتح اللوحة اليسرى. يمكن تجاوزها في flashvars. القيمة الافتراضية هي false. |
+| [ViewerIncluded](../../aspose.slides.export/iswfoptions/viewerincluded) { get; set; } | يحدد ما إذا كان مستند SWF الذي تم إنشاؤه يجب أن يتضمن عارض المستند المدمج أم لا. القيمة الافتراضية هي `true`. |
 
 ### انظر أيضًا
 
 * واجهة [ISaveOptions](../isaveoptions)
-* مساحة الأسماء [Aspose.Slides.Export](../../aspose.slides.export)
+* نطاق الاسم [Aspose.Slides.Export](../../aspose.slides.export)
 * تجميع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

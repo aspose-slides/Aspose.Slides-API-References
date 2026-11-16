@@ -1,14 +1,14 @@
 ---
 title: IBrightnessContrast
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt einen BrightnessContrast-Effekt dar. Passt Helligkeit und Kontrast an
+description: Stellt einen BrightnessContrast-Effekt dar. Passt Helligkeit und Kontrast an.
 type: docs
-weight: 3200
+weight: 3220
 url: /de/aspose.slides.effects/ibrightnesscontrast/
 ---
 ## IBrightnessContrast Schnittstelle
 
-Stellt einen BrightnessContrast-Effekt dar. Passt Helligkeit und Kontrast an
+Stellt einen BrightnessContrast-Effekt dar. Passt Helligkeit und Kontrast an.
 
 ```csharp
 public interface IBrightnessContrast : IAccessiblePVIObject<IBrightnessContrastEffectiveData>, 

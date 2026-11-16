@@ -1,20 +1,20 @@
 ---
 title: ValueFromCell
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 워크북 데이터 셀을 가져오거나 설정합니다. IDataLabelFormat.ShowLabelValueFromCell 속성이 true인 경우에 적용됩니다.
+description: 워크북 데이터 셀을 가져오거나 설정합니다. IDataLabelFormat.ShowLabelValueFromCell 속성이 true인 경우 적용됩니다.
 type: docs
-weight: 60
+weight: 70
 url: /ko/aspose.slides.charts/idatalabel/valuefromcell/
 ---
 ## IDataLabel.ValueFromCell 속성
 
-워크북 데이터 셀을 가져오거나 설정합니다. IDataLabelFormat.ShowLabelValueFromCell 속성이 true인 경우에 적용됩니다.
+워크북 데이터 셀을 가져오거나 설정합니다. IDataLabelFormat.ShowLabelValueFromCell 속성이 true인 경우 적용됩니다.
 
 ```csharp
 public IChartDataCell ValueFromCell { get; set; }
 ```
 
-### 관련 항목
+### 참고
 
 * 인터페이스 [IChartDataCell](../../ichartdatacell)
 * 인터페이스 [IDataLabel](../../idatalabel)

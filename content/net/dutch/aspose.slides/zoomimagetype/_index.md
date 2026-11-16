@@ -1,14 +1,14 @@
 ---
 title: ZoomImageType
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Definieert of het Zoom-object de slide-preview of een omslagafbeelding gebruikt.
+description: Definieert of het Zoom-object de dia-preview of een coverafbeelding gebruikt.
 type: docs
-weight: 11850
+weight: 11870
 url: /nl/aspose.slides/zoomimagetype/
 ---
-## ZoomImageType enumeratie
+## ZoomImageType-enumeratie
 
-Definieert of het Zoom-object de slide-voorvertoning of een omslagafbeelding gebruikt.
+Definieert of het Zoom-object de dia-preview of een coverafbeelding gebruikt.
 
 ```csharp
 public enum ZoomImageType
@@ -18,7 +18,7 @@ public enum ZoomImageType
 
 | Naam | Waarde | Beschrijving |
 | --- | --- | --- |
-| Preview | `1` | Gebruik de afbeelding van de slide of sectie. |
+| Preview | `1` | Gebruik de afbeelding van de dia of sectie. |
 | Cover | `2` | Gebruik een aangepaste afbeelding. |
 
 ### Zie ook

@@ -1,41 +1,41 @@
 ---
 title: ColorOperation
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: रंग रूपांतरणों के लिए उपयोग किए जाने वाले विभिन्न रंग संचालन का प्रतिनिधित्व करता है। अपरिवर्तनीय वस्तु।
+second_title: Aspose.Sildes के लिए .NET API रेफ़रेंस
+description: रंग परिवर्तनों के लिए उपयोग किए जाने वाले विभिन्न रंग ऑपरेशनों का प्रतिनिधित्व करता है। अपरिवर्तनीय वस्तु।
 type: docs
-weight: 2530
+weight: 2550
 url: /hi/aspose.slides/coloroperation/
 ---
-## ColorOperation क्लास
+## ColorOperation वर्ग
 
-रंग रूपांतरणों के लिए उपयोग किए जाने वाले विभिन्न रंग संचालन का प्रतिनिधित्व करता है। अपरिवर्तनीय वस्तु.
+रंग परिवर्तन के लिए उपयोग किए जाने वाले विभिन्न रंग ऑपरेशनों का प्रतिनिधित्व करता है। अपरिवर्तनीय वस्तु।
 
 ```csharp
 public class ColorOperation : IColorOperation
 ```
 
-## कन्स्ट्रक्टर
+## कंस्ट्रक्टर
 
-| नाम | विवरण |
+| Name | Description |
 | --- | --- |
-| [ColorOperation](coloroperation#constructor)(ColorTransformOperation) | नया रंग रूपांतरण संचालन बनाता है। |
-| [ColorOperation](coloroperation#constructor_1)(ColorTransformOperation, float) | नया रंग रूपांतरण संचालन बनाता है। |
+| [ColorOperation](coloroperation#constructor)(ColorTransformOperation) | नया रंग परिवर्तन ऑपरेशन बनाता है। |
+| [ColorOperation](coloroperation#constructor_1)(ColorTransformOperation, float) | नया रंग परिवर्तन ऑपरेशन बनाता है। |
 
 ## गुण
 
-| नाम | विवरण |
+| Name | Description |
 | --- | --- |
-| [OperationType](../../aspose.slides/coloroperation/operationtype) { get; } | ऑपरेशन के प्रकार को लौटाता है या सेट करता है। केवल-पढ़ने योग्य [`ColorTransformOperation`](../colortransformoperation)। |
-| [Parameter](../../aspose.slides/coloroperation/parameter) { get; } | ऑपरेशन का पैरामीटर लौटाता है। केवल-पढ़ने योग्य Single। |
+| [OperationType](../../aspose.slides/coloroperation/operationtype) { get; } | ऑपरेशन के प्रकार को लौटाता है या सेट करता है। केवल-रीड [`ColorTransformOperation`](../colortransformoperation). |
+| [Parameter](../../aspose.slides/coloroperation/parameter) { get; } | ऑपरेशन का पैरामीटर लौटाता है। केवल-रीड Single. |
 
 ## विधियाँ
 
-| नाम | विवरण |
+| Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides/coloroperation/equals)(object) | निर्धारित करता है कि दो ColorOperation उदाहरण समान हैं या नहीं। |
-| override [GetHashCode](../../aspose.slides/coloroperation/gethashcode)() | किसी विशेष प्रकार के लिए हैश फ़ंक्शन के रूप में कार्य करता है, हैशिंग एल्गोरिदम और हैश टेबल जैसी डेटा संरचनाओं में उपयोग के योग्य। |
+| override [GetHashCode](../../aspose.slides/coloroperation/gethashcode)() | किसी विशेष प्रकार के लिए हैश फ़ंक्शन के रूप में कार्य करता है, हैशिंग एल्गोरिदम और हैश तालिका जैसी डेटा संरचनाओं में उपयोग के लिए उपयुक्त। |
 
-### देखें
+### संबंधित देखें
 
 * इंटरफ़ेस [IColorOperation](../icoloroperation)
 * नामस्थान [Aspose.Slides](../../aspose.slides)

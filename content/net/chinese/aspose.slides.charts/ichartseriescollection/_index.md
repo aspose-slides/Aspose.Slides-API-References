@@ -3,7 +3,7 @@ title: IChartSeriesCollection
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示 IChartSeries 的集合。/ichartseries
 type: docs
-weight: 1940
+weight: 1960
 url: /zh/aspose.slides.charts/ichartseriescollection/
 ---
 ## IChartSeriesCollection 接口
@@ -18,7 +18,7 @@ public interface IChartSeriesCollection : IGenericCollection<IChartSeries>
 
 | 名称 | 描述 |
 | --- | --- |
-| [Item](../../aspose.slides.charts/ichartseriescollection/item) { get; } | 获取在指定索引处的元素。 |
+| [Item](../../aspose.slides.charts/ichartseriescollection/item) { get; } | 获取指定索引处的元素。 |
 
 ## 方法
 
@@ -29,12 +29,12 @@ public interface IChartSeriesCollection : IGenericCollection<IChartSeries>
 | [Add](../../aspose.slides.charts/ichartseriescollection/add#add_2)(IChartDataCell, ChartType) | 从 [`IChartDataCell`](../ichartdatacell) 创建新的图表系列并将其添加到集合中。 |
 | [Add](../../aspose.slides.charts/ichartseriescollection/add#add_3)(string, ChartType) | 从值创建新的图表系列并将其添加到集合中。 |
 | [Clear](../../aspose.slides.charts/ichartseriescollection/clear)() | 从集合中移除所有元素（包括图表样式）。 |
-| [IndexOf](../../aspose.slides.charts/ichartseriescollection/indexof)(IChartSeries) | 搜索指定的 [`IChartSeries`](../ichartseries)，并返回整个集合中首次出现的从零开始的索引。 |
+| [IndexOf](../../aspose.slides.charts/ichartseriescollection/indexof)(IChartSeries) | 搜索指定的 [`IChartSeries`](../ichartseries)，并返回整个集合中首次出现的零基索引。 |
 | [Insert](../../aspose.slides.charts/ichartseriescollection/insert)(int, ChartType) | 创建新的图表系列并将其插入到集合中。 |
 | [Remove](../../aspose.slides.charts/ichartseriescollection/remove)(IChartSeries) | 移除指定的值。 |
-| [RemoveAt](../../aspose.slides.charts/ichartseriescollection/removeat)(int) | 移除在指定索引处的元素。 |
+| [RemoveAt](../../aspose.slides.charts/ichartseriescollection/removeat)(int) | 移除指定索引处的元素。 |
 
-### 另请参见
+### 另请参阅
 
 * 接口 [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * 接口 [IChartSeries](../ichartseries)

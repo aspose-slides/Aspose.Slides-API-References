@@ -1,9 +1,9 @@
 ---
 title: MathPortion
-second_title: Aspose.Sildes für .NET API Referenz
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt einen Teil mit mathematischem Kontext dar.
 type: docs
-weight: 8930
+weight: 8950
 url: /de/aspose.slides.mathtext/mathportion/
 ---
 ## MathPortion Klasse
@@ -18,32 +18,33 @@ public sealed class MathPortion : Portion, IMathPortion
 
 | Name | Beschreibung |
 | --- | --- |
-| [MathPortion](mathportion)() | Initialisiert eine neue Instanz der Klasse MathPortion. |
+| [MathPortion](mathportion)() | Initialisiert eine neue Instanz der MathPortion Klasse. |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [Field](../../aspose.slides/portion/field) { get; } | Gibt ein Feld dieses Abschnitts zurück. Schreibgeschützt [`IField`](../../aspose.slides/ifield). |
+| [Field](../../aspose.slides/portion/field) { get; } | Gibt ein Feld dieses Abschnitts zurück. Nur lesbar [`IField`](../../aspose.slides/ifield). |
 | [MathParagraph](../../aspose.slides.mathtext/mathportion/mathparagraph) { get; } | Mathematikabsatz |
-| [PortionFormat](../../aspose.slides/portion/portionformat) { get; } | Gibt ein Formatierungsobjekt zurück, das die explizit gesetzten Formatierungseigenschaften des Textabschnitts enthält, ohne dass Vererbung angewendet wird. Schreibgeschützt [`IPortionFormat`](../../aspose.slides/iportionformat). |
-| [Text](../../aspose.slides/portion/text) { get; set; } | Liest oder setzt den Klartext eines Abschnitts. Lese-/schreibend String. |
+| [PortionFormat](../../aspose.slides/portion/portionformat) { get; } | Gibt ein Formatierungsobjekt zurück, das explizit gesetzte Formatierungseigenschaften des Textteils enthält, ohne dass Vererbung angewendet wird. Nur lesbar [`IPortionFormat`](../../aspose.slides/iportionformat). |
+| [Text](../../aspose.slides/portion/text) { get; set; } | Liest oder schreibt den Klartext eines Teils. Lesen/Schreiben String. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [AddField](../../aspose.slides/portion/addfield)(IFieldType) | Wandelt diesen Abschnitt in das automatisch aktualisierte Feld um. |
-| [AddField](../../aspose.slides/portion/addfield)(string) | Wandelt diesen Abschnitt in das automatisch aktualisierte Feld um. |
-| [GetCoordinates](../../aspose.slides/portion/getcoordinates)() | Gibt die Koordinaten des Anfangs des Abschnitts zurück. Die X-Koordinate des Punktes stellt den Beginn des Abschnitts ab dem ersten Zeichen einschließlich des linken Seitenvorgangs dar. Die Y-Koordinate beinhaltet den oberen Seitenvorgang. |
-| [GetRect](../../aspose.slides/portion/getrect)() | Gibt die Koordinaten des Rechtecks zurück, das den Abschnitt begrenzt. Das Rechteck umfasst alle Textzeilen im Abschnitt, einschließlich leerer Zeilen. |
-| [RemoveField](../../aspose.slides/portion/removefield)() | Wandelt diesen Feldabschnitt in einen einfachen Abschnitt um. |
+| [AddField](../../aspose.slides/portion/addfield)(IFieldType) | Konvertiert diesen Teil in das automatisch aktualisierte Feld. |
+| [AddField](../../aspose.slides/portion/addfield)(string) | Konvertiert diesen Teil in das automatisch aktualisierte Feld. |
+| [GetCoordinates](../../aspose.slides/portion/getcoordinates)() | Ermittelt die Koordinaten des Anfangs des Abschnitts. Die X-Koordinate des Punktes gibt den Abschnittsbeginn ab dem ersten Zeichen einschließlich linker Seitenabstand an. Die Y-Koordinate beinhaltet den oberen Seitenabstand. |
+| [GetRect](../../aspose.slides/portion/getrect)() | Ermittelt die Koordinaten des Rechtecks, das den Abschnitt begrenzt. Das Rechteck umfasst alle Textzeilen im Abschnitt, einschließlich leerer Zeilen. |
+| [RemoveField](../../aspose.slides/portion/removefield)() | Konvertiert diesen Feldabschnitt in den einfachen Abschnitt. |
 
 ### Beispiele
 
 Beispiel:
 
 ```csharp
+[C#]
 using (Presentation pres = new Presentation())
 {
     IAutoShape shape = pres.Slides[0].Shapes.AddMathShape(0, 0, 300, 50);

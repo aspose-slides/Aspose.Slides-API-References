@@ -1,20 +1,20 @@
 ---
 title: IFontsLoader
 second_title: Aspose.Sildes for .NET API 參考
-description: 用於載入使用者自訂字型的類別。應在建立任何簡報物件之前使用。
+description: 用於載入使用者自訂字型的類別。在建立任何簡報物件之前應先使用它。
 type: docs
-weight: 5920
+weight: 5940
 url: /zh-hant/aspose.slides/ifontsloader/
 ---
 ## IFontsLoader 介面
 
-類別，用於載入使用者自訂的字型。應在建立任何簡報物件之前使用。
+類別用於載入使用者定義的自訂字型。在建立任何簡報物件之前應先使用它。
 
 ```csharp
 public interface IFontsLoader
 ```
 
-### 參見
+### 另見
 
 * 命名空間 [Aspose.Slides](../../aspose.slides)
 * 組件 [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: InkTrace
-second_title: Aspose.Sildes dla .NET API Reference
-description: Reprezentuje obiekt Trace. Element Trace jest używany do rejestrowania danych przechwyconych przez cyfrownik. Zawiera sekwencję punktów zakodowaną zgodnie ze specyfikacją podaną przez obiekt InkTraceFormat.
+second_title: Aspose.Sildes dla .NET – referencja API
+description: Reprezentuje obiekt Trace. Element Trace jest używany do rejestrowania danych przechwyconych przez cyfrowarkę. Zawiera sekwencję punktów zakodowaną zgodnie ze specyfikacją podaną przez obiekt InkTraceFormat.
 type: docs
-weight: 7590
+weight: 7610
 url: /pl/aspose.slides.ink/inktrace/
 ---
 ## InkTrace klasa
 
-Reprezentuje obiekt Trace. Element Trace jest używany do rejestrowania danych przechwyconych przez cyfrownik. Zawiera sekwencję punktów zakodowanych zgodnie ze specyfikacją podaną przez obiekt InkTraceFormat.
+Reprezentuje obiekt Trace. Element Trace jest używany do rejestrowania danych przechwyconych przez cyfrowarkę. Zawiera sekwencję punktów zakodowaną zgodnie ze specyfikacją podaną przez obiekt InkTraceFormat.
 
 ```csharp
 public class InkTrace : IInkTrace

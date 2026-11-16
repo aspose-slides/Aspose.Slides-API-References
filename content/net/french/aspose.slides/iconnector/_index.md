@@ -1,9 +1,9 @@
 ---
 title: IConnector
-second_title: Référence de l'API Aspose.Sildes pour .NET
+second_title: Référence API Aspose.Sildes pour .NET
 description: Représente un connecteur.
 type: docs
-weight: 5610
+weight: 5630
 url: /fr/aspose.slides/iconnector/
 ---
 ## IConnector interface
@@ -16,21 +16,21 @@ public interface IConnector : IGeometryShape
 
 ## Propriétés
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
 | [AsIGeometryShape](../../aspose.slides/iconnector/asigeometryshape) { get; } | Permet d'obtenir l'interface de base IGeometryShape. Lecture seule [`IGeometryShape`](../igeometryshape). |
-| [ConnectorLock](../../aspose.slides/iconnector/connectorlock) { get; } | Renvoie les verrous du Connector. Lecture seule [`IConnectorLock`](../iconnectorlock). |
+| [ConnectorLock](../../aspose.slides/iconnector/connectorlock) { get; } | Renvoie les verrous du connecteur. Lecture seule [`IConnectorLock`](../iconnectorlock). |
 | [EndShapeConnectedTo](../../aspose.slides/iconnector/endshapeconnectedto) { get; set; } | Renvoie ou définit la forme à laquelle attacher l'extrémité du connecteur. Lecture/écriture [`IShape`](../ishape). |
 | [EndShapeConnectionSiteIndex](../../aspose.slides/iconnector/endshapeconnectionsiteindex) { get; set; } | Renvoie ou définit l'index du site de connexion pour la forme de fin. Lecture/écriture UInt32. |
 | [ShapeLock](../../aspose.slides/iconnector/shapelock) { get; } | Renvoie les verrous de la forme. Lecture seule [`IConnectorLock`](../iconnectorlock). |
 | [StartShapeConnectedTo](../../aspose.slides/iconnector/startshapeconnectedto) { get; set; } | Renvoie ou définit la forme à laquelle attacher le début du connecteur. Lecture/écriture [`IShape`](../ishape). |
-| [StartShapeConnectionSiteIndex](../../aspose.slides/iconnector/startshapeconnectionsiteindex) { get; set; } | Renvoie ou définit l'index du site de connexion pour la forme de début. Lecture/écriture UInt32. |
+| [StartShapeConnectionSiteIndex](../../aspose.slides/iconnector/startshapeconnectionsiteindex) { get; set; } | Renvoie ou définit l'index du site de connexion pour la forme de départ. Lecture/écriture UInt32. |
 
 ## Méthodes
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
-| [Reroute](../../aspose.slides/iconnector/reroute)() | Redirige le connecteur afin qu'il emprunte le chemin le plus court possible entre les formes qu'il relie. |
+| [Reroute](../../aspose.slides/iconnector/reroute)() | Routage du connecteur afin qu'il prenne le chemin le plus court possible entre les formes qu'il connecte. |
 
 ### Voir aussi
 

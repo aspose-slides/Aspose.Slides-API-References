@@ -1,14 +1,14 @@
 ---
 title: VbaModule
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar modul som ingår i ett VBA-projekt.
+description: Representerar modul som ingår i VBA-projektet.
 type: docs
-weight: 11630
+weight: 11650
 url: /sv/aspose.slides.vba/vbamodule/
 ---
 ## VbaModule klass
 
-Representerar modul som ingår i VBA-projekt.
+Representerar modul som ingår i VBA-projektet.
 
 ```csharp
 public sealed class VbaModule : IVbaModule
@@ -16,7 +16,7 @@ public sealed class VbaModule : IVbaModule
 
 ## Egenskaper
 
-| Name | Beskrivning |
+| Namn | Beskrivning |
 | --- | --- |
 | [Name](../../aspose.slides.vba/vbamodule/name) { get; } | Hämtar namnet på modulen. Skrivskyddad String. |
 | [SourceCode](../../aspose.slides.vba/vbamodule/sourcecode) { get; set; } | Returnerar eller anger källkoden för modulen. Läs/skriv String. |

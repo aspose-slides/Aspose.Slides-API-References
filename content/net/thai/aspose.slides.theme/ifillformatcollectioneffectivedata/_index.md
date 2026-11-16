@@ -1,14 +1,14 @@
 ---
 title: IFillFormatCollectionEffectiveData
-second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
-description: อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งเป็นตัวแทนของคอลเลกชันแบบอ่านอย่างเดียวของรูปแบบการเติมที่มีผล
+second_title: การอ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+description: อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงได้ซึ่งเป็นตัวแทนของคอลเลกชันที่อ่านอย่างเดียวของฟอร์แมตการเติมที่มีผล
 type: docs
-weight: 11240
+weight: 11260
 url: /th/aspose.slides.theme/ifillformatcollectioneffectivedata/
 ---
 ## IFillFormatCollectionEffectiveData อินเทอร์เฟซ
 
-วัตถุแบบไม่เปลี่ยนแปลงที่เป็นตัวแทนของคอลเลกชันแบบอ่านอย่างเดียวของรูปแบบการเติมที่มีผล
+อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงได้ซึ่งเป็นตัวแทนของคอลเลกชันที่อ่านอย่างเดียวของฟอร์แมตการเติมที่มีผล
 
 ```csharp
 public interface IFillFormatCollectionEffectiveData : IGenericCollection<IFillFormatEffectiveData>

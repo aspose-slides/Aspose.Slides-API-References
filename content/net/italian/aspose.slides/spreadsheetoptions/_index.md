@@ -1,9 +1,9 @@
 ---
 title: SpreadsheetOptions
-second_title: Aspose.Sildes per il riferimento API .NET
+second_title: Aspose.Sildes per .NET Riferimento API
 description: Rappresenta le opzioni che possono essere utilizzate per specificare un comportamento aggiuntivo dei fogli di calcolo.
 type: docs
-weight: 10740
+weight: 10760
 url: /it/aspose.slides/spreadsheetoptions/
 ---
 ## SpreadsheetOptions classe
@@ -16,16 +16,16 @@ public class SpreadsheetOptions : ISpreadsheetOptions
 
 ## Costruttori
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
 | [SpreadsheetOptions](spreadsheetoptions)() | Inizializza una nuova istanza della classe [`SpreadsheetOptions`](../spreadsheetoptions). |
 
 ## Proprietà
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
-| [PreferredCulture](../../aspose.slides/spreadsheetoptions/preferredculture) { get; set; } | Ottiene o imposta le informazioni sulla cultura preferita per calcolare alcune funzioni destinate all'uso con linguaggi che utilizzano il set di caratteri a doppio byte (DBCS). |
-| [RecoverWorkbookFromChartCache](../../aspose.slides/spreadsheetoptions/recoverworkbookfromchartcache) { get; set; } | Se l'origine dati per il diagramma è una cartella di lavoro esterna e non è disponibile, verrà recuperata dalla cache del diagramma. |
+| [PreferredCulture](../../aspose.slides/spreadsheetoptions/preferredculture) { get; set; } | Ottiene o imposta le informazioni sulla cultura preferita per calcolare alcune funzioni destinate all'uso con lingue che utilizzano il set di caratteri a doppio byte (DBCS). |
+| [RecoverWorkbookFromChartCache](../../aspose.slides/spreadsheetoptions/recoverworkbookfromchartcache) { get; set; } | Se l'origine dati per il grafico è una cartella di lavoro esterna e non è disponibile, verrà recuperata dalla cache del grafico. |
 
 ### Vedi anche
 

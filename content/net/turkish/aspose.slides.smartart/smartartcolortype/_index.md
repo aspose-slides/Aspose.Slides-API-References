@@ -1,12 +1,12 @@
 ---
 title: SmartArtColorType
-second_title: Aspose.Sildes for .NET API Referansı
-description: SmartArt diyagramının renk şemasını temsil eder.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Bir SmartArt diyagramının renk şemasını temsil eder.
 type: docs
-weight: 10610
+weight: 10630
 url: /tr/aspose.slides.smartart/smartartcolortype/
 ---
-## SmartArtColorType enum
+## SmartArtColorType enum'ı
 
 SmartArt diyagramının renk şemasını temsil eder.
 

@@ -1,14 +1,14 @@
 ---
 title: SetExternalWorkbook
 second_title: Aspose.Sildes for .NET API 참조
-description: 차트의 데이터 원본으로 외부 워크북을 설정합니다. 차트 데이터는 대상 워크북에서 업데이트됩니다.
+description: 외부 워크북을 차트의 데이터 소스로 설정합니다. 차트 데이터는 대상 워크북에서 업데이트됩니다.
 type: docs
-weight: 120
+weight: 130
 url: /ko/aspose.slides.charts/ichartdata/setexternalworkbook/
 ---
 ## SetExternalWorkbook(string) {#setexternalworkbook}
 
-차트의 데이터 원본으로 외부 워크북을 설정합니다. 차트 데이터는 대상 워크북에서 업데이트됩니다.
+외부 워크북을 차트의 데이터 소스로 설정합니다. 차트 데이터는 대상 워크북에서 업데이트됩니다.
 
 ```csharp
 public void SetExternalWorkbook(string workbookPath)
@@ -22,7 +22,7 @@ public void SetExternalWorkbook(string workbookPath)
 
 | 예외 | 조건 |
 | --- | --- |
-| InvalidOperationException | External workbook is not available or can't be loaded. |
+| InvalidOperationException | 외부 워크북을 사용할 수 없거나 로드할 수 없습니다. |
 
 ### 예제
 
@@ -36,7 +36,7 @@ using (Presentation pres = new Presentation())
 
 ```
 
-### 관련 항목
+### 참고
 
 * 인터페이스 [IChartData](../../ichartdata)
 * 네임스페이스 [Aspose.Slides.Charts](../../ichartdata)
@@ -46,7 +46,7 @@ using (Presentation pres = new Presentation())
 
 ## SetExternalWorkbook(string, bool) {#setexternalworkbook_1}
 
-차트의 데이터 원본으로 외부 워크북을 설정합니다.
+외부 워크북을 차트의 데이터 소스로 설정합니다.
 
 ```csharp
 public void SetExternalWorkbook(string workbookPath, bool updateChartData)
@@ -55,13 +55,13 @@ public void SetExternalWorkbook(string workbookPath, bool updateChartData)
 | 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
 | workbookPath | String | 대상 워크북의 경로 |
-| updateChartData | Boolean | 값이 false인 경우 워크북 경로만 업데이트됩니다. 차트 데이터는 로드되지 않으며 대상 워크북에서 업데이트되지 않습니다. 대상 워크북이 존재하지 않거나 사용할 수 없을 때 사용할 수 있습니다. 값이 true인 경우 차트 데이터가 대상 워크북에서 업데이트됩니다. |
+| updateChartData | Boolean | 값이 false인 경우 워크북 경로만 업데이트됩니다. 차트 데이터는 대상 워크북에서 로드되거나 업데이트되지 않습니다. 대상 워크북이 존재하지 않거나 사용할 수 없는 경우에 사용할 수 있습니다. 값이 true인 경우 차트 데이터가 대상 워크북에서 업데이트됩니다. |
 
 ### 예외
 
 | 예외 | 조건 |
 | --- | --- |
-| InvalidOperationException | External workbook is not available or can't be loaded. |
+| InvalidOperationException | 외부 워크북을 사용할 수 없거나 로드할 수 없습니다. |
 
 ### 예제
 
@@ -76,7 +76,7 @@ using (Presentation pres = new Presentation())
 
 ```
 
-### 관련 항목
+### 참고
 
 * 인터페이스 [IChartData](../../ichartdata)
 * 네임스페이스 [Aspose.Slides.Charts](../../ichartdata)

@@ -3,7 +3,7 @@ title: Placeholder
 second_title: Aspose.Sildes pro .NET API Reference
 description: Představuje zástupný prvek na snímku.
 type: docs
-weight: 9430
+weight: 9450
 url: /cs/aspose.slides/placeholder/
 ---
 ## Placeholder třída
@@ -18,10 +18,10 @@ public class Placeholder : IPlaceholder
 
 | Název | Popis |
 | --- | --- |
-| [Index](../../aspose.slides/placeholder/index) { get; } | Načte nebo nastaví index zástupného prvku. Pouze pro čtení UInt32. |
-| [Orientation](../../aspose.slides/placeholder/orientation) { get; } | Načte nebo nastaví orientaci zástupného prvku. Pouze pro čtení [`Orientation`](../orientation). |
-| [Size](../../aspose.slides/placeholder/size) { get; } | Načte nebo nastaví velikost zástupného prvku. Pouze pro čtení [`PlaceholderSize`](../placeholdersize). |
-| [Type](../../aspose.slides/placeholder/type) { get; } | Načte nebo nastaví typ zástupného prvku. Pouze pro čtení [`PlaceholderType`](../placeholdertype). |
+| [Index](../../aspose.slides/placeholder/index) { get; } | Získá nebo nastaví index zástupného prvku. Pouze pro čtení UInt32. |
+| [Orientation](../../aspose.slides/placeholder/orientation) { get; } | Získá nebo nastaví orientaci zástupného prvku. Pouze pro čtení [`Orientation`](../orientation). |
+| [Size](../../aspose.slides/placeholder/size) { get; } | Získá nebo nastaví velikost zástupného prvku. Pouze pro čtení [`PlaceholderSize`](../placeholdersize). |
+| [Type](../../aspose.slides/placeholder/type) { get; } | Získá nebo nastaví typ zástupného prvku. Pouze pro čtení [`PlaceholderType`](../placeholdertype). |
 
 ### Viz také
 

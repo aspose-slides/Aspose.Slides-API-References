@@ -3,12 +3,12 @@ title: ITextStyle
 second_title: Aspose.Sildes สำหรับ .NET API Reference
 description: คุณสมบัติการจัดรูปแบบสไตล์ข้อความ.
 type: docs
-weight: 7310
+weight: 7330
 url: /th/aspose.slides/itextstyle/
 ---
 ## ITextStyle อินเทอร์เฟซ
 
-Text style formatting properties.
+คุณสมบัติการจัดรูปแบบสไตล์ข้อความ.
 
 ```csharp
 public interface ITextStyle
@@ -18,14 +18,14 @@ public interface ITextStyle
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [DefaultParagraphFormat](../../aspose.slides/itextstyle/defaultparagraphformat) { get; } | คุณสมบัติย่อหน้าเริ่มต้น อ่านอย่างเดียว [`IParagraphFormat`](../iparagraphformat). |
+| [DefaultParagraphFormat](../../aspose.slides/itextstyle/defaultparagraphformat) { get; } | คุณสมบัติย่อหน้าตั้งต้น. อ่านอย่างเดียว [`IParagraphFormat`](../iparagraphformat). |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [GetEffective](../../aspose.slides/itextstyle/geteffective)() | รับข้อมูลการจัดรูปแบบสไตล์ข้อความที่มีผลพร้อมการสืบทอดที่นำไปใช้. |
-| [GetLevel](../../aspose.slides/itextstyle/getlevel)(int) | หากระดับของสไตล์มีอยู่จะคืนค่า, มิฉะนั้นจะคืนค่า null. |
+| [GetEffective](../../aspose.slides/itextstyle/geteffective)() | ดึงข้อมูลการจัดรูปแบบสไตล์ข้อความที่มีผลโดยใช้การสืบทอด. |
+| [GetLevel](../../aspose.slides/itextstyle/getlevel)(int) | หากระดับสไตล์มีอยู่จะคืนค่า, มิฉะนั้นจะคืนค่า null. |
 
 ### ดูเพิ่มเติม
 

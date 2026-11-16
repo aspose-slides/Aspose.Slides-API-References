@@ -1,14 +1,14 @@
 ---
 title: IInkActions
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: เป็นตัวแทนของวัตถุหมึกบนสไลด์
+description: แสดงวัตถุหมึกบนสไลด์หนึ่ง
 type: docs
-weight: 7520
+weight: 7540
 url: /th/aspose.slides.ink/iinkactions/
 ---
 ## IInkActions อินเทอร์เฟซ
 
-เป็นตัวแทนของวัตถุหมึกบนสไลด์.
+แสดงวัตถุหมึกบนสไลด์.
 
 ```csharp
 public interface IInkActions : IGraphicalObject
@@ -18,7 +18,7 @@ public interface IInkActions : IGraphicalObject
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIGraphicalObject](../../aspose.slides.ink/iinkactions/asigraphicalobject) { get; } | อนุญาตให้ดึง IGraphicalObject อินเทอร์เฟซพื้นฐาน. อ่านอย่างเดียว [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
+| [AsIGraphicalObject](../../aspose.slides.ink/iinkactions/asigraphicalobject) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IGraphicalObject พื้นฐาน. อ่านอย่างเดียว [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
 
 ### ดูเพิ่มเติม
 

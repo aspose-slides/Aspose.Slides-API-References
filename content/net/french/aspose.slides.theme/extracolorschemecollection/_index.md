@@ -1,14 +1,14 @@
 ---
 title: ExtraColorSchemeCollection
-second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Représente une collection de schémas de couleurs supplémentaires.
+second_title: Référence API Aspose.Sildes pour .NET
+description: Représente une collection de schémas de couleur supplémentaires.
 type: docs
-weight: 11110
+weight: 11130
 url: /fr/aspose.slides.theme/extracolorschemecollection/
 ---
 ## ExtraColorSchemeCollection classe
 
-Représente une collection de schémas de couleurs supplémentaires.
+Représente une collection de schémas de couleur supplémentaires.
 
 ```csharp
 public class ExtraColorSchemeCollection : IExtraColorSchemeCollection
@@ -16,16 +16,16 @@ public class ExtraColorSchemeCollection : IExtraColorSchemeCollection
 
 ## Propriétés
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides.theme/extracolorschemecollection/count) { get; } | Renvoie un nombre d'éléments dans la collection. Lecture seule Int32. |
+| [Count](../../aspose.slides.theme/extracolorschemecollection/count) { get; } | Renvoie le nombre d'éléments dans la collection. Lecture seule Int32. |
 | [IsSynchronized](../../aspose.slides.theme/extracolorschemecollection/issynchronized) { get; } | Renvoie une valeur indiquant si l'accès à l'ArrayList est synchronisé (thread safe). Lecture seule Boolean. |
-| [Item](../../aspose.slides.theme/extracolorschemecollection/item) { get; } | Renvoie un schéma de couleur par index. Lecture seule [`ExtraColorScheme`](../extracolorscheme). |
+| [Item](../../aspose.slides.theme/extracolorschemecollection/item) { get; } | Renvoie un schéma de couleur par indice. Lecture seule [`ExtraColorScheme`](../extracolorscheme). |
 | [SyncRoot](../../aspose.slides.theme/extracolorschemecollection/syncroot) { get; } | Renvoie un objet pouvant être utilisé pour synchroniser l'accès à la collection. Lecture seule Object. |
 
 ## Méthodes
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
 | [CopyTo](../../aspose.slides.theme/extracolorschemecollection/copyto)(Array, int) | Copie tous les éléments de la collection dans le tableau spécifié. |
 | [GetEnumerator](../../aspose.slides.theme/extracolorschemecollection/getenumerator)() | Renvoie un énumérateur qui parcourt la collection. |

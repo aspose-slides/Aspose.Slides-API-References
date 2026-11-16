@@ -3,7 +3,7 @@ title: IViewProperties
 second_title: Aspose.Sildes for .NET API リファレンス
 description: プレゼンテーション全体のビュー プロパティ。
 type: docs
-weight: 7390
+weight: 7410
 url: /ja/aspose.slides/iviewproperties/
 ---
 ## IViewProperties インターフェイス
@@ -18,12 +18,12 @@ public interface IViewProperties
 
 | 名前 | 説明 |
 | --- | --- |
-| [GridSpacing](../../aspose.slides/iviewproperties/gridspacing) { get; set; } | プレゼンテーション文書の基になるグリッドに使用すべきグリッド間隔をポイント単位で取得または設定します。 読み取り/書き込み Single。 |
-| [LastView](../../aspose.slides/iviewproperties/lastview) { get; set; } | プレゼンテーション文書が最後に保存されたときに使用された表示モードを指定します。 読み取り/書き込み [`ViewType`](../viewtype)。 |
-| [NormalViewProperties](../../aspose.slides/iviewproperties/normalviewproperties) { get; } | 標準ビューのプロパティを表します。標準ビューは3つのコンテンツ領域で構成されます：スライド自体、サイドコンテンツ領域、そしてボトムコンテンツ領域。 読み取り専用 [`INormalViewProperties`](../inormalviewproperties)。 |
-| [NotesViewProperties](../../aspose.slides/iviewproperties/notesviewproperties) { get; } | ノートビュー モードに関連付けられた共通ビュー プロパティを指定します。 読み取り専用 [`ICommonSlideViewProperties`](../icommonslideviewproperties)。 |
-| [ShowComments](../../aspose.slides/iviewproperties/showcomments) { get; set; } | スライド コメントを表示するかどうかを指定します。 読み取り/書き込み [`NullableBool`](../nullablebool)。 |
-| [SlideViewProperties](../../aspose.slides/iviewproperties/slideviewproperties) { get; } | スライドビュー モードに関連付けられた共通ビュー プロパティを指定します。 読み取り専用 [`ICommonSlideViewProperties`](../icommonslideviewproperties)。 |
+| [GridSpacing](../../aspose.slides/iviewproperties/gridspacing) { get; set; } | プレゼンテーション ドキュメントの基になるグリッドに使用すべきグリッド間隔をポイント単位で取得または設定します。読み取り/書き込み Single. |
+| [LastView](../../aspose.slides/iviewproperties/lastview) { get; set; } | プレゼンテーション ドキュメントが最後に保存されたときに使用されたビュー モードを指定します。読み取り/書き込み [`ViewType`](../viewtype). |
+| [NormalViewProperties](../../aspose.slides/iviewproperties/normalviewproperties) { get; } | 通常のビュー プロパティを表します。通常のビューは、スライド自体、サイド コンテンツ領域、下部 コンテンツ領域の3つのコンテンツ領域で構成されます。読み取り専用 [`INormalViewProperties`](../inormalviewproperties). |
+| [NotesViewProperties](../../aspose.slides/iviewproperties/notesviewproperties) { get; } | ノート ビュー モードに関連付けられた共通ビュー プロパティを指定します。読み取り専用 [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
+| [ShowComments](../../aspose.slides/iviewproperties/showcomments) { get; set; } | スライド コメントを表示するかどうかを指定します。読み取り/書き込み [`NullableBool`](../nullablebool). |
+| [SlideViewProperties](../../aspose.slides/iviewproperties/slideviewproperties) { get; } | スライド ビュー モードに関連付けられた共通ビュー プロパティを指定します。読み取り専用 [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
 
 ### 参照
 

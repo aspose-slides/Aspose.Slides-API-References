@@ -1,14 +1,14 @@
 ---
 title: ITextStyleEffectiveData
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งบรรจุคุณสมบัติรูปแบบข้อความที่มีประสิทธิภาพ.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: ออบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งมีคุณสมบัติรูปแบบข้อความที่มีประสิทธิภาพ
 type: docs
-weight: 7320
+weight: 7340
 url: /th/aspose.slides/itextstyleeffectivedata/
 ---
 ## ITextStyleEffectiveData อินเทอร์เฟซ
 
-อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งบรรจุคุณสมบัติรูปแบบข้อความที่มีประสิทธิภาพ
+Immutable object which contains effective text style properties.
 
 ```csharp
 public interface ITextStyleEffectiveData
@@ -18,9 +18,9 @@ public interface ITextStyleEffectiveData
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [DefaultParagraphFormat](../../aspose.slides/itextstyleeffectivedata/defaultparagraphformat) { get; } | ส่งคืนคุณสมบัติย่อหน้าตั้งค่าเริ่มต้นที่มีประสิทธิภาพ. อ่านอย่างเดียว [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata). |
+| [DefaultParagraphFormat](../../aspose.slides/itextstyleeffectivedata/defaultparagraphformat) { get; } | ส่งคืนคุณสมบัติย่อหน้าเริ่มต้นที่มีประสิทธิภาพ. อ่านอย่างเดียว [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata). |
 
-## เมธอด
+## วิธีการ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
@@ -28,7 +28,7 @@ public interface ITextStyleEffectiveData
 
 ### หมายเหตุ
 
-อินเทอร์เฟซนี้ใช้ร่วมกับอินเทอร์เฟซ [`ITextStyle`](../itextstyle) เพื่อส่งคืนค่าการจัดรูปแบบที่มีประสิทธิภาพโดยนำการสืบทอดมาใช้.
+อินเทอร์เฟซนี้ใช้ร่วมกับอินเทอร์เฟซ [`ITextStyle`](../itextstyle) เพื่อส่งคืนค่าการจัดรูปแบบที่มีประสิทธิภาพพร้อมการสืบทอดที่นำไปใช้.
 
 ### ดูเพิ่มเติม
 

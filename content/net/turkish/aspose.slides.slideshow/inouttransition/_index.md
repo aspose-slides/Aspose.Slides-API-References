@@ -1,14 +1,14 @@
 ---
 title: InOutTransition
 second_title: Aspose.Sildes için .NET API Referansı
-description: In-Out slayt geçiş efekti.
+description: İç/Dış slayt geçiş efekti.
 type: docs
-weight: 10230
+weight: 10250
 url: /tr/aspose.slides.slideshow/inouttransition/
 ---
-## InOutTransition sınıfı
+## InOutTransition sınıf
 
-In-Out slayt geçiş efekti.
+İç/Dış slayt geçiş efekti.
 
 ```csharp
 public class InOutTransition : TransitionValueBase, IInOutTransition
@@ -18,16 +18,16 @@ public class InOutTransition : TransitionValueBase, IInOutTransition
 
 | Ad | Açıklama |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/inouttransition/direction) { get; set; } | Geçiş efektinin yönü. Okunabilir/Yazılabilir [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
+| [Direction](../../aspose.slides.slideshow/inouttransition/direction) { get; set; } | Geçiş efektinin yönü. Okunabilir/yazılabilir [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | İki TransitionValueBase örneğinin eşit olup olmadığını belirler. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Belirli bir tip için bir karma fonksiyonu olarak hizmet eder; karma algoritmaları ve karma tablosu gibi veri yapılarında kullanılmaya uygundur. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Belirli bir tip için bir hash işlevi olarak hizmet eder, hash algoritmaları ve hash tablosu gibi veri yapılarında kullanılmaya uygundur. |
 
-### İlgili
+### Bakınız
 
 * sınıf [TransitionValueBase](../transitionvaluebase)
 * arayüz [IInOutTransition](../iinouttransition)

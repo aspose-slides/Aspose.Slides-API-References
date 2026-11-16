@@ -3,7 +3,7 @@ title: ICommentAuthor
 second_title: Aspose.Sildes for .NET API 參考
 description: 表示評論的作者。
 type: docs
-weight: 5570
+weight: 5590
 url: /zh-hant/aspose.slides/icommentauthor/
 ---
 ## ICommentAuthor 介面
@@ -16,19 +16,19 @@ public interface ICommentAuthor
 
 ## 屬性
 
-| 名稱 | 描述 |
+| 名稱 | 說明 |
 | --- | --- |
-| [Comments](../../aspose.slides/icommentauthor/comments) { get; } | 傳回此作者所發表的評論集合。唯讀 [`ICommentCollection`](../icommentcollection)。 |
-| [Initials](../../aspose.slides/icommentauthor/initials) { get; set; } | 傳回或設定作者的縮寫。可讀寫 String。 |
-| [Name](../../aspose.slides/icommentauthor/name) { get; set; } | 傳回或設定作者的名稱。可讀寫 String。 |
+| [Comments](../../aspose.slides/icommentauthor/comments) { get; } | 傳回此作者所發表的評論集合。 唯讀 [`ICommentCollection`](../icommentcollection)。 |
+| [Initials](../../aspose.slides/icommentauthor/initials) { get; set; } | 取得或設定作者的縮寫。 可讀寫 String。 |
+| [Name](../../aspose.slides/icommentauthor/name) { get; set; } | 取得或設定作者的名稱。 可讀寫 String。 |
 
 ## 方法
 
-| 名稱 | 描述 |
+| 名稱 | 說明 |
 | --- | --- |
-| [Remove](../../aspose.slides/icommentauthor/remove)() | 從父集合中移除作者。 |
+| [Remove](../../aspose.slides/icommentauthor/remove)() | 從父集合中移除該作者。 |
 
-### 另請參考
+### 另請參閱
 
 * 命名空間 [Aspose.Slides](../../aspose.slides)
 * 組件 [Aspose.Slides](../../)

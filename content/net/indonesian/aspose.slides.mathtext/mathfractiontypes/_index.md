@@ -1,12 +1,12 @@
 ---
 title: MathFractionTypes
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Tipe Pecahan
 type: docs
-weight: 8710
+weight: 8730
 url: /id/aspose.slides.mathtext/mathfractiontypes/
 ---
-## enumerasi MathFractionTypes
+## Enum MathFractionTypes
 
 Tipe Pecahan
 
@@ -18,10 +18,10 @@ public enum MathFractionTypes
 
 | Nama | Nilai | Deskripsi |
 | --- | --- | --- |
-| Bar | `1` | Pecahan Bar |
+| Bar | `1` | Bar Pecahan |
 | Skewed | `2` | Miring |
-| Linear | `3` | Pecahan Linear |
-| NoBar | `4` | Pecahan Tanpa-Bar (Stack) |
+| Linear | `3` | Linear Pecahan |
+| NoBar | `4` | No-Bar Pecahan (Tumpukan) |
 
 ### Lihat Juga
 

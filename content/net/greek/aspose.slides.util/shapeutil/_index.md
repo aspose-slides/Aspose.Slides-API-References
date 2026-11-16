@@ -1,9 +1,9 @@
 ---
 title: ShapeUtil
-second_title: Aspose.Sildes για .NET Αναφορά API
-description: Παρέχει μεθόδους που βοηθούν στην επεξεργασία αντικειμένων σχήματος.
+second_title: Aspose.Sildes για .NET API Αναφορά
+description: Προσφέρει μεθόδους που βοηθούν στην επεξεργασία αντικειμένων σχήματος.
 type: docs
-weight: 11510
+weight: 11530
 url: /el/aspose.slides.util/shapeutil/
 ---
 ## ShapeUtil κλάση

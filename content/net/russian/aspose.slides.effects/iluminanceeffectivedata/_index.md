@@ -1,14 +1,14 @@
 ---
 title: ILuminanceEffectiveData
-second_title: Aspose.Sildes для .NET справочник API
-description: Представляет эффект яркости. Яркость линейно сдвигает все цвета ближе к белому или чёрному. Контраст масштабирует все цвета, делая их ближе друг к другу или дальше друг от друга.
+second_title: Aspose.Sildes для .NET справочника API
+description: Представляет эффект Luminance. Brightness линейно смещает все цвета ближе к белому или чёрному. Contrast масштабирует все цвета, делая их либо ближе, либо дальше друг от друга.
 type: docs
-weight: 3450
+weight: 3470
 url: /ru/aspose.slides.effects/iluminanceeffectivedata/
 ---
 ## ILuminanceEffectiveData интерфейс
 
-Представляет эффект яркости. Яркость линейно сдвигает все цвета ближе к белому или чёрному. Контраст масштабирует все цвета, делая их ближе друг к другу или дальше друг от друга.
+Представляет эффект Luminance. Brightness линейно смещает все цвета ближе к белому или чёрному. Contrast масштабирует все цвета, делая их либо ближе, либо дальше друг от друга.
 
 ```csharp
 public interface ILuminanceEffectiveData : IEffectEffectiveData
@@ -19,8 +19,8 @@ public interface ILuminanceEffectiveData : IEffectEffectiveData
 | Имя | Описание |
 | --- | --- |
 | [AsIEffectEffectiveData](../../aspose.slides.effects/iluminanceeffectivedata/asieffecteffectivedata) { get; } | Позволяет получить базовый интерфейс IEffectEffectiveData. Только для чтения [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Brightness](../../aspose.slides.effects/iluminanceeffectivedata/brightness) { get; } | Яркость. Только для чтения Single. |
-| [Contrast](../../aspose.slides.effects/iluminanceeffectivedata/contrast) { get; } | Контраст. Только для чтения Single. |
+| [Brightness](../../aspose.slides.effects/iluminanceeffectivedata/brightness) { get; } | Brightness. Только для чтения Single. |
+| [Contrast](../../aspose.slides.effects/iluminanceeffectivedata/contrast) { get; } | Contrast. Только для чтения Single. |
 
 ### См. также
 

@@ -1,9 +1,9 @@
 ---
 title: GradientFormat
-second_title: Aspose.Sildes for .NET API-referens
+second_title: Aspose.Sildes för .NET API-referens
 description: Representerar ett gradientformat.
 type: docs
-weight: 5000
+weight: 5020
 url: /sv/aspose.slides/gradientformat/
 ---
 ## GradientFormat klass
@@ -18,20 +18,20 @@ public sealed class GradientFormat : PVIObject, IGradientFormat
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Tillåter att hämta bas-IPresentationComponent-gränssnittet. Read-only [`IPresentationComponent`](../ipresentationcomponent). |
-| [GradientDirection](../../aspose.slides/gradientformat/gradientdirection) { get; set; } | Returnerar eller anger stilen för en gradient. Read/write [`GradientDirection`](../gradientdirection). |
-| [GradientShape](../../aspose.slides/gradientformat/gradientshape) { get; set; } | Returnerar eller anger formen för en gradient. Read/write [`GradientShape`](../gradientshape). |
-| [GradientStops](../../aspose.slides/gradientformat/gradientstops) { get; } | Returnerar samlingen av gradientstopp. Read-only [`IGradientStopCollection`](../igradientstopcollection). |
-| [LinearGradientAngle](../../aspose.slides/gradientformat/lineargradientangle) { get; set; } | Returnerar eller anger vinkeln på en gradient. Read/write Single. |
-| [LinearGradientScaled](../../aspose.slides/gradientformat/lineargradientscaled) { get; set; } | Bestämmer om en gradient är skalad. Read/write [`NullableBool`](../nullablebool). |
-| [TileFlip](../../aspose.slides/gradientformat/tileflip) { get; set; } | Returnerar eller anger speglingsläget för en gradient. Read/write [`TileFlip`](../tileflip). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Tillåter att hämta bas-IPresentationComponent-gränssnitt. Skrivskyddad [`IPresentationComponent`](../ipresentationcomponent). |
+| [GradientDirection](../../aspose.slides/gradientformat/gradientdirection) { get; set; } | Returnerar eller anger stilen för en gradient. Läs/skriv [`GradientDirection`](../gradientdirection). |
+| [GradientShape](../../aspose.slides/gradientformat/gradientshape) { get; set; } | Returnerar eller anger formen för en gradient. Läs/skriv [`GradientShape`](../gradientshape). |
+| [GradientStops](../../aspose.slides/gradientformat/gradientstops) { get; } | Returnerar samlingen av gradientstopp. Skrivskyddad [`IGradientStopCollection`](../igradientstopcollection). |
+| [LinearGradientAngle](../../aspose.slides/gradientformat/lineargradientangle) { get; set; } | Returnerar eller anger vinkeln för en gradient. Läs/skriv Single. |
+| [LinearGradientScaled](../../aspose.slides/gradientformat/lineargradientscaled) { get; set; } | Bestämmer om en gradient är skalad. Läs/skriv [`NullableBool`](../nullablebool). |
+| [TileFlip](../../aspose.slides/gradientformat/tileflip) { get; set; } | Returnerar eller anger vändningsläge för en gradient. Läs/skriv [`TileFlip`](../tileflip). |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | Jämför med angivet objekt. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Returnerar hash-kod. |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | Jämför med specificerat objekt. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Returnerar hashkod. |
 
 ### Se även
 

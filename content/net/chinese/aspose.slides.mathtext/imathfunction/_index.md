@@ -1,9 +1,9 @@
 ---
 title: IMathFunction
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 指定一个参数的函数。
 type: docs
-weight: 8270
+weight: 8290
 url: /zh/aspose.slides.mathtext/imathfunction/
 ---
 ## IMathFunction 接口

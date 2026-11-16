@@ -1,14 +1,14 @@
 ---
 title: ITemplateEngine
 second_title: Aspose.Sildes .NET API 参考
-description: 表示一个模板引擎，将模板和数据对转换为最终输出，通常为 HTML。
+description: 表示一个模板引擎，将模板和数据对转换为结果输出，通常为 HTML。
 type: docs
-weight: 4620
+weight: 4640
 url: /zh/aspose.slides.export.web/itemplateengine/
 ---
 ## ITemplateEngine 接口
 
-表示一个模板引擎，它将模板和数据对转换为最终输出（通常为 HTML）。
+表示一个模板引擎，它将模板和数据对转换为结果输出（通常为 HTML）。
 
 ```csharp
 public interface ITemplateEngine

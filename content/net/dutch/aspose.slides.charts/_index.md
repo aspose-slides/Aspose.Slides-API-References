@@ -1,162 +1,163 @@
 ---
 title: Aspose.Slides.Charts
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Bevat klassen voor werken met diagrammen in Microsoft PowerPoint-presentaties.
+description: Bevat klassen voor het werken met grafieken in Microsoft PowerPoint-presentaties.
 type: docs
 weight: 40
 url: /nl/aspose.slides.charts/
----
-Bevat klassen voor werken met diagrammen in Microsoft PowerPoint-presentaties.
+--- Bevat klassen voor het werken met grafieken in Microsoft PowerPoint-presentaties.
 
 ## Klassen
 
 | Klasse | Beschrijving |
 | --- | --- |
-| [AxesCompositionNotCombinableException](./axescompositionnotcombinableexception) | Uitzondering die wordt gegooid wanneer de ascompositie van de serie niet combineerbaar is met de huidige ascompositie in het diagram. |
-| [AxesManager](./axesmanager) | Biedt toegang tot de diagramassen. |
-| [Axis](./axis) | Omsluit het object dat een as van een diagram vertegenwoordigt. |
-| [AxisFormat](./axisformat) | Stelt de opmaak eigenschappen van een diagram voor. |
-| [BaseChartValue](./basechartvalue) | Stelt een waarde van een diagram voor. |
-| [CannotCombine2DAnd3DChartsException](./cannotcombine2dand3dchartsexception) | Uitzondering die wordt gegooid bij het proberen combineren van 2D- en 3D-diagramtypen. |
-| [Chart](./chart) | Stelt een grafisch diagram op een dia voor. |
-| [ChartCategory](./chartcategory) | Stelt diagramcategorieën voor. |
-| [ChartCategoryCollection](./chartcategorycollection) | Stelt een collectie van [`ChartCategory`](../aspose.slides.charts/chartcategory) voor. |
-| [ChartCategoryLevelsManager](./chartcategorylevelsmanager) | Beheerde container van de waarden van de diagramcategorie-niveaus. |
-| [ChartCellCollection](./chartcellcollection) | Stelt een collectie van cellen met gegevens voor. |
-| [ChartData](./chartdata) | Stelt gegevens voor die gebruikt worden voor het plotten van een diagram. |
-| [ChartDataCell](./chartdatacell) | Stelt een cel voor diagramgegevens voor. |
-| [ChartDataPoint](./chartdatapoint) | Stelt een datapunt van een reeks voor. |
-| [ChartDataPointCollection](./chartdatapointcollection) | Stelt een collectie van een reeksdatapunten voor. |
-| [ChartDataPointLevel](./chartdatapointlevel) | Stelt het niveau van een datapunten voor. Geldt voor Treemap- en Sunburst-diagrammen. |
-| [ChartDataPointLevelsManager](./chartdatapointlevelsmanager) | Container van datapunten niveaus. Toegepast op Treeamp- en Sunburst-reeksen. Indexering van datapunten niveaus begint bij nul. |
-| [ChartDataWorkbook](./chartdataworkbook) | Biedt toegang tot een ingesloten Excel-werkmap |
-| [ChartDataWorksheet](./chartdataworksheet) | Stelt een werkblad voor dat is gekoppeld aan [`IChartDataCell`](../aspose.slides.charts/ichartdatacell) |
-| [ChartDataWorksheetCollection](./chartdataworksheetcollection) | Stelt de collectie van werkbladen van de diagramdatabook voor. |
-| [ChartLinesFormat](./chartlinesformat) | Stelt de opmaak eigenschappen van rasterlijnen voor. |
-| [ChartPlotArea](./chartplotarea) | Stelt de rechthoek voor waarin het diagram moet worden getekend. |
-| [ChartPortionFormat](./chartportionformat) | Deze klasse bevat de opmaak eigenschappen van diagramonderdelen die in diagrammen worden gebruikt. In tegenstelling tot [`IPortionFormatEffectiveData`](../aspose.slides/iportionformateffectivedata) zijn alle eigenschappen van deze klasse schrijfbaar. |
-| [ChartSeries](./chartseries) | Stelt een diagramreeks voor. |
-| [ChartSeriesCollection](./chartseriescollection) | Stelt een collectie van [`ChartSeries`](../aspose.slides.charts/chartseries) voor. |
-| [ChartSeriesGroup](./chartseriesgroup) | Stelt een groep van reeksen voor. |
-| [ChartTextFormat](./charttextformat) | Specificeert de standaardtekstopmaak voor diagramtekst-elementen. |
-| [ChartTitle](./charttitle) | Stelt de eigenschappen van de diagramtitel voor. |
-| [ChartTypeCharacterizer](./charttypecharacterizer) | Helper voor het verkrijgen van aanvullende informatie over diagrammen en reeksen via hun ChartType. |
-| [ChartWall](./chartwall) | Stelt wanden op 3D-diagrammen voor. |
-| [DataLabel](./datalabel) | Stelt labels van een reeks voor. |
-| [DataLabelCollection](./datalabelcollection) | Stelt labels van een reeks voor. |
-| [DataLabelFormat](./datalabelformat) | Stelt opmaakopties voor DataLabel voor. |
-| [DataSourceTypeForErrorBarsCustomValues](./datasourcetypeforerrorbarscustomvalues) | Specificeert typen van waarden in de lijst van ChartDataPoint.ErrorBarsCustomValues eigenschappen. |
-| [DataTable](./datatable) | Stelt de eigenschappen van de gegevenstabel voor. |
-| [DoubleChartValue](./doublechartvalue) | Stelt een double-waarde voor die op twee manieren in een pptx-presentatiedocument kan worden opgeslagen: 1) in cel(len) van de werkmap die bij het diagram hoort; 2) als letterlijke waarde. |
-| [ErrorBarsCustomValues](./errorbarscustomvalues) | Specificeert de waarden van de foutbalken. Wordt alleen gebruikt wanneer het type foutbalkwaarde Custom is. |
-| [ErrorBarsFormat](./errorbarsformat) | Stelt foutbalken van diagramreeksen voor. Aangepaste waarden van ErrorBars staan in IChartDataPointCollection (in eigenschap [`ErrorBarsCustomValues`](../aspose.slides.charts/ichartdatapoint/errorbarscustomvalues)). |
-| [Format](./format) | Stelt de opmaak eigenschappen van een diagram voor. |
-| [Legend](./legend) | Stelt de legenda-eigenschappen van een diagram voor. |
-| [LegendEntryCollection](./legendentrycollection) | Stelt een collectie van legenda's voor. |
-| [LegendEntryProperties](./legendentryproperties) | Stelt de legenda-eigenschappen van een diagram voor. |
-| [Marker](./marker) | Stelt een marker van een chert voor. |
-| [PieSplitCustomPointCollection](./piesplitcustompointcollection) | Stelt een collectie van punten voor het splitsingspunt in een staaf-van-taart- of taart-van-taart-diagram met een aangepaste splitsing voor. |
-| [Rotation3D](./rotation3d) | Stelt de 3D-rotatie van een diagram voor. |
-| [StringChartValue](./stringchartvalue) | Stelt een tekenreekswaarde voor die op twee manieren in een pptx-presentatiedocument kan worden opgeslagen: 1) in cel(len) van de werkmap die bij het diagram hoort; 2) als letterlijke waarde. |
-| [StringOrDoubleChartValue](./stringordoublechartvalue) | Stelt een tekenreeks- of double-waarde voor die op twee manieren in een pptx-presentatiedocument kan worden opgeslagen: 1) in cel(len) van de werkmap die bij het diagram hoort; 2) als letterlijke waarde. |
-| [Trendline](./trendline) | Klasse die de trendlijn van een diagramreeks vertegenwoordigt |
-| [TrendlineCollection](./trendlinecollection) | Stelt een collectie van Trendline voor. |
-| [UpDownBarsManager](./updownbarsmanager) | Biedt toegang tot omhoog/omlaag-balken van een lijn- of aandelen-diagram. |
+| [AxesCompositionNotCombinableException](./axescompositionnotcombinableexception) | Exception die wordt gegooid wanneer de as-samenstelling van de serie niet combineerbaar is met de huidige as-samenstelling in de grafiek. |
+| [AxesManager](./axesmanager) | Biedt toegang tot de assen van de grafiek. |
+| [Axis](./axis) | Omvat het object dat een as van een grafiek vertegenwoordigt. |
+| [AxisFormat](./axisformat) | Vertegenwoordigt opmaak-eigenschappen van de grafiek. |
+| [BaseChartValue](./basechartvalue) | Vertegenwoordigt een waarde van een grafiek. |
+| [CachedChartValue](./cachedchartvalue) | Vertegenwoordigt een gecachte grafiekwaarde (bijv. X, Y, bubbelgrootte of de hoofdwaarde). |
+| [CannotCombine2DAnd3DChartsException](./cannotcombine2dand3dchartsexception) | Exception die wordt gegooid bij het proberen te combineren van 2D- en 3D-grafiektype. |
+| [Chart](./chart) | Vertegenwoordigt een grafische grafiek op een dia. |
+| [ChartCategory](./chartcategory) | Vertegenwoordigt grafiekcategorieën. |
+| [ChartCategoryCollection](./chartcategorycollection) | Vertegenwoordigt collectie van [`ChartCategory`](../aspose.slides.charts/chartcategory) |
+| [ChartCategoryLevelsManager](./chartcategorylevelsmanager) | Beheerde container van de waarden van de categorieniveaus van de grafiek. |
+| [ChartCellCollection](./chartcellcollection) | Vertegenwoordigt collectie van cellen met gegevens. |
+| [ChartData](./chartdata) | Vertegenwoordigt gegevens die worden gebruikt voor het plotten van een grafiek. |
+| [ChartDataCell](./chartdatacell) | Vertegenwoordigt cel voor grafiekgegevens. |
+| [ChartDataPoint](./chartdatapoint) | Vertegenwoordigt datapunt van een serie. |
+| [ChartDataPointCollection](./chartdatapointcollection) | Vertegenwoordigt collectie van datapunten van een serie. |
+| [ChartDataPointLevel](./chartdatapointlevel) | Vertegenwoordigt datapuntniveau. Geldt voor Treemap- en Sunburst-grafiek. |
+| [ChartDataPointLevelsManager](./chartdatapointlevelsmanager) | Container van datapuntniveaus. Toegepast voor Treeamp- en Sunburst-series. Indexering van datapuntniveaus begint bij nul. |
+| [ChartDataWorkbook](./chartdataworkbook) | Biedt toegang tot ingesloten Excel-werkmap. |
+| [ChartDataWorksheet](./chartdataworksheet) | Vertegenwoordigt werkblad geassocieerd met [`IChartDataCell`](../aspose.slides.charts/ichartdatacell). |
+| [ChartDataWorksheetCollection](./chartdataworksheetcollection) | Vertegenwoordigt de collectie van werkbladen van de grafiekdatabook. |
+| [ChartLinesFormat](./chartlinesformat) | Vertegenwoordigt opmaak-eigenschappen van rasterlijnen. |
+| [ChartPlotArea](./chartplotarea) | Vertegenwoordigt rechthoek waarin de grafiek moet worden getekend. |
+| [ChartPortionFormat](./chartportionformat) | Deze klasse bevat de opmaak-eigenschappen van het grafiekgedeelte die in grafieken worden gebruikt. In tegenstelling tot [`IPortionFormatEffectiveData`](../aspose.slides/iportionformateffectivedata) zijn alle eigenschappen van deze klasse beschrijfbaar. |
+| [ChartSeries](./chartseries) | Vertegenwoordigt een grafiekserie. |
+| [ChartSeriesCollection](./chartseriescollection) | Vertegenwoordigt collectie van [`ChartSeries`](../aspose.slides.charts/chartseries) |
+| [ChartSeriesGroup](./chartseriesgroup) | Vertegenwoordigt groep van series. |
+| [ChartTextFormat](./charttextformat) | Specificeert standaardtekstopmaak voor tekstonderdelen van de grafiek. |
+| [ChartTitle](./charttitle) | Vertegenwoordigt eigenschappen van de grafiektitel. |
+| [ChartTypeCharacterizer](./charttypecharacterizer) | Hulpfunctie om aanvullende informatie over grafieken en series te verkrijgen via het ChartType. |
+| [ChartWall](./chartwall) | Vertegenwoordigt wanden op 3D-grafieken. |
+| [DataLabel](./datalabel) | Vertegenwoordigt labels van een serie. |
+| [DataLabelCollection](./datalabelcollection) | Vertegenwoordigt labels van een serie. |
+| [DataLabelFormat](./datalabelformat) | Vertegenwoordigt opmaakopties voor DataLabel. |
+| [DataSourceTypeForErrorBarsCustomValues](./datasourcetypeforerrorbarscustomvalues) | Specificeert typen waarden in de ChartDataPoint.ErrorBarsCustomValues eigenschapslijst. |
+| [DataTable](./datatable) | Vertegenwoordigt eigenschappen van de datatabel. |
+| [DoubleChartValue](./doublechartvalue) | Vertegenwoordigt een double-waarde die op twee manieren in een pptx-presentatiedocument kan worden opgeslagen: 1) in cel(len) van de werkmap die bij de grafiek hoort; 2) als letterlijke waarde. |
+| [ErrorBarsCustomValues](./errorbarscustomvalues) | Specificeert de foutbalkwaarden. Deze mogen alleen worden gebruikt wanneer het type foutbalkwaarden Custom is. |
+| [ErrorBarsFormat](./errorbarsformat) | Vertegenwoordigt foutbalken van grafiekseries. Aangepaste foutbalkwaarden staan in IChartDataPointCollection (in de [`ErrorBarsCustomValues`](../aspose.slides.charts/ichartdatapoint/errorbarscustomvalues) eigenschap). |
+| [Format](./format) | Vertegenwoordigt opmaak-eigenschappen van de grafiek. |
+| [Legend](./legend) | Vertegenwoordigt de legendaproperty's van de grafiek. |
+| [LegendEntryCollection](./legendentrycollection) | Vertegenwoordigt collectie van legendes. |
+| [LegendEntryProperties](./legendentryproperties) | Vertegenwoordigt legendaproperties van een grafiek. |
+| [Marker](./marker) | Vertegenwoordigt marker van een chert. |
+| [PieSplitCustomPointCollection](./piesplitcustompointcollection) | Vertegenwoordigt een collectie van punten voor het splitsen van een punt in een bar-of-pie- of pie-of-pie-grafiek met een aangepaste splitsing. |
+| [Rotation3D](./rotation3d) | Vertegenwoordigt 3D-rotatie van een grafiek. |
+| [StringChartValue](./stringchartvalue) | Vertegenwoordigt een tekenreekswaarde die op twee manieren in een pptx-presentatiedocument kan worden opgeslagen: 1) in cel(len) van de werkmap die bij de grafiek hoort; 2) als letterlijke waarde. |
+| [StringOrDoubleChartValue](./stringordoublechartvalue) | Vertegenwoordigt een tekenreeks- of double-waarde die op twee manieren in een pptx-presentatiedocument kan worden opgeslagen: 1) in cel(len) van de werkmap die bij de grafiek hoort; 2) als letterlijke waarde. |
+| [Trendline](./trendline) | Klasse vertegenwoordigt de trendlijn van een grafiekserie. |
+| [TrendlineCollection](./trendlinecollection) | Vertegenwoordigt een collectie van Trendline. |
+| [UpDownBarsManager](./updownbarsmanager) | Biedt toegang tot op/-neer-balken van een lijn- of aandelen-grafiek. |
 
 ## Interfaces
 
 | Interface | Beschrijving |
 | --- | --- |
-| [IActualLayout](./iactuallayout) | Specificeert de werkelijke positie van een diagramelement. |
-| [IAxesManager](./iaxesmanager) | Biedt toegang tot diagramassen. |
-| [IAxis](./iaxis) | Omsluit het object dat een as van een diagram vertegenwoordigt. |
-| [IAxisFormat](./iaxisformat) | Stelt de opmaak eigenschappen van een diagram voor. |
-| [IBaseChartValue](./ibasechartvalue) | Stelt een waarde van een diagram voor. |
-| [IChart](./ichart) | Stelt een grafisch diagram op een dia voor. |
-| [IChartCategory](./ichartcategory) | Stelt diagramcategorieën voor. |
-| [IChartCategoryCollection](./ichartcategorycollection) | Stelt een collectie van [`IChartCategory`](../aspose.slides.charts/ichartcategory) voor. |
-| [IChartCategoryLevelsManager](./ichartcategorylevelsmanager) | Beheerde container van de waarden van de diagramcategorie-niveaus. |
-| [IChartCellCollection](./ichartcellcollection) | Stelt een collectie van cellen met gegevens voor. |
-| [IChartComponent](./ichartcomponent) | Stelt een component van een diagram voor. |
-| [IChartData](./ichartdata) | Stelt gegevens voor die gebruikt worden voor het plotten van een diagram. |
-| [IChartDataCell](./ichartdatacell) | Stelt een cel voor diagramgegevens voor. |
-| [IChartDataPoint](./ichartdatapoint) | Stelt een datapunt van een reeks voor. |
-| [IChartDataPointCollection](./ichartdatapointcollection) | Stelt een collectie van een reeksdatapunten voor. |
-| [IChartDataPointLevel](./ichartdatapointlevel) | Stelt het niveau van een datapunt voor. Geldt voor Treemap- en Sunburst-diagrammen. |
-| [IChartDataPointLevelsManager](./ichartdatapointlevelsmanager) | Container van datapunten niveaus. Toegepast op Treeamp- en Sunburst-reeks. Indexering van datapunten niveaus begint bij nul. |
-| [IChartDataWorkbook](./ichartdataworkbook) | Biedt toegang tot ingesloten Excel-werkmap |
-| [IChartDataWorksheet](./ichartdataworksheet) | Stelt een werkblad voor dat is gekoppeld aan [`IChartDataCell`](../aspose.slides.charts/ichartdatacell) |
-| [IChartDataWorksheetCollection](./ichartdataworksheetcollection) | Stelt de collectie van werkbladen van de diagramdatabook voor. |
-| [IChartLinesFormat](./ichartlinesformat) | Stelt de opmaak eigenschappen van rasterlijnen voor. |
-| [IChartParagraphFormat](./ichartparagraphformat) | Stelt de alinea-opmaak eigenschappen van een diagram voor. |
-| [IChartPlotArea](./ichartplotarea) | Stelt de eigenschappen van de diagramtitel voor. |
-| [IChartPortionFormat](./ichartportionformat) | Stelt de opmaak eigenschappen van diagramonderdelen voor die in diagrammen worden gebruikt. |
-| [IChartSeries](./ichartseries) | Stelt een diagramreeks voor. |
-| [IChartSeriesCollection](./ichartseriescollection) | Stelt een collectie van [`IChartSeries`](../aspose.slides.charts/ichartseries) voor. |
-| [IChartSeriesGroup](./ichartseriesgroup) | Stelt een groep van reeksen voor. |
-| [IChartSeriesGroupCollection](./ichartseriesgroupcollection) | Stelt de collectie van groepen van combineerbare reeksen voor. |
-| [IChartSeriesReadonlyCollection](./ichartseriesreadonlycollection) | Stelt een alleen-lezen collectie van [`IChartSeries`](../aspose.slides.charts/ichartseries) voor. |
-| [IChartTextBlockFormat](./icharttextblockformat) | Stelt de opmaak eigenschappen voor diagramtekst-elementen voor. |
-| [IChartTextFormat](./icharttextformat) | Diagram werkt met een beperkt aantal tekst-opmaak eigenschappen. De interfaces IChartTextFormat, IChartTextBlockFormat, IChartParagraphFormat, IChartPortionFormat beschrijven deze beperkte set. |
-| [IChartTitle](./icharttitle) | Stelt de eigenschappen van de diagramtitel voor. |
-| [IChartWall](./ichartwall) | Stelt wanden op 3D-diagrammen voor. |
-| [IDataLabel](./idatalabel) | Stelt labels van een reeks voor. |
-| [IDataLabelCollection](./idatalabelcollection) | Stelt labels van een reeks voor. |
-| [IDataLabelFormat](./idatalabelformat) | Stelt opmaakopties voor DataLabel voor. |
-| [IDataSourceTypeForErrorBarsCustomValues](./idatasourcetypeforerrorbarscustomvalues) | Specificeert typen van waarden in de lijst van ChartDataPoint.ErrorBarsCustomValues eigenschappen. |
-| [IDataTable](./idatatable) | Stelt de eigenschappen van de gegevenstabel voor. |
-| [IDoubleChartValue](./idoublechartvalue) | Stelt een double-waarde voor die op twee manieren in een pptx-presentatiedocument kan worden opgeslagen: 1) in cel(len) van de werkmap die bij het diagram hoort; 2) als letterlijke waarde. |
-| [IErrorBarsCustomValues](./ierrorbarscustomvalues) | Specificeert de waarden van de foutbalken. Wordt alleen gebruikt wanneer het type foutbalkwaarde Custom is. |
-| [IErrorBarsFormat](./ierrorbarsformat) | Stelt foutbalken van diagramreeksen voor. Aangepaste waarden van ErrorBars staan in IChartDataPointCollection (in eigenschap [`ErrorBarsCustomValues`](../aspose.slides.charts/ichartdatapoint/errorbarscustomvalues)). |
-| [IFormat](./iformat) | Stelt de opmaak eigenschappen van een diagram voor. |
-| [IFormattedTextContainer](./iformattedtextcontainer) | Stelt de tekstopmaak van een diagram voor. |
-| [ILayoutable](./ilayoutable) | Specificeert de exacte positie van een diagramelement. |
-| [ILegend](./ilegend) | Stelt de legenda-eigenschappen van een diagram voor. |
-| [ILegendEntryCollection](./ilegendentrycollection) | Stelt een collectie van legenda's voor. |
-| [ILegendEntryProperties](./ilegendentryproperties) | Stelt de legenda-eigenschappen van een diagram voor. |
-| [IMarker](./imarker) | Stelt een marker van een chert voor. |
-| [IMultipleCellChartValue](./imultiplecellchartvalue) | Stelt een collectie van diagramcellen voor. |
-| [IOverridableText](./ioverridabletext) | Stelt overschrijfbare tekst voor een diagram voor. |
-| [IPieSplitCustomPointCollection](./ipiesplitcustompointcollection) | Stelt een collectie van punten voor die getekend moeten worden in de tweede taart of staaf in een staaf-van-taart- of taart-van-taart-diagram met een aangepaste splitsing. |
-| [IRotation3D](./irotation3d) | Stelt de 3D-rotatie van een diagram voor. |
-| [ISingleCellChartValue](./isinglecellchartvalue) | Stelt een diagramdatacel voor. |
-| [IStringChartValue](./istringchartvalue) | Stelt een tekenreekswaarde voor die op twee manieren in een pptx-presentatiedocument kan worden opgeslagen: 1) in cel(len) van de werkmap die bij het diagram hoort; 2) als letterlijke waarde. |
-| [IStringOrDoubleChartValue](./istringordoublechartvalue) | Stelt een tekenreeks- of double-waarde voor die op twee manieren in een pptx-presentatiedocument kan worden opgeslagen: 1) in cel(len) van de werkmap die bij het diagram hoort; 2) als letterlijke waarde. |
-| [ITrendline](./itrendline) | Klasse die de trendlijn van een diagramreeks vertegenwoordigt |
-| [ITrendlineCollection](./itrendlinecollection) | Stelt een collectie van TrendlineEx voor. |
-| [IUpDownBarsManager](./iupdownbarsmanager) | Biedt toegang tot omhoog/omlaag-balken van een lijn- of aandelen-diagram. |
+| [IActualLayout](./iactuallayout) | Specificeert de werkelijke positie van een grafiekelement. |
+| [IAxesManager](./iaxesmanager) | Biedt toegang tot de assen van de grafiek. |
+| [IAxis](./iaxis) | Omvat het object dat een as van een grafiek vertegenwoordigt. |
+| [IAxisFormat](./iaxisformat) | Vertegenwoordigt opmaak-eigenschappen van de grafiek. |
+| [IBaseChartValue](./ibasechartvalue) | Vertegenwoordigt een waarde van een grafiek. |
+| [ICachedChartValue](./icachedchartvalue) | Vertegenwoordigt een gecachte grafiekwaarde (bijv. X, Y, bubbelgrootte of de hoofdwaarde). |
+| [IChart](./ichart) | Vertegenwoordigt een grafische grafiek op een dia. |
+| [IChartCategory](./ichartcategory) | Vertegenwoordigt grafiekcategorieën. |
+| [IChartCategoryCollection](./ichartcategorycollection) | Vertegenwoordigt collectie van [`IChartCategory`](../aspose.slides.charts/ichartcategory) |
+| [IChartCategoryLevelsManager](./ichartcategorylevelsmanager) | Beheerde container van de waarden van de categorieniveaus van de grafiek. |
+| [IChartCellCollection](./ichartcellcollection) | Vertegenwoordigt collectie van cellen met gegevens. |
+| [IChartComponent](./ichartcomponent) | Vertegenwoordigt een component van een grafiek. |
+| [IChartData](./ichartdata) | Vertegenwoordigt gegevens die worden gebruikt voor het plotten van een grafiek. |
+| [IChartDataCell](./ichartdatacell) | Vertegenwoordigt cel voor grafiekgegevens. |
+| [IChartDataPoint](./ichartdatapoint) | Vertegenwoordigt datapunt van een serie. |
+| [IChartDataPointCollection](./ichartdatapointcollection) | Vertegenwoordigt collectie van datapunten van een serie. |
+| [IChartDataPointLevel](./ichartdatapointlevel) | Vertegenwoordigt datapuntniveau. Geldt voor Treemap- en Sunburst-grafiek. |
+| [IChartDataPointLevelsManager](./ichartdatapointlevelsmanager) | Container van datapuntniveaus. Toegepast voor Treeamp- en Sunburst-series. Indexering van datapuntniveaus begint bij nul. |
+| [IChartDataWorkbook](./ichartdataworkbook) | Biedt toegang tot ingesloten Excel-werkmap. |
+| [IChartDataWorksheet](./ichartdataworksheet) | Vertegenwoordigt werkblad geassocieerd met [`IChartDataCell`](../aspose.slides.charts/ichartdatacell). |
+| [IChartDataWorksheetCollection](./ichartdataworksheetcollection) | Vertegenwoordigt de collectie van werkbladen van de grafiekdatabook. |
+| [IChartLinesFormat](./ichartlinesformat) | Vertegenwoordigt opmaak-eigenschappen van rasterlijnen. |
+| [IChartParagraphFormat](./ichartparagraphformat) | Vertegenwoordigt de alinea-opmaak-eigenschappen van een grafiek. |
+| [IChartPlotArea](./ichartplotarea) | Vertegenwoordigt eigenschappen van de grafiektitel. |
+| [IChartPortionFormat](./ichartportionformat) | Vertegenwoordigt de opmaak-eigenschappen van het grafiekgedeelte die in grafieken worden gebruikt. |
+| [IChartSeries](./ichartseries) | Vertegenwoordigt een grafiekserie. |
+| [IChartSeriesCollection](./ichartseriescollection) | Vertegenwoordigt collectie van [`IChartSeries`](../aspose.slides.charts/ichartseries) |
+| [IChartSeriesGroup](./ichartseriesgroup) | Vertegenwoordigt groep van series. |
+| [IChartSeriesGroupCollection](./ichartseriesgroupcollection) | Vertegenwoordigt de collectie van groepen van combineerbare series. |
+| [IChartSeriesReadonlyCollection](./ichartseriesreadonlycollection) | Vertegenwoordigt een alleen-lees collectie van [`IChartSeries`](../aspose.slides.charts/ichartseries) |
+| [IChartTextBlockFormat](./icharttextblockformat) | Vertegenwoordigt opmaak-eigenschappen voor tekstonderdelen van de grafiek. |
+| [IChartTextFormat](./icharttextformat) | Grafiek werkt met een beperkte set tekst-opmaak-eigenschappen. De interfaces IChartTextFormat, IChartTextBlockFormat, IChartParagraphFormat, IChartPortionFormat beschrijven deze beperkte set. |
+| [IChartTitle](./icharttitle) | Vertegenwoordigt eigenschappen van de grafiektitel. |
+| [IChartWall](./ichartwall) | Vertegenwoordigt wanden op 3D-grafieken. |
+| [IDataLabel](./idatalabel) | Vertegenwoordigt labels van een serie. |
+| [IDataLabelCollection](./idatalabelcollection) | Vertegenwoordigt labels van een serie. |
+| [IDataLabelFormat](./idatalabelformat) | Vertegenwoordigt opmaakopties voor DataLabel. |
+| [IDataSourceTypeForErrorBarsCustomValues](./idatasourcetypeforerrorbarscustomvalues) | Specificeert typen waarden in de ChartDataPoint.ErrorBarsCustomValues eigenschapslijst. |
+| [IDataTable](./idatatable) | Vertegenwoordigt eigenschappen van de datatabel. |
+| [IDoubleChartValue](./idoublechartvalue) | Vertegenwoordigt een double-waarde die op twee manieren in een pptx-presentatiedocument kan worden opgeslagen: 1) in cel(len) van de werkmap die bij de grafiek hoort; 2) als letterlijke waarde. |
+| [IErrorBarsCustomValues](./ierrorbarscustomvalues) | Specificeert de foutbalkwaarden. Deze mogen alleen worden gebruikt wanneer het type foutbalkwaarden Custom is. |
+| [IErrorBarsFormat](./ierrorbarsformat) | Vertegenwoordigt foutbalken van grafiekseries. Aangepaste foutbalkwaarden staan in IChartDataPointCollection (in de [`ErrorBarsCustomValues`](../aspose.slides.charts/ichartdatapoint/errorbarscustomvalues) eigenschap). |
+| [IFormat](./iformat) | Vertegenwoordigt opmaak-eigenschappen van de grafiek. |
+| [IFormattedTextContainer](./iformattedtextcontainer) | Vertegenwoordigt tekstformaat van de grafiek. |
+| [ILayoutable](./ilayoutable) | Specificeert de exacte positie van een grafiekelement. |
+| [ILegend](./ilegend) | Vertegenwoordigt de legendaproperty's van de grafiek. |
+| [ILegendEntryCollection](./ilegendentrycollection) | Vertegenwoordigt collectie van legendes. |
+| [ILegendEntryProperties](./ilegendentryproperties) | Vertegenwoordigt legendaproperties van een grafiek. |
+| [IMarker](./imarker) | Vertegenwoordigt marker van een chert. |
+| [IMultipleCellChartValue](./imultiplecellchartvalue) | Vertegenwoordigt een collectie van grafiekcellen. |
+| [IOverridableText](./ioverridabletext) | Vertegenwoordigt overschrijfbare tekst voor een grafiek. |
+| [IPieSplitCustomPointCollection](./ipiesplitcustompointcollection) | Vertegenwoordigt een collectie van punten die moeten worden getekend in de tweede taart of balk op een bar-of-pie- of pie-of-pie-grafiek met een aangepaste splitsing. |
+| [IRotation3D](./irotation3d) | Vertegenwoordigt 3D-rotatie van een grafiek. |
+| [ISingleCellChartValue](./isinglecellchartvalue) | Vertegenwoordigt een grafiekdatacel. |
+| [IStringChartValue](./istringchartvalue) | Vertegenwoordigt een tekenreekswaarde die op twee manieren in een pptx-presentatiedocument kan worden opgeslagen: 1) in cel(len) van de werkmap die bij de grafiek hoort; 2) als letterlijke waarde. |
+| [IStringOrDoubleChartValue](./istringordoublechartvalue) | Vertegenwoordigt een tekenreeks- of double-waarde die op twee manieren in een pptx-presentatiedocument kan worden opgeslagen: 1) in cel(len) van de werkmap die bij de grafiek hoort; 2) als letterlijke waarde. |
+| [ITrendline](./itrendline) | Klasse vertegenwoordigt de trendlijn van een grafiekserie. |
+| [ITrendlineCollection](./itrendlinecollection) | Vertegenwoordigt een collectie van TrendlineEx. |
+| [IUpDownBarsManager](./iupdownbarsmanager) | Biedt toegang tot op/-neer-balken van een lijn- of aandelen-grafiek. |
 
 ## Enumeratie
 
 | Enumeratie | Beschrijving |
 | --- | --- |
-| [AxisAggregationType](./axisaggregationtype) | Stelt het aggregatietype van de categori-as voor. Alleen gebruikt met Histogram- of HistogramPareto-reeksen. |
-| [AxisPositionType](./axispositiontype) | Bepaalt de positie van een as. |
-| [BubbleSizeRepresentationType](./bubblesizerepresentationtype) | Specificeert de mogelijke manieren om gegevens weer te geven als bubbeldiagramgroottes. |
-| [CategoryAxisType](./categoryaxistype) | Stelt een type van een categori-as voor. |
-| [ChartDataSourceType](./chartdatasourcetype) | Stelt een type gegevensbron van het diagram voor. |
-| [ChartShapeType](./chartshapetype) | Stelt een vorm van een diagram voor. |
-| [ChartType](./charttype) | Stelt een type diagram voor. |
-| [CombinableSeriesTypesGroup](./combinableseriestypesgroup) | Enumeratie van groepen van combineerbare serietypen. Elk element verwijst naar een groep van types van diagramreeksen die tegelijkertijd in één ChartSeriesGroup kunnen bestaan. Bijvoorbeeld: ChartType.PercentsStackedArea-reeks kan niet gelijktijdig met ChartType.StackedArea-reeks in één ChartSeriesGroup. Maar twee of meer ChartType.PercentsStackedArea kunnen wel gelijktijdig in één ChartSeriesGroup (CombinableSeriesTypesGroup.AreaChart_PercentsStackedArea). En ChartType.Line-reeks kan samen met ChartType.LineWithMarkers-reeks gelijktijdig in één CombinableSeriesTypesGroup.LineChart_Line ChartSeriesGroup. |
+| [AxisAggregationType](./axisaggregationtype) | Vertegenwoordigt aggregatietype van de categorie-as. Alleen gebruikt met Histogram- of HistogramPareto-series. |
+| [AxisPositionType](./axispositiontype) | Bepaalt de positie van de as. |
+| [BubbleSizeRepresentationType](./bubblesizerepresentationtype) | Specificeert de mogelijke manieren om gegevens weer te geven als bubbelgrootte in een bubbelgrafiek. |
+| [CategoryAxisType](./categoryaxistype) | Vertegenwoordigt een type categorie-as. |
+| [ChartDataSourceType](./chartdatasourcetype) | Vertegenwoordigt een type gegevensbron van de grafiek. |
+| [ChartShapeType](./chartshapetype) | Vertegenwoordigt een vorm van de grafiek. |
+| [ChartType](./charttype) | Vertegenwoordigt een type grafiek. |
+| [CombinableSeriesTypesGroup](./combinableseriestypesgroup) | Enumeratie van groepen combineerbare serietypen. Elk element verwijst naar een groep van serietypen die gelijktijdig kunnen bestaan in één ChartSeriesGroup. Bijvoorbeeld: ChartType.PercentsStackedArea-series kunnen niet gelijktijdig met ChartType.StackedArea-series bestaan in één ChartSeriesGroup. Maar twee of meer ChartType.PercentsStackedArea-series kunnen wel gelijktijdig in één ChartSeriesGroup bestaan (CombinableSeriesTypesGroup.AreaChart_PercentsStackedArea). En ChartType.Line-series kunnen gelijktijdig met ChartType.LineWithMarkers-series in één CombinableSeriesTypesGroup.LineChart_Line ChartSeriesGroup bestaan. |
 | [CrossesType](./crossestype) | Bepaalt waar de as zal kruisen. |
-| [DataSourceType](./datasourcetype) | Gegevensbrontypen. |
+| [DataSourceType](./datasourcetype) | Gegevensbron-typen. |
 | [DisplayBlanksAsType](./displayblanksastype) | Bepaalt hoe ontbrekende gegevens worden weergegeven. |
 | [DisplayUnitType](./displayunittype) | Bepaalt de multipliciteit van de weergegeven gegevens. |
-| [ErrorBarType](./errorbartype) | Stelt het type foutbalk voor. |
-| [ErrorBarValueType](./errorbarvaluetype) | Stelt het type foutbalkwaarde voor. |
-| [LayoutTargetType](./layouttargettype) | Als de lay-out van het plotgebied handmatig wordt gedefinieerd, specificeert deze eigenschap of het plotgebied wordt gelayout volgens de binnenkant (exclusief as en aslabels) of de buitenkant (inclusief as en aslabels). |
-| [LegendDataLabelPosition](./legenddatalabelposition) | Bepaalt de positie van gegevenslabels. |
-| [LegendPositionType](./legendpositiontype) | Bepaalt de positie van de legenda op een diagram. |
-| [MarkerStyleType](./markerstyletype) | Bepaalt de vorm van de marker op een datapunt van een diagram. |
-| [ParentLabelLayoutType](./parentlabellayouttype) | Stelt de lay-out van categori-gegevenslabels voor. Alleen gebruikt met Treemap-reeks. |
-| [PictureType](./picturetype) | Bepaalt de modus van het vullen van staafafbeeldingen. |
-| [PieSplitType](./piesplittype) | Stelt een type splitsingspunten in de tweede taart of staaf op een taart-van-taart- of staaf-van-taart-diagram voor. |
-| [QuartileMethodType](./quartilemethodtype) | Retourneert het type van de kwartielmethode |
-| [StyleType](./styletype) | Stelt de diagramstijl voor. |
-| [TickLabelPositionType](./ticklabelpositiontype) | Stelt het positie-type van tick-mark-labels op de opgegeven as voor. |
-| [TickMarkType](./tickmarktype) | Stelt het tick-mark-type voor de opgegeven as voor. |
-| [TimeUnitType](./timeunittype) | Stelt de basiseenheid voor de categori-as voor. |
-| [TrendlineType](./trendlinetype) | Stelt het type trendlijn voor. |
-| [WorkbookType](./workbooktype) | Specificeert het type Open XML-werkmapbestand. |
+| [ErrorBarType](./errorbartype) | Vertegenwoordigt type foutbalk. |
+| [ErrorBarValueType](./errorbarvaluetype) | Vertegenwoordigt type foutbalkwaarde. |
+| [LayoutTargetType](./layouttargettype) | Als de lay-out van het plotgebied handmatig is gedefinieerd, specificeert deze eigenschap of het plotgebied ingericht wordt op basis van de binnenkant (exclusief as en as-labels) of de buitenkant (inclusief as en as-labels). |
+| [LegendDataLabelPosition](./legenddatalabelposition) | Bepaalt de positie van datalabels. |
+| [LegendPositionType](./legendpositiontype) | Bepaalt de positie van de legenda op een grafiek. |
+| [MarkerStyleType](./markerstyletype) | Bepaalt de vorm van de marker op het datapunt van de grafiek. |
+| [ParentLabelLayoutType](./parentlabellayouttype) | Vertegenwoordigt de lay-out van categoriedatalabels. Alleen gebruikt met Treemap-series. |
+| [PictureType](./picturetype) | Bepaalt de modus van het vullen van de balkafbeelding. |
+| [PieSplitType](./piesplittype) | Vertegenwoordigt een type splitsingspunten in de tweede taart of balk op een pie-of-pie- of bar-of-pie-grafiek. |
+| [QuartileMethodType](./quartilemethodtype) | Retourneert type van kwartielmethode. |
+| [StyleType](./styletype) | Vertegenwoordigt grafiekstijl. |
+| [TickLabelPositionType](./ticklabelpositiontype) | Vertegenwoordigt het positie-type van tick-mark-labels op de opgegeven as. |
+| [TickMarkType](./tickmarktype) | Vertegenwoordigt het tick-mark-type voor de opgegeven as. |
+| [TimeUnitType](./timeunittype) | Vertegenwoordigt de basiseenheid voor de categorie-as. |
+| [TrendlineType](./trendlinetype) | Vertegenwoordigt type trendlijn. |
+| [WorkbookType](./workbooktype) | Specificeert het type Open XML-werkboekbestand. |
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

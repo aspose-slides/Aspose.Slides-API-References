@@ -1,14 +1,14 @@
 ---
 title: ISvgShape
-second_title: Aspose.Sildes for .NET Tham chiếu API
-description: Biểu diễn các tùy chọn cho hình dạng SVG.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Đại diện cho các tùy chọn cho hình SVG.
 type: docs
-weight: 4110
+weight: 4130
 url: /vi/aspose.slides.export/isvgshape/
 ---
 ## ISvgShape giao diện
 
-Biểu thị các tùy chọn cho hình dạng SVG.
+Đại diện cho các tùy chọn cho hình SVG.
 
 ```csharp
 public interface ISvgShape
@@ -18,13 +18,13 @@ public interface ISvgShape
 
 | Tên | Mô tả |
 | --- | --- |
-| [Id](../../aspose.slides.export/isvgshape/id) { get; set; } | Đặt hoặc nhận id cho hình dạng |
+| [Id](../../aspose.slides.export/isvgshape/id) { get; set; } | Thiết lập hoặc lấy id cho hình |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| [SetEventHandler](../../aspose.slides.export/isvgshape/seteventhandler)(SvgEvent, string) | Đặt trình xử lý sự kiện cho hình dạng |
+| [SetEventHandler](../../aspose.slides.export/isvgshape/seteventhandler)(SvgEvent, string) | Thiết lập bộ xử lý sự kiện cho hình |
 
 ### Xem thêm
 

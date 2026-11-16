@@ -1,14 +1,14 @@
 ---
 title: IFormatFactory
-second_title: Aspose.Sildes for .NET API 참조
-description: COM 인터페이스를 통해 형식을 생성할 수 있습니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: COM 인터페이스를 통해 형식을 만들 수 있습니다.
 type: docs
-weight: 5940
+weight: 5960
 url: /ko/aspose.slides/iformatfactory/
 ---
 ## IFormatFactory 인터페이스
 
-COM 인터페이스를 통해 형식을 생성할 수 있습니다.
+COM 인터페이스를 통해 형식을 만들 수 있습니다.
 
 ```csharp
 public interface IFormatFactory
@@ -18,11 +18,11 @@ public interface IFormatFactory
 
 | 이름 | 설명 |
 | --- | --- |
-| [CreateParagraphFormat](../../aspose.slides/iformatfactory/createparagraphformat)() | 새 [`IParagraphFormat`](../iparagraphformat)을(를) 생성합니다. |
-| [CreatePortionFormat](../../aspose.slides/iformatfactory/createportionformat)() | 새 [`IPortionFormat`](../iportionformat)을(를) 생성합니다. |
-| [CreateTextFrameFormat](../../aspose.slides/iformatfactory/createtextframeformat)() | 새 [`ITextFrameFormat`](../itextframeformat)을(를) 생성합니다. |
+| [CreateParagraphFormat](../../aspose.slides/iformatfactory/createparagraphformat)() | 새 [`IParagraphFormat`](../iparagraphformat)를 생성합니다. |
+| [CreatePortionFormat](../../aspose.slides/iformatfactory/createportionformat)() | 새 [`IPortionFormat`](../iportionformat)를 생성합니다. |
+| [CreateTextFrameFormat](../../aspose.slides/iformatfactory/createtextframeformat)() | 새 [`ITextFrameFormat`](../itextframeformat)를 생성합니다. |
 
-### 참고
+### 참조
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

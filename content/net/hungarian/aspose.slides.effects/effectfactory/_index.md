@@ -1,14 +1,14 @@
 ---
 title: EffectFactory
-second_title: Aspose.Sildes a .NET API referenciája
-description: Lehetővé teszi hatások létrehozását
+second_title: Aspose.Sildes .NET API referencia
+description: Lehetővé teszi effektusok létrehozását
 type: docs
-weight: 2970
+weight: 2990
 url: /hu/aspose.slides.effects/effectfactory/
 ---
 ## EffectFactory osztály
 
-Lehetővé teszi hatások létrehozását
+Lehetővé teszi effektusok létrehozását
 
 ```csharp
 public class EffectFactory : IEffectFactory
@@ -30,16 +30,16 @@ public class EffectFactory : IEffectFactory
 
 | Név | Leírás |
 | --- | --- |
-| [CreateGlow](../../aspose.slides.effects/effectfactory/createglow)() | Létrehozza a Glow hatást. |
-| [CreateInnerShadow](../../aspose.slides.effects/effectfactory/createinnershadow)() | Létrehozza a belső árnyék hatást. |
-| [CreateOuterShadow](../../aspose.slides.effects/effectfactory/createoutershadow)() | Létrehozza a külső árnyék hatást. |
-| [CreatePresetShadow](../../aspose.slides.effects/effectfactory/createpresetshadow)() | Létrehozza az előre beállított árnyék hatást. |
-| [CreateReflection](../../aspose.slides.effects/effectfactory/createreflection)() | Létrehozza a reflexió hatást. |
-| [CreateSoftEdge](../../aspose.slides.effects/effectfactory/createsoftedge)() | Létrehozza a lágy él hatást. |
+| [CreateGlow](../../aspose.slides.effects/effectfactory/createglow)() | Létrehozza a Glow effektust. |
+| [CreateInnerShadow](../../aspose.slides.effects/effectfactory/createinnershadow)() | Létrehozza az Inner shafow effektust. |
+| [CreateOuterShadow](../../aspose.slides.effects/effectfactory/createoutershadow)() | Létrehozza az Outer shadow effektust. |
+| [CreatePresetShadow](../../aspose.slides.effects/effectfactory/createpresetshadow)() | Létrehozza a Preset shadow effektust. |
+| [CreateReflection](../../aspose.slides.effects/effectfactory/createreflection)() | Létrehozza a Reflection effektust. |
+| [CreateSoftEdge](../../aspose.slides.effects/effectfactory/createsoftedge)() | Létrehozza a Soft Edge effektust. |
 
 ### Megjegyzések
 
-COM kompatibilitás miatt.
+COM kompatibilitáshoz.
 
 ### Lásd még
 

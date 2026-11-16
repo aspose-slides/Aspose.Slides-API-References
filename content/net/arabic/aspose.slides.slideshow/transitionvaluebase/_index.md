@@ -1,14 +1,14 @@
 ---
 title: TransitionValueBase
-second_title: Aspose.Sildes لمرجع API .NET
-description: فئة أساسية لتأثيرات انتقال الشرائح.
+second_title: مرجع API Aspose.Sildes لـ .NET
+description: الفئة الأساسية لتأثيرات انتقال الشريحة.
 type: docs
-weight: 10460
+weight: 10480
 url: /ar/aspose.slides.slideshow/transitionvaluebase/
 ---
-## TransitionValueBase فئة
+## فئة TransitionValueBase
 
-فئة أساسية لتأثيرات انتقال الشرائح.
+الفئة الأساسية لتأثيرات انتقال الشريحة.
 
 ```csharp
 public class TransitionValueBase : ITransitionValueBase
@@ -18,10 +18,10 @@ public class TransitionValueBase : ITransitionValueBase
 
 | الاسم | الوصف |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | يحدد ما إذا كانت مثيلات TransitionValueBase الاثنين متساوية. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | تعمل كدالة تجزئة لنوع معين، مناسبة للاستخدام في خوارزميات التجزئة والهياكل البيانية مثل جدول التجزئة. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | يحدد ما إذا كان كائني TransitionValueBase متساويين. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | يعمل كدالة تجزئة لنوع معين، مناسب للاستخدام في خوارزميات التجزئة وهياكل البيانات مثل جدول التجزئة. |
 
-### انظر أيضاً
+### انظر أيضًا
 
 * واجهة [ITransitionValueBase](../itransitionvaluebase)
 * مساحة الاسم [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

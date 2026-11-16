@@ -3,7 +3,7 @@ title: TextAlignment
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
 description: विभिन्न टेक्स्ट संरेखण शैलियों का प्रतिनिधित्व करता है।
 type: docs
-weight: 10900
+weight: 10920
 url: /hi/aspose.slides/textalignment/
 ---
 ## TextAlignment एन्यूमरेशन
@@ -16,17 +16,17 @@ public enum TextAlignment
 
 ### मान
 
-| नाम | मूल्य | विवरण |
+| नाम | मान | विवरण |
 | --- | --- | --- |
 | NotDefined | `-1` | डिफ़ॉल्ट संरेखण। |
 | Left | `0` | बाएँ संरेखण। |
-| Center | `1` | केंद्रीय संरेखण। |
+| Center | `1` | केंद्र संरेखण। |
 | Right | `2` | दाएँ संरेखण। |
-| Justify | `3` | जस्टिफ़ाइ संरेखण। |
-| JustifyLow | `4` | Kashida लो जस्टिफ़ाइ। |
+| Justify | `3` | जस्टिफाई संरेखण। |
+| JustifyLow | `4` | Kashida जस्टिफाई लो। |
 | Distributed | `5` | वितरित संरेखण। |
 
-### देखें
+### संबंधित देखें
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

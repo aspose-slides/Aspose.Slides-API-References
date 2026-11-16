@@ -1,12 +1,12 @@
 ---
 title: BlackWhiteConversionMode
-second_title: Aspose.Sildes per .NET – Riferimento API
-description: Fornisce opzioni che controllano come le immagini delle diapositive saranno convertite in immagini bitonali.
+second_title: Aspose.Sildes per il riferimento API .NET
+description: Fornisce opzioni che controllano come le immagini delle diapositive verranno convertite in immagini bitonali.
 type: docs
-weight: 3720
+weight: 3740
 url: /it/aspose.slides.export/blackwhiteconversionmode/
 ---
-## Enumerazione BlackWhiteConversionMode
+## BlackWhiteConversionMode enumeration
 
 Fornisce opzioni che controllano come le immagini delle diapositive verranno convertite in immagini bitonali.
 
@@ -18,14 +18,14 @@ public enum BlackWhiteConversionMode
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| Default | `0` | Specifica nessun algoritmo di conversione. Verrà utilizzato l'algoritmo implementato nel codec TIFF. (Predefinito) |
+| Default | `0` | Specifica nessun algoritmo di conversione. Verrà utilizzato l'algoritmo implementato nel codec TIFF. (Default) |
 | Dithering | `1` | Specifica l'algoritmo di dithering (Floyd-Steinberg). |
 | DitheringFloydSteinberg | `2` | Specifica l'algoritmo di dithering Floyd-Steinberg. |
 | Auto | `3` | Specifica l'algoritmo di soglia calcolato automaticamente (Otsu). |
 | AutoOtsu | `4` | Specifica l'algoritmo di soglia Otsu calcolato automaticamente. |
-| Threshold25 | `5` | Specifica l'algoritmo di soglia statica (25 %). |
-| Threshold50 | `6` | Specifica l'algoritmo di soglia statica (50 %). |
-| Threshold75 | `7` | Specifica l'algoritmo di soglia statica (75 %). |
+| Threshold25 | `5` | Specifica l'algoritmo di soglia statico (25%). |
+| Threshold50 | `6` | Specifica l'algoritmo di soglia statico (50%). |
+| Threshold75 | `7` | Specifica l'algoritmo di soglia statico (75%). |
 
 ### Vedi anche
 

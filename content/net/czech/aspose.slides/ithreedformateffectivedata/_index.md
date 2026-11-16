@@ -1,14 +1,14 @@
 ---
 title: IThreeDFormatEffectiveData
-second_title: Aspose.Sildes pro .NET – referenční příručka API
-description: Neměnný objekt, který představuje efektivní vlastnosti 3-D formátování.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Neměnný objekt, který představuje efektivní vlastnosti formátování 3-D.
 type: docs
-weight: 7340
+weight: 7360
 url: /cs/aspose.slides/ithreedformateffectivedata/
 ---
 ## IThreeDFormatEffectiveData rozhraní
 
-Neměnný objekt, který představuje efektivní vlastnosti 3-D formátování.
+Neměnný objekt, který představuje efektivní vlastnosti formátování 3-D.
 
 ```csharp
 public interface IThreeDFormatEffectiveData : IThreeDParamSource
@@ -16,19 +16,19 @@ public interface IThreeDFormatEffectiveData : IThreeDParamSource
 
 ## Vlastnosti
 
-| Name | Description |
+| Název | Popis |
 | --- | --- |
-| [AsIThreeDParamSource](../../aspose.slides/ithreedformateffectivedata/asithreedparamsource) { get; } | Umožňuje získat základní rozhraní IThreeDParamSource. Pouze pro čtení [`IThreeDParamSource`](../ithreedparamsource). |
-| [BevelBottom](../../aspose.slides/ithreedformateffectivedata/bevelbottom) { get; } | Vrací typ spodního 3D zkosení. Pouze pro čtení [`IShapeBevelEffectiveData`](../ishapebeveleffectivedata). |
-| [BevelTop](../../aspose.slides/ithreedformateffectivedata/beveltop) { get; } | Vrací typ horního 3D zkosení. Pouze pro čtení [`IShapeBevelEffectiveData`](../ishapebeveleffectivedata). |
-| [Camera](../../aspose.slides/ithreedformateffectivedata/camera) { get; } | Vrací nastavení kamery. Pouze pro čtení [`ICameraEffectiveData`](../icameraeffectivedata). |
-| [ContourColor](../../aspose.slides/ithreedformateffectivedata/contourcolor) { get; } | Vrací barvu obrysu. Pouze pro čtení Color. |
-| [ContourWidth](../../aspose.slides/ithreedformateffectivedata/contourwidth) { get; } | Vrací šířku 3D obrysu. Pouze pro čtení Double. |
-| [Depth](../../aspose.slides/ithreedformateffectivedata/depth) { get; } | Vrací hloubku 3D tvaru. Pouze pro čtení Double. |
-| [ExtrusionColor](../../aspose.slides/ithreedformateffectivedata/extrusioncolor) { get; } | Vrací barvu extruze. Pouze pro čtení Color. |
-| [ExtrusionHeight](../../aspose.slides/ithreedformateffectivedata/extrusionheight) { get; } | Vrací výšku efektu extruze. Pouze pro čtení Double. |
-| [LightRig](../../aspose.slides/ithreedformateffectivedata/lightrig) { get; } | Vrací typ světla. Pouze pro čtení [`ILightRigEffectiveData`](../ilightrigeffectivedata). |
-| [Material](../../aspose.slides/ithreedformateffectivedata/material) { get; } | Vrací typ materiálu. Pouze pro čtení [`MaterialPresetType`](../materialpresettype). |
+| [AsIThreeDParamSource](../../aspose.slides/ithreedformateffectivedata/asithreedparamsource) { get; } | Umožňuje získat základní rozhraní IThreeDParamSource. Pouze ke čtení [`IThreeDParamSource`](../ithreedparamsource). |
+| [BevelBottom](../../aspose.slides/ithreedformateffectivedata/bevelbottom) { get; } | Vrací typ spodního 3-D zkosení. Pouze ke čtení [`IShapeBevelEffectiveData`](../ishapebeveleffectivedata). |
+| [BevelTop](../../aspose.slides/ithreedformateffectivedata/beveltop) { get; } | Vrací typ horního 3-D zkosení. Pouze ke čtení [`IShapeBevelEffectiveData`](../ishapebeveleffectivedata). |
+| [Camera](../../aspose.slides/ithreedformateffectivedata/camera) { get; } | Vrací nastavení kamery. Pouze ke čtení [`ICameraEffectiveData`](../icameraeffectivedata). |
+| [ContourColor](../../aspose.slides/ithreedformateffectivedata/contourcolor) { get; } | Vrací barvu obrysu. Pouze ke čtení Color. |
+| [ContourWidth](../../aspose.slides/ithreedformateffectivedata/contourwidth) { get; } | Vrací šířku 3-D obrysu. Pouze ke čtení Double. |
+| [Depth](../../aspose.slides/ithreedformateffectivedata/depth) { get; } | Vrací hloubku 3-D tvaru. Pouze ke čtení Double. |
+| [ExtrusionColor](../../aspose.slides/ithreedformateffectivedata/extrusioncolor) { get; } | Vrací barvu extruze. Pouze ke čtení Color. |
+| [ExtrusionHeight](../../aspose.slides/ithreedformateffectivedata/extrusionheight) { get; } | Vrací výšku efektu extruze. Pouze ke čtení Double. |
+| [LightRig](../../aspose.slides/ithreedformateffectivedata/lightrig) { get; } | Vrací typ světla. Pouze ke čtení [`ILightRigEffectiveData`](../ilightrigeffectivedata). |
+| [Material](../../aspose.slides/ithreedformateffectivedata/material) { get; } | Vrací typ materiálu. Pouze ke čtení [`MaterialPresetType`](../materialpresettype). |
 
 ### Poznámky
 

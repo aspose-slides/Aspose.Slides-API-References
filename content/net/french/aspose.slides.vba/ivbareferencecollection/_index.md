@@ -1,14 +1,14 @@
 ---
 title: IVbaReferenceCollection
-second_title: Aspose.Sildes pour .NET Référence API
+second_title: Référence API Aspose.Sildes pour .NET
 description: Représente une collection de références d'un projet VBA.
 type: docs
-weight: 11580
+weight: 11600
 url: /fr/aspose.slides.vba/ivbareferencecollection/
 ---
 ## IVbaReferenceCollection interface
 
-Représente une collection de références d’un projet VBA.
+Représente une collection de références d'un projet VBA.
 
 ```csharp
 public interface IVbaReferenceCollection : IGenericCollection<IVbaReference>
@@ -16,13 +16,13 @@ public interface IVbaReferenceCollection : IGenericCollection<IVbaReference>
 
 ## Propriétés
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
-| [Item](../../aspose.slides.vba/ivbareferencecollection/item) { get; } | Obtient l'élément à l'indice spécifié. |
+| [Item](../../aspose.slides.vba/ivbareferencecollection/item) { get; } | Obtient l'élément à l'index spécifié. |
 
 ## Méthodes
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
 | [Add](../../aspose.slides.vba/ivbareferencecollection/add)(IVbaReference) | Ajoute la nouvelle référence à la collection de références |
 

@@ -1,14 +1,14 @@
 ---
 title: FontSubstRuleCollection
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt eine Sammlung von Schriftart-Ersetzungen dar.
+description: Stellt eine Sammlung von Schriftart-Substitutionen dar.
 type: docs
-weight: 4900
+weight: 4920
 url: /de/aspose.slides/fontsubstrulecollection/
 ---
 ## FontSubstRuleCollection Klasse
 
-Stellt eine Sammlung von Schriftart-Ersetzungen dar.
+Stellt eine Sammlung von Schriftart-Substitutionen dar.
 
 ```csharp
 public class FontSubstRuleCollection : IFontSubstRuleCollection
@@ -24,21 +24,21 @@ public class FontSubstRuleCollection : IFontSubstRuleCollection
 
 | Name | Beschreibung |
 | --- | --- |
-| [Count](../../aspose.slides/fontsubstrulecollection/count) { get; } | Gibt die Anzahl der tatsächlich in der Sammlung enthaltenen Elemente zurück. Nur lesbar Int32. |
-| [IsSynchronized](../../aspose.slides/fontsubstrulecollection/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert (thread-sicher) ist. Nur lesbar Boolean. |
+| [Count](../../aspose.slides/fontsubstrulecollection/count) { get; } | Gibt die tatsächlich in der Sammlung enthaltene Elementanzahl zurück. Nur-Lesen Int32. |
+| [IsSynchronized](../../aspose.slides/fontsubstrulecollection/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert ist (Thread-sicher). Nur-Lesen Boolean. |
 | [Item](../../aspose.slides/fontsubstrulecollection/item) { get; } | Gibt das Element am angegebenen Index zurück. |
-| [SyncRoot](../../aspose.slides/fontsubstrulecollection/syncroot) { get; } | Gibt die Synchronisationswurzel zurück. Nur lesbar Object. |
+| [SyncRoot](../../aspose.slides/fontsubstrulecollection/syncroot) { get; } | Gibt ein Synchronisations-Root zurück. Nur-Lesen Object. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [Add](../../aspose.slides/fontsubstrulecollection/add)(IFontSubstRule) | Fügt der Sammlung eine neue Schriftart-Ersetzungsregel hinzu |
-| [CopyTo](../../aspose.slides/fontsubstrulecollection/copyto)(Array, int) | Kopiert alle Elemente aus der Sammlung in das angegebene Array. |
+| [Add](../../aspose.slides/fontsubstrulecollection/add)(IFontSubstRule) | Fügt der Sammlung die neue Schriftartsubstitutionsregel hinzu. |
+| [CopyTo](../../aspose.slides/fontsubstrulecollection/copyto)(Array, int) | Kopiert alle Elemente der Sammlung in das angegebene Array. |
 | [GetEnumerator](../../aspose.slides/fontsubstrulecollection/getenumerator)() | Gibt einen Enumerator zurück, der die Sammlung durchläuft. |
 | [Remove](../../aspose.slides/fontsubstrulecollection/remove)(IFontSubstRule) | Entfernt das erste Vorkommen eines bestimmten Objekts aus der Sammlung. |
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IFontSubstRuleCollection](../ifontsubstrulecollection)
 * Namensraum [Aspose.Slides](../../aspose.slides)

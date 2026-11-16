@@ -1,14 +1,14 @@
 ---
 title: IRevealTransition
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Efek transisi slide Reveal.
 type: docs
-weight: 10160
+weight: 10180
 url: /id/aspose.slides.slideshow/irevealtransition/
 ---
 ## IRevealTransition antarmuka
 
-Efek transisi slide Reveal.
+Reveal slide transition effect.
 
 ```csharp
 public interface IRevealTransition : ITransitionValueBase
@@ -18,7 +18,7 @@ public interface IRevealTransition : ITransitionValueBase
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/irevealtransition/asitransitionvaluebase) { get; } | Memungkinkan mendapatkan antarmuka ITransitionValueBase dasar. Hanya baca [`ITransitionValueBase`](../itransitionvaluebase). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/irevealtransition/asitransitionvaluebase) { get; } | Mengizinkan mendapatkan antarmuka dasar ITransitionValueBase. Hanya baca [`ITransitionValueBase`](../itransitionvaluebase). |
 | [Direction](../../aspose.slides.slideshow/irevealtransition/direction) { get; set; } | Arah transisi. Baca/tulis [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
 | [ThroughBlack](../../aspose.slides.slideshow/irevealtransition/throughblack) { get; set; } | Menentukan apakah transisi memudar melalui hitam. Baca/tulis Boolean. |
 

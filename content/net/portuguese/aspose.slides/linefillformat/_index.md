@@ -1,9 +1,9 @@
 ---
 title: LineFillFormat
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para Referência da API .NET
 description: Representa propriedades para preenchimento de linhas.
 type: docs
-weight: 7780
+weight: 7800
 url: /pt/aspose.slides/linefillformat/
 ---
 ## LineFillFormat classe
@@ -32,7 +32,7 @@ public sealed class LineFillFormat : PVIObject, ILineFillFormat
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Compara com o objeto especificado. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Retorna o código hash. |
 
-### Ver também
+### Veja Também
 
 * classe [PVIObject](../pviobject)
 * interface [ILineFillFormat](../ilinefillformat)

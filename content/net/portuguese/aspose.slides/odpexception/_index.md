@@ -1,14 +1,14 @@
 ---
 title: OdpException
-second_title: Aspose.Sildes para .NET Referência da API
-description: Representa um tipo de exceção interno padrão.
+second_title: Aspose.Sildes para a Referência da API .NET
+description: Representa um tipo padrão de exceção interna.
 type: docs
-weight: 9210
+weight: 9230
 url: /pt/aspose.slides/odpexception/
 ---
 ## OdpException classe
 
-Representa um tipo de exceção interno padrão.
+Representa um tipo padrão de exceção interno.
 
 ```csharp
 public class OdpException : Exception
@@ -20,9 +20,9 @@ public class OdpException : Exception
 | --- | --- |
 | [OdpException](odpexception#constructor)() | Construtor padrão |
 | [OdpException](odpexception#constructor_1)(string) | Construtor que permite adicionar uma mensagem a esta exceção. |
-| [OdpException](odpexception#constructor_2)(string, Exception) | Construtor para uma exceção contendo uma mensagem e uma exceção incorporada. |
+| [OdpException](odpexception#constructor_2)(string, Exception) | Construtor para uma exceção que contém uma mensagem e uma exceção incorporada. |
 
-### Veja Também
+### Veja também
 
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

@@ -3,12 +3,12 @@ title: IFontScheme
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Slaat thema-gedefinieerde lettertypen op.
 type: docs
-weight: 11250
+weight: 11270
 url: /nl/aspose.slides.theme/ifontscheme/
 ---
 ## IFontScheme interface
 
-Slaat thema-gedefinieerde lettertypen op.
+Opslaat door het thema gedefinieerde lettertypen.
 
 ```csharp
 public interface IFontScheme
@@ -16,10 +16,10 @@ public interface IFontScheme
 
 ## Eigenschappen
 
-| Naam | Beschrijving |
+| Naam | Omschrijving |
 | --- | --- |
-| [Major](../../aspose.slides.theme/ifontscheme/major) { get; } | Retourneert de lettertypecollectie voor een “koptekst”-gedeelte van de dia. Alleen-lezen [`IFonts`](../../aspose.slides/ifonts). |
-| [Minor](../../aspose.slides.theme/ifontscheme/minor) { get; } | Retourneert de lettertypecollectie voor een “inhoud”-gedeelte van de dia. Alleen-lezen [`IFonts`](../../aspose.slides/ifonts). |
+| [Major](../../aspose.slides.theme/ifontscheme/major) { get; } | Retourneert de lettertypecollectie voor een "kop" deel van de dia. Alleen-lezen [`IFonts`](../../aspose.slides/ifonts). |
+| [Minor](../../aspose.slides.theme/ifontscheme/minor) { get; } | Retourneert de lettertypecollectie voor een "inhoud" deel van de dia. Alleen-lezen [`IFonts`](../../aspose.slides/ifonts). |
 | [Name](../../aspose.slides.theme/ifontscheme/name) { get; set; } | Retourneert de naam van het lettertype-schema. Lezen/schrijven String. |
 
 ### Zie ook

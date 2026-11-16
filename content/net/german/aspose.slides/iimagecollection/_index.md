@@ -3,7 +3,7 @@ title: IImageCollection
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt eine Sammlung von PPImage dar.
 type: docs
-weight: 6160
+weight: 6180
 url: /de/aspose.slides/iimagecollection/
 ---
 ## IImageCollection Schnittstelle
@@ -24,13 +24,13 @@ public interface IImageCollection : IGenericCollection<IPPImage>
 
 | Name | Beschreibung |
 | --- | --- |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_3)(byte[]) | Fügt ein Bild zu einer Präsentation aus einem angegebenen Puffer hinzu. |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage)(IImage) | Fügt ein Bild zu einer Präsentation hinzu. |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_3)(byte[]) | Fügt einer Präsentation ein Bild aus einem angegebenen Puffer hinzu. |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage)(IImage) | Fügt einer Präsentation ein Bild hinzu. |
 | [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_1)(IPPImage) | Fügt eine Kopie eines Bildes aus einer anderen Präsentation hinzu. |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_2)(ISvgImage) | Fügt ein Bild zu einer Präsentation aus einem SVG-Objekt hinzu. |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_2)(ISvgImage) | Fügt einer Präsentation ein Bild aus einem SVG-Objekt hinzu. |
 | [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_4)(MemoryStream) | Fügt ein Bild aus einem MemoryStream hinzu. |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_5)(Stream) | Fügt ein Bild zu einer Präsentation aus einem Stream hinzu. |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_6)(Stream, LoadingStreamBehavior) | Erstellt und fügt ein Bild zu einer Präsentation aus einem Stream hinzu. |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_5)(Stream) | Fügt einer Präsentation ein Bild aus einem Stream hinzu. |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_6)(Stream, LoadingStreamBehavior) | Erstellt und fügt einer Präsentation ein Bild aus einem Stream hinzu. |
 
 ### Siehe auch
 

@@ -1,9 +1,9 @@
 ---
 title: IMathSuperscriptElementFactory
-second_title: Aspose.Sildes cho .NET Tham khảo API
+second_title: Tham khảo API Aspose.Sildes cho .NET
 description: Cho phép tạo IMathSuperscriptElement
 type: docs
-weight: 8500
+weight: 8520
 url: /vi/aspose.slides.mathtext/imathsuperscriptelementfactory/
 ---
 ## IMathSuperscriptElementFactory giao diện
@@ -18,7 +18,7 @@ public interface IMathSuperscriptElementFactory
 
 | Tên | Mô tả |
 | --- | --- |
-| [CreateMathSuperscriptElement](../../aspose.slides.mathtext/imathsuperscriptelementfactory/createmathsuperscriptelement)(IMMathElement, IMMathElement) | Tạo IMMathSuperscriptElement |
+| [CreateMathSuperscriptElement](../../aspose.slides.mathtext/imathsuperscriptelementfactory/createmathsuperscriptelement)(IMathElement, IMathElement) | Tạo IMathSuperscriptElement |
 
 ### Ghi chú
 

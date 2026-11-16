@@ -1,12 +1,12 @@
 ---
 title: MathVerticalAlignment
-second_title: Aspose.Sildes dla .NET - odniesienie API
+second_title: Aspose.Sildes dla .NET API Reference
 description: Wyrównanie pionowe
 type: docs
-weight: 9050
+weight: 9070
 url: /pl/aspose.slides.mathtext/mathverticalalignment/
 ---
-## MathVerticalAlignment enumeracja
+## MathVerticalAlignment wyliczenie
 
 Wyrównanie pionowe
 

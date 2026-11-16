@@ -3,12 +3,12 @@ title: IMathNaryOperatorProperties
 second_title: Aspose.Sildes for .NET API 레퍼런스
 description: IMathNaryOperator의 속성을 지정합니다
 type: docs
-weight: 8380
+weight: 8400
 url: /ko/aspose.slides.mathtext/imathnaryoperatorproperties/
 ---
 ## IMathNaryOperatorProperties 인터페이스
 
-IMathNaryOperator의 속성을 지정합니다
+Specifies properties of IMathNaryOperator
 
 ```csharp
 public interface IMathNaryOperatorProperties
@@ -18,11 +18,11 @@ public interface IMathNaryOperatorProperties
 
 | 이름 | 설명 |
 | --- | --- |
-| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathnaryoperatorproperties/growtomatchoperandheight) { get; set; } | 연산자 문자는 피연산자 높이에 맞게 수직으로 늘어납니다 |
-| [HideSubscript](../../aspose.slides.mathtext/imathnaryoperatorproperties/hidesubscript) { get; set; } | 아래첨자 숨기기 |
+| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathnaryoperatorproperties/growtomatchoperandheight) { get; set; } | 연산자 문자가 피연산자 높이에 맞게 수직으로 확장됩니다 |
+| [HideSubscript](../../aspose.slides.mathtext/imathnaryoperatorproperties/hidesubscript) { get; set; } | 첨자 숨기기 |
 | [HideSuperscript](../../aspose.slides.mathtext/imathnaryoperatorproperties/hidesuperscript) { get; set; } | 위첨자 숨기기 |
-| [LimitLocation](../../aspose.slides.mathtext/imathnaryoperatorproperties/limitlocation) { get; set; } | 제한 (아래첨자와 위첨자)의 위치 |
-| [Operator](../../aspose.slides.mathtext/imathnaryoperatorproperties/operator) { get; set; } | Nary 연산자 문자 예: '∑', '∫' |
+| [LimitLocation](../../aspose.slides.mathtext/imathnaryoperatorproperties/limitlocation) { get; set; } | 제한(첨자 및 위첨자)의 위치 |
+| [Operator](../../aspose.slides.mathtext/imathnaryoperatorproperties/operator) { get; set; } | 다항 연산자 문자 예: '∑', '∫' |
 
 ### 참고
 

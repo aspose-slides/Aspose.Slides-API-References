@@ -1,9 +1,9 @@
 ---
 title: ILightRigEffectiveData
-second_title: Aspose.Sildes для .NET справочник API
+second_title: Aspose.Sildes для .NET справка API
 description: Неизменяемый объект, содержащий эффективные свойства световой установки.
 type: docs
-weight: 6280
+weight: 6300
 url: /ru/aspose.slides/ilightrigeffectivedata/
 ---
 ## ILightRigEffectiveData интерфейс
@@ -19,13 +19,13 @@ public interface ILightRigEffectiveData
 | Имя | Описание |
 | --- | --- |
 | [Direction](../../aspose.slides/ilightrigeffectivedata/direction) { get; } | Направление света. Только для чтения [`LightingDirection`](../lightingdirection). |
-| [LightType](../../aspose.slides/ilightrigeffectivedata/lighttype) { get; } | Представляет предустановленный правый свет, который может быть применён к фигуре. Световая установка представляет собой группу источников света, ориентированных определённым образом относительно трёхмерной сцены. Только для чтения [`LightRigPresetType`](../lightrigpresettype). |
+| [LightType](../../aspose.slides/ilightrigeffectivedata/lighttype) { get; } | Представляет предустановленное правое освещение, которое может быть применено к фигуре. Световая установка представляет собой группу светильников, ориентированных определённым образом относительно 3D-сцены. Только для чтения [`LightRigPresetType`](../lightrigpresettype). |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [GetRotation](../../aspose.slides/ilightrigeffectivedata/getrotation)() | Вращение определяется с использованием координаты широты, координаты долготы и вращения вокруг оси в виде координат широты и долготы. Первый элемент возвращаемого массива — широта, второй — долгота, третий — вращение. |
+| [GetRotation](../../aspose.slides/ilightrigeffectivedata/getrotation)() | Вращение определяется с помощью координаты широты, координаты долготы и вращения вокруг оси как координат широты и долготы. Первый элемент возвращаемого массива - широта, второй - долгота, третий - оборот. |
 
 ### Примечания
 

@@ -3,7 +3,7 @@ title: LegendPositionType
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Bestimmt die Position der Legende in einem Diagramm.
 type: docs
-weight: 2320
+weight: 2340
 url: /de/aspose.slides.charts/legendpositiontype/
 ---
 ## LegendPositionType Aufzählung
@@ -16,13 +16,13 @@ public enum LegendPositionType
 
 ### Werte
 
-| Name | Wert | Beschreibung |
+| Name | Value | Description |
 | --- | --- | --- |
 | Bottom | `0` | Gibt an, dass die Legende am unteren Rand des Diagramms gezeichnet wird. |
 | Left | `1` | Gibt an, dass die Legende am linken Rand des Diagramms gezeichnet wird. |
 | Right | `2` | Gibt an, dass die Legende am rechten Rand des Diagramms gezeichnet wird. |
 | Top | `3` | Gibt an, dass die Legende am oberen Rand des Diagramms gezeichnet wird. |
-| TopRight | `4` | Gibt an, dass die Legende am oberen rechten Rand des Diagramms gezeichnet wird. |
+| TopRight | `4` | Gibt an, dass die Legende oben rechts im Diagramm gezeichnet wird. |
 
 ### Siehe auch
 

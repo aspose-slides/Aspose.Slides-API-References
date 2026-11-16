@@ -1,14 +1,14 @@
 ---
 title: StringOrDoubleChartValue
 second_title: Aspose.Sildes pro .NET API Reference
-description: "Reprezentuje řetězcovou nebo číselnou hodnotu typu double, která může být uložena v dokumentu prezentace pptx dvěma způsoby: 1) v buňce/buňkách sešitu souvisejícího s grafem, 2) jako doslovná hodnota."
+description: Reprezentuje řetězcovou nebo double hodnotu, která může být uložena v pptx prezentačním dokumentu dvěma způsoby: 1) v buňce/bunicích sešitu souvisejících s grafem, 2) jako doslovná hodnota.
 type: docs
-weight: 2420
+weight: 2440
 url: /cs/aspose.slides.charts/stringordoublechartvalue/
 ---
 ## StringOrDoubleChartValue třída
 
-Reprezentuje řetězcovou nebo číselnou hodnotu typu double, která může být uložena v dokumentu prezentace pptx dvěma způsoby: 1) v buňce/buňkách sešitu souvisejícího s grafem; 2) jako doslovná hodnota.
+Reprezentuje řetězcovou nebo double hodnotu, která může být uložena v pptx prezentaci dokumentu dvěma způsoby: 1) v buňce/bunicích sešitu souvisejících s grafem; 2) jako doslovná hodnota.
 
 ```csharp
 public class StringOrDoubleChartValue : BaseChartValue, IStringOrDoubleChartValue
@@ -18,11 +18,11 @@ public class StringOrDoubleChartValue : BaseChartValue, IStringOrDoubleChartValu
 
 | Název | Popis |
 | --- | --- |
-| [AsCell](../../aspose.slides.charts/stringordoublechartvalue/ascell) { get; set; } | Vrací nebo nastavuje buňku dat grafu. Číst/zapisovat [`IChartDataCell`](../ichartdatacell). |
-| [AsLiteralDouble](../../aspose.slides.charts/stringordoublechartvalue/asliteraldouble) { get; set; } | Vrací nebo nastavuje hodnotu jako doslovné číslo double. Číst/zapisovat Double. |
-| [AsLiteralString](../../aspose.slides.charts/stringordoublechartvalue/asliteralstring) { get; set; } | Vrací nebo nastavuje hodnotu jako doslovný řetězec. Číst/zapisovat String. |
-| override [Data](../../aspose.slides.charts/stringordoublechartvalue/data) { get; set; } | Vrací nebo nastavuje objekt Data. Číst/zapisovat Object. |
-| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Určuje, zda je ve potomcích platná vlastnost AsCell, AsCells, AsLiteralString nebo AsLiteralDouble. Jinými slovy určuje typ hodnoty vlastnosti Data. Číst/zapisovat [`DataSourceType`](../datasourcetype). |
+| [AsCell](../../aspose.slides.charts/stringordoublechartvalue/ascell) { get; set; } | Vrací nebo nastavuje buňku dat grafu. Čtení/zápis [`IChartDataCell`](../ichartdatacell). |
+| [AsLiteralDouble](../../aspose.slides.charts/stringordoublechartvalue/asliteraldouble) { get; set; } | Vrací nebo nastavuje hodnotu jako literální double. Čtení/zápis Double. |
+| [AsLiteralString](../../aspose.slides.charts/stringordoublechartvalue/asliteralstring) { get; set; } | Vrací nebo nastavuje hodnotu jako literální řetězec. Čtení/zápis String. |
+| override [Data](../../aspose.slides.charts/stringordoublechartvalue/data) { get; set; } | Vrací nebo nastavuje objekt Data. Čtení/zápis Object. |
+| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Určuje, zda je vlastnost AsCell, AsCells, AsLiteralString nebo AsLiteralDouble v potomcích aktuální. Jinými slovy určuje typ hodnoty vlastnosti Data. Čtení/zápis [`DataSourceType`](../datasourcetype). |
 
 ## Metody
 

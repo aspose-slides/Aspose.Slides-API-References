@@ -1,9 +1,9 @@
 ---
 title: ITableFormatEffectiveData
-second_title: Aspose.Sildes для .NET справочник API
+second_title: Справочник API Aspose.Sildes для .NET
 description: Неизменяемый объект, содержащий эффективные свойства форматирования таблицы.
 type: docs
-weight: 7250
+weight: 7270
 url: /ru/aspose.slides/itableformateffectivedata/
 ---
 ## ITableFormatEffectiveData интерфейс
@@ -19,11 +19,11 @@ public interface ITableFormatEffectiveData : IBaseTableFormatEffectiveData
 | Имя | Описание |
 | --- | --- |
 | [AsIBaseTableFormatEffectiveData](../../aspose.slides/itableformateffectivedata/asibasetableformateffectivedata) { get; } | Позволяет получить базовый интерфейс IBaseTableFormatEffectiveData. Только для чтения [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
-| [Transparency](../../aspose.slides/itableformateffectivedata/transparency) { get; } | Получает прозрачность цвета заливки. Читает Single. |
+| [Transparency](../../aspose.slides/itableformateffectivedata/transparency) { get; } | Получает прозрачность цвета заливки. Чтение Single. |
 
 ### Примечания
 
-Этот интерфейс используется совместно с интерфейсом [`ITableFormat`](../itableformat) для возврата эффективных значений форматирования с учётом наследования и применённых стилей таблицы.
+Этот интерфейс используется вместе с интерфейсом [`ITableFormat`](../itableformat) для возврата эффективных значений форматирования с учётом наследования и применённых стилей таблицы.
 
 ### См. также
 

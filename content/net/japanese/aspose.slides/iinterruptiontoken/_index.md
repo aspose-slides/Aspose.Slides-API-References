@@ -1,14 +1,14 @@
 ---
 title: IInterruptionToken
 second_title: Aspose.Sildes for .NET API リファレンス
-description: このクラスは、長時間実行されるタスクに対し割り込みが要求されたかどうかを通知するために使用するトークンを表します。
+description: このクラスは、長時間実行されるタスクに対して割り込みが要求されたかどうかを通知するために使用するトークンを表します。
 type: docs
-weight: 6190
+weight: 6210
 url: /ja/aspose.slides/iinterruptiontoken/
 ---
 ## IInterruptionToken インターフェイス
 
-このクラスは、長時間実行されるタスクに対し割り込みが要求されたかどうかを通知するために使用するトークンを表します。
+このクラスは、長時間実行されるタスクに対して割り込みが要求されたかどうかを通知するために使用するトークンを表します。
 
 ```csharp
 public interface IInterruptionToken

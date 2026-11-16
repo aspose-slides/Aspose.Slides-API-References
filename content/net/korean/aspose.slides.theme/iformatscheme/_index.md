@@ -1,14 +1,14 @@
 ---
 title: IFormatScheme
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 도형에 대한 테마 정의 형식을 저장합니다.
 type: docs
-weight: 11270
+weight: 11290
 url: /ko/aspose.slides.theme/iformatscheme/
 ---
 ## IFormatScheme 인터페이스
 
-테마에 정의된 형식을 도형에 저장합니다.
+테마에서 정의된 도형의 형식을 저장합니다.
 
 ```csharp
 public interface IFormatScheme : ISlideComponent
@@ -19,10 +19,10 @@ public interface IFormatScheme : ISlideComponent
 | 이름 | 설명 |
 | --- | --- |
 | [AsISlideComponent](../../aspose.slides.theme/iformatscheme/asislidecomponent) { get; } | 기본 ISlideComponent 인터페이스를 가져올 수 있습니다. 읽기 전용 [`ISlideComponent`](../../aspose.slides/islidecomponent). |
-| [BackgroundFillStyles](../../aspose.slides.theme/iformatscheme/backgroundfillstyles) { get; } | 테마에 정의된 배경 채우기 스타일 컬렉션을 반환합니다. 읽기 전용 [`IFillFormatCollection`](../ifillformatcollection). |
-| [EffectStyles](../../aspose.slides.theme/iformatscheme/effectstyles) { get; } | 테마에 정의된 효과 스타일 컬렉션을 반환합니다. 읽기 전용 [`IEffectStyleCollection`](../ieffectstylecollection). |
-| [FillStyles](../../aspose.slides.theme/iformatscheme/fillstyles) { get; } | 테마에 정의된 채우기 스타일 컬렉션을 반환합니다. 읽기 전용 [`IFillFormatCollection`](../ifillformatcollection). |
-| [LineStyles](../../aspose.slides.theme/iformatscheme/linestyles) { get; } | 테마에 정의된 선 스타일 컬렉션을 반환합니다. 읽기 전용 [`ILineFormatCollection`](../ilineformatcollection). |
+| [BackgroundFillStyles](../../aspose.slides.theme/iformatscheme/backgroundfillstyles) { get; } | 테마에서 정의된 배경 채우기 스타일의 컬렉션을 반환합니다. 읽기 전용 [`IFillFormatCollection`](../ifillformatcollection). |
+| [EffectStyles](../../aspose.slides.theme/iformatscheme/effectstyles) { get; } | 테마에서 정의된 효과 스타일의 컬렉션을 반환합니다. 읽기 전용 [`IEffectStyleCollection`](../ieffectstylecollection). |
+| [FillStyles](../../aspose.slides.theme/iformatscheme/fillstyles) { get; } | 테마에서 정의된 채우기 스타일의 컬렉션을 반환합니다. 읽기 전용 [`IFillFormatCollection`](../ifillformatcollection). |
+| [LineStyles](../../aspose.slides.theme/iformatscheme/linestyles) { get; } | 테마에서 정의된 선 스타일의 컬렉션을 반환합니다. 읽기 전용 [`ILineFormatCollection`](../ilineformatcollection). |
 
 ### 참고
 

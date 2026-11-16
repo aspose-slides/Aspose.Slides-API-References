@@ -1,14 +1,14 @@
 ---
 title: IGraphicalObjectLock
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Xác định các thao tác nào bị vô hiệu hoá trên GraphicalObjectEx cha.
+description: Xác định các thao tác nào bị vô hiệu trên đối tượng cha GraphicalObjectEx.
 type: docs
-weight: 6070
+weight: 6090
 url: /vi/aspose.slides/igraphicalobjectlock/
 ---
-## Giao diện IGraphicalObjectLock
+## IGraphicalObjectLock giao diện
 
-Xác định các thao tác nào bị vô hiệu hoá trên GraphicalObjectEx cha.
+Xác định các thao tác nào bị vô hiệu trên đối tượng cha GraphicalObjectEx.
 
 ```csharp
 public interface IGraphicalObjectLock : IBaseShapeLock
@@ -18,9 +18,9 @@ public interface IGraphicalObjectLock : IBaseShapeLock
 
 | Tên | Mô tả |
 | --- | --- |
-| [AsIBaseShapeLock](../../aspose.slides/igraphicalobjectlock/asibaseshapelock) { get; } | Cho phép lấy giao diện IBaseShapeLock cơ sở. Chỉ đọc [`IBaseShapeLock`](../ibaseshapelock). |
-| [AspectRatioLocked](../../aspose.slides/igraphicalobjectlock/aspectratiolocked) { get; set; } | Xác định liệu shape có cần duy trì tỷ lệ khung hình khi thay đổi kích thước hay không. Đọc/ghi Boolean. |
-| [DrilldownLocked](../../aspose.slides/igraphicalobjectlock/drilldownlocked) { get; set; } | Xác định liệu việc chọn các subshape của đối tượng này có bị cấm hay không. Đọc/ghi Boolean. |
+| [AsIBaseShapeLock](../../aspose.slides/igraphicalobjectlock/asibaseshapelock) { get; } | Cho phép lấy giao diện IBaseShapeLock cơ bản. Chỉ đọc [`IBaseShapeLock`](../ibaseshapelock). |
+| [AspectRatioLocked](../../aspose.slides/igraphicalobjectlock/aspectratiolocked) { get; set; } | Xác định liệu shape có phải bảo toàn tỷ lệ khung hình khi thay đổi kích thước hay không. Đọc/ghi Boolean. |
+| [DrilldownLocked](../../aspose.slides/igraphicalobjectlock/drilldownlocked) { get; set; } | Xác định liệu việc chọn subshapes của đối tượng này có bị cấm hay không. Đọc/ghi Boolean. |
 | [GroupingLocked](../../aspose.slides/igraphicalobjectlock/groupinglocked) { get; set; } | Xác định liệu việc thêm shape này vào một nhóm có bị cấm hay không. Đọc/ghi Boolean. |
 | [PositionLocked](../../aspose.slides/igraphicalobjectlock/positionlocked) { get; set; } | Xác định liệu việc di chuyển shape này có bị cấm hay không. Đọc/ghi Boolean. |
 | [SelectLocked](../../aspose.slides/igraphicalobjectlock/selectlocked) { get; set; } | Xác định liệu việc chọn shape này có bị cấm hay không. Đọc/ghi Boolean. |

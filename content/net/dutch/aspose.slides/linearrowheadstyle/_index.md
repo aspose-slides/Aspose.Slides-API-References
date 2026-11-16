@@ -1,14 +1,14 @@
 ---
 title: LineArrowheadStyle
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Geeft de stijl van een pijlkop weer.
+description: Geeft de stijl van een pijlhoofd weer.
 type: docs
-weight: 7740
+weight: 7760
 url: /nl/aspose.slides/linearrowheadstyle/
 ---
 ## LineArrowheadStyle enumeratie
 
-Geeft de stijl van een pijlkop weer.
+Geeft de stijl van een pijlhoofd weer.
 
 ```csharp
 public enum LineArrowheadStyle : sbyte

@@ -3,12 +3,12 @@ title: NotesSize
 second_title: Aspose.Sildes için .NET API Referansı
 description: Not slaytının boyutunu temsil eder.
 type: docs
-weight: 9130
+weight: 9150
 url: /tr/aspose.slides/notessize/
 ---
 ## NotesSize sınıfı
 
-Not slaytının boyutunu temsil eder.
+Not slaytı boyutunu temsil eder.
 
 ```csharp
 public class NotesSize : INotesSize
@@ -16,15 +16,15 @@ public class NotesSize : INotesSize
 
 ## Yapıcılar
 
-| İsim | Açıklama |
+| Ad | Açıklama |
 | --- | --- |
 | [NotesSize](notessize)() | Varsayılan yapıcı. |
 
 ## Özellikler
 
-| İsim | Açıklama |
+| Ad | Açıklama |
 | --- | --- |
-| [Size](../../aspose.slides/notessize/size) { get; set; } | Noktalar cinsinden boyutu döndürür veya ayarlar. Okunur/yazılır SizeF. |
+| [Size](../../aspose.slides/notessize/size) { get; set; } | Boyutu puan olarak döndürür veya ayarlar. Okuma/yazma SizeF. |
 
 ### Ayrıca Bakınız
 

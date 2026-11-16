@@ -3,7 +3,7 @@ title: ICommentCollection
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示单个作者的评论集合。
 type: docs
-weight: 5590
+weight: 5610
 url: /zh/aspose.slides/icommentcollection/
 ---
 ## ICommentCollection 接口
@@ -24,17 +24,17 @@ public interface ICommentCollection : IGenericCollection<IComment>
 
 | 名称 | 描述 |
 | --- | --- |
-| [AddComment](../../aspose.slides/icommentcollection/addcomment)(string, ISlide, PointF, DateTime) | 在集合末尾添加新评论。 |
-| [AddModernComment](../../aspose.slides/icommentcollection/addmoderncomment)(string, ISlide, IShape, PointF, DateTime) | 在集合末尾添加新的现代评论。 |
+| [AddComment](../../aspose.slides/icommentcollection/addcomment)(string, ISlide, PointF, DateTime) | 在集合的末尾添加新评论。 |
+| [AddModernComment](../../aspose.slides/icommentcollection/addmoderncomment)(string, ISlide, IShape, PointF, DateTime) | 在集合的末尾添加新的现代评论。 |
 | [Clear](../../aspose.slides/icommentcollection/clear)() | 从集合中移除所有评论。 |
 | [InsertComment](../../aspose.slides/icommentcollection/insertcomment)(int, string, ISlide, PointF, DateTime) | 在指定索引处向集合插入新评论。 |
 | [InsertModernComment](../../aspose.slides/icommentcollection/insertmoderncomment)(int, string, ISlide, IShape, PointF, DateTime) | 在指定索引处向集合插入新的现代评论。 |
-| [Remove](../../aspose.slides/icommentcollection/remove)(IComment) | 从集合中移除指定评论的第一次出现。 |
-| [RemoveAt](../../aspose.slides/icommentcollection/removeat)(int) | 从集合中移除指定索引处的元素。 |
+| [Remove](../../aspose.slides/icommentcollection/remove)(IComment) | 从集合中移除首次出现的指定评论。 |
+| [RemoveAt](../../aspose.slides/icommentcollection/removeat)(int) | 移除集合中指定索引处的元素。 |
 | [ToArray](../../aspose.slides/icommentcollection/toarray#toarray)() | 创建并返回包含所有评论的数组。 |
 | [ToArray](../../aspose.slides/icommentcollection/toarray#toarray_1)(int, int) | 创建并返回指定范围内所有评论的数组。 |
 
-### 另见
+### 另请参见
 
 * 接口 [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * 接口 [IComment](../icomment)

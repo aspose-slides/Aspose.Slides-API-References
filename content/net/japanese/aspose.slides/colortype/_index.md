@@ -1,14 +1,14 @@
 ---
 title: ColorType
 second_title: Aspose.Sildes for .NET API リファレンス
-description: さまざまなカラーモードを表します。
+description: さまざまなカラー モードを表します。
 type: docs
-weight: 2580
+weight: 2600
 url: /ja/aspose.slides/colortype/
 ---
 ## ColorType 列挙型
 
-さまざまなカラーモードを表します。
+さまざまなカラー モードを表します。
 
 ```csharp
 public enum ColorType
@@ -16,12 +16,12 @@ public enum ColorType
 
 ### 値
 
-| 名前 | 値 | 説明 |
+| Name | Value | Description |
 | --- | --- | --- |
-| NotDefined | `-1` | 色が全く定義されていません。 |
-| RGB | `0` | 標準の24ビットRGBカラー。 |
-| RGBPercentage | `1` | 高精細RGBカラー。 |
-| HSL | `2` | 高精細HSLカラー。 |
+| NotDefined | `-1` | 色がまったく定義されていません。 |
+| RGB | `0` | 標準の 24 ビット RGB カラー。 |
+| RGBPercentage | `1` | 高精細 RGB カラー。 |
+| HSL | `2` | 高精細 HSL カラー。 |
 | Scheme | `3` | スキームカラー。 |
 | System | `4` | システムカラー。 |
 | Preset | `5` | プリセットカラー。 |

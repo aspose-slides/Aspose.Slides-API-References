@@ -3,7 +3,7 @@ title: IDuotone
 second_title: Referência da API Aspose.Sildes para .NET
 description: Representa um efeito Duotone.
 type: docs
-weight: 3260
+weight: 3280
 url: /pt/aspose.slides.effects/iduotone/
 ---
 ## IDuotone interface
@@ -20,10 +20,10 @@ public interface IDuotone : IAccessiblePVIObject<IDuotoneEffectiveData>, IImageT
 | --- | --- |
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/iduotone/asiaccessiblepviobject) { get; } | Permite obter a interface base IAccessiblePVIObject. Somente leitura [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
 | [AsIImageTransformOperation](../../aspose.slides.effects/iduotone/asiimagetransformoperation) { get; } | Permite obter a interface base IImageTransformOperation. Somente leitura [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Color1](../../aspose.slides.effects/iduotone/color1) { get; } | Retorna o formato de cor de destino para pixels escuros. Somente leitura [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Color2](../../aspose.slides.effects/iduotone/color2) { get; } | Retorna o formato de cor de destino para pixels claros. Somente leitura [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Color1](../../aspose.slides.effects/iduotone/color1) { get; } | Retorna o formato de cor alvo para pixels escuros. Somente leitura [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Color2](../../aspose.slides.effects/iduotone/color2) { get; } | Retorna o formato de cor alvo para pixels claros. Somente leitura [`IColorFormat`](../../aspose.slides/icolorformat). |
 
-### Veja Também
+### Ver também
 
 * interface [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * interface [IDuotoneEffectiveData](../iduotoneeffectivedata)

@@ -1,14 +1,14 @@
 ---
 title: IBaseShapeLock
-second_title: Aspose.Sildes for .NET API リファレンス
-description: Shape ロックが無効化された操作を表します。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: Shape lock が無効化された操作を表します。
 type: docs
-weight: 5330
+weight: 5350
 url: /ja/aspose.slides/ibaseshapelock/
 ---
 ## IBaseShapeLock インターフェイス
 
-Shape ロック（無効な操作）を表します。
+Shape lock (disabled operation) を表します。
 
 ```csharp
 public interface IBaseShapeLock
@@ -16,11 +16,11 @@ public interface IBaseShapeLock
 
 ## プロパティ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
 | [NoLocks](../../aspose.slides/ibaseshapelock/nolocks) { get; } | すべてのロックフラグが無効な場合に true を返します。読み取り専用 Boolean。 |
 
-### 参照
+### 関連項目
 
 * 名前空間 [Aspose.Slides](../../aspose.slides)
 * アセンブリ [Aspose.Slides](../../)

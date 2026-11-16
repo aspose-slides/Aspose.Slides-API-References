@@ -1,14 +1,14 @@
 ---
 title: IEffectFormatEffectiveData
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งมีคุณสมบัติการจัดรูปแบบเอฟเฟ็กต์ที่มีผล
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงได้ซึ่งมีคุณสมบัติการจัดรูปแบบเอฟเฟกต์ที่มีผล.
 type: docs
-weight: 5750
+weight: 5770
 url: /th/aspose.slides/ieffectformateffectivedata/
 ---
 ## IEffectFormatEffectiveData อินเทอร์เฟซ
 
-อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งมีคุณสมบัติการจัดรูปแบบเอฟเฟ็กต์ที่มีผล
+อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงได้ซึ่งมีคุณสมบัติการจัดรูปแบบเอฟเฟกต์ที่มีผล
 
 ```csharp
 public interface IEffectFormatEffectiveData : IEffectParamSource
@@ -18,20 +18,20 @@ public interface IEffectFormatEffectiveData : IEffectParamSource
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIEffectParamSource](../../aspose.slides/ieffectformateffectivedata/asieffectparamsource) { get; } | อนุญาตให้รับ IEffectParamSource อินเทอร์เฟซฐาน. อ่านอย่างเดียว [`IEffectParamSource`](../ieffectparamsource). |
-| [BlurEffect](../../aspose.slides/ieffectformateffectivedata/blureffect) { get; } | เอฟเฟ็กต์เบลอ. อ่านอย่างเดียว [`IBlurEffectiveData`](../../aspose.slides.effects/iblureffectivedata). |
-| [FillOverlayEffect](../../aspose.slides/ieffectformateffectivedata/filloverlayeffect) { get; } | เอฟเฟ็กต์เติมทับ. อ่านอย่างเดียว [`IFillOverlayEffectiveData`](../../aspose.slides.effects/ifilloverlayeffectivedata). |
-| [GlowEffect](../../aspose.slides/ieffectformateffectivedata/gloweffect) { get; } | เอฟเฟ็กต์เรืองแสง. อ่านอย่างเดียว [`IGlowEffectiveData`](../../aspose.slides.effects/igloweffectivedata). |
-| [InnerShadowEffect](../../aspose.slides/ieffectformateffectivedata/innershadoweffect) { get; } | เงาภายใน. อ่านอย่างเดียว [`IInnerShadowEffectiveData`](../../aspose.slides.effects/iinnershadoweffectivedata). |
-| [IsNoEffects](../../aspose.slides/ieffectformateffectivedata/isnoeffects) { get; } | ส่งกลับค่า true หากเอฟเฟ็กต์ทั้งหมดถูกปิดการใช้งาน (เช่น เพิ่งสร้าง, วัตถุ EffectFormat เริ่มต้น). อ่านอย่างเดียว Boolean. |
-| [OuterShadowEffect](../../aspose.slides/ieffectformateffectivedata/outershadoweffect) { get; } | เงานอก. อ่านอย่างเดียว [`IOuterShadowEffectiveData`](../../aspose.slides.effects/ioutershadoweffectivedata). |
-| [PresetShadowEffect](../../aspose.slides/ieffectformateffectivedata/presetshadoweffect) { get; } | เงาตั้งล่วงหน้า. อ่านอย่างเดียว [`IPresetShadowEffectiveData`](../../aspose.slides.effects/ipresetshadoweffectivedata). |
-| [ReflectionEffect](../../aspose.slides/ieffectformateffectivedata/reflectioneffect) { get; } | การสะท้อน. อ่านอย่างเดียว [`IReflectionEffectiveData`](../../aspose.slides.effects/ireflectioneffectivedata). |
-| [SoftEdgeEffect](../../aspose.slides/ieffectformateffectivedata/softedgeeffect) { get; } | ขอบนุ่ม. อ่านอย่างเดียว [`ISoftEdgeEffectiveData`](../../aspose.slides.effects/isoftedgeeffectivedata). |
+| [AsIEffectParamSource](../../aspose.slides/ieffectformateffectivedata/asieffectparamsource) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IEffectParamSource พื้นฐานได้. อ่านเท่านั้น [`IEffectParamSource`](../ieffectparamsource). |
+| [BlurEffect](../../aspose.slides/ieffectformateffectivedata/blureffect) { get; } | เอฟเฟกต์เบลอ. อ่านเท่านั้น [`IBlurEffectiveData`](../../aspose.slides.effects/iblureffectivedata). |
+| [FillOverlayEffect](../../aspose.slides/ieffectformateffectivedata/filloverlayeffect) { get; } | เอฟเฟ็กต์การเติมทับ. อ่านเท่านั้น [`IFillOverlayEffectiveData`](../../aspose.slides.effects/ifilloverlayeffectivedata). |
+| [GlowEffect](../../aspose.slides/ieffectformateffectivedata/gloweffect) { get; } | เอฟเฟกต์เรืองแสง. อ่านเท่านั้น [`IGlowEffectiveData`](../../aspose.slides.effects/igloweffectivedata). |
+| [InnerShadowEffect](../../aspose.slides/ieffectformateffectivedata/innershadoweffect) { get; } | เงาภายใน. อ่านเท่านั้น [`IInnerShadowEffectiveData`](../../aspose.slides.effects/iinnershadoweffectivedata). |
+| [IsNoEffects](../../aspose.slides/ieffectformateffectivedata/isnoeffects) { get; } | คืนค่า true หากทุกเอฟเฟกต์ถูกปิดใช้งาน (เช่น เพิ่งสร้าง, วัตถุ EffectFormat เริ่มต้น). อ่านเท่านั้น Boolean. |
+| [OuterShadowEffect](../../aspose.slides/ieffectformateffectivedata/outershadoweffect) { get; } | เงาภายนอก. อ่านเท่านั้น [`IOuterShadowEffectiveData`](../../aspose.slides.effects/ioutershadoweffectivedata). |
+| [PresetShadowEffect](../../aspose.slides/ieffectformateffectivedata/presetshadoweffect) { get; } | เงากำหนดล่วงหน้า. อ่านเท่านั้น [`IPresetShadowEffectiveData`](../../aspose.slides.effects/ipresetshadoweffectivedata). |
+| [ReflectionEffect](../../aspose.slides/ieffectformateffectivedata/reflectioneffect) { get; } | การสะท้อน. อ่านเท่านั้น [`IReflectionEffectiveData`](../../aspose.slides.effects/ireflectioneffectivedata). |
+| [SoftEdgeEffect](../../aspose.slides/ieffectformateffectivedata/softedgeeffect) { get; } | ขอบอ่อน. อ่านเท่านั้น [`ISoftEdgeEffectiveData`](../../aspose.slides.effects/isoftedgeeffectivedata). |
 
 ### หมายเหตุ
 
-อินเทอร์เฟซนี้ใช้ร่วมกับอินเทอร์เฟซ [`IEffectFormat`](../ieffectformat) เพื่อส่งคืนค่าการจัดรูปแบบที่มีผลพร้อมกับการใช้การสืบทอด
+อินเทอร์เฟซนี้ใช้ร่วมกับอินเทอร์เฟซ [`IEffectFormat`](../ieffectformat) เพื่อคืนค่าการจัดรูปแบบที่มีผลโดยมีการสืบทอดที่นำไปใช้
 
 ### ดูเพิ่มเติม
 

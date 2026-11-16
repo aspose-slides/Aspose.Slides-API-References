@@ -3,12 +3,12 @@ title: GraphicalObjectLock
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Determina qué operaciones están deshabilitadas en el GraphicalObject padre.
 type: docs
-weight: 5080
+weight: 5100
 url: /es/aspose.slides/graphicalobjectlock/
 ---
 ## GraphicalObjectLock clase
 
-Determines which operations are disabled on the parent GraphicalObject.
+Determina qué operaciones están deshabilitadas en el GraphicalObject padre.
 
 ```csharp
 public class GraphicalObjectLock : BaseShapeLock, IGraphicalObjectLock
@@ -18,9 +18,9 @@ public class GraphicalObjectLock : BaseShapeLock, IGraphicalObjectLock
 
 | Nombre | Descripción |
 | --- | --- |
-| [AspectRatioLocked](../../aspose.slides/graphicalobjectlock/aspectratiolocked) { get; set; } | Determina si la forma debe preservar la proporción al cambiar el tamaño. Lectura/escritura Boolean. |
+| [AspectRatioLocked](../../aspose.slides/graphicalobjectlock/aspectratiolocked) { get; set; } | Determina si la forma debe preservar la relación de aspecto al cambiar el tamaño. Lectura/escritura Boolean. |
 | [DrilldownLocked](../../aspose.slides/graphicalobjectlock/drilldownlocked) { get; set; } | Determina si la selección de subformas de este objeto está prohibida. Lectura/escritura Boolean. |
-| [GroupingLocked](../../aspose.slides/graphicalobjectlock/groupinglocked) { get; set; } | Determina si agregar esta forma a un grupo está prohibido. Lectura/escritura Boolean. |
+| [GroupingLocked](../../aspose.slides/graphicalobjectlock/groupinglocked) { get; set; } | Determina si añadir esta forma a un grupo está prohibido. Lectura/escritura Boolean. |
 | [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Devuelve true si todos los indicadores de bloqueo están desactivados. Solo lectura Boolean. |
 | [PositionLocked](../../aspose.slides/graphicalobjectlock/positionlocked) { get; set; } | Determina si mover esta forma está prohibido. Lectura/escritura Boolean. |
 | [SelectLocked](../../aspose.slides/graphicalobjectlock/selectlocked) { get; set; } | Determina si seleccionar esta forma está prohibido. Lectura/escritura Boolean. |

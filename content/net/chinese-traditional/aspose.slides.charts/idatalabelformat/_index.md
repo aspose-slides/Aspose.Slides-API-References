@@ -3,7 +3,7 @@ title: IDataLabelFormat
 second_title: Aspose.Sildes for .NET API 參考
 description: 表示 DataLabel 的格式設定選項。
 type: docs
-weight: 2040
+weight: 2060
 url: /zh-hant/aspose.slides.charts/idatalabelformat/
 ---
 ## IDataLabelFormat 介面
@@ -20,21 +20,21 @@ public interface IDataLabelFormat : IFormattedTextContainer
 | --- | --- |
 | [AsIFormattedTextContainer](../../aspose.slides.charts/idatalabelformat/asiformattedtextcontainer) { get; } | 允許取得基礎 IFormattedTextContainer 介面。唯讀 [`IFormattedTextContainer`](../iformattedtextcontainer)。 |
 | [Format](../../aspose.slides.charts/idatalabelformat/format) { get; } | 表示資料標籤的格式。唯讀 [`IFormat`](../iformat)。 |
-| [IsNumberFormatLinkedToSource](../../aspose.slides.charts/idatalabelformat/isnumberformatlinkedtosource) { get; set; } | 可讀寫 Boolean。 |
-| [NumberFormat](../../aspose.slides.charts/idatalabelformat/numberformat) { get; set; } | 表示 DataLabels 物件的格式字串。可讀寫 String。 |
-| [Position](../../aspose.slides.charts/idatalabelformat/position) { get; set; } | 表示資料標籤的位置。可讀寫 [`LegendDataLabelPosition`](../legenddatalabelposition)。 |
-| [Separator](../../aspose.slides.charts/idatalabelformat/separator) { get; set; } | 設定或傳回代表圖表上資料標籤使用的分隔符號的 Variant。可讀寫 String。 |
-| [ShowBubbleSize](../../aspose.slides.charts/idatalabelformat/showbubblesize) { get; set; } | 表示指定圖表的資料標籤氣泡大小值顯示行為。True 顯示氣泡大小值。False 隱藏。可讀寫 Boolean。 |
-| [ShowCategoryName](../../aspose.slides.charts/idatalabelformat/showcategoryname) { get; set; } | 表示指定圖表的資料標籤類別名稱顯示行為。True 顯示類別名稱。False 隱藏。可讀寫 Boolean。 |
-| [ShowLabelAsDataCallout](../../aspose.slides.charts/idatalabelformat/showlabelasdatacallout) { get; set; } | 決定指定圖表的資料標籤是顯示為資料標註還是資料標籤。若此 DataLabelFormat 物件的父項是 DataLabelCollection（資料標籤集合），則此屬性取得或設定 DataLabelCollection 中新資料標籤的 ShowLabelAsDataCallout 屬性的預設值。將此屬性設定為某值，同時也會將該值設定到 DataLabelCollection 中所有資料標籤的 ShowLabelAsDataCallout 屬性（例如 "DataLabels.DefaultDataLabelFormat.ShowLabelAsDataCallout = val;" 會導致所有 DataLabels[i].ShowLabelAsDataCallout 等於 val）。 |
-| [ShowLabelValueFromCell](../../aspose.slides.charts/idatalabelformat/showlabelvaluefromcell) { get; set; } | 表示指定圖表的資料標籤儲存格值顯示行為。True 顯示儲存格值。False 隱藏。可讀寫 Boolean。 |
-| [ShowLeaderLines](../../aspose.slides.charts/idatalabelformat/showleaderlines) { get; set; } | 表示指定圖表的資料標籤指引線顯示行為。True 顯示指引線。False 隱藏。可讀寫 Boolean。 |
-| [ShowLegendKey](../../aspose.slides.charts/idatalabelformat/showlegendkey) { get; set; } | 表示指定圖表的資料標籤圖例鍵顯示行為。True 表示圖例鍵可見。可讀寫 Boolean。 |
-| [ShowPercentage](../../aspose.slides.charts/idatalabelformat/showpercentage) { get; set; } | 表示指定圖表的資料標籤百分比值顯示行為。True 顯示百分比值。False 隱藏。可讀寫 Boolean。 |
-| [ShowSeriesName](../../aspose.slides.charts/idatalabelformat/showseriesname) { get; set; } | 傳回或設定 Boolean，以指示圖表上資料標籤的系列名稱顯示行為。True 顯示系列名稱。False 隱藏。可讀寫 Boolean。 |
-| [ShowValue](../../aspose.slides.charts/idatalabelformat/showvalue) { get; set; } | 表示指定圖表的資料標籤百分比值顯示行為。True 顯示百分比值。False 隱藏。可讀寫 Boolean。 |
+| [IsNumberFormatLinkedToSource](../../aspose.slides.charts/idatalabelformat/isnumberformatlinkedtosource) { get; set; } | 讀/寫 Boolean。 |
+| [NumberFormat](../../aspose.slides.charts/idatalabelformat/numberformat) { get; set; } | 表示 DataLabels 物件的格式字串。讀/寫 String。 |
+| [Position](../../aspose.slides.charts/idatalabelformat/position) { get; set; } | 表示資料標籤的位置。讀/寫 [`LegendDataLabelPosition`](../legenddatalabelposition)。 |
+| [Separator](../../aspose.slides.charts/idatalabelformat/separator) { get; set; } | 設定或返回表示圖表上資料標籤使用的分隔符號的 Variant。讀/寫 String。 |
+| [ShowBubbleSize](../../aspose.slides.charts/idatalabelformat/showbubblesize) { get; set; } | 表示指定圖表的資料標籤氣泡大小值顯示行為。True 顯示氣泡大小值。False 隱藏。讀/寫 Boolean。 |
+| [ShowCategoryName](../../aspose.slides.charts/idatalabelformat/showcategoryname) { get; set; } | 表示指定圖表的資料標籤分類名稱顯示行為。True 顯示圖表上資料標籤的分類名稱。False 隱藏。讀/寫 Boolean。 |
+| [ShowLabelAsDataCallout](../../aspose.slides.charts/idatalabelformat/showlabelasdatacallout) { get; set; } | 決定指定圖表的資料標籤是以資料標註還是以資料標籤方式顯示。如果此 DataLabelFormat 物件的父物件是 DataLabelCollection（資料標籤集合），則此屬性取得或設定 DataLabelCollection 中新資料標籤之 ShowLabelAsDataCallout 屬性的預設值。以某個值設定此屬性同時也會將該值設定給 DataLabelCollection 中所有資料標籤的 ShowLabelAsDataCallout 屬性（例如"DataLabels.DefaultDataLabelFormat.ShowLabelAsDataCallout = val;"會導致所有 DataLabels[i].ShowLabelAsDataCallout 等於 val）。 |
+| [ShowLabelValueFromCell](../../aspose.slides.charts/idatalabelformat/showlabelvaluefromcell) { get; set; } | 表示指定圖表的資料標籤儲存格值顯示行為。True 顯示儲存格值。False 隱藏。讀/寫 Boolean。 |
+| [ShowLeaderLines](../../aspose.slides.charts/idatalabelformat/showleaderlines) { get; set; } | 表示指定圖表的資料標籤指示線顯示行為。True 顯示指示線。False 隱藏。讀/寫 Boolean。 |
+| [ShowLegendKey](../../aspose.slides.charts/idatalabelformat/showlegendkey) { get; set; } | 表示指定圖表的資料標籤圖例鍵顯示行為。True 表示圖例鍵可見。讀/寫 Boolean。 |
+| [ShowPercentage](../../aspose.slides.charts/idatalabelformat/showpercentage) { get; set; } | 表示指定圖表的資料標籤百分比值顯示行為。True 顯示百分比值。False 隱藏。讀/寫 Boolean。 |
+| [ShowSeriesName](../../aspose.slides.charts/idatalabelformat/showseriesname) { get; set; } | 返回或設定 Boolean 以指示圖表上資料標籤的系列名稱顯示行為。True 顯示系列名稱。False 隱藏。讀/寫 Boolean。 |
+| [ShowValue](../../aspose.slides.charts/idatalabelformat/showvalue) { get; set; } | 表示指定圖表的資料標籤百分比值顯示行為。True 顯示百分比值。False 隱藏。讀/寫 Boolean。 |
 
-### 另見
+### 參見
 
 * 介面 [IFormattedTextContainer](../iformattedtextcontainer)
 * 命名空間 [Aspose.Slides.Charts](../../aspose.slides.charts)

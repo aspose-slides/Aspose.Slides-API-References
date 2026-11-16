@@ -1,9 +1,9 @@
 ---
 title: GradientStopCollection
-second_title: دليل مرجع Aspose.Sildes لـ .NET
+second_title: مرجع API لـ Aspose.Sildes لـ .NET
 description: يمثل مجموعة من نقاط التدرج.
 type: docs
-weight: 5030
+weight: 5050
 url: /ar/aspose.slides/gradientstopcollection/
 ---
 ## GradientStopCollection فئة
@@ -18,13 +18,13 @@ public sealed class GradientStopCollection : PVIObject, IGradientStopCollection
 
 | الاسم | الوصف |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | يسمح بالحصول على واجهة IPresentationComponent الأساسية. للقراءة فقط [`IPresentationComponent`](../ipresentationcomponent). |
-| [Count](../../aspose.slides/gradientstopcollection/count) { get; } | يعيد عدد نقاط التدرج في المجموعة. للقراءة فقط Int32. |
-| [IsSynchronized](../../aspose.slides/gradientstopcollection/issynchronized) { get; } | يعيد قيمة تشير إلى ما إذا كان الوصول إلى المجموعة متزامنًا (آمن عبر الخيوط). للقراءة فقط Boolean. |
-| [Item](../../aspose.slides/gradientstopcollection/item) { get; } | يعيد نقطة التدرج حسب الفهرس. |
-| [SyncRoot](../../aspose.slides/gradientstopcollection/syncroot) { get; } | يعيد جذر التزامن. للقراءة فقط Object. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | يسمح بالحصول على واجهة IPresentationComponent الأساسية. قراءة فقط [`IPresentationComponent`](../ipresentationcomponent). |
+| [Count](../../aspose.slides/gradientstopcollection/count) { get; } | يعيد عدد نقاط التدرج في مجموعة. قراءة فقط Int32. |
+| [IsSynchronized](../../aspose.slides/gradientstopcollection/issynchronized) { get; } | يعيد قيمة تشير إلى ما إذا كان الوصول إلى المجموعة متزامنًا (thread-safe). قراءة فقط Boolean. |
+| [Item](../../aspose.slides/gradientstopcollection/item) { get; } | يعيد نقطة التدرج بحسب الفهرس. |
+| [SyncRoot](../../aspose.slides/gradientstopcollection/syncroot) { get; } | يعيد جذر المزامنة. قراءة فقط Object. |
 
-## الأساليب
+## الطرق
 
 | الاسم | الوصف |
 | --- | --- |
@@ -34,12 +34,12 @@ public sealed class GradientStopCollection : PVIObject, IGradientStopCollection
 | [Clear](../../aspose.slides/gradientstopcollection/clear)() | يزيل جميع نقاط التدرج من مجموعة. |
 | [CopyTo](../../aspose.slides/gradientstopcollection/copyto)(Array, int) | ينسخ جميع العناصر من المجموعة إلى المصفوفة المحددة. |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | يقارن مع الكائن المحدد. |
-| [GetEnumerator](../../aspose.slides/gradientstopcollection/getenumerator)() | يعيد عدادًا يتجول عبر المجموعة. |
+| [GetEnumerator](../../aspose.slides/gradientstopcollection/getenumerator)() | يعيد مُعَدَدًا يتكرر عبر المجموعة. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | يعيد قيمة التجزئة. |
 | [Insert](../../aspose.slides/gradientstopcollection/insert#insert_2)(int, float, Color) | ينشئ نقطة التدرج الجديدة ويُدرجها في الفهرس المحدد داخل المجموعة. |
 | [Insert](../../aspose.slides/gradientstopcollection/insert#insert)(int, float, PresetColor) | ينشئ نقطة التدرج الجديدة ويُدرجها في الفهرس المحدد داخل المجموعة. |
 | [Insert](../../aspose.slides/gradientstopcollection/insert#insert_1)(int, float, SchemeColor) | ينشئ نقطة التدرج الجديدة ويُدرجها في الفهرس المحدد داخل المجموعة. |
-| [RemoveAt](../../aspose.slides/gradientstopcollection/removeat)(int) | يزيل نقطة التدرج في الفهرس المحدد. |
+| [RemoveAt](../../aspose.slides/gradientstopcollection/removeat)(int) | يزيل نقطة التدرج عند الفهرس المحدد. |
 
 ### انظر أيضًا
 

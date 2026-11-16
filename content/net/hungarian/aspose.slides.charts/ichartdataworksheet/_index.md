@@ -1,14 +1,14 @@
 ---
 title: IChartDataWorksheet
-second_title: Aspose.Sildes .NET API referencia
-description: IChartDataCell-hez kapcsolódó munkalapot képviseli./ichartdatacell
+second_title: Aspose.Sildes .NET API hivatkozás
+description: A IChartDataCell./ichartdatacell-hez kapcsolódó munkalapot reprezentálja
 type: docs
-weight: 1870
+weight: 1890
 url: /hu/aspose.slides.charts/ichartdataworksheet/
 ---
 ## IChartDataWorksheet interfész
 
-Képviseli a [`IChartDataCell`](../ichartdatacell)-hez kapcsolódó munkalapot
+A [`IChartDataCell`](../ichartdatacell)-hoz kapcsolódó munkalapot reprezentálja
 
 ```csharp
 public interface IChartDataWorksheet
@@ -18,8 +18,8 @@ public interface IChartDataWorksheet
 
 | Név | Leírás |
 | --- | --- |
-| [Index](../../aspose.slides.charts/ichartdataworksheet/index) { get; } | Lekéri az indexet. Csak olvasható Int32. |
-| [Name](../../aspose.slides.charts/ichartdataworksheet/name) { get; } | Lekéri a nevet. Csak olvasható String. |
+| [Index](../../aspose.slides.charts/ichartdataworksheet/index) { get; } | Az indexet adja vissza. Csak olvasható Int32. |
+| [Name](../../aspose.slides.charts/ichartdataworksheet/name) { get; } | A nevet adja vissza. Csak olvasható String. |
 
 ### Lásd még
 

@@ -1,14 +1,14 @@
 ---
 title: IPresentationAnimationPlayer
-second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
-description: แสดงถึงผู้เล่นของแอนิเมชัน. แอนิเมชันที่สร้างโดย PresentationAnimationsGenerator./presentationanimationsgenerator ผ่านเหตุการณ์ NewAnimation./presentationanimationsgenerator/newanimation ของมัน.
+second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
+description: เป็นตัวเล่นของแอนิเมชัน แอนิเมชันที่สร้างโดย PresentationAnimationsGenerator./presentationanimationsgenerator ผ่านเหตุการณ์ NewAnimation./presentationanimationsgenerator/newanimation ของมัน
 type: docs
-weight: 4030
+weight: 4050
 url: /th/aspose.slides.export/ipresentationanimationplayer/
 ---
 ## IPresentationAnimationPlayer อินเทอร์เฟซ
 
-แสดงถึงผู้เล่นของแอนิเมชัน แอนิเมชันที่สร้างโดย [`PresentationAnimationsGenerator`](../presentationanimationsgenerator) ผ่านเหตุการณ์ [`NewAnimation`](../presentationanimationsgenerator/newanimation) ของมัน
+เป็นตัวเล่นของแอนิเมชัน แอนิเมชันที่สร้างโดย [`PresentationAnimationsGenerator`](../presentationanimationsgenerator) ผ่านเหตุการณ์ [`NewAnimation`](../presentationanimationsgenerator/newanimation) ของมัน
 
 ```csharp
 public interface IPresentationAnimationPlayer
@@ -20,12 +20,12 @@ public interface IPresentationAnimationPlayer
 | --- | --- |
 | [Duration](../../aspose.slides.export/ipresentationanimationplayer/duration) { get; } | รับระยะเวลาแอนิเมชัน [ms] |
 
-## เมธอด
+## วิธีการ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [GetFrame](../../aspose.slides.export/ipresentationanimationplayer/getframe)() | รับเฟรมสำหรับตำแหน่งเวลาปัจจุบันที่ตั้งค่าก่อนหน้านี้ด้วยเมธอด [`SetTimePosition`](./settimeposition) |
-| [SetTimePosition](../../aspose.slides.export/ipresentationanimationplayer/settimeposition)(double) | ตั้งตำแหน่งเวลาของแอนิเมชันภายใน [`Duration`](./duration) |
+| [GetFrame](../../aspose.slides.export/ipresentationanimationplayer/getframe)() | รับเฟรมสำหรับตำแหน่งเวลาในปัจจุบันที่ได้ตั้งค่าก่อนหน้านี้ด้วยวิธี [`SetTimePosition`](./settimeposition) |
+| [SetTimePosition](../../aspose.slides.export/ipresentationanimationplayer/settimeposition)(double) | ตั้งตำแหน่งเวลาแอนิเมชันภายใน [`Duration`](./duration) |
 
 ### ตัวอย่าง
 

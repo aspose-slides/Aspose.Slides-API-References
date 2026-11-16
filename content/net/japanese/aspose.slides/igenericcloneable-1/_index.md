@@ -3,12 +3,12 @@ title: IGenericCloneableT
 second_title: Aspose.Sildes for .NET API リファレンス
 description: ICloneable のジェネリック バージョンを表します
 type: docs
-weight: 5950
+weight: 5970
 url: /ja/aspose.slides/igenericcloneable-1/
 ---
 ## IGenericCloneable<T> インターフェイス
 
-ICloneable のジェネリック バージョンを表します。
+ICloneable のジェネリック バージョンを表します
 
 ```csharp
 public interface IGenericCloneable<T> : ICloneable
@@ -16,7 +16,7 @@ public interface IGenericCloneable<T> : ICloneable
 
 | パラメーター | 説明 |
 | --- | --- |
-| T | クローン対象のオブジェクトの型 |
+| T | クローンするオブジェクトの型 |
 
 ## プロパティ
 
@@ -30,7 +30,7 @@ public interface IGenericCloneable<T> : ICloneable
 | --- | --- |
 | [CloneT](../../aspose.slides/igenericcloneable`1/clonet)() | 現在のインスタンスのコピーである新しいオブジェクトを作成します。 |
 
-### 参照
+### 関連項目
 
 * 名前空間 [Aspose.Slides](../../aspose.slides)
 * アセンブリ [Aspose.Slides](../../)

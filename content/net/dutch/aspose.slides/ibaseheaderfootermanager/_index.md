@@ -1,14 +1,14 @@
 ---
 title: IBaseHeaderFooterManager
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een manager voor die het gedrag van de voettekst, datum-tijd en paginanummer plaatsaanduidingen bevat voor alle dia-typen.
+description: Stelt een manager voor die het gedrag van de voettekst, datum-tijd en paginanummer-plaatsaanduidingen voor alle dia-typen bevat.
 type: docs
-weight: 5300
+weight: 5320
 url: /nl/aspose.slides/ibaseheaderfootermanager/
 ---
 ## IBaseHeaderFooterManager interface
 
-Stelt een manager voor die het gedrag van de voettekst, datum-tijd en paginanummer plaatsaanduidingen bevat voor alle dia-typen.
+Stelt een manager voor die het gedrag van de voettekst, datum-tijd en paginanummer-plaatsaanduidingen voor alle dia-typen bevat.
 
 ```csharp
 public interface IBaseHeaderFooterManager

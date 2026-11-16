@@ -1,20 +1,20 @@
 ---
 title: RenderingOptions
-second_title: مرجع API Aspose.Sildes برای .NET
-description: گزینه‌هایی را فراهم می‌کند که نحوه رندر یک ارائه/اسلاید را کنترل می‌کند.
+second_title: Aspose.Sildes برای مرجع API .NET
+description: گزینه‌هایی را فراهم می‌کند که نحوه رندر شدن یک ارائه/اسلاید را کنترل می‌کند.
 type: docs
-weight: 4410
+weight: 4430
 url: /fa/aspose.slides.export/renderingoptions/
 ---
 ## RenderingOptions کلاس
 
-گزینه‌هایی را فراهم می‌کند که نحوه رندر یک ارائه/اسلاید را کنترل می‌کند.
+گزینه‌هایی را فراهم می‌کند که نحوه رندر شدن ارائه/اسلاید را کنترل می‌کند.
 
 ```csharp
 public class RenderingOptions : SaveOptions, IRenderingOptions
 ```
 
-## سازندگان
+## سازنده‌ها
 
 | نام | توضیح |
 | --- | --- |
@@ -24,14 +24,14 @@ public class RenderingOptions : SaveOptions, IRenderingOptions
 
 | نام | توضیح |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | بازگرداندن یا تنظیم فونت استفاده شده در صورتی که فونت منبع یافت نشود. خواندنی-نوشتنی String. |
-| [DisableFontLigatures](../../aspose.slides.export/renderingoptions/disablefontligatures) { get; set; } | دریافت یا تنظیم مقداری که نشان می‌دهد آیا متن بدون استفاده از لیگاتورها رندر می‌شود. هنگامی که به `true` تنظیم شود، لیگاتورها در خروجی رندر غیرفعال می‌شوند. به‌طور پیش‌فرض، مقدار این ویژگی `false` است. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | بازگرداندن یا تنظیم سبک بصری گرادیانت. خواندنی-نوشتنی [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [InkOptions](../../aspose.slides.export/renderingoptions/inkoptions) { get; } | ارائه گزینه‌هایی که ظاهر اشیای Ink را در سند صادر شده کنترل می‌کنند. فقط-خواندنی [`IInkOptions`](../iinkoptions) |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | نمایش یک شیء callback برای ذخیره‌سازی به‌روزرسانی‌های پیشرفت به درصد. مراجعه کنید به [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | مشخص می‌کند آیا هنگام ذخیره‌سازی ارائه، پیوندهای Hyperlink با فراخوانی‌های JavaScript رد شوند یا نه. خواندنی-نوشتنی Boolean. مقدار پیش‌فرض **false** است. |
-| [SlidesLayoutOptions](../../aspose.slides.export/renderingoptions/slideslayoutoptions) { get; set; } | دریافت یا تنظیم حالت چیدمان اسلایدها بر روی صفحه هنگام صادر کردن ارائه [`ISlidesLayoutOptions`](../islideslayoutoptions). |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | بازگرداندن یا تنظیم شیئی که هشدارها را دریافت می‌کند و تصمیم می‌گیرد آیا فرآیند بارگذاری ادامه یابد یا متوقف شود. خواندنی-نوشتنی [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | قلم مورد استفاده را در صورتی که قلم منبع یافت نشود برمی‌گرداند یا تنظیم می‌کند. رشته قابل‌خواندن/نوشتن. |
+| [DisableFontLigatures](../../aspose.slides.export/renderingoptions/disablefontligatures) { get; set; } | مقداری را دریافت یا تنظیم می‌کند که نشان می‌دهد آیا متن بدون استفاده از لیگچرها رندر می‌شود. وقتی `true` تنظیم شود، لیگچرها در خروجی رندر شده غیرفعال می‌شوند. به‌طور پیش‌فرض، این ویژگی به `false` تنظیم شده است. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | سبک بصری گرادیان را برمی‌گرداند یا تنظیم می‌کند. قابل‌خواندن/نوشتن [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [InkOptions](../../aspose.slides.export/renderingoptions/inkoptions) { get; } | گزینه‌هایی را فراهم می‌کند که ظاهر اشیاء جوهر را در سند صادر شده کنترل می‌کند. فقط‌خواندنی [`IInkOptions`](../iinkoptions) |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | شیء بازگشتی برای ذخیره‌سازی به‌روزرسانی‌های پیشرفت به‌صورت درصدی را نشان می‌دهد. به [`IProgressCallback`](../../aspose.slides/iprogresscallback) مراجعه کنید. |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | مشخص می‌کند آیا هنگام ذخیره‌سازی ارائه، پیوندهای فراخوانی‌کردن JavaScript رد شوند یا نه. بولی قابل‌خواندن/نوشتن. مقدار پیش‌فرض **false** است. |
+| [SlidesLayoutOptions](../../aspose.slides.export/renderingoptions/slideslayoutoptions) { get; set; } | حالت قرارگیری اسلایدها بر روی صفحه هنگام صادر کردن یک ارائه [`ISlidesLayoutOptions`](../islideslayoutoptions) را دریافت یا تنظیم می‌کند. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | شیئی را که هشدارها را دریافت می‌کند و تصمیم می‌گیرد آیا فرآیند بارگذاری ادامه یابد یا لغو شود، بر می‌گرداند یا تنظیم می‌کند. قابل‌خواندن/نوشتن [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### مثال‌ها
 
@@ -55,8 +55,8 @@ using (Presentation pres = new Presentation("pres.pptx"))
 ### موارد مرتبط
 
 * کلاس [SaveOptions](../saveoptions)
-* رابط [IRenderingOptions](../irenderingoptions)
-* فضای نام [Aspose.Slides.Export](../../aspose.slides.export)
-* مونتاژ [Aspose.Slides](../../)
+* اینترفیس [IRenderingOptions](../irenderingoptions)
+* فضای‌نام [Aspose.Slides.Export](../../aspose.slides.export)
+* اسمبلی [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

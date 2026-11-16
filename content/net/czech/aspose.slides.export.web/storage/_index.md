@@ -1,14 +1,14 @@
 ---
 title: Storage
 second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje dočasné úložiště dat pro WebDocument./webdocument.
+description: Representuje dočasné úložiště dat pro WebDocument./webdocument.
 type: docs
-weight: 4660
+weight: 4680
 url: /cs/aspose.slides.export.web/storage/
 ---
 ## Třída úložiště
 
-Reprezentuje dočasné úložiště dat pro [`WebDocument`](../webdocument).
+Representuje dočasné úložiště dat pro [`WebDocument`](../webdocument).
 
 ```csharp
 public sealed class Storage

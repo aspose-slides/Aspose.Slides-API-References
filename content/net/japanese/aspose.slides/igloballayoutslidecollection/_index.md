@@ -1,14 +1,14 @@
 ---
 title: IGlobalLayoutSlideCollection
 second_title: Aspose.Sildes for .NET API リファレンス
-description: プレゼンテーション内のすべてのレイアウト スライドのコレクションを表します。ILayoutSlideCollection インターフェイスを拡張し、マスターのレイアウト スライドの個々のコレクションを統合するコンテキストでレイアウト スライドを追加/クローンするためのメソッドを提供します。
+description: プレゼンテーション内のすべてのレイアウト スライドのコレクションを表します。個々のマスター レイアウト スライドのコレクションを統合するコンテキストで、レイアウト スライドの追加/複製用メソッドを提供する ILayoutSlideCollection インターフェイスを拡張します。
 type: docs
-weight: 5990
+weight: 6010
 url: /ja/aspose.slides/igloballayoutslidecollection/
 ---
 ## IGlobalLayoutSlideCollection インターフェイス
 
-プレゼンテーション内のすべてのレイアウト スライドのコレクションを表します。ILayoutSlideCollection インターフェイスを拡張し、マスターのレイアウト スライドの個々のコレクションを統合するコンテキストでレイアウト スライドを追加/クローンするためのメソッドを提供します。
+プレゼンテーション内のすべてのレイアウト スライドのコレクションを表します。マスターのレイアウト スライドの個々のコレクションを統合するコンテキストで、レイアウト スライドの追加/複製用メソッドを提供する ILayoutSlideCollection インターフェイスを拡張します。
 
 ```csharp
 public interface IGlobalLayoutSlideCollection : ILayoutSlideCollection

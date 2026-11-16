@@ -1,12 +1,12 @@
 ---
 title: IBaseTableFormatEffectiveData
-second_title: مرجع API لـ Aspose.Sildes ل .NET
-description: واجهة أساسية للكائنات غير القابلة للتغيير التي تحتوي على خصائص تنسيق الجدول الفعّالة.
+second_title: مرجع API ل Aspose.Sildes للـ .NET
+description: الواجهة الأساسية للكائنات غير القابلة للتغيير التي تحتوي على خصائص تنسيق الجدول الفعّالة.
 type: docs
-weight: 5360
+weight: 5380
 url: /ar/aspose.slides/ibasetableformateffectivedata/
 ---
-## IBaseTableFormatEffectiveData interface
+## IBaseTableFormatEffectiveData الواجهة
 
 الواجهة الأساسية للكائنات غير القابلة للتغيير التي تحتوي على خصائص تنسيق الجدول الفعّالة.
 
@@ -18,13 +18,13 @@ public interface IBaseTableFormatEffectiveData
 
 | الاسم | الوصف |
 | --- | --- |
-| [BorderBottom](../../aspose.slides/ibasetableformateffectivedata/borderbottom) { get; } | يرجع قيمة تنسيق سطر الحد السفلي الفعّال. للقراءة فقط [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderDiagonalDown](../../aspose.slides/ibasetableformateffectivedata/borderdiagonaldown) { get; } | يرجع قيمة تنسيق سطر القطر السفلي الفعّال. للقراءة فقط [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderDiagonalUp](../../aspose.slides/ibasetableformateffectivedata/borderdiagonalup) { get; } | يرجع قيمة تنسيق سطر القطر العلوي الفعّال. للقراءة فقط [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderLeft](../../aspose.slides/ibasetableformateffectivedata/borderleft) { get; } | يرجع قيمة تنسيق سطر الحد الأيسر الفعّال. للقراءة فقط [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderRight](../../aspose.slides/ibasetableformateffectivedata/borderright) { get; } | يرجع قيمة تنسيق سطر الحد الأيمن الفعّال. للقراءة فقط [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderTop](../../aspose.slides/ibasetableformateffectivedata/bordertop) { get; } | يرجع قيمة تنسيق سطر الحد العلوي الفعّال. للقراءة فقط [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [FillFormat](../../aspose.slides/ibasetableformateffectivedata/fillformat) { get; } | يرجع قيمة تنسيق التعبئة الفعّال. للقراءة فقط [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
+| [BorderBottom](../../aspose.slides/ibasetableformateffectivedata/borderbottom) { get; } | إرجاع قيمة تنسيق خط الحد السفلي الفعّال. للقراءة فقط [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderDiagonalDown](../../aspose.slides/ibasetableformateffectivedata/borderdiagonaldown) { get; } | إرجاع قيمة تنسيق خط القطري السفلي الفعّال. للقراءة فقط [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderDiagonalUp](../../aspose.slides/ibasetableformateffectivedata/borderdiagonalup) { get; } | إرجاع قيمة تنسيق خط القطري العلوي الفعّال. للقراءة فقط [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderLeft](../../aspose.slides/ibasetableformateffectivedata/borderleft) { get; } | إرجاع قيمة تنسيق خط الحد الأيسر الفعّال. للقراءة فقط [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderRight](../../aspose.slides/ibasetableformateffectivedata/borderright) { get; } | إرجاع قيمة تنسيق خط الحد الأيمن الفعّال. للقراءة فقط [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderTop](../../aspose.slides/ibasetableformateffectivedata/bordertop) { get; } | إرجاع قيمة تنسيق خط الحد العلوي الفعّال. للقراءة فقط [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [FillFormat](../../aspose.slides/ibasetableformateffectivedata/fillformat) { get; } | إرجاع قيمة تنسيق التعبئة الفعّال. للقراءة فقط [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
 
 ### انظر أيضًا
 

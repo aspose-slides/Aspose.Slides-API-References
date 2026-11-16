@@ -1,9 +1,9 @@
 ---
 title: HtmlFormatter
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: HTML 파일 템플릿을 나타냅니다.
 type: docs
-weight: 3870
+weight: 3890
 url: /ko/aspose.slides.export/htmlformatter/
 ---
 ## HtmlFormatter 클래스
@@ -18,11 +18,11 @@ public sealed class HtmlFormatter : IHtmlFormatter
 
 | 이름 | 설명 |
 | --- | --- |
-| static [CreateCustomFormatter](../../aspose.slides.export/htmlformatter/createcustomformatter)(IHtmlFormattingController) | 맞춤 콜백 기반 HTML 생성을 위한 HTML 포매터를 생성하고 반환합니다. |
-| static [CreateDocumentFormatter](../../aspose.slides.export/htmlformatter/createdocumentformatter)(string, bool) | 슬라이드가 위아래로 순서대로 배열된 간단한 문서 보기용 HTML 포매터를 생성하고 반환합니다. |
-| static [CreateSlideShowFormatter](../../aspose.slides.export/htmlformatter/createslideshowformatter)(string, bool) | 슬라이드가 연속으로 표시되는 간단한 슬라이드쇼 HTML을 위한 HTML 포매터를 생성하고 반환합니다. |
+| static [CreateCustomFormatter](../../aspose.slides.export/htmlformatter/createcustomformatter)(IHtmlFormattingController) | 사용자 정의 콜백 기반 HTML 생성에 사용할 HTML 포맷터를 생성하고 반환합니다. |
+| static [CreateDocumentFormatter](../../aspose.slides.export/htmlformatter/createdocumentformatter)(string, bool) | 슬라이드가 아래로 차례로 배치된 간단한 문서 뷰용 HTML 포맷터를 생성하고 반환합니다. |
+| static [CreateSlideShowFormatter](../../aspose.slides.export/htmlformatter/createslideshowformatter)(string, bool) | 슬라이드를 순차적으로 표시하는 간단한 슬라이드쇼 HTML 포맷터를 생성하고 반환합니다. |
 
-### 참조
+### 참고
 
 * 인터페이스 [IHtmlFormatter](../ihtmlformatter)
 * 네임스페이스 [Aspose.Slides.Export](../../aspose.slides.export)

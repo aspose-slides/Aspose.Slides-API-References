@@ -1,14 +1,14 @@
 ---
 title: ShapeElementFillSource
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar hur ett formelement ska fyllas.
+description: Representerar hur shape element ska fyllas.
 type: docs
-weight: 9880
+weight: 9900
 url: /sv/aspose.slides/shapeelementfillsource/
 ---
-## ShapeElementFillSource-enumeration
+## ShapeElementFillSource enumeration
 
-Representerar hur ett formelement ska fyllas.
+Representerar hur shape element ska fyllas.
 
 ```csharp
 public enum ShapeElementFillSource : byte
@@ -16,14 +16,14 @@ public enum ShapeElementFillSource : byte
 
 ### Värden
 
-| Namn | Värde | Beskrivning |
+| Name | Value | Description |
 | --- | --- | --- |
 | NoFill | `0` | Fyll inte primitiv. |
-| Shape | `1` | Använd figurens fyllning. |
-| Lighten | `2` | Använd ljusare fyllning av formen. |
-| LightenLess | `3` | Använd mindre ljus fyllning av formen. |
-| Darken | `4` | Använd mörkare fyllning av formen. |
-| DarkenLess | `5` | Använd mindre mörk fyllning av formen. |
+| Shape | `1` | Använd shape's fill. |
+| Lighten | `2` | Använd ljusare shape's fill. |
+| LightenLess | `3` | Använd mindre ljus shape's fill. |
+| Darken | `4` | Använd mörkare shape's fill. |
+| DarkenLess | `5` | Använd mindre mörk shape's fill. |
 
 ### Se även
 

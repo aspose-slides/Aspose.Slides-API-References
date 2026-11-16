@@ -1,9 +1,9 @@
 ---
 title: MathSubscriptElementFactory
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk .NET API Referensi
 description: Memungkinkan membuat IMathSubscriptElement
 type: docs
-weight: 9010
+weight: 9030
 url: /id/aspose.slides.mathtext/mathsubscriptelementfactory/
 ---
 ## MathSubscriptElementFactory kelas
@@ -14,13 +14,13 @@ Memungkinkan membuat IMathSubscriptElement
 public class MathSubscriptElementFactory : IMathSubscriptElementFactory
 ```
 
-## Konstruktor
+## Constructors
 
 | Nama | Deskripsi |
 | --- | --- |
 | [MathSubscriptElementFactory](mathsubscriptelementfactory)() | Konstruktor default. |
 
-## Metode
+## Methods
 
 | Nama | Deskripsi |
 | --- | --- |

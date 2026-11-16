@@ -1,9 +1,9 @@
 ---
 title: Item
-second_title: Aspose.Sildes a .NET API hivatkozás
+second_title: Aspose.Sildes a .NET API-referencia
 description: Visszaadja a megadott indexű adatpont adatcímkéjét.
 type: docs
-weight: 60
+weight: 70
 url: /hu/aspose.slides.charts/datalabelcollection/item/
 ---
 ## DataLabelCollection indexelő
@@ -14,9 +14,9 @@ Visszaadja a megadott indexű adatpont adatcímkéjét.
 public IDataLabel this[int index] { get; }
 ```
 
-### Megjegyzések
+### Megjegyzés
 
-Alternatív módja az adatcímke elérésének: - SeriesEx.DataPoints[i].Label - a címke tulajdonságainak kezelése.
+Az adatcímkéhez való hozzáférés alternatív módja: - SeriesEx.DataPoints[i].Label - kezelje a címke tulajdonságait.
 
 ### Lásd még
 

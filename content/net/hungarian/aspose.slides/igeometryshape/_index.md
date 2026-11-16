@@ -1,14 +1,14 @@
 ---
 title: IGeometryShape
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Az összes geometriai alakzat szülőosztályát képviseli.
+second_title: Aspose.Sildes .NET API referenciája
+description: Az összes geometriai alakzat szülőosztályát reprezentálja.
 type: docs
-weight: 5980
+weight: 6000
 url: /hu/aspose.slides/igeometryshape/
 ---
 ## IGeometryShape interfész
 
-Az összes geometriai alakzat szülőosztályát képviseli.
+Representálja az összes geometriai alakzat szülőosztályát.
 
 ```csharp
 public interface IGeometryShape : IShape
@@ -16,23 +16,23 @@ public interface IGeometryShape : IShape
 
 ## Tulajdonságok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
-| [Adjustments](../../aspose.slides/igeometryshape/adjustments) { get; } | Visszaadja az alakzat beállítási értékeinek gyűjteményét. Csak olvasható [`IAdjustValueCollection`](../iadjustvaluecollection). |
-| [AsIShape](../../aspose.slides/igeometryshape/asishape) { get; } | Lehetővé teszi a base IShape interfész lekérését. Csak olvasható [`IShape`](../ishape). |
-| [ShapeStyle](../../aspose.slides/igeometryshape/shapestyle) { get; } | Visszaadja az alakzat stílusobjektumát. Csak olvasható [`IShapeStyle`](../ishapestyle). |
-| [ShapeType](../../aspose.slides/igeometryshape/shapetype) { get; set; } | Visszaadja vagy beállítja a geometriai előre beállított típust. Megjegyzés: értékváltozáskor minden beállítási érték visszaáll az alapértelmezett értékére. Olvasás/írás [`ShapeType`](../shapetype). |
+| [Adjustments](../../aspose.slides/igeometryshape/adjustments) { get; } | Visszaad egy gyűjteményt a forma beállítási értékeiről. Csak olvasható [`IAdjustValueCollection`](../iadjustvaluecollection). |
+| [AsIShape](../../aspose.slides/igeometryshape/asishape) { get; } | Lehetővé teszi az alap IShape interfész lekérését. Csak olvasható [`IShape`](../ishape). |
+| [ShapeStyle](../../aspose.slides/igeometryshape/shapestyle) { get; } | Visszaadja a forma stílusobjektumát. Csak olvasható [`IShapeStyle`](../ishapestyle). |
+| [ShapeType](../../aspose.slides/igeometryshape/shapetype) { get; set; } | Visszaadja vagy beállítja a geometriai előre beállított típust. Megjegyzés: az érték módosításakor az összes beállítási érték visszaáll az alapértelmezett értékeire. Olvasható/írható [`ShapeType`](../shapetype). |
 
-## Metódusok
+## Módszerek
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
-| [CreateShapeElements](../../aspose.slides/igeometryshape/createshapeelements)() | Létrehozza és visszaadja az alakzat elemeinek tömbjét. |
-| [GetGeometryPaths](../../aspose.slides/igeometryshape/getgeometrypaths)() | Visszaadja a geometriai alakzat útvonalának másolatát. A koordináták az alakzat bal felső sarkához viszonyítva vannak. |
-| [SetGeometryPath](../../aspose.slides/igeometryshape/setgeometrypath)(IGeometryPath) | Frissíti az alakzat geometriáját a [`IGeometryPath`](../igeometrypath) objektumból. A koordinátáknak az alakzat bal felső sarkához kell viszonyulniuk. Megváltoztatja az alakzat típusát ([`ShapeType`](./shapetype)) Custom-ra. |
-| [SetGeometryPaths](../../aspose.slides/igeometryshape/setgeometrypaths)(IGeometryPath[]) | Frissíti az alakzat geometriáját a [`IGeometryPath`](../igeometrypath) tömbjéből. A koordinátáknak az alakzat bal felső sarkához kell viszonyulniuk. Megváltoztatja az alakzat típusát ([`ShapeType`](./shapetype)) Custom-ra. |
+| [CreateShapeElements](../../aspose.slides/igeometryshape/createshapeelements)() | Létrehoz és visszaad egy tömböt a forma elemeiből. |
+| [GetGeometryPaths](../../aspose.slides/igeometryshape/getgeometrypaths)() | Visszaadja a geometriai forma útvonalának másolatát. A koordináták a forma bal felső sarkához viszonyítva vannak. |
+| [SetGeometryPath](../../aspose.slides/igeometryshape/setgeometrypath)(IGeometryPath) | Frissíti a forma geometriáját a [`IGeometryPath`](../igeometrypath) objektumból. A koordinátáknak a forma bal felső sarkához relatívnek kell lenniük. Megváltoztatja a forma típusát ([`ShapeType`](./shapetype)) Custom típusra. |
+| [SetGeometryPaths](../../aspose.slides/igeometryshape/setgeometrypaths)(IGeometryPath[]) | Frissíti a forma geometriáját a [`IGeometryPath`](../igeometrypath) tömbből. A koordinátáknak a forma bal felső sarkához relatívnek kell lenniük. Megváltoztatja a forma típusát ([`ShapeType`](./shapetype)) Custom típusra. |
 
-### További hivatkozások
+### Lásd még
 
 * interfész [IShape](../ishape)
 * névtér [Aspose.Slides](../../aspose.slides)

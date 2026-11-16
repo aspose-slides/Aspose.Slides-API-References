@@ -3,12 +3,12 @@ title: AlphaModulateFixed
 second_title: Aspose.Sildes for .NET API リファレンス
 description: Alpha Modulate Fixed エフェクトを表します。エフェクトのアルファ（不透明度）値は固定パーセンテージで乗算されます。
 type: docs
-weight: 2890
+weight: 2910
 url: /ja/aspose.slides.effects/alphamodulatefixed/
 ---
 ## AlphaModulateFixed クラス
 
-Alpha Modulate Fixed エフェクトを表します。エフェクトのアルファ (不透明度) 値は固定パーセンテージで乗算されます。
+Represents an Alpha Modulate Fixed effect. Effect alpha (opacity) values are multiplied by a fixed percentage.
 
 ```csharp
 public sealed class AlphaModulateFixed : ImageTransformOperation, IAlphaModulateFixed
@@ -18,15 +18,15 @@ public sealed class AlphaModulateFixed : ImageTransformOperation, IAlphaModulate
 
 | 名前 | 説明 |
 | --- | --- |
-| [Amount](../../aspose.slides.effects/alphamodulatefixed/amount) { get; set; } | エフェクトの量をパーセンテージで返します。読み取り/書き込み Single. |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | ベースの IPresentationComponent インターフェイスを取得できます。読み取り専用 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [Amount](../../aspose.slides.effects/alphamodulatefixed/amount) { get; set; } | エフェクトの量をパーセンテージで返します。 読み書き可能 Single。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | ベース IPresentationComponent インターフェイスの取得を許可します。 読み取り専用 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/alphamodulatefixed/equals)(object) | 指定された [`AlphaModulateFixed`](../alphamodulatefixed) が現在の [`AlphaModulateFixed`](../alphamodulatefixed) と等しいかどうかを判断します。 |
-| [GetEffective](../../aspose.slides.effects/alphamodulatefixed/geteffective)() | 継承が適用された有効な Alpha Modulate Fixed 効果データを取得します。 |
+| override [Equals](../../aspose.slides.effects/alphamodulatefixed/equals)(object) | 指定された [`AlphaModulateFixed`](../alphamodulatefixed) が現在の [`AlphaModulateFixed`](../alphamodulatefixed) と等しいかどうかを判定します。 |
+| [GetEffective](../../aspose.slides.effects/alphamodulatefixed/geteffective)() | 継承が適用された効果的な Alpha Modulate Fixed エフェクトデータを取得します。 |
 | override [GetHashCode](../../aspose.slides.effects/alphamodulatefixed/gethashcode)() | 特定の型に対するハッシュ関数として機能します。 |
 
 ### 参照

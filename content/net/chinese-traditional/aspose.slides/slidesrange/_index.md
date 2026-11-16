@@ -1,9 +1,9 @@
 ---
 title: SlidesRange
-second_title: Aspose.Sildes for .NET API 參考
+second_title: Aspose.Sildes for .NET API 參考文件
 description: 投影片範圍
 type: docs
-weight: 10530
+weight: 10550
 url: /zh-hant/aspose.slides/slidesrange/
 ---
 ## SlidesRange 類別
@@ -27,7 +27,7 @@ public class SlidesRange
 | [End](../../aspose.slides/slidesrange/end) { get; set; } | 結束 |
 | [Start](../../aspose.slides/slidesrange/start) { get; set; } | 開始 |
 
-### 另請參閱
+### 參見
 
 * 命名空間 [Aspose.Slides](../../aspose.slides)
 * 組件 [Aspose.Slides](../../)

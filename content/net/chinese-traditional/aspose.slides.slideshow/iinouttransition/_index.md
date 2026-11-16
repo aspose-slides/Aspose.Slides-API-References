@@ -1,14 +1,14 @@
 ---
 title: IInOutTransition
-second_title: Aspose.Sildes for .NET API 參考文件
-description: 進出投影片過渡效果。
+second_title: Aspose.Sildes for .NET API 參考
+description: In-Out 投影片過渡效果。
 type: docs
-weight: 10110
+weight: 10130
 url: /zh-hant/aspose.slides.slideshow/iinouttransition/
 ---
 ## IInOutTransition 介面
 
-進出投影片過渡效果。
+In-Out 投影片過渡效果。
 
 ```csharp
 public interface IInOutTransition : ITransitionValueBase
@@ -16,12 +16,12 @@ public interface IInOutTransition : ITransitionValueBase
 
 ## 屬性
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
 | [AsITransitionValueBase](../../aspose.slides.slideshow/iinouttransition/asitransitionvaluebase) { get; } | 允許取得基礎 ITransitionValueBase 介面。唯讀 [`ITransitionValueBase`](../itransitionvaluebase)。 |
 | [Direction](../../aspose.slides.slideshow/iinouttransition/direction) { get; set; } | 過渡效果的方向。可讀寫 [`TransitionInOutDirectionType`](../transitioninoutdirectiontype)。 |
 
-### 另見
+### 另請參閱
 
 * 介面 [ITransitionValueBase](../itransitionvaluebase)
 * 命名空間 [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

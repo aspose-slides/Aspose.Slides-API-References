@@ -1,12 +1,12 @@
 ---
 title: IColumn
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla .NET referencja API
 description: Reprezentuje kolumnę w tabeli.
 type: docs
-weight: 5520
+weight: 5540
 url: /pl/aspose.slides/icolumn/
 ---
-## interfejs IColumn
+## IColumn interfejs
 
 Reprezentuje kolumnę w tabeli.
 
@@ -20,7 +20,7 @@ public interface IColumn : IBulkTextFormattable, ICellCollection
 | --- | --- |
 | [AsIBulkTextFormattable](../../aspose.slides/icolumn/asibulktextformattable) { get; } | Umożliwia pobranie podstawowego interfejsu IBulkTextFormattable. Tylko do odczytu [`IBulkTextFormattable`](../ibulktextformattable). |
 | [AsICellCollection](../../aspose.slides/icolumn/asicellcollection) { get; } | Umożliwia pobranie podstawowego interfejsu ICellCollection. Tylko do odczytu [`ICellCollection`](../icellcollection). |
-| [ColumnFormat](../../aspose.slides/icolumn/columnformat) { get; } | Zwraca obiekt ColumnFormat, który zawiera właściwości formatowania tej kolumny. Tylko do odczytu [`IColumnFormat`](../icolumnformat). |
+| [ColumnFormat](../../aspose.slides/icolumn/columnformat) { get; } | Zwraca obiekt ColumnFormat zawierający właściwości formatowania tej kolumny. Tylko do odczytu [`IColumnFormat`](../icolumnformat). |
 | [Width](../../aspose.slides/icolumn/width) { get; set; } | Zwraca lub ustawia szerokość kolumny. Odczyt/zapis Double. |
 
 ### Zobacz także

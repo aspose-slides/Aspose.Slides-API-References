@@ -1,9 +1,9 @@
 ---
 title: Marker
 second_title: Aspose.Sildes için .NET API Referansı
-description: Veri işaretleyicisini belirtir. Salt okunur IMarkeraspose.slides.charts/imarker.
+description: Bir veri işaretleyicisini belirtir. Salt okunur IMarkeraspose.slides.charts/imarker.
 type: docs
-weight: 120
+weight: 160
 url: /tr/aspose.slides.charts/ichartdatapoint/marker/
 ---
 ## IChartDataPoint.Marker özelliği
@@ -14,7 +14,7 @@ Veri işaretleyicisini belirtir. Salt okunur [`IMarker`](../../imarker).
 public IMarker Marker { get; }
 ```
 
-### Diğer
+### Ayrıca Bak
 
 * arayüz [IMarker](../../imarker)
 * arayüz [IChartDataPoint](../../ichartdatapoint)

@@ -3,12 +3,12 @@ title: PresentationPlayer
 second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Reprezentuje odtwarzacz animacji powiązanych z Presentation../aspose.slides/presentation.
 type: docs
-weight: 4390
+weight: 4410
 url: /pl/aspose.slides.export/presentationplayer/
 ---
 ## PresentationPlayer klasa
 
-Reprezentuje odtwarzacz animacji powiązany z [`Presentation`](../../aspose.slides/presentation).
+Reprezentuje odtwarzacz animacji powiązanych z [`Presentation`](../../aspose.slides/presentation).
 
 ```csharp
 public class PresentationPlayer : IDisposable
@@ -24,7 +24,7 @@ public class PresentationPlayer : IDisposable
 
 | Nazwa | Opis |
 | --- | --- |
-| [FrameIndex](../../aspose.slides.export/presentationplayer/frameindex) { get; } | Zwraca indeks klatki. |
+| [FrameIndex](../../aspose.slides.export/presentationplayer/frameindex) { get; } | Pobiera indeks klatki. |
 
 ## Metody
 
@@ -32,11 +32,11 @@ public class PresentationPlayer : IDisposable
 | --- | --- |
 | [Dispose](../../aspose.slides.export/presentationplayer/dispose)() | Zwalnia instancję [`PresentationPlayer`](../presentationplayer). |
 
-## Inne elementy
+## Inni członkowie
 
 | Nazwa | Opis |
 | --- | --- |
-| delegate [FrameTickHandler](presentationplayer.frametickhandler) | Reprezentuje obsługę tyknięcia klatki zdarzenia [`FrameTick`](./frametick). |
+| delegate [FrameTickHandler](presentationplayer.frametickhandler) | Reprezentuje obsługę ticka klatki zdarzenia [`FrameTick`](./frametick). |
 
 ### Przykłady
 

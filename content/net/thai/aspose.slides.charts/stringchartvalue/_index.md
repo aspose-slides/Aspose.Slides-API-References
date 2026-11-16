@@ -1,35 +1,35 @@
 ---
 title: StringChartValue
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แทนค่าข้อความที่สามารถจัดเก็บในเอกสารนำเสนอ pptx ได้สองวิธี 1 ในเซลล์/เซลล์ของเวิร์กบุ๊กที่เชื่อมโยงกับแชาร์ต 2 เป็นค่าตัวอักษรโดยตรง.
+description: แสดงค่ารูปแบบสตริงที่สามารถจัดเก็บในเอกสารการนำเสนอ pptx ได้สองวิธี 1 ในเซลล์/เซลล์ของ workbook ที่เกี่ยวข้องกับแผนภูมิ 2 เป็นค่าตัวอักษรตรง
 type: docs
-weight: 2410
+weight: 2430
 url: /th/aspose.slides.charts/stringchartvalue/
 ---
 ## StringChartValue คลาส
 
-แทนค่าข้อความที่สามารถจัดเก็บในเอกสารนำเสนอ pptx ได้สองวิธี: 1) ในเซลล์/เซลล์ของเวิร์กบู๊กที่เชื่อมโยงกับแชาร์ต; 2) เป็นค่าตัวอักษรโดยตรง.
+แสดงค่าสตริงที่สามารถจัดเก็บในเอกสารนำเสนอ pptx ได้สองวิธี: 1) ในเซลล์/เซลล์ของ workbook ที่เชื่อมโยงกับแผนภูมิ; 2) เป็นค่าตัวอักษรตรง
 
 ```csharp
 public class StringChartValue : BaseChartValue, IStringChartValue
 ```
 
-## คุณสมบัติ
+## Properties
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [AsCells](../../aspose.slides.charts/stringchartvalue/ascells) { get; set; } | การกำหนดค่าที่เป็น Null ไม่ได้รับอนุญาต การคืนค่าจะไม่เป็น Null เสมอ อ่าน/เขียน [`IChartCellCollection`](../ichartcellcollection). |
-| [AsLiteralString](../../aspose.slides.charts/stringchartvalue/asliteralstring) { get; set; } | คืนค่า หรือ ตั้งค่าค่าเป็นสตริงตามตัวอักษร อ่าน/เขียน String. |
-| override [Data](../../aspose.slides.charts/stringchartvalue/data) { get; set; } | คืนค่า หรือ ตั้งค่าอ็อบเจ็กต์ Data อ่าน/เขียน Object. |
-| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | ระบุว่า AsCell, AsCells, AsLiteralString หรือ AsLiteralDouble property เป็นจริงในคลาสลูก หรือไม่ กล่าวคือระบุประเภทของค่าของ Data property อ่าน/เขียน [`DataSourceType`](../datasourcetype). |
+| [AsCells](../../aspose.slides.charts/stringchartvalue/ascells) { get; set; } | ไม่อนุญาตให้กำหนดค่า null. ค่าที่ส่งกลับจะไม่เป็น null เสมอ. Read/write [`IChartCellCollection`](../ichartcellcollection). |
+| [AsLiteralString](../../aspose.slides.charts/stringchartvalue/asliteralstring) { get; set; } | ส่งคืนหรือกำหนดค่าเป็นสตริงตามตัวอักษร. Read/write String. |
+| override [Data](../../aspose.slides.charts/stringchartvalue/data) { get; set; } | ส่งคืนหรือกำหนดออบเจกต์ Data. Read/write Object. |
+| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | ระบุว่า property AsCell, AsCells, AsLiteralString หรือ AsLiteralDouble เป็นค่าในคลาสลูกหรือไม่. อีกนัยหนึ่งมันระบุประเภทของค่าของ property Data. Read/write [`DataSourceType`](../datasourcetype). |
 
-## เมธอด
+## Methods
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [GetCellsAddressInWorkbook](../../aspose.slides.charts/stringchartvalue/getcellsaddressinworkbook)() | ถ้า DataSourceType property มีค่าเป็น DataSourceType.Worksheet then เมธอดนี้จะคืนที่อยู่ของเซลล์ในเวิร์กบู๊กที่แสดงข้อมูลสตริง มิฉะนั้นจะคืนสตริงว่าง. |
-| [SetFromOneCell](../../aspose.slides.charts/stringchartvalue/setfromonecell)(IChartDataCell) | ตั้งค่าจากเซลล์ที่ระบุ. |
-| override [ToString](../../aspose.slides.charts/stringchartvalue/tostring)() | คืนค่าข้อมูลสตริง หาก DataSourceType เป็น false และไม่มีการกำหนดค่าสตริงจะคืนค่า null. |
+| [GetCellsAddressInWorkbook](../../aspose.slides.charts/stringchartvalue/getcellsaddressinworkbook)() | หาก property DataSourceType มีค่าเป็น DataSourceType.Worksheet เมธอดนี้จะส่งคืนที่อยู่ของเซลล์ใน workbook ที่แทนข้อมูลสตริง. มิฉะนั้นจะคืนสตริงว่าง. |
+| [SetFromOneCell](../../aspose.slides.charts/stringchartvalue/setfromonecell)(IChartDataCell) | กำหนดค่า จากเซลล์ที่ระบุ. |
+| override [ToString](../../aspose.slides.charts/stringchartvalue/tostring)() | ส่งคืนข้อมูลค่าสตริง. คืนค่า null หาก DataSourceType เป็น false และไม่มีค่าสตริงที่ถูกกำหนด. |
 
 ### ดูเพิ่มเติม
 

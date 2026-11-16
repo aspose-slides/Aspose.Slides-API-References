@@ -1,14 +1,14 @@
 ---
 title: SvgImage
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: เป็นตัวแทนของภาพ SVG.
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: แทนภาพ SVG.
 type: docs
-weight: 10800
+weight: 10820
 url: /th/aspose.slides/svgimage/
 ---
 ## SvgImage คลาส
 
-เป็นตัวแทนของภาพ SVG.
+แทนภาพ SVG.
 
 ```csharp
 public class SvgImage : ISvgImage
@@ -18,27 +18,27 @@ public class SvgImage : ISvgImage
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [SvgImage](svgimage#constructor)(byte[]) | สร้างอ็อบเจ็กต์ SvgImage ใหม่ |
-| [SvgImage](svgimage#constructor_2)(Stream) | สร้างอ็อบเจ็กต์ SvgImage ใหม่ |
-| [SvgImage](svgimage#constructor_4)(string) | สร้างอ็อบเจ็กต์ SvgImage ใหม่ |
-| [SvgImage](svgimage#constructor_1)(byte[], IExternalResourceResolver, string) | สร้างอ็อบเจ็กต์ SvgImage ใหม่ |
-| [SvgImage](svgimage#constructor_3)(Stream, IExternalResourceResolver, string) | สร้างอ็อบเจ็กต์ SvgImage ใหม่ |
-| [SvgImage](svgimage#constructor_5)(string, IExternalResourceResolver, string) | สร้างอ็อบเจ็กต์ SvgImage ใหม่ |
+| [SvgImage](svgimage#constructor)(byte[]) | สร้างออบเจกต์ SvgImage ใหม่. |
+| [SvgImage](svgimage#constructor_2)(Stream) | สร้างออบเจกต์ SvgImage ใหม่. |
+| [SvgImage](svgimage#constructor_4)(string) | สร้างออบเจกต์ SvgImage ใหม่. |
+| [SvgImage](svgimage#constructor_1)(byte[], IExternalResourceResolver, string) | สร้างออบเจกต์ SvgImage ใหม่. |
+| [SvgImage](svgimage#constructor_3)(Stream, IExternalResourceResolver, string) | สร้างออบเจกต์ SvgImage ใหม่. |
+| [SvgImage](svgimage#constructor_5)(string, IExternalResourceResolver, string) | สร้างออบเจกต์ SvgImage ใหม่. |
 
 ## คุณสมบัติ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [BaseUri](../../aspose.slides/svgimage/baseuri) { get; } | ส่งคืน URI พื้นฐานของ Svg ที่ระบุ ใช้สำหรับแก้ไขลิงก์แบบสัมพัทธ์ อ่านอย่างเดียว String |
-| [ExternalResourceResolver](../../aspose.slides/svgimage/externalresourceresolver) { get; } | ส่งคืนอินเทอร์เฟซ callback ที่ใช้เพื่อแก้ไขทรัพยากรภายนอกระหว่างการนำเข้าเอกสาร Svg อ่านอย่างเดียว [`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver) |
-| [SvgContent](../../aspose.slides/svgimage/svgcontent) { get; } | ส่งคืนเนื้อหา SVG อ่านอย่างเดียว String |
-| [SvgData](../../aspose.slides/svgimage/svgdata) { get; } | ส่งคืนข้อมูล SVG อ่านอย่างเดียว Byte[] |
+| [BaseUri](../../aspose.slides/svgimage/baseuri) { get; } | ส่งคืน base URI ของ Svg ที่ระบุ ใช้เพื่อแก้ไขลิงก์สัมพันธ์ อ่านอย่างเดียว String. |
+| [ExternalResourceResolver](../../aspose.slides/svgimage/externalresourceresolver) { get; } | ส่งคืนอินเทอร์เฟซ callback ที่ใช้เพื่อแก้ไขทรัพยากรภายนอกระหว่างการนำเข้าเอกสาร Svg. อ่านอย่างเดียว [`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver). |
+| [SvgContent](../../aspose.slides/svgimage/svgcontent) { get; } | ส่งคืนเนื้อหา SVG. อ่านอย่างเดียว String. |
+| [SvgData](../../aspose.slides/svgimage/svgdata) { get; } | ส่งคืนข้อมูล SVG. อ่านอย่างเดียว Byte[]. |
 
-## เมธอด
+## วิธีการ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [WriteAsEmf](../../aspose.slides/svgimage/writeasemf)(Stream) | บันทึกภาพ SVG เป็นไฟล์ EMF |
+| [WriteAsEmf](../../aspose.slides/svgimage/writeasemf)(Stream) | บันทึกภาพ SVG เป็นไฟล์ EMF. |
 
 ### ดูเพิ่มเติม
 

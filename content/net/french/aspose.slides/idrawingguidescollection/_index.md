@@ -1,14 +1,14 @@
 ---
 title: IDrawingGuidesCollection
-second_title: Référence API Aspose.Sildes pour .NET
-description: Représente une collection de guides de dessin réglables.
+second_title: Référence de l'API Aspose.Sildes pour .NET
+description: Représente une collection des guides de dessin réglables.
 type: docs
-weight: 5730
+weight: 5750
 url: /fr/aspose.slides/idrawingguidescollection/
 ---
 ## IDrawingGuidesCollection interface
 
-Représente une collection de guides de dessin réglables.
+Représente une collection des guides de dessin réglables.
 
 ```csharp
 public interface IDrawingGuidesCollection : IEnumerable<IDrawingGuide>

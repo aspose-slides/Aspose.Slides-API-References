@@ -1,14 +1,14 @@
 ---
 title: Hide
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Rendi l'etichetta dei dati nascosta per impostazione predefinita impostando tutti i flag Show-flags (ShowValue, ...) della proprietà DefaultDataLabelFormat su false. IsVisible sarà false dopo questa operazione.
+second_title: Aspose.Sildes per .NET Riferimento API
+description: Nascondi l'etichetta dati per impostazione predefinita impostando tutti i flag Show (ShowValue ...) della proprietà DefaultDataLabelFormat allo stato false. IsVisible sarà false dopo questa operazione.
 type: docs
-weight: 100
+weight: 110
 url: /it/aspose.slides.charts/datalabelcollection/hide/
 ---
-## DataLabelCollection.Hide method
+## DataLabelCollection.Hide metodo
 
-Rendi l'etichetta dei dati nascosta per impostazione predefinita impostando tutti i flag Show*- (ShowValue, ...) della proprietà DefaultDataLabelFormat su false. IsVisible sarà false dopo questa operazione.
+Rendi l'etichetta dati nascosta per impostazione predefinita impostando tutti i flag Show*- (ShowValue, ...) della proprietà DefaultDataLabelFormat sullo stato false. IsVisible sarà false dopo questa operazione.
 
 ```csharp
 public void Hide()
@@ -16,7 +16,7 @@ public void Hide()
 
 ### Osservazioni
 
-Se l'etichetta dei dati non è visibile per impostazione predefinita (IsVisible è false) è possibile renderla "visibile per impostazione predefinita" impostando i flag Show*- (ShowValue, ...) della proprietà DefaultDataLabelFormat su true.
+Se l'etichetta dati non è visibile per impostazione predefinita (IsVisible è false) è possibile rendere l'etichetta dati "visibile per impostazione predefinita" impostando i flag Show*- (ShowValue, ...) della proprietà DefaultDataLabelFormat sullo stato true.
 
 ### Vedi anche
 

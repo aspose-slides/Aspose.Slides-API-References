@@ -1,31 +1,31 @@
 ---
 title: ILicense
 second_title: Aspose.Sildes для .NET справочник API
-description: Предоставляет методы для лицензирования компонента.
+description: Предоставляет методы лицензирования компонента.
 type: docs
-weight: 6260
+weight: 6280
 url: /ru/aspose.slides/ilicense/
 ---
 ## ILicense интерфейс
 
-Предоставляет методы для лицензирования компонента.
+Обеспечивает методы лицензирования компонента.
 
 ```csharp
-public interface ILLicense
+public interface ILicense
 ```
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [IsLicensed](../../aspose.slides/ilicense/islicensed)() | Проверяет, применена ли лицензия к компоненту |
-| [ResetLicense](../../aspose.slides/ilicense/resetlicense)() | Сбрасывает лицензию |
+| [IsLicensed](../../aspose.slides/ilicense/islicensed)() | Проверить, применена ли лицензия к компоненту |
+| [ResetLicense](../../aspose.slides/ilicense/resetlicense)() | Сбросить лицензию |
 | [SetLicense](../../aspose.slides/ilicense/setlicense#setlicense)(Stream) | Лицензирует компонент. |
 | [SetLicense](../../aspose.slides/ilicense/setlicense#setlicense_1)(string) | Лицензирует компонент. |
 
 ### Примеры
 
-В этом примере будет предпринята попытка найти файл лицензии с именем MyLicense.lic в папке, содержащей компонент, в папке, содержащей вызывающую сборку, в папке основной сборки, а затем во встроенных ресурсах вызывающей сборки.
+В этом примере будет предпринята попытка найти файл лицензии с именем MyLicense.lic в папке, содержащей компонент, в папке, содержащей вызывающую сборку, в папке входной сборки, а затем во встроенных ресурсах вызывающей сборки.
 
 ```csharp
 [C#]

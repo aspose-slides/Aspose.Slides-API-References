@@ -1,14 +1,14 @@
 ---
 title: DrawingGuide
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Vertegenwoordigt een verstelbare tekengids.
+description: Stelt een aanpasbare tekengids voor.
 type: docs
-weight: 2810
+weight: 2830
 url: /nl/aspose.slides/drawingguide/
 ---
 ## DrawingGuide klasse
 
-Vertegenwoordigt een verstelbare tekengids.
+Stelt een aanpasbare tekengids voor.
 
 ```csharp
 public sealed class DrawingGuide : IDrawingGuide
@@ -18,9 +18,9 @@ public sealed class DrawingGuide : IDrawingGuide
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Color](../../aspose.slides/drawingguide/color) { get; set; } | Geeft de kleur van de tekengids terug of stelt deze in. Lezen/schrijven Color. |
-| [Orientation](../../aspose.slides/drawingguide/orientation) { get; set; } | Geeft de oriëntatie van de tekengids terug of stelt deze in. Lezen/schrijven [`Orientation`](../orientation). |
-| [Position](../../aspose.slides/drawingguide/position) { get; set; } | Geeft de positie van de tekengids in punten vanaf de bovenste, linkse hoek van de dia terug of stelt deze in. Lezen/schrijven Single. |
+| [Color](../../aspose.slides/drawingguide/color) { get; set; } | Retourneert of stelt de kleur van de tekengids in. Lezen/schrijven Color. |
+| [Orientation](../../aspose.slides/drawingguide/orientation) { get; set; } | Retourneert of stelt de oriëntatie van de tekengids in. Lezen/schrijven [`Orientation`](../orientation). |
+| [Position](../../aspose.slides/drawingguide/position) { get; set; } | Retourneert of stelt de positie van de tekengids in punten vanaf de boven-linker hoek van de dia. Lezen/schrijven Single. |
 
 ### Zie ook
 

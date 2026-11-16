@@ -1,14 +1,14 @@
 ---
 title: IMathNaryOperator
-second_title: Aspose.Sildes para a Referência da API .NET
-description: Especifica um objeto matemático N-ário, como Somatório e Integral. Consiste em um operador, uma base ou operando e limites superiores e inferiores opcionais. Exemplos de operadores N-ários são Somatório, União, Interseção, Integral
+second_title: Referência da API Aspose.Sildes para .NET
+description: Especifica um objeto matemático N-ário, como Summation e Integral. Consiste em um operador, uma base ou operando e limites superiores e inferiores opcionais. Exemplos de operadores N-ário são Summation, Union, Intersection, Integral.
 type: docs
-weight: 8360
+weight: 8380
 url: /pt/aspose.slides.mathtext/imathnaryoperator/
 ---
 ## IMathNaryOperator interface
 
-Especifica um objeto matemático N-ário, como Somatório e Integral. Consiste em um operador, uma base (ou operando) e limites superiores e inferiores opcionais. Exemplos de operadores N-ários são: Somatório, União, Interseção, Integral
+Especifica um objeto matemático N-ário, como Summation e Integral. Consiste em um operador, uma base (ou operando) e limites superiores e inferiores opcionais. Exemplos de operadores N-ários são: Summation, Union, Intersection, Integral
 
 ```csharp
 public interface IMathNaryOperator : IMathElement, IMathNaryOperatorProperties
@@ -33,7 +33,7 @@ Exemplo:
 IMathNaryOperator naryOperator = new MathematicalText("x").Nary(MathNaryOperatorTypes.Summation, "x=1", "100");
 ```
 
-### Veja Também
+### Ver Também
 
 * interface [IMathElement](../imathelement)
 * interface [IMathNaryOperatorProperties](../imathnaryoperatorproperties)

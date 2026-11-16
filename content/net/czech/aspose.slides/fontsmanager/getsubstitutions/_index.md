@@ -1,14 +1,14 @@
 ---
 title: GetSubstitutions
 second_title: Aspose.Sildes pro .NET API Reference
-description: Získává informace o fontech, které budou nahrazeny při vykreslování prezentací.
+description: Získá informace o písmech, která budou nahrazena při vykreslování prezentací.
 type: docs
-weight: 80
+weight: 90
 url: /cs/aspose.slides/fontsmanager/getsubstitutions/
 ---
 ## GetSubstitutions() {#getsubstitutions}
 
-Získává informace o fontech, které budou nahrazeny při vykreslování prezentace.
+Získá informace o písmech, která budou nahrazena při vykreslování prezentace.
 
 ```csharp
 public IEnumerable<FontSubstitutionInfo> GetSubstitutions()
@@ -16,7 +16,7 @@ public IEnumerable<FontSubstitutionInfo> GetSubstitutions()
 
 ### Návratová hodnota
 
-Kolekce všech substitucí fontů [`FontSubstitutionInfo`](../../fontsubstitutioninfo).
+Kolekce všech substitucí písem [`FontSubstitutionInfo`](../../fontsubstitutioninfo).
 
 ### Příklady
 
@@ -41,7 +41,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 ## GetSubstitutions(int[]) {#getsubstitutions_1}
 
-Získává informace o fontech, které budou nahrazeny během vykreslování určených snímků.
+Získá informace o písmech, která budou nahrazena během vykreslování určených snímků.
 
 ```csharp
 public IEnumerable<FontSubstitutionInfo> GetSubstitutions(int[] slides)
@@ -49,11 +49,11 @@ public IEnumerable<FontSubstitutionInfo> GetSubstitutions(int[] slides)
 
 | Parametr | Typ | Popis |
 | --- | --- | --- |
-| slides | Int32[] | Pole indexů snímků, pro které se mají načíst informace o substituci fontů, počínaje 1. |
+| slides | Int32[] | Pole indexů snímků, pro které se mají získat informace o substituci písem, počínaje 1. |
 
 ### Návratová hodnota
 
-Kolekce všech substitucí fontů ([`FontSubstitutionInfo`](../../fontsubstitutioninfo)) pro určené snímky.
+Kolekce všech substitucí písem ([`FontSubstitutionInfo`](../../fontsubstitutioninfo)) pro určené snímky.
 
 ### Příklady
 

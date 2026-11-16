@@ -1,9 +1,9 @@
 ---
 title: Field
-second_title: Справочник API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET справочник API
 description: Представляет поле.
 type: docs
-weight: 4750
+weight: 4770
 url: /ru/aspose.slides/field/
 ---
 ## Field класс
@@ -18,7 +18,7 @@ public sealed class Field : DomObject<Portion>, IField
 
 | Имя | Описание |
 | --- | --- |
-| [Type](../../aspose.slides/field/type) { get; set; } | Возвращает или устанавливает тип поля. Чтение/запись [`IFieldType`](../ifieldtype). |
+| [Type](../../aspose.slides/field/type) { get; set; } | Возвращает или задаёт тип поля. Чтение/запись [`IFieldType`](../ifieldtype). |
 
 ### См. также
 

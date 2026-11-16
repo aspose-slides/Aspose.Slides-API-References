@@ -1,14 +1,14 @@
 ---
 title: IDataLabelFormat
-second_title: Aspose.Sildes для .NET справочник API
-description: Представляет параметры форматирования для DataLabel.
+second_title: Aspose.Sildes для .NET Справочник API
+description: Представляет варианты форматирования для DataLabel.
 type: docs
-weight: 2040
+weight: 2060
 url: /ru/aspose.slides.charts/idatalabelformat/
 ---
 ## IDataLabelFormat интерфейс
 
-Представляет параметры форматирования для DataLabel.
+Represents formatting options for DataLabel.
 
 ```csharp
 public interface IDataLabelFormat : IFormattedTextContainer
@@ -16,28 +16,28 @@ public interface IDataLabelFormat : IFormattedTextContainer
 
 ## Свойства
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
 | [AsIFormattedTextContainer](../../aspose.slides.charts/idatalabelformat/asiformattedtextcontainer) { get; } | Позволяет получить базовый интерфейс IFormattedTextContainer. Только для чтения [`IFormattedTextContainer`](../iformattedtextcontainer). |
-| [Format](../../aspose.slides.charts/idatalabelformat/format) { get; } | Представляет формат метки данных. Только для чтения [`IFormat`](../iformat). |
+| [Format](../../aspose.slides.charts/idatalabelformat/format) { get; } | Представляет формат подписи данных. Только для чтения [`IFormat`](../iformat). |
 | [IsNumberFormatLinkedToSource](../../aspose.slides.charts/idatalabelformat/isnumberformatlinkedtosource) { get; set; } | Чтение/запись Boolean. |
 | [NumberFormat](../../aspose.slides.charts/idatalabelformat/numberformat) { get; set; } | Представляет строку формата для объекта DataLabels. Чтение/запись String. |
-| [Position](../../aspose.slides.charts/idatalabelformat/position) { get; set; } | Представляет позицию метки данных. Чтение/запись [`LegendDataLabelPosition`](../legenddatalabelposition). |
-| [Separator](../../aspose.slides.charts/idatalabelformat/separator) { get; set; } | Устанавливает или возвращает Variant, представляющий разделитель, используемый для меток данных на диаграмме. Чтение/запись String. |
-| [ShowBubbleSize](../../aspose.slides.charts/idatalabelformat/showbubblesize) { get; set; } | Представляет поведение отображения значения размера пузырика метки данных заданной диаграммы. True отображает значение размера пузырика. False скрывает. Чтение/запись Boolean. |
-| [ShowCategoryName](../../aspose.slides.charts/idatalabelformat/showcategoryname) { get; set; } | Представляет поведение отображения названия категории метки данных заданной диаграммы. True отображает название категории. False скрывает. Чтение/запись Boolean. |
-| [ShowLabelAsDataCallout](../../aspose.slides.charts/idatalabelformat/showlabelasdatacallout) { get; set; } | Определяет, будет ли метка данных указанной диаграммы отображаться как выноска данных или как обычная метка данных. Если родительским объектом этого DataLabelFormat является коллекция DataLabelCollection меток данных, то это свойство получает или задает значение по умолчанию свойства ShowLabelAsDataCallout для новых меток данных в коллекции DataLabelCollection. Установка этого свойства также задает значение свойства ShowLabelAsDataCallout для всех меток данных в коллекции DataLabelCollection (например, "DataLabels.DefaultDataLabelFormat.ShowLabelAsDataCallout = val;" приводит к тому, что для всех DataLabels[i].ShowLabelAsDataCallout устанавливается значение val). |
-| [ShowLabelValueFromCell](../../aspose.slides.charts/idatalabelformat/showlabelvaluefromcell) { get; set; } | Представляет поведение отображения значения ячейки метки данных заданной диаграммы. True отображает значение ячейки. False скрывает. Чтение/запись Boolean. |
-| [ShowLeaderLines](../../aspose.slides.charts/idatalabelformat/showleaderlines) { get; set; } | Представляет поведение отображения линий-выноски метки данных заданной диаграммы. True отображает линии-выноски. False скрывает. Чтение/запись Boolean. |
-| [ShowLegendKey](../../aspose.slides.charts/idatalabelformat/showlegendkey) { get; set; } | Представляет поведение отображения ключа легенды метки данных заданной диаграммы. True, если ключ легенды метки данных виден. Чтение/запись Boolean. |
-| [ShowPercentage](../../aspose.slides.charts/idatalabelformat/showpercentage) { get; set; } | Представляет поведение отображения процентного значения метки данных заданной диаграммы. True отображает процентное значение. False скрывает. Чтение/запись Boolean. |
-| [ShowSeriesName](../../aspose.slides.charts/idatalabelformat/showseriesname) { get; set; } | Возвращает или задает Boolean, указывающий поведение отображения названия ряда для меток данных на диаграмме. True показывает название ряда. False скрывает. Чтение/запись Boolean. |
-| [ShowValue](../../aspose.slides.charts/idatalabelformat/showvalue) { get; set; } | Представляет поведение отображения процентного значения метки данных заданной диаграммы. True отображает процентное значение. False скрывает. Чтение/запись Boolean. |
+| [Position](../../aspose.slides.charts/idatalabelformat/position) { get; set; } | Представляет положение подписи данных. Чтение/запись [`LegendDataLabelPosition`](../legenddatalabelposition). |
+| [Separator](../../aspose.slides.charts/idatalabelformat/separator) { get; set; } | Устанавливает или возвращает Variant, представляющий разделитель, используемый для подписей данных на диаграмме. Чтение/запись String. |
+| [ShowBubbleSize](../../aspose.slides.charts/idatalabelformat/showbubblesize) { get; set; } | Представляет поведение отображения значения размера пузыря подписи данных на указанной диаграмме. True отображает значение размера пузыря. False скрывает. Чтение/запись Boolean. |
+| [ShowCategoryName](../../aspose.slides.charts/idatalabelformat/showcategoryname) { get; set; } | Представляет поведение отображения имени категории подписи данных на указанной диаграмме. True отображает имя категории для подписей данных на диаграмме. False скрывает. Чтение/запись Boolean. |
+| [ShowLabelAsDataCallout](../../aspose.slides.charts/idatalabelformat/showlabelasdatacallout) { get; set; } | Определяет, будет ли подпись данных указанной диаграммы отображаться как выноска данных или как подпись данных. Если родителем этого объекта DataLabelFormat является коллекция DataLabelCollection подсказок данных, то это свойство получает или задает значение по умолчанию свойства ShowLabelAsDataCallout для новых подписей данных в коллекции DataLabelCollection. Установка этого свойства со значением также задает это значение свойству ShowLabelAsDataCallout для всех подписей данных в коллекции DataLabelCollection (например, "DataLabels.DefaultDataLabelFormat.ShowLabelAsDataCallout = val;" приводит к тому, что у всех DataLabels[i].ShowLabelAsDataCallout будет равно val). |
+| [ShowLabelValueFromCell](../../aspose.slides.charts/idatalabelformat/showlabelvaluefromcell) { get; set; } | Представляет поведение отображения значения ячейки подписи данных на указанной диаграмме. True отображает значение ячейки. False скрывает. Чтение/запись Boolean. |
+| [ShowLeaderLines](../../aspose.slides.charts/idatalabelformat/showleaderlines) { get; set; } | Представляет поведение отображения направляющих линий подписи данных на указанной диаграмме. True отображает направляющие линии. False скрывает. Чтение/запись Boolean. |
+| [ShowLegendKey](../../aspose.slides.charts/idatalabelformat/showlegendkey) { get; set; } | Представляет поведение отображения ключа легенды подписи данных на указанной диаграмме. True, если ключ легенды подписи данных видим. Чтение/запись Boolean. |
+| [ShowPercentage](../../aspose.slides.charts/idatalabelformat/showpercentage) { get; set; } | Представляет поведение отображения процентного значения подписи данных на указанной диаграмме. True отображает процентное значение. False скрывает. Чтение/запись Boolean. |
+| [ShowSeriesName](../../aspose.slides.charts/idatalabelformat/showseriesname) { get; set; } | Возвращает или задает Boolean, указывающий поведение отображения имени серии для подписей данных на диаграмме. True показывает имя серии. False скрывает. Чтение/запись Boolean. |
+| [ShowValue](../../aspose.slides.charts/idatalabelformat/showvalue) { get; set; } | Представляет поведение отображения процентного значения подписи данных на указанной диаграмме. True отображает процентное значение. False скрывает. Чтение/запись Boolean. |
 
-### См. также
+### Смотрите также
 
 * интерфейс [IFormattedTextContainer](../iformattedtextcontainer)
-* пространство имен [Aspose.Slides.Charts](../../aspose.slides.charts)
+* пространство имён [Aspose.Slides.Charts](../../aspose.slides.charts)
 * сборка [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

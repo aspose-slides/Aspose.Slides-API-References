@@ -1,14 +1,14 @@
 ---
 title: IBulkTextFormattable
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta un oggetto con la possibilità di impostare in blocco i formati degli elementi di testo figli.
+description: Rappresenta un oggetto con la possibilità di impostare in blocco i formati degli elementi di testo figlio.
 type: docs
-weight: 5380
+weight: 5400
 url: /it/aspose.slides/ibulktextformattable/
 ---
-## Interfaccia IBulkTextFormattable
+## IBulkTextFormattable interfaccia
 
-Rappresenta un oggetto con la possibilità di impostare in blocco i formati degli elementi di testo figli.
+Rappresenta un oggetto con possibilità di impostare in blocco i formati degli elementi di testo figlio.
 
 ```csharp
 public interface IBulkTextFormattable
@@ -18,9 +18,9 @@ public interface IBulkTextFormattable
 
 | Nome | Descrizione |
 | --- | --- |
-| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat)(IParagraphFormat) | Imposta le proprietà di formato del paragrafo definite su tutti i paragrafi dell'elemento. |
-| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat_1)(IPortionFormat) | Imposta le proprietà di formato della porzione definite su tutte le porzioni dell'elemento. |
-| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat_2)(ITextFrameFormat) | Imposta le proprietà di formato del frame di testo definite su tutti i frame di testo dell'elemento. |
+| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat)(IParagraphFormat) | Imposta le proprietà del formato di paragrafo definite su tutti i paragrafi dell'elemento. |
+| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat_1)(IPortionFormat) | Imposta le proprietà del formato di porzione definite su tutte le porzioni dell'elemento. |
+| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat_2)(ITextFrameFormat) | Imposta le proprietà del formato del frame di testo definite su tutti i frame di testo dell'elemento. |
 
 ### Vedi anche
 

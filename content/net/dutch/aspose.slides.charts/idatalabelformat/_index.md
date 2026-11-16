@@ -1,14 +1,14 @@
 ---
 title: IDataLabelFormat
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt de opmaakopties voor DataLabel voor.
+description: Geeft opmaakopties voor DataLabel weer.
 type: docs
-weight: 2040
+weight: 2060
 url: /nl/aspose.slides.charts/idatalabelformat/
 ---
 ## IDataLabelFormat interface
 
-Stelt een interface voor met opmaakopties voor DataLabel.
+Geeft opmaakopties voor DataLabel weer.
 
 ```csharp
 public interface IDataLabelFormat : IFormattedTextContainer
@@ -18,26 +18,26 @@ public interface IDataLabelFormat : IFormattedTextContainer
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIFormattedTextContainer](../../aspose.slides.charts/idatalabelformat/asiformattedtextcontainer) { get; } | Staat toe om de basis IFormattedTextContainer interface op te halen. Alleen-lezen [`IFormattedTextContainer`](../iformattedtextcontainer). |
-| [Format](../../aspose.slides.charts/idatalabelformat/format) { get; } | Representeert het formaat van het gegevenslabel. Alleen-lezen [`IFormat`](../iformat). |
+| [AsIFormattedTextContainer](../../aspose.slides.charts/idatalabelformat/asiformattedtextcontainer) { get; } | Staat toe de basis IFormattedTextContainer interface op te halen. Alleen-lezen [`IFormattedTextContainer`](../iformattedtextcontainer). |
+| [Format](../../aspose.slides.charts/idatalabelformat/format) { get; } | Geeft het formaat van het data-label weer. Alleen-lezen [`IFormat`](../iformat). |
 | [IsNumberFormatLinkedToSource](../../aspose.slides.charts/idatalabelformat/isnumberformatlinkedtosource) { get; set; } | Lezen/schrijven Boolean. |
-| [NumberFormat](../../aspose.slides.charts/idatalabelformat/numberformat) { get; set; } | Representeert de opmaakreeks voor het DataLabels-object. Lezen/schrijven String. |
-| [Position](../../aspose.slides.charts/idatalabelformat/position) { get; set; } | Representeert de positie van het gegevenslabel. Lezen/schrijven [`LegendDataLabelPosition`](../legenddatalabelposition). |
-| [Separator](../../aspose.slides.charts/idatalabelformat/separator) { get; set; } | Stelt een Variant in of retourneert deze, die de scheidingsteken vertegenwoordigt dat wordt gebruikt voor de gegevenslabels op een grafiek. Lezen/schrijven String. |
-| [ShowBubbleSize](../../aspose.slides.charts/idatalabelformat/showbubblesize) { get; set; } | Representeert het weergavegedrag van de bubbelaanzeed-waarde van het gegevenslabel van een opgegeven grafiek. True geeft de bubbelaanzeed-waarde weer. False verbergt deze. Lezen/schrijven Boolean. |
-| [ShowCategoryName](../../aspose.slides.charts/idatalabelformat/showcategoryname) { get; set; } | Representeert het weergavegedrag van de categorienaam van het gegevenslabel van een opgegeven grafiek. True om de categorienaam weer te geven voor de gegevenslabels op een grafiek. False om te verbergen. Lezen/schrijven Boolean. |
-| [ShowLabelAsDataCallout](../../aspose.slides.charts/idatalabelformat/showlabelasdatacallout) { get; set; } | Bepaalt of het gegevenslabel van een opgegeven grafiek wordt weergegeven als data callout of als gegevenslabel. Als de ouder van dit DataLabelFormat-object een DataLabelCollection-collectie van gegevenslabels is, dan haalt deze eigenschap de standaardwaarde van de ShowLabelAsDataCallout-eigenschap op of stelt deze in voor de nieuwe gegevenslabels in de DataLabelCollection-collectie. Stel deze eigenschap in met een waarde, dan wordt deze waarde ook ingesteld op de ShowLabelAsDataCallout-eigenschap voor alle gegevenslabels in de DataLabelCollection-collectie (bijv. "DataLabels.DefaultDataLabelFormat.ShowLabelAsDataCallout = val;" waardoor alle DataLabels[i].ShowLabelAsDataCallout gelijk zijn aan val). |
-| [ShowLabelValueFromCell](../../aspose.slides.charts/idatalabelformat/showlabelvaluefromcell) { get; set; } | Representeert het weergavegedrag van de celwaarde van het gegevenslabel van een opgegeven grafiek. True geeft de celwaarde weer. False verbergt deze. Lezen/schrijven Boolean. |
-| [ShowLeaderLines](../../aspose.slides.charts/idatalabelformat/showleaderlines) { get; set; } | Representeert het weergavegedrag van de leidende lijnen van het gegevenslabel van een opgegeven grafiek. True geeft de leidende lijnen weer. False verbergt deze. Lezen/schrijven Boolean. |
-| [ShowLegendKey](../../aspose.slides.charts/idatalabelformat/showlegendkey) { get; set; } | Representeert het weergavegedrag van de legende-sleutel van het gegevenslabel van een opgegeven grafiek. True als de legende-sleutel van het gegevenslabel zichtbaar is. Lezen/schrijven Boolean. |
-| [ShowPercentage](../../aspose.slides.charts/idatalabelformat/showpercentage) { get; set; } | Representeert het weergavegedrag van de procentwaarde van het gegevenslabel van een opgegeven grafiek. True geeft de procentwaarde weer. False verbergt deze. Lezen/schrijven Boolean. |
-| [ShowSeriesName](../../aspose.slides.charts/idatalabelformat/showseriesname) { get; set; } | Geeft een Boolean terug of stelt deze in om het weergavegedrag van de serienaam voor de gegevenslabels op een grafiek aan te geven. True om de serienaam weer te geven. False om te verbergen. Lezen/schrijven Boolean. |
-| [ShowValue](../../aspose.slides.charts/idatalabelformat/showvalue) { get; set; } | Representeert het weergavegedrag van de procentwaarde van het gegevenslabel van een opgegeven grafiek. True geeft de procentwaarde weer. False verbergt deze. Lezen/schrijven Boolean. |
+| [NumberFormat](../../aspose.slides.charts/idatalabelformat/numberformat) { get; set; } | Geeft de opmaakreeks voor het DataLabels-object weer. Lezen/schrijven String. |
+| [Position](../../aspose.slides.charts/idatalabelformat/position) { get; set; } | Geeft de positie van het data-label weer. Lezen/schrijven [`LegendDataLabelPosition`](../legenddatalabelposition). |
+| [Separator](../../aspose.slides.charts/idatalabelformat/separator) { get; set; } | Stelt een Variant in of geeft deze terug die het scheidingsteken weergeeft dat wordt gebruikt voor de data-labels op een diagram. Lezen/schrijven String. |
+| [ShowBubbleSize](../../aspose.slides.charts/idatalabelformat/showbubblesize) { get; set; } | Geeft het weergavegedrag van de bolgrootte-waarde van data-labels voor een specifiek diagram weer. True toont de bolgrootte-waarde. False verbergt deze. Lezen/schrijven Boolean. |
+| [ShowCategoryName](../../aspose.slides.charts/idatalabelformat/showcategoryname) { get; set; } | Geeft het weergavegedrag van de categorienaam van data-labels voor een specifiek diagram weer. True om de categorienaam voor de data-labels op een diagram te tonen. False om te verbergen. Lezen/schrijven Boolean. |
+| [ShowLabelAsDataCallout](../../aspose.slides.charts/idatalabelformat/showlabelasdatacallout) { get; set; } | Bepaalt of het data-label van een bepaald diagram wordt weergegeven als een data-callout of als een data-label. Als de ouder van dit DataLabelFormat-object een DataLabelCollection-collectie van data-labels is, dan haalt deze eigenschap de standaardwaarde op of stelt deze in voor de ShowLabelAsDataCallout-eigenschap van de nieuwe data-labels in de DataLabelCollection-collectie. Het instellen van deze eigenschap met een waarde stelt deze waarde ook in voor de ShowLabelAsDataCallout-eigenschap van alle data-labels in de DataLabelCollection-collectie (bijv. "DataLabels.DefaultDataLabelFormat.ShowLabelAsDataCallout = val;" zorgt ervoor dat alle DataLabels[i].ShowLabelAsDataCallout gelijk is aan val). |
+| [ShowLabelValueFromCell](../../aspose.slides.charts/idatalabelformat/showlabelvaluefromcell) { get; set; } | Geeft het weergavegedrag van de celwaarde van data-labels voor een specifiek diagram weer. True toont de celwaarde. False verbergt deze. Lezen/schrijven Boolean. |
+| [ShowLeaderLines](../../aspose.slides.charts/idatalabelformat/showleaderlines) { get; set; } | Geeft het weergavegedrag van de leiderlijnen van data-labels voor een specifiek diagram weer. True toont de leiderlijnen. False verbergt ze. Lezen/schrijven Boolean. |
+| [ShowLegendKey](../../aspose.slides.charts/idatalabelformat/showlegendkey) { get; set; } | Geeft het weergavegedrag van de legende-sleutel van data-labels voor een specifiek diagram weer. True als de legende-sleutel van het data-label zichtbaar is. Lezen/schrijven Boolean. |
+| [ShowPercentage](../../aspose.slides.charts/idatalabelformat/showpercentage) { get; set; } | Geeft het weergavegedrag van de procentwaarde van data-labels voor een specifiek diagram weer. True toont de procentwaarde. False verbergt deze. Lezen/schrijven Boolean. |
+| [ShowSeriesName](../../aspose.slides.charts/idatalabelformat/showseriesname) { get; set; } | Geeft een Boolean terug of stelt deze in om het weergavegedrag van de serienaam voor de data-labels op een diagram aan te geven. True om de serienaam te tonen. False om te verbergen. Lezen/schrijven Boolean. |
+| [ShowValue](../../aspose.slides.charts/idatalabelformat/showvalue) { get; set; } | Geeft het weergavegedrag van de procentwaarde van data-labels voor een specifiek diagram weer. True toont de procentwaarde. False verbergt deze. Lezen/schrijven Boolean. |
 
 ### Zie ook
 
 * interface [IFormattedTextContainer](../iformattedtextcontainer)
-* namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
+* naamruimte [Aspose.Slides.Charts](../../aspose.slides.charts)
 * assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

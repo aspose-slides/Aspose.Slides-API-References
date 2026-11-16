@@ -1,14 +1,14 @@
 ---
 title: ZoomLayout
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Specifica il layout di zoom riepilogativo.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Specifica il layout di zoom di riepilogo.
 type: docs
-weight: 11860
+weight: 11880
 url: /it/aspose.slides/zoomlayout/
 ---
-## ZoomLayout enumerazione
+## Enumerazione ZoomLayout
 
-Specifica il layout di zoom riepilogativo.
+Specifica il layout di zoom di riepilogo.
 
 ```csharp
 public enum ZoomLayout

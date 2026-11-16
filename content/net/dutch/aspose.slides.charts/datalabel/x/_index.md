@@ -1,14 +1,14 @@
 ---
 title: X
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Retourneert of stelt de x-coördinaat van een titel in als een fractie van de breedte van de grafiek. Lezen/schrijven Single.
+description: Geeft de x-coördinaat van een titel terug of stelt deze in als een fractie van de breedte van de grafiek. Lezen/Schrijven Single.
 type: docs
-weight: 160
+weight: 170
 url: /nl/aspose.slides.charts/datalabel/x/
 ---
 ## DataLabel.X eigenschap
 
-Retourneert of stelt de x-coördinaat van een titel in als een fractie van de breedte van de grafiek. Lezen/schrijven Single.
+Geeft de x-coördinaat van een titel terug of stelt deze in als een fractie van de breedte van de grafiek. Lezen/Schrijven Single.
 
 ```csharp
 public float X { get; set; }

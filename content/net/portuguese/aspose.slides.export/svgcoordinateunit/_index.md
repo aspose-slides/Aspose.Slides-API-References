@@ -1,9 +1,9 @@
 ---
 title: SvgCoordinateUnit
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para referência da API .NET
 description: Representa unidades de coordenadas CSS2 usadas para definir coordenadas SVG.
 type: docs
-weight: 4480
+weight: 4500
 url: /pt/aspose.slides.export/svgcoordinateunit/
 ---
 ## Enumeração SvgCoordinateUnit
@@ -18,15 +18,15 @@ public enum SvgCoordinateUnit
 
 | Nome | Valor | Descrição |
 | --- | --- | --- |
-| Inch | `0` | Polegada |
-| Centimeter | `1` | Centímetro. |
-| Millimeter | `2` | Milímetro. |
-| Point | `3` | Ponto (1/72 de polegada), |
+| Inch | `0` | Inch |
+| Centimeter | `1` | Centimeter. |
+| Millimeter | `2` | Millimeter. |
+| Point | `3` | Point (1/72 de polegada), |
 | Pica | `4` | Pica (1/6 de polegada). |
-| Em | `5` | Tamanho Em de uma fonte do elemento contêiner. |
-| Ex | `6` | Tamanho Ex (tamanho da letra minúscula, normalmente "x") da fonte do elemento contêiner. |
-| Pixel | `7` | Tamanho do pixel. |
-| Percent | `8` | Porcentagem. |
+| Em | `5` | Em tamanho de uma fonte do elemento contido. |
+| Ex | `6` | Ex tamanho (tamanho da letra minúscula, usualmente "x") da fonte do elemento contido. |
+| Pixel | `7` | Pixel tamanho. |
+| Percent | `8` | Percent. |
 
 ### Veja Também
 

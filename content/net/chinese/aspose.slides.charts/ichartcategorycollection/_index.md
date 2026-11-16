@@ -1,9 +1,9 @@
 ---
 title: IChartCategoryCollection
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 表示 IChartCategory 的集合。/ichartcategory
 type: docs
-weight: 1760
+weight: 1780
 url: /zh/aspose.slides.charts/ichartcategorycollection/
 ---
 ## IChartCategoryCollection 接口
@@ -18,22 +18,22 @@ public interface IChartCategoryCollection : IGenericCollection<IChartCategory>
 
 | 名称 | 描述 |
 | --- | --- |
-| [GroupingLevelCount](../../aspose.slides.charts/ichartcategorycollection/groupinglevelcount) { get; } | 返回使用的类别分组级别计数。对于多级类别，该值大于1。只读 Int32。 |
+| [GroupingLevelCount](../../aspose.slides.charts/ichartcategorycollection/groupinglevelcount) { get; } | 返回使用的类别分组级别的计数。多层类别时大于一。只读 Int32。 |
 | [Item](../../aspose.slides.charts/ichartcategorycollection/item) { get; } | 获取指定索引处的元素。 |
-| [UseCells](../../aspose.slides.charts/ichartcategorycollection/usecells) { get; set; } | 如果为 true，则工作表用于存储类别（此情况下支持多级类别）。如果为 false，则工作表不用于存储值（此情况下不支持多级类别）。可读写 Boolean。 |
+| [UseCells](../../aspose.slides.charts/ichartcategorycollection/usecells) { get; set; } | 如果为 true，则工作表用于存储类别（此情况支持多层类别）。如果为 false，则工作表不用于存储值（此情况不支持多层类别）。读写 Boolean。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [Add](../../aspose.slides.charts/ichartcategorycollection/add#add)(IChartDataCell) | 如果集合中存在该类别，则返回它。否则根据 [`IChartDataCell`](../ichartdatacell) 创建新的图表类别并将其添加到集合中。 |
-| [Add](../../aspose.slides.charts/ichartcategorycollection/add#add_1)(object) | 根据值创建新的 [`IChartCategory`](../ichartcategory) 并将其添加到集合中。 |
+| [Add](../../aspose.slides.charts/ichartcategorycollection/add#add)(IChartDataCell) | 如果集合中存在该类别，则返回它。否则从 [`IChartDataCell`](../ichartdatacell) 创建新的图表类别并将其添加到集合中。 |
+| [Add](../../aspose.slides.charts/ichartcategorycollection/add#add_1)(object) | 从值创建新的 [`IChartCategory`](../ichartcategory) 并将其添加到集合中。 |
 | [Clear](../../aspose.slides.charts/ichartcategorycollection/clear)() | 从集合中移除所有元素。 |
-| [IndexOf](../../aspose.slides.charts/ichartcategorycollection/indexof)(IChartCategory) | 搜索指定的 [`IChartCategory`](../ichartcategory)，并返回整个集合中首次出现的从零开始的索引。 |
+| [IndexOf](../../aspose.slides.charts/ichartcategorycollection/indexof)(IChartCategory) | 在整个集合中搜索指定的 [`IChartCategory`](../ichartcategory)，并返回第一次出现的零基索引。 |
 | [Remove](../../aspose.slides.charts/ichartcategorycollection/remove)(IChartCategory) | 移除指定的值。 |
 | [RemoveAt](../../aspose.slides.charts/ichartcategorycollection/removeat)(int) | 移除给定索引处的元素。 |
 
-### 另见
+### 另请参阅
 
 * 接口 [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * 接口 [IChartCategory](../ichartcategory)

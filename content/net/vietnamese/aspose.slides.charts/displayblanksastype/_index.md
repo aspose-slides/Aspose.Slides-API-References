@@ -1,28 +1,28 @@
 ---
 title: DisplayBlanksAsType
 second_title: Tham khảo API Aspose.Sildes cho .NET
-description: Xác định cách hiển thị dữ liệu bị thiếu.
+description: Xác định cách dữ liệu bị thiếu sẽ được hiển thị.
 type: docs
-weight: 1610
+weight: 1620
 url: /vi/aspose.slides.charts/displayblanksastype/
 ---
-## enumeration DisplayBlanksAsType
+## DisplayBlanksAsType liệt kê
 
-Xác định cách hiển thị dữ liệu bị thiếu.
+Xác định cách dữ liệu bị thiếu sẽ được hiển thị.
 
 ```csharp
 public enum DisplayBlanksAsType
 ```
 
-### Values
+### Giá trị
 
 | Tên | Giá trị | Mô tả |
 | --- | --- | --- |
-| Gap | `0` | Chỉ định rằng các giá trị trống sẽ được để lại như một khoảng trống. |
-| Span | `1` | Chỉ định rằng các giá trị trống sẽ được kéo dài bằng một đường kẻ. |
-| Zero | `2` | Chỉ định rằng các giá trị trống sẽ được xem như là số zero. |
+| Gap | `0` | Chỉ định rằng các giá trị trống sẽ được để lại dưới dạng khoảng trống. |
+| Span | `1` | Chỉ định rằng các giá trị trống sẽ được nối bằng một đường kẻ. |
+| Zero | `2` | Chỉ định rằng các giá trị trống sẽ được coi là số 0. |
 
-### See Also
+### Xem thêm
 
 * không gian tên [Aspose.Slides.Charts](../../aspose.slides.charts)
 * bộ lắp ráp [Aspose.Slides](../../)

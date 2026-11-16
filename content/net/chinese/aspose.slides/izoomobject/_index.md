@@ -1,14 +1,14 @@
 ---
 title: IZoomObject
-second_title: Aspose.Sildes for .NET API 参考
-description: 表示幻灯片中的 Zoom 对象。
+second_title: Aspose.Sildes 的 .NET API 参考
+description: 表示幻灯片中的缩放对象。
 type: docs
-weight: 7410
+weight: 7430
 url: /zh/aspose.slides/izoomobject/
 ---
 ## IZoomObject 接口
 
-表示幻灯片中的 Zoom 对象。
+表示幻灯片中的缩放对象。
 
 ```csharp
 public interface IZoomObject : IGraphicalObject
@@ -16,14 +16,14 @@ public interface IZoomObject : IGraphicalObject
 
 ## 属性
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
-| [AsIGraphicalObject](../../aspose.slides/izoomobject/asigraphicalobject) { get; } | 允许获取基 IGraphicalObject 接口。只读 [`IGraphicalObject`](../igraphicalobject)。 |
-| [ImageType](../../aspose.slides/izoomobject/imagetype) { get; set; } | 获取或设置 Zoom 对象的图像类型。可读/可写 [`ZoomImageType`](../zoomimagetype)。默认值：Preview |
-| [ReturnToParent](../../aspose.slides/izoomobject/returntoparent) { get; set; } | 获取或设置幻灯片放映中的导航行为。可读/可写 Boolean。默认值：false |
-| [ShowBackground](../../aspose.slides/izoomobject/showbackground) { get; set; } | 获取或设置指定 Zoom 是否使用目标幻灯片背景的值。可读/可写 Boolean。默认值：true |
-| [TransitionDuration](../../aspose.slides/izoomobject/transitionduration) { get; set; } | 获取或设置 Zoom 与幻灯片之间过渡的持续时间。可读/可写 Single。默认值：1.0f |
-| [ZoomImage](../../aspose.slides/izoomobject/zoomimage) { get; set; } | 获取或设置 Zoom 对象的图像。可读/可写 [`IPPImage`](../ippimage)。 |
+| [AsIGraphicalObject](../../aspose.slides/izoomobject/asigraphicalobject) { get; } | 允许获取基础 IGraphicalObject 接口。只读 [`IGraphicalObject`](../igraphicalobject)。 |
+| [ImageType](../../aspose.slides/izoomobject/imagetype) { get; set; } | 获取或设置缩放对象的图像类型。读写 [`ZoomImageType`](../zoomimagetype)。默认值: Preview |
+| [ReturnToParent](../../aspose.slides/izoomobject/returntoparent) { get; set; } | 获取或设置幻灯片放映中的导航行为。读写 Boolean。默认值: false |
+| [ShowBackground](../../aspose.slides/izoomobject/showbackground) { get; set; } | 获取或设置指定 Zoom 是否使用目标幻灯片背景的值。读写 Boolean。默认值: true |
+| [TransitionDuration](../../aspose.slides/izoomobject/transitionduration) { get; set; } | 获取或设置 Zoom 与幻灯片之间过渡的持续时间。读写 Single。默认值: 1.0f |
+| [ZoomImage](../../aspose.slides/izoomobject/zoomimage) { get; set; } | 获取或设置缩放对象的图像。读写 [`IPPImage`](../ippimage)。 |
 
 ### 另见
 

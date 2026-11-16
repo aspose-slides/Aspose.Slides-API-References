@@ -1,14 +1,14 @@
 ---
 title: ReplaceText
 second_title: Aspose.Sildes for .NET API 참조
-description: 지정된 텍스트의 모든 발생을 다른 지정된 텍스트로 교체합니다.
+description: 지정된 텍스트의 모든 항목을 다른 지정된 텍스트로 교체합니다.
 type: docs
-weight: 380
+weight: 390
 url: /ko/aspose.slides/presentation/replacetext/
 ---
 ## Presentation.ReplaceText 메서드
 
-지정된 텍스트의 모든 발생을 다른 지정된 텍스트로 교체합니다.
+지정된 텍스트의 모든 항목을 다른 지정된 텍스트로 교체합니다.
 
 ```csharp
 public void ReplaceText(string oldText, string newText, ITextSearchOptions options, 
@@ -17,10 +17,10 @@ public void ReplaceText(string oldText, string newText, ITextSearchOptions optio
 
 | 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
-| oldText | String | 교체될 문자열. |
-| newText | String | oldText의 모든 발생을 교체할 문자열. |
+| oldText | String | 교체될 문자열입니다. |
+| newText | String | oldText의 모든 발생을 교체할 문자열입니다. |
 | options | ITextSearchOptions | 텍스트 검색 옵션 [`ITextSearchOptions`](../../itextsearchoptions). |
-| callback | IFindResultCallback | 검색 결과를 수신하기 위한 콜백 객체 [`IFindResultCallback`](../../ifindresultcallback). |
+| callback | IFindResultCallback | 검색 결과를 받기 위한 콜백 객체 [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### 예제
 
@@ -30,7 +30,7 @@ public void ReplaceText(string oldText, string newText, ITextSearchOptions optio
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
-	// 모든 별도 'the' 발생을 '***' 로 교체합니다
+	// 모든 별도의 'the' 발생을 '***'으로 교체합니다
 	presentation.ReplaceText("the", "***", new TextSearchOptions() {WholeWordsOnly = true}, null);
 	presentation.Save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 }

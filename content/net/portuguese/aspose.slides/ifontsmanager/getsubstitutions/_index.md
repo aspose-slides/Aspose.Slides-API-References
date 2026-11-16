@@ -1,14 +1,14 @@
 ---
 title: GetSubstitutions
-second_title: Referência da API Aspose.Sildes para .NET
-description: Obtém as informações sobre as fontes que serão substituídas na renderização das apresentações.
+second_title: Aspose.Sildes para Referência de API .NET
+description: Obtém as informações sobre fontes que serão substituídas na renderização das apresentações.
 type: docs
-weight: 80
+weight: 90
 url: /pt/aspose.slides/ifontsmanager/getsubstitutions/
 ---
 ## GetSubstitutions() {#getsubstitutions}
 
-Obtém as informações sobre as fontes que serão substituídas na renderização da apresentação.
+Obtém as informações sobre fontes que serão substituídas na renderização da apresentação.
 
 ```csharp
 public IEnumerable<FontSubstitutionInfo> GetSubstitutions()
@@ -30,7 +30,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }        
 ```
 
-### Veja Também
+### Ver também
 
 * classe [FontSubstitutionInfo](../../fontsubstitutioninfo)
 * interface [IFontsManager](../../ifontsmanager)
@@ -41,7 +41,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 ## GetSubstitutions(int[]) {#getsubstitutions_1}
 
-Obtém as informações sobre as fontes que serão substituídas durante a renderização dos slides especificados.
+Obtém as informações sobre fontes que serão substituídas durante a renderização dos slides especificados.
 
 ```csharp
 public IEnumerable<FontSubstitutionInfo> GetSubstitutions(int[] slides)
@@ -49,7 +49,7 @@ public IEnumerable<FontSubstitutionInfo> GetSubstitutions(int[] slides)
 
 | Parâmetro | Tipo | Descrição |
 | --- | --- | --- |
-| slides | Int32[] | Uma matriz de índices de slides para os quais recuperar informações de substituição de fontes, começando em 1. |
+| slides | Int32[] | Um array de índices de slides para os quais recuperar informações de substituição de fontes, começando em 1. |
 
 ### Valor de Retorno
 
@@ -68,7 +68,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Veja Também
+### Ver também
 
 * classe [FontSubstitutionInfo](../../fontsubstitutioninfo)
 * interface [IFontsManager](../../ifontsmanager)

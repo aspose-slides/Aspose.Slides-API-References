@@ -1,14 +1,14 @@
 ---
 title: XValue
-second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mengembalikan nilai x dari titik data bagan. Hanya baca IStringOrDoubleChartValueaspose.slides.charts/istringordoublechartvalue.
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Mendapatkan nilai x dari titik data diagram. Hanya baca IStringOrDoubleChartValueaspose.slides.charts/istringordoublechartvalue.
 type: docs
-weight: 170
+weight: 210
 url: /id/aspose.slides.charts/ichartdatapoint/xvalue/
 ---
 ## IChartDataPoint.XValue properti
 
-Mengembalikan nilai x dari titik data chart. Hanya baca [`IStringOrDoubleChartValue`](../../istringordoublechartvalue).
+Mendapatkan nilai x dari titik data diagram. Hanya baca [`IStringOrDoubleChartValue`](../../istringordoublechartvalue).
 
 ```csharp
 public IStringOrDoubleChartValue XValue { get; }

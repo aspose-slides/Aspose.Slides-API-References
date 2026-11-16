@@ -3,7 +3,7 @@ title: LightRig
 second_title: Aspose.Sildes for .NET API リファレンス
 description: LightRig を表します。
 type: docs
-weight: 7690
+weight: 7710
 url: /ja/aspose.slides/lightrig/
 ---
 ## LightRig クラス
@@ -16,20 +16,20 @@ public sealed class LightRig : PVIObject, ILightRig
 
 ## プロパティ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | ベースの IPresentationComponent インターフェイスを取得できます。読み取り専用 [`IPresentationComponent`](../ipresentationcomponent)。 |
-| [Direction](../../aspose.slides/lightrig/direction) { get; set; } | 光の方向。読み取り/書き込み [`LightingDirection`](../lightingdirection)。 |
-| [LightType](../../aspose.slides/lightrig/lighttype) { get; set; } | シェイプに適用できるプリセット光源を表します。LightRig は、3D シーンに対して特定の方向に配置された光のグループを表します。読み取り/書き込み [`LightRigPresetType`](../lightrigpresettype)。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | ベース IPresentationComponent インターフェイスを取得できます。 読み取り専用 [`IPresentationComponent`](../ipresentationcomponent)。 |
+| [Direction](../../aspose.slides/lightrig/direction) { get; set; } | 光の方向。 読み取り/書き込み [`LightingDirection`](../lightingdirection)。 |
+| [LightType](../../aspose.slides/lightrig/lighttype) { get; set; } | シェイプに適用できるプリセット光源を表します。 Light rig は 3D シーンに対して特定の向きで配置された光のグループを表します。 読み取り/書き込み [`LightRigPresetType`](../lightrigpresettype)。 |
 
 ## メソッド
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | 指定されたオブジェクトと比較します。 |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | ハッシュコードを返します。 |
-| [GetRotation](../../aspose.slides/lightrig/getrotation)() | 回転は、緯度座標、経度座標、および緯度・経度座標として軸周りの回転を使用して定義されます。戻り配列の最初の要素は緯度、2 番目は経度、3 番目は回転です。回転が定義されていない場合は null を返します。 |
-| [SetRotation](../../aspose.slides/lightrig/setrotation)(float, float, float) | 回転は、緯度座標、経度座標、および軸周りの回転を使用して定義されます。座標値のいずれかが float.NaN の場合、回転は未定義となります。 |
+| [GetRotation](../../aspose.slides/lightrig/getrotation)() | 緯度座標、経度座標、および軸周りの回転により回転が定義されます。返却配列の最初の要素は緯度、2 番目は経度、3 番目は回転です。回転が定義されていない場合は null を返します。 |
+| [SetRotation](../../aspose.slides/lightrig/setrotation)(float, float, float) | 緯度座標、経度座標、および軸周りの回転により回転が定義されます。座標値のいずれかが float.NaN の場合、すべての回転は未定義です。 |
 
 ### 参照
 

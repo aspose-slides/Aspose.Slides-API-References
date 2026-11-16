@@ -3,10 +3,10 @@ title: TimeUnitType
 second_title: Aspose.Sildes สำหรับ .NET API Reference
 description: แสดงถึงหน่วยฐานสำหรับแกนประเภท
 type: docs
-weight: 2460
+weight: 2480
 url: /th/aspose.slides.charts/timeunittype/
 ---
-## enumeration TimeUnitType
+## TimeUnitType การนับค่า
 
 แสดงถึงหน่วยฐานสำหรับแกนประเภท
 
@@ -19,9 +19,9 @@ public enum TimeUnitType
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
 | None | `0` | ค่าจะถูกแสดงตามที่เป็น |
-| Days | `1` | ระบุว่าข้อมูลแผนภูมิจะถูกแสดงเป็นวัน |
-| Months | `2` | ระบุว่าข้อมูลแผนภูมิจะถูกแสดงเป็นเดือน |
-| Years | `3` | ระบุว่าข้อมูลแผนภูมิจะถูกแสดงเป็นปี |
+| Days | `1` | ระบุว่าข้อมูลแผนภูมิจะแสดงเป็นวัน |
+| Months | `2` | ระบุว่าข้อมูลแผนภูมิจะแสดงเป็นเดือน |
+| Years | `3` | ระบุว่าข้อมูลแผนภูมิจะแสดงเป็นปี |
 
 ### ดูเพิ่มเติม
 

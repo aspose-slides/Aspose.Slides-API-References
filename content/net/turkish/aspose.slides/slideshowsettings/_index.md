@@ -3,10 +3,10 @@ title: SlideShowSettings
 second_title: Aspose.Sildes için .NET API Referansı
 description: Sunum için slayt gösterisi ayarlarını temsil eder.
 type: docs
-weight: 10480
+weight: 10500
 url: /tr/aspose.slides/slideshowsettings/
 ---
-## SlideShowSettings sınıf
+## SlideShowSettings sınıfı
 
 Sunum için slayt gösterisi ayarlarını temsil eder.
 
@@ -18,14 +18,14 @@ public class SlideShowSettings
 
 | Ad | Açıklama |
 | --- | --- |
-| [Loop](../../aspose.slides/slideshowsettings/loop) { get; set; } | Slayt Gösterisini Döngüle |
-| [PenColor](../../aspose.slides/slideshowsettings/pencolor) { get; } | Slayt Gösterisi için Kalem Rengi |
-| [ShowAnimation](../../aspose.slides/slideshowsettings/showanimation) { get; set; } | Slayt Gösterisinde Animasyonu Göster |
-| [ShowMediaControls](../../aspose.slides/slideshowsettings/showmediacontrols) { get; set; } | Medya Kontrollerini Göster |
-| [ShowNarration](../../aspose.slides/slideshowsettings/shownarration) { get; set; } | Slayt Gösterisinde Anlatımı Göster |
+| [Loop](../../aspose.slides/slideshowsettings/loop) { get; set; } | Slayt gösterisini döngüye al |
+| [PenColor](../../aspose.slides/slideshowsettings/pencolor) { get; } | Slayt gösterisi için kalem rengi |
+| [ShowAnimation](../../aspose.slides/slideshowsettings/showanimation) { get; set; } | Slayt gösterisinde animasyonu göster |
+| [ShowMediaControls](../../aspose.slides/slideshowsettings/showmediacontrols) { get; set; } | Medya kontrollerini göster |
+| [ShowNarration](../../aspose.slides/slideshowsettings/shownarration) { get; set; } | Slayt gösterisinde anlatımı göster |
 | [Slides](../../aspose.slides/slideshowsettings/slides) { get; set; } | Slayt aralığı |
-| [SlideShowType](../../aspose.slides/slideshowsettings/slideshowtype) { get; set; } | Slayt gösterisi türünü alır veya ayarlar. Aşağıdaki [`SlideShowType`](./slideshowtype) atalar tarafından temsil edilir: [`BrowsedAtKiosk`](../browsedatkiosk), [`PresentedBySpeaker`](../presentedbyspeaker) ve [`BrowsedByIndividual`](../browsedbyindividual) |
-| [UseTimings](../../aspose.slides/slideshowsettings/usetimings) { get; set; } | Slayt Gösterisinde Zamanlamaları Kullan |
+| [SlideShowType](../../aspose.slides/slideshowsettings/slideshowtype) { get; set; } | Slayt gösterisi türünü alır veya ayarlar. Aşağıdaki [`SlideShowType`](./slideshowtype) atalarıyla temsil edilir: [`BrowsedAtKiosk`](../browsedatkiosk), [`PresentedBySpeaker`](../presentedbyspeaker) ve [`BrowsedByIndividual`](../browsedbyindividual) |
+| [UseTimings](../../aspose.slides/slideshowsettings/usetimings) { get; set; } | Slayt gösterisinde zamanlamaları kullan |
 
 ### Ayrıca Bakınız
 

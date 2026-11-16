@@ -1,14 +1,14 @@
 ---
 title: IPortionFactory
 second_title: Aspose.Sildes för .NET API-referens
-description: Tillåter att skapa testdelar
+description: Tillåter att skapa testportioner
 type: docs
-weight: 6720
+weight: 6740
 url: /sv/aspose.slides/iportionfactory/
 ---
 ## IPortionFactory gränssnitt
 
-Tillåter att skapa testdelar
+Tillåter att skapa testportioner
 
 ```csharp
 public interface IPortionFactory
@@ -18,9 +18,9 @@ public interface IPortionFactory
 
 | Namn | Beskrivning |
 | --- | --- |
-| [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion)() | Skapar en tom textdel. |
-| [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion_1)(IPortion) | Skapar en del med användning av specificerad deldata. |
-| [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion_2)(string) | Skapar en textdel från specificerad sträng. |
+| [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion)() | Skapar en tom textportion. |
+| [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion_1)(IPortion) | Skapar en portion med användning av specificerad portionsdata. |
+| [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion_2)(string) | Skapar en textportion från en specificerad sträng. |
 
 ### Anmärkningar
 

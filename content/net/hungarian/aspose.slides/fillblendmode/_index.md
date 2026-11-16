@@ -1,9 +1,9 @@
 ---
 title: FillBlendMode
-second_title: Aspose.Sildes a .NET API hivatkozáshoz
+second_title: Aspose.Sildes .NET API referencia
 description: Meghatározza a keverési módot.
 type: docs
-weight: 4770
+weight: 4790
 url: /hu/aspose.slides/fillblendmode/
 ---
 ## FillBlendMode enumeráció
@@ -14,7 +14,7 @@ Meghatározza a keverési módot.
 public enum FillBlendMode
 ```
 
-### Values
+### Értékek
 
 | Név | Érték | Leírás |
 | --- | --- | --- |

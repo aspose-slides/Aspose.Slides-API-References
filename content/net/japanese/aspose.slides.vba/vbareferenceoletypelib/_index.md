@@ -1,31 +1,31 @@
 ---
 title: VbaReferenceOleTypeLib
 second_title: Aspose.Sildes for .NET API リファレンス
-description: OLE Automation タイプライブラリ参照を表します。
+description: OLE Automation タイプ ライブラリ参照を表します。
 type: docs
-weight: 11690
+weight: 11710
 url: /ja/aspose.slides.vba/vbareferenceoletypelib/
 ---
 ## VbaReferenceOleTypeLib クラス
 
-OLE Automation タイプライブラリ参照を表します。
+OLE Automation タイプ ライブラリ参照を表します。
 
 ```csharp
 public class VbaReferenceOleTypeLib : IVbaReferenceOleTypeLib
 ```
 
-## コンストラクタ
+## コンストラクター
 
 | 名前 | 説明 |
 | --- | --- |
-| [VbaReferenceOleTypeLib](vbareferenceoletypelib)(string, string) | このコンストラクタは新しい OLE Automation タイプライブラリ参照を作成します。 |
+| [VbaReferenceOleTypeLib](vbareferenceoletypelib)(string, string) | このコンストラクターは新しい OLE Automation タイプ ライブラリ参照を作成します。 |
 
 ## プロパティ
 
 | 名前 | 説明 |
 | --- | --- |
-| [Libid](../../aspose.slides.vba/vbareferenceoletypelib/libid) { get; set; } | Automation タイプライブラリの識別子を表します。読み取り/書き込み String. |
-| [Name](../../aspose.slides.vba/vbareferenceoletypelib/name) { get; set; } | VBA プロジェクト参照の名前を表します。読み取り/書き込み String. |
+| [Libid](../../aspose.slides.vba/vbareferenceoletypelib/libid) { get; set; } | Automation タイプ ライブラリの識別子を表します。読み取り/書き込み String。 |
+| [Name](../../aspose.slides.vba/vbareferenceoletypelib/name) { get; set; } | VBA プロジェクト参照の名前を表します。読み取り/書き込み String。 |
 
 ### 参照
 

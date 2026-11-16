@@ -3,10 +3,10 @@ title: SourceFormat
 second_title: Aspose.Sildes .NET API referencia
 description: A forrásfájl formátumát jelöli.
 type: docs
-weight: 10680
+weight: 10700
 url: /hu/aspose.slides/sourceformat/
 ---
-## SourceFormat felsorolás
+## SourceFormat enumeráció
 
 A forrásfájl formátumát jelöli.
 
@@ -18,19 +18,19 @@ public enum SourceFormat
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| Ppt | `0` | Microsoft PowerPoint 97-2003 Presentation (*.ppt). |
-| Pptx | `1` | Microsoft Office Open XML Presentation (*.pptx). |
-| Odp | `2` | OpenDocument Presentation (*.odp). |
-| Pptm | `3` | Microsoft Office Open XML Macro-enabled Presentation (*.pptm). |
-| Ppsx | `4` | Microsoft Office Open XML SlideShow (*.ppsx). |
-| Ppsm | `5` | Microsoft Office Open XML Macro-enabled SlideShow (*.ppsm). |
-| Potx | `6` | Microsoft Office Open XML Template (*.potx). |
-| Potm | `7` | Microsoft Office Open XML Macro-enabled Template (*.potm). |
-| Pps | `8` | Microsoft PowerPoint 97-2003 SlideShow (*.pps). |
-| Pot | `9` | Microsoft PowerPoint 97-2003 Template (*.pot). |
-| Otp | `10` | OpenDocument Presentation Template (*.otp). |
-| Fodp | `11` | Flat XML ODF Presentation (*.fodp). |
-| Xml | `12` | PowerPoint XML Presentation (*.xml). |
+| Ppt | `0` | Microsoft PowerPoint 97-2003 prezentáció (*.ppt). |
+| Pptx | `1` | Microsoft Office Open XML prezentáció (*.pptx). |
+| Odp | `2` | OpenDocument prezentáció (*.odp). |
+| Pptm | `3` | Microsoft Office Open XML makróval bővített prezentáció (*.pptm). |
+| Ppsx | `4` | Microsoft Office Open XML diavetítés (*.ppsx). |
+| Ppsm | `5` | Microsoft Office Open XML makróval bővített diavetítés (*.ppsm). |
+| Potx | `6` | Microsoft Office Open XML sablon (*.potx). |
+| Potm | `7` | Microsoft Office Open XML makróval bővített sablon (*.potm). |
+| Pps | `8` | Microsoft PowerPoint 97-2003 diavetítés (*.pps). |
+| Pot | `9` | Microsoft PowerPoint 97-2003 sablon (*.pot). |
+| Otp | `10` | OpenDocument prezentációs sablon (*.otp). |
+| Fodp | `11` | Flat XML ODF prezentáció (*.fodp). |
+| Xml | `12` | PowerPoint XML prezentáció (*.xml). |
 
 ### Lásd még
 

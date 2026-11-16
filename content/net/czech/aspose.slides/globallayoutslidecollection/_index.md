@@ -1,14 +1,14 @@
 ---
 title: GlobalLayoutSlideCollection
 second_title: Aspose.Sildes pro .NET API Reference
-description: Představuje kolekci všech rozvrhových snímků v prezentaci. Rozšiřuje třídu LayoutSlideCollection metodami pro přidávání/klonování rozvrhových snímků v kontextu sjednocování jednotlivých kolekcí rozvrhových snímků hlavních snímků.
+description: Representuje kolekci všech layout snímků v prezentaci. Rozšiřuje LayoutSlideCollection třídu metodami pro přidávání/klonování layout snímků v kontextu sjednocení jednotlivých kolekcí hlavních layout snímků.
 type: docs
-weight: 4980
+weight: 5000
 url: /cs/aspose.slides/globallayoutslidecollection/
 ---
 ## GlobalLayoutSlideCollection třída
 
-Represents a collection of all layout slides in presentation. Extends LayoutSlideCollection class with methods for adding/cloning layout slides in context of uniting of the individual collections of master's layout slides.
+Reprezentuje kolekci všech layout slide v prezentaci. Rozšiřuje LayoutSlideCollection třída metodami pro přidávání/klonování layout slide v kontextu sjednocení jednotlivých kolekcí masterových layout slide.
 
 ```csharp
 public sealed class GlobalLayoutSlideCollection : LayoutSlideCollection, 
@@ -17,31 +17,31 @@ public sealed class GlobalLayoutSlideCollection : LayoutSlideCollection,
 
 ## Vlastnosti
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides/layoutslidecollection/count) { get; } | Vrací počet rozvrhových snímků v kolekci. Pouze pro čtení Int32. |
-| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | Vrací hodnotu určující, zda je přístup ke kolekci synchronizován (vláknově bezpečný). Pouze pro čtení Boolean. |
-| [Item](../../aspose.slides/layoutslidecollection/item) { get; } | Vrací rozvrhový snímek podle indexu. Pouze pro čtení [`LayoutSlide`](../layoutslide). |
+| [Count](../../aspose.slides/layoutslidecollection/count) { get; } | Vrací počet layout slide v kolekci. Pouze pro čtení Int32. |
+| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | Vrací hodnotu indikující, zda je přístup ke kolekci synchronizován (thread-safe). Pouze pro čtení Boolean. |
+| [Item](../../aspose.slides/layoutslidecollection/item) { get; } | Vrací layout slide podle indexu. Pouze pro čtení [`LayoutSlide`](../layoutslide). |
 | [SyncRoot](../../aspose.slides/layoutslidecollection/syncroot) { get; } | Vrací kořen synchronizace. Pouze pro čtení Object. |
 
 ## Metody
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
-| [Add](../../aspose.slides/globallayoutslidecollection/add)(IMasterSlide, SlideLayoutType, string) | Přidá nový rozvrhový snímek do prezentace. |
-| [AddClone](../../aspose.slides/globallayoutslidecollection/addclone#addclone)(ILayoutSlide) | Přidá kopii určeného rozvrhového snímku do prezentace. |
-| [AddClone](../../aspose.slides/globallayoutslidecollection/addclone#addclone_1)(ILayoutSlide, IMasterSlide) | Přidá kopii určeného rozvrhového snímku do prezentace. |
-| [CopyTo](../../aspose.slides/layoutslidecollection/copyto)(Array, int) | Zkopíruje všechny prvky ze sbírky do určeného pole. |
-| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | Vrací první rozvrhový snímek zadaného typu. Typ rozvrhového snímku, který se má najít.[`LayoutSlide`](../layoutslide) s určeným typem nebo null, pokud nebyly nalezeny žádné rozvrhy. |
-| [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | Vrací enumerátor, který iteruje přes kolekci. |
-| [Remove](../../aspose.slides/layoutslidecollection/remove)(ILayoutSlide) | Odstraní rozvrh z kolekce. |
-| [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | Odstraní nepoužívané rozvrhové snímky (rozvrhové snímky, jejichž HasDependingSlides je false). |
+| [Add](../../aspose.slides/globallayoutslidecollection/add)(IMasterSlide, SlideLayoutType, string) | Přidá nový layout slide do prezentace. |
+| [AddClone](../../aspose.slides/globallayoutslidecollection/addclone#addclone)(ILayoutSlide) | Přidá kopii specifikovaného layout slide do prezentace. |
+| [AddClone](../../aspose.slides/globallayoutslidecollection/addclone#addclone_1)(ILayoutSlide, IMasterSlide) | Přidá kopii specifikovaného layout slide do prezentace. |
+| [CopyTo](../../aspose.slides/layoutslidecollection/copyto)(Array, int) | Zkopíruje všechny prvky z kolekce do zadaného pole. |
+| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | Vrací první layout slide zadaného typu. Typ layout slide, který se má najít.[`LayoutSlide`](../layoutslide) s daným typem nebo null, pokud nebyly nalezeny žádné layout. |
+| [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | Vrací enumerátor, který prochází kolekcí. |
+| [Remove](../../aspose.slides/layoutslidecollection/remove)(ILayoutSlide) | Odstraní layout z kolekce. |
+| [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | Odstraní nepoužívané layout slide (layout slide, jejichž HasDependingSlides je false). |
 
 ### Viz také
 
 * třída [LayoutSlideCollection](../layoutslidecollection)
 * rozhraní [IGlobalLayoutSlideCollection](../igloballayoutslidecollection)
 * jmenný prostor [Aspose.Slides](../../aspose.slides)
-* sestavení [Aspose.Slides](../../)
+* assemblie [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

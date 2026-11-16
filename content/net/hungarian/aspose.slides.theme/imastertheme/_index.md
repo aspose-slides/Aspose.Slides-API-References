@@ -1,14 +1,14 @@
 ---
 title: IMasterTheme
 second_title: Aspose.Sildes .NET API referencia
-description: Egy mester témát képvisel.
+description: Egy mester témát reprezentál.
 type: docs
-weight: 11310
+weight: 11330
 url: /hu/aspose.slides.theme/imastertheme/
 ---
 ## IMasterTheme interfész
 
-Egy mester téma.
+Egy mester témát reprezentál.
 
 ```csharp
 public interface IMasterTheme : ITheme
@@ -18,9 +18,9 @@ public interface IMasterTheme : ITheme
 
 | Név | Leírás |
 | --- | --- |
-| [AsITheme](../../aspose.slides.theme/imastertheme/asitheme) { get; } | Lehetővé teszi, hogy lekérje az alap ITheme interfészt. Csak olvasható [`ITheme`](../itheme). |
-| [ExtraColorSchemes](../../aspose.slides.theme/imastertheme/extracolorschemes) { get; } | Visszaadja a további színsémák gyűjteményét. Ezek a sémák nem befolyásolják a prezentáció megjelenését, kiválaszthatók fő színsémaként egy dián. Csak olvasható [`IExtraColorSchemeCollection`](../iextracolorschemecollection). |
-| [Name](../../aspose.slides.theme/imastertheme/name) { get; set; } | Visszaadja egy téma nevét. Olvasható/írható String. |
+| [AsITheme](../../aspose.slides.theme/imastertheme/asitheme) { get; } | Lehetővé teszi a base ITheme interfész lekérdezését. Csak olvasható [`ITheme`](../itheme). |
+| [ExtraColorSchemes](../../aspose.slides.theme/imastertheme/extracolorschemes) { get; } | Visszaadja a további színsémák gyűjteményét. Ezek a sémák nem befolyásolják a bemutató megjelenését, kiválaszthatók fő színsémaként egy diára. Csak olvasható [`IExtraColorSchemeCollection`](../iextracolorschemecollection). |
+| [Name](../../aspose.slides.theme/imastertheme/name) { get; set; } | Visszaadja a téma nevét. Olvasás/írás String. |
 
 ### Lásd még
 

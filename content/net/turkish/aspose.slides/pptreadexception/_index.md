@@ -1,14 +1,14 @@
 ---
 title: PptReadException
-second_title: Aspose.Sildes için .NET API Referansı
-description: Sunum okuma hatalarında atılan bir istisna temsil eder.
+second_title: Aspose.Sildes .NET için API Referansı
+description: Sunum okuma hatalarında ortaya çıkan bir istisnayı temsil eder.
 type: docs
-weight: 9530
+weight: 9550
 url: /tr/aspose.slides/pptreadexception/
 ---
 ## PptReadException sınıf
 
-Sunum okuma hatalarında atılan bir istisnayı temsil eder.
+Sunum okuma hatalarında meydana gelen bir istisnayı temsil eder.
 
 ```csharp
 public class PptReadException : PptException
@@ -19,8 +19,8 @@ public class PptReadException : PptException
 | Ad | Açıklama |
 | --- | --- |
 | [PptReadException](pptreadexception#constructor)() | Varsayılan yapıcı. |
-| [PptReadException](pptreadexception#constructor_1)(string) | Bu istisna için bir mesaj eklenmesine izin veren yapıcı. |
-| [PptReadException](pptreadexception#constructor_2)(string, Exception) | Mesaj ve gömülü bir istisna içeren bir istisna için yapıcı. |
+| [PptReadException](pptreadexception#constructor_1)(string) | Bu istisna'ya bir ileti eklenmesine izin veren yapıcı. |
+| [PptReadException](pptreadexception#constructor_2)(string, Exception) | Bir ileti ve gömülü bir istisna içeren istisna için yapıcı. |
 
 ### Ayrıca Bakınız
 

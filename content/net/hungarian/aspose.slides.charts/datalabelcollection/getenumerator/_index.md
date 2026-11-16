@@ -3,7 +3,7 @@ title: GetEnumerator
 second_title: Aspose.Sildes .NET API referencia
 description: Visszaad egy enumerátort, amely végigiterál a gyűjteményen.
 type: docs
-weight: 90
+weight: 100
 url: /hu/aspose.slides.charts/datalabelcollection/getenumerator/
 ---
 ## DataLabelCollection.GetEnumerator metódus
@@ -16,7 +16,7 @@ public IEnumerator<IDataLabel> GetEnumerator()
 
 ### Visszatérési érték
 
-Az IEnumerator, amely a gyűjteményen történő iteráláshoz használható.
+Egy IEnumerator, amely használható a gyűjtemény bejárására.
 
 ### Lásd még
 

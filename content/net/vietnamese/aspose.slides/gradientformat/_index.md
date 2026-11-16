@@ -1,14 +1,14 @@
 ---
 title: GradientFormat
-second_title: Aspose.Sildes cho .NET - Tham chiếu API
-description: Đại diện cho một định dạng gradient.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Biểu diễn một định dạng gradient.
 type: docs
-weight: 5000
+weight: 5020
 url: /vi/aspose.slides/gradientformat/
 ---
-## GradientFormat lớp
+## Lớp GradientFormat
 
-Đại diện cho một định dạng gradient.
+Biểu thị một định dạng gradient.
 
 ```csharp
 public sealed class GradientFormat : PVIObject, IGradientFormat
@@ -16,19 +16,19 @@ public sealed class GradientFormat : PVIObject, IGradientFormat
 
 ## Thuộc tính
 
-| Tên | Mô tả |
+| Name | Description |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Cho phép truy cập giao diện IPresentationComponent cơ bản. Chỉ đọc [`IPresentationComponent`](../ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Cho phép lấy giao diện IPresentationComponent cơ bản. Chỉ đọc [`IPresentationComponent`](../ipresentationcomponent). |
 | [GradientDirection](../../aspose.slides/gradientformat/gradientdirection) { get; set; } | Trả về hoặc đặt kiểu của gradient. Đọc/ghi [`GradientDirection`](../gradientdirection). |
 | [GradientShape](../../aspose.slides/gradientformat/gradientshape) { get; set; } | Trả về hoặc đặt hình dạng của gradient. Đọc/ghi [`GradientShape`](../gradientshape). |
 | [GradientStops](../../aspose.slides/gradientformat/gradientstops) { get; } | Trả về tập hợp các điểm dừng gradient. Chỉ đọc [`IGradientStopCollection`](../igradientstopcollection). |
 | [LinearGradientAngle](../../aspose.slides/gradientformat/lineargradientangle) { get; set; } | Trả về hoặc đặt góc của gradient. Đọc/ghi Single. |
-| [LinearGradientScaled](../../aspose.slides/gradientformat/lineargradientscaled) { get; set; } | Xác định xem gradient có được kéo dài hay không. Đọc/ghi [`NullableBool`](../nullablebool). |
+| [LinearGradientScaled](../../aspose.slides/gradientformat/lineargradientscaled) { get; set; } | Xác định xem gradient có được thu phóng hay không. Đọc/ghi [`NullableBool`](../nullablebool). |
 | [TileFlip](../../aspose.slides/gradientformat/tileflip) { get; set; } | Trả về hoặc đặt chế độ lật cho gradient. Đọc/ghi [`TileFlip`](../tileflip). |
 
 ## Phương thức
 
-| Tên | Mô tả |
+| Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | So sánh với đối tượng được chỉ định. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Trả về mã băm. |

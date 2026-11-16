@@ -1,9 +1,9 @@
 ---
 title: IColumnCollection
-second_title: Aspose.Sildes для .NET справки API
+second_title: Aspose.Sildes для .NET API Reference
 description: Представляет коллекцию столбцов в таблице.
 type: docs
-weight: 5530
+weight: 5550
 url: /ru/aspose.slides/icolumncollection/
 ---
 ## IColumnCollection интерфейс
@@ -24,8 +24,8 @@ public interface IColumnCollection : IGenericCollection<IColumn>
 
 | Имя | Описание |
 | --- | --- |
-| [AddClone](../../aspose.slides/icolumncollection/addclone)(IColumn, bool) | Создаёт копию указанной шаблонной строки и вставляет её в конец таблицы. |
-| [InsertClone](../../aspose.slides/icolumncollection/insertclone)(int, IColumn, bool) | Создаёт копию указанного шаблонного столбца и вставляет её в указанную позицию в таблице. |
+| [AddClone](../../aspose.slides/icolumncollection/addclone)(IColumn, bool) | Создает копию указанной шаблонной строки и вставляет её в конец таблицы. |
+| [InsertClone](../../aspose.slides/icolumncollection/insertclone)(int, IColumn, bool) | Создает копию указанного шаблонного столбца и вставляет её в указанную позицию в таблице. |
 | [RemoveAt](../../aspose.slides/icolumncollection/removeat)(int, bool) | Удаляет столбец в указанной позиции из таблицы. |
 
 ### См. также

@@ -3,7 +3,7 @@ title: GradientDirection
 second_title: Aspose.Sildes için .NET API Referansı
 description: Değişim stilini temsil eder.
 type: docs
-weight: 4990
+weight: 5010
 url: /tr/aspose.slides/gradientdirection/
 ---
 ## GradientDirection enum
@@ -19,13 +19,13 @@ public enum GradientDirection
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
 | NotDefined | `-1` | Tanımlanmamış |
-| FromCorner1 | `0` | Sol Üst Köşeden |
-| FromCorner2 | `1` | Sağ Üst Köşeden |
-| FromCorner3 | `2` | Sol Alt Köşeden |
-| FromCorner4 | `3` | Sağ Alt Köşeden |
+| FromCorner1 | `0` | Üst Sol Köşeden |
+| FromCorner2 | `1` | Üst Sağ Köşeden |
+| FromCorner3 | `2` | Alt Sol Köşeden |
+| FromCorner4 | `3` | Alt Sağ Köşeden |
 | FromCenter | `4` | Merkezden |
 
-### Diğer Bağlantılar
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

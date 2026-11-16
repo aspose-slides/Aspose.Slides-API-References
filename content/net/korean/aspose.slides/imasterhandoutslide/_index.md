@@ -1,14 +1,14 @@
 ---
 title: IMasterHandoutSlide
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 핸드아웃용 마스터 슬라이드를 나타냅니다.
+description: 유인물용 마스터 슬라이드를 나타냅니다.
 type: docs
-weight: 6350
+weight: 6370
 url: /ko/aspose.slides/imasterhandoutslide/
 ---
 ## IMasterHandoutSlide 인터페이스
 
-핸드아웃용 마스터 슬라이드를 나타냅니다.
+유인물용 마스터 슬라이드를 나타냅니다.
 
 ```csharp
 public interface IMasterHandoutSlide : IBaseSlide, IMasterThemeable
@@ -20,10 +20,10 @@ public interface IMasterHandoutSlide : IBaseSlide, IMasterThemeable
 | --- | --- |
 | [AsIBaseSlide](../../aspose.slides/imasterhandoutslide/asibaseslide) { get; } | 기본 IBaseSlide 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IBaseSlide`](../ibaseslide). |
 | [AsIMasterThemeable](../../aspose.slides/imasterhandoutslide/asimasterthemeable) { get; } | IMasterThemeable 인터페이스를 반환합니다. 읽기 전용 [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
-| [DrawingGuides](../../aspose.slides/imasterhandoutslide/drawingguides) { get; } | 마스터 핸드아웃 슬라이드용 그리기 가이드 컬렉션을 반환합니다. 읽기 전용 [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [HeaderFooterManager](../../aspose.slides/imasterhandoutslide/headerfootermanager) { get; } | 마스터 핸드아웃 슬라이드의 HeaderFooter 관리자를 반환합니다. 읽기 전용 [`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager). |
+| [DrawingGuides](../../aspose.slides/imasterhandoutslide/drawingguides) { get; } | 마스터 유인물 슬라이드에 대한 드로잉 가이드 컬렉션을 반환합니다. 읽기 전용 [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [HeaderFooterManager](../../aspose.slides/imasterhandoutslide/headerfootermanager) { get; } | 마스터 유인물 슬라이드의 HeaderFooter 관리자를 반환합니다. 읽기 전용 [`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager). |
 
-### 참고
+### 관련 항목
 
 * 인터페이스 [IBaseSlide](../ibaseslide)
 * 인터페이스 [IMasterThemeable](../../aspose.slides.theme/imasterthemeable)

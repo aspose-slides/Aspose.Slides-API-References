@@ -1,14 +1,14 @@
 ---
 title: IFieldType
-second_title: Aspose.Sildes 的 .NET API 參考
-description: 代表欄位的類型。此值決定在更新時將哪段文字設定到欄位部分。
+second_title: Aspose.Sildes for .NET API 參考文件
+description: 表示一種欄位類型。此值決定在更新時會將哪段文字設定到欄位部分。
 type: docs
-weight: 5780
+weight: 5800
 url: /zh-hant/aspose.slides/ifieldtype/
 ---
 ## IFieldType 介面
 
-表示欄位的類型。此值決定在更新時將哪段文字設定到欄位部分。
+Represents a type of field. This value determines which text will be set to the field portion when it will be updated.
 
 ```csharp
 public interface IFieldType
@@ -16,9 +16,9 @@ public interface IFieldType
 
 ## 屬性
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
-| [InternalString](../../aspose.slides/ifieldtype/internalstring) { get; set; } | 返回此 FieldTypeEx 物件的內部名稱。讀寫 String。 |
+| [InternalString](../../aspose.slides/ifieldtype/internalstring) { get; set; } | 傳回此 FieldTypeEx 物件的內部名稱。可讀寫 String. |
 
 ### 另請參閱
 

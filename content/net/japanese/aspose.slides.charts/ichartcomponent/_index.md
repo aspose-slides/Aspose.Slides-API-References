@@ -1,12 +1,12 @@
 ---
 title: IChartComponent
-second_title: Aspose.Sildes for .NET APIリファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: チャートのコンポーネントを表します。
 type: docs
-weight: 1790
+weight: 1810
 url: /ja/aspose.slides.charts/ichartcomponent/
 ---
-## IChartComponent インターフェイス
+## IChartComponent interface
 
 チャートのコンポーネントを表します。
 

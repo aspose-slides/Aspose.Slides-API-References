@@ -1,14 +1,14 @@
 ---
 title: ShredTransition
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: Shred स्लाइड ट्रांज़िशन प्रभाव।
+second_title: Aspose.Sildes के लिए .NET API रेफ़रेंस
+description: स्लाइड ट्रांज़िशन प्रभाव को टुकड़े-टुकड़े करता है।
 type: docs
-weight: 10300
+weight: 10320
 url: /hi/aspose.slides.slideshow/shredtransition/
 ---
-## ShredTransition क्लास
+## ShredTransition वर्ग
 
-Shred स्लाइड ट्रांज़िशन प्रभाव।
+स्लाइड ट्रांज़िशन प्रभाव को टुकड़े-टुकड़े करता है।
 
 ```csharp
 public class ShredTransition : TransitionValueBase, IShredTransition
@@ -18,19 +18,19 @@ public class ShredTransition : TransitionValueBase, IShredTransition
 
 | नाम | विवरण |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/shredtransition/direction) { get; set; } | ट्रांज़िशन की दिशा। पढ़ने/लिखने [`TransitionInOutDirectionType`](../transitioninoutdirectiontype)। |
-| [Pattern](../../aspose.slides.slideshow/shredtransition/pattern) { get; set; } | ट्रांज़िशन के दौरान उपयोग किए जाने वाले विज़ुअल्स का आकार निर्दिष्ट करता है। पढ़ने/लिखने [`TransitionShredPattern`](../transitionshredpattern)। |
+| [Direction](../../aspose.slides.slideshow/shredtransition/direction) { get; set; } | परिवर्तन की दिशा। पढ़ें/लिखें [`TransitionInOutDirectionType`](../transitioninoutdirectiontype)। |
+| [Pattern](../../aspose.slides.slideshow/shredtransition/pattern) { get; set; } | परिवर्तन के दौरान उपयोग किए जाने वाले दृश्यों की आकृति निर्धारित करता है। पढ़ें/लिखें [`TransitionShredPattern`](../transitionshredpattern)। |
 
-## मेथड्स
+## विधियां
 
 | नाम | विवरण |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | निर्धारित करता है कि दो TransitionValueBase इंस्टेंस समान हैं या नहीं। |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | किसी विशिष्ट प्रकार के लिए एक हैश फ़ंक्शन के रूप में कार्य करता है, जो हैशिंग एल्गोरिदम और हैश टेबल जैसी डेटा संरचनाओं में उपयोग के योग्य है। |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | निर्धारित करता है कि दो TransitionValueBase उदाहरण समान हैं या नहीं। |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | किसी विशिष्ट प्रकार के लिए हैश फंक्शन के रूप में कार्य करता है, जो हैशिंग एल्गोरिदम और हैश तालिका जैसी डेटा संरचनाओं में उपयोग के लिए उपयुक्त है। |
 
 ### संबंधित देखें
 
-* क्लास [TransitionValueBase](../transitionvaluebase)
+* वर्ग [TransitionValueBase](../transitionvaluebase)
 * इंटरफ़ेस [IShredTransition](../ishredtransition)
 * नामस्थान [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * असेंबली [Aspose.Slides](../../)

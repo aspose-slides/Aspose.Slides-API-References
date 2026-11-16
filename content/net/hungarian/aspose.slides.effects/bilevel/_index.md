@@ -1,14 +1,14 @@
 ---
 title: BiLevel
-second_title: Aspose.Sildes for .NET API-referencia
-description: Ábrázolja a Bi-Level fekete/fehér effektet. Azok a bemeneti színek, amelyek fényerőssége kisebb, mint a megadott küszöbérték, fekete színre változnak. Azok a bemeneti színek, amelyek fényerőssége nagyobb vagy egyenlő a megadott értékkel, fehér színre állnak. Az alfa hatás értékei erre az effektusra nem befolyásolódnak.
+second_title: Aspose.Sildes .NET API referenciája
+description: Representál egy Bi-Level fekete/fehér effektust. Azok a bemeneti színek, amelyek luminanciája kisebb a megadott küszöbértéknél, feketére változnak. Azok a bemeneti színek, amelyek luminanciája nagyobb vagy egyenlő a megadott értéknél, fehérre állítódnak. Az alfa effektus értékek erre az effektusra nincsenek hatással.
 type: docs
-weight: 2910
+weight: 2930
 url: /hu/aspose.slides.effects/bilevel/
 ---
 ## BiLevel osztály
 
-Ábrázolja a Bi-Level (fekete/fehér) effektet. Azok a bemeneti színek, amelyek fényessége kisebb, mint a megadott küszöbérték, fekete színre változnak. Azok a bemeneti színek, amelyek fényessége nagyobb vagy egyenlő a megadott értékkel, fehér színre állnak. Az alfa effekt értékek erre az effektusra nem befolyásolódnak.
+A Bi-Level (fekete/fehér) effektust reprezentálja. Azok a bemeneti színek, amelyek luminanciája kisebb a megadott küszöbértéknél, feketévé alakul. Azok a bemeneti színek, amelyek luminanciája nagyobb vagy egyenlő a megadott értéknél, fehérre állítódik. Az alfa effektus értékek erre az effektusra nincsenek hatással.
 
 ```csharp
 public sealed class BiLevel : ImageTransformOperation, IBiLevel
@@ -18,14 +18,14 @@ public sealed class BiLevel : ImageTransformOperation, IBiLevel
 
 | Név | Leírás |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Lehetővé teszi a base IPresentationComponent interface elérését. Csak olvasható [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Lehetővé teszi a base IPresentationComponent interfész lekérését. Csak olvasható [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Metódusok
 
 | Név | Leírás |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/bilevel/equals)(object) | Meghatározza, hogy a megadott [`BiLevel`](../bilevel) egyenlő-e a jelenlegi [`BiLevel`](../bilevel)-val. |
-| [GetEffective](../../aspose.slides.effects/bilevel/geteffective)() | Lekéri a hatékony Bi-Level effekt adatokat a öröklődés alkalmazásával. |
+| [GetEffective](../../aspose.slides.effects/bilevel/geteffective)() | Lekéri a hatékony Bi-Level effektus adatokat az öröklődés alkalmazásával. |
 | override [GetHashCode](../../aspose.slides.effects/bilevel/gethashcode)() | Hash függvényként szolgál egy adott típushoz. |
 
 ### Lásd még

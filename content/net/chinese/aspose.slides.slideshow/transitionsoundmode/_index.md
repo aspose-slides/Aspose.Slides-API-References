@@ -1,14 +1,14 @@
 ---
 title: TransitionSoundMode
 second_title: Aspose.Sildes .NET API 参考
-description: 表示转换的声音模式。
+description: 表示过渡的声音模式。
 type: docs
-weight: 10430
+weight: 10450
 url: /zh/aspose.slides.slideshow/transitionsoundmode/
 ---
 ## TransitionSoundMode 枚举
 
-表示转换的声音模式。
+表示过渡的声音模式。
 
 ```csharp
 public enum TransitionSoundMode

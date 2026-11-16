@@ -1,9 +1,9 @@
 ---
 title: IFillOverlay
-second_title: Référence de l'API Aspose.Sildes pour .NET
+second_title: Aspose.Sildes pour .NET Référence de l'API
 description: Représente un effet de superposition de remplissage. Une superposition de remplissage peut être utilisée pour spécifier un remplissage supplémentaire pour un objet et mélanger les deux remplissages ensemble.
 type: docs
-weight: 3300
+weight: 3320
 url: /fr/aspose.slides.effects/ifilloverlay/
 ---
 ## IFillOverlay interface
@@ -17,7 +17,7 @@ public interface IFillOverlay : IAccessiblePVIObject<IFillOverlayEffectiveData>,
 
 ## Propriétés
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/ifilloverlay/asiaccessiblepviobject) { get; } | Permet d'obtenir l'interface de base IAccessiblePVIObject. Lecture seule [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
 | [AsIImageTransformOperation](../../aspose.slides.effects/ifilloverlay/asiimagetransformoperation) { get; } | Permet d'obtenir l'interface de base IImageTransformOperation. Lecture seule [`IImageTransformOperation`](../iimagetransformoperation). |

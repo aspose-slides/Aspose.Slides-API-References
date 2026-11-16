@@ -1,9 +1,9 @@
 ---
 title: RemoveEmbeddedFont
-second_title: Aspose.Sildes per .NET Riferimento API
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Rimuove il font incorporato
 type: docs
-weight: 90
+weight: 100
 url: /it/aspose.slides/ifontsmanager/removeembeddedfont/
 ---
 ## IFontsManager.RemoveEmbeddedFont metodo

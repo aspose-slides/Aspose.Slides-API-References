@@ -1,14 +1,14 @@
 ---
 title: Hide
 second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Ukryj etykietę danych domyślnie, ustawiając wszystkie flagi Show-flags ShowValue ... własności DefaultDataLabelFormat na stan false. IsVisible będzie false po tym.
+description: Ukryj etykietę danych domyślnie, ustawiając wszystkie flagi Show- (ShowValue ...) właściwości DefaultDataLabelFormat na stan false. IsVisible będzie po tym false.
 type: docs
-weight: 100
+weight: 110
 url: /pl/aspose.slides.charts/datalabelcollection/hide/
 ---
 ## DataLabelCollection.Hide metoda
 
-Ukryj etykietę danych domyślnie, ustawiając wszystkie flagi Show*- (ShowValue, ...) własności DefaultDataLabelFormat na stan false. IsVisible będzie false po tym.
+Ukryj etykietę danych domyślnie, ustawiając wszystkie flagi Show*- (ShowValue, ...) właściwości DefaultDataLabelFormat na stan false. IsVisible będzie po tym false.
 
 ```csharp
 public void Hide()
@@ -16,7 +16,7 @@ public void Hide()
 
 ### Uwagi
 
-Jeśli etykieta danych nie jest widoczna domyślnie (IsVisible jest false), możesz sprawić, aby etykieta danych była „widoczna domyślnie”, ustawiając flagi Show*- (ShowValue, ...) własności DefaultDataLabelFormat na stan true.
+Jeśli etykieta danych nie jest domyślnie widoczna (IsVisible jest false), możesz uczynić etykietę danych „widoczną domyślnie”, ustawiając flagi Show*- (ShowValue, ...) właściwości DefaultDataLabelFormat na stan true.
 
 ### Zobacz także
 

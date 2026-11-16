@@ -1,9 +1,9 @@
 ---
 title: IOverrideThemeable
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Aspose.Sildes para la referencia de API de .NET
 description: Representa el administrador de tema de sobrescritura.
 type: docs
-weight: 11360
+weight: 11380
 url: /es/aspose.slides.theme/ioverridethemeable/
 ---
 ## IOverrideThemeable interfaz

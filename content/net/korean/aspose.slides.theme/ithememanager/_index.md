@@ -1,9 +1,9 @@
 ---
 title: IThemeManager
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 테마 속성을 나타냅니다.
 type: docs
-weight: 11390
+weight: 11410
 url: /ko/aspose.slides.theme/ithememanager/
 ---
 ## IThemeManager 인터페이스
@@ -21,7 +21,7 @@ public interface IThemeManager
 | [ApplyColorScheme](../../aspose.slides.theme/ithememanager/applycolorscheme)(IExtraColorScheme) | 슬라이드에 추가 색 구성표를 적용합니다. |
 | [CreateThemeEffective](../../aspose.slides.theme/ithememanager/createthemeeffective)() | 테마 객체를 반환합니다. |
 
-### 관련 항목
+### 참조
 
 * 네임스페이스 [Aspose.Slides.Theme](../../aspose.slides.theme)
 * 어셈블리 [Aspose.Slides](../../)

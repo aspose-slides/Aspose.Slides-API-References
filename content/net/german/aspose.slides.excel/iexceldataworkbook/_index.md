@@ -1,14 +1,14 @@
 ---
 title: IExcelDataWorkbook
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt eine Arbeitsmappe dar, die Zugriff auf Excel-Daten für die allgemeine Verwendung bietet.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Stellt eine Arbeitsmappe dar, die Zugriff auf Excel-Daten für den allgemeinen Gebrauch bietet.
 type: docs
-weight: 3710
+weight: 3730
 url: /de/aspose.slides.excel/iexceldataworkbook/
 ---
 ## IExcelDataWorkbook Schnittstelle
 
-Stellt eine Arbeitsmappe dar, die Zugriff auf Excel-Daten für die allgemeine Verwendung bietet.
+Stellt eine Arbeitsmappe dar, die Zugriff auf Excel-Daten für den allgemeinen Gebrauch bietet.
 
 ```csharp
 public interface IExcelDataWorkbook
@@ -18,8 +18,8 @@ public interface IExcelDataWorkbook
 
 | Name | Beschreibung |
 | --- | --- |
-| [GetCell](../../aspose.slides.excel/iexceldataworkbook/getcell#getcell_1)(int, string) | Ruft eine Zelle aus dem angegebenen Arbeitsblatt ab, indem ihr Index und der Excel-artige Zellname verwendet werden (z. B. "B2"). |
-| [GetCell](../../aspose.slides.excel/iexceldataworkbook/getcell#getcell_3)(string, string) | Ruft eine Zelle aus dem angegebenen Arbeitsblatt ab, indem der Excel-artige Zellname verwendet wird (z. B. "B2"). |
+| [GetCell](../../aspose.slides.excel/iexceldataworkbook/getcell#getcell_1)(int, string) | Ruft eine Zelle aus dem angegebenen Arbeitsblatt ab, indem ihr Index und der Excel-artige Zellname verwendet wird (z.B. "B2"). |
+| [GetCell](../../aspose.slides.excel/iexceldataworkbook/getcell#getcell_3)(string, string) | Ruft eine Zelle aus dem angegebenen Arbeitsblatt ab, indem der Excel-artige Zellname verwendet wird (z.B. "B2"). |
 | [GetCell](../../aspose.slides.excel/iexceldataworkbook/getcell#getcell)(int, int, int) | Ruft eine Zelle aus dem angegebenen Arbeitsblatt ab, indem ihr Index und die Zellkoordinaten verwendet werden. |
 | [GetCell](../../aspose.slides.excel/iexceldataworkbook/getcell#getcell_2)(string, int, int) | Ruft eine Zelle aus dem angegebenen Arbeitsblatt ab, indem ihr Name und die Zellkoordinaten verwendet werden. |
 | [GetCells](../../aspose.slides.excel/iexceldataworkbook/getcells)(string, bool) | Ruft eine Sammlung von Zellen aus der Arbeitsmappe ab, die der angegebenen Formel entsprechen. |

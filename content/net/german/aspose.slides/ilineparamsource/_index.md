@@ -1,14 +1,14 @@
 ---
 title: ILineParamSource
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Hilfsschnittstelle für Linienparameter.
+description: Hilfsinterface für Linienparameter.
 type: docs
-weight: 6330
+weight: 6350
 url: /de/aspose.slides/ilineparamsource/
 ---
 ## ILineParamSource Schnittstelle
 
-Hilfsschnittstelle für Linienparameter.
+Hilfsinterface für Linienparameter.
 
 ```csharp
 public interface ILineParamSource

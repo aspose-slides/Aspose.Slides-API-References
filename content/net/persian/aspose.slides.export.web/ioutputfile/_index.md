@@ -1,14 +1,14 @@
 ---
 title: IOutputFile
-second_title: مرجع API Aspose.Sildes برای .NET
-description: یک فایل خروجی را نمایندگی می‌کند.
+second_title: Aspose.Sildes برای .NET مرجع API
+description: نمایانگر یک فایل خروجی است.
 type: docs
-weight: 4600
+weight: 4620
 url: /fa/aspose.slides.export.web/ioutputfile/
 ---
 ## IOutputFile رابط
 
-یک فایل خروجی را نمایندگی می‌کند.
+نمایانگر یک فایل خروجی است.
 
 ```csharp
 public interface IOutputFile
@@ -18,7 +18,7 @@ public interface IOutputFile
 
 | نام | توضیح |
 | --- | --- |
-| [Write](../../aspose.slides.export.web/ioutputfile/write)(Stream) | محتویات فایل را در استریم می‌نویسد. |
+| [Write](../../aspose.slides.export.web/ioutputfile/write)(Stream) | محتویات فایل را به جریان می‌نویسد. |
 
 ### موارد مرتبط
 

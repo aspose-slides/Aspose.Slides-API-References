@@ -1,9 +1,9 @@
 ---
 title: PathSegment
 second_title: Aspose.Sildes για .NET API Αναφορά
-description: Αντιπροσωπεύει τμήμα της γραφικής διαδρομής του GeometryShape
+description: Αναπαριστά τμήμα της διαδρομής γραφικών του GeometryShape
 type: docs
-weight: 9340
+weight: 9360
 url: /el/aspose.slides/pathsegment/
 ---
 ## PathSegment κλάση

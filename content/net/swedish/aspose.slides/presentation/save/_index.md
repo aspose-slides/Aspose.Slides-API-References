@@ -1,14 +1,14 @@
 ---
 title: Save
 second_title: Aspose.Sildes för .NET API-referens
-description: Sparar alla bildspel i en presentation till en fil med det angivna formatet.
+description: Sparar alla bilder i en presentation till en fil med det angivna formatet.
 type: docs
-weight: 390
+weight: 400
 url: /sv/aspose.slides/presentation/save/
 ---
 ## Save(string, SaveFormat) {#save_5}
 
-Sparar alla bildspel i en presentation till en fil med det angivna formatet.
+Sparar alla bilder i en presentation till en fil med det angivna formatet.
 
 ```csharp
 public void Save(string fname, SaveFormat format)
@@ -16,8 +16,8 @@ public void Save(string fname, SaveFormat format)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| fname | String | Sökväg till den skapade filen. |
-| format | SaveFormat | Format för de exporterade data. |
+| fname | String | Path to the created file. |
+| format | SaveFormat | Format of the exported data. |
 
 ### Se även
 
@@ -30,7 +30,7 @@ public void Save(string fname, SaveFormat format)
 
 ## Save(Stream, SaveFormat) {#save_1}
 
-Sparar alla bildspel i en presentation till en ström i det angivna formatet.
+Sparar alla bilder i en presentation till en ström i det angivna formatet.
 
 ```csharp
 public void Save(Stream stream, SaveFormat format)
@@ -38,8 +38,8 @@ public void Save(Stream stream, SaveFormat format)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| stream | Stream | Utmatningsström. |
-| format | SaveFormat | Format för de exporterade data. |
+| stream | Stream | Output stream. |
+| format | SaveFormat | Format of the exported data. |
 
 ### Se även
 
@@ -68,7 +68,7 @@ public void Save(string fname, SaveFormat format, ISaveOptions options)
 
 ## Save(Stream, SaveFormat, ISaveOptions) {#save_2}
 
-Sparar alla bildspel i en presentation till en ström i det angivna formatet och med ytterligare alternativ.
+Sparar alla bilder i en presentation till en ström i det angivna formatet och med ytterligare alternativ.
 
 ```csharp
 public void Save(Stream stream, SaveFormat format, ISaveOptions options)
@@ -76,15 +76,15 @@ public void Save(Stream stream, SaveFormat format, ISaveOptions options)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| stream | Stream | Utmatningsström. |
-| format | SaveFormat | Format för de exporterade data. |
-| options | ISaveOptions | Ytterligare formatalternativ. |
+| stream | Stream | Output stream. |
+| format | SaveFormat | Format of the exported data. |
+| options | ISaveOptions | Additional format options. |
 
 ### Undantag
 
 | undantag | villkor |
 | --- | --- |
-| NotSupportedException | Om du försöker spara en krypterad fil i ett format som inte är Office 2007-2010 |
+| NotSupportedException | If you try to save encrypted file in none Office 2007-2010 format |
 
 ### Se även
 
@@ -98,7 +98,7 @@ public void Save(Stream stream, SaveFormat format, ISaveOptions options)
 
 ## Save(IXamlOptions) {#save}
 
-Sparar alla bildspel i en presentation till en uppsättning filer som representerar XAML-markup.
+Sparar alla bilder i en presentation till en uppsättning filer som representerar XAML-markup.
 
 ```csharp
 public void Save(IXamlOptions options)
@@ -106,7 +106,7 @@ public void Save(IXamlOptions options)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| options | IXamlOptions | XAML-formatalternativen. |
+| options | IXamlOptions | The XAML format options. |
 
 ### Exempel
 
@@ -129,7 +129,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 ## Save(string, int[], SaveFormat) {#save_7}
 
-Sparar specificerade bildspel i en presentation till en fil med det angivna formatet och bevarar sidnummer.
+Sparar angivna bilder i en presentation till en fil med det angivna formatet och behåller sidnumren.
 
 ```csharp
 public void Save(string fname, int[] slides, SaveFormat format)
@@ -137,17 +137,17 @@ public void Save(string fname, int[] slides, SaveFormat format)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| fname | String | Sökväg till den skapade filen. |
-| slides | Int32[] | Array med bildspelspositioner, med början från 1. |
-| format | SaveFormat | Format för de exporterade data. |
+| fname | String | Path to the created file. |
+| slides | Int32[] | Array with slide positions, starting from 1. |
+| format | SaveFormat | Format of the exported data. |
 
 ### Undantag
 
 | undantag | villkor |
 | --- | --- |
-| ArgumentNullException | När ström- eller bildspelsparameter är null. |
-| ArgumentOutOfRangeException | När bildspelsparameter innehåller fel sidnummer. |
-| InvalidOperationException | När ett icke-stödd SaveFormat används, t.ex. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+| ArgumentNullException | When stream or slides parameter is null. |
+| ArgumentOutOfRangeException | When slides parameter contains wrong page numbers. |
+| InvalidOperationException | When an unsupported SaveFormat is used, e.g. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
 ### Se även
 
@@ -160,7 +160,7 @@ public void Save(string fname, int[] slides, SaveFormat format)
 
 ## Save(string, int[], SaveFormat, ISaveOptions) {#save_8}
 
-Sparar specificerade bildspel i en presentation till en fil med det angivna formatet och bevarar sidnummer.
+Sparar angivna bilder i en presentation till en fil med det angivna formatet och behåller sidnumren.
 
 ```csharp
 public void Save(string fname, int[] slides, SaveFormat format, ISaveOptions options)
@@ -168,10 +168,10 @@ public void Save(string fname, int[] slides, SaveFormat format, ISaveOptions opt
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| fname | String | Sökväg till den skapade filen. |
-| slides | Int32[] | Array med bildspelspositioner, med början från 1. |
-| format | SaveFormat | Format för de exporterade data. |
-| options | ISaveOptions | Ytterligare formatalternativ. |
+| fname | String | Path to the created file. |
+| slides | Int32[] | Array with slide positions, starting from 1. |
+| format | SaveFormat | Format of the exported data. |
+| options | ISaveOptions | Additional format options. |
 
 ### Se även
 
@@ -185,7 +185,7 @@ public void Save(string fname, int[] slides, SaveFormat format, ISaveOptions opt
 
 ## Save(Stream, int[], SaveFormat) {#save_3}
 
-Sparar specificerade bildspel i en presentation till en ström i det angivna formatet och bevarar sidnummer.
+Sparar angivna bilder i en presentation till en ström i det angivna formatet och behåller sidnumren.
 
 ```csharp
 public void Save(Stream stream, int[] slides, SaveFormat format)
@@ -193,9 +193,9 @@ public void Save(Stream stream, int[] slides, SaveFormat format)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| stream | Stream | Utmatningsström. |
-| slides | Int32[] | Array med bildspelspositioner, med början från 1. |
-| format | SaveFormat | Format för de exporterade data. |
+| stream | Stream | Output stream. |
+| slides | Int32[] | Array with slide positions, starting from 1. |
+| format | SaveFormat | Format of the exported data. |
 
 ### Se även
 
@@ -208,7 +208,7 @@ public void Save(Stream stream, int[] slides, SaveFormat format)
 
 ## Save(Stream, int[], SaveFormat, ISaveOptions) {#save_4}
 
-Sparar specificerade bildspel i en presentation till en ström i det angivna formatet och bevarar sidnummer.
+Sparar angivna bilder i en presentation till en ström i det angivna formatet och behåller sidnumren.
 
 ```csharp
 public void Save(Stream stream, int[] slides, SaveFormat format, ISaveOptions options)
@@ -216,18 +216,18 @@ public void Save(Stream stream, int[] slides, SaveFormat format, ISaveOptions op
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| stream | Stream | Utmatningsström. |
-| slides | Int32[] | Array med bildspelspositioner, med början från 1. |
-| format | SaveFormat | Format för de exporterade data. |
-| options | ISaveOptions | Ytterligare formatalternativ. |
+| stream | Stream | Output stream. |
+| slides | Int32[] | Array with slide positions, starting from 1. |
+| format | SaveFormat | Format of the exported data. |
+| options | ISaveOptions | Additional format options. |
 
 ### Undantag
 
 | undantag | villkor |
 | --- | --- |
-| ArgumentNullException | När ström- eller bildspelsparameter är null. |
-| ArgumentOutOfRangeException | När bildspelsparameter innehåller fel sidnummer. |
-| InvalidOperationException | När ett icke-stödd SaveFormat används, t.ex. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+| ArgumentNullException | When stream or slides parameter is null. |
+| ArgumentOutOfRangeException | When slides parameter contains wrong page numbers. |
+| InvalidOperationException | When an unsupported SaveFormat is used, e.g. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
 ### Exempel
 

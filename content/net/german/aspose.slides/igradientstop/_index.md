@@ -1,14 +1,14 @@
 ---
 title: IGradientStop
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt ein Gradientformat dar.
+description: Stellt ein Farbverlaufsformat dar.
 type: docs
-weight: 6020
+weight: 6040
 url: /de/aspose.slides/igradientstop/
 ---
 ## IGradientStop Schnittstelle
 
-Stellt ein Gradientformat dar.
+Stellt ein Farbverlaufsformat dar.
 
 ```csharp
 public interface IGradientStop
@@ -18,8 +18,8 @@ public interface IGradientStop
 
 | Name | Beschreibung |
 | --- | --- |
-| [Color](../../aspose.slides/igradientstop/color) { get; } | Gibt die Farbe eines Gradientstop zurück. Nur lesbar [`IColorFormat`](../icolorformat). |
-| [Position](../../aspose.slides/igradientstop/position) { get; set; } | Gibt die Position (0..1) eines Gradientstop zurück oder setzt sie. Lesen/Schreiben Single. |
+| [Color](../../aspose.slides/igradientstop/color) { get; } | Gibt die Farbe eines Farbverlaufsstopps zurück. Nur lesbar [`IColorFormat`](../icolorformat). |
+| [Position](../../aspose.slides/igradientstop/position) { get; set; } | Gibt die Position (0..1) eines Farbverlaufsstopps zurück oder setzt sie. Lesen/Schreiben Single. |
 
 ### Siehe auch
 

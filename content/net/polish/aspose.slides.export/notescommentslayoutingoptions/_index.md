@@ -1,14 +1,14 @@
 ---
 title: NotesCommentsLayoutingOptions
-second_title: Aspose.Sildes dla .NET – Dokumentacja API
-description: Udostępnia opcje, które kontrolują wygląd układu notatek i komentarzy w wyeksportowanym dokumencie.
+second_title: Aspose.Sildes dla .NET – referencja API
+description: Dostarcza opcje, które kontrolują wygląd układania notatek i komentarzy w wyeksportowanym dokumencie.
 type: docs
-weight: 4290
+weight: 4310
 url: /pl/aspose.slides.export/notescommentslayoutingoptions/
 ---
 ## NotesCommentsLayoutingOptions klasa
 
-Udostępnia opcje, które kontrolują wygląd układu notatek i komentarzy w wyeksportowanym dokumencie.
+Provides options that control the look of layouting of notes and comments in exported document.
 
 ```csharp
 public class NotesCommentsLayoutingOptions : ISlidesLayoutOptions
@@ -24,11 +24,11 @@ public class NotesCommentsLayoutingOptions : ISlidesLayoutOptions
 
 | Nazwa | Opis |
 | --- | --- |
-| [CommentsAreaColor](../../aspose.slides.export/notescommentslayoutingoptions/commentsareacolor) { get; set; } | Pobiera lub ustawia kolor obszaru komentarzy (Obowiązuje tylko, gdy komentarze wyświetlane są po prawej stronie). |
-| [CommentsAreaWidth](../../aspose.slides.export/notescommentslayoutingoptions/commentsareawidth) { get; set; } | Pobiera lub ustawia szerokość obszaru wyjściowego komentarzy w pikselach (Obowiązuje tylko, gdy komentarze wyświetlane są po prawej stronie). |
+| [CommentsAreaColor](../../aspose.slides.export/notescommentslayoutingoptions/commentsareacolor) { get; set; } | Pobiera lub ustawia kolor obszaru komentarzy (Obowiązuje tylko, gdy komentarze są wyświetlane po prawej stronie). |
+| [CommentsAreaWidth](../../aspose.slides.export/notescommentslayoutingoptions/commentsareawidth) { get; set; } | Pobiera lub ustawia szerokość obszaru wyjściowego komentarzy w pikselach (Obowiązuje tylko, gdy komentarze są wyświetlane po prawej stronie). |
 | [CommentsPosition](../../aspose.slides.export/notescommentslayoutingoptions/commentsposition) { get; set; } | Pobiera lub ustawia pozycję komentarzy na stronie. |
 | [NotesPosition](../../aspose.slides.export/notescommentslayoutingoptions/notesposition) { get; set; } | Pobiera lub ustawia pozycję notatek na stronie. |
-| [ShowCommentsByNoAuthor](../../aspose.slides.export/notescommentslayoutingoptions/showcommentsbynoauthor) { get; set; } | Pobiera lub ustawia widoczność komentarzy bez autora. Jeśli wartość jest true, komentarze będą wyświetlane. (Obowiązuje tylko, gdy komentarze są wyświetlane). |
+| [ShowCommentsByNoAuthor](../../aspose.slides.export/notescommentslayoutingoptions/showcommentsbynoauthor) { get; set; } | Pobiera lub ustawia widoczność komentarzy, które nie mają autora. Jeśli wartość jest prawda, komentarze będą wyświetlane. (Obowiązuje tylko, gdy komentarze są wyświetlane). |
 
 ### Zobacz także
 

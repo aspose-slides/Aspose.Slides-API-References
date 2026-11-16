@@ -1,14 +1,14 @@
 ---
 title: IChartDataWorksheetCollection
-second_title: Aspose.Sildes dla .NET referencja API
-description: Reprezentuje kolekcję arkuszy danych wykresu w skoroszycie.
+second_title: Aspose.Sildes dla .NET – dokumentacja API
+description: Reprezentuje kolekcję arkuszy skoroszytu danych wykresu.
 type: docs
-weight: 1880
+weight: 1900
 url: /pl/aspose.slides.charts/ichartdataworksheetcollection/
 ---
 ## IChartDataWorksheetCollection interfejs
 
-Reprezentuje kolekcję arkuszy danych wykresu w skoroszycie.
+Reprezentuje kolekcję arkuszy skoroszytu danych wykresu.
 
 ```csharp
 public interface IChartDataWorksheetCollection : IGenericCollection<IChartDataWorksheet>
@@ -18,7 +18,7 @@ public interface IChartDataWorksheetCollection : IGenericCollection<IChartDataWo
 
 | Nazwa | Opis |
 | --- | --- |
-| [Item](../../aspose.slides.charts/ichartdataworksheetcollection/item) { get; } | Zwraca arkusz roboczy według indeksu. |
+| [Item](../../aspose.slides.charts/ichartdataworksheetcollection/item) { get; } | Zwraca arkusz według indeksu. |
 
 ### Przykłady
 

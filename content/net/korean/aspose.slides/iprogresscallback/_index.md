@@ -1,9 +1,9 @@
 ---
 title: IProgressCallback
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes .NET용 API 레퍼런스
 description: 진행률 업데이트를 백분율로 저장하기 위한 콜백 객체를 나타냅니다.
 type: docs
-weight: 6810
+weight: 6830
 url: /ko/aspose.slides/iprogresscallback/
 ---
 ## IProgressCallback 인터페이스
@@ -20,7 +20,7 @@ public interface IProgressCallback
 | --- | --- |
 | [Reporting](../../aspose.slides/iprogresscallback/reporting)(double) | 진행 업데이트를 보고합니다. |
 
-### 자세히 보기
+### 관련 항목
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

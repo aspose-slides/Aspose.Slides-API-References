@@ -1,14 +1,14 @@
 ---
 title: IMathRadical
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Xác định hàm căn bậc bao gồm một cơ sở và một bậc tùy chọn. Ví dụ về đối tượng căn bậc là .
+second_title: Aspose.Sildes cho Tham khảo API .NET
+description: Xác định hàm căn bậc bao gồm một cơ sở và một cấp độ tùy chọn. Ví dụ về đối tượng căn là .
 type: docs
-weight: 8430
+weight: 8450
 url: /vi/aspose.slides.mathtext/imathradical/
 ---
 ## IMathRadical giao diện
 
-Xác định hàm căn bậc, bao gồm một cơ sở và một bậc tùy chọn. Ví dụ về đối tượng căn bậc là √𝑥.
+Xác định hàm căn bậc, bao gồm một cơ sở và một cấp độ tùy chọn. Ví dụ về đối tượng căn là √𝑥.
 
 ```csharp
 public interface IMathRadical : IMathElement
@@ -18,10 +18,10 @@ public interface IMathRadical : IMathElement
 
 | Tên | Mô tả |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathradical/asimathelement) { get; } | Cho phép lấy giao diện IMathElement [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathradical/asimathelement) { get; } | Cho phép lấy giao diện IMathElement cơ sở [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathradical/base) { get; } | Đối số cơ sở |
 | [Degree](../../aspose.slides.mathtext/imathradical/degree) { get; } | Đối số bậc |
-| [HideDegree](../../aspose.slides.mathtext/imathradical/hidedegree) { get; set; } | Ẩn bậc Khi đúng, bậc sẽ không được hiển thị, như trong √𝑥 |
+| [HideDegree](../../aspose.slides.mathtext/imathradical/hidedegree) { get; set; } | Ẩn bậc Khi là true, bậc sẽ không được hiển thị, như trong √𝑥 |
 
 ### Ví dụ
 
@@ -29,7 +29,7 @@ Ví dụ:
 
 ```csharp
 [C#]
-IMathRadical radical = new MathematicalText("x").Radical("3"); // căn bậc ba
+IMMathRadical radical = new MathematicalText("x").Radical("3"); // căn bậc ba
 ```
 
 ### Xem thêm

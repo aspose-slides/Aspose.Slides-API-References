@@ -1,14 +1,14 @@
 ---
 title: MasterLayoutSlideCollection
 second_title: Aspose.Sildes para .NET Referência da API
-description: Representa uma coleção de todos os slides de layout do slide mestre definido. Estende a classe LayoutSlideCollection com métodos para adicionar/inserir/remover/clonar/reordenar slides de layout no contexto das coleções individuais de slides de layout do mestre.
+description: Representa uma coleção de todos os layout slides de um slide mestre definido. Estende a classe LayoutSlideCollection com métodos para adicionar/inserir/remover/clonar/reordenar layout slides no contexto das coleções individuais de layout slides do mestre.
 type: docs
-weight: 8000
+weight: 8020
 url: /pt/aspose.slides/masterlayoutslidecollection/
 ---
 ## MasterLayoutSlideCollection classe
 
-Representa uma coleção de todos os slides de layout do slide mestre definido. Estende a classe LayoutSlideCollection com métodos para adicionar/inserir/remover/clonar/reordenar slides de layout no contexto das coleções individuais de slides de layout do mestre.
+Representa uma coleção de todos os layout slides de um slide mestre definido. Estende a classe LayoutSlideCollection com métodos para adicionar/inserir/remover/clonar/reordenar layout slides no contexto das coleções individuais de layout slides do mestre.
 
 ```csharp
 public sealed class MasterLayoutSlideCollection : LayoutSlideCollection, 
@@ -17,30 +17,30 @@ public sealed class MasterLayoutSlideCollection : LayoutSlideCollection,
 
 ## Propriedades
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
-| [Count](../../aspose.slides/layoutslidecollection/count) { get; } | Retorna o número de slides de layout em uma coleção. Somente leitura Int32. |
-| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | Retorna um valor indicando se o acesso à coleção é sincronizado (thread-safe). Somente leitura Boolean. |
-| [Item](../../aspose.slides/layoutslidecollection/item) { get; } | Retorna o slide de layout por índice. Somente leitura [`LayoutSlide`](../layoutslide). |
+| [Count](../../aspose.slides/layoutslidecollection/count) { get; } | Retorna o número de layout slides em uma coleção. Somente leitura Int32. |
+| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | Retorna um valor que indica se o acesso à coleção está sincronizado (thread-safe). Somente leitura Boolean. |
+| [Item](../../aspose.slides/layoutslidecollection/item) { get; } | Retorna o layout slide por índice. Somente leitura [`LayoutSlide`](../layoutslide). |
 | [SyncRoot](../../aspose.slides/layoutslidecollection/syncroot) { get; } | Retorna uma raiz de sincronização. Somente leitura Object. |
 
 ## Métodos
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
-| [Add](../../aspose.slides/masterlayoutslidecollection/add)(SlideLayoutType, string) | Adiciona um novo slide de layout ao final da coleção. |
-| [AddClone](../../aspose.slides/masterlayoutslidecollection/addclone)(ILayoutSlide) | Adiciona uma cópia de um slide de layout especificado ao final da coleção. |
+| [Add](../../aspose.slides/masterlayoutslidecollection/add)(SlideLayoutType, string) | Adiciona um novo layout slide ao final da coleção. |
+| [AddClone](../../aspose.slides/masterlayoutslidecollection/addclone)(ILayoutSlide) | Adiciona uma cópia de um layout slide especificado ao final da coleção. |
 | [CopyTo](../../aspose.slides/layoutslidecollection/copyto)(Array, int) | Copia todos os elementos da coleção para o array especificado. |
-| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | Retorna o primeiro slide de layout do tipo especificado. Um tipo de slide de layout a ser encontrado.[`LayoutSlide`](../layoutslide) com o tipo especificado ou null se nenhum layout for encontrado. |
-| [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | Retorna um enumerador que itera através da coleção. |
-| [Insert](../../aspose.slides/masterlayoutslidecollection/insert)(int, SlideLayoutType, string) | Insere um novo slide de layout na posição especificada da coleção. |
-| [InsertClone](../../aspose.slides/masterlayoutslidecollection/insertclone)(int, ILayoutSlide) | Insere uma cópia de um slide de layout especificado na posição especificada da coleção. |
+| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | Retorna o primeiro layout slide do tipo especificado. Um tipo de layout slide a ser encontrado.[`LayoutSlide`](../layoutslide) com o tipo especificado ou null se nenhum layout for encontrado. |
+| [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | Retorna um enumerador que percorre a coleção. |
+| [Insert](../../aspose.slides/masterlayoutslidecollection/insert)(int, SlideLayoutType, string) | Insere um novo layout slide na posição especificada da coleção. |
+| [InsertClone](../../aspose.slides/masterlayoutslidecollection/insertclone)(int, ILayoutSlide) | Insere uma cópia de um layout slide especificado na posição especificada da coleção. |
 | [Remove](../../aspose.slides/layoutslidecollection/remove)(ILayoutSlide) | Remove um layout da coleção. |
 | [RemoveAt](../../aspose.slides/masterlayoutslidecollection/removeat)(int) | Remove o elemento no índice especificado da coleção. |
-| [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | Remove slides de layout não utilizados (slides de layout cujo HasDependingSlides é false). |
-| [Reorder](../../aspose.slides/masterlayoutslidecollection/reorder)(int, ILayoutSlide) | Move o slide de layout da coleção para a posição especificada. |
+| [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | Remove layout slides não utilizados (layout slides cujo HasDependingSlides é false). |
+| [Reorder](../../aspose.slides/masterlayoutslidecollection/reorder)(int, ILayoutSlide) | Move o layout slide da coleção para a posição especificada. |
 
-### Ver Também
+### Ver também
 
 * classe [LayoutSlideCollection](../layoutslidecollection)
 * interface [IMasterLayoutSlideCollection](../imasterlayoutslidecollection)

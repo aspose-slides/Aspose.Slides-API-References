@@ -1,12 +1,12 @@
 ---
 title: IChartDataWorksheet
-second_title: Référence de l'API Aspose.Sildes pour .NET
+second_title: Aspose.Sildes pour .NET Référence de l'API
 description: Représente la feuille de calcul associée à IChartDataCell./ichartdatacell
 type: docs
-weight: 1870
+weight: 1890
 url: /fr/aspose.slides.charts/ichartdataworksheet/
 ---
-## interface IChartDataWorksheet
+## IChartDataWorksheet interface
 
 Représente la feuille de calcul associée à [`IChartDataCell`](../ichartdatacell)
 

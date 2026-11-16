@@ -1,9 +1,9 @@
 ---
 title: TextFormat
-second_title: Aspose.Slides for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 텍스트 형식을 반환합니다. 읽기 전용 IChartTextFormataspose.slides.charts/icharttextformat.
 type: docs
-weight: 120
+weight: 130
 url: /ko/aspose.slides.charts/datalabel/textformat/
 ---
 ## DataLabel.TextFormat 속성
@@ -14,7 +14,7 @@ url: /ko/aspose.slides.charts/datalabel/textformat/
 public IChartTextFormat TextFormat { get; }
 ```
 
-### 참조
+### 참고
 
 * 인터페이스 [IChartTextFormat](../../icharttextformat)
 * 클래스 [DataLabel](../../datalabel)

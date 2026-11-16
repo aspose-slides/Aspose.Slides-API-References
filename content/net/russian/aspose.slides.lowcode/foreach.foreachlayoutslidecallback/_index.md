@@ -1,9 +1,9 @@
 ---
 title: ForEach.ForEachLayoutSlideCallback
-second_title: Aspose.Sildes для .NET API справочник
+second_title: Aspose.Sildes для .NET справочник API
 description: Обратный вызов, который будет вызываться для каждого LayoutSlide./foreach/layoutslide в Presentation../aspose.slides/presentation.
 type: docs
-weight: 7910
+weight: 7930
 url: /ru/aspose.slides.lowcode/foreach.foreachlayoutslidecallback/
 ---
 ## ForEach.ForEachLayoutSlideCallback делегат

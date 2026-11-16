@@ -1,14 +1,14 @@
 ---
 title: RelatedLegendEntry
-second_title: Aspose.Sildes .NET API Referansı
-description: Bu listedeki grafik türleri için ilgili lejant girdisinin özellikleri ChartType.BarOfPie ChartType.ExplodedPie ChartType.ExplodedPie3D ChartType.Pie ChartType.Pie3D ChartType.PieOfPie. Salt okunur ILegendEntryPropertiesaspose.slides.charts/ilegendentryproperties.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Bu listedeki grafik türlerinden birine (ChartType.BarOfPie ChartType.ExplodedPie ChartType.ExplodedPie3D ChartType.Pie ChartType.Pie3D ChartType.PieOfPie) sahip olduğunda karşılık gelen lejant girişinin özellikleri. Salt okunur ILegendEntryPropertiesaspose.slides.charts/ilegendentryproperties.
 type: docs
-weight: 130
+weight: 170
 url: /tr/aspose.slides.charts/ichartdatapoint/relatedlegendentry/
 ---
 ## IChartDataPoint.RelatedLegendEntry özelliği
 
-Bu listedeki grafik türleri için ilgili lejant girdisinin özellikleri: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. Salt okunur [`ILegendEntryProperties`](../../ilegendentryproperties).
+Bu listeden bir grafik türü durumunda karşılık gelen lejant girişinin özellikleri: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. Salt okunur [`ILegendEntryProperties`](../../ilegendentryproperties).
 
 ```csharp
 public ILegendEntryProperties RelatedLegendEntry { get; }

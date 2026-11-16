@@ -1,14 +1,14 @@
 ---
 title: SystemColor
 second_title: Aspose.Sildes .NET API referencia
-description: Előre definiált rendszer színeket képvisel.
+description: Előre definiált rendszer színeket reprezentál.
 type: docs
-weight: 10810
+weight: 10830
 url: /hu/aspose.slides/systemcolor/
 ---
-## SystemColor enumeráció
+## SystemColor felsorolás
 
-Előre definiált rendszer színeket képvisel.
+Előre definiált rendszer színeket reprezentál.
 
 ```csharp
 public enum SystemColor

@@ -1,14 +1,14 @@
 ---
 title: IVideoFrame
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: एक स्लाइड पर वीडियो क्लिप को दर्शाता है।
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: एक स्लाइड पर वीडियो क्लिप का प्रतिनिधित्व करता है।
 type: docs
-weight: 7380
+weight: 7400
 url: /hi/aspose.slides/ivideoframe/
 ---
 ## IVideoFrame इंटरफ़ेस
 
-Represents a video clip on a slide.
+एक स्लाइड पर वीडियो क्लिप का प्रतिनिधित्व करता है।
 
 ```csharp
 public interface IVideoFrame : IPictureFrame
@@ -18,23 +18,24 @@ public interface IVideoFrame : IPictureFrame
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIPictureFrame](../../aspose.slides/ivideoframe/asipictureframe) { get; } | बेस IPictureFrame इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IPictureFrame`](../ipictureframe)। |
-| [CaptionTracks](../../aspose.slides/ivideoframe/captiontracks) { get; } | ऑडियो फ़्रेम से संबंधित बंद कैप्शन का संग्रह प्राप्त करता है। यह प्रॉपर्टी केवल-पढ़ने योग्य है और सभी कैप्शन ट्रैक्स को सम्मिलित करने वाला एक [`ICaptionsCollection`](../icaptionscollection) लौटाता है। |
-| [EmbeddedVideo](../../aspose.slides/ivideoframe/embeddedvideo) { get; set; } | सम्मिलित वीडियो ऑब्जेक्ट को लौटाता है या सेट करता है। पढ़ने/लिखने योग्य [`IVideo`](../ivideo)। |
-| [FullScreenMode](../../aspose.slides/ivideoframe/fullscreenmode) { get; set; } | निर्धारित करता है कि क्या वीडियो फ़ुल-स्क्रीन मोड में दिखाया जाता है। पढ़ने/लिखने योग्य Boolean। |
-| [HideAtShowing](../../aspose.slides/ivideoframe/hideatshowing) { get; set; } | निर्धारित करता है कि क्या VideoFrame छिपा हुआ है। पढ़ने/लिखने योग्य Boolean। |
-| [LinkPathLong](../../aspose.slides/ivideoframe/linkpathlong) { get; set; } | VideoFrame से जुड़े वीडियो फ़ाइल का नाम लौटाता है या सेट करता है। पढ़ने/लिखने योग्य String। |
-| [PlayLoopMode](../../aspose.slides/ivideoframe/playloopmode) { get; set; } | निर्धारित करता है कि क्या वीडियो लूप किया गया है। पढ़ने/लिखने योग्य Boolean। |
-| [PlayMode](../../aspose.slides/ivideoframe/playmode) { get; set; } | वीडियो प्ले मोड को लौटाता है या सेट करता है। पढ़ने/लिखने योग्य [`VideoPlayModePreset`](../videoplaymodepreset)। |
-| [RewindVideo](../../aspose.slides/ivideoframe/rewindvideo) { get; set; } | निर्धारित करता है कि क्या वीडियो को फिल्म समाप्त होते ही स्वचालित रूप से शुरुआत में रीवाइंड किया जाता है। पढ़ने/लिखने योग्य Boolean। |
-| [TrimFromEnd](../../aspose.slides/ivideoframe/trimfromend) { get; set; } | अंत ट्रिम [ms] |
+| [AsIPictureFrame](../../aspose.slides/ivideoframe/asipictureframe) { get; } | बेस IPictureFrame इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IPictureFrame`](../ipictureframe)। |
+| [CaptionTracks](../../aspose.slides/ivideoframe/captiontracks) { get; } | ऑडियो फ्रेम से जुड़ी बंद कैप्शन का संग्रह प्राप्त करता है। यह गुण केवल-पढ़ने योग्य है और एक [`ICaptionsCollection`](../icaptionscollection) लौटाता है जिसमें सभी कैप्शन ट्रैक होते हैं। |
+| [EmbeddedVideo](../../aspose.slides/ivideoframe/embeddedvideo) { get; set; } | एम्बेडेड वीडियो ऑब्जेक्ट को लौटाता है या सेट करता है। पढ़ें/लिखें [`IVideo`](../ivideo)। |
+| [FullScreenMode](../../aspose.slides/ivideoframe/fullscreenmode) { get; set; } | निर्धारित करता है कि वीडियो पूर्ण-स्क्रीन मोड में दिखाया जाए या नहीं। पढ़ें/लिखें Boolean। |
+| [HideAtShowing](../../aspose.slides/ivideoframe/hideatshowing) { get; set; } | निर्धारित करता है कि VideoFrame छिपा हुआ है या नहीं। पढ़ें/लिखें Boolean। |
+| [LinkPathLong](../../aspose.slides/ivideoframe/linkpathlong) { get; set; } | VideoFrame से जुड़ी वीडियो फ़ाइल के नाम को लौटाता है या सेट करता है। पढ़ें/लिखें String। |
+| [PlayLoopMode](../../aspose.slides/ivideoframe/playloopmode) { get; set; } | निर्धारित करता है कि वीडियो लूप किया गया है या नहीं। पढ़ें/लिखें Boolean। |
+| [PlayMode](../../aspose.slides/ivideoframe/playmode) { get; set; } | वीडियो प्ले मोड को लौटाता है या सेट करता है। पढ़ें/लिखें [`VideoPlayModePreset`](../videoplaymodepreset)। |
+| [RewindVideo](../../aspose.slides/ivideoframe/rewindvideo) { get; set; } | निर्धारित करता है कि फ़िल्म समाप्त होते ही वीडियो स्वचालित रूप से शुरू में रीवाइंड हो जाए। पढ़ें/लिखें Boolean। |
+| [TrimFromEnd](../../aspose.slides/ivideoframe/trimfromend) { get; set; } | समाप्ति ट्रिम [ms] |
 | [TrimFromStart](../../aspose.slides/ivideoframe/trimfromstart) { get; set; } | प्रारंभ ट्रिम [ms] |
-| [Volume](../../aspose.slides/ivideoframe/volume) { get; set; } | ऑडियो वॉल्यूम को लौटाता है या सेट करता है। पढ़ने/लिखने योग्य [`AudioVolumeMode`](../audiovolumemode)। |
+| [Volume](../../aspose.slides/ivideoframe/volume) { get; set; } | ऑडियो वॉल्यूम को लौटाता है या सेट करता है। पढ़ें/लिखें [`AudioVolumeMode`](../audiovolumemode)। |
+| [VolumeValue](../../aspose.slides/ivideoframe/volumevalue) { get; set; } | सटीक वीडियो वॉल्यूम को प्रतिशत के रूप में लौटाता है या सेट करता है। मूल्य 0 से 100 प्रतिशत के रूप में व्यक्त किया जाता है। इस गुण का उपयोग वॉल्यूम मानों को पढ़ने या सेट करने के लिए किया जाता है जो [`Volume`](./volume) गुण के माध्यम से उपलब्ध पूर्वनिर्धारित स्तरों से अधिक सटीक होते हैं। पढ़ें/लिखें Single। |
 
-### संबंधित देखें
+### देखें भी
 
 * इंटरफ़ेस [IPictureFrame](../ipictureframe)
-* नेमस्पेस [Aspose.Slides](../../aspose.slides)
+* नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

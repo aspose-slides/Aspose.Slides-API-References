@@ -1,14 +1,14 @@
 ---
 title: IEffectFormat
 second_title: Aspose.Sildes για .NET API Αναφορά
-description: Αναπαριστά τις ιδιότητες της επίδρασης του σχήματος.
+description: Αντιπροσωπεύει τις ιδιότητες εφέ του σχήματος.
 type: docs
-weight: 5740
+weight: 5760
 url: /el/aspose.slides/ieffectformat/
 ---
-## IEffectFormat διεπαφή
+## IEffectFormat διασύνδεση
 
-Αναπαριστά τις ιδιότητες της επίδρασης του σχήματος.
+Αντιπροσωπεύει τις ιδιότητες εφέ του σχήματος.
 
 ```csharp
 public interface IEffectFormat : IEffectParamSource
@@ -18,43 +18,43 @@ public interface IEffectFormat : IEffectParamSource
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [AsIEffectParamSource](../../aspose.slides/ieffectformat/asieffectparamsource) { get; } | Επιτρέπει την ανάκτηση της βασικής διεπαφής IEffectParamSource. Μόνο ανάγνωση [`IEffectParamSource`](../ieffectparamsource). |
-| [BlurEffect](../../aspose.slides/ieffectformat/blureffect) { get; set; } | Επίδραση θολώματος. Ανάγνωση/Εγγραφή [`IBlur`](../../aspose.slides.effects/iblur). |
-| [FillOverlayEffect](../../aspose.slides/ieffectformat/filloverlayeffect) { get; set; } | Επίδραση επικάλυψης γεμίσματος. Ανάγνωση/Εγγραφή [`IFillOverlay`](../../aspose.slides.effects/ifilloverlay). |
-| [GlowEffect](../../aspose.slides/ieffectformat/gloweffect) { get; set; } | Επίδραση λάμψης. Ανάγνωση/Εγγραφή [`IGlow`](../../aspose.slides.effects/iglow). |
-| [InnerShadowEffect](../../aspose.slides/ieffectformat/innershadoweffect) { get; set; } | Εσωτερική σκιά. Ανάγνωση/Εγγραφή [`IInnerShadow`](../../aspose.slides.effects/iinnershadow). |
-| [IsNoEffects](../../aspose.slides/ieffectformat/isnoeffects) { get; } | Επιστρέφει true εάν όλες οι επιδράσεις είναι απενεργοποιημένες (όπως μόλις δημιουργήθηκε, προεπιλεγμένο αντικείμενο EffectFormat). Μόνο ανάγνωση Boolean. |
-| [OuterShadowEffect](../../aspose.slides/ieffectformat/outershadoweffect) { get; set; } | Εξωτερική σκιά. Ανάγνωση/Εγγραφή [`IOuterShadow`](../../aspose.slides.effects/ioutershadow). |
-| [PresetShadowEffect](../../aspose.slides/ieffectformat/presetshadoweffect) { get; set; } | Προεπιλεγμένη σκιά. Ανάγνωση/Εγγραφή [`IPresetShadow`](../../aspose.slides.effects/ipresetshadow). |
-| [ReflectionEffect](../../aspose.slides/ieffectformat/reflectioneffect) { get; set; } | Αντανάκλαση. Ανάγνωση/Εγγραφή [`IReflection`](../../aspose.slides.effects/ireflection). |
-| [SoftEdgeEffect](../../aspose.slides/ieffectformat/softedgeeffect) { get; set; } | Απαλό άκρο. Ανάγνωση/Εγγραφή [`ISoftEdge`](../../aspose.slides.effects/isoftedge). |
+| [AsIEffectParamSource](../../aspose.slides/ieffectformat/asieffectparamsource) { get; } | Επιτρέπει την απόκτηση της βασικής IEffectParamSource διασύνδεση. Μόνο για ανάγνωση [`IEffectParamSource`](../ieffectparamsource). |
+| [BlurEffect](../../aspose.slides/ieffectformat/blureffect) { get; set; } | Εφέ θολώματος. Ανάγνωση/εγγραφή [`IBlur`](../../aspose.slides.effects/iblur). |
+| [FillOverlayEffect](../../aspose.slides/ieffectformat/filloverlayeffect) { get; set; } | Εφέ επικάλυψης γεμίσματος. Ανάγνωση/εγγραφή [`IFillOverlay`](../../aspose.slides.effects/ifilloverlay). |
+| [GlowEffect](../../aspose.slides/ieffectformat/gloweffect) { get; set; } | Εφέ λάμψης. Ανάγνωση/εγγραφή [`IGlow`](../../aspose.slides.effects/iglow). |
+| [InnerShadowEffect](../../aspose.slides/ieffectformat/innershadoweffect) { get; set; } | Εσωτερική σκιά. Ανάγνωση/εγγραφή [`IInnerShadow`](../../aspose.slides.effects/iinnershadow). |
+| [IsNoEffects](../../aspose.slides/ieffectformat/isnoeffects) { get; } | Επιστρέφει true εάν όλα τα εφέ είναι απενεργοποιημένα (όπως όταν δημιουργείται, προεπιλεγμένο αντικείμενο EffectFormat). Μόνο για ανάγνωση Boolean. |
+| [OuterShadowEffect](../../aspose.slides/ieffectformat/outershadoweffect) { get; set; } | Εξωτερική σκιά. Ανάγνωση/εγγραφή [`IOuterShadow`](../../aspose.slides.effects/ioutershadow). |
+| [PresetShadowEffect](../../aspose.slides/ieffectformat/presetshadoweffect) { get; set; } | Προκαθορισμένη σκιά. Ανάγνωση/εγγραφή [`IPresetShadow`](../../aspose.slides.effects/ipresetshadow). |
+| [ReflectionEffect](../../aspose.slides/ieffectformat/reflectioneffect) { get; set; } | Αντανάκλαση. Ανάγνωση/εγγραφή [`IReflection`](../../aspose.slides.effects/ireflection). |
+| [SoftEdgeEffect](../../aspose.slides/ieffectformat/softedgeeffect) { get; set; } | Απαλό άκρο. Ανάγνωση/εγγραφή [`ISoftEdge`](../../aspose.slides.effects/isoftedge). |
 
 ## Μέθοδοι
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [DisableBlurEffect](../../aspose.slides/ieffectformat/disableblureffect)() | Απενεργοποιεί την επίδραση θολώματος. |
-| [DisableFillOverlayEffect](../../aspose.slides/ieffectformat/disablefilloverlayeffect)() | Απενεργοποιεί την επίδραση επικάλυψης γεμίσματος. |
-| [DisableGlowEffect](../../aspose.slides/ieffectformat/disablegloweffect)() | Απενεργοποιεί την επίδραση λάμψης. |
-| [DisableInnerShadowEffect](../../aspose.slides/ieffectformat/disableinnershadoweffect)() | Απενεργοποιεί την εσωτερική σκιά. |
-| [DisableOuterShadowEffect](../../aspose.slides/ieffectformat/disableoutershadoweffect)() | Απενεργοποιεί την εξωτερική σκιά. |
-| [DisablePresetShadowEffect](../../aspose.slides/ieffectformat/disablepresetshadoweffect)() | Απενεργοποιεί την προεπιλεγμένη σκιά. |
-| [DisableReflectionEffect](../../aspose.slides/ieffectformat/disablereflectioneffect)() | Απενεργοποιεί την αντανάκλαση. |
-| [DisableSoftEdgeEffect](../../aspose.slides/ieffectformat/disablesoftedgeeffect)() | Απενεργοποιεί το απαλό άκρο. |
-| [EnableFillOverlayEffect](../../aspose.slides/ieffectformat/enablefilloverlayeffect)() | Ενεργοποιεί την επικάλυψη γεμίσματος. |
-| [EnableGlowEffect](../../aspose.slides/ieffectformat/enablegloweffect)() | Ενεργοποιεί την επίδραση λάμψης. |
-| [EnableInnerShadowEffect](../../aspose.slides/ieffectformat/enableinnershadoweffect)() | Ενεργοποιεί την εσωτερική σκιά. |
-| [EnableOuterShadowEffect](../../aspose.slides/ieffectformat/enableoutershadoweffect)() | Ενεργοποιεί την εξωτερική σκιά. |
-| [EnablePresetShadowEffect](../../aspose.slides/ieffectformat/enablepresetshadoweffect)() | Ενεργοποιεί τις προεπιλεγμένες σκιές. |
-| [EnableReflectionEffect](../../aspose.slides/ieffectformat/enablereflectioneffect)() | Ενεργοποιεί την αντανάκλαση. |
-| [EnableSoftEdgeEffect](../../aspose.slides/ieffectformat/enablesoftedgeeffect)() | Ενεργοποιεί το απαλό άκρο. |
-| [GetEffective](../../aspose.slides/ieffectformat/geteffective)() | Αποκτά τα αποτελεσματικά δεδομένα μορφοποίησης επίδρασης με την εφαρμογή κληρονομικότητας. |
-| [SetBlurEffect](../../aspose.slides/ieffectformat/setblureffect)(double, bool) | Ορίζει την επίδραση θολώματος. |
+| [DisableBlurEffect](../../aspose.slides/ieffectformat/disableblureffect)() | Απενεργοποιεί το εφέ θολώματος. |
+| [DisableFillOverlayEffect](../../aspose.slides/ieffectformat/disablefilloverlayeffect)() | Απενεργοποιεί το εφέ επικάλυψης γεμίσματος. |
+| [DisableGlowEffect](../../aspose.slides/ieffectformat/disablegloweffect)() | Απενεργοποιεί το εφέ λάμψης. |
+| [DisableInnerShadowEffect](../../aspose.slides/ieffectformat/disableinnershadoweffect)() | Απενεργοποιεί το εφέ εσωτερικής σκιάς. |
+| [DisableOuterShadowEffect](../../aspose.slides/ieffectformat/disableoutershadoweffect)() | Απενεργοποιεί το εφέ εξωτερικής σκιάς. |
+| [DisablePresetShadowEffect](../../aspose.slides/ieffectformat/disablepresetshadoweffect)() | Απενεργοποιεί το εφέ προκαθορισμένης σκιάς. |
+| [DisableReflectionEffect](../../aspose.slides/ieffectformat/disablereflectioneffect)() | Απενεργοποιεί το εφέ αντανάκλασης. |
+| [DisableSoftEdgeEffect](../../aspose.slides/ieffectformat/disablesoftedgeeffect)() | Απενεργοποιεί το εφέ απαλού άκρου. |
+| [EnableFillOverlayEffect](../../aspose.slides/ieffectformat/enablefilloverlayeffect)() | Ενεργοποιεί το εφέ επικάλυψης γεμίσματος. |
+| [EnableGlowEffect](../../aspose.slides/ieffectformat/enablegloweffect)() | Ενεργοποιεί το εφέ λάμψης. |
+| [EnableInnerShadowEffect](../../aspose.slides/ieffectformat/enableinnershadoweffect)() | Ενεργοποιεί το εφέ εσωτερικής σκιάς. |
+| [EnableOuterShadowEffect](../../aspose.slides/ieffectformat/enableoutershadoweffect)() | Ενεργοποιεί το εφέ εξωτερικής σκιάς. |
+| [EnablePresetShadowEffect](../../aspose.slides/ieffectformat/enablepresetshadoweffect)() | Ενεργοποιεί το εφέ προκαθορισμένων σκιών. |
+| [EnableReflectionEffect](../../aspose.slides/ieffectformat/enablereflectioneffect)() | Ενεργοποιεί το εφέ αντανάκλασης. |
+| [EnableSoftEdgeEffect](../../aspose.slides/ieffectformat/enablesoftedgeeffect)() | Ενεργοποιεί το εφέ απαλού άκρου. |
+| [GetEffective](../../aspose.slides/ieffectformat/geteffective)() | Αποκτά τα δεδομένα μορφοποίησης αποτελεσματικών εφέ με την κληρονομιά εφαρμοσμένη. |
+| [SetBlurEffect](../../aspose.slides/ieffectformat/setblureffect)(double, bool) | Ορίζει το εφέ θολώματος. |
 
 ### Δείτε επίσης
 
-* διεπαφή [IEffectParamSource](../ieffectparamsource)
-* χώρος ονομάτων [Aspose.Slides](../../aspose.slides)
-* συναρμολόγηση [Aspose.Slides](../../)
+* διασύνδεση [IEffectParamSource](../ieffectparamsource)
+* χώρο ονομάτων [Aspose.Slides](../../aspose.slides)
+* συγκρότηση [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

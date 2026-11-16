@@ -1,9 +1,9 @@
 ---
 title: IComment
-second_title: Aspose.Sildes a .NET API hivatkozáshoz
+second_title: Aspose.Sildes .NET API referencia
 description: Egy dián lévő megjegyzést képvisel.
 type: docs
-weight: 5560
+weight: 5580
 url: /hu/aspose.slides/icomment/
 ---
 ## IComment interfész
@@ -19,17 +19,17 @@ public interface IComment
 | Név | Leírás |
 | --- | --- |
 | [Author](../../aspose.slides/icomment/author) { get; } | Visszaadja a megjegyzés szerzőjét. Csak olvasható [`ICommentAuthor`](../icommentauthor). |
-| [CreatedTime](../../aspose.slides/icomment/createdtime) { get; set; } | Visszaadja vagy beállítja egy megjegyzés létrehozásának időpontját. Ennek a tulajdonságnak MinValue értékre állítása azt jelenti, hogy nincs beállítva megjegyzés időpontja. Olvasás/írás DateTime. |
+| [CreatedTime](../../aspose.slides/icomment/createdtime) { get; set; } | Visszaadja vagy beállítja egy megjegyzés létrehozásának időpontját. A tulajdonság MinValue értékre állítása azt jelenti, hogy nincs beállított megjegyzésidő. Olvasás/írás DateTime. |
 | [ParentComment](../../aspose.slides/icomment/parentcomment) { get; set; } | Visszaadja vagy beállítja a szülő megjegyzést. Olvasás/írás [`IComment`](../icomment). |
 | [Position](../../aspose.slides/icomment/position) { get; set; } | Visszaadja vagy beállítja egy megjegyzés pozícióját a dián. Olvasás/írás PointF. |
-| [Slide](../../aspose.slides/icomment/slide) { get; } | Visszaadja vagy beállítja a megjegyzés szülő diáját. Csak olvasható [`ISlide`](../islide). |
+| [Slide](../../aspose.slides/icomment/slide) { get; } | Visszaadja vagy beállítja egy megjegyzés szülődiáját. Csak olvasható [`ISlide`](../islide). |
 | [Text](../../aspose.slides/icomment/text) { get; set; } | Visszaadja vagy beállítja egy diamegjegyzés egyszerű szövegét. Olvasás/írás String. |
 
-## Metódusok
+## Módszerek
 
 | Név | Leírás |
 | --- | --- |
-| [Remove](../../aspose.slides/icomment/remove)() | Eltávolítja a megjegyzést és annak minden válaszát a szülő gyűjteményből. |
+| [Remove](../../aspose.slides/icomment/remove)() | Eltávolítja a megjegyzést és minden válaszát a szülőgyűjteményből. |
 
 ### Lásd még
 

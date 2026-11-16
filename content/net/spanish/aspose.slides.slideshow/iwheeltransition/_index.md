@@ -1,14 +1,14 @@
 ---
 title: IWheelTransition
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Efecto de transición de diapositiva de rueda.
+description: Efecto de transición de deslizamiento de rueda.
 type: docs
-weight: 10220
+weight: 10240
 url: /es/aspose.slides.slideshow/iwheeltransition/
 ---
 ## IWheelTransition interfaz
 
-Efecto de transición de diapositiva de rueda.
+Efecto de transición de deslizamiento de rueda.
 
 ```csharp
 public interface IWheelTransition : ITransitionValueBase

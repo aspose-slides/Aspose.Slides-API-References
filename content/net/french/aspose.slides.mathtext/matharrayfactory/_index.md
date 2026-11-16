@@ -1,12 +1,12 @@
 ---
 title: MathArrayFactory
-second_title: Référence API Aspose.Sildes pour .NET
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Permet de créer un tableau mathématique
 type: docs
-weight: 8560
+weight: 8580
 url: /fr/aspose.slides.mathtext/matharrayfactory/
 ---
-## classe MathArrayFactory
+## MathArrayFactory classe
 
 Permet de créer un tableau mathématique
 

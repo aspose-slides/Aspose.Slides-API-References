@@ -1,14 +1,14 @@
 ---
 title: IsVisible
 second_title: Aspose.Sildes voor .NET API-referentie
-description: False betekent dat het gegevenslabel standaard niet zichtbaar is en dus alle Show-vlaggen ShowValue ... van de DefaultDataLabelFormat eigenschap false zijn. Alleen-lezen Boolean.
+description: False betekent dat gegevenslabel standaard niet zichtbaar is en dus alle Show-flags ShowValue ... van de DefaultDataLabelFormat eigenschap false zijn. Alleen-lezen Boolean.
 type: docs
-weight: 60
+weight: 70
 url: /nl/aspose.slides.charts/idatalabelcollection/isvisible/
 ---
 ## IDataLabelCollection.IsVisible eigenschap
 
-False betekent dat gegevenslabel standaard niet zichtbaar is (en dus alle Show*-vlaggen (ShowValue, ...) van de DefaultDataLabelFormat eigenschap false zijn). Alleen-lezen Boolean.
+False betekent dat gegevenslabel standaard niet zichtbaar is (en dus alle Show*-flags (ShowValue, ...) van de DefaultDataLabelFormat eigenschap false zijn). Alleen-lezen Boolean.
 
 ```csharp
 public bool IsVisible { get; }
@@ -16,7 +16,7 @@ public bool IsVisible { get; }
 
 ### Opmerkingen
 
-Als gegevenslabel standaard zichtbaar is, kun je het standaard verborgen maken met de Hide()-methode. Maar als gegevenslabel standaard niet zichtbaar is (IsVisible is false) kun je het gegevenslabel “standaard zichtbaar” maken door de Show*-vlaggen (ShowValue, ...) van de DefaultDataLabelFormat eigenschap op true te zetten.
+Als gegevenslabel standaard zichtbaar is, kun je het standaard verborgen maken met de Hide() methode. Maar als gegevenslabel standaard niet zichtbaar is (IsVisible is false) kun je het gegevenslabel "standaard zichtbaar" maken door de Show*-flags (ShowValue, ...) van de DefaultDataLabelFormat eigenschap op true te zetten.
 
 ### Zie ook
 

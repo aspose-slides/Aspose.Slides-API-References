@@ -1,14 +1,14 @@
 ---
 title: AlphaInverse
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta un effetto Alpha Inverse. I valori di opacità Alpha sono invertiti sottraendoli da 100.
+description: Rappresenta un effetto Alpha Inverse. I valori di opacità Alpha vengono invertiti sottraendoli da 100.
 type: docs
-weight: 2870
+weight: 2890
 url: /it/aspose.slides.effects/alphainverse/
 ---
 ## AlphaInverse classe
 
-Rappresenta un effetto Alpha Inverse. I valori Alpha (opacità) sono invertiti sottraendoli dal 100%.
+Rappresenta un effetto Alpha Inverse. I valori Alpha (opacità) vengono invertiti sottraendoli dal 100 %.
 
 ```csharp
 public sealed class AlphaInverse : ImageTransformOperation, IAlphaInverse
@@ -18,15 +18,15 @@ public sealed class AlphaInverse : ImageTransformOperation, IAlphaInverse
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Consente di ottenere l'interfaccia base IPresentationComponent. Solamente lettura [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Consente di ottenere l'interfaccia base IPresentationComponent. Sola lettura [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/alphainverse/equals)(object) | Determina se il [`AlphaInverse`](../alphainverse) specificato è uguale all'attuale [`AlphaInverse`](../alphainverse). |
+| override [Equals](../../aspose.slides.effects/alphainverse/equals)(object) | Determina se il [`AlphaInverse`](../alphainverse) specificato è uguale al [`AlphaInverse`](../alphainverse) corrente. |
 | [GetEffective](../../aspose.slides.effects/alphainverse/geteffective)() | Ottiene i dati dell'effetto Alpha Inverse effettivo con l'ereditarietà applicata. |
-| override [GetHashCode](../../aspose.slides.effects/alphainverse/gethashcode)() | Funge da funzione hash per un tipo particolare. |
+| override [GetHashCode](../../aspose.slides.effects/alphainverse/gethashcode)() | Funziona come una funzione hash per un tipo particolare. |
 
 ### Vedi anche
 

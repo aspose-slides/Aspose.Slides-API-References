@@ -1,9 +1,9 @@
 ---
 title: IInterruptionTokenSource
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 表示 IInterruptionToken./iinterruptiontoken 的来源。
 type: docs
-weight: 6200
+weight: 6220
 url: /zh/aspose.slides/iinterruptiontokensource/
 ---
 ## IInterruptionTokenSource 接口
@@ -27,7 +27,7 @@ public interface IInterruptionTokenSource
 | --- | --- |
 | [Interrupt](../../aspose.slides/iinterruptiontokensource/interrupt)() | 初始化中断请求。 |
 
-### 参见
+### 另请参阅
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

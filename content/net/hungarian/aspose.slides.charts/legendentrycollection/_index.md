@@ -1,14 +1,14 @@
 ---
 title: LegendEntryCollection
-second_title: Aspose.Sildes .NET API hivatkozás
-description: A jelmagyarázatok gyűjteményét képviseli.
+second_title: Aspose.Sildes a .NET API referencia
+description: A legendák gyűjteményét képviseli.
 type: docs
-weight: 2300
+weight: 2320
 url: /hu/aspose.slides.charts/legendentrycollection/
 ---
 ## LegendEntryCollection osztály
 
-A jelmagyarázatok gyűjteményét képviseli.
+A legendák gyűjteményét képviseli.
 
 ```csharp
 public class LegendEntryCollection : ILegendEntryCollection
@@ -18,8 +18,8 @@ public class LegendEntryCollection : ILegendEntryCollection
 
 | Név | Leírás |
 | --- | --- |
-| [Count](../../aspose.slides.charts/legendentrycollection/count) { get; } | Visszaadja a jelmagyarázat-bejegyzések számát. Csak olvasható Int32. |
-| [Item](../../aspose.slides.charts/legendentrycollection/item) { get; } | Visszaadja a jelmagyarázat-bejegyzés tulajdonságait, amely a Chart.ChartData.Series[0].DataPoints[index] elemhez tartozik, ha a diagram típusa a következő listából származik: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie; vagy a Chart.ChartData.Series[index] elemhez tartozik más diagramtípusok esetén. |
+| [Count](../../aspose.slides.charts/legendentrycollection/count) { get; } | A legendabejegyzések számát adja vissza. Írásvédett Int32. |
+| [Item](../../aspose.slides.charts/legendentrycollection/item) { get; } | A legendabejegyzés tulajdonságait adja vissza, amely a Chart.ChartData.Series[0].DataPoints[index] elemhez tartozik, ha a diagram típusa a következők valamelyike: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie; vagy a Chart.ChartData.Series[index] elemhez tartozik más diagramtípusok esetén. |
 
 ### Lásd még
 

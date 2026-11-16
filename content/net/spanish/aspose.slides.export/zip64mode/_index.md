@@ -1,14 +1,14 @@
 ---
 title: Zip64Mode
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Especifica cuándo usar extensiones de formato ZIP64 para el archivo OpenXML.
+description: Especifica cuándo usar extensiones de formato ZIP64 para un archivo OpenXML.
 type: docs
-weight: 4740
+weight: 4760
 url: /es/aspose.slides.export/zip64mode/
 ---
-## Enumeración Zip64Mode
+## Zip64Mode enumeración
 
-Especifica cuándo usar las extensiones de formato ZIP64 para el archivo OpenXML.
+Especifica cuándo usar extensiones de formato ZIP64 para un archivo OpenXML.
 
 ```csharp
 public enum Zip64Mode
@@ -18,15 +18,15 @@ public enum Zip64Mode
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| Never | `0` | No usar extensiones de formato ZIP64. |
-| IfNecessary | `1` | Usar extensiones de formato ZIP64 si es necesario. |
-| Always | `2` | Usar siempre extensiones de formato ZIP64. |
+| Never | `0` | No use extensiones de formato ZIP64. |
+| IfNecessary | `1` | Use extensiones de formato ZIP64 si es necesario. |
+| Always | `2` | Siempre use extensiones de formato ZIP64. |
 
 ### Observaciones
 
-El archivo OpenXML es un archivo ZIP que tiene un límite de 4 GB (2^32 bytes) en el tamaño sin comprimir de un archivo, el tamaño comprimido de un archivo y el tamaño total del archivo, así como un límite de 65,535 (2^16-1) archivos en el archivo. Las extensiones de formato ZIP64 aumentan los límites a 2^64.
+El archivo OpenXML es un archivo ZIP que tiene un límite de 4 GB (2^32 bytes) en el tamaño sin comprimir de un archivo, el tamaño comprimido de un archivo y el tamaño total del archivo, así como un límite de 65 535 (2^16-1) archivos en el archivo. Las extensiones de formato ZIP64 aumentan los límites a 2^64.
 
-### Véase también
+### Ver también
 
 * espacio de nombres [Aspose.Slides.Export](../../aspose.slides.export)
 * ensamblado [Aspose.Slides](../../)

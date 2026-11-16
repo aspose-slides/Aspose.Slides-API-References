@@ -1,14 +1,14 @@
 ---
 title: IMasterHandoutSlideManager
-second_title: Aspose.Sildes .NET के लिए API संदर्भ
-description: मास्टर हैंडआउट स्लाइड प्रबंधक।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: मुख्य हैंडआउट स्लाइड प्रबंधक।
 type: docs
-weight: 6370
+weight: 6390
 url: /hi/aspose.slides/imasterhandoutslidemanager/
 ---
 ## IMasterHandoutSlideManager इंटरफ़ेस
 
-मास्टर हैंडआउट स्लाइड प्रबंधक।
+मुख्य हैंडआउट स्लाइड प्रबंधक।
 
 ```csharp
 public interface IMasterHandoutSlideManager
@@ -16,16 +16,16 @@ public interface IMasterHandoutSlideManager
 
 ## गुण
 
-| नाम | विवरण |
+| नाम | वर्णन |
 | --- | --- |
-| [MasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/masterhandoutslide) { get; } | यदि इस प्रस्तुति में कोई हो तो सभी नोट्स स्लाइड्स के लिए एक मास्टर लौटाता है, अन्यथा null लौटाता है। केवल पढ़ने योग्य [`IMasterHandoutSlide`](../imasterhandoutslide). |
+| [MasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/masterhandoutslide) { get; } | यदि उपलब्ध हो तो इस प्रस्तुति की सभी नोट्स स्लाइड्स के लिए एक मास्टर लौटाता है, अन्यथा null लौटाता है। केवल-पढ़ने योग्य [`IMasterHandoutSlide`](../imasterhandoutslide). |
 
-## विधियाँ
+## विधियों
 
-| नाम | विवरण |
+| नाम | वर्णन |
 | --- | --- |
-| [RemoveMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/removemasterhandoutslide)() | मास्टर हैंडआउट स्लाइड को हटाता है। |
-| [SetDefaultMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/setdefaultmasterhandoutslide)() | डिफ़ॉल्ट मास्टर हैंडआउट स्लाइड को संबंधित हैंडआउट स्लाइड पर सेट करता है। |
+| [RemoveMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/removemasterhandoutslide)() | मुख्य हैंडआउट स्लाइड को हटाता है। |
+| [SetDefaultMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/setdefaultmasterhandoutslide)() | डिफ़ॉल्ट मुख्य हैंडआउट स्लाइड को संबंधित हैंडआउट स्लाइड पर सेट करता है। |
 
 ### संबंधित देखें
 

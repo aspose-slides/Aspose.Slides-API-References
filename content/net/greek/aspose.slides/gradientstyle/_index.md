@@ -1,14 +1,14 @@
 ---
 title: GradientStyle
-second_title: Aspose.Sildes για .NET API Αναφορά
-description: Αναπαριστά τα διαθέσιμα στυλ διαβάθμισης.
+second_title: Aspose.Sildes για .NET API Reference
+description: Αναπαριστά τις διαθέσιμες μορφές διαβάθμισης.
 type: docs
-weight: 5060
+weight: 5080
 url: /el/aspose.slides/gradientstyle/
 ---
-## Απαρίθμηση GradientStyle
+## GradientStyle απαρίθμηση
 
-Αντιπροσωπεύει τα διαθέσιμα στυλ διαβάθμισης.
+Αναπαριστά τις διαθέσιμες μορφές διαβάθμισης.
 
 ```csharp
 public enum GradientStyle
@@ -18,8 +18,8 @@ public enum GradientStyle
 
 | Όνομα | Τιμή | Περιγραφή |
 | --- | --- | --- |
-| Default | `0` | Το προεπιλεγμένο στυλ διαβάθμισης. |
-| PowerPointUI | `1` | Το στυλ διαβάθμισης όπως εμφανίζεται στη διεπαφή χρήστη του PowerPoint. |
+| Default | `0` | Η προεπιλεγμένη μορφή διαβάθμισης. |
+| PowerPointUI | `1` | Η μορφή διαβάθμισης όπως εμφανίζεται στη διεπαφή χρήστη του PowerPoint. |
 
 ### Δείτε επίσης
 

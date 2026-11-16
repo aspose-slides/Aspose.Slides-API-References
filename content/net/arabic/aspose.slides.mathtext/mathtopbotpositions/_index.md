@@ -3,7 +3,7 @@ title: MathTopBotPositions
 second_title: مرجع API لـ Aspose.Sildes لـ .NET
 description: تعداد مواضع الأعلى/الأسفل
 type: docs
-weight: 9040
+weight: 9060
 url: /ar/aspose.slides.mathtext/mathtopbotpositions/
 ---
 ## تعداد MathTopBotPositions

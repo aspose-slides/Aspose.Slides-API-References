@@ -1,9 +1,9 @@
 ---
 title: FontFallBackRule
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili aturan fallback font
 type: docs
-weight: 4840
+weight: 4860
 url: /id/aspose.slides/fontfallbackrule/
 ---
 ## FontFallBackRule kelas
@@ -25,10 +25,10 @@ public class FontFallBackRule : IFontFallBackRule
 
 | Nama | Deskripsi |
 | --- | --- |
-| [Count](../../aspose.slides/fontfallbackrule/count) { get; } | Mengambil jumlah font yang sebenarnya didefinisikan untuk rentang. Hanya-baca Int32. |
-| [Item](../../aspose.slides/fontfallbackrule/item) { get; } | Mengambil nama font pada indeks tertentu. Hanya-baca [`IFontFallBackRule`](../ifontfallbackrule). |
-| [RangeEndIndex](../../aspose.slides/fontfallbackrule/rangeendindex) { get; set; } | Mengambil indeks terakhir dari rentang unicode berkelanjutan. |
-| [RangeStartIndex](../../aspose.slides/fontfallbackrule/rangestartindex) { get; set; } | Mengambil indeks pertama dari rentang unicode berkelanjutan. |
+| [Count](../../aspose.slides/fontfallbackrule/count) { get; } | Mendapatkan jumlah font yang sebenarnya didefinisikan untuk rentang. Hanya-baca Int32. |
+| [Item](../../aspose.slides/fontfallbackrule/item) { get; } | Mendapatkan nama font pada indeks yang ditentukan. Hanya-baca [`IFontFallBackRule`](../ifontfallbackrule). |
+| [RangeEndIndex](../../aspose.slides/fontfallbackrule/rangeendindex) { get; set; } | Dapatkan indeks terakhir dari rentang unicode berkelanjutan. |
+| [RangeStartIndex](../../aspose.slides/fontfallbackrule/rangestartindex) { get; set; } | Dapatkan indeks pertama dari rentang unicode berkelanjutan. |
 
 ## Metode
 

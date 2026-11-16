@@ -1,14 +1,14 @@
 ---
 title: Value
 second_title: Aspose.Sildes for .NET API 참조
-description: UseCell가 true인 경우 이 속성은 AsCell.Value 속성을 나타냅니다. UseCell가 false인 경우 이 속성은 AsLiteral 속성을 나타냅니다. 읽기/쓰기 Object.
+description: UseCell이 true이면 이 속성은 AsCell.Value 속성을 나타냅니다. UseCell이 false이면 이 속성은 AsLiteral 속성을 나타냅니다. 읽기/쓰기 Object.
 type: docs
-weight: 50
+weight: 60
 url: /ko/aspose.slides.charts/chartcategory/value/
 ---
 ## ChartCategory.Value 속성
 
-UseCell가 true인 경우 이 속성은 AsCell.Value 속성을 나타냅니다. UseCell가 false인 경우 이 속성은 AsLiteral 속성을 나타냅니다. 읽기/쓰기 Object.
+UseCell이 true이면 이 속성은 AsCell.Value 속성을 나타냅니다. UseCell이 false이면 이 속성은 AsLiteral 속성을 나타냅니다. 읽기/쓰기 Object.
 
 ```csharp
 public object Value { get; set; }

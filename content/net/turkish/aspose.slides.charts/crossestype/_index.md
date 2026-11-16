@@ -3,12 +3,12 @@ title: CrossesType
 second_title: Aspose.Sildes için .NET API Referansı
 description: Eksenin nerede kesileceğini belirler.
 type: docs
-weight: 1540
+weight: 1550
 url: /tr/aspose.slides.charts/crossestype/
 ---
 ## CrossesType enumerasyonu
 
-Axis nerede kesileceğini belirler.
+Eksenin nerede kesileceğini belirler.
 
 ```csharp
 public enum CrossesType
@@ -18,11 +18,11 @@ public enum CrossesType
 
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
-| AxisCrossesAtZero | `0` | Kategori ekseni, değer ekseninin sıfır noktasında (mümkünse) kesilir; aksi takdirde minimum değer (minimum sıfırdan büyükse) ya da maksimum (maksimum sıfırdan küçükse). |
-| Maximum | `1` | Eksen maksimum değerde kesilir. |
+| AxisCrossesAtZero | `0` | Kategori ekseni, değer ekseninin sıfır noktasında (mümkünse) kesilir, aksi takdirde minimum değer (minimum sıfırdan büyükse) veya maksimum (maksimum sıfırdan küçüktür). |
+| Maximum | `1` | Ekseni maksimum değerinde kesilir. |
 | Custom | `2` | CrossAt özelliğinden özel değer |
 
-### Diğer Bağlantılar
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides.Charts](../../aspose.slides.charts)
 * derleme [Aspose.Slides](../../)

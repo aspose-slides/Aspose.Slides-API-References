@@ -1,14 +1,14 @@
 ---
 title: GetFontBytes
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mengambil array byte yang mewakili data font untuk gaya font dan data font yang ditentukan.
+description: Mendapatkan array byte yang mewakili data font untuk gaya font yang ditentukan dan data font.
 type: docs
-weight: 50
+weight: 60
 url: /id/aspose.slides/fontsmanager/getfontbytes/
 ---
-## FontsManager.GetFontBytes method
+## FontsManager.GetFontBytes metode
 
-Mengambil array byte yang mewakili data font untuk gaya font dan data font yang ditentukan.
+Mendapatkan array byte yang mewakili data font untuk gaya font yang ditentukan dan data font.
 
 ```csharp
 public byte[] GetFontBytes(IFontData fontData, FontStyleType fontStyle)
@@ -21,7 +21,7 @@ public byte[] GetFontBytes(IFontData fontData, FontStyleType fontStyle)
 
 ### Nilai Kembali
 
-Array byte yang berisi data font untuk gaya font yang ditentukan. Jika data font atau gaya tidak ditemukan, mengembalikan null.
+Sebuah array byte yang berisi data font untuk gaya font yang ditentukan. Jika data font atau gaya tidak ditemukan, mengembalikan null.
 
 ### Contoh
 
@@ -29,10 +29,10 @@ Array byte yang berisi data font untuk gaya font yang ditentukan. Jika data font
 [C#]
 using (Presentation pres = new Presentation ("Presentation.pptx"))
 {
-    // Ambil semua font yang digunakan dalam presentasi
+    // Mengambil semua font yang digunakan dalam presentasi
     IFontData[] fonts = pres.FontsManager.GetFonts();
 
-    // Dapatkan array byte yang mewakili gaya reguler dari font pertama dalam presentasi
+    // Mendapatkan array byte yang mewakili gaya reguler dari font pertama dalam presentasi
     byte[] bytes = pres.FontsManager.GetFontBytes(fonts[0], FontStyleType.Regular);
 }
 ```
@@ -40,7 +40,7 @@ using (Presentation pres = new Presentation ("Presentation.pptx"))
 ### Lihat Juga
 
 * antarmuka [IFontData](../../ifontdata)
-* enumerasi [FontStyleType](../../fontstyletype)
+* enum [FontStyleType](../../fontstyletype)
 * kelas [FontsManager](../../fontsmanager)
 * ruang nama [Aspose.Slides](../../fontsmanager)
 * assembly [Aspose.Slides](../../../)

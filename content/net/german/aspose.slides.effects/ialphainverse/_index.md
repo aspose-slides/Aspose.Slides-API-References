@@ -1,14 +1,14 @@
 ---
 title: IAlphaInverse
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt einen Alpha-Inverse-Effekt dar. Alpha-Opazitätswerte werden invertiert, indem sie von 100 subtrahiert werden.
+description: Stellt einen Alpha-Inverse-Effekt dar. Alpha-Deckkraftwerte werden invertiert, indem sie von 100 subtrahiert werden.
 type: docs
-weight: 3080
+weight: 3100
 url: /de/aspose.slides.effects/ialphainverse/
 ---
 ## IAlphaInverse Schnittstelle
 
-Represents an Alpha Inverse effect. Alpha (opacity) values are inverted by subtracting from 100%.
+Stellt einen Alpha-Inverse-Effekt dar. Alpha- (Deckkraft-)Werte werden invertiert, indem sie von 100 % subtrahiert werden.
 
 ```csharp
 public interface IAlphaInverse : IAccessiblePVIObject<IAlphaInverseEffectiveData>, 
@@ -19,8 +19,8 @@ public interface IAlphaInverse : IAccessiblePVIObject<IAlphaInverseEffectiveData
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphainverse/asiaccessiblepviobject) { get; } | Ermöglicht das Abrufen der Basis-IAccessiblePVIObject Schnittstelle. Nur lesbar [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphainverse/asiimagetransformoperation) { get; } | Ermöglicht das Abrufen der Basis-IImageTransformOperation Schnittstelle. Nur lesbar [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphainverse/asiaccessiblepviobject) { get; } | Ermöglicht das Abrufen der Basis IAccessiblePVIObject Schnittstelle. Nur lesbar [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphainverse/asiimagetransformoperation) { get; } | Ermöglicht das Abrufen der Basis IImageTransformOperation Schnittstelle. Nur lesbar [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### Siehe auch
 

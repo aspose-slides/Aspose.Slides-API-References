@@ -1,14 +1,14 @@
 ---
 title: ICaptions
-second_title: Aspose.Sildes for .NET API 參考
-description: 表示 WebVTT 隱藏式字幕。
+second_title: Aspose.Sildes .NET API 參考
+description: 代表 WebVTT 關閉字幕。
 type: docs
-weight: 5430
+weight: 5450
 url: /zh-hant/aspose.slides/icaptions/
 ---
 ## ICaptions 介面
 
-表示 WebVTT 隱藏式字幕。
+代表 WebVTT 關閉字幕。
 
 ```csharp
 public interface ICaptions
@@ -16,12 +16,12 @@ public interface ICaptions
 
 ## 屬性
 
-| Name | Description |
+| 名稱 | 說明 |
 | --- | --- |
-| [BinaryData](../../aspose.slides/icaptions/binarydata) { get; } | 傳回隱藏式字幕的二進位資料。唯讀 Byte[]. |
-| [CaptionId](../../aspose.slides/icaptions/captionid) { get; } | 傳回隱藏式字幕的全域唯一識別碼 (GUID)。唯讀 Guid。 |
-| [DataAsString](../../aspose.slides/icaptions/dataasstring) { get; } | 傳回以 UTF-8 編碼的字串形式的隱藏式字幕資料。唯讀 String。 |
-| [Label](../../aspose.slides/icaptions/label) { get; set; } | 取得或設定隱藏式字幕的標籤。可讀寫 String。 |
+| [BinaryData](../../aspose.slides/icaptions/binarydata) { get; } | 傳回關閉字幕的二進位資料。唯讀 Byte[]. |
+| [CaptionId](../../aspose.slides/icaptions/captionid) { get; } | 傳回關閉字幕的全域唯一識別碼 (GUID)。唯讀 Guid. |
+| [DataAsString](../../aspose.slides/icaptions/dataasstring) { get; } | 傳回關閉字幕資料為 UTF-8 編碼的字串。唯讀 String. |
+| [Label](../../aspose.slides/icaptions/label) { get; set; } | 傳回或設定關閉字幕的標籤。讀寫 String. |
 
 ### 另請參閱
 

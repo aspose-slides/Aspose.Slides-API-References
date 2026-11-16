@@ -1,12 +1,12 @@
 ---
 title: PresetShadowType
-second_title: Справочник API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Представляет предустановку для эффекта тени.
 type: docs
-weight: 9670
+weight: 9690
 url: /ru/aspose.slides/presetshadowtype/
 ---
-## Перечисление PresetShadowType
+## PresetShadowType перечисление
 
 Представляет предустановку для эффекта тени.
 
@@ -18,26 +18,26 @@ public enum PresetShadowType
 
 | Имя | Значение | Описание |
 | --- | --- | --- |
-| TopLeftDropShadow | `0` | Представляет Top Left Drop Shadow. |
-| TopLeftLargeDropShadow | `1` | Представляет Top Left Large Drop Shadow. |
-| BackLeftLongPerspectiveShadow | `2` | Представляет Back Left Long Perspective Shadow |
-| BackRightLongPerspectiveShadow | `3` | Представляет Back Right Long Perspective Shadow |
-| TopLeftDoubleDropShadow | `4` | Представляет Top Left Double Drop Shadow. |
-| BottomRightSmallDropShadow | `5` | Представляет Bottom Right Small Drop Shadow. |
-| FrontLeftLongPerspectiveShadow | `6` | Представляет Front Left Long Perspective Shadow. |
-| FrontRightLongPerspectiveShadow | `7` | Представляет Front Right Long Perspective Shadow. |
-| OuterBoxShadow3D | `8` | Представляет Outer Box Shadow 3D. |
-| InnerBoxShadow3D | `9` | Представляет Inner Box Shadow 3D. |
-| BackCenterPerspectiveShadow | `10` | Представляет Back Center Perspective Shadow. |
-| TopRightDropShadow | `11` | Представляет Top Right Drop Shadow. |
-| FrontBottomShadow | `12` | Представляет Front Bottom Shadow. |
-| BackLeftPerspectiveShadow | `13` | Представляет Back Left Perspective Shadow. |
-| BackRightPerspectiveShadow | `14` | Представляет Back Right Perspective Shadow. |
-| BottomLeftDropShadow | `15` | Представляет Bottom Left Drop Shadow. |
-| BottomRightDropShadow | `16` | Представляет Bottom Right Drop Shadow. |
-| FrontLeftPerspectiveShadow | `17` | Представляет Front Left Perspective Shadow. |
-| FrontRightPerspectiveShadow | `18` | Представляет Front Right Perspective Shadow. |
-| TopLeftSmallDropShadow | `19` | Представляет Top Left Small Drop Shadow. |
+| TopLeftDropShadow | `0` | Представляет тень в верхнем левом углу. |
+| TopLeftLargeDropShadow | `1` | Представляет большую тень в верхнем левом углу. |
+| BackLeftLongPerspectiveShadow | `2` | Представляет заднюю левую длинную перспективную тень |
+| BackRightLongPerspectiveShadow | `3` | Представляет заднюю правую длинную перспективную тень |
+| TopLeftDoubleDropShadow | `4` | Представляет двойную тень в верхнем левом углу. |
+| BottomRightSmallDropShadow | `5` | Представляет небольшую тень в нижнем правом углу. |
+| FrontLeftLongPerspectiveShadow | `6` | Представляет длинную перспективную тень спереди слева. |
+| FrontRightLongPerspectiveShadow | `7` | Представляет длинную перспективную тень спереди справа. |
+| OuterBoxShadow3D | `8` | Представляет внешнюю коробочную тень 3D. |
+| InnerBoxShadow3D | `9` | Представляет внутреннюю коробочную тень 3D. |
+| BackCenterPerspectiveShadow | `10` | Представляет центральную заднюю перспективную тень. |
+| TopRightDropShadow | `11` | Представляет тень в верхнем правом углу. |
+| FrontBottomShadow | `12` | Представляет тень снизу спереди. |
+| BackLeftPerspectiveShadow | `13` | Представляет заднюю левую перспективную тень. |
+| BackRightPerspectiveShadow | `14` | Представляет заднюю правую перспективную тень. |
+| BottomLeftDropShadow | `15` | Представляет тень в нижнем левом углу. |
+| BottomRightDropShadow | `16` | Представляет тень в нижнем правом углу. |
+| FrontLeftPerspectiveShadow | `17` | Представляет левую перспективную тень спереди. |
+| FrontRightPerspectiveShadow | `18` | Представляет правую перспективную тень спереди. |
+| TopLeftSmallDropShadow | `19` | Представляет небольшую тень в верхнем левом углу. |
 
 ### См. также
 

@@ -1,27 +1,27 @@
 ---
 title: Orientation
-second_title: Aspose.Sildes .NET API referencia
-description: Az alakzat tájolását jelenti.
+second_title: Aspose.Sildes for .NET API-referenciája
+description: Képviseli egy alakzat orientációját.
 type: docs
-weight: 9240
+weight: 9260
 url: /hu/aspose.slides/orientation/
 ---
-## Orientation enumeration
+## Orientation enumeráció
 
-A forma tájolását jelenti.
+A forma orientációját reprezentálja.
 
 ```csharp
 public enum Orientation : sbyte
 ```
 
-### Values
+### Értékek
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| Horizontal | `0` | Vízszintes. |
-| Vertical | `1` | Függőleges. |
+| Horizontal | `0` | Horizontal. |
+| Vertical | `1` | Vertical. |
 
-### See Also
+### Lásd még
 
 * névtér [Aspose.Slides](../../aspose.slides)
 * összeállítás [Aspose.Slides](../../)

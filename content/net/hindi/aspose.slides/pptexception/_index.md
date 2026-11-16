@@ -1,9 +1,9 @@
 ---
 title: PptException
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
+second_title: Aspose.Sildes for .NET API संदर्भ
 description: एक मानक आंतरिक अपवाद प्रकार का प्रतिनिधित्व करता है।
 type: docs
-weight: 9520
+weight: 9540
 url: /hi/aspose.slides/pptexception/
 ---
 ## PptException वर्ग
@@ -14,13 +14,13 @@ url: /hi/aspose.slides/pptexception/
 public class PptException : Exception
 ```
 
-## निर्माणकर्ता
+## निर्माता
 
 | नाम | विवरण |
 | --- | --- |
-| [PptException](pptexception#constructor)() | डिफ़ॉल्ट निर्माणकर्ता। |
-| [PptException](pptexception#constructor_1)(string) | इस अपवाद में एक संदेश जोड़ने की अनुमति देने वाला निर्माणकर्ता। |
-| [PptException](pptexception#constructor_2)(string, Exception) | एक संदेश और एम्बेडेड अपवाद शामिल करने वाले अपवाद के लिए निर्माणकर्ता। |
+| [PptException](pptexception#constructor)() | डिफ़ॉल्ट कंस्ट्रक्टर। |
+| [PptException](pptexception#constructor_1)(string) | एक कंस्ट्रक्टर जो इस अपवाद में एक संदेश जोड़ने की अनुमति देता है। |
+| [PptException](pptexception#constructor_2)(string, Exception) | एक कंस्ट्रक्टर जो संदेश और एम्बेडेड अपवाद सहित एक अपवाद बनाता है। |
 
 ### संबंधित देखें
 

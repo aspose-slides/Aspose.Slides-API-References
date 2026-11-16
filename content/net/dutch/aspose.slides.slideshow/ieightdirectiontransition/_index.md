@@ -1,25 +1,25 @@
 ---
 title: IEightDirectionTransition
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Effect voor dia-overgang met acht richtingen.
+description: Diaovergangseffect in acht richtingen.
 type: docs
-weight: 10070
+weight: 10090
 url: /nl/aspose.slides.slideshow/ieightdirectiontransition/
 ---
 ## IEightDirectionTransition interface
 
-Effect voor dia-overgang met acht richtingen.
+Diaovergangseffect in acht richtingen.
 
 ```csharp
 public interface IEightDirectionTransition : ITransitionValueBase
 ```
 
-## Properties
+## Eigenschappen
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/ieightdirectiontransition/asitransitionvaluebase) { get; } | Stelt toe de basis ITransitionValueBase interface op te halen. Alleen-lezen [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/ieightdirectiontransition/direction) { get; set; } | Richting van de overgang. Lezen/schrijven [`TransitionEightDirectionType`](../transitioneightdirectiontype). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/ieightdirectiontransition/asitransitionvaluebase) { get; } | Staat toe om de basis ITransitionValueBase interface op te halen. Alleen-lezen [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/ieightdirectiontransition/direction) { get; set; } | Richting van overgang. Lezen/schrijven [`TransitionEightDirectionType`](../transitioneightdirectiontype). |
 
 ### Zie ook
 

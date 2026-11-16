@@ -3,7 +3,7 @@ title: Storage
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt einen temporären Datenspeicher für WebDocument./webdocument dar.
 type: docs
-weight: 4660
+weight: 4680
 url: /de/aspose.slides.export.web/storage/
 ---
 ## Speicherklasse

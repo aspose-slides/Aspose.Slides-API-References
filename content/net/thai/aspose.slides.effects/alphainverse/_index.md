@@ -1,14 +1,14 @@
 ---
 title: AlphaInverse
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงเอฟเฟกต์ Alpha Inverse. ค่าความทึบของ Alpha ถูกกลับโดยการลบจาก 100.
+description: แสดงถึงเอฟเฟกต์ Alpha Inverse. ค่าความทึบของ Alpha จะถูกกลับโดยการลบจาก 100.
 type: docs
-weight: 2870
+weight: 2890
 url: /th/aspose.slides.effects/alphainverse/
 ---
 ## AlphaInverse คลาส
 
-แสดงถึงเอฟเฟกต์ Alpha Inverse. ค่า Alpha (ความทึบ) ถูกกลับโดยการลบจาก 100%
+แสดงถึงเอฟเฟกต์ Alpha Inverse. ค่าของ Alpha (ความทึบ) จะถูกกลับโดยการลบจาก 100%.
 
 ```csharp
 public sealed class AlphaInverse : ImageTransformOperation, IAlphaInverse
@@ -18,15 +18,15 @@ public sealed class AlphaInverse : ImageTransformOperation, IAlphaInverse
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | อนุญาตให้รับอินเทอร์เฟซ IPresentationComponent พื้นฐาน. อ่านอย่างเดียว [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IPresentationComponent ฐาน. อ่านอย่างเดียว [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/alphainverse/equals)(object) | กำหนดว่าค่า [`AlphaInverse`](../alphainverse) ที่ระบุเท่ากับค่า [`AlphaInverse`](../alphainverse) ปัจจุบันหรือไม่. |
-| [GetEffective](../../aspose.slides.effects/alphainverse/geteffective)() | รับข้อมูลเอฟเฟกต์ Alpha Inverse ที่มีผลโดยมีการสืบทอด. |
-| override [GetHashCode](../../aspose.slides.effects/alphainverse/gethashcode)() | ทำหน้าที่เป็นฟังก์ชันแฮชสำหรับชนิดใดชนิดหนึ่ง. |
+| override [Equals](../../aspose.slides.effects/alphainverse/equals)(object) | กำหนดว่่า [`AlphaInverse`](../alphainverse) ที่ระบุเท่ากับ [`AlphaInverse`](../alphainverse) ปัจจุบันหรือไม่. |
+| [GetEffective](../../aspose.slides.effects/alphainverse/geteffective)() | ดึงข้อมูลเอฟเฟกต์ Alpha Inverse ที่มีผลพร้อมกับการสืบทอดที่นำไปใช้. |
+| override [GetHashCode](../../aspose.slides.effects/alphainverse/gethashcode)() | ทำหน้าที่เป็นฟังก์ชันแฮชสำหรับประเภทเฉพาะ. |
 
 ### ดูเพิ่มเติม
 

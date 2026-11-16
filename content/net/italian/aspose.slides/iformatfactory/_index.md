@@ -1,9 +1,9 @@
 ---
 title: IFormatFactory
-second_title: Aspose.Sildes per .NET API Reference
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Consente di creare formati tramite interfaccia COM.
 type: docs
-weight: 5940
+weight: 5960
 url: /it/aspose.slides/iformatfactory/
 ---
 ## IFormatFactory interfaccia
@@ -18,9 +18,9 @@ public interface IFormatFactory
 
 | Nome | Descrizione |
 | --- | --- |
-| [CreateParagraphFormat](../../aspose.slides/iformatfactory/createparagraphformat)() | Crea un nuovo [`IParagraphFormat`](../iparagraphformat). |
-| [CreatePortionFormat](../../aspose.slides/iformatfactory/createportionformat)() | Crea un nuovo [`IPortionFormat`](../iportionformat). |
-| [CreateTextFrameFormat](../../aspose.slides/iformatfactory/createtextframeformat)() | Crea un nuovo [`ITextFrameFormat`](../itextframeformat). |
+| [CreateParagraphFormat](../../aspose.slides/iformatfactory/createparagraphformat)() | Crea nuovo [`IParagraphFormat`](../iparagraphformat). |
+| [CreatePortionFormat](../../aspose.slides/iformatfactory/createportionformat)() | Crea nuovo [`IPortionFormat`](../iportionformat). |
+| [CreateTextFrameFormat](../../aspose.slides/iformatfactory/createtextframeformat)() | Crea nuovo [`ITextFrameFormat`](../itextframeformat). |
 
 ### Vedi anche
 

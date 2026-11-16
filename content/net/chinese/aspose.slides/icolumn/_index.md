@@ -1,14 +1,14 @@
 ---
 title: IColumn
-second_title: Aspose.Sildes .NET API 参考
-description: 表示表格中的一列。
+second_title: Aspose.Sildes for .NET API 参考
+description: 表示表格中的列。
 type: docs
-weight: 5520
+weight: 5540
 url: /zh/aspose.slides/icolumn/
 ---
 ## IColumn 接口
 
-表示表格中的一列。
+表示表格中的列。
 
 ```csharp
 public interface IColumn : IBulkTextFormattable, ICellCollection
@@ -18,12 +18,12 @@ public interface IColumn : IBulkTextFormattable, ICellCollection
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIBulkTextFormattable](../../aspose.slides/icolumn/asibulktextformattable) { get; } | 允许获取基础 IBulkTextFormattable 接口。只读 [`IBulkTextFormattable`](../ibulktextformattable)。 |
-| [AsICellCollection](../../aspose.slides/icolumn/asicellcollection) { get; } | 允许获取基础 ICellCollection 接口。只读 [`ICellCollection`](../icellcollection)。 |
-| [ColumnFormat](../../aspose.slides/icolumn/columnformat) { get; } | 返回包含此列格式属性的 ColumnFormat 对象。只读 [`IColumnFormat`](../icolumnformat)。 |
+| [AsIBulkTextFormattable](../../aspose.slides/icolumn/asibulktextformattable) { get; } | 允许获取基类 IBulkTextFormattable 接口。只读 [`IBulkTextFormattable`](../ibulktextformattable)。 |
+| [AsICellCollection](../../aspose.slides/icolumn/asicellcollection) { get; } | 允许获取基类 ICellCollection 接口。只读 [`ICellCollection`](../icellcollection)。 |
+| [ColumnFormat](../../aspose.slides/icolumn/columnformat) { get; } | 返回包含此列的格式属性的 ColumnFormat 对象。只读 [`IColumnFormat`](../icolumnformat)。 |
 | [Width](../../aspose.slides/icolumn/width) { get; set; } | 返回或设置列的宽度。读/写 Double。 |
 
-### 另请参见
+### 另见
 
 * 接口 [IBulkTextFormattable](../ibulktextformattable)
 * 接口 [ICellCollection](../icellcollection)

@@ -1,14 +1,14 @@
 ---
 title: AlphaModulate
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Vertegenwoordigt een Alpha Modulate-effect. Effect-alpha-ondoorzichtigheidswaarden worden vermenigvuldigd met een vast percentage. De effectcontainer specificeert een effect dat alfa-waarden moduleert.
+description: Stelt een Alpha Modulate-effect voor. Effect alfa-ondoorzichtigheidswaarden worden vermenigvuldigd met een vast percentage. De effectcontainer specificeert een effect dat alfa-waarden moduleert.
 type: docs
-weight: 2880
+weight: 2900
 url: /nl/aspose.slides.effects/alphamodulate/
 ---
 ## AlphaModulate klasse
 
-Vertegenwoordigt een Alpha Modulate-effect. Effect alpha (ondoorzichtigheid) waarden worden vermenigvuldigd met een vast percentage. De effectcontainer specificeert een effect dat alpha-waarden moduleert.
+Stelt een Alpha Modulate-effect voor. Effect alfa (ondoorzichtigheid) waarden worden vermenigvuldigd met een vast percentage. De effectcontainer specificeert een effect dat alfa-waarden moduleert.
 
 ```csharp
 public sealed class AlphaModulate : ImageTransformOperation, IAlphaModulate
@@ -18,15 +18,15 @@ public sealed class AlphaModulate : ImageTransformOperation, IAlphaModulate
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Staat toe om de basis IPresentationComponent interface te verkrijgen. Alleen-lezen [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Staat toe om de basale IPresentationComponent interface te verkrijgen. Alleen-lezen [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/alphamodulate/equals)(object) | Bepaalt of de opgegeven [`AlphaModulate`](../alphamodulate) gelijk is aan de huidige [`AlphaModulate`](../alphamodulate). |
-| [GetEffective](../../aspose.slides.effects/alphamodulate/geteffective)() | Haalt effectieve Alpha Modulate-effectgegevens op met toegepaste overerving. |
-| override [GetHashCode](../../aspose.slides.effects/alphamodulate/gethashcode)() | Dient als hashfunctie voor een bepaald type. |
+| [GetEffective](../../aspose.slides.effects/alphamodulate/geteffective)() | Haalt effectieve Alpha Modulate-effectgegevens op met de toegepaste overerving. |
+| override [GetHashCode](../../aspose.slides.effects/alphamodulate/gethashcode)() | Dient als een hashfunctie voor een bepaald type. |
 
 ### Zie ook
 

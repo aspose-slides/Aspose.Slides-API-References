@@ -1,14 +1,14 @@
 ---
 title: IMathRadical
-second_title: Aspose.Sildes .NET API referencia
-description: Megadja a radikális függvényt, amely egy alapból és egy opcionális fokból áll. A radikális objektum példája .
+second_title: Aspose.Sildes a .NET API Referenciához
+description: Meghatározza a gyökfüggvényt, amely egy alapból és egy opcionális fokból áll. A gyökobjektus példája .
 type: docs
-weight: 8430
+weight: 8450
 url: /hu/aspose.slides.mathtext/imathradical/
 ---
 ## IMathRadical interfész
 
-Megadja a gyök függvényt, amely egy alapból és egy opcionális fokból áll. A gyök objektum példája √𝑥.
+Meghatározza a gyökfüggvényt, amely egy alapból és egy opcionális fokból áll. A gyökobjektus példája √𝑥.
 
 ```csharp
 public interface IMathRadical : IMathElement
@@ -21,7 +21,7 @@ public interface IMathRadical : IMathElement
 | [AsIMathElement](../../aspose.slides.mathtext/imathradical/asimathelement) { get; } | Lehetővé teszi az alap IMathElement interfész lekérését [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathradical/base) { get; } | Alap argumentum |
 | [Degree](../../aspose.slides.mathtext/imathradical/degree) { get; } | Fok argumentum |
-| [HideDegree](../../aspose.slides.mathtext/imathradical/hidedegree) { get; set; } | A fok elrejtése. Ha true, a fok nem jelenik meg, mint √𝑥 |
+| [HideDegree](../../aspose.slides.mathtext/imathradical/hidedegree) { get; set; } | Rejti a fokot. Ha igaz, a fok nincs megjelenítve, például √𝑥 esetén |
 
 ### Példák
 
@@ -29,7 +29,7 @@ Példa:
 
 ```csharp
 [C#]
-IMathRadical radical = new MathematicalText("x").Radical("3"); // kockagyök
+IMathRadical radical = new MathematicalText("x").Radical("3"); // köbgyök
 ```
 
 ### Lásd még

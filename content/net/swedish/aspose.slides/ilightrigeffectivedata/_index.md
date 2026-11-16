@@ -1,14 +1,14 @@
 ---
 title: ILightRigEffectiveData
 second_title: Aspose.Sildes för .NET API-referens
-description: Oföränderligt objekt som innehåller effektiva ljusriggegenskaper.
+description: Oföränderligt objekt som innehåller effektiva ljusriggens egenskaper.
 type: docs
-weight: 6280
+weight: 6300
 url: /sv/aspose.slides/ilightrigeffectivedata/
 ---
 ## ILightRigEffectiveData gränssnitt
 
-Oföränderligt objekt som innehåller effektiva egenskaper för ljusrigg.
+Oföränderligt objekt som innehåller effektiva ljusriggens egenskaper.
 
 ```csharp
 public interface ILightRigEffectiveData
@@ -18,14 +18,14 @@ public interface ILightRigEffectiveData
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Direction](../../aspose.slides/ilightrigeffectivedata/direction) { get; } | Ljusriktning. Endast läsning [`LightingDirection`](../lightingdirection). |
-| [LightType](../../aspose.slides/ilightrigeffectivedata/lighttype) { get; } | Representerar en förinställd ljusinställning som kan tillämpas på en form. Ljusriggen representerar en grupp av ljus orienterade på ett specifikt sätt i förhållande till en 3D-scen. Endast läsning [`LightRigPresetType`](../lightrigpresettype). |
+| [Direction](../../aspose.slides/ilightrigeffectivedata/direction) { get; } | Ljusriktning. Skrivskyddad [`LightingDirection`](../lightingdirection). |
+| [LightType](../../aspose.slides/ilightrigeffectivedata/lighttype) { get; } | Representerar ett förinställt ljus som kan tillämpas på en form. Ljusriggen representerar en grupp ljus som är orienterade på ett specifikt sätt i förhållande till en 3D-scen. Skrivskyddad [`LightRigPresetType`](../lightrigpresettype). |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
-| [GetRotation](../../aspose.slides/ilightrigeffectivedata/getrotation)() | En rotation definieras genom användning av en latitudkoordinat, en longitudkoordinat och en revolution kring axeln som latitud- och longitudkoordinaterna. Första elementet i returarrayen - latitud, andra - longitud, tredje - revolution. |
+| [GetRotation](../../aspose.slides/ilightrigeffectivedata/getrotation)() | En rotation definieras genom användning av en latitudkoordinat, en longitudkoordinat och en rotation kring axeln som latitud- och longitudkoordinater. Första elementet i returarrayen - latitud, andra - longitud, tredje - rotation. |
 
 ### Anmärkningar
 

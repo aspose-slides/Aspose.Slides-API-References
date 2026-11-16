@@ -1,14 +1,14 @@
 ---
 title: FormatScheme
-second_title: Referensi API Aspose.Sildes untuk .NET
-description: Menyimpan format yang ditentukan tema untuk bentuk-bentuk.
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Menyimpan format yang ditentukan tema untuk bentuk.
 type: docs
-weight: 11140
+weight: 11160
 url: /id/aspose.slides.theme/formatscheme/
 ---
 ## FormatScheme kelas
 
-Menyimpan format yang ditentukan tema untuk bentuk-bentuk.
+Menyimpan format yang ditentukan tema untuk bentuk.
 
 ```csharp
 public class FormatScheme : IFormatScheme
@@ -18,9 +18,9 @@ public class FormatScheme : IFormatScheme
 
 | Nama | Deskripsi |
 | --- | --- |
-| [BackgroundFillStyles](../../aspose.slides.theme/formatscheme/backgroundfillstyles) { get; } | Mengembalikan koleksi gaya isian latar belakang yang ditentukan tema. Hanya-baca [`IFillFormatCollection`](../ifillformatcollection). |
+| [BackgroundFillStyles](../../aspose.slides.theme/formatscheme/backgroundfillstyles) { get; } | Mengembalikan koleksi gaya isi latar belakang yang ditentukan tema. Hanya-baca [`IFillFormatCollection`](../ifillformatcollection). |
 | [EffectStyles](../../aspose.slides.theme/formatscheme/effectstyles) { get; } | Mengembalikan koleksi gaya efek yang ditentukan tema. Hanya-baca [`IEffectStyleCollection`](../ieffectstylecollection). |
-| [FillStyles](../../aspose.slides.theme/formatscheme/fillstyles) { get; } | Mengembalikan koleksi gaya isian yang ditentukan tema. Hanya-baca [`IFillFormatCollection`](../ifillformatcollection). |
+| [FillStyles](../../aspose.slides.theme/formatscheme/fillstyles) { get; } | Mengembalikan koleksi gaya isi yang ditentukan tema. Hanya-baca [`IFillFormatCollection`](../ifillformatcollection). |
 | [LineStyles](../../aspose.slides.theme/formatscheme/linestyles) { get; } | Mengembalikan koleksi gaya garis yang ditentukan tema. Hanya-baca [`ILineFormatCollection`](../ilineformatcollection). |
 | [Presentation](../../aspose.slides.theme/formatscheme/presentation) { get; } | Mengembalikan presentasi induk. Hanya-baca [`IPresentation`](../../aspose.slides/ipresentation). |
 | [Slide](../../aspose.slides.theme/formatscheme/slide) { get; } | Mengembalikan slide induk. Hanya-baca [`IBaseSlide`](../../aspose.slides/ibaseslide). |

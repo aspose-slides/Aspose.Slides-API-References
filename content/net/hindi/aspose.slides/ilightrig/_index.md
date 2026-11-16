@@ -1,9 +1,9 @@
 ---
 title: ILightRig
-second_title: Aspose.Sildes for .NET API संदर्भ
+second_title: Aspose.Sildes .NET के लिये API संदर्भ
 description: LightRig का प्रतिनिधित्व करता है।
 type: docs
-weight: 6270
+weight: 6290
 url: /hi/aspose.slides/ilightrig/
 ---
 ## ILightRig इंटरफ़ेस
@@ -14,21 +14,21 @@ LightRig का प्रतिनिधित्व करता है।
 public interface ILightRig
 ```
 
-## गुण
+## प्रॉपर्टीज़
 
 | नाम | विवरण |
 | --- | --- |
-| [Direction](../../aspose.slides/ilightrig/direction) { get; set; } | Light दिशा। पढ़ें/लिखें [`LightingDirection`](../lightingdirection)। |
-| [LightType](../../aspose.slides/ilightrig/lighttype) { get; set; } | एक पूर्वनिर्धारित लाइट राइट को दर्शाता है जिसे एक shape पर लागू किया जा सकता है। light rig एक समूह लाइट्स को दर्शाता है जो 3D सीन के सापेक्ष विशिष्ट तरीके से अभिविन्यस्त होते हैं। पढ़ें/लिखें [`LightRigPresetType`](../lightrigpresettype)। |
+| [Direction](../../aspose.slides/ilightrig/direction) { get; set; } | Light दिशा। पढ़ें/लिखें [`LightingDirection`](../lightingdirection). |
+| [LightType](../../aspose.slides/ilightrig/lighttype) { get; set; } | एक प्रीसेट लाइट राइट को दर्शाता है जिसे shape पर लागू किया जा सकता है। Light rig एक विशिष्ट तरीके से 3D सीन के सापेक्ष उन्मुख लाइट्स के समूह का प्रतिनिधित्व करता है। पढ़ें/लिखें [`LightRigPresetType`](../lightrigpresettype). |
 
-## मेथड्स
+## विधियां
 
 | नाम | विवरण |
 | --- | --- |
-| [GetRotation](../../aspose.slides/ilightrig/getrotation)() | एक घुमाव को latitude निर्देशांक, longitude निर्देशांक, और अक्ष के चारों ओर घूर्णन द्वारा परिभाषित किया जाता है। वापसी array के पहले तत्व - latitude, दूसरा - longitude, तीसरा - revolution। |
-| [SetRotation](../../aspose.slides/ilightrig/setrotation)(float, float, float) | एक घुमाव को latitude निर्देशांक, longitude निर्देशांक, और अक्ष के चारों ओर घूर्णन द्वारा परिभाषित किया जाता है। |
+| [GetRotation](../../aspose.slides/ilightrig/getrotation)() | एक घूर्णन को अक्षांश निर्देशांक, देशांतर निर्देशांक, और अक्ष के चारों ओर घूर्णन का उपयोग करके परिभाषित किया जाता है। लौटाई गई ऐरे का पहला तत्व - अक्षांश, दूसरा - देशांतर, तीसरा - घूर्णन. |
+| [SetRotation](../../aspose.slides/ilightrig/setrotation)(float, float, float) | एक घूर्णन को अक्षांश निर्देशांक, देशांतर निर्देशांक, और अक्ष के चारों ओर घूर्णन का उपयोग करके परिभाषित किया जाता है। |
 
-### संबंधित देखें
+### देखें भी
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

@@ -1,12 +1,12 @@
 ---
 title: IVideoPlayerHtmlControllerFactory
-second_title: Aspose.Sildes .NET API Referansı
+second_title: Aspose.Sildes for .NET API Referansı
 description: VideoPlayerHtmlController oluşturulmasını sağlar.
 type: docs
-weight: 4190
+weight: 4210
 url: /tr/aspose.slides.export/ivideoplayerhtmlcontrollerfactory/
 ---
-## IVideoPlayerHtmlControllerFactory arayüz
+## IVideoPlayerHtmlControllerFactory arayüzü
 
 VideoPlayerHtmlController oluşturulmasını sağlar.
 
@@ -14,11 +14,11 @@ VideoPlayerHtmlController oluşturulmasını sağlar.
 public interface IVideoPlayerHtmlControllerFactory
 ```
 
-## Metotlar
+## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [CreateVideoPlayerHtmlController](../../aspose.slides.export/ivideoplayerhtmlcontrollerfactory/createvideoplayerhtmlcontroller)(string, string, string) | Video player HTML denetleyicisini oluşturur. |
+| [CreateVideoPlayerHtmlController](../../aspose.slides.export/ivideoplayerhtmlcontrollerfactory/createvideoplayerhtmlcontroller)(string, string, string) | Video oynatıcı HTML denetleyicisini oluşturur. |
 
 ### Açıklamalar
 

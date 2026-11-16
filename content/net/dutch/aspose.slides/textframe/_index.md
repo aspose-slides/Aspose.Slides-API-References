@@ -1,14 +1,14 @@
 ---
 title: TextFrame
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Vertegenwoordigt een TextFrame.
+description: Stelt een TextFrame voor.
 type: docs
-weight: 10950
+weight: 10970
 url: /nl/aspose.slides/textframe/
 ---
 ## TextFrame klasse
 
-Vertegenwoordigt een TextFrame.
+Represents a TextFrame.
 
 ```csharp
 public sealed class TextFrame : ITextFrame
@@ -19,25 +19,26 @@ public sealed class TextFrame : ITextFrame
 | Naam | Beschrijving |
 | --- | --- |
 | [HyperlinkQueries](../../aspose.slides/textframe/hyperlinkqueries) { get; } | Biedt gemakkelijke toegang tot ingesloten hyperlinks. Alleen-lezen [`IHyperlinkQueries`](../ihyperlinkqueries). |
-| [Paragraphs](../../aspose.slides/textframe/paragraphs) { get; } | Retourneert de lijst met alle alinea's in een frame. Alleen-lezen [`IParagraphCollection`](../iparagraphcollection). |
-| [ParentCell](../../aspose.slides/textframe/parentcell) { get; } | Retourneert de bovenliggende cel of null als het bovenliggende object de ICell-interface niet implementeert. Alleen-lezen [`ICell`](../icell). |
-| [ParentShape](../../aspose.slides/textframe/parentshape) { get; } | Retourneert de bovenliggende shape of null als het bovenliggende object de IShape-interface niet implementeert. Alleen-lezen [`IShape`](../ishape). |
+| [Paragraphs](../../aspose.slides/textframe/paragraphs) { get; } | Retourneert de lijst van alle alinea's in een frame. Alleen-lezen [`IParagraphCollection`](../iparagraphcollection). |
+| [ParentCell](../../aspose.slides/textframe/parentcell) { get; } | Retourneert de bovenliggende cel of null als het bovenliggende object de ICell interface niet implementeert. Alleen-lezen [`ICell`](../icell). |
+| [ParentShape](../../aspose.slides/textframe/parentshape) { get; } | Retourneert de bovenliggende vorm of null als het bovenliggende object de IShape interface niet implementeert Alleen-lezen [`IShape`](../ishape). |
 | [Presentation](../../aspose.slides/textframe/presentation) { get; } | Retourneert de bovenliggende presentatie van een TextFrame. Alleen-lezen [`IPresentation`](../ipresentation). |
 | [Slide](../../aspose.slides/textframe/slide) { get; } | Retourneert de bovenliggende dia van een TextFrame. Alleen-lezen [`IBaseSlide`](../ibaseslide). |
-| [Text](../../aspose.slides/textframe/text) { get; set; } | Haalt de platte tekst op of stelt deze in voor een TextFrame. Lezen/Schrijven String. |
-| [TextFrameFormat](../../aspose.slides/textframe/textframeformat) { get; } | Retourneert het opmaakobject voor dit TextFrame-object. Alleen-lezen [`ITextFrameFormat`](../itextframeformat). |
+| [Text](../../aspose.slides/textframe/text) { get; set; } | Haalt of stelt de platte tekst in voor een TextFrame. Lezen/schrijven String. |
+| [TextFrameFormat](../../aspose.slides/textframe/textframeformat) { get; } | Retourneert het opmaakobject voor dit TextFrame object. Alleen-lezen [`ITextFrameFormat`](../itextframeformat). |
 
-## Methoden
+## Methodes
 
 | Naam | Beschrijving |
 | --- | --- |
+| [GetTextRect](../../aspose.slides/textframe/gettextrect)() | Haalt de tekstrechthoek op die gedefinieerd wordt door de geometrie van de bovenliggende vorm. |
 | [HighlightRegex](../../aspose.slides/textframe/highlightregex#highlightregex_1)(Regex, Color, IFindResultCallback) | Markeert alle overeenkomsten van de reguliere expressie met de opgegeven kleur. |
 | [HighlightText](../../aspose.slides/textframe/highlighttext#highlighttext)(string, Color) | Markeert alle overeenkomsten van de voorbeeldtekst met de opgegeven kleur. |
 | [HighlightText](../../aspose.slides/textframe/highlighttext#highlighttext_2)(string, Color, ITextSearchOptions, IFindResultCallback) | Markeert alle overeenkomsten van de voorbeeldtekst met de opgegeven kleur. |
-| [JoinPortionsWithSameFormatting](../../aspose.slides/textframe/joinportionswithsameformatting)() | Voegt runs met dezelfde opmaak samen in alle alinea's. |
-| [ReplaceRegex](../../aspose.slides/textframe/replaceregex)(Regex, string, IFindResultCallback) | Vervangt alle overeenkomsten van de reguliere expressie door de opgegeven tekenreeks. |
-| [ReplaceText](../../aspose.slides/textframe/replacetext)(string, string, ITextSearchOptions, IFindResultCallback) | Vervangt alle voorkomens van de opgegeven tekst door een andere opgegeven tekst. |
-| [SplitTextByColumns](../../aspose.slides/textframe/splittextbycolumns)() | Splitst de tekstinhoud van de [`ITextFrame`](../itextframe) in een array van tekenreeksen, waarbij elk element overeenkomt met een aparte tekstopbouwkolom binnen het frame. |
+| [JoinPortionsWithSameFormatting](../../aspose.slides/textframe/joinportionswithsameformatting)() | Voegt runs samen met dezelfde opmaak in alle alinea's. |
+| [ReplaceRegex](../../aspose.slides/textframe/replaceregex)(Regex, string, IFindResultCallback) | Vervangt alle overeenkomsten van de reguliere expressie door de opgegeven string. |
+| [ReplaceText](../../aspose.slides/textframe/replacetext)(string, string, ITextSearchOptions, IFindResultCallback) | Vervangt alle voorkomen van de opgegeven tekst door een andere opgegeven tekst. |
+| [SplitTextByColumns](../../aspose.slides/textframe/splittextbycolumns)() | Splitst de tekstinhoud van de [`ITextFrame`](../itextframe) in een array van strings, waarbij elk element overeenkomt met een aparte tekstkolom binnen het frame. |
 
 ### Zie ook
 

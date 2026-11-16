@@ -1,14 +1,14 @@
 ---
 title: FontCollectionIndex
-second_title: Aspose.Sildes για .NET Αναφορά API
-description: Αντιπροσωπεύει το ευρετήριο των γραμματοσειρών σε μια συλλογή.
+second_title: Aspose.Sildes για .NET API Αναφορά
+description: Αναπαριστά το δείκτη των γραμματοσειρών σε μια συλλογή.
 type: docs
-weight: 4810
+weight: 4830
 url: /el/aspose.slides/fontcollectionindex/
 ---
-## FontCollectionIndex απαρίθμηση
+## FontCollectionIndex αρίθμηση
 
-Αντιπροσωπεύει το ευρετήριο της γραμματοσειράς σε μια συλλογή.
+Αναπαριστά το δείκτη της γραμματοσειράς σε μια συλλογή.
 
 ```csharp
 public enum FontCollectionIndex : byte

@@ -1,14 +1,14 @@
 ---
 title: IColorFormat
-second_title: Aspose.Sildes برای .NET مرجع API
-description: نمایانگر رنگی است که در یک ارائه استفاده می‌شود.
+second_title: Aspose.Sildes برای مرجع API .NET
+description: نمایانگر رنگی که در یک ارائه استفاده می‌شود.
 type: docs
-weight: 5490
+weight: 5510
 url: /fa/aspose.slides/icolorformat/
 ---
-## IColorFormat رابط
+## رابط IColorFormat
 
-نمایانگر رنگی است که در یک ارائه استفاده می‌شود.
+یک رنگ را که در یک ارائه استفاده می‌شود، نمایش می‌دهد.
 
 ```csharp
 public interface IColorFormat : IFillParamSource
@@ -18,31 +18,31 @@ public interface IColorFormat : IFillParamSource
 
 | نام | توضیح |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/icolorformat/asifillparamsource) { get; } | یک IFillParamSource رابط را برمی‌گرداند. فقط-خواندنی [`IFillParamSource`](../ifillparamsource). |
-| [B](../../aspose.slides/icolorformat/b) { get; set; } | مقدار آبی یک رنگ را باز می‌گرداند یا تنظیم می‌کند. همه تبدیلات رنگ نادیده گرفته می‌شوند. قابل خواندن/نوشتن Byte. |
-| [Color](../../aspose.slides/icolorformat/color) { get; set; } | رنگ حاصل را باز می‌گرداند (با اعمال تمام تبدیلات رنگ). رنگ‌های RGB را تنظیم می‌کند و تمام تبدیلات رنگ را پاک می‌کند. قابل خواندن/نوشتن Color. |
-| [ColorTransform](../../aspose.slides/icolorformat/colortransform) { get; } | مجموعه تبدیلات رنگ اعمال‌شده بر یک رنگ را باز می‌گرداند. فقط-خواندنی [`IColorOperationCollection`](../icoloroperationcollection). |
-| [ColorType](../../aspose.slides/icolorformat/colortype) { get; set; } | روش تعریف رنگ را باز می‌گرداند یا تنظیم می‌کند. قابل خواندن/نوشتن [`ColorType`](../colortype). |
-| [FloatB](../../aspose.slides/icolorformat/floatb) { get; set; } | مقدار آبی یک رنگ را باز می‌گرداند یا تنظیم می‌کند. همه تبدیلات رنگ نادیده گرفته می‌شوند. قابل خواندن/نوشتن Single. |
-| [FloatG](../../aspose.slides/icolorformat/floatg) { get; set; } | مقدار سبز یک رنگ را باز می‌گرداند یا تنظیم می‌کند. همه تبدیلات رنگ نادیده گرفته می‌شوند. قابل خواندن/نوشتن Single. |
-| [FloatR](../../aspose.slides/icolorformat/floatr) { get; set; } | مقدار قرمز یک رنگ را باز می‌گرداند یا تنظیم می‌کند. همه تبدیلات رنگ نادیده گرفته می‌شوند. قابل خواندن/نوشتن Single. |
-| [G](../../aspose.slides/icolorformat/g) { get; set; } | مقدار سبز یک رنگ را باز می‌گرداند یا تنظیم می‌کند. همه تبدیلات رنگ نادیده گرفته می‌شوند. قابل خواندن/نوشتن Byte. |
-| [Hue](../../aspose.slides/icolorformat/hue) { get; set; } | مقدار hue یک رنگ در نمایش HSL را باز می‌گرداند یا تنظیم می‌کند. همه تبدیلات رنگ نادیده گرفته می‌شوند. قابل خواندن/نوشتن Single. |
-| [Luminance](../../aspose.slides/icolorformat/luminance) { get; set; } | مقدار luminance یک رنگ در نمایش HSL را باز می‌گرداند یا تنظیم می‌کند. همه تبدیلات رنگ نادیده گرفته می‌شوند. قابل خواندن/نوشتن Single. |
-| [PresetColor](../../aspose.slides/icolorformat/presetcolor) { get; set; } | پرست رنگ را باز می‌گرداند یا تنظیم می‌کند. قابل خواندن/نوشتن [`PresetColor`](../presetcolor). |
-| [R](../../aspose.slides/icolorformat/r) { get; set; } | مقدار قرمز یک رنگ را باز می‌گرداند یا تنظیم می‌کند. همه تبدیلات رنگ نادیده گرفته می‌شوند. قابل خواندن/نوشتن Byte. |
-| [Saturation](../../aspose.slides/icolorformat/saturation) { get; set; } | مقدار saturation یک رنگ در نمایش HSL را باز می‌گرداند یا تنظیم می‌کند. همه تبدیلات رنگ نادیده گرفته می‌شوند. قابل خواندن/نوشتن Single. |
-| [SchemeColor](../../aspose.slides/icolorformat/schemecolor) { get; set; } | رنگ شناسایی‌شده توسط یک طرح رنگ را باز می‌گرداند یا تنظیم می‌کند. قابل خواندن/نوشتن [`SchemeColor`](../schemecolor). |
-| [SystemColor](../../aspose.slides/icolorformat/systemcolor) { get; set; } | رنگ شناسایی‌شده توسط جدول رنگ‌های سیستم را باز می‌گرداند یا تنظیم می‌کند. قابل خواندن/نوشتن [`SystemColor`](../systemcolor). |
+| [AsIFillParamSource](../../aspose.slides/icolorformat/asifillparamsource) { get; } | IFillParamSource interface را برمی‌گرداند. فقط خواندنی [`IFillParamSource`](../ifillparamsource). |
+| [B](../../aspose.slides/icolorformat/b) { get; set; } | مؤلفه آبی یک رنگ را برمی‌گرداند یا تنظیم می‌کند. تمام تبدیلات رنگ نادیده گرفته می‌شوند. خواندن/نوشتن Byte. |
+| [Color](../../aspose.slides/icolorformat/color) { get; set; } | رنگ حاصل را (با اعمال تمام تبدیلات رنگ) برمی‌گرداند. رنگ‌های RGB را تنظیم کرده و تمام تبدیلات رنگ را پاک می‌کند. خواندن/نوشتن Color. |
+| [ColorTransform](../../aspose.slides/icolorformat/colortransform) { get; } | مجموعه تبدیلات رنگ اعمال‌شده بر یک رنگ را برمی‌گرداند. فقط خواندنی [`IColorOperationCollection`](../icoloroperationcollection). |
+| [ColorType](../../aspose.slides/icolorformat/colortype) { get; set; } | روش تعریف رنگ را برمی‌گرداند یا تنظیم می‌کند. خواندن/نوشتن [`ColorType`](../colortype). |
+| [FloatB](../../aspose.slides/icolorformat/floatb) { get; set; } | مؤلفه آبی یک رنگ را برمی‌گرداند یا تنظیم می‌کند. تمام تبدیلات رنگ نادیده گرفته می‌شوند. خواندن/نوشتن Single. |
+| [FloatG](../../aspose.slides/icolorformat/floatg) { get; set; } | مؤلفه سبز یک رنگ را برمی‌گرداند یا تنظیم می‌کند. تمام تبدیلات رنگ نادیده گرفته می‌شوند. خواندن/نوشتن Single. |
+| [FloatR](../../aspose.slides/icolorformat/floatr) { get; set; } | مؤلفه قرمز یک رنگ را برمی‌گرداند یا تنظیم می‌کند. تمام تبدیلات رنگ نادیده گرفته می‌شوند. خواندن/نوشتن Single. |
+| [G](../../aspose.slides/icolorformat/g) { get; set; } | مؤلفه سبز یک رنگ را برمی‌گرداند یا تنظیم می‌کند. تمام تبدیلات رنگ نادیده گرفته می‌شوند. خواندن/نوشتن Byte. |
+| [Hue](../../aspose.slides/icolorformat/hue) { get; set; } | مؤلفه hue یک رنگ در نمایش HSL را برمی‌گرداند یا تنظیم می‌کند. تمام تبدیلات رنگ نادیده گرفته می‌شوند. خواندن/نوشتن Single. |
+| [Luminance](../../aspose.slides/icolorformat/luminance) { get; set; } | مؤلفه luminance یک رنگ در نمایش HSL را برمی‌گرداند یا تنظیم می‌کند. تمام تبدیلات رنگ نادیده گرفته می‌شوند. خواندن/نوشتن Single. |
+| [PresetColor](../../aspose.slides/icolorformat/presetcolor) { get; set; } | پیش‌تنظیم رنگ را برمی‌گرداند یا تنظیم می‌کند. خواندن/نوشتن [`PresetColor`](../presetcolor). |
+| [R](../../aspose.slides/icolorformat/r) { get; set; } | مؤلفه قرمز یک رنگ را برمی‌گرداند یا تنظیم می‌کند. تمام تبدیلات رنگ نادیده گرفته می‌شوند. خواندن/نوشتن Byte. |
+| [Saturation](../../aspose.slides/icolorformat/saturation) { get; set; } | مؤلفه saturation یک رنگ در نمایش HSL را برمی‌گرداند یا تنظیم می‌کند. تمام تبدیلات رنگ نادیده گرفته می‌شوند. خواندن/نوشتن Single. |
+| [SchemeColor](../../aspose.slides/icolorformat/schemecolor) { get; set; } | رنگ شناسایی‌شده توسط یک طرح رنگ را برمی‌گرداند یا تنظیم می‌کند. خواندن/نوشتن [`SchemeColor`](../schemecolor). |
+| [SystemColor](../../aspose.slides/icolorformat/systemcolor) { get; set; } | رنگ شناسایی‌شده توسط جدول رنگ‌های سیستم را برمی‌گرداند یا تنظیم می‌کند. خواندن/نوشتن [`SystemColor`](../systemcolor). |
 
 ## متدها
 
 | نام | توضیح |
 | --- | --- |
 | [CopyFrom](../../aspose.slides/icolorformat/copyfrom)(IColorFormat) | قالب رنگ را از "color" کپی می‌کند. |
-| [ToString](../../aspose.slides/icolorformat/tostring)(ColorStringFormat) | یک String که نمایانگر قالب رنگ جاری است را باز می‌گرداند. |
+| [ToString](../../aspose.slides/icolorformat/tostring)(ColorStringFormat) | یک String که قالب رنگ فعلی را نشان می‌دهد، برمی‌گرداند. |
 
-### مراجع
+### موارد مرتبط
 
 * رابط [IFillParamSource](../ifillparamsource)
 * فضای‌نام [Aspose.Slides](../../aspose.slides)

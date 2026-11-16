@@ -1,14 +1,14 @@
 ---
 title: PlaceholderSize
-second_title: Aspose.Sildes .NET API Referenciája
-description: A helykitöltő méretét jelöli.
+second_title: Aspose.Sildes .NET API referencia
+description: Egy helyőrző méretét jelöli.
 type: docs
-weight: 9440
+weight: 9460
 url: /hu/aspose.slides/placeholdersize/
 ---
-## PlaceholderSize felsorolás
+## PlaceholderSize enumeráció
 
-A helykitöltő méretét jelöli.
+Egy helyőrző méretét jelöli.
 
 ```csharp
 public enum PlaceholderSize : sbyte

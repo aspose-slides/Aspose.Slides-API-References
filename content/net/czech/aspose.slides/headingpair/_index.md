@@ -1,14 +1,14 @@
 ---
 title: HeadingPair
-second_title: Aspose.Sildes pro .NET referenci API
-description: Representuje vlastnost 'Heading pair' dokumentu. Udává název skupiny částí dokumentu a počet částí ve skupině.
+second_title: Aspose.Sildes pro .NET referenční příručka API
+description: Reprezentuje vlastnost Heading pair dokumentu. Indikuje název skupiny částí dokumentu a počet částí ve skupině.
 type: docs
-weight: 5110
+weight: 5130
 url: /cs/aspose.slides/headingpair/
 ---
 ## HeadingPair třída
 
-Representuje vlastnost 'Heading pair' dokumentu. Udává název skupiny částí dokumentu a počet částí ve skupině.
+Representuje vlastnost 'Heading pair' dokumentu. Indikuje název skupiny částí dokumentu a počet částí ve skupině.
 
 ```csharp
 public sealed class HeadingPair : IHeadingPair

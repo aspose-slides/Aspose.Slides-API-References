@@ -3,7 +3,7 @@ title: IColorReplace
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili efek Penggantian Warna.
 type: docs
-weight: 3240
+weight: 3260
 url: /id/aspose.slides.effects/icolorreplace/
 ---
 ## IColorReplace antarmuka
@@ -19,8 +19,8 @@ public interface IColorReplace : IAccessiblePVIObject<IColorReplaceEffectiveData
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/icolorreplace/asiaccessiblepviobject) { get; } | Memungkinkan mendapatkan antarmuka dasar IAccessiblePVIObject. Hanya-baca [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/icolorreplace/asiimagetransformoperation) { get; } | Memungkinkan mendapatkan antarmuka dasar IImageTransformOperation. Hanya-baca [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/icolorreplace/asiaccessiblepviobject) { get; } | Mengizinkan untuk mendapatkan antarmuka IAccessiblePVIObject dasar. Hanya-baca [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/icolorreplace/asiimagetransformoperation) { get; } | Mengizinkan untuk mendapatkan antarmuka IImageTransformOperation dasar. Hanya-baca [`IImageTransformOperation`](../iimagetransformoperation). |
 | [Color](../../aspose.slides.effects/icolorreplace/color) { get; } | Mengembalikan format warna yang akan menggantikan warna setiap piksel. Hanya-baca [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ### Lihat Juga

@@ -3,12 +3,12 @@ title: IDataTable
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt die Eigenschaften der Datentabelle dar.
 type: docs
-weight: 2060
+weight: 2080
 url: /de/aspose.slides.charts/idatatable/
 ---
 ## IDataTable Schnittstelle
 
-Stellt die Eigenschaften der Datentabelle dar.
+Represents data table properties.
 
 ```csharp
 public interface IDataTable : IFormattedTextContainer
@@ -18,12 +18,12 @@ public interface IDataTable : IFormattedTextContainer
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIFormattedTextContainer](../../aspose.slides.charts/idatatable/asiformattedtextcontainer) { get; } | Ermöglicht das Abrufen der Basisschnittstelle IFormattedTextContainer. Schreibgeschützt [`IFormattedTextContainer`](../iformattedtextcontainer). |
-| [Format](../../aspose.slides.charts/idatatable/format) { get; } | Gibt die Linien-, Füll- und Effektstile eines Objekts zurück. Schreibgeschützt [`IFormat`](../iformat). |
-| [HasBorderHorizontal](../../aspose.slides.charts/idatatable/hasborderhorizontal) { get; set; } | True, falls die Diagrammdatentabelle horizontale Zellenränder hat. Lese/Schreib Boolean. |
-| [HasBorderOutline](../../aspose.slides.charts/idatatable/hasborderoutline) { get; set; } | True, falls die Diagrammdatentabelle Umrandungsränder hat. Lese/Schreib Boolean. |
-| [HasBorderVertical](../../aspose.slides.charts/idatatable/hasbordervertical) { get; set; } | True, falls die Diagrammdatentabelle vertikale Zellenränder hat. Lese/Schreib Boolean. |
-| [ShowLegendKey](../../aspose.slides.charts/idatatable/showlegendkey) { get; set; } | True, falls der Legenden-Schlüssel der Datenbeschriftung sichtbar ist. Lese/Schreib Boolean. |
+| [AsIFormattedTextContainer](../../aspose.slides.charts/idatatable/asiformattedtextcontainer) { get; } | Ermöglicht das Abrufen der Basisschnittstelle IFormattedTextContainer. Nur lesbar [`IFormattedTextContainer`](../iformattedtextcontainer). |
+| [Format](../../aspose.slides.charts/idatatable/format) { get; } | Gibt die Linien-, Füll- und Effektstile eines Objekts zurück. Nur lesbar [`IFormat`](../iformat). |
+| [HasBorderHorizontal](../../aspose.slides.charts/idatatable/hasborderhorizontal) { get; set; } | True, wenn die Diagrammdatentabelle horizontale Zellenränder hat. Lese/Schreib Boolean. |
+| [HasBorderOutline](../../aspose.slides.charts/idatatable/hasborderoutline) { get; set; } | True, wenn die Diagrammdatentabelle Umrissränder hat. Lese/Schreib Boolean. |
+| [HasBorderVertical](../../aspose.slides.charts/idatatable/hasbordervertical) { get; set; } | True, wenn die Diagrammdatentabelle vertikale Zellenränder hat. Lese/Schreib Boolean. |
+| [ShowLegendKey](../../aspose.slides.charts/idatatable/showlegendkey) { get; set; } | True, wenn der Legenden-Schlüssel des Datenbeschriftungslabels sichtbar ist. Lese/Schreib Boolean. |
 
 ### Siehe auch
 

@@ -1,14 +1,14 @@
 ---
 title: PieSplitCustomPointCollection
-second_title: Aspose.Sildes pro .NET - referenční dokumentace API
-description: Představuje kolekci bodů pro dělení bodu v grafu typu bar-of-pie nebo pie-of-pie s vlastním rozdělením.
+second_title: Aspose.Sildes pro .NET referenční příručka API
+description: Představuje kolekci bodů pro rozdělovací bod v grafu typu bar-of-pie nebo pie-of-pie s vlastním rozdělením.
 type: docs
-weight: 2370
+weight: 2390
 url: /cs/aspose.slides.charts/piesplitcustompointcollection/
 ---
 ## PieSplitCustomPointCollection třída
 
-Představuje kolekci bodů pro dělení bodu v grafu typu bar-of-pie nebo pie-of-pie s vlastním rozdělením.
+Představuje kolekci bodů pro rozdělovací bod v grafu typu bar-of-pie nebo pie-of-pie s vlastním rozdělením.
 
 ```csharp
 public class PieSplitCustomPointCollection : IPieSplitCustomPointCollection
@@ -19,8 +19,8 @@ public class PieSplitCustomPointCollection : IPieSplitCustomPointCollection
 | Název | Popis |
 | --- | --- |
 | [Count](../../aspose.slides.charts/piesplitcustompointcollection/count) { get; } | Vrací nebo nastavuje počet datových bodů grafu. Pouze pro čtení Int32. |
-| [IsReadOnly](../../aspose.slides.charts/piesplitcustompointcollection/isreadonly) { get; } | Vrací hodnotu, zda je ICollection pouze pro čtení. Pouze pro čtení Boolean. |
-| [IsSynchronized](../../aspose.slides.charts/piesplitcustompointcollection/issynchronized) { get; } | Vrací hodnotu, zda je přístup ke kolekci synchronizován (vláknově bezpečný). Pouze pro čtení Boolean. |
+| [IsReadOnly](../../aspose.slides.charts/piesplitcustompointcollection/isreadonly) { get; } | Získá hodnotu udávající, zda je ICollection pouze pro čtení. Pouze pro čtení Boolean. |
+| [IsSynchronized](../../aspose.slides.charts/piesplitcustompointcollection/issynchronized) { get; } | Vrací hodnotu udávající, zda je přístup ke kolekci synchronizován (vláknově bezpečný). Pouze pro čtení Boolean. |
 | [Item](../../aspose.slides.charts/piesplitcustompointcollection/item) { get; } | Vrací datový bod grafu pro zadaný index. |
 | [SyncRoot](../../aspose.slides.charts/piesplitcustompointcollection/syncroot) { get; } | Vrací kořen synchronizace. Pouze pro čtení Object. |
 
@@ -33,7 +33,7 @@ public class PieSplitCustomPointCollection : IPieSplitCustomPointCollection
 | [Clear](../../aspose.slides.charts/piesplitcustompointcollection/clear)() | Odstraní všechny položky z ICollection. |
 | [Contains](../../aspose.slides.charts/piesplitcustompointcollection/contains)(IChartDataPoint) | Určuje, zda ICollection obsahuje konkrétní hodnotu. |
 | [CopyTo](../../aspose.slides.charts/piesplitcustompointcollection/copyto)(IChartDataPoint[], int) | Zkopíruje prvky ICollection do pole Array, počínaje konkrétním indexem pole. |
-| [GetEnumerator](../../aspose.slides.charts/piesplitcustompointcollection/getenumerator)() | Vrací enumerátor, který prochází kolekci. |
+| [GetEnumerator](../../aspose.slides.charts/piesplitcustompointcollection/getenumerator)() | Vrací enumerátor, který iteruje přes kolekci. |
 | [Remove](../../aspose.slides.charts/piesplitcustompointcollection/remove#remove)(IChartDataPoint) | Odstraní položku z kolekce. |
 | [Remove](../../aspose.slides.charts/piesplitcustompointcollection/remove#remove_1)(int) | Odstraní položku z kolekce podle jejího indexu v kolekci bodů nadřazené řady. |
 

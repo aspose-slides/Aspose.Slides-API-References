@@ -1,14 +1,14 @@
 ---
 title: TransitionPattern
-second_title: Aspose.Sildes .NET API referencia
-description: Megad egy geometriai mintát, amely egymáshoz illeszkedve kitölti a nagyobb területet.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Megad egy geometriai mintát, amely egymásra rakódik egy nagyobb terület kitöltéséhez.
 type: docs
-weight: 10400
+weight: 10420
 url: /hu/aspose.slides.slideshow/transitionpattern/
 ---
 ## TransitionPattern enumeráció
 
-Megad egy geometriai mintát, amely egymáshoz illeszkedve kitölti a nagyobb területet.
+Megad egy geometriai mintát, amely egymásra rakódik egy nagyobb terület kitöltéséhez.
 
 ```csharp
 public enum TransitionPattern
@@ -18,10 +18,10 @@ public enum TransitionPattern
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| Diamond | `0` | Diamond csempe minta |
-| Hexagon | `1` | Hexagon csempe minta |
+| Diamond | `0` | Gyémánt csempe minta |
+| Hexagon | `1` | Hatoldalú csempe minta |
 
-### Lásd még
+### Kapcsolódó
 
 * névtér [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * összeállítás [Aspose.Slides](../../)

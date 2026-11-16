@@ -1,14 +1,15 @@
 ---
 title: IInnerShadowEffectiveData
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 내부 그림자 효과를 나타내는 불변 객체.
+description: 내부 그림자 효과를 나타내는 불변 객체입니다.
 type: docs
-weight: 3430
+weight: 3450
 url: /ko/aspose.slides.effects/iinnershadoweffectivedata/
 ---
 ## IInnerShadowEffectiveData 인터페이스
 
-내부 그림자 효과를 나타내는 불변 객체.
+Immutable object which represents a inner shadow effect.
+내부 그림자 효과를 나타내는 불변 객체입니다.
 
 ```csharp
 public interface IInnerShadowEffectiveData : IEffectEffectiveData

@@ -1,14 +1,14 @@
 ---
 title: DigitalSignature
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
-description: ลายเซ็นดิจิทัลในไฟล์ที่ลงลายเซ็น.
+second_title: Aspose.Sildes สำหรับ .NET การอ้างอิง API
+description: ลายเซ็นดิจิทัลในไฟล์ที่ลงนาม.
 type: docs
-weight: 2770
+weight: 2790
 url: /th/aspose.slides/digitalsignature/
 ---
 ## DigitalSignature คลาส
 
-ลายเซ็นดิจิทัลในไฟล์ที่ลงลายเซ็น
+ลายเซ็นดิจิทัลในไฟล์ที่ลงนาม.
 
 ```csharp
 public class DigitalSignature : IDigitalSignature
@@ -18,21 +18,21 @@ public class DigitalSignature : IDigitalSignature
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [DigitalSignature](digitalsignature#constructor)(X509Certificate2) | สร้างอ็อบเจ็กต์ DigitalSignature ใหม่ด้วยใบรับรองที่ระบุ |
-| [DigitalSignature](digitalsignature#constructor_1)(string, string) | สร้างอ็อบเจ็กต์ DigitalSignature ใหม่ด้วยเส้นทางไฟล์ใบรับรองและรหัสผ่านที่ระบุ |
+| [DigitalSignature](digitalsignature#constructor)(X509Certificate2) | สร้างอ็อบเจ็กต์ DigitalSignature ใหม่ด้วยใบรับรองที่ระบุ. |
+| [DigitalSignature](digitalsignature#constructor_1)(string, string) | สร้างอ็อบเจ็กต์ DigitalSignature ใหม่ด้วยเส้นทางไฟล์ใบรับรองและรหัสผ่านที่ระบุ. |
 
 ## คุณสมบัติ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Certificate](../../aspose.slides/digitalsignature/certificate) { get; } | อ็อบเจ็กต์ Certificate ที่ใช้ลงลายเซ็นในเอกสาร. อ่านอย่างเดียว X509Certificate2. |
+| [Certificate](../../aspose.slides/digitalsignature/certificate) { get; } | อ็อบเจ็กต์ Certificate ที่ใช้ลงนามในเอกสาร. อ่านอย่างเดียว X509Certificate2. |
 | [Comments](../../aspose.slides/digitalsignature/comments) { get; set; } | วัตถุประสงค์ของลายเซ็น. อ่าน/เขียน String. |
-| [IsValid](../../aspose.slides/digitalsignature/isvalid) { get; } | หากลายเซ็นดิจิทัลนี้ถูกต้องและเอกสารไม่ได้ถูกดัดแปลง ค่า này จะเป็น true. อ่านอย่างเดียว Boolean. |
-| [SignTime](../../aspose.slides/digitalsignature/signtime) { get; } | เวลาที่เอกสารถูกลงลายเซ็น. อ่านอย่างเดียว DateTime. |
+| [IsValid](../../aspose.slides/digitalsignature/isvalid) { get; } | หากลายเซ็นดิจิทัลนี้ถูกต้องและเอกสารไม่ถูกดัดแปลง ค่าจะเป็น true. อ่านอย่างเดียว Boolean. |
+| [SignTime](../../aspose.slides/digitalsignature/signtime) { get; } | เวลาที่เอกสารถูกลงนาม. อ่านอย่างเดียว DateTime. |
 
 ### ตัวอย่าง
 
-ตัวอย่างต่อไปนี้แสดงวิธีการเพิ่มลายเซ็นดิจิทัลจากใบรับรอง PFX ใน PowerPoint Presentation.
+ตัวอย่างต่อไปนี้แสดงวิธีเพิ่มลายเซ็นดิจิทัลจากใบรับรอง PFX ใน PowerPoint Presentation.
 
 ```csharp
 [C#]
@@ -43,14 +43,14 @@ using (Presentation pres = new Presentation())
     DigitalSignature signature = new DigitalSignature("testsignature1.pfx", @"testpass1");
     // คอมเมนต์ลายเซ็นดิจิทัลใหม่
     signature.Comments = "Aspose.Slides digital signing test.";
-    // เพิ่มลายเซ็นดิจิทัลในพรีเซนเทชัน
+    // เพิ่มลายเซ็นดิจิทัลลงในพรีเซนเทชัน
     pres.DigitalSignatures.Add(signature);
     // บันทึกพรีเซนเทชัน
     pres.Save("SomePresentationSigned.pptx", SaveFormat.Pptx);
 }
 ```
 
-โค้ดตัวอย่างต่อไปนี้แสดงวิธีการตรวจสอบความถูกต้องของลายเซ็นดิจิทัลใน PowerPoint Presentation.
+โค้ดตัวอย่างต่อไปนี้แสดงวิธีตรวจสอบลายเซ็นดิจิทัลของ PowerPoint Presentation.
 
 ```csharp
 [C#]
@@ -61,7 +61,7 @@ using (Presentation pres = new Presentation("SomePresentationSigned.pptx"))
     {
         bool allSignaturesAreValid = true;
         Console.WriteLine("Signatures used to sign the presentation: ");
-        // ตรวจสอบว่าลายเซ็นดิจิทัลทั้งหมดเป็นค่าที่ถูกต้องหรือไม่
+        // ตรวจสอบว่าลายเซ็นดิจิทัลทั้งหมดเป็นจริงหรือไม่
         foreach (DigitalSignature signature in pres.DigitalSignatures)
         {
             Console.WriteLine(signature.Certificate.SubjectName.Name + ", "

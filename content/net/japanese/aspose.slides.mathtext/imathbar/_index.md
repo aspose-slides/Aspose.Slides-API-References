@@ -1,14 +1,14 @@
 ---
 title: IMathBar
 second_title: Aspose.Sildes for .NET API リファレンス
-description: ベース引数とオーバーバーまたはアンダーバーで構成されるバー関数を指定します
+description: ベース引数と上棒または下棒で構成されるバー関数を指定します
 type: docs
-weight: 8120
+weight: 8140
 url: /ja/aspose.slides.mathtext/imathbar/
 ---
 ## IMathBar インターフェイス
 
-バー関数を指定します。ベース引数とオーバーバーまたはアンダーバーで構成されます。
+バー関数を指定します。ベース引数と上棒または下棒で構成されます
 
 ```csharp
 public interface IMathBar : IMathElement
@@ -16,15 +16,15 @@ public interface IMathBar : IMathElement
 
 ## プロパティ
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathbar/asimathelement) { get; } | ベース IMathElement インターフェイス [`IMathElement`](../imathelement) を取得できます |
+| [AsIMathElement](../../aspose.slides.mathtext/imathbar/asimathelement) { get; } | ベースの IMathElement インターフェイス [`IMathElement`](../imathelement) を取得できます |
 | [Base](../../aspose.slides.mathtext/imathbar/base) { get; } | ベース引数 |
-| [Position](../../aspose.slides.mathtext/imathbar/position) { get; set; } | バー線の位置です。デフォルト: Top |
+| [Position](../../aspose.slides.mathtext/imathbar/position) { get; set; } | バーラインの位置。デフォルト: Top |
 
 ### 例
 
-Example:
+例:
 
 ```csharp
 [C#]

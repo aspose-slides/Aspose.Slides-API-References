@@ -1,9 +1,9 @@
 ---
 title: ISplitTransition
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: スライドの分割遷移効果。
 type: docs
-weight: 10200
+weight: 10220
 url: /ja/aspose.slides.slideshow/isplittransition/
 ---
 ## ISplitTransition インターフェイス
@@ -16,13 +16,13 @@ public interface ISplitTransition : ITransitionValueBase
 
 ## プロパティ
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/isplittransition/asitransitionvaluebase) { get; } | ベース ITransitionValueBase インターフェイスを取得できます。読み取り専用 [`ITransitionValueBase`](../itransitionvaluebase)。 |
-| [Direction](../../aspose.slides.slideshow/isplittransition/direction) { get; set; } | 遷移分割の方向。読み書き可能 [`TransitionInOutDirectionType`](../transitioninoutdirectiontype)。 |
-| [Orientation](../../aspose.slides.slideshow/isplittransition/orientation) { get; set; } | 遷移分割の向き。読み書き可能 [`Orientation`](../../aspose.slides/orientation)。 |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/isplittransition/asitransitionvaluebase) { get; } | ベース ITransitionValueBase インターフェイスを取得できます。 読み取り専用 [`ITransitionValueBase`](../itransitionvaluebase)。 |
+| [Direction](../../aspose.slides.slideshow/isplittransition/direction) { get; set; } | 遷移分割の方向。 読み取り/書き込み [`TransitionInOutDirectionType`](../transitioninoutdirectiontype)。 |
+| [Orientation](../../aspose.slides.slideshow/isplittransition/orientation) { get; set; } | 遷移分割の向き。 読み取り/書き込み [`Orientation`](../../aspose.slides/orientation)。 |
 
-### 参照
+### 関連項目
 
 * インターフェイス [ITransitionValueBase](../itransitionvaluebase)
 * 名前空間 [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

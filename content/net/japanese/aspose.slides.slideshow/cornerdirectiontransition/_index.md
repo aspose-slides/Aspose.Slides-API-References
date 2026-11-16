@@ -3,7 +3,7 @@ title: CornerDirectionTransition
 second_title: Aspose.Sildes for .NET API リファレンス
 description: コーナー方向のスライド遷移効果。
 type: docs
-weight: 10010
+weight: 10030
 url: /ja/aspose.slides.slideshow/cornerdirectiontransition/
 ---
 ## CornerDirectionTransition クラス
@@ -18,7 +18,7 @@ public class CornerDirectionTransition : TransitionValueBase, ICornerDirectionTr
 
 | 名前 | 説明 |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/cornerdirectiontransition/direction) { get; set; } | 遷移の方向。 読み書き [`TransitionCornerDirectionType`](../transitioncornerdirectiontype)。 |
+| [Direction](../../aspose.slides.slideshow/cornerdirectiontransition/direction) { get; set; } | 遷移の方向。 読み取り/書き込み [`TransitionCornerDirectionType`](../transitioncornerdirectiontype)。 |
 
 ## メソッド
 

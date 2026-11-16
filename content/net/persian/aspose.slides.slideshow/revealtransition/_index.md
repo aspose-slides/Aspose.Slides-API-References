@@ -1,13 +1,14 @@
 ---
 title: RevealTransition
-second_title: Aspose.Sildes برای مرجع API .NET
+second_title: Aspose.Sildes برای .NET مرجع API
 description: اثر انتقال اسلاید Reveal.
 type: docs
-weight: 10280
+weight: 10300
 url: /fa/aspose.slides.slideshow/revealtransition/
 ---
-## RevealTransition کلاس
-اثر انتقال اسلاید Reveal.
+## کلاس RevealTransition
+
+Reveal slide transition effect.
 
 ```csharp
 public class RevealTransition : TransitionValueBase, IRevealTransition
@@ -15,19 +16,19 @@ public class RevealTransition : TransitionValueBase, IRevealTransition
 
 ## ویژگی‌ها
 
-| نام | توضیح |
+| Name | Description |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/revealtransition/direction) { get; set; } | جهت انتقال. قابل خواندن/نوشتن [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
-| [ThroughBlack](../../aspose.slides.slideshow/revealtransition/throughblack) { get; set; } | مشخص می‌کند که آیا انتقال از طریق سیاه محو می‌شود یا نه. قابل خواندن/نوشتن Boolean. |
+| [Direction](../../aspose.slides.slideshow/revealtransition/direction) { get; set; } | جهت انتقال. خواندنی/نوشتنی [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
+| [ThroughBlack](../../aspose.slides.slideshow/revealtransition/throughblack) { get; set; } | مشخص می‌کند که آیا انتقال به‌صورت فید از طریق سیاه انجام می‌شود. خواندنی/نوشتنی Boolean. |
 
 ## متدها
 
-| نام | توضیح |
+| Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | تعیین می‌کند که آیا دو نمونه TransitionValueBase برابر هستند یا نه. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | به عنوان یک تابع هش برای یک نوع خاص عمل می‌کند که برای استفاده در الگوریتم‌های هش و ساختارهای داده‌ای مانند جدول هش مناسب است. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | تعیین می‌کند که آیا دو نمونهٔ TransitionValueBase برابر هستند یا خیر. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | به‌عنوان تابع هش برای یک نوع خاص عمل می‌کند که برای استفاده در الگوریتم‌های هش و ساختارهای داده مانند جدول هش مناسب است. |
 
-### موارد مرتبط
+### مراجعه
 
 * کلاس [TransitionValueBase](../transitionvaluebase)
 * رابط [IRevealTransition](../irevealtransition)

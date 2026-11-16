@@ -1,9 +1,9 @@
 ---
 title: PresetColor
-second_title: Aspose.Sildes for .NET API 參考文件
+second_title: Aspose.Sildes for .NET API 參考
 description: 表示預先定義的顏色預設。
 type: docs
-weight: 9660
+weight: 9680
 url: /zh-hant/aspose.slides/presetcolor/
 ---
 ## PresetColor 列舉
@@ -16,7 +16,7 @@ public enum PresetColor
 
 ### 值
 
-| 名稱 | 值 | 描述 |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `-1` | 未定義顏色預設。 |
 | AliceBlue | `0` |  |
@@ -160,7 +160,7 @@ public enum PresetColor
 | Yellow | `138` |  |
 | YellowGreen | `139` |  |
 
-### 另見
+### 另請參閱
 
 * 命名空間 [Aspose.Slides](../../aspose.slides)
 * 組件 [Aspose.Slides](../../)

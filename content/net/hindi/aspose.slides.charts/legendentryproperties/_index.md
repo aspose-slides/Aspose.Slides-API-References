@@ -1,28 +1,29 @@
 ---
 title: LegendEntryProperties
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: एक चार्ट की लेजेंड गुणों का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: एक चार्ट की लेजेंड गुणधर्म का प्रतिनिधित्व करता है।
 type: docs
-weight: 2310
+weight: 2330
 url: /hi/aspose.slides.charts/legendentryproperties/
 ---
-## LegendEntryProperties वर्ग
+## LegendEntryProperties क्लास
 
-एक चार्ट की लेजेंड गुणों को दर्शाता है।
+एक चार्ट की लेजेंड गुणधर्म का प्रतिनिधित्व करता है।
 
 ```csharp
 public class LegendEntryProperties : ILegendEntryProperties
 ```
 
-## गुण
+
+## गुणधर्म
 
 | नाम | विवरण |
 | --- | --- |
-| [Chart](../../aspose.slides.charts/legendentryproperties/chart) { get; } | पैरेंट चार्ट को लौटाता है। केवल-पढ़ने योग्य [`IChart`](../ichart). |
-| [Hide](../../aspose.slides.charts/legendentryproperties/hide) { get; set; } | निर्धारित करता है कि लेजेंड एंट्री छिपी हुई है या नहीं। पढ़ें/लिखें Boolean. |
-| [TextFormat](../../aspose.slides.charts/legendentryproperties/textformat) { get; } | पाठ स्वरूप को लौटाता है। केवल-पढ़ने योग्य [`IChartTextFormat`](../icharttextformat). |
+| [Chart](../../aspose.slides.charts/legendentryproperties/chart) { get; } | पेरेंट चार्ट को लौटाता है। केवल-पठनीय [`IChart`](../ichart). |
+| [Hide](../../aspose.slides.charts/legendentryproperties/hide) { get; set; } | निर्धारित करता है कि लेजेंड प्रविष्टि छिपी हुई है या नहीं। पढ़ें/लिखें बूलियन. |
+| [TextFormat](../../aspose.slides.charts/legendentryproperties/textformat) { get; } | पाठ स्वरूप लौटाता है। केवल-पठनीय [`IChartTextFormat`](../icharttextformat). |
 
-### संबंधित
+### और देखें
 
 * इंटरफ़ेस [ILegendEntryProperties](../ilegendentryproperties)
 * नामस्थान [Aspose.Slides.Charts](../../aspose.slides.charts)

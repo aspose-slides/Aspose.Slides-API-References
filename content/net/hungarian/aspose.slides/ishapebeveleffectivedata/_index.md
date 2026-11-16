@@ -1,9 +1,9 @@
 ---
 title: IShapeBevelEffectiveData
-second_title: Aspose.Sildes .NET API referencia
+second_title: Aspose.Sildes .NET API Referenciához
 description: Módosíthatatlan objektum, amely a hatékony alakzatok felületének domborítási tulajdonságait tartalmazza.
 type: docs
-weight: 6970
+weight: 6990
 url: /hu/aspose.slides/ishapebeveleffectivedata/
 ---
 ## IShapeBevelEffectiveData interfész
@@ -24,7 +24,7 @@ public interface IShapeBevelEffectiveData
 
 ### Megjegyzések
 
-Ez az interfész a [`IThreeDFormatEffectiveData`](../ithreedformateffectivedata) részeként használható.
+Ez az interfész a(z) [`IThreeDFormatEffectiveData`](../ithreedformateffectivedata) részeként használatos.
 
 ### Lásd még
 

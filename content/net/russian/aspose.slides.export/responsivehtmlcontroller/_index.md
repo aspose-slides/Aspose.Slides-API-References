@@ -1,9 +1,9 @@
 ---
 title: ResponsiveHtmlController
-second_title: Aspose.Sildes для .NET — справочник API
+second_title: Aspose.Sildes для .NET справочник API
 description: Responsive HTML контроллер
 type: docs
-weight: 4420
+weight: 4440
 url: /ru/aspose.slides.export/responsivehtmlcontroller/
 ---
 ## ResponsiveHtmlController класс
@@ -18,8 +18,8 @@ public class ResponsiveHtmlController : IResponsiveHtmlController
 
 | Имя | Описание |
 | --- | --- |
-| [ResponsiveHtmlController](responsivehtmlcontroller#constructor)() | Создает новый экземпляр |
-| [ResponsiveHtmlController](responsivehtmlcontroller#constructor_1)(IHtmlFormattingController) | Создает новый экземпляр |
+| [ResponsiveHtmlController](responsivehtmlcontroller#constructor)() | Создаёт новый экземпляр |
+| [ResponsiveHtmlController](responsivehtmlcontroller#constructor_1)(IHtmlFormattingController) | Создаёт новый экземпляр |
 
 ### См. также
 

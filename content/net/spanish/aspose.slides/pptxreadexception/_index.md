@@ -1,14 +1,14 @@
 ---
 title: PptxReadException
-second_title: Referencia de la API de Aspose.Sildes para .NET
-description: Representa una excepción que se lanza por errores al leer la presentación.
+second_title: Referencia de API de Aspose.Sildes para .NET
+description: Representa una excepción que se lanza en errores de lectura de presentaciones.
 type: docs
-weight: 9570
+weight: 9590
 url: /es/aspose.slides/pptxreadexception/
 ---
 ## PptxReadException clase
 
-Representa una excepción que se lanza por errores al leer la presentación.
+Representa una excepción que se lanza en errores de lectura de presentaciones.
 
 ```csharp
 public class PptxReadException : PptxException

@@ -1,9 +1,9 @@
 ---
 title: IGlitterTransition
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Glitter-Folienübergangseffekt.
+description: Glitzer-Folienübergangseffekt.
 type: docs
-weight: 10100
+weight: 10120
 url: /de/aspose.slides.slideshow/iglittertransition/
 ---
 ## IGlitterTransition Schnittstelle
@@ -18,9 +18,9 @@ public interface IGlitterTransition : ITransitionValueBase
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/iglittertransition/asitransitionvaluebase) { get; } | Ermöglicht den Zugriff auf die Basisschnittstelle ITransitionValueBase. Nur-Lesen [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/iglittertransition/direction) { get; set; } | Richtung des Übergangs. Lesen/Schreiben [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
-| [Pattern](../../aspose.slides.slideshow/iglittertransition/pattern) { get; set; } | Gibt die Form der während des Übergangs verwendeten Visuals an. Lesen/Schreiben [`TransitionPattern`](../transitionpattern). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/iglittertransition/asitransitionvaluebase) { get; } | Ermöglicht das Abrufen der Basis-ITransitionValueBase-Schnittstelle. Nur-Lese [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/iglittertransition/direction) { get; set; } | Richtung des Übergangs. Lese/Schreib [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
+| [Pattern](../../aspose.slides.slideshow/iglittertransition/pattern) { get; set; } | Gibt die Form der während des Übergangs verwendeten Visuals an. Lese/Schreib [`TransitionPattern`](../transitionpattern). |
 
 ### Siehe auch
 

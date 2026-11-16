@@ -1,9 +1,9 @@
 ---
 title: IColorChangeEffectiveData
-second_title: Aspose.Sildes .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 不可变对象，表示颜色更改效果。FromColor 的实例将被 ToColor 的实例替换。
 type: docs
-weight: 3230
+weight: 3250
 url: /zh/aspose.slides.effects/icolorchangeeffectivedata/
 ---
 ## IColorChangeEffectiveData 接口
@@ -18,10 +18,10 @@ public interface IColorChangeEffectiveData : IEffectEffectiveData
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/icolorchangeeffectivedata/asieffecteffectivedata) { get; } | 允许获取基 IEffectEffectiveData 接口。只读 [`IEffectEffectiveData`](../ieffecteffectivedata)。 |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/icolorchangeeffectivedata/asieffecteffectivedata) { get; } | 允许获取基础 IEffectEffectiveData 接口。只读 [`IEffectEffectiveData`](../ieffecteffectivedata)。 |
 | [FromColor](../../aspose.slides.effects/icolorchangeeffectivedata/fromcolor) { get; } | 将被替换的颜色。只读 Color。 |
 | [ToColor](../../aspose.slides.effects/icolorchangeeffectivedata/tocolor) { get; } | 将用于替换的颜色。只读 Color。 |
-| [UseAlpha](../../aspose.slides.effects/icolorchangeeffectivedata/usealpha) { get; } | 返回一个布尔值，用于确定是否应使用 alpha 分量。只读 Boolean。 |
+| [UseAlpha](../../aspose.slides.effects/icolorchangeeffectivedata/usealpha) { get; } | 返回一个布尔值，用于确定是否应使用 alpha 组件。只读 Boolean。 |
 
 ### 另请参阅
 

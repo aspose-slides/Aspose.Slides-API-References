@@ -1,12 +1,12 @@
 ---
 title: XpsOptions
-second_title: Aspose.Sildes para la referencia de API de .NET
+second_title: Referencia de la API de Aspose.Sildes para .NET
 description: Proporciona opciones que controlan cómo se guarda una presentación en formato XPS.
 type: docs
-weight: 4730
+weight: 4750
 url: /es/aspose.slides.export/xpsoptions/
 ---
-## XpsOptions clase
+## XpsOptions class
 
 Proporciona opciones que controlan cómo se guarda una presentación en formato XPS.
 
@@ -24,11 +24,11 @@ public class XpsOptions : SaveOptions, IXpsOptions
 
 | Nombre | Descripción |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Devuelve o establece la fuente utilizada en caso de que la fuente origen no se encuentre. Lectura-escritura String. |
-| [DrawSlidesFrame](../../aspose.slides.export/xpsoptions/drawslidesframe) { get; set; } | Verdadero para dibujar un marco negro alrededor de cada diapositiva. Lectura/escritura Boolean. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Devuelve o establece la fuente utilizada en caso de que no se encuentre la fuente original. Lectura-escritura String. |
+| [DrawSlidesFrame](../../aspose.slides.export/xpsoptions/drawslidesframe) { get; set; } | True para dibujar un marco negro alrededor de cada diapositiva. Lectura/escritura Boolean. |
 | [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Devuelve o establece el estilo visual del degradado. Lectura/escritura [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Representa un objeto de devolución de llamada para actualizaciones de progreso de guardado en porcentaje. Ver [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SaveMetafilesAsPng](../../aspose.slides.export/xpsoptions/savemetafilesaspng) { get; set; } | Verdadero para convertir todos los metarchivos utilizados en una presentación a imágenes PNG. Lectura/escritura Boolean. |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Representa un objeto de devolución de llamada para guardar actualizaciones de progreso en porcentaje. Ver [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [SaveMetafilesAsPng](../../aspose.slides.export/xpsoptions/savemetafilesaspng) { get; set; } | True para convertir todos los metarchivos utilizados en una presentación a imágenes PNG. Lectura/escritura Boolean. |
 | [ShowHiddenSlides](../../aspose.slides.export/xpsoptions/showhiddenslides) { get; set; } | Especifica si el documento generado debe incluir diapositivas ocultas o no. El valor predeterminado es `false`. |
 | [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Especifica si se deben omitir los hipervínculos con llamadas a JavaScript al guardar la presentación. Lectura/escritura Boolean. El valor predeterminado es **false**. |
 | [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Devuelve o establece un objeto que recibe advertencias y decide si el proceso de carga continuará o se abortará. Lectura/escritura [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
@@ -47,7 +47,7 @@ using (Presentation pres = new Presentation("Convert_XPS.pptx"))
 }
 ```
 
-El siguiente ejemplo muestra cómo convertir presentaciones a XPS usando configuraciones personalizadas.
+El siguiente ejemplo muestra cómo convertir presentaciones a XPS usando configuración personalizada.
 
 ```csharp
 [C#]
@@ -56,7 +56,7 @@ using (Presentation pres = new Presentation("Convert_XPS_Options.pptx"))
 {
     // Instanciar la clase TiffOptions
     XpsOptions options = new XpsOptions();
-    // Guardar los MetaFiles como PNG
+    // Guardar Metafiles como PNG
     options.SaveMetafilesAsPng = true;
     // Guardar la presentación en un documento XPS
     pres.Save("XPS_With_Options_out.xps", SaveFormat.Xps, options);

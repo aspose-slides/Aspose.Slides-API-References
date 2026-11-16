@@ -1,20 +1,20 @@
 ---
 title: IPresentationSignedWarningInfo
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: यह चेतावनी दर्शाती है कि पढ़ी जा रही प्रस्तुति में हस्ताक्षर मौजूद है और इस हस्ताक्षर को प्रोसेसिंग के दौरान हटा दिया जाएगा।
+description: यह चेतावनी दर्शाती है कि पढ़ी जा रही प्रस्तुति में हस्ताक्षर है और इस हस्ताक्षर को प्रक्रिया के दौरान हटा दिया जाएगा।
 type: docs
-weight: 11790
+weight: 11810
 url: /hi/aspose.slides.warnings/ipresentationsignedwarninginfo/
 ---
 ## IPresentationSignedWarningInfo इंटरफ़ेस
 
-यह चेतावनी दर्शाती है कि पढ़ी जा रही प्रस्तुति में हस्ताक्षर मौजूद है और इस हस्ताक्षर को प्रोसेसिंग के दौरान हटा दिया जाएगा।
+यह चेतावनी दर्शाती है कि पढ़ी जा रही प्रस्तुति में हस्ताक्षर है और इस हस्ताक्षर को प्रक्रिया के दौरान हटा दिया जाएगा।
 
 ```csharp
 public interface IPresentationSignedWarningInfo : IWarningInfo
 ```
 
-## प्रॉपर्टीज
+## गुण
 
 | नाम | विवरण |
 | --- | --- |

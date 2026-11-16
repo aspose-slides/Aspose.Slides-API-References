@@ -1,9 +1,9 @@
 ---
 title: CornerDirectionTransition
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes용 .NET API 참조
 description: 코너 방향 슬라이드 전환 효과.
 type: docs
-weight: 10010
+weight: 10030
 url: /ko/aspose.slides.slideshow/cornerdirectiontransition/
 ---
 ## CornerDirectionTransition 클래스
@@ -16,18 +16,18 @@ public class CornerDirectionTransition : TransitionValueBase, ICornerDirectionTr
 
 ## 속성
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
 | [Direction](../../aspose.slides.slideshow/cornerdirectiontransition/direction) { get; set; } | 전환 방향. 읽기/쓰기 [`TransitionCornerDirectionType`](../transitioncornerdirectiontype). |
 
 ## 메서드
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 두 TransitionValueBase 인스턴스가 같은지 여부를 결정합니다. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 특정 형식에 대한 해시 함수 역할을 하며, 해시 알고리즘 및 해시 테이블과 같은 데이터 구조에 사용하기에 적합합니다. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 두 TransitionValueBase 인스턴스가 동일한지 여부를 결정합니다. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 특정 유형에 대한 해시 함수로 작동하며, 해시 알고리즘 및 해시 테이블과 같은 데이터 구조에 사용하기에 적합합니다. |
 
-### 참고
+### 관련 항목
 
 * 클래스 [TransitionValueBase](../transitionvaluebase)
 * 인터페이스 [ICornerDirectionTransition](../icornerdirectiontransition)

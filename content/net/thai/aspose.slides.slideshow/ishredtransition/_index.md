@@ -1,9 +1,9 @@
 ---
 title: IShredTransition
-second_title: Aspose.Sildes สำหรับ .NET การอ้างอิง API
+second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
 description: เอฟเฟกต์การเปลี่ยนสไลด์แบบ Shred.
 type: docs
-weight: 10180
+weight: 10200
 url: /th/aspose.slides.slideshow/ishredtransition/
 ---
 ## IShredTransition อินเทอร์เฟซ
@@ -18,11 +18,11 @@ public interface IShredTransition : ITransitionValueBase
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/ishredtransition/asitransitionvaluebase) { get; } | อนุญาตให้รับอินเทอร์เฟซ ITransitionValueBase พื้นฐาน. อ่านได้เท่านั้น [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/ishredtransition/direction) { get; set; } | ทิศทางของการเปลี่ยน. อ่าน/เขียน [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [Pattern](../../aspose.slides.slideshow/ishredtransition/pattern) { get; set; } | ระบุรูปร่างของภาพที่ใช้ระหว่างการเปลี่ยน. อ่าน/เขียน [`TransitionShredPattern`](../transitionshredpattern). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/ishredtransition/asitransitionvaluebase) { get; } | อนุญาตให้ดึง ITransitionValueBase อินเทอร์เฟซพื้นฐาน. อ่านอย่างเดียว [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/ishredtransition/direction) { get; set; } | ทิศทางของการเปลี่ยนแปลง. อ่าน/เขียน [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
+| [Pattern](../../aspose.slides.slideshow/ishredtransition/pattern) { get; set; } | ระบุรูปแบบของภาพที่ใช้ระหว่างการเปลี่ยนแปลง. อ่าน/เขียน [`TransitionShredPattern`](../transitionshredpattern). |
 
-### ดูเพิ่ม
+### ดูเพิ่มเติม
 
 * อินเทอร์เฟซ [ITransitionValueBase](../itransitionvaluebase)
 * เนมสเปซ [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

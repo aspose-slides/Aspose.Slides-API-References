@@ -1,9 +1,9 @@
 ---
 title: SectionSlideCollection
-second_title: Aspose.Sildes para la referencia de API de .NET
+second_title: Referencia de la API de Aspose.Sildes para .NET
 description: Representa una colección de diapositivas en la sección.
 type: docs
-weight: 9770
+weight: 9790
 url: /es/aspose.slides/sectionslidecollection/
 ---
 ## SectionSlideCollection clase
@@ -27,8 +27,8 @@ public sealed class SectionSlideCollection : DomObject<Section>, ISectionSlideCo
 
 | Nombre | Descripción |
 | --- | --- |
-| [CopyTo](../../aspose.slides/sectionslidecollection/copyto)(Array, int) | Copia toda la colección al array especificado. |
-| [GetEnumerator](../../aspose.slides/sectionslidecollection/getenumerator)() | Devuelve un enumerador que recorre la colección. |
+| [CopyTo](../../aspose.slides/sectionslidecollection/copyto)(Array, int) | Copia toda la colección en la matriz especificada. |
+| [GetEnumerator](../../aspose.slides/sectionslidecollection/getenumerator)() | Devuelve un enumerador que itera a través de la colección. |
 
 ### Ver también
 

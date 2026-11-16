@@ -1,14 +1,14 @@
 ---
 title: Duotone
 second_title: Aspose.Sildes pro .NET API Reference
-description: Zastupuje efekt Duotone. Pro každý pixel kombinuje Color1 a Color2 lineární interpolací k určení nové barvy pro tento pixel.
+description: Reprezentuje efekt Duotone. Pro každý pixel kombinuje Color1 a Color2 lineární interpolací k určení nové barvy pro tento pixel.
 type: docs
-weight: 2960
+weight: 2980
 url: /cs/aspose.slides.effects/duotone/
 ---
 ## Duotone třída
 
-Representuje efekt Duotone. Pro každý pixel kombinuje Color1 a Color2 pomocí lineární interpolace pro určení nové barvy pixelu.
+Represents a Duotone effect. For each pixel, combines Color1 and Color2 through a linear interpolation to determine the new color for that pixel.
 
 ```csharp
 public sealed class Duotone : ImageTransformOperation, IDuotone
@@ -18,17 +18,17 @@ public sealed class Duotone : ImageTransformOperation, IDuotone
 
 | Název | Popis |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Umožňuje získat základní rozhraní IPresentationComponent. Pouze pro čtení [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
-| [Color1](../../aspose.slides.effects/duotone/color1) { get; } | Vrací formát cílové barvy pro tmavé pixely. Pouze pro čtení [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Color2](../../aspose.slides.effects/duotone/color2) { get; } | Vrací formát cílové barvy pro světlé pixely. Pouze pro čtení [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Allows to get base IPresentationComponent interface. jen pro čtení [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [Color1](../../aspose.slides.effects/duotone/color1) { get; } | Returns target color format for dark pixels. jen pro čtení [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Color2](../../aspose.slides.effects/duotone/color2) { get; } | Returns target color format for light pixels. jen pro čtení [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/duotone/equals)(object) | Určuje, zda je zadaný [`Duotone`](../duotone) roven aktuálnímu [`Duotone`](../duotone). |
-| [GetEffective](../../aspose.slides.effects/duotone/geteffective)() | Získá efektivní data Duotone efektu s aplikovaným děděním. |
-| override [GetHashCode](../../aspose.slides.effects/duotone/gethashcode)() | Slouží jako hashová funkce pro konkrétní typ. |
+| override [Equals](../../aspose.slides.effects/duotone/equals)(object) | Determines whether the specified [`Duotone`](../duotone) is equal to the current [`Duotone`](../duotone). |
+| [GetEffective](../../aspose.slides.effects/duotone/geteffective)() | Gets effective Duotone effect data with the inheritance applied. |
+| override [GetHashCode](../../aspose.slides.effects/duotone/gethashcode)() | Serves as a hash function for a particular type. |
 
 ### Viz také
 

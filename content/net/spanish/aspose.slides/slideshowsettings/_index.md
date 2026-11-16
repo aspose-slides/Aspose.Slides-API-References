@@ -1,9 +1,9 @@
 ---
 title: SlideShowSettings
-second_title: Aspose.Sildes para la referencia de API de .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa la configuración de la presentación de diapositivas.
 type: docs
-weight: 10480
+weight: 10500
 url: /es/aspose.slides/slideshowsettings/
 ---
 ## SlideShowSettings clase
@@ -18,14 +18,14 @@ public class SlideShowSettings
 
 | Name | Description |
 | --- | --- |
-| [Loop](../../aspose.slides/slideshowsettings/loop) { get; set; } | Bucle de presentación |
+| [Loop](../../aspose.slides/slideshowsettings/loop) { get; set; } | Repetir presentación |
 | [PenColor](../../aspose.slides/slideshowsettings/pencolor) { get; } | Color del lápiz para la presentación |
 | [ShowAnimation](../../aspose.slides/slideshowsettings/showanimation) { get; set; } | Mostrar animación en la presentación |
 | [ShowMediaControls](../../aspose.slides/slideshowsettings/showmediacontrols) { get; set; } | Mostrar controles de medios |
 | [ShowNarration](../../aspose.slides/slideshowsettings/shownarration) { get; set; } | Mostrar narración en la presentación |
 | [Slides](../../aspose.slides/slideshowsettings/slides) { get; set; } | Rango de diapositivas |
-| [SlideShowType](../../aspose.slides/slideshowsettings/slideshowtype) { get; set; } | Obtiene o establece el tipo de presentación. Representado por los siguientes [`SlideShowType`](./slideshowtype) ancestros: [`BrowsedAtKiosk`](../browsedatkiosk), [`PresentedBySpeaker`](../presentedbyspeaker) y [`BrowsedByIndividual`](../browsedbyindividual) |
-| [UseTimings](../../aspose.slides/slideshowsettings/usetimings) { get; set; } | Utilizar temporizaciones en la presentación |
+| [SlideShowType](../../aspose.slides/slideshowsettings/slideshowtype) { get; set; } | Obtiene o establece el tipo de presentación. Representado por los siguientes ancestros [`SlideShowType`](./slideshowtype): [`BrowsedAtKiosk`](../browsedatkiosk), [`PresentedBySpeaker`](../presentedbyspeaker) y [`BrowsedByIndividual`](../browsedbyindividual) |
+| [UseTimings](../../aspose.slides/slideshowsettings/usetimings) { get; set; } | Usar temporizaciones en la presentación |
 
 ### Ver también
 

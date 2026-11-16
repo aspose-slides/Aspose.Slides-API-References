@@ -3,7 +3,7 @@ title: LegendEntryProperties
 second_title: Aspose.Sildes for .NET API リファレンス
 description: チャートの凡例プロパティを表します。
 type: docs
-weight: 2310
+weight: 2330
 url: /ja/aspose.slides.charts/legendentryproperties/
 ---
 ## LegendEntryProperties クラス

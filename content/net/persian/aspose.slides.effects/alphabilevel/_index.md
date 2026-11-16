@@ -1,33 +1,33 @@
 ---
 title: AlphaBiLevel
-second_title: Aspose.Sildes برای .NET مرجع API
-description: نمایانگر یک اثر Alpha Bi-Level است. مقادیر شفافیت Alpha که کمتر از آستانه هستند به 0 (کاملاً شفاف) و مقادیر Alpha که بزرگتر یا مساوی آستانه هستند به 100 (کاملاً نامرئی) تغییر می‌یابند.
+second_title: مرجع API Aspose.Sildes برای .NET
+description: نمایانگر یک اثر Alpha Bi-Level است. مقادیر شفافیت Alpha که کمتر از آستانه هستند به 0 (کاملاً شفاف) تغییر می‌یابند و مقادیر Alpha که برابر یا بزرگتر از آستانه هستند به 100 (کاملاً مات) تغییر می‌کنند.
 type: docs
-weight: 2840
+weight: 2860
 url: /fa/aspose.slides.effects/alphabilevel/
 ---
 ## AlphaBiLevel کلاس
 
-نمایانگر یک اثر Alpha Bi-Level است. مقادیر Alpha (شفافیت) که کمتر از آستانه هستند به 0 (کاملاً شفاف) و مقادیر Alpha که بزرگتر یا مساوی آستانه هستند به 100 ٪ (کاملاً نامرئی) تغییر می‌یابند.
+Represents an Alpha Bi-Level effect. Alpha (Opacity) values less than the threshold are changed to 0 (fully transparent) and alpha values greater than or equal to the threshold are changed to 100% (fully opaque).
 
 ```csharp
 public sealed class AlphaBiLevel : ImageTransformOperation, IAlphaBiLevel
 ```
 
-## ویژگی‌ها
+## خصوصیات
 
 | نام | توضیح |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | به دریافت رابط پایه IPresentationComponent اجازه می‌دهد. فقط-خواندنی [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
-| [Threshold](../../aspose.slides.effects/alphabilevel/threshold) { get; set; } | آستانهٔ اثر را برمی‌گرداند. خواندن/نوشتن Single. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | اجازه می‌دهد رابط پایه IPresentationComponent را دریافت کند. فقط-خواندنی [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [Threshold](../../aspose.slides.effects/alphabilevel/threshold) { get; set; } | آستانهٔ اثر را برمی‌گرداند. خواندنی/نوشتنی Single. |
 
 ## متدها
 
 | نام | توضیح |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/alphabilevel/equals)(object) | تعیین می‌کند آیا [`AlphaBiLevel`](../alphabilevel) مشخص‌شده برابر با [`AlphaBiLevel`](../alphabilevel) فعلی است. |
-| [GetEffective](../../aspose.slides.effects/alphabilevel/geteffective)() | داده‌های مؤثر اثر Alpha Bi-Level را با وراثت اعمال‌شده دریافت می‌کند. |
-| override [GetHashCode](../../aspose.slides.effects/alphabilevel/gethashcode)() | به‌عنوان یک تابع هش برای یک نوع خاص عمل می‌کند. |
+| override [Equals](../../aspose.slides.effects/alphabilevel/equals)(object) | تعیین می‌کند آیا [`AlphaBiLevel`](../alphabilevel) مشخص، برابر با [`AlphaBiLevel`](../alphabilevel) جاری است یا خیر. |
+| [GetEffective](../../aspose.slides.effects/alphabilevel/geteffective)() | دادهٔ مؤثر اثر Alpha Bi-Level را با به‌کارگیری ارث‌بری دریافت می‌کند. |
+| override [GetHashCode](../../aspose.slides.effects/alphabilevel/gethashcode)() | به‌عنوان تابع هش برای یک نوع خاص عمل می‌کند. |
 
 ### موارد مرتبط
 

@@ -1,14 +1,14 @@
 ---
 title: MathPortion
-second_title: Aspose.Sildes .NET API 参考
-description: 表示带有数学上下文的段。
+second_title: Aspose.Sildes for .NET API 参考
+description: 表示具有数学上下文的部分。
 type: docs
-weight: 8930
+weight: 8950
 url: /zh/aspose.slides.mathtext/mathportion/
 ---
 ## MathPortion 类
 
-表示带有数学上下文的段。
+表示具有数学上下文的部分。
 
 ```csharp
 public sealed class MathPortion : Portion, IMathPortion
@@ -24,22 +24,24 @@ public sealed class MathPortion : Portion, IMathPortion
 
 | 名称 | 描述 |
 | --- | --- |
-| [Field](../../aspose.slides/portion/field) { get; } | 返回此段的字段。只读 [`IField`](../../aspose.slides/ifield)。 |
+| [Field](../../aspose.slides/portion/field) { get; } | 返回此部分的字段。只读 [`IField`](../../aspose.slides/ifield)。 |
 | [MathParagraph](../../aspose.slides.mathtext/mathportion/mathparagraph) { get; } | 数学段落 |
-| [PortionFormat](../../aspose.slides/portion/portionformat) { get; } | 返回一个格式化对象，其中包含对文本段明确设置的格式属性，且不应用继承。只读 [`IPortionFormat`](../../aspose.slides/iportionformat)。 |
-| [Text](../../aspose.slides/portion/text) { get; set; } | 获取或设置段的纯文本。读/写 String。 |
+| [PortionFormat](../../aspose.slides/portion/portionformat) { get; } | 返回格式化对象，该对象包含对文本部分显式设置的格式属性，未应用继承。只读 [`IPortionFormat`](../../aspose.slides/iportionformat)。 |
+| [Text](../../aspose.slides/portion/text) { get; set; } | 获取或设置部分的纯文本。读/写 String。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [AddField](../../aspose.slides/portion/addfield)(IFieldType) | 将此段转换为自动更新的字段。 |
-| [AddField](../../aspose.slides/portion/addfield)(string) | 将此段转换为自动更新的字段。 |
-| [GetCoordinates](../../aspose.slides/portion/getcoordinates)() | 获取段起始位置的坐标。点的 X 坐标表示从第一个字符（包括左侧间距）开始的段起点。Y 坐标包括顶部间距。 |
-| [GetRect](../../aspose.slides/portion/getrect)() | 获取包围段的矩形坐标。该矩形包括段中所有文本行，包括空行。 |
-| [RemoveField](../../aspose.slides/portion/removefield)() | 将此字段段转换为普通段。 |
+| [AddField](../../aspose.slides/portion/addfield)(IFieldType) | 将此部分转换为自动更新的字段。 |
+| [AddField](../../aspose.slides/portion/addfield)(string) | 将此部分转换为自动更新的字段。 |
+| [GetCoordinates](../../aspose.slides/portion/getcoordinates)() | 获取部分起始点的坐标。点的 X 坐标表示从第一个字符开始的部分起点（包括左侧间距）。Y 坐标包括顶部间距。 |
+| [GetRect](../../aspose.slides/portion/getrect)() | 获取包围部分的矩形坐标。该矩形包含部分中的所有文本行，包括空行。 |
+| [RemoveField](../../aspose.slides/portion/removefield)() | 将此字段部分转换为普通部分。 |
 
 ### 示例
+
+示例：
 
 ```csharp
 [C#]

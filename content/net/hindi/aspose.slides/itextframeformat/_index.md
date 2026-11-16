@@ -1,49 +1,49 @@
 ---
 title: ITextFrameFormat
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: TextFrames की फ़ॉर्मेटिंग प्रॉपर्टी शामिल करता है।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: TextFrames के फ़ॉर्मेटिंग गुणों को शामिल करता है।
 type: docs
-weight: 7280
+weight: 7300
 url: /hi/aspose.slides/itextframeformat/
 ---
 ## ITextFrameFormat इंटरफ़ेस
 
-TextFrame की फ़ॉर्मेटिंग प्रॉपर्टीज़ को शामिल करता है।
+TextFrame के फ़ॉर्मेटिंग गुणों को सम्मिलित करता है।
 
 ```csharp
 public interface ITextFrameFormat
 ```
 
-## गुण
+## प्रॉपर्टीज
 
 | नाम | विवरण |
 | --- | --- |
-| [AnchoringType](../../aspose.slides/itextframeformat/anchoringtype) { get; set; } | TextFrame में लंबवत एंकर टेक्स्ट को लौटाता है या सेट करता है। Read/write [`TextAnchorType`](../textanchortype). |
-| [AutofitType](../../aspose.slides/itextframeformat/autofittype) { get; set; } | टेक्स्ट के ऑटॉफिट मोड को लौटाता है या सेट करता है। Read/write [`TextAutofitType`](../textautofittype). |
-| [CenterText](../../aspose.slides/itextframeformat/centertext) { get; set; } | यदि NullableBool.True हो तो टेक्स्ट को बॉक्स में क्षैतिज रूप से केंद्रित किया जाना चाहिए। Read/write [`NullableBool`](../nullablebool). |
-| [ColumnCount](../../aspose.slides/itextframeformat/columncount) { get; set; } | टेक्स्ट एरिया में कॉलमों की संख्या को लौटाता है या सेट करता है। यह मान एक सकारात्मक संख्या होना चाहिए। अन्यथा, मान को शून्य पर सेट किया जाएगा। मान 0 अनिर्दिष्ट मान दर्शाता है। Read/write Int32. |
-| [ColumnSpacing](../../aspose.slides/itextframeformat/columnspacing) { get; set; } | टेक्स्ट एरिया में टेक्स्ट कॉलमों के बीच का अंतराल (पॉइंट्स में) लौटाता है या सेट करता है। यह केवल तब लागू होना चाहिए जब 1 से अधिक कॉलम मौजूद हों। यह मान एक सकारात्मक संख्या होना चाहिए। अन्यथा, मान को शून्य पर सेट किया जाएगा। Read/write Double. |
-| [KeepTextFlat](../../aspose.slides/itextframeformat/keeptextflat) { get; set; } | टेक्स्ट को 3D सीन से पूरी तरह बाहर रखने को लौटाता या सेट करता है। Read/write Boolean. |
-| [MarginBottom](../../aspose.slides/itextframeformat/marginbottom) { get; set; } | TextFrame में निचले मार्जिन (पॉइंट्स) को लौटाता है या सेट करता है। Read/write Double. |
-| [MarginLeft](../../aspose.slides/itextframeformat/marginleft) { get; set; } | TextFrame में बाएँ मार्जिन (पॉइंट्स) को लौटाता है या सेट करता है। Read/write Double. |
-| [MarginRight](../../aspose.slides/itextframeformat/marginright) { get; set; } | TextFrame में दाएँ मार्जिन (पॉइंट्स) को लौटाता है या सेट करता है। Read/write Double. |
-| [MarginTop](../../aspose.slides/itextframeformat/margintop) { get; set; } | TextFrame में ऊपर का मार्जिन (पॉइंट्स) को लौटाता है या सेट करता है। Read/write Double. |
-| [RotationAngle](../../aspose.slides/itextframeformat/rotationangle) { get; set; } | बाउंडिंग बॉक्स के भीतर टेक्स्ट पर लागू होने वाले कस्टम रोटेशन को निर्दिष्ट करता है। यदि यह निर्दिष्ट नहीं किया गया है, तो साथ वाले आकार का रोटेशन उपयोग किया जाता है। यदि यह निर्दिष्ट किया गया है, तो यह आकार से स्वतंत्र रूप से लागू होता है। अर्थात् आकार पर एक रोटेशन लागू हो सकता है जबकि टेक्स्ट स्वयं पर भी एक रोटेशन लागू हो। इस प्रॉपर्टी और प्रॉपर्टी TextVerticalType में पूर्वनिर्धारित वर्टिकल टाइप से संकलित दृश्य टेक्स्ट रोटेशन का परिणामी मान। Read/write Single. |
-| [TextStyle](../../aspose.slides/itextframeformat/textstyle) { get; } | टेक्स्ट की शैली को लौटाता है। Read-only [`ITextStyle`](../itextstyle). |
-| [TextVerticalType](../../aspose.slides/itextframeformat/textverticaltype) { get; set; } | टेक्स्ट की अभिविन्यास निर्धारित करता है। इस प्रॉपर्टी और प्रॉपर्टी RotationAngle में कस्टम कोण से संकलित दृश्य टेक्स्ट रोटेशन का परिणामी मान। Read/write [`TextVerticalType`](../textverticaltype). |
-| [ThreeDFormat](../../aspose.slides/itextframeformat/threedformat) { get; } | टेक्स्ट के लिए 3D इफ़ेक्ट प्रॉपर्टीज़ को दर्शाने वाले ThreeDFormat ऑब्जेक्ट को लौटाता है। Read-only [`IThreeDFormat`](../ithreedformat). |
-| [Transform](../../aspose.slides/itextframeformat/transform) { get; set; } | टेक्स्ट रैपिंग आकार को प्राप्त करता है या सेट करता है। Read/write [`TextShapeType`](../textshapetype). |
-| [WrapText](../../aspose.slides/itextframeformat/wraptext) { get; set; } | **True** यदि टेक्स्ट TextFrame के मार्जिन पर रैप किया गया है। Read/write [`NullableBool`](../nullablebool). |
+| [AnchoringType](../../aspose.slides/itextframeformat/anchoringtype) { get; set; } | TextFrame में वर्टिकल एंकर टेक्स्ट को लौटाता है या सेट करता है। पढ़ें/लिखें [`TextAnchorType`](../textanchortype). |
+| [AutofitType](../../aspose.slides/itextframeformat/autofittype) { get; set; } | टेक्स्ट की ऑटोफिट मोड को लौटाता है या सेट करता है। पढ़ें/लिखें [`TextAutofitType`](../textautofittype). |
+| [CenterText](../../aspose.slides/itextframeformat/centertext) { get; set; } | यदि NullableBool.True है तो टेक्स्ट को बॉक्स में क्षैतिज रूप से केंद्रीत किया जाना चाहिए। पढ़ें/लिखें [`NullableBool`](../nullablebool). |
+| [ColumnCount](../../aspose.slides/itextframeformat/columncount) { get; set; } | टेक्स्ट एरिया में कॉलमों की संख्या को लौटाता है या सेट करता है। यह मान एक सकारात्मक संख्या होना चाहिए। अन्यथा, मान को शून्य पर सेट कर दिया जाएगा। मान 0 अनिर्धारित मान को दर्शाता है। पढ़ें/लिखें Int32. |
+| [ColumnSpacing](../../aspose.slides/itextframeformat/columnspacing) { get; set; } | टेक्स्ट एरिया में टेक्स्ट कॉलमों के बीच की दूरी को पॉइंट्स में लौटाता है या सेट करता है (केवल तब लागू जब एक से अधिक कॉलम मौजूद हों)। यह मान एक सकारात्मक संख्या होना चाहिए। अन्यथा, मान को शून्य पर सेट कर दिया जाएगा। पढ़ें/लिखें Double. |
+| [KeepTextFlat](../../aspose.slides/itextframeformat/keeptextflat) { get; set; } | टेक्स्ट को पूरी तरह 3D सीन से बाहर रखने को लौटाता है या सेट करता है। पढ़ें/लिखें Boolean. |
+| [MarginBottom](../../aspose.slides/itextframeformat/marginbottom) { get; set; } | TextFrame में नीचे का मार्जिन (पॉइंट्स) को लौटाता है या सेट करता है। पढ़ें/लिखें Double. |
+| [MarginLeft](../../aspose.slides/itextframeformat/marginleft) { get; set; } | TextFrame में बाएं मार्जिन (पॉइंट्स) को लौटाता है या सेट करता है। पढ़ें/लिखें Double. |
+| [MarginRight](../../aspose.slides/itextframeformat/marginright) { get; set; } | TextFrame में दाएं मार्जिन (पॉइंट्स) को लौटाता है या सेट करता है। पढ़ें/लिखें Double. |
+| [MarginTop](../../aspose.slides/itextframeformat/margintop) { get; set; } | TextFrame में ऊपर का मार्जिन (पॉइंट्स) को लौटाता है या सेट करता है। पढ़ें/लिखें Double. |
+| [RotationAngle](../../aspose.slides/itextframeformat/rotationangle) { get; set; } | बॉन्डिंग बॉक्स के भीतर टेक्स्ट पर लागू कस्टम रोटेशन को निर्दिष्ट करता है। यदि निर्दिष्ट नहीं है तो साथ में मौजूद शेप की रोटेशन उपयोग की जाती है। यदि निर्दिष्ट है तो यह शेप की रोटेशन से स्वतंत्र रूप से लागू होती है। परिणामस्वरूप दृश्य टेक्स्ट रोटेशन का मान इस प्रॉपर्टी और प्रॉपर्टी TextVerticalType में पूर्वनिर्धारित वर्टिकल प्रकार से सम्मिलित होता है। पढ़ें/लिखें Single. |
+| [TextStyle](../../aspose.slides/itextframeformat/textstyle) { get; } | टेक्स्ट की शैली को लौटाता है। केवल-पढ़ने योग्य [`ITextStyle`](../itextstyle). |
+| [TextVerticalType](../../aspose.slides/itextframeformat/textverticaltype) { get; set; } | टेक्स्ट ओरिएंटेशन को निर्धारित करता है। परिणामस्वरूप दृश्य टेक्स्ट रोटेशन का मान इस प्रॉपर्टी और प्रॉपर्टी RotationAngle में कस्टम एंगल से सम्मिलित होता है। पढ़ें/लिखें [`TextVerticalType`](../textverticaltype). |
+| [ThreeDFormat](../../aspose.slides/itextframeformat/threedformat) { get; } | टेक्स्ट के लिए 3D इफ़ेक्ट प्रॉपर्टीज़ दर्शाने वाले ThreeDFormat ऑब्जेक्ट को लौटाता है। केवल-पढ़ने योग्य [`IThreeDFormat`](../ithreedformat). |
+| [Transform](../../aspose.slides/itextframeformat/transform) { get; set; } | टेक्स्ट रैपिंग शेप को प्राप्त करता है या सेट करता है। पढ़ें/लिखें [`TextShapeType`](../textshapetype). |
+| [WrapText](../../aspose.slides/itextframeformat/wraptext) { get; set; } | यदि टेक्स्ट को TextFrame के मार्जिन पर रैप किया गया हो तो **True**। पढ़ें/लिखें [`NullableBool`](../nullablebool). |
 
-## विधियाँ
+## विधियां
 
 | नाम | विवरण |
 | --- | --- |
 | [GetEffective](../../aspose.slides/itextframeformat/geteffective)() | विरासत लागू होने के साथ प्रभावी टेक्स्ट फ्रेम फ़ॉर्मेटिंग डेटा प्राप्त करता है। |
 
-## संबंधित देखें
+### देखें
 
-* नामस्थान [Aspose.Slides](../../aspose.slides)
+* नेमस्पेस [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

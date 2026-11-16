@@ -1,14 +1,14 @@
 ---
 title: TiffCompressionTypes
-second_title: Aspose.Sildes per .NET API Reference
+second_title: Aspose.Sildes per il riferimento API .NET
 description: Fornisce opzioni che controllano come una presentazione viene compressa nel formato TIFF.
 type: docs
-weight: 4560
+weight: 4580
 url: /it/aspose.slides.export/tiffcompressiontypes/
 ---
-## enumerazione TiffCompressionTypes
+## TiffCompressionTypes enumerazione
 
-Fornisce opzioni che controllano il modo in cui una presentazione viene compressa nel formato TIFF.
+Fornisce opzioni che controllano come una presentazione viene compressa nel formato TIFF.
 
 ```csharp
 public enum TiffCompressionTypes

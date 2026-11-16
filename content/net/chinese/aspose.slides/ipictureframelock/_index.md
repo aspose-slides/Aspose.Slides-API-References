@@ -1,14 +1,14 @@
 ---
 title: IPictureFrameLock
 second_title: Aspose.Sildes .NET API 参考
-description: 确定在父级 PictureFrameEx 上禁用哪些操作。
+description: 确定在父 PictureFrameEx 上禁用哪些操作。
 type: docs
-weight: 6680
+weight: 6700
 url: /zh/aspose.slides/ipictureframelock/
 ---
 ## IPictureFrameLock 接口
 
-确定对父级 PictureFrameEx 禁用哪些操作。
+确定父 PictureFrameEx 上哪些操作被禁用。
 
 ```csharp
 public interface IPictureFrameLock : IBaseShapeLock
@@ -18,18 +18,18 @@ public interface IPictureFrameLock : IBaseShapeLock
 
 | 名称 | 描述 |
 | --- | --- |
-| [AdjustHandlesLocked](../../aspose.slides/ipictureframelock/adjusthandleslocked) { get; set; } | 确定是否禁止更改调整值。读/写 Boolean。 |
-| [ArrowheadsLocked](../../aspose.slides/ipictureframelock/arrowheadslocked) { get; set; } | 确定是否禁止更改箭头。读/写 Boolean。 |
+| [AdjustHandlesLocked](../../aspose.slides/ipictureframelock/adjusthandleslocked) { get; set; } | 确定是否禁止更改调整值。可读写 Boolean。 |
+| [ArrowheadsLocked](../../aspose.slides/ipictureframelock/arrowheadslocked) { get; set; } | 确定是否禁止更改箭头。可读写 Boolean。 |
 | [AsIBaseShapeLock](../../aspose.slides/ipictureframelock/asibaseshapelock) { get; } | 允许获取基础 IBaseShapeLock 接口。只读 [`IBaseShapeLock`](../ibaseshapelock)。 |
-| [AspectRatioLocked](../../aspose.slides/ipictureframelock/aspectratiolocked) { get; set; } | 确定形状在调整大小时是否必须保持宽高比。读/写 Boolean。 |
-| [CropLocked](../../aspose.slides/ipictureframelock/croplocked) { get; set; } | 确定是否禁止对图像进行裁剪。读/写 Boolean。 |
-| [EditPointsLocked](../../aspose.slides/ipictureframelock/editpointslocked) { get; set; } | 确定是否禁止直接更改此形状的轮廓。读/写 Boolean。 |
-| [GroupingLocked](../../aspose.slides/ipictureframelock/groupinglocked) { get; set; } | 确定是否禁止将此形状添加到组中。读/写 Boolean。 |
-| [PositionLocked](../../aspose.slides/ipictureframelock/positionlocked) { get; set; } | 确定是否禁止移动此形状。读/写 Boolean。 |
-| [RotationLocked](../../aspose.slides/ipictureframelock/rotationlocked) { get; set; } | 确定是否禁止更改此形状的旋转角度。读/写 Boolean。 |
-| [SelectLocked](../../aspose.slides/ipictureframelock/selectlocked) { get; set; } | 确定是否禁止选择此形状。读/写 Boolean。 |
-| [ShapeTypeLocked](../../aspose.slides/ipictureframelock/shapetypelocked) { get; set; } | 确定是否禁止更改形状类型。读/写 Boolean。 |
-| [SizeLocked](../../aspose.slides/ipictureframelock/sizelocked) { get; set; } | 确定是否禁止调整此形状的大小。读/写 Boolean。 |
+| [AspectRatioLocked](../../aspose.slides/ipictureframelock/aspectratiolocked) { get; set; } | 确定形状在调整大小时是否必须保持纵横比。可读写 Boolean。 |
+| [CropLocked](../../aspose.slides/ipictureframelock/croplocked) { get; set; } | 确定是否禁止图像裁剪。可读写 Boolean。 |
+| [EditPointsLocked](../../aspose.slides/ipictureframelock/editpointslocked) { get; set; } | 确定是否禁止直接更改此形状的轮廓。可读写 Boolean。 |
+| [GroupingLocked](../../aspose.slides/ipictureframelock/groupinglocked) { get; set; } | 确定是否禁止将此形状添加到组中。可读写 Boolean。 |
+| [PositionLocked](../../aspose.slides/ipictureframelock/positionlocked) { get; set; } | 确定是否禁止移动此形状。可读写 Boolean。 |
+| [RotationLocked](../../aspose.slides/ipictureframelock/rotationlocked) { get; set; } | 确定是否禁止更改此形状的旋转角度。可读写 Boolean。 |
+| [SelectLocked](../../aspose.slides/ipictureframelock/selectlocked) { get; set; } | 确定是否禁止选择此形状。可读写 Boolean。 |
+| [ShapeTypeLocked](../../aspose.slides/ipictureframelock/shapetypelocked) { get; set; } | 确定是否禁止更改形状类型。可读写 Boolean。 |
+| [SizeLocked](../../aspose.slides/ipictureframelock/sizelocked) { get; set; } | 确定是否禁止调整此形状的大小。可读写 Boolean。 |
 
 ### 另见
 

@@ -1,12 +1,12 @@
 ---
 title: XValue
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+second_title: Aspose.Sildes สำหรับ .NET API Reference
 description: XValue. อ่านอย่างเดียว IStringOrDoubleChartValueaspose.slides.charts/istringordoublechartvalue.
 type: docs
-weight: 200
+weight: 240
 url: /th/aspose.slides.charts/chartdatapoint/xvalue/
 ---
-## ChartDataPoint.XValue property
+## ChartDataPoint.XValue คุณสมบัติ
 
 XValue. อ่านอย่างเดียว [`IStringOrDoubleChartValue`](../../istringordoublechartvalue).
 

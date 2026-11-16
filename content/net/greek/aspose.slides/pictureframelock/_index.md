@@ -1,14 +1,14 @@
 ---
 title: PictureFrameLock
-second_title: Aspose.Sildes για .NET API Αναφορά
+second_title: Aspose.Sildes για .NET API Reference
 description: Καθορίζει ποιες λειτουργίες είναι απενεργοποιημένες στο γονικό PictureFrame.
 type: docs
-weight: 9420
+weight: 9440
 url: /el/aspose.slides/pictureframelock/
 ---
 ## PictureFrameLock κλάση
 
-Καθορίζει ποιες λειτουργίες είναι απενεργοποιημένες στο γονικό PictureFrame.
+Determines which operations are disabled on the parent PictureFrame.
 
 ```csharp
 public class PictureFrameLock : BaseShapeLock, IPictureFrameLock
@@ -18,24 +18,24 @@ public class PictureFrameLock : BaseShapeLock, IPictureFrameLock
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [AdjustHandlesLocked](../../aspose.slides/pictureframelock/adjusthandleslocked) { get; set; } | Καθορίζει εάν η αλλαγή των τιμών προσαρμογής απαγορεύεται. Ανάγνωση/εγγραφή Boolean. |
-| [ArrowheadsLocked](../../aspose.slides/pictureframelock/arrowheadslocked) { get; set; } | Καθορίζει εάν η αλλαγή των κεφαλών βέλους απαγορεύεται. Ανάγνωση/εγγραφή Boolean. |
-| [AspectRatioLocked](../../aspose.slides/pictureframelock/aspectratiolocked) { get; set; } | Καθορίζει εάν ένα σχήμα πρέπει να διατηρεί την αναλογία διαστάσεων κατά την αλλαγή μεγέθους. Ανάγνωση/εγγραφή Boolean. |
-| [CropLocked](../../aspose.slides/pictureframelock/croplocked) { get; set; } | Καθορίζει εάν η περικοπή εικόνας απαγορεύεται. Ανάγνωση/εγγραφή Boolean. |
-| [EditPointsLocked](../../aspose.slides/pictureframelock/editpointslocked) { get; set; } | Καθορίζει εάν η άμεση αλλαγή του περιγράμματος αυτού του σχήματος απαγορεύεται. Ανάγνωση/εγγραφή Boolean. |
-| [GroupingLocked](../../aspose.slides/pictureframelock/groupinglocked) { get; set; } | Καθορίζει εάν η προσθήκη αυτού του σχήματος σε μια ομάδα απαγορεύεται. Ανάγνωση/εγγραφή Boolean. |
-| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Επιστρέφει true εάν όλα τα lock-flags είναι απενεργοποιημένα. Μόνο για ανάγνωση Boolean. |
-| [PositionLocked](../../aspose.slides/pictureframelock/positionlocked) { get; set; } | Καθορίζει εάν η μετακίνηση αυτού του σχήματος απαγορεύεται. Ανάγνωση/εγγραφή Boolean. |
-| [RotationLocked](../../aspose.slides/pictureframelock/rotationlocked) { get; set; } | Καθορίζει εάν η αλλαγή της γωνίας περιστροφής αυτού του σχήματος απαγορεύεται. Ανάγνωση/εγγραφή Boolean. |
-| [SelectLocked](../../aspose.slides/pictureframelock/selectlocked) { get; set; } | Καθορίζει εάν η επιλογή αυτού του σχήματος απαγορεύεται. Ανάγνωση/εγγραφή Boolean. |
-| [ShapeTypeLocked](../../aspose.slides/pictureframelock/shapetypelocked) { get; set; } | Καθορίζει εάν η αλλαγή τύπου σχήματος απαγορεύεται. Ανάγνωση/εγγραφή Boolean. |
-| [SizeLocked](../../aspose.slides/pictureframelock/sizelocked) { get; set; } | Καθορίζει εάν η αλλαγή μεγέθους αυτού του σχήματος απαγορεύεται. Ανάγνωση/εγγραφή Boolean. |
+| [AdjustHandlesLocked](../../aspose.slides/pictureframelock/adjusthandleslocked) { get; set; } | Καθορίζει αν η αλλαγή των τιμών προσαρμογής είναι απαγορευμένη. Ανάγνωση/εγγραφή Boolean. |
+| [ArrowheadsLocked](../../aspose.slides/pictureframelock/arrowheadslocked) { get; set; } | Καθορίζει αν η αλλαγή των άκρων βέλους είναι απαγορευμένη. Ανάγνωση/εγγραφή Boolean. |
+| [AspectRatioLocked](../../aspose.slides/pictureframelock/aspectratiolocked) { get; set; } | Καθορίζει αν ένα σχήμα πρέπει να διατηρεί την αναλογία διαστάσεων κατά την αλλαγή μεγέθους. Ανάγνωση/εγγραφή Boolean. |
+| [CropLocked](../../aspose.slides/pictureframelock/croplocked) { get; set; } | Καθορίζει αν η περικοπή εικόνας είναι απαγορευμένη. Ανάγνωση/εγγραφή Boolean. |
+| [EditPointsLocked](../../aspose.slides/pictureframelock/editpointslocked) { get; set; } | Καθορίζει αν η άμεση αλλαγή του περιγράμματος αυτού του σχήματος είναι απαγορευμένη. Ανάγνωση/εγγραφή Boolean. |
+| [GroupingLocked](../../aspose.slides/pictureframelock/groupinglocked) { get; set; } | Καθορίζει αν η προσθήκη αυτού του σχήματος σε ομάδα είναι απαγορευμένη. Ανάγνωση/εγγραφή Boolean. |
+| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Επιστρέφει true εάν όλα τα lock-flags είναι απενεργοποιημένα. Μόνο-ανάγνωση Boolean. |
+| [PositionLocked](../../aspose.slides/pictureframelock/positionlocked) { get; set; } | Καθορίζει αν η μετακίνηση αυτού του σχήματος είναι απαγορευμένη. Ανάγνωση/εγγραφή Boolean. |
+| [RotationLocked](../../aspose.slides/pictureframelock/rotationlocked) { get; set; } | Καθορίζει αν η αλλαγή της γωνίας περιστροφής αυτού του σχήματος είναι απαγορευμένη. Ανάγνωση/εγγραφή Boolean. |
+| [SelectLocked](../../aspose.slides/pictureframelock/selectlocked) { get; set; } | Καθορίζει αν η επιλογή αυτού του σχήματος είναι απαγορευμένη. Ανάγνωση/εγγραφή Boolean. |
+| [ShapeTypeLocked](../../aspose.slides/pictureframelock/shapetypelocked) { get; set; } | Καθορίζει αν η αλλαγή του τύπου σχήματος είναι απαγορευμένη. Ανάγνωση/εγγραφή Boolean. |
+| [SizeLocked](../../aspose.slides/pictureframelock/sizelocked) { get; set; } | Καθορίζει αν η αλλαγή μεγέθους αυτού του σχήματος είναι απαγορευμένη. Ανάγνωση/εγγραφή Boolean. |
 
 ### Δείτε επίσης
 
 * κλάση [BaseShapeLock](../baseshapelock)
-* διασύνδεση [IPictureFrameLock](../ipictureframelock)
-* χώρος ονομάτων [Aspose.Slides](../../aspose.slides)
-* συναρμολόγηση [Aspose.Slides](../../)
+* interface [IPictureFrameLock](../ipictureframelock)
+* namespace [Aspose.Slides](../../aspose.slides)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

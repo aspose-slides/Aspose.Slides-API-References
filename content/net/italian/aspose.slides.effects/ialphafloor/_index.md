@@ -1,14 +1,14 @@
 ---
 title: IAlphaFloor
-second_title: Aspose.Sildes per .NET API Reference
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta un effetto Alpha Floor. I valori di opacità Alpha inferiori a 100 vengono impostati a zero. In altre parole, tutto ciò che è parzialmente trasparente diventa completamente trasparente.
 type: docs
-weight: 3060
+weight: 3080
 url: /it/aspose.slides.effects/ialphafloor/
 ---
 ## IAlphaFloor interfaccia
 
-Rappresenta un effetto Alpha Floor. I valori Alpha (opacità) inferiori al 100% vengono impostati a zero. In altre parole, qualsiasi elemento parzialmente trasparente diventa completamente trasparente.
+Rappresenta un effetto Alpha Floor. I valori Alpha (opacità) inferiori al 100% vengono impostati a zero. In altre parole, tutto ciò che è parzialmente trasparente diventa completamente trasparente.
 
 ```csharp
 public interface IAlphaFloor : IAccessiblePVIObject<IAlphaFloorEffectiveData>, 

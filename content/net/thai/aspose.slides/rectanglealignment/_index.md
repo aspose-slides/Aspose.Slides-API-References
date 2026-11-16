@@ -1,12 +1,12 @@
 ---
 title: RectangleAlignment
-second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
 description: กำหนดการจัดแนวสองมิติ
 type: docs
-weight: 9690
+weight: 9710
 url: /th/aspose.slides/rectanglealignment/
 ---
-## RectangleAlignment การกำหนดค่า
+## การกำหนดค่า RectangleAlignment
 
 กำหนดการจัดแนวสองมิติ
 

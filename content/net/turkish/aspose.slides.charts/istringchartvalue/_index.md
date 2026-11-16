@@ -1,14 +1,14 @@
 ---
 title: IStringChartValue
 second_title: Aspose.Sildes için .NET API Referansı
-description: "pptx sunum belgesinde iki şekilde saklanabilen string değerini temsil eder: 1) grafiğe bağlı çalışma kitabının hücre/hücrelerinde, 2) doğrudan değer olarak."
+description: pptx sunum belgesinde iki şekilde saklanabilen dize değeri temsil eder: 1) çizelgeyle ilişkili çalışma kitabındaki hücre/hücrelerde, 2) literal değer olarak.
 type: docs
-weight: 2220
+weight: 2240
 url: /tr/aspose.slides.charts/istringchartvalue/
 ---
-## IStringChartValue arayüzü
+## IStringChartValue arayüz
 
-pptx sunum belgesinde saklanabilen string değerini iki şekilde temsil eder: 1) grafiğe bağlı çalışma kitabındaki hücre/hücrelerde; 2) doğrudan değer olarak.
+pptx sunum belgesinde iki şekilde saklanabilen dize değerini temsil eder: 1) çizelgeyle ilişkili çalışma kitabındaki hücre/hücrelerde; 2) literal değer olarak.
 
 ```csharp
 public interface IStringChartValue : IMultipleCellChartValue
@@ -18,16 +18,16 @@ public interface IStringChartValue : IMultipleCellChartValue
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIMultipleCellChartValue](../../aspose.slides.charts/istringchartvalue/asimultiplecellchartvalue) { get; } | Temel IMultipleCellChartValue arayüzünü almayı sağlar. Yalnızca okunabilir [`IMultipleCellChartValue`](../imultiplecellchartvalue). |
-| [AsLiteralString](../../aspose.slides.charts/istringchartvalue/asliteralstring) { get; set; } | DataSourceType özelliği DataSourceType.StringLiterals olduğunda doğrudan stringi döndürür veya ayarlar. Okunabilir/yazılabilir String. |
+| [AsIMultipleCellChartValue](../../aspose.slides.charts/istringchartvalue/asimultiplecellchartvalue) { get; } | Temel IMultipleCellChartValue arayüzünü almayı sağlar. Salt okunur [`IMultipleCellChartValue`](../imultiplecellchartvalue). |
+| [AsLiteralString](../../aspose.slides.charts/istringchartvalue/asliteralstring) { get; set; } | DataSourceType özelliği DataSourceType.StringLiterals olduğunda literal dizeyi döndürür veya ayarlar. Okunur/yazılabilir String. |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [GetCellsAddressInWorkbook](../../aspose.slides.charts/istringchartvalue/getcellsaddressinworkbook)() | DataSourceType özelliği DataSourceType.Worksheet ise bu yöntem, string veriyi temsil eden çalışma kitabındaki hücrelerin adresini döndürür. Aksi takdirde boş bir dize döndürür. |
+| [GetCellsAddressInWorkbook](../../aspose.slides.charts/istringchartvalue/getcellsaddressinworkbook)() | DataSourceType özelliği DataSourceType.Worksheet olduğunda bu yöntem, dize verisini temsil eden hücrelerin çalışma kitabındaki adresini döndürür. Aksi takdirde boş dize döndürür. |
 | [SetFromOneCell](../../aspose.slides.charts/istringchartvalue/setfromonecell)(IChartDataCell) | Belirtilen hücreden değeri ayarlar. |
-| [ToString](../../aspose.slides.charts/istringchartvalue/tostring)() | String temsili döndürür. |
+| [ToString](../../aspose.slides.charts/istringchartvalue/tostring)() | Dize temsilini döndürür. |
 
 ### Ayrıca Bakınız
 

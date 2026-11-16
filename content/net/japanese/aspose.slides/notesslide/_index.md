@@ -1,9 +1,9 @@
 ---
 title: NotesSlide
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: プレゼンテーション内のノート スライドを表します。
 type: docs
-weight: 9140
+weight: 9160
 url: /ja/aspose.slides/notesslide/
 ---
 ## NotesSlide クラス
@@ -18,31 +18,31 @@ public class NotesSlide : BaseSlide, INotesSlide
 
 | 名前 | 説明 |
 | --- | --- |
-| [Background](../../aspose.slides/baseslide/background) { get; } | スライドの背景を返します。読み取り専用 [`IBackground`](../ibackground)。 |
-| [Controls](../../aspose.slides/baseslide/controls) { get; } | スライド上の ActiveX コントロールのコレクションを返します。読み取り専用 [`IControlCollection`](../icontrolcollection)。 |
-| [CustomData](../../aspose.slides/baseslide/customdata) { get; } | スライドのカスタム データを返します。読み取り専用 [`ICustomData`](../icustomdata)。 |
-| [HeaderFooterManager](../../aspose.slides/notesslide/headerfootermanager) { get; } | ノート スライドの HeaderFooter マネージャーを返します。読み取り専用 [`INotesSlideHeaderFooterManager`](../inotesslideheaderfootermanager)。 |
-| [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | 含まれるハイパーリンクへの簡単なアクセスを提供します。読み取り専用 [`IHyperlinkQueries`](../ihyperlinkqueries)。 |
-| virtual [Name](../../aspose.slides/baseslide/name) { get; set; } | スライドの名前を取得または設定します。読み取り/書き込み String。 |
-| [NotesTextFrame](../../aspose.slides/notesslide/notestextframe) { get; } | ノートのテキストがある場合、TextFrame を返します。読み取り専用 [`ITextFrame`](../itextframe)。 |
-| [ParentSlide](../../aspose.slides/notesslide/parentslide) { get; } | 親スライドを返します。読み取り専用 [`ISlide`](../islide)。 |
-| [Presentation](../../aspose.slides/baseslide/presentation) { get; } | IPresentation インターフェイスを返します。読み取り専用 [`IPresentation`](../ipresentation)。 |
-| [Shapes](../../aspose.slides/baseslide/shapes) { get; } | スライドのシェイプを返します。読み取り専用 [`IShapeCollection`](../ishapecollection)。 |
-| override [ShowMasterShapes](../../aspose.slides/notesslide/showmastershapes) { get; set; } | マスタースライド上のシェイプをスライドに表示するかどうかを指定します。読み取り/書き込み Boolean。 |
-| [SlideId](../../aspose.slides/baseslide/slideid) { get; } | スライドの ID を返します。読み取り専用 UInt32。 |
-| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | スライドショー中に指定されたスライドがどのように進むかに関する情報を含む Transition オブジェクトを返します。読み取り専用 [`ISlideShowTransition`](../islideshowtransition)。 |
-| [ThemeManager](../../aspose.slides/notesslide/thememanager) { get; } | オーバーライドされたテーママネージャーを返します。読み取り専用 [`IOverrideThemeManager`](../../aspose.slides.theme/ioverridethememanager)。 |
-| [Timeline](../../aspose.slides/baseslide/timeline) { get; } | アニメーションタイムラインオブジェクトを返します。読み取り専用 [`IAnimationTimeLine`](../ianimationtimeline)。 |
+| [Background](../../aspose.slides/baseslide/background) { get; } | スライドの背景を返します。 読み取り専用 [`IBackground`](../ibackground)。 |
+| [Controls](../../aspose.slides/baseslide/controls) { get; } | スライド上の ActiveX コントロールのコレクションを返します。 読み取り専用 [`IControlCollection`](../icontrolcollection)。 |
+| [CustomData](../../aspose.slides/baseslide/customdata) { get; } | スライドのカスタム データを返します。 読み取り専用 [`ICustomData`](../icustomdata)。 |
+| [HeaderFooterManager](../../aspose.slides/notesslide/headerfootermanager) { get; } | ノートスライドの HeaderFooter マネージャーを返します。 読み取り専用 [`INotesSlideHeaderFooterManager`](../inotesslideheaderfootermanager)。 |
+| [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | 含まれるハイパーリンクへの簡単なアクセスを提供します。 読み取り専用 [`IHyperlinkQueries`](../ihyperlinkqueries)。 |
+| virtual [Name](../../aspose.slides/baseslide/name) { get; set; } | スライドの名前を取得または設定します。 読み取り/書き込み String。 |
+| [NotesTextFrame](../../aspose.slides/notesslide/notestextframe) { get; } | ノートのテキストがある場合、TextFrame を返します。 読み取り専用 [`ITextFrame`](../itextframe)。 |
+| [ParentSlide](../../aspose.slides/notesslide/parentslide) { get; } | 親スライドを返します。 読み取り専用 [`ISlide`](../islide)。 |
+| [Presentation](../../aspose.slides/baseslide/presentation) { get; } | IPresentation インターフェイスを返します。 読み取り専用 [`IPresentation`](../ipresentation)。 |
+| [Shapes](../../aspose.slides/baseslide/shapes) { get; } | スライドのシェイプを返します。 読み取り専用 [`IShapeCollection`](../ishapecollection)。 |
+| override [ShowMasterShapes](../../aspose.slides/notesslide/showmastershapes) { get; set; } | マスタースライド上のシェイプをスライドに表示するかどうかを指定します。 読み取り/書き込み Boolean。 |
+| [SlideId](../../aspose.slides/baseslide/slideid) { get; } | スライドの ID を返します。 読み取り専用 UInt32。 |
+| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | 指定されたスライドがスライドショー中にどのように進むかに関する情報を含む Transition オブジェクトを返します。 読み取り専用 [`ISlideShowTransition`](../islideshowtransition)。 |
+| [ThemeManager](../../aspose.slides/notesslide/thememanager) { get; } | オーバーライドされたテーママネージャーを返します。 読み取り専用 [`IOverrideThemeManager`](../../aspose.slides.theme/ioverridethememanager)。 |
+| [Timeline](../../aspose.slides/baseslide/timeline) { get; } | アニメーション タイムラインオブジェクトを返します。 読み取り専用 [`IAnimationTimeLine`](../ianimationtimeline)。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
 | [CreateThemeEffective](../../aspose.slides/baseslide/createthemeeffective)() | このスライドの有効なテーマを返します。 |
-| [Equals](../../aspose.slides/baseslide/equals)(IBaseSlide) | 2つの IBaseSlide インスタンスが等しいかどうかを判定します。返される値はスライドの構造と静的コンテンツに基づいて計算されます。すべてのシェイプ、スタイル、テキスト、アニメーションおよびその他の設定等が等しい場合、スライドは等しいとみなされます。比較では SlideId などの一意の識別子や、Date Placeholder の現在の日付値などの動的コンテンツは考慮されません。 |
+| [Equals](../../aspose.slides/baseslide/equals)(IBaseSlide) | 二つの IBaseSlide インスタンスが等しいかどうかを判断します。戻り値はスライドの構造と静的コンテンツに基づいて計算されます。すべてのシェイプ、スタイル、テキスト、アニメーションおよびその他の設定などが等しい場合、スライドは等しいとみなされます。比較は SlideId などの固有識別子や、日付プレースホルダーの現在の日付値などの動的コンテンツは考慮しません。 |
 | [FindShapeByAltText](../../aspose.slides/baseslide/findshapebyalttext)(string) | 指定された代替テキストを持つシェイプの最初の出現を検索します。 |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)() | すべての許容可能なシェイプのすべての段落で、同じ書式設定を持つランを結合します。 |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)(IShapeCollection) | すべての許容可能なシェイプのすべての段落で、同じ書式設定を持つランを結合します。 |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)() | すべての許容可能なシェイプのすべての段落で、同じ書式設定のランを結合します。 |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)(IShapeCollection) | すべての許容可能なシェイプのすべての段落で、同じ書式設定のランを結合します。 |
 
 ### 参照
 

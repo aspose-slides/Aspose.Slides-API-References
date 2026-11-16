@@ -1,9 +1,9 @@
 ---
 title: MathSubscriptElementFactory
-second_title: Aspose.Sildes .NET API referencia
+second_title: Aspose.Sildes .NET API-referencia
 description: Lehetővé teszi az IMathSubscriptElement létrehozását
 type: docs
-weight: 9010
+weight: 9030
 url: /hu/aspose.slides.mathtext/mathsubscriptelementfactory/
 ---
 ## MathSubscriptElementFactory osztály
@@ -20,15 +20,15 @@ public class MathSubscriptElementFactory : IMathSubscriptElementFactory
 | --- | --- |
 | [MathSubscriptElementFactory](mathsubscriptelementfactory)() | Az alapértelmezett konstruktor. |
 
-## Módszerek
+## Metódusok
 
 | Név | Leírás |
 | --- | --- |
 | [CreateMathSubscriptElement](../../aspose.slides.mathtext/mathsubscriptelementfactory/createmathsubscriptelement)(IMathElement, IMathElement) | Létrehozza az IMathSubscriptElement-et |
 
-### Megjegyzések
+### Megjegyzés
 
-A COM kompatibilitáshoz
+COM kompatibilitáshoz
 
 ### Lásd még
 

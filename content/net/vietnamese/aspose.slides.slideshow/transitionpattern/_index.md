@@ -1,14 +1,14 @@
 ---
 title: TransitionPattern
-second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Xác định một mẫu hình học ghép lại để lấp đầy một khu vực lớn hơn.
+second_title: Aspose.Sildes cho .NET Tham chiếu API
+description: Xác định một mẫu hình học được ghép lại để lấp đầy một khu vực lớn hơn.
 type: docs
-weight: 10400
+weight: 10420
 url: /vi/aspose.slides.slideshow/transitionpattern/
 ---
 ## TransitionPattern liệt kê
 
-Xác định một mẫu hình học ghép lại để lấp đầy một khu vực lớn hơn.
+Xác định một mẫu hình học mà ghép lại để lấp đầy một khu vực lớn hơn.
 
 ```csharp
 public enum TransitionPattern

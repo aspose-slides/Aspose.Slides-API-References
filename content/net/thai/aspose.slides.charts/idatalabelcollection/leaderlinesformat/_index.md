@@ -1,14 +1,14 @@
 ---
 title: LeaderLinesFormat
 second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
-description: แสดงรูปแบบของเส้นนำข้อมูลป้าย. อ่านอย่างเดียว IChartLinesFormataspose.slides.charts/ichartlinesformat.
+description: แทนรูปแบบเส้นนำของป้ายข้อมูล. อ่านอย่างเดียว IChartLinesFormataspose.slides.charts/ichartlinesformat.
 type: docs
-weight: 80
+weight: 90
 url: /th/aspose.slides.charts/idatalabelcollection/leaderlinesformat/
 ---
 ## IDataLabelCollection.LeaderLinesFormat คุณสมบัติ
 
-แสดงรูปแบบของเส้นนำข้อมูลป้าย อ่านอย่างเดียว [`IChartLinesFormat`](../../ichartlinesformat).
+แทนรูปแบบเส้นนำของป้ายข้อมูล. อ่านอย่างเดียว [`IChartLinesFormat`](../../ichartlinesformat).
 
 ```csharp
 public IChartLinesFormat LeaderLinesFormat { get; }

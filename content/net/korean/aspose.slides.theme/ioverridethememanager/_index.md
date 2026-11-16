@@ -1,9 +1,9 @@
 ---
 title: IOverrideThemeManager
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 다양한 유형의 재정의된 테마에 대한 액세스를 제공합니다.
 type: docs
-weight: 11350
+weight: 11370
 url: /ko/aspose.slides.theme/ioverridethememanager/
 ---
 ## IOverrideThemeManager 인터페이스
@@ -19,10 +19,10 @@ public interface IOverrideThemeManager : IThemeManager
 | 이름 | 설명 |
 | --- | --- |
 | [AsIThemeManager](../../aspose.slides.theme/ioverridethememanager/asithememanager) { get; } | 기본 IThemeManager 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IThemeManager`](../ithememanager). |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/ioverridethememanager/isoverridethemeenabled) { get; } | OverrideTheme가 상속된 실제 테마를 재정의하는지 여부를 결정합니다. OverrideTheme를 재정의하도록 활성화하려면 OverrideTheme.Init*() 메서드를 사용하십시오. OverrideTheme가 재정의하지 않도록 하려면 OverrideTheme.Clear() 메서드를 사용하십시오. 읽기 전용 Boolean. |
-| [OverrideTheme](../../aspose.slides.theme/ioverridethememanager/overridetheme) { get; set; } | 재정의 테마 객체를 반환합니다. 읽기/쓰기 [`IOverrideTheme`](../ioverridetheme). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/ioverridethememanager/isoverridethemeenabled) { get; } | OverrideTheme가 상속된 효과적인 테마를 덮어쓰는지 여부를 결정합니다. OverrideTheme를 덮어쓰기에 사용하려면 OverrideTheme.Init*() 메서드를 사용하십시오. OverrideTheme가 덮어쓰기를 중지하도록 하려면 OverrideTheme.Clear() 메서드를 사용하십시오. 읽기 전용 Boolean. |
+| [OverrideTheme](../../aspose.slides.theme/ioverridethememanager/overridetheme) { get; set; } | 덮어쓰는 테마 객체를 반환합니다. 읽기/쓰기 [`IOverrideTheme`](../ioverridetheme). |
 
-### 참조
+### 참고
 
 * 인터페이스 [IThemeManager](../ithememanager)
 * 네임스페이스 [Aspose.Slides.Theme](../../aspose.slides.theme)

@@ -1,14 +1,14 @@
 ---
 title: FlyThroughTransition
-second_title: Aspose.Sildes für .NET API Referenz
-description: Fly-through Folien-Übergangseffekt.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Durchlaufender Folienübergangseffekt.
 type: docs
-weight: 10040
+weight: 10060
 url: /de/aspose.slides.slideshow/flythroughtransition/
 ---
 ## FlyThroughTransition Klasse
 
-Fly-through Folien-Übergangseffekt.
+Durchlaufender Folienübergangseffekt.
 
 ```csharp
 public class FlyThroughTransition : TransitionValueBase, IFlyThroughTransition
@@ -16,16 +16,16 @@ public class FlyThroughTransition : TransitionValueBase, IFlyThroughTransition
 
 ## Eigenschaften
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
 | [Direction](../../aspose.slides.slideshow/flythroughtransition/direction) { get; set; } | Richtung des Übergangs. Lesen/Schreiben [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [HasBounce](../../aspose.slides.slideshow/flythroughtransition/hasbounce) { get; set; } | Gibt an, dass die Bewegung der Präsentationsfolien während des Übergangs ein Aufprallen beinhaltet. Lesen/Schreiben Boolean. |
+| [HasBounce](../../aspose.slides.slideshow/flythroughtransition/hasbounce) { get; set; } | Gibt an, dass die Bewegung der Präsentationsfolien während des Übergangs ein Abprallen enthält. Lesen/Schreiben Boolean. |
 
 ## Methoden
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Bestimmt, ob die beiden TransitionValueBase Instanzen gleich sind. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Bestimmt, ob die beiden TransitionValueBase-Instanzen gleich sind. |
 | override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Dient als Hashfunktion für einen bestimmten Typ, geeignet für den Einsatz in Hash-Algorithmen und Datenstrukturen wie einer Hashtabelle. |
 
 ### Siehe auch

@@ -1,9 +1,9 @@
 ---
 title: Remove
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 차트 시리즈에서 DataPoint를 제거합니다.
 type: docs
-weight: 200
+weight: 240
 url: /ko/aspose.slides.charts/ichartdatapoint/remove/
 ---
 ## IChartDataPoint.Remove 메서드
@@ -18,9 +18,9 @@ public void Remove()
 
 | 예외 | 조건 |
 | --- | --- |
-| [PptxEditException](../../../aspose.slides/pptxeditexception) | DataPoint가 이미 차트 시리즈에서 제거된 경우 발생합니다. |
+| [PptxEditException](../../../aspose.slides/pptxeditexception) | 데이터 포인트가 이미 차트 시리즈에서 제거된 경우 발생합니다. |
 
-### 참조
+### 관련 항목
 
 * 인터페이스 [IChartDataPoint](../../ichartdatapoint)
 * 네임스페이스 [Aspose.Slides.Charts](../../ichartdatapoint)

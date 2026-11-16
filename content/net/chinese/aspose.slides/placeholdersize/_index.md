@@ -3,7 +3,7 @@ title: PlaceholderSize
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示占位符的大小。
 type: docs
-weight: 9440
+weight: 9460
 url: /zh/aspose.slides/placeholdersize/
 ---
 ## PlaceholderSize 枚举
@@ -18,11 +18,11 @@ public enum PlaceholderSize : sbyte
 
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
-| Full | `0` | 完整。 |
-| Half | `1` | 一半。 |
-| Quarter | `2` | 四分之一。 |
+| Full | `0` | Full. |
+| Half | `1` | Half. |
+| Quarter | `2` | Quarter. |
 
-### 另见
+### 另请参见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: IFontSubstRule
-second_title: Aspose.Sildes pro .NET referenční dokumentaci API
-description: Zastupuje informace o nahrazování písma
+second_title: Aspose.Sildes pro .NET API Reference
+description: Představuje informace o nahrazení písma
 type: docs
-weight: 5880
+weight: 5900
 url: /cs/aspose.slides/ifontsubstrule/
 ---
 ## IFontSubstRule rozhraní
 
-Zastupuje informace o nahrazování písma
+Representuje informace o nahrazení písma
 
 ```csharp
 public interface IFontSubstRule
@@ -18,9 +18,9 @@ public interface IFontSubstRule
 
 | Název | Popis |
 | --- | --- |
-| [DestFont](../../aspose.slides/ifontsubstrule/destfont) { get; } | Písmo k použití pro nahrazení Pouze pro čtení [`IFontData`](../ifontdata). |
-| [ReplaceFontCondition](../../aspose.slides/ifontsubstrule/replacefontcondition) { get; } | Pravidlo použité pro nahrazení Pouze pro čtení [`FontSubstCondition`](../fontsubstcondition). |
-| [SourceFont](../../aspose.slides/ifontsubstrule/sourcefont) { get; } | Písmo k nahrazení Pouze pro čtení [`IFontData`](../ifontdata). |
+| [DestFont](../../aspose.slides/ifontsubstrule/destfont) { get; } | Písmo, které se má použít pro nahrazení, pouze pro čtení [`IFontData`](../ifontdata). |
+| [ReplaceFontCondition](../../aspose.slides/ifontsubstrule/replacefontcondition) { get; } | Pravidlo, které se má použít pro nahrazení, pouze pro čtení [`FontSubstCondition`](../fontsubstcondition). |
+| [SourceFont](../../aspose.slides/ifontsubstrule/sourcefont) { get; } | Písmo k nahrazení, pouze pro čtení [`IFontData`](../ifontdata). |
 
 ### Viz také
 

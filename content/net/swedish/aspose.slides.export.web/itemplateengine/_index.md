@@ -1,14 +1,14 @@
 ---
 title: ITemplateEngine
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar en mallmotor som omvandlar mall och datapar till resulterande utdata, vanligtvis HTML.
+description: Representerar en mallmotor som omvandlar en mall- och datapara till resulterande utdata, vanligtvis HTML.
 type: docs
-weight: 4620
+weight: 4640
 url: /sv/aspose.slides.export.web/itemplateengine/
 ---
 ## ITemplateEngine gränssnitt
 
-Representerar en mallmotor som omvandlar en mall och ett datapaar till resulterande utdata (vanligtvis HTML).
+Representerar en mallmotor som omvandlar en mall- och datapar till resulterande utdata (vanligtvis HTML).
 
 ```csharp
 public interface ITemplateEngine

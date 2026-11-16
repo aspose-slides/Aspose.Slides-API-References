@@ -1,14 +1,14 @@
 ---
 title: ShapeElementFillSource
-second_title: Aspose.Sildes a .NET API hivatkozáshoz
-description: Azt jelöli, hogyan kell kitölteni a shape element-et.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Azt jelöli, hogyan kell kitölteni a alakzat elemet.
 type: docs
-weight: 9880
+weight: 9900
 url: /hu/aspose.slides/shapeelementfillsource/
 ---
 ## ShapeElementFillSource enumeráció
 
-Azt jelöli, hogyan kell kitölteni a shape element-et.
+Azt jelöli, hogyan kell kitölteni a alakzat elemet.
 
 ```csharp
 public enum ShapeElementFillSource : byte
@@ -19,11 +19,11 @@ public enum ShapeElementFillSource : byte
 | Név | Érték | Leírás |
 | --- | --- | --- |
 | NoFill | `0` | Ne töltse ki a primitívet. |
-| Shape | `1` | Használja a shape's fill-et. |
-| Lighten | `2` | Használja a shape's fill-et világosítva. |
-| LightenLess | `3` | Használja a shape's fill-et kevésbé világosítva. |
-| Darken | `4` | Használja a shape's fill-et sötétítve. |
-| DarkenLess | `5` | Használja a shape's fill-et kevésbé sötétítve. |
+| Shape | `1` | Használja az alakzat kitöltését. |
+| Lighten | `2` | Használja a világosított alakzat kitöltését. |
+| LightenLess | `3` | Használja a kevésbé világos alakzat kitöltését. |
+| Darken | `4` | Használja a sötét alakzat kitöltését. |
+| DarkenLess | `5` | Használja a kevésbé sötét alakzat kitöltését. |
 
 ### Lásd még
 

@@ -1,14 +1,14 @@
 ---
 title: ILuminanceEffectiveData
 second_title: Aspose.Sildes pro .NET API Reference
-description: Representuje efekt svítivosti. Jas lineárně posouvá všechny barvy blíže k bílé nebo černé. Kontrast mění měřítko všech barev tak, aby byly buď blíže k sobě, nebo dále od sebe.
+description: Representuje efekt jasu. Jas lineárně posouvá všechny barvy blíže k bílé nebo černé. Kontrast škáluje všechny barvy tak, aby byly buď blíže, nebo dále od sebe.
 type: docs
-weight: 3450
+weight: 3470
 url: /cs/aspose.slides.effects/iluminanceeffectivedata/
 ---
 ## ILuminanceEffectiveData rozhraní
 
-Representuje efekt svítivosti. Jas lineárně posouvá všechny barvy blíže k bílé nebo černé. Kontrast mění měřítko všech barev tak, aby byly buď blíže k sobě, nebo dále od sebe.
+Represents a Luminance effect. Brightness linearly shifts all colors closer to white or black. Contrast scales all colors to be either closer or further apart.
 
 ```csharp
 public interface ILuminanceEffectiveData : IEffectEffectiveData

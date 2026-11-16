@@ -1,9 +1,9 @@
 ---
 title: SlidesRange
-second_title: Aspose.Sildes para la referencia de API de .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Rango de diapositivas
 type: docs
-weight: 10530
+weight: 10550
 url: /es/aspose.slides/slidesrange/
 ---
 ## SlidesRange clase

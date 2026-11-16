@@ -1,28 +1,28 @@
 ---
 title: WebDocument
 second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Đại diện cho một dạng chuyển đổi của bản trình chiếu để lưu dưới dạng web.
+description: Đại diện cho dạng chuyển tiếp của bài thuyết trình để lưu dưới định dạng web.
 type: docs
-weight: 4680
+weight: 4700
 url: /vi/aspose.slides.export.web/webdocument/
 ---
 ## WebDocument lớp
 
-Đại diện cho một dạng chuyển đổi của bản trình chiếu để lưu dưới dạng web.
+Đại diện cho dạng chuyển tiếp của bài thuyết trình để lưu dưới định dạng web.
 
 ```csharp
 public class WebDocument
 ```
 
-## Các hàm khởi tạo
+## Hàm tạo
 
-| Tên | Mô tả |
+| Name | Description |
 | --- | --- |
-| [WebDocument](webdocument)(WebDocumentOptions) | [`WebDocument`](../webdocument) bộ khởi tạo. |
+| [WebDocument](webdocument)(WebDocumentOptions) | [`WebDocument`](../webdocument) bộ tạo. |
 
 ## Thuộc tính
 
-| Tên | Mô tả |
+| Name | Description |
 | --- | --- |
 | [Global](../../aspose.slides.export.web/webdocument/global) { get; } | Trả về bộ lưu trữ toàn cục của tài liệu. Chỉ đọc [`Storage`](../storage). |
 | [Input](../../aspose.slides.export.web/webdocument/input) { get; } |  |
@@ -30,7 +30,7 @@ public class WebDocument
 
 ## Phương thức
 
-| Tên | Mô tả |
+| Name | Description |
 | --- | --- |
 | [Save](../../aspose.slides.export.web/webdocument/save)() | Lưu đầu ra của tài liệu. |
 

@@ -3,7 +3,7 @@ title: YValue
 second_title: Aspose.Sildes för .NET API-referens
 description: YValue. Skrivskyddad IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
-weight: 210
+weight: 250
 url: /sv/aspose.slides.charts/chartdatapoint/yvalue/
 ---
 ## ChartDataPoint.YValue egenskap

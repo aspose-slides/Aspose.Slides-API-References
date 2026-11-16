@@ -1,9 +1,9 @@
 ---
 title: SvgImage
-second_title: Aspose.Slides для .NET Справочник API
+second_title: Aspose.Sildes для .NET API Reference
 description: Представляет SVG-изображение.
 type: docs
-weight: 10800
+weight: 10820
 url: /ru/aspose.slides/svgimage/
 ---
 ## SvgImage класс
@@ -30,7 +30,7 @@ public class SvgImage : ISvgImage
 | Имя | Описание |
 | --- | --- |
 | [BaseUri](../../aspose.slides/svgimage/baseuri) { get; } | Возвращает базовый URI указанного Svg. Используется для разрешения относительных ссылок. Только для чтения String. |
-| [ExternalResourceResolver](../../aspose.slides/svgimage/externalresourceresolver) { get; } | Возвращает интерфейс обратного вызова, используемый для разрешения внешних ресурсов при импорте документов Svg. Только для чтения [`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver). |
+| [ExternalResourceResolver](../../aspose.slides/svgimage/externalresourceresolver) { get; } | Возвращает интерфейс обратного вызова, используемый для разрешения внешних ресурсов во время импорта документов Svg. Только для чтения [`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver). |
 | [SvgContent](../../aspose.slides/svgimage/svgcontent) { get; } | Возвращает содержимое SVG. Только для чтения String. |
 | [SvgData](../../aspose.slides/svgimage/svgdata) { get; } | Возвращает данные SVG. Только для чтения Byte[]. |
 
@@ -38,7 +38,7 @@ public class SvgImage : ISvgImage
 
 | Имя | Описание |
 | --- | --- |
-| [WriteAsEmf](../../aspose.slides/svgimage/writeasemf)(Stream) | Сохраняет изображение SVG как файл EMF. |
+| [WriteAsEmf](../../aspose.slides/svgimage/writeasemf)(Stream) | Сохраняет изображение SVG в файл EMF. |
 
 ### См. также
 

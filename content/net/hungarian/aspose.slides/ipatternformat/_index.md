@@ -1,14 +1,14 @@
 ---
 title: IPatternFormat
-second_title: Aspose.Sildes .NET API Referencia
-description: Egy alakzat kitöltéséhez használt mintát képvisel.
+second_title: Aspose.Sildes a .NET API-referencia
+description: Egy mintát reprezentál, amely egy alakzat kitöltésére szolgál.
 type: docs
-weight: 6620
+weight: 6640
 url: /hu/aspose.slides/ipatternformat/
 ---
 ## IPatternFormat interfész
 
-Az alakzat kitöltéséhez használt mintát képviseli.
+Egy mintát reprezentál, amely egy alakzat kitöltésére szolgál.
 
 ```csharp
 public interface IPatternFormat
@@ -20,14 +20,14 @@ public interface IPatternFormat
 | --- | --- |
 | [BackColor](../../aspose.slides/ipatternformat/backcolor) { get; } | Visszaadja a háttérminta színét. Csak olvasható [`IColorFormat`](../icolorformat). |
 | [ForeColor](../../aspose.slides/ipatternformat/forecolor) { get; } | Visszaadja az előtérminta színét. Csak olvasható [`IColorFormat`](../icolorformat). |
-| [PatternStyle](../../aspose.slides/ipatternformat/patternstyle) { get; set; } | Visszaadja vagy beállítja a mintastílust. Olvasás/írás [`PatternStyle`](../patternstyle). |
+| [PatternStyle](../../aspose.slides/ipatternformat/patternstyle) { get; set; } | Visszaadja vagy beállítja a minta stílusát. Olvasás/írás [`PatternStyle`](../patternstyle). |
 
-## Metódusok
+## Módszerek
 
 | Név | Leírás |
 | --- | --- |
-| [GetTile](../../aspose.slides/ipatternformat/gettile#gettile)(Color) | Létrehozza a mintával kitöltött csempe képet. |
-| [GetTile](../../aspose.slides/ipatternformat/gettile#gettile_1)(Color, Color) | Létrehozza a mintával kitöltött csempe képet megadott színekkel. |
+| [GetTile](../../aspose.slides/ipatternformat/gettile#gettile)(Color) | Létrehozza a minta kitöltéséhez egy csempe képet. |
+| [GetTile](../../aspose.slides/ipatternformat/gettile#gettile_1)(Color, Color) | Létrehozza a minta kitöltéséhez egy csempe képet megadott színekkel. |
 
 ### Lásd még
 

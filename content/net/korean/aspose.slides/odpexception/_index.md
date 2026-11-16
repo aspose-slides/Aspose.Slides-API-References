@@ -3,7 +3,7 @@ title: OdpException
 second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 표준 내부 예외 유형을 나타냅니다.
 type: docs
-weight: 9210
+weight: 9230
 url: /ko/aspose.slides/odpexception/
 ---
 ## OdpException 클래스
@@ -19,10 +19,10 @@ public class OdpException : Exception
 | 이름 | 설명 |
 | --- | --- |
 | [OdpException](odpexception#constructor)() | 기본 생성자 |
-| [OdpException](odpexception#constructor_1)(string) | 예외에 메시지를 추가할 수 있는 생성자 |
-| [OdpException](odpexception#constructor_2)(string, Exception) | 메시지와 포함된 예외를 포함하는 생성자 |
+| [OdpException](odpexception#constructor_1)(string) | 이 예외에 메시지를 추가할 수 있는 생성자. |
+| [OdpException](odpexception#constructor_2)(string, Exception) | 메시지와 포함된 예외를 갖는 예외용 생성자. |
 
-### 참조
+### 참고
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

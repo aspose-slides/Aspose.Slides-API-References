@@ -1,14 +1,14 @@
 ---
 title: IAlphaInverseEffectiveData
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đối tượng bất biến đại diện cho hiệu ứng Alpha Inverse. Các giá trị độ trong suốt Alpha được đảo ngược bằng cách trừ khỏi 100.
+second_title: Aspose.Sildes cho .NET API Reference
+description: Đối tượng bất biến đại diện cho hiệu ứng Alpha Inverse. Các giá trị độ mờ Alpha được đảo ngược bằng cách trừ khỏi 100.
 type: docs
-weight: 3090
+weight: 3110
 url: /vi/aspose.slides.effects/ialphainverseeffectivedata/
 ---
 ## IAlphaInverseEffectiveData giao diện
 
-Đối tượng bất biến đại diện cho hiệu ứng Alpha Inverse. Giá trị Alpha (độ trong suốt) được đảo ngược bằng cách trừ cho 100%.
+Đối tượng bất biến đại diện cho hiệu ứng Alpha Inverse. Giá trị Alpha (độ mờ) được đảo ngược bằng cách trừ khỏi 100%.
 
 ```csharp
 public interface IAlphaInverseEffectiveData : IEffectEffectiveData
@@ -20,7 +20,7 @@ public interface IAlphaInverseEffectiveData : IEffectEffectiveData
 | --- | --- |
 | [AsIEffectEffectiveData](../../aspose.slides.effects/ialphainverseeffectivedata/asieffecteffectivedata) { get; } | Cho phép lấy giao diện IEffectEffectiveData cơ bản. Chỉ đọc [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
-### Xem thêm
+### Xem Thêm
 
 * giao diện [IEffectEffectiveData](../ieffecteffectivedata)
 * không gian tên [Aspose.Slides.Effects](../../aspose.slides.effects)

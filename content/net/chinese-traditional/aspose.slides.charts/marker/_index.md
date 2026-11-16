@@ -1,14 +1,14 @@
 ---
 title: Marker
-second_title: Aspose.Sildes for .NET API 參考
-description: 表示 chert 的標記。
+second_title: Aspose.Sildes .NET API 參考
+description: 代表燧石的標記。
 type: docs
-weight: 2330
+weight: 2350
 url: /zh-hant/aspose.slides.charts/marker/
 ---
-## Marker 類別
+## 標記類別
 
-表示 chert 的標記。
+代表燧石的標記。
 
 ```csharp
 public class Marker : IMarker
@@ -19,8 +19,8 @@ public class Marker : IMarker
 | 名稱 | 說明 |
 | --- | --- |
 | [Format](../../aspose.slides.charts/marker/format) { get; } | 取得或設定標記填充。唯讀 [`IFormat`](../iformat)。 |
-| [Size](../../aspose.slides.charts/marker/size) { get; set; } | 表示線形圖、散佈圖或雷達圖中的標記大小。可讀寫 Int32。 |
-| [Symbol](../../aspose.slides.charts/marker/symbol) { get; set; } | 表示線形圖、散佈圖或雷達圖中的標記樣式。可讀寫 [`MarkerStyleType`](../markerstyletype)。 |
+| [Size](../../aspose.slides.charts/marker/size) { get; set; } | 表示折線圖、散佈圖或雷達圖中的標記大小。可讀寫 Int32。 |
+| [Symbol](../../aspose.slides.charts/marker/symbol) { get; set; } | 表示折線圖、散佈圖或雷達圖中的標記樣式。可讀寫 [`MarkerStyleType`](../markerstyletype)。 |
 
 ### 另請參閱
 

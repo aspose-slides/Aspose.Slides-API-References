@@ -1,14 +1,14 @@
 ---
 title: IAxesManager
-second_title: Aspose.Sildes .NET API referencia
-description: Lehetővé teszi a diagram tengelyeinek elérését.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Hozzáférést biztosít a diagram tengelyeihez.
 type: docs
-weight: 1700
+weight: 1710
 url: /hu/aspose.slides.charts/iaxesmanager/
 ---
 ## IAxesManager interfész
 
-Lehetővé teszi a diagram tengelyeinek elérését.
+Hozzáférést biztosít a diagram tengelyeihez.
 
 ```csharp
 public interface IAxesManager
@@ -18,11 +18,11 @@ public interface IAxesManager
 
 | Név | Leírás |
 | --- | --- |
-| [HorizontalAxis](../../aspose.slides.charts/iaxesmanager/horizontalaxis) { get; } | Visszaadja a diagram vízszintes tengelyét. Csak olvasható [`IAxis`](../iaxis). |
-| [SecondaryHorizontalAxis](../../aspose.slides.charts/iaxesmanager/secondaryhorizontalaxis) { get; } | Visszaadja a diagram másodlagos vízszintes tengelyét. Csak olvasható [`IAxis`](../iaxis). |
-| [SecondaryVerticalAxis](../../aspose.slides.charts/iaxesmanager/secondaryverticalaxis) { get; } | Visszaadja a diagram másodlagos függőleges tengelyét. Csak olvasható [`IAxis`](../iaxis). |
-| [SeriesAxis](../../aspose.slides.charts/iaxesmanager/seriesaxis) { get; } | Visszaadja a diagram sorozat tengelyét. Csak olvasható [`IAxis`](../iaxis). |
-| [VerticalAxis](../../aspose.slides.charts/iaxesmanager/verticalaxis) { get; } | Visszaadja a diagram függőleges tengelyét. Csak olvasható [`IAxis`](../iaxis). |
+| [HorizontalAxis](../../aspose.slides.charts/iaxesmanager/horizontalaxis) { get; } | A diagram vízszintes tengelyét lekéri. Csak olvasható [`IAxis`](../iaxis). |
+| [SecondaryHorizontalAxis](../../aspose.slides.charts/iaxesmanager/secondaryhorizontalaxis) { get; } | A diagram másodlagos vízszintes tengelyét lekéri. Csak olvasható [`IAxis`](../iaxis). |
+| [SecondaryVerticalAxis](../../aspose.slides.charts/iaxesmanager/secondaryverticalaxis) { get; } | A diagram másodlagos függőleges tengelyét lekéri. Csak olvasható [`IAxis`](../iaxis). |
+| [SeriesAxis](../../aspose.slides.charts/iaxesmanager/seriesaxis) { get; } | A diagram sorozat tengelyét lekéri. Csak olvasható [`IAxis`](../iaxis). |
+| [VerticalAxis](../../aspose.slides.charts/iaxesmanager/verticalaxis) { get; } | A diagram függőleges tengelyét lekéri. Csak olvasható [`IAxis`](../iaxis). |
 
 ### Lásd még
 

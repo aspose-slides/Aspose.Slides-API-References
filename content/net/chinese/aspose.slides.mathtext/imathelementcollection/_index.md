@@ -1,14 +1,14 @@
 ---
 title: IMathElementCollection
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 表示一个数学元素 MathElement 的集合。
 type: docs
-weight: 8240
+weight: 8260
 url: /zh/aspose.slides.mathtext/imathelementcollection/
 ---
 ## IMathElementCollection 接口
 
-表示一个数学元素 (MathElement) 的集合。
+表示一个数学元素（MathElement）集合。
 
 ```csharp
 public interface IMathElementCollection : IEnumerable<IMathElement>
@@ -16,7 +16,7 @@ public interface IMathElementCollection : IEnumerable<IMathElement>
 
 ## 属性
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
 | [AsIEnumerable](../../aspose.slides.mathtext/imathelementcollection/asienumerable) { get; } | 返回 IEnumerable 接口。只读 IEnumerable。 |
 | [Count](../../aspose.slides.mathtext/imathelementcollection/count) { get; } | 获取集合实际包含的元素数量。只读 Int32。 |
@@ -24,27 +24,27 @@ public interface IMathElementCollection : IEnumerable<IMathElement>
 
 ## 方法
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
 | [Add](../../aspose.slides.mathtext/imathelementcollection/add)(IMathElement) | 向集合末尾添加一个数学元素。 |
 | [Clear](../../aspose.slides.mathtext/imathelementcollection/clear)() | 从集合中移除所有元素。 |
 | [Contains](../../aspose.slides.mathtext/imathelementcollection/contains)(IMathElement) | 确定集合是否包含特定值。 |
 | [CopyTo](../../aspose.slides.mathtext/imathelementcollection/copyto)(IMathElement[], int) | 复制到指定数组。 |
-| [IndexOf](../../aspose.slides.mathtext/imathelementcollection/indexof)(IMathElement) | 确定集合中特定数学元素的索引。 |
-| [Insert](../../aspose.slides.mathtext/imathelementcollection/insert)(int, IMathElement) | 在指定索引处向集合插入数学元素。 |
+| [IndexOf](../../aspose.slides.mathtext/imathelementcollection/indexof)(IMathElement) | 确定特定数学元素在集合中的索引。 |
+| [Insert](../../aspose.slides.mathtext/imathelementcollection/insert)(int, IMathElement) | 在指定索引处向集合插入一个数学元素。 |
 | [Remove](../../aspose.slides.mathtext/imathelementcollection/remove)(IMathElement) | 从集合中移除特定对象的第一次出现。 |
-| [RemoveAt](../../aspose.slides.mathtext/imathelementcollection/removeat)(int) | 从集合中移除指定索引处的元素。 |
+| [RemoveAt](../../aspose.slides.mathtext/imathelementcollection/removeat)(int) | 移除集合中指定索引处的元素。 |
 
 ### 示例
 
-示例：
+Example:
 
 ```csharp
 [C#]
 IMathElementCollection collection = new MathBlock();
 ```
 
-### 另见
+### 另请参见
 
 * 接口 [IMathElement](../imathelement)
 * 命名空间 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

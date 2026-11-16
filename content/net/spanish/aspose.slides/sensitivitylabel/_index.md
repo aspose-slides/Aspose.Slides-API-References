@@ -3,10 +3,10 @@ title: SensitivityLabel
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa la etiqueta de sensibilidad de Microsoft Purview Information Protection.
 type: docs
-weight: 9790
+weight: 9810
 url: /es/aspose.slides/sensitivitylabel/
 ---
-## Clase SensitivityLabel
+## SensitivityLabel clase
 
 Representa la etiqueta de sensibilidad de Microsoft Purview Information Protection.
 
@@ -19,11 +19,11 @@ public sealed class SensitivityLabel : ISensitivityLabel
 | Nombre | Descripción |
 | --- | --- |
 | [AssignmentMethodType](../../aspose.slides/sensitivitylabel/assignmentmethodtype) { get; set; } | Devuelve o establece el método de asignación para la etiqueta de sensibilidad. Lectura/escritura [`SensitivityLabelAssignmentType`](../sensitivitylabelassignmenttype). |
-| [ContentMarkTypes](../../aspose.slides/sensitivitylabel/contentmarktypes) { get; } | Devuelve la lista de tipos de marcación de contenido que deben aplicarse a un archivo. |
+| [ContentMarkTypes](../../aspose.slides/sensitivitylabel/contentmarktypes) { get; } | Devuelve la lista de tipos de marcado de contenido que deben aplicarse a un archivo. |
 | [Id](../../aspose.slides/sensitivitylabel/id) { get; set; } | Devuelve o establece el id de la etiqueta de sensibilidad. Lectura/escritura String. |
 | [IsEnabled](../../aspose.slides/sensitivitylabel/isenabled) { get; set; } | Indica si la etiqueta de sensibilidad está habilitada. |
 | [IsRemoved](../../aspose.slides/sensitivitylabel/isremoved) { get; set; } | Indica si la etiqueta de sensibilidad fue eliminada. |
-| [SiteId](../../aspose.slides/sensitivitylabel/siteid) { get; set; } | Devuelve o establece el identificador del sitio de Azure Active Directory (Azure AD) que corresponde a la política de etiqueta de sensibilidad que describe la etiqueta de sensibilidad. Lectura/escritura Guid. |
+| [SiteId](../../aspose.slides/sensitivitylabel/siteid) { get; set; } | Devuelve o establece el identificador del sitio de Azure Active Directory (Azure AD) correspondiente a la política de etiqueta de sensibilidad que describe la etiqueta de sensibilidad. Lectura/escritura Guid. |
 
 ### Ver también
 

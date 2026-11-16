@@ -1,14 +1,14 @@
 ---
 title: IParagraph
-second_title: Aspose.Sildes .NET API Referencia
-description: Egy szöveg bekezdését ábrázolja.
+second_title: Aspose.Sildes .NET API-referencia
+description: Egy szöveg bekezdését képviseli.
 type: docs
-weight: 6560
+weight: 6580
 url: /hu/aspose.slides/iparagraph/
 ---
 ## IParagraph interfész
 
-Egy szöveg bekezdését ábrázolja.
+Egy szöveg bekezdését képviseli.
 
 ```csharp
 public interface IParagraph : ISlideComponent
@@ -18,19 +18,21 @@ public interface IParagraph : ISlideComponent
 
 | Név | Leírás |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides/iparagraph/asislidecomponent) { get; } | Lehetővé teszi az alap ISlideComponent interfész lekérdezését. Csak olvasható [`ISlideComponent`](../islidecomponent). |
+| [AsISlideComponent](../../aspose.slides/iparagraph/asislidecomponent) { get; } | Lehetővé teszi az alap ISlideComponent interfész lekérését. Csak olvasható [`ISlideComponent`](../islidecomponent). |
 | [EndParagraphPortionFormat](../../aspose.slides/iparagraph/endparagraphportionformat) { get; set; } | Megadja a szövegrész tulajdonságait, amelyeket akkor kell használni, ha egy másik szövegrész kerül beillesztésre az utolsó után. |
 | [ParagraphFormat](../../aspose.slides/iparagraph/paragraphformat) { get; } | Visszaadja ennek a bekezdésnek a formázási objektumát. Csak olvasható [`IParagraphFormat`](../iparagraphformat). |
 | [Portions](../../aspose.slides/iparagraph/portions) { get; } | Visszaadja a szövegrészek gyűjteményét. Csak olvasható [`IPortionCollection`](../iportioncollection). |
-| [Text](../../aspose.slides/iparagraph/text) { get; set; } | Lekéri vagy beállítja egy bekezdés egyszerű szövegét. Olvasható/írható String. |
+| [Text](../../aspose.slides/iparagraph/text) { get; set; } | Lekérdezi vagy beállítja egy bekezdés egyszerű szövegét. Olvasás/írás String. |
 
-## Módszerek
+## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [GetLinesCount](../../aspose.slides/iparagraph/getlinescount)() | Visszaadja a bekezdés sorainak számát. |
-| [GetRect](../../aspose.slides/iparagraph/getrect)() | Visszaadja a bekezdést körülvevő téglalap koordinátáit. A téglalap tartalmazza a bekezdés összes szövegsorát, beleértve az üres sorokat is. |
-| [JoinPortionsWithSameFormatting](../../aspose.slides/iparagraph/joinportionswithsameformatting)() | Összefűzi az azonos formázású szövegelemeket. |
+| [GetImage](../../aspose.slides/iparagraph/getimage#getimage)() | Visszaad egy képet a bekezdésről. |
+| [GetImage](../../aspose.slides/iparagraph/getimage#getimage_1)(float, float) | Visszaad egy képet a bekezdésről a megadott méretarányban. |
+| [GetLinesCount](../../aspose.slides/iparagraph/getlinescount)() | Lekérdezi a bekezdés sorainak számát. |
+| [GetRect](../../aspose.slides/iparagraph/getrect)() | Lekérdezi a bekezdést körülvevő téglalap koordinátáit. A téglalap tartalmazza a bekezdés összes szövegsorát, beleértve az üres sorokat is. |
+| [JoinPortionsWithSameFormatting](../../aspose.slides/iparagraph/joinportionswithsameformatting)() | Összefűzi az azonos formázású futamokat. |
 
 ### Lásd még
 

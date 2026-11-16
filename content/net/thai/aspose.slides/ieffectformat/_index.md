@@ -1,14 +1,14 @@
 ---
 title: IEffectFormat
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
-description: แสดงคุณสมบัติเอฟเฟกต์ของรูปทรง.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงคุณสมบัติเอฟเฟ็กต์ของรูปทรง.
 type: docs
-weight: 5740
+weight: 5760
 url: /th/aspose.slides/ieffectformat/
 ---
 ## IEffectFormat อินเทอร์เฟซ
 
-แสดงคุณสมบัติเอฟเฟกต์ของรูปทรง
+แทนคุณสมบัติเอฟเฟ็กต์ของรูปทรง
 
 ```csharp
 public interface IEffectFormat : IEffectParamSource
@@ -18,43 +18,43 @@ public interface IEffectFormat : IEffectParamSource
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIEffectParamSource](../../aspose.slides/ieffectformat/asieffectparamsource) { get; } | อนุญาตให้ดึงอินเทอร์เฟส IEffectParamSource พื้นฐานได้ อ่านอย่างเดียว [`IEffectParamSource`](../ieffectparamsource). |
-| [BlurEffect](../../aspose.slides/ieffectformat/blureffect) { get; set; } | เอฟเฟกต์เบลอ. อ่าน/เขียน [`IBlur`](../../aspose.slides.effects/iblur). |
-| [FillOverlayEffect](../../aspose.slides/ieffectformat/filloverlayeffect) { get; set; } | เอฟเฟกต์การทับซ้อนเติม. อ่าน/เขียน [`IFillOverlay`](../../aspose.slides.effects/ifilloverlay). |
-| [GlowEffect](../../aspose.slides/ieffectformat/gloweffect) { get; set; } | เอฟเฟกต์เรืองแสง. อ่าน/เขียน [`IGlow`](../../aspose.slides.effects/iglow). |
+| [AsIEffectParamSource](../../aspose.slides/ieffectformat/asieffectparamsource) { get; } | อนุญาตให้รับอินเทอร์เฟซ IEffectParamSource พื้นฐาน. อ่านอย่างเดียว [`IEffectParamSource`](../ieffectparamsource). |
+| [BlurEffect](../../aspose.slides/ieffectformat/blureffect) { get; set; } | เอฟเฟ็กต์เบลอ. อ่าน/เขียน [`IBlur`](../../aspose.slides.effects/iblur). |
+| [FillOverlayEffect](../../aspose.slides/ieffectformat/filloverlayeffect) { get; set; } | เอฟเฟ็กต์การวางซ้อนเติมเต็ม. อ่าน/เขียน [`IFillOverlay`](../../aspose.slides.effects/ifilloverlay). |
+| [GlowEffect](../../aspose.slides/ieffectformat/gloweffect) { get; set; } | เอฟเฟ็กต์แสงเรืองแสง. อ่าน/เขียน [`IGlow`](../../aspose.slides.effects/iglow). |
 | [InnerShadowEffect](../../aspose.slides/ieffectformat/innershadoweffect) { get; set; } | เงาภายใน. อ่าน/เขียน [`IInnerShadow`](../../aspose.slides.effects/iinnershadow). |
-| [IsNoEffects](../../aspose.slides/ieffectformat/isnoeffects) { get; } | ส่งคืนค่า true หากเอฟเฟกต์ทั้งหมดถูกปิด (เช่น เพิ่งสร้าง วัตถุ EffectFormat เริ่มต้น). อ่านอย่างเดียว Boolean. |
+| [IsNoEffects](../../aspose.slides/ieffectformat/isnoeffects) { get; } | คืนค่า true หากเอฟเฟ็กต์ทั้งหมดถูกปิด (เช่น เพิ่งสร้าง, วัตถุ EffectFormat เริ่มต้น). อ่านอย่างเดียว Boolean. |
 | [OuterShadowEffect](../../aspose.slides/ieffectformat/outershadoweffect) { get; set; } | เงานอก. อ่าน/เขียน [`IOuterShadow`](../../aspose.slides.effects/ioutershadow). |
-| [PresetShadowEffect](../../aspose.slides/ieffectformat/presetshadoweffect) { get; set; } | เงาที่ตั้งล่วงหน้า. อ่าน/เขียน [`IPresetShadow`](../../aspose.slides.effects/ipresetshadow). |
+| [PresetShadowEffect](../../aspose.slides/ieffectformat/presetshadoweffect) { get; set; } | เงาตั้งล่วงหน้า. อ่าน/เขียน [`IPresetShadow`](../../aspose.slides.effects/ipresetshadow). |
 | [ReflectionEffect](../../aspose.slides/ieffectformat/reflectioneffect) { get; set; } | การสะท้อน. อ่าน/เขียน [`IReflection`](../../aspose.slides.effects/ireflection). |
 | [SoftEdgeEffect](../../aspose.slides/ieffectformat/softedgeeffect) { get; set; } | ขอบนุ่ม. อ่าน/เขียน [`ISoftEdge`](../../aspose.slides.effects/isoftedge). |
 
-## เมธอด
+## วิธีการ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [DisableBlurEffect](../../aspose.slides/ieffectformat/disableblureffect)() | ปิดใช้งานเอฟเฟกต์เบลอ. |
-| [DisableFillOverlayEffect](../../aspose.slides/ieffectformat/disablefilloverlayeffect)() | ปิดใช้งานเอฟเฟกต์การทับซ้อนเติม. |
-| [DisableGlowEffect](../../aspose.slides/ieffectformat/disablegloweffect)() | ปิดใช้งานเอฟเฟกต์เรืองแสง. |
-| [DisableInnerShadowEffect](../../aspose.slides/ieffectformat/disableinnershadoweffect)() | ปิดใช้งานเอฟเฟกต์เงาภายใน. |
-| [DisableOuterShadowEffect](../../aspose.slides/ieffectformat/disableoutershadoweffect)() | ปิดใช้งานเอฟเฟกต์เงานอก. |
-| [DisablePresetShadowEffect](../../aspose.slides/ieffectformat/disablepresetshadoweffect)() | ปิดใช้งานเอฟเฟกต์เงาที่ตั้งล่วงหน้า. |
-| [DisableReflectionEffect](../../aspose.slides/ieffectformat/disablereflectioneffect)() | ปิดใช้งานเอฟเฟกต์การสะท้อน. |
-| [DisableSoftEdgeEffect](../../aspose.slides/ieffectformat/disablesoftedgeeffect)() | ปิดใช้งานเอฟเฟกต์ขอบนุ่ม. |
-| [EnableFillOverlayEffect](../../aspose.slides/ieffectformat/enablefilloverlayeffect)() | เปิดใช้งานเอฟเฟกต์การทับซ้อนเติม. |
-| [EnableGlowEffect](../../aspose.slides/ieffectformat/enablegloweffect)() | เปิดใช้งานเอฟเฟกต์เรืองแสง. |
-| [EnableInnerShadowEffect](../../aspose.slides/ieffectformat/enableinnershadoweffect)() | เปิดใช้งานเอฟเฟกต์เงาภายใน. |
-| [EnableOuterShadowEffect](../../aspose.slides/ieffectformat/enableoutershadoweffect)() | เปิดใช้งานเอฟเฟกต์เงานอก. |
-| [EnablePresetShadowEffect](../../aspose.slides/ieffectformat/enablepresetshadoweffect)() | เปิดใช้งานเอฟเฟกต์เงาที่ตั้งล่วงหน้า. |
-| [EnableReflectionEffect](../../aspose.slides/ieffectformat/enablereflectioneffect)() | เปิดใช้งานเอฟเฟกต์การสะท้อน. |
-| [EnableSoftEdgeEffect](../../aspose.slides/ieffectformat/enablesoftedgeeffect)() | เปิดใช้งานเอฟเฟกต์ขอบนุ่ม. |
-| [GetEffective](../../aspose.slides/ieffectformat/geteffective)() | ดึงข้อมูลการจัดรูปแบบเอฟเฟกต์ที่มีการสืบทอดใช้. |
-| [SetBlurEffect](../../aspose.slides/ieffectformat/setblureffect)(double, bool) | ตั้งค่าเอฟเฟกต์เบลอ. |
+| [DisableBlurEffect](../../aspose.slides/ieffectformat/disableblureffect)() | ปิดการใช้งานเอฟเฟ็กต์เบลอ. |
+| [DisableFillOverlayEffect](../../aspose.slides/ieffectformat/disablefilloverlayeffect)() | ปิดการใช้งานเอฟเฟ็กต์การวางซ้อนเติมเต็ม. |
+| [DisableGlowEffect](../../aspose.slides/ieffectformat/disablegloweffect)() | ปิดการใช้งานเอฟเฟ็กต์แสงเรืองแสง. |
+| [DisableInnerShadowEffect](../../aspose.slides/ieffectformat/disableinnershadoweffect)() | ปิดการใช้งานเอฟเฟ็กต์เงาภายใน. |
+| [DisableOuterShadowEffect](../../aspose.slides/ieffectformat/disableoutershadoweffect)() | ปิดการใช้งานเอฟเฟ็กต์เงานอก. |
+| [DisablePresetShadowEffect](../../aspose.slides/ieffectformat/disablepresetshadoweffect)() | ปิดการใช้งานเอฟเฟ็กต์เงาตั้งล่วงหน้า. |
+| [DisableReflectionEffect](../../aspose.slides/ieffectformat/disablereflectioneffect)() | ปิดการใช้งานเอฟเฟ็กต์การสะท้อน. |
+| [DisableSoftEdgeEffect](../../aspose.slides/ieffectformat/disablesoftedgeeffect)() | ปิดการใช้งานเอฟเฟ็กต์ขอบนุ่ม. |
+| [EnableFillOverlayEffect](../../aspose.slides/ieffectformat/enablefilloverlayeffect)() | เปิดการใช้งานเอฟเฟ็กต์การวางซ้อนเติมเต็ม. |
+| [EnableGlowEffect](../../aspose.slides/ieffectformat/enablegloweffect)() | เปิดการใช้งานเอฟเฟ็กต์แสงเรืองแสง. |
+| [EnableInnerShadowEffect](../../aspose.slides/ieffectformat/enableinnershadoweffect)() | เปิดการใช้งานเอฟเฟ็กต์เงาภายใน. |
+| [EnableOuterShadowEffect](../../aspose.slides/ieffectformat/enableoutershadoweffect)() | เปิดการใช้งานเอฟเฟ็กต์เงานอก. |
+| [EnablePresetShadowEffect](../../aspose.slides/ieffectformat/enablepresetshadoweffect)() | เปิดการใช้งานเอฟเฟ็กต์เงาตั้งล่วงหน้า. |
+| [EnableReflectionEffect](../../aspose.slides/ieffectformat/enablereflectioneffect)() | เปิดการใช้งานเอฟเฟ็กต์การสะท้อน. |
+| [EnableSoftEdgeEffect](../../aspose.slides/ieffectformat/enablesoftedgeeffect)() | เปิดการใช้งานเอฟเฟ็กต์ขอบนุ่ม. |
+| [GetEffective](../../aspose.slides/ieffectformat/geteffective)() | ดึงข้อมูลการจัดรูปแบบเอฟเฟ็กต์ที่มีผลโดยใช้การสืบทอด. |
+| [SetBlurEffect](../../aspose.slides/ieffectformat/setblureffect)(double, bool) | ตั้งค่าเอฟเฟ็กต์เบลอ. |
 
 ### ดูเพิ่มเติม
 
 * อินเทอร์เฟซ [IEffectParamSource](../ieffectparamsource)
-* เนมสเปซ [Aspose.Slides](../../aspose.slides)
-* แอสเซ็มบลี [Aspose.Slides](../../)
+* เนมสเปส [Aspose.Slides](../../aspose.slides)
+* แอสเซมบลี [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,14 +1,14 @@
 ---
 title: IMasterSlide
 second_title: Aspose.Sildes لـ .NET مرجع API
-description: يمثل شريحة رئيسية في عرض تقديمي.
+description: يمثل شريحة ماستر في عرض تقديمي.
 type: docs
-weight: 6420
+weight: 6440
 url: /ar/aspose.slides/imasterslide/
 ---
-## IMasterSlide واجهة
+## واجهة IMasterSlide
 
-يمثل شريحة رئيسية في عرض تقديمي.
+يمثل شريحة ماستر في عرض تقديمي.
 
 ```csharp
 public interface IMasterSlide : IBaseSlide, IMasterThemeable
@@ -16,31 +16,31 @@ public interface IMasterSlide : IBaseSlide, IMasterThemeable
 
 ## الخصائص
 
-| الاسم | الوصف |
+| Name | Description |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/imasterslide/asibaseslide) { get; } | يسمح بالحصول على واجهة IBaseSlide الأساسية. قراءة فقط [`IBaseSlide`](../ibaseslide). |
-| [AsIMasterThemeable](../../aspose.slides/imasterslide/asimasterthemeable) { get; } | يُعيد واجهة IMasterThemeable. قراءة فقط [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
-| [BodyStyle](../../aspose.slides/imasterslide/bodystyle) { get; } | يُعيد نمط نص الجسم. قراءة فقط [`ITextStyle`](../itextstyle). |
-| [DrawingGuides](../../aspose.slides/imasterslide/drawingguides) { get; } | يُعيد مجموعة من أدلة الرسم للشريحة الرئيسية. قراءة فقط [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [HasDependingSlides](../../aspose.slides/imasterslide/hasdependingslides) { get; } | يُعيد true إذا كان هناك شريحة واحدة على الأقل تعتمد على هذه الشريحة الرئيسية. قراءة فقط Boolean. |
-| [HeaderFooterManager](../../aspose.slides/imasterslide/headerfootermanager) { get; } | يُعيد مدير HeaderFooter للشريحة الرئيسية. قراءة فقط [`IMasterSlideHeaderFooterManager`](../imasterslideheaderfootermanager). |
-| [LayoutSlides](../../aspose.slides/imasterslide/layoutslides) { get; } | يُعيد مجموعة شرائح التخطيط الفرعية لهذه الشريحة الرئيسية. قراءة فقط [`IMasterLayoutSlideCollection`](../imasterlayoutslidecollection). |
-| [OtherStyle](../../aspose.slides/imasterslide/otherstyle) { get; } | يُعيد نمط نص آخر. قراءة فقط [`ITextStyle`](../itextstyle). |
-| [Preserve](../../aspose.slides/imasterslide/preserve) { get; set; } | يحدِّد ما إذا كان سيتم حذف الشريحة الرئيسية المقابلة عندما تُحذف جميع الشرائح التي تلي تلك الشريحة. ملاحظة: Aspose.Slides لن يزيل أي شريحة رئيسية غير مستخدمة بنفسه؛ لإزالة الشرائح الرئيسية غير المستخدمة فعليًا استدعِ [`RemoveUnused`](../imasterslidecollection/removeunused) قراءة/كتابة Boolean. |
-| [TitleStyle](../../aspose.slides/imasterslide/titlestyle) { get; } | يُعيد نمط نص العنوان. قراءة فقط [`ITextStyle`](../itextstyle). |
+| [AsIBaseSlide](../../aspose.slides/imasterslide/asibaseslide) { get; } | يسمح بالحصول على واجهة IBaseSlide الأساسية. للقراءة فقط [`IBaseSlide`](../ibaseslide). |
+| [AsIMasterThemeable](../../aspose.slides/imasterslide/asimasterthemeable) { get; } | يرجع واجهة IMasterThemeable. للقراءة فقط [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
+| [BodyStyle](../../aspose.slides/imasterslide/bodystyle) { get; } | يرجع نمط نص الجسم. للقراءة فقط [`ITextStyle`](../itextstyle). |
+| [DrawingGuides](../../aspose.slides/imasterslide/drawingguides) { get; } | يرجع مجموعة من أدلة الرسم للشريحة الرئيسية. للقراءة فقط [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [HasDependingSlides](../../aspose.slides/imasterslide/hasdependingslides) { get; } | يرجع true إذا كان هناك شريحة واحدة على الأقل تعتمد على هذه الشريحة الرئيسية. للقراءة فقط Boolean. |
+| [HeaderFooterManager](../../aspose.slides/imasterslide/headerfootermanager) { get; } | يرجع مدير HeaderFooter للشريحة الرئيسية. للقراءة فقط [`IMasterSlideHeaderFooterManager`](../imasterslideheaderfootermanager). |
+| [LayoutSlides](../../aspose.slides/imasterslide/layoutslides) { get; } | يرجع مجموعة شرائح تخطيط الأطفال لهذه الشريحة الرئيسية. للقراءة فقط [`IMasterLayoutSlideCollection`](../imasterlayoutslidecollection). |
+| [OtherStyle](../../aspose.slides/imasterslide/otherstyle) { get; } | يرجع نمط نص آخر. للقراءة فقط [`ITextStyle`](../itextstyle). |
+| [Preserve](../../aspose.slides/imasterslide/preserve) { get; set; } | يحدد ما إذا كان الماستر المقابل يتم حذفه عندما يتم حذف جميع الشرائح التي تليه. ملاحظة: Aspose.Slides لن يزيل أي ماستر غير مستخدم بنفسه، لإزالة الماسترات غير المستخدمة فعليًا استدعِ [`RemoveUnused`](../imasterslidecollection/removeunused) قراءة/كتابة Boolean. |
+| [TitleStyle](../../aspose.slides/imasterslide/titlestyle) { get; } | يرجع نمط نص العنوان. للقراءة فقط [`ITextStyle`](../itextstyle). |
 
-## الطرق
+## الأساليب
 
-| الاسم | الوصف |
+| Name | Description |
 | --- | --- |
-| [ApplyExternalThemeToDependingSlides](../../aspose.slides/imasterslide/applyexternalthemetodependingslides)(string) | ينشئ شريحة رئيسية جديدة استنادًا إلى الحالية، يطبّق ثيمًا خارجيًا عليها، ثم يطبق الشريحة الرئيسية المُنشأة على جميع الشرائح التابعة. |
-| [GetDependingSlides](../../aspose.slides/imasterslide/getdependingslides)() | يُعيد مصفوفة تحتوي على جميع الشرائح التي تعتمد على هذه الشريحة الرئيسية. |
+| [ApplyExternalThemeToDependingSlides](../../aspose.slides/imasterslide/applyexternalthemetodependingslides)(string) | إنشاء شريحة ماستر جديدة استنادًا إلى الحالية، وتطبيق سمة خارجية عليها، وتطبيق الشريحة الماستر المُنشأة على جميع الشرائح التابعة. |
+| [GetDependingSlides](../../aspose.slides/imasterslide/getdependingslides)() | يرجع مصفوفة تحتوي على جميع الشرائح التي تعتمد على هذه الشريحة الماستر. |
 
-### انظر أيضًا
+### انظر أيضا
 
 * واجهة [IBaseSlide](../ibaseslide)
 * واجهة [IMasterThemeable](../../aspose.slides.theme/imasterthemeable)
-* مساحة الأسماء [Aspose.Slides](../../aspose.slides)
+* مساحة الاسم [Aspose.Slides](../../aspose.slides)
 * التجميع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

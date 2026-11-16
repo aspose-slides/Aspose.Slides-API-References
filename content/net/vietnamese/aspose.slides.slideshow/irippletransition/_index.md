@@ -1,14 +1,14 @@
 ---
 title: IRippleTransition
-second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Hiệu ứng chuyển đổi slide dạng sóng.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Hiệu ứng chuyển tiếp slide Ripple.
 type: docs
-weight: 10170
+weight: 10190
 url: /vi/aspose.slides.slideshow/irippletransition/
 ---
 ## IRippleTransition giao diện
 
-Hiệu ứng chuyển đổi slide dạng sóng.
+Ripple slide transition effect.
 
 ```csharp
 public interface IRippleTransition : ITransitionValueBase
@@ -19,7 +19,7 @@ public interface IRippleTransition : ITransitionValueBase
 | Tên | Mô tả |
 | --- | --- |
 | [AsITransitionValueBase](../../aspose.slides.slideshow/irippletransition/asitransitionvaluebase) { get; } | Cho phép lấy giao diện ITransitionValueBase cơ bản. Chỉ đọc [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/irippletransition/direction) { get; set; } | Hướng của chuyển đổi. Đọc/ghi [`TransitionCornerAndCenterDirectionType`](../transitioncornerandcenterdirectiontype). |
+| [Direction](../../aspose.slides.slideshow/irippletransition/direction) { get; set; } | Hướng chuyển tiếp. Đọc/ghi [`TransitionCornerAndCenterDirectionType`](../transitioncornerandcenterdirectiontype). |
 
 ### Xem thêm
 

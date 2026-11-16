@@ -1,14 +1,14 @@
 ---
 title: MasterSlideHeaderFooterManager
-second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
-description: ตัวจัดการที่เก็บพฤติกรรมของตัวรองรับส่วนท้ายสไลด์หลัก วันที่-เวลา หมายเลขหน้าและตัวรองรับทั้งหมดของลูก ตัวรองรับลูกหมายถึงตัวรองรับที่อยู่ในสไลด์เลย์เอาต์ที่ขึ้นอยู่และสไลด์ที่ขึ้นอยู่ สไลด์เลย์เอาต์ที่ขึ้นอยู่และสไลด์ใช้และอ้างอิงสไลด์หลัก
+second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
+description: แสดงถึงผู้จัดการที่ควบคุมพฤติกรรมของตัวยึดตำแหน่งส่วนท้ายของสไลด์หลัก วันที่-เวลา หมายเลขหน้าและตัวยึดตำแหน่ง child ทั้งหมด. ตัวยึดตำแหน่ง child หมายถึงตัวยึดตำแหน่งที่อยู่ในสไลด์เลย์เอาต์ที่พึ่งพาและสไลด์ที่พึ่งพา. สไลด์เลย์เอาต์ที่พึ่งพาและสไลด์ใช้และขึ้นอยู่กับสไลด์หลัก.
 type: docs
-weight: 8050
+weight: 8070
 url: /th/aspose.slides/masterslideheaderfootermanager/
 ---
 ## MasterSlideHeaderFooterManager คลาส
 
-Represents manager which holds behavior of the master slide footer, date-time, page number placeholders and all child placeholders. Child placeholders mean placeholders are contained on depending layout slides and depending slides. Depending layout slides and slides use and depend on master slide.
+แสดงถึงผู้จัดการที่ควบคุมพฤติกรรมของตัวกำหนดตำแหน่งส่วนท้ายของ master slide, วันที่-เวลา, หมายเลขหน้า และตัวกำหนดตำแหน่ง child ทั้งหมด. ตัวกำหนดตำแหน่ง child หมายถึงตัวกำหนดตำแหน่งที่อยู่ในสไลด์เลย์เอาต์ที่พึ่งพาและสไลด์ที่พึ่งพา. สไลด์เลย์เอาต์ที่พึ่งพาและสไลด์ใช้และขึ้นกับ master slide.
 
 ```csharp
 public sealed class MasterSlideHeaderFooterManager : BaseSlideHeaderFooterManager, 
@@ -19,29 +19,29 @@ public sealed class MasterSlideHeaderFooterManager : BaseSlideHeaderFooterManage
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | รับค่าที่บ่งชี้ว่ามีตัวรองรับวัน-เวลา. ReadBoolean. |
-| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | รับค่าที่บ่งชี้ว่ามีตัวรองรับส่วนท้าย. Read Boolean. |
-| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | รับค่าที่บ่งชี้ว่ามีตัวรองรับหมายเลขหน้า. ReadBoolean. |
+| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | รับค่าที่บ่งบอกว่ามีตัวกำหนดตำแหน่งวันที่และเวลาอยู่. ReadBoolean. |
+| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | รับค่าที่บ่งบอกว่ามีตัวกำหนดตำแหน่งส่วนท้ายอยู่. Read Boolean. |
+| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | รับค่าที่บ่งบอกว่ามีตัวกำหนดตำแหน่งหมายเลขหน้าอยู่. ReadBoolean. |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/masterslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | กำหนดข้อความให้กับตัวรองรับวัน-เวลาในสไลด์หลักและตัวรองรับวัน-เวลาในลูกทั้งหมด. ตัวรองรับลูกหมายถึงตัวรองรับที่อยู่ในสไลด์เลเอาต์ที่ขึ้นอยู่และสไลด์ที่ขึ้นอยู่. สไลด์เลเอาต์ที่ขึ้นอยู่และสไลด์ใช้และพึ่งพาสไลด์หลัก. |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/masterslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | เปลี่ยนการมองเห็นของตัวรองรับวัน-เวลาในสไลด์หลักและตัวรองรับวัน-เวลาในลูกทั้งหมด. ตัวรองรับลูกหมายถึงตัวรองรับที่อยู่ในสไลด์เลเอาต์ที่ขึ้นอยู่และสไลด์ที่ขึ้นอยู่. สไลด์เลเอาต์ที่ขึ้นอยู่และสไลด์ใช้และพึ่งพาสไลด์หลัก. |
-| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | กำหนดข้อความให้กับตัวรองรับวัน-เวลาในสไลด์. |
-| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | เปลี่ยนการมองเห็นของตัวรองรับวัน-เวลาในสไลด์. |
-| [SetFooterAndChildFootersText](../../aspose.slides/masterslideheaderfootermanager/setfooterandchildfooterstext)(string) | กำหนดข้อความให้กับตัวรองรับส่วนท้ายในสไลด์หลักและตัวรองรับส่วนท้ายในลูกทั้งหมด. ตัวรองรับลูกหมายถึงตัวรองรับที่อยู่ในสไลด์เลเอาต์ที่ขึ้นอยู่และสไลด์ที่ขึ้นอยู่. สไลด์เลเอาต์ที่ขึ้นอยู่และสไลด์ใช้และพึ่งพาสไลด์หลัก. |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/masterslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | เปลี่ยนการมองเห็นของตัวรองรับส่วนท้ายในสไลด์หลักและตัวรองรับส่วนท้ายในลูกทั้งหมด. ตัวรองรับลูกหมายถึงตัวรองรับที่อยู่ในสไลด์เลเอาต์ที่ขึ้นอยู่และสไลด์ที่ขึ้นอยู่. สไลด์เลเอาต์ที่ขึ้นอยู่และสไลด์ใช้และพึ่งพาสไลด์หลัก. |
-| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | กำหนดข้อความให้กับตัวรองรับส่วนท้ายในสไลด์. |
-| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | เปลี่ยนการมองเห็นของตัวรองรับส่วนท้ายในสไลด์. |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/masterslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | เปลี่ยนการมองเห็นของตัวรองรับหมายเลขหน้าสไลด์หลักและตัวรองรับหมายเลขหน้าลูกทั้งหมด. ตัวรองรับลูกหมายถึงตัวรองรับที่อยู่ในสไลด์เลเอาต์ที่ขึ้นอยู่และสไลด์ที่ขึ้นอยู่. สไลด์เลเอาต์ที่ขึ้นอยู่และสไลด์ใช้และพึ่งพาสไลด์หลัก. |
-| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | เปลี่ยนการมองเห็นของตัวรองรับหมายเลขหน้าสไลด์. |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/masterslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | ตั้งค่าข้อความให้กับตัวกำหนดตำแหน่งวันที่และเวลาของ master slide และตัวกำหนดตำแหน่งวันที่และเวลาของ child ทั้งหมด. ตัวกำหนดตำแหน่ง child หมายถึงตัวกำหนดตำแหน่งที่อยู่ในสไลด์เลย์เอาต์ที่พึ่งพาและสไลด์ที่พึ่งพา. สไลด์เลย์เอาต์ที่พึ่งพาและสไลด์ใช้และขึ้นกับ master slide. |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/masterslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | เปลี่ยนการมองเห็นของตัวกำหนดตำแหน่งวันที่และเวลาของ master slide และตัวกำหนดตำแหน่งวันที่และเวลาของ child ทั้งหมด. ตัวกำหนดตำแหน่ง child หมายถึงตัวกำหนดตำแหน่งที่อยู่ในสไลด์เลย์เอาต์ที่พึ่งพาและสไลด์ที่พึ่งพา. สไลด์เลย์เอาต์ที่พึ่งพาและสไลด์ใช้และขึ้นกับ master slide. |
+| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | ตั้งค่าข้อความให้กับตัวกำหนดตำแหน่งวันที่และเวของสไลด์. |
+| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | เปลี่ยนการมองเห็นของตัวกำหนดตำแหน่งวันที่และเวลาของสไลด์. |
+| [SetFooterAndChildFootersText](../../aspose.slides/masterslideheaderfootermanager/setfooterandchildfooterstext)(string) | ตั้งค่าข้อความให้กับตัวกำหนดตำแหน่งส่วนท้ายของ master slide และตัวกำหนดตำแหน่งส่วนท้ายของ child ทั้งหมด. ตัวกำหนดตำแหน่ง child หมายถึงตัวกำหนดตำแหน่งที่อยู่ในสไลด์เลย์เอาต์ที่พึ่งพาและสไลด์ที่พึ่งพา. สไลด์เลย์เอาต์ที่พึ่งพาและสไลด์ใช้และขึ้นกับ master slide. |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/masterslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | เปลี่ยนการมองเห็นของตัวกำหนดตำแหน่งส่วนท้ายของ master slide และตัวกำหนดตำแหน่งส่วนท้ายของ child ทั้งหมด. ตัวกำหนดตำแหน่ง child หมายถึงตัวกำหนดตำแหน่งที่อยู่ในสไลด์เลย์เอาต์ที่พึ่งพาและสไลด์ที่พึ่งพา. สไลด์เลย์เอาต์ที่พึ่งพาและสไลด์ใช้และขึ้นกับ master slide. |
+| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | ตั้งค่าข้อความให้กับตัวกำหนดตำแหน่งส่วนท้ายของสไลด์. |
+| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | เปลี่ยนการมองเห็นของตัวกำหนดตำแหน่งส่วนท้ายของสไลด์. |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/masterslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | เปลี่ยนการมองเห็นของตัวกำหนดตำแหน่งหมายเลขหน้าของ master slide และตัวกำหนดตำแหน่งหมายเลขหน้าของ child ทั้งหมด. ตัวกำหนดตำแหน่ง child หมายถึงตัวกำหนดตำแหน่งที่อยู่ในสไลด์เลย์เอาต์ที่พึ่งพาและสไลด์ที่พึ่งพา. สไลด์เลย์เอาต์ที่พึ่งพาและสไลด์ใช้และขึ้นกับ master slide. |
+| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | เปลี่ยนการมองเห็นของตัวกำหนดตำแหน่งหมายเลขหน้าของสไลด์. |
 
 ### ดูเพิ่มเติม
 
 * คลาส [BaseSlideHeaderFooterManager](../baseslideheaderfootermanager)
-* อินเทอร์เฟซ [IMasterSlideHeaderFooterManager](../imasterslideheaderfootermanager)
+* อินเทอร์เฟส [IMasterSlideHeaderFooterManager](../imasterslideheaderfootermanager)
 * เนมสเปซ [Aspose.Slides](../../aspose.slides)
 * แอสเซมบลี [Aspose.Slides](../../)
 

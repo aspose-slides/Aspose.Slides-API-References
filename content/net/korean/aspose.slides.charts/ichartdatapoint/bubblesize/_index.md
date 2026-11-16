@@ -1,20 +1,20 @@
 ---
 title: BubbleSize
-second_title: Aspose.Sildes for .NET API 참조
-description: 차트 데이터 포인트의 버블 크기를 반환합니다. 읽기 전용 IDoubleChartValueaspose.slides.charts/idoublechartvalue.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 차트 데이터 포인트의 버블 크기를 가져옵니다. 읽기 전용 IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
 weight: 20
 url: /ko/aspose.slides.charts/ichartdatapoint/bubblesize/
 ---
 ## IChartDataPoint.BubbleSize 속성
 
-차트 데이터 포인트의 버블 크기를 반환합니다. 읽기 전용 [`IDoubleChartValue`](../../idoublechartvalue).
+차트 데이터 포인트의 버블 크기를 가져옵니다. 읽기 전용 [`IDoubleChartValue`](../../idoublechartvalue).
 
 ```csharp
 public IDoubleChartValue BubbleSize { get; }
 ```
 
-### 참고
+### 참조
 
 * 인터페이스 [IDoubleChartValue](../../idoublechartvalue)
 * 인터페이스 [IChartDataPoint](../../ichartdatapoint)

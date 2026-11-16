@@ -1,12 +1,12 @@
 ---
 title: Metered
-second_title: Référence API Aspose.Sildes pour .NET
+second_title: Aspose.Sildes pour la référence API .NET
 description: Fournit des méthodes pour définir la clé mesurée.
 type: docs
-weight: 9080
+weight: 9100
 url: /fr/aspose.slides/metered/
 ---
-## classe Metered
+## Metered classe
 
 Fournit des méthodes pour définir la clé mesurée.
 
@@ -16,19 +16,19 @@ public class Metered
 
 ## Constructeurs
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
 | [Metered](metered)() | Initialise une nouvelle instance de cette classe. |
 
 ## Méthodes
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
 | [GetProductName](../../aspose.slides/metered/getproductname)() |  |
-| [SetMeteredKey](../../aspose.slides/metered/setmeteredkey)(string, string) | Définit la clé publique et privée mesurée. Si vous achetez une licence metered, au démarrage de l’application, cette API doit être appelée ; normalement, cela suffit. Cependant, si le téléchargement des données de consommation échoue constamment et dépasse 24 heures, la licence passera en statut d’évaluation. Pour éviter ce cas, vous devez vérifier régulièrement le statut de la licence et, si elle est en statut d’évaluation, appeler à nouveau cette API. |
+| [SetMeteredKey](../../aspose.slides/metered/setmeteredkey)(string, string) | Définit la clé publique et privée mesurée. Si vous achetez une licence mesurée, au démarrage de l'application, cette API doit être appelée, normalement, cela suffit. Cependant, si l’envoi des données de consommation échoue toujours et dépasse 24 heures, la licence sera mise en statut d’évaluation ; pour éviter ce cas, vous devez vérifier régulièrement le statut de la licence, et s’il est en statut d’évaluation, appeler de nouveau cette API. |
 | static [GetConsumptionCredit](../../aspose.slides/metered/getconsumptioncredit)() | Obtient le crédit de consommation |
 | static [GetConsumptionQuantity](../../aspose.slides/metered/getconsumptionquantity)() | Obtient la taille du fichier de consommation |
-| static [IsMeteredLicensed](../../aspose.slides/metered/ismeteredlicensed)() | Vérifie si Metered est licencié |
+| static [IsMeteredLicensed](../../aspose.slides/metered/ismeteredlicensed)() | Vérifie si la licence mesurée est active |
 
 ### Exemples
 
@@ -47,7 +47,7 @@ Dim matered As Metered = New Metered
 matered.SetMeteredKey("PublicKey", "PrivateKey")
 ```
 
-le fichier jar du composant:
+le fichier jar du composant :
 
 ```csharp
 Metered matered = new Metered();

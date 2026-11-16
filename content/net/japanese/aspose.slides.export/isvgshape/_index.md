@@ -3,7 +3,7 @@ title: ISvgShape
 second_title: Aspose.Sildes for .NET API リファレンス
 description: SVG シェイプのオプションを表します。
 type: docs
-weight: 4110
+weight: 4130
 url: /ja/aspose.slides.export/isvgshape/
 ---
 ## ISvgShape インターフェイス
@@ -16,13 +16,13 @@ public interface ISvgShape
 
 ## プロパティ
 
-| Name | 説明 |
+| 名前 | 説明 |
 | --- | --- |
-| [Id](../../aspose.slides.export/isvgshape/id) { get; set; } | シェイプの id を設定または取得します |
+| [Id](../../aspose.slides.export/isvgshape/id) { get; set; } | シェイプの ID を設定または取得します |
 
 ## メソッド
 
-| Name | 説明 |
+| 名前 | 説明 |
 | --- | --- |
 | [SetEventHandler](../../aspose.slides.export/isvgshape/seteventhandler)(SvgEvent, string) | シェイプのイベントハンドラを設定します |
 

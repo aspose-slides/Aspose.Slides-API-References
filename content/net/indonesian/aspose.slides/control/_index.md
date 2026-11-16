@@ -1,14 +1,14 @@
 ---
 title: Control
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili sebuah kontrol ActiveX.
+description: Mewakili kontrol ActiveX.
 type: docs
-weight: 2690
+weight: 2710
 url: /id/aspose.slides/control/
 ---
-## Kelas Control
+## Control kelas
 
-Mewakili sebuah kontrol ActiveX.
+Mewakili kontrol ActiveX.
 
 ```csharp
 public class Control : DomObject<ControlCollection>, IControl
@@ -16,15 +16,15 @@ public class Control : DomObject<ControlCollection>, IControl
 
 ## Properti
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
 | [ActiveXControlBinary](../../aspose.slides/control/activexcontrolbinary) { get; } | Menentukan keberlangsungan kontrol ActiveX ketika metode yang digunakan untuk menyimpan adalah PersistStream, PersistStreamInit, atau PersistStorage. |
-| [ClassId](../../aspose.slides/control/classid) { get; set; } | Mendapatkan id kelas kontrol ini. Hanya-baca Guid. |
+| [ClassId](../../aspose.slides/control/classid) { get; set; } | Mendapatkan id kelas kontrol ini. Baca-saja Guid. |
 | [Frame](../../aspose.slides/control/frame) { get; set; } | Mengembalikan atau mengatur bingkai kontrol. Baca/tulis [`IShapeFrame`](../ishapeframe). |
 | [Name](../../aspose.slides/control/name) { get; set; } | Mendapatkan atau mengatur nama kontrol ini. Baca/tulis String. |
-| [Persistence](../../aspose.slides/control/persistence) { get; } | Mendapatkan metode yang digunakan untuk menyimpan properti kontrol ActiveX. Hanya-baca [`PersistenceType`](../persistencetype). |
-| [Properties](../../aspose.slides/control/properties) { get; } | Mengembalikan koleksi properti ActiveX. Catatan: Aspose.Slides hanya mendukung properti ActiveX berbasis XML. Jika properti disimpan dalam format biner, properti ini akan mengembalikan null. Hanya-baca [`IControlPropertiesCollection`](../icontrolpropertiescollection). |
-| [SubstitutePictureFormat](../../aspose.slides/control/substitutepictureformat) { get; } | Mengembalikan objek properti isi gambar Kontrol. Hanya-baca [`IPictureFillFormat`](../ipicturefillformat). |
+| [Persistence](../../aspose.slides/control/persistence) { get; } | Mendapatkan metode yang digunakan untuk menyimpan properti kontrol ActiveX. Baca-saja [`PersistenceType`](../persistencetype). |
+| [Properties](../../aspose.slides/control/properties) { get; } | Mengembalikan koleksi properti ActiveX. Catatan: Aspose.Slides hanya mendukung properti ActiveX berbasis XML. Jika properti disimpan dalam format biner, properti ini akan mengembalikan null. Baca-saja [`IControlPropertiesCollection`](../icontrolpropertiescollection). |
+| [SubstitutePictureFormat](../../aspose.slides/control/substitutepictureformat) { get; } | Mengembalikan objek properti pengisian gambar kontrol. Baca-saja [`IPictureFillFormat`](../ipicturefillformat). |
 
 ### Lihat Juga
 

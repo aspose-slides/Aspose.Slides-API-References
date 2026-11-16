@@ -1,14 +1,14 @@
 ---
 title: ChartDataWorkbook
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 埋め込み Excel ワークブックへのアクセスを提供します
+description: 埋め込まれた Excel ワークブックへのアクセスを提供します
 type: docs
-weight: 1380
+weight: 1390
 url: /ja/aspose.slides.charts/chartdataworkbook/
 ---
 ## ChartDataWorkbook クラス
 
-埋め込み Excel ワークブックへのアクセスを提供します
+埋め込まれた Excel ワークブックへのアクセスを提供します
 
 ```csharp
 public class ChartDataWorkbook : DomObject<ChartData>, IChartDataWorkbook
@@ -16,13 +16,13 @@ public class ChartDataWorkbook : DomObject<ChartData>, IChartDataWorkbook
 
 ## プロパティ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
 | [Worksheets](../../aspose.slides.charts/chartdataworkbook/worksheets) { get; } | ワークシートのコレクションを取得します。 |
 
 ## メソッド
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
 | [CalculateFormulas](../../aspose.slides.charts/chartdataworkbook/calculateformulas)() | ワークブック内のすべての数式を計算し、対応するセルの値を更新します。 |
 | [Clear](../../aspose.slides.charts/chartdataworkbook/clear)(int) | シート上のすべてのセルの値をクリアします。 |
@@ -31,13 +31,13 @@ public class ChartDataWorkbook : DomObject<ChartData>, IChartDataWorkbook
 | [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_3)(int, string, object) | チャートの系列またはカテゴリに使用できるセルを取得します。 |
 | [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_4)(string, int, int) | チャートの系列またはカテゴリに使用できるセルを取得します。 |
 | [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_1)(int, int, int, object) | チャートの系列またはカテゴリに使用できるセルを取得します。 |
-| [GetCellCollection](../../aspose.slides.charts/chartdataworkbook/getcellcollection)(string, bool) | セットのセルを取得します。 |
+| [GetCellCollection](../../aspose.slides.charts/chartdataworkbook/getcellcollection)(string, bool) | セルの集合を取得します。 |
 
-### 関連項目
+### 参照
 
 * クラス [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * クラス [ChartData](../chartdata)
-* インターフェイス [IChartDataWorkbook](../ichartdataworkbook)
+* インターフェース [IChartDataWorkbook](../ichartdataworkbook)
 * 名前空間 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * アセンブリ [Aspose.Slides](../../)
 

@@ -3,7 +3,7 @@ title: PathSegment
 second_title: Aspose.Sildes の .NET API リファレンス
 description: GeometryShape のグラフィック パスのセグメントを表します
 type: docs
-weight: 9340
+weight: 9360
 url: /ja/aspose.slides/pathsegment/
 ---
 ## PathSegment クラス
@@ -18,7 +18,7 @@ public sealed class PathSegment : IPathSegment
 
 | 名前 | 説明 |
 | --- | --- |
-| [PathCommand](../../aspose.slides/pathsegment/pathcommand) { get; } | セグメントのパスタイプ |
+| [PathCommand](../../aspose.slides/pathsegment/pathcommand) { get; } | セグメントのパスの種類 |
 | [SegmentData](../../aspose.slides/pathsegment/segmentdata) { get; } | セグメントのパスデータ |
 
 ### 参照

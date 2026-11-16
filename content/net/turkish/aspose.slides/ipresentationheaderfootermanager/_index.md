@@ -1,9 +1,9 @@
 ---
 title: IPresentationHeaderFooterManager
 second_title: Aspose.Sildes for .NET API Referansı
-description: Sunumun tüm alt bilgi tarih-saat ve sayfa numarası yer tutucularının davranışını tutan yöneticiyi temsil eder.
+description: Sunumda bulunan tüm alt bilgi, tarih-saat ve sayfa numarası yer tutucularının davranışını tutan yöneticiyi temsil eder.
 type: docs
-weight: 6780
+weight: 6800
 url: /tr/aspose.slides/ipresentationheaderfootermanager/
 ---
 ## IPresentationHeaderFooterManager arayüz
@@ -18,20 +18,20 @@ public interface IPresentationHeaderFooterManager : IBaseHeaderFooterManager
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIBaseHeaderFooterManager](../../aspose.slides/ipresentationheaderfootermanager/asibaseheaderfootermanager) { get; } | IBaseHeaderFooterManager arabirimini döndürür. |
+| [AsIBaseHeaderFooterManager](../../aspose.slides/ipresentationheaderfootermanager/asibaseheaderfootermanager) { get; } | IBaseHeaderFooterManager arayüzünü döndürür. |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [SetAllDateTimesText](../../aspose.slides/ipresentationheaderfootermanager/setalldatetimestext)(string) | Ana slaytlar, düzen slaytları ve slaytlar dahil olmak üzere tüm tarih-saat yer tutucularına metin atar. |
-| [SetAllDateTimesVisibility](../../aspose.slides/ipresentationheaderfootermanager/setalldatetimesvisibility)(bool) | Ana slaytlar, düzen slaytları ve slaytlar dahil olmak üzere tüm tarih-saat yer tutucularının görünürlüğünü değiştirir. |
-| [SetAllFootersText](../../aspose.slides/ipresentationheaderfootermanager/setallfooterstext)(string) | Ana slaytlar, düzen slaytları ve slaytlar dahil olmak üzere tüm alt bilgi yer tutucularına metin atar. |
-| [SetAllFootersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallfootersvisibility)(bool) | Ana slaytlar, düzen slaytları ve slaytlar dahil olmak üzere tüm alt bilgi yer tutucularının görünürlüğünü değiştirir. |
-| [SetAllHeadersText](../../aspose.slides/ipresentationheaderfootermanager/setallheaderstext)(string) | Not ana şablonu, not slaytları ve el ilanı ana şablonu dahil olmak üzere tüm başlık yer tutucularına metin atar. |
-| [SetAllHeadersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallheadersvisibility)(bool) | Not ana şablonu, not slaytları ve el ilanı ana şablonu dahil olmak üzere tüm başlık yer tutucularının görünürlüğünü değiştirir. |
-| [SetAllSlideNumbersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallslidenumbersvisibility)(bool) | Ana slaytlar, düzen slaytları ve slaytlar dahil olmak üzere tüm sayfa numarası yer tutucularının görünürlüğünü değiştirir. |
-| [SetVisibilityOnAllTitleSlides](../../aspose.slides/ipresentationheaderfootermanager/setvisibilityonalltitleslides)(bool) | Tüm başlık slaytları ve ilk düzen slaytı için alt bilgi, tarih-saat ve sayfa numarası yer tutucularının görünürlüğünü değiştirir. Başlık slaytları – ilk düzen slaytına dayalı slaytlar (bu ilk düzenin tipine bakılmaksızın). |
+| [SetAllDateTimesText](../../aspose.slides/ipresentationheaderfootermanager/setalldatetimestext)(string) | Ana slaytlar, düzen slaytları ve slaytlar dahil tüm tarih-saat yer tutucularına metin ayarlar. |
+| [SetAllDateTimesVisibility](../../aspose.slides/ipresentationheaderfootermanager/setalldatetimesvisibility)(bool) | Ana slaytlar, düzen slaytları ve slaytlar dahil tüm tarih-saat yer tutucularının görünürlüğünü değiştirir. |
+| [SetAllFootersText](../../aspose.slides/ipresentationheaderfootermanager/setallfooterstext)(string) | Ana slaytlar, düzen slaytları ve slaytlar dahil tüm alt bilgi yer tutucularına metin ayarlar. |
+| [SetAllFootersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallfootersvisibility)(bool) | Ana slaytlar, düzen slaytları ve slaytlar dahil tüm alt bilgi yer tutucularının görünürlüğünü değiştirir. |
+| [SetAllHeadersText](../../aspose.slides/ipresentationheaderfootermanager/setallheaderstext)(string) | Notlar ana, not slaytları ve dağıtım ana dahil tüm üst bilgi yer tutucularına metin ayarlar. |
+| [SetAllHeadersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallheadersvisibility)(bool) | Notlar ana, not slaytları ve dağıtım ana dahil tüm üst bilgi yer tutucularının görünürlüğünü değiştirir. |
+| [SetAllSlideNumbersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallslidenumbersvisibility)(bool) | Ana slaytlar, düzen slaytları ve slaytlar dahil tüm sayfa numarası yer tutucularının görünürlüğünü değiştirir. |
+| [SetVisibilityOnAllTitleSlides](../../aspose.slides/ipresentationheaderfootermanager/setvisibilityonalltitleslides)(bool) | Tüm başlık slaytları ve ilk düzen slaytı için alt bilgi, tarih-saat ve sayfa numarası yer tutucularının görünürlüğünü değiştirir. Başlık slaytları – ilk düzen slaytına dayalı slaytlar (bu ilk düzenin türünden bağımsız). |
 
 ### Ayrıca Bakınız
 

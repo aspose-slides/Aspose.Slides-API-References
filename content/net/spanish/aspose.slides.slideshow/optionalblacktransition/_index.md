@@ -1,14 +1,14 @@
 ---
 title: OptionalBlackTransition
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Efecto de transición de diapositiva opcional en negro.
+description: Efecto de transición de diapositiva negra opcional.
 type: docs
-weight: 10260
+weight: 10280
 url: /es/aspose.slides.slideshow/optionalblacktransition/
 ---
 ## OptionalBlackTransition clase
 
-Efecto de transición de diapositiva opcional en negro.
+Optional black slide transition effect.
 
 ```csharp
 public class OptionalBlackTransition : TransitionValueBase, IOptionalBlackTransition
@@ -25,7 +25,7 @@ public class OptionalBlackTransition : TransitionValueBase, IOptionalBlackTransi
 | Nombre | Descripción |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Determina si las dos instancias de TransitionValueBase son iguales. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Funciona como una función hash para un tipo particular, adecuada para su uso en algoritmos de hash y estructuras de datos como una tabla hash. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Sirve como una función hash para un tipo específico, adecuada para su uso en algoritmos de hash y estructuras de datos como una tabla hash. |
 
 ### Ver también
 

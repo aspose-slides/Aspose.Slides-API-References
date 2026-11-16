@@ -3,7 +3,7 @@ title: RowCollection
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Stelt een tabelrijcollectie voor.
 type: docs
-weight: 9720
+weight: 9740
 url: /nl/aspose.slides/rowcollection/
 ---
 ## RowCollection klasse
@@ -18,18 +18,18 @@ public sealed class RowCollection : DomObject<Table>, IRowCollection
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Count](../../aspose.slides/rowcollection/count) { get; } | Haalt het aantal rijen op dat daadwerkelijk in de collectie zit. Alleen lezen Int32. |
-| [IsSynchronized](../../aspose.slides/rowcollection/issynchronized) { get; } | Retourneert een waarde die aangeeft of toegang tot de collectie gesynchroniseerd is (thread-safe). Alleen lezen Boolean. |
-| [Item](../../aspose.slides/rowcollection/item) { get; } | Retourneert de rij op de opgegeven index. Alleen lezen [`Row`](../row). |
-| [SyncRoot](../../aspose.slides/rowcollection/syncroot) { get; } | Retourneert een synchronisatieroot. Alleen lezen Object. |
+| [Count](../../aspose.slides/rowcollection/count) { get; } | Haalt het aantal rijen op dat daadwerkelijk in de collectie zit. Alleen-lezen Int32. |
+| [IsSynchronized](../../aspose.slides/rowcollection/issynchronized) { get; } | Geeft een waarde terug die aangeeft of de toegang tot de collectie gesynchroniseerd is (thread-safe). Alleen-lezen Boolean. |
+| [Item](../../aspose.slides/rowcollection/item) { get; } | Geeft de rij op de opgegeven index terug. Alleen-lezen [`Row`](../row). |
+| [SyncRoot](../../aspose.slides/rowcollection/syncroot) { get; } | Geeft een synchronisatiewortel terug. Alleen-lezen Object. |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
 | [AddClone](../../aspose.slides/rowcollection/addclone)(IRow, bool) | Maakt een kopie van de opgegeven sjabloonrij en voegt deze onderaan een tabel in. |
-| [CopyTo](../../aspose.slides/rowcollection/copyto)(Array, int) | Kopieert alle elementen uit de collectie naar de opgegeven array. |
-| [GetEnumerator](../../aspose.slides/rowcollection/getenumerator)() | Retourneert een enumerator die door de collectie itereert. |
+| [CopyTo](../../aspose.slides/rowcollection/copyto)(Array, int) | Kopieert alle elementen van de collectie naar de opgegeven array. |
+| [GetEnumerator](../../aspose.slides/rowcollection/getenumerator)() | Geeft een enumerator terug die door de collectie itereren. |
 | [InsertClone](../../aspose.slides/rowcollection/insertclone)(int, IRow, bool) | Maakt een kopie van de opgegeven sjabloonrij en voegt deze in op de opgegeven positie in een tabel. |
 | [RemoveAt](../../aspose.slides/rowcollection/removeat)(int, bool) | Verwijdert een rij op de opgegeven positie uit een tabel. |
 

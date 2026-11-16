@@ -1,14 +1,14 @@
 ---
 title: BlackWhiteConversionMode
 second_title: Aspose.Sildes for .NET API 参考
-description: 提供用于控制幻灯片图像如何转换为二值图像的选项。
+description: 提供控制幻灯片图像如何转换为二值图像的选项。
 type: docs
-weight: 3720
+weight: 3740
 url: /zh/aspose.slides.export/blackwhiteconversionmode/
 ---
 ## BlackWhiteConversionMode 枚举
 
-提供用于控制幻灯片图像如何转换为二值图像的选项。
+提供控制幻灯片图像如何转换为二值图像的选项。
 
 ```csharp
 public enum BlackWhiteConversionMode
@@ -18,7 +18,7 @@ public enum BlackWhiteConversionMode
 
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
-| Default | `0` | 指定不使用转换算法。将使用 TIFF 编解码器中实现的算法。（默认） |
+| Default | `0` | 指定不使用转换算法。将使用 TIFF 编解码器中实现的算法。(默认) |
 | Dithering | `1` | 指定抖动算法（Floyd-Steinberg）。 |
 | DitheringFloydSteinberg | `2` | 指定 Floyd-Steinberg 抖动算法。 |
 | Auto | `3` | 指定自动计算的阈值算法（Otsu）。 |

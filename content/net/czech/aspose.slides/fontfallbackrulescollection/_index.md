@@ -1,14 +1,14 @@
 ---
 title: FontFallBackRulesCollection
-second_title: Aspose.Sildes pro .NET referenci API
-description: Představuje kolekci pravidel FontFallBack definovaných uživatelem
+second_title: Aspose.Sildes pro .NET API reference
+description: Reprezentuje kolekci pravidel FontFallBack definovaných uživatelem
 type: docs
-weight: 4850
+weight: 4870
 url: /cs/aspose.slides/fontfallbackrulescollection/
 ---
 ## FontFallBackRulesCollection třída
 
-Představuje kolekci pravidel FontFallBack, definovaných uživatelem
+Reprezentuje kolekci pravidel FontFallBack, definovaných uživatelem
 
 ```csharp
 public class FontFallBackRulesCollection : IFontFallBackRulesCollection
@@ -24,18 +24,18 @@ public class FontFallBackRulesCollection : IFontFallBackRulesCollection
 
 | Název | Popis |
 | --- | --- |
-| [Count](../../aspose.slides/fontfallbackrulescollection/count) { get; } | Získá počet pravidel skutečně obsažených v kolekci. Pouze pro čtení Int32. |
-| [IsSynchronized](../../aspose.slides/fontfallbackrulescollection/issynchronized) { get; } | Vrací hodnotu udávající, zda je přístup ke kolekci synchronizován (vláknově bezpečný). Pouze pro čtení Boolean. |
-| [Item](../../aspose.slides/fontfallbackrulescollection/item) { get; } | Získá pravidlo na zadaném indexu. Pouze pro čtení [`IFontFallBackRule`](../ifontfallbackrule). |
-| [SyncRoot](../../aspose.slides/fontfallbackrulescollection/syncroot) { get; } | Vrací kořen synchronizace. Pouze pro čtení Object. |
+| [Count](../../aspose.slides/fontfallbackrulescollection/count) { get; } | Získá počet pravidel skutečně obsažených v kolekci. Pouze ke čtení Int32. |
+| [IsSynchronized](../../aspose.slides/fontfallbackrulescollection/issynchronized) { get; } | Vrací hodnotu označující, zda je přístup do kolekce synchronizován (vláknově bezpečný). Pouze ke čtení Boolean. |
+| [Item](../../aspose.slides/fontfallbackrulescollection/item) { get; } | Získá pravidlo na zadaném indexu. Pouze ke čtení [`IFontFallBackRule`](../ifontfallbackrule). |
+| [SyncRoot](../../aspose.slides/fontfallbackrulescollection/syncroot) { get; } | Vrací kořen synchronizace. Pouze ke čtení Object. |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| [Add](../../aspose.slides/fontfallbackrulescollection/add)(IFontFallBackRule) | Přidá zadané pravidlo FallBack na konec kolekce. |
+| [Add](../../aspose.slides/fontfallbackrulescollection/add)(IFontFallBackRule) | Přidá určené pravidlo FallBack na konec kolekce. |
 | [CopyTo](../../aspose.slides/fontfallbackrulescollection/copyto)(Array, int) | Zkopíruje všechny prvky z kolekce do zadaného pole. |
-| [GetEnumerator](../../aspose.slides/fontfallbackrulescollection/getenumerator)() | Vrací enumerátor, který prochází kolekcí. |
+| [GetEnumerator](../../aspose.slides/fontfallbackrulescollection/getenumerator)() | Vrací enumerátor, který prochází kolekci. |
 | [Remove](../../aspose.slides/fontfallbackrulescollection/remove)(IFontFallBackRule) | Odstraní první výskyt konkrétního pravidla FallBack z kolekce. |
 
 ### Viz také

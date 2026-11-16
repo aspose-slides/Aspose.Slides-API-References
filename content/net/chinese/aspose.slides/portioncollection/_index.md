@@ -1,14 +1,14 @@
 ---
 title: PortionCollection
 second_title: Aspose.Sildes .NET API 参考
-description: 表示一个 Portion 集合。
+description: 表示一个部分的集合。
 type: docs
-weight: 9470
+weight: 9490
 url: /zh/aspose.slides/portioncollection/
 ---
 ## PortionCollection 类
 
-表示一组 Portion 的集合。
+表示一个部分的集合。
 
 ```csharp
 public sealed class PortionCollection : DomObject<Paragraph>, IPortionCollection
@@ -26,17 +26,17 @@ public sealed class PortionCollection : DomObject<Paragraph>, IPortionCollection
 
 | 名称 | 描述 |
 | --- | --- |
-| [Add](../../aspose.slides/portioncollection/add)(IPortion) | 将 Portion 添加到集合的末尾。 |
+| [Add](../../aspose.slides/portioncollection/add)(IPortion) | 在集合末尾添加一个 Portion。 |
 | [Clear](../../aspose.slides/portioncollection/clear)() | 从集合中移除所有元素。 |
 | [Contains](../../aspose.slides/portioncollection/contains)(IPortion) | 确定 ICollection 是否包含特定值。 |
 | [CopyTo](../../aspose.slides/portioncollection/copyto)(IPortion[], int) | 将 ICollection 的元素复制到数组中，从特定的数组索引开始。 |
-| [GetEnumerator](../../aspose.slides/portioncollection/getenumerator)() | 返回一个遍历集合的枚举器。 |
+| [GetEnumerator](../../aspose.slides/portioncollection/getenumerator)() | 返回一个枚举器，用于遍历集合。 |
 | [IndexOf](../../aspose.slides/portioncollection/indexof)(IPortion) | 确定 IList 中特定项的索引。 |
-| [Insert](../../aspose.slides/portioncollection/insert)(int, IPortion) | 在指定索引处将 Portion 插入集合。 |
-| [Remove](../../aspose.slides/portioncollection/remove)(IPortion) | 从 ICollection 中移除特定对象的第一次出现。 |
+| [Insert](../../aspose.slides/portioncollection/insert)(int, IPortion) | 在指定索引处向集合插入一个 Portion。 |
+| [Remove](../../aspose.slides/portioncollection/remove)(IPortion) | 从 ICollection 中移除第一个出现的特定对象。 |
 | [RemoveAt](../../aspose.slides/portioncollection/removeat)(int) | 移除集合中指定索引处的元素。 |
 
-### 参见
+### 另见
 
 * 类 [DomObject&lt;TParent&gt;](../domobject-1)
 * 类 [Paragraph](../paragraph)

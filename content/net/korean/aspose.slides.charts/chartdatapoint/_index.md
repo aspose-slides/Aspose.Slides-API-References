@@ -3,7 +3,7 @@ title: ChartDataPoint
 second_title: Aspose.Sildes for .NET API 참조
 description: 시리즈 데이터 포인트를 나타냅니다.
 type: docs
-weight: 1330
+weight: 1340
 url: /ko/aspose.slides.charts/chartdatapoint/
 ---
 ## ChartDataPoint 클래스
@@ -16,25 +16,29 @@ public class ChartDataPoint : IChartDataPoint
 
 ## 속성
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
 | [ActualHeight](../../aspose.slides.charts/chartdatapoint/actualheight) { get; } | 차트 요소의 실제 높이를 지정합니다. 실제 값을 얻으려면 먼저 IChart.ValidateChartLayout() 메서드를 호출하십시오. 읽기 전용 Single. |
 | [ActualWidth](../../aspose.slides.charts/chartdatapoint/actualwidth) { get; } | 차트 요소의 실제 너비를 지정합니다. 실제 값을 얻으려면 먼저 IChart.ValidateChartLayout() 메서드를 호출하십시오. 읽기 전용 Single. |
-| [ActualX](../../aspose.slides.charts/chartdatapoint/actualx) { get; } | 차트 요소의 실제 x 위치(왼쪽)를 차트의 왼쪽 상단 모서리를 기준으로 지정합니다. 실제 값을 얻으려면 먼저 IChart.ValidateChartLayout() 메서드를 호출하십시오. 읽기 전용 Single. |
-| [ActualY](../../aspose.slides.charts/chartdatapoint/actualy) { get; } | 차트 요소의 실제 상단을 차트의 왼쪽 상단 모서리를 기준으로 지정합니다. 실제 값을 얻으려면 먼저 IChart.ValidateChartLayout() 메서드를 호출하십시오. 읽기 전용 Single. |
+| [ActualX](../../aspose.slides.charts/chartdatapoint/actualx) { get; } | 차트 요소가 차트의 왼쪽 상단 모서리를 기준으로 하는 실제 x 위치(왼쪽)를 지정합니다. 실제 값을 얻으려면 먼저 IChart.ValidateChartLayout() 메서드를 호출하십시오. 읽기 전용 Single. |
+| [ActualY](../../aspose.slides.charts/chartdatapoint/actualy) { get; } | 차트 요소가 차트의 왼쪽 상단 모서리를 기준으로 하는 실제 top을 지정합니다. 실제 값을 얻으려면 먼저 IChart.ValidateChartLayout() 메서드를 호출하십시오. 읽기 전용 Single. |
 | [BubbleSize](../../aspose.slides.charts/chartdatapoint/bubblesize) { get; } | BubbleSize. 읽기 전용 [`IDoubleChartValue`](../idoublechartvalue). |
+| [CachedBubbleSize](../../aspose.slides.charts/chartdatapoint/cachedbubblesize) { get; } | 차트 데이터 포인트의 캐시된 버블 크기를 가져옵니다. 읽기 전용 [`ICachedChartValue`](../icachedchartvalue). |
+| [CachedValue](../../aspose.slides.charts/chartdatapoint/cachedvalue) { get; } | 차트 데이터 포인트의 캐시된 값을 가져옵니다. 읽기 전용 [`ICachedChartValue`](../icachedchartvalue). |
+| [CachedXValue](../../aspose.slides.charts/chartdatapoint/cachedxvalue) { get; } | 차트 데이터 포인트의 캐시된 X 값을 가져옵니다. 읽기 전용 [`ICachedChartValue`](../icachedchartvalue). |
+| [CachedYValue](../../aspose.slides.charts/chartdatapoint/cachedyvalue) { get; } | 차트 데이터 포인트의 캐시된 Y 값을 가져옵니다. 읽기 전용 [`ICachedChartValue`](../icachedchartvalue). |
 | [ColorValue](../../aspose.slides.charts/chartdatapoint/colorvalue) { get; } | 차트 데이터 포인트의 색상 값을 반환합니다. 지도 차트에서 사용됩니다. 읽기 전용 [`IDoubleChartValue`](../idoublechartvalue). |
 | [DataPointLevels](../../aspose.slides.charts/chartdatapoint/datapointlevels) { get; } | 데이터 포인트 레벨의 컨테이너를 반환합니다. Treeamp 및 Sunburst 시리즈에 적용됩니다. 데이터 포인트 레벨 인덱스는 0부터 시작합니다. |
 | [ErrorBarsCustomValues](../../aspose.slides.charts/chartdatapoint/errorbarscustomvalues) { get; } | Custom 값 유형인 경우 시리즈 오류 막대 값을 나타냅니다. 읽기 전용 [`IErrorBarsCustomValues`](../ierrorbarscustomvalues). |
-| [Explosion](../../aspose.slides.charts/chartdatapoint/explosion) { get; set; } | 파이 중심에서 데이터 포인트가 이동할 양을 지정합니다. 읽기/쓰기 Int32. |
+| [Explosion](../../aspose.slides.charts/chartdatapoint/explosion) { get; set; } | 데이터 포인트를 파이 중심에서 이동시킬 양을 지정합니다. 읽기/쓰기 Int32. |
 | [Format](../../aspose.slides.charts/chartdatapoint/format) { get; set; } | 서식 속성을 나타냅니다. 읽기/쓰기 [`IFormat`](../iformat). |
 | [Index](../../aspose.slides.charts/chartdatapoint/index) { get; } |  |
-| [InvertIfNegative](../../aspose.slides.charts/chartdatapoint/invertifnegative) { get; set; } | 값이 음수인 경우 데이터 포인트의 색상을 반전시킵니다. 읽기/쓰기 Boolean. |
+| [InvertIfNegative](../../aspose.slides.charts/chartdatapoint/invertifnegative) { get; set; } | 값이 음수일 경우 데이터 포인트가 색상을 반전하도록 지정합니다. 읽기/쓰기 Boolean. |
 | [IsBubble3D](../../aspose.slides.charts/chartdatapoint/isbubble3d) { get; set; } | 버블에 3D 효과가 적용되도록 지정합니다. 읽기/쓰기 Boolean. |
 | [Label](../../aspose.slides.charts/chartdatapoint/label) { get; } | Label. 읽기 전용 [`IDataLabel`](../idatalabel). |
 | [Marker](../../aspose.slides.charts/chartdatapoint/marker) { get; } | 데이터 마커를 지정합니다. 읽기 전용 [`IMarker`](../imarker). |
-| [RelatedLegendEntry](../../aspose.slides.charts/chartdatapoint/relatedlegendentry) { get; } | 다음 목록에 있는 차트 유형인 경우 해당 범례 항목의 속성을 나타냅니다: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. 읽기 전용 [`ILegendEntryProperties`](../ilegendentryproperties). |
-| [SetAsTotal](../../aspose.slides.charts/chartdatapoint/setastotal) { get; set; } | 데이터 포인트를 총계로 설정합니다. Waterfall 시리즈 유형에만 적용됩니다. |
+| [RelatedLegendEntry](../../aspose.slides.charts/chartdatapoint/relatedlegendentry) { get; } | 다음 목록의 차트 유형인 경우 해당 범례 항목의 속성: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. 읽기 전용 [`ILegendEntryProperties`](../ilegendentryproperties). |
+| [SetAsTotal](../../aspose.slides.charts/chartdatapoint/setastotal) { get; set; } | 데이터 포인트를 총합으로 설정합니다. Waterfall 시리즈 유형에만 적용됩니다. |
 | [SizeValue](../../aspose.slides.charts/chartdatapoint/sizevalue) { get; } | 차트 데이터 포인트의 크기 값을 반환합니다. Treemap 및 Sunburst 차트에서 사용됩니다. 읽기 전용 [`IDoubleChartValue`](../idoublechartvalue). |
 | [Value](../../aspose.slides.charts/chartdatapoint/value) { get; } | Value. 읽기 전용 [`IDoubleChartValue`](../idoublechartvalue). |
 | [XValue](../../aspose.slides.charts/chartdatapoint/xvalue) { get; } | XValue. 읽기 전용 [`IStringOrDoubleChartValue`](../istringordoublechartvalue). |
@@ -42,12 +46,12 @@ public class ChartDataPoint : IChartDataPoint
 
 ## 메서드
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
 | [GetAutomaticDataPointColor](../../aspose.slides.charts/chartdatapoint/getautomaticdatapointcolor)() | 시리즈 인덱스, 데이터 포인트 인덱스, ParentSeriesGroup.IsColorVaried 속성 및 차트 스타일을 기반으로 데이터 포인트의 자동 색상을 반환합니다. FillType이 NotDefined인 경우 기본적으로 이 색상이 사용됩니다. |
 | [Remove](../../aspose.slides.charts/chartdatapoint/remove)() | 차트 시리즈에서 DataPoint를 제거합니다. |
 
-### 참고
+### 참조
 
 * 인터페이스 [IChartDataPoint](../ichartdatapoint)
 * 네임스페이스 [Aspose.Slides.Charts](../../aspose.slides.charts)

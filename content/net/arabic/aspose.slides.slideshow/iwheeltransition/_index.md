@@ -1,12 +1,12 @@
 ---
 title: IWheelTransition
-second_title: Aspose.Sildes لمرجع API .NET
+second_title: مرجع API Aspose.Sildes للـ .NET
 description: تأثير انتقال شريحة العجلة.
 type: docs
-weight: 10220
+weight: 10240
 url: /ar/aspose.slides.slideshow/iwheeltransition/
 ---
-## واجهة IWheelTransition
+## IWheelTransition واجهة
 
 تأثير انتقال شريحة العجلة.
 
@@ -19,7 +19,7 @@ public interface IWheelTransition : ITransitionValueBase
 | الاسم | الوصف |
 | --- | --- |
 | [AsITransitionValueBase](../../aspose.slides.slideshow/iwheeltransition/asitransitionvaluebase) { get; } | يسمح بالحصول على واجهة ITransitionValueBase الأساسية. للقراءة فقط [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Spokes](../../aspose.slides.slideshow/iwheeltransition/spokes) { get; set; } | عدد أضلاع انتقال العجلة. قراءة/كتابة UInt32. |
+| [Spokes](../../aspose.slides.slideshow/iwheeltransition/spokes) { get; set; } | عدد أسنان العجلة للانتقال. للقراءة/الكتابة UInt32. |
 
 ### انظر أيضًا
 

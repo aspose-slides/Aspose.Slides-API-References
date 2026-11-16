@@ -1,14 +1,14 @@
 ---
 title: IBaseHeaderFooterManager
-second_title: مرجع API Aspose.Sildes لـ .NET
-description: يمثل المدير الذي يحتفظ بسلوك عناصر مكان تذييل الصفحة والتاريخ-الوقت ورقم الصفحة لجميع أنواع الشرائح.
+second_title: Aspose.Sildes لـ .NET مرجع API
+description: يمثل المدير الذي يتحكم بسلوك التذييل وتاريخ الوقت وعلامات رقم الصفحة لجميع أنواع الشرائح.
 type: docs
-weight: 5300
+weight: 5320
 url: /ar/aspose.slides/ibaseheaderfootermanager/
 ---
-## IBaseHeaderFooterManager الواجهة
+## IBaseHeaderFooterManager واجهة
 
-يمثل المدير الذي يحتفظ بسلوك تذييل الصفحة، التاريخ-الوقت، وعناصر مكان رقم الصفحة لجميع أنواع الشرائح.
+يمثّل المدير الذي يتحكم بسلوك التذييل، والتاريخ والوقت، وعلامات رقم الصفحة لجميع أنواع الشرائح.
 
 ```csharp
 public interface IBaseHeaderFooterManager

@@ -3,7 +3,7 @@ title: FontFallBackRule
 second_title: Referência da API Aspose.Sildes para .NET
 description: Representa a regra de fallback de fonte
 type: docs
-weight: 4840
+weight: 4860
 url: /pt/aspose.slides/fontfallbackrule/
 ---
 ## FontFallBackRule classe
@@ -34,16 +34,16 @@ public class FontFallBackRule : IFontFallBackRule
 
 | Nome | Descrição |
 | --- | --- |
-| [AddFallBackFonts](../../aspose.slides/fontfallbackrule/addfallbackfonts#addfallbackfonts)(string) | Adiciona uma(s) nova(s) fonte(s) à lista de fontes FallBack. |
-| [AddFallBackFonts](../../aspose.slides/fontfallbackrule/addfallbackfonts#addfallbackfonts_1)(string[]) | Adiciona novas fontes à lista de fontes FallBack. |
+| [AddFallBackFonts](../../aspose.slides/fontfallbackrule/addfallbackfonts#addfallbackfonts)(string) | Adiciona uma(s) nova(s) fonte(s) à lista de fontes de fallback. |
+| [AddFallBackFonts](../../aspose.slides/fontfallbackrule/addfallbackfonts#addfallbackfonts_1)(string[]) | Adiciona novas fontes à lista de fontes de fallback. |
 | [Clear](../../aspose.slides/fontfallbackrule/clear)() | Remove todas as fontes da lista. |
 | [IndexOf](../../aspose.slides/fontfallbackrule/indexof)(string) | Retorna um índice da regra especificada na coleção. |
-| [Remove](../../aspose.slides/fontfallbackrule/remove)(string) | Remove a primeira ocorrência de uma fonte FallBack específica da lista. |
-| [RemoveAt](../../aspose.slides/fontfallbackrule/removeat)(int) | Remove a fonte FallBack no índice especificado da lista. |
-| [ToArray](../../aspose.slides/fontfallbackrule/toarray#toarray)() | Cria e retorna um array com todas as fontes FallBack para esta regra. |
-| [ToArray](../../aspose.slides/fontfallbackrule/toarray#toarray_1)(int, int) | Cria e retorna um array com todas as fontes FallBack do intervalo especificado na lista. |
+| [Remove](../../aspose.slides/fontfallbackrule/remove)(string) | Remove a primeira ocorrência de uma fonte de fallback específica da lista. |
+| [RemoveAt](../../aspose.slides/fontfallbackrule/removeat)(int) | Remove a fonte de fallback no índice especificado da lista. |
+| [ToArray](../../aspose.slides/fontfallbackrule/toarray#toarray)() | Cria e retorna um array com todas as fontes de fallback para esta regra. |
+| [ToArray](../../aspose.slides/fontfallbackrule/toarray#toarray_1)(int, int) | Cria e retorna um array com todas as fontes de fallback do intervalo especificado na lista. |
 
-### Veja Também
+### Ver também
 
 * interface [IFontFallBackRule](../ifontfallbackrule)
 * namespace [Aspose.Slides](../../aspose.slides)

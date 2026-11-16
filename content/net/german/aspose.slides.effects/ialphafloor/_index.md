@@ -1,14 +1,14 @@
 ---
 title: IAlphaFloor
 second_title: Aspose.Sildes für .NET API Referenz
-description: Stellt einen Alpha Floor Effekt dar. Alpha-Opazitätswerte unter 100 werden auf Null gesetzt. Mit anderen Worten wird alles, das teilweise transparent ist, vollständig transparent.
+description: Stellt einen Alpha Floor Effekt dar. Alpha Deckkraftwerte kleiner als 100 werden auf Null gesetzt. Mit anderen Worten wird alles, das teilweise transparent ist, vollständig transparent.
 type: docs
-weight: 3060
+weight: 3080
 url: /de/aspose.slides.effects/ialphafloor/
 ---
 ## IAlphaFloor Schnittstelle
 
-Stellt einen Alpha Floor Effekt dar. Alpha (Opacity) Werte unter 100 % werden auf Null gesetzt. Mit anderen Worten, alles, das teilweise transparent ist, wird vollständig transparent.
+Stellt einen Alpha-Floor-Effekt dar. Alpha- (Deckkraft) Werte kleiner als 100% werden auf Null gesetzt. Mit anderen Worten wird alles, das teilweise transparent ist, vollständig transparent.
 
 ```csharp
 public interface IAlphaFloor : IAccessiblePVIObject<IAlphaFloorEffectiveData>, 
@@ -19,8 +19,8 @@ public interface IAlphaFloor : IAccessiblePVIObject<IAlphaFloorEffectiveData>,
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphafloor/asiaccessiblepviobject) { get; } | Ermöglicht das Abrufen der Basis IAccessiblePVIObject Schnittstelle. Nur lesend [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphafloor/asiimagetransformoperation) { get; } | Ermöglicht das Abrufen der Basis IImageTransformOperation Schnittstelle. Nur lesend [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphafloor/asiaccessiblepviobject) { get; } | Ermöglicht das Abrufen der Basisschnittstelle IAccessiblePVIObject. Nur Lesen [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphafloor/asiimagetransformoperation) { get; } | Ermöglicht das Abrufen der Basisschnittstelle IImageTransformOperation. Nur Lesen [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### Siehe auch
 

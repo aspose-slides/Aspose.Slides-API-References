@@ -1,15 +1,13 @@
 ---
 title: TransitionValueBase
-second_title: Aspose.Sildes .NET API 参考
-description: 幻灯片过渡效果的基类。
+second_title: Aspose.Sildes for .NET API 参考
+description: 用于幻灯片转场效果的基类。
 type: docs
-weight: 10460
+weight: 10480
 url: /zh/aspose.slides.slideshow/transitionvaluebase/
 ---
 ## TransitionValueBase 类
-
-幻灯片过渡效果的基类。
-
+幻灯片转场效果的基类。
 ```csharp
 public class TransitionValueBase : ITransitionValueBase
 ```
@@ -19,7 +17,7 @@ public class TransitionValueBase : ITransitionValueBase
 | 名称 | 描述 |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 确定两个 TransitionValueBase 实例是否相等。 |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 为特定类型提供哈希函数，适用于哈希算法和诸如哈希表的数据结构。 |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 用作特定类型的散列函数，可用于散列算法和诸如散列表之类的数据结构。 |
 
 ### 另请参见
 

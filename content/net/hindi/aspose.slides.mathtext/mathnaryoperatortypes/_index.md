@@ -1,32 +1,32 @@
 ---
 title: MathNaryOperatorTypes
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: इंटीग्रल को छोड़कर Nary ऑपरेटर IMathNaryOperator प्रकार। इंटीग्रल के लिए MathIntegralTypes./mathintegraltypes
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: Nary ऑपरेटर IMathNaryOperator प्रकार, इंटीग्रल को छोड़कर। इंटीग्रल्स के लिए MathIntegralTypes./mathintegraltypes
 type: docs
-weight: 8890
+weight: 8910
 url: /hi/aspose.slides.mathtext/mathnaryoperatortypes/
 ---
-## MathNaryOperatorTypes एन्यूमरेशन
+## MathNaryOperatorTypes एन्यूमेरेशन
 
-Nary ऑपरेटर IMathNaryOperator प्रकार (integrals को छोड़कर) Integrals के लिए [`MathIntegralTypes`](../mathintegraltypes)
+Nary ऑपरेटर IMathNaryOperator प्रकार (integrals को छोड़कर) इंटीग्रल्स के लिए [`MathIntegralTypes`](../mathintegraltypes)
 
 ```csharp
 public enum MathNaryOperatorTypes
 ```
 
-### मान
+### मूल्य
 
-| Name | Value | Description |
+| नाम | मान | विवरण |
 | --- | --- | --- |
-| Summation | `0` | संकलन: '∑' |
-| Product | `1` | गुणन: '∏' |
-| CoProduct | `2` | कोप्रोडक्ट: '∐' |
+| Summation | `0` | योग: '∑' |
+| Product | `1` | उत्पाद: '∏' |
+| CoProduct | `2` | सहउत्पाद: '∐' |
 | Intersection | `3` | छेदन: '∩' |
 | Union | `4` | संघ: '∪' |
-| LogicalAnd | `5` | तार्किक और: '∧' |
-| LogicalOr | `6` | तार्किक या: '∨' |
+| LogicalAnd | `5` | तार्किक And: '∧' |
+| LogicalOr | `6` | तार्किक Or: '∨' |
 
-### और देखें
+### संबंधित
 
 * नामस्थान [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * असेंबली [Aspose.Slides](../../)

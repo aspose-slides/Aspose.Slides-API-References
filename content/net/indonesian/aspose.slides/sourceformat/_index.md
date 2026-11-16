@@ -1,14 +1,14 @@
 ---
 title: SourceFormat
-second_title: Aspose.Sildes untuk .NET Referensi API
-description: Mewakili format berkas sumber.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Mewakili format file sumber.
 type: docs
-weight: 10680
+weight: 10700
 url: /id/aspose.slides/sourceformat/
 ---
-## SourceFormat enumerasi
+## Enumerasi SourceFormat
 
-Mewakili format berkas sumber.
+Mewakili format file sumber.
 
 ```csharp
 public enum SourceFormat
@@ -24,11 +24,11 @@ public enum SourceFormat
 | Pptm | `3` | Microsoft Office Open XML Presentasi dengan Makro (*.pptm). |
 | Ppsx | `4` | Microsoft Office Open XML SlideShow (*.ppsx). |
 | Ppsm | `5` | Microsoft Office Open XML SlideShow dengan Makro (*.ppsm). |
-| Potx | `6` | Microsoft Office Open XML Template (*.potx). |
-| Potm | `7` | Microsoft Office Open XML Template dengan Makro (*.potm). |
+| Potx | `6` | Microsoft Office Open XML Templat (*.potx). |
+| Potm | `7` | Microsoft Office Open XML Templat dengan Makro (*.potm). |
 | Pps | `8` | Microsoft PowerPoint 97-2003 SlideShow (*.pps). |
-| Pot | `9` | Microsoft PowerPoint 97-2003 Template (*.pot). |
-| Otp | `10` | OpenDocument Presentasi Template (*.otp). |
+| Pot | `9` | Microsoft PowerPoint 97-2003 Templat (*.pot). |
+| Otp | `10` | OpenDocument Presentasi Templat (*.otp). |
 | Fodp | `11` | Flat XML ODF Presentasi (*.fodp). |
 | Xml | `12` | PowerPoint XML Presentasi (*.xml). |
 

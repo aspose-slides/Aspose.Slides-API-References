@@ -1,14 +1,14 @@
 ---
 title: ForEach.ForEachPortionCallback
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 각 Portion./foreach/portion에 대해 Paragraph./foreach/paragraph에서 BaseSlide../aspose.slides/baseslide에 의해 호출되는 콜백입니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: 각 Portion./foreach/portion에 대해 Paragraph./foreach/paragraph의 BaseSlide../aspose.slides/baseslide에서 호출되는 콜백입니다.
 type: docs
-weight: 7940
+weight: 7960
 url: /ko/aspose.slides.lowcode/foreach.foreachportioncallback/
 ---
-## ForEach.ForEachPortionCallback 대리자
+## ForEach.ForEachPortionCallback delegate
 
-각 [`Portion`](../foreach/portion)에 대해 [`Paragraph`](../foreach/paragraph)의 [`BaseSlide`](../../aspose.slides/baseslide)에서 호출되는 콜백입니다.
+[`Portion`](../foreach/portion)마다 [`Paragraph`](../foreach/paragraph)의 [`BaseSlide`](../../aspose.slides/baseslide)에서 호출되는 콜백입니다.
 
 ```csharp
 public delegate void ForEachPortionCallback(Portion portion, Paragraph para, BaseSlide slide, 
@@ -17,12 +17,12 @@ public delegate void ForEachPortionCallback(Portion portion, Paragraph para, Bas
 
 | 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
-| portion | Portion | 현재 반복 중인 portion |
-| para | Paragraph | 현재 반복 중인 Paragraph |
-| slide | BaseSlide | 현재 반복 중인 slide |
-| index | Int32 | 현재 Paragraph에서 Portion의 인덱스 |
+| portion | Portion | 현재 반복되는 portion |
+| para | Paragraph | 현재 반복되는 paragraph |
+| slide | BaseSlide | 현재 반복되는 slide |
+| index | Int32 | paragraph에서 현재 portion의 인덱스 |
 
-### 참고
+### 참조
 
 * 클래스 [Portion](../../aspose.slides/portion)
 * 클래스 [Paragraph](../../aspose.slides/paragraph)

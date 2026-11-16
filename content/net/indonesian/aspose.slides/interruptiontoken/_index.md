@@ -1,14 +1,14 @@
 ---
 title: InterruptionToken
-second_title: Referensi API Aspose.Sildes untuk .NET
-description: Kelas ini mewakili token yang digunakan untuk memberi sinyal pada tugas yang berjalan lama apakah interupsi diminta.
+second_title: Referensi API .NET Aspose.Sildes
+description: Kelas ini mewakili token yang digunakan untuk memberi sinyal pada tugas yang berjalan lama apakah interupsi telah diminta.
 type: docs
-weight: 7600
+weight: 7620
 url: /id/aspose.slides/interruptiontoken/
 ---
 ## InterruptionToken kelas
 
-Kelas ini mewakili token yang digunakan untuk memberi sinyal pada tugas yang berjalan lama apakah interupsi diminta.
+Kelas ini mewakili token yang digunakan untuk memberi sinyal pada tugas yang berjalan lama apakah interupsi telah diminta.
 
 ```csharp
 public class InterruptionToken : IInterruptionToken
@@ -16,16 +16,16 @@ public class InterruptionToken : IInterruptionToken
 
 ## Properti
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
 | static [None](../../aspose.slides/interruptiontoken/none) { get; } | Mewakili token interupsi kosong. Operasi yang berjalan lama tidak akan pernah diinterupsi melalui [`Interrupt`](../interruptiontokensource/interrupt) saat menggunakan token ini. |
-| [IsInterruptionRequested](../../aspose.slides/interruptiontoken/isinterruptionrequested) { get; } | Mengembalikan Boolean.true jika interupsi diminta. |
+| [IsInterruptionRequested](../../aspose.slides/interruptiontoken/isinterruptionrequested) { get; } | Mengembalikan Boolean.true jika interupsi telah diminta. |
 
 ## Metode
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
-| [ThrowIfInterruptionRequested](../../aspose.slides/interruptiontoken/throwifinterruptionrequested)() | Melempar OperationCanceledException jika interupsi diminta. |
+| [ThrowIfInterruptionRequested](../../aspose.slides/interruptiontoken/throwifinterruptionrequested)() | Melempar OperationCanceledException jika interupsi telah diminta. |
 
 ### Lihat Juga
 

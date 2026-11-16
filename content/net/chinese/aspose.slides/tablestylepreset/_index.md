@@ -1,14 +1,14 @@
 ---
 title: TableStylePreset
-second_title: Aspose.Sildes .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 表示内置表格样式。
 type: docs
-weight: 10880
+weight: 10900
 url: /zh/aspose.slides/tablestylepreset/
 ---
 ## TableStylePreset 枚举
 
-表示内置表格样式。
+Represents builtin table styles.
 
 ```csharp
 public enum TableStylePreset
@@ -18,7 +18,7 @@ public enum TableStylePreset
 
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
-| Custom | `-1` | 表格具有自定义样式。此值仅供返回使用。 |
+| Custom | `-1` | Table 具有自定义样式。这是只返回的值。 |
 | None | `0` | 无样式。 |
 | MediumStyle2Accent1 | `1` | 中等样式 2 - 强调 1。 |
 | MediumStyle2 | `2` | 中等样式 2。 |
@@ -36,30 +36,30 @@ public enum TableStylePreset
 | ThemedStyle2Accent4 | `14` | 主题样式 2 - 强调 4。 |
 | ThemedStyle2Accent5 | `15` | 主题样式 2 - 强调 5。 |
 | ThemedStyle2Accent6 | `16` | 主题样式 2 - 强调 6。 |
-| LightStyle1 | `17` | 轻盈样式 1 |
-| LightStyle1Accent1 | `18` | 轻盈样式 1 - 强调 1。 |
-| LightStyle1Accent2 | `19` | 轻盈样式 1 - 强调 2。 |
-| LightStyle1Accent3 | `20` | 轻盈样式 1 - 强调 3。 |
-| LightStyle1Accent4 | `21` | 轻盈样式 1 - 强调 4。 |
-| LightStyle2Accent5 | `22` | 轻盈样式 2 - 强调 5。 |
-| LightStyle1Accent6 | `23` | 轻盈样式 1 - 强调 6。 |
-| LightStyle2 | `24` | 轻盈样式 2。 |
-| LightStyle2Accent1 | `25` | 轻盈样式 2 - 强调 1。 |
-| LightStyle2Accent2 | `26` | 轻盈样式 2 - 强调 2。 |
-| LightStyle2Accent3 | `27` | 轻盈样式 2 - 强调 3。 |
+| LightStyle1 | `17` | 浅色样式 1 |
+| LightStyle1Accent1 | `18` | 浅色样式 1 - 强调 1。 |
+| LightStyle1Accent2 | `19` | 浅色样式 1 - 强调 2。 |
+| LightStyle1Accent3 | `20` | 浅色样式 1 - 强调 3。 |
+| LightStyle1Accent4 | `21` | 浅色样式 1 - 强调 4。 |
+| LightStyle2Accent5 | `22` | 浅色样式 2 - 强调 5。 |
+| LightStyle1Accent6 | `23` | 浅色样式 1 - 强调 6。 |
+| LightStyle2 | `24` | 浅色样式 2。 |
+| LightStyle2Accent1 | `25` | 浅色样式 2 - 强调 1。 |
+| LightStyle2Accent2 | `26` | 浅色样式 2 - 强调 2。 |
+| LightStyle2Accent3 | `27` | 浅色样式 2 - 强调 3。 |
 | MediumStyle2Accent3 | `28` | 中等样式 2 - 强调 3。 |
 | MediumStyle2Accent4 | `29` | 中等样式 2 - 强调 4。 |
 | MediumStyle2Accent5 | `30` | 中等样式 2 - 强调 5。 |
-| LightStyle2Accent6 | `31` | 轻盈样式 2 - 强调 6。 |
-| LightStyle2Accent4 | `32` | 轻盈样式 2 - 强调 4。 |
-| LightStyle3 | `33` | 轻盈样式 3。 |
-| LightStyle3Accent1 | `34` | 轻盈样式 3 - 强调 1。 |
+| LightStyle2Accent6 | `31` | 浅色样式 2 - 强调 6。 |
+| LightStyle2Accent4 | `32` | 浅色样式 2 - 强调 4。 |
+| LightStyle3 | `33` | 浅色样式 3。 |
+| LightStyle3Accent1 | `34` | 浅色样式 3 - 强调 1。 |
 | MediumStyle2Accent2 | `35` | 中等样式 2 - 强调 2。 |
-| LightStyle3Accent2 | `36` | 轻盈样式 3 - 强调 2。 |
-| LightStyle3Accent3 | `37` | 轻盈样式 3 - 强调 3。 |
-| LightStyle3Accent4 | `38` | 轻盈样式 3 - 强调 4。 |
-| LightStyle3Accent5 | `39` | 轻盈样式 3 - 强调 5。 |
-| LightStyle3Accent6 | `40` | 轻盈样式 3 - 强调 6。 |
+| LightStyle3Accent2 | `36` | 浅色样式 3 - 强调 2。 |
+| LightStyle3Accent3 | `37` | 浅色样式 3 - 强调 3。 |
+| LightStyle3Accent4 | `38` | 浅色样式 3 - 强调 4。 |
+| LightStyle3Accent5 | `39` | 浅色样式 3 - 强调 5。 |
+| LightStyle3Accent6 | `40` | 浅色样式 3 - 强调 6。 |
 | MediumStyle1 | `41` | 中等样式 1。 |
 | MediumStyle1Accent1 | `42` | 中等样式 1 - 强调 1。 |
 | MediumStyle1Accent2 | `43` | 中等样式 1 - 强调 2。 |
@@ -93,9 +93,9 @@ public enum TableStylePreset
 | DarkStyle2Accent1Accent2 | `71` | 深色样式 2 - 强调 1/强调 2。 |
 | DarkStyle2Accent3Accent4 | `72` | 深色样式 2 - 强调 3/强调 4。 |
 | DarkStyle2Accent5Accent6 | `73` | 深色样式 2 - 强调 5/强调 6。 |
-| LightStyle1Accent5 | `74` | 轻盈样式 1 - 强调 5。 |
+| LightStyle1Accent5 | `74` | 浅色样式 1 - 强调 5。 |
 
-### 另见
+### 另请参见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

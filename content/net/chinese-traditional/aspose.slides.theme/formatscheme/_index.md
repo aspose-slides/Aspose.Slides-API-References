@@ -1,9 +1,9 @@
 ---
 title: FormatScheme
-second_title: Aspose.Sildes .NET API 參考
+second_title: Aspose.Sildes for .NET API 參考文件
 description: 儲存形狀的主題定義格式。
 type: docs
-weight: 11140
+weight: 11160
 url: /zh-hant/aspose.slides.theme/formatscheme/
 ---
 ## FormatScheme 類別
@@ -16,16 +16,16 @@ public class FormatScheme : IFormatScheme
 
 ## 屬性
 
-| Name | Description |
+| 名稱 | 說明 |
 | --- | --- |
-| [BackgroundFillStyles](../../aspose.slides.theme/formatscheme/backgroundfillstyles) { get; } | 傳回主題定義的背景填充樣式的集合。唯讀 [`IFillFormatCollection`](../ifillformatcollection)。 |
-| [EffectStyles](../../aspose.slides.theme/formatscheme/effectstyles) { get; } | 傳回主題定義的效果樣式的集合。唯讀 [`IEffectStyleCollection`](../ieffectstylecollection)。 |
-| [FillStyles](../../aspose.slides.theme/formatscheme/fillstyles) { get; } | 傳回主題定義的填充樣式的集合。唯讀 [`IFillFormatCollection`](../ifillformatcollection)。 |
-| [LineStyles](../../aspose.slides.theme/formatscheme/linestyles) { get; } | 傳回主題定義的線條樣式的集合。唯讀 [`ILineFormatCollection`](../ilineformatcollection)。 |
-| [Presentation](../../aspose.slides.theme/formatscheme/presentation) { get; } | 傳回父級簡報。唯讀 [`IPresentation`](../../aspose.slides/ipresentation)。 |
-| [Slide](../../aspose.slides.theme/formatscheme/slide) { get; } | 傳回父級投影片。唯讀 [`IBaseSlide`](../../aspose.slides/ibaseslide)。 |
+| [BackgroundFillStyles](../../aspose.slides.theme/formatscheme/backgroundfillstyles) { get; } | 返回主題定義的背景填充樣式集合。唯讀 [`IFillFormatCollection`](../ifillformatcollection)。 |
+| [EffectStyles](../../aspose.slides.theme/formatscheme/effectstyles) { get; } | 返回主題定義的效果樣式集合。唯讀 [`IEffectStyleCollection`](../ieffectstylecollection)。 |
+| [FillStyles](../../aspose.slides.theme/formatscheme/fillstyles) { get; } | 返回主題定義的填充樣式集合。唯讀 [`IFillFormatCollection`](../ifillformatcollection)。 |
+| [LineStyles](../../aspose.slides.theme/formatscheme/linestyles) { get; } | 返回主題定義的線條樣式集合。唯讀 [`ILineFormatCollection`](../ilineformatcollection)。 |
+| [Presentation](../../aspose.slides.theme/formatscheme/presentation) { get; } | 返回父級簡報。唯讀 [`IPresentation`](../../aspose.slides/ipresentation)。 |
+| [Slide](../../aspose.slides.theme/formatscheme/slide) { get; } | 返回父級投影片。唯讀 [`IBaseSlide`](../../aspose.slides/ibaseslide)。 |
 
-### 另見
+### 另請參閱
 
 * 介面 [IFormatScheme](../iformatscheme)
 * 命名空間 [Aspose.Slides.Theme](../../aspose.slides.theme)

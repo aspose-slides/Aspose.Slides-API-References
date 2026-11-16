@@ -1,9 +1,9 @@
 ---
 title: IUpDownBarsManager
 second_title: Riferimento API Aspose.Sildes per .NET
-description: "Fornisce l'accesso alle barre su/giù di un grafico a linee o a barre."
+description: Fornisce l'accesso alle barre su/giù di un grafico a linee o a barre.
 type: docs
-weight: 2260
+weight: 2280
 url: /it/aspose.slides.charts/iupdownbarsmanager/
 ---
 ## IUpDownBarsManager interfaccia
@@ -19,7 +19,7 @@ public interface IUpDownBarsManager
 | Nome | Descrizione |
 | --- | --- |
 | [DownBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/downbarsformat) { get; } | Restituisce il formato delle barre inferiori. Solo lettura [`IFormat`](../iformat). |
-| [GapWidth](../../aspose.slides.charts/iupdownbarsmanager/gapwidth) { get; set; } | Restituisce o imposta la larghezza del divario. Lettura/scrittura Int32. |
+| [GapWidth](../../aspose.slides.charts/iupdownbarsmanager/gapwidth) { get; set; } | Restituisce o imposta la larghezza dello spazio. Lettura/scrittura Int32. |
 | [HasUpDownBars](../../aspose.slides.charts/iupdownbarsmanager/hasupdownbars) { get; set; } | Determina se il grafico ha barre su/giù. Lettura/scrittura Boolean. |
 | [UpBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/upbarsformat) { get; } | Restituisce il formato delle barre superiori. Solo lettura [`IFormat`](../iformat). |
 

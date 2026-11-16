@@ -1,14 +1,14 @@
 ---
 title: IOverrideTheme
-second_title: Aspose.Sildes .NET API referencia
-description: Egy felülbíráló témát képvisel.
+second_title: Aspose.Sildes .NET API Referenciája
+description: Egy felülíró témát képvisel.
 type: docs
-weight: 11340
+weight: 11360
 url: /hu/aspose.slides.theme/ioverridetheme/
 ---
 ## IOverrideTheme interfész
 
-Egy felülbíráló témát képvisel.
+Represents a overriding theme.
 
 ```csharp
 public interface IOverrideTheme : ITheme
@@ -18,28 +18,28 @@ public interface IOverrideTheme : ITheme
 
 | Név | Leírás |
 | --- | --- |
-| [AsITheme](../../aspose.slides.theme/ioverridetheme/asitheme) { get; } | Lehetővé teszi a base ITheme interfész lekérését. Csak olvasható [`ITheme`](../itheme). |
-| [IsEmpty](../../aspose.slides.theme/ioverridetheme/isempty) { get; } | Az igaz érték azt jelenti, hogy a ColorScheme, FontScheme, FormatScheme null, és a témával való felülbírálás le van tiltva. Csak olvasható Boolean. |
+| [AsITheme](../../aspose.slides.theme/ioverridetheme/asitheme) { get; } | Lehetővé teszi az alap ITheme interfész lekérdezését. Csak olvasható [`ITheme`](../itheme). |
+| [IsEmpty](../../aspose.slides.theme/ioverridetheme/isempty) { get; } | Az igaz érték azt jelenti, hogy a ColorScheme, FontScheme és a FormatScheme null, és a témával való bármilyen felülírás le van tiltva. Csak olvasható Boolean. |
 
 ## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [Clear](../../aspose.slides.theme/ioverridetheme/clear)() | A ColorScheme, FontScheme, FormatScheme nullra állítása letiltja a témával való felülbírálást. |
-| [InitColorScheme](../../aspose.slides.theme/ioverridetheme/initcolorscheme)() | Inicializálja a ColorScheme-et egy új objektummal az InheritedTheme ColorScheme felülbírálásához. |
-| [InitColorSchemeFrom](../../aspose.slides.theme/ioverridetheme/initcolorschemefrom)(IColorScheme) | Inicializálja a ColorScheme-et egy új objektummal az InheritedTheme ColorScheme felülbírálásához. |
-| [InitColorSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initcolorschemefrominherited)() | Inicializálja a ColorScheme-et egy új objektummal az InheritedTheme ColorScheme felülbírálásához. És az új objektum adatait az InheritedTheme ColorScheme adataival inicializálja. |
-| [InitFontScheme](../../aspose.slides.theme/ioverridetheme/initfontscheme)() | Inicializálja a FontScheme-et egy új objektummal az InheritedTheme FontScheme felülbírálásához. |
-| [InitFontSchemeFrom](../../aspose.slides.theme/ioverridetheme/initfontschemefrom)(IFontScheme) | Inicializálja a FontScheme-et egy új objektummal az InheritedTheme FontScheme felülbírálásához. |
-| [InitFontSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initfontschemefrominherited)() | Inicializálja a FontScheme-et egy új objektummal az InheritedTheme FontScheme felülbírálásához. És az új objektum adatait az InheritedTheme FontScheme adataival inicializálja. |
-| [InitFormatScheme](../../aspose.slides.theme/ioverridetheme/initformatscheme)() | Inicializálja a FormatScheme-et egy új objektummal az InheritedTheme FormatScheme felülbírálásához. |
-| [InitFormatSchemeFrom](../../aspose.slides.theme/ioverridetheme/initformatschemefrom)(IFormatScheme) | Inicializálja a FormatScheme-et egy új objektummal az InheritedTheme FormatScheme felülbírálásához. |
-| [InitFormatSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initformatschemefrominherited)() | Inicializálja a FormatScheme-et egy új objektummal az InheritedTheme FormatScheme felülbírálásához. És az új objektum adatait az InheritedTheme FormatScheme adataival inicializálja. |
+| [Clear](../../aspose.slides.theme/ioverridetheme/clear)() | A ColorScheme, FontScheme és a FormatScheme null értékre állítása letiltja a témával való felülírást. |
+| [InitColorScheme](../../aspose.slides.theme/ioverridetheme/initcolorscheme)() | Inicializálja a ColorScheme-et új objektummal az InheritedTheme ColorScheme felülírásához. |
+| [InitColorSchemeFrom](../../aspose.slides.theme/ioverridetheme/initcolorschemefrom)(IColorScheme) | Inicializálja a ColorScheme-et új objektummal az InheritedTheme ColorScheme felülírásához. |
+| [InitColorSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initcolorschemefrominherited)() | Inicializálja a ColorScheme-et új objektummal az InheritedTheme ColorScheme felülírásához. És inicializálja ennek az új objektumnak az adatait az InheritedTheme ColorScheme adataival. |
+| [InitFontScheme](../../aspose.slides.theme/ioverridetheme/initfontscheme)() | Inicializálja a FontScheme-et új objektummal az InheritedTheme FontScheme felülírásához. |
+| [InitFontSchemeFrom](../../aspose.slides.theme/ioverridetheme/initfontschemefrom)(IFontScheme) | Inicializálja a FontScheme-et új objektummal az InheritedTheme FontScheme felülírásához. |
+| [InitFontSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initfontschemefrominherited)() | Inicializálja a FontScheme-et új objektummal az InheritedTheme FontScheme felülírásához. És inicializálja ennek az új objektumnak az adatait az InheritedTheme FontScheme adataival. |
+| [InitFormatScheme](../../aspose.slides.theme/ioverridetheme/initformatscheme)() | Inicializálja a FormatScheme-et új objektummal az InheritedTheme FormatScheme felülírásához. |
+| [InitFormatSchemeFrom](../../aspose.slides.theme/ioverridetheme/initformatschemefrom)(IFormatScheme) | Inicializálja a FormatScheme-et új objektummal az InheritedTheme FormatScheme felülírásához. |
+| [InitFormatSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initformatschemefrominherited)() | Inicializálja a FormatScheme-et új objektummal az InheritedTheme FormatScheme felülírásához. És inicializálja ennek az új objektumnak az adatait az InheritedTheme FormatScheme adataival. |
 
 ### Lásd még
 
 * interfész [ITheme](../itheme)
 * névtér [Aspose.Slides.Theme](../../aspose.slides.theme)
-* összeállítás [Aspose.Slides](../../)
+* összesállítás [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

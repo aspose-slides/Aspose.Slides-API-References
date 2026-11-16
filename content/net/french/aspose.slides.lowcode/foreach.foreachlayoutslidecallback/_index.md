@@ -1,9 +1,9 @@
 ---
 title: ForEach.ForEachLayoutSlideCallback
-second_title: Référence de l'API Aspose.Sildes pour .NET
+second_title: Référence API Aspose.Sildes pour .NET
 description: Rappel qui sera invoqué pour chaque LayoutSlide./foreach/layoutslide dans la Presentation../aspose.slides/presentation.
 type: docs
-weight: 7910
+weight: 7930
 url: /fr/aspose.slides.lowcode/foreach.foreachlayoutslidecallback/
 ---
 ## ForEach.ForEachLayoutSlideCallback delegate
@@ -17,9 +17,9 @@ public delegate void ForEachLayoutSlideCallback(LayoutSlide layoutSlide, int ind
 | Paramètre | Type | Description |
 | --- | --- | --- |
 | layoutSlide | LayoutSlide | Diapositive de mise en page actuelle itérée |
-| index | Int32 | Indice de la diapositive de mise en page actuelle |
+| index | Int32 | Index de la diapositive de mise en page actuelle |
 
-### Voir aussi
+### Voir également
 
 * classe [LayoutSlide](../../aspose.slides/layoutslide)
 * classe [ForEach](../foreach)

@@ -1,14 +1,14 @@
 ---
 title: TextShapeType
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar textbrytningsform.
+description: Representerar textomslagningsform.
 type: docs
-weight: 10980
+weight: 11000
 url: /sv/aspose.slides/textshapetype/
 ---
 ## TextShapeType uppräkning
 
-Representerar textbrytningsform.
+Representerar textomslagningsform.
 
 ```csharp
 public enum TextShapeType : sbyte
@@ -20,49 +20,49 @@ public enum TextShapeType : sbyte
 | --- | --- | --- |
 | NotDefined | `-1` | Inte definierad |
 | None | `0` | Ingen form |
-| Plain | `1` | Enkel |
+| Plain | `1` | Vanlig |
 | Stop | `2` | Stoppskylt |
 | Triangle | `3` | Triangel |
 | TriangleInverted | `4` | Omvänd triangel |
 | Chevron | `5` | Chevron |
-| ChevronInverted | `6` | Omvänd chevron |
+| ChevronInverted | `6` | Omvänd Chevron |
 | RingInside | `7` | Inre ring |
 | RingOutside | `8` | Yttre ring |
 | ArchUp | `9` | Uppåtböjd båge |
 | ArchDown | `10` | Nedåtböjd båge |
 | Circle | `11` | Cirkel |
 | Button | `12` | Knapp |
-| ArchUpPour | `13` | Uppåtpåfyllningsbåge |
-| ArchDownPour | `14` | Nedåtpåfyllningsbåge |
-| CirclePour | `15` | Cirkelpåfyllning |
-| ButtonPour | `16` | Knapppåfyllning |
-| CurveUp | `17` | Uppåtkurva |
-| CurveDown | `18` | Nedåtkurva |
-| CanUp | `19` | Uppåtkanna |
-| CanDown | `20` | Nedåtkanna |
-| Wave1 | `21` | Våg 1 |
-| Wave2 | `22` | Våg 2 |
-| DoubleWave1 | `23` | Dubbel våg 1 |
-| Wave4 | `24` | Våg 4 |
-| Inflate | `25` | Öka |
-| Deflate | `26` | Minska |
-| InflateBottom | `27` | Bottenökning |
-| DeflateBottom | `28` | Bottenminskning |
-| InflateTop | `29` | Toppökning |
-| DeflateTop | `30` | Toppminskning |
-| DeflateInflate | `31` | Minska-Öka |
-| DeflateInflateDeflate | `32` | Minska-Öka-Minska |
-| FadeRight | `33` | Höger tona ut |
-| FadeLeft | `34` | Vänster tona ut |
-| FadeUp | `35` | Uppåttona ut |
-| FadeDown | `36` | Nedåttona ut |
+| ArchUpPour | `13` | Uppåtböjd hällbåge |
+| ArchDownPour | `14` | Nedåtböjd hällbåge |
+| CirclePour | `15` | Cirkelhäll |
+| ButtonPour | `16` | Knapphäll |
+| CurveUp | `17` | Uppåtböjd kurva |
+| CurveDown | `18` | Nedåtböjd kurva |
+| CanUp | `19` | Uppåtböjd burk |
+| CanDown | `20` | Nedåtböjd burk |
+| Wave1 | `21` | Vågt 1 |
+| Wave2 | `22` | Vågt 2 |
+| DoubleWave1 | `23` | Dubbel vågt 1 |
+| Wave4 | `24` | Vågt 4 |
+| Inflate | `25` | Uppblåst |
+| Deflate | `26` | Nedblåst |
+| InflateBottom | `27` | Bottenuppblåst |
+| DeflateBottom | `28` | Bottennedblåst |
+| InflateTop | `29` | Toppuppblåst |
+| DeflateTop | `30` | Toppnedblåst |
+| DeflateInflate | `31` | Nedblåst-uppblåst |
+| DeflateInflateDeflate | `32` | Nedblåst-uppblåst-nedblåst |
+| FadeRight | `33` | Högertoning |
+| FadeLeft | `34` | Vänstertoning |
+| FadeUp | `35` | Uppåttoning |
+| FadeDown | `36` | Nedåttoning |
 | SlantUp | `37` | Uppåtlutning |
 | SlantDown | `38` | Nedåtlutning |
 | CascadeUp | `39` | Uppåtkaskad |
 | CascadeDown | `40` | Nedåtkaskad |
 | Custom | `41` | Anpassad |
 
-### Se även
+### Se också
 
 * namnrymd [Aspose.Slides](../../aspose.slides)
 * samling [Aspose.Slides](../../)

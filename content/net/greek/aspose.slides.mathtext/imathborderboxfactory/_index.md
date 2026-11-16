@@ -1,29 +1,29 @@
 ---
 title: IMathBorderBoxFactory
-second_title: Aspose.Sildes για .NET Αναφορά API
-description: Επιτρέπει τη δημιουργία ενός μαθηματικού πλαισίου περιγράμματος
+second_title: Aspose.Sildes για .NET API Αναφορά
+description: Επιτρέπει τη δημιουργία ενός math border box
 type: docs
-weight: 8180
+weight: 8200
 url: /el/aspose.slides.mathtext/imathborderboxfactory/
 ---
-## IMathBorderBoxFactory διασύνδεση
+## IMathBorderBoxFactory διεπαφή
 
-Επιτρέπει τη δημιουργία ενός μαθηματικού πλαισίου περιγράμματος
+Επιτρέπει τη δημιουργία ενός math border box
 
 ```csharp
 public interface IMathBorderBoxFactory
 ```
 
-## Μέθοδοι
+## Methods
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [CreateMathBorderBox](../../aspose.slides.mathtext/imathborderboxfactory/createmathborderbox#createmathborderbox)(IMathElement) | Δημιουργεί ένα μαθηματικό πλαίσιο περιγράμματος εφαρμόζοντας στο στοιχείο |
-| [CreateMathBorderBox](../../aspose.slides.mathtext/imathborderboxfactory/createmathborderbox#createmathborderbox_1)(IMathElement, bool, bool, bool, bool, bool, bool, bool, bool) | Δημιουργεί ένα μαθηματικό πλαίσιο περιγράμματος εφαρμόζοντας στο στοιχείο |
+| [CreateMathBorderBox](../../aspose.slides.mathtext/imathborderboxfactory/createmathborderbox#createmathborderbox)(IMathElement) | Δημιουργεί ένα math border box εφαρμόζοντάς το στο στοιχείο |
+| [CreateMathBorderBox](../../aspose.slides.mathtext/imathborderboxfactory/createmathborderbox#createmathborderbox_1)(IMathElement, bool, bool, bool, bool, bool, bool, bool, bool) | Δημιουργεί ένα math border box εφαρμόζοντάς το στο στοιχείο |
 
-### Σχόλια
+### Παρατηρήσεις
 
-Για συμβατότητα COM
+Για συμβατότητα με COM
 
 ### Δείτε επίσης
 

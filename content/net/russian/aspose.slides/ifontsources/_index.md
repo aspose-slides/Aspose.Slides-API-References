@@ -1,14 +1,14 @@
 ---
 title: IFontSources
-second_title: Aspose.Sildes для .NET справочника API
-description: Предоставляет файловые и памятьные источники для внешних шрифтов.
+second_title: Aspose.Sildes для .NET API справка
+description: Предоставляет файловые и оперативные источники для внешних шрифтов.
 type: docs
-weight: 5870
+weight: 5890
 url: /ru/aspose.slides/ifontsources/
 ---
 ## IFontSources интерфейс
 
-Предоставляет файловые и памятьные источники для внешних шрифтов.
+Предоставляет файловые и оперативные источники для внешних шрифтов.
 
 ```csharp
 public interface IFontSources

@@ -1,14 +1,14 @@
 ---
 title: Value
-second_title: Aspose.Sildes .NET API Referenciája
-description: Visszaadja a diagram adatpont értékét. Csak olvasható IDoubleChartValueaspose.slides.charts/idoublechartvalue.
+second_title: Aspose.Sildes a .NET API hivatkozáshoz
+description: Lekéri egy diagram adatpont értékét. Csak olvasható IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
-weight: 160
+weight: 200
 url: /hu/aspose.slides.charts/ichartdatapoint/value/
 ---
 ## IChartDataPoint.Value tulajdonság
 
-Visszaadja a diagram adatpont értékét. Csak olvasható [`IDoubleChartValue`](../../idoublechartvalue).
+Lekéri a diagram adatpontjának értékét. Csak olvasható [`IDoubleChartValue`](../../idoublechartvalue).
 
 ```csharp
 public IDoubleChartValue Value { get; }

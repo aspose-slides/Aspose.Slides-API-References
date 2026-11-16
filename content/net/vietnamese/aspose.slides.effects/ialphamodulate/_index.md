@@ -1,14 +1,14 @@
 ---
 title: IAlphaModulate
-second_title: Aspose.Sildes cho .NET API Reference
-description: Đại diện cho hiệu ứng Alpha Modulate. Các giá trị alpha (độ mờ) của hiệu ứng được nhân với một tỷ lệ phần trăm cố định. Bộ chứa hiệu ứng chỉ định một hiệu ứng chứa các giá trị alpha để điều chỉnh.
+second_title: Tham khảo API Aspose.Sildes cho .NET
+description: Biểu diễn một hiệu ứng Alpha Modulate. Các giá trị alpha (độ trong suốt) của hiệu ứng được nhân với một tỷ lệ phần trăm cố định. Bộ chứa hiệu ứng chỉ định một hiệu ứng chứa các giá trị alpha để điều chế.
 type: docs
-weight: 3100
+weight: 3120
 url: /vi/aspose.slides.effects/ialphamodulate/
 ---
 ## IAlphaModulate giao diện
 
-Đại diện cho hiệu ứng Alpha Modulate. Các giá trị alpha (độ mờ) của hiệu ứng được nhân với một tỷ lệ phần trăm cố định. Bộ chứa hiệu ứng chỉ định một hiệu ứng chứa các giá trị alpha để điều chỉnh.
+Biểu diễn một hiệu ứng Alpha Modulate. Các giá trị alpha (độ trong suốt) của hiệu ứng được nhân với một tỷ lệ phần trăm cố định. Bộ chứa hiệu ứng chỉ định một hiệu ứng chứa các giá trị alpha để điều chế.
 
 ```csharp
 public interface IAlphaModulate : IAccessiblePVIObject<IAlphaModulateEffectiveData>, 
@@ -22,7 +22,7 @@ public interface IAlphaModulate : IAccessiblePVIObject<IAlphaModulateEffectiveDa
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphamodulate/asiaccessiblepviobject) { get; } | Cho phép lấy giao diện IAccessiblePVIObject cơ bản. Chỉ đọc [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
 | [AsIImageTransformOperation](../../aspose.slides.effects/ialphamodulate/asiimagetransformoperation) { get; } | Cho phép lấy giao diện IImageTransformOperation cơ bản. Chỉ đọc [`IImageTransformOperation`](../iimagetransformoperation). |
 
-### Xem Thêm
+### Xem thêm
 
 * giao diện [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * giao diện [IAlphaModulateEffectiveData](../ialphamodulateeffectivedata)

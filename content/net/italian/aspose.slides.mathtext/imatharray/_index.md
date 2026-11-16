@@ -1,12 +1,12 @@
 ---
 title: IMathArray
-second_title: Aspose.Sildes per .NET Riferimento API
+second_title: Aspose.Sildes per .NET API Reference
 description: Specifica un array verticale di equazioni o di qualsiasi oggetto matematico
 type: docs
-weight: 8100
+weight: 8120
 url: /it/aspose.slides.mathtext/imatharray/
 ---
-## interfaccia IMathArray
+## IMathArray interfaccia
 
 Specifica un array verticale di equazioni o di qualsiasi oggetto matematico
 
@@ -20,10 +20,10 @@ public interface IMathArray : IMathElement
 | --- | --- |
 | [Arguments](../../aspose.slides.mathtext/imatharray/arguments) { get; } | L'insieme di elementi dell'array |
 | [AsIMathElement](../../aspose.slides.mathtext/imatharray/asimathelement) { get; } | Consente di ottenere l'interfaccia base IMathElement [`IMathElement`](../imathelement) |
-| [BaseJustification](../../aspose.slides.mathtext/imatharray/basejustification) { get; set; } | Specifica l'allineamento dell'array rispetto al testo circostante. Il testo esterno all'array può essere allineato con la parte inferiore, superiore o centrale di un oggetto array. Valore predefinito: Center |
-| [MaximumDistribution](../../aspose.slides.mathtext/imatharray/maximumdistribution) { get; set; } | Distribuzione massima Quando è true, l'array è spaziato alla larghezza massima dell'elemento contenitore (pagina, colonna, cella, ecc.). |
-| [ObjectDistribution](../../aspose.slides.mathtext/imatharray/objectdistribution) { get; set; } | Distribuzione dell'oggetto Quando è true, il contenuto dell'array è spaziato alla larghezza massima dell'oggetto array. |
-| [RowSpacing](../../aspose.slides.mathtext/imatharray/rowspacing) { get; set; } | Spaziatura tra le righe di un array. È usata solo quando RowSpacingRule è impostato a 3 Exactly, nel qual caso l'unità di misura è punti, o Multiple, nel qual caso l'unità di misura è mezze linee. Valore predefinito: 0 |
+| [BaseJustification](../../aspose.slides.mathtext/imatharray/basejustification) { get; set; } | Specifica l'allineamento dell'array rispetto al testo circostante. Il testo al di fuori dell'array può essere allineato con il fondo, la parte superiore o il centro di un oggetto array. Valore predefinito: Center |
+| [MaximumDistribution](../../aspose.slides.mathtext/imatharray/maximumdistribution) { get; set; } | Distribuzione massima Quando true, l'array è distribuito alla larghezza massima dell'elemento contenitore (pagina, colonna, cella, ecc.). |
+| [ObjectDistribution](../../aspose.slides.mathtext/imatharray/objectdistribution) { get; set; } | Distribuzione dell'oggetto Quando true, il contenuto dell'array è distribuito alla larghezza massima dell'oggetto array. |
+| [RowSpacing](../../aspose.slides.mathtext/imatharray/rowspacing) { get; set; } | Spaziatura tra le righe di un array. Viene usata solo quando RowSpacingRule è impostato a 3 Exactly, nel qual caso l'unità di misura è points o Multiple, nel qual caso l'unità è half-lines. Predefinito: 0 |
 | [RowSpacingRule](../../aspose.slides.mathtext/imatharray/rowspacingrule) { get; set; } | Il tipo di spaziatura verticale tra gli elementi dell'array |
 
 ### Esempi

@@ -1,9 +1,9 @@
 ---
 title: IGeometryPath
-second_title: Aspose.Sildes لـ .NET مرجع API
+second_title: مرجع API لـ Aspose.Sildes for .NET
 description: يمثل مسار الهندسة لـ GeometryShape
 type: docs
-weight: 5970
+weight: 5990
 url: /ar/aspose.slides/igeometrypath/
 ---
 ## IGeometryPath واجهة
@@ -18,9 +18,9 @@ public interface IGeometryPath
 
 | الاسم | الوصف |
 | --- | --- |
-| [FillMode](../../aspose.slides/igeometrypath/fillmode) { get; set; } | يحدد وضع التعبئة |
-| [PathData](../../aspose.slides/igeometrypath/pathdata) { get; } | يعيد مسار الهندسة لـ GeometryShape كمصفوفة من مقاطع المسار. |
-| [Stroke](../../aspose.slides/igeometrypath/stroke) { get; set; } | يحدد مظهر الحد |
+| [FillMode](../../aspose.slides/igeometrypath/fillmode) { get; set; } | يضبط وضع التعبئة |
+| [PathData](../../aspose.slides/igeometrypath/pathdata) { get; } | يرجع مسار الهندسة لـ GeometryShape كمصفوفة من مقاطع المسار. |
+| [Stroke](../../aspose.slides/igeometrypath/stroke) { get; set; } | يضبط مظهر الخط |
 
 ## الطرق
 
@@ -28,23 +28,23 @@ public interface IGeometryPath
 | --- | --- |
 | [ArcTo](../../aspose.slides/igeometrypath/arcto)(float, float, float, float) | يضيف القوس المحدد إلى المسار. |
 | [CloseFigure](../../aspose.slides/igeometrypath/closefigure)() | يغلق الشكل الحالي لهذا المسار |
-| [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto_2)(PointF, PointF, PointF) | يضيف منحنى بيزيل تكعيبي في نهاية المسار |
-| [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto_3)(PointF, PointF, PointF, uint) | يضيف منحنى بيزيل تكعيبي إلى الموضع المحدد في المسار |
-| [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto)(float, float, float, float, float, float) | يضيف منحنى بيزيل تكعيبي في نهاية المسار |
-| [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto_1)(float, float, float, float, float, float, uint) | يضيف منحنى بيزيل تكعيبي إلى الموضع المحدد في المسار |
-| [LineTo](../../aspose.slides/igeometrypath/lineto#lineto_2)(PointF) | يضيف خطًا في نهاية المسار |
-| [LineTo](../../aspose.slides/igeometrypath/lineto#lineto)(float, float) | يضيف خطًا في نهاية المسار |
-| [LineTo](../../aspose.slides/igeometrypath/lineto#lineto_3)(PointF, uint) | يضيف خطًا إلى الموضع المحدد في المسار |
-| [LineTo](../../aspose.slides/igeometrypath/lineto#lineto_1)(float, float, uint) | يضيف خطًا إلى الموضع المحدد في المسار |
-| [MoveTo](../../aspose.slides/igeometrypath/moveto#moveto_1)(PointF) | يعيّن موضع النقطة التالية. |
-| [MoveTo](../../aspose.slides/igeometrypath/moveto#moveto)(float, float) | يعيّن موضع النقطة التالية. |
-| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto_2)(PointF, PointF) | يضيف منحنى بيزيل تربيعي في نهاية المسار |
-| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto_3)(PointF, PointF, uint) | يضيف منحنى بيزيل تربيعي إلى الموضع المحدد في المسار |
-| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto)(float, float, float, float) | يضيف منحنى بيزيل تربيعي في نهاية المسار |
-| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto_1)(float, float, float, float, uint) | يضيف منحنى بيزيل تربيعي إلى الموضع المحدد في المسار |
-| [RemoveAt](../../aspose.slides/igeometrypath/removeat)(int) | يزيل المقطع في الفهرس المحدد لمسار الهندسة. |
+| [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto_2)(PointF, PointF, PointF) | يضيف منحنى بيزيه مكعب في نهاية المسار |
+| [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto_3)(PointF, PointF, PointF, uint) | يضيف منحنى بيزيه مكعب إلى المكان المحدد في المسار |
+| [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto)(float, float, float, float, float, float) | يضيف منحنى بيزيه مكعب في نهاية المسار |
+| [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto_1)(float, float, float, float, float, float, uint) | يضيف منحنى بيزيه مكعب إلى المكان المحدد في المسار |
+| [LineTo](../../aspose.slides/igeometrypath/lineto#lineto_2)(PointF) | يضيف خطًا إلى نهاية المسار |
+| [LineTo](../../aspose.slides/igeometrypath/lineto#lineto)(float, float) | يضيف خطًا إلى نهاية المسار |
+| [LineTo](../../aspose.slides/igeometrypath/lineto#lineto_3)(PointF, uint) | يضيف خطًا إلى المكان المحدد في المسار |
+| [LineTo](../../aspose.slides/igeometrypath/lineto#lineto_1)(float, float, uint) | يضيف خطًا إلى المكان المحدد في المسار |
+| [MoveTo](../../aspose.slides/igeometrypath/moveto#moveto_1)(PointF) | يضبط موقع النقطة التالية. |
+| [MoveTo](../../aspose.slides/igeometrypath/moveto#moveto)(float, float) | يضبط موقع النقطة التالية. |
+| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto_2)(PointF, PointF) | يضيف منحنى بيزيه تربيعي في نهاية المسار |
+| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto_3)(PointF, PointF, uint) | يضيف منحنى بيزيه تربيعي إلى المكان المحدد في المسار |
+| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto)(float, float, float, float) | يضيف منحنى بيزيه تربيعي في نهاية المسار |
+| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto_1)(float, float, float, float, uint) | يضيف منحنى بيزيه تربيعي إلى المكان المحدد في المسار |
+| [RemoveAt](../../aspose.slides/igeometrypath/removeat)(int) | يزيل المقطع عند الفهرس المحدد لمسار الهندسة. |
 
-### انظر أيضا
+### انظر أيضًا
 
 * نطاق [Aspose.Slides](../../aspose.slides)
 * تجميع [Aspose.Slides](../../)

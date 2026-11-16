@@ -3,12 +3,12 @@ title: Convert.GetOutPathCallback
 second_title: Aspose.Sildes の .NET API リファレンス
 description: 各 Slide../aspose.slides/slide に対して呼び出されるコールバックで、出力パスが返されることが期待されます。
 type: docs
-weight: 7890
+weight: 7910
 url: /ja/aspose.slides.lowcode/convert.getoutpathcallback/
 ---
 ## Convert.GetOutPathCallback デリゲート
 
-各 [`Slide`](../../aspose.slides/slide) に対して呼び出されるコールバックで、出力パスを返すことが期待されます。
+各 [`Slide`](../../aspose.slides/slide) に対して呼び出されるコールバックで、出力パスが返されることが期待されます。
 
 ```csharp
 public delegate string GetOutPathCallback(Slide slide, int index);
@@ -16,7 +16,7 @@ public delegate string GetOutPathCallback(Slide slide, int index);
 
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| slide | Slide | 現在反復されているスライド |
+| slide | Slide | 現在反復中のスライド |
 | index | Int32 | 現在のスライドのインデックス |
 
 ### 参照

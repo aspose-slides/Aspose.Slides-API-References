@@ -3,12 +3,12 @@ title: IFormatScheme
 second_title: Aspose.Sildes para la referencia de API de .NET
 description: Almacena los formatos definidos por el tema para las formas.
 type: docs
-weight: 11270
+weight: 11290
 url: /es/aspose.slides.theme/iformatscheme/
 ---
 ## IFormatScheme interfaz
 
-Almacena formatos definidos por el tema para las formas.
+Almacena los formatos definidos por el tema para las formas.
 
 ```csharp
 public interface IFormatScheme : ISlideComponent

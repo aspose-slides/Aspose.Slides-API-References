@@ -1,14 +1,14 @@
 ---
 title: PresentationFactory
-second_title: Referencia de API Aspose.Sildes para .NET
-description: Permite crear presentaciones mediante la interfaz COM
+second_title: Aspose.Sildes para la referencia de la API de .NET
+description: Permite crear una presentación mediante la interfaz COM
 type: docs
-weight: 9600
+weight: 9620
 url: /es/aspose.slides/presentationfactory/
 ---
 ## PresentationFactory clase
 
-Permite crear presentaciones mediante la interfaz COM
+Permite crear una presentación mediante la interfaz COM
 
 ```csharp
 public class PresentationFactory : IPresentationFactory
@@ -16,33 +16,33 @@ public class PresentationFactory : IPresentationFactory
 
 ## Constructores
 
-| Nombre | Descripción |
+| Name | Description |
 | --- | --- |
 | [PresentationFactory](presentationfactory)() | El constructor predeterminado. |
 
 ## Propiedades
 
-| Nombre | Descripción |
+| Name | Description |
 | --- | --- |
-| static [Instance](../../aspose.slides/presentationfactory/instance) { get; } | Instancia estática de la fábrica de presentaciones. Solo lectura [`PresentationFactory`](../presentationfactory). |
+| static [Instance](../../aspose.slides/presentationfactory/instance) { get; } | Instancia estática de la fábrica de presentaciones. Solo de lectura [`PresentationFactory`](../presentationfactory). |
 
 ## Métodos
 
-| Nombre | Descripción |
+| Name | Description |
 | --- | --- |
 | [CreatePresentation](../../aspose.slides/presentationfactory/createpresentation#createpresentation)() | Crea una nueva presentación. |
 | [CreatePresentation](../../aspose.slides/presentationfactory/createpresentation#createpresentation_1)(ILoadOptions) | Crea una nueva presentación con opciones de carga adicionales |
-| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo)(Stream) | Crea un objeto PresentationInfo a partir de un Stream y enlaza la presentación a él. Obtiene información sobre la presentación en el Stream especificado. |
-| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo_1)(string) | Crea un objeto PresentationInfo a partir de un archivo y enlaza la presentación a él. |
+| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo)(Stream) | Crea un objeto PresentationInfo a partir del flujo y enlaza la presentación a él. Obtiene información sobre la presentación en el flujo especificado. |
+| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo_1)(string) | Crea un objeto PresentationInfo a partir del archivo y enlaza la presentación a él. |
 | [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext)(Stream, TextExtractionArrangingMode) | Recupera el texto sin formato de las diapositivas |
 | [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext_2)(string, TextExtractionArrangingMode) | Recupera el texto sin formato de las diapositivas |
 | [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext_1)(Stream, TextExtractionArrangingMode, ILoadOptions) | Recupera el texto sin formato de las diapositivas |
 | [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation)(byte[]) | Lee una presentación existente desde una matriz |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_2)(Stream) | Lee una presentación existente desde un Stream |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_2)(Stream) | Lee una presentación existente desde un flujo |
 | [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_4)(string) | Lee una presentación existente desde un archivo |
 | [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_1)(byte[], ILoadOptions) | Lee una presentación existente desde una matriz con opciones de carga adicionales |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_3)(Stream, ILoadOptions) | Lee una presentación existente desde un Stream con opciones de carga adicionales |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_5)(string, ILoadOptions) | Lee una presentación existente desde un Stream con opciones de carga adicionales |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_3)(Stream, ILoadOptions) | Lee una presentación existente desde un flujo con opciones de carga adicionales |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_5)(string, ILoadOptions) | Lee una presentación existente desde un flujo con opciones de carga adicionales |
 
 ### Ejemplos
 
@@ -67,7 +67,7 @@ IDocumentProperties props = info.ReadDocumentProperties();
 Console.WriteLine(props.CreatedTime);
 Console.WriteLine(props.Subject);
 Console.WriteLine(props.Title);
-// ...
+// ..
 ```
 
 El siguiente ejemplo muestra cómo actualizar las propiedades de una presentación.
@@ -82,8 +82,8 @@ info.UpdateDocumentProperties(props);
 
 ### Ver también
 
-* interface [IPresentationFactory](../ipresentationfactory)
-* namespace [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* interfaz [IPresentationFactory](../ipresentationfactory)
+* espacio de nombres [Aspose.Slides](../../aspose.slides)
+* ensamblado [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

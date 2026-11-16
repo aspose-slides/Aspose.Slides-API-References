@@ -1,14 +1,14 @@
 ---
 title: TransitionCornerDirectionType
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Geeft hoekrichtingsovergangstypen weer.
+description: Geeft hoeksrichtingsovergangstypen weer.
 type: docs
-weight: 10350
+weight: 10370
 url: /nl/aspose.slides.slideshow/transitioncornerdirectiontype/
 ---
-## enumeratie TransitionCornerDirectionType
+## TransitionCornerDirectionType enumeratie
 
-Geeft hoekrichtingsovergangstypen weer.
+Geeft hoeksrichtingsovergangstypen weer.
 
 ```csharp
 public enum TransitionCornerDirectionType

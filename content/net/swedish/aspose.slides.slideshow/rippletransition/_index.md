@@ -1,14 +1,14 @@
 ---
 title: RippleTransition
 second_title: Aspose.Sildes för .NET API-referens
-description: Ripple-slide-övergångseffekt.
+description: Ripple-bildövergångseffekt.
 type: docs
-weight: 10290
+weight: 10310
 url: /sv/aspose.slides.slideshow/rippletransition/
 ---
 ## RippleTransition klass
 
-Ripple-slide-övergångseffekt.
+Ripple-bildövergångseffekt.
 
 ```csharp
 public class RippleTransition : TransitionValueBase, IRippleTransition
@@ -18,7 +18,7 @@ public class RippleTransition : TransitionValueBase, IRippleTransition
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/rippletransition/direction) { get; set; } | Riktning för övergången. Läs/skriv [`TransitionCornerAndCenterDirectionType`](../transitioncornerandcenterdirectiontype). |
+| [Direction](../../aspose.slides.slideshow/rippletransition/direction) { get; set; } | Riktning för övergången. Läsa/skriva [`TransitionCornerAndCenterDirectionType`](../transitioncornerandcenterdirectiontype). |
 
 ## Metoder
 

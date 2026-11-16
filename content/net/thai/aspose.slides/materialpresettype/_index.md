@@ -3,10 +3,10 @@ title: MaterialPresetType
 second_title: Aspose.Sildes สำหรับ .NET API Reference
 description: ค่าคงที่ที่กำหนดวัสดุของรูปทรง.
 type: docs
-weight: 8060
+weight: 8080
 url: /th/aspose.slides/materialpresettype/
 ---
-## MaterialPresetType การกำหนดค่า enum
+## MaterialPresetType enumeration
 
 ค่าคงที่ที่กำหนดวัสดุของรูปทรง.
 

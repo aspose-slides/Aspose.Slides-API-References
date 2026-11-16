@@ -1,14 +1,14 @@
 ---
 title: PptxEditException
-second_title: Aspose.Sildes .NET API Referansı
-description: Düzenleme sunumu hatası tespit edildiğinde atılan bir istisna temsil eder.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Düzenleme sunumu hatası tespit edildiğinde fırlatılan bir istisnayı temsil eder.
 type: docs
-weight: 9550
+weight: 9570
 url: /tr/aspose.slides/pptxeditexception/
 ---
 ## PptxEditException sınıfı
 
-Düzenleme sunumu hatası tespit edildiğinde atılan bir istisna temsil eder.
+Temsil edilen istisna, sunumu düzenleme hatası tespit edildiğinde fırlatılır.
 
 ```csharp
 public class PptxEditException : PptxException
@@ -19,7 +19,7 @@ public class PptxEditException : PptxException
 | Ad | Açıklama |
 | --- | --- |
 | [PptxEditException](pptxeditexception#constructor)() | Varsayılan yapıcı. |
-| [PptxEditException](pptxeditexception#constructor_1)(string) | Bu istisnaya bir mesaj eklemeye izin veren yapıcı. |
+| [PptxEditException](pptxeditexception#constructor_1)(string) | Bu istisna için bir mesaj eklenmesine izin veren yapıcı. |
 | [PptxEditException](pptxeditexception#constructor_2)(string, Exception) | Bir mesaj ve gömülü bir istisna içeren bir istisna için yapıcı. |
 
 ### Ayrıca Bakınız

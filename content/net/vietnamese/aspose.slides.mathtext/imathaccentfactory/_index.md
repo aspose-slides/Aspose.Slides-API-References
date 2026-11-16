@@ -1,14 +1,14 @@
 ---
 title: IMathAccentFactory
-second_title: Tham khảo API Aspose.Sildes cho .NET
-description: Cho phép tạo một dấu nhấn toán học
+second_title: Aspose.Sildes cho .NET Tham khảo API
+description: Cho phép tạo một dấu accent toán học
 type: docs
-weight: 8090
+weight: 8110
 url: /vi/aspose.slides.mathtext/imathaccentfactory/
 ---
 ## IMathAccentFactory giao diện
 
-Cho phép tạo một dấu nhấn toán học
+Cho phép tạo một dấu accent toán học
 
 ```csharp
 public interface IMathAccentFactory
@@ -18,12 +18,12 @@ public interface IMathAccentFactory
 
 | Tên | Mô tả |
 | --- | --- |
-| [CreateMathAccent](../../aspose.slides.mathtext/imathaccentfactory/createmathaccent#createmathaccent)(IMathElement) | Tạo một dấu nhấn toán học áp dụng cho một phần tử toán học được chỉ định với giá trị ký tự accent mặc định |
-| [CreateMathAccent](../../aspose.slides.mathtext/imathaccentfactory/createmathaccent#createmathaccent_1)(IMathElement, char) | Tạo một dấu nhấn toán học áp dụng cho một phần tử toán học được chỉ định |
+| [CreateMathAccent](../../aspose.slides.mathtext/imathaccentfactory/createmathaccent#createmathaccent)(IMathElement) | Tạo một dấu accent toán học áp dụng cho một phần tử toán học được chỉ định với giá trị ký tự accent mặc định |
+| [CreateMathAccent](../../aspose.slides.mathtext/imathaccentfactory/createmathaccent#createmathaccent_1)(IMathElement, char) | Tạo một dấu accent toán học áp dụng cho một phần tử toán học được chỉ định |
 
 ### Ghi chú
 
-Đối với khả năng tương thích COM
+Đối với tính tương thích COM
 
 ### Xem thêm
 

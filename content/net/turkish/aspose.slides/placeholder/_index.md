@@ -1,14 +1,14 @@
 ---
 title: Placeholder
-second_title: Aspose.Sildes for .NET API Referansı
-description: Bir slaytta yer tutucuyu temsil eder.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Bir slayttaki yer tutucuyu temsil eder.
 type: docs
-weight: 9430
+weight: 9450
 url: /tr/aspose.slides/placeholder/
 ---
-## Yer tutucu sınıfı
+## Yer tutucu sınıf
 
-Bir slayt üzerindeki yer tutucuyu temsil eder.
+Bir slaytta yer tutucuyu temsil eder.
 
 ```csharp
 public class Placeholder : IPlaceholder
@@ -18,14 +18,14 @@ public class Placeholder : IPlaceholder
 
 | Ad | Açıklama |
 | --- | --- |
-| [Index](../../aspose.slides/placeholder/index) { get; } | Bir yer tutucunun dizinini alır veya ayarlar. Yalnızca okunabilir UInt32. |
-| [Orientation](../../aspose.slides/placeholder/orientation) { get; } | Bir yer tutucunun yönünü alır veya ayarlar. Yalnızca okunabilir [`Orientation`](../orientation). |
-| [Size](../../aspose.slides/placeholder/size) { get; } | Bir yer tutucunun boyutunu alır veya ayarlar. Yalnızca okunabilir [`PlaceholderSize`](../placeholdersize). |
-| [Type](../../aspose.slides/placeholder/type) { get; } | Bir yer tutucunun tipini alır veya ayarlar. Yalnızca okunabilir [`PlaceholderType`](../placeholdertype). |
+| [Index](../../aspose.slides/placeholder/index) { get; } | Bir yer tutucunun indeksini alır veya ayarlar. Salt okunur UInt32. |
+| [Orientation](../../aspose.slides/placeholder/orientation) { get; } | Bir yer tutucunun yönünü alır veya ayarlar. Salt okunur [`Orientation`](../orientation). |
+| [Size](../../aspose.slides/placeholder/size) { get; } | Bir yer tutucunun boyutunu alır veya ayarlar. Salt okunur [`PlaceholderSize`](../placeholdersize). |
+| [Type](../../aspose.slides/placeholder/type) { get; } | Bir yer tutucunun tipini alır veya ayarlar. Salt okunur [`PlaceholderType`](../placeholdertype). |
 
-### Bakınız
+### Ayrıca
 
-* arayüz [IPlaceholder](../iplaceholder)
+* arabirim [IPlaceholder](../iplaceholder)
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)
 

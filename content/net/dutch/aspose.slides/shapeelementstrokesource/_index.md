@@ -1,14 +1,14 @@
 ---
 title: ShapeElementStrokeSource
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Representeert hoe shape element getekend moet worden.
+description: Geeft weer hoe shape element moet worden getekend.
 type: docs
-weight: 9890
+weight: 9910
 url: /nl/aspose.slides/shapeelementstrokesource/
 ---
-## ShapeElementStrokeSource-enumeratie
+## ShapeElementStrokeSource enumeration
 
-Geeft aan hoe een shape-element getekend moet worden.
+Geeft weer hoe een shape-element moet worden getekend.
 
 ```csharp
 public enum ShapeElementStrokeSource : byte
@@ -16,11 +16,11 @@ public enum ShapeElementStrokeSource : byte
 
 ### Waarden
 
-| Name | Value | Description |
+| Naam | Waarde | Beschrijving |
 | --- | --- | --- |
-| NoStroke | `0` | Geen omtrek voor primitive. |
-| Shape | `1` | Gebruik de LineFormat van shape. |
-| OwnStroke | `2` | Gebruik de eigen omtrek. |
+| NoStroke | `0` | Geen lijn tekenen voor primitief. |
+| Shape | `1` | Gebruik de LineFormat van de shape. |
+| OwnStroke | `2` | Gebruik eigen lijn. |
 
 ### Zie ook
 

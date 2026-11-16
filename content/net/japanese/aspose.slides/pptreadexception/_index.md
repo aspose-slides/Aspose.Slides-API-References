@@ -3,7 +3,7 @@ title: PptReadException
 second_title: Aspose.Sildes for .NET API リファレンス
 description: プレゼンテーションの読み取りエラー時にスローされる例外を表します。
 type: docs
-weight: 9530
+weight: 9550
 url: /ja/aspose.slides/pptreadexception/
 ---
 ## PptReadException クラス
@@ -14,13 +14,13 @@ url: /ja/aspose.slides/pptreadexception/
 public class PptReadException : PptException
 ```
 
-## コンストラクター
+## コンストラクタ
 
 | 名前 | 説明 |
 | --- | --- |
-| [PptReadException](pptreadexception#constructor)() | デフォルトコンストラクター。 |
-| [PptReadException](pptreadexception#constructor_1)(string) | メッセージを追加できるコンストラクター。 |
-| [PptReadException](pptreadexception#constructor_2)(string, Exception) | メッセージと内部例外を含む例外のためのコンストラクター。 |
+| [PptReadException](pptreadexception#constructor)() | デフォルトコンストラクタ。 |
+| [PptReadException](pptreadexception#constructor_1)(string) | この例外にメッセージを追加できるコンストラクタ。 |
+| [PptReadException](pptreadexception#constructor_2)(string, Exception) | メッセージと内部例外を含む例外のコンストラクタ。 |
 
 ### 参照
 

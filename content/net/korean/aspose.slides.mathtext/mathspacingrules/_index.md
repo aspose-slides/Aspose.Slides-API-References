@@ -1,14 +1,14 @@
 ---
 title: MathSpacingRules
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 행렬 열 사이의 간격(수평 간격) 유형
+second_title: Aspose.Sildes for .NET API 참조
+description: 행렬 열 사이의 수평 간격 유형
 type: docs
-weight: 8990
+weight: 9010
 url: /ko/aspose.slides.mathtext/mathspacingrules/
 ---
 ## MathSpacingRules 열거형
 
-행렬 열 사이의 간격(수평 간격) 유형
+행렬의 열 사이의 간격(수평 간격) 유형
 
 ```csharp
 public enum MathSpacingRules
@@ -18,13 +18,13 @@ public enum MathSpacingRules
 
 | 이름 | 값 | 설명 |
 | --- | --- | --- |
-| SingleSpacingGap | `0` | 단일 (열에 대해 1 em, 행에 대해 1 라인) |
-| OneAndHalfSpacingGap | `1` | 하나와 절반 (열에 대해 1.5 em, 행에 대해 1.5 라인) |
-| DoubleSpacingGap | `2` | 두 배 간격 (열에 대해 2 em, 행에 대해 2 라인) |
-| Exactly | `3` | 정확한 값 열에 대해서는 ColumnGap 값을 사용하고, twips 단위로 측정합니다. 행에 대해서는 RowGap 값을 사용하고, twips 단위로 측정합니다. |
-| Multiple | `4` | 다중 열에 대해서는 ColumnGap 값을 사용하며, 0.5 em 단위로 측정됩니다. 행에 대해서는 RowGap 값을 사용하며, 라인 단위로 측정됩니다. |
+| SingleSpacingGap | `0` | 단일 (1 em for columns or 1 line for rows) |
+| OneAndHalfSpacingGap | `1` | 하나와 반 (1.5 ems for columns or 1.5 lines for rows) |
+| DoubleSpacingGap | `2` | 이중 간격 (2 ems for columns or 2 lines for rows) |
+| Exactly | `3` | 정확히 값 열에 대해서는 ColumnGap 값에 의존하며, twips 단위로 측정됩니다. 행에 대해서는 RowGap 값에 의존하며, twips 단위로 측정됩니다. |
+| Multiple | `4` | 다중 열에 대해서는 ColumnGap 값에 의존하며, 0.5 em 증분으로 측정됩니다. 행에 대해서는 RowGap 값에 의존하며, 라인 단위로 측정됩니다. |
 
-### 참고
+### 참조
 
 * 네임스페이스 [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * 어셈블리 [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: CornerDirectionTransition
-second_title: Aspose.Sildes pro .NET referenční příručka API
-description: Efekt přechodu slidu v rohovém směru.
+second_title: Aspose.Sildes pro .NET API referenci
+description: Efekt přechodu snímku rohovým směrem.
 type: docs
-weight: 10010
+weight: 10030
 url: /cs/aspose.slides.slideshow/cornerdirectiontransition/
 ---
 ## CornerDirectionTransition třída
 
-Rohový směr efektu přechodu slidu.
+Efekt přechodu snímku rohovým směrem.
 
 ```csharp
 public class CornerDirectionTransition : TransitionValueBase, ICornerDirectionTransition
@@ -18,14 +18,14 @@ public class CornerDirectionTransition : TransitionValueBase, ICornerDirectionTr
 
 | Název | Popis |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/cornerdirectiontransition/direction) { get; set; } | Směr přechodu. Číst/zapisovat [`TransitionCornerDirectionType`](../transitioncornerdirectiontype). |
+| [Direction](../../aspose.slides.slideshow/cornerdirectiontransition/direction) { get; set; } | Směr přechodu. Číst/Zapisovat [`TransitionCornerDirectionType`](../transitioncornerdirectiontype). |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Určuje, zda jsou dvě instance TransitionValueBase stejné. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Slouží jako hashovací funkce pro konkrétní typ, vhodná pro použití v hashovacích algoritmech a datových strukturách, jako je hash tabulka. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Slouží jako hašovací funkce pro konkrétní typ, vhodná k použití v hašovacích algoritmech a datových strukturách, jako je hašovací tabulka. |
 
 ### Viz také
 

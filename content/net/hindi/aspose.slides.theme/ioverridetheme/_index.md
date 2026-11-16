@@ -1,14 +1,14 @@
 ---
 title: IOverrideTheme
-second_title: Aspose.Sildes .NET के लिए API संदर्भ
-description: एक ओवरराइडिंग थीम को दर्शाता है।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: एक ओवरराइडिंग थीम का प्रतिनिधित्व करता है।
 type: docs
-weight: 11340
+weight: 11360
 url: /hi/aspose.slides.theme/ioverridetheme/
 ---
 ## IOverrideTheme इंटरफ़ेस
 
-Represents a overriding theme.
+एक ओवरराइडिंग थीम का प्रतिनिधित्व करता है।
 
 ```csharp
 public interface IOverrideTheme : ITheme
@@ -18,28 +18,28 @@ public interface IOverrideTheme : ITheme
 
 | नाम | विवरण |
 | --- | --- |
-| [AsITheme](../../aspose.slides.theme/ioverridetheme/asitheme) { get; } | Base ITheme इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`ITheme`](../itheme)। |
-| [IsEmpty](../../aspose.slides.theme/ioverridetheme/isempty) { get; } | True मान का अर्थ है कि ColorScheme, FontScheme, FormatScheme null हैं और इस थीम ऑब्जेक्ट के साथ कोई भी ओवरराइडिंग अक्षम है। केवल-पढ़ने योग्य Boolean। |
+| [AsITheme](../../aspose.slides.theme/ioverridetheme/asitheme) { get; } | बेस ITheme इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पठनीय [`ITheme`](../itheme)। |
+| [IsEmpty](../../aspose.slides.theme/ioverridetheme/isempty) { get; } | सही मान का अर्थ है कि ColorScheme, FontScheme, FormatScheme null है और इस थीम ऑब्जेक्ट के साथ कोई भी ओवरराइडिंग निष्क्रिय है। केवल-पठनीय Boolean। |
 
-## मेथड्स
+## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [Clear](../../aspose.slides.theme/ioverridetheme/clear)() | ColorScheme, FontScheme, FormatScheme को null सेट करता है ताकि इस थीम ऑब्जेक्ट के साथ कोई भी ओवरराइडिंग अक्षम हो जाए। |
-| [InitColorScheme](../../aspose.slides.theme/ioverridetheme/initcolorscheme)() | InheritedTheme के ColorScheme को ओवरराइड करने के लिए नया ऑब्जेक्ट बनाकर ColorScheme को प्रारंभ करता है। |
-| [InitColorSchemeFrom](../../aspose.slides.theme/ioverridetheme/initcolorschemefrom)(IColorScheme) | InheritedTheme के ColorScheme को ओवरराइड करने के लिए नया ऑब्जेक्ट बनाकर ColorScheme को प्रारंभ करता है। |
-| [InitColorSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initcolorschemefrominherited)() | InheritedTheme के ColorScheme को ओवरराइड करने के लिए नया ऑब्जेक्ट बनाकर ColorScheme को प्रारंभ करता है। और इस नए ऑब्जेक्ट का डेटा InheritedTheme के ColorScheme के डेटा से प्रारंभ करता है। |
-| [InitFontScheme](../../aspose.slides.theme/ioverridetheme/initfontscheme)() | InheritedTheme के FontScheme को ओवरराइड करने के लिए नया ऑब्जेक्ट बनाकर FontScheme को प्रारंभ करता है। |
-| [InitFontSchemeFrom](../../aspose.slides.theme/ioverridetheme/initfontschemefrom)(IFontScheme) | InheritedTheme के FontScheme को ओवरराइड करने के लिए नया ऑब्जेक्ट बनाकर FontScheme को प्रारंभ करता है। |
-| [InitFontSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initfontschemefrominherited)() | InheritedTheme के FontScheme को ओवरराइड करने के लिए नया ऑब्जेक्ट बनाकर FontScheme को प्रारंभ करता है। और इस नए ऑब्जेक्ट का डेटा InheritedTheme के FontScheme के डेटा से प्रारंभ करता है। |
-| [InitFormatScheme](../../aspose.slides.theme/ioverridetheme/initformatscheme)() | InheritedTheme के FormatScheme को ओवरराइड करने के लिए नया ऑब्जेक्ट बनाकर FormatScheme को प्रारंभ करता है। |
-| [InitFormatSchemeFrom](../../aspose.slides.theme/ioverridetheme/initformatschemefrom)(IFormatScheme) | InheritedTheme के FormatScheme को ओवरराइड करने के लिए नया ऑब्जेक्ट बनाकर FormatScheme को प्रारंभ करता है। |
-| [InitFormatSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initformatschemefrominherited)() | InheritedTheme के FormatScheme को ओवरराइड करने के लिए नया ऑब्जेक्ट बनाकर FormatScheme को प्रारंभ करता है। और इस नए ऑब्जेक्ट का डेटा InheritedTheme के FormatScheme के डेटा से प्रारंभ करता है। |
+| [Clear](../../aspose.slides.theme/ioverridetheme/clear)() | ColorScheme, FontScheme, FormatScheme को null सेट करके इस थीम ऑब्जेक्ट के साथ किसी भी ओवरराइडिंग को निष्क्रिय करता है। |
+| [InitColorScheme](../../aspose.slides.theme/ioverridetheme/initcolorscheme)() | InheritedTheme के ColorScheme को ओवरराइड करने के लिए नए ऑब्जेक्ट के साथ ColorScheme को इनिशियलाइज़ करता है। |
+| [InitColorSchemeFrom](../../aspose.slides.theme/ioverridetheme/initcolorschemefrom)(IColorScheme) | InheritedTheme के ColorScheme को ओवरराइड करने के लिए नए ऑब्जेक्ट के साथ ColorScheme को इनिशियलाइज़ करता है। |
+| [InitColorSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initcolorschemefrominherited)() | InheritedTheme के ColorScheme को ओवरराइड करने के लिए नए ऑब्जेक्ट के साथ ColorScheme को इनिशियलाइज़ करता है। और इस नए ऑब्जेक्ट का डेटा InheritedTheme के ColorScheme के डेटा से इनिशियलाइज़ करता है। |
+| [InitFontScheme](../../aspose.slides.theme/ioverridetheme/initfontscheme)() | InheritedTheme के FontScheme को ओवरराइड करने के लिए नए ऑब्जेक्ट के साथ FontScheme को इनिशियलाइज़ करता है। |
+| [InitFontSchemeFrom](../../aspose.slides.theme/ioverridetheme/initfontschemefrom)(IFontScheme) | InheritedTheme के FontScheme को ओवरराइड करने के लिए नए ऑब्जेक्ट के साथ FontScheme को इनिशियलाइज़ करता है। |
+| [InitFontSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initfontschemefrominherited)() | InheritedTheme के FontScheme को ओवरराइड करने के लिए नए ऑब्जेक्ट के साथ FontScheme को इनिशियलाइज़ करता है। और इस नए ऑब्जेक्ट का डेटा InheritedTheme के FontScheme के डेटा से इनिशियलाइज़ करता है। |
+| [InitFormatScheme](../../aspose.slides.theme/ioverridetheme/initformatscheme)() | InheritedTheme के FormatScheme को ओवरराइड करने के लिए नए ऑब्जेक्ट के साथ FormatScheme को इनिशियलाइज़ करता है। |
+| [InitFormatSchemeFrom](../../aspose.slides.theme/ioverridetheme/initformatschemefrom)(IFormatScheme) | InheritedTheme के FormatScheme को ओवरराइड करने के लिए नए ऑब्जेक्ट के साथ FormatScheme को इनिशियलाइज़ करता है। |
+| [InitFormatSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initformatschemefrominherited)() | InheritedTheme के FormatScheme को ओवरराइड करने के लिए नए ऑब्जेक्ट के साथ FormatScheme को इनिशियलाइज़ करता है। और इस नए ऑब्जेक्ट का डेटा InheritedTheme के FormatScheme के डेटा से इनिशियलाइज़ करता है। |
 
-### देखें
+### संबंधित देखें
 
 * इंटरफ़ेस [ITheme](../itheme)
-* नामस्थान [Aspose.Slides.Theme](../../aspose.slides.theme)
+* नेमस्पेस [Aspose.Slides.Theme](../../aspose.slides.theme)
 * असेंबली [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

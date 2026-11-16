@@ -3,7 +3,7 @@ title: ISection
 second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 슬라이드 섹션을 나타냅니다.
 type: docs
-weight: 6890
+weight: 6910
 url: /ko/aspose.slides/isection/
 ---
 ## ISection 인터페이스
@@ -16,15 +16,15 @@ public interface ISection
 
 ## 속성
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
-| [Name](../../aspose.slides/isection/name) { get; set; } | 섹션 이름. |
+| [Name](../../aspose.slides/isection/name) { get; set; } | 섹션의 이름. |
 | [SectionId](../../aspose.slides/isection/sectionid) { get; } | 섹션 ID. |
 | [StartedFromSlide](../../aspose.slides/isection/startedfromslide) { get; } | 섹션의 첫 번째 슬라이드를 반환합니다. |
 
 ## 메서드
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
 | [GetSlidesListOfSection](../../aspose.slides/isection/getslideslistofsection)() | 섹션에 포함된 슬라이드 목록을 반환합니다. |
 

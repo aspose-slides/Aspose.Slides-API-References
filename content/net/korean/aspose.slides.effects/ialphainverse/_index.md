@@ -1,14 +1,14 @@
 ---
 title: IAlphaInverse
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: Alpha Inverse 효과를 나타냅니다. Alpha 불투명도 값은 100에서 빼서 반전됩니다.
+description: Alpha 역효과를 나타냅니다. Alpha 불투명도 값은 100에서 빼서 반전됩니다.
 type: docs
-weight: 3080
+weight: 3100
 url: /ko/aspose.slides.effects/ialphainverse/
 ---
-## IAlphaInverse 인터페이스
+## IAlphaInverse interface
 
-Alpha Inverse 효과를 나타냅니다. Alpha(불투명도) 값은 100%에서 빼서 반전됩니다.
+Alpha 역효과를 나타냅니다. Alpha(불투명도) 값은 100%에서 빼서 반전됩니다.
 
 ```csharp
 public interface IAlphaInverse : IAccessiblePVIObject<IAlphaInverseEffectiveData>, 
@@ -17,12 +17,12 @@ public interface IAlphaInverse : IAccessiblePVIObject<IAlphaInverseEffectiveData
 
 ## 속성
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphainverse/asiaccessiblepviobject) { get; } | 기본 IAccessiblePVIObject 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
 | [AsIImageTransformOperation](../../aspose.slides.effects/ialphainverse/asiimagetransformoperation) { get; } | 기본 IImageTransformOperation 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IImageTransformOperation`](../iimagetransformoperation). |
 
-### 참고
+### 또 보기
 
 * 인터페이스 [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * 인터페이스 [IAlphaInverseEffectiveData](../ialphainverseeffectivedata)

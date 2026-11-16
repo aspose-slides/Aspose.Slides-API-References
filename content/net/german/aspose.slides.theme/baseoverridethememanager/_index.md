@@ -1,14 +1,14 @@
 ---
 title: BaseOverrideThemeManager
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Basisklasse für Klassen, die Zugriff auf verschiedene Arten von überschriebenen Themes bietet.
+description: Basisklasse für Klassen, die Zugriff auf verschiedene Arten von überschriebenen Themen bieten.
 type: docs
-weight: 11040
+weight: 11060
 url: /de/aspose.slides.theme/baseoverridethememanager/
 ---
 ## BaseOverrideThemeManager Klasse
 
-Basisklasse für Klassen, die Zugriff auf verschiedene Arten von überschriebenen Themes bieten.
+Basisklasse für Klassen, die Zugriff auf verschiedene Arten von überschriebenen Themen bieten.
 
 ```csharp
 public abstract class BaseOverrideThemeManager : BaseThemeManager, IOverrideThemeManager
@@ -16,17 +16,17 @@ public abstract class BaseOverrideThemeManager : BaseThemeManager, IOverrideThem
 
 ## Eigenschaften
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Bestimmt, ob OverrideTheme das geerbte effektive Theme überschreibt oder nicht. Um OverrideTheme zum Überschreiben zu aktivieren, verwenden Sie die OverrideTheme.Init*()-Methoden. Um OverrideTheme vom Überschreiben zu deaktivieren, verwenden Sie die OverrideTheme.Clear()-Methode. Nur lesbar Boolean. |
-| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Gibt das überschreibende Theme-Objekt zurück. Lesen/Schreiben [`IOverrideTheme`](../ioverridetheme). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Bestimmt, ob OverrideTheme das vererbte effektive Thema überschreibt oder nicht. Um OverrideTheme für das Überschreiben zu aktivieren, verwenden Sie die OverrideTheme.Init*()-Methoden. Um OverrideTheme vom Überschreiben zu deaktivieren, verwenden Sie die OverrideTheme.Clear()-Methode. Nur lesbar Boolean. |
+| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Gibt das überschreibende Themenobjekt zurück. Lese-/Schreib [`IOverrideTheme`](../ioverridetheme). |
 
 ## Methoden
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
 | [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | Wendet ein zusätzliches Farbschema auf eine Folie an. |
-| [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | Gibt das Theme-Objekt zurück. |
+| [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | Gibt das Themenobjekt zurück. |
 
 ### Siehe auch
 

@@ -1,14 +1,14 @@
 ---
 title: ChartLinesFormat
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงคุณสมบัติรูปแบบเส้นกริด.
+second_title: การอ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+description: แสดงคุณสมบัติของรูปแบบเส้นกริด.
 type: docs
-weight: 1410
+weight: 1420
 url: /th/aspose.slides.charts/chartlinesformat/
 ---
 ## ChartLinesFormat คลาส
 
-แสดงคุณสมบัติรูปแบบเส้นกริด
+แสดงคุณสมบัติรูปแบบเส้นกริด.
 
 ```csharp
 public class ChartLinesFormat : IChartLinesFormat
@@ -18,8 +18,8 @@ public class ChartLinesFormat : IChartLinesFormat
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Effect](../../aspose.slides.charts/chartlinesformat/effect) { get; } | ส่งคืนเอฟเฟกต์ที่ใช้กับเส้นแผนภูมิ โดยอ่านอย่างเดียว [`IEffectFormat`](../../aspose.slides/ieffectformat). |
-| [Line](../../aspose.slides.charts/chartlinesformat/line) { get; } | ส่งคืนคุณสมบัติรูปแบบเส้นของเส้นแผนภูมิ โดยอ่านอย่างเดียว [`ILineFormat`](../../aspose.slides/ilineformat). |
+| [Effect](../../aspose.slides.charts/chartlinesformat/effect) { get; } | ส่งคืนเอฟเฟกต์ที่ใช้สำหรับเส้นแผนภูมิ. อ่านอย่างเดียว [`IEffectFormat`](../../aspose.slides/ieffectformat). |
+| [Line](../../aspose.slides.charts/chartlinesformat/line) { get; } | ส่งคืนคุณสมบัติสไตล์เส้นของเส้นแผนภูมิ. อ่านอย่างเดียว [`ILineFormat`](../../aspose.slides/ilineformat). |
 
 ### ดูเพิ่มเติม
 

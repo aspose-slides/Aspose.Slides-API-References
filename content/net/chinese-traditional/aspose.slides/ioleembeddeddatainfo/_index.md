@@ -1,9 +1,9 @@
 ---
 title: IOleEmbeddedDataInfo
-second_title: Aspose.Sildes for .NET API 參考
+second_title: Aspose.Sildes .NET API 參考
 description: 表示 OLE 物件的嵌入式資料資訊。
 type: docs
-weight: 6530
+weight: 6550
 url: /zh-hant/aspose.slides/ioleembeddeddatainfo/
 ---
 ## IOleEmbeddedDataInfo 介面
@@ -18,8 +18,8 @@ public interface IOleEmbeddedDataInfo
 
 | 名稱 | 說明 |
 | --- | --- |
-| [EmbeddedFileData](../../aspose.slides/ioleembeddeddatainfo/embeddedfiledata) { get; } | 傳回嵌入式 OLE 物件的檔案資料，唯讀 Byte[]. |
-| [EmbeddedFileExtension](../../aspose.slides/ioleembeddeddatainfo/embeddedfileextension) { get; } | 傳回當前嵌入式 OLE 物件的檔案副檔名，唯讀 String。 |
+| [EmbeddedFileData](../../aspose.slides/ioleembeddeddatainfo/embeddedfiledata) { get; } | 返回嵌入式 OLE 物件的檔案資料，唯讀 Byte[]. |
+| [EmbeddedFileExtension](../../aspose.slides/ioleembeddeddatainfo/embeddedfileextension) { get; } | 返回目前嵌入式 OLE 物件的檔案副檔名，唯讀 String。 |
 
 ### 另請參閱
 

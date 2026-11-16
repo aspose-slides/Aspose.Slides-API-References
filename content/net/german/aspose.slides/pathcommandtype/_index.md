@@ -1,12 +1,12 @@
 ---
 title: PathCommandType
-second_title: Aspose.Sildes für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Stellt Grafikpfadbefehle dar
 type: docs
-weight: 9320
+weight: 9340
 url: /de/aspose.slides/pathcommandtype/
 ---
-## PathCommandType Enumeration
+## PathCommandType Aufzählung
 
 Stellt Grafikpfadbefehle dar
 
@@ -18,7 +18,7 @@ public enum PathCommandType : byte
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| Close | `0` | Schließt Geometriepfad |
+| Close | `0` | Schließt den Geometriepfad |
 | MoveTo | `1` | Setzt die nächste Punktposition des Geometriepfads |
 | LineTo | `2` | Fügt eine Linie zum Geometriepfad hinzu |
 | ArcTo | `3` | Fügt den angegebenen Bogen zum Geometriepfad hinzu. |

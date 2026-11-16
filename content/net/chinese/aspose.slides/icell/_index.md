@@ -3,7 +3,7 @@ title: ICell
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示表格中的单元格。
 type: docs
-weight: 5450
+weight: 5470
 url: /zh/aspose.slides/icell/
 ---
 ## ICell 接口
@@ -16,35 +16,35 @@ public interface ICell : ISlideComponent
 
 ## 属性
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
-| [AnchorCenter](../../aspose.slides/icell/anchorcenter) { get; set; } | 确定文本框是否在单元格内部居中。可读写 Boolean。 |
-| [AsISlideComponent](../../aspose.slides/icell/asislidecomponent) { get; } | 允许获取基类 ISlideComponent 接口。只读 [`ISlideComponent`](../islidecomponent)。 |
+| [AnchorCenter](../../aspose.slides/icell/anchorcenter) { get; set; } | 确定文本框是否在单元格内部居中。读/写 Boolean。 |
+| [AsISlideComponent](../../aspose.slides/icell/asislidecomponent) { get; } | 允许获取基 ISlideComponent 接口。只读 [`ISlideComponent`](../islidecomponent)。 |
 | [CellFormat](../../aspose.slides/icell/cellformat) { get; } | 返回包含此单元格格式属性的 CellFormat 对象。只读 [`ICellFormat`](../icellformat)。 |
-| [ColSpan](../../aspose.slides/icell/colspan) { get; } | 返回父表格的表格网格中该单元格应跨越的列数。此属性允许单元格呈现合并外观，因为它们跨越表中其他单元格的垂直边界。只读 Int32。 |
+| [ColSpan](../../aspose.slides/icell/colspan) { get; } | 返回父表格网格中当前单元格跨越的列数。此属性允许单元格看起来已合并，因为它跨越表格中其他单元格的垂直边界。只读 Int32。 |
 | [FirstColumn](../../aspose.slides/icell/firstcolumn) { get; } | 获取单元格的第一列。只读 [`IColumn`](../icolumn)。 |
-| [FirstColumnIndex](../../aspose.slides/icell/firstcolumnindex) { get; } | 返回单元格覆盖的第一列索引。只读 Int32。 |
+| [FirstColumnIndex](../../aspose.slides/icell/firstcolumnindex) { get; } | 返回单元格覆盖的第一列的索引。只读 Int32。 |
 | [FirstRow](../../aspose.slides/icell/firstrow) { get; } | 获取单元格的第一行。只读 [`IRow`](../irow)。 |
-| [FirstRowIndex](../../aspose.slides/icell/firstrowindex) { get; } | 返回单元格覆盖的第一行索引。只读 Int32。 |
+| [FirstRowIndex](../../aspose.slides/icell/firstrowindex) { get; } | 返回单元格覆盖的第一行的索引。只读 Int32。 |
 | [Height](../../aspose.slides/icell/height) { get; } | 返回单元格的高度。只读 Double。 |
-| [IsMergedCell](../../aspose.slides/icell/ismergedcell) { get; } | 若单元格与任何相邻单元格合并则返回 true，否则返回 false。只读 Boolean。 |
-| [MarginBottom](../../aspose.slides/icell/marginbottom) { get; set; } | 返回或设置 TextFrame 的底部边距。可读写 Double。 |
-| [MarginLeft](../../aspose.slides/icell/marginleft) { get; set; } | 返回或设置 TextFrame 的左侧边距。可读写 Double。 |
-| [MarginRight](../../aspose.slides/icell/marginright) { get; set; } | 返回或设置 TextFrame 的右侧边距。可读写 Double。 |
-| [MarginTop](../../aspose.slides/icell/margintop) { get; set; } | 返回或设置 TextFrame 的顶部边距。可读写 Double。 |
-| [MinimalHeight](../../aspose.slides/icell/minimalheight) { get; } | 返回单元格的最小高度。这是该单元格覆盖的所有行最小高度之和。只读 Double。 |
+| [IsMergedCell](../../aspose.slides/icell/ismergedcell) { get; } | 如果单元格与任何已调整的单元格合并则返回 true，否则返回 false。只读 Boolean。 |
+| [MarginBottom](../../aspose.slides/icell/marginbottom) { get; set; } | 返回或设置 TextFrame 中的底部边距。读/写 Double。 |
+| [MarginLeft](../../aspose.slides/icell/marginleft) { get; set; } | 返回或设置 TextFrame 中的左侧边距。读/写 Double。 |
+| [MarginRight](../../aspose.slides/icell/marginright) { get; set; } | 返回或设置 TextFrame 中的右侧边距。读/写 Double。 |
+| [MarginTop](../../aspose.slides/icell/margintop) { get; set; } | 返回或设置 TextFrame 中的顶部边距。读/写 Double。 |
+| [MinimalHeight](../../aspose.slides/icell/minimalheight) { get; } | 返回单元格的最小高度。这是所有被单元格覆盖的行的最小高度之和。只读 Double。 |
 | [OffsetX](../../aspose.slides/icell/offsetx) { get; } | 返回表格左侧到单元格左侧的距离。只读 Double。 |
 | [OffsetY](../../aspose.slides/icell/offsety) { get; } | 返回表格顶部到单元格顶部的距离。只读 Double。 |
-| [RowSpan](../../aspose.slides/icell/rowspan) { get; } | 返回合并单元格跨越的行数。此属性与其他单元格的 vMerge 属性配合使用，以指定水平合并的起始单元格。只读 Int32。 |
+| [RowSpan](../../aspose.slides/icell/rowspan) { get; } | 返回合并单元格跨越的行数。此属性与其他单元格上的 vMerge 属性结合使用，以指定水平合并的起始单元格。只读 Int32。 |
 | [Table](../../aspose.slides/icell/table) { get; } | 返回单元格的父 Table 对象。只读 [`ITable`](../itable)。 |
-| [TextAnchorType](../../aspose.slides/icell/textanchortype) { get; set; } | 返回或设置文本锚点类型。可读写 [`TextAnchorType`](../textanchortype)。 |
-| [TextFrame](../../aspose.slides/icell/textframe) { get; } | 返回单元格的文本框。只读 [`ITextFrame`](../itextframe)。 |
-| [TextVerticalType](../../aspose.slides/icell/textverticaltype) { get; set; } | 返回或设置垂直文本的类型。可读写 [`TextVerticalType`](../textverticaltype)。 |
+| [TextAnchorType](../../aspose.slides/icell/textanchortype) { get; set; } | 返回或设置文本锚点类型。读/写 [`TextAnchorType`](../textanchortype)。 |
+| [TextFrame](../../aspose.slides/icell/textframe) { get; } | 返回单元格的文本框架。只读 [`ITextFrame`](../itextframe)。 |
+| [TextVerticalType](../../aspose.slides/icell/textverticaltype) { get; set; } | 返回或设置垂直文本的类型。读/写 [`TextVerticalType`](../textverticaltype)。 |
 | [Width](../../aspose.slides/icell/width) { get; } | 返回单元格的宽度。只读 Double。 |
 
 ## 方法
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
 | [SplitByColSpan](../../aspose.slides/icell/splitbycolspan)(int) | 按列索引将单元格拆分为两个单元格。 |
 | [SplitByHeight](../../aspose.slides/icell/splitbyheight)(double) | 按高度拆分单元格。 |

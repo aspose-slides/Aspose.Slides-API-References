@@ -1,20 +1,20 @@
 ---
 title: Format
 second_title: Aspose.Sildes için .NET API Referansı
-description: Biçimlendirme özelliklerini temsil eder. Okunur/yazılır IFormataspose.slides.charts/iformat.
+description: Biçimlendirme özelliklerini temsil eder. Okuma/Yazma IFormataspose.slides.charts/iformat.
 type: docs
-weight: 70
+weight: 110
 url: /tr/aspose.slides.charts/ichartdatapoint/format/
 ---
-## IChartDataPoint.Format özellik
+## IChartDataPoint.Format özelliği
 
-Biçimlendirme özelliklerini temsil eder. Okunur/yazılır [`IFormat`](../../iformat).
+Temsil eder biçimlendirme özelliklerini. Okuma/Yazma [`IFormat`](../../iformat).
 
 ```csharp
 public IFormat Format { get; set; }
 ```
 
-### İlgili
+### Ayrıca Bakınız
 
 * arayüz [IFormat](../../iformat)
 * arayüz [IChartDataPoint](../../ichartdatapoint)

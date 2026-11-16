@@ -3,7 +3,7 @@ title: SizeValue
 second_title: Aspose.Sildes för .NET API-referens
 description: Returnerar storleksvärdet för diagramdatapunkten. Används med Treemap- och Sunburst-diagram. Skrivskyddad IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
-weight: 180
+weight: 220
 url: /sv/aspose.slides.charts/chartdatapoint/sizevalue/
 ---
 ## ChartDataPoint.SizeValue egenskap

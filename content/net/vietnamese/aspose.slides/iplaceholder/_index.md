@@ -1,14 +1,14 @@
 ---
 title: IPlaceholder
-second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Biểu diễn một placeholder trên một slide.
+second_title: Tham khảo API Aspose.Sildes cho .NET
+description: Đại diện cho một trình giữ chỗ trên một slide.
 type: docs
-weight: 6690
+weight: 6710
 url: /vi/aspose.slides/iplaceholder/
 ---
 ## IPlaceholder giao diện
 
-Biểu diễn một placeholder trên một slide.
+Đại diện cho một trình giữ chỗ trên một slide.
 
 ```csharp
 public interface IPlaceholder
@@ -18,12 +18,12 @@ public interface IPlaceholder
 
 | Tên | Mô tả |
 | --- | --- |
-| [Index](../../aspose.slides/iplaceholder/index) { get; } | Lấy chỉ mục của một placeholder. Chỉ đọc UInt32. |
-| [Orientation](../../aspose.slides/iplaceholder/orientation) { get; } | Lấy hướng của một placeholder. Chỉ đọc [`Orientation`](../orientation). |
-| [Size](../../aspose.slides/iplaceholder/size) { get; } | Lấy kích thước của một placeholder. Chỉ đọc [`PlaceholderSize`](../placeholdersize). |
-| [Type](../../aspose.slides/iplaceholder/type) { get; } | Lấy kiểu của một placeholder. Chỉ đọc [`PlaceholderType`](../placeholdertype). |
+| [Index](../../aspose.slides/iplaceholder/index) { get; } | Lấy chỉ mục của một trình giữ chỗ. Chỉ đọc UInt32. |
+| [Orientation](../../aspose.slides/iplaceholder/orientation) { get; } | Lấy hướng của một trình giữ chỗ. Chỉ đọc [`Orientation`](../orientation). |
+| [Size](../../aspose.slides/iplaceholder/size) { get; } | Lấy kích thước của một trình giữ chỗ. Chỉ đọc [`PlaceholderSize`](../placeholdersize). |
+| [Type](../../aspose.slides/iplaceholder/type) { get; } | Lấy kiểu của một trình giữ chỗ. Chỉ đọc [`PlaceholderType`](../placeholdertype). |
 
-### Xem thêm
+### Xem Thêm
 
 * không gian tên [Aspose.Slides](../../aspose.slides)
 * tập hợp [Aspose.Slides](../../)

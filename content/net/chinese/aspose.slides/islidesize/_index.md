@@ -1,9 +1,9 @@
 ---
 title: ISlideSize
-second_title: Aspose.Sildes 的 .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 表示幻灯片的大小和方向。
 type: docs
-weight: 7090
+weight: 7110
 url: /zh/aspose.slides/islidesize/
 ---
 ## ISlideSize 接口
@@ -16,20 +16,20 @@ public interface ISlideSize
 
 ## 属性
 
-| Name | Description |
+| 名称 | 说明 |
 | --- | --- |
 | [Orientation](../../aspose.slides/islidesize/orientation) { get; set; } | 获取或设置幻灯片方向。 |
-| [Size](../../aspose.slides/islidesize/size) { get; } | 获取以点为单位的幻灯片尺寸。 |
-| [Type](../../aspose.slides/islidesize/type) { get; } | 获取幻灯片大小类型。 |
+| [Size](../../aspose.slides/islidesize/size) { get; } | 获取幻灯片的尺寸（单位为点）。 |
+| [Type](../../aspose.slides/islidesize/type) { get; } | 获取幻灯片的大小类型。 |
 
 ## 方法
 
-| Name | Description |
+| 名称 | 说明 |
 | --- | --- |
 | [SetSize](../../aspose.slides/islidesize/setsize#setsize)(SlideSizeType, SlideSizeScaleType) | 按类型设置幻灯片大小并缩放现有内容。 |
 | [SetSize](../../aspose.slides/islidesize/setsize#setsize_1)(float, float, SlideSizeScaleType) | 显式设置幻灯片尺寸并缩放现有内容。 |
 
-### 另见
+### 另请参阅
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

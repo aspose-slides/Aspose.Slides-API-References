@@ -1,14 +1,14 @@
 ---
 title: ITintEffectiveData
 second_title: Aspose.Sildes for .NET API 参考
-description: 不可变对象，表示 Tint 效果。按指定量将效果颜色值向/远离色相移动。
+description: 表示 Tint 效果的不可变对象。根据指定的量将效果颜色值向色相方向或远离色相方向偏移。
 type: docs
-weight: 3550
+weight: 3570
 url: /zh/aspose.slides.effects/itinteffectivedata/
 ---
-## ITintEffectiveData 接口
+## ITintEffectiveData interface
 
-不可变对象，表示 Tint 效果。按指定量将效果颜色值向/远离色相移动。
+表示 Tint 效果的不可变对象。根据指定的量，将效果颜色值向色相方向或远离色相方向偏移。
 
 ```csharp
 public interface ITintEffectiveData : IEffectEffectiveData
@@ -18,11 +18,11 @@ public interface ITintEffectiveData : IEffectEffectiveData
 
 | 名称 | 描述 |
 | --- | --- |
-| [Amount](../../aspose.slides.effects/itinteffectivedata/amount) { get; } | 返回效果量。只读 Single. |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/itinteffectivedata/asieffecteffectivedata) { get; } | 允许获取基准 IEffectEffectiveData 接口。只读 [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Hue](../../aspose.slides.effects/itinteffectivedata/hue) { get; } | 返回色相。只读 Single. |
+| [Amount](../../aspose.slides.effects/itinteffectivedata/amount) { get; } | 返回效果量。只读 Single。 |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/itinteffectivedata/asieffecteffectivedata) { get; } | 允许获取基 IEffectEffectiveData 接口。只读 [`IEffectEffectiveData`](../ieffecteffectivedata)。 |
+| [Hue](../../aspose.slides.effects/itinteffectivedata/hue) { get; } | 返回色相。只读 Single。 |
 
-### 另见
+### 另请参见
 
 * 接口 [IEffectEffectiveData](../ieffecteffectivedata)
 * 命名空间 [Aspose.Slides.Effects](../../aspose.slides.effects)

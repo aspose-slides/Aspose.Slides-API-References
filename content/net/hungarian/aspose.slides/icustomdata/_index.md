@@ -1,14 +1,14 @@
 ---
 title: ICustomData
-second_title: Aspose.Sildes .NET API Referencia
-description: Az egyéni adatok tárolóját képviseli.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Egyéni adatok tárolóját képviseli.
 type: docs
-weight: 5660
+weight: 5680
 url: /hu/aspose.slides/icustomdata/
 ---
 ## ICustomData interfész
 
-Az egyéni adatok tárolóját képviseli.
+Egyéni adatok tárolóját képviseli.
 
 ```csharp
 public interface ICustomData
@@ -16,10 +16,10 @@ public interface ICustomData
 
 ## Tulajdonságok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
-| [CustomXmlParts](../../aspose.slides/icustomdata/customxmlparts) { get; } | Visszaadja az egyéni XML részek gyűjteményét. Csak olvasható [`ICustomXmlPartCollection`](../icustomxmlpartcollection). |
-| [Tags](../../aspose.slides/icustomdata/tags) { get; } | Visszaadja az ügyféladat-címkék gyűjteményét. Csak olvasható [`ITagCollection`](../itagcollection). |
+| [CustomXmlParts](../../aspose.slides/icustomdata/customxmlparts) { get; } | Visszaadja az egyéni xml részek gyűjteményét. Csak olvasható [`ICustomXmlPartCollection`](../icustomxmlpartcollection). |
+| [Tags](../../aspose.slides/icustomdata/tags) { get; } | Visszaadja az Ügyfél adatcímkék gyűjteményét. Csak olvasható [`ITagCollection`](../itagcollection). |
 
 ### Lásd még
 

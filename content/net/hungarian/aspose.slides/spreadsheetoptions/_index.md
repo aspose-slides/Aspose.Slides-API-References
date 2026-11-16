@@ -1,14 +1,14 @@
 ---
 title: SpreadsheetOptions
-second_title: Aspose.Sildes for .NET API Referencia
-description: Olyan beállításokat képvisel, amelyekkel további táblázatok viselkedése meghatározható.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Olyan beállításokat jelöl, amelyek további táblázatok viselkedésének meghatározására használhatók.
 type: docs
-weight: 10740
+weight: 10760
 url: /hu/aspose.slides/spreadsheetoptions/
 ---
 ## SpreadsheetOptions osztály
 
-A további táblázatok viselkedésének megadására használható beállításokat képviseli.
+A további táblázatok viselkedésének meghatározására használható beállításokat jelöli.
 
 ```csharp
 public class SpreadsheetOptions : ISpreadsheetOptions
@@ -18,13 +18,13 @@ public class SpreadsheetOptions : ISpreadsheetOptions
 
 | Név | Leírás |
 | --- | --- |
-| [SpreadsheetOptions](spreadsheetoptions)() | Új példányt inicializál a(z) [`SpreadsheetOptions`](../spreadsheetoptions) osztályból. |
+| [SpreadsheetOptions](spreadsheetoptions)() | Inicializál egy új példányt a [`SpreadsheetOptions`](../spreadsheetoptions) osztályból. |
 
 ## Tulajdonságok
 
 | Név | Leírás |
 | --- | --- |
-| [PreferredCulture](../../aspose.slides/spreadsheetoptions/preferredculture) { get; set; } | Lekérdezi vagy beállítja a double-byte karakterkészletet (DBCS) használó nyelvekhez szánt néhány függvény számításához használt előnyben részesített kultúrainformációt. |
+| [PreferredCulture](../../aspose.slides/spreadsheetoptions/preferredculture) { get; set; } | Lekéri vagy beállítja a preferált kultúrainformációt olyan függvények számításához, amelyeket a dupla bájtos karakterkészletet (DBCS) használó nyelvekhez szánnak. |
 | [RecoverWorkbookFromChartCache](../../aspose.slides/spreadsheetoptions/recoverworkbookfromchartcache) { get; set; } | Ha a diagram adatforrása egy külső munkafüzet, és az nem érhető el, akkor a diagram gyorsítótárából lesz helyreállítva. |
 
 ### Lásd még

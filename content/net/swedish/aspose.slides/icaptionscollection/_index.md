@@ -1,14 +1,14 @@
 ---
 title: ICaptionsCollection
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar en samling av de stängda bildtexterna.
+description: Representerar en samling av de stängda undertexterna.
 type: docs
-weight: 5440
+weight: 5460
 url: /sv/aspose.slides/icaptionscollection/
 ---
 ## ICaptionsCollection gränssnitt
 
-Representerar en samling av de stängda bildtexterna.
+Representerar en samling av de stängda undertexterna.
 
 ```csharp
 public interface ICaptionsCollection : IEnumerable<ICaptions>
@@ -16,20 +16,20 @@ public interface ICaptionsCollection : IEnumerable<ICaptions>
 
 ## Egenskaper
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
 | [Count](../../aspose.slides/icaptionscollection/count) { get; } | Returnerar antalet element i samlingen. Skrivskyddad Int32. |
-| [Item](../../aspose.slides/icaptionscollection/item) { get; } | Returnerar de stängda bildtexterna på det angivna indexet. Skrivskyddad [`ICaptions`](../icaptions). |
+| [Item](../../aspose.slides/icaptionscollection/item) { get; } | Returnerar de stängda undertexterna på angivet index. Skrivskyddad [`ICaptions`](../icaptions). |
 
 ## Metoder
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
-| [Add](../../aspose.slides/icaptionscollection/add#add)(string, Stream) | Lägger till WebVTT-stängda bildtexter i slutet av samlingen från en ström. |
-| [Add](../../aspose.slides/icaptionscollection/add#add_1)(string, string) | Lägger till WebVTT-stängda bildtexter i slutet av samlingen. |
-| [Clear](../../aspose.slides/icaptionscollection/clear)() | Tar bort alla stängda bildtexter från samlingen. |
-| [Remove](../../aspose.slides/icaptionscollection/remove)(ICaptions) | Tar bort de angivna stängda bildtexterna från samlingen. |
-| [RemoveAt](../../aspose.slides/icaptionscollection/removeat)(int) | Tar bort de stängda bildtexterna på det angivna indexet. |
+| [Add](../../aspose.slides/icaptionscollection/add#add)(string, Stream) | Lägger till WebVTT-undertexter i slutet av samlingen från en ström. |
+| [Add](../../aspose.slides/icaptionscollection/add#add_1)(string, string) | Lägger till WebVTT-undertexter i slutet av samlingen. |
+| [Clear](../../aspose.slides/icaptionscollection/clear)() | Tar bort alla stängda undertexter från samlingen. |
+| [Remove](../../aspose.slides/icaptionscollection/remove)(ICaptions) | Tar bort de angivna stängda undertexterna från samlingen. |
+| [RemoveAt](../../aspose.slides/icaptionscollection/removeat)(int) | Tar bort de stängda undertexterna på angivet index. |
 
 ### Se även
 

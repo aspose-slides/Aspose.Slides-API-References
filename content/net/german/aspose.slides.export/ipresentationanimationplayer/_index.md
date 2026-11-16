@@ -1,14 +1,14 @@
 ---
 title: IPresentationAnimationPlayer
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt einen Player der Animation dar.  Animationen werden von PresentationAnimationsGenerator./presentationanimationsgenerator über sein NewAnimation./presentationanimationsgenerator/newanimation Ereignis erzeugt.
+second_title: Aspose.Sildes for .NET API Reference
+description: Stellt einen Player der Animation dar.  Animationen, die von PresentationAnimationsGenerator./presentationanimationsgenerator über sein NewAnimation./presentationanimationsgenerator/newanimation Ereignis erzeugt werden.
 type: docs
-weight: 4030
+weight: 4050
 url: /de/aspose.slides.export/ipresentationanimationplayer/
 ---
 ## IPresentationAnimationPlayer Schnittstelle
 
-Stellt einen Player der Animation dar.  Animationen werden von [`PresentationAnimationsGenerator`](../presentationanimationsgenerator) über sein [`NewAnimation`](../presentationanimationsgenerator/newanimation) Ereignis erzeugt.
+Stellt einen Player der Animation dar. Animations, die von [`PresentationAnimationsGenerator`](../presentationanimationsgenerator) über sein [`NewAnimation`](../presentationanimationsgenerator/newanimation)-Ereignis erzeugt werden.
 
 ```csharp
 public interface IPresentationAnimationPlayer
@@ -18,14 +18,14 @@ public interface IPresentationAnimationPlayer
 
 | Name | Beschreibung |
 | --- | --- |
-| [Duration](../../aspose.slides.export/ipresentationanimationplayer/duration) { get; } | Gibt die Animationsdauer [ms] zurück |
+| [Duration](../../aspose.slides.export/ipresentationanimationplayer/duration) { get; } | Ermittelt die Animationsdauer [ms] |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [GetFrame](../../aspose.slides.export/ipresentationanimationplayer/getframe)() | Gibt das Bild für die aktuelle Zeitposition zurück, die zuvor mit der [`SetTimePosition`](./settimeposition) Methode festgelegt wurde. |
-| [SetTimePosition](../../aspose.slides.export/ipresentationanimationplayer/settimeposition)(double) | Setzt die Animationszeitposition innerhalb des [`Duration`](./duration). |
+| [GetFrame](../../aspose.slides.export/ipresentationanimationplayer/getframe)() | Ermittelt das Bild für die aktuelle Zeitposition, die zuvor mit der Methode [`SetTimePosition`](./settimeposition) festgelegt wurde. |
+| [SetTimePosition](../../aspose.slides.export/ipresentationanimationplayer/settimeposition)(double) | Setzt die Animationszeitposition innerhalb von [`Duration`](./duration). |
 
 ### Beispiele
 

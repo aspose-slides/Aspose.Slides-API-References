@@ -1,9 +1,9 @@
 ---
 title: GradientDirection
-second_title: Aspose.Sildes for .NET API 參考文件
+second_title: Aspose.Sildes 的 .NET API 參考文件
 description: 表示漸層樣式。
 type: docs
-weight: 4990
+weight: 5010
 url: /zh-hant/aspose.slides/gradientdirection/
 ---
 ## GradientDirection 列舉
@@ -16,7 +16,7 @@ public enum GradientDirection
 
 ### 值
 
-| 名稱 | 值 | 描述 |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `-1` | 未定義 |
 | FromCorner1 | `0` | 從左上角 |
@@ -25,7 +25,7 @@ public enum GradientDirection
 | FromCorner4 | `3` | 從右下角 |
 | FromCenter | `4` | 從中心 |
 
-### 另見
+### 另請參閱
 
 * 命名空間 [Aspose.Slides](../../aspose.slides)
 * 組件 [Aspose.Slides](../../)

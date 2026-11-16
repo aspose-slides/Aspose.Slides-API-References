@@ -1,14 +1,14 @@
 ---
 title: IUpDownBarsManager
-second_title: Aspose.Sildes .NET API referencia
-description: Hozzáférést biztosít a vonal- vagy részvény-diagram fel/le sávjaihoz.
+second_title: Aspose.Sildes .NET API-referencia
+description: Hozzáférést biztosít a vonal- vagy tőzsde-diagram fel/lesávjaihoz.
 type: docs
-weight: 2260
+weight: 2280
 url: /hu/aspose.slides.charts/iupdownbarsmanager/
 ---
 ## IUpDownBarsManager interfész
 
-Hozzáférést biztosít a vonal- vagy részvény-diagram fel/le sávjaihoz.
+Hozzáférést biztosít a vonal- vagy tőzsde-diagram fel/lesávjaihoz.
 
 ```csharp
 public interface IUpDownBarsManager
@@ -18,9 +18,9 @@ public interface IUpDownBarsManager
 
 | Név | Leírás |
 | --- | --- |
-| [DownBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/downbarsformat) { get; } | Visszaadja a le sávok formátumát. Csak olvasható [`IFormat`](../iformat). |
-| [GapWidth](../../aspose.slides.charts/iupdownbarsmanager/gapwidth) { get; set; } | Visszaadja vagy beállítja a részszélességet. Olvasás/írás Int32. |
-| [HasUpDownBars](../../aspose.slides.charts/iupdownbarsmanager/hasupdownbars) { get; set; } | Meghatározza, hogy a diagram tartalmazza-e a fel/les sávokat. Olvasás/írás Boolean. |
+| [DownBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/downbarsformat) { get; } | Visszaadja az alsó sávok formátumát. Csak olvasható [`IFormat`](../iformat). |
+| [GapWidth](../../aspose.slides.charts/iupdownbarsmanager/gapwidth) { get; set; } | Visszaadja vagy beállítja a hézag szélességét. Olvasható/írható Int32. |
+| [HasUpDownBars](../../aspose.slides.charts/iupdownbarsmanager/hasupdownbars) { get; set; } | Megállapítja, hogy a diagram rendelkezik-e fel-/le-sávokkal. Olvasható/írható Boolean. |
 | [UpBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/upbarsformat) { get; } | Visszaadja a fel sávok formátumát. Csak olvasható [`IFormat`](../iformat). |
 
 ### Lásd még

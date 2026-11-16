@@ -1,14 +1,14 @@
 ---
 title: IParagraphFactory
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Staat toe om paragraphs te maken
+description: Staat het maken van alinea's toe
 type: docs
-weight: 6580
+weight: 6600
 url: /nl/aspose.slides/iparagraphfactory/
 ---
 ## IParagraphFactory interface
 
-Staat toe om paragraphs te maken
+Staat het maken van alinea's toe
 
 ```csharp
 public interface IParagraphFactory
@@ -16,10 +16,10 @@ public interface IParagraphFactory
 
 ## Methoden
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
-| [CreateParagraph](../../aspose.slides/iparagraphfactory/createparagraph#createparagraph)() | Maakt een nieuwe lege paragraph. |
-| [CreateParagraph](../../aspose.slides/iparagraphfactory/createparagraph#createparagraph_1)(IParagraph) | Maakt een nieuwe paragraph met opgegeven paragraph-gegevens met behulp van. |
+| [CreateParagraph](../../aspose.slides/iparagraphfactory/createparagraph#createparagraph)() | Maakt een nieuwe lege alinea. |
+| [CreateParagraph](../../aspose.slides/iparagraphfactory/createparagraph#createparagraph_1)(IParagraph) | Maakt een nieuwe alinea met opgegeven alinea-gegevens. |
 
 ### Opmerkingen
 

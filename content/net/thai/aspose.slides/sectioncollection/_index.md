@@ -1,14 +1,14 @@
 ---
 title: SectionCollection
-second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
-description: เป็นตัวแทนของคอลเลกชันของส่วน
+second_title: Aspose.Sildes สำหรับ .NET API เอกสารอ้างอิง
+description: แสดงคอลเลกชันของส่วน.
 type: docs
-weight: 9760
+weight: 9780
 url: /th/aspose.slides/sectioncollection/
 ---
 ## SectionCollection คลาส
 
-เป็นตัวแทนของคอลเลกชันของส่วน
+แสดงคอลเลกชันของส่วน.
 
 ```csharp
 public sealed class SectionCollection : DomObject<Presentation>, ISectionCollection
@@ -18,22 +18,22 @@ public sealed class SectionCollection : DomObject<Presentation>, ISectionCollect
 
 | Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides/sectioncollection/count) { get; } | รับจำนวนขององค์ประกอบที่จริงๆ อยู่ในคอลเลกชันนี้. อ่านอย่างเดียว Int32. |
-| [IsSynchronized](../../aspose.slides/sectioncollection/issynchronized) { get; } | ส่งค่าที่ระบุว่าจะเข้าถึงคอลเลกชันได้โดยประสาน (ปลอดภัยต่อเธรด) หรือไม่. อ่านอย่างเดียว Boolean. |
-| [Item](../../aspose.slides/sectioncollection/item) { get; } | รับองค์ประกอบที่ตำแหน่งที่ระบุ. อ่านอย่างเดียว [`ISection`](../isection). |
-| [SyncRoot](../../aspose.slides/sectioncollection/syncroot) { get; } | ส่งค่ารากของการประสาน. อ่านอย่างเดียว Object. |
+| [Count](../../aspose.slides/sectioncollection/count) { get; } | ดึงจำนวนของสมาชิกที่อยู่จริงในคอลเลกชัน. อ่านอย่างเดียว Int32. |
+| [IsSynchronized](../../aspose.slides/sectioncollection/issynchronized) { get; } | คืนค่าที่แสดงว่าการเข้าถึงคอลเลกชันเป็นแบบซิงโครไนซ์ (ปลอดภัยต่อเธรด). อ่านอย่างเดียว Boolean. |
+| [Item](../../aspose.slides/sectioncollection/item) { get; } | ดึงอิลิเมนต์ที่ตำแหน่งที่ระบุ. อ่านอย่างเดียว [`ISection`](../isection). |
+| [SyncRoot](../../aspose.slides/sectioncollection/syncroot) { get; } | คืนรากของการซิงโครไนซ์. อ่านอย่างเดียว Object. |
 
 ## เมธอด
 
 | Name | Description |
 | --- | --- |
 | [AddEmptySection](../../aspose.slides/sectioncollection/addemptysection)(string, int) | เพิ่มส่วนว่างที่ตำแหน่งที่ระบุของคอลเลกชัน. |
-| [AddSection](../../aspose.slides/sectioncollection/addsection)(string, ISlide) | เพิ่มส่วนสไลด์ที่เริ่มต้นจากสไลด์เฉพาะ. |
+| [AddSection](../../aspose.slides/sectioncollection/addsection)(string, ISlide) | เพิ่มส่วนสไลด์ที่เริ่มจากสไลด์เฉพาะ. |
 | [AppendEmptySection](../../aspose.slides/sectioncollection/appendemptysection)(string) | เพิ่มส่วนว่างที่ส่วนท้ายของคอลเลกชัน. |
-| [Clear](../../aspose.slides/sectioncollection/clear)() | ลบทุกส่วนออกจากคอลเลกชัน. |
+| [Clear](../../aspose.slides/sectioncollection/clear)() | ลบส่วนทั้งหมดออกจากคอลเลกชัน. |
 | [CopyTo](../../aspose.slides/sectioncollection/copyto)(Array, int) | คัดลอกคอลเลกชันทั้งหมดไปยังอาเรย์ที่ระบุ. |
-| [GetEnumerator](../../aspose.slides/sectioncollection/getenumerator)() | ส่งค่า enumerator ที่วนซ้ำผ่านคอลเลกชัน. |
-| [IndexOf](../../aspose.slides/sectioncollection/indexof)(ISection) | ส่งค่าดัชนีของส่วนที่ระบุในคอลเลกชัน. |
+| [GetEnumerator](../../aspose.slides/sectioncollection/getenumerator)() | คืน enumerator ที่ทำให้วนซ้ำผ่านคอลเลกชัน. |
+| [IndexOf](../../aspose.slides/sectioncollection/indexof)(ISection) | คืนดัชนีของส่วนที่ระบุในคอลเลกชัน. |
 | [RemoveSection](../../aspose.slides/sectioncollection/removesection)(ISection) | ลบส่วน. สไลด์ที่อยู่ในส่วนจะถูกรวมเข้ากับส่วนก่อนหน้า. |
 | [RemoveSectionWithSlides](../../aspose.slides/sectioncollection/removesectionwithslides)(ISection) | ลบส่วนและสไลด์ที่อยู่ในส่วน. |
 | [ReorderSectionWithSlides](../../aspose.slides/sectioncollection/reordersectionwithslides)(ISection, int) | ย้ายส่วนและสไลด์ของมันจากคอลเลกชันไปยังตำแหน่งที่ระบุ. |

@@ -3,12 +3,12 @@ title: ReplaceRegex
 second_title: Aspose.Sildes för .NET API-referens
 description: Ersätter alla matchningar av det reguljära uttrycket med den angivna strängen.
 type: docs
-weight: 110
+weight: 120
 url: /sv/aspose.slides/itextframe/replaceregex/
 ---
 ## ITextFrame.ReplaceRegex metod
 
-Ersätter alla matchningar av det reguljära uttrycket med den angivna strängen.
+Ersätter alla träffar av reguljära uttrycket med den angivna strängen.
 
 ```csharp
 public void ReplaceRegex(Regex regex, string newText, IFindResultCallback callback)
@@ -16,8 +16,8 @@ public void ReplaceRegex(Regex regex, string newText, IFindResultCallback callba
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| regex | Regex | Det reguljära uttrycket Regex för att hämta strängar som ska ersättas. |
-| newText | String | Strängen som ska ersätta alla förekomster av de strängar som ska ersättas. |
+| regex | Regex | Det reguljära uttrycket Regex för att hämta strängar att ersätta. |
+| newText | String | Strängen för att ersätta alla förekomster av strängarna som ska ersättas. |
 | callback | IFindResultCallback | Återuppringningsobjektet för att ta emot sökresultat [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### Exempel

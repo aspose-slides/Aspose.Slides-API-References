@@ -1,9 +1,9 @@
 ---
 title: ColorFormat
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: プレゼンテーションで使用される色を表します。
 type: docs
-weight: 2520
+weight: 2540
 url: /ja/aspose.slides/colorformat/
 ---
 ## ColorFormat クラス
@@ -16,33 +16,33 @@ public sealed class ColorFormat : PVIObject, IColorFormat
 
 ## プロパティ
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | ベース IPresentationComponent インターフェイスを取得できます。 読み取り専用 [`IPresentationComponent`](../ipresentationcomponent)。 |
-| [B](../../aspose.slides/colorformat/b) { get; set; } | 色の青成分を取得または設定します。すべての色変換は無視されます。 読み書き可能 Byte。 |
-| [Color](../../aspose.slides/colorformat/color) { get; set; } | 結果の色を取得します（すべての色変換が適用された状態）。RGB 色を設定し、すべての色変換をクリアします。 読み書き可能 Color。 |
-| [ColorTransform](../../aspose.slides/colorformat/colortransform) { get; } | 色に適用された色変換のコレクションを取得します。 読み取り専用 [`IColorOperationCollection`](../icoloroperationcollection)。 |
-| [ColorType](../../aspose.slides/colorformat/colortype) { get; set; } | カラー定義方式を取得または設定します。 読み書き可能 [`ColorType`](../colortype)。 |
-| [FloatB](../../aspose.slides/colorformat/floatb) { get; set; } | 色の青成分を取得または設定します。すべての色変換は無視されます。 読み書き可能 Single。 |
-| [FloatG](../../aspose.slides/colorformat/floatg) { get; set; } | 色の緑成分を取得または設定します。すべての色変換は無視されます。 読み書き可能 Single。 |
-| [FloatR](../../aspose.slides/colorformat/floatr) { get; set; } | 色の赤成分を取得または設定します。すべての色変換は無視されます。 読み書き可能 Single。 |
-| [G](../../aspose.slides/colorformat/g) { get; set; } | 色の緑成分を取得または設定します。すべての色変換は無視されます。 |
-| [Hue](../../aspose.slides/colorformat/hue) { get; set; } | HSL 表現における色相成分を取得または設定します。すべての色変換は無視されます。 読み書き可能 Single。 |
-| [Luminance](../../aspose.slides/colorformat/luminance) { get; set; } | HSL 表現における輝度成分を取得または設定します。すべての色変換は無視されます。 読み書き可能 Single。 |
-| [PresetColor](../../aspose.slides/colorformat/presetcolor) { get; set; } | カラープリセットを取得または設定します。 読み書き可能 [`PresetColor`](../presetcolor)。 |
-| [R](../../aspose.slides/colorformat/r) { get; set; } | 色の赤成分を取得または設定します。すべての色変換は無視されます。 読み書き可能 Byte。 |
-| [Saturation](../../aspose.slides/colorformat/saturation) { get; set; } | HSL 表現における彩度成分を取得または設定します。すべての色変換は無視されます。 読み書き可能 Single。 |
-| [SchemeColor](../../aspose.slides/colorformat/schemecolor) { get; set; } | カラースキームで識別される色を取得または設定します。 読み書き可能 [`SchemeColor`](../schemecolor)。 |
-| [SystemColor](../../aspose.slides/colorformat/systemcolor) { get; set; } | システム カラー テーブルで識別される色を取得または設定します。 読み書き可能 [`SystemColor`](../systemcolor)。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | ベースの IPresentationComponent インターフェイスを取得できます。 読み取り専用 [`IPresentationComponent`](../ipresentationcomponent)。 |
+| [B](../../aspose.slides/colorformat/b) { get; set; } | 色の青成分を取得または設定します。 すべてのカラートランスフォーメーションは無視されます。 読み取り/書き込み Byte。 |
+| [Color](../../aspose.slides/colorformat/color) { get; set; } | すべてのカラートランスフォーメーションが適用された結果の色を取得します。 RGB 色を設定し、すべてのカラートランスフォーメーションをクリアします。 読み取り/書き込み Color。 |
+| [ColorTransform](../../aspose.slides/colorformat/colortransform) { get; } | 色に適用されたカラートランスフォーメーションのコレクションを取得します。 読み取り専用 [`IColorOperationCollection`](../icoloroperationcollection)。 |
+| [ColorType](../../aspose.slides/colorformat/colortype) { get; set; } | 色定義方法を取得または設定します。 読み取り/書き込み [`ColorType`](../colortype)。 |
+| [FloatB](../../aspose.slides/colorformat/floatb) { get; set; } | 色の青成分を取得または設定します。 すべてのカラートランスフォーメーションは無視されます。 読み取り/書き込み Single。 |
+| [FloatG](../../aspose.slides/colorformat/floatg) { get; set; } | 色の緑成分を取得または設定します。 すべてのカラートランスフォーメーションは無視されます。 読み取り/書き込み Single。 |
+| [FloatR](../../aspose.slides/colorformat/floatr) { get; set; } | 色の赤成分を取得または設定します。 すべてのカラートランスフォーメーションは無視されます。 読み取り/書き込み Single。 |
+| [G](../../aspose.slides/colorformat/g) { get; set; } | 色の緑成分を取得または設定します。 すべてのカラートランスフォーメーションは無視されます。 |
+| [Hue](../../aspose.slides/colorformat/hue) { get; set; } | HSL 表現における色相成分を取得または設定します。 すべてのカラートランスフォーメーションは無視されます。 読み取り/書き込み Single。 |
+| [Luminance](../../aspose.slides/colorformat/luminance) { get; set; } | HSL 表現における輝度成分を取得または設定します。 すべてのカラートランスフォーメーションは無視されます。 読み取り/書き込み Single。 |
+| [PresetColor](../../aspose.slides/colorformat/presetcolor) { get; set; } | カラープリセットを取得または設定します。 読み取り/書き込み [`PresetColor`](../presetcolor)。 |
+| [R](../../aspose.slides/colorformat/r) { get; set; } | 色の赤成分を取得または設定します。 すべてのカラートランスフォーメーションは無視されます。 読み取り/書き込み Byte。 |
+| [Saturation](../../aspose.slides/colorformat/saturation) { get; set; } | HSL 表現における彩度成分を取得または設定します。 すべてのカラートランスフォーメーションは無視されます。 読み取り/書き込み Single。 |
+| [SchemeColor](../../aspose.slides/colorformat/schemecolor) { get; set; } | カラースキームで識別される色を取得または設定します。 読み取り/書き込み [`SchemeColor`](../schemecolor)。 |
+| [SystemColor](../../aspose.slides/colorformat/systemcolor) { get; set; } | システム カラーテーブルで識別される色を取得または設定します。 読み取り/書き込み [`SystemColor`](../systemcolor)。 |
 
 ## メソッド
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
-| [CopyFrom](../../aspose.slides/colorformat/copyfrom)(IColorFormat) | 「color」からカラー フォーマットをコピーします。 |
+| [CopyFrom](../../aspose.slides/colorformat/copyfrom)(IColorFormat) | "color" からカラー形式をコピーします。 |
 | override [Equals](../../aspose.slides/colorformat/equals)(object) | 指定されたオブジェクトとの等価性をチェックします。 |
 | override [GetHashCode](../../aspose.slides/colorformat/gethashcode)() | ハッシュコードを返します。 |
-| [ToString](../../aspose.slides/colorformat/tostring#tostring_1)(ColorStringFormat) | 現在のカラー フォーマットを表す文字列を返します。 |
+| [ToString](../../aspose.slides/colorformat/tostring#tostring_1)(ColorStringFormat) | 現在のカラー形式を表す文字列を返します。 |
 
 ### 参照
 

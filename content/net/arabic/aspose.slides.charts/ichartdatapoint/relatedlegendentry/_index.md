@@ -1,14 +1,14 @@
 ---
 title: RelatedLegendEntry
-second_title: مرجع API لـ Aspose.Sildes لـ .NET
-description: خصائص الإدخال الأسطوري المقابل في حالة نوع المخطط من القائمة التالية ChartType.BarOfPie ChartType.ExplodedPie ChartType.ExplodedPie3D ChartType.Pie ChartType.Pie3D ChartType.PieOfPie. للقراءة فقط ILegendEntryPropertiesaspose.slides.charts/ilegendentryproperties.
+second_title: Aspose.Sildes لـ .NET مرجع API
+description: خصائص الإدخال المرتبط بالوسيلة الإيضاحية في حالة نوع المخطط من هذه القائمة: ChartType.BarOfPie ChartType.ExplodedPie ChartType.ExplodedPie3D ChartType.Pie ChartType.Pie3D ChartType.PieOfPie. للقراءة فقط ILegendEntryPropertiesaspose.slides.charts/ilegendentryproperties.
 type: docs
-weight: 130
+weight: 170
 url: /ar/aspose.slides.charts/ichartdatapoint/relatedlegendentry/
 ---
-## خاصية IChartDataPoint.RelatedLegendEntry
+## IChartDataPoint.RelatedLegendEntry خاصية
 
-خصائص الإدخال الأسطوري المقابل في حالة نوع المخطط من القائمة التالية: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. للقراءة فقط [`ILegendEntryProperties`](../../ilegendentryproperties).
+خصائص الإدخال المرتبط بالوسيلة الإيضاحية في حالة نوع المخطط من القائمة التالية: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. للقراءة فقط [`ILegendEntryProperties`](../../ilegendentryproperties).
 
 ```csharp
 public ILegendEntryProperties RelatedLegendEntry { get; }

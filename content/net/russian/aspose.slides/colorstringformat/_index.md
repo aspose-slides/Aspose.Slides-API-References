@@ -1,9 +1,9 @@
 ---
 title: ColorStringFormat
-second_title: Aspose.Sildes для .NET справка по API
+second_title: Aspose.Sildes для .NET справочник API
 description: Представляет тип действия гиперссылки.
 type: docs
-weight: 2560
+weight: 2580
 url: /ru/aspose.slides/colorstringformat/
 ---
 ## ColorStringFormat перечисление

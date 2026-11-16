@@ -1,14 +1,14 @@
 ---
 title: StringOrDoubleChartValue
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: "Representa un valor de cadena o número decimal que puede almacenarse en un documento de presentación pptx de dos maneras: 1) en celda(s) del libro de trabajo relacionado con el gráfico; 2) como valor literal."
+description: Representa un valor de cadena o doble que puede almacenarse en un documento de presentación pptx de dos maneras: 1) en celda/celdas del libro de trabajo relacionado con el gráfico; 2) como valor literal.
 type: docs
-weight: 2420
+weight: 2440
 url: /es/aspose.slides.charts/stringordoublechartvalue/
 ---
 ## StringOrDoubleChartValue clase
 
-Representa un valor de cadena o número decimal que puede almacenarse en un documento de presentación pptx de dos maneras: 1) en celda(s) del libro de trabajo relacionado con el gráfico; 2) como valor literal.
+Representa un valor de cadena o doble que puede almacenarse en un documento de presentación pptx de dos maneras: 1) en celda/celdas del libro de trabajo relacionado con el gráfico; 2) como valor literal.
 
 ```csharp
 public class StringOrDoubleChartValue : BaseChartValue, IStringOrDoubleChartValue
@@ -16,19 +16,19 @@ public class StringOrDoubleChartValue : BaseChartValue, IStringOrDoubleChartValu
 
 ## Propiedades
 
-| Name | Description |
+| Nombre | Descripción |
 | --- | --- |
 | [AsCell](../../aspose.slides.charts/stringordoublechartvalue/ascell) { get; set; } | Devuelve o establece la celda de datos del gráfico. Lectura/escritura [`IChartDataCell`](../ichartdatacell). |
-| [AsLiteralDouble](../../aspose.slides.charts/stringordoublechartvalue/asliteraldouble) { get; set; } | Devuelve o establece el valor como Double literal. Lectura/escritura Double. |
-| [AsLiteralString](../../aspose.slides.charts/stringordoublechartvalue/asliteralstring) { get; set; } | Devuelve o establece el valor como String literal. Lectura/escritura String. |
+| [AsLiteralDouble](../../aspose.slides.charts/stringordoublechartvalue/asliteraldouble) { get; set; } | Devuelve o establece el valor como doble literal. Lectura/escritura Double. |
+| [AsLiteralString](../../aspose.slides.charts/stringordoublechartvalue/asliteralstring) { get; set; } | Devuelve o establece el valor como cadena literal. Lectura/escritura String. |
 | override [Data](../../aspose.slides.charts/stringordoublechartvalue/data) { get; set; } | Devuelve o establece el objeto Data. Lectura/escritura Object. |
-| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Especifica si la propiedad AsCell, AsCells, AsLiteralString o AsLiteralDouble está activa en los descendientes. En otras palabras, especifica el tipo de valor de la propiedad Data. Lectura/escritura [`DataSourceType`](../datasourcetype). |
+| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Especifica si la propiedad AsCell, AsCells, AsLiteralString o AsLiteralDouble es real en los descendientes. En otras palabras especifica el tipo de valor de la propiedad Data. Lectura/escritura [`DataSourceType`](../datasourcetype). |
 
 ## Métodos
 
-| Name | Description |
+| Nombre | Descripción |
 | --- | --- |
-| [ToDouble](../../aspose.slides.charts/stringordoublechartvalue/todouble)() | Convierte a double. |
+| [ToDouble](../../aspose.slides.charts/stringordoublechartvalue/todouble)() | Convierte a doble. |
 
 ### Véase también
 

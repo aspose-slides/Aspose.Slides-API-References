@@ -1,14 +1,14 @@
 ---
 title: IFillOverlay
 second_title: Aspose.Sildes .NET API referencia
-description: Egy Fill Overlay effektust reprezentál. A fill overlay használható egy objektumhoz további kitöltés megadására, és a két kitöltés összekeverésére.
+description: Egy Fill Overlay hatást képvisel. A fill overlay használható egy objektum további kitöltésének megadására, és a két kitöltés összekeverésére.
 type: docs
-weight: 3300
+weight: 3320
 url: /hu/aspose.slides.effects/ifilloverlay/
 ---
 ## IFillOverlay interfész
 
-Egy Fill Overlay effektust képvisel. A fill overlay egy további kitöltés megadására használható egy objektum számára, és a két kitöltést összekeveri.
+Egy Fill Overlay hatást képvisel. A fill overlay használható egy objektum további kitöltésének megadására, és a két kitöltés összekeverésére.
 
 ```csharp
 public interface IFillOverlay : IAccessiblePVIObject<IFillOverlayEffectiveData>, 
@@ -19,10 +19,10 @@ public interface IFillOverlay : IAccessiblePVIObject<IFillOverlayEffectiveData>,
 
 | Név | Leírás |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ifilloverlay/asiaccessiblepviobject) { get; } | Lehetővé teszi a base IAccessiblePVIObject interface lekérdezését. Csak olvasható [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ifilloverlay/asiimagetransformoperation) { get; } | Lehetővé teszi a base IImageTransformOperation interface lekérdezését. Csak olvasható [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ifilloverlay/asiaccessiblepviobject) { get; } | Lehetővé teszi a IAccessiblePVIObject alap interfész lekérdezését. Csak olvasható [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ifilloverlay/asiimagetransformoperation) { get; } | Lehetővé teszi a IImageTransformOperation alap interfész lekérdezését. Csak olvasható [`IImageTransformOperation`](../iimagetransformoperation). |
 | [Blend](../../aspose.slides.effects/ifilloverlay/blend) { get; set; } | FillBlendMode. Olvasás/írás [`FillBlendMode`](../../aspose.slides/fillblendmode). |
-| [FillFormat](../../aspose.slides.effects/ifilloverlay/fillformat) { get; } | Fill formátum. Csak olvasható [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [FillFormat](../../aspose.slides.effects/ifilloverlay/fillformat) { get; } | Kitöltés formátuma. Csak olvasható [`IFillFormat`](../../aspose.slides/ifillformat). |
 
 ### Lásd még
 

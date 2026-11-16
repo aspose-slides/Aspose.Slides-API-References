@@ -1,14 +1,14 @@
 ---
 title: CrossesType
-second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Określa, gdzie oś zostanie przecięta.
+second_title: Aspose.Sildes dla .NET referencja API
+description: Określa, w którym miejscu oś zostanie przecięta.
 type: docs
-weight: 1540
+weight: 1550
 url: /pl/aspose.slides.charts/crossestype/
 ---
-## Enumeracja CrossesType
+## CrossesType wyliczenie
 
-Określa, gdzie oś będzie przecięta.
+Określa, w którym miejscu oś będzie przecięta.
 
 ```csharp
 public enum CrossesType
@@ -18,8 +18,8 @@ public enum CrossesType
 
 | Nazwa | Wartość | Opis |
 | --- | --- | --- |
-| AxisCrossesAtZero | `0` | Oś kategorii przecina się w punkcie zerowym osi wartości (jeśli to możliwe), albo w wartości minimalnej (jeśli minimum jest większe od zera), albo w maksymalnej (jeśli maksimum jest mniejsze od zera). |
-| Maximum | `1` | Oś przecina się w maksymalnej wartości. |
+| AxisCrossesAtZero | `0` | Oś kategorii przecina się w zerowym punkcie osi wartości (jeśli to możliwe), albo przy wartości minimalnej (jeśli minimum jest większe od zera), albo przy maksymalnej (jeśli maksimum jest mniejsze od zera). |
+| Maximum | `1` | Oś przecina się przy maksymalnej wartości. |
 | Custom | `2` | Wartość niestandardowa z właściwości CrossAt |
 
 ### Zobacz także

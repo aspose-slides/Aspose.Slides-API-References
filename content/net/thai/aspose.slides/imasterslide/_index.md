@@ -1,14 +1,14 @@
 ---
 title: IMasterSlide
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงสไลด์มาสเตอร์ในงานนำเสนอ.
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: เป็นตัวแทนของสไลด์หลักในงานนำเสนอ.
 type: docs
-weight: 6420
+weight: 6440
 url: /th/aspose.slides/imasterslide/
 ---
 ## IMasterSlide อินเทอร์เฟซ
 
-แสดงสไลด์มาสเตอร์ในงานนำเสนอ.
+Represents a master slide in a presentation.
 
 ```csharp
 public interface IMasterSlide : IBaseSlide, IMasterThemeable
@@ -18,23 +18,23 @@ public interface IMasterSlide : IBaseSlide, IMasterThemeable
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/imasterslide/asibaseslide) { get; } | ใช้เพื่อรับอินเทอร์เฟซ IBaseSlide พื้นฐาน. อ่านอย่างเดียว [`IBaseSlide`](../ibaseslide). |
+| [AsIBaseSlide](../../aspose.slides/imasterslide/asibaseslide) { get; } | อนุญาตให้รับอินเทอร์เฟซ IBaseSlide พื้นฐาน. อ่านอย่างเดียว [`IBaseSlide`](../ibaseslide). |
 | [AsIMasterThemeable](../../aspose.slides/imasterslide/asimasterthemeable) { get; } | คืนค่าอินเทอร์เฟซ IMasterThemeable. อ่านอย่างเดียว [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
-| [BodyStyle](../../aspose.slides/imasterslide/bodystyle) { get; } | คืนค่าสไตล์ของข้อความในส่วนเนื้อหา. อ่านอย่างเดียว [`ITextStyle`](../itextstyle). |
-| [DrawingGuides](../../aspose.slides/imasterslide/drawingguides) { get; } | คืนชุดของไกด์การวาดสำหรับสไลด์มาสเตอร์. อ่านอย่างเดียว [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [HasDependingSlides](../../aspose.slides/imasterslide/hasdependingslides) { get; } | คืนค่า true หากมีสไลด์อย่างน้อยหนึ่งสไลด์ที่ขึ้นอยู่กับสไลด์มาสเตอร์นี้. อ่านอย่างเดียว Boolean. |
-| [HeaderFooterManager](../../aspose.slides/imasterslide/headerfootermanager) { get; } | คืนผู้จัดการ HeaderFooter ของสไลด์มาสเตอร์. อ่านอย่างเดียว [`IMasterSlideHeaderFooterManager`](../imasterslideheaderfootermanager). |
-| [LayoutSlides](../../aspose.slides/imasterslide/layoutslides) { get; } | คืนชุดของสไลด์เลย์เอาต์ลูกสำหรับสไลด์มาสเตอร์นี้. อ่านอย่างเดียว [`IMasterLayoutSlideCollection`](../imasterlayoutslidecollection). |
-| [OtherStyle](../../aspose.slides/imasterslide/otherstyle) { get; } | คืนสไตล์ของข้อความอื่น. อ่านอย่างเดียว [`ITextStyle`](../itextstyle). |
-| [Preserve](../../aspose.slides/imasterslide/preserve) { get; set; } | กำหนดว่ามาสเตอร์ที่สอดคล้องกันจะถูกลบเมื่อสไลด์ทั้งหมดที่ตามมาหลังมาสเตอร์นั้นถูกลบหรือไม่. หมายเหตุ: Aspose.Slides จะไม่ลบมาสเตอร์ที่ไม่ได้ใช้โดยอัตโนมัติ, เพื่อทำการลบมาสเตอร์ที่ไม่ได้ใช้จริงให้เรียก [`RemoveUnused`](../imasterslidecollection/removeunused) อ่าน/เขียน Boolean. |
-| [TitleStyle](../../aspose.slides/imasterslide/titlestyle) { get; } | คืนสไตล์ของข้อความหัวเรื่อง. อ่านอย่างเดียว [`ITextStyle`](../itextstyle). |
+| [BodyStyle](../../aspose.slides/imasterslide/bodystyle) { get; } | คืนค่าสไตล์ของข้อความส่วนหลัก. อ่านอย่างเดียว [`ITextStyle`](../itextstyle). |
+| [DrawingGuides](../../aspose.slides/imasterslide/drawingguides) { get; } | คืนคอลเลกชันของไกด์การวาดสำหรับมาสเตอร์สไลด์. อ่านอย่างเดียว [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [HasDependingSlides](../../aspose.slides/imasterslide/hasdependingslides) { get; } | คืนค่า true หากมีสไลด์อย่างน้อยหนึ่งสไลด์ที่ขึ้นอยู่กับมาสเตอร์สไลด์นี้. อ่านอย่างเดียว Boolean. |
+| [HeaderFooterManager](../../aspose.slides/imasterslide/headerfootermanager) { get; } | คืนค่า HeaderFooter manager ของมาสเตอร์สไลด์. อ่านอย่างเดียว [`IMasterSlideHeaderFooterManager`](../imasterslideheaderfootermanager). |
+| [LayoutSlides](../../aspose.slides/imasterslide/layoutslides) { get; } | คืนค่าคอลเลกชันของสไลด์เค้าโครงย่อยสำหรับมาสเตอร์สไลด์นี้. อ่านอย่างเดียว [`IMasterLayoutSlideCollection`](../imasterlayoutslidecollection). |
+| [OtherStyle](../../aspose.slides/imasterslide/otherstyle) { get; } | คืนค่าสไตล์ของข้อความอื่น. อ่านอย่างเดียว [`ITextStyle`](../itextstyle). |
+| [Preserve](../../aspose.slides/imasterslide/preserve) { get; set; } | กำหนดว่ามาสเตอร์ที่สอดคล้องกันจะถูกลบเมื่อสไลด์ทั้งหมดที่ตามมาของมาสเตอร์นั้นถูกลบหรือไม่. หมายเหตุ: Aspose.Slides จะไม่ลบมาสเตอร์ที่ไม่ได้ใช้ใด ๆ ด้วยตนเอง, เพื่อทำการลบมาสเตอร์ที่ไม่ได้ใช้จริง ๆ ให้เรียก [`RemoveUnused`](../imasterslidecollection/removeunused) อ่าน/เขียน Boolean. |
+| [TitleStyle](../../aspose.slides/imasterslide/titlestyle) { get; } | คืนค่าสไตล์ของข้อความหัวเรื่อง. อ่านอย่างเดียว [`ITextStyle`](../itextstyle). |
 
-## วิธีการ
+## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [ApplyExternalThemeToDependingSlides](../../aspose.slides/imasterslide/applyexternalthemetodependingslides)(string) | สร้างสไลด์มาสเตอร์ใหม่จากสไลด์ปัจจุบัน, นำธีมภายนอกไปใช้กับมัน และนำสไลด์มาสเตอร์ที่สร้างไปใช้กับสไลด์ที่ขึ้นอยู่ทั้งหมด. |
-| [GetDependingSlides](../../aspose.slides/imasterslide/getdependingslides)() | คืนอาร์เรย์ที่มีสไลด์ทั้งหมดที่ขึ้นอยู่กับสไลด์มาสเตอร์นี้. |
+| [ApplyExternalThemeToDependingSlides](../../aspose.slides/imasterslide/applyexternalthemetodependingslides)(string) | สร้างมาสเตอร์สไลด์ใหม่บนพื้นฐานของสไลด์ปัจจุบัน, ใส่ธีมภายนอกให้และนำมาสเตอร์สไลด์ที่สร้างไปใช้กับสไลด์ที่ขึ้นอยู่ทั้งหมด. |
+| [GetDependingSlides](../../aspose.slides/imasterslide/getdependingslides)() | คืนอาร์เรย์ที่มีสไลด์ทั้งหมดที่ขึ้นอยู่กับมาสเตอร์สไลด์นี้. |
 
 ### ดูเพิ่มเติม
 

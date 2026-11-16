@@ -1,12 +1,12 @@
 ---
 title: LineArrowheadLength
-second_title: Referencja API Aspose.Sildes dla .NET
+second_title: Aspose.Sildes dla .NET API Reference
 description: Reprezentuje długość grotu strzałki.
 type: docs
-weight: 7730
+weight: 7750
 url: /pl/aspose.slides/linearrowheadlength/
 ---
-## enumeracja LineArrowheadLength
+## Wyliczenie LineArrowheadLength
 
 Reprezentuje długość grotu strzałki.
 

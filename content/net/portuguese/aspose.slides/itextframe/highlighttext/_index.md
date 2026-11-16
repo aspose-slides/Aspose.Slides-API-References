@@ -1,14 +1,14 @@
 ---
 title: HighlightText
 second_title: Referência da API Aspose.Sildes para .NET
-description: Destaca todas as correspondências do texto de amostra com a cor especificada.
+description: Realça todas as correspondências do texto de amostra com a cor especificada.
 type: docs
-weight: 90
+weight: 100
 url: /pt/aspose.slides/itextframe/highlighttext/
 ---
 ## HighlightText(string, Color) {#highlighttext}
 
-Destaca todas as correspondências do texto de amostra com a cor especificada.
+Realça todas as correspondências do texto de amostra com a cor especificada.
 
 ```csharp
 public void HighlightText(string text, Color highlightColor)
@@ -16,10 +16,10 @@ public void HighlightText(string text, Color highlightColor)
 
 | Parâmetro | Tipo | Descrição |
 | --- | --- | --- |
-| text | String | O texto a ser destacado. |
-| highlightColor | Color | A cor para destacar o texto. |
+| text | String | O texto a ser realçado. |
+| highlightColor | Color | A cor para realçar o texto. |
 
-### Ver Também
+### Veja Também
 
 * interface [ITextFrame](../../itextframe)
 * namespace [Aspose.Slides](../../itextframe)
@@ -29,7 +29,7 @@ public void HighlightText(string text, Color highlightColor)
 
 ## HighlightText(string, Color, ITextSearchOptions, IFindResultCallback) {#highlighttext_2}
 
-Destaca todas as correspondências do texto de amostra com a cor especificada.
+Realça todas as correspondências do texto de amostra com a cor especificada.
 
 ```csharp
 public void HighlightText(string text, Color highlightColor, ITextSearchOptions options, 
@@ -38,29 +38,29 @@ public void HighlightText(string text, Color highlightColor, ITextSearchOptions 
 
 | Parâmetro | Tipo | Descrição |
 | --- | --- | --- |
-| text | String | O texto a ser destacado. |
-| highlightColor | Color | A cor para destacar o texto. |
+| text | String | O texto a ser realçado. |
+| highlightColor | Color | A cor para realçar o texto. |
 | options | ITextSearchOptions | Opções de pesquisa de texto [`ITextSearchOptions`](../../itextsearchoptions). |
 | callback | IFindResultCallback | O objeto de retorno de chamada para receber os resultados da pesquisa [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### Exemplos
 
-O exemplo de código a seguir mostra como destacar texto em um TextFrame.
+O exemplo de código a seguir demonstra como realçar texto em um TextFrame.
 
 ```csharp
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
-	// destacando todas as palavras 'important'
+	// realçando todas as palavras 'important'
 	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.HighlightText("important", Color.LightBlue);
-	// destacando todas as ocorrências separadas de 'the'
+	// realçando todas as ocorrências separadas de 'the'
 	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.HighlightText("the", Color.Violet, new TextSearchOptions()
 	{ WholeWordsOnly = true }, null);
 	presentation.Save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 }
 ```
 
-### Ver Também
+### Veja Também
 
 * interface [ITextSearchOptions](../../itextsearchoptions)
 * interface [IFindResultCallback](../../ifindresultcallback)

@@ -3,7 +3,7 @@ title: NotesSlide
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa una diapositiva de notas en una presentación.
 type: docs
-weight: 9140
+weight: 9160
 url: /es/aspose.slides/notesslide/
 ---
 ## NotesSlide clase
@@ -21,8 +21,8 @@ public class NotesSlide : BaseSlide, INotesSlide
 | [Background](../../aspose.slides/baseslide/background) { get; } | Devuelve el fondo de la diapositiva. Solo lectura [`IBackground`](../ibackground). |
 | [Controls](../../aspose.slides/baseslide/controls) { get; } | Devuelve la colección de controles ActiveX en una diapositiva. Solo lectura [`IControlCollection`](../icontrolcollection). |
 | [CustomData](../../aspose.slides/baseslide/customdata) { get; } | Devuelve los datos personalizados de la diapositiva. Solo lectura [`ICustomData`](../icustomdata). |
-| [HeaderFooterManager](../../aspose.slides/notesslide/headerfootermanager) { get; } | Devuelve el gestor HeaderFooter de la diapositiva de notas. Solo lectura [`INotesSlideHeaderFooterManager`](../inotesslideheaderfootermanager). |
-| [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | Proporciona acceso fácil a los hipervínculos contenidos. Solo lectura [`IHyperlinkQueries`](../ihyperlinkqueries). |
+| [HeaderFooterManager](../../aspose.slides/notesslide/headerfootermanager) { get; } | Devuelve el administrador HeaderFooter de la diapositiva de notas. Solo lectura [`INotesSlideHeaderFooterManager`](../inotesslideheaderfootermanager). |
+| [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | Proporciona acceso sencillo a los hipervínculos contenidos. Solo lectura [`IHyperlinkQueries`](../ihyperlinkqueries). |
 | virtual [Name](../../aspose.slides/baseslide/name) { get; set; } | Devuelve o establece el nombre de una diapositiva. Lectura/escritura String. |
 | [NotesTextFrame](../../aspose.slides/notesslide/notestextframe) { get; } | Devuelve un TextFrame con el texto de las notas si existe. Solo lectura [`ITextFrame`](../itextframe). |
 | [ParentSlide](../../aspose.slides/notesslide/parentslide) { get; } | Devuelve la diapositiva principal. Solo lectura [`ISlide`](../islide). |
@@ -31,7 +31,7 @@ public class NotesSlide : BaseSlide, INotesSlide
 | override [ShowMasterShapes](../../aspose.slides/notesslide/showmastershapes) { get; set; } | Especifica si las formas en la diapositiva maestra deben mostrarse en las diapositivas o no. Lectura/escritura Boolean. |
 | [SlideId](../../aspose.slides/baseslide/slideid) { get; } | Devuelve el ID de una diapositiva. Solo lectura UInt32. |
 | virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | Devuelve el objeto Transition que contiene información sobre cómo avanza la diapositiva especificada durante una presentación. Solo lectura [`ISlideShowTransition`](../islideshowtransition). |
-| [ThemeManager](../../aspose.slides/notesslide/thememanager) { get; } | Devuelve el gestor de tema de sobrescritura. Solo lectura [`IOverrideThemeManager`](../../aspose.slides.theme/ioverridethememanager). |
+| [ThemeManager](../../aspose.slides/notesslide/thememanager) { get; } | Devuelve el administrador de tema de sobrescritura. Solo lectura [`IOverrideThemeManager`](../../aspose.slides.theme/ioverridethememanager). |
 | [Timeline](../../aspose.slides/baseslide/timeline) { get; } | Devuelve el objeto de línea de tiempo de animación. Solo lectura [`IAnimationTimeLine`](../ianimationtimeline). |
 
 ## Métodos
@@ -39,7 +39,7 @@ public class NotesSlide : BaseSlide, INotesSlide
 | Nombre | Descripción |
 | --- | --- |
 | [CreateThemeEffective](../../aspose.slides/baseslide/createthemeeffective)() | Devuelve un tema efectivo para esta diapositiva. |
-| [Equals](../../aspose.slides/baseslide/equals)(IBaseSlide) | Determina si las dos instancias de IBaseSlide son iguales. El valor devuelto se calcula en función de la estructura de la diapositiva y el contenido estático. Dos diapositivas son iguales si todas las formas, estilos, textos, animaciones y otras configuraciones, etc., son iguales. La comparación no tiene en cuenta los valores de identificador únicos, p. ej., SlideId, ni el contenido dinámico, p. ej., el valor de fecha actual en el marcador de posición de fecha. |
+| [Equals](../../aspose.slides/baseslide/equals)(IBaseSlide) | Determina si dos instancias de IBaseSlide son iguales. El valor devuelto se calcula en base a la estructura de la diapositiva y al contenido estático. Dos diapositivas son iguales si todas las formas, estilos, textos, animaciones y otras configuraciones, etc., son iguales. La comparación no tiene en cuenta los valores de identificadores únicos, por ejemplo SlideId, ni el contenido dinámico, por ejemplo el valor de fecha actual en Date Placeholder. |
 | [FindShapeByAltText](../../aspose.slides/baseslide/findshapebyalttext)(string) | Busca la primera aparición de una forma con el texto alternativo especificado. |
 | virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)() | Une ejecuciones con el mismo formato en todos los párrafos de todas las formas aceptables. |
 | virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)(IShapeCollection) | Une ejecuciones con el mismo formato en todos los párrafos de todas las formas aceptables. |

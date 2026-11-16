@@ -1,14 +1,14 @@
 ---
 title: ILightRigEffectiveData
 second_title: Aspose.Sildes pro .NET API referenci
-description: Neměnný objekt, který obsahuje účinné vlastnosti světelného systému.
+description: Neměnný objekt, který obsahuje efektivní vlastnosti světelného aparátu.
 type: docs
-weight: 6280
+weight: 6300
 url: /cs/aspose.slides/ilightrigeffectivedata/
 ---
 ## ILightRigEffectiveData rozhraní
 
-Neměnný objekt, který obsahuje účinné vlastnosti světelného systému.
+Neměnný objekt, který obsahuje efektivní vlastnosti světelného aparátu.
 
 ```csharp
 public interface ILightRigEffectiveData
@@ -16,16 +16,16 @@ public interface ILightRigEffectiveData
 
 ## Vlastnosti
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
 | [Direction](../../aspose.slides/ilightrigeffectivedata/direction) { get; } | Směr světla. Pouze pro čtení [`LightingDirection`](../lightingdirection). |
-| [LightType](../../aspose.slides/ilightrigeffectivedata/lighttype) { get; } | Zastupuje přednastavené světlo vpravo, které lze použít na tvar. Světelný rig představuje skupinu světel orientovaných určitým způsobem vůči 3D scéně. Pouze pro čtení [`LightRigPresetType`](../lightrigpresettype). |
+| [LightType](../../aspose.slides/ilightrigeffectivedata/lighttype) { get; } | Představuje přednastavené světlo, které lze použít na tvar. Light rig představuje skupinu světel orientovaných určitým způsobem vzhledem k 3D scéně. Pouze pro čtení [`LightRigPresetType`](../lightrigpresettype). |
 
 ## Metody
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
-| [GetRotation](../../aspose.slides/ilightrigeffectivedata/getrotation)() | Rotace je definována pomocí souřadnice zeměpisné šířky, souřadnice délky a otáčení kolem osy jako souřadnice zeměpisné šířky a délky. První prvek návratového pole – zeměpisná šířka, druhý – délka, třetí – otáčení. |
+| [GetRotation](../../aspose.slides/ilightrigeffectivedata/getrotation)() | Rotace je definována pomocí souřadnice zeměpisné šířky, souřadnice zeměpisné délky a otáčení kolem osy, které představují souřadnice šířky a délky. První prvek v návratovém poli – zeměpisná šířka, druhý – zeměpisná délka, třetí – otáčení. |
 
 ### Poznámky
 

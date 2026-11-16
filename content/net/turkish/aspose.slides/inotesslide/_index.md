@@ -1,12 +1,12 @@
 ---
 title: INotesSlide
-second_title: Aspose.Sildes .NET API Referansı
+second_title: Aspose.Sildes for .NET API Referansı
 description: Bir sunumdaki not slaytını temsil eder.
 type: docs
-weight: 6500
+weight: 6520
 url: /tr/aspose.slides/inotesslide/
 ---
-## INotesSlide arabirim
+## INotesSlide arayüzü
 
 Bir sunumdaki not slaytını temsil eder.
 
@@ -18,16 +18,16 @@ public interface INotesSlide : IBaseSlide, IOverrideThemeable
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/inotesslide/asibaseslide) { get; } | Temel IBaseSlide arabirimine erişim sağlar. Salt-okunur [`IBaseSlide`](../ibaseslide). |
-| [AsIOverrideThemeable](../../aspose.slides/inotesslide/asioverridethemeable) { get; } | IOverrideThemeable arabirimini döndürür. Salt-okunur [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
-| [HeaderFooterManager](../../aspose.slides/inotesslide/headerfootermanager) { get; } | Not slaytının HeaderFooter yöneticisini döndürür. Salt-okunur [`INotesSlideHeaderFooterManager`](../inotesslideheaderfootermanager). |
-| [NotesTextFrame](../../aspose.slides/inotesslide/notestextframe) { get; } | Varsa notların metni içeren bir TextFrame döndürür. Salt-okunur [`ITextFrame`](../itextframe). |
-| [ParentSlide](../../aspose.slides/inotesslide/parentslide) { get; } | Bir ParentSlide döndürür. Salt-okunur [`ISlide`](../islide). |
+| [AsIBaseSlide](../../aspose.slides/inotesslide/asibaseslide) { get; } | Temel IBaseSlide arayüzünü almayı sağlar. Salt okunur [`IBaseSlide`](../ibaseslide). |
+| [AsIOverrideThemeable](../../aspose.slides/inotesslide/asioverridethemeable) { get; } | IOverrideThemeable arayüzünü döndürür. Salt okunur [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
+| [HeaderFooterManager](../../aspose.slides/inotesslide/headerfootermanager) { get; } | Not slaytı için HeaderFooter yöneticisini döndürür. Salt okunur [`INotesSlideHeaderFooterManager`](../inotesslideheaderfootermanager). |
+| [NotesTextFrame](../../aspose.slides/inotesslide/notestextframe) { get; } | Varsa not metni içeren bir TextFrame döndürür. Salt okunur [`ITextFrame`](../itextframe). |
+| [ParentSlide](../../aspose.slides/inotesslide/parentslide) { get; } | ParentSlide'ı döndürür. Salt okunur [`ISlide`](../islide). |
 
-### Ayrıca Bakınız
+### Ayrıca
 
-* arabirim [IBaseSlide](../ibaseslide)
-* arabirim [IOverrideThemeable](../../aspose.slides.theme/ioverridethemeable)
+* arayüz [IBaseSlide](../ibaseslide)
+* arayüz [IOverrideThemeable](../../aspose.slides.theme/ioverridethemeable)
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)
 

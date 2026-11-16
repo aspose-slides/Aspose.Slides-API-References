@@ -1,14 +1,14 @@
 ---
 title: ShapeFrame
-second_title: Aspose.Sildes .NET 用 API リファレンス
-description: シェイプ フレームのプロパティを表します。
+second_title: Aspose.Sildes の .NET 用 API リファレンス
+description: シェイプフレームのプロパティを表します。
 type: docs
-weight: 9900
+weight: 9920
 url: /ja/aspose.slides/shapeframe/
 ---
 ## ShapeFrame クラス
 
-シェイプ フレームのプロパティを表します。
+シェイプフレームのプロパティを表します。
 
 ```csharp
 public class ShapeFrame : IShapeFrame
@@ -18,22 +18,22 @@ public class ShapeFrame : IShapeFrame
 
 | 名前 | 説明 |
 | --- | --- |
-| [ShapeFrame](shapeframe)(float, float, float, float, NullableBool, NullableBool, float) | 新しいシェイプ フレームのプロパティを作成します。 |
+| [ShapeFrame](shapeframe)(float, float, float, float, NullableBool, NullableBool, float) | 新しいシェイプフレームのプロパティを作成します。 |
 
 ## プロパティ
 
 | 名前 | 説明 |
 | --- | --- |
-| [CenterX](../../aspose.slides/shapeframe/centerx) { get; } | フレームの中心の X 座標を返します。 読み取り専用 Single。 |
-| [CenterY](../../aspose.slides/shapeframe/centery) { get; } | フレームの中心の Y 座標を返します。 読み取り専用 Single。 |
-| [FlipH](../../aspose.slides/shapeframe/fliph) { get; } | フレームが水平に反転しているかどうかを判定します。 読み取り専用 [`NullableBool`](../nullablebool)。 |
-| [FlipV](../../aspose.slides/shapeframe/flipv) { get; } | フレームが垂直に反転しているかどうかを判定します。 読み取り専用 [`NullableBool`](../nullablebool)。 |
-| [Height](../../aspose.slides/shapeframe/height) { get; } | フレームの高さを返します。 読み取り専用 Single。 |
-| [Rectangle](../../aspose.slides/shapeframe/rectangle) { get; } | フレームの座標を返します。 読み取り専用 RectangleF。 |
-| [Rotation](../../aspose.slides/shapeframe/rotation) { get; } | フレームが Z 軸まわりに回転した角度（度数）を返します。 正の値は時計回り、負の値は反時計回りを示します。 読み取り専用 Single。 |
-| [Width](../../aspose.slides/shapeframe/width) { get; } | フレームの幅を返します。 読み取り専用 Single。 |
-| [X](../../aspose.slides/shapeframe/x) { get; } | フレームの左上隅の X 座標を返します。 読み取り専用 Single。 |
-| [Y](../../aspose.slides/shapeframe/y) { get; } | フレームの左上隅の Y 座標を返します。 読み取り専用 Single。 |
+| [CenterX](../../aspose.slides/shapeframe/centerx) { get; } | フレームの中心の X 座標を返します。読み取り専用 Single。 |
+| [CenterY](../../aspose.slides/shapeframe/centery) { get; } | フレームの中心の Y 座標を返します。読み取り専用 Single。 |
+| [FlipH](../../aspose.slides/shapeframe/fliph) { get; } | フレームが水平方向に反転しているかどうかを判定します。読み取り専用 [`NullableBool`](../nullablebool)。 |
+| [FlipV](../../aspose.slides/shapeframe/flipv) { get; } | フレームが垂直方向に反転しているかどうかを判定します。読み取り専用 [`NullableBool`](../nullablebool)。 |
+| [Height](../../aspose.slides/shapeframe/height) { get; } | フレームの高さを返します。読み取り専用 Single。 |
+| [Rectangle](../../aspose.slides/shapeframe/rectangle) { get; } | フレームの座標を返します。読み取り専用 RectangleF。 |
+| [Rotation](../../aspose.slides/shapeframe/rotation) { get; } | フレームが z 軸まわりに回転した角度（度数）を返します。正の値は時計回り、負の値は反時計回りを示します。読み取り専用 Single。 |
+| [Width](../../aspose.slides/shapeframe/width) { get; } | フレームの幅を返します。読み取り専用 Single。 |
+| [X](../../aspose.slides/shapeframe/x) { get; } | フレームの左上隅の X 座標を返します。読み取り専用 Single。 |
+| [Y](../../aspose.slides/shapeframe/y) { get; } | フレームの左上隅の Y 座標を返します。読み取り専用 Single。 |
 
 ## メソッド
 

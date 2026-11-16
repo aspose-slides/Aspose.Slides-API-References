@@ -1,14 +1,14 @@
 ---
 title: IDuotoneEffectiveData
-second_title: Aspose.Sildes для .NET справочник API
-description: Неизменяемый объект, представляющий эффект Duotone. Для каждого пикселя комбинирует clr1 и clr2 с помощью линейной интерполяции, чтобы определить новый цвет для этого пикселя.
+second_title: Aspose.Sildes для .NET справочника API
+description: Неизменяемый объект, представляющий эффект Duotone. Для каждого пикселя объединяет clr1 и clr2 посредством линейной интерполяции, чтобы определить новый цвет для этого пикселя.
 type: docs
-weight: 3270
+weight: 3290
 url: /ru/aspose.slides.effects/iduotoneeffectivedata/
 ---
 ## IDuotoneEffectiveData интерфейс
 
-Неизменяемый объект, представляющий эффект Duotone. Для каждого пикселя сочетает clr1 и clr2 с помощью линейной интерполяции, чтобы определить новый цвет для этого пикселя.
+Immutable object which represents a Duotone effect. For each pixel, combines clr1 and clr2 through a linear interpolation to determine the new color for that pixel.
 
 ```csharp
 public interface IDuotoneEffectiveData : IEffectEffectiveData
@@ -19,7 +19,7 @@ public interface IDuotoneEffectiveData : IEffectEffectiveData
 | Имя | Описание |
 | --- | --- |
 | [AsIEffectEffectiveData](../../aspose.slides.effects/iduotoneeffectivedata/asieffecteffectivedata) { get; } | Позволяет получить базовый интерфейс IEffectEffectiveData. Только для чтения [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Color1](../../aspose.slides.effects/iduotoneeffectivedata/color1) { get; } | Возвращает целевой формат цвета для темных пикселей. Только для чтения Color. |
+| [Color1](../../aspose.slides.effects/iduotoneeffectivedata/color1) { get; } | Возвращает целевой формат цвета для тёмных пикселей. Только для чтения Color. |
 | [Color2](../../aspose.slides.effects/iduotoneeffectivedata/color2) { get; } | Возвращает целевой формат цвета для светлых пикселей. Только для чтения Color. |
 
 ### См. также

@@ -1,9 +1,9 @@
 ---
 title: IFontSubstRuleCollection
-second_title: Aspose.Sildes .NET API 参考
+second_title: 适用于 .NET 的 Aspose.Sildes API 参考
 description: 表示字体替换的集合。
 type: docs
-weight: 5890
+weight: 5910
 url: /zh/aspose.slides/ifontsubstrulecollection/
 ---
 ## IFontSubstRuleCollection 接口
@@ -25,9 +25,9 @@ public interface IFontSubstRuleCollection : IGenericCollection<IFontSubstRule>
 | 名称 | 描述 |
 | --- | --- |
 | [Add](../../aspose.slides/ifontsubstrulecollection/add)(IFontSubstRule) | 将新的字体替换规则添加到集合中 |
-| [Remove](../../aspose.slides/ifontsubstrulecollection/remove)(IFontSubstRule) | 从集合中删除特定对象的第一次出现。 |
+| [Remove](../../aspose.slides/ifontsubstrulecollection/remove)(IFontSubstRule) | 从集合中移除特定对象的第一次出现。 |
 
-### 另请参见
+### 参见
 
 * 接口 [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * 接口 [IFontSubstRule](../ifontsubstrule)

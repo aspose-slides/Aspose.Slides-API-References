@@ -1,14 +1,14 @@
 ---
 title: FieldType
-second_title: Aspose.Sildes برای .NET مرجع API
-description: نمایش دهنده نوعی از فیلد است. این مقدار تعیین می‌کند که هنگام به‌روزرسانی، کدام متن به بخش فیلد تنظیم شود.
+second_title: Aspose.Sildes برای مرجع API .NET
+description: نمادی از یک نوع فیلد است. این مقدار تعیین می‌کند که هنگام به‌روزرسانی، چه متنی در بخش فیلد قرار گیرد.
 type: docs
-weight: 4760
+weight: 4780
 url: /fa/aspose.slides/fieldtype/
 ---
 ## کلاس FieldType
 
-نمایش دهنده نوع فیلد. این مقدار تعیین می‌کند که کدام متن هنگام به‌روزرسانی به بخش فیلد تنظیم شود.
+نمایانگر نوعی از فیلد است. این مقدار تعیین می‌کند که چه متنی در بخش فیلد قرار گیرد هنگامی که به‌روز شود.
 
 ```csharp
 public sealed class FieldType : IFieldType
@@ -16,46 +16,46 @@ public sealed class FieldType : IFieldType
 
 ## سازنده‌ها
 
-| نام | توضیحات |
+| نام | توضیح |
 | --- | --- |
-| [FieldType](fieldtype)(string) | یک نمونه جدید از کلاس FieldType را مقداردهی اولیه می‌کند. |
+| [FieldType](fieldtype)(string) | یک نمونه جدید از کلاس FieldType را ایجاد می‌کند. |
 
-## ویژگی‌ها
+## خصوصیات
 
-| نام | توضیحات |
+| نام | توضیح |
 | --- | --- |
-| static [DateTime](../../aspose.slides/fieldtype/datetime) { get; } | تاریخ و زمان فعلی در قالب تاریخ-زمان پیش‌فرض برای برنامه رندرینگ. فقط-خواندنی [`FieldType`](../fieldtype). |
-| static [DateTime1](../../aspose.slides/fieldtype/datetime1) { get; } | تاریخ و زمان فعلی در اولین قالب پیش‌تعریف‌شده (MM/DD/YYYY برای انگلیسی). فقط-خواندنی [`FieldType`](../fieldtype). |
-| static [DateTime10](../../aspose.slides/fieldtype/datetime10) { get; } | تاریخ و زمان فعلی در دومین قالب پیش‌تعریف‌شده (hh:mm برای انگلیسی). فقط-خواندنی [`FieldType`](../fieldtype). |
-| static [DateTime11](../../aspose.slides/fieldtype/datetime11) { get; } | تاریخ و زمان فعلی در یازدهمین قالب پیش‌تعریف‌شده (hh:mm:ss برای انگلیسی). فقط-خواندنی [`FieldType`](../fieldtype). |
-| static [DateTime12](../../aspose.slides/fieldtype/datetime12) { get; } | تاریخ و زمان فعلی در دوازدهمین قالب پیش‌تعریف‌شده (hh:mm AM/PM برای انگلیسی). فقط-خواندنی [`FieldType`](../fieldtype). |
-| static [DateTime13](../../aspose.slides/fieldtype/datetime13) { get; } | تاریخ و زمان فعلی در سیزدهمین قالب پیش‌تعریف‌شده (hh:mm:ss AM/PM برای انگلیسی). فقط-خواندنی [`FieldType`](../fieldtype). |
-| static [DateTime2](../../aspose.slides/fieldtype/datetime2) { get; } | تاریخ و زمان فعلی در دومین قالب پیش‌تعریف‌شده (Day, Month DD, YYYY برای انگلیسی). فقط-خواندنی [`FieldType`](../fieldtype). |
-| static [DateTime3](../../aspose.slides/fieldtype/datetime3) { get; } | تاریخ و زمان فعلی در سومین قالب پیش‌تعریف‌شده (DD Month YYYY برای انگلیسی). فقط-خواندنی [`FieldType`](../fieldtype). |
-| static [DateTime4](../../aspose.slides/fieldtype/datetime4) { get; } | تاریخ و زمان فعلی در چهارمین قالب پیش‌تعریف‌شده (Month DD, YYYY برای انگلیسی). فقط-خواندنی [`FieldType`](../fieldtype). |
-| static [DateTime5](../../aspose.slides/fieldtype/datetime5) { get; } | تاریخ و زمان فعلی در پنجمین قالب پیش‌تعریف‌شده (DD-Mon-YY برای انگلیسی). فقط-خواندنی [`FieldType`](../fieldtype). |
-| static [DateTime6](../../aspose.slides/fieldtype/datetime6) { get; } | تاریخ و زمان فعلی در ششمین قالب پیش‌تعریف‌شده (Month YY برای انگلیسی). فقط-خواندنی [`FieldType`](../fieldtype). |
-| static [DateTime7](../../aspose.slides/fieldtype/datetime7) { get; } | تاریخ و زمان فعلی در هفتمین قالب پیش‌تعریف‌شده (Mon-YY برای انگلیسی). فقط-خواندنی [`FieldType`](../fieldtype). |
-| static [DateTime8](../../aspose.slides/fieldtype/datetime8) { get; } | تاریخ و زمان فعلی در هشتمین قالب پیش‌تعریف‌شده (MM/DD/YYYY hh:mm AM/PM برای انگلیسی). فقط-خواندنی [`FieldType`](../fieldtype). |
-| static [DateTime9](../../aspose.slides/fieldtype/datetime9) { get; } | تاریخ و زمان فعلی در نهمین قالب پیش‌تعریف‌شده (MM/DD/YYYY hh:mm:ss AM/PM برای انگلیسی). فقط-خواندنی [`FieldType`](../fieldtype). |
-| static [Footer](../../aspose.slides/fieldtype/footer) { get; } | پابرگ اسلاید. فقط-خواندنی [`FieldType`](../fieldtype). |
+| static [DateTime](../../aspose.slides/fieldtype/datetime) { get; } | تاریخ و زمان فعلی در قالب پیش‌فرض تاریخ-زمان برای برنامه رندر. فقط-خواندنی [`FieldType`](../fieldtype). |
+| static [DateTime1](../../aspose.slides/fieldtype/datetime1) { get; } | تاریخ و زمان فعلی در فرمت پیش‌فرض اول (MM/DD/YYYY برای انگلیسی). فقط-خواندنی [`FieldType`](../fieldtype). |
+| static [DateTime10](../../aspose.slides/fieldtype/datetime10) { get; } | تاریخ و زمان فعلی در فرمت پیش‌فرض دهم (hh:mm برای انگلیسی). فقط-خواندنی [`FieldType`](../fieldtype). |
+| static [DateTime11](../../aspose.slides/fieldtype/datetime11) { get; } | تاریخ و زمان فعلی در فرمت پیش‌فرض یازدهم (hh:mm:ss برای انگلیسی). فقط-خواندنی [`FieldType`](../fieldtype). |
+| static [DateTime12](../../aspose.slides/fieldtype/datetime12) { get; } | تاریخ و زمان فعلی در فرمت پیش‌فرض دوازدهم (hh:mm AM/PM برای انگلیسی). فقط-خواندنی [`FieldType`](../fieldtype). |
+| static [DateTime13](../../aspose.slides/fieldtype/datetime13) { get; } | تاریخ و زمان فعلی در فرمت پیش‌فرض سیزدهم (hh:mm:ss AM/PM برای انگلیسی). فقط-خواندنی [`FieldType`](../fieldtype). |
+| static [DateTime2](../../aspose.slides/fieldtype/datetime2) { get; } | تاریخ و زمان فعلی در فرمت پیش‌فرض دوم (Day, Month DD, YYYY برای انگلیسی). فقط-خواندنی [`FieldType`](../fieldtype). |
+| static [DateTime3](../../aspose.slides/fieldtype/datetime3) { get; } | تاریخ و زمان فعلی در فرمت پیش‌فرض سوم (DD Month YYYY برای انگلیسی). فقط-خواندنی [`FieldType`](../fieldtype). |
+| static [DateTime4](../../aspose.slides/fieldtype/datetime4) { get; } | تاریخ و زمان فعلی در فرمت پیش‌فرض چهارم (Month DD, YYYY برای انگلیسی). فقط-خواندنی [`FieldType`](../fieldtype). |
+| static [DateTime5](../../aspose.slides/fieldtype/datetime5) { get; } | تاریخ و زمان فعلی در فرمت پیش‌فرض پنجم (DD-Mon-YY برای انگلیسی). فقط-خواندنی [`FieldType`](../fieldtype). |
+| static [DateTime6](../../aspose.slides/fieldtype/datetime6) { get; } | تاریخ و زمان فعلی در فرمت پیش‌فرض ششم (Month YY برای انگلیسی). فقط-خواندنی [`FieldType`](../fieldtype). |
+| static [DateTime7](../../aspose.slides/fieldtype/datetime7) { get; } | تاریخ و زمان فعلی در فرمت پیش‌فرض هفتم (Mon-YY برای انگلیسی). فقط-خواندنی [`FieldType`](../fieldtype). |
+| static [DateTime8](../../aspose.slides/fieldtype/datetime8) { get; } | تاریخ و زمان فعلی در فرمت پیش‌فرض هشتم (MM/DD/YYYY hh:mm AM/PM برای انگلیسی). فقط-خواندنی [`FieldType`](../fieldtype). |
+| static [DateTime9](../../aspose.slides/fieldtype/datetime9) { get; } | تاریخ و زمان فعلی در فرمت پیش‌فرض نهم (MM/DD/YYYY hh:mm:ss AM/PM برای انگلیسی). فقط-خواندنی [`FieldType`](../fieldtype). |
+| static [Footer](../../aspose.slides/fieldtype/footer) { get; } | پاورقی اسلاید. فقط-خواندنی [`FieldType`](../fieldtype). |
 | static [Header](../../aspose.slides/fieldtype/header) { get; } | سرصفحه اسلاید. فقط-خواندنی [`FieldType`](../fieldtype). |
-| static [SlideNumber](../../aspose.slides/fieldtype/slidenumber) { get; } | شماره اسلاید فعلی. فقط-خواندنی [`FieldType`](../fieldtype). |
-| [InternalString](../../aspose.slides/fieldtype/internalstring) { get; set; } | نام داخلی این شیء FieldType را برمی‌گرداند. قابل خواندن/نوشتن String. |
+| static [SlideNumber](../../aspose.slides/fieldtype/slidenumber) { get; } | شمارهٔ اسلاید فعلی. فقط-خواندنی [`FieldType`](../fieldtype). |
+| [InternalString](../../aspose.slides/fieldtype/internalstring) { get; set; } | نام داخلی این شیء FieldType را بر می‌گرداند. قابل‌نوشتن String. |
 
 ## متدها
 
-| نام | توضیحات |
+| نام | توضیح |
 | --- | --- |
-| override [Equals](../../aspose.slides/fieldtype/equals)(object) | بررسی می‌کند آیا این فیلد برابر با فیلد دیگری است. |
-| override [GetHashCode](../../aspose.slides/fieldtype/gethashcode)() | کد هش این شیء را برمی‌گرداند. |
+| override [Equals](../../aspose.slides/fieldtype/equals)(object) | بررسی می‌کند آیا این فیلד برابر با دیگری است. |
+| override [GetHashCode](../../aspose.slides/fieldtype/gethashcode)() | کد هش را برای این شیء بر می‌گرداند. |
 | [operator ==](../../aspose.slides/fieldtype/op_equality) | بررسی می‌کند آیا دو شیء FieldType برابر هستند. |
 | [operator !=](../../aspose.slides/fieldtype/op_inequality) | بررسی می‌کند آیا دو شیء FieldType نابرابر هستند. |
 
-### همچنین ببینید
+### ارجاع‌ها
 
-* interface [IFieldType](../ifieldtype)
-* namespace [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* رابط [IFieldType](../ifieldtype)
+* فضای نام [Aspose.Slides](../../aspose.slides)
+* مجمع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

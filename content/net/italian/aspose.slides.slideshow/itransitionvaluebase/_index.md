@@ -1,9 +1,9 @@
 ---
 title: ITransitionValueBase
-second_title: Aspose.Sildes per .NET Riferimento API
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta la classe base per gli effetti di transizione delle diapositive.
 type: docs
-weight: 10210
+weight: 10230
 url: /it/aspose.slides.slideshow/itransitionvaluebase/
 ---
 ## ITransitionValueBase interfaccia

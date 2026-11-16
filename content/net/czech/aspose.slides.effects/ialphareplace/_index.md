@@ -1,14 +1,14 @@
 ---
 title: IAlphaReplace
 second_title: Aspose.Sildes pro .NET API Reference
-description: Představuje základní rozhraní IImageTransformOperation.
+description: Representuje základní IImageTransformOperation rozhraní.
 type: docs
-weight: 3140
+weight: 3160
 url: /cs/aspose.slides.effects/ialphareplace/
 ---
 ## IAlphaReplace rozhraní
 
-Representuje základní rozhraní IImageTransformOperation.
+Representuje základní IImageTransformOperation rozhraní.
 
 ```csharp
 public interface IAlphaReplace : IAccessiblePVIObject<IAlphaReplaceEffectiveData>, 
@@ -19,8 +19,8 @@ public interface IAlphaReplace : IAccessiblePVIObject<IAlphaReplaceEffectiveData
 
 | Název | Popis |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphareplace/asiaccessiblepviobject) { get; } | Umožňuje získat základní rozhraní IAccessiblePVIObject. Pouze ke čtení [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphareplace/asiimagetransformoperation) { get; } | Umožňuje získat základní rozhraní IImageTransformOperation. Pouze ke čtení [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphareplace/asiaccessiblepviobject) { get; } | Umožňuje získat základní IAccessiblePVIObject rozhraní. Pouze pro čtení [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphareplace/asiimagetransformoperation) { get; } | Umožňuje získat základní IImageTransformOperation rozhraní. Pouze pro čtení [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### Viz také
 

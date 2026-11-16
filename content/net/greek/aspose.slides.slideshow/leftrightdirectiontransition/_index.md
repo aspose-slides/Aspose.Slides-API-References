@@ -1,14 +1,14 @@
 ---
 title: LeftRightDirectionTransition
-second_title: Αναφορά API Aspose.Sildes για .NET
-description: Εφέ μετάβασης διαφάνειας αριστερά-δεξιά.
+second_title: Aspose.Sildes για .NET API Reference
+description: Επίδραση μετάβασης διαφάνειας με κατεύθυνση αριστερά-δεξιά.
 type: docs
-weight: 10240
+weight: 10260
 url: /el/aspose.slides.slideshow/leftrightdirectiontransition/
 ---
 ## LeftRightDirectionTransition κλάση
 
-Εφέ μετάβασης διαφάνειας αριστερά-δεξιά.
+Επίδραση μετάβασης διαφάνειας με κατεύθυνση αριστερά-δεξιά.
 
 ```csharp
 public class LeftRightDirectionTransition : TransitionValueBase, ILeftRightDirectionTransition
@@ -18,19 +18,19 @@ public class LeftRightDirectionTransition : TransitionValueBase, ILeftRightDirec
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/leftrightdirectiontransition/direction) { get; set; } | Κατεύθυνση της μετάβασης. Ανάγνωση/εγγραφή [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
+| [Direction](../../aspose.slides.slideshow/leftrightdirectiontransition/direction) { get; set; } | Κατεύθυνση μετάβασης. Ανάγνωση/εγγραφή [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
 
 ## Μέθοδοι
 
 | Όνομα | Περιγραφή |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Καθορίζει εάν οι δύο αντικείμενα TransitionValueBase είναι ίσα. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Λειτουργεί ως συνάρτηση κατακερματισμού για έναν συγκεκριμένο τύπο, κατάλληλη για χρήση σε αλγόριθμους κατακερματισμού και δομές δεδομένων όπως ένας πίνακας κατακερματισμού. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Λειτουργεί ως συνάρτηση hash για έναν συγκεκριμένο τύπο, κατάλληλη για χρήση σε αλγόριθμους hash και δομές δεδομένων όπως ο πίνακας κατακερματισμού. |
 
 ### Δείτε επίσης
 
 * κλάση [TransitionValueBase](../transitionvaluebase)
-* διασύνδεση [ILeftRightDirectionTransition](../ileftrightdirectiontransition)
+* διεπαφή [ILeftRightDirectionTransition](../ileftrightdirectiontransition)
 * χώρο ονομάτων [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * συγκρότημα [Aspose.Slides](../../)
 

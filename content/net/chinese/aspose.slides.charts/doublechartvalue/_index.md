@@ -3,12 +3,12 @@ title: DoubleChartValue
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示可以以两种方式存储在 pptx 演示文稿中的双精度值：1）在与图表关联的工作簿的单元格/单元格中；2）作为文字值。
 type: docs
-weight: 1630
+weight: 1640
 url: /zh/aspose.slides.charts/doublechartvalue/
 ---
 ## DoubleChartValue 类
 
-表示可以以两种方式存储在 pptx 演示文稿中的双精度值：1) 在与图表相关的工作簿的单元格/单元格中；2) 以文字值形式。
+表示可以以两种方式存储在 pptx 演示文稿中的双精度值：1) 在与图表关联的工作簿的单元格/单元格中；2) 作为文字值。
 
 ```csharp
 public class DoubleChartValue : BaseChartValue, IDoubleChartValue
@@ -16,20 +16,20 @@ public class DoubleChartValue : BaseChartValue, IDoubleChartValue
 
 ## 属性
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
 | [AsCell](../../aspose.slides.charts/doublechartvalue/ascell) { get; set; } | 返回或设置图表数据单元格。读/写 [`IChartDataCell`](../ichartdatacell)。 |
 | [AsLiteralDouble](../../aspose.slides.charts/doublechartvalue/asliteraldouble) { get; set; } | 返回或设置值为文字双精度。读/写 Double。 |
 | override [Data](../../aspose.slides.charts/doublechartvalue/data) { get; set; } | 返回或设置 Data 对象。读/写 Object。 |
-| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | 指定在派生类中实际使用的 AsCell、AsCells、AsLiteralString 或 AsLiteralDouble 属性。换句话说，它指定 Data 属性的值类型。读/写 [`DataSourceType`](../datasourcetype)。 |
+| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | 指定在派生类中哪些属性 AsCell、AsCells、AsLiteralString 或 AsLiteralDouble 实际有效。换句话说，它指定 Data 属性的值类型。读/写 [`DataSourceType`](../datasourcetype)。 |
 
 ## 方法
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
 | [ToDouble](../../aspose.slides.charts/doublechartvalue/todouble)() | 转换为 Double。 |
 
-### 另见
+### 另请参见
 
 * 类 [BaseChartValue](../basechartvalue)
 * 接口 [IDoubleChartValue](../idoublechartvalue)

@@ -1,14 +1,14 @@
 ---
 title: ColumnFormat
-second_title: Aspose.Sildes for .NET API 參考
+second_title: Aspose.Sildes .NET API 參考
 description: 表示表格欄位的格式。
 type: docs
-weight: 2610
+weight: 2630
 url: /zh-hant/aspose.slides/columnformat/
 ---
 ## ColumnFormat 類別
 
-代表表格欄位的格式。
+表示表格欄位的格式。
 
 ```csharp
 public sealed class ColumnFormat : DomObject<Column>, IColumnFormat
@@ -18,9 +18,9 @@ public sealed class ColumnFormat : DomObject<Column>, IColumnFormat
 
 | 名稱 | 說明 |
 | --- | --- |
-| [GetEffective](../../aspose.slides/columnformat/geteffective)() | 取得套用繼承與表格樣式後的有效表格欄位格式屬性。 |
+| [GetEffective](../../aspose.slides/columnformat/geteffective)() | 取得套用繼承和表格樣式後的有效表格欄位格式屬性。 |
 
-### 另請參閱
+### 另見
 
 * 類別 [DomObject&lt;TParent&gt;](../domobject-1)
 * 類別 [Column](../column)

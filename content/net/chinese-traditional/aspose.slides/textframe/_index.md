@@ -1,9 +1,9 @@
 ---
 title: TextFrame
-second_title: Aspose.Sildes for .NET API 參考文件
+second_title: Aspose.Sildes for .NET API 參考
 description: 表示一個 TextFrame。
 type: docs
-weight: 10950
+weight: 10970
 url: /zh-hant/aspose.slides/textframe/
 ---
 ## TextFrame 類別
@@ -16,30 +16,31 @@ public sealed class TextFrame : ITextFrame
 
 ## 屬性
 
-| 名稱 | 描述 |
+| 名稱 | 說明 |
 | --- | --- |
-| [HyperlinkQueries](../../aspose.slides/textframe/hyperlinkqueries) { get; } | 提供對內嵌超連結的簡易存取。唯讀 [`IHyperlinkQueries`](../ihyperlinkqueries)。 |
+| [HyperlinkQueries](../../aspose.slides/textframe/hyperlinkqueries) { get; } | 提供對包含的超連結的簡易存取。唯讀 [`IHyperlinkQueries`](../ihyperlinkqueries)。 |
 | [Paragraphs](../../aspose.slides/textframe/paragraphs) { get; } | 傳回框架中所有段落的清單。唯讀 [`IParagraphCollection`](../iparagraphcollection)。 |
-| [ParentCell](../../aspose.slides/textframe/parentcell) { get; } | 傳回父儲存格，若父物件未實作 ICell 介面則傳回 null。唯讀 [`ICell`](../icell)。 |
-| [ParentShape](../../aspose.slides/textframe/parentshape) { get; } | 傳回父圖形，若父物件未實作 IShape 介面則傳回 null。唯讀 [`IShape`](../ishape)。 |
-| [Presentation](../../aspose.slides/textframe/presentation) { get; } | 傳回 TextFrame 的父簡報。唯讀 [`IPresentation`](../ipresentation)。 |
-| [Slide](../../aspose.slides/textframe/slide) { get; } | 傳回 TextFrame 的父投影片。唯讀 [`IBaseSlide`](../ibaseslide)。 |
-| [Text](../../aspose.slides/textframe/text) { get; set; } | 取得或設定 TextFrame 的純文字。讀寫 String。 |
-| [TextFrameFormat](../../aspose.slides/textframe/textframeformat) { get; } | 傳回此 TextFrame 物件的格式設定物件。唯讀 [`ITextFrameFormat`](../itextframeformat)。 |
+| [ParentCell](../../aspose.slides/textframe/parentcell) { get; } | 傳回父儲存格，若父物件未實作 ICell 介面則為 null。唯讀 [`ICell`](../icell)。 |
+| [ParentShape](../../aspose.slides/textframe/parentshape) { get; } | 傳回父形狀，若父物件未實作 IShape 介面則為 null。唯讀 [`IShape`](../ishape)。 |
+| [Presentation](../../aspose.slides/textframe/presentation) { get; } | 傳回 TextFrame 所屬的父簡報。唯讀 [`IPresentation`](../ipresentation)。 |
+| [Slide](../../aspose.slides/textframe/slide) { get; } | 傳回 TextFrame 所屬的父投影片。唯讀 [`IBaseSlide`](../ibaseslide)。 |
+| [Text](../../aspose.slides/textframe/text) { get; set; } | 取得或設定 TextFrame 的純文字。可讀寫 String。 |
+| [TextFrameFormat](../../aspose.slides/textframe/textframeformat) { get; } | 傳回此 TextFrame 物件的格式化物件。唯讀 [`ITextFrameFormat`](../itextframeformat)。 |
 
 ## 方法
 
-| 名稱 | 描述 |
+| 名稱 | 說明 |
 | --- | --- |
-| [HighlightRegex](../../aspose.slides/textframe/highlightregex#highlightregex_1)(Regex, Color, IFindResultCallback) | 以指定的顏色突顯正則表達式的所有匹配項目。 |
-| [HighlightText](../../aspose.slides/textframe/highlighttext#highlighttext)(string, Color) | 以指定的顏色突顯樣本文本的所有匹配項目。 |
-| [HighlightText](../../aspose.slides/textframe/highlighttext#highlighttext_2)(string, Color, ITextSearchOptions, IFindResultCallback) | 以指定的顏色突顯樣本文本的所有匹配項目。 |
-| [JoinPortionsWithSameFormatting](../../aspose.slides/textframe/joinportionswithsameformatting)() | 合併所有段落中格式相同的文字區段。 |
-| [ReplaceRegex](../../aspose.slides/textframe/replaceregex)(Regex, string, IFindResultCallback) | 將正則表達式的所有匹配項目取代為指定的字串。 |
-| [ReplaceText](../../aspose.slides/textframe/replacetext)(string, string, ITextSearchOptions, IFindResultCallback) | 將指定文字的所有出現處取代為另一個指定的文字。 |
+| [GetTextRect](../../aspose.slides/textframe/gettextrect)() | 取得由父形狀的幾何形狀定義的文字矩形。 |
+| [HighlightRegex](../../aspose.slides/textframe/highlightregex#highlightregex_1)(Regex, Color, IFindResultCallback) | 使用指定的顏色突顯正規表達式的所有匹配項目。 |
+| [HighlightText](../../aspose.slides/textframe/highlighttext#highlighttext)(string, Color) | 使用指定的顏色突顯樣本文字的所有匹配項目。 |
+| [HighlightText](../../aspose.slides/textframe/highlighttext#highlighttext_2)(string, Color, ITextSearchOptions, IFindResultCallback) | 使用指定的顏色突顯樣本文字的所有匹配項目。 |
+| [JoinPortionsWithSameFormatting](../../aspose.slides/textframe/joinportionswithsameformatting)() | 合併所有段落中具有相同格式的執行序。 |
+| [ReplaceRegex](../../aspose.slides/textframe/replaceregex)(Regex, string, IFindResultCallback) | 使用指定的字串取代正規表達式的所有匹配項目。 |
+| [ReplaceText](../../aspose.slides/textframe/replacetext)(string, string, ITextSearchOptions, IFindResultCallback) | 以另一指定文字取代所有出現的指定文字。 |
 | [SplitTextByColumns](../../aspose.slides/textframe/splittextbycolumns)() | 將 [`ITextFrame`](../itextframe) 的文字內容分割成字串陣列，每個元素對應框架內的單獨文字欄。 |
 
-### 另見
+### 另請參閱
 
 * 介面 [ITextFrame](../itextframe)
 * 命名空間 [Aspose.Slides](../../aspose.slides)

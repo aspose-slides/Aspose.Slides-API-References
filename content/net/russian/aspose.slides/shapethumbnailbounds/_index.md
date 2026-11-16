@@ -1,14 +1,14 @@
 ---
 title: ShapeThumbnailBounds
-second_title: Aspose.Sildes для .NET справка API
+second_title: Aspose.Sildes для .NET справочник API
 description: Перечисление типов границ миниатюры фигуры.
 type: docs
-weight: 9920
+weight: 9940
 url: /ru/aspose.slides/shapethumbnailbounds/
 ---
 ## ShapeThumbnailBounds перечисление
 
-Перечисление типов границ миниатюры фигур.
+Перечисление типов границ миниатюры фигуры.
 
 ```csharp
 public enum ShapeThumbnailBounds

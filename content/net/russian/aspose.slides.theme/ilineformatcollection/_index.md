@@ -1,12 +1,12 @@
 ---
 title: ILineFormatCollection
-second_title: Aspose.Sildes для .NET справочника API
+second_title: Aspose.Sildes для .NET API Reference
 description: Представляет коллекцию стилей линий.
 type: docs
-weight: 11290
+weight: 11310
 url: /ru/aspose.slides.theme/ilineformatcollection/
 ---
-## ILineFormatCollection interface
+## ILineFormatCollection интерфейс
 
 Представляет коллекцию стилей линий.
 

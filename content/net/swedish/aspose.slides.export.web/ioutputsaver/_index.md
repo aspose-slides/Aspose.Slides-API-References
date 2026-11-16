@@ -3,7 +3,7 @@ title: IOutputSaver
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en tjänst för att spara utdata.
 type: docs
-weight: 4610
+weight: 4630
 url: /sv/aspose.slides.export.web/ioutputsaver/
 ---
 ## IOutputSaver gränssnitt

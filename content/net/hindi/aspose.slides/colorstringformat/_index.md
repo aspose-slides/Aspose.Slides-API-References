@@ -1,14 +1,14 @@
 ---
 title: ColorStringFormat
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: हाइपरलिंक कार्रवाई का एक प्रकार दर्शाता है।
+second_title: Aspose.Sildes for .NET API Reference
+description: हाइपरलिंक कार्रवाई के प्रकार का प्रतिनिधित्व करता है।
 type: docs
-weight: 2560
+weight: 2580
 url: /hi/aspose.slides/colorstringformat/
 ---
 ## ColorStringFormat एन्यूमरेशन
 
-हाइपरलिंक कार्रवाई के एक प्रकार का प्रतिनिधित्व करता है।
+हाइपरलिंक कार्रवाई के प्रकार का प्रतिनिधित्व करता है।
 
 ```csharp
 public enum ColorStringFormat
@@ -20,7 +20,7 @@ public enum ColorStringFormat
 | --- | --- | --- |
 | Vml | `0` | VML रंग स्ट्रिंग प्रारूप। |
 
-### देखें
+### देखें भी
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

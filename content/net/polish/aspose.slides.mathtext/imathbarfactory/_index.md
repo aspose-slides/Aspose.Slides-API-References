@@ -1,9 +1,9 @@
 ---
 title: IMathBarFactory
-second_title: Aspose.Sildes dla .NET - referencja API
+second_title: Aspose.Sildes dla .NET referencja API
 description: Umożliwia tworzenie belki matematycznej
 type: docs
-weight: 8130
+weight: 8150
 url: /pl/aspose.slides.mathtext/imathbarfactory/
 ---
 ## IMathBarFactory interfejs
@@ -18,12 +18,12 @@ public interface IMathBarFactory
 
 | Nazwa | Opis |
 | --- | --- |
-| [CreateMathBar](../../aspose.slides.mathtext/imathbarfactory/createmathbar#createmathbar)(IMathElement) | Utwórz belkę matematyczną, stosując do elementu |
-| [CreateMathBar](../../aspose.slides.mathtext/imathbarfactory/createmathbar#createmathbar_1)(IMathElement, MathTopBotPositions) | Utwórz belkę matematyczną, stosując do elementu |
+| [CreateMathBar](../../aspose.slides.mathtext/imathbarfactory/createmathbar#createmathbar)(IMathElement) | Utwórz belkę matematyczną stosując ją do elementu |
+| [CreateMathBar](../../aspose.slides.mathtext/imathbarfactory/createmathbar#createmathbar_1)(IMathElement, MathTopBotPositions) | Utwórz belkę matematyczną stosując ją do elementu |
 
 ### Uwagi
 
-Dla zgodności z COM
+For COM comparibility
 
 ### Zobacz także
 

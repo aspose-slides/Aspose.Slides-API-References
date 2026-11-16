@@ -1,20 +1,20 @@
 ---
 title: ParentSeries
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: पैरेंट चार्ट श्रृंखला लौटाता है। केवल-पढ़ने योग्य IChartSeriesaspose.slides.charts/ichartseries.
+second_title: Aspose.Sildes .NET के लिए API संदर्भ
+description: पैरेंट चार्ट सीरीज़ लौटाता है। केवल पढ़ने योग्य IChartSeriesaspose.slides.charts/ichartseries.
 type: docs
-weight: 90
+weight: 100
 url: /hi/aspose.slides.charts/idatalabelcollection/parentseries/
 ---
 ## IDataLabelCollection.ParentSeries प्रॉपर्टी
 
-पैरेंट चार्ट सीरीज़ लौटाता है। केवल-पढ़ने योग्य [`IChartSeries`](../../ichartseries).
+पैरेंट चार्ट सीरीज़ लौटाता है। केवल पढ़ने योग्य [`IChartSeries`](../../ichartseries).
 
 ```csharp
 public IChartSeries ParentSeries { get; }
 ```
 
-### संबंधित देखें
+### अधिक देखें
 
 * इंटरफ़ेस [IChartSeries](../../ichartseries)
 * इंटरफ़ेस [IDataLabelCollection](../../idatalabelcollection)

@@ -1,14 +1,14 @@
 ---
 title: IBackgroundEffectiveData
 second_title: Aspose.Sildes für .NET API Referenz
-description: Unveränderliches Objekt, das wirksame Hintergrund-Eigenschaften enthält.
+description: Unveränderliches Objekt, das wirksame Hintergrundeigenschaften enthält.
 type: docs
-weight: 5280
+weight: 5300
 url: /de/aspose.slides/ibackgroundeffectivedata/
 ---
 ## IBackgroundEffectiveData Schnittstelle
 
-Unveränderliches Objekt, das wirksame Hintergrund-Eigenschaften enthält.
+Unveränderliches Objekt, das wirksame Hintergrundeigenschaften enthält.
 
 ```csharp
 public interface IBackgroundEffectiveData : IFillParamSource
@@ -19,8 +19,8 @@ public interface IBackgroundEffectiveData : IFillParamSource
 | Name | Beschreibung |
 | --- | --- |
 | [AsIFillParamSource](../../aspose.slides/ibackgroundeffectivedata/asifillparamsource) { get; } | Gibt die IFillParamSource Schnittstelle zurück. |
-| [EffectFormat](../../aspose.slides/ibackgroundeffectivedata/effectformat) { get; } | Gibt das wirksame Effektformat zurück. Nur-Lese [`IEffectFormatEffectiveData`](../ieffectformateffectivedata). |
-| [FillFormat](../../aspose.slides/ibackgroundeffectivedata/fillformat) { get; } | Gibt das wirksame Füllformat zurück. Nur-Lese [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
+| [EffectFormat](../../aspose.slides/ibackgroundeffectivedata/effectformat) { get; } | Gibt das wirksame Effektformat zurück. Nur lesbar [`IEffectFormatEffectiveData`](../ieffectformateffectivedata). |
+| [FillFormat](../../aspose.slides/ibackgroundeffectivedata/fillformat) { get; } | Gibt das wirksame Füllformat zurück. Nur lesbar [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
 
 ### Hinweise
 

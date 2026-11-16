@@ -3,7 +3,7 @@ title: IModernComment
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa un comentario en una diapositiva.
 type: docs
-weight: 6460
+weight: 6480
 url: /es/aspose.slides/imoderncomment/
 ---
 ## IModernComment interfaz
@@ -18,8 +18,8 @@ public interface IModernComment : IComment
 
 | Nombre | Descripción |
 | --- | --- |
-| [AsIComment](../../aspose.slides/imoderncomment/asicomment) { get; } | Permite obtener la interfaz base IComment. Solo lectura [`IComment`](../icomment). |
-| [Shape](../../aspose.slides/imoderncomment/shape) { get; } | Devuelve una forma asociada al comentario. Solo lectura [`IShape`](../ishape). |
+| [AsIComment](../../aspose.slides/imoderncomment/asicomment) { get; } | Permite obtener la interfaz base IComment. Sólo lectura [`IComment`](../icomment). |
+| [Shape](../../aspose.slides/imoderncomment/shape) { get; } | Devuelve una forma asociada al comentario. Sólo lectura [`IShape`](../ishape). |
 | [Status](../../aspose.slides/imoderncomment/status) { get; set; } | Devuelve o establece el estado del comentario. Lectura/escritura [`ModernCommentStatus`](../moderncommentstatus). |
 | [TextSelectionLength](../../aspose.slides/imoderncomment/textselectionlength) { get; set; } | Devuelve o establece la longitud de la selección de texto en el marco de texto si el comentario está asociado con AutoShape. Lectura/escritura Int32. |
 | [TextSelectionStart](../../aspose.slides/imoderncomment/textselectionstart) { get; set; } | Devuelve o establece la posición inicial de la selección de texto en el marco de texto si el comentario está asociado con AutoShape. Lectura/escritura Int32. |

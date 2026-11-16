@@ -1,20 +1,20 @@
 ---
 title: UseCell
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Se true allora la proprietà AsCell è attiva. In altre parole il foglio di lavoro è usato per memorizzare la categoria; questo caso supporta una categoria a più livelli. Se false allora la proprietà AsLiteral è attiva. In altre parole il foglio di lavoro NON è usato per memorizzare la categoria e questo caso non supporta categorie a più livelli. Solo lettura Boolean.
+second_title: Aspose.Sildes per .NET Riferimento API
+description: Se vero, la proprietà AsCell è attiva. In altre parole, il foglio di lavoro è usato per memorizzare la categoria; questo caso supporta una categoria a più livelli. Se falso, la proprietà AsLiteral è attiva. In altre parole, il foglio di lavoro NON è usato per memorizzare la categoria e questo caso non supporta categorie a più livelli. Solo lettura Boolean.
 type: docs
-weight: 40
+weight: 50
 url: /it/aspose.slides.charts/ichartcategory/usecell/
 ---
 ## IChartCategory.UseCell proprietà
 
-Se true allora la proprietà AsCell è attiva. In altre parole, il foglio di lavoro è usato per memorizzare la categoria (questo caso supporta una categoria a più livelli). Se false allora la proprietà AsLiteral è attiva. In altre parole, il foglio di lavoro NON è usato per memorizzare la categoria (e questo caso non supporta categorie a più livelli). Solo lettura Boolean.
+Se vero, la proprietà AsCell è attiva. In altre parole, il foglio di calcolo è usato per memorizzare la categoria (questo caso supporta una categoria a più livelli). Se falso, la proprietà AsLiteral è attiva. In altre parole, il foglio di calcolo NON è usato per memorizzare la categoria (e questo caso non supporta categorie a più livelli). Solo lettura Boolean.
 
 ```csharp
 public bool UseCell { get; }
 ```
 
-### Osservazioni
+### Note
 
 Per modificare il valore di questa proprietà (per tutte le categorie nella collezione) impostare il nuovo valore alla proprietà ChartCategoryCollection.UseCells.
 

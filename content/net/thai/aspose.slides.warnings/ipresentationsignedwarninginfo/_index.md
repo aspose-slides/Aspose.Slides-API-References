@@ -1,14 +1,14 @@
 ---
 title: IPresentationSignedWarningInfo
 second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
-description: การเตือนนี้บ่งบอกว่าการนำเสนอที่กำลังอ่านอยู่มีลายมือชื่อและลายมือชื่อดังกล่าวจะถูกลบออกระหว่างการประมวลผล
+description: คำเตือนนี้ระบุว่าการนำเสนอที่กำลังอ่านมีลายเซ็นและลายเซ็นนี้จะถูกลบออกระหว่างการประมวลผล.
 type: docs
-weight: 11790
+weight: 11810
 url: /th/aspose.slides.warnings/ipresentationsignedwarninginfo/
 ---
 ## IPresentationSignedWarningInfo อินเทอร์เฟซ
 
-การเตือนนี้บ่งบอกว่าการนำเสนอที่กำลังอ่านอยู่มีลายมือชื่อและลายมือชื่อดังกล่าวจะถูกลบออกระหว่างการประมวลผล
+คำเตือนนี้บ่งชี้ว่าการนำเสนอที่กำลังอ่านมีลายเซ็นและลายเซ็นนี้จะถูกลบออกระหว่างการประมวลผล.
 
 ```csharp
 public interface IPresentationSignedWarningInfo : IWarningInfo
@@ -18,7 +18,7 @@ public interface IPresentationSignedWarningInfo : IWarningInfo
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIWarningInfo](../../aspose.slides.warnings/ipresentationsignedwarninginfo/asiwarninginfo) { get; } | ส่งกลับ IWarningInfo อินเทอร์เฟซ. อ่านอย่างเดียว [`IWarningInfo`](../iwarninginfo). |
+| [AsIWarningInfo](../../aspose.slides.warnings/ipresentationsignedwarninginfo/asiwarninginfo) { get; } | คืนค่า IWarningInfo อินเทอร์เฟซ. อ่านอย่างเดียว [`IWarningInfo`](../iwarninginfo). |
 
 ### ดูเพิ่มเติม
 

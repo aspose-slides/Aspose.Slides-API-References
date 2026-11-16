@@ -1,9 +1,9 @@
 ---
 title: MathBlockFactory
-second_title: Aspose.Sildes สำหรับ .NET API Reference
+second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
 description: อนุญาตให้สร้างบล็อกคณิตศาสตร์
 type: docs
-weight: 8600
+weight: 8620
 url: /th/aspose.slides.mathtext/mathblockfactory/
 ---
 ## MathBlockFactory คลาส
@@ -25,8 +25,8 @@ public class MathBlockFactory : IMathBlockFactory
 | ชื่อ | คำอธิบาย |
 | --- | --- |
 | [CreateMathBlock](../../aspose.slides.mathtext/mathblockfactory/createmathblock#createmathblock)() | สร้างบล็อกคณิตศาสตร์ |
-| [CreateMathBlock](../../aspose.slides.mathtext/mathblockfactory/createmathblock#createmathblock_1)(IMathElement) | สร้างบล็อกคณิตศาสตร์และวางองค์ประกอบลงในบล็อกนั้น |
-| [CreateMathBlock](../../aspose.slides.mathtext/mathblockfactory/createmathblock#createmathblock_2)(IMathElementCollection) | สร้างบล็อกคณิตศาสตร์และวางองค์ประกอบหลายรายการลงในบล็อกนั้น |
+| [CreateMathBlock](../../aspose.slides.mathtext/mathblockfactory/createmathblock#createmathblock_1)(IMathElement) | สร้างบล็อกคณิตศาสตร์และวางองค์ประกอบในบล็อกนั้น |
+| [CreateMathBlock](../../aspose.slides.mathtext/mathblockfactory/createmathblock#createmathblock_2)(IMathElementCollection) | สร้างบล็อกคณิตศาสตร์และวางหลายองค์ประกอบในบล็อกนั้น |
 
 ### หมายเหตุ
 

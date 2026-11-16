@@ -1,14 +1,14 @@
 ---
 title: CellUnsupportedDataException
-second_title: مرجع API لـ Aspose.Sildes لـ .NET
-description: الاستثناء الذي يُرمى عندما يتم مواجهة بيانات غير مدعومة في خلية جدول بيانات.
+second_title: مرجع API Aspose.Sildes لـ .NET
+description: الاستثناء الذي يُرمي عندما يتم مواجهة بيانات غير مدعومة في خلية جدول بيانات.
 type: docs
-weight: 10730
+weight: 10750
 url: /ar/aspose.slides.spreadsheet/cellunsupporteddataexception/
 ---
 ## CellUnsupportedDataException فئة
 
-الاستثناء الذي يُرمى عندما يتم مواجهة بيانات غير مدعومة في خلية جدول بيانات.
+الاستثناء الذي يُلقى عندما يتم مواجهة بيانات غير مدعومة في خلية جدول بيانات.
 
 ```csharp
 public class CellUnsupportedDataException : PptxEditException
@@ -18,9 +18,9 @@ public class CellUnsupportedDataException : PptxEditException
 
 | الاسم | الوصف |
 | --- | --- |
-| [CellUnsupportedDataException](cellunsupporteddataexception#constructor)() | يقوم بتهيئة مثيل جديد من الفئة [`CellUnsupportedDataException`](../cellunsupporteddataexception). |
-| [CellUnsupportedDataException](cellunsupporteddataexception#constructor_1)(string) | يقوم بتهيئة مثيل جديد من الفئة [`CellUnsupportedDataException`](../cellunsupporteddataexception) باستخدام رسالة خطأ محددة. |
-| [CellUnsupportedDataException](cellunsupporteddataexception#constructor_2)(string, Exception) | يقوم بتهيئة مثيل جديد من الفئة [`CellUnsupportedDataException`](../cellunsupporteddataexception) باستخدام رسالة خطأ محددة وإشارة إلى الاستثناء الداخلي الذي يسبب هذا الاستثناء. |
+| [CellUnsupportedDataException](cellunsupporteddataexception#constructor)() | ينشئ مثيلًا جديدًا من فئة [`CellUnsupportedDataException`](../cellunsupporteddataexception). |
+| [CellUnsupportedDataException](cellunsupporteddataexception#constructor_1)(string) | ينشئ مثيلًا جديدًا من فئة [`CellUnsupportedDataException`](../cellunsupporteddataexception) برسالة خطأ محددة. |
+| [CellUnsupportedDataException](cellunsupporteddataexception#constructor_2)(string, Exception) | ينشئ مثيلًا جديدًا من فئة [`CellUnsupportedDataException`](../cellunsupporteddataexception) برسالة خطأ محددة وإشارة إلى الاستثناء الداخلي الذي هو سبب هذا الاستثناء. |
 
 ### انظر أيضًا
 

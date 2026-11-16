@@ -1,14 +1,14 @@
 ---
 title: ParentSeries
-second_title: مرجع API لـ Aspose.Sildes لـ .NET
-description: إرجاع سلسلة المخطط الأصلية. للقراءة فقط IChartSeriesaspose.slides.charts/ichartseries.
+second_title: مرجع API لـ Aspose.Sildes .NET
+description: يرجع سلسلة المخطط الأصلية. للقراءة فقط IChartSeriesaspose.slides.charts/ichartseries.
 type: docs
-weight: 90
+weight: 100
 url: /ar/aspose.slides.charts/idatalabelcollection/parentseries/
 ---
 ## IDataLabelCollection.ParentSeries خاصية
 
-تُعيد سلسلة المخطط الأصلية. للقراءة فقط [`IChartSeries`](../../ichartseries).
+يرجع سلسلة المخطط الأصلية. للقراءة فقط [`IChartSeries`](../../ichartseries).
 
 ```csharp
 public IChartSeries ParentSeries { get; }

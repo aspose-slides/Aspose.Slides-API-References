@@ -1,14 +1,14 @@
 ---
 title: PdfTextCompression
 second_title: Aspose.Sildes for .NET API 參考
-description: 定義在 PDF 檔案中除圖像外所有內容所套用的壓縮類型的常數。
+description: 定義在 PDF 檔案中除圖像之外的所有內容所套用的壓縮類型的常數。
 type: docs
-weight: 4340
+weight: 4360
 url: /zh-hant/aspose.slides.export/pdftextcompression/
 ---
 ## PdfTextCompression 列舉
 
-定義在 PDF 檔案中除圖像外所有內容所套用的壓縮類型之常數。
+定義在 PDF 檔案中除圖像之外的所有內容所套用的壓縮類型的常數。
 
 ```csharp
 public enum PdfTextCompression
@@ -19,9 +19,9 @@ public enum PdfTextCompression
 | 名稱 | 值 | 說明 |
 | --- | --- | --- |
 | None | `0` | 無壓縮。 |
-| Flate | `1` | Flate (ZIP) 壓縮。 |
+| Flate | `1` | Flate（ZIP）壓縮。 |
 
-### 另見
+### 另請參閱
 
 * 命名空間 [Aspose.Slides.Export](../../aspose.slides.export)
 * 組件 [Aspose.Slides](../../)

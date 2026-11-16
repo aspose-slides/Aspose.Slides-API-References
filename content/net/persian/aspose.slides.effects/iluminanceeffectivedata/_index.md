@@ -1,14 +1,14 @@
 ---
 title: ILuminanceEffectiveData
 second_title: Aspose.Sildes برای .NET مرجع API
-description: نمایش یک اثر روشنایی. روشنایی تمام رنگ‌ها را به‌صورت خطی به سمت سفید یا سیاه نزدیک می‌کند. کنتراست تمام رنگ‌ها را به‌صورت مقیاس‌گذاری می‌کند تا یا نزدیک‌تر یا دورتر از یکدیگر باشند.
+description: نمایانگر یک اثر روشنایی است. روشنایی به صورت خطی تمام رنگ‌ها را به سمت سفید یا سیاه نزدیک‌تر می‌کند. کنتراست تمام رنگ‌ها را طوری مقیاس می‌کند که یا به هم نزدیک‌تر یا دورتر شوند.
 type: docs
-weight: 3450
+weight: 3470
 url: /fa/aspose.slides.effects/iluminanceeffectivedata/
 ---
 ## ILuminanceEffectiveData رابط
 
-نمایش یک اثر روشنایی. خط روشنایی تمام رنگ‌ها را به‌صورت خطی نزدیک به سفید یا سیاه می‌کند. کنتراست تمام رنگ‌ها را به‌صورت مقیاس شده نزدیک یا دورتر می‌کند.
+نمایانگر یک اثر روشنایی است. روشنایی به صورت خطی تمام رنگ‌ها را به سمت سفید یا سیاه نزدیک‌تر می‌کند. کنتراست تمام رنگ‌ها را طوری مقیاس می‌کند که یا به هم نزدیک‌تر یا دورتر شوند.
 
 ```csharp
 public interface ILuminanceEffectiveData : IEffectEffectiveData
@@ -18,11 +18,11 @@ public interface ILuminanceEffectiveData : IEffectEffectiveData
 
 | نام | توضیح |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/iluminanceeffectivedata/asieffecteffectivedata) { get; } | اجازه می‌دهد رابط IEffectEffectiveData پایه را دریافت کند. فقط خواندنی [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Brightness](../../aspose.slides.effects/iluminanceeffectivedata/brightness) { get; } | روشنایی. فقط خواندنی Single. |
-| [Contrast](../../aspose.slides.effects/iluminanceeffectivedata/contrast) { get; } | کنتراست. فقط خواندنی Single. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/iluminanceeffectivedata/asieffecteffectivedata) { get; } | اجازۀ دریافت رابط پایه IEffectEffectiveData. فقط‌خواندنی [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Brightness](../../aspose.slides.effects/iluminanceeffectivedata/brightness) { get; } | روشنایی. فقط‌خواندنی Single. |
+| [Contrast](../../aspose.slides.effects/iluminanceeffectivedata/contrast) { get; } | کنتراست. فقط‌خواندنی Single. |
 
-### موارد مرتبط
+### همچنین ببینید
 
 * رابط [IEffectEffectiveData](../ieffecteffectivedata)
 * فضای‌نام [Aspose.Slides.Effects](../../aspose.slides.effects)

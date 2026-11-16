@@ -1,9 +1,9 @@
 ---
 title: IMathFunctionFactory
-second_title: Aspose.Sildes cho Tham chiếu API .NET
+second_title: Tham chiếu API Aspose.Sildes cho .NET
 description: Cho phép tạo một hàm toán học
 type: docs
-weight: 8280
+weight: 8300
 url: /vi/aspose.slides.mathtext/imathfunctionfactory/
 ---
 ## IMathFunctionFactory giao diện
@@ -14,7 +14,7 @@ Cho phép tạo một hàm toán học
 public interface IMathFunctionFactory
 ```
 
-## Các phương thức
+## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
@@ -23,7 +23,7 @@ public interface IMathFunctionFactory
 
 ### Ghi chú
 
-Đối với khả năng tương thích COM
+Để tương thích COM
 
 ### Xem thêm
 

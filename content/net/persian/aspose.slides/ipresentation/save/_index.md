@@ -3,7 +3,7 @@ title: Save
 second_title: مرجع API Aspose.Sildes برای .NET
 description: تمام اسلایدهای یک ارائه را با فرمت مشخص به یک فایل ذخیره می‌کند.
 type: docs
-weight: 380
+weight: 390
 url: /fa/aspose.slides/ipresentation/save/
 ---
 ## Save(string, SaveFormat) {#save_5}
@@ -19,7 +19,7 @@ public void Save(string fname, SaveFormat format)
 | fname | String | مسیر فایل ایجاد شده. |
 | format | SaveFormat | فرمت داده‌های صادر شده. |
 
-### موارد مرتبط
+### مراجع
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
 * interface [IPresentation](../../ipresentation)
@@ -30,7 +30,7 @@ public void Save(string fname, SaveFormat format)
 
 ## Save(Stream, SaveFormat) {#save_1}
 
-تمام اسلایدهای یک ارائه را در قالب مشخص به یک جریان ذخیره می‌کند.
+تمام اسلایدهای یک ارائه را در فرمت مشخص به یک جریان ذخیره می‌کند.
 
 ```csharp
 public void Save(Stream stream, SaveFormat format)
@@ -41,7 +41,7 @@ public void Save(Stream stream, SaveFormat format)
 | stream | Stream | جریان خروجی. |
 | format | SaveFormat | فرمت داده‌های صادر شده. |
 
-### موارد مرتبط
+### مراجع
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
 * interface [IPresentation](../../ipresentation)
@@ -64,7 +64,7 @@ public void Save(string fname, SaveFormat format, ISaveOptions options)
 | format | SaveFormat | فرمت داده‌های صادر شده. |
 | options | ISaveOptions | گزینه‌های فرمت اضافی. |
 
-### موارد مرتبط
+### مراجع
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
 * interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
@@ -76,7 +76,7 @@ public void Save(string fname, SaveFormat format, ISaveOptions options)
 
 ## Save(Stream, SaveFormat, ISaveOptions) {#save_2}
 
-تمام اسلایدهای یک ارائه را در قالب مشخص و با گزینه‌های اضافی به یک جریان ذخیره می‌کند.
+تمام اسلایدهای یک ارائه را در فرمت مشخص و با گزینه‌های اضافی به یک جریان ذخیره می‌کند.
 
 ```csharp
 public void Save(Stream stream, SaveFormat format, ISaveOptions options)
@@ -92,9 +92,9 @@ public void Save(Stream stream, SaveFormat format, ISaveOptions options)
 
 | استثنا | شرط |
 | --- | --- |
-| NotSupportedException | اگر سعی کنید فایلی رمزگذاری شده را در قالبی غیر از Office 2007-2010 ذخیره کنید |
+| NotSupportedException | اگر سعی کنید فایلی رمزگذاری شده را در فرمت‌های Office 2007-2010 ذخیره کنید |
 
-### موارد مرتبط
+### مراجع
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
 * interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
@@ -106,7 +106,7 @@ public void Save(Stream stream, SaveFormat format, ISaveOptions options)
 
 ## Save(string, int[], SaveFormat) {#save_7}
 
-اسلایدهای مشخص شدهٔ یک ارائه را با فرمت مشخص به یک فایل ذخیره می‌کند.
+اسلایدهای مشخص شده یک ارائه را با فرمت مشخص به یک فایل ذخیره می‌کند.
 
 ```csharp
 public void Save(string fname, int[] slides, SaveFormat format)
@@ -115,7 +115,7 @@ public void Save(string fname, int[] slides, SaveFormat format)
 | پارامتر | نوع | توضیح |
 | --- | --- | --- |
 | fname | String | مسیر فایل ایجاد شده. |
-| slides | Int32[] | آرایه‌ای شامل موقعیت‌های اسلاید، شروع از ۱. |
+| slides | Int32[] | آرایه‌ای شامل موقعیت اسلایدها، از 1 شروع می‌شود. |
 | format | SaveFormat | فرمت داده‌های صادر شده. |
 
 ### استثناها
@@ -123,10 +123,10 @@ public void Save(string fname, int[] slides, SaveFormat format)
 | استثنا | شرط |
 | --- | --- |
 | ArgumentNullException | وقتی پارامتر stream یا slides مقدار null داشته باشد. |
-| ArgumentOutOfRangeException | وقتی پارامتر slides شامل شماره‌های صفحهٔ نادرست باشد. |
-| InvalidOperationException | وقتی از SaveFormat پشتیبانی نشده‌ای استفاده شود، مثلاً PPTX، PPTM، PPSX، PPSM، POTX، POTM، PPT، ODP. |
+| ArgumentOutOfRangeException | وقتی پارامتر slides شامل شماره صفحات نادرست باشد. |
+| InvalidOperationException | وقتی از SaveFormat پشتیبانی‌نشده‌ای استفاده شود، به عنوان مثال PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
-### موارد مرتبط
+### مراجع
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
 * interface [IPresentation](../../ipresentation)
@@ -137,7 +137,7 @@ public void Save(string fname, int[] slides, SaveFormat format)
 
 ## Save(string, int[], SaveFormat, ISaveOptions) {#save_8}
 
-اسلایدهای مشخص شدهٔ یک ارائه را با فرمت مشخص و گزینه‌های اضافی به یک فایل ذخیره می‌کند.
+اسلایدهای مشخص شده یک ارائه را با فرمت مشخص و با گزینه‌های اضافی به یک فایل ذخیره می‌کند.
 
 ```csharp
 public void Save(string fname, int[] slides, SaveFormat format, ISaveOptions options)
@@ -146,7 +146,7 @@ public void Save(string fname, int[] slides, SaveFormat format, ISaveOptions opt
 | پارامتر | نوع | توضیح |
 | --- | --- | --- |
 | fname | String | مسیر فایل ایجاد شده. |
-| slides | Int32[] | آرایه‌ای شامل موقعیت‌های اسلاید، شروع از ۱. |
+| slides | Int32[] | آرایه‌ای شامل موقعیت اسلایدها، از 1 شروع می‌شود. |
 | format | SaveFormat | فرمت داده‌های صادر شده. |
 | options | ISaveOptions | گزینه‌های فرمت اضافی. |
 
@@ -155,10 +155,10 @@ public void Save(string fname, int[] slides, SaveFormat format, ISaveOptions opt
 | استثنا | شرط |
 | --- | --- |
 | ArgumentNullException | وقتی پارامتر stream یا slides مقدار null داشته باشد. |
-| ArgumentOutOfRangeException | وقتی پارامتر slides شامل شماره‌های صفحهٔ نادرست باشد. |
-| InvalidOperationException | وقتی از SaveFormat پشتیبانی نشده‌ای استفاده شود، مثلاً PPTX، PPTM، PPSX، PPSM، POTX، POTM، PPT، ODP. |
+| ArgumentOutOfRangeException | وقتی پارامتر slides شامل شماره صفحات نادرست باشد. |
+| InvalidOperationException | وقتی از SaveFormat پشتیبانی‌نشده‌ای استفاده شود، به عنوان مثال PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
-### موارد مرتبط
+### مراجع
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
 * interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
@@ -170,7 +170,7 @@ public void Save(string fname, int[] slides, SaveFormat format, ISaveOptions opt
 
 ## Save(Stream, int[], SaveFormat) {#save_3}
 
-اسلایدهای مشخص شدهٔ یک ارائه را در قالب مشخص به یک جریان ذخیره می‌کند.
+اسلایدهای مشخص شده یک ارائه را در فرمت مشخص به یک جریان ذخیره می‌کند.
 
 ```csharp
 public void Save(Stream stream, int[] slides, SaveFormat format)
@@ -179,7 +179,7 @@ public void Save(Stream stream, int[] slides, SaveFormat format)
 | پارامتر | نوع | توضیح |
 | --- | --- | --- |
 | stream | Stream | جریان خروجی. |
-| slides | Int32[] | آرایه‌ای شامل موقعیت‌های اسلاید، شروع از ۱. |
+| slides | Int32[] | آرایه‌ای شامل موقعیت اسلایدها، از 1 شروع می‌شود. |
 | format | SaveFormat | فرمت داده‌های صادر شده. |
 
 ### استثناها
@@ -187,10 +187,10 @@ public void Save(Stream stream, int[] slides, SaveFormat format)
 | استثنا | شرط |
 | --- | --- |
 | ArgumentNullException | وقتی پارامتر stream یا slides مقدار null داشته باشد. |
-| ArgumentOutOfRangeException | وقتی پارامتر slides شامل شماره‌های صفحهٔ نادرست باشد. |
-| InvalidOperationException | وقتی از SaveFormat پشتیبانی نشده‌ای استفاده شود، مثلاً PPTX، PPTM، PPSX، PPSM، POTX، POTM، PPT، ODP. |
+| ArgumentOutOfRangeException | وقتی پارامتر slides شامل شماره صفحات نادرست باشد. |
+| InvalidOperationException | وقتی از SaveFormat پشتیبانی‌نشده‌ای استفاده شود، به عنوان مثال PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
-### موارد مرتبط
+### مراجع
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
 * interface [IPresentation](../../ipresentation)
@@ -201,7 +201,7 @@ public void Save(Stream stream, int[] slides, SaveFormat format)
 
 ## Save(Stream, int[], SaveFormat, ISaveOptions) {#save_4}
 
-اسلایدهای مشخص شدهٔ یک ارائه را در قالب مشخص و با گزینه‌های اضافی به یک جریان ذخیره می‌کند.
+اسلایدهای مشخص شده یک ارائه را در فرمت مشخص و با گزینه‌های اضافی به یک جریان ذخیره می‌کند.
 
 ```csharp
 public void Save(Stream stream, int[] slides, SaveFormat format, ISaveOptions options)
@@ -210,7 +210,7 @@ public void Save(Stream stream, int[] slides, SaveFormat format, ISaveOptions op
 | پارامتر | نوع | توضیح |
 | --- | --- | --- |
 | stream | Stream | جریان خروجی. |
-| slides | Int32[] | آرایه‌ای شامل موقعیت‌های اسلاید، شروع از ۱. |
+| slides | Int32[] | آرایه‌ای شامل موقعیت اسلایدها، از 1 شروع می‌شود. |
 | format | SaveFormat | فرمت داده‌های صادر شده. |
 | options | ISaveOptions | گزینه‌های فرمت اضافی. |
 
@@ -219,10 +219,10 @@ public void Save(Stream stream, int[] slides, SaveFormat format, ISaveOptions op
 | استثنا | شرط |
 | --- | --- |
 | ArgumentNullException | وقتی پارامتر stream یا slides مقدار null داشته باشد. |
-| ArgumentOutOfRangeException | وقتی پارامتر slides شامل شماره‌های صفحهٔ نادرست باشد. |
-| InvalidOperationException | وقتی از SaveFormat پشتیبانی نشده‌ای استفاده شود، مثلاً PPTX، PPTM، PPSX، PPSM، POTX، POTM، PPT، ODP. |
+| ArgumentOutOfRangeException | وقتی پارامتر slides شامل شماره صفحات نادرست باشد. |
+| InvalidOperationException | وقتی از SaveFormat پشتیبانی‌نشده‌ای استفاده شود، به عنوان مثال PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
-### موارد مرتبط
+### مراجع
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
 * interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
@@ -234,7 +234,7 @@ public void Save(Stream stream, int[] slides, SaveFormat format, ISaveOptions op
 
 ## Save(IXamlOptions) {#save}
 
-تمام اسلایدهای یک ارائه را به مجموعه‌ای از فایل‌ها که نشانگر قالب‌بندی XAML هستند، ذخیره می‌کند.
+تمام اسلایدهای یک ارائه را به مجموعه‌ای از فایل‌ها که نمایشگر XAML هستند، ذخیره می‌کند.
 
 ```csharp
 public void Save(IXamlOptions options)
@@ -254,7 +254,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### موارد مرتبط
+### مراجع
 
 * interface [IXamlOptions](../../../aspose.slides.export.xaml/ixamloptions)
 * interface [IPresentation](../../ipresentation)

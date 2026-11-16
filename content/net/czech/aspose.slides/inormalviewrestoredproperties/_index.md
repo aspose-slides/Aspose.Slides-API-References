@@ -1,14 +1,14 @@
 ---
 title: INormalViewRestoredProperties
 second_title: Aspose.Sildes pro .NET API Reference
-description: Určuje velikost oblasti snímku šířka když je potomkem restoredTop výška když je potomkem restoredLeft normálního zobrazení, když má oblast proměnnou obnovovanou velikost, ani minimalizovanou ani maximalizovanou.
+description: Určuje velikost oblasti snímku – šířka, když je potomkem RestoredTop, výška, když je potomkem RestoredLeft – v normálním zobrazení, pokud je oblast proměnné obnovené velikosti, ani minimalizovaná, ani maximalizovaná.
 type: docs
-weight: 6480
+weight: 6500
 url: /cs/aspose.slides/inormalviewrestoredproperties/
 ---
 ## INormalViewRestoredProperties rozhraní
 
-Specifikuje velikost oblasti snímku ((šířka, když je potomkem restoredTop, výška, když je potomkem restoredLeft) normálního zobrazení, když má oblast proměnnou obnovovanou velikost (ani minimalizovaná, ani maximalizovaná).
+Určuje velikost oblasti snímku ((šířka, když je potomkem RestoredTop, výška, když je potomkem RestoredLeft) normálního zobrazení, pokud je oblast proměnné obnovené velikosti (ani minimalizovaná, ani maximalizovaná).
 
 ```csharp
 public interface INormalViewRestoredProperties
@@ -16,10 +16,10 @@ public interface INormalViewRestoredProperties
 
 ## Vlastnosti
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
-| [AutoAdjust](../../aspose.slides/inormalviewrestoredproperties/autoadjust) { get; set; } | Určuje, zda velikost postranní oblasti obsahu má kompenzovat novou velikost při změně velikosti okna obsahujícího pohled v aplikaci. Číst/zapisovat Boolean. |
-| [DimensionSize](../../aspose.slides/inormalviewrestoredproperties/dimensionsize) { get; set; } | Určuje velikost oblasti snímku (šířka, když je potomkem RestoredTop, výška, když je potomkem RestoredLeft). Číst/zapisovat Single. Vyvolá výjimku, pokud je hodnota menší než 0 nebo větší než 100. |
+| [AutoAdjust](../../aspose.slides/inormalviewrestoredproperties/autoadjust) { get; set; } | Určuje, zda má velikost postranní oblasti obsahu kompenzovat novou velikost při změně velikosti okna obsahujícího zobrazení v aplikaci. Read/write Boolean. |
+| [DimensionSize](../../aspose.slides/inormalviewrestoredproperties/dimensionsize) { get; set; } | Určuje velikost oblasti snímku (šířka, když je potomkem RestoredTop, výška, když je potomkem RestoredLeft). Read/write Single. Vyvolá výjimku, pokud je hodnota menší než 0 nebo větší než 100. |
 
 ### Viz také
 

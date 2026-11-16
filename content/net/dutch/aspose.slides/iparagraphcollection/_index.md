@@ -3,7 +3,7 @@ title: IParagraphCollection
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Stelt een verzameling alinea's voor.
 type: docs
-weight: 6570
+weight: 6590
 url: /nl/aspose.slides/iparagraphcollection/
 ---
 ## IParagraphCollection interface
@@ -18,23 +18,23 @@ public interface IParagraphCollection : IEnumerable<IParagraph>, ISlideComponent
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides/iparagraphcollection/asienumerable) { get; } | Retourneert de IEnumerable-interface. Alleen-lezen IEnumerable. |
-| [AsISlideComponent](../../aspose.slides/iparagraphcollection/asislidecomponent) { get; } | Staat toe de basis-ISlideComponent-interface te verkrijgen. Alleen-lezen [`ISlideComponent`](../islidecomponent). |
-| [Count](../../aspose.slides/iparagraphcollection/count) { get; } | Haalt het daadwerkelijke aantal elementen op dat in de collectie zit. Alleen-lezen Int32. |
-| [Item](../../aspose.slides/iparagraphcollection/item) { get; } | Haalt het element op op de opgegeven index. |
+| [AsIEnumerable](../../aspose.slides/iparagraphcollection/asienumerable) { get; } | Retourneert IEnumerable interface. Alleen-lezen IEnumerable. |
+| [AsISlideComponent](../../aspose.slides/iparagraphcollection/asislidecomponent) { get; } | Staat toe om de basis ISlideComponent interface op te halen. Alleen-lezen [`ISlideComponent`](../islidecomponent). |
+| [Count](../../aspose.slides/iparagraphcollection/count) { get; } | Retourneert het aantal elementen dat daadwerkelijk in de collectie aanwezig is. Alleen-lezen Int32. |
+| [Item](../../aspose.slides/iparagraphcollection/item) { get; } | Retourneert het element op de opgegeven index. |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
 | [Add](../../aspose.slides/iparagraphcollection/add#add_1)(IParagraph) | Voegt een Paragraph toe aan het einde van de collectie. |
-| [Add](../../aspose.slides/iparagraphcollection/add#add)(IParagraphCollection) | Voegt de inhoud van ParagraphCollection toe aan het einde van de collectie. |
-| [AddFromHtml](../../aspose.slides/iparagraphcollection/addfromhtml#addfromhtml)(string) | Voegt tekst van de opgegeven html-string toe aan de collectie. |
-| [AddFromHtml](../../aspose.slides/iparagraphcollection/addfromhtml#addfromhtml_1)(string, IExternalResourceResolver, string) | Voegt tekst van de opgegeven html-string toe aan de collectie. |
+| [Add](../../aspose.slides/iparagraphcollection/add#add)(IParagraphCollection) | Voegt de inhoud van een ParagraphCollection toe aan het einde van de collectie. |
+| [AddFromHtml](../../aspose.slides/iparagraphcollection/addfromhtml#addfromhtml)(string) | Voegt tekst van de opgegeven html-tekenreeks toe aan de collectie. |
+| [AddFromHtml](../../aspose.slides/iparagraphcollection/addfromhtml#addfromhtml_1)(string, IExternalResourceResolver, string) | Voegt tekst van de opgegeven html-tekenreeks toe aan de collectie. |
 | [Clear](../../aspose.slides/iparagraphcollection/clear)() | Verwijdert alle elementen uit de collectie. |
-| [ExportToHtml](../../aspose.slides/iparagraphcollection/exporttohtml)(int, int, ITextToHtmlConversionOptions) | Converteert de opgegeven alinea's naar HTML en retourneert dit als een String-object. |
+| [ExportToHtml](../../aspose.slides/iparagraphcollection/exporttohtml)(int, int, ITextToHtmlConversionOptions) | Converteert de opgegeven alinea's naar HTML en retourneert dit als String-object. |
 | [Insert](../../aspose.slides/iparagraphcollection/insert#insert)(int, IParagraph) | Voegt een Paragraph in de collectie in op de opgegeven index. |
-| [Insert](../../aspose.slides/iparagraphcollection/insert#insert_1)(int, IParagraphCollection) | Voegt de inhoud van ParagraphCollection in de collectie in op de opgegeven index. |
+| [Insert](../../aspose.slides/iparagraphcollection/insert#insert_1)(int, IParagraphCollection) | Voegt de inhoud van een ParagraphCollection in de collectie in op de opgegeven index. |
 | [Remove](../../aspose.slides/iparagraphcollection/remove)(IParagraph) | Verwijdert de eerste voorkoming van een specifieke alinea. |
 | [RemoveAt](../../aspose.slides/iparagraphcollection/removeat)(int) | Verwijdert het element op de opgegeven index van de collectie. |
 

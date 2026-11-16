@@ -1,14 +1,14 @@
 ---
 title: LightRigPresetType
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Konstanten, die Licht-Preset-Typen definieren.
+description: Konstanten, die Licht-Voreinstellungs-Typen definieren.
 type: docs
-weight: 7700
+weight: 7720
 url: /de/aspose.slides/lightrigpresettype/
 ---
 ## LightRigPresetType Aufzählung
 
-Konstanten, die Licht-Preset-Typen definieren.
+Konstanten, die Licht-Voreinstellungs-typen definieren.
 
 ```csharp
 public enum LightRigPresetType

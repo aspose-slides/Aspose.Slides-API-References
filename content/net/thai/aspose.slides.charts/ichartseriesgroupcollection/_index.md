@@ -1,14 +1,14 @@
 ---
 title: IChartSeriesGroupCollection
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: แสดงถึงคอลเลกชันของกลุ่มของ series ที่สามารถรวมกันได้.
+second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+description: เป็นตัวแทนของคอลเลกชันของกลุ่ม series ที่สามารถผสานรวมกันได้.
 type: docs
-weight: 1960
+weight: 1980
 url: /th/aspose.slides.charts/ichartseriesgroupcollection/
 ---
 ## IChartSeriesGroupCollection อินเทอร์เฟซ
 
-แสดงถึงคอลเลกชันของกลุ่มของ series ที่สามารถรวมกันได้.
+Represents the collection of groups of combinable series.
 
 ```csharp
 public interface IChartSeriesGroupCollection : IGenericCollection<IChartSeriesGroup>
@@ -18,13 +18,11 @@ public interface IChartSeriesGroupCollection : IGenericCollection<IChartSeriesGr
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Item](../../aspose.slides.charts/ichartseriesgroupcollection/item) { get; } | รับกลุ่ม series ตาม series. (2 indexers) |
+| [Item](../../aspose.slides.charts/ichartseriesgroupcollection/item) { get; } | รับกลุ่ม series โดย series. (2 indexers) |
 
 ### หมายเหตุ
 
-1) แต่ละกลุ่มของ series จะประกอบด้วย series ที่มีประเภทที่สามารถรวมกันได้. กลุ่มของประเภท series ที่สามารถรวมกันได้ถูกกำหนดและอธิบายด้วย enum CombinableSeriesTypesGroup. นอกจากนี้แต่ละกลุ่มของ series ยังประกอบด้วย series ที่ถูกพล็อตบนแกนหลักหรือบนแกนรอง (ไม่ใช่ทั้งสองกรณีในหนึ่งกลุ่ม). ดังนั้น หลักการของการจัดกลุ่ม series คือการจัดกลุ่มตามประเภทที่กล่าวถึงข้างต้นและตามประเภทการพล็อตเป็นหลัก/รอง.
-
-2) กลุ่มของ series มีคุณสมบัติของ series บางอย่างที่เป็นสากลสำหรับแต่ละ series ในกลุ่ม ("series group properties"). "Series group properties" ในคลาส ChartSeriesGroup เป็นแบบ read/write. แต่ละ "series group properties" สามารถมีการแสดงผลแบบ read-only ในคลาส ChartSeries.
+1) แต่ละกลุ่มของ series มี series ที่มีประเภทที่สามารถผสานรวมกันได้ กลุ่มของประเภท series ที่สามารถผสานรวมกันถูกกำหนดและอธิบายด้วย enum CombinableSeriesTypesGroup อีกทั้งแต่ละกลุ่มของ series ยังมี series ที่ถูกวางบนแกนหลักหรือแกนรอง (ไม่ใช่ทั้งสองกรณีในกลุ่มเดียว) ดังนั้นหลักการของการจัดกลุ่ม series คือการจัดกลุ่มตามประเภทที่กล่าวข้างต้นและตามประเภทการวางบนแกนหลัก/รอง. 2) กลุ่มของ series มีบางคุณสมบัติของ series ที่เป็นของทั่วไปสำหรับแต่ละ series ในกลุ่ม ("series group properties") "Series group properties" ในคลาส ChartSeriesGroup เป็นแบบอ่าน/เขียน แต่ละ "series group properties" สามารถมีการฉายเป็นแบบอ่านอย่างเดียวในคลาส ChartSeries
 
 ### ดูเพิ่มเติม
 

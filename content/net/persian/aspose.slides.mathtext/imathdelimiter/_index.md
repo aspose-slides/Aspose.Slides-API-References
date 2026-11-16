@@ -1,36 +1,36 @@
 ---
 title: IMathDelimiter
 second_title: Aspose.Sildes برای .NET مرجع API
-description: شیء جداکننده را که شامل نویسه‌های باز و بسته مانند پرانتز، آکولاد، کروشه و نوارهای عمودی است و یک یا چند عنصر ریاضی درون آن که با یک نویسه مشخص از هم جدا شده‌اند، مشخص می‌کند. مثال‌ها 2 2x7C2
+description: شیء جداکننده را مشخص می‌کند که شامل کاراکترهای باز و بسته مانند پرانتز، آکولاد، کروشه و خطوط عمودی است و یک یا چند عنصر ریاضی داخل آن را که با یک کاراکتر مشخص جدا شده‌اند، شامل می‌شود. مثال‌ها 2 2x7C2
 type: docs
-weight: 8210
+weight: 8230
 url: /fa/aspose.slides.mathtext/imathdelimiter/
 ---
-## رابط IMathDelimiter
+## IMathDelimiter رابط
 
-شیء جداکننده را تعریف می‌کند که شامل نویسه‌های باز و بسته (مانند پرانتز، آکولاد، کروشه و نوار عمودی) و یک یا چند عنصر ریاضی درون آن است که توسط یک نویسه مشخص از هم جدا می‌شوند. مثال‌ها: (𝑥2); [𝑥2&#x7C;𝑦2]
+محدده شیء جداکننده، شامل کاراکترهای باز و بسته (مانند پرانتز، آکولاد، کروشه و خطوط عمودی) و یک یا چند عنصر ریاضی داخل آن که با یک کاراکتر مشخص جدا می‌شوند. مثال‌ها: (𝑥2); [𝑥2&#x7C;𝑦2]
 
 ```csharp
 public interface IMathDelimiter : IMathElement
 ```
 
-## خواص
+## ویژگی‌ها
 
 | نام | توضیح |
 | --- | --- |
-| [Arguments](../../aspose.slides.mathtext/imathdelimiter/arguments) { get; } | یک یا چند عنصر ریاضی که با نویسه‌های جداکننده جدا شده‌اند |
-| [AsIMathElement](../../aspose.slides.mathtext/imathdelimiter/asimathelement) { get; } | امکان دسترسی به رابط پایه IMathElement را فراهم می‌کند [`IMathElement`](../imathelement) |
-| [BeginningCharacter](../../aspose.slides.mathtext/imathdelimiter/beginningcharacter) { get; set; } | Delimiter Beginning Character حرف آغازگر جداکننده را مشخص می‌کند. جداکننده‌های ریاضی حروفی مانند پرانتز، کروشه و آکولاد هستند. مقدار پیش‌فرض: '('. |
-| [DelimiterShape](../../aspose.slides.mathtext/imathdelimiter/delimitershape) { get; set; } | شکل جداکننده‌ها را در شیء MathDelimiter مشخص می‌کند. وقتی مقدار MathDelimiterShape.Centered باشد، جداکننده‌ها حول محور ریاضی متن متمرکز می‌شوند و می‌توانند تمام ارتفاع محتوا را پوشش دهند. وقتی مقدار MathDelimiterShape.Match باشد، ارتفاع و شکل آن‌ها دقیقاً با محتوا منطبق می‌شود. |
-| [EndingCharacter](../../aspose.slides.mathtext/imathdelimiter/endingcharacter) { get; set; } | Delimiter Ending Character حرف پایانی جداکننده را مشخص می‌کند. جداکننده‌های ریاضی حروفی مانند پرانتز، کروشه و آکولاد هستند. مقدار پیش‌فرض: ')'. |
-| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathdelimiter/growtomatchoperandheight) { get; set; } | رشد BeginningCharacter، SeparatorCharacter و EndingCharacter را تعیین می‌کند. هنگامی که مقدار true باشد، جداکننده‌ها به صورت عمودی رشد می‌کنند تا با ارتفاع عملوند مطابقت داشته باشند. مقدار پیش‌فرض true است. |
-| [SeparatorCharacter](../../aspose.slides.mathtext/imathdelimiter/separatorcharacter) { get; set; } | Delimiter Separator Character حرف جداکننده‌ای را تعیین می‌کند که آرگومان‌ها را در شیء جداکننده جدا می‌کند. مقدار پیش‌فرض: '&#x7C;'. |
+| [Arguments](../../aspose.slides.mathtext/imathdelimiter/arguments) { get; } | یک یا چند عنصر ریاضی که با کاراکترهای جداکننده جدا شده‌اند |
+| [AsIMathElement](../../aspose.slides.mathtext/imathdelimiter/asimathelement) { get; } | امکان دریافت رابط IMathElement [`IMathElement`](../imathelement) را فراهم می‌کند |
+| [BeginningCharacter](../../aspose.slides.mathtext/imathdelimiter/beginningcharacter) { get; set; } | کاراکتر شروع جداکننده مقدار آغاز یا کاراکتر باز جداکننده را تعیین می‌کند. جداکننده‌های ریاضی کاراکترهای محصور کننده‌ای مانند پرانتز، کروشه و آکولاد هستند. مقدار پیش‌فرض: '(' |
+| [DelimiterShape](../../aspose.slides.mathtext/imathdelimiter/delimitershape) { get; set; } | شکل جداکننده‌ها در شیء جداکننده را مشخص می‌کند. وقتی مقدار MathDelimiterShape.Centered باشد، جداکننده‌ها حول محور ریاضی متن ریاضی متمرکز می‌شوند و همچنان به‌طوری تنظیم می‌شوند که تمام ارتفاع محتویات خود را در بر بگیرند. وقتی مقدار MathDelimiterShape.Match باشد، ارتفاع و شکل آن‌ها دقیقاً با محتویاتشان مطابقت داده می‌شود. |
+| [EndingCharacter](../../aspose.slides.mathtext/imathdelimiter/endingcharacter) { get; set; } | کاراکتر انتهای جداکننده مقدار کاراکتر پایان یا بسته شدن جداکننده را تعیین می‌کند. جداکننده‌های ریاضی کاراکترهای محصور کننده‌ای مانند پرانتز، کروشه و آکولاد هستند. مقدار پیش‌فرض: ')' |
+| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathdelimiter/growtomatchoperandheight) { get; set; } | رشد BeginningCharacter، SeparatorCharacter و EndingCharacter را مشخص می‌کند. هنگامی که مقدار true باشد، جداکننده‌ها به‌صورت عمودی رشد می‌کنند تا ارتفاع عملوند خود را هماهنگ کنند. مقدار پیش‌فرض true است. |
+| [SeparatorCharacter](../../aspose.slides.mathtext/imathdelimiter/separatorcharacter) { get; set; } | کاراکتر جداکننده، کاراکتری که آرگومان‌ها را در شیء جداکننده جدا می‌کند، را مشخص می‌کند. مقدار پیش‌فرض: '&#x7C;'. |
 
 ## متدها
 
 | نام | توضیح |
 | --- | --- |
-| [Delimit](../../aspose.slides.mathtext/imathdelimiter/delimit)(char) | آرگومان‌ها را با استفاده از نویسه جداکننده مشخص شده جدا می‌کند |
+| [Delimit](../../aspose.slides.mathtext/imathdelimiter/delimit)(char) | آرگومان‌ها را با استفاده از کاراکتر جداکننده مشخص شده محدود می‌کند |
 
 ### مثال‌ها
 
@@ -42,10 +42,10 @@ IMathElement element = new MathematicalText("x");
 IMathDelimiter delimiter = element.Enclose();
 ```
 
-### مراجع مرتبط
+### موارد مرتبط
 
 * رابط [IMathElement](../imathelement)
-* فضای‌نام [Aspose.Slides.MathText](../../aspose.slides.mathtext)
-* اسمبلی [Aspose.Slides](../../)
+* فضای نام [Aspose.Slides.MathText](../../aspose.slides.mathtext)
+* مجموعه [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

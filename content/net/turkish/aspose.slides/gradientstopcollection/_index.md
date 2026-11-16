@@ -3,7 +3,7 @@ title: GradientStopCollection
 second_title: Aspose.Sildes için .NET API Referansı
 description: Gradient duraklarının bir koleksiyonunu temsil eder.
 type: docs
-weight: 5030
+weight: 5050
 url: /tr/aspose.slides/gradientstopcollection/
 ---
 ## GradientStopCollection sınıfı
@@ -16,29 +16,29 @@ public sealed class GradientStopCollection : PVIObject, IGradientStopCollection
 
 ## Özellikler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Base IPresentationComponent arayüzünü almaya izin verir. Yalnızca okunabilir [`IPresentationComponent`](../ipresentationcomponent). |
-| [Count](../../aspose.slides/gradientstopcollection/count) { get; } | Koleksiyondaki gradient duraklarının sayısını döndürür. Yalnızca okunabilir Int32. |
-| [IsSynchronized](../../aspose.slides/gradientstopcollection/issynchronized) { get; } | Koleksiyona erişimin senkronize (iş parçacığı güvenli) olup olmadığını gösteren bir değeri döndürür. Yalnızca okunabilir Boolean. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arayüzünü almayı sağlar. Yalnızca okuma [`IPresentationComponent`](../ipresentationcomponent). |
+| [Count](../../aspose.slides/gradientstopcollection/count) { get; } | Bir koleksiyondaki gradient duraklarının sayısını döndürür. Yalnızca okuma Int32. |
+| [IsSynchronized](../../aspose.slides/gradientstopcollection/issynchronized) { get; } | Koleksiyona erişimin senkronize (iş parçacığı güvenli) olup olmadığını belirten bir değer döndürür. Yalnızca okuma Boolean. |
 | [Item](../../aspose.slides/gradientstopcollection/item) { get; } | İndeks ile gradient durakını döndürür. |
-| [SyncRoot](../../aspose.slides/gradientstopcollection/syncroot) { get; } | Bir senkronizasyon kökü döndürür. Yalnızca okunabilir Object. |
+| [SyncRoot](../../aspose.slides/gradientstopcollection/syncroot) { get; } | Bir senkronizasyon kökü döndürür. Yalnızca okuma Object. |
 
 ## Yöntemler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
-| [Add](../../aspose.slides/gradientstopcollection/add#add_2)(float, Color) | Yeni bir gradient durak oluşturur ve koleksiyonun sonuna ekler. |
-| [Add](../../aspose.slides/gradientstopcollection/add#add)(float, PresetColor) | Yeni bir gradient durak oluşturur ve koleksiyonun sonuna ekler. |
-| [Add](../../aspose.slides/gradientstopcollection/add#add_1)(float, SchemeColor) | Yeni bir gradient durak oluşturur ve koleksiyonun sonuna ekler. |
-| [Clear](../../aspose.slides/gradientstopcollection/clear)() | Koleksiyondaki tüm gradient durakları kaldırır. |
+| [Add](../../aspose.slides/gradientstopcollection/add#add_2)(float, Color) | Yeni gradient durak oluşturur ve koleksiyonun sonuna ekler. |
+| [Add](../../aspose.slides/gradientstopcollection/add#add)(float, PresetColor) | Yeni gradient durak oluşturur ve koleksiyonun sonuna ekler. |
+| [Add](../../aspose.slides/gradientstopcollection/add#add_1)(float, SchemeColor) | Yeni gradient durak oluşturur ve koleksiyonun sonuna ekler. |
+| [Clear](../../aspose.slides/gradientstopcollection/clear)() | Bir koleksiyondan tüm gradient duraklarını kaldırır. |
 | [CopyTo](../../aspose.slides/gradientstopcollection/copyto)(Array, int) | Koleksiyondaki tüm öğeleri belirtilen diziye kopyalar. |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | Belirtilen nesneyle karşılaştırır. |
-| [GetEnumerator](../../aspose.slides/gradientstopcollection/getenumerator)() | Koleksiyon içinde yineleme yapan bir enumerator döndürür. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Hash kodunu döndürür. |
-| [Insert](../../aspose.slides/gradientstopcollection/insert#insert_2)(int, float, Color) | Yeni bir gradient durak oluşturur ve koleksiyona belirtilen indekste ekler. |
-| [Insert](../../aspose.slides/gradientstopcollection/insert#insert)(int, float, PresetColor) | Yeni bir gradient durak oluşturur ve koleksiyona belirtilen indekste ekler. |
-| [Insert](../../aspose.slides/gradientstopcollection/insert#insert_1)(int, float, SchemeColor) | Yeni bir gradient durak oluşturur ve koleksiyona belirtilen indekste ekler. |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | Belirtilen nesne ile karşılaştırır. |
+| [GetEnumerator](../../aspose.slides/gradientstopcollection/getenumerator)() | Koleksiyon içinde yineleme yapan bir yineleyici döndürür. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Karma kodu döndürür. |
+| [Insert](../../aspose.slides/gradientstopcollection/insert#insert_2)(int, float, Color) | Yeni gradient durak oluşturur ve koleksiyonda belirtilen indekse ekler. |
+| [Insert](../../aspose.slides/gradientstopcollection/insert#insert)(int, float, PresetColor) | Yeni gradient durak oluşturur ve koleksiyonda belirtilen indekse ekler. |
+| [Insert](../../aspose.slides/gradientstopcollection/insert#insert_1)(int, float, SchemeColor) | Yeni gradient durak oluşturur ve koleksiyonda belirtilen indekse ekler. |
 | [RemoveAt](../../aspose.slides/gradientstopcollection/removeat)(int) | Belirtilen indeksteki bir gradient durak kaldırır. |
 
 ### Ayrıca Bakınız

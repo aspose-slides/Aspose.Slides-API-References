@@ -1,12 +1,12 @@
 ---
 title: ILineFormat
-second_title: مرجع API لـ Aspose.Sildes لـ .NET
+second_title: Aspose.Sildes for .NET مرجع API
 description: يمثل تنسيق الخط.
 type: docs
-weight: 6310
+weight: 6330
 url: /ar/aspose.slides/ilineformat/
 ---
-## ILineFormat واجهة
+## ILineFormat الواجهة
 
 يمثل تنسيق الخط.
 
@@ -18,36 +18,36 @@ public interface ILineFormat : ILineParamSource
 
 | الاسم | الوصف |
 | --- | --- |
-| [Alignment](../../aspose.slides/ilineformat/alignment) { get; set; } | إرجاع أو تعيين محاذاة الخط. قراءة/كتابة [`LineAlignment`](../linealignment). |
-| [AsILineParamSource](../../aspose.slides/ilineformat/asilineparamsource) { get; } | السماح بالحصول على واجهة ILineParamSource الأساس. قراءة فقط [`ILineParamSource`](../ilineparamsource). |
-| [BeginArrowheadLength](../../aspose.slides/ilineformat/beginarrowheadlength) { get; set; } | إرجاع أو تعيين طول رأس السهم في بداية الخط. قراءة/كتابة [`LineArrowheadLength`](../linearrowheadlength). |
-| [BeginArrowheadStyle](../../aspose.slides/ilineformat/beginarrowheadstyle) { get; set; } | إرجاع أو تعيين نمط رأس السهم في بداية الخط. قراءة/كتابة [`LineArrowheadStyle`](../linearrowheadstyle). |
-| [BeginArrowheadWidth](../../aspose.slides/ilineformat/beginarrowheadwidth) { get; set; } | إرجاع أو تعيين عرض رأس السهم في بداية الخط. قراءة/كتابة [`LineArrowheadWidth`](../linearrowheadwidth). |
-| [CapStyle](../../aspose.slides/ilineformat/capstyle) { get; set; } | إرجاع أو تعيين نمط طرف الخط. قراءة/كتابة [`LineCapStyle`](../linecapstyle). |
-| [CustomDashPattern](../../aspose.slides/ilineformat/customdashpattern) { get; set; } | إرجاع أو تعيين نمط الشرط المخصص. قراءة/كتابة Single[]. |
-| [DashStyle](../../aspose.slides/ilineformat/dashstyle) { get; set; } | إرجاع أو تعيين نمط الشرط للخط. قراءة/كتابة [`LineDashStyle`](../linedashstyle). |
-| [EndArrowheadLength](../../aspose.slides/ilineformat/endarrowheadlength) { get; set; } | إرجاع أو تعيين طول رأس السهم في نهاية الخط. قراءة/كتابة [`LineArrowheadLength`](../linearrowheadlength). |
-| [EndArrowheadStyle](../../aspose.slides/ilineformat/endarrowheadstyle) { get; set; } | إرجاع أو تعيين نمط رأس السهم في نهاية الخط. قراءة/كتابة [`LineArrowheadStyle`](../linearrowheadstyle). |
-| [EndArrowheadWidth](../../aspose.slides/ilineformat/endarrowheadwidth) { get; set; } | إرجاع أو تعيين عرض رأس السهم في نهاية الخط. قراءة/كتابة [`LineArrowheadWidth`](../linearrowheadwidth). |
+| [Alignment](../../aspose.slides/ilineformat/alignment) { get; set; } | إرجاع أو ضبط محاذاة الخط. قراءة/كتابة [`LineAlignment`](../linealignment). |
+| [AsILineParamSource](../../aspose.slides/ilineformat/asilineparamsource) { get; } | السماح بالحصول على واجهة ILineParamSource الأساسية. قراءة فقط [`ILineParamSource`](../ilineparamsource). |
+| [BeginArrowheadLength](../../aspose.slides/ilineformat/beginarrowheadlength) { get; set; } | إرجاع أو ضبط طول رأس السهم في بداية الخط. قراءة/كتابة [`LineArrowheadLength`](../linearrowheadlength). |
+| [BeginArrowheadStyle](../../aspose.slides/ilineformat/beginarrowheadstyle) { get; set; } | إرجاع أو ضبط نمط رأس السهم في بداية الخط. قراءة/كتابة [`LineArrowheadStyle`](../linearrowheadstyle). |
+| [BeginArrowheadWidth](../../aspose.slides/ilineformat/beginarrowheadwidth) { get; set; } | إرجاع أو ضبط عرض رأس السهم في بداية الخط. قراءة/كتابة [`LineArrowheadWidth`](../linearrowheadwidth). |
+| [CapStyle](../../aspose.slides/ilineformat/capstyle) { get; set; } | إرجاع أو ضبط نمط قبضة الخط. قراءة/كتابة [`LineCapStyle`](../linecapstyle). |
+| [CustomDashPattern](../../aspose.slides/ilineformat/customdashpattern) { get; set; } | إرجاع أو ضبط نمط الشرط المخصص. قراءة/كتابة Single[]. |
+| [DashStyle](../../aspose.slides/ilineformat/dashstyle) { get; set; } | إرجاع أو ضبط نمط الشرط للخط. قراءة/كتابة [`LineDashStyle`](../linedashstyle). |
+| [EndArrowheadLength](../../aspose.slides/ilineformat/endarrowheadlength) { get; set; } | إرجاع أو ضبط طول رأس السهم في نهاية الخط. قراءة/كتابة [`LineArrowheadLength`](../linearrowheadlength). |
+| [EndArrowheadStyle](../../aspose.slides/ilineformat/endarrowheadstyle) { get; set; } | إرجاع أو ضبط نمط رأس السهم في نهاية الخط. قراءة/كتابة [`LineArrowheadStyle`](../linearrowheadstyle). |
+| [EndArrowheadWidth](../../aspose.slides/ilineformat/endarrowheadwidth) { get; set; } | إرجاع أو ضبط عرض رأس السهم في نهاية الخط. قراءة/كتابة [`LineArrowheadWidth`](../linearrowheadwidth). |
 | [FillFormat](../../aspose.slides/ilineformat/fillformat) { get; } | إرجاع تنسيق تعبئة الخط. قراءة فقط [`ILineFillFormat`](../ilinefillformat). |
-| [IsFormatNotDefined](../../aspose.slides/ilineformat/isformatnotdefined) { get; } | إرجاع true إذا لم يتم تعريف تنسيق الخط (كما تم إنشاؤه حديثًا، الافتراضي). قراءة فقط Boolean. |
-| [JoinStyle](../../aspose.slides/ilineformat/joinstyle) { get; set; } | إرجاع أو تعيين نمط وصل الخطوط. قراءة/كتابة [`LineJoinStyle`](../linejoinstyle). |
-| [MiterLimit](../../aspose.slides/ilineformat/miterlimit) { get; set; } | إرجاع أو تعيين حد الميتر للخط. قراءة/كتابة Single. |
-| [SketchFormat](../../aspose.slides/ilineformat/sketchformat) { get; } | إرجاع تنسيق المخطط للخط. قراءة فقط [`ISketchFormat`](../isketchformat). |
-| [Style](../../aspose.slides/ilineformat/style) { get; set; } | إرجاع أو تعيين نمط الخط. قراءة/كتابة [`LineStyle`](../linestyle). |
-| [Width](../../aspose.slides/ilineformat/width) { get; set; } | إرجاع أو تعيين عرض الخط. قراءة/كتابة Double. |
+| [IsFormatNotDefined](../../aspose.slides/ilineformat/isformatnotdefined) { get; } | إرجاع true إذا لم يتم تعريف تنسيق الخط (عند إنشائه حديثًا، الافتراضي). قراءة فقط Boolean. |
+| [JoinStyle](../../aspose.slides/ilineformat/joinstyle) { get; set; } | إرجاع أو ضبط نمط تقاطع الخطوط. قراءة/كتابة [`LineJoinStyle`](../linejoinstyle). |
+| [MiterLimit](../../aspose.slides/ilineformat/miterlimit) { get; set; } | إرجاع أو ضبط حد الميتر للخط. قراءة/كتابة Single. |
+| [SketchFormat](../../aspose.slides/ilineformat/sketchformat) { get; } | إرجاع تنسيق الرسم التخطيطي للخط. قراءة فقط [`ISketchFormat`](../isketchformat). |
+| [Style](../../aspose.slides/ilineformat/style) { get; set; } | إرجاع أو ضبط نمط الخط. قراءة/كتابة [`LineStyle`](../linestyle). |
+| [Width](../../aspose.slides/ilineformat/width) { get; set; } | إرجاع أو ضبط عرض الخط. قراءة/كتابة Double. |
 
 ## الأساليب
 
 | الاسم | الوصف |
 | --- | --- |
-| [Equals](../../aspose.slides/ilineformat/equals)(ILineFormat) | تحديد ما إذا كانت مثالي LineFormat الاثنين متساويين. |
-| [GetEffective](../../aspose.slides/ilineformat/geteffective)() | الحصول على بيانات تنسيق الخط الفعّالة مع تطبيق الوراثة. |
+| [Equals](../../aspose.slides/ilineformat/equals)(ILineFormat) | تحديد ما إذا كانت مثيلتي LineFormat متساويتين. |
+| [GetEffective](../../aspose.slides/ilineformat/geteffective)() | إحضار بيانات تنسيق الخط الفعّالة مع تطبيق الوراثة. |
 
-### انظر أيضًا
+### راجع أيضًا
 
-* واجهة [ILineParamSource](../ilineparamsource)
-* مساحة اسم [Aspose.Slides](../../aspose.slides)
-* تجميع [Aspose.Slides](../../)
+* الواجهة [ILineParamSource](../ilineparamsource)
+* مساحة الأسماء [Aspose.Slides](../../aspose.slides)
+* التجميع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

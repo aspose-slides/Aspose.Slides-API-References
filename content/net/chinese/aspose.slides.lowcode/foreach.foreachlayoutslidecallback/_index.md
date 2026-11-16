@@ -1,12 +1,12 @@
 ---
 title: ForEach.ForEachLayoutSlideCallback
-second_title: Aspose.Sildes 的 .NET API 参考
-description: 在 Presentation../aspose.slides/presentation 中，对每个 LayoutSlide./foreach/layoutslide 调用的回调。
+second_title: Aspose.Sildes .NET API 参考
+description: 此回调将在 Presentation 中对每个 LayoutSlide./foreach/layoutslide 被调用../aspose.slides/presentation。
 type: docs
-weight: 7910
+weight: 7930
 url: /zh/aspose.slides.lowcode/foreach.foreachlayoutslidecallback/
 ---
-## ForEach.ForEachLayoutSlideCallback 委托
+## ForEach.ForEachLayoutSlideCallback delegate
 
 将在 [`Presentation`](../../aspose.slides/presentation) 中为每个 [`LayoutSlide`](../foreach/layoutslide) 调用的回调。
 
@@ -19,7 +19,7 @@ public delegate void ForEachLayoutSlideCallback(LayoutSlide layoutSlide, int ind
 | layoutSlide | LayoutSlide | 当前迭代的布局幻灯片 |
 | index | Int32 | 当前布局幻灯片的索引 |
 
-### 参见
+### 另请参见
 
 * 类 [LayoutSlide](../../aspose.slides/layoutslide)
 * 类 [ForEach](../foreach)

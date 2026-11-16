@@ -3,7 +3,7 @@ title: IPresentationFactory
 second_title: Aspose.Sildes för .NET API-referens
 description: Tillåter att skapa presentation via COM-gränssnitt
 type: docs
-weight: 6770
+weight: 6790
 url: /sv/aspose.slides/ipresentationfactory/
 ---
 ## IPresentationFactory gränssnitt
@@ -18,19 +18,19 @@ public interface IPresentationFactory
 
 | Namn | Beskrivning |
 | --- | --- |
-| [CreatePresentation](../../aspose.slides/ipresentationfactory/createpresentation#createpresentation)() | Skapar ny presentation. |
-| [CreatePresentation](../../aspose.slides/ipresentationfactory/createpresentation#createpresentation_1)(ILoadOptions) | Skapar ny presentation med ytterligare inläsningsalternativ |
-| [GetPresentationInfo](../../aspose.slides/ipresentationfactory/getpresentationinfo#getpresentationinfo)(Stream) | Hämtar information om presentation i angivet ström. |
+| [CreatePresentation](../../aspose.slides/ipresentationfactory/createpresentation#createpresentation)() | Skapar en ny presentation. |
+| [CreatePresentation](../../aspose.slides/ipresentationfactory/createpresentation#createpresentation_1)(ILoadOptions) | Skapar en ny presentation med ytterligare inläsningsalternativ |
+| [GetPresentationInfo](../../aspose.slides/ipresentationfactory/getpresentationinfo#getpresentationinfo)(Stream) | Hämtar information om presentation i angiven ström. |
 | [GetPresentationInfo](../../aspose.slides/ipresentationfactory/getpresentationinfo#getpresentationinfo_1)(string) | Hämtar information om presentation i angiven fil. |
-| [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext#getpresentationtext)(Stream, TextExtractionArrangingMode) | Hämtar råtexten från bilderna |
-| [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext#getpresentationtext_2)(string, TextExtractionArrangingMode) | Hämtar råtexten från bilderna |
-| [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext#getpresentationtext_1)(Stream, TextExtractionArrangingMode, ILoadOptions) | Hämtar råtexten från bilderna |
-| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation)(byte[]) | Läser en befintlig presentation från array |
-| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_2)(Stream) | Läser en befintlig presentation från ström |
-| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_4)(string) | Läser en befintlig presentation från fil |
-| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_1)(byte[], ILoadOptions) | Läser en befintlig presentation från array med ytterligare inläsningsalternativ |
-| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_3)(Stream, ILoadOptions) | Läser en befintlig presentation från ström med ytterligare inläsningsalternativ |
-| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_5)(string, ILoadOptions) | Läser en befintlig presentation från stream med ytterligare inläsningsalternativ |
+| [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext#getpresentationtext)(Stream, TextExtractionArrangingMode) | Hämtar råtext från bilderna |
+| [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext#getpresentationtext_2)(string, TextExtractionArrangingMode) | Hämtar råtext från bilderna |
+| [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext#getpresentationtext_1)(Stream, TextExtractionArrangingMode, ILoadOptions) | Hämtar råtext från bilderna |
+| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation)(byte[]) | Läser en befintlig presentation från en array. |
+| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_2)(Stream) | Läser en befintlig presentation från en ström. |
+| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_4)(string) | Läser en befintlig presentation från en fil. |
+| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_1)(byte[], ILoadOptions) | Läser en befintlig presentation från en array med ytterligare inläsningsalternativ |
+| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_3)(Stream, ILoadOptions) | Läser en befintlig presentation från en ström med ytterligare inläsningsalternativ |
+| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_5)(string, ILoadOptions) | Läser en befintlig presentation från en ström med ytterligare inläsningsalternativ |
 
 ### Se också
 

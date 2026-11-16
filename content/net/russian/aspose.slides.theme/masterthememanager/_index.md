@@ -1,14 +1,14 @@
 ---
 title: MasterThemeManager
-second_title: Aspose.Sildes для .NET API Reference
-description: Обеспечивает доступ к основной теме презентации.
+second_title: Aspose.Sildes для .NET справочник API
+description: Обеспечивает доступ к главной теме презентации.
 type: docs
-weight: 11440
+weight: 11460
 url: /ru/aspose.slides.theme/masterthememanager/
 ---
-## MasterThemeManager класс
+## Класс MasterThemeManager
 
-Обеспечивает доступ к основной теме презентации.
+Обеспечивает доступ к главной теме презентации.
 
 ```csharp
 public class MasterThemeManager : BaseThemeManager, IMasterThemeManager
@@ -16,16 +16,16 @@ public class MasterThemeManager : BaseThemeManager, IMasterThemeManager
 
 ## Свойства
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
 | [IsOverrideThemeEnabled](../../aspose.slides.theme/masterthememanager/isoverridethemeenabled) { get; set; } | Определяет, переопределяет ли OverrideTheme унаследованную эффективную тему (Presentation.MasterTheme) или нет. Чтение/запись Boolean. |
 | [OverrideTheme](../../aspose.slides.theme/masterthememanager/overridetheme) { get; set; } | Возвращает объект переопределяющей темы. Чтение/запись [`IMasterTheme`](../imastertheme). |
 
 ## Методы
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
-| [ApplyColorScheme](../../aspose.slides.theme/masterthememanager/applycolorscheme)(IExtraColorScheme) | Применяет дополнительную схему цветов к слайду. |
+| [ApplyColorScheme](../../aspose.slides.theme/masterthememanager/applycolorscheme)(IExtraColorScheme) | Применяет дополнительную цветовую схему к слайду. |
 | [CreateThemeEffective](../../aspose.slides.theme/masterthememanager/createthemeeffective)() | Возвращает объект темы. |
 
 ### См. также

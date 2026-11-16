@@ -1,9 +1,9 @@
 ---
 title: ISmartArtNodeCollection
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Representa uma coleção de nós SmartArt.
 type: docs
-weight: 10560
+weight: 10580
 url: /pt/aspose.slides.smartart/ismartartnodecollection/
 ---
 ## ISmartArtNodeCollection interface
@@ -29,7 +29,7 @@ public interface ISmartArtNodeCollection : IGenericCollection<ISmartArtNode>
 | [RemoveNode](../../aspose.slides.smartart/ismartartnodecollection/removenode#removenode_1)(int) | Remove nó ou subnó por índice. |
 | [RemoveNode](../../aspose.slides.smartart/ismartartnodecollection/removenode#removenode)(ISmartArtNode) | Remove nó ou subnó. |
 
-### Ver Também
+### Ver também
 
 * interface [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * interface [ISmartArtNode](../ismartartnode)

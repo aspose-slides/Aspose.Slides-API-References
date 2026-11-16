@@ -1,14 +1,14 @@
 ---
 title: ILineFormatCollectionEffectiveData
-second_title: Aspose.Sildes for .NET API リファレンス
-description: 有効なライン形式の読み取り専用コレクションを表す不変オブジェクトです。
+second_title: Aspose.Sildes の .NET 向け API リファレンス
+description: 効果的なライン書式の読み取り専用コレクションを表す不変オブジェクトです。
 type: docs
-weight: 11300
+weight: 11320
 url: /ja/aspose.slides.theme/ilineformatcollectioneffectivedata/
 ---
 ## ILineFormatCollectionEffectiveData インターフェイス
 
-有効なライン形式の読み取り専用コレクションを表す不変オブジェクトです。
+効果的なライン書式の読み取り専用コレクションを表す不変オブジェクトです。
 
 ```csharp
 public interface ILineFormatCollectionEffectiveData : IGenericCollection<ILineFormatEffectiveData>
@@ -24,7 +24,7 @@ public interface ILineFormatCollectionEffectiveData : IGenericCollection<ILineFo
 
 このインターフェイスは [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata) の一部として使用されます。
 
-### 参照
+### 参考
 
 * インターフェイス [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * インターフェイス [ILineFormatEffectiveData](../../aspose.slides/ilineformateffectivedata)

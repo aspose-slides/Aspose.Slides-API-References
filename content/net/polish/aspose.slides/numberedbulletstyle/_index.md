@@ -1,12 +1,12 @@
 ---
 title: NumberedBulletStyle
-second_title: Aspose.Sildes dla .NET API Reference
+second_title: Aspose.Sildes dla .NET – odniesienie API
 description: Reprezentuje styl numerowanych wypunktowań.
 type: docs
-weight: 9180
+weight: 9200
 url: /pl/aspose.slides/numberedbulletstyle/
 ---
-## wyliczenie NumberedBulletStyle
+## enumeracja NumberedBulletStyle
 
 Reprezentuje styl numerowanych wypunktowań.
 
@@ -18,52 +18,52 @@ public enum NumberedBulletStyle : sbyte
 
 | Nazwa | Wartość | Opis |
 | --- | --- | --- |
-| NotDefined | `-1` | Nie określono. |
+| NotDefined | `-1` | Nie zdefiniowano. |
 | BulletAlphaLCPeriod | `0` | Małe litery alfabetu z kropką. Przykład: a., b., c., ... |
 | BulletAlphaUCPeriod | `1` | Wielkie litery alfabetu z kropką. Przykład: A., B., C., ... |
-| BulletArabicParenRight | `2` | Arabskie cyfry z zamkniętym nawiasem. Przykład: 1), 2), 3), ... |
-| BulletArabicPeriod | `3` | Arabskie cyfry z kropką. Przykład: 1., 2., 3., ... |
-| BulletRomanLCParenBoth | `4` | Małe cyfry rzymskie z oboma nawiasami. Przykład: (i), (ii), (iii), ... |
-| BulletRomanLCParenRight | `5` | Małe cyfry rzymskie z zamkniętym nawiasem. Przykład: i), ii), iii), ... |
-| BulletRomanLCPeriod | `6` | Małe cyfry rzymskie z kropką. Przykład: i., ii., iii., ... |
-| BulletRomanUCPeriod | `7` | Wielkie cyfry rzymskie z kropką. Przykład: I., II., III., ... |
+| BulletArabicParenRight | `2` | Liczby arabskie z zamykającym nawiasem. Przykład: 1), 2), 3), ... |
+| BulletArabicPeriod | `3` | Liczby arabskie z kropką. Przykład: 1., 2., 3., ... |
+| BulletRomanLCParenBoth | `4` | Małe liczby rzymskie z oboma nawiasami. Przykład: (i), (ii), (iii), ... |
+| BulletRomanLCParenRight | `5` | Małe liczby rzymskie z zamykającym nawiasem. Przykład: i), ii), iii), ... |
+| BulletRomanLCPeriod | `6` | Małe liczby rzymskie z kropką. Przykład: i., ii., iii., ... |
+| BulletRomanUCPeriod | `7` | Wielkie liczby rzymskie z kropką. Przykład: I., II., III., ... |
 | BulletAlphaLCParenBoth | `8` | Małe litery alfabetu z oboma nawiasami. Przykład: (a), (b), (c), ... |
-| BulletAlphaLCParenRight | `9` | Małe litery alfabetu z zamkniętym nawiasem. Przykład: a), b), c), ... |
+| BulletAlphaLCParenRight | `9` | Małe litery alfabetu z zamykającym nawiasem. Przykład: a), b), c), ... |
 | BulletAlphaUCParenBoth | `10` | Wielkie litery alfabetu z oboma nawiasami. Przykład: (A), (B), (C), ... |
-| BulletAlphaUCParenRight | `11` | Wielkie litery alfabetu z zamkniętym nawiasem. Przykład: A), B), C), ... |
-| BulletArabicParenBoth | `12` | Arabskie cyfry z oboma nawiasami. Przykład: (1), (2), (3), ... |
-| BulletArabicPlain | `13` | Arabskie cyfry. Przykład: 1, 2, 3, ... |
-| BulletRomanUCParenBoth | `14` | Wielkie cyfry rzymskie z oboma nawiasami. Przykład: (I), (II), (III), ... |
-| BulletRomanUCParenRight | `15` | Wielkie cyfry rzymskie z zamkniętym nawiasem. Przykład: I), II), III), ... |
-| BulletSimpChinPlain | `16` | Uproszczony chiński bez kropki. |
-| BulletSimpChinPeriod | `17` | Uproszczony chiński z kropką. |
-| BulletCircleNumDBPlain | `18` | Podwójny bajt okrągła liczba dla wartości do 10, od 11 - arabskie liczby. |
-| BulletCircleNumWDWhitePlain | `19` | Liczba w kolorze tekstu z tym samym kolorowym okręgiem narysowanym wokół (liczby w białych okręgach Wingdings). Od 11 - arabskie liczby. |
-| BulletCircleNumWDBlackPlain | `20` | Liczba w kolorze cienia z okrągłym tłem w normalnym kolorze tekstu (liczby w czarnych okręgach Wingdings). |
-| BulletTradChinPlain | `21` | Tradycyjny chiński bez kropki. |
-| BulletTradChinPeriod | `22` | Tradycyjny chiński z kropką. |
-| BulletArabicAlphaDash | `23` | Arabskie znaki alfabetu z myślnikiem. |
-| BulletArabicAbjadDash | `24` | Arabskie alfabety Abjad z myślnikiem. |
-| BulletHebrewAlphaDash | `25` | Hebrajskie znaki alfabetu z myślnikiem. |
-| BulletKanjiKoreanPlain | `26` | Japońskie/koreańskie liczby bez kropki. |
-| BulletKanjiKoreanPeriod | `27` | Japońskie/koreańskie liczby z kropką. |
-| BulletArabicDBPlain | `28` | Podwójny bajt arabski schemat numeracji (bez interpunkcji). |
-| BulletArabicDBPeriod | `29` | Podwójny bajt arabski schemat numeracji z podwójnym bajtem kropki. |
-| BulletThaiAlphaPeriod | `30` | Tajski alfabet z kropką. |
-| BulletThaiAlphaParenRight | `31` | Tajski alfabet nawiasy - prawy. |
-| BulletThaiAlphaParenBoth | `32` | Tajski alfabet nawiasy - oba. |
-| BulletThaiNumPeriod | `33` | Tajskie liczby z kropką. |
-| BulletThaiNumParenRight | `34` | Tajskie liczby nawiasy - prawy. |
-| BulletThaiNumParenBoth | `35` | Tajskie liczby nawiasy - oba. |
-| BulletHindiAlphaPeriod | `36` | Hindi alfabet z kropką - samogłoski. |
-| BulletHindiNumPeriod | `37` | Hindi liczby z kropką. |
-| BulletKanjiSimpChinDBPeriod | `38` | Kanji prosty chiński DBPeriod. |
-| BulletHindiNumParenRight | `39` | Hindi liczby nawiasy - prawy. |
-| BulletHindiAlpha1Period | `40` | Hindi alfabet z kropką - spółgłoski. |
+| BulletAlphaUCParenRight | `11` | Wielkie litery alfabetu z zamykającym nawiasem. Przykład: A), B), C), ... |
+| BulletArabicParenBoth | `12` | Liczby arabskie z oboma nawiasami. Przykład: (1), (2), (3), ... |
+| BulletArabicPlain | `13` | Liczby arabskie. Przykład: 1, 2, 3, ... |
+| BulletRomanUCParenBoth | `14` | Wielkie liczby rzymskie z oboma nawiasami. Przykład: (I), (II), (III), ... |
+| BulletRomanUCParenRight | `15` | Wielkie liczby rzymskie z zamykającym nawiasem. Przykład: I), II), III), ... |
+| BulletSimpChinPlain | `16` | Chiński uproszczony bez kropki. |
+| BulletSimpChinPeriod | `17` | Chiński uproszczony z kropką. |
+| BulletCircleNumDBPlain | `18` | Dwubajtowa liczba w kole dla wartości do 10, od 11 - liczby arabskie. |
+| BulletCircleNumWDWhitePlain | `19` | Liczba w kolorze tekstu z otaczającym ją kołem w tym samym kolorze (białe liczby w kole Wingdings). Od 11 - liczby arabskie. |
+| BulletCircleNumWDBlackPlain | `20` | Liczba w kolorze cienia z okrągłym tłem w normalnym kolorze tekstu (czarne liczby w kole Wingdings). |
+| BulletTradChinPlain | `21` | Chiński tradycyjny bez kropki. |
+| BulletTradChinPeriod | `22` | Chiński tradycyjny z kropką. |
+| BulletArabicAlphaDash | `23` | Alfabety języka arabskiego z łącznikiem. |
+| BulletArabicAbjadDash | `24` | Alfabety arabskiego Abjad z łącznikiem. |
+| BulletHebrewAlphaDash | `25` | Alfabety języka hebrajskiego z łącznikiem. |
+| BulletKanjiKoreanPlain | `26` | Liczby japońskie/koreańskie bez kropki. |
+| BulletKanjiKoreanPeriod | `27` | Liczby japońskie/koreańskie z kropką. |
+| BulletArabicDBPlain | `28` | Dwubajtowy schemat numeracji arabskiej (bez interpunkcji). |
+| BulletArabicDBPeriod | `29` | Dwubajtowy schemat numeracji arabskiej z dwubajtową kropką. |
+| BulletThaiAlphaPeriod | `30` | Alfabet tajski z kropką. |
+| BulletThaiAlphaParenRight | `31` | Alfabet tajski z prawym nawiasem. |
+| BulletThaiAlphaParenBoth | `32` | Alfabet tajski z obiema nawiasami. |
+| BulletThaiNumPeriod | `33` | Cyfry tajskie z kropką. |
+| BulletThaiNumParenRight | `34` | Cyfry tajskie z prawym nawiasem. |
+| BulletThaiNumParenBoth | `35` | Cyfry tajskie z obiema nawiasami. |
+| BulletHindiAlphaPeriod | `36` | Alfabet hinduski z kropką - samogłoski. |
+| BulletHindiNumPeriod | `37` | Cyfry hinduskie z kropką. |
+| BulletKanjiSimpChinDBPeriod | `38` | Kanji proste chińskie DBPeriod. |
+| BulletHindiNumParenRight | `39` | Cyfry hinduskie z prawym nawiasem. |
+| BulletHindiAlpha1Period | `40` | Alfabet hinduski z kropką - spółgłoski. |
 
 ### Zobacz także
 
 * przestrzeń nazw [Aspose.Slides](../../aspose.slides)
-* zbiór [Aspose.Slides](../../)
+* zestaw [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

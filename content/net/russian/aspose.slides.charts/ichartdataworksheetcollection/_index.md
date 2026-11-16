@@ -1,14 +1,14 @@
 ---
 title: IChartDataWorksheetCollection
-second_title: "Aspose.Sildes для .NET: справочник API"
-description: Представляет коллекцию рабочих листов рабочей книги данных диаграммы.
+second_title: Aspose.Sildes для .NET Справка API
+description: Представляет коллекцию листов рабочей книги с данными диаграммы.
 type: docs
-weight: 1880
+weight: 1900
 url: /ru/aspose.slides.charts/ichartdataworksheetcollection/
 ---
 ## IChartDataWorksheetCollection интерфейс
 
-Представляет коллекцию рабочих листов рабочей книги данных диаграммы.
+Представляет коллекцию листов рабочей книги данных диаграммы.
 
 ```csharp
 public interface IChartDataWorksheetCollection : IGenericCollection<IChartDataWorksheet>
@@ -18,7 +18,7 @@ public interface IChartDataWorksheetCollection : IGenericCollection<IChartDataWo
 
 | Имя | Описание |
 | --- | --- |
-| [Item](../../aspose.slides.charts/ichartdataworksheetcollection/item) { get; } | Возвращает рабочий лист по индексу. |
+| [Item](../../aspose.slides.charts/ichartdataworksheetcollection/item) { get; } | Возвращает лист рабочей книги по индексу. |
 
 ### Примеры
 

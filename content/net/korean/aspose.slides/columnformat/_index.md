@@ -1,9 +1,9 @@
 ---
 title: ColumnFormat
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 테이블 열의 형식을 나타냅니다.
 type: docs
-weight: 2610
+weight: 2630
 url: /ko/aspose.slides/columnformat/
 ---
 ## ColumnFormat 클래스
@@ -18,7 +18,7 @@ public sealed class ColumnFormat : DomObject<Column>, IColumnFormat
 
 | 이름 | 설명 |
 | --- | --- |
-| [GetEffective](../../aspose.slides/columnformat/geteffective)() | 상속 및 테이블 스타일이 적용된 실제 테이블 열 서식 속성을 가져옵니다. |
+| [GetEffective](../../aspose.slides/columnformat/geteffective)() | 상속 및 테이블 스타일이 적용된 효과적인 테이블 열 서식 속성을 가져옵니다. |
 
 ### 참조
 

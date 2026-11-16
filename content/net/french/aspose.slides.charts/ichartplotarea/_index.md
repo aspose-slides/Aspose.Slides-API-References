@@ -3,10 +3,10 @@ title: IChartPlotArea
 second_title: Référence API Aspose.Sildes pour .NET
 description: Représente les propriétés du titre du graphique.
 type: docs
-weight: 1910
+weight: 1930
 url: /fr/aspose.slides.charts/ichartplotarea/
 ---
-## interface IChartPlotArea
+## IChartPlotArea interface
 
 Représente les propriétés du titre du graphique.
 
@@ -21,7 +21,7 @@ public interface IChartPlotArea : IActualLayout, ILayoutable
 | [AsIActualLayout](../../aspose.slides.charts/ichartplotarea/asiactuallayout) { get; } | Renvoie l'interface IActualLayout. |
 | [AsILayoutable](../../aspose.slides.charts/ichartplotarea/asilayoutable) { get; } | Permet d'obtenir l'interface de base ILayoutable. Lecture seule [`ILayoutable`](../ilayoutable). |
 | [Format](../../aspose.slides.charts/ichartplotarea/format) { get; } | Renvoie le format d'une zone de tracé. Lecture seule [`IFormat`](../iformat). |
-| [LayoutTargetType](../../aspose.slides.charts/ichartplotarea/layouttargettype) { get; set; } | Si la mise en page de la zone de tracé est définie manuellement, cette propriété indique s'il faut mettre en page la zone de tracé par son intérieur (sans inclure les axes et les étiquettes d'axe) ou par son extérieur (en incluant les axes et les étiquettes d'axe). Lecture/écriture [`LayoutTargetType`](./layouttargettype). |
+| [LayoutTargetType](../../aspose.slides.charts/ichartplotarea/layouttargettype) { get; set; } | Si la disposition de la zone de tracé est définie manuellement, cette propriété indique si la zone de tracé doit être disposée par son intérieur (sans inclure les axes et les libellés d'axe) ou par son extérieur (en incluant les axes et les libellés d'axe). Lecture/écriture [`LayoutTargetType`](./layouttargettype). |
 
 ### Voir aussi
 

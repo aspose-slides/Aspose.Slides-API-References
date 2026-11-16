@@ -1,14 +1,14 @@
 ---
 title: TransitionPattern
-second_title: Aspose.Sildes für .NET API Referenz
-description: Gibt ein geometrisches Muster an, das zusammen kachelt, um eine größere Fläche zu füllen.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Gibt ein geometrisches Muster an, das zusammengefügt wird, um einen größeren Bereich zu füllen.
 type: docs
-weight: 10400
+weight: 10420
 url: /de/aspose.slides.slideshow/transitionpattern/
 ---
-## TransitionPattern Aufzählung
+## TransitionPattern Enumeration
 
-Gibt ein geometrisches Muster an, das zusammen kachelt, um eine größere Fläche zu füllen.
+Gibt ein geometrisches Muster an, das zusammengefügt wird, um einen größeren Bereich zu füllen.
 
 ```csharp
 public enum TransitionPattern
@@ -18,8 +18,8 @@ public enum TransitionPattern
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| Diamond | `0` | Diamond Kachel-Muster |
-| Hexagon | `1` | Hexagon Kachel-Muster |
+| Diamond | `0` | Diamond-Kachel-Muster |
+| Hexagon | `1` | Hexagon-Kachel-Muster |
 
 ### Siehe auch
 

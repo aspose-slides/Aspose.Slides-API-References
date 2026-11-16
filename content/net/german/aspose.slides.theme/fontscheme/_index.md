@@ -1,9 +1,9 @@
 ---
 title: FontScheme
 second_title: Aspose.Sildes für .NET API Referenz
-description: Speichert themendefinierte Schriftarten.
+description: Speichert themen-definierte Schriftarten.
 type: docs
-weight: 11130
+weight: 11150
 url: /de/aspose.slides.theme/fontscheme/
 ---
 ## FontScheme Klasse
@@ -18,9 +18,9 @@ public class FontScheme : IFontScheme
 
 | Name | Beschreibung |
 | --- | --- |
-| [Major](../../aspose.slides.theme/fontscheme/major) { get; } | Gibt die Schriftartensammlung für den "heading"-Teil der Folie zurück. Nur lesbar [`IFonts`](../../aspose.slides/ifonts). |
-| [Minor](../../aspose.slides.theme/fontscheme/minor) { get; } | Gibt die Schriftartensammlung für den "body"-Teil der Folie zurück. Nur lesbar [`IFonts`](../../aspose.slides/ifonts). |
-| [Name](../../aspose.slides.theme/fontscheme/name) { get; set; } | Gibt den Namen des Schriftartenschemas zurück. Lesen/Schreiben String. |
+| [Major](../../aspose.slides.theme/fontscheme/major) { get; } | Gibt die Schriftartsammlung für einen "Überschrift"-Teil der Folie zurück. Nur-Lesen [`IFonts`](../../aspose.slides/ifonts). |
+| [Minor](../../aspose.slides.theme/fontscheme/minor) { get; } | Gibt die Schriftartsammlung für einen "Inhalt"-Teil der Folie zurück. Nur-Lesen [`IFonts`](../../aspose.slides/ifonts). |
+| [Name](../../aspose.slides.theme/fontscheme/name) { get; set; } | Gibt den Namen des FontScheme zurück. Lesen/Schreiben String. |
 
 ### Siehe auch
 

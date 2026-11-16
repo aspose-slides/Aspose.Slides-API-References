@@ -1,14 +1,14 @@
 ---
 title: Images
 second_title: Aspose.Sildes for .NET API リファレンス
-description: IImage/iimage のインスタンス化および操作用メソッドです。
+description: IImage./iimage を作成および操作するためのメソッド。
 type: docs
-weight: 7460
+weight: 7480
 url: /ja/aspose.slides/images/
 ---
 ## Images クラス
 
-インスタンス化および [`IImage`](../iimage) の操作用メソッドです。
+[`IImage`](../iimage) を作成および操作するためのメソッド。
 
 ```csharp
 public static class Images
@@ -19,7 +19,7 @@ public static class Images
 | 名前 | 説明 |
 | --- | --- |
 | static [FromFile](../../aspose.slides/images/fromfile#fromfile)(string) | ファイルから画像を作成します。 |
-| static [FromFile](../../aspose.slides/images/fromfile#fromfile_1)(string, bool) | ファイルから画像を作成します。 |
+| static [FromFile](../../aspose.slides/images/fromfile#fromfile_1)(string, bool) | ファイルから画像を作成します |
 | static [FromStream](../../aspose.slides/images/fromstream#fromstream)(Stream) | ストリームから画像を作成します。 |
 | static [FromStream](../../aspose.slides/images/fromstream#fromstream_1)(Stream, bool) | ストリームから画像を作成します。 |
 | static [FromStream](../../aspose.slides/images/fromstream#fromstream_2)(Stream, bool, bool) | ストリームから画像を作成します。 |

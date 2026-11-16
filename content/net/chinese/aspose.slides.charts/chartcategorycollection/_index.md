@@ -1,9 +1,9 @@
 ---
 title: ChartCategoryCollection
-second_title: Aspose.Sildes 的 .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 表示 ChartCategory 的集合./chartcategory
 type: docs
-weight: 1280
+weight: 1290
 url: /zh/aspose.slides.charts/chartcategorycollection/
 ---
 ## ChartCategoryCollection 类
@@ -19,11 +19,11 @@ public class ChartCategoryCollection : DomObject<ChartData>, IChartCategoryColle
 | 名称 | 描述 |
 | --- | --- |
 | [Count](../../aspose.slides.charts/chartcategorycollection/count) { get; } | 返回集合中元素的数量。只读 Int32。 |
-| [GroupingLevelCount](../../aspose.slides.charts/chartcategorycollection/groupinglevelcount) { get; } | 返回使用的类别分组级别计数。对于多层类别，大于 1。只读 Int32。 |
-| [IsSynchronized](../../aspose.slides.charts/chartcategorycollection/issynchronized) { get; } | 返回一个值，指示对 List 的访问是否已同步（线程安全）。只读 Boolean。 |
+| [GroupingLevelCount](../../aspose.slides.charts/chartcategorycollection/groupinglevelcount) { get; } | 返回使用的类别分组层级计数。多层类别时大于 1。只读 Int32。 |
+| [IsSynchronized](../../aspose.slides.charts/chartcategorycollection/issynchronized) { get; } | 返回一个值，指示对 List 的访问是否同步（线程安全）。只读 Boolean。 |
 | [Item](../../aspose.slides.charts/chartcategorycollection/item) { get; } | 获取指定索引处的元素。 |
-| [SyncRoot](../../aspose.slides.charts/chartcategorycollection/syncroot) { get; } | 返回可用于同步对集合访问的对象。只读 Object。 |
-| [UseCells](../../aspose.slides.charts/chartcategorycollection/usecells) { get; set; } | 如果为 true，则使用工作表来存储类别（此情况支持多层类别）。如果为 false，则工作表不用于存储值（此情况不支持多层类别）。读/写 Boolean。 |
+| [SyncRoot](../../aspose.slides.charts/chartcategorycollection/syncroot) { get; } | 返回一个可用于同步访问集合的对象。只读 Object。 |
+| [UseCells](../../aspose.slides.charts/chartcategorycollection/usecells) { get; set; } | 如果为 true，则工作表用于存储类别（此情况支持多层类别）。如果为 false，则工作表不用于存储值（此情况不支持多层类别）。读/写 Boolean。 |
 
 ## 方法
 
@@ -31,8 +31,8 @@ public class ChartCategoryCollection : DomObject<ChartData>, IChartCategoryColle
 | --- | --- |
 | [Add](../../aspose.slides.charts/chartcategorycollection/add#add)(IChartDataCell) | 如果集合中存在该类别，则返回它。否则从 [`IChartDataCell`](../ichartdatacell) 创建新的图表类别并将其添加到集合中。 |
 | [Add](../../aspose.slides.charts/chartcategorycollection/add#add_1)(object) | 从值创建新的 [`ChartCategory`](../chartcategory) 并将其添加到集合中。 |
-| [Clear](../../aspose.slides.charts/chartcategorycollection/clear)() | 移除集合中的所有元素。 |
-| [CopyTo](../../aspose.slides.charts/chartcategorycollection/copyto)(Array, int) | 将集合的所有元素复制到指定的数组。 |
+| [Clear](../../aspose.slides.charts/chartcategorycollection/clear)() | 从集合中移除所有元素。 |
+| [CopyTo](../../aspose.slides.charts/chartcategorycollection/copyto)(Array, int) | 将集合的所有元素复制到指定的数组中。 |
 | [GetEnumerator](../../aspose.slides.charts/chartcategorycollection/getenumerator)() | 返回一个遍历集合的枚举器。 |
 | [IndexOf](../../aspose.slides.charts/chartcategorycollection/indexof)(IChartCategory) | 搜索指定的 [`ChartCategory`](../chartcategory)，并返回整个集合中首次出现的从零开始的索引。 |
 | [Remove](../../aspose.slides.charts/chartcategorycollection/remove)(IChartCategory) | 移除指定的值。 |

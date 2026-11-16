@@ -3,7 +3,7 @@ title: FontFallBackRulesCollection
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa una colección de reglas FontFallBack definidas por el usuario
 type: docs
-weight: 4850
+weight: 4870
 url: /es/aspose.slides/fontfallbackrulescollection/
 ---
 ## FontFallBackRulesCollection clase
@@ -27,13 +27,13 @@ public class FontFallBackRulesCollection : IFontFallBackRulesCollection
 | [Count](../../aspose.slides/fontfallbackrulescollection/count) { get; } | Obtiene el número de reglas realmente contenidas en la colección. Solo lectura Int32. |
 | [IsSynchronized](../../aspose.slides/fontfallbackrulescollection/issynchronized) { get; } | Devuelve un valor que indica si el acceso a la colección está sincronizado (seguro para subprocesos). Solo lectura Boolean. |
 | [Item](../../aspose.slides/fontfallbackrulescollection/item) { get; } | Obtiene la regla en el índice especificado. Solo lectura [`IFontFallBackRule`](../ifontfallbackrule). |
-| [SyncRoot](../../aspose.slides/fontfallbackrulescollection/syncroot) { get; } | Devuelve una raíz de sincronización. Solo lectura Object. |
+| [SyncRoot](../../aspose.slides/fontfallbackrulescollection/syncroot) { get; } | Devuelve la raíz de sincronización. Solo lectura Object. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [Add](../../aspose.slides/fontfallbackrulescollection/add)(IFontFallBackRule) | Agrega una regla FallBack especificada al final de la colección. |
+| [Add](../../aspose.slides/fontfallbackrulescollection/add)(IFontFallBackRule) | Añade una regla FallBack especificada al final de la colección. |
 | [CopyTo](../../aspose.slides/fontfallbackrulescollection/copyto)(Array, int) | Copia todos los elementos de la colección al array especificado. |
 | [GetEnumerator](../../aspose.slides/fontfallbackrulescollection/getenumerator)() | Devuelve un enumerador que recorre la colección. |
 | [Remove](../../aspose.slides/fontfallbackrulescollection/remove)(IFontFallBackRule) | Elimina la primera aparición de una regla FallBack específica de la colección. |

@@ -1,14 +1,14 @@
 ---
 title: AddEmbeddedFont
-second_title: Aspose.Sildes para .NET - Referência da API
-description: Adiciona a fonte incorporada. Tenha em mente que, ao copiar quaisquer fontes, a maioria delas está protegida por direitos autorais. Primeiro localize a licença de uma fonte com antecedência e verifique se ela pode ser transferida livremente para outra máquina. Uma ArgumentException pode ser lançada se os dados da fonte forem nulos ou se esta fonte já estiver incorporada.
+second_title: Aspose.Sildes para .NET Referência da API
+description: Adiciona a fonte incorporada. Tenha em mente ao copiar quaisquer fontes que a maioria delas está protegida por direitos autorais. Primeiro localize a licença de uma fonte com antecedência e verifique se ela pode ser transferida livremente para outra máquina. Uma ArgumentException pode ser lançada se os dados da fonte forem nulos ou se esta fonte já estiver incorporada
 type: docs
-weight: 30
+weight: 40
 url: /pt/aspose.slides/fontsmanager/addembeddedfont/
 ---
 ## AddEmbeddedFont(IFontData, EmbedFontCharacters) {#addembeddedfont}
 
-Adiciona a fonte incorporada. Tenha em mente que, ao copiar quaisquer fontes, a maioria delas está protegida por direitos autorais. Primeiro localize a licença de uma fonte com antecedência e verifique se ela pode ser transferida livremente para outra máquina. Uma ArgumentException pode ser lançada se os dados da fonte forem nulos ou se esta fonte já estiver incorporada.
+Adiciona a fonte incorporada. Tenha em mente ao copiar qualquer fonte que a maioria das fontes é protegida por direitos autorais. Primeiro localize a licença de uma fonte com antecedência e verifique se ela pode ser transferida livremente para outra máquina. Uma ArgumentException pode ser lançada se os dados da fonte forem nulos ou se esta fonte já estiver incorporada
 
 ```csharp
 public void AddEmbeddedFont(IFontData fontData, EmbedFontCharacters embedFontRule)
@@ -26,7 +26,7 @@ public void AddEmbeddedFont(IFontData fontData, EmbedFontCharacters embedFontRul
 
 ## AddEmbeddedFont(byte[], EmbedFontCharacters) {#addembeddedfont_1}
 
-Adiciona a fonte incorporada. Tenha em mente que, ao copiar quaisquer fontes, a maioria delas está protegida por direitos autorais. Primeiro localize a licença de uma fonte com antecedência e verifique se ela pode ser transferida livremente para outra máquina. Uma ArgumentException pode ser lançada se os dados da fonte forem nulos ou se esta fonte já estiver incorporada.
+Adiciona a fonte incorporada. Tenha em mente ao copiar qualquer fonte que a maioria das fontes é protegida por direitos autorais. Primeiro localize a licença de uma fonte com antecedência e verifique se ela pode ser transferida livremente para outra máquina. Uma ArgumentException pode ser lançada se os dados da fonte forem nulos ou se esta fonte já estiver incorporada
 
 ```csharp
 public void AddEmbeddedFont(byte[] fontData, EmbedFontCharacters embedFontRule)

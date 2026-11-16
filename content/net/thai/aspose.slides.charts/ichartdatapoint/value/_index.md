@@ -1,14 +1,14 @@
 ---
 title: Value
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: คืนค่าของจุดข้อมูลแผนภูมิ. อ่านอย่างเดียว IDoubleChartValueaspose.slides.charts/idoublechartvalue.
+second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
+description: รับค่าของจุดข้อมูลแผนภูมิ. อ่านอย่างเดียว IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
-weight: 160
+weight: 200
 url: /th/aspose.slides.charts/ichartdatapoint/value/
 ---
 ## IChartDataPoint.Value คุณสมบัติ
 
-คืนค่าของจุดข้อมูลแผนภูมิ. อ่านอย่างเดียว [`IDoubleChartValue`](../../idoublechartvalue).
+รับค่าของจุดข้อมูลแผนภูมิ. อ่านอย่างเดียว [`IDoubleChartValue`](../../idoublechartvalue).
 
 ```csharp
 public IDoubleChartValue Value { get; }

@@ -1,14 +1,14 @@
 ---
 title: ChartPlotArea
-second_title: Aspose.Sildes .NET API 参考
-description: 表示绘制图表的矩形区域。
+second_title: Aspose.Sildes for .NET API 参考
+description: 表示应绘制图表的矩形。
 type: docs
-weight: 1420
+weight: 1430
 url: /zh/aspose.slides.charts/chartplotarea/
 ---
 ## ChartPlotArea 类
 
-表示绘制图表的矩形区域。
+表示应绘制图表的矩形。
 
 ```csharp
 public class ChartPlotArea : DomObject<Chart>, IChartPlotArea
@@ -18,20 +18,20 @@ public class ChartPlotArea : DomObject<Chart>, IChartPlotArea
 
 | 名称 | 描述 |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/chartplotarea/actualheight) { get; } | 指定图表元素的实际高度。调用方法 IChart.ValidateChartLayout() 以获取实际值。只读 Single。 |
-| [ActualWidth](../../aspose.slides.charts/chartplotarea/actualwidth) { get; } | 指定图表元素的实际宽度。调用方法 IChart.ValidateChartLayout() 以获取实际值。只读 Single。 |
-| [ActualX](../../aspose.slides.charts/chartplotarea/actualx) { get; } | 指定图表元素相对于图表左上角的实际 x 位置（左）。调用方法 IChart.ValidateChartLayout() 以获取实际值。只读 Single。 |
-| [ActualY](../../aspose.slides.charts/chartplotarea/actualy) { get; } | 指定图表元素相对于图表左上角的实际顶部位置。调用方法 IChart.ValidateChartLayout() 以获取实际值。只读 Single。 |
+| [ActualHeight](../../aspose.slides.charts/chartplotarea/actualheight) { get; } | 指定图表元素的实际高度。调用方法 IChart.ValidateChartLayout() 以获取实际值。读取 Single。 |
+| [ActualWidth](../../aspose.slides.charts/chartplotarea/actualwidth) { get; } | 指定图表元素的实际宽度。调用方法 IChart.ValidateChartLayout() 以获取实际值。读取 Single。 |
+| [ActualX](../../aspose.slides.charts/chartplotarea/actualx) { get; } | 指定相对于图表左上角的图表元素实际 x 位置（左）。调用方法 IChart.ValidateChartLayout() 以获取实际值。读取 Single。 |
+| [ActualY](../../aspose.slides.charts/chartplotarea/actualy) { get; } | 指定相对于图表左上角的图表元素实际顶部位置。调用方法 IChart.ValidateChartLayout() 以获取实际值。读取 Single。 |
 | [Bottom](../../aspose.slides.charts/chartplotarea/bottom) { get; } | 底部。只读 Single。 |
 | [Chart](../../aspose.slides.charts/chartplotarea/chart) { get; } | 图表。只读 [`IChart`](../ichart)。 |
 | [Format](../../aspose.slides.charts/chartplotarea/format) { get; } | 返回绘图区域的格式。只读 [`IFormat`](../iformat)。 |
-| [Height](../../aspose.slides.charts/chartplotarea/height) { get; set; } | 返回或设置绘图区域边界框的高度，作为图表高度的比例（0 到 1）。读写 Single。 |
-| [IsLocationAutocalculated](../../aspose.slides.charts/chartplotarea/islocationautocalculated) { get; } | 定义位置的计算方式：true – 自动计算；由 X、Y、Width、Height 属性定义。只读 Boolean。 |
-| [LayoutTargetType](../../aspose.slides.charts/chartplotarea/layouttargettype) { get; set; } | 如果绘图区域布局是手动定义的，此属性指定是按内部布局（不包括坐标轴和坐标轴标签）还是外部布局（包括坐标轴和坐标轴标签）。读写 [`LayoutTargetType`](./layouttargettype)。 |
+| [Height](../../aspose.slides.charts/chartplotarea/height) { get; set; } | 返回或设置绘图区域边界框的高度，占图表高度的比例（0 到 1）。读/写 Single。 |
+| [IsLocationAutocalculated](../../aspose.slides.charts/chartplotarea/islocationautocalculated) { get; } | 定义如何计算位置：true – 自动计算；由 X、Y、Width、Height 属性定义。只读 Boolean。 |
+| [LayoutTargetType](../../aspose.slides.charts/chartplotarea/layouttargettype) { get; set; } | 如果手动定义绘图区域的布局，此属性指定是根据内部（不包括坐标轴和坐标轴标签）还是外部（包括坐标轴和坐标轴标签）布局绘图区域。读/写 [`LayoutTargetType`](./layouttargettype)。 |
 | [Right](../../aspose.slides.charts/chartplotarea/right) { get; } | 右侧。只读 Single。 |
-| [Width](../../aspose.slides.charts/chartplotarea/width) { get; set; } | 返回或设置绘图区域边界框的宽度，作为图表宽度的比例（0 到 1）。读写 Single。 |
-| [X](../../aspose.slides.charts/chartplotarea/x) { get; set; } | 返回或设置绘图区域边界框左上角的 x 坐标，作为图表宽度的比例（0 到 1）。读写 Single。 |
-| [Y](../../aspose.slides.charts/chartplotarea/y) { get; set; } | 返回或设置绘图区域边界框左上角的 y 坐标，作为图表高度的比例（0 到 1）。读写 Single。 |
+| [Width](../../aspose.slides.charts/chartplotarea/width) { get; set; } | 返回或设置绘图区域边界框的宽度，占图表宽度的比例（0 到 1）。读/写 Single。 |
+| [X](../../aspose.slides.charts/chartplotarea/x) { get; set; } | 返回或设置绘图区域边界框左上角的 x 坐标，占图表宽度的比例（0 到 1）。读/写 Single。 |
+| [Y](../../aspose.slides.charts/chartplotarea/y) { get; set; } | 返回或设置绘图区域边界框左上角的 y 坐标，占图表高度的比例（0 到 1）。读/写 Single。 |
 
 ### 另请参阅
 

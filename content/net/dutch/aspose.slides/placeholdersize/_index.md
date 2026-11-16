@@ -3,7 +3,7 @@ title: PlaceholderSize
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Stelt de grootte van een placeholder voor.
 type: docs
-weight: 9440
+weight: 9460
 url: /nl/aspose.slides/placeholdersize/
 ---
 ## PlaceholderSize enumeratie
@@ -18,9 +18,9 @@ public enum PlaceholderSize : sbyte
 
 | Naam | Waarde | Beschrijving |
 | --- | --- | --- |
-| Full | `0` | Volledig. |
+| Full | `0` | Full. |
 | Half | `1` | Half. |
-| Quarter | `2` | Kwart. |
+| Quarter | `2` | Quarter. |
 
 ### Zie ook
 

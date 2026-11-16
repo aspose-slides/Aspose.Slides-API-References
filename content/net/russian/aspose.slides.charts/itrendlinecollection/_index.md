@@ -1,14 +1,14 @@
 ---
 title: ITrendlineCollection
-second_title: Aspose.Sildes для .NET API справки
-description: Представляет коллекцию TrendlineEx
+second_title: Aspose.Sildes для .NET справочник API
+description: Представляет коллекцию объектов TrendlineEx
 type: docs
-weight: 2250
+weight: 2270
 url: /ru/aspose.slides.charts/itrendlinecollection/
 ---
 ## ITrendlineCollection интерфейс
 
-Представляет коллекцию TrendlineEx
+Represents a collection of TrendlineEx
 
 ```csharp
 public interface ITrendlineCollection : IEnumerable<ITrendline>

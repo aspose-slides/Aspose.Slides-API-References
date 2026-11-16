@@ -3,7 +3,7 @@ title: SketchFormat
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar egenskaper för linjers skissformat.
 type: docs
-weight: 9950
+weight: 9970
 url: /sv/aspose.slides/sketchformat/
 ---
 ## SketchFormat klass
@@ -18,7 +18,7 @@ public sealed class SketchFormat : PVIObject, ISketchFormat
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Tillåter att hämta bas-IPresentationComponent-gränssnittet. Skrivskyddad [`IPresentationComponent`](../ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Tillåter att hämta bas IPresentationComponent-gränssnittet. Endast läsning [`IPresentationComponent`](../ipresentationcomponent). |
 | [SketchType](../../aspose.slides/sketchformat/sketchtype) { get; set; } | Returnerar eller anger skiss-typen. Läs/skriv [`LineSketchType`](../linesketchtype). |
 
 ## Metoder

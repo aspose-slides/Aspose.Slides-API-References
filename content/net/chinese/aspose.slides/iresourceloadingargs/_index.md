@@ -1,9 +1,9 @@
 ---
 title: IResourceLoadingArgs
-second_title: Aspose.Sildes .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 用于外部资源加载参数的接口。
 type: docs
-weight: 6830
+weight: 6850
 url: /zh/aspose.slides/iresourceloadingargs/
 ---
 ## IResourceLoadingArgs 接口
@@ -19,15 +19,15 @@ public interface IResourceLoadingArgs
 | 名称 | 描述 |
 | --- | --- |
 | [OriginalUri](../../aspose.slides/iresourceloadingargs/originaluri) { get; } | 在导入的演示文稿中指定的资源的原始 URI。 |
-| [Uri](../../aspose.slides/iresourceloadingargs/uri) { get; set; } | 如果 [`ResourceLoading`](../iresourceloadingcallback/resourceloading) 返回 Default，则用于下载的资源的 URI。最初它被设置为资源的原始 URI，但可以重新定义为任意值。 |
+| [Uri](../../aspose.slides/iresourceloadingargs/uri) { get; set; } | 当 [`ResourceLoading`](../iresourceloadingcallback/resourceloading) 返回 Default 时用于下载的资源 URI。最初它设置为资源的原始 URI，但可以重新定义为任何值。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [SetData](../../aspose.slides/iresourceloadingargs/setdata)(byte[]) | 如果 [`ResourceLoading`](../iresourceloadingcallback/resourceloading) 返回 UserProvided，则设置资源的用户提供的数据。 |
+| [SetData](../../aspose.slides/iresourceloadingargs/setdata)(byte[]) | 在 [`ResourceLoading`](../iresourceloadingcallback/resourceloading) 返回 UserProvided 时设置资源的用户提供数据。 |
 
-### 另请参阅
+### 另见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

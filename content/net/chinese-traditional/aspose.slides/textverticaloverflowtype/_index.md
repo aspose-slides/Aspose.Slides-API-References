@@ -3,7 +3,7 @@ title: TextVerticalOverflowType
 second_title: Aspose.Sildes for .NET API 參考
 description: 表示文字垂直溢位類型。
 type: docs
-weight: 11020
+weight: 11040
 url: /zh-hant/aspose.slides/textverticaloverflowtype/
 ---
 ## TextVerticalOverflowType 列舉
@@ -23,7 +23,7 @@ public enum TextVerticalOverflowType : sbyte
 | Ellipsis | `1` |  |
 | Clip | `2` |  |
 
-### 另見
+### 另請參閱
 
 * 命名空間 [Aspose.Slides](../../aspose.slides)
 * 組件 [Aspose.Slides](../../)

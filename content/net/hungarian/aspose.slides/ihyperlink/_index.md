@@ -1,14 +1,14 @@
 ---
 title: IHyperlink
-second_title: Aspose.Sildes .NET API-referencia
-description: Egy hiperhivatkozást képvisel.
+second_title: Aspose.Sildes .NET API referencia
+description: Egy hiperhivatkozást ábrázol.
 type: docs
-weight: 6110
+weight: 6130
 url: /hu/aspose.slides/ihyperlink/
 ---
 ## IHyperlink interfész
 
-Egy hiperhivatkozást képvisel.
+Represents a hyperlink.
 
 ```csharp
 public interface IHyperlink
@@ -16,25 +16,25 @@ public interface IHyperlink
 
 ## Tulajdonságok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
-| [ActionType](../../aspose.slides/ihyperlink/actiontype) { get; } | Visszaadja a HyperLinkEx műveletének típusát. Csak olvasható [`HyperlinkActionType`](../hyperlinkactiontype). |
-| [ColorSource](../../aspose.slides/ihyperlink/colorsource) { get; set; } | A hiperhivatkozás szín forrását képviseli – akár stílusok, akár részformátum. Olvasás/írás [`HyperlinkColorSource`](../hyperlinkcolorsource). |
-| [ExternalUrl](../../aspose.slides/ihyperlink/externalurl) { get; } | Megadja a külső URL-t. Ha ez a tulajdonság nem null értékű, akkor a TargetSlide tulajdonság null lesz. Csak olvasható String. |
-| [ExternalUrlOriginal](../../aspose.slides/ihyperlink/externalurloriginal) { get; } | A hiperhivatkozást jelöli, amely ehhez a részhez van beállítva a rész tényleges tartalmától függetlenül. A PowerPoint speciálisan kezeli a linkeket és a hozzájuk tartozó szöveget egy részben. Lehetővé teszi, hogy a hiperhivatkozáshoz szöveget hozzunk létre érvényes URL formájában, amely eltér a link valós címétől. Ebben az esetben, amikor a szerkesztőablakban megtekinti a linket, az a szövegrésznek megfelelően módosul. Ez a tulajdonság a hiperhivatkozás eredeti értékét tartalmazza. |
-| [HighlightClick](../../aspose.slides/ihyperlink/highlightclick) { get; set; } | Megállapítja, hogy a hiperhivatkozást kattintáskor ki kell-e emelni. Olvasás/írás Boolean. |
-| [History](../../aspose.slides/ihyperlink/history) { get; set; } | Megállapítja, hogy a szülő hiperhivatkozás célja hozzá legyen-e adva a megtekintett hiperhivatkozások listájához, amikor meghívják. Olvasás/írás Boolean. |
-| [Sound](../../aspose.slides/ihyperlink/sound) { get; set; } | A hiperhivatkozás lejátszott hangját jelöli. Olvasás/írás [`IAudio`](../iaudio). |
-| [StopSoundOnClick](../../aspose.slides/ihyperlink/stopsoundonclick) { get; set; } | Megállapítja, hogy a hang le legyen-e állítva a hiperhivatkozásra kattintáskor. Olvasás/írás Boolean. |
-| [TargetFrame](../../aspose.slides/ihyperlink/targetframe) { get; set; } | Visszaadja a szülő HTML framesetben a szülő hiperhivatkozás céljának keretét, ha létezik. Olvasás/írás String. |
-| [TargetSlide](../../aspose.slides/ihyperlink/targetslide) { get; } | Ha a HyperlinkEx egy adott diára mutat, visszaadja azt a diát. Ha ez a tulajdonság nem null értékű, akkor az ExternalUrl tulajdonság null lesz. Csak olvasható [`ISlide`](../islide). |
-| [Tooltip](../../aspose.slides/ihyperlink/tooltip) { get; set; } | Visszaadja a karakterláncot, amely a felhasználói felületen megjelenhet a szülő hiperhivatkozáshoz kapcsolódóként. Olvasás/írás String. |
+| [ActionType](../../aspose.slides/ihyperlink/actiontype) { get; } | Returns type of HyperLinkEx's action. Csak olvasható [`HyperlinkActionType`](../hyperlinkactiontype). |
+| [ColorSource](../../aspose.slides/ihyperlink/colorsource) { get; set; } | Represents the source of hyperlink color - either styles or portion format. Olvasás/írás [`HyperlinkColorSource`](../hyperlinkcolorsource). |
+| [ExternalUrl](../../aspose.slides/ihyperlink/externalurl) { get; } | Specifies the external URL If this property become not null then property TargetSlide become null. Csak olvasható String. |
+| [ExternalUrlOriginal](../../aspose.slides/ihyperlink/externalurloriginal) { get; } | Represents a hyperlink that is set for this portion without regard to the actual content of the portion.  PowerPoint behaves specifically for links and their corresponding text in a portion. It allows to create text for the hyperlink in the form of a valid URL, different from the real address of the link. In this case, when you view the link in the edit window, it will be changed to match the text portion. This property represents the original value of the hyperlink. |
+| [HighlightClick](../../aspose.slides/ihyperlink/highlightclick) { get; set; } | Determines whether the hyperlink should be highlighted on click. Olvasás/írás Boolean. |
+| [History](../../aspose.slides/ihyperlink/history) { get; set; } | Determines whether the target of the parent hyperlink shall be added to a list of viewed hyperlinks when it is invoked. Olvasás/írás Boolean. |
+| [Sound](../../aspose.slides/ihyperlink/sound) { get; set; } | Represents the playing sound of the hyperlink. Olvasás/írás [`IAudio`](../iaudio). |
+| [StopSoundOnClick](../../aspose.slides/ihyperlink/stopsoundonclick) { get; set; } | Determines whether the sound should be stopped on hyperlink click. Olvasás/írás Boolean. |
+| [TargetFrame](../../aspose.slides/ihyperlink/targetframe) { get; set; } | Returns the frame within the parent HTML frameset for the target of the parent hyperlink when one exists. Olvasás/írás String. |
+| [TargetSlide](../../aspose.slides/ihyperlink/targetslide) { get; } | If the HyperlinkEx targets specific slide returns this slide. If the property become not null then property ExternalUrl become null. Csak olvasható [`ISlide`](../islide). |
+| [Tooltip](../../aspose.slides/ihyperlink/tooltip) { get; set; } | Returns the string which may be surfaced in a user interface as associated with the parent hyperlink. Olvasás/írás String. |
 
 ## Módszerek
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
-| [Equals](../../aspose.slides/ihyperlink/equals)(IHyperlink) | Megállapítja, hogy a két Hyperlink példány egyenlő-e. |
+| [Equals](../../aspose.slides/ihyperlink/equals)(IHyperlink) | Determines whether the two Hyperlink instances are equal. |
 
 ### Lásd még
 

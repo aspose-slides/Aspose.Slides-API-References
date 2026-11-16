@@ -1,14 +1,14 @@
 ---
 title: GlitterTransition
-second_title: Référence API Aspose.Sildes pour .NET
-description: Effet de transition de diapositive scintillante.
+second_title: Aspose.Sildes pour la référence de l'API .NET
+description: Effet de transition de diapositive Glitter.
 type: docs
-weight: 10050
+weight: 10070
 url: /fr/aspose.slides.slideshow/glittertransition/
 ---
 ## GlitterTransition classe
 
-Effet de transition de diapositive scintillant.
+Effet de transition de diapositive Glitter.
 
 ```csharp
 public class GlitterTransition : TransitionValueBase, IGlitterTransition
@@ -26,7 +26,7 @@ public class GlitterTransition : TransitionValueBase, IGlitterTransition
 | Nom | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Détermine si les deux instances de TransitionValueBase sont égales. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Servit de fonction de hachage pour un type particulier, adaptée à une utilisation dans les algorithmes de hachage et les structures de données comme une table de hachage. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Sert de fonction de hachage pour un type particulier, adaptée à une utilisation dans les algorithmes de hachage et les structures de données comme une table de hachage. |
 
 ### Voir aussi
 

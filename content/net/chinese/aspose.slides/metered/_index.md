@@ -1,14 +1,14 @@
 ---
 title: Metered
-second_title: Aspose.Sildes for .NET API 参考
-description: 提供用于设置计量密钥的方法。
+second_title: Aspose.Sildes .NET API 参考
+description: 提供设置计量密钥的方法。
 type: docs
-weight: 9080
+weight: 9100
 url: /zh/aspose.slides/metered/
 ---
 ## Metered 类
 
-提供用于设置计量密钥的方法。
+提供设置计量密钥的方法。
 
 ```csharp
 public class Metered
@@ -18,21 +18,21 @@ public class Metered
 
 | 名称 | 描述 |
 | --- | --- |
-| [Metered](metered)() | 初始化此类的新实例。 |
+| [Metered](metered)() | 初始化此类的一个新实例。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
 | [GetProductName](../../aspose.slides/metered/getproductname)() |  |
-| [SetMeteredKey](../../aspose.slides/metered/setmeteredkey)(string, string) | 设置计量公钥和私钥。如果您购买了计量许可证，在启动应用程序时应调用此 API，通常这就足够了。然而，如果始终无法上传消费数据并且超过 24 小时，许可证将被设置为评估状态。为避免此情况，您应定期检查许可证状态，如果为评估状态，请再次调用此 API。 |
-| static [GetConsumptionCredit](../../aspose.slides/metered/getconsumptioncredit)() | 获取消费积分 |
+| [SetMeteredKey](../../aspose.slides/metered/setmeteredkey)(string, string) | 设置计量公钥和私钥。如果您购买了计量许可证，在启动应用程序时应调用此 API，通常这已足够。然而，如果始终无法上传消费数据且超过 24 小时，许可证将被设置为评估状态，为避免此情况，您应定期检查许可证状态，如果是评估状态，请再次调用此 API。 |
+| static [GetConsumptionCredit](../../aspose.slides/metered/getconsumptioncredit)() | 获取消费信用 |
 | static [GetConsumptionQuantity](../../aspose.slides/metered/getconsumptionquantity)() | 获取消费文件大小 |
 | static [IsMeteredLicensed](../../aspose.slides/metered/ismeteredlicensed)() | 检查计量是否已授权 |
 
 ### 示例
 
-在此示例中，将尝试设置计量公钥和私钥。
+在本示例中，将尝试设置计量公钥和私钥
 
 ```csharp
 [C#]
@@ -54,7 +54,7 @@ Metered matered = new Metered();
 matered.setMeteredKey("PublicKey", "PrivateKey");
 ```
 
-### 另见
+### 另请参见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

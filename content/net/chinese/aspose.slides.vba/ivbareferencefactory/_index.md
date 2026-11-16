@@ -3,7 +3,7 @@ title: IVbaReferenceFactory
 second_title: Aspose.Sildes .NET API 参考
 description: 允许通过 COM 接口创建 VBA 项目引用
 type: docs
-weight: 11590
+weight: 11610
 url: /zh/aspose.slides.vba/ivbareferencefactory/
 ---
 ## IVbaReferenceFactory 接口
@@ -20,7 +20,7 @@ public interface IVbaReferenceFactory
 | --- | --- |
 | [CreateOleTypeLibReference](../../aspose.slides.vba/ivbareferencefactory/createoletypelibreference)(string, string) | 创建新的 OLE Automation 类型库引用。 |
 
-### 另请参见
+### 另见
 
 * 命名空间 [Aspose.Slides.Vba](../../aspose.slides.vba)
 * 程序集 [Aspose.Slides](../../)

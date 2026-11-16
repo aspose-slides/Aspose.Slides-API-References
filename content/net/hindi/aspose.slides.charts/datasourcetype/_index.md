@@ -3,10 +3,10 @@ title: DataSourceType
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
 description: डेटा स्रोत प्रकार।
 type: docs
-weight: 1580
+weight: 1590
 url: /hi/aspose.slides.charts/datasourcetype/
 ---
-## DataSourceType इनेमरेशन
+## DataSourceType एन्यूमरेशन
 
 डेटा स्रोत प्रकार।
 
@@ -18,11 +18,11 @@ public enum DataSourceType
 
 | नाम | मान | विवरण |
 | --- | --- | --- |
-| Worksheet | `0` | डेटा बिंदु के XValue, YValue, Value या BubbleSize को worksheet में संग्रहीत करने के लिए CellXls ऑब्जेक्ट्स का उपयोग करें। |
-| StringLiterals | `1` | डेटा बिंदु के XValue, YValue, Value या BubbleSize को संग्रहीत करने के लिए तेज-प्रवेश स्ट्रिंग वेरिएबल का उपयोग करें। Worksheet का उपयोग मानों को संग्रहीत करने के लिए नहीं किया जाता है। |
-| DoubleLiterals | `2` | डेटा बिंदु के XValue, YValue, Value या BubbleSize को संग्रहीत करने के लिए तेज-प्रवेश double वेरिएबल का उपयोग करें। Worksheet का उपयोग मानों को संग्रहीत करने के लिए नहीं किया जाता है। |
+| Worksheet | `0` | डेटा बिंदु को worksheet में XValue, YValue, Value या BubbleSize संग्रह करने के लिए CellXls ऑब्जेक्ट्स का उपयोग करें। |
+| StringLiterals | `1` | डेटा बिंदु को संग्रह करने के लिए तेज़-एक्सेस स्ट्रिंग वेरिएबल का उपयोग करें XValue, YValue, Value या BubbleSize। Worksheet का उपयोग मान संग्रहीत करने के लिए नहीं किया जाता। |
+| DoubleLiterals | `2` | डेटा बिंदु को संग्रह करने के लिए तेज़-एक्सेस डबल वेरिएबल का उपयोग करें XValue, YValue, Value या BubbleSize। Worksheet का उपयोग मान संग्रहीत करने के लिए नहीं किया जाता। |
 
-### सम्बंधित देखें
+### संबंधित देखें
 
 * नेमस्पेस [Aspose.Slides.Charts](../../aspose.slides.charts)
 * असेंबली [Aspose.Slides](../../)

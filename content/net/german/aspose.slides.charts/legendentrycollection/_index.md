@@ -1,9 +1,9 @@
 ---
 title: LegendEntryCollection
-second_title: Aspose.Sildes für .NET API Referenz
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt die Legenden-Sammlung dar.
 type: docs
-weight: 2300
+weight: 2320
 url: /de/aspose.slides.charts/legendentrycollection/
 ---
 ## LegendEntryCollection Klasse
@@ -18,10 +18,10 @@ public class LegendEntryCollection : ILegendEntryCollection
 
 | Name | Beschreibung |
 | --- | --- |
-| [Count](../../aspose.slides.charts/legendentrycollection/count) { get; } | Gibt die Anzahl der Legendeinträge zurück. Nur-Lesezugriff Int32. |
-| [Item](../../aspose.slides.charts/legendentrycollection/item) { get; } | Gibt die Eigenschaften des Legendeneintrags zurück, der Chart.ChartData.Series[0].DataPoints[index] entspricht, falls der Diagrammtyp aus dieser Liste stammt: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie; oder dem Chart.ChartData.Series[index] für andere Diagrammtypen. |
+| [Count](../../aspose.slides.charts/legendentrycollection/count) { get; } | Gibt die Anzahl der Legendeneinträge zurück. Nur-Lesen Int32. |
+| [Item](../../aspose.slides.charts/legendentrycollection/item) { get; } | Liefert die Eigenschaften des Legendeneintrags, der zu Chart.ChartData.Series[0].DataPoints[index] gehört, falls der Diagrammtyp aus dieser Liste stammt: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie; oder der zu Chart.ChartData.Series[index] für andere Diagrammtypen gehört. |
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [ILegendEntryCollection](../ilegendentrycollection)
 * Namensraum [Aspose.Slides.Charts](../../aspose.slides.charts)

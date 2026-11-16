@@ -1,14 +1,14 @@
 ---
 title: Y
 second_title: Aspose.Sildes for .NET API リファレンス
-description: チャートの高さの割合としてタイトルの y 座標を取得または設定します。 読み取り/書き込み Single.
+description: チャートの高さの比率として、タイトルの y 座標を取得または設定します。 読み取り/書き込み Single.
 type: docs
-weight: 170
+weight: 180
 url: /ja/aspose.slides.charts/datalabel/y/
 ---
 ## DataLabel.Y プロパティ
 
-チャートの高さの割合としてタイトルの y 座標を取得または設定します。 読み取り/書き込み Single.
+チャートの高さの比率として、タイトルの y 座標を取得または設定します。 読み取り/書き込み Single.
 
 ```csharp
 public float Y { get; set; }

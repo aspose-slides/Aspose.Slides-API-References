@@ -1,14 +1,14 @@
 ---
 title: DisplayUnitType
 second_title: Aspose.Sildes för .NET API-referens
-description: Bestämmer multipliciteten av de visade data.
+description: Bestämmer multipliciteten för de visade data.
 type: docs
-weight: 1620
+weight: 1630
 url: /sv/aspose.slides.charts/displayunittype/
 ---
-## DisplayUnitType enumeration
+## DisplayUnitType uppräkning
 
-Bestämmer multipliciteten av de visade data.
+Bestämmer multipliciteten för de visade data.
 
 ```csharp
 public enum DisplayUnitType
@@ -18,19 +18,19 @@ public enum DisplayUnitType
 
 | Namn | Värde | Beskrivning |
 | --- | --- | --- |
-| None | `0` | Värden kommer att visas som de är. |
-| Hundreds | `1` | Anger att värdena i diagrammet ska divideras med 100. |
-| Thousands | `2` | Anger att värdena i diagrammet ska divideras med 1 000. |
-| TenThousands | `3` | Anger att värdena i diagrammet ska divideras med 10 000. |
-| HundredThousands | `4` | Anger att värdena i diagrammet ska divideras med 100 000. |
-| Millions | `5` | Anger att värdena i diagrammet ska divideras med 1 000 000. |
-| TenMillions | `6` | Anger att värdena i diagrammet ska divideras med 10 000 000. |
-| HundredMillions | `7` | Anger att värdena i diagrammet ska divideras med 100 000 000. |
-| Billions | `8` | Anger att värdena i diagrammet ska divideras med 1 000 000 000. |
-| Trillions | `9` | Anger att värdena i diagrammet ska divideras med 1 000 000 000 000. |
-| CustomValue | `10` | Anger att värdena i diagrammet ska divideras med ett eget värde. |
+| None | `0` | Värdena visas som de är. |
+| Hundreds | `1` | Anger att värdena på diagrammet ska divideras med 100. |
+| Thousands | `2` | Anger att värdena på diagrammet ska divideras med 1,000. |
+| TenThousands | `3` | Anger att värdena på diagrammet ska divideras med 10,000. |
+| HundredThousands | `4` | Anger att värdena på diagrammet ska divideras med 100,000. |
+| Millions | `5` | Anger att värdena på diagrammet ska divideras med 1,000,000. |
+| TenMillions | `6` | Anger att värdena på diagrammet ska divideras med 10,000,000. |
+| HundredMillions | `7` | Anger att värdena på diagrammet ska divideras med 100,000,000. |
+| Billions | `8` | Anger att värdena på diagrammet ska divideras med 1,000,000,000. |
+| Trillions | `9` | Anger att värdena på diagrammet ska divideras med 1,000,000,000,000. |
+| CustomValue | `10` | Anger att värdena på diagrammet ska divideras med ett anpassat värde. |
 
-### Se också
+### Se även
 
 * namnrymd [Aspose.Slides.Charts](../../aspose.slides.charts)
 * samling [Aspose.Slides](../../)

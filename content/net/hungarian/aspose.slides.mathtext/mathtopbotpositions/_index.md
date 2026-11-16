@@ -1,9 +1,9 @@
 ---
 title: MathTopBotPositions
-second_title: Aspose.Sildes .NET API referenciája
+second_title: Aspose.Sildes .NET API-referencia
 description: Felső/alsó pozíciók felsorolása
 type: docs
-weight: 9040
+weight: 9060
 url: /hu/aspose.slides.mathtext/mathtopbotpositions/
 ---
 ## MathTopBotPositions felsorolás
@@ -19,8 +19,8 @@ public enum MathTopBotPositions
 | Név | Érték | Leírás |
 | --- | --- | --- |
 | NotDefined | `0` | Nincs definiálva |
-| Top | `1` | Fent |
-| Bottom | `2` | Lent |
+| Top | `1` | Felső |
+| Bottom | `2` | Alsó |
 
 ### Lásd még
 

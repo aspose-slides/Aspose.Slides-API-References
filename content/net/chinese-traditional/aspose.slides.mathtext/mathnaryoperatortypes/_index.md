@@ -1,14 +1,14 @@
 ---
 title: MathNaryOperatorTypes
-second_title: Aspose.Sildes .NET API 參考文件
-description: Nary 運算子 IMathNaryOperator 類型（排除 integrals），對於 integrals 使用 MathIntegralTypes./mathintegraltypes
+second_title: Aspose.Sildes for .NET API 參考
+description: Nary 運算子 IMathNaryOperator 類型（排除整數）對於整數 MathIntegralTypes./mathintegraltypes
 type: docs
-weight: 8890
+weight: 8910
 url: /zh-hant/aspose.slides.mathtext/mathnaryoperatortypes/
 ---
 ## MathNaryOperatorTypes 列舉
 
-Nary operator IMathNaryOperator types (excluding integrals) For integrals [`MathIntegralTypes`](../mathintegraltypes)
+Nary 運算子 IMathNaryOperator 類型（排除整數） 對於整數 [`MathIntegralTypes`](../mathintegraltypes)
 
 ```csharp
 public enum MathNaryOperatorTypes
@@ -16,15 +16,15 @@ public enum MathNaryOperatorTypes
 
 ### 值
 
-| 名稱 | 值 | 描述 |
+| 名稱 | 數值 | 描述 |
 | --- | --- | --- |
 | Summation | `0` | Summation: '∑' |
 | Product | `1` | Product: '∏' |
 | CoProduct | `2` | Coproduct: '∐' |
 | Intersection | `3` | Intersection: '∩' |
 | Union | `4` | Union: '∪' |
-| LogicalAnd | `5` | Logical And: '∧' |
-| LogicalOr | `6` | Logical Or: '∨' |
+| LogicalAnd | `5` | 邏輯與: '∧' |
+| LogicalOr | `6` | 邏輯或: '∨' |
 
 ### 另請參閱
 

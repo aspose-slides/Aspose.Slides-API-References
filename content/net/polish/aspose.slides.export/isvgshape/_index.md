@@ -1,9 +1,9 @@
 ---
 title: ISvgShape
-second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Reprezentuje opcje dla kształtu SVG.
+second_title: Aspose.Sildes dla .NET – Dokumentacja API
+description: Reprezentuje opcje kształtu SVG.
 type: docs
-weight: 4110
+weight: 4130
 url: /pl/aspose.slides.export/isvgshape/
 ---
 ## ISvgShape interfejs
@@ -18,13 +18,13 @@ public interface ISvgShape
 
 | Nazwa | Opis |
 | --- | --- |
-| [Id](../../aspose.slides.export/isvgshape/id) { get; set; } | Ustawia lub pobiera id dla kształtu |
+| [Id](../../aspose.slides.export/isvgshape/id) { get; set; } | Ustawia lub pobiera id kształtu |
 
 ## Metody
 
 | Nazwa | Opis |
 | --- | --- |
-| [SetEventHandler](../../aspose.slides.export/isvgshape/seteventhandler)(SvgEvent, string) | Ustawia obsługę zdarzenia dla kształtu |
+| [SetEventHandler](../../aspose.slides.export/isvgshape/seteventhandler)(SvgEvent, string) | Ustawia uchwyt zdarzenia dla kształtu |
 
 ### Zobacz także
 

@@ -1,12 +1,12 @@
 ---
 title: VideoPlayModePreset
-second_title: Référence de l'API Aspose.Sildes pour .NET
+second_title: Aspose.Sildes pour .NET Référence de l'API
 description: Constantes qui définissent comment une vidéo est lue.
 type: docs
-weight: 11730
+weight: 11750
 url: /fr/aspose.slides/videoplaymodepreset/
 ---
-## VideoPlayModePreset énumération
+## Énumération VideoPlayModePreset
 
 Constantes qui définissent comment une vidéo est lue.
 
@@ -19,10 +19,10 @@ public enum VideoPlayModePreset
 | Nom | Valeur | Description |
 | --- | --- | --- |
 | Mixed | `-1` |  |
-| Auto | `0` | Lire automatiquement. |
-| OnClick | `1` | Lire uniquement lorsque la trame vidéo est cliquée. |
-| AllSlides | `2` | Lire sur toutes les diapositives. |
-| InClickSequence | `3` | Lire automatiquement avec un clic. |
+| Auto | `0` | Lecture automatique. |
+| OnClick | `1` | Lecture uniquement lorsque le cadre vidéo est cliqué. |
+| AllSlides | `2` | Lecture sur toutes les diapositives. |
+| InClickSequence | `3` | Lecture automatiquement avec un clic. |
 
 ### Voir aussi
 

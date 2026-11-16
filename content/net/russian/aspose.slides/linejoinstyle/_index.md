@@ -3,10 +3,10 @@ title: LineJoinStyle
 second_title: Aspose.Sildes для .NET справочник API
 description: Представляет стиль соединения линий.
 type: docs
-weight: 7800
+weight: 7820
 url: /ru/aspose.slides/linejoinstyle/
 ---
-## Перечисление LineJoinStyle
+## LineJoinStyle перечисление
 
 Представляет стиль соединения линий.
 

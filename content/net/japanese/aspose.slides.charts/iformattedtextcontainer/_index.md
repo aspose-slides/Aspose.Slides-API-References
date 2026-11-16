@@ -1,9 +1,9 @@
 ---
 title: IFormattedTextContainer
-second_title: Aspose.Sildes 用 .NET API リファレンス
+second_title: Aspose.Sildes for .NET APIリファレンス
 description: チャートのテキスト形式を表します。
 type: docs
-weight: 2110
+weight: 2130
 url: /ja/aspose.slides.charts/iformattedtextcontainer/
 ---
 ## IFormattedTextContainer インターフェイス
@@ -18,8 +18,8 @@ public interface IFormattedTextContainer : IChartComponent
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIChartComponent](../../aspose.slides.charts/iformattedtextcontainer/asichartcomponent) { get; } | IChartComponent インターフェイスを返します。読み取り専用 [`IChartComponent`](../ichartcomponent)。 |
-| [TextFormat](../../aspose.slides.charts/iformattedtextcontainer/textformat) { get; } | チャートのテキスト形式を返します。読み取り専用 [`IChartTextFormat`](../icharttextformat)。 |
+| [AsIChartComponent](../../aspose.slides.charts/iformattedtextcontainer/asichartcomponent) { get; } | IChartComponent インターフェイスを返します。読み取り専用 [`IChartComponent`](../ichartcomponent). |
+| [TextFormat](../../aspose.slides.charts/iformattedtextcontainer/textformat) { get; } | チャートのテキスト形式を返します。読み取り専用 [`IChartTextFormat`](../icharttextformat). |
 
 ### 参照
 

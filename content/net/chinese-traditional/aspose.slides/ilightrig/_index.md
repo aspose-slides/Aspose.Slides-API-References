@@ -1,9 +1,9 @@
 ---
 title: ILightRig
-second_title: Aspose.Sildes .NET API 參考
+second_title: Aspose.Sildes for .NET API 參考
 description: 表示 LightRig。
 type: docs
-weight: 6270
+weight: 6290
 url: /zh-hant/aspose.slides/ilightrig/
 ---
 ## ILightRig 介面
@@ -18,17 +18,17 @@ public interface ILightRig
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Direction](../../aspose.slides/ilightrig/direction) { get; set; } | 光方向。讀寫 [`LightingDirection`](../lightingdirection)。 |
-| [LightType](../../aspose.slides/ilightrig/lighttype) { get; set; } | 表示可套用至形狀的預設光線方向。light rig 表示相對於 3D 場景以特定方式定位的一組光線。讀寫 [`LightRigPresetType`](../lightrigpresettype)。 |
+| [Direction](../../aspose.slides/ilightrig/direction) { get; set; } | 光線方向。可讀寫 [`LightingDirection`](../lightingdirection)。 |
+| [LightType](../../aspose.slides/ilightrig/lighttype) { get; set; } | 表示可套用於圖形的預設光線方向。LightRig 代表相對於 3D 場景以特定方式定位的一組光源。可讀寫 [`LightRigPresetType`](../lightrigpresettype)。 |
 
 ## 方法
 
 | 名稱 | 說明 |
 | --- | --- |
-| [GetRotation](../../aspose.slides/ilightrig/getrotation)() | 透過使用緯度座標、經度座標以及繞該軸的旋轉來定義旋轉。返回陣列的第一個元素是緯度，第二個是經度，第三個是旋轉。 |
-| [SetRotation](../../aspose.slides/ilightrig/setrotation)(float, float, float) | 透過使用緯度座標、經度座標以及繞該軸的旋轉來定義旋轉。 |
+| [GetRotation](../../aspose.slides/ilightrig/getrotation)() | 旋轉是透過使用緯度座標、經度座標，以及繞軸的旋轉（作為緯度與經度座標）來定義的。回傳陣列的第一個元素為緯度，第二個為經度，第三個為旋轉。 |
+| [SetRotation](../../aspose.slides/ilightrig/setrotation)(float, float, float) | 旋轉是透過使用緯度座標、經度座標，以及繞軸的旋轉（作為緯度與經度座標）來定義的。 |
 
-### 另見
+### 另請參閱
 
 * 命名空間 [Aspose.Slides](../../aspose.slides)
 * 組件 [Aspose.Slides](../../)

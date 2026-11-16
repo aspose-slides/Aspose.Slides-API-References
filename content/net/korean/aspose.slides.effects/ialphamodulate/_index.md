@@ -1,14 +1,14 @@
 ---
 title: IAlphaModulate
 second_title: Aspose.Sildes for .NET API 참조
-description: 알파 변조 효과를 나타냅니다. 효과 알파 불투명도 값은 고정된 비율로 곱해집니다. 효과 컨테이너는 변조할 알파 값을 포함하는 효과를 지정합니다.
+description: Alpha Modulate 효과를 나타냅니다. 효과 알파 불투명도 값은 고정 비율로 곱해집니다. 효과 컨테이너는 변조할 알파 값을 포함하는 효과를 지정합니다.
 type: docs
-weight: 3100
+weight: 3120
 url: /ko/aspose.slides.effects/ialphamodulate/
 ---
 ## IAlphaModulate 인터페이스
 
-알파 변조 효과를 나타냅니다. 효과 알파(불투명도) 값은 고정된 비율로 곱해집니다. 효과 컨테이너는 변조할 알파 값을 포함하는 효과를 지정합니다.
+Alpha Modulate 효과를 나타냅니다. 효과 알파(불투명도) 값은 고정 비율로 곱해집니다. 효과 컨테이너는 변조할 알파 값을 포함하는 효과를 지정합니다.
 
 ```csharp
 public interface IAlphaModulate : IAccessiblePVIObject<IAlphaModulateEffectiveData>, 
@@ -19,8 +19,8 @@ public interface IAlphaModulate : IAccessiblePVIObject<IAlphaModulateEffectiveDa
 
 | 이름 | 설명 |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphamodulate/asiaccessiblepviobject) { get; } | 기본 IAccessiblePVIObject 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphamodulate/asiimagetransformoperation) { get; } | 기본 IImageTransformOperation 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphamodulate/asiaccessiblepviobject) { get; } | 읽기 전용 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphamodulate/asiimagetransformoperation) { get; } | 읽기 전용 [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### 참고
 

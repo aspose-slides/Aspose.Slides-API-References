@@ -1,14 +1,14 @@
 ---
 title: ITint
 second_title: Aspose.Sildes для .NET справочник API
-description: Представляет эффект Tint. Смещает значения цветов эффекта к или от оттенка на заданную величину.
+description: Представляет эффект Tint. Смещает значения цвета эффекта к/от оттенка на указанную величину.
 type: docs
-weight: 3540
+weight: 3560
 url: /ru/aspose.slides.effects/itint/
 ---
 ## ITint интерфейс
 
-Представляет эффект Tint. Смещает значения цветов эффекта к или от оттенка на заданную величину.
+Представляет эффект Tint. Смещает значения цвета эффекта к/от оттенка на заданную величину.
 
 ```csharp
 public interface ITint : IAccessiblePVIObject<ITintEffectiveData>, IImageTransformOperation
@@ -21,7 +21,7 @@ public interface ITint : IAccessiblePVIObject<ITintEffectiveData>, IImageTransfo
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/itint/asiaccessiblepviobject) { get; } | Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
 | [AsIImageTransformOperation](../../aspose.slides.effects/itint/asiimagetransformoperation) { get; } | Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтения [`IImageTransformOperation`](../iimagetransformoperation). |
 
-### См. также
+### Смотрите также
 
 * интерфейс [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * интерфейс [ITintEffectiveData](../itinteffectivedata)

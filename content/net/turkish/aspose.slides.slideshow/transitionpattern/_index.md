@@ -1,14 +1,14 @@
 ---
 title: TransitionPattern
-second_title: Aspose.Sildes .NET için API Referansı
-description: Daha büyük bir alanı doldurmak için bir araya gelen geometrik bir deseni belirtir.
+second_title: Aspose.Sildes .NET API Referansı
+description: Daha büyük bir alanı doldurmak için bir araya gelen bir geometrik deseni belirtir.
 type: docs
-weight: 10400
+weight: 10420
 url: /tr/aspose.slides.slideshow/transitionpattern/
 ---
 ## TransitionPattern enum
 
-Daha büyük bir alanı doldurmak için bir araya gelen geometrik bir deseni belirtir.
+Belirtilen bir geometrik desenin bir araya gelerek daha büyük bir alanı doldurmasını belirler.
 
 ```csharp
 public enum TransitionPattern
@@ -21,7 +21,7 @@ public enum TransitionPattern
 | Diamond | `0` | Diamond döşeme deseni |
 | Hexagon | `1` | Hexagon döşeme deseni |
 
-### Bakınız
+### İlgili
 
 * ad alanı [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * derleme [Aspose.Slides](../../)

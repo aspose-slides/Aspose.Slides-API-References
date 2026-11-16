@@ -1,14 +1,14 @@
 ---
 title: IBulletFormat
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Geeft de opmaak-eigenschappen van alinea-opsommingstekens weer.
+description: Representeert de bullet-opmaak eigenschappen van een alinea.
 type: docs
-weight: 5390
+weight: 5410
 url: /nl/aspose.slides/ibulletformat/
 ---
 ## IBulletFormat interface
 
-Vertegenwoordigt de eigenschappen voor alinea-opsommingsteken-opmaak.
+Representeert de bullet-opmaak eigenschappen van een alinea.
 
 ```csharp
 public interface IBulletFormat
@@ -18,23 +18,23 @@ public interface IBulletFormat
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Char](../../aspose.slides/ibulletformat/char) { get; set; } | Retourneert of stelt het opsommingsteken van een alinea zonder overerving in. Lezen/schrijven Char. |
-| [Color](../../aspose.slides/ibulletformat/color) { get; } | Retourneert het kleurformaat van een opsommingsteken van een alinea zonder overerving. Alleen-lezen [`IColorFormat`](../icolorformat). |
-| [Font](../../aspose.slides/ibulletformat/font) { get; set; } | Retourneert of stelt het opsommingsteken-lettertype van een alinea zonder overerving in. Lezen/schrijven [`IFontData`](../ifontdata). |
-| [Height](../../aspose.slides/ibulletformat/height) { get; set; } | Retourneert of stelt de hoogte van het opsommingsteken van een alinea zonder overerving in. De waarde float.NaN bepaalt dat het opsommingsteken de hoogte erft van het eerste deel in de alinea. Lezen/schrijven Single. |
-| [IsBulletHardColor](../../aspose.slides/ibulletformat/isbullethardcolor) { get; set; } | Bepaalt of het opsommingsteken een eigen kleur heeft of deze erft van het eerste deel in de alinea. **NullableBool.True** als het opsommingsteken een eigen kleur heeft en **NullableBool.False** als het opsommingsteken de kleur erft van het eerste deel in de alinea. Lezen/schrijven [`NullableBool`](../nullablebool). |
-| [IsBulletHardFont](../../aspose.slides/ibulletformat/isbullethardfont) { get; set; } | Bepaalt of het opsommingsteken een eigen lettertype heeft of dit erft van het eerste deel in de alinea. **NullableBool.True** als het opsommingsteken een eigen lettertype heeft en **NullableBool.False** als het opsommingsteken het lettertype erft van het eerste deel in de alinea. Lezen/schrijven [`NullableBool`](../nullablebool). |
-| [NumberedBulletStartWith](../../aspose.slides/ibulletformat/numberedbulletstartwith) { get; set; } | Retourneert of stelt het eerste nummer in dat wordt gebruikt voor een groep genummerde opsommingstekens zonder overerving. Lezen/schrijven Int16. |
-| [NumberedBulletStyle](../../aspose.slides/ibulletformat/numberedbulletstyle) { get; set; } | Retourneert of stelt de stijl van een genummerde opsommingsteken zonder overerving in. Lezen/schrijven [`NumberedBulletStyle`](./numberedbulletstyle). |
-| [Picture](../../aspose.slides/ibulletformat/picture) { get; } | Retourneert de afbeelding die wordt gebruikt als opsommingsteken in een alinea zonder overerving. Alleen-lezen [`ISlidesPicture`](../islidespicture). |
-| [Type](../../aspose.slides/ibulletformat/type) { get; set; } | Retourneert of stelt het type van een opsommingsteken van een alinea zonder overerving in. Lezen/schrijven [`BulletType`](../bullettype). |
+| [Char](../../aspose.slides/ibulletformat/char) { get; set; } | Retourneert of stelt het bullet-teken van een alinea zonder overerving in. Lezen/schrijven Char. |
+| [Color](../../aspose.slides/ibulletformat/color) { get; } | Retourneert het kleuropmaak van een bullet van een alinea zonder overerving. Alleen-lezen [`IColorFormat`](../icolorformat). |
+| [Font](../../aspose.slides/ibulletformat/font) { get; set; } | Retourneert of stelt het bullet-lettertype van een alinea zonder overerving in. Lezen/schrijven [`IFontData`](../ifontdata). |
+| [Height](../../aspose.slides/ibulletformat/height) { get; set; } | Retourneert of stelt de bullet-hoogte van een alinea zonder overerving in. Waarde float.NaN bepaalt dat de bullet de hoogte erft van het eerste gedeelte in de alinea. Lezen/schrijven Single. |
+| [IsBulletHardColor](../../aspose.slides/ibulletformat/isbullethardcolor) { get; set; } | Bepaalt of de bullet een eigen kleur heeft of deze erft van het eerste gedeelte in de alinea. **NullableBool.True** als de bullet een eigen kleur heeft en **NullableBool.False** als de bullet de kleur erft van het eerste gedeelte in de alinea. Lezen/schrijven [`NullableBool`](../nullablebool). |
+| [IsBulletHardFont](../../aspose.slides/ibulletformat/isbullethardfont) { get; set; } | Bepaalt of de bullet een eigen lettertype heeft of dit erft van het eerste gedeelte in de alinea. **NullableBool.True** als de bullet een eigen lettertype heeft en **NullableBool.False** als de bullet het lettertype erft van het eerste gedeelte in de alinea. Lezen/schrijven [`NullableBool`](../nullablebool). |
+| [NumberedBulletStartWith](../../aspose.slides/ibulletformat/numberedbulletstartwith) { get; set; } | Retourneert of stelt het eerste getal in dat wordt gebruikt voor een groep genummerde bullets zonder overerving. Lezen/schrijven Int16. |
+| [NumberedBulletStyle](../../aspose.slides/ibulletformat/numberedbulletstyle) { get; set; } | Retourneert of stelt de stijl van een genummerde bullet zonder overerving in. Lezen/schrijven [`NumberedBulletStyle`](./numberedbulletstyle). |
+| [Picture](../../aspose.slides/ibulletformat/picture) { get; } | Retourneert de afbeelding die als bullet in een alinea zonder overerving wordt gebruikt. Alleen-lezen [`ISlidesPicture`](../islidespicture). |
+| [Type](../../aspose.slides/ibulletformat/type) { get; set; } | Retourneert of stelt het bullet-type van een alinea zonder overerving in. Lezen/schrijven [`BulletType`](../bullettype). |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| [ApplyDefaultParagraphIndentsShifts](../../aspose.slides/ibulletformat/applydefaultparagraphindentsshifts)() | Stelt standaard niet-nul verschuivingen in voor de effectieve alinea-Indent en MarginLeft wanneer opsommingstekens zijn ingeschakeld (zoals PowerPoint doet als alinea-opsomming/nummering wordt ingeschakeld). Als opsommingstekens zijn uitgeschakeld, wordt alleen de alinea-Indent en MarginLeft gereset (zoals PowerPoint doet als alinea-opsomming/nummering wordt uitgeschakeld). Inspring-verschuivingen worden toegepast met betrekking tot de huidige opsommingstekens-context – IBulletFormat.Type, .NumberedBulletStyle en FontHeight van het eerste deel. Niet-nul inspring-verschuivingen worden toegepast op de effectieve Indent en MarginLeft van de huidige alinea (zodat resultaatwaarden lokale waarden worden). |
-| [GetEffective](../../aspose.slides/ibulletformat/geteffective)() | Haalt de effectieve opsommingsteken-opmaakgegevens op met de overerving toegepast. |
+| [ApplyDefaultParagraphIndentsShifts](../../aspose.slides/ibulletformat/applydefaultparagraphindentsshifts)() | Stelt standaard niet-nul verplaatsingen in voor de effectieve alinea-Indent en MarginLeft wanneer bullets zijn ingeschakeld (zoals PowerPoint doet als alinea-bullets/nummering is ingeschakeld). Als bullets zijn uitgeschakeld, wordt alleen de alinea-Indent en MarginLeft gereset (zoals PowerPoint doet als alinea-bullets/nummering is uitgeschakeld). Indent-verplaatsingen worden toegepast met betrekking tot de huidige bullet-context – IBulletFormat.Type, .NumberedBulletStyle en FontHeight van het eerste gedeelte. Niet-nul indent-verplaatsingen worden toegepast op de effectieve Indent en MarginLeft van de huidige alinea (zodat resultaatwaarden lokale waarden worden). |
+| [GetEffective](../../aspose.slides/ibulletformat/geteffective)() | Haalt effectieve bullet-opmaakgegevens op met de toegepaste overerving. |
 
 ### Zie ook
 

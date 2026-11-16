@@ -1,14 +1,14 @@
 ---
 title: FormatScheme
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Aspose.Sildes для .NET API справочник
 description: Хранит форматы, определённые темой, для фигур.
 type: docs
-weight: 11140
+weight: 11160
 url: /ru/aspose.slides.theme/formatscheme/
 ---
 ## FormatScheme класс
 
-Stores theme-defined formats for the shapes.
+Сохраняет форматы, определённые темой, для фигур.
 
 ```csharp
 public class FormatScheme : IFormatScheme
@@ -16,7 +16,7 @@ public class FormatScheme : IFormatScheme
 
 ## Свойства
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
 | [BackgroundFillStyles](../../aspose.slides.theme/formatscheme/backgroundfillstyles) { get; } | Возвращает коллекцию стилей заливки фона, определённых темой. Только для чтения [`IFillFormatCollection`](../ifillformatcollection). |
 | [EffectStyles](../../aspose.slides.theme/formatscheme/effectstyles) { get; } | Возвращает коллекцию стилей эффектов, определённых темой. Только для чтения [`IEffectStyleCollection`](../ieffectstylecollection). |

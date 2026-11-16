@@ -1,14 +1,14 @@
 ---
 title: ILuminanceEffectiveData
-second_title: Aspose.Sildes pour .NET Référence API
-description: Représente un effet de luminance. La luminosité décale linéairement toutes les couleurs vers le blanc ou le noir. Le contraste ajuste toutes les couleurs pour les rendre plus proches ou plus éloignées les unes des autres.
+second_title: Référence API Aspose.Sildes pour .NET
+description: Représente un effet de luminance. Brightness décale linéairement toutes les couleurs vers le blanc ou le noir. Contrast met à l'échelle toutes les couleurs pour qu'elles soient soit plus proches, soit plus éloignées les unes des autres.
 type: docs
-weight: 3450
+weight: 3470
 url: /fr/aspose.slides.effects/iluminanceeffectivedata/
 ---
 ## ILuminanceEffectiveData interface
 
-Représente un effet de luminance. La luminosité décale linéairement toutes les couleurs vers le blanc ou le noir. Le contraste ajuste toutes les couleurs pour les rendre plus proches ou plus éloignées les unes des autres.
+Représente un effet de luminance. Brightness décale linéairement toutes les couleurs vers le blanc ou le noir. Contrast met à l'échelle toutes les couleurs pour qu'elles soient soit plus proches, soit plus éloignées les unes des autres.
 
 ```csharp
 public interface ILuminanceEffectiveData : IEffectEffectiveData
@@ -16,11 +16,11 @@ public interface ILuminanceEffectiveData : IEffectEffectiveData
 
 ## Propriétés
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
 | [AsIEffectEffectiveData](../../aspose.slides.effects/iluminanceeffectivedata/asieffecteffectivedata) { get; } | Permet d'obtenir l'interface de base IEffectEffectiveData. Lecture seule [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Brightness](../../aspose.slides.effects/iluminanceeffectivedata/brightness) { get; } | Luminosité. Lecture seule Single. |
-| [Contrast](../../aspose.slides.effects/iluminanceeffectivedata/contrast) { get; } | Contraste. Lecture seule Single. |
+| [Brightness](../../aspose.slides.effects/iluminanceeffectivedata/brightness) { get; } | Brightness. Lecture seule Single. |
+| [Contrast](../../aspose.slides.effects/iluminanceeffectivedata/contrast) { get; } | Contrast. Lecture seule Single. |
 
 ### Voir aussi
 

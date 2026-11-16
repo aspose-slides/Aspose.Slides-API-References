@@ -1,14 +1,14 @@
 ---
 title: ColorChange
-second_title: Aspose.Sildes для .NET справочник API
+second_title: Aspose.Sildes для .NET справка по API
 description: Представляет эффект изменения цвета. Экземпляры FromColor заменяются экземплярами ToColor.
 type: docs
-weight: 2940
+weight: 2960
 url: /ru/aspose.slides.effects/colorchange/
 ---
 ## ColorChange класс
 
-Представляет эффект изменения цвета. Экземпляры FromColor заменяются экземплярами ToColor.
+Представляет эффект Color Change. Экземпляры FromColor заменяются экземплярами ToColor.
 
 ```csharp
 public sealed class ColorChange : ImageTransformOperation, IColorChange
@@ -27,10 +27,10 @@ public sealed class ColorChange : ImageTransformOperation, IColorChange
 | Имя | Описание |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/colorchange/equals)(object) | Определяет, равен ли указанный [`ColorChange`](../colorchange) текущему [`ColorChange`](../colorchange). |
-| [GetEffective](../../aspose.slides.effects/colorchange/geteffective)() | Получает эффективные данные эффекта изменения цвета с учётом наследования. |
-| override [GetHashCode](../../aspose.slides.effects/colorchange/gethashcode)() | Служит хеш-функцией для определённого типа. |
+| [GetEffective](../../aspose.slides.effects/colorchange/geteffective)() | Получает эффективные данные эффекта Color Change с учётом наследования. |
+| override [GetHashCode](../../aspose.slides.effects/colorchange/gethashcode)() | Служит в качестве функции хеширования для конкретного типа. |
 
-### Смотрите также
+### См. также
 
 * класс [ImageTransformOperation](../imagetransformoperation)
 * интерфейс [IColorChange](../icolorchange)

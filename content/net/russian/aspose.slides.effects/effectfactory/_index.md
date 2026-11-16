@@ -1,9 +1,9 @@
 ---
 title: EffectFactory
-second_title: Aspose.Sildes для .NET API справочник
+second_title: Aspose.Sildes для .NET API Reference
 description: Позволяет создавать эффекты
 type: docs
-weight: 2970
+weight: 2990
 url: /ru/aspose.slides.effects/effectfactory/
 ---
 ## EffectFactory класс
@@ -18,7 +18,7 @@ public class EffectFactory : IEffectFactory
 
 | Имя | Описание |
 | --- | --- |
-| [EffectFactory](effectfactory)() | Конструктор по умолчанию. |
+| [EffectFactory](effectfactory)() | Конструктор без параметров. |
 
 ## Свойства
 
@@ -30,12 +30,12 @@ public class EffectFactory : IEffectFactory
 
 | Имя | Описание |
 | --- | --- |
-| [CreateGlow](../../aspose.slides.effects/effectfactory/createglow)() | Создает эффект Glow. |
-| [CreateInnerShadow](../../aspose.slides.effects/effectfactory/createinnershadow)() | Создает эффект Inner shadow. |
-| [CreateOuterShadow](../../aspose.slides.effects/effectfactory/createoutershadow)() | Создает эффект Outer shadow. |
-| [CreatePresetShadow](../../aspose.slides.effects/effectfactory/createpresetshadow)() | Создает эффект Preset shadow. |
-| [CreateReflection](../../aspose.slides.effects/effectfactory/createreflection)() | Создает эффект Reflection. |
-| [CreateSoftEdge](../../aspose.slides.effects/effectfactory/createsoftedge)() | Создает эффект Soft Edge. |
+| [CreateGlow](../../aspose.slides.effects/effectfactory/createglow)() | Создаёт эффект Glow. |
+| [CreateInnerShadow](../../aspose.slides.effects/effectfactory/createinnershadow)() | Создаёт эффект Inner shafow. |
+| [CreateOuterShadow](../../aspose.slides.effects/effectfactory/createoutershadow)() | Создаёт эффект Outer shadow. |
+| [CreatePresetShadow](../../aspose.slides.effects/effectfactory/createpresetshadow)() | Создаёт эффект Preset shadow. |
+| [CreateReflection](../../aspose.slides.effects/effectfactory/createreflection)() | Создаёт эффект Reflection. |
+| [CreateSoftEdge](../../aspose.slides.effects/effectfactory/createsoftedge)() | Создаёт эффект Soft Edge. |
 
 ### Примечания
 

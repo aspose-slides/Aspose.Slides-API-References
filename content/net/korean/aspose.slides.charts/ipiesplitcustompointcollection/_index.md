@@ -1,14 +1,14 @@
 ---
 title: IPieSplitCustomPointCollection
-second_title: Aspose.Sildes for .NET API 참조
-description: 사용자 지정 분할이 적용된 막대-파이 또는 파이-파이 차트에서 두 번째 파이 또는 막대에 그려질 포인트 컬렉션을 나타냅니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 사용자 지정 분할을 사용하여 바-오브-파이 또는 파이-오브-파이 차트에서 두 번째 파이 또는 바에 그릴 포인트 컬렉션을 나타냅니다.
 type: docs
-weight: 2190
+weight: 2210
 url: /ko/aspose.slides.charts/ipiesplitcustompointcollection/
 ---
 ## IPieSplitCustomPointCollection 인터페이스
 
-사용자 지정 분할이 적용된 막대-파이 또는 파이-파이 차트에서 두 번째 파이 또는 막대에 그려질 포인트 컬렉션을 나타냅니다.
+두 번째 파이 또는 바를 바-오브-파이 또는 파이-오브-파이 차트에서 사용자 지정 분할로 그릴 포인트 컬렉션을 나타냅니다.
 
 ```csharp
 public interface IPieSplitCustomPointCollection : ICollection<IChartDataPoint>
@@ -16,19 +16,19 @@ public interface IPieSplitCustomPointCollection : ICollection<IChartDataPoint>
 
 ## 속성
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
 | [AsIEnumerable](../../aspose.slides.charts/ipiesplitcustompointcollection/asienumerable) { get; } | IEnumerable 인터페이스를 반환합니다. |
 | [Item](../../aspose.slides.charts/ipiesplitcustompointcollection/item) { get; } | 인덱스로 차트 데이터 포인트를 반환합니다. |
 
 ## 메서드
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
-| [Add](../../aspose.slides.charts/ipiesplitcustompointcollection/add)(int) | 상위 시리즈 포인트 컬렉션에서 인덱스로 데이터 포인트를 추가합니다. |
-| [Remove](../../aspose.slides.charts/ipiesplitcustompointcollection/remove)(int) | 상위 시리즈 포인트 컬렉션에서 인덱스로 항목을 제거합니다. |
+| [Add](../../aspose.slides.charts/ipiesplitcustompointcollection/add)(int) | 상위 시리즈 포인트 컬렉션에서 해당 인덱스로 데이터 포인트를 추가합니다. |
+| [Remove](../../aspose.slides.charts/ipiesplitcustompointcollection/remove)(int) | 상위 시리즈 포인트 컬렉션에서 해당 인덱스로 항목을 제거합니다. |
 
-### 참조
+### 참고
 
 * 인터페이스 [IChartDataPoint](../ichartdatapoint)
 * 네임스페이스 [Aspose.Slides.Charts](../../aspose.slides.charts)

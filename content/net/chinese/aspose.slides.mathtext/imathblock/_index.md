@@ -1,14 +1,14 @@
 ---
 title: IMathBlock
 second_title: Aspose.Sildes for .NET API 参考
-description: 指定一个位于 MathParagraph 中并在其自身行上开始的数学文本实例。所有数学区域，包括方程式、表达式、方程式或表达式数组以及公式，都由 math block 表示。
+description: 指定包含在 MathParagraph 中并在单独行上开始的数学文本实例。所有数学区域，包括方程式、表达式、方程式或表达式数组以及公式，都由数学块表示。
 type: docs
-weight: 8140
+weight: 8160
 url: /zh/aspose.slides.mathtext/imathblock/
 ---
 ## IMathBlock 接口
 
-指定一个位于 MathParagraph 中并在其自身行上开始的数学文本实例。所有数学区域，包括方程式、表达式、方程式或表达式数组以及公式，都由 math block 表示。
+指定包含在 MathParagraph 中并在单独行上开始的数学文本实例。所有数学区域，包括方程式、表达式、方程式或表达式数组以及公式，都由数学块表示。
 
 ```csharp
 public interface IMathBlock : IMathElement, IMathElementCollection
@@ -18,15 +18,15 @@ public interface IMathBlock : IMathElement, IMathElementCollection
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathblock/asimathelement) { get; } | 允许获取基础 IMathElement 接口 [`IMathElement`](../imathelement) |
-| [AsIMathElementCollection](../../aspose.slides.mathtext/imathblock/asimathelementcollection) { get; } | 允许获取基础 IMathElementCollection 接口 [`IMathElementCollection`](../imathelementcollection) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathblock/asimathelement) { get; } | 允许获取基 IMathElement 接口 [`IMathElement`](../imathelement) |
+| [AsIMathElementCollection](../../aspose.slides.mathtext/imathblock/asimathelementcollection) { get; } | 允许获取基 IMathElementCollection 接口 [`IMathElementCollection`](../imathelementcollection) |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [Delimit](../../aspose.slides.mathtext/imathblock/delimit)(char) | 使用分隔符字符（不含括号）来分隔所有子元素 |
-| [Enclose](../../aspose.slides.mathtext/imathblock/enclose)(char, char, char) | 使用指定字符（如括号或其他）将此块的子元素包裹并使用分隔符字符进行分隔 |
+| [Delimit](../../aspose.slides.mathtext/imathblock/delimit)(char) | 使用分隔符字符界定所有子元素（不含括号） |
+| [Enclose](../../aspose.slides.mathtext/imathblock/enclose)(char, char, char) | 使用指定字符（例如圆括号或其他）将此块的子元素框住并使用分隔符字符进行分隔 |
 | [JoinBlock](../../aspose.slides.mathtext/imathblock/joinblock)(IMathBlock) | 将另一个数学块与此块合并 |
 | [WriteAsMathMl](../../aspose.slides.mathtext/imathblock/writeasmathml)(Stream) | 将此 [`IMathBlock`](../imathblock) 的内容保存为 MathML |
 

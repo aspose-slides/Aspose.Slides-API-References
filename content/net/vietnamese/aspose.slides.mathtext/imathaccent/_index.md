@@ -1,14 +1,14 @@
 ---
 title: IMathAccent
-second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Xác định hàm accent bao gồm một cơ sở và một dấu diacritics kết hợp. Ví dụ ́
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Xác định hàm dấu, bao gồm một cơ sở và một dấu diacritics kết hợp. Ví dụ ́
 type: docs
-weight: 8080
+weight: 8100
 url: /vi/aspose.slides.mathtext/imathaccent/
 ---
 ## IMathAccent giao diện
 
-Xác định hàm Accent, bao gồm một cơ sở và một dấu diacritics kết hợp. Ví dụ: 𝑎́
+Xác định hàm dấu, bao gồm một cơ sở và một dấu kết hợp. Ví dụ: 𝑎́
 
 ```csharp
 public interface IMathAccent : IMathElement
@@ -19,8 +19,8 @@ public interface IMathAccent : IMathElement
 | Tên | Mô tả |
 | --- | --- |
 | [AsIMathElement](../../aspose.slides.mathtext/imathaccent/asimathelement) { get; } | Cho phép lấy giao diện IMathElement cơ sở [`IMathElement`](../imathelement) |
-| [Base](../../aspose.slides.mathtext/imathaccent/base) { get; } | Đối số mà accent được áp dụng |
-| [Character](../../aspose.slides.mathtext/imathaccent/character) { get; set; } | Ký tự Accent Giá trị phải nằm trong khoảng (U+0300–U+036F) hoặc (U+20D0–U+20EF) Giá trị mặc định: Combining Circumflex Accent (U+0302) |
+| [Base](../../aspose.slides.mathtext/imathaccent/base) { get; } | Đối số mà dấu được áp dụng |
+| [Character](../../aspose.slides.mathtext/imathaccent/character) { get; set; } | Ký tự dấu. Giá trị phải nằm trong khoảng (U+0300–U+036F) hoặc (U+20D0–U+20EF). Giá trị mặc định: Dấu mũ kết hợp (U+0302) |
 
 ### Ví dụ
 

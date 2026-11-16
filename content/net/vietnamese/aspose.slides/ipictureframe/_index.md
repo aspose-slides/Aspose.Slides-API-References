@@ -1,14 +1,14 @@
 ---
 title: IPictureFrame
-second_title: Tham khảo API Aspose.Sildes cho .NET
-description: Biểu diễn một khung chứa hình ảnh bên trong.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Biểu thị một khung có hình ảnh bên trong.
 type: docs
-weight: 6670
+weight: 6690
 url: /vi/aspose.slides/ipictureframe/
 ---
-## IPictureFrame giao diện
+## IPictureFrame interface
 
-Đại diện cho một khung chứa hình ảnh bên trong.
+Biểu thị một khung có hình ảnh bên trong.
 
 ```csharp
 public interface IPictureFrame : IGeometryShape
@@ -18,12 +18,12 @@ public interface IPictureFrame : IGeometryShape
 
 | Tên | Mô tả |
 | --- | --- |
-| [AsIGeometryShape](../../aspose.slides/ipictureframe/asigeometryshape) { get; } | Cho phép lấy giao diện IGeometryShape cơ bản. Chỉ đọc [`IGeometryShape`](../igeometryshape). |
-| [PictureFormat](../../aspose.slides/ipictureframe/pictureformat) { get; } | Trả về đối tượng PictureFillFormat cho khung hình. Chỉ đọc [`IPictureFillFormat`](../ipicturefillformat). |
-| [PictureFrameLock](../../aspose.slides/ipictureframe/pictureframelock) { get; } | Trả về khóa của PictureFrame. Chỉ đọc [`IPictureFrameLock`](../ipictureframelock). |
-| [RelativeScaleHeight](../../aspose.slides/ipictureframe/relativescaleheight) { get; set; } | Trả về hoặc thiết lập tỷ lệ chiều cao (so với kích thước ảnh gốc) của khung hình. Giá trị 1.0 tương ứng với 100%. Đọc/ghi Single. |
-| [RelativeScaleWidth](../../aspose.slides/ipictureframe/relativescalewidth) { get; set; } | Trả về hoặc thiết lập tỷ lệ chiều rộng (so với kích thước ảnh gốc) của khung hình. Giá trị 1.0 tương ứng với 100%. Đọc/ghi Single. |
-| [ShapeLock](../../aspose.slides/ipictureframe/shapelock) { get; } | Trả về khóa của shape. Chỉ đọc [`IPictureFrameLock`](../ipictureframelock). |
+| [AsIGeometryShape](../../aspose.slides/ipictureframe/asigeometryshape) { get; } | Cho phép truy cập giao diện IGeometryShape cơ bản. Chỉ-đọc [`IGeometryShape`](../igeometryshape). |
+| [PictureFormat](../../aspose.slides/ipictureframe/pictureformat) { get; } | Trả về đối tượng PictureFillFormat cho một khung hình. Chỉ-đọc [`IPictureFillFormat`](../ipicturefillformat). |
+| [PictureFrameLock](../../aspose.slides/ipictureframe/pictureframelock) { get; } | Trả về khóa của PictureFrame. Chỉ-đọc [`IPictureFrameLock`](../ipictureframelock). |
+| [RelativeScaleHeight](../../aspose.slides/ipictureframe/relativescaleheight) { get; set; } | Trả về hoặc thiết lập tỉ lệ chiều cao (so với kích thước hình ảnh gốc) của khung hình. Giá trị 1.0 tương ứng với 100%. Đọc/ghi Single. |
+| [RelativeScaleWidth](../../aspose.slides/ipictureframe/relativescalewidth) { get; set; } | Trả về hoặc thiết lập tỉ lệ chiều rộng (so với kích thước hình ảnh gốc) của khung hình. Giá trị 1.0 tương ứng với 100%. Đọc/ghi Single. |
+| [ShapeLock](../../aspose.slides/ipictureframe/shapelock) { get; } | Trả về khóa của shape. Chỉ-đọc [`IPictureFrameLock`](../ipictureframelock). |
 
 ### Xem thêm
 

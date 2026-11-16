@@ -1,14 +1,14 @@
 ---
 title: Hide
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Maak het gegevenslabel standaard verborgen door alle Show-flags ShowValue ... van de eigenschap DefaultDataLabelFormat op false te zetten. IsVisible zal daarna false zijn.
+description: Maak het gegevenslabel standaard verborgen door alle Show-flags ShowValue ... van de eigenschap DefaultDataLabelFormat op de false-status te zetten. IsVisible zal daarna false zijn.
 type: docs
-weight: 100
+weight: 110
 url: /nl/aspose.slides.charts/datalabelcollection/hide/
 ---
 ## DataLabelCollection.Hide methode
 
-Maak het gegevenslabel standaard verborgen door alle Show*-flags (ShowValue, ...) van de eigenschap DefaultDataLabelFormat op de status false te zetten. IsVisible zal daarna false zijn.
+Maak het gegevenslabel standaard verborgen door alle Show*-vlaggen (ShowValue, ...) van de eigenschap DefaultDataLabelFormat in de false-status te zetten. IsVisible zal daarna false zijn.
 
 ```csharp
 public void Hide()
@@ -16,7 +16,7 @@ public void Hide()
 
 ### Opmerkingen
 
-Als het gegevenslabel standaard niet zichtbaar is (IsVisible is false) kun je het gegevenslabel “standaard zichtbaar” maken door de Show*-flags (ShowValue, ...) van de eigenschap DefaultDataLabelFormat op de status true te zetten.
+Als het gegevenslabel niet standaard zichtbaar is (IsVisible is false) kun je het gegevenslabel "standaard zichtbaar" maken door de Show*-vlaggen (ShowValue, ...) van de eigenschap DefaultDataLabelFormat in de true-status te zetten.
 
 ### Zie ook
 

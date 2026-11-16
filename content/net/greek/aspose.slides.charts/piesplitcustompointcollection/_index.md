@@ -1,14 +1,12 @@
 ---
 title: PieSplitCustomPointCollection
-second_title: Aspose.Sildes για .NET Αναφορά API
-description: Αντιπροσωπεύει μια συλλογή σημείων για το σημείο διαίρεσης σε γράφημα μπάρας-πίτας ή πίτα-πίτας με προσαρμοσμένη διαίρεση.
+second_title: Aspose.Sildes για .NET API Αναφορά
+description: Αντιπροσωπεύει μια συλλογή σημείων για διαχωριστικό σημείο σε γράφημα μπάρας-πίτας ή πίτας-πίτας με προσαρμοσμένο διαχωρισμό.
 type: docs
-weight: 2370
+weight: 2390
 url: /el/aspose.slides.charts/piesplitcustompointcollection/
 ---
 ## PieSplitCustomPointCollection κλάση
-
-Αντιπροσωπεύει μια συλλογή σημείων για το σημείο διαίρεσης σε γράφημα μπάρας-πίτας ή πίτα-πίτας με προσαρμοσμένη διαίρεση.
 
 ```csharp
 public class PieSplitCustomPointCollection : IPieSplitCustomPointCollection
@@ -18,29 +16,29 @@ public class PieSplitCustomPointCollection : IPieSplitCustomPointCollection
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [Count](../../aspose.slides.charts/piesplitcustompointcollection/count) { get; } | Επιστρέφει ή ορίζει τον αριθμό των σημείων δεδομένων του διαγράμματος. Μόνο ανάγνωση Int32. |
-| [IsReadOnly](../../aspose.slides.charts/piesplitcustompointcollection/isreadonly) { get; } | Λαμβάνει μια τιμή που υποδεικνύει αν το ICollection είναι μόνο για ανάγνωση. Μόνο ανάγνωση Boolean. |
-| [IsSynchronized](../../aspose.slides.charts/piesplitcustompointcollection/issynchronized) { get; } | Επιστρέφει μια τιμή που υποδεικνύει αν η πρόσβαση στη συλλογή είναι συγχρονισμένη (thread-safe). Μόνο ανάγνωση Boolean. |
-| [Item](../../aspose.slides.charts/piesplitcustompointcollection/item) { get; } | Επιστρέφει το σημείο δεδομένων του διαγράμματος για το καθορισμένο δείκτη. |
-| [SyncRoot](../../aspose.slides.charts/piesplitcustompointcollection/syncroot) { get; } | Επιστρέφει τη ρίζα συγχρονισμού. Μόνο ανάγνωση Object. |
+| [Count](../../aspose.slides.charts/piesplitcustompointcollection/count) { get; } | Επιστρέφει ή ορίζει τον αριθμό των σημείων δεδομένων του διαγράμματος. Μόνο για ανάγνωση Int32. |
+| [IsReadOnly](../../aspose.slides.charts/piesplitcustompointcollection/isreadonly) { get; } | Λαμβάνει μια τιμή που υποδεικνύει εάν το ICollection είναι μόνο για ανάγνωση. Μόνο για ανάγνωση Boolean. |
+| [IsSynchronized](../../aspose.slides.charts/piesplitcustompointcollection/issynchronized) { get; } | Επιστρέφει μια τιμή που υποδεικνύει εάν η πρόσβαση στη συλλογή είναι συγχρονισμένη (thread-safe). Μόνο για ανάγνωση Boolean. |
+| [Item](../../aspose.slides.charts/piesplitcustompointcollection/item) { get; } | Επιστρέφει το σημείο δεδομένων του διαγράμματος για τον καθορισμένο δείκτη. |
+| [SyncRoot](../../aspose.slides.charts/piesplitcustompointcollection/syncroot) { get; } | Επιστρέφει τη ρίζα συγχρονισμού. Μόνο για ανάγνωση Object. |
 
 ## Μέθοδοι
 
 | Όνομα | Περιγραφή |
 | --- | --- |
 | [Add](../../aspose.slides.charts/piesplitcustompointcollection/add#add)(IChartDataPoint) | Προσθέτει σημείο δεδομένων στη συλλογή. |
-| [Add](../../aspose.slides.charts/piesplitcustompointcollection/add#add_1)(int) | Προσθέτει σημείο δεδομένων με βάση το δείκτη του στη συλλογή σημείων της γονικής σειράς. |
-| [Clear](../../aspose.slides.charts/piesplitcustompointcollection/clear)() | Αφαιρεί όλα τα στοιχεία από το ICollection. |
-| [Contains](../../aspose.slides.charts/piesplitcustompointcollection/contains)(IChartDataPoint) | Καθορίζει αν το ICollection περιέχει μια συγκεκριμένη τιμή. |
-| [CopyTo](../../aspose.slides.charts/piesplitcustompointcollection/copyto)(IChartDataPoint[], int) | Αντιγράφει τα στοιχεία του ICollection σε έναν Πίνακα, αρχίζοντας από έναν συγκεκριμένο δείκτη Πίνακα. |
-| [GetEnumerator](../../aspose.slides.charts/piesplitcustompointcollection/getenumerator)() | Επιστρέφει έναν επαναλήπτη που διασχίζει τη συλλογή. |
-| [Remove](../../aspose.slides.charts/piesplitcustompointcollection/remove#remove)(IChartDataPoint) | Αφαιρεί το στοιχείο από τη συλλογή. |
-| [Remove](../../aspose.slides.charts/piesplitcustompointcollection/remove#remove_1)(int) | Αφαιρεί το στοιχείο από τη συλλογή με βάση το δείκτη του στη συλλογή σημείων της γονικής σειράς. |
+| [Add](../../aspose.slides.charts/piesplitcustompointcollection/add#add_1)(int) | Προσθέτει σημείο δεδομένων με το δείκτη του στη συλλογή σημείων της γονικής σειράς. |
+| [Clear](../../aspose.slides.charts/piesplitcustompointcollection/clear)() | Καταργεί όλα τα στοιχεία από το ICollection. |
+| [Contains](../../aspose.slides.charts/piesplitcustompointcollection/contains)(IChartDataPoint) | Καθορίζει εάν το ICollection περιέχει μια συγκεκριμένη τιμή. |
+| [CopyTo](../../aspose.slides.charts/piesplitcustompointcollection/copyto)(IChartDataPoint[], int) | Αντιγράφει τα στοιχεία του ICollection σε έναν Array, ξεκινώντας από έναν συγκεκριμένο δείκτη Array. |
+| [GetEnumerator](../../aspose.slides.charts/piesplitcustompointcollection/getenumerator)() | Επιστρέφει έναν enumerator που διατρέχει τη συλλογή. |
+| [Remove](../../aspose.slides.charts/piesplitcustompointcollection/remove#remove)(IChartDataPoint) | Καταργεί το στοιχείο από τη συλλογή. |
+| [Remove](../../aspose.slides.charts/piesplitcustompointcollection/remove#remove_1)(int) | Καταργεί το στοιχείο από τη συλλογή με το δείκτη του στη συλλογή σημείων της γονικής σειράς. |
 
 ### Δείτε επίσης
 
-* διεπαφή [IPieSplitCustomPointCollection](../ipiesplitcustompointcollection)
-* ονομαχώρος [Aspose.Slides.Charts](../../aspose.slides.charts)
-* συγκρότηση [Aspose.Slides](../../)
+* διασύνδεση [IPieSplitCustomPointCollection](../ipiesplitcustompointcollection)
+* χώρο ονομάτων [Aspose.Slides.Charts](../../aspose.slides.charts)
+* συναρμολόγηση [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

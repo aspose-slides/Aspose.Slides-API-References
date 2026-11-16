@@ -3,12 +3,12 @@ title: IFillFormatCollection
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili koleksi gaya isi.
 type: docs
-weight: 11230
+weight: 11250
 url: /id/aspose.slides.theme/ifillformatcollection/
 ---
-## antarmuka IFillFormatCollection
+## IFillFormatCollection antarmuka
 
-Mewakili koleksi gaya isian.
+Mewakili koleksi gaya isi.
 
 ```csharp
 public interface IFillFormatCollection : IGenericCollection<IFillFormat>
@@ -18,7 +18,7 @@ public interface IFillFormatCollection : IGenericCollection<IFillFormat>
 
 | Nama | Deskripsi |
 | --- | --- |
-| [Item](../../aspose.slides.theme/ifillformatcollection/item) { get; } | Mendapatkan elemen pada indeks yang ditentukan. Hanya baca [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [Item](../../aspose.slides.theme/ifillformatcollection/item) { get; } | Mendapatkan elemen pada indeks yang ditentukan. Hanya-baca [`IFillFormat`](../../aspose.slides/ifillformat). |
 
 ### Lihat Juga
 

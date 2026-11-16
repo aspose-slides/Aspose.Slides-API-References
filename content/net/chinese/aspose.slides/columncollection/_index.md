@@ -1,14 +1,14 @@
 ---
 title: ColumnCollection
-second_title: Aspose.Sildes for .NET API 参考
-description: 表示表中列的集合。
+second_title: Aspose.Sildes 的 .NET API 参考
+description: 表示表格中列的集合。
 type: docs
-weight: 2600
+weight: 2620
 url: /zh/aspose.slides/columncollection/
 ---
 ## ColumnCollection 类
 
-表示表中列的集合。
+表示表格中列的集合。
 
 ```csharp
 public sealed class ColumnCollection : DomObject<RowCollection>, IColumnCollection
@@ -21,19 +21,19 @@ public sealed class ColumnCollection : DomObject<RowCollection>, IColumnCollecti
 | [Count](../../aspose.slides/columncollection/count) { get; } | 返回集合中列的数量。只读 Int32。 |
 | [IsSynchronized](../../aspose.slides/columncollection/issynchronized) { get; } | 返回一个值，指示对集合的访问是否同步（线程安全）。只读 Boolean。 |
 | [Item](../../aspose.slides/columncollection/item) { get; } | 返回指定索引处的列。只读 [`Column`](../column)。 |
-| [SyncRoot](../../aspose.slides/columncollection/syncroot) { get; } | 返回同步根。只读 Object。 |
+| [SyncRoot](../../aspose.slides/columncollection/syncroot) { get; } | 返回同步根对象。只读 Object。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [AddClone](../../aspose.slides/columncollection/addclone)(IColumn, bool) | 创建指定模板行的副本并将其插入表的底部。 |
-| [CopyTo](../../aspose.slides/columncollection/copyto)(Array, int) | 将集合中的所有元素复制到指定的数组。 |
-| [GetEnumerator](../../aspose.slides/columncollection/getenumerator)() | 返回遍历集合的枚举器。 |
-| [InsertClone](../../aspose.slides/columncollection/insertclone)(int, IColumn, bool) | 创建指定模板列的副本并将其插入表中指定位置。 |
-| [RemoveAt](../../aspose.slides/columncollection/removeat)(int, bool) | 从表中删除指定位置的列。 |
+| [AddClone](../../aspose.slides/columncollection/addclone)(IColumn, bool) | 创建指定模板行的副本并将其插入表格底部。 |
+| [CopyTo](../../aspose.slides/columncollection/copyto)(Array, int) | 将集合中的所有元素复制到指定数组。 |
+| [GetEnumerator](../../aspose.slides/columncollection/getenumerator)() | 返回一个枚举器，用于遍历集合。 |
+| [InsertClone](../../aspose.slides/columncollection/insertclone)(int, IColumn, bool) | 创建指定模板列的副本并将其插入表格中指定位置。 |
+| [RemoveAt](../../aspose.slides/columncollection/removeat)(int, bool) | 从表格中删除指定位置的列。 |
 
-### 另请参阅
+### 另请参见
 
 * 类 [DomObject&lt;TParent&gt;](../domobject-1)
 * 类 [RowCollection](../rowcollection)

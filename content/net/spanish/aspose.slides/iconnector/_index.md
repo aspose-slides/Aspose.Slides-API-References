@@ -3,10 +3,10 @@ title: IConnector
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Representa un conector.
 type: docs
-weight: 5610
+weight: 5630
 url: /es/aspose.slides/iconnector/
 ---
-## IConnector interfaz
+## Interfaz IConnector
 
 Representa un conector.
 
@@ -19,11 +19,11 @@ public interface IConnector : IGeometryShape
 | Nombre | Descripción |
 | --- | --- |
 | [AsIGeometryShape](../../aspose.slides/iconnector/asigeometryshape) { get; } | Permite obtener la interfaz base IGeometryShape. Solo lectura [`IGeometryShape`](../igeometryshape). |
-| [ConnectorLock](../../aspose.slides/iconnector/connectorlock) { get; } | Devuelve los bloqueos del Connector. Solo lectura [`IConnectorLock`](../iconnectorlock). |
+| [ConnectorLock](../../aspose.slides/iconnector/connectorlock) { get; } | Devuelve los bloqueos de Connector. Solo lectura [`IConnectorLock`](../iconnectorlock). |
 | [EndShapeConnectedTo](../../aspose.slides/iconnector/endshapeconnectedto) { get; set; } | Devuelve o establece la forma a la que se adjunta el extremo del conector. Lectura/escritura [`IShape`](../ishape). |
 | [EndShapeConnectionSiteIndex](../../aspose.slides/iconnector/endshapeconnectionsiteindex) { get; set; } | Devuelve o establece el índice del sitio de conexión para la forma final. Lectura/escritura UInt32. |
 | [ShapeLock](../../aspose.slides/iconnector/shapelock) { get; } | Devuelve los bloqueos de la forma. Solo lectura [`IConnectorLock`](../iconnectorlock). |
-| [StartShapeConnectedTo](../../aspose.slides/iconnector/startshapeconnectedto) { get; set; } | Devuelve o establece la forma a la que se adjunta el principio del conector. Lectura/escritura [`IShape`](../ishape). |
+| [StartShapeConnectedTo](../../aspose.slides/iconnector/startshapeconnectedto) { get; set; } | Devuelve o establece la forma a la que se adjunta el inicio del conector. Lectura/escritura [`IShape`](../ishape). |
 | [StartShapeConnectionSiteIndex](../../aspose.slides/iconnector/startshapeconnectionsiteindex) { get; set; } | Devuelve o establece el índice del sitio de conexión para la forma inicial. Lectura/escritura UInt32. |
 
 ## Métodos

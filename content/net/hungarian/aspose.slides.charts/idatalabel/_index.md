@@ -1,14 +1,14 @@
 ---
 title: IDataLabel
-second_title: Aspose.Sildes a .NET API referencia
-description: Egy sor címkéit képviseli.
+second_title: Aspose.Sildes a .NET API hivatkozáshoz
+description: Egy sorozat címkéit képviseli.
 type: docs
-weight: 2020
+weight: 2040
 url: /hu/aspose.slides.charts/idatalabel/
 ---
 ## IDataLabel interfész
 
-Egy sor címkéit képviseli.
+Egy sorozat címkéit képviseli.
 
 ```csharp
 public interface IDataLabel : IActualLayout, ILayoutable, IOverridableText
@@ -19,18 +19,19 @@ public interface IDataLabel : IActualLayout, ILayoutable, IOverridableText
 | Név | Leírás |
 | --- | --- |
 | [AsIActualLayout](../../aspose.slides.charts/idatalabel/asiactuallayout) { get; } | Visszaadja az IActualLayout interfészt. |
-| [AsILayoutable](../../aspose.slides.charts/idatalabel/asilayoutable) { get; } | Visszaadja az ILayoutable interfészt. Csak-olvasású [`ILayoutable`](../ilayoutable). |
-| [AsIOverridableText](../../aspose.slides.charts/idatalabel/asioverridabletext) { get; } | Visszaadja az IOverridableText interfészt. Csak-olvasású [`IOverridableText`](../ioverridabletext). |
-| [DataLabelFormat](../../aspose.slides.charts/idatalabel/datalabelformat) { get; } | Visszaadja az adatcímke formátumát. Csak-olvasású [`IDataLabelFormat`](../idatalabelformat). |
-| [IsVisible](../../aspose.slides.charts/idatalabel/isvisible) { get; } | A hamis azt jelenti, hogy az adatcímke nem látható (és ezért az összes Show*-zászló (ShowValue, ...) hamis). Csak-olvasású Boolean. |
-| [ValueFromCell](../../aspose.slides.charts/idatalabel/valuefromcell) { get; set; } | A munkafüzet adatcelláját adja vissza vagy állítja be. Alkalmazott, ha az IDataLabelFormat.ShowLabelValueFromCell tulajdonság igaz. |
+| [AsILayoutable](../../aspose.slides.charts/idatalabel/asilayoutable) { get; } | Visszaadja az ILayoutable interfészt. Csak olvasható [`ILayoutable`](../ilayoutable). |
+| [AsIOverridableText](../../aspose.slides.charts/idatalabel/asioverridabletext) { get; } | Visszaadja az IOverridableText interfészt. Csak olvasható [`IOverridableText`](../ioverridabletext). |
+| [DataLabelFormat](../../aspose.slides.charts/idatalabel/datalabelformat) { get; } | Visszaadja az adatcímke formátumát. Csak olvasható [`IDataLabelFormat`](../idatalabelformat). |
+| [IsVisible](../../aspose.slides.charts/idatalabel/isvisible) { get; } | A hamis azt jelenti, hogy az adatcímke nem látható (és ezért minden Show*-jelző (ShowValue, ...) hamis). Csak olvasható logikai. |
+| [LabelShapeType](../../aspose.slides.charts/idatalabel/labelshapetype) { get; set; } | Lekéri vagy beállítja az adatcímke alakzat típusát. Visszaadja a NotDefined értéket, ha nincs definiált alakzat. |
+| [ValueFromCell](../../aspose.slides.charts/idatalabel/valuefromcell) { get; set; } | Lekéri vagy beállítja a munkafüzet adatcelláját. Alkalmazza, ha az IDataLabelFormat.ShowLabelValueFromCell tulajdonság igaz. |
 
-## Módszerek
+## Metódusok
 
 | Név | Leírás |
 | --- | --- |
 | [GetActualLabelText](../../aspose.slides.charts/idatalabel/getactuallabeltext)() | Visszaadja a tényleges címkeszöveget a DataLabelFormat beállításai vagy a TextFrameForOverriding.Text értéke alapján. |
-| [Hide](../../aspose.slides.charts/idatalabel/hide)() | Az adatcímkét elrejti az összes Show*-zászló (ShowValue, ...) hamis állapotba állításával. Az IsVisible ezután hamis lesz. |
+| [Hide](../../aspose.slides.charts/idatalabel/hide)() | Az adatcímkét rejtetté teszi az összes Show*-jelző (ShowValue, ...) hamis állapotba állításával. Az IsVisible ezután hamis lesz. |
 
 ### Lásd még
 

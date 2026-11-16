@@ -1,14 +1,14 @@
 ---
 title: ValueFromCell
 second_title: Aspose.Sildes för .NET API-referens
-description: Hämtar eller anger arbetsbokens datacell. Tillämpas om IDataLabelFormat.ShowLabelValueFromCell egenskap är sann.
+description: Hämtar eller anger arbetsbokens datacell. Tillämpas om IDataLabelFormat.ShowLabelValueFromCell egenskap är true.
 type: docs
-weight: 140
+weight: 150
 url: /sv/aspose.slides.charts/datalabel/valuefromcell/
 ---
 ## DataLabel.ValueFromCell egenskap
 
-Hämtar eller anger arbetsbokens datacell. Tillämpars om IDataLabelFormat.ShowLabelValueFromCell egenskap är sann.
+Hämtar eller anger datacell i arbetsboken. Tillämpas om IDataLabelFormat.ShowLabelValueFromCell egenskap är true.
 
 ```csharp
 public IChartDataCell ValueFromCell { get; set; }

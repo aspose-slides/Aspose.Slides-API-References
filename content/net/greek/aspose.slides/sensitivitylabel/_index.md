@@ -1,9 +1,9 @@
 ---
 title: SensitivityLabel
-second_title: Aspose.Sildes για .NET Αναφορά API
+second_title: Αναφορά API Aspose.Sildes για .NET
 description: Αναπαριστά την ετικέτα ευαισθησίας από το Microsoft Purview Information Protection.
 type: docs
-weight: 9790
+weight: 9810
 url: /el/aspose.slides/sensitivitylabel/
 ---
 ## SensitivityLabel κλάση
@@ -18,16 +18,16 @@ public sealed class SensitivityLabel : ISensitivityLabel
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [AssignmentMethodType](../../aspose.slides/sensitivitylabel/assignmentmethodtype) { get; set; } | Επιστρέφει ή ορίζει τη μέθοδο εκχώρησης για την ετικέτα ευαισθησίας. Ανάγνωση/εγγραφή [`SensitivityLabelAssignmentType`](../sensitivitylabelassignmenttype). |
-| [ContentMarkTypes](../../aspose.slides/sensitivitylabel/contentmarktypes) { get; } | Επιστρέφει τη λίστα τύπων σήμανσης περιεχομένου που πρέπει να εφαρμοστούν σε ένα αρχείο. |
-| [Id](../../aspose.slides/sensitivitylabel/id) { get; set; } | Επιστρέφει ή ορίζει το αναγνωριστικό της ετικέτας ευαισθησίας. Ανάγνωση/εγγραφή String. |
-| [IsEnabled](../../aspose.slides/sensitivitylabel/isenabled) { get; set; } | Δείχνει εάν η ετικέτα ευαισθησίας είναι ενεργοποιημένη. |
-| [IsRemoved](../../aspose.slides/sensitivitylabel/isremoved) { get; set; } | Δείχνει εάν η ετικέτα ευαισθησίας έχει αφαιρεθεί. |
+| [AssignmentMethodType](../../aspose.slides/sensitivitylabel/assignmentmethodtype) { get; set; } | Επιστρέφει ή ορίζει τη μέθοδο ανάθεσης για την ετικέτα ευαισθησίας. Ανάγνωση/εγγραφή [`SensitivityLabelAssignmentType`](../sensitivitylabelassignmenttype). |
+| [ContentMarkTypes](../../aspose.slides/sensitivitylabel/contentmarktypes) { get; } | Επιστρέφει τη λίστα των τύπων επισήμανσης περιεχομένου που πρέπει να εφαρμοστούν σε ένα αρχείο. |
+| [Id](../../aspose.slides/sensitivitylabel/id) { get; set; } | Επιστρέφει ή ορίζει το id της ετικέτας ευαισθησίας. Ανάγνωση/εγγραφή String. |
+| [IsEnabled](../../aspose.slides/sensitivitylabel/isenabled) { get; set; } | Υποδεικνύει εάν η ετικέτα ευαισθησίας είναι ενεργοποιημένη. |
+| [IsRemoved](../../aspose.slides/sensitivitylabel/isremoved) { get; set; } | Υποδεικνύει εάν η ετικέτα ευαισθησίας καταργήθηκε. |
 | [SiteId](../../aspose.slides/sensitivitylabel/siteid) { get; set; } | Επιστρέφει ή ορίζει το αναγνωριστικό τοποθεσίας του Azure Active Directory (Azure AD) που αντιστοιχεί στην πολιτική ετικέτας ευαισθησίας που περιγράφει την ετικέτα ευαισθησίας. Ανάγνωση/εγγραφή Guid. |
 
 ### Δείτε επίσης
 
-* διασύνδεση [ISensitivityLabel](../isensitivitylabel)
+* διεπαφή [ISensitivityLabel](../isensitivitylabel)
 * χώρος ονομάτων [Aspose.Slides](../../aspose.slides)
 * συναρμολόγηση [Aspose.Slides](../../)
 

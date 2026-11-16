@@ -3,7 +3,7 @@ title: MathRadicalFactory
 second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Permet de créer un radical mathématique
 type: docs
-weight: 8950
+weight: 8970
 url: /fr/aspose.slides.mathtext/mathradicalfactory/
 ---
 ## MathRadicalFactory classe
@@ -16,13 +16,13 @@ public class MathRadicalFactory : IMathRadicalFactory
 
 ## Constructeurs
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
 | [MathRadicalFactory](mathradicalfactory)() | Le constructeur par défaut. |
 
 ## Méthodes
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
 | [CreateMathRadical](../../aspose.slides.mathtext/mathradicalfactory/createmathradical)(IMathElement, IMathElement) | Crée un radical mathématique |
 

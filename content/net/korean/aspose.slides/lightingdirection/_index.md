@@ -1,9 +1,9 @@
 ---
 title: LightingDirection
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 빛 방향을 정의하는 상수입니다.
 type: docs
-weight: 7710
+weight: 7730
 url: /ko/aspose.slides/lightingdirection/
 ---
 ## LightingDirection 열거형
@@ -28,7 +28,7 @@ public enum LightingDirection
 | BottomLeft | `6` |  |
 | Left | `7` |  |
 
-### 관련 항목
+### 참조
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: IFindResultCallback
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Antarmuka callback yang digunakan untuk memperoleh hasil pencarian teks.
+description: Antarmuka callback yang digunakan untuk mendapatkan hasil teks pencarian.
 type: docs
-weight: 5820
+weight: 5840
 url: /id/aspose.slides/ifindresultcallback/
 ---
 ## IFindResultCallback antarmuka
 
-Antarmuka callback yang digunakan untuk memperoleh hasil pencarian teks.
+Antarmuka callback digunakan untuk mendapatkan hasil teks pencarian.
 
 ```csharp
 public interface IFindResultCallback

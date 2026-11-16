@@ -3,7 +3,7 @@ title: RowCollection
 second_title: Aspose.Sildes pro .NET API Reference
 description: Zastupuje kolekci řádků tabulky.
 type: docs
-weight: 9720
+weight: 9740
 url: /cs/aspose.slides/rowcollection/
 ---
 ## RowCollection třída
@@ -18,20 +18,20 @@ public sealed class RowCollection : DomObject<Table>, IRowCollection
 
 | Název | Popis |
 | --- | --- |
-| [Count](../../aspose.slides/rowcollection/count) { get; } | Získá počet řádků skutečně obsažených v kolekci. Pouze pro čtení Int32. |
-| [IsSynchronized](../../aspose.slides/rowcollection/issynchronized) { get; } | Vrací hodnotu označující, zda je přístup ke kolekci synchronizován (vláknově bezpečný). Pouze pro čtení Boolean. |
-| [Item](../../aspose.slides/rowcollection/item) { get; } | Vrací řádek na zadaném indexu. Pouze pro čtení [`Row`](../row). |
-| [SyncRoot](../../aspose.slides/rowcollection/syncroot) { get; } | Vrací kořen synchronizace. Pouze pro čtení Object. |
+| [Count](../../aspose.slides/rowcollection/count) { get; } | Získá počet řádků skutečně obsažených v kolekci. Pouze ke čtení Int32. |
+| [IsSynchronized](../../aspose.slides/rowcollection/issynchronized) { get; } | Vrací hodnotu indikující, zda je přístup ke kolekci synchronizován (vláknově bezpečný). Pouze ke čtení Boolean. |
+| [Item](../../aspose.slides/rowcollection/item) { get; } | Vrací řádek na určeném indexu. Pouze ke čtení [`Row`](../row). |
+| [SyncRoot](../../aspose.slides/rowcollection/syncroot) { get; } | Vrací kořen synchronizace. Pouze ke čtení Object. |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| [AddClone](../../aspose.slides/rowcollection/addclone)(IRow, bool) | Vytvoří kopii zadaného šablonového řádku a vloží ji na konec tabulky. |
+| [AddClone](../../aspose.slides/rowcollection/addclone)(IRow, bool) | Vytvoří kopii zadaného řádku šablony a vloží ji na konec tabulky. |
 | [CopyTo](../../aspose.slides/rowcollection/copyto)(Array, int) | Zkopíruje všechny prvky z kolekce do zadaného pole. |
-| [GetEnumerator](../../aspose.slides/rowcollection/getenumerator)() | Vrací enumerátor, který prochází kolekcí. |
-| [InsertClone](../../aspose.slides/rowcollection/insertclone)(int, IRow, bool) | Vytvoří kopii zadaného šablonového řádku a vloží ji na zadanou pozici v tabulce. |
-| [RemoveAt](../../aspose.slides/rowcollection/removeat)(int, bool) | Odstraní řádek na zadané pozici z tabulky. |
+| [GetEnumerator](../../aspose.slides/rowcollection/getenumerator)() | Vrací enumerátor, který iteruje přes kolekci. |
+| [InsertClone](../../aspose.slides/rowcollection/insertclone)(int, IRow, bool) | Vytvoří kopii zadaného řádku šablony a vloží ji na určenou pozici v tabulce. |
+| [RemoveAt](../../aspose.slides/rowcollection/removeat)(int, bool) | Odstraní řádek na určené pozici z tabulky. |
 
 ### Viz také
 

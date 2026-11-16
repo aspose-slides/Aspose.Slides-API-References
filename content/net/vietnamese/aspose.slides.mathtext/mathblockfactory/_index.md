@@ -1,9 +1,9 @@
 ---
 title: MathBlockFactory
-second_title: Tham chiếu API Aspose.Sildes cho .NET
+second_title: Aspose.Sildes cho Tham chiếu API .NET
 description: Cho phép tạo một khối toán học
 type: docs
-weight: 8600
+weight: 8620
 url: /vi/aspose.slides.mathtext/mathblockfactory/
 ---
 ## MathBlockFactory lớp
@@ -25,12 +25,12 @@ public class MathBlockFactory : IMathBlockFactory
 | Tên | Mô tả |
 | --- | --- |
 | [CreateMathBlock](../../aspose.slides.mathtext/mathblockfactory/createmathblock#createmathblock)() | Tạo một khối toán học |
-| [CreateMathBlock](../../aspose.slides.mathtext/mathblockfactory/createmathblock#createmathblock_1)(IMathElement) | Tạo một khối toán học và đặt phần tử vào trong đó |
-| [CreateMathBlock](../../aspose.slides.mathtext/mathblockfactory/createmathblock#createmathblock_2)(IMathElementCollection) | Tạo một khối toán học và đặt các phần tử vào trong đó |
+| [CreateMathBlock](../../aspose.slides.mathtext/mathblockfactory/createmathblock#createmathblock_1)(IMathElement) | Tạo một khối toán học và đặt phần tử vào trong nó |
+| [CreateMathBlock](../../aspose.slides.mathtext/mathblockfactory/createmathblock#createmathblock_2)(IMathElementCollection) | Tạo một khối toán học và đặt các phần tử vào trong nó |
 
 ### Ghi chú
 
-Để tương thích COM
+Cho khả năng tương thích COM
 
 ### Xem thêm
 

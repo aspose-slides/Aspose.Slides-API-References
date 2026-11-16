@@ -1,14 +1,14 @@
 ---
 title: IEightDirectionTransition
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Acht-Richtungs-Folienübergangseffekt.
+description: Acht Richtungen Folienübergangseffekt.
 type: docs
-weight: 10070
+weight: 10090
 url: /de/aspose.slides.slideshow/ieightdirectiontransition/
 ---
 ## IEightDirectionTransition Schnittstelle
 
-Acht-Richtungen-Folienübergangseffekt.
+Acht Richtungen Folienübergangseffekt.
 
 ```csharp
 public interface IEightDirectionTransition : ITransitionValueBase
@@ -18,7 +18,7 @@ public interface IEightDirectionTransition : ITransitionValueBase
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/ieightdirectiontransition/asitransitionvaluebase) { get; } | Ermöglicht das Abrufen der Basis-ITransitionValueBase-Schnittstelle. Nur lesbar [`ITransitionValueBase`](../itransitionvaluebase). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/ieightdirectiontransition/asitransitionvaluebase) { get; } | Ermöglicht das Abrufen der Basis ITransitionValueBase Schnittstelle. Nur lesbar [`ITransitionValueBase`](../itransitionvaluebase). |
 | [Direction](../../aspose.slides.slideshow/ieightdirectiontransition/direction) { get; set; } | Richtung des Übergangs. Lesen/Schreiben [`TransitionEightDirectionType`](../transitioneightdirectiontype). |
 
 ### Siehe auch

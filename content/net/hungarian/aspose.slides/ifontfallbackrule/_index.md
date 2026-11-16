@@ -1,14 +1,14 @@
 ---
 title: IFontFallBackRule
-second_title: Aspose.Sildes .NET API Referencia
-description: A betűkészlet visszalépési szabályt képviseli
+second_title: Aspose.Sildes .NET API hivatkozás
+description: A betűtípus visszaeső szabályt képviseli
 type: docs
-weight: 5850
+weight: 5870
 url: /hu/aspose.slides/ifontfallbackrule/
 ---
 ## IFontFallBackRule interfész
 
-A betűkészlet visszalépési szabályt képvisel
+A betűtípus visszaeső szabályt képviseli
 
 ```csharp
 public interface IFontFallBackRule
@@ -18,8 +18,8 @@ public interface IFontFallBackRule
 
 | Név | Leírás |
 | --- | --- |
-| [Count](../../aspose.slides/ifontfallbackrule/count) { get; } | Visszaadja az adott tartományhoz ténylegesen definiált betűkészletek számát. |
-| [Item](../../aspose.slides/ifontfallbackrule/item) { get; } | Visszaadja a megadott indexnél lévő betűkészlet nevét. |
+| [Count](../../aspose.slides/ifontfallbackrule/count) { get; } | Visszaadja a tartományhoz ténylegesen definiált betűtípusok számát. |
+| [Item](../../aspose.slides/ifontfallbackrule/item) { get; } | Visszaadja a megadott indexnél lévő betűtípus nevét. |
 | [RangeEndIndex](../../aspose.slides/ifontfallbackrule/rangeendindex) { get; } | Visszaadja a folyamatos Unicode-tartomány utolsó indexét. |
 | [RangeStartIndex](../../aspose.slides/ifontfallbackrule/rangestartindex) { get; } | Visszaadja a folyamatos Unicode-tartomány első indexét. |
 
@@ -27,14 +27,14 @@ public interface IFontFallBackRule
 
 | Név | Leírás |
 | --- | --- |
-| [AddFallBackFonts](../../aspose.slides/ifontfallbackrule/addfallbackfonts#addfallbackfonts)(string) | Új betűkészletet (vagy betűkészleteket) ad a FallBack betűkészletek listájához. |
-| [AddFallBackFonts](../../aspose.slides/ifontfallbackrule/addfallbackfonts#addfallbackfonts_1)(string[]) | Új betűkészleteket ad a FallBack betűkészletek listájához. |
-| [Clear](../../aspose.slides/ifontfallbackrule/clear)() | Eltávolítja az összes betűkészletet a listából. |
+| [AddFallBackFonts](../../aspose.slides/ifontfallbackrule/addfallbackfonts#addfallbackfonts)(string) | Új betűtípust (betűtípusokat) ad a FallBack betűtípusok listájához. |
+| [AddFallBackFonts](../../aspose.slides/ifontfallbackrule/addfallbackfonts#addfallbackfonts_1)(string[]) | Új betűtípusokat ad a FallBack betűtípusok listájához. |
+| [Clear](../../aspose.slides/ifontfallbackrule/clear)() | Eltávolítja az összes betűtípust a listáról. |
 | [IndexOf](../../aspose.slides/ifontfallbackrule/indexof)(string) | Visszaadja a megadott szabály indexét a gyűjteményben. |
-| [Remove](../../aspose.slides/ifontfallbackrule/remove)(string) | Eltávolítja a megadott FallBack betűkészlet első előfordulását a listáról. |
-| [RemoveAt](../../aspose.slides/ifontfallbackrule/removeat)(int) | Eltávolítja a FallBack betűkészletet a lista megadott indexén. |
-| [ToArray](../../aspose.slides/ifontfallbackrule/toarray#toarray)() | Létrehoz és visszaad egy tömböt az összes FallBack betűkészlettel ehhez a szabályhoz. |
-| [ToArray](../../aspose.slides/ifontfallbackrule/toarray#toarray_1)(int, int) | Létrehoz és visszaad egy tömböt az összes FallBack betűkészlettel a lista megadott tartományából. |
+| [Remove](../../aspose.slides/ifontfallbackrule/remove)(string) | Eltávolítja a listából egy adott FallBack betűtípus első előfordulását. |
+| [RemoveAt](../../aspose.slides/ifontfallbackrule/removeat)(int) | Eltávolítja a listában a megadott indexnél lévő FallBack betűtípust. |
+| [ToArray](../../aspose.slides/ifontfallbackrule/toarray#toarray)() | Létrehozza és visszaadja az összes FallBack betűtípust tartalmazó tömböt ehhez a szabályhoz. |
+| [ToArray](../../aspose.slides/ifontfallbackrule/toarray#toarray_1)(int, int) | Létrehozza és visszaadja a megadott tartományban lévő összes FallBack betűtípust tartalmazó tömböt a listából. |
 
 ### Lásd még
 

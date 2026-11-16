@@ -1,14 +1,14 @@
 ---
 title: IChartDataPointLevelsManager
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: डेटा पॉइंट स्तरों का कंटेनर। Treeamp और Sunburst श्रृंखलाओं के लिए लागू किया गया है। डेटा पॉइंट स्तरों की अनुक्रमण शून्य-आधारित है।
+description: डेटा पॉइंट लेवल्स का कंटेनर। Treeamp और Sunburst सीरीज के लिए लागू किया गया है। डेटा पॉइंट लेवल्स का अनुक्रमण शून्य-आधारित है।
 type: docs
-weight: 1850
+weight: 1870
 url: /hi/aspose.slides.charts/ichartdatapointlevelsmanager/
 ---
 ## IChartDataPointLevelsManager इंटरफ़ेस
 
-डेटा पॉइंट स्तरों का कंटेनर। Treeamp और Sunburst सीरीज़ के लिए लागू किया गया है। डेटा पॉइंट स्तरों की अनुक्रमण शून्य-आधारित है।
+डेटा पॉइंट लेवल्स का कंटेनर। Treeamp और Sunburst सीरीज के लिए लागू किया गया है। डेटा पॉइंट लेवल्स का इंडेक्सिंग शून्य-आधारित है।
 
 ```csharp
 public interface IChartDataPointLevelsManager
@@ -18,10 +18,10 @@ public interface IChartDataPointLevelsManager
 
 | नाम | विवरण |
 | --- | --- |
-| [Count](../../aspose.slides.charts/ichartdatapointlevelsmanager/count) { get; } | डेटा पॉइंट स्तरों की गिनती लौटाता है। |
-| [Item](../../aspose.slides.charts/ichartdatapointlevelsmanager/item) { get; } | परिभाषित स्तर के लिए IChartDataPointLevel ऑब्जेक्ट लौटाता है। |
+| [Count](../../aspose.slides.charts/ichartdatapointlevelsmanager/count) { get; } | डेटा पॉइंट लेवल्स की गिनती लौटाता है। |
+| [Item](../../aspose.slides.charts/ichartdatapointlevelsmanager/item) { get; } | परिभाषित लेवल के लिए IChartDataPointLevel ऑब्जेक्ट लौटाता है। |
 
-### देखें
+### देखें भी
 
 * नामस्थान [Aspose.Slides.Charts](../../aspose.slides.charts)
 * असेंबली [Aspose.Slides](../../)

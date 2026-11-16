@@ -1,30 +1,31 @@
 ---
 title: Output
-second_title: Aspose.Sildes .NET API Referenciája
+second_title: Aspose.Sildes .NET API referencia
 description: A IWebDocument számára kimeneti elemek gyűjteményét képviseli.
 type: docs
-weight: 4640
+weight: 4660
 url: /hu/aspose.slides.export.web/output/
 ---
 ## Kimeneti osztály
 
-Kimeneti elemek gyűjteményét képviseli a !:IWebDocument számára.
+Képviseli a kimeneti elemek gyűjteményét a !:IWebDocument számára.
 
 ```csharp
 public sealed class Output
 ```
 
-## Metódusok
+## Módszerek
 
 | Név | Leírás |
 | --- | --- |
-| [Add](../../aspose.slides.export.web/output/add#add_1)(string, IImage) | Hozzáad egy kimeneti elemet a képhez. |
-| [Add](../../aspose.slides.export.web/output/add#add_2)(string, IPPImage) | Hozzáad egy kimeneti elemet a képhez. |
-| [Add](../../aspose.slides.export.web/output/add#add_3)(string, IVideo) | Hozzáad egy kimeneti elemet a videóhoz. |
-| [Add](../../aspose.slides.export.web/output/add#add_4)(string, string) | Hozzáad egy kimeneti elemet a szöveg tartalmához. |
-| [Add](../../aspose.slides.export.web/output/add#add)(string, IFontData, FontStyleType) | Létrehoz és hozzáad egy kimeneti fájl elemet a megadott betűtípushoz. |
-| [Add&lt;TContextObject&gt;](../../aspose.slides.export.web/output/add#add_5)(string, string, TContextObject) | Hozzáad egy kimeneti elemet a kontextusobjektumhoz. |
-| [BindResource](../../aspose.slides.export.web/output/bindresource)(IOutputFile, object) | Erőforrást köt a kimeneti fájlhoz. |
+| [Add](../../aspose.slides.export.web/output/add#add)(string, IAudio) | Hozzáad egy kimeneti elemet a hanghoz. |
+| [Add](../../aspose.slides.export.web/output/add#add_2)(string, IImage) | Hozzáad egy kimeneti elemet a képre. |
+| [Add](../../aspose.slides.export.web/output/add#add_3)(string, IPPImage) | Hozzáad egy kimeneti elemet a képre. |
+| [Add](../../aspose.slides.export.web/output/add#add_4)(string, IVideo) | Hozzáad egy kimeneti elemet a videóhoz. |
+| [Add](../../aspose.slides.export.web/output/add#add_5)(string, string) | Hozzáad egy kimeneti elemet a szövegtartalomhoz. |
+| [Add](../../aspose.slides.export.web/output/add#add_1)(string, IFontData, FontStyleType) | Létrehozza és hozzáad egy kimeneti fájl elemet a megadott betűtípushoz. |
+| [Add&lt;TContextObject&gt;](../../aspose.slides.export.web/output/add#add_6)(string, string, TContextObject) | Hozzáad egy kimeneti elemet a környezetobjektumhoz. |
+| [BindResource](../../aspose.slides.export.web/output/bindresource)(IOutputFile, object) | Összekapcsolja az erőforrást a kimeneti fájllal. |
 | [GetResourcePath](../../aspose.slides.export.web/output/getresourcepath)(object) | Visszaadja az adott erőforrás útvonalát. |
 
 ### Lásd még

@@ -1,14 +1,14 @@
 ---
 title: IBlurEffectiveData
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: วัตถุที่ไม่เปลี่ยนแปลงได้ซึ่งเป็นตัวแทนของเอฟเฟกต์ Blur ที่นำมาใช้กับรูปร่างทั้งหมดรวมถึงการเติมสีของมัน ทุกช่องสีรวมถึงอัลฟ่าถูกกระทบ.
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งแสดงถึงเอฟเฟกต์ Blur ที่นำไปใช้กับรูปทรงทั้งหมดรวมถึงการเติมสีของมัน. ทุกช่องสีรวมถึงอัลฟ่าได้รับผลกระทบ.
 type: docs
-weight: 3190
+weight: 3210
 url: /th/aspose.slides.effects/iblureffectivedata/
 ---
 ## IBlurEffectiveData อินเทอร์เฟซ
 
-วัตถุที่ไม่สามารถเปลี่ยนแปลงได้ซึ่งเป็นตัวแทนของเอฟเฟกต์ Blur ที่นำมาใช้กับรูปร่างทั้งหมด รวมถึงการเติมสีของมัน ทุกช่องสีรวมถึงอัลฟ่าถูกกระทบเช่นกัน
+อ็อบเจกต์ที่ไม่เปลี่ยนแปลงซึ่งแสดงถึงเอฟเฟกต์ Blur ที่นำไปใช้กับรูปทรงทั้งหมด รวมถึงการเติมสีของมัน. ทุกช่องสีรวมถึงอัลฟ่าได้รับผลกระทบ.
 
 ```csharp
 public interface IBlurEffectiveData : IEffectEffectiveData
@@ -16,11 +16,11 @@ public interface IBlurEffectiveData : IEffectEffectiveData
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| ชื่อ | รายละเอียด |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/iblureffectivedata/asieffecteffectivedata) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ base IEffectEffectiveData ได้. อ่านอย่างเดียว [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Grow](../../aspose.slides.effects/iblureffectivedata/grow) { get; } | กำหนดว่าขอบเขตของวัตถุควรขยายจากการเบลอหรือไม่. true หมายถึงขอบเขตถูกขยายในขณะที่ false หมายถึงไม่ขยาย. อ่านอย่างเดียว Boolean. |
-| [Radius](../../aspose.slides.effects/iblureffectivedata/radius) { get; } | คืนค่า หรือ ตั้งค่ารัศมีเบลอ. อ่านอย่างเดียว Double. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/iblureffectivedata/asieffecteffectivedata) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IEffectEffectiveData พื้นฐานได้. อ่านอย่างเดียว [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Grow](../../aspose.slides.effects/iblureffectivedata/grow) { get; } | กำหนดว่าขอบเขตของอ็อบเจกต์ควรขยายขึ้นเป็นผลจากการเบลอหรือไม่. True หมายถึงขอบเขตถูกขยายในขณะที่ false หมายถึงไม่ถูกขยาย. อ่านอย่างเดียว Boolean. |
+| [Radius](../../aspose.slides.effects/iblureffectivedata/radius) { get; } | คืนค่าหรือกำหนดรัศมีการเบลอ. อ่านอย่างเดียว Double. |
 
 ### ดูเพิ่มเติม
 

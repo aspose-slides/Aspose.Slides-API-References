@@ -1,9 +1,9 @@
 ---
 title: ITextSearchOptions
-second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+second_title: Aspose.Sildes สำหรับ .NET API Reference
 description: แสดงตัวเลือกที่สามารถใช้เพื่อค้นหาข้อความใน Presentation Slide หรือ TextFrame.
 type: docs
-weight: 7300
+weight: 7320
 url: /th/aspose.slides/itextsearchoptions/
 ---
 ## ITextSearchOptions อินเทอร์เฟซ
@@ -18,9 +18,9 @@ public interface ITextSearchOptions
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [CaseSensitive](../../aspose.slides/itextsearchoptions/casesensitive) { get; set; } | ตั้งค่า true เพื่อใช้การค้นหาที่คำนึงถึงตัวพิมพ์ใหญ่และเล็ก, false - หากไม่ใช่. อ่าน/เขียน Boolean. |
-| [IncludeNotes](../../aspose.slides/itextsearchoptions/includenotes) { get; set; } | ตั้งค่า `true` เพื่อรวมข้อความที่อยู่ในบันทึกสไลด์เมื่อทำการค้นหาข้อความ, การแทนที่, หรือการไฮไลต์. ค่าเริ่มต้นคือ `false`. |
-| [WholeWordsOnly](../../aspose.slides/itextsearchoptions/wholewordsonly) { get; set; } | ตั้งค่า true เพื่อจับคู่เฉพาะคำเต็ม, false - หากไม่ใช่. อ่าน/เขียน Boolean. |
+| [CaseSensitive](../../aspose.slides/itextsearchoptions/casesensitive) { get; set; } | กำหนด true เพื่อใช้การค้นหาแบบแยกแยะตัวพิมพ์ใหญ่-เล็ก, false - ในกรณีอื่น. อ่าน/เขียน Boolean. |
+| [IncludeNotes](../../aspose.slides/itextsearchoptions/includenotes) { get; set; } | กำหนด `true` เพื่อรวมข้อความที่อยู่ในบันทึกสไลด์เมื่อทำการค้นหาข้อความ, การแทนที่, หรือการเน้น. ค่าเริ่มต้นคือ `false`. |
+| [WholeWordsOnly](../../aspose.slides/itextsearchoptions/wholewordsonly) { get; set; } | กำหนด true เพื่อจับคู่เฉพาะคำเต็ม, false - ในกรณีอื่น. อ่าน/เขียน Boolean. |
 
 ### ดูเพิ่มเติม
 

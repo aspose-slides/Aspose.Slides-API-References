@@ -1,14 +1,14 @@
 ---
 title: PictureFillMode
-second_title: Aspose.Sildes pro .NET API Reference
-description: Určuje, jak bude obrázek vyplňovat oblast.
+second_title: Aspose.Sildes pro .NET referenci API
+description: Určuje, jak se obrázek vyplní oblast.
 type: docs
-weight: 9400
+weight: 9420
 url: /cs/aspose.slides/picturefillmode/
 ---
-## Výčtový typ PictureFillMode
+## PictureFillMode enumerace
 
-Určuje, jak bude obrázek vyplňovat oblast.
+Určuje, jak se obrázek vyplní oblast.
 
 ```csharp
 public enum PictureFillMode

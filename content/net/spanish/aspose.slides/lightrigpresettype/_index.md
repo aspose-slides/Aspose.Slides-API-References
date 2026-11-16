@@ -1,14 +1,14 @@
 ---
 title: LightRigPresetType
-second_title: Aspose.Sildes para .NET Referencia de API
-description: Constantes que definen tipos de luz preestablecidos.
+second_title: Referencia de API de Aspose.Sildes para .NET
+description: Constantes que definen los tipos de luz preestablecidos.
 type: docs
-weight: 7700
+weight: 7720
 url: /es/aspose.slides/lightrigpresettype/
 ---
 ## LightRigPresetType enumeración
 
-Constantes que definen tipos de luz preestablecidos.
+Constantes que definen los tipos de luz preestablecidos.
 
 ```csharp
 public enum LightRigPresetType

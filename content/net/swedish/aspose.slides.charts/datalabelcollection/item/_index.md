@@ -3,7 +3,7 @@ title: Item
 second_title: Aspose.Sildes för .NET API-referens
 description: Hämtar dataetiketten för datapunkten med det angivna indexet.
 type: docs
-weight: 60
+weight: 70
 url: /sv/aspose.slides.charts/datalabelcollection/item/
 ---
 ## DataLabelCollection indexerare

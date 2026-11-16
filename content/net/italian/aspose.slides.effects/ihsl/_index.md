@@ -1,14 +1,14 @@
 ---
 title: IHSL
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta un effetto Hue/Saturation/Luminance. L'hue, la saturazione e la luminanza possono essere regolati singolarmente rispetto al valore corrente.
+description: Rappresenta un effetto di tonalità/saturazione/luminanza. La tonalità, la saturazione e la luminanza possono ciascuna essere regolate rispetto al valore corrente.
 type: docs
-weight: 3360
+weight: 3380
 url: /it/aspose.slides.effects/ihsl/
 ---
-## IHSL interfaccia
+## Interfaccia IHSL
 
-Rappresenta un effetto Hue/Saturation/Luminance. L'hue, la saturazione e la luminanza possono essere regolati singolarmente rispetto al valore corrente.
+Rappresenta un effetto di tonalità/saturazione/luminanza. La tonalità, la saturazione e la luminanza possono ciascuna essere regolate rispetto al valore corrente.
 
 ```csharp
 public interface IHSL : IAccessiblePVIObject<IHSLEffectiveData>, IImageTransformOperation
@@ -16,9 +16,9 @@ public interface IHSL : IAccessiblePVIObject<IHSLEffectiveData>, IImageTransform
 
 ## Proprietà
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ihsl/asiaccessiblepviobject) { get; } | Consente di ottenere l'interfaccia di base IAccessiblePVIObject. Sola lettura [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ihsl/asiaccessiblepviobject) { get; } | Consente di ottenere l'interfaccia base IAccessiblePVIObject. Sola lettura [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
 | [AsIImageTransformOperation](../../aspose.slides.effects/ihsl/asiimagetransformoperation) { get; } | Restituisce l'interfaccia IImageTransformOperation. Sola lettura [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### Vedi anche

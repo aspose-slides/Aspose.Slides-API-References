@@ -1,14 +1,14 @@
 ---
 title: MarkdownSaveOptions.MarkdownSvgImageSavingHandler
 second_title: Aspose.Sildes för .NET API-referens
-description: Kallas för varje SVG-bild under Markdown-export. Returnera true för att använda den angivna länken eller false för att tillämpa standardlagringslogiken.
+description: Anropas för varje SVG-bild under Markdown-export. Returnera true för att använda den specificerade länken eller false för att tillämpa standard sparlogik.
 type: docs
-weight: 4270
+weight: 4290
 url: /sv/aspose.slides.export/markdownsaveoptions.markdownsvgimagesavinghandler/
 ---
-## MarkdownSaveOptions.MarkdownSvgImageSavingHandler delegate
+## MarkdownSaveOptions.MarkdownSvgImageSavingHandler delegat
 
-Kallas för varje SVG-bild under Markdown-export. Returnera `true` för att använda den angivna *länk*, eller `false` för att tillämpa standardlagringslogiken.
+Kallas för varje SVG-bild under Markdown-export. Returnera `true` för att använda den specificerade *länk*, eller `false` för att tillämpa standard sparlogik.
 
 ```csharp
 public delegate bool MarkdownSvgImageSavingHandler(ISvgImage svgImage, ref string link);
@@ -17,9 +17,9 @@ public delegate bool MarkdownSvgImageSavingHandler(ISvgImage svgImage, ref strin
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | svgImage | ISvgImage | SVG-bilden som exporteras. |
-| link | String& | Markdown-länken som ska användas när `true` returneras. |
+| link | String& | Markdown-länken att använda när `true` returneras. |
 
-### Se också
+### Se även
 
 * gränssnitt [ISvgImage](../../aspose.slides/isvgimage)
 * klass [MarkdownSaveOptions](../markdownsaveoptions)

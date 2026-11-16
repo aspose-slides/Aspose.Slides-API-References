@@ -1,28 +1,28 @@
 ---
 title: ErrorBarValueType
-second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili tipe nilai batang galat
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Mewakili tipe nilai batang kesalahan
 type: docs
-weight: 1650
+weight: 1660
 url: /id/aspose.slides.charts/errorbarvaluetype/
 ---
-## enumerasi ErrorBarValueType
+## ErrorBarValueType enumeration
 
-Mewakili tipe nilai batang galat
+Mewakili tipe nilai batang kesalahan
 
 ```csharp
 public enum ErrorBarValueType
 ```
 
-### Nilai
+### Values
 
 | Nama | Nilai | Deskripsi |
 | --- | --- | --- |
-| Custom | `0` | Menentukan bahwa panjang batang galat ditentukan oleh elemen Plus dan Minus. |
-| Fixed | `1` | Menentukan bahwa panjang batang galat adalah nilai tetap yang ditentukan oleh Error Bar Value. |
-| Percentage | `2` | Menentukan bahwa panjang batang galat adalah persentase Error Bar Value dari data. |
-| StandardDeviation | `3` | Menentukan bahwa panjang batang galat adalah deviasi standar Error Bar Value dari data. |
-| StandardError | `4` | Menentukan bahwa panjang batang galat adalah kesalahan standar Error Bar Value dari data. |
+| Custom | `0` | Menentukan bahwa panjang batang kesalahan ditentukan oleh elemen Plus dan Minus. |
+| Fixed | `1` | Menentukan bahwa panjang batang kesalahan adalah nilai tetap yang ditentukan oleh Error Bar Value. |
+| Percentage | `2` | Menentukan bahwa panjang batang kesalahan adalah persentase Error Bar Value dari data. |
+| StandardDeviation | `3` | Menentukan bahwa panjang batang kesalahan adalah deviasi standar Error Bar Value dari data. |
+| StandardError | `4` | Menentukan bahwa panjang batang kesalahan adalah kesalahan standar Error Bar Value dari data. |
 
 ### Lihat Juga
 

@@ -3,7 +3,7 @@ title: IColorScheme
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Speichert themendefinierte Farben.
 type: docs
-weight: 11150
+weight: 11170
 url: /de/aspose.slides.theme/icolorscheme/
 ---
 ## IColorScheme Schnittstelle
@@ -24,7 +24,7 @@ public interface IColorScheme : ISlideComponent
 | [Accent4](../../aspose.slides.theme/icolorscheme/accent4) { get; } | Vierte Akzentfarbe im Schema. Nur lesbar [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [Accent5](../../aspose.slides.theme/icolorscheme/accent5) { get; } | Fünfte Akzentfarbe im Schema. Nur lesbar [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [Accent6](../../aspose.slides.theme/icolorscheme/accent6) { get; } | Sechste Akzentfarbe im Schema. Nur lesbar [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [AsISlideComponent](../../aspose.slides.theme/icolorscheme/asislidecomponent) { get; } | Gibt die ISlideComponent-Schnittstelle zurück. Nur lesbar [`ISlideComponent`](../../aspose.slides/islidecomponent). |
+| [AsISlideComponent](../../aspose.slides.theme/icolorscheme/asislidecomponent) { get; } | Gibt die ISlideComponent Schnittstelle zurück. Nur lesbar [`ISlideComponent`](../../aspose.slides/islidecomponent). |
 | [Dark1](../../aspose.slides.theme/icolorscheme/dark1) { get; } | Erste dunkle Farbe im Schema. Nur lesbar [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [Dark2](../../aspose.slides.theme/icolorscheme/dark2) { get; } | Zweite dunkle Farbe im Schema. Nur lesbar [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [FollowedHyperlink](../../aspose.slides.theme/icolorscheme/followedhyperlink) { get; } | Farbe für besuchte Hyperlinks. Nur lesbar [`IColorFormat`](../../aspose.slides/icolorformat). |

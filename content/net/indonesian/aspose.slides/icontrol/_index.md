@@ -1,14 +1,14 @@
 ---
 title: IControl
-second_title: Aspose.Sildes untuk .NET Referensi API
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili kontrol ActiveX.
 type: docs
-weight: 5630
+weight: 5650
 url: /id/aspose.slides/icontrol/
 ---
 ## IControl antarmuka
 
-Represents an ActiveX control.
+Mewakili kontrol ActiveX.
 
 ```csharp
 public interface IControl : ISlideComponent
@@ -16,16 +16,16 @@ public interface IControl : ISlideComponent
 
 ## Properti
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
-| [ActiveXControlBinary](../../aspose.slides/icontrol/activexcontrolbinary) { get; } | Menentukan keberlanjutan kontrol ActiveX ketika metode yang digunakan untuk menyimpan adalah PersistStream, PersistStreamInit, atau PersistStorage. |
+| [ActiveXControlBinary](../../aspose.slides/icontrol/activexcontrolbinary) { get; } | Menentukan persistensi kontrol ActiveX ketika metode yang digunakan untuk persisten adalah PersistStream, PersistStreamInit, atau PersistStorage. |
 | [AsISlideComponent](../../aspose.slides/icontrol/asislidecomponent) { get; } | Mengizinkan mendapatkan antarmuka dasar ISlideComponent. Hanya-baca [`ISlideComponent`](../islidecomponent). |
-| [ClassId](../../aspose.slides/icontrol/classid) { get; } | Mendapatkan id kelas dari kontrol ini. Hanya-baca Guid. |
-| [Frame](../../aspose.slides/icontrol/frame) { get; set; } | Mengembalikan atau menyetel bingkai kontrol. Baca/tulis [`IShapeFrame`](../ishapeframe). |
+| [ClassId](../../aspose.slides/icontrol/classid) { get; } | Mendapatkan id kelas kontrol ini. Hanya-baca Guid. |
+| [Frame](../../aspose.slides/icontrol/frame) { get; set; } | Mengembalikan atau mengatur bingkai kontrol. Baca/tulis [`IShapeFrame`](../ishapeframe). |
 | [Name](../../aspose.slides/icontrol/name) { get; set; } | Mengembalikan nama kontrol ini. Baca/tulis String. |
 | [Persistence](../../aspose.slides/icontrol/persistence) { get; } | Mendapatkan metode yang digunakan untuk menyimpan properti kontrol ActiveX. Hanya-baca [`PersistenceType`](../persistencetype). |
 | [Properties](../../aspose.slides/icontrol/properties) { get; } | Mengembalikan koleksi properti ActiveX. Hanya-baca [`IControlPropertiesCollection`](../icontrolpropertiescollection). |
-| [SubstitutePictureFormat](../../aspose.slides/icontrol/substitutepictureformat) { get; } | Mengembalikan objek properti pengisian gambar ControlEx. Hanya-baca [`IPictureFillFormat`](../ipicturefillformat). |
+| [SubstitutePictureFormat](../../aspose.slides/icontrol/substitutepictureformat) { get; } | Mengembalikan objek properti isi gambar ControlEx. Hanya-baca [`IPictureFillFormat`](../ipicturefillformat). |
 
 ### Lihat Juga
 

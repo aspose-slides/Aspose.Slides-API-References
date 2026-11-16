@@ -1,9 +1,9 @@
 ---
 title: IParagraphFactory
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
+second_title: Aspose.Sildes .NET के लिए API संदर्भ
 description: पैराग्राफ बनाने की अनुमति देता है
 type: docs
-weight: 6580
+weight: 6600
 url: /hi/aspose.slides/iparagraphfactory/
 ---
 ## IParagraphFactory इंटरफ़ेस
@@ -16,16 +16,16 @@ public interface IParagraphFactory
 
 ## विधियाँ
 
-| नाम | विवरण |
+| Name | Description |
 | --- | --- |
 | [CreateParagraph](../../aspose.slides/iparagraphfactory/createparagraph#createparagraph)() | एक नया खाली पैराग्राफ बनाता है। |
-| [CreateParagraph](../../aspose.slides/iparagraphfactory/createparagraph#createparagraph_1)(IParagraph) | निर्दिष्ट पैराग्राफ डेटा का उपयोग करके एक नया पैराग्राफ बनाता है। |
+| [CreateParagraph](../../aspose.slides/iparagraphfactory/createparagraph#createparagraph_1)(IParagraph) | निर्दिष्ट पैराग्राफ डेटा का उपयोग करके नया पैराग्राफ बनाता है। |
 
 ### टिप्पणी
 
-COM संगतता के लिये।
+COM संगतता के लिए।
 
-### देखें
+### संबंधित देखें
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: IXpsOptions
-second_title: Aspose.Sildes .NET API referencia
-description: Lehetőségeket biztosít, amelyek szabályozzák, hogyan mentődik a bemutató XPS formátumban.
+second_title: Aspose.Sildes .NET API-referencia
+description: Lehetőségeket biztosít, amelyek szabályozzák, hogy egy bemutató hogyan legyen mentve XPS formátumban.
 type: docs
-weight: 4200
+weight: 4220
 url: /hu/aspose.slides.export/ixpsoptions/
 ---
 ## IXpsOptions interfész
 
-Lehetőségeket biztosít, amelyek szabályozzák, hogyan mentődik a bemutató XPS formátumban.
+Lehetőségeket biztosít, amelyek szabályozzák, hogy egy bemutató hogyan legyen mentve XPS formátumban.
 
 ```csharp
 public interface IXpsOptions : ISaveOptions
@@ -19,9 +19,9 @@ public interface IXpsOptions : ISaveOptions
 | Név | Leírás |
 | --- | --- |
 | [AsISaveOptions](../../aspose.slides.export/ixpsoptions/asisaveoptions) { get; } | Visszaadja az ISaveOptions interfészt. Csak olvasható [`ISaveOptions`](../isaveoptions). |
-| [DrawSlidesFrame](../../aspose.slides.export/ixpsoptions/drawslidesframe) { get; set; } | Igaz, ha fekete keretet kell rajzolni minden diára. Olvasás/írás Boolean. |
-| [SaveMetafilesAsPng](../../aspose.slides.export/ixpsoptions/savemetafilesaspng) { get; set; } | Igaz, ha a bemutatóban használt összes metafájlt PNG képekké kell konvertálni. Olvasás/írás Boolean. |
-| [ShowHiddenSlides](../../aspose.slides.export/ixpsoptions/showhiddenslides) { get; set; } | Megadja, hogy a generált dokumentum tartalmazzon-e rejtett diákat vagy sem. Alapértelmezett érték a `false`. |
+| [DrawSlidesFrame](../../aspose.slides.export/ixpsoptions/drawslidesframe) { get; set; } | Igaz, ha fekete keretet rajzol minden diára. Olvasás/írás Boolean. |
+| [SaveMetafilesAsPng](../../aspose.slides.export/ixpsoptions/savemetafilesaspng) { get; set; } | Igaz, ha a bemutatóban használt összes metafájlt PNG képekké alakítja. Olvasás/írás Boolean. |
+| [ShowHiddenSlides](../../aspose.slides.export/ixpsoptions/showhiddenslides) { get; set; } | Megadja, hogy a létrehozott dokumentum tartalmazzon-e rejtett diákot vagy sem. Alapértelmezett érték `false`. |
 
 ### Lásd még
 

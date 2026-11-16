@@ -1,9 +1,9 @@
 ---
 title: ImageCollection
-second_title: Aspose.Slides för .NET API-referens
+second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en samling av PPImage.
 type: docs
-weight: 7420
+weight: 7440
 url: /sv/aspose.slides/imagecollection/
 ---
 ## ImageCollection klass
@@ -16,28 +16,28 @@ public sealed class ImageCollection : DomObject<Presentation>, IImageCollection
 
 ## Egenskaper
 
-| Name | Description |
+| Namn | Beskrivning |
 | --- | --- |
 | [Count](../../aspose.slides/imagecollection/count) { get; } | Returnerar antalet bilder i samlingen. Skrivskyddad Int32. |
 | [IsSynchronized](../../aspose.slides/imagecollection/issynchronized) { get; } | Returnerar ett värde som indikerar om åtkomst till samlingen är synkroniserad (trådsäker). Skrivskyddad Boolean. |
 | [Item](../../aspose.slides/imagecollection/item) { get; } | Hämtar elementet på det angivna indexet. Skrivskyddad [`IPPImage`](../ippimage). |
-| [SyncRoot](../../aspose.slides/imagecollection/syncroot) { get; } | Returnerar en synkroniseringsrot. Skrivskyddad Object. |
+| [SyncRoot](../../aspose.slides/imagecollection/syncroot) { get; } | Returnerar ett synkroniseringsrot. Skrivskyddad Object. |
 
 ## Metoder
 
-| Name | Description |
+| Namn | Beskrivning |
 | --- | --- |
-| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_3)(byte[]) | Lägger till en bild i en presentation från angivet buffer. |
+| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_3)(byte[]) | Lägger till en bild i en presentation från en specificerad buffert. |
 | [AddImage](../../aspose.slides/imagecollection/addimage#addimage)(IImage) | Lägg till en bild i en presentation. |
 | [AddImage](../../aspose.slides/imagecollection/addimage#addimage_1)(IPPImage) | Lägger till en kopia av en bild från en annan presentation. |
-| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_2)(ISvgImage) | Lägg till en bild i en presentation från ett Svg-objekt. |
+| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_2)(ISvgImage) | Lägg till en bild i en presentation från Svg-objekt. |
 | [AddImage](../../aspose.slides/imagecollection/addimage#addimage_4)(MemoryStream) | Lägg till en bild i en presentation från en ström. |
 | [AddImage](../../aspose.slides/imagecollection/addimage#addimage_5)(Stream) | Lägg till en bild i en presentation från en ström. |
 | [AddImage](../../aspose.slides/imagecollection/addimage#addimage_6)(Stream, LoadingStreamBehavior) | Skapar och lägger till en bild i en presentation från en ström. |
-| [CopyTo](../../aspose.slides/imagecollection/copyto)(Array, int) | Kopierar alla element från samlingen till den angivna arrayen. |
+| [CopyTo](../../aspose.slides/imagecollection/copyto)(Array, int) | Kopierar alla element från samlingen till den specificerade arrayen. |
 | [GetEnumerator](../../aspose.slides/imagecollection/getenumerator)() | Returnerar en enumerator som itererar genom samlingen. |
 
-### Se också
+### Se även
 
 * klass [DomObject&lt;TParent&gt;](../domobject-1)
 * klass [Presentation](../presentation)

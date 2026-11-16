@@ -1,9 +1,9 @@
 ---
 title: ColorType
-second_title: Aspose.Sildes .NET için API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Farklı renk modlarını temsil eder.
 type: docs
-weight: 2580
+weight: 2600
 url: /tr/aspose.slides/colortype/
 ---
 ## ColorType enum
@@ -19,14 +19,14 @@ public enum ColorType
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
 | NotDefined | `-1` | Renk hiç tanımlanmamış. |
-| RGB | `0` | Standart 24 bit RGB renk. |
-| RGBPercentage | `1` | Yüksek tanımlı RGB renk. |
-| HSL | `2` | Yüksek tanımlı HSL renk. |
+| RGB | `0` | Standart 24 bit RGB rengi. |
+| RGBPercentage | `1` | Yüksek çözünürlüklü RGB rengi. |
+| HSL | `2` | Yüksek çözünürlüklü HSL rengi. |
 | Scheme | `3` | Şema rengi. |
 | System | `4` | Sistem rengi. |
-| Preset | `5` | Ön ayar rengi. |
+| Preset | `5` | Önceden Tanımlı Renk. |
 
-### Ayrıca Bakınız
+### Diğer Bağlantılar
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

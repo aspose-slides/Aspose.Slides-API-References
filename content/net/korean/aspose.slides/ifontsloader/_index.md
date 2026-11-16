@@ -1,9 +1,9 @@
 ---
 title: IFontsLoader
-second_title: Aspose.Sildes for .NET API 참조
-description: 사용자 정의 글꼴을 로드하기 위한 클래스입니다. 프레젠테이션 객체를 만들기 전에 사용해야 합니다.
+second_title: Aspose.Sildes .NET API 레퍼런스
+description: 사용자 정의 글꼴을 로드하기 위한 클래스입니다. 프레젠테이션 개체를 만들기 전에 사용해야 합니다.
 type: docs
-weight: 5920
+weight: 5940
 url: /ko/aspose.slides/ifontsloader/
 ---
 ## IFontsLoader 인터페이스

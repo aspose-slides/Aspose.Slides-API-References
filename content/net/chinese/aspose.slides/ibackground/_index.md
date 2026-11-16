@@ -3,7 +3,7 @@ title: IBackground
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示幻灯片的背景。
 type: docs
-weight: 5270
+weight: 5290
 url: /zh/aspose.slides/ibackground/
 ---
 ## IBackground 接口
@@ -30,9 +30,9 @@ public interface IBackground : IFillParamSource, ISlideComponent
 
 | 名称 | 描述 |
 | --- | --- |
-| [GetEffective](../../aspose.slides/ibackground/geteffective)() | 获取在应用继承后有效的背景数据。 |
+| [GetEffective](../../aspose.slides/ibackground/geteffective)() | 获取应用继承后的有效背景数据。 |
 
-### 另见
+### 另请参阅
 
 * 接口 [IFillParamSource](../ifillparamsource)
 * 接口 [ISlideComponent](../islidecomponent)

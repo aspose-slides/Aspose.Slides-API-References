@@ -1,14 +1,14 @@
 ---
 title: IEffectEffectiveData
-second_title: Referencia de API de Aspose.Sildes para .NET
-description: Clase base para objetos inmutables que representan el efecto.
+second_title: Aspose.Sildes para la referencia de API de .NET
+description: Clase base para objetos inmutables que representan un efecto.
 type: docs
-weight: 3280
+weight: 3300
 url: /es/aspose.slides.effects/ieffecteffectivedata/
 ---
 ## IEffectEffectiveData interfaz
 
-Clase base para objetos inmutables, que representan el efecto.
+Clase base para objetos inmutables que representan un efecto.
 
 ```csharp
 public interface IEffectEffectiveData

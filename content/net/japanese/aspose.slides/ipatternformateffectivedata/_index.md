@@ -3,7 +3,7 @@ title: IPatternFormatEffectiveData
 second_title: Aspose.Sildes for .NET API リファレンス
 description: 有効なパターン塗りつぶしプロパティを含む不変オブジェクトです。
 type: docs
-weight: 6630
+weight: 6650
 url: /ja/aspose.slides/ipatternformateffectivedata/
 ---
 ## IPatternFormatEffectiveData インターフェイス
@@ -18,15 +18,15 @@ public interface IPatternFormatEffectiveData
 
 | 名前 | 説明 |
 | --- | --- |
-| [BackColor](../../aspose.slides/ipatternformateffectivedata/backcolor) { get; } | 背景パターンの色を返します。読み取り専用 Color. |
-| [ForeColor](../../aspose.slides/ipatternformateffectivedata/forecolor) { get; } | 前景パターンの色を返します。読み取り専用 Color. |
-| [PatternStyle](../../aspose.slides/ipatternformateffectivedata/patternstyle) { get; } | パターンスタイルを返します。読み取り専用 [`PatternStyle`](../patternstyle). |
+| [BackColor](../../aspose.slides/ipatternformateffectivedata/backcolor) { get; } | 背景パターンの色を返します。読み取り専用 Color。 |
+| [ForeColor](../../aspose.slides/ipatternformateffectivedata/forecolor) { get; } | 前景パターンの色を返します。読み取り専用 Color。 |
+| [PatternStyle](../../aspose.slides/ipatternformateffectivedata/patternstyle) { get; } | パターンスタイルを返します。読み取り専用 [`PatternStyle`](../patternstyle)。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [GetTileIImage](../../aspose.slides/ipatternformateffectivedata/gettileiimage)(Color, Color) | 指定されたColorでパターン塗りつぶし用のタイル画像を作成します。 |
+| [GetTileIImage](../../aspose.slides/ipatternformateffectivedata/gettileiimage)(Color, Color) | 指定された Color でパターン塗りつぶし用のタイル画像を作成します。 |
 
 ### 備考
 

@@ -3,7 +3,7 @@ title: Row
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Stelt een rij in een tabel voor.
 type: docs
-weight: 9710
+weight: 9730
 url: /nl/aspose.slides/row/
 ---
 ## Row klasse
@@ -16,13 +16,13 @@ public sealed class Row : CellCollection, IRow
 
 ## Eigenschappen
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides/cellcollection/count) { get; } | Retourneert het aantal cellen in een collectie. Alleen-lezen Int32. |
+| [Count](../../aspose.slides/cellcollection/count) { get; } | Retourneert het aantal cellen in een verzameling. Alleen-lezen Int32. |
 | [Height](../../aspose.slides/row/height) { get; } | Retourneert de hoogte van een rij. Alleen-lezen Double. |
-| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | Retourneert een waarde die aangeeft of de toegang tot de collectie gesynchroniseerd is (thread-safe). Alleen-lezen Boolean. |
+| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | Retourneert een waarde die aangeeft of de toegang tot de verzameling gesynchroniseerd is (thread-safe). Alleen-lezen Boolean. |
 | [Item](../../aspose.slides/cellcollection/item) { get; } | Retourneert een cel op basis van zijn positie. Alleen-lezen [`Cell`](../cell). |
-| [MinimalHeight](../../aspose.slides/row/minimalheight) { get; set; } | Retourneert of stelt de minimaal mogelijke hoogte van een rij in. Lezen/Schrijven Double. |
+| [MinimalHeight](../../aspose.slides/row/minimalheight) { get; set; } | Retourneert of stelt de minimaal mogelijke hoogte van een rij in. Lezen/schrijven Double. |
 | [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | Retourneert de bovenliggende presentatie van een CellCollection. Alleen-lezen [`IPresentation`](../ipresentation). |
 | [RowFormat](../../aspose.slides/row/rowformat) { get; } | Retourneert het RowFormat-object dat opmaak-eigenschappen voor deze rij bevat. Alleen-lezen [`IRowFormat`](../irowformat). |
 | [Slide](../../aspose.slides/cellcollection/slide) { get; } | Retourneert de bovenliggende dia van een CellCollection. Alleen-lezen [`IBaseSlide`](../ibaseslide). |
@@ -30,13 +30,13 @@ public sealed class Row : CellCollection, IRow
 
 ## Methoden
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
-| [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | Kopieert alle elementen van de collectie naar de opgegeven array. |
-| [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | Retourneert een enumerator die door de collectie iterereert. |
-| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat)(IParagraphFormat) | Stelt gedefinieerde alinea-opmaak-eigenschappen in voor alle alinea's van rijencellen. |
-| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat_1)(IPortionFormat) | Stelt gedefinieerde gedeelte-opmaak-eigenschappen in voor alle gedeelten van rijencellen. |
-| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat_2)(ITextFrameFormat) | Stelt gedefinieerde tekstframe-opmaak-eigenschappen in voor alle tekstframes van rijencellen. |
+| [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | Kopieert alle elementen uit de verzameling naar de opgegeven array. |
+| [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | Retourneert een enumerator die door de verzameling iterereert. |
+| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat)(IParagraphFormat) | Stelt gedefinieerde alinea-opmaak-eigenschappen in voor alle alinea's van de rijcellen. |
+| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat_1)(IPortionFormat) | Stelt gedefinieerde gedeelte-opmaak-eigenschappen in voor alle delen van de rijcellen. |
+| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat_2)(ITextFrameFormat) | Stelt gedefinieerde tekstkader-opmaak-eigenschappen in voor alle tekstkaders van de rijcellen. |
 
 ### Zie ook
 

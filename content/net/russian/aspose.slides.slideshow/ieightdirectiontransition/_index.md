@@ -1,14 +1,14 @@
 ---
 title: IEightDirectionTransition
-second_title: Aspose.Sildes для .NET справка API
-description: Эффект перехода слайда в восьми направлениях.
+second_title: Aspose.Sildes для .NET справочник API
+description: Эффект перехода слайда в восемь направлений.
 type: docs
-weight: 10070
+weight: 10090
 url: /ru/aspose.slides.slideshow/ieightdirectiontransition/
 ---
 ## IEightDirectionTransition интерфейс
 
-Эффект перехода слайда в восьми направлениях.
+Эффект перехода слайдов в восемь направлений.
 
 ```csharp
 public interface IEightDirectionTransition : ITransitionValueBase

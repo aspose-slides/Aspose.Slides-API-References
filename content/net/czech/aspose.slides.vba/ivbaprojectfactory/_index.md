@@ -1,14 +1,14 @@
 ---
 title: IVbaProjectFactory
 second_title: Aspose.Sildes pro .NET API Reference
-description: Umožňuje vytvořit projekt VBA prostřednictvím rozhraní COM
+description: Umožňuje vytvořit projekt VBA přes rozhraní COM
 type: docs
-weight: 11560
+weight: 11580
 url: /cs/aspose.slides.vba/ivbaprojectfactory/
 ---
 ## IVbaProjectFactory rozhraní
 
-Umožňuje vytvořit projekt VBA prostřednictvím rozhraní COM.
+Umožňuje vytvořit projekt VBA přes rozhraní COM
 
 ```csharp
 public interface IVbaProjectFactory

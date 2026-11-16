@@ -1,14 +1,14 @@
 ---
 title: NullableBool
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Repräsentiert dreifache boolesche Werte.
+description: Stellt dreifache boolesche Werte dar.
 type: docs
-weight: 9170
+weight: 9190
 url: /de/aspose.slides/nullablebool/
 ---
-## NullableBool-Aufzählung
+## NullableBool Aufzählung
 
-Repräsentiert dreifache boolesche Werte.
+Stellt dreifache boolesche Werte dar.
 
 ```csharp
 public enum NullableBool : sbyte
@@ -18,7 +18,7 @@ public enum NullableBool : sbyte
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| NotDefined | `-1` | Boolescher Wert ist nicht definiert. |
+| NotDefined | `-1` | Boolescher Wert ist undefiniert. |
 | False | `0` | Falscher Wert. |
 | True | `1` | Wahrer Wert. |
 

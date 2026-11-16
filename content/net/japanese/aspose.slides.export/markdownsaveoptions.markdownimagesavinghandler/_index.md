@@ -1,14 +1,14 @@
 ---
 title: MarkdownSaveOptions.MarkdownImageSavingHandler
-second_title: Aspose.Sildes for .NET APIリファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: Markdown エクスポート中に、SVG 以外の画像（ビットマップまたはメタファイル）ごとに呼び出されます。true を返すと指定されたリンクを使用し、false を返すとデフォルトの保存ロジックが適用されます。
 type: docs
-weight: 4260
+weight: 4280
 url: /ja/aspose.slides.export/markdownsaveoptions.markdownimagesavinghandler/
 ---
 ## MarkdownSaveOptions.MarkdownImageSavingHandler デリゲート
 
-Markdown エクスポート中に、非 SVG 画像（ビットマップまたはメタファイル）ごとに呼び出されます。`true` を返すと指定された *link* を使用し、`false` を返すとデフォルトの保存ロジックが適用されます。
+Markdown エクスポート中に、SVG 以外の画像（ビットマップまたはメタファイル）ごとに呼び出されます。`true` を返すと指定された *link* を使用し、`false` を返すとデフォルトの保存ロジックが適用されます。
 
 ```csharp
 public delegate bool MarkdownImageSavingHandler(IImage image, ImageFormat format, ref string link);
@@ -17,13 +17,13 @@ public delegate bool MarkdownImageSavingHandler(IImage image, ImageFormat format
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | image | IImage | エクスポートされる画像（ビットマップまたはメタファイル）。 |
-| format | ImageFormat | 画像形式。 |
+| format | ImageFormat | 画像の形式。 |
 | link | String& | `true` を返す場合に使用する Markdown リンク。 |
 
 ### 参照
 
 * インターフェイス [IImage](../../aspose.slides/iimage)
-* 列挙体 [ImageFormat](../../aspose.slides/imageformat)
+* 列挙型 [ImageFormat](../../aspose.slides/imageformat)
 * クラス [MarkdownSaveOptions](../markdownsaveoptions)
 * 名前空間 [Aspose.Slides.Export](../../aspose.slides.export)
 * アセンブリ [Aspose.Slides](../../)

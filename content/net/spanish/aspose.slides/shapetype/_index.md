@@ -1,14 +1,14 @@
 ---
 title: ShapeType
 second_title: Aspose.Sildes para la referencia de API de .NET
-description: Representa la geometría predefinida de las formas geométricas.
+description: Representa la geometría predefinida de formas geométricas.
 type: docs
-weight: 9930
+weight: 9950
 url: /es/aspose.slides/shapetype/
 ---
 ## ShapeType enumeración
 
-Representa la geometría predefinida de las formas geométricas.
+Representa la geometría predefinida de formas geométricas.
 
 ```csharp
 public enum ShapeType
@@ -16,7 +16,7 @@ public enum ShapeType
 
 ### Valores
 
-| Nombre | Valor | Descripción |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `-1` | No definido. |
 | Custom | `0` | Forma personalizada. Este es un valor de solo lectura. |
@@ -27,8 +27,8 @@ public enum ShapeType
 | Rectangle | `5` | Forma de rectángulo. |
 | Diamond | `6` | Forma de diamante. |
 | Parallelogram | `7` | Forma de paralelogramo. |
-| Trapezoid | `8` | Forma de trapezoide. |
-| NonIsoscelesTrapezoid | `9` | Forma de trapezoide no isósceles. |
+| Trapezoid | `8` | Forma de trapecio. |
+| NonIsoscelesTrapezoid | `9` | Forma de trapecio no isósceles. |
 | Pentagon | `10` | Forma de pentágono. |
 | Hexagon | `11` | Forma de hexágono. |
 | Heptagon | `12` | Forma de heptágono. |
@@ -45,45 +45,45 @@ public enum ShapeType
 | SixteenPointedStar | `23` | Forma de estrella de dieciséis puntas. |
 | TwentyFourPointedStar | `24` | Forma de estrella de veinticuatro puntas. |
 | ThirtyTwoPointedStar | `25` | Forma de estrella de treinta y dos puntas. |
-| RoundCornerRectangle | `26` | Forma de rectángulo con esquinas redondeadas. |
-| OneRoundCornerRectangle | `27` | Forma de rectángulo con una esquina redondeada. |
-| TwoSamesideRoundCornerRectangle | `28` | Forma de rectángulo con esquinas redondeadas en el mismo lado. |
-| TwoDiagonalRoundCornerRectangle | `29` | Forma de rectángulo con esquinas redondeadas en diagonal. |
-| OneSnipOneRoundCornerRectangle | `30` | Forma de rectángulo con un recorte y una esquina redondeada. |
-| OneSnipCornerRectangle | `31` | Forma de rectángulo con un recorte en la esquina. |
-| TwoSamesideSnipCornerRectangle | `32` | Forma de rectángulo con recorte en el mismo lado de la esquina. |
-| TwoDiagonalSnipCornerRectangle | `33` | Forma de rectángulo con recorte diagonal en la esquina. |
+| RoundCornerRectangle | `26` | Forma de rectángulo de esquinas redondeadas. |
+| OneRoundCornerRectangle | `27` | Forma de rectángulo de una esquina redondeada. |
+| TwoSamesideRoundCornerRectangle | `28` | Forma de rectángulo de dos esquinas redondeadas del mismo lado. |
+| TwoDiagonalRoundCornerRectangle | `29` | Forma de rectángulo de dos esquinas redondeadas diagonales. |
+| OneSnipOneRoundCornerRectangle | `30` | Forma de rectángulo con un corte y una esquina redondeada. |
+| OneSnipCornerRectangle | `31` | Forma de rectángulo con un corte en la esquina. |
+| TwoSamesideSnipCornerRectangle | `32` | Forma de rectángulo con dos cortes en esquinas del mismo lado. |
+| TwoDiagonalSnipCornerRectangle | `33` | Forma de rectángulo con dos cortes en esquinas diagonales. |
 | Plaque | `34` | Forma de placa. |
 | Ellipse | `35` | Forma de elipse. |
 | Teardrop | `36` | Forma de gota. |
-| HomePlate | `37` | Forma de plato de home. |
+| HomePlate | `37` | Forma de plato de inicio. |
 | Chevron | `38` | Forma de cheurón. |
 | PieWedge | `39` | Forma de cuña de pastel. |
 | Pie | `40` | Forma de pastel. |
-| BlockArc | `41` | Forma de arco de bloque. |
-| Donut | `42` | Forma de donut. |
+| BlockArc | `41` | Forma de arco bloqueado. |
+| Donut | `42` | Forma de dona. |
 | NoSmoking | `43` | Forma de no fumar. |
 | RightArrow | `44` | Forma de flecha derecha. |
 | LeftArrow | `45` | Forma de flecha izquierda. |
-| UpArrow | `46` | Forma de flecha arriba. |
-| DownArrow | `47` | Forma de flecha abajo. |
-| StripedRightArrow | `48` | Forma de flecha derecha a rayas. |
-| NotchedRightArrow | `49` | Forma de flecha derecha con muesca. |
+| UpArrow | `46` | Forma de flecha hacia arriba. |
+| DownArrow | `47` | Forma de flecha hacia abajo. |
+| StripedRightArrow | `48` | Forma de flecha derecha con rayas. |
+| NotchedRightArrow | `49` | Forma de flecha derecha con muescas. |
 | BentUpArrow | `50` | Forma de flecha doblada hacia arriba. |
 | LeftRightArrow | `51` | Forma de flecha izquierda-derecha. |
 | UpDownArrow | `52` | Forma de flecha arriba-abajo. |
 | LeftUpArrow | `53` | Forma de flecha izquierda-arriba. |
 | LeftRightUpArrow | `54` | Forma de flecha izquierda-derecha-arriba. |
 | QuadArrow | `55` | Forma de flecha cuádruple. |
-| CalloutLeftArrow | `56` | Forma de flecha de llamada izquierda. |
-| CalloutRightArrow | `57` | Forma de flecha de llamada derecha. |
-| CalloutUpArrow | `58` | Forma de flecha de llamada arriba. |
-| CalloutDownArrow | `59` | Forma de flecha de llamada abajo. |
-| CalloutLeftRightArrow | `60` | Forma de flecha de llamada izquierda-derecha. |
-| CalloutUpDownArrow | `61` | Forma de flecha de llamada arriba-abajo. |
-| CalloutQuadArrow | `62` | Forma de flecha cuádruple de llamada. |
+| CalloutLeftArrow | `56` | Forma de flecha de anotación izquierda. |
+| CalloutRightArrow | `57` | Forma de flecha de anotación derecha. |
+| CalloutUpArrow | `58` | Forma de flecha de anotación arriba. |
+| CalloutDownArrow | `59` | Forma de flecha de anotación abajo. |
+| CalloutLeftRightArrow | `60` | Forma de flecha de anotación izquierda-derecha. |
+| CalloutUpDownArrow | `61` | Forma de flecha de anotación arriba-abajo. |
+| CalloutQuadArrow | `62` | Forma de flecha de anotación cuádruple. |
 | BentArrow | `63` | Forma de flecha doblada. |
-| UTurnArrow | `64` | Forma de flecha U. |
+| UTurnArrow | `64` | Forma de flecha de giro en U. |
 | CircularArrow | `65` | Forma de flecha circular. |
 | LeftCircularArrow | `66` | Forma de flecha circular izquierda. |
 | LeftRightCircularArrow | `67` | Forma de flecha circular izquierda-derecha. |
@@ -91,7 +91,7 @@ public enum ShapeType
 | CurvedLeftArrow | `69` | Forma de flecha curva izquierda. |
 | CurvedUpArrow | `70` | Forma de flecha curva arriba. |
 | CurvedDownArrow | `71` | Forma de flecha curva abajo. |
-| SwooshArrow | `72` | Forma de flecha con movimiento. |
+| SwooshArrow | `72` | Forma de flecha ondulada. |
 | Cube | `73` | Forma de cubo. |
 | Can | `74` | Forma de lata. |
 | LightningBolt | `75` | Forma de rayo. |
@@ -101,7 +101,7 @@ public enum ShapeType
 | SmileyFace | `79` | Forma de cara sonriente. |
 | IrregularSeal1 | `80` | Forma de sello irregular 1. |
 | IrregularSeal2 | `81` | Forma de sello irregular 2. |
-| FoldedCorner | `82` | Forma de esquina plegada. |
+| FoldedCorner | `82` | Forma de esquina doblada. |
 | Bevel | `83` | Forma de bisel. |
 | Frame | `84` | Forma de marco. |
 | HalfFrame | `85` | Forma de medio marco. |
@@ -124,41 +124,41 @@ public enum ShapeType
 | CurvedConnector3 | `102` | Forma de conector curvo 3. |
 | CurvedConnector4 | `103` | Forma de conector curvo 4. |
 | CurvedConnector5 | `104` | Forma de conector curvo 5. |
-| Callout1 | `105` | Forma de llamada 1. |
-| Callout2 | `106` | Forma de llamada 2. |
-| Callout3 | `107` | Forma de llamada 3. |
-| Callout1WithAccent | `108` | Forma de llamada 1 con acento. |
-| Callout2WithAccent | `109` | Forma de llamada 2 con acento. |
-| Callout3WithAccent | `110` | Forma de llamada 3 con acento. |
-| Callout1WithBorder | `111` | Forma de llamada 1 con borde. |
-| Callout2WithBorder | `112` | Forma de llamada 2 con borde. |
-| Callout3WithBorder | `113` | Forma de llamada 3 con borde. |
-| Callout1WithBorderAndAccent | `114` | Forma de llamada 1 con borde y acento. |
-| Callout2WithBorderAndAccent | `115` | Forma de llamada 2 con borde y acento. |
-| Callout3WithBorderAndAccent | `116` | Forma de llamada 3 con borde y acento. |
-| CalloutWedgeRectangle | `117` | Forma de llamada cuña rectángulo. |
-| CalloutWedgeRoundRectangle | `118` | Forma de llamada cuña rectángulo redondeado. |
-| CalloutWedgeEllipse | `119` | Forma de llamada cuña elíptica. |
-| CalloutCloud | `120` | Forma de llamada nube. |
+| Callout1 | `105` | Forma de anotación 1. |
+| Callout2 | `106` | Forma de anotación 2. |
+| Callout3 | `107` | Forma de anotación 3. |
+| Callout1WithAccent | `108` | Forma de anotación 1 con acento. |
+| Callout2WithAccent | `109` | Forma de anotación 2 con acento. |
+| Callout3WithAccent | `110` | Forma de anotación 3 con acento. |
+| Callout1WithBorder | `111` | Forma de anotación 1 con borde. |
+| Callout2WithBorder | `112` | Forma de anotación 2 con borde. |
+| Callout3WithBorder | `113` | Forma de anotación 3 con borde. |
+| Callout1WithBorderAndAccent | `114` | Forma de anotación 1 con borde y acento. |
+| Callout2WithBorderAndAccent | `115` | Forma de anotación 2 con borde y acento. |
+| Callout3WithBorderAndAccent | `116` | Forma de anotación 3 con borde y acento. |
+| CalloutWedgeRectangle | `117` | Forma de anotación de cuña rectangular. |
+| CalloutWedgeRoundRectangle | `118` | Forma de anotación de cuña de rectángulo redondeado. |
+| CalloutWedgeEllipse | `119` | Forma de anotación de cuña elíptica. |
+| CalloutCloud | `120` | Forma de anotación de nube. |
 | Cloud | `121` | Forma de nube. |
 | Ribbon | `122` | Forma de cinta. |
 | Ribbon2 | `123` | Forma de cinta 2. |
 | EllipseRibbon | `124` | Forma de cinta elíptica. |
 | EllipseRibbon2 | `125` | Forma de cinta elíptica 2. |
 | LeftRightRibbon | `126` | Forma de cinta izquierda-derecha. |
-| VerticalScroll | `127` | Forma de desplazamiento vertical. |
-| HorizontalScroll | `128` | Forma de desplazamiento horizontal. |
+| VerticalScroll | `127` | Forma de barra de desplazamiento vertical. |
+| HorizontalScroll | `128` | Forma de barra de desplazamiento horizontal. |
 | Wave | `129` | Forma de onda. |
-| DoubleWave | `130` | Forma de doble onda. |
+| DoubleWave | `130` | Forma de onda doble. |
 | Plus | `131` | Forma de más. |
 | ProcessFlow | `132` | Forma de flujo de proceso. |
 | DecisionFlow | `133` | Forma de flujo de decisión. |
-| InputOutputFlow | `134` | Forma de flujo de entrada-salida. |
+| InputOutputFlow | `134` | Forma de flujo de entrada y salida. |
 | PredefinedProcessFlow | `135` | Forma de flujo de proceso predefinido. |
 | InternalStorageFlow | `136` | Forma de flujo de almacenamiento interno. |
 | DocumentFlow | `137` | Forma de flujo de documento. |
 | MultiDocumentFlow | `138` | Forma de flujo de documentos múltiples. |
-| TerminatorFlow | `139` | Forma de flujo terminador. |
+| TerminatorFlow | `139` | Forma de flujo de terminador. |
 | PreparationFlow | `140` | Forma de flujo de preparación. |
 | ManualInputFlow | `141` | Forma de flujo de entrada manual. |
 | ManualOperationFlow | `142` | Forma de flujo de operación manual. |
@@ -167,40 +167,40 @@ public enum ShapeType
 | PunchedTapeFlow | `145` | Forma de flujo de cinta perforada. |
 | SummingJunctionFlow | `146` | Forma de flujo de unión de suma. |
 | OrFlow | `147` | Forma de flujo OR. |
-| CollateFlow | `148` | Forma de flujo de intercalado. |
+| CollateFlow | `148` | Forma de flujo de intercalar. |
 | SortFlow | `149` | Forma de flujo de ordenación. |
 | ExtractFlow | `150` | Forma de flujo de extracción. |
-| MergeFlow | `151` | Forma de flujo de fusión. |
+| MergeFlow | `151` | Forma de flujo de combinación. |
 | OfflineStorageFlow | `152` | Forma de flujo de almacenamiento fuera de línea. |
 | OnlineStorageFlow | `153` | Forma de flujo de almacenamiento en línea. |
 | MagneticTapeFlow | `154` | Forma de flujo de cinta magnética. |
 | MagneticDiskFlow | `155` | Forma de flujo de disco magnético. |
 | MagneticDrumFlow | `156` | Forma de flujo de tambor magnético. |
-| DisplayFlow | `157` | Forma de flujo de visualización. |
+| DisplayFlow | `157` | Forma de flujo de pantalla. |
 | DelayFlow | `158` | Forma de flujo de retraso. |
 | AlternateProcessFlow | `159` | Forma de flujo de proceso alternativo. |
 | OffPageConnectorFlow | `160` | Forma de flujo de conector fuera de página. |
 | BlankButton | `161` | Forma de botón en blanco. |
-| HomeButton | `162` | Forma de botón de inicio. |
+| HomeButton | `162` | Forma de botón inicio. |
 | HelpButton | `163` | Forma de botón de ayuda. |
 | InformationButton | `164` | Forma de botón de información. |
-| ForwardOrNextButton | `165` | Forma de botón de avanzar o siguiente. |
-| BackOrPreviousButton | `166` | Forma de botón de retroceder o anterior. |
-| EndButton | `167` | Forma de botón de fin. |
-| BeginningButton | `168` | Forma de botón de inicio. |
-| ReturnButton | `169` | Forma de botón de retorno. |
+| ForwardOrNextButton | `165` | Forma de botón avanzar o siguiente. |
+| BackOrPreviousButton | `166` | Forma de botón retroceder o anterior. |
+| EndButton | `167` | Forma de botón fin. |
+| BeginningButton | `168` | Forma de botón inicio. |
+| ReturnButton | `169` | Forma de botón retorno. |
 | DocumentButton | `170` | Forma de botón de documento. |
 | SoundButton | `171` | Forma de botón de sonido. |
 | MovieButton | `172` | Forma de botón de película. |
 | Gear6 | `173` | Forma de engranaje 6. |
 | Gear9 | `174` | Forma de engranaje 9. |
 | Funnel | `175` | Forma de embudo. |
-| PlusMath | `176` | Forma de más matemático. |
-| MinusMath | `177` | Forma de menos matemático. |
-| MultiplyMath | `178` | Forma de multiplicar matemático. |
-| DivideMath | `179` | Forma de dividir matemático. |
-| EqualMath | `180` | Forma de igual matemático. |
-| NotEqualMath | `181` | Forma de no igual matemático. |
+| PlusMath | `176` | Forma de signo más matemático. |
+| MinusMath | `177` | Forma de signo menos matemático. |
+| MultiplyMath | `178` | Forma de signo de multiplicación matemático. |
+| DivideMath | `179` | Forma de signo de división matemático. |
+| EqualMath | `180` | Forma de signo igual matemático. |
+| NotEqualMath | `181` | Forma de signo de no igual matemático. |
 | CornerTabs | `182` | Forma de pestañas de esquina. |
 | SquareTabs | `183` | Forma de pestañas cuadradas. |
 | PlaqueTabs | `184` | Forma de pestañas de placa. |

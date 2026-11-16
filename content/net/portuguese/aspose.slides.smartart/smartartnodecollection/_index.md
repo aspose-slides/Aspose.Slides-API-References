@@ -1,14 +1,14 @@
 ---
 title: SmartArtNodeCollection
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET - Referência da API
 description: Representa uma coleção de nós SmartArt.
 type: docs
-weight: 10640
+weight: 10660
 url: /pt/aspose.slides.smartart/smartartnodecollection/
 ---
 ## SmartArtNodeCollection classe
 
-Representa uma coleção de nós SmartArt.
+Represents a collection of SmartArt nodes.
 
 ```csharp
 public sealed class SmartArtNodeCollection : ISmartArtNodeCollection
@@ -16,19 +16,19 @@ public sealed class SmartArtNodeCollection : ISmartArtNodeCollection
 
 ## Propriedades
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides.smartart/smartartnodecollection/count) { get; } | Retorna a contagem de nós na coleção Somente leitura Int32 Somente leitura Int32. |
-| [IsSynchronized](../../aspose.slides.smartart/smartartnodecollection/issynchronized) { get; } | Retorna um valor que indica se o acesso à coleção está sincronizado (thread-safe). Somente leitura Boolean. |
-| [Item](../../aspose.slides.smartart/smartartnodecollection/item) { get; } | Retorna o nó por índice |
-| [SyncRoot](../../aspose.slides.smartart/smartartnodecollection/syncroot) { get; } | Retorna uma raiz de sincronização. Somente leitura Object. |
+| [Count](../../aspose.slides.smartart/smartartnodecollection/count) { get; } | Retorna a contagem de nós na coleção Read-only Int32 Read-only Int32. |
+| [IsSynchronized](../../aspose.slides.smartart/smartartnodecollection/issynchronized) { get; } | Retorna um valor que indica se o acesso à coleção está sincronizado (thread-safe). Read-only Boolean. |
+| [Item](../../aspose.slides.smartart/smartartnodecollection/item) { get; } | Retorna nó por índice |
+| [SyncRoot](../../aspose.slides.smartart/smartartnodecollection/syncroot) { get; } | Retorna um objeto de sincronização. Read-only Object. |
 
 ## Métodos
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
-| [AddNode](../../aspose.slides.smartart/smartartnodecollection/addnode)() | Adiciona um novo nó smart art ou subnó. |
-| [AddNodeByPosition](../../aspose.slides.smartart/smartartnodecollection/addnodebyposition)(int) | Adiciona um novo nó na posição selecionada da coleção de nós |
+| [AddNode](../../aspose.slides.smartart/smartartnodecollection/addnode)() | Adiciona novo nó smart art ou subnó. |
+| [AddNodeByPosition](../../aspose.slides.smartart/smartartnodecollection/addnodebyposition)(int) | Adiciona novo nó na posição selecionada da coleção de nós |
 | [CopyTo](../../aspose.slides.smartart/smartartnodecollection/copyto)(Array, int) | Copia todos os elementos da coleção para o array especificado. |
 | [GetEnumerator](../../aspose.slides.smartart/smartartnodecollection/getenumerator)() | Retorna um enumerador que itera pela coleção. |
 | [RemoveNode](../../aspose.slides.smartart/smartartnodecollection/removenode#removenode_1)(int) | Remove nó ou subnó por índice |

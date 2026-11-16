@@ -1,29 +1,29 @@
 ---
 title: IAlphaModulateFixed
 second_title: Aspose.Sildes için .NET API Referansı
-description: Alpha Modulate Fixed etkisini temsil eder. Etki alfa opaklık değerleri sabit bir yüzde ile çarpılır.
+description: Alpha Modulate Fixed etkisini temsil eder. Etkinin alfa opaklık değerleri sabit bir yüzde ile çarpılır.
 type: docs
-weight: 3120
+weight: 3140
 url: /tr/aspose.slides.effects/ialphamodulatefixed/
 ---
 ## IAlphaModulateFixed arayüz
 
-Alpha Modulate Fixed etkisini temsil eder. Etki alfa (opaklık) değerleri sabit bir yüzde ile çarpılır.
+Alpha Modulate Fixed etkisini temsil eder. Etkinin alfa (opaklık) değerleri sabit bir yüzde ile çarpılır.
 
 ```csharp
 public interface IAlphaModulateFixed : IAccessiblePVIObject<IAlphaModulateFixedEffectiveData>, 
     IImageTransformOperation
 ```
 
-## Properties
+## Özellikler
 
 | Ad | Açıklama |
 | --- | --- |
-| [Amount](../../aspose.slides.effects/ialphamodulatefixed/amount) { get; set; } | Efekt miktarını yüzde olarak döndürür. Okunabilir/Yazılabilir Single. |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphamodulatefixed/asiaccessiblepviobject) { get; } | Temel IAccessiblePVIObject arayüzünü almaya izin verir. Salt-okunur [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphamodulatefixed/asiimagetransformoperation) { get; } | Temel IImageTransformOperation arayüzünü almaya izin verir. Salt-okunur [`IImageTransformOperation`](../iimagetransformoperation). |
+| [Amount](../../aspose.slides.effects/ialphamodulatefixed/amount) { get; set; } | Etkinin yüzde cinsinden miktarını döndürür. Okunur/Yazılır Single. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphamodulatefixed/asiaccessiblepviobject) { get; } | Temel IAccessiblePVIObject arayüzünü almayı sağlar. Yalnızca okuma [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphamodulatefixed/asiimagetransformoperation) { get; } | Temel IImageTransformOperation arayüzünü almayı sağlar. Yalnızca okuma [`IImageTransformOperation`](../iimagetransformoperation). |
 
-### İlgili
+### Ayrıca Bakınız
 
 * arayüz [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * arayüz [IAlphaModulateFixedEffectiveData](../ialphamodulatefixedeffectivedata)

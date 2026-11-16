@@ -1,14 +1,14 @@
 ---
 title: CategoryAxisType
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Referencia de la API de Aspose.Sildes para .NET
 description: Representa un tipo de eje de categoría.
 type: docs
-weight: 1250
+weight: 1260
 url: /es/aspose.slides.charts/categoryaxistype/
 ---
-## CategoryAxisType enumeración
+## enumeración CategoryAxisType
 
-Representa un tipo de eje de categorías.
+Representa un tipo de eje de categoría.
 
 ```csharp
 public enum CategoryAxisType
@@ -18,8 +18,8 @@ public enum CategoryAxisType
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| Text | `0` | Especifica que el eje de categorías es un eje de texto. |
-| Date | `1` | Especifica que el eje de categorías es un eje de fecha. |
+| Text | `0` | Especifica que el eje de categoría es un eje de texto. |
+| Date | `1` | Especifica que el eje de categoría es un eje de fecha. |
 
 ### Ver también
 

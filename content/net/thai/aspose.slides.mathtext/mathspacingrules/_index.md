@@ -1,14 +1,14 @@
 ---
 title: MathSpacingRules
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: ประเภทของช่องว่างระยะห่างแนวนอนระหว่างคอลัมน์ของเมทริกซ์
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: ประเภทของช่องว่างแนวนอนระหว่างคอลัมน์ของเมทริกซ์
 type: docs
-weight: 8990
+weight: 9010
 url: /th/aspose.slides.mathtext/mathspacingrules/
 ---
-## MathSpacingRules การกำหนดค่า
+## MathSpacingRules การนับค่า
 
-ประเภทของช่องว่าง (ระยะแนวนอน) ระหว่างคอลัมน์ของเมทริกซ์
+ประเภทของช่องว่าง (horizontal spacing) ระหว่างคอลัมน์ของเมทริกซ์
 
 ```csharp
 public enum MathSpacingRules
@@ -18,11 +18,11 @@ public enum MathSpacingRules
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
-| SingleSpacingGap | `0` | Single (1 em สำหรับคอลัมน์หรือ 1 บรรทัดสำหรับแถว) |
-| OneAndHalfSpacingGap | `1` | One and a half (1.5 ems สำหรับคอลัมน์หรือ 1.5 บรรทัดสำหรับแถว) |
-| DoubleSpacingGap | `2` | Double spacing (2 ems สำหรับคอลัมน์หรือ 2 บรรทัดสำหรับแถว) |
-| Exactly | `3` | Exactly value สำหรับคอลัมน์ให้พึ่งพาค่าของ ColumnGap ที่วัดเป็น twips สำหรับแถวให้พึ่งพาค่าของ RowGap ที่วัดเป็น twips |
-| Multiple | `4` | Multiple สำหรับคอลัมน์ให้พึ่งพาค่าของ ColumnGap ที่วัดเป็นการเพิ่ม 0.5 em สำหรับแถวให้พึ่งพาค่าของ RowGap ที่วัดเป็นบรรทัด |
+| SingleSpacingGap | `0` | เดี่ยว (1 em สำหรับคอลัมน์หรือ 1 บรรทัดสำหรับแถว) |
+| OneAndHalfSpacingGap | `1` | หนึ่งและครึ่ง (1.5 ems สำหรับคอลัมน์หรือ 1.5 บรรทัดสำหรับแถว) |
+| DoubleSpacingGap | `2` | ช่องว่างสองเท่า (2 ems สำหรับคอลัมน์หรือ 2 บรรทัดสำหรับแถว) |
+| Exactly | `3` | ค่าที่แน่นอน สำหรับคอลัมน์ใช้ค่าของ ColumnGap วัดเป็น twips สำหรับแถวใช้ค่าของ RowGap วัดเป็น twips |
+| Multiple | `4` | หลายค่า สำหรับคอลัมน์ใช้ค่ของ ColumnGap วัดเป็นขั้น 0.5 em สำหรับแถวใช้ค่าของ RowGap วัดเป็นบรรทัด |
 
 ### ดูเพิ่มเติม
 

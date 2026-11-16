@@ -1,14 +1,14 @@
 ---
 title: PresetColor
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt vooraf gedefinieerde kleurvoorinstellingen voor.
+description: Geeft vooraf gedefinieerde kleurvoorinstellingen weer.
 type: docs
-weight: 9660
+weight: 9680
 url: /nl/aspose.slides/presetcolor/
 ---
 ## PresetColor enumeratie
 
-Stelt vooraf gedefinieerde kleurvoorinstellingen voor.
+Geeft vooraf gedefinieerde kleurvoorinstellingen weer.
 
 ```csharp
 public enum PresetColor

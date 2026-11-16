@@ -1,14 +1,14 @@
 ---
 title: IBaseTableFormatEffectiveData
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
-description: อินเทอร์เฟซฐานสำหรับอ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงได้ซึ่งมีคุณสมบัติการจัดรูปแบบตารางที่มีผล
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: อินเทอร์เฟซพื้นฐานสำหรับอ็อบเจกต์ที่ไม่เปลี่ยนแปลงซึ่งมีคุณสมบัติการจัดรูปแบบตารางที่มีผล
 type: docs
-weight: 5360
+weight: 5380
 url: /th/aspose.slides/ibasetableformateffectivedata/
 ---
 ## IBaseTableFormatEffectiveData อินเทอร์เฟซ
 
-อินเทอร์เฟซพื้นฐานสำหรับอ็อบเจ็กต์ที่ไม่สามารถเปลี่ยนแปลงได้ซึ่งมีคุณสมบัติการจัดรูปแบบตารางที่มีผล
+อินเทอร์เฟซพื้นฐานสำหรับอ็อบเจกต์ที่ไม่เปลี่ยนแปลงซึ่งมีคุณสมบัติการจัดรูปแบบตารางที่มีผล
 
 ```csharp
 public interface IBaseTableFormatEffectiveData
@@ -16,15 +16,15 @@ public interface IBaseTableFormatEffectiveData
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [BorderBottom](../../aspose.slides/ibasetableformateffectivedata/borderbottom) { get; } | คืนค่ารูปแบบเส้นขอบล่างที่มีผล. อ่านอย่างเดียว [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderDiagonalDown](../../aspose.slides/ibasetableformateffectivedata/borderdiagonaldown) { get; } | คืนค่ารูปแบบเส้นทแยงมุมลงที่มีผล. อ่านอย่างเดียว [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderDiagonalUp](../../aspose.slides/ibasetableformateffectivedata/borderdiagonalup) { get; } | คืนค่ารูปแบบเส้นทแยงมุมขึ้นที่มีผล. อ่านอย่างเดียว [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderLeft](../../aspose.slides/ibasetableformateffectivedata/borderleft) { get; } | คืนค่ารูปแบบเส้นขอบซ้ายที่มีผล. อ่านอย่างเดียว [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderRight](../../aspose.slides/ibasetableformateffectivedata/borderright) { get; } | คืนค่ารูปแบบเส้นขอบขวาที่มีผล. อ่านอย่างเดียว [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderTop](../../aspose.slides/ibasetableformateffectivedata/bordertop) { get; } | คืนค่ารูปแบบเส้นขอบบนที่มีผล. อ่านอย่างเดียว [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [FillFormat](../../aspose.slides/ibasetableformateffectivedata/fillformat) { get; } | คืนค่ารูปแบบการเติมที่มีผล. อ่านอย่างเดียว [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
+| [BorderBottom](../../aspose.slides/ibasetableformateffectivedata/borderbottom) { get; } | คืนค่าการจัดรูปแบบเส้นขอบล่างที่มีผล. อ่านอย่างเดียว [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderDiagonalDown](../../aspose.slides/ibasetableformateffectivedata/borderdiagonaldown) { get; } | คืนค่าการจัดรูปแบบเส้นทแยงลงที่มีผล. อ่านอย่างเดียว [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderDiagonalUp](../../aspose.slides/ibasetableformateffectivedata/borderdiagonalup) { get; } | คืนค่าการจัดรูปแบบเส้นทแยงขึ้นที่มีผล. อ่านอย่างเดียว [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderLeft](../../aspose.slides/ibasetableformateffectivedata/borderleft) { get; } | คืนค่าการจัดรูปแบบเส้นขอบซ้ายที่มีผล. อ่านอย่างเดียว [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderRight](../../aspose.slides/ibasetableformateffectivedata/borderright) { get; } | คืนค่าการจัดรูปแบบเส้นขอบขวาที่มีผล. อ่านอย่างเดียว [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderTop](../../aspose.slides/ibasetableformateffectivedata/bordertop) { get; } | คืนค่าการจัดรูปแบบเส้นขอบบนที่มีผล. อ่านอย่างเดียว [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [FillFormat](../../aspose.slides/ibasetableformateffectivedata/fillformat) { get; } | คืนค่าการจัดรูปแบบการเติมที่มีผล. อ่านอย่างเดียว [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
 
 ### ดูเพิ่มเติม
 

@@ -3,12 +3,12 @@ title: CannotCombine2DAnd3DChartsException
 second_title: Tham khảo API Aspose.Sildes cho .NET
 description: Ngoại lệ được ném khi cố gắng kết hợp các loại biểu đồ 2D và 3D.
 type: docs
-weight: 1240
+weight: 1250
 url: /vi/aspose.slides.charts/cannotcombine2dand3dchartsexception/
 ---
 ## CannotCombine2DAnd3DChartsException lớp
 
-Ngoại lệ được ném khi cố gắng kết hợp các loại biểu đồ 2D và 3D.
+Exception được ném khi cố gắng kết hợp các loại biểu đồ 2D và 3D.
 
 ```csharp
 public class CannotCombine2DAnd3DChartsException : InvalidOperationException
@@ -19,8 +19,8 @@ public class CannotCombine2DAnd3DChartsException : InvalidOperationException
 | Tên | Mô tả |
 | --- | --- |
 | [CannotCombine2DAnd3DChartsException](cannotcombine2dand3dchartsexception#constructor)() | Hàm khởi tạo mặc định. |
-| [CannotCombine2DAnd3DChartsException](cannotcombine2dand3dchartsexception#constructor_1)(string) | Hàm khởi tạo cho phép thêm một thông điệp vào ngoại lệ này. |
-| [CannotCombine2DAnd3DChartsException](cannotcombine2dand3dchartsexception#constructor_2)(string, Exception) | Hàm khởi tạo cho một ngoại lệ chứa thông điệp và một ngoại lệ được nhúng. |
+| [CannotCombine2DAnd3DChartsException](cannotcombine2dand3dchartsexception#constructor_1)(string) | Hàm khởi tạo cho phép thêm thông điệp vào Exception này. |
+| [CannotCombine2DAnd3DChartsException](cannotcombine2dand3dchartsexception#constructor_2)(string, Exception) | Hàm khởi tạo cho một Exception chứa thông điệp và một Exception nhúng. |
 
 ### Xem thêm
 

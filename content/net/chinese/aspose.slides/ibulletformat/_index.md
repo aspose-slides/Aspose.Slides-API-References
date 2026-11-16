@@ -3,12 +3,12 @@ title: IBulletFormat
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示段落项目符号格式属性。
 type: docs
-weight: 5390
+weight: 5410
 url: /zh/aspose.slides/ibulletformat/
 ---
 ## IBulletFormat 接口
 
-Represents paragraph bullet formatting properties.
+表示段落项目符号格式属性。
 
 ```csharp
 public interface IBulletFormat
@@ -18,25 +18,25 @@ public interface IBulletFormat
 
 | 名称 | 描述 |
 | --- | --- |
-| [Char](../../aspose.slides/ibulletformat/char) { get; set; } | 返回或设置段落的项目符号字符，且不继承。可读写 Char. |
-| [Color](../../aspose.slides/ibulletformat/color) { get; } | 返回段落中项目符号的颜色格式，且不继承。只读 [`IColorFormat`](../icolorformat). |
-| [Font](../../aspose.slides/ibulletformat/font) { get; set; } | 返回或设置段落的项目符号字体，且不继承。可读写 [`IFontData`](../ifontdata). |
-| [Height](../../aspose.slides/ibulletformat/height) { get; set; } | 返回或设置段落的项目符号高度，且不继承。值 float.NaN 表示项目符号从段落的第一部分继承高度。可读写 Single. |
-| [IsBulletHardColor](../../aspose.slides/ibulletformat/isbullethardcolor) { get; set; } | 确定项目符号是否具有自身颜色或从段落的第一部分继承颜色。**NullableBool.True** 表示项目符号具有自身颜色，**NullableBool.False** 表示项目符号继承颜色。可读写 [`NullableBool`](../nullablebool). |
-| [IsBulletHardFont](../../aspose.slides/ibulletformat/isbullethardfont) { get; set; } | 确定项目符号是否具有自身字体或从段落的第一部分继承字体。**NullableBool.True** 表示项目符号具有自身字体，**NullableBool.False** 表示项目符号继承字体。可读写 [`NullableBool`](../nullablebool). |
-| [NumberedBulletStartWith](../../aspose.slides/ibulletformat/numberedbulletstartwith) { get; set; } | 返回或设置用于编号项目符号组的起始编号，且不继承。可读写 Int16. |
-| [NumberedBulletStyle](../../aspose.slides/ibulletformat/numberedbulletstyle) { get; set; } | 返回或设置编号项目符号的样式，且不继承。可读写 [`NumberedBulletStyle`](./numberedbulletstyle). |
-| [Picture](../../aspose.slides/ibulletformat/picture) { get; } | 返回段落中用作项目符号的图片，且不继承。只读 [`ISlidesPicture`](../islidespicture). |
-| [Type](../../aspose.slides/ibulletformat/type) { get; set; } | 返回或设置段落的项目符号类型，且不继承。可读写 [`BulletType`](../bullettype). |
+| [Char](../../aspose.slides/ibulletformat/char) { get; set; } | 返回或设置段落的项目符号字符（不继承）。读/写 Char。 |
+| [Color](../../aspose.slides/ibulletformat/color) { get; } | 返回段落的项目符号颜色格式（不继承）。只读 [`IColorFormat`](../icolorformat)。 |
+| [Font](../../aspose.slides/ibulletformat/font) { get; set; } | 返回或设置段落的项目符号字体（不继承）。读/写 [`IFontData`](../ifontdata)。 |
+| [Height](../../aspose.slides/ibulletformat/height) { get; set; } | 返回或设置段落的项目符号高度（不继承）。值 float.NaN 表示项目符号从段落的第一段继承高度。读/写 Single。 |
+| [IsBulletHardColor](../../aspose.slides/ibulletformat/isbullethardcolor) { get; set; } | 确定项目符号是拥有自己的颜色还是从段落的第一段继承颜色。**NullableBool.True** 表示项目符号拥有自己的颜色，**NullableBool.False** 表示项目符号从段落的第一段继承颜色。读/写 [`NullableBool`](../nullablebool)。 |
+| [IsBulletHardFont](../../aspose.slides/ibulletformat/isbullethardfont) { get; set; } | 确定项目符号是拥有自己的字体还是从段落的第一段继承字体。**NullableBool.True** 表示项目符号拥有自己的字体，**NullableBool.False** 表示项目符号从段落的第一段继承字体。读/写 [`NullableBool`](../nullablebool)。 |
+| [NumberedBulletStartWith](../../aspose.slides/ibulletformat/numberedbulletstartwith) { get; set; } | 返回或设置用于编号项目符号组的首个数字（不继承）。读/写 Int16。 |
+| [NumberedBulletStyle](../../aspose.slides/ibulletformat/numberedbulletstyle) { get; set; } | 返回或设置编号项目符号的样式（不继承）。读/写 [`NumberedBulletStyle`](./numberedbulletstyle)。 |
+| [Picture](../../aspose.slides/ibulletformat/picture) { get; } | 返回段落中用作项目符号的图片（不继承）。只读 [`ISlidesPicture`](../islidespicture)。 |
+| [Type](../../aspose.slides/ibulletformat/type) { get; set; } | 返回或设置段落的项目符号类型（不继承）。读/写 [`BulletType`](../bullettype)。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [ApplyDefaultParagraphIndentsShifts](../../aspose.slides/ibulletformat/applydefaultparagraphindentsshifts)() | 当启用项目符号时，为有效段落的 Indent 和 MarginLeft 设置默认的非零偏移（类似 PowerPoint 在启用段落项目符号/编号时的做法）。如果禁用项目符号，则仅重置段落的 Indent 和 MarginLeft（类似 PowerPoint 在禁用段落项目符号/编号时的做法）。缩进偏移根据当前项目符号上下文（IBulletFormat.Type、.NumberedBulletStyle 和第一部分的 FontHeight）应用。非零缩进偏移应用于当前段落的有效 Indent 和 MarginLeft（使结果值为局部值）。 |
-| [GetEffective](../../aspose.slides/ibulletformat/geteffective)() | 获取应用了继承后的有效项目符号格式数据。 |
+| [ApplyDefaultParagraphIndentsShifts](../../aspose.slides/ibulletformat/applydefaultparagraphindentsshifts)() | 为有效的段落 Indent 和 MarginLeft 设置默认的非零偏移（当启用项目符号时），类似 PowerPoint 在启用段落项目符号/编号时的行为。如果禁用项目符号，则仅重置段落 Indent 和 MarginLeft，类似 PowerPoint 在禁用段落项目符号/编号时的行为。缩进偏移相对于当前项目符号上下文——IBulletFormat.Type、.NumberedBulletStyle 和第一段的 FontHeight。非零缩进偏移应用于当前段落的有效 Indent 和 MarginLeft（使结果值成为本地值）。 |
+| [GetEffective](../../aspose.slides/ibulletformat/geteffective)() | 获取应用继承后的有效项目符号格式数据。 |
 
-### 另见
+### 另请参见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

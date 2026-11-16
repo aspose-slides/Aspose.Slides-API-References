@@ -1,14 +1,14 @@
 ---
 title: IGeometryPath
 second_title: Aspose.Sildes برای .NET مرجع API
-description: مسیر هندسی GeometryShape را نشان می‌دهد
+description: نمایش مسیر هندسی GeometryShape
 type: docs
-weight: 5970
+weight: 5990
 url: /fa/aspose.slides/igeometrypath/
 ---
-## IGeometryPath رابط
+## رابط IGeometryPath
 
-نمایانگر مسیر هندسی GeometryShape
+نمایش مسیر هندسی GeometryShape
 
 ```csharp
 public interface IGeometryPath
@@ -16,37 +16,37 @@ public interface IGeometryPath
 
 ## ویژگی‌ها
 
-| نام | توضیح |
+| نام | توضیحات |
 | --- | --- |
-| [FillMode](../../aspose.slides/igeometrypath/fillmode) { get; set; } | حالت پر کردن را تنظیم می‌کند |
-| [PathData](../../aspose.slides/igeometrypath/pathdata) { get; } | مسیر هندسی GeometryShape را به‌صورت آرایه‌ای از بخش‌های مسیر بازمی‌گرداند. |
-| [Stroke](../../aspose.slides/igeometrypath/stroke) { get; set; } | ظاهر stroke را تنظیم می‌کند |
+| [FillMode](../../aspose.slides/igeometrypath/fillmode) { get; set; } | حالت پرکردن را تنظیم می‌کند |
+| [PathData](../../aspose.slides/igeometrypath/pathdata) { get; } | مسیر هندسی GeometryShape را به‌عنوان آرایه‌ای از بخش‌های مسیر برمی‌گرداند. |
+| [Stroke](../../aspose.slides/igeometrypath/stroke) { get; set; } | ظاهر خط را تنظیم می‌کند |
 
 ## متدها
 
-| نام | توضیح |
+| نام | توضیحات |
 | --- | --- |
 | [ArcTo](../../aspose.slides/igeometrypath/arcto)(float, float, float, float) | قوس مشخص شده را به مسیر اضافه می‌کند. |
 | [CloseFigure](../../aspose.slides/igeometrypath/closefigure)() | شکل فعلی این مسیر را می‌بندد |
-| [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto_2)(PointF, PointF, PointF) | یک منحنی Bezier مکعبی را به انتهای مسیر اضافه می‌کند |
-| [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto_3)(PointF, PointF, PointF, uint) | منحنی Bezier مکعبی را به مکان مشخص شده در مسیر اضافه می‌کند |
-| [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto)(float, float, float, float, float, float) | یک منحنی Bezier مکعبی را به انتهای مسیر اضافه می‌کند |
-| [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto_1)(float, float, float, float, float, float, uint) | منحنی Bezier مکعبی را به مکان مشخص شده در مسیر اضافه می‌کند |
-| [LineTo](../../aspose.slides/igeometrypath/lineto#lineto_2)(PointF) | یک خط را به انتهای مسیر اضافه می‌کند |
-| [LineTo](../../aspose.slides/igeometrypath/lineto#lineto)(float, float) | یک خط را به انتهای مسیر اضافه می‌کند |
-| [LineTo](../../aspose.slides/igeometrypath/lineto#lineto_3)(PointF, uint) | یک خط را به مکان مشخص شده در مسیر اضافه می‌کند |
-| [LineTo](../../aspose.slides/igeometrypath/lineto#lineto_1)(float, float, uint) | یک خط را به مکان مشخص شده در مسیر اضافه می‌کند |
-| [MoveTo](../../aspose.slides/igeometrypath/moveto#moveto_1)(PointF) | موقعیت نقطه بعدی را تنظیم می‌کند. |
-| [MoveTo](../../aspose.slides/igeometrypath/moveto#moveto)(float, float) | موقعیت نقطه بعدی را تنظیم می‌کند. |
-| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto_2)(PointF, PointF) | یک منحنی Bezier درجه دوم را به انتهای مسیر اضافه می‌کند |
-| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto_3)(PointF, PointF, uint) | منحنی Bezier درجه دوم را به مکان مشخص شده در مسیر اضافه می‌کند |
-| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto)(float, float, float, float) | یک منحنی Bezier درجه دوم را به انتهای مسیر اضافه می‌کند |
-| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto_1)(float, float, float, float, uint) | منحنی Bezier درجه دوم را به مکان مشخص شده در مسیر اضافه می‌کند |
-| [RemoveAt](../../aspose.slides/igeometrypath/removeat)(int) | بخش مسیر را در اندیس مشخص شده از مسیر هندسی حذف می‌کند. |
+| [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto_2)(PointF, PointF, PointF) | یک منحنی بزیهٔ مکعبی را در انتهای مسیر اضافه می‌کند |
+| [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto_3)(PointF, PointF, PointF, uint) | منحنی بزیهٔ مکعبی را به مکان مشخصی در مسیر اضافه می‌کند |
+| [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto)(float, float, float, float, float, float) | یک منحنی بزیهٔ مکعبی را در انتهای مسیر اضافه می‌کند |
+| [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto_1)(float, float, float, float, float, float, uint) | منحنی بزیهٔ مکعبی را به مکان مشخصی در مسیر اضافه می‌کند |
+| [LineTo](../../aspose.slides/igeometrypath/lineto#lineto_2)(PointF) | خطی را به انتهای مسیر اضافه می‌کند |
+| [LineTo](../../aspose.slides/igeometrypath/lineto#lineto)(float, float) | خطی را به انتهای مسیر اضافه می‌کند |
+| [LineTo](../../aspose.slides/igeometrypath/lineto#lineto_3)(PointF, uint) | خطی را به مکان مشخصی در مسیر اضافه می‌کند |
+| [LineTo](../../aspose.slides/igeometrypath/lineto#lineto_1)(float, float, uint) | خطی را به مکان مشخصی در مسیر اضافه می‌کند |
+| [MoveTo](../../aspose.slides/igeometrypath/moveto#moveto_1)(PointF) | موقعیت نقطهٔ بعدی را تنظیم می‌کند. |
+| [MoveTo](../../aspose.slides/igeometrypath/moveto#moveto)(float, float) | موقعیت نقطهٔ بعدی را تنظیم می‌کند. |
+| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto_2)(PointF, PointF) | یک منحنی بزیهٔ درجه دوم را در انتهای مسیر اضافه می‌کند |
+| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto_3)(PointF, PointF, uint) | منحنی بزیهٔ درجه دوم را به مکان مشخصی در مسیر اضافه می‌کند |
+| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto)(float, float, float, float) | یک منحنی بزیهٔ درجه دوم را در انتهای مسیر اضافه می‌کند |
+| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto_1)(float, float, float, float, uint) | منحنی بزیهٔ درجه دوم را به مکان مشخصی در مسیر اضافه می‌کند |
+| [RemoveAt](../../aspose.slides/igeometrypath/removeat)(int) | بخش را در اندیس مشخص از مسیر هندسی حذف می‌کند. |
 
-### مطالب مرتبط
+### موارد مرتبط
 
 * فضای‌نام [Aspose.Slides](../../aspose.slides)
-* مجتمع [Aspose.Slides](../../)
+* مجوعه [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

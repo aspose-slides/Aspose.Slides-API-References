@@ -1,14 +1,14 @@
 ---
 title: IHSLEffectiveData
 second_title: Aspose.Sildes için .NET API Referansı
-description: Hue/Saturation/Luminance etkisini temsil eder. Hue, saturation ve luminance her biri mevcut değerine göre ayarlanabilir.
+description: Bir Ton/Doygunluk/Parlaklık etkisini temsil eder. Ton, doygunluk ve parlaklık, mevcut değerlerine göre ayarlanabilir.
 type: docs
-weight: 3370
+weight: 3390
 url: /tr/aspose.slides.effects/ihsleffectivedata/
 ---
-## IHSLEffectiveData arayüzü
+## IHSLEffectiveData arayüz
 
-Hue/Saturation/Luminance etkisini temsil eder. Hue, Saturation ve Luminance her biri mevcut değerine göre ayarlanabilir.
+Ton/Doygunluk/Parlaklık etkisini temsil eder. Ton, doygunluk ve parlaklık, mevcut değerlerine göre ayarlanabilir.
 
 ```csharp
 public interface IHSLEffectiveData : IEffectEffectiveData
@@ -18,10 +18,10 @@ public interface IHSLEffectiveData : IEffectEffectiveData
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ihsleffectivedata/asieffecteffectivedata) { get; } | Temel IEffectEffectiveData arayüzünü almayı sağlar. Salt okunur [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Hue](../../aspose.slides.effects/ihsleffectivedata/hue) { get; } | Hue yüzdesini döndürür. Salt okunur Single. |
-| [Luminance](../../aspose.slides.effects/ihsleffectivedata/luminance) { get; } | Luminance yüzdesini döndürür. Salt okunur Single. |
-| [Saturation](../../aspose.slides.effects/ihsleffectivedata/saturation) { get; } | Saturation yüzdesini döndürür. Salt okunur Single. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ihsleffectivedata/asieffecteffectivedata) { get; } | Temel IEffectEffectiveData arayüzünü almaya izin verir. Yalnızca okunabilir [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Hue](../../aspose.slides.effects/ihsleffectivedata/hue) { get; } | Ton yüzdesini döndürür. Yalnızca okunabilir Single. |
+| [Luminance](../../aspose.slides.effects/ihsleffectivedata/luminance) { get; } | Parlaklık yüzdesini döndürür. Yalnızca okunabilir Single. |
+| [Saturation](../../aspose.slides.effects/ihsleffectivedata/saturation) { get; } | Doygunluk yüzdesini döndürür. Yalnızca okunabilir Single. |
 
 ### Ayrıca Bakınız
 

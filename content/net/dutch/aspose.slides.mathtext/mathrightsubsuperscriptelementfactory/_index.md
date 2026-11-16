@@ -1,26 +1,26 @@
 ---
 title: MathRightSubSuperscriptElementFactory
-second_title: Aspose.Sildes voor .NET API-referentie
+second_title: Aspose.Sildes voor .NET API Referentie
 description: Staat toe om IMathRightSubSuperscriptElementFactory te maken
 type: docs
-weight: 8970
+weight: 8990
 url: /nl/aspose.slides.mathtext/mathrightsubsuperscriptelementfactory/
 ---
 ## MathRightSubSuperscriptElementFactory klasse
 
-Allows to create IMathRightSubSuperscriptElementFactory
+Staat toe om IMathRightSubSuperscriptElementFactory te maken
 
 ```csharp
 public class MathRightSubSuperscriptElementFactory : IMathRightSubSuperscriptElementFactory
 ```
 
-## Constructors
+## Constructoren
 
 | Naam | Beschrijving |
 | --- | --- |
 | [MathRightSubSuperscriptElementFactory](mathrightsubsuperscriptelementfactory)() | De standaardconstructor. |
 
-## Methods
+## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |

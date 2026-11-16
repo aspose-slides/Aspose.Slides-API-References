@@ -1,14 +1,14 @@
 ---
 title: MathFunctionsOfTwoArguments
 second_title: Aspose.Sildes for .NET API 參考文件
-description: 兩個參數的常見數學函式
+description: 兩個參數的常用數學函式
 type: docs
-weight: 8750
+weight: 8770
 url: /zh-hant/aspose.slides.mathtext/mathfunctionsoftwoarguments/
 ---
 ## MathFunctionsOfTwoArguments 列舉
 
-兩個參數的常見數學函式
+兩個參數的常用數學函式
 
 ```csharp
 public enum MathFunctionsOfTwoArguments
@@ -23,7 +23,7 @@ public enum MathFunctionsOfTwoArguments
 | Min | `2` | 最小值 |
 | Max | `3` | 最大值 |
 
-### 另見
+### 另請參閱
 
 * 命名空間 [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * 組件 [Aspose.Slides](../../)

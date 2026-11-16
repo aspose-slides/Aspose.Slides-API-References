@@ -1,27 +1,27 @@
 ---
 title: IFormatSchemeEffectiveData
-second_title: مرجع API Aspose.Sildes لـ .NET
-description: كائن غير قابل للتعديل يحتوي على خصائص مخطط التنسيق الفعّال.
+second_title: Aspose.Sildes لـ .NET مرجع API
+description: كائن غير قابل للتغيير يحتوي على خصائص مخطط التنسيق الفعّال.
 type: docs
-weight: 11280
+weight: 11300
 url: /ar/aspose.slides.theme/iformatschemeeffectivedata/
 ---
-## واجهة IFormatSchemeEffectiveData
+## IFormatSchemeEffectiveData واجهة
 
-كائن غير قابل للتعديل يحتوي على خصائص مخطط التنسيق الفعّال.
+كائن غير قابل للتغيير يحتوي على خصائص مخطط التنسيق الفعّال.
 
 ```csharp
 public interface IFormatSchemeEffectiveData
 ```
 
-## الطرق
+## طرق
 
 | الاسم | الوصف |
 | --- | --- |
-| [GetBackgroundFillStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getbackgroundfillstyles)(Color) | يعيد مجموعة من أنماط التعبئة الخلفية المعرفة في السمة. |
-| [GetEffectStyles](../../aspose.slides.theme/iformatschemeeffectivedata/geteffectstyles)(Color) | يعيد مجموعة من أنماط التأثير المعرفة في السمة. |
-| [GetFillStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getfillstyles)(Color) | يعيد مجموعة من أنماط التعبئة المعرفة في السمة. |
-| [GetLineStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getlinestyles)(Color) | يعيد مجموعة من أنماط الخط المعرفة في السمة. |
+| [GetBackgroundFillStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getbackgroundfillstyles)(Color) | يعيد مجموعة من أنماط تعبئة الخلفية المعرفة في السمة. |
+| [GetEffectStyles](../../aspose.slides.theme/iformatschemeeffectivedata/geteffectstyles)(Color) | يعيد مجموعة من أنماط تأثير السمة المعرفة. |
+| [GetFillStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getfillstyles)(Color) | يعيد مجموعة من أنماط تعبئة السمة المعرفة. |
+| [GetLineStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getlinestyles)(Color) | يعيد مجموعة من أنماط خط السمة المعرفة. |
 
 ### ملاحظات
 

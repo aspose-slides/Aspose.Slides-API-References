@@ -1,14 +1,14 @@
 ---
 title: WarningType
-second_title: Aspose.Slides için .NET API Referansı
-description: Bir uyarı türünü temsil eder.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Uyarı türünü temsil eder.
 type: docs
-weight: 11830
+weight: 11850
 url: /tr/aspose.slides.warnings/warningtype/
 ---
-## WarningType enum'ı
+## WarningType enum
 
-Bir uyarı türünü temsil eder.
+Uyarı türünü temsil eder.
 
 ```csharp
 public enum WarningType
@@ -18,12 +18,12 @@ public enum WarningType
 
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
-| SourceFileCorruption | `0` | Kaynak belgede bir sorun tespit edildi; bu, belgenin özgün biçiminde kaydedildiğinde büyük olasılıkla açılamayacağını gösterir. |
-| DataLoss | `1` | Metin/grafik/resim veya diğer veriler, yükleme sonrasında belge ağacında ya da kaydetme sonrasında oluşturulan belgede tamamen eksik olacaktır. |
+| SourceFileCorruption | `0` | Kaynak belgede bir sorun tespit edildi; bu, belge orijinal formatında kaydedilirse çok muhtemelen açılamayacağı anlamına gelir. |
+| DataLoss | `1` | Metin/grafik/resim veya diğer veriler, yüklemenin ardından belge ağacından ya da kaydetmenin ardından oluşturulan belgede tamamen eksik olacaktır. |
 | MajorFormattingLoss | `2` | Büyük biçimlendirme kaybı. |
 | MinorFormattingLoss | `3` | Küçük biçimlendirme kaybı. |
-| CompatibilityIssue | `4` | Bu bilinen sorun, belgenin belirli kullanıcı ajanları tarafından veya önceki sürüm kullanıcı ajanları tarafından açılmasını engelleyecektir. |
-| UnexpectedContent | `99` | Kaynak belgede tanınamayan (yani desteklenmeyen) bazı içerikler bulunuyor; bu durum sorunlara yol açabilir ya da veri/biçimlendirme kaybına neden olabilir. |
+| CompatibilityIssue | `4` | Bu, belirli kullanıcı ajanları veya önceki sürüm kullanıcı ajanları tarafından belgenin açılmasını engelleyecek bilinen bir sorundur. |
+| UnexpectedContent | `99` | Kaynak belgede bazı içerikler tanınamadı (yani desteklenmiyor), bu durum sorunlara yol açabilir veya veri/biçimlendirme kaybına neden olabilir. |
 
 ### Ayrıca Bakınız
 

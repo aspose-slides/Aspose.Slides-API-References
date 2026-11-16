@@ -3,7 +3,7 @@ title: ILineFormat
 second_title: Aspose.Sildes per .NET Riferimento API
 description: Rappresenta il formato di una linea.
 type: docs
-weight: 6310
+weight: 6330
 url: /it/aspose.slides/ilineformat/
 ---
 ## Interfaccia ILineFormat
@@ -18,31 +18,31 @@ public interface ILineFormat : ILineParamSource
 
 | Nome | Descrizione |
 | --- | --- |
-| [Alignment](../../aspose.slides/ilineformat/alignment) { get; set; } | Restituisce o imposta l'allineamento della linea. Lettura/Scrittura [`LineAlignment`](../linealignment). |
-| [AsILineParamSource](../../aspose.slides/ilineformat/asilineparamsource) { get; } | Consente di ottenere l'interfaccia base ILineParamSource. Solo lettura [`ILineParamSource`](../ilineparamsource). |
-| [BeginArrowheadLength](../../aspose.slides/ilineformat/beginarrowheadlength) { get; set; } | Restituisce o imposta la lunghezza della punta della freccia all'inizio di una linea. Lettura/Scrittura [`LineArrowheadLength`](../linearrowheadlength). |
-| [BeginArrowheadStyle](../../aspose.slides/ilineformat/beginarrowheadstyle) { get; set; } | Restituisce o imposta lo stile della punta della freccia all'inizio di una linea. Lettura/Scrittura [`LineArrowheadStyle`](../linearrowheadstyle). |
-| [BeginArrowheadWidth](../../aspose.slides/ilineformat/beginarrowheadwidth) { get; set; } | Restituisce o imposta la larghezza della punta della freccia all'inizio di una linea. Lettura/Scrittura [`LineArrowheadWidth`](../linearrowheadwidth). |
-| [CapStyle](../../aspose.slides/ilineformat/capstyle) { get; set; } | Restituisce o imposta lo stile del cappuccio della linea. Lettura/Scrittura [`LineCapStyle`](../linecapstyle). |
-| [CustomDashPattern](../../aspose.slides/ilineformat/customdashpattern) { get; set; } | Restituisce o imposta il pattern di tratteggio personalizzato. Lettura/Scrittura Single[]. |
-| [DashStyle](../../aspose.slides/ilineformat/dashstyle) { get; set; } | Restituisce o imposta lo stile di tratteggio della linea. Lettura/Scrittura [`LineDashStyle`](../linedashstyle). |
-| [EndArrowheadLength](../../aspose.slides/ilineformat/endarrowheadlength) { get; set; } | Restituisce o imposta la lunghezza della punta della freccia alla fine di una linea. Lettura/Scrittura [`LineArrowheadLength`](../linearrowheadlength). |
-| [EndArrowheadStyle](../../aspose.slides/ilineformat/endarrowheadstyle) { get; set; } | Restituisce o imposta lo stile della punta della freccia alla fine di una linea. Lettura/Scrittura [`LineArrowheadStyle`](../linearrowheadstyle). |
-| [EndArrowheadWidth](../../aspose.slides/ilineformat/endarrowheadwidth) { get; set; } | Restituisce o imposta la larghezza della punta della freccia alla fine di una linea. Lettura/Scrittura [`LineArrowheadWidth`](../linearrowheadwidth). |
-| [FillFormat](../../aspose.slides/ilineformat/fillformat) { get; } | Restituisce il formato di riempimento di una linea. Solo lettura [`ILineFillFormat`](../ilinefillformat). |
-| [IsFormatNotDefined](../../aspose.slides/ilineformat/isformatnotdefined) { get; } | Restituisce true se il formato della linea non è definito (come appena creato, predefinito). Solo lettura Boolean. |
-| [JoinStyle](../../aspose.slides/ilineformat/joinstyle) { get; set; } | Restituisce o imposta lo stile di giunzione delle linee. Lettura/Scrittura [`LineJoinStyle`](../linejoinstyle). |
-| [MiterLimit](../../aspose.slides/ilineformat/miterlimit) { get; set; } | Restituisce o imposta il limite di smusso di una linea. Lettura/Scrittura Single. |
-| [SketchFormat](../../aspose.slides/ilineformat/sketchformat) { get; } | Restituisce il formato di schizzo di una linea. Solo lettura [`ISketchFormat`](../isketchformat). |
-| [Style](../../aspose.slides/ilineformat/style) { get; set; } | Restituisce o imposta lo stile della linea. Lettura/Scrittura [`LineStyle`](../linestyle). |
-| [Width](../../aspose.slides/ilineformat/width) { get; set; } | Restituisce o imposta la larghezza di una linea. Lettura/Scrittura Double. |
+| [Alignment](../../aspose.slides/ilineformat/alignment) { get; set; } | Restituisce o imposta l'allineamento della linea. Lettura/scrittura [`LineAlignment`](../linealignment). |
+| [AsILineParamSource](../../aspose.slides/ilineformat/asilineparamsource) { get; } | Consente di ottenere l'interfaccia base ILineParamSource. Sola lettura [`ILineParamSource`](../ilineparamsource). |
+| [BeginArrowheadLength](../../aspose.slides/ilineformat/beginarrowheadlength) { get; set; } | Restituisce o imposta la lunghezza della punta della freccia all'inizio di una linea. Lettura/scrittura [`LineArrowheadLength`](../linearrowheadlength). |
+| [BeginArrowheadStyle](../../aspose.slides/ilineformat/beginarrowheadstyle) { get; set; } | Restituisce o imposta lo stile della punta della freccia all'inizio di una linea. Lettura/scrittura [`LineArrowheadStyle`](../linearrowheadstyle). |
+| [BeginArrowheadWidth](../../aspose.slides/ilineformat/beginarrowheadwidth) { get; set; } | Restituisce o imposta la larghezza della punta della freccia all'inizio di una linea. Lettura/scrittura [`LineArrowheadWidth`](../linearrowheadwidth). |
+| [CapStyle](../../aspose.slides/ilineformat/capstyle) { get; set; } | Restituisce o imposta lo stile dell'estremità della linea. Lettura/scrittura [`LineCapStyle`](../linecapstyle). |
+| [CustomDashPattern](../../aspose.slides/ilineformat/customdashpattern) { get; set; } | Restituisce o imposta il modello di tratteggio personalizzato. Lettura/scrittura Single[]. |
+| [DashStyle](../../aspose.slides/ilineformat/dashstyle) { get; set; } | Restituisce o imposta lo stile di tratteggio della linea. Lettura/scrittura [`LineDashStyle`](../linedashstyle). |
+| [EndArrowheadLength](../../aspose.slides/ilineformat/endarrowheadlength) { get; set; } | Restituisce o imposta la lunghezza della punta della freccia alla fine di una linea. Lettura/scrittura [`LineArrowheadLength`](../linearrowheadlength). |
+| [EndArrowheadStyle](../../aspose.slides/ilineformat/endarrowheadstyle) { get; set; } | Restituisce o imposta lo stile della punta della freccia alla fine di una linea. Lettura/scrittura [`LineArrowheadStyle`](../linearrowheadstyle). |
+| [EndArrowheadWidth](../../aspose.slides/ilineformat/endarrowheadwidth) { get; set; } | Restituisce o imposta la larghezza della punta della freccia alla fine di una linea. Lettura/scrittura [`LineArrowheadWidth`](../linearrowheadwidth). |
+| [FillFormat](../../aspose.slides/ilineformat/fillformat) { get; } | Restituisce il formato di riempimento di una linea. Sola lettura [`ILineFillFormat`](../ilinefillformat). |
+| [IsFormatNotDefined](../../aspose.slides/ilineformat/isformatnotdefined) { get; } | Restituisce vero se il formato della linea non è definito (come appena creato, valore predefinito). Sola lettura Boolean. |
+| [JoinStyle](../../aspose.slides/ilineformat/joinstyle) { get; set; } | Restituisce o imposta lo stile di giunzione delle linee. Lettura/scrittura [`LineJoinStyle`](../linejoinstyle). |
+| [MiterLimit](../../aspose.slides/ilineformat/miterlimit) { get; set; } | Restituisce o imposta il limite di spigolo di una linea. Lettura/scrittura Single. |
+| [SketchFormat](../../aspose.slides/ilineformat/sketchformat) { get; } | Restituisce il formato bozza di una linea. Sola lettura [`ISketchFormat`](../isketchformat). |
+| [Style](../../aspose.slides/ilineformat/style) { get; set; } | Restituisce o imposta lo stile della linea. Lettura/scrittura [`LineStyle`](../linestyle). |
+| [Width](../../aspose.slides/ilineformat/width) { get; set; } | Restituisce o imposta la larghezza di una linea. Lettura/scrittura Double. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
 | [Equals](../../aspose.slides/ilineformat/equals)(ILineFormat) | Determina se le due istanze di LineFormat sono uguali. |
-| [GetEffective](../../aspose.slides/ilineformat/geteffective)() | Ottiene i dati di formattazione della linea effettivi con l'applicazione dell'ereditarietà. |
+| [GetEffective](../../aspose.slides/ilineformat/geteffective)() | Ottiene i dati di formattazione della linea effettiva con l'ereditarietà applicata. |
 
 ### Vedi anche
 

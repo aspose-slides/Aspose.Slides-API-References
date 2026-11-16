@@ -1,14 +1,14 @@
 ---
 title: ExternalResourceResolver
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Callback-Klasse, die zum Auflösen externer Ressourcen beim Import von Html- und Svg-Dokumenten verwendet wird. Die Verwendung dieses Resolvers kann eine Schwachstelle erzeugen, wenn eine vom Client bereitgestellte HTML- oder SVG-Datei die Serversoftware dazu veranlasst, lokale oder Netzwerkdateien abzurufen. Mit Vorsicht verwenden. Es wird empfohlen, ExternalResourceResolver überhaupt nicht anzugeben; es werden nur eingebettete Objekte gelesen, oder eine Unterklasse zu erstellen, die prüft, ob der angegebene uri gültig ist.
+description: Callback-Klasse, die zum Auflösen externer Ressourcen beim Import von Html- und Svg-Dokumenten verwendet wird. Die Verwendung dieses Resolvers kann eine Sicherheitslücke erzeugen, wenn eine vom Client bereitgestellte HTML- oder SVG-Datei die Serversoftware veranlasst, lokale oder Netzwerkdateien abzurufen. Mit Vorsicht einsetzen. Es wird empfohlen, ExternalResourceResolver überhaupt nicht anzugeben – es werden nur eingebettete Objekte gelesen – oder eine Unterklasse zu erstellen, die prüft, ob die angegebene URI gültig ist.
 type: docs
-weight: 7480
+weight: 7500
 url: /de/aspose.slides.import/externalresourceresolver/
 ---
 ## ExternalResourceResolver Klasse
 
-Callback-Klasse, die zum Auflösen externer Ressourcen beim Import von Html- und Svg-Dokumenten verwendet wird. Die Verwendung dieses Resolvers kann eine Sicherheitslücke erzeugen, wenn eine vom Client bereitgestellte HTML- oder SVG-Datei die Serversoftware dazu veranlasst, lokale oder Netzwerkdateien abzurufen. Vorsicht bei der Verwendung. Es wird empfohlen, ExternalResourceResolver überhaupt nicht anzugeben (nur eingebettete Objekte werden gelesen) oder eine Unterklasse zu erstellen, die prüft, ob der angegebene uri gültig ist.
+Callback-Klasse, die zum Auflösen externer Ressourcen während des Imports von Html- und Svg-Dokumenten verwendet wird. Die Verwendung dieses Resolvers kann eine Schwachstelle erzeugen, wenn eine vom Client bereitgestellte HTML- oder SVG-Datei die Server-Software veranlasst, lokale oder Netzwerkdateien zu beziehen. Mit Vorsicht einsetzen. Es wird empfohlen, ExternalResourceResolver überhaupt nicht anzugeben (es werden nur eingebettete Objekte gelesen) oder eine Unterklasse zu erstellen, die prüft, ob die angegebene uri gültig ist.
 
 ```csharp
 public class ExternalResourceResolver : IExternalResourceResolver
@@ -16,16 +16,16 @@ public class ExternalResourceResolver : IExternalResourceResolver
 
 ## Konstruktoren
 
-| Name | Description |
+| Name | Beschreibung |
 | --- | --- |
 | [ExternalResourceResolver](externalresourceresolver)() | Der Standardkonstruktor. |
 
 ## Methoden
 
-| Name | Description |
+| Name | Beschreibung |
 | --- | --- |
-| virtual [GetEntity](../../aspose.slides.import/externalresourceresolver/getentity)(string) | Ordnet einen URI einem Objekt zu, das die eigentliche Ressource enthält. |
-| virtual [ResolveUri](../../aspose.slides.import/externalresourceresolver/resolveuri)(string, string) | Ermittelt den absoluten URI aus dem Basis- und relativen URI. |
+| virtual [GetEntity](../../aspose.slides.import/externalresourceresolver/getentity)(string) | Ordnet eine URI einem Objekt zu, das die eigentliche Ressource enthält. |
+| virtual [ResolveUri](../../aspose.slides.import/externalresourceresolver/resolveuri)(string, string) | Löst die absolute URI aus der Basis- und relativen URIs auf. |
 
 ### Siehe auch
 

@@ -1,14 +1,14 @@
 ---
 title: XValue
 second_title: Aspose.Sildes için .NET API Referansı
-description: Grafik veri noktasının x değerini döndürür. Salt okunur IStringOrDoubleChartValueaspose.slides.charts/istringordoublechartvalue.
+description: Bir grafik veri noktasının x değerini alır. Salt okunur IStringOrDoubleChartValueaspose.slides.charts/istringordoublechartvalue.
 type: docs
-weight: 170
+weight: 210
 url: /tr/aspose.slides.charts/ichartdatapoint/xvalue/
 ---
 ## IChartDataPoint.XValue özelliği
 
-Grafik veri noktasının x değerini döndürür. Salt okunur [`IStringOrDoubleChartValue`](../../istringordoublechartvalue).
+Bir grafik veri noktasının x değerini alır. Salt okunur [`IStringOrDoubleChartValue`](../../istringordoublechartvalue).
 
 ```csharp
 public IStringOrDoubleChartValue XValue { get; }

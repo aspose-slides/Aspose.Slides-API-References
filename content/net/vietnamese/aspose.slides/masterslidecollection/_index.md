@@ -1,9 +1,9 @@
 ---
 title: MasterSlideCollection
-second_title: Aspose.Sildes cho .NET Tham chiếu API
+second_title: Tham chiếu API Aspose.Sildes cho .NET
 description: Biểu diễn một tập hợp các slide mẫu.
 type: docs
-weight: 8040
+weight: 8060
 url: /vi/aspose.slides/masterslidecollection/
 ---
 ## MasterSlideCollection lớp
@@ -16,26 +16,26 @@ public sealed class MasterSlideCollection : DomObject<Presentation>, IMasterSlid
 
 ## Thuộc tính
 
-| Name | Description |
+| Tên | Mô tả |
 | --- | --- |
-| [Count](../../aspose.slides/masterslidecollection/count) { get; } | Lấy số lượng phần tử thực sự có trong bộ sưu tập. Chỉ đọc Int32. |
-| [IsSynchronized](../../aspose.slides/masterslidecollection/issynchronized) { get; } | Trả về giá trị cho biết liệu việc truy cập vào bộ sưu tập có được đồng bộ (an toàn với luồng) hay không. Chỉ đọc Boolean. |
-| [Item](../../aspose.slides/masterslidecollection/item) { get; } | Lấy phần tử ở chỉ số đã chỉ định. Chỉ đọc [`MasterSlide`](../masterslide). |
-| [SyncRoot](../../aspose.slides/masterslidecollection/syncroot) { get; } | Trả về một gốc đồng bộ. Chỉ đọc Object. |
+| [Count](../../aspose.slides/masterslidecollection/count) { get; } | Lấy số phần tử thực sự chứa trong tập hợp. Chỉ đọc Int32. |
+| [IsSynchronized](../../aspose.slides/masterslidecollection/issynchronized) { get; } | Trả về một giá trị cho biết việc truy cập vào tập hợp có được đồng bộ (an toàn với đa luồng) hay không. Chỉ đọc Boolean. |
+| [Item](../../aspose.slides/masterslidecollection/item) { get; } | Lấy phần tử tại chỉ mục được chỉ định. Chỉ đọc [`MasterSlide`](../masterslide). |
+| [SyncRoot](../../aspose.slides/masterslidecollection/syncroot) { get; } | Trả về gốc đồng bộ. Chỉ đọc Object. |
 
 ## Phương thức
 
-| Name | Description |
+| Tên | Mô tả |
 | --- | --- |
-| [AddClone](../../aspose.slides/masterslidecollection/addclone)(IMasterSlide) | Thêm một bản sao của slide mẫu được chỉ định vào cuối bộ sưu tập. Các slide bố cục được liên kết sẽ cũng được sao chép. |
-| [CopyTo](../../aspose.slides/masterslidecollection/copyto)(Array, int) | Sao chép tất cả các phần tử từ bộ sưu tập vào mảng đã chỉ định. |
-| [GetEnumerator](../../aspose.slides/masterslidecollection/getenumerator)() | Trả về một enumerator cho phép duyệt qua bộ sưu tập. |
-| [InsertClone](../../aspose.slides/masterslidecollection/insertclone)(int, IMasterSlide) | Chèn một bản sao của slide mẫu được chỉ định vào vị trí đã cho trong bộ sưu tập. Các slide bố cục được liên kết sẽ cũng được sao chép. |
-| [Remove](../../aspose.slides/masterslidecollection/remove)(IMasterSlide) | Xóa lần xuất hiện đầu tiên của một đối tượng cụ thể khỏi bộ sưu tập. |
-| [RemoveAt](../../aspose.slides/masterslidecollection/removeat)(int) | Xóa phần tử ở chỉ số đã chỉ định của bộ sưu tập. |
-| [RemoveUnused](../../aspose.slides/masterslidecollection/removeunused)(bool) | Xóa các slide mẫu không sử dụng. |
+| [AddClone](../../aspose.slides/masterslidecollection/addclone)(IMasterSlide) | Thêm một bản sao của slide mẫu được chỉ định vào cuối tập hợp. Các slide bố cục liên kết cũng sẽ được sao chép. |
+| [CopyTo](../../aspose.slides/masterslidecollection/copyto)(Array, int) | Sao chép tất cả các phần tử từ tập hợp vào mảng được chỉ định. |
+| [GetEnumerator](../../aspose.slides/masterslidecollection/getenumerator)() | Trả về một enumerator duyệt qua tập hợp. |
+| [InsertClone](../../aspose.slides/masterslidecollection/insertclone)(int, IMasterSlide) | Chèn một bản sao của slide mẫu được chỉ định vào vị trí được chỉ định trong tập hợp. Các slide bố cục liên kết cũng sẽ được sao chép. |
+| [Remove](../../aspose.slides/masterslidecollection/remove)(IMasterSlide) | Xóa lần xuất hiện đầu tiên của một đối tượng cụ thể khỏi tập hợp. |
+| [RemoveAt](../../aspose.slides/masterslidecollection/removeat)(int) | Xóa phần tử tại chỉ mục được chỉ định trong tập hợp. |
+| [RemoveUnused](../../aspose.slides/masterslidecollection/removeunused)(bool) | Xóa các slide mẫu không được sử dụng. |
 
-### Xem thêm
+### Xem Thêm
 
 * lớp [DomObject&lt;TParent&gt;](../domobject-1)
 * lớp [Presentation](../presentation)

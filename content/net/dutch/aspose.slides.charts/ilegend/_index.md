@@ -1,14 +1,14 @@
 ---
 title: ILegend
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Vertegenwoordigt de legende-eigenschappen van grafieken.
+description: Geeft de legende-eigenschappen van grafieken weer.
 type: docs
-weight: 2130
+weight: 2150
 url: /nl/aspose.slides.charts/ilegend/
 ---
 ## ILegend interface
 
-Vertegenwoordigt de legende-eigenschappen van de grafiek.
+Geeft de legende-eigenschappen van een grafiek weer.
 
 ```csharp
 public interface ILegend : IActualLayout, IFormattedTextContainer, ILayoutable
@@ -18,12 +18,12 @@ public interface ILegend : IActualLayout, IFormattedTextContainer, ILayoutable
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIFormattedTextContainer](../../aspose.slides.charts/ilegend/asiformattedtextcontainer) { get; } | Staat toe de basis IFormattedTextContainer interface op te halen. Alleen-lezen [`IFormattedTextContainer`](../iformattedtextcontainer). |
-| [AsILayoutable](../../aspose.slides.charts/ilegend/asilayoutable) { get; } | Staat toe de basis ILayoutable interface op te halen. Alleen-lezen [`ILayoutable`](../ilayoutable). |
+| [AsIFormattedTextContainer](../../aspose.slides.charts/ilegend/asiformattedtextcontainer) { get; } | Staat toe om de basis IFormattedTextContainer interface op te halen. Alleen-lezen [`IFormattedTextContainer`](../iformattedtextcontainer). |
+| [AsILayoutable](../../aspose.slides.charts/ilegend/asilayoutable) { get; } | Staat toe om de basis ILayoutable interface op te halen. Alleen-lezen [`ILayoutable`](../ilayoutable). |
 | [Entries](../../aspose.slides.charts/ilegend/entries) { get; } | Haalt legende-items op. Alleen-lezen [`ILegendEntryCollection`](../ilegendentrycollection). |
 | [Format](../../aspose.slides.charts/ilegend/format) { get; } | Retourneert het formaat van een legende. Alleen-lezen [`IFormat`](../iformat). |
-| [Overlay](../../aspose.slides.charts/ilegend/overlay) { get; set; } | Bepaalt of andere grafiekelementen de legende mogen overlappen. Lezen/schrijven Boolean. |
-| [Position](../../aspose.slides.charts/ilegend/position) { get; set; } | Specificeert de positie van de legende op een grafiek. Niet-NaN waarden van de X, Y, Width, Height eigenschappen overschrijven het effect van deze eigenschap. Lezen/schrijven [`LegendPositionType`](../legendpositiontype). |
+| [Overlay](../../aspose.slides.charts/ilegend/overlay) { get; set; } | Bepaalt of andere grafiekelementen de legende mogen overlappen. Lezen/Schrijven Boolean. |
+| [Position](../../aspose.slides.charts/ilegend/position) { get; set; } | Specificeert de positie van de legende op een grafiek. Niet-NaN waarden van X, Y, Width, Heigt eigenschappen hebben voorrang op het effect van deze eigenschap. Lezen/Schrijven [`LegendPositionType`](../legendpositiontype). |
 
 ### Zie ook
 

@@ -1,9 +1,9 @@
 ---
 title: PlaceholderType
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 플레이스홀더의 유형을 나타냅니다.
 type: docs
-weight: 9450
+weight: 9470
 url: /ko/aspose.slides/placeholdertype/
 ---
 ## PlaceholderType 열거형
@@ -18,24 +18,24 @@ public enum PlaceholderType : sbyte
 
 | 이름 | 값 | 설명 |
 | --- | --- | --- |
-| Title | `0` | 제목. |
-| Body | `1` | 본문. |
-| CenteredTitle | `2` | 가운데 제목. |
-| Subtitle | `3` | 부제. |
-| DateAndTime | `4` | 날짜 및 시간. |
-| SlideNumber | `5` | 슬라이드 번호. |
-| Footer | `6` | 바닥글. |
-| Header | `7` | 머리글. |
-| Object | `8` | 객체. |
-| Chart | `9` | 차트. |
-| Table | `10` | 표. |
-| ClipArt | `11` | 클립 아트. |
-| Diagram | `12` | 다이어그램. |
-| Media | `13` | 미디어. |
-| SlideImage | `14` | 슬라이드 이미지. |
-| Picture | `15` | 그림. |
+| Title | `0` | Title. |
+| Body | `1` | Body. |
+| CenteredTitle | `2` | Centered Title. |
+| Subtitle | `3` | Subtitle. |
+| DateAndTime | `4` | Date and Time. |
+| SlideNumber | `5` | Slide Number. |
+| Footer | `6` | Footer. |
+| Header | `7` | Header. |
+| Object | `8` | Object. |
+| Chart | `9` | Chart. |
+| Table | `10` | Table. |
+| ClipArt | `11` | Clip Art. |
+| Diagram | `12` | Diagram. |
+| Media | `13` | Media. |
+| SlideImage | `14` | Slide Image. |
+| Picture | `15` | Picture. |
 
-### 관련 항목
+### 참조
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

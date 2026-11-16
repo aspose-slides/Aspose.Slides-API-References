@@ -3,7 +3,7 @@ title: PptCorruptFileException
 second_title: Aspose.Sildes för .NET API-referens
 description: Undantag som kastas när presentationsfilen sannolikt är korrupt.
 type: docs
-weight: 9500
+weight: 9520
 url: /sv/aspose.slides/pptcorruptfileexception/
 ---
 ## PptCorruptFileException klass
@@ -16,10 +16,10 @@ public class PptCorruptFileException : PptReadException
 
 ## Konstruktörer
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
 | [PptCorruptFileException](pptcorruptfileexception#constructor)() | Standardkonstruktor. |
-| [PptCorruptFileException](pptcorruptfileexception#constructor_1)(string) | Konstruktor som möjliggör att ett meddelande läggs till detta undantag. |
+| [PptCorruptFileException](pptcorruptfileexception#constructor_1)(string) | Konstruktor som tillåter ett meddelande att läggas till i detta undantag. |
 | [PptCorruptFileException](pptcorruptfileexception#constructor_2)(string, Exception) | Konstruktor för ett undantag som innehåller ett meddelande och ett inbäddat undantag. |
 
 ### Se även

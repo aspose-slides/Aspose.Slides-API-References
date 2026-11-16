@@ -3,10 +3,10 @@ title: VbaReferenceFactory
 second_title: Aspose.Sildes لـ .NET مرجع API
 description: يسمح بإنشاء مراجع مشروع VBA عبر واجهة COM
 type: docs
-weight: 11680
+weight: 11700
 url: /ar/aspose.slides.vba/vbareferencefactory/
 ---
-## فئة VbaReferenceFactory
+## VbaReferenceFactory فئة
 
 يسمح بإنشاء مراجع مشروع VBA عبر واجهة COM
 
@@ -14,23 +14,23 @@ url: /ar/aspose.slides.vba/vbareferencefactory/
 public class VbaReferenceFactory : IVbaReferenceFactory
 ```
 
-## المُنشئات
+## المنشئات
 
-| الاسم | الوصف |
+| Name | Description |
 | --- | --- |
-| [VbaReferenceFactory](vbareferencefactory)() | المُنشئ الافتراضي. |
+| [VbaReferenceFactory](vbareferencefactory)() | المنشئ الافتراضي. |
 
 ## الخصائص
 
-| الاسم | الوصف |
+| Name | Description |
 | --- | --- |
-| static [Instance](../../aspose.slides.vba/vbareferencefactory/instance) { get; } | مثيل ثابت لمصنع مراجع مشروع VBA. قراءة فقط [`VbaReferenceFactory`](../vbareferencefactory). |
+| static [Instance](../../aspose.slides.vba/vbareferencefactory/instance) { get; } | مثيل ثابت لمصنع مراجع مشروع VBA. للقراءة فقط [`VbaReferenceFactory`](../vbareferencefactory). |
 
 ## الطرق
 
-| الاسم | الوصف |
+| Name | Description |
 | --- | --- |
-| [CreateOleTypeLibReference](../../aspose.slides.vba/vbareferencefactory/createoletypelibreference)(string, string) | ينشئ إشارة إلى مكتبة نوع OLE Automation جديدة. |
+| [CreateOleTypeLibReference](../../aspose.slides.vba/vbareferencefactory/createoletypelibreference)(string, string) | ينشئ مرجع مكتبة نوع OLE Automation جديد. |
 
 ### انظر أيضًا
 

@@ -1,9 +1,9 @@
 ---
 title: IActualLayout
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: ระบุตำแหน่งจริงขององค์ประกอบแผนภูมิ
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: ระบุตำแหน่งจริงขององค์ประกอบแผนภูมิ.
 type: docs
-weight: 1690
+weight: 1700
 url: /th/aspose.slides.charts/iactuallayout/
 ---
 ## IActualLayout อินเทอร์เฟซ
@@ -18,10 +18,10 @@ public interface IActualLayout
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/iactuallayout/actualheight) { get; } | ระบุความสูงจริงขององค์ประกอบแผนภูมิ. เรียกเมธอด IChart.ValidateChartLayout() ก่อนเพื่อรับค่าจริง. อ่าน Single. |
-| [ActualWidth](../../aspose.slides.charts/iactuallayout/actualwidth) { get; } | ระบุความกว้างจริงขององค์ประกอบแผนภูมิ. เรียกเมธอด IChart.ValidateChartLayout() ก่อนเพื่อรับค่าจริง. อ่าน Single. |
-| [ActualX](../../aspose.slides.charts/iactuallayout/actualx) { get; } | ระบุตำแหน่ง x จริง (ซ้าย) ขององค์ประกอบแผนภูมิสัมพันธ์กับมุมซ้ายบนของแผนภูมิ. เรียกเมธอด IChart.ValidateChartLayout() ก่อนเพื่อรับค่าจริง. อ่าน Single. |
-| [ActualY](../../aspose.slides.charts/iactuallayout/actualy) { get; } | ระบุตำแหน่งบนจริงขององค์ประกอบแผนภูมิสัมพันธ์กับมุมซ้ายบนของแผนภูมิ. เรียกเมธอด IChart.ValidateChartLayout() ก่อนเพื่อรับค่าจริง. อ่าน Single. |
+| [ActualHeight](../../aspose.slides.charts/iactuallayout/actualheight) { get; } | ระบุความสูงจริงขององค์ประกอบแผนภูมิ เรียกเมธอด IChart.ValidateChartLayout() ก่อนเพื่อรับค่าที่แท้จริง อ่าน Single. |
+| [ActualWidth](../../aspose.slides.charts/iactuallayout/actualwidth) { get; } | ระบุความกว้างจริงขององค์ประกอบแผนภูมิ เรียกเมธอด IChart.ValidateChartLayout() ก่อนเพื่อรับค่าที่แท้จริง อ่าน Single. |
+| [ActualX](../../aspose.slides.charts/iactuallayout/actualx) { get; } | ระบุตำแหน่ง x จริง (ซ้าย) ขององค์ประกอบแผนภูมิ ตามจุดมุมซ้ายบนของแผนภูมิ เรียกเมธอด IChart.ValidateChartLayout() ก่อนเพื่อรับค่าที่แท้จริง อ่าน Single. |
+| [ActualY](../../aspose.slides.charts/iactuallayout/actualy) { get; } | ระบุตำแหน่งบนจริงขององค์ประกอบแผนภูมิ ตามจุดมุมซ้ายบนของแผนภูมิ เรียกเมธอด IChart.ValidateChartLayout() ก่อนเพื่อรับค่าที่แท้จริง อ่าน Single. |
 
 ### ดูเพิ่มเติม
 

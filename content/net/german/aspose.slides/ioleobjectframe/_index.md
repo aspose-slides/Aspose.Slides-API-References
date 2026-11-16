@@ -3,7 +3,7 @@ title: IOleObjectFrame
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt ein OLE-Objekt auf einer Folie dar.
 type: docs
-weight: 6540
+weight: 6560
 url: /de/aspose.slides/ioleobjectframe/
 ---
 ## IOleObjectFrame Schnittstelle
@@ -18,26 +18,26 @@ public interface IOleObjectFrame : IGraphicalObject
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIGraphicalObject](../../aspose.slides/ioleobjectframe/asigraphicalobject) { get; } | Allows to get base IGraphicalObject interface. Nur-Lesen [`IGraphicalObject`](../igraphicalobject). |
-| [EmbeddedData](../../aspose.slides/ioleobjectframe/embeddeddata) { get; } | Gets information about OLE embedded data. Nur-Lesen [`IOleEmbeddedDataInfo`](../ioleembeddeddatainfo). |
+| [AsIGraphicalObject](../../aspose.slides/ioleobjectframe/asigraphicalobject) { get; } | Ermöglicht das Abrufen der Basis-IGraphicalObject-Schnittstelle. Nur lesbar [`IGraphicalObject`](../igraphicalobject). |
+| [EmbeddedData](../../aspose.slides/ioleobjectframe/embeddeddata) { get; } | Liefert Informationen über OLE eingebettete Daten. Nur lesbar [`IOleEmbeddedDataInfo`](../ioleembeddeddatainfo). |
 | [EmbeddedFileLabel](../../aspose.slides/ioleobjectframe/embeddedfilelabel) { get; } | Gibt den Dateinamen des eingebetteten OLE-Objekts zurück |
 | [EmbeddedFileName](../../aspose.slides/ioleobjectframe/embeddedfilename) { get; } | Gibt den Pfad des eingebetteten OLE-Objekts zurück |
 | [IsObjectIcon](../../aspose.slides/ioleobjectframe/isobjecticon) { get; set; } | Bestimmt, ob ein Objekt als Symbol sichtbar ist. Lesen/Schreiben Boolean. |
-| [IsObjectLink](../../aspose.slides/ioleobjectframe/isobjectlink) { get; } | Bestimmt, ob ein Objekt mit einer externen Datei verknüpft ist. Nur-Lesen Boolean. |
-| [LinkFileName](../../aspose.slides/ioleobjectframe/linkfilename) { get; } | Gibt den vollständigen Pfad zu einer verknüpften Datei zurück. Kurzer Dateiname wird verwendet. Nur-Lesen String. |
+| [IsObjectLink](../../aspose.slides/ioleobjectframe/isobjectlink) { get; } | Bestimmt, ob ein Objekt mit einer externen Datei verknüpft ist. Nur lesbar Boolean. |
+| [LinkFileName](../../aspose.slides/ioleobjectframe/linkfilename) { get; } | Gibt den vollständigen Pfad zu einer verknüpften Datei zurück. Kurzer Dateiname wird verwendet. Nur lesbar String. |
 | [LinkPathLong](../../aspose.slides/ioleobjectframe/linkpathlong) { get; set; } | Gibt den vollständigen Pfad zu einer verknüpften Datei zurück. Langer Dateiname wird verwendet. Lesen/Schreiben String. |
-| [LinkPathRelative](../../aspose.slides/ioleobjectframe/linkpathrelative) { get; } | Gibt den relativen Pfad zu einer verknüpften Datei zurück, falls vorhanden, andernfalls wird ein leerer String zurückgegeben. Nur-Lesen String. |
+| [LinkPathRelative](../../aspose.slides/ioleobjectframe/linkpathrelative) { get; } | Gibt den relativen Pfad zu einer verknüpften Datei zurück, falls vorhanden, sonst einen leeren String. Nur lesbar String. |
 | [ObjectName](../../aspose.slides/ioleobjectframe/objectname) { get; set; } | Gibt den Namen eines Objekts zurück oder legt ihn fest. Lesen/Schreiben String. |
-| [ObjectProgId](../../aspose.slides/ioleobjectframe/objectprogid) { get; set; } | Gibt die ProgID eines Objekts zurück. Nur-Lesen String. |
-| [SubstitutePictureFormat](../../aspose.slides/ioleobjectframe/substitutepictureformat) { get; } | Gibt das OleObject-Bildfüllungs-Properties-Objekt zurück. Nur-Lesen [`IPictureFillFormat`](../ipicturefillformat). |
+| [ObjectProgId](../../aspose.slides/ioleobjectframe/objectprogid) { get; set; } | Gibt die ProgID eines Objekts zurück. Nur lesbar String. |
+| [SubstitutePictureFormat](../../aspose.slides/ioleobjectframe/substitutepictureformat) { get; } | Gibt das OleObject Bildfüllungs-Eigenschaftsobjekt zurück. Nur lesbar [`IPictureFillFormat`](../ipicturefillformat). |
 | [SubstitutePictureTitle](../../aspose.slides/ioleobjectframe/substitutepicturetitle) { get; set; } | Gibt den Titel für das OleObject-Symbol zurück oder legt ihn fest. Lesen/Schreiben String. |
-| [UpdateAutomatic](../../aspose.slides/ioleobjectframe/updateautomatic) { get; set; } | Bestimmt, ob das verknüpfte eingebettete Objekt automatisch aktualisiert wird, wenn die Präsentation geöffnet oder gedruckt wird. Lesen/Schreiben Boolean. |
+| [UpdateAutomatic](../../aspose.slides/ioleobjectframe/updateautomatic) { get; set; } | Bestimmt, ob das verknüpfte eingebettete Objekt beim Öffnen oder Drucken der Präsentation automatisch aktualisiert wird. Lesen/Schreiben Boolean. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [SetEmbeddedData](../../aspose.slides/ioleobjectframe/setembeddeddata)(IOleEmbeddedDataInfo) | Legt Informationen über eingebettete OLE-Daten fest. |
+| [SetEmbeddedData](../../aspose.slides/ioleobjectframe/setembeddeddata)(IOleEmbeddedDataInfo) | Setzt Informationen über OLE eingebettete Daten. |
 
 ### Siehe auch
 

@@ -3,7 +3,7 @@ title: CellInvalidReferenceException
 second_title: Aspose.Sildes for .NET API 參考
 description: 當遇到無效的儲存格參照時拋出的例外。
 type: docs
-weight: 10720
+weight: 10740
 url: /zh-hant/aspose.slides.spreadsheet/cellinvalidreferenceexception/
 ---
 ## CellInvalidReferenceException 類別
@@ -20,8 +20,8 @@ public class CellInvalidReferenceException : PptxEditException
 | --- | --- |
 | [CellInvalidReferenceException](cellinvalidreferenceexception#constructor)() | 初始化 [`CellInvalidReferenceException`](../cellinvalidreferenceexception) 類別的新執行個體。 |
 | [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_1)(string) | 使用指定的錯誤訊息初始化 [`CellInvalidReferenceException`](../cellinvalidreferenceexception) 類別的新執行個體。 |
-| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_2)(string, Exception) | 使用指定的錯誤訊息與導致此例外的內部例外參考，初始化 [`CellInvalidReferenceException`](../cellinvalidreferenceexception) 類別的新執行個體。 |
-| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_3)(string, string) | 使用指定的錯誤訊息與無效的儲存格參照，初始化 [`CellCircularReferenceException`](../cellcircularreferenceexception) 類別的新執行個體。 |
+| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_2)(string, Exception) | 使用指定的錯誤訊息和指向內部例外的參考（此例外的原因）來初始化 [`CellInvalidReferenceException`](../cellinvalidreferenceexception) 類別的新執行個體。 |
+| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_3)(string, string) | 使用指定的錯誤訊息和無效的儲存格參照來初始化 [`CellCircularReferenceException`](../cellcircularreferenceexception) 類別的新執行個體。 |
 
 ## 屬性
 
@@ -29,7 +29,7 @@ public class CellInvalidReferenceException : PptxEditException
 | --- | --- |
 | [Reference](../../aspose.slides.spreadsheet/cellinvalidreferenceexception/reference) { get; } | 取得無效的儲存格參照。 |
 
-### 另見
+### 另請參閱
 
 * 類別 [PptxEditException](../../aspose.slides/pptxeditexception)
 * 命名空間 [Aspose.Slides.Spreadsheet](../../aspose.slides.spreadsheet)

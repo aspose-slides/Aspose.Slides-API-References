@@ -1,14 +1,14 @@
 ---
 title: IWarningCallback
-second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
-description: อินเทอร์เฟซสำหรับคลาสที่รับคำเตือน
+second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
+description: อินเทอร์เฟซสำหรับคลาสที่รับการเตือน
 type: docs
-weight: 11800
+weight: 11820
 url: /th/aspose.slides.warnings/iwarningcallback/
 ---
 ## IWarningCallback อินเทอร์เฟซ
 
-อินเทอร์เฟซสำหรับคลาสที่รับคำเตือน
+อินเทอร์เฟซสำหรับคลาสที่รับการเตือน
 
 ```csharp
 public interface IWarningCallback
@@ -18,7 +18,7 @@ public interface IWarningCallback
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Warning](../../aspose.slides.warnings/iwarningcallback/warning)(IWarningInfo) | เมธอด callback ที่รับคำเตือนและตัดสินใจว่าควรยกเลิกการทำงานหรือไม่ |
+| [Warning](../../aspose.slides.warnings/iwarningcallback/warning)(IWarningInfo) | เมธอด callback ที่รับการเตือนและตัดสินใจว่าควรยกเลิกการดำเนินการหรือไม่ |
 
 ### ดูเพิ่มเติม
 

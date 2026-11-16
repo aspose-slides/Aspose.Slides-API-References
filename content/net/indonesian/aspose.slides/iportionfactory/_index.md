@@ -1,14 +1,14 @@
 ---
 title: IPortionFactory
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Memungkinkan pembuatan bagian uji
 type: docs
-weight: 6720
+weight: 6740
 url: /id/aspose.slides/iportionfactory/
 ---
 ## IPortionFactory antarmuka
 
-Memungkinkan pembuatan bagian uji
+Mengizinkan pembuatan bagian uji
 
 ```csharp
 public interface IPortionFactory

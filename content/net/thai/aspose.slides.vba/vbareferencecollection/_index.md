@@ -1,14 +1,14 @@
 ---
 title: VbaReferenceCollection
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: เป็นตัวแทนของคอลเลกชันของการอ้างอิงโครงการ VBA.
+second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
+description: แสดงคอลเลกชันของการอ้างอิงโครงการ VBA
 type: docs
-weight: 11670
+weight: 11690
 url: /th/aspose.slides.vba/vbareferencecollection/
 ---
 ## VbaReferenceCollection คลาส
 
-เป็นตัวแทนของคอลเลกชันของการอ้างอิง VBA Project
+Represents a collection of a VBA Project references.
 
 ```csharp
 public class VbaReferenceCollection : IVbaReferenceCollection
@@ -16,20 +16,20 @@ public class VbaReferenceCollection : IVbaReferenceCollection
 
 ## คุณสมบัติ
 
-| Name | Description |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Count](../../aspose.slides.vba/vbareferencecollection/count) { get; } | รับจำนวนขององค์ประกอบที่มีจริงในคอลเลกชัน. อ่านอย่างเดียว Int32. |
-| [IsSynchronized](../../aspose.slides.vba/vbareferencecollection/issynchronized) { get; } | ส่งค่าที่บ่งชี้ว่าการเข้าถึงคอลเลกชันเป็นแบบซิงโครไนซ์ (ปลอดภัยต่อเธรด). อ่านอย่างเดียว Boolean. |
-| [Item](../../aspose.slides.vba/vbareferencecollection/item) { get; } | รับองค์ประกอบที่ตำแหน่งที่ระบุ. |
-| [SyncRoot](../../aspose.slides.vba/vbareferencecollection/syncroot) { get; } | ส่งรากของการซิงโครไนซ์. อ่านอย่างเดียว Object. |
+| [Count](../../aspose.slides.vba/vbareferencecollection/count) { get; } | รับจำนวนขององค์ประกอบที่มีอยู่จริงในคอลเลกชัน อ่านอย่างเดียว Int32. |
+| [IsSynchronized](../../aspose.slides.vba/vbareferencecollection/issynchronized) { get; } | ส่งค่าที่บ่งชี้ว่าการเข้าถึงคอลเลกชันเป็นแบบซิงโครไนซ์ (ปลอดภัยต่อเธรด) อ่านอย่างเดียว Boolean. |
+| [Item](../../aspose.slides.vba/vbareferencecollection/item) { get; } | รับอิลิเมนท์ที่ตำแหน่งที่ระบุ. |
+| [SyncRoot](../../aspose.slides.vba/vbareferencecollection/syncroot) { get; } | ส่งรากการซิงโครไนซ์ อ่านอย่างเดียว Object. |
 
 ## เมธอด
 
-| Name | Description |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
 | [Add](../../aspose.slides.vba/vbareferencecollection/add)(IVbaReference) | เพิ่มการอ้างอิงใหม่ไปยังคอลเลกชันของการอ้างอิง |
-| [CopyTo](../../aspose.slides.vba/vbareferencecollection/copyto)(Array, int) | คัดลอกรายการทั้งหมดจากคอลเลกชันไปยังอาร์เรย์ที่ระบุ. |
-| [GetEnumerator](../../aspose.slides.vba/vbareferencecollection/getenumerator)() | ส่ง enumerator ที่ทำการวนซ้ำผ่านคอลเลกชัน. |
+| [CopyTo](../../aspose.slides.vba/vbareferencecollection/copyto)(Array, int) | คัดลอกทุกอิลิเมนท์จากคอลเลกชันไปยังอาร์เรย์ที่ระบุ. |
+| [GetEnumerator](../../aspose.slides.vba/vbareferencecollection/getenumerator)() | ส่ง enumerator ที่วนผ่านคอลเลกชัน. |
 
 ### ดูเพิ่มเติม
 

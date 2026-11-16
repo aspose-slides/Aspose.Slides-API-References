@@ -1,25 +1,22 @@
 ---
 title: IFillFormatCollectionEffectiveData
-second_title: Tham khảo API Aspose.Sildes cho .NET
+second_title: Tham chiếu API Aspose.Sildes cho .NET
 description: Đối tượng bất biến đại diện cho một bộ sưu tập chỉ đọc của các định dạng tô đầy hiệu quả.
 type: docs
-weight: 11240
+weight: 11260
 url: /vi/aspose.slides.theme/ifillformatcollectioneffectivedata/
 ---
-## IFillFormatCollectionEffectiveData interface
-
-Đối tượng bất biến đại diện cho một bộ sưu tập chỉ đọc của các định dạng tô đầy hiệu quả.
+## IFillFormatCollectionEffectiveData giao diện
+Đối tượng bất biến đại diện cho một bộ sưu tập chỉ đọc các định dạng tô màu có hiệu lực.
 
 ```csharp
 public interface IFillFormatCollectionEffectiveData : IGenericCollection<IFillFormatEffectiveData>
 ```
+## Thuộc tính
 
-## Properties
-
-| Tên | Mô tả |
+| Name | Description |
 | --- | --- |
-| [Item](../../aspose.slides.theme/ifillformatcollectioneffectivedata/item) { get; } | Lấy phần tử tại chỉ mục được chỉ định. Chỉ đọc [`IFillFormatEffectiveData`](../../aspose.slides/ifillformateffectivedata). |
-
+| [Item](../../aspose.slides.theme/ifillformatcollectioneffectivedata/item) { get; } | Lấy phần tử tại chỉ mục đã chỉ định. Chỉ đọc [`IFillFormatEffectiveData`](../../aspose.slides/ifillformateffectivedata). |
 ### Ghi chú
 
 Giao diện này được sử dụng như một phần của [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata).

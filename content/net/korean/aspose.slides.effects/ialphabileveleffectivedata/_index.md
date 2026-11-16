@@ -1,14 +1,14 @@
 ---
 title: IAlphaBiLevelEffectiveData
-second_title: Aspose.Sildes .NET API 레퍼런스
-description: 임계값보다 작은 알파 불투명도 값은 0(완전 투명)으로, 임계값 이상인 알파 값은 100(완전 불투명)으로 변경되는 알파 바이레벨 효과를 나타내는 불변 객체입니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: Alpha Bi-Level 효과를 나타내는 불변 객체입니다. 임계값보다 작은 Alpha 불투명도 값은 0(완전 투명)으로, 임계값 이상인 Alpha 값은 100(완전 불투명)으로 변경됩니다.
 type: docs
-weight: 3030
+weight: 3050
 url: /ko/aspose.slides.effects/ialphabileveleffectivedata/
 ---
 ## IAlphaBiLevelEffectiveData 인터페이스
 
-임계값보다 작은 Alpha(불투명도) 값은 0(완전 투명)으로, 임계값 이상인 Alpha 값은 100%(완전 불투명)으로 변경되는 Alpha Bi-Level 효과를 나타내는 불변 객체입니다.
+임뮤터블 객체는 Alpha Bi-Level 효과를 나타냅니다. 임계값보다 작은 Alpha(Opacity) 값은 0(완전 투명)으로 변경되고, 임계값 이상인 Alpha 값은 100%(완전 불투명)으로 변경됩니다.
 
 ```csharp
 public interface IAlphaBiLevelEffectiveData : IEffectEffectiveData

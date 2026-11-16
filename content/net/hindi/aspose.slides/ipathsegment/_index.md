@@ -1,14 +1,14 @@
 ---
 title: IPathSegment
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: GeometryShape के ग्राफ़िक्स पाथ के खंड का प्रतिनिधित्व करता है
+description: GeometryShape के ग्राफ़िक्स पाथ का सेगमेंट दर्शाता है
 type: docs
-weight: 6610
+weight: 6630
 url: /hi/aspose.slides/ipathsegment/
 ---
 ## IPathSegment इंटरफ़ेस
 
-GeometryShape के ग्राफ़िक्स पाथ के खंड का प्रतिनिधित्व करता है
+GeometryShape के ग्राफ़िक्स पाथ का सेगमेंट दर्शाता है
 
 ```csharp
 public interface IPathSegment

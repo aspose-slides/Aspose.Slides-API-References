@@ -1,14 +1,14 @@
 ---
 title: INotesSlideHeaderFooterManager
-second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Biểu diễn trình quản lý giữ hành vi của các trình giữ chỗ slide ghi chú, bao gồm trình giữ chỗ tiêu đề.
+second_title: Aspose.Sildes cho .NET Tham chiếu API
+description: Đại diện cho trình quản lý giữ hành vi của các giữ chỗ ghi chú slide, bao gồm giữ chỗ tiêu đề.
 type: docs
-weight: 6510
+weight: 6530
 url: /vi/aspose.slides/inotesslideheaderfootermanager/
 ---
 ## INotesSlideHeaderFooterManager giao diện
 
-Biểu diễn trình quản lý giữ hành vi của các trình giữ chỗ slide ghi chú, bao gồm trình giữ chỗ tiêu đề.
+Đại diện cho trình quản lý giữ hành vi của các giữ chỗ ghi chú slide, bao gồm giữ chỗ tiêu đề.
 
 ```csharp
 public interface INotesSlideHeaderFooterManager : IBaseHandoutNotesSlideHeaderFooterManag

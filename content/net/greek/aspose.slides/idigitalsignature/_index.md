@@ -3,10 +3,10 @@ title: IDigitalSignature
 second_title: Aspose.Sildes για .NET API Αναφορά
 description: Ψηφιακή υπογραφή σε υπογεγραμμένο αρχείο.
 type: docs
-weight: 5690
+weight: 5710
 url: /el/aspose.slides/idigitalsignature/
 ---
-## IDigitalSignature διασύνδεση
+## IDigitalSignature διεπαφή
 
 Ψηφιακή υπογραφή σε υπογεγραμμένο αρχείο.
 
@@ -19,9 +19,9 @@ public interface IDigitalSignature
 | Όνομα | Περιγραφή |
 | --- | --- |
 | [Certificate](../../aspose.slides/idigitalsignature/certificate) { get; } | Αντικείμενο πιστοποιητικού που χρησιμοποιήθηκε για την υπογραφή του εγγράφου. Μόνο για ανάγνωση X509Certificate2. |
-| [Comments](../../aspose.slides/idigitalsignature/comments) { get; set; } | Ο σκοπός της υπογραφής. Ανάγνωση/Εγγραφή String. |
-| [IsValid](../../aspose.slides/idigitalsignature/isvalid) { get; } | Αν αυτή η ψηφιακή υπογραφή είναι έγκυρη και το έγγραφο δεν έχει παραποιηθεί, αυτή η τιμή θα είναι true. Μόνο για ανάγνωση Boolean. |
-| [SignTime](../../aspose.slides/idigitalsignature/signtime) { get; } | Η ώρα όταν το έγγραφο υπογράφηκε. Μόνο για ανάγνωση DateTime. |
+| [Comments](../../aspose.slides/idigitalsignature/comments) { get; set; } | Ο σκοπός της υπογραφής. Ανάγνωση/εγγραφή String. |
+| [IsValid](../../aspose.slides/idigitalsignature/isvalid) { get; } | Εάν αυτή η ψηφιακή υπογραφή είναι έγκυρη και το έγγραφο δεν έχει αλλοιωθεί, αυτή η τιμή θα είναι true. Μόνο για ανάγνωση Boolean. |
+| [SignTime](../../aspose.slides/idigitalsignature/signtime) { get; } | Ο χρόνος που υπογράφηκε το έγγραφο. Μόνο για ανάγνωση DateTime. |
 
 ### Δείτε επίσης
 

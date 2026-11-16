@@ -1,14 +1,14 @@
 ---
 title: IChartComponent
 second_title: Aspose.Sildes for .NET API Referansı
-description: Bir grafiğin bileşenini temsil eder.
+description: Bir grafiğin bir bileşenini temsil eder.
 type: docs
-weight: 1790
+weight: 1810
 url: /tr/aspose.slides.charts/ichartcomponent/
 ---
-## IChartComponent arayüz
+## IChartComponent arabirimi
 
-Bir grafiğin bileşenini temsil eder.
+Bir grafiğin bir bileşenini temsil eder.
 
 ```csharp
 public interface IChartComponent : ISlideComponent
@@ -16,10 +16,10 @@ public interface IChartComponent : ISlideComponent
 
 ## Özellikler
 
-| Ad | Açıklama |
+| İsim | Açıklama |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides.charts/ichartcomponent/asislidecomponent) { get; } | Temel ISlideComponent arabirimini almayı sağlar. Yalnızca okuma [`ISlideComponent`](../../aspose.slides/islidecomponent). |
-| [Chart](../../aspose.slides.charts/ichartcomponent/chart) { get; } | Grafiği döndürür. Yalnızca okuma [`IChart`](../ichart). |
+| [AsISlideComponent](../../aspose.slides.charts/ichartcomponent/asislidecomponent) { get; } | Temel ISlideComponent arabirimine erişim sağlar. Salt-okunur [`ISlideComponent`](../../aspose.slides/islidecomponent). |
+| [Chart](../../aspose.slides.charts/ichartcomponent/chart) { get; } | Grafiği döndürür. Salt-okunur [`IChart`](../ichart). |
 
 ### Ayrıca Bakınız
 

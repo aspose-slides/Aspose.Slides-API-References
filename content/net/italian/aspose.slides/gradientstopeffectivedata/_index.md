@@ -1,14 +1,14 @@
 ---
 title: GradientStopEffectiveData
-second_title: Aspose.Sildes per .NET - Riferimento API
-description: Oggetto immutabile che rappresenta un punto di gradiente.
+second_title: Aspose.Sildes per .NET Riferimento API
+description: Oggetto immutabile che rappresenta una tappa di gradiente.
 type: docs
-weight: 5050
+weight: 5070
 url: /it/aspose.slides/gradientstopeffectivedata/
 ---
 ## GradientStopEffectiveData classe
 
-Oggetto immutabile che rappresenta un punto di gradiente.
+Oggetto immutabile che rappresenta una tappa di gradiente.
 
 ```csharp
 public class GradientStopEffectiveData : IGradientStopEffectiveData
@@ -18,14 +18,14 @@ public class GradientStopEffectiveData : IGradientStopEffectiveData
 
 | Nome | Descrizione |
 | --- | --- |
-| [Color](../../aspose.slides/gradientstopeffectivedata/color) { get; } | Restituisce il colore di un punto di gradiente. Solo lettura Color. |
-| [Position](../../aspose.slides/gradientstopeffectivedata/position) { get; } | Restituisce la posizione (0..1) di un punto di gradiente. Solo lettura Single. |
+| [Color](../../aspose.slides/gradientstopeffectivedata/color) { get; } | Restituisce il colore di una tappa di gradiente. Sola lettura Color. |
+| [Position](../../aspose.slides/gradientstopeffectivedata/position) { get; } | Restituisce la posizione (0..1) di una tappa di gradiente. Sola lettura Single. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| override [Equals](../../aspose.slides/gradientstopeffectivedata/equals)(object) | Determina se lo [`GradientStopEffectiveData`](../gradientstopeffectivedata) specificato è uguale all'attuale [`GradientStopEffectiveData`](../gradientstopeffectivedata). |
+| override [Equals](../../aspose.slides/gradientstopeffectivedata/equals)(object) | Determina se il [`GradientStopEffectiveData`](../gradientstopeffectivedata) specificato è uguale al [`GradientStopEffectiveData`](../gradientstopeffectivedata) corrente. |
 | override [GetHashCode](../../aspose.slides/gradientstopeffectivedata/gethashcode)() |  |
 
 ### Vedi anche

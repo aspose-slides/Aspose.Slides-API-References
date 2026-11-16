@@ -1,14 +1,14 @@
 ---
 title: IEightDirectionTransition
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Hiệu ứng chuyển tiếp slide theo tám hướng.
+description: Hiệu ứng chuyển đổi slide tám hướng.
 type: docs
-weight: 10070
+weight: 10090
 url: /vi/aspose.slides.slideshow/ieightdirectiontransition/
 ---
 ## IEightDirectionTransition giao diện
 
-Eight direction slide transition effect.
+Hiệu ứng chuyển đổi slide tám hướng.
 
 ```csharp
 public interface IEightDirectionTransition : ITransitionValueBase
@@ -19,7 +19,7 @@ public interface IEightDirectionTransition : ITransitionValueBase
 | Tên | Mô tả |
 | --- | --- |
 | [AsITransitionValueBase](../../aspose.slides.slideshow/ieightdirectiontransition/asitransitionvaluebase) { get; } | Cho phép lấy giao diện cơ sở ITransitionValueBase. Chỉ đọc [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/ieightdirectiontransition/direction) { get; set; } | Chiều hướng của chuyển đổi. Đọc/ghi [`TransitionEightDirectionType`](../transitioneightdirectiontype). |
+| [Direction](../../aspose.slides.slideshow/ieightdirectiontransition/direction) { get; set; } | Hướng của chuyển tiếp. Đọc/ghi [`TransitionEightDirectionType`](../transitioneightdirectiontype). |
 
 ### Xem thêm
 

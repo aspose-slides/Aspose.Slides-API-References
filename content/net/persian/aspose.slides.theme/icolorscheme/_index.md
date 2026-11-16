@@ -1,12 +1,12 @@
 ---
 title: IColorScheme
-second_title: مرجع API Aspose.Sildes برای .NET
+second_title: Aspose.Sildes برای .NET مرجع API
 description: رنگ‌های تعریف‌شده توسط تم را ذخیره می‌کند.
 type: docs
-weight: 11150
+weight: 11170
 url: /fa/aspose.slides.theme/icolorscheme/
 ---
-## رابط IColorScheme
+## IColorScheme رابط
 
 رنگ‌های تعریف‌شده توسط تم را ذخیره می‌کند.
 
@@ -18,25 +18,25 @@ public interface IColorScheme : ISlideComponent
 
 | نام | توضیح |
 | --- | --- |
-| [Accent1](../../aspose.slides.theme/icolorscheme/accent1) { get; } | اولین رنگ لهجه در طرح. فقط-خواندنی [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent2](../../aspose.slides.theme/icolorscheme/accent2) { get; } | دومین رنگ لهجه در طرح. فقط-خواندنی [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent3](../../aspose.slides.theme/icolorscheme/accent3) { get; } | سومین رنگ لهجه در طرح. فقط-خواندنی [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent4](../../aspose.slides.theme/icolorscheme/accent4) { get; } | چهارمین رنگ لهجه در طرح. فقط-خواندنی [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent5](../../aspose.slides.theme/icolorscheme/accent5) { get; } | پنجمین رنگ لهجه در طرح. فقط-خواندنی [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent6](../../aspose.slides.theme/icolorscheme/accent6) { get; } | ششمین رنگ لهجه در طرح. فقط-خواندنی [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [AsISlideComponent](../../aspose.slides.theme/icolorscheme/asislidecomponent) { get; } | رابط ISlideComponent را باز می‌گرداند. فقط-خواندنی [`ISlideComponent`](../../aspose.slides/islidecomponent). |
-| [Dark1](../../aspose.slides.theme/icolorscheme/dark1) { get; } | اولین رنگ تیره در طرح. فقط-خواندنی [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Dark2](../../aspose.slides.theme/icolorscheme/dark2) { get; } | دومین رنگ تیره در طرح. فقط-خواندنی [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [FollowedHyperlink](../../aspose.slides.theme/icolorscheme/followedhyperlink) { get; } | رنگ برای پیوندهای بازدید‌شده. فقط-خواندنی [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Hyperlink](../../aspose.slides.theme/icolorscheme/hyperlink) { get; } | رنگ برای پیوندها. فقط-خواندنی [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Item](../../aspose.slides.theme/icolorscheme/item) { get; } | عنصر در ایندکس مشخص‌شده را می‌گیرد. فقط-خواندنی [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Light1](../../aspose.slides.theme/icolorscheme/light1) { get; } | اولین رنگ روشن در طرح. فقط-خواندنی [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Light2](../../aspose.slides.theme/icolorscheme/light2) { get; } | دومین رنگ روشن در طرح. فقط-خواندنی [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent1](../../aspose.slides.theme/icolorscheme/accent1) { get; } | اولین رنگ لهجه در طرح. فقط خواندنی [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent2](../../aspose.slides.theme/icolorscheme/accent2) { get; } | دومین رنگ لهجه در طرح. فقط خواندنی [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent3](../../aspose.slides.theme/icolorscheme/accent3) { get; } | سومین رنگ لهجه در طرح. فقط خواندنی [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent4](../../aspose.slides.theme/icolorscheme/accent4) { get; } | چهارمین رنگ لهجه در طرح. فقط خواندنی [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent5](../../aspose.slides.theme/icolorscheme/accent5) { get; } | پنجمین رنگ لهجه در طرح. فقط خواندنی [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent6](../../aspose.slides.theme/icolorscheme/accent6) { get; } | ششمین رنگ لهجه در طرح. فقط خواندنی [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AsISlideComponent](../../aspose.slides.theme/icolorscheme/asislidecomponent) { get; } | یک رابط ISlideComponent را برمی‌گرداند. فقط خواندنی [`ISlideComponent`](../../aspose.slides/islidecomponent). |
+| [Dark1](../../aspose.slides.theme/icolorscheme/dark1) { get; } | اولین رنگ تیره در طرح. فقط خواندنی [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Dark2](../../aspose.slides.theme/icolorscheme/dark2) { get; } | دومین رنگ تیره در طرح. فقط خواندنی [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [FollowedHyperlink](../../aspose.slides.theme/icolorscheme/followedhyperlink) { get; } | رنگ برای پیوندهای بازدید‌شده. فقط خواندنی [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Hyperlink](../../aspose.slides.theme/icolorscheme/hyperlink) { get; } | رنگ برای پیوندها. فقط خواندنی [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Item](../../aspose.slides.theme/icolorscheme/item) { get; } | عنصر در ایندکس مشخص‌شده را می‌گیرد. فقط خواندنی [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Light1](../../aspose.slides.theme/icolorscheme/light1) { get; } | اولین رنگ روشن در طرح. فقط خواندنی [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Light2](../../aspose.slides.theme/icolorscheme/light2) { get; } | دومین رنگ روشن در طرح. فقط خواندنی [`IColorFormat`](../../aspose.slides/icolorformat). |
 
-### موارد مرتبط
+### همچنین ببینید
 
 * رابط [ISlideComponent](../../aspose.slides/islidecomponent)
 * فضای‌نام [Aspose.Slides.Theme](../../aspose.slides.theme)
-* اسمبلی [Aspose.Slides](../../)
+* مجتمع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

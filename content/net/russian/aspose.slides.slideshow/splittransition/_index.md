@@ -1,14 +1,14 @@
 ---
 title: SplitTransition
-second_title: Aspose.Sildes для .NET справочник API
-description: Эффект перехода с разрезом слайда.
+second_title: Aspose.Sildes для .NET Справочник API
+description: Эффект перехода с разделением слайда.
 type: docs
-weight: 10330
+weight: 10350
 url: /ru/aspose.slides.slideshow/splittransition/
 ---
 ## SplitTransition класс
 
-Эффект перехода с разрезом слайда.
+Split slide transition effect.
 
 ```csharp
 public class SplitTransition : TransitionValueBase, ISplitTransition
@@ -18,15 +18,15 @@ public class SplitTransition : TransitionValueBase, ISplitTransition
 
 | Имя | Описание |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/splittransition/direction) { get; set; } | Направление разреза перехода. Чтение/запись [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [Orientation](../../aspose.slides.slideshow/splittransition/orientation) { get; set; } | Ориентация разреза перехода. Чтение/запись [`Orientation`](../../aspose.slides/orientation). |
+| [Direction](../../aspose.slides.slideshow/splittransition/direction) { get; set; } | Направление разбиения перехода. Чтение/запись [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
+| [Orientation](../../aspose.slides.slideshow/splittransition/orientation) { get; set; } | Ориентация разбиения перехода. Чтение/запись [`Orientation`](../../aspose.slides/orientation). |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Определяет, равны ли два экземпляра TransitionValueBase. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Служит хеш-функцией для конкретного типа, подходящей для использования в алгоритмах хеширования и структурах данных, таких как хеш-таблица. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Служит хеш-функцией для конкретного типа, пригодной для использования в алгоритмах хеширования и структурах данных, таких как хеш-таблица. |
 
 ### См. также
 

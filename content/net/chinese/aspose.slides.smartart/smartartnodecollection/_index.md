@@ -3,7 +3,7 @@ title: SmartArtNodeCollection
 second_title: Aspose.Sildes .NET API 参考
 description: 表示 SmartArt 节点的集合。
 type: docs
-weight: 10640
+weight: 10660
 url: /zh/aspose.slides.smartart/smartartnodecollection/
 ---
 ## SmartArtNodeCollection 类
@@ -18,7 +18,7 @@ public sealed class SmartArtNodeCollection : ISmartArtNodeCollection
 
 | 名称 | 描述 |
 | --- | --- |
-| [Count](../../aspose.slides.smartart/smartartnodecollection/count) { get; } | 返回集合中节点的计数，只读 Int32。 |
+| [Count](../../aspose.slides.smartart/smartartnodecollection/count) { get; } | 返回集合中节点的计数 只读 Int32 只读 Int32。 |
 | [IsSynchronized](../../aspose.slides.smartart/smartartnodecollection/issynchronized) { get; } | 返回一个值，指示对集合的访问是否同步（线程安全）。只读 Boolean。 |
 | [Item](../../aspose.slides.smartart/smartartnodecollection/item) { get; } | 通过索引返回节点 |
 | [SyncRoot](../../aspose.slides.smartart/smartartnodecollection/syncroot) { get; } | 返回同步根。只读 Object。 |
@@ -29,8 +29,8 @@ public sealed class SmartArtNodeCollection : ISmartArtNodeCollection
 | --- | --- |
 | [AddNode](../../aspose.slides.smartart/smartartnodecollection/addnode)() | 添加新的 SmartArt 节点或子节点。 |
 | [AddNodeByPosition](../../aspose.slides.smartart/smartartnodecollection/addnodebyposition)(int) | 在节点集合的选定位置添加新节点 |
-| [CopyTo](../../aspose.slides.smartart/smartartnodecollection/copyto)(Array, int) | 将集合中的所有元素复制到指定数组。 |
-| [GetEnumerator](../../aspose.slides.smartart/smartartnodecollection/getenumerator)() | 返回遍历集合的枚举器。 |
+| [CopyTo](../../aspose.slides.smartart/smartartnodecollection/copyto)(Array, int) | 将集合中的所有元素复制到指定的数组。 |
+| [GetEnumerator](../../aspose.slides.smartart/smartartnodecollection/getenumerator)() | 返回一个枚举器，用于遍历集合。 |
 | [RemoveNode](../../aspose.slides.smartart/smartartnodecollection/removenode#removenode_1)(int) | 通过索引删除节点或子节点 |
 | [RemoveNode](../../aspose.slides.smartart/smartartnodecollection/removenode#removenode)(ISmartArtNode) | 删除节点或子节点 |
 

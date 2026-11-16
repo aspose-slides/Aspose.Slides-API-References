@@ -3,7 +3,7 @@ title: FontAlignment
 second_title: Aspose.Sildes pro .NET API Reference
 description: Reprezentuje svislé zarovnání písma.
 type: docs
-weight: 4800
+weight: 4820
 url: /cs/aspose.slides/fontalignment/
 ---
 ## FontAlignment enumerace
@@ -16,7 +16,7 @@ public enum FontAlignment
 
 ### Hodnoty
 
-| Name | Value | Description |
+| Název | Hodnota | Popis |
 | --- | --- | --- |
 | Default | `-1` |  |
 | Automatic | `0` |  |

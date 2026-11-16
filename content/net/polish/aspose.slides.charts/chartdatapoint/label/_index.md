@@ -1,14 +1,14 @@
 ---
 title: Label
-second_title: Aspose.Sildes dla .NET – odniesienie API
-description: Etykieta. tylko do odczytu IDataLabelaspose.slides.charts/idatalabel.
+second_title: Aspose.Sildes dla .NET API Reference
+description: Etykieta. Tylko do odczytu IDataLabelaspose.slides.charts/idatalabel.
 type: docs
-weight: 140
+weight: 180
 url: /pl/aspose.slides.charts/chartdatapoint/label/
 ---
 ## ChartDataPoint.Label właściwość
 
-Label. tylko do odczytu [`IDataLabel`](../../idatalabel).
+Label. Tylko do odczytu [`IDataLabel`](../../idatalabel).
 
 ```csharp
 public IDataLabel Label { get; }

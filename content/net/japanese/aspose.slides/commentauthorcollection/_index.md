@@ -3,7 +3,7 @@ title: CommentAuthorCollection
 second_title: Aspose.Sildes for .NET API リファレンス
 description: コメント作成者のコレクションを表します。
 type: docs
-weight: 2640
+weight: 2660
 url: /ja/aspose.slides/commentauthorcollection/
 ---
 ## CommentAuthorCollection クラス
@@ -16,7 +16,7 @@ public sealed class CommentAuthorCollection : DomObject<Presentation>, ICommentA
 
 ## プロパティ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
 | [Count](../../aspose.slides/commentauthorcollection/count) { get; } | コレクションに実際に含まれる要素数を取得します。読み取り専用 Int32。 |
 | [IsSynchronized](../../aspose.slides/commentauthorcollection/issynchronized) { get; } | コレクションへのアクセスが同期化されているか（スレッドセーフ）を示す値を返します。読み取り専用 Boolean。 |
@@ -25,7 +25,7 @@ public sealed class CommentAuthorCollection : DomObject<Presentation>, ICommentA
 
 ## メソッド
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
 | [AddAuthor](../../aspose.slides/commentauthorcollection/addauthor)(string, string) | コレクションの末尾に新しい作成者を追加します。 |
 | [Clear](../../aspose.slides/commentauthorcollection/clear)() | コレクションからすべての作成者を削除します。 |
@@ -35,7 +35,7 @@ public sealed class CommentAuthorCollection : DomObject<Presentation>, ICommentA
 | [GetEnumerator](../../aspose.slides/commentauthorcollection/getenumerator)() | コレクションを反復処理する列挙子を返します。 |
 | [Remove](../../aspose.slides/commentauthorcollection/remove)(ICommentAuthor) | コレクション内で指定された作成者の最初の出現を削除します。 |
 | [RemoveAt](../../aspose.slides/commentauthorcollection/removeat)(int) | コレクションの指定されたインデックスにある作成者を削除します。 |
-| [ToArray](../../aspose.slides/commentauthorcollection/toarray)() | すべての作成者を含む配列を作成し、返します。 |
+| [ToArray](../../aspose.slides/commentauthorcollection/toarray)() | すべての作成者を含む配列を作成して返します。 |
 
 ### 参照
 

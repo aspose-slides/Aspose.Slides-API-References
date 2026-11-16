@@ -1,12 +1,12 @@
 ---
 title: GetFonts
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Sunumda kullanılan yazı tiplerini döndürür
 type: docs
-weight: 70
+weight: 80
 url: /tr/aspose.slides/ifontsmanager/getfonts/
 ---
-## IFontsManager.GetFonts method
+## IFontsManager.GetFonts metot
 
 Sunumda kullanılan yazı tiplerini döndürür
 
@@ -16,7 +16,7 @@ public IFontData[] GetFonts()
 
 ### Dönüş Değeri
 
-Yazı tiplerinin bir dizisi
+Yazı tiplerinden oluşan bir dizi
 
 ### Ayrıca Bakınız
 

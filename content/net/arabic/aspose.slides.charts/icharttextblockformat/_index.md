@@ -1,14 +1,14 @@
 ---
 title: IChartTextBlockFormat
-second_title: مرجع API لـ Aspose.Sildes لـ .NET
-description: يمثل خصائص التنسيق لعناصر النص في المخطط.
+second_title: Aspose.Sildes لمرجع API .NET
+description: يمثل خصائص التنسيق لعناصر نص المخطط.
 type: docs
-weight: 1980
+weight: 2000
 url: /ar/aspose.slides.charts/icharttextblockformat/
 ---
-## IChartTextBlockFormat واجهة
+## واجهة IChartTextBlockFormat
 
-يمثل خصائص التنسيق لعناصر النص في المخطط.
+يمثل خصائص التنسيق لعناصر نص المخطط.
 
 ```csharp
 public interface IChartTextBlockFormat
@@ -16,22 +16,22 @@ public interface IChartTextBlockFormat
 
 ## الخصائص
 
-| الاسم | الوصف |
+| Name | Description |
 | --- | --- |
-| [AnchoringType](../../aspose.slides.charts/icharttextblockformat/anchoringtype) { get; set; } | يُرجِع أو يحدد النص العمودي داخل TextFrame. قراءة/كتابة [`TextAnchorType`](../../aspose.slides/textanchortype). |
-| [AutofitType](../../aspose.slides.charts/icharttextblockformat/autofittype) { get; set; } | يُرجِع أو يحدد وضعية الملاءمة التلقائية للنص. تغيير هذه الخاصية قد يؤثر فقط على أجزاء المخطط التالية: DataLabel و DataLabelFormat (دعم كامل في PowerPoint 2013؛ في PowerPoint 2007 لا يُظهر أي تأثير). قراءة/كتابة [`TextAutofitType`](../../aspose.slides/textautofittype). |
-| [CenterText](../../aspose.slides.charts/icharttextblockformat/centertext) { get; set; } | إذا كان NullableBool.True فيجب أن يكون النص مُتمركزًا أفقيًا داخل الصندوق. قراءة/كتابة [`NullableBool`](../../aspose.slides/nullablebool). |
-| [MarginBottom](../../aspose.slides.charts/icharttextblockformat/marginbottom) { get; set; } | يُرجِع أو يحدد الهامش السفلي (نقطة) في TextFrame. تغيير هذه الخاصية قد يؤثر فقط على أجزاء المخطط التالية: DataLabel و DataLabelFormat (دعم كامل في PowerPoint 2013؛ في PowerPoint 2007 لا يُظهر أي تأثير). قراءة/كتابة Double. |
-| [MarginLeft](../../aspose.slides.charts/icharttextblockformat/marginleft) { get; set; } | يُرجِع أو يحدد الهامش الأيسر (نقطة) في TextFrame. تغيير هذه الخاصية قد يؤثر فقط على أجزاء المخطط التالية: DataLabel و DataLabelFormat (دعم كامل في PowerPoint 2013؛ في PowerPoint 2007 لا يُظهر أي تأثير). قراءة/كتابة Double. |
-| [MarginRight](../../aspose.slides.charts/icharttextblockformat/marginright) { get; set; } | يُرجِع أو يحدد الهامش الأيمن (نقطة) في TextFrame. تغيير هذه الخاصية قد يؤثر فقط على أجزاء المخطط التالية: DataLabel و DataLabelFormat (دعم كامل في PowerPoint 2013؛ في PowerPoint 2007 لا يُظهر أي تأثير). قراءة/كتابة Double. |
-| [MarginTop](../../aspose.slides.charts/icharttextblockformat/margintop) { get; set; } | يُرجِع أو يحدد الهامش العلوي (نقطة) في TextFrame. تغيير هذه الخاصية قد يؤثر فقط على أجزاء المخطط التالية: DataLabel و DataLabelFormat (دعم كامل في PowerPoint 2013؛ في PowerPoint 2007 لا يُظهر أي تأثير). قراءة/كتابة Double. |
-| [RotationAngle](../../aspose.slides.charts/icharttextblockformat/rotationangle) { get; set; } | يحدد الدوران المخصص الذي يُطبق على النص داخل الصندوق المحدد. إذا لم يُحدد، يُستَخدم دوران الشكل المرافق. إذا تم تحديده، يُطبق بصورة مستقلة عن الشكل. أي أن الشكل يمكن أن يكون له دوران بالإضافة إلى دوران النص نفسه. القيمة الناتجة لدوران النص البصري تُلخّص من هذه الخاصية والنوع الرأسي المحدد مسبقًا في الخاصية TextVerticalType. قراءة/كتابة Single. |
-| [TextVerticalType](../../aspose.slides.charts/icharttextblockformat/textverticaltype) { get; set; } | يحدد اتجاه النص. القيمة الناتجة لدوران النص البصري تُلخّص من هذه الخاصية والزواية المخصصة في الخاصية RotationAngle. قراءة/كتابة [`TextVerticalType`](../../aspose.slides/textverticaltype). |
-| [WrapText](../../aspose.slides.charts/icharttextblockformat/wraptext) { get; set; } | **True** إذا كان النص ملفوفًا عند هوامش TextFrame. تغيير هذه الخاصية قد يؤثر فقط على أجزاء المخطط التالية: DataLabel و DataLabelFormat (دعم كامل في PowerPoint 2007/2013). قراءة/كتابة [`NullableBool`](../../aspose.slides/nullablebool). |
+| [AnchoringType](../../aspose.slides.charts/icharttextblockformat/anchoringtype) { get; set; } | يعيد أو يعيّن النص العمودي المرتكز في TextFrame. قراءة/كتابة [`TextAnchorType`](../../aspose.slides/textanchortype). |
+| [AutofitType](../../aspose.slides.charts/icharttextblockformat/autofittype) { get; set; } | يعيد أو يعيّن وضع الملائمة التلقائية للنص. قد يؤدي تعديل هذه الخاصية إلى تأثير معين فقط لهذه أجزاء المخطط: DataLabel و DataLabelFormat (دعم كامل في PowerPoint 2013؛ في PowerPoint 2007 لا يوجد تأثير على العرض). قراءة/كتابة [`TextAutofitType`](../../aspose.slides/textautofittype). |
+| [CenterText](../../aspose.slides.charts/icharttextblockformat/centertext) { get; set; } | إذا كان NullableBool.True فإن النص يجب أن يُوسَّط أفقيًا داخل الصندوق. قراءة/كتابة [`NullableBool`](../../aspose.slides/nullablebool). |
+| [MarginBottom](../../aspose.slides.charts/icharttextblockformat/marginbottom) { get; set; } | يعيد أو يعيّن الهامش السفلي (نقطة) في TextFrame. قد يؤدي تعديل هذه الخاصة إلى تأثير معين فقط لهذه أجزاء المخطط: DataLabel و DataLabelFormat (دعم كامل في PowerPoint 2013؛ في PowerPoint 2007 لا يوجد تأثير على العرض). قراءة/كتابة Double. |
+| [MarginLeft](../../aspose.slides.charts/icharttextblockformat/marginleft) { get; set; } | يعيد أو يعيّن الهامش الأيسر (نقطة) في TextFrame. قد يؤدي تعديل هذه الخاصة إلى تأثير معين فقط لهذه أجزاء المخطط: DataLabel و DataLabelFormat (دعم كامل في PowerPoint 2013؛ في PowerPoint 2007 لا يوجد تأثير على العرض). قراءة/كتابة Double. |
+| [MarginRight](../../aspose.slides.charts/icharttextblockformat/marginright) { get; set; } | يعيد أو يعيّن الهامش الأيمن (نقطة) في TextFrame. قد يؤدي تعديل هذه الخاصة إلى تأثير معين فقط لهذه أجزاء المخطط: DataLabel و DataLabelFormat (دعم كامل في PowerPoint 2013؛ في PowerPoint 2007 لا يوجد تأثير على العرض). قراءة/كتابة Double. |
+| [MarginTop](../../aspose.slides.charts/icharttextblockformat/margintop) { get; set; } | يعيد أو يعيّن الهامش العلوي (نقطة) في TextFrame. قد يؤدي تعديل هذه الخاصة إلى تأثير معين فقط لهذه أجزاء المخطط: DataLabel و DataLabelFormat (دعم كامل في PowerPoint 2013؛ في PowerPoint 2007 لا يوجد تأثير على العرض). قراءة/كتابة Double. |
+| [RotationAngle](../../aspose.slides.charts/icharttextblockformat/rotationangle) { get; set; } | يحدد الدوران المخصص المطبق على النص داخل الصندوق الحدودى. إذا لم يتم تحديده، يُستخدم دوران الشكل المرافق. إذا تم تحديده، يُطبق بصورة مستقلة عن الشكل. أي أن الشكل يمكن أن يكون لديه دوران بالإضافة إلى أن النص نفسه يملك دورانًا مطبقًا عليه. القيمة الناتجة لدوران النص المرئي تُلخص من هذه الخاصية والنوع العمودي المُعرَّف مسبقًا في الخاصية TextVerticalType. قراءة/كتابة Single. |
+| [TextVerticalType](../../aspose.slides.charts/icharttextblockformat/textverticaltype) { get; set; } | يحدد اتجاه النص. القيمة الناتجة لدوران النص المرئي تُلخص من هذه الخاصية والز angle المخصص في الخاصية RotationAngle. قراءة/كتابة [`TextVerticalType`](../../aspose.slides/textverticaltype). |
+| [WrapText](../../aspose.slides.charts/icharttextblockformat/wraptext) { get; set; } | **True** إذا كان النص ملفوفًا عند هوامش TextFrame. قد يؤدي تعديل هذه الخاصة إلى تأثير معين فقط لهذه أجزاء المخطط: DataLabel و DataLabelFormat (دعم كامل في PowerPoint 2007/2013). قراءة/كتابة [`NullableBool`](../../aspose.slides/nullablebool). |
 
 ### انظر أيضًا
 
-* نطاق الاسم [Aspose.Slides.Charts](../../aspose.slides.charts)
-* المجمع [Aspose.Slides](../../)
+* نطاق الأسماء [Aspose.Slides.Charts](../../aspose.slides.charts)
+* تجميع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

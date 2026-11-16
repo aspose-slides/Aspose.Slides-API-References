@@ -1,14 +1,14 @@
 ---
 title: IFormatScheme
 second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
-description: เก็บรูปแบบที่กำหนดโดยธีมสำหรับรูปร่าง
+description: จัดเก็บรูปแบบที่กำหนดโดยธีมสำหรับรูปทรง.
 type: docs
-weight: 11270
+weight: 11290
 url: /th/aspose.slides.theme/iformatscheme/
 ---
 ## IFormatScheme อินเทอร์เฟซ
 
-เก็บรูปแบบที่กำหนดโดยธีมสำหรับรูปร่าง
+จัดเก็บรูปแบบที่กำหนดโดยธีมสำหรับรูปทรง.
 
 ```csharp
 public interface IFormatScheme : ISlideComponent
@@ -18,11 +18,11 @@ public interface IFormatScheme : ISlideComponent
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides.theme/iformatscheme/asislidecomponent) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ ISlideComponent พื้นฐาน. อ่านอย่างเดียว [`ISlideComponent`](../../aspose.slides/islidecomponent). |
-| [BackgroundFillStyles](../../aspose.slides.theme/iformatscheme/backgroundfillstyles) { get; } | คืนคอลเลกชันของสไตล์การเติมพื้นหลังที่กำหนดโดยธีม. อ่านอย่างเดียว [`IFillFormatCollection`](../ifillformatcollection). |
-| [EffectStyles](../../aspose.slides.theme/iformatscheme/effectstyles) { get; } | คืนคอลเลกชันของสไตล์เอฟเฟกต์ที่กำหนดโดยธีม. อ่านอย่างเดียว [`IEffectStyleCollection`](../ieffectstylecollection). |
-| [FillStyles](../../aspose.slides.theme/iformatscheme/fillstyles) { get; } | คืนคอลเลกชันของสไตล์การเติมที่กำหนดโดยธีม. อ่านอย่างเดียว [`IFillFormatCollection`](../ifillformatcollection). |
-| [LineStyles](../../aspose.slides.theme/iformatscheme/linestyles) { get; } | คืนคอลเลกชันของสไตล์เส้นที่กำหนดโดยธีม. อ่านอย่างเดียว [`ILineFormatCollection`](../ilineformatcollection). |
+| [AsISlideComponent](../../aspose.slides.theme/iformatscheme/asislidecomponent) { get; } | อนุญาตให้ดึงอินเทอร์เฟซฐาน ISlideComponent. อ่านอย่างเดียว [`ISlideComponent`](../../aspose.slides/islidecomponent). |
+| [BackgroundFillStyles](../../aspose.slides.theme/iformatscheme/backgroundfillstyles) { get; } | คืนค่าคอลเลกชันของสไตล์การเติมพื้นหลังที่กำหนดโดยธีม. อ่านอย่างเดียว [`IFillFormatCollection`](../ifillformatcollection). |
+| [EffectStyles](../../aspose.slides.theme/iformatscheme/effectstyles) { get; } | คืนค่าคอลเลกชันของสไตล์เอฟเฟกต์ที่กำหนดโดยธีม. อ่านอย่างเดียว [`IEffectStyleCollection`](../ieffectstylecollection). |
+| [FillStyles](../../aspose.slides.theme/iformatscheme/fillstyles) { get; } | คืนค่าคอลเลกชันของสไตล์การเติมที่กำหนดโดยธีม. อ่านอย่างเดียว [`IFillFormatCollection`](../ifillformatcollection). |
+| [LineStyles](../../aspose.slides.theme/iformatscheme/linestyles) { get; } | คืนค่าคอลเลกชันของสไตล์เส้นที่กำหนดโดยธีม. อ่านอย่างเดียว [`ILineFormatCollection`](../ilineformatcollection). |
 
 ### ดูเพิ่มเติม
 

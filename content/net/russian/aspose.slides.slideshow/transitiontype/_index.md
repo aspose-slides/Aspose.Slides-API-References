@@ -3,7 +3,7 @@ title: TransitionType
 second_title: Aspose.Sildes для .NET справочник API
 description: Представляет тип перехода слайд-шоу.
 type: docs
-weight: 10450
+weight: 10470
 url: /ru/aspose.slides.slideshow/transitiontype/
 ---
 ## Перечисление TransitionType
@@ -34,12 +34,12 @@ public enum TransitionType
 | Push | `13` |  |
 | Random | `14` |  |
 | RandomBar | `15` |  |
-| Split | `16` | Эквивалентно переходу Wipe в PowerPoint 2010. |
+| Split | `16` | Эквивалентен переходу Wipe в PowerPoint 2010. |
 | Strips | `17` |  |
 | Wedge | `18` | Относится к переходу Clock (с параметром Wedge) в PowerPoint 2010. |
 | Wheel | `19` | Относится к переходу Clock (с параметром Clockwise) в PowerPoint 2010. |
 | Wipe | `20` |  |
-| Zoom | `21` | Относится к переходу Shape (с параметрами In/Out) в PowerPoint 2010. См. также Warp, который относится к переходу Zoom в PowerPoint 2010. |
+| Zoom | `21` | Относится к переходу Shape (с параметрами In/Out) в PowerPoint 2010. Смотрите также Warp, который относится к переходу Zoom в PowerPoint 2010. |
 | Vortex | `22` | Доступно в PowerPoint 2010. |
 | Switch | `23` | Доступно в PowerPoint 2010. |
 | Flip | `24` | Доступно в PowerPoint 2010. |

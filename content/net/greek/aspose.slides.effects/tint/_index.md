@@ -1,14 +1,14 @@
 ---
 title: Tint
-second_title: Αναφορά API Aspose.Sildes για .NET
-description: Αντιπροσωπεύει ένα εφέ Tint. Μετατοπίζει τις τιμές χρώματος του εφέ προς ή μακριά από την απόχρωση κατά το καθορισμένο ποσό.
+second_title: Aspose.Sildes για .NET API Αναφορά
+description: Αναπαριστά ένα εφέ Tint. Μεταβάλλει τις τιμές χρώματος του εφέ προς/μακριά από τον τόνο κατά το καθορισμένο ποσό.
 type: docs
-weight: 3660
+weight: 3680
 url: /el/aspose.slides.effects/tint/
 ---
 ## Tint κλάση
 
-Αντιπροσωπεύει ένα εφέ Tint. Μετατοπίζει τις τιμές χρώματος του εφέ προς/μακριά από την απόχρωση κατά το καθορισμένο ποσό.
+Αντιπροσωπεύει ένα εφέ Tint. Μεταβάλλει τις τιμές χρώματος του εφέ προς/μακριά από τον τόνο κατά το καθορισμένο ποσό.
 
 ```csharp
 public sealed class Tint : ImageTransformOperation, ITint
@@ -18,20 +18,20 @@ public sealed class Tint : ImageTransformOperation, ITint
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Επιτρέπει την πρόσβαση στη βασική διεπαφή IPresentationComponent. Μόνο για ανάγνωση [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Επιτρέπει την ανάκτηση της βάσης IPresentationComponent διεπαφής. Μόνο αναγνώσιμη [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Μέθοδοι
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/tint/equals)(object) | Καθορίζει εάν το καθορισμένο [`Tint`](../tint) είναι ίσο με το τρέχον [`Tint`](../tint). |
-| [GetEffective](../../aspose.slides.effects/tint/geteffective)() | Αποκτά τα αποτελεσματικά δεδομένα εφέ Tint με την εφαρμόμενη κληρονομικότητα. |
+| override [Equals](../../aspose.slides.effects/tint/equals)(object) | Καθορίζει εάν το συγκεκριμένο [`Tint`](../tint) είναι ίσο με το τρέχον [`Tint`](../tint). |
+| [GetEffective](../../aspose.slides.effects/tint/geteffective)() | Ανακτά τα αποτελεσματικά δεδομένα εφέ Tint με την εφαρμοσμένη κληρονομικότητα. |
 | override [GetHashCode](../../aspose.slides.effects/tint/gethashcode)() | Λειτουργεί ως συνάρτηση κατακερματισμού για έναν συγκεκριμένο τύπο. |
 
 ### Δείτε επίσης
 
 * κλάση [ImageTransformOperation](../imagetransformoperation)
-* διασύνδεση [ITint](../itint)
+* διεπαφή [ITint](../itint)
 * χώρο ονομάτων [Aspose.Slides.Effects](../../aspose.slides.effects)
 * συγκρότημα [Aspose.Slides](../../)
 

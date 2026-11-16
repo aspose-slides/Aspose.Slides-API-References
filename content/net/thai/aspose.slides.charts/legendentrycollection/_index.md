@@ -1,14 +1,14 @@
 ---
 title: LegendEntryCollection
-second_title: อ้างอิง API Aspose.Sildes สำหรับ .NET
-description: เป็นตัวแทนของคอลเลกชันของ legend.
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: แสดงคอลเลกชันของคำอธิบาย.
 type: docs
-weight: 2300
+weight: 2320
 url: /th/aspose.slides.charts/legendentrycollection/
 ---
 ## LegendEntryCollection คลาส
 
-เป็นตัวแทนของคอลเลกชันของ legend.
+แสดงคอลเลกชันของคำอธิบาย
 
 ```csharp
 public class LegendEntryCollection : ILegendEntryCollection
@@ -18,8 +18,8 @@ public class LegendEntryCollection : ILegendEntryCollection
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Count](../../aspose.slides.charts/legendentrycollection/count) { get; } | รับจำนวนของรายการ legend. อ่านอย่างเดียว Int32. |
-| [Item](../../aspose.slides.charts/legendentrycollection/item) { get; } | รับคุณสมบัติของรายการ legend ที่สอดคล้องกับ Chart.ChartData.Series[0].DataPoints[index] ในกรณีที่ประเภทแผนภูมิเป็นรายการต่อไปนี้: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie; หรือสอดคล้องกับ Chart.ChartData.Series[index] สำหรับประเภทแผนภูมิอื่น ๆ. |
+| [Count](../../aspose.slides.charts/legendentrycollection/count) { get; } | รับจำนวนรายการคำอธิบาย. อ่านอย่างเดียว Int32. |
+| [Item](../../aspose.slides.charts/legendentrycollection/item) { get; } | รับคุณสมบัติของรายการคำอธิบายที่สอดคล้องกับ Chart.ChartData.Series[0].DataPoints[index] ในกรณีที่ประเภทแผนภูมิมาจากรายการนี้: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie; หรือสอดคล้องกับ Chart.ChartData.Series[index] สำหรับประเภทแผนภูมิอื่น ๆ. |
 
 ### ดูเพิ่มเติม
 

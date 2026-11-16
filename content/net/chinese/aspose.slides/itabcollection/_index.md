@@ -3,7 +3,7 @@ title: ITabCollection
 second_title: Aspose.Sildes .NET API 参考
 description: 表示选项卡的集合。
 type: docs
-weight: 7200
+weight: 7220
 url: /zh/aspose.slides/itabcollection/
 ---
 ## ITabCollection 接口
@@ -29,7 +29,7 @@ public interface ITabCollection : IGenericCollection<ITab>
 | [Clear](../../aspose.slides/itabcollection/clear)() | 从集合中移除所有元素。 |
 | [RemoveAt](../../aspose.slides/itabcollection/removeat)(int) | 移除集合中指定索引处的元素。 |
 
-### 另请参见
+### 另请参阅
 
 * 接口 [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * 接口 [ITab](../itab)

@@ -1,14 +1,14 @@
 ---
 title: AlphaFloor
 second_title: Aspose.Sildes .NET API 參考
-description: 代表 Alpha Floor 效果。Alpha 不透明度值小於 100 時會被改為零。換句話說，任何部分透明的內容都會變為完全透明。
+description: 表示 Alpha Floor 效果。Alpha 不透明度值小於 100 時會被變為零。換句話說，任何部分透明的項目都會變為完全透明。
 type: docs
-weight: 2860
+weight: 2880
 url: /zh-hant/aspose.slides.effects/alphafloor/
 ---
 ## AlphaFloor 類別
 
-代表 Alpha Floor 效果。Alpha（不透明度）值低於 100% 時會被改為零。換句話說，任何部分透明的內容都會變為完全透明。
+表示 Alpha Floor 效果。Alpha（不透明度）值小於 100% 的會被變為零。換句話說，任何部分透明的項目都會變為完全透明。
 
 ```csharp
 public sealed class AlphaFloor : ImageTransformOperation, IAlphaFloor
@@ -16,19 +16,19 @@ public sealed class AlphaFloor : ImageTransformOperation, IAlphaFloor
 
 ## 屬性
 
-| 名稱 | 描述 |
+| 名稱 | 說明 |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允許取得基礎 IPresentationComponent 介面。唯讀 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
 
 ## 方法
 
-| 名稱 | 描述 |
+| 名稱 | 說明 |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/alphafloor/equals)(object) | 判斷指定的 [`AlphaFloor`](../alphafloor) 是否等於目前的 [`AlphaFloor`](../alphafloor)。 |
 | [GetEffective](../../aspose.slides.effects/alphafloor/geteffective)() | 取得套用繼承後的有效 Alpha Floor 效果資料。 |
 | override [GetHashCode](../../aspose.slides.effects/alphafloor/gethashcode)() | 作為特定類型的雜湊函式。 |
 
-### 另請參閱
+### 另見
 
 * 類別 [ImageTransformOperation](../imagetransformoperation)
 * 介面 [IAlphaFloor](../ialphafloor)

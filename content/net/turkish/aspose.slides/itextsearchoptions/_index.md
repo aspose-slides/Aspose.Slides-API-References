@@ -1,14 +1,14 @@
 ---
 title: ITextSearchOptions
-second_title: Aspose.Sildes .NET için API Referansı
-description: Presentation, Slide veya TextFrame içinde metin aramak için kullanılabilecek seçenekleri temsil eder.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Bir Sunum, Slayt veya Metin Çerçevesinde metin aramak için kullanılabilecek seçenekleri temsil eder.
 type: docs
-weight: 7300
+weight: 7320
 url: /tr/aspose.slides/itextsearchoptions/
 ---
-## ITextSearchOptions arayüzü
+## ITextSearchOptions arayüz
 
-Bir Presentation, Slide veya TextFrame içinde metin aramak için kullanılabilecek seçenekleri temsil eder.
+Represents options that can be used to search for text in a Presentation, Slide or TextFrame.
 
 ```csharp
 public interface ITextSearchOptions
@@ -18,9 +18,9 @@ public interface ITextSearchOptions
 
 | Ad | Açıklama |
 | --- | --- |
-| [CaseSensitive](../../aspose.slides/itextsearchoptions/casesensitive) { get; set; } | Doğru ayarlayın, büyük/küçük harfe duyarlı aramayı kullanmak için, aksi takdirde yanlış. Okunabilir/Yazılabilir Boolean. |
-| [IncludeNotes](../../aspose.slides/itextsearchoptions/includenotes) { get; set; } | `true` ayarlayın, slide notes içinde bulunan metni metin araması, değiştirme veya vurgulama işlemleri sırasında dahil etmek için. Varsayılan değer `false` dır. |
-| [WholeWordsOnly](../../aspose.slides/itextsearchoptions/wholewordsonly) { get; set; } | Doğru ayarlayın, yalnızca tam kelimelerle eşleşmek için, aksi takdirde yanlış. Okunabilir/Yazılabilir Boolean. |
+| [CaseSensitive](../../aspose.slides/itextsearchoptions/casesensitive) { get; set; } | Doğru olarak ayarlayın, büyük/küçük harfe duyarlı arama için, aksi takdirde false. Okunabilir/Yazılabilir Boolean. |
+| [IncludeNotes](../../aspose.slides/itextsearchoptions/includenotes) { get; set; } | Metin arama, değiştirme veya vurgulama işlemleri sırasında slayt notlarında bulunan metni dahil etmek için `true` olarak ayarlayın. Varsayılan değer `false`'dır. |
+| [WholeWordsOnly](../../aspose.slides/itextsearchoptions/wholewordsonly) { get; set; } | Tam kelimelerle eşleşmek için true olarak ayarlayın, aksi takdirde false. Okunabilir/Yazılabilir Boolean. |
 
 ### Ayrıca Bakınız
 

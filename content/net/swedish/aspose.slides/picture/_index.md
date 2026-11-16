@@ -3,7 +3,7 @@ title: Picture
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en bild i en presentation.
 type: docs
-weight: 9380
+weight: 9400
 url: /sv/aspose.slides/picture/
 ---
 ## Picture klass
@@ -16,20 +16,20 @@ public sealed class Picture : ISlidesPicture
 
 ## Egenskaper
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/picture/asipresentationcomponent) { get; } | Tillåter att hämta bas-IPresentationComponent-gränssnitt. Skrivskyddad [`IPresentationComponent`](../ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/picture/asipresentationcomponent) { get; } | Tillåter att hämta bas-IPresentationComponent-gränssnittet. Skrivskyddad [`IPresentationComponent`](../ipresentationcomponent). |
 | [Image](../../aspose.slides/picture/image) { get; set; } | Returnerar eller anger den inbäddade bilden. Läs/skriv [`IPPImage`](../ippimage). |
 | [ImageTransform](../../aspose.slides/picture/imagetransform) { get; } | Returnerar samlingen av bildtransformeringseffekter. Skrivskyddad [`IImageTransformOperationCollection`](../../aspose.slides.effects/iimagetransformoperationcollection). |
 | [LinkPathLong](../../aspose.slides/picture/linkpathlong) { get; set; } | Returnerar eller anger den länkade bildens URL. Läs/skriv String. |
 | [Presentation](../../aspose.slides/picture/presentation) { get; } | Returnerar presentationen. Skrivskyddad [`IPresentation`](../ipresentation). |
-| [Slide](../../aspose.slides/picture/slide) { get; } | Returnerar den överordnade sliden för en bild. Skrivskyddad [`IBaseSlide`](../ibaseslide). |
+| [Slide](../../aspose.slides/picture/slide) { get; } | Returnerar bildens föräldrasida. Skrivskyddad [`IBaseSlide`](../ibaseslide). |
 
 ## Metoder
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.slides/picture/equals)(object) | Jämför med angivet objekt. |
+| override [Equals](../../aspose.slides/picture/equals)(object) | Jämför med specificerat objekt. |
 | override [GetHashCode](../../aspose.slides/picture/gethashcode)() | Returnerar hash. |
 
 ### Se även

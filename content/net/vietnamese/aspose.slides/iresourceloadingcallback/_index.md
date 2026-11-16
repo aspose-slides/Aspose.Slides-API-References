@@ -1,9 +1,9 @@
 ---
 title: IResourceLoadingCallback
-second_title: Tham khảo API Aspose.Sildes cho .NET
-description: Giao diện callback được sử dụng để quản lý việc tải các tài nguyên bên ngoài.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Giao diện callback được sử dụng để quản lý việc tải tài nguyên bên ngoài.
 type: docs
-weight: 6840
+weight: 6860
 url: /vi/aspose.slides/iresourceloadingcallback/
 ---
 ## IResourceLoadingCallback giao diện
@@ -18,7 +18,7 @@ public interface IResourceLoadingCallback
 
 | Tên | Mô tả |
 | --- | --- |
-| [ResourceLoading](../../aspose.slides/iresourceloadingcallback/resourceloading)(IResourceLoadingArgs) | Phương thức callback điều chỉnh việc tải tài nguyên bên ngoài. |
+| [ResourceLoading](../../aspose.slides/iresourceloadingcallback/resourceloading)(IResourceLoadingArgs) | Phương thức Callback điều chỉnh việc tải tài nguyên bên ngoài. |
 
 ### Xem thêm
 

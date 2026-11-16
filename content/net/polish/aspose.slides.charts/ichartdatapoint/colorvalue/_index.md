@@ -1,14 +1,14 @@
 ---
 title: ColorValue
-second_title: Aspose.Sildes dla .NET – odniesienie API
-description: Zwraca wartość koloru punktu danych wykresu. Używane z wykresami map. tylko do odczytu IDoubleChartValueaspose.slides.charts/idoublechartvalue.
+second_title: Aspose.Sildes dla .NET – dokumentacja API
+description: Pobiera wartość koloru punktu danych wykresu. Używany z wykresami mapowymi. Tylko do odczytu IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
-weight: 30
+weight: 70
 url: /pl/aspose.slides.charts/ichartdatapoint/colorvalue/
 ---
 ## IChartDataPoint.ColorValue właściwość
 
-Zwraca wartość koloru punktu danych wykresu. Używane z wykresami map. tylko do odczytu [`IDoubleChartValue`](../../idoublechartvalue).
+Pobiera wartość koloru punktu danych wykresu. Używany z wykresami mapowymi. Tylko do odczytu [`IDoubleChartValue`](../../idoublechartvalue).
 
 ```csharp
 public IDoubleChartValue ColorValue { get; }

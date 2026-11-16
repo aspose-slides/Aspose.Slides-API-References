@@ -1,14 +1,14 @@
 ---
 title: IVbaReference
-second_title: Aspose.Sildes for .NET API Referansı
-description: VBA projesi referansının adını temsil eder.
+second_title: Aspose.Sildes .NET için API Referansı
+description: VBA proje referansının adını temsil eder.
 type: docs
-weight: 11570
+weight: 11590
 url: /tr/aspose.slides.vba/ivbareference/
 ---
-## IVbaReference arayüzü
+## IVbaReference arayüz
 
-VBA projesi referansının adını temsil eder.
+VBA proje referansının adını temsil eder.
 
 ```csharp
 public interface IVbaReference
@@ -18,7 +18,7 @@ public interface IVbaReference
 
 | Ad | Açıklama |
 | --- | --- |
-| [Name](../../aspose.slides.vba/ivbareference/name) { get; set; } | VBA projesi referansının adını temsil eder. Okuma/Yazma String. |
+| [Name](../../aspose.slides.vba/ivbareference/name) { get; set; } | VBA proje referansının adını temsil eder. Okuma/yazma String. |
 
 ### Ayrıca Bakınız
 

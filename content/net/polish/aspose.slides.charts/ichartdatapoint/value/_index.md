@@ -1,14 +1,14 @@
 ---
 title: Value
-second_title: Aspose.Sildes dla .NET Referencja API
-description: Zwraca wartość punktu danych wykresu. Tylko do odczytu IDoubleChartValueaspose.slides.charts/idoublechartvalue.
+second_title: Aspose.Sildes dla .NET – odwołanie API
+description: Pobiera wartość punktu danych wykresu. Tylko do odczytu IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
-weight: 160
+weight: 200
 url: /pl/aspose.slides.charts/ichartdatapoint/value/
 ---
 ## IChartDataPoint.Value właściwość
 
-Zwraca wartość punktu danych wykresu. Tylko do odczytu [`IDoubleChartValue`](../../idoublechartvalue).
+Pobiera wartość punktu danych wykresu. Tylko do odczytu [`IDoubleChartValue`](../../idoublechartvalue).
 
 ```csharp
 public IDoubleChartValue Value { get; }

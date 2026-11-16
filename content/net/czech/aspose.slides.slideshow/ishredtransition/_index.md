@@ -1,14 +1,14 @@
 ---
 title: IShredTransition
-second_title: Aspose.Sildes pro .NET - referenční dokumentace API
-description: Efekt přechodu snímku roztrhání.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Efekt přechodu snímku Shred.
 type: docs
-weight: 10180
+weight: 10200
 url: /cs/aspose.slides.slideshow/ishredtransition/
 ---
 ## IShredTransition rozhraní
 
-Efekt přechodu snímku roztrhání.
+Efekt přechodu slidu Shred.
 
 ```csharp
 public interface IShredTransition : ITransitionValueBase

@@ -1,26 +1,26 @@
 ---
 title: MarkdownExportType
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Kiểu của tài liệu được render.
+second_title: Aspose.Sildes cho Tham khảo API .NET
+description: Kiểu tài liệu render.
 type: docs
-weight: 4240
+weight: 4260
 url: /vi/aspose.slides.export/markdownexporttype/
 ---
 ## MarkdownExportType liệt kê
 
-Kiểu của việc render tài liệu.
+Kiểu tài liệu render.
 
 ```csharp
 public enum MarkdownExportType
 ```
 
-### Các giá trị
+### Giá trị
 
 | Tên | Giá trị | Mô tả |
 | --- | --- | --- |
-| Sequential | `0` | Kết xuất tất cả các mục riêng biệt. Từng mục một. |
-| TextOnly | `1` | Chỉ kết xuất văn bản. |
-| Visual | `2` | Kết xuất tất cả các mục, các mục được nhóm - kết xuất cùng nhau. |
+| Sequential | `0` | Hiển thị tất cả các mục riêng biệt. Từng mục một. |
+| TextOnly | `1` | Chỉ hiển thị văn bản. |
+| Visual | `2` | Hiển thị tất cả các mục, các mục được nhóm - hiển thị cùng nhau. |
 
 ### Ví dụ
 

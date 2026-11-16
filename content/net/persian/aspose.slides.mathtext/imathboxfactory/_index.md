@@ -1,14 +1,14 @@
 ---
 title: IMathBoxFactory
-second_title: Aspose.Sildes برای مرجع API .NET
-description: امکان ایجاد یک جعبه ریاضی را می‌دهد
+second_title: مرجع API Aspose.Sildes برای .NET
+description: اجازه می‌دهد یک جعبه ریاضی ایجاد کنید
 type: docs
-weight: 8200
+weight: 8220
 url: /fa/aspose.slides.mathtext/imathboxfactory/
 ---
 ## IMathBoxFactory رابط
 
-برای ایجاد یک جعبهٔ ریاضی استفاده می‌شود
+به شما امکان ایجاد یک جعبه ریاضی را می‌دهد
 
 ```csharp
 public interface IMathBoxFactory
@@ -18,13 +18,13 @@ public interface IMathBoxFactory
 
 | نام | توضیح |
 | --- | --- |
-| [CreateMathBox](../../aspose.slides.mathtext/imathboxfactory/createmathbox)(IMathElement) | یک جعبهٔ ریاضی را با اعمال بر عنصر ایجاد می‌کند |
+| [CreateMathBox](../../aspose.slides.mathtext/imathboxfactory/createmathbox)(IMathElement) | یک جعبه ریاضی را با اعمال بر عنصر ایجاد می‌کند |
 
-### توضیحات
+### ملاحظات
 
 برای سازگاری با COM
 
-### مراجعه به
+### همچنین ببینید
 
 * فضای نام [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * مجوعه [Aspose.Slides](../../)

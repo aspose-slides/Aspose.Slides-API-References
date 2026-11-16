@@ -1,14 +1,14 @@
 ---
 title: ChartData
 second_title: Aspose.Sildes dla .NET – odniesienie API
-description: Reprezentuje dane używane do tworzenia wykresu.
+description: Reprezentuje dane używane do wykreślania wykresu.
 type: docs
-weight: 1310
+weight: 1320
 url: /pl/aspose.slides.charts/chartdata/
 ---
 ## ChartData klasa
 
-Reprezentuje dane używane do tworzenia wykresu.
+Represents data used for a chart plotting.
 
 ```csharp
 public class ChartData : DomObject<Chart>, IChartData
@@ -18,15 +18,15 @@ public class ChartData : DomObject<Chart>, IChartData
 
 | Nazwa | Opis |
 | --- | --- |
-| [Categories](../../aspose.slides.charts/chartdata/categories) { get; } | Pobiera podstawowe kategorie (lub zarówno podstawowe, jak i drugorzędne kategorie, jeśli właściwość [`UseSecondaryCategories`](./usesecondarycategories) ma wartość false). Tylko do odczytu [`IChartCategoryCollection`](../ichartcategorycollection). |
+| [Categories](../../aspose.slides.charts/chartdata/categories) { get; } | Pobiera główne kategorie (lub zarówno główne, jak i dodatkowe kategorie, jeśli właściwość [`UseSecondaryCategories`](./usesecondarycategories) jest fałszywa). Tylko do odczytu [`IChartCategoryCollection`](../ichartcategorycollection). |
 | [ChartDataWorkbook](../../aspose.slides.charts/chartdata/chartdataworkbook) { get; } | Pobiera fabrykę komórek służącą do tworzenia komórek używanych w seriach wykresu lub kategoriach. Tylko do odczytu [`IChartDataWorkbook`](../ichartdataworkbook). |
-| [DataSourceType](../../aspose.slides.charts/chartdata/datasourcetype) { get; } | Reprezentuje ścieżkę do zewnętrznego skoroszytu, jeśli źródło danych jest zewnętrzne, w przeciwnym razie null |
+| [DataSourceType](../../aspose.slides.charts/chartdata/datasourcetype) { get; } | Reprezentuje ścieżkę do zewnętrznego skoroszytu, jeśli źródło danych jest zewnętrzne, w przeciwnym razie null. |
 | [EmbeddedWorkbookType](../../aspose.slides.charts/chartdata/embeddedworkbooktype) { get; } | Pobiera typ osadzonego skoroszytu. Zwraca NotDefined, jeśli [`DataSourceType`](./datasourcetype) jest ExternalWorkbook. Tylko do odczytu [`WorkbookType`](../workbooktype). |
 | [ExternalWorkbookPath](../../aspose.slides.charts/chartdata/externalworkbookpath) { get; } | Reprezentuje źródło danych wykresu |
-| [SecondaryCategories](../../aspose.slides.charts/chartdata/secondarycategories) { get; } | Pobiera drugorzędne kategorie, jeśli właściwość [`UseSecondaryCategories`](./usesecondarycategories) ma wartość true. Tylko do odczytu [`IChartCategoryCollection`](../ichartcategorycollection). |
+| [SecondaryCategories](../../aspose.slides.charts/chartdata/secondarycategories) { get; } | Pobiera dodatkowe kategorie, jeśli właściwość [`UseSecondaryCategories`](./usesecondarycategories) jest prawda. Tylko do odczytu [`IChartCategoryCollection`](../ichartcategorycollection). |
 | [Series](../../aspose.slides.charts/chartdata/series) { get; } | Pobiera serie. Tylko do odczytu [`IChartSeriesCollection`](../ichartseriescollection). |
 | [SeriesGroups](../../aspose.slides.charts/chartdata/seriesgroups) { get; } | Pobiera grupy serii. Tylko do odczytu [`IChartSeriesGroupCollection`](../ichartseriesgroupcollection). |
-| [UseSecondaryCategories](../../aspose.slides.charts/chartdata/usesecondarycategories) { get; set; } | Jeśli wartość false, właściwość [`SecondaryCategories`](./secondarycategories) zwraca null i dane w właściwości [`Categories`](./categories) są używane zarówno dla serii podstawowych, jak i drugorzędnych. Jeśli wartość true, dane w właściwości [`SecondaryCategories`](./secondarycategories) są używane dla serii drugorzędnych, a dane w właściwości [`Categories`](./categories) są używane dla serii podstawowych. Odczyt/zapis Boolean. |
+| [UseSecondaryCategories](../../aspose.slides.charts/chartdata/usesecondarycategories) { get; set; } | Jeśli fałsz, właściwość [`SecondaryCategories`](./secondarycategories) zwraca null i dane w właściwości [`Categories`](./categories) są używane zarówno dla głównych, jak i dodatkowych serii. Jeśli prawda, dane w właściwości [`SecondaryCategories`](./secondarycategories) są używane dla dodatkowych serii, a dane w właściwości [`Categories`](./categories) są używane dla głównych serii. Odczyt/zapis Boolean. |
 
 ## Metody
 
@@ -34,18 +34,19 @@ public class ChartData : DomObject<Chart>, IChartData
 | --- | --- |
 | [GetRange](../../aspose.slides.charts/chartdata/getrange)() | Pobiera zakres danych wykresu. |
 | [ReadWorkbookStream](../../aspose.slides.charts/chartdata/readworkbookstream)() | Zapisuje wewnętrznie zawarty skoroszyt Excel do strumienia w pamięci. |
+| [RefreshData](../../aspose.slides.charts/chartdata/refreshdata)() | Odświeża dane wykresu, ponownie ładując je ze skoroszytu źródłowego. |
 | [SetExternalWorkbook](../../aspose.slides.charts/chartdata/setexternalworkbook#setexternalworkbook)(string) | Ustawia zewnętrzny skoroszyt jako źródło danych dla wykresu. Dane wykresu zostaną zaktualizowane z docelowego skoroszytu. |
 | [SetExternalWorkbook](../../aspose.slides.charts/chartdata/setexternalworkbook#setexternalworkbook_1)(string, bool) | Ustawia zewnętrzny skoroszyt jako źródło danych dla wykresu. |
-| [SetRange](../../aspose.slides.charts/chartdata/setrange)(string) | Ustawia zakres danych wykresu. Serie i kategorie zostaną zaktualizowane na podstawie nowego zakresu danych. Jeśli liczba serii w zakresie danych jest większa niż liczba serii w danych wykresu, zostaną dodane dodatkowe serie o tym samym typie co ostatnia seria w bieżącej kolekcji, na koniec kolekcji. |
-| [SwitchRowColumn](../../aspose.slides.charts/chartdata/switchrowcolumn)() | Zamienia dane pomiędzy osiami. Dane wykreślone na osi X zostaną przeniesione na oś Y i odwrotnie. |
+| [SetRange](../../aspose.slides.charts/chartdata/setrange)(string) | Ustaw zakres danych wykresu. Serie i kategorie zostaną zaktualizowane na podstawie nowego zakresu danych. Jeśli liczba serii w zakresie danych jest większa niż liczba serii w danych wykresu, zostaną dodane dodatkowe serie tego samego typu co ostatnia seria w bieżącej kolekcji, na końcu kolekcji. |
+| [SwitchRowColumn](../../aspose.slides.charts/chartdata/switchrowcolumn)() | Zamienia dane na osiach. Dane wykreślone na osi X zostaną przeniesione na oś Y i odwrotnie. |
 | [WriteWorkbookStream](../../aspose.slides.charts/chartdata/writeworkbookstream)(MemoryStream) | Inicjalizuje wewnętrznie zawarty skoroszyt Excel wartością określoną przez użytkownika. |
 
-### Patrz także
+### Zobacz także
 
 * klasa [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * klasa [Chart](../chart)
 * interfejs [IChartData](../ichartdata)
 * przestrzeń nazw [Aspose.Slides.Charts](../../aspose.slides.charts)
-* zbiór [Aspose.Slides](../../)
+* zestaw [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

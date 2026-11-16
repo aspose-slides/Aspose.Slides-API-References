@@ -3,7 +3,7 @@ title: IRowCollection
 second_title: Aspose.Sildes for .NET API 참조
 description: 테이블 행 컬렉션을 나타냅니다.
 type: docs
-weight: 6860
+weight: 6880
 url: /ko/aspose.slides/irowcollection/
 ---
 ## IRowCollection 인터페이스
@@ -24,11 +24,11 @@ public interface IRowCollection : IGenericCollection<IRow>
 
 | 이름 | 설명 |
 | --- | --- |
-| [AddClone](../../aspose.slides/irowcollection/addclone)(IRow, bool) | 지정된 템플릿 행의 복사본을 생성하고 표의 맨 아래에 삽입합니다. |
-| [InsertClone](../../aspose.slides/irowcollection/insertclone)(int, IRow, bool) | 지정된 템플릿 행의 복사본을 생성하고 표의 지정된 위치에 삽입합니다. |
-| [RemoveAt](../../aspose.slides/irowcollection/removeat)(int, bool) | 표의 지정된 위치에서 행을 제거합니다. |
+| [AddClone](../../aspose.slides/irowcollection/addclone)(IRow, bool) | 지정된 템플릿 행의 복사본을 만들고 테이블 하단에 삽입합니다. |
+| [InsertClone](../../aspose.slides/irowcollection/insertclone)(int, IRow, bool) | 지정된 템플릿 행의 복사본을 만들고 테이블의 지정된 위치에 삽입합니다. |
+| [RemoveAt](../../aspose.slides/irowcollection/removeat)(int, bool) | 테이블에서 지정된 위치에 있는 행을 제거합니다. |
 
-### 관련 항목
+### 참고
 
 * 인터페이스 [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * 인터페이스 [IRow](../irow)

@@ -1,14 +1,14 @@
 ---
 title: IField
 second_title: Aspose.Sildes for .NET API 參考
-description: 表示一個欄位。
+description: 代表一個欄位。
 type: docs
-weight: 5770
+weight: 5790
 url: /zh-hant/aspose.slides/ifield/
 ---
 ## IField 介面
 
-表示一個欄位。
+代表一個欄位。
 
 ```csharp
 public interface IField : ISlideComponent
@@ -19,9 +19,9 @@ public interface IField : ISlideComponent
 | 名稱 | 說明 |
 | --- | --- |
 | [AsISlideComponent](../../aspose.slides/ifield/asislidecomponent) { get; } | 允許取得基礎 ISlideComponent 介面。唯讀 [`ISlideComponent`](../islidecomponent)。 |
-| [Type](../../aspose.slides/ifield/type) { get; set; } | 取得或設定欄位的類型。讀寫 [`IFieldType`](../ifieldtype)。 |
+| [Type](../../aspose.slides/ifield/type) { get; set; } | 返回或設定欄位的型別。可讀寫 [`IFieldType`](../ifieldtype)。 |
 
-### 另見
+### 參見
 
 * 介面 [ISlideComponent](../islidecomponent)
 * 命名空間 [Aspose.Slides](../../aspose.slides)

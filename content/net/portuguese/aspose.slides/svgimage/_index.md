@@ -1,14 +1,14 @@
 ---
 title: SvgImage
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Aspose.Sildes para .NET Referência de API
 description: Representa uma imagem SVG.
 type: docs
-weight: 10800
+weight: 10820
 url: /pt/aspose.slides/svgimage/
 ---
 ## SvgImage classe
 
-Representa uma imagem SVG.
+Represents an SVG image.
 
 ```csharp
 public class SvgImage : ISvgImage
@@ -18,29 +18,29 @@ public class SvgImage : ISvgImage
 
 | Nome | Descrição |
 | --- | --- |
-| [SvgImage](svgimage#constructor)(byte[]) | Cria um novo objeto SvgImage. |
-| [SvgImage](svgimage#constructor_2)(Stream) | Cria um novo objeto SvgImage. |
-| [SvgImage](svgimage#constructor_4)(string) | Cria um novo objeto SvgImage. |
-| [SvgImage](svgimage#constructor_1)(byte[], IExternalResourceResolver, string) | Cria um novo objeto SvgImage. |
-| [SvgImage](svgimage#constructor_3)(Stream, IExternalResourceResolver, string) | Cria um novo objeto SvgImage. |
-| [SvgImage](svgimage#constructor_5)(string, IExternalResourceResolver, string) | Cria um novo objeto SvgImage. |
+| [SvgImage](svgimage#constructor)(byte[]) | Creates new SvgImage object. |
+| [SvgImage](svgimage#constructor_2)(Stream) | Creates new SvgImage object. |
+| [SvgImage](svgimage#constructor_4)(string) | Creates new SvgImage object. |
+| [SvgImage](svgimage#constructor_1)(byte[], IExternalResourceResolver, string) | Creates new SvgImage object. |
+| [SvgImage](svgimage#constructor_3)(Stream, IExternalResourceResolver, string) | Creates new SvgImage object. |
+| [SvgImage](svgimage#constructor_5)(string, IExternalResourceResolver, string) | Creates new SvgImage object. |
 
 ## Propriedades
 
 | Nome | Descrição |
 | --- | --- |
-| [BaseUri](../../aspose.slides/svgimage/baseuri) { get; } | Retorna o URI base do Svg especificado. Usado para resolver links relativos. Somente leitura String. |
-| [ExternalResourceResolver](../../aspose.slides/svgimage/externalresourceresolver) { get; } | Retorna a interface de retorno de chamada usada para resolver recursos externos durante a importação de documentos Svg. Somente leitura [`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver). |
-| [SvgContent](../../aspose.slides/svgimage/svgcontent) { get; } | Retorna o conteúdo SVG. Somente leitura String. |
-| [SvgData](../../aspose.slides/svgimage/svgdata) { get; } | Retorna os dados SVG. Somente leitura Byte[]. |
+| [BaseUri](../../aspose.slides/svgimage/baseuri) { get; } | Retorna o URI base do Svg especificado. Usado para resolver links relativos. String somente leitura. |
+| [ExternalResourceResolver](../../aspose.slides/svgimage/externalresourceresolver) { get; } | Retorna a interface de callback usada para resolver recursos externos durante a importação de documentos Svg. [`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver) somente leitura. |
+| [SvgContent](../../aspose.slides/svgimage/svgcontent) { get; } | Retorna o conteúdo SVG. String somente leitura. |
+| [SvgData](../../aspose.slides/svgimage/svgdata) { get; } | Retorna os dados SVG. Byte[] somente leitura. |
 
 ## Métodos
 
 | Nome | Descrição |
 | --- | --- |
-| [WriteAsEmf](../../aspose.slides/svgimage/writeasemf)(Stream) | Salva a imagem SVG como um arquivo EMF. |
+| [WriteAsEmf](../../aspose.slides/svgimage/writeasemf)(Stream) | Salva a imagem SVG como um arquivo EMV. |
 
-### Ver Também
+### Veja Também
 
 * interface [ISvgImage](../isvgimage)
 * namespace [Aspose.Slides](../../aspose.slides)

@@ -1,14 +1,14 @@
 ---
 title: FillOverlay
-second_title: Referencia de API de Aspose.Sildes para .NET
-description: Representa un efecto Fill Overlay. Un fill overlay puede usarse para especificar un relleno adicional para un objeto y combinar los dos rellenos.
+second_title: Aspose.Sildes para la referencia de API .NET
+description: Representa un efecto Fill Overlay. Un Fill Overlay puede usarse para especificar un relleno adicional para un objeto y combinar los dos rellenos juntos.
 type: docs
-weight: 2980
+weight: 3000
 url: /es/aspose.slides.effects/filloverlay/
 ---
-## Clase FillOverlay
+## FillOverlay clase
 
-Representa un efecto Fill Overlay. Un fill overlay puede usarse para especificar un relleno adicional para un objeto y combinar los dos rellenos.
+Representa un efecto Fill Overlay. Un Fill Overlay puede usarse para especificar un relleno adicional para un objeto y combinar los dos rellenos juntos.
 
 ```csharp
 public sealed class FillOverlay : ImageTransformOperation, IFillOverlay
@@ -18,9 +18,9 @@ public sealed class FillOverlay : ImageTransformOperation, IFillOverlay
 
 | Nombre | Descripción |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permite obtener la interfaz base IPresentationComponent. Solo lectura [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permite obtener la interfaz base IPresentationComponent. Sólo lectura [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 | [Blend](../../aspose.slides.effects/filloverlay/blend) { get; set; } | FillBlendMode. Lectura/escritura [`FillBlendMode`](../../aspose.slides/fillblendmode). |
-| [FillFormat](../../aspose.slides.effects/filloverlay/fillformat) { get; } | Formato de relleno. Solo lectura [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [FillFormat](../../aspose.slides.effects/filloverlay/fillformat) { get; } | Formato de relleno. Sólo lectura [`IFillFormat`](../../aspose.slides/ifillformat). |
 
 ## Métodos
 

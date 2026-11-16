@@ -1,14 +1,14 @@
 ---
 title: IColorSchemeEffectiveData
-second_title: Aspose.Sildes için .NET API Referansı
-description: Etkin renk şeması özelliklerini içeren değiştirilemez nesne.
+second_title: Aspose.Sildes .NET için API Referansı
+description: Etkili renk şeması özelliklerini içeren değişmez nesne.
 type: docs
-weight: 11160
+weight: 11180
 url: /tr/aspose.slides.theme/icolorschemeeffectivedata/
 ---
 ## IColorSchemeEffectiveData arayüz
 
-Değiştirilemez nesne, etkili renk şeması özelliklerini içerir.
+Etkili renk şeması özelliklerini içeren değişmez nesne.
 
 ```csharp
 public interface IColorSchemeEffectiveData
@@ -18,25 +18,25 @@ public interface IColorSchemeEffectiveData
 
 | Ad | Açıklama |
 | --- | --- |
-| [Accent1](../../aspose.slides.theme/icolorschemeeffectivedata/accent1) { get; } | Şemadaki birinci vurgu rengi. Salt-okunur Color. |
-| [Accent2](../../aspose.slides.theme/icolorschemeeffectivedata/accent2) { get; } | Şemadaki ikinci vurgu rengi. Salt-okunur Color. |
-| [Accent3](../../aspose.slides.theme/icolorschemeeffectivedata/accent3) { get; } | Şemadaki üçüncü vurgu rengi. Salt-okunur Color. |
-| [Accent4](../../aspose.slides.theme/icolorschemeeffectivedata/accent4) { get; } | Şemadaki dördüncü vurgu rengi. Salt-okunur Color. |
-| [Accent5](../../aspose.slides.theme/icolorschemeeffectivedata/accent5) { get; } | Şemadaki beşinci vurgu rengi. Salt-okunur Color. |
-| [Accent6](../../aspose.slides.theme/icolorschemeeffectivedata/accent6) { get; } | Şemadaki altıncı vurgu rengi. Salt-okunur Color. |
-| [Dark1](../../aspose.slides.theme/icolorschemeeffectivedata/dark1) { get; } | Şemadaki birinci koyu renk. Salt-okunur Color. |
-| [Dark2](../../aspose.slides.theme/icolorschemeeffectivedata/dark2) { get; } | Şemadaki ikinci koyu renk. Salt-okunur Color. |
-| [FollowedHyperlink](../../aspose.slides.theme/icolorschemeeffectivedata/followedhyperlink) { get; } | Ziyaret edilmiş köprüler için renk. Salt-okunur Color. |
-| [Hyperlink](../../aspose.slides.theme/icolorschemeeffectivedata/hyperlink) { get; } | Köprüler için renk. Salt-okunur Color. |
-| [Item](../../aspose.slides.theme/icolorschemeeffectivedata/item) { get; } | Belirtilen indeksdeki öğeyi alır. Salt-okunur Color. |
-| [Light1](../../aspose.slides.theme/icolorschemeeffectivedata/light1) { get; } | Şemadaki birinci açık renk. Salt-okunur Color. |
-| [Light2](../../aspose.slides.theme/icolorschemeeffectivedata/light2) { get; } | Şemadaki ikinci açık renk. Salt-okunur Color. |
+| [Accent1](../../aspose.slides.theme/icolorschemeeffectivedata/accent1) { get; } | Şemadaki ilk vurgu rengi. Salt okunur Color. |
+| [Accent2](../../aspose.slides.theme/icolorschemeeffectivedata/accent2) { get; } | Şemadaki ikinci vurgu rengi. Salt okunur Color. |
+| [Accent3](../../aspose.slides.theme/icolorschemeeffectivedata/accent3) { get; } | Şemadaki üçüncü vurgu rengi. Salt okunur Color. |
+| [Accent4](../../aspose.slides.theme/icolorschemeeffectivedata/accent4) { get; } | Şemadaki dördüncü vurgu rengi. Salt okunur Color. |
+| [Accent5](../../aspose.slides.theme/icolorschemeeffectivedata/accent5) { get; } | Şemadaki beşinci vurgu rengi. Salt okunur Color. |
+| [Accent6](../../aspose.slides.theme/icolorschemeeffectivedata/accent6) { get; } | Şemadaki altıncı vurgu rengi. Salt okunur Color. |
+| [Dark1](../../aspose.slides.theme/icolorschemeeffectivedata/dark1) { get; } | Şemadaki ilk koyu renk. Salt okunur Color. |
+| [Dark2](../../aspose.slides.theme/icolorschemeeffectivedata/dark2) { get; } | Şemadaki ikinci koyu renk. Salt okunur Color. |
+| [FollowedHyperlink](../../aspose.slides.theme/icolorschemeeffectivedata/followedhyperlink) { get; } | Ziyaret edilmiş bağlantılar için renk. Salt okunur Color. |
+| [Hyperlink](../../aspose.slides.theme/icolorschemeeffectivedata/hyperlink) { get; } | Bağlantılar için renk. Salt okunur Color. |
+| [Item](../../aspose.slides.theme/icolorschemeeffectivedata/item) { get; } | Belirtilen indeksteki öğeyi alır. Salt okunur Color. |
+| [Light1](../../aspose.slides.theme/icolorschemeeffectivedata/light1) { get; } | Şemadaki ilk açık renk. Salt okunur Color. |
+| [Light2](../../aspose.slides.theme/icolorschemeeffectivedata/light2) { get; } | Şemadaki ikinci açık renk. Salt okunur Color. |
 
-### Açıklama
+### Açıklamalar
 
 Bu sınıf, [`IThemeEffectiveData`](../ithemeeffectivedata) parçası olarak kullanılır.
 
-### Ayrıca Bakınız
+### Ayrıca bakınız
 
 * ad alanı [Aspose.Slides.Theme](../../aspose.slides.theme)
 * derleme [Aspose.Slides](../../)

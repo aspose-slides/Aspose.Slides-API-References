@@ -1,40 +1,41 @@
 ---
 title: IVideoFrame
-second_title: مرجع API Aspose.Sildes برای .NET
-description: یک کلیپ ویدئویی را در یک اسلاید نمایش می‌دهد.
+second_title: Aspose.Sildes برای .NET مرجع API
+description: یک کلیپ ویدئویی را روی اسلاید نمایش می‌دهد.
 type: docs
-weight: 7380
+weight: 7400
 url: /fa/aspose.slides/ivideoframe/
 ---
-## رابط IVideoFrame
+## IVideoFrame رابط
 
-یک کلیپ ویدئویی را در یک اسلاید نمایش می‌دهد.
+Represents a video clip on a slide.
 
 ```csharp
 public interface IVideoFrame : IPictureFrame
 ```
 
-## خصوصیات
+## ویژگی‌ها
 
 | نام | توضیح |
 | --- | --- |
-| [AsIPictureFrame](../../aspose.slides/ivideoframe/asipictureframe) { get; } | اجازۀ دریافت رابط پایه IPictureFrame. فقط-خواندنی [`IPictureFrame`](../ipictureframe). |
-| [CaptionTracks](../../aspose.slides/ivideoframe/captiontracks) { get; } | مجموعهٔ زیرنویس‌های بسته مرتبط با فریم صوتی را دریافت می‌کند. این ویژگی فقط-خواندنی است و یک [`ICaptionsCollection`](../icaptionscollection) حاوی تمام ردیف‌های زیرنویس را برمی‌گرداند. |
-| [EmbeddedVideo](../../aspose.slides/ivideoframe/embeddedvideo) { get; set; } | شیء ویدئوی توکار را برمی‌گرداند یا تنظیم می‌کند. خواندنی/نوشتنی [`IVideo`](../ivideo). |
-| [FullScreenMode](../../aspose.slides/ivideoframe/fullscreenmode) { get; set; } | مشخص می‌کند آیا ویدئو در حالت تمام‌صفحه نمایش داده شود یا خیر. خواندنی/نوشتنی Boolean. |
-| [HideAtShowing](../../aspose.slides/ivideoframe/hideatshowing) { get; set; } | مشخص می‌کند آیا VideoFrame مخفی باشد یا نه. خواندنی/نوشتنی Boolean. |
-| [LinkPathLong](../../aspose.slides/ivideoframe/linkpathlong) { get; set; } | نام پروندهٔ ویدئویی که به VideoFrame پیوند داده شده است را برمی‌گرداند یا تنظیم می‌کند. خواندنی/نوشتنی String. |
-| [PlayLoopMode](../../aspose.slides/ivideoframe/playloopmode) { get; set; } | مشخص می‌کند آیا ویدئو به صورت حلقه‌ای اجرا شود. خواندنی/نوشتنی Boolean. |
-| [PlayMode](../../aspose.slides/ivideoframe/playmode) { get; set; } | حالت پخش ویدئو را برمی‌گرداند یا تنظیم می‌کند. خواندنی/نوشتنی [`VideoPlayModePreset`](../videoplaymodepreset). |
-| [RewindVideo](../../aspose.slides/ivideoframe/rewindvideo) { get; set; } | مشخص می‌کند آیا ویدئو به‌صورت خودکار پس از پایان پخش به ابتدای خود بازگردد. خواندنی/نوشتنی Boolean. |
-| [TrimFromEnd](../../aspose.slides/ivideoframe/trimfromend) { get; set; } | پایان برش [ms] |
-| [TrimFromStart](../../aspose.slides/ivideoframe/trimfromstart) { get; set; } | شروع برش [ms] |
-| [Volume](../../aspose.slides/ivideoframe/volume) { get; set; } | حجم صدا را برمی‌گرداند یا تنظیم می‌کند. خواندنی/نوشتنی [`AudioVolumeMode`](../audiovolumemode). |
+| [AsIPictureFrame](../../aspose.slides/ivideoframe/asipictureframe) { get; } | اجازه می‌دهد رابط پایه IPictureFrame را دریافت کند. فقط-خواندنی [`IPictureFrame`](../ipictureframe). |
+| [CaptionTracks](../../aspose.slides/ivideoframe/captiontracks) { get; } | مجموعه زیرنویس‌های بسته‌شده مرتبط با فریم صوتی را دریافت می‌کند. این ویژگی فقط-خواندنی است و یک [`ICaptionsCollection`](../icaptionscollection) شامل تمام مسیرهای زیرنویس را برمی‌گرداند. |
+| [EmbeddedVideo](../../aspose.slides/ivideoframe/embeddedvideo) { get; set; } | شیء ویدئوی توکار را بر می‌گرداند یا تنظیم می‌کند. خواندن/نوشتن [`IVideo`](../ivideo). |
+| [FullScreenMode](../../aspose.slides/ivideoframe/fullscreenmode) { get; set; } | تعیین می‌کند آیا ویدئو در حالت تمام‌صفحه نمایش داده شود. خواندن/نوشتن Boolean. |
+| [HideAtShowing](../../aspose.slides/ivideoframe/hideatshowing) { get; set; } | تعیین می‌کند آیا VideoFrame مخفی باشد. خواندن/نوشتن Boolean. |
+| [LinkPathLong](../../aspose.slides/ivideoframe/linkpathlong) { get; set; } | نام فایل ویدئویی که به VideoFrame پیوند خورده است را بر می‌گرداند یا تنظیم می‌کند. خواندن/نوشتن String. |
+| [PlayLoopMode](../../aspose.slides/ivideoframe/playloopmode) { get; set; } | تعیین می‌کند آیا ویدئو به صورت حلقه‌ای پخش شود. خواندن/نوشتن Boolean. |
+| [PlayMode](../../aspose.slides/ivideoframe/playmode) { get; set; } | حالت پخش ویدئو را بر می‌گرداند یا تنظیم می‌کند. خواندن/نوشتن [`VideoPlayModePreset`](../videoplaymodepreset). |
+| [RewindVideo](../../aspose.slides/ivideoframe/rewindvideo) { get; set; } | تعیین می‌کند آیا ویدئو پس از پایان پخش به طور خودکار به شروع بازگردانده شود. خواندن/نوشتن Boolean. |
+| [TrimFromEnd](../../aspose.slides/ivideoframe/trimfromend) { get; set; } | برش انتها [ms] |
+| [TrimFromStart](../../aspose.slides/ivideoframe/trimfromstart) { get; set; } | برش آغاز [ms] |
+| [Volume](../../aspose.slides/ivideoframe/volume) { get; set; } | حجم صدای صوتی را بر می‌گرداند یا تنظیم می‌کند. خواندن/نوشتن [`AudioVolumeMode`](../audiovolumemode). |
+| [VolumeValue](../../aspose.slides/ivideoframe/volumevalue) { get; set; } | حجم دقیق ویدئو را به صورت درصد بر می‌گرداند یا تنظیم می‌کند. مقدار به صورت درصدی از 0 تا 100 بیان می‌شود. از این ویژگی برای خواندن یا تنظیم مقادیر حجمی که دقیق‌تر از سطوح پیش‌تعریف‌شدهٔ موجود در ویژگی [`Volume`](./volume) هستند استفاده کنید. خواندن/نوشتن Single. |
 
 ### موارد مرتبط
 
 * رابط [IPictureFrame](../ipictureframe)
 * فضای‌نام [Aspose.Slides](../../aspose.slides)
-* مجوعه [Aspose.Slides](../../)
+* مجمع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

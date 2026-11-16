@@ -1,9 +1,9 @@
 ---
 title: ILineFillFormatEffectiveData
-second_title: Aspose.Sildes pour la référence API .NET
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Objet immuable qui contient les propriétés effectives de remplissage de ligne.
 type: docs
-weight: 6300
+weight: 6320
 url: /fr/aspose.slides/ilinefillformateffectivedata/
 ---
 ## ILineFillFormatEffectiveData interface
@@ -22,12 +22,12 @@ public interface ILineFillFormatEffectiveData : IFillParamSource
 | [FillType](../../aspose.slides/ilinefillformateffectivedata/filltype) { get; } | Renvoie le type de remplissage. Lecture seule [`FillType`](../filltype). |
 | [GradientFormat](../../aspose.slides/ilinefillformateffectivedata/gradientformat) { get; } | Renvoie le format de remplissage en dégradé. Lecture seule [`IGradientFormatEffectiveData`](../igradientformateffectivedata). |
 | [PatternFormat](../../aspose.slides/ilinefillformateffectivedata/patternformat) { get; } | Renvoie le format de remplissage en motif. Lecture seule [`IPatternFormatEffectiveData`](../ipatternformateffectivedata). |
-| [RotateWithShape](../../aspose.slides/ilinefillformateffectivedata/rotatewithshape) { get; } | Détermine si le remplissage doit être pivoté avec une forme. Lecture seule Boolean. |
-| [SolidFillColor](../../aspose.slides/ilinefillformateffectivedata/solidfillcolor) { get; } | Renvoie la couleur d'un remplissage uni. Lecture seule Color. |
+| [RotateWithShape](../../aspose.slides/ilinefillformateffectivedata/rotatewithshape) { get; } | Détermine si le remplissage doit être tourné avec une forme. Booléen en lecture seule. |
+| [SolidFillColor](../../aspose.slides/ilinefillformateffectivedata/solidfillcolor) { get; } | Renvoie la couleur d'un remplissage uni. Couleur en lecture seule. |
 
 ### Remarques
 
-Cette interface est utilisée dans le cadre de [`ILineFormatEffectiveData`](../ilineformateffectivedata).
+Cette interface est utilisée comme partie de [`ILineFormatEffectiveData`](../ilineformateffectivedata).
 
 ### Voir aussi
 

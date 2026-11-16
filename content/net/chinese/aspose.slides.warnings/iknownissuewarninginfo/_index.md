@@ -1,14 +1,14 @@
 ---
 title: IKnownIssueWarningInfo
 second_title: Aspose.Sildes for .NET API 参考
-description: 表示有关已知问题的警告，该问题在近期不会被修复。
+description: 表示一个关于已知问题的警告，该问题在近期不会被修复。
 type: docs
-weight: 11760
+weight: 11780
 url: /zh/aspose.slides.warnings/iknownissuewarninginfo/
 ---
 ## IKnownIssueWarningInfo 接口
 
-表示关于已知问题的警告，该问题在近期不会被修复。
+表示一个关于已知问题的警告，该问题在近期不会被修复。
 
 ```csharp
 public interface IKnownIssueWarningInfo : IWarningInfo
@@ -20,7 +20,7 @@ public interface IKnownIssueWarningInfo : IWarningInfo
 | --- | --- |
 | [AsIWarningInfo](../../aspose.slides.warnings/iknownissuewarninginfo/asiwarninginfo) { get; } | 返回 IWarningInfo 接口。只读 [`IWarningInfo`](../iwarninginfo)。 |
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IWarningInfo](../iwarninginfo)
 * 命名空间 [Aspose.Slides.Warnings](../../aspose.slides.warnings)

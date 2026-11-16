@@ -1,9 +1,9 @@
 ---
 title: GradientDirection
-second_title: Aspose.Sildes .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 表示渐变样式。
 type: docs
-weight: 4990
+weight: 5010
 url: /zh/aspose.slides/gradientdirection/
 ---
 ## GradientDirection 枚举

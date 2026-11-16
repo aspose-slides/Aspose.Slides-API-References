@@ -1,14 +1,14 @@
 ---
 title: ControlType
-second_title: Aspose.Sildes for .NET API リファレンス
-description: AddControl./icontrolcollection/addcontrol によって埋め込むべきコントロールタイプを定義します。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: AddControl./icontrolcollection/addcontrol によって埋め込むべきコントロール タイプを定義します。
 type: docs
-weight: 2720
+weight: 2740
 url: /ja/aspose.slides/controltype/
 ---
 ## ControlType 列挙型
 
-[`AddControl`](../icontrolcollection/addcontrol) に埋め込むべきコントロールタイプを定義します。
+Defines a control type which should be embedded by [`AddControl`](../icontrolcollection/addcontrol).
 
 ```csharp
 public enum ControlType

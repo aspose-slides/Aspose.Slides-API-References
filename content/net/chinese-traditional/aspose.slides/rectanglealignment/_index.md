@@ -1,9 +1,9 @@
 ---
 title: RectangleAlignment
-second_title: Aspose.Sildes for .NET API 參考文件
+second_title: Aspose.Sildes .NET API 參考
 description: 定義二維對齊方式。
 type: docs
-weight: 9690
+weight: 9710
 url: /zh-hant/aspose.slides/rectanglealignment/
 ---
 ## RectangleAlignment 列舉

@@ -1,9 +1,9 @@
 ---
 title: ParagraphFactory
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Permite crear párrafos
 type: docs
-weight: 9300
+weight: 9320
 url: /es/aspose.slides/paragraphfactory/
 ---
 ## ParagraphFactory clase
@@ -25,7 +25,7 @@ public class ParagraphFactory : IParagraphFactory
 | Nombre | Descripción |
 | --- | --- |
 | [CreateParagraph](../../aspose.slides/paragraphfactory/createparagraph#createparagraph)() | Crea un nuevo párrafo vacío. |
-| [CreateParagraph](../../aspose.slides/paragraphfactory/createparagraph#createparagraph_1)(IParagraph) | Crea un nuevo párrafo con los datos de párrafo especificados usando. |
+| [CreateParagraph](../../aspose.slides/paragraphfactory/createparagraph#createparagraph_1)(IParagraph) | Crea un nuevo párrafo con los datos de párrafo especificados. |
 
 ### Observaciones
 

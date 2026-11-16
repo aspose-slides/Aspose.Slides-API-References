@@ -1,9 +1,9 @@
 ---
 title: IProtectionManager
-second_title: Referência da API Aspose.Sildes para .NET
-description: Gerenciamento de proteção por senha da apresentação.
+second_title: Aspose.Sildes para .NET Referência da API
+description: Gerenciamento da proteção por senha da apresentação.
 type: docs
-weight: 6820
+weight: 6840
 url: /pt/aspose.slides/iprotectionmanager/
 ---
 ## interface IProtectionManager
@@ -16,24 +16,24 @@ public interface IProtectionManager
 
 ## Propriedades
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
-| [EncryptDocumentProperties](../../aspose.slides/iprotectionmanager/encryptdocumentproperties) { get; set; } | Esta propriedade faz sentido se a apresentação estiver protegida por senha. Se verdadeiro, então as propriedades do documento são criptografadas no arquivo da apresentação. Se falso, então as propriedades do documento são públicas enquanto a apresentação está criptografada. Leitura/gravação Boolean. |
+| [EncryptDocumentProperties](../../aspose.slides/iprotectionmanager/encryptdocumentproperties) { get; set; } | Esta propriedade faz sentido se a apresentação estiver protegida por senha. Se verdadeiro, as propriedades do documento são criptografadas no arquivo de apresentação. Se falso, as propriedades do documento são públicas enquanto a apresentação está criptografada. Leitura/gravação Booleano. |
 | [EncryptionPassword](../../aspose.slides/iprotectionmanager/encryptionpassword) { get; } | Retorna a senha de criptografia. Somente leitura String. |
-| [IsEncrypted](../../aspose.slides/iprotectionmanager/isencrypted) { get; } | Obtém um valor que indica se esta instância está criptografada. Somente leitura Boolean. |
-| [IsOnlyDocumentPropertiesLoaded](../../aspose.slides/iprotectionmanager/isonlydocumentpropertiesloaded) { get; } | Esta propriedade faz sentido se o arquivo da apresentação estiver protegido por senha e as propriedades do documento deste arquivo forem públicas. Valor verdadeiro significa que apenas as propriedades do documento são carregadas de um arquivo de apresentação criptografado sem o uso de senha. Valor falso significa que toda a apresentação criptografada é carregada com o uso da senha correta, não apenas as propriedades do documento são carregadas. Se a apresentação não estiver criptografada, o valor da propriedade será sempre falso. Se as propriedades do documento de um arquivo criptografado não forem públicas, o valor da propriedade será sempre falso. Se PresentationEx.EncryptDocumentProperties for true, então o valor da propriedade IsOnlyDocumentPropertiesLoaded será sempre falso. Somente leitura Boolean. |
-| [IsWriteProtected](../../aspose.slides/iprotectionmanager/iswriteprotected) { get; } | Obtém um valor que indica se esta apresentação está protegida contra gravação. Somente leitura Boolean. |
-| [ReadOnlyRecommended](../../aspose.slides/iprotectionmanager/readonlyrecommended) { get; set; } | Obtém ou define a recomendação de somente leitura. Leitura/gravação Boolean. |
+| [IsEncrypted](../../aspose.slides/iprotectionmanager/isencrypted) { get; } | Obtém um valor que indica se esta instância está criptografada. Somente leitura Booleano. |
+| [IsOnlyDocumentPropertiesLoaded](../../aspose.slides/iprotectionmanager/isonlydocumentpropertiesloaded) { get; } | Esta propriedade faz sentido se o arquivo de apresentação estiver protegido por senha e as propriedades do documento deste arquivo forem públicas. Valor verdadeiro significa que somente as propriedades do documento são carregadas a partir de um arquivo de apresentação criptografado sem o uso de senha. Valor falso significa que toda a apresentação criptografada é carregada com o uso da senha correta, não apenas as propriedades do documento. Se a apresentação não estiver criptografada, o valor da propriedade será sempre falso. Se as propriedades do documento de um arquivo criptografado não forem públicas, o valor da propriedade será sempre falso. Se PresentationEx.EncryptDocumentProperties for verdadeiro, então o valor da propriedade IsOnlyDocumentPropertiesLoaded será sempre falso. Somente leitura Booleano. |
+| [IsWriteProtected](../../aspose.slides/iprotectionmanager/iswriteprotected) { get; } | Obtém um valor que indica se esta apresentação está protegida contra gravação. Somente leitura Booleano. |
+| [ReadOnlyRecommended](../../aspose.slides/iprotectionmanager/readonlyrecommended) { get; set; } | Obtém ou define a recomendação de somente leitura. Leitura/gravação Booleano. |
 
 ## Métodos
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
 | [CheckWriteProtection](../../aspose.slides/iprotectionmanager/checkwriteprotection)(string) | Determina se uma apresentação está protegida por senha para modificação. |
 | [Encrypt](../../aspose.slides/iprotectionmanager/encrypt)(string) | Criptografa a apresentação com a senha especificada. |
 | [RemoveEncryption](../../aspose.slides/iprotectionmanager/removeencryption)() | Remove a criptografia. |
 | [RemoveWriteProtection](../../aspose.slides/iprotectionmanager/removewriteprotection)() | Remove a proteção contra gravação desta apresentação. |
-| [SetWriteProtection](../../aspose.slides/iprotectionmanager/setwriteprotection)(string) | Define a proteção contra gravação para esta apresentação com a senha especificada. |
+| [SetWriteProtection](../../aspose.slides/iprotectionmanager/setwriteprotection)(string) | Define a proteção contra gravação desta apresentação com a senha especificada. |
 
 ### Veja Também
 

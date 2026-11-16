@@ -1,14 +1,14 @@
 ---
 title: InkEffectType
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Gibt einen Satz vordefinierter visueller Effekte für die Tintenrenderung an. Jeder Effekt entspricht einer Textur oder einem Bild, das ein stilisiertes Tinten-Aussehen simuliert. Diese Werte können verwendet werden, um den visuellen Stil digitaler Tintenstriche beim Rendern anzupassen.
+description: Gibt einen Satz vordefinierter visueller Effekte für die Ink-Darstellung an. Jeder Effekt entspricht einer Textur oder einem Bild, das ein stilisiertes Ink-Aussehen simuliert. Diese Werte können verwendet werden, um den visuellen Stil digitaler Ink-Striche während der Darstellung anzupassen.
 type: docs
-weight: 7580
+weight: 7600
 url: /de/aspose.slides.ink/inkeffecttype/
 ---
 ## InkEffectType-Aufzählung
 
-Gibt einen Satz vordefinierter visueller Effekte für die Tinten-Renderung an. Jeder Effekt entspricht einer Textur oder einem Bild, das ein stilisiertes Tinten-Aussehen simuliert. Diese Werte können verwendet werden, um den visuellen Stil von digitalen Tintenstrichen während des Renderns anzupassen.
+Gibt einen Satz vordefinierter visueller Effekte für die Ink-Darstellung an. Jeder Effekt entspricht einer Textur oder einem Bild, das ein stilisiertes Ink-Aussehen simuliert. Diese Werte können verwendet werden, um den visuellen Stil digitaler Ink-Striche während der Darstellung anzupassen.
 
 ```csharp
 public enum InkEffectType
@@ -16,17 +16,17 @@ public enum InkEffectType
 
 ### Werte
 
-| Name | Value | Description |
+| Name | Wert | Beschreibung |
 | --- | --- | --- |
-| NotDefined | `-1` | Der Effekt ist nicht definiert oder unbekannt. Dieser Wert kann als Standard- oder Rückfallwert verwendet werden. |
-| Bronze | `0` | Eine warme, bräunlich-metallische Textur, die an bronzene Tinte erinnert. |
-| Galaxy | `1` | Eine farbenfrohe, schimmernde Textur, die an eine Galaxie erinnert, mit kosmischen Tönen. |
+| NotDefined | `-1` | Der Effekt ist nicht definiert oder unbekannt. Dieser Wert kann als Standard- oder Ausweichwert verwendet werden. |
+| Bronze | `0` | Eine warme, bräunliche Metalltextur, die bronzefarbige Tinte nachahmt. |
+| Galaxy | `1` | Eine bunte, schimmernde Textur, die einer Galaxie ähnelt, mit kosmischen Farbtönen. |
 | Gold | `2` | Eine helle, metallische Goldtextur, die Tintenstrichen ein luxuriöses Aussehen verleiht. |
-| Lava | `3` | Eine feurige Textur, die an flüssige Lava erinnert, mit roten und orangefarbenen Tönen. |
-| Ocean | `4` | Eine tiefblaue, flüssigkeitsartige Textur, die Ozeanwellen oder wasserbasierte Tinte nachahmt. |
-| RainbowGlitter | `5` | Ein farbenfroher, funkelnder Regenbogen-Glitzereffekt, der für festliche oder lebendige Tintenstriche verwendet wird. |
-| RoseGold | `6` | Eine sanfte rosa-goldene Mischung, ähnlich wie Roségold, für elegante Tintenstriche. |
-| Silver | `7` | Eine kühle, metallische Silbertextur, die klassische Silber-Tinte simuliert. |
+| Lava | `3` | Eine feurige Textur, die geschmolzene Lava nachahmt, mit roten und orangefarbenen Tönen. |
+| Ocean | `4` | Eine tiefblaue, flüssigkeitsartige Textur, die Ozeanwellen oder wasserbasierte Tinte imitiert. |
+| RainbowGlitter | `5` | Ein bunter, funkelnder Regenbogenglitzer-Effekt, der für festliche oder lebendige Tintenstriche verwendet wird. |
+| RoseGold | `6` | Eine weiche Roségold-Mischung, ähnlich wie Roségold, für elegante Tintenstriche. |
+| Silver | `7` | Eine kühle, metallische Silbertextur, die klassische Silbertinte simuliert. |
 
 ### Siehe auch
 

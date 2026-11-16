@@ -1,9 +1,9 @@
 ---
 title: SensitivityLabel
-second_title: Aspose.Sildes لـ .NET مرجع API
+second_title: مرجع API لـ Aspose.Sildes لـ .NET
 description: يمثل تسمية الحساسية من Microsoft Purview Information Protection.
 type: docs
-weight: 9790
+weight: 9810
 url: /ar/aspose.slides/sensitivitylabel/
 ---
 ## SensitivityLabel فئة
@@ -19,10 +19,10 @@ public sealed class SensitivityLabel : ISensitivityLabel
 | الاسم | الوصف |
 | --- | --- |
 | [AssignmentMethodType](../../aspose.slides/sensitivitylabel/assignmentmethodtype) { get; set; } | يعيد أو يضبط طريقة التعيين لتسمية الحساسية. قراءة/كتابة [`SensitivityLabelAssignmentType`](../sensitivitylabelassignmenttype). |
-| [ContentMarkTypes](../../aspose.slides/sensitivitylabel/contentmarktypes) { get; } | يعيد قائمة بأنواع تعليم المحتوى التي يجب تطبيقها على الملف. |
+| [ContentMarkTypes](../../aspose.slides/sensitivitylabel/contentmarktypes) { get; } | يعيد قائمة بأنواع تمييز المحتوى التي يجب تطبيقها على ملف. |
 | [Id](../../aspose.slides/sensitivitylabel/id) { get; set; } | يعيد أو يضبط المعرف لتسمية الحساسية. قراءة/كتابة String. |
 | [IsEnabled](../../aspose.slides/sensitivitylabel/isenabled) { get; set; } | يشير إلى ما إذا كانت تسمية الحساسية مفعلة. |
-| [IsRemoved](../../aspose.slides/sensitivitylabel/isremoved) { get; set; } | يشير إلى ما إذا كانت تسمية الحساسية قد أزيلت. |
+| [IsRemoved](../../aspose.slides/sensitivitylabel/isremoved) { get; set; } | يشير إلى ما إذا تم إزالة تسمية الحساسية. |
 | [SiteId](../../aspose.slides/sensitivitylabel/siteid) { get; set; } | يعيد أو يضبط معرف موقع Azure Active Directory (Azure AD) المتعلق بسياسة تسمية الحساسية التي تصف تسمية الحساسية. قراءة/كتابة Guid. |
 
 ### انظر أيضًا

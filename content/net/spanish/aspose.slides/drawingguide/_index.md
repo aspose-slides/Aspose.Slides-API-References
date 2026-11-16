@@ -3,10 +3,10 @@ title: DrawingGuide
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa una guía de dibujo ajustable.
 type: docs
-weight: 2810
+weight: 2830
 url: /es/aspose.slides/drawingguide/
 ---
-## DrawingGuide clase
+## Clase DrawingGuide
 
 Representa una guía de dibujo ajustable.
 
@@ -16,7 +16,7 @@ public sealed class DrawingGuide : IDrawingGuide
 
 ## Propiedades
 
-| Name | Description |
+| Nombre | Descripción |
 | --- | --- |
 | [Color](../../aspose.slides/drawingguide/color) { get; set; } | Devuelve o establece el color de la guía de dibujo. Lectura/escritura Color. |
 | [Orientation](../../aspose.slides/drawingguide/orientation) { get; set; } | Devuelve o establece la orientación de la guía de dibujo. Lectura/escritura [`Orientation`](../orientation). |

@@ -1,14 +1,14 @@
 ---
 title: GetAutomaticDataPointColor
 second_title: Aspose.Sildes för .NET API-referens
-description: Returnerar en automatisk färg för datapunkt baserat på serieindex, datapunktindex, ParentSeriesGroup.IsColorVaried egenskap och diagramstil. Denna färg används som standard om FillType är lika med NotDefined.
+description: Returnerar en automatisk färg för datapunkt baserat på series index, data point index, ParentSeriesGroup.IsColorVaried egenskap och diagramstil. Denna färg används som standard om FillType är lika med NotDefined.
 type: docs
-weight: 190
+weight: 230
 url: /sv/aspose.slides.charts/ichartdatapoint/getautomaticdatapointcolor/
 ---
 ## IChartDataPoint.GetAutomaticDataPointColor metod
 
-Returnerar en automatisk färg för datapunkt baserat på serieindex, datapunktindex, ParentSeriesGroup.IsColorVaried-egenskap och diagramstil. Denna färg används som standard om FillType är lika med NotDefined.
+Returnerar en automatisk färg för datapunkt baserat på serieindex, datapunktindex, ParentSeriesGroup.IsColorVaried egenskapen och diagramstil. Denna färg används som standard om FillType är lika med NotDefined.
 
 ```csharp
 public Color GetAutomaticDataPointColor()
@@ -18,7 +18,7 @@ public Color GetAutomaticDataPointColor()
 
 Automatisk färg för datapunkt Color
 
-### Se även
+### Se också
 
 * gränssnitt [IChartDataPoint](../../ichartdatapoint)
 * namnrymd [Aspose.Slides.Charts](../../ichartdatapoint)

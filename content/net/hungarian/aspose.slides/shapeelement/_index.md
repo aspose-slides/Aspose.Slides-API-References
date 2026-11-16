@@ -1,14 +1,14 @@
 ---
 title: ShapeElement
-second_title: Aspose.Sildes .NET API referencia
-description: Az alakzat egy olyan részét képviseli, amelynek ugyanaz a körvonala és kitöltési tulajdonsága.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Egy alakzat azon részét képviseli, amelynek ugyanazok a körvonal- és kitöltéstulajdonságai vannak.
 type: docs
-weight: 9870
+weight: 9890
 url: /hu/aspose.slides/shapeelement/
 ---
 ## ShapeElement osztály
 
-Képviseli egy alakzat részét, amelynek ugyanaz a körvonala és kitöltési tulajdonsága.
+A forma egy olyan részét képviseli, amelynek ugyanazok a körvonal- és kitöltéstulajdonságai vannak.
 
 ```csharp
 public class ShapeElement : IShapeElement
@@ -18,11 +18,11 @@ public class ShapeElement : IShapeElement
 
 | Név | Leírás |
 | --- | --- |
-| [FillSource](../../aspose.slides/shapeelement/fillsource) { get; } | Információkat ad vissza arról, hogyan kell kitölteni egy elemet. Csak olvasható [`ShapeElementFillSource`](../shapeelementfillsource). |
-| [ParentShape](../../aspose.slides/shapeelement/parentshape) { get; } | Egy Shape_PPT-t ad vissza, amelyhez az elem létre lett hozva. Csak olvasható [`Shape`](../shape). |
-| [PathPoints](../../aspose.slides/shapeelement/pathpoints) { get; } | Visszaad egy pontokból álló tömböt, amely meghatározza az elem útvonalának geometriáját. |
-| [PathTypes](../../aspose.slides/shapeelement/pathtypes) { get; } | Visszaad egy bájtértékekből álló tömböt, amely megadja az egyes pontok típusát az elem útvonalában. |
-| [StrokeSource](../../aspose.slides/shapeelement/strokesource) { get; } | Információkat ad vissza arról, hogyan kell körvonalazni egy elemet. Csak olvasható [`ShapeElementStrokeSource`](../shapeelementstrokesource). |
+| [FillSource](../../aspose.slides/shapeelement/fillsource) { get; } | Visszaad információt arról, hogyan kell kitölteni egy elemet. Csak olvasható [`ShapeElementFillSource`](../shapeelementfillsource). |
+| [ParentShape](../../aspose.slides/shapeelement/parentshape) { get; } | Visszaad egy Shape_PPT objektumot, amelyhez az elem létre lett hozva. Csak olvasható [`Shape`](../shape). |
+| [PathPoints](../../aspose.slides/shapeelement/pathpoints) { get; } | Lekéri a pontok tömbjét, amely meghatározza az elem útvonalának geometriáját. |
+| [PathTypes](../../aspose.slides/shapeelement/pathtypes) { get; } | Lekéri a bájtértékek tömbjét, amely meghatározza az elem útvonalának minden pontjának típusát. |
+| [StrokeSource](../../aspose.slides/shapeelement/strokesource) { get; } | Visszaad információt arról, hogyan kell vonalzani egy elemet. Csak olvasható [`ShapeElementStrokeSource`](../shapeelementstrokesource). |
 
 ### Lásd még
 

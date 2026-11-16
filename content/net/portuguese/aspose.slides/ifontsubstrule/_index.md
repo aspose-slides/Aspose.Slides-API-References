@@ -3,7 +3,7 @@ title: IFontSubstRule
 second_title: Referência da API Aspose.Sildes para .NET
 description: Representa informações de substituição de fonte
 type: docs
-weight: 5880
+weight: 5900
 url: /pt/aspose.slides/ifontsubstrule/
 ---
 ## IFontSubstRule interface
@@ -18,11 +18,11 @@ public interface IFontSubstRule
 
 | Nome | Descrição |
 | --- | --- |
-| [DestFont](../../aspose.slides/ifontsubstrule/destfont) { get; } | Fonte a ser usada para substituição Somente leitura [`IFontData`](../ifontdata). |
+| [DestFont](../../aspose.slides/ifontsubstrule/destfont) { get; } | Fonte a usar para substituição Somente leitura [`IFontData`](../ifontdata). |
 | [ReplaceFontCondition](../../aspose.slides/ifontsubstrule/replacefontcondition) { get; } | Regra a aplicar para substituição Somente leitura [`FontSubstCondition`](../fontsubstcondition). |
 | [SourceFont](../../aspose.slides/ifontsubstrule/sourcefont) { get; } | Fonte a substituir Somente leitura [`IFontData`](../ifontdata). |
 
-### Veja Também
+### Ver também
 
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

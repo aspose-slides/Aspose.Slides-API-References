@@ -3,7 +3,7 @@ title: Save
 second_title: Aspose.Sildes för .NET API-referens
 description: Sparar alla bilder i en presentation till en fil med det angivna formatet.
 type: docs
-weight: 380
+weight: 390
 url: /sv/aspose.slides/ipresentation/save/
 ---
 ## Save(string, SaveFormat) {#save_5}
@@ -16,15 +16,15 @@ public void Save(string fname, SaveFormat format)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| fname | String | Path to the created file. |
-| format | SaveFormat | Format of the exported data. |
+| fname | String | Sökväg till den skapade filen. |
+| format | SaveFormat | Format för den exporterade datan. |
 
 ### Se även
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
-* gränssnitt [IPresentation](../../ipresentation)
-* namnrymd [Aspose.Slides](../../ipresentation)
-* samling [Aspose.Slides](../../../)
+* interface [IPresentation](../../ipresentation)
+* namespace [Aspose.Slides](../../ipresentation)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
@@ -38,15 +38,15 @@ public void Save(Stream stream, SaveFormat format)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| stream | Stream | Output stream. |
-| format | SaveFormat | Format of the exported data. |
+| stream | Stream | Utdatastream. |
+| format | SaveFormat | Format för den exporterade datan. |
 
 ### Se även
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
-* gränssnitt [IPresentation](../../ipresentation)
-* namnrymd [Aspose.Slides](../../ipresentation)
-* samling [Aspose.Slides](../../../)
+* interface [IPresentation](../../ipresentation)
+* namespace [Aspose.Slides](../../ipresentation)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
@@ -60,17 +60,17 @@ public void Save(string fname, SaveFormat format, ISaveOptions options)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| fname | String | Path to the created file. |
-| format | SaveFormat | Format of the exported data. |
-| options | ISaveOptions | Additional format options. |
+| fname | String | Sökväg till den skapade filen. |
+| format | SaveFormat | Format för den exporterade datan. |
+| options | ISaveOptions | Ytterligare formatalternativ. |
 
 ### Se även
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
-* gränssnitt [ISaveOptions](../../../aspose.slides.export/isaveoptions)
-* gränssnitt [IPresentation](../../ipresentation)
-* namnrymd [Aspose.Slides](../../ipresentation)
-* samling [Aspose.Slides](../../../)
+* interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
+* interface [IPresentation](../../ipresentation)
+* namespace [Aspose.Slides](../../ipresentation)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
@@ -84,29 +84,29 @@ public void Save(Stream stream, SaveFormat format, ISaveOptions options)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| stream | Stream | Output stream. |
-| format | SaveFormat | Format of the exported data. |
-| options | ISaveOptions | Additional format options. |
+| stream | Stream | Utdatastream. |
+| format | SaveFormat | Format för den exporterade datan. |
+| options | ISaveOptions | Ytterligare formatalternativ. |
 
 ### Undantag
 
-| Undantag | Villkor |
+| undantag | villkor |
 | --- | --- |
 | NotSupportedException | Om du försöker spara en krypterad fil i något format som inte är Office 2007-2010 |
 
 ### Se även
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
-* gränssnitt [ISaveOptions](../../../aspose.slides.export/isaveoptions)
-* gränssnitt [IPresentation](../../ipresentation)
-* namnrymd [Aspose.Slides](../../ipresentation)
-* samling [Aspose.Slides](../../../)
+* interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
+* interface [IPresentation](../../ipresentation)
+* namespace [Aspose.Slides](../../ipresentation)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
 ## Save(string, int[], SaveFormat) {#save_7}
 
-Sparar angivna bilder i en presentation till en fil med det angivna formatet.
+Sparar specificerade bilder i en presentation till en fil med det angivna formatet.
 
 ```csharp
 public void Save(string fname, int[] slides, SaveFormat format)
@@ -114,30 +114,30 @@ public void Save(string fname, int[] slides, SaveFormat format)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| fname | String | Path to the created file. |
-| slides | Int32[] | Array med bildpositioner, med början från 1. |
-| format | SaveFormat | Format of the exported data. |
+| fname | String | Sökväg till den skapade filen. |
+| slides | Int32[] | Array med bildpositioner, med början på 1. |
+| format | SaveFormat | Format för den exporterade datan. |
 
 ### Undantag
 
-| Undantag | Villkor |
+| undantag | villkor |
 | --- | --- |
-| ArgumentNullException | När stream- eller slides-parameter är null. |
-| ArgumentOutOfRangeException | När slides-parameter innehåller fel sidnummer. |
-| InvalidOperationException | När ett icke-stödd SaveFormat används, t.ex. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+| ArgumentNullException | När stream- eller slides-parametern är null. |
+| ArgumentOutOfRangeException | När slides-parametern innehåller fel sidnummer. |
+| InvalidOperationException | När ett ej stödd SaveFormat används, t.ex. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
 ### Se även
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
-* gränssnitt [IPresentation](../../ipresentation)
-* namnrymd [Aspose.Slides](../../ipresentation)
-* samling [Aspose.Slides](../../../)
+* interface [IPresentation](../../ipresentation)
+* namespace [Aspose.Slides](../../ipresentation)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
 ## Save(string, int[], SaveFormat, ISaveOptions) {#save_8}
 
-Sparar angivna bilder i en presentation till en fil med det angivna formatet.
+Sparar specificerade bilder i en presentation till en fil med det angivna formatet.
 
 ```csharp
 public void Save(string fname, int[] slides, SaveFormat format, ISaveOptions options)
@@ -145,32 +145,32 @@ public void Save(string fname, int[] slides, SaveFormat format, ISaveOptions opt
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| fname | String | Path to the created file. |
-| slides | Int32[] | Array med bildpositioner, med början från 1. |
-| format | SaveFormat | Format of the exported data. |
-| options | ISaveOptions | Additional format options. |
+| fname | String | Sökväg till den skapade filen. |
+| slides | Int32[] | Array med bildpositioner, med början på 1. |
+| format | SaveFormat | Format för den exporterade datan. |
+| options | ISaveOptions | Ytterligare formatalternativ. |
 
 ### Undantag
 
-| Undantag | Villkor |
+| undantag | villkor |
 | --- | --- |
-| ArgumentNullException | När stream- eller slides-parameter är null. |
-| ArgumentOutOfRangeException | När slides-parameter innehåller fel sidnummer. |
-| InvalidOperationException | När ett icke-stödd SaveFormat används, t.ex. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+| ArgumentNullException | När stream- eller slides-parametern är null. |
+| ArgumentOutOfRangeException | När slides-parametern innehåller fel sidnummer. |
+| InvalidOperationException | När ett ej stödd SaveFormat används, t.ex. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
 ### Se även
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
-* gränssnitt [ISaveOptions](../../../aspose.slides.export/isaveoptions)
-* gränssnitt [IPresentation](../../ipresentation)
-* namnrymd [Aspose.Slides](../../ipresentation)
-* samling [Aspose.Slides](../../../)
+* interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
+* interface [IPresentation](../../ipresentation)
+* namespace [Aspose.Slides](../../ipresentation)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
 ## Save(Stream, int[], SaveFormat) {#save_3}
 
-Sparar angivna bilder i en presentation till en ström i det angivna formatet.
+Sparar specificerade bilder i en presentation till en ström i det angivna formatet.
 
 ```csharp
 public void Save(Stream stream, int[] slides, SaveFormat format)
@@ -178,30 +178,30 @@ public void Save(Stream stream, int[] slides, SaveFormat format)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| stream | Stream | Output stream. |
-| slides | Int32[] | Array med bildpositioner, med början från 1. |
-| format | SaveFormat | Format of the exported data. |
+| stream | Stream | Utdatastream. |
+| slides | Int32[] | Array med bildpositioner, med början på 1. |
+| format | SaveFormat | Format för den exporterade datan. |
 
 ### Undantag
 
-| Undantag | Villkor |
+| undantag | villkor |
 | --- | --- |
-| ArgumentNullException | När stream- eller slides-parameter är null. |
-| ArgumentOutOfRangeException | När slides-parameter innehåller fel sidnummer. |
-| InvalidOperationException | När ett icke-stödd SaveFormat används, t.ex. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+| ArgumentNullException | När stream- eller slides-parametern är null. |
+| ArgumentOutOfRangeException | När slides-parametern innehåller fel sidnummer. |
+| InvalidOperationException | När ett ej stödd SaveFormat används, t.ex. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
 ### Se även
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
-* gränssnitt [IPresentation](../../ipresentation)
-* namnrymd [Aspose.Slides](../../ipresentation)
-* samling [Aspose.Slides](../../../)
+* interface [IPresentation](../../ipresentation)
+* namespace [Aspose.Slides](../../ipresentation)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
 ## Save(Stream, int[], SaveFormat, ISaveOptions) {#save_4}
 
-Sparar angivna bilder i en presentation till en ström i det angivna formatet.
+Sparar specificerade bilder i en presentation till en ström i det angivna formatet och med ytterligare alternativ.
 
 ```csharp
 public void Save(Stream stream, int[] slides, SaveFormat format, ISaveOptions options)
@@ -209,32 +209,32 @@ public void Save(Stream stream, int[] slides, SaveFormat format, ISaveOptions op
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| stream | Stream | Output stream. |
-| slides | Int32[] | Array med bildpositioner, med början från 1. |
-| format | SaveFormat | Format of the exported data. |
-| options | ISaveOptions | Additional format options. |
+| stream | Stream | Utdatastream. |
+| slides | Int32[] | Array med bildpositioner, med början på 1. |
+| format | SaveFormat | Format för den exporterade datan. |
+| options | ISaveOptions | Ytterligare formatalternativ. |
 
 ### Undantag
 
-| Undantag | Villkor |
+| undantag | villkor |
 | --- | --- |
-| ArgumentNullException | När stream- eller slides-parameter är null. |
-| ArgumentOutOfRangeException | När slides-parameter innehåller fel sidnummer. |
-| InvalidOperationException | När ett icke-stödd SaveFormat används, t.ex. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+| ArgumentNullException | När stream- eller slides-parametern är null. |
+| ArgumentOutOfRangeException | När slides-parametern innehåller fel sidnummer. |
+| InvalidOperationException | När ett ej stödd SaveFormat används, t.ex. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
 ### Se även
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
-* gränssnitt [ISaveOptions](../../../aspose.slides.export/isaveoptions)
-* gränssnitt [IPresentation](../../ipresentation)
-* namnrymd [Aspose.Slides](../../ipresentation)
-* samling [Aspose.Slides](../../../)
+* interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
+* interface [IPresentation](../../ipresentation)
+* namespace [Aspose.Slides](../../ipresentation)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
 ## Save(IXamlOptions) {#save}
 
-Sparar alla bilder i en presentation till en uppsättning filer som representerar XAML-markup.
+Sparar alla bilder i en presentation till ett set med filer som representerar XAML-markup.
 
 ```csharp
 public void Save(IXamlOptions options)
@@ -256,9 +256,9 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 ### Se även
 
-* gränssnitt [IXamlOptions](../../../aspose.slides.export.xaml/ixamloptions)
-* gränssnitt [IPresentation](../../ipresentation)
-* namnrymd [Aspose.Slides](../../ipresentation)
-* samling [Aspose.Slides](../../../)
+* interface [IXamlOptions](../../../aspose.slides.export.xaml/ixamloptions)
+* interface [IPresentation](../../ipresentation)
+* namespace [Aspose.Slides](../../ipresentation)
+* assembly [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

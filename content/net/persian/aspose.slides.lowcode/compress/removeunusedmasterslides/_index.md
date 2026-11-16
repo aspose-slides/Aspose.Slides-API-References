@@ -1,20 +1,20 @@
 ---
 title: RemoveUnusedMasterSlides
 second_title: Aspose.Sildes برای .NET مرجع API
-description: با حذف اسلایدهای اصلی استفاده نشده، فشرده‌سازی Presentationaspose.slides/presentation انجام می‌شود.
+description: با حذف اسلایدهای مستر استفاده نشده، فشرده‌سازی Presentationaspose.slides/presentation را انجام می‌دهد.
 type: docs
-weight: 30
+weight: 50
 url: /fa/aspose.slides.lowcode/compress/removeunusedmasterslides/
 ---
 ## Compress.RemoveUnusedMasterSlides متد
 
-فشرده‌سازی [`Presentation`](../../../aspose.slides/presentation) را با حذف اسلایدهای اصلی استفاده نشده انجام می‌دهد.
+با حذف اسلایدهای مستر استفاده نشده، فشرده‌سازی [`Presentation`](../../../aspose.slides/presentation) را انجام می‌دهد.
 
 ```csharp
 public static void RemoveUnusedMasterSlides(Presentation pres)
 ```
 
-| پارامتر | نوع | توضیحات |
+| پارامتر | نوع | توضیح |
 | --- | --- | --- |
 | pres | Presentation | نمونه ارائه |
 

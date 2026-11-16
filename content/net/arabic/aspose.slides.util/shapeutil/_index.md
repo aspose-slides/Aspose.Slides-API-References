@@ -1,14 +1,14 @@
 ---
 title: ShapeUtil
-second_title: مرجع API Aspose.Sildes لـ .NET
-description: يقدم طرقًا تساعد في معالجة كائنات الأشكال.
+second_title: Aspose.Sildes لـ .NET مرجع API
+description: توفر طرقًا تساعد على معالجة كائنات الأشكال.
 type: docs
-weight: 11510
+weight: 11530
 url: /ar/aspose.slides.util/shapeutil/
 ---
 ## ShapeUtil فئة
 
-يقدم طرقًا تساعد في معالجة كائنات الأشكال.
+توفر طرقًا تساعد على معالجة كائنات الأشكال.
 
 ```csharp
 public static class ShapeUtil

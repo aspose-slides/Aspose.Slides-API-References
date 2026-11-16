@@ -1,14 +1,14 @@
 ---
 title: BiLevel
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Representa um efeito Bi-Level preto/branco. Cores de entrada cuja luminância é menor que o valor de limiar especificado são alteradas para preto. Cores de entrada cuja luminância é maior ou igual ao valor especificado são definidas como branco. Os valores de efeito alfa não são afetados por este efeito.
 type: docs
-weight: 2910
+weight: 2930
 url: /pt/aspose.slides.effects/bilevel/
 ---
 ## BiLevel classe
 
-Representa um efeito Bi-Level (preto/branco). Cores de entrada cuja luminância é menor que o valor de limiar especificado são alteradas para preto. Cores de entrada cuja luminância é maior ou igual ao valor especificado são definidas como branco. Os valores de efeito alfa não são alterados por este efeito.
+Representa um efeito Bi-Level (preto/branco). Cores de entrada cuja luminância é menor que o valor de limiar especificado são alteradas para preto. Cores de entrada cuja luminância é maior ou igual ao valor especificado são definidas como branco. Os valores de efeito alfa não são afetados por este efeito.
 
 ```csharp
 public sealed class BiLevel : ImageTransformOperation, IBiLevel
@@ -16,19 +16,19 @@ public sealed class BiLevel : ImageTransformOperation, IBiLevel
 
 ## Propriedades
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permite obter a interface base IPresentationComponent. Somente leitura [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Métodos
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/bilevel/equals)(object) | Determina se o [`BiLevel`](../bilevel) especificado é igual ao [`BiLevel`](../bilevel) atual. |
 | [GetEffective](../../aspose.slides.effects/bilevel/geteffective)() | Obtém os dados efetivos do efeito Bi-Level com a herança aplicada. |
-| override [GetHashCode](../../aspose.slides.effects/bilevel/gethashcode)() | Serve como função hash para um tipo específico. |
+| override [GetHashCode](../../aspose.slides.effects/bilevel/gethashcode)() | Atua como uma função hash para um tipo específico. |
 
-### Ver também
+### Veja Também
 
 * classe [ImageTransformOperation](../imagetransformoperation)
 * interface [IBiLevel](../ibilevel)

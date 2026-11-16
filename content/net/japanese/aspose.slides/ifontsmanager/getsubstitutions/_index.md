@@ -1,14 +1,14 @@
 ---
 title: GetSubstitutions
-second_title: Aspose.Sildes for .NET API リファレンス
-description: プレゼンテーションの描画時に置き換えられるフォントに関する情報を取得します。
+second_title: Aspose.Slides for .NET API リファレンス
+description: プレゼンテーションのレンダリング時に置き換えられるフォントに関する情報を取得します。
 type: docs
-weight: 80
+weight: 90
 url: /ja/aspose.slides/ifontsmanager/getsubstitutions/
 ---
 ## GetSubstitutions() {#getsubstitutions}
 
-プレゼンテーションの描画時に置き換えられるフォントに関する情報を取得します。
+Gets the information about fonts that will be replaced on the presentation's rendering.
 
 ```csharp
 public IEnumerable<FontSubstitutionInfo> GetSubstitutions()
@@ -18,7 +18,7 @@ public IEnumerable<FontSubstitutionInfo> GetSubstitutions()
 
 すべてのフォント置換のコレクション [`FontSubstitutionInfo`](../../fontsubstitutioninfo)。
 
-### 例
+### 使用例
 
 ```csharp
 using (Presentation pres = new Presentation("pres.pptx"))
@@ -30,7 +30,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }        
 ```
 
-### 関連項目
+### 参照
 
 * クラス [FontSubstitutionInfo](../../fontsubstitutioninfo)
 * インターフェイス [IFontsManager](../../ifontsmanager)
@@ -41,21 +41,21 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 ## GetSubstitutions(int[]) {#getsubstitutions_1}
 
-指定したスライドの描画時に置き換えられるフォントに関する情報を取得します。
+指定されたスライドのレンダリング中に置き換えられるフォントに関する情報を取得します。
 
 ```csharp
 public IEnumerable<FontSubstitutionInfo> GetSubstitutions(int[] slides)
 ```
 
-| パラメーター | 型 | 説明 |
+| パラメータ | 型 | 説明 |
 | --- | --- | --- |
-| slides | Int32[] | フォント置換情報を取得するスライドインデックスの配列（インデックスは 1 から始まります）。 |
+| slides | Int32[] | フォント置換情報を取得するスライドインデックスの配列（インデックスは 1 から開始）。 |
 
 ### 戻り値
 
-指定されたスライドのすべてのフォント置換のコレクション ([`FontSubstitutionInfo`](../../fontsubstitutioninfo))。
+指定されたスライド用のすべてのフォント置換のコレクション ([`FontSubstitutionInfo`](../../fontsubstitutioninfo))。
 
-### 例
+### 使用例
 
 ```csharp
 using (Presentation pres = new Presentation("pres.pptx"))
@@ -68,7 +68,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### 関連項目
+### 参照
 
 * クラス [FontSubstitutionInfo](../../fontsubstitutioninfo)
 * インターフェイス [IFontsManager](../../ifontsmanager)

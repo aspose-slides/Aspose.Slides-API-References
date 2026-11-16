@@ -1,14 +1,14 @@
 ---
 title: ColorValue
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Retourneert de kleurwaarde van het diagramdatapunt. Wordt gebruikt met kaartdiagrammen. Alleen-lezen IDoubleChartValueaspose.slides.charts/idoublechartvalue.
+description: Retourneert de kleurwaarde van een grafiekdatumpunt. Gebruikt met kaartgrafieken. Alleen-lezen IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
-weight: 60
+weight: 100
 url: /nl/aspose.slides.charts/chartdatapoint/colorvalue/
 ---
 ## ChartDataPoint.ColorValue eigenschap
 
-Retourneert de kleurwaarde van het diagramdatapunt. Wordt gebruikt met kaartdiagrammen. Alleen-lezen [`IDoubleChartValue`](../../idoublechartvalue).
+Retourneert de kleurwaarde van een grafiekdatumpunt. Gebruikt met kaartgrafieken. Alleen-lezen [`IDoubleChartValue`](../../idoublechartvalue).
 
 ```csharp
 public IDoubleChartValue ColorValue { get; }

@@ -1,14 +1,14 @@
 ---
 title: IChartDataWorkbook
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Beágyazott Excel munkafüzet elérését biztosítja
+second_title: Aspose.Sildes .NET API referencia
+description: Hozzáférést biztosít a beágyazott Excel munkafüzethez
 type: docs
-weight: 1860
+weight: 1880
 url: /hu/aspose.slides.charts/ichartdataworkbook/
 ---
 ## IChartDataWorkbook interfész
 
-Beágyazott Excel munkafüzet elérését biztosítja
+Hozzáférést biztosít a beágyazott Excel munkafüzethez
 
 ```csharp
 public interface IChartDataWorkbook
@@ -18,19 +18,19 @@ public interface IChartDataWorkbook
 
 | Név | Leírás |
 | --- | --- |
-| [Worksheets](../../aspose.slides.charts/ichartdataworkbook/worksheets) { get; } | Munkalapok gyűjteményét adja vissza. |
+| [Worksheets](../../aspose.slides.charts/ichartdataworkbook/worksheets) { get; } | A munkalapok gyűjteményét adja vissza. |
 
-## Metódusok
+## Módszerek
 
 | Név | Leírás |
 | --- | --- |
 | [CalculateFormulas](../../aspose.slides.charts/ichartdataworkbook/calculateformulas)() | Kiszámítja a munkafüzet összes képletét, és frissíti a megfelelő cellák értékeit. |
-| [Clear](../../aspose.slides.charts/ichartdataworkbook/clear)(int) | Az összes cella értékét törli az adott munkalapon |
-| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_2)(int, string) | A diagram sorozatokhoz vagy kategóriákhoz használható cellát adja vissza |
-| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell)(int, int, int) | A diagram sorozatokhoz vagy kategóriákhoz használható cellát adja vissza |
-| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_3)(int, string, object) | A diagram sorozatokhoz vagy kategóriákhoz használható cellát adja vissza |
-| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_4)(string, int, int) | A diagram sorozatokhoz vagy kategóriákhoz használható cellát adja vissza |
-| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_1)(int, int, int, object) | A diagram sorozatokhoz vagy kategóriákhoz használható cellát adja vissza |
+| [Clear](../../aspose.slides.charts/ichartdataworkbook/clear)(int) | Törli a munkalap összes cellaértékét. |
+| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_2)(int, string) | A diagram sorozatokhoz vagy kategóriákhoz használható cellát adja vissza. |
+| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell)(int, int, int) | A diagram sorozatokhoz vagy kategóriákhoz használható cellát adja vissza. |
+| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_3)(int, string, object) | A diagram sorozatokhoz vagy kategóriákhoz használható cellát adja vissza. |
+| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_4)(string, int, int) | A diagram sorozatokhoz vagy kategóriákhoz használható cellát adja vissza. |
+| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_1)(int, int, int, object) | A diagram sorozatokhoz vagy kategóriákhoz használható cellát adja vissza. |
 | [GetCellCollection](../../aspose.slides.charts/ichartdataworkbook/getcellcollection)(string, bool) | A cellák halmazát adja vissza. |
 
 ### Lásd még

@@ -3,7 +3,7 @@ title: ITableFormat
 second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 테이블의 형식을 나타냅니다.
 type: docs
-weight: 7240
+weight: 7260
 url: /ko/aspose.slides/itableformat/
 ---
 ## ITableFormat 인터페이스
@@ -16,14 +16,14 @@ public interface ITableFormat
 
 ## 속성
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
 | [FillFormat](../../aspose.slides/itableformat/fillformat) { get; } | 테이블 채우기 속성 개체를 반환합니다. 읽기 전용 [`IFillFormat`](../ifillformat). |
 | [Transparency](../../aspose.slides/itableformat/transparency) { get; set; } | 채우기 색상의 투명도를 가져오거나 설정합니다. 읽기/쓰기 Single. |
 
 ## 메서드
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
 | [GetEffective](../../aspose.slides/itableformat/geteffective)() | 상속 및 테이블 스타일이 적용된 효과적인 테이블 서식 속성을 가져옵니다. |
 

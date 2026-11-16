@@ -1,14 +1,14 @@
 ---
 title: CustomXmlPart
-second_title: Aspose.Sildes para .NET Referência da API
-description: Representa a parte XML personalizada.
+second_title: Referência da API Aspose.Sildes para .NET
+description: Representa uma parte XML personalizada.
 type: docs
-weight: 2740
+weight: 2760
 url: /pt/aspose.slides/customxmlpart/
 ---
 ## CustomXmlPart classe
 
-Representa a parte XML personalizada.
+Representa uma parte XML personalizada.
 
 ```csharp
 public class CustomXmlPart : ICustomXmlPart
@@ -16,20 +16,20 @@ public class CustomXmlPart : ICustomXmlPart
 
 ## Propriedades
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
-| [ItemId](../../aspose.slides/customxmlpart/itemid) { get; set; } | Especifica um identificador globalmente único (GUID) que identifica de forma exclusiva uma única parte XML personalizada dentro de um documento Office Open XML. Somente leitura Guid. |
+| [ItemId](../../aspose.slides/customxmlpart/itemid) { get; set; } | Especifica um identificador globalmente exclusivo (GUID) que identifica de forma única uma única parte XML personalizada dentro de um documento Office Open XML. Somente leitura Guid. |
 | [NamespaceSchemas](../../aspose.slides/customxmlpart/namespaceschemas) { get; } | Retorna a coleção de esquemas XML que estão associados à parte XML personalizada. Somente leitura String[]. |
-| [XmlAsString](../../aspose.slides/customxmlpart/xmlasstring) { get; set; } | Retorna ou define os dados XML como string UTF-8. Leitura/gravação String. o valor é `null`.o valor está vazio ou os dados XML são inválidos. |
-| [XmlData](../../aspose.slides/customxmlpart/xmldata) { get; set; } | Retorna ou define os dados XML. Leitura/gravação Byte[]. o valor é `null`.o valor está vazio ou os dados XML são inválidos. |
+| [XmlAsString](../../aspose.slides/customxmlpart/xmlasstring) { get; set; } | Retorna ou define os dados XML como string UTF-8. Leitura/gravação String. o valor é `null`. o valor está vazio ou os dados XML são inválidos. |
+| [XmlData](../../aspose.slides/customxmlpart/xmldata) { get; set; } | Retorna ou define os dados XML. Leitura/gravação Byte[]. o valor é `null`. o valor está vazio ou os dados XML são inválidos. |
 
 ## Métodos
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
 | [Remove](../../aspose.slides/customxmlpart/remove)() | Remove a parte XML personalizada da apresentação. |
 
-### Ver Também
+### Ver também
 
 * interface [ICustomXmlPart](../icustomxmlpart)
 * namespace [Aspose.Slides](../../aspose.slides)

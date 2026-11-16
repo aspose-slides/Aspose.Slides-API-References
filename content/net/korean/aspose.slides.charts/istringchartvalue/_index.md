@@ -1,14 +1,14 @@
 ---
 title: IStringChartValue
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: "pptx 프레젠테이션 문서에 문자열 값을 저장하는 두 가지 방법을 나타냅니다: 1) 차트와 관련된 워크북의 셀/셀에, 2) 리터럴 값으로."
+second_title: Aspose.Sildes for .NET API 참조
+description: pptx 프레젠테이션 문서에 저장될 수 있는 문자열 값을 두 가지 방법으로 나타냅니다: 1) 차트와 관련된 워크북의 셀/셀에, 2) 리터럴 값으로.
 type: docs
-weight: 2220
+weight: 2240
 url: /ko/aspose.slides.charts/istringchartvalue/
 ---
 ## IStringChartValue 인터페이스
 
-pptx 프레젠테이션 문서에 문자열 값을 저장하는 두 가지 방법을 나타냅니다: 1) 차트와 연결된 워크북의 셀/셀들에; 2) 리터럴 값으로.
+pptx 프레젠테이션 문서에 저장될 수 있는 문자열 값을 두 가지 방법으로 나타냅니다: 1) 차트와 관련된 워크북의 셀/셀에; 2) 리터럴 값으로.
 
 ```csharp
 public interface IStringChartValue : IMultipleCellChartValue
@@ -25,11 +25,11 @@ public interface IStringChartValue : IMultipleCellChartValue
 
 | 이름 | 설명 |
 | --- | --- |
-| [GetCellsAddressInWorkbook](../../aspose.slides.charts/istringchartvalue/getcellsaddressinworkbook)() | DataSourceType 속성이 DataSourceType.Worksheet인 경우 이 메서드는 문자열 데이터를 나타내는 워크북 셀의 주소를 반환합니다. 그렇지 않으면 빈 문자열을 반환합니다. |
+| [GetCellsAddressInWorkbook](../../aspose.slides.charts/istringchartvalue/getcellsaddressinworkbook)() | DataSourceType 속성이 DataSourceType.Worksheet인 경우 이 메서드는 문자열 데이터를 나타내는 워크북의 셀 주소를 반환합니다. 그렇지 않으면 빈 문자열을 반환합니다. |
 | [SetFromOneCell](../../aspose.slides.charts/istringchartvalue/setfromonecell)(IChartDataCell) | 지정된 셀에서 값을 설정합니다. |
 | [ToString](../../aspose.slides.charts/istringchartvalue/tostring)() | 문자열 표현을 반환합니다. |
 
-### 또한 보기
+### 관련 항목
 
 * 인터페이스 [IMultipleCellChartValue](../imultiplecellchartvalue)
 * 네임스페이스 [Aspose.Slides.Charts](../../aspose.slides.charts)

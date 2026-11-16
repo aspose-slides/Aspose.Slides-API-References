@@ -1,14 +1,14 @@
 ---
 title: SoftEdge
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Biểu diễn một hiệu ứng viền mềm. Các cạnh của hình được làm mờ trong khi phần nền không bị ảnh hưởng.
+second_title: Aspose.Sildes cho Tham chiếu API .NET
+description: Biểu diễn hiệu ứng cạnh mềm. Các cạnh của hình dạng bị làm mờ trong khi phần nền không bị ảnh hưởng.
 type: docs
-weight: 3650
+weight: 3670
 url: /vi/aspose.slides.effects/softedge/
 ---
 ## SoftEdge lớp
 
-Biểu diễn một hiệu ứng viền mềm. Các cạnh của hình được làm mờ, trong khi phần nền không bị ảnh hưởng.
+Represents a soft edge effect. The edges of the shape are blurred, while the fill is not affected.
 
 ```csharp
 public sealed class SoftEdge : ISoftEdge
@@ -24,9 +24,9 @@ public sealed class SoftEdge : ISoftEdge
 
 | Tên | Mô tả |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/softedge/equals)(object) | Xác định xem [`SoftEdge`](../softedge) có bằng với [`SoftEdge`](../softedge) hiện tại hay không. |
-| [GetEffective](../../aspose.slides.effects/softedge/geteffective)() | Lấy dữ liệu hiệu ứng Soft Edge hiệu lực với tính kế thừa được áp dụng. |
-| override [GetHashCode](../../aspose.slides.effects/softedge/gethashcode)() | Đóng vai trò là hàm băm cho một loại cụ thể. |
+| override [Equals](../../aspose.slides.effects/softedge/equals)(object) | Xác định xem [`SoftEdge`](../softedge) được chỉ định có bằng với [`SoftEdge`](../softedge) hiện tại hay không. |
+| [GetEffective](../../aspose.slides.effects/softedge/geteffective)() | Lấy dữ liệu hiệu ứng Soft Edge thực tế với việc kế thừa đã được áp dụng. |
+| override [GetHashCode](../../aspose.slides.effects/softedge/gethashcode)() | Hoạt động như một hàm băm cho một kiểu cụ thể. |
 
 ### Xem thêm
 

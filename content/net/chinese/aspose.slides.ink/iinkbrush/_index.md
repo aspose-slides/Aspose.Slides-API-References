@@ -1,14 +1,14 @@
 ---
 title: IInkBrush
 second_title: Aspose.Sildes for .NET API 参考
-description: 表示跟踪画笔。
+description: 表示痕迹画笔。
 type: docs
-weight: 7530
+weight: 7550
 url: /zh/aspose.slides.ink/iinkbrush/
 ---
 ## IInkBrush 接口
 
-表示跟踪画笔。
+表示痕迹画笔。
 
 ```csharp
 public interface IInkBrush
@@ -19,8 +19,8 @@ public interface IInkBrush
 | 名称 | 描述 |
 | --- | --- |
 | [Color](../../aspose.slides.ink/iinkbrush/color) { get; set; } | 获取或设置线条的画笔颜色。 |
-| [InkEffect](../../aspose.slides.ink/iinkbrush/inkeffect) { get; } | 获取墨水效果类型（例如 Galaxy、Gold、Silver），它定义了墨迹的视觉样式。该值从画笔属性“inkEffects”解析。如果未指定已识别的效果，则返回 NotDefined。 |
-| [Size](../../aspose.slides.ink/iinkbrush/size) { get; set; } | 获取或设置线条的画笔大小（单位为点）。 |
+| [InkEffect](../../aspose.slides.ink/iinkbrush/inkeffect) { get; } | 获取墨水效果类型（例如，Galaxy、Gold、Silver），该类型定义了墨迹笔画的视觉样式。该值从画笔属性 "inkEffects" 解析。如果未指定识别的效果，则返回 NotDefined。 |
+| [Size](../../aspose.slides.ink/iinkbrush/size) { get; set; } | 获取或设置线条的画笔大小（以点为单位）。 |
 
 ### 另请参见
 

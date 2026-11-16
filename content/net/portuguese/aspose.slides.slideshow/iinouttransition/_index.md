@@ -1,14 +1,14 @@
 ---
 title: IInOutTransition
-second_title: Referência da API Aspose.Sildes para .NET
-description: Efeito de transição de slide de entrada e saída.
+second_title: Aspose.Sildes para .NET Referência da API
+description: Efeito de transição In-Out de slide.
 type: docs
-weight: 10110
+weight: 10130
 url: /pt/aspose.slides.slideshow/iinouttransition/
 ---
-## IInOutTransition interface
+## interface IInOutTransition
 
-Efeito de transição de slide de entrada e saída.
+Efeito de transição In-Out de slide.
 
 ```csharp
 public interface IInOutTransition : ITransitionValueBase

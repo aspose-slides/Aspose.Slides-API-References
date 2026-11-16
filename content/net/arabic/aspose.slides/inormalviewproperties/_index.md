@@ -1,14 +1,14 @@
 ---
 title: INormalViewProperties
-second_title: مرجع API لـ Aspose.Sildes لـ .NET
-description: "يمثل خصائص العرض العادي. يتكون العرض العادي من ثلاث مناطق محتوى: الشريحة نفسها، ومنطقة محتوى جانبية، ومنطقة محتوى سفلية."
+second_title: مرجع واجهة برمجة تطبيقات Aspose.Sildes لـ .NET
+description: يمثل خصائص العرض العادي. يتكون العرض العادي من ثلاث مناطق محتوى: الشريحة نفسها، منطقة محتوى جانبية، ومنطقة محتوى سفلية.
 type: docs
-weight: 6470
+weight: 6490
 url: /ar/aspose.slides/inormalviewproperties/
 ---
 ## واجهة INormalViewProperties
 
-يمثل خصائص العرض العادي. يتكون العرض العادي من ثلاث مناطق محتوى: الشريحة نفسها، ومنطقة محتوى جانبية، ومنطقة محتوى سفلية.
+يمثل خصائص العرض العادي. يتكون العرض العادي من ثلاث مناطق محتوى: الشريحة نفسها، منطقة محتوى جانبية، ومنطقة محتوى سفلية.
 
 ```csharp
 public interface INormalViewProperties
@@ -18,15 +18,15 @@ public interface INormalViewProperties
 
 | الاسم | الوصف |
 | --- | --- |
-| [HorizontalBarState](../../aspose.slides/inormalviewproperties/horizontalbarstate) { get; set; } | يحدد الحالة التي يجب أن يظهر فيها شريط الفاصل الأفقي. يعمل شريط الفاصل الأفقي على فصل الشريحة عن منطقة المحتوى أسفل الشريحة. |
-| [PreferSingleView](../../aspose.slides/inormalviewproperties/prefersingleview) { get; set; } | يحدد ما إذا كان المستخدم يفضّل رؤية منطقة محتوى واحدة بطية كاملة بدلاً من العرض العادي القياسي الذي يحتوي على ثلاث مناطق محتوى. إذا تم تمكينه، قد تختار التطبيق عرض إحداها في كامل النافذة. قراءة/كتابة Boolean. |
-| [RestoredLeft](../../aspose.slides/inormalviewproperties/restoredleft) { get; } | يحدد حجم منطقة المحتوى الجانبية في العرض العادي عندما تكون المنطقة بحجم مستعاد متغيّر (ليس مصغرة ولا مكبرة). قراءة فقط [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
-| [RestoredTop](../../aspose.slides/inormalviewproperties/restoredtop) { get; } | يحدد حجم منطقة الشريحة العلوية في العرض العادي عندما تكون المنطقة بحجم مستعاد متغيّر (ليس مصغرة ولا مكبرة). قراءة فقط [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
-| [ShowOutlineIcons](../../aspose.slides/inormalviewproperties/showoutlineicons) { get; set; } | يحدد ما إذا كان يجب على التطبيق إظهار الأيقونات عند عرض محتوى المخطط التفصيلي في أي من مناطق المحتوى في وضع العرض العادي. قراءة/كتابة Boolean. |
-| [SnapVerticalSplitter](../../aspose.slides/inormalviewproperties/snapverticalsplitter) { get; set; } | يحدد ما إذا كان ينبغي أن ينتقل الفاصل العمودي إلى حالة مصغرة عندما تكون المنطقة الجانبية صغيرة بما يكفي. قراءة/كتابة Boolean. |
-| [VerticalBarState](../../aspose.slides/inormalviewproperties/verticalbarstate) { get; set; } | يحدد الحالة التي يجب أن يظهر فيها شريط الفاصل العمودي. يعمل شريط الفاصل العمودي على فصل الشريحة عن منطقة المحتوى الجانبية. |
+| [HorizontalBarState](../../aspose.slides/inormalviewproperties/horizontalbarstate) { get; set; } | يحدد الحالة التي يجب عرض شريط الفاصل الأفقي فيها. شريط الفاصل الأفقي يفصل الشريحة عن منطقة المحتوى أسفل الشريحة. |
+| [PreferSingleView](../../aspose.slides/inormalviewproperties/prefersingleview) { get; set; } | يحدد ما إذا كان المستخدم يفضل رؤية منطقة محتوى واحدة بملء النافذة بدلاً من العرض العادي القياسي الذي يحتوي على ثلاث مناطق محتوى. إذا تم التفعيل، قد يختار التطبيق عرض إحدى مناطق المحتوى في الناذة كاملة. قراءة/كتابة Boolean. |
+| [RestoredLeft](../../aspose.slides/inormalviewproperties/restoredleft) { get; } | هذا العنصر يحدد حجم منطقة المحتوى الجانبية في العرض العادي عندما تكون المنطقة بحجم مستعاد متغير (ليس مصغّرًا ولا مكبّرًا). قراءة فقط [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
+| [RestoredTop](../../aspose.slides/inormalviewproperties/restoredtop) { get; } | هذا العنصر يحدد حجم منطقة الشريحة العلوية في العرض العادي عندما تكون المنطقة بحجم مستعاد متغير (ليس مصغّرًا ولا مكبّرًا). قراءة فقط [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
+| [ShowOutlineIcons](../../aspose.slides/inormalviewproperties/showoutlineicons) { get; set; } | يحدد ما إذا كان التطبيق يجب أن يعرض أيقونات عند عرض محتوى المخطط في أي من مناطق المحتوى في وضع العرض العادي. قراءة/كتابة Boolean. |
+| [SnapVerticalSplitter](../../aspose.slides/inormalviewproperties/snapverticalsplitter) { get; set; } | يحدد ما إذا كان الفاصل العمودي يجب أن ينتقل إلى حالة مصغرة عندما تكون المنطقة الجانبية صغيرة بما فيه الكفاية. قراءة/كتابة Boolean. |
+| [VerticalBarState](../../aspose.slides/inormalviewproperties/verticalbarstate) { get; set; } | يحدد الحالة التي يجب عرض شريط الفاصل العمودي فيها. شريط الفاصل العمودي يفصل الشريحة عن منطقة المحتوى الجانبية. |
 
-### انظر أيضًا
+### انظر أيضا
 
 * النطاق [Aspose.Slides](../../aspose.slides)
 * التجميع [Aspose.Slides](../../)

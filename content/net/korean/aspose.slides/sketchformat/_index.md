@@ -1,14 +1,14 @@
 ---
 title: SketchFormat
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 라인 스케치 형식에 대한 속성을 나타냅니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: 선 스케치 형식에 대한 속성을 나타냅니다.
 type: docs
-weight: 9950
+weight: 9970
 url: /ko/aspose.slides/sketchformat/
 ---
 ## SketchFormat 클래스
 
-라인 스케치 형식에 대한 속성을 나타냅니다.
+선 스케치 형식에 대한 속성을 나타냅니다.
 
 ```csharp
 public sealed class SketchFormat : PVIObject, ISketchFormat

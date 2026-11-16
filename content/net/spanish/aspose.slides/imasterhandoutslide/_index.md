@@ -1,14 +1,14 @@
 ---
 title: IMasterHandoutSlide
-second_title: Aspose.Sildes para la referencia de API de .NET
-description: Representa la diapositiva maestra para los folletos.
+second_title: Referencia de API de Aspose.Sildes para .NET
+description: Representa la diapositiva maestra para folletos.
 type: docs
-weight: 6350
+weight: 6370
 url: /es/aspose.slides/imasterhandoutslide/
 ---
 ## IMasterHandoutSlide interfaz
 
-Representa la diapositiva maestra para los folletos.
+Representa la diapositiva maestra para folletos.
 
 ```csharp
 public interface IMasterHandoutSlide : IBaseSlide, IMasterThemeable

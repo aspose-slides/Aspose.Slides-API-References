@@ -1,28 +1,28 @@
 ---
 title: MathLimitLocations
-second_title: Aspose.Sildes for .NET API リファレンス
-description: n元演算子におけるリミット（下付/上付）の位置。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: n項演算子における下付文字/上付文字としての制限の位置。
 type: docs
-weight: 8840
+weight: 8860
 url: /ja/aspose.slides.mathtext/mathlimitlocations/
 ---
-## MathLimitLocations 列挙体
+## MathLimitLocations 列挙型
 
-n元演算子におけるリミット（下付/上付）の位置です。
+n項演算子における制限（下付文字/上付文字）の位置。
 
 ```csharp
 public enum MathLimitLocations
 ```
 
-### Values
+### 値
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
 | NotDefined | `0` | 未定義 |
-| UnderOver | `1` | リミットが演算子記号の上部と下部に描画されます |
-| SubscriptSuperscript | `2` | リミットが下付と上付として描画されます |
+| UnderOver | `1` | 制限は演算子記号の上部と下部に描画されます |
+| SubscriptSuperscript | `2` | 制限は下付文字と上付文字として描画されます |
 
-### 参照
+### 関連項目
 
 * 名前空間 [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * アセンブリ [Aspose.Slides](../../)

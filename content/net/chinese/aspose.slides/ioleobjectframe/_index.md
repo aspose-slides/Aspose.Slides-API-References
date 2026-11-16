@@ -1,9 +1,9 @@
 ---
 title: IOleObjectFrame
-second_title: Aspose.Sildes .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 表示幻灯片上的 OLE 对象。
 type: docs
-weight: 6540
+weight: 6560
 url: /zh/aspose.slides/ioleobjectframe/
 ---
 ## IOleObjectFrame 接口
@@ -18,20 +18,20 @@ public interface IOleObjectFrame : IGraphicalObject
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIGraphicalObject](../../aspose.slides/ioleobjectframe/asigraphicalobject) { get; } | 允许获取基础 IGraphicalObject 接口。只读 [`IGraphicalObject`](../igraphicalobject)。 |
+| [AsIGraphicalObject](../../aspose.slides/ioleobjectframe/asigraphicalobject) { get; } | 允许获取基 IGraphicalObject 接口。只读 [`IGraphicalObject`](../igraphicalobject)。 |
 | [EmbeddedData](../../aspose.slides/ioleobjectframe/embeddeddata) { get; } | 获取有关 OLE 嵌入数据的信息。只读 [`IOleEmbeddedDataInfo`](../ioleembeddeddatainfo)。 |
 | [EmbeddedFileLabel](../../aspose.slides/ioleobjectframe/embeddedfilelabel) { get; } | 返回嵌入 OLE 对象的文件名 |
 | [EmbeddedFileName](../../aspose.slides/ioleobjectframe/embeddedfilename) { get; } | 返回嵌入 OLE 对象的路径 |
-| [IsObjectIcon](../../aspose.slides/ioleobjectframe/isobjecticon) { get; set; } | 确定对象是否以图标形式可见。读写 Boolean。 |
+| [IsObjectIcon](../../aspose.slides/ioleobjectframe/isobjecticon) { get; set; } | 确定对象是否以图标形式可见。可读写 Boolean。 |
 | [IsObjectLink](../../aspose.slides/ioleobjectframe/isobjectlink) { get; } | 确定对象是否链接到外部文件。只读 Boolean。 |
 | [LinkFileName](../../aspose.slides/ioleobjectframe/linkfilename) { get; } | 返回链接文件的完整路径。将使用短文件名。只读 String。 |
-| [LinkPathLong](../../aspose.slides/ioleobjectframe/linkpathlong) { get; set; } | 返回链接文件的完整路径。将使用长文件名。读写 String。 |
-| [LinkPathRelative](../../aspose.slides/ioleobjectframe/linkpathrelative) { get; } | 如果存在，返回链接文件的相对路径；否则返回空字符串。只读 String。 |
-| [ObjectName](../../aspose.slides/ioleobjectframe/objectname) { get; set; } | 返回或设置对象的名称。读写 String。 |
+| [LinkPathLong](../../aspose.slides/ioleobjectframe/linkpathlong) { get; set; } | 返回链接文件的完整路径。将使用长文件名。可读写 String。 |
+| [LinkPathRelative](../../aspose.slides/ioleobjectframe/linkpathrelative) { get; } | 如果存在，则返回链接文件的相对路径，否则返回空字符串。只读 String。 |
+| [ObjectName](../../aspose.slides/ioleobjectframe/objectname) { get; set; } | 返回或设置对象的名称。可读写 String。 |
 | [ObjectProgId](../../aspose.slides/ioleobjectframe/objectprogid) { get; set; } | 返回对象的 ProgID。只读 String。 |
 | [SubstitutePictureFormat](../../aspose.slides/ioleobjectframe/substitutepictureformat) { get; } | 返回 OleObject 图像填充属性对象。只读 [`IPictureFillFormat`](../ipicturefillformat)。 |
-| [SubstitutePictureTitle](../../aspose.slides/ioleobjectframe/substitutepicturetitle) { get; set; } | 返回或设置 OleObject 图标的标题。读写 String。 |
-| [UpdateAutomatic](../../aspose.slides/ioleobjectframe/updateautomatic) { get; set; } | 确定在打开或打印演示文稿时是否自动更新链接的嵌入对象。读写 Boolean。 |
+| [SubstitutePictureTitle](../../aspose.slides/ioleobjectframe/substitutepicturetitle) { get; set; } | 返回或设置 OleObject 图标的标题。可读写 String。 |
+| [UpdateAutomatic](../../aspose.slides/ioleobjectframe/updateautomatic) { get; set; } | 确定在打开或打印演示文稿时是否自动更新链接的嵌入对象。可读写 Boolean。 |
 
 ## 方法
 
@@ -39,7 +39,7 @@ public interface IOleObjectFrame : IGraphicalObject
 | --- | --- |
 | [SetEmbeddedData](../../aspose.slides/ioleobjectframe/setembeddeddata)(IOleEmbeddedDataInfo) | 设置 OLE 嵌入数据的信息。 |
 
-### 另见
+### 参见
 
 * 接口 [IGraphicalObject](../igraphicalobject)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

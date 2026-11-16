@@ -3,7 +3,7 @@ title: ReplaceFont
 second_title: Aspose.Sildes for .NET API संदर्भ
 description: प्रस्तुति में फ़ॉन्ट बदलें
 type: docs
-weight: 100
+weight: 110
 url: /hi/aspose.slides/ifontsmanager/replacefont/
 ---
 ## ReplaceFont(IFontData, IFontData) {#replacefont}
@@ -14,12 +14,12 @@ url: /hi/aspose.slides/ifontsmanager/replacefont/
 public void ReplaceFont(IFontData sourceFont, IFontData destFont)
 ```
 
-| Parameter | Type | Description |
+| पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | sourceFont | IFontData | स्रोत फ़ॉन्ट |
 | destFont | IFontData | गंतव्य फ़ॉन्ट |
 
-### See Also
+### संबंधित देखें
 
 * इंटरफ़ेस [IFontData](../../ifontdata)
 * इंटरफ़ेस [IFontsManager](../../ifontsmanager)
@@ -30,17 +30,17 @@ public void ReplaceFont(IFontData sourceFont, IFontData destFont)
 
 ## ReplaceFont(IFontSubstRule) {#replacefont_1}
 
-प्रस्तुति में फ़ॉन्ट बदलें, [`IFontSubstRule`](../../ifontsubstrule) द्वारा प्रदान की गई जानकारी का उपयोग करके
+[`IFontSubstRule`](../../ifontsubstrule) द्वारा प्रदान की गई जानकारी का उपयोग करके प्रस्तुति में फ़ॉन्ट बदलें
 
 ```csharp
 public void ReplaceFont(IFontSubstRule substRule)
 ```
 
-| Parameter | Type | Description |
+| पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | substRule | IFontSubstRule | फ़ॉन्ट प्रतिस्थापन जानकारी |
 
-### See Also
+### संबंधित देखें
 
 * इंटरफ़ेस [IFontSubstRule](../../ifontsubstrule)
 * इंटरफ़ेस [IFontsManager](../../ifontsmanager)
@@ -51,17 +51,17 @@ public void ReplaceFont(IFontSubstRule substRule)
 
 ## ReplaceFont(IFontSubstRuleCollection) {#replacefont_2}
 
-प्रस्तुति में फ़ॉन्ट बदलें, [`IFontSubstRule`](../../ifontsubstrule) संग्रह में प्रदान की गई जानकारी का उपयोग करके
+[`IFontSubstRule`](../../ifontsubstrule) के संग्रह में प्रदान की गई जानकारी का उपयोग करके प्रस्तुति में फ़ॉन्ट बदलें
 
 ```csharp
 public void ReplaceFont(IFontSubstRuleCollection substRules)
 ```
 
-| Parameter | Type | Description |
+| पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | substRules | IFontSubstRuleCollection | फ़ॉन्ट प्रतिस्थापन जानकारी संग्रह |
 
-### See Also
+### संबंधित देखें
 
 * इंटरफ़ेस [IFontSubstRuleCollection](../../ifontsubstrulecollection)
 * इंटरफ़ेस [IFontsManager](../../ifontsmanager)

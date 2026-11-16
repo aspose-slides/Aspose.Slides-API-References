@@ -1,14 +1,14 @@
 ---
 title: NormalViewRestoredProperties
-second_title: Aspose.Sildes voor .NET API Referentie
-description: "Specificeert de grootte van het dia-gebied: breedte wanneer een kind van restoredTop, hoogte wanneer een kind van restoredLeft, van de normale weergave, wanneer het gebied een variabele herstelde grootte heeft, noch geminimaliseerd noch gemaximaliseerd."
+second_title: Aspose.Sildes voor .NET API-referentie
+description: Specificeert de afmetingen van het diagebied: breedte wanneer een kind van restoredTop, hoogte wanneer een kind van restoredLeft, van de normale weergave, wanneer het gebied een variabele herstelde grootte heeft, noch geminimaliseerd noch gemaximaliseerd.
 type: docs
-weight: 9120
+weight: 9140
 url: /nl/aspose.slides/normalviewrestoredproperties/
 ---
 ## NormalViewRestoredProperties klasse
 
-Specificeert de grootte van het dia-gebied ((breedte wanneer een kind van restoredTop, hoogte wanneer een kind van restoredLeft) van de normale weergave, wanneer het gebied een variabele herstelde grootte heeft (niet geminimaliseerd of gemaximaliseerd).
+Specificeert de afmetingen van het dia gebied ((breedte wanneer een kind van restoredTop, hoogte wanneer een kind van restoredLeft) van de normale weergave, wanneer het gebied een variabele herstelde grootte heeft (niet geminimaliseerd of gemaximaliseerd)).
 
 ```csharp
 public class NormalViewRestoredProperties : INormalViewRestoredProperties
@@ -16,10 +16,10 @@ public class NormalViewRestoredProperties : INormalViewRestoredProperties
 
 ## Eigenschappen
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
-| [AutoAdjust](../../aspose.slides/normalviewrestoredproperties/autoadjust) { get; set; } | Specificeert of de grootte van het zij-inhoudsgebied moet compenseren voor de nieuwe grootte bij het wijzigen van de grootte van het venster dat de weergave binnen de applicatie bevat. Lezen/schrijven Boolean. |
-| [DimensionSize](../../aspose.slides/normalviewrestoredproperties/dimensionsize) { get; set; } | Specificeert de grootte van het dia-gebied (breedte wanneer een kind van RestoredTop, hoogte wanneer een kind van RestoredLeft). Lezen/schrijven Single. |
+| [AutoAdjust](../../aspose.slides/normalviewrestoredproperties/autoadjust) { get; set; } | Specificeert of de grootte van het zijcontentgebied moet compenseren voor de nieuwe grootte bij het aanpassen van het venster dat de weergave bevat binnen de applicatie Lezen/Schrijven Boolean. |
+| [DimensionSize](../../aspose.slides/normalviewrestoredproperties/dimensionsize) { get; set; } | Specificeert de grootte van het diagebied (breedte wanneer een kind van RestoredTop, hoogte wanneer een kind van RestoredLeft). Lezen/Schrijven Single. |
 
 ### Zie ook
 

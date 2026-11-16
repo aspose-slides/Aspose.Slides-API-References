@@ -1,14 +1,14 @@
 ---
 title: DrawingGuidesCollection
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงคอลเลกชันของไกด์การวาดที่ปรับได้.
+second_title: Aspose.Sildes สำหรับ .NET API อ้างอิง
+description: แสดงคอลเลกชันของ drawing guide ที่ปรับได้.
 type: docs
-weight: 2820
+weight: 2840
 url: /th/aspose.slides/drawingguidescollection/
 ---
 ## DrawingGuidesCollection คลาส
 
-แสดงคอลเลกชันของไกด์การวาดที่ปรับได้.
+แสดงคอลเลกชันของ drawing guide ที่ปรับได้
 
 ```csharp
 public sealed class DrawingGuidesCollection : IDrawingGuidesCollection
@@ -18,18 +18,18 @@ public sealed class DrawingGuidesCollection : IDrawingGuidesCollection
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Count](../../aspose.slides/drawingguidescollection/count) { get; } | ส่งกลับจำนวนขององค์ประกอบในคอลเลกชัน อ่านอย่างเดียว Int32. |
-| [Item](../../aspose.slides/drawingguidescollection/item) { get; } | ส่งกลับไกด์การวาดตามดัชนี อ่านอย่างเดียว [`IDrawingGuide`](../idrawingguide). |
+| [Count](../../aspose.slides/drawingguidescollection/count) { get; } | ส่งคืนจำนวนขององค์ประกอบในคอลเลกชัน. อ่านอย่างเดียว Int32. |
+| [Item](../../aspose.slides/drawingguidescollection/item) { get; } | ส่งคืน drawing guide ตามตำแหน่ง. อ่านอย่างเดียว [`IDrawingGuide`](../idrawingguide). |
 
-## วิธีการ
+## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Add](../../aspose.slides/drawingguidescollection/add)(Orientation,float) | เพิ่มไกด์การวาดที่ตำแหน่งสุดท้ายของคอลเลกชัน. |
-| [Clear](../../aspose.slides/drawingguidescollection/clear)() | ลบทุกองค์ประกอบออกจากคอลเลกชัน. |
-| [CopyTo](../../aspose.slides/drawingguidescollection/copyto)(IDrawingGuide[],int) | คัดลอกทุกองค์ประกอบจากคอลเลกชันไปยังอาร์เรย์ที่ระบุ. |
-| [GetEnumerator](../../aspose.slides/drawingguidescollection/getenumerator)() | ส่งกลับ enumerator ที่วนซ้ำผ่านคอลเลกชัน. |
-| [RemoveAt](../../aspose.slides/drawingguidescollection/removeat)(int) | ลบไกด์การวาดที่ดัชนีที่ระบุ. |
+| [Add](../../aspose.slides/drawingguidescollection/add)(Orientation, float) | เพิ่ม drawing guide ที่ส่วนท้ายของคอลเลกชัน. |
+| [Clear](../../aspose.slides/drawingguidescollection/clear)() | ลบทุกองค์ประกอบจากคอลเลกชัน. |
+| [CopyTo](../../aspose.slides/drawingguidescollection/copyto)(IDrawingGuide[], int) | คัดลอกทุกองค์ประกอบจากคอลเลกชันไปยังอาร์เรย์ที่ระบุ. |
+| [GetEnumerator](../../aspose.slides/drawingguidescollection/getenumerator)() | ส่งคืน enumerator ที่วนซ้ำผ่านคอลเลกชัน. |
+| [RemoveAt](../../aspose.slides/drawingguidescollection/removeat)(int) | ลบ drawing guide ที่ตำแหน่งที่ระบุ. |
 
 ### ดูเพิ่มเติม
 

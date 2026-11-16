@@ -1,14 +1,14 @@
 ---
 title: IMathRadical
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Especifica a função radical composta por uma base e um grau opcional. Exemplo de objeto radical é .
 type: docs
-weight: 8430
+weight: 8450
 url: /pt/aspose.slides.mathtext/imathradical/
 ---
 ## IMathRadical interface
 
-Especifica a função radical, composta por uma base e um grau opcional. Exemplo de objeto radical é √𝑥.
+Especifica a função radical, consistindo de uma base e um grau opcional. Exemplo de objeto radical é √𝑥.
 
 ```csharp
 public interface IMathRadical : IMathElement
@@ -18,7 +18,7 @@ public interface IMathRadical : IMathElement
 
 | Nome | Descrição |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathradical/asimathelement) { get; } | Permite obter a base IMathElement interface [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathradical/asimathelement) { get; } | Permite obter a interface base IMathElement [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathradical/base) { get; } | Argumento base |
 | [Degree](../../aspose.slides.mathtext/imathradical/degree) { get; } | Argumento grau |
 | [HideDegree](../../aspose.slides.mathtext/imathradical/hidedegree) { get; set; } | Ocultar grau Quando for verdadeiro, o grau não é exibido, como em √𝑥 |
@@ -29,10 +29,10 @@ Exemplo:
 
 ```csharp
 [C#]
-IMathRadical radical = new MathematicalText("x").Radical("3"); // raiz cúbica
+IMathRadical radical = new MathematicalText("x").Radial("3"); // raiz cúbica
 ```
 
-### Ver também
+### Veja Também
 
 * interface [IMathElement](../imathelement)
 * namespace [Aspose.Slides.MathText](../../aspose.slides.mathtext)

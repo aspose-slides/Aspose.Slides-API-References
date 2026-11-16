@@ -1,14 +1,14 @@
 ---
 title: ChartDataPointLevel
-second_title: Aspose.Sildes для .NET справочник API
-description: Представляет уровень точки данных. Применяется к диаграммам Treemap и Sunburst.
+second_title: Справочник API Aspose.Sildes для .NET
+description: Представляет уровень точки данных. Применяется для диаграмм Treemap и Sunburst.
 type: docs
-weight: 1350
+weight: 1360
 url: /ru/aspose.slides.charts/chartdatapointlevel/
 ---
 ## ChartDataPointLevel класс
 
-Представляет уровень точки данных. Применяется к диаграммам Treemap и Sunburst.
+Представляет уровень точки данных. Применяется для диаграмм Treemap и Sunburst.
 
 ```csharp
 public class ChartDataPointLevel : DomObject<ChartDataPointLevelsManager>, IChartDataPointLevel

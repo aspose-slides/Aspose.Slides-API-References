@@ -1,14 +1,14 @@
 ---
 title: TabAlignment
-second_title: Aspose.Sildes สำหรับอ้างอิง API .NET
-description: แสดงการจัดแนวแท็บ
+second_title: Aspose.Sildes สำหรับ .NET API
+description: แสดงการจัดแนวแท็บ.
 type: docs
-weight: 10830
+weight: 10850
 url: /th/aspose.slides/tabalignment/
 ---
-## การนับจำนวน TabAlignment
+## การนับ TabAlignment
 
-แสดงการจัดแนวแท็บ
+อธิบายการจัดตำแหน่งแท็บ
 
 ```csharp
 public enum TabAlignment
@@ -18,10 +18,10 @@ public enum TabAlignment
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
-| Left | `0` | การจัดแนว Left |
-| Center | `1` | การจัดแนว Center |
-| Right | `2` | การจัดแนว Right |
-| Decimal | `3` | การจัดแนว Decimal |
+| Left | `0` | การจัดแนวซ้าย |
+| Center | `1` | การจัดแนวกึ่งกลาง |
+| Right | `2` | การจัดแนวขวา |
+| Decimal | `3` | การจัดแนวเลขทศนิยม |
 
 ### ดูเพิ่มเติม
 

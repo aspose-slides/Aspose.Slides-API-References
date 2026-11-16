@@ -1,9 +1,9 @@
 ---
 title: ImageTransformOperationFactory
-second_title: Referencia de API Aspose.Sildes para .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Permite crear operaciones de transformación de imágenes
 type: docs
-weight: 3590
+weight: 3610
 url: /es/aspose.slides.effects/imagetransformoperationfactory/
 ---
 ## ImageTransformOperationFactory clase

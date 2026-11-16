@@ -1,9 +1,9 @@
 ---
 title: OOXMLCorruptFileException
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes .NET API Referansı
 description: Office Open XML dosya formatı bozulduğunda atılan istisna.
 type: docs
-weight: 9190
+weight: 9210
 url: /tr/aspose.slides/ooxmlcorruptfileexception/
 ---
 ## OOXMLCorruptFileException sınıf
@@ -19,8 +19,8 @@ public class OOXMLCorruptFileException : OOXMLException
 | Ad | Açıklama |
 | --- | --- |
 | [OOXMLCorruptFileException](ooxmlcorruptfileexception#constructor)() | Varsayılan yapıcı. |
-| [OOXMLCorruptFileException](ooxmlcorruptfileexception#constructor_1)(string) | Bu istisnaya bir mesaj eklenmesine izin veren yapıcı. |
-| [OOXMLCorruptFileException](ooxmlcorruptfileexception#constructor_2)(string, Exception) | Mesaj ve gömülü bir istisna içeren bir istisna için yapıcı. |
+| [OOXMLCorruptFileException](ooxmlcorruptfileexception#constructor_1)(string) | Mesajın bu istisna'ye eklenmesine izin veren yapıcı. |
+| [OOXMLCorruptFileException](ooxmlcorruptfileexception#constructor_2)(string, Exception) | Bir mesaj ve gömülü bir istisna içeren istisna için yapıcı. |
 
 ### Ayrıca Bakınız
 

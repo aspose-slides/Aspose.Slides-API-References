@@ -3,12 +3,12 @@ title: TabCollection
 second_title: Aspose.Sildes для .NET справочник API
 description: Представляет коллекцию табов.
 type: docs
-weight: 10840
+weight: 10860
 url: /ru/aspose.slides/tabcollection/
 ---
 ## TabCollection класс
 
-Представляет коллекцию табов.
+Представляет собой коллекцию табов.
 
 ```csharp
 public sealed class TabCollection : ITabCollection
@@ -18,8 +18,8 @@ public sealed class TabCollection : ITabCollection
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides/tabcollection/count) { get; } | Получает фактическое количество элементов, содержащихся в коллекции. Только для чтения Int32. |
-| [IsSynchronized](../../aspose.slides/tabcollection/issynchronized) { get; } | Возвращает значение, указывающее, синхронизирован ли доступ к коллекции (потокобезопасный). Только для чтения Boolean. |
+| [Count](../../aspose.slides/tabcollection/count) { get; } | Получает количество элементов, реально содержащихся в коллекции. Только для чтения Int32. |
+| [IsSynchronized](../../aspose.slides/tabcollection/issynchronized) { get; } | Возвращает значение, указывающее, синхронизирован ли доступ к коллекции (потокобезопасен). Только для чтения Boolean. |
 | [Item](../../aspose.slides/tabcollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения [`Tab`](../tab). |
 | [SyncRoot](../../aspose.slides/tabcollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтения Object. |
 
@@ -32,7 +32,7 @@ public sealed class TabCollection : ITabCollection
 | [Clear](../../aspose.slides/tabcollection/clear)() | Удаляет все элементы из коллекции. |
 | [CopyTo](../../aspose.slides/tabcollection/copyto)(Array, int) | Копирует все элементы из коллекции в указанный массив. |
 | override [Equals](../../aspose.slides/tabcollection/equals)(object) | Определяет, равны ли два экземпляра TabsEx. |
-| [GetEnumerator](../../aspose.slides/tabcollection/getenumerator)() | Возвращает перечислитель, который перебирает элементы коллекции. |
+| [GetEnumerator](../../aspose.slides/tabcollection/getenumerator)() | Возвращает перечислитель, который проходит по коллекции. |
 | override [GetHashCode](../../aspose.slides/tabcollection/gethashcode)() | Возвращает хеш-код для этого объекта. |
 | [RemoveAt](../../aspose.slides/tabcollection/removeat)(int) | Удаляет элемент по указанному индексу в коллекции. |
 

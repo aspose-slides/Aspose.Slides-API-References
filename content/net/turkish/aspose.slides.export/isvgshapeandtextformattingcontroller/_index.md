@@ -1,14 +1,14 @@
 ---
 title: ISvgShapeAndTextFormattingController
 second_title: Aspose.Sildes for .NET API Referansı
-description: SVG şekil ve metin oluşturmayı denetler.
+description: SVG şekil ve metin üretimini kontrol eder.
 type: docs
-weight: 4120
+weight: 4140
 url: /tr/aspose.slides.export/isvgshapeandtextformattingcontroller/
 ---
-## ISvgShapeAndTextFormattingController arayüzü
+## ISvgShapeAndTextFormattingController arayüz
 
-SVG şekil ve metin oluşturmayı denetler.
+Controls SVG shape and text generation.
 
 ```csharp
 public interface ISvgShapeAndTextFormattingController : ISvgShapeFormattingController
@@ -18,13 +18,13 @@ public interface ISvgShapeAndTextFormattingController : ISvgShapeFormattingContr
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsISvgShapeFormattingController](../../aspose.slides.export/isvgshapeandtextformattingcontroller/asisvgshapeformattingcontroller) { get; } | ISvgShapeFormattingController arayüzünü döndürür. |
+| [AsISvgShapeFormattingController](../../aspose.slides.export/isvgshapeandtextformattingcontroller/asisvgshapeformattingcontroller) { get; } | Döndürür ISvgShapeFormattingController arayüz. |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [FormatText](../../aspose.slides.export/isvgshapeandtextformattingcontroller/formattext)(ISvgTSpan, IPortion, ITextFrame) | Bu işlev, metin bölümünün SVG'ye çizilmesinden önce çağrılır ve kullanıcının oluşan SVG'yi kontrol etmesine izin verir. |
+| [FormatText](../../aspose.slides.export/isvgshapeandtextformattingcontroller/formattext)(ISvgTSpan, IPortion, ITextFrame) | Bu işlev, metin bölümünün SVG'ye render edilmesinden önce çağrılır ve kullanıcıya ortaya çıkan SVG'yi kontrol etme imkanı tanır. |
 
 ### Örnekler
 
@@ -63,7 +63,7 @@ class CustomSvgShapeFormattingController : ISvgShapeAndTextFormattingController
 }
 ```
 
-### İlgili
+### Ayrıca Bakınız
 
 * arayüz [ISvgShapeFormattingController](../isvgshapeformattingcontroller)
 * ad alanı [Aspose.Slides.Export](../../aspose.slides.export)

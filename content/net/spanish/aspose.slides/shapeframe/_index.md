@@ -1,12 +1,12 @@
 ---
 title: ShapeFrame
-second_title: Referencia de la API de Aspose.Sildes para .NET
+second_title: Referencia de API Aspose.Sildes para .NET
 description: Representa las propiedades de los marcos de forma.
 type: docs
-weight: 9900
+weight: 9920
 url: /es/aspose.slides/shapeframe/
 ---
-## ShapeFrame clase
+## Clase ShapeFrame
 
 Representa las propiedades del marco de forma.
 
@@ -30,7 +30,7 @@ public class ShapeFrame : IShapeFrame
 | [FlipV](../../aspose.slides/shapeframe/flipv) { get; } | Determina si un marco está volteado verticalmente. Solo lectura [`NullableBool`](../nullablebool). |
 | [Height](../../aspose.slides/shapeframe/height) { get; } | Devuelve la altura de un marco. Solo lectura Single. |
 | [Rectangle](../../aspose.slides/shapeframe/rectangle) { get; } | Devuelve las coordenadas de un marco. Solo lectura RectangleF. |
-| [Rotation](../../aspose.slides/shapeframe/rotation) { get; } | Devuelve el número de grados que se ha girado un marco alrededor del eje z. Un valor positivo indica rotación en sentido horario; un valor negativo indica rotación en sentido antihorario. Solo lectura Single. |
+| [Rotation](../../aspose.slides/shapeframe/rotation) { get; } | Devuelve el número de grados que un marco está rotado alrededor del eje z. Un valor positivo indica rotación en sentido horario; un valor negativo indica rotación en sentido antihorario. Solo lectura Single. |
 | [Width](../../aspose.slides/shapeframe/width) { get; } | Devuelve el ancho de un marco. Solo lectura Single. |
 | [X](../../aspose.slides/shapeframe/x) { get; } | Devuelve la coordenada X de la esquina superior izquierda de un marco. Solo lectura Single. |
 | [Y](../../aspose.slides/shapeframe/y) { get; } | Devuelve la coordenada Y de la esquina superior izquierda de un marco. Solo lectura Single. |

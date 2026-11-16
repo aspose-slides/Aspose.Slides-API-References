@@ -3,7 +3,7 @@ title: FontStyleType
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Definiert Formatierungsstile, die auf Text angewendet werden können.
 type: docs
-weight: 4870
+weight: 4890
 url: /de/aspose.slides/fontstyletype/
 ---
 ## FontStyleType Aufzählung
@@ -23,7 +23,7 @@ public enum FontStyleType
 | Bold | `1` | Fetter Text. |
 | Italic | `2` | Kursiver Text. |
 | Underline | `4` | Unterstrichener Text. |
-| Strikeout | `8` | Durchgestrichener Text. |
+| Strikeout | `8` | Text, der mit einer horizontalen Linie durchgestrichen ist. |
 
 ### Siehe auch
 

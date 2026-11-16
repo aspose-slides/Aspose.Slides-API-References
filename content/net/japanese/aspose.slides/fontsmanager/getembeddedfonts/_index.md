@@ -1,9 +1,9 @@
 ---
 title: GetEmbeddedFonts
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: プレゼンテーションに埋め込まれたフォントを返します
 type: docs
-weight: 40
+weight: 50
 url: /ja/aspose.slides/fontsmanager/getembeddedfonts/
 ---
 ## FontsManager.GetEmbeddedFonts メソッド
@@ -14,7 +14,7 @@ url: /ja/aspose.slides/fontsmanager/getembeddedfonts/
 public IFontData[] GetEmbeddedFonts()
 ```
 
-### 関連項目
+### 参照
 
 * インターフェイス [IFontData](../../ifontdata)
 * クラス [FontsManager](../../fontsmanager)

@@ -1,9 +1,9 @@
 ---
 title: SetExternalWorkbook
 second_title: Aspose.Sildes for .NET API 參考
-description: 將外部活頁簿設為圖表的資料來源。圖表資料將從目標活頁簿更新。
+description: 將外部活頁簿設定為圖表的資料來源。圖表資料將從目標活頁簿更新。
 type: docs
-weight: 120
+weight: 130
 url: /zh-hant/aspose.slides.charts/chartdata/setexternalworkbook/
 ---
 ## SetExternalWorkbook(string) {#setexternalworkbook}
@@ -18,11 +18,11 @@ public void SetExternalWorkbook(string workbookPath)
 | --- | --- | --- |
 | workbookPath | String | 目標活頁簿的路徑 |
 
-### 例外
+### 例外情況
 
 | 例外 | 條件 |
 | --- | --- |
-| InvalidOperationException | External workbook is not available or can't be loaded. |
+| InvalidOperationException | 外部活頁簿不可用或無法載入。 |
 
 ### 範例
 
@@ -55,13 +55,13 @@ public void SetExternalWorkbook(string workbookPath, bool updateChartData)
 | 參數 | 類型 | 說明 |
 | --- | --- | --- |
 | workbookPath | String | 目標活頁簿的路徑 |
-| updateChartData | Boolean | 如果值為 false，僅會更新活頁簿路徑。圖表資料不會從目標活頁簿載入或更新。當目標活頁簿不存在或不可用時可使用此設定。若值為 true，圖表資料將從目標活頁簿更新。 |
+| updateChartData | Boolean | 如果值為 false，僅會更新活頁簿路徑。圖表資料不會從目標活頁簿載入或更新。當目標活頁簿不存在或無法使用時，可使用此方式。如果值為 true，則會從目標活頁簿更新圖表資料。 |
 
-### 例外
+### 例外情況
 
 | 例外 | 條件 |
 | --- | --- |
-| InvalidOperationException | External workbook is not available or can't be loaded. |
+| InvalidOperationException | 外部活頁簿不可用或無法載入。 |
 
 ### 範例
 

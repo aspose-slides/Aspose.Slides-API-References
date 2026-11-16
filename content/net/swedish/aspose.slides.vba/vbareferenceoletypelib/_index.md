@@ -1,33 +1,33 @@
 ---
 title: VbaReferenceOleTypeLib
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar en OLE Automation-typbiblioteksreferens.
+description: Representerar OLE Automation-typbiblioteksreferens.
 type: docs
-weight: 11690
+weight: 11710
 url: /sv/aspose.slides.vba/vbareferenceoletypelib/
 ---
 ## VbaReferenceOleTypeLib klass
 
-Representerar en OLE Automation-typbiblioteksreferens.
+Representerar OLE Automation-typbiblioteksreferens.
 
 ```csharp
 public class VbaReferenceOleTypeLib : IVbaReferenceOleTypeLib
 ```
 
-## Konstruktorer
+## Constructors
 
 | Namn | Beskrivning |
 | --- | --- |
 | [VbaReferenceOleTypeLib](vbareferenceoletypelib)(string, string) | Den här konstruktorn skapar en ny OLE Automation-typbiblioteksreferens. |
 
-## Egenskaper
+## Properties
 
 | Namn | Beskrivning |
 | --- | --- |
 | [Libid](../../aspose.slides.vba/vbareferenceoletypelib/libid) { get; set; } | Representerar identifieraren för ett Automation-typbibliotek. Läs/skriv String. |
 | [Name](../../aspose.slides.vba/vbareferenceoletypelib/name) { get; set; } | Representerar namnet på VBA-projektreferensen. Läs/skriv String. |
 
-### Se också
+### Se även
 
 * gränssnitt [IVbaReferenceOleTypeLib](../ivbareferenceoletypelib)
 * namnrymd [Aspose.Slides.Vba](../../aspose.slides.vba)

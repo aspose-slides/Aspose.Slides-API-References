@@ -1,14 +1,14 @@
 ---
 title: VideoPlayModePreset
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Konstanta yang menentukan cara video diputar.
+description: Konstanta yang menentukan bagaimana video diputar.
 type: docs
-weight: 11730
+weight: 11750
 url: /id/aspose.slides/videoplaymodepreset/
 ---
-## Enumerasi VideoPlayModePreset
+## VideoPlayModePreset enumerasi
 
-Konstanta yang menentukan cara video diputar.
+Konstanta yang menentukan bagaimana video diputar.
 
 ```csharp
 public enum VideoPlayModePreset
@@ -19,10 +19,10 @@ public enum VideoPlayModePreset
 | Nama | Nilai | Deskripsi |
 | --- | --- | --- |
 | Mixed | `-1` |  |
-| Auto | `0` | Memutar secara otomatis. |
-| OnClick | `1` | Memutar hanya ketika bingkai video diklik. |
-| AllSlides | `2` | Memutar di semua slide. |
-| InClickSequence | `3` | Memutar secara otomatis dengan klik. |
+| Auto | `0` | Putar secara otomatis. |
+| OnClick | `1` | Putar hanya ketika bingkai video diklik. |
+| AllSlides | `2` | Putar pada semua slide. |
+| InClickSequence | `3` | Putar secara otomatis dengan satu klik. |
 
 ### Lihat Juga
 

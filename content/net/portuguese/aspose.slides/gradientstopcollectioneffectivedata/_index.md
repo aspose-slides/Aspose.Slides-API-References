@@ -1,9 +1,9 @@
 ---
 title: GradientStopCollectionEffectiveData
-second_title: Aspose.Sildes para a referência da API .NET
+second_title: Referência da API Aspose.Sildes para .NET
 description: Representa uma coleção de objetos GradientStopData.
 type: docs
-weight: 5040
+weight: 5060
 url: /pt/aspose.slides/gradientstopcollectioneffectivedata/
 ---
 ## GradientStopCollectionEffectiveData classe
@@ -28,9 +28,9 @@ public class GradientStopCollectionEffectiveData : IGradientStopCollectionEffect
 | Name | Description |
 | --- | --- |
 | [CopyTo](../../aspose.slides/gradientstopcollectioneffectivedata/copyto)(Array, int) | Copia todos os elementos da coleção para o array especificado. |
-| [GetEnumerator](../../aspose.slides/gradientstopcollectioneffectivedata/getenumerator)() | Retorna um enumerador que itera pela coleção. |
+| [GetEnumerator](../../aspose.slides/gradientstopcollectioneffectivedata/getenumerator)() | Retorna um enumerador que itera através da coleção. |
 
-### Veja Também
+### Ver Também
 
 * interface [IGradientStopCollectionEffectiveData](../igradientstopcollectioneffectivedata)
 * namespace [Aspose.Slides](../../aspose.slides)

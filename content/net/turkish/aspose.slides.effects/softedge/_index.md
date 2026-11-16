@@ -1,14 +1,14 @@
 ---
 title: SoftEdge
 second_title: Aspose.Sildes için .NET API Referansı
-description: Yumuşak kenar etkisini temsil eder. Şeklin kenarları bulanıktır, ancak dolgu etkilenmez.
+description: Yumuşak kenar etkisini temsil eder. Şeklin kenarları bulanıklaştırılır, doldurma ise etkilenmez.
 type: docs
-weight: 3650
+weight: 3670
 url: /tr/aspose.slides.effects/softedge/
 ---
 ## SoftEdge sınıfı
 
-Yumuşak kenar etkisini temsil eder. Şeklin kenarları bulanıklaştırılır, ancak dolgu etkilenmez.
+Yumuşak kenar etkisini temsil eder. Şeklin kenarları bulanıklaştırılır, doldurma ise etkilenmez.
 
 ```csharp
 public sealed class SoftEdge : ISoftEdge
@@ -18,15 +18,15 @@ public sealed class SoftEdge : ISoftEdge
 
 | Ad | Açıklama |
 | --- | --- |
-| [Radius](../../aspose.slides.effects/softedge/radius) { get; set; } | Kenarlara uygulanacak bulanıklık yarıçapını belirtir. Okunur/Yazılır Double. |
+| [Radius](../../aspose.slides.effects/softedge/radius) { get; set; } | Kenarlara uygulanacak bulanıklaştırma yarıçapını belirtir. Okunur/yazılır Double. |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/softedge/equals)(object) | Belirtilen [`SoftEdge`](../softedge)'nin geçerli [`SoftEdge`](../softedge) ile eşit olup olmadığını belirler. |
-| [GetEffective](../../aspose.slides.effects/softedge/geteffective)() | Kalıtım uygulanmış etkili Soft Edge efekti verilerini alır. |
-| override [GetHashCode](../../aspose.slides.effects/softedge/gethashcode)() | Belirli bir tip için hash işlevi olarak hizmet eder. |
+| override [Equals](../../aspose.slides.effects/softedge/equals)(object) | Belirtilen [`SoftEdge`](../softedge) öğesinin mevcut [`SoftEdge`](../softedge) ile eşit olup olmadığını belirler. |
+| [GetEffective](../../aspose.slides.effects/softedge/geteffective)() | Kalıtım uygulanmış etkili Soft Edge efekt verisini alır. |
+| override [GetHashCode](../../aspose.slides.effects/softedge/gethashcode)() | Belirli bir tür için bir hash işlevi olarak hizmet eder. |
 
 ### Ayrıca Bakınız
 

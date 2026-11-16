@@ -1,14 +1,14 @@
 ---
 title: Explosion
 second_title: Aspose.Sildes per .NET Riferimento API
-description: Specifica la quantità con cui il punto dati deve essere spostato dal centro della torta. Lettura/Scrittura Int32.
+description: Specifica la quantità con cui il punto dati deve essere spostato dal centro della torta. Lettura/scrittura Int32.
 type: docs
-weight: 60
+weight: 100
 url: /it/aspose.slides.charts/ichartdatapoint/explosion/
 ---
 ## IChartDataPoint.Explosion proprietà
 
-Specifica la quantità con cui il punto dati deve essere spostato dal centro della torta. Lettura/Scrittura Int32.
+Specifica la quantità con cui il punto dati deve essere spostato dal centro della torta. Lettura/scrittura Int32.
 
 ```csharp
 public int Explosion { get; set; }

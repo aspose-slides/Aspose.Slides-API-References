@@ -1,33 +1,33 @@
 ---
 title: ShapesAlignmentType
-second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
-description: กำหนดวิธีการเปลี่ยนตำแหน่งของรูปร่างที่เลือกบนสไลด์
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: กำหนดวิธีการเปลี่ยนตำแหน่งของรูปทรงที่เลือกบนสไลด์.
 type: docs
-weight: 9940
+weight: 9960
 url: /th/aspose.slides/shapesalignmenttype/
 ---
-## ShapesAlignmentType enumeration
+## ShapesAlignmentType การระบุค่า
 
-กำหนดวิธีการเปลี่ยนตำแหน่งของรูปร่างที่เลือกบนสไลด์
+กำหนดวิธีการเปลี่ยนตำแหน่งของรูปทรงที่เลือกบนสไลด์.
 
 ```csharp
 public enum ShapesAlignmentType
 ```
 
-### Values
+### ค่า
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
-| AlignLeft | `0` | จัดตำแหน่งซ้าย |
-| AlignRight | `1` | จัดตำแหน่งขวา |
-| AlignCenter | `2` | จัดตำแหน่งกลาง |
-| AlignTop | `3` | จัดตำแหน่งบน |
-| AlignMiddle | `4` | จัดตำแหน่งกลาง |
-| AlignBottom | `5` | จัดตำแหน่งล่าง |
-| DistributeHorizontally | `6` | จัดสรรตามแนวนอน |
-| DistributeVertically | `7` | จัดสรรตามแนวตั้ง |
+| AlignLeft | `0` | จัดชิดซ้าย |
+| AlignRight | `1` | จัดชิดขวา |
+| AlignCenter | `2` | จัดกึ่งกลาง |
+| AlignTop | `3` | จัดชิดบน |
+| AlignMiddle | `4` | จัดกึ่งกลางแนวตั้ง |
+| AlignBottom | `5` | จัดชิดล่าง |
+| DistributeHorizontally | `6` | จัดกระจายแนวนอน |
+| DistributeVertically | `7` | จัดกระจายแนวตั้ง |
 
-### See Also
+### ดูเพิ่มเติม
 
 * เนมสเปซ [Aspose.Slides](../../aspose.slides)
 * แอสเซมบลี [Aspose.Slides](../../)

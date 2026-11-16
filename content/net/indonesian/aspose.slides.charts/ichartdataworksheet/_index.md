@@ -1,9 +1,9 @@
 ---
 title: IChartDataWorksheet
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili lembar kerja yang terkait dengan IChartDataCell./ichartdatacell
 type: docs
-weight: 1870
+weight: 1890
 url: /id/aspose.slides.charts/ichartdataworksheet/
 ---
 ## IChartDataWorksheet antarmuka
@@ -18,8 +18,8 @@ public interface IChartDataWorksheet
 
 | Nama | Deskripsi |
 | --- | --- |
-| [Index](../../aspose.slides.charts/ichartdataworksheet/index) { get; } | Mendapatkan indeks. Hanya-baca Int32. |
-| [Name](../../aspose.slides.charts/ichartdataworksheet/name) { get; } | Mendapatkan nama. Hanya-baca String. |
+| [Index](../../aspose.slides.charts/ichartdataworksheet/index) { get; } | Mendapatkan indeks. Baca-saja Int32. |
+| [Name](../../aspose.slides.charts/ichartdataworksheet/name) { get; } | Mendapatkan nama. Baca-saja String. |
 
 ### Lihat Juga
 

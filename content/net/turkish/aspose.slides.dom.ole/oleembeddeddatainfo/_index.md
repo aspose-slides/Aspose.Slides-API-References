@@ -1,14 +1,14 @@
 ---
 title: OleEmbeddedDataInfo
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Slides for .NET API Referansı
 description: OLE nesnesi için gömülü veri bilgisini temsil eder.
 type: docs
-weight: 2760
+weight: 2780
 url: /tr/aspose.slides.dom.ole/oleembeddeddatainfo/
 ---
 ## OleEmbeddedDataInfo sınıfı
 
-OLE nesnesi için gömülü veri bilgisini temsil eder.
+OLE nesnesi için gömülü veri bilgisi temsil eder.
 
 ```csharp
 public class OleEmbeddedDataInfo : IOleEmbeddedDataInfo
@@ -16,21 +16,21 @@ public class OleEmbeddedDataInfo : IOleEmbeddedDataInfo
 
 ## Yapıcılar
 
-| Ad | Açıklama |
+| İsim | Açıklama |
 | --- | --- |
-| [OleEmbeddedDataInfo](oleembeddeddatainfo#constructor)() | OLE nesnesi için yeni bir gömülü veri bilgisi oluşturur. |
+| [OleEmbeddedDataInfo](oleembeddeddatainfo#constructor)() | OLE nesnesi için yeni gömülü veri bilgisi oluşturur. |
 | [OleEmbeddedDataInfo](oleembeddeddatainfo#constructor_1)(byte[], string) | OLE nesnesi için yeni bir gömülü veri bilgisi örneği oluşturur. Gömülü OLE nesnesinin dosya verisi Byte[]. Geçerli gömülü OLE nesnesinin dosya uzantısı String. |
 
 ## Özellikler
 
-| Ad | Açıklama |
+| İsim | Açıklama |
 | --- | --- |
-| [EmbeddedFileData](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfiledata) { get; } | Gömülü OLE nesnesinin dosya verisini döndürür. Salt okunur Byte[]. |
-| [EmbeddedFileExtension](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfileextension) { get; } | Geçerli gömülü OLE nesnesinin dosya uzantısını döndürür. Salt okunur String. |
+| [EmbeddedFileData](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfiledata) { get; } | Gömülü OLE nesnesinin dosya verisini döndürür. Yalnızca okunur Byte[]. |
+| [EmbeddedFileExtension](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfileextension) { get; } | Geçerli gömülü OLE nesnesinin dosya uzantısını döndürür. Yalnızca okunur String. |
 
-### Ayrıca Bakınız
+### Ayrıca bakınız
 
-* arabirim [IOleEmbeddedDataInfo](../../aspose.slides/ioleembeddeddatainfo)
+* arayüz [IOleEmbeddedDataInfo](../../aspose.slides/ioleembeddeddatainfo)
 * ad alanı [Aspose.Slides.DOM.Ole](../../aspose.slides.dom.ole)
 * derleme [Aspose.Slides](../../)
 

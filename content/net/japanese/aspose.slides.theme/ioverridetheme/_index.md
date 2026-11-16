@@ -3,12 +3,12 @@ title: IOverrideTheme
 second_title: Aspose.Sildes for .NET API リファレンス
 description: オーバーライドテーマを表します。
 type: docs
-weight: 11340
+weight: 11360
 url: /ja/aspose.slides.theme/ioverridetheme/
 ---
 ## IOverrideTheme インターフェイス
 
-オーバーライドテーマを表します。
+ベース ITheme インターフェイスを表します。
 
 ```csharp
 public interface IOverrideTheme : ITheme
@@ -16,16 +16,16 @@ public interface IOverrideTheme : ITheme
 
 ## プロパティ
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
-| [AsITheme](../../aspose.slides.theme/ioverridetheme/asitheme) { get; } | 基本 ITheme インターフェイスを取得できます。読み取り専用 [`ITheme`](../itheme). |
-| [IsEmpty](../../aspose.slides.theme/ioverridetheme/isempty) { get; } | True 値は、ColorScheme、FontScheme、FormatScheme が null であり、このテーマ オブジェクトでのオーバーライドが無効であることを意味します。読み取り専用 Boolean. |
+| [AsITheme](../../aspose.slides.theme/ioverridetheme/asitheme) { get; } | ベース ITheme インターフェイスを取得できます。読み取り専用 [`ITheme`](../itheme)。 |
+| [IsEmpty](../../aspose.slides.theme/ioverridetheme/isempty) { get; } | True 値は、ColorScheme、FontScheme、FormatScheme が null であり、このテーマオブジェクトによるすべてのオーバーライドが無効であることを意味します。読み取り専用 Boolean。 |
 
 ## メソッド
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
-| [Clear](../../aspose.slides.theme/ioverridetheme/clear)() | ColorScheme、FontScheme、FormatScheme を null に設定し、このテーマ オブジェクトでのオーバーライドを無効にします。 |
+| [Clear](../../aspose.slides.theme/ioverridetheme/clear)() | ColorScheme、FontScheme、FormatScheme を null に設定し、このテーマオブジェクトによるすべてのオーバーライドを無効にします。 |
 | [InitColorScheme](../../aspose.slides.theme/ioverridetheme/initcolorscheme)() | InheritedTheme の ColorScheme をオーバーライドするために、新しいオブジェクトで ColorScheme を初期化します。 |
 | [InitColorSchemeFrom](../../aspose.slides.theme/ioverridetheme/initcolorschemefrom)(IColorScheme) | InheritedTheme の ColorScheme をオーバーライドするために、新しいオブジェクトで ColorScheme を初期化します。 |
 | [InitColorSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initcolorschemefrominherited)() | InheritedTheme の ColorScheme をオーバーライドするために、新しいオブジェクトで ColorScheme を初期化します。また、この新しいオブジェクトのデータを InheritedTheme の ColorScheme のデータで初期化します。 |

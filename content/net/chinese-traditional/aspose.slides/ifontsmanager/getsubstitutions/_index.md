@@ -1,20 +1,20 @@
 ---
 title: GetSubstitutions
-second_title: Aspose.Sildes .NET API 參考
-description: 取得在簡報渲染時將被取代的字型資訊。
+second_title: Aspose.Sildes for .NET API 參考
+description: 取得有關在簡報呈現時將被取代的字型資訊。
 type: docs
-weight: 80
+weight: 90
 url: /zh-hant/aspose.slides/ifontsmanager/getsubstitutions/
 ---
 ## GetSubstitutions() {#getsubstitutions}
 
-取得在簡報渲染時將被取代的字型資訊。
+取得有關在簡報呈現時將被取代的字型資訊。
 
 ```csharp
 public IEnumerable<FontSubstitutionInfo> GetSubstitutions()
 ```
 
-### 傳回值
+### 返回值
 
 所有字型取代的集合 [`FontSubstitutionInfo`](../../fontsubstitutioninfo)。
 
@@ -41,17 +41,17 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 ## GetSubstitutions(int[]) {#getsubstitutions_1}
 
-取得在指定投影片渲染期間將被取代的字型資訊。
+取得有關在指定投影片呈現期間將被取代的字型資訊。
 
 ```csharp
 public IEnumerable<FontSubstitutionInfo> GetSubstitutions(int[] slides)
 ```
 
-| Parameter | Type | Description |
+| 參數 | 類型 | 說明 |
 | --- | --- | --- |
-| slides | Int32[] | 用於取得字型取代資訊的投影片索引陣列，起始索引為 1。 |
+| slides | Int32[] | 要檢索字型取代資訊的投影片索引陣列，從 1 開始。 |
 
-### 傳回值
+### 返回值
 
 指定投影片的所有字型取代集合 ([`FontSubstitutionInfo`](../../fontsubstitutioninfo))。
 

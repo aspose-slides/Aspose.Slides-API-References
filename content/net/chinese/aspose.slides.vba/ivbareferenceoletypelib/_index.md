@@ -3,10 +3,10 @@ title: IVbaReferenceOleTypeLib
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示 OLE Automation 类型库引用。
 type: docs
-weight: 11610
+weight: 11630
 url: /zh/aspose.slides.vba/ivbareferenceoletypelib/
 ---
-## IVbaReferenceOleTypeLib 接口
+## IVbaReferenceOleTypeLib interface
 
 表示 OLE Automation 类型库引用。
 
@@ -18,10 +18,10 @@ public interface IVbaReferenceOleTypeLib : IVbaReference
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIVbaReference](../../aspose.slides.vba/ivbareferenceoletypelib/asivbareference) { get; } | 返回 IVbаReference 接口。只读 [`IVbaReference`](../ivbareference)。 |
-| [Libid](../../aspose.slides.vba/ivbareferenceoletypelib/libid) { get; set; } | 表示 Automation 类型库的标识符。读/写 String。 |
+| [AsIVbaReference](../../aspose.slides.vba/ivbareferenceoletypelib/asivbareference) { get; } | 返回 IVbaReference 接口。只读 [`IVbaReference`](../ivbareference). |
+| [Libid](../../aspose.slides.vba/ivbareferenceoletypelib/libid) { get; set; } | 表示 Automation 类型库的标识符。读/写 String. |
 
-### 参见
+### 另见
 
 * 接口 [IVbaReference](../ivbareference)
 * 命名空间 [Aspose.Slides.Vba](../../aspose.slides.vba)

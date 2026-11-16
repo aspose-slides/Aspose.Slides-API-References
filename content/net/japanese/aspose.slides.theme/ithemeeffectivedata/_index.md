@@ -1,14 +1,14 @@
 ---
 title: IThemeEffectiveData
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 効果的なテーマプロパティを含む不変オブジェクトです。
+description: 効果的なテーマ プロパティを含む不変オブジェクトです。
 type: docs
-weight: 11380
+weight: 11400
 url: /ja/aspose.slides.theme/ithemeeffectivedata/
 ---
-## IThemeEffectiveData interface
+## IThemeEffectiveData インターフェイス
 
-効果的なテーマプロパティを含む不変オブジェクトです。
+効果的なテーマ プロパティを含む不変オブジェクトです。
 
 ```csharp
 public interface IThemeEffectiveData
@@ -16,22 +16,22 @@ public interface IThemeEffectiveData
 
 ## プロパティ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
 | [FontScheme](../../aspose.slides.theme/ithemeeffectivedata/fontscheme) { get; } | フォント スキームを返します。読み取り専用 [`IFontSchemeEffectiveData`](../ifontschemeeffectivedata)。 |
 | [FormatScheme](../../aspose.slides.theme/ithemeeffectivedata/formatscheme) { get; } | シェイプ フォーマット スキームを返します。読み取り専用 [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata)。 |
 
 ## メソッド
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
 | [GetColorScheme](../../aspose.slides.theme/ithemeeffectivedata/getcolorscheme)(Color) | カラースキームを返します。 |
 
 ### 備考
 
-このインターフェイスは [`ITheme`](../itheme) インターフェイスと組み合わせて、継承が適用された効果的な書式設定値を返すために使用されます。
+このインターフェイスは [`ITheme`](../itheme) インターフェイスと共に使用され、継承が適用された有効な書式設定値を返します。
 
-### 関連項目
+### 参照
 
 * 名前空間 [Aspose.Slides.Theme](../../aspose.slides.theme)
 * アセンブリ [Aspose.Slides](../../)

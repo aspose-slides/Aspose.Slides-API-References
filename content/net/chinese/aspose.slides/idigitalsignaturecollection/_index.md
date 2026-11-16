@@ -1,9 +1,9 @@
 ---
 title: IDigitalSignatureCollection
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 表示附加到文档的数字签名集合。
 type: docs
-weight: 5700
+weight: 5720
 url: /zh/aspose.slides/idigitalsignaturecollection/
 ---
 ## IDigitalSignatureCollection 接口
@@ -18,7 +18,7 @@ public interface IDigitalSignatureCollection : IGenericCollection<IDigitalSignat
 
 | 名称 | 描述 |
 | --- | --- |
-| [Item](../../aspose.slides/idigitalsignaturecollection/item) { get; } | 返回指定索引的签名。 |
+| [Item](../../aspose.slides/idigitalsignaturecollection/item) { get; } | 按索引返回签名。 |
 
 ## 方法
 
@@ -28,7 +28,7 @@ public interface IDigitalSignatureCollection : IGenericCollection<IDigitalSignat
 | [Clear](../../aspose.slides/idigitalsignaturecollection/clear)() | 从集合中移除所有签名。 |
 | [RemoveAt](../../aspose.slides/idigitalsignaturecollection/removeat)(int) | 移除指定索引处的签名。 |
 
-### 另见
+### 另请参见
 
 * 接口 [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * 接口 [IDigitalSignature](../idigitalsignature)

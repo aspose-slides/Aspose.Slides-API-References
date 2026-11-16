@@ -3,7 +3,7 @@ title: ControlCollection
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Eine Sammlung von ActiveX-Steuerelementen.
 type: docs
-weight: 2700
+weight: 2720
 url: /de/aspose.slides/controlcollection/
 ---
 ## ControlCollection Klasse
@@ -19,9 +19,9 @@ public class ControlCollection : IControlCollection
 | Name | Beschreibung |
 | --- | --- |
 | [Count](../../aspose.slides/controlcollection/count) { get; } | Gibt die Anzahl der Objekte in der Sammlung zurück. Nur lesbar Int32. |
-| [IsSynchronized](../../aspose.slides/controlcollection/issynchronized) { get; } | Gibt einen Wert zurück, der anzeigt, ob der Zugriff auf die Sammlung synchronisiert (Thread-sicher) ist. Nur lesbar Boolean. |
+| [IsSynchronized](../../aspose.slides/controlcollection/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert (thread-sicher) ist. Nur lesbar Boolean. |
 | [Item](../../aspose.slides/controlcollection/item) { get; } | Gibt ein Steuerelement an der angegebenen Position zurück. |
-| [SyncRoot](../../aspose.slides/controlcollection/syncroot) { get; } | Gibt ein Synchronisations-Root zurück. Nur lesbar Object. |
+| [SyncRoot](../../aspose.slides/controlcollection/syncroot) { get; } | Gibt die Synchronisationswurzel zurück. Nur lesbar Object. |
 
 ## Methoden
 

@@ -1,9 +1,9 @@
 ---
 title: IMetered
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 提供设置计量密钥的方法。
 type: docs
-weight: 6450
+weight: 6470
 url: /zh/aspose.slides/imetered/
 ---
 ## IMetered 接口
@@ -18,9 +18,9 @@ public interface IMetered
 
 | 名称 | 描述 |
 | --- | --- |
-| [SetMeteredKey](../../aspose.slides/imetered/setmeteredkey)(string, string) | 设置计量的公共和私有密钥。 |
+| [SetMeteredKey](../../aspose.slides/imetered/setmeteredkey)(string, string) | 设置计量公钥和私钥。 |
 
-### 另请参见
+### 另请参阅
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

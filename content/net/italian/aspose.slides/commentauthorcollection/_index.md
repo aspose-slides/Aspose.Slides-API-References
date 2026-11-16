@@ -1,9 +1,9 @@
 ---
 title: CommentAuthorCollection
-second_title: Aspose.Sildes per .NET Riferimento API
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta una raccolta di autori di commenti.
 type: docs
-weight: 2640
+weight: 2660
 url: /it/aspose.slides/commentauthorcollection/
 ---
 ## CommentAuthorCollection classe
@@ -16,7 +16,7 @@ public sealed class CommentAuthorCollection : DomObject<Presentation>, ICommentA
 
 ## Proprietà
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
 | [Count](../../aspose.slides/commentauthorcollection/count) { get; } | Ottiene il numero di elementi effettivamente contenuti nella raccolta. Sola lettura Int32. |
 | [IsSynchronized](../../aspose.slides/commentauthorcollection/issynchronized) { get; } | Restituisce un valore che indica se l'accesso alla raccolta è sincronizzato (thread-safe). Sola lettura Boolean. |
@@ -25,7 +25,7 @@ public sealed class CommentAuthorCollection : DomObject<Presentation>, ICommentA
 
 ## Metodi
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
 | [AddAuthor](../../aspose.slides/commentauthorcollection/addauthor)(string, string) | Aggiunge un nuovo autore alla fine di una raccolta. |
 | [Clear](../../aspose.slides/commentauthorcollection/clear)() | Rimuove tutti gli autori da una raccolta. |

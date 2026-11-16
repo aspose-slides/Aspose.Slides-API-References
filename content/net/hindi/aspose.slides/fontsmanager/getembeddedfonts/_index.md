@@ -1,14 +1,14 @@
 ---
 title: GetEmbeddedFonts
-second_title: Aspose.Sildes .NET के लिए API संदर्भ
-description: प्रस्तुति में एम्बेड किए गए फ़ॉन्ट्स को लौटाता है
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: प्रेज़ेंटेशन में एम्बेडेड फ़ॉन्ट्स को लौटाता है
 type: docs
-weight: 40
+weight: 50
 url: /hi/aspose.slides/fontsmanager/getembeddedfonts/
 ---
-## FontsManager.GetEmbeddedFonts विधि
+## FontsManager.GetEmbeddedFonts मेथड
 
-प्रस्तुति में एम्बेड किए गए फ़ॉन्ट्स को लौटाता है
+प्रेज़ेंटेशन में एम्बेडेड फ़ॉन्ट्स को लौटाता है
 
 ```csharp
 public IFontData[] GetEmbeddedFonts()

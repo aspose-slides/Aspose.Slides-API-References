@@ -1,14 +1,14 @@
 ---
 title: IFontSchemeEffectiveData
-second_title: Referencia de API de Aspose.Sildes para .NET
-description: Objeto inmutable que contiene las propiedades del esquema de fuentes efectivo.
+second_title: Aspose.Sildes para la referencia de API .NET
+description: Objeto inmutable que contiene las propiedades efectivas del esquema de fuentes.
 type: docs
-weight: 11260
+weight: 11280
 url: /es/aspose.slides.theme/ifontschemeeffectivedata/
 ---
-## IFontSchemeEffectiveData interfaz
+## IFontSchemeEffectiveData interface
 
-Objeto inmutable que contiene las propiedades del esquema de fuentes efectivo.
+Objeto inmutable que contiene las propiedades efectivas del esquema de fuentes.
 
 ```csharp
 public interface IFontSchemeEffectiveData
@@ -18,9 +18,9 @@ public interface IFontSchemeEffectiveData
 
 | Nombre | Descripción |
 | --- | --- |
-| [Major](../../aspose.slides.theme/ifontschemeeffectivedata/major) { get; } | Devuelve la colección de fuentes para la parte de "encabezado" de la diapositiva. Sólo lectura [`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata). |
-| [Minor](../../aspose.slides.theme/ifontschemeeffectivedata/minor) { get; } | Devuelve la colección de fuentes para la parte de "cuerpo" de la diapositiva. Sólo lectura [`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata). |
-| [Name](../../aspose.slides.theme/ifontschemeeffectivedata/name) { get; } | Devuelve el nombre del esquema de fuentes. Sólo lectura String. |
+| [Major](../../aspose.slides.theme/ifontschemeeffectivedata/major) { get; } | Devuelve la colección de fuentes para la parte "heading" de la diapositiva. Solo lectura [`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata). |
+| [Minor](../../aspose.slides.theme/ifontschemeeffectivedata/minor) { get; } | Devuelve la colección de fuentes para la parte "body" de la diapositiva. Solo lectura [`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata). |
+| [Name](../../aspose.slides.theme/ifontschemeeffectivedata/name) { get; } | Devuelve el nombre del esquema de fuentes. Solo lectura String. |
 
 ### Observaciones
 

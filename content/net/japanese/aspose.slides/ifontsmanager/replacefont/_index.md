@@ -1,23 +1,23 @@
 ---
 title: ReplaceFont
 second_title: Aspose.Sildes for .NET API リファレンス
-description: プレゼンテーション内のフォントを置換します
+description: プレゼンテーションのフォントを置換します
 type: docs
-weight: 100
+weight: 110
 url: /ja/aspose.slides/ifontsmanager/replacefont/
 ---
 ## ReplaceFont(IFontData, IFontData) {#replacefont}
 
-プレゼンテーション内のフォントを置換します
+プレゼンテーションのフォントを置換します
 
 ```csharp
 public void ReplaceFont(IFontData sourceFont, IFontData destFont)
 ```
 
-| パラメータ | 型 | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| sourceFont | IFontData | ソースフォント |
-| destFont | IFontData | 宛先フォント |
+| sourceFont | IFontData | 元フォント |
+| destFont | IFontData | 置換先フォント |
 
 ### 参照
 
@@ -30,13 +30,13 @@ public void ReplaceFont(IFontData sourceFont, IFontData destFont)
 
 ## ReplaceFont(IFontSubstRule) {#replacefont_1}
 
-[`IFontSubstRule`](../../ifontsubstrule)で提供された情報を使用してプレゼンテーション内のフォントを置換します
+[`IFontSubstRule`](../../ifontsubstrule)で提供される情報を使用して、プレゼンテーションのフォントを置換します
 
 ```csharp
 public void ReplaceFont(IFontSubstRule substRule)
 ```
 
-| パラメータ | 型 | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | substRule | IFontSubstRule | フォント置換情報 |
 
@@ -49,15 +49,15 @@ public void ReplaceFont(IFontSubstRule substRule)
 
 ---
 
-## ReplaceFont(IFontSubstRuleCollection) {#replacefont_2}}
+## ReplaceFont(IFontSubstRuleCollection) {#replacefont_2}
 
-[`IFontSubstRule`](../../ifontsubstrule)のコレクションで提供された情報を使用してプレゼンテーション内のフォントを置換します
+[`IFontSubstRule`](../../ifontsubstrule)のコレクションで提供される情報を使用して、プレゼンテーションのフォントを置換します
 
 ```csharp
 public void ReplaceFont(IFontSubstRuleCollection substRules)
 ```
 
-| パラメータ | 型 | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | substRules | IFontSubstRuleCollection | フォント置換情報コレクション |
 

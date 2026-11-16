@@ -1,14 +1,14 @@
 ---
 title: ILuminance
-second_title: Aspose.Sildes für .NET API Referenz
-description: Stellt einen Luminanz-Effekt dar. Die Helligkeit verschiebt alle Farben linear näher zu Weiß oder Schwarz. Der Kontrast skaliert alle Farben, sodass sie entweder näher zusammen oder weiter auseinander liegen.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Stellt einen Luminanz-Effekt dar. Helligkeit verschiebt alle Farben linear näher an Weiß oder Schwarz. Kontrast skaliert alle Farben, sodass sie entweder näher beieinander oder weiter auseinander liegen.
 type: docs
-weight: 3440
+weight: 3460
 url: /de/aspose.slides.effects/iluminance/
 ---
 ## ILuminance Schnittstelle
 
-Stellt einen Luminanz-Effekt dar. Die Helligkeit verschiebt alle Farben linear näher zu Weiß oder Schwarz. Der Kontrast skaliert alle Farben, sodass sie entweder näher zusammen oder weiter auseinander liegen.
+Stellt einen Luminanz-Effekt dar. Helligkeit verschiebt alle Farben linear näher an Weiß oder Schwarz. Kontrast skaliert alle Farben, sodass sie entweder näher beieinander oder weiter auseinander liegen.
 
 ```csharp
 public interface ILuminance : IAccessiblePVIObject<ILuminanceEffectiveData>, 
@@ -19,8 +19,8 @@ public interface ILuminance : IAccessiblePVIObject<ILuminanceEffectiveData>,
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/iluminance/asiaccessiblepviobject) { get; } | Erlaubt den Zugriff auf die Basis-IAccessiblePVIObject-Schnittstelle. Nur-Lesen [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/iluminance/asiimagetransformoperation) { get; } | Erlaubt den Zugriff auf die Basis-IImageTransformOperation-Schnittstelle. Nur-Lesen [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/iluminance/asiaccessiblepviobject) { get; } | Ermöglicht das Abrufen der Basisschnittstelle IAccessiblePVIObject. Nur lesbar [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/iluminance/asiimagetransformoperation) { get; } | Ermöglicht das Abrufen der Basisschnittstelle IImageTransformOperation. Nur lesbar [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### Siehe auch
 

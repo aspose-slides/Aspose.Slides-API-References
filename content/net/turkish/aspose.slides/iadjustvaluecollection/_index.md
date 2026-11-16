@@ -1,14 +1,14 @@
 ---
 title: IAdjustValueCollection
-second_title: Aspose.Slides için .NET API Referansı
-description: Şekil ayarlamalarının bir koleksiyonunu temsil eder.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Şekil ayarlarının bir koleksiyonunu temsil eder.
 type: docs
-weight: 5190
+weight: 5210
 url: /tr/aspose.slides/iadjustvaluecollection/
 ---
-## IAdjustValueCollection arayüz
+## IAdjustValueCollection arayüzü
 
-Şeklin ayarlamalarının bir koleksiyonunu temsil eder.
+Şeklin ayarlarının bir koleksiyonunu temsil eder.
 
 ```csharp
 public interface IAdjustValueCollection : ICollection
@@ -18,9 +18,9 @@ public interface IAdjustValueCollection : ICollection
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsICollection](../../aspose.slides/iadjustvaluecollection/asicollection) { get; } | Temel ICollection arayüzünü almaya izin verir. Salt okunur ICollection. |
-| [AsIEnumerable](../../aspose.slides/iadjustvaluecollection/asienumerable) { get; } | IEnumerable arayüzünü döndürür. Salt okunur IEnumerable. |
-| [Item](../../aspose.slides/iadjustvaluecollection/item) { get; } | İndeks ile ayarlamayı döndürür. |
+| [AsICollection](../../aspose.slides/iadjustvaluecollection/asicollection) { get; } | Temel ICollection arabirimini almayı sağlar. Salt okunur ICollection. |
+| [AsIEnumerable](../../aspose.slides/iadjustvaluecollection/asienumerable) { get; } | IEnumerable arabirimini döndürür. Salt okunur IEnumerable. |
+| [Item](../../aspose.slides/iadjustvaluecollection/item) { get; } | Dizine göre ayarı döndürür. |
 
 ### Ayrıca Bakınız
 

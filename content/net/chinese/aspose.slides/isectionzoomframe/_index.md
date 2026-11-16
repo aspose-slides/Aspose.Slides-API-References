@@ -1,9 +1,9 @@
 ---
 title: ISectionZoomFrame
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 表示幻灯片中的 Section Zoom 对象。
 type: docs
-weight: 6920
+weight: 6940
 url: /zh/aspose.slides/isectionzoomframe/
 ---
 ## ISectionZoomFrame 接口
@@ -19,9 +19,9 @@ public interface ISectionZoomFrame : IZoomObject
 | 名称 | 描述 |
 | --- | --- |
 | [AsIZoomObject](../../aspose.slides/isectionzoomframe/asizoomobject) { get; } | 返回 IZoomObject 接口。 |
-| [TargetSection](../../aspose.slides/isectionzoomframe/targetsection) { get; set; } | 获取或设置与 Section Zoom 对象链接的节对象。读/写 [`ISection`](../isection)。 |
+| [TargetSection](../../aspose.slides/isectionzoomframe/targetsection) { get; set; } | 获取或设置与 Section Zoom 对象关联的节对象。读/写 [`ISection`](../isection)。 |
 
-### 另见
+### 另请参见
 
 * 接口 [IZoomObject](../izoomobject)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

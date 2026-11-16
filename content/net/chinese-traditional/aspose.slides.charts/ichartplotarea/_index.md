@@ -1,14 +1,14 @@
 ---
 title: IChartPlotArea
 second_title: Aspose.Sildes for .NET API 參考
-description: 表示圖表標題屬性。
+description: 代表圖表標題屬性。
 type: docs
-weight: 1910
+weight: 1930
 url: /zh-hant/aspose.slides.charts/ichartplotarea/
 ---
 ## IChartPlotArea 介面
 
-表示圖表標題屬性。
+代表圖表標題屬性。
 
 ```csharp
 public interface IChartPlotArea : IActualLayout, ILayoutable
@@ -20,10 +20,10 @@ public interface IChartPlotArea : IActualLayout, ILayoutable
 | --- | --- |
 | [AsIActualLayout](../../aspose.slides.charts/ichartplotarea/asiactuallayout) { get; } | 返回 IActualLayout 介面。 |
 | [AsILayoutable](../../aspose.slides.charts/ichartplotarea/asilayoutable) { get; } | 允許取得基礎 ILayoutable 介面。唯讀 [`ILayoutable`](../ilayoutable)。 |
-| [Format](../../aspose.slides.charts/ichartplotarea/format) { get; } | 返回繪圖區的格式。唯讀 [`IFormat`](../iformat)。 |
-| [LayoutTargetType](../../aspose.slides.charts/ichartplotarea/layouttargettype) { get; set; } | 如果手動定義繪圖區的佈局，則此屬性指定是否根據其內部（不包括座標軸和座標軸標籤）或外部（包括座標軸和座標軸標籤）來佈局繪圖區。可讀寫 [`LayoutTargetType`](./layouttargettype)。 |
+| [Format](../../aspose.slides.charts/ichartplotarea/format) { get; } | 返回圖表區域的格式。唯讀 [`IFormat`](../iformat)。 |
+| [LayoutTargetType](../../aspose.slides.charts/ichartplotarea/layouttargettype) { get; set; } | 如果圖表區域的佈局是手動定義的，此屬性指定是根據其內部（不包括座標軸與座標軸標籤）還是外部（包括座標軸與座標軸標籤）來佈局圖表區域。可讀寫 [`LayoutTargetType`](./layouttargettype)。 |
 
-### 另請參閱
+### 另請參見
 
 * 介面 [IActualLayout](../iactuallayout)
 * 介面 [ILayoutable](../ilayoutable)

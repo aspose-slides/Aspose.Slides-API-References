@@ -1,12 +1,12 @@
 ---
 title: PlaceholderType
-second_title: Referencia de la API de Aspose.Sildes para .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa el tipo de un marcador de posición.
 type: docs
-weight: 9450
+weight: 9470
 url: /es/aspose.slides/placeholdertype/
 ---
-## Enumeración PlaceholderType
+## PlaceholderType enumeración
 
 Representa el tipo de un marcador de posición.
 
@@ -31,7 +31,7 @@ public enum PlaceholderType : sbyte
 | Table | `10` | Tabla. |
 | ClipArt | `11` | Clip Art. |
 | Diagram | `12` | Diagrama. |
-| Media | `13` | Multimedia. |
+| Media | `13` | Medios. |
 | SlideImage | `14` | Imagen de diapositiva. |
 | Picture | `15` | Imagen. |
 

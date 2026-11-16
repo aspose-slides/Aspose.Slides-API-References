@@ -3,7 +3,7 @@ title: CornerDirectionTransition
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Efecto de transición de diapositiva en dirección de esquina.
 type: docs
-weight: 10010
+weight: 10030
 url: /es/aspose.slides.slideshow/cornerdirectiontransition/
 ---
 ## CornerDirectionTransition clase
@@ -25,7 +25,7 @@ public class CornerDirectionTransition : TransitionValueBase, ICornerDirectionTr
 | Nombre | Descripción |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Determina si las dos instancias de TransitionValueBase son iguales. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Funciona como una función hash para un tipo particular, adecuada para su uso en algoritmos de hashing y estructuras de datos como una tabla hash. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Sirve como función hash para un tipo particular, adecuada para su uso en algoritmos de hashing y estructuras de datos como una tabla hash. |
 
 ### Ver también
 

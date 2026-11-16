@@ -3,7 +3,7 @@ title: IAlphaReplace
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示基 IImageTransformOperation 接口。
 type: docs
-weight: 3140
+weight: 3160
 url: /zh/aspose.slides.effects/ialphareplace/
 ---
 ## IAlphaReplace 接口
@@ -17,12 +17,12 @@ public interface IAlphaReplace : IAccessiblePVIObject<IAlphaReplaceEffectiveData
 
 ## 属性
 
-| 名称 | 描述 |
+| 名称 | 说明 |
 | --- | --- |
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphareplace/asiaccessiblepviobject) { get; } | 允许获取基 IAccessiblePVIObject 接口。只读 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
 | [AsIImageTransformOperation](../../aspose.slides.effects/ialphareplace/asiimagetransformoperation) { get; } | 允许获取基 IImageTransformOperation 接口。只读 [`IImageTransformOperation`](../iimagetransformoperation)。 |
 
-### 另见
+### 另请参见
 
 * 接口 [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * 接口 [IAlphaReplaceEffectiveData](../ialphareplaceeffectivedata)

@@ -1,14 +1,14 @@
 ---
 title: ChartTextFormat
-second_title: Aspose.Sildes voor .NET API-referentie
-description: Specificeert de standaardtekstopmaak voor tekstelementen van een grafiek.
+second_title: Aspose.Sildes voor .NET API Referentie
+description: Specificeert de standaardtekstopmaak voor grafiek-tekstelementen.
 type: docs
-weight: 1480
+weight: 1490
 url: /nl/aspose.slides.charts/charttextformat/
 ---
 ## ChartTextFormat klasse
 
-Specifieert de standaardtekstopmaak voor tekstelementen van een grafiek.
+Specificeert de standaardtekstopmaak voor grafiek-tekstelementen.
 
 ```csharp
 public class ChartTextFormat : IChartTextFormat
@@ -26,8 +26,8 @@ public class ChartTextFormat : IChartTextFormat
 
 | Naam | Beschrijving |
 | --- | --- |
-| [CopyFrom](../../aspose.slides.charts/charttextformat/copyfrom)(ITextFrame) | Kopieert tekstopmaak van opgegeven tekstkader. |
-| [CopyTo](../../aspose.slides.charts/charttextformat/copyto)(ITextFrame) | Kopieert tekstopmaak naar opgegeven tekstkader. |
+| [CopyFrom](../../aspose.slides.charts/charttextformat/copyfrom)(ITextFrame) | Kopieert de tekstopmaak van het opgegeven tekstframe. |
+| [CopyTo](../../aspose.slides.charts/charttextformat/copyto)(ITextFrame) | Kopieert de tekstopmaak naar het opgegeven tekstframe. |
 
 ### Zie ook
 

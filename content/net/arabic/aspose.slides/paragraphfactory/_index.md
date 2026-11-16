@@ -1,31 +1,31 @@
 ---
 title: ParagraphFactory
-second_title: Aspose.Sildes لـ .NET مرجع API
-description: يسمح بإنشاء الفقرات
+second_title: Aspose.Sildes مرجع واجهة برمجة التطبيقات لـ .NET
+description: يسمح بإنشاء فقرات
 type: docs
-weight: 9300
+weight: 9320
 url: /ar/aspose.slides/paragraphfactory/
 ---
 ## ParagraphFactory فئة
 
-يسمح بإنشاء الفقرات
+يسمح بإنشاء فقرات
 
 ```csharp
 public class ParagraphFactory : IParagraphFactory
 ```
 
-## المنشئات
+## المُنشئات
 
 | الاسم | الوصف |
 | --- | --- |
-| [ParagraphFactory](paragraphfactory)() | المنشيء الافتراضي. |
+| [ParagraphFactory](paragraphfactory)() | المنشئ الافتراضي. |
 
 ## الطرق
 
 | الاسم | الوصف |
 | --- | --- |
-| [CreateParagraph](../../aspose.slides/paragraphfactory/createparagraph#createparagraph)() | إنشاء فقرة جديدة فارغة. |
-| [CreateParagraph](../../aspose.slides/paragraphfactory/createparagraph#createparagraph_1)(IParagraph) | إنشاء فقرة جديدة باستخدام بيانات الفقرة المحددة. |
+| [CreateParagraph](../../aspose.slides/paragraphfactory/createparagraph#createparagraph)() | ينشئ فقرة فارغة جديدة. |
+| [CreateParagraph](../../aspose.slides/paragraphfactory/createparagraph#createparagraph_1)(IParagraph) | ينشئ فقرة جديدة باستخدام بيانات الفقرة المحددة. |
 
 ### ملاحظات
 

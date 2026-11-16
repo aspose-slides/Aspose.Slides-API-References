@@ -1,12 +1,12 @@
 ---
 title: SlideSize
-second_title: Aspose.Sildes สำหรับ .NET API Reference
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
 description: แสดงถึงขนาดและการวางแนวของสไลด์.
 type: docs
-weight: 10500
+weight: 10520
 url: /th/aspose.slides/slidesize/
 ---
-## คลาส SlideSize
+## SlideSize คลาส
 
 แสดงถึงขนาดและการวางแนวของสไลด์.
 
@@ -19,15 +19,15 @@ public class SlideSize : DomObject<Presentation>, ISlideSize
 | ชื่อ | คำอธิบาย |
 | --- | --- |
 | [Orientation](../../aspose.slides/slidesize/orientation) { get; set; } | รับหรือกำหนดการวางแนวของสไลด์. |
-| [Size](../../aspose.slides/slidesize/size) { get; } | รับขนาดของสไลด์เป็นจุด. |
+| [Size](../../aspose.slides/slidesize/size) { get; } | รับมิติของสไลด์เป็นจุด. |
 | [Type](../../aspose.slides/slidesize/type) { get; } | รับประเภทขนาดสไลด์. |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [SetSize](../../aspose.slides/slidesize/setsize#setsize)(SlideSizeType, SlideSizeScaleType) | ตั้งค่าขนาดสไลด์โดยประเภทและปรับสเกลเนื้อหาที่มีอยู่. |
-| [SetSize](../../aspose.slides/slidesize/setsize#setsize_1)(float, float, SlideSizeScaleType) | ตั้งค่าขนาดสไลด์อย่างชัดเจนและปรับสเกลเนื้อหาที่มีอยู่. |
+| [SetSize](../../aspose.slides/slidesize/setsize#setsize)(SlideSizeType, SlideSizeScaleType) | กำหนดขนาดสไลด์โดยประเภทและปรับสเกลเนื้อหาที่มีอยู่. |
+| [SetSize](../../aspose.slides/slidesize/setsize#setsize_1)(float, float, SlideSizeScaleType) | กำหนดมิติของสไลด์โดยเจาะจงและปรับสเกลเนื้อหาที่มีอยู่. |
 
 ### ดูเพิ่มเติม
 

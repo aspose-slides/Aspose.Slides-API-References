@@ -3,7 +3,7 @@ title: IAlphaReplace
 second_title: Aspose.Sildes for .NET API 참조
 description: 기본 IImageTransformOperation 인터페이스를 나타냅니다.
 type: docs
-weight: 3140
+weight: 3160
 url: /ko/aspose.slides.effects/ialphareplace/
 ---
 ## IAlphaReplace 인터페이스
@@ -22,7 +22,7 @@ public interface IAlphaReplace : IAccessiblePVIObject<IAlphaReplaceEffectiveData
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphareplace/asiaccessiblepviobject) { get; } | 기본 IAccessiblePVIObject 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
 | [AsIImageTransformOperation](../../aspose.slides.effects/ialphareplace/asiimagetransformoperation) { get; } | 기본 IImageTransformOperation 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IImageTransformOperation`](../iimagetransformoperation). |
 
-### 관련 항목
+### 참조
 
 * 인터페이스 [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * 인터페이스 [IAlphaReplaceEffectiveData](../ialphareplaceeffectivedata)

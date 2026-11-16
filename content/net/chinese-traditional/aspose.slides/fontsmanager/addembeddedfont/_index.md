@@ -1,23 +1,23 @@
 ---
 title: AddEmbeddedFont
-second_title: Aspose.Sildes .NET API 參考文件
-description: 新增嵌入式字型。請注意，在複製任何字型時，大多數字型皆受版權保護。請事先找出字型的授權並確認它們可以自由轉移至其他機器。如果字型資料為 null 或此字型已經嵌入，將拋出 ArgumentException。
+second_title: Aspose.Sildes for .NET API 參考
+description: 加入嵌入式字型。 複製任何字型時請注意，大多數字型受版權保護。 首先事先查找字型的許可證，並確認它們可以自由轉移到其他機器。 如果字型資料為 null 或此字型已經嵌入，將會拋出 ArgumentException
 type: docs
-weight: 30
+weight: 40
 url: /zh-hant/aspose.slides/fontsmanager/addembeddedfont/
 ---
 ## AddEmbeddedFont(IFontData, EmbedFontCharacters) {#addembeddedfont}
 
-新增嵌入式字型。請注意，複製任何字型時，大多數字型都受版權保護。請事先查找字型的授權並確認它們可以自由轉移至其他機器。如果字型資料為 null 或該字型已經嵌入，將拋出 ArgumentException。
+加入嵌入式字體。 複製任何字體時請注意，大多數字體受版權保護。 首先事先查找字體的許可證，並確認它們可以自由轉移到其他機器。 如果字體資料為 null 或此字體已經嵌入，將拋出 ArgumentException
 
 ```csharp
 public void AddEmbeddedFont(IFontData fontData, EmbedFontCharacters embedFontRule)
 ```
 
-### 相關參考
+### 另請參閱
 
 * 介面 [IFontData](../../ifontdata)
-* 列舉 [EmbedFontCharacters](../../../aspose.slides.export/embedfontcharacters)
+* 枚舉 [EmbedFontCharacters](../../../aspose.slides.export/embedfontcharacters)
 * 類別 [FontsManager](../../fontsmanager)
 * 命名空間 [Aspose.Slides](../../fontsmanager)
 * 組件 [Aspose.Slides](../../../)
@@ -26,15 +26,15 @@ public void AddEmbeddedFont(IFontData fontData, EmbedFontCharacters embedFontRul
 
 ## AddEmbeddedFont(byte[], EmbedFontCharacters) {#addembeddedfont_1}
 
-新增嵌入式字型。請注意，複製任何字型時，大多數字型都受版權保護。請事先查找字型的授權並確認它們可以自由轉移至其他機器。如果字型資料為 null 或該字型已經嵌入，將拋出 ArgumentException。
+加入嵌入式字體。 複製任何字體時請注意，大多數字體受版權保護。 首先事先查找字體的許可證，並確認它們可以自由轉移到其他機器。 如果字體資料為 null 或此字體已經嵌入，將拋出 ArgumentException
 
 ```csharp
 public void AddEmbeddedFont(byte[] fontData, EmbedFontCharacters embedFontRule)
 ```
 
-### 相關參考
+### 另請參閱
 
-* 列舉 [EmbedFontCharacters](../../../aspose.slides.export/embedfontcharacters)
+* 枚舉 [EmbedFontCharacters](../../../aspose.slides.export/embedfontcharacters)
 * 類別 [FontsManager](../../fontsmanager)
 * 命名空間 [Aspose.Slides](../../fontsmanager)
 * 組件 [Aspose.Slides](../../../)

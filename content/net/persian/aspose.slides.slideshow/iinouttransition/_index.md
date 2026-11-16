@@ -1,14 +1,14 @@
 ---
 title: IInOutTransition
-second_title: مرجع API Aspose.Sildes برای .NET
-description: اثر گذار انتقال اسلاید In-Out.
+second_title: Aspose.Sildes برای .NET مرجع API
+description: اثر انتقال اسلاید داخل-بیرون.
 type: docs
-weight: 10110
+weight: 10130
 url: /fa/aspose.slides.slideshow/iinouttransition/
 ---
 ## IInOutTransition رابط
 
-اثر گذار اسلاید In-Out.
+اثر انتقال اسلاید داخل-بیرون.
 
 ```csharp
 public interface IInOutTransition : ITransitionValueBase
@@ -18,8 +18,8 @@ public interface IInOutTransition : ITransitionValueBase
 
 | نام | توضیح |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/iinouttransition/asitransitionvaluebase) { get; } | امکان دریافت رابط پایه ITransitionValueBase را فراهم می‌کند. فقط خواندنی [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/iinouttransition/direction) { get; set; } | جهت اثر گذار transition. قابل خواندن و نوشتن [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/iinouttransition/asitransitionvaluebase) { get; } | اجازۀ دریافت رابط پایه ITransitionValueBase. فقط-خواندنی [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/iinouttransition/direction) { get; set; } | جهت اثر انتقال. قابل‌خواندن/قابل‌نوشتن [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
 
 ### موارد مرتبط
 

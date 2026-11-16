@@ -3,7 +3,7 @@ title: ChartCategory
 second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 차트 카테고리를 나타냅니다.
 type: docs
-weight: 1270
+weight: 1280
 url: /ko/aspose.slides.charts/chartcategory/
 ---
 ## ChartCategory 클래스
@@ -18,10 +18,11 @@ public class ChartCategory : IChartCategory
 
 | 이름 | 설명 |
 | --- | --- |
-| [AsCell](../../aspose.slides.charts/chartcategory/ascell) { get; set; } | 반환하거나 설정합니다 IChartDataCell 객체. 카테고리가 다중 레벨인 경우 레벨 "0"에 IChartDataCell 객체를 사용합니다. 읽기/쓰기 [`IChartDataCell`](../ichartdatacell). |
-| [AsLiteral](../../aspose.slides.charts/chartcategory/asliteral) { get; set; } | 반환하거나 설정합니다 AsLiteral 객체. 읽기/쓰기 Object. |
-| [GroupingLevels](../../aspose.slides.charts/chartcategory/groupinglevels) { get; } | 차트 카테고리 그룹화 레벨 값의 관리 컨테이너. 다중 레벨 카테고리는 하나 이상의 그룹화 레벨을 포함합니다. 그룹화 레벨 인덱스는 0부터 시작합니다. 읽기 전용 [`IChartCategoryLevelsManager`](../ichartcategorylevelsmanager). |
-| [UseCell](../../aspose.slides.charts/chartcategory/usecell) { get; } | true이면 AsCell 속성이 실제입니다. 즉, 워크시트가 카테고리를 저장하는 데 사용됩니다(이 경우 다중 레벨 카테고리를 지원함). false이면 AsLiteral 속성이 실제입니다. 즉, 워크시트가 카테고리를 저장하는 데 사용되지 않으며(이 경우 다중 레벨 카테고리를 지원하지 않음). 읽기 전용 Boolean. |
+| [AsCell](../../aspose.slides.charts/chartcategory/ascell) { get; set; } | IChartDataCell 객체를 반환하거나 설정합니다. 카테고리가 다중 레벨인 경우 레벨 "0"에 IChartDataCell 객체를 사용합니다. 읽기/쓰기 [`IChartDataCell`](../ichartdatacell). |
+| [AsLiteral](../../aspose.slides.charts/chartcategory/asliteral) { get; set; } | AsLiteral 객체를 반환하거나 설정합니다. 읽기/쓰기 Object. |
+| [CachedValue](../../aspose.slides.charts/chartcategory/cachedvalue) { get; } | 차트 카테고리의 캐시된 값을 가져옵니다. 읽기 전용 [`ICachedChartValue`](../icachedchartvalue). |
+| [GroupingLevels](../../aspose.slides.charts/chartcategory/groupinglevels) { get; } | 차트 카테고리 그룹화 레벨 값들의 관리형 컨테이너입니다. 다중 레벨 카테고리는 하나 이상의 그룹화 레벨을 포함합니다. 그룹화 레벨 인덱스는 0부터 시작합니다. 읽기 전용 [`IChartCategoryLevelsManager`](../ichartcategorylevelsmanager). |
+| [UseCell](../../aspose.slides.charts/chartcategory/usecell) { get; } | true이면 AsCell 속성이 실제값입니다. 즉, 워크시트가 카테고리 저장에 사용됩니다(이 경우 다중 레벨 카테고리를 지원합니다). false이면 AsLiteral 속성이 실제값입니다. 즉, 워크시트가 카테고리 저장에 사용되지 않습니다(이 경우 다중 레벨 카테고리를 지원하지 않습니다). 읽기 전용 Boolean. |
 | [Value](../../aspose.slides.charts/chartcategory/value) { get; set; } | UseCell이 true이면 이 속성은 AsCell.Value 속성을 나타냅니다. UseCell이 false이면 이 속성은 AsLiteral 속성을 나타냅니다. 읽기/쓰기 Object. |
 
 ## 메서드
@@ -30,7 +31,7 @@ public class ChartCategory : IChartCategory
 | --- | --- |
 | [Remove](../../aspose.slides.charts/chartcategory/remove)() | 차트에서 카테고리를 제거합니다. |
 
-### 관련 항목
+### 참고
 
 * interface [IChartCategory](../ichartcategory)
 * namespace [Aspose.Slides.Charts](../../aspose.slides.charts)

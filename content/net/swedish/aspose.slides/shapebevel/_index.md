@@ -3,12 +3,12 @@ title: ShapeBevel
 second_title: Aspose.Sildes för .NET API-referens
 description: Innehåller egenskaperna för figurens huvudytas relief.
 type: docs
-weight: 9850
+weight: 9870
 url: /sv/aspose.slides/shapebevel/
 ---
 ## ShapeBevel klass
 
-Innehåller egenskaperna för figurens huvudytas relief.
+Innehåller egenskaperna för figurens huvudytans relief.
 
 ```csharp
 public sealed class ShapeBevel : PVIObject, IShapeBevel
@@ -24,17 +24,17 @@ public sealed class ShapeBevel : PVIObject, IShapeBevel
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Tillåter att hämta bas-gränssnittet IPresentationComponent. Skrivskyddad [`IPresentationComponent`](../ipresentationcomponent). |
-| [BevelType](../../aspose.slides/shapebevel/beveltype) { get; set; } | Avfasningstyp. Läs/skriv [`BevelPresetType`](../bevelpresettype). |
-| [Height](../../aspose.slides/shapebevel/height) { get; set; } | Avfasningshöjd. Läs/skriv Double. |
-| [Width](../../aspose.slides/shapebevel/width) { get; set; } | Avfasningsbredd. Läs/skriv Double. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Tillåter att hämta bas IPresentationComponent-gränssnittet. Skrivskyddad [`IPresentationComponent`](../ipresentationcomponent). |
+| [BevelType](../../aspose.slides/shapebevel/beveltype) { get; set; } | Fasett-typ. Läs/skriv [`BevelPresetType`](../bevelpresettype). |
+| [Height](../../aspose.slides/shapebevel/height) { get; set; } | Fasett-höjd. Läs/skriv Double. |
+| [Width](../../aspose.slides/shapebevel/width) { get; set; } | Fasett-bredd. Läs/skriv Double. |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
 | override [Equals](../../aspose.slides/shapebevel/equals)(object) |  |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Returnerar hash-kod. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Returnerar hashkod. |
 
 ### Se även
 

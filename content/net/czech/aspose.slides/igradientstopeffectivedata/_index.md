@@ -1,14 +1,14 @@
 ---
 title: IGradientStopEffectiveData
 second_title: Aspose.Sildes pro .NET API Reference
-description: Neměnný objekt, který představuje gradientové zastavení.
+description: neměnný objekt, který představuje zastavení gradientu.
 type: docs
-weight: 6050
+weight: 6070
 url: /cs/aspose.slides/igradientstopeffectivedata/
 ---
-## IGradientStopEffectiveData rozhraní
+## IGradientStopEffectiveData interface
 
-neměnný objekt, který představuje gradientové zastavení.
+neměnný objekt, který představuje zastavení gradientu.
 
 ```csharp
 public interface IGradientStopEffectiveData
@@ -18,8 +18,8 @@ public interface IGradientStopEffectiveData
 
 | Název | Popis |
 | --- | --- |
-| [Color](../../aspose.slides/igradientstopeffectivedata/color) { get; } | Vrací barvu gradientového zastavení. Pouze ke čtení Color. |
-| [Position](../../aspose.slides/igradientstopeffectivedata/position) { get; } | Vrací polohu (0..1) gradientového zastavení. Pouze ke čtení Single. |
+| [Color](../../aspose.slides/igradientstopeffectivedata/color) { get; } | Vrací barvu zastavení gradientu. Pouze ke čtení Color. |
+| [Position](../../aspose.slides/igradientstopeffectivedata/position) { get; } | Vrací polohu (0..1) zastavení gradientu. Pouze ke čtení Single. |
 
 ### Viz také
 

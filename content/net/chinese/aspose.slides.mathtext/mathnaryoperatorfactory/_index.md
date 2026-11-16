@@ -1,9 +1,9 @@
 ---
 title: MathNaryOperatorFactory
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 允许创建 IMathNaryOperator
 type: docs
-weight: 8880
+weight: 8900
 url: /zh/aspose.slides.mathtext/mathnaryoperatorfactory/
 ---
 ## MathNaryOperatorFactory 类
@@ -32,7 +32,7 @@ public class MathNaryOperatorFactory : IMathNaryOperatorFactory
 
 用于 COM 兼容性
 
-### 另请参见
+### 另请参阅
 
 * 接口 [IMathNaryOperatorFactory](../imathnaryoperatorfactory)
 * 命名空间 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

@@ -1,12 +1,12 @@
 ---
 title: Field
-second_title: Aspose.Sildes untuk .NET Referensi API
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili sebuah field.
 type: docs
-weight: 4750
+weight: 4770
 url: /id/aspose.slides/field/
 ---
-## Kelas Field
+## Field kelas
 
 Mewakili sebuah field.
 
@@ -18,7 +18,7 @@ public sealed class Field : DomObject<Portion>, IField
 
 | Nama | Deskripsi |
 | --- | --- |
-| [Type](../../aspose.slides/field/type) { get; set; } | Mengembalikan atau mengatur tipe field. Baca/tulis [`IFieldType`](../ifieldtype). |
+| [Type](../../aspose.slides/field/type) { get; set; } | Mengembalikan atau menetapkan tipe field. Baca/tulis [`IFieldType`](../ifieldtype). |
 
 ### Lihat Juga
 

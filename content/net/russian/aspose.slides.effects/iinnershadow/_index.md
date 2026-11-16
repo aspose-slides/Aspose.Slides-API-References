@@ -1,10 +1,10 @@
 ---
 title: IInnerShadow
-second_title: Справочник API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Представляет эффект внутренней тени.
 type: docs
-weight: 3420
-url: /ru/aspose.slides.effects/iinnersshadow/
+weight: 3440
+url: /ru/aspose.slides.effects/iinnershadow/
 ---
 ## IInnerShadow интерфейс
 

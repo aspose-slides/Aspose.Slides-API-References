@@ -1,14 +1,14 @@
 ---
 title: IMathLimit
 second_title: Aspose.Sildes for .NET API リファレンス
-description: ベースライン上のテキストと、直上または直下に配置された縮小サイズのテキストで構成される Limit オブジェクトを指定します。
+description: ベースライン上のテキストと、その直上または直下にある縮小サイズのテキストで構成される Limit オブジェクトを指定します。
 type: docs
-weight: 8320
+weight: 8340
 url: /ja/aspose.slides.mathtext/imathlimit/
 ---
 ## IMathLimit インターフェイス
 
-ベースライン上のテキストと、直上または直下に配置された縮小サイズのテキストで構成される Limit オブジェクトを指定します。
+ベースライン上のテキストと、その直上または直下にある縮小サイズのテキストで構成される Limit オブジェクトを指定します。
 
 ```csharp
 public interface IMathLimit : IMathElement
@@ -16,23 +16,23 @@ public interface IMathLimit : IMathElement
 
 ## プロパティ
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathlimit/asimathelement) { get; } | ベースの IMathElement インターフェイスを取得できます [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathlimit/asimathelement) { get; } | ベースの IMathElement インターフェイス [`IMathElement`](../imathelement) を取得できます |
 | [Base](../../aspose.slides.mathtext/imathlimit/base) { get; } | ベース引数 |
 | [Limit](../../aspose.slides.mathtext/imathlimit/limit) { get; } | リミット引数 |
 | [UpperLimit](../../aspose.slides.mathtext/imathlimit/upperlimit) { get; set; } | 上限または下限を指定します |
 
 ### 例
 
-例:
+例：
 
 ```csharp
 [C#]
 IMathLimit limitElement = new MathLimit(new MathematicalText("lim"), new MathematicalText("𝑛→∞"));
 ```
 
-### 関連項目
+### 参照
 
 * インターフェイス [IMathElement](../imathelement)
 * 名前空間 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

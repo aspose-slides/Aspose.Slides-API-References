@@ -1,14 +1,14 @@
 ---
 title: Remove
-second_title: Aspose.Sildes .NET के लिए API संदर्भ
-description: DataPoint को चार्ट श्रृंखला से हटाता है।
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: डेटा पॉइंट को चार्ट सीरीज़ से हटाता है।
 type: docs
-weight: 230
+weight: 270
 url: /hi/aspose.slides.charts/chartdatapoint/remove/
 ---
 ## ChartDataPoint.Remove विधि
 
-DataPoint को चार्ट श्रृंखला से हटाता है।
+DataPoint को चार्ट सीरीज़ से हटाता है।
 
 ```csharp
 public void Remove()
@@ -18,7 +18,7 @@ public void Remove()
 
 | अपवाद | शर्त |
 | --- | --- |
-| [PptxEditException](../../../aspose.slides/pptxeditexception) | यदि DataPoint पहले ही चार्ट श्रृंखला से हटाया गया है तो फेंका जाता है। |
+| [PptxEditException](../../../aspose.slides/pptxeditexception) | यदि डेटा पॉइंट पहले से ही चार्ट सीरीज़ से हटाया गया है तो अपवाद फेंका जाता है। |
 
 ### संबंधित देखें
 

@@ -1,14 +1,14 @@
 ---
 title: IColorReplace
-second_title: Aspose.Sildes für .NET API Referenz
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt einen Color Replacement-Effekt dar.
 type: docs
-weight: 3240
+weight: 3260
 url: /de/aspose.slides.effects/icolorreplace/
 ---
 ## IColorReplace Schnittstelle
 
-Repräsentiert einen Color Replacement-Effekt.
+Stellt einen Color Replacement-Effekt dar.
 
 ```csharp
 public interface IColorReplace : IAccessiblePVIObject<IColorReplaceEffectiveData>, 
@@ -19,9 +19,9 @@ public interface IColorReplace : IAccessiblePVIObject<IColorReplaceEffectiveData
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/icolorreplace/asiaccessiblepviobject) { get; } | Ermöglicht das Abrufen der Basisschnittstelle IAccessiblePVIObject. Nur-Lesen [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/icolorreplace/asiimagetransformoperation) { get; } | Ermöglicht das Abrufen der Basisschnittstelle IImageTransformOperation. Nur-Lesen [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Color](../../aspose.slides.effects/icolorreplace/color) { get; } | Gibt das Farbformat zurück, das die Farbe jedes Pixels ersetzt. Nur-Lesen [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/icolorreplace/asiaccessiblepviobject) { get; } | Ermöglicht das Abrufen der Basis IAccessiblePVIObject Schnittstelle. Nur lesbar [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/icolorreplace/asiimagetransformoperation) { get; } | Ermöglicht das Abrufen der Basis IImageTransformOperation Schnittstelle. Nur lesbar [`IImageTransformOperation`](../iimagetransformoperation). |
+| [Color](../../aspose.slides.effects/icolorreplace/color) { get; } | Gibt das Farbsformat zurück, das die Farbe jedes Pixels ersetzt. Nur lesbar [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ### Siehe auch
 

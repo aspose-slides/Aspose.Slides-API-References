@@ -1,14 +1,14 @@
 ---
 title: ICamera
-second_title: Aspose.Sildes for .NET API 参考
-description: 表示 Camera.
+second_title: Aspose.Sildes .NET API 参考
+description: 表示相机。
 type: docs
-weight: 5410
+weight: 5430
 url: /zh/aspose.slides/icamera/
 ---
 ## ICamera 接口
 
-表示 Camera.
+Represents Camera.
 
 ```csharp
 public interface ICamera
@@ -18,18 +18,18 @@ public interface ICamera
 
 | 名称 | 描述 |
 | --- | --- |
-| [CameraType](../../aspose.slides/icamera/cameratype) { get; set; } | Camera 类型 可读/可写 [`CameraPresetType`](../camerapresettype)。 |
-| [FieldOfViewAngle](../../aspose.slides/icamera/fieldofviewangle) { get; set; } | Camera FOV (0-180 deg, field of View) 可读/可写 Single。 |
-| [Zoom](../../aspose.slides/icamera/zoom) { get; set; } | Camera zoom (positive value in percentage) 可读/可写 Single。 |
+| [CameraType](../../aspose.slides/icamera/cameratype) { get; set; } | 相机类型 读写 [`CameraPresetType`](../camerapresettype)。 |
+| [FieldOfViewAngle](../../aspose.slides/icamera/fieldofviewangle) { get; set; } | 相机视野 (0-180 度, 视场) 读写 Single。 |
+| [Zoom](../../aspose.slides/icamera/zoom) { get; set; } | 相机缩放 (以百分比表示的正值) 读写 Single。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [GetRotation](../../aspose.slides/icamera/getrotation)() | 通过使用纬度坐标、经度坐标以及围绕轴的旋转来定义旋转，该轴为纬度和经度坐标。返回数组的第一个元素 - 纬度，第二个 - 经度，第三个 - 旋转。若未定义旋转则返回 null。 |
-| [SetRotation](../../aspose.slides/icamera/setrotation)(float, float, float) | 通过使用纬度坐标、经度坐标以及围绕轴的旋转来定义旋转，该轴为纬度和经度坐标。如果任意坐标值为 float.NaN，则所有旋转均未定义。 |
+| [GetRotation](../../aspose.slides/icamera/getrotation)() | 通过使用纬度坐标、经度坐标以及围绕轴的旋转来定义旋转。返回数组的第一个元素 - 纬度，第二个 - 经度，第三个 - 旋转。如果未定义旋转，则返回 null。 |
+| [SetRotation](../../aspose.slides/icamera/setrotation)(float, float, float) | 通过使用纬度坐标、经度坐标以及围绕轴的旋转来定义旋转。如果任意坐标值为 float.NaN，则所有旋转未定义。 |
 
-### 另请参见
+### 另见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

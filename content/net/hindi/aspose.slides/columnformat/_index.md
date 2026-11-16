@@ -1,24 +1,24 @@
 ---
 title: ColumnFormat
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: एक तालिका कॉलम का स्वरूप दर्शाता है।
+description: एक टेबल कॉलम के स्वरूप का प्रतिनिधित्व करता है।
 type: docs
-weight: 2610
+weight: 2630
 url: /hi/aspose.slides/columnformat/
 ---
 ## ColumnFormat क्लास
 
-एक टेबल कॉलम का स्वरूप दर्शाता है।
+टेबल कॉलम का स्वरूप दर्शाता है।
 
 ```csharp
 public sealed class ColumnFormat : DomObject<Column>, IColumnFormat
 ```
 
-## मेथड्स
+## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [GetEffective](../../aspose.slides/columnformat/geteffective)() | विरासत और टेबल शैलियों के लागू होने के साथ प्रभावी टेबल कॉलम फ़ॉर्मेटिंग गुणों को प्राप्त करता है। |
+| [GetEffective](../../aspose.slides/columnformat/geteffective)() | विरासत और टेबल शैलियों के लागू होने के साथ प्रभावी टेबल कॉलम स्वरूप गुण प्राप्त करता है। |
 
 ### संबंधित देखें
 

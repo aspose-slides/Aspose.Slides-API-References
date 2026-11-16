@@ -3,7 +3,7 @@ title: TableFormat
 second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 테이블의 형식을 나타냅니다.
 type: docs
-weight: 10870
+weight: 10890
 url: /ko/aspose.slides/tableformat/
 ---
 ## TableFormat 클래스
@@ -18,14 +18,14 @@ public sealed class TableFormat : DomObject<Table>, ITableFormat
 
 | 이름 | 설명 |
 | --- | --- |
-| [FillFormat](../../aspose.slides/tableformat/fillformat) { get; } | 테이블 채우기 속성 개체를 반환합니다. 읽기 전용 [`IFillFormat`](../ifillformat). |
+| [FillFormat](../../aspose.slides/tableformat/fillformat) { get; } | 테이블 채우기 속성 객체를 반환합니다. 읽기 전용 [`IFillFormat`](../ifillformat). |
 | [Transparency](../../aspose.slides/tableformat/transparency) { get; set; } | 채우기 색상의 투명도를 가져오거나 설정합니다. 읽기/쓰기 Single. |
 
 ## 메서드
 
 | 이름 | 설명 |
 | --- | --- |
-| [GetEffective](../../aspose.slides/tableformat/geteffective)() | 상속 및 테이블 스타일이 적용된 실제 테이블 서식 속성을 가져옵니다. |
+| [GetEffective](../../aspose.slides/tableformat/geteffective)() | 상속 및 적용된 테이블 스타일을 포함한 실제 테이블 서식 속성을 가져옵니다. |
 
 ### 참고
 

@@ -1,14 +1,14 @@
 ---
 title: GlitterTransition
 second_title: Aspose.Sildes for .NET API リファレンス
-description: Glitter スライド遷移効果。
+description: キラキラ スライド遷移効果。
 type: docs
-weight: 10050
+weight: 10070
 url: /ja/aspose.slides.slideshow/glittertransition/
 ---
 ## GlitterTransition クラス
 
-Glitter スライド遷移効果です。
+キラキラスライド遷移効果。
 
 ```csharp
 public class GlitterTransition : TransitionValueBase, IGlitterTransition
@@ -25,13 +25,13 @@ public class GlitterTransition : TransitionValueBase, IGlitterTransition
 
 | 名前 | 説明 |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 2つの TransitionValueBase インスタンスが等しいかどうかを判定します。 |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 2つの TransitionValueBase インスタンスが等しいかどうかを判断します。 |
 | override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 特定の型に対するハッシュ関数として機能し、ハッシュアルゴリズムやハッシュテーブルなどのデータ構造での使用に適しています。 |
 
 ### 参照
 
 * クラス [TransitionValueBase](../transitionvaluebase)
-* インターフェイス [IGlitterTransition](../iglittertransition)
+* インターフェース [IGlitterTransition](../iglittertransition)
 * 名前空間 [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * アセンブリ [Aspose.Slides](../../)
 

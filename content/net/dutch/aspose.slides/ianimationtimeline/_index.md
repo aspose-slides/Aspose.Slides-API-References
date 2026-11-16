@@ -3,7 +3,7 @@ title: IAnimationTimeLine
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Stelt de tijdlijn van animatie voor.
 type: docs
-weight: 5200
+weight: 5220
 url: /nl/aspose.slides/ianimationtimeline/
 ---
 ## IAnimationTimeLine interface
@@ -18,9 +18,9 @@ public interface IAnimationTimeLine
 
 | Naam | Beschrijving |
 | --- | --- |
-| [InteractiveSequences](../../aspose.slides/ianimationtimeline/interactivesequences) { get; } | Retourneert een verzameling van interactieve sequenties. Deze sequenties mogen alleen effecten bevatten via "click on shape" met een gespecificeerde doelvorm. Alleen-lezen [`ISequenceCollection`](../../aspose.slides.animation/isequencecollection). |
-| [MainSequence](../../aspose.slides/ianimationtimeline/mainsequence) { get; } | Retourneert de hoofdsequentie die alleen een verzameling van hoofdeffecten kan bevatten. Alleen-lezen [`ISequence`](../../aspose.slides.animation/isequence). |
-| [TextAnimationCollection](../../aspose.slides/ianimationtimeline/textanimationcollection) { get; } | Retourneert een verzameling van tekstanimaties. Alleen-lezen [`ITextAnimationCollection`](../../aspose.slides.animation/itextanimationcollection). |
+| [InteractiveSequences](../../aspose.slides/ianimationtimeline/interactivesequences) { get; } | Retourneert een verzameling interactieve sequenties. Deze sequenties kunnen alleen effecten bevatten die worden geactiveerd door "klik op vorm" met een gespecificeerde doelvorm. Alleen-lezen [`ISequenceCollection`](../../aspose.slides.animation/isequencecollection). |
+| [MainSequence](../../aspose.slides/ianimationtimeline/mainsequence) { get; } | Retourneert de hoofdsequentie die mogelijk alleen een verzameling hoofd-effecten bevat. Alleen-lezen [`ISequence`](../../aspose.slides.animation/isequence). |
+| [TextAnimationCollection](../../aspose.slides/ianimationtimeline/textanimationcollection) { get; } | Retourneert een verzameling tekstanimaties. Alleen-lezen [`ITextAnimationCollection`](../../aspose.slides.animation/itextanimationcollection). |
 
 ### Zie ook
 

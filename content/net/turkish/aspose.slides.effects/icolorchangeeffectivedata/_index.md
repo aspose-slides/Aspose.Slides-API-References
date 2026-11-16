@@ -1,14 +1,14 @@
 ---
 title: IColorChangeEffectiveData
 second_title: Aspose.Sildes için .NET API Referansı
-description: Renk Değişikliği etkisini temsil eden değiştirilemez nesne. FromColor örnekleri ToColor örnekleriyle değiştirilir.
+description: Renk Değişikliği etkisini temsil eden değişmez nesne. FromColor örnekleri ToColor örnekleriyle değiştirilir.
 type: docs
-weight: 3230
+weight: 3250
 url: /tr/aspose.slides.effects/icolorchangeeffectivedata/
 ---
-## IColorChangeEffectiveData arayüzü
+## IColorChangeEffectiveData arayüz
 
-Değiştirilemez nesne, bir Color Change etkisini temsil eder. FromColor örnekleri ToColor örnekleriyle değiştirilir.
+Immutable object which represents a Color Change effect. Instances of FromColor are replaced with instances of ToColor.
 
 ```csharp
 public interface IColorChangeEffectiveData : IEffectEffectiveData
@@ -18,12 +18,12 @@ public interface IColorChangeEffectiveData : IEffectEffectiveData
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/icolorchangeeffectivedata/asieffecteffectivedata) { get; } | Base IEffectEffectiveData arayüzünü almaya izin verir. Yalnızca okunabilir [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [FromColor](../../aspose.slides.effects/icolorchangeeffectivedata/fromcolor) { get; } | Değiştirilecek renk. Yalnızca okunabilir Color. |
-| [ToColor](../../aspose.slides.effects/icolorchangeeffectivedata/tocolor) { get; } | Yerine geçecek renk. Yalnızca okunabilir Color. |
-| [UseAlpha](../../aspose.slides.effects/icolorchangeeffectivedata/usealpha) { get; } | Alfa bileşeninin kullanılmasını belirleyen bir boolean değer döndürür. Yalnızca okunabilir Boolean. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/icolorchangeeffectivedata/asieffecteffectivedata) { get; } | Temel IEffectEffectiveData arayüzünü almayı sağlar. Yalnızca okuma [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [FromColor](../../aspose.slides.effects/icolorchangeeffectivedata/fromcolor) { get; } | Değiştirilecek renk. Yalnızca okuma Color. |
+| [ToColor](../../aspose.slides.effects/icolorchangeeffectivedata/tocolor) { get; } | Değiştirecek renk. Yalnızca okuma Color. |
+| [UseAlpha](../../aspose.slides.effects/icolorchangeeffectivedata/usealpha) { get; } | Alfa bileşeninin kullanılıp kullanılmayacağını belirleyen bir Boolean değer döndürür. Yalnızca okuma Boolean. |
 
-### Ayrıca Bakınız
+### Ayrıca bakınız
 
 * arayüz [IEffectEffectiveData](../ieffecteffectivedata)
 * ad alanı [Aspose.Slides.Effects](../../aspose.slides.effects)

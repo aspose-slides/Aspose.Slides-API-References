@@ -1,14 +1,14 @@
 ---
 title: IColorSchemeEffectiveData
-second_title: Aspose.Sildes для .NET справочник API
-description: Неизменяемый объект, содержащий эффективные свойства схемы цветов.
+second_title: Aspose.Sildes для .NET Справочник API
+description: Неизменяемый объект, содержащий свойства эффективной цветовой схемы.
 type: docs
-weight: 11160
+weight: 11180
 url: /ru/aspose.slides.theme/icolorschemeeffectivedata/
 ---
 ## IColorSchemeEffectiveData интерфейс
 
-Неизменяемый объект, содержащий эффективные свойства схемы цветов.
+Неизменяемый объект, содержащий свойства эффективной цветовой схемы.
 
 ```csharp
 public interface IColorSchemeEffectiveData
@@ -36,7 +36,7 @@ public interface IColorSchemeEffectiveData
 
 Этот класс используется как часть [`IThemeEffectiveData`](../ithemeeffectivedata).
 
-### См. также
+### Смотрите также
 
 * пространство имён [Aspose.Slides.Theme](../../aspose.slides.theme)
 * сборка [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: IPptOptions
-second_title: Aspose.Sildes dla .NET – odniesienie API
+second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Udostępnia opcje kontrolujące sposób zapisywania prezentacji w formacie PPT.
 type: docs
-weight: 4010
+weight: 4030
 url: /pl/aspose.slides.export/ipptoptions/
 ---
 ## IPptOptions interfejs
 
-Udostępnia opcje kontrolujące sposób zapisywania prezentacji w formacie PPT.
+Provides options that control how a presentation is saved in PPT format.
 
 ```csharp
 public interface IPptOptions : ISaveOptions
@@ -19,7 +19,7 @@ public interface IPptOptions : ISaveOptions
 | Nazwa | Opis |
 | --- | --- |
 | [AsISaveOptions](../../aspose.slides.export/ipptoptions/asisaveoptions) { get; } | Zwraca interfejs ISaveOptions. Tylko do odczytu [`ISaveOptions`](../isaveoptions). |
-| [RootDirectoryClsid](../../aspose.slides.export/ipptoptions/rootdirectoryclsid) { get; set; } | Reprezentuje GUID klasy obiektu (CLSID) przechowywany w wpisie katalogu głównego. Może być użyty do aktywacji COM aplikacji dokumentu. Domyślna wartość to '64818D11-4F9B-11CF-86EA-00AA00B929E8', która odpowiada 'Microsoft Powerpoint.Slide.8'. |
+| [RootDirectoryClsid](../../aspose.slides.export/ipptoptions/rootdirectoryclsid) { get; set; } | Reprezentuje klasę GUID obiektu (CLSID), która jest przechowywana w wpisie katalogu głównego. Może być użyta do aktywacji COM aplikacji dokumentu. Domyślna wartość to '64818D11-4F9B-11CF-86EA-00AA00B929E8', która odpowiada 'Microsoft Powerpoint.Slide.8'. |
 
 ### Zobacz także
 

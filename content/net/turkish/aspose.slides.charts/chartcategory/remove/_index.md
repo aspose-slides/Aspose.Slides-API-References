@@ -1,14 +1,14 @@
 ---
 title: Remove
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes for .NET API Referansı
 description: Grafikten kategoriyi kaldırır.
 type: docs
-weight: 60
+weight: 70
 url: /tr/aspose.slides.charts/chartcategory/remove/
 ---
-## ChartCategory.Remove metodu
+## ChartCategory.Remove metot
 
-Grafikten kategori kaldırır.
+Grafikten kategoriyi kaldırır.
 
 ```csharp
 public void Remove()
@@ -20,7 +20,7 @@ public void Remove()
 | --- | --- |
 | [PptxEditException](../../../aspose.slides/pptxeditexception) | Kategori zaten grafikten kaldırılmışsa fırlatılır. |
 
-### Ayrıca Bakınız
+### Bakınız
 
 * sınıf [ChartCategory](../../chartcategory)
 * ad alanı [Aspose.Slides.Charts](../../chartcategory)

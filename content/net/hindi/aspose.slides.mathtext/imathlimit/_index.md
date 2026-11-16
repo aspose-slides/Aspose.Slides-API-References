@@ -1,14 +1,14 @@
 ---
 title: IMathLimit
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: Baseline पर पाठ और उसके ठीक ऊपर या नीचे छोटे आकार के पाठ सहित Limit ऑब्जेक्ट को निर्दिष्ट करता है।
+description: बेसलाइन पर टेक्स्ट और उसके तुरंत ऊपर या नीचे छोटे आकार के टेक्स्ट से बनी Limit ऑब्जेक्ट को निर्दिष्ट करता है।
 type: docs
-weight: 8320
+weight: 8340
 url: /hi/aspose.slides.mathtext/imathlimit/
 ---
 ## IMathLimit इंटरफ़ेस
 
-Limit ऑब्जेक्ट को निर्दिष्ट करता है, जिसमें बेसलाइन पर पाठ और उसके ठीक ऊपर या नीचे छोटा आकार का पाठ शामिल होता है।
+Limit ऑब्जेक्ट को निर्दिष्ट करता है, जिसमें बेसलाइन पर टेक्स्ट और उसके तुरंत ऊपर या नीचे छोटा आकार का टेक्स्ट होता है।
 
 ```csharp
 public interface IMathLimit : IMathElement
@@ -18,9 +18,9 @@ public interface IMathLimit : IMathElement
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathlimit/asimathelement) { get; } | बेस IMathElement इंटरफ़ेस [`IMathElement`](../imathelement) प्राप्त करने की अनुमति देता है |
+| [AsIMathElement](../../aspose.slides.mathtext/imathlimit/asimathelement) { get; } | बेस IMathElement इंटरफ़ेस प्राप्त करने की अनुमति देता है [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathlimit/base) { get; } | बेस तर्क |
-| [Limit](../../aspose.slides.mathtext/imathlimit/limit) { get; } | सीमा तर्क |
+| [Limit](../../aspose.slides.mathtext/imathlimit/limit) { get; } | Limit तर्क |
 | [UpperLimit](../../aspose.slides.mathtext/imathlimit/upperlimit) { get; set; } | ऊपरी या निचली सीमा निर्दिष्ट करता है |
 
 ### उदाहरण
@@ -32,7 +32,7 @@ public interface IMathLimit : IMathElement
 IMathLimit limitElement = new MathLimit(new MathematicalText("lim"), new MathematicalText("𝑛→∞"));
 ```
 
-### संबंधित देखें
+### देखें
 
 * इंटरफ़ेस [IMathElement](../imathelement)
 * नामस्थान [Aspose.Slides.MathText](../../aspose.slides.mathtext)

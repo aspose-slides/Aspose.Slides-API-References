@@ -1,14 +1,14 @@
 ---
 title: LayoutTargetType
-second_title: Aspose.Sildes pour .NET Référence de l'API
-description: Si la disposition de la zone de tracé est définie manuellement, cette propriété indique s'il faut disposer la zone de tracé à l'intérieur, sans inclure les axes et les libellés d'axe, ou à l'extérieur, en incluant les axes et les libellés d'axe.
+second_title: Référence API Aspose.Sildes pour .NET
+description: Si la disposition de la zone du tracé est définie manuellement, cette propriété indique s'il faut disposer la zone du tracé à l'intérieur, sans inclure les axes et les étiquettes d'axes, ou à l'extérieur, en incluant les axes et les étiquettes d'axes.
 type: docs
-weight: 2270
+weight: 2290
 url: /fr/aspose.slides.charts/layouttargettype/
 ---
-## LayoutTargetType énumération
+## LayoutTargetType enumeration
 
-Si la disposition de la zone de tracé est définie manuellement, cette propriété indique si la zone de tracé doit être disposée à l'intérieur (sans inclure les axes et les libellés d'axe) ou à l'extérieur (en incluant les axes et les libellés d'axe).
+Si la disposition de la zone de tracé est définie manuellement, cette propriété indique s'il faut disposer la zone de tracé à l'intérieur (sans inclure les axes et les étiquettes d'axes) ou à l'extérieur (en incluant les axes et les étiquettes d'axes).
 
 ```csharp
 public enum LayoutTargetType
@@ -18,8 +18,8 @@ public enum LayoutTargetType
 
 | Nom | Valeur | Description |
 | --- | --- | --- |
-| Inner | `0` | Spécifie que la taille de la zone de tracé détermine la taille de la zone de tracé, sans inclure les marques de graduation et les libellés d'axe. |
-| Outer | `1` | Spécifie que la taille de la zone de tracé détermine la taille de la zone de tracé, les marques de graduation et les libellés d'axe. |
+| Inner | `0` | Indique que la taille de la zone de tracé détermine la taille de la zone de tracé, sans inclure les marques de graduation et les étiquettes d'axes. |
+| Outer | `1` | Indique que la taille de la zone de tracé détermine la taille de la zone de tracé, les marques de graduation et les étiquettes d'axes. |
 
 ### Voir aussi
 

@@ -1,20 +1,20 @@
 ---
 title: GetSubstitutions
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
-description: รับข้อมูลเกี่ยวกับแบบอักษรที่จะแทนที่ในการเรนเดอร์ของงานนำเสนอ
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: รับข้อมูลเกี่ยวกับแบบอักษรที่จะแทนที่ในการแสดงผลของงานนำเสนอ
 type: docs
-weight: 80
+weight: 90
 url: /th/aspose.slides/fontsmanager/getsubstitutions/
 ---
 ## GetSubstitutions() {#getsubstitutions}
 
-รับข้อมูลเกี่ยวกับแบบอักษรที่จะแทนที่ในการเรนเดอร์ของงานนำเสนอ.
+รับข้อมูลเกี่ยวกับแบบอักษรที่จะแทนที่ในการแสดงผลของงานนำเสนอ
 
 ```csharp
 public IEnumerable<FontSubstitutionInfo> GetSubstitutions()
 ```
 
-### ค่าที่ส่งกลับ
+### ค่าที่คืน
 
 คอลเลกชันของการแทนที่แบบอักษรทั้งหมด [`FontSubstitutionInfo`](../../fontsubstitutioninfo).
 
@@ -41,19 +41,19 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 ## GetSubstitutions(int[]) {#getsubstitutions_1}
 
-รับข้อมูลเกี่ยวกับแบบอักษรที่จะแทนที่ระหว่างการเรนเดอร์ของสไลด์ที่ระบุ.
+รับข้อมูลเกี่ยวกับแบบอักษรที่จะแทนที่ในการแสดงผลของสไลด์ที่ระบุ
 
 ```csharp
 public IEnumerable<FontSubstitutionInfo> GetSubstitutions(int[] slides)
 ```
 
-| Parameter | Type | Description |
+| พารามิเตอร์ | ประเภท | คำอธิบาย |
 | --- | --- | --- |
-| slides | Int32[] | อาร์เรย์ของดัชนีสไลด์ที่ต้องการดึงข้อมูลการแทนที่แบบอักษร เริ่มจาก 1. |
+| slides | Int32[] | อาร์เรย์ของดัชนีสไลด์ที่ต้องดึงข้อมูลการแทนที่แบบอักษร, เริ่มต้นจาก 1. |
 
-### ค่าที่ส่งกลับ
+### ค่าที่คืน
 
-คอลเลกชันของการแทนที่แบบอักษรทั้งหมด ([`FontSubstitutionInfo`](../../fontsubstitutioninfo)) สำหรับสไลด์ที่ระบุ.
+คอลเลกชันของการแทนที่แบบอักษรทั้งหมด ([`FontSubstitutionInfo`](../../fontsubstitutioninfo)) สำหรับสไลด์ที่ระบุ
 
 ### ตัวอย่าง
 

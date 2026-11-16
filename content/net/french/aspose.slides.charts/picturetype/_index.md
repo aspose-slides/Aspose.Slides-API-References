@@ -1,29 +1,29 @@
 ---
 title: PictureType
 second_title: Référence API Aspose.Sildes pour .NET
-description: Détermine le mode de remplissage d’image de barre.
+description: Détermine le mode de remplissage d'image de barre.
 type: docs
-weight: 2360
+weight: 2380
 url: /fr/aspose.slides.charts/picturetype/
 ---
 ## PictureType énumération
 
-Détermine le mode de remplissage d’image de barre.
+Détermine le mode de remplissage d'image de barre.
 
 ```csharp
 public enum PictureType
 ```
 
-### Valeurs
+### Values
 
 | Nom | Valeur | Description |
 | --- | --- | --- |
 | NotDefined | `-1` | Non défini. |
-| Stack | `0` | L’image est dimensionnée pour se répéter au maximum 15 fois dans la barre empilée la plus longue. |
-| StackScale | `1` | L’image est dimensionnée à un nombre d’unités spécifié et répétée sur toute la longueur de la barre. |
-| Stretch | `2` | L’image est étirée sur toute la longueur de la barre empilée. |
+| Stack | `0` | L'image est redimensionnée pour se répéter au maximum 15 fois dans la barre empilée la plus longue. |
+| StackScale | `1` | L'image est redimensionnée à un nombre d'unités spécifié et répétée sur toute la longueur de la barre. |
+| Stretch | `2` | L'image est étirée sur toute la longueur de la barre empilée. |
 
-### Voir aussi
+### See Also
 
 * espace de noms [Aspose.Slides.Charts](../../aspose.slides.charts)
 * assemblage [Aspose.Slides](../../)

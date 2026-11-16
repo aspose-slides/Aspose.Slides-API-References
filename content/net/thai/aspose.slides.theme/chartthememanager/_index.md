@@ -1,14 +1,14 @@
 ---
 title: ChartThemeManager
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: ให้การเข้าถึงธีมแผนภูมิที่ถูกแทนที่
+description: ให้การเข้าถึงธีมแผนภูมิที่ถูกแทนที่.
 type: docs
-weight: 11060
+weight: 11080
 url: /th/aspose.slides.theme/chartthememanager/
 ---
 ## ChartThemeManager คลาส
 
-ให้การเข้าถึงธีมแผนภูมิที่ถูกแทนที่
+ให้การเข้าถึงธีมแผนภูมิที่ถูกแทนที่.
 
 ```csharp
 public class ChartThemeManager : BaseOverrideThemeManager
@@ -18,14 +18,14 @@ public class ChartThemeManager : BaseOverrideThemeManager
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | กำหนดว่า OverrideTheme จะทำการแทนที่ธีมที่สืบทอดที่มีประสิทธิภาพหรือไม่ เพื่อเปิดใช้งาน OverrideTheme สำหรับการแทนที่ ให้ใช้เมธอด OverrideTheme.Init*() เพื่อปิดการใช้งาน OverrideTheme จากการแทนที่ ให้ใช้เมธอด OverrideTheme.Clear() อ่านอย่างเดียว Boolean. |
-| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | คืนค่าอ็อบเจ็กต์ธีมที่แทนที่. อ่าน/เขียน [`IOverrideTheme`](../ioverridetheme). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | กำหนดว่า OverrideTheme จะทำการแทนที่ธีมที่สืบทอดมาหรือไม่ ใช้เมธอด OverrideTheme.Init*() เพื่อเปิดใช้งาน OverrideTheme สำหรับการแทนที่ ใช้เมธอด OverrideTheme.Clear() เพื่อปิดการแทนที่ OverrideTheme อ่านอย่างเดียว Boolean. |
+| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | คืนค่าอ็อบเจ็กต์ธีมที่กำลังแทนที่. อ่าน/เขียน [`IOverrideTheme`](../ioverridetheme). |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | นำโซมสีพิเศษไปใช้กับสไลด์. |
+| [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | นำโครงร่างสีเพิ่มเติมไปใช้กับสไลด์หนึ่ง. |
 | [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | คืนค่าอ็อบเจ็กต์ธีม. |
 
 ### ดูเพิ่มเติม

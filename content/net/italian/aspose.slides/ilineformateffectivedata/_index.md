@@ -1,14 +1,14 @@
 ---
 title: ILineFormatEffectiveData
 second_title: Aspose.Sildes per .NET Riferimento API
-description: Oggetto immutabile che contiene le proprietà di formattazione effettiva della linea.
+description: Oggetto immutabile che contiene le proprietà di formattazione della linea effettiva.
 type: docs
-weight: 6320
+weight: 6340
 url: /it/aspose.slides/ilineformateffectivedata/
 ---
-## Interfaccia ILineFormatEffectiveData
+## ILineFormatEffectiveData interfaccia
 
-Oggetto immutabile che contiene le proprietà di formattazione effettiva della linea.
+Oggetto immutabile che contiene le proprietà di formattazione della linea effettiva.
 
 ```csharp
 public interface ILineFormatEffectiveData : ILineParamSource
@@ -16,35 +16,35 @@ public interface ILineFormatEffectiveData : ILineParamSource
 
 ## Proprietà
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
-| [Alignment](../../aspose.slides/ilineformateffectivedata/alignment) { get; } | Restituisce l'allineamento della linea. Solo lettura [`LineAlignment`](../linealignment). |
-| [AsILineParamSource](../../aspose.slides/ilineformateffectivedata/asilineparamsource) { get; } | Consente di ottenere l'interfaccia base ILineParamSource. Solo lettura [`ILineParamSource`](../ilineparamsource). |
-| [BeginArrowheadLength](../../aspose.slides/ilineformateffectivedata/beginarrowheadlength) { get; } | Restituisce la lunghezza della punta della freccia all'inizio di una linea. Solo lettura [`LineArrowheadLength`](../linearrowheadlength). |
-| [BeginArrowheadStyle](../../aspose.slides/ilineformateffectivedata/beginarrowheadstyle) { get; } | Restituisce lo stile della punta della freccia all'inizio di una linea. Solo lettura [`LineArrowheadStyle`](../linearrowheadstyle). |
-| [BeginArrowheadWidth](../../aspose.slides/ilineformateffectivedata/beginarrowheadwidth) { get; } | Restituisce la larghezza della punta della freccia all'inizio di una linea. Solo lettura [`LineArrowheadWidth`](../linearrowheadwidth). |
-| [CapStyle](../../aspose.slides/ilineformateffectivedata/capstyle) { get; } | Restituisce lo stile della fine della linea. Solo lettura [`LineCapStyle`](../linecapstyle). |
-| [CustomDashPattern](../../aspose.slides/ilineformateffectivedata/customdashpattern) { get; } | Restituisce lo schema di tratteggio personalizzato. Solo lettura Single[]. |
-| [DashStyle](../../aspose.slides/ilineformateffectivedata/dashstyle) { get; } | Restituisce lo stile di tratteggio della linea. Solo lettura [`LineDashStyle`](../linedashstyle). |
-| [EndArrowheadLength](../../aspose.slides/ilineformateffectivedata/endarrowheadlength) { get; } | Restituisce la lunghezza della punta della freccia alla fine di una linea. Solo lettura [`LineArrowheadLength`](../linearrowheadlength). |
-| [EndArrowheadStyle](../../aspose.slides/ilineformateffectivedata/endarrowheadstyle) { get; } | Restituisce lo stile della punta della freccia alla fine di una linea. Solo lettura [`LineArrowheadStyle`](../linearrowheadstyle). |
-| [EndArrowheadWidth](../../aspose.slides/ilineformateffectivedata/endarrowheadwidth) { get; } | Restituisce la larghezza della punta della freccia alla fine di una linea. Solo lettura [`LineArrowheadWidth`](../linearrowheadwidth). |
-| [FillFormat](../../aspose.slides/ilineformateffectivedata/fillformat) { get; } | Restituisce il formato di riempimento di una linea. Solo lettura [`ILineFillFormatEffectiveData`](../ilinefillformateffectivedata). |
-| [JoinStyle](../../aspose.slides/ilineformateffectivedata/joinstyle) { get; } | Restituisce lo stile di unione delle linee. Solo lettura [`LineJoinStyle`](../linejoinstyle). |
-| [MiterLimit](../../aspose.slides/ilineformateffectivedata/miterlimit) { get; } | Restituisce il limite di spigolo di una linea. Solo lettura Single. |
-| [SketchFormat](../../aspose.slides/ilineformateffectivedata/sketchformat) { get; } | Restituisce il formato di schizzo di una linea. Solo lettura [`ISketchFormatEffectiveData`](../isketchformateffectivedata). |
-| [Style](../../aspose.slides/ilineformateffectivedata/style) { get; } | Restituisce lo stile della linea. Solo lettura [`LineStyle`](../linestyle). |
-| [Width](../../aspose.slides/ilineformateffectivedata/width) { get; } | Restituisce la larghezza di una linea. Solo lettura Double. |
+| [Alignment](../../aspose.slides/ilineformateffectivedata/alignment) { get; } | Restituisce l'allineamento della linea. Sola lettura [`LineAlignment`](../linealignment). |
+| [AsILineParamSource](../../aspose.slides/ilineformateffectivedata/asilineparamsource) { get; } | Consente di ottenere l'interfaccia base ILineParamSource. Sola lettura [`ILineParamSource`](../ilineparamsource). |
+| [BeginArrowheadLength](../../aspose.slides/ilineformateffectivedata/beginarrowheadlength) { get; } | Restituisce la lunghezza della punta di freccia all'inizio di una linea. Sola lettura [`LineArrowheadLength`](../linearrowheadlength). |
+| [BeginArrowheadStyle](../../aspose.slides/ilineformateffectivedata/beginarrowheadstyle) { get; } | Restituisce lo stile della punta di freccia all'inizio di una linea. Sola lettura [`LineArrowheadStyle`](../linearrowheadstyle). |
+| [BeginArrowheadWidth](../../aspose.slides/ilineformateffectivedata/beginarrowheadwidth) { get; } | Restituisce la larghezza della punta di freccia all'inizio di una linea. Sola lettura [`LineArrowheadWidth`](../linearrowheadwidth). |
+| [CapStyle](../../aspose.slides/ilineformateffectivedata/capstyle) { get; } | Restituisce lo stile del cappuccio della linea. Sola lettura [`LineCapStyle`](../linecapstyle). |
+| [CustomDashPattern](../../aspose.slides/ilineformateffectivedata/customdashpattern) { get; } | Restituisce il modello di trattino personalizzato. Sola lettura Single[]. |
+| [DashStyle](../../aspose.slides/ilineformateffectivedata/dashstyle) { get; } | Restituisce lo stile di trattino della linea. Sola lettura [`LineDashStyle`](../linedashstyle). |
+| [EndArrowheadLength](../../aspose.slides/ilineformateffectivedata/endarrowheadlength) { get; } | Restituisce la lunghezza della punta di freccia alla fine di una linea. Sola lettura [`LineArrowheadLength`](../linearrowheadlength). |
+| [EndArrowheadStyle](../../aspose.slides/ilineformateffectivedata/endarrowheadstyle) { get; } | Restituisce lo stile della punta di freccia alla fine di una linea. Sola lettura [`LineArrowheadStyle`](../linearrowheadstyle). |
+| [EndArrowheadWidth](../../aspose.slides/ilineformateffectivedata/endarrowheadwidth) { get; } | Restituisce la larghezza della punta di freccia alla fine di una linea. Sola lettura [`LineArrowheadWidth`](../linearrowheadwidth). |
+| [FillFormat](../../aspose.slides/ilineformateffectivedata/fillformat) { get; } | Restituisce il formato di riempimento di una linea. Sola lettura [`ILineFillFormatEffectiveData`](../ilinefillformateffectivedata). |
+| [JoinStyle](../../aspose.slides/ilineformateffectivedata/joinstyle) { get; } | Restituisce lo stile di giunzione delle linee. Sola lettura [`LineJoinStyle`](../linejoinstyle). |
+| [MiterLimit](../../aspose.slides/ilineformateffectivedata/miterlimit) { get; } | Restituisce il limite di spigolo di una linea. Sola lettura Single. |
+| [SketchFormat](../../aspose.slides/ilineformateffectivedata/sketchformat) { get; } | Restituisce il formato di schizzo di una linea. Sola lettura [`ISketchFormatEffectiveData`](../isketchformateffectivedata). |
+| [Style](../../aspose.slides/ilineformateffectivedata/style) { get; } | Restituisce lo stile della linea. Sola lettura [`LineStyle`](../linestyle). |
+| [Width](../../aspose.slides/ilineformateffectivedata/width) { get; } | Restituisce la larghezza di una linea. Sola lettura Double. |
 
 ## Metodi
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
 | [Equals](../../aspose.slides/ilineformateffectivedata/equals)(ILineFormatEffectiveData) | Determina se le due istanze ILineFormatEffectiveData sono uguali. |
 
 ### Osservazioni
 
-Questa interfaccia è usata insieme all'interfaccia [`ILineFormat`](../ilineformat) per restituire i valori di formattazione effettiva con l'ereditarietà applicata.
+Questa interfaccia viene utilizzata insieme all'interfaccia [`ILineFormat`](../ilineformat) per restituire i valori di formattazione effettivi con l'ereditarietà applicata.
 
 ### Vedi anche
 

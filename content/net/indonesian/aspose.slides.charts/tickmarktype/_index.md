@@ -1,12 +1,12 @@
 ---
 title: TickMarkType
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili tipe tanda centang untuk sumbu yang ditentukan.
 type: docs
-weight: 2450
+weight: 2470
 url: /id/aspose.slides.charts/tickmarktype/
 ---
-## TickMarkType enumerasi
+## enumerasi TickMarkType
 
 Mewakili tipe tanda centang untuk sumbu yang ditentukan.
 
@@ -14,14 +14,14 @@ Mewakili tipe tanda centang untuk sumbu yang ditentukan.
 public enum TickMarkType
 ```
 
-### Values
+### Nilai
 
 | Nama | Nilai | Deskripsi |
 | --- | --- | --- |
 | Cross | `0` | Menentukan bahwa tanda centang harus melintasi sumbu. |
-| Inside | `1` | Menentukan bahwa tanda centang berada di dalam area plot. |
-| None | `2` | Menentukan tidak ada tanda centang. |
-| Outside | `3` | Menentukan bahwa tanda centang berada di luar area plot. |
+| Inside | `1` | Menentukan bahwa tanda centang harus berada di dalam area plot. |
+| None | `2` | Menentukan bahwa tidak ada tanda centang. |
+| Outside | `3` | Menentukan bahwa tanda centang harus berada di luar area plot. |
 
 ### Lihat Juga
 

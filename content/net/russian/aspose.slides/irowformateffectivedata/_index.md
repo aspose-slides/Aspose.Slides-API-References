@@ -1,9 +1,9 @@
 ---
 title: IRowFormatEffectiveData
-second_title: Aspose.Sildes для .NET справочника API
+second_title: Aspose.Sildes для .NET API Reference
 description: Неизменяемый объект, содержащий эффективные свойства форматирования строк таблицы.
 type: docs
-weight: 6880
+weight: 6900
 url: /ru/aspose.slides/irowformateffectivedata/
 ---
 ## IRowFormatEffectiveData интерфейс
@@ -22,7 +22,7 @@ public interface IRowFormatEffectiveData : IBaseTableFormatEffectiveData
 
 ### Примечания
 
-Этот интерфейс используется вместе с интерфейсом [`IRowFormat`](../irowformat) для возврата эффективных значений форматирования с учётом наследования и применёнными стилями таблицы.
+This interface is used together with the [`IRowFormat`](../irowformat) interface to return effective formatting values with inheritance and table styles applied.
 
 ### См. также
 

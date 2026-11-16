@@ -3,7 +3,7 @@ title: IReflection
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Stelt een reflectie-effect voor.
 type: docs
-weight: 3500
+weight: 3520
 url: /nl/aspose.slides.effects/ireflection/
 ---
 ## IReflection interface
@@ -19,22 +19,22 @@ public interface IReflection : IAccessiblePVIObject<IReflectionEffectiveData>,
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ireflection/asiaccessiblepviobject) { get; } | Staat toe de basis-interface IAccessiblePVIObject op te halen. Alleen-lezen [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ireflection/asiimagetransformoperation) { get; } | Staat toe de basis-interface IImageTransformOperation op te halen. Alleen-lezen [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ireflection/asiaccessiblepviobject) { get; } | Staat toe de basis IAccessiblePVIObject interface op te halen. Alleen-lezen [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ireflection/asiimagetransformoperation) { get; } | Staat toe de basis IImageTransformOperation interface op te halen. Alleen-lezen [`IImageTransformOperation`](../iimagetransformoperation). |
 | [BlurRadius](../../aspose.slides.effects/ireflection/blurradius) { get; set; } | Vervaagingsstraal. Lezen/Schrijven Double. |
-| [Direction](../../aspose.slides.effects/ireflection/direction) { get; set; } | Richting van de reflectie. Lezen/Schrijven Single. |
-| [Distance](../../aspose.slides.effects/ireflection/distance) { get; set; } | Afstand van de reflectie. Lezen/Schrijven Double. |
-| [EndPosAlpha](../../aspose.slides.effects/ireflection/endposalpha) { get; set; } | Specificeert de eindpositie (langs de alfa-gradiënthelling) van de eind-alfa-waarde (percentages). Lezen/Schrijven Single. |
+| [Direction](../../aspose.slides.effects/ireflection/direction) { get; set; } | Richting van reflectie. Lezen/Schrijven Single. |
+| [Distance](../../aspose.slides.effects/ireflection/distance) { get; set; } | Afstand van reflectie. Lezen/Schrijven Double. |
+| [EndPosAlpha](../../aspose.slides.effects/ireflection/endposalpha) { get; set; } | Specificeert de eindpositie (langs de alfa-gradienthelling) van de eind-alfa-waarde (percentages). Lezen/Schrijven Single. |
 | [EndReflectionOpacity](../../aspose.slides.effects/ireflection/endreflectionopacity) { get; set; } | Eind-reflectie-opaciteit. (percentages). Lezen/Schrijven Single. |
 | [FadeDirection](../../aspose.slides.effects/ireflection/fadedirection) { get; set; } | Specificeert de richting om de reflectie te verschuiven. (hoek). Lezen/Schrijven Single. |
 | [RectangleAlign](../../aspose.slides.effects/ireflection/rectanglealign) { get; set; } | Rechthoekuitlijning. Lezen/Schrijven [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/ireflection/rotateshadowwithshape) { get; set; } | Specificeert of de reflectie moet roteren met de vorm wanneer de vorm wordt geroteerd. Lezen/Schrijven Boolean. |
+| [RotateShadowWithShape](../../aspose.slides.effects/ireflection/rotateshadowwithshape) { get; set; } | Specificeert of de reflectie moet roteren mee met de vorm als de vorm wordt geroteerd. Lezen/Schrijven Boolean. |
 | [ScaleHorizontal](../../aspose.slides.effects/ireflection/scalehorizontal) { get; set; } | Specificeert de horizontale schaalfactor, negatieve schaal veroorzaakt een omkering. (percentages) Lezen/Schrijven Double. |
 | [ScaleVertical](../../aspose.slides.effects/ireflection/scalevertical) { get; set; } | Specificeert de verticale schaalfactor, negatieve schaal veroorzaakt een omkering. (percentages) Lezen/Schrijven Double. |
 | [SkewHorizontal](../../aspose.slides.effects/ireflection/skewhorizontal) { get; set; } | Specificeert de horizontale scheefhoek. Lezen/Schrijven Double. |
 | [SkewVertical](../../aspose.slides.effects/ireflection/skewvertical) { get; set; } | Specificeert de verticale scheefhoek. Lezen/Schrijven Double. |
-| [StartPosAlpha](../../aspose.slides.effects/ireflection/startposalpha) { get; set; } | Specificeert de startpositie (langs de alfa-gradiënthelling) van de start-alfa-waarde (percentages). Lezen/Schrijven Single. |
-| [StartReflectionOpacity](../../aspose.slides.effects/ireflection/startreflectionopacity) { get; set; } | Begin-reflectie-opaciteit. (percentages). Lezen/Schrijven Single. |
+| [StartPosAlpha](../../aspose.slides.effects/ireflection/startposalpha) { get; set; } | Specificeert de startpositie (langs de alfa-gradienthelling) van de start-alfa-waarde (percentages). Lezen/Schrijven Single. |
+| [StartReflectionOpacity](../../aspose.slides.effects/ireflection/startreflectionopacity) { get; set; } | Start-reflectie-opaciteit. (percentages). Lezen/Schrijven Single. |
 
 ### Zie ook
 

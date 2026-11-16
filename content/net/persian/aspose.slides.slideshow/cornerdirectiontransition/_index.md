@@ -1,14 +1,14 @@
 ---
 title: CornerDirectionTransition
 second_title: مرجع API Aspose.Sildes برای .NET
-description: اثر انتقال اسلاید جهت گوشه‌ای.
+description: اثر انتقال اسلاید با جهت گوشه‌ای.
 type: docs
-weight: 10010
+weight: 10030
 url: /fa/aspose.slides.slideshow/cornerdirectiontransition/
 ---
-## کلاس CornerDirectionTransition
+## CornerDirectionTransition کلاس
 
-اثر اسلاید انتقال جهت گوشه‌ای.
+اثر انتقال اسلاید با جهت گوشه‌ای.
 
 ```csharp
 public class CornerDirectionTransition : TransitionValueBase, ICornerDirectionTransition
@@ -16,16 +16,16 @@ public class CornerDirectionTransition : TransitionValueBase, ICornerDirectionTr
 
 ## ویژگی‌ها
 
-| Name | Description |
+| نام | توضیح |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/cornerdirectiontransition/direction) { get; set; } | جهت انتقال. قابل خواندن/نوشتن [`TransitionCornerDirectionType`](../transitioncornerdirectiontype). |
+| [Direction](../../aspose.slides.slideshow/cornerdirectiontransition/direction) { get; set; } | جهت انتقال. خواندنی/نوشتنی [`TransitionCornerDirectionType`](../transitioncornerdirectiontype). |
 
 ## متدها
 
-| Name | Description |
+| نام | توضیح |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | تعیین می‌کند که آیا دو نمونه TransitionValueBase برابر هستند یا خیر. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | به عنوان تابع هش برای یک نوع خاص عمل می‌کند که برای استفاده در الگوریتم‌های هش و ساختارهای داده‌ای مانند جدول هش مناسب است. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | تعیین می‌کند آیا دو نمونهٔ TransitionValueBase برابر هستند یا خیر. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | به عنوان یک تابع هش برای یک نوع خاص عمل می‌کند که برای استفاده در الگوریتم‌های هش و ساختارهای داده‌ای مانند جدول هش مناسب است. |
 
 ### موارد مرتبط
 

@@ -1,14 +1,14 @@
 ---
 title: MathIntegralTypes
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Tipe integral matematis
+description: Tipe integral matematika
 type: docs
-weight: 8790
+weight: 8810
 url: /id/aspose.slides.mathtext/mathintegraltypes/
 ---
-## enumerasi MathIntegralTypes
+## MathIntegralTypes enumerasi
 
-Tipe integral matematis
+Tipe integral matematika
 
 ```csharp
 public enum MathIntegralTypes

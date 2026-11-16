@@ -1,14 +1,14 @@
 ---
 title: ViewType
-second_title: Aspose.Sildes for .NET API Referansı
-description: Sunum görünüm türleri
+second_title: Aspose.Sildes için .NET API Referansı
+description: Sunum görüntüleme türleri
 type: docs
-weight: 11750
+weight: 11770
 url: /tr/aspose.slides/viewtype/
 ---
-## ViewType enum'ı
+## ViewType numaralandırması
 
-Sunum görünüm türleri
+Sunum görüntüleme türleri
 
 ```csharp
 public enum ViewType
@@ -22,7 +22,7 @@ public enum ViewType
 | SlideView | `1` | Normal Slayt Görünümü |
 | SlideMasterView | `2` | Slayt Ana Görünümü |
 | NotesView | `3` | Not Görünümü |
-| HandoutView | `4` | El Kitapçığı Görünümü |
+| HandoutView | `4` | El Çıktısı Görünümü |
 | NotesMasterView | `5` | Not Ana Görünümü |
 | OutlineView | `6` | Anahat Görünümü |
 | SlideSorterView | `7` | Slayt Sıralayıcı Görünümü |

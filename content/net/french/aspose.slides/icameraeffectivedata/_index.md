@@ -1,14 +1,14 @@
 ---
 title: ICameraEffectiveData
-second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Objet immuable qui contient les propriétés effectives de la caméra.
+second_title: Aspose.Sildes pour .NET Référence API
+description: Objet immuable contenant les propriétés effectives de la caméra.
 type: docs
-weight: 5420
+weight: 5440
 url: /fr/aspose.slides/icameraeffectivedata/
 ---
 ## ICameraEffectiveData interface
 
-Objet immuable qui contient les propriétés effectives de la caméra.
+Objet immuable contenant les propriétés effectives de la caméra.
 
 ```csharp
 public interface ICameraEffectiveData
@@ -19,18 +19,18 @@ public interface ICameraEffectiveData
 | Nom | Description |
 | --- | --- |
 | [CameraType](../../aspose.slides/icameraeffectivedata/cameratype) { get; } | Type de caméra. Lecture seule [`CameraPresetType`](../camerapresettype). |
-| [FieldOfViewAngle](../../aspose.slides/icameraeffectivedata/fieldofviewangle) { get; } | FOV de la caméra (0-180 deg, champ de vision). Lecture seule Single. |
+| [FieldOfViewAngle](../../aspose.slides/icameraeffectivedata/fieldofviewangle) { get; } | FOV de la caméra (0-180 degrés, champ de vision). Lecture seule Single. |
 | [Zoom](../../aspose.slides/icameraeffectivedata/zoom) { get; } | Zoom de la caméra (valeur positive en pourcentage). Lecture seule Single. |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
-| [GetRotation](../../aspose.slides/icameraeffectivedata/getrotation)() | Une rotation est définie par l’utilisation d’une coordonnée de latitude, d’une coordonnée de longitude et d’une révolution autour de l’axe selon les coordonnées de latitude et de longitude. premier élément du tableau de retour - latitude, deuxième - longitude, troisième - révolution. Retourne null si aucune rotation n’est définie. |
+| [GetRotation](../../aspose.slides/icameraeffectivedata/getrotation)() | Une rotation est définie par l'utilisation d'une coordonnée de latitude, d'une coordonnée de longitude et d'une révolution autour de l'axe selon les coordonnées de latitude et de longitude. premier élément du tableau retourné - latitude, deuxième - longitude, troisième - révolution. Retourne null si aucune rotation n'est définie. |
 
 ### Remarques
 
-Cette interface est utilisée dans le cadre de [`IThreeDFormatEffectiveData`](../ithreedformateffectivedata).
+Cette interface est utilisée comme partie de [`IThreeDFormatEffectiveData`](../ithreedformateffectivedata).
 
 ### Voir aussi
 

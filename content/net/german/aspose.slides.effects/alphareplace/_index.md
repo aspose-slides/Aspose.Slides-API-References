@@ -1,14 +1,14 @@
 ---
 title: AlphaReplace
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt einen Alpha Replace-Effekt dar. Die Alpha-Deckkraftwerte des Effekts werden durch einen festen Alpha-Wert ersetzt.
+description: Stellt einen Alpha Replace-Effekt dar. Effekt-Alpha-Opazitätswerte werden durch einen festen Alpha ersetzt.
 type: docs
-weight: 2900
+weight: 2920
 url: /de/aspose.slides.effects/alphareplace/
 ---
 ## AlphaReplace Klasse
 
-Stellt einen Alpha Replace-Effekt dar. Effekt-Alpha-Werte (Deckkraft) werden durch einen festen Alpha-Wert ersetzt.
+Stellt einen Alpha-Replace-Effekt dar. Effekt-Alpha-(Opazitäts-)Werte werden durch einen festen Alpha ersetzt.
 
 ```csharp
 public sealed class AlphaReplace : ImageTransformOperation, IAlphaReplace
@@ -16,16 +16,16 @@ public sealed class AlphaReplace : ImageTransformOperation, IAlphaReplace
 
 ## Eigenschaften
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Ermöglicht das Abrufen der Basis-IPresentationComponent-Schnittstelle. Nur-lesbar [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Ermöglicht das Abrufen der Basis-IPresentationComponent-Schnittstelle. Nur lesbar [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Methoden
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/alphareplace/equals)(object) | Bestimmt, ob das angegebene [`AlphaReplace`](../alphareplace) gleich dem aktuellen [`AlphaReplace`](../alphareplace) ist. |
-| [GetEffective](../../aspose.slides.effects/alphareplace/geteffective)() | Ruft die wirksamen Alpha Replace-Effektdaten mit angewandter Vererbung ab. |
+| override [Equals](../../aspose.slides.effects/alphareplace/equals)(object) | Bestimmt, ob das angegebene [`AlphaReplace`](../alphareplace) dem aktuellen [`AlphaReplace`](../alphareplace) entspricht. |
+| [GetEffective](../../aspose.slides.effects/alphareplace/geteffective)() | Ruft die effektiven Alpha-Replace-Effektdaten mit angewandter Vererbung ab. |
 | override [GetHashCode](../../aspose.slides.effects/alphareplace/gethashcode)() | Dient als Hash-Funktion für einen bestimmten Typ. |
 
 ### Siehe auch

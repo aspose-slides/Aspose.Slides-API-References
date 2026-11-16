@@ -3,7 +3,7 @@ title: ControlCollection
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Una colección de controles ActiveX.
 type: docs
-weight: 2700
+weight: 2720
 url: /es/aspose.slides/controlcollection/
 ---
 ## ControlCollection clase
@@ -18,8 +18,8 @@ public class ControlCollection : IControlCollection
 
 | Nombre | Descripción |
 | --- | --- |
-| [Count](../../aspose.slides/controlcollection/count) { get; } | Devuelve un número de objetos en la colección. Solo lectura Int32. |
-| [IsSynchronized](../../aspose.slides/controlcollection/issynchronized) { get; } | Devuelve un valor que indica si el acceso a la colección está sincronizado (seguro para subprocesos). Solo lectura Boolean. |
+| [Count](../../aspose.slides/controlcollection/count) { get; } | Devuelve el número de objetos en la colección. Solo lectura Int32. |
+| [IsSynchronized](../../aspose.slides/controlcollection/issynchronized) { get; } | Devuelve un valor que indica si el acceso a la colección está sincronizado (thread-safe). Solo lectura Boolean. |
 | [Item](../../aspose.slides/controlcollection/item) { get; } | Devuelve un control en la posición especificada. |
 | [SyncRoot](../../aspose.slides/controlcollection/syncroot) { get; } | Devuelve la raíz de sincronización. Solo lectura Object. |
 

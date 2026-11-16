@@ -1,14 +1,14 @@
 ---
 title: AlphaModulate
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Representa un efecto Alpha Modulate. Los valores de alfa de opacidad del efecto se multiplican por un porcentaje fijo. El contenedor del efecto especifica un efecto que contiene valores alfa para modular.
+description: Representa un efecto Alpha Modulate. Los valores de opacidad alfa del efecto se multiplican por un porcentaje fijo. El contenedor de efectos especifica un efecto que contiene valores alfa para modular.
 type: docs
-weight: 2880
+weight: 2900
 url: /es/aspose.slides.effects/alphamodulate/
 ---
 ## AlphaModulate clase
 
-Representa un efecto Alpha Modulate. Los valores de alfa (opacidad) del efecto se multiplican por un porcentaje fijo. El contenedor del efecto especifica un efecto que contiene valores alfa para modular.
+Representa un efecto Alpha Modulate. Los valores alfa (opacidad) del efecto se multiplican por un porcentaje fijo. El contenedor de efectos especifica un efecto que contiene valores alfa para modular.
 
 ```csharp
 public sealed class AlphaModulate : ImageTransformOperation, IAlphaModulate
@@ -25,8 +25,8 @@ public sealed class AlphaModulate : ImageTransformOperation, IAlphaModulate
 | Nombre | Descripción |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/alphamodulate/equals)(object) | Determina si el [`AlphaModulate`](../alphamodulate) especificado es igual al [`AlphaModulate`](../alphamodulate) actual. |
-| [GetEffective](../../aspose.slides.effects/alphamodulate/geteffective)() | Obtiene los datos del efecto Alpha Modulate efectivo con la herencia aplicada. |
-| override [GetHashCode](../../aspose.slides.effects/alphamodulate/gethashcode)() | Funciona como una función hash para un tipo particular. |
+| [GetEffective](../../aspose.slides.effects/alphamodulate/geteffective)() | Obtiene los datos efectivos del efecto Alpha Modulate con la herencia aplicada. |
+| override [GetHashCode](../../aspose.slides.effects/alphamodulate/gethashcode)() | Sirve como función hash para un tipo particular. |
 
 ### Ver también
 

@@ -1,14 +1,14 @@
 ---
 title: SensitivityLabel
-second_title: Aspose.Sildes for .NET API リファレンス
-description: Microsoft Purview Information Protection からの感度ラベルを表します。
+second_title: Aspose.Sildes .NET 用 API リファレンス
+description: Microsoft Purview Information Protection からの機密ラベルを表します。
 type: docs
-weight: 9790
+weight: 9810
 url: /ja/aspose.slides/sensitivitylabel/
 ---
 ## SensitivityLabel クラス
 
-Microsoft Purview Information Protection からの感度ラベルを表します。
+Microsoft Purview Information Protection の機密ラベルを表します。
 
 ```csharp
 public sealed class SensitivityLabel : ISensitivityLabel
@@ -16,14 +16,14 @@ public sealed class SensitivityLabel : ISensitivityLabel
 
 ## プロパティ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [AssignmentMethodType](../../aspose.slides/sensitivitylabel/assignmentmethodtype) { get; set; } | 感度ラベルの割り当て方法を取得または設定します。読み取り/書き込み [`SensitivityLabelAssignmentType`](../sensitivitylabelassignmenttype). |
-| [ContentMarkTypes](../../aspose.slides/sensitivitylabel/contentmarktypes) { get; } | ファイルに適用すべきコンテンツマーキングの種類の一覧を取得します。 |
-| [Id](../../aspose.slides/sensitivitylabel/id) { get; set; } | 感度ラベルの ID を取得または設定します。読み取り/書き込み String. |
-| [IsEnabled](../../aspose.slides/sensitivitylabel/isenabled) { get; set; } | 感度ラベルが有効かどうかを示します。 |
-| [IsRemoved](../../aspose.slides/sensitivitylabel/isremoved) { get; set; } | 感度ラベルが削除されたかどうかを示します。 |
-| [SiteId](../../aspose.slides/sensitivitylabel/siteid) { get; set; } | 感度ラベルを記述する感度ラベルポリシーに対応する Azure Active Directory (Azure AD) サイト識別子を取得または設定します。読み取り/書き込み Guid. |
+| [AssignmentMethodType](../../aspose.slides/sensitivitylabel/assignmentmethodtype) { get; set; } | 機密ラベルの割り当て方法を取得または設定します。読み書き [`SensitivityLabelAssignmentType`](../sensitivitylabelassignmenttype)。 |
+| [ContentMarkTypes](../../aspose.slides/sensitivitylabel/contentmarktypes) { get; } | ファイルに適用すべきコンテンツ マーキングの種類の一覧を取得します。 |
+| [Id](../../aspose.slides/sensitivitylabel/id) { get; set; } | 機密ラベルの ID を取得または設定します。読み書き String。 |
+| [IsEnabled](../../aspose.slides/sensitivitylabel/isenabled) { get; set; } | 機密ラベルが有効かどうかを示します。 |
+| [IsRemoved](../../aspose.slides/sensitivitylabel/isremoved) { get; set; } | 機密ラベルが削除されたかどうかを示します。 |
+| [SiteId](../../aspose.slides/sensitivitylabel/siteid) { get; set; } | 機密ラベルを記述する機密ラベル ポリシーに対応する Azure Active Directory (Azure AD) サイト識別子を取得または設定します。読み書き Guid。 |
 
 ### 参照
 

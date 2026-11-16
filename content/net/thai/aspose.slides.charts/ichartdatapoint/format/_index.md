@@ -1,14 +1,14 @@
 ---
 title: Format
-second_title: Aspose.Sildes สำหรับ .NET API เอกสารอ้างอิง
-description: แสดงถึงคุณสมบัติการจัดรูปแบบ. อ่าน/เขียน IFormataspose.slides.charts/iformat.
+second_title: อ้างอิง API Aspose.Sildes สำหรับ .NET
+description: แสดงคุณสมบัติการจัดรูปแบบ. อ่าน/เขียน IFormataspose.slides.charts/iformat.
 type: docs
-weight: 70
+weight: 110
 url: /th/aspose.slides.charts/ichartdatapoint/format/
 ---
 ## IChartDataPoint.Format คุณสมบัติ
 
-แสดงถึงคุณสมบัติการจัดรูปแบบ. อ่าน/เขียน [`IFormat`](../../iformat).
+แสดงคุณสมบัติการจัดรูปแบบ. อ่าน/เขียน [`IFormat`](../../iformat).
 
 ```csharp
 public IFormat Format { get; set; }

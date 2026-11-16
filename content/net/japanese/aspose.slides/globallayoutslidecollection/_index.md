@@ -1,14 +1,14 @@
 ---
 title: GlobalLayoutSlideCollection
 second_title: Aspose.Sildes for .NET API リファレンス
-description: プレゼンテーション内のすべてのレイアウト スライドのコレクションを表します。LayoutSlideCollection クラスを拡張し、マスターのレイアウト スライドの個々のコレクションを結合するコンテキストでレイアウト スライドを追加/クローンするメソッドを提供します。
+description: プレゼンテーション内のすべてのレイアウト スライドのコレクションを表します。個々のマスターのレイアウト スライド コレクションを統合するコンテキストで、レイアウト スライドを追加/クローンするメソッドを備えた LayoutSlideCollection クラスを拡張します。
 type: docs
-weight: 4980
+weight: 5000
 url: /ja/aspose.slides/globallayoutslidecollection/
 ---
 ## GlobalLayoutSlideCollection クラス
 
-プレゼンテーション内のすべてのレイアウト スライドのコレクションを表します。LayoutSlideCollection クラスを拡張し、マスターのレイアウト スライドの個々のコレクションを結合するコンテキストでレイアウト スライドを追加/クローンするメソッドを提供します。
+Represents a collection of all layout slides in presentation. Extends LayoutSlideCollection class with methods for adding/cloning layout slides in context of uniting of the individual collections of master's layout slides.
 
 ```csharp
 public sealed class GlobalLayoutSlideCollection : LayoutSlideCollection, 
@@ -32,10 +32,10 @@ public sealed class GlobalLayoutSlideCollection : LayoutSlideCollection,
 | [AddClone](../../aspose.slides/globallayoutslidecollection/addclone#addclone)(ILayoutSlide) | 指定されたレイアウト スライドのコピーをプレゼンテーションに追加します。 |
 | [AddClone](../../aspose.slides/globallayoutslidecollection/addclone#addclone_1)(ILayoutSlide, IMasterSlide) | 指定されたレイアウト スライドのコピーをプレゼンテーションに追加します。 |
 | [CopyTo](../../aspose.slides/layoutslidecollection/copyto)(Array, int) | コレクションのすべての要素を指定された配列にコピーします。 |
-| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | 指定されたタイプの最初のレイアウト スライドを返します。検索するレイアウト スライドのタイプです。[`LayoutSlide`](../layoutslide) が指定されたタイプのもの、またはレイアウトが見つからない場合は null を返します。 |
+| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | 指定されたタイプの最初のレイアウト スライドを返します。検索するレイアウト スライドのタイプ。[`LayoutSlide`](../layoutslide) が指定されたタイプのもの、またはレイアウトが見つからない場合は null を返します。 |
 | [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | コレクションを反復処理する列挙子を返します。 |
 | [Remove](../../aspose.slides/layoutslidecollection/remove)(ILayoutSlide) | コレクションからレイアウトを削除します。 |
-| [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | 未使用のレイアウト スライドを削除します（HasDependingSlides が false のレイアウト スライド）。 |
+| [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | 未使用のレイアウト スライドを削除します (HasDependingSlides が false のレイアウト スライド)。 |
 
 ### 参照
 

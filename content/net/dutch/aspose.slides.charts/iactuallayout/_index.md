@@ -1,14 +1,14 @@
 ---
 title: IActualLayout
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Specificeert de daadwerkelijke positie van een grafiekelement.
+description: Specificeert de werkelijke positie van een grafiekelement.
 type: docs
-weight: 1690
+weight: 1700
 url: /nl/aspose.slides.charts/iactuallayout/
 ---
 ## IActualLayout interface
 
-Specificeert de daadwerkelijke positie van een grafiekelement.
+Specificeert de werkelijke positie van een grafiekelement.
 
 ```csharp
 public interface IActualLayout
@@ -16,12 +16,12 @@ public interface IActualLayout
 
 ## Eigenschappen
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/iactuallayout/actualheight) { get; } | Specificeert de daadwerkelijke hoogte van het grafiekelement. Roep methode IChart.ValidateChartLayout() aan vóór het ophalen van de werkelijke waarden. Lezen Single. |
-| [ActualWidth](../../aspose.slides.charts/iactuallayout/actualwidth) { get; } | Specificeert de daadwerkelijke breedte van het grafiekelement. Roep methode IChart.ValidateChartLayout() aan vóór het ophalen van de werkelijke waarden. Lezen Single. |
-| [ActualX](../../aspose.slides.charts/iactuallayout/actualx) { get; } | Specificeert de daadwerkelijke x-locatie (links) van het grafiekelement ten opzichte van de linkerbovenhoek van de grafiek. Roep methode IChart.ValidateChartLayout() aan vóór het ophalen van de werkelijke waarden. Lezen Single. |
-| [ActualY](../../aspose.slides.charts/iactuallayout/actualy) { get; } | Specificeert de daadwerkelijke bovenkant van het grafiekelement ten opzichte van de linkerbovenhoek van de grafiek. Roep methode IChart.ValidateChartLayout() aan vóór het ophalen van de werkelijke waarden. Lezen Single. |
+| [ActualHeight](../../aspose.slides.charts/iactuallayout/actualheight) { get; } | Specificeert de werkelijke hoogte van het grafiekelement. Roep eerst de methode IChart.ValidateChartLayout() aan om werkelijke waarden te verkrijgen. Lezen Single. |
+| [ActualWidth](../../aspose.slides.charts/iactuallayout/actualwidth) { get; } | Specificeert de werkelijke breedte van het grafiekelement. Roep eerst de methode IChart.ValidateChartLayout() aan om werkelijke waarden te verkrijgen. Lezen Single. |
+| [ActualX](../../aspose.slides.charts/iactuallayout/actualx) { get; } | Specificeert de werkelijke x-locatie (links) van het grafiekelement ten opzichte van de linkerbovenhoek van de grafiek. Roep eerst de methode IChart.ValidateChartLayout() aan om werkelijke waarden te verkrijgen. Lezen Single. |
+| [ActualY](../../aspose.slides.charts/iactuallayout/actualy) { get; } | Specificeert de werkelijke bovenkant van het grafiekelement ten opzichte van de linkerbovenhoek van de grafiek. Roep eerst de methode IChart.ValidateChartLayout() aan om werkelijke waarden te verkrijgen. Lezen Single. |
 
 ### Zie ook
 

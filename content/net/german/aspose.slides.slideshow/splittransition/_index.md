@@ -1,14 +1,14 @@
 ---
 title: SplitTransition
-second_title: Aspose.Sildes für .NET API Referenz
-description: Übergangseffekt für geteilte Folien.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Slide-Übergangseffekt zum Teilen.
 type: docs
-weight: 10330
+weight: 10350
 url: /de/aspose.slides.slideshow/splittransition/
 ---
 ## SplitTransition Klasse
 
-Split slide transition effect.
+Slide-Übergangseffekt zum Teilen.
 
 ```csharp
 public class SplitTransition : TransitionValueBase, ISplitTransition
@@ -26,7 +26,7 @@ public class SplitTransition : TransitionValueBase, ISplitTransition
 | Name | Beschreibung |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Bestimmt, ob die beiden TransitionValueBase-Instanzen gleich sind. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Dient als Hash-Funktion für einen bestimmten Typ, geeignet für den Einsatz in Hash-Algorithmen und Datenstrukturen wie einer Hashtabelle. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Dient als Hashfunktion für einen bestimmten Typ, geeignet für den Einsatz in Hash-Algorithmen und Datenstrukturen wie einer Hashtabelle. |
 
 ### Siehe auch
 

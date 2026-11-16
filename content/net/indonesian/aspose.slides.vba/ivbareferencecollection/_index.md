@@ -1,9 +1,9 @@
 ---
 title: IVbaReferenceCollection
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili koleksi referensi Proyek VBA.
 type: docs
-weight: 11580
+weight: 11600
 url: /id/aspose.slides.vba/ivbareferencecollection/
 ---
 ## IVbaReferenceCollection antarmuka
@@ -18,7 +18,7 @@ public interface IVbaReferenceCollection : IGenericCollection<IVbaReference>
 
 | Nama | Deskripsi |
 | --- | --- |
-| [Item](../../aspose.slides.vba/ivbareferencecollection/item) { get; } | Mendapatkan elemen pada indeks yang ditentukan. |
+| [Item](../../aspose.slides.vba/ivbareferencecollection/item) { get; } | Mengambil elemen pada indeks yang ditentukan. |
 
 ## Metode
 

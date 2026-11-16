@@ -1,9 +1,9 @@
 ---
 title: IVbaReference
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: VBA प्रोजेक्ट संदर्भ का नाम दर्शाता है।
+description: VBA प्रोजेक्ट रेफ़रेंस का नाम दर्शाता है।
 type: docs
-weight: 11570
+weight: 11590
 url: /hi/aspose.slides.vba/ivbareference/
 ---
 ## IVbaReference इंटरफ़ेस
@@ -18,9 +18,9 @@ public interface IVbaReference
 
 | नाम | विवरण |
 | --- | --- |
-| [Name](../../aspose.slides.vba/ivbareference/name) { get; set; } | VBA प्रोजेक्ट रेफ़रेंस का नाम दर्शाता है। पढ़ें/लिखें String. |
+| [Name](../../aspose.slides.vba/ivbareference/name) { get; set; } | VBA प्रोजेक्ट रेफ़रेंस का नाम दर्शाता है। पढ़ने/लिखने String. |
 
-### संबन्धित देखें
+### संबंधित देखें
 
 * नामस्थान [Aspose.Slides.Vba](../../aspose.slides.vba)
 * असेंबली [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: IColorReplaceEffectiveData
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: एक अपरिवर्तनीय ऑब्जेक्ट जो Color Replacement प्रभाव का प्रतिनिधित्व करता है। सभी प्रभाव रंग एक निश्चित रंग में बदल दिए जाते हैं। Alpha मान अपरिवर्तित रहते हैं।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: एक अपरिवर्तनीय वस्तु जो रंग प्रतिस्थापन प्रभाव का प्रतिनिधित्व करती है। सभी प्रभाव रंग एक निश्चित रंग में बदल दिए जाते हैं। Alpha मान अपरिवर्तित रहते हैं।
 type: docs
-weight: 3250
+weight: 3270
 url: /hi/aspose.slides.effects/icolorreplaceeffectivedata/
 ---
 ## IColorReplaceEffectiveData इंटरफ़ेस
 
-एक अपरिवर्तनीय ऑब्जेक्ट जो Color Replacement प्रभाव का प्रतिनिधित्व करता है। सभी प्रभाव रंग एक निश्चित रंग में बदल दिए जाते हैं। Alpha मान अपरिवर्तित रहते हैं।
+एक अपरिवर्तनीय वस्तु जो रंग प्रतिस्थापन प्रभाव का प्रतिनिधित्व करती है। सभी प्रभाव रंगों को एक निश्चित रंग में बदल दिया जाता है। Alpha मान अपरिवर्तित रहते हैं।
 
 ```csharp
 public interface IColorReplaceEffectiveData : IEffectEffectiveData
@@ -18,8 +18,8 @@ public interface IColorReplaceEffectiveData : IEffectEffectiveData
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/icolorreplaceeffectivedata/asieffecteffectivedata) { get; } | बेस IEffectEffectiveData इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IEffectEffectiveData`](../ieffecteffectivedata)। |
-| [Color](../../aspose.slides.effects/icolorreplaceeffectivedata/color) { get; } | हर पिक्सेल के रंग को बदलने वाले रंग प्रारूप को लौटाता है। केवल-पढ़ने योग्य Color। |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/icolorreplaceeffectivedata/asieffecteffectivedata) { get; } | बेस IEffectEffectiveData इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IEffectEffectiveData`](../ieffecteffectivedata)। |
+| [Color](../../aspose.slides.effects/icolorreplaceeffectivedata/color) { get; } | हर पिक्सेल के रंग को प्रतिस्थापित करने वाले रंग स्वरूप को लौटाता है। केवल-पढ़ने योग्य Color। |
 
 ### देखें
 

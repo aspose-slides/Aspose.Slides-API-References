@@ -1,12 +1,12 @@
 ---
 title: IParagraphFormatEffectiveData
-second_title: Aspose.Sildes cho Tham chiếu API .NET
+second_title: Tham chiếu API Aspose.Sildes cho .NET
 description: Đối tượng bất biến chứa các thuộc tính định dạng đoạn văn hiệu quả.
 type: docs
-weight: 6600
+weight: 6620
 url: /vi/aspose.slides/iparagraphformateffectivedata/
 ---
-## IParagraphFormatEffectiveData giao diện
+## IParagraphFormatEffectiveData interface
 
 Đối tượng bất biến chứa các thuộc tính định dạng đoạn văn hiệu quả.
 
@@ -16,33 +16,33 @@ public interface IParagraphFormatEffectiveData
 
 ## Thuộc tính
 
-| Name | Description |
+| Tên | Mô tả |
 | --- | --- |
-| [Alignment](../../aspose.slides/iparagraphformateffectivedata/alignment) { get; } | Trả về căn chỉnh văn bản trong một đoạn văn. Chỉ đọc [`TextAlignment`](../textalignment). |
-| [Bullet](../../aspose.slides/iparagraphformateffectivedata/bullet) { get; } | Trả về định dạng dấu đầu dòng của một đoạn văn. Chỉ đọc [`IBulletFormatEffectiveData`](../ibulletformateffectivedata). |
-| [DefaultPortionFormat](../../aspose.slides/iparagraphformateffectivedata/defaultportionformat) { get; } | Trả về định dạng phần mặc định của một đoạn văn. Chỉ đọc [`IPortionFormatEffectiveData`](../iportionformateffectivedata). |
-| [DefaultTabSize](../../aspose.slides/iparagraphformateffectivedata/defaulttabsize) { get; } | Trả về kích thước tab mặc định. Chỉ đọc Single. |
-| [Depth](../../aspose.slides/iparagraphformateffectivedata/depth) { get; } | Trả về độ sâu của một đoạn văn. Chỉ đọc Int16. |
-| [EastAsianLineBreak](../../aspose.slides/iparagraphformateffectivedata/eastasianlinebreak) { get; } | Xác định xem ngắt dòng Đông Á có được sử dụng trong một đoạn văn hay không. Chỉ đọc Boolean. |
-| [FontAlignment](../../aspose.slides/iparagraphformateffectivedata/fontalignment) { get; } | Trả về căn chỉnh phông chữ trong một đoạn văn. Chỉ đọc [`FontAlignment`](../fontalignment). |
-| [HangingPunctuation](../../aspose.slides/iparagraphformateffectivedata/hangingpunctuation) { get; } | Xác định xem dấu câu treo có được sử dụng trong một đoạn văn hay không. Chỉ đọc Boolean. |
-| [Indent](../../aspose.slides/iparagraphformateffectivedata/indent) { get; } | Trả về đoạn văn First Line Indent/Hanging Indent. Hanging Indent có thể được định nghĩa bằng giá trị âm. Chỉ đọc Single. |
-| [LatinLineBreak](../../aspose.slides/iparagraphformateffectivedata/latinlinebreak) { get; } | Xác định xem ngắt dòng Latin có được sử dụng trong một đoạn văn hay không. Chỉ đọc Boolean. |
-| [MarginLeft](../../aspose.slides/iparagraphformateffectivedata/marginleft) { get; } | Trả về lề trái trong một đoạn văn. Chỉ đọc Single. |
-| [MarginRight](../../aspose.slides/iparagraphformateffectivedata/marginright) { get; } | Trả về lề phải trong một đoạn văn. Chỉ đọc Single. |
-| [RightToLeft](../../aspose.slides/iparagraphformateffectivedata/righttoleft) { get; } | Xác định xem viết từ phải sang trái có được sử dụng trong một đoạn văn hay không. Chỉ đọc Boolean. |
-| [SpaceAfter](../../aspose.slides/iparagraphformateffectivedata/spaceafter) { get; } | Trả về khoảng cách sau dòng cuối cùng trong một đoạn văn. Chỉ đọc Single. |
-| [SpaceBefore](../../aspose.slides/iparagraphformateffectivedata/spacebefore) { get; } | Trả về khoảng cách trước dòng đầu tiên trong một đoạn văn. Chỉ đọc Single. |
-| [SpaceWithin](../../aspose.slides/iparagraphformateffectivedata/spacewithin) { get; } | Trả về khoảng cách giữa các dòng cơ bản trong một đoạn văn. Chỉ đọc Single. |
-| [Tabs](../../aspose.slides/iparagraphformateffectivedata/tabs) { get; } | Trả về các tabulation của một đoạn văn. Chỉ đọc [`ITabEffectiveData`](../itabeffectivedata)[]. |
+| [Alignment](../../aspose.slides/iparagraphformateffectivedata/alignment) { get; } | Trả về căn chỉnh văn bản trong một đoạn. Chỉ đọc [`TextAlignment`](../textalignment). |
+| [Bullet](../../aspose.slides/iparagraphformateffectivedata/bullet) { get; } | Trả về định dạng dấu đầu dòng của một đoạn. Chỉ đọc [`IBulletFormatEffectiveData`](../ibulletformateffectivedata). |
+| [DefaultPortionFormat](../../aspose.slides/iparagraphformateffectivedata/defaultportionformat) { get; } | Trả về định dạng phần mặc định của một đoạn. Chỉ đọc [`IPortionFormatEffectiveData`](../iportionformateffectivedata). |
+| [DefaultTabSize](../../aspose.slides/iparagraphformateffectivedata/defaulttabsize) { get; } | Trả về kích thước tabulation mặc định. Chỉ đọc Single. |
+| [Depth](../../aspose.slides/iparagraphformateffectivedata/depth) { get; } | Trả về độ sâu của một đoạn. Chỉ đọc Int16. |
+| [EastAsianLineBreak](../../aspose.slides/iparagraphformateffectivedata/eastasianlinebreak) { get; } | Xác định liệu ngắt dòng Đông Á có được sử dụng trong một đoạn hay không. Chỉ đọc Boolean. |
+| [FontAlignment](../../aspose.slides/iparagraphformateffectivedata/fontalignment) { get; } | Trả về căn chỉnh phông chữ trong một đoạn. Chỉ đọc [`FontAlignment`](../fontalignment). |
+| [HangingPunctuation](../../aspose.slides/iparagraphformateffectivedata/hangingpunctuation) { get; } | Xác định liệu dấu câu treo có được sử dụng trong một đoạn hay không. Chỉ đọc Boolean. |
+| [Indent](../../aspose.slides/iparagraphformateffectivedata/indent) { get; } | Trả về độ thụt dòng đầu/Hanging Indent của đoạn. Hanging Indent có thể được định nghĩa bằng giá trị âm. Chỉ đọc Single. |
+| [LatinLineBreak](../../aspose.slides/iparagraphformateffectivedata/latinlinebreak) { get; } | Xác định liệu ngắt dòng Latin có được sử dụng trong một đoạn hay không. Chỉ đọc Boolean. |
+| [MarginLeft](../../aspose.slides/iparagraphformateffectivedata/marginleft) { get; } | Trả về lề trái trong một đoạn. Chỉ đọc Single. |
+| [MarginRight](../../aspose.slides/iparagraphformateffectivedata/marginright) { get; } | Trả về lề phải trong một đoạn. Chỉ đọc Single. |
+| [RightToLeft](../../aspose.slides/iparagraphformateffectivedata/righttoleft) { get; } | Xác định liệu viết từ phải sang trái có được sử dụng trong một đoạn hay không. Chỉ đọc Boolean. |
+| [SpaceAfter](../../aspose.slides/iparagraphformateffectivedata/spaceafter) { get; } | Trả về khoảng cách sau dòng cuối cùng trong một đoạn. Chỉ đọc Single. |
+| [SpaceBefore](../../aspose.slides/iparagraphformateffectivedata/spacebefore) { get; } | Trả về khoảng cách trước dòng đầu tiên trong một đoạn. Chỉ đọc Single. |
+| [SpaceWithin](../../aspose.slides/iparagraphformateffectivedata/spacewithin) { get; } | Trả về khoảng cách giữa các dòng cơ sở trong một đoạn. Chỉ đọc Single. |
+| [Tabs](../../aspose.slides/iparagraphformateffectivedata/tabs) { get; } | Trả về các tabulation của một đoạn. Chỉ đọc [`ITabEffectiveData`](../itabeffectivedata)[]. |
 
 ### Ghi chú
 
-Giao diện này được sử dụng cùng với giao diện [`IParagraphFormat`](../iparagraphformat) để trả về các giá trị định dạng hiệu quả với kế thừa được áp dụng.
+Giao diện này được sử dụng cùng với giao diện [`IParagraphFormat`](../iparagraphformat) để trả về các giá trị định dạng thực tế với kế thừa được áp dụng.
 
 ### Xem thêm
 
 * không gian tên [Aspose.Slides](../../aspose.slides)
-* tập hợp [Aspose.Slides](../../)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

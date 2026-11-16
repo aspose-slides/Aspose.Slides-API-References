@@ -1,14 +1,14 @@
 ---
 title: NullableBool
-second_title: Aspose.Sildes .NET API 레퍼런스
-description: 세 개의 부울 값을 나타냅니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 세 개의 불리언 값을 나타냅니다.
 type: docs
-weight: 9170
+weight: 9190
 url: /ko/aspose.slides/nullablebool/
 ---
 ## NullableBool 열거형
 
-세 개의 불린 값을 나타냅니다.
+세 개의 불리언 값을 나타냅니다.
 
 ```csharp
 public enum NullableBool : sbyte
@@ -18,7 +18,7 @@ public enum NullableBool : sbyte
 
 | 이름 | 값 | 설명 |
 | --- | --- | --- |
-| NotDefined | `-1` | 불린 값이 정의되지 않았습니다. |
+| NotDefined | `-1` | 불리언 값이 정의되지 않았습니다. |
 | False | `0` | 거짓 값. |
 | True | `1` | 참 값. |
 

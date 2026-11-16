@@ -1,14 +1,14 @@
 ---
 title: LeaderLinesFormat
-second_title: Aspose.Sildes برای .NET مرجع API
-description: قالب خطوط راهنمای برچسب‌های داده را نشان می‌دهد. فقط خواندنی IChartLinesFormataspose.slides.charts/ichartlinesformat.
+second_title: مرجع API Aspose.Sildes برای .NET
+description: نمایش فرمت خطوط راهنمای برچسب‌های داده. فقط-خواندنی IChartLinesFormataspose.slides.charts/ichartlinesformat.
 type: docs
-weight: 80
+weight: 90
 url: /fa/aspose.slides.charts/idatalabelcollection/leaderlinesformat/
 ---
 ## IDataLabelCollection.LeaderLinesFormat ویژگی
 
-قالب خطوط راهنمای برچسب‌های داده را نشان می‌دهد. فقط خواندنی [`IChartLinesFormat`](../../ichartlinesformat).
+نمایش فرمت خطوط راهنمای برچسب‌های داده. فقط-خواندنی [`IChartLinesFormat`](../../ichartlinesformat).
 
 ```csharp
 public IChartLinesFormat LeaderLinesFormat { get; }
@@ -31,7 +31,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### مراجع
+### همچنین ببینید
 
 * رابط [IChartLinesFormat](../../ichartlinesformat)
 * رابط [IDataLabelCollection](../../idatalabelcollection)

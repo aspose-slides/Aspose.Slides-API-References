@@ -1,14 +1,14 @@
 ---
 title: IOuterShadow
-second_title: Aspose.Sildes .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Bir dış gölge etkisini temsil eder.
 type: docs
-weight: 3460
+weight: 3480
 url: /tr/aspose.slides.effects/ioutershadow/
 ---
 ## IOuterShadow arayüzü
 
-Represents an Outer Shadow effect.
+Bir dış gölge etkisini temsil eder.
 
 ```csharp
 public interface IOuterShadow : IAccessiblePVIObject<IOuterShadowEffectiveData>, 
@@ -19,18 +19,18 @@ public interface IOuterShadow : IAccessiblePVIObject<IOuterShadowEffectiveData>,
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ioutershadow/asiaccessiblepviobject) { get; } | Temel IAccessiblePVIObject arayüzünü almayı sağlar. Yalnızca okuma [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ioutershadow/asiimagetransformoperation) { get; } | Temel IImageTransformOperation arayüzünü almayı sağlar. Yalnızca okuma [`IImageTransformOperation`](../iimagetransformoperation). |
-| [BlurRadius](../../aspose.slides.effects/ioutershadow/blurradius) { get; set; } | Bulanıklık yarıçapı, nokta cinsinden. Varsayılan değer – 0 pt. Okuma/Yazma Double. |
-| [Direction](../../aspose.slides.effects/ioutershadow/direction) { get; set; } | Gölgenin yönü, derece cinsinden. Varsayılan değer – 0 ° (sol-sağa). Okuma/Yazma Single. |
-| [Distance](../../aspose.slides.effects/ioutershadow/distance) { get; set; } | Gölgenin nesneden uzaklığı, nokta cinsinden. Varsayılan değer – 0 pt. Okuma/Yazma Double. |
-| [RectangleAlign](../../aspose.slides.effects/ioutershadow/rectanglealign) { get; set; } | Dikdörtgen hizalaması. Varsayılan değer – Bottom. Okuma/Yazma [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadow/rotateshadowwithshape) { get; set; } | Gölgenin şekil ile birlikte dönüp dönmediğini gösterir. Varsayılan değer – true. Okuma/Yazma Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/ioutershadow/scalehorizontal) { get; set; } | Yatay ölçekleme faktörü, orijinal boyutun yüzdesi olarak. Negatif ölçekleme bir çevrim oluşturur. Varsayılan değer – 100 %. Okuma/Yazma Double. |
-| [ScaleVertical](../../aspose.slides.effects/ioutershadow/scalevertical) { get; set; } | Dikey ölçekleme faktörü, orijinal boyutun yüzdesi olarak. Negatif ölçekleme bir çevrim oluşturur. Varsayılan değer – 100 %. Okuma/Yazma Double. |
-| [ShadowColor](../../aspose.slides.effects/ioutershadow/shadowcolor) { get; } | Gölgenin rengi. Varsayılan değer – otomatik siyah (tema bağımlı). Yalnızca okuma [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [SkewHorizontal](../../aspose.slides.effects/ioutershadow/skewhorizontal) { get; set; } | Yatay eğim açısı, derece cinsinden. Varsayılan değer – 0 °. Okuma/Yazma Double. |
-| [SkewVertical](../../aspose.slides.effects/ioutershadow/skewvertical) { get; set; } | Dikey eğim açısı, derece cinsinden. Varsayılan değer – 0 °. Okuma/Yazma Double. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ioutershadow/asiaccessiblepviobject) { get; } | Temel IAccessiblePVIObject arayüzünü almaya izin verir. Salt okunur [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ioutershadow/asiimagetransformoperation) { get; } | Temel IImageTransformOperation arayüzünü almaya izin verir. Salt okunur [`IImageTransformOperation`](../iimagetransformoperation). |
+| [BlurRadius](../../aspose.slides.effects/ioutershadow/blurradius) { get; set; } | Bulanıklık yarıçapı, puan cinsinden. Varsayılan değer – 0 pt. Okunur/yazılır Double. |
+| [Direction](../../aspose.slides.effects/ioutershadow/direction) { get; set; } | Gölgenin yönü, derece cinsinden. Varsayılan değer – 0 ° (sol-sağa). Okunur/yazılır Single. |
+| [Distance](../../aspose.slides.effects/ioutershadow/distance) { get; set; } | Gölgenin nesneden uzaklığı, puan cinsinden. Varsayılan değer – 0 pt. Okunur/yazılır Double. |
+| [RectangleAlign](../../aspose.slides.effects/ioutershadow/rectanglealign) { get; set; } | Dikdörtgen hizalaması. Varsayılan değer – Bottom. Okunur/yazılır [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadow/rotateshadowwithshape) { get; set; } | Gölgenin şekil ile birlikte dönüp dönmediğini gösterir. Varsayılan değer – true. Okunur/yazılır Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/ioutershadow/scalehorizontal) { get; set; } | Orijinal boyutun yüzde olarak yatay ölçekleme faktörü. Negatif ölçekleme bir ters çevirme oluşturur. Varsayılan değer – 100 %. Okunur/yazılır Double. |
+| [ScaleVertical](../../aspose.slides.effects/ioutershadow/scalevertical) { get; set; } | Orijinal boyutun yüzde olarak dikey ölçekleme faktörü. Negatif ölçekleme bir ters çevirme oluşturur. Varsayılan değer – 100 %. Okunur/yazılır Double. |
+| [ShadowColor](../../aspose.slides.effects/ioutershadow/shadowcolor) { get; } | Gölgenin rengi. Varsayılan değer – otomatik siyah (tema bağımlı). Salt okunur [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [SkewHorizontal](../../aspose.slides.effects/ioutershadow/skewhorizontal) { get; set; } | Yatay çarpıtma açısı, derece cinsinden. Varsayılan değer – 0 °. Okunur/yazılır Double. |
+| [SkewVertical](../../aspose.slides.effects/ioutershadow/skewvertical) { get; set; } | Dikey çarpıtma açısı, derece cinsinden. Varsayılan değer – 0 °. Okunur/yazılır Double. |
 
 ### Ayrıca Bakınız
 

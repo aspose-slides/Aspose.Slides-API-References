@@ -3,12 +3,12 @@ title: IMathRadicalFactory
 second_title: Aspose.Sildes for .NET API リファレンス
 description: 数式の根号を作成できます
 type: docs
-weight: 8440
+weight: 8460
 url: /ja/aspose.slides.mathtext/imathradicalfactory/
 ---
 ## IMathRadicalFactory インターフェイス
 
-数式の根号の作成を可能にします
+数式の根号を作成できます
 
 ```csharp
 public interface IMathRadicalFactory
@@ -24,7 +24,7 @@ public interface IMathRadicalFactory
 
 COM 互換性のため
 
-### 参照
+### 関連項目
 
 * 名前空間 [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * アセンブリ [Aspose.Slides](../../)

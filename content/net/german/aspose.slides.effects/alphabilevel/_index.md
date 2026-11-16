@@ -1,14 +1,14 @@
 ---
 title: AlphaBiLevel
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt einen Alpha Bi-Level-Effekt dar. Alpha-Opazitätswerte, die kleiner als die Schwelle sind, werden zu 0 (vollständig transparent) geändert und Alpha-Werte, die größer oder gleich der Schwelle sind, werden zu 100 (vollständig undurchsichtig) geändert.
+second_title: Aspose.Slides für .NET API Referenz
+description: Stellt einen Alpha Bi-Level Effekt dar. Alpha Opacity Werte, die kleiner als der Schwellenwert sind, werden zu 0 vollständig transparent und Alpha Werte, die größer oder gleich dem Schwellenwert sind, werden zu 100 vollständig undurchsichtig geändert.
 type: docs
-weight: 2840
+weight: 2860
 url: /de/aspose.slides.effects/alphabilevel/
 ---
 ## AlphaBiLevel Klasse
 
-Stellt einen Alpha Bi-Level Effekt dar. Alpha (Opacity) Werte, die kleiner als die Schwelle sind, werden zu 0 (vollständig transparent) geändert, und Alpha Werte, die größer oder gleich der Schwelle sind, werden zu 100 % (vollständig undurchsichtig) geändert.
+Stellt einen Alpha-Bi-Level-Effekt dar. Alpha-(Opacity-)Werte, die unter dem Schwellenwert liegen, werden in 0 (vollständig transparent) geändert und Alpha-Werte, die größer oder gleich dem Schwellenwert sind, werden in 100 % (vollständig undurchsichtig) geändert.
 
 ```csharp
 public sealed class AlphaBiLevel : ImageTransformOperation, IAlphaBiLevel
@@ -18,15 +18,15 @@ public sealed class AlphaBiLevel : ImageTransformOperation, IAlphaBiLevel
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Ermöglicht das Abrufen der Basis-IPresentationComponent-Schnittstelle. Nur-Lese [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
-| [Threshold](../../aspose.slides.effects/alphabilevel/threshold) { get; set; } | Gibt den Effekt-Schwellenwert zurück. Lese/Schreib Single. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Ermöglicht das Abrufen der Basis-IPresentationComponent-Schnittstelle. Nur lesbar [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [Threshold](../../aspose.slides.effects/alphabilevel/threshold) { get; set; } | Gibt den Schwellenwert des Effekts zurück. Lesen/Schreiben Single. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/alphabilevel/equals)(object) | Bestimmt, ob das angegebene [`AlphaBiLevel`](../alphabilevel) gleich dem aktuellen [`AlphaBiLevel`](../alphabilevel) ist. |
-| [GetEffective](../../aspose.slides.effects/alphabilevel/geteffective)() | Ruft effektive Alpha Bi-Level-Effektdaten mit angewandter Vererbung ab. |
+| override [Equals](../../aspose.slides.effects/alphabilevel/equals)(object) | Bestimmt, ob das angegebene [`AlphaBiLevel`](../alphabilevel) dem aktuellen [`AlphaBiLevel`](../alphabilevel) entspricht. |
+| [GetEffective](../../aspose.slides.effects/alphabilevel/geteffective)() | Gibt die effektiven Alpha-Bi-Level-Effektdaten mit angewandter Vererbung zurück. |
 | override [GetHashCode](../../aspose.slides.effects/alphabilevel/gethashcode)() | Dient als Hash-Funktion für einen bestimmten Typ. |
 
 ### Siehe auch

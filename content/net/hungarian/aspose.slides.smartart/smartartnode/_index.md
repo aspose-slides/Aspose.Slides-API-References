@@ -1,14 +1,14 @@
 ---
 title: SmartArtNode
 second_title: Aspose.Sildes .NET API referencia
-description: A SmartArt objektum csomópontját képviseli
+description: A SmartArt objektum csomópontját reprezentálja
 type: docs
-weight: 10630
+weight: 10650
 url: /hu/aspose.slides.smartart/smartartnode/
 ---
 ## SmartArtNode osztály
 
-A SmartArt objektum csomópontját képviseli
+A SmartArt objektum csomópontját reprezentálja
 
 ```csharp
 public sealed class SmartArtNode : ISmartArtNode
@@ -18,14 +18,14 @@ public sealed class SmartArtNode : ISmartArtNode
 
 | Név | Leírás |
 | --- | --- |
-| [BulletFillFormat](../../aspose.slides.smartart/smartartnode/bulletfillformat) { get; } | Visszaadja a FillFormat objektumot, amely a csomópont jelölőjének kitöltésformázási tulajdonságait tartalmazza. Megjegyzés: egyes SmartArt elrendezések esetén null értéket adhat vissza, amelyek nem biztosítanak jelölőket a csomópontokhoz. Csak olvasható [`IFillFormat`](../../aspose.slides/ifillformat). |
-| [ChildNodes](../../aspose.slides.smartart/smartartnode/childnodes) { get; } | Visszaadja az aktuális csomópont összes gyermekcsomópontjának gyűjteményét. Csak olvasható [`ISmartArtNodeCollection`](../ismartartnodecollection). |
-| [IsAssistant](../../aspose.slides.smartart/smartartnode/isassistant) { get; set; } | Visszaadja vagy beállítja a csomópontot segédnek. Olvasható/írható Boolean. |
-| [IsHidden](../../aspose.slides.smartart/smartartnode/ishidden) { get; } | Igazat ad vissza, ha ez a csomópont egy rejtett csomópont az adatmodellben. Csak olvasható Boolean. |
+| [BulletFillFormat](../../aspose.slides.smartart/smartartnode/bulletfillformat) { get; } | Visszaadja a FillFormat objektumot, amely a csomópont jelölőjének kitöltési formázási tulajdonságait tartalmazza. Megjegyzés: egyes SmartArt elrendezéstípusok esetén, amelyek nem biztosítanak jelölőket a csomópontokhoz, null értéket adhat vissza. Csak olvasható [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [ChildNodes](../../aspose.slides.smartart/smartartnode/childnodes) { get; } | Visszaadja az aktuális csomópont összes gyermekcsomópontját tartalmazó gyűjteményeket. Csak olvasható [`ISmartArtNodeCollection`](../ismartartnodecollection). |
+| [IsAssistant](../../aspose.slides.smartart/smartartnode/isassistant) { get; set; } | Visszaadja vagy beállítja a csomópontot asszisztensként. Olvasási/írási Boolean. |
+| [IsHidden](../../aspose.slides.smartart/smartartnode/ishidden) { get; } | Igaz értéket ad vissza, ha ez a csomópont rejtett csomópont az adatmodellben. Csak olvasható Boolean. |
 | [Level](../../aspose.slides.smartart/smartartnode/level) { get; } | Visszaadja a csomópont beágyazási szintjét. Csak olvasható Int32. |
-| [OrganizationChartLayout](../../aspose.slides.smartart/smartartnode/organizationchartlayout) { get; set; } | Visszaadja vagy beállítja az aktuális csomóponthoz kapcsolódó szervezeti diagram elrendezéstípust. Olvasható/írható [`OrganizationChartLayoutType`](../organizationchartlayouttype). |
-| [Position](../../aspose.slides.smartart/smartartnode/position) { get; set; } | Visszaadja vagy beállítja a csomópont nullához viszonyított pozícióját a testvér csomópontok között. Olvasható/írható Int32. |
-| [Shapes](../../aspose.slides.smartart/smartartnode/shapes) { get; } | Visszaadja a csomóponthoz tartozó összes alakzat gyűjteményét. Csak olvasható [`ISmartArtShapeCollection`](../ismartartshapecollection). |
+| [OrganizationChartLayout](../../aspose.slides.smartart/smartartnode/organizationchartlayout) { get; set; } | Visszaadja vagy beállítja az aktuális csomóponthoz kapcsolódó szervezeti ábra elrendezéstípust. Olvasási/írási [`OrganizationChartLayoutType`](../organizationchartlayouttype). |
+| [Position](../../aspose.slides.smartart/smartartnode/position) { get; set; } | Visszaadja vagy beállítja a csomópont nullás indexű pozícióját a testvér csomópontok között. Olvasási/írási Int32. |
+| [Shapes](../../aspose.slides.smartart/smartartnode/shapes) { get; } | Visszaadja a csomóponthoz kapcsolódó összes alakzatot tartalmazó gyűjteményeket. Csak olvasható [`ISmartArtShapeCollection`](../ismartartshapecollection). |
 | [TextFrame](../../aspose.slides.smartart/smartartnode/textframe) { get; } | Visszaadja a csomópont szövegkeretét. Csak olvasható [`ITextFrame`](../../aspose.slides/itextframe). |
 
 ## Módszerek

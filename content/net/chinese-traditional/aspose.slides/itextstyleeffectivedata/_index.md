@@ -1,9 +1,9 @@
 ---
 title: ITextStyleEffectiveData
 second_title: Aspose.Sildes for .NET API 參考
-description: 不可變的物件，包含有效的文字樣式屬性。
+description: 不可變物件，包含有效的文字樣式屬性。
 type: docs
-weight: 7320
+weight: 7340
 url: /zh-hant/aspose.slides/itextstyleeffectivedata/
 ---
 ## ITextStyleEffectiveData 介面
@@ -18,17 +18,17 @@ public interface ITextStyleEffectiveData
 
 | 名稱 | 描述 |
 | --- | --- |
-| [DefaultParagraphFormat](../../aspose.slides/itextstyleeffectivedata/defaultparagraphformat) { get; } | 傳回有效的預設段落屬性。唯讀 [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata)。 |
+| [DefaultParagraphFormat](../../aspose.slides/itextstyleeffectivedata/defaultparagraphformat) { get; } | 返回有效的預設段落屬性。唯讀 [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata)。 |
 
 ## 方法
 
 | 名稱 | 描述 |
 | --- | --- |
-| [GetLevel](../../aspose.slides/itextstyleeffectivedata/getlevel)(int) | 傳回有效樣式的層級。 |
+| [GetLevel](../../aspose.slides/itextstyleeffectivedata/getlevel)(int) | 返回有效樣式的層級。 |
 
 ### 備註
 
-此介面與 [`ITextStyle`](../itextstyle) 介面一起使用，以在套用繼承時傳回有效的格式設定值。
+此介面與 [`ITextStyle`](../itextstyle) 介面一起使用，以返回套用繼承的有效格式化值。
 
 ### 另請參閱
 

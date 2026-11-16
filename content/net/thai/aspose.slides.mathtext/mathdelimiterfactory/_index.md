@@ -1,9 +1,9 @@
 ---
 title: MathDelimiterFactory
-second_title: Aspose.Sildes สำหรับ .NET API Reference
+second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
 description: อนุญาตให้สร้างตัวคั่นคณิตศาสตร์
 type: docs
-weight: 8660
+weight: 8680
 url: /th/aspose.slides.mathtext/mathdelimiterfactory/
 ---
 ## MathDelimiterFactory คลาส
@@ -14,26 +14,26 @@ url: /th/aspose.slides.mathtext/mathdelimiterfactory/
 public class MathDelimiterFactory : IMathDelimiterFactory
 ```
 
-## คอนสตรักเตอร์
+## ตัวสร้าง
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [MathDelimiterFactory](mathdelimiterfactory)() | คอนสตรักเตอร์เริ่มต้น |
+| [MathDelimiterFactory](mathdelimiterfactory)() | ตัวสร้างเริ่มต้น. |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [CreateMathDelimiter](../../aspose.slides.mathtext/mathdelimiterfactory/createmathdelimiter#createmathdelimiter)(IMathElement) | สร้างตัวคั่นคณิตศาสตร์โดยใช้กับองค์ประกอบ |
-| [CreateMathDelimiter](../../aspose.slides.mathtext/mathdelimiterfactory/createmathdelimiter#createmathdelimiter_1)(IMathElementCollection) | สร้างตัวคั่นคณิตศาสตร์โดยใช้กับองค์ประกอบ |
+| [CreateMathDelimiter](../../aspose.slides.mathtext/mathdelimiterfactory/createmathdelimiter#createmathdelimiter)(IMathElement) | สร้างตัวคั่นคณิตศาสตร์โดยนำไปใช้กับองค์ประกอบ |
+| [CreateMathDelimiter](../../aspose.slides.mathtext/mathdelimiterfactory/createmathdelimiter#createmathdelimiter_1)(IMathElementCollection) | สร้างตัวคั่นคณิตศาสตร์โดยนำไปใช้กับคอลเลกชันขององค์ประกอบ |
 
 ### หมายเหตุ
 
-สำหรับความเข้ากันได้กับ COM
+สำหรับความเข้ากันได้ของ COM
 
 ### ดูเพิ่มเติม
 
-* อินเตอร์เฟส [IMathDelimiterFactory](../imathdelimiterfactory)
+* อินเทอร์เฟซ [IMathDelimiterFactory](../imathdelimiterfactory)
 * เนมสเปซ [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * แอสเซมบลี [Aspose.Slides](../../)
 

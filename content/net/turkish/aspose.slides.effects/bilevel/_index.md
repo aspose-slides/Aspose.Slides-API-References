@@ -1,14 +1,14 @@
 ---
 title: BiLevel
-second_title: Aspose.Sildes için .NET API Referansı
-description: Bi-Level (siyah/beyaz) efekti temsil eder. Belirtilen eşik değerinden daha düşük parlaklığa sahip giriş renkleri siyaha dönüştürülür. Belirtilen değere eşit ya da daha yüksek parlaklığa sahip giriş renkleri ise beyaza ayarlanır. Alfa efekt değerleri bu etkiden etkilenmez.
+second_title: Aspose.Sildes .NET için API Referansı
+description: Bi-Level siyah/beyaz etkisini temsil eder. Belirtilen eşik değerinden daha düşük parlaklığa sahip giriş renkleri siyaha dönüştürülür. Belirtilen değere eşit ya da daha yüksek parlaklığa sahip giriş renkleri beyaza ayarlanır. Alfa etki değerleri bu etkiden etkilenmez.
 type: docs
-weight: 2910
+weight: 2930
 url: /tr/aspose.slides.effects/bilevel/
 ---
 ## BiLevel sınıf
 
-Bi-Level (siyah/beyaz) efekti temsil eder. Belirtilen eşik değerinden daha düşük parlaklığa sahip giriş renkleri siyaha dönüştürülür. Belirtilen değere eşit ya da daha yüksek parlaklığa sahip giriş renkleri ise beyaza ayarlanır. Alfa efekt değerleri bu etkiden etkilenmez.
+Bi-Level (siyah/beyaz) efektini temsil eder. Belirtilen eşik değerinden düşük luminansa sahip giriş renkleri siyaha değiştirilir. Belirtilen değere eşit ya da daha yüksek luminansa sahip giriş renkleri beyaza ayarlanır. Alfa efekt değerleri bu etkiden etkilenmez.
 
 ```csharp
 public sealed class BiLevel : ImageTransformOperation, IBiLevel
@@ -18,15 +18,15 @@ public sealed class BiLevel : ImageTransformOperation, IBiLevel
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arabirimine erişim sağlar. Yalnızca okunabilir [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arayüzünü almaya izin verir. Salt okunur [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/bilevel/equals)(object) | Belirtilen [`BiLevel`](../bilevel)'nin mevcut [`BiLevel`](../bilevel) ile eşit olup olmadığını belirler. |
-| [GetEffective](../../aspose.slides.effects/bilevel/geteffective)() | Kalıtım uygulandıktan sonra etkili Bi-Level efekt verilerini alır. |
-| override [GetHashCode](../../aspose.slides.effects/bilevel/gethashcode)() | Belirli bir tür için hash işlevi olarak hizmet eder. |
+| override [Equals](../../aspose.slides.effects/bilevel/equals)(object) | Belirtilen [`BiLevel`](../bilevel)'in geçerli [`BiLevel`](../bilevel)'e eşit olup olmadığını belirler. |
+| [GetEffective](../../aspose.slides.effects/bilevel/geteffective)() | Uygulanan kalıtımla etkili Bi-Level efekt verilerini alır. |
+| override [GetHashCode](../../aspose.slides.effects/bilevel/gethashcode)() | Belirli bir tip için bir karma işlevi olarak hizmet eder. |
 
 ### Ayrıca Bakınız
 

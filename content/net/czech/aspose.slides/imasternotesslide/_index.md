@@ -1,14 +1,14 @@
 ---
 title: IMasterNotesSlide
 second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje hlavní snímek pro poznámky.
+description: Představuje hlavní snímek pro poznámky.
 type: docs
-weight: 6390
+weight: 6410
 url: /cs/aspose.slides/imasternotesslide/
 ---
-## IMasterNotesSlide rozhraní
+## Rozhraní IMasterNotesSlide
 
-Reprezentuje hlavní snímek poznámek.
+Představuje hlavní snímek pro poznámky.
 
 ```csharp
 public interface IMasterNotesSlide : IBaseSlide, IMasterThemeable
@@ -20,8 +20,8 @@ public interface IMasterNotesSlide : IBaseSlide, IMasterThemeable
 | --- | --- |
 | [AsIBaseSlide](../../aspose.slides/imasternotesslide/asibaseslide) { get; } | Umožňuje získat základní rozhraní IBaseSlide. Pouze pro čtení [`IBaseSlide`](../ibaseslide). |
 | [AsIMasterThemeable](../../aspose.slides/imasternotesslide/asimasterthemeable) { get; } | Vrací rozhraní IMasterThemeable. Pouze pro čtení [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
-| [DrawingGuides](../../aspose.slides/imasternotesslide/drawingguides) { get; } | Vrací kolekci kreslicích vodítek pro master notes slide. Pouze pro čtení [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [HeaderFooterManager](../../aspose.slides/imasternotesslide/headerfootermanager) { get; } | Vrací správce HeaderFooter pro master notes slide. Pouze pro čtení [`IMasterNotesSlideHeaderFooterManager`](../imasternotesslideheaderfootermanager). |
+| [DrawingGuides](../../aspose.slides/imasternotesslide/drawingguides) { get; } | Vrací kolekci kreslicích vodítek pro hlavní poznámkový snímek. Pouze pro čtení [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [HeaderFooterManager](../../aspose.slides/imasternotesslide/headerfootermanager) { get; } | Vrací správce HeaderFooter hlavního poznámkového snímku. Pouze pro čtení [`IMasterNotesSlideHeaderFooterManager`](../imasternotesslideheaderfootermanager). |
 | [NotesStyle](../../aspose.slides/imasternotesslide/notesstyle) { get; } | Vrací styl textu poznámek. Pouze pro čtení [`ITextStyle`](../itextstyle). |
 
 ### Viz také

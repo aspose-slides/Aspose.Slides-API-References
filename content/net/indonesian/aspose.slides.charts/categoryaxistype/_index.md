@@ -1,12 +1,12 @@
 ---
 title: CategoryAxisType
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili tipe sumbu kategori.
+second_title: Referensi API .NET Aspose.Sildes
+description: Mewakili jenis sumbu kategori.
 type: docs
-weight: 1250
+weight: 1260
 url: /id/aspose.slides.charts/categoryaxistype/
 ---
-## enumerasi CategoryAxisType
+## CategoryAxisType enumerasi
 
 Mewakili tipe sumbu kategori.
 

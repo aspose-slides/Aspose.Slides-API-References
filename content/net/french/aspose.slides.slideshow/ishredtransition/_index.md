@@ -1,14 +1,14 @@
 ---
 title: IShredTransition
 second_title: Référence API Aspose.Sildes pour .NET
-description: Effet de transition de diapositive en lambeaux.
+description: Effet de transition de diapositive déchirée.
 type: docs
-weight: 10180
+weight: 10200
 url: /fr/aspose.slides.slideshow/ishredtransition/
 ---
 ## IShredTransition interface
 
-Effet de transition de diapositive en lambeaux.
+Effet de transition de diapositive déchirée.
 
 ```csharp
 public interface IShredTransition : ITransitionValueBase
@@ -18,9 +18,9 @@ public interface IShredTransition : ITransitionValueBase
 
 | Nom | Description |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/ishredtransition/asitransitionvaluebase) { get; } | Permet d'obtenir l'interface de base ITransitionValueBase. Lecture seule [`ITransitionValueBase`](../itransitionvaluebase). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/ishredtransition/asitransitionvaluebase) { get; } | Permet d'obtenir l'interface ITransitionValueBase de base. Lecture seule [`ITransitionValueBase`](../itransitionvaluebase). |
 | [Direction](../../aspose.slides.slideshow/ishredtransition/direction) { get; set; } | Direction de la transition. Lecture/écriture [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [Pattern](../../aspose.slides.slideshow/ishredtransition/pattern) { get; set; } | Spécifie la forme des éléments visuels utilisés pendant la transition. Lecture/écriture [`TransitionShredPattern`](../transitionshredpattern). |
+| [Pattern](../../aspose.slides.slideshow/ishredtransition/pattern) { get; set; } | Spécifie la forme des visuels utilisés pendant la transition. Lecture/écriture [`TransitionShredPattern`](../transitionshredpattern). |
 
 ### Voir aussi
 

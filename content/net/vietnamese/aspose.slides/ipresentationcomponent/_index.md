@@ -3,10 +3,10 @@ title: IPresentationComponent
 second_title: Tham chiếu API Aspose.Sildes cho .NET
 description: Biểu diễn một thành phần của bản trình chiếu.
 type: docs
-weight: 6760
+weight: 6780
 url: /vi/aspose.slides/ipresentationcomponent/
 ---
-## Giao diện IPresentationComponent
+## IPresentationComponent interface
 
 Biểu diễn một thành phần của bản trình chiếu.
 

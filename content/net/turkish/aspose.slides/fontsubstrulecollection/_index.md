@@ -1,14 +1,14 @@
 ---
 title: FontSubstRuleCollection
 second_title: Aspose.Sildes için .NET API Referansı
-description: Yazı tipleri ikamesi koleksiyonunu temsil eder.
+description: Yazı tipi değiştirme koleksiyonunu temsil eder.
 type: docs
-weight: 4900
+weight: 4920
 url: /tr/aspose.slides/fontsubstrulecollection/
 ---
 ## FontSubstRuleCollection sınıfı
 
-Yazı tipleri ikamesi koleksiyonunu temsil eder.
+Yazı tipi değiştirme koleksiyonunu temsil eder.
 
 ```csharp
 public class FontSubstRuleCollection : IFontSubstRuleCollection
@@ -24,21 +24,21 @@ public class FontSubstRuleCollection : IFontSubstRuleCollection
 
 | Ad | Açıklama |
 | --- | --- |
-| [Count](../../aspose.slides/fontsubstrulecollection/count) { get; } | Koleksiyonda gerçekte bulunan öğe sayısını alır. Salt-okunur Int32. |
-| [IsSynchronized](../../aspose.slides/fontsubstrulecollection/issynchronized) { get; } | Koleksiyona erişimin senkronize (iş parçacığı güvenli) olup olmadığını gösteren bir değer döndürür. Salt-okunur Boolean. |
-| [Item](../../aspose.slides/fontsubstrulecollection/item) { get; } | Belirtilen indeksteki öğeyi alır. |
-| [SyncRoot](../../aspose.slides/fontsubstrulecollection/syncroot) { get; } | Bir senkronizasyon kökü döndürür. Salt-okunur Object. |
+| [Count](../../aspose.slides/fontsubstrulecollection/count) { get; } | Koleksiyonda gerçekte bulunan öğelerin sayısını alır. Salt okunur Int32. |
+| [IsSynchronized](../../aspose.slides/fontsubstrulecollection/issynchronized) { get; } | Koleksiyona erişimin senkronize edilip edilmediğini (thread-safe) gösteren bir değer döndürür. Salt okunur Boolean. |
+| [Item](../../aspose.slides/fontsubstrulecollection/item) { get; } | Belirtilen indeksdeki öğeyi alır. |
+| [SyncRoot](../../aspose.slides/fontsubstrulecollection/syncroot) { get; } | Bir senkronizasyon kökü döndürür. Salt okunur Object. |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [Add](../../aspose.slides/fontsubstrulecollection/add)(IFontSubstRule) | Yeni yazı tipi ikamesi kuralını koleksiyona ekler |
+| [Add](../../aspose.slides/fontsubstrulecollection/add)(IFontSubstRule) | Yeni yazı tipi yerine koyma kuralını koleksiyona ekler |
 | [CopyTo](../../aspose.slides/fontsubstrulecollection/copyto)(Array, int) | Koleksiyondaki tüm öğeleri belirtilen diziye kopyalar. |
-| [GetEnumerator](../../aspose.slides/fontsubstrulecollection/getenumerator)() | Koleksiyon içinde yineleme yapan bir enumerator döndürür. |
+| [GetEnumerator](../../aspose.slides/fontsubstrulecollection/getenumerator)() | Koleksiyonda yineleme yapan bir enumerator döndürür. |
 | [Remove](../../aspose.slides/fontsubstrulecollection/remove)(IFontSubstRule) | Koleksiyondan belirli bir nesnenin ilk oluşumunu kaldırır. |
 
-### Ayrıca Bakınız
+### İlgili
 
 * arayüz [IFontSubstRuleCollection](../ifontsubstrulecollection)
 * ad alanı [Aspose.Slides](../../aspose.slides)

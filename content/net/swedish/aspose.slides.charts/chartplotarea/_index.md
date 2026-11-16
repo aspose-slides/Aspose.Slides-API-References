@@ -1,14 +1,14 @@
 ---
 title: ChartPlotArea
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar rektangeln där diagrammet ska ritas.
+description: Representerar rektangel där diagrammet ska ritas.
 type: docs
-weight: 1420
+weight: 1430
 url: /sv/aspose.slides.charts/chartplotarea/
 ---
 ## ChartPlotArea klass
 
-Representerar rektangeln där diagrammet ska ritas.
+Representerar rektangel där diagrammet ska ritas.
 
 ```csharp
 public class ChartPlotArea : DomObject<Chart>, IChartPlotArea
@@ -18,20 +18,20 @@ public class ChartPlotArea : DomObject<Chart>, IChartPlotArea
 
 | Namn | Beskrivning |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/chartplotarea/actualheight) { get; } | Anger den faktiska höjden på diagrammets element. Anropa metoden IChart.ValidateChartLayout() innan för att få faktiska värden. Read Single. |
-| [ActualWidth](../../aspose.slides.charts/chartplotarea/actualwidth) { get; } | Anger den faktiska bredden på diagrammets element. Anropa metoden IChart.ValidateChartLayout() innan för att få faktiska värden. Read Single. |
-| [ActualX](../../aspose.slides.charts/chartplotarea/actualx) { get; } | Anger den faktiska x-positionen (vänster) för diagrammets element relativt diagrammets vänstra övre hörn. Anropa metoden IChart.ValidateChartLayout() innan för att få faktiska värden. Read Single. |
-| [ActualY](../../aspose.slides.charts/chartplotarea/actualy) { get; } | Anger den faktiska toppen på diagrammets element relativt diagrammets vänstra övre hörn. Anropa metoden IChart.ValidateChartLayout() innan för att få faktiska värden. Read Single. |
-| [Bottom](../../aspose.slides.charts/chartplotarea/bottom) { get; } | Botten. Read-only Single. |
-| [Chart](../../aspose.slides.charts/chartplotarea/chart) { get; } | Diagram. Read-only [`IChart`](../ichart). |
-| [Format](../../aspose.slides.charts/chartplotarea/format) { get; } | Returnerar formatet för ett plotområde. Read-only [`IFormat`](../iformat). |
-| [Height](../../aspose.slides.charts/chartplotarea/height) { get; set; } | Returnerar eller anger höjden på en plotområdes avgränsningsruta som en bråkdel av diagrammets höjd (från 0 till 1). Read/write Single. |
-| [IsLocationAutocalculated](../../aspose.slides.charts/chartplotarea/islocationautocalculated) { get; } | Definierar hur position ska beräknas: true – beräknas automatiskt; definierad av egenskaperna X, Y, Width, Height. Read-only Boolean. |
-| [LayoutTargetType](../../aspose.slides.charts/chartplotarea/layouttargettype) { get; set; } | Om layouten för plotområdet definieras manuellt anger denna egenskap huruvida plotområdet ska layoutas efter dess innersida (utan axlar och axelrubriker) eller utsida (inklusive axlar och axelrubriker). Read/write [`LayoutTargetType`](./layouttargettype). |
-| [Right](../../aspose.slides.charts/chartplotarea/right) { get; } | Höger. Read-only Single. |
-| [Width](../../aspose.slides.charts/chartplotarea/width) { get; set; } | Returnerar eller anger bredden på en plotområdes avgränsningsruta som en bråkdel av diagrammets bredd (från 0 till 1). Read/write Single. |
-| [X](../../aspose.slides.charts/chartplotarea/x) { get; set; } | Returnerar eller anger x-koordinaten för det övre vänstra hörnet av plotområdes avgränsningsruta som en bråkdel av diagrammets bredd (från 0 till 1). Read/write Single. |
-| [Y](../../aspose.slides.charts/chartplotarea/y) { get; set; } | Returnerar eller anger y-koordinaten för det övre vänstra hörnet av plotområdes avgränsningsruta som en bråkdel av diagrammets höjd (från 0 till 1). Read/write Single. |
+| [ActualHeight](../../aspose.slides.charts/chartplotarea/actualheight) { get; } | Anger den faktiska höjden på diagrammets element. Anropa metoden IChart.ValidateChartLayout() innan för att få faktiska värden. Läs Single. |
+| [ActualWidth](../../aspose.slides.charts/chartplotarea/actualwidth) { get; } | Anger den faktiska bredden på diagrammets element. Anropa metoden IChart.ValidateChartLayout() innan för att få faktiska värden. Läs Single. |
+| [ActualX](../../aspose.slides.charts/chartplotarea/actualx) { get; } | Anger den faktiska x-positionen (vänster) för diagrammets element i förhållande till diagrammets vänstra övre hörn. Anropa metoden IChart.ValidateChartLayout() innan för att få faktiska värden. Läs Single. |
+| [ActualY](../../aspose.slides.charts/chartplotarea/actualy) { get; } | Anger den faktiska toppen av diagrammets element i förhållande till diagrammets vänstra övre hörn. Anropa metoden IChart.ValidateChartLayout() innan för att få faktiska värden. Läs Single. |
+| [Bottom](../../aspose.slides.charts/chartplotarea/bottom) { get; } | Botten. Skrivskyddad Single. |
+| [Chart](../../aspose.slides.charts/chartplotarea/chart) { get; } | Diagram. Skrivskyddad [`IChart`](../ichart). |
+| [Format](../../aspose.slides.charts/chartplotarea/format) { get; } | Returnerar formatet för ett plotområde. Skrivskyddad [`IFormat`](../iformat). |
+| [Height](../../aspose.slides.charts/chartplotarea/height) { get; set; } | Returnerar eller anger höjden på ett plotområdes avgränsningsruta som en bråkdel av diagrammets höjd (från 0 till 1). Läs/skriv Single. |
+| [IsLocationAutocalculated](../../aspose.slides.charts/chartplotarea/islocationautocalculated) { get; } | Definierar hur position ska beräknas: true – beräknas automatiskt; definierad av egenskaperna X, Y, Width, Height. Skrivskyddad Boolean. |
+| [LayoutTargetType](../../aspose.slides.charts/chartplotarea/layouttargettype) { get; set; } | Om layouten för plotområdet definierats manuellt specificerar denna egenskap huruvida plotområdet ska layoutas via dess insida (exklusive axlar och axelrubriker) eller utsida (inklusive axlar och axelrubriker). Läs/skriv [`LayoutTargetType`](./layouttargettype). |
+| [Right](../../aspose.slides.charts/chartplotarea/right) { get; } | Höger. Skrivskyddad Single. |
+| [Width](../../aspose.slides.charts/chartplotarea/width) { get; set; } | Returnerar eller anger bredden på ett plotområdes avgränsningsruta som en bråkdel av diagrammets bredd (från 0 till 1). Läs/skriv Single. |
+| [X](../../aspose.slides.charts/chartplotarea/x) { get; set; } | Returnerar eller anger x-koordinaten för den övre vänstra hörnet av plotområdes avgränsningsruta som en bråkdel av diagrammets bredd (från 0 till 1). Läs/skriv Single. |
+| [Y](../../aspose.slides.charts/chartplotarea/y) { get; set; } | Returnerar eller anger y-koordinaten för den övre vänstra hörnet av plotområdes avgränsningsruta som en bråkdel av diagrammets höjd (från 0 till 1). Läs/skriv Single. |
 
 ### Se även
 

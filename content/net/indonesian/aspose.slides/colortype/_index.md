@@ -1,9 +1,9 @@
 ---
 title: ColorType
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili berbagai mode warna.
 type: docs
-weight: 2580
+weight: 2600
 url: /id/aspose.slides/colortype/
 ---
 ## enumerasi ColorType
@@ -19,12 +19,12 @@ public enum ColorType
 | Nama | Nilai | Deskripsi |
 | --- | --- | --- |
 | NotDefined | `-1` | Warna tidak didefinisikan sama sekali. |
-| RGB | `0` | Warna RGB standar 24bit. |
+| RGB | `0` | Warna RGB standar 24-bit. |
 | RGBPercentage | `1` | Warna RGB definisi tinggi. |
 | HSL | `2` | Warna HSL definisi tinggi. |
 | Scheme | `3` | Warna skema. |
 | System | `4` | Warna sistem. |
-| Preset | `5` | Warna prasetel. |
+| Preset | `5` | Warna preset. |
 
 ### Lihat Juga
 

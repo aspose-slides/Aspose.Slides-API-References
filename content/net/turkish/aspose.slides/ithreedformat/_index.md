@@ -1,14 +1,14 @@
 ---
 title: IThreeDFormat
 second_title: Aspose.Sildes için .NET API Referansı
-description: 3-B özelliklerini temsil eder.
+description: 3D özelliklerini temsil eder.
 type: docs
-weight: 7330
+weight: 7350
 url: /tr/aspose.slides/ithreedformat/
 ---
 ## IThreeDFormat arayüz
 
-3-B boyutlu özellikleri temsil eder.
+3D özelliklerini temsil eder.
 
 ```csharp
 public interface IThreeDFormat : IThreeDParamSource
@@ -18,25 +18,25 @@ public interface IThreeDFormat : IThreeDParamSource
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIThreeDParamSource](../../aspose.slides/ithreedformat/asithreedparamsource) { get; } | Temel IThreeDParamSource arayüzünü almayı sağlar. Salt okunur [`IThreeDParamSource`](../ithreedparamsource). |
-| [BevelBottom](../../aspose.slides/ithreedformat/bevelbottom) { get; } | Alt 3D köşe yuvarlama tipini döndürür veya ayarlar. Salt okunur [`IShapeBevel`](../ishapebevel). |
-| [BevelTop](../../aspose.slides/ithreedformat/beveltop) { get; } | Üst 3D köşe yuvarlama tipini döndürür veya ayarlar. Salt okunur [`IShapeBevel`](../ishapebevel). |
-| [Camera](../../aspose.slides/ithreedformat/camera) { get; } | Kamera ayarlarını döndürür veya ayarlar. Salt okunur [`ICamera`](../icamera). |
-| [ContourColor](../../aspose.slides/ithreedformat/contourcolor) { get; } | Kontur rengini döndürür veya ayarlar. Salt okunur [`IColorFormat`](../icolorformat). |
-| [ContourWidth](../../aspose.slides/ithreedformat/contourwidth) { get; set; } | 3D konturun genişliğini döndürür veya ayarlar. Okunur/Yazılır Double. |
-| [Depth](../../aspose.slides/ithreedformat/depth) { get; set; } | 3D şeklin derinliğini döndürür veya ayarlar. Okunur/Yazılır Double. |
-| [ExtrusionColor](../../aspose.slides/ithreedformat/extrusioncolor) { get; } | Ekstrüzyon rengini döndürür veya ayarlar. Salt okunur [`IColorFormat`](../icolorformat). |
-| [ExtrusionHeight](../../aspose.slides/ithreedformat/extrusionheight) { get; set; } | Ekstrüzyon etkisinin yüksekliğini döndürür veya ayarlar. Okunur/Yazılır Double. |
-| [LightRig](../../aspose.slides/ithreedformat/lightrig) { get; } | Işık tipini döndürür veya ayarlar. Salt okunur [`ILightRig`](../ilightrig). |
-| [Material](../../aspose.slides/ithreedformat/material) { get; set; } | Malzeme tipini döndürür veya ayarlar. Okunur/Yazılır [`MaterialPresetType`](../materialpresettype). |
+| [AsIThreeDParamSource](../../aspose.slides/ithreedformat/asithreedparamsource) { get; } | Temel IThreeDParamSource arayüzünü almayı sağlar. Yalnızca okuma [`IThreeDParamSource`](../ithreedparamsource). |
+| [BevelBottom](../../aspose.slides/ithreedformat/bevelbottom) { get; } | Alt 3D köşe tipini döndürür veya ayarlar. Yalnızca okuma [`IShapeBevel`](../ishapebevel). |
+| [BevelTop](../../aspose.slides/ithreedformat/beveltop) { get; } | Üst 3D köşe tipini döndürür veya ayarlar. Yalnızca okuma [`IShapeBevel`](../ishapebevel). |
+| [Camera](../../aspose.slides/ithreedformat/camera) { get; } | Kamera ayarlarını döndürür veya ayarlar. Yalnızca okuma [`ICamera`](../icamera). |
+| [ContourColor](../../aspose.slides/ithreedformat/contourcolor) { get; } | Kontür rengini döndürür veya ayarlar. Yalnızca okuma [`IColorFormat`](../icolorformat). |
+| [ContourWidth](../../aspose.slides/ithreedformat/contourwidth) { get; set; } | 3D kontür genişliğini döndürür veya ayarlar. Okuma/Yazma Double. |
+| [Depth](../../aspose.slides/ithreedformat/depth) { get; set; } | 3D şeklin derinliğini döndürür veya ayarlar. Okuma/Yazma Double. |
+| [ExtrusionColor](../../aspose.slides/ithreedformat/extrusioncolor) { get; } | Ekstrüzyon rengini döndürür veya ayarlar. Yalnızca okuma [`IColorFormat`](../icolorformat). |
+| [ExtrusionHeight](../../aspose.slides/ithreedformat/extrusionheight) { get; set; } | Ekstrüzyon etkisi yüksekliğini döndürür veya ayarlar. Okuma/Yazma Double. |
+| [LightRig](../../aspose.slides/ithreedformat/lightrig) { get; } | Işık tipini döndürür veya ayarlar. Yalnızca okuma [`ILightRig`](../ilightrig). |
+| [Material](../../aspose.slides/ithreedformat/material) { get; set; } | Malzeme tipini döndürür veya ayarlar. Okuma/Yazma [`MaterialPresetType`](../materialpresettype). |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [GetEffective](../../aspose.slides/ithreedformat/geteffective)() | Uygulanan kalıtımla etkili 3-D biçimlendirme verilerini alır. |
+| [GetEffective](../../aspose.slides/ithreedformat/geteffective)() | Uygulanan miras ile etkili 3D biçimlendirme verilerini alır. |
 
-### Ayrıca Bakınız
+### İlgili
 
 * arayüz [IThreeDParamSource](../ithreedparamsource)
 * ad alanı [Aspose.Slides](../../aspose.slides)

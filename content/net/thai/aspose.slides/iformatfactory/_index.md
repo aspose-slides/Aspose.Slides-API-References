@@ -1,14 +1,14 @@
 ---
 title: IFormatFactory
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: อนุญาตให้สร้างรูปแบบผ่าน COM อินเทอร์เฟซ.
+second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+description: อนุญาตให้สร้างรูปแบบผ่านอินเทอร์เฟซ COM.
 type: docs
-weight: 5940
+weight: 5960
 url: /th/aspose.slides/iformatfactory/
 ---
 ## IFormatFactory อินเทอร์เฟซ
 
-อนุญาตให้สร้างรูปแบบผ่าน COM อินเทอร์เฟซ.
+อนุญาตให้สร้างรูปแบบผ่านอินเทอร์เฟซ COM.
 
 ```csharp
 public interface IFormatFactory
@@ -18,9 +18,9 @@ public interface IFormatFactory
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [CreateParagraphFormat](../../aspose.slides/iformatfactory/createparagraphformat)() | สร้างใหม่ [`IParagraphFormat`](../iparagraphformat). |
-| [CreatePortionFormat](../../aspose.slides/iformatfactory/createportionformat)() | สร้างใหม่ [`IPortionFormat`](../iportionformat). |
-| [CreateTextFrameFormat](../../aspose.slides/iformatfactory/createtextframeformat)() | สร้างใหม่ [`ITextFrameFormat`](../itextframeformat). |
+| [CreateParagraphFormat](../../aspose.slides/iformatfactory/createparagraphformat)() | สร้าง [`IParagraphFormat`](../iparagraphformat) ใหม่. |
+| [CreatePortionFormat](../../aspose.slides/iformatfactory/createportionformat)() | สร้าง [`IPortionFormat`](../iportionformat) ใหม่. |
+| [CreateTextFrameFormat](../../aspose.slides/iformatfactory/createtextframeformat)() | สร้าง [`ITextFrameFormat`](../itextframeformat) ใหม่. |
 
 ### ดูเพิ่มเติม
 

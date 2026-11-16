@@ -1,14 +1,14 @@
 ---
 title: ISaveOptionsFactory
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Ermöglicht das Erstellen von Instanzen von Speicheroptionen
+description: Ermöglicht das Erstellen von Instanzen der Speicheroptionen
 type: docs
-weight: 4080
+weight: 4100
 url: /de/aspose.slides.export/isaveoptionsfactory/
 ---
 ## ISaveOptionsFactory Schnittstelle
 
-Ermöglicht das Erzeugen von Instanzen von Speicheroptionen
+Ermöglicht das Erstellen von Instanzen der Speicheroptionen
 
 ```csharp
 public interface ISaveOptionsFactory
@@ -18,9 +18,9 @@ public interface ISaveOptionsFactory
 
 | Name | Beschreibung |
 | --- | --- |
-| [CreatePptxOptions](../../aspose.slides.export/isaveoptionsfactory/createpptxoptions)() | Erstellt PPTX-Speicheroptionen. |
+| [CreatePptxOptions](../../aspose.slides.export/isaveoptionsfactory/createpptxoptions)() | Erstellt PPTX Speicheroptionen. |
 
-### Hinweise
+### Anmerkungen
 
 Für COM-Kompatibilität.
 

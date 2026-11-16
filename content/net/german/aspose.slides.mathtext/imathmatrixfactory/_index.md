@@ -3,7 +3,7 @@ title: IMathMatrixFactory
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Ermöglicht das Erstellen einer mathematischen Matrix
 type: docs
-weight: 8350
+weight: 8370
 url: /de/aspose.slides.mathtext/imathmatrixfactory/
 ---
 ## IMathMatrixFactory Schnittstelle

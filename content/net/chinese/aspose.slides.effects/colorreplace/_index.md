@@ -1,14 +1,14 @@
 ---
 title: ColorReplace
-second_title: Aspose.Sildes 的 .NET API 参考
-description: 表示一种颜色替换效果。所有效果颜色都更改为固定颜色。Alpha 值不受影响。
+second_title: Aspose.Sildes for .NET API 参考
+description: 表示颜色替换效果。所有效果颜色都被更改为固定颜色。Alpha 值不受影响。
 type: docs
-weight: 2950
+weight: 2970
 url: /zh/aspose.slides.effects/colorreplace/
 ---
 ## ColorReplace 类
 
-表示一种颜色替换效果。所有效果颜色都更改为固定颜色。Alpha 值不受影响。
+表示颜色替换效果。所有效果颜色都被更改为固定颜色。Alpha 值不受影响。
 
 ```csharp
 public sealed class ColorReplace : ImageTransformOperation, IColorReplace
@@ -16,20 +16,20 @@ public sealed class ColorReplace : ImageTransformOperation, IColorReplace
 
 ## 属性
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基本 IPresentationComponent 接口。只读 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
-| [Color](../../aspose.slides.effects/colorreplace/color) { get; } | 返回将用于替换每个像素颜色的颜色格式。只读 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基础 IPresentationComponent 接口。只读 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
+| [Color](../../aspose.slides.effects/colorreplace/color) { get; } | 返回将在每个像素上替换颜色的颜色格式。只读 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
 
 ## 方法
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/colorreplace/equals)(object) | 确定指定的 [`ColorReplace`](../colorreplace) 是否等于当前的 [`ColorReplace`](../colorreplace)。 |
-| [GetEffective](../../aspose.slides.effects/colorreplace/geteffective)() | 获取应用继承后的有效颜色替换效果数据。 |
+| [GetEffective](../../aspose.slides.effects/colorreplace/geteffective)() | 获取已应用继承的有效颜色替换效果数据。 |
 | override [GetHashCode](../../aspose.slides.effects/colorreplace/gethashcode)() | 充当特定类型的哈希函数。 |
 
-### 另见
+### 另请参见
 
 * 类 [ImageTransformOperation](../imagetransformoperation)
 * 接口 [IColorReplace](../icolorreplace)

@@ -1,14 +1,14 @@
 ---
 title: ForEach.ForEachShapeCallback
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 프레젠테이션에서 각 Shape에 대해 호출되는 콜백입니다./foreach/shape ../aspose.slides/presentation.
+description: 프레젠테이션에서 각 Shape./foreach/shape에 대해 호출되는 콜백../aspose.slides/presentation.
 type: docs
-weight: 7950
+weight: 7970
 url: /ko/aspose.slides.lowcode/foreach.foreachshapecallback/
 ---
-## ForEach.ForEachShapeCallback delegate
+## ForEach.ForEachShapeCallback 대리자
 
-각 [`Shape`](../foreach/shape)에 대해 [`Presentation`](../../aspose.slides/presentation) 내에서 호출되는 콜백입니다.
+각 [`Shape`](../foreach/shape)에 대해 [`Presentation`](../../aspose.slides/presentation)에서 호출되는 콜백입니다.
 
 ```csharp
 public delegate void ForEachShapeCallback(Shape shape, BaseSlide slide, int index);

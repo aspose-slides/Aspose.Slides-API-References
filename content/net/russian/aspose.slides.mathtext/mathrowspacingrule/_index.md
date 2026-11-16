@@ -1,14 +1,14 @@
 ---
 title: MathRowSpacingRule
-second_title: Aspose.Sildes для .NET справочник API
-description: Тип вертикального расстояния между столбцами в матрице или массиве
+second_title: Справочник API Aspose.Sildes для .NET
+description: Тип вертикального интервала между колонками в матрице или массиве
 type: docs
-weight: 8980
+weight: 9000
 url: /ru/aspose.slides.mathtext/mathrowspacingrule/
 ---
 ## MathRowSpacingRule перечисление
 
-Тип вертикального расстояния между столбцами в матрице или массиве
+Тип вертикального интервала между колонками в матрице или массиве
 
 ```csharp
 public enum MathRowSpacingRule
@@ -18,11 +18,11 @@ public enum MathRowSpacingRule
 
 | Имя | Значение | Описание |
 | --- | --- | --- |
-| SingleLineGap | `0` | одиночный интервал строки |
-| OneAndAHalfLineGap | `1` | полуторный интервал строки |
-| TwoLineGap | `2` | двойной интервал строки |
-| Exactly | `3` | Exactly (опирается на значение свойства RowSpacing, измеряется в пунктах) |
-| Multiple | `4` | Multiple (опирается на значение свойства RowSpacing, измеряется в строках) |
+| SingleLineGap | `0` | однострочный зазор |
+| OneAndAHalfLineGap | `1` | зазор в полторы строки |
+| TwoLineGap | `2` | зазор в две строки |
+| Exactly | `3` | Точно (зависит от значения свойства RowSpacing, измеряется в пунктах) |
+| Multiple | `4` | Множественный (зависит от значения свойства RowSpacing, измеряется в строках) |
 
 ### См. также
 

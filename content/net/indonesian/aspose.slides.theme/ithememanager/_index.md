@@ -1,9 +1,9 @@
 ---
 title: IThemeManager
-second_title: Aspose.Sildes untuk .NET Referensi API
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili properti tema.
 type: docs
-weight: 11390
+weight: 11410
 url: /id/aspose.slides.theme/ithememanager/
 ---
 ## IThemeManager antarmuka
@@ -18,7 +18,7 @@ public interface IThemeManager
 
 | Nama | Deskripsi |
 | --- | --- |
-| [ApplyColorScheme](../../aspose.slides.theme/ithememanager/applycolorscheme)(IExtraColorScheme) | Menerapkan skema warna tambahan ke slide. |
+| [ApplyColorScheme](../../aspose.slides.theme/ithememanager/applycolorscheme)(IExtraColorScheme) | Menerapkan skema warna tambahan pada slide. |
 | [CreateThemeEffective](../../aspose.slides.theme/ithememanager/createthemeeffective)() | Mengembalikan objek tema. |
 
 ### Lihat Juga

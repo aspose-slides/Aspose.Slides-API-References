@@ -1,9 +1,9 @@
 ---
 title: IFontSubstRule
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Referencia de la API de Aspose.Sildes para .NET
 description: Representa información de sustitución de fuentes
 type: docs
-weight: 5880
+weight: 5900
 url: /es/aspose.slides/ifontsubstrule/
 ---
 ## IFontSubstRule interfaz

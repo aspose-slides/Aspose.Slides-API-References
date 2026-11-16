@@ -1,14 +1,14 @@
 ---
 title: HighlightText
-second_title: Aspose.Sildes สำหรับ .NET - เอกสารอ้างอิง API
-description: ทำให้ข้อความตัวอย่างทั้งหมดที่ตรงกันมีสีตามที่ระบุ
+second_title: Aspose.Sildes สำหรับ .NET การอ้างอิง API
+description: ทำให้ข้อความตัวอย่างที่ตรงกันทั้งหมดเป็นสีที่ระบุ
 type: docs
-weight: 100
+weight: 110
 url: /th/aspose.slides/textframe/highlighttext/
 ---
 ## HighlightText(string, Color) {#highlighttext}
 
-ทำให้ข้อความตัวอย่างทั้งหมดที่ตรงกันมีสีตามที่ระบุ
+ทำให้ข้อความตัวอย่างที่ตรงกันทั้งหมดเป็นสีที่ระบุ
 
 ```csharp
 public void HighlightText(string text, Color highlightColor)
@@ -16,8 +16,8 @@ public void HighlightText(string text, Color highlightColor)
 
 | พารามิเตอร์ | ประเภท | คำอธิบาย |
 | --- | --- | --- |
-| text | String | ตัวอย่างข้อความที่ต้องทำไฮไลท์ |
-| highlightColor | Color | สีที่จะใช้ทำไฮไลท์ข้อความ |
+| text | String | ตัวอย่างข้อความที่ต้องการไฮไลท์ |
+| highlightColor | Color | สีที่ใช้ไฮไลท์ข้อความ |
 
 ### ดูเพิ่มเติม
 
@@ -29,7 +29,7 @@ public void HighlightText(string text, Color highlightColor)
 
 ## HighlightText(string, Color, ITextSearchOptions, IFindResultCallback) {#highlighttext_2}
 
-ทำให้ข้อความตัวอย่างทั้งหมดที่ตรงกันมีสีตามที่ระบุ
+ทำให้ข้อความที่ตรงกันทั้งหมดเป็นสีที่ระบุ
 
 ```csharp
 public void HighlightText(string text, Color highlightColor, ITextSearchOptions options, 
@@ -38,22 +38,22 @@ public void HighlightText(string text, Color highlightColor, ITextSearchOptions 
 
 | พารามิเตอร์ | ประเภท | คำอธิบาย |
 | --- | --- | --- |
-| text | String | ข้อความที่จะทำไฮไลท์ |
-| highlightColor | Color | สีที่จะใช้ทำไฮไลท์ข้อความ |
+| text | String | ข้อความที่ต้องการไฮไลท์ |
+| highlightColor | Color | สีที่ใช้ไฮไลท์ข้อความ |
 | options | ITextSearchOptions | ตัวเลือกการค้นหาข้อความ [`ITextSearchOptions`](../../itextsearchoptions) |
-| callback | IFindResultCallback | อ็อบเจ็กต์ callback เพื่อรับผลการค้นหา [`IFindResultCallback`](../../ifindresultcallback) |
+| callback | IFindResultCallback | อ็อบเจ็กต์ callback สำหรับรับผลการค้นหา [`IFindResultCallback`](../../ifindresultcallback) |
 
 ### ตัวอย่าง
 
-ตัวอย่างโค้ดต่อไปนี้แสดงวิธีทำไฮไลท์ข้อความใน TextFrame
+ตัวอย่างโค้ดต่อไปนี้แสดงวิธีการไฮไลท์ข้อความใน TextFrame
 
 ```csharp
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
-	// ทำการไฮไลท์คำทั้งหมด 'important'
+	// ทำการไฮไลท์ทุกคำ 'important'
 	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.HighlightText("important", Color.LightBlue);
-	// ทำการไฮไลท์การปรากฏของคำ 'the' แยกแต่ละคำทั้งหมด
+	// ทำการไฮไลท์ทุกการปรากฏของคำ 'the' ที่แยกกัน
 	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.HighlightText("the", Color.Violet, new TextSearchOptions()
 	{ WholeWordsOnly = true }, null);
 	presentation.Save("SomePresentation-out2.pptx", SaveFormat.Pptx);

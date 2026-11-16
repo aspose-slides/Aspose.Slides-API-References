@@ -1,14 +1,14 @@
 ---
 title: PptOptions
 second_title: Aspose.Sildes for .NET API 參考
-description: 提供控制簡報以 PPT 格式儲存的選項。
+description: 提供控制簡報以 PPT 格式儲存方式的選項。
 type: docs
-weight: 4360
+weight: 4380
 url: /zh-hant/aspose.slides.export/pptoptions/
 ---
 ## PptOptions 類別
 
-提供控制簡報以 PPT 格式儲存的選項。
+提供控制簡報以 PPT 格式儲存方式的選項。
 
 ```csharp
 public class PptOptions : SaveOptions, IPptOptions
@@ -18,20 +18,20 @@ public class PptOptions : SaveOptions, IPptOptions
 
 | 名稱 | 說明 |
 | --- | --- |
-| [PptOptions](pptoptions)() | 預設建構子。 |
+| [PptOptions](pptoptions)() | 預設建構函式。 |
 
 ## 屬性
 
 | 名稱 | 說明 |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | 在找不到來源字型時，返回或設定使用的字型。可讀寫 String。 |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | 返回或設定漸層的視覺樣式。可讀寫 [`GradientStyle`](../../aspose.slides/gradientstyle)。 |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 表示用於以百分比儲存進度更新的回呼物件。請參閱 [`IProgressCallback`](../../aspose.slides/iprogresscallback)。 |
-| [RootDirectoryClsid](../../aspose.slides.export/pptoptions/rootdirectoryclsid) { get; set; } | 表示儲存在根目錄項目的物件類別 GUID (CLSID)。可用於文件應用程式的 COM 啟動。預設值為 '64818D11-4F9B-11CF-86EA-00AA00B929E8'，對應到 'Microsoft Powerpoint.Slide.8'。 |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | 指定在儲存簡報時是否略過含有 JavaScript 呼叫的超連結。可讀寫 Boolean。預設值為 **false**。 |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 返回或設定接收警告並決定載入程序是否繼續或中止的物件。可讀寫 [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)。 |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | 返回或設定在找不到來源字型時使用的字型。讀寫 String。 |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | 返回或設定漸層的視覺樣式。讀寫 [`GradientStyle`](../../aspose.slides/gradientstyle)。 |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 代表用於儲存進度更新（百分比）的回呼物件。請參閱 [`IProgressCallback`](../../aspose.slides/iprogresscallback)。 |
+| [RootDirectoryClsid](../../aspose.slides.export/pptoptions/rootdirectoryclsid) { get; set; } | 代表儲存在根目錄項目中的物件類別 GUID (CLSID)。可用於文件應用程式的 COM 啟動。預設值為 '64818D11-4F9B-11CF-86EA-00AA00B929E8'，對應到 'Microsoft Powerpoint.Slide.8'。 |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | 指定在儲存簡報時是否跳過帶有 JavaScript 呼叫的超連結。讀寫 Boolean。預設值為 **false**。 |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 返回或設定一個接收警告並決定載入過程是否繼續或中止的物件。讀寫 [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)。 |
 
-### 另見
+### 參閱
 
 * 類別 [SaveOptions](../saveoptions)
 * 介面 [IPptOptions](../ipptoptions)

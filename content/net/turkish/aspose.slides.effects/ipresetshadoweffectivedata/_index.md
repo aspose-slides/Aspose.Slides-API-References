@@ -1,12 +1,12 @@
 ---
 title: IPresetShadowEffectiveData
-second_title: Aspose.Sildes için .NET API Referansı
-description: Önceden Tanımlı Gölge etkisini temsil eden değiştirilemez nesne.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Önceden tanımlı bir Gölge etkisini temsil eden değiştirilemez nesne.
 type: docs
-weight: 3490
+weight: 3510
 url: /tr/aspose.slides.effects/ippresetshadoweffectivedata/
 ---
-## IPresetShadowEffectiveData arayüz
+## IPresetShadowEffectiveData arayüzü
 
 Önceden Tanımlı Gölge etkisini temsil eden değiştirilemez nesne.
 
@@ -18,13 +18,13 @@ public interface IPresetShadowEffectiveData : IEffectEffectiveData
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ipresetshadoweffectivedata/asieffecteffectivedata) { get; } | Temel IEffectEffectiveData arayüzünü almaya izin verir. Salt okunur [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ipresetshadoweffectivedata/asieffecteffectivedata) { get; } | Temel IEffectEffectiveData arayüzüne erişim sağlar. Salt okunur [`IEffectEffectiveData`](../ieffecteffectivedata). |
 | [Direction](../../aspose.slides.effects/ipresetshadoweffectivedata/direction) { get; } | Gölgenin yönü. Salt okunur Single. |
 | [Distance](../../aspose.slides.effects/ipresetshadoweffectivedata/distance) { get; } | Gölgenin mesafesi. Salt okunur Double. |
-| [Preset](../../aspose.slides.effects/ipresetshadoweffectivedata/preset) { get; } | Önceden tanımlı. Salt okunur [`PresetShadowType`](../../aspose.slides/presetshadowtype). |
+| [Preset](../../aspose.slides.effects/ipresetshadoweffectivedata/preset) { get; } | Ön ayar. Salt okunur [`PresetShadowType`](../../aspose.slides/presetshadowtype). |
 | [ShadowColor](../../aspose.slides.effects/ipresetshadoweffectivedata/shadowcolor) { get; } | Gölgenin rengi. Salt okunur Color. |
 
-### Diğer Bağlantılar
+### Ayrıca Bakınız
 
 * arayüz [IEffectEffectiveData](../ieffecteffectivedata)
 * ad alanı [Aspose.Slides.Effects](../../aspose.slides.effects)

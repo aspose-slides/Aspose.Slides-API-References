@@ -1,14 +1,14 @@
 ---
 title: IComment
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili komentar pada slide.
+description: Mewakili komentar pada sebuah slide.
 type: docs
-weight: 5560
+weight: 5580
 url: /id/aspose.slides/icomment/
 ---
 ## IComment antarmuka
 
-Mewakili komentar pada slide.
+Mewakili komentar pada sebuah slide.
 
 ```csharp
 public interface IComment
@@ -16,18 +16,18 @@ public interface IComment
 
 ## Properti
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
-| [Author](../../aspose.slides/icomment/author) { get; } | Mengembalikan penulis komentar. Baca-saja [`ICommentAuthor`](../icommentauthor). |
-| [CreatedTime](../../aspose.slides/icomment/createdtime) { get; set; } | Mengembalikan atau mengatur waktu pembuatan komentar. Mengatur properti ini ke MinValue berarti tidak ada waktu komentar yang ditetapkan. Baca/tulis DateTime. |
+| [Author](../../aspose.slides/icomment/author) { get; } | Mengembalikan penulis komentar. Hanya-baca [`ICommentAuthor`](../icommentauthor). |
+| [CreatedTime](../../aspose.slides/icomment/createdtime) { get; set; } | Mengembalikan atau mengatur waktu pembuatan komentar. Menetapkan properti ini ke MinValue berarti tidak ada waktu komentar yang diatur. Baca/tulis DateTime. |
 | [ParentComment](../../aspose.slides/icomment/parentcomment) { get; set; } | Mengambil atau mengatur komentar induk. Baca/tulis [`IComment`](../icomment). |
 | [Position](../../aspose.slides/icomment/position) { get; set; } | Mengembalikan atau mengatur posisi komentar pada slide. Baca/tulis PointF. |
-| [Slide](../../aspose.slides/icomment/slide) { get; } | Mengembalikan atau mengatur slide induk dari komentar. Baca-saja [`ISlide`](../islide). |
-| [Text](../../aspose.slides/icomment/text) { get; set; } | Mengembalikan atau mengatur teks biasa dari komentar slide. Baca/tulis String. |
+| [Slide](../../aspose.slides/icomment/slide) { get; } | Mengembalikan atau mengatur slide induk komentar. Hanya-baca [`ISlide`](../islide). |
+| [Text](../../aspose.slides/icomment/text) { get; set; } | Mengembalikan atau mengatur teks polos komentar slide. Baca/tulis String. |
 
 ## Metode
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
 | [Remove](../../aspose.slides/icomment/remove)() | Menghapus komentar dan semua balasannya dari koleksi induk. |
 

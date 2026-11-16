@@ -1,14 +1,14 @@
 ---
 title: FillFormat
-second_title: Aspose.Sildes pro .NET API Reference
-description: Představuje možnosti formátování výplně.
+second_title: Aspose.Sildes pro .NET API reference
+description: Representuje možnosti formátování výplně.
 type: docs
-weight: 4780
+weight: 4800
 url: /cs/aspose.slides/fillformat/
 ---
 ## FillFormat třída
 
-Represents a fill formatting options.
+Representuje možnosti formátování výplně.
 
 ```csharp
 public sealed class FillFormat : PVIObject, IFillFormat
@@ -16,22 +16,22 @@ public sealed class FillFormat : PVIObject, IFillFormat
 
 ## Vlastnosti
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Umožňuje získat základní rozhraní IPresentationComponent. Pouze pro čtení [`IPresentationComponent`](../ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Umožňuje získat základní rozhraní IPresentationComponent. Pouze ke čtení [`IPresentationComponent`](../ipresentationcomponent). |
 | [FillType](../../aspose.slides/fillformat/filltype) { get; set; } | Vrací nebo nastavuje typ výplně. Čtení/zápis [`FillType`](../filltype). |
-| [GradientFormat](../../aspose.slides/fillformat/gradientformat) { get; } | Vrací formát přechodové výplně. Pouze pro čtení [`IGradientFormat`](../igradientformat). |
-| [PatternFormat](../../aspose.slides/fillformat/patternformat) { get; } | Vrací formát vzorové výplně. Pouze pro čtení [`IPatternFormat`](../ipatternformat). |
-| [PictureFillFormat](../../aspose.slides/fillformat/picturefillformat) { get; } | Vrací formát obrázkové výplně. Pouze pro čtení [`IPictureFillFormat`](../ipicturefillformat). |
+| [GradientFormat](../../aspose.slides/fillformat/gradientformat) { get; } | Vrací formát gradientové výplně. Pouze ke čtení [`IGradientFormat`](../igradientformat). |
+| [PatternFormat](../../aspose.slides/fillformat/patternformat) { get; } | Vrací formát vzorové výplně. Pouze ke čtení [`IPatternFormat`](../ipatternformat). |
+| [PictureFillFormat](../../aspose.slides/fillformat/picturefillformat) { get; } | Vrací formát obrázkové výplně. Pouze ke čtení [`IPictureFillFormat`](../ipicturefillformat). |
 | [RotateWithShape](../../aspose.slides/fillformat/rotatewithshape) { get; set; } | Určuje, zda má být výplň otáčena spolu s tvarem. Čtení/zápis [`NullableBool`](../nullablebool). |
-| [SolidFillColor](../../aspose.slides/fillformat/solidfillcolor) { get; } | Vrací barvu výplně. Pouze pro čtení [`IColorFormat`](../icolorformat). |
+| [SolidFillColor](../../aspose.slides/fillformat/solidfillcolor) { get; } | Vrací barvu výplně. Pouze ke čtení [`IColorFormat`](../icolorformat). |
 
 ## Metody
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | Porovnává s určeným objektem. |
-| [GetEffective](../../aspose.slides/fillformat/geteffective)() | Získává účinná data formátování výplně s aplikovaným děděním. |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | Porovnává se s určeným objektem. |
+| [GetEffective](../../aspose.slides/fillformat/geteffective)() | Získá efektivní data formátování výplně s aplikovaným děděním. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Vrací hash kód. |
 
 ### Viz také

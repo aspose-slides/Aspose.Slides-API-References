@@ -1,14 +1,14 @@
 ---
 title: IGradientStopCollectionEffectiveData
-second_title: Aspose.Sildes pro .NET API Reference
+second_title: Aspose.Sildes pro .NET – reference API
 description: Reprezentuje kolekci objektů GradientStopDataEx.
 type: docs
-weight: 6040
+weight: 6060
 url: /cs/aspose.slides/igradientstopcollectioneffectivedata/
 ---
 ## IGradientStopCollectionEffectiveData rozhraní
 
-Representuje kolekci objektů GradientStopDataEx.
+Reprezentuje kolekci objektů GradientStopDataEx.
 
 ```csharp
 public interface IGradientStopCollectionEffectiveData : 
@@ -19,7 +19,7 @@ public interface IGradientStopCollectionEffectiveData :
 
 | Název | Popis |
 | --- | --- |
-| [Item](../../aspose.slides/igradientstopcollectioneffectivedata/item) { get; } | Vrací zastavení gradientu podle indexu. |
+| [Item](../../aspose.slides/igradientstopcollectioneffectivedata/item) { get; } | Vrací gradientový stop podle indexu. |
 
 ### Viz také
 

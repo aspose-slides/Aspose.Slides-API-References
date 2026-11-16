@@ -1,14 +1,14 @@
 ---
 title: ISummaryZoomFrame
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar en Summary Zoom-ram i en bild.
+description: Representerar ett Summary Zoom frame i en bild.
 type: docs
-weight: 7150
+weight: 7170
 url: /sv/aspose.slides/isummaryzoomframe/
 ---
 ## ISummaryZoomFrame gränssnitt
 
-Representerar en Summary Zoom-ram i en bild.
+Representerar ett Summary Zoom frame i en bild.
 
 ```csharp
 public interface ISummaryZoomFrame : IGraphicalObject
@@ -19,10 +19,10 @@ public interface ISummaryZoomFrame : IGraphicalObject
 | Namn | Beskrivning |
 | --- | --- |
 | [AsIGraphicalObject](../../aspose.slides/isummaryzoomframe/asigraphicalobject) { get; } | Returnerar IGraphicalObject-gränssnittet. |
-| [Layout](../../aspose.slides/isummaryzoomframe/layout) { get; } | Hämtar layout för Summary Zoom-sektioner i ramen. Standardvärdet är GridLayout. |
+| [Layout](../../aspose.slides/isummaryzoomframe/layout) { get; } | Hämtar layout av Summary Zoom Sections i ramen. Standardvärdet är GridLayout. |
 | [SummaryZoomCollection](../../aspose.slides/isummaryzoomframe/summaryzoomcollection) { get; } | Hämtar [`ISummaryZoomSectionCollection`](../isummaryzoomsectioncollection) för Summary Zoom Frame-objektet. |
 
-### Se även
+### Se också
 
 * gränssnitt [IGraphicalObject](../igraphicalobject)
 * namnrymd [Aspose.Slides](../../aspose.slides)

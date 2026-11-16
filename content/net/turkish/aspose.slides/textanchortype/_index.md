@@ -1,14 +1,14 @@
 ---
 title: TextAnchorType
-second_title: Aspose.Sildes için .NET API Referansı
-description: metin alanı içinde metin kutusunun hizalanması.
+second_title: Aspose.Sildes for .NET API Referansı
+description: metin kutusunun bir metin alanı içindeki hizalaması.
 type: docs
-weight: 10910
+weight: 10930
 url: /tr/aspose.slides/textanchortype/
 ---
 ## TextAnchorType enum
 
-metin kutusunun bir metin alanı içindeki hizalanması.
+metin kutusunun bir metin alanı içindeki hizalaması.
 
 ```csharp
 public enum TextAnchorType : sbyte
@@ -25,7 +25,7 @@ public enum TextAnchorType : sbyte
 | Justified | `3` |  |
 | Distributed | `4` |  |
 
-### Ayrıca Bakınız
+### İlgili
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

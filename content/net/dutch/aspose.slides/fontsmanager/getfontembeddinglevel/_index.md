@@ -1,14 +1,14 @@
 ---
 title: GetFontEmbeddingLevel
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Bepaalt het insluitingsniveau van een lettertype op basis van de opgegeven byte-array en lettertype-naam.
+description: Bepaalt het insluitingsniveau van een lettertype op basis van de opgegeven byte array en de naam van het lettertype.
 type: docs
-weight: 60
+weight: 70
 url: /nl/aspose.slides/fontsmanager/getfontembeddinglevel/
 ---
 ## FontsManager.GetFontEmbeddingLevel methode
 
-Bepaalt het insluitingsniveau van een lettertype op basis van de gegeven byte-array en lettertype-naam.
+Bepaalt het insluitingsniveau van een lettertype op basis van de opgegeven byte array en de naam van het lettertype.
 
 ```csharp
 public EmbeddingLevel GetFontEmbeddingLevel(byte[] fontBytes, string fontName)
@@ -16,7 +16,7 @@ public EmbeddingLevel GetFontEmbeddingLevel(byte[] fontBytes, string fontName)
 
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| fontBytes | Byte[] | De byte-array die de lettertypegegevens bevat. |
+| fontBytes | Byte[] | De byte array die de lettertypegegevens bevat. |
 | fontName | String | De naam van het lettertype. |
 
 ### Retourwaarde
@@ -25,7 +25,7 @@ Het insluitingsniveau van het opgegeven lettertype.
 
 ### Uitzonderingen
 
-| Uitzondering | conditie |
+| Uitzondering | Voorwaarde |
 | --- | --- |
 | ArgumentNullException | Wordt gegooid wanneer *fontBytes* null is. |
 

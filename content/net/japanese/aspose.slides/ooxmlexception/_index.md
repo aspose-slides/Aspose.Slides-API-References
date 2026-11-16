@@ -1,9 +1,9 @@
 ---
 title: OOXMLException
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: Office Open XML ファイル形式に関連する標準的な内部例外タイプを表します。
 type: docs
-weight: 9200
+weight: 9220
 url: /ja/aspose.slides/ooxmlexception/
 ---
 ## OOXMLException クラス
@@ -14,15 +14,15 @@ Office Open XML ファイル形式に関連する標準的な内部例外タイ�
 public class OOXMLException : Exception
 ```
 
-## コンストラクター
+## コンストラクタ
 
 | 名前 | 説明 |
 | --- | --- |
-| [OOXMLException](ooxmlexception#constructor)() | デフォルトコンストラクター。 |
-| [OOXMLException](ooxmlexception#constructor_1)(string) | この例外にメッセージを追加できるコンストラクター。 |
-| [OOXMLException](ooxmlexception#constructor_2)(string, Exception) | メッセージと埋め込み例外を含む例外用のコンストラクター。 |
+| [OOXMLException](ooxmlexception#constructor)() | 既定のコンストラクタ。 |
+| [OOXMLException](ooxmlexception#constructor_1)(string) | この例外にメッセージを追加できるコンストラクタ。 |
+| [OOXMLException](ooxmlexception#constructor_2)(string, Exception) | メッセージと埋め込み例外を含む例外のコンストラクタ。 |
 
-### 関連項目
+### 参照
 
 * 名前空間 [Aspose.Slides](../../aspose.slides)
 * アセンブリ [Aspose.Slides](../../)

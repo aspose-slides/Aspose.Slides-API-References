@@ -1,9 +1,9 @@
 ---
 title: IColorReplaceEffectiveData
 second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Niezmienny obiekt, który reprezentuje efekt zamiany koloru. Wszystkie kolory efektu są zmieniane na stały kolor. Wartości alfa pozostają niezmienione.
+description: Niezmienny obiekt reprezentujący efekt zamiany koloru. Wszystkie kolory efektu są zmieniane na stały kolor. Wartości alfa pozostają niezmienione.
 type: docs
-weight: 3250
+weight: 3270
 url: /pl/aspose.slides.effects/icolorreplaceeffectivedata/
 ---
 ## IColorReplaceEffectiveData interfejs

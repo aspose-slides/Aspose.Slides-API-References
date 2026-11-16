@@ -1,14 +1,14 @@
 ---
 title: LineSketchType
 second_title: Aspose.Sildes için .NET API Referansı
-description: Bir şekle atanan taslak türü veya efekti temsil eder.
+description: Bir şekle atanan çizim tipi veya etkisinin hangi olduğunu temsil eder.
 type: docs
-weight: 7810
+weight: 7830
 url: /tr/aspose.slides/linesketchtype/
 ---
-## LineSketchType enum
+## LineSketchType numaralandırması
 
-Şeklin atandığı taslak türü veya etkiyi temsil eder.
+Bir şeklin atandığı çizim türü veya etkisini temsil eder.
 
 ```csharp
 public enum LineSketchType
@@ -19,10 +19,10 @@ public enum LineSketchType
 | Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `-1` | Bir şeklin Sketch etkisinin tanımsız olduğunu belirtir. |
-| None | `0` | Bir şeklin Sketch etkisinin olmadığını belirtir. Bu, özelliğin boş olmasıyla eşdeğerdir. |
-| Curved | `1` | Bir şeklin Curved etkisine sahip olduğunu belirtir; bu, şeklin her kenarını tek bir büyük nazik eğriye dönüştürür. |
-| Freehand | `2` | Bir şeklin Freehand etkisine sahip olduğunu belirtir; bu, hatalı çizilmiş bir çizgiye en çok benzeyen etkidir. |
-| Scribble | `3` | Bir şeklin Scribble etkisine sahip olduğunu belirtir; bu, kasıtlı olarak karışık çizilmiş gibi abartılı salınımlara sahiptir. |
+| None | `0` | Bir şeklin Sketch etkisinin olmadığını belirtir. Bu, bu özelliğin boş olduğu ile eşdeğerdir. |
+| Curved | `1` | Bir şeklin Curved etkisine sahip olduğunu belirtir; bu, şeklin her kenarını tek büyük yumuşak bir kıvırma haline getirir. |
+| Freehand | `2` | Bir şeklin Freehand etkisine sahip olduğunu belirtir; bu, en çok hatalı çizilmiş bir çizgiye benzer. |
+| Scribble | `3` | Bir şeklin Scribble etkisine sahip olduğunu belirtir; bu, kasıtlı olarak dağınık çizilmiş gibi abartılı dalgalanma içerir. |
 
 ### Ayrıca Bakınız
 

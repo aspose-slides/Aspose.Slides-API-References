@@ -1,14 +1,14 @@
 ---
 title: ITint
-second_title: Aspose.Sildes per il riferimento API .NET
-description: Rappresenta un effetto Tint. Sposta i valori di colore dell'effetto verso/lontano dalla tonalità di una quantità specificata.
+second_title: Riferimento API di Aspose.Sildes per .NET
+description: Rappresenta un effetto Tint. Sposta i valori di colore dell'effetto verso/lontano dalla tonalità di base di una quantità specificata.
 type: docs
-weight: 3540
+weight: 3560
 url: /it/aspose.slides.effects/itint/
 ---
-## interfaccia ITint
+## ITint interfaccia
 
-Rappresenta un effetto Tint. Sposta i valori di colore dell'effetto verso/lontano dalla tonalità di una quantità specificata.
+Rappresenta un effetto Tint. Sposta i valori di colore dell'effetto verso/lontano dalla tonalità di base di una quantità specificata.
 
 ```csharp
 public interface ITint : IAccessiblePVIObject<ITintEffectiveData>, IImageTransformOperation

@@ -1,14 +1,14 @@
 ---
 title: IOptionalBlackTransition
-second_title: Aspose.Sildes for .NET API 参考
-description: 可选的黑色幻灯片过渡效果。
+second_title: Aspose.Sildes .NET API 参考
+description: 可选的黑色幻灯片切换效果。
 type: docs
-weight: 10140
+weight: 10160
 url: /zh/aspose.slides.slideshow/ioptionalblacktransition/
 ---
 ## IOptionalBlackTransition 接口
 
-可选的黑色幻灯片过渡效果。
+可选的黑色幻灯片切换效果。
 
 ```csharp
 public interface IOptionalBlackTransition : ITransitionValueBase
@@ -18,10 +18,10 @@ public interface IOptionalBlackTransition : ITransitionValueBase
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/ioptionalblacktransition/asitransitionvaluebase) { get; } | 允许获取基础 ITransitionValueBase 接口。只读 [`ITransitionValueBase`](../itransitionvaluebase)。 |
-| [FromBlack](../../aspose.slides.slideshow/ioptionalblacktransition/fromblack) { get; set; } | 此属性指定过渡是否从黑色屏幕开始（随后在黑色上过渡到新幻灯片）。可读写 Boolean。 |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/ioptionalblacktransition/asitransitionvaluebase) { get; } | 允许获取基 ITransitionValueBase 接口。只读 [`ITransitionValueBase`](../itransitionvaluebase)。 |
+| [FromBlack](../../aspose.slides.slideshow/ioptionalblacktransition/fromblack) { get; set; } | 此属性指定过渡是否从黑屏开始（然后在黑屏上过渡到新的幻灯片）。读/写 Boolean。 |
 
-### 另见
+### 参见
 
 * 接口 [ITransitionValueBase](../itransitionvaluebase)
 * 命名空间 [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

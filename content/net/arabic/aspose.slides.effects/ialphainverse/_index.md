@@ -1,14 +1,14 @@
 ---
 title: IAlphaInverse
 second_title: Aspose.Sildes لـ .NET مرجع API
-description: يمثل تأثير عكسي للشفافية. قيم شفافية Alpha يتم عكسها بطرحها من 100.
+description: يمثل تأثير Alpha Inverse. قيم شفافية Alpha تُعكس بطرحها من 100.
 type: docs
-weight: 3080
+weight: 3100
 url: /ar/aspose.slides.effects/ialphainverse/
 ---
 ## IAlphaInverse واجهة
 
-يمثل تأثير عكسي للشفافية. قيم Alpha (الشفافية) يتم عكسها بطرحها من 100%.
+يمثل تأثير Alpha Inverse. قيم Alpha (الشفافية) تُعكس بطرحها من 100%.
 
 ```csharp
 public interface IAlphaInverse : IAccessiblePVIObject<IAlphaInverseEffectiveData>, 
@@ -22,7 +22,7 @@ public interface IAlphaInverse : IAccessiblePVIObject<IAlphaInverseEffectiveData
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphainverse/asiaccessiblepviobject) { get; } | يسمح بالحصول على واجهة IAccessiblePVIObject الأساسية. للقراءة فقط [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
 | [AsIImageTransformOperation](../../aspose.slides.effects/ialphainverse/asiimagetransformoperation) { get; } | يسمح بالحصول على واجهة IImageTransformOperation الأساسية. للقراءة فقط [`IImageTransformOperation`](../iimagetransformoperation). |
 
-### انظر أيضا
+### راجع أيضًا
 
 * واجهة [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * واجهة [IAlphaInverseEffectiveData](../ialphainverseeffectivedata)

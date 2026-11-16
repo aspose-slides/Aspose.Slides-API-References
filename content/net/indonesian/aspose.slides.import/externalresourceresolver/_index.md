@@ -1,14 +1,14 @@
 ---
 title: ExternalResourceResolver
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Kelas callback yang digunakan untuk menyelesaikan sumber daya eksternal selama impor dokumen Html dan Svg. Menggunakan resolver ini dapat menimbulkan kerentanan ketika file HTML atau SVG yang disediakan klien membuat perangkat lunak server memperoleh file lokal atau jaringan. Gunakan dengan hati-hati. Disarankan untuk tidak menentukan ExternalResourceResolver sama sekali; hanya objek yang disematkan yang akan dibaca atau buat subclass yang memeriksa apakah uri yang ditentukan valid.
+description: Kelas callback yang digunakan untuk menyelesaikan sumber daya eksternal selama impor dokumen Html dan Svg. Menggunakan resolver ini dapat menimbulkan kerentanan ketika file HTML atau SVG yang disediakan klien membuat perangkat lunak server memperoleh file lokal atau jaringan. Gunakan dengan hati-hati. Disarankan untuk tidak menentukan ExternalResourceResolver sama sekali; hanya objek tersemat yang akan dibaca atau buat subclass yang memeriksa apakah uri yang ditentukan valid.
 type: docs
-weight: 7480
+weight: 7500
 url: /id/aspose.slides.import/externalresourceresolver/
 ---
 ## ExternalResourceResolver kelas
 
-Kelas callback yang digunakan untuk menyelesaikan sumber daya eksternal selama impor dokumen Html, Svg. Menggunakan resolver ini dapat menyebabkan kerentanan ketika file HTML atau SVG yang disediakan klien membuat perangkat lunak server memperoleh file lokal atau jaringan. Gunakan dengan hati-hati. Disarankan untuk tidak menentukan ExternalResourceResolver sama sekali (hanya objek yang disematkan yang akan dibaca) atau membuat subclass yang memeriksa apakah uri yang ditentukan valid.
+Kelas callback yang digunakan untuk menyelesaikan sumber daya eksternal selama impor dokumen Html, Svg. Menggunakan resolver ini dapat menimbulkan kerentanan ketika file HTML atau SVG yang diberikan klien membuat perangkat lunak server memperoleh file lokal atau jaringan. Gunakan dengan hati-hati. Disarankan untuk tidak menentukan ExternalResourceResolver sama sekali (hanya objek tersemat yang akan dibaca) atau membuat subclass yang memeriksa apakah uri yang ditentukan valid.
 
 ```csharp
 public class ExternalResourceResolver : IExternalResourceResolver
@@ -24,7 +24,7 @@ public class ExternalResourceResolver : IExternalResourceResolver
 
 | Nama | Deskripsi |
 | --- | --- |
-| virtual [GetEntity](../../aspose.slides.import/externalresourceresolver/getentity)(string) | Memetakan URI ke objek yang berisi sumber daya sebenarnya. |
+| virtual [GetEntity](../../aspose.slides.import/externalresourceresolver/getentity)(string) | Membuat pemetaan URI ke objek yang berisi sumber daya sebenarnya. |
 | virtual [ResolveUri](../../aspose.slides.import/externalresourceresolver/resolveuri)(string, string) | Menyelesaikan URI absolut dari URI dasar dan relatif. |
 
 ### Lihat Juga

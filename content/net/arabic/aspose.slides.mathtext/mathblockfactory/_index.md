@@ -1,9 +1,9 @@
 ---
 title: MathBlockFactory
-second_title: Aspose.Sildes لمرجع API لـ .NET
+second_title: مرجع API لـ Aspose.Sildes لـ .NET
 description: يسمح بإنشاء كتلة رياضية
 type: docs
-weight: 8600
+weight: 8620
 url: /ar/aspose.slides.mathtext/mathblockfactory/
 ---
 ## MathBlockFactory فئة
@@ -16,13 +16,13 @@ public class MathBlockFactory : IMathBlockFactory
 
 ## المنشئات
 
-| Name | Description |
+| الاسم | الوصف |
 | --- | --- |
 | [MathBlockFactory](mathblockfactory)() | المنشئ الافتراضي. |
 
 ## الطرق
 
-| Name | Description |
+| الاسم | الوصف |
 | --- | --- |
 | [CreateMathBlock](../../aspose.slides.mathtext/mathblockfactory/createmathblock#createmathblock)() | إنشاء كتلة رياضية |
 | [CreateMathBlock](../../aspose.slides.mathtext/mathblockfactory/createmathblock#createmathblock_1)(IMathElement) | إنشاء كتلة رياضية ووضع العنصر فيها |
@@ -34,7 +34,7 @@ public class MathBlockFactory : IMathBlockFactory
 
 ### انظر أيضًا
 
-* الواجهة [IMathBlockFactory](../imathblockfactory)
+* واجهة [IMathBlockFactory](../imathblockfactory)
 * نطاق [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * تجميع [Aspose.Slides](../../)
 

@@ -1,14 +1,14 @@
 ---
 title: CornerDirectionTransition
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Efek transisi slide arah sudut.
 type: docs
-weight: 10010
+weight: 10030
 url: /id/aspose.slides.slideshow/cornerdirectiontransition/
 ---
 ## CornerDirectionTransition kelas
 
-Efek transisi slide arah sudut.
+Arah slide transisi sudut.
 
 ```csharp
 public class CornerDirectionTransition : TransitionValueBase, ICornerDirectionTransition
@@ -16,16 +16,16 @@ public class CornerDirectionTransition : TransitionValueBase, ICornerDirectionTr
 
 ## Properti
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
 | [Direction](../../aspose.slides.slideshow/cornerdirectiontransition/direction) { get; set; } | Arah transisi. Baca/tulis [`TransitionCornerDirectionType`](../transitioncornerdirectiontype). |
 
 ## Metode
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Menentukan apakah dua instance TransitionValueBase sama. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Berfungsi sebagai fungsi hash untuk tipe tertentu, cocok untuk digunakan dalam algoritma hashing dan struktur data seperti tabel hash. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Berfungsi sebagai fungsi hash untuk tipe tertentu, cocok untuk digunakan dalam algoritma hash dan struktur data seperti tabel hash. |
 
 ### Lihat Juga
 

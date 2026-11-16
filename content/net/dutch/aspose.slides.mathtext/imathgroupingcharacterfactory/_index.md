@@ -1,14 +1,14 @@
 ---
 title: IMathGroupingCharacterFactory
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Staat toe een wiskundig groeperingskarakter te maken
+description: Staat toe om een wiskundig groepeerteken te maken
 type: docs
-weight: 8300
+weight: 8320
 url: /nl/aspose.slides.mathtext/imathgroupingcharacterfactory/
 ---
 ## IMathGroupingCharacterFactory interface
 
-Staat toe een wiskundig groeperingskarakter te maken
+Staat toe om een wiskundig groepeerteken te maken
 
 ```csharp
 public interface IMathGroupingCharacterFactory
@@ -18,8 +18,8 @@ public interface IMathGroupingCharacterFactory
 
 | Naam | Beschrijving |
 | --- | --- |
-| [CreateMathGroupingCharacter](../../aspose.slides.mathtext/imathgroupingcharacterfactory/createmathgroupingcharacter#createmathgroupingcharacter)(IMathElement) | Maakt een wiskundig groeperingskarakter |
-| [CreateMathGroupingCharacter](../../aspose.slides.mathtext/imathgroupingcharacterfactory/createmathgroupingcharacter#createmathgroupingcharacter_1)(IMathElement, char, MathTopBotPositions, MathTopBotPositions) | Maakt een wiskundig groeperingskarakter |
+| [CreateMathGroupingCharacter](../../aspose.slides.mathtext/imathgroupingcharacterfactory/createmathgroupingcharacter#createmathgroupingcharacter)(IMathElement) | Maakt een wiskundig groepeerteken |
+| [CreateMathGroupingCharacter](../../aspose.slides.mathtext/imathgroupingcharacterfactory/createmathgroupingcharacter#createmathgroupingcharacter_1)(IMathElement, char, MathTopBotPositions, MathTopBotPositions) | Maakt een wiskundig groepeerteken |
 
 ### Opmerkingen
 

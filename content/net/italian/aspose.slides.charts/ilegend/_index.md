@@ -1,12 +1,12 @@
 ---
 title: ILegend
-second_title: Riferimento API di Aspose.Sildes per .NET
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta le proprietà della legenda dei grafici.
 type: docs
-weight: 2130
+weight: 2150
 url: /it/aspose.slides.charts/ilegend/
 ---
-## Interfaccia ILegend
+## ILegend interfaccia
 
 Rappresenta le proprietà della legenda del grafico.
 
@@ -20,10 +20,10 @@ public interface ILegend : IActualLayout, IFormattedTextContainer, ILayoutable
 | --- | --- |
 | [AsIFormattedTextContainer](../../aspose.slides.charts/ilegend/asiformattedtextcontainer) { get; } | Consente di ottenere l'interfaccia base IFormattedTextContainer. Solo lettura [`IFormattedTextContainer`](../iformattedtextcontainer). |
 | [AsILayoutable](../../aspose.slides.charts/ilegend/asilayoutable) { get; } | Consente di ottenere l'interfaccia base ILayoutable. Solo lettura [`ILayoutable`](../ilayoutable). |
-| [Entries](../../aspose.slides.charts/ilegend/entries) { get; } | Ottiene le voci della legenda. Solo lettura [`ILegendEntryCollection`](../ilegendentrycollection). |
+| [Entries](../../aspose.slides.charts/ilegend/entries) { get; } | Restituisce le voci della legenda. Solo lettura [`ILegendEntryCollection`](../ilegendentrycollection). |
 | [Format](../../aspose.slides.charts/ilegend/format) { get; } | Restituisce il formato di una legenda. Solo lettura [`IFormat`](../iformat). |
 | [Overlay](../../aspose.slides.charts/ilegend/overlay) { get; set; } | Determina se altri elementi del grafico possono sovrapporsi alla legenda. Lettura/scrittura Boolean. |
-| [Position](../../aspose.slides.charts/ilegend/position) { get; set; } | Specifica la posizione della legenda su un grafico. I valori non NaN delle proprietà X, Y, Width, Heigt sovrascrivono l'effetto di questa proprietà. Lettura/scrittura [`LegendPositionType`](../legendpositiontype). |
+| [Position](../../aspose.slides.charts/ilegend/position) { get; set; } | Specifica la posizione della legenda su un grafico. I valori non NaN delle proprietà X, Y, Width, Height sovrascrivono l'effetto di questa proprietà. Lettura/scrittura [`LegendPositionType`](../legendpositiontype). |
 
 ### Vedi anche
 

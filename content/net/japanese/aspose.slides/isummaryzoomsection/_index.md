@@ -1,9 +1,9 @@
 ---
 title: ISummaryZoomSection
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: Summary Zoom フレーム内の Summary Zoom Section オブジェクトを表します。
 type: docs
-weight: 7160
+weight: 7180
 url: /ja/aspose.slides/isummaryzoomsection/
 ---
 ## ISummaryZoomSection インターフェイス

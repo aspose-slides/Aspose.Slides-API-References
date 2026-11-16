@@ -1,12 +1,12 @@
 ---
 title: LineStyle
-second_title: Aspose.Sildes .NET API संदर्भ
+second_title: Aspose.Sildes .NET के लिए API संदर्भ
 description: एक रेखा की शैली का प्रतिनिधित्व करता है।
 type: docs
-weight: 7820
+weight: 7840
 url: /hi/aspose.slides/linestyle/
 ---
-## LineStyle एनीमरेशन
+## LineStyle एन्यूमरेशन
 
 एक रेखा की शैली का प्रतिनिधित्व करता है।
 
@@ -16,7 +16,7 @@ public enum LineStyle : sbyte
 
 ### मान
 
-| नाम | मान | विवरण |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | Single | `0` |  |

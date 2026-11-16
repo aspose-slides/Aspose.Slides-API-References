@@ -1,14 +1,14 @@
 ---
 title: IInk
-second_title: Aspose.Sildes for .NET API 참조
-description: 슬라이드에서 잉크 객체를 나타냅니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 슬라이드의 잉크 객체를 나타냅니다.
 type: docs
-weight: 7510
+weight: 7530
 url: /ko/aspose.slides.ink/iink/
 ---
 ## IInk 인터페이스
 
-슬라이드에서 잉크 객체를 나타냅니다.
+슬라이드의 잉크 객체를 나타냅니다.
 
 ```csharp
 public interface IInk : IGraphicalObject
@@ -21,7 +21,7 @@ public interface IInk : IGraphicalObject
 | [AsIGraphicalObject](../../aspose.slides.ink/iink/asigraphicalobject) { get; } | 기본 IGraphicalObject 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
 | [Traces](../../aspose.slides.ink/iink/traces) { get; } | IInk 요소 [`IInkTrace`](../iinktrace)에 포함된 모든 트레이스를 가져옵니다. 읽기 전용. |
 
-### 참고
+### 관련 항목
 
 * 인터페이스 [IGraphicalObject](../../aspose.slides/igraphicalobject)
 * 네임스페이스 [Aspose.Slides.Ink](../../aspose.slides.ink)

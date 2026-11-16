@@ -1,20 +1,20 @@
 ---
 title: OOXMLCorruptFileException
-second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
-description: ข้อยกเว้นที่ถูกโยนเมื่อรูปแบบไฟล์ Office Open XML มีการเสียหาย.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: ข้อยกเว้นที่เกิดขึ้นเมื่อรูปแบบไฟล์ Office Open XML เสียหาย.
 type: docs
-weight: 9190
+weight: 9210
 url: /th/aspose.slides/ooxmlcorruptfileexception/
 ---
 ## OOXMLCorruptFileException คลาส
 
-ข้อยกเว้นที่ถูกโยนเมื่อรูปแบบไฟล์ Office Open XML มีการเสียหาย.
+ข้อยกเว้นที่เกิดขึ้นเมื่อรูปแบบไฟล์ Office Open XML เสียหาย
 
 ```csharp
 public class OOXMLCorruptFileException : OOXMLException
 ```
 
-## คอนสตรัคเตอร์
+## ตัวสร้าง
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |

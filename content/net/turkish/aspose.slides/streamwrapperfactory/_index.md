@@ -1,14 +1,14 @@
 ---
 title: StreamWrapperFactory
-second_title: Aspose.Sildes için .NET API Referansı
-description: StreamWrapper'ların fabrikası. COM arabirimi için.
+second_title: Aspose.Sildes .NET API Referansı
+description: StreamWrapper'ların fabrikası. COM arayüzü için.
 type: docs
-weight: 10760
+weight: 10780
 url: /tr/aspose.slides/streamwrapperfactory/
 ---
-## StreamWrapperFactory sınıf
+## StreamWrapperFactory sınıfı
 
-StreamWrapper'ların fabrikası. COM arabirimi için.
+StreamWrapper'ların Fabrikası. COM arabirimi için.
 
 ```csharp
 public class StreamWrapperFactory : IStreamWrapperFactory
@@ -16,18 +16,18 @@ public class StreamWrapperFactory : IStreamWrapperFactory
 
 ## Yapıcılar
 
-| İsim | Açıklama |
+| Ad | Açıklama |
 | --- | --- |
 | [StreamWrapperFactory](streamwrapperfactory)() | Varsayılan yapıcı. |
 
 ## Yöntemler
 
-| İsim | Açıklama |
+| Ad | Açıklama |
 | --- | --- |
 | [CreateFileStreamWrapper](../../aspose.slides/streamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper)(string, FileMode) | Belirtilen yol ve oluşturma modu ile FileStream oluşturur. |
 | [CreateFileStreamWrapper](../../aspose.slides/streamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper_1)(string, FileMode, FileAccess) | Belirtilen yol, oluşturma modu ve okuma/yazma izni ile FileStream oluşturur. |
-| [CreateMemoryStreamWrapper](../../aspose.slides/streamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper)() | MemoryStream sarmalayıcı oluşturur. |
-| [CreateMemoryStreamWrapper](../../aspose.slides/streamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper_1)(byte[]) | Belirtilen bayt dizisine dayalı MemoryStream sarmalayıcı oluşturur. |
+| [CreateMemoryStreamWrapper](../../aspose.slides/streamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper)() | MemoryStream sarmalayıcısı oluşturur. |
+| [CreateMemoryStreamWrapper](../../aspose.slides/streamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper_1)(byte[]) | Belirtilen bayt dizisine dayalı MemoryStream sarmalayıcısı oluşturur. |
 
 ### Ayrıca Bakınız
 

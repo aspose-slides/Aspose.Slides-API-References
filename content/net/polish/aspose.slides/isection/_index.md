@@ -1,12 +1,12 @@
 ---
 title: ISection
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla .NET – odniesienie API
 description: Reprezentuje sekcję slajdów.
 type: docs
-weight: 6890
+weight: 6910
 url: /pl/aspose.slides/isection/
 ---
-## interfejs ISection
+## ISection interfejs
 
 Reprezentuje sekcję slajdów.
 

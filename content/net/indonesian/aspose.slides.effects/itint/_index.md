@@ -1,9 +1,9 @@
 ---
 title: ITint
-second_title: Aspose.Sildes untuk .NET Referensi API
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili efek Tint. Menggeser nilai warna efek menuju/menjauhi hue sebesar jumlah yang ditentukan.
 type: docs
-weight: 3540
+weight: 3560
 url: /id/aspose.slides.effects/itint/
 ---
 ## ITint antarmuka
@@ -18,8 +18,8 @@ public interface ITint : IAccessiblePVIObject<ITintEffectiveData>, IImageTransfo
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/itint/asiaccessiblepviobject) { get; } | Mengizinkan mendapatkan antarmuka IAccessiblePVIObject dasar. Baca-saja [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/itint/asiimagetransformoperation) { get; } | Mengizinkan mendapatkan antarmuka IImageTransformOperation dasar. Baca-saja [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/itint/asiaccessiblepviobject) { get; } | Mengizinkan mendapatkan antarmuka IAccessiblePVIObject dasar. Hanya-baca [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/itint/asiimagetransformoperation) { get; } | Mengizinkan mendapatkan antarmuka IImageTransformOperation dasar. Hanya-baca [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### Lihat Juga
 

@@ -1,14 +1,14 @@
 ---
 title: ILegend
-second_title: Aspose.Slides dla .NET - Referencja API
-description: Reprezentuje własności legendy wykresu.
+second_title: Aspose.Sildes dla .NET – Dokumentacja API
+description: Reprezentuje właściwości legendy wykresów.
 type: docs
-weight: 2130
+weight: 2150
 url: /pl/aspose.slides.charts/ilegend/
 ---
-## ILegend interfejs
+## interfejs ILegend
 
-Reprezentuje własności legendy wykresu.
+Reprezentuje właściwości legendy wykresu.
 
 ```csharp
 public interface ILegend : IActualLayout, IFormattedTextContainer, ILayoutable
@@ -18,11 +18,11 @@ public interface ILegend : IActualLayout, IFormattedTextContainer, ILayoutable
 
 | Nazwa | Opis |
 | --- | --- |
-| [AsIFormattedTextContainer](../../aspose.slides.charts/ilegend/asiformattedtextcontainer) { get; } | Umożliwia pobranie bazowego interfejsu IFormattedTextContainer. Tylko do odczytu [`IFormattedTextContainer`](../iformattedtextcontainer). |
-| [AsILayoutable](../../aspose.slides.charts/ilegend/asilayoutable) { get; } | Umożliwia pobranie bazowego interfejsu ILayoutable. Tylko do odczytu [`ILayoutable`](../ilayoutable). |
-| [Entries](../../aspose.slides.charts/ilegend/entries) { get; } | Pobiera pozycje legendy. Tylko do odczytu [`ILegendEntryCollection`](../ilegendentrycollection). |
+| [AsIFormattedTextContainer](../../aspose.slides.charts/ilegend/asiformattedtextcontainer) { get; } | Umożliwia pobranie podstawowego interfejsu IFormattedTextContainer. Tylko do odczytu [`IFormattedTextContainer`](../iformattedtextcontainer). |
+| [AsILayoutable](../../aspose.slides.charts/ilegend/asilayoutable) { get; } | Umożliwia pobranie podstawowego interfejsu ILayoutable. Tylko do odczytu [`ILayoutable`](../ilayoutable). |
+| [Entries](../../aspose.slides.charts/ilegend/entries) { get; } | Pobiera wpisy legendy. Tylko do odczytu [`ILegendEntryCollection`](../ilegendentrycollection). |
 | [Format](../../aspose.slides.charts/ilegend/format) { get; } | Zwraca format legendy. Tylko do odczytu [`IFormat`](../iformat). |
-| [Overlay](../../aspose.slides.charts/ilegend/overlay) { get; set; } | Określa, czy inne elementy wykresu mogą zachodzić na legendę. Odczyt/zapis Boolean. |
+| [Overlay](../../aspose.slides.charts/ilegend/overlay) { get; set; } | Określa, czy inne elementy wykresu mogą nakładać się na legendę. Odczyt/zapis Boolean. |
 | [Position](../../aspose.slides.charts/ilegend/position) { get; set; } | Określa pozycję legendy na wykresie. Wartości nie-NaN właściwości X, Y, Width, Heigt zastępują efekt tej właściwości. Odczyt/zapis [`LegendPositionType`](../legendpositiontype). |
 
 ### Zobacz także

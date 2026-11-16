@@ -1,14 +1,14 @@
 ---
 title: GetEnumerator
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mengembalikan enumerator yang mengulangi koleksi.
+description: Mengembalikan enumerator yang mengiterasi koleksi.
 type: docs
-weight: 90
+weight: 100
 url: /id/aspose.slides.charts/datalabelcollection/getenumerator/
 ---
 ## DataLabelCollection.GetEnumerator metode
 
-Mengembalikan enumerator yang mengulangi koleksi.
+Mengembalikan enumerator yang mengiterasi koleksi.
 
 ```csharp
 public IEnumerator<IDataLabel> GetEnumerator()
@@ -16,7 +16,7 @@ public IEnumerator<IDataLabel> GetEnumerator()
 
 ### Nilai Kembalian
 
-Sebuah IEnumerator yang dapat digunakan untuk mengiterasi koleksi.
+IEnumerator yang dapat digunakan untuk mengiterasi koleksi.
 
 ### Lihat Juga
 

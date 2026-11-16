@@ -1,12 +1,12 @@
 ---
 title: IEffectFormatEffectiveData
-second_title: Aspose.Sildes için .NET API Referansı
-description: Etkili efekt biçimlendirme özelliklerini içeren değişmez nesne.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Değiştirilemez nesne, etkili efekt biçimlendirme özelliklerini içerir.
 type: docs
-weight: 5750
+weight: 5770
 url: /tr/aspose.slides/ieffectformateffectivedata/
 ---
-## IEffectFormatEffectiveData arayüzü
+## IEffectFormatEffectiveData interface
 
 Değiştirilemez nesne, etkili efekt biçimlendirme özelliklerini içerir.
 
@@ -18,16 +18,16 @@ public interface IEffectFormatEffectiveData : IEffectParamSource
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIEffectParamSource](../../aspose.slides/ieffectformateffectivedata/asieffectparamsource) { get; } | Temel IEffectParamSource arayüzünü almayı sağlar. Salt okunur [`IEffectParamSource`](../ieffectparamsource). |
-| [BlurEffect](../../aspose.slides/ieffectformateffectivedata/blureffect) { get; } | Bulanık efekt. Salt okunur [`IBlurEffectiveData`](../../aspose.slides.effects/iblureffectivedata). |
-| [FillOverlayEffect](../../aspose.slides/ieffectformateffectivedata/filloverlayeffect) { get; } | Dolgu kaplama efekti. Salt okunur [`IFillOverlayEffectiveData`](../../aspose.slides.effects/ifilloverlayeffectivedata). |
-| [GlowEffect](../../aspose.slides/ieffectformateffectivedata/gloweffect) { get; } | Parlama efekti. Salt okunur [`IGlowEffectiveData`](../../aspose.slides.effects/igloweffectivedata). |
-| [InnerShadowEffect](../../aspose.slides/ieffectformateffectivedata/innershadoweffect) { get; } | İç gölge. Salt okunur [`IInnerShadowEffectiveData`](../../aspose.slides.effects/iinnershadoweffectivedata). |
-| [IsNoEffects](../../aspose.slides/ieffectformateffectivedata/isnoeffects) { get; } | Tüm efektler devre dışı bırakıldığında (yeni oluşturulmuş, varsayılan EffectFormat nesnesi gibi) true döndürür. Salt okunur Boolean. |
-| [OuterShadowEffect](../../aspose.slides/ieffectformateffectivedata/outershadoweffect) { get; } | Dış gölge. Salt okunur [`IOuterShadowEffectiveData`](../../aspose.slides.effects/ioutershadoweffectivedata). |
-| [PresetShadowEffect](../../aspose.slides/ieffectformateffectivedata/presetshadoweffect) { get; } | Ön ayarlı gölge. Salt okunur [`IPresetShadowEffectiveData`](../../aspose.slides.effects/ipresetshadoweffectivedata). |
-| [ReflectionEffect](../../aspose.slides/ieffectformateffectivedata/reflectioneffect) { get; } | Yansıma. Salt okunur [`IReflectionEffectiveData`](../../aspose.slides.effects/ireflectioneffectivedata). |
-| [SoftEdgeEffect](../../aspose.slides/ieffectformateffectivedata/softedgeeffect) { get; } | Yumuşak kenar. Salt okunur [`ISoftEdgeEffectiveData`](../../aspose.slides.effects/isoftedgeeffectivedata). |
+| [AsIEffectParamSource](../../aspose.slides/ieffectformateffectivedata/asieffectparamsource) { get; } | Temel IEffectParamSource arayüzünü almayı sağlar. Yalnızca okunabilir [`IEffectParamSource`](../ieffectparamsource). |
+| [BlurEffect](../../aspose.slides/ieffectformateffectivedata/blureffect) { get; } | Bulanıklaştırma efekti. Yalnızca okunabilir [`IBlurEffectiveData`](../../aspose.slides.effects/iblureffectivedata). |
+| [FillOverlayEffect](../../aspose.slides/ieffectformateffectivedata/filloverlayeffect) { get; } | Dolgu bindirme efekti. Yalnızca okunabilir [`IFillOverlayEffectiveData`](../../aspose.slides.effects/ifilloverlayeffectivedata). |
+| [GlowEffect](../../aspose.slides/ieffectformateffectivedata/gloweffect) { get; } | Parıltı efekti. Yalnızca okunabilir [`IGlowEffectiveData`](../../aspose.slides.effects/igloweffectivedata). |
+| [InnerShadowEffect](../../aspose.slides/ieffectformateffectivedata/innershadoweffect) { get; } | İç gölge. Yalnızca okunabilir [`IInnerShadowEffectiveData`](../../aspose.slides.effects/iinnershadoweffectivedata). |
+| [IsNoEffects](../../aspose.slides/ieffectformateffectivedata/isnoeffects) { get; } | Tüm efektler devre dışı bırakıldığında true döndürür (yeni oluşturulmuş, varsayılan EffectFormat nesnesi gibi). Yalnızca okunabilir Boolean. |
+| [OuterShadowEffect](../../aspose.slides/ieffectformateffectivedata/outershadoweffect) { get; } | Dış gölge. Yalnızca okunabilir [`IOuterShadowEffectiveData`](../../aspose.slides.effects/ioutershadoweffectivedata). |
+| [PresetShadowEffect](../../aspose.slides/ieffectformateffectivedata/presetshadoweffect) { get; } | Ön ayarlı gölge. Yalnızca okunabilir [`IPresetShadowEffectiveData`](../../aspose.slides.effects/ipresetshadoweffectivedata). |
+| [ReflectionEffect](../../aspose.slides/ieffectformateffectivedata/reflectioneffect) { get; } | Yansıma. Yalnızca okunabilir [`IReflectionEffectiveData`](../../aspose.slides.effects/ireflectioneffectivedata). |
+| [SoftEdgeEffect](../../aspose.slides/ieffectformateffectivedata/softedgeeffect) { get; } | Yumuşak kenar. Yalnızca okunabilir [`ISoftEdgeEffectiveData`](../../aspose.slides.effects/isoftedgeeffectivedata). |
 
 ### Açıklamalar
 

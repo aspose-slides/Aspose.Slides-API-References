@@ -1,14 +1,14 @@
 ---
 title: ForEach.ForEachPortionCallback
-second_title: Aspose.Sildes için .NET API Referansı
-description: Her Portion için çağrılacak geri çağırma./foreach/portion Paragraph içinde./foreach/paragraph BaseSlide üzerinde../aspose.slides/baseslide.
+second_title: Aspose.Sildes .NET API Referansı
+description: Her bir Portion için çağrılacak geri çağırma./foreach/portion Paragraph içinde./foreach/paragraph BaseSlide../aspose.slides/baseslide.
 type: docs
-weight: 7940
+weight: 7960
 url: /tr/aspose.slides.lowcode/foreach.foreachportioncallback/
 ---
 ## ForEach.ForEachPortionCallback delegate
 
-Her [`Portion`](../foreach/portion) için [`Paragraph`](../foreach/paragraph) içinde [`BaseSlide`](../../aspose.slides/baseslide) üzerinde çağrılacak geri çağırma.
+[`BaseSlide`](../../aspose.slides/baseslide) üzerindeki [`Paragraph`](../foreach/paragraph) içinde her bir [`Portion`](../foreach/portion) için çağrılacak geri çağırma.
 
 ```csharp
 public delegate void ForEachPortionCallback(Portion portion, Paragraph para, BaseSlide slide, 
@@ -17,12 +17,12 @@ public delegate void ForEachPortionCallback(Portion portion, Paragraph para, Bas
 
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| portion | Portion | Geçerli yineleme yapılan bölüm |
-| para | Paragraph | Geçerli yineleme yapılan paragraf |
-| slide | BaseSlide | Geçerli yineleme yapılan slayt |
+| portion | Portion | Geçerli yinelemeli bölüm |
+| para | Paragraph | Geçerli yinelemeli paragraf |
+| slide | BaseSlide | Geçerli yinelemeli slayt |
 | index | Int32 | Paragraftaki geçerli bölümün indeksi |
 
-### Bakınız
+### İlgili
 
 * sınıf [Portion](../../aspose.slides/portion)
 * sınıf [Paragraph](../../aspose.slides/paragraph)

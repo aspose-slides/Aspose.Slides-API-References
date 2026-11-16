@@ -1,14 +1,14 @@
 ---
 title: IPictureFrame
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 画像が内部にあるフレームを表します。
+description: 内部に画像を持つフレームを表します。
 type: docs
-weight: 6670
+weight: 6690
 url: /ja/aspose.slides/ipictureframe/
 ---
 ## IPictureFrame インターフェイス
 
-画像が内部にあるフレームを表します。
+picture が内部にあるフレームを表します。
 
 ```csharp
 public interface IPictureFrame : IGeometryShape
@@ -18,12 +18,12 @@ public interface IPictureFrame : IGeometryShape
 
 | Name | Description |
 | --- | --- |
-| [AsIGeometryShape](../../aspose.slides/ipictureframe/asigeometryshape) { get; } | ベース IGeometryShape インターフェイスを取得できます。 読み取り専用 [`IGeometryShape`](../igeometryshape). |
-| [PictureFormat](../../aspose.slides/ipictureframe/pictureformat) { get; } | 画像フレームの PictureFillFormat オブジェクトを返します。 読み取り専用 [`IPictureFillFormat`](../ipicturefillformat). |
-| [PictureFrameLock](../../aspose.slides/ipictureframe/pictureframelock) { get; } | PictureFrame のロックを返します。 読み取り専用 [`IPictureFrameLock`](../ipictureframelock). |
-| [RelativeScaleHeight](../../aspose.slides/ipictureframe/relativescaleheight) { get; set; } | 画像フレームの高さのスケール（元の画像サイズに対する相対値）を取得または設定します。 値 1.0 は 100% に相当します。 読み書き可能 Single. |
-| [RelativeScaleWidth](../../aspose.slides/ipictureframe/relativescalewidth) { get; set; } | 画像フレームの幅のスケール（元の画像サイズに対する相対値）を取得または設定します。 値 1.0 は 100% に相当します。 読み書き可能 Single. |
-| [ShapeLock](../../aspose.slides/ipictureframe/shapelock) { get; } | シェイプのロックを返します。 読み取り専用 [`IPictureFrameLock`](../ipictureframelock). |
+| [AsIGeometryShape](../../aspose.slides/ipictureframe/asigeometryshape) { get; } | ベース IGeometryShape インターフェイスを取得できます。読み取り専用 [`IGeometryShape`](../igeometryshape)。 |
+| [PictureFormat](../../aspose.slides/ipictureframe/pictureformat) { get; } | picture フレーム用の PictureFillFormat オブジェクトを返します。読み取り専用 [`IPictureFillFormat`](../ipicturefillformat)。 |
+| [PictureFrameLock](../../aspose.slides/ipictureframe/pictureframelock) { get; } | PictureFrame のロックを返します。読み取り専用 [`IPictureFrameLock`](../ipictureframelock)。 |
+| [RelativeScaleHeight](../../aspose.slides/ipictureframe/relativescaleheight) { get; set; } | picture フレームの高さのスケール（元の画像サイズに対する相対値）を取得または設定します。値 1.0 は 100% に相当します。読み書き Single。 |
+| [RelativeScaleWidth](../../aspose.slides/ipictureframe/relativescalewidth) { get; set; } | picture フレームの幅のスケール（元の画像サイズに対する相対値）を取得または設定します。値 1.0 は 100% に相当します。読み書き Single。 |
+| [ShapeLock](../../aspose.slides/ipictureframe/shapelock) { get; } | shape のロックを返します。読み取り専用 [`IPictureFrameLock`](../ipictureframelock)。 |
 
 ### 参照
 

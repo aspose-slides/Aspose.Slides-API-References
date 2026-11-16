@@ -1,20 +1,20 @@
 ---
 title: ImageTransformOperationFactory
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: छवि रूपांतरण कार्यों को बनाने की अनुमति देता है
+description: छवि ट्रांसफ़ॉर्म ऑपरेशन्स बनाने की अनुमति देता है
 type: docs
-weight: 3590
+weight: 3610
 url: /hi/aspose.slides.effects/imagetransformoperationfactory/
 ---
 ## ImageTransformOperationFactory क्लास
 
-छवि रूपांतरण कार्यों को बनाने की अनुमति देता है।
+इमेज ट्रांसफॉर्म ऑपरेशंस बनाने की अनुमति देता है
 
 ```csharp
 public class ImageTransformOperationFactory : IImageTransformOperationFactory
 ```
 
-## निर्माता
+## निर्माताओं
 
 | नाम | विवरण |
 | --- | --- |
@@ -46,7 +46,7 @@ public class ImageTransformOperationFactory : IImageTransformOperationFactory
 
 COM संगतता के लिए।
 
-### संबंधित देखें
+### देखें
 
 * इंटरफ़ेस [IImageTransformOperationFactory](../iimagetransformoperationfactory)
 * नेमस्पेस [Aspose.Slides.Effects](../../aspose.slides.effects)

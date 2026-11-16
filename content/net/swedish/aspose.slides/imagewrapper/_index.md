@@ -1,14 +1,14 @@
 ---
 title: ImageWrapper
 second_title: Aspose.Sildes för .NET API-referens
-description: System.Drawing.Image-omslag för COM-gränssnitt.
+description: System.Drawing.Image-wrapper för COM-gränssnitt.
 type: docs
-weight: 7440
+weight: 7460
 url: /sv/aspose.slides/imagewrapper/
 ---
 ## ImageWrapper klass
 
-System.Drawing.Image-omslag för COM-gränssnitt.
+System.Drawing.Image wrapper för COM-gränssnitt.
 
 ```csharp
 public class ImageWrapper : IImageWrapper
@@ -18,8 +18,8 @@ public class ImageWrapper : IImageWrapper
 
 | Namn | Beskrivning |
 | --- | --- |
-| [ImageSource](../../aspose.slides/imagewrapper/imagesource) { get; } | Hämtar Image. Skrivskyddad [`IImage`](../iimage). |
-| [Size](../../aspose.slides/imagewrapper/size) { get; } | Hämtar bredden och höjden, i pixlar, för Image. Skrivskyddad [`Size`](./size). |
+| [ImageSource](../../aspose.slides/imagewrapper/imagesource) { get; } | Hämtar Image. Läs-endast [`IImage`](../iimage). |
+| [Size](../../aspose.slides/imagewrapper/size) { get; } | Hämtar bredden och höjden, i pixlar, för Image. Läs-endast [`Size`](./size). |
 
 ## Metoder
 
@@ -30,7 +30,7 @@ public class ImageWrapper : IImageWrapper
 | [Save](../../aspose.slides/imagewrapper/save#save)(Stream, PPImageFormat) | Sparar Image till den angivna strömmen i det angivna formatet. |
 | [Save](../../aspose.slides/imagewrapper/save#save_2)(string, PPImageFormat) | Sparar Image till den angivna filen i det angivna formatet. |
 
-### Se också
+### Se även
 
 * gränssnitt [IImageWrapper](../iimagewrapper)
 * namnrymd [Aspose.Slides](../../aspose.slides)

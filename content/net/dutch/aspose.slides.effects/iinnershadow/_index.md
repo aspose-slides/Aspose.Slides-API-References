@@ -1,14 +1,14 @@
 ---
 title: IInnerShadow
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een inner schaduweffect voor.
+description: Vertegenwoordigt een inner shadow-effect.
 type: docs
-weight: 3420
+weight: 3440
 url: /nl/aspose.slides.effects/iinnershadow/
 ---
 ## IInnerShadow interface
 
-Stelt een inner schaduweffect voor.
+Vertegenwoordigt een inner shadow-effect.
 
 ```csharp
 public interface IInnerShadow : IAccessiblePVIObject<IInnerShadowEffectiveData>, 
@@ -19,9 +19,9 @@ public interface IInnerShadow : IAccessiblePVIObject<IInnerShadowEffectiveData>,
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/iinnershadow/asiaccessiblepviobject) { get; } | Stelt toe de basis IAccessiblePVIObject interface op te halen. Alleen-lezen [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/iinnershadow/asiimagetransformoperation) { get; } | Stelt toe de basis IImageTransformOperation interface op te halen. Alleen-lezen [`IImageTransformOperation`](../iimagetransformoperation). |
-| [BlurRadius](../../aspose.slides.effects/iinnershadow/blurradius) { get; set; } | Vervagingsradius. Lezen/Schrijven Double. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/iinnershadow/asiaccessiblepviobject) { get; } | Maakt het mogelijk om de basis IAccessiblePVIObject interface op te halen. Alleen-lezen [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/iinnershadow/asiimagetransformoperation) { get; } | Maakt het mogelijk om de basis IImageTransformOperation interface op te halen. Alleen-lezen [`IImageTransformOperation`](../iimagetransformoperation). |
+| [BlurRadius](../../aspose.slides.effects/iinnershadow/blurradius) { get; set; } | Vervagingsstraal. Lezen/Schrijven Double. |
 | [Direction](../../aspose.slides.effects/iinnershadow/direction) { get; set; } | Richting van de schaduw. Lezen/Schrijven Single. |
 | [Distance](../../aspose.slides.effects/iinnershadow/distance) { get; set; } | Afstand van de schaduw. Lezen/Schrijven Double. |
 | [ShadowColor](../../aspose.slides.effects/iinnershadow/shadowcolor) { get; } | Kleur van de schaduw. Alleen-lezen [`IColorFormat`](../../aspose.slides/icolorformat). |

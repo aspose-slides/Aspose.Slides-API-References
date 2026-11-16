@@ -1,9 +1,9 @@
 ---
 title: IPatternFormatEffectiveData
 second_title: Aspose.Sildes for .NET API 参考
-description: 包含有效图案填充属性的不可变对象。
+description: 不可变对象，包含有效的图案填充属性。
 type: docs
-weight: 6630
+weight: 6650
 url: /zh/aspose.slides/ipatternformateffectivedata/
 ---
 ## IPatternFormatEffectiveData 接口
@@ -26,7 +26,7 @@ public interface IPatternFormatEffectiveData
 
 | 名称 | 描述 |
 | --- | --- |
-| [GetTileIImage](../../aspose.slides/ipatternformateffectivedata/gettileiimage)(Color, Color) | 使用指定颜色创建图案填充的平铺图像。 |
+| [GetTileIImage](../../aspose.slides/ipatternformateffectivedata/gettileiimage)(Color, Color) | 使用指定的 Color 创建图案填充的平铺图像。 |
 
 ### 备注
 

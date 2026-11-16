@@ -1,9 +1,9 @@
 ---
 title: TabFactory
-second_title: Aspose.Sildes .NET API referencia
+second_title: Aspose.Sildes .NET API Referenciája
 description: Lehetővé teszi ITab példányok létrehozását
 type: docs
-weight: 10850
+weight: 10870
 url: /hu/aspose.slides/tabfactory/
 ---
 ## TabFactory osztály
@@ -20,15 +20,15 @@ public class TabFactory : ITabFactory
 | --- | --- |
 | [TabFactory](tabfactory)() | Az alapértelmezett konstruktor. |
 
-## Metódusok
+## Módszerek
 
 | Név | Leírás |
 | --- | --- |
 | [CreateTab](../../aspose.slides/tabfactory/createtab)(double, TabAlignment) | Új ITab példányt hoz létre. |
 
-### Megjegyzés
+### Megjegyzések
 
-A COM kompatibilitás érdekében.
+COM-kompatibilitáshoz.
 
 ### Lásd még
 

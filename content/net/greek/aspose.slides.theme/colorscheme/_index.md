@@ -1,14 +1,14 @@
 ---
 title: ColorScheme
-second_title: Aspose.Sildes για .NET API Αναφορά
+second_title: Aspose.Sildes για .NET Αναφορά API
 description: Αποθηκεύει χρώματα που ορίζονται από το θέμα.
 type: docs
-weight: 11070
+weight: 11090
 url: /el/aspose.slides.theme/colorscheme/
 ---
 ## ColorScheme κλάση
 
-Αποθηκεύει τα χρώματα που ορίζονται από το θέμα.
+Stores theme-defined colors.
 
 ```csharp
 public class ColorScheme : IColorScheme
@@ -16,21 +16,21 @@ public class ColorScheme : IColorScheme
 
 ## Ιδιότητες
 
-| Όνομα | Περιγραφή |
+| Name | Description |
 | --- | --- |
-| [Accent1](../../aspose.slides.theme/colorscheme/accent1) { get; } | Πρώτο χρώμα έμφασης στο σχήμα. Μόνο για ανάγνωση [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent2](../../aspose.slides.theme/colorscheme/accent2) { get; } | Δεύτερο χρώμα έμφασης στο σχήμα. Μόνο για ανάγνωση [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent3](../../aspose.slides.theme/colorscheme/accent3) { get; } | Τρίτο χρώμα έμφασης στο σχήμα. Μόνο για ανάγνωση [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent4](../../aspose.slides.theme/colorscheme/accent4) { get; } | Τέταρτο χρώμα έμφασης στο σχήμα. Μόνο για ανάγνωση [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent5](../../aspose.slides.theme/colorscheme/accent5) { get; } | Πέμπτο χρώμα έμφασης στο σχήμα. Μόνο για ανάγνωση [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent6](../../aspose.slides.theme/colorscheme/accent6) { get; } | Έκτο χρώμα έμφασης στο σχήμα. Μόνο για ανάγνωση [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Dark1](../../aspose.slides.theme/colorscheme/dark1) { get; } | Πρώτο σκούρο χρώμα στο σχήμα. Μόνο για ανάγνωση [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Dark2](../../aspose.slides.theme/colorscheme/dark2) { get; } | Δεύτερο σκούρο χρώμα στο σχήμα. Μόνο για ανάγνωση [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [FollowedHyperlink](../../aspose.slides.theme/colorscheme/followedhyperlink) { get; } | Χρώμα για τα επισκέφθούμενα υπερσυνδέσμους. Μόνο για ανάγνωση [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent1](../../aspose.slides.theme/colorscheme/accent1) { get; } | Πρώτο χρώμα έμφασης στο σχέδιο. Μόνο για ανάγνωση [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent2](../../aspose.slides.theme/colorscheme/accent2) { get; } | Δεύτερο χρώμα έμφασης στο σχέδιο. Μόνο για ανάγνωση [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent3](../../aspose.slides.theme/colorscheme/accent3) { get; } | Τέταρτο χρώμα έμφασης στο σχέδιο. Μόνο για ανάγνωση [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent4](../../aspose.slides.theme/colorscheme/accent4) { get; } | Πέμπτο χρώμα έμφασης στο σχέδιο. Μόνο για ανάγνωση [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent5](../../aspose.slides.theme/colorscheme/accent5) { get; } | Έκτο χρώμα έμφασης στο σχέδιο. Μόνο για ανάγνωση [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent6](../../aspose.slides.theme/colorscheme/accent6) { get; } | Πρώτο σκούρο χρώμα στο σχέδιο. Μόνο για ανάγνωση [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Dark1](../../aspose.slides.theme/colorscheme/dark1) { get; } | Δεύτερο σκούρο χρώμα στο σχέδιο. Μόνο για ανάγνωση [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Dark2](../../aspose.slides.theme/colorscheme/dark2) { get; } | Τρίτο σκούρο χρώμα στο σχέδιο. Μόνο για ανάγνωση [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [FollowedHyperlink](../../aspose.slides.theme/colorscheme/followedhyperlink) { get; } | Χρώμα για τους επισκεπτόμενους υπερσυνδέσμους. Μόνο για ανάγνωση [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [Hyperlink](../../aspose.slides.theme/colorscheme/hyperlink) { get; } | Χρώμα για τους υπερσυνδέσμους. Μόνο για ανάγνωση [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Item](../../aspose.slides.theme/colorscheme/item) { get; } | Επιστρέφει το στοιχείο στον καθορισμένο δείκτη. Μόνο για ανάγνωση [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Light1](../../aspose.slides.theme/colorscheme/light1) { get; } | Πρώτο ανοιχτό χρώμα στο σχήμα. Μόνο για ανάγνωση [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Light2](../../aspose.slides.theme/colorscheme/light2) { get; } | Δεύτερο ανοιχτό χρώμα στο σχήμα. Μόνο για ανάγνωση [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Item](../../aspose.slides.theme/colorscheme/item) { get; } | Λαμβάνει το στοιχείο στη συγκεκριμένη θέση. Μόνο για ανάγνωση [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Light1](../../aspose.slides.theme/colorscheme/light1) { get; } | Πρώτο φωτεινό χρώμα στο σχέδιο. Μόνο για ανάγνωση [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Light2](../../aspose.slides.theme/colorscheme/light2) { get; } | Δεύτερο φωτεινό χρώμα στο σχέδιο. Μόνο για ανάγνωση [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [Presentation](../../aspose.slides.theme/colorscheme/presentation) { get; } | Επιστρέφει την γονική παρουσίαση. Μόνο για ανάγνωση [`IPresentation`](../../aspose.slides/ipresentation). |
 | [Slide](../../aspose.slides.theme/colorscheme/slide) { get; } | Επιστρέφει τη γονική διαφάνεια. Μόνο για ανάγνωση [`IBaseSlide`](../../aspose.slides/ibaseslide). |
 
@@ -38,6 +38,6 @@ public class ColorScheme : IColorScheme
 
 * διεπαφή [IColorScheme](../icolorscheme)
 * χώρο ονομάτων [Aspose.Slides.Theme](../../aspose.slides.theme)
-* συναρμολόγηση [Aspose.Slides](../../)
+* συγκρότημα [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

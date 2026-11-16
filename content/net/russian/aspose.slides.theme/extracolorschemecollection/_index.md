@@ -1,14 +1,14 @@
 ---
 title: ExtraColorSchemeCollection
-second_title: Aspose.Sildes для .NET Справочник API
+second_title: Aspose.Sildes для .NET справочник API
 description: Представляет коллекцию дополнительных цветовых схем.
 type: docs
-weight: 11110
+weight: 11130
 url: /ru/aspose.slides.theme/extracolorschemecollection/
 ---
 ## ExtraColorSchemeCollection класс
 
-Представляет коллекцию дополнительных схем цветов.
+Представляет коллекцию дополнительных цветовых схем.
 
 ```csharp
 public class ExtraColorSchemeCollection : IExtraColorSchemeCollection
@@ -19,16 +19,16 @@ public class ExtraColorSchemeCollection : IExtraColorSchemeCollection
 | Name | Description |
 | --- | --- |
 | [Count](../../aspose.slides.theme/extracolorschemecollection/count) { get; } | Возвращает количество элементов в коллекции. Только для чтения Int32. |
-| [IsSynchronized](../../aspose.slides.theme/extracolorschemecollection/issynchronized) { get; } | Возвращает значение, указывающее, синхронизирован ли доступ к ArrayList (потокобезопасен). Только для чтения Boolean. |
-| [Item](../../aspose.slides.theme/extracolorschemecollection/item) { get; } | Возвращает схему цвета по индексу. Только для чтения [`ExtraColorScheme`](../extracolorscheme). |
-| [SyncRoot](../../aspose.slides.theme/extracolorschemecollection/syncroot) { get; } | Возвращает объект, который может использоваться для синхронизации доступа к коллекции. Только для чтения Object. |
+| [IsSynchronized](../../aspose.slides.theme/extracolorschemecollection/issynchronized) { get; } | Возвращает значение, указывающее, синхронизирован ли доступ к ArrayList (потокобезопасный). Только для чтения Boolean. |
+| [Item](../../aspose.slides.theme/extracolorschemecollection/item) { get; } | Возвращает цветовую схему по индексу. Только для чтения [`ExtraColorScheme`](../extracolorscheme). |
+| [SyncRoot](../../aspose.slides.theme/extracolorschemecollection/syncroot) { get; } | Возвращает объект, который может быть использован для синхронизации доступа к коллекции. Только для чтения Object. |
 
 ## Методы
 
 | Name | Description |
 | --- | --- |
 | [CopyTo](../../aspose.slides.theme/extracolorschemecollection/copyto)(Array, int) | Копирует все элементы коллекции в указанный массив. |
-| [GetEnumerator](../../aspose.slides.theme/extracolorschemecollection/getenumerator)() | Возвращает перечислитель, который проходит по коллекции. |
+| [GetEnumerator](../../aspose.slides.theme/extracolorschemecollection/getenumerator)() | Возвращает перечислитель, который перебирает элементы коллекции. |
 
 ### См. также
 

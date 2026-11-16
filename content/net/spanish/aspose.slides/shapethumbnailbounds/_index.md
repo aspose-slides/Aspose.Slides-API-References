@@ -3,7 +3,7 @@ title: ShapeThumbnailBounds
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Enumeración de tipos de límites de miniatura de forma.
 type: docs
-weight: 9920
+weight: 9940
 url: /es/aspose.slides/shapethumbnailbounds/
 ---
 ## Enumeración ShapeThumbnailBounds
@@ -18,11 +18,11 @@ public enum ShapeThumbnailBounds
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| Slide | `0` | La miniatura de Shape tendrá el tamaño igual al tamaño de la diapositiva. La posición de Shape se guardará. |
-| Shape | `1` | La miniatura de Shape tendrá el tamaño igual al rectángulo de límites de la forma, teniendo en cuenta la configuración del contorno de la forma. |
-| Appearance | `2` | La miniatura de Shape tendrá el tamaño igual a la apariencia de la forma (dentro de los límites de una diapositiva). Puede haber casos en los que la apariencia de la forma no encaje dentro de los límites de la forma. Por ejemplo, rotación, unión en inglete de ángulo agudo, efectos 3D, etc. |
+| Slide | `0` | La miniatura de forma tendrá el tamaño igual al tamaño de la diapositiva. La posición de la forma se guardará. |
+| Shape | `1` | La miniatura de forma tendrá el tamaño igual al rectángulo de límites de la forma, teniendo en cuenta la configuración del contorno de la forma. |
+| Appearance | `2` | La miniatura de forma tendrá el tamaño igual a la apariencia de la forma (dentro de los límites de una diapositiva). Puede haber casos en los que la apariencia de la forma no encaje dentro de los límites de la forma. Por ejemplo, rotación, unión en inglete de ángulo agudo, efectos 3D, etc. |
 
-### Véase también
+### Ver también
 
 * espacio de nombres [Aspose.Slides](../../aspose.slides)
 * ensamblado [Aspose.Slides](../../)

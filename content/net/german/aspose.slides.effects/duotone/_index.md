@@ -1,14 +1,14 @@
 ---
 title: Duotone
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt einen Duotone-Effekt dar. Für jedes Pixel kombiniert er Color1 und Color2 durch lineare Interpolation, um die neue Farbe für dieses Pixel zu bestimmen.
+description: Stellt einen Duotone-Effekt dar. Für jedes Pixel kombiniert es Color1 und Color2 durch lineare Interpolation, um die neue Farbe für dieses Pixel zu bestimmen.
 type: docs
-weight: 2960
+weight: 2980
 url: /de/aspose.slides.effects/duotone/
 ---
-## Duotone Klasse
+## Duotone-Klasse
 
-Stellt einen Duotone-Effekt dar. Für jedes Pixel kombiniert er Color1 und Color2 durch lineare Interpolation, um die neue Farbe für dieses Pixel zu bestimmen.
+Stellt einen Duotone-Effekt dar. Für jedes Pixel wird Color1 und Color2 durch lineare Interpolation kombiniert, um die neue Farbe für dieses Pixel zu bestimmen.
 
 ```csharp
 public sealed class Duotone : ImageTransformOperation, IDuotone
@@ -18,17 +18,17 @@ public sealed class Duotone : ImageTransformOperation, IDuotone
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Ermöglicht das Abrufen der Basis-IPresentationComponent-Schnittstelle. Nur lesbar [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
-| [Color1](../../aspose.slides.effects/duotone/color1) { get; } | Gibt das Zielfarbformat für dunkle Pixel zurück. Nur lesbar [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Color2](../../aspose.slides.effects/duotone/color2) { get; } | Gibt das Zielfarbformat für helle Pixel zurück. Nur lesbar [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Ermöglicht den Abruf der Basis-IPresentationComponent-Schnittstelle. Nur lesbar [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [Color1](../../aspose.slides.effects/duotone/color1) { get; } | Gibt das Ziel-Farbformat für dunkle Pixel zurück. Nur lesbar [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Color2](../../aspose.slides.effects/duotone/color2) { get; } | Gibt das Ziel-Farbformat für helle Pixel zurück. Nur lesbar [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/duotone/equals)(object) | Bestimmt, ob das angegebene [`Duotone`](../duotone) gleich dem aktuellen [`Duotone`](../duotone) ist. |
-| [GetEffective](../../aspose.slides.effects/duotone/geteffective)() | Ruft die effektiven Duotone-Effektdaten mit angewandter Vererbung ab. |
-| override [GetHashCode](../../aspose.slides.effects/duotone/gethashcode)() | Dient als Hash-Funktion für einen bestimmten Typ. |
+| [GetEffective](../../aspose.slides.effects/duotone/geteffective)() | Ruft die wirksamen Duotone-Effektdaten mit angewandter Vererbung ab. |
+| override [GetHashCode](../../aspose.slides.effects/duotone/gethashcode)() | Dient als Hashfunktion für einen bestimmten Typ. |
 
 ### Siehe auch
 

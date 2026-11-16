@@ -1,14 +1,14 @@
 ---
 title: FontSubstCondition
-second_title: Aspose.Sildes の .NET API リファレンス
-description: フォント置換の規則を表します
+second_title: Aspose.Sildes for .NET API リファレンス
+description: フォント置換のルールを表します
 type: docs
-weight: 4880
+weight: 4900
 url: /ja/aspose.slides/fontsubstcondition/
 ---
-## FontSubstCondition 列挙体
+## FontSubstCondition 列挙型
 
-フォント置換の規則を表します
+フォント置換のルールを表します
 
 ```csharp
 public enum FontSubstCondition
@@ -21,7 +21,7 @@ public enum FontSubstCondition
 | WhenInaccessible | `0` | フォントが見つからない場合に置換します |
 | Always | `1` | 常に置換します |
 
-### 関連項目
+### 参照
 
 * 名前空間 [Aspose.Slides](../../aspose.slides)
 * アセンブリ [Aspose.Slides](../../)

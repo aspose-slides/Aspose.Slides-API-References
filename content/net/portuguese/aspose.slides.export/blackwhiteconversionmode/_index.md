@@ -3,10 +3,10 @@ title: BlackWhiteConversionMode
 second_title: Aspose.Sildes para .NET Referência da API
 description: Fornece opções que controlam como as imagens dos slides serão convertidas em imagens bitonais.
 type: docs
-weight: 3720
+weight: 3740
 url: /pt/aspose.slides.export/blackwhiteconversionmode/
 ---
-## BlackWhiteConversionMode enumeration
+## enumeração BlackWhiteConversionMode
 
 Fornece opções que controlam como as imagens dos slides serão convertidas em imagens bitonais.
 
@@ -18,14 +18,14 @@ public enum BlackWhiteConversionMode
 
 | Nome | Valor | Descrição |
 | --- | --- | --- |
-| Default | `0` | Especifica nenhuma algoritmo de conversão. O algoritmo implementado no codec TIFF será usado. (Padrão) |
+| Default | `0` | Especifica que nenhum algoritmo de conversão será usado. O algoritmo implementado no codec TIFF será utilizado. (Padrão) |
 | Dithering | `1` | Especifica o algoritmo de dithering (Floyd-Steinberg). |
 | DitheringFloydSteinberg | `2` | Especifica o algoritmo de dithering Floyd-Steinberg. |
 | Auto | `3` | Especifica o algoritmo de limiar calculado automaticamente (Otsu). |
-| AutoOtsu | `4` | Especifica o algoritmo de limiar Otsu calculado automaticamente. |
-| Threshold25 | `5` | Especifica o algoritmo de limiar estático (25%). |
-| Threshold50 | `6` | Especifica o algoritmo de limiar estático (50%). |
-| Threshold75 | `7` | Especifica o algoritmo de limiar estático (75%). |
+| AutoOtsu | `4` | Especifica o algoritmo de limiar de Otsu calculado automaticamente. |
+| Threshold25 | `5` | Especifica o algoritmo de limiar estático (25 %). |
+| Threshold50 | `6` | Especifica o algoritmo de limiar estático (50 %). |
+| Threshold75 | `7` | Especifica o algoritmo de limiar estático (75 %). |
 
 ### Veja Também
 

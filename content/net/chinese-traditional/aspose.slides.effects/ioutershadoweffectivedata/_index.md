@@ -3,12 +3,12 @@ title: IOuterShadowEffectiveData
 second_title: Aspose.Sildes for .NET API 參考
 description: 表示外部陰影效果的不可變物件。
 type: docs
-weight: 3470
+weight: 3490
 url: /zh-hant/aspose.slides.effects/ioutershadoweffectivedata/
 ---
 ## IOuterShadowEffectiveData 介面
 
-表示外部陰影效果的不可變物件。
+不可變物件，表示外部陰影效果。
 
 ```csharp
 public interface IOuterShadowEffectiveData : IEffectEffectiveData
@@ -23,9 +23,9 @@ public interface IOuterShadowEffectiveData : IEffectEffectiveData
 | [Direction](../../aspose.slides.effects/ioutershadoweffectivedata/direction) { get; } | 陰影方向。唯讀 Single。 |
 | [Distance](../../aspose.slides.effects/ioutershadoweffectivedata/distance) { get; } | 陰影距離。唯讀 Double。 |
 | [RectangleAlign](../../aspose.slides.effects/ioutershadoweffectivedata/rectanglealign) { get; } | 矩形對齊。唯讀 [`RectangleAlignment`](../../aspose.slides/rectanglealignment)。 |
-| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadoweffectivedata/rotateshadowwithshape) { get; } | 指定當形狀旋轉時，陰影是否應隨形狀一起旋轉。唯讀 Boolean。 |
-| [ScaleHorizontal](../../aspose.slides.effects/ioutershadoweffectivedata/scalehorizontal) { get; } | 指定水平縮放係數，負值縮放會導致翻轉。唯讀 Double。 |
-| [ScaleVertical](../../aspose.slides.effects/ioutershadoweffectivedata/scalevertical) { get; } | 指定垂直縮放係數，負值縮放會導致翻轉。唯讀 Double。 |
+| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadoweffectivedata/rotateshadowwithshape) { get; } | 指定當形狀旋轉時陰影是否應隨形狀一起旋轉。唯讀 Boolean。 |
+| [ScaleHorizontal](../../aspose.slides.effects/ioutershadoweffectivedata/scalehorizontal) { get; } | 指定水平縮放係數，負的縮放會導致翻轉。唯讀 Double。 |
+| [ScaleVertical](../../aspose.slides.effects/ioutershadoweffectivedata/scalevertical) { get; } | 指定垂直縮放係數，負的縮放會導致翻轉。唯讀 Double。 |
 | [ShadowColor](../../aspose.slides.effects/ioutershadoweffectivedata/shadowcolor) { get; } | 陰影顏色。唯讀 Color。 |
 | [SkewHorizontal](../../aspose.slides.effects/ioutershadoweffectivedata/skewhorizontal) { get; } | 指定水平斜切角度（以度為單位）。唯讀 Double。 |
 | [SkewVertical](../../aspose.slides.effects/ioutershadoweffectivedata/skewvertical) { get; } | 指定垂直斜切角度（以度為單位）。唯讀 Double。 |

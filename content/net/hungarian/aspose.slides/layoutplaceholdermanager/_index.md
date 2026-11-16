@@ -1,14 +1,14 @@
 ---
 title: LayoutPlaceholderManager
-second_title: Aspose.Sildes a .NET API referenciához
-description: Olyan kezelőt ábrázol, amely lehetővé teszi helyőrzők hozzáadását az elrendezés diájához.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Kezelőt képvisel, amely lehetővé teszi, hogy helyőrzőket adjunk az elrendezési diához.
 type: docs
-weight: 7630
+weight: 7650
 url: /hu/aspose.slides/layoutplaceholdermanager/
 ---
 ## LayoutPlaceholderManager osztály
 
-Egy menedzsert ábrázol, amely lehetővé teszi helyőrzők hozzáadását az elrendezés diájához.
+Kezelőt képvisel, amely lehetővé teszi, hogy helyőrzőket adjunk az elrendezési diához.
 
 ```csharp
 public class LayoutPlaceholderManager : ILayoutPlaceholderManager
@@ -16,18 +16,18 @@ public class LayoutPlaceholderManager : ILayoutPlaceholderManager
 
 ## Metódusok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
-| [AddChartPlaceholder](../../aspose.slides/layoutplaceholdermanager/addchartplaceholder)(float, float, float, float) | Új helyőrző alakzatot ad a elrendezés diához, amely diagramot tartalmaz. |
-| [AddContentPlaceholder](../../aspose.slides/layoutplaceholdermanager/addcontentplaceholder)(float, float, float, float) | Új helyőrző alakzatot ad a elrendezés diához, amely tartalmat, például képet, táblázatot, médiát vagy szöveget tartalmaz. |
-| [AddMediaPlaceholder](../../aspose.slides/layoutplaceholdermanager/addmediaplaceholder)(float, float, float, float) | Új helyőrző alakzatot ad a elrendezés diához, amely médiaobjektumot tartalmaz. |
-| [AddOnlineImagePlaceholder](../../aspose.slides/layoutplaceholdermanager/addonlineimageplaceholder)(float, float, float, float) | Új helyőrző alakzatot ad a elrendezés diához, amely online képet tartalmaz. |
-| [AddPicturePlaceholder](../../aspose.slides/layoutplaceholdermanager/addpictureplaceholder)(float, float, float, float) | Új helyőrző alakzatot ad a elrendezés diához, amely képet tartalmaz. |
-| [AddSmartArtPlaceholder](../../aspose.slides/layoutplaceholdermanager/addsmartartplaceholder)(float, float, float, float) | Új helyőrző alakzatot ad a elrendezés diához, amely SmartArt diagramot tartalmaz. |
-| [AddTablePlaceholder](../../aspose.slides/layoutplaceholdermanager/addtableplaceholder)(float, float, float, float) | Új helyőrző alakzatot ad a elrendezés diához, amely táblázatot tartalmaz. |
-| [AddTextPlaceholder](../../aspose.slides/layoutplaceholdermanager/addtextplaceholder)(float, float, float, float) | Új helyőrző alakzatot ad a elrendezés diához, amely szövegtartalmat tartalmaz. |
-| [AddVerticalContentPlaceholder](../../aspose.slides/layoutplaceholdermanager/addverticalcontentplaceholder)(float, float, float, float) | Új helyőrző alakzatot ad a elrendezés diához, amely tartalmat, például képet, táblázatot, médiát vagy szöveget függőleges irányban tartalmaz. |
-| [AddVerticalTextPlaceholder](../../aspose.slides/layoutplaceholdermanager/addverticaltextplaceholder)(float, float, float, float) | Új helyőrző alakzatot ad a elrendezés diához, amely szövegtartalmat függőleges irányban tartalmaz. |
+| [AddChartPlaceholder](../../aspose.slides/layoutplaceholdermanager/addchartplaceholder)(float, float, float, float) | Új helyőrző alakzatot ad hozzá az elrendezési diára, hogy diagramot tartalmazzon. |
+| [AddContentPlaceholder](../../aspose.slides/layoutplaceholdermanager/addcontentplaceholder)(float, float, float, float) | Új helyőrző alakzatot ad hozzá az elrendezési diára, hogy tartalmat, például képet, táblázatot, médiát vagy szöveget tartalmazzon. |
+| [AddMediaPlaceholder](../../aspose.slides/layoutplaceholdermanager/addmediaplaceholder)(float, float, float, float) | Új helyőrző alakzatot ad hozzá az elrendezési diára, hogy médiát tartalmazzon. |
+| [AddOnlineImagePlaceholder](../../aspose.slides/layoutplaceholdermanager/addonlineimageplaceholder)(float, float, float, float) | Új helyőrző alakzatot ad hozzá az elrendezési diára, hogy online képet tartalmazzon. |
+| [AddPicturePlaceholder](../../aspose.slides/layoutplaceholdermanager/addpictureplaceholder)(float, float, float, float) | Új helyőrző alakzatot ad hozzá az elrendezési diára, hogy képet tartalmazzon. |
+| [AddSmartArtPlaceholder](../../aspose.slides/layoutplaceholdermanager/addsmartartplaceholder)(float, float, float, float) | Új helyőrző alakzatot ad hozzá az elrendezési diára, hogy SmartArt diagramot tartalmazzon. |
+| [AddTablePlaceholder](../../aspose.slides/layoutplaceholdermanager/addtableplaceholder)(float, float, float, float) | Új helyőrző alakzatot ad hozzá az elrendezési diára, hogy táblázatot tartalmazzon. |
+| [AddTextPlaceholder](../../aspose.slides/layoutplaceholdermanager/addtextplaceholder)(float, float, float, float) | Új helyőrző alakzatot ad hozzá az elrendezési diára, hogy szöveges tartalmat tartalmazzon. |
+| [AddVerticalContentPlaceholder](../../aspose.slides/layoutplaceholdermanager/addverticalcontentplaceholder)(float, float, float, float) | Új helyőrző alakzatot ad hozzá az elrendezési diára, hogy tartalmat, például képet, táblázatot, médiát vagy szöveget függőleges irányban tartalmazzon. |
+| [AddVerticalTextPlaceholder](../../aspose.slides/layoutplaceholdermanager/addverticaltextplaceholder)(float, float, float, float) | Új helyőrző alakzatot ad hozzá az elrendezési diára, hogy szöveges tartalmat függőleges irányban tartalmazzon. |
 
 ### Lásd még
 

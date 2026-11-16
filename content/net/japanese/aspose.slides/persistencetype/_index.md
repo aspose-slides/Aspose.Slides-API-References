@@ -1,12 +1,12 @@
 ---
 title: PersistenceType
 second_title: Aspose.Sildes for .NET API リファレンス
-description: ActiveX コントロールのプロパティを保存する方法を指定します。
+description: ActiveX コントロールのプロパティを保存するために使用される方法を指定します。
 type: docs
-weight: 9370
+weight: 9390
 url: /ja/aspose.slides/persistencetype/
 ---
-## PersistenceType 列挙型
+## PersistenceType 列挙
 
 ActiveX コントロールのプロパティを保存する方法を指定します。
 
@@ -18,13 +18,13 @@ public enum PersistenceType
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
-| NotDefined | `-1` | 永続化 ID が指定されていません。 |
-| PersistPropertyBag | `0` | ActiveX コントロールがプロパティ バッグベースの永続化を使用して保存されることを指定します。プロパティ バッグベースの永続化は、名前と値のペアのコレクションを使用して ActiveX コントロールが永続化するデータを指定します。 |
-| PersistStream | `1` | ActiveX コントロールがストリームベースの永続化を使用して保存されることを指定します。この永続化は、ActiveX コントロールをデフォルト状態に初期化することをサポートしません。 |
-| PersistStreamInit | `2` | ActiveX コントロールがストリームベースの永続化を使用して保存されることを指定します。この永続化は、ActiveX コントロールをデフォルト状態に初期化することをサポートします。 |
-| PersistStorage | `3` | ActiveX コントロールがストレージベースの永続化を使用して保存されることを指定します。 |
+| NotDefined | `-1` | 永続性 ID が指定されていません。 |
+| PersistPropertyBag | `0` | ActiveX コントロールがプロパティ バッグ ベースの永続性を使用して永続化されることを指定します。プロパティ バッグ ベースの永続性は、ActiveX コントロールが永続化するデータを指定する名前と値のペアのコレクションによって ActiveX コントロールを保存します。 |
+| PersistStream | `1` | ActiveX コントロールがデフォルト状態への初期化をサポートしないストリーム ベースの永続性を使用して永続化されることを指定します。 |
+| PersistStreamInit | `2` | ActiveX コントロールがデフォルト状態への初期化をサポートするストリーム ベースの永続性を使用して永続化されることを指定します。 |
+| PersistStorage | `3` | ActiveX コントロールがストレージ ベースの永続性を使用して永続化されることを指定します。 |
 
-### 参照
+### 関連項目
 
 * 名前空間 [Aspose.Slides](../../aspose.slides)
 * アセンブリ [Aspose.Slides](../../)

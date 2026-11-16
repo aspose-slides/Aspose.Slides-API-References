@@ -1,14 +1,14 @@
 ---
 title: PdfTextCompression
-second_title: Aspose.Sildes dla .NET – referencja API
-description: Stałe definiujące typ kompresji stosowanej do całej zawartości pliku PDF z wyjątkiem obrazów.
+second_title: Aspose.Sildes dla .NET – dokumentacja API
+description: Stałe określające typ kompresji stosowanej do całej zawartości pliku PDF z wyjątkiem obrazów.
 type: docs
-weight: 4340
+weight: 4360
 url: /pl/aspose.slides.export/pdftextcompression/
 ---
-## PdfTextCompression enumeracja
+## PdfTextCompression wyliczenie
 
-Stałe definiujące typ kompresji stosowanej do całej zawartości pliku PDF z wyjątkiem obrazów.
+Stałe określające typ kompresji stosowanej do całej zawartości pliku PDF z wyjątkiem obrazów.
 
 ```csharp
 public enum PdfTextCompression

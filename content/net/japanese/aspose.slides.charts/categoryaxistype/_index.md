@@ -1,12 +1,12 @@
 ---
 title: CategoryAxisType
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: カテゴリ軸のタイプを表します。
 type: docs
-weight: 1250
+weight: 1260
 url: /ja/aspose.slides.charts/categoryaxistype/
 ---
-## CategoryAxisType 列挙体
+## CategoryAxisType 列挙型
 
 カテゴリ軸のタイプを表します。
 
@@ -21,7 +21,7 @@ public enum CategoryAxisType
 | Text | `0` | カテゴリ軸がテキスト軸であることを指定します。 |
 | Date | `1` | カテゴリ軸が日付軸であることを指定します。 |
 
-### 関連項目
+### 参照
 
 * 名前空間 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * アセンブリ [Aspose.Slides](../../)

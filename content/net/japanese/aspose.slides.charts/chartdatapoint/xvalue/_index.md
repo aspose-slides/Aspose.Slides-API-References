@@ -1,9 +1,9 @@
 ---
 title: XValue
-second_title: Aspose.Sildes の .NET API リファレンス
-description: XValue. 読み取り専用 IStringOrDoubleChartValueaspose.slides.charts/istringordoublechartvalue.
+second_title: Aspose.Sildes for .NET API リファレンス
+description: XValue。 読み取り専用 IStringOrDoubleChartValueaspose.slides.charts/istringordoublechartvalue.
 type: docs
-weight: 200
+weight: 240
 url: /ja/aspose.slides.charts/chartdatapoint/xvalue/
 ---
 ## ChartDataPoint.XValue プロパティ

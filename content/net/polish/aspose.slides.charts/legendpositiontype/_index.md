@@ -1,14 +1,14 @@
 ---
 title: LegendPositionType
-second_title: Aspose.Sildes dla .NET – referencja API
-description: Określa położenie legendy na wykiftsie.
+second_title: Aspose.Sildes dla .NET – odniesienie API
+description: Określa pozycję legendy na wykresie.
 type: docs
-weight: 2320
+weight: 2340
 url: /pl/aspose.slides.charts/legendpositiontype/
 ---
-## Typ wyliczeniowy LegendPositionType
+## LegendPositionType enumeracja
 
-Określa położenie legendy na wykresie.
+Określa pozycję legendy na wykresie.
 
 ```csharp
 public enum LegendPositionType
@@ -18,10 +18,10 @@ public enum LegendPositionType
 
 | Nazwa | Wartość | Opis |
 | --- | --- | --- |
-| Bottom | `0` | Określa, że legenda ma być rysowana w dolnej części wykresu. |
+| Bottom | `0` | Określa, że legenda ma być rysowana na dole wykresu. |
 | Left | `1` | Określa, że legenda ma być rysowana po lewej stronie wykresu. |
 | Right | `2` | Określa, że legenda ma być rysowana po prawej stronie wykresu. |
-| Top | `3` | Określa, że legenda ma być rysowana u góry wykresu. |
+| Top | `3` | Określa, że legenda ma być rysowana na górze wykresu. |
 | TopRight | `4` | Określa, że legenda ma być rysowana w prawym górnym rogu wykresu. |
 
 ### Zobacz także

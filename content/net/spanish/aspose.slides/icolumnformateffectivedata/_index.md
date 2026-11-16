@@ -1,14 +1,14 @@
 ---
 title: IColumnFormatEffectiveData
-second_title: Aspose.Sildes para la referencia de API de .NET
-description: Objeto inmutable que contiene propiedades de formato efectivas de la columna de tabla.
+second_title: Referencia de API de Aspose.Sildes para .NET
+description: Objeto inmutable que contiene propiedades de formato efectivo de columna de tabla.
 type: docs
-weight: 5550
+weight: 5570
 url: /es/aspose.slides/icolumnformateffectivedata/
 ---
 ## IColumnFormatEffectiveData interfaz
 
-Objeto inmutable que contiene propiedades de formato efectivas de la columna de tabla.
+Objeto inmutable que contiene propiedades de formato efectivo de columna de tabla.
 
 ```csharp
 public interface IColumnFormatEffectiveData : IBaseTableFormatEffectiveData
@@ -18,11 +18,11 @@ public interface IColumnFormatEffectiveData : IBaseTableFormatEffectiveData
 
 | Nombre | Descripción |
 | --- | --- |
-| [AsIBaseTableFormatEffectiveData](../../aspose.slides/icolumnformateffectivedata/asibasetableformateffectivedata) { get; } | Permite obtener la interfaz base IBaseTableFormatEffectiveData. Sólo lectura [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
+| [AsIBaseTableFormatEffectiveData](../../aspose.slides/icolumnformateffectivedata/asibasetableformateffectivedata) { get; } | Permite obtener la interfaz base IBaseTableFormatEffectiveData. Solo lectura [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
 
 ### Observaciones
 
-Esta interfaz se utiliza junto con la [`IColumnFormat`](../icolumnformat) interfaz para devolver valores de formato efectivos con herencia y estilos de tabla aplicados.
+Esta interfaz se usa junto con la interfaz [`IColumnFormat`](../icolumnformat) para devolver valores de formato efectivos con herencia y estilos de tabla aplicados.
 
 ### Ver también
 

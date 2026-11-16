@@ -1,14 +1,14 @@
 ---
 title: IFontSources
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
 description: ให้แหล่งไฟล์และหน่วยความจำสำหรับแบบอักษรภายนอก.
 type: docs
-weight: 5870
+weight: 5890
 url: /th/aspose.slides/ifontsources/
 ---
 ## IFontSources อินเทอร์เฟซ
 
-ให้แหล่งข้อมูลไฟล์และหน่วยความจำสำหรับแบบอักษรภายนอก
+ให้แหล่งไฟล์และหน่วยความจำสำหรับแบบอักษรภายนอก.
 
 ```csharp
 public interface IFontSources
@@ -18,7 +18,7 @@ public interface IFontSources
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [FontFolders](../../aspose.slides/ifontsources/fontfolders) { get; set; } | โฟลเดอร์ที่บรรจุไฟล์แบบอักษร ไฟล์แบบอักษรทั้งหมดที่อยู่ในโฟลเดอร์เหล่านี้จะรวมอยู่ในคอลเลกชัน โฟลเดอร์ที่ถูกค้นหาอย่างเป็นขั้นตอน |
+| [FontFolders](../../aspose.slides/ifontsources/fontfolders) { get; set; } | โฟลเดอร์ที่บรรจุไฟล์แบบอักษร ไฟล์แบบอักษรทั้งหมดที่อยู่ในโฟลเดอร์เหล่านี้จะถูกรวมในคอลเลกชัน โฟลเดอร์ที่ค้นหาแบบเรียกซ้ำ |
 | [MemoryFonts](../../aspose.slides/ifontsources/memoryfonts) { get; set; } | คอลเลกชันของแบบอักษรที่แสดงเป็นอาร์เรย์ของไบต์ |
 
 ### ดูเพิ่มเติม

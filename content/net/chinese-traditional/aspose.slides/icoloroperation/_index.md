@@ -1,14 +1,14 @@
 ---
 title: IColorOperation
-second_title: Aspose.Sildes for .NET API 參考文件
-description: 表示用於顏色變換的各種顏色操作。
+second_title: Aspose.Sildes for .NET API 參考
+description: 表示用於顏色變換的不同顏色操作。
 type: docs
-weight: 5500
+weight: 5520
 url: /zh-hant/aspose.slides/icoloroperation/
 ---
 ## IColorOperation 介面
 
-表示用於顏色變換的各種顏色操作。
+表示用於顏色變換的不同顏色操作。
 
 ```csharp
 public interface IColorOperation
@@ -16,12 +16,12 @@ public interface IColorOperation
 
 ## 屬性
 
-| 名稱 | 描述 |
+| 名稱 | 說明 |
 | --- | --- |
-| [OperationType](../../aspose.slides/icoloroperation/operationtype) { get; } | 傳回或設定操作的類型。只讀 [`ColorTransformOperation`](../colortransformoperation). |
-| [Parameter](../../aspose.slides/icoloroperation/parameter) { get; } | 傳回操作的參數。只讀 Single. |
+| [OperationType](../../aspose.slides/icoloroperation/operationtype) { get; } | 返回或設定操作的類型。唯讀 [`ColorTransformOperation`](../colortransformoperation)。 |
+| [Parameter](../../aspose.slides/icoloroperation/parameter) { get; } | 返回操作的參數。唯讀 Single。 |
 
-### 另請參閱
+### 另見
 
 * 命名空間 [Aspose.Slides](../../aspose.slides)
 * 組件 [Aspose.Slides](../../)

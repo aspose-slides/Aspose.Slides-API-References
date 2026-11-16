@@ -1,9 +1,9 @@
 ---
 title: HighlightText
-second_title: Aspose.Sildes cho .NET Tham chiếu API
+second_title: Tham chiếu API Aspose.Sildes cho .NET
 description: Làm nổi bật tất cả các kết quả khớp của văn bản mẫu bằng màu đã chỉ định.
 type: docs
-weight: 90
+weight: 100
 url: /vi/aspose.slides/itextframe/highlighttext/
 ---
 ## HighlightText(string, Color) {#highlighttext}
@@ -17,7 +17,7 @@ public void HighlightText(string text, Color highlightColor)
 | Tham số | Kiểu | Mô tả |
 | --- | --- | --- |
 | text | String | Văn bản cần làm nổi bật. |
-| highlightColor | Color | Màu sẽ được dùng để làm nổi bật văn bản. |
+| highlightColor | Color | Màu dùng để làm nổi bật văn bản. |
 
 ### Xem thêm
 
@@ -39,13 +39,13 @@ public void HighlightText(string text, Color highlightColor, ITextSearchOptions 
 | Tham số | Kiểu | Mô tả |
 | --- | --- | --- |
 | text | String | Văn bản cần làm nổi bật. |
-| highlightColor | Color | Màu sẽ được dùng để làm nổi bật văn bản. |
+| highlightColor | Color | Màu dùng để làm nổi bật văn bản. |
 | options | ITextSearchOptions | Các tùy chọn tìm kiếm văn bản [`ITextSearchOptions`](../../itextsearchoptions). |
 | callback | IFindResultCallback | Đối tượng callback để nhận kết quả tìm kiếm [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### Ví dụ
 
-Mẫu mã sau đây cho thấy cách làm nổi bật văn bản trong TextFrame.
+Mẫu mã sau đây cho thấy cách làm nổi bật văn bản trong một TextFrame.
 
 ```csharp
 [C#]

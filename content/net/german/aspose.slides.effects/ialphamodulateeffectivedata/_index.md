@@ -1,14 +1,14 @@
 ---
 title: IAlphaModulateEffectiveData
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Unveränderliches Objekt, das einen Alpha Modulate Effekt darstellt. Alpha-Transparenzwerte des Effekts werden mit einem festen Prozentsatz multipliziert. Der Effekt-Container gibt einen Effekt an, der Alpha-Werte zur Modulation enthält.
+description: Unveränderliches Objekt, das einen Alpha Modulate-Effekt darstellt. Effekt-Alpha-Opazitätswerte werden mit einem festen Prozentsatz multipliziert. Der Effekt-Container gibt einen Effekt an, der Alpha-Werte moduliert.
 type: docs
-weight: 3110
+weight: 3130
 url: /de/aspose.slides.effects/ialphamodulateeffectivedata/
 ---
-## IAlphaModulateEffectiveData interface
+## IAlphaModulateEffectiveData Schnittstelle
 
-Unveränderliches Objekt, das einen Alpha-Modulate-Effekt darstellt. Alpha-Werte (Transparenz) des Effekts werden mit einem festen Prozentsatz multipliziert. Der Effekt-Container gibt einen Effekt an, der Alpha-Werte zur Modulation enthält.
+Unveränderliches Objekt, das einen Alpha Modulate-Effekt darstellt. Effekt-Alpha-(Opazität-)Werte werden mit einem festen Prozentsatz multipliziert. Der Effekt-Container gibt einen Effekt an, der Alpha-Werte moduliert.
 
 ```csharp
 public interface IAlphaModulateEffectiveData : IEffectEffectiveData

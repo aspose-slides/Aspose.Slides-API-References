@@ -1,14 +1,14 @@
 ---
 title: IPictureEffectiveData
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: अपरिवर्तनीय ऑब्जेक्ट जिसमें प्रभावी चित्र गुण शामिल हैं।
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: एक अपरिवर्तनीय ऑब्जेक्ट जिसमें प्रभावी चित्र गुण होते हैं।
 type: docs
-weight: 6640
+weight: 6660
 url: /hi/aspose.slides/ipictureeffectivedata/
 ---
 ## IPictureEffectiveData इंटरफ़ेस
 
-अपरिवर्तनीय ऑब्जेक्ट जिसमें प्रभावी चित्र गुण होते हैं।
+एक अपरिवर्तनीय ऑब्जेक्ट जो प्रभावी चित्र गुणों को समाहित करता है।
 
 ```csharp
 public interface IPictureEffectiveData
@@ -18,15 +18,15 @@ public interface IPictureEffectiveData
 
 | नाम | विवरण |
 | --- | --- |
-| [Image](../../aspose.slides/ipictureeffectivedata/image) { get; } | एंबेडेड छवि लौटाता है। केवल पढ़ने योग्य [`IPPImage`](../ippimage). |
-| [ImageTransform](../../aspose.slides/ipictureeffectivedata/imagetransform) { get; } | छवि ट्रांसफ़ॉर्म प्रभावों का संग्रह लौटाता है। केवल पढ़ने योग्य [`IImageTransformOCollectionEffectiveData`](../../aspose.slides.effects/iimagetransformocollectioneffectivedata). |
-| [LinkPathLong](../../aspose.slides/ipictureeffectivedata/linkpathlong) { get; } | लिंक्ड छवि की URL लौटाता है। केवल पढ़ने योग्य स्ट्रिंग। |
+| [Image](../../aspose.slides/ipictureeffectivedata/image) { get; } | एंबेडेड छवि लौटाता है। पढ़ने-के-लिए केवल [`IPPImage`](../ippimage). |
+| [ImageTransform](../../aspose.slides/ipictureeffectivedata/imagetransform) { get; } | छवि ट्रांसफ़ॉर्म प्रभावों का संग्रह लौटाता है। पढ़ने-के-लिए केवल [`IImageTransformOCollectionEffectiveData`](../../aspose.slides.effects/iimagetransformocollectioneffectivedata). |
+| [LinkPathLong](../../aspose.slides/ipictureeffectivedata/linkpathlong) { get; } | लिंक की गई छवि का URL लौटाता है। पढ़ने-के-लिए केवल String. |
 
-### टिप्पणियाँ
+### टिप्पणी
 
-यह इंटरफ़ेस [`IPictureFillFormatEffectiveData`](../ipicturefillformateffectivedata) और [`IBulletFormatEffectiveData`](../ibulletformateffectivedata) का हिस्सा के रूप में उपयोग किया जाता है।
+यह इंटरफ़ेस [`IPictureFillFormatEffectiveData`](../ipicturefillformateffectivedata) और [`IBulletFormatEffectiveData`](../ibulletformateffectivedata) का भाग के रूप में उपयोग किया जाता है।
 
-### संबंधित देखें
+### देखें भी
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

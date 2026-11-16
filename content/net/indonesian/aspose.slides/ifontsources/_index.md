@@ -1,9 +1,9 @@
 ---
 title: IFontSources
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Menyediakan sumber file dan memori untuk font eksternal.
 type: docs
-weight: 5870
+weight: 5890
 url: /id/aspose.slides/ifontsources/
 ---
 ## IFontSources antarmuka
@@ -18,7 +18,7 @@ public interface IFontSources
 
 | Nama | Deskripsi |
 | --- | --- |
-| [FontFolders](../../aspose.slides/ifontsources/fontfolders) { get; set; } | Folder yang berisi file font. Semua file font yang berada di folder ini termasuk dalam koleksi. Folder yang dicari secara rekursif. |
+| [FontFolders](../../aspose.slides/ifontsources/fontfolders) { get; set; } | Folder yang berisi file font. Semua file font yang terletak di folder ini termasuk dalam koleksi. Folder yang dicari secara rekursif. |
 | [MemoryFonts](../../aspose.slides/ifontsources/memoryfonts) { get; set; } | Koleksi font yang direpresentasikan sebagai array byte. |
 
 ### Lihat Juga

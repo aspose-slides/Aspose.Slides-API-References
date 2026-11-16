@@ -1,20 +1,20 @@
 ---
 title: VideoPlayerHtmlControllerFactory
-second_title: Aspose.Sildes voor .NET API Referentie
-description: Staat toe om een VideoPlayerHtmlController te maken.
+second_title: Aspose.Sildes voor .NET API-referentie
+description: Staat toe een VideoPlayerHtmlController te maken.
 type: docs
-weight: 4590
+weight: 4610
 url: /nl/aspose.slides.export/videoplayerhtmlcontrollerfactory/
 ---
-## VideoPlayerHtmlControllerFactory klasse
+## VideoPlayerHtmlController klasse
 
-Staat toe om een VideoPlayerHtmlController te maken.
+Staat toe een VideoPlayerHtmlController te maken.
 
 ```csharp
 public class VideoPlayerHtmlControllerFactory : IVideoPlayerHtmlControllerFactory
 ```
 
-## Constructors
+## Constructoren
 
 | Naam | Beschrijving |
 | --- | --- |
@@ -24,7 +24,7 @@ public class VideoPlayerHtmlControllerFactory : IVideoPlayerHtmlControllerFactor
 
 | Naam | Beschrijving |
 | --- | --- |
-| [CreateVideoPlayerHtmlController](../../aspose.slides.export/videoplayerhtmlcontrollerfactory/createvideoplayerhtmlcontroller)(string, string, string) | Maakt een nieuwe `VideoPlayerHtmlController`. |
+| [CreateVideoPlayerHtmlController](../../aspose.slides.export/videoplayerhtmlcontrollerfactory/createvideoplayerhtmlcontroller)(string, string, string) | Creëert een nieuwe `VideoPlayerHtmlController`. |
 
 ### Opmerkingen
 

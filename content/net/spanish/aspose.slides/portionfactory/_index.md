@@ -1,9 +1,9 @@
 ---
 title: PortionFactory
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Aspose.Sildes para la referencia de API de .NET
 description: Permite crear porciones de prueba
 type: docs
-weight: 9480
+weight: 9500
 url: /es/aspose.slides/portionfactory/
 ---
 ## PortionFactory clase
@@ -32,7 +32,7 @@ public class PortionFactory : IPortionFactory
 
 Para compatibilidad COM
 
-### Véase también
+### Ver también
 
 * interfaz [IPortionFactory](../iportionfactory)
 * espacio de nombres [Aspose.Slides](../../aspose.slides)

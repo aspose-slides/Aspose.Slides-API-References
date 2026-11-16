@@ -1,20 +1,20 @@
 ---
 title: SmartArtQuickStyleType
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đại diện cho sơ đồ phong cách của một biểu đồ SmartArt.
+second_title: Aspose.Sildes cho .NET Tham chiếu API
+description: Biểu diễn lược đồ kiểu dáng của một sơ đồ SmartArt.
 type: docs
-weight: 10650
+weight: 10670
 url: /vi/aspose.slides.smartart/smartartquickstyletype/
 ---
 ## SmartArtQuickStyleType liệt kê
 
-Đại diện cho sơ đồ phong cách của một biểu đồ SmartArt.
+Biểu diễn lược đồ kiểu dáng của một sơ đồ SmartArt.
 
 ```csharp
 public enum SmartArtQuickStyleType
 ```
 
-### Giá trị
+### Values
 
 | Tên | Giá trị | Mô tả |
 | --- | --- | --- |
@@ -33,7 +33,7 @@ public enum SmartArtQuickStyleType
 | SunsetScene | `12` | SunsetScene |
 | BirdsEyeScene | `13` | BirdsEyeScene |
 
-### Xem Thêm
+### Xem thêm
 
 * không gian tên [Aspose.Slides.SmartArt](../../aspose.slides.smartart)
 * tập hợp [Aspose.Slides](../../)

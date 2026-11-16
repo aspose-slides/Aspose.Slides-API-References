@@ -1,14 +1,14 @@
 ---
 title: ISketchFormat
-second_title: Aspose.Sildes .NET API Referansı
-description: Çizgi taslak formatı için özellikleri temsil eder.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Satırların taslak biçimi için özellikleri temsil eder.
 type: docs
-weight: 7020
+weight: 7040
 url: /tr/aspose.slides/isketchformat/
 ---
 ## ISketchFormat arayüz
 
-Çizgi taslak formatı için özellikleri temsil eder.
+Satırların taslak biçimi için özellikleri temsil eder.
 
 ```csharp
 public interface ISketchFormat
@@ -18,7 +18,7 @@ public interface ISketchFormat
 
 | Ad | Açıklama |
 | --- | --- |
-| [SketchType](../../aspose.slides/isketchformat/sketchtype) { get; set; } | Taslak tipini alır veya ayarlar. Okuma/Yazma [`LineSketchType`](../linesketchtype). |
+| [SketchType](../../aspose.slides/isketchformat/sketchtype) { get; set; } | Çizim türünü döndürür veya ayarlar. Okunur/yazılır [`LineSketchType`](../linesketchtype). |
 
 ### Ayrıca Bakınız
 

@@ -1,20 +1,20 @@
 ---
 title: GetEmbeddedFonts
 second_title: Aspose.Sildes för .NET API-referens
-description: Returnerar teckensnitten som är inbäddade i presentationen
+description: Returnerar de inbäddade typsnitten i presentationen
 type: docs
-weight: 40
+weight: 50
 url: /sv/aspose.slides/fontsmanager/getembeddedfonts/
 ---
 ## FontsManager.GetEmbeddedFonts metod
 
-Returnerar teckensnitten som är inbäddade i presentationen
+Returnerar de inbäddade typsnitten i presentationen
 
 ```csharp
 public IFontData[] GetEmbeddedFonts()
 ```
 
-### Se också
+### Se även
 
 * gränssnitt [IFontData](../../ifontdata)
 * klass [FontsManager](../../fontsmanager)

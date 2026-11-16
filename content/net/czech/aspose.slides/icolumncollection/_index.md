@@ -3,12 +3,12 @@ title: IColumnCollection
 second_title: Aspose.Sildes pro .NET API Reference
 description: Reprezentuje kolekci sloupců v tabulce.
 type: docs
-weight: 5530
+weight: 5550
 url: /cs/aspose.slides/icolumncollection/
 ---
 ## IColumnCollection rozhraní
 
-Reprezentuje kolekci sloupců v tabulce.
+Represents collection of columns in a table.
 
 ```csharp
 public interface IColumnCollection : IGenericCollection<IColumn>
@@ -16,17 +16,17 @@ public interface IColumnCollection : IGenericCollection<IColumn>
 
 ## Vlastnosti
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
-| [Item](../../aspose.slides/icolumncollection/item) { get; } | Vrací sloupec na zadaném indexu. Pouze ke čtení [`IColumn`](../icolumn). |
+| [Item](../../aspose.slides/icolumncollection/item) { get; } | Returns the column at the specified index. Read-only [`IColumn`](../icolumn). |
 
 ## Metody
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
-| [AddClone](../../aspose.slides/icolumncollection/addclone)(IColumn, bool) | Vytvoří kopii zadaného šablonového řádku a vloží ji na konec tabulky. |
-| [InsertClone](../../aspose.slides/icolumncollection/insertclone)(int, IColumn, bool) | Vytvoří kopii zadaného šablonového sloupce a vloží ji na určenou pozici v tabulce. |
-| [RemoveAt](../../aspose.slides/icolumncollection/removeat)(int, bool) | Odstraní sloupec na určené pozici z tabulky. |
+| [AddClone](../../aspose.slides/icolumncollection/addclone)(IColumn, bool) | Creates a copy of the specified template row and inserts it at the bottom of a table. |
+| [InsertClone](../../aspose.slides/icolumncollection/insertclone)(int, IColumn, bool) | Creates a copy of the specified template column and insert it at the specified position in a table. |
+| [RemoveAt](../../aspose.slides/icolumncollection/removeat)(int, bool) | Removes a column at the specified position from a table. |
 
 ### Viz také
 

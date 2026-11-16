@@ -1,12 +1,12 @@
 ---
 title: StyleType
-second_title: Tham chiếu API Aspose.Sildes cho .NET
+second_title: Aspose.Sildes cho .NET Tham chiếu API
 description: Đại diện cho kiểu biểu đồ.
 type: docs
-weight: 2430
+weight: 2450
 url: /vi/aspose.slides.charts/styletype/
 ---
-## StyleType liệt kê
+## Kiểu liệt kê StyleType
 
 Đại diện cho kiểu biểu đồ.
 

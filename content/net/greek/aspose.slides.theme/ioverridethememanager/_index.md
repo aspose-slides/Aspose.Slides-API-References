@@ -1,12 +1,12 @@
 ---
 title: IOverrideThemeManager
-second_title: Aspose.Sildes για .NET Αναφορά API
+second_title: Aspose.Sildes για .NET API Αναφορά
 description: Παρέχει πρόσβαση σε διαφορετικούς τύπους παρακαμφθέντων θεμάτων.
 type: docs
-weight: 11350
+weight: 11370
 url: /el/aspose.slides.theme/ioverridethememanager/
 ---
-## IOverrideThemeManager διασύνδεση
+## IOverrideThemeManager διεπαφή
 
 Παρέχει πρόσβαση σε διαφορετικούς τύπους παρακαμφθέντων θεμάτων.
 
@@ -18,13 +18,13 @@ public interface IOverrideThemeManager : IThemeManager
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [AsIThemeManager](../../aspose.slides.theme/ioverridethememanager/asithememanager) { get; } | Επιτρέπει την ανάκτηση της βασικής IThemeManager διασύνδεσης. Μόνο για ανάγνωση [`IThemeManager`](../ithememanager). |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/ioverridethememanager/isoverridethemeenabled) { get; } | Καθορίζει εάν το OverrideTheme παρακάμπτει το κληρονομισμένο ενεργό θέμα ή όχι. Για την ενεργοποίηση του OverrideTheme για παράκαμψη χρησιμοποιήστε τις μεθόδους OverrideTheme.Init*(). Για την απενεργοποίηση του OverrideTheme από την παράκαμψη χρησιμοποιήστε τη μέθοδο OverrideTheme.Clear(). Μόνο για ανάγνωση Boolean. |
-| [OverrideTheme](../../aspose.slides.theme/ioverridethememanager/overridetheme) { get; set; } | Επιστρέφει το αντικείμενο του παρακαμφθέντος θέματος. Ανάγνωση/εγγραφή [`IOverrideTheme`](../ioverridetheme). |
+| [AsIThemeManager](../../aspose.slides.theme/ioverridethememanager/asithememanager) { get; } | Επιτρέπει την ανάκτηση της βασικής διεπαφής IThemeManager. Μόνο για ανάγνωση [`IThemeManager`](../ithememanager). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/ioverridethememanager/isoverridethemeenabled) { get; } | Καθορίζει εάν το OverrideTheme παρακάμπτει το κληρονομημένο αποτελεσματικό θέμα ή όχι. Για ενεργοποίηση του OverrideTheme για παρακάμψη χρησιμοποιήστε τις μεθόδους OverrideTheme.Init*(). Για απενεργοποίηση του OverrideTheme από την παρακάμψη χρησιμοποιήστε τη μέθοδο OverrideTheme.Clear(). Μόνο για ανάγνωση Boolean. |
+| [OverrideTheme](../../aspose.slides.theme/ioverridethememanager/overridetheme) { get; set; } | Επιστρέφει το αντικείμενο του παρακαμφτικού θέματος. Ανάγνωση/εγγραφή [`IOverrideTheme`](../ioverridetheme). |
 
 ### Δείτε επίσης
 
-* διασύνδεση [IThemeManager](../ithememanager)
+* διεπαφή [IThemeManager](../ithememanager)
 * χώρο ονομάτων [Aspose.Slides.Theme](../../aspose.slides.theme)
 * συγκρότημα [Aspose.Slides](../../)
 

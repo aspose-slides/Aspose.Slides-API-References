@@ -1,9 +1,9 @@
 ---
 title: IAudio
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 임베드된 오디오 파일을 나타냅니다.
 type: docs
-weight: 5210
+weight: 5230
 url: /ko/aspose.slides/iaudio/
 ---
 ## IAudio 인터페이스
@@ -18,16 +18,16 @@ public interface IAudio
 
 | 이름 | 설명 |
 | --- | --- |
-| [BinaryData](../../aspose.slides/iaudio/binarydata) { get; } | 오디오 데이터 복사본을 반환합니다. 대량의 데이터를 처리할 경우 메모리로 오디오 데이터를 불필요하게 로드하거나 OutOfMemoryException이 발생하는 것을 방지하기 위해 [`GetStream`](./getstream) 메서드 사용을 고려하십시오. 읽기 전용 Byte[]. |
-| [ContentType](../../aspose.slides/iaudio/contenttype) { get; } | 오디오의 MIME 타입을 반환합니다. [`BinaryData`](./binarydata)에 인코딩됩니다. 읽기 전용 String. |
+| [BinaryData](../../aspose.slides/iaudio/binarydata) { get; } | 오디오 데이터의 복사본을 반환합니다. 대량의 데이터인 경우 [`GetStream`](./getstream) 메서드를 사용하여 메모리로 오디오 데이터를 불필요하게 로드하거나 OutOfMemoryException이 발생하는 것을 방지하는 것을 고려하십시오. 읽기 전용 Byte[]. |
+| [ContentType](../../aspose.slides/iaudio/contenttype) { get; } | 오디오의 MIME 유형을 [`BinaryData`](./binarydata)에 인코딩된 형태로 반환합니다. 읽기 전용 String. |
 
 ## 메서드
 
 | 이름 | 설명 |
 | --- | --- |
-| [GetStream](../../aspose.slides/iaudio/getstream)() | 읽기를 위한 Stream 스트림을 반환합니다. 'using'을 사용하거나 사용 후 스트림을 닫으세요. |
+| [GetStream](../../aspose.slides/iaudio/getstream)() | 읽기를 위한 Stream 스트림을 반환합니다. 'using'을 사용하거나 사용 후 스트림을 닫으십시오. |
 
-### 참고
+### 관련 항목
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

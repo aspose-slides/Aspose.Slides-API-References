@@ -1,12 +1,12 @@
 ---
 title: ReplaceText
-second_title: Aspose.Sildes dla .NET – odniesienie API
+second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Zastępuje wszystkie wystąpienia określonego tekstu innym określonym tekstem.
 type: docs
-weight: 380
+weight: 390
 url: /pl/aspose.slides/presentation/replacetext/
 ---
-## Metoda Presentation.ReplaceText
+## Presentation.ReplaceText metoda
 
 Zastępuje wszystkie wystąpienia określonego tekstu innym określonym tekstem.
 
@@ -17,10 +17,10 @@ public void ReplaceText(string oldText, string newText, ITextSearchOptions optio
 
 | Parametr | Typ | Opis |
 | --- | --- | --- |
-| oldText | String | Ciąg znaków, który ma zostać zastąpiony. |
-| newText | String | Ciąg znaków, który zastępuje wszystkie wystąpienia oldText. |
+| oldText | String | Ciąg znaków do zastąpienia. |
+| newText | String | Ciąg znaków zastępujący wszystkie wystąpienia oldText. |
 | options | ITextSearchOptions | Opcje wyszukiwania tekstu [`ITextSearchOptions`](../../itextsearchoptions). |
-| callback | IFindResultCallback | Obiekt zwrotny służący do odbierania wyników wyszukiwania [`IFindResultCallback`](../../ifindresultcallback). |
+| callback | IFindResultCallback | Obiekt wywołania zwrotnego służący do odbioru wyników wyszukiwania [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### Przykłady
 
@@ -30,7 +30,7 @@ Poniższy przykładowy kod pokazuje, jak zastąpić jeden określony ciąg znak�
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
-	// Zamień wszystkie oddzielne wystąpienia 'the' na '***'
+	// Zastąp wszystkie oddzielne wystąpienia 'the' ciągiem '***'
 	presentation.ReplaceText("the", "***", new TextSearchOptions() {WholeWordsOnly = true}, null);
 	presentation.Save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 }

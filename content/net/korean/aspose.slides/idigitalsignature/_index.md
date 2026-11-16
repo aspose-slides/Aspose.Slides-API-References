@@ -1,9 +1,9 @@
 ---
 title: IDigitalSignature
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 서명된 파일의 디지털 서명.
 type: docs
-weight: 5690
+weight: 5710
 url: /ko/aspose.slides/idigitalsignature/
 ---
 ## IDigitalSignature 인터페이스
@@ -20,7 +20,7 @@ public interface IDigitalSignature
 | --- | --- |
 | [Certificate](../../aspose.slides/idigitalsignature/certificate) { get; } | 문서를 서명하는 데 사용된 인증서 개체. 읽기 전용 X509Certificate2. |
 | [Comments](../../aspose.slides/idigitalsignature/comments) { get; set; } | 서명의 목적. 읽기/쓰기 String. |
-| [IsValid](../../aspose.slides/idigitalsignature/isvalid) { get; } | 이 디지털 서명이 유효하고 문서가 변조되지 않은 경우 이 값은 true가 됩니다. 읽기 전용 Boolean. |
+| [IsValid](../../aspose.slides/idigitalsignature/isvalid) { get; } | 디지털 서명이 유효하고 문서가 변조되지 않은 경우, 이 값은 true가 됩니다. 읽기 전용 Boolean. |
 | [SignTime](../../aspose.slides/idigitalsignature/signtime) { get; } | 문서가 서명된 시간. 읽기 전용 DateTime. |
 
 ### 참고

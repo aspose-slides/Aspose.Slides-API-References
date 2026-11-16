@@ -1,12 +1,12 @@
 ---
 title: IMathematicalText
-second_title: Aspose.Sildes .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Matematiksel metin
 type: docs
-weight: 8510
+weight: 8530
 url: /tr/aspose.slides.mathtext/imathematicaltext/
 ---
-## IMathematicalText arayüz
+## IMathematicalText arayüzü
 
 Matematiksel metin
 
@@ -16,7 +16,7 @@ public interface IMathematicalText : IMathElement
 
 ## Özellikler
 
-| İsim | Açıklama |
+| Ad | Açıklama |
 | --- | --- |
 | [AsIMathElement](../../aspose.slides.mathtext/imathematicaltext/asimathelement) { get; } | Temel IMathElement arayüzünü almayı sağlar [`IMathElement`](../imathelement) |
 | [Format](../../aspose.slides.mathtext/imathematicaltext/format) { get; } | Metin biçimlendirme özellikleri |
@@ -31,7 +31,7 @@ public interface IMathematicalText : IMathElement
 IMathematicalText mathText = new MathematicalText("x+y");
 ```
 
-### Ayrıca Bakınız
+### Diğer Bağlantılar
 
 * arayüz [IMathElement](../imathelement)
 * ad alanı [Aspose.Slides.MathText](../../aspose.slides.mathtext)

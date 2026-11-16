@@ -1,14 +1,14 @@
 ---
 title: IMasterSlideHeaderFooterManager
 second_title: Aspose.Sildes لـ .NET مرجع API
-description: يمثل مديرًا يتحكم بسلوك عناصر نائب تذييل الشريحة الأساسية، تاريخ/وقت، رقم الصفحة وجميع عناصر النائب الفروع. تعني عناصر النائب الفروع أن العناصر موجودة في الشرائح المعتمدة على التخطيط والشرائح المعتمدة. تستخدم الشرائح المعتمدة على التخطيط والشرائح المعتمدة الشريحة الأساسية وتعتمد عليها.
+description: يمثل المدير الذي يتحكم في سلوك تذييل الشريحة الرئيسية وعناصر نائب التاريخ والوقت ورقم الصفحة وجميع عناصر النائب الفرعية. تعني عناصر النائب الفرعية أن عناصر النائب موجودة على الشرائح ذات التخطيط المعتمد وعلى الشرائح المعتمدة. تُستخدم الشرائح ذات التخطيط المعتمد والشرائح وتعتمد على الشريحة الرئيسية.
 type: docs
-weight: 6440
+weight: 6460
 url: /ar/aspose.slides/imasterslideheaderfootermanager/
 ---
-## IMasterSlideHeaderFooterManager interface
+## IMasterSlideHeaderFooterManager واجهة
 
-يمثل مديرًا يتحكم بسلوك عناصر نائب تذييل الشريحة الأساسية، تاريخ/وقت، رقم الصفحة وجميع عناصر النائب الفروع. تعني عناصر النائب الفروع أن العناصر موجودة في الشرائح المعتمدة على التخطيط والشرائح المعتمدة. تستخدم الشرائح المعتمدة على التخطيط والشرائح المعتمدة الشريحة الأساسية وتعتمد عليها.
+Represents manager which holds behavior of the master slide footer, date-time, page number placeholders and all child placeholders. Child placeholders mean placeholders are contained on depending layout slides and depending slides. Depending layout slides and slides use and depend on master slide.
 
 ```csharp
 public interface IMasterSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
@@ -18,22 +18,22 @@ public interface IMasterSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
 
 | الاسم | الوصف |
 | --- | --- |
-| [AsIBaseSlideHeaderFooterManager](../../aspose.slides/imasterslideheaderfootermanager/asibaseslideheaderfootermanager) { get; } | يعيد IBaseSlideHeaderFooterManager واجهة. |
+| [AsIBaseSlideHeaderFooterManager](../../aspose.slides/imasterslideheaderfootermanager/asibaseslideheaderfootermanager) { get; } | يرجع واجهة IBaseSlideHeaderFooterManager. |
 
 ## الطرق
 
 | الاسم | الوصف |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | يحدد النص لعنصر نائب تاريخ/وقت الشريحة الأساسية وجميع عناصر نائب تاريخ/وقت الفروع. تعني عناصر نائب الفروع أن العناصر موجودة في الشرائح المعتمدة على تخطيطها والشرائح المعتمدة. تستخدم الشرائح المعتمدة على التخطيط والشرائح المعتمدة الشريحة الأساسية وتعتمد عليها. |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | يغيّر رؤية عنصر نائب تاريخ/وقت الشريحة الأساسية وجميع عناصر نائب تاريخ/وقت الفروع. تعني عناصر نائب الفروع أن العناصر موجودة في الشرائح المعتمدة على تخطيطها والشرائح المعتمدة. تستخدم الشرائح المعتمدة على التخطيط والشرائح المعتمدة الشريحة الأساسية وتعتمد عليها. |
-| [SetFooterAndChildFootersText](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfooterstext)(string) | يحدد النص لعنصر نائب تذييل الشريحة الأساسية وجميع عناصر نائب التذييل الفروع. تعني عناصر نائب الفروع أن العناصر موجودة في الشرائح المعتمدة على تخطيطها والشرائح المعتمدة. تستخدم الشرائح المعتمدة على التخطيط والشرائح المعتمدة الشريحة الأساسية وتعتمد عليها. |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | يغيّر رؤية عنصر نائب تذييل الشريحة الأساسية وجميع عناصر نائب التذييل الفروع. تعني عناصر نائب الفروع أن العناصر موجودة في الشرائح المعتمدة على تخطيطها والشرائح المعتمدة. تستخدم الشرائح المعتمدة على التخطيط والشرائح المعتمدة الشريحة الأساسية وتعتمد عليها. |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | يغيّر رؤية عنصر نائب رقم الصفحة في الشريحة الأساسية وجميع عناصر نائب رقم الصفحة الفروع. تعني عناصر نائب الفروع أن العناصر موجودة في الشرائح المعتمدة على تخطيطها والشرائح المعتمدة. تستخدم الشرائح المعتمدة على التخطيط والشرائح المعتمدة الشريحة الأساسية وتعتمد عليها. |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | يضبط النص إلى عنصر نائب لتاريخ ووقت الشريحة الرئيسية وجميع عناصر النائب لتاريخ ووقت العناصر الفرعية. عناصر النائب الفرعية تعني أن عناصر النائب موجودة على الشرائح المرتبطة بالتصميم والشرائح المرتبطة. الشرائح المرتبطة بالتصميم والشرائح تستخدم وتعتمد على الشريحة الرئيسية. |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | يغيّر رؤية عنصر نائب لتاريخ ووقت الشريحة الرئيسية وجميع عناصر النائب لتاريخ ووقت العناصر الفرعية. عناصر النائب الفرعية تعني أن عناصر النائب موجودة على الشرائح المرتبطة بالتصميم والشرائح المرتبطة. الشرائح المرتبطة بالتصميم والشرائح تستخدم وتعتمد على الشريحة الرئيسية. |
+| [SetFooterAndChildFootersText](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfooterstext)(string) | يضبط النص إلى عنصر نائب لتذييل الشريحة الرئيسية وجميع عناصر النائب للتذييل للعنصر الفرعي. عناصر النائب الفرعية تعني أن عناصر النائب موجودة على الشرائح المرتبطة بالتصميم والشرائح المرتبطة. الشرائح المرتبطة بالتصميم والشرائح تستخدم وتعتمد على الشريحة الرئيسية. |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | يغيّر رؤية عنصر نائب لتذييل الشريحة الرئيسية وجميع عناصر النائب للتذييل للعنصر الفرعي. عناصر النائب الفرعية تعني أن عناصر النائب موجودة على الشرائح المرتبطة بالتصميم والشرائح المرتبطة. الشرائح المرتبطة بالتصميم والشرائح تستخدم وتعتمد على الشريحة الرئيسية. |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | يغيّر رؤية عنصر نائب رقم صفحة الشريحة الرئيسية وجميع عناصر النائب لأرقام الصفحات للعنصر الفرعي. عناصر النائب الفرعية تعني أن عناصر النائب موجودة على الشرائح المرتبطة بالتصميم والشرائح المرتبطة. الشرائح المرتبطة بالتصميم والشرائح تستخدم وتعتمد على الشريحة الرئيسية. |
 
 ### انظر أيضًا
 
 * واجهة [IBaseSlideHeaderFooterManager](../ibaseslideheaderfootermanager)
-* نطاق [Aspose.Slides](../../aspose.slides)
-* تجميع [Aspose.Slides](../../)
+* مساحة الاسم [Aspose.Slides](../../aspose.slides)
+* التجميع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

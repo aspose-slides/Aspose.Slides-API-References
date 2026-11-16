@@ -1,14 +1,14 @@
 ---
 title: ISmartArtNodeCollection
 second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje kolekci uzlů SmartArt.
+description: Představuje kolekci uzlů SmartArt.
 type: docs
-weight: 10560
+weight: 10580
 url: /cs/aspose.slides.smartart/ismartartnodecollection/
 ---
 ## ISmartArtNodeCollection rozhraní
 
-Reprezentuje kolekci uzlů SmartArt.
+Představuje kolekci uzlů SmartArt.
 
 ```csharp
 public interface ISmartArtNodeCollection : IGenericCollection<ISmartArtNode>

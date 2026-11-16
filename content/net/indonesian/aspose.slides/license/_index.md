@@ -3,10 +3,10 @@ title: License
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Menyediakan metode untuk melisensikan komponen.
 type: docs
-weight: 7680
+weight: 7700
 url: /id/aspose.slides/license/
 ---
-## Kelas License
+## Kelas Lisensi
 
 Menyediakan metode untuk melisensikan komponen.
 
@@ -14,24 +14,24 @@ Menyediakan metode untuk melisensikan komponen.
 public class License : ILicense
 ```
 
-## Konstruktor
+## Constructors
 
 | Nama | Deskripsi |
 | --- | --- |
-| [License](license)() | Menginisialisasi instance baru dari kelas ini. |
+| [License](license)() | Initializes a new instance of this class. |
 
-## Metode
+## Methods
 
 | Nama | Deskripsi |
 | --- | --- |
-| [IsLicensed](../../aspose.slides/license/islicensed)() | Memeriksa apakah lisensi diterapkan ke komponen |
-| [ResetLicense](../../aspose.slides/license/resetlicense)() | Setel ulang lisensi |
+| [IsLicensed](../../aspose.slides/license/islicensed)() | Periksa apakah lisensi diterapkan pada komponen |
+| [ResetLicense](../../aspose.slides/license/resetlicense)() | Atur ulang lisensi |
 | [SetLicense](../../aspose.slides/license/setlicense#setlicense)(Stream) | Melisensikan komponen. |
 | [SetLicense](../../aspose.slides/license/setlicense#setlicense_1)(string) | Melisensikan komponen. |
 
 ### Contoh
 
-Dalam contoh ini, upaya akan dilakukan untuk menemukan file lisensi bernama MyLicense.lic di folder yang berisi komponen, di folder yang berisi assembly pemanggil, di folder assembly masuk, dan kemudian di sumber daya tersemat dari assembly pemanggil.
+Dalam contoh ini, akan dicoba untuk menemukan file lisensi bernama MyLicense.lic di folder yang berisi komponen, di folder yang berisi assembly pemanggil, di folder assembly masuk, dan kemudian di sumber daya tersemat dari assembly pemanggil.
 
 ```csharp
 [C#]

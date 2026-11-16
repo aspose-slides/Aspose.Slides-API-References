@@ -1,9 +1,9 @@
 ---
 title: IChartPlotArea
-second_title: Aspose.Sildes .NET API referencia
+second_title: Aspose.Sildes .NET API Referenciája
 description: A diagramcím tulajdonságait képviseli.
 type: docs
-weight: 1910
+weight: 1930
 url: /hu/aspose.slides.charts/ichartplotarea/
 ---
 ## IChartPlotArea interfész
@@ -16,12 +16,12 @@ public interface IChartPlotArea : IActualLayout, ILayoutable
 
 ## Tulajdonságok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
 | [AsIActualLayout](../../aspose.slides.charts/ichartplotarea/asiactuallayout) { get; } | Visszaadja az IActualLayout interfészt. |
-| [AsILayoutable](../../aspose.slides.charts/ichartplotarea/asilayoutable) { get; } | Lehetővé teszi a bázis ILayoutable interfész lekérdezését. Csak olvasható [`ILayoutable`](../ilayoutable). |
+| [AsILayoutable](../../aspose.slides.charts/ichartplotarea/asilayoutable) { get; } | Lehetővé teszi a bázis ILayoutable interfész lekérését. Csak olvasható [`ILayoutable`](../ilayoutable). |
 | [Format](../../aspose.slides.charts/ichartplotarea/format) { get; } | Visszaadja a diagramterület formátumát. Csak olvasható [`IFormat`](../iformat). |
-| [LayoutTargetType](../../aspose.slides.charts/ichartplotarea/layouttargettype) { get; set; } | Ha a diagramterület elrendezése manuálisan van definiálva, ez a tulajdonság meghatározza, hogy a diagramterületet a belseje (a tengelyek és tengelycímkék nélkül) vagy a külseje (a tengelyek és tengelycímkék beleértve) szerint helyezzék el. Olvasható/írható [`LayoutTargetType`](./layouttargettype). |
+| [LayoutTargetType](../../aspose.slides.charts/ichartplotarea/layouttargettype) { get; set; } | Ha a diagramterület elrendezése kézzel van definiálva, ez a tulajdonság meghatározza, hogy a diagramterületet a belseje (a tengely és a tengelycímkék nélkül) vagy a külseje (tengely és tengelycímkék beleértve) szerint kell elrendezni. Olvasható/írható [`LayoutTargetType`](./layouttargettype). |
 
 ### Lásd még
 

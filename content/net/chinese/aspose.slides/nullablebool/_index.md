@@ -1,9 +1,9 @@
 ---
 title: NullableBool
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 表示三元布尔值。
 type: docs
-weight: 9170
+weight: 9190
 url: /zh/aspose.slides/nullablebool/
 ---
 ## NullableBool 枚举

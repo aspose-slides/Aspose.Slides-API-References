@@ -1,14 +1,14 @@
 ---
 title: LineSketchType
-second_title: Aspose.Sildes für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Gibt an, welchen Skizzen-Typ oder Effekt einer Form zugewiesen wurde.
 type: docs
-weight: 7810
+weight: 7830
 url: /de/aspose.slides/linesketchtype/
 ---
 ## LineSketchType Aufzählung
 
-Gibt an, welchen Skizzen-Typ oder Effekt einer Form zugewiesen wurde.
+Gibt an, welchen Skizzen-Typ oder Effekt eine Form zugewiesen bekommen hat.
 
 ```csharp
 public enum LineSketchType
@@ -20,9 +20,9 @@ public enum LineSketchType
 | --- | --- | --- |
 | NotDefined | `-1` | Gibt an, dass ein Sketch-Effekt einer Form nicht definiert ist. |
 | None | `0` | Gibt an, dass eine Form keinen Sketch-Effekt hat. Dies entspricht einem leeren Wert dieser Eigenschaft. |
-| Curved | `1` | Gibt an, dass eine Form den Curved-Effekt hat, der jede Kante der Form in eine große, sanfte Kurve umwandelt. |
-| Freehand | `2` | Gibt an, dass eine Form den Freehand-Effekt hat, der am ehesten einer ungleichmäßig gezeichneten Linie entspricht. |
-| Scribble | `3` | Gibt an, dass eine Form den Scribble-Effekt hat, der übertriebene Schwingungen aufweist, als wäre er absichtlich unordentlich gezeichnet. |
+| Curved | `1` | Gibt an, dass eine Form den Curved-Effekt hat, welcher jede Kante der Form in eine große sanfte Kurve verwandelt. |
+| Freehand | `2` | Gibt an, dass eine Form den Freehand-Effekt hat, der am ehesten einer unvollkommen gezeichneten Linie ähnelt. |
+| Scribble | `3` | Gibt an, dass eine Form den Scribble-Effekt hat, der übertriebene Schwingungen aufweist, als wäre er bewusst unordentlich gezeichnet. |
 
 ### Siehe auch
 

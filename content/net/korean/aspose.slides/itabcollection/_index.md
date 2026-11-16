@@ -1,14 +1,14 @@
 ---
 title: ITabCollection
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 탭 컬렉션을 나타냅니다.
 type: docs
-weight: 7200
+weight: 7220
 url: /ko/aspose.slides/itabcollection/
 ---
 ## ITabCollection 인터페이스
 
-Tab 컬렉션을 나타냅니다.
+탭 컬렉션을 나타냅니다.
 
 ```csharp
 public interface ITabCollection : IGenericCollection<ITab>
@@ -18,7 +18,7 @@ public interface ITabCollection : IGenericCollection<ITab>
 
 | 이름 | 설명 |
 | --- | --- |
-| [Item](../../aspose.slides/itabcollection/item) { get; } | 지정된 인덱스의 요소를 가져옵니다. 읽기 전용 [`ITab`](../itab). |
+| [Item](../../aspose.slides/itabcollection/item) { get; } | 지정된 인덱스의 요소를 반환합니다. 읽기 전용 [`ITab`](../itab). |
 
 ## 메서드
 

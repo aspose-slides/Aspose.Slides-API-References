@@ -1,9 +1,9 @@
 ---
 title: IChartPlotArea
 second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje vlastnosti názvu grafu.
+description: Representuje vlastnosti názvu grafu.
 type: docs
-weight: 1910
+weight: 1930
 url: /cs/aspose.slides.charts/ichartplotarea/
 ---
 ## IChartPlotArea rozhraní
@@ -19,9 +19,9 @@ public interface IChartPlotArea : IActualLayout, ILayoutable
 | Název | Popis |
 | --- | --- |
 | [AsIActualLayout](../../aspose.slides.charts/ichartplotarea/asiactuallayout) { get; } | Vrací rozhraní IActualLayout. |
-| [AsILayoutable](../../aspose.slides.charts/ichartplotarea/asilayoutable) { get; } | Umožňuje získat základní rozhraní ILayoutable. Pouze pro čtení [`ILayoutable`](../ilayoutable). |
-| [Format](../../aspose.slides.charts/ichartplotarea/format) { get; } | Vrací formát oblasti vykreslování. Pouze pro čtení [`IFormat`](../iformat). |
-| [LayoutTargetType](../../aspose.slides.charts/ichartplotarea/layouttargettype) { get; set; } | Pokud je rozložení oblasti vykreslování definováno ručně, tato vlastnost určuje, zda rozvrhnout oblast vykreslování podle jejího vnitřku (bez os a popisků os) nebo podle vnějšího okraje (včetně os a popisků os). Čtení a zápis [`LayoutTargetType`](./layouttargettype). |
+| [AsILayoutable](../../aspose.slides.charts/ichartplotarea/asilayoutable) { get; } | Umožňuje získat základní rozhraní ILayoutable. Pouze ke čtení [`ILayoutable`](../ilayoutable). |
+| [Format](../../aspose.slides.charts/ichartplotarea/format) { get; } | Vrací formát oblasti grafu. Pouze ke čtení [`IFormat`](../iformat). |
+| [LayoutTargetType](../../aspose.slides.charts/ichartplotarea/layouttargettype) { get; set; } | Pokud je rozložení oblasti grafu definováno ručně, tato vlastnost určuje, zda rozvrhnout oblast grafu podle jejího vnitřku (bez os a popisků os) nebo podle vnějšího okraje (s osami a popisky os). Čtení/zápis [`LayoutTargetType`](./layouttargettype). |
 
 ### Viz také
 

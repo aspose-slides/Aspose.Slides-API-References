@@ -1,14 +1,14 @@
 ---
 title: ColorOperation
-second_title: Aspose.Sildes for .NET API リファレンス
-description: 色変換に使用されるさまざまなカラー操作を表します。変更不可のオブジェクトです。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: カラー変換に使用されるさまざまなカラー操作を表します。変更不可能なオブジェクトです。
 type: docs
-weight: 2530
+weight: 2550
 url: /ja/aspose.slides/coloroperation/
 ---
 ## ColorOperation クラス
 
-色変換に使用されるさまざまなカラー操作を表します。変更不可のオブジェクトです。
+カラー変換に使用されるさまざまなカラー操作を表します。変更不可能なオブジェクトです。
 
 ```csharp
 public class ColorOperation : IColorOperation
@@ -26,16 +26,16 @@ public class ColorOperation : IColorOperation
 | 名前 | 説明 |
 | --- | --- |
 | [OperationType](../../aspose.slides/coloroperation/operationtype) { get; } | 操作のタイプを取得または設定します。読み取り専用 [`ColorTransformOperation`](../colortransformoperation)。 |
-| [Parameter](../../aspose.slides/coloroperation/parameter) { get; } | 操作のパラメータを取得します。読み取り専用 Single。 |
+| [Parameter](../../aspose.slides/coloroperation/parameter) { get; } | 操作のパラメーターを取得します。読み取り専用 Single。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
 | override [Equals](../../aspose.slides/coloroperation/equals)(object) | 2つの ColorOperation インスタンスが等しいかどうかを判断します。 |
-| override [GetHashCode](../../aspose.slides/coloroperation/gethashcode)() | 特定の型のハッシュ関数として機能し、ハッシュアルゴリズムやハッシュテーブルなどのデータ構造で使用できるようにします。 |
+| override [GetHashCode](../../aspose.slides/coloroperation/gethashcode)() | 特定の型に対するハッシュ関数として機能し、ハッシュアルゴリズムやハッシュテーブルなどのデータ構造での使用に適しています。 |
 
-### 参照
+### 関連項目
 
 * インターフェイス [IColorOperation](../icoloroperation)
 * 名前空間 [Aspose.Slides](../../aspose.slides)

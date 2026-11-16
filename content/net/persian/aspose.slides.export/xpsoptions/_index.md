@@ -1,14 +1,14 @@
 ---
 title: XpsOptions
 second_title: Aspose.Sildes برای .NET مرجع API
-description: گزینه‌هایی را ارائه می‌دهد که نحوه ذخیره‌سازی یک ارائه در قالب XPS را کنترل می‌کند.
+description: گزینه‌هایی را فراهم می‌کند که نحوه ذخیره‌سازی یک ارائه در قالب XPS را کنترل می‌کند.
 type: docs
-weight: 4730
+weight: 4750
 url: /fa/aspose.slides.export/xpsoptions/
 ---
-## XpsOptions کلاس
+## کلاس XpsOptions
 
-گزینه‌هایی را فراهم می‌کند که کنترل می‌کند یک ارائه چگونه در قالب XPS ذخیره شود.
+گزینه‌هایی را فراهم می‌کند که نحوه ذخیره‌سازی یک ارائه در قالب XPS را کنترل می‌کنند.
 
 ```csharp
 public class XpsOptions : SaveOptions, IXpsOptions
@@ -24,30 +24,30 @@ public class XpsOptions : SaveOptions, IXpsOptions
 
 | نام | توضیح |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | فونت استفاده شده را در صورتی که فونت منبع یافت نشود برمی‌گرداند یا تنظیم می‌کند. قابل خواندن و نوشتن String. |
-| [DrawSlidesFrame](../../aspose.slides.export/xpsoptions/drawslidesframe) { get; set; } | True برای رسم قاب سیاه دور هر اسلاید. قابل خواندن و نوشتن Boolean. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | سبک بصری گرادیان را برمی‌گرداند یا تنظیم می‌کند. قابل خواندن و نوشتن [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | یک شیء callback برای دریافت به‌روزرسانی‌های پیشرفت ذخیره‌سازی به درصد را نمایندگی می‌کند. شاهد [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SaveMetafilesAsPng](../../aspose.slides.export/xpsoptions/savemetafilesaspng) { get; set; } | True برای تبدیل تمام متافایل‌های استفاده‌شده در یک ارائه به تصاویر PNG. قابل خواندن و نوشتن Boolean. |
-| [ShowHiddenSlides](../../aspose.slides.export/xpsoptions/showhiddenslides) { get; set; } | مشخص می‌کند آیا سند تولید شده باید اسلایدهای مخفی را شامل شود یا نه. مقدار پیش‌فرض `false` است. |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | مشخص می‌کند هنگام ذخیره‌سازی ارائه لینک‌های هایپرلینک با فراخوانی‌های JavaScript نادیده گرفته شوند یا نه. قابل خواندن و نوشتن Boolean. مقدار پیش‌فرض **false** است. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | یک شیء را برمی‌گرداند یا تنظیم می‌کند که هشدارها را دریافت می‌کند و تصمیم می‌گیرد آیا فرآیند بارگذاری ادامه یابد یا متوقف شود. قابل خواندن و نوشتن [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | فونتی را که در صورت عدم یافتن فونت منبع استفاده می‌شود، بر می‌گرداند یا تنظیم می‌کند. قابل‌خواندن و نوشتن String. |
+| [DrawSlidesFrame](../../aspose.slides.export/xpsoptions/drawslidesframe) { get; set; } | برای رسم قاب سیاه اطراف هر اسلاید مقدار true را تنظیم کنید. قابل‌خواندن و نوشتن Boolean. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | سبک بصری گرادیان را بر می‌گرداند یا تنظیم می‌کند. قابل‌خواندن و نوشتن [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | یک شیء بازخوانی برای به‌روزرسانی پیشرفت ذخیره‌سازی به درصد را نشان می‌دهد. به [`IProgressCallback`](../../aspose.slides/iprogresscallback) مراجعه کنید. |
+| [SaveMetafilesAsPng](../../aspose.slides.export/xpsoptions/savemetafilesaspng) { get; set; } | برای تبدیل همه متافایل‌های استفاده‌شده در یک ارائه به تصاویر PNG مقدار true را تنظیم کنید. قابل‌خواندن و نوشتن Boolean. |
+| [ShowHiddenSlides](../../aspose.slides.export/xpsoptions/showhiddenslides) { get; set; } | مشخص می‌کند آیا سند تولید شده باید اسلایدهای مخفی را شامل شود یا خیر. مقدار پیش‌فرض `false` است. |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | مشخص می‌کند آیا هنگام ذخیره‌سازی ارائه پیوندهای فرامتنی با فراخوانی‌های JavaScript را نادیده بگیرد یا نه. قابل‌خواندن و نوشتن Boolean. مقدار پیش‌فرض **false** است. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | شیئی را که هشدارها را دریافت می‌کند و تصمیم می‌گیرد فرآیند بارگذاری ادامه یابد یا متوقف شود، بر می‌گرداند یا تنظیم می‌کند. قابل‌خواندن و نوشتن [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### مثال‌ها
 
-مثال زیر نشان می‌دهد چگونه ارائه‌ها را با استفاده از تنظیمات پیش‌فرض به XPS تبدیل کنید.
+مثال زیر نشان می‌دهد چگونه ارائه‌ها را با استفاده از تنظیمات پیش‌فرض به XPS تبدیل کنیم.
 
 ```csharp
 [C#]
 // یک شیء Presentation ایجاد می‌کند که نمایانگر یک فایل ارائه است
 using (Presentation pres = new Presentation("Convert_XPS.pptx"))
 {
-    // ذخیره ارائه به سند XPS
+    // ذخیره‌سازی ارائه به سند XPS
     pres.Save("XPS_Output_Without_XPSOption_out.xps", SaveFormat.Xps);
 }
 ```
 
-مثال زیر نشان می‌دهد چگونه ارائه‌ها را با استفاده از تنظیمات سفارشی به XPS تبدیل کنید.
+مثال زیر نشان می‌دهد چگونه ارائه‌ها را با استفاده از تنظیمات سفارشی به XPS تبدیل کنیم.
 
 ```csharp
 [C#]
@@ -56,14 +56,14 @@ using (Presentation pres = new Presentation("Convert_XPS_Options.pptx"))
 {
     // یک شیء از کلاس TiffOptions ایجاد می‌کند
     XpsOptions options = new XpsOptions();
-    // ذخیره متافایل‌ها به صورت PNG
+    // متافایل‌ها را به صورت PNG ذخیره کنید
     options.SaveMetafilesAsPng = true;
-    // ذخیره ارائه به سند XPS
+    // ارائه را در سند XPS ذخیره کنید
     pres.Save("XPS_With_Options_out.xps", SaveFormat.Xps, options);
 }
 ```
 
-### مراجع
+### موارد مرتبط
 
 * کلاس [SaveOptions](../saveoptions)
 * رابط [IXpsOptions](../ixpsoptions)

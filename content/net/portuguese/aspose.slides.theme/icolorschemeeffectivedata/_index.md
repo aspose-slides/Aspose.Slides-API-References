@@ -1,9 +1,9 @@
 ---
 title: IColorSchemeEffectiveData
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Aspose.Sildes para .NET API Referência
 description: Objeto imutável que contém propriedades efetivas do esquema de cores.
 type: docs
-weight: 11160
+weight: 11180
 url: /pt/aspose.slides.theme/icolorschemeeffectivedata/
 ---
 ## IColorSchemeEffectiveData interface

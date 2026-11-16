@@ -1,14 +1,14 @@
 ---
 title: TransitionInOutDirectionType
-second_title: Aspose.Sildes .NET API 参考
-description: 表示进入或退出方向的转场类型。
+second_title: Aspose.Sildes for .NET API 参考
+description: 表示进入或离开方向的过渡类型。
 type: docs
-weight: 10370
+weight: 10390
 url: /zh/aspose.slides.slideshow/transitioninoutdirectiontype/
 ---
 ## TransitionInOutDirectionType 枚举
 
-表示进入或退出方向的转场类型。
+表示进入或离开方向的过渡类型。
 
 ```csharp
 public enum TransitionInOutDirectionType
@@ -21,7 +21,7 @@ public enum TransitionInOutDirectionType
 | In | `0` |  |
 | Out | `1` |  |
 
-### 另见
+### 另请参阅
 
 * 命名空间 [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * 程序集 [Aspose.Slides](../../)

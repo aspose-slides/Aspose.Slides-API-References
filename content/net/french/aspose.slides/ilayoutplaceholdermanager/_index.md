@@ -1,9 +1,9 @@
 ---
 title: ILayoutPlaceholderManager
-second_title: Aspose.Sildes pour la référence API .NET
-description: Représente le gestionnaire qui vous permet d'ajouter des espaces réservés à la diapositive de mise en page.
+second_title: Aspose.Sildes pour .NET Référence de l'API
+description: Représente le gestionnaire qui vous permet d’ajouter des espaces réservés à la diapositive de mise en page.
 type: docs
-weight: 6210
+weight: 6230
 url: /fr/aspose.slides/ilayoutplaceholdermanager/
 ---
 ## ILayoutPlaceholderManager interface
@@ -20,7 +20,7 @@ public interface ILayoutPlaceholderManager
 | --- | --- |
 | [AddChartPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addchartplaceholder)(float, float, float, float) | Ajoute une nouvelle forme d’espace réservé à la diapositive de mise en page pour contenir un graphique. |
 | [AddContentPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addcontentplaceholder)(float, float, float, float) | Ajoute une nouvelle forme d’espace réservé à la diapositive de mise en page pour contenir du contenu, tel qu’une image, un tableau, un média ou du texte. |
-| [AddMediaPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addmediaplaceholder)(float, float, float, float) | Ajoute une nouvelle forme d’espace réservé à la diapositive de mise en page pour contenir un objet média. |
+| [AddMediaPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addmediaplaceholder)(float, float, float, float) | Ajoute une nouvelle forme d’espace réservé à la diapositive de mise en page pour contenir un objet multimédia. |
 | [AddOnlineImagePlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addonlineimageplaceholder)(float, float, float, float) | Ajoute une nouvelle forme d’espace réservé à la diapositive de mise en page pour contenir une image en ligne. |
 | [AddPicturePlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addpictureplaceholder)(float, float, float, float) | Ajoute une nouvelle forme d’espace réservé à la diapositive de mise en page pour contenir une image. |
 | [AddSmartArtPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addsmartartplaceholder)(float, float, float, float) | Ajoute une nouvelle forme d’espace réservé à la diapositive de mise en page pour contenir un diagramme SmartArt. |

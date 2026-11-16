@@ -1,14 +1,14 @@
 ---
 title: IMathSuperscriptElement
 second_title: Aspose.Sildes için .NET API Referansı
-description: Üstte ve sağda konumlandırılmış, bir temel ve küçültülmüş bir üstsimge içeren üstsimge nesnesini belirtir
+description: Üst simge nesnesini belirtir; bir temel ve sağ üstte yer alan, küçültülmüş boyutta bir üst simge içerir
 type: docs
-weight: 8490
+weight: 8510
 url: /tr/aspose.slides.mathtext/imathsuperscriptelement/
 ---
 ## IMathSuperscriptElement arayüz
 
-Temel ve sağa doğru yukarıda konumlandırılmış, küçültülmüş bir üstsimge içeren üstsimge nesnesini belirler
+Üst simge nesnesini belirtir; bir temel ve sağ üstte yer alan, küçültülmüş boyutta bir üst simge içerir.
 
 ```csharp
 public interface IMathSuperscriptElement : IMathElement
@@ -18,19 +18,20 @@ public interface IMathSuperscriptElement : IMathElement
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathsuperscriptelement/asimathelement) { get; } | Temel IMathElement arayüzünü almaya izin verir [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathsuperscriptelement/asimathelement) { get; } | Temel IMathElement arayüzünü [`IMathElement`](../imathelement) elde etmeye izin verir |
 | [Base](../../aspose.slides.mathtext/imathsuperscriptelement/base) { get; } | Temel argüman |
-| [Superscript](../../aspose.slides.mathtext/imathsuperscriptelement/superscript) { get; } | Üstsimge |
+| [Superscript](../../aspose.slides.mathtext/imathsuperscriptelement/superscript) { get; } | Üst simge |
 
 ### Örnekler
 
 Örnek:
+
 ```csharp
 [C#]
 IMathSuperscriptElement superscriptElement = new MathematicalText("N").SetSuperscript("i");
 ```
 
-### Bakınız
+### Ayrıca Bakınız
 
 * arayüz [IMathElement](../imathelement)
 * ad alanı [Aspose.Slides.MathText](../../aspose.slides.mathtext)

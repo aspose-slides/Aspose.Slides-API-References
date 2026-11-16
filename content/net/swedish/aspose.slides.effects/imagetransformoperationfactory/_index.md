@@ -3,7 +3,7 @@ title: ImageTransformOperationFactory
 second_title: Aspose.Sildes för .NET API-referens
 description: Tillåter att skapa bildtransformeringsoperationer
 type: docs
-weight: 3590
+weight: 3610
 url: /sv/aspose.slides.effects/imagetransformoperationfactory/
 ---
 ## ImageTransformOperationFactory klass
@@ -14,13 +14,13 @@ Tillåter att skapa bildtransformeringsoperationer
 public class ImageTransformOperationFactory : IImageTransformOperationFactory
 ```
 
-## Konstruktörer
+## Constructors
 
 | Namn | Beskrivning |
 | --- | --- |
-| [ImageTransformOperationFactory](imagetransformoperationfactory)() | Standardkonstruktören. |
+| [ImageTransformOperationFactory](imagetransformoperationfactory)() | Standardkonstruktorn. |
 
-## Metoder
+## Methods
 
 | Namn | Beskrivning |
 | --- | --- |

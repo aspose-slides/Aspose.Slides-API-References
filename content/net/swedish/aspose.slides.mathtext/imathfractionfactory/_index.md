@@ -3,7 +3,7 @@ title: IMathFractionFactory
 second_title: Aspose.Sildes för .NET API-referens
 description: Tillåter att skapa ett matematiskt bråk
 type: docs
-weight: 8260
+weight: 8280
 url: /sv/aspose.slides.mathtext/imathfractionfactory/
 ---
 ## IMathFractionFactory gränssnitt
@@ -25,7 +25,7 @@ public interface IMathFractionFactory
 
 För COM-kompatibilitet
 
-### Se också
+### Se även
 
 * namnrymd [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * samling [Aspose.Slides](../../)

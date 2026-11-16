@@ -1,14 +1,14 @@
 ---
 title: LayoutSlideThemeManager
-second_title: Aspose.Sildes per il riferimento API .NET
-description: Fornisce l'accesso al tema della diapositiva di layout sovrascritto.
+second_title: Aspose.Sildes per .NET Riferimento API
+description: Fornisce l'accesso al tema della diapositiva layout sovrascritto.
 type: docs
-weight: 11410
+weight: 11430
 url: /it/aspose.slides.theme/layoutslidethememanager/
 ---
 ## LayoutSlideThemeManager classe
 
-Fornisce l'accesso al tema della diapositiva di layout sovrascritto.
+Fornisce l'accesso al tema della diapositiva layout sovrascritto.
 
 ```csharp
 public class LayoutSlideThemeManager : BaseOverrideThemeManager
@@ -18,7 +18,7 @@ public class LayoutSlideThemeManager : BaseOverrideThemeManager
 
 | Nome | Descrizione |
 | --- | --- |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Determina se OverrideTheme sovrascrive il tema efficace ereditato o meno. Per abilitare OverrideTheme per la sovrascrittura usare i metodi OverrideTheme.Init*(). Per disabilitare OverrideTheme dalla sovrascrittura usare il metodo OverrideTheme.Clear(). Boolean di sola lettura. |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Determina se OverrideTheme sovrascrive o meno il tema efficace ereditato. Per abilitare OverrideTheme alla sovrascrittura, utilizzare i metodi OverrideTheme.Init*(). Per disabilitare OverrideTheme dalla sovrascrittura, utilizzare il metodo OverrideTheme.Clear(). Boolean di sola lettura. |
 | [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Restituisce l'oggetto tema sovrascritto. Lettura/scrittura [`IOverrideTheme`](../ioverridetheme). |
 
 ## Metodi

@@ -1,14 +1,14 @@
 ---
 title: LightRig
 second_title: Aspose.Sildes pro .NET API Reference
-description: Zastupuje LightRig.
+description: Reprezentuje LightRig.
 type: docs
-weight: 7690
+weight: 7710
 url: /cs/aspose.slides/lightrig/
 ---
 ## LightRig třída
 
-Zastupuje LightRig.
+Represents LightRig.
 
 ```csharp
 public sealed class LightRig : PVIObject, ILightRig
@@ -19,17 +19,17 @@ public sealed class LightRig : PVIObject, ILightRig
 | Název | Popis |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Umožňuje získat základní rozhraní IPresentationComponent. Pouze pro čtení [`IPresentationComponent`](../ipresentationcomponent). |
-| [Direction](../../aspose.slides/lightrig/direction) { get; set; } | Směr světla. Čtení/Zápis [`LightingDirection`](../lightingdirection). |
-| [LightType](../../aspose.slides/lightrig/lighttype) { get; set; } | Zastupuje přednastavený světelný směr, který lze aplikovat na tvar. Light rig představuje skupinu světel orientovaných specifickým způsobem vzhledem k 3D scéně. Čtení/Zápis [`LightRigPresetType`](../lightrigpresettype). |
+| [Direction](../../aspose.slides/lightrig/direction) { get; set; } | Směr světla. Čtení/zápis [`LightingDirection`](../lightingdirection). |
+| [LightType](../../aspose.slides/lightrig/lighttype) { get; set; } | Representuje přednastavené světlo, které lze použít na tvar. Světelný systém představuje skupinu světel orientovaných specifickým způsobem vzhledem k 3D scéně. Čtení/zápis [`LightRigPresetType`](../lightrigpresettype). |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | Porovnává s určeným objektem. |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | Porovná s určeným objektem. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Vrací hash kód. |
-| [GetRotation](../../aspose.slides/lightrig/getrotation)() | Rotace je definována pomocí souřadnice šířky, souřadnice délky a otočení kolem osy jako souřadnice šířky a délky. První prvek vráceného pole – šířka, druhý – délka, třetí – otočení. Vrací null, pokud není definována žádná rotace. |
-| [SetRotation](../../aspose.slides/lightrig/setrotation)(float, float, float) | Rotace je definována pomocí souřadnice šířky, souřadnice délky a otočení kolem osy jako souřadnice šířky a délky. Pokud je některá hodnota souřadnice float.NaN, je celá rotace nedefinovaná. |
+| [GetRotation](../../aspose.slides/lightrig/getrotation)() | Rotace je definována pomocí souřadnice zeměpisné šířky, souřadnice zeměpisné délky a otáčení kolem osy jako zeměpisné šířky a délky. první prvek v návratovém poli – zeměpisná šířka, druhý – zeměpisná délka, třetí – otáčení. Vrací null, pokud není žádná rotace definována. |
+| [SetRotation](../../aspose.slides/lightrig/setrotation)(float, float, float) | Rotace je definována pomocí souřadnice zeměpisné šířky, souřadnice zeměpisné délky a otáčení kolem osy jako zeměpisné šířky a délky. Pokud je některá hodnota souřadnice float.NaN, je celá rotace nedefinována. |
 
 ### Viz také
 

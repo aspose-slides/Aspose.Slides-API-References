@@ -1,20 +1,20 @@
 ---
 title: ReplaceFont
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 프레젠테이션에서 글꼴을 교체합니다
+second_title: Aspose.Sildes for .NET API 참조
+description: 프레젠테이션의 글꼴을 교체합니다
 type: docs
-weight: 100
+weight: 110
 url: /ko/aspose.slides/fontsmanager/replacefont/
 ---
 ## ReplaceFont(IFontData, IFontData) {#replacefont}
 
-프레젠테이션에서 글꼴 교체
+프레젠테이션의 글꼴을 교체합니다
 
 ```csharp
 public void ReplaceFont(IFontData sourceFont, IFontData destFont)
 ```
 
-| 매개변수 | 유형 | 설명 |
+| 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
 | sourceFont | IFontData | 원본 글꼴 |
 | destFont | IFontData | 대상 글꼴 |
@@ -28,15 +28,15 @@ public void ReplaceFont(IFontData sourceFont, IFontData destFont)
 
 ---
 
-## ReplaceFont(IFontSubstRule) {#replacefont_1}
+## ReplaceFont(IFontSubstRule) {#replacefont_1}}
 
-제공된 정보를 사용하여 프레젠테이션에서 글꼴을 교체합니다 [`FontSubstRule`](../../fontsubstrule)
+[`FontSubstRule`](../../fontsubstrule)에 제공된 정보를 사용하여 프레젠테이션의 글꼴을 교체합니다
 
 ```csharp
 public void ReplaceFont(IFontSubstRule substRule)
 ```
 
-| 매개변수 | 유형 | 설명 |
+| 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
 | substRule | IFontSubstRule | 글꼴 대체 정보 |
 
@@ -49,15 +49,15 @@ public void ReplaceFont(IFontSubstRule substRule)
 
 ---
 
-## ReplaceFont(IFontSubstRuleCollection) {#replacefont_2}
+## ReplaceFont(IFontSubstRuleCollection) {#replacefont_2}}
 
-컬렉션 [`FontSubstRule`](../../fontsubstrule)에서 제공된 정보를 사용하여 프레젠테이션에서 글꼴을 교체합니다
+[`FontSubstRule`](../../fontsubstrule) 컬렉션에 제공된 정보를 사용하여 프레젠테이션의 글꼴을 교체합니다
 
 ```csharp
 public void ReplaceFont(IFontSubstRuleCollection substRules)
 ```
 
-| 매개변수 | 유형 | 설명 |
+| 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
 | substRules | IFontSubstRuleCollection | 글꼴 대체 규칙 컬렉션 |
 

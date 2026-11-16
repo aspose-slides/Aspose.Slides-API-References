@@ -1,14 +1,14 @@
 ---
 title: IGradientStopEffectiveData
-second_title: Aspose.Sildes для .NET справки API
-description: неизменяемый объект, представляющий градиентную остановку.
+second_title: Aspose.Sildes для .NET API Reference
+description: неизменяемый объект, представляющий градиентный стоп.
 type: docs
-weight: 6050
+weight: 6070
 url: /ru/aspose.slides/igradientstopeffectivedata/
 ---
 ## IGradientStopEffectiveData интерфейс
 
-неизменяемый объект, представляющий градиентную остановку.
+неизменяемый объект, представляющий градиентный стоп.
 
 ```csharp
 public interface IGradientStopEffectiveData
@@ -18,8 +18,8 @@ public interface IGradientStopEffectiveData
 
 | Имя | Описание |
 | --- | --- |
-| [Color](../../aspose.slides/igradientstopeffectivedata/color) { get; } | Возвращает цвет градиентной остановки. Только для чтения Color. |
-| [Position](../../aspose.slides/igradientstopeffectivedata/position) { get; } | Возвращает положение (0..1) градиентной остановки. Только для чтения Single. |
+| [Color](../../aspose.slides/igradientstopeffectivedata/color) { get; } | Возвращает цвет градиентного стопа. Толькo для чтения Color. |
+| [Position](../../aspose.slides/igradientstopeffectivedata/position) { get; } | Возвращает позицию (0..1) градиентного стопа. Толькo для чтения Single. |
 
 ### Смотрите также
 

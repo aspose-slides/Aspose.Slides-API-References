@@ -1,14 +1,14 @@
 ---
 title: IChartPlotArea
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar diagramtitelens egenskaper.
+description: Representerar diagramtitelns egenskaper.
 type: docs
-weight: 1910
+weight: 1930
 url: /sv/aspose.slides.charts/ichartplotarea/
 ---
 ## IChartPlotArea gränssnitt
 
-Representerar diagramtitelens egenskaper.
+Representerar diagramtitelns egenskaper.
 
 ```csharp
 public interface IChartPlotArea : IActualLayout, ILayoutable
@@ -16,12 +16,12 @@ public interface IChartPlotArea : IActualLayout, ILayoutable
 
 ## Egenskaper
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
-| [AsIActualLayout](../../aspose.slides.charts/ichartplotarea/asiactuallayout) { get; } | Returnerar IActualLayout gränssnitt. |
-| [AsILayoutable](../../aspose.slides.charts/ichartplotarea/asilayoutable) { get; } | Tillåter att hämta bas-ILayoutable gränssnitt. Skrivskyddad [`ILayoutable`](../ilayoutable). |
+| [AsIActualLayout](../../aspose.slides.charts/ichartplotarea/asiactuallayout) { get; } | Returnerar IActualLayout interface. |
+| [AsILayoutable](../../aspose.slides.charts/ichartplotarea/asilayoutable) { get; } | Tillåter att hämta basal ILayoutable interface. Skrivskyddad [`ILayoutable`](../ilayoutable). |
 | [Format](../../aspose.slides.charts/ichartplotarea/format) { get; } | Returnerar formatet för ett plotområde. Skrivskyddad [`IFormat`](../iformat). |
-| [LayoutTargetType](../../aspose.slides.charts/ichartplotarea/layouttargettype) { get; set; } | Om layouten för plotområdet har definierats manuellt specificerar denna egenskap om plotområdet ska layoutas efter dess insida (exklusive axlar och axelrubriker) eller utsida (inklusive axlar och axelrubriker). Läs/skriv [`LayoutTargetType`](./layouttargettype). |
+| [LayoutTargetType](../../aspose.slides.charts/ichartplotarea/layouttargettype) { get; set; } | Om layouten för plotområdet definierats manuellt anger denna egenskap om plotområdet ska layas ut av dess insida (exklusive axlar och axelrubriker) eller utsida (inklusive axlar och axelrubriker). Läs/skriv [`LayoutTargetType`](./layouttargettype). |
 
 ### Se även
 

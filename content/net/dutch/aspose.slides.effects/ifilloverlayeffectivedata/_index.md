@@ -1,14 +1,14 @@
 ---
 title: IFillOverlayEffectiveData
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Onveranderlijk object dat een Fill Overlay effect vertegenwoordigt. Een fill overlay kan worden gebruikt om een extra vulling voor een object te specificeren en de twee vullingen samen te mengen.
+description: Onveranderlijk object dat een Fill Overlay-effect vertegenwoordigt. Een fill overlay kan worden gebruikt om een extra vulling voor een object op te geven en de twee vullingen te mengen.
 type: docs
-weight: 3310
+weight: 3330
 url: /nl/aspose.slides.effects/ifilloverlayeffectivedata/
 ---
 ## IFillOverlayEffectiveData interface
 
-Onveranderlijk object dat een Fill Overlay effect vertegenwoordigt. Een fill overlay kan worden gebruikt om een extra vulling voor een object te specificeren en de twee vullingen samen te mengen.
+Onveranderlijk object dat een Fill Overlay-effect vertegenwoordigt. Een fill overlay kan worden gebruikt om een extra vulling voor een object op te geven en de twee vullingen te mengen.
 
 ```csharp
 public interface IFillOverlayEffectiveData : IEffectEffectiveData
@@ -18,9 +18,9 @@ public interface IFillOverlayEffectiveData : IEffectEffectiveData
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ifilloverlayeffectivedata/asieffecteffectivedata) { get; } | Staat toe om de base IEffectEffectiveData interface op te halen. Alleen-lezen [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ifilloverlayeffectivedata/asieffecteffectivedata) { get; } | Maakt het mogelijk om de basis-IEffectEffectiveData-interface op te halen. Alleen-lezen [`IEffectEffectiveData`](../ieffecteffectivedata). |
 | [Blend](../../aspose.slides.effects/ifilloverlayeffectivedata/blend) { get; } | FillBlendMode. Alleen-lezen [`FillBlendMode`](../../aspose.slides/fillblendmode). |
-| [FillFormat](../../aspose.slides.effects/ifilloverlayeffectivedata/fillformat) { get; } | Vulopmaak. Alleen-lezen [`IFillFormatEffectiveData`](../../aspose.slides/ifillformateffectivedata). |
+| [FillFormat](../../aspose.slides.effects/ifilloverlayeffectivedata/fillformat) { get; } | Fill-formaat. Alleen-lezen [`IFillFormatEffectiveData`](../../aspose.slides/ifillformateffectivedata). |
 
 ### Zie ook
 

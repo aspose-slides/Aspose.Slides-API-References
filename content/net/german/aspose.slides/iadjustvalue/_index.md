@@ -1,9 +1,9 @@
 ---
 title: IAdjustValue
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt einen Anpassungswert einer geometrischen Form dar. Diese Werte beeinflussen die Form der Formen.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Stellt einen Anpassungswert für geometrische Formen dar. Diese Werte beeinflussen die Form der Formen.
 type: docs
-weight: 5180
+weight: 5200
 url: /de/aspose.slides/iadjustvalue/
 ---
 ## IAdjustValue Schnittstelle
@@ -18,10 +18,10 @@ public interface IAdjustValue
 
 | Name | Beschreibung |
 | --- | --- |
-| [AngleValue](../../aspose.slides/iadjustvalue/anglevalue) { get; set; } | Gibt den Wert zurück oder setzt ihn und interpretiert ihn als Winkel in Grad. Lese/Schreib Single. |
-| [Name](../../aspose.slides/iadjustvalue/name) { get; } | Gibt den Namen dieses Anpassungswerts zurück. Nur-Lesen String. |
-| [RawValue](../../aspose.slides/iadjustvalue/rawvalue) { get; set; } | Gibt den Anpassungswert „wie er ist“ zurück oder setzt ihn. Lese/Schreib Int64. |
-| [Type](../../aspose.slides/iadjustvalue/type) { get; } | Gibt den Typ der Formanpassung zurück. Nur-Lesen [`ShapeAdjustmentType`](../shapeadjustmenttype). |
+| [AngleValue](../../aspose.slides/iadjustvalue/anglevalue) { get; set; } | Gibt den Wert zurück oder legt ihn fest, interpretiert ihn als Winkel in Grad. Lesen/Schreiben Single. |
+| [Name](../../aspose.slides/iadjustvalue/name) { get; } | Gibt den Namen dieses Anpassungswertes zurück. Nur lesbar String. |
+| [RawValue](../../aspose.slides/iadjustvalue/rawvalue) { get; set; } | Gibt den Anpassungswert „wie er ist“ zurück oder legt ihn fest. Lesen/Schreiben Int64. |
+| [Type](../../aspose.slides/iadjustvalue/type) { get; } | Gibt den Typ der Formanpassung zurück. Nur lesbar [`ShapeAdjustmentType`](../shapeadjustmenttype). |
 
 ### Siehe auch
 

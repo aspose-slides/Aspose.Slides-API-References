@@ -1,14 +1,14 @@
 ---
 title: ZoomLayout
-second_title: Aspose.Sildes para .NET Referencia de API
-description: Especifica la disposición de zoom del resumen.
+second_title: Referencia de API de Aspose.Sildes para .NET
+description: Especifica el diseño de zoom de resumen.
 type: docs
-weight: 11860
+weight: 11880
 url: /es/aspose.slides/zoomlayout/
 ---
-## Enumeración ZoomLayout
+## enumeración ZoomLayout
 
-Especifica la disposición de zoom del resumen.
+Especifica el diseño de zoom de resumen.
 
 ```csharp
 public enum ZoomLayout
@@ -18,8 +18,8 @@ public enum ZoomLayout
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| GridLayout | `0` | Especifica la disposición como una disposición de cuadrícula para una lista de objetos. |
-| FixedLayout | `1` | Especifica la disposición con posicionamiento Zoom definido por el usuario. |
+| GridLayout | `0` | Especifica el diseño como un diseño de cuadrícula para una lista de objetos. |
+| FixedLayout | `1` | Especifica el diseño con posicionamiento de Zoom definido por el usuario. |
 
 ### Ver también
 

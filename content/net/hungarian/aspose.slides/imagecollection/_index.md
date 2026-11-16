@@ -1,14 +1,14 @@
 ---
 title: ImageCollection
 second_title: Aspose.Sildes .NET API referencia
-description: PPImage gyűjteményét reprezentálja.
+description: PPImage gyűjteményt képviseli.
 type: docs
-weight: 7420
+weight: 7440
 url: /hu/aspose.slides/imagecollection/
 ---
 ## ImageCollection osztály
 
-A PPImage gyűjteményét reprezentálja.
+PPImage gyűjteményét képviseli.
 
 ```csharp
 public sealed class ImageCollection : DomObject<Presentation>, IImageCollection
@@ -18,24 +18,24 @@ public sealed class ImageCollection : DomObject<Presentation>, IImageCollection
 
 | Név | Leírás |
 | --- | --- |
-| [Count](../../aspose.slides/imagecollection/count) { get; } | Visszaadja a gyűjteményben lévő képek számát. Csak olvasható Int32. |
-| [IsSynchronized](../../aspose.slides/imagecollection/issynchronized) { get; } | Visszaad egy értéket, amely jelzi, hogy a gyűjteményhez való hozzáférés szinkronizált-e (szálbiztos). Csak olvasható Boolean. |
-| [Item](../../aspose.slides/imagecollection/item) { get; } | Megkapja a megadott indexű elemet. Csak olvasható [`IPPImage`](../ippimage). |
-| [SyncRoot](../../aspose.slides/imagecollection/syncroot) { get; } | Visszaad egy szinkronizációs gyökeret. Csak olvasható Object. |
+| [Count](../../aspose.slides/imagecollection/count) { get; } | Visszaadja a gyűjteményben lévő képek számát. Írásvédett Int32. |
+| [IsSynchronized](../../aspose.slides/imagecollection/issynchronized) { get; } | Visszaad egy értéket, amely jelzi, hogy a gyűjteményhez való hozzáférés szinkronizált (szálbiztos). Írásvédett Boolean. |
+| [Item](../../aspose.slides/imagecollection/item) { get; } | A megadott indexű elemet adja vissza. Írásvédett [`IPPImage`](../ippimage). |
+| [SyncRoot](../../aspose.slides/imagecollection/syncroot) { get; } | Visszaad egy szinkronizációs gyökérobjektumot. Írásvédett Object. |
 
-## Módszerek
+## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_3)(byte[]) | Képet ad hozzá a prezentációhoz a megadott pufferből. |
-| [AddImage](../../aspose.slides/imagecollection/addimage#addimage)(IImage) | Képet ad hozzá a prezentációhoz. |
-| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_1)(IPPImage) | Képmásolatot ad hozzá egy másik prezentációból. |
-| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_2)(ISvgImage) | Képet ad hozzá a prezentációhoz egy Svg objektumból. |
-| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_4)(MemoryStream) | Képet ad hozzá a prezentációhoz egy folyamatról. |
-| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_5)(Stream) | Képet ad hozzá a prezentációhoz egy folyamatról. |
-| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_6)(Stream, LoadingStreamBehavior) | Létrehoz és hozzáad egy képet a prezentációhoz egy folyamatról. |
-| [CopyTo](../../aspose.slides/imagecollection/copyto)(Array, int) | Átmásolja a gyűjtemény összes elemét a megadott tömbbe. |
-| [GetEnumerator](../../aspose.slides/imagecollection/getenumerator)() | Visszaad egy enumerátort, amely végigjárja a gyűjteményt. |
+| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_3)(byte[]) | Képet ad hozzá a bemutatóhoz a megadott pufferból. |
+| [AddImage](../../aspose.slides/imagecollection/addimage#addimage)(IImage) | Képet ad hozzá a bemutatóhoz. |
+| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_1)(IPPImage) | Képmásolatot ad hozzá egy másik bemutatóból. |
+| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_2)(ISvgImage) | Képet ad hozzá a bemutatóhoz egy Svg objektumból. |
+| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_4)(MemoryStream) | Képet ad hozzá a bemutatóhoz adatfolyamból. |
+| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_5)(Stream) | Képet ad hozzá a bemutatóhoz adatfolyamból. |
+| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_6)(Stream, LoadingStreamBehavior) | Létrehoz és hozzáad egy képet a bemutatóhoz adatfolyamból. |
+| [CopyTo](../../aspose.slides/imagecollection/copyto)(Array, int) | Az összes elemet átmásolja a gyűjteményből a megadott tömbbe. |
+| [GetEnumerator](../../aspose.slides/imagecollection/getenumerator)() | Visszaad egy enumerátort, amely bejárja a gyűjteményt. |
 
 ### Lásd még
 

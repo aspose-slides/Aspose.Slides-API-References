@@ -1,14 +1,14 @@
 ---
 title: IsVisible
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: False หมายความว่าป้ายข้อมูลไม่แสดงโดยค่าเริ่มต้นและดังนั้นแฟล็ก Show-flags ShowValue ... ของคุณสมบัติ DefaultDataLabelFormat จะเป็น false. Boolean แบบอ่านอย่างเดียว.
+second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
+description: False หมายความว่าป้ายข้อมูลไม่แสดงโดยค่าเริ่มต้นและดังนั้น Show-flags ShowValue ... ของคุณสมบัติ DefaultDataLabelFormat จะเป็น false. Read-only Boolean.
 type: docs
-weight: 50
+weight: 60
 url: /th/aspose.slides.charts/datalabelcollection/isvisible/
 ---
-## DataLabelCollection.IsVisible คุณสมบัติ
+## คุณสมบัติ DataLabelCollection.IsVisible
 
-False หมายความว่า label ของข้อมูลจะไม่แสดงโดยค่าเริ่มต้น (และดังนั้นแฟล็ก Show*-ทั้งหมด (ShowValue, ...) ของคุณสมบัติ DefaultDataLabelFormat จะเป็น false). Boolean แบบอ่านอย่างเดียว.
+False หมายความว่าป้ายข้อมูลไม่แสดงโดยค่าเริ่มต้น (และดังนั้น Show*-flags ทั้งหมด (ShowValue, ...) ของคุณสมบัติ DefaultDataLabelFormat จะเป็น false) อ่านอย่างเดียว Boolean.
 
 ```csharp
 public bool IsVisible { get; }
@@ -16,7 +16,7 @@ public bool IsVisible { get; }
 
 ### หมายเหตุ
 
-หาก label ของข้อมูลแสดงโดยค่าเริ่มต้นคุณสามารถทำให้มันซ่อนโดยค่าเริ่มต้นด้วยเมธอด Hide() แต่หาก label ของข้อมูลไม่แสดงโดยค่าเริ่มต้น (IsVisible คือ false) คุณสามารถทำให้ label ของข้อมูล "แสดงโดยค่าเริ่มต้น" ได้โดยตั้งค่าแฟล็ก Show*-flags (ShowValue, ...) ของคุณสมบัติ DefaultDataLabelFormat ให้เป็นสถานะ true.
+หากป้ายข้อมูลแสดงโดยค่าเริ่มต้น คุณสามารถทำให้มันซ่อนโดยค่าเริ่มต้นด้วยเมธอด Hide(). แต่หากป้ายข้อมูลไม่แสดงโดยค่าเริ่มต้น (IsVisible เป็น false) คุณสามารถทำให้ป้ายข้อมูล "แสดงโดยค่าเริ่มต้น" โดยตั้งค่า Show*-flags (ShowValue, ...) ของคุณสมบัติ DefaultDataLabelFormat ให้เป็นสถานะ true.
 
 ### ดูเพิ่มเติม
 

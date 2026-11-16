@@ -1,14 +1,14 @@
 ---
 title: IExtraColorSchemeCollection
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili koleksi skema warna tambahan.
+description: Mewakili sekumpulan skema warna tambahan.
 type: docs
-weight: 11220
+weight: 11240
 url: /id/aspose.slides.theme/iextracolorschemecollection/
 ---
 ## IExtraColorSchemeCollection antarmuka
 
-Mewakili koleksi skema warna tambahan.
+Mewakili kumpulan skema warna tambahan.
 
 ```csharp
 public interface IExtraColorSchemeCollection : IGenericCollection<IExtraColorScheme>
@@ -18,7 +18,7 @@ public interface IExtraColorSchemeCollection : IGenericCollection<IExtraColorSch
 
 | Nama | Deskripsi |
 | --- | --- |
-| [Item](../../aspose.slides.theme/iextracolorschemecollection/item) { get; } | Mengembalikan skema warna berdasarkan indeks. Hanya-baca [`IExtraColorScheme`](../iextracolorscheme). |
+| [Item](../../aspose.slides.theme/iextracolorschemecollection/item) { get; } | Mengembalikan skema warna berdasarkan indeks. hanya-baca [`IExtraColorScheme`](../iextracolorscheme). |
 
 ### Lihat Juga
 

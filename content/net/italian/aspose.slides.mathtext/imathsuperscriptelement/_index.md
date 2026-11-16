@@ -1,14 +1,14 @@
 ---
 title: IMathSuperscriptElement
-second_title: Riferimento API di Aspose.Sildes per .NET
-description: Specifica l'oggetto apice, che consiste in una base e un apice di dimensioni ridotte posizionato sopra e a destra
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Specifica l'oggetto apice che è costituito da una base e un apice di dimensioni ridotte posizionato sopra e a destra
 type: docs
-weight: 8490
+weight: 8510
 url: /it/aspose.slides.mathtext/imathsuperscriptelement/
 ---
-## Interfaccia IMathSuperscriptElement
+## IMathSuperscriptElement interfaccia
 
-Specifica l'oggetto apice, che è composto da una base e un apice di dimensioni ridotte posizionato sopra e a destra
+Specifica l'oggetto apice, che è costituito da una base e un apice di dimensioni ridotte posizionato sopra e a destra
 
 ```csharp
 public interface IMathSuperscriptElement : IMathElement

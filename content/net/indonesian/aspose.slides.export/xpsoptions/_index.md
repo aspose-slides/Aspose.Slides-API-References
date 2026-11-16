@@ -3,7 +3,7 @@ title: XpsOptions
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Menyediakan opsi yang mengontrol bagaimana presentasi disimpan dalam format XPS.
 type: docs
-weight: 4730
+weight: 4750
 url: /id/aspose.slides.export/xpsoptions/
 ---
 ## XpsOptions kelas
@@ -24,13 +24,13 @@ public class XpsOptions : SaveOptions, IXpsOptions
 
 | Nama | Deskripsi |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Mengembalikan atau mengatur font yang digunakan jika font sumber tidak ditemukan. Baca-tulis String. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Mengembalikan atau mengatur font yang digunakan bila font sumber tidak ditemukan. Baca-tulis String. |
 | [DrawSlidesFrame](../../aspose.slides.export/xpsoptions/drawslidesframe) { get; set; } | True untuk menggambar bingkai hitam di sekitar setiap slide. Baca/tulis Boolean. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Mengembalikan atau mengatur gaya visual dari gradien. Baca/tulis [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Mewakili objek callback untuk menyimpan pembaruan kemajuan dalam persentase. Lihat [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Mengembalikan atau mengatur gaya visual gradien. Baca/tulis [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Mewakili objek callback untuk memperbarui kemajuan penyimpanan dalam persentase. Lihat [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
 | [SaveMetafilesAsPng](../../aspose.slides.export/xpsoptions/savemetafilesaspng) { get; set; } | True untuk mengonversi semua metafile yang digunakan dalam presentasi menjadi gambar PNG. Baca/tulis Boolean. |
-| [ShowHiddenSlides](../../aspose.slides.export/xpsoptions/showhiddenslides) { get; set; } | Menentukan apakah dokumen yang dihasilkan harus menyertakan slide tersembunyi atau tidak. Nilai default adalah `false`. |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Menentukan apakah akan melewatkan hyperlink dengan panggilan JavaScript saat menyimpan presentasi. Baca/tulis Boolean. Nilai default adalah **false**. |
+| [ShowHiddenSlides](../../aspose.slides.export/xpsoptions/showhiddenslides) { get; set; } | Menentukan apakah dokumen yang dihasilkan harus menyertakan slide tersembunyi atau tidak. Defaultnya `false`. |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Menentukan apakah harus melewati hyperlink dengan panggilan JavaScript saat menyimpan presentasi. Baca/tulis Boolean. Nilai defaultnya **false**. |
 | [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Mengembalikan atau mengatur objek yang menerima peringatan dan memutuskan apakah proses pemuatan akan dilanjutkan atau dibatalkan. Baca/tulis [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Contoh
@@ -39,7 +39,7 @@ Contoh berikut menunjukkan cara mengonversi presentasi ke XPS menggunakan pengat
 
 ```csharp
 [C#]
-// Instansiasi objek Presentation yang mewakili file presentasi
+// Membuat objek Presentation yang mewakili file presentasi
 using (Presentation pres = new Presentation("Convert_XPS.pptx"))
 {
     // Menyimpan presentasi ke dokumen XPS
@@ -51,10 +51,10 @@ Contoh berikut menunjukkan cara mengonversi presentasi ke XPS menggunakan pengat
 
 ```csharp
 [C#]
-// Instansiasi objek Presentation yang mewakili file presentasi
+// Membuat objek Presentation yang mewakili file presentasi
 using (Presentation pres = new Presentation("Convert_XPS_Options.pptx"))
 {
-    // Instansiasi kelas TiffOptions
+    // Membuat instance kelas TiffOptions
     XpsOptions options = new XpsOptions();
     // Simpan MetaFiles sebagai PNG
     options.SaveMetafilesAsPng = true;

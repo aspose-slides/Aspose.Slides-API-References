@@ -3,7 +3,7 @@ title: ParentSeries
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Haalt de bovenliggende reeks op. Alleen-lezen IChartSeriesaspose.slides.charts/ichartseries.
 type: docs
-weight: 80
+weight: 90
 url: /nl/aspose.slides.charts/datalabelcollection/parentseries/
 ---
 ## DataLabelCollection.ParentSeries eigenschap

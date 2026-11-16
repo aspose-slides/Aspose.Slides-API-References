@@ -3,7 +3,7 @@ title: IMathRadicalFactory
 second_title: Aspose.Sildes .NET API 参考
 description: 允许创建数学根式
 type: docs
-weight: 8440
+weight: 8460
 url: /zh/aspose.slides.mathtext/imathradicalfactory/
 ---
 ## IMathRadicalFactory 接口

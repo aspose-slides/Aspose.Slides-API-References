@@ -1,14 +1,14 @@
 ---
 title: ILineParamSource
-second_title: Tham chiếu API .NET của Aspose.Sildes
-description: Giao diện các tham số đường phụ trợ.
+second_title: Aspose.Sildes cho Tham chiếu API .NET
+description: Giao diện tham số dòng phụ trợ.
 type: docs
-weight: 6330
+weight: 6350
 url: /vi/aspose.slides/ilineparamsource/
 ---
 ## ILineParamSource giao diện
 
-Giao diện các tham số đường phụ trợ.
+Giao diện tham số dòng phụ trợ.
 
 ```csharp
 public interface ILineParamSource

@@ -1,14 +1,14 @@
 ---
 title: ILuminanceEffectiveData
-second_title: Aspose.Sildes 的 .NET API 参考
-description: 表示 Luminance 效果。Brightness 线性地将所有颜色向白色或黑色偏移。Contrast 按比例缩放所有颜色，使它们更接近或更远离。
+second_title: Aspose.Sildes .NET API 参考
+description: 表示一个 Luminance 效果。Brightness 线性地将所有颜色向更接近白色或黑色的方向偏移。Contrast 将所有颜色进行缩放，使它们更接近或更远离。
 type: docs
-weight: 3450
+weight: 3470
 url: /zh/aspose.slides.effects/iluminanceeffectivedata/
 ---
 ## ILuminanceEffectiveData 接口
 
-表示 Luminance 效果。Brightness 线性地将所有颜色向白色或黑色偏移。Contrast 按比例缩放所有颜色，使它们更接近或更远离。
+表示一个 Luminance 效果。Brightness 线性地将所有颜色更接近白色或黑色。Contrast 将所有颜色缩放，使它们更接近或更远离。
 
 ```csharp
 public interface ILuminanceEffectiveData : IEffectEffectiveData

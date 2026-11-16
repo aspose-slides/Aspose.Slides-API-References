@@ -3,7 +3,7 @@ title: IBulkTextFormattable
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Stelt een object voor met de mogelijkheid om de opmaak van onderliggende tekstelementen in bulk in te stellen.
 type: docs
-weight: 5380
+weight: 5400
 url: /nl/aspose.slides/ibulktextformattable/
 ---
 ## IBulkTextFormattable interface
@@ -18,9 +18,9 @@ public interface IBulkTextFormattable
 
 | Naam | Beschrijving |
 | --- | --- |
-| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat)(IParagraphFormat) | Stelt de gedefinieerde alinea-opmaak-eigenschappen in voor alle alinea's van het element. |
-| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat_1)(IPortionFormat) | Stelt de gedefinieerde gedeelte-opmaak-eigenschappen in voor alle gedeelten van het element. |
-| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat_2)(ITextFrameFormat) | Stelt de gedefinieerde tekstvak-opmaak-eigenschappen in voor alle tekstframes van het element. |
+| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat)(IParagraphFormat) | Stelt de gedefinieerde alinea-opmaak eigenschappen in voor alle alinea's van het element. |
+| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat_1)(IPortionFormat) | Stelt de gedefinieerde deel-opmaak eigenschappen in voor alle delen van het element. |
+| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat_2)(ITextFrameFormat) | Stelt de gedefinieerde tekstframe-opmaak eigenschappen in voor alle tekstframes van het element. |
 
 ### Zie ook
 

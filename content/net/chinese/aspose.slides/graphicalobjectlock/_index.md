@@ -1,9 +1,9 @@
 ---
 title: GraphicalObjectLock
 second_title: Aspose.Sildes for .NET API 参考
-description: 确定父 GraphicalObject 上哪些操作被禁用。
+description: 确定在父 GraphicalObject 上禁用的操作。
 type: docs
-weight: 5080
+weight: 5100
 url: /zh/aspose.slides/graphicalobjectlock/
 ---
 ## GraphicalObjectLock 类
@@ -16,17 +16,17 @@ public class GraphicalObjectLock : BaseShapeLock, IGraphicalObjectLock
 
 ## 属性
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
-| [AspectRatioLocked](../../aspose.slides/graphicalobjectlock/aspectratiolocked) { get; set; } | 确定在调整大小时形状是否必须保持纵横比。读写 Boolean。 |
-| [DrilldownLocked](../../aspose.slides/graphicalobjectlock/drilldownlocked) { get; set; } | 确定是否禁止选择此对象的子形状。读写 Boolean。 |
-| [GroupingLocked](../../aspose.slides/graphicalobjectlock/groupinglocked) { get; set; } | 确定是否禁止将此形状添加到组中。读写 Boolean。 |
-| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | 如果所有锁标志均被禁用则返回 true。只读 Boolean。 |
-| [PositionLocked](../../aspose.slides/graphicalobjectlock/positionlocked) { get; set; } | 确定是否禁止移动此形状。读写 Boolean。 |
-| [SelectLocked](../../aspose.slides/graphicalobjectlock/selectlocked) { get; set; } | 确定是否禁止选择此形状。读写 Boolean。 |
-| [SizeLocked](../../aspose.slides/graphicalobjectlock/sizelocked) { get; set; } | 确定是否禁止调整此形状的大小。读写 Boolean。 |
+| [AspectRatioLocked](../../aspose.slides/graphicalobjectlock/aspectratiolocked) { get; set; } | 确定在调整大小时形状是否必须保持纵横比。读/写 Boolean. |
+| [DrilldownLocked](../../aspose.slides/graphicalobjectlock/drilldownlocked) { get; set; } | 确定是否禁止选择此对象的子形状。读/写 Boolean. |
+| [GroupingLocked](../../aspose.slides/graphicalobjectlock/groupinglocked) { get; set; } | 确定是否禁止将此形状添加到组中。读/写 Boolean. |
+| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | 如果所有锁标志均被禁用，则返回 true。只读 Boolean. |
+| [PositionLocked](../../aspose.slides/graphicalobjectlock/positionlocked) { get; set; } | 确定是否禁止移动此形状。读/写 Boolean. |
+| [SelectLocked](../../aspose.slides/graphicalobjectlock/selectlocked) { get; set; } | 确定是否禁止选择此形状。读/写 Boolean. |
+| [SizeLocked](../../aspose.slides/graphicalobjectlock/sizelocked) { get; set; } | 确定是否禁止调整此形状的大小。读/写 Boolean. |
 
-### 另见
+### 另请参阅
 
 * 类 [BaseShapeLock](../baseshapelock)
 * 接口 [IGraphicalObjectLock](../igraphicalobjectlock)

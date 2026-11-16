@@ -1,9 +1,9 @@
 ---
 title: GradientDirection
-second_title: مرجع API Aspose.Sildes لـ .NET
+second_title: Aspose.Sildes لـ .NET مرجع API
 description: يمثل نمط التدرج.
 type: docs
-weight: 4990
+weight: 5010
 url: /ar/aspose.slides/gradientdirection/
 ---
 ## GradientDirection تعداد
@@ -19,8 +19,8 @@ public enum GradientDirection
 | الاسم | القيمة | الوصف |
 | --- | --- | --- |
 | NotDefined | `-1` | غير معرف |
-| FromCorner1 | `0` | من الزاوية العلوية اليسرى |
-| FromCorner2 | `1` | من الزاوية العلوية اليمنى |
+| FromCorner1 | `0` | من الزاوية العليا اليسرى |
+| FromCorner2 | `1` | من الزاوية العليا اليمنى |
 | FromCorner3 | `2` | من الزاوية السفلية اليسرى |
 | FromCorner4 | `3` | من الزاوية السفلية اليمنى |
 | FromCenter | `4` | من المركز |

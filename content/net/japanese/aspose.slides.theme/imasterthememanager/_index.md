@@ -3,7 +3,7 @@ title: IMasterThemeManager
 second_title: Aspose.Sildes for .NET API リファレンス
 description: プレゼンテーションのマスターテーマへのアクセスを提供します。
 type: docs
-weight: 11320
+weight: 11340
 url: /ja/aspose.slides.theme/imasterthememanager/
 ---
 ## IMasterThemeManager インターフェイス
@@ -18,9 +18,9 @@ public interface IMasterThemeManager : IThemeManager
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIThemeManager](../../aspose.slides.theme/imasterthememanager/asithememanager) { get; } | ベースの IThemeManager インターフェイスを取得できます。読み取り専用 [`IThemeManager`](../ithememanager)。 |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/imasterthememanager/isoverridethemeenabled) { get; set; } | OverrideTheme が継承された有効なテーマ (Presentation.MasterTheme) を上書きするかどうかを決定します。読み取り/書き込み Boolean。 |
-| [OverrideTheme](../../aspose.slides.theme/imasterthememanager/overridetheme) { get; set; } | 上書きされたテーマ オブジェクトを返します。読み取り/書き込み [`IMasterTheme`](../imastertheme)。 |
+| [AsIThemeManager](../../aspose.slides.theme/imasterthememanager/asithememanager) { get; } | 基本 IThemeManager インターフェイスを取得できます。 読み取り専用 [`IThemeManager`](../ithememanager)。 |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/imasterthememanager/isoverridethemeenabled) { get; set; } | OverrideTheme が継承された有効テーマ (Presentation.MasterTheme) を上書きするかどうかを決定します。 読み書き Boolean。 |
+| [OverrideTheme](../../aspose.slides.theme/imasterthememanager/overridetheme) { get; set; } | 上書きテーマオブジェクトを返します。 読み書き [`IMasterTheme`](../imastertheme)。 |
 
 ### 参照
 

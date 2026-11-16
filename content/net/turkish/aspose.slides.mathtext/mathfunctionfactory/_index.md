@@ -1,14 +1,14 @@
 ---
 title: MathFunctionFactory
-second_title: Aspose.Sildes for .NET API Referansı
-description: Matematik fonksiyonu oluşturulmasına izin verir
+second_title: Aspose.Slides for .NET API Referansı
+description: Matematik fonksiyonu oluşturmayı sağlar
 type: docs
-weight: 8730
+weight: 8750
 url: /tr/aspose.slides.mathtext/mathfunctionfactory/
 ---
-## MathFunctionFactory sınıfı
+## MathFunctionFactory sınıf
 
-Matematik fonksiyonu oluşturulmasına izin verir
+Matematik fonksiyonu oluşturmayı sağlar
 
 ```csharp
 public class MathFunctionFactory : IMathFunctionFactory
@@ -31,7 +31,7 @@ public class MathFunctionFactory : IMathFunctionFactory
 
 COM uyumluluğu için
 
-### Bakınız
+### Ayrıca Bakınız
 
 * arayüz [IMathFunctionFactory](../imathfunctionfactory)
 * ad alanı [Aspose.Slides.MathText](../../aspose.slides.mathtext)

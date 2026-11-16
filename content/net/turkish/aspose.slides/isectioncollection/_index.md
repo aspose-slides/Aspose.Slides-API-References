@@ -3,7 +3,7 @@ title: ISectionCollection
 second_title: Aspose.Sildes için .NET API Referansı
 description: Bölümlerin bir koleksiyonunu temsil eder.
 type: docs
-weight: 6900
+weight: 6920
 url: /tr/aspose.slides/isectioncollection/
 ---
 ## ISectionCollection arayüzü
@@ -18,19 +18,19 @@ public interface ISectionCollection : IGenericCollection<ISection>
 
 | Ad | Açıklama |
 | --- | --- |
-| [Item](../../aspose.slides/isectioncollection/item) { get; } | Belirtilen dizindeki öğeyi alır. Salt okunur [`ISection`](../isection). |
+| [Item](../../aspose.slides/isectioncollection/item) { get; } | Belirtilen indeksteki öğeyi alır. Salt okunur [`ISection`](../isection). |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [AddEmptySection](../../aspose.slides/isectioncollection/addemptysection)(string, int) | Koleksiyonun belirtilen konumuna boş bir bölüm ekler. |
-| [AddSection](../../aspose.slides/isectioncollection/addsection)(string, ISlide) | Belirli bir slayttan başlayan yeni bir bölüm ekler. |
-| [AppendEmptySection](../../aspose.slides/isectioncollection/appendemptysection)(string) | Koleksiyonun sonuna boş bir bölüm ekler. |
+| [AddEmptySection](../../aspose.slides/isectioncollection/addemptysection)(string, int) | Koleksiyonun belirtilen konumuna boş bölüm ekler. |
+| [AddSection](../../aspose.slides/isectioncollection/addsection)(string, ISlide) | Belirli bir slayttan başlayan yeni bölümü ekler. |
+| [AppendEmptySection](../../aspose.slides/isectioncollection/appendemptysection)(string) | Koleksiyonun sonuna boş bölüm ekler. |
 | [Clear](../../aspose.slides/isectioncollection/clear)() | Koleksiyondaki tüm bölümleri kaldırır. |
-| [IndexOf](../../aspose.slides/isectioncollection/indexof)(ISection) | Koleksiyondaki belirtilen bölümün dizinini döndürür. |
+| [IndexOf](../../aspose.slides/isectioncollection/indexof)(ISection) | Koleksiyondaki belirtilen bölümün indeksini döndürür. |
 | [RemoveSection](../../aspose.slides/isectioncollection/removesection)(ISection) | Bölümü kaldırır. Bölümdeki slaytlar önceki bölüme birleştirilecektir. |
-| [RemoveSectionWithSlides](../../aspose.slides/isectioncollection/removesectionwithslides)(ISection) | Bölümü ve bölümdeki slaytları kaldırır. |
+| [RemoveSectionWithSlides](../../aspose.slides/isectioncollection/removesectionwithslides)(ISection) | Bölümü ve içinde bulunan slaytları kaldırır. |
 | [ReorderSectionWithSlides](../../aspose.slides/isectioncollection/reordersectionwithslides)(ISection, int) | Bölümü ve slaytlarını koleksiyondan belirtilen konuma taşır. |
 
 ### Ayrıca Bakınız

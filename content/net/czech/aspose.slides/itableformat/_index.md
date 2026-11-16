@@ -1,14 +1,14 @@
 ---
 title: ITableFormat
-second_title: Aspose.Sildes pro .NET API Referenci
-description: Představuje formát tabulky.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Reprezentuje formát tabulky.
 type: docs
-weight: 7240
+weight: 7260
 url: /cs/aspose.slides/itableformat/
 ---
 ## ITableFormat rozhraní
 
-Představuje formát tabulky.
+Reprezentuje formát tabulky.
 
 ```csharp
 public interface ITableFormat
@@ -19,13 +19,13 @@ public interface ITableFormat
 | Název | Popis |
 | --- | --- |
 | [FillFormat](../../aspose.slides/itableformat/fillformat) { get; } | Vrací objekt vlastností výplně tabulky. Pouze pro čtení [`IFillFormat`](../ifillformat). |
-| [Transparency](../../aspose.slides/itableformat/transparency) { get; set; } | Získává nebo nastavuje průhlednost barvy výplně. Čtení/Zápis Single. |
+| [Transparency](../../aspose.slides/itableformat/transparency) { get; set; } | Získá nebo nastaví průhlednost barvy výplně. Čtení/zápis Single. |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| [GetEffective](../../aspose.slides/itableformat/geteffective)() | Získává efektivní vlastnosti formátování tabulky s aplikovaným děděním a styly tabulky. |
+| [GetEffective](../../aspose.slides/itableformat/geteffective)() | Získá efektivní vlastnosti formátování tabulky s aplikovaným děděním a styly tabulky. |
 
 ### Viz také
 

@@ -1,14 +1,14 @@
 ---
 title: AlphaModulate
 second_title: Aspose.Sildes for .NET API 참조
-description: Alpha Modulate 효과를 나타냅니다. 효과 알파(불투명도) 값은 고정 비율로 곱해집니다. 효과 컨테이너는 알파 값을 변조하는 효과를 지정합니다.
+description: Alpha Modulate 효과를 나타냅니다. 효과 알파 불투명도 값은 고정 비율로 곱해집니다. 효과 컨테이너는 조정할 알파 값을 포함하는 효과를 지정합니다.
 type: docs
-weight: 2880
+weight: 2900
 url: /ko/aspose.slides.effects/alphamodulate/
 ---
 ## AlphaModulate 클래스
 
-Alpha Modulate 효과를 나타냅니다. 효과 알파(불투명도) 값은 고정 비율로 곱해집니다. 효과 컨테이너는 알파 값을 변조하는 효과를 지정합니다.
+Alpha Modulate 효과를 나타냅니다. 효과 알파(불투명도) 값은 고정 비율로 곱해집니다. 효과 컨테이너는 조정할 알파 값을 포함하는 효과를 지정합니다.
 
 ```csharp
 public sealed class AlphaModulate : ImageTransformOperation, IAlphaModulate
@@ -16,19 +16,19 @@ public sealed class AlphaModulate : ImageTransformOperation, IAlphaModulate
 
 ## 속성
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 기본 IPresentationComponent 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## 메서드
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/alphamodulate/equals)(object) | 지정된 [`AlphaModulate`](../alphamodulate)가 현재 [`AlphaModulate`](../alphamodulate)와 동일한지 여부를 확인합니다. |
-| [GetEffective](../../aspose.slides.effects/alphamodulate/geteffective)() | 상속이 적용된 효과적인 Alpha Modulate 효과 데이터를 가져옵니다. |
-| override [GetHashCode](../../aspose.slides.effects/alphamodulate/gethashcode)() | 특정 유형에 대한 해시 함수를 제공합니다. |
+| override [Equals](../../aspose.slides.effects/alphamodulate/equals)(object) | 지정된 [`AlphaModulate`](../alphamodulate)이 현재 [`AlphaModulate`](../alphamodulate)와 같은지 확인합니다. |
+| [GetEffective](../../aspose.slides.effects/alphamodulate/geteffective)() | 상속이 적용된 효율적인 Alpha Modulate 효과 데이터를 가져옵니다. |
+| override [GetHashCode](../../aspose.slides.effects/alphamodulate/gethashcode)() | 특정 유형에 대한 해시 함수 역할을 합니다. |
 
-### 관련 항목
+### 참조
 
 * 클래스 [ImageTransformOperation](../imagetransformoperation)
 * 인터페이스 [IAlphaModulate](../ialphamodulate)

@@ -1,14 +1,14 @@
 ---
 title: IMathPortion
 second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Reprezentuje fragment z kontekstem matematycznym wewnątrz.
+description: Reprezentuje część z kontekstem matematycznym wewnątrz.
 type: docs
-weight: 8420
+weight: 8440
 url: /pl/aspose.slides.mathtext/imathportion/
 ---
 ## IMathPortion interfejs
 
-Reprezentuje fragment z kontekstem matematycznym wewnątrz.
+Reprezentuje część z kontekstem matematycznym wewnątrz.
 
 ```csharp
 public interface IMathPortion

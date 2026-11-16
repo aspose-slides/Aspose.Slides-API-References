@@ -1,14 +1,14 @@
 ---
 title: IAlphaInverseEffectiveData
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: อ็อบเจกต์ที่ไม่เปลี่ยนแปลงซึ่งแสดงถึงเอฟเฟกต์ Alpha Inverse. ค่าความทึบของ Alpha ถูกกลับโดยการลบจาก 100.
+second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
+description: อ็อบเจกต์ที่ไม่สามารถแก้ไขได้ซึ่งแสดงถึงเอฟเฟ็กต์ Alpha Inverse. ค่า Alpha ความทึบจะถูกกลับโดยการลบจาก 100.
 type: docs
-weight: 3090
+weight: 3110
 url: /th/aspose.slides.effects/ialphainverseeffectivedata/
 ---
 ## IAlphaInverseEffectiveData อินเทอร์เฟซ
 
-อ็อบเจกต์ที่ไม่เปลี่ยนแปลงซึ่งแสดงถึงเอฟเฟกต์ Alpha Inverse. ค่าของ Alpha (ความทึบ) ถูกกลับโดยการลบจาก 100%.
+วัตถุที่ไม่สามารถเปลี่ยนแปลงได้ซึ่งแสดงถึงผล Alpha Inverse. ค่า Alpha (ความทึบ) จะถูกกลับโดยการลบจาก 100%.
 
 ```csharp
 public interface IAlphaInverseEffectiveData : IEffectEffectiveData
@@ -18,7 +18,7 @@ public interface IAlphaInverseEffectiveData : IEffectEffectiveData
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphainverseeffectivedata/asieffecteffectivedata) { get; } | อนุญาตให้ดึงอินเตอร์เฟซ IEffectEffectiveData พื้นฐานได้. อ่านอย่างเดียว [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphainverseeffectivedata/asieffecteffectivedata) { get; } | อนุญาตให้รับค่าอินเทอร์เฟซ IEffectEffectiveData พื้นฐาน. อ่านอย่างเดียว [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
 ### ดูเพิ่มเติม
 

@@ -1,14 +1,14 @@
 ---
 title: MathLimitLocations
 second_title: Aspose.Sildes .NET API 参考
-description: 在 n 元运算符中限制（下标/上标）的位置。
+description: n 元运算符中上下限（下标/上标）的位置。
 type: docs
-weight: 8840
+weight: 8860
 url: /zh/aspose.slides.mathtext/mathlimitlocations/
 ---
 ## MathLimitLocations 枚举
 
-在 n 元运算符中限制（下标/上标）的位置。
+n 元运算符中上下限（下标/上标）的位置。
 
 ```csharp
 public enum MathLimitLocations
@@ -22,7 +22,7 @@ public enum MathLimitLocations
 | UnderOver | `1` | 限制绘制在运算符符号的顶部和底部 |
 | SubscriptSuperscript | `2` | 限制绘制为下标和上标 |
 
-### 另请参见
+### 另见
 
 * 命名空间 [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * 程序集 [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: Section
-second_title: Aspose.Sildes per .NET Riferimento API
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta una sezione di diapositive.
 type: docs
-weight: 9750
+weight: 9770
 url: /it/aspose.slides/section/
 ---
-## Classe Sezione
+## Section classe
 
-Rappresenta una sezione di diapositive.
+Rappresenta la sezione di diapositive.
 
 ```csharp
 public class Section : DomObject<SectionCollection>, ISection
@@ -19,7 +19,7 @@ public class Section : DomObject<SectionCollection>, ISection
 | Nome | Descrizione |
 | --- | --- |
 | [Name](../../aspose.slides/section/name) { get; set; } | Nome della sezione. |
-| [SectionId](../../aspose.slides/section/sectionid) { get; } | ID della sezione. |
+| [SectionId](../../aspose.slides/section/sectionid) { get; } | Id della sezione. |
 | [StartedFromSlide](../../aspose.slides/section/startedfromslide) { get; } | Restituisce la prima diapositiva della sezione. |
 
 ## Metodi

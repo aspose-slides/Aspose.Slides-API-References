@@ -3,7 +3,7 @@ title: ForEach.ForEachParagraphCallback
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Callback yang akan dipanggil untuk setiap Paragraph./foreach/paragraph pada BaseSlide../aspose.slides/baseslide.
 type: docs
-weight: 7930
+weight: 7950
 url: /id/aspose.slides.lowcode/foreach.foreachparagraphcallback/
 ---
 ## ForEach.ForEachParagraphCallback delegate
@@ -16,9 +16,9 @@ public delegate void ForEachParagraphCallback(Paragraph para, BaseSlide slide, i
 
 | Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| para | Paragraph | Paragraf yang sedang diiterasi saat ini |
-| slide | BaseSlide | Slide yang sedang diiterasi saat ini |
-| index | Int32 | Indeks paragraf saat ini pada slide |
+| para | Paragraph | Paragraf yang sedang diiterasi |
+| slide | BaseSlide | Slide yang sedang diiterasi |
+| index | Int32 | Indeks paragraf yang sedang diiterasi pada slide |
 
 ### Lihat Juga
 

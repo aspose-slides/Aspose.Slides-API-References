@@ -1,14 +1,14 @@
 ---
 title: INotesSlide
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta una diapositiva delle note in una presentazione.
+second_title: Riferimento API di Aspose.Sildes per .NET
+description: Rappresenta una diapositiva di note in una presentazione.
 type: docs
-weight: 6500
+weight: 6520
 url: /it/aspose.slides/inotesslide/
 ---
-## interfaccia INotesSlide
+## INotesSlide interfaccia
 
-Rappresenta una diapositiva delle note in una presentazione.
+Rappresenta una diapositiva di note in una presentazione.
 
 ```csharp
 public interface INotesSlide : IBaseSlide, IOverrideThemeable
@@ -16,13 +16,13 @@ public interface INotesSlide : IBaseSlide, IOverrideThemeable
 
 ## Proprietà
 
-| Name | Description |
+| Nome | Descrizione |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/inotesslide/asibaseslide) { get; } | Consente di ottenere l'interfaccia base IBaseSlide. Sola lettura [`IBaseSlide`](../ibaseslide). |
-| [AsIOverrideThemeable](../../aspose.slides/inotesslide/asioverridethemeable) { get; } | Restituisce l'interfaccia IOverrideThemeable. Sola lettura [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
-| [HeaderFooterManager](../../aspose.slides/inotesslide/headerfootermanager) { get; } | Restituisce il gestore HeaderFooter della diapositiva delle note. Sola lettura [`INotesSlideHeaderFooterManager`](../inotesslideheaderfootermanager). |
-| [NotesTextFrame](../../aspose.slides/inotesslide/notestextframe) { get; } | Restituisce un TextFrame con il testo delle note, se presente. Sola lettura [`ITextFrame`](../itextframe). |
-| [ParentSlide](../../aspose.slides/inotesslide/parentslide) { get; } | Restituisce una ParentSlide. Sola lettura [`ISlide`](../islide). |
+| [AsIBaseSlide](../../aspose.slides/inotesslide/asibaseslide) { get; } | Consente di ottenere l'interfaccia base IBaseSlide. Solo lettura [`IBaseSlide`](../ibaseslide). |
+| [AsIOverrideThemeable](../../aspose.slides/inotesslide/asioverridethemeable) { get; } | Restituisce l'interfaccia IOverrideThemeable. Solo lettura [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
+| [HeaderFooterManager](../../aspose.slides/inotesslide/headerfootermanager) { get; } | Restituisce il manager HeaderFooter della diapositiva di note. Solo lettura [`INotesSlideHeaderFooterManager`](../inotesslideheaderfootermanager). |
+| [NotesTextFrame](../../aspose.slides/inotesslide/notestextframe) { get; } | Restituisce un TextFrame con il testo delle note, se presente. Solo lettura [`ITextFrame`](../itextframe). |
+| [ParentSlide](../../aspose.slides/inotesslide/parentslide) { get; } | Restituisce un ParentSlide. Solo lettura [`ISlide`](../islide). |
 
 ### Vedi anche
 

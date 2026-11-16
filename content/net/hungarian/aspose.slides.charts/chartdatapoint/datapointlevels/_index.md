@@ -1,14 +1,14 @@
 ---
 title: DataPointLevels
-second_title: Aspose.Sildes a .NET API hivatkozáshoz
-description: Visszaadja az adatpont szintek tárolóját. Alkalmazható Treeamp és Sunburst sorozatokra. Az adatpont szintek indexelése nulla alapú.
+second_title: Aspose.Sildes a .NET API referenciához
+description: Visszaadja az adatpont szintek tárolóját. Alkalmazva a Treeamp és a Sunburst sorozatokra. Az adatpont szintek indexelése nulla alapú.
 type: docs
-weight: 70
+weight: 110
 url: /hu/aspose.slides.charts/chartdatapoint/datapointlevels/
 ---
 ## ChartDataPoint.DataPointLevels tulajdonság
 
-Visszaadja az adatpont szintek tárolóját. Alkalmazható Treeamp és Sunburst sorozatokra. Az adatpont szintek indexelése nulláról kezdődik.
+Visszaadja az adatpont szintek tárolóját. Alkalmazva a Treeamp és a Sunburst sorozatokra. Az adatpont szintek indexelése nulla alapú.
 
 ```csharp
 public IChartDataPointLevelsManager DataPointLevels { get; }

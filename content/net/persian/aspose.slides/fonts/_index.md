@@ -1,9 +1,9 @@
 ---
 title: Fonts
-second_title: مرجع API Aspose.Sildes برای .NET
-description: مجموعه فونت‌ها.
+second_title: Aspose.Sildes برای .NET مرجع API
+description: مجموعه Fonts.
 type: docs
-weight: 4920
+weight: 4940
 url: /fa/aspose.slides/fonts/
 ---
 ## کلاس Fonts
@@ -16,20 +16,20 @@ public class Fonts : IFonts
 
 ## ویژگی‌ها
 
-| نام | توضیحات |
+| نام | توضیح |
 | --- | --- |
-| [ComplexScriptFont](../../aspose.slides/fonts/complexscriptfont) { get; set; } | فونت اسکریپت پیچیده را برمی‌گرداند یا تنظیم می‌کند. خواندن/نوشتن [`IFontData`](../ifontdata). |
-| [EastAsianFont](../../aspose.slides/fonts/eastasianfont) { get; set; } | فونت شرق آسیا را برمی‌گرداند یا تنظیم می‌کند. خواندن/نوشتن [`IFontData`](../ifontdata). |
-| [LatinFont](../../aspose.slides/fonts/latinfont) { get; set; } | فونت لاتین را برمی‌گرداند یا تنظیم می‌کند. خواندن/نوشتن [`IFontData`](../ifontdata). |
+| [ComplexScriptFont](../../aspose.slides/fonts/complexscriptfont) { get; set; } | قلم اسکریپت پیچیده را برمی‌گرداند یا تنظیم می‌کند. خواندنی/نوشتنی [`IFontData`](../ifontdata). |
+| [EastAsianFont](../../aspose.slides/fonts/eastasianfont) { get; set; } | قلم شرق آسیا را برمی‌گرداند یا تنظیم می‌کند. خواندنی/نوشتنی [`IFontData`](../ifontdata). |
+| [LatinFont](../../aspose.slides/fonts/latinfont) { get; set; } | قلم لاتین را برمی‌گرداند یا تنظیم می‌کند. خواندنی/نوشتنی [`IFontData`](../ifontdata). |
 
 ## متدها
 
-| نام | توضیحات |
+| نام | توضیح |
 | --- | --- |
-| [GetScriptFont](../../aspose.slides/fonts/getscriptfont)(string) | نام فونت مرتبط با برچسب اسکریپت خاصی را از تم ارائه دریافت می‌کند. |
-| [GetScriptFontMap](../../aspose.slides/fonts/getscriptfontmap)() | یک دیکشنری شامل تمام تعریف‌های فونت اسکریپت در ارائه برمی‌گرداند. |
-| [RemoveScriptFont](../../aspose.slides/fonts/removescriptfont)(string) | تنظیمات فونت مرتبط با برچسب اسکریپت خاصی را از مجموعه فونت‌های تم حذف می‌کند. |
-| [SetScriptFont](../../aspose.slides/fonts/setscriptfont)(string, string) | نام فونتی را به یک برچسب اسکریپت خاص اختصاص می‌دهد که تعیین می‌کند متن آن اسکریپت چگونه در ارائه نمایش داده شود. |
+| [GetScriptFont](../../aspose.slides/fonts/getscriptfont)(string) | نام قلم مرتبط با یک برچسب اسکریپت خاص را از تم ارائه دریافت می‌کند. |
+| [GetScriptFontMap](../../aspose.slides/fonts/getscriptfontmap)() | یک دیکشنری از تمام تعاریف قلم اسکریپت در ارائه را برمی‌گرداند. |
+| [RemoveScriptFont](../../aspose.slides/fonts/removescriptfont)(string) | تنظیم قلم مرتبط با یک برچسب اسکریپت خاص را از مجموعه قلم‌های تم حذف می‌کند. |
+| [SetScriptFont](../../aspose.slides/fonts/setscriptfont)(string, string) | نام قلمی را به یک برچسب اسکریپت خاص اختصاص می‌دهد که تعیین می‌کند متن آن اسکریپت در ارائه چگونه رندر شود. |
 
 ### موارد مرتبط
 

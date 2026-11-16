@@ -1,14 +1,14 @@
 ---
 title: PieSplitType
-second_title: Aspose.Sildes pro .NET referenční příručka API
-description: Representuje typ rozdělovacích bodů ve druhém výsečí nebo sloupci v grafu typu koláč-ve-koláči nebo sloupec-ve-koláči.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Representuje typ rozdělovacích bodů ve druhém výsečí nebo sloupci v grafu typu koláč-v-koláči nebo sloupec-v-koláči.
 type: docs
-weight: 2380
+weight: 2400
 url: /cs/aspose.slides.charts/piesplittype/
 ---
-## Výčet PieSplitType
+## PieSplitType výčet
 
-Representuje typ rozdělovacích bodů ve druhém výsečí nebo sloupci v grafu typu koláč-ve-koláči nebo sloupec-ve-koláči.
+Representuje typ rozdělovacích bodů ve druhém výsečí nebo sloupci v grafu typu koláč-v-koláči nebo sloupec-v-koláči.
 
 ```csharp
 public enum PieSplitType
@@ -20,9 +20,9 @@ public enum PieSplitType
 | --- | --- | --- |
 | Default | `0` | Určuje, že datové body budou rozděleny pomocí výchozího mechanismu pro tento typ grafu. |
 | Custom | `1` | Určuje, že datové body budou rozděleny mezi výseč a druhý graf podle hodnot Custom Split. |
-| ByPercentage | `2` | Určuje, že datové body budou rozděleny mezi výseč a druhý graf tak, že body s procentem menším než Split Position procent budou umístěny do druhého grafu. |
-| ByPos | `3` | Určuje, že datové body budou rozděleny mezi výseč a druhý graf umístěním poslední hodnoty Split Position datových bodů do druhého grafu. |
-| ByValue | `4` | Určuje, že datové body budou rozděleny mezi výseč a druhý graf umístěním datových bodů s hodnotou menší než Split Position do druhého grafu. |
+| ByPercentage | `2` | Určuje, že datové body budou rozděleny mezi výseč a druhý graf tak, že body s procentem menším než Split Position procent v druhém grafu. |
+| ByPos | `3` | Určuje, že datové body budou rozděleny mezi výseč a druhý graf tak, že poslední Split Position datových bodů bude umístěn do druhého grafu. |
+| ByValue | `4` | Určuje, že datové body budou rozděleny mezi výseč a druhý graf tak, že datové body s hodnotou menší než Split Position budou umístěny do druhého grafu. |
 
 ### Viz také
 

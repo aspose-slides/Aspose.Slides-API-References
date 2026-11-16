@@ -1,14 +1,14 @@
 ---
 title: Images
 second_title: Aspose.Sildes for .NET API 参考
-description: 用于实例化和操作 IImage./iimage 的方法。
+description: 用于实例化并使用 IImage./iimage 的方法。
 type: docs
-weight: 7460
+weight: 7480
 url: /zh/aspose.slides/images/
 ---
 ## Images 类
 
-用于实例化和操作 [`IImage`](../iimage) 的方法。
+实例化并使用 [`IImage`](../iimage) 的方法。
 
 ```csharp
 public static class Images
@@ -24,7 +24,7 @@ public static class Images
 | static [FromStream](../../aspose.slides/images/fromstream#fromstream_1)(Stream, bool) | 从流创建图像。 |
 | static [FromStream](../../aspose.slides/images/fromstream#fromstream_2)(Stream, bool, bool) | 从流创建图像。 |
 
-### 参见
+### 另请参见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

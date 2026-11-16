@@ -1,14 +1,14 @@
 ---
 title: Video
 second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Représente une image intégrée dans une présentation.
+description: Représente une image incorporée dans une présentation.
 type: docs
-weight: 11700
+weight: 11720
 url: /fr/aspose.slides/video/
 ---
 ## Video classe
 
-Représente une image intégrée dans une présentation.
+Représente une image incorporée dans une présentation.
 
 ```csharp
 public class Video : IVideo
@@ -19,13 +19,13 @@ public class Video : IVideo
 | Nom | Description |
 | --- | --- |
 | [BinaryData](../../aspose.slides/video/binarydata) { get; } | Renvoie une copie des données audio. En cas de grande quantité de données, envisagez d'utiliser la méthode [`GetStream`](./getstream) pour éviter le chargement inutile des données vidéo en mémoire ou même une OutOfMemoryException. Lecture seule Byte[]. |
-| [ContentType](../../aspose.slides/video/contenttype) { get; } | Renvoie le type MIME d'une vidéo, encodé dans [`BinaryData`](./binarydata). Lecture seule String. |
+| [ContentType](../../aspose.slides/video/contenttype) { get; } | Renvoie le type MIME d'une vidéo, encodé en [`BinaryData`](./binarydata). Lecture seule String. |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
-| [GetStream](../../aspose.slides/video/getstream)() | Renvoie un flux Stream pour la lecture. Utilisez 'using' ou fermez stream après utilisation. |
+| [GetStream](../../aspose.slides/video/getstream)() | Renvoie un flux Stream pour la lecture. Utilisez 'using' ou fermez le flux après utilisation. |
 
 ### Voir aussi
 

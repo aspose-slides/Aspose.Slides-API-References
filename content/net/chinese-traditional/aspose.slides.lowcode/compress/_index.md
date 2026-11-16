@@ -3,7 +3,7 @@ title: Compress
 second_title: Aspose.Sildes for .NET API 參考
 description: 表示一組旨在壓縮 Presentation../aspose.slides/presentation 的方法。
 type: docs
-weight: 7870
+weight: 7890
 url: /zh-hant/aspose.slides.lowcode/compress/
 ---
 ## Compress 類別
@@ -18,9 +18,11 @@ public static class Compress
 
 | 名稱 | 說明 |
 | --- | --- |
-| static [CompressEmbeddedFonts](../../aspose.slides.lowcode/compress/compressembeddedfonts)(Presentation) | 透過移除嵌入字型中未使用的字元，壓縮 [`Presentation`](../../aspose.slides/presentation)。 |
-| static [RemoveUnusedLayoutSlides](../../aspose.slides.lowcode/compress/removeunusedlayoutslides)(Presentation) | 透過移除未使用的版面投影片，壓縮 [`Presentation`](../../aspose.slides/presentation)。 |
-| static [RemoveUnusedMasterSlides](../../aspose.slides.lowcode/compress/removeunusedmasterslides)(Presentation) | 透過移除未使用的母片投影片，壓縮 [`Presentation`](../../aspose.slides/presentation)。 |
+| static [CompressEmbeddedFonts](../../aspose.slides.lowcode/compress/compressembeddedfonts)(Presentation) | 透過移除嵌入字型中未使用的字元，以壓縮 [`Presentation`](../../aspose.slides/presentation)。 |
+| static [CompressImages](../../aspose.slides.lowcode/compress/compressimages)(IPresentation, PicturesCompression) | 降低簡報中圖片的解析度並刪除其裁切區域，類似於 PowerPoint 的「Compress Pictures」功能，套用於所有圖片。會處理投影片、版面投影片以及母片投影片上的圖片，包括群組圖形內的圖片和圖形的圖片填充。 |
+| static [CompressPresentation](../../aspose.slides.lowcode/compress/compresspresentation)(Presentation) | 透過套用所有可用的壓縮步驟來減少簡報的大小： |
+| static [RemoveUnusedLayoutSlides](../../aspose.slides.lowcode/compress/removeunusedlayoutslides)(Presentation) | 透過移除未使用的版面投影片，以壓縮 [`Presentation`](../../aspose.slides/presentation)。 |
+| static [RemoveUnusedMasterSlides](../../aspose.slides.lowcode/compress/removeunusedmasterslides)(Presentation) | 透過移除未使用的母片投影片，以壓縮 [`Presentation`](../../aspose.slides/presentation)。 |
 
 ### 範例
 

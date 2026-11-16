@@ -1,14 +1,14 @@
 ---
 title: IHtml5Options
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt Optionen für den HTML5-Export dar.
+description: Stellt Optionen für den HTML5-Export bereit.
 type: docs
-weight: 3930
+weight: 3950
 url: /de/aspose.slides.export/ihtml5options/
 ---
 ## IHtml5Options Schnittstelle
 
-Stellt Optionen für den HTML5-Export dar.
+Stellt Optionen für den HTML5-Export bereit.
 
 ```csharp
 public interface IHtml5Options : ISaveOptions
@@ -18,14 +18,14 @@ public interface IHtml5Options : ISaveOptions
 
 | Name | Beschreibung |
 | --- | --- |
-| [AnimateShapes](../../aspose.slides.export/ihtml5options/animateshapes) { get; set; } | Liefert oder setzt die Shapes-Animationsoption. Lese/Schreib Boolean. |
-| [AnimateTransitions](../../aspose.slides.export/ihtml5options/animatetransitions) { get; set; } | Liefert oder setzt die Transitions-Animationsoption. Lese/Schreib Boolean. |
-| [AsISaveOptions](../../aspose.slides.export/ihtml5options/asisaveoptions) { get; } | Gibt die ISaveOptions-Schnittstelle zurück. Nur lesend [`ISaveOptions`](../isaveoptions). |
-| [DisableFontLigatures](../../aspose.slides.export/ihtml5options/disablefontligatures) { get; set; } | Gibt an oder setzt einen Wert, der bestimmt, ob Text ohne Ligaturen gerendert wird. Wenn auf `true` gesetzt, werden Ligaturen im gerenderten Output deaktiviert. Standardmäßig ist diese Eigenschaft auf `false` gesetzt. |
-| [EmbedImages](../../aspose.slides.export/ihtml5options/embedimages) { get; set; } | Liefert oder setzt die Bild-Einbettungsoption. Lese/Schreib Boolean. |
-| [OutputPath](../../aspose.slides.export/ihtml5options/outputpath) { get; set; } | Bestimmt, wo externe Ressourcen gespeichert werden sollen. Lese/Schreib String. |
-| [PicturesCompression](../../aspose.slides.export/ihtml5options/picturescompression) { get; set; } | Stellt das Komprimierungslevel für Bilder dar. Lese/Schreib [`PicturesCompression`](./picturescompression). |
-| [SlidesLayoutOptions](../../aspose.slides.export/ihtml5options/slideslayoutoptions) { get; set; } | Gibt den Modus an oder setzt ihn, in dem Folien beim Export einer Präsentation auf der Seite angeordnet werden [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [AnimateShapes](../../aspose.slides.export/ihtml5options/animateshapes) { get; set; } | Gibt die Animationsoption für Formen zurück oder setzt sie. Lesen/Schreiben Boolean. |
+| [AnimateTransitions](../../aspose.slides.export/ihtml5options/animatetransitions) { get; set; } | Gibt die Animationsoption für Übergänge zurück oder setzt sie. Lesen/Schreiben Boolean. |
+| [AsISaveOptions](../../aspose.slides.export/ihtml5options/asisaveoptions) { get; } | Gibt die ISaveOptions Schnittstelle zurück. Nur lesen [`ISaveOptions`](../isaveoptions). |
+| [DisableFontLigatures](../../aspose.slides.export/ihtml5options/disablefontligatures) { get; set; } | Gibt an, ob Text ohne Ligaturen gerendert wird, oder legt diesen Wert fest. Wenn auf `true` gesetzt, werden Ligaturen in der gerenderten Ausgabe deaktiviert. Standardmäßig ist diese Eigenschaft auf `false` gesetzt. |
+| [EmbedImages](../../aspose.slides.export/ihtml5options/embedimages) { get; set; } | Gibt die Option zum Einbetten von Bildern zurück oder setzt sie. Lesen/Schreiben Boolean. |
+| [OutputPath](../../aspose.slides.export/ihtml5options/outputpath) { get; set; } | Bestimmt, wo externe Ressourcen gespeichert werden sollen. Lesen/Schreiben String. |
+| [PicturesCompression](../../aspose.slides.export/ihtml5options/picturescompression) { get; set; } | Stellt das Kompressionslevel für Bilder dar Lesen/Schreiben [`PicturesCompression`](./picturescompression). |
+| [SlidesLayoutOptions](../../aspose.slides.export/ihtml5options/slideslayoutoptions) { get; set; } | Gibt den Modus zurück, in dem Folien beim Export einer Präsentation [`ISlidesLayoutOptions`](../islideslayoutoptions) auf der Seite platziert werden, oder legt ihn fest. |
 
 ### Beispiele
 

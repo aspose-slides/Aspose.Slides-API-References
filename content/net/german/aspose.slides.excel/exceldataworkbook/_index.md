@@ -1,14 +1,14 @@
 ---
 title: ExcelDataWorkbook
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt eine Arbeitsmappe dar, die Zugriff auf Excel-Daten für die allgemeine Nutzung bietet.
+description: Stellt ein Arbeitsbuch dar, das Zugriff auf Excel-Daten für den allgemeinen Gebrauch bietet.
 type: docs
-weight: 3690
+weight: 3710
 url: /de/aspose.slides.excel/exceldataworkbook/
 ---
 ## ExcelDataWorkbook Klasse
 
-Stellt eine Arbeitsmappe dar, die Zugriff auf Excel-Daten für die allgemeine Nutzung bietet.
+Stellt ein Arbeitsbuch dar, das Zugriff auf Excel-Daten für den allgemeinen Gebrauch bietet.
 
 ```csharp
 public class ExcelDataWorkbook : IExcelDataWorkbook
@@ -16,22 +16,22 @@ public class ExcelDataWorkbook : IExcelDataWorkbook
 
 ## Konstruktoren
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
-| [ExcelDataWorkbook](exceldataworkbook#constructor)(Stream) | Initialisiert eine neue Instanz der Klasse unter Verwendung des bereitgestellten Streams. |
+| [ExcelDataWorkbook](exceldataworkbook#constructor)(Stream) | Initialisiert eine neue Instanz der Klasse mithilfe des bereitgestellten Streams. |
 | [ExcelDataWorkbook](exceldataworkbook#constructor_1)(string) | Initialisiert eine neue Instanz unter Verwendung des angegebenen Dateipfads. |
 
 ## Methoden
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
-| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell_1)(int, string) | Ruft eine Zelle aus dem angegebenen Arbeitsblatt ab, indem ihr Index und der Excel-ähnliche Zellname verwendet werden (z. B. "B2"). |
+| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell_1)(int, string) | Ruft eine Zelle aus dem angegebenen Arbeitsblatt ab, indem ihr Index und ihr Excel-ähnlicher Zellname verwendet werden (z. B. "B2"). |
 | [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell_3)(string, string) | Ruft eine Zelle aus dem angegebenen Arbeitsblatt ab, indem der Excel-ähnliche Zellname verwendet wird (z. B. "B2"). |
 | [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell)(int, int, int) | Ruft eine Zelle aus dem angegebenen Arbeitsblatt ab, indem ihr Index und die Zellkoordinaten verwendet werden. |
 | [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell_2)(string, int, int) | Ruft eine Zelle aus dem angegebenen Arbeitsblatt ab, indem ihr Name und die Zellkoordinaten verwendet werden. |
-| [GetCells](../../aspose.slides.excel/exceldataworkbook/getcells)(string, bool) | Ruft eine Sammlung von Zellen aus der Arbeitsmappe ab, die der angegebenen Formel entsprechen. |
-| [GetChartsFromWorksheet](../../aspose.slides.excel/exceldataworkbook/getchartsfromworksheet)(string) | Ruft ein Wörterbuch ab, das die Indizes und Namen aller Diagramme im angegebenen Arbeitsblatt einer Excel-Arbeitsmappe enthält. |
-| [GetWorksheetNames](../../aspose.slides.excel/exceldataworkbook/getworksheetnames)() | Ruft die Namen aller Arbeitsblätter ab, die in der Excel-Arbeitsmappe enthalten sind. |
+| [GetCells](../../aspose.slides.excel/exceldataworkbook/getcells)(string, bool) | Ruft eine Sammlung von Zellen aus dem Arbeitsbuch ab, die der angegebenen Formel entsprechen. |
+| [GetChartsFromWorksheet](../../aspose.slides.excel/exceldataworkbook/getchartsfromworksheet)(string) | Ruft ein Wörterbuch ab, das die Indizes und Namen aller Diagramme im angegebenen Arbeitsblatt eines Excel-Arbeitsbuchs enthält. |
+| [GetWorksheetNames](../../aspose.slides.excel/exceldataworkbook/getworksheetnames)() | Ruft die Namen aller Arbeitsblätter im Excel-Arbeitsbuch ab. |
 
 ### Siehe auch
 

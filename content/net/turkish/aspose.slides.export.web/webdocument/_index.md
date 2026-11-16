@@ -1,9 +1,9 @@
 ---
 title: WebDocument
 second_title: Aspose.Sildes için .NET API Referansı
-description: Sunumun web formatına kaydedilmesi için geçiş formunu temsil eder.
+description: Sunumu web formatında kaydetmek için bir geçiş formunu temsil eder.
 type: docs
-weight: 4680
+weight: 4700
 url: /tr/aspose.slides.export.web/webdocument/
 ---
 ## WebDocument sınıfı
@@ -16,25 +16,25 @@ public class WebDocument
 
 ## Yapıcılar
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
-| [WebDocument](webdocument)(WebDocumentOptions) | [`WebDocument`](../webdocument) yapılandırıcı. |
+| [WebDocument](webdocument)(WebDocumentOptions) | [`WebDocument`](../webdocument) yapıcı. |
 
 ## Özellikler
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
-| [Global](../../aspose.slides.export.web/webdocument/global) { get; } | Belgenin küresel depolamasını döndürür. Salt okunur [`Storage`](../storage). |
+| [Global](../../aspose.slides.export.web/webdocument/global) { get; } | Belgenin genel depolamasını döndürür. Salt-okunur [`Storage`](../storage). |
 | [Input](../../aspose.slides.export.web/webdocument/input) { get; } |  |
-| [Output](../../aspose.slides.export.web/webdocument/output) { get; } | Belgenin çıktı öğelerinin koleksiyonunu döndürür. Salt okunur [`Output`](./output). |
+| [Output](../../aspose.slides.export.web/webdocument/output) { get; } | Belgenin çıktı öğelerinin koleksiyonunu döndürür. Salt-okunur [`Output`](./output). |
 
 ## Yöntemler
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
-| [Save](../../aspose.slides.export.web/webdocument/save)() | Belgenin çıktısını kaydeder. |
+| [Save](../../aspose.slides.export.web/webdocument/save)() | Belge çıktısını kaydeder. |
 
-### Ayrıca Bakınız
+### Bakınız
 
 * ad alanı [Aspose.Slides.Export.Web](../../aspose.slides.export.web)
 * derleme [Aspose.Slides](../../)

@@ -3,7 +3,7 @@ title: IHyperlinkQueries
 second_title: Aspose.Sildes for .NET API 参考
 description: 提供对包含的超链接的便捷访问。
 type: docs
-weight: 6140
+weight: 6160
 url: /zh/aspose.slides/ihyperlinkqueries/
 ---
 ## IHyperlinkQueries 接口

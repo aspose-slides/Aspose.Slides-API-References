@@ -1,14 +1,14 @@
 ---
 title: IBaseHeaderFooterManager
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt einen Manager dar, der das Verhalten von Fußzeilen-, Datum-Uhrzeit- und Seitenzahl-Platzhaltern für alle Folientypen verwaltet.
+description: Stellt einen Manager dar, der das Verhalten von Fußzeilen-, Datum-Zeit- und Seitenzahl-Platzhaltern für alle Folientypen verwaltet.
 type: docs
-weight: 5300
+weight: 5320
 url: /de/aspose.slides/ibaseheaderfootermanager/
 ---
 ## IBaseHeaderFooterManager Schnittstelle
 
-Stellt einen Manager dar, der das Verhalten von Fußzeilen-, Datum-Uhrzeit- und Seitenzahl-Platzhaltern für alle Folientypen verwaltet.
+Stellt einen Manager dar, der das Verhalten von Fußzeilen-, Datum-Zeit- und Seitenzahl-Platzhaltern für alle Folientypen verwaltet.
 
 ```csharp
 public interface IBaseHeaderFooterManager

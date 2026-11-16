@@ -1,14 +1,14 @@
 ---
 title: IChartTextFormat
-second_title: Aspose.Sildes .NET API 参考
-description: 图表使用受限的一组文本格式属性。IChartTextFormat、IChartTextBlockFormat、IChartParagraphFormat、IChartPortionFormat 接口描述了此受限集合。
+second_title: Aspose.Sildes for .NET API 参考
+description: Chart 使用受限的文本格式属性集合进行操作。IChartTextFormat、IChartTextBlockFormat、IChartParagraphFormat、IChartPortionFormat 接口描述了此受限集合。
 type: docs
-weight: 1990
+weight: 2010
 url: /zh/aspose.slides.charts/icharttextformat/
 ---
 ## IChartTextFormat 接口
 
-图表使用受限的一组文本格式属性。IChartTextFormat、IChartTextBlockFormat、IChartParagraphFormat、IChartPortionFormat 接口描述了此受限集合。
+Chart 使用受限的文本格式属性集合进行操作。IChartTextFormat、IChartTextBlockFormat、IChartParagraphFormat、IChartPortionFormat 接口描述了此受限集合。
 
 ```csharp
 public interface IChartTextFormat
@@ -29,7 +29,7 @@ public interface IChartTextFormat
 | [CopyFrom](../../aspose.slides.charts/icharttextformat/copyfrom)(ITextFrame) | 从指定的文本框复制文本格式。 |
 | [CopyTo](../../aspose.slides.charts/icharttextformat/copyto)(ITextFrame) | 将文本格式复制到指定的文本框。 |
 
-### 另请参阅
+### 另见
 
 * 命名空间 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 程序集 [Aspose.Slides](../../)

@@ -1,12 +1,12 @@
 ---
 title: FillBlendMode
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Determina o modo de mesclagem.
 type: docs
-weight: 4770
+weight: 4790
 url: /pt/aspose.slides/fillblendmode/
 ---
-## FillBlendMode enumeração
+## enumeração FillBlendMode
 
 Determina o modo de mesclagem.
 
@@ -18,11 +18,11 @@ public enum FillBlendMode
 
 | Nome | Valor | Descrição |
 | --- | --- | --- |
-| Darken | `0` | Modo de mesclagem Darken. |
-| Lighten | `1` | Modo de mesclagem Lighten. |
-| Multiply | `2` | Modo de mesclagem Multiply. |
-| Overlay | `3` | Modo de mesclagem Overlay. |
-| Screen | `4` | Modo de mesclagem Screen. |
+| Darken | `0` | Darken modo de mesclagem. |
+| Lighten | `1` | Lighten modo de mesclagem. |
+| Multiply | `2` | Multiply modo de mesclagem. |
+| Overlay | `3` | Overlay modo de mesclagem. |
+| Screen | `4` | Screen modo de mesclagem. |
 
 ### Veja Também
 

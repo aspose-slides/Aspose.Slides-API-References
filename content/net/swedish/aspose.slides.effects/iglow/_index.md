@@ -1,14 +1,14 @@
 ---
 title: IGlow
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar en Glow-effekt där en färgblurrad kontur läggs till utanför objektets kanter.
+description: Representerar en Glow-effekt där en färg-suddig kontur läggs till utanför objektets kanter.
 type: docs
-weight: 3320
+weight: 3340
 url: /sv/aspose.slides.effects/iglow/
 ---
 ## IGlow gränssnitt
 
-Representerar en Glow-effekt, där en färgblurad kontur läggs till utanför objektets kanter.
+Representerar en Glow-effekt, där en färgblurrad kontur läggs till utanför objektets kanter.
 
 ```csharp
 public interface IGlow : IAccessiblePVIObject<IGlowEffectiveData>, IImageTransformOperation
@@ -18,8 +18,8 @@ public interface IGlow : IAccessiblePVIObject<IGlowEffectiveData>, IImageTransfo
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/iglow/asiaccessiblepviobject) { get; } | Tillåter att hämta bas IAccessiblePVIObject-gränssnitt. Skrivskyddad [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/iglow/asiimagetransformoperation) { get; } | Tillåter att hämta bas IImageTransformOperation-gränssnitt. Skrivskyddad [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/iglow/asiaccessiblepviobject) { get; } | Gör det möjligt att hämta bas-IAccessiblePVIObject gränssnitt. Skrivskyddad [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/iglow/asiimagetransformoperation) { get; } | Gör det möjligt att hämta bas-IImageTransformOperation gränssnitt. Skrivskyddad [`IImageTransformOperation`](../iimagetransformoperation). |
 | [Color](../../aspose.slides.effects/iglow/color) { get; } | Färgformat. Skrivskyddad [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [Radius](../../aspose.slides.effects/iglow/radius) { get; set; } | Radie. Läs/skriv Double. |
 

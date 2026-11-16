@@ -1,14 +1,14 @@
 ---
 title: IOleObjectFrame
-second_title: مرجع API لـ Aspose.Sildes لـ .NET
-description: يمثل كائن OLE على الشريحة.
+second_title: مرجع API Aspose.Sildes لـ .NET
+description: يمثل كائن OLE على شريحة.
 type: docs
-weight: 6540
+weight: 6560
 url: /ar/aspose.slides/ioleobjectframe/
 ---
-## واجهة IOleObjectFrame
+## IOleObjectFrame الواجهة
 
-يمثل كائن OLE على الشريحة.
+Represents an OLE object on a slide.
 
 ```csharp
 public interface IOleObjectFrame : IGraphicalObject
@@ -18,30 +18,30 @@ public interface IOleObjectFrame : IGraphicalObject
 
 | الاسم | الوصف |
 | --- | --- |
-| [AsIGraphicalObject](../../aspose.slides/ioleobjectframe/asigraphicalobject) { get; } | يتيح الحصول على واجهة IGraphicalObject الأساسية. للقراءة فقط [`IGraphicalObject`](../igraphicalobject). |
-| [EmbeddedData](../../aspose.slides/ioleobjectframe/embeddeddata) { get; } | يحصل على معلومات حول بيانات OLE المدمجة. للقراءة فقط [`IOleEmbeddedDataInfo`](../ioleembeddeddatainfo). |
-| [EmbeddedFileLabel](../../aspose.slides/ioleobjectframe/embeddedfilelabel) { get; } | إرجاع اسم ملف الكائن المدمج OLE |
-| [EmbeddedFileName](../../aspose.slides/ioleobjectframe/embeddedfilename) { get; } | إرجاع مسار الكائن المدمج OLE |
-| [IsObjectIcon](../../aspose.slides/ioleobjectframe/isobjecticon) { get; set; } | يحدد ما إذا كان الكائن مرئياً كأيقونة. قابل للقراءة والكتابة Boolean. |
-| [IsObjectLink](../../aspose.slides/ioleobjectframe/isobjectlink) { get; } | يحدد ما إذا كان الكائن مربوطًا بملف خارجي. للقراءة فقط Boolean. |
-| [LinkFileName](../../aspose.slides/ioleobjectframe/linkfilename) { get; } | إرجاع المسار الكامل لملف مرتبط. سيتم استخدام اسم الملف المختصر. للقراءة فقط String. |
-| [LinkPathLong](../../aspose.slides/ioleobjectframe/linkpathlong) { get; set; } | إرجاع المسار الكامل لملف مرتبط. سيتم استخدام اسم الملف الطويل. قابل للقراءة والكتابة String. |
-| [LinkPathRelative](../../aspose.slides/ioleobjectframe/linkpathrelative) { get; } | إرجاع المسار النسبي لملف مرتبط إذا كان موجوداً، وإلا إرجاع سلسلة فارغة. للقراءة فقط String. |
-| [ObjectName](../../aspose.slides/ioleobjectframe/objectname) { get; set; } | إرجاع أو ضبط اسم الكائن. قابل للقراءة والكتابة String. |
-| [ObjectProgId](../../aspose.slides/ioleobjectframe/objectprogid) { get; set; } | إرجاع ProgID للكائن. قراءة فقط String. |
-| [SubstitutePictureFormat](../../aspose.slides/ioleobjectframe/substitutepictureformat) { get; } | إرجاع كائن خصائص تعبئة صورة OleObject. للقراءة فقط [`IPictureFillFormat`](../ipicturefillformat). |
-| [SubstitutePictureTitle](../../aspose.slides/ioleobjectframe/substitutepicturetitle) { get; set; } | إرجاع أو ضبط العنوان لأيقونة OleObject. قابل للقراءة والكتابة String. |
-| [UpdateAutomatic](../../aspose.slides/ioleobjectframe/updateautomatic) { get; set; } | يحدد ما إذا كان الكائن المدمج المرتبط يتم تحديثه تلقائياً عند فتح أو طباعة العرض التقديمي. قابل للقراءة والكتابة Boolean. |
+| [AsIGraphicalObject](../../aspose.slides/ioleobjectframe/asigraphicalobject) { get; } | يسمح بالحصول على الواجهة الأساسية IGraphicalObject. Read-only [`IGraphicalObject`](../igraphicalobject). |
+| [EmbeddedData](../../aspose.slides/ioleobjectframe/embeddeddata) { get; } | يحصل على معلومات حول بيانات OLE المضمّنة. Read only [`IOleEmbeddedDataInfo`](../ioleembeddeddatainfo). |
+| [EmbeddedFileLabel](../../aspose.slides/ioleobjectframe/embeddedfilelabel) { get; } | يعيد اسم الملف لكائن OLE المضمّن |
+| [EmbeddedFileName](../../aspose.slides/ioleobjectframe/embeddedfilename) { get; } | يعيد مسار كائن OLE المضمّن |
+| [IsObjectIcon](../../aspose.slides/ioleobjectframe/isobjecticon) { get; set; } | يحدد ما إذا كان الكائن مرئياً كأيقونة. Read/write Boolean. |
+| [IsObjectLink](../../aspose.slides/ioleobjectframe/isobjectlink) { get; } | يحدد ما إذا كان الكائن مرتبطاً بملف خارجي. Read-only Boolean. |
+| [LinkFileName](../../aspose.slides/ioleobjectframe/linkfilename) { get; } | يعيد المسار الكامل لملف مرتبط. سيتم استخدام اسم ملف قصير. Read-only String. |
+| [LinkPathLong](../../aspose.slides/ioleobjectframe/linkpathlong) { get; set; } | يعيد المسار الكامل لملف مرتبط. سيتم استخدام اسم ملف طويل. Read/write String. |
+| [LinkPathRelative](../../aspose.slides/ioleobjectframe/linkpathrelative) { get; } | يعيد المسار النسبي لملف مرتبط إذا كان موجوداً، وإلا يعيد سلسلة فارغة. Readonly String. |
+| [ObjectName](../../aspose.slides/ioleobjectframe/objectname) { get; set; } | يعيد أو يضع اسم الكائن. Read/write String. |
+| [ObjectProgId](../../aspose.slides/ioleobjectframe/objectprogid) { get; set; } | يعيد ProgID الكائن. Read olny String. |
+| [SubstitutePictureFormat](../../aspose.slides/ioleobjectframe/substitutepictureformat) { get; } | يعيد كائن خصائص تعبئة صورة OleObject. Read-only [`IPictureFillFormat`](../ipicturefillformat). |
+| [SubstitutePictureTitle](../../aspose.slides/ioleobjectframe/substitutepicturetitle) { get; set; } | يعيد أو يضع عنوان أيقونة OleObject. Read/write String. |
+| [UpdateAutomatic](../../aspose.slides/ioleobjectframe/updateautomatic) { get; set; } | يحدد ما إذا كان الكائن المضمّن المرتبط يتم تحديثه تلقائياً عند فتح أو طباعة العرض التقديمي. Read/write Boolean. |
 
 ## الأساليب
 
 | الاسم | الوصف |
 | --- | --- |
-| [SetEmbeddedData](../../aspose.slides/ioleobjectframe/setembeddeddata)(IOleEmbeddedDataInfo) | يضبط معلومات البيانات المدمجة OLE. |
+| [SetEmbeddedData](../../aspose.slides/ioleobjectframe/setembeddeddata)(IOleEmbeddedDataInfo) | يضبط معلومات حول بيانات OLE المضمّنة. |
 
-### أنظر أيضاً
+### انظر أيضًا
 
-* واجهة [IGraphicalObject](../igraphicalobject)
+* الواجهة [IGraphicalObject](../igraphicalobject)
 * مساحة الاسم [Aspose.Slides](../../aspose.slides)
 * التجميع [Aspose.Slides](../../)
 

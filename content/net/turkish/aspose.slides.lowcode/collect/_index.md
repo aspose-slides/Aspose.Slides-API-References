@@ -1,14 +1,14 @@
 ---
 title: Collect
-second_title: Aspose.Sildes için .NET API Referansı
-description: Presentation../aspose.slides/presentation içinden farklı türlerdeki model nesnelerini toplamak için tasarlanmış bir grup yöntemi temsil eder.
+second_title: Aspose.Sildes .NET API Referansı
+description: Presentation../aspose.slides/presentation'dan farklı türlerde model nesnelerini toplamak için tasarlanmış bir grup yöntemi temsil eder.
 type: docs
-weight: 7860
+weight: 7880
 url: /tr/aspose.slides.lowcode/collect/
 ---
 ## Collect sınıfı
 
-Farklı türlerdeki model nesnelerini [`Presentation`](../../aspose.slides/presentation) içinden toplamak için tasarlanmış bir yöntem grubu temsil eder.
+[`Presentation`](../../aspose.slides/presentation)'den farklı türlerde model nesnelerini toplamak için tasarlanmış bir grup yöntemi temsil eder.
 
 ```csharp
 public static class Collect
@@ -18,7 +18,7 @@ public static class Collect
 
 | Ad | Açıklama |
 | --- | --- |
-| static [Shapes](../../aspose.slides.lowcode/collect/shapes)(Presentation) | Tüm [`Shape`](../../aspose.slides/shape) örneklerini [`Presentation`](../../aspose.slides/presentation) içinde toplar. |
+| static [Shapes](../../aspose.slides.lowcode/collect/shapes)(Presentation) | [`Shape`](../../aspose.slides/shape) öğelerinin tüm örneklerini [`Presentation`](../../aspose.slides/presentation) içinde toplar. |
 
 ### Örnekler
 
@@ -32,7 +32,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }    
 ```
 
-### Ayrıca Bakınız
+### İlgili
 
 * ad alanı [Aspose.Slides.LowCode](../../aspose.slides.lowcode)
 * derleme [Aspose.Slides](../../)

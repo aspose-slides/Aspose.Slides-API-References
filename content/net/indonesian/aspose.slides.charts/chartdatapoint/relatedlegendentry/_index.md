@@ -1,14 +1,14 @@
 ---
 title: RelatedLegendEntry
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Properti entri legenda yang sesuai dalam kasus tipe diagram dari daftar ini ChartType.BarOfPie ChartType.ExplodedPie ChartType.ExplodedPie3D ChartType.Pie ChartType.Pie3D ChartType.PieOfPie. Baca-saja ILegendEntryPropertiesaspose.slides.charts/ilegendentryproperties.
+description: Properti entri legenda yang sesuai dalam kasus tipe diagram dari daftar ChartType.BarOfPie ChartType.ExplodedPie ChartType.ExplodedPie3D ChartType.Pie ChartType.Pie3D ChartType.PieOfPie. Baca-saja ILegendEntryPropertiesaspose.slides.charts/ilegendentryproperties.
 type: docs
-weight: 160
+weight: 200
 url: /id/aspose.slides.charts/chartdatapoint/relatedlegendentry/
 ---
 ## ChartDataPoint.RelatedLegendEntry properti
 
-Properti entri legenda yang sesuai dalam kasus tipe diagram dari daftar ini: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. Baca-saja [`ILegendEntryProperties`](../../ilegendentryproperties).
+Properti entri legenda yang sesuai dalam kasus tipe diagram dari daftar berikut: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. Baca-saja [`ILegendEntryProperties`](../../ilegendentryproperties).
 
 ```csharp
 public ILegendEntryProperties RelatedLegendEntry { get; }

@@ -1,14 +1,14 @@
 ---
 title: IMasterNotesSlideHeaderFooterManager
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงตัวจัดการที่บรรจุพฤติกรรมของส่วนท้ายสไลด์บันทึกหลัก ตัวแสดงวันที่-เวลา ตัวแสดงเลขหน้า และตัวแสดงตารางทั้งหมด รวมทั้งตัวแสดงตารางลูกทั้งหมด ตัวแสดงตารางลูกหมายถึงตัวแสดงที่อยู่บนสไลด์บันทึกที่ขึ้นอยู่ สไลด์บันทึกที่ขึ้นอยู่ใช้และพึ่งพาสไลด์บันทึกหลัก
+description: แสดงถึงผู้จัดการที่เก็บพฤติกรรมของตัวยึดส่วนท้ายของสไลด์โน้ตหลัก, ตัวยึดวันที่-เวลา, ตัวยึดเลขหน้า และตัวยึดทั้งหมดของลูก. ตัวยึดลูกหมายถึงตัวยึดที่อยู่บนสไลด์โน้ตที่ขึ้นกับ. สไลด์โน้ตที่ขึ้นกับใช้และพึ่งพาสไลด์โน้ตหลัก.
 type: docs
-weight: 6400
+weight: 6420
 url: /th/aspose.slides/imasternotesslideheaderfootermanager/
 ---
 ## IMasterNotesSlideHeaderFooterManager อินเทอร์เฟซ
 
-แสดงตัวจัดการที่บรรจุพฤติกรรมของส่วนท้ายสไลด์บันทึกหลัก, ตัวแสดงวันที่-เวลา, ตัวแสดงเลขหน้าและตัวแสดงตารางแม่แบบทั้งหมด รวมถึงตัวแสดงตารางลูกทั้งหมด ตัวแสดงตารางลูกหมายถึงตัวแสดงที่อยู่ในสไลด์บันทึกที่ขึ้นอยู่ สไลด์บันทึกที่ขึ้นอยู่ใช้และพึ่งพาสไลด์บันทึกหลัก
+แสดงถึงผู้จัดการที่เก็บพฤติกรรมของตัวยึดส่วนท้ายของสไลด์โน้ตหลัก, ตัวยึดวันที่-เวลา, ตัวยึดเลขหน้า และตัวยึดลูกทั้งหมด. ตัวยึดลูกหมายถึงตัวยึดที่อยู่บนสไลด์โน้ตที่ขึ้นกับ. สไลด์โน้ตที่ขึ้นกับใช้และพึ่งพาสไลด์โน้ตหลัก.
 
 ```csharp
 public interface IMasterNotesSlideHeaderFooterManager : IBaseHandoutNotesSlideHeaderFooterManag
@@ -16,26 +16,26 @@ public interface IMasterNotesSlideHeaderFooterManager : IBaseHandoutNotesSlideHe
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
 | [AsIBaseHandoutNotesSlideHeaderFooterManag](../../aspose.slides/imasternotesslideheaderfootermanager/asibasehandoutnotesslideheaderfootermanag) { get; } | คืนค่า IBaseHandoutNotesSlideHeaderFooterManag interface. |
 
-## วิธีการ
+## เมธอด
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | ตั้งค่าข้อความให้กับตัวแสดงวันที่-เวลาในสไลด์บันทึกหลักและตัวแสดงวันที่-เวลาในตารางลูกทั้งหมด ตัวแสดงตารางลูกหมายถึงตัวแสดงที่อยู่ในสไลด์บันทึกที่ขึ้นอยู่ สไลด์บันทึกที่ขึ้นอยู่ใช้และพึ่งพาสไลด์บันทึกหลัก |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | เปลี่ยนการมองเห็นของตัวแสดงวันที่-เวลาในสไลด์บันทึกหลักและตัวแสดงวันที่-เวลาในตารางลูกทั้งหมด ตัวแสดงตารางลูกหมายถึงตัวแสดงที่อยู่ในสไลด์บันทึกที่ขึ้นอยู่ สไลด์บันทึกที่ขึ้นอยู่ใช้และพึ่งพาสไลด์บันทึกหลัก |
-| [SetFooterAndChildFootersText](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfooterstext)(string) | ตั้งค่าข้อความให้กับส่วนท้ายสไลด์บันทึกหลักและส่วนท้ายในตารางลูกทั้งหมด ตัวแสดงตารางลูกหมายถึงตัวแสดงที่อยู่ในสไลด์บันทึกที่ขึ้นอยู่ สไลด์บันทึกที่ขึ้นอยู่ใช้และพึ่งพาสไลด์บันทึกหลัก |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | เปลี่ยนการมองเห็นของส่วนท้ายสไลด์บันทึกหลักและส่วนท้ายในตารางลูกทั้งหมด ตัวแสดงตารางลูกหมายถึงตัวแสดงที่อยู่ในสไลด์บันทึกที่ขึ้นอยู่ สไลด์บันทึกที่ขึ้นอยู่ใช้และพึ่งพาสไลด์บันทึกหลัก |
-| [SetHeaderAndChildHeadersText](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheaderstext)(string) | ตั้งค่าข้อความให้กับส่วนหัวสไลด์บันทึกหลักและส่วนหัวในตารางลูกทั้งหมด ตัวแสดงตารางลูกหมายถึงตัวแสดงที่อยู่ในสไลด์บันทึกที่ขึ้นอยู่ สไลด์บันทึกที่ขึ้นอยู่ใช้และพึ่งพาสไลด์บันทึกหลัก |
-| [SetHeaderAndChildHeadersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheadersvisibility)(bool) | เปลี่ยนการมองเห็นของส่วนหัวสไลด์บันทึกหลักและส่วนหัวในตารางลูกทั้งหมด ตัวแสดงตารางลูกหมายถึงตัวแสดงที่อยู่ในสไลด์บันทึกที่ขึ้นอยู่ สไลด์บันทึกที่ขึ้นอยู่ใช้และพึ่งพาสไลด์บันทึกหลัก |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | เปลี่ยนการมองเห็นของตัวแสดงเลขหน้าสไลด์บันทึกหลักและตัวแสดงเลขหน้าในตารางลูกทั้งหมด ตัวแสดงตารางลูกหมายถึงตัวแสดงที่อยู่ในสไลด์บันทึกที่ขึ้นอยู่ สไลด์บันทึกที่ขึ้นอยู่ใช้และพึ่งพาสไลด์บันทึกหลัก |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | ตั้งค่าข้อความให้กับตัวยึดวันที่-เวลาในสไลด์โน้ตหลักและตัวยึดวันที่-เวลาในตัวยึดลูกทั้งหมด. ตัวยึดลูกหมายถึงตัวยึดที่อยู่บนสไลด์โน้ตที่ขึ้นกับ. สไลด์โน้ตที่ขึ้นกับใช้และพึ่งพาสไลด์โน้ตหลัก. |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | เปลี่ยนการมองเห็นของตัวยึดวันที่-เวลาในสไลด์โน้ตหลักและตัวยึดวันที่-เวลาในตัวยึดลูกทั้งหมด. ตัวยึดลูกหมายถึงตัวยึดที่อยู่บนสไลด์โน้ตที่ขึ้นกับ. สไลด์โน้ตที่ขึ้นกับใช้และพึ่งพาสไลด์โน้ตหลัก. |
+| [SetFooterAndChildFootersText](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfooterstext)(string) | ตั้งค่าข้อความให้กับตัวยึดส่วนท้ายของสไลด์โน้ตหลักและตัวยึดส่วนท้ายในตัวยึดลูกทั้งหมด. ตัวยึดลูกหมายถึงตัวยึดที่อยู่บนสไลด์โน้ตที่ขึ้นกับ. สไลด์โน้ตที่ขึ้นกับใช้และพึ่งพาสไลด์โน้ตหลัก. |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | เปลี่ยนการมองเห็นของตัวยึดส่วนท้ายของสไลด์โน้ตหลักและตัวยึดส่วนท้ายในตัวยึดลูกทั้งหมด. ตัวยึดลูกหมายถึงตัวยึดที่อยู่บนสไลด์โน้ตที่ขึ้นกับ. สไลด์โน้ตที่ขึ้นกับใช้และพึ่งพาสไลด์โน้ตหลัก. |
+| [SetHeaderAndChildHeadersText](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheaderstext)(string) | ตั้งค่าข้อความให้กับตัวยึดส่วนหัวของสไลด์โน้ตหลักและตัวยึดส่วนหัวในตัวยึดลูกทั้งหมด. ตัวยึดลูกหมายถึงตัวยึดที่อยู่บนสไลด์โน้ตที่ขึ้นกับ. สไลด์โน้ตที่ขึ้นกับใช้และพึ่งพาสไลด์โน้ตหลัก. |
+| [SetHeaderAndChildHeadersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheadersvisibility)(bool) | เปลี่ยนการมองเห็นของตัวยึดส่วนหัวของสไลด์โน้ตหลักและตัวยึดส่วนหัวในตัวยึดลูกทั้งหมด. ตัวยึดลูกหมายถึงตัวยึดที่อยู่บนสไลด์โน้ตที่ขึ้นกับ. สไลด์โน้ตที่ขึ้นกับใช้และพึ่งพาสไลด์โน้ตหลัก. |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | เปลี่ยนการมองเห็นของตัวยึดเลขหน้าในสไลด์โน้ตหลักและตัวยึดเลขหน้าในตัวยึดลูกทั้งหมด. ตัวยึดลูกหมายถึงตัวยึดที่อยู่บนสไลด์โน้ตที่ขึ้นกับ. สไลด์โน้ตที่ขึ้นกับใช้และพึ่งพาสไลด์โน้ตหลัก. |
 
 ### ดูเพิ่มเติม
 
-* interface [IBaseHandoutNotesSlideHeaderFooterManag](../ibasehandoutnotesslideheaderfootermanag)
-* namespace [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* อินเทอร์เฟซ [IBaseHandoutNotesSlideHeaderFooterManag](../ibasehandoutnotesslideheaderfootermanag)
+* เนมสเปซ [Aspose.Slides](../../aspose.slides)
+* แอสเซมบลี [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

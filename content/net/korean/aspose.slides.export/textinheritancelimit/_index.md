@@ -1,9 +1,9 @@
 ---
 title: TextInheritanceLimit
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 텍스트 속성 상속의 깊이를 제어합니다.
+description: 텍스트 속성 상속 깊이를 제어합니다.
 type: docs
-weight: 4540
+weight: 4560
 url: /ko/aspose.slides.export/textinheritancelimit/
 ---
 ## TextInheritanceLimit 열거형
@@ -22,7 +22,7 @@ public enum TextInheritanceLimit
 | TextBox | `1` | TextFrame의 스타일만 상속합니다. |
 | ParagraphOnly | `2` | 단락에 정의된 속성만 사용합니다. |
 
-### 참고
+### 참조
 
 * 네임스페이스 [Aspose.Slides.Export](../../aspose.slides.export)
 * 어셈블리 [Aspose.Slides](../../)

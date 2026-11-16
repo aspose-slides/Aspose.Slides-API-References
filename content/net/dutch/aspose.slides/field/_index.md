@@ -3,10 +3,10 @@ title: Field
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Stelt een veld voor.
 type: docs
-weight: 4750
+weight: 4770
 url: /nl/aspose.slides/field/
 ---
-## Veldklasse
+## Field klasse
 
 Stelt een veld voor.
 
@@ -18,7 +18,7 @@ public sealed class Field : DomObject<Portion>, IField
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Type](../../aspose.slides/field/type) { get; set; } | Retourneert of stelt het type van het veld in. Lezen/schrijven [`IFieldType`](../ifieldtype). |
+| [Type](../../aspose.slides/field/type) { get; set; } | Geeft of stelt het type van het veld in. Lezen/Schrijven [`IFieldType`](../ifieldtype). |
 
 ### Zie ook
 

@@ -1,12 +1,12 @@
 ---
 title: PdfTextCompression
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Constantes que definem o tipo de compressão aplicada a todo o conteúdo no arquivo PDF, exceto imagens.
 type: docs
-weight: 4340
+weight: 4360
 url: /pt/aspose.slides.export/pdftextcompression/
 ---
-## enumeração PdfTextCompression
+## PdfTextCompression enumeração
 
 Constantes que definem o tipo de compressão aplicada a todo o conteúdo no arquivo PDF, exceto imagens.
 
@@ -21,7 +21,7 @@ public enum PdfTextCompression
 | None | `0` | Sem compressão. |
 | Flate | `1` | Compressão Flate (ZIP). |
 
-### Ver também
+### Veja Também
 
 * namespace [Aspose.Slides.Export](../../aspose.slides.export)
 * assembly [Aspose.Slides](../../)

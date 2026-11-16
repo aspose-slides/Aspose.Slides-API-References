@@ -1,14 +1,14 @@
 ---
 title: IThemeManager
-second_title: Aspose.Sildes لـ .NET مرجع API
+second_title: Aspose.Sildes لمرجع API الخاص بـ .NET
 description: يمثل خصائص السمة.
 type: docs
-weight: 11390
+weight: 11410
 url: /ar/aspose.slides.theme/ithememanager/
 ---
-## واجهة IThemeManager
+## IThemeManager واجهة
 
-تمثيل خصائص السمة.
+يمثل خصائص السمة.
 
 ```csharp
 public interface IThemeManager
@@ -18,8 +18,8 @@ public interface IThemeManager
 
 | الاسم | الوصف |
 | --- | --- |
-| [ApplyColorScheme](../../aspose.slides.theme/ithememanager/applycolorscheme)(IExtraColorScheme) | يطبق مخطط ألوان إضافي على الشريحة. |
-| [CreateThemeEffective](../../aspose.slides.theme/ithememanager/createthemeeffective)() | يعيد كائن السمة. |
+| [ApplyColorScheme](../../aspose.slides.theme/ithememanager/applycolorscheme)(IExtraColorScheme) | يطبق نظام ألوان إضافي على الشريحة. |
+| [CreateThemeEffective](../../aspose.slides.theme/ithememanager/createthemeeffective)() | إرجاع كائن السمة. |
 
 ### انظر أيضًا
 

@@ -1,14 +1,14 @@
 ---
 title: AlphaModulate
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili efek Alpha Modulate. Nilai opacity alfa efek dikalikan dengan persentase tetap. Kontainer efek menentukan efek yang berisi nilai alfa untuk dimodulasi.
+description: Mewakili efek Alpha Modulate. Nilai alpha opacity efek dikalikan dengan persentase tetap. Kontainer efek menentukan efek yang berisi nilai alpha untuk dimodulasi.
 type: docs
-weight: 2880
+weight: 2900
 url: /id/aspose.slides.effects/alphamodulate/
 ---
-## kelas AlphaModulate
+## AlphaModulate kelas
 
-Mewakili efek Alpha Modulate. Nilai alfa (opacity) efek dikalikan dengan persentase tetap. Kontainer efek menentukan efek yang berisi nilai alfa untuk dimodulasi.
+Mewakili efek Alpha Modulate. Nilai alpha (opasitas) efek dikalikan dengan persentase tetap. Kontainer efek menentukan efek yang berisi nilai alpha untuk dimodulasi.
 
 ```csharp
 public sealed class AlphaModulate : ImageTransformOperation, IAlphaModulate
@@ -16,13 +16,13 @@ public sealed class AlphaModulate : ImageTransformOperation, IAlphaModulate
 
 ## Properti
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Mengizinkan untuk mendapatkan antarmuka dasar IPresentationComponent. Hanya-baca [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Mengizinkan untuk mendapatkan antarmuka IPresentationComponent dasar. Hanya baca [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Metode
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/alphamodulate/equals)(object) | Menentukan apakah [`AlphaModulate`](../alphamodulate) yang ditentukan sama dengan [`AlphaModulate`](../alphamodulate) saat ini. |
 | [GetEffective](../../aspose.slides.effects/alphamodulate/geteffective)() | Mendapatkan data efek Alpha Modulate yang efektif dengan pewarisan yang diterapkan. |

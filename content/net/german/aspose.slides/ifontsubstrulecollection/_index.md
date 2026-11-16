@@ -1,14 +1,14 @@
 ---
 title: IFontSubstRuleCollection
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt eine Sammlung von Schriftart-Substitutionen dar.
+description: Stellt eine Sammlung von Schriftartsubstitutionen dar.
 type: docs
-weight: 5890
+weight: 5910
 url: /de/aspose.slides/ifontsubstrulecollection/
 ---
 ## IFontSubstRuleCollection Schnittstelle
 
-Stellt eine Sammlung von Schriftart-Substitutionen dar.
+Stellt eine Sammlung von Schriftartsubstitutionen dar.
 
 ```csharp
 public interface IFontSubstRuleCollection : IGenericCollection<IFontSubstRule>
@@ -18,13 +18,13 @@ public interface IFontSubstRuleCollection : IGenericCollection<IFontSubstRule>
 
 | Name | Beschreibung |
 | --- | --- |
-| [Item](../../aspose.slides/ifontsubstrulecollection/item) { get; } | Ruft das Element am angegebenen Index ab. |
+| [Item](../../aspose.slides/ifontsubstrulecollection/item) { get; } | Liefert das Element am angegebenen Index. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [Add](../../aspose.slides/ifontsubstrulecollection/add)(IFontSubstRule) | Fügt der Sammlung eine neue Schriftart-Ersetzungsregel hinzu. |
+| [Add](../../aspose.slides/ifontsubstrulecollection/add)(IFontSubstRule) | Fügt der Sammlung eine neue Schriftartsubstitutionsregel hinzu |
 | [Remove](../../aspose.slides/ifontsubstrulecollection/remove)(IFontSubstRule) | Entfernt das erste Vorkommen eines bestimmten Objekts aus der Sammlung. |
 
 ### Siehe auch

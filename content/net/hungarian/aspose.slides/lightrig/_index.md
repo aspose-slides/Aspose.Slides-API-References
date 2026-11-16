@@ -1,14 +1,14 @@
 ---
 title: LightRig
-second_title: Aspose.Sildes .NET-hez API referencia
-description: A LightRig-et képviseli.
+second_title: Aspose.Sildes .NET API referencia
+description: A LightRig-et reprezentálja.
 type: docs
-weight: 7690
+weight: 7710
 url: /hu/aspose.slides/lightrig/
 ---
 ## LightRig osztály
 
-Represents LightRig.
+A LightRig-et reprezentálja.
 
 ```csharp
 public sealed class LightRig : PVIObject, ILightRig
@@ -18,18 +18,18 @@ public sealed class LightRig : PVIObject, ILightRig
 
 | Név | Leírás |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Lehetővé teszi a bázis IPresentationComponent interfész lekérését. Csak olvasható [`IPresentationComponent`](../ipresentationcomponent). |
-| [Direction](../../aspose.slides/lightrig/direction) { get; set; } | Fény iránya. Olvasás/írás [`LightingDirection`](../lightingdirection). |
-| [LightType](../../aspose.slides/lightrig/lighttype) { get; set; } | Egy előre beállított fényirányt képvisel, amely alkalmazható egy alakzatra. A light rig egy csoport fényt jelent, amely meghatározott módon van elhelyezve egy 3D jelenethez képest. Olvasás/írás [`LightRigPresetType`](../lightrigpresettype). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Lehetővé teszi az IPresentationComponent alap interfész lekérését. Csak olvasható [`IPresentationComponent`](../ipresentationcomponent). |
+| [Direction](../../aspose.slides/lightrig/direction) { get; set; } | Fény iránya. Olvasható/írható [`LightingDirection`](../lightingdirection). |
+| [LightType](../../aspose.slides/lightrig/lighttype) { get; set; } | Egy előre beállított fényt reprezentál, amely alakzatra alkalmazható. A LightRig egy olyan fénycsoportot képvisel, amely meghatározott módon van orientálva egy 3D-s jelenethez képest. Olvasható/írható [`LightRigPresetType`](../lightrigpresettype). |
 
-## Metódusok
+## Módszerek
 
 | Név | Leírás |
 | --- | --- |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | Összehasonlítja a megadott objektummal. |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | Összehasonlítja a megadott objektumot. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Visszaadja a hash kódot. |
-| [GetRotation](../../aspose.slides/lightrig/getrotation)() | A rotációt a szélességi koordináta, a hosszúsági koordináta és a tengely körüli fordulat a szélességi és hosszúsági koordinátákként definiálja. Az eredmény tömb első eleme – szélesség, második – hosszúság, harmadik – fordulat. Null értéket ad vissza, ha nincs definiálva rotáció. |
-| [SetRotation](../../aspose.slides/lightrig/setrotation)(float, float, float) | A rotációt a szélességi koordináta, a hosszúsági koordináta és a tengely körüli fordulat a szélességi és hosszúsági koordinátákként definiálja. Ha bármely koordinátavalue float.NaN, a teljes rotáció nincs definiálva. |
+| [GetRotation](../../aspose.slides/lightrig/getrotation)() | A forgatás egy szélességi koordináta, egy hosszúsági koordináta és a tengely körüli fordulat használatával van definiálva. Első elem a visszatérő tömbben – szélesség, második – hosszúság, harmadik – fordulat. Null értéket ad vissza, ha nincs definiált forgatás. |
+| [SetRotation](../../aspose.slides/lightrig/setrotation)(float, float, float) | A forgatás egy szélességi koordináta, egy hosszúsági koordináta és a tengely körüli fordulat használatával van definiálva. Ha bármely koordinátáérték float.NaN, a forgatás meghatározatlan. |
 
 ### Lásd még
 

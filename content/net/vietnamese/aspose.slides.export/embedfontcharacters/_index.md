@@ -1,25 +1,25 @@
 ---
 title: EmbedFontCharacters
-second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Mô tả quy tắc được sử dụng để thêm phông chữ nhúng mới vào IPresentation../aspose.slides/ipresentation
+second_title: Aspose.Sildes cho Tham chiếu API .NET
+description: Biểu diễn quy tắc được sử dụng để thêm phông chữ nhúng mới vào IPresentation../aspose.slides/ipresentation
 type: docs
-weight: 3770
+weight: 3790
 url: /vi/aspose.slides.export/embedfontcharacters/
 ---
 ## EmbedFontCharacters liệt kê
 
-Biểu thị quy tắc được sử dụng để thêm phông chữ nhúng mới vào [`IPresentation`](../../aspose.slides/ipresentation)
+Đại diện cho quy tắc sử dụng khi thêm phông chữ nhúng mới vào [`IPresentation`](../../aspose.slides/ipresentation)
 
 ```csharp
 public enum EmbedFontCharacters
 ```
 
-### Giá trị
+### Values
 
 | Tên | Giá trị | Mô tả |
 | --- | --- | --- |
 | OnlyUsed | `0` | Nhúng chỉ các ký tự được sử dụng trong bản trình chiếu (tốt nhất để giảm kích thước tệp). |
-| All | `1` | Nhúng tất cả các ký tự (tốt nhất để người khác có thể chỉnh sửa). |
+| All | `1` | Nhúng tất cả các ký tự (tốt nhất cho việc chỉnh sửa bởi người khác). |
 
 ### Xem thêm
 

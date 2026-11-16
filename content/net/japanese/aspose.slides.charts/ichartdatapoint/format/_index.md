@@ -1,20 +1,20 @@
 ---
 title: Format
 second_title: Aspose.Sildes for .NET API リファレンス
-description: フォーマット プロパティを表します。読み書き可能 IFormataspose.slides.charts/iformat.
+description: 書式設定プロパティを表します。読み取り/書き込み IFormataspose.slides.charts/iformat.
 type: docs
-weight: 70
+weight: 110
 url: /ja/aspose.slides.charts/ichartdatapoint/format/
 ---
 ## IChartDataPoint.Format プロパティ
 
-フォーマット プロパティを表します。読み書き可能 [`IFormat`](../../iformat)。
+書式設定プロパティを表します。読み取り/書き込み [`IFormat`](../../iformat).
 
 ```csharp
 public IFormat Format { get; set; }
 ```
 
-### 参照
+### 関連項目
 
 * インターフェイス [IFormat](../../iformat)
 * インターフェイス [IChartDataPoint](../../ichartdatapoint)

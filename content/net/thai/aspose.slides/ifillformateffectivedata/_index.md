@@ -1,14 +1,14 @@
 ---
 title: IFillFormatEffectiveData
-second_title: Aspose.Sildes สำหรับ .NET - เอกสารอ้างอิง API
-description: อ็อบเจ็กต์ไม่เปลี่ยนแปลงซึ่งประกอบด้วยคุณสมบัติการจัดรูปแบบการเติมที่มีผล
+second_title: Aspose.Sildes สำหรับ .NET API อ้างอิง
+description: อ็อบเจกต์ที่ไม่สามารถแก้ไขได้ซึ่งบรรจุคุณสมบัติการจัดรูปแบบการเติมแบบมีประสิทธิภาพ
 type: docs
-weight: 5800
+weight: 5820
 url: /th/aspose.slides/ifillformateffectivedata/
 ---
 ## IFillFormatEffectiveData อินเทอร์เฟซ
 
-อ็อบเจ็กต์ที่ไม่สามารถเปลี่ยนแปลงได้ซึ่งประกอบด้วยคุณสมบัติการจัดรูปแบบการเติมที่มีผล
+อ็อบเจกต์ที่ไม่สามารถเปลี่ยนแปลงได้ซึ่งบรรจุคุณสมบัติการจัดรูปแบบการเติมแบบมีประสิทธิภาพ
 
 ```csharp
 public interface IFillFormatEffectiveData : IFillParamSource
@@ -18,18 +18,18 @@ public interface IFillFormatEffectiveData : IFillParamSource
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/ifillformateffectivedata/asifillparamsource) { get; } | ส่งกลับ IFillParamSource อินเทอร์เฟซ. อ่านอย่างเดียว [`IFillParamSource`](../ifillparamsource). |
-| [FillType](../../aspose.slides/ifillformateffectivedata/filltype) { get; } | ส่งกลับประเภทของการเติม. อ่านอย่างเดียว [`FillType`](../filltype). |
-| [GradientFormat](../../aspose.slides/ifillformateffectivedata/gradientformat) { get; } | ส่งกลับรูปแบบการเติมแบบไล่สี. อ่านอย่างเดียว [`IGradientFormatEffectiveData`](../igradientformateffectivedata). |
-| [PatternFormat](../../aspose.slides/ifillformateffectivedata/patternformat) { get; } | ส่งกลับรูปแบบการเติมแบบลวดลาย. อ่านอย่างเดียว [`IPatternFormatEffectiveData`](../ipatternformateffectivedata). |
-| [PictureFillFormat](../../aspose.slides/ifillformateffectivedata/picturefillformat) { get; } | ส่งกลับรูปแบบการเติมภาพ. อ่านอย่างเดียว [`IPictureFillFormatEffectiveData`](../ipicturefillformateffectivedata). |
+| [AsIFillParamSource](../../aspose.slides/ifillformateffectivedata/asifillparamsource) { get; } | ส่งคืน IFillParamSource อินเทอร์เฟซ. อ่านอย่างเดียว [`IFillParamSource`](../ifillparamsource). |
+| [FillType](../../aspose.slides/ifillformateffectivedata/filltype) { get; } | ส่งคืนประเภทของการเติม. อ่านอย่างเดียว [`FillType`](../filltype). |
+| [GradientFormat](../../aspose.slides/ifillformateffectivedata/gradientformat) { get; } | ส่งคืนรูปแบบการเติมแบบไกรเดียนต์. อ่านอย่างเดียว [`IGradientFormatEffectiveData`](../igradientformateffectivedata). |
+| [PatternFormat](../../aspose.slides/ifillformateffectivedata/patternformat) { get; } | ส่งคืนรูปแบบการเติมแบบลวดลาย. อ่านอย่างเดียว [`IPatternFormatEffectiveData`](../ipatternformateffectivedata). |
+| [PictureFillFormat](../../aspose.slides/ifillformateffectivedata/picturefillformat) { get; } | ส่งคืนรูปแบบการเติมรูปภาพ. อ่านอย่างเดียว [`IPictureFillFormatEffectiveData`](../ipicturefillformateffectivedata). |
 | [RotateWithShape](../../aspose.slides/ifillformateffectivedata/rotatewithshape) { get; } | กำหนดว่าการเติมควรหมุนตามรูปร่างหรือไม่. อ่านอย่างเดียว Boolean. |
-| [SolidFillColor](../../aspose.slides/ifillformateffectivedata/solidfillcolor) { get; } | ส่งกลับสีการเติม. อ่านอย่างเดียว Color. |
-| [SolidFillSchemeColor](../../aspose.slides/ifillformateffectivedata/solidfillschemecolor) { get; } | รับสีการเติมที่กำหนดโดยชุดสี. ค่าที่ NotDefined บ่งบอกว่า [`SolidFillColor`](./solidfillcolor) ไม่ใช่สีจากชุดสี. อ่านอย่างเดียว [`SchemeColor`](../schemecolor). |
+| [SolidFillColor](../../aspose.slides/ifillformateffectivedata/solidfillcolor) { get; } | ส่งคืนสีการเติม. อ่านอย่างเดียว Color. |
+| [SolidFillSchemeColor](../../aspose.slides/ifillformateffectivedata/solidfillschemecolor) { get; } | รับสีการเติมที่กำหนดโดยโครงร่างสี. ค่า NotDefined ระบุว่า [`SolidFillColor`](./solidfillcolor) ไม่ใช่สีจากโครงร่าง. อ่านอย่างเดียว [`SchemeColor`](../schemecolor). |
 
 ### หมายเหตุ
 
-อินเทอร์เฟซนี้ใช้ร่วมกับอินเทอร์เฟซ [`IFillFormat`](../ifillformat) เพื่อคืนค่าการจัดรูปแบบที่มีผลโดยใช้การสืบทอด
+อินเทอร์เฟซนี้ใช้ร่วมกับอินเทอร์เฟซ [`IFillFormat`](../ifillformat) เพื่อส่งคืนค่าการจัดรูปแบบที่มีผลโดยใช้การสืบทอด
 
 ### ดูเพิ่มเติม
 

@@ -1,9 +1,9 @@
 ---
 title: TextAlignment
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 表示不同的文本对齐样式。
 type: docs
-weight: 10900
+weight: 10920
 url: /zh/aspose.slides/textalignment/
 ---
 ## TextAlignment 枚举
@@ -23,7 +23,7 @@ public enum TextAlignment
 | Center | `1` | 居中对齐。 |
 | Right | `2` | 右对齐。 |
 | Justify | `3` | 两端对齐。 |
-| JustifyLow | `4` | Kashida 低两端对齐。 |
+| JustifyLow | `4` | Kashida 低对齐。 |
 | Distributed | `5` | 分散对齐。 |
 
 ### 另请参见

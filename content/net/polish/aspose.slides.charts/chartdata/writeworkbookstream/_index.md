@@ -1,14 +1,14 @@
 ---
 title: WriteWorkbookStream
 second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Inicjalizuje wewnętrznie zawarty skoroszyt Excel przy użyciu wartości podanej przez użytkownika.
+description: Inicjalizuje wewnętrznie zawarty skoroszyt Excel wartością określoną przez użytkownika.
 type: docs
-weight: 150
+weight: 160
 url: /pl/aspose.slides.charts/chartdata/writeworkbookstream/
 ---
 ## ChartData.WriteWorkbookStream metoda
 
-Inicjalizuje wewnętrznie zawarty skoroszyt Excel przy użyciu wartości podanej przez użytkownika.
+Inicjalizuje wewnętrznie zawarty skoroszyt Excel wartością określoną przez użytkownika.
 
 ```csharp
 public void WriteWorkbookStream(MemoryStream ms)
@@ -18,7 +18,7 @@ public void WriteWorkbookStream(MemoryStream ms)
 | --- | --- | --- |
 | ms | MemoryStream | Strumień dostarczony przez użytkownika zawierający cały skoroszyt Excel. |
 
-### Zobacz też
+### Zobacz także
 
 * klasa [ChartData](../../chartdata)
 * przestrzeń nazw [Aspose.Slides.Charts](../../chartdata)

@@ -1,14 +1,14 @@
 ---
 title: HtmlGenerator
-second_title: Aspose.Sildes para la referencia de la API de .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Generador HTML.
 type: docs
-weight: 3880
+weight: 3900
 url: /es/aspose.slides.export/htmlgenerator/
 ---
 ## HtmlGenerator clase
 
-Generador HTML.
+Html generator.
 
 ```csharp
 public sealed class HtmlGenerator : IHtmlGenerator
@@ -18,8 +18,8 @@ public sealed class HtmlGenerator : IHtmlGenerator
 
 | Nombre | Descripción |
 | --- | --- |
-| [NextSlideIndex](../../aspose.slides.export/htmlgenerator/nextslideindex) { get; } | Devuelve el índice de una diapositiva, que se renderizará después de la diapositiva actual o -1 si se está renderizando la última diapositiva. Solo lectura Int32. |
-| [PreviousSlideIndex](../../aspose.slides.export/htmlgenerator/previousslideindex) { get; } | Devuelve el índice de la diapositiva previamente renderizada o -1 si se está renderizando la primera diapositiva. Solo lectura Int32. |
+| [NextSlideIndex](../../aspose.slides.export/htmlgenerator/nextslideindex) { get; } | Devuelve el índice de una diapositiva que se renderizará después de la diapositiva actual o -1 si se está renderizando la última diapositiva. Solo lectura Int32. |
+| [PreviousSlideIndex](../../aspose.slides.export/htmlgenerator/previousslideindex) { get; } | Devuelve el índice de la diapositiva renderizada previamente o -1 si se está renderizando la primera diapositiva. Solo lectura Int32. |
 | [SlideImageSize](../../aspose.slides.export/htmlgenerator/slideimagesize) { get; } | Devuelve el tamaño de la imagen de la diapositiva. Solo lectura SizeF. |
 | [SlideImageSizeUnit](../../aspose.slides.export/htmlgenerator/slideimagesizeunit) { get; } | Devuelve la unidad en la que se especifica el tamaño de la imagen de la diapositiva. Solo lectura [`SvgCoordinateUnit`](../svgcoordinateunit). |
 | [SlideImageSizeUnitCode](../../aspose.slides.export/htmlgenerator/slideimagesizeunitcode) { get; } | Devuelve un código css de la unidad en la que se especifica el tamaño de la imagen de la diapositiva. Solo lectura String. |
@@ -29,15 +29,15 @@ public sealed class HtmlGenerator : IHtmlGenerator
 
 | Nombre | Descripción |
 | --- | --- |
-| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue)(char[]) | Cita el valor del atributo y lo añade al archivo html. |
-| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue_2)(string) | Cita el valor del atributo y lo añade al archivo html. |
-| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue_1)(char[], int, int) | Cita el valor del atributo y lo añade al archivo html. |
-| [AddHtml](../../aspose.slides.export/htmlgenerator/addhtml#addhtml)(char[]) | Añade texto HTML formateado. |
-| [AddHtml](../../aspose.slides.export/htmlgenerator/addhtml#addhtml_2)(string) | Añade texto HTML formateado. |
-| [AddHtml](../../aspose.slides.export/htmlgenerator/addhtml#addhtml_1)(char[], int, int) | Añade texto HTML formateado. |
-| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext)(char[]) | Añade texto sin formato a los archivos html, reemplazando los caracteres especiales con entidades html. Los saltos de línea y los espacios en blanco no se reemplazan. |
-| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext_2)(string) | Añade texto sin formato a los archivos html, reemplazando los caracteres especiales con entidades html. Los saltos de línea y los espacios en blanco no se reemplazan. |
-| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext_1)(char[], int, int) | Añade texto sin formato a los archivos html, reemplazando los caracteres especiales con entidades html. Los saltos de línea y los espacios en blanco no se reemplazan. |
+| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue)(char[]) | Encierra entre comillas el valor del atributo y lo agrega al archivo html. |
+| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue_2)(string) | Encierra entre comillas el valor del atributo y lo agrega al archivo html. |
+| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue_1)(char[], int, int) | Encierra entre comillas el valor del atributo y lo agrega al archivo html. |
+| [AddHtml](../../aspose.slides.export/htmlgenerator/addhtml#addhtml)(char[]) | Agrega texto HTML formateado. |
+| [AddHtml](../../aspose.slides.export/htmlgenerator/addhtml#addhtml_2)(string) | Agrega texto HTML formateado. |
+| [AddHtml](../../aspose.slides.export/htmlgenerator/addhtml#addhtml_1)(char[], int, int) | Agrega texto HTML formateado. |
+| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext)(char[]) | Agrega texto sin formato a los archivos html, reemplazando los caracteres especiales con entidades html. No se reemplazan los saltos de línea ni los espacios en blanco. |
+| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext_2)(string) | Agrega texto sin formato a los archivos html, reemplazando los caracteres especiales con entidades html. No se reemplazan los saltos de línea ni los espacios en blanco. |
+| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext_1)(char[], int, int) | Agrega texto sin formato a los archivos html, reemplazando los caracteres especiales con entidades html. No se reemplazan los saltos de línea ni los espacios en blanco. |
 
 ### Ver también
 

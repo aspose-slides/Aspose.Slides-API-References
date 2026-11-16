@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: Aspose.Sildes pro .NET API Reference
-description: Vrací nebo nastavuje šířku titulku jako zlomek šířky grafu. Číst/Zapisovat Single.
+description: Vrací nebo nastavuje šířku názvu jako zlomek šířky grafu. Čtení/zápis Single.
 type: docs
-weight: 150
+weight: 160
 url: /cs/aspose.slides.charts/datalabel/width/
 ---
 ## DataLabel.Width vlastnost
 
-Vrací nebo nastavuje šířku titulku jako zlomek šířky grafu. Číst/Zapisovat Single.
+Vrací nebo nastavuje šířku názvu jako zlomek šířky grafu. Čtení/zápis Single.
 
 ```csharp
 public float Width { get; set; }

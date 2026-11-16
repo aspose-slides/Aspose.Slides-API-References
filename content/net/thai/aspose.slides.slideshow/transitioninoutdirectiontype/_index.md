@@ -1,14 +1,14 @@
 ---
 title: TransitionInOutDirectionType
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงประเภทการเปลี่ยนแปลงทิศทางเข้า หรือออก
+second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
+description: แสดงประเภทการเปลี่ยนแปลงทิศทางเข้า หรือออก.
 type: docs
-weight: 10370
+weight: 10390
 url: /th/aspose.slides.slideshow/transitioninoutdirectiontype/
 ---
-## TransitionInOutDirectionType ประเภทการนับ
+## TransitionInOutDirectionType enumeration
 
-แสดงประเภทการเปลี่ยนแปลงทิศทางเข้า หรือออก
+แสดงประเภทการเปลี่ยนแปลงทิศทางเข้าและออก
 
 ```csharp
 public enum TransitionInOutDirectionType

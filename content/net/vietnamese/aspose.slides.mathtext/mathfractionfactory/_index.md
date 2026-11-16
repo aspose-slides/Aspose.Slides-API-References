@@ -3,10 +3,10 @@ title: MathFractionFactory
 second_title: Tham chiếu API Aspose.Sildes cho .NET
 description: Cho phép tạo một phân số toán học
 type: docs
-weight: 8700
+weight: 8720
 url: /vi/aspose.slides.mathtext/mathfractionfactory/
 ---
-## MathFractionFactory lớp
+## Lớp MathFractionFactory
 
 Cho phép tạo một phân số toán học
 
@@ -14,11 +14,11 @@ Cho phép tạo một phân số toán học
 public class MathFractionFactory : IMathFractionFactory
 ```
 
-## Các hàm khởi tạo
+## Hàm tạo
 
 | Tên | Mô tả |
 | --- | --- |
-| [MathFractionFactory](mathfractionfactory)() | Hàm khởi tạo mặc định. |
+| [MathFractionFactory](mathfractionfactory)() | Hàm tạo mặc định. |
 
 ## Phương thức
 
@@ -29,7 +29,7 @@ public class MathFractionFactory : IMathFractionFactory
 
 ### Ghi chú
 
-Để tương thích COM
+Đối với khả năng tương thích COM
 
 ### Xem thêm
 

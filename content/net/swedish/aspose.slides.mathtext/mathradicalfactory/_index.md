@@ -3,7 +3,7 @@ title: MathRadicalFactory
 second_title: Aspose.Sildes för .NET API-referens
 description: Tillåter att skapa en matematisk radikal
 type: docs
-weight: 8950
+weight: 8970
 url: /sv/aspose.slides.mathtext/mathradicalfactory/
 ---
 ## MathRadicalFactory klass
@@ -18,7 +18,7 @@ public class MathRadicalFactory : IMathRadicalFactory
 
 | Namn | Beskrivning |
 | --- | --- |
-| [MathRadicalFactory](mathradicalfactory)() | Standardkonstruktorn. |
+| [MathRadicalFactory](mathradicalfactory)() | Standardkonstruktör. |
 
 ## Metoder
 
@@ -30,7 +30,7 @@ public class MathRadicalFactory : IMathRadicalFactory
 
 För COM-kompatibilitet
 
-### Se även
+### Se också
 
 * gränssnitt [IMathRadicalFactory](../imathradicalfactory)
 * namnrymd [Aspose.Slides.MathText](../../aspose.slides.mathtext)

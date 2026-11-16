@@ -1,14 +1,14 @@
 ---
 title: IGlitterTransition
-second_title: Aspose.Sildes για .NET API Αναφορά
-description: Εφέ μετάβασης διαφώτισης διαφάνειας.
+second_title: Aspose.Sildes για .NET API Reference
+description: Εφέ μετάβασης διαφάνειας glitter.
 type: docs
-weight: 10100
+weight: 10120
 url: /el/aspose.slides.slideshow/iglittertransition/
 ---
 ## IGlitterTransition διασύνδεση
 
-Εφέ μετάβασης διαφώτισης διαφάνειας.
+Εφέ μετάβασης διαφάνειας glitter.
 
 ```csharp
 public interface IGlitterTransition : ITransitionValueBase
@@ -18,8 +18,8 @@ public interface IGlitterTransition : ITransitionValueBase
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/iglittertransition/asitransitionvaluebase) { get; } | Επιτρέπει την ανάκτηση της βασικής διασύνδεσης ITransitionValueBase. Μόνο για ανάγνωση [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/iglittertransition/direction) { get; set; } | Κατεύθυνση της μετάβασης. Ανάγνωση/εγγραφή [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/iglittertransition/asitransitionvaluebase) { get; } | Επιτρέπει την λήψη της βασικής διεπαφής ITransitionValueBase. Μόνο για ανάγνωση [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/iglittertransition/direction) { get; set; } | Κατεύθυνση μετάβασης. Ανάγνωση/εγγραφή [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
 | [Pattern](../../aspose.slides.slideshow/iglittertransition/pattern) { get; set; } | Καθορίζει το σχήμα των οπτικών στοιχείων που χρησιμοποιούνται κατά τη μετάβαση. Ανάγνωση/εγγραφή [`TransitionPattern`](../transitionpattern). |
 
 ### Δείτε επίσης

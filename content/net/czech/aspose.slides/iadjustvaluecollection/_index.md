@@ -1,14 +1,14 @@
 ---
 title: IAdjustValueCollection
-second_title: Aspose.Sildes pro .NET API Reference
-description: Představuje kolekci úprav tvarů.
+second_title: Aspose.Sildes pro .NET API reference
+description: Reprezentuje kolekci úprav tvarů.
 type: docs
-weight: 5190
+weight: 5210
 url: /cs/aspose.slides/iadjustvaluecollection/
 ---
 ## IAdjustValueCollection rozhraní
 
-Představuje kolekci úprav tvaru.
+Reprezentuje kolekci úprav tvaru.
 
 ```csharp
 public interface IAdjustValueCollection : ICollection
@@ -18,8 +18,8 @@ public interface IAdjustValueCollection : ICollection
 
 | Název | Popis |
 | --- | --- |
-| [AsICollection](../../aspose.slides/iadjustvaluecollection/asicollection) { get; } | Umožňuje získat základní rozhraní ICollection. Jen pro čtení ICollection. |
-| [AsIEnumerable](../../aspose.slides/iadjustvaluecollection/asienumerable) { get; } | Vrací rozhraní IEnumerable. Jen pro čtení IEnumerable. |
+| [AsICollection](../../aspose.slides/iadjustvaluecollection/asicollection) { get; } | Umožňuje získat základní rozhraní ICollection. ICollection pouze pro čtení. |
+| [AsIEnumerable](../../aspose.slides/iadjustvaluecollection/asienumerable) { get; } | Vrací rozhraní IEnumerable. IEnumerable pouze pro čtení. |
 | [Item](../../aspose.slides/iadjustvaluecollection/item) { get; } | Vrací úpravu podle indexu. |
 
 ### Viz také

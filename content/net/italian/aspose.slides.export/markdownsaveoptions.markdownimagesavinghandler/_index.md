@@ -1,14 +1,14 @@
 ---
 title: MarkdownSaveOptions.MarkdownImageSavingHandler
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Invocata per ogni immagine non SVG (bitmap o metafile) durante l'esportazione Markdown. Restituisce true per utilizzare il collegamento specificato o false per applicare la logica di salvataggio predefinita.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Invocato per ogni immagine non SVG bitmap o metafile durante l'esportazione Markdown. Restituisce true per usare il collegamento specificato o false per applicare la logica di salvataggio predefinita.
 type: docs
-weight: 4260
+weight: 4280
 url: /it/aspose.slides.export/markdownsaveoptions.markdownimagesavinghandler/
 ---
 ## MarkdownSaveOptions.MarkdownImageSavingHandler delegate
 
-Invocata per ogni immagine non SVG (bitmap o metafile) durante l'esportazione Markdown. Restituisce `true` per utilizzare il *link* specificato, oppure `false` per applicare la logica di salvataggio predefinita.
+Invocato per ogni immagine non SVG (bitmap o metafile) durante l'esportazione Markdown. Restituisce `true` per usare il *collegamento* specificato, o `false` per applicare la logica di salvataggio predefinita.
 
 ```csharp
 public delegate bool MarkdownImageSavingHandler(IImage image, ImageFormat format, ref string link);
@@ -23,7 +23,7 @@ public delegate bool MarkdownImageSavingHandler(IImage image, ImageFormat format
 ### Vedi anche
 
 * interfaccia [IImage](../../aspose.slides/iimage)
-* enum [ImageFormat](../../aspose.slides/imageformat)
+* enumerazione [ImageFormat](../../aspose.slides/imageformat)
 * classe [MarkdownSaveOptions](../markdownsaveoptions)
 * spazio dei nomi [Aspose.Slides.Export](../../aspose.slides.export)
 * assembly [Aspose.Slides](../../)

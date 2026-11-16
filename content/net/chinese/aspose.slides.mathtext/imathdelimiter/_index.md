@@ -1,14 +1,14 @@
 ---
 title: IMathDelimiter
 second_title: Aspose.Sildes for .NET API 参考
-description: 指定分隔符对象，由起始和结束字符组成，例如圆括号、花括号、方括号和竖线，并且内部包含一个或多个由指定字符分隔的数学元素。示例 2 2x7C2
+description: 指定分隔符对象，由开闭字符组成，如圆括号、花括号、方括号和竖线，并包含一个或多个通过指定字符分隔的数学元素。示例：2 2|2
 type: docs
-weight: 8210
+weight: 8230
 url: /zh/aspose.slides.mathtext/imathdelimiter/
 ---
 ## IMathDelimiter 接口
 
-指定分隔符对象，由起始和结束字符组成（例如圆括号、花括号、方括号和竖线），以及其中一个或多个数学元素，使用指定字符分隔。示例：(𝑥2); [𝑥2&#x7C;𝑦2]
+指定分隔符对象，由起始和结束字符组成（例如圆括号、花括号、方括号和竖线），以及内部一个或多个由指定字符分隔的数学元素。示例：(𝑥2)；[𝑥2&#x7C;𝑦2]
 
 ```csharp
 public interface IMathDelimiter : IMathElement
@@ -20,17 +20,17 @@ public interface IMathDelimiter : IMathElement
 | --- | --- |
 | [Arguments](../../aspose.slides.mathtext/imathdelimiter/arguments) { get; } | 一个或多个由分隔符字符分隔的数学元素 |
 | [AsIMathElement](../../aspose.slides.mathtext/imathdelimiter/asimathelement) { get; } | 允许获取基础 IMathElement 接口 [`IMathElement`](../imathelement) |
-| [BeginningCharacter](../../aspose.slides.mathtext/imathdelimiter/beginningcharacter) { get; set; } | Delimiter Beginning Character 指定起始或打开的分隔符字符。数学分隔符是诸如圆括号、方括号和花括号等封闭字符。默认值：'('。 |
-| [DelimiterShape](../../aspose.slides.mathtext/imathdelimiter/delimitershape) { get; set; } | 指定分隔符对象中分隔符的形状。当为 MathDelimiterShape.Centered 时，分隔符在数学文本的数学轴上居中，并仍然会调整以适应其内容的整个高度。当为 MathDelimiterShape.Match 时，它们的高度和形状会被修改以精确匹配其内容。 |
-| [EndingCharacter](../../aspose.slides.mathtext/imathdelimiter/endingcharacter) { get; set; } | Delimiter Ending Character 指定结束或关闭的分隔符字符。数学分隔符是诸如圆括号、方括号和花括号等封闭字符。默认值：')'。 |
-| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathdelimiter/growtomatchoperandheight) { get; set; } | 指定 BeginningCharacter、SeparatorCharacter、EndingCharacter 的增长。当为 true 时，分隔符会垂直增长以匹配其操作数的高度。默认值为 true。 |
-| [SeparatorCharacter](../../aspose.slides.mathtext/imathdelimiter/separatorcharacter) { get; set; } | Delimiter Separator Character 指定在分隔符对象中用于分隔参数的字符。默认值：'&#x7C;'。 |
+| [BeginningCharacter](../../aspose.slides.mathtext/imathdelimiter/beginningcharacter) { get; set; } | 分隔符起始字符指定起始或打开的分隔符字符。数学分隔符是诸如圆括号、方括号和花括号等包围字符。默认值： '('。 |
+| [DelimiterShape](../../aspose.slides.mathtext/imathdelimiter/delimitershape) { get; set; } | 指定分隔符对象中分隔符的形状。当为 MathDelimiterShape.Centered 时，分隔符居中于数学文本的数学轴，并且其高度会适应内容的整个高度。当为 MathDelimiterShape.Match 时，分隔符的高度和形状会被调整以完全匹配其内容。 |
+| [EndingCharacter](../../aspose.slides.mathtext/imathdelimiter/endingcharacter) { get; set; } | 分隔符结束字符指定结束或闭合的分隔符字符。数学分隔符是诸如圆括号、方括号和花括号等包围字符。默认值： ')'。 |
+| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathdelimiter/growtomatchoperandheight) { get; set; } | 指定 BeginningCharacter、SeparatorCharacter、EndingCharacter 的增长方式。当为 true 时，分隔符会垂直增长以匹配其操作数的高度。默认值为 true。 |
+| [SeparatorCharacter](../../aspose.slides.mathtext/imathdelimiter/separatorcharacter) { get; set; } | 分隔符分隔字符指定在分隔符对象中分隔参数的字符。默认值： '&#x7C;'。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [Delimit](../../aspose.slides.mathtext/imathdelimiter/delimit)(char) | 使用指定的分隔符字符界定参数 |
+| [Delimit](../../aspose.slides.mathtext/imathdelimiter/delimit)(char) | 使用指定的分隔符字符对参数进行分隔 |
 
 ### 示例
 
@@ -42,7 +42,7 @@ IMathElement element = new MathematicalText("x");
 IMathDelimiter delimiter = element.Enclose();
 ```
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IMathElement](../imathelement)
 * 命名空间 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

@@ -1,14 +1,14 @@
 ---
 title: ISlideText
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đại diện cho văn bản được trích xuất từ slide
+second_title: Aspose.Sildes cho .NET Tham chiếu API
+description: Biểu diễn văn bản được trích xuất từ slide
 type: docs
-weight: 7100
+weight: 7120
 url: /vi/aspose.slides/islidetext/
 ---
-## Giao diện ISlideText
+## ISlideText giao diện
 
-Đại diện cho văn bản được trích xuất từ slide
+Biểu diễn văn bản được trích xuất từ slide
 
 ```csharp
 public interface ISlideText
@@ -19,7 +19,7 @@ public interface ISlideText
 | Tên | Mô tả |
 | --- | --- |
 | [CommentsText](../../aspose.slides/islidetext/commentstext) { get; } | Văn bản của nhận xét slide |
-| [LayoutText](../../aspose.slides/islidetext/layouttext) { get; } | Văn bản trên các hình dạng của trang bố trí cho slide này |
+| [LayoutText](../../aspose.slides/islidetext/layouttext) { get; } | Văn bản trên các hình dạng của trang bố cục cho slide này |
 | [MasterText](../../aspose.slides/islidetext/mastertext) { get; } | Văn bản trên các hình dạng của trang chủ cho slide này |
 | [NotesText](../../aspose.slides/islidetext/notestext) { get; } | Văn bản trên các hình dạng của trang ghi chú cho slide này |
 | [Text](../../aspose.slides/islidetext/text) { get; } | Văn bản trên các hình dạng của slide |

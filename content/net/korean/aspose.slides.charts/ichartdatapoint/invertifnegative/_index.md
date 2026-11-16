@@ -1,14 +1,14 @@
 ---
 title: InvertIfNegative
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 데이터 포인트는 값이 음수인 경우 색상을 반전시킵니다. 읽기/쓰기 Boolean.
+description: 값이 음수인 경우 데이터 포인트가 색상을 반전시켜야 함을 지정합니다. 읽기/쓰기 Boolean.
 type: docs
-weight: 90
+weight: 130
 url: /ko/aspose.slides.charts/ichartdatapoint/invertifnegative/
 ---
 ## IChartDataPoint.InvertIfNegative 속성
 
-데이터 포인트는 값이 음수인 경우 색상을 반전시킵니다. 읽기/쓰기 Boolean.
+값이 음수인 경우 데이터 포인트가 색상을 반전시켜야 합니다. 읽기/쓰기 Boolean.
 
 ```csharp
 public bool InvertIfNegative { get; set; }

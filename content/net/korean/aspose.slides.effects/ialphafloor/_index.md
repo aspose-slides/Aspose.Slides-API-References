@@ -1,14 +1,14 @@
 ---
 title: IAlphaFloor
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: Alpha Floor 효과를 나타냅니다. 알파 불투명도 값이 100 이하인 경우 0으로 변경됩니다. 다시 말해, 부분적으로 투명한 모든 것이 완전히 투명해집니다.
+description: Alpha Floor 효과를 나타냅니다. Alpha 불투명도 값이 100 미만인 경우 0으로 변경됩니다. 즉, 부분적으로 투명한 모든 것이 완전히 투명해집니다.
 type: docs
-weight: 3060
+weight: 3080
 url: /ko/aspose.slides.effects/ialphafloor/
 ---
 ## IAlphaFloor 인터페이스
 
-Alpha Floor 효과를 나타냅니다. 알파(불투명도) 값이 100% 미만인 경우 0으로 변경됩니다. 다시 말해, 부분적으로 투명한 모든 것이 완전히 투명해집니다.
+Alpha Floor 효과를 나타냅니다. Alpha(불투명도) 값이 100% 미만인 경우 0으로 변경됩니다. 즉, 부분적으로 투명한 모든 것이 완전히 투명해집니다.
 
 ```csharp
 public interface IAlphaFloor : IAccessiblePVIObject<IAlphaFloorEffectiveData>, 
@@ -22,7 +22,7 @@ public interface IAlphaFloor : IAccessiblePVIObject<IAlphaFloorEffectiveData>,
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphafloor/asiaccessiblepviobject) { get; } | 기본 IAccessiblePVIObject 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
 | [AsIImageTransformOperation](../../aspose.slides.effects/ialphafloor/asiimagetransformoperation) { get; } | 기본 IImageTransformOperation 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IImageTransformOperation`](../iimagetransformoperation). |
 
-### 참조
+### 참고
 
 * 인터페이스 [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * 인터페이스 [IAlphaFloorEffectiveData](../ialphaflooreffectivedata)

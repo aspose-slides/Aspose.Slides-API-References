@@ -1,14 +1,14 @@
 ---
 title: IMathFunction
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes .NET API Referansı
 description: Bir argümanın fonksiyonunu belirtir.
 type: docs
-weight: 8270
+weight: 8290
 url: /tr/aspose.slides.mathtext/imathfunction/
 ---
 ## IMathFunction arayüz
 
-Bir argümanın fonksiyonunu tanımlar.
+Bir argümanın fonksiyonunu belirtir.
 
 ```csharp
 public interface IMathFunction : IMathElement
@@ -18,7 +18,7 @@ public interface IMathFunction : IMathElement
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathfunction/asimathelement) { get; } | Temel IMathElement arayüzünü almayı sağlar [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathfunction/asimathelement) { get; } | Temel IMathElement arayüzünü almaya izin verir [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathfunction/base) { get; } | Fonksiyon Argümanı |
 | [Name](../../aspose.slides.mathtext/imathfunction/name) { get; } | Fonksiyon adı. Örneğin, fonksiyon adları sin ve cos'tur |
 
@@ -31,7 +31,7 @@ public interface IMathFunction : IMathElement
 IMathFunction sinX = new MathematicalText("sin").Function("x");
 ```
 
-### Ayrıca
+### Ayrıca Bakınız
 
 * arayüz [IMathElement](../imathelement)
 * ad alanı [Aspose.Slides.MathText](../../aspose.slides.mathtext)

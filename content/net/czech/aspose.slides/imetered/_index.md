@@ -1,9 +1,9 @@
 ---
 title: IMetered
-second_title: Aspose.Sildes pro .NET referenci API
+second_title: Aspose.Sildes pro .NET – referenční příručka API
 description: Poskytuje metody pro nastavení měřeného klíče.
 type: docs
-weight: 6450
+weight: 6470
 url: /cs/aspose.slides/imetered/
 ---
 ## IMetered rozhraní

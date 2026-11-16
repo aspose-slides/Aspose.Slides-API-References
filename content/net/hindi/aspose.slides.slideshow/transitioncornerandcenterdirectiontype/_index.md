@@ -3,10 +3,10 @@ title: TransitionCornerAndCenterDirectionType
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
 description: कोनों और केंद्र तक सीमित दिशा को निर्दिष्ट करता है।
 type: docs
-weight: 10340
+weight: 10360
 url: /hi/aspose.slides.slideshow/transitioncornerandcenterdirectiontype/
 ---
-## TransitionCornerAndCenterDirectionType एन्यूमरेशन
+## TransitionCornerAndCenterDirectionType एन्युमरेशन
 
 कोनों और केंद्र तक सीमित दिशा को निर्दिष्ट करता है।
 
@@ -24,7 +24,7 @@ public enum TransitionCornerAndCenterDirectionType
 | RightUp | `3` |  |
 | Center | `4` |  |
 
-### देखें
+### संबंधित देखें
 
 * नामस्थान [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * असेंबली [Aspose.Slides](../../)

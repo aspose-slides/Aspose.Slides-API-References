@@ -1,14 +1,14 @@
 ---
 title: TransitionPattern
 second_title: Aspose.Sildes för .NET API-referens
-description: Anger ett geometriskt mönster som läggs ihop för att fylla ett större område.
+description: Specificerar ett geometriskt mönster som läggs ihop för att fylla ett större område.
 type: docs
-weight: 10400
+weight: 10420
 url: /sv/aspose.slides.slideshow/transitionpattern/
 ---
-## TransitionPattern uppräkning
+## TransitionPattern enumeration
 
-Anger ett geometriskt mönster som läggs ihop för att fylla ett större område.
+Specificerar ett geometriskt mönster som läggs ihop för att fylla ett större område.
 
 ```csharp
 public enum TransitionPattern
@@ -18,10 +18,10 @@ public enum TransitionPattern
 
 | Namn | Värde | Beskrivning |
 | --- | --- | --- |
-| Diamond | `0` | Diamantplattmönster |
-| Hexagon | `1` | Hexagonalplattmönster |
+| Diamond | `0` | Diamond plattmönster |
+| Hexagon | `1` | Hexagon plattmönster |
 
-### Se även
+### Se också
 
 * namnrymd [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * samling [Aspose.Slides](../../)

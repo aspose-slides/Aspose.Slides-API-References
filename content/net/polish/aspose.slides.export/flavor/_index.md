@@ -3,10 +3,10 @@ title: Flavor
 second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Wszystkie specyfikacje markdown używane w programie.
 type: docs
-weight: 3800
+weight: 3820
 url: /pl/aspose.slides.export/flavor/
 ---
-## Enumeracja smaków
+## Enumeracja Flavor
 
 Wszystkie specyfikacje markdown używane w programie.
 
@@ -18,30 +18,30 @@ public enum Flavor
 
 | Nazwa | Wartość | Opis |
 | --- | --- | --- |
-| Github | `0` | Smak Github. |
-| Gruber | `1` | Smak Gruber. |
-| MultiMarkdown | `2` | Smak Multi markdown. |
-| CommonMark | `3` | Smak Common mark. |
-| MarkdownExtra | `4` | Smak Markdown extra. |
-| Pandoc | `5` | Smak Pandoc. |
-| Kramdown | `6` | Smak Kramdown. |
-| Markua | `7` | Smak Markua. |
-| Maruku | `8` | Smak Maruku. |
-| Markdown2 | `9` | Smak Markdown2. |
-| Remarkable | `10` | Smak Remarkable. |
-| Showdown | `11` | Smak Showdown. |
-| Ghost | `12` | Smak Ghost. |
-| GitLab | `13` | Smak Gitlab. |
-| Haroopad | `14` | Smak Haroopad. |
-| IaWriter | `15` | Smak IAWriter. |
-| Redcarpet | `16` | Smak Redcarpet. |
-| ScholarlyMarkdown | `17` | Smak Scholarly markdown. |
-| Taiga | `18` | Smak Taiga. |
-| Trello | `19` | Smak Trello. |
-| S9ETextFormatter | `20` | Smak S9E text formatter. |
-| XWiki | `21` | Smak XWiki. |
-| StackOverflow | `22` | Smak Stack overflow. |
-| Default | `23` | Domyślny smak markdown. |
+| Github | `0` | odmiana Github. |
+| Gruber | `1` | odmiana Gruber. |
+| MultiMarkdown | `2` | odmiana Multi markdown. |
+| CommonMark | `3` | odmiana Common mark. |
+| MarkdownExtra | `4` | odmiana Markdown extra. |
+| Pandoc | `5` | odmiana Pandoc. |
+| Kramdown | `6` | odmiana Kramdown. |
+| Markua | `7` | odmiana Markua. |
+| Maruku | `8` | odmiana Maruku. |
+| Markdown2 | `9` | odmiana Markdown2. |
+| Remarkable | `10` | odmiana Remarkable |
+| Showdown | `11` | odmiana Showdown. |
+| Ghost | `12` | odmiana Ghost. |
+| GitLab | `13` | odmiana Gitlab. |
+| Haroopad | `14` | odmiana Haroopad. |
+| IaWriter | `15` | odmiana IAWriter. |
+| Redcarpet | `16` | odmiana Redcarpet. |
+| ScholarlyMarkdown | `17` | odmiana Scholarly markdown. |
+| Taiga | `18` | odmiana Taiga. |
+| Trello | `19` | odmiana Trello. |
+| S9ETextFormatter | `20` | odmiana S9E text formatter. |
+| XWiki | `21` | odmiana XWiki. |
+| StackOverflow | `22` | odmiana Stack overflow. |
+| Default | `23` | domyślna odmiana markdown. |
 
 ### Przykłady
 

@@ -1,14 +1,14 @@
 ---
 title: GroupingLevels
-second_title: Aspose.Sildes pro .NET API Reference
-description: Spravovaný kontejner hodnot úrovní seskupování kategorií grafu. Kategorie s více úrovněmi obsahuje více než jednu úroveň seskupování. Indexování úrovní seskupování je založeno na nule. Pouze pro čtení IChartCategoryLevelsManageraspose.slides.charts/ichartcategorylevelsmanager.
+second_title: Aspose.Sildes pro .NET API referenci
+description: Spravovaný kontejner hodnot úrovní seskupení kategorií grafu. Víceúrovňová kategorie obsahuje více než jednu úroveň seskupení. Indexování úrovní seskupení je nulové. Pouze pro čtení IChartCategoryLevelsManageraspose.slides.charts/ichartcategorylevelsmanager.
 type: docs
-weight: 30
+weight: 40
 url: /cs/aspose.slides.charts/ichartcategory/groupinglevels/
 ---
 ## IChartCategory.GroupingLevels vlastnost
 
-Spravovaný kontejner hodnot úrovní seskupování kategorií grafu. Kategorie s více úrovněmi obsahuje více než jednu úroveň seskupování. Indexování úrovní seskupování je nulové-založené. Pouze pro čtení [`IChartCategoryLevelsManager`](../../ichartcategorylevelsmanager).
+Spravovaný kontejner hodnot úrovní seskupení kategorií grafu. Víceúrovňová kategorie obsahuje více než jednu úroveň seskupení. Indexování úrovní seskupení je nulové. Pouze pro čtení [`IChartCategoryLevelsManager`](../../ichartcategorylevelsmanager).
 
 ```csharp
 public IChartCategoryLevelsManager GroupingLevels { get; }

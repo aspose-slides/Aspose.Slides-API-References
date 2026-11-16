@@ -1,14 +1,14 @@
 ---
 title: ChartSeriesCollection
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta la collezione di ChartSeries./chartseries
+description: Rappresenta una collezione di ChartSeries./chartseries
 type: docs
-weight: 1450
+weight: 1460
 url: /it/aspose.slides.charts/chartseriescollection/
 ---
 ## ChartSeriesCollection classe
 
-Rappresenta la collezione di [`ChartSeries`](../chartseries)
+Rappresenta una collezione di [`ChartSeries`](../chartseries)
 
 ```csharp
 public class ChartSeriesCollection : DomObject<ChartData>, IChartSeriesCollection
@@ -34,7 +34,7 @@ public class ChartSeriesCollection : DomObject<ChartData>, IChartSeriesCollectio
 | [Clear](../../aspose.slides.charts/chartseriescollection/clear)() | Rimuove tutti i controlli dalla collezione. |
 | [CopyTo](../../aspose.slides.charts/chartseriescollection/copyto)(Array, int) | Copia l'intera collezione nell'array specificato. |
 | [GetEnumerator](../../aspose.slides.charts/chartseriescollection/getenumerator)() | Restituisce un enumeratore che itera attraverso la collezione. |
-| [IndexOf](../../aspose.slides.charts/chartseriescollection/indexof)(IChartSeries) | Cerca il [`ChartSeries`](../chartseries) specificato e restituisce l'indice basato su zero della prima occorrenza nell'intera collezione. |
+| [IndexOf](../../aspose.slides.charts/chartseriescollection/indexof)(IChartSeries) | Cerca il [`ChartSeries`](../chartseries) specificato e restituisce l'indice basato su zero della prima occorrenza all'interno dell'intera Collezione |
 | [Insert](../../aspose.slides.charts/chartseriescollection/insert)(int, ChartType) | Crea una nuova serie di grafico e la inserisce nella collezione. |
 | [Remove](../../aspose.slides.charts/chartseriescollection/remove)(IChartSeries) | Rimuove il valore specificato. |
 | [RemoveAt](../../aspose.slides.charts/chartseriescollection/removeat)(int) | Rimuove un controllo ActiveX memorizzato nella posizione specificata dalla collezione. |

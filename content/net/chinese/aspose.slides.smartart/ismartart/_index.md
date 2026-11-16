@@ -3,7 +3,7 @@ title: ISmartArt
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示一个 SmartArt 图表。
 type: docs
-weight: 10540
+weight: 10560
 url: /zh/aspose.slides.smartart/ismartart/
 ---
 ## ISmartArt 接口
@@ -16,17 +16,17 @@ public interface ISmartArt : IGraphicalObject
 
 ## 属性
 
-| Name | Description |
+| 名称 | 描述 |
 | --- | --- |
-| [AllNodes](../../aspose.slides.smartart/ismartart/allnodes) { get; } | 返回 SmartArt 对象中所有节点的集合。只读 [`ISmartArtNodeCollection`](../ismartartnodecollection)。 |
-| [AsIGraphicalObject](../../aspose.slides.smartart/ismartart/asigraphicalobject) { get; } | 允许获取基 IGraphicalObject 接口。只读 [`IGraphicalObject`](../../aspose.slides/igraphicalobject)。 |
-| [ColorStyle](../../aspose.slides.smartart/ismartart/colorstyle) { get; set; } | 返回或设置 SmartArt 对象的颜色样式。读写 [`SmartArtColorType`](../smartartcolortype)。 |
-| [IsReversed](../../aspose.slides.smartart/ismartart/isreversed) { get; set; } | 返回或设置 SmartArt 图表相对于 (left-to-right) LTR 或 (right-to-left) RTL 的状态（如果图表支持反转）。读写 Boolean。 |
-| [Layout](../../aspose.slides.smartart/ismartart/layout) { get; set; } | 返回或设置 SmartArt 对象的布局。读写 [`SmartArtLayoutType`](../smartartlayouttype)。 |
-| [Nodes](../../aspose.slides.smartart/ismartart/nodes) { get; } | 返回 SmartArt 对象中根节点的集合。只读 [`ISmartArtNodeCollection`](../ismartartnodecollection)。 |
-| [QuickStyle](../../aspose.slides.smartart/ismartart/quickstyle) { get; set; } | 返回或设置 SmartArt 对象的快速样式。读写 [`SmartArtQuickStyleType`](../smartartquickstyletype)。 |
+| [AllNodes](../../aspose.slides.smartart/ismartart/allnodes) { get; } | 返回 SmartArt 对象中所有节点的集合。只读 [`ISmartArtNodeCollection`](../ismartartnodecollection). |
+| [AsIGraphicalObject](../../aspose.slides.smartart/ismartart/asigraphicalobject) { get; } | 允许获取基础 IGraphicalObject 接口。只读 [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
+| [ColorStyle](../../aspose.slides.smartart/ismartart/colorstyle) { get; set; } | 返回或设置 SmartArt 对象的颜色样式。读/写 [`SmartArtColorType`](../smartartcolortype). |
+| [IsReversed](../../aspose.slides.smartart/ismartart/isreversed) { get; set; } | 返回或设置 SmartArt 图表的状态，以对应从左到右 (LTR) 或从右到左 (RTL)，如果图表支持翻转。读/写 Boolean. |
+| [Layout](../../aspose.slides.smartart/ismartart/layout) { get; set; } | 返回或设置 SmartArt 对象的布局。读/写 [`SmartArtLayoutType`](../smartartlayouttype). |
+| [Nodes](../../aspose.slides.smartart/ismartart/nodes) { get; } | 返回 SmartArt 对象中根节点的集合。只读 [`ISmartArtNodeCollection`](../ismartartnodecollection). |
+| [QuickStyle](../../aspose.slides.smartart/ismartart/quickstyle) { get; set; } | 返回或设置 SmartArt 对象的快速样式。读/写 [`SmartArtQuickStyleType`](../smartartquickstyletype). |
 
-### 另请参阅
+### 另见
 
 * 接口 [IGraphicalObject](../../aspose.slides/igraphicalobject)
 * 命名空间 [Aspose.Slides.SmartArt](../../aspose.slides.smartart)

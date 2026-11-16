@@ -1,50 +1,54 @@
 ---
 title: IChartDataPoint
 second_title: Aspose.Sildes の .NET API リファレンス
-description: シリーズ データ ポイントを表します。
+description: シリーズ データポイントを表します。
 type: docs
-weight: 1820
+weight: 1840
 url: /ja/aspose.slides.charts/ichartdatapoint/
 ---
-## IChartDataPoint インターフェイス
+## IChartDataPoint interface
 
-シリーズ データ ポイントを表します。
+シリーズのデータポイントを表します。
 
 ```csharp
 public interface IChartDataPoint : IActualLayout
 ```
 
-## プロパティ
+## Properties
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
 | [AsIActualLayout](../../aspose.slides.charts/ichartdatapoint/asiactuallayout) { get; } | IActualLayout インターフェイスを返します。 |
-| [BubbleSize](../../aspose.slides.charts/ichartdatapoint/bubblesize) { get; } | チャート データ ポイントのバブル サイズを返します。読み取り専用 [`IDoubleChartValue`](../idoublechartvalue)。 |
-| [ColorValue](../../aspose.slides.charts/ichartdatapoint/colorvalue) { get; } | チャート データ ポイントの色値を返します。マップ チャートで使用されます。読み取り専用 [`IDoubleChartValue`](../idoublechartvalue)。 |
-| [DataPointLevels](../../aspose.slides.charts/ichartdatapoint/datapointlevels) { get; } | データ ポイント レベルのコンテナを返します。TreeMap および Sunburst 系列に適用されます。データ ポイント レベルのインデックスは 0 から始まります。 |
-| [ErrorBarsCustomValues](../../aspose.slides.charts/ichartdatapoint/errorbarscustomvalues) { get; } | カスタム値タイプの場合の系列エラーバーの値を表します。読み取り専用 [`IErrorBarsCustomValues`](../ierrorbarscustomvalues)。 |
-| [Explosion](../../aspose.slides.charts/ichartdatapoint/explosion) { get; set; } | データ ポイントを円の中心からどれだけ移動させるかを指定します。読み書き可能 Int32。 |
-| [Format](../../aspose.slides.charts/ichartdatapoint/format) { get; set; } | 書式設定プロパティを表します。読み書き可能 [`IFormat`](../iformat)。 |
-| [Index](../../aspose.slides.charts/ichartdatapoint/index) { get; } | このデータ ポイントが適用される親の子コレクションを決定します。読み取り UInt32。 |
-| [InvertIfNegative](../../aspose.slides.charts/ichartdatapoint/invertifnegative) { get; set; } | 値が負の場合にデータ ポイントが色を反転させるかどうかを指定します。読み書き可能 Boolean。 |
-| [IsBubble3D](../../aspose.slides.charts/ichartdatapoint/isbubble3d) { get; set; } | バブルに 3D 効果が適用されているかを指定します。読み書き可能 Boolean。 |
-| [Label](../../aspose.slides.charts/ichartdatapoint/label) { get; } | チャート データ ポイントのラベルを表します。読み取り専用 [`IDataLabel`](../idatalabel)。 |
+| [BubbleSize](../../aspose.slides.charts/ichartdatapoint/bubblesize) { get; } | チャート データポイントのバブル サイズを取得します。読み取り専用 [`IDoubleChartValue`](../idoublechartvalue)。 |
+| [CachedBubbleSize](../../aspose.slides.charts/ichartdatapoint/cachedbubblesize) { get; } | チャート データポイントのキャッシュされたバブル サイズを取得します。読み取り専用 [`ICachedChartValue`](../icachedchartvalue)。 |
+| [CachedValue](../../aspose.slides.charts/ichartdatapoint/cachedvalue) { get; } | チャート データポイントのキャッシュされた値を取得します。読み取り専用 [`ICachedChartValue`](../icachedchartvalue)。 |
+| [CachedXValue](../../aspose.slides.charts/ichartdatapoint/cachedxvalue) { get; } | チャート データポイントのキャッシュされた X 値を取得します。読み取り専用 [`ICachedChartValue`](../icachedchartvalue)。 |
+| [CachedYValue](../../aspose.slides.charts/ichartdatapoint/cachedyvalue) { get; } | チャート データポイントのキャッシュされた Y 値を取得します。読み取り専用 [`ICachedChartValue`](../icachedchartvalue)。 |
+| [ColorValue](../../aspose.slides.charts/ichartdatapoint/colorvalue) { get; } | チャート データポイントの色値を取得します。マップ チャートで使用されます。読み取り専用 [`IDoubleChartValue`](../idoublechartvalue)。 |
+| [DataPointLevels](../../aspose.slides.charts/ichartdatapoint/datapointlevels) { get; } | データ ポイント レベルのコンテナを返します。Treeamp および Sunburst 系列に適用されます。データ ポイント レベルのインデックスは 0 から始まります。 |
+| [ErrorBarsCustomValues](../../aspose.slides.charts/ichartdatapoint/errorbarscustomvalues) { get; } | カスタム 値タイプの場合のシリーズ エラーバー値を表します。読み取り専用 [`IErrorBarsCustomValues`](../ierrorbarscustomvalues)。 |
+| [Explosion](../../aspose.slides.charts/ichartdatapoint/explosion) { get; set; } | データ ポイントを円の中心から移動させる量を指定します。読み取り/書き込み Int32。 |
+| [Format](../../aspose.slides.charts/ichartdatapoint/format) { get; set; } | 書式設定プロパティを表します。読み取り/書き込み [`IFormat`](../iformat)。 |
+| [Index](../../aspose.slides.charts/ichartdatapoint/index) { get; } | このデータ ポイントが適用される親の子コレクションを決定します。取得 UInt32。 |
+| [InvertIfNegative](../../aspose.slides.charts/ichartdatapoint/invertifnegative) { get; set; } | 値が負の場合にデータ ポイントの色を反転させるか指定します。読み取り/書き込み Boolean。 |
+| [IsBubble3D](../../aspose.slides.charts/ichartdatapoint/isbubble3d) { get; set; } | バブルに 3-D エフェクトが適用されるかを指定します。読み取り/書き込み Boolean。 |
+| [Label](../../aspose.slides.charts/ichartdatapoint/label) { get; } | チャート データポイントのラベルを表します。読み取り専用 [`IDataLabel`](../idatalabel)。 |
 | [Marker](../../aspose.slides.charts/ichartdatapoint/marker) { get; } | データ マーカーを指定します。読み取り専用 [`IMarker`](../imarker)。 |
-| [RelatedLegendEntry](../../aspose.slides.charts/ichartdatapoint/relatedlegendentry) { get; } | 次の一覧にあるチャート タイプの場合の対応する凡例エントリのプロパティ: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie。読み取り専用 [`ILegendEntryProperties`](../ilegendentryproperties)。 |
+| [RelatedLegendEntry](../../aspose.slides.charts/ichartdatapoint/relatedlegendentry) { get; } | このリストのチャート タイプの場合の対応する凡例エントリのプロパティ：ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie。読み取り専用 [`ILegendEntryProperties`](../ilegendentryproperties)。 |
 | [SetAsTotal](../../aspose.slides.charts/ichartdatapoint/setastotal) { get; set; } | データ ポイントを合計として設定します。Waterfall 系列タイプにのみ適用されます。 |
-| [SizeValue](../../aspose.slides.charts/ichartdatapoint/sizevalue) { get; } | チャート データ ポイントのサイズ値を返します。Treemap および Sunburst チャートで使用されます。読み取り専用 [`IDoubleChartValue`](../idoublechartvalue)。 |
-| [Value](../../aspose.slides.charts/ichartdatapoint/value) { get; } | チャート データ ポイントの値を返します。読み取り専用 [`IDoubleChartValue`](../idoublechartvalue)。 |
-| [XValue](../../aspose.slides.charts/ichartdatapoint/xvalue) { get; } | チャート データ ポイントの x 値を返します。読み取り専用 [`IStringOrDoubleChartValue`](../istringordoublechartvalue)。 |
-| [YValue](../../aspose.slides.charts/ichartdatapoint/yvalue) { get; } | チャート データ ポイントの y 値を返します。読み取り専用 [`IDoubleChartValue`](../idoublechartvalue)。 |
+| [SizeValue](../../aspose.slides.charts/ichartdatapoint/sizevalue) { get; } | チャート データポイントのサイズ値を取得します。Treemap および Sunburst チャートで使用されます。読み取り専用 [`IDoubleChartValue`](../idoublechartvalue)。 |
+| [Value](../../aspose.slides.charts/ichartdatapoint/value) { get; } | チャート データポイントの値を取得します。読み取り専用 [`IDoubleChartValue`](../idoublechartvalue)。 |
+| [XValue](../../aspose.slides.charts/ichartdatapoint/xvalue) { get; } | チャート データポイントの x 値を取得します。読み取り専用 [`IStringOrDoubleChartValue`](../istringordoublechartvalue)。 |
+| [YValue](../../aspose.slides.charts/ichartdatapoint/yvalue) { get; } | チャート データポイントの y 値を取得します。読み取り専用 [`IDoubleChartValue`](../idoublechartvalue)。 |
 
-## メソッド
+## Methods
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [GetAutomaticDataPointColor](../../aspose.slides.charts/ichartdatapoint/getautomaticdatapointcolor)() | 系列インデックス、データ ポイント インデックス、ParentSeriesGroup.IsColorVaried プロパティ、チャート スタイルに基づいてデータ ポイントの自動色を返します。この色は FillType が NotDefined の場合にデフォルトで使用されます。 |
-| [Remove](../../aspose.slides.charts/ichartdatapoint/remove)() | データ ポイントをチャート 系列から削除します。 |
+| [GetAutomaticDataPointColor](../../aspose.slides.charts/ichartdatapoint/getautomaticdatapointcolor)() | シリーズ インデックス、データ ポイント インデックス、ParentSeriesGroup.IsColorVaried プロパティ、チャート スタイルに基づくデータ ポイントの自動カラーを返します。FillType が NotDefined の場合、このカラーがデフォルトで使用されます。 |
+| [Remove](../../aspose.slides.charts/ichartdatapoint/remove)() | チャート 系列から DataPoint を削除します。 |
 
-### 参照
+### See Also
 
 * インターフェイス [IActualLayout](../iactuallayout)
 * 名前空間 [Aspose.Slides.Charts](../../aspose.slides.charts)

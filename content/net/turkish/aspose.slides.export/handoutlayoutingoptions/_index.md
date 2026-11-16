@@ -1,9 +1,9 @@
 ---
 title: HandoutLayoutingOptions
-second_title: Aspose.Sildes .NET için API Referansı
+second_title: Aspose.Slides için .NET API Referansı
 description: Dışa aktarma için el ilanı sunum düzeni modunu temsil eder.
 type: docs
-weight: 3840
+weight: 3860
 url: /tr/aspose.slides.export/handoutlayoutingoptions/
 ---
 ## HandoutLayoutingOptions sınıfı
@@ -24,10 +24,10 @@ public class HandoutLayoutingOptions : ISlidesLayoutOptions
 
 | Ad | Açıklama |
 | --- | --- |
-| [Handout](../../aspose.slides.export/handoutlayoutingoptions/handout) { get; set; } | Sayfa [`HandoutType`](../handouttype) üzerine kaç slayt ve hangi sırayla yerleştirileceğini belirtir. |
-| [PrintComments](../../aspose.slides.export/handoutlayoutingoptions/printcomments) { get; set; } | Slaytlarda yorumların görüntülenip görüntülenmeyeceğini belirtir. |
-| [PrintFrameSlide](../../aspose.slides.export/handoutlayoutingoptions/printframeslide) { get; set; } | Görüntülenen slaytların etrafına çerçeve çizilip çizilmeyeceğini belirtir. |
-| [PrintSlideNumbers](../../aspose.slides.export/handoutlayoutingoptions/printslidenumbers) { get; set; } | Görüntülenen slayt numaralarının yazdırılıp yazdırılmayacağını belirtir. |
+| [Handout](../../aspose.slides.export/handoutlayoutingoptions/handout) { get; set; } | Sayfa [`HandoutType`](../handouttype) üzerine kaç slayt yerleştirileceğini ve hangi sırayla yerleştirileceğini belirler. |
+| [PrintComments](../../aspose.slides.export/handoutlayoutingoptions/printcomments) { get; set; } | Slaytlarda yorumların gösterilip gösterilmeyeceğini belirler. |
+| [PrintFrameSlide](../../aspose.slides.export/handoutlayoutingoptions/printframeslide) { get; set; } | Görüntülenen slaytların etrafına çerçeve çizilip çizilmeyeceğini belirler. |
+| [PrintSlideNumbers](../../aspose.slides.export/handoutlayoutingoptions/printslidenumbers) { get; set; } | Görüntülenen slayt numaralarının yazdırılıp yazdırılmayacağını belirler. |
 
 ### Ayrıca Bakınız
 

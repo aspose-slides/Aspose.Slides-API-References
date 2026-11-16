@@ -1,14 +1,14 @@
 ---
 title: SetExternalWorkbook
 second_title: Aspose.Sildes .NET API referencia
-description: Beállítja a külső munkafüzetet adatforrásként a diagramhoz. A diagram adatai a célmunkafüzettel lesznek frissítve.
+description: Beállítja a külső munkafüzetet adatforrásként a diagramhoz. A diagram adatai a célmunkafüzetből lesznek frissítve.
 type: docs
-weight: 120
+weight: 130
 url: /hu/aspose.slides.charts/ichartdata/setexternalworkbook/
 ---
 ## SetExternalWorkbook(string) {#setexternalworkbook}
 
-Beállítja a külső munkafüzetet adatforrásként a diagramhoz. A diagram adatai a célmunkafüzettel lesznek frissítve.
+Beállítja a külső munkafüzetet adatforrásként a diagramhoz. A diagram adatai a célmunkafüzetből lesznek frissítve.
 
 ```csharp
 public void SetExternalWorkbook(string workbookPath)
@@ -16,13 +16,13 @@ public void SetExternalWorkbook(string workbookPath)
 
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
-| workbookPath | String | Path to the target workbook |
+| workbookPath | String | A célmunkafüzet elérési útja |
 
 ### Kivételek
 
 | kivétel | feltétel |
 | --- | --- |
-| InvalidOperationException | External workbook is not available or can't be loaded. |
+| InvalidOperationException | A külső munkafüzet nem érhető el, vagy nem tölthető be. |
 
 ### Példák
 
@@ -54,14 +54,14 @@ public void SetExternalWorkbook(string workbookPath, bool updateChartData)
 
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
-| workbookPath | String | Path to the target workbook |
-| updateChartData | Boolean | Ha az érték hamis, csak a munkafüzet elérési útja frissül. A diagram adatai nem töltődnek be és nem frissülnek a célmunkafüzettel. Akkor használható, ha a célmunkafüzet nem létezik vagy nem érhető el. Ha az érték igaz, a diagram adatai a célmunkafüzettel frissülnek. |
+| workbookPath | String | A célmunkafüzet elérési útja |
+| updateChartData | Boolean | Ha az érték hamis, csak a munkafüzet útvonala lesz frissítve. A diagram adatai nem lesznek betöltve és frissítve a célmunkafüzetből. Akkor használható, ha a célmunkafüzet nem létezik vagy nem érhető el. Ha az érték igaz, a diagram adatai a célmunkafüzetből lesznek frissítve. |
 
 ### Kivételek
 
 | kivétel | feltétel |
 | --- | --- |
-| InvalidOperationException | External workbook is not available or can't be loaded. |
+| InvalidOperationException | A külső munkafüzet nem érhető el, vagy nem tölthető be. |
 
 ### Példák
 

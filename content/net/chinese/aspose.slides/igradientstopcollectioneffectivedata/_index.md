@@ -1,9 +1,9 @@
 ---
 title: IGradientStopCollectionEffectiveData
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 表示 GradientStopDataEx 对象的集合。
 type: docs
-weight: 6040
+weight: 6060
 url: /zh/aspose.slides/igradientstopcollectioneffectivedata/
 ---
 ## IGradientStopCollectionEffectiveData 接口
@@ -19,9 +19,9 @@ public interface IGradientStopCollectionEffectiveData :
 
 | 名称 | 描述 |
 | --- | --- |
-| [Item](../../aspose.slides/igradientstopcollectioneffectivedata/item) { get; } | 返回通过索引的渐变停止点。 |
+| [Item](../../aspose.slides/igradientstopcollectioneffectivedata/item) { get; } | 按索引返回渐变停止。 |
 
-### 另请参见
+### 另见
 
 * 接口 [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * 接口 [IGradientStopEffectiveData](../igradientstopeffectivedata)

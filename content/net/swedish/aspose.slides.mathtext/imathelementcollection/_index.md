@@ -3,7 +3,7 @@ title: IMathElementCollection
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en samling av matematiska element MathElement.
 type: docs
-weight: 8240
+weight: 8260
 url: /sv/aspose.slides.mathtext/imathelementcollection/
 ---
 ## IMathElementCollection gränssnitt
@@ -18,9 +18,9 @@ public interface IMathElementCollection : IEnumerable<IMathElement>
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.mathtext/imathelementcollection/asienumerable) { get; } | Returnerar IEnumerable-gränssnitt. Skrivskyddad IEnumerable. |
-| [Count](../../aspose.slides.mathtext/imathelementcollection/count) { get; } | Hämtar antalet element som faktiskt finns i samlingen. Skrivskyddad Int32. |
-| [Item](../../aspose.slides.mathtext/imathelementcollection/item) { get; } | Hämtar elementet på det angivna indexet. Skrivskyddad [`IMathElement`](../imathelement). |
+| [AsIEnumerable](../../aspose.slides.mathtext/imathelementcollection/asienumerable) { get; } | Returnerar IEnumerable-gränssnittet. Endast läsbar IEnumerable. |
+| [Count](../../aspose.slides.mathtext/imathelementcollection/count) { get; } | Hämtar antalet element som faktiskt finns i samlingen. Endast läsbar Int32. |
+| [Item](../../aspose.slides.mathtext/imathelementcollection/item) { get; } | Hämtar elementet på det angivna indexet. Endast läsbar [`IMathElement`](../imathelement). |
 
 ## Metoder
 
@@ -28,9 +28,9 @@ public interface IMathElementCollection : IEnumerable<IMathElement>
 | --- | --- |
 | [Add](../../aspose.slides.mathtext/imathelementcollection/add)(IMathElement) | Lägger till ett matematiskt element i slutet av samlingen. |
 | [Clear](../../aspose.slides.mathtext/imathelementcollection/clear)() | Tar bort alla element från samlingen. |
-| [Contains](../../aspose.slides.mathtext/imathelementcollection/contains)(IMathElement) | Bestämmer om samlingen innehåller ett specifikt värde. |
+| [Contains](../../aspose.slides.mathtext/imathelementcollection/contains)(IMathElement) | Avgör om samlingen innehåller ett specifikt värde. |
 | [CopyTo](../../aspose.slides.mathtext/imathelementcollection/copyto)(IMathElement[], int) | Kopierar till angiven array. |
-| [IndexOf](../../aspose.slides.mathtext/imathelementcollection/indexof)(IMathElement) | Bestämmer indexet för ett specifikt matematiskt element i samlingen. |
+| [IndexOf](../../aspose.slides.mathtext/imathelementcollection/indexof)(IMathElement) | Avgör indexet för ett specifikt matematiskt element i samlingen. |
 | [Insert](../../aspose.slides.mathtext/imathelementcollection/insert)(int, IMathElement) | Infogar ett matematiskt element i samlingen på det angivna indexet. |
 | [Remove](../../aspose.slides.mathtext/imathelementcollection/remove)(IMathElement) | Tar bort den första förekomsten av ett specifikt objekt från samlingen. |
 | [RemoveAt](../../aspose.slides.mathtext/imathelementcollection/removeat)(int) | Tar bort elementet på det angivna indexet i samlingen. |

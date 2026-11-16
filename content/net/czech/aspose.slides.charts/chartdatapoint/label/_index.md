@@ -1,14 +1,14 @@
 ---
 title: Label
 second_title: Aspose.Sildes pro .NET API Reference
-description: Label. Pouze pro čtení IDataLabelaspose.slides.charts/idatalabel.
+description: Label. Pouze ke čtení IDataLabelaspose.slides.charts/idatalabel.
 type: docs
-weight: 140
+weight: 180
 url: /cs/aspose.slides.charts/chartdatapoint/label/
 ---
 ## ChartDataPoint.Label vlastnost
 
-Label. Pouze pro čtení [`IDataLabel`](../../idatalabel).
+Label. Pouze ke čtení [`IDataLabel`](../../idatalabel).
 
 ```csharp
 public IDataLabel Label { get; }

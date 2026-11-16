@@ -1,9 +1,9 @@
 ---
 title: ILegend
 second_title: Aspose.Sildes for .NET API 參考
-description: 表示圖表的圖例屬性。
+description: 表示圖表圖例屬性。
 type: docs
-weight: 2130
+weight: 2150
 url: /zh-hant/aspose.slides.charts/ilegend/
 ---
 ## ILegend 介面
@@ -16,14 +16,14 @@ public interface ILegend : IActualLayout, IFormattedTextContainer, ILayoutable
 
 ## 屬性
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
 | [AsIFormattedTextContainer](../../aspose.slides.charts/ilegend/asiformattedtextcontainer) { get; } | 允許取得基礎 IFormattedTextContainer 介面。唯讀 [`IFormattedTextContainer`](../iformattedtextcontainer)。 |
 | [AsILayoutable](../../aspose.slides.charts/ilegend/asilayoutable) { get; } | 允許取得基礎 ILayoutable 介面。唯讀 [`ILayoutable`](../ilayoutable)。 |
 | [Entries](../../aspose.slides.charts/ilegend/entries) { get; } | 取得圖例項目。唯讀 [`ILegendEntryCollection`](../ilegendentrycollection)。 |
 | [Format](../../aspose.slides.charts/ilegend/format) { get; } | 傳回圖例的格式。唯讀 [`IFormat`](../iformat)。 |
 | [Overlay](../../aspose.slides.charts/ilegend/overlay) { get; set; } | 決定是否允許其他圖表元素覆蓋圖例。可讀寫 Boolean。 |
-| [Position](../../aspose.slides.charts/ilegend/position) { get; set; } | 指定圖例在圖表上的位置。X、Y、Width、Heigt 屬性的非 NaN 值會覆寫此屬性的效果。可讀寫 [`LegendPositionType`](../legendpositiontype)。 |
+| [Position](../../aspose.slides.charts/ilegend/position) { get; set; } | 指定圖例在圖表上的位置。X、Y、Width、Heigt 屬性的非 NaN 值會覆蓋此屬性的效果。可讀寫 [`LegendPositionType`](../legendpositiontype)。 |
 
 ### 另請參閱
 

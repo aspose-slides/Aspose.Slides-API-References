@@ -1,14 +1,14 @@
 ---
 title: MarkdownSaveOptions.MarkdownSvgImageSavingHandler
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Invocato per ogni immagine SVG durante l'esportazione Markdown. Restituisce true per utilizzare il collegamento specificato o false per applicare la logica di salvataggio predefinita.
+description: Invocato per ogni immagine SVG durante l'esportazione Markdown. Restituisce true per utilizzare il link specificato o false per applicare la logica di salvataggio predefinita.
 type: docs
-weight: 4270
+weight: 4290
 url: /it/aspose.slides.export/markdownsaveoptions.markdownsvgimagesavinghandler/
 ---
 ## MarkdownSaveOptions.MarkdownSvgImageSavingHandler delegato
 
-Invocato per ogni immagine SVG durante l'esportazione Markdown. Restituire `true` per utilizzare il *link* specificato, oppure `false` per applicare la logica di salvataggio predefinita.
+Invocato per ogni immagine SVG durante l'esportazione Markdown. Restituisce `true` per utilizzare il *link* specificato, oppure `false` per applicare la logica di salvataggio predefinita.
 
 ```csharp
 public delegate bool MarkdownSvgImageSavingHandler(ISvgImage svgImage, ref string link);
@@ -16,8 +16,8 @@ public delegate bool MarkdownSvgImageSavingHandler(ISvgImage svgImage, ref strin
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| svgImage | ISvgImage | L'immagine SVG esportata. |
-| link | String& | Il collegamento Markdown da utilizzare quando si restituisce `true`. |
+| svgImage | ISvgImage | L'immagine SVG in esportazione. |
+| link | String& | Il link Markdown da utilizzare quando si restituisce `true`. |
 
 ### Vedi anche
 

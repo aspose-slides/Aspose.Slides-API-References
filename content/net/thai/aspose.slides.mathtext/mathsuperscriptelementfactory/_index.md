@@ -1,9 +1,9 @@
 ---
 title: MathSuperscriptElementFactory
-second_title: Aspose.Sildes สำหรับ .NET API Reference
+second_title: Aspose.Sildes สำหรับ .NET API
 description: อนุญาตให้สร้าง IMathSuperscriptElement
 type: docs
-weight: 9030
+weight: 9050
 url: /th/aspose.slides.mathtext/mathsuperscriptelementfactory/
 ---
 ## MathSuperscriptElementFactory คลาส
@@ -14,11 +14,11 @@ url: /th/aspose.slides.mathtext/mathsuperscriptelementfactory/
 public class MathSuperscriptElementFactory : IMathSuperscriptElementFactory
 ```
 
-## คอนสตรักเตอร์
+## คอนสตรัคเตอร์
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [MathSuperscriptElementFactory](mathsuperscriptelementfactory)() | คอนสตรักเตอร์เริ่มต้น |
+| [MathSuperscriptElementFactory](mathsuperscriptelementfactory)() | คอนสตรัคเตอร์เริ่มต้น. |
 
 ## เมธอด
 
@@ -28,11 +28,11 @@ public class MathSuperscriptElementFactory : IMathSuperscriptElementFactory
 
 ### หมายเหตุ
 
-สำหรับความเข้ากันได้กับ COM
+สำหรับความเข้ากันได้ของ COM
 
 ### ดูเพิ่มเติม
 
-* อินเตอร์เฟซ [IMathSuperscriptElementFactory](../imathsuperscriptelementfactory)
+* อินเทอร์เฟซ [IMathSuperscriptElementFactory](../imathsuperscriptelementfactory)
 * เนมสเปซ [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * แอสเซมบลี [Aspose.Slides](../../)
 

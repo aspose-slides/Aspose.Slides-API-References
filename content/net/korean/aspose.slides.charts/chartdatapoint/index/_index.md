@@ -3,7 +3,7 @@ title: Index
 second_title: Aspose.Sildes for .NET API 참조
 description: 
 type: docs
-weight: 110
+weight: 150
 url: /ko/aspose.slides.charts/chartdatapoint/index/
 ---
 ## ChartDataPoint.Index 속성
@@ -12,7 +12,7 @@ url: /ko/aspose.slides.charts/chartdatapoint/index/
 public uint Index { get; }
 ```
 
-### 참고
+### 관련 항목
 
 * 클래스 [ChartDataPoint](../../chartdatapoint)
 * 네임스페이스 [Aspose.Slides.Charts](../../chartdatapoint)

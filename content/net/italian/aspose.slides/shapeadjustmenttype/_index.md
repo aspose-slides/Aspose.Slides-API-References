@@ -1,14 +1,14 @@
 ---
 title: ShapeAdjustmentType
-second_title: Aspose.Sildes per .NET API Reference
-description: Specifica i diversi tipi di valori di regolazione della forma.
+second_title: Aspose.Sildes per il riferimento API .NET
+description: Specifica diversi tipi di valori di regolazione della forma.
 type: docs
-weight: 9840
+weight: 9860
 url: /it/aspose.slides/shapeadjustmenttype/
 ---
-## Enumerazione ShapeAdjustmentType
+## ShapeAdjustmentType enumerazione
 
-Specifica i diversi tipi di valori di regolazione della forma.
+Specifica diversi tipi di valori di regolazione della forma.
 
 ```csharp
 public enum ShapeAdjustmentType
@@ -29,25 +29,25 @@ public enum ShapeAdjustmentType
 | ArrowheadLength | `8` | Controlla la lunghezza della punta della freccia. |
 | ArrowheadWidth | `9` | Controlla la larghezza della punta della freccia. |
 | Radius | `10` | Controlla la dimensione del raggio della forma o della sua parte. |
-| Depth | `11` | Controlla la profondità dei denti dell'ingranaggio o l'effetto smusso. |
-| ShapePartOffset | `12` | Controlla lo scostamento di una parte della figura rispetto a un'altra. |
-| Angle | `13` | Controlla l'angolo della figura o della sua parte. |
-| StartAngle | `14` | Angolo iniziale per forme a torta e ad arco. |
-| EndAngle | `15` | Angolo finale per forme a torta e ad arco. |
-| StartPointX | `16` | Controlla la posizione X del punto di inizio del commento. |
-| StartPointY | `17` | Controlla la posizione Y del punto di inizio del commento. |
-| ConnectorPoint1X | `18` | Controlla la posizione orizzontale del punto di regolazione dell'angolo del commento. |
-| ConnectorPoint1Y | `19` | Controlla la posizione verticale del punto di regolazione dell'angolo del commento. |
-| ConnectorPoint2X | `20` | Controlla la posizione orizzontale del punto di regolazione dell'angolo del commento. |
-| ConnectorPoint2Y | `21` | Controlla la posizione verticale del punto di regolazione dell'angolo del commento. |
-| ConnectorBendPositionX | `22` | Controlla la posizione orizzontale della curvatura del connettore. |
-| ConnectorBendPositionY | `23` | Controlla la posizione verticale della curvatura del connettore. |
-| AttachY | `24` | Controlla il punto di ancoraggio verticale della figura. |
-| AttachX | `25` | Controlla il punto di ancoraggio orizzontale della figura. |
-| CalloutHeight | `26` | Controlla la dimensione verticale del commento. |
-| CalloutWidth | `27` | Controlla la dimensione orizzontale del commento. |
-| CalloutSize | `28` | Controlla la dimensione del commento. |
-| Curvature | `29` | Curvatura di una piega, parentesi graffa, freccia curva o forma. |
+| Depth | `11` | Controlla la profondità dei denti dell'ingranaggio o dell'effetto smusso. |
+| ShapePartOffset | `12` | Controlla lo spostamento di una parte della figura rispetto a un'altra. |
+| Angle | `13` | Controlla l'angolo per la figura o la sua parte. |
+| StartAngle | `14` | Angolo di inizio per le forme a torta e ad arco. |
+| EndAngle | `15` | Angolo di fine per le forme a torta e ad arco. |
+| StartPointX | `16` | Controlla la posizione X del punto di avvio della callout. |
+| StartPointY | `17` | Controlla la posizione Y del punto di avvio della callout. |
+| ConnectorPoint1X | `18` | Controlla la posizione orizzontale del punto di regolazione dell'angolo della callout. |
+| ConnectorPoint1Y | `19` | Controlla la posizione verticale del punto di regolazione dell'angolo della callout. |
+| ConnectorPoint2X | `20` | Controlla la posizione orizzontale del punto di regolazione dell'angolo della callout. |
+| ConnectorPoint2Y | `21` | Controlla la posizione verticale del punto di regolazione dell'angolo della callout. |
+| ConnectorBendPositionX | `22` | Controlla la posizione orizzontale della curvatura nel connettore. |
+| ConnectorBendPositionY | `23` | Controlla la posizione verticale della curvatura nel connettore. |
+| AttachY | `24` | Controlla il punto di aggancio verticale della figura. |
+| AttachX | `25` | Controlla il punto di aggancio orizzontale della figura. |
+| CalloutHeight | `26` | Controlla la dimensione verticale della callout. |
+| CalloutWidth | `27` | Controlla la dimensione orizzontale della callout. |
+| CalloutSize | `28` | Controlla la dimensione della callout. |
+| Curvature | `29` | Curvatura di una piega, parentesi, freccia curva o forma. |
 | HorizontalThickness | `30` | Controlla lo spessore orizzontale della forma d'angolo. |
 | VerticalThickness | `31` | Controlla lo spessore verticale della forma d'angolo. |
 | VerticalSize | `32` | Controlla la dimensione verticale della forma. |

@@ -3,7 +3,7 @@ title: IGradientFormat
 second_title: Aspose.Sildes para .NET Referência da API
 description: Representa um formato de gradiente.
 type: docs
-weight: 6000
+weight: 6020
 url: /pt/aspose.slides/igradientformat/
 ---
 ## IGradientFormat interface
@@ -24,9 +24,9 @@ public interface IGradientFormat : IFillParamSource
 | [GradientStops](../../aspose.slides/igradientformat/gradientstops) { get; } | Retorna a coleção de pontos de gradiente. Somente leitura [`IGradientStopCollection`](../igradientstopcollection). |
 | [LinearGradientAngle](../../aspose.slides/igradientformat/lineargradientangle) { get; set; } | Retorna ou define o ângulo de um gradiente. Leitura/gravação Single. |
 | [LinearGradientScaled](../../aspose.slides/igradientformat/lineargradientscaled) { get; set; } | Determina se um gradiente é dimensionado. Leitura/gravação [`NullableBool`](../nullablebool). |
-| [TileFlip](../../aspose.slides/igradientformat/tileflip) { get; set; } | Retorna ou define o modo de inversão para um gradiente. Leitura/gravação [`TileFlip`](../tileflip). |
+| [TileFlip](../../aspose.slides/igradientformat/tileflip) { get; set; } | Retorna ou define o modo de espelhamento de um gradiente. Leitura/gravação [`TileFlip`](../tileflip). |
 
-### Veja Também
+### Ver também
 
 * interface [IFillParamSource](../ifillparamsource)
 * namespace [Aspose.Slides](../../aspose.slides)

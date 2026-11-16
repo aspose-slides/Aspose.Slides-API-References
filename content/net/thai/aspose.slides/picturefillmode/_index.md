@@ -1,20 +1,20 @@
 ---
 title: PictureFillMode
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: กำหนดวิธีที่รูปภาพจะเติมเต็มพื้นที่.
+description: กำหนดวิธีที่ภาพจะเติมพื้นที่
 type: docs
-weight: 9400
+weight: 9420
 url: /th/aspose.slides/picturefillmode/
 ---
-## PictureFillMode enum
+## PictureFillMode enumeration
 
-กำหนดวิธีการที่รูปภาพจะเติมเต็มพื้นที่.
+กำหนดวิธีที่ภาพจะเติมพื้นที่
 
 ```csharp
 public enum PictureFillMode
 ```
 
-### ค่าต่างๆ
+### ค่า
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |

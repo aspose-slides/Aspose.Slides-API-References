@@ -1,9 +1,9 @@
 ---
 title: ITabCollection
-second_title: Aspose.Sildes für .NET API Referenz
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt eine Sammlung von Registerkarten dar.
 type: docs
-weight: 7200
+weight: 7220
 url: /de/aspose.slides/itabcollection/
 ---
 ## ITabCollection Schnittstelle
@@ -18,7 +18,7 @@ public interface ITabCollection : IGenericCollection<ITab>
 
 | Name | Beschreibung |
 | --- | --- |
-| [Item](../../aspose.slides/itabcollection/item) { get; } | Ruft das Element am angegebenen Index ab. Nur-Lesen [`ITab`](../itab). |
+| [Item](../../aspose.slides/itabcollection/item) { get; } | Gibt das Element am angegebenen Index zurück. Nur-Lese [`ITab`](../itab). |
 
 ## Methoden
 

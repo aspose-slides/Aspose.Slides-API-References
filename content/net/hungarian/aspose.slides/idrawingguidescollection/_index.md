@@ -1,14 +1,14 @@
 ---
 title: IDrawingGuidesCollection
-second_title: Aspose.Sildes .NET API hivatkozás
-description: A szabályozható rajzolási segédvonalak gyűjteményét képviseli.
+second_title: Aspose.Sildes .NET API Referenciája
+description: A módosítható rajzolási segédvonalak gyűjteményét képviseli.
 type: docs
-weight: 5730
+weight: 5750
 url: /hu/aspose.slides/idrawingguidescollection/
 ---
 ## IDrawingGuidesCollection interfész
 
-A szabályozható rajzolási segédvonalak gyűjteményét képviseli.
+A módosítható rajzolási segédvonalak gyűjteményét képviseli.
 
 ```csharp
 public interface IDrawingGuidesCollection : IEnumerable<IDrawingGuide>
@@ -18,16 +18,16 @@ public interface IDrawingGuidesCollection : IEnumerable<IDrawingGuide>
 
 | Név | Leírás |
 | --- | --- |
-| [Count](../../aspose.slides/idrawingguidescollection/count) { get; } | Lekéri a gyűjteményben lévő összes elem számát. Csak olvasható Int32. |
-| [Item](../../aspose.slides/idrawingguidescollection/item) { get; } | Visszaadja a rajzolási segédvonalat index szerint. Csak olvasható [`IDrawingGuide`](../idrawingguide). |
+| [Count](../../aspose.slides/idrawingguidescollection/count) { get; } | Megkapja a gyűjteményben lévő összes elem számát. Csak olvasható Int32. |
+| [Item](../../aspose.slides/idrawingguidescollection/item) { get; } | Visszaadja a rajzolási segédvonalat az index alapján. Csak olvasható [`IDrawingGuide`](../idrawingguide). |
 
 ## Metódusok
 
 | Név | Leírás |
 | --- | --- |
 | [Add](../../aspose.slides/idrawingguidescollection/add)(Orientation, float) | Hozzáadja a rajzolási segédvonalat a gyűjtemény végéhez. |
-| [Clear](../../aspose.slides/idrawingguidescollection/clear)() | Eltávolítja a gyűjtemény összes elemét. |
-| [RemoveAt](../../aspose.slides/idrawingguidescollection/removeat)(int) | Eltávolítja a megadott indexű rajzolási segédvonalat. |
+| [Clear](../../aspose.slides/idrawingguidescollection/clear)() | Eltávolítja az összes elemet a gyűjteményből. |
+| [RemoveAt](../../aspose.slides/idrawingguidescollection/removeat)(int) | Eltávolítja a rajzolási segédvonalat a megadott indexnél. |
 
 ### Lásd még
 

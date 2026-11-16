@@ -1,9 +1,9 @@
 ---
 title: InOutTransition
-second_title: Aspose.Sildes용 .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 인-아웃 슬라이드 전환 효과.
 type: docs
-weight: 10230
+weight: 10250
 url: /ko/aspose.slides.slideshow/inouttransition/
 ---
 ## InOutTransition 클래스
@@ -24,10 +24,10 @@ public class InOutTransition : TransitionValueBase, IInOutTransition
 
 | 이름 | 설명 |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 두 TransitionValueBase 인스턴스가 같은지 여부를 판단합니다. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 특정 유형에 대한 해시 함수 역할을 수행하며, 해시 알고리즘 및 해시 테이블과 같은 데이터 구조에서 사용할 수 있습니다. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 두 TransitionValueBase 인스턴스가 같은지 판단합니다. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 특정 타입에 대한 해시 함수로 작동하며, 해시 알고리즘 및 해시 테이블과 같은 데이터 구조에 사용하기에 적합합니다. |
 
-### 참조
+### 참고
 
 * 클래스 [TransitionValueBase](../transitionvaluebase)
 * 인터페이스 [IInOutTransition](../iinouttransition)

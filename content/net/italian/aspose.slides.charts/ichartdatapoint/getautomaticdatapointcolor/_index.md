@@ -1,20 +1,20 @@
 ---
 title: GetAutomaticDataPointColor
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Restituisce un colore automatico del punto dati basato sull'indice della serie, sull'indice del punto dati, sulla proprietà ParentSeriesGroup.IsColorVaried e sullo stile del grafico. Questo colore è utilizzato per impostazione predefinita se FillType è uguale a NotDefined.
+description: Restituisce un colore automatico del punto dati basato sull'indice della serie, sull'indice del punto dati, sulla proprietà ParentSeriesGroup.IsColorVaried e sullo stile del diagramma. Questo colore viene utilizzato per impostazione predefinita se FillType è uguale a NotDefined.
 type: docs
-weight: 190
+weight: 230
 url: /it/aspose.slides.charts/ichartdatapoint/getautomaticdatapointcolor/
 ---
 ## IChartDataPoint.GetAutomaticDataPointColor metodo
 
-Restituisce un colore automatico del punto dati basato sull'indice della serie, sull'indice del punto dati, sulla proprietà ParentSeriesGroup.IsColorVaried e sullo stile del grafico. Questo colore è utilizzato per impostazione predefinita se FillType è uguale a NotDefined.
+Restituisce un colore automatico del punto dati basato sull'indice della serie, sull'indice del punto dati, sulla proprietà ParentSeriesGroup.IsColorVaried e sullo stile del diagramma. Questo colore viene utilizzato per impostazione predefinita se FillType è uguale a NotDefined.
 
 ```csharp
 public Color GetAutomaticDataPointColor()
 ```
 
-### Valore restituito
+### Valore di ritorno
 
 Colore automatico del punto dati Color
 

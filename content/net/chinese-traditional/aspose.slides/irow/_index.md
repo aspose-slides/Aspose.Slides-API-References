@@ -1,14 +1,14 @@
 ---
 title: IRow
 second_title: Aspose.Sildes for .NET API 參考
-description: 表示表格中的行。
+description: 表示表格中的一列。
 type: docs
-weight: 6850
+weight: 6870
 url: /zh-hant/aspose.slides/irow/
 ---
 ## IRow 介面
 
-表示表格中的行。
+表示表格中的一列。
 
 ```csharp
 public interface IRow : IBulkTextFormattable, ICellCollection
@@ -16,15 +16,15 @@ public interface IRow : IBulkTextFormattable, ICellCollection
 
 ## 屬性
 
-| 名稱 | 說明 |
+| Name | Description |
 | --- | --- |
 | [AsIBulkTextFormattable](../../aspose.slides/irow/asibulktextformattable) { get; } | 允許取得基礎 IBulkTextFormattable 介面。唯讀 [`IBulkTextFormattable`](../ibulktextformattable)。 |
 | [AsICellCollection](../../aspose.slides/irow/asicellcollection) { get; } | 允許取得基礎 ICellCollection 介面。唯讀 [`ICellCollection`](../icellcollection)。 |
-| [Height](../../aspose.slides/irow/height) { get; } | 返回行的高度。唯讀 Double。 |
-| [MinimalHeight](../../aspose.slides/irow/minimalheight) { get; set; } | 返回或設定行的最小可能高度。讀寫 Double。 |
-| [RowFormat](../../aspose.slides/irow/rowformat) { get; } | 返回包含此行格式屬性的 RowFormat 物件。唯讀 [`IRowFormat`](../irowformat)。 |
+| [Height](../../aspose.slides/irow/height) { get; } | 傳回列的高度。唯讀 Double。 |
+| [MinimalHeight](../../aspose.slides/irow/minimalheight) { get; set; } | 傳回或設定列的最小可能高度。可讀寫 Double。 |
+| [RowFormat](../../aspose.slides/irow/rowformat) { get; } | 傳回包含此列格式屬性的 RowFormat 物件。唯讀 [`IRowFormat`](../irowformat)。 |
 
-### 另請參閱
+### 參見
 
 * 介面 [IBulkTextFormattable](../ibulktextformattable)
 * 介面 [ICellCollection](../icellcollection)

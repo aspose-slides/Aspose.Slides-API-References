@@ -1,14 +1,14 @@
 ---
 title: Format
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar formateringsinställningarna. Läs/skriv IFormataspose.slides.charts/iformat.
+description: Representerar formateringsegenskaperna. Läs/skriv IFormataspose.slides.charts/iformat.
 type: docs
-weight: 100
+weight: 140
 url: /sv/aspose.slides.charts/chartdatapoint/format/
 ---
 ## ChartDataPoint.Format egenskap
 
-Representerar formateringsinställningarna. Läs/skriv [`IFormat`](../../iformat).
+Representerar formateringsegenskaperna. Läs/skriv [`IFormat`](../../iformat).
 
 ```csharp
 public IFormat Format { get; set; }

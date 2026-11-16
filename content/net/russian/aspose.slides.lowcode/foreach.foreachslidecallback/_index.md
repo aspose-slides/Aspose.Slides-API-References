@@ -1,14 +1,14 @@
 ---
 title: ForEach.ForEachSlideCallback
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Aspose.Sildes для .NET справочника API
 description: Обратный вызов, который будет вызываться для каждого Slide./foreach/slide в Presentation../aspose.slides/presentation.
 type: docs
-weight: 7960
+weight: 7980
 url: /ru/aspose.slides.lowcode/foreach.foreachslidecallback/
 ---
 ## ForEach.ForEachSlideCallback делегат
 
-Обратный вызов, который будет вызван для каждого [`Slide`](../foreach/slide) в [`Presentation`](../../aspose.slides/presentation).
+Обратный вызов, который будет вызываться для каждого [`Slide`](../foreach/slide) в [`Presentation`](../../aspose.slides/presentation).
 
 ```csharp
 public delegate void ForEachSlideCallback(Slide slide, int index);
@@ -16,7 +16,7 @@ public delegate void ForEachSlideCallback(Slide slide, int index);
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| slide | Slide | Текущий обрабатываемый слайд |
+| slide | Slide | Текущий перебираемый слайд |
 | index | Int32 | Индекс текущего слайда |
 
 ### См. также

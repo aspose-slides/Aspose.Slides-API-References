@@ -1,14 +1,14 @@
 ---
 title: IWheelTransition
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Radfolien-Übergangseffekt.
+description: Rad-Slide-Übergangseffekt.
 type: docs
-weight: 10220
+weight: 10240
 url: /de/aspose.slides.slideshow/iwheeltransition/
 ---
 ## IWheelTransition Schnittstelle
 
-Radfolien-Übergangseffekt.
+Rad-Slide-Übergangseffekt.
 
 ```csharp
 public interface IWheelTransition : ITransitionValueBase
@@ -18,8 +18,8 @@ public interface IWheelTransition : ITransitionValueBase
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/iwheeltransition/asitransitionvaluebase) { get; } | Ermöglicht den Zugriff auf die Basis-ITransitionValueBase Schnittstelle. Nur lesbar [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Spokes](../../aspose.slides.slideshow/iwheeltransition/spokes) { get; set; } | Anzahl der Speichen des Rad-Übergangs. Lese/Schreib UInt32. |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/iwheeltransition/asitransitionvaluebase) { get; } | Ermöglicht das Abrufen der Basis ITransitionValueBase Schnittstelle. Nur-Lese [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Spokes](../../aspose.slides.slideshow/iwheeltransition/spokes) { get; set; } | Anzahl der Speichen der Rad-Transition. Lesen/Schreiben UInt32. |
 
 ### Siehe auch
 

@@ -1,9 +1,9 @@
 ---
 title: ISummaryZoomSectionCollection
-second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje kolekci objektů Summary Zoom Section.
+second_title: Aspose.Sildes pro .NET – reference API
+description: Představuje kolekci objektů Summary Zoom Section.
 type: docs
-weight: 7170
+weight: 7190
 url: /cs/aspose.slides/isummaryzoomsectioncollection/
 ---
 ## ISummaryZoomSectionCollection rozhraní
@@ -18,7 +18,7 @@ public interface ISummaryZoomSectionCollection : IGenericCollection<ISummaryZoom
 
 | Název | Popis |
 | --- | --- |
-| [Item](../../aspose.slides/isummaryzoomsectioncollection/item) { get; } | Získá prvek na zadaném indexu. Pouze ke čtení [`ISummaryZoomSection`](../isummaryzoomsection). |
+| [Item](../../aspose.slides/isummaryzoomsectioncollection/item) { get; } | Získá prvek na určeném indexu. Pouze pro čtení [`ISummaryZoomSection`](../isummaryzoomsection). |
 
 ## Metody
 
@@ -27,7 +27,7 @@ public interface ISummaryZoomSectionCollection : IGenericCollection<ISummaryZoom
 | [AddSummaryZoomSection](../../aspose.slides/isummaryzoomsectioncollection/addsummaryzoomsection)(ISection) | Vytvoří nový objekt Summary Zoom Section a přidá jej do kolekce |
 | [Clear](../../aspose.slides/isummaryzoomsectioncollection/clear)() | Odstraní všechny objekty SummaryZoomSection z kolekce. |
 | [GetSummarySection](../../aspose.slides/isummaryzoomsectioncollection/getsummarysection)(ISection) | Vrátí prvek Summary Zoom Section pro danou sekci. |
-| [IndexOf](../../aspose.slides/isummaryzoomsectioncollection/indexof)(ISummaryZoomSection) | Vrátí index zadaného objektu SummaryZoomSection. |
+| [IndexOf](../../aspose.slides/isummaryzoomsectioncollection/indexof)(ISummaryZoomSection) | Vrátí index daného objektu SummaryZoomSection. |
 | [RemoveSummaryZoomSection](../../aspose.slides/isummaryzoomsectioncollection/removesummaryzoomsection)(ISection) | Odstraní objekt Summary Zoom Section z kolekce. |
 
 ### Viz také

@@ -1,14 +1,14 @@
 ---
 title: IAutoShapeLock
 second_title: Aspose.Sildes για .NET API Αναφορά
-description: Καθορίζει ποιες λειτουργίες είναι απενεργοποιημένες στο γονικό AutoshapeEx.
+description: Καθορίζει ποιες λειτουργίες είναι ανενεργές στο γονικό AutoshapeEx.
 type: docs
-weight: 5250
+weight: 5270
 url: /el/aspose.slides/iautoshapelock/
 ---
-## IAutoShapeLock διεπαφή
+## IAutoShapeLock διασύνδεση
 
-Καθορίζει ποιες λειτουργίες είναι απενεργοποιημένες στο γονικό AutoshapeEx.
+Καθορίζει ποιες λειτουργίες είναι ανενεργές στο γονικό AutoshapeEx.
 
 ```csharp
 public interface IAutoShapeLock : IBaseShapeLock
@@ -18,23 +18,23 @@ public interface IAutoShapeLock : IBaseShapeLock
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [AdjustHandlesLocked](../../aspose.slides/iautoshapelock/adjusthandleslocked) { get; set; } | Καθορίζει εάν η αλλαγή των τιμών προσαρμογής απαγορεύεται. Boolean ανάγνωση-εγγραφή. |
-| [ArrowheadsLocked](../../aspose.slides/iautoshapelock/arrowheadslocked) { get; set; } | Καθορίζει εάν η αλλαγή των άκρων των βελών απαγορεύεται. Boolean ανάγνωση-εγγραφή. |
-| [AsIBaseShapeLock](../../aspose.slides/iautoshapelock/asibaseshapelock) { get; } | Επιτρέπει την λήψη της βασικής διεπαφής IBaseShapeLock. Boolean μόνο για ανάγνωση [`IBaseShapeLock`](../ibaseshapelock). |
-| [AspectRatioLocked](../../aspose.slides/iautoshapelock/aspectratiolocked) { get; set; } | Καθορίζει εάν ένα σχήμα πρέπει να διατηρεί την αναλογία διαστάσεων κατά την αλλαγή μεγέθους. Boolean ανάγνωση-εγγραφή. |
-| [EditPointsLocked](../../aspose.slides/iautoshapelock/editpointslocked) { get; set; } | Καθορίζει εάν η άμεση αλλαγή του περιγράμματος αυτού του σχήματος απαγορεύεται. Boolean ανάγνωση-εγγραφή. |
-| [GroupingLocked](../../aspose.slides/iautoshapelock/groupinglocked) { get; set; } | Καθορίζει εάν η προσθήκη αυτού του σχήματος σε ομάδα απαγορεύεται. Boolean ανάγνωση-εγγραφή. |
-| [PositionLocked](../../aspose.slides/iautoshapelock/positionlocked) { get; set; } | Καθορίζει εάν η μετακίνηση αυτού του σχήματος απαγορεύεται. Boolean ανάγνωση-εγγραφή. |
-| [RotateLocked](../../aspose.slides/iautoshapelock/rotatelocked) { get; set; } | Καθορίζει εάν η αλλαγή της γωνίας περιστροφής αυτού του σχήματος απαγορεύεται. Boolean ανάγνωση-εγγραφή. |
-| [SelectLocked](../../aspose.slides/iautoshapelock/selectlocked) { get; set; } | Καθορίζει εάν η επιλογή αυτού του σχήματος απαγορεύεται. Boolean ανάγνωση-εγγραφή. |
-| [ShapeTypeLocked](../../aspose.slides/iautoshapelock/shapetypelocked) { get; set; } | Καθορίζει εάν η αλλαγή του τύπου του σχήματος απαγορεύεται. Boolean ανάγνωση-εγγραφή. |
-| [SizeLocked](../../aspose.slides/iautoshapelock/sizelocked) { get; set; } | Καθορίζει εάν η αλλαγή μεγέθους αυτού του σχήματος απαγορεύεται. Boolean ανάγνωση-εγγραφή. |
-| [TextLocked](../../aspose.slides/iautoshapelock/textlocked) { get; set; } | Καθορίζει εάν η επεξεργασία κειμένου απαγορεύεται. Boolean ανάγνωση-εγγραφή. |
+| [AdjustHandlesLocked](../../aspose.slides/iautoshapelock/adjusthandleslocked) { get; set; } | Καθορίζει αν η αλλαγή τιμών προσαρμογής είναι απαγορευμένη. Αναγνώσιμη-εγγράψιμη Boolean. |
+| [ArrowheadsLocked](../../aspose.slides/iautoshapelock/arrowheadslocked) { get; set; } | Καθορίζει αν η αλλαγή των ακροτάτων είναι απαγορευμένη. Αναγνώσιμη-εγγράψιμη Boolean. |
+| [AsIBaseShapeLock](../../aspose.slides/iautoshapelock/asibaseshapelock) { get; } | Επιτρέπει την ανάκτηση του βασικού διασύνδεσης IBaseShapeLock. Μόνο για ανάγνωση [`IBaseShapeLock`](../ibaseshapelock). |
+| [AspectRatioLocked](../../aspose.slides/iautoshapelock/aspectratiolocked) { get; set; } | Καθορίζει αν ένα σχήμα πρέπει να διατηρεί την αναλογία διαστάσεων κατά την αλλαγή μεγέθους. Αναγνώσιμη-εγγράψιμη Boolean. |
+| [EditPointsLocked](../../aspose.slides/iautoshapelock/editpointslocked) { get; set; } | Καθορίζει αν η άμεση αλλαγή περιγράμμυσης αυτού του σχήματος είναι απαγορευμένη. Αναγνώσιμη-εγγράψιμη Boolean. |
+| [GroupingLocked](../../aspose.slides/iautoshapelock/groupinglocked) { get; set; } | Καθορίζει αν η προσθήκη αυτού του σχήματος σε ομάδα είναι απαγορευμένη. Αναγνώσιμη-εγγράψιμη Boolean. |
+| [PositionLocked](../../aspose.slides/iautoshapelock/positionlocked) { get; set; } | Καθορίζει αν η μετακίνηση αυτού του σχήματος είναι απαγορευμένη. Αναγνώσιμη-εγγράψιμη Boolean. |
+| [RotateLocked](../../aspose.slides/iautoshapelock/rotatelocked) { get; set; } | Καθορίζει αν η αλλαγή γωνίας περιστροφής αυτού του σχήματος είναι απαγορευμένη. Αναγνώσιμη-εγγράψιμη Boolean. |
+| [SelectLocked](../../aspose.slides/iautoshapelock/selectlocked) { get; set; } | Καθορίζει αν η επιλογή αυτού του σχήματος είναι απαγορευμένη. Αναγνώσιμη-εγγράψιμη Boolean. |
+| [ShapeTypeLocked](../../aspose.slides/iautoshapelock/shapetypelocked) { get; set; } | Καθορίζει αν η αλλαγή τύπου σχήματος είναι απαγορευμένη. Αναγνώσιμη-εγγράψιμη Boolean. |
+| [SizeLocked](../../aspose.slides/iautoshapelock/sizelocked) { get; set; } | Καθορίζει αν η αλλαγή μεγέθους αυτού του σχήματος είναι απαγορευμένη. Αναγνώσιμη-εγγράψιμη Boolean. |
+| [TextLocked](../../aspose.slides/iautoshapelock/textlocked) { get; set; } | Καθορίζει αν η επεξεργασία κειμένου είναι απαγορευμένη. Αναγνώσιμη-εγγράψιμη Boolean. |
 
 ### Δείτε επίσης
 
-* διεπαφή [IBaseShapeLock](../ibaseshapelock)
-* χώρος ονομάτων [Aspose.Slides](../../aspose.slides)
-* συγκρότηση [Aspose.Slides](../../)
+* διασύνδεση [IBaseShapeLock](../ibaseshapelock)
+* χώρο ονομάτων [Aspose.Slides](../../aspose.slides)
+* συγκρότημα [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

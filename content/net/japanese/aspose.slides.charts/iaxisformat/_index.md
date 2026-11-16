@@ -1,14 +1,14 @@
 ---
 title: IAxisFormat
 second_title: Aspose.Sildes for .NET API リファレンス
-description: チャートの書式プロパティを表します。
+description: チャート形式プロパティを表します。
 type: docs
-weight: 1720
+weight: 1730
 url: /ja/aspose.slides.charts/iaxisformat/
 ---
 ## IAxisFormat インターフェイス
 
-チャートの書式プロパティを表します。
+チャート形式プロパティを表します。
 
 ```csharp
 public interface IAxisFormat
@@ -18,9 +18,9 @@ public interface IAxisFormat
 
 | 名前 | 説明 |
 | --- | --- |
-| [Effect](../../aspose.slides.charts/iaxisformat/effect) { get; } | 軸に使用されるエフェクトを返します。読み取り専用 [`IEffectFormat`](../../aspose.slides/ieffectformat)。 |
-| [Fill](../../aspose.slides.charts/iaxisformat/fill) { get; } | 軸の塗りつぶしスタイルプロパティを返します。読み取り専用 [`IFillFormat`](../../aspose.slides/ifillformat)。 |
-| [Line](../../aspose.slides.charts/iaxisformat/line) { get; } | 軸の線スタイルプロパティを返します。読み取り専用 [`ILineFormat`](../../aspose.slides/ilineformat)。 |
+| [Effect](../../aspose.slides.charts/iaxisformat/effect) { get; } | 軸で使用されるエフェクトを返します。読み取り専用 [`IEffectFormat`](../../aspose.slides/ieffectformat)。 |
+| [Fill](../../aspose.slides.charts/iaxisformat/fill) { get; } | 軸の塗りつぶしスタイルのプロパティを返します。読み取り専用 [`IFillFormat`](../../aspose.slides/ifillformat)。 |
+| [Line](../../aspose.slides.charts/iaxisformat/line) { get; } | 軸のラインスタイルのプロパティを返します。読み取り専用 [`ILineFormat`](../../aspose.slides/ilineformat)。 |
 
 ### 参照
 

@@ -1,9 +1,9 @@
 ---
 title: LineArrowheadStyle
-second_title: Aspose.Sildes para la referencia de la API de .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa el estilo de una punta de flecha.
 type: docs
-weight: 7740
+weight: 7760
 url: /es/aspose.slides/linearrowheadstyle/
 ---
 ## LineArrowheadStyle enumeración

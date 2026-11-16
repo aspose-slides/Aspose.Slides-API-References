@@ -1,14 +1,14 @@
 ---
 title: IGlowEffectiveData
-second_title: Aspose.Sildes .NET API 參考
-description: 不變物件，表示一種 Glow 效果，會在物件的邊緣之外加入彩色的模糊輪廓。
+second_title: Aspose.Sildes .NET API 參考文件
+description: 不可變物件，表示一種 Glow 效果，其在物件邊緣之外加入顏色模糊的輪廓。
 type: docs
-weight: 3330
+weight: 3350
 url: /zh-hant/aspose.slides.effects/igloweffectivedata/
 ---
 ## IGlowEffectiveData 介面
 
-不變物件，表示一種 Glow 效果，會在物件的邊緣之外加入彩色的模糊輪廓。
+不可變物件，表示一種 Glow 效果，其在物件邊緣之外加入顏色模糊的輪廓。
 
 ```csharp
 public interface IGlowEffectiveData : IEffectEffectiveData
@@ -19,10 +19,10 @@ public interface IGlowEffectiveData : IEffectEffectiveData
 | 名稱 | 說明 |
 | --- | --- |
 | [AsIEffectEffectiveData](../../aspose.slides.effects/igloweffectivedata/asieffecteffectivedata) { get; } | 允許取得基礎 IEffectEffectiveData 介面。唯讀 [`IEffectEffectiveData`](../ieffecteffectivedata)。 |
-| [Color](../../aspose.slides.effects/igloweffectivedata/color) { get; } | Color. 唯讀 Color. |
-| [Radius](../../aspose.slides.effects/igloweffectivedata/radius) { get; } | Radius. 唯讀 Double. |
+| [Color](../../aspose.slides.effects/igloweffectivedata/color) { get; } | 顏色。唯讀 Color。 |
+| [Radius](../../aspose.slides.effects/igloweffectivedata/radius) { get; } | 半徑。唯讀 Double。 |
 
-### 另見
+### 另請參閱
 
 * 介面 [IEffectEffectiveData](../ieffecteffectivedata)
 * 命名空間 [Aspose.Slides.Effects](../../aspose.slides.effects)

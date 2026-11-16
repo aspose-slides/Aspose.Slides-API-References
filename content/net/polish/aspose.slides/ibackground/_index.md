@@ -1,9 +1,9 @@
 ---
 title: IBackground
-second_title: Aspose.Slides dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla .NET – referencja API
 description: Reprezentuje tło slajdu.
 type: docs
-weight: 5270
+weight: 5290
 url: /pl/aspose.slides/ibackground/
 ---
 ## IBackground interfejs
@@ -20,9 +20,9 @@ public interface IBackground : IFillParamSource, ISlideComponent
 | --- | --- |
 | [AsIFillParamSource](../../aspose.slides/ibackground/asifillparamsource) { get; } | Zwraca interfejs IFillParamSource. Tylko do odczytu [`IFillParamSource`](../ifillparamsource). |
 | [AsISlideComponent](../../aspose.slides/ibackground/asislidecomponent) { get; } | Zwraca interfejs ISlideComponent. Tylko do odczytu [`ISlideComponent`](../islidecomponent). |
-| [EffectFormat](../../aspose.slides/ibackground/effectformat) { get; } | Zwraca obiekt EffectFormat dla wypełnienia BackgroundType.OwnBackground. Tylko do odczytu [`IEffectFormat`](../ieffectformat). |
-| [FillFormat](../../aspose.slides/ibackground/fillformat) { get; } | Zwraca obiekt FillFormat dla wypełnienia BackgroundType.OwnBackground. Tylko do odczytu [`IFillFormat`](../ifillformat). |
-| [StyleColor](../../aspose.slides/ibackground/stylecolor) { get; } | Zwraca obiekt ColorFormat dla wypełnienia BackgroundType.Themed. Tylko do odczytu [`IColorFormat`](../icolorformat). |
+| [EffectFormat](../../aspose.slides/ibackground/effectformat) { get; } | Zwraca EffectFormat dla wypełnienia BackgroundType.OwnBackground. Tylko do odczytu [`IEffectFormat`](../ieffectformat). |
+| [FillFormat](../../aspose.slides/ibackground/fillformat) { get; } | Zwraca FillFormat dla wypełnienia BackgroundType.OwnBackground. Tylko do odczytu [`IFillFormat`](../ifillformat). |
+| [StyleColor](../../aspose.slides/ibackground/stylecolor) { get; } | Zwraca ColorFormat dla wypełnienia BackgroundType.Themed. Tylko do odczytu [`IColorFormat`](../icolorformat). |
 | [StyleIndex](../../aspose.slides/ibackground/styleindex) { get; set; } | Zwraca indeks wypełnienia BackgroundType.Themed w kolekcji motywów tła. 0 oznacza brak wypełnienia. 1..999 – indeks. Odczyt/zapis UInt16. |
 | [Type](../../aspose.slides/ibackground/type) { get; set; } | Zwraca typ wypełnienia tła. Odczyt/zapis [`BackgroundType`](../backgroundtype). |
 
@@ -30,7 +30,7 @@ public interface IBackground : IFillParamSource, ISlideComponent
 
 | Nazwa | Opis |
 | --- | --- |
-| [GetEffective](../../aspose.slides/ibackground/geteffective)() | Pobiera skuteczne dane tła z zastosowanym dziedziczeniem. |
+| [GetEffective](../../aspose.slides/ibackground/geteffective)() | Pobiera skuteczne dane tła z zastosowaną dziedzicznością. |
 
 ### Zobacz także
 

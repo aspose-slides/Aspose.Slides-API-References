@@ -3,7 +3,7 @@ title: IImageWrapperFactory
 second_title: Aspose.Sildes pro .NET API Reference
 description: Toto rozhraní umožňuje inicializovat IBitmapWrapper.
 type: docs
-weight: 6180
+weight: 6200
 url: /cs/aspose.slides/iimagewrapperfactory/
 ---
 ## IImageWrapperFactory rozhraní
@@ -14,13 +14,13 @@ Toto rozhraní umožňuje inicializovat IBitmapWrapper.
 public interface IImageWrapperFactory
 ```
 
-## Metody
+## Methods
 
 | Název | Popis |
 | --- | --- |
-| [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper)(IImage) | Inicializuje novou instanci třídy ImageWrapper z uvedeného existujícího obrázku. |
-| [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper_1)(Stream) | Inicializuje novou instanci třídy ImageWrapper z uvedeného datového proudu. |
-| [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper_2)(string) | Inicializuje novou instanci třídy ImageWrapper z uvedeného souboru. |
+| [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper)(IImage) | Inicializuje novou instanci třídy ImageWrapper z určeného existujícího obrázku. |
+| [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper_1)(Stream) | Inicializuje novou instanci třídy ImageWrapper z určeného datového proudu. |
+| [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper_2)(string) | Inicializuje novou instanci třídy ImageWrapper ze zadaného souboru. |
 
 ### Viz také
 

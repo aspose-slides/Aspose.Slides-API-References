@@ -1,14 +1,14 @@
 ---
 title: SectionSlideCollection
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar en samling bildspel i avsnittet.
+description: Representerar en samling bilder i avsnittet.
 type: docs
-weight: 9770
+weight: 9790
 url: /sv/aspose.slides/sectionslidecollection/
 ---
-## SectionSlideCollection klass
+## SectionSlideCollection class
 
-Representerar en samling bildspel i avsnittet.
+Representerar en samling bilder i avsnittet.
 
 ```csharp
 public sealed class SectionSlideCollection : DomObject<Section>, ISectionSlideCollection
@@ -16,21 +16,21 @@ public sealed class SectionSlideCollection : DomObject<Section>, ISectionSlideCo
 
 ## Egenskaper
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides/sectionslidecollection/count) { get; } | Hämtar antalet element som faktiskt finns i samlingen. Skrivskyddad Int32. |
-| [IsSynchronized](../../aspose.slides/sectionslidecollection/issynchronized) { get; } | Returnerar ett värde som indikerar om åtkomst till samlingen är synkroniserad (trådsäker). Skrivskyddad Boolean. |
-| [Item](../../aspose.slides/sectionslidecollection/item) { get; } | Hämtar elementet på det angivna indexet. Skrivskyddad [`ISlide`](../islide). |
-| [SyncRoot](../../aspose.slides/sectionslidecollection/syncroot) { get; } | Returnerar ett synkroniseringsrot. Skrivskyddad Object. |
+| [Count](../../aspose.slides/sectionslidecollection/count) { get; } | Returnerar antalet element som faktiskt finns i samlingen. Endast läsning Int32. |
+| [IsSynchronized](../../aspose.slides/sectionslidecollection/issynchronized) { get; } | Returnerar ett värde som indikerar om åtkomst till samlingen är synkroniserad (trådsäker). Endast läsning Boolean. |
+| [Item](../../aspose.slides/sectionslidecollection/item) { get; } | Hämtar elementet på det angivna indexet. Endast läsning [`ISlide`](../islide). |
+| [SyncRoot](../../aspose.slides/sectionslidecollection/syncroot) { get; } | Returnerar ett synkroniseringsrot. Endast läsning Object. |
 
 ## Metoder
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
 | [CopyTo](../../aspose.slides/sectionslidecollection/copyto)(Array, int) | Kopierar hela samlingen till den angivna arrayen. |
 | [GetEnumerator](../../aspose.slides/sectionslidecollection/getenumerator)() | Returnerar en enumerator som itererar genom samlingen. |
 
-### Se även
+### Se också
 
 * klass [DomObject&lt;TParent&gt;](../domobject-1)
 * klass [Section](../section)

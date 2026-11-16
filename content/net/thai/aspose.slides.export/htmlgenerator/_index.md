@@ -1,14 +1,14 @@
 ---
 title: HtmlGenerator
 second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: ตัวสร้าง HTML.
+description: เครื่องมือสร้าง HTML.
 type: docs
-weight: 3880
+weight: 3900
 url: /th/aspose.slides.export/htmlgenerator/
 ---
-## คลาส HtmlGenerator
+## HtmlGenerator คลาส
 
-ตัวสร้าง HTML.
+เครื่องสร้าง HTML.
 
 ```csharp
 public sealed class HtmlGenerator : IHtmlGenerator
@@ -18,31 +18,31 @@ public sealed class HtmlGenerator : IHtmlGenerator
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [NextSlideIndex](../../aspose.slides.export/htmlgenerator/nextslideindex) { get; } | ส่งคืนดัชนีของสไลด์ที่จะถูกแสดงหลังจากสไลด์ปัจจุบัน หรือ -1 หากกำลังแสดงสไลด์สุดท้าย อ่านอย่างเดียว Int32. |
-| [PreviousSlideIndex](../../aspose.slides.export/htmlgenerator/previousslideindex) { get; } | ส่งคืนดัชนีของสไลด์ที่แสดงก่อนหน้า หรือ -1 หากกำลังแสดงสไลด์แรก อ่านอย่างเดียว Int32. |
-| [SlideImageSize](../../aspose.slides.export/htmlgenerator/slideimagesize) { get; } | ส่งคืนขนาดภาพสไลด์ อ่านอย่างเดียว SizeF. |
-| [SlideImageSizeUnit](../../aspose.slides.export/htmlgenerator/slideimagesizeunit) { get; } | ส่งคืนหน่วยที่ใช้ระบุขนาดภาพสไลด์ อ่านอย่างเดียว [`SvgCoordinateUnit`](../svgcoordinateunit). |
-| [SlideImageSizeUnitCode](../../aspose.slides.export/htmlgenerator/slideimagesizeunitcode) { get; } | ส่งคืนโค้ด CSS ของหน่วยที่ใช้ระบุขนาดภาพสไลด์ อ่านอย่างเดียว String. |
-| [SlideIndex](../../aspose.slides.export/htmlgenerator/slideindex) { get; } | ส่งคืนดัชนีของสไลด์ที่กำลังแสดงอยู่ อ่านอย่างเดียว Int32. |
+| [NextSlideIndex](../../aspose.slides.export/htmlgenerator/nextslideindex) { get; } | ส่งคืนดัชนีของสไลด์ที่จะถูกเรนเดอร์หลังจากสไลด์ปัจจุบันหรือ -1 หากกำลังเรนเดอร์สไลด์สุดท้าย อ่านอย่างเดียว Int32. |
+| [PreviousSlideIndex](../../aspose.slides.export/htmlgenerator/previousslideindex) { get; } | ส่งคืนดัชนีของสไลด์ที่เรนเดอร์ก่อนหน้านี้หรือ -1 หากเป็นสไลด์แรกที่กำลังเรนเดอร์ อ่านอย่างเดียว Int32. |
+| [SlideImageSize](../../aspose.slides.export/htmlgenerator/slideimagesize) { get; } | ส่งคืนขนาดภาพของสไลด์ อ่านอย่างเดียว SizeF. |
+| [SlideImageSizeUnit](../../aspose.slides.export/htmlgenerator/slideimagesizeunit) { get; } | ส่งคืนหน่วยที่ขนาดภาพของสไลด์ถูกระบุ อ่านอย่างเดียว [`SvgCoordinateUnit`](../svgcoordinateunit). |
+| [SlideImageSizeUnitCode](../../aspose.slides.export/htmlgenerator/slideimagesizeunitcode) { get; } | ส่งคืนโค้ด CSS ของหน่วยที่ขนาดภาพของสไลด์ถูกระบุ อ่านอย่างเดียว String. |
+| [SlideIndex](../../aspose.slides.export/htmlgenerator/slideindex) { get; } | ส่งคืนดัชนีของสไลด์ที่กำลังเรนเดอร์อยู่ อ่านอย่างเดียว Int32. |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue)(char[]) | ใส่เครื่องหมายอัญประกาศรอบค่าคุณลักษณะและเพิ่มลงในไฟล์ HTML. |
-| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue_2)(string) | ใส่เครื่องหมายอัญประกาศรอบค่าคุณลักษณะและเพิ่มลงในไฟล์ HTML. |
-| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue_1)(char[], int, int) | ใส่เครื่องหมายอัญประกาศรอบค่าคุณลักษณะและเพิ่มลงในไฟล์ HTML. |
+| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue)(char[]) | ใส่เครื่องหมายอัญประกาศให้ค่าแอตทริบิวต์และเพิ่มลงในไฟล์ HTML. |
+| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue_2)(string) | ใส่เครื่องหมายอัญประกาศให้ค่าแอตทริบิวต์และเพิ่มลงในไฟล์ HTML. |
+| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue_1)(char[], int, int) | ใส่เครื่องหมายอัญประกาศให้ค่าแอตทริบิวต์และเพิ่มลงในไฟล์ HTML. |
 | [AddHtml](../../aspose.slides.export/htmlgenerator/addhtml#addhtml)(char[]) | เพิ่มข้อความ HTML ที่จัดรูปแบบแล้ว. |
 | [AddHtml](../../aspose.slides.export/htmlgenerator/addhtml#addhtml_2)(string) | เพิ่มข้อความ HTML ที่จัดรูปแบบแล้ว. |
 | [AddHtml](../../aspose.slides.export/htmlgenerator/addhtml#addhtml_1)(char[], int, int) | เพิ่มข้อความ HTML ที่จัดรูปแบบแล้ว. |
-| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext)(char[]) | เพิ่มข้อความธรรมดาไปยังไฟล์ HTML โดยแทนที่อักขระพิเศษด้วยเอนทิตี้ HTML การขึ้นบรรทัดและช่องว่างจะไม่ถูกแทนที่. |
-| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext_2)(string) | เพิ่มข้อความธรรมดาไปยังไฟล์ HTML โดยแทนที่อักขระพิเศษด้วยเอนทิตี้ HTML การขึ้นบรรทัดและช่องว่างจะไม่ถูกแทนที่. |
-| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext_1)(char[], int, int) | เพิ่มข้อความธรรมดาไปยังไฟล์ HTML โดยแทนที่อักขระพิเศษด้วยเอนทิตี้ HTML การขึ้นบรรทัดและช่องว่างจะไม่ถูกแทนที่. |
+| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext)(char[]) | เพิ่มข้อความธรรมดาไปยังไฟล์ HTML โดยแทนที่อักขระพิเศษด้วยเอนทิตี้ของ HTML. การขึ้นบรรทัดใหม่และช่องว่างไม่ได้ถูกแทนที่. |
+| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext_2)(string) | เพิ่มข้อความธรรมดาไปยังไฟล์ HTML โดยแทนที่อักขระพิเศษด้วยเอนทิตี้ของ HTML. การขึ้นบรรทัดใหม่และช่องว่างไม่ได้ถูกแทนที่. |
+| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext_1)(char[], int, int) | เพิ่มข้อความธรรมดาไปยังไฟล์ HTML โดยแทนที่อักขระพิเศษด้วยเอนทิตี้ของ HTML. การขึ้นบรรทัดใหม่และช่องว่างไม่ได้ถูกแทนที่. |
 
 ### ดูเพิ่มเติม
 
-* interface [IHtmlGenerator](../ihtmlgenerator)
-* namespace [Aspose.Slides.Export](../../aspose.slides.export)
-* assembly [Aspose.Slides](../../)
+* อินเทอร์เฟซ [IHtmlGenerator](../ihtmlgenerator)
+* เนมสเปซ [Aspose.Slides.Export](../../aspose.slides.export)
+* แอสเซมบลี [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

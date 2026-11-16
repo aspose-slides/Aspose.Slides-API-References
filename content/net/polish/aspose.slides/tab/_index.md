@@ -1,32 +1,32 @@
 ---
 title: Tab
-second_title: Aspose.Sildes dla .NET - referencja API
+second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Reprezentuje tabulację dla tekstu.
 type: docs
-weight: 10820
+weight: 10840
 url: /pl/aspose.slides/tab/
 ---
-## Klasa Tab
+## Tab klasa
 
-Reprezentuje tabulację dla tekstu.
+Represents a tabulation for a text.
 
 ```csharp
 public sealed class Tab : PVIObject, ITab
 ```
 
-## Konstruktory
+## Konstruktorzy
 
 | Nazwa | Opis |
 | --- | --- |
-| [Tab](tab)(double, TabAlignment) | Tworzy nową Tab |
+| [Tab](tab)(double, TabAlignment) | Tworzy nową tabulację |
 
 ## Właściwości
 
 | Nazwa | Opis |
 | --- | --- |
-| [Alignment](../../aspose.slides/tab/alignment) { get; set; } | Zwraca lub ustawia styl wyrównania zakładki. Odczyt/zapis [`TabAlignment`](../tabalignment). |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Umożliwia pobranie podstawowego interfejsu IPresentationComponent. Tylko do odczytu [`IPresentationComponent`](../ipresentationcomponent). |
-| [Position](../../aspose.slides/tab/position) { get; set; } | Zwraca lub ustawia pozycję zakładki. Przypisanie tej właściwości może zmienić indeks zakładki w kolekcji i unieważnić Enumerator. Odczyt/zapis Double. |
+| [Alignment](../../aspose.slides/tab/alignment) { get; set; } | Returns or sets align style of a tab. Odczyt/zapis [`TabAlignment`](../tabalignment). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Allows to get base IPresentationComponent interface. Tylko do odczytu [`IPresentationComponent`](../ipresentationcomponent). |
+| [Position](../../aspose.slides/tab/position) { get; set; } | Returns or sets position of a tab. Assigning this property can change tab's index in collection and invalidate Enumerator. Odczyt/zapis Double. |
 
 ## Metody
 

@@ -1,14 +1,14 @@
 ---
 title: ImageCollection
-second_title: مرجع API لـ Aspose.Sildes لـ .NET
+second_title: Aspose.Sildes لـ .NET مرجع API
 description: يمثل مجموعة من PPImage.
 type: docs
-weight: 7420
+weight: 7440
 url: /ar/aspose.slides/imagecollection/
 ---
-## ImageCollection فئة
+## فئة ImageCollection
 
-يمثل مجموعة من PPImage.
+يمثل مجموعة PPImage.
 
 ```csharp
 public sealed class ImageCollection : DomObject<Presentation>, IImageCollection
@@ -18,26 +18,26 @@ public sealed class ImageCollection : DomObject<Presentation>, IImageCollection
 
 | الاسم | الوصف |
 | --- | --- |
-| [Count](../../aspose.slides/imagecollection/count) { get; } | إرجاع عدد الصور في المجموعة. قراءة فقط Int32. |
-| [IsSynchronized](../../aspose.slides/imagecollection/issynchronized) { get; } | إرجاع قيمة تشير إلى ما إذا كان الوصول إلى المجموعة متزامنًا (آمن للخيوط). قراءة فقط Boolean. |
-| [Item](../../aspose.slides/imagecollection/item) { get; } | الحصول على العنصر في الفهرس المحدد. قراءة فقط [`IPPImage`](../ippimage). |
-| [SyncRoot](../../aspose.slides/imagecollection/syncroot) { get; } | إرجاع جذر التزامن. قراءة فقط Object. |
+| [Count](../../aspose.slides/imagecollection/count) { get; } | يعيد عدد الصور في المجموعة. قراءة فقط Int32. |
+| [IsSynchronized](../../aspose.slides/imagecollection/issynchronized) { get; } | يعيد قيمة تشير إلى ما إذا كان الوصول إلى المجموعة متزامنًا (آمن للموضوعات). قراءة فقط Boolean. |
+| [Item](../../aspose.slides/imagecollection/item) { get; } | يحصل على العنصر في الفهرس المحدد. قراءة فقط [`IPPImage`](../ippimage). |
+| [SyncRoot](../../aspose.slides/imagecollection/syncroot) { get; } | يعيد جذر التزامن. قراءة فقط Object. |
 
 ## الأساليب
 
 | الاسم | الوصف |
 | --- | --- |
-| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_3)(byte[]) | إضافة صورة إلى عرض تقديمي من المخزن المؤقت المحدد. |
-| [AddImage](../../aspose.slides/imagecollection/addimage#addimage)(IImage) | إضافة صورة إلى عرض تقديمي. |
-| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_1)(IPPImage) | إضافة نسخة من صورة من عرض تقديمي آخر. |
-| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_2)(ISvgImage) | إضافة صورة إلى عرض تقديمي من كائن Svg. |
-| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_4)(MemoryStream) | إضافة صورة إلى عرض تقديمي من دفق. |
-| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_5)(Stream) | إضافة صورة إلى عرض تقديمي من دفق. |
-| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_6)(Stream, LoadingStreamBehavior) | إنشاء وإضافة صورة إلى عرض تقديمي من دفق. |
-| [CopyTo](../../aspose.slides/imagecollection/copyto)(Array, int) | نسخ جميع العناصر من المجموعة إلى المصفوفة المحددة. |
-| [GetEnumerator](../../aspose.slides/imagecollection/getenumerator)() | إرجاع كائن تعداد يتنقل عبر المجموعة. |
+| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_3)(byte[]) | يضيف صورة إلى عرض تقديمي من المخزن المؤقت المحدد. |
+| [AddImage](../../aspose.slides/imagecollection/addimage#addimage)(IImage) | يضيف صورة إلى عرض تقديمي. |
+| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_1)(IPPImage) | يضيف نسخة من صورة من عرض تقديمي آخر. |
+| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_2)(ISvgImage) | يضيف صورة إلى عرض تقديمي من كائن Svg. |
+| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_4)(MemoryStream) | يضيف صورة إلى عرض تقديمي من الدفق. |
+| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_5)(Stream) | يضيف صورة إلى عرض تقديمي من الدفق. |
+| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_6)(Stream, LoadingStreamBehavior) | ينشئ ويضيف صورة إلى عرض تقديمي من الدفق. |
+| [CopyTo](../../aspose.slides/imagecollection/copyto)(Array, int) | ينسخ جميع العناصر من المجموعة إلى المصفوفة المحددة. |
+| [GetEnumerator](../../aspose.slides/imagecollection/getenumerator)() | يعيد عدادًا يتنقل عبر المجموعة. |
 
-### انظر أيضاً
+### انظر أيضًا
 
 * فئة [DomObject&lt;TParent&gt;](../domobject-1)
 * فئة [Presentation](../presentation)

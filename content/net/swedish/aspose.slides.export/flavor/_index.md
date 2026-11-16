@@ -3,10 +3,10 @@ title: Flavor
 second_title: Aspose.Sildes för .NET API-referens
 description: Alla markdown-specifikationer som används i programmet.
 type: docs
-weight: 3800
+weight: 3820
 url: /sv/aspose.slides.export/flavor/
 ---
-## Flavor enumeration
+## Flavor uppräkning
 
 Alla markdown-specifikationer som används i programmet.
 
@@ -14,34 +14,34 @@ Alla markdown-specifikationer som används i programmet.
 public enum Flavor
 ```
 
-### Values
+### Värden
 
 | Namn | Värde | Beskrivning |
 | --- | --- | --- |
-| Github | `0` | Github variant. |
-| Gruber | `1` | Gruber variant. |
-| MultiMarkdown | `2` | Multi markdown variant. |
-| CommonMark | `3` | Common mark variant. |
-| MarkdownExtra | `4` | Markdown extra variant. |
-| Pandoc | `5` | Pandoc variant. |
-| Kramdown | `6` | Kramdown variant. |
-| Markua | `7` | Markua variant. |
-| Maruku | `8` | Maruku variant. |
-| Markdown2 | `9` | Markdown2 variant. |
-| Remarkable | `10` | Remarkable variant |
-| Showdown | `11` | Showdown variant. |
-| Ghost | `12` | Ghost variant. |
-| GitLab | `13` | Gitlab variant. |
-| Haroopad | `14` | Haroopad variant. |
-| IaWriter | `15` | IAWriter variant. |
-| Redcarpet | `16` | Redcarpet variant. |
-| ScholarlyMarkdown | `17` | Scholarly markdown variant. |
-| Taiga | `18` | Taiga variant. |
-| Trello | `19` | Trello variant. |
-| S9ETextFormatter | `20` | S9E text formatter variant. |
-| XWiki | `21` | XWiki variant. |
-| StackOverflow | `22` | Stack overflow variant. |
-| Default | `23` | Default markdown variant. |
+| Github | `0` | Github-smak. |
+| Gruber | `1` | Gruber-smak. |
+| MultiMarkdown | `2` | Multi markdown-smak. |
+| CommonMark | `3` | Common mark-smak. |
+| MarkdownExtra | `4` | Markdown extra-smak. |
+| Pandoc | `5` | Pandoc-smak. |
+| Kramdown | `6` | Kramdown-smak. |
+| Markua | `7` | Markua-smak. |
+| Maruku | `8` | Maruku-smak. |
+| Markdown2 | `9` | Markdown2-smak. |
+| Remarkable | `10` | Remarkable-smak |
+| Showdown | `11` | Showdown-smak. |
+| Ghost | `12` | Ghost-smak. |
+| GitLab | `13` | Gitlab-smak. |
+| Haroopad | `14` | Haroopad-smak. |
+| IaWriter | `15` | IAWriter-smak. |
+| Redcarpet | `16` | Redcarpet-smak. |
+| ScholarlyMarkdown | `17` | Scholarly markdown-smak. |
+| Taiga | `18` | Taiga-smak. |
+| Trello | `19` | Trello-smak. |
+| S9ETextFormatter | `20` | S9E text formatter-smak. |
+| XWiki | `21` | XWiki-smak. |
+| StackOverflow | `22` | Stack overflow-smak. |
+| Default | `23` | Default markdown-smak. |
 
 ### Exempel
 

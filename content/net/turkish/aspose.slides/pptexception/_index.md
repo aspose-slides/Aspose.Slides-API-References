@@ -1,25 +1,25 @@
 ---
 title: PptException
-second_title: Aspose.Slides için .NET API Referansı
-description: Standart bir iç istisna türünü temsil eder.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Standart bir dahili istisna türünü temsil eder.
 type: docs
-weight: 9520
+weight: 9540
 url: /tr/aspose.slides/pptexception/
 ---
-## PptException sınıf
+## PptException class
 
-Bir standart iç istisna türünü temsil eder.
+Standart bir dahili istisna türünü temsil eder.
 
 ```csharp
 public class PptException : Exception
 ```
 
-## Yapıcılar
+## Constructors
 
 | Ad | Açıklama |
 | --- | --- |
 | [PptException](pptexception#constructor)() | Varsayılan yapıcı. |
-| [PptException](pptexception#constructor_1)(string) | Bu istisna için bir mesaj eklenmesini sağlayan yapıcı. |
+| [PptException](pptexception#constructor_1)(string) | Bu istisnaya bir mesaj eklenmesine izin veren yapıcı. |
 | [PptException](pptexception#constructor_2)(string, Exception) | Bir mesaj ve gömülü bir istisna içeren bir istisna için yapıcı. |
 
 ### Ayrıca Bakınız

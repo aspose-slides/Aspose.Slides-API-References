@@ -1,9 +1,9 @@
 ---
 title: IMathematicalText
-second_title: Aspose.Sildes für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Mathematischer Text
 type: docs
-weight: 8510
+weight: 8530
 url: /de/aspose.slides.mathtext/imathematicaltext/
 ---
 ## IMathematicalText Schnittstelle
@@ -18,7 +18,7 @@ public interface IMathematicalText : IMathElement
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathematicaltext/asimathelement) { get; } | Ermöglicht das Abrufen der Basis-IMathElement Schnittstelle [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathematicaltext/asimathelement) { get; } | Ermöglicht das Abrufen der Basis IMathElement Schnittstelle [`IMathElement`](../imathelement) |
 | [Format](../../aspose.slides.mathtext/imathematicaltext/format) { get; } | Textformatierungseigenschaften |
 | [Value](../../aspose.slides.mathtext/imathematicaltext/value) { get; set; } | Textwert |
 

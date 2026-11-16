@@ -3,7 +3,7 @@ title: TransitionMorphType
 second_title: Aspose.Sildes per .NET Riferimento API
 description: Rappresenta un tipo di transizione morph.
 type: docs
-weight: 10390
+weight: 10410
 url: /it/aspose.slides.slideshow/transitionmorphtype/
 ---
 ## TransitionMorphType enumerazione
@@ -18,9 +18,9 @@ public enum TransitionMorphType
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| ByObject | `0` | La transizione morph verrà eseguita considerando le forme come oggetti indivisibili. |
-| ByWord | `1` | La transizione morph verrà eseguita trasferendo il testo parola per parola, dove possibile. |
-| ByChar | `2` | La transizione morph verrà eseguita trasferendo il testo carattere per carattere, dove possibile. |
+| ByObject | `0` | La transizione Morph verrà eseguita considerando le forme come oggetti indivisibili. |
+| ByWord | `1` | La transizione Morph verrà eseguita trasferendo il testo per parole, dove possibile. |
+| ByChar | `2` | La transizione Morph verrà eseguita trasferendo il testo per caratteri, dove possibile. |
 
 ### Vedi anche
 

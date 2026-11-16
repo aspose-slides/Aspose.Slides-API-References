@@ -1,9 +1,9 @@
 ---
 title: ISensitivityLabelCollection
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili koleksi label sensitivitas yang diterapkan pada dokumen.
 type: docs
-weight: 6940
+weight: 6960
 url: /id/aspose.slides/isensitivitylabelcollection/
 ---
 ## ISensitivityLabelCollection antarmuka
@@ -16,14 +16,14 @@ public interface ISensitivityLabelCollection : IEnumerable<ISensitivityLabel>
 
 ## Properti
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
 | [Count](../../aspose.slides/isensitivitylabelcollection/count) { get; } | Mendapatkan jumlah semua elemen dalam koleksi. Hanya-baca Int32. |
 | [Item](../../aspose.slides/isensitivitylabelcollection/item) { get; } | Mengembalikan label sensitivitas berdasarkan indeks. Hanya-baca [`ISensitivityLabel`](../isensitivitylabel). |
 
 ## Metode
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
 | [Add](../../aspose.slides/isensitivitylabelcollection/add#add_1)(ISensitivityLabel) | Menambahkan SensitivityLabel ke koleksi. |
 | [Add](../../aspose.slides/isensitivitylabelcollection/add#add)(string, Guid, bool, SensitivityLabelAssignmentType) | Menambahkan label sensitivitas di akhir koleksi. |

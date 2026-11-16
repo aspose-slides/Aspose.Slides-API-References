@@ -3,18 +3,18 @@ title: FontSubstitutionInfo
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Deze structuur vertegenwoordigt de informatie over de lettertypevervanging wanneer deze wordt gerenderd.
 type: docs
-weight: 4910
+weight: 4930
 url: /nl/aspose.slides/fontsubstitutioninfo/
 ---
 ## FontSubstitutionInfo klasse
 
-Deze structuur vertegenwoordigt de informatie over de fontvervanging wanneer deze wordt gerenderd.
+Deze structuur vertegenwoordigt de informatie over de lettertypevervanging wanneer deze wordt gerenderd.
 
 ```csharp
 public class FontSubstitutionInfo
 ```
 
-## Constructeurs
+## Constructoren
 
 | Naam | Beschrijving |
 | --- | --- |
@@ -25,7 +25,7 @@ public class FontSubstitutionInfo
 | Naam | Beschrijving |
 | --- | --- |
 | [OriginalFontName](../../aspose.slides/fontsubstitutioninfo/originalfontname) { get; } | Geeft de bronlettertype-naam in de presentatie aan. Alleen-lezen String |
-| [SubstitutedFontName](../../aspose.slides/fontsubstitutioninfo/substitutedfontname) { get; } | Geeft de vervangende lettertype-naam voor het oorspronkelijke lettertype aan. Alleen-lezen String |
+| [SubstitutedFontName](../../aspose.slides/fontsubstitutioninfo/substitutedfontname) { get; } | Geeft de vervangende lettertype-naam voor het oorspronkelijke lettertype weer. Alleen-lezen String |
 
 ### Voorbeelden
 

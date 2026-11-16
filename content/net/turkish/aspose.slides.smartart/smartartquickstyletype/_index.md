@@ -1,14 +1,14 @@
 ---
 title: SmartArtQuickStyleType
 second_title: Aspose.Sildes için .NET API Referansı
-description: Bir SmartArt diyagramının stil şemasını temsil eder.
+description: SmartArt diyagramının stil şemasını temsil eder.
 type: docs
-weight: 10650
+weight: 10670
 url: /tr/aspose.slides.smartart/smartartquickstyletype/
 ---
-## SmartArtQuickStyleType enum
+## SmartArtQuickStyleType enumerasyon
 
-Bir SmartArt diyagramının stil şemasını temsil eder.
+SmartArt diyagramının stil şemasını temsil eder.
 
 ```csharp
 public enum SmartArtQuickStyleType

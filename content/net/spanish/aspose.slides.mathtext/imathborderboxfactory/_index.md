@@ -1,9 +1,9 @@
 ---
 title: IMathBorderBoxFactory
-second_title: Aspose.Sildes para la referencia de API .NET
+second_title: Aspose.Sildes para la referencia de API de .NET
 description: Permite crear un cuadro de borde matemático
 type: docs
-weight: 8180
+weight: 8200
 url: /es/aspose.slides.mathtext/imathborderboxfactory/
 ---
 ## IMathBorderBoxFactory interfaz
@@ -18,14 +18,14 @@ public interface IMathBorderBoxFactory
 
 | Nombre | Descripción |
 | --- | --- |
-| [CreateMathBorderBox](../../aspose.slides.mathtext/imathborderboxfactory/createmathborderbox#createmathborderbox)(IMathElement) | Crear un cuadro de borde matemático aplicándolo al elemento |
-| [CreateMathBorderBox](../../aspose.slides.mathtext/imathborderboxfactory/createmathborderbox#createmathborderbox_1)(IMathElement, bool, bool, bool, bool, bool, bool, bool, bool) | Crear un cuadro de borde matemático aplicándolo al elemento |
+| [CreateMathBorderBox](../../aspose.slides.mathtext/imathborderboxfactory/createmathborderbox#createmathborderbox)(IMathElement) | Crea un cuadro de borde matemático aplicándolo al elemento |
+| [CreateMathBorderBox](../../aspose.slides.mathtext/imathborderboxfactory/createmathborderbox#createmathborderbox_1)(IMathElement, bool, bool, bool, bool, bool, bool, bool, bool) | Crea un cuadro de borde matemático aplicándolo al elemento |
 
 ### Observaciones
 
-Para compatibilidad COM
+Para compatibilidad con COM
 
-### Ver también
+### Véase también
 
 * espacio de nombres [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * ensamblado [Aspose.Slides](../../)

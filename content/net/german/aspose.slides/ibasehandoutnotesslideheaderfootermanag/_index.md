@@ -1,14 +1,14 @@
 ---
 title: IBaseHandoutNotesSlideHeaderFooterManag
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt einen Manager dar, der das Verhalten der Platzhalter enthält, einschließlich des Header-Platzhalters für alle Arten von Handout- und Notizfolien.
+description: Stellt den Manager dar, der das Verhalten der Platzhalter enthält, einschließlich des Header-Platzhalters für alle Arten von Handout- und Notizfolien.
 type: docs
-weight: 5290
+weight: 5310
 url: /de/aspose.slides/ibasehandoutnotesslideheaderfootermanag/
 ---
 ## IBaseHandoutNotesSlideHeaderFooterManag Schnittstelle
 
-Represents manager which holds behavior of the placeholders, including header placeholder for all types handout and notes slides.
+Stellt den Manager dar, der das Verhalten der Platzhalter enthält, einschließlich des Header-Platzhalters für alle Arten von Handout- und Notizfolien.
 
 ```csharp
 public interface IBaseHandoutNotesSlideHeaderFooterManag : IBaseSlideHeaderFooterManager
@@ -19,7 +19,7 @@ public interface IBaseHandoutNotesSlideHeaderFooterManag : IBaseSlideHeaderFoote
 | Name | Beschreibung |
 | --- | --- |
 | [AsIBaseSlideHeaderFooterManager](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/asibaseslideheaderfootermanager) { get; } | Gibt die Schnittstelle IBaseSlideHeaderFooterManager zurück. |
-| [IsHeaderVisible](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/isheadervisible) { get; } | Ermittelt den Wert, der anzeigt, dass ein Header-Platzhalter vorhanden ist. Lese Boolean. |
+| [IsHeaderVisible](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/isheadervisible) { get; } | Liest den Wert, der anzeigt, dass ein Header-Platzhalter vorhanden ist. Boolean lesen. |
 
 ## Methoden
 
@@ -28,9 +28,9 @@ public interface IBaseHandoutNotesSlideHeaderFooterManag : IBaseSlideHeaderFoote
 | [SetHeaderText](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/setheadertext)(string) | Setzt den Text für den Folien-Header-Platzhalter. |
 | [SetHeaderVisibility](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/setheadervisibility)(bool) | Ändert die Sichtbarkeit des Folien-Header-Platzhalters. |
 
-### Hinweise
+### Bemerkungen
 
-Der ursprüngliche Schnittstellenname "IBaseHandoutNotesSlideHeaderFooterManager" wurde aus Kompatibilitätsgründen mit COM auf "IBaseHandoutNotesSlideHeaderFooterManag" verkürzt (der Typname darf nicht länger als 39 Zeichen sein).
+Der ursprüngliche Schnittstellenname "IBaseHandoutNotesSlideHeaderFooterManager" wurde für die COM-Kompatibilität auf "IBaseHandoutNotesSlideHeaderFooterManag" gekürzt (der Typnamenslänge darf nicht mehr als 39 Zeichen betragen).
 
 ### Siehe auch
 

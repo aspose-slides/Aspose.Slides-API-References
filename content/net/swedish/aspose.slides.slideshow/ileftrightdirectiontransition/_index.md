@@ -1,14 +1,14 @@
 ---
 title: ILeftRightDirectionTransition
 second_title: Aspose.Sildes för .NET API-referens
-description: Skidövergångseffekt i vänster-höger-riktning.
+description: Slide-övergångseffekt i vänster-höger riktning.
 type: docs
-weight: 10120
+weight: 10140
 url: /sv/aspose.slides.slideshow/ileftrightdirectiontransition/
 ---
 ## ILeftRightDirectionTransition gränssnitt
 
-Skidövergångseffekt i vänster-höger-riktning.
+Slide-övergångseffekt i vänster-höger riktning.
 
 ```csharp
 public interface ILeftRightDirectionTransition : ITransitionValueBase
@@ -18,7 +18,7 @@ public interface ILeftRightDirectionTransition : ITransitionValueBase
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/ileftrightdirectiontransition/asitransitionvaluebase) { get; } | Tillåter att hämta bas ITransitionValueBase gränssnitt. Skrivskyddad [`ITransitionValueBase`](../itransitionvaluebase). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/ileftrightdirectiontransition/asitransitionvaluebase) { get; } | Tillåter att hämta bas-ITransitionValueBase-gränssnittet. Skrivskyddad [`ITransitionValueBase`](../itransitionvaluebase). |
 | [Direction](../../aspose.slides.slideshow/ileftrightdirectiontransition/direction) { get; set; } | Riktning för övergången. Läs/skriv [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
 
 ### Se även

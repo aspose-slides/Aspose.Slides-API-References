@@ -3,32 +3,31 @@ title: SideDirectionTransition
 second_title: Aspose.Sildes için .NET API Referansı
 description: Yan yön slayt geçiş efekti.
 type: docs
-weight: 10310
+weight: 10330
 url: /tr/aspose.slides.slideshow/sidedirectiontransition/
 ---
-## SideDirectionTransition sınıfı
+## SideDirectionTransition sınıf
 
-Side direction slide transition effect.
+Yan yön slayt geçiş efekti.
 
 ```csharp
 public class SideDirectionTransition : TransitionValueBase, ISideDirectionTransition
 ```
 
-
 ## Özellikler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/sidedirectiontransition/direction) { get; set; } | Geçiş yönü. Okuma/Yazma [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
+| [Direction](../../aspose.slides.slideshow/sidedirectiontransition/direction) { get; set; } | Geçiş yönü. Okuma/yazma [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
 
 ## Yöntemler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | İki TransitionValueBase örneğinin eşit olup olmadığını belirler. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Belirli bir tip için hash işlevi olarak hizmet verir, hash tabloları gibi algoritmalar ve veri yapılarına uygun. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Belirli bir tip için bir hash işlevi olarak hizmet eder, hash algoritmaları ve hash tabloları gibi veri yapılarında kullanılmak üzere uygundur. |
 
-### İlgili
+### Ayrıca
 
 * sınıf [TransitionValueBase](../transitionvaluebase)
 * arayüz [ISideDirectionTransition](../isidedirectiontransition)

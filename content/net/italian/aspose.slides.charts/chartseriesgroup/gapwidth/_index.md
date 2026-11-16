@@ -1,18 +1,22 @@
 ---
 title: GapWidth
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Specifica lo spazio tra i gruppi di barre o colonne come percentuale della larghezza della barra o della colonna. Lettura/scrittura UInt16.
+second_title: Aspose.Sildes per .NET Riferimento API
+description: Ottiene o imposta lo spazio tra i raggruppamenti di barre o colonne, come percentuale della larghezza della barra o della colonna. Il valore deve essere compreso tra 0 e 500. Lettura/scrittura UInt16.
 type: docs
 weight: 70
 url: /it/aspose.slides.charts/chartseriesgroup/gapwidth/
 ---
 ## ChartSeriesGroup.GapWidth proprietà
 
-Specifica lo spazio tra i gruppi di barre o colonne, come percentuale della larghezza della barra o della colonna. Lettura/scrittura UInt16.
+Ottiene o imposta lo spazio tra i raggruppamenti di barre o colonne, come percentuale della larghezza della barra o della colonna. Il valore deve essere compreso tra 0 e 500. Lettura/scrittura UInt16.
 
 ```csharp
 public ushort GapWidth { get; set; }
 ```
+
+### Osservazioni
+
+Questa proprietà si applica alle serie dei seguenti tipi: Bar subtypes (vedi anche [`IsChartTypeBar`](../../charttypecharacterizer/ischarttypebar) metodo), Column subtypes (vedi anche [`IsChartTypeColumn`](../../charttypecharacterizer/ischarttypecolumn) metodo), BarOfPie, PieOfPie, BoxAndWhisker, Funnel, Histogram, Waterfall.
 
 ### Vedi anche
 

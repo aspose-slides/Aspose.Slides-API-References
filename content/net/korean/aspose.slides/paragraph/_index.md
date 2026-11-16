@@ -1,9 +1,9 @@
 ---
 title: Paragraph
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 텍스트 단락을 나타냅니다.
 type: docs
-weight: 9280
+weight: 9300
 url: /ko/aspose.slides/paragraph/
 ---
 ## Paragraph 클래스
@@ -18,7 +18,7 @@ public sealed class Paragraph : IParagraph
 
 | 이름 | 설명 |
 | --- | --- |
-| [Paragraph](paragraph#constructor)() | 기본 속성으로 Paragraph 클래스를 새 인스턴스로 초기화합니다. |
+| [Paragraph](paragraph#constructor)() | 초기 속성이 기본값인 Paragraph 클래스의 새 인스턴스를 초기화합니다. |
 | [Paragraph](paragraph#constructor_1)(Paragraph) | Paragraph 클래스의 새 인스턴스를 초기화하는 복사 생성자입니다. |
 
 ## 속성
@@ -26,19 +26,21 @@ public sealed class Paragraph : IParagraph
 | 이름 | 설명 |
 | --- | --- |
 | [EndParagraphPortionFormat](../../aspose.slides/paragraph/endparagraphportionformat) { get; set; } | 마지막 부분 뒤에 다른 부분이 삽입될 경우 사용할 부분 속성을 지정합니다. |
-| [ParagraphFormat](../../aspose.slides/paragraph/paragraphformat) { get; } | 이 단락의 서식 객체를 반환합니다. 읽기 전용 [`IParagraphFormat`](../iparagraphformat). |
-| [Portions](../../aspose.slides/paragraph/portions) { get; } | 텍스트 부분의 컬렉션을 반환합니다. 읽기 전용 [`IPortionCollection`](../iportioncollection). |
+| [ParagraphFormat](../../aspose.slides/paragraph/paragraphformat) { get; } | 이 단락에 대한 서식 개체를 반환합니다. 읽기 전용 [`IParagraphFormat`](../iparagraphformat). |
+| [Portions](../../aspose.slides/paragraph/portions) { get; } | 텍스트 부분 컬렉션을 반환합니다. 읽기 전용 [`IPortionCollection`](../iportioncollection). |
 | [Text](../../aspose.slides/paragraph/text) { get; set; } | 단락의 일반 텍스트를 가져오거나 설정합니다. 읽기/쓰기 String. |
 
 ## 메서드
 
 | 이름 | 설명 |
 | --- | --- |
-| [GetLinesCount](../../aspose.slides/paragraph/getlinescount)() | 단락의 라인 수를 가져옵니다. |
-| [GetRect](../../aspose.slides/paragraph/getrect)() | 단락을 둘러싸는 사각형의 좌표를 가져옵니다. 이 사각형은 빈 라인을 포함한 단락의 모든 텍스트 라인을 포함합니다. |
-| [JoinPortionsWithSameFormatting](../../aspose.slides/paragraph/joinportionswithsameformatting)() | 동일한 서식을 가진 런을 결합합니다. |
+| [GetImage](../../aspose.slides/paragraph/getimage#getimage)() | 단락의 이미지를 반환합니다. |
+| [GetImage](../../aspose.slides/paragraph/getimage#getimage_1)(float, float) | 지정된 배율로 단락의 이미지를 반환합니다. |
+| [GetLinesCount](../../aspose.slides/paragraph/getlinescount)() | 단락의 줄 수를 가져옵니다. |
+| [GetRect](../../aspose.slides/paragraph/getrect)() | 단락을 둘러싼 사각형의 좌표를 가져옵니다. 이 사각형은 빈 줄을 포함한 단락의 모든 텍스트 줄을 포함합니다. |
+| [JoinPortionsWithSameFormatting](../../aspose.slides/paragraph/joinportionswithsameformatting)() | 같은 서식을 가진 실행을 결합합니다. |
 
-### 참조
+### 참고
 
 * 인터페이스 [IParagraph](../iparagraph)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

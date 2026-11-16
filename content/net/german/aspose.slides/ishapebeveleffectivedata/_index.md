@@ -1,14 +1,14 @@
 ---
 title: IShapeBevelEffectiveData
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Unveränderliches Objekt, das die wirksamen Flächenrelief-Eigenschaften von Formen enthält.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Unveränderliches Objekt, das die effektiven Reliefeigenschaften der Formfläche enthält.
 type: docs
-weight: 6970
+weight: 6990
 url: /de/aspose.slides/ishapebeveleffectivedata/
 ---
 ## IShapeBevelEffectiveData Schnittstelle
 
-Unveränderliches Objekt, das die wirksamen Flächenrelief-Eigenschaften der Form enthält.
+Unveränderliches Objekt, das die effektiven Reliefeigenschaften der Formfläche enthält.
 
 ```csharp
 public interface IShapeBevelEffectiveData
@@ -18,11 +18,11 @@ public interface IShapeBevelEffectiveData
 
 | Name | Beschreibung |
 | --- | --- |
-| [BevelType](../../aspose.slides/ishapebeveleffectivedata/beveltype) { get; } | Bevel-Typ. Nur lesbar [`BevelPresetType`](../bevelpresettype). |
-| [Height](../../aspose.slides/ishapebeveleffectivedata/height) { get; } | Bevel-Höhe. Nur lesbar Double. |
-| [Width](../../aspose.slides/ishapebeveleffectivedata/width) { get; } | Bevel-Breite. Nur lesbar Double. |
+| [BevelType](../../aspose.slides/ishapebeveleffectivedata/beveltype) { get; } | Typ der Abschrägung. Nur lesbar [`BevelPresetType`](../bevelpresettype). |
+| [Height](../../aspose.slides/ishapebeveleffectivedata/height) { get; } | Höhe der Abschrägung. Nur lesbar Double. |
+| [Width](../../aspose.slides/ishapebeveleffectivedata/width) { get; } | Breite der Abschrägung. Nur lesbar Double. |
 
-### Hinweise
+### Anmerkungen
 
 Diese Schnittstelle wird als Teil von [`IThreeDFormatEffectiveData`](../ithreedformateffectivedata) verwendet.
 

@@ -1,14 +1,14 @@
 ---
 title: FlyThroughTransition
-second_title: Aspose.Sildes .NET API-referencia
-description: Áttűnési effektus, amely a diákat repülő módon mozgatja.
+second_title: Aspose.Sildes a .NET API hivatkozás
+description: Repülő diaátmenet hatása.
 type: docs
-weight: 10040
+weight: 10060
 url: /hu/aspose.slides.slideshow/flythroughtransition/
 ---
 ## FlyThroughTransition osztály
 
-Áttűnési effektus, amely a diákat repülő módon mozgatja.
+Repülő diaátmenet hatás.
 
 ```csharp
 public class FlyThroughTransition : TransitionValueBase, IFlyThroughTransition
@@ -18,15 +18,15 @@ public class FlyThroughTransition : TransitionValueBase, IFlyThroughTransition
 
 | Név | Leírás |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/flythroughtransition/direction) { get; set; } | Az áttétel iránya. Olvasás/írás [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [HasBounce](../../aspose.slides.slideshow/flythroughtransition/hasbounce) { get; set; } | Megadja, hogy az áttétel során a prezentációs diák mozgása tartalmaz egy ugrást. Olvasás/írás Boolean. |
+| [Direction](../../aspose.slides.slideshow/flythroughtransition/direction) { get; set; } | Átmenet iránya. Olvasás/írás [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
+| [HasBounce](../../aspose.slides.slideshow/flythroughtransition/hasbounce) { get; set; } | Meghatározza, hogy az átmenet során a prezentációs diák mozgatása tartalmaz-e ugrást. Olvasás/írás Boolean. |
 
-## Metódusok
+## Módszerek
 
 | Név | Leírás |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Megállapítja, hogy a két TransitionValueBase példány egyenlő-e. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Hash függvényként szolgál egy adott típushoz, amely alkalmas hash-algoritmusokban és adatstruktúrákban, például hash-táblában való használatra. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Meghatározza, hogy a két TransitionValueBase példány egyenlő-e. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Hash függvényként szolgál egy adott típushoz, amely alkalmas hash algoritmusokban és adatstruktúrákban, például hash táblában való használatra. |
 
 ### Lásd még
 

@@ -1,9 +1,9 @@
 ---
 title: SmartArtShapeCollection
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt eine Sammlung von SmartArt-Formen dar
 type: docs
-weight: 10670
+weight: 10690
 url: /de/aspose.slides.smartart/smartartshapecollection/
 ---
 ## SmartArtShapeCollection Klasse
@@ -18,17 +18,17 @@ public class SmartArtShapeCollection : ISmartArtShapeCollection
 
 | Name | Beschreibung |
 | --- | --- |
-| [Count](../../aspose.slides.smartart/smartartshapecollection/count) { get; } | Ermittelt die tatsächlich in der Sammlung enthaltene Anzahl von Elementen. Nur lesbar Int32. |
-| [IsSynchronized](../../aspose.slides.smartart/smartartshapecollection/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert ist (Thread-sicher). Nur lesbar Boolean. |
-| [Item](../../aspose.slides.smartart/smartartshapecollection/item) { get; } | Ermittelt das Element am angegebenen Index. Nur lesbar [`SmartArtShape`](../smartartshape).&gt;. |
-| [SyncRoot](../../aspose.slides.smartart/smartartshapecollection/syncroot) { get; } | Gibt eine Synchronisationswurzel zurück. Nur lesbar Object. |
+| [Count](../../aspose.slides.smartart/smartartshapecollection/count) { get; } | Liefert die tatsächlich in der Sammlung enthaltene Anzahl von Elementen. Nur-Lesen Int32. |
+| [IsSynchronized](../../aspose.slides.smartart/smartartshapecollection/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert (thread-safe) ist. Nur-Lesen Boolean. |
+| [Item](../../aspose.slides.smartart/smartartshapecollection/item) { get; } | Liefert das Element am angegebenen Index. Nur-Lesen [`SmartArtShape`](../smartartshape).&gt;. |
+| [SyncRoot](../../aspose.slides.smartart/smartartshapecollection/syncroot) { get; } | Gibt ein Synchronisations-Root zurück. Nur-Lesen Object. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
 | [CopyTo](../../aspose.slides.smartart/smartartshapecollection/copyto)(Array, int) | Kopiert alle Elemente der Sammlung in das angegebene Array. |
-| [GetEnumerator](../../aspose.slides.smartart/smartartshapecollection/getenumerator)() | Gibt einen Enumerator zurück, der durch die Sammlung iteriert. |
+| [GetEnumerator](../../aspose.slides.smartart/smartartshapecollection/getenumerator)() | Gibt einen Enumerator zurück, der die Sammlung durchläuft. |
 
 ### Siehe auch
 

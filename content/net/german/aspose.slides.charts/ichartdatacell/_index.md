@@ -1,14 +1,14 @@
 ---
 title: IChartDataCell
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt die Zelle für Diagrammdaten dar.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Stellt eine Zelle für Diagrammdaten dar.
 type: docs
-weight: 1810
+weight: 1830
 url: /de/aspose.slides.charts/ichartdatacell/
 ---
 ## IChartDataCell Schnittstelle
 
-Stellt die Zelle für Diagrammdaten dar.
+Stellt eine Zelle für Diagrammdaten dar.
 
 ```csharp
 public interface IChartDataCell
@@ -16,25 +16,25 @@ public interface IChartDataCell
 
 ## Eigenschaften
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
-| [ChartDataWorksheet](../../aspose.slides.charts/ichartdatacell/chartdataworksheet) { get; } | Liefert das Arbeitsblatt. Nur lesbar [`IChartDataWorksheet`](../ichartdataworksheet). |
-| [Column](../../aspose.slides.charts/ichartdatacell/column) { get; } | Gibt den Index der Spalte des Arbeitsblatts zurück, in der sich die Zelle befindet. Nur lesbar Int32. |
-| [CustomNumberFormat](../../aspose.slides.charts/ichartdatacell/customnumberformat) { get; set; } | Liefert oder legt das benutzerdefinierte Anzeigeformat von Zahlen und Datumswerten fest. Wenn der Wert leer ist, wird der PresetNumberFormat-Wert verwendet. Lese-/Schreibzugriff String. |
-| [Formula](../../aspose.slides.charts/ichartdatacell/formula) { get; set; } | Liefert oder legt die Formel im A1-Stil fest. |
+| [ChartDataWorksheet](../../aspose.slides.charts/ichartdatacell/chartdataworksheet) { get; } | Liest das Arbeitsblatt. Nur lesbar [`IChartDataWorksheet`](../ichartdataworksheet). |
+| [Column](../../aspose.slides.charts/ichartdatacell/column) { get; } | Gibt den Index der Spalte zurück, in der die Zelle im Arbeitsblatt liegt. Nur lesbar Int32. |
+| [CustomNumberFormat](../../aspose.slides.charts/ichartdatacell/customnumberformat) { get; set; } | Liest oder setzt das benutzerdefinierte Anzeigeformat für Zahlen und Datumswerte. Wenn der Wert leer ist, wird der PresetNumberFormat-Wert verwendet. Lesen/Schreiben String. |
+| [Formula](../../aspose.slides.charts/ichartdatacell/formula) { get; set; } | Liest oder setzt die Formel im A1-Stil. |
 | [IsHidden](../../aspose.slides.charts/ichartdatacell/ishidden) { get; } | Ermittelt, ob die Zelle ausgeblendet ist. Nur lesbar Boolean. |
-| [PresetNumberFormat](../../aspose.slides.charts/ichartdatacell/presetnumberformat) { get; set; } | Liefert oder legt das integrierte Anzeigeformat von Zahlen und Datumswerten fest. Der voreingestellte Wert muss in [0..22] oder [37..49] liegen. Lese-/Schreibzugriff Byte. |
-| [R1C1Formula](../../aspose.slides.charts/ichartdatacell/r1c1formula) { get; set; } | Liefert oder legt die Formel im R1C1-Stil fest. |
-| [Row](../../aspose.slides.charts/ichartdatacell/row) { get; } | Gibt den Index der Zeile des Arbeitsblatts zurück, in der sich die Zelle befindet. Nur lesbar Int32. |
-| [Value](../../aspose.slides.charts/ichartdatacell/value) { get; set; } | Liefert oder legt den Wert einer Zelle fest. Lese-/Schreibzugriff Object. |
+| [PresetNumberFormat](../../aspose.slides.charts/ichartdatacell/presetnumberformat) { get; set; } | Liest oder setzt das integrierte Anzeigeformat für Zahlen und Datumswerte. Preset-Zahl muss im Bereich [0..22] oder [37..49] liegen. Lesen/Schreiben Byte. |
+| [R1C1Formula](../../aspose.slides.charts/ichartdatacell/r1c1formula) { get; set; } | Liest oder setzt die Formel im R1C1-Stil. |
+| [Row](../../aspose.slides.charts/ichartdatacell/row) { get; } | Gibt den Index der Zeile zurück, in der die Zelle im Arbeitsblatt liegt. Nur lesbar Int32. |
+| [Value](../../aspose.slides.charts/ichartdatacell/value) { get; set; } | Liest oder setzt den Wert einer Zelle. Lesen/Schreiben Object. |
 
 ## Methoden
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
 | [Calculate](../../aspose.slides.charts/ichartdatacell/calculate)(bool) | Wenn die Zelle eine Formel enthält, wird der Wert anhand dieser Formel aktualisiert. |
 
-### Siehe Auch
+### Siehe auch
 
 * Namensraum [Aspose.Slides.Charts](../../aspose.slides.charts)
 * Assembly [Aspose.Slides](../../)

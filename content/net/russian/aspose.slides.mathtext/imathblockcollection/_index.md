@@ -3,7 +3,7 @@ title: IMathBlockCollection
 second_title: Справочник API Aspose.Sildes для .NET
 description: Коллекция математических блоков IMathBlock
 type: docs
-weight: 8150
+weight: 8170
 url: /ru/aspose.slides.mathtext/imathblockcollection/
 ---
 ## IMathBlockCollection интерфейс
@@ -26,10 +26,10 @@ public interface IMathBlockCollection : IEnumerable<IMathBlock>
 | --- | --- |
 | [Add](../../aspose.slides.mathtext/imathblockcollection/add)(IMathBlock) | Добавляет IMathBlock в конец коллекции. |
 | [Clear](../../aspose.slides.mathtext/imathblockcollection/clear)() | Удаляет все элементы из коллекции. |
-| [Contains](../../aspose.slides.mathtext/imathblockcollection/contains)(IMathBlock) | Определяет, содержит ли коллекция указанное значение. |
-| [IndexOf](../../aspose.slides.mathtext/imathblockcollection/indexof)(IMathBlock) | Определяет индекс указанного IMathBlock в коллекции. |
+| [Contains](../../aspose.slides.mathtext/imathblockcollection/contains)(IMathBlock) | Определяет, содержит ли коллекция конкретное значение. |
+| [IndexOf](../../aspose.slides.mathtext/imathblockcollection/indexof)(IMathBlock) | Определяет индекс конкретного IMathBlock в коллекции. |
 | [Insert](../../aspose.slides.mathtext/imathblockcollection/insert)(int, IMathBlock) | Вставляет IMathBlock в коллекцию по указанному индексу. |
-| [Remove](../../aspose.slides.mathtext/imathblockcollection/remove)(IMathBlock) | Удаляет первое вхождение указанного объекта из коллекции/>. |
+| [Remove](../../aspose.slides.mathtext/imathblockcollection/remove)(IMathBlock) | Удаляет первое вхождение конкретного объекта из коллекции/&gt;. |
 | [RemoveAt](../../aspose.slides.mathtext/imathblockcollection/removeat)(int) | Удаляет элемент по указанному индексу в коллекции. |
 
 ### Примеры

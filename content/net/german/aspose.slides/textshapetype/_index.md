@@ -1,14 +1,14 @@
 ---
 title: TextShapeType
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt die Form für den Textumbruch dar.
+description: Stellt eine Textumbruchform dar.
 type: docs
-weight: 10980
+weight: 11000
 url: /de/aspose.slides/textshapetype/
 ---
 ## TextShapeType Aufzählung
 
-Stellt die Form für den Textumbruch dar.
+Stellt eine Textumbruchform dar.
 
 ```csharp
 public enum TextShapeType : sbyte
@@ -26,16 +26,16 @@ public enum TextShapeType : sbyte
 | TriangleInverted | `4` | Umgekehrtes Dreieck |
 | Chevron | `5` | Chevron |
 | ChevronInverted | `6` | Umgekehrtes Chevron |
-| RingInside | `7` | Innenring |
-| RingOutside | `8` | Außenring |
+| RingInside | `7` | Innerer Ring |
+| RingOutside | `8` | Äußerer Ring |
 | ArchUp | `9` | Aufwärtsbogen |
 | ArchDown | `10` | Abwärtsbogen |
 | Circle | `11` | Kreis |
 | Button | `12` | Schaltfläche |
-| ArchUpPour | `13` | Aufwärts fließender Bogen |
-| ArchDownPour | `14` | Abwärts fließender Bogen |
+| ArchUpPour | `13` | Aufwärtsgießbogen |
+| ArchDownPour | `14` | Abwärtsgießbogen |
 | CirclePour | `15` | Kreisfüllung |
-| ButtonPour | `16` | Schaltflächenfüllung |
+| ButtonPour | `16` | Schaltflächenguss |
 | CurveUp | `17` | Aufwärtskurve |
 | CurveDown | `18` | Abwärtskurve |
 | CanUp | `19` | Aufwärtsdose |
@@ -52,12 +52,12 @@ public enum TextShapeType : sbyte
 | DeflateTop | `30` | Oberes Entleeren |
 | DeflateInflate | `31` | Entleeren-Aufblasen |
 | DeflateInflateDeflate | `32` | Entleeren-Aufblasen-Entleeren |
-| FadeRight | `33` | Rechte Verblendung |
-| FadeLeft | `34` | Linke Verblendung |
-| FadeUp | `35` | Aufwärtsverblendung |
-| FadeDown | `36` | Abwärtsverblendung |
-| SlantUp | `37` | Aufwärtsschräge |
-| SlantDown | `38` | Abwärtsschräge |
+| FadeRight | `33` | Rechter Ausblenden |
+| FadeLeft | `34` | Linker Ausblenden |
+| FadeUp | `35` | Aufwärtsausblenden |
+| FadeDown | `36` | Abwärtsausblenden |
+| SlantUp | `37` | Aufwärtsgeneigt |
+| SlantDown | `38` | Abwärtsgeneigt |
 | CascadeUp | `39` | Aufwärtskaskade |
 | CascadeDown | `40` | Abwärtskaskade |
 | Custom | `41` | Benutzerdefiniert |

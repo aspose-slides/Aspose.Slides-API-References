@@ -1,14 +1,14 @@
 ---
 title: SetAsTotal
-second_title: Aspose.Sildes dla .NET – referencja API
-description: Ustawia punkt danych jako sumę całkowitą. Stosowane wyłącznie dla typu serii Waterfall.
+second_title: Aspose.Sildes dla .NET – dokumentacja API
+description: Ustawia punkt danych jako sumę. Stosowane wyłącznie dla typu serii Waterfall.
 type: docs
-weight: 140
+weight: 180
 url: /pl/aspose.slides.charts/ichartdatapoint/setastotal/
 ---
 ## IChartDataPoint.SetAsTotal właściwość
 
-Ustawia punkt danych jako sumę całkowitą. Stosowane tylko dla typu serii Waterfall.
+Ustawia punkt danych jako sumę. Stosowane wyłącznie dla typu serii Waterfall.
 
 ```csharp
 public bool SetAsTotal { get; set; }

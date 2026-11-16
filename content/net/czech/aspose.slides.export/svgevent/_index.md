@@ -1,14 +1,14 @@
 ---
 title: SvgEvent
-second_title: Aspose.Sildes pro .NET API Reference
-description: Představuje možnosti pro tvar SVG.
+second_title: Aspose.Sildes pro .NET – reference API
+description: Reprezentuje možnosti pro SVG tvar.
 type: docs
-weight: 4490
+weight: 4510
 url: /cs/aspose.slides.export/svgevent/
 ---
-## SvgEvent enumerace
+## Výčtový typ SvgEvent
 
-Představuje možnosti pro tvar SVG.
+Reprezentuje možnosti pro SVG tvar.
 
 ```csharp
 public enum SvgEvent
@@ -18,22 +18,22 @@ public enum SvgEvent
 
 | Název | Hodnota | Popis |
 | --- | --- | --- |
-| OnFocusIn | `0` | Vyskytuje se, když prvek získá fokus, například když je text vybrán. |
-| OnFocusOut | `1` | Vyskytuje se, když prvek ztratí fokus, například když je text odznačen. |
+| OnFocusIn | `0` | Vyskytuje se, když prvek získá zaměření, například když je text vybrán. |
+| OnFocusOut | `1` | Vyskytuje se, když prvek ztrácí zaměření, například když je text odznačen. |
 | OnActivate | `2` | Vyskytuje se, když je prvek aktivován, například kliknutím myši nebo stisknutím klávesy. |
 | OnClick | `3` | Vyskytuje se, když je tlačítko ukazovacího zařízení kliknuto nad prvkem. |
 | OnMouseDown | `4` | Vyskytuje se, když je tlačítko ukazovacího zařízení stisknuto nad prvkem. |
 | OnMouseUp | `5` | Vyskytuje se, když je tlačítko ukazovacího zařízení uvolněno nad prvkem. |
 | OnMouseOver | `6` | Vyskytuje se, když je ukazovací zařízení přesunuto na prvek. |
 | OnMouseMove | `7` | Vyskytuje se, když je ukazovací zařízení přesunuto, zatímco je nad prvkem. |
-| OnMouseOut | `8` | Vyskytuje se, když je ukazovací zařízení odtaženo od prvku. |
-| OnLoad | `9` | Vyskytuje se, když uživatelský agent plně zpracoval prvek a jeho potomky a všechny odkazované zdroje potřebné k jeho vykreslení. |
-| OnUnload | `10` | Vyskytuje se, když implementace DOM odebere dokument z okna nebo rámce. Pouze platí pro nejvnější svg prvky. |
-| OnAbort | `11` | Vyskytuje se, když je načítání stránky zastaveno předtím, než byl prvek povolen načíst se úplně. |
+| OnMouseOut | `8` | Vyskytuje se, když je ukazovací zařízení přesunuto pryč od prvku. |
+| OnLoad | `9` | Vyskytuje se, když uživatelský agent plně zpracoval prvek, jeho potomky i všechny odkazované zdroje potřebné k jeho vykreslení. |
+| OnUnload | `10` | Vyskytuje se, když implementace DOM odebere dokument z okna nebo rámce. Platí pouze pro nejvnější svg prvky. |
+| OnAbort | `11` | Vyskytuje se, když je načítání stránky zastaveno, než se prvek mohl načíst úplně. |
 | OnError | `12` | Vyskytuje se, když se prvek nenačte správně nebo když během vykonávání skriptu dojde k chybě. |
-| OnResize | `13` | Vyskytuje se, když se mění velikost pohledu na dokument. Pouze platí pro nejvnější svg prvky. |
-| OnScroll | `14` | Vyskytuje se, když se pohled na dokument posouvá podél osy X nebo Y nebo obou. Pouze platí pro nejvnější svg prvky. |
-| OnZoom | `15` | Vyskytuje se, když se mění úroveň přiblížení pohledu na dokument. Pouze platí pro nejvnější svg prvky. |
+| OnResize | `13` | Vyskytuje se, když se mění velikost zobrazení dokumentu. Platí pouze pro nejvnější svg prvky. |
+| OnScroll | `14` | Vyskytuje se, když se zobrazení dokumentu posune podél osy X, Y nebo obou. Platí pouze pro nejvnější svg prvky. |
+| OnZoom | `15` | Vyskytuje se, když se mění úroveň přiblížení zobrazení dokumentu. Platí pouze pro nejvnější svg prvky. |
 | OnBegin | `16` | Vyskytuje se, když animovaný prvek začne. |
 | OnEnd | `17` | Vyskytuje se, když animovaný prvek skončí. |
 | OnRepeat | `18` | Vyskytuje se, když se animovaný prvek opakuje. |

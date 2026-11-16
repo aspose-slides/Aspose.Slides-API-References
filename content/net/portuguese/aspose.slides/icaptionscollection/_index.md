@@ -1,9 +1,9 @@
 ---
 title: ICaptionsCollection
 second_title: Aspose.Sildes para .NET Referência da API
-description: Representa uma coleção das legendas fechadas.
+description: Representa uma coleção de legendas fechadas.
 type: docs
-weight: 5440
+weight: 5460
 url: /pt/aspose.slides/icaptionscollection/
 ---
 ## ICaptionsCollection interface
@@ -16,14 +16,14 @@ public interface ICaptionsCollection : IEnumerable<ICaptions>
 
 ## Propriedades
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
 | [Count](../../aspose.slides/icaptionscollection/count) { get; } | Retorna o número de elementos na coleção. Somente leitura Int32. |
 | [Item](../../aspose.slides/icaptionscollection/item) { get; } | Retorna as legendas fechadas no índice especificado. Somente leitura [`ICaptions`](../icaptions). |
 
 ## Métodos
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
 | [Add](../../aspose.slides/icaptionscollection/add#add)(string, Stream) | Adiciona legendas fechadas WebVTT ao final da coleção a partir de um fluxo. |
 | [Add](../../aspose.slides/icaptionscollection/add#add_1)(string, string) | Adiciona legendas fechadas WebVTT ao final da coleção. |

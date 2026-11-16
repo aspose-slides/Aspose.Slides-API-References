@@ -1,9 +1,9 @@
 ---
 title: ITransitionValueBase
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili kelas dasar untuk efek transisi slide.
 type: docs
-weight: 10210
+weight: 10230
 url: /id/aspose.slides.slideshow/itransitionvaluebase/
 ---
 ## ITransitionValueBase antarmuka

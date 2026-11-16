@@ -1,9 +1,9 @@
 ---
 title: ISummaryZoomSection
-second_title: Aspose.Sildes для .NET справочник API
+second_title: Aspose.Sildes для .NET справка API
 description: Представляет объект Summary Zoom Section в кадре Summary Zoom.
 type: docs
-weight: 7160
+weight: 7180
 url: /ru/aspose.slides/isummaryzoomsection/
 ---
 ## ISummaryZoomSection интерфейс
@@ -18,7 +18,7 @@ public interface ISummaryZoomSection : ISectionZoomFrame
 
 | Имя | Описание |
 | --- | --- |
-| [AsISectionZoomFrame](../../aspose.slides/isummaryzoomsection/asisectionzoomframe) { get; } | Возвращает ISectionZoomFrame интерфейс. |
+| [AsISectionZoomFrame](../../aspose.slides/isummaryzoomsection/asisectionzoomframe) { get; } | Возвращает интерфейс ISectionZoomFrame. |
 | [Description](../../aspose.slides/isummaryzoomsection/description) { get; set; } | Возвращает текстовое описание объекта Summary Zoom Section. |
 | [Title](../../aspose.slides/isummaryzoomsection/title) { get; set; } | Возвращает текстовый заголовок объекта Summary Zoom Section. |
 

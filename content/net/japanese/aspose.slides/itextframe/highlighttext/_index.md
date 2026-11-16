@@ -1,9 +1,9 @@
 ---
 title: HighlightText
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes for .NET APIリファレンス
 description: 指定された色でサンプルテキストのすべての一致箇所をハイライトします。
 type: docs
-weight: 90
+weight: 100
 url: /ja/aspose.slides/itextframe/highlighttext/
 ---
 ## HighlightText(string, Color) {#highlighttext}
@@ -14,7 +14,7 @@ url: /ja/aspose.slides/itextframe/highlighttext/
 public void HighlightText(string text, Color highlightColor)
 ```
 
-| パラメータ | 型 | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | text | String | ハイライトするテキスト。 |
 | highlightColor | Color | テキストをハイライトする色。 |
@@ -36,24 +36,24 @@ public void HighlightText(string text, Color highlightColor, ITextSearchOptions 
     IFindResultCallback callback)
 ```
 
-| パラメータ | 型 | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | text | String | ハイライトするテキスト。 |
 | highlightColor | Color | テキストをハイライトする色。 |
-| options | ITextSearchOptions | Text search options [`ITextSearchOptions`](../../itextsearchoptions)。 |
-| callback | IFindResultCallback | The callback object for receiving search results [`IFindResultCallback`](../../ifindresultcallback)。 |
+| options | ITextSearchOptions | テキスト検索オプション [`ITextSearchOptions`](../../itextsearchoptions)。 |
+| callback | IFindResultCallback | 検索結果を受け取るためのコールバック オブジェクト [`IFindResultCallback`](../../ifindresultcallback)。 |
 
 ### 例
 
-次のコードサンプルは、TextFrameでテキストをハイライトする方法を示しています。
+以下のコードサンプルは、TextFrame でテキストをハイライトする方法を示しています。
 
 ```csharp
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
-	// すべての単語 'important' をハイライト
+	// 'important' というすべての単語をハイライト
 	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.HighlightText("important", Color.LightBlue);
-	// 個別の 'the' の出現をすべてハイライト
+	// 'the' のすべての個別出現をハイライト
 	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.HighlightText("the", Color.Violet, new TextSearchOptions()
 	{ WholeWordsOnly = true }, null);
 	presentation.Save("SomePresentation-out2.pptx", SaveFormat.Pptx);

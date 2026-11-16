@@ -1,14 +1,14 @@
 ---
 title: Value
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Value. Hanya-baca IDoubleChartValueaspose.slides.charts/idoublechartvalue.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Nilai. Hanya baca IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
-weight: 190
+weight: 230
 url: /id/aspose.slides.charts/chartdatapoint/value/
 ---
 ## ChartDataPoint.Value properti
 
-Nilai. Hanya-baca [`IDoubleChartValue`](../../idoublechartvalue).
+Nilai. Hanya baca [`IDoubleChartValue`](../../idoublechartvalue).
 
 ```csharp
 public IDoubleChartValue Value { get; }

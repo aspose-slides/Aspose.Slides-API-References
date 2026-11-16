@@ -1,14 +1,14 @@
 ---
 title: IFormatSchemeEffectiveData
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Objeto inmutable que contiene las propiedades efectivas del esquema de formato.
+second_title: Referencia de API de Aspose.Sildes para .NET
+description: Objeto inmutable que contiene las propiedades del esquema de formato efectivo.
 type: docs
-weight: 11280
+weight: 11300
 url: /es/aspose.slides.theme/iformatschemeeffectivedata/
 ---
 ## IFormatSchemeEffectiveData interfaz
 
-Objeto inmutable que contiene las propiedades efectivas del esquema de formato.
+Objeto inmutable que contiene las propiedades del esquema de formato efectivo.
 
 ```csharp
 public interface IFormatSchemeEffectiveData

@@ -1,14 +1,14 @@
 ---
 title: IXamlOptions
 second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Opcje kontrolujące sposób zapisu dokumentu XAML.
+description: Opcje kontrolujące sposób zapisywania dokumentu XAML.
 type: docs
-weight: 4700
+weight: 4720
 url: /pl/aspose.slides.export.xaml/ixamloptions/
 ---
 ## IXamlOptions interfejs
 
-Opcje, które kontrolują sposób zapisu dokumentu XAML.
+Opcje kontrolujące sposób zapisywania dokumentu XAML.
 
 ```csharp
 public interface IXamlOptions : ISaveOptions
@@ -19,7 +19,7 @@ public interface IXamlOptions : ISaveOptions
 | Nazwa | Opis |
 | --- | --- |
 | [AsISaveOptions](../../aspose.slides.export.xaml/ixamloptions/asisaveoptions) { get; } | Zwraca interfejs ISaveOptions. Tylko do odczytu [`ISaveOptions`](../../aspose.slides.export/isaveoptions). |
-| [ExportHiddenSlides](../../aspose.slides.export.xaml/ixamloptions/exporthiddenslides) { get; set; } | Określa, czy ukryte slajdy mają być eksportowane. |
+| [ExportHiddenSlides](../../aspose.slides.export.xaml/ixamloptions/exporthiddenslides) { get; set; } | Określa, czy ukryte slajdy będą eksportowane. |
 | [OutputSaver](../../aspose.slides.export.xaml/ixamloptions/outputsaver) { get; set; } | Reprezentuje implementację interfejsu IOutputSaver. |
 
 ### Przykłady

@@ -1,14 +1,14 @@
 ---
 title: IThemeable
 second_title: Aspose.Sildes for .NET API 참조
-description: ITheme./itheme으로 테마를 지정할 수 있는 객체를 나타냅니다.
+description: ITheme./itheme으로 테마를 적용할 수 있는 개체를 나타냅니다.
 type: docs
-weight: 11400
+weight: 11420
 url: /ko/aspose.slides.theme/ithemeable/
 ---
 ## IThemeable 인터페이스
 
-Represents objects that can be themed with [`ITheme`](../itheme).
+지정된 [`ITheme`](../itheme)로 테마를 적용할 수 있는 개체를 나타냅니다.
 
 ```csharp
 public interface IThemeable : ISlideComponent
@@ -24,9 +24,9 @@ public interface IThemeable : ISlideComponent
 
 | 이름 | 설명 |
 | --- | --- |
-| [CreateThemeEffective](../../aspose.slides.theme/ithemeable/createthemeeffective)() | 이 테마 지정 가능 객체에 대한 효과적인 테마를 반환합니다. |
+| [CreateThemeEffective](../../aspose.slides.theme/ithemeable/createthemeeffective)() | 이 테마 적용 가능한 객체에 대한 유효한 테마를 반환합니다. |
 
-### 추가 보기
+### 또 보기
 
 * 인터페이스 [ISlideComponent](../../aspose.slides/islidecomponent)
 * 네임스페이스 [Aspose.Slides.Theme](../../aspose.slides.theme)

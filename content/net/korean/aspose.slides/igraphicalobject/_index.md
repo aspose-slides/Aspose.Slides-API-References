@@ -3,7 +3,7 @@ title: IGraphicalObject
 second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 추상 그래픽 개체를 나타냅니다.
 type: docs
-weight: 6060
+weight: 6080
 url: /ko/aspose.slides/igraphicalobject/
 ---
 ## IGraphicalObject 인터페이스
@@ -16,7 +16,7 @@ public interface IGraphicalObject : IShape
 
 ## 속성
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
 | [AsIShape](../../aspose.slides/igraphicalobject/asishape) { get; } | 기본 IShape 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IShape`](../ishape). |
 | [GraphicalObjectLock](../../aspose.slides/igraphicalobject/graphicalobjectlock) { get; } | shape의 잠금을 반환합니다. 읽기 전용 [`IGraphicalObjectLock`](../igraphicalobjectlock). |

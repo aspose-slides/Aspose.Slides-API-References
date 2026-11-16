@@ -1,14 +1,14 @@
 ---
 title: SvgExternalFontsHandling
-second_title: Aspose.Sildes için .NET API Referansı
-description: Metin çizimi için kullanılan dış yazı tiplerini işleme şeklini temsil eder.
+second_title: Aspose.Sildes .NET API Referansı
+description: Metin çiziminde kullanılan harici yazı tiplerini işleme yöntemini temsil eder.
 type: docs
-weight: 4500
+weight: 4520
 url: /tr/aspose.slides.export/svgexternalfontshandling/
 ---
-## SvgExternalFontsHandling enum'ı
+## SvgExternalFontsHandling enum
 
-Metin çizimi için kullanılan dış yazı tiplerini işleme şekli temsil eder.
+Metin çiziminde kullanılan harici yazı tiplerini işleme yöntemini temsil eder.
 
 ```csharp
 public enum SvgExternalFontsHandling
@@ -18,9 +18,9 @@ public enum SvgExternalFontsHandling
 
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
-| AddLinksToFontFiles | `0` | SVG dosyasının stil bölümüne ayrı yazı tipi dosyalarına bağlantılar ekler. |
-| Embed | `1` | Yazı tipi verilerini doğrudan SVG dosyasına kaydeder. Bu seçeneği kullanmadan önce tüm dış yazı tiplerinin lisans anlaşmalarını kontrol edin. |
-| Vectorize | `2` | Dış yazı tipleri kullanan tüm metni grafik olarak kaydeder. |
+| AddLinksToFontFiles | `0` | SVG dosyasının stil bölümüne ayrı font dosyalarına bağlantılar ekle. |
+| Embed | `1` | Yazı tiplerinin verilerini doğrudan SVG dosyasına kaydet. Bu seçeneği kullanmadan önce tüm harici yazı tiplerinin lisans anlaşmalarını kontrol edin. |
+| Vectorize | `2` | Harici yazı tipleri kullanılan tüm metni grafik olarak kaydet. |
 
 ### Ayrıca Bakınız
 

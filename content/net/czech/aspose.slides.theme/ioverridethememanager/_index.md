@@ -1,14 +1,14 @@
 ---
 title: IOverrideThemeManager
-second_title: Aspose.Sildes pro .NET API Reference
-description: Poskytuje přístup k různým typům přepsaných motivů.
+second_title: Aspose.Sildes pro .NET referenční příručka API
+description: Poskytuje přístup k různým typům přepsaných témat.
 type: docs
-weight: 11350
+weight: 11370
 url: /cs/aspose.slides.theme/ioverridethememanager/
 ---
 ## IOverrideThemeManager rozhraní
 
-Poskytuje přístup k různým typům přepsaných motivů.
+Provides access to different types of overriden themes.
 
 ```csharp
 public interface IOverrideThemeManager : IThemeManager
@@ -18,9 +18,9 @@ public interface IOverrideThemeManager : IThemeManager
 
 | Název | Popis |
 | --- | --- |
-| [AsIThemeManager](../../aspose.slides.theme/ioverridethememanager/asithememanager) { get; } | Umožňuje získat základní rozhraní IThemeManager. Pouze pro čtení [`IThemeManager`](../ithememanager). |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/ioverridethememanager/isoverridethemeenabled) { get; } | Určuje, zda OverrideTheme přepisuje zděděný efektivní motiv nebo ne. Pro povolení přepisování OverrideTheme použijte metody OverrideTheme.Init*(). Pro zakázání přepisování OverrideTheme použijte metodu OverrideTheme.Clear(). Pouze pro čtení Boolean. |
-| [OverrideTheme](../../aspose.slides.theme/ioverridethememanager/overridetheme) { get; set; } | Vrací objekt přepisující motiv. Čtení/Zápis [`IOverrideTheme`](../ioverridetheme). |
+| [AsIThemeManager](../../aspose.slides.theme/ioverridethememanager/asithememanager) { get; } | Umožňuje získat základní rozhraní IThemeManager. Pouze ke čtení [`IThemeManager`](../ithememanager). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/ioverridethememanager/isoverridethemeenabled) { get; } | Určuje, zda OverrideTheme přepisuje zděděné efektivní téma nebo ne. Pro povolení přepisování OverrideTheme použijte metody OverrideTheme.Init*(). Pro zakázání přepisování OverrideTheme použijte metodu OverrideTheme.Clear(). Pouze ke čtení Boolean. |
+| [OverrideTheme](../../aspose.slides.theme/ioverridethememanager/overridetheme) { get; set; } | Vrací objekt přepisujícího tématu. Čtení/zápis [`IOverrideTheme`](../ioverridetheme). |
 
 ### Viz také
 

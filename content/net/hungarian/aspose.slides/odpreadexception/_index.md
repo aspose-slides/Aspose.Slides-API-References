@@ -1,14 +1,14 @@
 ---
 title: OdpReadException
-second_title: Aspose.Sildes .NET API referencia
-description: Olyan kivételt képvisel, amely a prezentáció olvasási hibái esetén kerül dobásra.
+second_title: Aspose.Sildes a .NET API referenciája
+description: Olyan kivételt képvisel, amely a prezentáció olvasási hibái során dobódik.
 type: docs
-weight: 9220
+weight: 9240
 url: /hu/aspose.slides/odpreadexception/
 ---
 ## OdpReadException osztály
 
-Olyan kivételt képvisel, amely a prezentáció olvasási hibái esetén kerül dobásra.
+Olyan kivételt képvisel, amely a prezentáció olvasási hibái során dobódik.
 
 ```csharp
 public class OdpReadException : OdpException
@@ -19,8 +19,8 @@ public class OdpReadException : OdpException
 | Név | Leírás |
 | --- | --- |
 | [OdpReadException](odpreadexception#constructor)() | Alapértelmezett konstruktor |
-| [OdpReadException](odpreadexception#constructor_1)(string) | Konstruktor, amely lehetővé teszi üzenet hozzáadását ehhez a kivételhez. |
-| [OdpReadException](odpreadexception#constructor_2)(string, Exception) | Konstruktor, amely egy üzenetet és egy beágyazott kivételt tartalmazó kivételt hoz létre. |
+| [OdpReadException](odpreadexception#constructor_1)(string) | Konstruktor, amely lehetővé teszi, hogy üzenetet adjon ehhez a kivételhez. |
+| [OdpReadException](odpreadexception#constructor_2)(string, Exception) | Konstruktor egy olyan kivételhez, amely üzenetet és egy beágyazott kivételt tartalmaz. |
 
 ### Lásd még
 

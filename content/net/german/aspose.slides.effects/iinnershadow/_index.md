@@ -3,7 +3,7 @@ title: IInnerShadow
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt einen inneren Schatteneffekt dar.
 type: docs
-weight: 3420
+weight: 3440
 url: /de/aspose.slides.effects/iinnershadow/
 ---
 ## IInnerShadow Schnittstelle
@@ -19,11 +19,11 @@ public interface IInnerShadow : IAccessiblePVIObject<IInnerShadowEffectiveData>,
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/iinnershadow/asiaccessiblepviobject) { get; } | Ermöglicht den Zugriff auf die Basis-IAccessiblePVIObject-Schnittstelle. Nur lesbar [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/iinnershadow/asiimagetransformoperation) { get; } | Ermöglicht den Zugriff auf die Basis-IImageTransformOperation-Schnittstelle. Nur lesbar [`IImageTransformOperation`](../iimagetransformoperation). |
-| [BlurRadius](../../aspose.slides.effects/iinnershadow/blurradius) { get; set; } | Unschärferadius. Lese/Schreib Double. |
-| [Direction](../../aspose.slides.effects/iinnershadow/direction) { get; set; } | Richtung des Schattens. Lese/Schreib Single. |
-| [Distance](../../aspose.slides.effects/iinnershadow/distance) { get; set; } | Entfernung des Schattens. Lese/Schreib Double. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/iinnershadow/asiaccessiblepviobject) { get; } | Ermöglicht das Abrufen der Basis-IAccessiblePVIObject-Schnittstelle. Nur lesbar [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/iinnershadow/asiimagetransformoperation) { get; } | Ermöglicht das Abrufen der Basis-IImageTransformOperation-Schnittstelle. Nur lesbar [`IImageTransformOperation`](../iimagetransformoperation). |
+| [BlurRadius](../../aspose.slides.effects/iinnershadow/blurradius) { get; set; } | Unschärferadius. Lesen/Schreiben Double. |
+| [Direction](../../aspose.slides.effects/iinnershadow/direction) { get; set; } | Richtung des Schattens. Lesen/Schreiben Single. |
+| [Distance](../../aspose.slides.effects/iinnershadow/distance) { get; set; } | Entfernung des Schattens. Lesen/Schreiben Double. |
 | [ShadowColor](../../aspose.slides.effects/iinnershadow/shadowcolor) { get; } | Farbe des Schattens. Nur lesbar [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ### Siehe auch

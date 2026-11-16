@@ -3,7 +3,7 @@ title: ReplaceRegex
 second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 정규식과 일치하는 모든 항목을 지정된 문자열로 교체합니다.
 type: docs
-weight: 110
+weight: 120
 url: /ko/aspose.slides/itextframe/replaceregex/
 ---
 ## ITextFrame.ReplaceRegex 메서드
@@ -14,28 +14,28 @@ url: /ko/aspose.slides/itextframe/replaceregex/
 public void ReplaceRegex(Regex regex, string newText, IFindResultCallback callback)
 ```
 
-| 매개변수 | 형식 | 설명 |
+| 매개변수 | 유형 | 설명 |
 | --- | --- | --- |
-| regex | Regex | 교체할 문자열을 얻기 위한 정규식 Regex. |
-| newText | String | 교체될 문자열들의 모든 발생을 교체하기 위한 문자열. |
+| regex | Regex | 교체할 문자열을 가져오기 위한 정규식 Regex. |
+| newText | String | 교체될 문자열들의 모든 발생을 교체할 문자열. |
 | callback | IFindResultCallback | 검색 결과를 수신하기 위한 콜백 객체 [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### 예제
 
-다음 코드 샘플은 정규식을 사용하여 텍스트를 지정된 문자열로 교체하는 방법을 보여줍니다.
+다음 코드 예제는 정규식을 사용하여 지정된 문자열로 텍스트를 교체하는 방법을 보여줍니다.
 
 ```csharp
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
 	Regex regex = new Regex(@"\b[^\s]{10,}\b");
-	// 10자 이상인 모든 단어를 '***'로 교체합니다.
+	// 10자 이상인 모든 단어를 '***'로 교체합니다
 	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.ReplaceRegex(regex, "***", null);
 	presentation.Save("SomePresentation-out.pptx", SaveFormat.Pptx);
 }
 ```
 
-### 참고
+### 참조
 
 * 인터페이스 [IFindResultCallback](../../ifindresultcallback)
 * 인터페이스 [ITextFrame](../../itextframe)

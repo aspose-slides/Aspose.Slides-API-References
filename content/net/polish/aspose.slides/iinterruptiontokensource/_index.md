@@ -1,9 +1,9 @@
 ---
 title: IInterruptionTokenSource
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla .NET API Referencja
 description: Reprezentuje źródło IInterruptionToken./iinterruptiontoken.
 type: docs
-weight: 6200
+weight: 6220
 url: /pl/aspose.slides/iinterruptiontokensource/
 ---
 ## IInterruptionTokenSource interfejs
@@ -16,14 +16,14 @@ public interface IInterruptionTokenSource
 
 ## Właściwości
 
-| Name | Opis |
+| Nazwa | Opis |
 | --- | --- |
-| [IsInterruptionRequested](../../aspose.slides/iinterruptiontokensource/isinterruptionrequested) { get; } | Zwraca true, jeśli żądane jest przerwanie, w przeciwnym razie false. |
+| [IsInterruptionRequested](../../aspose.slides/iinterruptiontokensource/isinterruptionrequested) { get; } | Zwraca true, jeśli żądano przerwania, w przeciwnym razie false. |
 | [Token](../../aspose.slides/iinterruptiontokensource/token) { get; } | Zwraca nowy token powiązany z tym [`IInterruptionTokenSource`](../iinterruptiontokensource). |
 
 ## Metody
 
-| Name | Opis |
+| Nazwa | Opis |
 | --- | --- |
 | [Interrupt](../../aspose.slides/iinterruptiontokensource/interrupt)() | Inicjalizuje żądanie przerwania. |
 

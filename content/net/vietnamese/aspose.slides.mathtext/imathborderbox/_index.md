@@ -1,14 +1,14 @@
 ---
 title: IMathBorderBox
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Vẽ một viền hình chữ nhật hoặc một dạng viền khác quanh IMathElement.
+second_title: Tham khảo API Aspose.Sildes cho .NET
+description: Vẽ một đường viền hình chữ nhật hoặc dạng khác quanh IMathElement.
 type: docs
-weight: 8170
+weight: 8190
 url: /vi/aspose.slides.mathtext/imathborderbox/
 ---
 ## IMathBorderBox giao diện
 
-Vẽ một viền hình chữ nhật hoặc một dạng viền khác quanh IMathElement.
+Vẽ một đường viền hình chữ nhật hoặc dạng khác quanh IMathElement.
 
 ```csharp
 public interface IMathBorderBox : IMathElement
@@ -19,15 +19,15 @@ public interface IMathBorderBox : IMathElement
 | Tên | Mô tả |
 | --- | --- |
 | [AsIMathElement](../../aspose.slides.mathtext/imathborderbox/asimathelement) { get; } | Cho phép lấy giao diện IMathElement cơ bản [`IMathElement`](../imathelement) |
-| [Base](../../aspose.slides.mathtext/imathborderbox/base) { get; } | Đối số cơ bản |
-| [HideBottom](../../aspose.slides.mathtext/imathborderbox/hidebottom) { get; set; } | Hide Bottom Edge (mặc định là false) - chỉ định trạng thái ẩn hoặc hiển thị của cạnh dưới của hộp viền. |
-| [HideLeft](../../aspose.slides.mathtext/imathborderbox/hideleft) { get; set; } | Hide Left Edge (mặc định là false) - chỉ định trạng thái ẩn hoặc hiển thị của cạnh trái của hộp viền. |
-| [HideRight](../../aspose.slides.mathtext/imathborderbox/hideright) { get; set; } | Hide Right Edge (mặc định là false) - chỉ định trạng thái ẩn hoặc hiển thị của cạnh phải của hộp viền. |
-| [HideTop](../../aspose.slides.mathtext/imathborderbox/hidetop) { get; set; } | Hide Top Edge (mặc định là false) - chỉ định trạng thái ẩn hoặc hiển thị của cạnh trên của hộp viền. |
-| [StrikethroughBottomLeftToTopRight](../../aspose.slides.mathtext/imathborderbox/strikethroughbottomlefttotopright) { get; set; } | Strikethrough Bottom-Left to Top-Right (mặc định là false). Chỉ định trạng thái ẩn hoặc hiển thị của một đường gạch chéo từ góc dưới trái đến góc trên phải của hộp viền. |
-| [StrikethroughHorizontal](../../aspose.slides.mathtext/imathborderbox/strikethroughhorizontal) { get; set; } | Strikethrough Horizontal (mặc định là false) - chỉ định trạng thái ẩn hoặc hiển thị của một đường gạch ngang. |
-| [StrikethroughTopLeftToBottomRight](../../aspose.slides.mathtext/imathborderbox/strikethroughtoplefttobottomright) { get; set; } | Strikethrough Top-Left to Bottom-Right (mặc định là false). Chỉ định trạng thái ẩn hoặc hiển thị của một đường gạch chéo từ góc trên trái đến góc dưới phải của hộp viền. |
-| [StrikethroughVertical](../../aspose.slides.mathtext/imathborderbox/strikethroughvertical) { get; set; } | Strikethrough Vertical (mặc định là false) - chỉ định trạng thái ẩn hoặc hiển thị của một đường gạch dọc. |
+| [Base](../../aspose.slides.mathtext/imathborderbox/base) { get; } | Tham số cơ bản |
+| [HideBottom](../../aspose.slides.mathtext/imathborderbox/hidebottom) { get; set; } | Ẩn cạnh dưới (default is false) - chỉ định trạng thái ẩn hoặc hiện của cạnh dưới của hộp viền. |
+| [HideLeft](../../aspose.slides.mathtext/imathborderbox/hideleft) { get; set; } | Ẩn cạnh trái (default is false) - chỉ định trạng thái ẩn hoặc hiện của cạnh trái của hộp viền. |
+| [HideRight](../../aspose.slides.mathtext/imathborderbox/hideright) { get; set; } | Ẩn cạnh phải (default is false) - chỉ định trạng thái ẩn hoặc hiện của cạnh phải của hộp viền. |
+| [HideTop](../../aspose.slides.mathtext/imathborderbox/hidetop) { get; set; } | Ẩn cạnh trên (default is false) - chỉ định trạng thái ẩn hoặc hiện của cạnh trên của hộp viền. |
+| [StrikethroughBottomLeftToTopRight](../../aspose.slides.mathtext/imathborderbox/strikethroughbottomlefttotopright) { get; set; } | Gạch chéo từ góc dưới trái đến góc trên phải (default is false). Chỉ định trạng thái ẩn hoặc hiện của một đường gạch chéo chéo từ góc dưới trái đến góc trên phải của hộp viền. |
+| [StrikethroughHorizontal](../../aspose.slides.mathtext/imathborderbox/strikethroughhorizontal) { get; set; } | Gạch chéo ngang (default is false) - chỉ định trạng thái ẩn hoặc hiện của một đường gạch chéo ngang. |
+| [StrikethroughTopLeftToBottomRight](../../aspose.slides.mathtext/imathborderbox/strikethroughtoplefttobottomright) { get; set; } | Gạch chéo từ góc trên trái đến góc dưới phải (default is false). Chỉ định trạng thái ẩn hoặc hiện của một đường gạch chéo chéo từ góc trên trái đến góc dưới phải của hộp viền. |
+| [StrikethroughVertical](../../aspose.slides.mathtext/imathborderbox/strikethroughvertical) { get; set; } | Gạch chéo dọc (default is false) - chỉ định trạng thái ẩn hoặc hiện của một đường gạch chéo dọc. |
 
 ### Ví dụ
 

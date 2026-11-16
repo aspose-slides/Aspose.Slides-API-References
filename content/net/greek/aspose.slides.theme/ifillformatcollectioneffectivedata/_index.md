@@ -1,14 +1,14 @@
 ---
 title: IFillFormatCollectionEffectiveData
-second_title: Aspose.Sildes για .NET API Αναφορά
-description: Αμετάβλητο αντικείμενο που αντιπροσωπεύει μια συλλογή μόνο για ανάγνωση αποτελεσματικών μορφοποιήσεων γεμίσματος.
+second_title: Aspose.Sildes για .NET Αναφορά API
+description: Αμετάβλητο αντικείμενο που αντιπροσωπεύει μια συλλογή μόνο για ανάγνωση των αποτελεσματικών μορφών γεμίσματος.
 type: docs
-weight: 11240
+weight: 11260
 url: /el/aspose.slides.theme/ifillformatcollectioneffectivedata/
 ---
 ## IFillFormatCollectionEffectiveData διεπαφή
 
-Αμετάβλητο αντικείμενο που αντιπροσωπεύει μια συλλογή μόνο για ανάγνωση αποτελεσματικών μορφοποιήσεων γεμίσματος.
+Αμετάβλητο αντικείμενο που αντιπροσωπεύει μια συλλογή μόνο για ανάγνωση αποτελεσματικών μορφών γεμίσματος.
 
 ```csharp
 public interface IFillFormatCollectionEffectiveData : IGenericCollection<IFillFormatEffectiveData>
@@ -18,7 +18,7 @@ public interface IFillFormatCollectionEffectiveData : IGenericCollection<IFillFo
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [Item](../../aspose.slides.theme/ifillformatcollectioneffectivedata/item) { get; } | Λαμβάνει το στοιχείο στον καθορισμένο δείκτη. Μόνο για ανάγνωση [`IFillFormatEffectiveData`](../../aspose.slides/ifillformateffectivedata). |
+| [Item](../../aspose.slides.theme/ifillformatcollectioneffectivedata/item) { get; } | Αποκτά το στοιχείο στη συγκεκριμένη θέση. Μόνο για ανάγνωση [`IFillFormatEffectiveData`](../../aspose.slides/ifillformateffectivedata). |
 
 ### Παρατηρήσεις
 

@@ -1,14 +1,14 @@
 ---
 title: IGrayScale
-second_title: Aspose.Sildes .NET API-referencia
-description: Representálja az IImageTransformOperation interfészt.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Képviseli az IImageTransformOperation interfészt.
 type: docs
-weight: 3340
+weight: 3360
 url: /hu/aspose.slides.effects/igrayscale/
 ---
 ## IGrayScale interfész
 
-Representálja az IImageTransformOperation interfészt.
+Képviseli az IImageTransformOperation interfészt.
 
 ```csharp
 public interface IGrayScale : IAccessiblePVIObject<IGrayScaleEffectiveData>, 
@@ -19,7 +19,7 @@ public interface IGrayScale : IAccessiblePVIObject<IGrayScaleEffectiveData>,
 
 | Név | Leírás |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/igrayscale/asiaccessiblepviobject) { get; } | Lehetővé teszi az alap IAccessiblePVIObject interfész lekérdezését. Csak olvasható [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/igrayscale/asiaccessiblepviobject) { get; } | Lehetővé teszi az alap IAccessiblePVIObject interfész elérését. Csak olvasható [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
 | [AsIImageTransformOperation](../../aspose.slides.effects/igrayscale/asiimagetransformoperation) { get; } | Visszaadja az IImageTransformOperation interfészt. Csak olvasható [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### Lásd még

@@ -1,14 +1,14 @@
 ---
 title: PresetShadow
-second_title: Aspose.Sildes for .NET API 參考
+second_title: Aspose.Sildes for .NET API 參考文件
 description: 表示預設陰影效果。
 type: docs
-weight: 3630
+weight: 3650
 url: /zh-hant/aspose.slides.effects/presetshadow/
 ---
 ## PresetShadow 類別
 
-表示預設陰影效果。
+Represents a Preset Shadow effect.
 
 ```csharp
 public sealed class PresetShadow : IPresetShadow
@@ -18,9 +18,9 @@ public sealed class PresetShadow : IPresetShadow
 
 | 名稱 | 描述 |
 | --- | --- |
-| [Direction](../../aspose.slides.effects/presetshadow/direction) { get; set; } | 陰影的方向。讀寫 Single。 |
-| [Distance](../../aspose.slides.effects/presetshadow/distance) { get; set; } | 陰影的距離。讀寫 Double。 |
-| [Preset](../../aspose.slides.effects/presetshadow/preset) { get; set; } | Preset。讀寫 [`PresetShadowType`](../../aspose.slides/presetshadowtype)。 |
+| [Direction](../../aspose.slides.effects/presetshadow/direction) { get; set; } | 陰影的方向。可讀寫 Single。 |
+| [Distance](../../aspose.slides.effects/presetshadow/distance) { get; set; } | 陰影的距離。可讀寫 Double。 |
+| [Preset](../../aspose.slides.effects/presetshadow/preset) { get; set; } | 預設。可讀寫 [`PresetShadowType`](../../aspose.slides/presetshadowtype)。 |
 | [ShadowColor](../../aspose.slides.effects/presetshadow/shadowcolor) { get; } | 陰影的顏色。唯讀 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
 
 ## 方法
@@ -31,7 +31,7 @@ public sealed class PresetShadow : IPresetShadow
 | [GetEffective](../../aspose.slides.effects/presetshadow/geteffective)() | 取得套用繼承後的有效 Preset Shadow 效果資料。 |
 | override [GetHashCode](../../aspose.slides.effects/presetshadow/gethashcode)() | 作為特定類型的雜湊函式。 |
 
-### 另請參閱
+### 參見
 
 * 介面 [IPresetShadow](../ipresetshadow)
 * 命名空間 [Aspose.Slides.Effects](../../aspose.slides.effects)

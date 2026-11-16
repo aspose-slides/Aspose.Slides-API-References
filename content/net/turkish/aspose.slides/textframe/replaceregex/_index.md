@@ -1,14 +1,14 @@
 ---
 title: ReplaceRegex
 second_title: Aspose.Sildes için .NET API Referansı
-description: Belirtilen dize ile düzenli ifadeye ait tüm eşleşmeleri değiştirir.
+description: Belirtilen dizeyle düzenli ifadenin tüm eşleşmelerini değiştirir.
 type: docs
-weight: 120
+weight: 130
 url: /tr/aspose.slides/textframe/replaceregex/
 ---
 ## TextFrame.ReplaceRegex yöntemi
 
-Belirtilen dize ile düzenli ifadeye ait tüm eşleşmeleri değiştirir.
+Belirtilen dizeyle düzenli ifadenin tüm eşleşmelerini değiştirir.
 
 ```csharp
 public void ReplaceRegex(Regex regex, string newText, IFindResultCallback callback)
@@ -22,13 +22,13 @@ public void ReplaceRegex(Regex regex, string newText, IFindResultCallback callba
 
 ### Örnekler
 
-Aşağıdaki örnek kod, düzenli ifade kullanarak metni belirtilen dize ile nasıl değiştireceğinizi gösterir.
+Aşağıdaki örnek kod, düzenli ifade kullanarak metni belirtilen dizeyle nasıl değiştireceğinizi gösterir.
 
 ```csharp
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx")){
 	Regex regex = new Regex(@"\b[^\s]{10,}\b");
-	// 10 ya da daha fazla karakter içeren tüm kelimeleri '***' ile değiştir
+	// 10 veya daha fazla karaktere sahip tüm kelimeleri '***' ile değiştir
 	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.ReplaceRegex(regex, "***", null);
 	presentation.Save("SomePresentation-out.pptx", SaveFormat.Pptx);
 }

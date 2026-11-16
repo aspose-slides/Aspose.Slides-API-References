@@ -1,14 +1,14 @@
 ---
 title: IPptOptions
-second_title: Aspose.Sildes için .NET API Referansı
-description: Sunumun PPT formatında nasıl kaydedileceğini kontrol eden seçenekleri sağlar.
+second_title: Aspose.Sildes .NET API Referansı
+description: Bir sunumun PPT formatında nasıl kaydedileceğini kontrol eden seçenekleri sağlar.
 type: docs
-weight: 4010
+weight: 4030
 url: /tr/aspose.slides.export/ipptoptions/
 ---
 ## IPptOptions arayüz
 
-Sunumun PPT formatında nasıl kaydedileceğini kontrol eden seçenekleri sağlar.
+Bir sunumun PPT formatında nasıl kaydedileceğini kontrol eden seçenekleri sağlar.
 
 ```csharp
 public interface IPptOptions : ISaveOptions
@@ -16,10 +16,10 @@ public interface IPptOptions : ISaveOptions
 
 ## Özellikler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/ipptoptions/asisaveoptions) { get; } | Döndürür ISaveOptions arayüzü. Salt-okunur [`ISaveOptions`](../isaveoptions). |
-| [RootDirectoryClsid](../../aspose.slides.export/ipptoptions/rootdirectoryclsid) { get; set; } | Kök dizin girişinde saklanan nesne sınıfı GUID'sini (CLSID) temsil eder. Belgenin uygulamasının COM aktivasyonu için kullanılabilir. Varsayılan değer '64818D11-4F9B-11CF-86EA-00AA00B929E8' olup 'Microsoft Powerpoint.Slide.8' ile eşleşir. |
+| [AsISaveOptions](../../aspose.slides.export/ipptoptions/asisaveoptions) { get; } | ISaveOptions arabirimini döndürür. Salt okunur [`ISaveOptions`](../isaveoptions). |
+| [RootDirectoryClsid](../../aspose.slides.export/ipptoptions/rootdirectoryclsid) { get; set; } | Kök dizin girişinde depolanan nesne sınıfı GUID (CLSID) temsil eder. Belgenin uygulamasının COM aktivasyonu için kullanılabilir. Varsayılan değer '64818D11-4F9B-11CF-86EA-00AA00B929E8' olup 'Microsoft Powerpoint.Slide.8' ile eşleşir. |
 
 ### Ayrıca Bakınız
 

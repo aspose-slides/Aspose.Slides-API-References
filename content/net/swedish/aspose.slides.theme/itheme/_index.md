@@ -3,7 +3,7 @@ title: ITheme
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar ett tema.
 type: docs
-weight: 11370
+weight: 11390
 url: /sv/aspose.slides.theme/itheme/
 ---
 ## ITheme gränssnitt
@@ -18,16 +18,16 @@ public interface ITheme : IPresentationComponent
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides.theme/itheme/asipresentationcomponent) { get; } | Tillåter att hämta bas-IPresentationComponent-gränssnittet. Skrivskyddad [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides.theme/itheme/asipresentationcomponent) { get; } | Tillåter att hämta bas IPresentationComponent gränssnitt. Skrivskyddad [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 | [ColorScheme](../../aspose.slides.theme/itheme/colorscheme) { get; } | Returnerar färgschemat. Skrivskyddad [`IColorScheme`](../icolorscheme). |
 | [FontScheme](../../aspose.slides.theme/itheme/fontscheme) { get; } | Returnerar typsnittsschemat. Skrivskyddad [`IFontScheme`](../ifontscheme). |
-| [FormatScheme](../../aspose.slides.theme/itheme/formatscheme) { get; } | Returnerar figurformatsschemat. Skrivskyddad [`IFormatScheme`](../iformatscheme). |
+| [FormatScheme](../../aspose.slides.theme/itheme/formatscheme) { get; } | Returnerar formatmall för former. Skrivskyddad [`IFormatScheme`](../iformatscheme). |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
-| [GetEffective](../../aspose.slides.theme/itheme/geteffective)() | Hämtar effektiv temadata med arv tillämpat. |
+| [GetEffective](../../aspose.slides.theme/itheme/geteffective)() | Hämtar effektiv temadata med ärftlighet tillämpad. |
 
 ### Se också
 

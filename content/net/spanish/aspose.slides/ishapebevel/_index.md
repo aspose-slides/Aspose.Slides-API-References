@@ -1,12 +1,14 @@
 ---
 title: IShapeBevel
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Representa las propiedades del relieve de la cara principal de las formas.
 type: docs
-weight: 6960
+weight: 6980
 url: /es/aspose.slides/ishapebevel/
 ---
 ## IShapeBevel interfaz
+
+Representa las propiedades del relieve de la cara principal de la forma.
 
 ```csharp
 public interface IShapeBevel

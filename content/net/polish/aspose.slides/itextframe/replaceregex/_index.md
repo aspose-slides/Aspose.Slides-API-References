@@ -1,9 +1,9 @@
 ---
 title: ReplaceRegex
-second_title: Aspose.Sildes dla .NET API Reference
+second_title: Aspose.Sildes dla .NET – Referencja API
 description: Zastępuje wszystkie dopasowania wyrażenia regularnego podanym ciągiem znaków.
 type: docs
-weight: 110
+weight: 120
 url: /pl/aspose.slides/itextframe/replaceregex/
 ---
 ## ITextFrame.ReplaceRegex metoda
@@ -14,10 +14,10 @@ Zastępuje wszystkie dopasowania wyrażenia regularnego podanym ciągiem znaków
 public void ReplaceRegex(Regex regex, string newText, IFindResultCallback callback)
 ```
 
-| Parametr | Typ | Opis |
+| Parameter | Type | Description |
 | --- | --- | --- |
-| regex | Regex | Wyrażenie regularne Regex używane do pobierania ciągów do zastąpienia. |
-| newText | String | Ciąg znaków służący do zastąpienia wszystkich wystąpień ciągów do zastąpienia. |
+| regex | Regex | Wyrażenie regularne Regex służące do pobrania ciągów do zastąpienia. |
+| newText | String | Ciąg znaków używany do zastąpienia wszystkich wystąpień ciągów do zamiany. |
 | callback | IFindResultCallback | Obiekt wywołania zwrotnego służący do odbierania wyników wyszukiwania [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### Przykłady

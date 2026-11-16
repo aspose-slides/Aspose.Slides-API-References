@@ -1,9 +1,9 @@
 ---
 title: IFonts
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Representa la colección de fuentes.
 type: docs
-weight: 5900
+weight: 5920
 url: /es/aspose.slides/ifonts/
 ---
 ## IFonts interfaz
@@ -16,20 +16,20 @@ public interface IFonts
 
 ## Propiedades
 
-| Name | Description |
+| Nombre | Descripción |
 | --- | --- |
-| [ComplexScriptFont](../../aspose.slides/ifonts/complexscriptfont) { get; set; } | Devuelve o establece la fuente de escritura compleja. Lectura/escritura [`IFontData`](../ifontdata). |
+| [ComplexScriptFont](../../aspose.slides/ifonts/complexscriptfont) { get; set; } | Devuelve o establece la fuente de script complejo. Lectura/escritura [`IFontData`](../ifontdata). |
 | [EastAsianFont](../../aspose.slides/ifonts/eastasianfont) { get; set; } | Devuelve o establece la fuente de Asia Oriental. Lectura/escritura [`IFontData`](../ifontdata). |
 | [LatinFont](../../aspose.slides/ifonts/latinfont) { get; set; } | Devuelve o establece la fuente latina. Lectura/escritura [`IFontData`](../ifontdata). |
 
 ## Métodos
 
-| Name | Description |
+| Nombre | Descripción |
 | --- | --- |
-| [GetScriptFont](../../aspose.slides/ifonts/getscriptfont)(string) | Obtiene el nombre de la fuente asociado con una etiqueta de script específica del tema de la presentación. |
+| [GetScriptFont](../../aspose.slides/ifonts/getscriptfont)(string) | Obtiene el nombre de la fuente asociado a una etiqueta de script específica del tema de la presentación. |
 | [GetScriptFontMap](../../aspose.slides/ifonts/getscriptfontmap)() | Devuelve un diccionario de todas las definiciones de fuentes de script en la presentación. |
 | [RemoveScriptFont](../../aspose.slides/ifonts/removescriptfont)(string) | Elimina la configuración de fuente asociada a una etiqueta de script específica de la colección de fuentes del tema. |
-| [SetScriptFont](../../aspose.slides/ifonts/setscriptfont)(string, string) | Asigna un nombre de fuente a una etiqueta de script específica, lo que define cómo se renderizará el texto de ese script en la presentación. |
+| [SetScriptFont](../../aspose.slides/ifonts/setscriptfont)(string, string) | Asigna un nombre de fuente a una etiqueta de script específica, que define cómo se renderizará el texto de ese script en la presentación. |
 
 ### Ver también
 

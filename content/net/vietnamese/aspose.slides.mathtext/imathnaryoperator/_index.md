@@ -1,9 +1,9 @@
 ---
 title: IMathNaryOperator
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Xác định một đối tượng toán học N-ary như Summation và Integral. Nó bao gồm một toán tử, một cơ sở hoặc toán hạng và các giới hạn trên và dưới tùy chọn. Các ví dụ về toán tử N-ary là Summation, Union, Intersection, Integral
+second_title: Aspose.Sildes cho Tham chiếu API .NET
+description: Xác định một đối tượng toán học N-ary như Summation và Integral. Nó bao gồm một toán tử, một cơ sở hoặc toán hạng và các giới hạn trên và dưới tùy chọn. Các ví dụ của toán tử N-ary là Summation Union Intersection Integral
 type: docs
-weight: 8360
+weight: 8380
 url: /vi/aspose.slides.mathtext/imathnaryoperator/
 ---
 ## IMathNaryOperator giao diện
@@ -18,11 +18,11 @@ public interface IMathNaryOperator : IMathElement, IMathNaryOperatorProperties
 
 | Tên | Mô tả |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathnaryoperator/asimathelement) { get; } | Cho phép lấy giao diện IMathElement cơ sở [`IMathElement`](../imathelement) |
-| [AsIMathNaryOperatorProperties](../../aspose.slides.mathtext/imathnaryoperator/asimathnaryoperatorproperties) { get; } | Cho phép lấy giao diện IMathNaryOperatorProperties cơ sở [`IMathNaryOperatorProperties`](../imathnaryoperatorproperties) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathnaryoperator/asimathelement) { get; } | Cho phép lấy giao diện cơ sở IMathElement [`IMathElement`](../imathelement) |
+| [AsIMathNaryOperatorProperties](../../aspose.slides.mathtext/imathnaryoperator/asimathnaryoperatorproperties) { get; } | Cho phép lấy giao diện cơ sở IMathNaryOperatorProperties [`IMathNaryOperatorProperties`](../imathnaryoperatorproperties) |
 | [Base](../../aspose.slides.mathtext/imathnaryoperator/base) { get; } | Đối số cơ sở |
-| [Subscript](../../aspose.slides.mathtext/imathnaryoperator/subscript) { get; } | Xác định một đối số phụ đề mà, ví dụ, trong trường hợp một integral, đặt giới hạn dưới |
-| [Superscript](../../aspose.slides.mathtext/imathnaryoperator/superscript) { get; } | Xác định một đối số chỉ số trên mà, ví dụ, trong trường hợp một integral, đặt giới hạn trên |
+| [Subscript](../../aspose.slides.mathtext/imathnaryoperator/subscript) { get; } | Xác định một đối số chỉ số phụ mà, ví dụ, trong trường hợp một tích phân, thiết lập giới hạn dưới |
+| [Superscript](../../aspose.slides.mathtext/imathnaryoperator/superscript) { get; } | Xác định một đối số chỉ số trên mà, ví dụ, trong trường hợp một tích phân, thiết lập giới hạn trên |
 
 ### Ví dụ
 

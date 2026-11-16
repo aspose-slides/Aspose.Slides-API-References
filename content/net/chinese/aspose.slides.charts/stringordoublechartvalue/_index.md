@@ -1,14 +1,14 @@
 ---
 title: StringOrDoubleChartValue
-second_title: Aspose.Sildes for .NET API 参考
-description: 表示可以以两种方式存储在 pptx 演示文稿中的字符串或 double 值：1）在与图表关联的工作簿的单元格/单元格中；2）作为文字值。
+second_title: Aspose.Sildes .NET API 参考
+description: 表示可以在 pptx 演示文稿文档中以两种方式存储的 string 或 double 值：1）在与图表关联的工作簿的单元格/单元格中；2）作为字面值。
 type: docs
-weight: 2420
+weight: 2440
 url: /zh/aspose.slides.charts/stringordoublechartvalue/
 ---
 ## StringOrDoubleChartValue 类
 
-表示可以以两种方式存储在 pptx 演示文稿中的字符串或 double 值：1) 在与图表关联的工作簿的单元格/单元格中；2) 作为文字值。
+表示可以在 pptx 演示文稿文档中以两种方式存储的 string 或 double 值：1) 在与图表关联的工作簿的单元格/单元格中；2) 作为字面值。
 
 ```csharp
 public class StringOrDoubleChartValue : BaseChartValue, IStringOrDoubleChartValue
@@ -18,11 +18,11 @@ public class StringOrDoubleChartValue : BaseChartValue, IStringOrDoubleChartValu
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsCell](../../aspose.slides.charts/stringordoublechartvalue/ascell) { get; set; } | 返回或设置图表数据单元格。读取/写入 [`IChartDataCell`](../ichartdatacell)。 |
-| [AsLiteralDouble](../../aspose.slides.charts/stringordoublechartvalue/asliteraldouble) { get; set; } | 返回或设置值为文字 double。读取/写入 Double。 |
-| [AsLiteralString](../../aspose.slides.charts/stringordoublechartvalue/asliteralstring) { get; set; } | 返回或设置值为文字 string。读取/写入 String。 |
-| override [Data](../../aspose.slides.charts/stringordoublechartvalue/data) { get; set; } | 返回或设置 Data 对象。读取/写入 Object。 |
-| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | 指定在派生类中实际使用的是 AsCell、AsCells、AsLiteralString 或 AsLiteralDouble 属性。换句话说，它指定 Data 属性的值类型。读取/写入 [`DataSourceType`](../datasourcetype)。 |
+| [AsCell](../../aspose.slides.charts/stringordoublechartvalue/ascell) { get; set; } | 返回或设置图表数据单元格。读/写 [`IChartDataCell`](../ichartdatacell)。 |
+| [AsLiteralDouble](../../aspose.slides.charts/stringordoublechartvalue/asliteraldouble) { get; set; } | 返回或设置值为字面 double。读/写 Double。 |
+| [AsLiteralString](../../aspose.slides.charts/stringordoublechartvalue/asliteralstring) { get; set; } | 返回或设置值为字面 string。读/写 String。 |
+| override [Data](../../aspose.slides.charts/stringordoublechartvalue/data) { get; set; } | 返回或设置 Data 对象。读/写 Object。 |
+| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | 指定在派生类中哪个 AsCell、AsCells、AsLiteralString 或 AsLiteralDouble 属性是实际的。换句话说，它指定 Data 属性的值类型。读/写 [`DataSourceType`](../datasourcetype)。 |
 
 ## 方法
 
@@ -30,7 +30,7 @@ public class StringOrDoubleChartValue : BaseChartValue, IStringOrDoubleChartValu
 | --- | --- |
 | [ToDouble](../../aspose.slides.charts/stringordoublechartvalue/todouble)() | 转换为 double。 |
 
-### 另见
+### 另请参见
 
 * 类 [BaseChartValue](../basechartvalue)
 * 接口 [IStringOrDoubleChartValue](../istringordoublechartvalue)

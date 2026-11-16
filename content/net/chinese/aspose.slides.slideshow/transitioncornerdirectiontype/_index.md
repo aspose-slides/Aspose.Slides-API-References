@@ -1,14 +1,14 @@
 ---
 title: TransitionCornerDirectionType
-second_title: Aspose.Sildes .NET API 参考
-description: 表示角方向的过渡类型。
+second_title: Aspose.Sildes for .NET API 参考
+description: 表示角方向的转换类型。
 type: docs
-weight: 10350
+weight: 10370
 url: /zh/aspose.slides.slideshow/transitioncornerdirectiontype/
 ---
 ## TransitionCornerDirectionType 枚举
 
-表示角方向的过渡类型。
+表示角方向的转换类型。
 
 ```csharp
 public enum TransitionCornerDirectionType
@@ -23,7 +23,7 @@ public enum TransitionCornerDirectionType
 | RightDown | `2` |  |
 | RightUp | `3` |  |
 
-### 另见
+### 另请参见
 
 * 命名空间 [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * 程序集 [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: ForEach.ForEachMasterSlideCallback
 second_title: Aspose.Sildes pro .NET API Reference
-description: Callback, který bude vyvolán pro každý MasterSlide./foreach/masterslide v Presentation../aspose.slides/presentation.
+description: Zpětné volání, které bude vyvoláno pro každý MasterSlide./foreach/masterslide v Presentation../aspose.slides/presentation.
 type: docs
-weight: 7920
+weight: 7940
 url: /cs/aspose.slides.lowcode/foreach.foreachmasterslidecallback/
 ---
 ## ForEach.ForEachMasterSlideCallback delegát
 
-Callback, který bude vyvolán pro každý [`MasterSlide`](../foreach/masterslide) v [`Presentation`](../../aspose.slides/presentation).
+Zpětné volání, které bude vyvoláno pro každý [`MasterSlide`](../foreach/masterslide) v [`Presentation`](../../aspose.slides/presentation).
 
 ```csharp
 public delegate void ForEachMasterSlideCallback(MasterSlide masterSlide, int index);
@@ -16,8 +16,8 @@ public delegate void ForEachMasterSlideCallback(MasterSlide masterSlide, int ind
 
 | Parametr | Typ | Popis |
 | --- | --- | --- |
-| masterSlide | MasterSlide | Aktuální iterovaný hlavní snímek |
-| index | Int32 | Index aktuálního hlavního snímku |
+| masterSlide | MasterSlide | Aktuální iterovaný master slide |
+| index | Int32 | Index aktuálního master slide |
 
 ### Viz také
 

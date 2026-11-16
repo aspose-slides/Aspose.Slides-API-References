@@ -1,32 +1,32 @@
 ---
 title: FlyThroughTransition
-second_title: Aspose.Sildes dla .NET – referencja API
-description: Efekt przejścia slajdu typu fly-through.
+second_title: Referencja API Aspose.Sildes dla .NET
+description: Efekt przejścia slajdu w trybie przelotu.
 type: docs
-weight: 10040
+weight: 10060
 url: /pl/aspose.slides.slideshow/flythroughtransition/
 ---
 ## FlyThroughTransition klasa
 
-Efekt przejścia slajdu typu fly-through.
+Efekt przejścia slajdu w trybie przelotu.
 
 ```csharp
 public class FlyThroughTransition : TransitionValueBase, IFlyThroughTransition
 ```
 
-## Właściwości
+## Properties
 
 | Nazwa | Opis |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/flythroughtransition/direction) { get; set; } | Kierunek przejścia. Odczyt/Zapis [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [HasBounce](../../aspose.slides.slideshow/flythroughtransition/hasbounce) { get; set; } | Określa, że ruch slajdów prezentacji podczas przejścia zawiera odbicie. Odczyt/Zapis Boolean. |
+| [Direction](../../aspose.slides.slideshow/flythroughtransition/direction) { get; set; } | Kierunek przejścia. Odczyt/zapis [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
+| [HasBounce](../../aspose.slides.slideshow/flythroughtransition/hasbounce) { get; set; } | Określa, że ruch slajdów prezentacji podczas przejścia zawiera odbicie. Odczyt/zapis Boolean. |
 
-## Metody
+## Methods
 
 | Nazwa | Opis |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Określa, czy dwa wystąpienia TransitionValueBase są równe. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Służy jako funkcja mieszająca dla określonego typu, odpowiednia do użycia w algorytmach mieszających i strukturach danych takich jak tablica mieszająca. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Określa, czy dwie instancje TransitionValueBase są równe. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Służy jako funkcja skrótu dla określonego typu, odpowiednia do użycia w algorytmach haszujących i strukturach danych takich jak tabela skrótu. |
 
 ### Zobacz także
 

@@ -1,14 +1,14 @@
 ---
 title: IPresentationInfo
-second_title: Aspose.Sildes .NET API referencia
-description: Információ a bemutató fájlról
+second_title: Aspose.Sildes a .NET API hivatkozáshoz
+description: Információ a prezentációfájlról
 type: docs
-weight: 6790
+weight: 6810
 url: /hu/aspose.slides/ipresentationinfo/
 ---
 ## IPresentationInfo interfész
 
-Információ a bemutató fájlról
+Információ a prezentációfájlról
 
 ```csharp
 public interface IPresentationInfo
@@ -18,21 +18,21 @@ public interface IPresentationInfo
 
 | Név | Leírás |
 | --- | --- |
-| [IsEncrypted](../../aspose.slides/ipresentationinfo/isencrypted) { get; } | True értéket ad, ha a csatolt bemutató titkosított, egyébként False. Csak olvasható Boolean. |
-| [IsPasswordProtected](../../aspose.slides/ipresentationinfo/ispasswordprotected) { get; } | Értéket ad, amely jelzi, hogy a csatolt bemutató jelszóval védett-e a megnyitáshoz. |
-| [IsWriteProtected](../../aspose.slides/ipresentationinfo/iswriteprotected) { get; } | Értéket ad, amely jelzi, hogy a csatolt bemutató írásvédett-e. |
-| [LoadFormat](../../aspose.slides/ipresentationinfo/loadformat) { get; } | A csatolt bemutató formátumát adja vissza. Csak olvasható [`LoadFormat`](../loadformat). |
+| [IsEncrypted](../../aspose.slides/ipresentationinfo/isencrypted) { get; } | Igaz értéket ad, ha a kötött prezentáció titkosított, egyébként Hamis. Csak olvasható Boolean. |
+| [IsPasswordProtected](../../aspose.slides/ipresentationinfo/ispasswordprotected) { get; } | Értéket ad, amely jelzi, hogy a kötött prezentáció jelszóval védett-e a megnyitáshoz. |
+| [IsWriteProtected](../../aspose.slides/ipresentationinfo/iswriteprotected) { get; } | Értéket ad, amely jelzi, hogy a kötött prezentáció írásvédett-e. |
+| [LoadFormat](../../aspose.slides/ipresentationinfo/loadformat) { get; } | A kötött prezentáció formátumát adja vissza. Csak olvasható [`LoadFormat`](../loadformat). |
 
 ## Módszerek
 
 | Név | Leírás |
 | --- | --- |
-| [CheckPassword](../../aspose.slides/ipresentationinfo/checkpassword)(string) | Ellenőrzi, hogy egy jelszó helyes-e egy nyitó jelszóval védett bemutatóhoz. |
-| [CheckWriteProtection](../../aspose.slides/ipresentationinfo/checkwriteprotection)(string) | Ellenőrzi, hogy a módosítási jelszó helyes-e egy írásvédett bemutatóhoz. |
-| [ReadDocumentProperties](../../aspose.slides/ipresentationinfo/readdocumentproperties)() | A csatolt bemutató dokumentum tulajdonságait adja vissza. |
-| [UpdateDocumentProperties](../../aspose.slides/ipresentationinfo/updatedocumentproperties)(IDocumentProperties) | Frissíti a csatolt bemutató tulajdonságait. |
-| [WriteBindedPresentation](../../aspose.slides/ipresentationinfo/writebindedpresentation#writebindedpresentation)(Stream) | A csatolt bemutatót stream-be írja. |
-| [WriteBindedPresentation](../../aspose.slides/ipresentationinfo/writebindedpresentation#writebindedpresentation_1)(string) | A csatolt bemutatót fájlba írja. |
+| [CheckPassword](../../aspose.slides/ipresentationinfo/checkpassword)(string) | Ellenőrzi, hogy a jelszó helyes-e a nyitó jelszóval védett prezentációhoz. |
+| [CheckWriteProtection](../../aspose.slides/ipresentationinfo/checkwriteprotection)(string) | Ellenőrzi, hogy a módosítási jelszó helyes-e egy írásvédett prezentációhoz. |
+| [ReadDocumentProperties](../../aspose.slides/ipresentationinfo/readdocumentproperties)() | A kötött prezentáció dokumentum tulajdonságait adja vissza. |
+| [UpdateDocumentProperties](../../aspose.slides/ipresentationinfo/updatedocumentproperties)(IDocumentProperties) | Frissíti a kötött prezentáció tulajdonságait. |
+| [WriteBindedPresentation](../../aspose.slides/ipresentationinfo/writebindedpresentation#writebindedpresentation)(Stream) | A kötött prezentációt stream-be írja. |
+| [WriteBindedPresentation](../../aspose.slides/ipresentationinfo/writebindedpresentation#writebindedpresentation_1)(string) | A kötött prezentációt fájlba írja. |
 
 ### Lásd még
 

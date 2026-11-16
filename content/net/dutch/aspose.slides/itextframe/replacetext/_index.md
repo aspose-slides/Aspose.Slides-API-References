@@ -1,14 +1,14 @@
 ---
 title: ReplaceText
 second_title: Aspose.Sildes voor .NET API Referentie
-description: Vervangt alle exemplaren van de opgegeven tekst door een andere opgegeven tekst.
+description: Vervangt alle voorkomens van de opgegeven tekst door een andere opgegeven tekst.
 type: docs
-weight: 120
+weight: 130
 url: /nl/aspose.slides/itextframe/replacetext/
 ---
 ## ITextFrame.ReplaceText methode
 
-Vervangt alle exemplaren van de opgegeven tekst door een andere opgegeven tekst.
+Vervangt alle voorkomens van de opgegeven tekst door een andere opgegeven tekst.
 
 ```csharp
 public void ReplaceText(string oldText, string newText, ITextSearchOptions options, 
@@ -17,10 +17,10 @@ public void ReplaceText(string oldText, string newText, ITextSearchOptions optio
 
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| oldText | String | De te vervangen tekenreeks. |
-| newText | String | De tekenreeks om alle exemplaren van oldText te vervangen. |
-| options | ITextSearchOptions | Tekst zoekopties [`ITextSearchOptions`](../../itextsearchoptions). |
-| callback | IFindResultCallback | Het callbackobject voor het ontvangen van zoekresultaten [`IFindResultCallback`](../../ifindresultcallback). |
+| oldText | String | De tekenreeks die moet worden vervangen. |
+| newText | String | De tekenreeks om alle voorkomens van oldText te vervangen. |
+| options | ITextSearchOptions | Tekstzoekopties [`ITextSearchOptions`](../../itextsearchoptions). |
+| callback | IFindResultCallback | Het callback object voor het ontvangen van zoekresultaten [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### Voorbeelden
 
@@ -30,7 +30,7 @@ De volgende voorbeeldcode toont hoe één opgegeven tekenreeks te vervangen door
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
-	// Vervang alle afzonderlijke 'the'-voorkomens door '***'
+	// Vervang alle afzonderlijke 'the' voorkomens door '***'
 	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.ReplaceText("the", "***", new TextSearchOptions()
 	{ WholeWordsOnly = true }, null);
 	presentation.Save("SomePresentation-out2.pptx", SaveFormat.Pptx);

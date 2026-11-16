@@ -1,9 +1,9 @@
 ---
 title: IMathFractionFactory
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Aspose.Sildes для .NET справка API
 description: Позволяет создавать математическую дробь
 type: docs
-weight: 8260
+weight: 8280
 url: /ru/aspose.slides.mathtext/imathfractionfactory/
 ---
 ## IMathFractionFactory интерфейс
@@ -18,10 +18,10 @@ public interface IMathFractionFactory
 
 | Имя | Описание |
 | --- | --- |
-| [CreateMathFraction](../../aspose.slides.mathtext/imathfractionfactory/createmathfraction#createmathfraction)(IMathElement, IMathElement) | Создает математическую дробь |
-| [CreateMathFraction](../../aspose.slides.mathtext/imathfractionfactory/createmathfraction#createmathfraction_1)(IMathElement, IMathElement, MathFractionTypes) | Создает математическую дробь |
+| [CreateMathFraction](../../aspose.slides.mathtext/imathfractionfactory/createmathfraction#createmathfraction)(IMathElement, IMathElement) | Создаёт математическую дробь |
+| [CreateMathFraction](../../aspose.slides.mathtext/imathfractionfactory/createmathfraction#createmathfraction_1)(IMathElement, IMathElement, MathFractionTypes) | Создаёт математическую дробь |
 
-### Замечания
+### Примечания
 
 Для совместимости с COM
 

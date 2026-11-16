@@ -1,14 +1,14 @@
 ---
 title: IColorFormat
-second_title: Aspose.Sildes .NET API Referencia
-description: Egy prezentációban használt színt képvisel.
+second_title: Aspose.Sildes .NET API referencia
+description: Egy prezentációban használt színt reprezentál.
 type: docs
-weight: 5490
+weight: 5510
 url: /hu/aspose.slides/icolorformat/
 ---
 ## IColorFormat interfész
 
-A prezentációban használt színt képviseli.
+A prezentációban használt színt reprezentál.
 
 ```csharp
 public interface IColorFormat : IFillParamSource
@@ -19,28 +19,28 @@ public interface IColorFormat : IFillParamSource
 | Név | Leírás |
 | --- | --- |
 | [AsIFillParamSource](../../aspose.slides/icolorformat/asifillparamsource) { get; } | Visszaadja az IFillParamSource interfészt. Csak olvasható [`IFillParamSource`](../ifillparamsource). |
-| [B](../../aspose.slides/icolorformat/b) { get; set; } | Visszaadja vagy beállítja a szín kék komponensét. Minden színtranszformáció figyelmen kívül marad. Olvasható/írható Byte. |
-| [Color](../../aspose.slides/icolorformat/color) { get; set; } | Visszaadja az eredmény színt (az összes színtranszformáció alkalmazásával). RGB színeket állít be és törli az összes színtranszformációt. Olvasható/írható Color. |
-| [ColorTransform](../../aspose.slides/icolorformat/colortransform) { get; } | Visszaadja a színre alkalmazott színtranszformációk gyűjteményét. Csak olvasható [`IColorOperationCollection`](../icoloroperationcollection). |
-| [ColorType](../../aspose.slides/icolorformat/colortype) { get; set; } | Visszaadja vagy beállítja a színdefiníciós módszert. Olvasható/írható [`ColorType`](../colortype). |
-| [FloatB](../../aspose.slides/icolorformat/floatb) { get; set; } | Visszaadja vagy beállítja a szín kék komponensét. Minden színtranszformáció figyelmen kívül marad. Olvasható/írható Single. |
-| [FloatG](../../aspose.slides/icolorformat/floatg) { get; set; } | Visszaadja vagy beállítja a szín zöld komponensét. Minden színtranszformáció figyelmen kívül marad. Olvasható/írható Single. |
-| [FloatR](../../aspose.slides/icolorformat/floatr) { get; set; } | Visszaadja vagy beállítja a szín piros komponensét. Minden színtranszformáció figyelmen kívül marad. Olvasható/írható Single. |
-| [G](../../aspose.slides/icolorformat/g) { get; set; } | Visszaadja vagy beállítja a szín zöld komponensét. Minden színtranszformáció figyelmen kívül marad. Olvasható/írható Byte. |
-| [Hue](../../aspose.slides/icolorformat/hue) { get; set; } | Visszaadja vagy beállítja a szín árnyalat komponensét HSL ábrázolásban. Minden színtranszformáció figyelmen kívül marad. Olvasható/írható Single. |
-| [Luminance](../../aspose.slides/icolorformat/luminance) { get; set; } | Visszaadja vagy beállítja a szín fénység komponensét HSL ábrázolásban. Minden színtranszformáció figyelmen kívül marad. Olvasható/írható Single. |
-| [PresetColor](../../aspose.slides/icolorformat/presetcolor) { get; set; } | Visszaadja vagy beállítja a szín előre beállított értékét. Olvasható/írható [`PresetColor`](../presetcolor). |
-| [R](../../aspose.slides/icolorformat/r) { get; set; } | Visszaadja vagy beállítja a szín piros komponensét. Minden színtranszformáció figyelmen kívül marad. Olvasható/írható Byte. |
-| [Saturation](../../aspose.slides/icolorformat/saturation) { get; set; } | Visszaadja vagy beállítja a szín telítettség komponensét HSL ábrázolásban. Minden színtranszformáció figyelmen kívül marad. Olvasható/írható Single. |
-| [SchemeColor](../../aspose.slides/icolorformat/schemecolor) { get; set; } | Visszaadja vagy beállítja a színt, amelyet egy színséma határoz meg. Olvasható/írható [`SchemeColor`](../schemecolor). |
-| [SystemColor](../../aspose.slides/icolorformat/systemcolor) { get; set; } | Visszaadja vagy beállítja a színt, amelyet a rendszer szín táblája határoz meg. Olvasható/írható [`SystemColor`](../systemcolor). |
+| [B](../../aspose.slides/icolorformat/b) { get; set; } | Visszaadja vagy beállítja a szín kék komponensét. Minden színátalakítás figyelmen kívül van hagyva. Olvasható/írható Byte. |
+| [Color](../../aspose.slides/icolorformat/color) { get; set; } | Visszaadja az eredmény színt (minden színátalakítással). Beállítja az RGB színeket és törli az összes színátalakítást. Olvasható/írható Color. |
+| [ColorTransform](../../aspose.slides/icolorformat/colortransform) { get; } | Visszaadja a színre alkalmazott színátalakítások gyűjteményét. Csak olvasható [`IColorOperationCollection`](../icoloroperationcollection). |
+| [ColorType](../../aspose.slides/icolorformat/colortype) { get; set; } | Visszaadja vagy beállítja a színdefiníció módját. Olvasható/írható [`ColorType`](../colortype). |
+| [FloatB](../../aspose.slides/icolorformat/floatb) { get; set; } | Visszaadja vagy beállítja a szín kék komponensét. Minden színátalakítás figyelmen kívül van hagyva. Olvasható/írható Single. |
+| [FloatG](../../aspose.slides/icolorformat/floatg) { get; set; } | Visszaadja vagy beállítja a szín zöld komponensét. Minden színátalakítás figyelmen kívül van hagyva. Olvasható/írható Single. |
+| [FloatR](../../aspose.slides/icolorformat/floatr) { get; set; } | Visszaadja vagy beállítja a szín piros komponensét. Minden színátalakítás figyelmen kívül van hagyva. Olvasható/írható Single. |
+| [G](../../aspose.slides/icolorformat/g) { get; set; } | Visszaadja vagy beállítja a szín zöld komponensét. Minden színátalakítás figyelmen kívül van hagyva. Olvasható/írható Byte. |
+| [Hue](../../aspose.slides/icolorformat/hue) { get; set; } | Visszaadja vagy beállítja a szín árnyalat (hue) komponensét HSL ábrázolásban. Minden színátalakítás figyelmen kívül van hagyva. Olvasható/írható Single. |
+| [Luminance](../../aspose.slides/icolorformat/luminance) { get; set; } | Visszaadja vagy beállítja a szín világosság (luminance) komponensét HSL ábrázolásban. Minden színátalakítás figyelmen kívül van hagyva. Olvasható/írható Single. |
+| [PresetColor](../../aspose.slides/icolorformat/presetcolor) { get; set; } | Visszaadja vagy beállítja a szín előbeállítást. Olvasható/írható [`PresetColor`](../presetcolor). |
+| [R](../../aspose.slides/icolorformat/r) { get; set; } | Visszaadja vagy beállítja a szín piros komponensét. Minden színátalakítás figyelmen kívül van hagyva. Olvasható/írható Byte. |
+| [Saturation](../../aspose.slides/icolorformat/saturation) { get; set; } | Visszaadja vagy beállítja a szín telítettség (saturation) komponensét HSL ábrázolásban. Minden színátalakítás figyelmen kívül van hagyva. Olvasható/írható Single. |
+| [SchemeColor](../../aspose.slides/icolorformat/schemecolor) { get; set; } | Visszaadja vagy beállítja a szín sémája által azonosított színt. Olvasható/írható [`SchemeColor`](../schemecolor). |
+| [SystemColor](../../aspose.slides/icolorformat/systemcolor) { get; set; } | Visszaadja vagy beállítja a rendszer szín táblázata által azonosított színt. Olvasható/írható [`SystemColor`](../systemcolor). |
 
-## Módszerek
+## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [CopyFrom](../../aspose.slides/icolorformat/copyfrom)(IColorFormat) | Másolja a színformátumot a "color"-ból. |
-| [ToString](../../aspose.slides/icolorformat/tostring)(ColorStringFormat) | Visszaad egy String, amely a jelenlegi színformátumot ábrázolja. |
+| [CopyFrom](../../aspose.slides/icolorformat/copyfrom)(IColorFormat) | Másolja a színformátumot a "color"-tól. |
+| [ToString](../../aspose.slides/icolorformat/tostring)(ColorStringFormat) | Visszaad egy Stringet, amely a jelenlegi színformátumot reprezentálja. |
 
 ### Lásd még
 

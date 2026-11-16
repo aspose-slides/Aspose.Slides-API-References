@@ -3,7 +3,7 @@ title: IFontDataFactory
 second_title: Tham chiếu API Aspose.Sildes cho .NET
 description: Giao diện nhà máy FontData
 type: docs
-weight: 5840
+weight: 5860
 url: /vi/aspose.slides/ifontdatafactory/
 ---
 ## IFontDataFactory giao diện
@@ -20,7 +20,7 @@ public interface IFontDataFactory
 | --- | --- |
 | [CreateFontData](../../aspose.slides/ifontdatafactory/createfontdata)(string) | Tạo FontData với tên phông chữ được chỉ định. |
 
-### Xem thêm
+### Xem Thêm
 
 * không gian tên [Aspose.Slides](../../aspose.slides)
 * tập hợp [Aspose.Slides](../../)

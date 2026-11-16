@@ -1,23 +1,23 @@
 ---
 title: ForEach.ForEachLayoutSlideCallback
-second_title: Aspose.Sildes สำหรับ .NET API อ้างอิง
-description: คอลแบ็กที่จะถูกเรียกสำหรับแต่ละ LayoutSlide./foreach/layoutslide ใน Presentation../aspose.slides/presentation.
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: คอลแบ็คที่จะถูกเรียกสำหรับแต่ละ LayoutSlide./foreach/layoutslide ใน Presentation../aspose.slides/presentation.
 type: docs
-weight: 7910
+weight: 7930
 url: /th/aspose.slides.lowcode/foreach.foreachlayoutslidecallback/
 ---
 ## ForEach.ForEachLayoutSlideCallback ตัวแทน
 
-คอลแบ็กที่จะถูกเรียกสำหรับแต่ละ [`LayoutSlide`](../foreach/layoutslide) ใน [`Presentation`](../../aspose.slides/presentation).
+คอลแบ็คที่ถูกเรียกสำหรับแต่ละ [`LayoutSlide`](../foreach/layoutslide) ใน [`Presentation`](../../aspose.slides/presentation).
 
 ```csharp
 public delegate void ForEachLayoutSlideCallback(LayoutSlide layoutSlide, int index);
 ```
 
-| พารามิเตอร์ | ชนิด | คำอธิบาย |
+| พารามิเตอร์ | ประเภท | คำอธิบาย |
 | --- | --- | --- |
-| layoutSlide | LayoutSlide | สไลด์เลเอาต์ที่กำลังวนอยู่ในปัจจุบัน |
-| index | Int32 | ดัชนีของสไลด์เลเอาต์ปัจจุบัน |
+| layoutSlide | LayoutSlide | สไลด์เลย์เอาท์ที่กำลังทำการวนซ้ำ |
+| index | Int32 | ดัชนีของสไลด์เลย์เอาท์ปัจจุบัน |
 
 ### ดูเพิ่มเติม
 

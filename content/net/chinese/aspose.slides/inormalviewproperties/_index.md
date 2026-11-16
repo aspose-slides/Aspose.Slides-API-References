@@ -1,14 +1,14 @@
 ---
 title: INormalViewProperties
 second_title: Aspose.Sildes for .NET API 参考
-description: 表示普通视图属性。普通视图由三个内容区域组成：幻灯片本身、侧边内容区域和底部内容区域。
+description: 表示普通视图属性。普通视图由三个内容区域组成：幻灯片本身、侧内容区域和底部内容区域。
 type: docs
-weight: 6470
+weight: 6490
 url: /zh/aspose.slides/inormalviewproperties/
 ---
 ## INormalViewProperties 接口
 
-表示普通视图属性。普通视图由三个内容区域组成：幻灯片本身、侧边内容区域和底部内容区域。
+表示普通视图属性。普通视图由三个内容区域组成：幻灯片本身、侧内容区域和底部内容区域。
 
 ```csharp
 public interface INormalViewProperties
@@ -18,15 +18,15 @@ public interface INormalViewProperties
 
 | 名称 | 描述 |
 | --- | --- |
-| [HorizontalBarState](../../aspose.slides/inormalviewproperties/horizontalbarstate) { get; set; } | 指定水平拆分栏应显示的状态。水平拆分栏将幻灯片与幻灯片下方的内容区域分隔开。 |
-| [PreferSingleView](../../aspose.slides/inormalviewproperties/prefersingleview) { get; set; } | 指定用户是否更喜欢在全窗口单内容区域中查看，而不是具有三个内容区域的标准普通视图。如果启用，应用程序可能会选择在整个窗口中显示其中一个内容区域。可读写 Boolean。 |
-| [RestoredLeft](../../aspose.slides/inormalviewproperties/restoredleft) { get; } | 当该区域处于可变还原大小（既未最小化也未最大化）时，此元素指定普通视图侧边内容区域的大小。只读 [`INormalViewRestoredProperties`](../inormalviewrestoredproperties)。 |
-| [RestoredTop](../../aspose.slides/inormalviewproperties/restoredtop) { get; } | 当该区域处于可变还原大小（既未最小化也未最大化）时，此元素指定普通视图顶部幻灯片区域的大小。只读 [`INormalViewRestoredProperties`](../inormalviewrestoredproperties)。 |
-| [ShowOutlineIcons](../../aspose.slides/inormalviewproperties/showoutlineicons) { get; set; } | 指定在普通视图模式的任何内容区域显示大纲内容时，应用程序是否应显示图标。可读写 Boolean。 |
-| [SnapVerticalSplitter](../../aspose.slides/inormalviewproperties/snapverticalsplitter) { get; set; } | 指定当侧边区域足够小时，垂直拆分栏是否应自动切换到最小化状态。可读写 Boolean。 |
-| [VerticalBarState](../../aspose.slides/inormalviewproperties/verticalbarstate) { get; set; } | 指定垂直拆分栏应显示的状态。垂直拆分栏将幻灯片与侧边内容区域分隔开。 |
+| [HorizontalBarState](../../aspose.slides/inormalviewproperties/horizontalbarstate) { get; set; } | 指定水平分割栏应显示的状态。水平分割栏将幻灯片与幻灯片下方的内容区域分开。 |
+| [PreferSingleView](../../aspose.slides/inormalviewproperties/prefersingleview) { get; set; } | 指定用户是否更喜欢在全窗口单内容区域而不是具有三个内容区域的标准普通视图中查看。如果启用，应用程序可能会选择在整个窗口中显示其中一个内容区域。读/写 Boolean。 |
+| [RestoredLeft](../../aspose.slides/inormalviewproperties/restoredleft) { get; } | 当侧内容区域处于可变的恢复大小（既未最小化也未最大化）时，此元素指定普通视图中侧内容区域的大小。只读 [`INormalViewRestoredProperties`](../inormalviewrestoredproperties)。 |
+| [RestoredTop](../../aspose.slides/inormalviewproperties/restoredtop) { get; } | 当顶部幻灯片区域处于可变的恢复大小（既未最小化也未最大化）时，此元素指定普通视图中顶部幻灯片区域的大小。只读 [`INormalViewRestoredProperties`](../inormalviewrestoredproperties)。 |
+| [ShowOutlineIcons](../../aspose.slides/inormalviewproperties/showoutlineicons) { get; set; } | 指定在普通视图模式的任意内容区域显示大纲内容时，应用程序是否应显示图标。读/写 Boolean。 |
+| [SnapVerticalSplitter](../../aspose.slides/inormalviewproperties/snapverticalsplitter) { get; set; } | 指定当侧区域足够小时，垂直分割栏是否应捕捉到最小化状态。读/写 Boolean。 |
+| [VerticalBarState](../../aspose.slides/inormalviewproperties/verticalbarstate) { get; set; } | 指定垂直分割栏应显示的状态。垂直分割栏将幻灯片与侧内容区域分开。 |
 
-### 另请参见
+### 另请参阅
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

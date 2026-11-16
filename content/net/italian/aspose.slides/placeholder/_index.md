@@ -1,12 +1,12 @@
 ---
 title: Placeholder
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per .NET API Reference
 description: Rappresenta un segnaposto in una diapositiva.
 type: docs
-weight: 9430
+weight: 9450
 url: /it/aspose.slides/placeholder/
 ---
-## Classe segnaposto
+## classe Placeholder
 
 Rappresenta un segnaposto in una diapositiva.
 

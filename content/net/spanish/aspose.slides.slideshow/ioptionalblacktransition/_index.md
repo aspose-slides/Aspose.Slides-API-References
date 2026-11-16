@@ -1,9 +1,9 @@
 ---
 title: IOptionalBlackTransition
-second_title: Aspose.Sildes para la referencia de API .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Efecto de transición de diapositiva negra opcional.
 type: docs
-weight: 10140
+weight: 10160
 url: /es/aspose.slides.slideshow/ioptionalblacktransition/
 ---
 ## IOptionalBlackTransition interfaz

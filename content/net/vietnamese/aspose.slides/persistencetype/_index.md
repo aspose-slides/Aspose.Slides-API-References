@@ -1,30 +1,30 @@
 ---
 title: PersistenceType
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Xác định phương pháp được sử dụng để lưu trữ các thuộc tính của ActiveX control.
+description: Xác định phương thức được sử dụng để lưu trữ các thuộc tính của điều khiển ActiveX.
 type: docs
-weight: 9370
+weight: 9390
 url: /vi/aspose.slides/persistencetype/
 ---
 ## PersistenceType liệt kê
 
-Xác định phương thức được sử dụng để lưu trữ các thuộc tính của ActiveX control.
+Xác định phương thức được sử dụng để lưu trữ các thuộc tính của điều khiển ActiveX.
 
 ```csharp
 public enum PersistenceType
 ```
 
-### Giá trị
+### Values
 
 | Tên | Giá trị | Mô tả |
 | --- | --- | --- |
-| NotDefined | `-1` | ID persistance không được chỉ định. |
-| PersistPropertyBag | `0` | Chỉ ra rằng ActiveX control được lưu trữ bằng cách sử dụng persistence dựa trên property-bag. Persistence dựa trên property-bag lưu trữ một ActiveX control bằng một tập hợp các cặp tên và giá trị xác định dữ liệu được lưu trữ bởi ActiveX control. |
-| PersistStream | `1` | Chỉ ra rằng ActiveX control được lưu trữ bằng cách sử dụng persistence dựa trên stream mà không hỗ trợ khởi tạo ActiveX control về trạng thái mặc định. |
-| PersistStreamInit | `2` | Chỉ ra rằng ActiveX control được lưu trữ bằng cách sử dụng persistence dựa trên stream và hỗ trợ khởi tạo ActiveX control về trạng thái mặc định. |
-| PersistStorage | `3` | Chỉ ra rằng ActiveX control được lưu trữ bằng cách sử dụng persistence dựa trên storage. |
+| NotDefined | `-1` | ID lưu trữ không được chỉ định. |
+| PersistPropertyBag | `0` | Xác định rằng điều khiển ActiveX được lưu trữ bằng cách sử dụng phương pháp lưu trữ dựa trên property-bag. Phương pháp lưu trữ dựa trên property-bag lưu trữ một điều khiển ActiveX bằng một bộ sưu tập các cặp tên và giá trị mô tả dữ liệu được lưu trữ bởi điều khiển ActiveX. |
+| PersistStream | `1` | Xác định rằng điều khiển ActiveX được lưu trữ bằng phương pháp lưu trữ dựa trên stream mà không hỗ trợ khởi tạo điều khiển ActiveX về trạng thái mặc định. |
+| PersistStreamInit | `2` | Xác định rằng điều khiển ActiveX được lưu trữ bằng phương pháp lưu trữ dựa trên stream và hỗ trợ khởi tạo điều khiển ActiveX về trạng thái mặc định. |
+| PersistStorage | `3` | Xác định rằng điều khiển ActiveX được lưu trữ bằng phương pháp lưu trữ dựa trên storage. |
 
-### Xem thêm
+### Xem Thêm
 
 * không gian tên [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: MorphTransition
 second_title: Aspose.Sildes för .NET API-referens
-description: Rippel-övergångseffekt för bildspel.
+description: Ripple-bildövergångseffekt.
 type: docs
-weight: 10250
+weight: 10270
 url: /sv/aspose.slides.slideshow/morphtransition/
 ---
 ## MorphTransition klass
 
-Rippel-övergångseffekt för bildspel.
+Ripple-bildövergångseffekt.
 
 ```csharp
 public class MorphTransition : TransitionValueBase, IMorphTransition
@@ -18,16 +18,16 @@ public class MorphTransition : TransitionValueBase, IMorphTransition
 
 | Namn | Beskrivning |
 | --- | --- |
-| [MorphType](../../aspose.slides.slideshow/morphtransition/morphtype) { get; set; } | Typ av morph-övergång. Läs/skriv [`TransitionMorphType`](../transitionmorphtype). |
+| [MorphType](../../aspose.slides.slideshow/morphtransition/morphtype) { get; set; } | Typ av morfövergång. Läs/skriv [`TransitionMorphType`](../transitionmorphtype). |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Bestämmer om de två TransitionValueBase-instanserna är lika. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Fungerar som en hash-funktion för en viss typ, lämplig för användning i hash-algoritmer och datastrukturer som en hash-tabell. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Fungerar som en hashfunktion för en viss typ, lämplig för användning i hashalgoritmer och datastrukturer som en hash-tabell. |
 
-### Se även
+### Se också
 
 * klass [TransitionValueBase](../transitionvaluebase)
 * gränssnitt [IMorphTransition](../imorphtransition)

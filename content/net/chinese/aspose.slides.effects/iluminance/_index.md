@@ -1,14 +1,14 @@
 ---
 title: ILuminance
-second_title: Aspose.Sildes .NET API 参考
-description: 表示 Luminance 效果。Brightness 将所有颜色线性地向白色或黑色靠拢。Contrast 将所有颜色按比例放大，使其更接近或更远离。
+second_title: Aspose.Sildes for .NET API 参考
+description: 表示 Luminance 效果。Brightness 线性地将所有颜色更接近白色或黑色。Contrast 将所有颜色进行缩放，使它们更接近或更远离。
 type: docs
-weight: 3440
+weight: 3460
 url: /zh/aspose.slides.effects/iluminance/
 ---
 ## ILuminance 接口
 
-表示 Luminance 效果。Brightness 将所有颜色线性地向白色或黑色靠拢。Contrast 将所有颜色按比例放大，使其更接近或更远离。
+表示 Luminance 效果。Brightness 线性地将所有颜色更接近白色或黑色。Contrast 将所有颜色进行缩放，使它们更接近或更远离。
 
 ```csharp
 public interface ILuminance : IAccessiblePVIObject<ILuminanceEffectiveData>, 
@@ -22,7 +22,7 @@ public interface ILuminance : IAccessiblePVIObject<ILuminanceEffectiveData>,
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/iluminance/asiaccessiblepviobject) { get; } | 允许获取基 IAccessiblePVIObject 接口。只读 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
 | [AsIImageTransformOperation](../../aspose.slides.effects/iluminance/asiimagetransformoperation) { get; } | 允许获取基 IImageTransformOperation 接口。只读 [`IImageTransformOperation`](../iimagetransformoperation)。 |
 
-### 另请参见
+### 参见
 
 * 接口 [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * 接口 [ILuminanceEffectiveData](../iluminanceeffectivedata)

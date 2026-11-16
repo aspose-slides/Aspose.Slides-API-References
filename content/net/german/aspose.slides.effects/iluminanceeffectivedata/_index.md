@@ -1,14 +1,14 @@
 ---
 title: ILuminanceEffectiveData
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt einen Luminance-Effekt dar. Helligkeit verschiebt alle Farben linear näher zu Weiß oder Schwarz. Kontrast skaliert alle Farben, sodass sie entweder näher beieinander oder weiter auseinander liegen.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Stellt einen Luminanz-Effekt dar. Helligkeit verschiebt alle Farben linear näher zu Weiß oder Schwarz. Kontrast skaliert alle Farben, so dass sie entweder näher beieinander liegen oder weiter auseinander.
 type: docs
-weight: 3450
+weight: 3470
 url: /de/aspose.slides.effects/iluminanceeffectivedata/
 ---
 ## ILuminanceEffectiveData Schnittstelle
 
-Stellt einen Luminance-Effekt dar. Helligkeit verschiebt alle Farben linear näher zu Weiß oder Schwarz. Kontrast skaliert alle Farben, sodass sie entweder näher beieinander oder weiter auseinander liegen.
+Stellt einen Luminanz-Effekt dar. Helligkeit verschiebt alle Farben linear näher zu Weiß oder Schwarz. Kontrast skaliert alle Farben, so dass sie entweder näher beieinander liegen oder weiter auseinander.
 
 ```csharp
 public interface ILuminanceEffectiveData : IEffectEffectiveData
@@ -18,9 +18,9 @@ public interface ILuminanceEffectiveData : IEffectEffectiveData
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/iluminanceeffectivedata/asieffecteffectivedata) { get; } | Ermöglicht das Abrufen der Basis-IEffectEffectiveData-Schnittstelle. Nur lesend [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Brightness](../../aspose.slides.effects/iluminanceeffectivedata/brightness) { get; } | Helligkeit. Nur lesend Single. |
-| [Contrast](../../aspose.slides.effects/iluminanceeffectivedata/contrast) { get; } | Kontrast. Nur lesend Single. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/iluminanceeffectivedata/asieffecteffectivedata) { get; } | Ermöglicht das Abrufen der Basis-IEffectEffectiveData-Schnittstelle. Nur lesbar [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Brightness](../../aspose.slides.effects/iluminanceeffectivedata/brightness) { get; } | Helligkeit. Nur lesbar Single. |
+| [Contrast](../../aspose.slides.effects/iluminanceeffectivedata/contrast) { get; } | Kontrast. Nur lesbar Single. |
 
 ### Siehe auch
 

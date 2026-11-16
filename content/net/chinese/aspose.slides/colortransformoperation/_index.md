@@ -1,14 +1,14 @@
 ---
 title: ColorTransformOperation
-second_title: Aspose.Sildes .NET API 参考
-description: 定义颜色转换操作。
+second_title: Aspose.Sildes for .NET API 参考
+description: 定义颜色变换操作。
 type: docs
-weight: 2570
+weight: 2590
 url: /zh/aspose.slides/colortransformoperation/
 ---
 ## ColorTransformOperation 枚举
 
-定义颜色转换操作。
+定义颜色变换操作。
 
 ```csharp
 public enum ColorTransformOperation
@@ -18,34 +18,34 @@ public enum ColorTransformOperation
 
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
-| Tint | `0` | 为颜色着色。参数范围在 0（原始颜色）到 1（白色）之间。 |
-| Shade | `1` | 为颜色加暗。参数范围在 0（原始颜色）到 1（黑色）之间。 |
-| Complement | `2` | 将颜色更改为 RGB 互补色。m = Max(r, g, b); r = m - r; g = m - g; b = m - b; |
-| Inverse | `3` | 将颜色更改为反转颜色。r = 1 - r; g = 1 - g; b = 1 - b; |
+| Tint | `0` | 对颜色进行色调处理。参数的取值范围在 0（原始颜色）与 1（白色）之间。 |
+| Shade | `1` | 对颜色进行阴影处理。参数的取值范围在 0（原始颜色）与 1（黑色）之间。 |
+| Complement | `2` | 将颜色更改为 RGB 补色。m = Max(r, g, b); r = m - r; g = m - g; b = m - b; |
+| Inverse | `3` | 将颜色更改为反相颜色。r = 1 - r; g = 1 - g; b = 1 - b; |
 | Grayscale | `4` | 将颜色更改为具有相同亮度的灰色。参数被忽略。 |
-| SetAlpha | `5` | 定义颜色的 alpha 分量。参数范围在 0（透明）到 1（不透明）之间。 |
-| AddAlpha | `6` | 将参数值添加到颜色的 alpha 分量。参数范围在 -1 到 1 之间。 |
-| MultiplyAlpha | `7` | 将 alpha 分量乘以参数值。 |
-| SetHue | `8` | 将颜色的 hue 分量更改为参数值。参数范围在 0 到 360 之间。 |
-| AddHue | `9` | 将参数值添加到颜色的 hue 分量。参数范围在 -360 到 360 之间。 |
-| MultiplyHue | `10` | 将 hue 分量乘以参数值。 |
-| SetSaturation | `11` | 将颜色的 saturation 分量更改为参数值。参数范围在 0 到 1 之间。 |
-| AddSaturation | `12` | 将参数值添加到颜色的 saturation 分量。参数范围在 -1 到 1 之间。 |
-| MultiplySaturation | `13` | 将 saturation 分量乘以参数值。 |
-| SetLuminance | `14` | 将颜色的 luminance 分量更改为参数值。参数范围在 0 到 1 之间。 |
-| AddLuminance | `15` | 将参数值添加到颜色的 luminance 分量。参数范围在 -1 到 1 之间。 |
-| MultiplyLuminance | `16` | 将 luminance 分量乘以参数值。 |
-| SetRed | `17` | 将颜色的 red 分量更改为参数值。参数范围在 0 到 1 之间。 |
-| AddRed | `18` | 将参数值添加到颜色的 red 分量。参数范围在 -1 到 1 之间。 |
-| MultiplyRed | `19` | 将 red 分量乘以参数。 |
-| SetGreen | `20` | 将颜色的 green 分量更改为参数值。参数范围在 0 到 1 之间。 |
-| AddGreen | `21` | 将参数添加到颜色的 green 分量。参数范围在 -1 到 1 之间。 |
-| MultiplyGreen | `22` | 将 green 分量乘以参数值。 |
-| SetBlue | `23` | 将颜色的 blue 分量更改为参数值。参数范围在 0 到 360 之间。 |
-| AddBlue | `24` | 将参数值添加到颜色的 blue 分量。参数范围在 -1 到 1 之间。 |
-| MultiplyBlue | `25` | 将 blue 分量乘以参数值。 |
-| Gamma | `26` | 伽玛校正。参数被忽略。 |
-| InverseGamma | `27` | 反向伽玛校正。参数被忽略。 |
+| SetAlpha | `5` | 定义颜色的 alpha 分量。参数的取值范围在 0（透明）与 1（不透明）之间。 |
+| AddAlpha | `6` | 将参数的值添加到颜色的 alpha 分量。参数的取值范围在 -1 与 1 之间。 |
+| MultiplyAlpha | `7` | 将 alpha 分量乘以参数的值。 |
+| SetHue | `8` | 将颜色的色相分量更改为参数的值。参数的取值范围在 0 与 360 之间。 |
+| AddHue | `9` | 将参数的值添加到颜色的色相分量。参数的取值范围在 -360 与 360 之间。 |
+| MultiplyHue | `10` | 将色相分量乘以参数的值。 |
+| SetSaturation | `11` | 将颜色的饱和度分量更改为参数的值。参数的取值范围在 0 与 1 之间。 |
+| AddSaturation | `12` | 将参数的值添加到颜色的饱和度分量。参数的取值范围在 -1 与 1 之间。 |
+| MultiplySaturation | `13` | 将饱和度分量乘以参数的值。 |
+| SetLuminance | `14` | 将颜色的亮度分量更改为参数的值。参数的取值范围在 0 与 1 之间。 |
+| AddLuminance | `15` | 将参数的值添加到颜色的亮度分量。参数的取值范围在 -1 与 1 之间。 |
+| MultiplyLuminance | `16` | 将亮度分量乘以参数的值。 |
+| SetRed | `17` | 将颜色的红色分量更改为参数的值。参数的取值范围在 0 与 1 之间。 |
+| AddRed | `18` | 将参数的值添加到颜色的红色分量。参数的取值范围在 -1 与 1 之间。 |
+| MultiplyRed | `19` | 将红色分量乘以参数。 |
+| SetGreen | `20` | 将颜色的绿色分量更改为参数的值。参数的取值范围在 0 与 1 之间。 |
+| AddGreen | `21` | 将参数添加到颜色的绿色分量。参数的取值范围在 -1 与 1 之间。 |
+| MultiplyGreen | `22` | 将绿色分量乘以参数的值。 |
+| SetBlue | `23` | 将颜色的蓝色分量更改为参数的值。参数的取值范围在 0 与 360 之间。 |
+| AddBlue | `24` | 将参数的值添加到颜色的蓝色分量。参数的取值范围在 -1 与 1 之间。 |
+| MultiplyBlue | `25` | 将蓝色分量乘以参数的值。 |
+| Gamma | `26` | 伽马校正。参数被忽略。 |
+| InverseGamma | `27` | 反向伽马校正。参数被忽略。 |
 
 ### 另见
 

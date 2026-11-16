@@ -3,12 +3,12 @@ title: ISensitivityLabelCollection
 second_title: Référence API Aspose.Sildes pour .NET
 description: Représente une collection d'étiquettes de sensibilité appliquées au document.
 type: docs
-weight: 6940
+weight: 6960
 url: /fr/aspose.slides/isensitivitylabelcollection/
 ---
 ## ISensitivityLabelCollection interface
 
-Représente une collection d'étiquettes de sensibilité appliquées au document.
+Représente une collection d’étiquettes de sensibilité appliquées au document.
 
 ```csharp
 public interface ISensitivityLabelCollection : IEnumerable<ISensitivityLabel>
@@ -16,19 +16,19 @@ public interface ISensitivityLabelCollection : IEnumerable<ISensitivityLabel>
 
 ## Propriétés
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
 | [Count](../../aspose.slides/isensitivitylabelcollection/count) { get; } | Obtient le nombre de tous les éléments de la collection. Lecture seule Int32. |
-| [Item](../../aspose.slides/isensitivitylabelcollection/item) { get; } | Renvoie l'étiquette de sensibilité par indice. Lecture seule [`ISensitivityLabel`](../isensitivitylabel). |
+| [Item](../../aspose.slides/isensitivitylabelcollection/item) { get; } | Renvoie l’étiquette de sensibilité par indice. Lecture seule [`ISensitivityLabel`](../isensitivitylabel). |
 
 ## Méthodes
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
 | [Add](../../aspose.slides/isensitivitylabelcollection/add#add_1)(ISensitivityLabel) | Ajoute une SensitivityLabel à la collection. |
-| [Add](../../aspose.slides/isensitivitylabelcollection/add#add)(string, Guid, bool, SensitivityLabelAssignmentType) | Ajoute l'étiquette de sensibilité à la fin de la collection. |
+| [Add](../../aspose.slides/isensitivitylabelcollection/add#add)(string, Guid, bool, SensitivityLabelAssignmentType) | Ajoute l’étiquette de sensibilité à la fin de la collection. |
 | [Clear](../../aspose.slides/isensitivitylabelcollection/clear)() | Supprime tous les éléments de la collection. |
-| [RemoveAt](../../aspose.slides/isensitivitylabelcollection/removeat)(int) | Supprime l'étiquette de sensibilité à l'indice spécifié. |
+| [RemoveAt](../../aspose.slides/isensitivitylabelcollection/removeat)(int) | Supprime l’étiquette de sensibilité à l’indice spécifié. |
 
 ### Voir aussi
 

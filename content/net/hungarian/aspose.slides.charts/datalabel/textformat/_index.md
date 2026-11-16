@@ -1,14 +1,14 @@
 ---
 title: TextFormat
-second_title: Aspose.Sildes .NET API referencia
-description: Visszaadja a szövegformátumot. Csak olvasható IChartTextFormataspose.slides.charts/icharttextformat.
+second_title: Aspose.Sildes .NET API referenciája
+description: Visszaadja a szöveg formátumát. Csak-olvasás IChartTextFormataspose.slides.charts/icharttextformat.
 type: docs
-weight: 120
+weight: 130
 url: /hu/aspose.slides.charts/datalabel/textformat/
 ---
 ## DataLabel.TextFormat tulajdonság
 
-Visszaadja a szövegformátumot. Csak olvasható [`IChartTextFormat`](../../icharttextformat).
+Visszaadja a szöveg formátumát. Csak-olvasás [`IChartTextFormat`](../../icharttextformat).
 
 ```csharp
 public IChartTextFormat TextFormat { get; }

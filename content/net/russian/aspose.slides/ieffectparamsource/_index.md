@@ -1,9 +1,9 @@
 ---
 title: IEffectParamSource
-second_title: Справочник API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET справочник API
 description: Вспомогательный интерфейс параметров эффекта.
 type: docs
-weight: 5760
+weight: 5780
 url: /ru/aspose.slides/ieffectparamsource/
 ---
 ## IEffectParamSource интерфейс

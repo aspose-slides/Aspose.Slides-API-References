@@ -1,14 +1,14 @@
 ---
 title: PdfAccessPermissions
-second_title: Aspose.Sildes for .NET API リファレンス
-description: ドキュメントがユーザーアクセスで開かれたときに付与すべきアクセス権限を指定するフラグのセットを含みます。
+second_title: Aspose.Sildes の .NET 用 API リファレンス
+description: ユーザーがアクセス権で文書を開いたときに付与されるべきアクセス権限を指定するフラグの集合を含みます。
 type: docs
-weight: 4310
+weight: 4330
 url: /ja/aspose.slides.export/pdfaccesspermissions/
 ---
-## PdfAccessPermissions 列挙型
+## PdfAccessPermissions 列挙体
 
-ドキュメントがユーザーアクセスで開かれたときに付与すべきアクセス権限を指定するフラグのセットを含みます。
+Contains a set of flags specifying which access permissions should be granted when the document is opened with user access.
 
 ```csharp
 [Flags]
@@ -19,15 +19,15 @@ public enum PdfAccessPermissions
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
-| None | `0` | ユーザーにアクセス権限が付与されていないことを指定します。 |
-| PrintDocument | `4` | ユーザーがドキュメントを印刷できるかどうかを指定します（ビット HighQualityPrint が設定されているかどうかに応じて、最高品質でない場合があります）。 |
-| ModifyContent | `8` | ユーザーがビット AddOrModifyFields、FillExistingFields、AssembleDocument によって制御される操作以外の操作でドキュメントの内容を変更できるかどうかを指定します。 |
-| CopyTextAndGraphics | `10` | ユーザーがビット ExtractTextAndGraphics によって制御される操作以外で、ドキュメントからテキストやグラフィックをコピーまたは抽出できるかどうかを指定します。 |
-| AddOrModifyFields | `20` | ユーザーがテキスト注釈を追加または修正し、インタラクティブなフォームフィールドに入力できるか、またビット ModifyContent が設定されている場合はインタラクティブなフォームフィールド（署名フィールドを含む）を作成または変更できるかどうかを指定します。 |
-| FillExistingFields | `100` | ビット AddOrModifyFields がクリアされていても、ユーザーが既存のインタラクティブなフォームフィールド（署名フィールドを含む）に入力できるかどうかを指定します。 |
-| ExtractTextAndGraphics | `200` | ユーザーが障害を持つユーザーへのアクセシビリティ支援やその他の目的でテキストおよびグラフィックを抽出できるかどうかを指定します。 |
-| AssembleDocument | `400` | ビット ModifyContent がクリアされていても、ユーザーがドキュメントを構成（ページの挿入、回転、削除、ブックマークやサムネイル画像の作成）できるかどうかを指定します。 |
-| HighQualityPrint | `800` | ユーザーが PDF コンテンツの忠実なデジタルコピーを生成できる表現にドキュメントを印刷できるかどうかを指定します。このビットがクリアされている場合（かつビット PrintDocument が設定されている場合）、印刷は外観の低レベル表現に制限され、品質が低下する可能性があります。 |
+| None | `0` | ユーザーにアクセス権が付与されていないことを指定します。 |
+| PrintDocument | `4` | ユーザーが文書を印刷できるかどうかを指定します（bit HighQualityPrint が設定されているかどうかに応じて、最高品質でない場合があります）。 |
+| ModifyContent | `8` | bit AddOrModifyFields 、 FillExistingFields 、 AssembleDocument で制御される操作以外の操作により、ユーザーが文書の内容を変更できるかどうかを指定します。 |
+| CopyTextAndGraphics | `10` | bit ExtractTextAndGraphics で制御される操作以外の操作により、ユーザーが文書からテキストやグラフィックをコピーまたは抽出できるかどうかを指定します。 |
+| AddOrModifyFields | `20` | ユーザーがテキスト注釈を追加または変更し、インタラクティブなフォームフィールドに入力できるか、さらに bit ModifyContent が設定されている場合は、インタラクティブなフォームフィールド（署名フィールドを含む）を作成または変更できるかどうかを指定します。 |
+| FillExistingFields | `100` | bit AddOrModifyFields がクリアされていても、ユーザーが既存のインタラクティブなフォームフィールド（署名フィールドを含む）に入力できるかどうかを指定します。 |
+| ExtractTextAndGraphics | `200` | 障害を持つユーザーへのアクセシビリティ支援やその他の目的のために、ユーザーがテキストとグラフィックを抽出できるかどうかを指定します。 |
+| AssembleDocument | `400` | bit ModifyContent がクリアされていても、ユーザーが文書を構成（ページの挿入、回転、削除、ブックマークやサムネイル画像の作成）できるかどうかを指定します。 |
+| HighQualityPrint | `800` | ユーザーが PDF コンテンツの忠実なデジタルコピーを生成できる表現で文書を印刷できるかどうかを指定します。このビットがクリアされていて（かつ bit PrintDocument が設定されている）場合、印刷は外観の低レベルな表現に制限され、品質が低下する可能性があります。 |
 
 ### 参照
 

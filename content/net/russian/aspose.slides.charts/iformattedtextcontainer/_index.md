@@ -1,9 +1,9 @@
 ---
 title: IFormattedTextContainer
-second_title: Aspose.Sildes для .NET справочник API
+second_title: Справочник API Aspose.Sildes для .NET
 description: Представляет формат текста диаграммы.
 type: docs
-weight: 2110
+weight: 2130
 url: /ru/aspose.slides.charts/iformattedtextcontainer/
 ---
 ## IFormattedTextContainer интерфейс

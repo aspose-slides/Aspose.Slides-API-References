@@ -1,14 +1,14 @@
 ---
 title: CompressionLevel
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Specificeert ZIP-compressieniveaus voor OpenXML-bestand. Hogere niveaus bieden betere compressie ten koste van tragere verwerking.
+description: Specificeert ZIP-compressieniveaus voor een OpenXML-bestand. Hogere niveaus bieden betere compressie ten koste van tragere verwerking.
 type: docs
-weight: 3740
+weight: 3760
 url: /nl/aspose.slides.export/compressionlevel/
 ---
 ## CompressionLevel enumeratie
 
-Specificeert ZIP-compressieniveaus voor OpenXML-bestand. Hogere niveaus bieden betere compressie ten koste van tragere verwerking.
+Specifieert ZIP-compressieniveaus voor een OpenXML-bestand. Hogere niveaus geven betere compressie ten koste van een tragere verwerking.
 
 ```csharp
 public enum CompressionLevel
@@ -18,13 +18,13 @@ public enum CompressionLevel
 
 | Naam | Waarde | Beschrijving |
 | --- | --- | --- |
-| None | `0` | Geen compressie toegepast. Bestanden worden opgeslagen zoals ze zijn. |
-| Level1 | `1` | Snelle compressie met de laagste compressieverhouding. |
+| None | `0` | Er wordt geen compressie toegepast. Bestanden worden onveranderd opgeslagen. |
+| Level1 | `1` | Snelste compressie met de laagste compressieverhouding. |
 | Level2 | `2` | Snellere compressie met iets betere compressieverhouding dan Level1. |
 | Level3 | `3` | Biedt betere compressie dan Level2 met een matige impact op de prestaties. |
 | Level4 | `4` | Biedt betere compressie dan Level3. |
 | Level5 | `5` | Biedt verbeterde compressie ten opzichte van Level4 met extra verwerkingstijd. |
-| Level6 | `6` | Standaardcompressie, die een goede balans biedt tussen compressiesnelheid en bestandsgrootte. Het standaardcompressieniveau. |
+| Level6 | `6` | Standaardcompressie, biedt een goede balans tussen compressiesnelheid en bestandsgrootte. Het standaardcompressieniveau. |
 | Level7 | `7` | Biedt hogere compressie dan Level6 met tragere verwerking. |
 | Level8 | `8` | Biedt hogere compressie dan Level7. |
 | Level9 | `9` | Maximale compressie. Produceert de kleinste bestandsgrootte met de langzaamste verwerkingssnelheid. |

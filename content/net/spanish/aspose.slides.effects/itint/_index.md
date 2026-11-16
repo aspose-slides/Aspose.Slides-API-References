@@ -3,10 +3,10 @@ title: ITint
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa un efecto Tint. Desplaza los valores de color del efecto hacia/alejándose del matiz en la cantidad especificada.
 type: docs
-weight: 3540
+weight: 3560
 url: /es/aspose.slides.effects/itint/
 ---
-## Interfaz ITint
+## ITint interfaz
 
 Representa un efecto Tint. Desplaza los valores de color del efecto hacia/alejándose del matiz en la cantidad especificada.
 
@@ -18,8 +18,8 @@ public interface ITint : IAccessiblePVIObject<ITintEffectiveData>, IImageTransfo
 
 | Nombre | Descripción |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/itint/asiaccessiblepviobject) { get; } | Permite obtener la interfaz base IAccessiblePVIObject. Solo lectura [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/itint/asiimagetransformoperation) { get; } | Permite obtener la interfaz base IImageTransformOperation. Solo lectura [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/itint/asiaccessiblepviobject) { get; } | Permite obtener la interfaz base IAccessiblePVIObject. Solo de lectura [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/itint/asiimagetransformoperation) { get; } | Permite obtener la interfaz base IImageTransformOperation. Solo de lectura [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### Ver también
 

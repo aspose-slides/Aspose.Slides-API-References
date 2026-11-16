@@ -1,14 +1,14 @@
 ---
 title: ReplaceText
-second_title: Aspose.Sildes için .NET API Referansı
-description: Belirtilen metnin tüm tekrarlarını başka bir belirtilen metinle değiştirir.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Belirtilen metnin tüm oluşumlarını başka bir belirtilen metinle değiştirir.
 type: docs
-weight: 380
+weight: 390
 url: /tr/aspose.slides/presentation/replacetext/
 ---
-## Presentation.ReplaceText yöntemi
+## Presentation.ReplaceText metodu
 
-Belirtilen metnin tüm yinelemelerini başka bir belirtilen metinle değiştirir.
+Belirtilen metnin tüm oluşumlarını başka bir belirtilen metinle değiştirir.
 
 ```csharp
 public void ReplaceText(string oldText, string newText, ITextSearchOptions options, 
@@ -18,19 +18,19 @@ public void ReplaceText(string oldText, string newText, ITextSearchOptions optio
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | oldText | String | Değiştirilecek dize. |
-| newText | String | oldText'in tüm yinelemelerini değiştirecek dize. |
+| newText | String | oldText'in tüm oluşumlarını değiştirecek dize. |
 | options | ITextSearchOptions | Metin arama seçenekleri [`ITextSearchOptions`](../../itextsearchoptions). |
-| callback | IFindResultCallback | Arama sonuçlarını alacak geri çağırma nesnesi [`IFindResultCallback`](../../ifindresultcallback). |
+| callback | IFindResultCallback | Arama sonuçlarını almak için geri arama nesnesi [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### Örnekler
 
-Aşağıdaki örnek kod, bir belirtilen dizeyi başka bir belirtilen dizeyle nasıl değiştireceğini gösterir.
+Aşağıdaki örnek kod, bir belirtilen dizeyi başka bir belirtilen dizeyle nasıl değiştireceğinizi gösterir.
 
 ```csharp
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
-	// Tüm ayrı 'the' tekrarlarını '***' ile değiştir
+	// Tüm ayrı 'the' oluşumlarını '***' ile değiştir
 	presentation.ReplaceText("the", "***", new TextSearchOptions() {WholeWordsOnly = true}, null);
 	presentation.Save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 }

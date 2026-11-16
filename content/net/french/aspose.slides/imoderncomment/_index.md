@@ -1,9 +1,9 @@
 ---
 title: IModernComment
-second_title: Référence API Aspose.Sildes pour .NET
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Représente un commentaire sur une diapositive.
 type: docs
-weight: 6460
+weight: 6480
 url: /fr/aspose.slides/imoderncomment/
 ---
 ## IModernComment interface
@@ -18,7 +18,7 @@ public interface IModernComment : IComment
 
 | Nom | Description |
 | --- | --- |
-| [AsIComment](../../aspose.slides/imoderncomment/asicomment) { get; } | Permet d'obtenir l'interface IComment de base. Lecture seule [`IComment`](../icomment). |
+| [AsIComment](../../aspose.slides/imoderncomment/asicomment) { get; } | Permet d'obtenir l'interface de base IComment. Lecture seule [`IComment`](../icomment). |
 | [Shape](../../aspose.slides/imoderncomment/shape) { get; } | Renvoie une forme associée au commentaire. Lecture seule [`IShape`](../ishape). |
 | [Status](../../aspose.slides/imoderncomment/status) { get; set; } | Renvoie ou définit le statut du commentaire. Lecture/écriture [`ModernCommentStatus`](../moderncommentstatus). |
 | [TextSelectionLength](../../aspose.slides/imoderncomment/textselectionlength) { get; set; } | Renvoie ou définit la longueur de la sélection de texte dans le cadre de texte si le commentaire est associé à AutoShape. Lecture/écriture Int32. |

@@ -1,14 +1,14 @@
 ---
 title: FontSubstitutionInfo
-second_title: Aspose.Sildes para la referencia de API de .NET
-description: Esta estructura representa la información sobre la sustitución de fuentes cuando se renderiza.
+second_title: Referencia de la API de Aspose.Sildes para .NET
+description: Esta estructura representa la información sobre la sustitución de fuentes cuando se renderizará.
 type: docs
-weight: 4910
+weight: 4930
 url: /es/aspose.slides/fontsubstitutioninfo/
 ---
 ## FontSubstitutionInfo clase
 
-Esta estructura representa la información sobre la sustitución de fuentes cuando se renderiza.
+Esta estructura representa la información sobre la sustitución de fuentes cuando se renderizará.
 
 ```csharp
 public class FontSubstitutionInfo
@@ -18,14 +18,14 @@ public class FontSubstitutionInfo
 
 | Nombre | Descripción |
 | --- | --- |
-| [FontSubstitutionInfo](fontsubstitutioninfo)(string, string) | Crea una instancia de [`FontSubstitutionInfo`](../fontsubstitutioninfo) clase. |
+| [FontSubstitutionInfo](fontsubstitutioninfo)(string, string) | Crea una instancia de la clase [`FontSubstitutionInfo`](../fontsubstitutioninfo). |
 
 ## Propiedades
 
 | Nombre | Descripción |
 | --- | --- |
 | [OriginalFontName](../../aspose.slides/fontsubstitutioninfo/originalfontname) { get; } | Indica el nombre de la fuente origen en la presentación. Solo lectura String |
-| [SubstitutedFontName](../../aspose.slides/fontsubstitutioninfo/substitutedfontname) { get; } | Indica el nombre de la fuente de reemplazo para la fuente original. Solo lectura String |
+| [SubstitutedFontName](../../aspose.slides/fontsubstitutioninfo/substitutedfontname) { get; } | Indica el nombre de la fuente de sustitución para la fuente original. Solo lectura String |
 
 ### Ejemplos
 

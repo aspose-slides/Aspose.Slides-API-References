@@ -3,7 +3,7 @@ title: IEmbeddedEotFontsHtmlController
 second_title: Aspose.Sildes para la referencia de API de .NET
 description: Controlador HTML de fuentes Eot incrustadas.
 type: docs
-weight: 3900
+weight: 3920
 url: /es/aspose.slides.export/iembeddedeotfontshtmlcontroller/
 ---
 ## IEmbeddedEotFontsHtmlController interfaz
@@ -18,7 +18,7 @@ public interface IEmbeddedEotFontsHtmlController : IHtmlFormattingController
 
 | Nombre | Descripción |
 | --- | --- |
-| [AsIHtmlFormattingController](../../aspose.slides.export/iembeddedeotfontshtmlcontroller/asihtmlformattingcontroller) { get; } | Devuelve IHtmlFormattingController interfaz. |
+| [AsIHtmlFormattingController](../../aspose.slides.export/iembeddedeotfontshtmlcontroller/asihtmlformattingcontroller) { get; } | Devuelve la interfaz IHtmlFormattingController. |
 
 ### Ver también
 

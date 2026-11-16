@@ -1,12 +1,12 @@
 ---
 title: ZoomImageType
-second_title: Aspose.Sildes per .NET API Reference
+second_title: Aspose.Sildes per il riferimento API .NET
 description: Definisce se l'oggetto Zoom utilizza l'anteprima della diapositiva o un'immagine di copertina.
 type: docs
-weight: 11850
+weight: 11870
 url: /it/aspose.slides/zoomimagetype/
 ---
-## enumerazione ZoomImageType
+## ZoomImageType enumerazione
 
 Definisce se l'oggetto Zoom utilizza l'anteprima della diapositiva o un'immagine di copertina.
 

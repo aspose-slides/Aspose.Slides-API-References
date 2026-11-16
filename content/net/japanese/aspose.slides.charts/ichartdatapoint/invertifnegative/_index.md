@@ -1,14 +1,14 @@
 ---
 title: InvertIfNegative
-second_title: Aspose.Sildes for .NET API リファレンス
-description: 値が負の場合、データポイントの色を反転させることを指定します。読み取り/書き込み Boolean.
+second_title: Aspose.Sildes の .NET API リファレンス
+description: 値が負の場合、データ ポイントの色を反転させることを指定します。読み書き可能な Boolean。
 type: docs
-weight: 90
+weight: 130
 url: /ja/aspose.slides.charts/ichartdatapoint/invertifnegative/
 ---
 ## IChartDataPoint.InvertIfNegative プロパティ
 
-値が負の場合、データポイントの色を反転させることを指定します。読み取り/書き込み Boolean.
+データ ポイントが負の値の場合、色を反転させることを指定します。読み書き可能な Boolean。
 
 ```csharp
 public bool InvertIfNegative { get; set; }

@@ -1,9 +1,9 @@
 ---
 title: Save
-second_title: Riferimento API di Aspose.Sildes per .NET
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Salva tutte le diapositive di una presentazione in un file con il formato specificato.
 type: docs
-weight: 390
+weight: 400
 url: /it/aspose.slides/presentation/save/
 ---
 ## Save(string, SaveFormat) {#save_5}
@@ -16,8 +16,8 @@ public void Save(string fname, SaveFormat format)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| fname | String | Percorso del file creato. |
-| format | SaveFormat | Formato dei dati esportati. |
+| fname | String | Path to the created file. |
+| format | SaveFormat | Format of the exported data. |
 
 ### Vedi anche
 
@@ -30,7 +30,7 @@ public void Save(string fname, SaveFormat format)
 
 ## Save(Stream, SaveFormat) {#save_1}
 
-Salva tutte le diapositive di una presentazione su uno stream nel formato specificato.
+Salva tutte le diapositive di una presentazione in uno stream nel formato specificato.
 
 ```csharp
 public void Save(Stream stream, SaveFormat format)
@@ -38,8 +38,8 @@ public void Save(Stream stream, SaveFormat format)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| stream | Stream | Stream di output. |
-| format | SaveFormat | Formato dei dati esportati. |
+| stream | Stream | Output stream. |
+| format | SaveFormat | Format of the exported data. |
 
 ### Vedi anche
 
@@ -68,7 +68,7 @@ public void Save(string fname, SaveFormat format, ISaveOptions options)
 
 ## Save(Stream, SaveFormat, ISaveOptions) {#save_2}
 
-Salva tutte le diapositive di una presentazione su uno stream nel formato specificato e con opzioni aggiuntive.
+Salva tutte le diapositive di una presentazione in uno stream nel formato specificato e con opzioni aggiuntive.
 
 ```csharp
 public void Save(Stream stream, SaveFormat format, ISaveOptions options)
@@ -76,9 +76,9 @@ public void Save(Stream stream, SaveFormat format, ISaveOptions options)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| stream | Stream | Stream di output. |
-| format | SaveFormat | Formato dei dati esportati. |
-| options | ISaveOptions | Opzioni di formato aggiuntive. |
+| stream | Stream | Output stream. |
+| format | SaveFormat | Format of the exported data. |
+| options | ISaveOptions | Additional format options. |
 
 ### Eccezioni
 
@@ -137,9 +137,9 @@ public void Save(string fname, int[] slides, SaveFormat format)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| fname | String | Percorso del file creato. |
+| fname | String | Path to the created file. |
 | slides | Int32[] | Array con le posizioni delle diapositive, a partire da 1. |
-| format | SaveFormat | Formato dei dati esportati. |
+| format | SaveFormat | Format of the exported data. |
 
 ### Eccezioni
 
@@ -168,9 +168,9 @@ public void Save(string fname, int[] slides, SaveFormat format, ISaveOptions opt
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| fname | String | Percorso del file creato. |
+| fname | String | Path to the created file. |
 | slides | Int32[] | Array con le posizioni delle diapositive, a partire da 1. |
-| format | SaveFormat | Formato dei dati esportati. |
+| format | SaveFormat | Format of the exported data. |
 | options | ISaveOptions | Opzioni di formato aggiuntive. |
 
 ### Vedi anche
@@ -185,7 +185,7 @@ public void Save(string fname, int[] slides, SaveFormat format, ISaveOptions opt
 
 ## Save(Stream, int[], SaveFormat) {#save_3}
 
-Salva le diapositive specificate di una presentazione su uno stream nel formato specificato mantenendo il numero di pagina.
+Salva le diapositive specificate di una presentazione in uno stream nel formato specificato mantenendo il numero di pagina.
 
 ```csharp
 public void Save(Stream stream, int[] slides, SaveFormat format)
@@ -193,9 +193,9 @@ public void Save(Stream stream, int[] slides, SaveFormat format)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| stream | Stream | Stream di output. |
+| stream | Stream | Output stream. |
 | slides | Int32[] | Array con le posizioni delle diapositive, a partire da 1. |
-| format | SaveFormat | Formato dei dati esportati. |
+| format | SaveFormat | Format of the exported data. |
 
 ### Vedi anche
 
@@ -208,7 +208,7 @@ public void Save(Stream stream, int[] slides, SaveFormat format)
 
 ## Save(Stream, int[], SaveFormat, ISaveOptions) {#save_4}
 
-Salva le diapositive specificate di una presentazione su uno stream nel formato specificato mantenendo il numero di pagina.
+Salva le diapositive specificate di una presentazione in uno stream nel formato specificato mantenendo il numero di pagina.
 
 ```csharp
 public void Save(Stream stream, int[] slides, SaveFormat format, ISaveOptions options)
@@ -216,9 +216,9 @@ public void Save(Stream stream, int[] slides, SaveFormat format, ISaveOptions op
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| stream | Stream | Stream di output. |
+| stream | Stream | Output stream. |
 | slides | Int32[] | Array con le posizioni delle diapositive, a partire da 1. |
-| format | SaveFormat | Formato dei dati esportati. |
+| format | SaveFormat | Format of the exported data. |
 | options | ISaveOptions | Opzioni di formato aggiuntive. |
 
 ### Eccezioni

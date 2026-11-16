@@ -1,14 +1,14 @@
 ---
 title: IAutoShape
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Representa una AutoShape.
+description: Representa un AutoShape.
 type: docs
-weight: 5240
+weight: 5260
 url: /es/aspose.slides/iautoshape/
 ---
 ## IAutoShape interfaz
 
-Representa una AutoShape.
+Representa un AutoShape.
 
 ```csharp
 public interface IAutoShape : IGeometryShape
@@ -22,14 +22,14 @@ public interface IAutoShape : IGeometryShape
 | [AutoShapeLock](../../aspose.slides/iautoshape/autoshapelock) { get; } | Devuelve los bloqueos de AutoShape. Solo lectura [`IAutoShapeLock`](../iautoshapelock). |
 | [IsTextBox](../../aspose.slides/iautoshape/istextbox) { get; } | Especifica si la forma es un cuadro de texto. |
 | [ShapeLock](../../aspose.slides/iautoshape/shapelock) { get; } | Devuelve los bloqueos de la forma. Solo lectura [`IAutoShapeLock`](../iautoshapelock). |
-| [TextFrame](../../aspose.slides/iautoshape/textframe) { get; } | Devuelve el objeto TextFrame para la AutoShape. Solo lectura [`ITextFrame`](../itextframe). |
-| [UseBackgroundFill](../../aspose.slides/iautoshape/usebackgroundfill) { get; set; } | Determina si esta autoshape debe rellenarse con el relleno de fondo de la diapositiva en lugar de lo especificado por el estilo o formato de relleno. Lectura/escritura Boolean. |
+| [TextFrame](../../aspose.slides/iautoshape/textframe) { get; } | Devuelve el objeto TextFrame para AutoShape. Solo lectura [`ITextFrame`](../itextframe). |
+| [UseBackgroundFill](../../aspose.slides/iautoshape/usebackgroundfill) { get; set; } | Determina si esta autoshape debe llenarse con el fondo de la diapositiva en lugar de lo especificado por estilo o formato de relleno. Lectura/escritura Boolean. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [AddTextFrame](../../aspose.slides/iautoshape/addtextframe)(string) | Añade un nuevo TextFrame a una forma. Si la forma ya tiene TextFrame, simplemente cambia su texto. |
+| [AddTextFrame](../../aspose.slides/iautoshape/addtextframe)(string) | Agrega un nuevo TextFrame a una forma. Si la forma ya tiene TextFrame, simplemente cambia su texto. |
 
 ### Ver también
 

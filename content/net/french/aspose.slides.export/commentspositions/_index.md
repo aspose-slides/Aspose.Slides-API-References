@@ -1,14 +1,14 @@
 ---
 title: CommentsPositions
-second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Représente la règle de rendu des commentaires dans le document exporté
+second_title: Référence API Aspose.Sildes pour .NET
+description: Représente la règle d'affichage des commentaires dans le document exporté
 type: docs
-weight: 3730
+weight: 3750
 url: /fr/aspose.slides.export/commentspositions/
 ---
 ## Énumération CommentsPositions
 
-Représente la règle de rendu des commentaires dans le document exporté
+Représente la règle d'affichage des commentaires dans le document exporté
 
 ```csharp
 public enum CommentsPositions
@@ -18,9 +18,9 @@ public enum CommentsPositions
 
 | Nom | Valeur | Description |
 | --- | --- | --- |
-| None | `0` | Indique que les commentaires ne doivent pas être affichés du tout. |
-| Bottom | `1` | Indique que les commentaires doivent être affichés en bas de la page. |
-| Right | `2` | Indique que les commentaires doivent être affichés à droite de la page. |
+| None | `0` | Spécifie que les commentaires ne doivent pas être affichés du tout. |
+| Bottom | `1` | Spécifie que les commentaires doivent être affichés en bas de la page. |
+| Right | `2` | Spécifie que les commentaires doivent être affichés à droite de la page. |
 
 ### Voir aussi
 

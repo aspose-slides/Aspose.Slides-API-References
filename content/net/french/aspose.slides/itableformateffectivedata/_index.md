@@ -1,14 +1,14 @@
 ---
 title: ITableFormatEffectiveData
-second_title: Aspose.Sildes pour la référence API .NET
-description: Objet immuable qui contient les propriétés de formatage de tableau effectives.
+second_title: Référence API Aspose.Sildes pour .NET
+description: Objet immuable qui contient les propriétés de mise en forme effective du tableau.
 type: docs
-weight: 7250
+weight: 7270
 url: /fr/aspose.slides/itableformateffectivedata/
 ---
 ## ITableFormatEffectiveData interface
 
-Objet immuable qui contient les propriétés de formatage de tableau effectives.
+Objet immuable qui contient les propriétés de mise en forme effective du tableau.
 
 ```csharp
 public interface ITableFormatEffectiveData : IBaseTableFormatEffectiveData
@@ -18,12 +18,12 @@ public interface ITableFormatEffectiveData : IBaseTableFormatEffectiveData
 
 | Nom | Description |
 | --- | --- |
-| [AsIBaseTableFormatEffectiveData](../../aspose.slides/itableformateffectivedata/asibasetableformateffectivedata) { get; } | Permet d’obtenir l’interface de base IBaseTableFormatEffectiveData. Lecture seule [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
-| [Transparency](../../aspose.slides/itableformateffectivedata/transparency) { get; } | Obtient la transparence de la couleur de remplissage. Lecture Single. |
+| [AsIBaseTableFormatEffectiveData](../../aspose.slides/itableformateffectivedata/asibasetableformateffectivedata) { get; } | Permet d'obtenir l'interface de base IBaseTableFormatEffectiveData. Lecture seule [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
+| [Transparency](../../aspose.slides/itableformateffectivedata/transparency) { get; } | Obtient la transparence de la couleur de remplissage. Lecture Simple. |
 
 ### Remarques
 
-Cette interface est utilisée avec l’interface [`ITableFormat`](../itableformat) pour retourner les valeurs de formatage effectives avec l’héritage et les styles de tableau appliqués.
+Cette interface est utilisée avec l'interface [`ITableFormat`](../itableformat) pour retourner les valeurs de mise en forme effectives avec héritage et styles de tableau appliqués.
 
 ### Voir aussi
 

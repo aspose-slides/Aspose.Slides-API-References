@@ -1,9 +1,9 @@
 ---
 title: MathPortion
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Representa uma porção com contexto matemático interno.
 type: docs
-weight: 8930
+weight: 8950
 url: /pt/aspose.slides.mathtext/mathportion/
 ---
 ## MathPortion classe
@@ -16,28 +16,28 @@ public sealed class MathPortion : Portion, IMathPortion
 
 ## Construtores
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
 | [MathPortion](mathportion)() | Inicializa uma nova instância da classe MathPortion. |
 
 ## Propriedades
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
 | [Field](../../aspose.slides/portion/field) { get; } | Retorna um campo desta porção. Somente leitura [`IField`](../../aspose.slides/ifield). |
 | [MathParagraph](../../aspose.slides.mathtext/mathportion/mathparagraph) { get; } | Parágrafo matemático |
-| [PortionFormat](../../aspose.slides/portion/portionformat) { get; } | Retorna o objeto de formatação que contém propriedades de formatação definidas explicitamente da porção de texto sem herança aplicada. Somente leitura [`IPortionFormat`](../../aspose.slides/iportionformat). |
-| [Text](../../aspose.slides/portion/text) { get; set; } | Obtém ou define o texto simples de uma porção. Leitura/gravação String. |
+| [PortionFormat](../../aspose.slides/portion/portionformat) { get; } | Retorna um objeto de formatação que contém propriedades de formatação definidas explicitamente da porção de texto sem herança aplicada. Somente leitura [`IPortionFormat`](../../aspose.slides/iportionformat). |
+| [Text](../../aspose.slides/portion/text) { get; set; } | Obtém ou define o texto puro de uma porção. Leitura/gravação String. |
 
 ## Métodos
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
 | [AddField](../../aspose.slides/portion/addfield)(IFieldType) | Converte esta porção no campo atualizado automaticamente. |
 | [AddField](../../aspose.slides/portion/addfield)(string) | Converte esta porção no campo atualizado automaticamente. |
 | [GetCoordinates](../../aspose.slides/portion/getcoordinates)() | Obtém as coordenadas do início da porção. A coordenada X do ponto representa o início da porção a partir do primeiro caractere, incluindo a margem esquerda. A coordenada Y inclui a margem superior. |
-| [GetRect](../../aspose.slides/portion/getrect)() | Obtém as coordenadas do retângulo que contém a porção. O retângulo inclui todas as linhas de texto na porção, incluindo linhas vazias. |
-| [RemoveField](../../aspose.slides/portion/removefield)() | Converte esta porção de campo para a porção simples. |
+| [GetRect](../../aspose.slides/portion/getrect)() | Obtém as coordenadas do retângulo que delimita a porção. O retângulo inclui todas as linhas de texto na porção, inclusive as vazias. |
+| [RemoveField](../../aspose.slides/portion/removefield)() | Converte esta porção de campo na porção simples. |
 
 ### Exemplos
 
@@ -54,7 +54,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### Ver também
+### Ver Também
 
 * classe [Portion](../../aspose.slides/portion)
 * interface [IMathPortion](../imathportion)

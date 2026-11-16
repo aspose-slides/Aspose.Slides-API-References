@@ -1,12 +1,12 @@
 ---
 title: FillFormatCollection
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa la colección de estilos de relleno.
 type: docs
-weight: 11120
+weight: 11140
 url: /es/aspose.slides.theme/fillformatcollection/
 ---
-## FillFormatCollection clase
+## Clase FillFormatCollection
 
 Representa la colección de estilos de relleno.
 
@@ -27,7 +27,7 @@ public sealed class FillFormatCollection : DomObject<FormatScheme>, IFillFormatC
 
 | Nombre | Descripción |
 | --- | --- |
-| [CopyTo](../../aspose.slides.theme/fillformatcollection/copyto)(Array, int) | Copia todos los elementos de la colección al array especificado. |
+| [CopyTo](../../aspose.slides.theme/fillformatcollection/copyto)(Array, int) | Copia todos los elementos de la colección al arreglo especificado. |
 | [GetEnumerator](../../aspose.slides.theme/fillformatcollection/getenumerator)() | Devuelve un enumerador que recorre la colección. |
 
 ### Ver también

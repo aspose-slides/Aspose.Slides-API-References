@@ -3,10 +3,10 @@ title: SystemColor
 second_title: Aspose.Sildes for .NET API リファレンス
 description: 事前定義されたシステムカラーを表します。
 type: docs
-weight: 10810
+weight: 10830
 url: /ja/aspose.slides/systemcolor/
 ---
-## SystemColor 列挙型
+## SystemColor 列挙体
 
 事前定義されたシステムカラーを表します。
 
@@ -14,7 +14,7 @@ url: /ja/aspose.slides/systemcolor/
 public enum SystemColor
 ```
 
-### Values
+### 値
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
@@ -50,7 +50,7 @@ public enum SystemColor
 | MenuHighlight | `29` |  |
 | MenuBar | `30` |  |
 
-### 参照
+### 関連項目
 
 * 名前空間 [Aspose.Slides](../../aspose.slides)
 * アセンブリ [Aspose.Slides](../../)

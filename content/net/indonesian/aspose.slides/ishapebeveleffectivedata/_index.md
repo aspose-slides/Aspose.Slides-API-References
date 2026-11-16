@@ -1,14 +1,14 @@
 ---
 title: IShapeBevelEffectiveData
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Objek tak dapat diubah yang berisi properti relief wajah bentuk yang efektif.
+description: Objek tidak dapat diubah yang berisi properti relief muka bentuk yang efektif.
 type: docs
-weight: 6970
+weight: 6990
 url: /id/aspose.slides/ishapebeveleffectivedata/
 ---
 ## IShapeBevelEffectiveData antarmuka
 
-Objek tak dapat diubah yang berisi properti relief wajah bentuk yang efektif.
+Objek tidak dapat diubah yang berisi properti relief muka bentuk yang efektif.
 
 ```csharp
 public interface IShapeBevelEffectiveData
@@ -18,9 +18,9 @@ public interface IShapeBevelEffectiveData
 
 | Nama | Deskripsi |
 | --- | --- |
-| [BevelType](../../aspose.slides/ishapebeveleffectivedata/beveltype) { get; } | Jenis bevel. Hanya-baca [`BevelPresetType`](../bevelpresettype). |
-| [Height](../../aspose.slides/ishapebeveleffectivedata/height) { get; } | Ketinggian bevel. Hanya-baca Double. |
-| [Width](../../aspose.slides/ishapebeveleffectivedata/width) { get; } | Lebar bevel. Hanya-baca Double. |
+| [BevelType](../../aspose.slides/ishapebeveleffectivedata/beveltype) { get; } | Tipe Bevel. Hanya-baca [`BevelPresetType`](../bevelpresettype). |
+| [Height](../../aspose.slides/ishapebeveleffectivedata/height) { get; } | Tinggi Bevel. Hanya-baca Double. |
+| [Width](../../aspose.slides/ishapebeveleffectivedata/width) { get; } | Lebar Bevel. Hanya-baca Double. |
 
 ### Catatan
 

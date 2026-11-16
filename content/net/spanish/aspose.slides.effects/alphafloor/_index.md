@@ -1,14 +1,14 @@
 ---
 title: AlphaFloor
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Representa un efecto Alpha Floor. Los valores de opacidad Alpha menores que 100 se cambian a cero. En otras palabras, cualquier elemento parcialmente transparente se vuelve totalmente transparente.
+second_title: Aspose.Sildes para la referencia de API de .NET
+description: Representa un efecto Alpha Floor. Los valores de opacidad Alpha menores que 100 se cambian a cero. En otras palabras, cualquier cosa parcialmente transparente se vuelve totalmente transparente.
 type: docs
-weight: 2860
+weight: 2880
 url: /es/aspose.slides.effects/alphafloor/
 ---
 ## AlphaFloor clase
 
-Representa un efecto Alpha Floor. Los valores Alpha (opacidad) menores al 100 % se cambian a cero. En otras palabras, cualquier elemento parcialmente transparente se vuelve totalmente transparente.
+Representa un efecto Alpha Floor. Los valores de Alpha (opacidad) menores al 100% se cambian a cero. En otras palabras, cualquier cosa parcialmente transparente se vuelve totalmente transparente.
 
 ```csharp
 public sealed class AlphaFloor : ImageTransformOperation, IAlphaFloor
@@ -18,7 +18,7 @@ public sealed class AlphaFloor : ImageTransformOperation, IAlphaFloor
 
 | Nombre | Descripción |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permite obtener la interfaz base IPresentationComponent. Solo lectura [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permite obtener la interfaz base IPresentationComponent. Sólo lectura [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Métodos
 
@@ -26,7 +26,7 @@ public sealed class AlphaFloor : ImageTransformOperation, IAlphaFloor
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/alphafloor/equals)(object) | Determina si el [`AlphaFloor`](../alphafloor) especificado es igual al [`AlphaFloor`](../alphafloor) actual. |
 | [GetEffective](../../aspose.slides.effects/alphafloor/geteffective)() | Obtiene los datos efectivos del efecto Alpha Floor con la herencia aplicada. |
-| override [GetHashCode](../../aspose.slides.effects/alphafloor/gethashcode)() | Funciona como una función hash para un tipo particular. |
+| override [GetHashCode](../../aspose.slides.effects/alphafloor/gethashcode)() | Sirve como función hash para un tipo en particular. |
 
 ### Ver también
 

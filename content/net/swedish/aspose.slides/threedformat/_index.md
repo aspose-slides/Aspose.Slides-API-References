@@ -3,12 +3,12 @@ title: ThreeDFormat
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar 3-D egenskaper.
 type: docs
-weight: 11490
+weight: 11510
 url: /sv/aspose.slides/threedformat/
 ---
 ## ThreeDFormat klass
 
-Representerar 3-D egenskaper.
+Representerar 3-D-egenskaper.
 
 ```csharp
 public sealed class ThreeDFormat : PVIObject, IThreeDFormat
@@ -18,29 +18,29 @@ public sealed class ThreeDFormat : PVIObject, IThreeDFormat
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Tillåter att hämta bas IPresentationComponent gränssnittet. Endast läsning [`IPresentationComponent`](../ipresentationcomponent). |
-| [BevelBottom](../../aspose.slides/threedformat/bevelbottom) { get; } | Returnerar eller sätter typen av en botten 3D fasett. Endast läsning [`IShapeBevel`](../ishapebevel). |
-| [BevelTop](../../aspose.slides/threedformat/beveltop) { get; } | Returnerar eller sätter typen av en topp 3D fasett. Endast läsning [`IShapeBevel`](../ishapebevel). |
-| [Camera](../../aspose.slides/threedformat/camera) { get; } | Returnerar eller sätter inställningarna för en kamera. Endast läsning [`ICamera`](../icamera). |
-| [ContourColor](../../aspose.slides/threedformat/contourcolor) { get; } | Returnerar eller sätter färgen på en kontur. Endast läsning [`IColorFormat`](../icolorformat). |
-| [ContourWidth](../../aspose.slides/threedformat/contourwidth) { get; set; } | Returnerar eller sätter bredden på en 3D kontur. Läs/skriv Double. |
-| [Depth](../../aspose.slides/threedformat/depth) { get; set; } | Returnerar eller sätter djupet på en 3D form. Läs/skriv Double. |
-| [ExtrusionColor](../../aspose.slides/threedformat/extrusioncolor) { get; } | Returnerar eller sätter färgen på en extrudering. Endast läsning [`IColorFormat`](../icolorformat). |
-| [ExtrusionHeight](../../aspose.slides/threedformat/extrusionheight) { get; set; } | Returnerar eller sätter höjden på en extruderings effekt. Läs/skriv Double. |
-| [LightRig](../../aspose.slides/threedformat/lightrig) { get; } | Returnerar eller sätter typen av ett ljus. Endast läsning [`ILightRig`](../ilightrig). |
-| [Material](../../aspose.slides/threedformat/material) { get; set; } | Returnerar eller sätter typen av ett material. Läs/skriv [`MaterialPresetType`](../materialpresettype). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Tillåter att hämta bas-IPresentationComponent-gränssnittet. Skrivskyddad [`IPresentationComponent`](../ipresentationcomponent). |
+| [BevelBottom](../../aspose.slides/threedformat/bevelbottom) { get; } | Returnerar eller anger typen av en botten-3D-fasett. Skrivskyddad [`IShapeBevel`](../ishapebevel). |
+| [BevelTop](../../aspose.slides/threedformat/beveltop) { get; } | Returnerar eller anger typen av en övre-3D-fasett. Skrivskyddad [`IShapeBevel`](../ishapebevel). |
+| [Camera](../../aspose.slides/threedformat/camera) { get; } | Returnerar eller anger inställningarna för en kamera. Skrivskyddad [`ICamera`](../icamera). |
+| [ContourColor](../../aspose.slides/threedformat/contourcolor) { get; } | Returnerar eller anger färgen på en kontur. Skrivskyddad [`IColorFormat`](../icolorformat). |
+| [ContourWidth](../../aspose.slides/threedformat/contourwidth) { get; set; } | Returnerar eller anger bredden på en 3D-kontur. Läs/skriv Double. |
+| [Depth](../../aspose.slides/threedformat/depth) { get; set; } | Returnerar eller anger djupet på en 3D-form. Läs/skriv Double. |
+| [ExtrusionColor](../../aspose.slides/threedformat/extrusioncolor) { get; } | Returnerar eller anger färgen på en extrudering. Skrivskyddad [`IColorFormat`](../icolorformat). |
+| [ExtrusionHeight](../../aspose.slides/threedformat/extrusionheight) { get; set; } | Returnerar eller anger höjden på en extruderings-effekt. Läs/skriv Double. |
+| [LightRig](../../aspose.slides/threedformat/lightrig) { get; } | Returnerar eller anger typen av ett ljus. Skrivskyddad [`ILightRig`](../ilightrig). |
+| [Material](../../aspose.slides/threedformat/material) { get; set; } | Returnerar eller anger typen av ett material. Läs/skriv [`MaterialPresetType`](../materialpresettype). |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | Jämför med specificerat objekt. |
-| [GetEffective](../../aspose.slides/threedformat/geteffective)() | Hämtar effektiv 3-D formateringsdata med ärvda inställningar tillämpade. |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | Jämför med angivet objekt. |
+| [GetEffective](../../aspose.slides/threedformat/geteffective)() | Hämtar effektiv 3-D-formateringsdata med ärftlighet tillämpad. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Returnerar hash-kod. |
 
 ### Exempel
 
-Följande exempel visar hur man lägger till en 3D form i en PowerPoint-presentation.
+Följande exempel visar hur man lägger till en 3D-form i en PowerPoint-presentation.
 
 ```csharp
 [C#]
@@ -66,7 +66,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-Följande exempel visar hur man applicerar en Gradient-effekt på en 3D form i en PowerPoint-presentation.
+Följande exempel visar hur man applicerar en gradient-effekt på en 3D-form i en PowerPoint-presentation.
 
 ```csharp
 [C#]
@@ -96,7 +96,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-Följande exempel visar hur man applicerar en 3D-effekt på text. För att skapa 3D-text är det möjligt att använda WordArt-transformeringseffekten.
+Följande exempel visar hur man applicerar en 3D-effekt på text. För att skapa 3D-text är det möjligt att använda WordArt-transformeringseffekt.
 
 ```csharp
 [C#]
@@ -110,7 +110,7 @@ using (Presentation pres = new Presentation())
 	// Konfigurera FillFormat.FillType som FillType.NoFill
 	shape.FillFormat.FillType = FillType.NoFill;
     shape.LineFormat.FillFormat.FillType = FillType.NoFill;
-	// Konfigurera Portion av TextFrame och konfigurera egenskaperna för PortionFormat
+	// Konfigurera Portion i TextFrame och dess egenskaper i PortionFormat
 	Portion portion = (Portion)shape.TextFrame.Paragraphs[0].Portions[0];
     portion.PortionFormat.FillFormat.FillType = FillType.Pattern;
     portion.PortionFormat.FillFormat.PatternFormat.ForeColor.Color = Color.DarkOrange;
@@ -118,7 +118,7 @@ using (Presentation pres = new Presentation())
     portion.PortionFormat.FillFormat.PatternFormat.PatternStyle = PatternStyle.LargeGrid;
 	shape.TextFrame.Paragraphs[0].ParagraphFormat.DefaultPortionFormat.FontHeight = 128;
     ITextFrame textFrame = shape.TextFrame;
-    // Ställ in "Arch Up" WordArt-transformeffekt
+    // Konfigurera "Arch Up" WordArt-transformeringseffekt
     textFrame.TextFrameFormat.Transform = TextShapeType.ArchUp;
 	// Definiera ThreeDFormat-egenskaper för ITextFrame
 	textFrame.TextFrameFormat.ThreeDFormat.ExtrusionHeight = 3.5f;

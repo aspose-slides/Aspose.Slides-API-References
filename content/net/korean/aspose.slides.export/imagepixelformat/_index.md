@@ -3,7 +3,7 @@ title: ImagePixelFormat
 second_title: Aspose.Sildes .NET API 레퍼런스
 description: 생성된 이미지의 픽셀 형식을 지정합니다.
 type: docs
-weight: 4210
+weight: 4230
 url: /ko/aspose.slides.export/imagepixelformat/
 ---
 ## ImagePixelFormat 열거형
@@ -18,13 +18,13 @@ public enum ImagePixelFormat
 
 | 이름 | 값 | 설명 |
 | --- | --- | --- |
-| Format1bppIndexed | `1` | 픽셀당 1비트, 인덱스 형식. |
-| Format4bppIndexed | `4` | 픽셀당 4비트, 인덱스 형식. |
-| Format8bppIndexed | `8` | 픽셀당 8비트, 인덱스 형식. |
-| Format24bppRgb | `24` | 픽셀당 24비트, RGB. |
-| Format32bppArgb | `32` | 픽셀당 32비트, ARGB. |
+| Format1bppIndexed | `1` | 1비트/픽셀, 인덱스. |
+| Format4bppIndexed | `4` | 4비트/픽셀, 인덱스. |
+| Format8bppIndexed | `8` | 8비트/픽셀, 인덱스. |
+| Format24bppRgb | `24` | 24비트/픽셀, RGB. |
+| Format32bppArgb | `32` | 32비트/픽셀, ARGB. |
 
-### 참조
+### 참고
 
 * 네임스페이스 [Aspose.Slides.Export](../../aspose.slides.export)
 * 어셈블리 [Aspose.Slides](../../)

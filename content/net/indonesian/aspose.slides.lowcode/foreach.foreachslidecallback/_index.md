@@ -1,14 +1,14 @@
 ---
 title: ForEach.ForEachSlideCallback
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Callback yang akan dipanggil untuk setiap Slide./foreach/slide dalam Presentation../aspose.slides/presentation.
 type: docs
-weight: 7960
+weight: 7980
 url: /id/aspose.slides.lowcode/foreach.foreachslidecallback/
 ---
 ## ForEach.ForEachSlideCallback delegate
 
-Callback yang akan dipanggil untuk setiap [`Slide`](../foreach/slide) dalam [`Presentation`](../../aspose.slides/presentation).
+Callback yang akan dipanggil untuk setiap [`Slide`](../foreach/slide) di dalam [`Presentation`](../../aspose.slides/presentation).
 
 ```csharp
 public delegate void ForEachSlideCallback(Slide slide, int index);

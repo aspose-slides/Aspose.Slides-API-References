@@ -1,14 +1,14 @@
 ---
 title: Remove
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: ลบ DataPoint ออกจาก series ของ chart.
+description: ลบ DataPoint จากซีรีส์ของแผนภูมิ
 type: docs
-weight: 200
+weight: 240
 url: /th/aspose.slides.charts/ichartdatapoint/remove/
 ---
 ## IChartDataPoint.Remove เมธอด
 
-ลบ DataPoint ออกจาก series ของ chart.
+ลบ DataPoint จากซีรีส์ของแผนภูมิ
 
 ```csharp
 public void Remove()
@@ -18,7 +18,7 @@ public void Remove()
 
 | ข้อยกเว้น | เงื่อนไข |
 | --- | --- |
-| [PptxEditException](../../../aspose.slides/pptxeditexception) | เกิดข้อยกเว้นหาก DataPoint ถูกลบออกจาก series ของ chart ไปแล้ว. |
+| [PptxEditException](../../../aspose.slides/pptxeditexception) | จะถูกโยนหากจุดข้อมูลถูกลบออกจากซีรีส์ของแผนภูมิแล้ว |
 
 ### ดูเพิ่มเติม
 

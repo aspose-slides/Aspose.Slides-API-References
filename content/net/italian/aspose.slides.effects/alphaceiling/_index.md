@@ -1,14 +1,14 @@
 ---
 title: AlphaCeiling
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta un effetto Alpha Ceiling. I valori di opacità Alpha maggiori di zero sono modificati a 100. In altre parole, tutto ciò che è parzialmente opaco diventa completamente opaco.
+second_title: Aspose.Sildes per il riferimento API .NET
+description: Rappresenta un effetto Alpha Ceiling. I valori di opacità Alpha maggiori di zero vengono cambiati al 100. In altre parole, tutto ciò che è parzialmente opaco diventa completamente opaco.
 type: docs
-weight: 2850
+weight: 2870
 url: /it/aspose.slides.effects/alphaceiling/
 ---
-## AlphaCeiling classe
+## Classe AlphaCeiling
 
-Rappresenta un effetto Alpha Ceiling. I valori Alpha (opacità) maggiori di zero sono modificati al 100%. In altre parole, tutto ciò che è parzialmente opaco diventa interamente opaco.
+Rappresenta un effetto Alpha Ceiling. I valori Alpha (opacità) maggiori di zero vengono modificati al 100%. In altre parole, qualsiasi elemento parzialmente opaco diventa completamente opaco.
 
 ```csharp
 public sealed class AlphaCeiling : ImageTransformOperation, IAlphaCeiling
@@ -18,7 +18,7 @@ public sealed class AlphaCeiling : ImageTransformOperation, IAlphaCeiling
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Consente di ottenere l'interfaccia base IPresentationComponent. Solo lettura [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Consente di ottenere l'interfaccia base IPresentationComponent. Sola lettura [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Metodi
 
@@ -26,7 +26,7 @@ public sealed class AlphaCeiling : ImageTransformOperation, IAlphaCeiling
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/alphaceiling/equals)(object) | Determina se il [`AlphaCeiling`](../alphaceiling) specificato è uguale al [`AlphaCeiling`](../alphaceiling) corrente. |
 | [GetEffective](../../aspose.slides.effects/alphaceiling/geteffective)() | Ottiene i dati dell'effetto Alpha Ceiling effettivo con l'ereditarietà applicata. |
-| override [GetHashCode](../../aspose.slides.effects/alphaceiling/gethashcode)() | Funziona come funzione hash per un tipo particolare. |
+| override [GetHashCode](../../aspose.slides.effects/alphaceiling/gethashcode)() | Funge da funzione hash per un tipo particolare. |
 
 ### Vedi anche
 

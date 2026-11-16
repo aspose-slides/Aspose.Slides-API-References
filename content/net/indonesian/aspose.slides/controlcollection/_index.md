@@ -1,14 +1,14 @@
 ---
 title: ControlCollection
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Koleksi kontrol ActiveX.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Sebuah koleksi kontrol ActiveX.
 type: docs
-weight: 2700
+weight: 2720
 url: /id/aspose.slides/controlcollection/
 ---
 ## ControlCollection kelas
 
-Koleksi kontrol ActiveX.
+Sebuah koleksi kontrol ActiveX.
 
 ```csharp
 public class ControlCollection : IControlCollection
@@ -18,10 +18,10 @@ public class ControlCollection : IControlCollection
 
 | Nama | Deskripsi |
 | --- | --- |
-| [Count](../../aspose.slides/controlcollection/count) { get; } | Mengembalikan jumlah objek dalam koleksi. Baca-saja Int32. |
-| [IsSynchronized](../../aspose.slides/controlcollection/issynchronized) { get; } | Mengembalikan nilai yang menunjukkan apakah akses ke koleksi disinkronkan (aman terhadap thread). Baca-saja Boolean. |
+| [Count](../../aspose.slides/controlcollection/count) { get; } | Mengembalikan sejumlah objek dalam koleksi. Read-only Int32. |
+| [IsSynchronized](../../aspose.slides/controlcollection/issynchronized) { get; } | Mengembalikan nilai yang menunjukkan apakah akses ke koleksi disinkronkan (thread-safe). Read-only Boolean. |
 | [Item](../../aspose.slides/controlcollection/item) { get; } | Mengembalikan kontrol pada posisi yang ditentukan. |
-| [SyncRoot](../../aspose.slides/controlcollection/syncroot) { get; } | Mengembalikan akar sinkronisasi. Baca-saja Object. |
+| [SyncRoot](../../aspose.slides/controlcollection/syncroot) { get; } | Mengembalikan akar sinkronisasi. Read-only Object. |
 
 ## Metode
 
@@ -32,7 +32,7 @@ public class ControlCollection : IControlCollection
 | [CopyTo](../../aspose.slides/controlcollection/copyto)(Array, int) | Menyalin seluruh koleksi ke array yang ditentukan. |
 | [GetEnumerator](../../aspose.slides/controlcollection/getenumerator)() | Mengembalikan enumerator yang mengiterasi koleksi. |
 | [Remove](../../aspose.slides/controlcollection/remove)(IControl) | Menghapus kontrol ActiveX dari koleksi. |
-| [RemoveAt](../../aspose.slides/controlcollection/removeat)(int) | Menghapus kontrol ActiveX yang disimpan pada posisi tertentu dari koleksi. |
+| [RemoveAt](../../aspose.slides/controlcollection/removeat)(int) | Menghapus kontrol ActiveX yang disimpan pada posisi yang ditentukan dari koleksi. |
 
 ### Lihat Juga
 

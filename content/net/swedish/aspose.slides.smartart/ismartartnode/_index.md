@@ -1,9 +1,9 @@
 ---
 title: ISmartArtNode
-second_title: Aspose.Slides för .NET API-referens
+second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en nod i ett SmartArt-diagram.
 type: docs
-weight: 10550
+weight: 10570
 url: /sv/aspose.slides.smartart/ismartartnode/
 ---
 ## ISmartArtNode gränssnitt
@@ -18,7 +18,7 @@ public interface ISmartArtNode
 
 | Namn | Beskrivning |
 | --- | --- |
-| [BulletFillFormat](../../aspose.slides.smartart/ismartartnode/bulletfillformat) { get; } | Returnerar FillFormat-objektet som innehåller fyllningsformatinställningar för en nodpunkt. Obs: kan returnera null för vissa typer av SmartArt-layout som inte tillhandahåller punktlistor för noder. Skrivskyddad [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [BulletFillFormat](../../aspose.slides.smartart/ismartartnode/bulletfillformat) { get; } | Returnerar FillFormat-objektet som innehåller fyllningsformateringsegenskaper för en nodpunkt. Obs: kan returnera null för vissa typer av SmartArt-layout som inte tillhandahåller punkter för noder. Skrivskyddad [`IFillFormat`](../../aspose.slides/ifillformat). |
 | [ChildNodes](../../aspose.slides.smartart/ismartartnode/childnodes) { get; } | Returnerar samlingar av alla underordnade noder till den aktuella noden. Skrivskyddad [`ISmartArtNodeCollection`](../ismartartnodecollection). |
 | [IsAssistant](../../aspose.slides.smartart/ismartartnode/isassistant) { get; set; } | Returnerar eller anger noden som assistent. Läs/skriv Boolean. |
 | [IsHidden](../../aspose.slides.smartart/ismartartnode/ishidden) { get; } | Returnerar true om denna nod är en dold nod i datamodellen. Skrivskyddad Boolean. |

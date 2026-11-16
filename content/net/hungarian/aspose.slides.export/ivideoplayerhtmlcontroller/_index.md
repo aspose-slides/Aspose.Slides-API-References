@@ -1,9 +1,9 @@
 ---
 title: IVideoPlayerHtmlController
-second_title: Aspose.Sildes .NET-hez API referencia
+second_title: Aspose.Sildes .NET API referencia
 description: Ez az osztály lehetővé teszi a videó- és hangfájlok exportálását HTML-be
 type: docs
-weight: 4180
+weight: 4200
 url: /hu/aspose.slides.export/ivideoplayerhtmlcontroller/
 ---
 ## IVideoPlayerHtmlController interfész
@@ -19,9 +19,9 @@ public interface IVideoPlayerHtmlController : IHtmlFormattingController, ILinkEm
 
 | Név | Leírás |
 | --- | --- |
-| [AsIHtmlFormattingController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asihtmlformattingcontroller) { get; } | Lehetővé teszi a bázis IHtmlFormattingController interfész lekérését. Csak olvasható [`IHtmlFormattingController`](../ihtmlformattingcontroller). |
-| [AsILinkEmbedController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asilinkembedcontroller) { get; } | Lehetővé teszi a bázis ILinkEmbedController interfész lekérését. Csak olvasható [`ILinkEmbedController`](../ilinkembedcontroller). |
-| [AsISvgShapeFormattingController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asisvgshapeformattingcontroller) { get; } | Lehetővé teszi a bázis ISvgShapeFormattingController interfész lekérését. Csak olvasható [`ISvgShapeFormattingController`](../isvgshapeformattingcontroller). |
+| [AsIHtmlFormattingController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asihtmlformattingcontroller) { get; } | Lehetővé teszi az alap IHtmlFormattingController interfész lekérését. Csak olvasható [`IHtmlFormattingController`](../ihtmlformattingcontroller). |
+| [AsILinkEmbedController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asilinkembedcontroller) { get; } | Lehetővé teszi az alap ILinkEmbedController interfész lekérését. Csak olvasható [`ILinkEmbedController`](../ilinkembedcontroller). |
+| [AsISvgShapeFormattingController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asisvgshapeformattingcontroller) { get; } | Lehetővé teszi az alap ISvgShapeFormattingController interfész lekérését. Csak olvasható [`ISvgShapeFormattingController`](../isvgshapeformattingcontroller). |
 
 ### Lásd még
 

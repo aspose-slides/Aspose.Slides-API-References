@@ -1,14 +1,14 @@
 ---
 title: Value
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mengembalikan nilai titik data diagram. Hanya-baca IDoubleChartValueaspose.slides.charts/idoublechartvalue.
+description: Mendapatkan nilai dari titik data grafik. Hanya-baca IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
-weight: 160
+weight: 200
 url: /id/aspose.slides.charts/ichartdatapoint/value/
 ---
 ## IChartDataPoint.Value properti
 
-Mengembalikan nilai titik data diagram. Hanya-baca [`IDoubleChartValue`](../../idoublechartvalue).
+Mendapatkan nilai dari titik data diagram. Hanya-baca [`IDoubleChartValue`](../../idoublechartvalue).
 
 ```csharp
 public IDoubleChartValue Value { get; }

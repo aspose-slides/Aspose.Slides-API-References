@@ -1,9 +1,9 @@
 ---
 title: ITintEffectiveData
 second_title: Aspose.Sildes için .NET API Referansı
-description: Tint etkisini temsil eden değiştirilemez nesne. Etki renk değerlerini belirtilen miktarda renk tonuna doğru/tersine kaydırır.
+description: Değiştirilemez nesne, bir Tint etkisini temsil eder. Etki renk değerlerini belirtilen miktarda hue'a doğru/ters yönde kaydırır.
 type: docs
-weight: 3550
+weight: 3570
 url: /tr/aspose.slides.effects/itinteffectivedata/
 ---
 ## ITintEffectiveData arayüz
@@ -16,11 +16,11 @@ public interface ITintEffectiveData : IEffectEffectiveData
 
 ## Özellikler
 
-| İsim | Açıklama |
+| Name | Description |
 | --- | --- |
-| [Amount](../../aspose.slides.effects/itinteffectivedata/amount) { get; } | Etkinin miktarını döndürür. Salt-okunur Single. |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/itinteffectivedata/asieffecteffectivedata) { get; } | Temel IEffectEffectiveData arayüzüne erişim sağlar. Salt-okunur [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Hue](../../aspose.slides.effects/itinteffectivedata/hue) { get; } | Renk tonunu döndürür. Salt-okunur Single. |
+| [Amount](../../aspose.slides.effects/itinteffectivedata/amount) { get; } | Etkinin miktarını döndürür. Salt okunur Single. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/itinteffectivedata/asieffecteffectivedata) { get; } | Temel IEffectEffectiveData arayüzünü almanıza izin verir. Salt okunur [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Hue](../../aspose.slides.effects/itinteffectivedata/hue) { get; } | Rengi döndürür. Salt okunur Single. |
 
 ### Ayrıca Bakınız
 

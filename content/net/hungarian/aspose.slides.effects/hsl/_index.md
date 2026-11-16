@@ -1,14 +1,14 @@
 ---
 title: HSL
-second_title: Aspose.Sildes for .NET API-referencia
-description: Egy Hue/Saturation/Luminance effektust képvisel. A hue, a saturation és a luminance mindegyike a jelenlegi értékéhez képest állítható.
+second_title: Aspose.Sildes .NET API-referencia
+description: Hue/Saturation/Luminance effektust képvisel. Az árnyalat, a telítettség és a világosság mindegyike a jelenlegi értékhez képest állítható.
 type: docs
-weight: 3010
+weight: 3030
 url: /hu/aspose.slides.effects/hsl/
 ---
 ## HSL osztály
 
-Egy Hue/Saturation/Luminance effektust képvisel. A hue, a saturation és a luminance mindegyike a jelenlegi értékéhez képest állítható.
+A Hue/Saturation/Luminance effektust képviseli. A hue, saturation és luminance mindegyike a jelenlegi értékhez képest állítható.
 
 ```csharp
 public sealed class HSL : ImageTransformOperation, IHSL
@@ -18,13 +18,13 @@ public sealed class HSL : ImageTransformOperation, IHSL
 
 | Név | Leírás |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Lehetővé teszi az alap IPresentationComponent interfész lekérését. Csak olvasható [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Lehetővé teszi a base IPresentationComponent interface lekérését. Csak olvasható [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/hsl/equals)(object) | Megállapítja, hogy a megadott [`HSL`](../hsl) egyenlő-e a jelenlegi [`HSL`](../hsl). |
+| override [Equals](../../aspose.slides.effects/hsl/equals)(object) | Meghatározza, hogy a megadott [`HSL`](../hsl) egyenlő-e a jelenlegi [`HSL`](../hsl)-val. |
 | [GetEffective](../../aspose.slides.effects/hsl/geteffective)() | Lekéri a hatékony Hue/Saturation/Luminance effektus adatokat az öröklődés alkalmazásával. |
 | override [GetHashCode](../../aspose.slides.effects/hsl/gethashcode)() | Hash függvényként szolgál egy adott típushoz. |
 

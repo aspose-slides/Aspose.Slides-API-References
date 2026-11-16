@@ -3,10 +3,10 @@ title: IMasterThemeManager
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt Zugriff auf das Master-Theme der Präsentation bereit.
 type: docs
-weight: 11320
+weight: 11340
 url: /de/aspose.slides.theme/imasterthememanager/
 ---
-## IMasterThemeManager interface
+## IMasterThemeManager Schnittstelle
 
 Stellt Zugriff auf das Master-Theme der Präsentation bereit.
 
@@ -14,13 +14,13 @@ Stellt Zugriff auf das Master-Theme der Präsentation bereit.
 public interface IMasterThemeManager : IThemeManager
 ```
 
-## Properties
+## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
 | [AsIThemeManager](../../aspose.slides.theme/imasterthememanager/asithememanager) { get; } | Ermöglicht das Abrufen der Basis-IThemeManager-Schnittstelle. Nur lesbar [`IThemeManager`](../ithememanager). |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/imasterthememanager/isoverridethemeenabled) { get; set; } | Bestimmt, ob OverrideTheme das vererbte effektive Theme (Presentation.MasterTheme) überschreibt oder nicht. Lese-/Schreib-Boolean. |
-| [OverrideTheme](../../aspose.slides.theme/imasterthememanager/overridetheme) { get; set; } | Gibt das übersteuernde Theme-Objekt zurück. Lese-/Schreib-[`IMasterTheme`](../imastertheme). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/imasterthememanager/isoverridethemeenabled) { get; set; } | Bestimmt, ob OverrideTheme das geerbte effektive Theme (Presentation.MasterTheme) überschreibt oder nicht. Lese-/Schreib-Boolean. |
+| [OverrideTheme](../../aspose.slides.theme/imasterthememanager/overridetheme) { get; set; } | Gibt das überschreibende Theme-Objekt zurück. Lese-/Schreib-[`IMasterTheme`](../imastertheme). |
 
 ### Siehe auch
 

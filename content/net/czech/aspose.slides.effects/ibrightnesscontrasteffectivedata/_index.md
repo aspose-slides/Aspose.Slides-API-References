@@ -1,14 +1,14 @@
 ---
 title: IBrightnessContrastEffectiveData
-second_title: Aspose.Sildes pro .NET API Referenci
+second_title: Aspose.Sildes pro .NET API Reference
 description: Neměnný objekt, který představuje efekt BrightnessContrast. Upravuje jas a kontrast
 type: docs
-weight: 3210
+weight: 3230
 url: /cs/aspose.slides.effects/ibrightnesscontrasteffectivedata/
 ---
 ## IBrightnessContrastEffectiveData rozhraní
 
-Neměnný objekt, který představuje efekt BrightnessContrast. Upravit jas a kontrast
+Neměnný objekt, který představuje efekt BrightnessContrast. Upravuje jas a kontrast
 
 ```csharp
 public interface IBrightnessContrastEffectiveData : IEffectEffectiveData

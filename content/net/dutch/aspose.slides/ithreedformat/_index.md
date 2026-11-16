@@ -1,14 +1,14 @@
 ---
 title: IThreeDFormat
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Representeert 3-D-eigenschappen.
+description: Stelt 3-D-eigenschappen voor.
 type: docs
-weight: 7330
+weight: 7350
 url: /nl/aspose.slides/ithreedformat/
 ---
 ## IThreeDFormat interface
 
-Representeert 3-D-eigenschappen.
+Stelt 3-D-eigenschappen voor.
 
 ```csharp
 public interface IThreeDFormat : IThreeDParamSource
@@ -18,23 +18,23 @@ public interface IThreeDFormat : IThreeDParamSource
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIThreeDParamSource](../../aspose.slides/ithreedformat/asithreedparamsource) { get; } | Stelt in staat om de basis IThreeDParamSource interface op te halen. Alleen-lezen [`IThreeDParamSource`](../ithreedparamsource). |
-| [BevelBottom](../../aspose.slides/ithreedformat/bevelbottom) { get; } | Geeft of stelt het type van een onderste 3D-afschuining in. Alleen-lezen [`IShapeBevel`](../ishapebevel). |
-| [BevelTop](../../aspose.slides/ithreedformat/beveltop) { get; } | Geeft of stelt het type van een bovenste 3D-afschuining in. Alleen-lezen [`IShapeBevel`](../ishapebevel). |
-| [Camera](../../aspose.slides/ithreedformat/camera) { get; } | Geeft of stelt de instellingen van een camera in. Alleen-lezen [`ICamera`](../icamera). |
-| [ContourColor](../../aspose.slides/ithreedformat/contourcolor) { get; } | Geeft of stelt de kleur van een contour in. Alleen-lezen [`IColorFormat`](../icolorformat). |
-| [ContourWidth](../../aspose.slides/ithreedformat/contourwidth) { get; set; } | Geeft of stelt de breedte van een 3D-contour in. Lezen/Schrijven Double. |
-| [Depth](../../aspose.slides/ithreedformat/depth) { get; set; } | Geeft of stelt de diepte van een 3D-vorm in. Lezen/Schrijven Double. |
-| [ExtrusionColor](../../aspose.slides/ithreedformat/extrusioncolor) { get; } | Geeft of stelt de kleur van een extrusie in. Alleen-lezen [`IColorFormat`](../icolorformat). |
-| [ExtrusionHeight](../../aspose.slides/ithreedformat/extrusionheight) { get; set; } | Geeft of stelt de hoogte van een extrusie-effect in. Lezen/Schrijven Double. |
-| [LightRig](../../aspose.slides/ithreedformat/lightrig) { get; } | Geeft of stelt het type van een lichtbron in. Alleen-lezen [`ILightRig`](../ilightrig). |
-| [Material](../../aspose.slides/ithreedformat/material) { get; set; } | Geeft of stelt het type van een materiaal in. Lezen/Schrijven [`MaterialPresetType`](../materialpresettype). |
+| [AsIThreeDParamSource](../../aspose.slides/ithreedformat/asithreedparamsource) { get; } | Staat toe de basis IThreeDParamSource interface op te halen. Alleen-lezen [`IThreeDParamSource`](../ithreedparamsource). |
+| [BevelBottom](../../aspose.slides/ithreedformat/bevelbottom) { get; } | Geeft de type van een onderste 3D-helling terug of stelt deze in. Alleen-lezen [`IShapeBevel`](../ishapebevel). |
+| [BevelTop](../../aspose.slides/ithreedformat/beveltop) { get; } | Geeft de type van een bovenste 3D-helling terug of stelt deze in. Alleen-lezen [`IShapeBevel`](../ishapebevel). |
+| [Camera](../../aspose.slides/ithreedformat/camera) { get; } | Geeft de instellingen van een camera terug of stelt deze in. Alleen-lezen [`ICamera`](../icamera). |
+| [ContourColor](../../aspose.slides/ithreedformat/contourcolor) { get; } | Geeft de kleur van een contour terug of stelt deze in. Alleen-lezen [`IColorFormat`](../icolorformat). |
+| [ContourWidth](../../aspose.slides/ithreedformat/contourwidth) { get; set; } | Geeft de breedte van een 3D-contour terug of stelt deze in. Lezen/Schrijven Double. |
+| [Depth](../../aspose.slides/ithreedformat/depth) { get; set; } | Geeft de diepte van een 3D-vorm terug of stelt deze in. Lezen/Schrijven Double. |
+| [ExtrusionColor](../../aspose.slides/ithreedformat/extrusioncolor) { get; } | Geeft de kleur van een extrusie terug of stelt deze in. Alleen-lezen [`IColorFormat`](../icolorformat). |
+| [ExtrusionHeight](../../aspose.slides/ithreedformat/extrusionheight) { get; set; } | Geeft de hoogte van een extrusie-effect terug of stelt deze in. Lezen/Schrijven Double. |
+| [LightRig](../../aspose.slides/ithreedformat/lightrig) { get; } | Geeft de type van een licht terug of stelt deze in. Alleen-lezen [`ILightRig`](../ilightrig). |
+| [Material](../../aspose.slides/ithreedformat/material) { get; set; } | Geeft de type van een materiaal terug of stelt deze in. Lezen/Schrijven [`MaterialPresetType`](../materialpresettype). |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| [GetEffective](../../aspose.slides/ithreedformat/geteffective)() | Haalt effectieve 3-D-opmaakgegevens op met de overerving toegepast. |
+| [GetEffective](../../aspose.slides/ithreedformat/geteffective)() | Haalt de effectieve 3-D-opmaakgegevens op met de toegepaste overerving. |
 
 ### Zie ook
 

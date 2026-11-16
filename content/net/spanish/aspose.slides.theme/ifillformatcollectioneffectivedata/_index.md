@@ -3,7 +3,7 @@ title: IFillFormatCollectionEffectiveData
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Objeto inmutable que representa una colección de solo lectura de formatos de relleno efectivos.
 type: docs
-weight: 11240
+weight: 11260
 url: /es/aspose.slides.theme/ifillformatcollectioneffectivedata/
 ---
 ## IFillFormatCollectionEffectiveData interfaz
@@ -18,7 +18,7 @@ public interface IFillFormatCollectionEffectiveData : IGenericCollection<IFillFo
 
 | Nombre | Descripción |
 | --- | --- |
-| [Item](../../aspose.slides.theme/ifillformatcollectioneffectivedata/item) { get; } | Obtiene el elemento en el índice especificado. Sólo lectura [`IFillFormatEffectiveData`](../../aspose.slides/ifillformateffectivedata). |
+| [Item](../../aspose.slides.theme/ifillformatcollectioneffectivedata/item) { get; } | Obtiene el elemento en el índice especificado. Solo lectura [`IFillFormatEffectiveData`](../../aspose.slides/ifillformateffectivedata). |
 
 ### Observaciones
 

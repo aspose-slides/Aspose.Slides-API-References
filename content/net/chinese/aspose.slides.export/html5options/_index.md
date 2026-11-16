@@ -3,7 +3,7 @@ title: Html5Options
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示 HTML5 导出选项。
 type: docs
-weight: 3860
+weight: 3880
 url: /zh/aspose.slides.export/html5options/
 ---
 ## Html5Options 类
@@ -24,18 +24,18 @@ public class Html5Options : SaveOptions, IHtml5Options
 
 | 名称 | 描述 |
 | --- | --- |
-| [AnimateShapes](../../aspose.slides.export/html5options/animateshapes) { get; set; } | 返回或设置形状动画选项。读/写 Boolean。 |
-| [AnimateTransitions](../../aspose.slides.export/html5options/animatetransitions) { get; set; } | 返回或设置过渡动画选项。读/写 Boolean。 |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | 返回或设置在未找到源字体时使用的字体。读写 String。 |
-| [DisableFontLigatures](../../aspose.slides.export/html5options/disablefontligatures) { get; set; } | 获取或设置一个值，指示文本是否在渲染时不使用连字。设置为 `true` 时，渲染输出将禁用连字。默认情况下，此属性的值为 `false`。 |
-| [EmbedImages](../../aspose.slides.export/html5options/embedimages) { get; set; } | 返回或设置图像嵌入选项。读/写 Boolean。 |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | 返回或设置渐变的视觉样式。读/写 [`GradientStyle`](../../aspose.slides/gradientstyle)。 |
-| [OutputPath](../../aspose.slides.export/html5options/outputpath) { get; set; } | 确定外部资源应该存储的位置。读/写 String。 |
+| [AnimateShapes](../../aspose.slides.export/html5options/animateshapes) { get; set; } | 返回或设置形状动画选项。可读写 Boolean。 |
+| [AnimateTransitions](../../aspose.slides.export/html5options/animatetransitions) { get; set; } | 返回或设置过渡动画选项。可读写 Boolean。 |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | 返回或设置在未找到源字体时使用的字体。可读写 String。 |
+| [DisableFontLigatures](../../aspose.slides.export/html5options/disablefontligatures) { get; set; } | 获取或设置一个值，指示文本是否在渲染时不使用连字。设置为 `true` 时，连字将在渲染输出中被禁用。默认情况下，此属性设置为 `false`。 |
+| [EmbedImages](../../aspose.slides.export/html5options/embedimages) { get; set; } | 返回或设置图像嵌入选项。可读写 Boolean。 |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | 返回或设置渐变的视觉样式。可读写 [`GradientStyle`](../../aspose.slides/gradientstyle)。 |
+| [OutputPath](../../aspose.slides.export/html5options/outputpath) { get; set; } | 确定外部资源应存储的位置。可读写 String。 |
 | [PicturesCompression](../../aspose.slides.export/html5options/picturescompression) { get; set; } | 表示图片压缩级别 |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 表示用于保存进度更新（百分比）的回调对象。参见 [`IProgressCallback`](../../aspose.slides/iprogresscallback)。 |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | 指定在保存演示文稿时是否跳过带有 JavaScript 调用的超链接。读/写 Boolean。默认值为 **false**。 |
-| [SlidesLayoutOptions](../../aspose.slides.export/html5options/slideslayoutoptions) { get; set; } | 获取或设置导出演示文稿 [`ISlidesLayoutOptions`](../islideslayoutoptions) 时幻灯片在页面上的放置模式。 |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 返回或设置一个接收警告并决定加载过程是继续还是中止的对象。读/写 [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)。 |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 表示用于以百分比保存进度更新的回调对象。参见 [`IProgressCallback`](../../aspose.slides/iprogresscallback)。 |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | 指定在保存演示文稿时是否跳过带有 JavaScript 调用的超链接。可读写 Boolean。默认值为 **false**。 |
+| [SlidesLayoutOptions](../../aspose.slides.export/html5options/slideslayoutoptions) { get; set; } | 获取或设置在导出演示文稿 [`ISlidesLayoutOptions`](../islideslayoutoptions) 时幻灯片在页面上的放置模式。 |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 返回或设置接收警告并决定加载过程是继续还是中止的对象。可读写 [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)。 |
 
 ### 示例
 

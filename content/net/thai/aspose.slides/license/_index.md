@@ -1,14 +1,14 @@
 ---
 title: License
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: ให้เมธอดเพื่อทำไลเซนส์คอมโพเนนต์
+second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+description: ให้เมธอดเพื่อให้ลิขสิทธิ์คอมโพเนนต์.
 type: docs
-weight: 7680
+weight: 7700
 url: /th/aspose.slides/license/
 ---
 ## License คลาส
 
-ให้เมธอดเพื่อทำไลเซนส์คอมโพเนนต์
+ให้เมธอดเพื่อให้ลิขสิทธิ์คอมโพเนนต์
 
 ```csharp
 public class License : ILicense
@@ -18,20 +18,20 @@ public class License : ILicense
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [License](license)() | สร้างอินสแตนซ์ใหม่ของคลาสนี้ |
+| [License](license)() | กำหนดค่าเริ่มต้นของอินสแตนซ์ใหม่ของคลาสนี้. |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [IsLicensed](../../aspose.slides/license/islicensed)() | ตรวจสอบว่าไลเซนส์ได้ถูกนำไปใช้กับคอมโพเนนต์หรือไม่ |
-| [ResetLicense](../../aspose.slides/license/resetlicense)() | รีเซ็ตไลเซนส์ |
-| [SetLicense](../../aspose.slides/license/setlicense#setlicense)(Stream) | ทำไลเซนส์คอมโพเนนต์ |
-| [SetLicense](../../aspose.slides/license/setlicense#setlicense_1)(string) | ทำไลเซนส์คอมโพเนนต์ |
+| [IsLicensed](../../aspose.slides/license/islicensed)() | ตรวจสอบว่าลิขสิทธิ์ถูกนำไปใช้กับคอมโพเนนต์หรือไม่ |
+| [ResetLicense](../../aspose.slides/license/resetlicense)() | รีเซ็ตลิขสิทธิ์ |
+| [SetLicense](../../aspose.slides/license/setlicense#setlicense)(Stream) | ให้ลิขสิทธิ์กับคอมโพเนนต์. |
+| [SetLicense](../../aspose.slides/license/setlicense#setlicense_1)(string) | ให้ลิขสิทธิ์กับคอมโพเนนต์. |
 
 ### ตัวอย่าง
 
-ในตัวอย่างนี้ จะพยายามค้นหาไฟล์ไลเซนส์ชื่อ MyLicense.lic ในโฟลเดอร์ที่บรรจุคอมโพเนนต์, ในโฟลเดอร์ที่บรรจุแอสเซมบลีที่เรียกใช้งาน, ในโฟลเดอร์ของแอสเซมบลีหลักแล้วจึงในทรัพยากรฝังของแอสเซมบลีที่เรียกใช้งาน
+ในตัวอย่างนี้ จะพยายามหาไฟล์ลิขสิทธิ์ที่ชื่อ MyLicense.lic ในโฟลเดอร์ที่มีคอมโพเนนต์, ในโฟลเดอร์ที่มีแอสเซมบลีที่เรียก, ในโฟลเดอร์ของแอสเซมบลีเริ่มต้น และจากทรัพยากรฝังของแอสเซมบลีที่เรียก
 
 ```csharp
 [C#]

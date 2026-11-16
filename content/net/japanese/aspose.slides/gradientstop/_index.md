@@ -1,9 +1,9 @@
 ---
 title: GradientStop
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: グラデーション形式を表します。
 type: docs
-weight: 5020
+weight: 5040
 url: /ja/aspose.slides/gradientstop/
 ---
 ## GradientStop クラス
@@ -18,9 +18,9 @@ public sealed class GradientStop : PVIObject, IGradientStop
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | ベース IPresentationComponent インターフェイスを取得できます。読み取り専用 [`IPresentationComponent`](../ipresentationcomponent)。 |
-| [Color](../../aspose.slides/gradientstop/color) { get; } | グラデーションストップの色を返します。読み取り専用 [`IColorFormat`](../icolorformat)。 |
-| [Position](../../aspose.slides/gradientstop/position) { get; set; } | グラデーションストップの位置 (0..1) を取得または設定します。読み書き Single。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | ベースの IPresentationComponent インターフェイスを取得できます。読み取り専用 [`IPresentationComponent`](../ipresentationcomponent)。 |
+| [Color](../../aspose.slides/gradientstop/color) { get; } | グラデーション ストップの色を返します。読み取り専用 [`IColorFormat`](../icolorformat)。 |
+| [Position](../../aspose.slides/gradientstop/position) { get; set; } | グラデーション ストップの位置 (0..1) を取得または設定します。読み書き Single。 |
 
 ## メソッド
 

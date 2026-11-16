@@ -3,10 +3,10 @@ title: TextStyle
 second_title: Aspose.Sildes için .NET API Referansı
 description: Bu sınıf, metin stili biçimlendirme özelliklerini içerir.
 type: docs
-weight: 11000
+weight: 11020
 url: /tr/aspose.slides/textstyle/
 ---
-## TextStyle sınıfı
+## TextStyle sınıf
 
 Bu sınıf, metin stili biçimlendirme özelliklerini içerir.
 
@@ -18,7 +18,7 @@ public sealed class TextStyle : PVIObject, ITextStyle
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arayüzünü almaya izin verir. Salt okunur [`IPresentationComponent`](../ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arabirimini almayı sağlar. Salt okunur [`IPresentationComponent`](../ipresentationcomponent). |
 | [DefaultParagraphFormat](../../aspose.slides/textstyle/defaultparagraphformat) { get; } | Varsayılan paragraf özellikleri. Salt okunur [`IParagraphFormat`](../iparagraphformat). |
 
 ## Yöntemler
@@ -26,9 +26,9 @@ public sealed class TextStyle : PVIObject, ITextStyle
 | Ad | Açıklama |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Belirtilen nesneyle karşılaştırır. |
-| [GetEffective](../../aspose.slides/textstyle/geteffective)() | Kalıtım uygulanmış etkili metin stili biçimlendirme verilerini alır. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Karma kodu döndürür. |
-| [GetLevel](../../aspose.slides/textstyle/getlevel)(int) | Stil seviyesi mevcut ise döndürür, aksi takdirde null döndürür. |
+| [GetEffective](../../aspose.slides/textstyle/geteffective)() | Uygulanan kalıtımla etkili metin stili biçimlendirme verilerini alır. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Hash kodunu döndürür. |
+| [GetLevel](../../aspose.slides/textstyle/getlevel)(int) | Stil seviyesi mevcutsa onu döndürür, aksi takdirde null döndürür. |
 
 ### Ayrıca Bakınız
 

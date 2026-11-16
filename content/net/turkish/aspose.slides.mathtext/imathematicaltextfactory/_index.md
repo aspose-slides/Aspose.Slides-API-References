@@ -3,25 +3,25 @@ title: IMathematicalTextFactory
 second_title: Aspose.Sildes için .NET API Referansı
 description: MathematicalText öğesi oluşturmayı sağlar
 type: docs
-weight: 8520
+weight: 8540
 url: /tr/aspose.slides.mathtext/imathematicaltextfactory/
 ---
-## IMathematicalTextFactory arayüzü
+## IMathematicalTextFactory arayüz
 
-MathematicalText öğesi oluşturmayı sağlar
+MathematicalText öğesini oluşturmayı sağlar
 
 ```csharp
 public interface IMathematicalTextFactory
 ```
 
-## Yöntemler
+## Metotlar
 
 | Ad | Açıklama |
 | --- | --- |
-| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext)() | Boş matematiksel metin öğesi oluştur |
-| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_1)(char) | Belirtilen değere sahip matematiksel metin öğesi oluştur |
-| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_2)(string) | Belirtilen değere sahip boş matematiksel metin öğesi oluştur |
-| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_3)(string, IPortionFormat) | Belirtilen değer ve biçimlendirme özelliklerine sahip boş matematiksel metin öğesi oluştur |
+| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext)() | Boş bir MathematicalText öğesi oluştur |
+| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_1)(char) | Belirtilen değerle bir MathematicalText öğesi oluştur |
+| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_2)(string) | Belirtilen değerle boş bir MathematicalText öğesi oluştur |
+| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_3)(string, IPortionFormat) | Belirtilen değer ve biçimlendirme özellikleriyle boş bir MathematicalText öğesi oluştur |
 
 ### Açıklamalar
 

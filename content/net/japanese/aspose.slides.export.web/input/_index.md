@@ -3,10 +3,10 @@ title: Input
 second_title: Aspose.Sildes for .NET API リファレンス
 description: 入力要素テンプレートのコレクションを表します。
 type: docs
-weight: 4630
+weight: 4650
 url: /ja/aspose.slides.export.web/input/
 ---
-## Input クラス
+## 入力クラス
 
 入力要素（テンプレート）のコレクションを表します。
 

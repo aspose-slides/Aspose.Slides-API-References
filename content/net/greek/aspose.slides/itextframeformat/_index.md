@@ -1,12 +1,12 @@
 ---
 title: ITextFrameFormat
-second_title: Aspose.Sildes για .NET API Αναφορά
+second_title: Aspose.Sildes για την .NET Αναφορά API
 description: Περιέχει τις ιδιότητες μορφοποίησης των TextFrames.
 type: docs
-weight: 7280
+weight: 7300
 url: /el/aspose.slides/itextframeformat/
 ---
-## ITextFrameFormat διεπαφή
+## ITextFrameFormat διασύνδεση
 
 Περιέχει τις ιδιότητες μορφοποίησης του TextFrame.
 
@@ -18,32 +18,32 @@ public interface ITextFrameFormat
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [AnchoringType](../../aspose.slides/itextframeformat/anchoringtype) { get; set; } | Επιστρέφει ή ορίζει το κείμενο κατακόρυφου άγκυρας σε ένα TextFrame. Ανάγνωση/εγγραφή [`TextAnchorType`](../textanchortype). |
+| [AnchoringType](../../aspose.slides/itextframeformat/anchoringtype) { get; set; } | Επιστρέφει ή ορίζει το κατακόρυφο κείμενο άγκυρας σε ένα TextFrame. Ανάγνωση/εγγραφή [`TextAnchorType`](../textanchortype). |
 | [AutofitType](../../aspose.slides/itextframeformat/autofittype) { get; set; } | Επιστρέφει ή ορίζει τη λειτουργία αυτόματης προσαρμογής του κειμένου. Ανάγνωση/εγγραφή [`TextAutofitType`](../textautofittype). |
-| [CenterText](../../aspose.slides/itextframeformat/centertext) { get; set; } | Εάν NullableBool.True τότε το κείμενο πρέπει να κεντραριστεί στην περιοχή οριζόντια. Ανάγνωση/εγγραφή [`NullableBool`](../nullablebool). |
-| [ColumnCount](../../aspose.slides/itextframeformat/columncount) { get; set; } | Επιστρέφει ή ορίζει τον αριθμό των στηλών στην περιοχή κειμένου. Αυτή η τιμή πρέπει να είναι θετικός αριθμός. Διαφορετικά, η τιμή θα οριστεί σε μηδέν. Η τιμή 0 σημαίνει ακαθόριστη τιμή. Ανάγνωση/εγγραφή Int32. |
-| [ColumnSpacing](../../aspose.slides/itextframeformat/columnspacing) { get; set; } | Επιστρέφει ή ορίζει το διάστημα μεταξύ των στηλών κειμένου στην περιοχή κειμένου (σε σημεία). Αυτό εφαρμόζεται μόνο όταν υπάρχει περισσότερη από 1 στήλη. Αυτή η τιμή πρέπει να είναι θετικός αριθμός. Διαφορετικά, η τιμή θα οριστεί σε μηδέν. Ανάγνωση/εγγραφή Double. |
-| [KeepTextFlat](../../aspose.slides/itextframeformat/keeptextflat) { get; set; } | Επιστρέφει ή ορίζει τη διατήρηση του κειμένου εντελώς εκτός της 3D σκηνής. Ανάγνωση/εγγραφή Boolean. |
-| [MarginBottom](../../aspose.slides/itextframeformat/marginbottom) { get; set; } | Επιστρέφει ή ορίζει το κάτω περιθώριο (σημεία) σε ένα TextFrame. Ανάγνωση/εγγραφή Double. |
-| [MarginLeft](../../aspose.slides/itextframeformat/marginleft) { get; set; } | Επιστρέφει ή ορίζει το αριστερό περιθώριο (σημεία) σε ένα TextFrame. Ανάγνωση/εγγραφή Double. |
-| [MarginRight](../../aspose.slides/itextframeformat/marginright) { get; set; } | Επιστρέφει ή ορίζει το δεξιό περιθώριο (σημεία) σε ένα TextFrame. Ανάγνωση/εγγραφή Double. |
-| [MarginTop](../../aspose.slides/itextframeformat/margintop) { get; set; } | Επιστρέφει ή ορίζει το άνω περιθώριο (σημεία) σε ένα TextFrame. Ανάγνωση/εγγραφή Double. |
-| [RotationAngle](../../aspose.slides/itextframeformat/rotationangle) { get; set; } | Καθορίζει την προσαρμοσμένη περιστροφή που εφαρμόζεται στο κείμενο εντός του πλαισίου. Εάν δεν καθοριστεί, χρησιμοποιείται η περιστροφή του συνοδευτικού σχήματος. Εάν καθοριστεί, η περιστροφή εφαρμόζεται ανεξάρτητα από το σχήμα. Το αποτέλεσμα της οπτικής περιστροφής του κειμένου συνοψίζεται από αυτήν την ιδιότητα και τον προεπιλεγμένο κατακόρυφο τύπο στην ιδιότητα TextVerticalType. Ανάγνωση/εγγραφή Single. |
-| [TextStyle](../../aspose.slides/itextframeformat/textstyle) { get; } | Επιστρέφει το στυλ του κειμένου. Μόνο για ανάγνωση [`ITextStyle`](../itextstyle). |
-| [TextVerticalType](../../aspose.slides/itextframeformat/textverticaltype) { get; set; } | Καθορίζει τον προσανατολισμό του κειμένου. Η προκύπτουσα τιμή της οπτικής περιστροφής του κειμένου συνοψίζεται από αυτήν την ιδιότητα και τη γωνία στην ιδιότητα RotationAngle. Ανάγνωση/εγγραφή [`TextVerticalType`](../textverticaltype). |
-| [ThreeDFormat](../../aspose.slides/itextframeformat/threedformat) { get; } | Επιστρέφει το αντικείμενο ThreeDFormat που αντιπροσωπεύει τις ιδιότητες εφέ 3δ για ένα κείμενο. Μόνο για ανάγνωση [`IThreeDFormat`](../ithreedformat). |
-| [Transform](../../aspose.slides/itextframeformat/transform) { get; set; } | Επιστρέφει ή ορίζει το σχήμα περιτύλιξης κειμένου. Ανάγνωση/εγγραφή [`TextShapeType`](../textshapetype). |
-| [WrapText](../../aspose.slides/itextframeformat/wraptext) { get; set; } | **True** αν το κείμενο περιτυλίγεται στα περιθώρια του TextFrame. Ανάγνωση/εγγραφή [`NullableBool`](../nullablebool). |
+| [CenterText](../../aspose.slides/itextframeformat/centertext) { get; set; } | Εάν NullableBool.True, τότε το κείμενο πρέπει να κεντράρεται οριζόντια στο πλαίσιο. Ανάγνωση/εγγραφή [`NullableBool`](../nullablebool). |
+| [ColumnCount](../../aspose.slides/itextframeformat/columncount) { get; set; } | Επιστρέφει ή ορίζει τον αριθμό των στηλών στην περιοχή κειμένου. Η τιμή αυτή πρέπει να είναι θετικός αριθμός. Διαφορετικά, η τιμή θα οριστεί σε μηδέν. Η τιμή 0 σημαίνει ακαθόριστη τιμή. Ανάγνωση/εγγραφή Int32. |
+| [ColumnSpacing](../../aspose.slides/itextframeformat/columnspacing) { get; set; } | Επιστρέφει ή ορίζει το διάστημα μεταξύ των στηλών κειμένου στην περιοχή κειμένου (σε σημεία). Αυτό θα πρέπει να ισχύει μόνο όταν υπάρχει περισσότερη από 1 στήλη. Η τιμή αυτή πρέπει να είναι θετικός αριθμός. Διαφορετικά, η τιμή θα οριστεί σε μηδέν. Ανάγνωση/εγγραφή Double. |
+| [KeepTextFlat](../../aspose.slides/itextframeformat/keeptextflat) { get; set; } | Επιστρέφει ή ορίζει τη διατήρηση του κειμένου έξω από τη σκηνή 3D εντελώς. Ανάγνωση/εγγραφή Boolean. |
+| [MarginBottom](../../aspose.slides/itextframeformat/marginbottom) { get; set; } | Επιστρέφει ή ορίζει το κάτω περιθώριο (σε σημεία) σε ένα TextFrame. Ανάγνωση/εγγραφή Double. |
+| [MarginLeft](../../aspose.slides/itextframeformat/marginleft) { get; set; } | Επιστρέφει ή ορίζει το αριστερό περιθώριο (σε σημεία) σε ένα TextFrame. Ανάγνωση/εγγραφή Double. |
+| [MarginRight](../../aspose.slides/itextframeformat/marginright) { get; set; } | Επιστρέφει ή ορίζει το δεξί περιθώριο (σε σημεία) σε ένα TextFrame. Ανάγνωση/εγγραφή Double. |
+| [MarginTop](../../aspose.slides/itextframeformat/margintop) { get; set; } | Επιστρέφει ή ορίζει το άνω περιθώριο (σε σημεία) σε ένα TextFrame. Ανάγνωση/εγγραφή Double. |
+| [RotationAngle](../../aspose.slides/itextframeformat/rotationangle) { get; set; } | Καθορίζει την προσαρμοσμένη περιστροφή που εφαρμόζεται στο κείμενο μέσα στο πλαίσιο. Εάν δεν καθοριστεί, χρησιμοποιείται η περιστροφή του συνοδευτικού σχήματος. Εάν καθοριστεί, τότε εφαρμόζεται ανεξάρτητα από το σχήμα. Δηλαδή το σχήμα μπορεί να έχει περιστροφή επιπρόσθετα από αυτή που εφαρμόζεται στο κείμενο. Η τελική τιμή της οπτικής περιστροφής του κειμένου συνοψίζεται από αυτήν την ιδιότητα και τον προεπιλεγμένο κατακόρυφο τύπο στην ιδιότητα TextVerticalType. Ανάγνωση/εγγραφή Single. |
+| [TextStyle](../../aspose.slides/itextframeformat/textstyle) { get; } | Επιστρέφει το στυλ του κειμένου. Μόνο-ανάγνωση [`ITextStyle`](../itextstyle). |
+| [TextVerticalType](../../aspose.slides/itextframeformat/textverticaltype) { get; set; } | Καθορίζει τον προσανατολισμό του κειμένου. Η τελική τιμή της οπτικής περιστροφής του κειμένου συνοψίζεται από αυτήν την ιδιότητα και την προσαρμοσμένη γωνία στην ιδιότητα RotationAngle. Ανάγνωση/εγγραφή [`TextVerticalType`](../textverticaltype). |
+| [ThreeDFormat](../../aspose.slides/itextframeformat/threedformat) { get; } | Επιστρέφει το αντικείμενο ThreeDFormat που αντιπροσωπεύει τις ιδιότητες τρισδιάστατης επίδρασης για ένα κείμενο. Μόνο-ανάγνωση [`IThreeDFormat`](../ithreedformat). |
+| [Transform](../../aspose.slides/itextframeformat/transform) { get; set; } | Επιστρέφει ή ορίζει το σχήμα αναδίπλωσης κειμένου. Ανάγνωση/εγγραφή [`TextShapeType`](../textshapetype). |
+| [WrapText](../../aspose.slides/itextframeformat/wraptext) { get; set; } | **True** εάν το κείμενο αναδιπλώνεται στα περιθώρια του TextFrame. Ανάγνωση/εγγραφή [`NullableBool`](../nullablebool). |
 
 ## Μέθοδοι
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [GetEffective](../../aspose.slides/itextframeformat/geteffective)() | Λαμβάνει τα αποτελεσματικά δεδομένα μορφοποίησης του πλαισίου κειμένου με την εφαρμόμενη κληρονομικότητα. |
+| [GetEffective](../../aspose.slides/itextframeformat/geteffective)() | Επιστρέφει δεδομένα μορφοποίησης του αποτελεσματικού πλαισίου κειμένου με την εφαρμογή της κληρονομικότητας. |
 
 ### Δείτε επίσης
 
 * χώρο ονομάτων [Aspose.Slides](../../aspose.slides)
-* συναρμολόγηση [Aspose.Slides](../../)
+* συγκρότηση [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

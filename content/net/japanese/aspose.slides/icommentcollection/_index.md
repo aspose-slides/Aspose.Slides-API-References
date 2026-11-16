@@ -1,14 +1,14 @@
 ---
 title: ICommentCollection
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 1 人の作成者のコメントのコレクションを表します。
+description: 1 人の作成者のコメントコレクションを表します。
 type: docs
-weight: 5590
+weight: 5610
 url: /ja/aspose.slides/icommentcollection/
 ---
 ## ICommentCollection インターフェイス
 
-1 人の作成者のコメントのコレクションを表します。
+1 人の作成者のコメントコレクションを表します。
 
 ```csharp
 public interface ICommentCollection : IGenericCollection<IComment>
@@ -27,12 +27,12 @@ public interface ICommentCollection : IGenericCollection<IComment>
 | [AddComment](../../aspose.slides/icommentcollection/addcomment)(string, ISlide, PointF, DateTime) | コレクションの末尾に新しいコメントを追加します。 |
 | [AddModernComment](../../aspose.slides/icommentcollection/addmoderncomment)(string, ISlide, IShape, PointF, DateTime) | コレクションの末尾に新しいモダンコメントを追加します。 |
 | [Clear](../../aspose.slides/icommentcollection/clear)() | コレクションからすべてのコメントを削除します。 |
-| [InsertComment](../../aspose.slides/icommentcollection/insertcomment)(int, string, ISlide, PointF, DateTime) | 指定されたインデックスに新しいコメントをコレクションに挿入します。 |
-| [InsertModernComment](../../aspose.slides/icommentcollection/insertmoderncomment)(int, string, ISlide, IShape, PointF, DateTime) | 指定されたインデックスに新しいモダンコメントをコレクションに挿入します。 |
-| [Remove](../../aspose.slides/icommentcollection/remove)(IComment) | コレクション内の指定されたコメントの最初の出現を削除します。 |
+| [InsertComment](../../aspose.slides/icommentcollection/insertcomment)(int, string, ISlide, PointF, DateTime) | 指定されたインデックスに新しいコメントをコレクションへ挿入します。 |
+| [InsertModernComment](../../aspose.slides/icommentcollection/insertmoderncomment)(int, string, ISlide, IShape, PointF, DateTime) | 指定されたインデックスに新しいモダンコメントをコレクションへ挿入します。 |
+| [Remove](../../aspose.slides/icommentcollection/remove)(IComment) | コレクション内で指定されたコメントの最初の出現を削除します。 |
 | [RemoveAt](../../aspose.slides/icommentcollection/removeat)(int) | コレクション内の指定されたインデックスの要素を削除します。 |
-| [ToArray](../../aspose.slides/icommentcollection/toarray#toarray)() | すべてのコメントを含む配列を作成して返します。 |
-| [ToArray](../../aspose.slides/icommentcollection/toarray#toarray_1)(int, int) | 指定された範囲のすべてのコメントを含む配列を作成して返します。 |
+| [ToArray](../../aspose.slides/icommentcollection/toarray#toarray)() | すべてのコメントを含む配列を作成し、返します。 |
+| [ToArray](../../aspose.slides/icommentcollection/toarray#toarray_1)(int, int) | 指定された範囲のすべてのコメントを含む配列を作成し、返します。 |
 
 ### 参照
 

@@ -1,9 +1,9 @@
 ---
 title: TagCollection
-second_title: Aspose.Sildes a .NET API Referenciához
+second_title: Aspose.Sildes .NET API referencia
 description: A címkék (felhasználó által definiált karakterlánc párok) gyűjteményét képviseli
 type: docs
-weight: 10890
+weight: 10910
 url: /hu/aspose.slides/tagcollection/
 ---
 ## TagCollection osztály
@@ -19,8 +19,8 @@ public sealed class TagCollection : ITagCollection
 | Név | Leírás |
 | --- | --- |
 | [Count](../../aspose.slides/tagcollection/count) { get; } | Visszaadja a címkék számát a gyűjteményben. Csak olvasható Int32. |
-| [IsSynchronized](../../aspose.slides/tagcollection/issynchronized) { get; } | Visszaad egy értéket, amely jelzi, hogy a gyűjtemény hozzáférése szinkronizált (szálbiztos)-e. Csak olvasható Boolean. |
-| [Item](../../aspose.slides/tagcollection/item) { get; set; } | Visszaadja vagy beállítja egy címke kulcs-érték párját. |
+| [IsSynchronized](../../aspose.slides/tagcollection/issynchronized) { get; } | Visszaad egy értéket, amely jelzi, hogy a gyűjteményhez való hozzáférés szinkronizált (szálbiztos). Csak olvasható Boolean. |
+| [Item](../../aspose.slides/tagcollection/item) { get; set; } | Visszaadja vagy állítja be egy címke kulcs-érték párját. |
 | [SyncRoot](../../aspose.slides/tagcollection/syncroot) { get; } | Visszaad egy szinkronizációs gyökeret. Csak olvasható Object. |
 
 ## Metódusok
@@ -28,20 +28,20 @@ public sealed class TagCollection : ITagCollection
 | Név | Leírás |
 | --- | --- |
 | [Add](../../aspose.slides/tagcollection/add)(string, string) | Új címkét ad a gyűjteményhez. |
-| [Clear](../../aspose.slides/tagcollection/clear)() | Eltávolít minden címkét a gyűjteményből. |
-| [Contains](../../aspose.slides/tagcollection/contains)(string) | Megállapítja, hogy a gyűjtemény tartalmaz-e egy adott nevet. |
-| [CopyTo](../../aspose.slides/tagcollection/copyto)(Array, int) | Az összes elemet a gyűjteményből a megadott tömbbe másolja. |
-| [GetEnumerator](../../aspose.slides/tagcollection/getenumerator)() | Visszaad egy enumerátort, amely végigjárja a gyűjteményt. |
-| [GetNameByIndex](../../aspose.slides/tagcollection/getnamebyindex)(int) | Visszaad egy címke kulcsát a megadott indexnél. |
-| [GetNamesOfTags](../../aspose.slides/tagcollection/getnamesoftags)() | Visszaad a címkék neveit. |
-| [GetValueByIndex](../../aspose.slides/tagcollection/getvaluebyindex)(int) | Visszaad egy címke értékét a megadott indexnél. |
-| [IndexOfName](../../aspose.slides/tagcollection/indexofname)(string) | Visszaad a megadott kulcs nulláról induló indexét a gyűjteményben. |
+| [Clear](../../aspose.slides/tagcollection/clear)() | Eltávolítja az összes címkét a gyűjteményből. |
+| [Contains](../../aspose.slides/tagcollection/contains)(string) | Meghatározza, hogy a gyűjtemény tartalmazza-e a megadott nevet. |
+| [CopyTo](../../aspose.slides/tagcollection/copyto)(Array, int) | Az összes elemét átmásolja a gyűjteménynek a megadott tömbbe. |
+| [GetEnumerator](../../aspose.slides/tagcollection/getenumerator)() | Visszaad egy enumerátort, amely bejárja a gyűjteményt. |
+| [GetNameByIndex](../../aspose.slides/tagcollection/getnamebyindex)(int) | Visszaadja egy címke kulcsát a megadott indexen. |
+| [GetNamesOfTags](../../aspose.slides/tagcollection/getnamesoftags)() | Visszaadja a címkék nevét. |
+| [GetValueByIndex](../../aspose.slides/tagcollection/getvaluebyindex)(int) | Visszaadja egy címke értékét a megadott indexen. |
+| [IndexOfName](../../aspose.slides/tagcollection/indexofname)(string) | Visszaadja a megadott kulcs nulla-alapú indexét a gyűjteményben. |
 | [Remove](../../aspose.slides/tagcollection/remove)(string) | Eltávolítja a megadott névvel rendelkező címkét a gyűjteményből. |
-| [RemoveAt](../../aspose.slides/tagcollection/removeat)(int) | Eltávolítja a címkét a megadott indexnél. |
+| [RemoveAt](../../aspose.slides/tagcollection/removeat)(int) | Eltávolítja a címkét a megadott indexen. |
 
 ### Példák
 
-Az alábbi példa bemutatja, hogyan lehet egy címkét hozzáadni egy PowerPoint prezentációhoz.
+Az alábbi példa bemutatja, hogyan lehet címkét hozzáadni egy PowerPoint-prezentációhoz.
 
 ```csharp
 [C#]

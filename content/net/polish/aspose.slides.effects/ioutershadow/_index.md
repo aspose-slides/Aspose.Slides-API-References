@@ -1,14 +1,14 @@
 ---
 title: IOuterShadow
-second_title: Aspose.Sildes dla .NET – Dokumentacja API
-description: Reprezentuje efekt cienia zewnętrznego.
+second_title: Aspose.Sildes dla .NET Referencja API
+description: Reprezentuje efekt zewnętrznego cienia.
 type: docs
-weight: 3460
+weight: 3480
 url: /pl/aspose.slides.effects/ioutershadow/
 ---
-## interfejs IOuterShadow
+## IOuterShadow interfejs
 
-Reprezentuje efekt cienia zewnętrznego.
+Reprezentuje efekt zewnętrznego cienia.
 
 ```csharp
 public interface IOuterShadow : IAccessiblePVIObject<IOuterShadowEffectiveData>, 
@@ -19,18 +19,18 @@ public interface IOuterShadow : IAccessiblePVIObject<IOuterShadowEffectiveData>,
 
 | Nazwa | Opis |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ioutershadow/asiaccessiblepviobject) { get; } | Umożliwia pobranie podstawowego interfejsu IAccessiblePVIObject. Tylko do odczytu [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ioutershadow/asiimagetransformoperation) { get; } | Umożliwia pobranie podstawowego interfejsu IImageTransformOperation. Tylko do odczytu [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ioutershadow/asiaccessiblepviobject) { get; } | Umożliwia pobranie bazowego interfejsu IAccessiblePVIObject. Tylko do odczytu [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ioutershadow/asiimagetransformoperation) { get; } | Umożliwia pobranie bazowego interfejsu IImageTransformOperation. Tylko do odczytu [`IImageTransformOperation`](../iimagetransformoperation). |
 | [BlurRadius](../../aspose.slides.effects/ioutershadow/blurradius) { get; set; } | Promień rozmycia, w punktach. Domyślna wartość – 0 pt. Odczyt/zapis Double. |
 | [Direction](../../aspose.slides.effects/ioutershadow/direction) { get; set; } | Kierunek cienia, w stopniach. Domyślna wartość – 0 ° (od lewej do prawej). Odczyt/zapis Single. |
 | [Distance](../../aspose.slides.effects/ioutershadow/distance) { get; set; } | Odległość cienia od obiektu, w punktach. Domyślna wartość – 0 pt. Odczyt/zapis Double. |
 | [RectangleAlign](../../aspose.slides.effects/ioutershadow/rectanglealign) { get; set; } | Wyrównanie prostokąta. Domyślna wartość – Bottom. Odczyt/zapis [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadow/rotateshadowwithshape) { get; set; } | Określa, czy cień obraca się razem z kształtem. Domyślna wartość – true. Odczyt/zapis Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/ioutershadow/scalehorizontal) { get; set; } | Czynnika skalowania poziomego, w procentach oryginalnego rozmiaru. Ujemne skalowanie powoduje odbicie. Domyślna wartość – 100 %. Odczyt/zapis Double. |
-| [ScaleVertical](../../aspose.slides.effects/ioutershadow/scalevertical) { get; set; } | Czynnika skalowania pionowego, w procentach oryginalnego rozmiaru. Ujemne skalowanie powoduje odbicie. Domyślna wartość – 100 %. Odczyt/zapis Double. |
-| [ShadowColor](../../aspose.slides.effects/ioutershadow/shadowcolor) { get; } | Kolor cienia. Domyślna wartość – automatyczna czerń (zależna od motywu). Tylko do odczytu [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [SkewHorizontal](../../aspose.slides.effects/ioutershadow/skewhorizontal) { get; set; } | Kąt nachylenia poziomego, w stopniach. Domyślna wartość – 0 °. Odczyt/zapis Double. |
-| [SkewVertical](../../aspose.slides.effects/ioutershadow/skewvertical) { get; set; } | Kąt nachylenia pionowego, w stopniach. Domyślna wartość – 0 °. Odczyt/zapis Double. |
+| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadow/rotateshadowwithshape) { get; set; } | Wskazuje, czy cień obraca się razem z kształtem. Domyślna wartość – true. Odczyt/zapis Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/ioutershadow/scalehorizontal) { get; set; } | Poziomy współczynnik skalowania, w procentach pierwotnego rozmiaru. Negatywne skalowanie powoduje odbicie. Domyślna wartość – 100 %. Odczyt/zapis Double. |
+| [ScaleVertical](../../aspose.slides.effects/ioutershadow/scalevertical) { get; set; } | Pionowy współczynnik skalowania, w procentach pierwotnego rozmiaru. Negatywne skalowanie powoduje odbicie. Domyślna wartość – 100 %. Odczyt/zapis Double. |
+| [ShadowColor](../../aspose.slides.effects/ioutershadow/shadowcolor) { get; } | Kolor cienia. Domyślna wartość – automatyczny czarny (zależny od motywu). Tylko do odczytu [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [SkewHorizontal](../../aspose.slides.effects/ioutershadow/skewhorizontal) { get; set; } | Poziomy kąt pochylenia, w stopniach. Domyślna wartość – 0 °. Odczyt/zapis Double. |
+| [SkewVertical](../../aspose.slides.effects/ioutershadow/skewvertical) { get; set; } | Pionowy kąt pochylenia, w stopniach. Domyślna wartość – 0 °. Odczyt/zapis Double. |
 
 ### Zobacz także
 
@@ -38,6 +38,6 @@ public interface IOuterShadow : IAccessiblePVIObject<IOuterShadowEffectiveData>,
 * interfejs [IOuterShadowEffectiveData](../ioutershadoweffectivedata)
 * interfejs [IImageTransformOperation](../iimagetransformoperation)
 * przestrzeń nazw [Aspose.Slides.Effects](../../aspose.slides.effects)
-* zestaw [Aspose.Slides](../../)
+* zbiór [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

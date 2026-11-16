@@ -1,9 +1,9 @@
 ---
 title: IBackdrop3DScene
-second_title: Referência da API Aspose.Sildes para .NET
-description: Define um plano no qual efeitos, como brilho e sombra, são aplicados em relação à forma à qual são aplicados.
+second_title: Aspose.Sildes para .NET Referência de API
+description: Define um plano no qual efeitos como brilho e sombra são aplicados em relação à forma à qual são aplicados.
 type: docs
-weight: 5260
+weight: 5280
 url: /pt/aspose.slides/ibackdrop3dscene/
 ---
 ## IBackdrop3DScene interface
@@ -18,11 +18,11 @@ public interface IBackdrop3DScene
 
 | Nome | Descrição |
 | --- | --- |
-| [AnchorPoint](../../aspose.slides/ibackdrop3dscene/anchorpoint) { get; set; } | Retorna ou define um ponto no espaço 3D. Este ponto é o ponto no espaço que ancora o plano de fundo. Ponto 3D representado por um array de 3 valores float que definem as coordenadas X, Y e Z. Leitura/gravação Single[]. |
-| [NormalVector](../../aspose.slides/ibackdrop3dscene/normalvector) { get; set; } | Retorna ou define um vetor normal. Para ser mais preciso, este atributo define um vetor normal à face do plano de fundo. Vetor representado por um array de 3 valores float que definem as coordenadas X, Y e Z. Leitura/gravação Single[]. |
-| [UpVector](../../aspose.slides/ibackdrop3dscene/upvector) { get; set; } | Retorna ou define um vetor que representa a direção “up”. Para ser mais preciso, este atributo define um vetor que representa “up” em relação à face do plano de fundo. Vetor representado por um array de 3 valores float que definem as coordenadas X, Y e Z. Leitura/gravação Single[]. |
+| [AnchorPoint](../../aspose.slides/ibackdrop3dscene/anchorpoint) { get; set; } | Retorna ou define um ponto em espaço 3D. Este ponto é o ponto no espaço que ancora o plano de fundo. Ponto 3D representado por um array de 3 valores float que definem as coordenadas X, Y e Z. Leitura/Gravação Single[]. |
+| [NormalVector](../../aspose.slides/ibackdrop3dscene/normalvector) { get; set; } | Retorna ou define um vetor normal. Para ser mais preciso, este atributo define um vetor normal à face do plano de fundo. Vetor representado por um array de 3 valores float que definem as coordenadas X, Y e Z. Leitura/Gravação Single[]. |
+| [UpVector](../../aspose.slides/ibackdrop3dscene/upvector) { get; set; } | Retorna ou define um vetor que representa a direção para cima. Para ser mais preciso, este atributo define um vetor que representa a direção para cima em relação à face do plano de fundo. Vetor representado por um array de 3 valores float que definem as coordenadas X, Y e Z. Leitura/Gravação Single[]. |
 
-### Ver também
+### Veja Também
 
 * espaço de nomes [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

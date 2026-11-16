@@ -1,14 +1,14 @@
 ---
 title: INotesSlideHeaderFooterManager
-second_title: Référence API Aspose.Sildes pour .NET
-description: Représente le gestionnaire qui contrôle le comportement des espaces réservés des diapositives de notes, y compris l'espace réservé d'en-tête.
+second_title: Aspose.Sildes pour .NET Référence API
+description: Représente le gestionnaire qui conserve le comportement des espaces réservés de la diapositive de notes, y compris l'espace réservé d'en-tête.
 type: docs
-weight: 6510
+weight: 6530
 url: /fr/aspose.slides/inotesslideheaderfootermanager/
 ---
 ## INotesSlideHeaderFooterManager interface
 
-Représente le gestionnaire qui contrôle le comportement des espaces réservés des diapositives de notes, y compris l'espace réservé d'en-tête.
+Représente le gestionnaire qui contient le comportement des espaces réservés de la diapositive de notes, y compris l'espace réservé d'en-tête.
 
 ```csharp
 public interface INotesSlideHeaderFooterManager : IBaseHandoutNotesSlideHeaderFooterManag

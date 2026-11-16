@@ -1,9 +1,9 @@
 ---
 title: OdpException
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API .NET Aspose.Sildes
 description: Mewakili tipe pengecualian internal standar.
 type: docs
-weight: 9210
+weight: 9230
 url: /id/aspose.slides/odpexception/
 ---
 ## OdpException kelas
@@ -19,8 +19,8 @@ public class OdpException : Exception
 | Nama | Deskripsi |
 | --- | --- |
 | [OdpException](odpexception#constructor)() | Konstruktor default |
-| [OdpException](odpexception#constructor_1)(string) | Konstruktor yang memungkinkan pesan ditambahkan ke pengecualian ini. |
-| [OdpException](odpexception#constructor_2)(string, Exception) | Konstruktor untuk pengecualian yang berisi pesan dan pengecualian tersemat. |
+| [OdpException](odpexception#constructor_1)(string) | Konstruktor yang memungkinkan menambahkan pesan ke pengecualian ini. |
+| [OdpException](odpexception#constructor_2)(string, Exception) | Konstruktor untuk pengecualian yang berisi pesan dan pengecualian terbenam. |
 
 ### Lihat Juga
 

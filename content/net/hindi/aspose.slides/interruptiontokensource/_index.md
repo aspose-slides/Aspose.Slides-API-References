@@ -1,20 +1,20 @@
 ---
 title: InterruptionTokenSource
-second_title: Aspose.Sildes .NET के लिए API रेफ़रेंस
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
 description: InterruptionToken./interruptiontoken का स्रोत दर्शाता है।
 type: docs
-weight: 7610
+weight: 7630
 url: /hi/aspose.slides/interruptiontokensource/
 ---
 ## InterruptionTokenSource क्लास
 
-यह [`InterruptionToken`](../interruptiontoken) का स्रोत दर्शाता है।
+[`InterruptionToken`](../interruptiontoken) का स्रोत दर्शाता है।
 
 ```csharp
 public class InterruptionTokenSource : IInterruptionTokenSource
 ```
 
-## निर्मातागण
+## निर्माताएँ
 
 | नाम | विवरण |
 | --- | --- |
@@ -24,14 +24,14 @@ public class InterruptionTokenSource : IInterruptionTokenSource
 
 | नाम | विवरण |
 | --- | --- |
-| [IsInterruptionRequested](../../aspose.slides/interruptiontokensource/isinterruptionrequested) { get; } | यदि विच्छेदन अनुरोध किया गया हो तो true लौटाता है, अन्यथा false। |
+| [IsInterruptionRequested](../../aspose.slides/interruptiontokensource/isinterruptionrequested) { get; } | यदि व्यवधान अनुरोधित है तो true लौटाता है, अन्यथा false। |
 | [Token](../../aspose.slides/interruptiontokensource/token) { get; } | इस [`InterruptionTokenSource`](../interruptiontokensource) से बंधा नया टोकन लौटाता है। |
 
 ## विधियां
 
 | नाम | विवरण |
 | --- | --- |
-| [Interrupt](../../aspose.slides/interruptiontokensource/interrupt)() | विच्छेदन के लिये अनुरोध प्रारंभ करता है। |
+| [Interrupt](../../aspose.slides/interruptiontokensource/interrupt)() | विच्छेद के लिए अनुरोध प्रारंभ करता है। |
 
 ### संबंधित देखें
 

@@ -1,9 +1,9 @@
 ---
 title: IImageTransformOperation
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Soyut görüntü dönüşüm etkisini temsil eder.
 type: docs
-weight: 3390
+weight: 3410
 url: /tr/aspose.slides.effects/iimagetransformoperation/
 ---
 ## IImageTransformOperation arayüz
@@ -14,7 +14,7 @@ Soyut görüntü dönüşüm etkisini temsil eder.
 public interface IImageTransformOperation
 ```
 
-### Bakınız
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides.Effects](../../aspose.slides.effects)
 * derleme [Aspose.Slides](../../)

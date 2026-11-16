@@ -3,7 +3,7 @@ title: TableFormat
 second_title: Aspose.Sildes for .NET API 參考
 description: 表示表格的格式。
 type: docs
-weight: 10870
+weight: 10890
 url: /zh-hant/aspose.slides/tableformat/
 ---
 ## TableFormat 類別
@@ -16,16 +16,16 @@ public sealed class TableFormat : DomObject<Table>, ITableFormat
 
 ## 屬性
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
-| [FillFormat](../../aspose.slides/tableformat/fillformat) { get; } | 傳回表格填滿屬性物件。唯讀 [`IFillFormat`](../ifillformat)。 |
-| [Transparency](../../aspose.slides/tableformat/transparency) { get; set; } | 取得或設定填滿顏色的透明度。可讀寫 Single。 |
+| [FillFormat](../../aspose.slides/tableformat/fillformat) { get; } | 傳回表格填充屬性物件。唯讀 [`IFillFormat`](../ifillformat)。 |
+| [Transparency](../../aspose.slides/tableformat/transparency) { get; set; } | 取得或設定填充顏色的透明度。可讀寫 Single。 |
 
 ## 方法
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
-| [GetEffective](../../aspose.slides/tableformat/geteffective)() | 取得套用繼承與表格樣式後的有效表格格式屬性。 |
+| [GetEffective](../../aspose.slides/tableformat/geteffective)() | 取得套用繼承和表格樣式後的實際表格格式屬性。 |
 
 ### 另請參閱
 

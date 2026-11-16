@@ -1,14 +1,14 @@
 ---
 title: ISoftEdgeEffectiveData
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Objeto inmutable que representa un efecto de borde suave. Los bordes de la forma están borrosos mientras que el relleno no se ve afectado.
+description: Objeto inmutable que representa un efecto de borde suave. Los bordes de la forma están difuminados mientras que el relleno no se ve afectado.
 type: docs
-weight: 3530
+weight: 3550
 url: /es/aspose.slides.effects/isoftedgeeffectivedata/
 ---
 ## ISoftEdgeEffectiveData interfaz
 
-Objeto inmutable que representa un efecto de borde suave. Los bordes de la forma están borrosos, mientras que el relleno no se ve afectado.
+Objeto inmutable que representa un efecto de borde suave. Los bordes de la forma están difuminados, mientras que el relleno no se ve afectado.
 
 ```csharp
 public interface ISoftEdgeEffectiveData : IEffectEffectiveData
@@ -19,7 +19,7 @@ public interface ISoftEdgeEffectiveData : IEffectEffectiveData
 | Nombre | Descripción |
 | --- | --- |
 | [AsIEffectEffectiveData](../../aspose.slides.effects/isoftedgeeffectivedata/asieffecteffectivedata) { get; } | Permite obtener la interfaz base IEffectEffectiveData. Solo lectura [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Radius](../../aspose.slides.effects/isoftedgeeffectivedata/radius) { get; } | Especifica el radio de desenfoque a aplicar a los bordes. Solo lectura Double. |
+| [Radius](../../aspose.slides.effects/isoftedgeeffectivedata/radius) { get; } | Especifica el radio del desenfoque a aplicar a los bordes. Solo lectura Double. |
 
 ### Ver también
 

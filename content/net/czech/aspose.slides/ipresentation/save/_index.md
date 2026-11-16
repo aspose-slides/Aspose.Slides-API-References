@@ -1,9 +1,9 @@
 ---
 title: Save
-second_title: Aspose.Sildes pro .NET API Reference
-description: Uloží všechny snímky prezentace do souboru ve zvoleném formátu.
+second_title: Aspose.Sildes pro .NET API referenci
+description: Uloží všechny snímky prezentace do souboru ve specifikovaném formátu.
 type: docs
-weight: 380
+weight: 390
 url: /cs/aspose.slides/ipresentation/save/
 ---
 ## Save(string, SaveFormat) {#save_5}
@@ -52,7 +52,7 @@ public void Save(Stream stream, SaveFormat format)
 
 ## Save(string, SaveFormat, ISaveOptions) {#save_6}
 
-Uloží všechny snímky prezentace do souboru ve zvoleném formátu s dodatečnými možnostmi.
+Uloží všechny snímky prezentace do souboru ve zvoleném formátu a s dalšími možnostmi.
 
 ```csharp
 public void Save(string fname, SaveFormat format, ISaveOptions options)
@@ -76,7 +76,7 @@ public void Save(string fname, SaveFormat format, ISaveOptions options)
 
 ## Save(Stream, SaveFormat, ISaveOptions) {#save_2}
 
-Uloží všechny snímky prezentace do proudu ve zvoleném formátu s dodatečnými možnostmi.
+Uloží všechny snímky prezentace do proudu ve zvoleném formátu a s dalšími možnostmi.
 
 ```csharp
 public void Save(Stream stream, SaveFormat format, ISaveOptions options)
@@ -90,9 +90,9 @@ public void Save(Stream stream, SaveFormat format, ISaveOptions options)
 
 ### Výjimky
 
-| výjimka | podmínka |
+| Výjimka | Podmínka |
 | --- | --- |
-| NotSupportedException | Pokud se pokusíte uložit zašifrovaný soubor v žádném formátu Office 2007-2010 |
+| NotSupportedException | Pokud se pokusíte uložit šifrovaný soubor v žádném z formátů Office 2007-2010 |
 
 ### Viz také
 
@@ -120,11 +120,11 @@ public void Save(string fname, int[] slides, SaveFormat format)
 
 ### Výjimky
 
-| výjimka | podmínka |
+| Výjimka | Podmínka |
 | --- | --- |
 | ArgumentNullException | Když je parametr stream nebo slides null. |
 | ArgumentOutOfRangeException | Když parametr slides obsahuje nesprávná čísla stránek. |
-| InvalidOperationException | Když je použito nepodporované SaveFormat, např. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+| InvalidOperationException | Když je použit nepodporovaný SaveFormat, např. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
 ### Viz také
 
@@ -152,11 +152,11 @@ public void Save(string fname, int[] slides, SaveFormat format, ISaveOptions opt
 
 ### Výjimky
 
-| výjimka | podmínka |
+| Výjimka | Podmínka |
 | --- | --- |
 | ArgumentNullException | Když je parametr stream nebo slides null. |
 | ArgumentOutOfRangeException | Když parametr slides obsahuje nesprávná čísla stránek. |
-| InvalidOperationException | Když je použito nepodporované SaveFormat, např. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+| InvalidOperationException | Když je použit nepodporovaný SaveFormat, např. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
 ### Viz také
 
@@ -184,11 +184,11 @@ public void Save(Stream stream, int[] slides, SaveFormat format)
 
 ### Výjimky
 
-| výjimka | podmínka |
+| Výjimka | Podmínka |
 | --- | --- |
 | ArgumentNullException | Když je parametr stream nebo slides null. |
 | ArgumentOutOfRangeException | Když parametr slides obsahuje nesprávná čísla stránek. |
-| InvalidOperationException | Když je použito nepodporované SaveFormat, např. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+| InvalidOperationException | Když je použit nepodporovaný SaveFormat, např. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
 ### Viz také
 
@@ -216,11 +216,11 @@ public void Save(Stream stream, int[] slides, SaveFormat format, ISaveOptions op
 
 ### Výjimky
 
-| výjimka | podmínka |
+| Výjimka | Podmínka |
 | --- | --- |
 | ArgumentNullException | Když je parametr stream nebo slides null. |
 | ArgumentOutOfRangeException | Když parametr slides obsahuje nesprávná čísla stránek. |
-| InvalidOperationException | Když je použito nepodporované SaveFormat, např. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+| InvalidOperationException | Když je použit nepodporovaný SaveFormat, např. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
 ### Viz také
 

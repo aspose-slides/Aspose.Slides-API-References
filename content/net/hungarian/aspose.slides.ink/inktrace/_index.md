@@ -1,14 +1,14 @@
 ---
 title: InkTrace
 second_title: Aspose.Sildes .NET API referencia
-description: Egy Trace objektumot képvisel. A Trace elem arra szolgál, hogy rögzítse a digitalizáló által felvett adatokat. Tartalmaz egy pontsorozatot, amely az InkTraceFormat objektum által megadott specifikáció szerint van kódolva.
+description: Egy Trace objektumot reprezentál. A Trace elem a digitalizáló által rögzített adatokat rögzíti. Tartalmaz egy pontsorozatot, amely az InkTraceFormat objektum által megadott specifikáció szerint van kódolva.
 type: docs
-weight: 7590
+weight: 7610
 url: /hu/aspose.slides.ink/inktrace/
 ---
 ## InkTrace osztály
 
-Egy Trace objektumot képvisel. A Trace elem arra szolgál, hogy rögzítse a digitalizáló által felvett adatokat. Tartalmaz egy pontsorozatot, amely az InkTraceFormat objektum által megadott specifikáció szerint van kódolva.
+Represents an Trace object. A Trace element is used to record the data captured by the digitizer. It contains a sequence of points encoded according to the specification given by the InkTraceFormat object.
 
 ```csharp
 public class InkTrace : IInkTrace
@@ -18,8 +18,8 @@ public class InkTrace : IInkTrace
 
 | Név | Leírás |
 | --- | --- |
-| [Brush](../../aspose.slides.ink/inktrace/brush) { get; } | Visszaadja a Brush-t az IInkLine [`IInkBrush`](../iinkbrush) számára. Csak olvasható. |
-| [Points](../../aspose.slides.ink/inktrace/points) { get; } | Visszaadja a pontokat az IInkLine PointF számára. Csak olvasható. |
+| [Brush](../../aspose.slides.ink/inktrace/brush) { get; } | Az IInkLine [`IInkBrush`](../iinkbrush) Brush-ét adja vissza. Csak olvasható. |
+| [Points](../../aspose.slides.ink/inktrace/points) { get; } | Az IInkLine PointF pontjait adja vissza. Csak olvasható. |
 
 ### Lásd még
 

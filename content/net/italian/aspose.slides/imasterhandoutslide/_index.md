@@ -1,14 +1,14 @@
 ---
 title: IMasterHandoutSlide
-second_title: Aspose.Sildes per il riferimento API .NET
-description: Rappresenta la diapositiva master per i handout.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Rappresenta la diapositiva master per le dispense.
 type: docs
-weight: 6350
+weight: 6370
 url: /it/aspose.slides/imasterhandoutslide/
 ---
 ## IMasterHandoutSlide interfaccia
 
-Rappresenta la diapositiva master per i handout.
+Rappresenta la diapositiva master per le dispense.
 
 ```csharp
 public interface IMasterHandoutSlide : IBaseSlide, IMasterThemeable
@@ -16,12 +16,12 @@ public interface IMasterHandoutSlide : IBaseSlide, IMasterThemeable
 
 ## Proprietà
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/imasterhandoutslide/asibaseslide) { get; } | Consente di ottenere l'interfaccia base IBaseSlide. Solo lettura [`IBaseSlide`](../ibaseslide). |
-| [AsIMasterThemeable](../../aspose.slides/imasterhandoutslide/asimasterthemeable) { get; } | Restituisce l'interfaccia IMasterThemeable. Solo lettura [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
-| [DrawingGuides](../../aspose.slides/imasterhandoutslide/drawingguides) { get; } | Restituisce una raccolta di guide di disegno per la diapositiva master del handout. Solo lettura [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [HeaderFooterManager](../../aspose.slides/imasterhandoutslide/headerfootermanager) { get; } | Restituisce il gestore HeaderFooter della diapositiva master del handout. Solo lettura [`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager). |
+| [AsIBaseSlide](../../aspose.slides/imasterhandoutslide/asibaseslide) { get; } | Consente di ottenere l'interfaccia base IBaseSlide. Sola lettura [`IBaseSlide`](../ibaseslide). |
+| [AsIMasterThemeable](../../aspose.slides/imasterhandoutslide/asimasterthemeable) { get; } | Restituisce l'interfaccia IMasterThemeable. Sola lettura [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
+| [DrawingGuides](../../aspose.slides/imasterhandoutslide/drawingguides) { get; } | Restituisce una raccolta di guide di disegno per la diapositiva master delle dispense. Sola lettura [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [HeaderFooterManager](../../aspose.slides/imasterhandoutslide/headerfootermanager) { get; } | Restituisce il gestore HeaderFooter della diapositiva master delle dispense. Sola lettura [`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager). |
 
 ### Vedi anche
 

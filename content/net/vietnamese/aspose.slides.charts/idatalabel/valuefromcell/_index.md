@@ -1,20 +1,20 @@
 ---
 title: ValueFromCell
-second_title: Tham khảo API Aspose.Sildes cho .NET
-description: Lấy hoặc đặt ô dữ liệu workbook. Được áp dụng nếu IDataLabelFormat.ShowLabelValueFromCell thuộc tính bằng true.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Lấy hoặc đặt ô dữ liệu workbook. Được áp dụng nếu thuộc tính IDataLabelFormat.ShowLabelValueFromCell bằng true.
 type: docs
-weight: 60
+weight: 70
 url: /vi/aspose.slides.charts/idatalabel/valuefromcell/
 ---
 ## IDataLabel.ValueFromCell thuộc tính
 
-Lấy hoặc đặt ô dữ liệu workbook. Được áp dụng nếu IDataLabelFormat.ShowLabelValueFromCell thuộc tính bằng true.
+Lấy hoặc đặt ô dữ liệu workbook. Được áp dụng nếu thuộc tính IDataLabelFormat.ShowLabelValueFromCell bằng true.
 
 ```csharp
 public IChartDataCell ValueFromCell { get; set; }
 ```
 
-### Xem Thêm
+### Xem thêm
 
 * giao diện [IChartDataCell](../../ichartdatacell)
 * giao diện [IDataLabel](../../idatalabel)

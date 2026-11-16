@@ -1,14 +1,14 @@
 ---
 title: ICustomXmlPartCollection
 second_title: Referência da API Aspose.Sildes para .NET
-description: Representa a coleção de partes xml personalizadas.
+description: Representa uma coleção de partes xml personalizadas.
 type: docs
-weight: 5680
+weight: 5700
 url: /pt/aspose.slides/icustomxmlpartcollection/
 ---
 ## ICustomXmlPartCollection interface
 
-Representa a coleção de partes xml personalizadas.
+Representa uma coleção de partes xml personalizadas.
 
 ```csharp
 public interface ICustomXmlPartCollection : IGenericCollection<ICustomXmlPart>

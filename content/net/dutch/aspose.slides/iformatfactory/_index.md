@@ -3,7 +3,7 @@ title: IFormatFactory
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Staat toe om formaten te maken via COM-interface.
 type: docs
-weight: 5940
+weight: 5960
 url: /nl/aspose.slides/iformatfactory/
 ---
 ## IFormatFactory interface
@@ -14,13 +14,13 @@ Staat toe om formaten te maken via COM-interface.
 public interface IFormatFactory
 ```
 
-## Methoden
+## Methods
 
 | Naam | Beschrijving |
 | --- | --- |
-| [CreateParagraphFormat](../../aspose.slides/iformatfactory/createparagraphformat)() | Maakt een nieuwe [`IParagraphFormat`](../iparagraphformat) aan. |
-| [CreatePortionFormat](../../aspose.slides/iformatfactory/createportionformat)() | Maakt een nieuwe [`IPortionFormat`](../iportionformat) aan. |
-| [CreateTextFrameFormat](../../aspose.slides/iformatfactory/createtextframeformat)() | Maakt een nieuwe [`ITextFrameFormat`](../itextframeformat) aan. |
+| [CreateParagraphFormat](../../aspose.slides/iformatfactory/createparagraphformat)() | Maakt een nieuwe [`IParagraphFormat`](../iparagraphformat). |
+| [CreatePortionFormat](../../aspose.slides/iformatfactory/createportionformat)() | Maakt een nieuwe [`IPortionFormat`](../iportionformat). |
+| [CreateTextFrameFormat](../../aspose.slides/iformatfactory/createtextframeformat)() | Maakt een nieuwe [`ITextFrameFormat`](../itextframeformat). |
 
 ### Zie ook
 

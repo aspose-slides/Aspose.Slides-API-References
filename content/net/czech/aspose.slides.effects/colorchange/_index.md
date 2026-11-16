@@ -1,9 +1,9 @@
 ---
 title: ColorChange
-second_title: Aspose.Sildes pro .NET – API reference
-description: Představuje efekt změny barvy. Instance FromColor jsou nahrazeny instancemi ToColor.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Zastupuje efekt změny barvy. Instance FromColor jsou nahrazeny instancemi ToColor.
 type: docs
-weight: 2940
+weight: 2960
 url: /cs/aspose.slides.effects/colorchange/
 ---
 ## ColorChange třída
@@ -18,7 +18,7 @@ public sealed class ColorChange : ImageTransformOperation, IColorChange
 
 | Název | Popis |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Umožňuje získat základní rozhraní IPresentationComponent. Pouze pro čtení [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Umožňuje získat základní IPresentationComponent interface. Pouze pro čtení [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 | [FromColor](../../aspose.slides.effects/colorchange/fromcolor) { get; } | Barva, která bude nahrazena. Pouze pro čtení [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [ToColor](../../aspose.slides.effects/colorchange/tocolor) { get; } | Barva, která nahradí. Pouze pro čtení [`IColorFormat`](../../aspose.slides/icolorformat). |
 
@@ -27,7 +27,7 @@ public sealed class ColorChange : ImageTransformOperation, IColorChange
 | Název | Popis |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/colorchange/equals)(object) | Určuje, zda je zadaný [`ColorChange`](../colorchange) roven aktuálnímu [`ColorChange`](../colorchange). |
-| [GetEffective](../../aspose.slides.effects/colorchange/geteffective)() | Získá efektivní data Color Change s aplikovaným děděním. |
+| [GetEffective](../../aspose.slides.effects/colorchange/geteffective)() | Získá efektivní data efektu Color Change s aplikovaným děděním. |
 | override [GetHashCode](../../aspose.slides.effects/colorchange/gethashcode)() | Slouží jako hashovací funkce pro konkrétní typ. |
 
 ### Viz také

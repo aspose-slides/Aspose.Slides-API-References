@@ -1,14 +1,14 @@
 ---
 title: HyperlinkColorSource
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt die Quelle der Hyperlinkfarbe dar.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Stellt die Quelle der Hyperlink-Farbe dar.
 type: docs
-weight: 5140
+weight: 5160
 url: /de/aspose.slides/hyperlinkcolorsource/
 ---
 ## HyperlinkColorSource Aufzählung
 
-Stellt die Quelle der Hyperlinkfarbe dar.
+Stellt die Quelle der Hyperlink-Farbe dar.
 
 ```csharp
 public enum HyperlinkColorSource
@@ -18,7 +18,7 @@ public enum HyperlinkColorSource
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| Styles | `0` | Stile. |
+| Styles | `0` | Styles. |
 | PortionFormat | `1` | Portionsformat. |
 
 ### Siehe auch

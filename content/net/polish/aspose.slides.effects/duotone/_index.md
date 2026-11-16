@@ -1,14 +1,14 @@
 ---
 title: Duotone
-second_title: Aspose.Sildes dla .NET – Odniesienie API
+second_title: Aspose.Sildes dla .NET API Reference
 description: Reprezentuje efekt Duotone. Dla każdego piksela łączy Color1 i Color2 poprzez liniową interpolację, aby określić nowy kolor tego piksela.
 type: docs
-weight: 2960
+weight: 2980
 url: /pl/aspose.slides.effects/duotone/
 ---
-## Klasa Duotone
+## Duotone klasa
 
-Reprezentuje efekt Duotone. Dla każdego piksela łączy Color1 i Color2 poprzez liniową interpolację, aby określić nowy kolor tego piksela.
+Represents a Duotone effect. For each pixel, combines Color1 and Color2 through a linear interpolation to determine the new color for that pixel.
 
 ```csharp
 public sealed class Duotone : ImageTransformOperation, IDuotone
@@ -16,7 +16,7 @@ public sealed class Duotone : ImageTransformOperation, IDuotone
 
 ## Właściwości
 
-| Name | Description |
+| Nazwa | Opis |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Umożliwia pobranie podstawowego interfejsu IPresentationComponent. Tylko do odczytu [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 | [Color1](../../aspose.slides.effects/duotone/color1) { get; } | Zwraca docelowy format koloru dla ciemnych pikseli. Tylko do odczytu [`IColorFormat`](../../aspose.slides/icolorformat). |
@@ -24,11 +24,11 @@ public sealed class Duotone : ImageTransformOperation, IDuotone
 
 ## Metody
 
-| Name | Description |
+| Nazwa | Opis |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/duotone/equals)(object) | Określa, czy określony [`Duotone`](../duotone) jest równy bieżącemu [`Duotone`](../duotone). |
 | [GetEffective](../../aspose.slides.effects/duotone/geteffective)() | Pobiera efektywne dane efektu Duotone z zastosowanym dziedziczeniem. |
-| override [GetHashCode](../../aspose.slides.effects/duotone/gethashcode)() | Służy jako funkcja skrótu dla konkretnego typu. |
+| override [GetHashCode](../../aspose.slides.effects/duotone/gethashcode)() | Służy jako funkcja mieszająca dla określonego typu. |
 
 ### Zobacz także
 

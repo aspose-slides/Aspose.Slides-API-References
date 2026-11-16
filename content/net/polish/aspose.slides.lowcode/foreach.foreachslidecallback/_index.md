@@ -1,12 +1,12 @@
 ---
 title: ForEach.ForEachSlideCallback
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla .NET – odniesienie API
 description: Wywołanie zwrotne, które zostanie wywołane dla każdego Slide./foreach/slide w Presentation../aspose.slides/presentation.
 type: docs
-weight: 7960
+weight: 7980
 url: /pl/aspose.slides.lowcode/foreach.foreachslidecallback/
 ---
-## ForEach.ForEachSlideCallback delegat
+## ForEach.ForEachSlideCallback delegate
 
 Wywołanie zwrotne, które zostanie wywołane dla każdego [`Slide`](../foreach/slide) w [`Presentation`](../../aspose.slides/presentation).
 

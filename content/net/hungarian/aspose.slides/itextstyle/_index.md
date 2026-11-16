@@ -1,14 +1,14 @@
 ---
 title: ITextStyle
 second_title: Aspose.Sildes .NET API Referencia
-description: A szövegstílus formázási tulajdonságai.
+description: Szövegstílus formázási tulajdonságok.
 type: docs
-weight: 7310
+weight: 7330
 url: /hu/aspose.slides/itextstyle/
 ---
 ## ITextStyle interfész
 
-Text style formázási tulajdonságok.
+Szövegstílus formázási tulajdonságok.
 
 ```csharp
 public interface ITextStyle
@@ -20,7 +20,7 @@ public interface ITextStyle
 | --- | --- |
 | [DefaultParagraphFormat](../../aspose.slides/itextstyle/defaultparagraphformat) { get; } | Alapértelmezett bekezdés tulajdonságok. Csak olvasható [`IParagraphFormat`](../iparagraphformat). |
 
-## Metódusok
+## Módszerek
 
 | Név | Leírás |
 | --- | --- |

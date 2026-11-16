@@ -1,14 +1,14 @@
 ---
 title: LeftRightDirectionTransition
-second_title: Aspose.Sildes for .NET API リファレンス
-description: 左右方向のスライド遷移効果。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: 左右方向のスライド遷移効果です。
 type: docs
-weight: 10240
+weight: 10260
 url: /ja/aspose.slides.slideshow/leftrightdirectiontransition/
 ---
 ## LeftRightDirectionTransition クラス
 
-左右方向のスライド遷移効果。
+左右方向のスライド遷移効果です。
 
 ```csharp
 public class LeftRightDirectionTransition : TransitionValueBase, ILeftRightDirectionTransition
@@ -18,16 +18,16 @@ public class LeftRightDirectionTransition : TransitionValueBase, ILeftRightDirec
 
 | 名前 | 説明 |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/leftrightdirectiontransition/direction) { get; set; } | 遷移の方向。 読み取り/書き込み [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype)。 |
+| [Direction](../../aspose.slides.slideshow/leftrightdirectiontransition/direction) { get; set; } | 遷移の方向です。読み書き [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype)。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 2つの TransitionValueBase インスタンスが等しいかどうかを判断します。 |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 特定の型に対するハッシュ関数として機能し、ハッシュアルゴリズムやハッシュテーブルのようなデータ構造での使用に適しています。 |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 2つの TransitionValueBase インスタンスが等しいかどうかを判定します。 |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 特定の型に対するハッシュ関数として機能し、ハッシュテーブルなどのハッシュアルゴリズムやデータ構造での使用に適しています。 |
 
-### 関連項目
+### 参照
 
 * クラス [TransitionValueBase](../transitionvaluebase)
 * インターフェイス [ILeftRightDirectionTransition](../ileftrightdirectiontransition)

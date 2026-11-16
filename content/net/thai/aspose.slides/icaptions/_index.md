@@ -1,14 +1,14 @@
 ---
 title: ICaptions
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงคำบรรยายปิดแบบ WebVTT.
+description: แสดงถึงคำบรรยายปิด WebVTT.
 type: docs
-weight: 5430
+weight: 5450
 url: /th/aspose.slides/icaptions/
 ---
-## ICaptions อินเทอร์เฟซ
+## อินเทอร์เฟซ ICaptions
 
-แสดงถึงคำบรรยายปิดแบบ WebVTT.
+แสดงถึงคำบรรยายปิด WebVTT.
 
 ```csharp
 public interface ICaptions
@@ -18,9 +18,9 @@ public interface ICaptions
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [BinaryData](../../aspose.slides/icaptions/binarydata) { get; } | ส่งคืนข้อมูลไบนารีของคำบรรยายปิด อ่านได้อย่างเดียว Byte[]. |
-| [CaptionId](../../aspose.slides/icaptions/captionid) { get; } | ส่งคืนตัวระบุที่ไม่ซ้ำกันทั่วโลก (GUID) ของคำบรรยายปิด อ่านได้อย่างเดียว Guid. |
-| [DataAsString](../../aspose.slides/icaptions/dataasstring) { get; } | ส่งคืนข้อมูลคำบรรยายปิดเป็นสตริงที่เข้ารหัส UTF-8 อ่านได้อย่างเดียว String. |
+| [BinaryData](../../aspose.slides/icaptions/binarydata) { get; } | ส่งคืนข้อมูลไบต์ของคำบรรยายปิด. อ่านอย่างเดียว Byte[]. |
+| [CaptionId](../../aspose.slides/icaptions/captionid) { get; } | ส่งคืนตัวระบุที่ไม่ซ้ำกันทั่วโลก (GUID) ของคำบรรยายปิด. อ่านอย่างเดียว Guid. |
+| [DataAsString](../../aspose.slides/icaptions/dataasstring) { get; } | ส่งคืนข้อมูลคำบรรยายปิดเป็นสตริงที่เข้ารหัส UTF-8 อ่านอย่างเดียว String. |
 | [Label](../../aspose.slides/icaptions/label) { get; set; } | ส่งคืนหรือกำหนดป้ายกำกับของคำบรรยายปิด. อ่าน/เขียน String. |
 
 ### ดูเพิ่มเติม

@@ -1,14 +1,14 @@
 ---
 title: MathSubscriptElementFactory
 second_title: Aspose.Sildes için .NET API Referansı
-description: IMathSubscriptElement oluşturulmasını sağlar
+description: IMathSubscriptElement oluşturmayı sağlar
 type: docs
-weight: 9010
+weight: 9030
 url: /tr/aspose.slides.mathtext/mathsubscriptelementfactory/
 ---
-## MathSubscriptElementFactory sınıfı
+## MathSubscriptElementFactory sınıf
 
-IMathSubscriptElement oluşturulmasını sağlar
+IMathSubscriptElement oluşturmayı sağlar
 
 ```csharp
 public class MathSubscriptElementFactory : IMathSubscriptElementFactory
@@ -16,21 +16,21 @@ public class MathSubscriptElementFactory : IMathSubscriptElementFactory
 
 ## Yapıcılar
 
-| İsim | Açıklama |
+| Ad | Açıklama |
 | --- | --- |
 | [MathSubscriptElementFactory](mathsubscriptelementfactory)() | Varsayılan yapıcı. |
 
 ## Yöntemler
 
-| İsim | Açıklama |
+| Ad | Açıklama |
 | --- | --- |
-| [CreateMathSubscriptElement](../../aspose.slides.mathtext/mathsubscriptelementfactory/createmathsubscriptelement)(IMathElement, IMathElement) | IMathSubscriptElement oluşturur |
+| [CreateMathSubscriptElement](../../aspose.slides.mathtext/mathsubscriptelementfactory/createmathsubscriptelement)(IMathElement, IMathElement) | IMimeSubscriptElement oluşturur |
 
 ### Açıklamalar
 
 COM uyumluluğu için
 
-### Ayrıca Bakınız
+### İlgili
 
 * arayüz [IMathSubscriptElementFactory](../imathsubscriptelementfactory)
 * ad alanı [Aspose.Slides.MathText](../../aspose.slides.mathtext)

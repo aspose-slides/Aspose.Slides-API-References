@@ -3,7 +3,7 @@ title: ImageFormat
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Stelt het bestandsformaat van de afbeelding voor.
 type: docs
-weight: 7430
+weight: 7450
 url: /nl/aspose.slides/imageformat/
 ---
 ## ImageFormat enumeratie
@@ -19,15 +19,15 @@ public enum ImageFormat
 | Naam | Waarde | Beschrijving |
 | --- | --- | --- |
 | MemoryBmp | `0` | Stelt het formaat van een bitmap in het geheugen voor. |
-| Bmp | `1` | Stelt het bitmap (BMP) afbeeldingsformaat voor. |
-| Emf | `2` | Stelt het verbeterde metafile (EMF) afbeeldingsformaat voor. |
-| Wmf | `3` | Stelt het Windows-metafile (WMF) afbeeldingsformaat voor. |
-| Gif | `4` | Stelt het Graphics Interchange Format (GIF) afbeeldingsformaat voor. |
-| Jpeg | `5` | Stelt het Joint Photographic Experts Group (JPEG) afbeeldingsformaat voor. |
-| Png | `6` | Stelt het W3C Portable Network Graphics (PNG) afbeeldingsformaat voor. |
-| Tiff | `7` | Stelt het Tagged Image File Format (TIFF) afbeeldingsformaat voor. |
+| Bmp | `1` | Stelt het bitmap (BMP) afbeeldingformaat voor. |
+| Emf | `2` | Stelt het uitgebreide metafile (EMF) afbeeldingformaat voor. |
+| Wmf | `3` | Stelt het Windows-metafile (WMF) afbeeldingformaat voor. |
+| Gif | `4` | Stelt het Graphics Interchange Format (GIF) afbeeldingformaat voor. |
+| Jpeg | `5` | Stelt het Joint Photographic Experts Group (JPEG) afbeeldingformaat voor. |
+| Png | `6` | Stelt het W3C Portable Network Graphics (PNG) afbeeldingformaat voor. |
+| Tiff | `7` | Stelt het Tagged Image File Format (TIFF) afbeeldingformaat voor. |
 | Exif | `8` | Stelt het Exchangeable Image File (Exif) formaat voor. |
-| Icon | `9` | Stelt het Windows-pictogram afbeeldingsformaat voor. |
+| Icon | `9` | Stelt het Windows-pictogram afbeeldingformaat voor. |
 
 ### Zie ook
 

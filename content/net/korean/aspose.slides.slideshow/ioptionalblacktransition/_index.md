@@ -1,14 +1,14 @@
 ---
 title: IOptionalBlackTransition
-second_title: Aspose.Sildes for .NET API 참조
-description: 옵션 검은색 슬라이드 전환 효과.
+second_title: Aspose.Sildes .NET API 레퍼런스
+description: 선택적 검은색 슬라이드 전환 효과.
 type: docs
-weight: 10140
+weight: 10160
 url: /ko/aspose.slides.slideshow/ioptionalblacktransition/
 ---
 ## IOptionalBlackTransition 인터페이스
 
-옵션 검은색 슬라이드 전환 효과.
+선택적 검은색 슬라이드 전환 효과.
 
 ```csharp
 public interface IOptionalBlackTransition : ITransitionValueBase
@@ -19,9 +19,9 @@ public interface IOptionalBlackTransition : ITransitionValueBase
 | 이름 | 설명 |
 | --- | --- |
 | [AsITransitionValueBase](../../aspose.slides.slideshow/ioptionalblacktransition/asitransitionvaluebase) { get; } | 기본 ITransitionValueBase 인터페이스를 가져올 수 있습니다. 읽기 전용 [`ITransitionValueBase`](../itransitionvaluebase). |
-| [FromBlack](../../aspose.slides.slideshow/ioptionalblacktransition/fromblack) { get; set; } | 이 속성은 전환이 검은 화면에서 시작할지 여부를 지정합니다 (그런 다음 검은 화면 위에 새 슬라이드가 전환됩니다). 읽기/쓰기 Boolean. |
+| [FromBlack](../../aspose.slides.slideshow/ioptionalblacktransition/fromblack) { get; set; } | 이 속성은 전환이 검은 화면에서 시작할지 여부를 지정합니다(그런 다음 새 슬라이드를 검은 화면 위로 전환합니다). 읽기/쓰기 Boolean. |
 
-### 참조
+### 관련 항목
 
 * 인터페이스 [ITransitionValueBase](../itransitionvaluebase)
 * 네임스페이스 [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

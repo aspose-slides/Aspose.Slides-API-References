@@ -1,14 +1,14 @@
 ---
 title: TextFrameForOverriding
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Può contenere un testo riccamente formattato. Se questa proprietà non è null, allora questo valore di testo formattato sovrascrive il testo generato automaticamente dell'etichetta dati. Il testo generato automaticamente dell'etichetta dati indica il testo gestito dalle proprietà ShowSeriesName ShowValue ... e formattato con la proprietà TextFormatManager.TextFormat. Solo lettura ITextFrameaspose.slides/itextframe.
+second_title: Aspose.Sildes per .NET API Reference
+description: Può contenere un testo formattato riccamente. Se questa proprietà non è null allora questo valore di testo formattato sovrascrive il testo generato automaticamente dell'etichetta dati. Il testo generato automaticamente dell'etichetta dati indica il testo gestito dalle proprietà ShowSeriesName ShowValue ... e formattato con la proprietà TextFormatManager.TextFormat. Di sola lettura ITextFrameaspose.slides/itextframe.
 type: docs
-weight: 130
+weight: 140
 url: /it/aspose.slides.charts/datalabel/textframeforoverriding/
 ---
-## DataLabel.TextFrameForOverriding property
+## DataLabel.TextFrameForOverriding proprietà
 
-Può contenere un testo riccamente formattato. Se questa proprietà non è null allora questo valore di testo formattato sovrascrive il testo generato automaticamente dell'etichetta dati. Il testo generato automaticamente dell'etichetta dati indica il testo gestito dalle proprietà ShowSeriesName, ShowValue, ... e formattato con la proprietà TextFormatManager.TextFormat. Solo lettura [`ITextFrame`](../../../aspose.slides/itextframe).
+Può contenere un testo formattato riccamente. Se questa proprietà non è null, allora questo valore di testo formattato sovrascrive il testo generato automaticamente dell'etichetta dati. Il testo generato automaticamente dell'etichetta dati indica il testo gestito dalle proprietà ShowSeriesName, ShowValue, ... e formattato con la proprietà TextFormatManager.TextFormat. Di sola lettura [`ITextFrame`](../../../aspose.slides/itextframe).
 
 ```csharp
 public ITextFrame TextFrameForOverriding { get; }

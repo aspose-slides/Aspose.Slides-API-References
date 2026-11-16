@@ -1,14 +1,14 @@
 ---
 title: IImageTransformOperation
-second_title: Aspose.Sildes für .NET API Referenz
-description: Stellt einen abstrakten Bildtransformationseffekt dar.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Stellt einen abstrakten Bildtransformations-Effekt dar.
 type: docs
-weight: 3390
+weight: 3410
 url: /de/aspose.slides.effects/iimagetransformoperation/
 ---
 ## IImageTransformOperation Schnittstelle
 
-Stellt einen abstrakten Bildtransformationseffekt dar.
+Stellt einen abstrakten Bildtransformations-Effekt dar.
 
 ```csharp
 public interface IImageTransformOperation

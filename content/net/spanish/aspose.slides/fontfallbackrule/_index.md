@@ -3,7 +3,7 @@ title: FontFallBackRule
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa la regla de reserva de fuentes
 type: docs
-weight: 4840
+weight: 4860
 url: /es/aspose.slides/fontfallbackrule/
 ---
 ## FontFallBackRule clase
@@ -27,21 +27,21 @@ public class FontFallBackRule : IFontFallBackRule
 | --- | --- |
 | [Count](../../aspose.slides/fontfallbackrule/count) { get; } | Obtiene el número de fuentes realmente definidas para el rango. Solo lectura Int32. |
 | [Item](../../aspose.slides/fontfallbackrule/item) { get; } | Obtiene el nombre de la fuente en el índice especificado. Solo lectura [`IFontFallBackRule`](../ifontfallbackrule). |
-| [RangeEndIndex](../../aspose.slides/fontfallbackrule/rangeendindex) { get; set; } | Obtiene el último índice del rango Unicode continuo. |
-| [RangeStartIndex](../../aspose.slides/fontfallbackrule/rangestartindex) { get; set; } | Obtiene el primer índice del rango Unicode continuo. |
+| [RangeEndIndex](../../aspose.slides/fontfallbackrule/rangeendindex) { get; set; } | Obtiene el último índice del rango unicode continuo. |
+| [RangeStartIndex](../../aspose.slides/fontfallbackrule/rangestartindex) { get; set; } | Obtiene el primer índice del rango unicode continuo. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [AddFallBackFonts](../../aspose.slides/fontfallbackrule/addfallbackfonts#addfallbackfonts)(string) | Agrega una(s) nueva(s) fuente(s) a la lista de fuentes de reserva. |
-| [AddFallBackFonts](../../aspose.slides/fontfallbackrule/addfallbackfonts#addfallbackfonts_1)(string[]) | Agrega nuevas fuentes a la lista de fuentes de reserva. |
+| [AddFallBackFonts](../../aspose.slides/fontfallbackrule/addfallbackfonts#addfallbackfonts)(string) | Agrega una(s) nueva(s) fuente(s) a la lista de fuentes FallBack. |
+| [AddFallBackFonts](../../aspose.slides/fontfallbackrule/addfallbackfonts#addfallbackfonts_1)(string[]) | Agrega nuevas fuentes a la lista de fuentes FallBack. |
 | [Clear](../../aspose.slides/fontfallbackrule/clear)() | Elimina todas las fuentes de la lista. |
 | [IndexOf](../../aspose.slides/fontfallbackrule/indexof)(string) | Devuelve un índice de la regla especificada en la colección. |
-| [Remove](../../aspose.slides/fontfallbackrule/remove)(string) | Elimina la primera ocurrencia de una fuente de reserva específica de la lista. |
-| [RemoveAt](../../aspose.slides/fontfallbackrule/removeat)(int) | Elimina la fuente de reserva en el índice especificado de la lista. |
-| [ToArray](../../aspose.slides/fontfallbackrule/toarray#toarray)() | Crea y devuelve una matriz con todas las fuentes de reserva para esta regla. |
-| [ToArray](../../aspose.slides/fontfallbackrule/toarray#toarray_1)(int, int) | Crea y devuelve una matriz con todas las fuentes de reserva del rango especificado en la lista. |
+| [Remove](../../aspose.slides/fontfallbackrule/remove)(string) | Elimina la primera aparición de una fuente FallBack específica de la lista. |
+| [RemoveAt](../../aspose.slides/fontfallbackrule/removeat)(int) | Elimina la fuente FallBack en el índice especificado de la lista. |
+| [ToArray](../../aspose.slides/fontfallbackrule/toarray#toarray)() | Crea y devuelve una matriz con todas las fuentes FallBack para esta regla. |
+| [ToArray](../../aspose.slides/fontfallbackrule/toarray#toarray_1)(int, int) | Crea y devuelve una matriz con todas las fuentes FallBack del rango especificado en la lista. |
 
 ### Ver también
 

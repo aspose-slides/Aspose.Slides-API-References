@@ -3,7 +3,7 @@ title: GradientStopCollectionEffectiveData
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt eine Sammlung von GradientStopData-Objekten dar.
 type: docs
-weight: 5040
+weight: 5060
 url: /de/aspose.slides/gradientstopcollectioneffectivedata/
 ---
 ## GradientStopCollectionEffectiveData Klasse
@@ -18,9 +18,9 @@ public class GradientStopCollectionEffectiveData : IGradientStopCollectionEffect
 
 | Name | Beschreibung |
 | --- | --- |
-| [Count](../../aspose.slides/gradientstopcollectioneffectivedata/count) { get; } | Gibt die Anzahl der Farbverlaufspunkte in einer Sammlung zurück. Nur lesbar Int32. |
-| [IsSynchronized](../../aspose.slides/gradientstopcollectioneffectivedata/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert ist (thread-sicher). Nur lesbar Boolean. |
-| [Item](../../aspose.slides/gradientstopcollectioneffectivedata/item) { get; } | Gibt den Farbverlaufspunkt anhand des Index zurück. |
+| [Count](../../aspose.slides/gradientstopcollectioneffectivedata/count) { get; } | Gibt die Anzahl der Gradientstoppunkte in einer Sammlung zurück. Nur lesbar Int32. |
+| [IsSynchronized](../../aspose.slides/gradientstopcollectioneffectivedata/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert (Thread-sicher) ist. Nur lesbar Boolean. |
+| [Item](../../aspose.slides/gradientstopcollectioneffectivedata/item) { get; } | Gibt den Gradientstoppunkt anhand des Index zurück. |
 | [SyncRoot](../../aspose.slides/gradientstopcollectioneffectivedata/syncroot) { get; } | Gibt ein Synchronisations-Wurzelobjekt zurück. Nur lesbar Object. |
 
 ## Methoden

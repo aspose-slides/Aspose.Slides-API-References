@@ -1,9 +1,9 @@
 ---
 title: MathBarFactory
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 允许创建数学栏
 type: docs
-weight: 8580
+weight: 8600
 url: /zh/aspose.slides.mathtext/mathbarfactory/
 ---
 ## MathBarFactory 类
@@ -24,14 +24,14 @@ public class MathBarFactory : IMathBarFactory
 
 | 名称 | 描述 |
 | --- | --- |
-| [CreateMathBar](../../aspose.slides.mathtext/mathbarfactory/createmathbar#createmathbar)(IMMathElement) | 通过应用于元素创建数学栏 |
-| [CreateMathBar](../../aspose.slides.mathtext/mathbarfactory/createmathbar#createmathbar_1)(IMMathElement, MathTopBotPositions) | 通过应用于元素创建数学栏 |
+| [CreateMathBar](../../aspose.slides.mathtext/mathbarfactory/createmathbar#createmathbar)(IMathElement) | 通过应用于元素创建数学栏 |
+| [CreateMathBar](../../aspose.slides.mathtext/mathbarfactory/createmathbar#createmathbar_1)(IMathElement, MathTopBotPositions) | 通过应用于元素创建数学栏 |
 
 ### 备注
 
 用于 COM 兼容性
 
-### 另请参见
+### 另见
 
 * 接口 [IMathBarFactory](../imathbarfactory)
 * 命名空间 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

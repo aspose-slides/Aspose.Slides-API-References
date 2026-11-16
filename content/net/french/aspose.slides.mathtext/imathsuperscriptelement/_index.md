@@ -1,9 +1,9 @@
 ---
 title: IMathSuperscriptElement
-second_title: Référence de l'API Aspose.Sildes pour .NET
+second_title: Référence API Aspose.Sildes pour .NET
 description: Spécifie l'objet exposant qui se compose d'une base et d'un exposant de taille réduite placé au-dessus et à droite
 type: docs
-weight: 8490
+weight: 8510
 url: /fr/aspose.slides.mathtext/imathsuperscriptelement/
 ---
 ## IMathSuperscriptElement interface
@@ -18,7 +18,7 @@ public interface IMathSuperscriptElement : IMathElement
 
 | Nom | Description |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathsuperscriptelement/asimathelement) { get; } | Permet d'obtenir l'interface IMathElement de base [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathsuperscriptelement/asimathelement) { get; } | Permet d'obtenir l'interface de base IMathElement [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathsuperscriptelement/base) { get; } | Argument de base |
 | [Superscript](../../aspose.slides.mathtext/imathsuperscriptelement/superscript) { get; } | Exposant |
 

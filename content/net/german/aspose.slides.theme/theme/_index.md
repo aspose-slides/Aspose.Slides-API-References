@@ -3,7 +3,7 @@ title: Theme
 second_title: Aspose.Sildes für .NET API Referenz
 description: Stellt ein Theme dar.
 type: docs
-weight: 11480
+weight: 11500
 url: /de/aspose.slides.theme/theme/
 ---
 ## Theme Klasse
@@ -18,16 +18,16 @@ public abstract class Theme : ITheme
 
 | Name | Beschreibung |
 | --- | --- |
-| abstract [ColorScheme](../../aspose.slides.theme/theme/colorscheme) { get; } | Gibt das Farbschema zurück. Schreibgeschützt [`IColorScheme`](../icolorscheme). |
-| abstract [FontScheme](../../aspose.slides.theme/theme/fontscheme) { get; } | Gibt das Schriftschema zurück. Schreibgeschützt [`IFontScheme`](../ifontscheme). |
-| abstract [FormatScheme](../../aspose.slides.theme/theme/formatscheme) { get; } | Gibt das Shape-Format-Schema zurück. Schreibgeschützt [`IFormatScheme`](../iformatscheme). |
-| [Presentation](../../aspose.slides.theme/theme/presentation) { get; } | Gibt die übergeordnete presentation zurück. Schreibgeschützt [`IPresentation`](../../aspose.slides/ipresentation). |
+| abstract [ColorScheme](../../aspose.slides.theme/theme/colorscheme) { get; } | Gibt das Farbschema zurück. Nur lesbar [`IColorScheme`](../icolorscheme). |
+| abstract [FontScheme](../../aspose.slides.theme/theme/fontscheme) { get; } | Gibt das Schriftartschema zurück. Nur lesbar [`IFontScheme`](../ifontscheme). |
+| abstract [FormatScheme](../../aspose.slides.theme/theme/formatscheme) { get; } | Gibt das Formformatschema zurück. Nur lesbar [`IFormatScheme`](../iformatscheme). |
+| [Presentation](../../aspose.slides.theme/theme/presentation) { get; } | Gibt die übergeordnete Präsentation zurück. Nur lesbar [`IPresentation`](../../aspose.slides/ipresentation). |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [GetEffective](../../aspose.slides.theme/theme/geteffective)() | Ruft die effektiven Themendaten mit angewendeter Vererbung ab. |
+| [GetEffective](../../aspose.slides.theme/theme/geteffective)() | Ruft die effektiven Themendaten ab, wobei die Vererbung angewendet wird. |
 
 ### Siehe auch
 

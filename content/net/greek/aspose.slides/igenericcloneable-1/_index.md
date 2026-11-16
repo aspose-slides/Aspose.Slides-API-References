@@ -1,14 +1,14 @@
 ---
 title: IGenericCloneableT
 second_title: Aspose.Sildes για .NET API Αναφορά
-description: Αντιπροσωπεύει τη γενική έκδοση του ICloneable
+description: Αναπαριστά τη γενική έκδοση του ICloneable
 type: docs
-weight: 5950
+weight: 5970
 url: /el/aspose.slides/igenericcloneable-1/
 ---
 ## IGenericCloneable<T> διεπαφή
 
-Αντιπροσωπεύει τη γενική έκδοση του ICloneable
+Αναπαριστά τη γενική έκδοση του ICloneable
 
 ```csharp
 public interface IGenericCloneable<T> : ICloneable
@@ -16,7 +16,7 @@ public interface IGenericCloneable<T> : ICloneable
 
 | Παράμετρος | Περιγραφή |
 | --- | --- |
-| T | Ο τύπος του αντικειμένου προς κλωνοποίηση |
+| T | Ο τύπος του αντικειμένου που θα κλωνοποιηθεί |
 
 ## Ιδιότητες
 
@@ -28,7 +28,7 @@ public interface IGenericCloneable<T> : ICloneable
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [CloneT](../../aspose.slides/igenericcloneable`1/clonet)() | Δημιουργεί ένα νέο αντικείμενο που είναι αντίγραφο του τρέχοντος αντικειμένου. |
+| [CloneT](../../aspose.slides/igenericcloneable`1/clonet)() | Δημιουργεί ένα νέο αντικείμενο που είναι αντίγραφο της τρέχουσας παρουσίας. |
 
 ### Δείτε επίσης
 

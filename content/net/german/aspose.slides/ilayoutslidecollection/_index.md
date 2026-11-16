@@ -1,14 +1,14 @@
 ---
 title: ILayoutSlideCollection
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt eine Basisklasse für die Sammlung von Layout-Folien dar.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Stellt eine Basisklasse für eine Sammlung von Layout-Folien dar.
 type: docs
-weight: 6230
+weight: 6250
 url: /de/aspose.slides/ilayoutslidecollection/
 ---
 ## ILayoutSlideCollection Schnittstelle
 
-Stellt eine Basisklasse für die Sammlung von Layout-Folien dar.
+Stellt eine Basisklasse für eine Sammlung von Layout-Folien dar.
 
 ```csharp
 public interface ILayoutSlideCollection : IGenericCollection<ILayoutSlide>

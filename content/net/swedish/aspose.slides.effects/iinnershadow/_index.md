@@ -3,7 +3,7 @@ title: IInnerShadow
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en inre skuggeffekt.
 type: docs
-weight: 3420
+weight: 3440
 url: /sv/aspose.slides.effects/iinnershadow/
 ---
 ## IInnerShadow gränssnitt
@@ -19,9 +19,9 @@ public interface IInnerShadow : IAccessiblePVIObject<IInnerShadowEffectiveData>,
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/iinnershadow/asiaccessiblepviobject) { get; } | Tillåter att hämta bas-IAccessiblePVIObject gränssnitt. Skrivskyddad [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/iinnershadow/asiimagetransformoperation) { get; } | Tillåter att hämta bas-IImageTransformOperation gränssnitt. Skrivskyddad [`IImageTransformOperation`](../iimagetransformoperation). |
-| [BlurRadius](../../aspose.slides.effects/iinnershadow/blurradius) { get; set; } | Oskarphetsradie. Läs/skriv Double. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/iinnershadow/asiaccessiblepviobject) { get; } | Tillåter att hämta bas IAccessiblePVIObject gränssnitt. Skrivskyddad [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/iinnershadow/asiimagetransformoperation) { get; } | Tillåter att hämta bas IImageTransformOperation gränssnitt. Skrivskyddad [`IImageTransformOperation`](../iimagetransformoperation). |
+| [BlurRadius](../../aspose.slides.effects/iinnershadow/blurradius) { get; set; } | Oskärpegrad. Läs/skriv Double. |
 | [Direction](../../aspose.slides.effects/iinnershadow/direction) { get; set; } | Skuggans riktning. Läs/skriv Single. |
 | [Distance](../../aspose.slides.effects/iinnershadow/distance) { get; set; } | Skuggans avstånd. Läs/skriv Double. |
 | [ShadowColor](../../aspose.slides.effects/iinnershadow/shadowcolor) { get; } | Skuggans färg. Skrivskyddad [`IColorFormat`](../../aspose.slides/icolorformat). |

@@ -1,22 +1,22 @@
 ---
 title: Hide
 second_title: Aspose.Sildes .NET API referencia
-description: Az adatcímkét elrejti az összes Show-flag (ShowValue ...) hamis állapotra állításával. Az IsVisible ezután hamis lesz.
+description: Az adatcímkét rejtetté teszi az összes Show-flag (ShowValue ...) hamis állapotra állításával. Az IsVisible hamis lesz ezután.
 type: docs
-weight: 200
+weight: 210
 url: /hu/aspose.slides.charts/datalabel/hide/
 ---
 ## DataLabel.Hide metódus
 
-Az adatcímke rejtetté tehető az összes Show*-flags (ShowValue, ...) hamis állapotba állításával. Az IsVisible hamis lesz ezután.
+Adatcímkét rejtetté tesz, ha az összes Show*-kapcsolót (ShowValue, ...) hamis állapotra állítja. Az IsVisible hamis lesz ezután.
 
 ```csharp
 public void Hide()
 ```
 
-### Megjegyzések
+### Megjegyzés
 
-Ha az adatcímke nem látható (az IsVisible hamis), akkor az adatcímkét láthatóvá teheti a Show*-flags (ShowValue, ...) igaz állapotba állításával.
+Ha az adatcímke nem látható (IsVisible hamis), akkor a Show*-kapcsolók (ShowValue, ...) igaz állapotra állításával teheti láthatóvá.
 
 ### Lásd még
 

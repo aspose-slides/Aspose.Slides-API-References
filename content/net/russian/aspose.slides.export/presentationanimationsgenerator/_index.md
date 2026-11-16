@@ -1,9 +1,9 @@
 ---
 title: PresentationAnimationsGenerator
-second_title: Aspose.Sildes для .NET справочника API
-description: Представляет генератор анимаций в презентации../aspose.slides/presentation.
+second_title: Aspose.Sildes для .NET: справочник API
+description: Представляет генератор анимаций в объекте Presentation../aspose.slides/presentation.
 type: docs
-weight: 4380
+weight: 4400
 url: /ru/aspose.slides.export/presentationanimationsgenerator/
 ---
 ## PresentationAnimationsGenerator класс
@@ -16,22 +16,22 @@ public class PresentationAnimationsGenerator : IDisposable
 
 ## Конструкторы
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
 | [PresentationAnimationsGenerator](presentationanimationsgenerator#constructor)(Presentation) | Создаёт новый экземпляр [`PresentationAnimationsGenerator`](../presentationanimationsgenerator). |
 | [PresentationAnimationsGenerator](presentationanimationsgenerator#constructor_1)(Size) | Создаёт новый экземпляр [`PresentationAnimationsGenerator`](../presentationanimationsgenerator). |
 
 ## Свойства
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
-| [DefaultDelay](../../aspose.slides.export/presentationanimationsgenerator/defaultdelay) { get; set; } | Получает или задаёт значение задержки по умолчанию [мс]. |
+| [DefaultDelay](../../aspose.slides.export/presentationanimationsgenerator/defaultdelay) { get; set; } | Получает или задаёт время задержки по умолчанию [ms]. |
 | [ExportedSlides](../../aspose.slides.export/presentationanimationsgenerator/exportedslides) { get; } | Получает количество экспортированных слайдов. |
 | [IncludeHiddenSlides](../../aspose.slides.export/presentationanimationsgenerator/includehiddenslides) { get; set; } | Получает или задаёт, следует ли включать скрытые слайды. |
 
 ## Методы
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
 | [Dispose](../../aspose.slides.export/presentationanimationsgenerator/dispose)() | Освобождает экземпляр [`PresentationAnimationsGenerator`](../presentationanimationsgenerator). |
 | [Run](../../aspose.slides.export/presentationanimationsgenerator/run#run)(IEnumerable&lt;ISlide&gt;) | Запускает генерацию событий анимации для каждого слайда. |
@@ -39,13 +39,13 @@ public class PresentationAnimationsGenerator : IDisposable
 
 ## Поля
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
 | readonly [FrameSize](../../aspose.slides.export/presentationanimationsgenerator/framesize) | Получает размер кадра. |
 
 ## События
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
 | event [NewAnimation](../../aspose.slides.export/presentationanimationsgenerator/newanimation) | Событие указывает, что была сгенерирована новая анимация. |
 
@@ -68,7 +68,7 @@ using (Presentation presentation = new Presentation("animated.pptx"))
 }
 ```
 
-### Смотрите также
+### См. также
 
 * пространство имён [Aspose.Slides.Export](../../aspose.slides.export)
 * сборка [Aspose.Slides](../../)

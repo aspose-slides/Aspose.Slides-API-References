@@ -1,14 +1,14 @@
 ---
 title: PptEditException
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili pengecualian yang dilemparkan ketika kesalahan penyuntingan presentasi terdeteksi.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Mewakili pengecualian yang dilemparkan ketika kesalahan pengeditan presentasi terdeteksi.
 type: docs
-weight: 9510
+weight: 9530
 url: /id/aspose.slides/ppteditexception/
 ---
 ## PptEditException kelas
 
-Mewakili sebuah pengecualian yang dilemparkan ketika kesalahan penyuntingan presentasi terdeteksi.
+Mewakili pengecualian yang dilemparkan ketika kesalahan pengeditan presentasi terdeteksi.
 
 ```csharp
 public class PptEditException : PptException
@@ -20,7 +20,7 @@ public class PptEditException : PptException
 | --- | --- |
 | [PptEditException](ppteditexception#constructor)() | Konstruktor default. |
 | [PptEditException](ppteditexception#constructor_1)(string) | Konstruktor yang memungkinkan pesan ditambahkan ke pengecualian ini. |
-| [PptEditException](ppteditexception#constructor_2)(string, Exception) | Konstruktor untuk pengecualian yang berisi pesan dan pengecualian terbenam. |
+| [PptEditException](ppteditexception#constructor_2)(string, Exception) | Konstruktor untuk Exception yang berisi pesan dan Exception tersemat. |
 
 ### Lihat Juga
 

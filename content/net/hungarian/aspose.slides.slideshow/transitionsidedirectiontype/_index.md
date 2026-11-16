@@ -1,14 +1,14 @@
 ---
 title: TransitionSideDirectionType
-second_title: Aspose.Sildes .NET API-referencia
-description: Az oldalirányú átmeneti típusokat képviseli.
+second_title: Aspose.Sildes .NET API Referenciája
+description: Mellékirányú átmeneti típusok ábrázolása.
 type: docs
-weight: 10420
+weight: 10440
 url: /hu/aspose.slides.slideshow/transitionsidedirectiontype/
 ---
 ## TransitionSideDirectionType enumeráció
 
-Az oldalirányú átmeneti típusokat képviseli.
+A mellékirányú átmeneti típusokat jelöli.
 
 ```csharp
 public enum TransitionSideDirectionType

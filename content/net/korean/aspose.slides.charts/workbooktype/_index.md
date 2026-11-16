@@ -1,14 +1,14 @@
 ---
 title: WorkbookType
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: Open XML 워크북 파일의 유형을 지정합니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: Open XML 통합 문서 파일의 유형을 지정합니다.
 type: docs
-weight: 2510
+weight: 2530
 url: /ko/aspose.slides.charts/workbooktype/
 ---
 ## WorkbookType 열거형
 
-Open XML 워크북 파일의 유형을 지정합니다.
+Open XML 통합 문서 파일의 유형을 지정합니다.
 
 ```csharp
 public enum WorkbookType
@@ -18,14 +18,14 @@ public enum WorkbookType
 
 | 이름 | 값 | 설명 |
 | --- | --- | --- |
-| NotDefined | `-1` | 워크북 유형이 정의되지 않았습니다. |
-| Workbook | `0` | Excel 워크북 (*.xlsx). |
-| WorkbookMacro | `1` | Excel 매크로 사용 워크북 (*.xlsm). |
+| NotDefined | `-1` | 통합 문서 유형이 정의되지 않았습니다. |
+| Workbook | `0` | Excel 통합 문서 (*.xlsx). |
+| WorkbookMacro | `1` | Excel 매크로 사용 통합 문서 (*.xlsm). |
 | Template | `2` | Excel 템플릿 (*.xltx). |
 | TemplateMacro | `3` | Excel 매크로 사용 템플릿 (*.xltm). |
-| WorkbookBinaryMacro | `4` | Excel 바이너리 매크로 사용 워크북 (*.xlsb). |
+| WorkbookBinaryMacro | `4` | Excel 이진 매크로 사용 통합 문서 (*.xlsb). |
 
-### 참고
+### 참조
 
 * 네임스페이스 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 어셈블리 [Aspose.Slides](../../)

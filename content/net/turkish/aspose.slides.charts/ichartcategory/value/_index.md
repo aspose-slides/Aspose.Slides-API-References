@@ -1,20 +1,20 @@
 ---
 title: Value
 second_title: Aspose.Sildes için .NET API Referansı
-description: UseCell true ise bu özellik AsCell.Value özelliğini temsil eder. UseCell false ise bu özellik AsLiteral özelliğini temsil eder. Okuma/yazma Object.
+description: UseCell true ise bu özellik AsCell.Value özelliğini temsil eder. UseCell false ise bu özellik AsLiteral özelliğini temsil eder. Okuma/Yazma Object.
 type: docs
-weight: 50
+weight: 60
 url: /tr/aspose.slides.charts/ichartcategory/value/
 ---
 ## IChartCategory.Value özelliği
 
-Eğer UseCell true ise bu özellik AsCell.Value özelliğini temsil eder. Eğer UseCell false ise bu özellik AsLiteral özelliğini temsil eder. Okuma/yazma Object.
+UseCell true ise bu özellik AsCell.Value özelliğini temsil eder. UseCell false ise bu özellik AsLiteral özelliğini temsil eder. Okuma/Yazma Object.
 
 ```csharp
 public object Value { get; set; }
 ```
 
-### Ayrıca Bakınız
+### İlgili
 
 * arayüz [IChartCategory](../../ichartcategory)
 * ad alanı [Aspose.Slides.Charts](../../ichartcategory)

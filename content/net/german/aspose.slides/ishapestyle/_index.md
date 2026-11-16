@@ -1,14 +1,14 @@
 ---
 title: IShapeStyle
-second_title: Aspose.Sildes für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Stellt die Stilreferenz von Formen dar.
 type: docs
-weight: 7010
+weight: 7030
 url: /de/aspose.slides/ishapestyle/
 ---
 ## IShapeStyle Schnittstelle
 
-Stellt die Stilreferenz einer Form dar.
+Represent shape's style reference.
 
 ```csharp
 public interface IShapeStyle
@@ -19,13 +19,13 @@ public interface IShapeStyle
 | Name | Beschreibung |
 | --- | --- |
 | [EffectColor](../../aspose.slides/ishapestyle/effectcolor) { get; } | Gibt die Effektfarbe einer Form zurück. Nur lesbar [`IColorFormat`](../icolorformat). |
-| [EffectStyleIndex](../../aspose.slides/ishapestyle/effectstyleindex) { get; set; } | Gibt den Effektspaltenindex einer Form in einer Stilmatrix zurück oder legt ihn fest. Lesen/Schreiben UInt32. |
+| [EffectStyleIndex](../../aspose.slides/ishapestyle/effectstyleindex) { get; set; } | Gibt den Effektspaltenindex einer Form in einer Stilmatrix zurück oder legt ihn fest. Lese/Schreib UInt32. |
 | [FillColor](../../aspose.slides/ishapestyle/fillcolor) { get; } | Gibt die Füllfarbe einer Form zurück. Nur lesbar [`IColorFormat`](../icolorformat). |
-| [FillStyleIndex](../../aspose.slides/ishapestyle/fillstyleindex) { get; set; } | Gibt den Füllspaltenindex einer Form in Stilmatrizen zurück oder legt ihn fest. 0 bedeutet keine Füllung, ein positiver Wert – Index in den Füllstilen des Themas, ein negativer Wert – Index in den Hintergrundstilen des Themas. Lesen/Schreiben Int16. |
-| [FontCollectionIndex](../../aspose.slides/ishapestyle/fontcollectionindex) { get; set; } | Gibt den Schriftartindex einer Form in einer Schriftartsammlung zurück oder legt ihn fest. Lesen/Schreiben [`FontCollectionIndex`](../fontcollectionindex). |
+| [FillStyleIndex](../../aspose.slides/ishapestyle/fillstyleindex) { get; set; } | Gibt den Füllspaltenindex einer Form in Stilmatrizen zurück oder legt ihn fest. 0 bedeutet keine Füllung, positiver Wert - Index in den Füllstilen des Designs, negativer Wert - Index in den Hintergrundstilen des Designs. Lese/Schreib Int16. |
+| [FontCollectionIndex](../../aspose.slides/ishapestyle/fontcollectionindex) { get; set; } | Gibt den Schriftartenindex einer Form in einer Schriftartensammlung zurück oder legt ihn fest. Lese/Schreib [`FontCollectionIndex`](../fontcollectionindex). |
 | [FontColor](../../aspose.slides/ishapestyle/fontcolor) { get; } | Gibt die Schriftfarbe einer Form zurück. Nur lesbar [`IColorFormat`](../icolorformat). |
 | [LineColor](../../aspose.slides/ishapestyle/linecolor) { get; } | Gibt die Konturfarbe einer Form zurück. Nur lesbar [`IColorFormat`](../icolorformat). |
-| [LineStyleIndex](../../aspose.slides/ishapestyle/linestyleindex) { get; set; } | Gibt den Spaltenindex einer Linie in einer Stilmatrix zurück oder legt ihn fest. Lesen/Schreiben UInt16. |
+| [LineStyleIndex](../../aspose.slides/ishapestyle/linestyleindex) { get; set; } | Gibt den Spaltenindex einer Linie in einer Stilmatrix zurück oder legt ihn fest. Lese/Schreib UInt16. |
 
 ### Siehe auch
 

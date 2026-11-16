@@ -1,14 +1,14 @@
 ---
 title: IImageWrapperFactory
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 이 인터페이스는 IBitmapWrapper를 초기화할 수 있게 합니다.
+description: 이 인터페이스는 IBitmapWrapper를 초기화할 수 있도록 합니다.
 type: docs
-weight: 6180
+weight: 6200
 url: /ko/aspose.slides/iimagewrapperfactory/
 ---
 ## IImageWrapperFactory 인터페이스
 
-이 인터페이스는 IBitmapWrapper를 초기화할 수 있게 합니다.
+이 인터페이스는 IBitmapWrapper를 초기화할 수 있도록 합니다.
 
 ```csharp
 public interface IImageWrapperFactory
@@ -18,9 +18,9 @@ public interface IImageWrapperFactory
 
 | 이름 | 설명 |
 | --- | --- |
-| [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper)(IImage) | 지정된 기존 이미지에서 ImageWrapper 클래스를 새 인스턴스로 초기화합니다. |
-| [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper_1)(Stream) | 지정된 데이터 스트림에서 ImageWrapper 클래스를 새 인스턴스로 초기화합니다. |
-| [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper_2)(string) | 지정된 파일에서 ImageWrapper 클래스를 새 인스턴스로 초기화합니다. |
+| [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper)(IImage) | 지정된 기존 이미지를 사용하여 ImageWrapper 클래스의 새 인스턴스를 초기화합니다. |
+| [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper_1)(Stream) | 지정된 데이터 스트림을 사용하여 ImageWrapper 클래스의 새 인스턴스를 초기화합니다. |
+| [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper_2)(string) | 지정된 파일을 사용하여 ImageWrapper 클래스의 새 인스턴스를 초기화합니다. |
 
 ### 참고
 

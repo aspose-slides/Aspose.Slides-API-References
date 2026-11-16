@@ -1,14 +1,14 @@
 ---
 title: ControlType
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes .NET API 참조
 description: AddControl./icontrolcollection/addcontrol에 의해 삽입되어야 하는 컨트롤 유형을 정의합니다.
 type: docs
-weight: 2720
+weight: 2740
 url: /ko/aspose.slides/controltype/
 ---
 ## ControlType 열거형
 
-[`AddControl`](../icontrolcollection/addcontrol)에 의해 삽입되어야 하는 컨트롤 유형을 정의합니다.
+ControlType 열거형은 [`AddControl`](../icontrolcollection/addcontrol)에 의해 삽입되어야 하는 컨트롤 유형을 정의합니다.
 
 ```csharp
 public enum ControlType
@@ -18,9 +18,9 @@ public enum ControlType
 
 | 이름 | 값 | 설명 |
 | --- | --- | --- |
-| WindowsMediaPlayer | `0` | Windows Media Player 컨트롤. |
+| WindowsMediaPlayer | `0` | Windows Media Player 컨트롤입니다. |
 
-### 참고
+### 관련 항목
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

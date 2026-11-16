@@ -3,7 +3,7 @@ title: IFontSubstRuleCollection
 second_title: Referência da API Aspose.Sildes para .NET
 description: Representa uma coleção de substituição de fontes.
 type: docs
-weight: 5890
+weight: 5910
 url: /pt/aspose.slides/ifontsubstrulecollection/
 ---
 ## IFontSubstRuleCollection interface
@@ -16,18 +16,18 @@ public interface IFontSubstRuleCollection : IGenericCollection<IFontSubstRule>
 
 ## Propriedades
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
 | [Item](../../aspose.slides/ifontsubstrulecollection/item) { get; } | Obtém o elemento no índice especificado. |
 
 ## Métodos
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
 | [Add](../../aspose.slides/ifontsubstrulecollection/add)(IFontSubstRule) | Adiciona a nova regra de substituição de fonte à coleção |
 | [Remove](../../aspose.slides/ifontsubstrulecollection/remove)(IFontSubstRule) | Remove a primeira ocorrência de um objeto específico da coleção. |
 
-### Ver Também
+### Veja Também
 
 * interface [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * interface [IFontSubstRule](../ifontsubstrule)

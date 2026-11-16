@@ -1,14 +1,14 @@
 ---
 title: IInkActions
-second_title: Aspose.Sildes a .NET API hivatkozáshoz
-description: Egy dia tintobjektumát képviseli.
+second_title: Aspose.Sildes .NET API referencia
+description: Egy tintával kapcsolatos objektumot képvisel egy dián.
 type: docs
-weight: 7520
+weight: 7540
 url: /hu/aspose.slides.ink/iinkactions/
 ---
-## IInkActions interfész
+## IInkActions interface
 
-Egy dia tintobjektumát képviseli.
+Egy tintával kapcsolatos objektumot képvisel egy dián.
 
 ```csharp
 public interface IInkActions : IGraphicalObject
@@ -18,9 +18,9 @@ public interface IInkActions : IGraphicalObject
 
 | Név | Leírás |
 | --- | --- |
-| [AsIGraphicalObject](../../aspose.slides.ink/iinkactions/asigraphicalobject) { get; } | Lehetővé teszi a bázis IGraphicalObject interfész lekérését. Csak olvasható [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
+| [AsIGraphicalObject](../../aspose.slides.ink/iinkactions/asigraphicalobject) { get; } | Lehetővé teszi a bazis IGraphicalObject interfész elérését. Csak olvasható [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
 
-### Kapcsolódó elemek
+### Lásd még
 
 * interfész [IGraphicalObject](../../aspose.slides/igraphicalobject)
 * névtér [Aspose.Slides.Ink](../../aspose.slides.ink)

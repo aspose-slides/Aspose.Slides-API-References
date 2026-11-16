@@ -1,14 +1,14 @@
 ---
 title: IMathAccent
-second_title: Aspose.Sildes pro .NET API referenci
-description: Určuje funkci přízvuku skládající se ze základního elementu a kombinující diakritické značky. Příklad ́
+second_title: Aspose.Sildes pro .NET API Reference
+description: Určuje funkci akcentu skládající se ze základního prvku a kombinující diakritické značky. Příklad ́
 type: docs
-weight: 8080
+weight: 8100
 url: /cs/aspose.slides.mathtext/imathaccent/
 ---
 ## IMathAccent rozhraní
 
-Určuje funkci přízvuku, skládající se ze základního elementu a kombinující diakritické značky. Příklad: 𝑎́
+Určuje funkci akcentu, která se skládá ze základního prvku a kombinující diakritické značky. Příklad: 𝑎́
 
 ```csharp
 public interface IMathAccent : IMathElement
@@ -16,11 +16,11 @@ public interface IMathAccent : IMathElement
 
 ## Vlastnosti
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
 | [AsIMathElement](../../aspose.slides.mathtext/imathaccent/asimathelement) { get; } | Umožňuje získat základní rozhraní IMathElement [`IMathElement`](../imathelement) |
-| [Base](../../aspose.slides.mathtext/imathaccent/base) { get; } | Argument, ke kterému byl přízvuk aplikován |
-| [Character](../../aspose.slides.mathtext/imathaccent/character) { get; set; } | Znak přízvuku Hodnota by měla být v rozsahu (U+0300–U+036F) nebo (U+20D0–U+20EF). Výchozí hodnota: Combining Circumflex Accent (U+0302) |
+| [Base](../../aspose.slides.mathtext/imathaccent/base) { get; } | Argument, na který byl akcent aplikován |
+| [Character](../../aspose.slides.mathtext/imathaccent/character) { get; set; } | Znak akcentu. Hodnota by měla být v rozsahu (U+0300–U+036F) nebo (U+20D0–U+20EF). Výchozí hodnota: Kombinující střední akcent (U+0302) |
 
 ### Příklady
 

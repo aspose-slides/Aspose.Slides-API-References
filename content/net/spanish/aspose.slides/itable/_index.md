@@ -3,10 +3,10 @@ title: ITable
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Representa una tabla en una diapositiva.
 type: docs
-weight: 7230
+weight: 7250
 url: /es/aspose.slides/itable/
 ---
-## ITable interfaz
+## ITable interface
 
 Representa una tabla en una diapositiva.
 
@@ -27,17 +27,17 @@ public interface ITable : IBulkTextFormattable, IGraphicalObject
 | [Item](../../aspose.slides/itable/item) { get; } | Devuelve la celda en los índices de columna y fila especificados. Solo lectura [`ICell`](../icell). |
 | [LastCol](../../aspose.slides/itable/lastcol) { get; set; } | Determina si la última columna de una tabla debe dibujarse con un formato especial. Lectura/escritura Booleano. |
 | [LastRow](../../aspose.slides/itable/lastrow) { get; set; } | Determina si la última fila de una tabla debe dibujarse con un formato especial. Lectura/escritura Booleano. |
-| [RightToLeft](../../aspose.slides/itable/righttoleft) { get; set; } | Determina si la tabla tiene orden de lectura de derecha a izquierda. Lectura-escritura Booleano. |
+| [RightToLeft](../../aspose.slides/itable/righttoleft) { get; set; } | Determina si la tabla tiene orden de lectura de derecha a izquierda. Lectura/escritura Booleano. |
 | [Rows](../../aspose.slides/itable/rows) { get; } | Devuelve la colección de filas. Solo lectura [`IRowCollection`](../irowcollection). |
 | [StylePreset](../../aspose.slides/itable/stylepreset) { get; set; } | Obtiene o establece el estilo de tabla incorporado. Lectura/escritura [`TableStylePreset`](../tablestylepreset). |
-| [TableFormat](../../aspose.slides/itable/tableformat) { get; } | Devuelve el objeto TableFormat que contiene propiedades de formato para esta tabla. Solo lectura [`ITableFormat`](../itableformat). |
+| [TableFormat](../../aspose.slides/itable/tableformat) { get; } | Devuelve el objeto TableFormat que contiene las propiedades de formato para esta tabla. Solo lectura [`ITableFormat`](../itableformat). |
 | [VerticalBanding](../../aspose.slides/itable/verticalbanding) { get; set; } | Determina si las columnas pares deben dibujarse con un formato diferente. Lectura/escritura Booleano. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [MergeCells](../../aspose.slides/itable/mergecells)(ICell, ICell, bool) | Combina celdas adyacentes. |
+| [MergeCells](../../aspose.slides/itable/mergecells)(ICell, ICell, bool) | Fusiona celdas adyacentes. |
 
 ### Ver también
 

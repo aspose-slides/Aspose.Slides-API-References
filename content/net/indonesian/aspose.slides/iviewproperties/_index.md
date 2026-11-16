@@ -1,9 +1,9 @@
 ---
 title: IViewProperties
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Properti tampilan seluruh presentasi.
 type: docs
-weight: 7390
+weight: 7410
 url: /id/aspose.slides/iviewproperties/
 ---
 ## IViewProperties antarmuka
@@ -18,12 +18,12 @@ public interface IViewProperties
 
 | Nama | Deskripsi |
 | --- | --- |
-| [GridSpacing](../../aspose.slides/iviewproperties/gridspacing) { get; set; } | Mengembalikan atau mengatur jarak kisi yang harus digunakan untuk kisi yang mendasari dokumen presentasi, dalam satuan poin. Baca/tulis Single. |
-| [LastView](../../aspose.slides/iviewproperties/lastview) { get; set; } | Menentukan mode tampilan yang digunakan saat dokumen presentasi terakhir disimpan. Baca/tulis [`ViewType`](../viewtype). |
-| [NormalViewProperties](../../aspose.slides/iviewproperties/normalviewproperties) { get; } | Mewakili properti tampilan normal. Tampilan normal terdiri dari tiga wilayah konten: slide itu sendiri, wilayah konten samping, dan wilayah konten bawah. Baca-saja [`INormalViewProperties`](../inormalviewproperties). |
-| [NotesViewProperties](../../aspose.slides/iviewproperties/notesviewproperties) { get; } | Menentukan properti tampilan umum yang terkait dengan mode tampilan catatan. Baca-saja [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
+| [GridSpacing](../../aspose.slides/iviewproperties/gridspacing) { get; set; } | Mengembalikan atau mengatur jarak kisi yang harus digunakan untuk kisi yang mendasari dokumen presentasi, dalam poin. Baca/tulis Single. |
+| [LastView](../../aspose.slides/iviewproperties/lastview) { get; set; } | Menentukan mode tampilan yang digunakan ketika dokumen presentasi terakhir disimpan. Baca/tulis [`ViewType`](../viewtype). |
+| [NormalViewProperties](../../aspose.slides/iviewproperties/normalviewproperties) { get; } | Mewakili properti tampilan normal. Tampilan normal terdiri dari tiga wilayah konten: slide itu sendiri, wilayah konten samping, dan wilayah konten bawah. Hanya baca [`INormalViewProperties`](../inormalviewproperties). |
+| [NotesViewProperties](../../aspose.slides/iviewproperties/notesviewproperties) { get; } | Menentukan properti tampilan umum yang terkait dengan mode tampilan catatan. Hanya baca [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
 | [ShowComments](../../aspose.slides/iviewproperties/showcomments) { get; set; } | Menentukan apakah komentar slide harus ditampilkan. Baca/tulis [`NullableBool`](../nullablebool). |
-| [SlideViewProperties](../../aspose.slides/iviewproperties/slideviewproperties) { get; } | Menentukan properti tampilan umum yang terkait dengan mode tampilan slide. Baca-saja [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
+| [SlideViewProperties](../../aspose.slides/iviewproperties/slideviewproperties) { get; } | Menentukan properti tampilan umum yang terkait dengan mode tampilan slide. Hanya baca [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
 
 ### Lihat Juga
 

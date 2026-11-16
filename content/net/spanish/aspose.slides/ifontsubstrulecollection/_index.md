@@ -1,14 +1,14 @@
 ---
 title: IFontSubstRuleCollection
-second_title: Aspose.Sildes para la referencia de la API .NET
-description: Representa la colección de sustitución de fuentes.
+second_title: Referencia de API de Aspose.Sildes para .NET
+description: Representa una colección de sustitución de fuentes.
 type: docs
-weight: 5890
+weight: 5910
 url: /es/aspose.slides/ifontsubstrulecollection/
 ---
 ## IFontSubstRuleCollection interfaz
 
-Representa la colección de sustitución de fuentes.
+Representa una colección de sustitución de fuentes.
 
 ```csharp
 public interface IFontSubstRuleCollection : IGenericCollection<IFontSubstRule>
@@ -16,18 +16,18 @@ public interface IFontSubstRuleCollection : IGenericCollection<IFontSubstRule>
 
 ## Propiedades
 
-| Nombre | Descripción |
+| Name | Description |
 | --- | --- |
 | [Item](../../aspose.slides/ifontsubstrulecollection/item) { get; } | Obtiene el elemento en el índice especificado. |
 
 ## Métodos
 
-| Nombre | Descripción |
+| Name | Description |
 | --- | --- |
-| [Add](../../aspose.slides/ifontsubstrulecollection/add)(IFontSubstRule) | Añade la nueva regla de sustitución de fuentes a la colección |
-| [Remove](../../aspose.slides/ifontsubstrulecollection/remove)(IFontSubstRule) | Elimina la primera ocurrencia de un objeto específico de la colección. |
+| [Add](../../aspose.slides/ifontsubstrulecollection/add)(IFontSubstRule) | Agrega la nueva regla de sustitución de fuentes a la colección |
+| [Remove](../../aspose.slides/ifontsubstrulecollection/remove)(IFontSubstRule) | Elimina la primera aparición de un objeto específico de la colección. |
 
-### Ver también
+### Véase también
 
 * interfaz [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * interfaz [IFontSubstRule](../ifontsubstrule)

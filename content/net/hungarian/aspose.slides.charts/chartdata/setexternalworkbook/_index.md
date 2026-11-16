@@ -1,28 +1,28 @@
 ---
 title: SetExternalWorkbook
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Beállítja a külső munkafüzetet adatforrásként a diagramhoz. A diagram adatai a cél munkafüzettel lesznek frissítve.
+second_title: Aspose.Sildes .NET API referencia
+description: Beállítja a külső munkafüzetet adatforrásként a diagramhoz. A diagram adatai a célmunkafüzetből frissülnek.
 type: docs
-weight: 120
+weight: 130
 url: /hu/aspose.slides.charts/chartdata/setexternalworkbook/
 ---
 ## SetExternalWorkbook(string) {#setexternalworkbook}
 
-Beállítja a külső munkafüzetet adatforrásként a diagramhoz. A diagram adatai a cél munkafüzettel frissülnek.
+Beállítja a külső munkafüzetet adatforrásként a diagramhoz. A diagram adatai a célmunkafüzetből frissülnek.
 
 ```csharp
 public void SetExternalWorkbook(string workbookPath)
 ```
 
-| Parameter | Type | Description |
+| Paraméter | Típus | Leírás |
 | --- | --- | --- |
-| workbookPath | String | Az cél munkafüzet elérési útja |
+| workbookPath | String | A célmunkafüzet elérési útja |
 
-### Kivétel
+### Kivételek
 
-| exception | condition |
+| kivétel | feltétel |
 | --- | --- |
-| InvalidOperationException | A külső munkafüzet nem érhető el vagy nem tölthető be. |
+| InvalidOperationException | A külső munkafüzet nem érhető el, vagy nem tölthető be. |
 
 ### Példák
 
@@ -52,16 +52,16 @@ Beállítja a külső munkafüzetet adatforrásként a diagramhoz.
 public void SetExternalWorkbook(string workbookPath, bool updateChartData)
 ```
 
-| Parameter | Type | Description |
+| Paraméter | Típus | Leírás |
 | --- | --- | --- |
-| workbookPath | String | Az cél munkafüzet elérési útja |
-| updateChartData | Boolean | Ha az érték hamis, csak a munkafüzet útvonala frissül. A diagram adatai nem töltődnek be és nem frissülnek a cél munkafüzettel. Akkor használható, ha a cél munkafüzet nem létezik vagy nem érhető el. Ha az érték igaz, a diagram adatai frissülnek a cél munkafüzettel. |
+| workbookPath | String | A célmunkafüzet elérési útja |
+| updateChartData | Boolean | Ha az érték false, csak a munkafüzet elérési útja frissül. A diagram adatai nem töltődnek be és nem frissülnek a célmunkafüzetből. Használható, ha a célmunkafüzet nem létezik vagy nem érhető el. Ha az érték true, a diagram adatai a célmunkafüzetből frissülnek. |
 
-### Kivétel
+### Kivételek
 
-| exception | condition |
+| kivétel | feltétel |
 | --- | --- |
-| InvalidOperationException | A külső munkafüzet nem érhető el vagy nem tölthető be. |
+| InvalidOperationException | A külső munkafüzet nem érhető el, vagy nem tölthető be. |
 
 ### Példák
 

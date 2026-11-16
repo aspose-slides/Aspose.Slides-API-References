@@ -1,9 +1,9 @@
 ---
 title: IMathParagraph
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Parágrafo matemático que é um contêiner para blocos matemáticos IMathBlock
 type: docs
-weight: 8390
+weight: 8410
 url: /pt/aspose.slides.mathtext/imathparagraph/
 ---
 ## IMathParagraph interface
@@ -39,7 +39,7 @@ IMathParagraph mathParagraph = (shape.TextFrame.Paragraphs[0].Portions[0] as Mat
 mathParagraph.Justification = MathJustification.LeftJustified;
 ```
 
-### Ver também
+### Veja também
 
 * interface [IMathBlockCollection](../imathblockcollection)
 * namespace [Aspose.Slides.MathText](../../aspose.slides.mathtext)

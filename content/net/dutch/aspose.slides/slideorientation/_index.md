@@ -1,14 +1,14 @@
 ---
 title: SlideOrientation
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt de dia-oriëntatie voor.
+description: Geeft de slide-oriëntatie weer.
 type: docs
-weight: 10000
+weight: 10020
 url: /nl/aspose.slides/slideorientation/
 ---
 ## SlideOrientation enumeratie
 
-Stelt de dia-oriëntatie voor.
+Geeft de slide-oriëntatie weer.
 
 ```csharp
 public enum SlideOrientation
@@ -18,8 +18,8 @@ public enum SlideOrientation
 
 | Naam | Waarde | Beschrijving |
 | --- | --- | --- |
-| Landscape | `0` | Landscape oriëntatie. |
-| Portrait | `1` | Portrait oriëntatie. |
+| Landscape | `0` | Landschapsoriëntatie. |
+| Portrait | `1` | Portretoriëntatie. |
 
 ### Zie ook
 

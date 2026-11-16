@@ -1,14 +1,14 @@
 ---
 title: NullableBool
-second_title: Riferimento API di Aspose.Sildes per .NET
-description: Rappresenta valori booleani tripli.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Rappresenta valori booleani triplici.
 type: docs
-weight: 9170
+weight: 9190
 url: /it/aspose.slides/nullablebool/
 ---
-## Enumerazione NullableBool
+## enumerazione NullableBool
 
-Rappresenta valori booleani tripli.
+Rappresenta valori booleani triplici.
 
 ```csharp
 public enum NullableBool : sbyte

@@ -1,14 +1,14 @@
 ---
 title: IThreeDFormatEffectiveData
-second_title: Aspose.Sildes για .NET API Αναφορά
+second_title: Aspose.Sildes για .NET Αναφορά API
 description: Αμετάβλητο αντικείμενο που αντιπροσωπεύει τις αποτελεσματικές ιδιότητες μορφοποίησης 3-D.
 type: docs
-weight: 7340
+weight: 7360
 url: /el/aspose.slides/ithreedformateffectivedata/
 ---
 ## IThreeDFormatEffectiveData διασύνδεση
 
-Αμετάβλητο αντικείμενο που αντιπροσωπεύει τις αποτελεσματικές ιδιότητες μορφοποίησης 3-D.
+Αμετάβλητο αντικείμενο που αντιπροσωπεύει τις αποτελεσματικές ιδιότητες μορφοποίησης 3-Δ.
 
 ```csharp
 public interface IThreeDFormatEffectiveData : IThreeDParamSource
@@ -16,21 +16,21 @@ public interface IThreeDFormatEffectiveData : IThreeDParamSource
 
 ## Ιδιότητες
 
-| Όνομα | Περιγραφή |
+| Name | Description |
 | --- | --- |
-| [AsIThreeDParamSource](../../aspose.slides/ithreedformateffectivedata/asithreedparamsource) { get; } | Επιτρέπει την απόκτηση της βασικής διασύνδεσης IThreeDParamSource. Μόνο για ανάγνωση [`IThreeDParamSource`](../ithreedparamsource). |
-| [BevelBottom](../../aspose.slides/ithreedformateffectivedata/bevelbottom) { get; } | Επιστρέφει τον τύπο του κάτω 3-D χωνιού. Μόνο για ανάγνωση [`IShapeBevelEffectiveData`](../ishapebeveleffectivedata). |
-| [BevelTop](../../aspose.slides/ithreedformateffectivedata/beveltop) { get; } | Επιστρέφει τον τύπο του πάνω 3-D χωνιού. Μόνο για ανάγνωση [`IShapeBevelEffectiveData`](../ishapebeveleffectivedata). |
-| [Camera](../../aspose.slides/ithreedformateffectivedata/camera) { get; } | Επιστρέφει τις ρυθμίσεις μιας κάμερας. Μόνο για ανάγνωση [`ICameraEffectiveData`](../icameraeffectivedata). |
-| [ContourColor](../../aspose.slides/ithreedformateffectivedata/contourcolor) { get; } | Επιστρέφει το χρώμα μιας περιγράμματος. Μόνο για ανάγνωση Color. |
-| [ContourWidth](../../aspose.slides/ithreedformateffectivedata/contourwidth) { get; } | Επιστρέφει το πλάτος ενός 3-D περιγράμματος. Μόνο για ανάγνωση Double. |
-| [Depth](../../aspose.slides/ithreedformateffectivedata/depth) { get; } | Επιστρέφει το βάθος ενός 3-D σχήματος. Μόνο για ανάγνωση Double. |
-| [ExtrusionColor](../../aspose.slides/ithreedformateffectivedata/extrusioncolor) { get; } | Επιστρέφει το χρώμα μιας εξώθησης. Μόνο για ανάγνωση Color. |
-| [ExtrusionHeight](../../aspose.slides/ithreedformateffectivedata/extrusionheight) { get; } | Επιστρέφει το ύψος ενός εφέ εξώθησης. Μόνο για ανάγνωση Double. |
-| [LightRig](../../aspose.slides/ithreedformateffectivedata/lightrig) { get; } | Επιστρέφει τον τύπο ενός φωτός. Μόνο για ανάγνωση [`ILightRigEffectiveData`](../ilightrigeffectivedata). |
-| [Material](../../aspose.slides/ithreedformateffectivedata/material) { get; } | Επιστρέφει τον τύπο ενός υλικού. Μόνο για ανάγνωση [`MaterialPresetType`](../materialpresettype). |
+| [AsIThreeDParamSource](../../aspose.slides/ithreedformateffectivedata/asithreedparamsource) { get; } | Επιτρέπει την λήψη της βασικής διασύνδεσης IThreeDParamSource. Μόνο-ανάγνωση [`IThreeDParamSource`](../ithreedparamsource). |
+| [BevelBottom](../../aspose.slides/ithreedformateffectivedata/bevelbottom) { get; } | Επιστρέφει τον τύπο του κάτω 3Δ χωνιού. Μόνο-ανάγνωση [`IShapeBevelEffectiveData`](../ishapebeveleffectivedata). |
+| [BevelTop](../../aspose.slides/ithreedformateffectivedata/beveltop) { get; } | Επιστρέφει τον τύπο του επάνω 3Δ χωνιού. Μόνο-ανάγνωση [`IShapeBevelEffectiveData`](../ishapebeveleffectivedata). |
+| [Camera](../../aspose.slides/ithreedformateffectivedata/camera) { get; } | Επιστρέφει τις ρυθμίσεις μιας κάμερας. Μόνο-ανάγνωση [`ICameraEffectiveData`](../icameraeffectivedata). |
+| [ContourColor](../../aspose.slides/ithreedformateffectivedata/contourcolor) { get; } | Επιστρέφει το χρώμα ενός περιγράμματος. Μόνο-ανάγνωση Color. |
+| [ContourWidth](../../aspose.slides/ithreedformateffectivedata/contourwidth) { get; } | Επιστρέφει το πλάτος ενός 3Δ περιγράμματος. Μόνο-ανάγνωση Double. |
+| [Depth](../../aspose.slides/ithreedformateffectivedata/depth) { get; } | Επιστρέφει το βάθος ενός 3Δ σχήματος. Μόνο-ανάγνωση Double. |
+| [ExtrusionColor](../../aspose.slides/ithreedformateffectivedata/extrusioncolor) { get; } | Επιστρέφει το χρώμα μιας εξώθησης. Μόνο-ανάγνωση Color. |
+| [ExtrusionHeight](../../aspose.slides/ithreedformateffectivedata/extrusionheight) { get; } | Επιστρέφει το ύψος ενός εφέ εξώθησης. Μόνο-ανάγνωση Double. |
+| [LightRig](../../aspose.slides/ithreedformateffectivedata/lightrig) { get; } | Επιστρέφει τον τύπο ενός φωτός. Μόνο-ανάγνωση [`ILightRigEffectiveData`](../ilightrigeffectivedata). |
+| [Material](../../aspose.slides/ithreedformateffectivedata/material) { get; } | Επιστρέφει τον τύπο ενός υλικού. Μόνο-ανάγνωση [`MaterialPresetType`](../materialpresettype). |
 
-### Σχόλια
+### Παρατηρήσεις
 
 Αυτή η διασύνδεση χρησιμοποιείται μαζί με τη διασύνδεση [`IThreeDFormat`](../ithreedformat) για την επιστροφή αποτελεσματικών τιμών μορφοποίησης με εφαρμοσμένη κληρονομικότητα.
 
@@ -38,6 +38,6 @@ public interface IThreeDFormatEffectiveData : IThreeDParamSource
 
 * διασύνδεση [IThreeDParamSource](../ithreedparamsource)
 * χώρο ονομάτων [Aspose.Slides](../../aspose.slides)
-* συγκρότημα [Aspose.Slides](../../)
+* συναρμολόγηση [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

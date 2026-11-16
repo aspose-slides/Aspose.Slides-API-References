@@ -1,12 +1,12 @@
 ---
 title: Placeholder
-second_title: Aspose.Sildes dla .NET – odniesienie API
+second_title: Aspose.Sildes dla .NET – Dokumentacja API
 description: Reprezentuje element zastępczy na slajdzie.
 type: docs
-weight: 9430
+weight: 9450
 url: /pl/aspose.slides/placeholder/
 ---
-## Klasa Placeholder
+## Klasa Zastępnik
 
 Reprezentuje element zastępczy na slajdzie.
 

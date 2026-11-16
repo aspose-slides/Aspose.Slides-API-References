@@ -1,14 +1,14 @@
 ---
 title: ChartTextFormat
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 차트 텍스트 요소에 대한 기본 텍스트 서식을 지정합니다.
+description: 차트 텍스트 요소의 기본 텍스트 서식을 지정합니다.
 type: docs
-weight: 1480
+weight: 1490
 url: /ko/aspose.slides.charts/charttextformat/
 ---
 ## ChartTextFormat 클래스
 
-차트 텍스트 요소에 대한 기본 텍스트 서식을 지정합니다.
+차트 텍스트 요소의 기본 텍스트 서식을 지정합니다.
 
 ```csharp
 public class ChartTextFormat : IChartTextFormat
@@ -16,7 +16,7 @@ public class ChartTextFormat : IChartTextFormat
 
 ## 속성
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
 | [ParagraphFormat](../../aspose.slides.charts/charttextformat/paragraphformat) { get; } | ParagraphFormat. 읽기 전용 [`IChartParagraphFormat`](../ichartparagraphformat). |
 | [PortionFormat](../../aspose.slides.charts/charttextformat/portionformat) { get; } | PortionFormat. 읽기 전용 [`IChartPortionFormat`](../ichartportionformat). |
@@ -24,12 +24,12 @@ public class ChartTextFormat : IChartTextFormat
 
 ## 메서드
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
 | [CopyFrom](../../aspose.slides.charts/charttextformat/copyfrom)(ITextFrame) | 지정된 텍스트 프레임에서 텍스트 서식을 복사합니다. |
-| [CopyTo](../../aspose.slides.charts/charttextformat/copyto)(ITextFrame) | 지정된 텍스트 프레임에 텍스트 서식을 복사합니다. |
+| [CopyTo](../../aspose.slides.charts/charttextformat/copyto)(ITextFrame) | 지정된 텍스트 프레임으로 텍스트 서식을 복사합니다. |
 
-### 또 보기
+### 참고
 
 * 인터페이스 [IChartTextFormat](../icharttextformat)
 * 네임스페이스 [Aspose.Slides.Charts](../../aspose.slides.charts)

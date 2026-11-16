@@ -3,7 +3,7 @@ title: IMasterHandoutSlide
 second_title: Aspose.Sildes for .NET API リファレンス
 description: ハンドアウト用のマスタースライドを表します。
 type: docs
-weight: 6350
+weight: 6370
 url: /ja/aspose.slides/imasterhandoutslide/
 ---
 ## IMasterHandoutSlide インターフェイス
@@ -18,12 +18,12 @@ public interface IMasterHandoutSlide : IBaseSlide, IMasterThemeable
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/imasterhandoutslide/asibaseslide) { get; } | ベースの IBaseSlide インターフェイスを取得できます。読み取り専用 [`IBaseSlide`](../ibaseslide)。 |
-| [AsIMasterThemeable](../../aspose.slides/imasterhandoutslide/asimasterthemeable) { get; } | IMasterThemeable インターフェイスを返します。読み取り専用 [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable)。 |
-| [DrawingGuides](../../aspose.slides/imasterhandoutslide/drawingguides) { get; } | マスターハンドアウト スライド用の描画ガイドのコレクションを返します。読み取り専用 [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [HeaderFooterManager](../../aspose.slides/imasterhandoutslide/headerfootermanager) { get; } | マスターハンドアウト スライドの HeaderFooter マネージャーを返します。読み取り専用 [`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager)。 |
+| [AsIBaseSlide](../../aspose.slides/imasterhandoutslide/asibaseslide) { get; } | ベースのIBaseSlideインターフェイスを取得できます。読み取り専用 [`IBaseSlide`](../ibaseslide)。 |
+| [AsIMasterThemeable](../../aspose.slides/imasterhandoutslide/asimasterthemeable) { get; } | IMasterThemeableインターフェイスを返します。読み取り専用 [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable)。 |
+| [DrawingGuides](../../aspose.slides/imasterhandoutslide/drawingguides) { get; } | マスターハンドアウトスライドの描画ガイドのコレクションを返します。読み取り専用 [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [HeaderFooterManager](../../aspose.slides/imasterhandoutslide/headerfootermanager) { get; } | マスターハンドアウトスライドのHeaderFooterマネージャーを返します。読み取り専用 [`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager)。 |
 
-### 参照
+### 関連項目
 
 * インターフェイス [IBaseSlide](../ibaseslide)
 * インターフェイス [IMasterThemeable](../../aspose.slides.theme/imasterthemeable)

@@ -1,9 +1,9 @@
 ---
 title: Hide
-second_title: Aspose.Sildes for .NET API-referentie
-description: Maak het datalabel verborgen door alle Show-flags ShowValue ... op false te zetten. IsVisible zal daarna false zijn.
+second_title: Aspose.Sildes voor .NET API Referentie
+description: Maak het datalabel verborgen door alle Show-flags (ShowValue ...) op false te zetten. IsVisible zal daarna false zijn.
 type: docs
-weight: 200
+weight: 210
 url: /nl/aspose.slides.charts/datalabel/hide/
 ---
 ## DataLabel.Hide methode
@@ -16,7 +16,7 @@ public void Hide()
 
 ### Opmerkingen
 
-Als het datalabel niet zichtbaar is (IsVisible is false) kun je het datalabel zichtbaar maken door Show*-flags (ShowValue, ...) op true te zetten.
+Als het datalabel niet zichtbaar is (IsVisible is false) kun je het datalabel zichtbaar maken door de Show*-flags (ShowValue, ...) op true te zetten.
 
 ### Zie ook
 

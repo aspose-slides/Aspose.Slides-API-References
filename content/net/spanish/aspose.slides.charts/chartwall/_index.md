@@ -1,14 +1,14 @@
 ---
 title: ChartWall
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Representa paredes en gráficos 3d.
+description: Representa paredes en gráficos 3D.
 type: docs
-weight: 1520
+weight: 1530
 url: /es/aspose.slides.charts/chartwall/
 ---
-## Clase ChartWall
+## ChartWall clase
 
-Representa paredes en gráficos 3d.
+Representa paredes en gráficos 3D.
 
 ```csharp
 public class ChartWall : DomObject<Chart>, IChartWall
@@ -18,7 +18,7 @@ public class ChartWall : DomObject<Chart>, IChartWall
 
 | Nombre | Descripción |
 | --- | --- |
-| [Format](../../aspose.slides.charts/chartwall/format) { get; } | Devuelve el relleno de la pared, línea, efecto, estilos 3d. Solo lectura [`IFormat`](../iformat). |
+| [Format](../../aspose.slides.charts/chartwall/format) { get; } | Devuelve el relleno de la pared, línea, efecto, estilos 3D. Solo lectura [`IFormat`](../iformat). |
 | [PictureType](../../aspose.slides.charts/chartwall/picturetype) { get; set; } | Devuelve o establece el tipo de imagen. Lectura/escritura [`PictureType`](../picturetype). |
 | [Thickness](../../aspose.slides.charts/chartwall/thickness) { get; set; } | Devuelve o establece el grosor de las paredes como un porcentaje de la mayor dimensión del volumen del trazado. Lectura/escritura Int32. |
 

@@ -1,9 +1,9 @@
 ---
 title: IResourceLoadingArgs
-second_title: Tham chiếu API Aspose.Sildes cho .NET
+second_title: Tham khảo API Aspose.Sildes cho .NET
 description: Giao diện cho các đối số tải tài nguyên bên ngoài.
 type: docs
-weight: 6830
+weight: 6850
 url: /vi/aspose.slides/iresourceloadingargs/
 ---
 ## IResourceLoadingArgs giao diện
@@ -16,16 +16,16 @@ public interface IResourceLoadingArgs
 
 ## Thuộc tính
 
-| Tên | Mô tả |
+| Name | Description |
 | --- | --- |
-| [OriginalUri](../../aspose.slides/iresourceloadingargs/originaluri) { get; } | URI gốc của tài nguyên như đã chỉ định trong bản trình bày đã nhập. |
+| [OriginalUri](../../aspose.slides/iresourceloadingargs/originaluri) { get; } | URI gốc của tài nguyên như đã chỉ định trong bản trình chiếu được nhập. |
 | [Uri](../../aspose.slides/iresourceloadingargs/uri) { get; set; } | URI của tài nguyên được sử dụng để tải xuống nếu [`ResourceLoading`](../iresourceloadingcallback/resourceloading) trả về Default. Ban đầu nó được đặt thành URI gốc của tài nguyên, nhưng có thể được định nghĩa lại thành bất kỳ giá trị nào. |
 
 ## Phương thức
 
-| Tên | Mô tả |
+| Name | Description |
 | --- | --- |
-| [SetData](../../aspose.slides/iresourceloadingargs/setdata)(byte[]) | Đặt dữ liệu do người dùng cung cấp cho tài nguyên sẽ được sử dụng nếu [`ResourceLoading`](../iresourceloadingcallback/resourceloading) trả về UserProvided. |
+| [SetData](../../aspose.slides/iresourceloadingargs/setdata)(byte[]) | Đặt dữ liệu được người dùng cung cấp cho tài nguyên sẽ được sử dụng nếu [`ResourceLoading`](../iresourceloadingcallback/resourceloading) trả về UserProvided. |
 
 ### Xem thêm
 

@@ -1,14 +1,14 @@
 ---
 title: Luminance
-second_title: "Aspose.Sildes для .NET: справочник API"
-description: Представляет эффект Luminance. Яркость линейно смещает все цвета ближе к белому или чёрному. Контраст масштабирует все цвета, делая их ближе или дальше друг от друга.
+second_title: Aspose.Sildes для .NET: справка API
+description: Представляет эффект Luminance. Яркость линейно сдвигает все цвета ближе к белому или чёрному. Контраст масштабирует все цвета, делая их ближе или дальше друг от друга.
 type: docs
-weight: 3610
+weight: 3630
 url: /ru/aspose.slides.effects/luminance/
 ---
-## Luminance класс
+## Класс Luminance
 
-Представляет эффект Luminance. Яркость линейно смещает все цвета ближе к белому или чёрному. Контраст масштабирует все цвета, делая их ближе или дальше друг от друга.
+Represents a Luminance effect. Brightness linearly shifts all colors closer to white or black. Contrast scales all colors to be either closer or further apart.
 
 ```csharp
 public sealed class Luminance : ImageTransformOperation, ILuminance
@@ -24,11 +24,11 @@ public sealed class Luminance : ImageTransformOperation, ILuminance
 
 | Имя | Описание |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/luminance/equals)(object) | Определяет, равен ли указанный [`Luminance`](../luminance) текущему [`Luminance`](../luminance). |
-| [GetEffective](../../aspose.slides.effects/luminance/geteffective)() | Получает эффективные данные эффекта Luminance с применённым наследованием. |
-| override [GetHashCode](../../aspose.slides.effects/luminance/gethashcode)() | Служит в качестве функции хэша для конкретного типа. |
+| override [Equals](../../aspose.slides.effects/luminance/equals)(object) | Определяет, равно ли указанное [`Luminance`](../luminance) текущему [`Luminance`](../luminance). |
+| [GetEffective](../../aspose.slides.effects/luminance/geteffective)() | Получает данные эффекта Luminance с учётом наследования. |
+| override [GetHashCode](../../aspose.slides.effects/luminance/gethashcode)() | Служит в качестве хеш-функции для определённого типа. |
 
-### Смотрите также
+### См. также
 
 * класс [ImageTransformOperation](../imagetransformoperation)
 * интерфейс [ILuminance](../iluminance)

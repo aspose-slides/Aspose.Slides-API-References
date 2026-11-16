@@ -1,14 +1,14 @@
 ---
 title: IHyperlink
-second_title: Aspose.Sildes สำหรับ .NET การอ้างอิง API
-description: เป็นตัวแทนของไฮเปอร์ลิงก์.
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: แสดงไฮเปอร์ลิงก์.
 type: docs
-weight: 6110
+weight: 6130
 url: /th/aspose.slides/ihyperlink/
 ---
 ## IHyperlink อินเทอร์เฟซ
 
-เป็นตัวแทนของไฮเปอร์ลิงก์.
+แสดง hyperlink.
 
 ```csharp
 public interface IHyperlink
@@ -18,17 +18,17 @@ public interface IHyperlink
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [ActionType](../../aspose.slides/ihyperlink/actiontype) { get; } | คืนค่าประเภทของการกระทำของ HyperLinkEx. อ่านอย่างเดียว [`HyperlinkActionType`](../hyperlinkactiontype). |
-| [ColorSource](../../aspose.slides/ihyperlink/colorsource) { get; set; } | แทนแหล่งที่มาของสีไฮเปอร์ลิงก์ - ทั้งสไตล์หรือรูปแบบส่วน. อ่าน/เขียน [`HyperlinkColorSource`](../hyperlinkcolorsource). |
-| [ExternalUrl](../../aspose.slides/ihyperlink/externalurl) { get; } | ระบุ URL ภายนอก หากคุณสมบัตินี้ไม่เป็นค่า null แล้วคุณสมบัติ TargetSlide จะเป็น null. อ่านอย่างเดียว String. |
-| [ExternalUrlOriginal](../../aspose.slides/ihyperlink/externalurloriginal) { get; } | แทนไฮเปอร์ลิงก์ที่ตั้งค่าสำหรับส่วนนี้โดยไม่คำนึงถึงเนื้อหาจริงของส่วนนั้น. PowerPoint มีการทำงานเฉพาะสำหรับลิงก์และข้อความที่สอดคล้องกันในส่วนนั้น. มันอนุญาตให้สร้างข้อความสำหรับไฮเปอร์ลิงก์ในรูปแบบ URL ที่ถูกต้อง ซึ่งแตกต่างจากที่อยู่จริงของลิงก์. ในกรณีนี้ เมื่อคุณดูลิงก์ในหน้าต่างแก้ไข จะถูกเปลี่ยนให้ตรงกับส่วนข้อความ. คุณสมบัตินี้แทนค่าต้นฉบับของไฮเปอร์ลิงก์. |
-| [HighlightClick](../../aspose.slides/ihyperlink/highlightclick) { get; set; } | กำหนดว่าไฮเปอร์ลิงก์ควรเน้นเมื่อคลิกหรือไม่. อ่าน/เขียน Boolean. |
-| [History](../../aspose.slides/ihyperlink/history) { get; set; } | กำหนดว่าเป้าหมายของไฮเปอร์ลิงก์พาเรนท์จะถูกเพิ่มไปยังรายการของไฮเปอร์ลิงก์ที่ดูเมื่อถูกเรียกใช้หรือไม่. อ่าน/เขียน Boolean. |
-| [Sound](../../aspose.slides/ihyperlink/sound) { get; set; } | แทนเสียงที่เล่นของไฮเปอร์ลิงก์. อ่าน/เขียน [`IAudio`](../iaudio). |
-| [StopSoundOnClick](../../aspose.slides/ihyperlink/stopsoundonclick) { get; set; } | กำหนดว่าจะหยุดเสียงเมื่อคลิกไฮเปอร์ลิงก์หรือไม่. อ่าน/เขียน Boolean. |
-| [TargetFrame](../../aspose.slides/ihyperlink/targetframe) { get; set; } | คืนค่าเฟรมภายในชุดเฟรม HTML ของพาเรนท์สำหรับเป้าหมายของไฮเปอร์ลิงก์พาเรนท์เมื่อมีอยู่. อ่าน/เขียน String. |
-| [TargetSlide](../../aspose.slides/ihyperlink/targetslide) { get; } | หาก HyperlinkEx ชี้เป้าไปยังสไลด์เฉพาะจะคืนค่าสไลด์นั้น. หากคุณสมบัตินี้ไม่เป็นค่า null แล้วคุณสมบัติ ExternalUrl จะเป็น null. อ่านอย่างเดียว [`ISlide`](../islide). |
-| [Tooltip](../../aspose.slides/ihyperlink/tooltip) { get; set; } | คืนค่า string ที่อาจแสดงในส่วนติดต่อผู้ใช้ที่เกี่ยวข้องกับไฮเปอร์ลิงก์พาเรนท์. อ่าน/เขียน String. |
+| [ActionType](../../aspose.slides/ihyperlink/actiontype) { get; } | ส่งคืนประเภทของการทำงานของ HyperLinkEx. อ่านอย่างเดียว [`HyperlinkActionType`](../hyperlinkactiontype). |
+| [ColorSource](../../aspose.slides/ihyperlink/colorsource) { get; set; } | แสดงแหล่งที่มาของสีของ hyperlink - ทั้งสไตล์หรือรูปแบบส่วน. อ่าน/เขียน [`HyperlinkColorSource`](../hyperlinkcolorsource). |
+| [ExternalUrl](../../aspose.slides/ihyperlink/externalurl) { get; } | ระบุ URL ภายนอก หากคุณสมบัตินี้ไม่เป็นค่าว่าง (null) แล้วคุณสมบัติ TargetSlide จะเป็นค่าว่าง. อ่านอย่างเดียว String. |
+| [ExternalUrlOriginal](../../aspose.slides/ihyperlink/externalurloriginal) { get; } | แสดง hyperlink ที่กำหนดไว้สำหรับส่วนนี้โดยไม่คำนึงถึงเนื้อหาจริงของส่วนนั้น. PowerPoint ทำงานเฉพาะสำหรับลิงก์และข้อความที่สอดคล้องกันในส่วน. มันอนุญาตให้สร้างข้อความสำหรับ hyperlink ในรูปแบบของ URL ที่ถูกต้อง ซึ่งแตกต่างจากที่อยู่จริงของลิงก์. ในกรณีนี้เมื่อคุณดูลิงก์ในหน้าต่างแก้ไข จะมีการเปลี่ยนแปลงให้ตรงกับข้อความส่วนนั้น. คุณสมบัตินี้แสดงค่าต้นฉบับของ hyperlink. |
+| [HighlightClick](../../aspose.slides/ihyperlink/highlightclick) { get; set; } | กำหนดว่าลิงก์ควรทำไฮไลท์เมื่อคลิกหรือไม่. อ่าน/เขียน Boolean. |
+| [History](../../aspose.slides/ihyperlink/history) { get; set; } | กำหนดว่าปลายทางของ hyperlink พาเรนต์จะถูกเพิ่มในรายการของ hyperlink ที่ถูกดูเมื่อเรียกใช้หรือไม่. อ่าน/เขียน Boolean. |
+| [Sound](../../aspose.slides/ihyperlink/sound) { get; set; } | แสดงเสียงที่เล่นของ hyperlink. อ่าน/เขียน [`IAudio`](../iaudio). |
+| [StopSoundOnClick](../../aspose.slides/ihyperlink/stopsoundonclick) { get; set; } | กำหนดว่าควรหยุดเสียงเมื่อคลิก hyperlink หรือไม่. อ่าน/เขียน Boolean. |
+| [TargetFrame](../../aspose.slides/ihyperlink/targetframe) { get; set; } | ส่งคืนเฟรมภายใน parent HTML frameset สำหรับปลายทางของ hyperlink พาเรนต์เมื่อมี. อ่าน/เขียน String. |
+| [TargetSlide](../../aspose.slides/ihyperlink/targetslide) { get; } | หาก HyperlinkEx ชี้เป้าไปยังสไลด์เฉพาะจะส่งคืนสไลด์นั้น. หากคุณสมบัตินี้ไม่เป็นค่าว่างแล้วคุณสมบัติ ExternalUrl จะเป็นค่าว่าง. อ่านอย่างเดียว [`ISlide`](../islide). |
+| [Tooltip](../../aspose.slides/ihyperlink/tooltip) { get; set; } | ส่งคืนสตริงที่อาจปรากฏในส่วนติดต่อผู้ใช้เป็นข้อมูลที่เชื่อมโยงกับ hyperlink พาเรนต์. อ่าน/เขียน String. |
 
 ## เมธอด
 
@@ -38,7 +38,7 @@ public interface IHyperlink
 
 ### ดูเพิ่มเติม
 
-* เนมส페ซ [Aspose.Slides](../../aspose.slides)
+* เนมสเปซ [Aspose.Slides](../../aspose.slides)
 * แอสเซมบลี [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

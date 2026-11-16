@@ -1,14 +1,14 @@
 ---
 title: IColumnFormatEffectiveData
-second_title: Aspose.Sildes for .NET API 참조
-description: 효과적인 테이블 열 서식 속성을 포함하는 불변 객체입니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 유효한 테이블 열 서식 속성을 포함하는 불변 객체입니다.
 type: docs
-weight: 5550
+weight: 5570
 url: /ko/aspose.slides/icolumnformateffectivedata/
 ---
-## IColumnFormatEffectiveData interface
+## IColumnFormatEffectiveData 인터페이스
 
-효과적인 테이블 열 서식 속성을 포함하는 불변 객체입니다.
+유효한 테이블 열 서식 속성을 포함하는 불변 객체입니다.
 
 ```csharp
 public interface IColumnFormatEffectiveData : IBaseTableFormatEffectiveData
@@ -22,9 +22,9 @@ public interface IColumnFormatEffectiveData : IBaseTableFormatEffectiveData
 
 ### 비고
 
-이 인터페이스는 [`IColumnFormat`](../icolumnformat) 인터페이스와 함께 사용되어 상속 및 테이블 스타일이 적용된 효과적인 서식 값을 반환합니다.
+이 인터페이스는 [`IColumnFormat`](../icolumnformat) 인터페이스와 함께 사용되어 상속 및 테이블 스타일이 적용된 유효한 서식 값을 반환합니다.
 
-### 참조
+### 참고
 
 * 인터페이스 [IBaseTableFormatEffectiveData](../ibasetableformateffectivedata)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

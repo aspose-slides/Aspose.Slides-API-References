@@ -1,9 +1,9 @@
 ---
 title: IAxisFormat
-second_title: Aspose.Sildes для .NET справочник API
+second_title: Aspose.Sildes для .NET API
 description: Представляет свойства формата диаграммы.
 type: docs
-weight: 1720
+weight: 1730
 url: /ru/aspose.slides.charts/iaxisformat/
 ---
 ## IAxisFormat интерфейс

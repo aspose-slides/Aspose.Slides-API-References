@@ -1,14 +1,14 @@
 ---
 title: ParentSeries
 second_title: Aspose.Sildes a .NET API referencia
-description: Visszaadja a szülő sorozatot. Csak olvasható IChartSeriesaspose.slides.charts/ichartseries.
+description: Lekéri a szülő sorozatot. Csak olvasható IChartSeriesaspose.slides.charts/ichartseries.
 type: docs
-weight: 80
+weight: 90
 url: /hu/aspose.slides.charts/datalabelcollection/parentseries/
 ---
 ## DataLabelCollection.ParentSeries tulajdonság
 
-Visszaadja a szülő sorozatot. Csak olvasható [`IChartSeries`](../../ichartseries).
+Lekéri a szülő sorozatot. Csak olvasható [`IChartSeries`](../../ichartseries).
 
 ```csharp
 public IChartSeries ParentSeries { get; }

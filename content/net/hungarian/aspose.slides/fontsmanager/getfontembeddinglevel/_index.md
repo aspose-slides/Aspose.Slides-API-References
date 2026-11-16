@@ -1,14 +1,14 @@
 ---
 title: GetFontEmbeddingLevel
-second_title: Aspose.Sildes for .NET API Referencia
-description: Meghatározza a betűtípus beágyazási szintjét a megadott bájt tömbből és a betűtípus nevéből.
+second_title: Aspose.Sildes .NET API Referencia
+description: Meghatározza egy betűkészlet beágyazási szintjét a megadott bájt tömbből és a betűkészlet nevéből.
 type: docs
-weight: 60
+weight: 70
 url: /hu/aspose.slides/fontsmanager/getfontembeddinglevel/
 ---
 ## FontsManager.GetFontEmbeddingLevel metódus
 
-Meghatározza a betűtípus beágyazási szintjét a megadott bájt tömbből és a betűtípus nevéből.
+Meghatározza egy betűkészlet beágyazási szintjét a megadott bájt tömbből és betűkészletnévből.
 
 ```csharp
 public EmbeddingLevel GetFontEmbeddingLevel(byte[] fontBytes, string fontName)
@@ -16,18 +16,18 @@ public EmbeddingLevel GetFontEmbeddingLevel(byte[] fontBytes, string fontName)
 
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
-| fontBytes | Byte[] | A betűtípus adatokat tartalmazó bájt tömb. |
-| fontName | String | A betűtípus neve. |
+| fontBytes | Byte[] | A betűkészlet adatot tartalmazó bájt tömb. |
+| fontName | String | A betűkészlet neve. |
 
 ### Visszatérési érték
 
-A megadott betűtípus beágyazási szintje.
+A megadott betűkészlet beágyazási szintje.
 
 ### Kivételek
 
 | kivétel | feltétel |
 | --- | --- |
-| ArgumentNullException | A *fontBytes* null esetén dobja. |
+| ArgumentNullException | Akkor dobódik, amikor *fontBytes* null. |
 
 ### Példák
 
@@ -35,13 +35,13 @@ A megadott betűtípus beágyazási szintje.
 [C#]
 using (Presentation pres = new Presentation(pptxFileName))
 {
-    // Lekéri a prezentációban használt összes betűtípust
+    // Lekéri a prezentációban használt összes betűkészletet
     IFontData[] fontDatas = pres.FontsManager.GetFonts();
 
-    // Lekéri a bájt tömböt, amely a prezentáció első betűtípusának normál stílusát képviseli
+    // Lekéri az első betűkészlet rendszeres stílusát reprezentáló bájt tömböt a prezentációból
     byte[] bytes = pres.FontsManager.GetFontBytes(fontDatas[0], FontStyle.Regular);
 
-    // Meghatározza a betűtípus beágyazási szintjét
+    // Meghatározza a betűkészlet beágyazási szintjét
     EmbeddingLevel embeddingLevel = pres.FontsManager.GetFontEmbeddingLevel(bytes, fontDatas[0].FontName);
 }
 ```

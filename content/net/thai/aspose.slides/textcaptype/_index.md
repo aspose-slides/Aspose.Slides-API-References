@@ -1,14 +1,14 @@
 ---
 title: TextCapType
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: แสดงถึงประเภทของการใช้ตัวพิมพ์ใหญ่ของข้อความ.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงประเภทของการทำให้ข้อความเป็นตัวพิมพ์ใหญ่.
 type: docs
-weight: 10930
+weight: 10950
 url: /th/aspose.slides/textcaptype/
 ---
-## การนับค่าชนิด TextCapType
+## TextCapType enumeration
 
-แสดงถึงประเภทของการใช้ตัวพิมพ์ใหญ่ของข้อความ.
+Represents the type of text capitalisation.
 
 ```csharp
 public enum TextCapType : sbyte
@@ -16,7 +16,7 @@ public enum TextCapType : sbyte
 
 ### ค่า
 
-| ชื่อ | ค่า | คำอธิบาย |
+| ชื่อ | ค่า | รายละเอียด |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | None | `0` |  |

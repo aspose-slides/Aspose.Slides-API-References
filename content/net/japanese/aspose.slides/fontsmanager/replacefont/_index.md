@@ -1,14 +1,14 @@
 ---
 title: ReplaceFont
 second_title: Aspose.Sildes for .NET API リファレンス
-description: プレゼンテーションのフォントを置き換える
+description: プレゼンテーションのフォントを置換します
 type: docs
-weight: 100
+weight: 110
 url: /ja/aspose.slides/fontsmanager/replacefont/
 ---
 ## ReplaceFont(IFontData, IFontData) {#replacefont}
 
-プレゼンテーションのフォントを置き換える
+プレゼンテーションのフォントを置換します
 
 ```csharp
 public void ReplaceFont(IFontData sourceFont, IFontData destFont)
@@ -16,10 +16,10 @@ public void ReplaceFont(IFontData sourceFont, IFontData destFont)
 
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| sourceFont | IFontData | Source font |
-| destFont | IFontData | Destination font |
+| sourceFont | IFontData | ソースフォント |
+| destFont | IFontData | 宛先フォント |
 
-### 参照
+### 関連項目
 
 * インターフェイス [IFontData](../../ifontdata)
 * クラス [FontsManager](../../fontsmanager)
@@ -30,7 +30,7 @@ public void ReplaceFont(IFontData sourceFont, IFontData destFont)
 
 ## ReplaceFont(IFontSubstRule) {#replacefont_1}
 
-[`FontSubstRule`](../../fontsubstrule)で提供される情報を使用してプレゼンテーションのフォントを置き換える
+[`FontSubstRule`](../../fontsubstrule)で提供された情報を使用してプレゼンテーションのフォントを置換します
 
 ```csharp
 public void ReplaceFont(IFontSubstRule substRule)
@@ -38,9 +38,9 @@ public void ReplaceFont(IFontSubstRule substRule)
 
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| substRule | IFontSubstRule | Font substitution info |
+| substRule | IFontSubstRule | フォント置換情報 |
 
-### 参照
+### 関連項目
 
 * インターフェイス [IFontSubstRule](../../ifontsubstrule)
 * クラス [FontsManager](../../fontsmanager)
@@ -51,7 +51,7 @@ public void ReplaceFont(IFontSubstRule substRule)
 
 ## ReplaceFont(IFontSubstRuleCollection) {#replacefont_2}
 
-[`FontSubstRule`](../../fontsubstrule)のコレクションで提供される情報を使用してプレゼンテーションのフォントを置き換える
+[`FontSubstRule`](../../fontsubstrule)のコレクションで提供された情報を使用してプレゼンテーションのフォントを置換します
 
 ```csharp
 public void ReplaceFont(IFontSubstRuleCollection substRules)
@@ -59,9 +59,9 @@ public void ReplaceFont(IFontSubstRuleCollection substRules)
 
 | パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| substRules | IFontSubstRuleCollection | Font substitution rules collection |
+| substRules | IFontSubstRuleCollection | フォント置換ルールのコレクション |
 
-### 参照
+### 関連項目
 
 * インターフェイス [IFontSubstRuleCollection](../../ifontsubstrulecollection)
 * クラス [FontsManager](../../fontsmanager)

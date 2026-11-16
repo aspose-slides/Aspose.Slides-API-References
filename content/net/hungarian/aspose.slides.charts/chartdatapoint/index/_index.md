@@ -1,9 +1,9 @@
 ---
 title: Index
-second_title: Aspose.Sildes .NET API referencia
+second_title: Aspose.Sildes .NET API referenciája
 description: 
 type: docs
-weight: 110
+weight: 150
 url: /hu/aspose.slides.charts/chartdatapoint/index/
 ---
 ## ChartDataPoint.Index tulajdonság

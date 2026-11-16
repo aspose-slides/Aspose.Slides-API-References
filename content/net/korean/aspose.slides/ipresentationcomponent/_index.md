@@ -1,9 +1,9 @@
 ---
 title: IPresentationComponent
-second_title: Aspose.Sildes .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 프레젠테이션의 구성 요소를 나타냅니다.
 type: docs
-weight: 6760
+weight: 6780
 url: /ko/aspose.slides/ipresentationcomponent/
 ---
 ## IPresentationComponent 인터페이스
@@ -20,7 +20,7 @@ public interface IPresentationComponent
 | --- | --- |
 | [Presentation](../../aspose.slides/ipresentationcomponent/presentation) { get; } | 프레젠테이션을 반환합니다. 읽기 전용 [`IPresentation`](../ipresentation). |
 
-### 관련 항목
+### 기타 참조
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

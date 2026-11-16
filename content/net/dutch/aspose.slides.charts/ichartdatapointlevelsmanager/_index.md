@@ -1,14 +1,14 @@
 ---
 title: IChartDataPointLevelsManager
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Container van gegevenspuntniveaus. Toegepast voor Treeamp- en Sunburst-series. Indexering van gegevenspuntniveaus is nulgebaseerd.
+description: Container van datapunteniveaus. Toegepast voor Treeamp- en Sunburst-series. Indexering van datapunteniveaus is nulgebaseerd.
 type: docs
-weight: 1850
+weight: 1870
 url: /nl/aspose.slides.charts/ichartdatapointlevelsmanager/
 ---
 ## IChartDataPointLevelsManager interface
 
-Container van gegevenspuntniveaus. Toegepast voor Treeamp- en Sunburst-series. Indexering van gegevenspuntniveaus is nulgebaseerd.
+Container van datapunteniveaus. Toegepast voor Treeamp- en Sunburst-series. Indexering van datapunteniveaus is nulgebaseerd.
 
 ```csharp
 public interface IChartDataPointLevelsManager
@@ -18,8 +18,8 @@ public interface IChartDataPointLevelsManager
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Count](../../aspose.slides.charts/ichartdatapointlevelsmanager/count) { get; } | Retourneert het aantal gegevenspuntniveaus. |
-| [Item](../../aspose.slides.charts/ichartdatapointlevelsmanager/item) { get; } | Retourneert IChartDataPointLevel-object voor het gedefinieerde niveau. |
+| [Count](../../aspose.slides.charts/ichartdatapointlevelsmanager/count) { get; } | Geeft het aantal datapunteniveaus terug. |
+| [Item](../../aspose.slides.charts/ichartdatapointlevelsmanager/item) { get; } | Geeft een IChartDataPointLevel-object voor het gedefinieerde niveau terug. |
 
 ### Zie ook
 

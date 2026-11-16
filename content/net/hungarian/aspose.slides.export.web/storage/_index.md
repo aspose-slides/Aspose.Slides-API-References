@@ -1,14 +1,14 @@
 ---
 title: Storage
-second_title: Aspose.Sildes a .NET API hivatkozása
-description: Egy ideiglenes adattárolót képvisel a WebDocument számára./webdocument.
+second_title: Aspose.Sildes a .NET API referenciája
+description: Ideiglenes adat tárolót képvisel a WebDocument./webdocument számára.
 type: docs
-weight: 4660
+weight: 4680
 url: /hu/aspose.slides.export.web/storage/
 ---
 ## Tároló osztály
 
-Egy ideiglenes adat tárolót képvisel a [`WebDocument`](../webdocument) számára.
+Ideiglenes adat-tárolót képvisel a [`WebDocument`](../webdocument) számára.
 
 ```csharp
 public sealed class Storage
@@ -20,13 +20,13 @@ public sealed class Storage
 | --- | --- |
 | [Storage](storage)() | Az alapértelmezett konstruktor. |
 
-## Metódusok
+## Módszerek
 
 | Név | Leírás |
 | --- | --- |
 | [ContainsKey](../../aspose.slides.export.web/storage/containskey)(string) | Megállapítja, hogy a tároló tartalmaz-e egy elemet a megadott kulccsal. |
-| [Get&lt;TValue&gt;](../../aspose.slides.export.web/storage/get)(string) | Lekéri az adatokat a tárolóból. |
-| [Put&lt;TValue&gt;](../../aspose.slides.export.web/storage/put)(string, TValue) | Behelyezi az értéket a tárolóba. |
+| [Get&lt;TValue&gt;](../../aspose.slides.export.web/storage/get)(string) | A tárolóból lekéri az adatot. |
+| [Put&lt;TValue&gt;](../../aspose.slides.export.web/storage/put)(string, TValue) | A tárolóba helyezi az értéket. |
 
 ### Lásd még
 

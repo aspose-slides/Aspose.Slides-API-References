@@ -1,14 +1,14 @@
 ---
 title: TemplateContextTObject
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: แสดงถึงอินเทอร์เฟซวัตถุโมเดลสำหรับเครื่องมือเทมเพลต.
+second_title: Aspose.Sildes สำหรับ .NET API อ้างอิง
+description: แทนอินเทอร์เฟซวัตถุโมเดลสำหรับเครื่องมือเทมเพลต.
 type: docs
-weight: 4670
+weight: 4690
 url: /th/aspose.slides.export.web/templatecontext-1/
 ---
 ## TemplateContext<TObject> คลาส
 
-แสดงถึงอินเทอร์เฟซวัตถุโมเดลสำหรับเครื่องมือเทมเพลต
+แทนอินเทอร์เฟซวัตถุโมเดลสำหรับเครื่องมือเทมเพลต
 
 ```csharp
 public sealed class TemplateContext<TObject>
@@ -18,8 +18,8 @@ public sealed class TemplateContext<TObject>
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Global](../../aspose.slides.export.web/templatecontext`1/global) { get; } | ส่งคืนที่เก็บข้อมูลระดับโลกของเอกสารโฮสต์. อ่านอย่างเดียว [`Storage`](../storage). |
-| [Local](../../aspose.slides.export.web/templatecontext`1/local) { get; } | ส่งคืนที่เก็บข้อมูลระดับท้องถิ่นของบริบทเทมเพลตปัจจุบัน. อ่านอย่างเดียว [`Storage`](../storage). |
+| [Global](../../aspose.slides.export.web/templatecontext`1/global) { get; } | ส่งคืนการจัดเก็บแบบทั่วโลกของเอกสารโฮสต์. อ่านอย่างเดียว [`Storage`](../storage). |
+| [Local](../../aspose.slides.export.web/templatecontext`1/local) { get; } | ส่งคืนการจัดเก็บระดับท้องถิ่นของบริบทเทมเพลตปัจจุบัน. อ่านอย่างเดียว [`Storage`](../storage). |
 | [Object](../../aspose.slides.export.web/templatecontext`1/object) { get; } | ส่งคืนวัตถุโมเดล. อ่านอย่างเดียว !:TObject. |
 | [Output](../../aspose.slides.export.web/templatecontext`1/output) { get; } | ส่งคืนคอลเลกชันขององค์ประกอบผลลัพธ์ของเอกสารโฮสต์. อ่านอย่างเดียว [`Output`](./output). |
 

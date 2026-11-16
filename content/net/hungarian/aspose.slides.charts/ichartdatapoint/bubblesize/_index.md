@@ -1,14 +1,14 @@
 ---
 title: BubbleSize
-second_title: Aspose.Sildes .NET API referencia
-description: Visszaadja a grafikon adatpont buborékméretét. Csak-olvasás IDoubleChartValueaspose.slides.charts/idoublechartvalue.
+second_title: Aspose.Sildes .NET API-referencia
+description: Lekéri a diagram adatpont buborék méretét. Csak olvasható IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
 weight: 20
 url: /hu/aspose.slides.charts/ichartdatapoint/bubblesize/
 ---
 ## IChartDataPoint.BubbleSize tulajdonság
 
-Visszaadja a grafikon adatpont buborékméretét. Csak-olvasás [`IDoubleChartValue`](../../idoublechartvalue).
+Lekéri a diagram adatpont buborék méretét. Csak olvasható [`IDoubleChartValue`](../../idoublechartvalue).
 
 ```csharp
 public IDoubleChartValue BubbleSize { get; }

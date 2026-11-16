@@ -1,14 +1,14 @@
 ---
 title: IOverrideThemeManager
-second_title: Aspose.Sildes para la referencia de API de .NET
-description: Proporciona acceso a diferentes tipos de temas sobrescritos.
+second_title: Referencia de API de Aspose.Sildes para .NET
+description: Proporciona acceso a diferentes tipos de temas anulados.
 type: docs
-weight: 11350
+weight: 11370
 url: /es/aspose.slides.theme/ioverridethememanager/
 ---
 ## IOverrideThemeManager interfaz
 
-Proporciona acceso a diferentes tipos de temas sobrescritos.
+Proporciona acceso a diferentes tipos de temas anulados.
 
 ```csharp
 public interface IOverrideThemeManager : IThemeManager
@@ -18,9 +18,9 @@ public interface IOverrideThemeManager : IThemeManager
 
 | Nombre | Descripción |
 | --- | --- |
-| [AsIThemeManager](../../aspose.slides.theme/ioverridethememanager/asithememanager) { get; } | Permite obtener la interfaz base IThemeManager. Solo lectura [`IThemeManager`](../ithememanager). |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/ioverridethememanager/isoverridethemeenabled) { get; } | Determina si OverrideTheme sobrescribe el tema efectivo heredado o no. Para habilitar OverrideTheme para sobrescribir, use los métodos OverrideTheme.Init*(). Para deshabilitar OverrideTheme de sobrescribir, use el método OverrideTheme.Clear(). Solo lectura Boolean. |
-| [OverrideTheme](../../aspose.slides.theme/ioverridethememanager/overridetheme) { get; set; } | Devuelve el objeto de tema sobrescrito. Lectura/escritura [`IOverrideTheme`](../ioverridetheme). |
+| [AsIThemeManager](../../aspose.slides.theme/ioverridethememanager/asithememanager) { get; } | Permite obtener la base IThemeManager interfaz. Solo lectura [`IThemeManager`](../ithememanager). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/ioverridethememanager/isoverridethemeenabled) { get; } | Determina si OverrideTheme anula el tema efectivo heredado o no. Para habilitar OverrideTheme para la sobrescritura use los métodos OverrideTheme.Init*(). Para desactivar OverrideTheme de la sobrescritura use el método OverrideTheme.Clear(). Solo lectura Boolean. |
+| [OverrideTheme](../../aspose.slides.theme/ioverridethememanager/overridetheme) { get; set; } | Devuelve el objeto de tema de anulación. Lectura/escritura [`IOverrideTheme`](../ioverridetheme). |
 
 ### Ver también
 

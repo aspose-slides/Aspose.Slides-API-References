@@ -1,14 +1,14 @@
 ---
 title: AddTextFrameForOverriding
 second_title: Aspose.Sildes for .NET API 참조
-description: TextFrameForOverriding을 매개변수 text의 텍스트로 초기화합니다. TextFrameForOverriding이 이미 초기화된 경우 단순히 해당 텍스트를 변경합니다.
+description: 텍스트 매개변수 text의 텍스트로 TextFrameForOverriding을 초기화합니다. TextFrameForOverriding이 이미 초기화된 경우 텍스트를 단순히 변경합니다.
 type: docs
-weight: 180
+weight: 190
 url: /ko/aspose.slides.charts/datalabel/addtextframeforoverriding/
 ---
 ## DataLabel.AddTextFrameForOverriding 메서드
 
-TextFrameForOverriding을 매개변수 "text"의 텍스트로 초기화합니다. TextFrameForOverriding이 이미 초기화된 경우 단순히 해당 텍스트를 변경합니다.
+TextFrameForOverriding을 매개변수 "text"에 있는 텍스트로 초기화합니다. TextFrameForOverriding이 이미 초기화되어 있는 경우 텍스트를 단순히 변경합니다.
 
 ```csharp
 public ITextFrame AddTextFrameForOverriding(string text)
@@ -16,9 +16,9 @@ public ITextFrame AddTextFrameForOverriding(string text)
 
 | 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
-| text | String | 새 TextFrameForOverriding에 대한 텍스트. |
+| text | String | 새 TextFrameForOverriding의 텍스트. |
 
-### 참고
+### 참조
 
 * 인터페이스 [ITextFrame](../../../aspose.slides/itextframe)
 * 클래스 [DataLabel](../../datalabel)

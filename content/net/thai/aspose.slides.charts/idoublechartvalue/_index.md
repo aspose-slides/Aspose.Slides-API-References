@@ -1,14 +1,14 @@
 ---
 title: IDoubleChartValue
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงค่าดับเบิลที่สามารถจัดเก็บในเอกสารงานนำเสนอ pptx ได้สองวิธี 1 ในเซลล์/เซลล์ของเวิร์กบุ๊กที่เกี่ยวข้องกับแผนภูมิ 2 เป็นค่าลิเทรัล.
+description: แทนค่าตัวเลขทศนิยมคู่ที่สามารถจัดเก็บในเอกสารการนำเสนอ pptx ได้สองวิธี 1 ในเซลล์/เซลล์ของเวิร์กบุ๊กที่เกี่ยวข้องกับแผนภูมิ 2 เป็นค่าลิเทรัล
 type: docs
-weight: 2070
+weight: 2090
 url: /th/aspose.slides.charts/idoublechartvalue/
 ---
 ## IDoubleChartValue อินเทอร์เฟซ
 
-แสดงค่าดับเบิลที่สามารถจัดเก็บในเอกสารงานนำเสนอ pptx ได้สองวิธี: 1) ในเซลล์/เซลล์ของเวิร์กบุ๊กที่เกี่ยวข้องกับแผนภูมิ; 2) เป็นค่าลิเทรัล.
+แทนค่าตัวเลขทศนิยมคู่ที่สามารถจัดเก็บในเอกสารการนำเสนอ pptx ได้สองวิธี: 1) ในเซลล์/เซลล์ของเวิร์กบุ๊คที่เกี่ยวข้องกับแผนภูมิ; 2) เป็นค่าลิเทรัล
 
 ```csharp
 public interface IDoubleChartValue : ISingleCellChartValue
@@ -16,14 +16,14 @@ public interface IDoubleChartValue : ISingleCellChartValue
 
 ## คุณสมบัติ
 
-| Name | คำอธิบาย |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsISingleCellChartValue](../../aspose.slides.charts/idoublechartvalue/asisinglecellchartvalue) { get; } | อนุญาตให้ดึงอินเทอร์เฟซฐาน ISingleCellChartValue. อ่านอย่างเดียว [`ISingleCellChartValue`](../isinglecellchartvalue). |
-| [AsLiteralDouble](../../aspose.slides.charts/idoublechartvalue/asliteraldouble) { get; set; } | คืนค่า หรือ ตั้งค่าค่าดับเบิลลิเทรัล หาก DataSourceType = Charts.DataSourceType.DoubleLiterals. อ่าน/เขียน Double. |
+| [AsISingleCellChartValue](../../aspose.slides.charts/idoublechartvalue/asisinglecellchartvalue) { get; } | อนุญาตให้รับอินเทอร์เฟซ ISingleCellChartValue พื้นฐาน. อ่านอย่างเดียว [`ISingleCellChartValue`](../isinglecellchartvalue). |
+| [AsLiteralDouble](../../aspose.slides.charts/idoublechartvalue/asliteraldouble) { get; set; } | คืนค่า หรือกำหนดค่าตัวเลข double ลิเทรัลหาก DataSourceType = Charts.DataSourceType.DoubleLiterals. อ่าน/เขียน Double. |
 
 ## เมธอด
 
-| Name | คำอธิบาย |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
 | [ToDouble](../../aspose.slides.charts/idoublechartvalue/todouble)() | แปลงเป็น double. |
 

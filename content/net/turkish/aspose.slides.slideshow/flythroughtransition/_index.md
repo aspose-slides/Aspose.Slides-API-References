@@ -1,34 +1,34 @@
 ---
 title: FlyThroughTransition
-second_title: Aspose.Sildes için .NET API Referansı
-description: Uçuş benzeri slayt geçiş efekti.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Fly-through slayt geçiş efekti.
 type: docs
-weight: 10040
+weight: 10060
 url: /tr/aspose.slides.slideshow/flythroughtransition/
 ---
-## FlyThroughTransition sınıfı
+## FlyThroughTransition class
 
-Uçuş benzeri slayt geçiş efekti.
+Fly-through slide transition effect.
 
 ```csharp
 public class FlyThroughTransition : TransitionValueBase, IFlyThroughTransition
 ```
 
-## Özellikler
+## Properties
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/flythroughtransition/direction) { get; set; } | Geçiş yönü. Okuma/Yazma [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [HasBounce](../../aspose.slides.slideshow/flythroughtransition/hasbounce) { get; set; } | Geçiş sırasında sunum slaytlarının hareketinin bir sıçrama içereceğini belirtir. Okuma/Yazma Boolean. |
+| [Direction](../../aspose.slides.slideshow/flythroughtransition/direction) { get; set; } | Geçişin yönü. Okuma/Yazma [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
+| [HasBounce](../../aspose.slides.slideshow/flythroughtransition/hasbounce) { get; set; } | Geçiş sırasında sunum slaytlarının hareketinin bir sıçramayı içerdiğini belirtir. Okuma/Yazma Boolean. |
 
-## Yöntemler
+## Methods
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | İki TransitionValueBase örneğinin eşit olup olmadığını belirler. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Belirli bir tip için hash işlevi olarak hizmet eder, hashleme algoritmaları ve hash tablosu gibi veri yapılarında kullanılmaya uygundur. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Belirli bir tür için bir hash işlevi olarak hizmet eder, hash algoritmaları ve hash tablosu gibi veri yapılarında kullanılmaya uygundur. |
 
-### Ayrıca Bakınız
+### See Also
 
 * sınıf [TransitionValueBase](../transitionvaluebase)
 * arayüz [IFlyThroughTransition](../iflythroughtransition)

@@ -1,14 +1,14 @@
 ---
 title: IMathPhantom
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een phantom wiskundig object ltmphantgt voor dat de layout van het onderliggende element beïnvloedt zonder het noodzakelijkerwijs weer te geven. Een phantom kan de basisexpressie verbergen terwijl breedte, hoogte of diepte behouden blijven om formules uit te lijnen of ruimte te reserveren. Zichtbaarheid en geometrisch gedrag worden beheerst door eigenschappen zoals Show, ZeroWid, ZeroAsc, ZeroDesc en Transp.
+description: Stelt een phantom wiskundig object ltmphantgt voor dat de lay-out van zijn kindelement beïnvloedt zonder het noodzakelijkerwijs weer te geven. Een phantom kan de basisuitdrukking verbergen terwijl de breedte, hoogte of diepte behouden blijven om formules uit te lijnen of ruimte te reserveren. Zichtbaarheid en geometrisch gedrag worden geregeld door eigenschappen zoals Show, ZeroWid, ZeroAsc, ZeroDesc en Transp.
 type: docs
-weight: 8410
+weight: 8430
 url: /nl/aspose.slides.mathtext/imathphantom/
 ---
 ## IMathPhantom interface
 
-Stelt een phantom wiskundig object (<m:phant>) voor dat de lay-out van het onderliggende element beïnvloedt zonder het noodzakelijkerwijs weer te geven. Een phantom kan zijn basisexpressie verbergen terwijl de breedte, hoogte of diepte behouden blijft om formules uit te lijnen of ruimte te reserveren. Zichtbaarheid en geometrisch gedrag worden bestuurd door eigenschappen zoals Show, ZeroWid, ZeroAsc, ZeroDesc en Transp.
+Represent een phantom wiskundig object (&lt;m:phant&gt;) dat de lay-out van zijn kindelement beïnvloedt zonder het noodzakelijkerwijs weer te geven. Een phantom kan de basisuitdrukking verbergen terwijl de breedte, hoogte of diepte behouden blijft om formules uit te lijnen of ruimte te reserveren. Zichtbaarheid en geometrisch gedrag worden geregeld door eigenschappen zoals Show, ZeroWid, ZeroAsc, ZeroDesc en Transp.
 
 ```csharp
 public interface IMathPhantom : IMathElement
@@ -19,11 +19,11 @@ public interface IMathPhantom : IMathElement
 | Naam | Beschrijving |
 | --- | --- |
 | [Base](../../aspose.slides.mathtext/imathphantom/base) { get; } | Basisargument |
-| [Show](../../aspose.slides.mathtext/imathphantom/show) { get; set; } | Geeft een waarde terug of stelt een waarde in die aangeeft of het basiselement wordt weergegeven. |
-| [Transp](../../aspose.slides.mathtext/imathphantom/transp) { get; set; } | Geeft een waarde terug of stelt een waarde in die aangeeft of de phantom transparant is voor op klassen gebaseerde spatiëringsregels. |
-| [ZeroAsc](../../aspose.slides.mathtext/imathphantom/zeroasc) { get; set; } | Geeft een waarde terug of stelt een waarde in die aangeeft of de stijging (hoogte boven de basislijn) van het basiselement als nul moet worden behandeld. |
-| [ZeroDesc](../../aspose.slides.mathtext/imathphantom/zerodesc) { get; set; } | Geeft een waarde terug of stelt een waarde in die aangeeft of de daling (diepte onder de basislijn) van het basiselement als nul moet worden behandeld. |
-| [ZeroWidth](../../aspose.slides.mathtext/imathphantom/zerowidth) { get; set; } | Geeft een waarde terug of stelt een waarde in die aangeeft of de breedte van het basiselement als nul moet worden behandeld. |
+| [Show](../../aspose.slides.mathtext/imathphantom/show) { get; set; } | Haalt of stelt een waarde in die aangeeft of het basiselement wordt weergegeven. |
+| [Transp](../../aspose.slides.mathtext/imathphantom/transp) { get; set; } | Haalt of stelt een waarde in die aangeeft of de phantom transparant is voor op klasse gebaseerde spatiëringsregels. |
+| [ZeroAsc](../../aspose.slides.mathtext/imathphantom/zeroasc) { get; set; } | Haalt of stelt een waarde in die aangeeft of de stijging (hoogte boven de basislijn) van het basiselement als nul moet worden behandeld. |
+| [ZeroDesc](../../aspose.slides.mathtext/imathphantom/zerodesc) { get; set; } | Haalt of stelt een waarde in die aangeeft of de daling (diepte onder de basislijn) van het basiselement als nul moet worden behandeld. |
+| [ZeroWidth](../../aspose.slides.mathtext/imathphantom/zerowidth) { get; set; } | Haalt of stelt een waarde in die aangeeft of de breedte van het basiselement als nul moet worden behandeld. |
 
 ### Voorbeelden
 

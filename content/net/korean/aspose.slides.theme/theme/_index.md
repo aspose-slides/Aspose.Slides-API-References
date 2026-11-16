@@ -1,12 +1,12 @@
 ---
 title: Theme
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 테마를 나타냅니다.
 type: docs
-weight: 11480
+weight: 11500
 url: /ko/aspose.slides.theme/theme/
 ---
-## Theme 클래스
+## 테마 클래스
 
 테마를 나타냅니다.
 
@@ -21,15 +21,15 @@ public abstract class Theme : ITheme
 | abstract [ColorScheme](../../aspose.slides.theme/theme/colorscheme) { get; } | 색 구성표를 반환합니다. 읽기 전용 [`IColorScheme`](../icolorscheme). |
 | abstract [FontScheme](../../aspose.slides.theme/theme/fontscheme) { get; } | 글꼴 구성표를 반환합니다. 읽기 전용 [`IFontScheme`](../ifontscheme). |
 | abstract [FormatScheme](../../aspose.slides.theme/theme/formatscheme) { get; } | 도형 형식 구성표를 반환합니다. 읽기 전용 [`IFormatScheme`](../iformatscheme). |
-| [Presentation](../../aspose.slides.theme/theme/presentation) { get; } | 상위 프레젠테이션을 반환합니다. 읽기 전용 [`IPresentation`](../../aspose.slides/ipresentation). |
+| [Presentation](../../aspose.slides.theme/theme/presentation) { get; } | 부모 프레젠테이션을 반환합니다. 읽기 전용 [`IPresentation`](../../aspose.slides/ipresentation). |
 
 ## 메서드
 
 | 이름 | 설명 |
 | --- | --- |
-| [GetEffective](../../aspose.slides.theme/theme/geteffective)() | 상속이 적용된 실제 테마 데이터를 가져옵니다. |
+| [GetEffective](../../aspose.slides.theme/theme/geteffective)() | 상속이 적용된 효과적인 테마 데이터를 가져옵니다. |
 
-### 참고
+### 참조
 
 * 인터페이스 [ITheme](../itheme)
 * 네임스페이스 [Aspose.Slides.Theme](../../aspose.slides.theme)

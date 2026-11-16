@@ -1,14 +1,14 @@
 ---
 title: ProtectionManager
 second_title: Aspose.Sildes för .NET API-referens
-description: Presentationens lösenordsskyddshantering.
+description: Hantera lösenordsskydd för presentation.
 type: docs
-weight: 9680
+weight: 9700
 url: /sv/aspose.slides/protectionmanager/
 ---
 ## ProtectionManager klass
 
-Presentation password protection management.
+Hantera lösenordsskydd för presentation.
 
 ```csharp
 public sealed class ProtectionManager : IProtectionManager
@@ -18,27 +18,27 @@ public sealed class ProtectionManager : IProtectionManager
 
 | Namn | Beskrivning |
 | --- | --- |
-| [EncryptDocumentProperties](../../aspose.slides/protectionmanager/encryptdocumentproperties) { get; set; } | Denna egendom är meningsfull om presentationen är lösenordsskyddad. Om true är dokumentegenskaperna krypterade i presentationsfilen. Om false är dokumentegenskaperna offentliga medan presentationen är krypterad. Läs/skriv Boolean. |
-| [EncryptionPassword](../../aspose.slides/protectionmanager/encryptionpassword) { get; } | Hämtar lösenordet som används för presentationskryptering. Endast läsbar String. |
-| [IsEncrypted](../../aspose.slides/protectionmanager/isencrypted) { get; } | Hämtar ett värde som indikerar om denna instans är krypterad. Endast läsbar Boolean. |
-| [IsOnlyDocumentPropertiesLoaded](../../aspose.slides/protectionmanager/isonlydocumentpropertiesloaded) { get; } | Denna egendom är meningsfull om presentationsfilen är lösenordsskyddad och dokumentegenskaperna i denna fil är offentliga. Värdet true betyder att endast dokumentegenskaper laddas från en krypterad presentationsfil utan lösenord. Värdet false betyder att hela den krypterade presentationen laddas med rätt lösenord, inte bara dokumentegenskaperna laddas. Om presentationen inte är krypterad är egenskapsvärdet alltid false. Om dokumentegenskaperna i en krypterad fil inte är offentliga är egenskapsvärdet alltid false. Om Presentation.EncryptDocumentProperties är true är värdet för IsOnlyDocumentPropertiesLoaded alltid false. Endast läsbar Boolean. |
-| [IsWriteProtected](../../aspose.slides/protectionmanager/iswriteprotected) { get; } | Hämtar ett värde som indikerar om denna presentation är skrivskyddad. Endast läsbar Boolean. |
-| [ReadOnlyRecommended](../../aspose.slides/protectionmanager/readonlyrecommended) { get; set; } | Hämtar eller anger läs-skyddsrekommendation. Läs/skriv Boolean. |
+| [EncryptDocumentProperties](../../aspose.slides/protectionmanager/encryptdocumentproperties) { get; set; } | Denna egenskap är meningsfull om presentationen är lösenordsskyddad. Om true så krypteras dokumentegenskaper i presentationsfilen. Om false så är dokumentegenskaper offentliga medan presentationen är krypterad. Läs/skriv Boolean. |
+| [EncryptionPassword](../../aspose.slides/protectionmanager/encryptionpassword) { get; } | Hämtar lösenordet som används för presentationskryptering. Läs-endast String. |
+| [IsEncrypted](../../aspose.slides/protectionmanager/isencrypted) { get; } | Hämtar ett värde som indikerar om den här instansen är krypterad. Läs-endast Boolean. |
+| [IsOnlyDocumentPropertiesLoaded](../../aspose.slides/protectionmanager/isonlydocumentpropertiesloaded) { get; } | Denna egenskap är meningsfull om presentationsfilen är lösenordsskyddad och dokumentegenskaperna i den filen är offentliga. Värdet true betyder att endast dokumentegenskaper laddas från en krypterad presentationsfil utan att använda lösenord. Värdet false betyder att hela den krypterade presentationen laddas med rätt lösenord, inte bara dokumentegenskaperna laddas. Om presentationen inte är krypterad är egenskapsvärdet alltid false. Om dokumentegenskaperna i en krypterad fil inte är offentliga är egenskapsvärdet alltid false. Om Presentation.EncryptDocumentProperties är true är värdet för IsOnlyDocumentPropertiesLoaded alltid false. Läs-endast Boolean. |
+| [IsWriteProtected](../../aspose.slides/protectionmanager/iswriteprotected) { get; } | Hämtar ett värde som indikerar om den här presentationen är skrivskyddad. Läs-endast Boolean. |
+| [ReadOnlyRecommended](../../aspose.slides/protectionmanager/readonlyrecommended) { get; set; } | Hämtar eller anger rekommendation för skrivskydd. Läs/skriv Boolean. |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
 | [CheckWriteProtection](../../aspose.slides/protectionmanager/checkwriteprotection)(string) | Bestämmer om en presentation är lösenordsskyddad för att modifieras. |
-| [Encrypt](../../aspose.slides/protectionmanager/encrypt)(string) | Krypterar presentation med angivet lösenord. |
+| [Encrypt](../../aspose.slides/protectionmanager/encrypt)(string) | Krypterar Presentation med angivet lösenord. |
 | [RemoveEncryption](../../aspose.slides/protectionmanager/removeencryption)() | Tar bort krypteringen. |
-| [RemoveWriteProtection](../../aspose.slides/protectionmanager/removewriteprotection)() | Tar bort skrivskydd för denna presentation. |
-| [SetWriteProtection](../../aspose.slides/protectionmanager/setwriteprotection)(string) | Ställer in skrivskydd för denna presentation med angivet lösenord. |
+| [RemoveWriteProtection](../../aspose.slides/protectionmanager/removewriteprotection)() | Tar bort skrivskyddet för denna presentation. |
+| [SetWriteProtection](../../aspose.slides/protectionmanager/setwriteprotection)(string) | Sätter skrivskydd för denna presentation med angivet lösenord. |
 
-### Se även
+### Se också
 
 * gränssnitt [IProtectionManager](../iprotectionmanager)
-* namnområde [Aspose.Slides](../../aspose.slides)
-* samling [Aspose.Slides](../../)
+* namnrymd [Aspose.Slides](../../aspose.slides)
+* sammanställning [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

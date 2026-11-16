@@ -1,9 +1,9 @@
 ---
 title: Marker
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes .NET API Referansı
 description: Bir veri işaretleyicisini belirtir. Salt okunur IMarker aspose.slides.charts/imarker.
 type: docs
-weight: 150
+weight: 190
 url: /tr/aspose.slides.charts/chartdatapoint/marker/
 ---
 ## ChartDataPoint.Marker özelliği

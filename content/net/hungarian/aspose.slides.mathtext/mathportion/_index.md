@@ -1,14 +1,14 @@
 ---
 title: MathPortion
-second_title: Aspose.Sildes .NET API hivatkozása
-description: Matematikai környezettel rendelkező részt reprezentál.
+second_title: Aspose.Sildes a .NET API referenciája
+description: Matematikai környezetet tartalmazó részt képviseli.
 type: docs
-weight: 8930
+weight: 8950
 url: /hu/aspose.slides.mathtext/mathportion/
 ---
-## MathPortion osztály
+## MathPortion class
 
-Represents a portion with mathematical context inside.
+Matematikai környezetet tartalmazó részt képviseli.
 
 ```csharp
 public sealed class MathPortion : Portion, IMathPortion
@@ -18,7 +18,7 @@ public sealed class MathPortion : Portion, IMathPortion
 
 | Név | Leírás |
 | --- | --- |
-| [MathPortion](mathportion)() | Initializes a new instance of the MathPortion class. |
+| [MathPortion](mathportion)() | Inicializál egy új MathPortion osztálypéldányt. |
 
 ## Tulajdonságok
 
@@ -26,22 +26,22 @@ public sealed class MathPortion : Portion, IMathPortion
 | --- | --- |
 | [Field](../../aspose.slides/portion/field) { get; } | Visszaad egy mezőt ebben a részben. Csak olvasható [`IField`](../../aspose.slides/ifield). |
 | [MathParagraph](../../aspose.slides.mathtext/mathportion/mathparagraph) { get; } | Matematikai bekezdés |
-| [PortionFormat](../../aspose.slides/portion/portionformat) { get; } | Visszaad egy objektumot, amely a szövegrészhez explicit módon beállított formázási tulajdonságokat tartalmaz, öröklődés nélkül. Csak olvasható [`IPortionFormat`](../../aspose.slides/iportionformat). |
-| [Text](../../aspose.slides/portion/text) { get; set; } | Lekéri vagy beállítja egy rész egyszerű szövegét. Olvasás/írás String. |
+| [PortionFormat](../../aspose.slides/portion/portionformat) { get; } | Visszaad egy formázási objektumot, amely tartalmazza a szövegrészletre kifejezetten beállított formázási tulajdonságokat, öröklődés nélkül. Csak olvasható [`IPortionFormat`](../../aspose.slides/iportionformat). |
+| [Text](../../aspose.slides/portion/text) { get; set; } | Lekéri vagy beállítja egy részlet egyszerű szövegét. Olvasás/írás String. |
 
-## Metódusok
+## Módszerek
 
 | Név | Leírás |
 | --- | --- |
-| [AddField](../../aspose.slides/portion/addfield)(IFieldType) | Átalakítja ezt a részt automatikusan frissített mezővé. |
-| [AddField](../../aspose.slides/portion/addfield)(string) | Átalakítja ezt a részt automatikusan frissített mezővé. |
-| [GetCoordinates](../../aspose.slides/portion/getcoordinates)() | Lekéri a rész kezdetének koordinátáit. A pont X koordinátája a rész kezdetét jelöli az első karaktertől, beleértve a bal oldali távolságot. Az Y koordináta tartalmazza a felső oldali távolságot. |
-| [GetRect](../../aspose.slides/portion/getrect)() | Lekéri a részt körülvevő téglalap koordinátáit. A téglalap tartalmazza a rész összes szövegsorát, beleértve az üres sorokat. |
-| [RemoveField](../../aspose.slides/portion/removefield)() | Átalakítja ezt a mezőrészt egyszerű részzé. |
+| [AddField](../../aspose.slides/portion/addfield)(IFieldType) | Átalakítja ezt a részletet automatikusan frissített mezővé. |
+| [AddField](../../aspose.slides/portion/addfield)(string) | Átalakítja ezt a részletet automatikusan frissített mezővé. |
+| [GetCoordinates](../../aspose.slides/portion/getcoordinates)() | Lekéri a részlet kezdetének koordinátáit. A pont X koordinátája a részlet kezdetét jelöli az első karaktertől, beleértve a bal oldali távolságot. Az Y koordináta a felső oldal távolságát tartalmazza. |
+| [GetRect](../../aspose.slides/portion/getrect)() | Lekéri a részletet határoló téglalap koordinátáit. A téglalap tartalmazza a részlet összes szövegsorát, beleértve az üres sorokat is. |
+| [RemoveField](../../aspose.slides/portion/removefield)() | Átalakítja ezt a mezőrészletet egyszerű részletté. |
 
 ### Példák
 
-Example:
+Példa:
 
 ```csharp
 [C#]

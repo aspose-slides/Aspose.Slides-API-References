@@ -1,12 +1,12 @@
 ---
 title: FillType
-second_title: Riferimento API di Aspose.Sildes per .NET
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Specifica il tipo di riempimento interno di vari oggetti visivi.
 type: docs
-weight: 4790
+weight: 4810
 url: /it/aspose.slides/filltype/
 ---
-## Enumerazione FillType
+## enumerazione FillType
 
 Specifica il tipo di riempimento interno di vari oggetti visivi.
 
@@ -21,8 +21,8 @@ public enum FillType : sbyte
 | NotDefined | `-1` | Il tipo di riempimento non è definito. |
 | NoFill | `0` | Nessun riempimento applicato. |
 | Solid | `1` | Riempito con un colore solido. |
-| Gradient | `2` | Il riempimento è gradiente. |
-| Pattern | `3` | Un modello ripetuto è utilizzato per riempire l'oggetto. |
+| Gradient | `2` | Il riempimento è a gradiente. |
+| Pattern | `3` | Viene utilizzato un motivo ripetuto per riempire l'oggetto. |
 | Picture | `4` | Una singola immagine è usata per riempire l'oggetto. |
 | Group | `5` | L'oggetto visivo eredita le proprietà di riempimento dal gruppo. |
 

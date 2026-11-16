@@ -1,14 +1,14 @@
 ---
 title: IMathLeftSubSuperscriptElement
-second_title: Aspose.Sildes for .NET API 參考
-description: 指定左上標下標物件，它由基底以及置於基底左側的下標與上標組成。
+second_title: Aspose.Sildes for .NET API 參考文件
+description: 指定位於基底左側的次上標物件，該物件由基底以及其下標與上標組成。
 type: docs
-weight: 8310
+weight: 8330
 url: /zh-hant/aspose.slides.mathtext/imathleftsubsuperscriptelement/
 ---
 ## IMathLeftSubSuperscriptElement 介面
 
-指定左上標下標物件，它由基底以及置於基底左側的下標與上標組成。
+指定位於基底左側的次上標物件，該物件由基底以及置於其左側的下標與上標組成。
 
 ```csharp
 public interface IMathLeftSubSuperscriptElement : IMathElement
@@ -18,8 +18,8 @@ public interface IMathLeftSubSuperscriptElement : IMathElement
 
 | 名稱 | 說明 |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/asimathelement) { get; } | 允許取得基礎 IMathElement 介面 [`IMathElement`](../imathelement) |
-| [Base](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/base) { get; } | 基礎參數 |
+| [AsIMathElement](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/asimathelement) { get; } | 允許取得基底 IMathElement 介面 [`IMathElement`](../imathelement) |
+| [Base](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/base) { get; } | 基底參數 |
 | [Subscript](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/subscript) { get; } | 下標 |
 | [Superscript](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/superscript) { get; } | 上標 |
 
@@ -32,7 +32,7 @@ public interface IMathLeftSubSuperscriptElement : IMathElement
 IMathLeftSubSuperscriptElement leftSubsuperscript = new MathematicalText("N").SetSubSuperscriptOnTheLeft("i", "j");
 ```
 
-### 另請參閱
+### 另見
 
 * 介面 [IMathElement](../imathelement)
 * 命名空間 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

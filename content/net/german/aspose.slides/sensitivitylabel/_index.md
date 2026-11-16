@@ -1,14 +1,14 @@
 ---
 title: SensitivityLabel
-second_title: Aspose.Sildes für .NET API Referenz
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt das Sensitivitätslabel von Microsoft Purview Information Protection dar.
 type: docs
-weight: 9790
+weight: 9810
 url: /de/aspose.slides/sensitivitylabel/
 ---
 ## SensitivityLabel Klasse
 
-Represents the sensitivity label from Microsoft Purview Information Protection.
+Stellt das Sensitivitätslabel von Microsoft Purview Information Protection dar.
 
 ```csharp
 public sealed class SensitivityLabel : ISensitivityLabel
@@ -16,14 +16,14 @@ public sealed class SensitivityLabel : ISensitivityLabel
 
 ## Eigenschaften
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
 | [AssignmentMethodType](../../aspose.slides/sensitivitylabel/assignmentmethodtype) { get; set; } | Gibt die Zuweisungsmethode für das Sensitivitätslabel zurück oder legt sie fest. Lesen/Schreiben [`SensitivityLabelAssignmentType`](../sensitivitylabelassignmenttype). |
-| [ContentMarkTypes](../../aspose.slides/sensitivitylabel/contentmarktypes) { get; } | Gibt die Liste der Typen von Inhaltskennzeichnungen zurück, die auf eine Datei angewendet werden sollten. |
+| [ContentMarkTypes](../../aspose.slides/sensitivitylabel/contentmarktypes) { get; } | Gibt die Liste der Arten von Inhaltskennzeichnungen zurück, die auf eine Datei angewendet werden sollten. |
 | [Id](../../aspose.slides/sensitivitylabel/id) { get; set; } | Gibt die ID des Sensitivitätslabels zurück oder legt sie fest. Lesen/Schreiben String. |
 | [IsEnabled](../../aspose.slides/sensitivitylabel/isenabled) { get; set; } | Gibt an, ob das Sensitivitätslabel aktiviert ist. |
 | [IsRemoved](../../aspose.slides/sensitivitylabel/isremoved) { get; set; } | Gibt an, ob das Sensitivitätslabel entfernt wurde. |
-| [SiteId](../../aspose.slides/sensitivitylabel/siteid) { get; set; } | Gibt die Azure Active Directory (Azure AD)-Site-Identifikationsnummer zurück oder legt sie fest, die der Sensitivitätslabel-Richtlinie entspricht, die das Sensitivitätslabel beschreibt. Lesen/Schreiben Guid. |
+| [SiteId](../../aspose.slides/sensitivitylabel/siteid) { get; set; } | Gibt die Azure Active Directory (Azure AD) Site-ID zurück oder legt sie fest, die der Richtlinie für das Sensitivitätslabel entspricht, die das Sensitivitätslabel beschreibt. Lesen/Schreiben Guid. |
 
 ### Siehe auch
 

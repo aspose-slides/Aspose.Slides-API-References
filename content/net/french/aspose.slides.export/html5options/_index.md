@@ -3,12 +3,12 @@ title: Html5Options
 second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Représente des options d'exportation HTML5.
 type: docs
-weight: 3860
+weight: 3880
 url: /fr/aspose.slides.export/html5options/
 ---
-## Classe Html5Options
+## Html5Options classe
 
-Représente des options d'exportation HTML5.
+Représente les options d'exportation HTML5.
 
 ```csharp
 public class Html5Options : SaveOptions, IHtml5Options
@@ -24,18 +24,18 @@ public class Html5Options : SaveOptions, IHtml5Options
 
 | Nom | Description |
 | --- | --- |
-| [AnimateShapes](../../aspose.slides.export/html5options/animateshapes) { get; set; } | Renvoie ou définit l'option d'animation des formes. Lecture/écriture Boolean. |
-| [AnimateTransitions](../../aspose.slides.export/html5options/animatetransitions) { get; set; } | Renvoie ou définit l'option d'animation des transitions. Lecture/écriture Boolean. |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Renvoie ou définit la police utilisée si la police source est introuvable. Lecture/écriture String. |
-| [DisableFontLigatures](../../aspose.slides.export/html5options/disablefontligatures) { get; set; } | Obtient ou définit une valeur indiquant si le texte est rendu sans utiliser de ligatures. Lorsqu'elle est définie sur `true`, les ligatures seront désactivées dans la sortie rendue. Par défaut, cette propriété est définie sur `false`. |
-| [EmbedImages](../../aspose.slides.export/html5options/embedimages) { get; set; } | Renvoie ou définit l'option d'intégration des images. Lecture/écriture Boolean. |
+| [AnimateShapes](../../aspose.slides.export/html5options/animateshapes) { get; set; } | Renvoie ou définit l'option d'animation des formes. Lecture/écriture Booléen. |
+| [AnimateTransitions](../../aspose.slides.export/html5options/animatetransitions) { get; set; } | Renvoie ou définit l'option d'animation des transitions. Lecture/écriture Booléen. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Renvoie ou définit la police utilisée si la police source n'est pas trouvée. Lecture/écriture Chaîne. |
+| [DisableFontLigatures](../../aspose.slides.export/html5options/disablefontligatures) { get; set; } | Obtient ou définit une valeur indiquant si le texte est rendu sans utiliser les ligatures. Lorsqu'elle est définie sur `true`, les ligatures seront désactivées dans le rendu. Par défaut, cette propriété est définie sur `false`. |
+| [EmbedImages](../../aspose.slides.export/html5options/embedimages) { get; set; } | Renvoie ou définit l'option d'intégration des images. Lecture/écriture Booléen. |
 | [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Renvoie ou définit le style visuel du dégradé. Lecture/écriture [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [OutputPath](../../aspose.slides.export/html5options/outputpath) { get; set; } | Détermine où les ressources externes doivent être stockées. Lecture/écriture String. |
+| [OutputPath](../../aspose.slides.export/html5options/outputpath) { get; set; } | Détermine où les ressources externes doivent être stockées. Lecture/écriture Chaîne. |
 | [PicturesCompression](../../aspose.slides.export/html5options/picturescompression) { get; set; } | Représente le niveau de compression des images |
 | [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Représente un objet de rappel pour les mises à jour de progression de sauvegarde en pourcentage. Voir [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Spécifie s'il faut ignorer les hyperliens avec des appels JavaScript lors de l'enregistrement de la présentation. Lecture/écriture Boolean. La valeur par défaut est **false**. |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Spécifie s'il faut ignorer les hyperliens avec des appels JavaScript lors de l'enregistrement de la présentation. Lecture/écriture Booléen. La valeur par défaut est **false**. |
 | [SlidesLayoutOptions](../../aspose.slides.export/html5options/slideslayoutoptions) { get; set; } | Obtient ou définit le mode dans lequel les diapositives sont placées sur la page lors de l'exportation d'une présentation [`ISlidesLayoutOptions`](../islideslayoutoptions). |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Renvoie ou définit un objet qui reçoit les avertissements et décide si le processus de chargement doit se poursuivre ou être abandonné. Lecture/écriture [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Renvoie ou définit un objet qui reçoit les avertissements et décide si le processus de chargement doit se poursuivre ou être interrompu. Lecture/écriture [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Exemples
 
@@ -58,6 +58,6 @@ using (Presentation pres = new Presentation("demo.pptx"))
 * classe [SaveOptions](../saveoptions)
 * interface [IHtml5Options](../ihtml5options)
 * espace de noms [Aspose.Slides.Export](../../aspose.slides.export)
-* assemblage [Aspose.Slides](../../)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

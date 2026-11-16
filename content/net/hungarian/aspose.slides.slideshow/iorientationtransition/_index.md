@@ -1,14 +1,14 @@
 ---
 title: IOrientationTransition
 second_title: Aspose.Sildes .NET API hivatkozás
-description: Orientációs diaátmenet hatása.
+description: Tájolás diaátmeneti hatás.
 type: docs
-weight: 10150
+weight: 10170
 url: /hu/aspose.slides.slideshow/iorientationtransition/
 ---
 ## IOrientationTransition interfész
 
-Orientációs diaátmenet hatás.
+Tájolás diaátmeneti hatás.
 
 ```csharp
 public interface IOrientationTransition : ITransitionValueBase
@@ -18,8 +18,8 @@ public interface IOrientationTransition : ITransitionValueBase
 
 | Név | Leírás |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/iorientationtransition/asitransitionvaluebase) { get; } | Lehetővé teszi a bázis ITransitionValueBase interfész lekérését. Csak olvasható [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/iorientationtransition/direction) { get; set; } | Az átmenet iránya. Olvasható/írható [`Orientation`](../../aspose.slides/orientation). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/iorientationtransition/asitransitionvaluebase) { get; } | Lehetővé teszi a base ITransitionValueBase interfész lekérését. Csak olvasható [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/iorientationtransition/direction) { get; set; } | Az átmenet iránya. Olvasás/írás [`Orientation`](../../aspose.slides/orientation). |
 
 ### Lásd még
 

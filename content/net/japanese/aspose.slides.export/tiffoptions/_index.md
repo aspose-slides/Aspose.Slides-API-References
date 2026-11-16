@@ -1,117 +1,117 @@
 ---
 title: TiffOptions
 second_title: Aspose.Sildes for .NET API リファレンス
-description: プレゼンテーションがTIFF形式で保存される方法を制御するオプションを提供します。
+description: プレゼンテーションが TIFF 形式で保存される方法を制御するオプションを提供します。
 type: docs
-weight: 4570
+weight: 4590
 url: /ja/aspose.slides.export/tiffoptions/
 ---
 ## TiffOptions クラス
 
-Provides options that control how a presentation is saved in TIFF format.
+プレゼンテーションが TIFF 形式で保存される方法を制御するオプションを提供します。
 
 ```csharp
 public class TiffOptions : SaveOptions, ITiffOptions
 ```
 
-## コンストラクタ
+## コンストラクター
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [TiffOptions](tiffoptions)() | デフォルトコンストラクタ。 |
+| [TiffOptions](tiffoptions)() | デフォルトコンストラクター。 |
 
 ## プロパティ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [BwConversionMode](../../aspose.slides.export/tiffoptions/bwconversionmode) { get; set; } | カラー画像を白黒画像に変換するアルゴリズムを指定します。このオプションは [`CompressionType`](./compressiontype) が CCITT4 または CCITT3 に設定されている場合にのみ適用されます。読み取り/書き込み [`BlackWhiteConversionMode`](../blackwhiteconversionmode)。デフォルトは Default です。 |
-| [CompressionType](../../aspose.slides.export/tiffoptions/compressiontype) { get; set; } | 圧縮タイプを指定します。読み取り/書き込み [`TiffCompressionTypes`](../tiffcompressiontypes)。 |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | ソースフォントが見つからない場合に使用されるフォントを取得または設定します。読み取り/書き込み String。 |
-| [DpiX](../../aspose.slides.export/tiffoptions/dpix) { get; set; } | 水平方向の解像度（ドット/インチ）を指定します。読み取り/書き込み UInt32。 |
-| [DpiY](../../aspose.slides.export/tiffoptions/dpiy) { get; set; } | 垂直方向の解像度（ドット/インチ）を指定します。読み取り/書き込み UInt32。 |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | グラデーションの視覚スタイルを取得または設定します。読み取り/書き込み [`GradientStyle`](../../aspose.slides/gradientstyle)。 |
-| [ImageSize](../../aspose.slides.export/tiffoptions/imagesize) { get; set; } | 生成される TIFF 画像のサイズを指定します。デフォルト値は 0x0 で、これは生成画像のサイズがプレゼンテーションのスライドサイズに基づいて計算されることを意味します。読み取り/書き込み Size。 |
-| [InkOptions](../../aspose.slides.export/tiffoptions/inkoptions) { get; } | エクスポートされたドキュメント内のインクオブジェクトの外観を制御するオプションを提供します。読み取り専用 [`IInkOptions`](../iinkoptions) |
-| [PixelFormat](../../aspose.slides.export/tiffoptions/pixelformat) { get; set; } | 生成された画像のピクセル形式を指定します。読み取り/書き込み [`ImagePixelFormat`](../imagepixelformat)。 |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 保存進捗をパーセンテージで更新するコールバックオブジェクトを表します。[`IProgressCallback`](../../aspose.slides/iprogresscallback) を参照してください。 |
+| [BwConversionMode](../../aspose.slides.export/tiffoptions/bwconversionmode) { get; set; } | カラー画像を白黒画像に変換するアルゴリズムを指定します。このオプションは [`CompressionType`](./compressiontype) が CCITT4 または CCITT3 に設定されている場合にのみ適用されます。Read/write [`BlackWhiteConversionMode`](../blackwhiteconversionmode)。デフォルトは Default です。 |
+| [CompressionType](../../aspose.slides.export/tiffoptions/compressiontype) { get; set; } | 圧縮タイプを指定します。Read/write [`TiffCompressionTypes`](../tiffcompressiontypes)。 |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | ソースフォントが見つからない場合に使用されるフォントを取得または設定します。Read-write String。 |
+| [DpiX](../../aspose.slides.export/tiffoptions/dpix) { get; set; } | 水平解像度 (dpi) を指定します。Read/write UInt32。 |
+| [DpiY](../../aspose.slides.export/tiffoptions/dpiy) { get; set; } | 垂直解像度 (dpi) を指定します。Read/write UInt32。 |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | グラデーションのビジュアルスタイルを取得または設定します。Read/write [`GradientStyle`](../../aspose.slides/gradientstyle)。 |
+| [ImageSize](../../aspose.slides.export/tiffoptions/imagesize) { get; set; } | 生成される TIFF 画像のサイズを指定します。デフォルト値は 0x0 で、これは生成画像のサイズがプレゼンテーションのスライドサイズに基づいて計算されることを意味します。Read/write Size。 |
+| [InkOptions](../../aspose.slides.export/tiffoptions/inkoptions) { get; } | エクスポートされたドキュメント内の Ink オブジェクトの外観を制御するオプションを提供します。Read-only [`IInkOptions`](../iinkoptions)。 |
+| [PixelFormat](../../aspose.slides.export/tiffoptions/pixelformat) { get; set; } | 生成された画像のピクセル形式を指定します。Read/write [`ImagePixelFormat`](../imagepixelformat)。 |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 進捗更新（パーセンテージ）を保存するためのコールバックオブジェクトを表します。参照 [`IProgressCallback`](../../aspose.slides/iprogresscallback)。 |
 | [ShowHiddenSlides](../../aspose.slides.export/tiffoptions/showhiddenslides) { get; set; } | 生成されたドキュメントに非表示スライドを含めるかどうかを指定します。デフォルトは `false` です。 |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | プレゼンテーションを保存する際に JavaScript 呼び出しを持つハイパーリンクをスキップするかどうかを指定します。読み取り/書き込み Boolean。デフォルト値は **false** です。 |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | プレゼンテーションを保存する際に、JavaScript 呼び出しを含むハイパーリンクをスキップするかどうかを指定します。Read/write Boolean。デフォルト値は **false** です。 |
 | [SlidesLayoutOptions](../../aspose.slides.export/tiffoptions/slideslayoutoptions) { get; set; } | プレゼンテーションをエクスポートする際にスライドがページ上に配置されるモードを取得または設定します [`ISlidesLayoutOptions`](../islideslayoutoptions)。 |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 警告を受け取り、ロードプロセスを続行するか中止するかを決定するオブジェクトを取得または設定します。読み取り/書き込み [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)。 |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 警告を受け取り、ロードプロセスを継続するか中止するかを決定するオブジェクトを取得または設定します。Read/write [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)。 |
 
 ### 例
 
-以下の例は、デフォルトサイズで PowerPoint を TIFF に変換する方法を示します。
+次の例は、デフォルトサイズで PowerPoint を TIFF に変換する方法を示します。
 
 ```csharp
 [C#]
-// プレゼンテーション ファイルを表す Presentation オブジェクトをインスタンス化する
+// プレゼンテーション ファイルを表す Presentation オブジェクトをインスタンス化します
 using (Presentation presentation = new Presentation("DemoFile.pptx"))
 {
-    // プレゼンテーションを TIFF ドキュメントとして保存する
+    // プレゼンテーションを TIFF ドキュメントとして保存します
     presentation.Save("Tiffoutput_out.tiff", SaveFormat.Tiff);
 }
 ```
 
-以下の例は、カスタムサイズで PowerPoint を TIFF に変換する方法を示します。
+次の例は、カスタムサイズで PowerPoint を TIFF に変換する方法を示します。
 
 ```csharp
 [C#]
 // Presentation ファイルを表す Presentation オブジェクトをインスタンス化します
 using (Presentation pres = new Presentation("Convert_Tiff_Custom.pptx"))
 {
-    // TiffOptions クラスをインスタンス化する
+    // TiffOptions クラスをインスタンス化します
     TiffOptions opts = new TiffOptions();
-    // 圧縮タイプを設定する
+    // 圧縮タイプを設定します
     opts.CompressionType = TiffCompressionTypes.Default;
     NotesCommentsLayoutingOptions notesOptions = new NotesCommentsLayoutingOptions();
     notesOptions.NotesPosition = NotesPositions.BottomFull;
     opts.SlidesLayoutOption = notesOptions;
     // 圧縮タイプ
     // Default - デフォルトの圧縮方式 (LZW) を指定します。
-    // None - 圧縮しないことを指定します。
+    // None - 圧縮なしを指定します。
     // CCITT3
     // CCITT4
     // LZW
     // RLE
-    // Depth は圧縮タイプに依存し、手動で設定できません。
-    // 解像度単位は常に “2”(ドット/インチ) に等しいです。
-    // 画像 DPI を設定する
+    // 深度は圧縮タイプに依存し、手動で設定できません。
+    // 解像度単位は常に “2”（ドット毎インチ）です。
+    // 画像 DPI を設定します
     opts.DpiX = 200;
     opts.DpiY = 100;
-    // 画像サイズを設定する
+    // 画像サイズを設定します
     opts.ImageSize = new Size(1728, 1078);
-    // 指定した画像サイズでプレゼンテーションを TIFF に保存する
+    // 指定した画像サイズでプレゼンテーションを TIFF として保存します
     pres.Save("TiffWithCustomSize_out.tiff", SaveFormat.Tiff, opts);
 }
 ```
 
-以下の例は、カスタム画像ピクセル形式で PowerPoint を TIFF に変換する方法を示します。
+次の例は、カスタム画像ピクセル形式で PowerPoint を TIFF に変換する方法を示します。
 
 ```csharp
 [C#]
-// Presentation ファイルを表す Presentation オブジェクトをインスタンス化する
+// Presentation ファイルを表す Presentation オブジェクトをインスタンス化します
 using (Presentation presentation = new Presentation("DemoFile.pptx"))
 {
     TiffOptions options = new TiffOptions();
     options.PixelFormat = ImagePixelFormat.Format8bppIndexed;
     /*
-    ImagePixelFormat には次の値が含まれます (ドキュメントから確認できるように):
-    Format1bppIndexed; // 1 ビット/ピクセル、インデックス付き。
-    Format4bppIndexed; // 4 ビット/ピクセル、インデックス付き。
-    Format8bppIndexed; // 8 ビット/ピクセル、インデックス付き。
-    Format24bppRgb; // 24 ビット/ピクセル、RGB。
-    Format32bppArgb; // 32 ビット/ピクセル、ARGB。
+    ImagePixelFormat には次の値が含まれます（ドキュメントから確認できます）:
+    Format1bppIndexed; // 1 ビット パー ピクセル、インデックス形式です。
+    Format4bppIndexed; // 4 ビット パー ピクセル、インデックス形式です。
+    Format8bppIndexed; // 8 ビット パー ピクセル、インデックス形式です。
+    Format24bppRgb; // 24 ビット パー ピクセル、RGBです。
+    Format32bppArgb; // 32 ビット パー ピクセル、ARGBです。
     */
-    // 指定した画像サイズでプレゼンテーションを TIFF に保存する
+    // 指定した画像サイズでプレゼンテーションを TIFF として保存します
     presentation.Save("Tiff_With_Custom_Image_Pixel_Format_out.tiff", SaveFormat.Tiff, options);
 }
 ```
 
-### 関連項目
+### 参考
 
 * クラス [SaveOptions](../saveoptions)
-* インターフェイス [ITiffOptions](../itiffoptions)
+* インターフェース [ITiffOptions](../itiffoptions)
 * 名前空間 [Aspose.Slides.Export](../../aspose.slides.export)
 * アセンブリ [Aspose.Slides](../../)
 

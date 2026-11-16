@@ -1,14 +1,14 @@
 ---
 title: SchemeColor
-second_title: Aspose.Sildes a .NET API referencia
+second_title: Aspose.Sildes .NET API referencia
 description: A színsémában lévő színeket képviseli.
 type: docs
-weight: 9740
+weight: 9760
 url: /hu/aspose.slides/schemecolor/
 ---
-## SchemeColor enumeráció
+## SchemeColor felsorolás
 
-A színsémában szereplő színeket reprezentálja.
+A színsémában lévő színeket képviseli.
 
 ```csharp
 public enum SchemeColor

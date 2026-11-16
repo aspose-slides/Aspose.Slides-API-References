@@ -1,14 +1,14 @@
 ---
 title: IMasterNotesSlideManager
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Trình quản lý slide ghi chú master.
+second_title: Tài liệu tham chiếu API Aspose.Sildes cho .NET
+description: Trình quản lý slide ghi chú chính.
 type: docs
-weight: 6410
+weight: 6430
 url: /vi/aspose.slides/imasternotesslidemanager/
 ---
-## IMasterNotesSlideManager giao diện
+## Giao diện IMasterNotesSlideManager
 
-Trình quản lý slide ghi chú master.
+Trình quản lý slide ghi chú chính.
 
 ```csharp
 public interface IMasterNotesSlideManager
@@ -18,14 +18,14 @@ public interface IMasterNotesSlideManager
 
 | Tên | Mô tả |
 | --- | --- |
-| [MasterNotesSlide](../../aspose.slides/imasternotesslidemanager/masternotesslide) { get; } | Trả về một master cho tất cả các slide ghi chú của bài thuyết trình này nếu có, nếu không trả về null. Chỉ đọc [`IMasterNotesSlide`](../imasternotesslide). |
+| [MasterNotesSlide](../../aspose.slides/imasternotesslidemanager/masternotesslide) { get; } | Trả về một master cho tất cả các notes slide của bản trình chiếu này nếu có, nếu không trả về null. Chỉ đọc [`IMasterNotesSlide`](../imasternotesslide). |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| [RemoveMasterNotesSlide](../../aspose.slides/imasternotesslidemanager/removemasternotesslide)() | Xóa slide ghi chú master. |
-| [SetDefaultMasterNotesSlide](../../aspose.slides/imasternotesslidemanager/setdefaultmasternotesslide)() | Đặt slide ghi chú master mặc định cho slide ghi chú liên quan. |
+| [RemoveMasterNotesSlide](../../aspose.slides/imasternotesslidemanager/removemasternotesslide)() | Xóa master notes slide. |
+| [SetDefaultMasterNotesSlide](../../aspose.slides/imasternotesslidemanager/setdefaultmasternotesslide)() | Đặt master notes slide mặc định cho notes slide liên quan. |
 
 ### Xem thêm
 

@@ -3,10 +3,10 @@ title: Flavor
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Semua spesifikasi markdown yang digunakan dalam program.
 type: docs
-weight: 3800
+weight: 3820
 url: /id/aspose.slides.export/flavor/
 ---
-## Enumerasi Flavor
+## Enumerasi flavor
 
 Semua spesifikasi markdown yang digunakan dalam program.
 
@@ -18,34 +18,34 @@ public enum Flavor
 
 | Nama | Nilai | Deskripsi |
 | --- | --- | --- |
-| Github | `0` | Github varian. |
-| Gruber | `1` | Gruber varian. |
-| MultiMarkdown | `2` | Multi markdown varian. |
-| CommonMark | `3` | Common mark varian. |
-| MarkdownExtra | `4` | Markdown extra varian. |
-| Pandoc | `5` | Pandoc varian. |
-| Kramdown | `6` | Kramdown varian. |
-| Markua | `7` | Markua varian. |
-| Maruku | `8` | Maruku varian. |
-| Markdown2 | `9` | Markdown2 varian. |
-| Remarkable | `10` | Remarkable varian |
-| Showdown | `11` | Showdown varian. |
-| Ghost | `12` | Ghost varian. |
-| GitLab | `13` | GitLab varian. |
-| Haroopad | `14` | Haroopad varian. |
-| IaWriter | `15` | IaWriter varian. |
-| Redcarpet | `16` | Redcarpet varian. |
-| ScholarlyMarkdown | `17` | Scholarly markdown varian. |
-| Taiga | `18` | Taiga varian. |
-| Trello | `19` | Trello varian. |
-| S9ETextFormatter | `20` | S9E text formatter varian. |
-| XWiki | `21` | XWiki varian. |
-| StackOverflow | `22` | Stack overflow varian. |
-| Default | `23` | Default markdown varian. |
+| Github | `0` | Varian Github. |
+| Gruber | `1` | Varian Gruber. |
+| MultiMarkdown | `2` | Varian Multi markdown. |
+| CommonMark | `3` | Varian Common mark. |
+| MarkdownExtra | `4` | Varian Markdown extra. |
+| Pandoc | `5` | Varian Pandoc. |
+| Kramdown | `6` | Varian Kramdown. |
+| Markua | `7` | Varian Markua. |
+| Maruku | `8` | Varian Maruku. |
+| Markdown2 | `9` | Varian Markdown2. |
+| Remarkable | `10` | Varian Remarkable |
+| Showdown | `11` | Varian Showdown. |
+| Ghost | `12` | Varian Ghost. |
+| GitLab | `13` | Varian Gitlab. |
+| Haroopad | `14` | Varian Haroopad. |
+| IaWriter | `15` | Varian IAWriter. |
+| Redcarpet | `16` | Varian Redcarpet. |
+| ScholarlyMarkdown | `17` | Varian Scholarly markdown. |
+| Taiga | `18` | Varian Taiga. |
+| Trello | `19` | Varian Trello. |
+| S9ETextFormatter | `20` | Varian S9E text formatter. |
+| XWiki | `21` | Varian XWiki. |
+| StackOverflow | `22` | Varian Stack overflow. |
+| Default | `23` | Varian Default markdown. |
 
 ### Contoh
 
-Example:
+Contoh:
 
 ```csharp
 [C#]

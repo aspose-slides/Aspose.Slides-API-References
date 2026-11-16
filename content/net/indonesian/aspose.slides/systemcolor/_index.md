@@ -3,10 +3,10 @@ title: SystemColor
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili warna sistem yang telah ditentukan.
 type: docs
-weight: 10810
+weight: 10830
 url: /id/aspose.slides/systemcolor/
 ---
-## enumerasi SystemColor
+## SystemColor enumerasi
 
 Mewakili warna sistem yang telah ditentukan.
 
@@ -18,7 +18,7 @@ public enum SystemColor
 
 | Nama | Nilai | Deskripsi |
 | --- | --- | --- |
-| NotDefined | `-1` | Warna sistem tidak ditentukan. |
+| NotDefined | `-1` | Warna sistem tidak didefinisikan. |
 | ScrollBar | `0` |  |
 | Background | `1` |  |
 | ActiveCaption | `2` |  |

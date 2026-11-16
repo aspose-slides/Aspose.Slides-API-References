@@ -3,7 +3,7 @@ title: IFieldType
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa un tipo de campo. Este valor determina qué texto se establecerá en la parte del campo cuando se actualice.
 type: docs
-weight: 5780
+weight: 5800
 url: /es/aspose.slides/ifieldtype/
 ---
 ## IFieldType interfaz
@@ -16,9 +16,9 @@ public interface IFieldType
 
 ## Propiedades
 
-| Name | Description |
+| Nombre | Descripción |
 | --- | --- |
-| [InternalString](../../aspose.slides/ifieldtype/internalstring) { get; set; } | Devuelve el nombre interno de este objeto FieldTypeEx. String Lectura/escritura. |
+| [InternalString](../../aspose.slides/ifieldtype/internalstring) { get; set; } | Devuelve el nombre interno de este objeto FieldTypeEx. Lectura/escritura String. |
 
 ### Ver también
 

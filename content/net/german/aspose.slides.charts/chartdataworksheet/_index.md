@@ -1,9 +1,9 @@
 ---
 title: ChartDataWorksheet
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt das Arbeitsblatt dar, das mit IChartDataCell verknüpft ist./ichartdatacell
+description: Stellt das Arbeitsblatt dar, das mit IChartDataCell./ichartdatacell verknüpft ist.
 type: docs
-weight: 1390
+weight: 1400
 url: /de/aspose.slides.charts/chartdataworksheet/
 ---
 ## ChartDataWorksheet Klasse
@@ -18,8 +18,8 @@ public class ChartDataWorksheet : DomObject<ChartDataWorksheetCollection>, IChar
 
 | Name | Beschreibung |
 | --- | --- |
-| [Index](../../aspose.slides.charts/chartdataworksheet/index) { get; } | Ruft den Index des Arbeitsblatts ab. Nur Lesezugriff Int32. |
-| [Name](../../aspose.slides.charts/chartdataworksheet/name) { get; } | Gibt den Namen des Arbeitsblatts zurück. Nur Lesezugriff String. |
+| [Index](../../aspose.slides.charts/chartdataworksheet/index) { get; } | Gibt den Index des Arbeitsblatts zurück. Nur lesbar Int32. |
+| [Name](../../aspose.slides.charts/chartdataworksheet/name) { get; } | Gibt den Namen des Arbeitsblatts zurück. Nur lesbar String. |
 
 ### Siehe auch
 

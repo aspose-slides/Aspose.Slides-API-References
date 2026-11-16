@@ -1,14 +1,14 @@
 ---
 title: IMathBox
-second_title: Aspose.Sildes para la referencia de la API de .NET
-description: Especifica el empaquetado lógico (boxing) de un elemento matemático. Por ejemplo, un objeto encapsulado puede servir como un emulador de operador con o sin un punto de alineación, servir como un punto de salto de línea o agruparse de manera que no se permitan saltos de línea dentro. Por ejemplo, el operador debería encapsularse para evitar saltos de línea.
+second_title: Referencia de API de Aspose.Sildes para .NET
+description: Especifica el empaquetado lógico de un elemento matemático. Por ejemplo, un objeto empaquetado puede servir como un emulador de operador con o sin un punto de alineación, servir como un punto de salto de línea o agruparse de manera que no se permitan saltos de línea dentro. Por ejemplo, el operador debe empaquetarse para evitar saltos de línea.
 type: docs
-weight: 8190
+weight: 8210
 url: /es/aspose.slides.mathtext/imathbox/
 ---
-## IMathBox interfaz
+## Interfaz IMathBox
 
-Especifica el empaquetado lógico (boxing) de un elemento matemático. Por ejemplo, un objeto encapsulado puede servir como un emulador de operador con o sin un punto de alineación, servir como un punto de salto de línea, o agruparse de manera que no se permitan saltos de línea dentro. Por ejemplo, el operador "==" debería encapsularse para evitar saltos de línea.
+Especifica el empaquetado lógico (packaging) de un elemento matemático. Por ejemplo, un objeto empaquetado puede servir como un emulador de operador con o sin un punto de alineación, servir como un punto de salto de línea, o agruparse de manera que no se permitan saltos de línea dentro. Por ejemplo, el operador "==" debe ser empaquetado para evitar saltos de línea.
 
 ```csharp
 public interface IMathBox : IMathElement
@@ -18,13 +18,13 @@ public interface IMathBox : IMathElement
 
 | Nombre | Descripción |
 | --- | --- |
-| [AlignmentPoint](../../aspose.slides.mathtext/imathbox/alignmentpoint) { get; set; } | Cuando es true, este emulador de operador actúa como un punto de alineación; es decir, los puntos de alineación designados en otras ecuaciones pueden alinearse con él. Valor predeterminado: false |
+| [AlignmentPoint](../../aspose.slides.mathtext/imathbox/alignmentpoint) { get; set; } | Cuando es true, este emulador de operador sirve como un punto de alineación; es decir, los puntos de alineación designados en otras ecuaciones pueden alinearse con él. Predeterminado: false |
 | [AsIMathElement](../../aspose.slides.mathtext/imathbox/asimathelement) { get; } | Permite obtener la interfaz base IMathElement [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathbox/base) { get; } | Argumento base |
-| [Differential](../../aspose.slides.mathtext/imathbox/differential) { get; set; } | Diferencial. Cuando es true, el cuadro actúa como un diferencial (p. ej., 𝑑𝑥 en un integrando), y recibe el espaciado horizontal apropiado para el diferencial matemático. Valor predeterminado: false |
-| [ExplicitBreak](../../aspose.slides.mathtext/imathbox/explicitbreak) { get; set; } | La ruptura explícita indica si hay un salto de línea al inicio del objeto Box, de modo que la línea se envuelve al comienzo del objeto caja. Especifica el número del operador en la línea anterior de texto matemático que se usará como punto de alineación para la línea actual de texto matemático. Valores posibles: 1..255. Valor predeterminado: 0 (sin ruptura explícita) |
-| [NoBreak](../../aspose.slides.mathtext/imathbox/nobreak) { get; set; } | Sin ruptura. Esta propiedad especifica la propiedad "unbreakable" en el objeto caja. Cuando es true, no pueden producirse saltos de línea dentro de la caja. Esto puede ser importante para emuladores de operador que consisten en más de un operador binario. Cuando este elemento no se especifica, pueden producirse rupturas dentro de la caja. Valor predeterminado: true |
-| [OperatorEmulator](../../aspose.slides.mathtext/imathbox/operatoremulator) { get; set; } | Emulador de operador. Cuando es true, la caja y su contenido se comportan como un solo operador y heredan las propiedades de un operador. Esto significa, por ejemplo, que el carácter puede servir como punto para un salto de línea y puede alinearse con otros operadores. Los emuladores de operador se usan a menudo cuando uno o más glifos se combinan para formar un operador, como '=='. Valor predeterminado: false |
+| [Differential](../../aspose.slides.mathtext/imathbox/differential) { get; set; } | Diferencial. Cuando es true, la caja actúa como un diferencial (p. ej., 𝑑𝑥 en un integrando), y recibe el espaciado horizontal apropiado para el diferencial matemático. Predeterminado: false |
+| [ExplicitBreak](../../aspose.slides.mathtext/imathbox/explicitbreak) { get; set; } | Quiebra explícita especifica si hay un salto de línea al inicio del objeto Box, de modo que la línea se envuelva al comienzo del objeto caja. Especifica el número del operador en la línea anterior del texto matemático que se usará como punto de alineación para la línea actual del texto matemático. Valores posibles: 1..255 Predeterminado: 0 (sin quiebra explícita) |
+| [NoBreak](../../aspose.slides.mathtext/imathbox/nobreak) { get; set; } | Sin quiebre. Esta propiedad especifica la propiedad "unbreakable" en la caja del objeto. Cuando es true, no pueden ocurrir saltos de línea dentro de la caja. Esto puede ser importante para emuladores de operador que constan de más de un operador binario. Cuando este elemento no se especifica, pueden ocurrir quiebres dentro de la caja. Predeterminado: true |
+| [OperatorEmulator](../../aspose.slides.mathtext/imathbox/operatoremulator) { get; set; } | Emulador de operador. Cuando es true, la caja y su contenido se comportan como un único operador y heredan las propiedades de un operador. Esto significa, por ejemplo, que el carácter puede servir como punto para un salto de línea y puede alinearse con otros operadores. Los emuladores de operador se usan a menudo cuando uno o más glifos se combinan para formar un operador, como '=='. Valor predeterminado: false |
 
 ### Ejemplos
 

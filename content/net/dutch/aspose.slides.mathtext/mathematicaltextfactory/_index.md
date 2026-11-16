@@ -1,37 +1,37 @@
 ---
 title: MathematicalTextFactory
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Staat toe om een MathematicalText-element te maken
+description: Staat toe een MathematicalText-element te maken
 type: docs
-weight: 9070
+weight: 9090
 url: /nl/aspose.slides.mathtext/mathematicaltextfactory/
 ---
 ## MathematicalTextFactory klasse
 
-Staat toe om een MathematicalText-element te maken
+Staat toe een MathematicalText-element te maken
 
 ```csharp
 public class MathematicalTextFactory : IMathematicalTextFactory
 ```
 
-## Constructoren
+## Constructors
 
 | Naam | Beschrijving |
 | --- | --- |
 | [MathematicalTextFactory](mathematicaltextfactory)() | De standaardconstructor. |
 
-## Methoden
+## Methods
 
 | Naam | Beschrijving |
 | --- | --- |
-| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext)() | Maak een leeg wiskundig tekstelement |
-| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext_1)(char) | Maak een wiskundig tekst-element met de opgegeven waarde |
-| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext_2)(string) | Maak een leeg wiskundig tekstelement met de opgegeven waarde |
-| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext_3)(string, IPortionFormat) | Maak een leeg wiskundig tekstelement met de opgegeven waarde en opmaak-eigenschappen |
+| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext)() | Maak een leeg MathematicalText-element |
+| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext_1)(char) | Maak een MathematicalText-element met de opgegeven waarde |
+| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext_2)(string) | Maak een leeg MathematicalText-element met de opgegeven waarde |
+| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext_3)(string, IPortionFormat) | Maak een leeg MathematicalText-element met de opgegeven waarde en opmaak-eigenschappen |
 
 ### Opmerkingen
 
-Voor COM-compatibiliteit
+For COM comparibility
 
 ### Zie ook
 

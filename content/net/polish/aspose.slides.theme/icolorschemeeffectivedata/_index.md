@@ -1,14 +1,14 @@
 ---
 title: IColorSchemeEffectiveData
-second_title: Aspose.Sildes dla .NET - Dokumentacja API
-description: Niezmienny obiekt, który zawiera efektywne właściwości schematu kolorów.
+second_title: Aspose.Sildes dla .NET – dokumentacja API
+description: Niezmienny obiekt zawierający efektywne właściwości schematu kolorów.
 type: docs
-weight: 11160
+weight: 11180
 url: /pl/aspose.slides.theme/icolorschemeeffectivedata/
 ---
 ## IColorSchemeEffectiveData interfejs
 
-Niezmienny obiekt, który zawiera efektywne właściwości schematu kolorów.
+Niezmienny obiekt zawierający efektywne właściwości schematu kolorów.
 
 ```csharp
 public interface IColorSchemeEffectiveData
@@ -26,9 +26,9 @@ public interface IColorSchemeEffectiveData
 | [Accent6](../../aspose.slides.theme/icolorschemeeffectivedata/accent6) { get; } | Szósty kolor akcentu w schemacie. Tylko do odczytu Color. |
 | [Dark1](../../aspose.slides.theme/icolorschemeeffectivedata/dark1) { get; } | Pierwszy ciemny kolor w schemacie. Tylko do odczytu Color. |
 | [Dark2](../../aspose.slides.theme/icolorschemeeffectivedata/dark2) { get; } | Drugi ciemny kolor w schemacie. Tylko do odczytu Color. |
-| [FollowedHyperlink](../../aspose.slides.theme/icolorschemeeffectivedata/followedhyperlink) { get; } | Kolor odwiedzonych hiperłączy. Tylko do odczytu Color. |
-| [Hyperlink](../../aspose.slides.theme/icolorschemeeffectivedata/hyperlink) { get; } | Kolor hiperłączy. Tylko do odczytu Color. |
-| [Item](../../aspose.slides.theme/icolorschemeeffectivedata/item) { get; } | Pobiera element o określonym indeksie. Tylko do odczytu Color. |
+| [FollowedHyperlink](../../aspose.slides.theme/icolorschemeeffectivedata/followedhyperlink) { get; } | Kolor odwiedzonych odnośników hipertekstowych. Tylko do odczytu Color. |
+| [Hyperlink](../../aspose.slides.theme/icolorschemeeffectivedata/hyperlink) { get; } | Kolor odnośników hipertekstowych. Tylko do odczytu Color. |
+| [Item](../../aspose.slides.theme/icolorschemeeffectivedata/item) { get; } | Zwraca element o podanym indeksie. Tylko do odczytu Color. |
 | [Light1](../../aspose.slides.theme/icolorschemeeffectivedata/light1) { get; } | Pierwszy jasny kolor w schemacie. Tylko do odczytu Color. |
 | [Light2](../../aspose.slides.theme/icolorschemeeffectivedata/light2) { get; } | Drugi jasny kolor w schemacie. Tylko do odczytu Color. |
 
@@ -36,7 +36,7 @@ public interface IColorSchemeEffectiveData
 
 Ta klasa jest używana jako część [`IThemeEffectiveData`](../ithemeeffectivedata).
 
-### Zobacz także
+### Zobacz też
 
 * przestrzeń nazw [Aspose.Slides.Theme](../../aspose.slides.theme)
 * zestaw [Aspose.Slides](../../)

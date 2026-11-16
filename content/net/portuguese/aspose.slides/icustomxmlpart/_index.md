@@ -1,12 +1,12 @@
 ---
 title: ICustomXmlPart
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Aspose.Sildes para Referência da API .NET
 description: Representa a parte xml personalizada.
 type: docs
-weight: 5670
+weight: 5690
 url: /pt/aspose.slides/icustomxmlpart/
 ---
-## interface ICustomXmlPart
+## ICustomXmlPart interface
 
 Representa a parte XML personalizada.
 
@@ -16,20 +16,20 @@ public interface ICustomXmlPart
 
 ## Propriedades
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
-| [ItemId](../../aspose.slides/icustomxmlpart/itemid) { get; set; } | Especifica um identificador globalmente único (GUID) que identifica de forma exclusiva uma única parte XML personalizada dentro de um documento Office Open XML. Somente leitura Guid. |
+| [ItemId](../../aspose.slides/icustomxmlpart/itemid) { get; set; } | Especifica um identificador globalmente único (GUID) que identifica de forma única uma única parte XML personalizada dentro de um documento Office Open XML. Somente leitura Guid. |
 | [NamespaceSchemas](../../aspose.slides/icustomxmlpart/namespaceschemas) { get; } | Retorna a coleção de esquemas XML que estão associados à parte XML personalizada. Somente leitura String[]. |
-| [XmlAsString](../../aspose.slides/icustomxmlpart/xmlasstring) { get; set; } | Retorna ou define os dados xml como string UTF-8. Leitura/Gravação String. value is `null`.value is empty or xml-data is invalid. |
-| [XmlData](../../aspose.slides/icustomxmlpart/xmldata) { get; set; } | Retorna ou define os dados xml. Leitura/Gravação Byte[]. value is `null`.value is empty or xml-data is invalid. |
+| [XmlAsString](../../aspose.slides/icustomxmlpart/xmlasstring) { get; set; } | Retorna ou define os dados xml como string UTF-8. Leitura/gravação String. o valor é `null`. o valor está vazio ou xml-data é inválido. |
+| [XmlData](../../aspose.slides/icustomxmlpart/xmldata) { get; set; } | Retorna ou define os dados xml. Leitura/gravação Byte[]. o valor é `null`. o valor está vazio ou xml-data é inválido. |
 
 ## Métodos
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
-| [Remove](../../aspose.slides/icustomxmlpart/remove)() | Remove a parte xml personalizada da apresentação. |
+| [Remove](../../aspose.slides/icustomxmlpart/remove)() | Remove a parte XML personalizada da apresentação. |
 
-### Ver Também
+### Veja também
 
 * espaço de nomes [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

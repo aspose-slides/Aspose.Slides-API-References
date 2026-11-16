@@ -3,10 +3,11 @@ title: TextExtractionArrangingMode
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar läget som ska användas vid textutdragning
 type: docs
-weight: 10940
+weight: 10960
 url: /sv/aspose.slides/textextractionarrangingmode/
 ---
 ## TextExtractionArrangingMode enumeration
+
 Representerar läget som ska användas vid textutdragning
 
 ```csharp
@@ -17,7 +18,7 @@ public enum TextExtractionArrangingMode
 
 | Namn | Värde | Beskrivning |
 | --- | --- | --- |
-| Unarranged | `0` | Den råa texten utan hänsyn till positionen på bilden |
+| Unarranged | `0` | Den råa texten utan hänsyn till position på bilden |
 | Arranged | `1` | Texten är placerad i samma ordning som på bilden |
 
 ### Se även

@@ -3,7 +3,7 @@ title: IGradientFormat
 second_title: Aspose.Sildes para la referencia de API de .NET
 description: Representa un formato de degradado.
 type: docs
-weight: 6000
+weight: 6020
 url: /es/aspose.slides/igradientformat/
 ---
 ## IGradientFormat interfaz
@@ -18,10 +18,10 @@ public interface IGradientFormat : IFillParamSource
 
 | Nombre | Descripción |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/igradientformat/asifillparamsource) { get; } | Permite obtener la interfaz base IFillParamSource. Solo lectura [`IFillParamSource`](../ifillparamsource). |
+| [AsIFillParamSource](../../aspose.slides/igradientformat/asifillparamsource) { get; } | Permite obtener la base IFillParamSource interfaz. Solo lectura [`IFillParamSource`](../ifillparamsource). |
 | [GradientDirection](../../aspose.slides/igradientformat/gradientdirection) { get; set; } | Devuelve o establece el estilo de un degradado. Lectura/escritura [`GradientDirection`](../gradientdirection). |
 | [GradientShape](../../aspose.slides/igradientformat/gradientshape) { get; set; } | Devuelve o establece la forma de un degradado. Lectura/escritura [`GradientShape`](../gradientshape). |
-| [GradientStops](../../aspose.slides/igradientformat/gradientstops) { get; } | Devuelve la colección de paradas de degradado. Solo lectura [`IGradientStopCollection`](../igradientstopcollection). |
+| [GradientStops](../../aspose.slides/igradientformat/gradientstops) { get; } | Devuelve la colección de puntos de degradado. Solo lectura [`IGradientStopCollection`](../igradientstopcollection). |
 | [LinearGradientAngle](../../aspose.slides/igradientformat/lineargradientangle) { get; set; } | Devuelve o establece el ángulo de un degradado. Lectura/escritura Single. |
 | [LinearGradientScaled](../../aspose.slides/igradientformat/lineargradientscaled) { get; set; } | Determina si un degradado está escalado. Lectura/escritura [`NullableBool`](../nullablebool). |
 | [TileFlip](../../aspose.slides/igradientformat/tileflip) { get; set; } | Devuelve o establece el modo de volteo para un degradado. Lectura/escritura [`TileFlip`](../tileflip). |

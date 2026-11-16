@@ -1,9 +1,9 @@
 ---
 title: SchemeColor
 second_title: Aspose.Sildes için .NET API Referansı
-description: Bir renk şemasındaki renkleri temsil eder.
+description: Renk şemasındaki renkleri temsil eder.
 type: docs
-weight: 9740
+weight: 9760
 url: /tr/aspose.slides/schemecolor/
 ---
 ## SchemeColor enum
@@ -18,7 +18,7 @@ public enum SchemeColor
 
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
-| NotDefined | `-1` | Renk şeması tanımlı değil. |
+| NotDefined | `-1` | Renk şeması tanımlı değildir. |
 | Background1 | `0` |  |
 | Text1 | `1` |  |
 | Background2 | `2` |  |
@@ -37,7 +37,7 @@ public enum SchemeColor
 | Dark2 | `15` |  |
 | Light2 | `16` |  |
 
-### Ayrıca Bakınız
+### Diğer Bağlantılar
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

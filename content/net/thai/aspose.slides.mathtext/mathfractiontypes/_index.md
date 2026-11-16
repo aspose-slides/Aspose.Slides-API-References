@@ -1,14 +1,14 @@
 ---
 title: MathFractionTypes
-second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
-description: ประเภทส่วนเศษ
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: ประเภทเศษส่วน
 type: docs
-weight: 8710
+weight: 8730
 url: /th/aspose.slides.mathtext/mathfractiontypes/
 ---
-## MathFractionTypes enum
+## MathFractionTypes การนับค่า
 
-ประเภทส่วนเศษ
+ประเภทเศษส่วน
 
 ```csharp
 public enum MathFractionTypes
@@ -18,10 +18,10 @@ public enum MathFractionTypes
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
-| Bar | `1` | Bar ส่วน |
-| Skewed | `2` | Skewed |
-| Linear | `3` | Linear ส่วน |
-| NoBar | `4` | No-Bar ส่วน (Stack) |
+| Bar | `1` | ส่วนบาร์ |
+| Skewed | `2` | เอียง |
+| Linear | `3` | ส่วนเชิงเส้น |
+| NoBar | `4` | ส่วนไม่มีบาร์ (Stack) |
 
 ### ดูเพิ่มเติม
 

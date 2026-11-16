@@ -3,7 +3,7 @@ title: IShapeBevelEffectiveData
 second_title: Aspose.Sildes per .NET Riferimento API
 description: Oggetto immutabile che contiene le proprietà di rilievo della faccia delle forme effettive.
 type: docs
-weight: 6970
+weight: 6990
 url: /it/aspose.slides/ishapebeveleffectivedata/
 ---
 ## IShapeBevelEffectiveData interfaccia
@@ -19,8 +19,8 @@ public interface IShapeBevelEffectiveData
 | Nome | Descrizione |
 | --- | --- |
 | [BevelType](../../aspose.slides/ishapebeveleffectivedata/beveltype) { get; } | Tipo di smusso. Sola lettura [`BevelPresetType`](../bevelpresettype). |
-| [Height](../../aspose.slides/ishapebeveleffectivedata/height) { get; } | Altezza del smusso. Sola lettura Double. |
-| [Width](../../aspose.slides/ishapebeveleffectivedata/width) { get; } | Larghezza del smusso. Sola lettura Double. |
+| [Height](../../aspose.slides/ishapebeveleffectivedata/height) { get; } | Altezza dello smusso. Sola lettura Double. |
+| [Width](../../aspose.slides/ishapebeveleffectivedata/width) { get; } | Larghezza dello smusso. Sola lettura Double. |
 
 ### Osservazioni
 

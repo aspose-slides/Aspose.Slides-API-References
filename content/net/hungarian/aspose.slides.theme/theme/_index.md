@@ -1,14 +1,14 @@
 ---
 title: Theme
-second_title: Aspose.Sildes .NET API referencia
-description: Egy témát képvisel.
+second_title: Aspose.Sildes .NET API Referenciája
+description: Egy témát reprezentál.
 type: docs
-weight: 11480
+weight: 11500
 url: /hu/aspose.slides.theme/theme/
 ---
 ## Theme osztály
 
-Egy Theme-et képvisel.
+Represents a theme.
 
 ```csharp
 public abstract class Theme : ITheme
@@ -18,16 +18,16 @@ public abstract class Theme : ITheme
 
 | Név | Leírás |
 | --- | --- |
-| abstract [ColorScheme](../../aspose.slides.theme/theme/colorscheme) { get; } | Visszaadja a színsémát. Csak olvasható [`IColorScheme`](../icolorscheme). |
-| abstract [FontScheme](../../aspose.slides.theme/theme/fontscheme) { get; } | Visszaadja a betűtípussémát. Csak olvasható [`IFontScheme`](../ifontscheme). |
-| abstract [FormatScheme](../../aspose.slides.theme/theme/formatscheme) { get; } | Visszaadja az alakzatformátumsémát. Csak olvasható [`IFormatScheme`](../iformatscheme). |
-| [Presentation](../../aspose.slides.theme/theme/presentation) { get; } | Visszaadja a szülő bemutatót. Csak olvasható [`IPresentation`](../../aspose.slides/ipresentation). |
+| abstract [ColorScheme](../../aspose.slides.theme/theme/colorscheme) { get; } | Visszaadja a színskémát. Csak olvasható [`IColorScheme`](../icolorscheme). |
+| abstract [FontScheme](../../aspose.slides.theme/theme/fontscheme) { get; } | Visszaadja a betűtípus sémát. Csak olvasható [`IFontScheme`](../ifontscheme). |
+| abstract [FormatScheme](../../aspose.slides.theme/theme/formatscheme) { get; } | Visszaadja az alakzatformátum sémát. Csak olvasható [`IFormatScheme`](../iformatscheme). |
+| [Presentation](../../aspose.slides.theme/theme/presentation) { get; } | Visszaadja a szülő prezentációt. Csak olvasható [`IPresentation`](../../aspose.slides/ipresentation). |
 
-## Metódusok
+## Módszerek
 
 | Név | Leírás |
 | --- | --- |
-| [GetEffective](../../aspose.slides.theme/theme/geteffective)() | Lekéri a hatékony téma adatokat az öröklődés alkalmazásával. |
+| [GetEffective](../../aspose.slides.theme/theme/geteffective)() | Lekéri a hatékony téma adatokat a öröklődés alkalmazásával. |
 
 ### Lásd még
 

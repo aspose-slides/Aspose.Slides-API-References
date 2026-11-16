@@ -1,12 +1,12 @@
 ---
 title: GetFonts
-second_title: Aspose.Sildes pro .NET – referenční dokumentace API
-description: Vrací písma použitá v prezentaci
+second_title: Aspose.Sildes pro .NET API Reference
+description: Vrací písma používaná v prezentaci
 type: docs
-weight: 70
+weight: 80
 url: /cs/aspose.slides/fontsmanager/getfonts/
 ---
-## FontsManager.GetFonts method
+## FontsManager.GetFonts metoda
 
 Vrací písma použitá v prezentaci
 

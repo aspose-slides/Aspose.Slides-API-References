@@ -1,36 +1,36 @@
 ---
 title: ReplaceText
-second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
-description: แทนที่ทุกการปรากฏของข้อความที่ระบุด้วยข้อความที่ระบุอื่น
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: แทนที่ข้อความที่ระบุทั้งหมดด้วยข้อความอื่นที่ระบุ
 type: docs
-weight: 380
+weight: 390
 url: /th/aspose.slides/presentation/replacetext/
 ---
 ## Presentation.ReplaceText เมธอด
 
-แทนที่ทุกการปรากฏของข้อความที่ระบุด้วยข้อความที่ระบุอื่น
+แทนที่ข้อความที่ระบุทั้งหมดด้วยข้อความอื่นที่ระบุ
 
 ```csharp
 public void ReplaceText(string oldText, string newText, ITextSearchOptions options, 
     IFindResultCallback callback)
 ```
 
-| พารามิเตอร์ | ชนิด | คำอธิบาย |
+| พารามิเตอร์ | ประเภท | คำอธิบาย |
 | --- | --- | --- |
-| oldText | String | สตริงที่จะถูกแทนที่. |
-| newText | String | สตริงที่จะใช้แทนที่การปรากฏทั้งหมดของ oldText. |
-| options | ITextSearchOptions | ตัวเลือกการค้นหาข้อความ [`ITextSearchOptions`](../../itextsearchoptions). |
-| callback | IFindResultCallback | อ็อบเจ็กต์ callback เพื่อรับผลการค้นหา [`IFindResultCallback`](../../ifindresultcallback). |
+| oldText | String | สตริงที่ต้องการแทนที่ |
+| newText | String | สตริงเพื่อแทนที่การปรากฏทั้งหมดของ oldText |
+| options | ITextSearchOptions | ตัวเลือกการค้นหาข้อความ [`ITextSearchOptions`](../../itextsearchoptions) |
+| callback | IFindResultCallback | ออบเจ็กต์ callback สำหรับรับผลการค้นหา [`IFindResultCallback`](../../ifindresultcallback) |
 
 ### ตัวอย่าง
 
-ตัวอย่างโค้ดต่อไปนี้แสดงวิธีการแทนที่สตริงที่ระบุหนึ่งด้วยสตริงที่ระบุอื่น
+โค้ดตัวอย่างต่อไปนี้แสดงวิธีการแทนที่สตริงที่ระบุหนึ่งด้วยสตริงอื่นที่ระบุ
 
 ```csharp
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
-	// แทนที่การปรากฏของ 'the' ที่แยกออกทั้งหมดด้วย '***'
+	// แทนที่การปรากฏของ 'the' ที่เป็นคำแยกทั้งหมดด้วย '***'
 	presentation.ReplaceText("the", "***", new TextSearchOptions() {WholeWordsOnly = true}, null);
 	presentation.Save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 }

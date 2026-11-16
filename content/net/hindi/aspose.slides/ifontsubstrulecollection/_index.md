@@ -1,14 +1,14 @@
 ---
 title: IFontSubstRuleCollection
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: फ़ॉन्ट प्रतिस्थापन का संग्रह प्रस्तुत करता है।
+second_title: Aspose.Sildes के लिये .NET API संदर्भ
+description: फ़ॉन्ट प्रतिस्थापन का संग्रह प्रतिनिधित्व करता है।
 type: docs
-weight: 5890
+weight: 5910
 url: /hi/aspose.slides/ifontsubstrulecollection/
 ---
-## IFontSubstRuleCollection इंटरफ़ेस
+## IFontSubstRuleCollection interface
 
-फ़ॉन्ट प्रतिस्थापन का संग्रह प्रस्तुत करता है।
+फ़ॉन्ट प्रतिस्थापन का संग्रह प्रतिनिधित्व करता है।
 
 ```csharp
 public interface IFontSubstRuleCollection : IGenericCollection<IFontSubstRule>
@@ -16,18 +16,18 @@ public interface IFontSubstRuleCollection : IGenericCollection<IFontSubstRule>
 
 ## गुण
 
-| नाम | विवरण |
+| नाम | वर्णन |
 | --- | --- |
-| [Item](../../aspose.slides/ifontsubstrulecollection/item) { get; } | निर्दिष्ट इंडेक्स पर तत्व प्राप्त करता है। |
+| [Item](../../aspose.slides/ifontsubstrulecollection/item) { get; } | निर्दिष्ट अनुक्रमांक पर तत्व प्राप्त करता है। |
 
-## विधि
+## विधियाँ
 
-| नाम | विवरण |
+| नाम | वर्णन |
 | --- | --- |
-| [Add](../../aspose.slides/ifontsubstrulecollection/add)(IFontSubstRule) | नए फ़ॉन्ट प्रतिस्थापन नियम को संग्रह में जोड़ता है। |
-| [Remove](../../aspose.slides/ifontsubstrulecollection/remove)(IFontSubstRule) | संग्रह से किसी विशिष्ट वस्तु की पहली उपस्थिति को हटाता है। |
+| [Add](../../aspose.slides/ifontsubstrulecollection/add)(IFontSubstRule) | नई फ़ॉन्ट प्रतिस्थापन नियम को संग्रह में जोड़ता है |
+| [Remove](../../aspose.slides/ifontsubstrulecollection/remove)(IFontSubstRule) | संग्रह से निर्दिष्ट वस्तु की पहली उपस्थिति को हटाता है। |
 
-### सम्बन्धित देखें
+### संबंधित देखें
 
 * इंटरफ़ेस [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * इंटरफ़ेस [IFontSubstRule](../ifontsubstrule)

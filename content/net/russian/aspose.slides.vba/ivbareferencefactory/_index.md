@@ -1,14 +1,14 @@
 ---
 title: IVbaReferenceFactory
-second_title: Aspose.Sildes для .NET API Reference
-description: Позволяет создавать ссылки на проекты VBA через COM-интерфейс
+second_title: Справочник API Aspose.Sildes для .NET
+description: Позволяет создавать ссылки на VBA проекты через COM-интерфейс
 type: docs
-weight: 11590
+weight: 11610
 url: /ru/aspose.slides.vba/ivbareferencefactory/
 ---
 ## IVbaReferenceFactory интерфейс
 
-Позволяет создавать ссылки на проекты VBA через COM-интерфейс
+Позволяет создавать ссылки на VBA проекты через COM интерфейс
 
 ```csharp
 public interface IVbaReferenceFactory
@@ -18,7 +18,7 @@ public interface IVbaReferenceFactory
 
 | Имя | Описание |
 | --- | --- |
-| [CreateOleTypeLibReference](../../aspose.slides.vba/ivbareferencefactory/createoletypelibreference)(string, string) | Создает новую ссылку на библиотеку типов OLE Automation. |
+| [CreateOleTypeLibReference](../../aspose.slides.vba/ivbareferencefactory/createoletypelibreference)(string, string) | Создает новую ссылку на типовую библиотеку OLE Automation. |
 
 ### См. также
 

@@ -1,9 +1,9 @@
 ---
 title: PresentedBySpeaker
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 由演讲者全屏呈现
 type: docs
-weight: 9650
+weight: 9670
 url: /zh/aspose.slides/presentedbyspeaker/
 ---
 ## PresentedBySpeaker 类
@@ -31,7 +31,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### 另请参见
+### 另请参阅
 
 * 类 [SlideShowType](../slideshowtype)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

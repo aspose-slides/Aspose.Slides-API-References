@@ -1,14 +1,14 @@
 ---
 title: MarkerStyleType
-second_title: Aspose.Sildes pro .NET API referenci
+second_title: Aspose.Sildes pro .NET API Reference
 description: Určuje tvar značky na datovém bodu grafu.
 type: docs
-weight: 2340
+weight: 2360
 url: /cs/aspose.slides.charts/markerstyletype/
 ---
-## MarkerStyleType výčet
+## MarkerStyleType enumerace
 
-Určuje tvar značky u datového bodu grafu.
+Určuje tvar značky na datovém bodu grafu.
 
 ```csharp
 public enum MarkerStyleType
@@ -19,17 +19,17 @@ public enum MarkerStyleType
 | Název | Hodnota | Popis |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
-| Circle | `0` | Určuje, že se u každého datového bodu vykreslí kruh. |
-| Dash | `1` | Určuje, že se u každého datového bodu vykreslí pomlčka. |
-| Diamond | `2` | Určuje, že se u každého datového bodu vykreslí diamant. |
-| Dot | `3` | Určuje, že se u každého datového bodu vykreslí tečka. |
-| None | `4` | Určuje, že se u každého datového bodu nic nevykreslí. |
-| Picture | `5` | Určuje, že se u každého datového bodu vykreslí obrázek. |
-| Plus | `6` | Určuje, že se u každého datového bodu vykreslí plus. |
-| Square | `7` | Určuje, že se u každého datového bodu vykreslí čtverec. |
-| Star | `8` | Určuje, že se u každého datového bodu vykreslí hvězda. |
-| Triangle | `9` | Určuje, že se u každého datového bodu vykreslí trojúhelník. |
-| X | `10` | Určuje, že se u každého datového bodu vykreslí X. |
+| Circle | `0` | Určuje, že na každém datovém bodu bude nakreslený kruh. |
+| Dash | `1` | Určuje, že na každém datovém bodu bude nakreslena čára. |
+| Diamond | `2` | Určuje, že na každém datovém bodu bude nakreslený diamant. |
+| Dot | `3` | Určuje, že na každém datovém bodu bude nakreslena tečka. |
+| None | `4` | Určuje, že na každém datovém bodu nebude nic nakresleno. |
+| Picture | `5` | Určuje, že na každém datovém bodu bude nakreslen obrázek. |
+| Plus | `6` | Určuje, že na každém datovém bodu bude nakreslený plus. |
+| Square | `7` | Určuje, že na každém datovém bodu bude nakreslený čtverec. |
+| Star | `8` | Určuje, že na každém datovém bodu bude nakreslená hvězda. |
+| Triangle | `9` | Určuje, že na každém datovém bodu bude nakreslený trojúhelník. |
+| X | `10` | Určuje, že na každém datovém bodu bude nakreslené X. |
 
 ### Viz také
 

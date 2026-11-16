@@ -3,7 +3,7 @@ title: ResponsiveHtmlController
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Responsive HTML-controller
 type: docs
-weight: 4420
+weight: 4440
 url: /nl/aspose.slides.export/responsivehtmlcontroller/
 ---
 ## ResponsiveHtmlController klasse
@@ -18,8 +18,8 @@ public class ResponsiveHtmlController : IResponsiveHtmlController
 
 | Naam | Beschrijving |
 | --- | --- |
-| [ResponsiveHtmlController](responsivehtmlcontroller#constructor)() | Maakt een nieuwe instantie |
-| [ResponsiveHtmlController](responsivehtmlcontroller#constructor_1)(IHtmlFormattingController) | Maakt een nieuwe instantie |
+| [ResponsiveHtmlController](responsivehtmlcontroller#constructor)() | Creëert een nieuw exemplaar |
+| [ResponsiveHtmlController](responsivehtmlcontroller#constructor_1)(IHtmlFormattingController) | Creëert een nieuw exemplaar |
 
 ### Zie ook
 

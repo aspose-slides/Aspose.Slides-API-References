@@ -1,14 +1,14 @@
 ---
 title: IChartLinesFormat
-second_title: Référence API Aspose.Sildes pour .NET
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Représente les propriétés de format des lignes de grille.
 type: docs
-weight: 1890
+weight: 1910
 url: /fr/aspose.slides.charts/ichartlinesformat/
 ---
 ## IChartLinesFormat interface
 
-Represents gridlines format properties.
+Représente les propriétés de format des lignes de grille.
 
 ```csharp
 public interface IChartLinesFormat
@@ -16,7 +16,7 @@ public interface IChartLinesFormat
 
 ## Propriétés
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
 | [Effect](../../aspose.slides.charts/ichartlinesformat/effect) { get; } | Renvoie les effets utilisés pour une ligne de graphique. Lecture seule [`IEffectFormat`](../../aspose.slides/ieffectformat). |
 | [Line](../../aspose.slides.charts/ichartlinesformat/line) { get; } | Renvoie les propriétés de style de ligne d'une ligne de graphique. Lecture seule [`ILineFormat`](../../aspose.slides/ilineformat). |

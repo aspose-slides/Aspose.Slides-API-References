@@ -1,9 +1,9 @@
 ---
 title: OleEmbeddedDataInfo
-second_title: Aspose.Sildes für .NET API Referenz
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt eingebettete Dateninformationen für ein OLE-Objekt dar.
 type: docs
-weight: 2760
+weight: 2780
 url: /de/aspose.slides.dom.ole/oleembeddeddatainfo/
 ---
 ## OleEmbeddedDataInfo Klasse
@@ -19,14 +19,14 @@ public class OleEmbeddedDataInfo : IOleEmbeddedDataInfo
 | Name | Beschreibung |
 | --- | --- |
 | [OleEmbeddedDataInfo](oleembeddeddatainfo#constructor)() | Erstellt neue eingebettete Dateninformationen für ein OLE-Objekt. |
-| [OleEmbeddedDataInfo](oleembeddeddatainfo#constructor_1)(byte[], string) | Erstellt eine neue Instanz von eingebetteten Dateninformationen für ein OLE-Objekt. Dateidaten eines eingebetteten OLE-Objekts Byte[].Dateierweiterung für das aktuelle eingebettete OLE-Objekt String. |
+| [OleEmbeddedDataInfo](oleembeddeddatainfo#constructor_1)(byte[], string) | Erstellt eine neue Instanz von eingebetteten Dateninformationen für ein OLE-Objekt. Dateidaten eines eingebetteten OLE-Objekts Byte[]. Dateierweiterung für das aktuelle eingebettete OLE-Objekt String. |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [EmbeddedFileData](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfiledata) { get; } | Gibt die Dateidaten eines eingebetteten OLE-Objekts zurück. Nur lesbar Byte[]. |
-| [EmbeddedFileExtension](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfileextension) { get; } | Gibt die Dateierweiterung für das aktuelle eingebettete OLE-Objekt zurück. Nur lesbar String. |
+| [EmbeddedFileData](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfiledata) { get; } | Gibt die Dateidaten eines eingebetteten OLE-Objekts zurück. Nur lesend Byte[]. |
+| [EmbeddedFileExtension](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfileextension) { get; } | Gibt die Dateierweiterung für das aktuelle eingebettete OLE-Objekt zurück. Nur lesend String. |
 
 ### Siehe auch
 

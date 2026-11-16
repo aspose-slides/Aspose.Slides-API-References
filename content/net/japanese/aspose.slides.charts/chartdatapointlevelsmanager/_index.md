@@ -1,14 +1,14 @@
 ---
 title: ChartDataPointLevelsManager
-second_title: Aspose.Sildes の .NET API リファレンス
-description: データ ポイント レベルのコンテナです。Treeamp および Sunburst シリーズに適用されます。データ ポイント レベルのインデックスは 0 から始まります。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: データポイントレベルのコンテナです。Treeamp および Sunburst シリーズに適用されます。データポイントレベルのインデックスは 0 ベースです。
 type: docs
-weight: 1360
+weight: 1370
 url: /ja/aspose.slides.charts/chartdatapointlevelsmanager/
 ---
 ## ChartDataPointLevelsManager クラス
 
-データ ポイント レベルのコンテナです。Treeamp および Sunburst シリーズに適用されます。データ ポイント レベルのインデックスは 0 から始まります。
+データポイントレベルのコンテナです。Treeamp および Sunburst シリーズに適用されます。データポイントレベルのインデックスは 0 から始まります。
 
 ```csharp
 public class ChartDataPointLevelsManager : DomObject<ChartDataPoint>, IChartDataPointLevelsManager
@@ -18,8 +18,8 @@ public class ChartDataPointLevelsManager : DomObject<ChartDataPoint>, IChartData
 
 | 名前 | 説明 |
 | --- | --- |
-| [Count](../../aspose.slides.charts/chartdatapointlevelsmanager/count) { get; } | データ ポイント レベルの数を返します。 |
-| [Item](../../aspose.slides.charts/chartdatapointlevelsmanager/item) { get; } | 指定されたレベルの IChartDataPointLevel オブジェクトを返します。 |
+| [Count](../../aspose.slides.charts/chartdatapointlevelsmanager/count) { get; } | データポイントレベルの数を返します。 |
+| [Item](../../aspose.slides.charts/chartdatapointlevelsmanager/item) { get; } | 定義されたレベルの IChartDataPointLevel オブジェクトを返します。 |
 
 ### 参照
 

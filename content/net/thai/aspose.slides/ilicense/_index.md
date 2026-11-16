@@ -1,14 +1,14 @@
 ---
 title: ILicense
 second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: ให้เมธอดสำหรับการให้สิทธิ์การใช้คอมโพเนนต์.
+description: ให้เมธอดสำหรับกำหนดลิขสิทธิ์ให้กับคอมโพเนนต์
 type: docs
-weight: 6260
+weight: 6280
 url: /th/aspose.slides/ilicense/
 ---
 ## ILicense อินเทอร์เฟซ
 
-ให้เมธอดสำหรับการให้สิทธิ์การใช้คอมโพเนนต์
+ให้เมธอดสำหรับลงทะเบียนลิขสิทธิ์ของคอมโพเนนต์
 
 ```csharp
 public interface ILicense
@@ -18,14 +18,14 @@ public interface ILicense
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [IsLicensed](../../aspose.slides/ilicense/islicensed)() | ตรวจสอบว่ามีการใช้ใบอนุญาตกับคอมโพเนนต์หรือไม่ |
-| [ResetLicense](../../aspose.slides/ilicense/resetlicense)() | รีเซ็ตใบอนุญาต |
-| [SetLicense](../../aspose.slides/ilicense/setlicense#setlicense)(Stream) | ให้ใบอนุญาตกับคอมโพเนนต์ |
-| [SetLicense](../../aspose.slides/ilicense/setlicense#setlicense_1)(string) | ให้ใบอนุญาตกับคอมโพเนนต์ |
+| [IsLicensed](../../aspose.slides/ilicense/islicensed)() | ตรวจสอบว่ามีการใช้ลิขสิทธิ์กับคอมโพเนนต์หรือไม่ |
+| [ResetLicense](../../aspose.slides/ilicense/resetlicense)() | รีเซ็ตลิขสิทธิ์ |
+| [SetLicense](../../aspose.slides/ilicense/setlicense#setlicense)(Stream) | กำหนดลิขสิทธิ์ให้คอมโพเนนต์ |
+| [SetLicense](../../aspose.slides/ilicense/setlicense#setlicense_1)(string) | กำหนดลิขสิทธิ์ให้คอมโพเนนต์ |
 
 ### ตัวอย่าง
 
-ในตัวอย่างนี้ จะพยายามค้นหาไฟล์ใบอนุญาตที่ชื่อ MyLicense.lic ในโฟลเดอร์ที่มีคอมโพเนนต์, ในโฟลเดอร์ที่มีการเรียกใช้แอสเซมบลี, ในโฟลเดอร์ของ entry แอสเซมบลี และจากนั้นในทรัพยากรฝังตัวของการเรียกใช้แอสเซมบลี
+ในตัวอย่างนี้ จะพยายามค้นหาไฟล์ลิขสิทธิ์ชื่อ MyLicense.lic ในโฟลเดอร์ที่มีคอมโพเนนต์, ในโฟลเดอร์ที่มีแอสเซมบลีที่เรียก, ในโฟลเดอร์ของแอสเซมบลีที่เป็นจุดเริ่มต้นและจากนั้นในทรัพยากรที่ฝังไว้ของแอสเซมบลีที่เรียก
 
 ```csharp
 [C#]

@@ -1,9 +1,9 @@
 ---
 title: MathFractionTypes
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 분수 유형
 type: docs
-weight: 8710
+weight: 8730
 url: /ko/aspose.slides.mathtext/mathfractiontypes/
 ---
 ## MathFractionTypes 열거형
@@ -19,11 +19,11 @@ public enum MathFractionTypes
 | 이름 | 값 | 설명 |
 | --- | --- | --- |
 | Bar | `1` | Bar 분수 |
-| Skewed | `2` | Skewed |
+| Skewed | `2` | 기울어진 |
 | Linear | `3` | Linear 분수 |
 | NoBar | `4` | No-Bar 분수 (스택) |
 
-### 참조
+### 또 보기
 
 * 네임스페이스 [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * 어셈블리 [Aspose.Slides](../../)

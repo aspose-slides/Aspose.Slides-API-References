@@ -1,14 +1,14 @@
 ---
 title: VbaModuleCollection
-second_title: Aspose.Sildes pro .NET – API reference
-description: Reprezentuje kolekci modulů projektu VBA.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Reprezentuje kolekci modulů VBA projektu.
 type: docs
-weight: 11640
+weight: 11660
 url: /cs/aspose.slides.vba/vbamodulecollection/
 ---
 ## VbaModuleCollection třída
 
-Reprezentuje kolekci modulů projektu VBA.
+Represents a collection of a VBA Project modules.
 
 ```csharp
 public sealed class VbaModuleCollection : IVbaModuleCollection
@@ -18,19 +18,19 @@ public sealed class VbaModuleCollection : IVbaModuleCollection
 
 | Název | Popis |
 | --- | --- |
-| [Count](../../aspose.slides.vba/vbamodulecollection/count) { get; } | Získá počet skutečných elementů obsažených v kolekci. Pouze-ke-čtení Int32. |
-| [IsSynchronized](../../aspose.slides.vba/vbamodulecollection/issynchronized) { get; } | Vrací hodnotu indikující, zda je přístup ke kolekci synchronizován (vláknově-bezpečný). Pouze-ke-čtení Boolean. |
-| [Item](../../aspose.slides.vba/vbamodulecollection/item) { get; } | Získá element na zadaném indexu. |
-| [SyncRoot](../../aspose.slides.vba/vbamodulecollection/syncroot) { get; } | Vrací kořen synchronizace. Pouze-ke-čtení Object. |
+| [Count](../../aspose.slides.vba/vbamodulecollection/count) { get; } | Získá počet prvků skutečně obsažených ve sbírce. Pouze pro čtení Int32. |
+| [IsSynchronized](../../aspose.slides.vba/vbamodulecollection/issynchronized) { get; } | Vrací hodnotu označující, zda je přístup ke sbírce synchronizován (vláknově bezpečný). Pouze pro čtení Boolean. |
+| [Item](../../aspose.slides.vba/vbamodulecollection/item) { get; } | Získá prvek na zadaném indexu. |
+| [SyncRoot](../../aspose.slides.vba/vbamodulecollection/syncroot) { get; } | Vrací kořen synchronizace. Pouze pro čtení Object. |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| [AddEmptyModule](../../aspose.slides.vba/vbamodulecollection/addemptymodule)(string) | Přidá nový prázdný modul do projektu VBA. |
-| [CopyTo](../../aspose.slides.vba/vbamodulecollection/copyto)(Array, int) | Zkopíruje všechny elementy z kolekce do zadaného pole. |
-| [GetEnumerator](../../aspose.slides.vba/vbamodulecollection/getenumerator)() | Vrací enumerátor, který prochází kolekcí. |
-| [Remove](../../aspose.slides.vba/vbamodulecollection/remove)(IVbaModule) | Odstraní první výskyt zadaného objektu z kolekce. |
+| [AddEmptyModule](../../aspose.slides.vba/vbamodulecollection/addemptymodule)(string) | Přidá nový prázdný modul do VBA Project. |
+| [CopyTo](../../aspose.slides.vba/vbamodulecollection/copyto)(Array, int) | Kopíruje všechny prvky ze sbírky do zadaného pole. |
+| [GetEnumerator](../../aspose.slides.vba/vbamodulecollection/getenumerator)() | Vrací enumerátor, který prochází sbírku. |
+| [Remove](../../aspose.slides.vba/vbamodulecollection/remove)(IVbaModule) | Odstraní první výskyt konkrétního objektu ze sbírky. |
 
 ### Viz také
 

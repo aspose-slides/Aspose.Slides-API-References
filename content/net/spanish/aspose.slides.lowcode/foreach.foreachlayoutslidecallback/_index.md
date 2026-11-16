@@ -1,9 +1,9 @@
 ---
 title: ForEach.ForEachLayoutSlideCallback
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Callback que se invocará para cada LayoutSlide./foreach/layoutslide en la Presentación../aspose.slides/presentation.
+description: Callback que se invocará para cada LayoutSlide./foreach/layoutslide en la Presentation../aspose.slides/presentation.
 type: docs
-weight: 7910
+weight: 7930
 url: /es/aspose.slides.lowcode/foreach.foreachlayoutslidecallback/
 ---
 ## ForEach.ForEachLayoutSlideCallback delegado

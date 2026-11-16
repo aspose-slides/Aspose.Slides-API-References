@@ -1,9 +1,9 @@
 ---
 title: RemoveEmbeddedFont
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Gömülü yazı tipini kaldırır
 type: docs
-weight: 90
+weight: 100
 url: /tr/aspose.slides/ifontsmanager/removeembeddedfont/
 ---
 ## IFontsManager.RemoveEmbeddedFont yöntemi

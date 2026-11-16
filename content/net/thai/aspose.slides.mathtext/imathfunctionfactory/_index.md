@@ -1,14 +1,14 @@
 ---
 title: IMathFunctionFactory
-second_title: Aspose.Sildes สำหรับ .NET API Reference
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
 description: อนุญาตให้สร้างฟังก์ชันคณิตศาสตร์
 type: docs
-weight: 8280
+weight: 8300
 url: /th/aspose.slides.mathtext/imathfunctionfactory/
 ---
 ## IMathFunctionFactory อินเทอร์เฟซ
 
-Allows to create a math function → สร้างฟังก์ชันคณิตศาสตร์
+อนุญาตให้สร้างฟังก์ชันคณิตศาสตร์
 
 ```csharp
 public interface IMathFunctionFactory
@@ -23,7 +23,7 @@ public interface IMathFunctionFactory
 
 ### หมายเหตุ
 
-สำหรับความเข้ากันได้ของ COM
+เพื่อความเข้ากันได้กับ COM
 
 ### ดูเพิ่มเติม
 

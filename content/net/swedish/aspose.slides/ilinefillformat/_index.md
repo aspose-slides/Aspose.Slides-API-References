@@ -3,7 +3,7 @@ title: ILineFillFormat
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar egenskaper för linjefyllning.
 type: docs
-weight: 6290
+weight: 6310
 url: /sv/aspose.slides/ilinefillformat/
 ---
 ## ILineFillFormat gränssnitt
@@ -18,14 +18,14 @@ public interface ILineFillFormat : IFillParamSource
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/ilinefillformat/asifillparamsource) { get; } | Tillåter att hämta bas-IFillParamSource-gränssnittet. Skrivskyddad [`IFillParamSource`](../ifillparamsource). |
+| [AsIFillParamSource](../../aspose.slides/ilinefillformat/asifillparamsource) { get; } | Tillåter att hämta bas IFillParamSource gränssnitt. Skrivskyddad [`IFillParamSource`](../ifillparamsource). |
 | [FillType](../../aspose.slides/ilinefillformat/filltype) { get; set; } | Returnerar eller anger fyllningstypen. Läs/skriv [`FillType`](../filltype). |
 | [GradientFormat](../../aspose.slides/ilinefillformat/gradientformat) { get; } | Returnerar gradientfyllningsformatet. Skrivskyddad [`IGradientFormat`](../igradientformat). |
 | [PatternFormat](../../aspose.slides/ilinefillformat/patternformat) { get; } | Returnerar mönsterfyllningsformatet. Skrivskyddad [`IPatternFormat`](../ipatternformat). |
 | [RotateWithShape](../../aspose.slides/ilinefillformat/rotatewithshape) { get; set; } | Bestämmer om fyllningen ska roteras med en form. Läs/skriv [`NullableBool`](../nullablebool). |
 | [SolidFillColor](../../aspose.slides/ilinefillformat/solidfillcolor) { get; } | Returnerar färgen på en solid fyllning. Skrivskyddad [`IColorFormat`](../icolorformat). |
 
-### Se också
+### Se även
 
 * gränssnitt [IFillParamSource](../ifillparamsource)
 * namnrymd [Aspose.Slides](../../aspose.slides)

@@ -1,14 +1,14 @@
 ---
 title: ChartCategoryLevelsManager
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Beheerde container van de waarden van de diagramcategorie-niveaus.
+description: Beheerde container van de waarden van de categorie-niveaus van het diagram.
 type: docs
-weight: 1290
+weight: 1300
 url: /nl/aspose.slides.charts/chartcategorylevelsmanager/
 ---
 ## ChartCategoryLevelsManager klasse
 
-Beheerde container van de waarden van de diagramcategorie-niveaus.
+Beheerde container van de waarden van de categorie-niveaus van het diagram.
 
 ```csharp
 public class ChartCategoryLevelsManager : IChartCategoryLevelsManager
@@ -18,14 +18,14 @@ public class ChartCategoryLevelsManager : IChartCategoryLevelsManager
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Item](../../aspose.slides.charts/chartcategorylevelsmanager/item) { get; } | Retourneert IChartDataCell object voor het opgegeven niveau. |
+| [Item](../../aspose.slides.charts/chartcategorylevelsmanager/item) { get; } | Retourneert een IChartDataCell-object voor het gedefinieerde niveau. |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| [DeleteGroupingItem](../../aspose.slides.charts/chartcategorylevelsmanager/deletegroupingitem)(int) | Verwijdert groepeerelement voor het opgegeven niveau. |
-| [SetGroupingItem](../../aspose.slides.charts/chartcategorylevelsmanager/setgroupingitem)(int, object) | Stelt groepeerelement in voor het opgegeven niveau. |
+| [DeleteGroupingItem](../../aspose.slides.charts/chartcategorylevelsmanager/deletegroupingitem)(int) | Verwijdert groeperingsitem voor het gedefinieerde niveau. |
+| [SetGroupingItem](../../aspose.slides.charts/chartcategorylevelsmanager/setgroupingitem)(int, object) | Stelt groeperingsitem in voor het gedefinieerde niveau. |
 
 ### Zie ook
 

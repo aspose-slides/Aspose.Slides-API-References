@@ -1,14 +1,14 @@
 ---
 title: OdpReadException
-second_title: Aspose.Sildes .NET API 参考
-description: 表示在演示文稿读取错误时抛出的异常。
+second_title: Aspose.Sildes for .NET API 参考
+description: 表示在演示读取错误时抛出的异常。
 type: docs
-weight: 9220
+weight: 9240
 url: /zh/aspose.slides/odpreadexception/
 ---
 ## OdpReadException 类
 
-表示在演示文稿读取错误时抛出的异常。
+表示在演示读取错误时抛出的异常。
 
 ```csharp
 public class OdpReadException : OdpException
@@ -20,7 +20,7 @@ public class OdpReadException : OdpException
 | --- | --- |
 | [OdpReadException](odpreadexception#constructor)() | 默认构造函数 |
 | [OdpReadException](odpreadexception#constructor_1)(string) | 允许向此异常添加消息的构造函数。 |
-| [OdpReadException](odpreadexception#constructor_2)(string, Exception) | 包含消息和内部异常的构造函数。 |
+| [OdpReadException](odpreadexception#constructor_2)(string, Exception) | 包含消息和嵌入异常的构造函数。 |
 
 ### 另见
 

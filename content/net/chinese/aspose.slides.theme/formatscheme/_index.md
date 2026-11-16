@@ -1,9 +1,9 @@
 ---
 title: FormatScheme
-second_title: Aspose.Sildes 的 .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 存储形状的主题定义格式。
 type: docs
-weight: 11140
+weight: 11160
 url: /zh/aspose.slides.theme/formatscheme/
 ---
 ## FormatScheme 类
@@ -18,12 +18,12 @@ public class FormatScheme : IFormatScheme
 
 | 名称 | 描述 |
 | --- | --- |
-| [BackgroundFillStyles](../../aspose.slides.theme/formatscheme/backgroundfillstyles) { get; } | 返回主题定义的背景填充样式集合。只读 [`IFillFormatCollection`](../ifillformatcollection). |
-| [EffectStyles](../../aspose.slides.theme/formatscheme/effectstyles) { get; } | 返回主题定义的效果样式集合。只读 [`IEffectStyleCollection`](../ieffectstylecollection). |
-| [FillStyles](../../aspose.slides.theme/formatscheme/fillstyles) { get; } | 返回主题定义的填充样式集合。只读 [`IFillFormatCollection`](../ifillformatcollection). |
-| [LineStyles](../../aspose.slides.theme/formatscheme/linestyles) { get; } | 返回主题定义的线条样式集合。只读 [`ILineFormatCollection`](../ilineformatcollection). |
-| [Presentation](../../aspose.slides.theme/formatscheme/presentation) { get; } | 返回父演示文稿。只读 [`IPresentation`](../../aspose.slides/ipresentation). |
-| [Slide](../../aspose.slides.theme/formatscheme/slide) { get; } | 返回父幻灯片。只读 [`IBaseSlide`](../../aspose.slides/ibaseslide). |
+| [BackgroundFillStyles](../../aspose.slides.theme/formatscheme/backgroundfillstyles) { get; } | 返回主题定义的背景填充样式集合。只读 [`IFillFormatCollection`](../ifillformatcollection)。 |
+| [EffectStyles](../../aspose.slides.theme/formatscheme/effectstyles) { get; } | 返回主题定义的效果样式集合。只读 [`IEffectStyleCollection`](../ieffectstylecollection)。 |
+| [FillStyles](../../aspose.slides.theme/formatscheme/fillstyles) { get; } | 返回主题定义的填充样式集合。只读 [`IFillFormatCollection`](../ifillformatcollection)。 |
+| [LineStyles](../../aspose.slides.theme/formatscheme/linestyles) { get; } | 返回主题定义的线条样式集合。只读 [`ILineFormatCollection`](../ilineformatcollection)。 |
+| [Presentation](../../aspose.slides.theme/formatscheme/presentation) { get; } | 返回父演示文稿。只读 [`IPresentation`](../../aspose.slides/ipresentation)。 |
+| [Slide](../../aspose.slides.theme/formatscheme/slide) { get; } | 返回父幻灯片。只读 [`IBaseSlide`](../../aspose.slides/ibaseslide)。 |
 
 ### 另见
 

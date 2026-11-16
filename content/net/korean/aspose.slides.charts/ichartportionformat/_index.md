@@ -3,7 +3,7 @@ title: IChartPortionFormat
 second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 차트에서 사용되는 차트 부분 서식 속성을 나타냅니다.
 type: docs
-weight: 1920
+weight: 1940
 url: /ko/aspose.slides.charts/ichartportionformat/
 ---
 ## IChartPortionFormat 인터페이스
@@ -18,7 +18,7 @@ public interface IChartPortionFormat : IBasePortionFormat
 
 | 이름 | 설명 |
 | --- | --- |
-| [AsIBasePortionFormat](../../aspose.slides.charts/ichartportionformat/asibaseportionformat) { get; } | 반환합니다 IBasePortionFormat 인터페이스. |
+| [AsIBasePortionFormat](../../aspose.slides.charts/ichartportionformat/asibaseportionformat) { get; } | IBasePortionFormat 인터페이스를 반환합니다. |
 
 ### 관련 항목
 

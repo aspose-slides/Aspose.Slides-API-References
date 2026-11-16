@@ -1,14 +1,14 @@
 ---
 title: FontCollectionIndex
-second_title: Riferimento API di Aspose.Sildes per .NET
-description: Rappresenta l'indice dei caratteri in una raccolta.
+second_title: Aspose.Sildes per il riferimento API .NET
+description: Rappresenta l'indice dei font in una collezione.
 type: docs
-weight: 4810
+weight: 4830
 url: /it/aspose.slides/fontcollectionindex/
 ---
 ## FontCollectionIndex enumerazione
 
-Rappresenta l'indice del carattere in una raccolta.
+Rappresenta l'indice del font in una collezione.
 
 ```csharp
 public enum FontCollectionIndex : byte

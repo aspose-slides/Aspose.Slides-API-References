@@ -1,14 +1,14 @@
 ---
 title: IMathBorderBoxFactory
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Ermöglicht das Erstellen einer mathematischen Randbox
+description: Ermöglicht das Erstellen einer mathematischen Rahmenbox
 type: docs
-weight: 8180
+weight: 8200
 url: /de/aspose.slides.mathtext/imathborderboxfactory/
 ---
 ## IMathBorderBoxFactory Schnittstelle
 
-Ermöglicht das Erstellen einer mathematischen Randbox
+Ermöglicht das Erstellen einer mathematischen Rahmenbox
 
 ```csharp
 public interface IMathBorderBoxFactory
@@ -18,10 +18,10 @@ public interface IMathBorderBoxFactory
 
 | Name | Beschreibung |
 | --- | --- |
-| [CreateMathBorderBox](../../aspose.slides.mathtext/imathborderboxfactory/createmathborderbox#createmathborderbox)(IMathElement) | Erzeugt eine mathematische Randbox, indem sie auf das Element angewendet wird |
-| [CreateMathBorderBox](../../aspose.slides.mathtext/imathborderboxfactory/createmathborderbox#createmathborderbox_1)(IMathElement, bool, bool, bool, bool, bool, bool, bool, bool) | Erzeugt eine mathematische Randbox, indem sie auf das Element angewendet wird |
+| [CreateMathBorderBox](../../aspose.slides.mathtext/imathborderboxfactory/createmathborderbox#createmathborderbox)(IMathElement) | Erzeugt eine mathematische Rahmenbox, indem sie auf das Element angewendet wird |
+| [CreateMathBorderBox](../../aspose.slides.mathtext/imathborderboxfactory/createmathborderbox#createmathborderbox_1)(IMathElement, bool, bool, bool, bool, bool, bool, bool, bool) | Erzeugt eine mathematische Rahmenbox, indem sie auf das Element angewendet wird |
 
-### Hinweise
+### Bemerkungen
 
 Für COM-Kompatibilität
 

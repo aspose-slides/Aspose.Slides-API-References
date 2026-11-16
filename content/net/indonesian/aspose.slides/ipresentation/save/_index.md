@@ -1,14 +1,14 @@
 ---
 title: Save
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Menyimpan semua slide dalam presentasi ke file dengan format yang ditentukan.
+description: Menyimpan semua slide presentasi ke sebuah file dengan format yang ditentukan.
 type: docs
-weight: 380
+weight: 390
 url: /id/aspose.slides/ipresentation/save/
 ---
 ## Save(string, SaveFormat) {#save_5}
 
-Menyimpan semua slide dalam presentasi ke sebuah file dengan format yang ditentukan.
+Menyimpan semua slide dari presentasi ke sebuah file dengan format yang ditentukan.
 
 ```csharp
 public void Save(string fname, SaveFormat format)
@@ -16,21 +16,21 @@ public void Save(string fname, SaveFormat format)
 
 | Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| fname | String | Jalur ke file yang dibuat. |
-| format | SaveFormat | Format data yang diekspor. |
+| fname | String | Path to the created file. |
+| format | SaveFormat | Format of the exported data. |
 
 ### Lihat Juga
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
 * antarmuka [IPresentation](../../ipresentation)
 * ruang nama [Aspose.Slides](../../ipresentation)
-* assembly [Aspose.Slides](../../../)
+* perakitan [Aspose.Slides](../../../)
 
 ---
 
 ## Save(Stream, SaveFormat) {#save_1}
 
-Menyimpan semua slide dalam presentasi ke aliran dengan format yang ditentukan.
+Menyimpan semua slide dari presentasi ke aliran dalam format yang ditentukan.
 
 ```csharp
 public void Save(Stream stream, SaveFormat format)
@@ -38,21 +38,21 @@ public void Save(Stream stream, SaveFormat format)
 
 | Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| stream | Stream | Aliran keluaran. |
-| format | SaveFormat | Format data yang diekspor. |
+| stream | Stream | Output stream. |
+| format | SaveFormat | Format of the exported data. |
 
 ### Lihat Juga
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
 * antarmuka [IPresentation](../../ipresentation)
 * ruang nama [Aspose.Slides](../../ipresentation)
-* assembly [Aspose.Slides](../../../)
+* perakitan [Aspose.Slides](../../../)
 
 ---
 
 ## Save(string, SaveFormat, ISaveOptions) {#save_6}
 
-Menyimpan semua slide dalam presentasi ke sebuah file dengan format yang ditentukan dan opsi tambahan.
+Menyimpan semua slide dari presentasi ke file dengan format yang ditentukan serta opsi tambahan.
 
 ```csharp
 public void Save(string fname, SaveFormat format, ISaveOptions options)
@@ -60,9 +60,9 @@ public void Save(string fname, SaveFormat format, ISaveOptions options)
 
 | Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| fname | String | Jalur ke file yang dibuat. |
-| format | SaveFormat | Format data yang diekspor. |
-| options | ISaveOptions | Opsi format tambahan. |
+| fname | String | Path to the created file. |
+| format | SaveFormat | Format of the exported data. |
+| options | ISaveOptions | Additional format options. |
 
 ### Lihat Juga
 
@@ -70,13 +70,13 @@ public void Save(string fname, SaveFormat format, ISaveOptions options)
 * antarmuka [ISaveOptions](../../../aspose.slides.export/isaveoptions)
 * antarmuka [IPresentation](../../ipresentation)
 * ruang nama [Aspose.Slides](../../ipresentation)
-* assembly [Aspose.Slides](../../../)
+* perakitan [Aspose.Slides](../../../)
 
 ---
 
 ## Save(Stream, SaveFormat, ISaveOptions) {#save_2}
 
-Menyimpan semua slide dalam presentasi ke aliran dengan format yang ditentukan dan opsi tambahan.
+Menyimpan semua slide dari presentasi ke aliran dalam format yang ditentukan serta opsi tambahan.
 
 ```csharp
 public void Save(Stream stream, SaveFormat format, ISaveOptions options)
@@ -84,15 +84,15 @@ public void Save(Stream stream, SaveFormat format, ISaveOptions options)
 
 | Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| stream | Stream | Aliran keluaran. |
-| format | SaveFormat | Format data yang diekspor. |
-| options | ISaveOptions | Opsi format tambahan. |
+| stream | Stream | Output stream. |
+| format | SaveFormat | Format of the exported data. |
+| options | ISaveOptions | Additional format options. |
 
 ### Pengecualian
 
-| Pengecualian | Kondisi |
+| Pengecualian | kondisi |
 | --- | --- |
-| NotSupportedException | Jika Anda mencoba menyimpan file terenkripsi dalam format selain Office 2007-2010 |
+| NotSupportedException | If you try to save encrypted file in none Office 2007-2010 format |
 
 ### Lihat Juga
 
@@ -100,13 +100,13 @@ public void Save(Stream stream, SaveFormat format, ISaveOptions options)
 * antarmuka [ISaveOptions](../../../aspose.slides.export/isaveoptions)
 * antarmuka [IPresentation](../../ipresentation)
 * ruang nama [Aspose.Slides](../../ipresentation)
-* assembly [Aspose.Slides](../../../)
+* perakitan [Aspose.Slides](../../../)
 
 ---
 
 ## Save(string, int[], SaveFormat) {#save_7}
 
-Menyimpan slide tertentu dalam presentasi ke sebuah file dengan format yang ditentukan.
+Menyimpan slide tertentu dari presentasi ke file dengan format yang ditentukan.
 
 ```csharp
 public void Save(string fname, int[] slides, SaveFormat format)
@@ -114,30 +114,30 @@ public void Save(string fname, int[] slides, SaveFormat format)
 
 | Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| fname | String | Jalur ke file yang dibuat. |
-| slides | Int32[] | Array dengan posisi slide, dimulai dari 1. |
-| format | SaveFormat | Format data yang diekspor. |
+| fname | String | Path to the created file. |
+| slides | Int32[] | Array with slide positions, starting from 1. |
+| format | SaveFormat | Format of the exported data. |
 
 ### Pengecualian
 
-| Pengecualian | Kondisi |
+| Pengecualian | kondisi |
 | --- | --- |
-| ArgumentNullException | Ketika parameter stream atau slides bernilai null. |
-| ArgumentOutOfRangeException | Ketika parameter slides berisi nomor halaman yang salah. |
-| InvalidOperationException | Ketika SaveFormat yang tidak didukung digunakan, misalnya PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+| ArgumentNullException | When stream or slides parameter is null. |
+| ArgumentOutOfRangeException | When slides parameter contains wrong page numbers. |
+| InvalidOperationException | When an unsupported SaveFormat is used, e.g. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
 ### Lihat Juga
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
 * antarmuka [IPresentation](../../ipresentation)
 * ruang nama [Aspose.Slides](../../ipresentation)
-* assembly [Aspose.Slides](../../../)
+* perakitan [Aspose.Slides](../../../)
 
 ---
 
 ## Save(string, int[], SaveFormat, ISaveOptions) {#save_8}
 
-Menyimpan slide tertentu dalam presentasi ke sebuah file dengan format yang ditentukan.
+Menyimpan slide tertentu dari presentasi ke file dengan format yang ditentukan.
 
 ```csharp
 public void Save(string fname, int[] slides, SaveFormat format, ISaveOptions options)
@@ -145,18 +145,18 @@ public void Save(string fname, int[] slides, SaveFormat format, ISaveOptions opt
 
 | Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| fname | String | Jalur ke file yang dibuat. |
-| slides | Int32[] | Array dengan posisi slide, dimulai dari 1. |
-| format | SaveFormat | Format data yang diekspor. |
-| options | ISaveOptions | Opsi format tambahan. |
+| fname | String | Path to the created file. |
+| slides | Int32[] | Array with slide positions, starting from 1. |
+| format | SaveFormat | Format of the exported data. |
+| options | ISaveOptions | Additional format options. |
 
 ### Pengecualian
 
-| Pengecualian | Kondisi |
+| Pengecualian | kondisi |
 | --- | --- |
-| ArgumentNullException | Ketika parameter stream atau slides bernilai null. |
-| ArgumentOutOfRangeException | Ketika parameter slides berisi nomor halaman yang salah. |
-| InvalidOperationException | Ketika SaveFormat yang tidak didukung digunakan, misalnya PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+| ArgumentNullException | When stream or slides parameter is null. |
+| ArgumentOutOfRangeException | When slides parameter contains wrong page numbers. |
+| InvalidOperationException | When an unsupported SaveFormat is used, e.g. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
 ### Lihat Juga
 
@@ -164,13 +164,13 @@ public void Save(string fname, int[] slides, SaveFormat format, ISaveOptions opt
 * antarmuka [ISaveOptions](../../../aspose.slides.export/isaveoptions)
 * antarmuka [IPresentation](../../ipresentation)
 * ruang nama [Aspose.Slides](../../ipresentation)
-* assembly [Aspose.Slides](../../../)
+* perakitan [Aspose.Slides](../../../)
 
 ---
 
 ## Save(Stream, int[], SaveFormat) {#save_3}
 
-Menyimpan slide tertentu dalam presentasi ke aliran dengan format yang ditentukan.
+Menyimpan slide tertentu dari presentasi ke aliran dalam format yang ditentukan.
 
 ```csharp
 public void Save(Stream stream, int[] slides, SaveFormat format)
@@ -178,30 +178,30 @@ public void Save(Stream stream, int[] slides, SaveFormat format)
 
 | Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| stream | Stream | Aliran keluaran. |
-| slides | Int32[] | Array dengan posisi slide, dimulai dari 1. |
-| format | SaveFormat | Format data yang diekspor. |
+| stream | Stream | Output stream. |
+| slides | Int32[] | Array with slide positions, starting from 1. |
+| format | SaveFormat | Format of the exported data. |
 
 ### Pengecualian
 
-| Pengecualian | Kondisi |
+| Pengecualian | kondisi |
 | --- | --- |
-| ArgumentNullException | Ketika parameter stream atau slides bernilai null. |
-| ArgumentOutOfRangeException | Ketika parameter slides berisi nomor halaman yang salah. |
-| InvalidOperationException | Ketika SaveFormat yang tidak didukung digunakan, misalnya PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+| ArgumentNullException | When stream or slides parameter is null. |
+| ArgumentOutOfRangeException | When slides parameter contains wrong page numbers. |
+| InvalidOperationException | When an unsupported SaveFormat is used, e.g. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
 ### Lihat Juga
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
 * antarmuka [IPresentation](../../ipresentation)
 * ruang nama [Aspose.Slides](../../ipresentation)
-* assembly [Aspose.Slides](../../../)
+* perakitan [Aspose.Slides](../../../)
 
 ---
 
 ## Save(Stream, int[], SaveFormat, ISaveOptions) {#save_4}
 
-Menyimpan slide tertentu dalam presentasi ke aliran dengan format yang ditentukan.
+Menyimpan slide tertentu dari presentasi ke aliran dalam format yang ditentukan serta opsi tambahan.
 
 ```csharp
 public void Save(Stream stream, int[] slides, SaveFormat format, ISaveOptions options)
@@ -209,18 +209,18 @@ public void Save(Stream stream, int[] slides, SaveFormat format, ISaveOptions op
 
 | Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| stream | Stream | Aliran keluaran. |
-| slides | Int32[] | Array dengan posisi slide, dimulai dari 1. |
-| format | SaveFormat | Format data yang diekspor. |
-| options | ISaveOptions | Opsi format tambahan. |
+| stream | Stream | Output stream. |
+| slides | Int32[] | Array with slide positions, starting from 1. |
+| format | SaveFormat | Format of the exported data. |
+| options | ISaveOptions | Additional format options. |
 
 ### Pengecualian
 
-| Pengecualian | Kondisi |
+| Pengecualian | kondisi |
 | --- | --- |
-| ArgumentNullException | Ketika parameter stream atau slides bernilai null. |
-| ArgumentOutOfRangeException | Ketika parameter slides berisi nomor halaman yang salah. |
-| InvalidOperationException | Ketika SaveFormat yang tidak didukung digunakan, misalnya PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+| ArgumentNullException | When stream or slides parameter is null. |
+| ArgumentOutOfRangeException | When slides parameter contains wrong page numbers. |
+| InvalidOperationException | When an unsupported SaveFormat is used, e.g. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
 ### Lihat Juga
 
@@ -228,13 +228,13 @@ public void Save(Stream stream, int[] slides, SaveFormat format, ISaveOptions op
 * antarmuka [ISaveOptions](../../../aspose.slides.export/isaveoptions)
 * antarmuka [IPresentation](../../ipresentation)
 * ruang nama [Aspose.Slides](../../ipresentation)
-* assembly [Aspose.Slides](../../../)
+* perakitan [Aspose.Slides](../../../)
 
 ---
 
 ## Save(IXamlOptions) {#save}
 
-Menyimpan semua slide dalam presentasi ke sekumpulan file yang mewakili markup XAML.
+Menyimpan semua slide dari presentasi ke sekumpulan file yang mewakili markup XAML.
 
 ```csharp
 public void Save(IXamlOptions options)
@@ -242,7 +242,7 @@ public void Save(IXamlOptions options)
 
 | Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| options | IXamlOptions | Opsi format XAML. |
+| options | IXamlOptions | The XAML format options. |
 
 ### Contoh
 
@@ -250,7 +250,7 @@ public void Save(IXamlOptions options)
 [C#]
 using (Presentation pres = new Presentation("pres.pptx"))
 {
-    pres.Save(new XamlOptions { ExportHiddenSlides = true });
+	pres.Save(new XamlOptions { ExportHiddenSlides = true });
 }
 ```
 
@@ -259,6 +259,6 @@ using (Presentation pres = new Presentation("pres.pptx"))
 * antarmuka [IXamlOptions](../../../aspose.slides.export.xaml/ixamloptions)
 * antarmuka [IPresentation](../../ipresentation)
 * ruang nama [Aspose.Slides](../../ipresentation)
-* assembly [Aspose.Slides](../../../)
+* perakitan [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

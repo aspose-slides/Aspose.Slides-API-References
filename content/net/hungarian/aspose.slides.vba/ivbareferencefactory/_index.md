@@ -1,14 +1,14 @@
 ---
 title: IVbaReferenceFactory
-second_title: Aspose.Sildes .NET API referencia
-description: Lehetővé teszi VBA projekt hivatkozások létrehozását COM interfészen keresztül
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Lehetővé teszi VBA projekt-hivatkozások létrehozását COM interfészen keresztül
 type: docs
-weight: 11590
+weight: 11610
 url: /hu/aspose.slides.vba/ivbareferencefactory/
 ---
 ## IVbaReferenceFactory interfész
 
-Lehetővé teszi VBA projekt hivatkozások létrehozását COM interfészen keresztül
+Lehetővé teszi VBA projekthivatkozások létrehozását COM interfészen keresztül
 
 ```csharp
 public interface IVbaReferenceFactory

@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Restituisce l'etichetta dati per il punto dati con l'indice specificato.
+description: Restituisce l'etichetta dei dati per il punto dati con l'indice specificato.
 type: docs
-weight: 60
+weight: 70
 url: /it/aspose.slides.charts/datalabelcollection/item/
 ---
-## Indicizzatore DataLabelCollection
+## DataLabelCollection indicizzatore
 
-Restituisce l’etichetta dati per il punto dati con l’indice specificato.
+Restituisce l'etichetta dei dati per il punto dati con l'indice specificato.
 
 ```csharp
 public IDataLabel this[int index] { get; }
@@ -16,9 +16,7 @@ public IDataLabel this[int index] { get; }
 
 ### Osservazioni
 
-Un modo alternativo per accedere all’etichetta dati è:
-- SeriesEx.DataPoints[i].Label
-- gestire le proprietà dell’etichetta.
+Un modo alternativo per accedere all'etichetta dei dati è: - SeriesEx.DataPoints[i].Label - gestire le proprietà dell'etichetta.
 
 ### Vedi anche
 

@@ -1,14 +1,14 @@
 ---
 title: IGlobalLayoutSlideCollection
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: प्रस्तुति में सभी लेआउट स्लाइडों का संग्रह दर्शाता है। ILayoutSlideCollection इंटरफ़ेस को विस्तार देता है जिसमें व्यक्तिगत मास्टर लेआउट स्लाइडों के संग्रहों को एकत्रित करने के संदर्भ में लेआउट स्लाइडों को जोड़ने/क्लोन करने के लिए विधियां शामिल हैं।
+description: प्रेजेंटेशन में सभी लेआउट स्लाइड्स का संग्रह दर्शाता है। ILayoutSlideCollection इंटरफ़ेस को उन विधियों के साथ विस्तारित करता है जो मास्टर लेआउट स्लाइड्स के व्यक्तिगत संग्रहों को एकीकृत करने के संदर्भ में लेआउट स्लाइड्स को जोड़ने/क्लोन करने के लिए हैं।
 type: docs
-weight: 5990
+weight: 6010
 url: /hi/aspose.slides/igloballayoutslidecollection/
 ---
 ## IGlobalLayoutSlideCollection इंटरफ़ेस
 
-एक प्रस्तुति में सभी लेआउट स्लाइडों का संग्रह दर्शाता है। ILayoutSlideCollection इंटरफ़ेस का विस्तार करता है जिसमें व्यक्तिगत मास्टर लेआउट स्लाइडों के संग्रहों को मिलाने के संदर्भ में लेआउट स्लाइडों को जोड़ने/क्लोन करने के लिए विधियां हैं।
+प्रेजेंटेशन में सभी लेआउट स्लाइड्स का संग्रह प्रस्तुत करता है। ILayoutSlideCollection इंटरफ़ेस को विस्तारित करता है तथा मास्टर लेआउट स्लाइड्स के व्यक्तिगत संग्रहों को मिलाने के संदर्भ में लेआउट स्लाइड्स को जोड़ने/क्लोन करने के मेथड्स प्रदान करता है।
 
 ```csharp
 public interface IGlobalLayoutSlideCollection : ILayoutSlideCollection
@@ -18,17 +18,17 @@ public interface IGlobalLayoutSlideCollection : ILayoutSlideCollection
 
 | नाम | विवरण |
 | --- | --- |
-| [AsILayoutSlideCollection](../../aspose.slides/igloballayoutslidecollection/asilayoutslidecollection) { get; } | ILayoutSlideCollection इंटरफ़ेस लौटाता है। केवल-पठन [`ILayoutSlideCollection`](../ilayoutslidecollection)। |
+| [AsILayoutSlideCollection](../../aspose.slides/igloballayoutslidecollection/asilayoutslidecollection) { get; } | ILayoutSlideCollection इंटरफ़ेस लौटाता है। केवल-पढ़ने योग्य [`ILayoutSlideCollection`](../ilayoutslidecollection). |
 
-## विधियां
+## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [Add](../../aspose.slides/igloballayoutslidecollection/add)(IMasterSlide, SlideLayoutType, string) | प्रस्तुति में एक नई लेआउट स्लाइड जोड़ता है। |
-| [AddClone](../../aspose.slides/igloballayoutslidecollection/addclone#addclone)(ILayoutSlide) | प्रस्तुति में निर्दिष्ट लेआउट स्लाइड की एक प्रति जोड़ता है। |
-| [AddClone](../../aspose.slides/igloballayoutslidecollection/addclone#addclone_1)(ILayoutSlide, IMasterSlide) | प्रस्तुति में निर्दिष्ट लेआउट स्लाइड की एक प्रति जोड़ता है। |
+| [Add](../../aspose.slides/igloballayoutslidecollection/add)(IMasterSlide, SlideLayoutType, string) | प्रेजेंटेशन में एक नया लेआउट स्लाइड जोड़ता है। |
+| [AddClone](../../aspose.slides/igloballayoutslidecollection/addclone#addclone)(ILayoutSlide) | प्रेजेंटेशन में निर्दिष्ट लेआउट स्लाइड की एक कॉपी जोड़ता है। |
+| [AddClone](../../aspose.slides/igloballayoutslidecollection/addclone#addclone_1)(ILayoutSlide, IMasterSlide) | प्रेजेंटेशन में निर्दिष्ट लेआउट स्लाइड की एक कॉपी जोड़ता है। |
 
-### देखें भी
+### संबंधित देखें
 
 * इंटरफ़ेस [ILayoutSlideCollection](../ilayoutslidecollection)
 * नामस्थान [Aspose.Slides](../../aspose.slides)

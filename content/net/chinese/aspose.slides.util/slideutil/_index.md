@@ -3,7 +3,7 @@ title: SlideUtil
 second_title: Aspose.Sildes for .NET API 参考
 description: 提供帮助在演示文稿中搜索形状和文本的方法。
 type: docs
-weight: 11520
+weight: 11540
 url: /zh/aspose.slides.util/slideutil/
 ---
 ## SlideUtil 类
@@ -14,7 +14,7 @@ url: /zh/aspose.slides.util/slideutil/
 public static class SlideUtil
 ```
 
-## 方法
+## Methods
 
 | 名称 | 描述 |
 | --- | --- |
@@ -22,16 +22,16 @@ public static class SlideUtil
 | static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_2)(ShapesAlignmentType, bool, IGroupShape) | 更改组形状内所有形状的放置位置。将形状对齐到边距或幻灯片边缘，或相互对齐。 |
 | static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_1)(ShapesAlignmentType, bool, IBaseSlide, int[]) | 更改幻灯片上选定形状的放置位置。将形状对齐到边距或幻灯片边缘，或相互对齐。 |
 | static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_3)(ShapesAlignmentType, bool, IGroupShape, int[]) | 更改组形状内选定形状的放置位置。将形状对齐到边距或幻灯片边缘，或相互对齐。 |
-| static [FindAndReplaceText](../../aspose.slides.util/slideutil/findandreplacetext)(IPresentation, bool, string, string, PortionFormat) | 在演示文稿中查找并替换文本，使用指定的格式。 |
-| static [FindShape](../../aspose.slides.util/slideutil/findshape#findshape)(IBaseSlide, string) | 在 PPTX 演示文稿的幻灯片上通过替代文本查找形状。 |
-| static [FindShape](../../aspose.slides.util/slideutil/findshape#findshape_1)(IPresentation, string) | 在 PPTX 演示文稿中通过替代文本查找形状。 |
-| static [FindShapesByPlaceholderType](../../aspose.slides.util/slideutil/findshapesbyplaceholdertype)(IBaseSlide, PlaceholderType) | 搜索指定幻灯片上所有匹配给定占位符类型的形状。 |
-| static [GetAllTextBoxes](../../aspose.slides.util/slideutil/getalltextboxes)(IBaseSlide) | 返回 PPTX 演示文稿中幻灯片的所有文本框。 |
+| static [FindAndReplaceText](../../aspose.slides.util/slideutil/findandreplacetext)(IPresentation, bool, string, string, PortionFormat) | 在演示文稿中查找并替换带有指定格式的文本 |
+| static [FindShape](../../aspose.slides.util/slideutil/findshape#findshape)(IBaseSlide, string) | 在 PPTX 演示文稿的幻灯片上按备用文本查找形状。 |
+| static [FindShape](../../aspose.slides.util/slideutil/findshape#findshape_1)(IPresentation, string) | 在 PPTX 演示文稿中按备用文本查找形状。 |
+| static [FindShapesByPlaceholderType](../../aspose.slides.util/slideutil/findshapesbyplaceholdertype)(IBaseSlide, PlaceholderType) | 在指定幻灯片上搜索所有匹配给定占位符类型的形状。 |
+| static [GetAllTextBoxes](../../aspose.slides.util/slideutil/getalltextboxes)(IBaseSlide) | 返回 PPTX 演示文稿中幻灯片上的所有文本框。 |
 | static [GetAllTextFrames](../../aspose.slides.util/slideutil/getalltextframes)(IPresentation, bool) | 返回 PPTX 演示文稿中的所有文本框。 |
 | static [GetTextBoxesContainsText](../../aspose.slides.util/slideutil/gettextboxescontainstext)(IBaseSlide, string, bool) | 返回指定幻灯片上包含给定文本的所有文本框。 |
 | static [ToSaveFormat](../../aspose.slides.util/slideutil/tosaveformat)(SourceFormat) | 将源文件格式转换为相应的 [`SaveFormat`](../../aspose.slides.export/saveformat)。 |
 
-### 另请参见
+### See Also
 
 * 命名空间 [Aspose.Slides.Util](../../aspose.slides.util)
 * 程序集 [Aspose.Slides](../../)

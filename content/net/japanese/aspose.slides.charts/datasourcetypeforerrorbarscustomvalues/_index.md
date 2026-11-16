@@ -1,14 +1,14 @@
 ---
 title: DataSourceTypeForErrorBarsCustomValues
 second_title: Aspose.Sildes for .NET API リファレンス
-description: ChartDataPoint.ErrorBarsCustomValues プロパティ リストの値の型を指定します
+description: ChartDataPoint.ErrorBarsCustomValues プロパティ リスト内の値の型を指定します
 type: docs
-weight: 1590
+weight: 1600
 url: /ja/aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/
 ---
 ## DataSourceTypeForErrorBarsCustomValues クラス
 
-ChartDataPoint.ErrorBarsCustomValues プロパティ リストの値の型を指定します
+ChartDataPoint.ErrorBarsCustomValues プロパティ リスト内の値の型を指定します
 
 ```csharp
 public class DataSourceTypeForErrorBarsCustomValues : IDataSourceTypeForErrorBarsCustomValues
@@ -24,10 +24,10 @@ public class DataSourceTypeForErrorBarsCustomValues : IDataSourceTypeForErrorBar
 
 | Name | Description |
 | --- | --- |
-| [DataSourceTypeForXMinusValues](../../aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforxminusvalues) { get; set; } | エラーバー カスタム値のデータ ポイント XMinus プロパティ オブジェクトで AsCell、AsLiteralString、または AsLiteralDouble プロパティが実際に使用されているかを指定します。言い換えると、ChartDataPoint.ErrorBarsCustomValues.XMinus.Data プロパティの値の型を指定します。読み書き [`DataSourceType`](../datasourcetype)。 |
-| [DataSourceTypeForXPlusValues](../../aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforxplusvalues) { get; set; } | エラーバー カスタム値のデータ ポイント XPlus プロパティ オブジェクトで AsCell、AsLiteralString、または AsLiteralDouble プロパティが実際に使用されているかを指定します。言い換えると、ChartDataPoint.ErrorBarsCustomValues.XPlus.Data プロパティの値の型を指定します。読み書き [`DataSourceType`](../datasourcetype)。 |
-| [DataSourceTypeForYMinusValues](../../aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforyminusvalues) { get; set; } | エラーバー カスタム値のデータ ポイント YMinus プロパティ オブジェクトで AsCell、AsLiteralString、または AsLiteralDouble プロパティが実際に使用されているかを指定します。言い換えると、ChartDataPointEx.ErrorBarsCustomValues.YMinus.Data プロパティの値の型を指定します。読み書き [`DataSourceType`](../datasourcetype)。 |
-| [DataSourceTypeForYPlusValues](../../aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforyplusvalues) { get; set; } | エラーバー カスタム値のデータ ポイント YPlus プロパティ オブジェクトで AsCell、AsLiteralString、または AsLiteralDouble プロパティが実際に使用されているかを指定します。言い換えると、ChartDataPointEx.ErrorBarsCustomValues.YPlus.Data プロパティの値の型を指定します。読み書き [`DataSourceType`](../datasourcetype)。 |
+| [DataSourceTypeForXMinusValues](../../aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforxminusvalues) { get; set; } | エラーバーのカスタム値のデータポイントの XMinus プロパティ オブジェクトで、AsCell、AsLiteralString、または AsLiteralDouble プロパティが実際に使用されているかを指定します。言い換えれば、ChartDataPoint.ErrorBarsCustomValues.XMinus.Data プロパティの値の型を指定します。読み書き [`DataSourceType`](../datasourcetype)。 |
+| [DataSourceTypeForXPlusValues](../../aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforxplusvalues) { get; set; } | エラーバーのカスタム値のデータポイントの XPlus プロパティ オブジェクトで、AsCell、AsLiteralString、または AsLiteralDouble プロパティが実際に使用されているかを指定します。言い換えれば、ChartDataPoint.ErrorBarsCustomValues.XPlus.Data プロパティの値の型を指定します。読み書き [`DataSourceType`](../datasourcetype)。 |
+| [DataSourceTypeForYMinusValues](../../aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforyminusvalues) { get; set; } | エラーバーのカスタム値のデータポイントの YMinus プロパティ オブジェクトで、AsCell、AsLiteralString、または AsLiteralDouble プロパティが実際に使用されているかを指定します。言い換えれば、ChartDataPointEx.ErrorBarsCustomValues.YMinus.Data プロパティの値の型を指定します。読み書き [`DataSourceType`](../datasourcetype)。 |
+| [DataSourceTypeForYPlusValues](../../aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforyplusvalues) { get; set; } | エラーバーのカスタム値のデータポイントの YPlus プロパティ オブジェクトで、AsCell、AsLiteralString、または AsLiteralDouble プロパティが実際に使用されているかを指定します。言い換えれば、ChartDataPointEx.ErrorBarsCustomValues.YPlus.Data プロパティの値の型を指定します。読み書き [`DataSourceType`](../datasourcetype)。 |
 
 ### 参照
 

@@ -1,9 +1,9 @@
 ---
 title: IGraphicalObjectLock
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Aspose.Sildes para la referencia de API de .NET
 description: Determina qué operaciones están deshabilitadas en el GraphicalObjectEx padre.
 type: docs
-weight: 6070
+weight: 6090
 url: /es/aspose.slides/igraphicalobjectlock/
 ---
 ## IGraphicalObjectLock interfaz
@@ -19,12 +19,12 @@ public interface IGraphicalObjectLock : IBaseShapeLock
 | Nombre | Descripción |
 | --- | --- |
 | [AsIBaseShapeLock](../../aspose.slides/igraphicalobjectlock/asibaseshapelock) { get; } | Permite obtener la interfaz base IBaseShapeLock. Solo lectura [`IBaseShapeLock`](../ibaseshapelock). |
-| [AspectRatioLocked](../../aspose.slides/igraphicalobjectlock/aspectratiolocked) { get; set; } | Determina si la forma debe preservar la proporción al redimensionar. Lectura/escritura Boolean. |
+| [AspectRatioLocked](../../aspose.slides/igraphicalobjectlock/aspectratiolocked) { get; set; } | Determina si la forma debe conservar la relación de aspecto al cambiar el tamaño. Lectura/escritura Boolean. |
 | [DrilldownLocked](../../aspose.slides/igraphicalobjectlock/drilldownlocked) { get; set; } | Determina si la selección de subformas de este objeto está prohibida. Lectura/escritura Boolean. |
-| [GroupingLocked](../../aspose.slides/igraphicalobjectlock/groupinglocked) { get; set; } | Determina si añadir esta forma a un grupo está prohibido. Lectura/escritura Boolean. |
+| [GroupingLocked](../../aspose.slides/igraphicalobjectlock/groupinglocked) { get; set; } | Determina si agregar esta forma a un grupo está prohibido. Lectura/escritura Boolean. |
 | [PositionLocked](../../aspose.slides/igraphicalobjectlock/positionlocked) { get; set; } | Determina si mover esta forma está prohibido. Lectura/escritura Boolean. |
-| [SelectLocked](../../aspose.slides/igraphicalobjectlock/selectlocked) { get; set; } | Determina si seleccionar esta forma está prohibido. Lectura/escritura Boolean. |
-| [SizeLocked](../../aspose.slides/igraphicalobjectlock/sizelocked) { get; set; } | Determina si redimensionar esta forma está prohibido. Lectura/escritura Boolean. |
+| [SelectLocked](../../aspose.slides/igraphicalobjectlock/selectlocked) { get; set; } | Determina si la selección de esta forma está prohibida. Lectura/escritura Boolean. |
+| [SizeLocked](../../aspose.slides/igraphicalobjectlock/sizelocked) { get; set; } | Determina si cambiar el tamaño de esta forma está prohibido. Lectura/escritura Boolean. |
 
 ### Ver también
 

@@ -1,36 +1,36 @@
 ---
 title: FillOverlay
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đại diện cho hiệu ứng Fill Overlay. Fill overlay có thể được sử dụng để chỉ định một màu nền bổ sung cho một đối tượng và pha trộn hai màu nền lại với nhau.
+second_title: Tài liệu tham khảo API Aspose.Sildes cho .NET
+description: Đại diện cho hiệu ứng Fill Overlay. Fill overlay có thể được sử dụng để chỉ định một lớp tô bổ sung cho một đối tượng và pha trộn hai lớp tô lại với nhau.
 type: docs
-weight: 2980
+weight: 3000
 url: /vi/aspose.slides.effects/filloverlay/
 ---
-## Lớp FillOverlay
+## FillOverlay class
 
-Đại diện cho hiệu ứng Fill Overlay. Fill overlay có thể được sử dụng để chỉ định một màu nền bổ sung cho một đối tượng và pha trộn hai màu nền lại với nhau.
+Đại diện cho hiệu ứng Fill Overlay. Fill overlay có thể được sử dụng để chỉ định một lớp tô bổ sung cho một đối tượng và pha trộn hai lớp tô lại với nhau.
 
 ```csharp
 public sealed class FillOverlay : ImageTransformOperation, IFillOverlay
 ```
 
-## Thuộc tính
+## Properties
 
 | Tên | Mô tả |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Cho phép lấy giao diện cơ bản IPresentationComponent. Chỉ đọc [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Cho phép lấy giao diện IPresentationComponent cơ bản. Chỉ đọc [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 | [Blend](../../aspose.slides.effects/filloverlay/blend) { get; set; } | FillBlendMode. Đọc/ghi [`FillBlendMode`](../../aspose.slides/fillblendmode). |
 | [FillFormat](../../aspose.slides.effects/filloverlay/fillformat) { get; } | Định dạng Fill. Chỉ đọc [`IFillFormat`](../../aspose.slides/ifillformat). |
 
-## Phương thức
+## Methods
 
 | Tên | Mô tả |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/filloverlay/equals)(object) | Xác định xem [`FillOverlay`](../filloverlay) được chỉ định có bằng với [`FillOverlay`](../filloverlay) hiện tại hay không. |
-| [GetEffective](../../aspose.slides.effects/filloverlay/geteffective)() | Lấy dữ liệu hiệu ứng Fill Overlay thực tế với kế thừa đã được áp dụng. |
-| override [GetHashCode](../../aspose.slides.effects/filloverlay/gethashcode)() | Đóng vai trò như một hàm băm cho một kiểu cụ thể. |
+| override [Equals](../../aspose.slides.effects/filloverlay/equals)(object) | Xác định xem [`FillOverlay`](../filloverlay) đã chỉ định có bằng với [`FillOverlay`](../filloverlay) hiện tại hay không. |
+| [GetEffective](../../aspose.slides.effects/filloverlay/geteffective)() | Lấy dữ liệu hiệu ứng Fill Overlay thực tế với tính kế thừa đã được áp dụng. |
+| override [GetHashCode](../../aspose.slides.effects/filloverlay/gethashcode)() | Đóng vai trò là hàm băm cho một kiểu cụ thể. |
 
-### Xem thêm
+### Xem Thêm
 
 * lớp [ImageTransformOperation](../imagetransformoperation)
 * giao diện [IFillOverlay](../ifilloverlay)

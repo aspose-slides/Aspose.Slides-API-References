@@ -1,9 +1,9 @@
 ---
 title: IVideoPlayerHtmlController
-second_title: Aspose.Sildes für .NET API Referenz
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Diese Klasse ermöglicht den Export von Video- und Audiodateien in ein HTML
 type: docs
-weight: 4180
+weight: 4200
 url: /de/aspose.slides.export/ivideoplayerhtmlcontroller/
 ---
 ## IVideoPlayerHtmlController Schnittstelle
@@ -19,9 +19,9 @@ public interface IVideoPlayerHtmlController : IHtmlFormattingController, ILinkEm
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIHtmlFormattingController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asihtmlformattingcontroller) { get; } | Ermöglicht das Abrufen der Basis-Schnittstelle IHtmlFormattingController Schnittstelle. Nur lesbar [`IHtmlFormattingController`](../ihtmlformattingcontroller). |
-| [AsILinkEmbedController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asilinkembedcontroller) { get; } | Ermöglicht das Abrufen der Basis-Schnittstelle ILinkEmbedController Schnittstelle. Nur lesbar [`ILinkEmbedController`](../ilinkembedcontroller). |
-| [AsISvgShapeFormattingController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asisvgshapeformattingcontroller) { get; } | Ermöglicht das Abrufen der Basis-Schnittstelle ISvgShapeFormattingController Schnittstelle. Nur lesbar [`ISvgShapeFormattingController`](../isvgshapeformattingcontroller). |
+| [AsIHtmlFormattingController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asihtmlformattingcontroller) { get; } | Ermöglicht das Abrufen der Basis-IHtmlFormattingController Schnittstelle. Nur lesbar [`IHtmlFormattingController`](../ihtmlformattingcontroller). |
+| [AsILinkEmbedController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asilinkembedcontroller) { get; } | Ermöglicht das Abrufen der Basis-ILinkEmbedController Schnittstelle. Nur lesbar [`ILinkEmbedController`](../ilinkembedcontroller). |
+| [AsISvgShapeFormattingController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asisvgshapeformattingcontroller) { get; } | Ermöglicht das Abrufen der Basis-ISvgShapeFormattingController Schnittstelle. Nur lesbar [`ISvgShapeFormattingController`](../isvgshapeformattingcontroller). |
 
 ### Siehe auch
 

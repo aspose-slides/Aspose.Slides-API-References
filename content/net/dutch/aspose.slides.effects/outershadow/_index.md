@@ -1,14 +1,14 @@
 ---
 title: OuterShadow
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Vertegenwoordigt een Outer Shadow-effect.
+description: Stelt een Outer Shadow-effect voor.
 type: docs
-weight: 3620
+weight: 3640
 url: /nl/aspose.slides.effects/outershadow/
 ---
 ## OuterShadow klasse
 
-Stelt een OuterShadow-effect voor.
+Stelt een Outer Shadow-effect voor.
 
 ```csharp
 public sealed class OuterShadow : IOuterShadow
@@ -16,26 +16,26 @@ public sealed class OuterShadow : IOuterShadow
 
 ## Eigenschappen
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
-| [BlurRadius](../../aspose.slides.effects/outershadow/blurradius) { get; set; } | Vervaagingsradius in punten. Standaardwaarde – 0 pt. Lees/schrijf Double. |
-| [Direction](../../aspose.slides.effects/outershadow/direction) { get; set; } | Richting van de schaduw in graden. Standaardwaarde – 0 ° (van links naar rechts). Lees/schrijf Single. |
-| [Distance](../../aspose.slides.effects/outershadow/distance) { get; set; } | Afstand van de schaduw tot het object in punten. Standaardwaarde – 0 pt. Lees/schrijf Double. |
-| [RectangleAlign](../../aspose.slides.effects/outershadow/rectanglealign) { get; set; } | Rechthoekuitlijning. Standaardwaarde – Bottom. Lees/schrijf [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/outershadow/rotateshadowwithshape) { get; set; } | Geeft aan of de schaduw met de vorm meedraait. Standaardwaarde – true. Lees/schrijf Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/outershadow/scalehorizontal) { get; set; } | Horizontale schaalfactor in procent van de originele grootte. Negatieve schaal veroorzaakt een omkering. Standaardwaarde – 100 %. Lees/schrijf Double. |
-| [ScaleVertical](../../aspose.slides.effects/outershadow/scalevertical) { get; set; } | Verticale schaalfactor in procent van de originele grootte. Negatieve schaal veroorzaakt een omkering. Standaardwaarde – 100 %. Lees/schrijf Double. |
-| [ShadowColor](../../aspose.slides.effects/outershadow/shadowcolor) { get; } | Kleur van de schaduw. Standaardwaarde – automatisch zwart (themaveroor). Alleen-lezen [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [SkewHorizontal](../../aspose.slides.effects/outershadow/skewhorizontal) { get; set; } | Horizontale scheefhoek in graden. Standaardwaarde – 0 °. Lees/schrijf Double. |
-| [SkewVertical](../../aspose.slides.effects/outershadow/skewvertical) { get; set; } | Verticale scheefhoek in graden. Standaardwaarde – 0 °. Lees/schrijf Double. |
+| [BlurRadius](../../aspose.slides.effects/outershadow/blurradius) { get; set; } | Blur radius, in points. Standaardwaarde – 0 pt. Lezen/Schrijven Double. |
+| [Direction](../../aspose.slides.effects/outershadow/direction) { get; set; } | Direction of the shadow, in degrees. Standaardwaarde – 0 ° (left-to-right). Lezen/Schrijven Single. |
+| [Distance](../../aspose.slides.effects/outershadow/distance) { get; set; } | Distance of the shadow from the object, in points. Standaardwaarde – 0 pt. Lezen/Schrijven Double. |
+| [RectangleAlign](../../aspose.slides.effects/outershadow/rectanglealign) { get; set; } | Rectangle alignment. Standaardwaarde – Bottom. Lezen/Schrijven [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/outershadow/rotateshadowwithshape) { get; set; } | Indicates whether the shadow rotates together with the shape. Standaardwaarde – true. Lezen/Schrijven Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/outershadow/scalehorizontal) { get; set; } | Horizontal scaling factor, in percent of the original size. Negative scaling causes a flip. Standaardwaarde – 100 %. Lezen/Schrijven Double. |
+| [ScaleVertical](../../aspose.slides.effects/outershadow/scalevertical) { get; set; } | Vertical scaling factor, in percent of the original size. Negative scaling causes a flip. Standaardwaarde – 100 %. Lezen/Schrijven Double. |
+| [ShadowColor](../../aspose.slides.effects/outershadow/shadowcolor) { get; } | Color of the shadow. Standaardwaarde – automatic black (theme-dependent). Alleen-lezen [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [SkewHorizontal](../../aspose.slides.effects/outershadow/skewhorizontal) { get; set; } | Horizontal skew angle, in degrees. Standaardwaarde – 0 °. Lezen/Schrijven Double. |
+| [SkewVertical](../../aspose.slides.effects/outershadow/skewvertical) { get; set; } | Vertical skew angle, in degrees. Standaardwaarde – 0 °. Lezen/Schrijven Double. |
 
 ## Methoden
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/outershadow/equals)(object) | Bepaalt of de opgegeven [`OuterShadow`](../outershadow) gelijk is aan de huidige [`OuterShadow`](../outershadow). |
-| [GetEffective](../../aspose.slides.effects/outershadow/geteffective)() | Haalt effectieve OuterShadow-effectgegevens op met de toegepaste overerving. |
-| override [GetHashCode](../../aspose.slides.effects/outershadow/gethashcode)() | Dient als een hashfunctie voor een specifiek type. |
+| [GetEffective](../../aspose.slides.effects/outershadow/geteffective)() | Verkrijgt effectieve Outer Shadow-effectgegevens met de toegepaste overerving. |
+| override [GetHashCode](../../aspose.slides.effects/outershadow/gethashcode)() | Dient als hash-functie voor een bepaald type. |
 
 ### Zie ook
 

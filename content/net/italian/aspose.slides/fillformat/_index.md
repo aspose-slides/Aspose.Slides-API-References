@@ -1,14 +1,14 @@
 ---
 title: FillFormat
-second_title: Aspose.Sildes per il riferimento API .NET
-description: Rappresenta le opzioni di formattazione di riempimento.
+second_title: Aspose.Sildes per .NET Riferimento API
+description: Rappresenta le opzioni di formattazione del riempimento.
 type: docs
-weight: 4780
+weight: 4800
 url: /it/aspose.slides/fillformat/
 ---
-## classe FillFormat
+## Classe FillFormat
 
-Rappresenta le opzioni di formattazione di riempimento.
+Rappresenta le opzioni di formattazione del riempimento.
 
 ```csharp
 public sealed class FillFormat : PVIObject, IFillFormat
@@ -18,9 +18,9 @@ public sealed class FillFormat : PVIObject, IFillFormat
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Consente di ottenere l'interfaccia di base IPresentationComponent. Solo lettura [`IPresentationComponent`](../ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Consente di ottenere l'interfaccia base IPresentationComponent. Solo lettura [`IPresentationComponent`](../ipresentationcomponent). |
 | [FillType](../../aspose.slides/fillformat/filltype) { get; set; } | Restituisce o imposta il tipo di riempimento. Lettura/scrittura [`FillType`](../filltype). |
-| [GradientFormat](../../aspose.slides/fillformat/gradientformat) { get; } | Restituisce il formato di riempimento gradiente. Solo lettura [`IGradientFormat`](../igradientformat). |
+| [GradientFormat](../../aspose.slides/fillformat/gradientformat) { get; } | Restituisce il formato di riempimento a gradiente. Solo lettura [`IGradientFormat`](../igradientformat). |
 | [PatternFormat](../../aspose.slides/fillformat/patternformat) { get; } | Restituisce il formato di riempimento a motivo. Solo lettura [`IPatternFormat`](../ipatternformat). |
 | [PictureFillFormat](../../aspose.slides/fillformat/picturefillformat) { get; } | Restituisce il formato di riempimento immagine. Solo lettura [`IPictureFillFormat`](../ipicturefillformat). |
 | [RotateWithShape](../../aspose.slides/fillformat/rotatewithshape) { get; set; } | Determina se il riempimento deve essere ruotato con la forma. Lettura/scrittura [`NullableBool`](../nullablebool). |
@@ -31,7 +31,7 @@ public sealed class FillFormat : PVIObject, IFillFormat
 | Nome | Descrizione |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Confronta con l'oggetto specificato. |
-| [GetEffective](../../aspose.slides/fillformat/geteffective)() | Ottiene i dati di formattazione di riempimento effettivi con l'ereditarietà applicata. |
+| [GetEffective](../../aspose.slides/fillformat/geteffective)() | Ottiene i dati effettivi di formattazione del riempimento con l'ereditarietà applicata. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Restituisce il codice hash. |
 
 ### Vedi anche

@@ -1,14 +1,14 @@
 ---
 title: INotesSlideHeaderFooterManager
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Rappresenta il manager che gestisce il comportamento dei segnaposto delle diapositive delle note, inclusa l'intestazione del segnaposto.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Rappresenta il manager che contiene il comportamento dei segnaposti delle diapositive delle note, incluso il segnaposto dell'intestazione.
 type: docs
-weight: 6510
+weight: 6530
 url: /it/aspose.slides/inotesslideheaderfootermanager/
 ---
 ## INotesSlideHeaderFooterManager interfaccia
 
-Rappresenta il manager che gestisce il comportamento dei segnaposto delle diapositive delle note, inclusa l'intestazione del segnaposto.
+Rappresenta il manager che contiene il comportamento dei segnaposti delle diapositive delle note, incluso il segnaposto dell'intestazione.
 
 ```csharp
 public interface INotesSlideHeaderFooterManager : IBaseHandoutNotesSlideHeaderFooterManag

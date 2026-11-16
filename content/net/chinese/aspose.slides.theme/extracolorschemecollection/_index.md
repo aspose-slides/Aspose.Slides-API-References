@@ -1,9 +1,9 @@
 ---
 title: ExtraColorSchemeCollection
-second_title: Aspose.Sildes for .NET API 参考
-description: 表示一个附加配色方案的集合。
+second_title: Aspose.Sildes .NET API 参考
+description: 表示附加配色方案的集合。
 type: docs
-weight: 11110
+weight: 11130
 url: /zh/aspose.slides.theme/extracolorschemecollection/
 ---
 ## ExtraColorSchemeCollection 类
@@ -20,17 +20,17 @@ public class ExtraColorSchemeCollection : IExtraColorSchemeCollection
 | --- | --- |
 | [Count](../../aspose.slides.theme/extracolorschemecollection/count) { get; } | 返回集合中元素的数量。只读 Int32。 |
 | [IsSynchronized](../../aspose.slides.theme/extracolorschemecollection/issynchronized) { get; } | 返回一个值，指示对 ArrayList 的访问是否已同步（线程安全）。只读 Boolean。 |
-| [Item](../../aspose.slides.theme/extracolorschemecollection/item) { get; } | 按索引返回配色方案。只读 [`ExtraColorScheme`](../extracolorscheme)。 |
-| [SyncRoot](../../aspose.slides.theme/extracolorschemecollection/syncroot) { get; } | 返回一个可用于同步访问集合的对象。只读 Object。 |
+| [Item](../../aspose.slides.theme/extracolorschemecollection/item) { get; } | 通过索引返回颜色方案。只读 [`ExtraColorScheme`](../extracolorscheme)。 |
+| [SyncRoot](../../aspose.slides.theme/extracolorschemecollection/syncroot) { get; } | 返回一个可用于同步对集合访问的对象。只读 Object。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
 | [CopyTo](../../aspose.slides.theme/extracolorschemecollection/copyto)(Array, int) | 将集合的所有元素复制到指定的数组中。 |
-| [GetEnumerator](../../aspose.slides.theme/extracolorschemecollection/getenumerator)() | 返回一个枚举器，用于遍历集合。 |
+| [GetEnumerator](../../aspose.slides.theme/extracolorschemecollection/getenumerator)() | 返回一个遍历集合的枚举器。 |
 
-### 参见
+### 另请参见
 
 * 接口 [IExtraColorSchemeCollection](../iextracolorschemecollection)
 * 命名空间 [Aspose.Slides.Theme](../../aspose.slides.theme)

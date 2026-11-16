@@ -1,14 +1,14 @@
 ---
 title: GetFontEmbeddingLevel
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Determina il livello di incorporamento di un font dal byte array fornito e dal nome del font.
+description: Determina il livello di incorporamento di un font dall'array di byte fornito e dal nome del font.
 type: docs
-weight: 60
+weight: 70
 url: /it/aspose.slides/fontsmanager/getfontembeddinglevel/
 ---
-## Metodo FontsManager.GetFontEmbeddingLevel
+## FontsManager.GetFontEmbeddingLevel metodo
 
-Determina il livello di incorporamento di un font dal byte array fornito e dal nome del font.
+Determina il livello di incorporamento di un font dall'array di byte fornito e dal nome del font.
 
 ```csharp
 public EmbeddingLevel GetFontEmbeddingLevel(byte[] fontBytes, string fontName)
@@ -19,7 +19,7 @@ public EmbeddingLevel GetFontEmbeddingLevel(byte[] fontBytes, string fontName)
 | fontBytes | Byte[] | L'array di byte contenente i dati del font. |
 | fontName | String | Il nome del font. |
 
-### Valore di ritorno
+### Valore restituito
 
 Il livello di incorporamento del font specificato.
 
@@ -27,7 +27,7 @@ Il livello di incorporamento del font specificato.
 
 | eccezione | condizione |
 | --- | --- |
-| ArgumentNullException | Lanciata quando *fontBytes* è null. |
+| ArgumentNullException | Generata quando *fontBytes* è null. |
 
 ### Esempi
 
@@ -38,7 +38,7 @@ using (Presentation pres = new Presentation(pptxFileName))
     // Recupera tutti i font utilizzati nella presentazione
     IFontData[] fontDatas = pres.FontsManager.GetFonts();
 
-    // Ottieni l'array di byte che rappresenta lo stile regolare del primo font nella presentazione
+    // Ottieni l'array di byte che rappresenta lo stile normale del primo font nella presentazione
     byte[] bytes = pres.FontsManager.GetFontBytes(fontDatas[0], FontStyle.Regular);
 
     // Determina il livello di incorporamento del font

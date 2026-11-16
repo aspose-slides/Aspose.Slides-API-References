@@ -1,9 +1,9 @@
 ---
 title: IObsoletePresLockingBehaviorWarningInfo
-second_title: Aspose.Sildes .NET API referencia
-description: Ez a figyelmeztetés arra utal, hogy elavult prezentációzárási viselkedés van használatban.
+second_title: Aspose.Sildes .NET API referenciája
+description: Ez a figyelmeztetés azt jelzi, hogy egy elavult prezentációzárási viselkedés van használatban.
 type: docs
-weight: 11780
+weight: 11800
 url: /hu/aspose.slides.warnings/iobsoletepreslockingbehaviorwarninginfo/
 ---
 ## IObsoletePresLockingBehaviorWarningInfo interfész
@@ -18,7 +18,7 @@ public interface IObsoletePresLockingBehaviorWarningInfo : IWarningInfo
 
 | Név | Leírás |
 | --- | --- |
-| [AsIWarningInfo](../../aspose.slides.warnings/iobsoletepreslockingbehaviorwarninginfo/asiwarninginfo) { get; } | Visszaadja az IWarningInfo interfészt. Csak olvasható [`IWarningInfo`](../iwarninginfo). |
+| [AsIWarningInfo](../../aspose.slides.warnings/iobsoletepreslockingbehaviorwarninginfo/asiwarninginfo) { get; } | Visszaadja IWarningInfo interfész. Csak olvasható [`IWarningInfo`](../iwarninginfo). |
 
 ### Lásd még
 

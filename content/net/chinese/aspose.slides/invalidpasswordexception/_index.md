@@ -1,14 +1,14 @@
 ---
 title: InvalidPasswordException
-second_title: Aspose.Sildes for .NET API 参考
-description: 当演示文稿文件格式不受支持时抛出的异常。
+second_title: Aspose.Sildes .NET API 参考
+description: 当演示文件格式不受支持时抛出的异常。
 type: docs
-weight: 7620
+weight: 7640
 url: /zh/aspose.slides/invalidpasswordexception/
 ---
 ## InvalidPasswordException 类
 
-当演示文稿文件格式不受支持时抛出的异常。
+当演示文件格式不受支持时抛出的异常。
 
 ```csharp
 public class InvalidPasswordException : Exception
@@ -20,7 +20,7 @@ public class InvalidPasswordException : Exception
 | --- | --- |
 | [InvalidPasswordException](invalidpasswordexception#constructor)() | 默认构造函数。 |
 | [InvalidPasswordException](invalidpasswordexception#constructor_1)(string) | 允许向此异常添加消息的构造函数。 |
-| [InvalidPasswordException](invalidpasswordexception#constructor_2)(string, Exception) | 用于创建包含消息和内部异常的异常的构造函数。 |
+| [InvalidPasswordException](invalidpasswordexception#constructor_2)(string, Exception) | 包含消息和内部异常的异常的构造函数。 |
 
 ### 另见
 

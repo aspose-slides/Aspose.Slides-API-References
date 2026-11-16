@@ -1,14 +1,14 @@
 ---
 title: SetRange
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Állítsa be a diagram adat tartományát. Az adatsorok és a kategóriák az új adat tartomány alapján frissülnek. Ha az adat tartományban lévő sorok száma nagyobb, mint a diagram adatban lévő sorok száma, akkor további sorok, amelyek típusa megegyezik a jelenlegi gyűjtemény utolsó sorával, hozzáadódnak a gyűjtemény végéhez.
+second_title: Aspose.Sildes .NET API Referenciája
+description: Állítsa be a diagram adatcímkét. A sorozatok és a kategóriák az új adatcímke alapján frissülnek. Ha a sorozatok száma az adatcímkében nagyobb, mint a diagram adatainak sorozatszáma, akkor további sorozatok kerülnek hozzáadásra a gyűjtemény végéhez, amelyek típusa megegyezik a jelenlegi gyűjteményben lévő utolsó sorozat típusával.
 type: docs
-weight: 130
+weight: 140
 url: /hu/aspose.slides.charts/ichartdata/setrange/
 ---
-## IChartData.SetRange method
+## IChartData.SetRange metódus
 
-Állítsa be a diagram adat tartományát. Az adatsorok és a kategóriák frissülnek az új adat tartomány alapján. Ha az adat tartományban lévő sorok száma nagyobb, mint a diagram adatban lévő sorok száma, akkor a jelenlegi gyűjtemény utolsó sorával azonos típusú további sorok kerülnek hozzáadásra a gyűjtemény végéhez.
+Állítsa be a diagram adatcímkét. A sorozatok és a kategóriák frissülnek az új adatcímke alapján. Ha a sorozatok száma az adatcímkében nagyobb, mint a diagram adataiban lévő sorozatok száma, akkor további sorozatok lesznek hozzáadva a gyűjtemény végéhez, amelyek típusa megegyezik az aktuális gyűjteményben lévő utolsó sorozat típusával.
 
 ```csharp
 public void SetRange(string formula)
@@ -16,13 +16,13 @@ public void SetRange(string formula)
 
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
-| formula | String | A cellák adat tartomány képlete. Például: "Sheet1!$A$1:$C$4" , "SomeSheetName!A1:B100", "Sheet1!$A$1:$B$5;Sheet1!$D$1:$D$5". |
+| formula | String | A cellák adatcímkéjének képlete. Például: "Sheet1!$A$1:$C$4" , "SomeSheetName!A1:B100", "Sheet1!$A$1:$B$5;Sheet1!$D$1:$D$5". |
 
 ### Kivételek
 
 | kivétel | feltétel |
 | --- | --- |
-| ArgumentNullException | a formula null. |
+| ArgumentNullException | a formula null értékű. |
 | ArgumentException | a formula helytelen formátumú. |
 
 ### Lásd még

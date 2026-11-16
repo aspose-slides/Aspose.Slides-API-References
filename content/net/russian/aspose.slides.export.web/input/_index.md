@@ -1,9 +1,9 @@
 ---
 title: Input
-second_title: Aspose.Sildes для .NET справочник API
+second_title: Aspose.Sildes для .NET API Reference
 description: Представляет коллекцию шаблонов элементов ввода.
 type: docs
-weight: 4630
+weight: 4650
 url: /ru/aspose.slides.export.web/input/
 ---
 ## Класс Input

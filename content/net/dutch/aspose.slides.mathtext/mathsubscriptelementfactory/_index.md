@@ -1,9 +1,9 @@
 ---
 title: MathSubscriptElementFactory
-second_title: Aspose.Sildes voor .NET API-referentie
+second_title: Aspose.Sildes voor .NET API Referentie
 description: Staat toe om IMathSubscriptElement te maken
 type: docs
-weight: 9010
+weight: 9030
 url: /nl/aspose.slides.mathtext/mathsubscriptelementfactory/
 ---
 ## MathSubscriptElementFactory klasse
@@ -14,23 +14,23 @@ Staat toe om IMathSubscriptElement te maken
 public class MathSubscriptElementFactory : IMathSubscriptElementFactory
 ```
 
-## Constructors
+## Constructoren
 
 | Naam | Beschrijving |
 | --- | --- |
 | [MathSubscriptElementFactory](mathsubscriptelementfactory)() | De standaardconstructor. |
 
-## Methods
+## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
 | [CreateMathSubscriptElement](../../aspose.slides.mathtext/mathsubscriptelementfactory/createmathsubscriptelement)(IMathElement, IMathElement) | Maakt IMathSubscriptElement |
 
-### Remarks
+### Opmerkingen
 
 Voor COM-compatibiliteit
 
-### See Also
+### Zie ook
 
 * interface [IMathSubscriptElementFactory](../imathsubscriptelementfactory)
 * namespace [Aspose.Slides.MathText](../../aspose.slides.mathtext)

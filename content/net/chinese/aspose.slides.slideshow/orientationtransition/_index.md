@@ -1,14 +1,14 @@
 ---
 title: OrientationTransition
-second_title: Aspose.Sildes .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 方向幻灯片过渡效果。
 type: docs
-weight: 10270
+weight: 10290
 url: /zh/aspose.slides.slideshow/orientationtransition/
 ---
 ## OrientationTransition 类
 
-方向幻灯片过渡效果。
+方向幻灯片转换效果。
 
 ```csharp
 public class OrientationTransition : TransitionValueBase, IOrientationTransition
@@ -25,9 +25,9 @@ public class OrientationTransition : TransitionValueBase, IOrientationTransition
 | 名称 | 描述 |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 确定两个 TransitionValueBase 实例是否相等。 |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 用作特定类型的哈希函数，适用于哈希算法和诸如哈希表之类的数据结构。 |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 作为特定类型的哈希函数，适用于哈希算法和哈希表等数据结构。 |
 
-### 另请参阅
+### 另请参见
 
 * 类 [TransitionValueBase](../transitionvaluebase)
 * 接口 [IOrientationTransition](../iorientationtransition)

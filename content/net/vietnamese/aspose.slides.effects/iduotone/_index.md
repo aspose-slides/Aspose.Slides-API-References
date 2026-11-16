@@ -1,9 +1,9 @@
 ---
 title: IDuotone
-second_title: Tham chiếu API Aspose.Sildes cho .NET
+second_title: Tham khảo API Aspose.Sildes cho .NET
 description: Biểu diễn hiệu ứng Duotone.
 type: docs
-weight: 3260
+weight: 3280
 url: /vi/aspose.slides.effects/iduotone/
 ---
 ## IDuotone giao diện

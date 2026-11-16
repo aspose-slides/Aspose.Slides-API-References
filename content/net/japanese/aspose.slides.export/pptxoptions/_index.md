@@ -1,38 +1,38 @@
 ---
 title: PptxOptions
 second_title: Aspose.Sildes for .NET API リファレンス
-description: OpenXml プレゼンテーション (PPTX、PPSX、POTX、PPTM、PPSM、POTM) の保存オプションを表します。
+description: OpenXml プレゼンテーション（PPTX、PPSX、POTX、PPTM、PPSM、POTM）の保存オプションを表します。
 type: docs
-weight: 4370
+weight: 4390
 url: /ja/aspose.slides.export/pptxoptions/
 ---
 ## PptxOptions クラス
 
-OpenXml プレゼンテーション (PPTX, PPSX, POTX, PPTM, PPSM, POTM) の保存オプションを表します。
+OpenXml プレゼンテーション（PPTX、PPSX、POTX、PPTM、PPSM、POTM）の保存オプションを表します。
 
 ```csharp
 public sealed class PptxOptions : SaveOptions, IPptxOptions
 ```
 
-## コンストラクタ
+## コンストラクター
 
 | 名前 | 説明 |
 | --- | --- |
-| [PptxOptions](pptxoptions)() | PptxOptions の新しいインスタンスを作成します |
+| [PptxOptions](pptxoptions)() | PptxOptions の新しいインスタンスを作成します。 |
 
 ## プロパティ
 
 | 名前 | 説明 |
 | --- | --- |
-| [CompressionLevel](../../aspose.slides.export/pptxoptions/compressionlevel) { get; set; } | プレゼンテーション ドキュメントを保存する際に使用される圧縮レベルを指定します。デフォルト値は Level6 です。 |
-| [Conformance](../../aspose.slides.export/pptxoptions/conformance) { get; set; } | プレゼンテーション ドキュメントが準拠するコンフォーマンス クラスを指定します。デフォルト値は Ecma376_2006 です。 |
+| [CompressionLevel](../../aspose.slides.export/pptxoptions/compressionlevel) { get; set; } | プレゼンテーション ドキュメントの保存時に使用される圧縮レベルを指定します。既定値は Level6 です。 |
+| [Conformance](../../aspose.slides.export/pptxoptions/conformance) { get; set; } | プレゼンテーション ドキュメントが準拠するコンフォーマンス クラスを指定します。既定値は Ecma376_2006 です。 |
 | [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | ソース フォントが見つからない場合に使用されるフォントを取得または設定します。読み書き可能な String。 |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | グラデーションの視覚的スタイルを取得または設定します。読み書き可能な [`GradientStyle`](../../aspose.slides/gradientstyle)。 |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 保存の進捗更新（パーセンテージ）を受け取るコールバック オブジェクトを表します。[`IProgressCallback`](../../aspose.slides/iprogresscallback) を参照してください。 |
-| [RefreshThumbnail](../../aspose.slides.export/pptxoptions/refreshthumbnail) { get; set; } | プレゼンテーションのサムネイルを更新するかどうかを指定します。読み書き可能な Boolean。デフォルト値は **true** です。 |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | プレゼンテーションを保存する際に、JavaScript 呼び出しを含むハイパーリンクをスキップするかどうかを指定します。読み書き可能な Boolean。デフォルト値は **false** です。 |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 警告を受け取り、ロード処理を継続するか中止するかを決定するオブジェクトを取得または設定します。読み書き可能な [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)。 |
-| [Zip64Mode](../../aspose.slides.export/pptxoptions/zip64mode) { get; set; } | プレゼンテーション ドキュメントに ZIP64 形式を使用するかどうかを指定します。デフォルト値は IfNecessary です。 |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | グラデーションのビジュアル スタイルを取得または設定します。読み書き可能な [`GradientStyle`](../../aspose.slides/gradientstyle)。 |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 保存の進行状況更新（パーセンテージ）を受け取るコールバックオブジェクトを表します。[`IProgressCallback`](../../aspose.slides/iprogresscallback) を参照してください。 |
+| [RefreshThumbnail](../../aspose.slides.export/pptxoptions/refreshthumbnail) { get; set; } | プレゼンテーション サムネイルを更新するかどうかを指定します。読み書き可能な Boolean。既定値は **true** です。 |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | プレゼンテーションの保存時に JavaScript 呼び出しを含むハイパーリンクをスキップするかどうかを指定します。読み書き可能な Boolean。既定値は **false** です。 |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 警告を受け取り、読み込みプロセスを継続するか中止するかを決定するオブジェクトを取得または設定します。読み書き可能な [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)。 |
+| [Zip64Mode](../../aspose.slides.export/pptxoptions/zip64mode) { get; set; } | プレゼンテーション ドキュメントに ZIP64 フォーマットを使用するかどうかを指定します。既定値は IfNecessary です。 |
 
 ### 参照
 

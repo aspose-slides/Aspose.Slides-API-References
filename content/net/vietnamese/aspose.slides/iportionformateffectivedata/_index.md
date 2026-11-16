@@ -3,12 +3,12 @@ title: IPortionFormatEffectiveData
 second_title: Tham khảo API Aspose.Sildes cho .NET
 description: Đối tượng bất biến chứa các thuộc tính định dạng phần văn bản hiệu quả.
 type: docs
-weight: 6740
+weight: 6760
 url: /vi/aspose.slides/iportionformateffectivedata/
 ---
 ## IPortionFormatEffectiveData giao diện
 
-Đối tượng bất biến chứa các thuộc tính định dạng phần văn bản hiệu quả.
+Immutable object which contains effective text portion formatting properties.
 
 ```csharp
 public interface IPortionFormatEffectiveData : IBasePortionFormatEffectiveData
@@ -18,14 +18,14 @@ public interface IPortionFormatEffectiveData : IBasePortionFormatEffectiveData
 
 | Tên | Mô tả |
 | --- | --- |
-| [AsIBasePortionFormatEffectiveData](../../aspose.slides/iportionformateffectivedata/asibaseportionformateffectivedata) { get; } | Trả về giao diện IBasePortionFormatEffectiveData. |
-| [BookmarkId](../../aspose.slides/iportionformateffectivedata/bookmarkid) { get; } | Trả về định danh dấu trang. Chỉ đọc String. |
+| [AsIBasePortionFormatEffectiveData](../../aspose.slides/iportionformateffectivedata/asibaseportionformateffectivedata) { get; } | Trả về IBasePortionFormatEffectiveData giao diện. |
+| [BookmarkId](../../aspose.slides/iportionformateffectivedata/bookmarkid) { get; } | Trả về định danh dấu trang. String chỉ đọc. |
 | [HyperlinkClick](../../aspose.slides/iportionformateffectivedata/hyperlinkclick) { get; } | Trả về siêu liên kết được định nghĩa cho nhấp chuột. Chỉ đọc [`IHyperlink`](../ihyperlink). |
-| [HyperlinkMouseOver](../../aspose.slides/iportionformateffectivedata/hyperlinkmouseover) { get; } | Trả về siêu liên kết được định nghĩa cho di chuột. Chỉ đọc [`IHyperlink`](../ihyperlink). |
+| [HyperlinkMouseOver](../../aspose.slides/iportionformateffectivedata/hyperlinkmouseover) { get; } | Trả về siêu liên kết được định nghĩa khi rê chuột. Chỉ đọc [`IHyperlink`](../ihyperlink). |
 
 ### Ghi chú
 
-Giao diện này được sử dụng cùng với giao diện [`IPortionFormat`](../iportionformat) để trả về các giá trị định dạng hiệu quả với kế thừa được áp dụng.
+Giao diện này được sử dụng cùng với [`IPortionFormat`](../iportionformat) giao diện để trả về các giá trị định dạng hiệu quả với kế thừa được áp dụng.
 
 ### Xem thêm
 

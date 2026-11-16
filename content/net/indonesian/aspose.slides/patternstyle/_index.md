@@ -1,12 +1,12 @@
 ---
 title: PatternStyle
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili gaya pola.
 type: docs
-weight: 9360
+weight: 9380
 url: /id/aspose.slides/patternstyle/
 ---
-## PatternStyle enumerasi
+## enumerasi PatternStyle
 
 Mewakili gaya pola.
 

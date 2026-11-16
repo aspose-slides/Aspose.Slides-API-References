@@ -1,22 +1,22 @@
 ---
 title: IImageTransformOperationFactory
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Memungkinkan membuat instansi efek gambar
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Mengizinkan pembuatan instance efek gambar
 type: docs
-weight: 3410
+weight: 3430
 url: /id/aspose.slides.effects/iimagetransformoperationfactory/
 ---
 ## IImageTransformOperationFactory antarmuka
 
-Memungkinkan membuat instansi efek gambar
+Mengizinkan pembuatan instance efek gambar
 
 ```csharp
 public interface IImageTransformOperationFactory
 ```
 
-## Metode
+## Methods
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
 | [CreateAlphaBiLevel](../../aspose.slides.effects/iimagetransformoperationfactory/createalphabilevel)(float) | Membuat efek Alpha BiLevel. |
 | [CreateAlphaFloor](../../aspose.slides.effects/iimagetransformoperationfactory/createalphafloor)() | Membuat efek Alpha floor. |
@@ -38,7 +38,7 @@ public interface IImageTransformOperationFactory
 
 ### Catatan
 
-Untuk antarmuka COM.
+For COM interface.
 
 ### Lihat Juga
 

@@ -1,43 +1,43 @@
 ---
 title: EmbedAllFontsHtmlController
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: वॉल्फ फ़ॉर्मेट में सभी प्रस्तुति फ़ॉन्ट्स को एम्बेड करने के लिए उपयोग की जाने वाली फ़ॉर्मैटिंग कंट्रोलर क्लास।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: WOFF फ़ॉर्मेट में सभी प्रस्तुति फ़ॉन्ट्स को एम्बेड करने के लिए उपयोग की जाने फॉर्मैटिंग कंट्रोलर क्लास।
 type: docs
-weight: 3760
+weight: 3780
 url: /hi/aspose.slides.export/embedallfontshtmlcontroller/
 ---
 ## EmbedAllFontsHtmlController क्लास
 
-सभी प्रस्तुति फ़ॉन्ट्स को WOFF फ़ॉर्मेट में एम्बेड करने के लिये उपयोग किया जाने वाला फ़ॉर्मैटिंग कंट्रोलर क्लास।
+फ़ॉर्मैटिंग कंट्रोलर क्लास जिसका उपयोग सभी प्रस्तुति फ़ॉन्ट्स को WOFF फ़ॉर्मेट में एम्बेड करने के लिए किया जाता है।
 
 ```csharp
 public class EmbedAllFontsHtmlController : IHtmlFormattingController
 ```
 
-## निर्माता
+## कन्स्ट्रक्टर्स
 
 | नाम | विवरण |
 | --- | --- |
-| [EmbedAllFontsHtmlController](embedallfontshtmlcontroller#constructor)() | नया उदाहरण बनाता है |
-| [EmbedAllFontsHtmlController](embedallfontshtmlcontroller#constructor_1)(string[]) | नया उदाहरण बनाता है |
+| [EmbedAllFontsHtmlController](embedallfontshtmlcontroller#constructor)() | एक नया उदाहरण बनाता है |
+| [EmbedAllFontsHtmlController](embedallfontshtmlcontroller#constructor_1)(string[]) | एक नया उदाहरण बनाता है |
 
-## विधियाँ
+## मेथड्स
 
 | नाम | विवरण |
 | --- | --- |
-| virtual [WriteAllFonts](../../aspose.slides.export/embedallfontshtmlcontroller/writeallfonts)(IHtmlGenerator, IPresentation) | [`Presentation`](../../aspose.slides/presentation) में उपस्थित सभी फ़ॉन्ट्स लिखता है। |
-| virtual [WriteDocumentEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writedocumentend)(IHtmlGenerator, IPresentation) | HTML दस्तावेज़ का फ़ूटर लिखने के लिये बुलाया जाता है। प्रत्येक प्रस्तुति रूपांतरण पर एक बार बुलाया जाता है। |
-| virtual [WriteDocumentStart](../../aspose.slides.export/embedallfontshtmlcontroller/writedocumentstart)(IHtmlGenerator, IPresentation) | HTML दस्तावेज़ का हेडर लिखने के लिये बुलाया जाता है। प्रत्येक प्रस्तुति रूपांतरण पर एक बार बुलाया जाता है। |
+| virtual [WriteAllFonts](../../aspose.slides.export/embedallfontshtmlcontroller/writeallfonts)(IHtmlGenerator, IPresentation) | [`Presentation`](../../aspose.slides/presentation) में मौजूद सभी फ़ॉन्ट लिखें। |
+| virtual [WriteDocumentEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writedocumentend)(IHtmlGenerator, IPresentation) | html दस्तावेज़ फ़ुटर लिखने के लिए बुलाया जाता है। प्रस्तुति रूपांतरण के दौरान एक बार बुलाया जाता है। |
+| virtual [WriteDocumentStart](../../aspose.slides.export/embedallfontshtmlcontroller/writedocumentstart)(IHtmlGenerator, IPresentation) | html दस्तावेज़ हेडर लिखने के लिए बुलाया जाता है। प्रस्तुति रूपांतरण के दौरान एक बार बुलाया जाता है। |
 | virtual [WriteFont](../../aspose.slides.export/embedallfontshtmlcontroller/writefont)(IHtmlGenerator, IFontData, IFontData, string, string, byte[]) | डेटा को base64 के रूप में HTML दस्तावेज़ में स्वयं लिखता है |
-| virtual [WriteShapeEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapeend)(IHtmlGenerator, IShape) | आकार (shape) के रेंडरिंग से पहले बुलाया जाता है। प्रत्येक आकार पर एक बार बुलाया जाता है। यदि यह फ़ंक्शन जेनरेटर में कुछ लिखता है, तो वर्तमान स्लाइड इमेज जेनरेशन समाप्त हो जाएगी, जोड़ा गया HTML अंश सम्मिलित होगा और नई इमेज पिछले के ऊपर शुरू होगी। |
-| virtual [WriteShapeStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapestart)(IHtmlGenerator, IShape) | आकार (shape) के रेंडरिंग से पहले बुलाया जाता है। प्रत्येक आकार पर एक बार बुलाया जाता है। यदि यह फ़ंक्शन जेनरेटर में कुछ लिखता है, तो वर्तमान स्लाइड इमेज जेनरेशन समाप्त हो जाएगी, जोड़ा गया HTML अंश सम्मिलित होगा और नई इमेज पिछले के ऊपर शुरू होगी। |
-| virtual [WriteSlideEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeslideend)(IHtmlGenerator, ISlide) | HTML स्लाइड फ़ूटर लिखने के लिये बुलाया जाता है। प्रत्येक स्लाइड पर एक बार बुलाया जाता है। |
-| virtual [WriteSlideStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeslidestart)(IHtmlGenerator, ISlide) | HTML स्लाइड हेडर लिखने के लिये बुलाया जाता है। प्रत्येक स्लाइड पर एक बार बुलाया जाता है। |
+| virtual [WriteShapeEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapeend)(IHtmlGenerator, IShape) | shape के रेंडरिंग से पहले बुलाया जाता है। प्रत्येक shape के लिए एक बार बुलाया जाता है। यदि यह फ़ंक्शन जनरेटर को कुछ लिखता है, तो वर्तमान स्लाइड इमेज जनरेशन समाप्त हो जाएगा, जुड़ा हुआ html फ्रैगमेंट डाला जाएगा और नया इमेज पिछले के ऊपर शुरू होगा। |
+| virtual [WriteShapeStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapestart)(IHtmlGenerator, IShape) | shape के रेंडरिंग से पहले बुलाया जाता है। प्रत्येक shape के लिए एक बार बुलाया जाता है। यदि यह फ़ंक्शन जनरेटर को कुछ लिखता है, तो वर्तमान स्लाइड इमेज जनरेशन समाप्त हो जाएगा, जुड़ा हुआ html फ्रैगमेंट डाला जाएगा और नया इमेज पिछले के ऊपर शुरू होगा। |
+| virtual [WriteSlideEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeslideend)(IHtmlGenerator, ISlide) | html स्लाइड फ़ुटर लिखने के लिए बुलाया जाता है। प्रत्येक स्लाइड के लिए एक बार बुलाया जाता है। |
+| virtual [WriteSlideStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeslidestart)(IHtmlGenerator, ISlide) | html स्लाइड हेडर लिखने के लिए बुलाया जाता है। प्रत्येक स्लाइड के लिए एक बार बुलाया जाता है। |
 
-### संबंधित देखें
+### देखें
 
 * इंटरफ़ेस [IHtmlFormattingController](../ihtmlformattingcontroller)
 * नामस्थान [Aspose.Slides.Export](../../aspose.slides.export)
-* असेंबली [Aspose.Slides](../../)
+* असेंब्ली [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

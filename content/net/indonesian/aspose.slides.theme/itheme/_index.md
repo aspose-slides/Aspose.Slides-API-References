@@ -1,12 +1,12 @@
 ---
 title: ITheme
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili sebuah tema.
 type: docs
-weight: 11370
+weight: 11390
 url: /id/aspose.slides.theme/itheme/
 ---
-## ITheme interface
+## ITheme antarmuka
 
 Mewakili sebuah tema.
 
@@ -16,18 +16,18 @@ public interface ITheme : IPresentationComponent
 
 ## Properti
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides.theme/itheme/asipresentationcomponent) { get; } | Memungkinkan untuk mendapatkan antarmuka IPresentationComponent dasar. Hanya-baca [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides.theme/itheme/asipresentationcomponent) { get; } | Mengizinkan mendapatkan antarmuka dasar IPresentationComponent. Hanya-baca [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 | [ColorScheme](../../aspose.slides.theme/itheme/colorscheme) { get; } | Mengembalikan skema warna. Hanya-baca [`IColorScheme`](../icolorscheme). |
-| [FontScheme](../../aspose.slides.theme/itheme/fontscheme) { get; } | Mengembalikan skema huruf. Hanya-baca [`IFontScheme`](../ifontscheme). |
-| [FormatScheme](../../aspose.slides.theme/itheme/formatscheme) { get; } | Mengembalikan skema format bentuk. Hanya-baca [`IFormatScheme`](../iformatscheme). |
+| [FontScheme](../../aspose.slides.theme/itheme/fontscheme) { get; } | Mengembalikan skema font. Hanya-baca [`IFontScheme`](../ifontscheme). |
+| [FormatScheme](../../aspose.slides.theme/itheme/formatscheme) { get; } | Mengembalikan skema format shape. Hanya-baca [`IFormatScheme`](../iformatscheme). |
 
 ## Metode
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
-| [GetEffective](../../aspose.slides.theme/itheme/geteffective)() | Mendapatkan data tema efektif dengan pewarisan yang diterapkan. |
+| [GetEffective](../../aspose.slides.theme/itheme/geteffective)() | Mengembalikan data tema efektif dengan penerapan pewarisan. |
 
 ### Lihat Juga
 

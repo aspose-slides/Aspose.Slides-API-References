@@ -1,14 +1,14 @@
 ---
 title: FlyThroughTransition
-second_title: Aspose.Sildes for .NET API 参考
-description: 飞越幻灯片切换效果。
+second_title: Aspose.Sildes .NET API 参考
+description: Fly-through 幻灯片过渡效果。
 type: docs
-weight: 10040
+weight: 10060
 url: /zh/aspose.slides.slideshow/flythroughtransition/
 ---
 ## FlyThroughTransition 类
 
-飞越幻灯片切换效果。
+Fly-through slide transition effect.
 
 ```csharp
 public class FlyThroughTransition : TransitionValueBase, IFlyThroughTransition
@@ -18,15 +18,15 @@ public class FlyThroughTransition : TransitionValueBase, IFlyThroughTransition
 
 | 名称 | 描述 |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/flythroughtransition/direction) { get; set; } | 过渡方向。读/写 [`TransitionInOutDirectionType`](../transitioninoutdirectiontype)。 |
-| [HasBounce](../../aspose.slides.slideshow/flythroughtransition/hasbounce) { get; set; } | 指定在过渡期间演示文稿幻灯片的移动包含弹跳。读/写 Boolean。 |
+| [Direction](../../aspose.slides.slideshow/flythroughtransition/direction) { get; set; } | 转换的方向。 可读写 [`TransitionInOutDirectionType`](../transitioninoutdirectiontype)。 |
+| [HasBounce](../../aspose.slides.slideshow/flythroughtransition/hasbounce) { get; set; } | 指定在转换期间演示文稿幻灯片的移动是否包含弹跳。 可读写 Boolean。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 确定两个 TransitionValueBase 实例是否相等。 |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 充当特定类型的哈希函数，适用于哈希算法和诸如哈希表的数据结构。 |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 充当特定类型的哈希函数，适用于哈希算法和诸如哈希表之类的数据结构。 |
 
 ### 另请参阅
 

@@ -3,7 +3,7 @@ title: IMathPortion
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Stelt een gedeelte met wiskundige context voor.
 type: docs
-weight: 8420
+weight: 8440
 url: /nl/aspose.slides.mathtext/imathportion/
 ---
 ## IMathPortion interface
@@ -18,7 +18,7 @@ public interface IMathPortion
 
 | Naam | Beschrijving |
 | --- | --- |
-| [MathParagraph](../../aspose.slides.mathtext/imathportion/mathparagraph) { get; } | Math paragraph |
+| [MathParagraph](../../aspose.slides.mathtext/imathportion/mathparagraph) { get; } | Wiskundige alinea |
 
 ### Voorbeelden
 

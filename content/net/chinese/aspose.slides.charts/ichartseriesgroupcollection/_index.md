@@ -1,14 +1,14 @@
 ---
 title: IChartSeriesGroupCollection
-second_title: Aspose.Sildes .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 表示可组合系列组的集合。
 type: docs
-weight: 1960
+weight: 1980
 url: /zh/aspose.slides.charts/ichartseriesgroupcollection/
 ---
 ## IChartSeriesGroupCollection 接口
 
-表示可组合系列组的集合。
+表示可组合序列组的集合。
 
 ```csharp
 public interface IChartSeriesGroupCollection : IGenericCollection<IChartSeriesGroup>
@@ -18,13 +18,13 @@ public interface IChartSeriesGroupCollection : IGenericCollection<IChartSeriesGr
 
 | 名称 | 描述 |
 | --- | --- |
-| [Item](../../aspose.slides.charts/ichartseriesgroupcollection/item) { get; } | 获取按 series 的系列组。（2 个索引器） |
+| [Item](../../aspose.slides.charts/ichartseriesgroupcollection/item) { get; } | 通过序列获取系列组。（2 个索引器） |
 
 ### 备注
 
-1) 每个系列组包含具有可组合类型的系列。可组合系列类型的组使用 `CombinableSeriesTypesGroup` 枚举定义和描述。此外，每个系列组包含绘制在主坐标轴或次坐标轴上的系列（同一组中不会同时出现两者）。因此，系列分组的原则是按照上述类型组以及主/次坐标轴的绘制类型进行分组。2) 系列组包含一些对组内每个系列都通用的系列属性（“series group properties”）。`ChartSeriesGroup` 类中的 “Series group properties” 为读写。每个 “series group properties” 在 `ChartSeries` 类中可以有只读的投影。
+1) 每个系列组包含具有可组合类型的系列。使用 CombinableSeriesTypesGroup enum 定义并描述可组合系列类型的组。每个系列组还包含绘制在主坐标轴或次坐标轴上的系列（同一组中不会同时出现两者）。因此，系列分组的原则是根据上述类型组以及主/次绘制类型进行分组。 2) 系列组包含一些对组内每个系列共同的 series properties（“series group properties”）。ChartSeriesGroup 类中的 “Series group properties” 为 read/write。每个 “series group properties” 在 ChartSeries 类中可以有只读的投影。
 
-### 参见
+### 另请参见
 
 * 接口 [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * 接口 [IChartSeriesGroup](../ichartseriesgroup)

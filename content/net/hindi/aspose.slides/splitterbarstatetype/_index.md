@@ -1,14 +1,14 @@
 ---
 title: SplitterBarStateType
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: निर्दिष्ट करता है कि विभाजक बार किस स्थिति में दिखाया जाना चाहिए। विभाजक बार दृश्य क्षेत्र के भीतर एक प्राइमरी और सेकेंडरी क्षेत्र को अलग करता है।
+second_title: Aspose.Sildes .NET के लिए API संदर्भ
+description: निर्दिष्ट करता है कि स्प्लिटर बार किस स्थिति में दिखाया जाना चाहिए। स्प्लिटर बार व्यूइंग क्षेत्र के भीतर प्राथमिक और द्वितीयक क्षेत्रों को अलग करता है।
 type: docs
-weight: 10690
+weight: 10710
 url: /hi/aspose.slides/splitterbarstatetype/
 ---
 ## SplitterBarStateType एन्यूमरेशन
 
-Specifies the state that the splitter bar should be shown in. The splitter bar separates a primary and secondary region within a viewing area.
+निर्दिष्ट करता है कि स्प्लिटर बार किस स्थिति में दिखाया जाना चाहिए। स्प्लिटर बार व्यूइंग क्षेत्र के भीतर प्राथमिक और द्वितीयक क्षेत्रों को अलग करता है।
 
 ```csharp
 public enum SplitterBarStateType
@@ -18,11 +18,11 @@ public enum SplitterBarStateType
 
 | नाम | मान | विवरण |
 | --- | --- | --- |
-| Minimized | `0` | प्राथमिक क्षेत्र एप्लिकेशन द्वारा अनुमत दृश्य क्षेत्र का सबसे कम भाग लेता है। |
-| Restored | `1` | प्राथमिक क्षेत्र का आकार एक विशिष्ट मध्यवर्ती आकार है। |
-| Maximized | `2` | प्राथमिक क्षेत्र एप्लिकेशन द्वारा अनुमत दृश्य क्षेत्र का सबसे अधिक भाग लेता है। |
+| Minimized | `0` | प्राथमिक क्षेत्र वह न्यूनतम आकार लेता है जो एप्लिकेशन द्वारा अनुमति प्राप्त व्यूइंग क्षेत्र में संभव है। |
+| Restored | `1` | प्राथमिक क्षेत्र का एक विशिष्ट मध्यवर्ती आकार होता है। |
+| Maximized | `2` | प्राथमिक क्षेत्र वह अधिकतम आकार लेता है जो एप्लिकेशन द्वारा अनुमति प्राप्त व्यूइंग क्षेत्र में संभव है। |
 
-### संबंधित देखें
+### और देखें
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

@@ -1,9 +1,9 @@
 ---
 title: IMultipleCellChartValue
-second_title: Aspose.Sildes dla .NET – Dokumentacja API
+second_title: Aspose.Sildes dla .NET – odniesienie API
 description: Reprezentuje kolekcję komórek wykresu.
 type: docs
-weight: 2170
+weight: 2190
 url: /pl/aspose.slides.charts/imultiplecellchartvalue/
 ---
 ## IMultipleCellChartValue interfejs
@@ -19,7 +19,7 @@ public interface IMultipleCellChartValue : IBaseChartValue
 | Nazwa | Opis |
 | --- | --- |
 | [AsCells](../../aspose.slides.charts/imultiplecellchartvalue/ascells) { get; set; } | Zwraca lub ustawia kolekcję komórek wykresu. Odczyt/zapis [`IChartCellCollection`](../ichartcellcollection). |
-| [AsIBaseChartValue](../../aspose.slides.charts/imultiplecellchartvalue/asibasechartvalue) { get; } | Umożliwia pobranie podstawowego interfejsu IBaseChartValue. Tylko do odczytu [`IBaseChartValue`](../ibasechartvalue). |
+| [AsIBaseChartValue](../../aspose.slides.charts/imultiplecellchartvalue/asibasechartvalue) { get; } | Umożliwia pobranie bazowego interfejsu IBaseChartValue. Tylko do odczytu [`IBaseChartValue`](../ibasechartvalue). |
 
 ### Zobacz także
 

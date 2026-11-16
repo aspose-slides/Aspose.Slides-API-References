@@ -1,20 +1,20 @@
 ---
 title: GetFonts
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
-description: คืนค่าแบบอักษรที่ใช้ในการนำเสนอ
+second_title: Aspose.Sildes สำหรับ .NET การอ้างอิง API
+description: คืนค่าฟอนต์ที่ใช้ในงานนำเสนอ
 type: docs
-weight: 70
+weight: 80
 url: /th/aspose.slides/ifontsmanager/getfonts/
 ---
 ## IFontsManager.GetFonts เมธอด
 
-คืนค่าแบบอักษรที่ใช้ในการนำเสนอ
+คืนค่าฟอนต์ที่ใช้ในงานนำเสนอ
 
 ```csharp
 public IFontData[] GetFonts()
 ```
 
-### ค่าที่ส่งกลับ
+### ค่าที่คืน
 
 อาร์เรย์ของฟอนต์
 

@@ -3,7 +3,7 @@ title: SketchFormat
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示线条草图格式的属性。
 type: docs
-weight: 9950
+weight: 9970
 url: /zh/aspose.slides/sketchformat/
 ---
 ## SketchFormat 类
@@ -18,7 +18,7 @@ public sealed class SketchFormat : PVIObject, ISketchFormat
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基础 IPresentationComponent 接口。只读 [`IPresentationComponent`](../ipresentationcomponent)。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基 IPresentationComponent 接口。只读 [`IPresentationComponent`](../ipresentationcomponent)。 |
 | [SketchType](../../aspose.slides/sketchformat/sketchtype) { get; set; } | 返回或设置草图类型。读写 [`LineSketchType`](../linesketchtype)。 |
 
 ## 方法
@@ -28,7 +28,7 @@ public sealed class SketchFormat : PVIObject, ISketchFormat
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | 与指定对象比较。 |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | 返回哈希码。 |
 
-### 另见
+### 另请参阅
 
 * 类 [PVIObject](../pviobject)
 * 接口 [ISketchFormat](../isketchformat)

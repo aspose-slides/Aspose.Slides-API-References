@@ -1,14 +1,14 @@
 ---
 title: IPresetShadow
-second_title: Referência da API Aspose.Sildes para .NET
-description: Representa um efeito de sombra predefinido.
+second_title: Aspose.Sildes para Referência da API .NET
+description: Representa um efeito de Sombra Pré-definida.
 type: docs
-weight: 3480
+weight: 3500
 url: /pt/aspose.slides.effects/ippresetshadow/
 ---
 ## IPresetShadow interface
 
-Representa um efeito de Sombra Predefinida.
+Representa um efeito de Sombra Pré-definida.
 
 ```csharp
 public interface IPresetShadow : IAccessiblePVIObject<IPresetShadowEffectiveData>, 
@@ -26,7 +26,7 @@ public interface IPresetShadow : IAccessiblePVIObject<IPresetShadowEffectiveData
 | [Preset](../../aspose.slides.effects/ipresetshadow/preset) { get; set; } | Predefinição. Leitura/gravação [`PresetShadowType`](../../aspose.slides/presetshadowtype). |
 | [ShadowColor](../../aspose.slides.effects/ipresetshadow/shadowcolor) { get; } | Cor da sombra. Somente leitura [`IColorFormat`](../../aspose.slides/icolorformat). |
 
-### Ver também
+### Veja Também
 
 * interface [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * interface [IPresetShadowEffectiveData](../ipresetshadoweffectivedata)

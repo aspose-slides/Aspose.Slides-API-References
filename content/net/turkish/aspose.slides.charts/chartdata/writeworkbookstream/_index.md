@@ -1,14 +1,14 @@
 ---
 title: WriteWorkbookStream
 second_title: Aspose.Sildes için .NET API Referansı
-description: İçeride bulunan Excel çalışma kitabını kullanıcı tarafından belirtilen değerle başlatır.
+description: Kullanıcı tarafından belirtilen değerle dahili Excel çalışma kitabını başlatır.
 type: docs
-weight: 150
+weight: 160
 url: /tr/aspose.slides.charts/chartdata/writeworkbookstream/
 ---
-## ChartData.WriteWorkbookStream yöntemi
+## ChartData.WriteWorkbookStream metodu
 
-İçeride bulunan Excel çalışma kitabını kullanıcı tarafından belirtilen değerle başlatır.
+Kullanıcı tarafından belirtilen değerle dahili Excel çalışma kitabını başlatır.
 
 ```csharp
 public void WriteWorkbookStream(MemoryStream ms)
@@ -16,7 +16,7 @@ public void WriteWorkbookStream(MemoryStream ms)
 
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| ms | MemoryStream | Tam Excel çalışma kitabını içeren kullanıcı tarafından sağlanan akış. |
+| ms | MemoryStream | Tüm Excel çalışma kitabını içeren kullanıcı tarafından sağlanan akış. |
 
 ### Ayrıca Bakınız
 

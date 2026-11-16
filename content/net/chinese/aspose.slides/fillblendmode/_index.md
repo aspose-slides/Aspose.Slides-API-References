@@ -1,9 +1,9 @@
 ---
 title: FillBlendMode
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 确定混合模式。
 type: docs
-weight: 4770
+weight: 4790
 url: /zh/aspose.slides/fillblendmode/
 ---
 ## FillBlendMode 枚举
@@ -24,7 +24,7 @@ public enum FillBlendMode
 | Overlay | `3` | Overlay 混合模式。 |
 | Screen | `4` | Screen 混合模式。 |
 
-### 另请参见
+### 另见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

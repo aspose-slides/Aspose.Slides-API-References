@@ -1,14 +1,14 @@
 ---
 title: IColumnCollection
-second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Représente la collection de colonnes d'un tableau.
+second_title: Référence API Aspose.Sildes pour .NET
+description: Représente une collection de colonnes dans un tableau.
 type: docs
-weight: 5530
+weight: 5550
 url: /fr/aspose.slides/icolumncollection/
 ---
-## interface IColumnCollection
+## IColumnCollection interface
 
-Représente la collection de colonnes d'un tableau.
+Représente une collection de colonnes dans un tableau.
 
 ```csharp
 public interface IColumnCollection : IGenericCollection<IColumn>
@@ -24,8 +24,8 @@ public interface IColumnCollection : IGenericCollection<IColumn>
 
 | Name | Description |
 | --- | --- |
-| [AddClone](../../aspose.slides/icolumncollection/addclone)(IColumn, bool) | Crée une copie de la ligne modèle spécifiée et l'insère au bas du tableau. |
-| [InsertClone](../../aspose.slides/icolumncollection/insertclone)(int, IColumn, bool) | Crée une copie de la colonne modèle spécifiée et l'insère à la position indiquée dans le tableau. |
+| [AddClone](../../aspose.slides/icolumncollection/addclone)(IColumn, bool) | Crée une copie de la ligne modèle spécifiée et l'insère au bas d'un tableau. |
+| [InsertClone](../../aspose.slides/icolumncollection/insertclone)(int, IColumn, bool) | Crée une copie de la colonne modèle spécifiée et l'insère à la position indiquée dans un tableau. |
 | [RemoveAt](../../aspose.slides/icolumncollection/removeat)(int, bool) | Supprime une colonne à la position spécifiée d'un tableau. |
 
 ### Voir aussi

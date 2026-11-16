@@ -1,9 +1,9 @@
 ---
 title: TiffOptions
-second_title: Aspose.Sildes para la referencia de la API .NET
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Proporciona opciones que controlan cómo se guarda una presentación en formato TIFF.
 type: docs
-weight: 4570
+weight: 4590
 url: /es/aspose.slides.export/tiffoptions/
 ---
 ## TiffOptions clase
@@ -24,16 +24,16 @@ public class TiffOptions : SaveOptions, ITiffOptions
 
 | Nombre | Descripción |
 | --- | --- |
-| [BwConversionMode](../../aspose.slides.export/tiffoptions/bwconversionmode) { get; set; } | Especifica el algoritmo para convertir una imagen a color en una imagen en blanco y negro. Esta opción se aplicará solo si [`CompressionType`](./compressiontype) está configurado a CCITT4 o CCITT3 Lectura/escritura [`BlackWhiteConversionMode`](../blackwhiteconversionmode). El valor predeterminado es Default. |
+| [BwConversionMode](../../aspose.slides.export/tiffoptions/bwconversionmode) { get; set; } | Especifica el algoritmo para convertir una imagen a color en una imagen en blanco y negro. Esta opción se aplicará solo si [`CompressionType`](./compressiontype) está configurado en CCITT4 o CCITT3 Lectura/escritura [`BlackWhiteConversionMode`](../blackwhiteconversionmode). El valor predeterminado es Default. |
 | [CompressionType](../../aspose.slides.export/tiffoptions/compressiontype) { get; set; } | Especifica el tipo de compresión. Lectura/escritura [`TiffCompressionTypes`](../tiffcompressiontypes). |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Devuelve o establece la fuente utilizada en caso de que no se encuentre la fuente origen. Lectura-escritura String. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Devuelve o establece la fuente utilizada en caso de que no se encuentre la fuente original. Lectura/escritura String. |
 | [DpiX](../../aspose.slides.export/tiffoptions/dpix) { get; set; } | Especifica la resolución horizontal en puntos por pulgada. Lectura/escritura UInt32. |
 | [DpiY](../../aspose.slides.export/tiffoptions/dpiy) { get; set; } | Especifica la resolución vertical en puntos por pulgada. Lectura/escritura UInt32. |
 | [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Devuelve o establece el estilo visual del degradado. Lectura/escritura [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [ImageSize](../../aspose.slides.export/tiffoptions/imagesize) { get; set; } | Especifica el tamaño de una imagen TIFF generada. El valor predeterminado es 0x0, lo que significa que los tamaños de imágenes generadas se calcularán en función del valor del tamaño de la diapositiva de la presentación. Lectura/escritura Size. |
-| [InkOptions](../../aspose.slides.export/tiffoptions/inkoptions) { get; } | Proporciona opciones que controlan la apariencia de los objetos Ink en el documento exportado. Solo lectura [`IInkOptions`](../iinkoptions) |
+| [ImageSize](../../aspose.slides.export/tiffoptions/imagesize) { get; set; } | Especifica el tamaño de una imagen TIFF generada. El valor predeterminado es 0x0, lo que significa que los tamaños de las imágenes generadas se calcularán en función del tamaño de la diapositiva de la presentación. Lectura/escritura Size. |
+| [InkOptions](../../aspose.slides.export/tiffoptions/inkoptions) { get; } | Proporciona opciones que controlan el aspecto de los objetos Ink en el documento exportado. Solo lectura [`IInkOptions`](../iinkoptions) |
 | [PixelFormat](../../aspose.slides.export/tiffoptions/pixelformat) { get; set; } | Especifica el formato de píxel para las imágenes generadas. Lectura/escritura [`ImagePixelFormat`](../imagepixelformat). |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Representa un objeto de devolución de llamada para actualizaciones del progreso de guardado en porcentaje. Ver [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Representa un objeto de devolución de llamada para actualizar el progreso de guardado en porcentaje. Ver [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
 | [ShowHiddenSlides](../../aspose.slides.export/tiffoptions/showhiddenslides) { get; set; } | Especifica si el documento generado debe incluir diapositivas ocultas o no. El valor predeterminado es `false`. |
 | [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Especifica si se deben omitir los hipervínculos con llamadas JavaScript al guardar la presentación. Lectura/escritura Boolean. El valor predeterminado es **false**. |
 | [SlidesLayoutOptions](../../aspose.slides.export/tiffoptions/slideslayoutoptions) { get; set; } | Obtiene o establece el modo en que las diapositivas se colocan en la página al exportar una presentación [`ISlidesLayoutOptions`](../islideslayoutoptions). |
@@ -48,7 +48,7 @@ El siguiente ejemplo muestra cómo convertir PowerPoint a TIFF con el tamaño pr
 // Instanciar un objeto Presentation que representa un archivo de presentación
 using (Presentation presentation = new Presentation("DemoFile.pptx"))
 {
-    // Guardando la presentación en un documento TIFF
+    // Guardar la presentación en un documento TIFF
     presentation.Save("Tiffoutput_out.tiff", SaveFormat.Tiff);
 }
 ```
@@ -69,14 +69,14 @@ using (Presentation pres = new Presentation("Convert_Tiff_Custom.pptx"))
     opts.SlidesLayoutOption = notesOptions;
     // Tipos de compresión
     // Default - Especifica el esquema de compresión predeterminado (LZW).
-    // None - Especifica que no hay compresión.
+    // None - Especifica sin compresión.
     // CCITT3
     // CCITT4
     // LZW
     // RLE
     // La profundidad depende del tipo de compresión y no puede establecerse manualmente.
-    // La unidad de resolución siempre es igual a "2" (puntos por pulgada)
-    // Estableciendo DPI de la imagen
+    // La unidad de resolución siempre es igual a “2” (puntos por pulgada)
+    // Establecer DPI de la imagen
     opts.DpiX = 200;
     opts.DpiY = 100;
     // Establecer tamaño de la imagen
@@ -96,12 +96,12 @@ using (Presentation presentation = new Presentation("DemoFile.pptx"))
     TiffOptions options = new TiffOptions();
     options.PixelFormat = ImagePixelFormat.Format8bppIndexed;
     /*
-    ImagePixelFormat contiene los siguientes valores (según la documentación):
-    Format1bppIndexed; // 1 bits por pixel, indexado.
-    Format4bppIndexed; // 4 bits por pixel, indexado.
-    Format8bppIndexed; // 8 bits por pixel, indexado.
-    Format24bppRgb; // 24 bits por pixel, RGB.
-    Format32bppArgb; // 32 bits por pixel, ARGB.
+    ImagePixelFormat contiene los siguientes valores (como se puede ver en la documentación):
+    Format1bppIndexed; // 1 bits por píxel, indexado.
+    Format4bppIndexed; // 4 bits por píxel, indexado.
+    Format8bppIndexed; // 8 bits por píxel, indexado.
+    Format24bppRgb; // 24 bits por píxel, RGB.
+    Format32bppArgb; // 32 bits por píxel, ARGB.
     */
     // Guardar la presentación en TIFF con el tamaño de imagen especificado
     presentation.Save("Tiff_With_Custom_Image_Pixel_Format_out.tiff", SaveFormat.Tiff, options);
@@ -110,9 +110,9 @@ using (Presentation presentation = new Presentation("DemoFile.pptx"))
 
 ### Ver también
 
-* clase [SaveOptions](../saveoptions)
-* interfaz [ITiffOptions](../itiffoptions)
-* espacio de nombres [Aspose.Slides.Export](../../aspose.slides.export)
-* ensamblado [Aspose.Slides](../../)
+* class [SaveOptions](../saveoptions)
+* interface [ITiffOptions](../itiffoptions)
+* namespace [Aspose.Slides.Export](../../aspose.slides.export)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

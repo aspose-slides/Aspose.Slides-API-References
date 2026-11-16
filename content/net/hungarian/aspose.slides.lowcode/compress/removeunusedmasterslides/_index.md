@@ -1,14 +1,14 @@
 ---
 title: RemoveUnusedMasterSlides
 second_title: Aspose.Sildes .NET API referencia
-description: Tömöríti a Presentationaspose.slides/presentation azáltal, hogy eltávolítja a nem használt mesterdiákat.
+description: A Presentationaspose.slides/presentation tömörítését végzi a nem használt mester diák eltávolításával.
 type: docs
-weight: 30
+weight: 50
 url: /hu/aspose.slides.lowcode/compress/removeunusedmasterslides/
 ---
 ## Compress.RemoveUnusedMasterSlides metódus
 
-Tömöríti a [`Presentation`](../../../aspose.slides/presentation) azáltal, hogy eltávolítja a nem használt mesterdiákat.
+[`Presentation`](../../../aspose.slides/presentation) tömörítését végzi a nem használt mester diák eltávolításával.
 
 ```csharp
 public static void RemoveUnusedMasterSlides(Presentation pres)
@@ -16,7 +16,7 @@ public static void RemoveUnusedMasterSlides(Presentation pres)
 
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
-| pres | Presentation | A prezentáció példány |
+| pres | Presentation | A Presentation példány |
 
 ### Példák
 

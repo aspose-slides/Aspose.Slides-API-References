@@ -1,14 +1,14 @@
 ---
 title: IChartTextBlockFormat
 second_title: Aspose.Sildes برای .NET مرجع API
-description: نمایندهای ویژگی‌های قالب‌بندی برای عناصر متنی نمودار.
+description: خواص قالب‌بندی برای عناصر متنی نمودار را نمایندگی می‌کند.
 type: docs
-weight: 1980
+weight: 2000
 url: /fa/aspose.slides.charts/icharttextblockformat/
 ---
 ## IChartTextBlockFormat رابط
 
-نمایش‌دهندهٔ ویژگی‌های قالب‌بندی برای عناصر متنی نمودار.
+خواص قالب‌بندی برای عناصر متنی نمودار را نمایندگی می‌کند.
 
 ```csharp
 public interface IChartTextBlockFormat
@@ -18,20 +18,20 @@ public interface IChartTextBlockFormat
 
 | نام | توضیح |
 | --- | --- |
-| [AnchoringType](../../aspose.slides.charts/icharttextblockformat/anchoringtype) { get; set; } | مقدار یا تنظیم لنگر عمودی متن در یک TextFrame. خواندن/نوشتن [`TextAnchorType`](../../aspose.slides/textanchortype). |
-| [AutofitType](../../aspose.slides.charts/icharttextblockformat/autofittype) { get; set; } | مقدار یا تنظیم حالت خودتنظیم متن. تغییر این ویژگی ممکن است فقط برای بخش‌های نمودار زیر تأثیر داشته باشد: DataLabel و DataLabelFormat (پشتیبانی کامل در PowerPoint 2013؛ در PowerPoint 2007 هیچ اثری بر رندر ندارد). خواندن/نوشتن [`TextAutofitType`](../../aspose.slides/textautofittype). |
-| [CenterText](../../aspose.slides.charts/icharttextblockformat/centertext) { get; set; } | اگر NullableBool.True باشد، متن باید به‌صورت افقی در جعبه مرکز شود. خواندن/نوشتن [`NullableBool`](../../aspose.slides/nullablebool). |
-| [MarginBottom](../../aspose.slides.charts/icharttextblockformat/marginbottom) { get; set; } | مقدار یا تنظیم حاشیهٔ پایین (نقطه) در یک TextFrame. تغییر این ویژگی ممکن است فقط برای بخش‌های نمودار زیر تأثیر داشته باشد: DataLabel و DataLabelFormat (پشتیبانی کامل در PowerPoint 2013؛ در PowerPoint 2007 هیچ اثر رندر ندارد). خواندن/نوشتن Double. |
-| [MarginLeft](../../aspose.slides.charts/icharttextblockformat/marginleft) { get; set; } | مقدار یا تنظیم حاشیهٔ چپ (نقطه) در یک TextFrame. تغییر این ویژگی ممکن است فقط برای بخش‌های نمودار زیر تأثیر داشته باشد: DataLabel و DataLabelFormat (پشتیبانی کامل در PowerPoint 2013؛ در PowerPoint 2007 هیچ اثر رندر ندارد). خواندن/نوشتن Double. |
-| [MarginRight](../../aspose.slides.charts/icharttextblockformat/marginright) { get; set; } | مقدار یا تنظیم حاشیهٔ راست (نقطه) در یک TextFrame. تغییر این ویژگی ممکن است فقط برای بخش‌های نمودار زیر تأثیر داشته باشد: DataLabel و DataLabelFormat (پشتیبانی کامل در PowerPoint 2013؛ در PowerPoint 2007 هیچ اثر رندر ندارد). خواندن/نوشتن Double. |
-| [MarginTop](../../aspose.slides.charts/icharttextblockformat/margintop) { get; set; } | مقدار یا تنظیم حاشیهٔ بالا (نقطه) در یک TextFrame. تغییر این ویژگی ممکن است فقط برای بخش‌های نمودار زیر تأثیر داشته باشد: DataLabel و DataLabelFormat (پشتیبانی کامل در PowerPoint 2013؛ در PowerPoint 2007 هیچ اثر رندر ندارد). خواندن/نوشتن Double. |
-| [RotationAngle](../../aspose.slides.charts/icharttextblockformat/rotationangle) { get; set; } | تعیین چرخش سفارشی که بر متن داخل جعبه اعمال می‌شود. اگر مشخص نشود، چرخش شکل همراه استفاده می‌شود. اگر مشخص شود، به‌صورت مستقل از شکل اعمال می‌گردد؛ یعنی شکل می‌تواند چرخش داشته باشد به‌علاوه این که متن خود چرخش دارد. مقدار نهایی چرخش بصری متن که از این ویژگی و نوع عمودی پیش‌تعریف‌شده در ویژگی TextVerticalType ترکیب می‌شود. خواندن/نوشتن Single. |
-| [TextVerticalType](../../aspose.slides.charts/icharttextblockformat/textverticaltype) { get; set; } | تعیین جهت متن. مقدار نهایی چرخش بصری متن که از این ویژگی و زاویه سفارشی در ویژگی RotationAngle ترکیب می‌شود. خواندن/نوشتن [`TextVerticalType`](../../aspose.slides/textverticaltype). |
-| [WrapText](../../aspose.slides.charts/icharttextblockformat/wraptext) { get; set; } | **True** اگر متن در حاشیه‌های TextFrame بسته شود. تغییر این ویژگی ممکن است فقط برای بخش‌های نمودار زیر تأثیر داشته باشد: DataLabel و DataLabelFormat (پشتیبانی کامل در PowerPoint 2007/2013). خواندن/نوشتن [`NullableBool`](../../aspose.slides/nullablebool). |
+| [AnchoringType](../../aspose.slides.charts/icharttextblockformat/anchoringtype) { get; set; } | متن انکر عمودی را در یک TextFrame برمی‌گرداند یا تنظیم می‌کند. خواندن/نوشتن [`TextAnchorType`](../../aspose.slides/textanchortype). |
+| [AutofitType](../../aspose.slides.charts/icharttextblockformat/autofittype) { get; set; } | حالت خودتنظیم متن را برمی‌گرداند یا تنظیم می‌کند. تغییر این ویژگی می‌تواند فقط بر روی این بخش‌های نمودار اثر داشته باشد: DataLabel و DataLabelFormat (پشتیبانی کامل در PowerPoint 2013؛ در PowerPoint 2007 هیچ تأثیری بر رندر ندارند). خواندن/نوشتن [`TextAutofitType`](../../aspose.slides/textautofittype). |
+| [CenterText](../../aspose.slides.charts/icharttextblockformat/centertext) { get; set; } | اگر NullableBool.True باشد، متن باید به صورت افقی در جعبه مرکز شود. خواندن/نوشتن [`NullableBool`](../../aspose.slides/nullablebool). |
+| [MarginBottom](../../aspose.slides.charts/icharttextblockformat/marginbottom) { get; set; } | مارجین پایین (به پوینت) را در یک TextFrame برمی‌گرداند یا تنظیم می‌کند. تغییر این ویژگی می‌تواند فقط بر روی این بخش‌های نمودار اثر داشته باشد: DataLabel و DataLabelFormat (پشتیبانی کامل در PowerPoint 2013؛ در PowerPoint 2007 هیچ تأثیری بر رندر ندارند). خواندن/نوشتن Double. |
+| [MarginLeft](../../aspose.slides.charts/icharttextblockformat/marginleft) { get; set; } | مارجین چپ (به پوینت) را در یک TextFrame برمی‌گرداند یا تنظیم می‌کند. تغییر این ویژگی می‌تواند فقط بر روی این بخش‌های نمودار اثر داشته باشد: DataLabel و DataLabelFormat (پشتیبانی کامل در PowerPoint 2013؛ در PowerPoint 2007 هیچ تأثیری بر رندر ندارند). خواندن/نوشتن Double. |
+| [MarginRight](../../aspose.slides.charts/icharttextblockformat/marginright) { get; set; } | مارجین راست (به پوینت) را در یک TextFrame برمی‌گرداند یا تنظیم می‌کند. تغییر این ویژگی می‌تواند فقط بر روی این بخش‌های نمودار اثر داشته باشد: DataLabel و DataLabelFormat (پشتیبانی کامل در PowerPoint 2013؛ در PowerPoint 2007 هیچ تأثیری بر رندر ندارند). خواندن/نوشتن Double. |
+| [MarginTop](../../aspose.slides.charts/icharttextblockformat/margintop) { get; set; } | مارجین بالا (به پوینت) را در یک TextFrame برمی‌گرداند یا تنظیم می‌کند. تغییر این ویژگی می‌تواند فقط بر روی این بخش‌های نمودار اثر داشته باشد: DataLabel و DataLabelFormat (پشتیبانی کامل در PowerPoint 2013؛ در PowerPoint 2007 هیچ تأثیری بر رندر ندارند). خواندن/نوشتن Double. |
+| [RotationAngle](../../aspose.slides.charts/icharttextblockformat/rotationangle) { get; set; } | چرخش سفارشی که بر متن داخل جعبه مرزی اعمال می‌شود را مشخص می‌کند. اگر تعیین نشود، چرخش شکل همراه استفاده می‌شود. اگر تعیین شود، به صورت مستقل از شکل اعمال می‌شود. یعنی شکل می‌تواند چرخش داشته باشد علاوه بر این که متن خودش نیز چرخش داشته باشد. مقدار نهایی چرخش بصری متن که از ترکیب این ویژگی و نوع عمودی از پیش تعریف‌شده در ویژگی TextVerticalType به‌دست می‌آید. خواندن/نوشتن Single. |
+| [TextVerticalType](../../aspose.slides.charts/icharttextblockformat/textverticaltype) { get; set; } | جهت متن را تعیین می‌کند. مقدار نهایی چرخش بصری متن که از ترکیب این ویژگی و زاویه سفارشی در ویژگی RotationAngle به‌دست می‌آید. خواندن/نوشتن [`TextVerticalType`](../../aspose.slides/textverticaltype). |
+| [WrapText](../../aspose.slides.charts/icharttextblockformat/wraptext) { get; set; } | **True** اگر متن در حاشیه‌های TextFrame بسته‌بندی شده باشد. تغییر این ویژگی می‌تواند فقط بر روی این بخش‌های نمودار اثر داشته باشد: DataLabel و DataLabelFormat (پشتیبانی کامل در PowerPoint 2007/2013). خواندن/نوشتن [`NullableBool`](../../aspose.slides/nullablebool). |
 
 ### موارد مرتبط
 
 * فضای‌نام [Aspose.Slides.Charts](../../aspose.slides.charts)
-* مجتمع [Aspose.Slides](../../)
+* مجمع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

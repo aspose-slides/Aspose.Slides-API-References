@@ -1,14 +1,14 @@
 ---
 title: NormalViewRestoredProperties
-second_title: Referensi API Aspose.Sildes untuk .NET
-description: Menentukan ukuran wilayah slide (lebar ketika menjadi anak restoredTop, tinggi ketika menjadi anak restoredLeft) dari tampilan normal, ketika wilayah tersebut memiliki ukuran yang dipulihkan secara variabel (tidak diperkecil maupun diperbesar).
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Menentukan ukuran wilayah slide lebar saat menjadi anak dari restoredTop tinggi saat menjadi anak dari restoredLeft dari tampilan normal ketika wilayah tersebut memiliki ukuran restored variabel (tidak diminimalkan maupun dimaksimalkan).
 type: docs
-weight: 9120
+weight: 9140
 url: /id/aspose.slides/normalviewrestoredproperties/
 ---
 ## NormalViewRestoredProperties kelas
 
-Menentukan ukuran wilayah slide ((lebar ketika menjadi anak RestoredTop, tinggi ketika menjadi anak RestoredLeft) dari tampilan normal, ketika wilayah tersebut memiliki ukuran yang dipulihkan secara variabel (tidak diperkecil maupun diperbesar).
+Menentukan ukuran wilayah slide ((lebar saat menjadi anak dari restoredTop, tinggi saat menjadi anak dari restoredLeft) dari tampilan normal, ketika wilayah tersebut memiliki ukuran restored variabel (tidak diminimalkan maupun dimaksimalkan).
 
 ```csharp
 public class NormalViewRestoredProperties : INormalViewRestoredProperties
@@ -18,8 +18,8 @@ public class NormalViewRestoredProperties : INormalViewRestoredProperties
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AutoAdjust](../../aspose.slides/normalviewrestoredproperties/autoadjust) { get; set; } | Menentukan apakah ukuran wilayah konten sisi harus menyesuaikan ukuran baru saat mengubah ukuran jendela yang berisi tampilan dalam aplikasi Baca/tulis Boolean. |
-| [DimensionSize](../../aspose.slides/normalviewrestoredproperties/dimensionsize) { get; set; } | Menentukan ukuran wilayah slide (lebar ketika menjadi anak RestoredTop, tinggi ketika menjadi anak RestoredLeft). Baca/tulis Single. |
+| [AutoAdjust](../../aspose.slides/normalviewrestoredproperties/autoadjust) { get; set; } | Menentukan apakah ukuran wilayah konten samping harus mengkompensasi ukuran baru saat mengubah ukuran jendela yang berisi tampilan dalam aplikasi Baca/tulis Boolean. |
+| [DimensionSize](../../aspose.slides/normalviewrestoredproperties/dimensionsize) { get; set; } | Menentukan ukuran wilayah slide (lebar saat menjadi anak dari RestoredTop, tinggi saat menjadi anak dari RestoredLeft). Baca/tulis Single. |
 
 ### Lihat Juga
 

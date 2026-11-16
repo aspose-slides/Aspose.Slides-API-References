@@ -1,14 +1,14 @@
 ---
 title: ISoftEdge
-second_title: Aspose.Sildes для .NET API справки
-description: Представляет эффект мягкого края. Края фигуры размыты, в то время как заливка не затронута.
+second_title: Aspose.Sildes для .NET справочник API
+description: Представляет эффект мягкой кромки. Края фигуры размыты, в то время как заливка не затронута.
 type: docs
-weight: 3520
+weight: 3540
 url: /ru/aspose.slides.effects/isoftedge/
 ---
 ## ISoftEdge интерфейс
 
-Represents a Soft Edge effect. The edges of the shape are blurred, while the fill is not affected.
+Представляет эффект мягкой кромки. Края фигуры размыты, в то время как заливка не затронута.
 
 ```csharp
 public interface ISoftEdge : IAccessiblePVIObject<ISoftEdgeEffectiveData>, IImageTransformOperation
@@ -18,8 +18,8 @@ public interface ISoftEdge : IAccessiblePVIObject<ISoftEdgeEffectiveData>, IImag
 
 | Имя | Описание |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/isoftedge/asiaccessiblepviobject) { get; } | Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/isoftedge/asiimagetransformoperation) { get; } | Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтения [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/isoftedge/asiaccessiblepviobject) { get; } | Позволяет получить базовый интерфейс IAccessiblePVIObject. Только чтение [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/isoftedge/asiimagetransformoperation) { get; } | Позволяет получить базовый интерфейс IImageTransformOperation. Только чтение [`IImageTransformOperation`](../iimagetransformoperation). |
 | [Radius](../../aspose.slides.effects/isoftedge/radius) { get; set; } | Указывает радиус размытия, применяемый к краям. Чтение/запись Double. |
 
 ### См. также

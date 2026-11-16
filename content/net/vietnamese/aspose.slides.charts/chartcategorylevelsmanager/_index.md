@@ -1,14 +1,14 @@
 ---
 title: ChartCategoryLevelsManager
-second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Bộ chứa được quản lý của các giá trị cấp độ danh mục biểu đồ.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Bộ chứa được quản lý cho các giá trị của các cấp độ danh mục biểu đồ.
 type: docs
-weight: 1290
+weight: 1300
 url: /vi/aspose.slides.charts/chartcategorylevelsmanager/
 ---
 ## ChartCategoryLevelsManager lớp
 
-Bộ chứa được quản lý của các giá trị cấp độ danh mục biểu đồ.
+Bộ chứa được quản lý cho các giá trị của các cấp độ danh mục biểu đồ.
 
 ```csharp
 public class ChartCategoryLevelsManager : IChartCategoryLevelsManager

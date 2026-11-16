@@ -1,14 +1,14 @@
 ---
 title: EffectFormat
-second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje vlastnosti efektů tvaru.
+second_title: Aspose.Sildes pro .NET API referenci
+description: Reprezentuje vlastnosti efektu tvaru.
 type: docs
-weight: 2830
+weight: 2850
 url: /cs/aspose.slides/effectformat/
 ---
 ## Třída EffectFormat
 
-Reprezentuje vlastnosti efektů tvaru.
+Reprezentuje vlastnosti efektu tvaru.
 
 ```csharp
 public sealed class EffectFormat : PVIObject, IEffectFormat
@@ -19,39 +19,39 @@ public sealed class EffectFormat : PVIObject, IEffectFormat
 | Název | Popis |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Umožňuje získat základní rozhraní IPresentationComponent. Pouze pro čtení [`IPresentationComponent`](../ipresentationcomponent). |
-| [BlurEffect](../../aspose.slides/effectformat/blureffect) { get; set; } | Efekt rozostření. Čtení/Zápis [`IBlur`](../../aspose.slides.effects/iblur). |
-| [FillOverlayEffect](../../aspose.slides/effectformat/filloverlayeffect) { get; set; } | Efekt překrytí výplně. Čtení/Zápis [`IFillOverlay`](../../aspose.slides.effects/ifilloverlay). |
-| [GlowEffect](../../aspose.slides/effectformat/gloweffect) { get; set; } | Efekt záře. Čtení/Zápis [`IGlow`](../../aspose.slides.effects/iglow). |
-| [InnerShadowEffect](../../aspose.slides/effectformat/innershadoweffect) { get; set; } | Vnitřní stín. Čtení/Zápis [`IInnerShadow`](../../aspose.slides.effects/iinnershadow). |
-| [IsNoEffects](../../aspose.slides/effectformat/isnoeffects) { get; } | Vrací true, pokud jsou všechny efekty zakázány (jako právě vytvořený, výchozí objekt EffectFormat). Pouze pro čtení Boolean. |
-| [OuterShadowEffect](../../aspose.slides/effectformat/outershadoweffect) { get; set; } | Vnější stín. Čtení/Zápis [`IOuterShadow`](../../aspose.slides.effects/ioutershadow). |
-| [PresetShadowEffect](../../aspose.slides/effectformat/presetshadoweffect) { get; set; } | Přednastavený stín. Čtení/Zápis [`IPresetShadow`](../../aspose.slides.effects/ipresetshadow). |
-| [ReflectionEffect](../../aspose.slides/effectformat/reflectioneffect) { get; set; } | Odraz. Čtení/Zápis [`IReflection`](../../aspose.slides.effects/ireflection). |
-| [SoftEdgeEffect](../../aspose.slides/effectformat/softedgeeffect) { get; set; } | Měkký okraj. Čtení/Zápis [`ISoftEdge`](../../aspose.slides.effects/isoftedge). |
+| [BlurEffect](../../aspose.slides/effectformat/blureffect) { get; set; } | Rozostření. Čtení/zápis [`IBlur`](../../aspose.slides.effects/iblur). |
+| [FillOverlayEffect](../../aspose.slides/effectformat/filloverlayeffect) { get; set; } | Překrytí výplně. Čtení/zápis [`IFillOverlay`](../../aspose.slides.effects/ifilloverlay). |
+| [GlowEffect](../../aspose.slides/effectformat/gloweffect) { get; set; } | Efekt záře. Čtení/zápis [`IGlow`](../../aspose.slides.effects/iglow). |
+| [InnerShadowEffect](../../aspose.slides/effectformat/innershadoweffect) { get; set; } | Vnitřní stín. Čtení/zápis [`IInnerShadow`](../../aspose.slides.effects/iinnershadow). |
+| [IsNoEffects](../../aspose.slides/effectformat/isnoeffects) { get; } | Vrací true, pokud jsou všechny efekty zakázány (jako právě vytvořený výchozí objekt EffectFormat). Pouze pro čtení Boolean. |
+| [OuterShadowEffect](../../aspose.slides/effectformat/outershadoweffect) { get; set; } | Vnější stín. Čtení/zápis [`IOuterShadow`](../../aspose.slides.effects/ioutershadow). |
+| [PresetShadowEffect](../../aspose.slides/effectformat/presetshadoweffect) { get; set; } | Přednastavený stín. Čtení/zápis [`IPresetShadow`](../../aspose.slides.effects/ipresetshadow). |
+| [ReflectionEffect](../../aspose.slides/effectformat/reflectioneffect) { get; set; } | Odraz. Čtení/zápis [`IReflection`](../../aspose.slides.effects/ireflection). |
+| [SoftEdgeEffect](../../aspose.slides/effectformat/softedgeeffect) { get; set; } | Měkký okraj. Čtení/zápis [`ISoftEdge`](../../aspose.slides.effects/isoftedge). |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| [DisableBlurEffect](../../aspose.slides/effectformat/disableblureffect)() | Zakáže efekt rozostření. |
-| [DisableFillOverlayEffect](../../aspose.slides/effectformat/disablefilloverlayeffect)() | Zakáže efekt překrytí výplně. |
+| [DisableBlurEffect](../../aspose.slides/effectformat/disableblureffect)() | Zakáže rozostření. |
+| [DisableFillOverlayEffect](../../aspose.slides/effectformat/disablefilloverlayeffect)() | Zakáže překrytí výplně. |
 | [DisableGlowEffect](../../aspose.slides/effectformat/disablegloweffect)() | Zakáže efekt záře. |
-| [DisableInnerShadowEffect](../../aspose.slides/effectformat/disableinnershadoweffect)() | Zakáže efekt vnitřního stínu. |
-| [DisableOuterShadowEffect](../../aspose.slides/effectformat/disableoutershadoweffect)() | Zakáže efekt vnějšího stínu. |
-| [DisablePresetShadowEffect](../../aspose.slides/effectformat/disablepresetshadoweffect)() | Zakáže efekt přednastaveného stínu. |
-| [DisableReflectionEffect](../../aspose.slides/effectformat/disablereflectioneffect)() | Zakáže efekt odrazu. |
-| [DisableSoftEdgeEffect](../../aspose.slides/effectformat/disablesoftedgeeffect)() | Zakáže efekt měkkého okraje. |
-| [EnableFillOverlayEffect](../../aspose.slides/effectformat/enablefilloverlayeffect)() | Povolí efekt překrytí výplně. |
+| [DisableInnerShadowEffect](../../aspose.slides/effectformat/disableinnershadoweffect)() | Zakáže vnitřní stín. |
+| [DisableOuterShadowEffect](../../aspose.slides/effectformat/disableoutershadoweffect)() | Zakáže vnější stín. |
+| [DisablePresetShadowEffect](../../aspose.slides/effectformat/disablepresetshadoweffect)() | Zakáže přednastavený stín. |
+| [DisableReflectionEffect](../../aspose.slides/effectformat/disablereflectioneffect)() | Zakáže odraz. |
+| [DisableSoftEdgeEffect](../../aspose.slides/effectformat/disablesoftedgeeffect)() | Zakáže měkký okraj. |
+| [EnableFillOverlayEffect](../../aspose.slides/effectformat/enablefilloverlayeffect)() | Povolí překrytí výplně. |
 | [EnableGlowEffect](../../aspose.slides/effectformat/enablegloweffect)() | Povolí efekt záře. |
-| [EnableInnerShadowEffect](../../aspose.slides/effectformat/enableinnershadoweffect)() | Povolí efekt vnitřního stínu. |
-| [EnableOuterShadowEffect](../../aspose.slides/effectformat/enableoutershadoweffect)() | Povolí efekt vnějšího stínu. |
-| [EnablePresetShadowEffect](../../aspose.slides/effectformat/enablepresetshadoweffect)() | Povolí efekt přednastavených stínů. |
-| [EnableReflectionEffect](../../aspose.slides/effectformat/enablereflectioneffect)() | Povolí efekt odrazu. |
-| [EnableSoftEdgeEffect](../../aspose.slides/effectformat/enablesoftedgeeffect)() | Povolí efekt měkkého okraje. |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | Porovná s určeným objektem. |
-| [GetEffective](../../aspose.slides/effectformat/geteffective)() | Získá data efektového formátování s aplikovaným děděním. |
+| [EnableInnerShadowEffect](../../aspose.slides/effectformat/enableinnershadoweffect)() | Povolí vnitřní stín. |
+| [EnableOuterShadowEffect](../../aspose.slides/effectformat/enableoutershadoweffect)() | Povolí vnější stín. |
+| [EnablePresetShadowEffect](../../aspose.slides/effectformat/enablepresetshadoweffect)() | Povolí přednastavené stíny. |
+| [EnableReflectionEffect](../../aspose.slides/effectformat/enablereflectioneffect)() | Povolí odraz. |
+| [EnableSoftEdgeEffect](../../aspose.slides/effectformat/enablesoftedgeeffect)() | Povolí měkký okraj. |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | Porovná s daným objektem. |
+| [GetEffective](../../aspose.slides/effectformat/geteffective)() | Získá efektivní data formátování efektu s aplikovaným děděním. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Vrací hash kód. |
-| [SetBlurEffect](../../aspose.slides/effectformat/setblureffect)(double, bool) | Nastaví efekt rozostření. |
+| [SetBlurEffect](../../aspose.slides/effectformat/setblureffect)(double, bool) | Nastaví rozostření. |
 
 ### Viz také
 

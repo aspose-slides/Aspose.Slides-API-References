@@ -1,9 +1,9 @@
 ---
 title: TabCollection
-second_title: Aspose.Sildes .NET API Referencia
+second_title: Aspose.Sildes a .NET API referencia
 description: A fülek gyűjteményét képviseli.
 type: docs
-weight: 10840
+weight: 10860
 url: /hu/aspose.slides/tabcollection/
 ---
 ## TabCollection osztály
@@ -18,10 +18,10 @@ public sealed class TabCollection : ITabCollection
 
 | Név | Leírás |
 | --- | --- |
-| [Count](../../aspose.slides/tabcollection/count) { get; } | A gyűjteményben ténylegesen lévő elemek számát adja vissza. Írásvédett Int32. |
-| [IsSynchronized](../../aspose.slides/tabcollection/issynchronized) { get; } | Értéket ad vissza, amely jelzi, hogy a gyűjteményhez való hozzáférés szinkronizált (szálbiztos). Írásvédett Boolean. |
-| [Item](../../aspose.slides/tabcollection/item) { get; } | A megadott indexű elemet adja vissza. Írásvédett [`Tab`](../tab). |
-| [SyncRoot](../../aspose.slides/tabcollection/syncroot) { get; } | Szinkronizációs gyökér objektumot ad vissza. Írásvédett Object. |
+| [Count](../../aspose.slides/tabcollection/count) { get; } | A gyűjteményben ténylegesen lévő elemek számát adja vissza. Csak olvasható Int32. |
+| [IsSynchronized](../../aspose.slides/tabcollection/issynchronized) { get; } | Visszaad egy értéket, amely azt jelzi, hogy a gyűjteményhez való hozzáférés szinkronizált (szálbiztos). Csak olvasható Boolean. |
+| [Item](../../aspose.slides/tabcollection/item) { get; } | A megadott indexű elemet adja vissza. Csak olvasható [`Tab`](../tab). |
+| [SyncRoot](../../aspose.slides/tabcollection/syncroot) { get; } | Visszaad egy szinkronizációs gyökér objektumot. Csak olvasható Object. |
 
 ## Módszerek
 
@@ -31,10 +31,10 @@ public sealed class TabCollection : ITabCollection
 | [Add](../../aspose.slides/tabcollection/add#add)(double, TabAlignment) | Hozzáad egy Tab-ot a gyűjteményhez. |
 | [Clear](../../aspose.slides/tabcollection/clear)() | Eltávolítja a gyűjtemény összes elemét. |
 | [CopyTo](../../aspose.slides/tabcollection/copyto)(Array, int) | Átmásolja a gyűjtemény összes elemét a megadott tömbbe. |
-| override [Equals](../../aspose.slides/tabcollection/equals)(object) | Megállapítja, hogy a két TabsEx példány egyenlő-e. |
-| [GetEnumerator](../../aspose.slides/tabcollection/getenumerator)() | Visszaad egy enumerátort, amely a gyűjteményen iterál. |
+| override [Equals](../../aspose.slides/tabcollection/equals)(object) | Meghatározza, hogy két TabsEx példány egyenlő-e. |
+| [GetEnumerator](../../aspose.slides/tabcollection/getenumerator)() | Visszaad egy enumerátort, amely végigjárja a gyűjteményt. |
 | override [GetHashCode](../../aspose.slides/tabcollection/gethashcode)() | Visszaadja ennek az objektumnak a hash kódját. |
-| [RemoveAt](../../aspose.slides/tabcollection/removeat)(int) | Eltávolítja a gyűjtemény megadott indexű elemét. |
+| [RemoveAt](../../aspose.slides/tabcollection/removeat)(int) | Eltávolítja a megadott indexű elemet a gyűjteményből. |
 
 ### Lásd még
 

@@ -1,14 +1,14 @@
 ---
 title: IColorOperation
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Vertegenwoordigt verschillende kleuroperaties die worden gebruikt voor kleurtransformaties.
+description: Vertegenwoordigt verschillende kleurbewerkingen die worden gebruikt voor kleurtransformaties.
 type: docs
-weight: 5500
+weight: 5520
 url: /nl/aspose.slides/icoloroperation/
 ---
 ## IColorOperation interface
 
-Vertegenwoordigt verschillende kleuroperaties die worden gebruikt voor kleurtransformaties.
+Stelt verschillende kleurbewerkingen voor die worden gebruikt voor kleurtransformaties.
 
 ```csharp
 public interface IColorOperation
@@ -18,8 +18,8 @@ public interface IColorOperation
 
 | Naam | Beschrijving |
 | --- | --- |
-| [OperationType](../../aspose.slides/icoloroperation/operationtype) { get; } | Geeft het type van een bewerking terug of stelt het in. Alleen-lezen [`ColorTransformOperation`](../colortransformoperation). |
-| [Parameter](../../aspose.slides/icoloroperation/parameter) { get; } | Geeft een parameter van een bewerking terug. Alleen-lezen Single. |
+| [OperationType](../../aspose.slides/icoloroperation/operationtype) { get; } | Retourneert of stelt het type van een bewerking in. Alleen-lezen [`ColorTransformOperation`](../colortransformoperation). |
+| [Parameter](../../aspose.slides/icoloroperation/parameter) { get; } | Retourneert een parameter van een bewerking. Alleen-lezen Single. |
 
 ### Zie ook
 

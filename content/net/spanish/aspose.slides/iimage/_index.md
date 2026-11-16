@@ -1,12 +1,12 @@
 ---
 title: IImage
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para la referencia de API de .NET
 description: Representa una imagen raster o vectorial.
 type: docs
-weight: 6150
+weight: 6170
 url: /es/aspose.slides/iimage/
 ---
-## IImage interfaz
+## Interfaz IImage
 
 Representa una imagen raster o vectorial.
 
@@ -20,7 +20,7 @@ public interface IImage : IDisposable
 | --- | --- |
 | [Height](../../aspose.slides/iimage/height) { get; } | Obtiene la altura de la imagen en píxeles. |
 | [Size](../../aspose.slides/iimage/size) { get; } | Obtiene el tamaño de la imagen. |
-| [Width](../../aspose.slides/iimage/width) { get; } | Obtiene el ancho de la imagen en píxeles. |
+| [Width](../../aspose.slides/iimage/width) { get; } | Obtiene la anchura de la imagen en píxeles. |
 
 ## Métodos
 
@@ -29,8 +29,8 @@ public interface IImage : IDisposable
 | [Save](../../aspose.slides/iimage/save#save_2)(string) | Guarda la imagen en un archivo. |
 | [Save](../../aspose.slides/iimage/save#save)(Stream, ImageFormat) | Guarda la imagen en un flujo en el formato especificado. |
 | [Save](../../aspose.slides/iimage/save#save_3)(string, ImageFormat) | Guarda la imagen en un archivo en el formato especificado. |
-| [Save](../../aspose.slides/iimage/save#save_1)(Stream, ImageFormat, int) | Guarda la imagen en un flujo en el formato especificado y con la calidad indicada. |
-| [Save](../../aspose.slides/iimage/save#save_4)(string, ImageFormat, int) | Guarda la imagen en un archivo en el formato especificado y con la calidad indicada. |
+| [Save](../../aspose.slides/iimage/save#save_1)(Stream, ImageFormat, int) | Guarda la imagen en un flujo en el formato especificado y con calidad. |
+| [Save](../../aspose.slides/iimage/save#save_4)(string, ImageFormat, int) | Guarda la imagen en un archivo en el formato especificado y con calidad. |
 
 ### Observaciones
 

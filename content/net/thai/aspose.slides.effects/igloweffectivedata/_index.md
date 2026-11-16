@@ -1,14 +1,14 @@
 ---
 title: IGlowEffectiveData
-second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
-description: อ็อบเจ็กต์แบบไม่เปลี่ยนแปลงที่แสดงถึงเอฟเฟ็กต์ Glow ซึ่งมีเส้นขอบสีที่เบลอเพิ่มออกนอกขอบของอ็อบเจ็กต์.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: ออบเจ็กต์ที่ไม่สามารถแก้ไขได้ซึ่งเป็นตัวแทนของเอฟเฟกต์ Glow ที่เส้นขอบสีเบลอถูกเพิ่มไว้ด้านนอกขอบของอ็อบเจ็กต์
 type: docs
-weight: 3330
+weight: 3350
 url: /th/aspose.slides.effects/igloweffectivedata/
 ---
-## IGlowEffectiveData interface
+## IGlowEffectiveData อินเทอร์เฟซ
 
-อ็อบเจ็กต์แบบไม่เปลี่ยนแปลงที่แสดงถึงเอฟเฟกต์ Glow ซึ่งเพิ่มเส้นขอบสีที่เบลอออกนอกขอบของอ็อบเจ็กต์
+ออบเจ็กต์ที่ไม่สามารถแก้ไขได้ซึ่งเป็นตัวแทนของเอฟเฟกต์ Glow, ซึ่งเส้นขอบสีเบลอถูกเพิ่มไว้รอบขอบของอ็อบเจ็กต์
 
 ```csharp
 public interface IGlowEffectiveData : IEffectEffectiveData
@@ -18,9 +18,9 @@ public interface IGlowEffectiveData : IEffectEffectiveData
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/igloweffectivedata/asieffecteffectivedata) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IEffectEffectiveData พื้นฐาน. อ่านอย่างเดียว [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Color](../../aspose.slides.effects/igloweffectivedata/color) { get; } | สี. อ่านอย่างเดียว Color. |
-| [Radius](../../aspose.slides.effects/igloweffectivedata/radius) { get; } | รัศมี. อ่านอย่างเดียว Double. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/igloweffectivedata/asieffecteffectivedata) { get; } | Allows to get base IEffectEffectiveData interface. อ่านอย่างเดียว [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Color](../../aspose.slides.effects/igloweffectivedata/color) { get; } | Color. อ่านอย่างเดียว Color. |
+| [Radius](../../aspose.slides.effects/igloweffectivedata/radius) { get; } | Radius. อ่านอย่างเดียว Double. |
 
 ### ดูเพิ่มเติม
 

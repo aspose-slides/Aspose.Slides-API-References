@@ -1,14 +1,14 @@
 ---
 title: GetFontEmbeddingLevel
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: กำหนดระดับการฝังของแบบอักษรจากอาเรย์ไบต์และชื่อแบบอักษรที่ให้
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: กำหนดระดับการฝังของแบบอักษรจากอาเรย์ไบต์และชื่อแบบอักษรที่ให้มา.
 type: docs
-weight: 60
+weight: 70
 url: /th/aspose.slides/ifontsmanager/getfontembeddinglevel/
 ---
-## IFontsManager.GetFontEmbeddingLevel method
+## IFontsManager.GetFontEmbeddingLevel เมธอด
 
-กำหนดระดับการฝังของแบบอักษรจากอาเรย์ไบต์ที่ให้และชื่อแบบอักษร.
+กำหนดระดับการฝังของแบบอักษรจากอาเรย์ไบต์และชื่อแบบอักษรที่ให้มา.
 
 ```csharp
 public EmbeddingLevel GetFontEmbeddingLevel(byte[] fontBytes, string fontName)
@@ -16,18 +16,18 @@ public EmbeddingLevel GetFontEmbeddingLevel(byte[] fontBytes, string fontName)
 
 | พารามิเตอร์ | ประเภท | คำอธิบาย |
 | --- | --- | --- |
-| fontBytes | Byte[] | อาเรย์ไบต์ที่บรรจุข้อมูลแบบอักษร. |
-| fontName | String | ชื่อของแบบอักษร. |
+| fontBytes | Byte[] | อาเรย์ไบต์ที่มีข้อมูลแบบอักษร |
+| fontName | String | ชื่อของแบบอักษร |
 
-### ค่าที่ส่งกลับ
+### ค่าที่คืนกลับ
 
-ระดับการฝังของแบบอักษรที่ระบุ.
+ระดับการฝังของแบบอักษรที่ระบุ
 
 ### ข้อยกเว้น
 
-| exception | condition |
+| ข้อยกเว้น | เงื่อนไข |
 | --- | --- |
-| ArgumentNullException | เกิดข้อยกเว้นเมื่อ *fontBytes* เป็นค่า null. |
+| ArgumentNullException | เกิดเมื่อ *fontBytes* เป็น null |
 
 ### ตัวอย่าง
 
@@ -35,13 +35,13 @@ public EmbeddingLevel GetFontEmbeddingLevel(byte[] fontBytes, string fontName)
 [C#]
 using (Presentation pres = new Presentation(pptxFileName))
 {
-    // ดึงฟอนต์ทั้งหมดที่ใช้ในพรีเซนเทชัน
+    // ดึงแบบอักษรทั้งหมดที่ใช้ในงานนำเสนอ
     IFontData[] fontDatas = pres.FontsManager.GetFonts();
 
-    // รับอาเรย์ไบต์ที่แสดงสไตล์ปกติของฟอนต์แรกในพรีเซนเทชัน
+    // รับอาเรย์ไบต์ที่แสดงสไตล์ปกติของแบบอักษรแรกในงานนำเสนอ
     byte[] bytes = pres.FontsManager.GetFontBytes(fontDatas[0], FontStyle.Regular);
 
-    // กำหนดระดับการฝังของฟอนต์
+    // กำหนดระดับการฝังของแบบอักษร
     EmbeddingLevel embeddingLevel = pres.FontsManager.GetFontEmbeddingLevel(bytes, fontDatas[0].FontName);
 }
 ```

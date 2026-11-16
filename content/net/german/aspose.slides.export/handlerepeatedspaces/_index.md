@@ -1,14 +1,14 @@
 ---
 title: HandleRepeatedSpaces
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Gibt an, wie wiederholte reguläre Leerzeichen beim Markdown-Export behandelt werden sollen.
+description: Gibt an, wie wiederholte reguläre Leerzeichenzeichen beim Markdown-Export behandelt werden sollen.
 type: docs
-weight: 3830
+weight: 3850
 url: /de/aspose.slides.export/handlerepeatedspaces/
 ---
 ## HandleRepeatedSpaces Aufzählung
 
-Gibt an, wie wiederholte reguläre Leerzeichen beim Markdown-Export behandelt werden sollen.
+Gibt an, wie wiederholte reguläre Leerzeichenzeichen beim Markdown-Export behandelt werden sollen.
 
 ```csharp
 public enum HandleRepeatedSpaces
@@ -18,7 +18,7 @@ public enum HandleRepeatedSpaces
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| None | `0` | Alle Leerzeichen werden unverändert als reguläre Leerzeichen beibehalten. Es wird keine Transformation angewendet, und mehrere aufeinanderfolgende Leerzeichen werden unverändert exportiert. |
+| None | `0` | Alle Leerzeichen werden als reguläre Leerzeichenzeichen unverändert beibehalten. Es wird keine Umwandlung vorgenommen, und mehrere aufeinanderfolgende Leerzeichen werden unverändert exportiert. |
 | AlternateSpacesToNbsp | `1` |  |
 | MultipleSpacesToNbsp | `2` |  |
 

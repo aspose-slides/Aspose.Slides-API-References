@@ -1,14 +1,14 @@
 ---
 title: NormalViewRestoredProperties
-second_title: Aspose.Sildes для .NET справочник API
-description: Указывает размер области слайда (ширина, когда элемент является дочерним restoredTop, высота, когда элемент является дочерним restoredLeft) в нормальном представлении, когда область имеет переменный восстановленный размер (не минимизирована и не максимизирована).
+second_title: Aspose.Sildes для .NET справка API
+description: Указывает размер области слайда: ширина, когда она является дочерним элементом restoredTop, высота - когда она является дочерним элементом restoredLeft, в обычном представлении, когда область имеет переменный восстановленный размер (не минимизирована и не развернута).
 type: docs
-weight: 9120
+weight: 9140
 url: /ru/aspose.slides/normalviewrestoredproperties/
 ---
 ## NormalViewRestoredProperties класс
 
-Указывает размер области слайда ((width when a child of restoredTop, height when a child of restoredLeft) нормального представления, когда область имеет переменный восстановленный размер (ни уменьшенный, ни разложенный).
+Указывает размер области слайда ((ширина, когда является дочерним элементом restoredTop, высота, когда является дочерним элементом restoredLeft) обычного представления, когда область имеет переменный восстановленный размер (не минимизирована и не развёрнута).
 
 ```csharp
 public class NormalViewRestoredProperties : INormalViewRestoredProperties
@@ -18,8 +18,8 @@ public class NormalViewRestoredProperties : INormalViewRestoredProperties
 
 | Имя | Описание |
 | --- | --- |
-| [AutoAdjust](../../aspose.slides/normalviewrestoredproperties/autoadjust) { get; set; } | Указывает, должна ли область бокового контента компенсировать новый размер при изменении размеров окна, содержащего представление в приложении. Чтение/запись Boolean. |
-| [DimensionSize](../../aspose.slides/normalviewrestoredproperties/dimensionsize) { get; set; } | Указывает размер области слайда (width when a child of RestoredTop, height when a child of RestoredLeft). Чтение/запись Single. |
+| [AutoAdjust](../../aspose.slides/normalviewrestoredproperties/autoadjust) { get; set; } | Указывает, следует ли размер области контентной части компенсировать новый размер при изменении размера окна, содержащего представление в приложении Read/write Boolean. |
+| [DimensionSize](../../aspose.slides/normalviewrestoredproperties/dimensionsize) { get; set; } | Указывает размер области слайда (ширина, когда является дочерним элементом RestoredTop, высота, когда является дочерним элементом RestoredLeft). Read/write Single. |
 
 ### См. также
 

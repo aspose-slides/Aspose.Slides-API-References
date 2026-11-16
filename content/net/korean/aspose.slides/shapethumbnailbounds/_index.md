@@ -1,14 +1,14 @@
 ---
 title: ShapeThumbnailBounds
-second_title: Aspose.Sildes for .NET API 참조
-description: shape 썸네일 경계 유형에 대한 열거형.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: shape 썸네일 경계 유형의 열거형.
 type: docs
-weight: 9920
+weight: 9940
 url: /ko/aspose.slides/shapethumbnailbounds/
 ---
 ## ShapeThumbnailBounds 열거형
 
-shape 썸네일 경계 유형에 대한 열거형.
+shape 썸네일 경계 유형의 열거형.
 
 ```csharp
 public enum ShapeThumbnailBounds
@@ -18,9 +18,9 @@ public enum ShapeThumbnailBounds
 
 | 이름 | 값 | 설명 |
 | --- | --- | --- |
-| Slide | `0` | Shape 썸네일은 슬라이드 크기와 동일한 크기를 갖습니다. Shape 위치가 저장됩니다. |
-| Shape | `1` | Shape 썸네일은 shape 윤곽 설정을 고려하여 shape 경계 직사각형과 동일한 크기를 갖습니다. |
-| Appearance | `2` | Shape 썸네일은 shape 외관(슬라이드 경계 내)과 동일한 크기를 갖습니다. shape 외관이 shape 경계에 맞지 않을 수 있는 경우가 있습니다. 예: 회전, 날카로운 각도의 합동 조인, 3D 효과 등. |
+| Slide | `0` | Shape 썸네일은 슬라이드 크기와 같은 크기를 갖습니다. Shape 위치가 저장됩니다. |
+| Shape | `1` | Shape 썸네일은 shape 경계 사각형 크기와 동일하며, shape 외곽선 설정을 고려합니다. |
+| Appearance | `2` | Shape 썸네일은 shape 외관(슬라이드 경계 내)의 크기를 갖습니다. 외관이 shape 경계에 맞지 않을 수 있습니다. 예: 회전, 급각의 마이터 결합, 3D 효과 등. |
 
 ### 참고
 

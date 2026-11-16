@@ -1,9 +1,9 @@
 ---
 title: TabFactory
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: ITab 인스턴스를 생성할 수 있습니다
 type: docs
-weight: 10850
+weight: 10870
 url: /ko/aspose.slides/tabfactory/
 ---
 ## TabFactory 클래스
@@ -26,11 +26,11 @@ public class TabFactory : ITabFactory
 | --- | --- |
 | [CreateTab](../../aspose.slides/tabfactory/createtab)(double, TabAlignment) | 새 ITab 인스턴스를 생성합니다. |
 
-### 참고
+### 비고
 
 COM 호환성을 위해.
 
-### 참조
+### 참고
 
 * 인터페이스 [ITabFactory](../itabfactory)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

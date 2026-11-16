@@ -3,7 +3,7 @@ title: IVideoPlayerHtmlControllerFactory
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Ermöglicht das Erstellen von VideoPlayerHtmlController.
 type: docs
-weight: 4190
+weight: 4210
 url: /de/aspose.slides.export/ivideoplayerhtmlcontrollerfactory/
 ---
 ## IVideoPlayerHtmlControllerFactory Schnittstelle
@@ -18,7 +18,7 @@ public interface IVideoPlayerHtmlControllerFactory
 
 | Name | Beschreibung |
 | --- | --- |
-| [CreateVideoPlayerHtmlController](../../aspose.slides.export/ivideoplayerhtmlcontrollerfactory/createvideoplayerhtmlcontroller)(string, string, string) | Erstellt einen Video-Player-HTML-Controller. |
+| [CreateVideoPlayerHtmlController](../../aspose.slides.export/ivideoplayerhtmlcontrollerfactory/createvideoplayerhtmlcontroller)(string, string, string) | Erstellt VideoPlayerHtmlController. |
 
 ### Hinweise
 

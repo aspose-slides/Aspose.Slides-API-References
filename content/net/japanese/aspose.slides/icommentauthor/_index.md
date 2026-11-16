@@ -3,12 +3,12 @@ title: ICommentAuthor
 second_title: Aspose.Sildes for .NET API リファレンス
 description: コメントの作成者を表します。
 type: docs
-weight: 5570
+weight: 5590
 url: /ja/aspose.slides/icommentauthor/
 ---
 ## ICommentAuthor インターフェイス
 
-Represents an author of comments.
+コメントの作成者を表します。
 
 ```csharp
 public interface ICommentAuthor
@@ -16,17 +16,17 @@ public interface ICommentAuthor
 
 ## プロパティ
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
-| [Comments](../../aspose.slides/icommentauthor/comments) { get; } | この作者が作成したコメントのコレクションを返します。読み取り専用 [`ICommentCollection`](../icommentcollection)。 |
-| [Initials](../../aspose.slides/icommentauthor/initials) { get; set; } | 作者のイニシャルを取得または設定します。読み書き可能 String。 |
-| [Name](../../aspose.slides/icommentauthor/name) { get; set; } | 作者の名前を取得または設定します。読み書き可能 String。 |
+| [Comments](../../aspose.slides/icommentauthor/comments) { get; } | この作成者によって作成されたコメントのコレクションを返します。読み取り専用 [`ICommentCollection`](../icommentcollection)。 |
+| [Initials](../../aspose.slides/icommentauthor/initials) { get; set; } | 作成者のイニシャルを取得または設定します。読み書き可能な String。 |
+| [Name](../../aspose.slides/icommentauthor/name) { get; set; } | 作成者の名前を取得または設定します。読み書き可能な String。 |
 
 ## メソッド
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
-| [Remove](../../aspose.slides/icommentauthor/remove)() | 親コレクションから作者を削除します。 |
+| [Remove](../../aspose.slides/icommentauthor/remove)() | 親コレクションから作成者を削除します。 |
 
 ### 参照
 

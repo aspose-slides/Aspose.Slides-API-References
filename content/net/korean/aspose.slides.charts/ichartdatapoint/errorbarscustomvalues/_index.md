@@ -1,20 +1,20 @@
 ---
 title: ErrorBarsCustomValues
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 사용자 정의 값 유형인 경우 시리즈 오류 막대 값을 나타냅니다. 읽기 전용 IErrorBarsCustomValuesaspose.slides.charts/ierrorbarscustomvalues.
 type: docs
-weight: 50
+weight: 90
 url: /ko/aspose.slides.charts/ichartdatapoint/errorbarscustomvalues/
 ---
 ## IChartDataPoint.ErrorBarsCustomValues 속성
 
-시리즈 오류 막대 값을 사용자 정의 값 유형인 경우에 나타냅니다. 읽기 전용 [`IErrorBarsCustomValues`](../../ierrorbarscustomvalues).
+사용자 정의 값 유형인 경우 시리즈 오류 막대 값을 나타냅니다. 읽기 전용 [`IErrorBarsCustomValues`](../../ierrorbarscustomvalues).
 
 ```csharp
 public IErrorBarsCustomValues ErrorBarsCustomValues { get; }
 ```
 
-### 참고
+### 참조
 
 * 인터페이스 [IErrorBarsCustomValues](../../ierrorbarscustomvalues)
 * 인터페이스 [IChartDataPoint](../../ichartdatapoint)

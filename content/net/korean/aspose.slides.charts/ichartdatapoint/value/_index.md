@@ -1,14 +1,14 @@
 ---
 title: Value
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 차트 데이터 포인트의 값을 반환합니다. 읽기 전용 IDoubleChartValueaspose.slides.charts/idoublechartvalue.
+description: 차트 데이터 포인트의 값을 가져옵니다. 읽기 전용 IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
-weight: 160
+weight: 200
 url: /ko/aspose.slides.charts/ichartdatapoint/value/
 ---
 ## IChartDataPoint.Value 속성
 
-차트 데이터 포인트의 값을 반환합니다. 읽기 전용 [`IDoubleChartValue`](../../idoublechartvalue).
+차트 데이터 포인트의 값을 가져옵니다. 읽기 전용 [`IDoubleChartValue`](../../idoublechartvalue).
 
 ```csharp
 public IDoubleChartValue Value { get; }

@@ -1,14 +1,14 @@
 ---
 title: IMathAccent
-second_title: Aspose.Sildes for .NET API リファレンス
-description: "ベースと結合用ダイアクリティカルマークからなるアクセント機能を指定します 例: ́"
+second_title: Aspose.Sildes の .NET 用 API リファレンス
+description: ベースと結合ダイアクリティカルマークからなるアクセント機能を指定します 例: ́
 type: docs
-weight: 8080
+weight: 8100
 url: /ja/aspose.slides.mathtext/imathaccent/
 ---
 ## IMathAccent インターフェイス
 
-ベースと結合用ダイアクリティカルマークからなるアクセント機能を指定します 例: 𝑎́
+ベースと結合ダイアクリティカルマークからなるアクセント関数を指定します 例: 𝑎́
 
 ```csharp
 public interface IMathAccent : IMathElement
@@ -20,7 +20,7 @@ public interface IMathAccent : IMathElement
 | --- | --- |
 | [AsIMathElement](../../aspose.slides.mathtext/imathaccent/asimathelement) { get; } | ベースの IMathElement インターフェイスを取得できる [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathaccent/base) { get; } | アクセントが適用された引数 |
-| [Character](../../aspose.slides.mathtext/imathaccent/character) { get; set; } | アクセント文字 値は (U+0300–U+036F) または (U+20D0–U+20EF) の範囲内である必要があります デフォルト値: 結合サーカムフレックスアクセント (U+0302) |
+| [Character](../../aspose.slides.mathtext/imathaccent/character) { get; set; } | アクセント文字 値は (U+0300–U+036F) または (U+20D0–U+20EF) の範囲内である必要があります デフォルト値: Combining Circumflex Accent (U+0302) |
 
 ### 例
 

@@ -1,14 +1,14 @@
 ---
 title: IFormattedTextContainer
-second_title: Aspose.Sildes pro .NET API Reference
-description: Představuje formát textu grafu.
+second_title: Aspose.Sildes pro .NET API Referenci
+description: Reprezentuje formát textu grafu.
 type: docs
-weight: 2110
+weight: 2130
 url: /cs/aspose.slides.charts/iformattedtextcontainer/
 ---
 ## IFormattedTextContainer rozhraní
 
-Představuje formát textu grafu.
+Reprezentuje formát textu grafu.
 
 ```csharp
 public interface IFormattedTextContainer : IChartComponent
@@ -18,8 +18,8 @@ public interface IFormattedTextContainer : IChartComponent
 
 | Název | Popis |
 | --- | --- |
-| [AsIChartComponent](../../aspose.slides.charts/iformattedtextcontainer/asichartcomponent) { get; } | Vrací rozhraní IChartComponent. Pouze pro čtení [`IChartComponent`](../ichartcomponent). |
-| [TextFormat](../../aspose.slides.charts/iformattedtextcontainer/textformat) { get; } | Vrací formát textu grafu. Pouze pro čtení [`IChartTextFormat`](../icharttextformat). |
+| [AsIChartComponent](../../aspose.slides.charts/iformattedtextcontainer/asichartcomponent) { get; } | Vrací rozhraní IChartComponent. Pouze ke čtení [`IChartComponent`](../ichartcomponent). |
+| [TextFormat](../../aspose.slides.charts/iformattedtextcontainer/textformat) { get; } | Vrací formát textu grafu. Pouze ke čtení [`IChartTextFormat`](../icharttextformat). |
 
 ### Viz také
 

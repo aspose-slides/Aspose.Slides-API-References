@@ -3,7 +3,7 @@ title: IMathAccentFactory
 second_title: Aspose.Sildes pro .NET API Reference
 description: Umožňuje vytvořit matematický akcent
 type: docs
-weight: 8090
+weight: 8110
 url: /cs/aspose.slides.mathtext/imathaccentfactory/
 ---
 ## IMathAccentFactory rozhraní
@@ -18,8 +18,8 @@ public interface IMathAccentFactory
 
 | Název | Popis |
 | --- | --- |
-| [CreateMathAccent](../../aspose.slides.mathtext/imathaccentfactory/createmathaccent#createmathaccent)(IMathElement) | Vytvoří matematický akcent aplikovaný na zadaný matematický prvek s výchozí hodnotou znaku akcentu |
-| [CreateMathAccent](../../aspose.slides.mathtext/imathaccentfactory/createmathaccent#createmathaccent_1)(IMathElement, char) | Vytvoří matematický akcent aplikovaný na zadaný matematický prvek |
+| [CreateMathAccent](../../aspose.slides.mathtext/imathaccentfactory/createmathaccent#createmathaccent)(IMathElement) | Vytvoří matematický akcent aplikovaný na zadaný IMathElement s výchozí hodnotou znaku akcentu |
+| [CreateMathAccent](../../aspose.slides.mathtext/imathaccentfactory/createmathaccent#createmathaccent_1)(IMathElement, char) | Vytvoří matematický akcent aplikovaný na zadaný IMathElement |
 
 ### Poznámky
 

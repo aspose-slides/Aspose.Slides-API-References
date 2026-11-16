@@ -3,12 +3,12 @@ title: IInkBrush
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar spårpensel.
 type: docs
-weight: 7530
+weight: 7550
 url: /sv/aspose.slides.ink/iinkbrush/
 ---
 ## IInkBrush gränssnitt
 
-Representerar en spårpensel.
+Representerar spårpensel.
 
 ```csharp
 public interface IInkBrush
@@ -19,7 +19,7 @@ public interface IInkBrush
 | Namn | Beskrivning |
 | --- | --- |
 | [Color](../../aspose.slides.ink/iinkbrush/color) { get; set; } | Hämtar eller anger penselfärgen för en linje. |
-| [InkEffect](../../aspose.slides.ink/iinkbrush/inkeffect) { get; } | Hämtar bläckeffekttypen (t.ex. Galaxy, Gold, Silver) som definierar den visuella stilen för bläckstiftet. Värdet analyseras från penselns egenskap "inkEffects". Om ingen igenkänd effekt specificeras returneras NotDefined. |
+| [InkEffect](../../aspose.slides.ink/iinkbrush/inkeffect) { get; } | Hämtar typ av bläckeffekt (t.ex. Galaxy, Gold, Silver) som definierar den visuella stilen för bläckstiftet. Värdet analyseras från penselns egenskap "inkEffects". Om ingen igenkänd effekt anges returneras NotDefined. |
 | [Size](../../aspose.slides.ink/iinkbrush/size) { get; set; } | Hämtar eller anger penselstorleken för en linje i punkter. |
 
 ### Se även

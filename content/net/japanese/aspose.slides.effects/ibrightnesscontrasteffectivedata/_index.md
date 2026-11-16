@@ -1,14 +1,14 @@
 ---
 title: IBrightnessContrastEffectiveData
-second_title: Aspose.Sildes の .NET API リファレンス
-description: 不変オブジェクトで、BrightnessContrast 効果を表します。明るさとコントラストを調整します
+second_title: Aspose.Sildes の .NET 用 API リファレンス
+description: BrightnessContrast エフェクトを表す不変オブジェクトです。明るさとコントラストを調整します
 type: docs
-weight: 3210
+weight: 3230
 url: /ja/aspose.slides.effects/ibrightnesscontrasteffectivedata/
 ---
 ## IBrightnessContrastEffectiveData インターフェイス
 
-BrightnessContrast 効果を表す不変オブジェクトです。明るさとコントラストを調整します
+BrightnessContrast エフェクトを表す不変オブジェクトです。明るさとコントラストを調整します
 
 ```csharp
 public interface IBrightnessContrastEffectiveData : IEffectEffectiveData
@@ -18,8 +18,8 @@ public interface IBrightnessContrastEffectiveData : IEffectEffectiveData
 
 | 名前 | 説明 |
 | --- | --- |
-| [Brightness](../../aspose.slides.effects/ibrightnesscontrasteffectivedata/brightness) { get; } | 明るさを返します。読み取り専用 Single。 |
-| [Contrast](../../aspose.slides.effects/ibrightnesscontrasteffectivedata/contrast) { get; } | コントラストを返します。読み取り専用 Single。 |
+| [Brightness](../../aspose.slides.effects/ibrightnesscontrasteffectivedata/brightness) { get; } | 明るさを返します。 読み取り専用 Single. |
+| [Contrast](../../aspose.slides.effects/ibrightnesscontrasteffectivedata/contrast) { get; } | コントラストを返します。 読み取り専用 Single. |
 
 ### 参照
 

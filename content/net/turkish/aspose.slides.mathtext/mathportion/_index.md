@@ -1,14 +1,14 @@
 ---
 title: MathPortion
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Matematiksel bağlam içeren bir bölümü temsil eder.
 type: docs
-weight: 8930
+weight: 8950
 url: /tr/aspose.slides.mathtext/mathportion/
 ---
 ## MathPortion sınıfı
 
-Matematiksel bağlam içindeki bir bölümü temsil eder.
+Matematiksel bağlam içeren bir bölümü temsil eder.
 
 ```csharp
 public sealed class MathPortion : Portion, IMathPortion
@@ -26,8 +26,8 @@ public sealed class MathPortion : Portion, IMathPortion
 | --- | --- |
 | [Field](../../aspose.slides/portion/field) { get; } | Bu bölümün bir alanını döndürür. Salt okunur [`IField`](../../aspose.slides/ifield). |
 | [MathParagraph](../../aspose.slides.mathtext/mathportion/mathparagraph) { get; } | Matematik paragrafı |
-| [PortionFormat](../../aspose.slides/portion/portionformat) { get; } | Açıkça ayarlanmış biçimlendirme özelliklerini içeren biçimlendirme nesnesini döndürür. Kalıtım uygulanmaz. Salt okunur [`IPortionFormat`](../../aspose.slides/iportionformat). |
-| [Text](../../aspose.slides/portion/text) { get; set; } | Bir bölümün düz metnini alır veya ayarlar. Okunur/Yazılabilir String. |
+| [PortionFormat](../../aspose.slides/portion/portionformat) { get; } | Bu bölümün açıkça ayarlanmış biçimlendirme özelliklerini içeren biçimlendirme nesnesini döndürür, kalıtım uygulanmaz. Salt okunur [`IPortionFormat`](../../aspose.slides/iportionformat). |
+| [Text](../../aspose.slides/portion/text) { get; set; } | Bir bölümün düz metnini alır veya ayarlar. Okuma/yazma String. |
 
 ## Yöntemler
 
@@ -35,8 +35,8 @@ public sealed class MathPortion : Portion, IMathPortion
 | --- | --- |
 | [AddField](../../aspose.slides/portion/addfield)(IFieldType) | Bu bölümü otomatik olarak güncellenen alana dönüştürür. |
 | [AddField](../../aspose.slides/portion/addfield)(string) | Bu bölümü otomatik olarak güncellenen alana dönüştürür. |
-| [GetCoordinates](../../aspose.slides/portion/getcoordinates)() | Bölümün başlangıç koordinatlarını alır. Noktanın X koordinatı, sol taraf boşluğunu da içeren ilk karakterden itibaren bölümün başlangıcını temsil eder. Y koordinatı üst taraf boşluğunu içerir. |
-| [GetRect](../../aspose.slides/portion/getrect)() | Bölümü sınırlayan dikdörtgenin koordinatlarını alır. Dikdörtgen, bölüme ait tüm metin satırlarını, boş olanlar da dahil, içerir. |
+| [GetCoordinates](../../aspose.slides/portion/getcoordinates)() | Bölümün başlangıç koordinatlarını alır. Noktanın X koordinatı, sol kenar boşluğu dahil ilk karakterden başlayan bölümün başlangıcını temsil eder. Y koordinatı üst kenar boşluğunu içerir. |
+| [GetRect](../../aspose.slides/portion/getrect)() | Bölümü sınırlayan dikdörtgenin koordinatlarını alır. Dikdörtgen, boş satırlar dahil, bölümdeki tüm metin satırlarını içerir. |
 | [RemoveField](../../aspose.slides/portion/removefield)() | Bu alan bölümünü basit bölüme dönüştürür. |
 
 ### Örnekler

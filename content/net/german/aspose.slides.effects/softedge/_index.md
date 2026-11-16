@@ -1,14 +1,14 @@
 ---
 title: SoftEdge
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt einen weichen Kanteneffekt dar. Die Kanten der Form sind unscharf, während die Füllung nicht betroffen ist.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Stellt einen Soft Edge-Effekt dar. Die Kanten der Form sind unscharf, während die Füllung nicht betroffen ist.
 type: docs
-weight: 3650
+weight: 3670
 url: /de/aspose.slides.effects/softedge/
 ---
 ## SoftEdge Klasse
 
-Stellt einen weichen Kanteneffekt dar. Die Kanten der Form sind unscharf, während die Füllung nicht beeinflusst wird.
+Stellt einen Soft Edge-Effekt dar. Die Kanten der Form sind unscharf, während die Füllung nicht betroffen ist.
 
 ```csharp
 public sealed class SoftEdge : ISoftEdge
@@ -25,8 +25,8 @@ public sealed class SoftEdge : ISoftEdge
 | Name | Beschreibung |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/softedge/equals)(object) | Bestimmt, ob das angegebene [`SoftEdge`](../softedge) dem aktuellen [`SoftEdge`](../softedge) entspricht. |
-| [GetEffective](../../aspose.slides.effects/softedge/geteffective)() | Ermittelt die wirksamen Soft Edge-Effektdaten mit angewandter Vererbung. |
-| override [GetHashCode](../../aspose.slides.effects/softedge/gethashcode)() | Dient als Hashfunktion für einen bestimmten Typ. |
+| [GetEffective](../../aspose.slides.effects/softedge/geteffective)() | Ruft die effektiven Soft Edge-Effektdaten mit angewandter Vererbung ab. |
+| override [GetHashCode](../../aspose.slides.effects/softedge/gethashcode)() | Dient als Hash-Funktion für einen bestimmten Typ. |
 
 ### Siehe auch
 

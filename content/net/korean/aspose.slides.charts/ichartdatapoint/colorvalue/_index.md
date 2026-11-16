@@ -1,20 +1,20 @@
 ---
 title: ColorValue
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 차트 데이터 포인트의 색상 값을 반환합니다. 맵 차트와 함께 사용됩니다. 읽기 전용 IDoubleChartValueaspose.slides.charts/idoublechartvalue.
+description: 차트 데이터 포인트의 색상 값을 가져옵니다. 맵 차트와 함께 사용됩니다. 읽기 전용 IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
-weight: 30
+weight: 70
 url: /ko/aspose.slides.charts/ichartdatapoint/colorvalue/
 ---
 ## IChartDataPoint.ColorValue 속성
 
-차트 데이터 포인트의 색상 값을 반환합니다. 맵 차트와 함께 사용됩니다. 읽기 전용 [`IDoubleChartValue`](../../idoublechartvalue).
+차트 데이터 포인트의 색상 값을 가져옵니다. 맵 차트와 함께 사용됩니다. 읽기 전용 [`IDoubleChartValue`](../../idoublechartvalue).
 
 ```csharp
 public IDoubleChartValue ColorValue { get; }
 ```
 
-### 참고
+### 자세히 보기
 
 * 인터페이스 [IDoubleChartValue](../../idoublechartvalue)
 * 인터페이스 [IChartDataPoint](../../ichartdatapoint)

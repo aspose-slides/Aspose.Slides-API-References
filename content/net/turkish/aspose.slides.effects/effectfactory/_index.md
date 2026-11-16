@@ -1,14 +1,14 @@
 ---
 title: EffectFactory
-second_title: Aspose.Sildes için .NET API Referansı
-description: Efekt oluşturmayı sağlar
+second_title: Aspose.Sildes .NET API Referansı
+description: Efekt oluşturmaya izin verir
 type: docs
-weight: 2970
+weight: 2990
 url: /tr/aspose.slides.effects/effectfactory/
 ---
-## EffectFactory sınıf
+## EffectFactory sınıfı
 
-Efektler oluşturmayı sağlar
+Efekt oluşturmayı sağlar
 
 ```csharp
 public class EffectFactory : IEffectFactory
@@ -16,28 +16,28 @@ public class EffectFactory : IEffectFactory
 
 ## Yapıcılar
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
 | [EffectFactory](effectfactory)() | Varsayılan yapıcı. |
 
 ## Özellikler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
-| [ImageTransformOperationFactory](../../aspose.slides.effects/effectfactory/imagetransformoperationfactory) { get; } | ImageTransformOperationFactory döndürür. Yalnızca okuma [`IImageTransformOperationFactory`](../iimagetransformoperationfactory). |
+| [ImageTransformOperationFactory](../../aspose.slides.effects/effectfactory/imagetransformoperationfactory) { get; } | ImageTransformOperationFactory döndürür. Salt okunur [`IImageTransformOperationFactory`](../iimagetransformoperationfactory). |
 
-## Metotlar
+## Yöntemler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
-| [CreateGlow](../../aspose.slides.effects/effectfactory/createglow)() | Glow efektini oluşturur. |
-| [CreateInnerShadow](../../aspose.slides.effects/effectfactory/createinnershadow)() | İç gölge efektini oluşturur. |
-| [CreateOuterShadow](../../aspose.slides.effects/effectfactory/createoutershadow)() | Dış gölge efektini oluşturur. |
-| [CreatePresetShadow](../../aspose.slides.effects/effectfactory/createpresetshadow)() | Ön ayarlı gölge efektini oluşturur. |
-| [CreateReflection](../../aspose.slides.effects/effectfactory/createreflection)() | Yansıma efektini oluşturur. |
-| [CreateSoftEdge](../../aspose.slides.effects/effectfactory/createsoftedge)() | Yumuşak kenar efektini oluşturur. |
+| [CreateGlow](../../aspose.slides.effects/effectfactory/createglow)() | Glow etkisini oluşturur. |
+| [CreateInnerShadow](../../aspose.slides.effects/effectfactory/createinnershadow)() | Inner shadow etkisini oluşturur. |
+| [CreateOuterShadow](../../aspose.slides.effects/effectfactory/createoutershadow)() | Outer shadow etkisini oluşturur. |
+| [CreatePresetShadow](../../aspose.slides.effects/effectfactory/createpresetshadow)() | Preset shadow etkisini oluşturur. |
+| [CreateReflection](../../aspose.slides.effects/effectfactory/createreflection)() | Reflection etkisini oluşturur. |
+| [CreateSoftEdge](../../aspose.slides.effects/effectfactory/createsoftedge)() | Soft Edge etkisini oluşturur. |
 
-### Açıklamalar
+### Açıklama
 
 COM uyumluluğu için.
 

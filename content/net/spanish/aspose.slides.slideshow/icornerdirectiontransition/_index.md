@@ -3,7 +3,7 @@ title: ICornerDirectionTransition
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Efecto de transición de diapositiva en dirección de esquina.
 type: docs
-weight: 10060
+weight: 10080
 url: /es/aspose.slides.slideshow/icornerdirectiontransition/
 ---
 ## ICornerDirectionTransition interfaz

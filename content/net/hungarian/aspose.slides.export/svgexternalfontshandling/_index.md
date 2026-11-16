@@ -1,14 +1,14 @@
 ---
 title: SvgExternalFontsHandling
-second_title: Aspose.Sildes .NET API hivatkozás
-description: A szövegrajzoláshoz használt külső betűkészletek kezelésének módját jelöli.
+second_title: Aspose.Sildes a .NET API-re vonatkozó hivatkozás
+description: Ábrázolja a szövegrajzoláshoz használt külső betűkészletek kezelésének módját.
 type: docs
-weight: 4500
+weight: 4520
 url: /hu/aspose.slides.export/svgexternalfontshandling/
 ---
-## SvgExternalFontsHandling felsorolás
+## SvgExternalFontsHandling enumeráció
 
-A szövegrajzoláshoz használt külső betűkészletek kezelésének módját írja le.
+Képviseli azt a módot, ahogyan a szövegrajzoláshoz használt külső betűkészleteket kezelik.
 
 ```csharp
 public enum SvgExternalFontsHandling
@@ -18,9 +18,9 @@ public enum SvgExternalFontsHandling
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| AddLinksToFontFiles | `0` | Hivatkozásokat ad a különálló betűkészlet-fájlokra az SVG fájl stílus szakaszához. |
-| Embed | `1` | A betűkészlet adatokat közvetlenül az SVG fájlba menti. Kérjük, ellenőrizze az összes külső betűkészlet licencszerződését, mielőtt ezt a lehetőséget használja. |
-| Vectorize | `2` | Az összes külső betűkészlettel írt szöveget grafikaként menti. |
+| AddLinksToFontFiles | `0` | Különálló betűfájlokra mutató hivatkozásokat ad az SVG fájl stílus szakaszához. |
+| Embed | `1` | A betűkészletek adatait közvetlenül az SVG fájlba menti. Kérjük, ellenőrizze az összes külső betűkészlet licencszerződését, mielőtt ezt a beállítást használja. |
+| Vectorize | `2` | Az összes, külső betűkészleteket használó szöveget grafikaként menti. |
 
 ### Lásd még
 

@@ -1,14 +1,14 @@
 ---
 title: ILuminance
 second_title: Aspose.Sildes için .NET API Referansı
-description: Bir Luminance etkisini temsil eder. Parlaklık, tüm renkleri beyaza veya siyaha doğru lineer olarak kaydırır. Kontrast, tüm renkleri birbirine daha yakın ya da daha uzak olacak şekilde ölçeklendirir.
+description: Luminance etkisini temsil eder. Parlaklık, tüm renkleri lineer olarak beyaza ya da siyaha daha yakın hâle getirir. Kontrast, tüm renklerin daha yakın ya da daha uzak olmasını ölçeklendirir.
 type: docs
-weight: 3440
+weight: 3460
 url: /tr/aspose.slides.effects/iluminance/
 ---
 ## ILuminance arayüzü
 
-Bir Luminance etkisini temsil eder. Parlaklık, tüm renkleri beyaza veya siyaha doğru lineer olarak kaydırır. Kontrast, tüm renkleri birbirine daha yakın veya daha uzak olacak şekilde ölçeklendirir.
+Luminance etkisini temsil eder. Parlaklık, tüm renkleri lineer olarak beyaza veya siyaha daha yakın hale getirir. Kontrast, tüm renklerin daha yakın veya daha uzak olmasını ölçeklendirir.
 
 ```csharp
 public interface ILuminance : IAccessiblePVIObject<ILuminanceEffectiveData>, 
@@ -19,10 +19,10 @@ public interface ILuminance : IAccessiblePVIObject<ILuminanceEffectiveData>,
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/iluminance/asiaccessiblepviobject) { get; } | Temel IAccessiblePVIObject arayüzünü almaya izin verir. Yalnızca okuma [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/iluminance/asiimagetransformoperation) { get; } | Temel IImageTransformOperation arayüzünü almaya izin verir. Yalnızca okuma [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/iluminance/asiaccessiblepviobject) { get; } | IAccessiblePVIObject arayüzüne temel erişim sağlar. Salt okunur [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/iluminance/asiimagetransformoperation) { get; } | IImageTransformOperation arayüzüne temel erişim sağlar. Salt okunur [`IImageTransformOperation`](../iimagetransformoperation). |
 
-### Bakınız
+### Ayrıca Bakınız
 
 * arayüz [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * arayüz [ILuminanceEffectiveData](../iluminanceeffectivedata)

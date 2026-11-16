@@ -1,14 +1,14 @@
 ---
 title: IGeometryPath
-second_title: Aspose.Sildes για .NET API Αναφορά
+second_title: Aspose.Sildes για .NET Αναφορά API
 description: Αναπαριστά τη γεωμετρική διαδρομή του GeometryShape
 type: docs
-weight: 5970
+weight: 5990
 url: /el/aspose.slides/igeometrypath/
 ---
-## Διεπαφή IGeometryPath
+## IGeometryPath Διεπαφή
 
-Represents geometry path of GeometryShape
+Αναπαριστά τη γεωμετρική διαδρομή του GeometryShape
 
 ```csharp
 public interface IGeometryPath
@@ -19,34 +19,34 @@ public interface IGeometryPath
 | Όνομα | Περιγραφή |
 | --- | --- |
 | [FillMode](../../aspose.slides/igeometrypath/fillmode) { get; set; } | Ορίζει τη λειτουργία γεμίσματος |
-| [PathData](../../aspose.slides/igeometrypath/pathdata) { get; } | Επιστρέφει τη γεωμετρική διαδρομή του GeometryShape ως έναν πίνακα τμημάτων διαδρομής. |
+| [PathData](../../aspose.slides/igeometrypath/pathdata) { get; } | Επιστρέφει τη διαδρομή γεωμετρίας του GeometryShape ως μια σειρά από τμήματα διαδρομής. |
 | [Stroke](../../aspose.slides/igeometrypath/stroke) { get; set; } | Ορίζει την εμφάνιση του περιγράμματος |
 
 ## Μέθοδοι
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [ArcTo](../../aspose.slides/igeometrypath/arcto)(float, float, float, float) | Προσθέτει το συγκεκριμένο τόξο στη διαδρομή. |
+| [ArcTo](../../aspose.slides/igeometrypath/arcto)(float, float, float, float) | Προσθέτει το καθορισμένο τόξο στη διαδρομή. |
 | [CloseFigure](../../aspose.slides/igeometrypath/closefigure)() | Κλείνει το τρέχον σχήμα αυτής της διαδρομής |
-| [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto_2)(PointF, PointF, PointF) | Προσθέτει καμπύλη Bezier κυβικού τύπου στο τέλος της διαδρομής |
-| [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto_3)(PointF, PointF, PointF, uint) | Προσθέτει καμπύλη Bezier κυβικού τύπου στη συγκεκριμένη θέση της διαδρομής |
-| [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto)(float, float, float, float, float, float) | Προσθέτει καμπύλη Bezier κυβικού τύπου στο τέλος της διαδρομής |
-| [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto_1)(float, float, float, float, float, float, uint) | Προσθέτει καμπύλη Bezier κυβικού τύπου στη συγκεκριμένη θέση της διαδρομής |
+| [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto_2)(PointF, PointF, PointF) | Προσθέτει κυβική καμπύλη Bezier στο τέλος της διαδρομής |
+| [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto_3)(PointF, PointF, PointF, uint) | Προσθέτει κυβική καμπύλη Bezier στο καθορισμένο σημείο της διαδρομής |
+| [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto)(float, float, float, float, float, float) | Προσθέτει κυβική καμπύλη Bezier στο τέλος της διαδρομής |
+| [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto_1)(float, float, float, float, float, float, uint) | Προσθέτει κυβική καμπύλη Bezier στο καθορισμένο σημείο της διαδρομής |
 | [LineTo](../../aspose.slides/igeometrypath/lineto#lineto_2)(PointF) | Προσθέτει γραμμή στο τέλος της διαδρομής |
 | [LineTo](../../aspose.slides/igeometrypath/lineto#lineto)(float, float) | Προσθέτει γραμμή στο τέλος της διαδρομής |
-| [LineTo](../../aspose.slides/igeometrypath/lineto#lineto_3)(PointF, uint) | Προσθέτει γραμμή στη συγκεκριμένη θέση της διαδρομής |
-| [LineTo](../../aspose.slides/igeometrypath/lineto#lineto_1)(float, float, uint) | Προσθέτει γραμμή στη συγκεκριμένη θέση της διαδρομής |
+| [LineTo](../../aspose.slides/igeometrypath/lineto#lineto_3)(PointF, uint) | Προσθέτει γραμμή στο καθορισμένο σημείο της διαδρομής |
+| [LineTo](../../aspose.slides/igeometrypath/lineto#lineto_1)(float, float, uint) | Προσθέτει γραμμή στο καθορισμένο σημείο της διαδρομής |
 | [MoveTo](../../aspose.slides/igeometrypath/moveto#moveto_1)(PointF) | Ορίζει τη θέση του επόμενου σημείου. |
 | [MoveTo](../../aspose.slides/igeometrypath/moveto#moveto)(float, float) | Ορίζει τη θέση του επόμενου σημείου. |
 | [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto_2)(PointF, PointF) | Προσθέτει τετραγωνική καμπύλη Bezier στο τέλος της διαδρομής |
-| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto_3)(PointF, PointF, uint) | Προσθέτει τετραγωνική καμπύλη Bezier στη συγκεκριμένη θέση της διαδρομής |
+| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto_3)(PointF, PointF, uint) | Προσθέτει τετραγωνική καμπύλη Bezier στο καθορισμένο σημείο της διαδρομής |
 | [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto)(float, float, float, float) | Προσθέτει τετραγωνική καμπύλη Bezier στο τέλος της διαδρομής |
-| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto_1)(float, float, float, float, uint) | Προσθέτει τετραγωνική καμπύλη Bezier στη συγκεκριμένη θέση της διαδρομής |
-| [RemoveAt](../../aspose.slides/igeometrypath/removeat)(int) | Αφαιρεί το τμήμα στη συγκεκριμένη θέση του δείκτη στη γεωμετρική διαδρομή. |
+| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto_1)(float, float, float, float, uint) | Προσθέτει τετραγωνική καμπύλη Bezier στο καθορισμένο σημείο της διαδρομής |
+| [RemoveAt](../../aspose.slides/igeometrypath/removeat)(int) | Αφαιρεί το τμήμα στον καθορισμένο δείκτη της γεωμετρικής διαδρομής. |
 
 ### Δείτε επίσης
 
 * χώρο ονομάτων [Aspose.Slides](../../aspose.slides)
-* σύγκριτο [Aspose.Slides](../../)
+* συναρμολόγηση [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

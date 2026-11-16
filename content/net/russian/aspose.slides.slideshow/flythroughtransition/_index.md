@@ -1,14 +1,14 @@
 ---
 title: FlyThroughTransition
-second_title: Aspose.Sildes для .NET справочник API
-description: Эффект перехода слайда Fly-through.
+second_title: Aspose.Sildes для .NET API Reference
+description: Эффект перехода с пролётом слайда.
 type: docs
-weight: 10040
+weight: 10060
 url: /ru/aspose.slides.slideshow/flythroughtransition/
 ---
-## Класс FlyThroughTransition
+## FlyThroughTransition класс
 
-Эффект перехода Fly-through слайдом.
+Эффект перехода с пролётом слайда.
 
 ```csharp
 public class FlyThroughTransition : TransitionValueBase, IFlyThroughTransition
@@ -19,16 +19,16 @@ public class FlyThroughTransition : TransitionValueBase, IFlyThroughTransition
 | Имя | Описание |
 | --- | --- |
 | [Direction](../../aspose.slides.slideshow/flythroughtransition/direction) { get; set; } | Направление перехода. Чтение/запись [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [HasBounce](../../aspose.slides.slideshow/flythroughtransition/hasbounce) { get; set; } | Указывает, что движение слайдов презентации во время перехода включает отскок. Чтение/запись Boolean. |
+| [HasBounce](../../aspose.slides.slideshow/flythroughtransition/hasbounce) { get; set; } | Указывает, что перемещение слайдов презентации во время перехода включает отскок. Чтение/запись Boolean. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Определяет, равны ли два экземпляра TransitionValueBase. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Служит в качестве хеш-функции для конкретного типа, пригодной для использования в алгоритмах хеширования и структурах данных, таких как хеш-таблица. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Служит хеш-функцией для конкретного типа, пригодной для использования в алгоритмах хеширования и структурах данных, таких как хеш-таблица. |
 
-### См. также
+### Смотрите также
 
 * класс [TransitionValueBase](../transitionvaluebase)
 * интерфейс [IFlyThroughTransition](../iflythroughtransition)

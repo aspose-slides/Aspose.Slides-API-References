@@ -1,14 +1,14 @@
 ---
 title: CategoryAxisType
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: एक श्रेणी अक्ष का प्रकार दर्शाता है।
+second_title: Aspose.Sildes .NET के लिए API संदर्भ
+description: श्रेणी अक्ष का प्रकार दर्शाता है।
 type: docs
-weight: 1250
+weight: 1260
 url: /hi/aspose.slides.charts/categoryaxistype/
 ---
 ## CategoryAxisType एन्यूमरेशन
 
-एक श्रेणी अक्ष का प्रकार दर्शाता है।
+श्रेणी अक्ष का प्रकार दर्शाता है।
 
 ```csharp
 public enum CategoryAxisType
@@ -18,8 +18,8 @@ public enum CategoryAxisType
 
 | नाम | मान | विवरण |
 | --- | --- | --- |
-| Text | `0` | निर्दिष्ट करता है कि श्रेणी अक्ष एक टेक्स्ट अक्ष है। |
-| Date | `1` | निर्दिष्ट करता है कि श्रेणी अक्ष एक तिथि अक्ष है। |
+| Text | `0` | बताता है कि श्रेणी अक्ष एक टेक्स्ट अक्ष है। |
+| Date | `1` | बताता है कि श्रेणी अक्ष एक तिथि अक्ष है। |
 
 ### संबंधित देखें
 

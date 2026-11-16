@@ -1,14 +1,14 @@
 ---
 title: IMathSuperscriptElement
-second_title: Aspose.Sildes dla .NET - Referencja API
-description: Określa obiekt superskryptu, który składa się z podstawy i zmniejszonego superskryptu umieszczonego powyżej i po prawej stronie
+second_title: Aspose.Sildes dla .NET – dokumentacja API
+description: Określa obiekt indeksu górnego, który składa się z podstawy i zmniejszonego indeksu górnego umieszczonego powyżej i po prawej stronie
 type: docs
-weight: 8490
+weight: 8510
 url: /pl/aspose.slides.mathtext/imathsuperscriptelement/
 ---
 ## IMathSuperscriptElement interfejs
 
-Specifies the superscript object, which consists of a base and a reduced-size superscript placed above and to the right
+Określa obiekt indeksu górnego, który składa się z podstawy i zmniejszonego indeksu górnego umieszczonego powyżej i po prawej stronie
 
 ```csharp
 public interface IMathSuperscriptElement : IMathElement
@@ -20,7 +20,7 @@ public interface IMathSuperscriptElement : IMathElement
 | --- | --- |
 | [AsIMathElement](../../aspose.slides.mathtext/imathsuperscriptelement/asimathelement) { get; } | Umożliwia pobranie interfejsu bazowego IMathElement [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathsuperscriptelement/base) { get; } | Argument bazowy |
-| [Superscript](../../aspose.slides.mathtext/imathsuperscriptelement/superscript) { get; } | Superskrypt |
+| [Superscript](../../aspose.slides.mathtext/imathsuperscriptelement/superscript) { get; } | Indeks górny |
 
 ### Przykłady
 

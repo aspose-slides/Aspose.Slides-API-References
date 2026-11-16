@@ -1,14 +1,14 @@
 ---
 title: IMathNaryOperatorProperties
-second_title: Aspose.Sildes .NET API Referansı
-description: IMathNaryOperator öğesinin özelliklerini belirtir
+second_title: Aspose.Sildes for .NET API Referansı
+description: IMathNaryOperator'ın özelliklerini belirtir
 type: docs
-weight: 8380
+weight: 8400
 url: /tr/aspose.slides.mathtext/imathnaryoperatorproperties/
 ---
-## IMathNaryOperatorProperties arayüz
+## IMathNaryOperatorProperties arayüzü
 
-IMathNaryOperator öğesinin özelliklerini belirtir
+IMathNaryOperator'ın özelliklerini belirtir
 
 ```csharp
 public interface IMathNaryOperatorProperties
@@ -18,10 +18,10 @@ public interface IMathNaryOperatorProperties
 
 | Ad | Açıklama |
 | --- | --- |
-| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathnaryoperatorproperties/growtomatchoperandheight) { get; set; } | Operatör Karakteri, işlenenin yüksekliğine uyacak şekilde dikey olarak büyür |
-| [HideSubscript](../../aspose.slides.mathtext/imathnaryoperatorproperties/hidesubscript) { get; set; } | Alt Bilgiyi Gizle |
-| [HideSuperscript](../../aspose.slides.mathtext/imathnaryoperatorproperties/hidesuperscript) { get; set; } | Üst Bilgiyi Gizle |
-| [LimitLocation](../../aspose.slides.mathtext/imathnaryoperatorproperties/limitlocation) { get; set; } | Sınırların (altbilgi ve üstbilgi) konumu |
+| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathnaryoperatorproperties/growtomatchoperandheight) { get; set; } | Operatör karakteri, işleç yüksekliğine uyacak şekilde dikey olarak büyür |
+| [HideSubscript](../../aspose.slides.mathtext/imathnaryoperatorproperties/hidesubscript) { get; set; } | Alt Simgeyi Gizle |
+| [HideSuperscript](../../aspose.slides.mathtext/imathnaryoperatorproperties/hidesuperscript) { get; set; } | Üst Simgeyi Gizle |
+| [LimitLocation](../../aspose.slides.mathtext/imathnaryoperatorproperties/limitlocation) { get; set; } | Limitlerin konumu (alt simge ve üst simge) |
 | [Operator](../../aspose.slides.mathtext/imathnaryoperatorproperties/operator) { get; set; } | Nary Operatör Karakteri Örneğin: '∑', '∫' |
 
 ### Ayrıca Bakınız

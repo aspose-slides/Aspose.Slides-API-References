@@ -1,14 +1,14 @@
 ---
 title: IGlobalLayoutSlideCollection
-second_title: Aspose.Sildes для .NET справка по API
-description: Представляет коллекцию всех макетных слайдов в презентации. Расширяет интерфейс ILayoutSlideCollection методами для добавления/клонирования макетных слайдов в контексте объединения отдельных коллекций макетных слайдов мастеров.
+second_title: Aspose.Sildes для .NET справочник API
+description: Представляет коллекцию всех слайдов-макетов в презентации. Расширяет интерфейс ILayoutSlideCollection методами для добавления/клонирования слайдов-макетов в контексте объединения отдельных коллекций мастеров-слайдов-макетов.
 type: docs
-weight: 5990
+weight: 6010
 url: /ru/aspose.slides/igloballayoutslidecollection/
 ---
 ## IGlobalLayoutSlideCollection интерфейс
 
-Представляет коллекцию всех макетных слайдов в презентации. Расширяет интерфейс ILayoutSlideCollection методами для добавления/клонирования макетных слайдов в контексте объединения отдельных коллекций макетных слайдов мастера.
+Представляет коллекцию всех слайдов-макетов в презентации. Расширяет интерфейс ILayoutSlideCollection методами для добавления/клонирования слайдов-макетов в контексте объединения отдельных коллекций мастер-слайдов-макетов.
 
 ```csharp
 public interface IGlobalLayoutSlideCollection : ILayoutSlideCollection
@@ -24,11 +24,11 @@ public interface IGlobalLayoutSlideCollection : ILayoutSlideCollection
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.slides/igloballayoutslidecollection/add)(IMasterSlide, SlideLayoutType, string) | Добавляет новый макетный слайд в презентацию. |
-| [AddClone](../../aspose.slides/igloballayoutslidecollection/addclone#addclone)(ILayoutSlide) | Добавляет копию указанного макетного слайда в презентацию. |
-| [AddClone](../../aspose.slides/igloballayoutslidecollection/addclone#addclone_1)(ILayoutSlide, IMasterSlide) | Добавляет копию указанного макетного слайда в презентацию. |
+| [Add](../../aspose.slides/igloballayoutslidecollection/add)(IMasterSlide, SlideLayoutType, string) | Добавляет новый слайд-макет в презентацию. |
+| [AddClone](../../aspose.slides/igloballayoutslidecollection/addclone#addclone)(ILayoutSlide) | Добавляет копию указанного слайда-макета в презентацию. |
+| [AddClone](../../aspose.slides/igloballayoutslidecollection/addclone#addclone_1)(ILayoutSlide, IMasterSlide) | Добавляет копию указанного слайда-макета в презентацию. |
 
-### Смотрите также
+### См. также
 
 * интерфейс [ILayoutSlideCollection](../ilayoutslidecollection)
 * пространство имён [Aspose.Slides](../../aspose.slides)

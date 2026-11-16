@@ -1,14 +1,14 @@
 ---
 title: InnerShadow
 second_title: Aspose.Sildes .NET API referencia
-description: Egy belső árnyék hatást reprezentál.
+description: Képvisel egy Inner Shadow effektust.
 type: docs
-weight: 3600
+weight: 3620
 url: /hu/aspose.slides.effects/innershadow/
 ---
 ## InnerShadow osztály
 
-Egy Inner Shadow hatást reprezentál.
+Képvisel egy Inner Shadow effektust.
 
 ```csharp
 public sealed class InnerShadow : IInnerShadow
@@ -16,19 +16,19 @@ public sealed class InnerShadow : IInnerShadow
 
 ## Tulajdonságok
 
-| Name | Leírás |
+| Név | Leírás |
 | --- | --- |
-| [BlurRadius](../../aspose.slides.effects/innershadow/blurradius) { get; set; } | Elmosódási sugár. Olvasás/írás Double. |
+| [BlurRadius](../../aspose.slides.effects/innershadow/blurradius) { get; set; } | Elmosási sugár. Olvasás/írás Double. |
 | [Direction](../../aspose.slides.effects/innershadow/direction) { get; set; } | Az árnyék iránya. Olvasás/írás Single. |
 | [Distance](../../aspose.slides.effects/innershadow/distance) { get; set; } | Az árnyék távolsága. Olvasás/írás Double. |
-| [ShadowColor](../../aspose.slides.effects/innershadow/shadowcolor) { get; } | Az árnyék színe. Csak olvasás [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [ShadowColor](../../aspose.slides.effects/innershadow/shadowcolor) { get; } | Az árnyék színe. Csak olvasható [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ## Módszerek
 
-| Name | Leírás |
+| Név | Leírás |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/innershadow/equals)(object) | Megállapítja, hogy a megadott [`InnerShadow`](../innershadow) egyenlő-e az aktuális [`InnerShadow`](../innershadow). |
-| [GetEffective](../../aspose.slides.effects/innershadow/geteffective)() | Lekéri a hatékony Inner Shadow effektus adatokat az öröklődés alkalmazásával. |
+| override [Equals](../../aspose.slides.effects/innershadow/equals)(object) | Meghatározza, hogy a megadott [`InnerShadow`](../innershadow) egyenlő-e a jelenlegi [`InnerShadow`](../innershadow)-val. |
+| [GetEffective](../../aspose.slides.effects/innershadow/geteffective)() | Lekéri a hatékony Inner Shadow effektus adatokat a öröklődés alkalmazásával. |
 | override [GetHashCode](../../aspose.slides.effects/innershadow/gethashcode)() | Hash függvényként szolgál egy adott típushoz. |
 
 ### Lásd még

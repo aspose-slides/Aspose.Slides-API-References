@@ -1,14 +1,14 @@
 ---
 title: IBiLevelEffectiveData
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đối tượng bất biến đại diện cho hiệu ứng Bi-Level đen/trắng. Các màu đầu vào có độ sáng thấp hơn giá trị ngưỡng được chỉ định sẽ được chuyển thành màu đen. Các màu đầu vào có độ sáng lớn hơn hoặc bằng giá trị ngưỡng được chỉ định sẽ được đặt thành màu trắng. Các giá trị hiệu ứng alpha không bị ảnh hưởng bởi hiệu ứng này.
+second_title: Aspose.Sildes cho .NET Tham khảo API
+description: Đối tượng bất biến đại diện cho hiệu ứng Bi-Level đen/trắng. Các màu đầu vào có độ sáng thấp hơn giá trị ngưỡng được chỉ định sẽ được chuyển sang màu đen. Các màu đầu vào có độ sáng lớn hơn hoặc bằng giá trị ngưỡng được chỉ định sẽ được đặt thành màu trắng. Các giá trị hiệu ứng alpha không bị ảnh hưởng bởi hiệu ứng này.
 type: docs
-weight: 3170
+weight: 3190
 url: /vi/aspose.slides.effects/ibileveleffectivedata/
 ---
 ## IBiLevelEffectiveData giao diện
 
-Đối tượng bất biến đại diện cho hiệu ứng Bi-Level (đen/trắng). Các màu đầu vào có độ sáng thấp hơn giá trị ngưỡng được chỉ định sẽ được chuyển thành màu đen. Các màu đầu vào có độ sáng lớn hơn hoặc bằng giá trị ngưỡng được chỉ định sẽ được đặt thành màu trắng. Các giá trị hiệu ứng alpha không bị ảnh hưởng bởi hiệu ứng này.
+Đối tượng bất biến đại diện cho hiệu ứng Bi-Level (đen/trắng). Các màu đầu vào có độ sáng thấp hơn giá trị ngưỡng được chỉ định sẽ được đổi sang màu đen. Các màu đầu vào có độ sáng lớn hơn hoặc bằng giá trị ngưỡng được chỉ định sẽ được đặt thành màu trắng. Các giá trị hiệu ứng alpha không bị ảnh hưởng bởi hiệu ứng này.
 
 ```csharp
 public interface IBiLevelEffectiveData : IEffectEffectiveData
@@ -18,7 +18,7 @@ public interface IBiLevelEffectiveData : IEffectEffectiveData
 
 | Tên | Mô tả |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ibileveleffectivedata/asieffecteffectivedata) { get; } | Cho phép lấy giao diện IEffectEffectiveData cơ bản. Chỉ đọc [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ibileveleffectivedata/asieffecteffectivedata) { get; } | Cho phép truy cập giao diện IEffectEffectiveData cơ bản. Chỉ đọc [`IEffectEffectiveData`](../ieffecteffectivedata). |
 | [Threshold](../../aspose.slides.effects/ibileveleffectivedata/threshold) { get; } | Trả về giá trị ngưỡng. Chỉ đọc Single. |
 
 ### Xem thêm

@@ -1,14 +1,14 @@
 ---
 title: IPresentationFactory
-second_title: Aspose.Sildes для .NET — справочник API
-description: Позволяет создавать презентацию через интерфейс COM
+second_title: Aspose.Sildes для .NET API справочника
+description: Позволяет создавать презентацию через COM-интерфейс
 type: docs
-weight: 6770
+weight: 6790
 url: /ru/aspose.slides/ipresentationfactory/
 ---
 ## IPresentationFactory интерфейс
 
-Позволяет создавать презентацию через интерфейс COM
+Позволяет создавать презентацию через COM-интерфейс
 
 ```csharp
 public interface IPresentationFactory

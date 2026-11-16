@@ -1,14 +1,14 @@
 ---
 title: IMathRightSubSuperscriptElement
 second_title: Aspose.Sildes для .NET справочник API
-description: Определяет объект надстрочного/подстрочного индекса, который состоит из основы и надстрочного и подстрочного индексов, размещённых справа от основы.
+description: Определяет объект Sub-Superscript, который состоит из базового элемента и нижнего и верхнего индексов, размещённых справа от базового элемента.
 type: docs
-weight: 8450
+weight: 8470
 url: /ru/aspose.slides.mathtext/imathrightsubsuperscriptelement/
 ---
 ## IMathRightSubSuperscriptElement интерфейс
 
-Определяет объект надстрочного/подстрочного индекса, который состоит из основы и надстрочного и подстрочного индексов, размещённых справа от основы.
+Определяет объект Sub-Superscript, который состоит из базового элемента и нижнего и верхнего индексов, расположенных справа от базового элемента.
 
 ```csharp
 public interface IMathRightSubSuperscriptElement : IMathElement
@@ -18,11 +18,11 @@ public interface IMathRightSubSuperscriptElement : IMathElement
 
 | Имя | Описание |
 | --- | --- |
-| [AlignScripts](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/alignscripts) { get; set; } | Определяет выравнивание подстрочного/надстрочного индекса. При значении true подстрочный и надстрочный индексы выравниваются по горизонтали относительно друг друга. При значении false они подгоняются к форме основы. Значение по умолчанию — false. |
+| [AlignScripts](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/alignscripts) { get; set; } | Определяет выравнивание нижнего/верхнего индекса. Если true, нижний и верхний индексы выравниваются по горизонтали друг относительно друга. Если false, они подстраиваются под форму базового элемента. Значение по умолчанию — false. |
 | [AsIMathElement](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/asimathelement) { get; } | Позволяет получить базовый интерфейс IMathElement [`IMathElement`](../imathelement) |
-| [Base](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/base) { get; } | Аргумент основы |
-| [Subscript](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/subscript) { get; } | Аргумент подстрочного индекса |
-| [Superscript](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/superscript) { get; } | Аргумент надстрочного индекса |
+| [Base](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/base) { get; } | Базовый аргумент |
+| [Subscript](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/subscript) { get; } | Аргумент нижнего индекса |
+| [Superscript](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/superscript) { get; } | Аргумент верхнего индекса |
 
 ### Примеры
 

@@ -1,9 +1,9 @@
 ---
 title: VideoPlayerHtmlController
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 此类允许将视频和音频文件导出为 HTML
 type: docs
-weight: 4580
+weight: 4600
 url: /zh/aspose.slides.export/videoplayerhtmlcontroller/
 ---
 ## VideoPlayerHtmlController 类

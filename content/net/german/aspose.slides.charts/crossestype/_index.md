@@ -1,14 +1,14 @@
 ---
 title: CrossesType
-second_title: Aspose.Sildes für .NET API Referenz
-description: Bestimmt, wo die Achse schneidet.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Bestimmt, wo die Achse kreuzt.
 type: docs
-weight: 1540
+weight: 1550
 url: /de/aspose.slides.charts/crossestype/
 ---
 ## CrossesType Aufzählung
 
-Bestimmt, wo die Achse schneidet.
+Bestimmt, wo die Achse kreuzt.
 
 ```csharp
 public enum CrossesType
@@ -18,7 +18,7 @@ public enum CrossesType
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| AxisCrossesAtZero | `0` | Die Kategorienachse schneidet die Nullstelle der Werteachse (wenn möglich), oder den Minimalwert (wenn der Minimalwert größer als Null ist) bzw. den Maximalwert (wenn der Maximalwert kleiner als Null ist). |
+| AxisCrossesAtZero | `0` | Die Kategorienachse schneidet die Nullstelle der Wertachse (wenn möglich), oder den Minimalwert (wenn das Minimum größer als Null ist) oder das Maximum (wenn das Maximum kleiner als Null ist). |
 | Maximum | `1` | Die Achse schneidet den Maximalwert. |
 | Custom | `2` | Benutzerdefinierter Wert aus der Eigenschaft CrossAt |
 

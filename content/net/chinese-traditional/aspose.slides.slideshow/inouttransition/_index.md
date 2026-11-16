@@ -1,14 +1,14 @@
 ---
 title: InOutTransition
-second_title: Aspose.Sildes .NET API 參考
-description: In-Out 幻燈片過渡效果。
+second_title: Aspose.Sildes for .NET API 參考
+description: In-Out 投影片過渡效果。
 type: docs
-weight: 10230
+weight: 10250
 url: /zh-hant/aspose.slides.slideshow/inouttransition/
 ---
 ## InOutTransition 類別
 
-In-Out 幻燈片過渡效果。
+In-Out slide transition effect.
 
 ```csharp
 public class InOutTransition : TransitionValueBase, IInOutTransition
@@ -16,16 +16,16 @@ public class InOutTransition : TransitionValueBase, IInOutTransition
 
 ## 屬性
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/inouttransition/direction) { get; set; } | 過渡效果的方向。可讀寫 [`TransitionInOutDirectionType`](../transitioninoutdirectiontype)。 |
+| [Direction](../../aspose.slides.slideshow/inouttransition/direction) { get; set; } | 過渡效果的方向。讀寫 [`TransitionInOutDirectionType`](../transitioninoutdirectiontype)。 |
 
 ## 方法
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 判斷兩個 TransitionValueBase 實例是否相等。 |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 作為特定類型的雜湊函式，適用於雜湊演算法和諸如雜湊表之類的資料結構。 |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 作為特定類型的雜湊函數，可用於雜湊演算法和如雜湊表等資料結構。 |
 
 ### 另請參閱
 

@@ -1,14 +1,14 @@
 ---
 title: ShapeElementFillSource
-second_title: Aspose.Sildes için .NET API Referansı
-description: Şekil öğesinin nasıl doldurulması gerektiğini temsil eder.
+second_title: Aspose.Sildes .NET API Referansı
+description: Şekil öğesinin nasıl doldurulacağını temsil eder.
 type: docs
-weight: 9880
+weight: 9900
 url: /tr/aspose.slides/shapeelementfillsource/
 ---
-## ShapeElementFillSource enum
+## ShapeElementFillSource enumerasyon
 
-Şekil öğesinin nasıl doldurulması gerektiğini temsil eder.
+Şekil öğesinin nasıl doldurulacağını temsil eder.
 
 ```csharp
 public enum ShapeElementFillSource : byte
@@ -16,14 +16,14 @@ public enum ShapeElementFillSource : byte
 
 ### Değerler
 
-| İsim | Değer | Açıklama |
+| Name | Value | Description |
 | --- | --- | --- |
-| NoFill | `0` | İlkel nesneyi doldurma. |
-| Shape | `1` | Şeklin doldurulmasını kullan. |
-| Lighten | `2` | Şeklin aydınlatılmış doldurmasını kullan. |
-| LightenLess | `3` | Daha az aydınlatılmış şekil doldurmasını kullan. |
-| Darken | `4` | Şeklin karartılmış doldurmasını kullan. |
-| DarkenLess | `5` | Daha az karartılmış şekil doldurmasını kullan. |
+| NoFill | `0` | İlkel doldurulmaz. |
+| Shape | `1` | Şeklin dolgusunu kullan. |
+| Lighten | `2` | Şeklin aydınlatılmış dolgusunu kullan. |
+| LightenLess | `3` | Şeklin daha az aydınlatılmış dolgusunu kullan. |
+| Darken | `4` | Şeklin karartılmış dolgusunu kullan. |
+| DarkenLess | `5` | Şeklin daha az karartılmış dolgusunu kullan. |
 
 ### Ayrıca Bakınız
 

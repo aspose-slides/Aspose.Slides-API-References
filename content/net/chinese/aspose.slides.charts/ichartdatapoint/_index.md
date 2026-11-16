@@ -3,7 +3,7 @@ title: IChartDataPoint
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示系列数据点。
 type: docs
-weight: 1820
+weight: 1840
 url: /zh/aspose.slides.charts/ichartdatapoint/
 ---
 ## IChartDataPoint 接口
@@ -19,23 +19,27 @@ public interface IChartDataPoint : IActualLayout
 | 名称 | 描述 |
 | --- | --- |
 | [AsIActualLayout](../../aspose.slides.charts/ichartdatapoint/asiactuallayout) { get; } | 返回 IActualLayout 接口。 |
-| [BubbleSize](../../aspose.slides.charts/ichartdatapoint/bubblesize) { get; } | 返回图表数据点的气泡大小。只读 [`IDoubleChartValue`](../idoublechartvalue)。 |
-| [ColorValue](../../aspose.slides.charts/ichartdatapoint/colorvalue) { get; } | 返回图表数据点的颜色值。用于地图图表。只读 [`IDoubleChartValue`](../idoublechartvalue)。 |
-| [DataPointLevels](../../aspose.slides.charts/ichartdatapoint/datapointlevels) { get; } | 返回数据点级别的容器。适用于 Treeamp 和 Sunburst 系列。数据点级别索引从零开始。 |
-| [ErrorBarsCustomValues](../../aspose.slides.charts/ichartdatapoint/errorbarscustomvalues) { get; } | 在自定义值类型的情况下，返回系列误差条的值。只读 [`IErrorBarsCustomValues`](../ierrorbarscustomvalues)。 |
-| [Explosion](../../aspose.slides.charts/ichartdatapoint/explosion) { get; set; } | 指定数据点应从饼图中心移动的量。读写 Int32。 |
+| [BubbleSize](../../aspose.slides.charts/ichartdatapoint/bubblesize) { get; } | 获取图表数据点的气泡大小。只读 [`IDoubleChartValue`](../idoublechartvalue)。 |
+| [CachedBubbleSize](../../aspose.slides.charts/ichartdatapoint/cachedbubblesize) { get; } | 获取图表数据点的缓存气泡大小。只读 [`ICachedChartValue`](../icachedchartvalue)。 |
+| [CachedValue](../../aspose.slides.charts/ichartdatapoint/cachedvalue) { get; } | 获取图表数据点的缓存值。只读 [`ICachedChartValue`](../icachedchartvalue)。 |
+| [CachedXValue](../../aspose.slides.charts/ichartdatapoint/cachedxvalue) { get; } | 获取图表数据点的缓存 X 值。只读 [`ICachedChartValue`](../icachedchartvalue)。 |
+| [CachedYValue](../../aspose.slides.charts/ichartdatapoint/cachedyvalue) { get; } | 获取图表数据点的缓存 Y 值。只读 [`ICachedChartValue`](../icachedchartvalue)。 |
+| [ColorValue](../../aspose.slides.charts/ichartdatapoint/colorvalue) { get; } | 获取图表数据点的颜色值。用于地图图表。只读 [`IDoubleChartValue`](../idoublechartvalue)。 |
+| [DataPointLevels](../../aspose.slides.charts/ichartdatapoint/datapointlevels) { get; } | 返回数据点级别的容器。适用于 Treeamp 和 Sunburst 系列。数据点级别的索引从零开始。 |
+| [ErrorBarsCustomValues](../../aspose.slides.charts/ichartdatapoint/errorbarscustomvalues) { get; } | 表示自定义值类型情况下的系列误差棒值。只读 [`IErrorBarsCustomValues`](../ierrorbarscustomvalues)。 |
+| [Explosion](../../aspose.slides.charts/ichartdatapoint/explosion) { get; set; } | 指定数据点应从饼图中心移动的距离。读写 Int32。 |
 | [Format](../../aspose.slides.charts/ichartdatapoint/format) { get; set; } | 表示格式属性。读写 [`IFormat`](../iformat)。 |
 | [Index](../../aspose.slides.charts/ichartdatapoint/index) { get; } | 确定此数据点适用于父对象的子集合中的哪一个。只读 UInt32。 |
-| [InvertIfNegative](../../aspose.slides.charts/ichartdatapoint/invertifnegative) { get; set; } | 指定当值为负时，数据点应反转其颜色。读写 Boolean。 |
+| [InvertIfNegative](../../aspose.slides.charts/ichartdatapoint/invertifnegative) { get; set; } | 指定如果值为负，则数据点应反转其颜色。读写 Boolean。 |
 | [IsBubble3D](../../aspose.slides.charts/ichartdatapoint/isbubble3d) { get; set; } | 指定气泡应用 3-D 效果。读写 Boolean。 |
 | [Label](../../aspose.slides.charts/ichartdatapoint/label) { get; } | 表示图表数据点的标签。只读 [`IDataLabel`](../idatalabel)。 |
 | [Marker](../../aspose.slides.charts/ichartdatapoint/marker) { get; } | 指定数据标记。只读 [`IMarker`](../imarker)。 |
-| [RelatedLegendEntry](../../aspose.slides.charts/ichartdatapoint/relatedlegendentry) { get; } | 对应图例项的属性，适用于以下图表类型：ChartType.BarOfPie、ChartType.ExplodedPie、ChartType.ExplodedPie3D、ChartType.Pie、ChartType.Pie3D、ChartType.PieOfPie。只读 [`ILegendEntryProperties`](../ilegendentryproperties)。 |
+| [RelatedLegendEntry](../../aspose.slides.charts/ichartdatapoint/relatedlegendentry) { get; } | 对应图例条目的属性，当图表类型属于以下列表时：ChartType.BarOfPie、ChartType.ExplodedPie、ChartType.ExplodedPie3D、ChartType.Pie、ChartType.Pie3D、ChartType.PieOfPie。只读 [`ILegendEntryProperties`](../ilegendentryproperties)。 |
 | [SetAsTotal](../../aspose.slides.charts/ichartdatapoint/setastotal) { get; set; } | 将数据点设置为总计。仅适用于 Waterfall 系列类型。 |
-| [SizeValue](../../aspose.slides.charts/ichartdatapoint/sizevalue) { get; } | 返回图表数据点的大小值。用于 Treemap 和 Sunburst 图表。只读 [`IDoubleChartValue`](../idoublechartvalue)。 |
-| [Value](../../aspose.slides.charts/ichartdatapoint/value) { get; } | 返回图表数据点的值。只读 [`IDoubleChartValue`](../idoublechartvalue)。 |
-| [XValue](../../aspose.slides.charts/ichartdatapoint/xvalue) { get; } | 返回图表数据点的 x 值。只读 [`IStringOrDoubleChartValue`](../istringordoublechartvalue)。 |
-| [YValue](../../aspose.slides.charts/ichartdatapoint/yvalue) { get; } | 返回图表数据点的 y 值。只读 [`IDoubleChartValue`](../idoublechartvalue)。 |
+| [SizeValue](../../aspose.slides.charts/ichartdatapoint/sizevalue) { get; } | 获取图表数据点的尺寸值。用于 Treemap 和 Sunburst 图表。只读 [`IDoubleChartValue`](../idoublechartvalue)。 |
+| [Value](../../aspose.slides.charts/ichartdatapoint/value) { get; } | 获取图表数据点的值。只读 [`IDoubleChartValue`](../idoublechartvalue)。 |
+| [XValue](../../aspose.slides.charts/ichartdatapoint/xvalue) { get; } | 获取图表数据点的 x 值。只读 [`IStringOrDoubleChartValue`](../istringordoublechartvalue)。 |
+| [YValue](../../aspose.slides.charts/ichartdatapoint/yvalue) { get; } | 获取图表数据点的 y 值。只读 [`IDoubleChartValue`](../idoublechartvalue)。 |
 
 ## 方法
 
@@ -44,10 +48,10 @@ public interface IChartDataPoint : IActualLayout
 | [GetAutomaticDataPointColor](../../aspose.slides.charts/ichartdatapoint/getautomaticdatapointcolor)() | 返回基于系列索引、数据点索引、ParentSeriesGroup.IsColorVaried 属性和图表样式的自动颜色。如果 FillType 等于 NotDefined，则默认使用此颜色。 |
 | [Remove](../../aspose.slides.charts/ichartdatapoint/remove)() | 从图表系列中移除 DataPoint。 |
 
-### 另请参见
+### 另请参阅
 
-* 接口 [IActualLayout](../iactuallayout)
-* 命名空间 [Aspose.Slides.Charts](../../aspose.slides.charts)
-* 程序集 [Aspose.Slides](../../)
+* interface [IActualLayout](../iactuallayout)
+* namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

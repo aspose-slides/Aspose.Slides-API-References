@@ -3,10 +3,10 @@ title: SensitivityLabelAssignmentType
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar tilldelningsmetoden för känslighetsetiketten.
 type: docs
-weight: 9800
+weight: 9820
 url: /sv/aspose.slides/sensitivitylabelassignmenttype/
 ---
-## SensitivityLabelAssignmentType enum
+## SensitivityLabelAssignmentType uppräkning
 
 Representerar tilldelningsmetoden för känslighetsetiketten.
 
@@ -18,10 +18,10 @@ public enum SensitivityLabelAssignmentType
 
 | Namn | Värde | Beskrivning |
 | --- | --- | --- |
-| Standard | `0` | Använd för alla känslighetsetiketter som inte applicerades direkt av användaren. Detta inkluderar alla standardetiketter, automatiskt tillämpade etiketter. |
-| Privileged | `1` | Använd för alla känslighetsetiketter som applicerades direkt av användaren. Detta inkluderar alla manuellt tillämpade känslighetsetiketter samt rekommenderad eller obligatorisk märkning eller någon funktion där användaren bestämmer vilken känslighetsetikett som ska tillämpas. |
+| Standard | `0` | Använd för alla känslighetsetiketter som inte applicerades direkt av användaren. Detta inkluderar alla standardetiketter och automatiskt applicerade etiketter. |
+| Privileged | `1` | Använd för alla känslighetsetiketter som applicerades direkt av användaren. Detta inkluderar alla manuellt applicerade känslighetsetiketter samt rekommenderad eller obligatorisk märkning eller någon funktion där användaren bestämmer vilken känslighetsetikett som ska appliceras. |
 
-### Se också
+### Se även
 
 * namnrymd [Aspose.Slides](../../aspose.slides)
 * samling [Aspose.Slides](../../)

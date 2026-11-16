@@ -1,31 +1,31 @@
 ---
 title: IMathAccentFactory
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: गणितीय उच्चारण बनाने की अनुमति देता है
+description: गणितीय एक्सेंट बनाने की अनुमति देता है
 type: docs
-weight: 8090
+weight: 8110
 url: /hi/aspose.slides.mathtext/imathaccentfactory/
 ---
 ## IMathAccentFactory इंटरफ़ेस
 
-एक गणितीय उच्चारण बनाने की अनुमति देता है
+गणितीय एक्सेंट बनाने की अनुमति देता है
 
 ```csharp
 public interface IMathAccentFactory
 ```
 
-## मेथड्स
+## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [CreateMathAccent](../../aspose.slides.mathtext/imathaccentfactory/createmathaccent#createmathaccent)(IMathElement) | निर्दिष्ट गणितीय तत्व पर डिफ़ॉल्ट उच्चारण वर्ण मान के साथ लागू होने वाला गणितीय उच्चारण बनाता है |
-| [CreateMathAccent](../../aspose.slides.mathtext/imathaccentfactory/createmathaccent#createmathaccent_1)(IMathElement, char) | निर्दिष्ट गणितीय तत्व पर लागू होने वाला गणितीय उच्चारण बनाता है |
+| [CreateMathAccent](../../aspose.slides.mathtext/imathaccentfactory/createmathaccent#createmathaccent)(IMathElement) | निर्दिष्ट गणितीय तत्व पर लागू होते हुए डिफ़ॉल्ट एक्सेंट कैरेक्टर मान के साथ एक गणितीय एक्सेंट बनाता है |
+| [CreateMathAccent](../../aspose.slides.mathtext/imathaccentfactory/createmathaccent#createmathaccent_1)(IMathElement, char) | निर्दिष्ट गणितीय तत्व पर लागू होते हुए एक गणितीय एक्सेंट बनाता है |
 
-### टिप्पणी
+### टिप्पणियाँ
 
 COM संगतता के लिए
 
-### देखें
+### अन्य देखें
 
 * नेमस्पेस [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * असेंबली [Aspose.Slides](../../)

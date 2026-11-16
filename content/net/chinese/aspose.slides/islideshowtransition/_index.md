@@ -1,9 +1,9 @@
 ---
 title: ISlideShowTransition
-second_title: Aspose.Sildes .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 表示幻灯片放映过渡。
 type: docs
-weight: 7080
+weight: 7100
 url: /zh/aspose.slides/islideshowtransition/
 ---
 ## ISlideShowTransition 接口
@@ -18,20 +18,20 @@ public interface ISlideShowTransition
 
 | 名称 | 描述 |
 | --- | --- |
-| [AdvanceAfter](../../aspose.slides/islideshowtransition/advanceafter) { get; set; } | 此属性指定幻灯片放映是否在一定时间后移动到下一张幻灯片。Read/write Boolean. |
-| [AdvanceAfterTime](../../aspose.slides/islideshowtransition/advanceaftertime) { get; set; } | 指定过渡应在多少毫秒后开始。此设置可与 advClick 属性一起使用。如果未指定此属性，则假定不会自动前进。Read-write UInt32. |
-| [AdvanceOnClick](../../aspose.slides/islideshowtransition/advanceonclick) { get; set; } | 指定鼠标单击是否会前进幻灯片。如果未指定此属性，则默认值为 true。Read-write Boolean. |
-| [Duration](../../aspose.slides/islideshowtransition/duration) { get; set; } | 获取或设置幻灯片过渡效果的持续时间（以毫秒为单位）。Read/write Int32. |
-| [Sound](../../aspose.slides/islideshowtransition/sound) { get; set; } | 返回或设置嵌入的音频数据。Read-write [`IAudio`](../iaudio). |
-| [SoundIsBuiltIn](../../aspose.slides/islideshowtransition/soundisbuiltin) { get; set; } | 指定此声音是否为内置声音。如果此属性设置为 true，则会提醒生成应用程序检查此声音在其内置声音列表中指定的 name 属性，并可以根据需要显示自定义名称或 UI。Read-write Boolean. |
-| [SoundLoop](../../aspose.slides/islideshowtransition/soundloop) { get; set; } | 此属性指定声音是否会循环，直到幻灯片放映中出现下一个声音事件。Read-write Boolean. |
-| [SoundMode](../../aspose.slides/islideshowtransition/soundmode) { get; set; } | 设置或返回幻灯片过渡的声音模式。Read-write [`TransitionSoundMode`](../../aspose.slides.slideshow/transitionsoundmode). |
-| [SoundName](../../aspose.slides/islideshowtransition/soundname) { get; set; } | 指定过渡声音的人类可读名称。必须为 [`Sound`](./sound) 属性赋值，以获取或设置声音名称。Read-write String. |
-| [Speed](../../aspose.slides/islideshowtransition/speed) { get; set; } | 指定从当前幻灯片过渡到下一张幻灯片时使用的过渡速度。Read-write [`TransitionSpeed`](../../aspose.slides.slideshow/transitionspeed). |
-| [Type](../../aspose.slides/islideshowtransition/type) { get; set; } | 过渡类型。Read-write [`TransitionType`](../../aspose.slides.slideshow/transitiontype). |
-| [Value](../../aspose.slides/islideshowtransition/value) { get; } | 幻灯片放映过渡值。Read-only [`ITransitionValueBase`](../../aspose.slides.slideshow/itransitionvaluebase). |
+| [AdvanceAfter](../../aspose.slides/islideshowtransition/advanceafter) { get; set; } | 此属性指定幻灯片放映在特定时间后是否自动移动到下一张幻灯片。读取/写入 Boolean。 |
+| [AdvanceAfterTime](../../aspose.slides/islideshowtransition/advanceaftertime) { get; set; } | 指定过渡应在多少毫秒后开始。此设置可与 advClick 属性一起使用。如果未指定此属性，则假定不会自动前进。读写 UInt32。 |
+| [AdvanceOnClick](../../aspose.slides/islideshowtransition/advanceonclick) { get; set; } | 指定鼠标点击是否会前进幻灯片。如果未指定此属性，则默认为 true。读写 Boolean。 |
+| [Duration](../../aspose.slides/islideshowtransition/duration) { get; set; } | 获取或设置幻灯片过渡效果的持续时间（毫秒）。读取/写入 Int32。 |
+| [Sound](../../aspose.slides/islideshowtransition/sound) { get; set; } | 返回或设置嵌入的音频数据。读写 [`IAudio`](../iaudio)。 |
+| [SoundIsBuiltIn](../../aspose.slides/islideshowtransition/soundisbuiltin) { get; set; } | 指定此声音是否为内置声音。如果此属性设置为 true，则生成应用程序将检查为此声音在其内置声音列表中指定的 name 属性，并可相应呈现自定义名称或 UI。读写 Boolean。 |
+| [SoundLoop](../../aspose.slides/islideshowtransition/soundloop) { get; set; } | 此属性指定声音是否会循环播放，直至幻灯片放映中出现下一个声音事件。读写 Boolean。 |
+| [SoundMode](../../aspose.slides/islideshowtransition/soundmode) { get; set; } | 设置或返回幻灯片过渡的声音模式。读写 [`TransitionSoundMode`](../../aspose.slides.slideshow/transitionsoundmode)。 |
+| [SoundName](../../aspose.slides/islideshowtransition/soundname) { get; set; } | 为过渡的声音指定可读的人类可读名称。必须为 [`Sound`](./sound) 属性赋值才能获取或设置声音名称。读写 String。 |
+| [Speed](../../aspose.slides/islideshowtransition/speed) { get; set; } | 指定从当前幻灯片切换到下一张时使用的过渡速度。读写 [`TransitionSpeed`](../../aspose.slides.slideshow/transitionspeed)。 |
+| [Type](../../aspose.slides/islideshowtransition/type) { get; set; } | 过渡类型。读写 [`TransitionType`](../../aspose.slides.slideshow/transitiontype)。 |
+| [Value](../../aspose.slides/islideshowtransition/value) { get; } | 幻灯片放映过渡值。只读 [`ITransitionValueBase`](../../aspose.slides.slideshow/itransitionvaluebase)。 |
 
-### 另请参阅
+### 另见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

@@ -1,9 +1,9 @@
 ---
 title: IColumn
-second_title: Aspose.Sildes für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Stellt eine Spalte in einer Tabelle dar.
 type: docs
-weight: 5520
+weight: 5540
 url: /de/aspose.slides/icolumn/
 ---
 ## IColumn Schnittstelle
@@ -18,10 +18,10 @@ public interface IColumn : IBulkTextFormattable, ICellCollection
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIBulkTextFormattable](../../aspose.slides/icolumn/asibulktextformattable) { get; } | Ermöglicht das Abrufen der Basisschnittstelle IBulkTextFormattable. Nur lesbar [`IBulkTextFormattable`](../ibulktextformattable). |
-| [AsICellCollection](../../aspose.slides/icolumn/asicellcollection) { get; } | Ermöglicht das Abrufen der Basisschnittstelle ICellCollection. Nur lesbar [`ICellCollection`](../icellcollection). |
-| [ColumnFormat](../../aspose.slides/icolumn/columnformat) { get; } | Gibt das ColumnFormat-Objekt zurück, das Formatierungseigenschaften für diese Spalte enthält. Nur lesbar [`IColumnFormat`](../icolumnformat). |
-| [Width](../../aspose.slides/icolumn/width) { get; set; } | Gibt die Breite einer Spalte zurück oder legt sie fest. Lesen/Schreiben Double. |
+| [AsIBulkTextFormattable](../../aspose.slides/icolumn/asibulktextformattable) { get; } | Ermöglicht das Abrufen der Basis-Schnittstelle IBulkTextFormattable. Nur-Lesen [`IBulkTextFormattable`](../ibulktextformattable). |
+| [AsICellCollection](../../aspose.slides/icolumn/asicellcollection) { get; } | Ermöglicht das Abrufen der Basis-Schnittstelle ICellCollection. Nur-Lesen [`ICellCollection`](../icellcollection). |
+| [ColumnFormat](../../aspose.slides/icolumn/columnformat) { get; } | Gibt das Objekt ColumnFormat zurück, das Formatierungseigenschaften für diese Spalte enthält. Nur-Lesen [`IColumnFormat`](../icolumnformat). |
+| [Width](../../aspose.slides/icolumn/width) { get; set; } | Gibt die Breite einer Spalte zurück oder setzt sie. Lesen/Schreiben Double. |
 
 ### Siehe auch
 

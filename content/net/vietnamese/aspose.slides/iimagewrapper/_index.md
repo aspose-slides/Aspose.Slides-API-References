@@ -1,14 +1,14 @@
 ---
 title: IImageWrapper
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Bộ bao bọc System.Drawing.Image cho giao diện COM.
+second_title: Tham khảo API .NET của Aspose.Sildes
+description: Bọc System.Drawing.Image cho giao diện COM.
 type: docs
-weight: 6170
+weight: 6190
 url: /vi/aspose.slides/iimagewrapper/
 ---
 ## IImageWrapper giao diện
 
-System.Drawing.Image wrapper for COM interface.
+System.Drawing.Image wrapper cho giao diện COM.
 
 ```csharp
 public interface IImageWrapper : IDisposable
@@ -16,19 +16,19 @@ public interface IImageWrapper : IDisposable
 
 ## Thuộc tính
 
-| Name | Description |
+| Tên | Mô tả |
 | --- | --- |
-| [AsIDisposable](../../aspose.slides/iimagewrapper/asidisposable) { get; } | Trả về giao diện IDisposable. Chỉ đọc IDisposable. |
-| [ImageSource](../../aspose.slides/iimagewrapper/imagesource) { get; } | Lấy Image (chỉ đọc). |
-| [Size](../../aspose.slides/iimagewrapper/size) { get; } | Lấy chiều rộng và chiều cao, tính bằng pixel, của Image (chỉ đọc) [`Size`](./size). |
+| [AsIDisposable](../../aspose.slides/iimagewrapper/asidisposable) { get; } | Trả về giao diện IDisposable. Chỉ-đọc IDisposable. |
+| [ImageSource](../../aspose.slides/iimagewrapper/imagesource) { get; } | Lấy Image. Chỉ-đọc Image. |
+| [Size](../../aspose.slides/iimagewrapper/size) { get; } | Lấy chiều rộng và chiều cao, tính bằng pixel, của Image. Chỉ-đọc [`Size`](./size). |
 
 ## Phương thức
 
-| Name | Description |
+| Tên | Mô tả |
 | --- | --- |
-| [Save](../../aspose.slides/iimagewrapper/save#save_1)(string) | Lưu Image tới tệp được chỉ định |
-| [Save](../../aspose.slides/iimagewrapper/save#save)(Stream, PPImageFormat) | Lưu Image vào luồng được chỉ định ở định dạng được chỉ định. |
-| [Save](../../aspose.slides/iimagewrapper/save#save_2)(string, PPImageFormat) | Lưu Image tới tệp được chỉ định ở định dạng được chỉ định. |
+| [Save](../../aspose.slides/iimagewrapper/save#save_1)(string) | Lưu Image vào tệp được chỉ định |
+| [Save](../../aspose.slides/iimagewrapper/save#save)(Stream, PPImageFormat) | Lưu Image vào stream được chỉ định theo định dạng đã chỉ định. |
+| [Save](../../aspose.slides/iimagewrapper/save#save_2)(string, PPImageFormat) | Lưu Image vào tệp được chỉ định theo định dạng đã chỉ định. |
 
 ### Xem thêm
 

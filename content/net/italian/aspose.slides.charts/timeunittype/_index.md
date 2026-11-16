@@ -1,12 +1,12 @@
 ---
 title: TimeUnitType
-second_title: Aspose.Sildes per il riferimento API .NET
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta l'unità di base per l'asse delle categorie
 type: docs
-weight: 2460
+weight: 2480
 url: /it/aspose.slides.charts/timeunittype/
 ---
-## enumerazione TimeUnitType
+## Enumerazione TimeUnitType
 
 Rappresenta l'unità di base per l'asse delle categorie
 
@@ -19,9 +19,9 @@ public enum TimeUnitType
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
 | None | `0` | I valori verranno visualizzati così come sono. |
-| Days | `1` | Specifica che i dati del grafico saranno mostrati in giorni. |
-| Months | `2` | Specifica che i dati del grafico saranno mostrati in mesi. |
-| Years | `3` | Specifica che i dati del grafico saranno mostrati in anni. |
+| Days | `1` | Specifica che i dati del grafico verranno mostrati in giorni. |
+| Months | `2` | Specifica che i dati del grafico verranno mostrati in mesi. |
+| Years | `3` | Specifica che i dati del grafico verranno mostrati in anni. |
 
 ### Vedi anche
 

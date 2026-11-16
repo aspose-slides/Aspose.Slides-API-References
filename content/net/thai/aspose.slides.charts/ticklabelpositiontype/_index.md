@@ -1,29 +1,29 @@
 ---
 title: TickLabelPositionType
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แทนประเภทตำแหน่งของป้ายกำกับเครื่องหมาย tick บนแกนที่ระบุ
+description: แสดงประเภทตำแหน่งของป้ายกำกับเครื่องหมายติ๊กบนแกนที่ระบุ
 type: docs
-weight: 2440
+weight: 2460
 url: /th/aspose.slides.charts/ticklabelpositiontype/
 ---
 ## TickLabelPositionType enumeration
 
-แทนประเภทตำแหน่งของป้ายกำกับเครื่องหมาย tick บนแกนที่ระบุ
+Represents the position type of tick-mark labels on the specified axis.
 
 ```csharp
 public enum TickLabelPositionType
 ```
 
-### Values
+### ค่า
 
-| Name | Value | Description |
+| ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
-| High | `0` | ระบุว่าป้ายกำกับแกนจะอยู่ที่ด้านบนของแกนตั้งฉาก |
-| Low | `1` | ระบุว่าป้ายกำกับแกนจะอยู่ที่ด้านล่างของแกนตั้งฉาก |
-| NextTo | `2` | ระบุว่าป้ายกำกับแกนจะอยู่ถัดจากแกน |
-| None | `3` | ระบุว่าป้ายกำกับแกนจะไม่ถูกวาด |
+| High | `0` | ระบุว่าป้ายแกนควรอยู่ที่ด้านสูงของแกนตั้งฉาก |
+| Low | `1` | ระบุว่าป้ายแกนควรอยู่ที่ด้านล่างของแกนตั้งฉาก |
+| NextTo | `2` | ระบุว่าป้ายแกนควรอยู่ติดกับแกน |
+| None | `3` | ระบุว่าป้ายแกนจะไม่ถูกวาด |
 
-### See Also
+### ดูเพิ่มเติม
 
 * เนมสเปซ [Aspose.Slides.Charts](../../aspose.slides.charts)
 * แอสเซมบลี [Aspose.Slides](../../)

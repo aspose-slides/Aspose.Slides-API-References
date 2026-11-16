@@ -1,14 +1,14 @@
 ---
 title: GetEmbeddedFonts
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Trả về các phông chữ được nhúng trong bản trình chiếu
+second_title: Aspose.Sildes cho .NET API Reference
+description: Trả về các phông chữ được nhúng trong bài thuyết trình
 type: docs
-weight: 40
+weight: 50
 url: /vi/aspose.slides/ifontsmanager/getembeddedfonts/
 ---
 ## IFontsManager.GetEmbeddedFonts phương thức
 
-Trả về các phông chữ được nhúng trong bản trình chiếu
+Trả về các phông chữ được nhúng trong bài thuyết trình
 
 ```csharp
 public IFontData[] GetEmbeddedFonts()
@@ -16,7 +16,7 @@ public IFontData[] GetEmbeddedFonts()
 
 ### Giá trị trả về
 
-Phông chữ được nhúng [`IFontData`](../../ifontdata)[]
+Phông chữ nhúng [`IFontData`](../../ifontdata)[]
 
 ### Xem thêm
 

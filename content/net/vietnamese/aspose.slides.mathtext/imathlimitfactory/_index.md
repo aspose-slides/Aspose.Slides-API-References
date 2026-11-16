@@ -1,9 +1,9 @@
 ---
 title: IMathLimitFactory
-second_title: Tham chiếu API Aspose.Sildes cho .NET
+second_title: Aspose.Sildes cho .NET Tham khảo API
 description: Cho phép tạo IMathLimit
 type: docs
-weight: 8330
+weight: 8350
 url: /vi/aspose.slides.mathtext/imathlimitfactory/
 ---
 ## IMathLimitFactory giao diện
@@ -23,7 +23,7 @@ public interface IMathLimitFactory
 
 ### Ghi chú
 
-Để tương thích COM
+Đối với khả năng tương thích COM
 
 ### Xem thêm
 

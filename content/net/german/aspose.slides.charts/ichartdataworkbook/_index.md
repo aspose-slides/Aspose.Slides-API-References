@@ -1,14 +1,14 @@
 ---
 title: IChartDataWorkbook
-second_title: Aspose.Sildes für .NET API Referenz
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt Zugriff auf die eingebettete Excel-Arbeitsmappe bereit
 type: docs
-weight: 1860
+weight: 1880
 url: /de/aspose.slides.charts/ichartdataworkbook/
 ---
 ## IChartDataWorkbook Schnittstelle
 
-Stellt Zugriff auf die eingebettete Excel-Arbeitsmappe bereit
+Stellt Zugriff auf die eingebettete Excel-Arbeitsmappe bereit.
 
 ```csharp
 public interface IChartDataWorkbook
@@ -24,13 +24,13 @@ public interface IChartDataWorkbook
 
 | Name | Beschreibung |
 | --- | --- |
-| [CalculateFormulas](../../aspose.slides.charts/ichartdataworkbook/calculateformulas)() | Berechnet alle Formeln in der Arbeitsmappe und aktualisiert die entsprechenden Zellenwerte. |
-| [Clear](../../aspose.slides.charts/ichartdataworkbook/clear)(int) | Löscht alle Zellenwerte im Blatt |
-| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_2)(int, string) | Ruft die Zelle ab, die für Diagrammreihen oder Kategorien verwendet werden kann |
-| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell)(int, int, int) | Ruft die Zelle ab, die für Diagrammreihen oder Kategorien verwendet werden kann |
-| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_3)(int, string, object) | Ruft die Zelle ab, die für Diagrammreihen oder Kategorien verwendet werden kann |
-| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_4)(string, int, int) | Ruft die Zelle ab, die für Diagrammreihen oder Kategorien verwendet werden kann |
-| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_1)(int, int, int, object) | Ruft die Zelle ab, die für Diagrammreihen oder Kategorien verwendet werden kann |
+| [CalculateFormulas](../../aspose.slides.charts/ichartdataworkbook/calculateformulas)() | Berechnet alle Formeln in der Arbeitsmappe und aktualisiert die entsprechenden Zellwerte. |
+| [Clear](../../aspose.slides.charts/ichartdataworkbook/clear)(int) | Löscht alle Zellwerte im Blatt. |
+| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_2)(int, string) | Ruft die Zelle ab, die für Diagrammdatenreihen oder Kategorien verwendet werden kann. |
+| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell)(int, int, int) | Ruft die Zelle ab, die für Diagrammdatenreihen oder Kategorien verwendet werden kann. |
+| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_3)(int, string, object) | Ruft die Zelle ab, die für Diagrammdatenreihen oder Kategorien verwendet werden kann. |
+| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_4)(string, int, int) | Ruft die Zelle ab, die für Diagrammdatenreihen oder Kategorien verwendet werden kann. |
+| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_1)(int, int, int, object) | Ruft die Zelle ab, die für Diagrammdatenreihen oder Kategorien verwendet werden kann. |
 | [GetCellCollection](../../aspose.slides.charts/ichartdataworkbook/getcellcollection)(string, bool) | Ruft die Menge von Zellen ab. |
 
 ### Siehe auch

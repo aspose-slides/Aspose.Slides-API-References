@@ -1,14 +1,14 @@
 ---
 title: TextFrameForOverriding
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Có thể chứa văn bản định dạng phong phú. Nếu thuộc tính này không null thì giá trị văn bản định dạng này sẽ ghi đè văn bản tự động tạo của nhãn dữ liệu. Văn bản tự động tạo của nhãn dữ liệu có nghĩa là văn bản được quản lý bởi các thuộc tính ShowSeriesName ShowValue ... và được định dạng bằng thuộc tính TextFormatManager.TextFormat. Chỉ đọc ITextFrameaspose.slides/itextframe.
+second_title: Aspose.Sildes cho Tham chiếu API .NET
+description: Có thể chứa văn bản định dạng phong phú. Nếu thuộc tính này không null thì giá trị văn bản định dạng này sẽ ghi đè lên văn bản tự động tạo của nhãn dữ liệu. Văn bản tự động tạo của nhãn dữ liệu có nghĩa là văn bản được quản lý bởi các thuộc tính ShowSeriesName ShowValue ... và được định dạng bằng thuộc tính TextFormatManager.TextFormat. Chỉ đọc ITextFrameaspose.slides/itextframe.
 type: docs
-weight: 130
+weight: 140
 url: /vi/aspose.slides.charts/datalabel/textframeforoverriding/
 ---
 ## DataLabel.TextFrameForOverriding thuộc tính
 
-Có thể chứa văn bản định dạng phong phú. Nếu thuộc tính này không null thì giá trị văn bản định dạng này sẽ ghi đè văn bản tự động tạo của nhãn dữ liệu. Văn bản tự động tạo của nhãn dữ liệu có nghĩa là văn bản được quản lý bởi các thuộc tính ShowSeriesName, ShowValue, ... và được định dạng bằng thuộc tính TextFormatManager.TextFormat. Chỉ đọc [`ITextFrame`](../../../aspose.slides/itextframe).
+Có thể chứa văn bản định dạng phong phú. Nếu thuộc tính này không null thì giá trị văn bản định dạng này sẽ ghi đè lên văn bản tự động tạo của nhãn dữ liệu. Văn bản tự động tạo của nhãn dữ liệu có nghĩa là văn bản được quản lý bởi các thuộc tính ShowSeriesName, ShowValue, ... và được định dạng bằng thuộc tính TextFormatManager.TextFormat. Chỉ đọc [`ITextFrame`](../../../aspose.slides/itextframe).
 
 ```csharp
 public ITextFrame TextFrameForOverriding { get; }

@@ -1,14 +1,14 @@
 ---
 title: SVGOptions
-second_title: Aspose.Sildes for .NET API 参考
-description: 表示 SVG 选项。
+second_title: Aspose.Sildes .NET API 参考
+description: 表示一个 SVG 选项。
 type: docs
-weight: 4430
+weight: 4450
 url: /zh/aspose.slides.export/svgoptions/
 ---
 ## SVGOptions 类
 
-表示 SVG 选项。
+表示一个 SVG 选项。
 
 ```csharp
 public sealed class SVGOptions : SaveOptions, ISVGOptions
@@ -16,39 +16,39 @@ public sealed class SVGOptions : SaveOptions, ISVGOptions
 
 ## 构造函数
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
 | [SVGOptions](svgoptions#constructor)() | 初始化 SVGOptions 类的新实例。 |
-| [SVGOptions](svgoptions#constructor_1)(ILinkEmbedController) | 初始化 SVGOptions 类的新实例，指定链接嵌入控制器对象。 |
+| [SVGOptions](svgoptions#constructor_1)(ILinkEmbedController) | 初始化 SVGOptions 类的新实例，并指定链接嵌入控制器对象。 |
 
 ## 属性
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
 | static [Default](../../aspose.slides.export/svgoptions/default) { get; } | 返回默认设置。只读 [`SVGOptions`](../svgoptions)。 |
-| static [Simple](../../aspose.slides.export/svgoptions/simple) { get; } | 返回用于生成最简最小 SVG 文件的设置。只读 [`SVGOptions`](../svgoptions)。 |
-| static [WYSIWYG](../../aspose.slides.export/svgoptions/wysiwyg) { get; } | 返回用于生成最精确 SVG 文件的设置。只读 [`SVGOptions`](../svgoptions)。 |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | 返回或设置在未找到源字体时使用的字体。可读写 String。 |
-| [DeletePicturesCroppedAreas](../../aspose.slides.export/svgoptions/deletepicturescroppedareas) { get; set; } | 布尔标志指示裁剪的部分是否保留在文档中。如果 true，裁剪的部分将被移除，如果 false，它们将序列化到文档中（可能导致文件更大）。 |
-| [Disable3DText](../../aspose.slides.export/svgoptions/disable3dtext) { get; set; } | 确定 SVG 中是否禁用 3D 文本。可读写 Boolean。 |
-| [DisableFontLigatures](../../aspose.slides.export/svgoptions/disablefontligatures) { get; set; } | 获取或设置一个值，指示文本是否在渲染时不使用连字。设置为 `true` 时，连字将在渲染输出中被禁用。默认情况下，此属性设置为 `false`。 |
-| [DisableGradientSplit](../../aspose.slides.export/svgoptions/disablegradientsplit) { get; set; } | 禁用 FromCornerX 和 FromCenter 渐变的拆分。可读写 Boolean。 |
-| [DisableLineEndCropping](../../aspose.slides.export/svgoptions/disablelineendcropping) { get; set; } | SVG 1.1 缺少为标记定义插入的能力。Aspose.Slides SVG 写入引擎对此问题有变通办法：它会裁剪带箭头的线段末端，从而防止线段与标记重叠。此选项可关闭该行为。可读写 Boolean。 |
-| [ExternalFontsHandling](../../aspose.slides.export/svgoptions/externalfontshandling) { get; set; } | 确定外部加载字体的处理方式。可读写 [`SvgExternalFontsHandling`](../svgexternalfontshandling)。 |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | 返回或设置渐变的视觉样式。可读写 [`GradientStyle`](../../aspose.slides/gradientstyle)。 |
-| [InkOptions](../../aspose.slides.export/svgoptions/inkoptions) { get; } | 提供控制导出文档中 Ink 对象外观的选项。只读 [`IInkOptions`](../iinkoptions)。 |
-| [JpegQuality](../../aspose.slides.export/svgoptions/jpegquality) { get; set; } | 确定 JPEG 编码质量。可读写 Int32。 |
-| [MetafileRasterizationDpi](../../aspose.slides.export/svgoptions/metafilerasterizationdpi) { get; set; } | 返回或设置元文件栅格化的最低分辨率限制。可读写 Int32。 |
-| [PicturesCompression](../../aspose.slides.export/svgoptions/picturescompression) { get; set; } | 表示图片的压缩等级。 |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 表示用于保存进度更新（以百分比）的回调对象。参见 [`IProgressCallback`](../../aspose.slides/iprogresscallback)。 |
-| [ShapeFormattingController](../../aspose.slides.export/svgoptions/shapeformattingcontroller) { get; set; } | 返回并设置一个回调接口，允许用户控制形状转换。可读写 [`ISvgShapeFormattingController`](../isvgshapeformattingcontroller)。 |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | 指定在保存演示文稿时是否跳过带有 JavaScript 调用的超链接。可读写 Boolean。默认值为 **false**。 |
-| [UseFrameRotation](../../aspose.slides.export/svgoptions/useframerotation) { get; set; } | 确定在渲染时是否对形状执行指定的旋转。可读写 Boolean。默认值为 true。 |
-| [UseFrameSize](../../aspose.slides.export/svgoptions/useframesize) { get; set; } | 确定文本框是否会包含在渲染区域中。可读写 Boolean。默认值为 false。 |
-| [VectorizeText](../../aspose.slides.export/svgoptions/vectorizetext) { get; set; } | 确定幻灯片上的文本是否保存为图形。可读写 Boolean。 |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 返回或设置一个接收警告并决定加载过程是继续还是中止的对象。可读写 [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)。 |
+| static [Simple](../../aspose.slides.export/svgoptions/simple) { get; } | 返回最简且最小的 SVG 文件生成设置。只读 [`SVGOptions`](../svgoptions)。 |
+| static [WYSIWYG](../../aspose.slides.export/svgoptions/wysiwyg) { get; } | 返回最高精度的 SVG 文件生成设置。只读 [`SVGOptions`](../svgoptions)。 |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | 返回或设置在未找到源字体时使用的字体。读写 String。 |
+| [DeletePicturesCroppedAreas](../../aspose.slides.export/svgoptions/deletepicturescroppedareas) { get; set; } | 布尔标志指示裁剪的部分是否保留在文档中。如果为 true，则裁剪的部分将被移除；如果为 false，则它们将序列化到文档中（这可能导致文件更大）。 |
+| [Disable3DText](../../aspose.slides.export/svgoptions/disable3dtext) { get; set; } | 确定 SVG 中的 3D 文本是否被禁用。读写 Boolean。 |
+| [DisableFontLigatures](../../aspose.slides.export/svgoptions/disablefontligatures) { get; set; } | 获取或设置一个值，指示文本是否在渲染时不使用连字。设置为 `true` 时，渲染输出中将禁用连字。默认情况下，此属性设置为 `false`。 |
+| [DisableGradientSplit](../../aspose.slides.export/svgoptions/disablegradientsplit) { get; set; } | 禁用 FromCornerX 和 FromCenter 渐变的拆分。读写 Boolean。 |
+| [DisableLineEndCropping](../../aspose.slides.export/svgoptions/disablelineendcropping) { get; set; } | SVG 1.1 缺乏为标记定义内缩的功能。Aspose.Slides SVG 写入引擎对此问题的解决方案是裁剪带箭头的线段末端，使线段不与标记重叠。此选项可关闭此行为。读写 Boolean。 |
+| [ExternalFontsHandling](../../aspose.slides.export/svgoptions/externalfontshandling) { get; set; } | 确定外部加载字体的处理方式。读写 [`SvgExternalFontsHandling`](../svgexternalfontshandling)。 |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | 返回或设置渐变的视觉样式。读写 [`GradientStyle`](../../aspose.slides/gradientstyle)。 |
+| [InkOptions](../../aspose.slides.export/svgoptions/inkoptions) { get; } | 提供控制导出文档中 Ink 对象外观的选项。只读 [`IInkOptions`](../iinkoptions) |
+| [JpegQuality](../../aspose.slides.export/svgoptions/jpegquality) { get; set; } | 确定 JPEG 编码质量。读写 Int32。 |
+| [MetafileRasterizationDpi](../../aspose.slides.export/svgoptions/metafilerasterizationdpi) { get; set; } | 返回或设置元文件光栅化的最低分辨率限制。读写 Int32。 |
+| [PicturesCompression](../../aspose.slides.export/svgoptions/picturescompression) { get; set; } | 表示图片压缩级别 |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 表示用于保存进度更新（百分比）的回调对象。参见 [`IProgressCallback`](../../aspose.slides/iprogresscallback)。 |
+| [ShapeFormattingController](../../aspose.slides.export/svgoptions/shapeformattingcontroller) { get; set; } | 返回并设置一个回调接口，允许用户控制形状转换。读写 [`ISvgShapeFormattingController`](../isvgshapeformattingcontroller)。 |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | 指定在保存演示文稿时是否跳过带有 JavaScript 调用的超链接。读写 Boolean。默认值为 **false**。 |
+| [UseFrameRotation](../../aspose.slides.export/svgoptions/useframerotation) { get; set; } | 确定在渲染时是否执行形状的指定旋转。读写 Boolean。默认值为 true。 |
+| [UseFrameSize](../../aspose.slides.export/svgoptions/useframesize) { get; set; } | 确定文本框是否包含在渲染区域内。读写 Boolean。默认值为 false。 |
+| [VectorizeText](../../aspose.slides.export/svgoptions/vectorizetext) { get; set; } | 确定幻灯片上的文本是否保存为图形。读写 Boolean。 |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 返回或设置一个接收警告并决定加载过程是继续还是中止的对象。读写 [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)。 |
 
-### 另请参阅
+### 参见
 
 * 类 [SaveOptions](../saveoptions)
 * 接口 [ISVGOptions](../isvgoptions)

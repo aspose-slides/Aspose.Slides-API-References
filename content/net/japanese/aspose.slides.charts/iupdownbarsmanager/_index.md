@@ -1,14 +1,14 @@
 ---
 title: IUpDownBarsManager
-second_title: Aspose.Sildes for .NET API リファレンス
-description: Line または Stock チャートの上/下バーへのアクセスを提供します。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: ラインまたは株価チャートの上下バーへのアクセスを提供します。
 type: docs
-weight: 2260
+weight: 2280
 url: /ja/aspose.slides.charts/iupdownbarsmanager/
 ---
 ## IUpDownBarsManager インターフェイス
 
-Line または Stock チャートの上/下バーへのアクセスを提供します。
+ラインまたは株価チャートの上下バーへのアクセスを提供します。
 
 ```csharp
 public interface IUpDownBarsManager
@@ -18,12 +18,12 @@ public interface IUpDownBarsManager
 
 | 名前 | 説明 |
 | --- | --- |
-| [DownBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/downbarsformat) { get; } | 下方向バーの形式を返します。読み取り専用 [`IFormat`](../iformat)。 |
-| [GapWidth](../../aspose.slides.charts/iupdownbarsmanager/gapwidth) { get; set; } | ギャップ幅を取得または設定します。読み取り/書き込み Int32。 |
-| [HasUpDownBars](../../aspose.slides.charts/iupdownbarsmanager/hasupdownbars) { get; set; } | チャートに上/下バーがあるかどうかを決定します。読み取り/書き込み Boolean。 |
-| [UpBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/upbarsformat) { get; } | 上方向バーの形式を返します。読み取り専用 [`IFormat`](../iformat)。 |
+| [DownBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/downbarsformat) { get; } | 下部バーのフォーマットを返します。読み取り専用 [`IFormat`](../iformat)。 |
+| [GapWidth](../../aspose.slides.charts/iupdownbarsmanager/gapwidth) { get; set; } | ギャップ幅を取得または設定します。読み書き Int32。 |
+| [HasUpDownBars](../../aspose.slides.charts/iupdownbarsmanager/hasupdownbars) { get; set; } | チャートに上下バーがあるかどうかを決定します。読み書き Boolean。 |
+| [UpBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/upbarsformat) { get; } | 上部バーのフォーマットを返します。読み取り専用 [`IFormat`](../iformat)。 |
 
-### 関連項目
+### 参照
 
 * 名前空間 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * アセンブリ [Aspose.Slides](../../)

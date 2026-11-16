@@ -1,14 +1,14 @@
 ---
 title: IUpDownBarsManager
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: ให้การเข้าถึงแถบขึ้น/ลงของแผนภูมิ Line หรือ Stock-chart.
+description: ให้การเข้าถึงแถบขึ้น/ลงของกราฟ Line หรือ Stock-chart.
 type: docs
-weight: 2260
+weight: 2280
 url: /th/aspose.slides.charts/iupdownbarsmanager/
 ---
 ## IUpDownBarsManager อินเทอร์เฟซ
 
-ให้การเข้าถึงแถบขึ้น/ลงของแผนภูมิ Line หรือ Stock.
+ให้การเข้าถึงแถบขึ้น/ลงของกราฟ Line หรือ Stock-chart.
 
 ```csharp
 public interface IUpDownBarsManager
@@ -19,7 +19,7 @@ public interface IUpDownBarsManager
 | ชื่อ | คำอธิบาย |
 | --- | --- |
 | [DownBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/downbarsformat) { get; } | ส่งคืนรูปแบบของแถบลง. อ่านอย่างเดียว [`IFormat`](../iformat). |
-| [GapWidth](../../aspose.slides.charts/iupdownbarsmanager/gapwidth) { get; set; } | ส่งคืนหรือกำหนดช่องว่างความกว้าง. อ่าน/เขียน Int32. |
+| [GapWidth](../../aspose.slides.charts/iupdownbarsmanager/gapwidth) { get; set; } | ส่งคืนหรือกำหนดความกว้างของช่องว่าง. อ่าน/เขียน Int32. |
 | [HasUpDownBars](../../aspose.slides.charts/iupdownbarsmanager/hasupdownbars) { get; set; } | กำหนดว่ากราฟมีแถบขึ้น/ลงหรือไม่. อ่าน/เขียน Boolean. |
 | [UpBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/upbarsformat) { get; } | ส่งคืนรูปแบบของแถบขึ้น. อ่านอย่างเดียว [`IFormat`](../iformat). |
 

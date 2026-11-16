@@ -1,12 +1,12 @@
 ---
 title: ThreeDFormat
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Representa propriedades 3-D.
 type: docs
-weight: 11490
+weight: 11510
 url: /pt/aspose.slides/threedformat/
 ---
-## ThreeDFormat classe
+## classe ThreeDFormat
 
 Representa propriedades 3-D.
 
@@ -19,16 +19,16 @@ public sealed class ThreeDFormat : PVIObject, IThreeDFormat
 | Nome | Descrição |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permite obter a interface base IPresentationComponent. Somente leitura [`IPresentationComponent`](../ipresentationcomponent). |
-| [BevelBottom](../../aspose.slides/threedformat/bevelbottom) { get; } | Retorna ou define o tipo de um chanfro 3D inferior. Somente leitura [`IShapeBevel`](../ishapebevel). |
-| [BevelTop](../../aspose.slides/threedformat/beveltop) { get; } | Retorna ou define o tipo de um chanfro 3D superior. Somente leitura [`IShapeBevel`](../ishapebevel). |
+| [BevelBottom](../../aspose.slides/threedformat/bevelbottom) { get; } | Retorna ou define o tipo de chanfradura inferior 3D. Somente leitura [`IShapeBevel`](../ishapebevel). |
+| [BevelTop](../../aspose.slides/threedformat/beveltop) { get; } | Retorna ou define o tipo de chanfradura superior 3D. Somente leitura [`IShapeBevel`](../ishapebevel). |
 | [Camera](../../aspose.slides/threedformat/camera) { get; } | Retorna ou define as configurações de uma câmera. Somente leitura [`ICamera`](../icamera). |
 | [ContourColor](../../aspose.slides/threedformat/contourcolor) { get; } | Retorna ou define a cor de um contorno. Somente leitura [`IColorFormat`](../icolorformat). |
-| [ContourWidth](../../aspose.slides/threedformat/contourwidth) { get; set; } | Retorna ou define a largura de um contorno 3D. Leitura/gravação Double. |
-| [Depth](../../aspose.slides/threedformat/depth) { get; set; } | Retorna ou define a profundidade de uma forma 3D. Leitura/gravação Double. |
+| [ContourWidth](../../aspose.slides/threedformat/contourwidth) { get; set; } | Retorna ou define a largura de um contorno 3D. Leitura/escrita Double. |
+| [Depth](../../aspose.slides/threedformat/depth) { get; set; } | Retorna ou define a profundidade de uma forma 3D. Leitura/escrita Double. |
 | [ExtrusionColor](../../aspose.slides/threedformat/extrusioncolor) { get; } | Retorna ou define a cor de uma extrusão. Somente leitura [`IColorFormat`](../icolorformat). |
-| [ExtrusionHeight](../../aspose.slides/threedformat/extrusionheight) { get; set; } | Retorna ou define a altura de um efeito de extrusão. Leitura/gravação Double. |
+| [ExtrusionHeight](../../aspose.slides/threedformat/extrusionheight) { get; set; } | Retorna ou define a altura de um efeito de extrusão. Leitura/escrita Double. |
 | [LightRig](../../aspose.slides/threedformat/lightrig) { get; } | Retorna ou define o tipo de uma luz. Somente leitura [`ILightRig`](../ilightrig). |
-| [Material](../../aspose.slides/threedformat/material) { get; set; } | Retorna ou define o tipo de um material. Leitura/gravação [`MaterialPresetType`](../materialpresettype). |
+| [Material](../../aspose.slides/threedformat/material) { get; set; } | Retorna ou define o tipo de um material. Leitura/escrita [`MaterialPresetType`](../materialpresettype). |
 
 ## Métodos
 
@@ -40,7 +40,7 @@ public sealed class ThreeDFormat : PVIObject, IThreeDFormat
 
 ### Exemplos
 
-O exemplo a seguir mostra como adicionar uma forma 3D em uma Apresentação do PowerPoint.
+O exemplo a seguir mostra como adicionar forma 3D em uma apresentação PowerPoint.
 
 ```csharp
 [C#]
@@ -66,7 +66,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-O exemplo a seguir mostra como aplicar efeito de gradiente a uma forma 3D em uma Apresentação do PowerPoint.
+O exemplo a seguir mostra como aplicar efeito Gradiente a uma forma 3D em uma apresentação PowerPoint.
 
 ```csharp
 [C#]
@@ -96,7 +96,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-O exemplo a seguir mostra como aplicar efeito 3D em texto. Para criar um texto 3D é possível usar o efeito de transformação WordArt.
+O exemplo a seguir mostra como aplicar efeito 3D ao texto. Para criar um texto 3D, é possível usar o efeito de transformação WordArt.
 
 ```csharp
 [C#]
@@ -110,7 +110,7 @@ using (Presentation pres = new Presentation())
 	// Configure FillFormat.FillType como FillType.NoFill
 	shape.FillFormat.FillType = FillType.NoFill;
     shape.LineFormat.FillFormat.FillType = FillType.NoFill;
-	// Configure Porção de TextFrame e configure as propriedades de PortionFormat
+	// Configure a Portion de TextFrame e configure as propriedades de PortionFormat
 	Portion portion = (Portion)shape.TextFrame.Paragraphs[0].Portions[0];
     portion.PortionFormat.FillFormat.FillType = FillType.Pattern;
     portion.PortionFormat.FillFormat.PatternFormat.ForeColor.Color = Color.DarkOrange;
@@ -120,7 +120,7 @@ using (Presentation pres = new Presentation())
     ITextFrame textFrame = shape.TextFrame;
     // configure o efeito de transformação WordArt "Arch Up"
     textFrame.TextFrameFormat.Transform = TextShapeType.ArchUp;
-	// Defina as propriedades de ThreeDFormat de ITextFrame
+	// Defina as propriedades de ThreeDFormat do ITextFrame
 	textFrame.TextFrameFormat.ThreeDFormat.ExtrusionHeight = 3.5f;
     textFrame.TextFrameFormat.ThreeDFormat.Depth = 3;
     textFrame.TextFrameFormat.ThreeDFormat.Material = MaterialPresetType.Plastic;

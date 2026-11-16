@@ -1,14 +1,14 @@
 ---
 title: FontsLoader
 second_title: Aspose.Sildes för .NET API-referens
-description: Klass för att ladda anpassade typsnitt som definierats av användaren. Bör användas innan några presentationsobjekt skapas.
+description: Klass för att ladda anpassade typsnitt som definierats av användaren. Ska användas innan några presentationsobjekt skapas.
 type: docs
-weight: 4930
+weight: 4950
 url: /sv/aspose.slides/fontsloader/
 ---
 ## FontsLoader klass
 
-Klass för att ladda anpassade typsnitt som definierats av användaren. Bör användas innan några presentationsobjekt skapas.
+Klass för att ladda anpassade typsnitt som definierats av användaren. Ska användas innan några presentationsobjekt skapas.
 
 ```csharp
 public sealed class FontsLoader : IFontsLoader
@@ -19,7 +19,7 @@ public sealed class FontsLoader : IFontsLoader
 | Namn | Beskrivning |
 | --- | --- |
 | static [ClearCache](../../aspose.slides/fontsloader/clearcache)() | Frigör alla anpassade typsnitt som definierats av användaren |
-| static [GetFontFolders](../../aspose.slides/fontsloader/getfontfolders)() | Hämtar typsnittsmappar. Returnerar mappar som har lagts till med LoadExternalFonts-metoden samt systemtypsnittsmappar |
+| static [GetFontFolders](../../aspose.slides/fontsloader/getfontfolders)() | Hämtar typsnittsmappningar. Returnerar mappar som har lagts till med LoadExternalFonts-metoden samt systemtypsnittsmappar |
 | static [LoadExternalFont](../../aspose.slides/fontsloader/loadexternalfont)(byte[]) | Lägger till typsnitt från binärdata |
 | static [LoadExternalFonts](../../aspose.slides/fontsloader/loadexternalfonts)(string[]) | Lägger till ytterligare mappar för att söka efter typsnitt. |
 

@@ -3,7 +3,7 @@ title: IVbaReferenceCollection
 second_title: Aspose.Sildes for .NET API リファレンス
 description: VBA プロジェクト参照のコレクションを表します。
 type: docs
-weight: 11580
+weight: 11600
 url: /ja/aspose.slides.vba/ivbareferencecollection/
 ---
 ## IVbaReferenceCollection インターフェイス
@@ -24,7 +24,7 @@ public interface IVbaReferenceCollection : IGenericCollection<IVbaReference>
 
 | 名前 | 説明 |
 | --- | --- |
-| [Add](../../aspose.slides.vba/ivbareferencecollection/add)(IVbaReference) | 新しい参照を参照コレクションに追加します |
+| [Add](../../aspose.slides.vba/ivbareferencecollection/add)(IVbaReference) | 新しい参照を参照コレクションに追加します。 |
 
 ### 参照
 

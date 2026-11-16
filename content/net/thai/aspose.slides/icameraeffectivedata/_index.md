@@ -1,14 +1,14 @@
 ---
 title: ICameraEffectiveData
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งมีคุณสมบัติของกล้องที่มีผลบังคับใช้
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งบรรจุคุณสมบัติกล้องที่ใช้ได้จริง.
 type: docs
-weight: 5420
+weight: 5440
 url: /th/aspose.slides/icameraeffectivedata/
 ---
 ## ICameraEffectiveData อินเทอร์เฟซ
 
-วัตถุไม่เปลี่ยนแปลงที่มีคุณสมบัติกล้องที่มีผลบังคับใช้
+อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งบรรจุคุณสมบัติกล้องที่ใช้ได้จริง.
 
 ```csharp
 public interface ICameraEffectiveData
@@ -19,14 +19,14 @@ public interface ICameraEffectiveData
 | ชื่อ | คำอธิบาย |
 | --- | --- |
 | [CameraType](../../aspose.slides/icameraeffectivedata/cameratype) { get; } | ประเภทของกล้อง. อ่านอย่างเดียว [`CameraPresetType`](../camerapresettype). |
-| [FieldOfViewAngle](../../aspose.slides/icameraeffectivedata/fieldofviewangle) { get; } | มุมมองของกล้อง (0-180 deg, field of View). อ่านอย่างเดียว Single. |
+| [FieldOfViewAngle](../../aspose.slides/icameraeffectivedata/fieldofviewangle) { get; } | FOV ของกล้อง (0-180 องศา, มุมมอง). อ่านอย่างเดียว Single. |
 | [Zoom](../../aspose.slides/icameraeffectivedata/zoom) { get; } | การซูมของกล้อง (ค่าบวกเป็นเปอร์เซ็นต์). อ่านอย่างเดียว Single. |
 
-## วิธีการ
+## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [GetRotation](../../aspose.slides/icameraeffectivedata/getrotation)() | การหมุนจะถูกกำหนดโดยการใช้พิกัดละติจูด, พิกัดลองจิจูด, และการหมุนรอบแกนตามพิกัดละติจูดและลองจิจูด. องค์ประกอบแรกในอาร์เรย์ผลลัพธ์ - ละติจูด, องค์ประกอบที่สอง - ลองจิจูด, องค์ประกอบที่สาม - การหมุน. คืนค่า null หากไม่มีการหมุนที่กำหนด |
+| [GetRotation](../../aspose.slides/icameraeffectivedata/getrotation)() | การหมุนกำหนดโดยการใช้พิกัดละติจูด, พิกัดลองจิจูด, และการหมุนรอบแกนตามพิกัดละติจูดและลองจิจูด. ตัวแรกในอาเรย์ผลลัพธ์ - ละติจูด, ตัวที่สอง - ลองจิจูด, ตัวที่สาม - การหมุน. คืนค่า null หากไม่มีการหมุนที่กำหนด. |
 
 ### หมายเหตุ
 

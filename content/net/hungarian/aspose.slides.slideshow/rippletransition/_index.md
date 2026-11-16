@@ -1,9 +1,9 @@
 ---
 title: RippleTransition
-second_title: Aspose.Sildes .NET API Referenciája
+second_title: Aspose.Sildes .NET API referencia
 description: Ripple diavetítés átmeneti hatás.
 type: docs
-weight: 10290
+weight: 10310
 url: /hu/aspose.slides.slideshow/rippletransition/
 ---
 ## RippleTransition osztály
@@ -20,12 +20,12 @@ public class RippleTransition : TransitionValueBase, IRippleTransition
 | --- | --- |
 | [Direction](../../aspose.slides.slideshow/rippletransition/direction) { get; set; } | Az átmenet iránya. Olvasás/írás [`TransitionCornerAndCenterDirectionType`](../transitioncornerandcenterdirectiontype). |
 
-## Módszerek
+## Metódusok
 
 | Név | Leírás |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Megállapítja, hogy a két TransitionValueBase példány egyenlő-e. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Hash függvényként szolgál egy adott típushoz, amely alkalmas hash algoritmusokban és olyan adatstruktúrákban, mint egy hash tábla. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Hash függvényként szolgál egy adott típushoz, amely alkalmas hash algoritmusokban és adatstruktúrákban, például hash táblában való használatra. |
 
 ### Lásd még
 

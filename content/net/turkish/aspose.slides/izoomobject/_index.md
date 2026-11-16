@@ -1,9 +1,9 @@
 ---
 title: IZoomObject
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes .NET API Referansı
 description: Bir slayttaki Zoom nesnesini temsil eder.
 type: docs
-weight: 7410
+weight: 7430
 url: /tr/aspose.slides/izoomobject/
 ---
 ## IZoomObject arayüz
@@ -18,12 +18,12 @@ public interface IZoomObject : IGraphicalObject
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIGraphicalObject](../../aspose.slides/izoomobject/asigraphicalobject) { get; } | Temel IGraphicalObject arayüzünü almayı sağlar. Yalnızca okunur [`IGraphicalObject`](../igraphicalobject). |
-| [ImageType](../../aspose.slides/izoomobject/imagetype) { get; set; } | Bir zoom nesnesinin görüntü tipini alır veya ayarlar. Okuma/yazma [`ZoomImageType`](../zoomimagetype). Varsayılan değer: Preview |
-| [ReturnToParent](../../aspose.slides/izoomobject/returntoparent) { get; set; } | Slayt gösterisinde gezinme davranışını alır veya ayarlar. Okuma/yazma Boolean. Varsayılan değer: false |
+| [AsIGraphicalObject](../../aspose.slides/izoomobject/asigraphicalobject) { get; } | Temel IGraphicalObject arayüzünü almaya izin verir. Yalnızca okuma [`IGraphicalObject`](../igraphicalobject). |
+| [ImageType](../../aspose.slides/izoomobject/imagetype) { get; set; } | Zoom nesnesinin görüntü türünü alır veya ayarlar. Okuma/yazma [`ZoomImageType`](../zoomimagetype). Varsayılan değer: Preview |
+| [ReturnToParent](../../aspose.slides/izoomobject/returntoparent) { get; set; } | Slayt gösterisindeki gezinme davranışını alır veya ayarlar. Okuma/yazma Boolean. Varsayılan değer: false |
 | [ShowBackground](../../aspose.slides/izoomobject/showbackground) { get; set; } | Zoom'un hedef slaydın arka planını kullanıp kullanmayacağını belirten değeri alır veya ayarlar. Okuma/yazma Boolean. Varsayılan değer: true |
-| [TransitionDuration](../../aspose.slides/izoomobject/transitionduration) { get; set; } | Zoom ile slayt arasındaki geçiş süresini alır veya ayarlar. Okuma/yazma Single. Varsayılan değer: 1.0f |
-| [ZoomImage](../../aspose.slides/izoomobject/zoomimage) { get; set; } | Zoom nesnesi için resmi alır veya ayarlar. Okuma/yazma [`IPPImage`](../ippimage). |
+| [TransitionDuration](../../aspose.slides/izoomobject/transitionduration) { get; set; } | Zoom ve slayt arasındaki geçiş süresini alır veya ayarlar. Okuma/yazma Single. Varsayılan değer: 1.0f |
+| [ZoomImage](../../aspose.slides/izoomobject/zoomimage) { get; set; } | Zoom nesnesi için görüntüyü alır veya ayarlar. Okuma/yazma [`IPPImage`](../ippimage). |
 
 ### Ayrıca Bakınız
 

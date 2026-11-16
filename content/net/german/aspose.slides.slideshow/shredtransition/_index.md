@@ -3,7 +3,7 @@ title: ShredTransition
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Shred-Folienübergangseffekt.
 type: docs
-weight: 10300
+weight: 10320
 url: /de/aspose.slides.slideshow/shredtransition/
 ---
 ## ShredTransition Klasse
@@ -18,15 +18,15 @@ public class ShredTransition : TransitionValueBase, IShredTransition
 
 | Name | Beschreibung |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/shredtransition/direction) { get; set; } | Richtung des Übergangs. Lese/Schreib [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [Pattern](../../aspose.slides.slideshow/shredtransition/pattern) { get; set; } | Gibt die Form der während des Übergangs verwendeten Visualisierungen an. Lese/Schreib [`TransitionShredPattern`](../transitionshredpattern). |
+| [Direction](../../aspose.slides.slideshow/shredtransition/direction) { get; set; } | Richtung des Übergangs. Lesen/Schreiben [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
+| [Pattern](../../aspose.slides.slideshow/shredtransition/pattern) { get; set; } | Gibt die Form der während des Übergangs verwendeten Visualisierungen an. Lesen/Schreiben [`TransitionShredPattern`](../transitionshredpattern). |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Bestimmt, ob die beiden TransitionValueBase-Instanzen gleich sind. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Dient als Hashfunktion für einen bestimmten Typ, geeignet für den Einsatz in Hash-Algorithmen und Datenstrukturen wie einer Hashtabelle. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Dient als Hash-Funktion für einen bestimmten Typ und ist geeignet für den Einsatz in Hash-Algorithmus- und Datenstrukturen wie einer Hashtabelle. |
 
 ### Siehe auch
 

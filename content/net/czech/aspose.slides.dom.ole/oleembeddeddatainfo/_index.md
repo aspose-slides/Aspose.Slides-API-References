@@ -1,14 +1,14 @@
 ---
 title: OleEmbeddedDataInfo
 second_title: Aspose.Sildes pro .NET API Reference
-description: Representuje informaci o vložených datech pro OLE objekt.
+description: Reprezentuje informaci o vložených datech pro objekt OLE.
 type: docs
-weight: 2760
+weight: 2780
 url: /cs/aspose.slides.dom.ole/oleembeddeddatainfo/
 ---
 ## OleEmbeddedDataInfo třída
 
-Reprezentuje informaci o vložených datech pro OLE objekt.
+Reprezentuje informaci o vložených datech pro objekt OLE.
 
 ```csharp
 public class OleEmbeddedDataInfo : IOleEmbeddedDataInfo
@@ -16,17 +16,17 @@ public class OleEmbeddedDataInfo : IOleEmbeddedDataInfo
 
 ## Konstruktory
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
-| [OleEmbeddedDataInfo](oleembeddeddatainfo#constructor)() | Vytvoří novou informaci o vložených datech pro OLE objekt. |
-| [OleEmbeddedDataInfo](oleembeddeddatainfo#constructor_1)(byte[], string) | Vytvoří novou instanci informace o vložených datech pro OLE objekt. Data souboru vloženého OLE objektu Byte[]. Přípona souboru pro aktuální vložený OLE objekt String. |
+| [OleEmbeddedDataInfo](oleembeddeddatainfo#constructor)() | Vytvoří novou informaci o vložených datech pro objekt OLE. |
+| [OleEmbeddedDataInfo](oleembeddeddatainfo#constructor_1)(byte[], string) | Vytvoří novou instanci informace o vložených datech pro objekt OLE. Data souboru vloženého objektu OLE Byte[].Přípona souboru pro aktuální vložený objekt OLE String. |
 
 ## Vlastnosti
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
-| [EmbeddedFileData](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfiledata) { get; } | Vrací data souboru vloženého OLE objektu Pouze pro čtení Byte[]. |
-| [EmbeddedFileExtension](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfileextension) { get; } | Vrací příponu souboru pro aktuální vložený OLE objekt Pouze pro čtení String. |
+| [EmbeddedFileData](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfiledata) { get; } | Vrací data souboru vloženého objektu OLE Pouze pro čtení Byte[]. |
+| [EmbeddedFileExtension](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfileextension) { get; } | Vrací příponu souboru pro aktuální vložený objekt OLE Pouze pro čtení String. |
 
 ### Viz také
 

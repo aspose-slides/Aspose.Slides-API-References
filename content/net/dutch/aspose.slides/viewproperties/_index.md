@@ -3,7 +3,7 @@ title: ViewProperties
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Presentatiebrede weergave-eigenschappen.
 type: docs
-weight: 11740
+weight: 11760
 url: /nl/aspose.slides/viewproperties/
 ---
 ## ViewProperties klasse
@@ -18,12 +18,12 @@ public class ViewProperties : IViewProperties
 
 | Naam | Beschrijving |
 | --- | --- |
-| [GridSpacing](../../aspose.slides/viewproperties/gridspacing) { get; set; } | Geeft de rasterafstand die moet worden gebruikt voor het raster onderliggend aan het presentatiedocument, in punten, terug of stelt deze in. Lezen/Schrijven Single. |
-| [LastView](../../aspose.slides/viewproperties/lastview) { get; set; } | Specificeert de weergavemodus die werd gebruikt toen het presentatiedocument voor het laatst werd opgeslagen. Lezen/Schrijven [`ViewType`](../viewtype). |
-| [NormalViewProperties](../../aspose.slides/viewproperties/normalviewproperties) { get; } | Representeert normale weergave-eigenschappen. De normale weergave bestaat uit drie inhoudsgebieden: de dia zelf, een zij-inhoudsgebied en een onder-inhoudsgebied. Alleen-lezen [`INormalViewProperties`](../inormalviewproperties). |
-| [NotesViewProperties](../../aspose.slides/viewproperties/notesviewproperties) { get; } | Specificeert algemene weergave-eigenschappen geassocieerd met de notitie-weergavemodus. Alleen-lezen [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
-| [ShowComments](../../aspose.slides/viewproperties/showcomments) { get; set; } | Specificeert of de dia-commentaren moeten worden weergegeven. Lezen/Schrijven [`NullableBool`](../nullablebool). |
-| [SlideViewProperties](../../aspose.slides/viewproperties/slideviewproperties) { get; } | Specificeert algemene weergave-eigenschappen geassocieerd met de dia-weergavemodus. Alleen-lezen [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
+| [GridSpacing](../../aspose.slides/viewproperties/gridspacing) { get; set; } | Retourneert of stelt de rasterafstand in die moet worden gebruikt voor het raster onderliggend aan het presentatiedocument, in punten. Read/write Single. |
+| [LastView](../../aspose.slides/viewproperties/lastview) { get; set; } | Specificeert de weergavemodus die werd gebruikt toen het presentatiedocument voor het laatst werd opgeslagen. Read/write [`ViewType`](../viewtype). |
+| [NormalViewProperties](../../aspose.slides/viewproperties/normalviewproperties) { get; } | Stelt de normale weergave-eigenschappen voor. De normale weergave bestaat uit drie inhoudsgebieden: de dia zelf, een zijinhoudsgebied en een onderinhoudsgebied. Read-only [`INormalViewProperties`](../inormalviewproperties). |
+| [NotesViewProperties](../../aspose.slides/viewproperties/notesviewproperties) { get; } | Specificeert algemene weergave-eigenschappen geassocieerd met de notitie-weergavemodus. Read-only [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
+| [ShowComments](../../aspose.slides/viewproperties/showcomments) { get; set; } | Specificeert of de dia-commentaren moeten worden weergegeven. Read/write [`NullableBool`](../nullablebool). |
+| [SlideViewProperties](../../aspose.slides/viewproperties/slideviewproperties) { get; } | Specificeert algemene weergave-eigenschappen geassocieerd met de dia-weergavemodus. Read-only [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
 
 ### Zie ook
 

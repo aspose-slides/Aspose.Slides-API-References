@@ -1,9 +1,9 @@
 ---
 title: EffectFactory
 second_title: Aspose.Sildes for .NET API リファレンス
-description: エフェクトを作成できます
+description: エフェクトの作成を可能にします
 type: docs
-weight: 2970
+weight: 2990
 url: /ja/aspose.slides.effects/effectfactory/
 ---
 ## EffectFactory クラス
@@ -31,19 +31,19 @@ public class EffectFactory : IEffectFactory
 | 名前 | 説明 |
 | --- | --- |
 | [CreateGlow](../../aspose.slides.effects/effectfactory/createglow)() | Glow エフェクトを作成します。 |
-| [CreateInnerShadow](../../aspose.slides.effects/effectfactory/createinnershadow)() | Inner shafow エフェクトを作成します。 |
-| [CreateOuterShadow](../../aspose.slides.effects/effectfactory/createoutershadow)() | Outer shadow エフェクトを作成します。 |
-| [CreatePresetShadow](../../aspose.slides.effects/effectfactory/createpresetshadow)() | Preset shadow エフェクトを作成します。 |
-| [CreateReflection](../../aspose.slides.effects/effectfactory/createreflection)() | Reflection エフェクトを作成します。 |
-| [CreateSoftEdge](../../aspose.slides.effects/effectfactory/createsoftedge)() | Soft Edge エフェクトを作成します。 |
+| [CreateInnerShadow](../../aspose.slides.effects/effectfactory/createinnershadow)() | 内部シャドウエフェクトを作成します。 |
+| [CreateOuterShadow](../../aspose.slides.effects/effectfactory/createoutershadow)() | 外部シャドウエフェクトを作成します。 |
+| [CreatePresetShadow](../../aspose.slides.effects/effectfactory/createpresetshadow)() | プリセットシャドウエフェクトを作成します。 |
+| [CreateReflection](../../aspose.slides.effects/effectfactory/createreflection)() | 反射エフェクトを作成します。 |
+| [CreateSoftEdge](../../aspose.slides.effects/effectfactory/createsoftedge)() | ソフトエッジエフェクトを作成します。 |
 
 ### 備考
 
 COM 互換性のためです。
 
-### 関連項目
+### 参照
 
-* インターフェイス [IEffectFactory](../ieffectfactory)
+* インターフェース [IEffectFactory](../ieffectfactory)
 * 名前空間 [Aspose.Slides.Effects](../../aspose.slides.effects)
 * アセンブリ [Aspose.Slides](../../)
 

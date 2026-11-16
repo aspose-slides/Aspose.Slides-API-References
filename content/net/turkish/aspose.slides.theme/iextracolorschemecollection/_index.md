@@ -1,14 +1,14 @@
 ---
 title: IExtraColorSchemeCollection
-second_title: Aspose.Slides için .NET API Referansı
-description: Ek renk şemalarının bir koleksiyonunu temsil eder.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Ek renk şemalarından oluşan bir koleksiyonu temsil eder.
 type: docs
-weight: 11220
+weight: 11240
 url: /tr/aspose.slides.theme/iextracolorschemecollection/
 ---
 ## IExtraColorSchemeCollection arayüz
 
-Ek renk şemalarının bir koleksiyonunu temsil eder.
+Ek renk şemalarından oluşan bir koleksiyonu temsil eder.
 
 ```csharp
 public interface IExtraColorSchemeCollection : IGenericCollection<IExtraColorScheme>
@@ -18,7 +18,7 @@ public interface IExtraColorSchemeCollection : IGenericCollection<IExtraColorSch
 
 | Ad | Açıklama |
 | --- | --- |
-| [Item](../../aspose.slides.theme/iextracolorschemecollection/item) { get; } | Belirtilen dizindeki bir renk şemasını döndürür. Yalnızca okuma [`IExtraColorScheme`](../iextracolorscheme). |
+| [Item](../../aspose.slides.theme/iextracolorschemecollection/item) { get; } | İndex ile bir renk şeması döndürür. Salt okunur [`IExtraColorScheme`](../iextracolorscheme). |
 
 ### Ayrıca Bakınız
 

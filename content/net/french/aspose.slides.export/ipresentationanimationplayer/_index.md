@@ -1,9 +1,9 @@
 ---
 title: IPresentationAnimationPlayer
-second_title: Référence API Aspose.Sildes pour .NET
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Représente un lecteur de l'animation. Animations générées par PresentationAnimationsGenerator./presentationanimationsgenerator via son événement NewAnimation./presentationanimationsgenerator/newanimation.
 type: docs
-weight: 4030
+weight: 4050
 url: /fr/aspose.slides.export/ipresentationanimationplayer/
 ---
 ## IPresentationAnimationPlayer interface
@@ -24,7 +24,7 @@ public interface IPresentationAnimationPlayer
 
 | Nom | Description |
 | --- | --- |
-| [GetFrame](../../aspose.slides.export/ipresentationanimationplayer/getframe)() | Obtient la trame pour la position temporelle actuelle précédemment définie avec la méthode [`SetTimePosition`](./settimeposition). |
+| [GetFrame](../../aspose.slides.export/ipresentationanimationplayer/getframe)() | Obtient l'image pour la position temporelle actuelle précédemment définie avec la méthode [`SetTimePosition`](./settimeposition). |
 | [SetTimePosition](../../aspose.slides.export/ipresentationanimationplayer/settimeposition)(double) | Définit la position temporelle de l'animation dans le [`Duration`](./duration). |
 
 ### Exemples

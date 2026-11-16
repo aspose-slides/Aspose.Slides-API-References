@@ -1,9 +1,9 @@
 ---
 title: HtmlFormatter
-second_title: Referencia de API Aspose.Sildes para .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa una plantilla de archivo HTML.
 type: docs
-weight: 3870
+weight: 3890
 url: /es/aspose.slides.export/htmlformatter/
 ---
 ## Clase HtmlFormatter
@@ -18,9 +18,9 @@ public sealed class HtmlFormatter : IHtmlFormatter
 
 | Nombre | Descripción |
 | --- | --- |
-| static [CreateCustomFormatter](../../aspose.slides.export/htmlformatter/createcustomformatter)(IHtmlFormattingController) | Crea y devuelve un formateador HTML para generación personalizada de HTML impulsada por devoluciones de llamada. |
-| static [CreateDocumentFormatter](../../aspose.slides.export/htmlformatter/createdocumentformatter)(string, bool) | Crea y devuelve un formateador HTML para una vista de documento simple que consta de secuencias de diapositivas una debajo de otra. |
-| static [CreateSlideShowFormatter](../../aspose.slides.export/htmlformatter/createslideshowformatter)(string, bool) | Crea y devuelve un formateador HTML para un HTML de presentación de diapositivas simple que muestra las diapositivas una tras otra. |
+| static [CreateCustomFormatter](../../aspose.slides.export/htmlformatter/createcustomformatter)(IHtmlFormattingController) | Crea y devuelve un formateador HTML para la generación de HTML personalizada basada en callbacks. |
+| static [CreateDocumentFormatter](../../aspose.slides.export/htmlformatter/createdocumentformatter)(string, bool) | Crea y devuelve un formateador HTML para una vista de documento simple que consiste en secuencias de diapositivas una debajo de otra. |
+| static [CreateSlideShowFormatter](../../aspose.slides.export/htmlformatter/createslideshowformatter)(string, bool) | Crea y devuelve un formateador HTML para una presentación de diapositivas simple que muestra las diapositivas una tras otra. |
 
 ### Ver también
 

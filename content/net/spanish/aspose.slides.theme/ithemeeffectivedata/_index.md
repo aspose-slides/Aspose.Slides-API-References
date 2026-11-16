@@ -1,9 +1,9 @@
 ---
 title: IThemeEffectiveData
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Objeto inmutable que contiene propiedades efectivas del tema.
+description: Objeto inmutable que contiene las propiedades efectivas del tema.
 type: docs
-weight: 11380
+weight: 11400
 url: /es/aspose.slides.theme/ithemeeffectivedata/
 ---
 ## IThemeEffectiveData interfaz
@@ -18,7 +18,7 @@ public interface IThemeEffectiveData
 
 | Nombre | Descripción |
 | --- | --- |
-| [FontScheme](../../aspose.slides.theme/ithemeeffectivedata/fontscheme) { get; } | Devuelve el esquema de fuente. Solo lectura [`IFontSchemeEffectiveData`](../ifontschemeeffectivedata). |
+| [FontScheme](../../aspose.slides.theme/ithemeeffectivedata/fontscheme) { get; } | Devuelve el esquema de fuentes. Solo lectura [`IFontSchemeEffectiveData`](../ifontschemeeffectivedata). |
 | [FormatScheme](../../aspose.slides.theme/ithemeeffectivedata/formatscheme) { get; } | Devuelve el esquema de formato de forma. Solo lectura [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata). |
 
 ## Métodos
@@ -27,7 +27,7 @@ public interface IThemeEffectiveData
 | --- | --- |
 | [GetColorScheme](../../aspose.slides.theme/ithemeeffectivedata/getcolorscheme)(Color) | Devuelve el esquema de color. |
 
-### Comentarios
+### Observaciones
 
 Esta interfaz se usa junto con la interfaz [`ITheme`](../itheme) para devolver valores de formato efectivos con la herencia aplicada.
 

@@ -1,14 +1,14 @@
 ---
 title: MathematicalTextFactory
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: MathematicalText 要素の作成を可能にします
 type: docs
-weight: 9070
+weight: 9090
 url: /ja/aspose.slides.mathtext/mathematicaltextfactory/
 ---
 ## MathematicalTextFactory クラス
 
-MathematicalText 要素の作成を可能にします
+MathematicalText 要素を作成できます
 
 ```csharp
 public class MathematicalTextFactory : IMathematicalTextFactory
@@ -18,22 +18,22 @@ public class MathematicalTextFactory : IMathematicalTextFactory
 
 | 名前 | 説明 |
 | --- | --- |
-| [MathematicalTextFactory](mathematicaltextfactory)() | 既定のコンストラクタです。 |
+| [MathematicalTextFactory](mathematicaltextfactory)() | デフォルトコンストラクタです。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext)() | 空のMathematicalText要素を作成します |
-| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext_1)(char) | 指定された値でMathematicalText要素を作成します |
-| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext_2)(string) | 指定された値で空のMathematicalText要素を作成します |
-| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext_3)(string, IPortionFormat) | 指定された値と書式設定プロパティで空のMathematicalText要素を作成します |
+| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext)() | 空の数学テキスト要素を作成します |
+| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext_1)(char) | 指定された値で数学テキスト要素を作成します |
+| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext_2)(string) | 指定された値で空の数学テキスト要素を作成します |
+| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext_3)(string, IPortionFormat) | 指定された値と IPortionFormat の書式設定プロパティで空の数学テキスト要素を作成します |
 
 ### 備考
 
 COM 互換性のため
 
-### 関連項目
+### 参照
 
 * インターフェイス [IMathematicalTextFactory](../imathematicaltextfactory)
 * 名前空間 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

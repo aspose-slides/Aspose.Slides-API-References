@@ -1,9 +1,9 @@
 ---
 title: LineJoinStyle
-second_title: Tham khảo API Aspose.Sildes cho .NET
-description: Biểu thị kiểu nối các đường.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Đại diện cho kiểu nối các đường.
 type: docs
-weight: 7800
+weight: 7820
 url: /vi/aspose.slides/linejoinstyle/
 ---
 ## LineJoinStyle liệt kê

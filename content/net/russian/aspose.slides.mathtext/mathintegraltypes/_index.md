@@ -3,10 +3,10 @@ title: MathIntegralTypes
 second_title: Aspose.Sildes для .NET справочника API
 description: Математические интегральные типы
 type: docs
-weight: 8790
+weight: 8810
 url: /ru/aspose.slides.mathtext/mathintegraltypes/
 ---
-## Перечисление MathIntegralTypes
+## MathIntegralTypes перечисление
 
 Математические интегральные типы
 

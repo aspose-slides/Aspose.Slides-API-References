@@ -3,12 +3,12 @@ title: ControlPropertiesCollection
 second_title: Aspose.Sildes สำหรับ .NET API Reference
 description: คอลเลกชันของคุณสมบัติ AcitveX.
 type: docs
-weight: 2710
+weight: 2730
 url: /th/aspose.slides/controlpropertiescollection/
 ---
 ## ControlPropertiesCollection คลาส
 
-คอลเลกชันของคุณสมบัติ AcitveX
+คอลเลกชันของคุณสมบัติ AcitveX.
 
 ```csharp
 public class ControlPropertiesCollection : IControlPropertiesCollection
@@ -26,10 +26,10 @@ public class ControlPropertiesCollection : IControlPropertiesCollection
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Add](../../aspose.slides/controlpropertiescollection/add)(string, string) | เพิ่มคุณสมบัติไปยังคอลเลกชัน. |
+| [Add](../../aspose.slides/controlpropertiescollection/add)(string, string) | เพิ่มคุณสมบัติลงในคอลเลกชัน. |
 | [Clear](../../aspose.slides/controlpropertiescollection/clear)() | ลบคุณสมบัติทั้งหมด. |
-| [GetEnumerator](../../aspose.slides/controlpropertiescollection/getenumerator)() | คืนค่า enumerator ที่วนซ้ำผ่านคอลเลกชัน. |
-| [Remove](../../aspose.slides/controlpropertiescollection/remove)(string) | ลบคุณสมบัติที่มีชื่อระบุ. |
+| [GetEnumerator](../../aspose.slides/controlpropertiescollection/getenumerator)() | คืนค่า enumerator ที่ทำการวนซ้ำผ่านคอลเลกชัน. |
+| [Remove](../../aspose.slides/controlpropertiescollection/remove)(string) | ลบคุณสมบัติที่มีชื่อที่ระบุ. |
 
 ### ดูเพิ่มเติม
 

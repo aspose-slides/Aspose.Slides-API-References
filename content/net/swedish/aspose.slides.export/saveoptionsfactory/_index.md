@@ -3,7 +3,7 @@ title: SaveOptionsFactory
 second_title: Aspose.Sildes för .NET API-referens
 description: Tillåter att skapa instanser av sparalternativ
 type: docs
-weight: 4460
+weight: 4480
 url: /sv/aspose.slides.export/saveoptionsfactory/
 ---
 ## SaveOptionsFactory klass
@@ -24,7 +24,7 @@ public class SaveOptionsFactory : ISaveOptionsFactory
 
 | Namn | Beskrivning |
 | --- | --- |
-| [CreatePptxOptions](../../aspose.slides.export/saveoptionsfactory/createpptxoptions)() | Skapar PPTX-sparalternativ. |
+| [CreatePptxOptions](../../aspose.slides.export/saveoptionsfactory/createpptxoptions)() | Skapar PPTX sparalternativ. |
 
 ### Anmärkningar
 

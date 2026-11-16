@@ -1,9 +1,9 @@
 ---
 title: IAnimationTimeLine
-second_title: Tài liệu tham chiếu API Aspose.Sildes cho .NET
+second_title: Aspose.Sildes cho .NET Tham chiếu API
 description: Biểu diễn dòng thời gian của hoạt ảnh.
 type: docs
-weight: 5200
+weight: 5220
 url: /vi/aspose.slides/ianimationtimeline/
 ---
 ## IAnimationTimeLine giao diện
@@ -19,10 +19,10 @@ public interface IAnimationTimeLine
 | Tên | Mô tả |
 | --- | --- |
 | [InteractiveSequences](../../aspose.slides/ianimationtimeline/interactivesequences) { get; } | Trả về tập hợp các chuỗi tương tác. Các chuỗi này có thể chứa chỉ các hiệu ứng bằng "click on shape" với hình dạng mục tiêu được chỉ định. Chỉ đọc [`ISequenceCollection`](../../aspose.slides.animation/isequencecollection). |
-| [MainSequence](../../aspose.slides/ianimationtimeline/mainsequence) { get; } | Trả về chuỗi chính có thể chứa chỉ tập hợp các hiệu ứng chính. Chỉ đọc [`ISequence`](../../aspose.slides.animation/isequence). |
+| [MainSequence](../../aspose.slides/ianimationtimeline/mainsequence) { get; } | Trả về chuỗi chính có thể chứa chỉ bộ sưu tập hiệu ứng chính. Chỉ đọc [`ISequence`](../../aspose.slides.animation/isequence). |
 | [TextAnimationCollection](../../aspose.slides/ianimationtimeline/textanimationcollection) { get; } | Trả về tập hợp các hoạt ảnh văn bản. Chỉ đọc [`ITextAnimationCollection`](../../aspose.slides.animation/itextanimationcollection). |
 
-### Xem thêm
+### Xem Thêm
 
 * không gian tên [Aspose.Slides](../../aspose.slides)
 * tập hợp [Aspose.Slides](../../)

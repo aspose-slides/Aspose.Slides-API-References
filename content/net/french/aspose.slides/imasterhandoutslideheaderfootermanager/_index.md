@@ -1,14 +1,14 @@
 ---
 title: IMasterHandoutSlideHeaderFooterManager
-second_title: Référence API Aspose.Sildes pour .NET
-description: Représente le gestionnaire qui maintient le comportement des espaces réservés de la diapositive principale du livret, y compris l'espace réservé d'en-tête.
+second_title: Référence de l'API Aspose.Sildes pour .NET
+description: Représente le gestionnaire qui contient le comportement des espaces réservés de la diapositive principale du document d'accompagnement, y compris l'espace réservé d'en-tête.
 type: docs
-weight: 6360
+weight: 6380
 url: /fr/aspose.slides/imasterhandoutslideheaderfootermanager/
 ---
 ## IMasterHandoutSlideHeaderFooterManager interface
 
-Représente le gestionnaire qui maintient le comportement des espaces réservés de diapositive principale du livret, y compris l'espace réservé d'en-tête.
+Représente le gestionnaire qui détient le comportement des espaces réservés de la diapositive principale du document d’accompagnement, y compris l’espace réservé d’en-tête.
 
 ```csharp
 public interface IMasterHandoutSlideHeaderFooterManager : IBaseHandoutNotesSlideHeaderFooterManag

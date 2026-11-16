@@ -1,9 +1,9 @@
 ---
 title: IColorSchemeEffectiveData
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per .NET Riferimento API
 description: Oggetto immutabile che contiene le proprietà effettive dello schema di colori.
 type: docs
-weight: 11160
+weight: 11180
 url: /it/aspose.slides.theme/icolorschemeeffectivedata/
 ---
 ## IColorSchemeEffectiveData interfaccia
@@ -28,13 +28,13 @@ public interface IColorSchemeEffectiveData
 | [Dark2](../../aspose.slides.theme/icolorschemeeffectivedata/dark2) { get; } | Secondo colore scuro nello schema. Solo lettura Color. |
 | [FollowedHyperlink](../../aspose.slides.theme/icolorschemeeffectivedata/followedhyperlink) { get; } | Colore per i collegamenti ipertestuali visitati. Solo lettura Color. |
 | [Hyperlink](../../aspose.slides.theme/icolorschemeeffectivedata/hyperlink) { get; } | Colore per i collegamenti ipertestuali. Solo lettura Color. |
-| [Item](../../aspose.slides.theme/icolorschemeeffectivedata/item) { get; } | Ottiene l'elemento all'indice specificato. Solo lettura Color. |
+| [Item](../../aspose.slides.theme/icolorschemeeffectivedata/item) { get; } | Restituisce l'elemento all'indice specificato. Solo lettura Color. |
 | [Light1](../../aspose.slides.theme/icolorschemeeffectivedata/light1) { get; } | Primo colore chiaro nello schema. Solo lettura Color. |
 | [Light2](../../aspose.slides.theme/icolorschemeeffectivedata/light2) { get; } | Secondo colore chiaro nello schema. Solo lettura Color. |
 
 ### Osservazioni
 
-Questa classe è utilizzata come parte di [`IThemeEffectiveData`](../ithemeeffectivedata).
+Questa classe è usata come parte di [`IThemeEffectiveData`](../ithemeeffectivedata).
 
 ### Vedi anche
 

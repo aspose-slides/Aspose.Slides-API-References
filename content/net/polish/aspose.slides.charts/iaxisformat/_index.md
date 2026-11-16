@@ -1,9 +1,9 @@
 ---
 title: IAxisFormat
-second_title: Aspose.Sildes dla .NET Referencja API
+second_title: Aspose.Sildes dla .NET - dokumentacja API
 description: Reprezentuje właściwości formatu wykresu.
 type: docs
-weight: 1720
+weight: 1730
 url: /pl/aspose.slides.charts/iaxisformat/
 ---
 ## IAxisFormat interfejs

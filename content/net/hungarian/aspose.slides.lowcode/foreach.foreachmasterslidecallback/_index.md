@@ -1,14 +1,14 @@
 ---
 title: ForEach.ForEachMasterSlideCallback
 second_title: Aspose.Sildes a .NET API referenciához
-description: Visszahívás, amely minden egyes MasterSlide./foreach/masterslide esetén meghívásra kerül a Presentation../aspose.slides/presentation-ban.
+description: Visszahívás, amely minden egyes MasterSlide./foreach/masterslide a Presentation-ben../aspose.slides/presentation.
 type: docs
-weight: 7920
+weight: 7940
 url: /hu/aspose.slides.lowcode/foreach.foreachmasterslidecallback/
 ---
-## ForEach.ForEachMasterSlideCallback delegált
+## ForEach.ForEachMasterSlideCallback delegate
 
-Visszahívás, amely minden egyes [`MasterSlide`](../foreach/masterslide) esetén meghívásra kerül a(z) [`Presentation`](../../aspose.slides/presentation)-ban.
+A visszahívás, amely minden egyes [`MasterSlide`](../foreach/masterslide)-ra meghívásra kerül a [`Presentation`](../../aspose.slides/presentation)-ban.
 
 ```csharp
 public delegate void ForEachMasterSlideCallback(MasterSlide masterSlide, int index);
@@ -16,10 +16,10 @@ public delegate void ForEachMasterSlideCallback(MasterSlide masterSlide, int ind
 
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
-| masterSlide | MasterSlide | A jelenlegi bejárott mesterdia |
-| index | Int32 | Az aktuális mesterdia indexe |
+| masterSlide | MasterSlide | Jelenlegi iterált MasterSlide |
+| index | Int32 | Az aktuális MasterSlide indexe |
 
-### Lásd még
+### See Also
 
 * osztály [MasterSlide](../../aspose.slides/masterslide)
 * osztály [ForEach](../foreach)

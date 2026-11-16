@@ -1,14 +1,14 @@
 ---
 title: IOverridableText
 second_title: Aspose.Sildes pro .NET API Reference
-description: Představuje přepisovatelný text pro graf.
+description: Zastupuje přepisovatelný text pro graf.
 type: docs
-weight: 2180
+weight: 2200
 url: /cs/aspose.slides.charts/ioverridabletext/
 ---
 ## IOverridableText rozhraní
 
-Představuje přepisovatelný text pro graf.
+Zastupuje přepisovatelný text pro graf.
 
 ```csharp
 public interface IOverridableText : IFormattedTextContainer
@@ -16,16 +16,16 @@ public interface IOverridableText : IFormattedTextContainer
 
 ## Vlastnosti
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
-| [AsIFormattedTextContainer](../../aspose.slides.charts/ioverridabletext/asiformattedtextcontainer) { get; } | Umožňuje získat základní rozhraní IFormattedTextContainer. Pouze pro čtení [`IFormattedTextContainer`](../iformattedtextcontainer). |
-| [TextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/textframeforoverriding) { get; } | Může obsahovat bohatě formátovaný text. Pokud není tato vlastnost null, pak tato hodnota formátovaného textu přepíše automaticky generovaný text. Automaticky generovaný text je implicitní vlastností popisku dat, popisku jednotky zobrazení osy hodnot, názvu osy, názvu grafu, popisku trendové křivky. Automaticky generovaný text je formátován pomocí vlastnosti IFormattedTextContainer.TextFormat. Pouze pro čtení [`ITextFrame`](../../aspose.slides/itextframe). |
+| [AsIFormattedTextContainer](../../aspose.slides.charts/ioverridabletext/asiformattedtextcontainer) { get; } | Umožňuje získat základní rozhraní IFormattedTextContainer. Pouze ke čtení [`IFormattedTextContainer`](../iformattedtextcontainer). |
+| [TextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/textframeforoverriding) { get; } | Může obsahovat bohatě formátovaný text. Pokud tato vlastnost není null, pak tato hodnota formátovaného textu přepisuje automaticky generovaný text. Automaticky generovaný text je implicitní vlastností datové štítky, štítku jednotky zobrazení hodnotové osy, názvu osy, názvu grafu a štítku trendové čáry. Automaticky generovaný text je formátován pomocí vlastnosti IFormattedTextContainer.TextFormat. Pouze ke čtení [`ITextFrame`](../../aspose.slides/itextframe). |
 
 ## Metody
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
-| [AddTextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/addtextframeforoverriding)(string) | Inicializuje TextFrameForOverriding textem z parametru "text". Pokud je TextFrameForOverriding již inicializován, pak jednoduše změní jeho text. |
+| [AddTextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/addtextframeforoverriding)(string) | Inicializuje TextFrameForOverriding textem v parametru "text". Pokud je TextFrameForOverriding již inicializován, pak pouze změní jeho text. |
 
 ### Viz také
 

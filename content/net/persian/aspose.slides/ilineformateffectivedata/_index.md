@@ -1,55 +1,55 @@
 ---
 title: ILineFormatEffectiveData
-second_title: Aspose.Sildes برای مرجع API .NET
-description: شیء غیرقابل تغییر که شامل ویژگی‌های مؤثر قالب‌بندی خط است.
+second_title: مرجع API Aspose.Sildes برای .NET
+description: شیء غیرقابل تغییر که شامل ویژگی‌های قالب‌بندی خط مؤثر است.
 type: docs
-weight: 6320
+weight: 6340
 url: /fa/aspose.slides/ilineformateffectivedata/
 ---
 ## ILineFormatEffectiveData رابط
 
-شیء غیرقابل تغییر که شامل ویژگی‌های مؤثر قالب‌بندی خط است.
+شیء غیرقابل تغییر که شامل ویژگی‌های قالب‌بندی خط مؤثر است.
 
 ```csharp
 public interface ILineFormatEffectiveData : ILineParamSource
 ```
 
-## خصوصیات
+## ویژگی‌ها
 
 | نام | توضیح |
 | --- | --- |
-| [Alignment](../../aspose.slides/ilineformateffectivedata/alignment) { get; } | مقدار هم‌ترازی خط را برمی‌گرداند. فقط-خواندنی [`LineAlignment`](../linealignment). |
-| [AsILineParamSource](../../aspose.slides/ilineformateffectivedata/asilineparamsource) { get; } | دسترسی برای دریافت رابط پایه ILineParamSource را فراهم می‌کند. فقط-خواندنی [`ILineParamSource`](../ilineparamsource). |
-| [BeginArrowheadLength](../../aspose.slides/ilineformateffectivedata/beginarrowheadlength) { get; } | طول سرفلش در ابتدای خط را برمی‌گرداند. فقط-خواندنی [`LineArrowheadLength`](../linearrowheadlength). |
-| [BeginArrowheadStyle](../../aspose.slides/ilineformateffectivedata/beginarrowheadstyle) { get; } | سبک سرفلش در ابتدای خط را برمی‌گرداند. فقط-خواندنی [`LineArrowheadStyle`](../linearrowheadstyle). |
-| [BeginArrowheadWidth](../../aspose.slides/ilineformateffectivedata/beginarrowheadwidth) { get; } | عرض سرفلش در ابتدای خط را برمی‌گرداند. فقط-خواندنی [`LineArrowheadWidth`](../linearrowheadwidth). |
-| [CapStyle](../../aspose.slides/ilineformateffectivedata/capstyle) { get; } | سبک انتهای خط را برمی‌گرداند. فقط-خواندنی [`LineCapStyle`](../linecapstyle). |
-| [CustomDashPattern](../../aspose.slides/ilineformateffectivedata/customdashpattern) { get; } | الگوی خط تیره سفارشی را برمی‌گرداند. فقط-خواندنی Single[]. |
-| [DashStyle](../../aspose.slides/ilineformateffectivedata/dashstyle) { get; } | سبک خط تیره خط را برمی‌گرداند. فقط-خواندنی [`LineDashStyle`](../linedashstyle). |
-| [EndArrowheadLength](../../aspose.slides/ilineformateffectivedata/endarrowheadlength) { get; } | طول سرفلش در انتهای خط را برمی‌گرداند. فقط-خواندنی [`LineArrowheadLength`](../linearrowheadlength). |
-| [EndArrowheadStyle](../../aspose.slides/ilineformateffectivedata/endarrowheadstyle) { get; } | سبک سرفلش در انتهای خط را برمی‌گرداند. فقط-خواندنی [`LineArrowheadStyle`](../linearrowheadstyle). |
-| [EndArrowheadWidth](../../aspose.slides/ilineformateffectivedata/endarrowheadwidth) { get; } | عرض سرفلش در انتهای خط را برمی‌گرداند. فقط-خواندنی [`LineArrowheadWidth`](../linearrowheadwidth). |
-| [FillFormat](../../aspose.slides/ilineformateffectivedata/fillformat) { get; } | قالب پر کردن خط را برمی‌گرداند. فقط-خواندنی [`ILineFillFormatEffectiveData`](../ilinefillformateffectivedata). |
-| [JoinStyle](../../aspose.slides/ilineformateffectivedata/joinstyle) { get; } | سبک اتصال خطوط را برمی‌گرداند. فقط-خواندنی [`LineJoinStyle`](../linejoinstyle). |
-| [MiterLimit](../../aspose.slides/ilineformateffectivedata/miterlimit) { get; } | محدودیت میتر خط را برمی‌گرداند. فقط-خواندنی Single. |
-| [SketchFormat](../../aspose.slides/ilineformateffectivedata/sketchformat) { get; } | قالب طرح خط را برمی‌گرداند. فقط-خواندنی [`ISketchFormatEffectiveData`](../isketchformateffectivedata). |
-| [Style](../../aspose.slides/ilineformateffectivedata/style) { get; } | سبک خط را برمی‌گرداند. فقط-خواندنی [`LineStyle`](../linestyle). |
-| [Width](../../aspose.slides/ilineformateffectivedata/width) { get; } | عرض خط را برمی‌گرداند. فقط-خواندنی Double. |
+| [Alignment](../../aspose.slides/ilineformateffectivedata/alignment) { get; } | مقدار هم‌ترازی خط را برمی‌گرداند. فقط‌خواندنی [`LineAlignment`](../linealignment). |
+| [AsILineParamSource](../../aspose.slides/ilineformateffectivedata/asilineparamsource) { get; } | امکان دریافت رابط پایه ILineParamSource را فراهم می‌کند. فقط‌خواندنی [`ILineParamSource`](../ilineparamsource). |
+| [BeginArrowheadLength](../../aspose.slides/ilineformateffectivedata/beginarrowheadlength) { get; } | طول سرپیکان در ابتدای خط را برمی‌گرداند. فقط‌خواندنی [`LineArrowheadLength`](../linearrowheadlength). |
+| [BeginArrowheadStyle](../../aspose.slides/ilineformateffectivedata/beginarrowheadstyle) { get; } | سبک سرپیکان در ابتدای خط را برمی‌گرداند. فقط‌خواندنی [`LineArrowheadStyle`](../linearrowheadstyle). |
+| [BeginArrowheadWidth](../../aspose.slides/ilineformateffectivedata/beginarrowheadwidth) { get; } | عرض سرپیکان در ابتدای خط را برمی‌گرداند. فقط‌خواندنی [`LineArrowheadWidth`](../linearrowheadwidth). |
+| [CapStyle](../../aspose.slides/ilineformateffectivedata/capstyle) { get; } | سبک سر خط را برمی‌گرداند. فقط‌خواندنی [`LineCapStyle`](../linecapstyle). |
+| [CustomDashPattern](../../aspose.slides/ilineformateffectivedata/customdashpattern) { get; } | الگوی نقطه‌چین سفارشی را برمی‌گرداند. فقط‌خواندنی Single[]. |
+| [DashStyle](../../aspose.slides/ilineformateffectivedata/dashstyle) { get; } | استایل نقطه‌چین خط را برمی‌گرداند. فقط‌خواندنی [`LineDashStyle`](../linedashstyle). |
+| [EndArrowheadLength](../../aspose.slides/ilineformateffectivedata/endarrowheadlength) { get; } | طول سرپیکان در انتهای خط را برمی‌گرداند. فقط‌خواندنی [`LineArrowheadLength`](../linearrowheadlength). |
+| [EndArrowheadStyle](../../aspose.slides/ilineformateffectivedata/endarrowheadstyle) { get; } | سبک سرپیکان در انتهای خط را برمی‌گرداند. فقط‌خواندنی [`LineArrowheadStyle`](../linearrowheadstyle). |
+| [EndArrowheadWidth](../../aspose.slides/ilineformateffectivedata/endarrowheadwidth) { get; } | عرض سرپیکان در انتهای خط را برمی‌گرداند. فقط‌خواندنی [`LineArrowheadWidth`](../linearrowheadwidth). |
+| [FillFormat](../../aspose.slides/ilineformateffectivedata/fillformat) { get; } | قالب پر کردن خط را برمی‌گرداند. فقط‌خواندنی [`ILineFillFormatEffectiveData`](../ilinefillformateffectivedata). |
+| [JoinStyle](../../aspose.slides/ilineformateffectivedata/joinstyle) { get; } | سبک اتصال خطوط را برمی‌گرداند. فقط‌خواندنی [`LineJoinStyle`](../linejoinstyle). |
+| [MiterLimit](../../aspose.slides/ilineformateffectivedata/miterlimit) { get; } | حد مِیتر خط را برمی‌گرداند. فقط‌خواندنی Single. |
+| [SketchFormat](../../aspose.slides/ilineformateffectivedata/sketchformat) { get; } | قالب طرح خط را برمی‌گرداند. فقط‌خواندنی [`ISketchFormatEffectiveData`](../isketchformateffectivedata). |
+| [Style](../../aspose.slides/ilineformateffectivedata/style) { get; } | سبک خط را برمی‌گرداند. فقط‌خواندنی [`LineStyle`](../linestyle). |
+| [Width](../../aspose.slides/ilineformateffectivedata/width) { get; } | عرض خط را برمی‌گرداند. فقط‌خواندنی Double. |
 
 ## متدها
 
 | نام | توضیح |
 | --- | --- |
-| [Equals](../../aspose.slides/ilineformateffectivedata/equals)(ILineFormatEffectiveData) | تعیین می‌کند که آیا دو نمونه ILineFormatEffectiveData برابر هستند یا خیر. |
+| [Equals](../../aspose.slides/ilineformateffectivedata/equals)(ILineFormatEffectiveData) | تعیین می‌کند آیا دو نمونه ILineFormatEffectiveData برابر هستند یا نه. |
 
-### توضیحات
+### نکات
 
-این رابط همراه با رابط [`ILineFormat`](../ilineformat) استفاده می‌شود تا مقادیر قالب‌بندی مؤثر با اعمال وراثت را بازگرداند.
+این رابط همراه با رابط [`ILineFormat`](../ilineformat) برای برگرداندن مقادیر قالب‌بندی مؤثر با اعمال ارث‌بری استفاده می‌شود.
 
-### مراجع
+### موارد مرتبط
 
 * رابط [ILineParamSource](../ilineparamsource)
-* فضای‌نام [Aspose.Slides](../../aspose.slides)
-* اسمبلی [Aspose.Slides](../../)
+* فضای نام [Aspose.Slides](../../aspose.slides)
+* مجمع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

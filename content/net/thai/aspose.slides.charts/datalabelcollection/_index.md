@@ -1,14 +1,14 @@
 ---
 title: DataLabelCollection
-second_title: เอกสารอ้างอิง API ของ Aspose.Sildes สำหรับ .NET
-description: แสดงถึงป้ายกำกับของชุดข้อมูล.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: เป็นตัวแทนของป้ายข้อมูลของซีรีส์
 type: docs
-weight: 1560
+weight: 1570
 url: /th/aspose.slides.charts/datalabelcollection/
 ---
 ## DataLabelCollection คลาส
 
-แสดงถึงป้ายกำกับของชุดข้อมูล
+เป็นตัวแทนของป้ายข้อมูลของซีรีส์
 
 ```csharp
 public class DataLabelCollection : DomObject<ChartSeries>, IDataLabelCollection
@@ -16,23 +16,24 @@ public class DataLabelCollection : DomObject<ChartSeries>, IDataLabelCollection
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
 | [Chart](../../aspose.slides.charts/datalabelcollection/chart) { get; } | ส่งคืนแผนภูมิแม่. อ่านอย่างเดียว [`IChart`](../ichart). |
-| [Count](../../aspose.slides.charts/datalabelcollection/count) { get; } | รับจำนวนป้ายกำกับข้อมูลทั้งหมดในคอลเลกชัน. อ่านอย่างเดียว Int32. |
-| [CountOfVisibleDataLabels](../../aspose.slides.charts/datalabelcollection/countofvisibledatalabels) { get; } | รับจำนวนป้ายกำกับข้อมูลที่มองเห็นในคอลเลกชัน. อ่านอย่างเดียว Int32. |
-| [DefaultDataLabelFormat](../../aspose.slides.charts/datalabelcollection/defaultdatalabelformat) { get; } | รับรูปแบบป้ายกำกับข้อมูลเริ่มต้น. อ่านอย่างเดียว [`IDataLabelFormat`](../idatalabelformat). |
-| [IsVisible](../../aspose.slides.charts/datalabelcollection/isvisible) { get; } | False หมายความว่าป้ายกำกับข้อมูลไม่ถูกมองเห็นโดยค่าเริ่มต้น (และดังนั้นทุก Show*-flags (ShowValue, ...) ของคุณสมบัติ DefaultDataLabelFormat จะเป็น false). อ่านอย่างเดียว Boolean. |
-| [Item](../../aspose.slides.charts/datalabelcollection/item) { get; } | รับป้ายกำกับข้อมูลสำหรับจุดข้อมูลที่มีดัชนีที่ระบุ. |
-| [LeaderLinesFormat](../../aspose.slides.charts/datalabelcollection/leaderlinesformat) { get; } | แสดงรูปแบบเส้นนำของป้ายกำกับข้อมูล. อ่านอย่างเดียว [`IChartLinesFormat`](../ichartlinesformat). |
-| [ParentSeries](../../aspose.slides.charts/datalabelcollection/parentseries) { get; } | รับซีรีส์แม่. อ่านอย่างเดียว [`IChartSeries`](../ichartseries). |
+| [Count](../../aspose.slides.charts/datalabelcollection/count) { get; } | ดึงจำนวนของป้ายข้อมูลทั้งหมดในคอลเลกชัน. อ่านอย่างเดียว Int32. |
+| [CountOfVisibleDataLabels](../../aspose.slides.charts/datalabelcollection/countofvisibledatalabels) { get; } | ดึงจำนวนของป้ายข้อมูลที่มองเห็นได้ในคอลเลกชัน. อ่านอย่างเดียว Int32. |
+| [DefaultDataLabelFormat](../../aspose.slides.charts/datalabelcollection/defaultdatalabelformat) { get; } | ดึงรูปแบบป้ายข้อมูลเริ่มต้น. อ่านอย่างเดียว [`IDataLabelFormat`](../idatalabelformat). |
+| [DefaultLabelShapeType](../../aspose.slides.charts/datalabelcollection/defaultlabelshapetype) { get; set; } | ดึงหรือกำหนดประเภทรูปร่างเริ่มต้นสำหรับป้ายข้อมูล. ส่งคืน NotDefined หากไม่มีรูปร่างที่กำหนด. |
+| [IsVisible](../../aspose.slides.charts/datalabelcollection/isvisible) { get; } | False หมายถึงป้ายข้อมูลจะไม่แสดงโดยค่าเริ่มต้น (และดังนั้นแถบ Show*-flags (ShowValue, ...) ของพร็อพเพอร์ตี DefaultDataLabelFormat จะเป็น false ทั้งหมด). อ่านอย่างเดียว Boolean. |
+| [Item](../../aspose.slides.charts/datalabelcollection/item) { get; } | ดึงป้ายข้อมูลสำหรับจุดข้อมูลที่มีดัชนีที่ระบุ. |
+| [LeaderLinesFormat](../../aspose.slides.charts/datalabelcollection/leaderlinesformat) { get; } | เป็นตัวแทนรูปแบบเส้นนำของป้ายข้อมูล. อ่านอย่างเดียว [`IChartLinesFormat`](../ichartlinesformat). |
+| [ParentSeries](../../aspose.slides.charts/datalabelcollection/parentseries) { get; } | ดึงชุดข้อมูลแม่. อ่านอย่างเดียว [`IChartSeries`](../ichartseries). |
 
-## เมธอด
+## วิธีการ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [GetEnumerator](../../aspose.slides.charts/datalabelcollection/getenumerator)() | ส่งคืนตัวทำซ้ำที่วนซ้ำผ่านคอลเลกชัน. |
-| [Hide](../../aspose.slides.charts/datalabelcollection/hide)() | ทำให้ป้ายกำกับข้อมูลซ่อนโดยค่าเริ่มต้นโดยตั้งค่าทุก Show*-flags (ShowValue, ...) ของคุณสมบัติ DefaultDataLabelFormat เป็นสถานะ false. IsVisible จะเป็น false หลังจากนี้. |
+| [GetEnumerator](../../aspose.slides.charts/datalabelcollection/getenumerator)() | ส่งคืน enumerator ที่ทำการวนซ้ำคอลเลกชัน. |
+| [Hide](../../aspose.slides.charts/datalabelcollection/hide)() | ทำให้ป้ายข้อมูลถูกซ่อนไว้โดยค่าเริ่มต้นโดยตั้งค่า Show*-flags (ShowValue, ...) ทั้งหมดของพร็อพเพอร์ตี DefaultDataLabelFormat เป็นสถานะ false. IsVisible จะเป็น false หลังจากนี้. |
 | [IndexOf](../../aspose.slides.charts/datalabelcollection/indexof)(IDataLabel) | ส่งคืนดัชนีของ DataLabel ที่ระบุในคอลเลกชัน. |
 
 ### ดูเพิ่มเติม

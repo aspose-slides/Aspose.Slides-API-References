@@ -1,9 +1,9 @@
 ---
 title: SideDirectionTransition
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla .NET – Referencja API
 description: Efekt przejścia slajdu w kierunku bocznym.
 type: docs
-weight: 10310
+weight: 10330
 url: /pl/aspose.slides.slideshow/sidedirectiontransition/
 ---
 ## SideDirectionTransition klasa
@@ -24,10 +24,10 @@ public class SideDirectionTransition : TransitionValueBase, ISideDirectionTransi
 
 | Nazwa | Opis |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Określa, czy dwa wystąpienia TransitionValueBase są równe. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Służy jako funkcja skrótu dla określonego typu, odpowiednia do użycia w algorytmach haszujących i strukturach danych, takich jak tablica mieszająca. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Określa, czy dwie instancje TransitionValueBase są równe. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Służy jako funkcja skrótu dla określonego typu, odpowiednia do użycia w algorytmach haszujących i strukturach danych, takich jak tablica haszująca. |
 
-### Zobacz także
+### Zobacz też
 
 * klasa [TransitionValueBase](../transitionvaluebase)
 * interfejs [ISideDirectionTransition](../isidedirectiontransition)

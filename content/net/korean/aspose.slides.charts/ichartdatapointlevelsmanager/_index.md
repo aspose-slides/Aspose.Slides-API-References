@@ -1,12 +1,12 @@
 ---
 title: IChartDataPointLevelsManager
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 데이터 포인트 레벨의 컨테이너입니다. Treeamp 및 Sunburst 시리즈에 적용됩니다. 데이터 포인트 레벨 인덱싱은 0부터 시작합니다.
 type: docs
-weight: 1850
+weight: 1870
 url: /ko/aspose.slides.charts/ichartdatapointlevelsmanager/
 ---
-## IChartDataPointLevelsManager 인터페이스
+## IChartDataPointLevelsManager interface
 
 데이터 포인트 레벨의 컨테이너입니다. Treeamp 및 Sunburst 시리즈에 적용됩니다. 데이터 포인트 레벨 인덱싱은 0부터 시작합니다.
 
@@ -21,7 +21,7 @@ public interface IChartDataPointLevelsManager
 | [Count](../../aspose.slides.charts/ichartdatapointlevelsmanager/count) { get; } | 데이터 포인트 레벨 수를 반환합니다. |
 | [Item](../../aspose.slides.charts/ichartdatapointlevelsmanager/item) { get; } | 정의된 레벨에 대한 IChartDataPointLevel 객체를 반환합니다. |
 
-### 참고
+### 참조
 
 * 네임스페이스 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 어셈블리 [Aspose.Slides](../../)

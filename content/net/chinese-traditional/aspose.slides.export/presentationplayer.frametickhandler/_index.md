@@ -1,14 +1,14 @@
 ---
 title: PresentationPlayer.FrameTickHandler
-second_title: Aspose.Sildes for .NET API 參考
-description: 表示 FrameTick./presentationplayer/frametick 事件的框架滴答處理程序。
+second_title: Aspose.Sildes .NET API 參考
+description: 表示 FrameTick./presentationplayer/frametick 事件的框架計時處理程式。
 type: docs
-weight: 4400
+weight: 4420
 url: /zh-hant/aspose.slides.export/presentationplayer.frametickhandler/
 ---
 ## PresentationPlayer.FrameTickHandler 委派
 
-表示 [`FrameTick`](../presentationplayer/frametick) 事件的框架滴答處理程序。
+表示 [`FrameTick`](../presentationplayer/frametick) 事件的框架計時處理程式。
 
 ```csharp
 public delegate void FrameTickHandler(PresentationPlayer sender, FrameTickEventArgs args);
@@ -16,8 +16,8 @@ public delegate void FrameTickHandler(PresentationPlayer sender, FrameTickEventA
 
 | 參數 | 類型 | 說明 |
 | --- | --- | --- |
-| sender | PresentationPlayer | 框架滴答事件的發送者。 |
-| args | FrameTickEventArgs | 框架滴答參數。 |
+| sender | PresentationPlayer | 框架計時事件的發送者。 |
+| args | FrameTickEventArgs | 框架計時參數。 |
 
 ### 另請參閱
 

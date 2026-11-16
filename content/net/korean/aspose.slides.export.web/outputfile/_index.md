@@ -3,12 +3,12 @@ title: OutputFile
 second_title: Aspose.Sildes for .NET API 참조
 description: 출력 파일을 나타냅니다.
 type: docs
-weight: 4650
+weight: 4670
 url: /ko/aspose.slides.export.web/outputfile/
 ---
 ## OutputFile 클래스
 
-파일을 나타냅니다.
+출력 파일을 나타냅니다.
 
 ```csharp
 public abstract class OutputFile : IOutputFile
@@ -18,7 +18,7 @@ public abstract class OutputFile : IOutputFile
 
 | 이름 | 설명 |
 | --- | --- |
-| abstract [Write](../../aspose.slides.export.web/outputfile/write)(Stream) | 스트림에 파일 내용을 씁니다. |
+| abstract [Write](../../aspose.slides.export.web/outputfile/write)(Stream) | 파일 내용을 스트림에 씁니다. |
 
 ### 참고
 

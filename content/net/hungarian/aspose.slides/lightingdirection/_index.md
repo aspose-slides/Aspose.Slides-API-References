@@ -1,20 +1,20 @@
 ---
 title: LightingDirection
-second_title: Aspose.Sildes .NET API Referenciája
-description: A fényirányokat meghatározó konstansok.
+second_title: Aspose.Sildes .NET API-referencia
+description: Az állandók, amelyek a fény irányait határozzák meg.
 type: docs
-weight: 7710
+weight: 7730
 url: /hu/aspose.slides/lightingdirection/
 ---
 ## LightingDirection enumeráció
 
-A fényirányokat meghatározó konstansok.
+Az állandók, amelyek a fény irányait határozzák meg.
 
 ```csharp
 public enum LightingDirection
 ```
 
-### Értékek
+### Values
 
 | Név | Érték | Leírás |
 | --- | --- | --- |

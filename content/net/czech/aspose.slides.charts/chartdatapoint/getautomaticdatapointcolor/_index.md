@@ -1,14 +1,14 @@
 ---
 title: GetAutomaticDataPointColor
-second_title: Aspose.Sildes pro .NET referenční příručka API
-description: Vrací automatickou barvu datového bodu na základě indexu řady, indexu datového bodu, vlastnosti ParentSeriesGroup.IsColorVaried a stylu grafu. Tato barva se používá jako výchozí, pokud je FillType roven NotDefined.
+second_title: Aspose.Sildes pro .NET - reference API
+description: Vrací automatickou barvu datového bodu na základě indexu série, indexu datového bodu, vlastnosti ParentSeriesGroup.IsColorVaried a stylu grafu. Tato barva je použita jako výchozí, pokud je FillType roven NotDefined.
 type: docs
-weight: 220
+weight: 260
 url: /cs/aspose.slides.charts/chartdatapoint/getautomaticdatapointcolor/
 ---
 ## ChartDataPoint.GetAutomaticDataPointColor metoda
 
-Vrací automatickou barvu datového bodu na základě indexu řady, indexu datového bodu, vlastnosti ParentSeriesGroup.IsColorVaried a stylu grafu. Tato barva se používá jako výchozí, pokud je FillType rovno NotDefined.
+Vrací automatickou barvu datového bodu na základě indexu řady, indexu datového bodu, vlastnosti ParentSeriesGroup.IsColorVaried a stylu grafu. Tato barva je použita jako výchozí, pokud je FillType roven NotDefined.
 
 ```csharp
 public Color GetAutomaticDataPointColor()

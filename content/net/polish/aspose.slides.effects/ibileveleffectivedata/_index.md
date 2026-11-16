@@ -1,14 +1,14 @@
 ---
 title: IBiLevelEffectiveData
-second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Niezmienny obiekt reprezentujący efekt dwupoziomowy czarno-biały. Kolory wejściowe, których luminancja jest mniejsza niż określona wartość progowa, są zamieniane na czarny. Kolory wejściowe, których luminancja jest większa lub równa określonej wartości, są ustawiane na biały. Wartości efektu alfa nie są przez ten efekt zmieniane.
+second_title: Aspose.Sildes dla .NET – odniesienie API
+description: Niezmienny obiekt, który reprezentuje dwupoziomowy efekt czarno-biały. Kolory wejściowe, których luminancja jest mniejsza niż podana wartość progowa, są zmieniane na czarny. Kolory wejściowe, których luminancja jest większa lub równa podanej wartości, są ustawiane na biały. Wartości efektu alfa nie są zmieniane przez ten efekt.
 type: docs
-weight: 3170
+weight: 3190
 url: /pl/aspose.slides.effects/ibileveleffectivedata/
 ---
 ## IBiLevelEffectiveData interfejs
 
-Niezmienny obiekt reprezentujący efekt dwupoziomowy (czarno-biały). Kolory wejściowe, których luminancja jest mniejsza niż podana wartość progowa, są zmieniane na czarny. Kolory wejściowe, których luminancja jest większa lub równa podanej wartości, są ustawiane na biały. Wartości efektu alfa pozostają niezmienione przez ten efekt.
+Niezmienny obiekt, który reprezentuje efekt dwupoziomowy (czarny/biały). Kolory wejściowe, których luminancja jest mniejsza niż podana wartość progowa, są zamieniane na czarny. Kolory wejściowe, których luminancja jest większa lub równa podanej wartości, są ustawiane na biały. Wartości efektu alfa nie są wpływane przez ten efekt.
 
 ```csharp
 public interface IBiLevelEffectiveData : IEffectEffectiveData

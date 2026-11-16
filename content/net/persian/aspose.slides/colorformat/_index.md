@@ -1,54 +1,54 @@
 ---
 title: ColorFormat
-second_title: Aspose.Sildes برای مرجع API .NET
-description: رنگی را که در یک ارائه استفاده می‌شود، نشان می‌دهد.
+second_title: Aspose.Sildes برای .NET مرجع API
+description: نمایانگر رنگی است که در یک ارائه استفاده می‌شود.
 type: docs
-weight: 2520
+weight: 2540
 url: /fa/aspose.slides/colorformat/
 ---
 ## ColorFormat کلاس
 
-رنگی را که در یک ارائه استفاده می‌شود، نشان می‌دهد.
+نمایانگر رنگی است که در یک ارائه استفاده می‌شود.
 
 ```csharp
 public sealed class ColorFormat : PVIObject, IColorFormat
 ```
 
-## خصوصیات
+## ویژگی‌ها
 
-| نام | شرح |
+| نام | توضیح |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | اجازه می‌دهد تا رابط پایه IPresentationComponent را دریافت کنید. فقط‌خواندنی [`IPresentationComponent`](../ipresentationcomponent). |
-| [B](../../aspose.slides/colorformat/b) { get; set; } | مقدار جزء آبی یک رنگ را برمی‌گرداند یا تنظیم می‌کند. تمام تبدیلات رنگ نادیده گرفته می‌شوند. قابل خواندن/قابل نوشتن Byte. |
-| [Color](../../aspose.slides/colorformat/color) { get; set; } | رنگ حاصل را باز می‌گرداند (با اعمال تمام تبدیلات رنگ). رنگ‌های RGB را تنظیم می‌کند و تمام تبدیلات رنگ را پاک می‌کند. قابل خواندن/قابل نوشتن Color. |
-| [ColorTransform](../../aspose.slides/colorformat/colortransform) { get; } | مجموعه تبدیلات رنگ اعمال‌شده بر یک رنگ را باز می‌گرداند. فقط‌خواندنی [`IColorOperationCollection`](../icoloroperationcollection). |
-| [ColorType](../../aspose.slides/colorformat/colortype) { get; set; } | روش تعریف رنگ را برمی‌گرداند یا تنظیم می‌کند. قابل خواندن/قابل نوشتن [`ColorType`](../colortype). |
-| [FloatB](../../aspose.slides/colorformat/floatb) { get; set; } | مقدار جزء آبی یک رنگ را برمی‌گرداند یا تنظیم می‌کند. تمام تبدیلات رنگ نادیده گرفته می‌شوند. قابل خواندن/قابل نوشتن Single. |
-| [FloatG](../../aspose.slides/colorformat/floatg) { get; set; } | مقدار جزء سبز یک رنگ را برمی‌گرداند یا تنظیم می‌کند. تمام تبدیلات رنگ نادیده گرفته می‌شوند. قابل خواندن/قابل نوشتن Single. |
-| [FloatR](../../aspose.slides/colorformat/floatr) { get; set; } | مقدار جزء قرمز یک رنگ را برمی‌گرداند یا تنظیم می‌کند. تمام تبدیلات رنگ نادیده گرفته می‌شوند. قابل خواندن/قابل نوشتن Single. |
-| [G](../../aspose.slides/colorformat/g) { get; set; } | مقدار جزء سبز یک رنگ را برمی‌گرداند یا تنظیم می‌کند. تمام تبدیلات رنگ نادیده گرفته می‌شوند. |
-| [Hue](../../aspose.slides/colorformat/hue) { get; set; } | مقدار جزء رنگ (Hue) یک رنگ در نمای HSL را برمی‌گرداند یا تنظیم می‌کند. تمام تبدیلات رنگ نادیده گرفته می‌شوند. قابل خواندن/قابل نوشتن Single. |
-| [Luminance](../../aspose.slides/colorformat/luminance) { get; set; } | مقدار عنصر روشنایی (Luminance) یک رنگ در نمای HSL را برمی‌گرداند یا تنظیم می‌کند. تمام تبدیلات رنگ نادیده گرفته می‌شوند. قابل خواندن/قابل نوشتن Single. |
-| [PresetColor](../../aspose.slides/colorformat/presetcolor) { get; set; } | پیش‌تنظیم رنگ را برمی‌گرداند یا تنظیم می‌کند. قابل خواندن/قابل نوشتن [`PresetColor`](../presetcolor). |
-| [R](../../aspose.slides/colorformat/r) { get; set; } | مقدار جزء قرمز یک رنگ را برمی‌گرداند یا تنظیم می‌کند. تمام تبدیلات رنگ نادیده گرفته می‌شوند. قابل خواندن/قابل نوشتن Byte. |
-| [Saturation](../../aspose.slides/colorformat/saturation) { get; set; } | مقدار جزء اشباع (Saturation) یک رنگ در نمای HSL را برمی‌گرداند یا تنظیم می‌کند. تمام تبدیلات رنگ نادیده گرفته می‌شوند. قابل خواندن/قابل نوشتن Single. |
-| [SchemeColor](../../aspose.slides/colorformat/schemecolor) { get; set; } | رنگ شناسایی‌شده توسط یک طرح رنگ را برمی‌گرداند یا تنظیم می‌کند. قابل خواندن/قابل نوشتن [`SchemeColor`](../schemecolor). |
-| [SystemColor](../../aspose.slides/colorformat/systemcolor) { get; set; } | رنگ شناسایی‌شده توسط جدول رنگ سیستم را برمی‌گرداند یا تنظیم می‌کند. قابل خواندن/قابل نوشتن [`SystemColor`](../systemcolor). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | اجازۀ دریافت رابط پایه IPresentationComponent را می‌دهد. فقط-خواندنی [`IPresentationComponent`](../ipresentationcomponent). |
+| [B](../../aspose.slides/colorformat/b) { get; set; } | مقدار مؤلفه آبی یک رنگ را بر می‌گرداند یا تنظیم می‌کند. همه تبدیلات رنگ نادیده گرفته می‌شوند. قابل-خواندن/قابل-نوشتن Byte. |
+| [Color](../../aspose.slides/colorformat/color) { get; set; } | رنگ حاصل را بر می‌گرداند (با اعمال تمام تبدیلات رنگ). رنگ‌های RGB را تنظیم می‌کند و همه تبدیلات رنگ را پاک می‌سازد. قابل-خواندن/قابل-نوشتن Color. |
+| [ColorTransform](../../aspose.slides/colorformat/colortransform) { get; } | مجموعه تبدیلات رنگ اعمال شده بر یک رنگ را بر می‌گرداند. فقط-خواندنی [`IColorOperationCollection`](../icoloroperationcollection). |
+| [ColorType](../../aspose.slides/colorformat/colortype) { get; set; } | روش تعریف رنگ را بر می‌گرداند یا تنظیم می‌کند. قابل-خواندن/قابل-نوشتن [`ColorType`](../colortype). |
+| [FloatB](../../aspose.slides/colorformat/floatb) { get; set; } | مقدار مؤلفه آبی یک رنگ را بر می‌گرداند یا تنظیم می‌کند. همه تبدیلات رنگ نادیده گرفته می‌شوند. قابل-خواندن/قابل-نوشتن Single. |
+| [FloatG](../../aspose.slides/colorformat/floatg) { get; set; } | مقدار مؤلفه سبز یک رنگ را بر می‌گرداند یا تنظیم می‌کند. همه تبدیلات رنگ نادیده گرفته می‌شوند. قابل-خواندن/قابل-نوشتن Single. |
+| [FloatR](../../aspose.slides/colorformat/floatr) { get; set; } | مقدار مؤلفه قرمز یک رنگ را بر می‌گرداند یا تنظیم می‌کند. همه تبدیلات رنگ نادیده گرفته می‌شوند. قابل-خواندن/قابل-نوشتن Single. |
+| [G](../../aspose.slides/colorformat/g) { get; set; } | مقدار مؤلفه سبز یک رنگ را بر می‌گرداند یا تنظیم می‌کند. همه تبدیلات رنگ نادیده گرفته می‌شوند. |
+| [Hue](../../aspose.slides/colorformat/hue) { get; set; } | مقدار مؤلفه hue یک رنگ در نمایش HSL را بر می‌گرداند یا تنظیم می‌کند. همه تبدیلات رنگ نادیده گرفته می‌شوند. قابل-خواندن/قابل-نوشتن Single. |
+| [Luminance](../../aspose.slides/colorformat/luminance) { get; set; } | مقدار مؤلفه luminance یک رنگ در نمایش HSL را بر می‌گرداند یا تنظیم می‌کند. همه تبدیلات رنگ نادیده گرفته می‌شوند. قابل-خواندن/قابل-نوشتن Single. |
+| [PresetColor](../../aspose.slides/colorformat/presetcolor) { get; set; } | پیش‌تنظیم رنگ را بر می‌گرداند یا تنظیم می‌کند. قابل-خواندن/قابل-نوشتن [`PresetColor`](../presetcolor). |
+| [R](../../aspose.slides/colorformat/r) { get; set; } | مقدار مؤلفه قرمز یک رنگ را بر می‌گرداند یا تنظیم می‌کند. همه تبدیلات رنگ نادیده گرفته می‌شوند. قابل-خواندن/قابل-نوشتن Byte. |
+| [Saturation](../../aspose.slides/colorformat/saturation) { get; set; } | مقدار مؤلفه اشباع یک رنگ در نمایش HSL را بر می‌گرداند یا تنظیم می‌کند. همه تبدیلات رنگ نادیده گرفته می‌شوند. قابل-خواندن/قابل-نوشتن Single. |
+| [SchemeColor](../../aspose.slides/colorformat/schemecolor) { get; set; } | رنگ شناسایی‌شده توسط یک طرح رنگ را بر می‌گرداند یا تنظیم می‌کند. قابل-خواندن/قابل-نوشتن [`SchemeColor`](../schemecolor). |
+| [SystemColor](../../aspose.slides/colorformat/systemcolor) { get; set; } | رنگ شناسایی‌شده توسط جدول رنگ‌های سیستم را بر می‌گرداند یا تنظیم می‌کند. قابل-خواندن/قابل-نوشتن [`SystemColor`](../systemcolor). |
 
 ## متدها
 
-| نام | شرح |
+| نام | توضیح |
 | --- | --- |
 | [CopyFrom](../../aspose.slides/colorformat/copyfrom)(IColorFormat) | قالب رنگ را از "color" کپی می‌کند. |
-| override [Equals](../../aspose.slides/colorformat/equals)(object) | برابری را با شیء مشخص‌شده بررسی می‌کند. |
-| override [GetHashCode](../../aspose.slides/colorformat/gethashcode)() | کد هش را برمی‌گرداند. |
-| [ToString](../../aspose.slides/colorformat/tostring#tostring_1)(ColorStringFormat) | رشته‌ای را برمی‌گرداند که قالب رنگ فعلی را نمایش می‌دهد. |
+| override [Equals](../../aspose.slides/colorformat/equals)(object) | برابری را با شیء مشخص شده بررسی می‌کند. |
+| override [GetHashCode](../../aspose.slides/colorformat/gethashcode)() | کد هش را بر می‌گرداند. |
+| [ToString](../../aspose.slides/colorformat/tostring#tostring_1)(ColorStringFormat) | یک رشته که نمایانگر قالب رنگ جاری است را بر می‌گرداند. |
 
-### همچنین ببینید
+### موارد مرتبط
 
 * کلاس [PVIObject](../pviobject)
 * رابط [IColorFormat](../icolorformat)
 * فضای‌نام [Aspose.Slides](../../aspose.slides)
-* مونتاژ [Aspose.Slides](../../)
+* مجتمع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

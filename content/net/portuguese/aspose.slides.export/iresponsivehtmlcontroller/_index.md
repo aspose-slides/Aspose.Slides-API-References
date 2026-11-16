@@ -1,9 +1,9 @@
 ---
 title: IResponsiveHtmlController
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Controlador HTML Responsivo
 type: docs
-weight: 4050
+weight: 4070
 url: /pt/aspose.slides.export/iresponsivehtmlcontroller/
 ---
 ## IResponsiveHtmlController interface
@@ -18,9 +18,9 @@ public interface IResponsiveHtmlController : IHtmlFormattingController
 
 | Nome | Descrição |
 | --- | --- |
-| [AsIHtmlFormattingController](../../aspose.slides.export/iresponsivehtmlcontroller/asihtmlformattingcontroller) { get; } | Retorna a interface IHtmlFormattingController. |
+| [AsIHtmlFormattingController](../../aspose.slides.export/iresponsivehtmlcontroller/asihtmlformattingcontroller) { get; } | Retorna IHtmlFormattingController interface. |
 
-### Veja Também
+### Veja também
 
 * interface [IHtmlFormattingController](../ihtmlformattingcontroller)
 * namespace [Aspose.Slides.Export](../../aspose.slides.export)

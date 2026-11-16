@@ -3,7 +3,7 @@ title: IMathRadicalFactory
 second_title: Aspose.Sildes برای .NET مرجع API
 description: اجازه می‌دهد رادیکال ریاضی ایجاد شود
 type: docs
-weight: 8440
+weight: 8460
 url: /fa/aspose.slides.mathtext/imathradicalfactory/
 ---
 ## IMathRadicalFactory رابط
@@ -18,11 +18,11 @@ public interface IMathRadicalFactory
 
 | نام | توضیح |
 | --- | --- |
-| [CreateMathRadical](../../aspose.slides.mathtext/imathradicalfactory/createmathradical)(IMathElement, IMathElement) | یک رادیکال ریاضی ایجاد می‌کند |
+| [CreateMathRadical](../../aspose.slides.mathtext/imathradicalfactory/createmathradical)(IMathElement, IMathElement) | یک رادیکال ریاضی می‌سازد |
 
-### توضیحات
+### یادداشت‌ها
 
-برای سازگاری با COM
+برای سازگاری COM
 
 ### موارد مرتبط
 

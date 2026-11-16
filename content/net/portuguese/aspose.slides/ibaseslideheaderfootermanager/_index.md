@@ -1,14 +1,14 @@
 ---
 title: IBaseSlideHeaderFooterManager
 second_title: Referência da API Aspose.Sildes para .NET
-description: Representa o gerenciador que mantém o comportamento dos marcadores de posição de rodapé, data/hora e número de página para todos os tipos de slide.
+description: Representa o gerenciador que contém o comportamento dos espaços reservados de rodapé, data/hora e número de página para todos os tipos de slide.
 type: docs
-weight: 5350
+weight: 5370
 url: /pt/aspose.slides/ibaseslideheaderfootermanager/
 ---
 ## IBaseSlideHeaderFooterManager interface
 
-Representa o gerenciador que mantém o comportamento dos marcadores de posição de rodapé, data/hora e número de página para todos os tipos de slide.
+Representa o gerenciador que contém o comportamento dos espaços reservados de rodapé, data/hora e número de página para todos os tipos de slide.
 
 ```csharp
 public interface IBaseSlideHeaderFooterManager : IBaseHeaderFooterManager
@@ -16,24 +16,24 @@ public interface IBaseSlideHeaderFooterManager : IBaseHeaderFooterManager
 
 ## Propriedades
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
-| [AsIBaseHeaderFooterManager](../../aspose.slides/ibaseslideheaderfootermanager/asibaseheaderfootermanager) { get; } | Retorna a interface IBaseHeaderFooterManager. |
-| [IsDateTimeVisible](../../aspose.slides/ibaseslideheaderfootermanager/isdatetimevisible) { get; } | Obtém o valor que indica que um marcador de posição de data/hora está presente. ReadBoolean. |
-| [IsFooterVisible](../../aspose.slides/ibaseslideheaderfootermanager/isfootervisible) { get; } | Obtém o valor que indica que um marcador de posição de rodapé está presente. Read Boolean. |
-| [IsSlideNumberVisible](../../aspose.slides/ibaseslideheaderfootermanager/isslidenumbervisible) { get; } | Obtém o valor que indica que um marcador de posição de número de página está presente. ReadBoolean. |
+| [AsIBaseHeaderFooterManager](../../aspose.slides/ibaseslideheaderfootermanager/asibaseheaderfootermanager) { get; } | Returns IBaseHeaderFooterManager interface. |
+| [IsDateTimeVisible](../../aspose.slides/ibaseslideheaderfootermanager/isdatetimevisible) { get; } | Gets value indicating that a date-time placeholder is present. ReadBoolean. |
+| [IsFooterVisible](../../aspose.slides/ibaseslideheaderfootermanager/isfootervisible) { get; } | Gets value indicating that a footer placeholder is present. Read Boolean. |
+| [IsSlideNumberVisible](../../aspose.slides/ibaseslideheaderfootermanager/isslidenumbervisible) { get; } | Gets value indicating that a page number placeholder is present. ReadBoolean. |
 
 ## Métodos
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
-| [SetDateTimeText](../../aspose.slides/ibaseslideheaderfootermanager/setdatetimetext)(string) | Define o texto no marcador de posição de data/hora do slide. |
-| [SetDateTimeVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setdatetimevisibility)(bool) | Altera a visibilidade do marcador de posição de data/hora do slide. |
-| [SetFooterText](../../aspose.slides/ibaseslideheaderfootermanager/setfootertext)(string) | Define o texto no marcador de posição de rodapé do slide. |
-| [SetFooterVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setfootervisibility)(bool) | Altera a visibilidade do marcador de posição de rodapé do slide. |
-| [SetSlideNumberVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setslidenumbervisibility)(bool) | Altera a visibilidade do marcador de posição de número de página do slide. |
+| [SetDateTimeText](../../aspose.slides/ibaseslideheaderfootermanager/setdatetimetext)(string) | Sets text to slide date-time placeholder. |
+| [SetDateTimeVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setdatetimevisibility)(bool) | Changes slide date-time placeholder visibility. |
+| [SetFooterText](../../aspose.slides/ibaseslideheaderfootermanager/setfootertext)(string) | Sets text to slide footer placeholder. |
+| [SetFooterVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setfootervisibility)(bool) | Changes slide footer placeholder visibility. |
+| [SetSlideNumberVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setslidenumbervisibility)(bool) | Changes slide page number placeholder visibility. |
 
-### Veja Também
+### Ver também
 
 * interface [IBaseHeaderFooterManager](../ibaseheaderfootermanager)
 * namespace [Aspose.Slides](../../aspose.slides)

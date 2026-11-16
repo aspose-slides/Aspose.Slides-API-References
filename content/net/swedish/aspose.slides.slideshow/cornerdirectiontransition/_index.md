@@ -1,14 +1,14 @@
 ---
 title: CornerDirectionTransition
 second_title: Aspose.Sildes för .NET API-referens
-description: Övergångseffekt för bildspel med hörnriktning.
+description: Slide-övergångseffekt med hörnriktning.
 type: docs
-weight: 10010
+weight: 10030
 url: /sv/aspose.slides.slideshow/cornerdirectiontransition/
 ---
 ## CornerDirectionTransition klass
 
-Hörnens riktning för bildspelövergångseffekt.
+Slide-övergångseffekt med hörnriktning.
 
 ```csharp
 public class CornerDirectionTransition : TransitionValueBase, ICornerDirectionTransition
@@ -18,16 +18,16 @@ public class CornerDirectionTransition : TransitionValueBase, ICornerDirectionTr
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/cornerdirectiontransition/direction) { get; set; } | Riktning för övergången. Läsa/skriva [`TransitionCornerDirectionType`](../transitioncornerdirectiontype). |
+| [Direction](../../aspose.slides.slideshow/cornerdirectiontransition/direction) { get; set; } | Riktning för övergången. Läs/skriv [`TransitionCornerDirectionType`](../transitioncornerdirectiontype). |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Bestämmer om de två TransitionValueBase-instanserna är lika. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Fungerar som en hash-funktion för en viss typ, lämplig för användning i hash-algoritmer och datastrukturer som en hash-tabell. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Avgör om de två TransitionValueBase-instanserna är lika. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Fungerar som en hash-funktion för en viss typ, lämplig för användning i hash-algoritmer och datastrukturer som en hashtabell. |
 
-### Se även
+### Se också
 
 * klass [TransitionValueBase](../transitionvaluebase)
 * gränssnitt [ICornerDirectionTransition](../icornerdirectiontransition)

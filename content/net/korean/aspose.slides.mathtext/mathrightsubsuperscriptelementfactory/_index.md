@@ -1,9 +1,9 @@
 ---
 title: MathRightSubSuperscriptElementFactory
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: IMathRightSubSuperscriptElementFactory를 생성할 수 있습니다.
 type: docs
-weight: 8970
+weight: 8990
 url: /ko/aspose.slides.mathtext/mathrightsubsuperscriptelementfactory/
 ---
 ## MathRightSubSuperscriptElementFactory 클래스
@@ -26,11 +26,11 @@ public class MathRightSubSuperscriptElementFactory : IMathRightSubSuperscriptEle
 | --- | --- |
 | [CreateMathRightSubSuperscriptElement](../../aspose.slides.mathtext/mathrightsubsuperscriptelementfactory/createmathrightsubsuperscriptelement)(IMathElement, IMathElement, IMathElement) | IMathRightSubSuperscriptElementFactory의 인스턴스를 생성합니다. |
 
-### 비고
+### 참고
 
 COM 호환성을 위해
 
-### 참조
+### 관련 항목
 
 * 인터페이스 [IMathRightSubSuperscriptElementFactory](../imathrightsubsuperscriptelementfactory)
 * 네임스페이스 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

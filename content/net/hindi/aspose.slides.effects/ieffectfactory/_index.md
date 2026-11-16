@@ -1,14 +1,14 @@
 ---
 title: IEffectFactory
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: Effects के उदाहरण बनाने की अनुमति देता है
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: इफ़ेक्ट्स की इंस्टेंस बनाने की अनुमति देता है
 type: docs
-weight: 3290
+weight: 3310
 url: /hi/aspose.slides.effects/ieffectfactory/
 ---
 ## IEffectFactory इंटरफ़ेस
 
-Effects के उदाहरण बनाने की अनुमति देता है
+इफ़ेक्ट्स की इंस्टेंस बनाने की अनुमति देता है
 
 ```csharp
 public interface IEffectFactory
@@ -18,18 +18,18 @@ public interface IEffectFactory
 
 | नाम | विवरण |
 | --- | --- |
-| [ImageTransformOperationFactory](../../aspose.slides.effects/ieffectfactory/imagetransformoperationfactory) { get; } | ImageTransformOperationFactory लौटाता है। केवल पढ़ने योग्य [`IImageTransformOperationFactory`](../iimagetransformoperationfactory)। |
+| [ImageTransformOperationFactory](../../aspose.slides.effects/ieffectfactory/imagetransformoperationfactory) { get; } | वापस ImageTransformOperationFactory. केवल-पढ़ने योग्य [`IImageTransformOperationFactory`](../iimagetransformoperationfactory). |
 
-## विधियाँ
+## मेथड्स
 
 | नाम | विवरण |
 | --- | --- |
-| [CreateGlow](../../aspose.slides.effects/ieffectfactory/createglow)() | ग्लो प्रभाव बनाता है। |
-| [CreateInnerShadow](../../aspose.slides.effects/ieffectfactory/createinnershadow)() | आंतरिक शैडो प्रभाव बनाता है। |
-| [CreateOuterShadow](../../aspose.slides.effects/ieffectfactory/createoutershadow)() | बाहरी शैडो प्रभाव बनाता है। |
-| [CreatePresetShadow](../../aspose.slides.effects/ieffectfactory/createpresetshadow)() | प्रीसेट शैडो प्रभाव बनाता है। |
-| [CreateReflection](../../aspose.slides.effects/ieffectfactory/createreflection)() | रिफ्लेक्शन प्रभाव बनाता है। |
-| [CreateSoftEdge](../../aspose.slides.effects/ieffectfactory/createsoftedge)() | सॉफ्ट एज प्रभाव बनाता है। |
+| [CreateGlow](../../aspose.slides.effects/ieffectfactory/createglow)() | Glow प्रभाव बनाता है। |
+| [CreateInnerShadow](../../aspose.slides.effects/ieffectfactory/createinnershadow)() | Inner शैडो प्रभाव बनाता है। |
+| [CreateOuterShadow](../../aspose.slides.effects/ieffectfactory/createoutershadow)() | Outer शैडो प्रभाव बनाता है। |
+| [CreatePresetShadow](../../aspose.slides.effects/ieffectfactory/createpresetshadow)() | Preset शैडो प्रभाव बनाता है। |
+| [CreateReflection](../../aspose.slides.effects/ieffectfactory/createreflection)() | Reflection प्रभाव बनाता है। |
+| [CreateSoftEdge](../../aspose.slides.effects/ieffectfactory/createsoftedge)() | Soft Edge प्रभाव बनाता है। |
 
 ### टिप्पणी
 

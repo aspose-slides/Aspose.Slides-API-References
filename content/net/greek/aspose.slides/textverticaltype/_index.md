@@ -1,14 +1,14 @@
 ---
 title: TextVerticalType
-second_title: Aspose.Sildes για .NET Αναφορά API
-description: Καθορίζει τη κατακόρυφη λειτουργία γραφής για ένα κείμενο.
+second_title: Aspose.Sildes για .NET API Αναφορά
+description: Καθορίζει τη κάθετη λειτουργία γραφής για ένα κείμενο.
 type: docs
-weight: 11030
+weight: 11050
 url: /el/aspose.slides/textverticaltype/
 ---
 ## TextVerticalType απαρίθμηση
 
-Καθορίζει την κατακόρυφη λειτουργία γραφής για ένα κείμενο.
+Καθορίζει τη κάθετη λειτουργία γραφής για ένα κείμενο.
 
 ```csharp
 public enum TextVerticalType : sbyte
@@ -18,14 +18,14 @@ public enum TextVerticalType : sbyte
 
 | Όνομα | Τιμή | Περιγραφή |
 | --- | --- | --- |
-| NotDefined | `-1` | Δεν έχει οριστεί. |
+| NotDefined | `-1` | Δεν ορίζεται. |
 | Horizontal | `0` | Οριζόντιο κείμενο. |
-| Vertical | `1` | Κατακόρυφο κείμενο. |
+| Vertical | `1` | Κάθετο κείμενο. |
 | Vertical270 | `2` | Κατακόρυφο κείμενο 270 μοιρών. |
-| WordArtVertical | `3` | Κατακόρυφο κείμενο WordArt. |
-| EastAsianVertical | `4` | Κατακόρυφο κείμενο Ανατολικής Ασίας. |
-| MongolianVertical | `5` | Κατακόρυφο κείμενο Μογγόλιου. |
-| WordArtVerticalRightToLeft | `6` | Κατακόρυφο κείμενο WordArt από δεξιά προς αριστερά. |
+| WordArtVertical | `3` | Κάθετο κείμενο WordArt. |
+| EastAsianVertical | `4` | Κάθετο κείμενο Ανατολικής Ασίας. |
+| MongolianVertical | `5` | Κάθετο κείμενο Μογγολικό. |
+| WordArtVerticalRightToLeft | `6` | Κάθετο κείμενο WordArt από δεξιά προς αριστερά. |
 
 ### Δείτε επίσης
 

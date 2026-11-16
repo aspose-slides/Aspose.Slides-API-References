@@ -1,14 +1,14 @@
 ---
 title: IFormatSchemeEffectiveData
-second_title: Aspose.Sildes .NET API referencia
-description: Módosíthatatlan objektum, amely a hatékony formátumséma tulajdonságait tartalmazza.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Változtathatatlan objektum, amely a hatékony formátumséma tulajdonságokat tartalmaz.
 type: docs
-weight: 11280
+weight: 11300
 url: /hu/aspose.slides.theme/iformatschemeeffectivedata/
 ---
 ## IFormatSchemeEffectiveData interfész
 
-Módosíthatatlan objektum, amely a hatékony formátumséma tulajdonságait tartalmazza.
+Változtathatatlan objektum, amely a hatékony formátumséma tulajdonságokat tartalmaz.
 
 ```csharp
 public interface IFormatSchemeEffectiveData
@@ -18,14 +18,14 @@ public interface IFormatSchemeEffectiveData
 
 | Név | Leírás |
 | --- | --- |
-| [GetBackgroundFillStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getbackgroundfillstyles)(Color) | Visszaad egy gyűjteményt a téma által definiált háttér kitöltési stílusokról. |
-| [GetEffectStyles](../../aspose.slides.theme/iformatschemeeffectivedata/geteffectstyles)(Color) | Visszaad egy gyűjteményt a téma által definiált effektus stílusokról. |
+| [GetBackgroundFillStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getbackgroundfillstyles)(Color) | Visszaad egy gyűjteményt a téma által definiált háttérkitöltési stílusokról. |
+| [GetEffectStyles](../../aspose.slides.theme/iformatschemeeffectivedata/geteffectstyles)(Color) | Visszaad egy gyűjteményt a téma által definiált effektusstílusokról. |
 | [GetFillStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getfillstyles)(Color) | Visszaad egy gyűjteményt a téma által definiált kitöltési stílusokról. |
 | [GetLineStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getlinestyles)(Color) | Visszaad egy gyűjteményt a téma által definiált vonalstílusokról. |
 
-### Megjegyzések
+### Megjegyzés
 
-Ez az interfész a [`IThemeEffectiveData`](../ithemeeffectivedata) részeként használható.
+Ez az interfész a [`IThemeEffectiveData`](../ithemeeffectivedata) részeként használatos.
 
 ### Lásd még
 

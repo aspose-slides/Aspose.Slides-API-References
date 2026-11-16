@@ -1,14 +1,14 @@
 ---
 title: IAxesManager
 second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Permet d'accéder aux axes du graphique.
+description: Fournit un accès aux axes du graphique.
 type: docs
-weight: 1700
+weight: 1710
 url: /fr/aspose.slides.charts/iaxesmanager/
 ---
 ## IAxesManager interface
 
-Fournit l'accès aux axes du graphique.
+Fournit un accès aux axes du graphique.
 
 ```csharp
 public interface IAxesManager
@@ -16,7 +16,7 @@ public interface IAxesManager
 
 ## Propriétés
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
 | [HorizontalAxis](../../aspose.slides.charts/iaxesmanager/horizontalaxis) { get; } | Obtient l'axe horizontal du graphique. Lecture seule [`IAxis`](../iaxis). |
 | [SecondaryHorizontalAxis](../../aspose.slides.charts/iaxesmanager/secondaryhorizontalaxis) { get; } | Obtient l'axe horizontal secondaire du graphique. Lecture seule [`IAxis`](../iaxis). |

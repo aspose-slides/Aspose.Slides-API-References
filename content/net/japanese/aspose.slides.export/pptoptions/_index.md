@@ -3,12 +3,12 @@ title: PptOptions
 second_title: Aspose.Sildes for .NET API リファレンス
 description: プレゼンテーションが PPT 形式で保存される方法を制御するオプションを提供します。
 type: docs
-weight: 4360
+weight: 4380
 url: /ja/aspose.slides.export/pptoptions/
 ---
 ## PptOptions クラス
 
-プレゼンテーションが PPT 形式で保存される方法を制御するオプションを提供します。
+Provides options that control how a presentation is saved in PPT format.
 
 ```csharp
 public class PptOptions : SaveOptions, IPptOptions
@@ -18,17 +18,17 @@ public class PptOptions : SaveOptions, IPptOptions
 
 | 名前 | 説明 |
 | --- | --- |
-| [PptOptions](pptoptions)() | デフォルトコンストラクタです。 |
+| [PptOptions](pptoptions)() | デフォルト コンストラクタ。 |
 
 ## プロパティ
 
 | 名前 | 説明 |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | ソースフォントが見つからない場合に使用されるフォントを取得または設定します。読み書き可能な String。 |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | グラデーションのビジュアル スタイルを取得または設定します。読み書き可能な [`GradientStyle`](../../aspose.slides/gradientstyle)。 |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 保存の進行状況をパーセンテージで更新するコールバック オブジェクトを表します。[`IProgressCallback`](../../aspose.slides/iprogresscallback) を参照してください。 |
-| [RootDirectoryClsid](../../aspose.slides.export/pptoptions/rootdirectoryclsid) { get; set; } | ルート ディレクトリ エントリに格納されているオブジェクト クラス GUID (CLSID) を表します。ドキュメント アプリケーションの COM アクティベーションに使用できます。既定値は '64818D11-4F9B-11CF-86EA-00AA00B929E8' です。 |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | プレゼンテーションを保存する際に、JavaScript 呼び出しを含むハイパーリンクをスキップするかどうかを指定します。読み書き可能な Boolean。既定値は **false** です。 |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | ソース フォントが見つからない場合に使用されるフォントを取得または設定します。読み書き可能な String。 |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | グラデーションの視覚スタイルを取得または設定します。読み書き可能な [`GradientStyle`](../../aspose.slides/gradientstyle)。 |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 保存の進捗更新（パーセンテージ）を受け取るコールバックオブジェクトを表します。[`IProgressCallback`](../../aspose.slides/iprogresscallback) を参照してください。 |
+| [RootDirectoryClsid](../../aspose.slides.export/pptoptions/rootdirectoryclsid) { get; set; } | ルート ディレクトリ エントリに格納されているオブジェクト クラス GUID (CLSID) を表します。ドキュメントのアプリケーションの COM アクティベーションに使用できます。デフォルト値は '64818D11-4F9B-11CF-86EA-00AA00B929E8' で、これは 'Microsoft Powerpoint.Slide.8' に対応します。 |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | プレゼンテーションを保存するときに、JavaScript 呼び出しを含むハイパーリンクをスキップするかどうかを指定します。読み書き可能な Boolean。デフォルト値は **false** です。 |
 | [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 警告を受け取り、ロード プロセスを継続するか中止するかを決定するオブジェクトを取得または設定します。読み書き可能な [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)。 |
 
 ### 参照

@@ -1,14 +1,14 @@
 ---
 title: IMasterTheme
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Biểu diễn một chủ đề master.
+second_title: Tham khảo API Aspose.Sildes cho .NET
+description: Đại diện cho một giao diện chủ.
 type: docs
-weight: 11310
+weight: 11330
 url: /vi/aspose.slides.theme/imastertheme/
 ---
-## Giao diện IMasterTheme
+## IMasterTheme giao diện
 
-Biểu diễn một chủ đề master.
+Đại diện cho một giao diện chủ.
 
 ```csharp
 public interface IMasterTheme : ITheme
@@ -19,8 +19,8 @@ public interface IMasterTheme : ITheme
 | Tên | Mô tả |
 | --- | --- |
 | [AsITheme](../../aspose.slides.theme/imastertheme/asitheme) { get; } | Cho phép lấy giao diện ITheme cơ bản. Chỉ đọc [`ITheme`](../itheme). |
-| [ExtraColorSchemes](../../aspose.slides.theme/imastertheme/extracolorschemes) { get; } | Trả về bộ sưu tập các sơ đồ màu bổ sung. Những sơ đồ này không ảnh hưởng tới giao diện của bản trình chiếu, chúng có thể được chọn làm sơ đồ màu chính cho một slide. Chỉ đọc [`IExtraColorSchemeCollection`](../iextracolorschemecollection). |
-| [Name](../../aspose.slides.theme/imastertheme/name) { get; set; } | Trả về tên của một chủ đề. Đọc/ghi String. |
+| [ExtraColorSchemes](../../aspose.slides.theme/imastertheme/extracolorschemes) { get; } | Trả về tập hợp các bảng màu bổ sung. Các bảng màu này không ảnh hưởng đến giao diện của bản trình chiếu, chúng có thể được chọn làm bảng màu chính cho một slide. Chỉ đọc [`IExtraColorSchemeCollection`](../iextracolorschemecollection). |
+| [Name](../../aspose.slides.theme/imastertheme/name) { get; set; } | Trả về tên của một giao diện. Đọc/ghi String. |
 
 ### Xem thêm
 

@@ -1,14 +1,14 @@
 ---
 title: MarkerStyleType
-second_title: Aspose.Sildes .NET API 参考
-description: 确定图表数据点上标记的形式。
+second_title: Aspose.Sildes for .NET API 参考
+description: 确定图表数据点上标记的形状。
 type: docs
-weight: 2340
+weight: 2360
 url: /zh/aspose.slides.charts/markerstyletype/
 ---
 ## MarkerStyleType 枚举
 
-确定图表数据点上标记的形式。
+确定图表数据点上标记的形状。
 
 ```csharp
 public enum MarkerStyleType
@@ -19,12 +19,12 @@ public enum MarkerStyleType
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
-| Circle | `0` | 指定在每个数据点上绘制一个圆。 |
-| Dash | `1` | 指定在每个数据点上绘制一条短横线。 |
+| Circle | `0` | 指定在每个数据点上绘制一个圆形。 |
+| Dash | `1` | 指定在每个数据点上绘制一条短划线。 |
 | Diamond | `2` | 指定在每个数据点上绘制一个菱形。 |
 | Dot | `3` | 指定在每个数据点上绘制一个点。 |
 | None | `4` | 指定在每个数据点上不绘制任何内容。 |
-| Picture | `5` | 指定在每个数据点上绘制一幅图片。 |
+| Picture | `5` | 指定在每个数据点上绘制一张图片。 |
 | Plus | `6` | 指定在每个数据点上绘制一个加号。 |
 | Square | `7` | 指定在每个数据点上绘制一个正方形。 |
 | Star | `8` | 指定在每个数据点上绘制一个星形。 |

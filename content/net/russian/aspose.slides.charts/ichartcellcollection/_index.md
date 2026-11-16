@@ -1,9 +1,9 @@
 ---
 title: IChartCellCollection
-second_title: Aspose.Sildes для .NET справочник API
+second_title: Aspose.Sildes для .NET Справочник API
 description: Представляет коллекцию ячеек с данными.
 type: docs
-weight: 1780
+weight: 1800
 url: /ru/aspose.slides.charts/ichartcellcollection/
 ---
 ## IChartCellCollection интерфейс
@@ -16,7 +16,7 @@ public interface IChartCellCollection : IEnumerable<IChartDataCell>
 
 ## Свойства
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
 | [AsIEnumerable](../../aspose.slides.charts/ichartcellcollection/asienumerable) { get; } | Возвращает интерфейс ICollection. Только для чтения IEnumerable. |
 | [Count](../../aspose.slides.charts/ichartcellcollection/count) { get; } | Возвращает количество ячеек в коллекции. Только для чтения Int32. |
@@ -24,12 +24,12 @@ public interface IChartCellCollection : IEnumerable<IChartDataCell>
 
 ## Методы
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
 | [Add](../../aspose.slides.charts/ichartcellcollection/add#add)(IChartDataCell) | Добавляет новую ячейку в коллекцию. |
-| [Add](../../aspose.slides.charts/ichartcellcollection/add#add_1)(object) | Создаёт [`IChartDataCell`](../ichartdatacell) из указанного значения и добавляет его в коллекцию. |
+| [Add](../../aspose.slides.charts/ichartcellcollection/add#add_1)(object) | Создаёт [`IChartDataCell`](../ichartdatacell) из указанного значения и добавляет её в коллекцию. |
 | [GetCellsAddress](../../aspose.slides.charts/ichartcellcollection/getcellsaddress)() | Возвращает адрес набора ячеек в рабочей книге. |
-| [GetConcatenatedValuesFromCells](../../aspose.slides.charts/ichartcellcollection/getconcatenatedvaluesfromcells)() | Строка конкатенации всех строковых значений ячеек. |
+| [GetConcatenatedValuesFromCells](../../aspose.slides.charts/ichartcellcollection/getconcatenatedvaluesfromcells)() | Конкатенирует строку из всех строковых значений ячеек. |
 | [RemoveAt](../../aspose.slides.charts/ichartcellcollection/removeat)(int) | Удаляет ячейку из коллекции по индексу. |
 
 ### См. также

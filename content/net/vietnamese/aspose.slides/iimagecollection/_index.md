@@ -1,9 +1,9 @@
 ---
 title: IImageCollection
-second_title: Aspose.Sildes cho .NET API Tham chiếu
+second_title: Aspose.Sildes cho .NET Tham chiếu API
 description: Biểu diễn tập hợp các PPImage.
 type: docs
-weight: 6160
+weight: 6180
 url: /vi/aspose.slides/iimagecollection/
 ---
 ## IImageCollection giao diện
@@ -24,11 +24,11 @@ public interface IImageCollection : IGenericCollection<IPPImage>
 
 | Tên | Mô tả |
 | --- | --- |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_3)(byte[]) | Thêm một hình ảnh vào bản trình chiếu từ bộ đệm đã chỉ định. |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_3)(byte[]) | Thêm một hình ảnh vào bản trình chiếu từ bộ đệm được chỉ định. |
 | [AddImage](../../aspose.slides/iimagecollection/addimage#addimage)(IImage) | Thêm một hình ảnh vào bản trình chiếu. |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_1)(IPPImage) | Thêm một bản sao của hình ảnh từ bản trình chiếu khác. |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_1)(IPPImage) | Thêm một bản sao của hình ảnh từ một bản trình chiếu khác. |
 | [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_2)(ISvgImage) | Thêm một hình ảnh vào bản trình chiếu từ đối tượng SVG. |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_4)(MemoryStream) | Thêm hình ảnh từ luồng bộ nhớ. |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_4)(MemoryStream) | Thêm hình ảnh từ một luồng bộ nhớ. |
 | [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_5)(Stream) | Thêm một hình ảnh vào bản trình chiếu từ luồng. |
 | [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_6)(Stream, LoadingStreamBehavior) | Tạo và thêm một hình ảnh vào bản trình chiếu từ luồng. |
 

@@ -1,14 +1,14 @@
 ---
 title: MasterTheme
-second_title: Aspose.Sildes for .NET API 參考
-description: 表示主佈景主題。
+second_title: Aspose.Sildes for .NET API 參考文件
+description: 代表一個母版主題。
 type: docs
-weight: 11430
+weight: 11450
 url: /zh-hant/aspose.slides.theme/mastertheme/
 ---
 ## MasterTheme 類別
 
-表示主佈景主題。
+代表一個母版主題。
 
 ```csharp
 public sealed class MasterTheme : Theme, IMasterTheme
@@ -18,18 +18,18 @@ public sealed class MasterTheme : Theme, IMasterTheme
 
 | 名稱 | 說明 |
 | --- | --- |
-| override [ColorScheme](../../aspose.slides.theme/mastertheme/colorscheme) { get; } | 傳回色彩配置。唯讀 [`IColorScheme`](../icolorscheme)。 |
-| [ExtraColorSchemes](../../aspose.slides.theme/mastertheme/extracolorschemes) { get; } | 傳回額外色彩配置的集合。這些配置不會影響簡報外觀，它們可以被選擇為投影片的主要色彩配置。唯讀 [`IExtraColorSchemeCollection`](../iextracolorschemecollection)。 |
-| override [FontScheme](../../aspose.slides.theme/mastertheme/fontscheme) { get; } | 傳回字型配置。唯讀 [`IFontScheme`](../ifontscheme)。 |
-| override [FormatScheme](../../aspose.slides.theme/mastertheme/formatscheme) { get; } | 傳回形狀格式配置。唯讀 [`IFormatScheme`](../iformatscheme)。 |
-| [Name](../../aspose.slides.theme/mastertheme/name) { get; set; } | 傳回佈景主題的名稱。可讀寫 String。 |
-| [Presentation](../../aspose.slides.theme/theme/presentation) { get; } | 傳回父簡報。唯讀 [`IPresentation`](../../aspose.slides/ipresentation)。 |
+| override [ColorScheme](../../aspose.slides.theme/mastertheme/colorscheme) { get; } | 返回顏色方案。唯讀 [`IColorScheme`](../icolorscheme)。 |
+| [ExtraColorSchemes](../../aspose.slides.theme/mastertheme/extracolorschemes) { get; } | 返回其他顏色方案的集合。這些方案不會影響簡報的外觀，可作為投影片的主要顏色方案。唯讀 [`IExtraColorSchemeCollection`](../iextracolorschemecollection)。 |
+| override [FontScheme](../../aspose.slides.theme/mastertheme/fontscheme) { get; } | 返回字型方案。唯讀 [`IFontScheme`](../ifontscheme)。 |
+| override [FormatScheme](../../aspose.slides.theme/mastertheme/formatscheme) { get; } | 返回形狀格式方案。唯讀 [`IFormatScheme`](../iformatscheme)。 |
+| [Name](../../aspose.slides.theme/mastertheme/name) { get; set; } | 返回主題的名稱。讀寫 String。 |
+| [Presentation](../../aspose.slides.theme/theme/presentation) { get; } | 返回父簡報。唯讀 [`IPresentation`](../../aspose.slides/ipresentation)。 |
 
 ## 方法
 
 | 名稱 | 說明 |
 | --- | --- |
-| [GetEffective](../../aspose.slides.theme/theme/geteffective)() | 取得已套用繼承的有效佈景主題資料。 |
+| [GetEffective](../../aspose.slides.theme/theme/geteffective)() | 取得套用繼承的有效主題資料。 |
 
 ### 另見
 

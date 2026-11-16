@@ -1,14 +1,14 @@
 ---
 title: PictureFillMode
 second_title: Aspose.Sildes for .NET API 參考文件
-description: 決定圖片將如何填滿區域。
+description: 決定圖片如何填滿區域。
 type: docs
-weight: 9400
+weight: 9420
 url: /zh-hant/aspose.slides/picturefillmode/
 ---
 ## PictureFillMode 列舉
 
-決定圖片將如何填滿區域。
+決定圖片如何填滿區域。
 
 ```csharp
 public enum PictureFillMode
@@ -16,12 +16,12 @@ public enum PictureFillMode
 
 ### 值
 
-| 名稱 | 值 | 描述 |
+| 名稱 | 值 | 說明 |
 | --- | --- | --- |
 | Tile | `0` |  |
 | Stretch | `1` |  |
 
-### 另請參閱
+### 參見
 
 * 命名空間 [Aspose.Slides](../../aspose.slides)
 * 組件 [Aspose.Slides](../../)

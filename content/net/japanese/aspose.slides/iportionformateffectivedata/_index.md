@@ -1,14 +1,14 @@
 ---
 title: IPortionFormatEffectiveData
-second_title: Aspose.Sildes for .NET API リファレンス
-description: 有効なテキスト部分の書式設定プロパティを含むイミュータブルオブジェクトです。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: 効果的なテキスト部分の書式設定プロパティを含む不変オブジェクトです。
 type: docs
-weight: 6740
+weight: 6760
 url: /ja/aspose.slides/iportionformateffectivedata/
 ---
-## IPortionFormatEffectiveData インターフェイス
+## IPortionFormatEffectiveData interface
 
-有効なテキスト部分の書式設定プロパティを含むイミュータブルオブジェクトです。
+効果的なテキスト部分の書式設定プロパティを含む不変オブジェクトです。
 
 ```csharp
 public interface IPortionFormatEffectiveData : IBasePortionFormatEffectiveData
@@ -25,9 +25,9 @@ public interface IPortionFormatEffectiveData : IBasePortionFormatEffectiveData
 
 ### 備考
 
-このインターフェイスは、[`IPortionFormat`](../iportionformat) インターフェイスと共に使用され、継承が適用された有効な書式設定値を返します。
+このインターフェイスは [`IPortionFormat`](../iportionformat) インターフェイスと組み合わせて、継承が適用された効果的な書式設定値を返すために使用されます。
 
-### 参照
+### 関連項目
 
 * インターフェイス [IBasePortionFormatEffectiveData](../ibaseportionformateffectivedata)
 * 名前空間 [Aspose.Slides](../../aspose.slides)

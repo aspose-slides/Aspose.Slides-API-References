@@ -1,9 +1,9 @@
 ---
 title: IFlyThroughTransition
-second_title: Aspose.Sildes für .NET API Referenz
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Durchlaufender Folienübergangseffekt.
 type: docs
-weight: 10090
+weight: 10110
 url: /de/aspose.slides.slideshow/iflythroughtransition/
 ---
 ## IFlyThroughTransition Schnittstelle
@@ -14,13 +14,13 @@ Durchlaufender Folienübergangseffekt.
 public interface IFlyThroughTransition : ITransitionValueBase
 ```
 
-## Eigenschaften
+## Properties
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/iflythroughtransition/asitransitionvaluebase) { get; } | Ermöglicht das Abrufen der Basisschnittstelle ITransitionValueBase. Schreibgeschützt [`ITransitionValueBase`](../itransitionvaluebase). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/iflythroughtransition/asitransitionvaluebase) { get; } | Ermöglicht das Abrufen der Basisschnittstelle ITransitionValueBase. Nur lesbar [`ITransitionValueBase`](../itransitionvaluebase). |
 | [Direction](../../aspose.slides.slideshow/iflythroughtransition/direction) { get; set; } | Richtung des Übergangs. Lesen/Schreiben [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [HasBounce](../../aspose.slides.slideshow/iflythroughtransition/hasbounce) { get; set; } | Gibt an, dass die Bewegung der Präsentationsfolien während des Übergangs ein Aufprallen enthält. Lesen/Schreiben Boolean. |
+| [HasBounce](../../aspose.slides.slideshow/iflythroughtransition/hasbounce) { get; set; } | Gibt an, dass die Bewegung der Präsentationsfolien während des Übergangs ein Abprallen beinhaltet. Lesen/Schreiben Boolean. |
 
 ### Siehe auch
 

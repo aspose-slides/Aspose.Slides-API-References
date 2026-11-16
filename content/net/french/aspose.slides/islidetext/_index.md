@@ -1,9 +1,9 @@
 ---
 title: ISlideText
-second_title: Référence de l'API Aspose.Sildes pour .NET
+second_title: Référence API Aspose.Sildes pour .NET
 description: Représente le texte extrait de la diapositive
 type: docs
-weight: 7100
+weight: 7120
 url: /fr/aspose.slides/islidetext/
 ---
 ## ISlideText interface

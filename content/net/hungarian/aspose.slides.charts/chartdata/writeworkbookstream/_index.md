@@ -1,14 +1,14 @@
 ---
 title: WriteWorkbookStream
-second_title: Aspose.Sildes .NET API referencia
-description: Inicializálja a belső Excel munkafüzetet a felhasználó által megadott értékkel.
+second_title: Aspose.Sildes .NET API Referencia
+description: Inicializálja a belsőleg tartalmazott Excel munkafüzetet a felhasználó által megadott értékkel.
 type: docs
-weight: 150
+weight: 160
 url: /hu/aspose.slides.charts/chartdata/writeworkbookstream/
 ---
 ## ChartData.WriteWorkbookStream metódus
 
-Inicializálja a belső Excel munkafüzetet a felhasználó által megadott értékkel.
+Inicializálja a belsőleg tartalmazott Excel munkafüzetet a felhasználó által megadott értékkel.
 
 ```csharp
 public void WriteWorkbookStream(MemoryStream ms)
@@ -16,7 +16,7 @@ public void WriteWorkbookStream(MemoryStream ms)
 
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
-| ms | MemoryStream | A felhasználó által megadott adatfolyam, amely az egész Excel munkafüzetet tartalmazza. |
+| ms | MemoryStream | A felhasználó által biztosított adatfolyam, amely az egész Excel munkafüzetet tartalmazza. |
 
 ### Lásd még
 

@@ -3,7 +3,7 @@ title: Tab
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示文本的制表符。
 type: docs
-weight: 10820
+weight: 10840
 url: /zh/aspose.slides/tab/
 ---
 ## Tab 类
@@ -16,27 +16,27 @@ public sealed class Tab : PVIObject, ITab
 
 ## 构造函数
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
 | [Tab](tab)(double, TabAlignment) | 创建新的 Tab |
 
 ## 属性
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
-| [Alignment](../../aspose.slides/tab/alignment) { get; set; } | 返回或设置制表符的对齐样式。可读写 [`TabAlignment`](../tabalignment)。 |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基 IPresentationComponent 接口。只读 [`IPresentationComponent`](../ipresentationcomponent)。 |
-| [Position](../../aspose.slides/tab/position) { get; set; } | 返回或设置制表符的位置。为此属性赋值可能会更改集合中制表符的索引并使枚举器失效。可读写 Double。 |
+| [Alignment](../../aspose.slides/tab/alignment) { get; set; } | 返回或设置制表符的对齐样式。读/写 [`TabAlignment`](../tabalignment)。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基础 IPresentationComponent 接口。只读 [`IPresentationComponent`](../ipresentationcomponent)。 |
+| [Position](../../aspose.slides/tab/position) { get; set; } | 返回或设置制表符的位置。对该属性赋值可能会更改集合中制表符的索引并使 Enumerator 失效。读/写 Double。 |
 
 ## 方法
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
-| [CompareTo](../../aspose.slides/tab/compareto)(object) | 比较当前实例与同类型的另一个对象。 |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | 与指定对象比较。 |
+| [CompareTo](../../aspose.slides/tab/compareto)(object) | 比较当前实例与同类型的另一个 object。 |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | 比较指定的 object。 |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | 返回哈希码。 |
 
-### 另请参阅
+### 另见
 
 * 类 [PVIObject](../pviobject)
 * 接口 [ITab](../itab)

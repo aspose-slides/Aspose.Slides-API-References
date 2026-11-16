@@ -1,14 +1,14 @@
 ---
 title: IBiLevelEffectiveData
-second_title: Aspose.Sildes .NET API 参考
-description: 不可变对象，表示双层黑/白效果。亮度小于指定阈值的输入颜色将被更改为黑色。亮度大于或等于指定值的输入颜色将被设置为白色。Alpha 效果值不受此效果影响。
+second_title: Aspose.Sildes for .NET API 参考
+description: 不可变对象，表示双层（黑/白）效果。亮度低于指定阈值的输入颜色会被更改为黑色。亮度大于等于指定值的输入颜色会被设置为白色。Alpha 效果值不受此效果影响。
 type: docs
-weight: 3170
+weight: 3190
 url: /zh/aspose.slides.effects/ibileveleffectivedata/
 ---
 ## IBiLevelEffectiveData 接口
 
-不可变对象，表示双层（黑/白）效果。亮度小于指定阈值的输入颜色将被更改为黑色。亮度大于或等于指定值的输入颜色将被设置为白色。Alpha 效果值不受此效果影响。
+不可变对象，表示 Bi-Level（黑/白）效果。亮度低于指定阈值的输入颜色会被更改为黑色。亮度大于等于指定值的输入颜色会被设置为白色。Alpha 效果值不受此效果影响。
 
 ```csharp
 public interface IBiLevelEffectiveData : IEffectEffectiveData
@@ -18,10 +18,10 @@ public interface IBiLevelEffectiveData : IEffectEffectiveData
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ibileveleffectivedata/asieffecteffectivedata) { get; } | 允许获取基 IEffectEffectiveData 接口。只读 [`IEffectEffectiveData`](../ieffecteffectivedata)。 |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ibileveleffectivedata/asieffecteffectivedata) { get; } | 允许获取基准 IEffectEffectiveData 接口。只读 [`IEffectEffectiveData`](../ieffecteffectivedata)。 |
 | [Threshold](../../aspose.slides.effects/ibileveleffectivedata/threshold) { get; } | 返回阈值。只读 Single。 |
 
-### 另请参见
+### 另请参阅
 
 * 接口 [IEffectEffectiveData](../ieffecteffectivedata)
 * 命名空间 [Aspose.Slides.Effects](../../aspose.slides.effects)

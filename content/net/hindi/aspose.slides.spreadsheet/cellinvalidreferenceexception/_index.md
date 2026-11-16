@@ -1,29 +1,29 @@
 ---
 title: CellInvalidReferenceException
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: जब कोई अमान्य सेल रेफ़रेंस मिलता है तो फेंका जाने वाला अपवाद।
+description: जब कोई अमान्य सेल रेफ़रेंस पाया जाता है तो फेंका जाने वाला अपवाद।
 type: docs
-weight: 10720
+weight: 10740
 url: /hi/aspose.slides.spreadsheet/cellinvalidreferenceexception/
 ---
 ## CellInvalidReferenceException क्लास
 
-जब कोई अमान्य सेल रेफ़रेंस मिलता है तो फेंकी जाने वाली अपवाद।
+जब किसी अमान्य सेल रेफ़रेंस का सामना किया जाता है तो फेंकी जाने वाली अपवाद।
 
 ```csharp
 public class CellInvalidReferenceException : PptxEditException
 ```
 
-## Constructors
+## निर्माता
 
 | नाम | विवरण |
 | --- | --- |
-| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor)() | एक नया उदाहरण प्रारम्भ करता है [`CellInvalidReferenceException`](../cellinvalidreferenceexception) क्लास का। |
-| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_1)(string) | एक नया उदाहरण प्रारम्भ करता है [`CellInvalidReferenceException`](../cellinvalidreferenceexception) क्लास का, एक निर्दिष्ट त्रुटि संदेश के साथ। |
-| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_2)(string, Exception) | एक नया उदाहरण प्रारम्भ करता है [`CellInvalidReferenceException`](../cellinvalidreferenceexception) क्लास का, एक निर्दिष्ट त्रुटि संदेश और अंदरूनी अपवाद का एक रेफ़रेंस जिसके कारण यह अपवाद हुआ है। |
-| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_3)(string, string) | एक नया उदाहरण प्रारम्भ करता है [`CellCircularReferenceException`](../cellcircularreferenceexception) क्लास का, एक निर्दिष्ट त्रुटि संदेश और एक अमान्य सेल रेफ़रेंस के साथ। |
+| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor)() | एक नया [`CellInvalidReferenceException`](../cellinvalidreferenceexception) क्लास का उदाहरण आरंभ करता है। |
+| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_1)(string) | निर्दिष्ट त्रुटि संदेश के साथ एक नया [`CellInvalidReferenceException`](../cellinvalidreferenceexception) क्लास का उदाहरण आरंभ करता है। |
+| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_2)(string, Exception) | निर्दिष्ट त्रुटि संदेश और इस अपवाद का कारण बनने वाली आन्तरिक अपवाद का संदर्भ के साथ एक नया [`CellInvalidReferenceException`](../cellinvalidreferenceexception) क्लास का उदाहरण आरंभ करता है। |
+| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_3)(string, string) | निर्दिष्ट त्रुटि संदेश और एक अमान्य सेल रेफ़रेंस के साथ एक नया [`CellCircularReferenceException`](../cellcircularreferenceexception) क्लास का उदाहरण आरंभ करता है। |
 
-## Properties
+## गुण
 
 | नाम | विवरण |
 | --- | --- |

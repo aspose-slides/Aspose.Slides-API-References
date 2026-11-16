@@ -1,20 +1,20 @@
 ---
 title: ITransitionValueBase
-second_title: Aspose.Sildes for .NET API 参考
-description: 表示幻灯片过渡效果的基类。
+second_title: Aspose.Sildes 的 .NET API 参考
+description: 表示幻灯片切换效果的基类。
 type: docs
-weight: 10210
+weight: 10230
 url: /zh/aspose.slides.slideshow/itransitionvaluebase/
 ---
 ## ITransitionValueBase 接口
 
-表示幻灯片过渡效果的基类。
+表示幻灯片切换效果的基类。
 
 ```csharp
 public interface ITransitionValueBase
 ```
 
-### 另请参见
+### 另见
 
 * 命名空间 [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * 程序集 [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: Reflection
-second_title: Справочник API Aspose.Sildes для .NET
-description: Представляет эффект отражения.
+second_title: Aspose.Sildes для .NET справка API
+description: Представляет эффект Reflection.
 type: docs
-weight: 3640
+weight: 3660
 url: /ru/aspose.slides.effects/reflection/
 ---
-## Класс Reflection
+## Reflection класс
 
-Представляет эффект отражения.
+Представляет эффект Reflection.
 
 ```csharp
 public sealed class Reflection : IReflection
@@ -16,35 +16,35 @@ public sealed class Reflection : IReflection
 
 ## Свойства
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
 | [BlurRadius](../../aspose.slides.effects/reflection/blurradius) { get; set; } | Радиус размытия. Чтение/запись Double. |
 | [Direction](../../aspose.slides.effects/reflection/direction) { get; set; } | Направление отражения. Чтение/запись Single. |
 | [Distance](../../aspose.slides.effects/reflection/distance) { get; set; } | Расстояние отражения. Чтение/запись Double. |
-| [EndPosAlpha](../../aspose.slides.effects/reflection/endposalpha) { get; set; } | Задаёт конечную позицию (по градиенту альфа-наклона) конечного значения альфа (процентов). Чтение/запись Single. |
-| [EndReflectionOpacity](../../aspose.slides.effects/reflection/endreflectionopacity) { get; set; } | Конечная непрозрачность отражения (процентов). Чтение/запись Single. |
-| [FadeDirection](../../aspose.slides.effects/reflection/fadedirection) { get; set; } | Задаёт направление смещения отражения (угол). Чтение/запись Single. |
+| [EndPosAlpha](../../aspose.slides.effects/reflection/endposalpha) { get; set; } | Указывает конечную позицию (вдоль градиентной шкалы альфа) конечного значения альфа (в процентах). Чтение/запись Single. |
+| [EndReflectionOpacity](../../aspose.slides.effects/reflection/endreflectionopacity) { get; set; } | Прозрачность конечного отражения. (в процентах). Чтение/запись Single. |
+| [FadeDirection](../../aspose.slides.effects/reflection/fadedirection) { get; set; } | Указывает направление смещения отражения. (угол). Чтение/запись Single. |
 | [RectangleAlign](../../aspose.slides.effects/reflection/rectanglealign) { get; set; } | Выравнивание прямоугольника. Чтение/запись [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/reflection/rotateshadowwithshape) { get; set; } | Определяет, должно ли отражение вращаться вместе с фигурой при её вращении. Чтение/запись Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/reflection/scalehorizontal) { get; set; } | Горизонтальный коэффициент масштабирования, отрицательное значение приводит к отражению. (процентов) Чтение/запись Double. |
-| [ScaleVertical](../../aspose.slides.effects/reflection/scalevertical) { get; set; } | Вертикальный коэффициент масштабирования, отрицательное значение приводит к отражению. (процентов) Чтение/запись Double. |
-| [SkewHorizontal](../../aspose.slides.effects/reflection/skewhorizontal) { get; set; } | Задаёт горизонтальный угол наклона. Чтение/запись Double. |
-| [SkewVertical](../../aspose.slides.effects/reflection/skewvertical) { get; set; } | Задаёт вертикальный угол наклона. Чтение/запись Double. |
-| [StartPosAlpha](../../aspose.slides.effects/reflection/startposalpha) { get; set; } | Задаёт начальную позицию (по градиенту альфа-наклона) начального значения альфа (процентов). Чтение/запись Single. |
-| [StartReflectionOpacity](../../aspose.slides.effects/reflection/startreflectionopacity) { get; set; } | Начальная непрозрачность отражения (процентов). Чтение/запись Single. |
+| [RotateShadowWithShape](../../aspose.slides.effects/reflection/rotateshadowwithshape) { get; set; } | Указывает, должно ли отражение вращаться вместе с фигурой, если фигура вращена. Чтение/запись Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/reflection/scalehorizontal) { get; set; } | Указывает горизонтальный коэффициент масштабирования, отрицательное масштабирование приводит к отражению. (в процентах) Чтение/запись Double. |
+| [ScaleVertical](../../aspose.slides.effects/reflection/scalevertical) { get; set; } | Указывает вертикальный коэффициент масштабирования, отрицательное масштабирование приводит к отражению. (в процентах) Чтение/запись Double. |
+| [SkewHorizontal](../../aspose.slides.effects/reflection/skewhorizontal) { get; set; } | Указывает горизонтальный угол наклона. Чтение/запись Double. |
+| [SkewVertical](../../aspose.slides.effects/reflection/skewvertical) { get; set; } | Указывает вертикальный угол наклона. Чтение/запись Double. |
+| [StartPosAlpha](../../aspose.slides.effects/reflection/startposalpha) { get; set; } | Указывает начальную позицию (по градиенту альфа) начального значения альфа (в процентах). Чтение/запись Single. |
+| [StartReflectionOpacity](../../aspose.slides.effects/reflection/startreflectionopacity) { get; set; } | Прозрачность начального отражения. (в процентах). Чтение/запись Single. |
 
 ## Методы
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/reflection/equals)(object) | Определяет, равен ли указанный [`Reflection`](../reflection) текущему [`Reflection`](../reflection). |
-| [GetEffective](../../aspose.slides.effects/reflection/geteffective)() | Получает эффективные данные эффекта Reflection с учётом наследования. |
-| override [GetHashCode](../../aspose.slides.effects/reflection/gethashcode)() | Служит хеш-функцией для определённого типа. |
+| [GetEffective](../../aspose.slides.effects/reflection/geteffective)() | Получает фактические данные эффекта Reflection с учётом наследования. |
+| override [GetHashCode](../../aspose.slides.effects/reflection/gethashcode)() | Служит хеш-функцией для конкретного типа. |
 
-### See Also
+### См. также
 
-* interface [IReflection](../ireflection)
-* namespace [Aspose.Slides.Effects](../../aspose.slides.effects)
-* assembly [Aspose.Slides](../../)
+* интерфейс [IReflection](../ireflection)
+* пространство имён [Aspose.Slides.Effects](../../aspose.slides.effects)
+* сборка [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

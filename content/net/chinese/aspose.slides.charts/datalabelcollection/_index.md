@@ -1,9 +1,9 @@
 ---
 title: DataLabelCollection
-second_title: Aspose.Sildes 的 .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 表示系列标签。
 type: docs
-weight: 1560
+weight: 1570
 url: /zh/aspose.slides.charts/datalabelcollection/
 ---
 ## DataLabelCollection 类
@@ -16,23 +16,24 @@ public class DataLabelCollection : DomObject<ChartSeries>, IDataLabelCollection
 
 ## 属性
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
 | [Chart](../../aspose.slides.charts/datalabelcollection/chart) { get; } | 返回父图表。只读 [`IChart`](../ichart)。 |
 | [Count](../../aspose.slides.charts/datalabelcollection/count) { get; } | 获取集合中所有数据标签的数量。只读 Int32。 |
 | [CountOfVisibleDataLabels](../../aspose.slides.charts/datalabelcollection/countofvisibledatalabels) { get; } | 获取集合中可见数据标签的数量。只读 Int32。 |
 | [DefaultDataLabelFormat](../../aspose.slides.charts/datalabelcollection/defaultdatalabelformat) { get; } | 获取默认数据标签格式。只读 [`IDataLabelFormat`](../idatalabelformat)。 |
-| [IsVisible](../../aspose.slides.charts/datalabelcollection/isvisible) { get; } | False 表示数据标签默认不可见（因此 DefaultDataLabelFormat 属性的所有 Show*-flags（ShowValue，...）均为 false）。只读 Boolean。 |
-| [Item](../../aspose.slides.charts/datalabelcollection/item) { get; } | 获取具有指定索引的数据点的数据标签。 |
+| [DefaultLabelShapeType](../../aspose.slides.charts/datalabelcollection/defaultlabelshapetype) { get; set; } | 获取或设置数据标签的默认形状类型。如果未定义形状，则返回 NotDefined。 |
+| [IsVisible](../../aspose.slides.charts/datalabelcollection/isvisible) { get; } | False 表示默认情况下数据标签不可见（因此 DefaultDataLabelFormat 属性的所有 Show*-flags（ShowValue，...）均为 false）。只读 Boolean。 |
+| [Item](../../aspose.slides.charts/datalabelcollection/item) { get; } | 获取指定索引的数据点的数据标签。 |
 | [LeaderLinesFormat](../../aspose.slides.charts/datalabelcollection/leaderlinesformat) { get; } | 表示数据标签引导线格式。只读 [`IChartLinesFormat`](../ichartlinesformat)。 |
 | [ParentSeries](../../aspose.slides.charts/datalabelcollection/parentseries) { get; } | 获取父系列。只读 [`IChartSeries`](../ichartseries)。 |
 
 ## 方法
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
 | [GetEnumerator](../../aspose.slides.charts/datalabelcollection/getenumerator)() | 返回一个遍历集合的枚举器。 |
-| [Hide](../../aspose.slides.charts/datalabelcollection/hide)() | 通过将 DefaultDataLabelFormat 属性的所有 Show*-flags（ShowValue，...）设置为 false 状态，使数据标签默认隐藏。之后 IsVisible 将为 false。 |
+| [Hide](../../aspose.slides.charts/datalabelcollection/hide)() | 通过将 DefaultDataLabelFormat 属性的所有 Show*-flags（ShowValue，...）设为 false，使数据标签默认隐藏。之后 IsVisible 将为 false。 |
 | [IndexOf](../../aspose.slides.charts/datalabelcollection/indexof)(IDataLabel) | 返回集合中指定 DataLabel 的索引。 |
 
 ### 另请参阅

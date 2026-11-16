@@ -1,9 +1,9 @@
 ---
 title: IShapeStyle
-second_title: Справочник API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET справочника API
 description: Представляет ссылку на стиль фигур.
 type: docs
-weight: 7010
+weight: 7030
 url: /ru/aspose.slides/ishapestyle/
 ---
 ## IShapeStyle интерфейс
@@ -27,7 +27,7 @@ public interface IShapeStyle
 | [LineColor](../../aspose.slides/ishapestyle/linecolor) { get; } | Возвращает цвет контура фигуры. Только для чтения [`IColorFormat`](../icolorformat). |
 | [LineStyleIndex](../../aspose.slides/ishapestyle/linestyleindex) { get; set; } | Возвращает или задает индекс столбца линии в матрице стилей. Чтение/запись UInt16. |
 
-### См. также
+### Смотрите также
 
 * пространство имён [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

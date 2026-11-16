@@ -1,14 +1,14 @@
 ---
 title: Explosion
-second_title: Aspose.Sildes para .NET Referência da API
-description: Especifica a quantidade que o ponto de dados deve ser deslocado a partir do centro da pizza. Leitura/gravação Int32.
+second_title: Aspose.Sildes para Referência da API .NET
+description: Especifica a quantidade que o ponto de dados deve ser deslocado do centro da pizza. Leitura/gravação Int32.
 type: docs
-weight: 90
+weight: 130
 url: /pt/aspose.slides.charts/chartdatapoint/explosion/
 ---
 ## ChartDataPoint.Explosion propriedade
 
-Especifica a quantidade que o ponto de dados deve ser deslocado a partir do centro da pizza. Leitura/gravação Int32.
+Especifica a quantidade que o ponto de dados deve ser deslocado do centro da pizza. Leitura/gravação Int32.
 
 ```csharp
 public int Explosion { get; set; }

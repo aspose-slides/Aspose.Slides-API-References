@@ -1,35 +1,35 @@
 ---
 title: GifOptions
-second_title: Aspose.Sildes .NET API 參考
-description: 表示 GIF 匯出選項。
+second_title: Aspose.Sildes for .NET API 參考
+description: 代表 GIF 匯出選項。
 type: docs
-weight: 3820
+weight: 3840
 url: /zh-hant/aspose.slides.export/gifoptions/
 ---
 ## GifOptions 類別
 
-表示 GIF 匯出選項。
+代表 GIF 匯出選項。
 
 ```csharp
 public class GifOptions : SaveOptions, IGifOptions
 ```
 
-## 建構函式
+## 建構式
 
-| Name | Description |
+| 名稱 | 說明 |
 | --- | --- |
 | [GifOptions](gifoptions)() | 初始化 GifOptions 類別的新執行個體。 |
 
 ## 屬性
 
-| Name | Description |
+| 名稱 | 說明 |
 | --- | --- |
-| [DefaultDelay](../../aspose.slides.export/gifoptions/defaultdelay) { get; set; } | 取得或設定預設延遲時間[ms]。如果未設定 [`AdvanceAfterTime`](../../aspose.slides/islideshowtransition/advanceaftertime)，則使用此值。預設值為 1000。 |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | 取得或設定在找不到來源字型時使用的字型。可讀寫 String。 |
-| [ExportHiddenSlides](../../aspose.slides.export/gifoptions/exporthiddenslides) { get; set; } | 判斷是否匯出隱藏投影片。預設值為 false。 |
-| [FrameSize](../../aspose.slides.export/gifoptions/framesize) { get; set; } | 取得或設定框架大小。 |
+| [DefaultDelay](../../aspose.slides.export/gifoptions/defaultdelay) { get; set; } | 取得或設定預設延遲時間 [ms]。如果未設定 [`AdvanceAfterTime`](../../aspose.slides/islideshowtransition/advanceaftertime)，則使用此值。預設值為 1000。 |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | 取得或設定在找不到來源字型時所使用的字型。可讀寫 String。 |
+| [ExportHiddenSlides](../../aspose.slides.export/gifoptions/exporthiddenslides) { get; set; } | 判斷是否匯出隱藏的投影片。預設值為 false。 |
+| [FrameSize](../../aspose.slides.export/gifoptions/framesize) { get; set; } | 取得或設定影格大小。 |
 | [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | 取得或設定漸層的視覺樣式。可讀寫 [`GradientStyle`](../../aspose.slides/gradientstyle)。 |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 表示用於儲存以百分比顯示的進度更新的回呼物件。參見 [`IProgressCallback`](../../aspose.slides/iprogresscallback)。 |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 代表用於儲存進度百分比更新的回呼物件。請參閱 [`IProgressCallback`](../../aspose.slides/iprogresscallback)。 |
 | [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | 指定在儲存簡報時是否跳過包含 JavaScript 呼叫的超連結。可讀寫 Boolean。預設值為 **false**。 |
 | [TransitionFps](../../aspose.slides.export/gifoptions/transitionfps) { get; set; } | 取得或設定轉場 FPS [frames/sec]。預設值為 25。 |
 | [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 取得或設定接收警告並決定載入程序是否繼續或中止的物件。可讀寫 [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)。 |
@@ -45,8 +45,8 @@ using (Presentation pres = new Presentation("pres.pptx"))
     pres.Save("pres.gif", SaveFormat.Gif, new GifOptions
     {
         FrameSize = new Size(960, 720), // 產生的 GIF 大小
-        DefaultDelay = 2000, // 每張投影片顯示的時間長度，直到切換到下一張為止
-        TransitionFps = 35 // 提高 FPS 以提升轉場動畫品質
+        DefaultDelay = 2000, // 每張投影片顯示的時間，直到切換到下一張為止
+        TransitionFps = 35 // 提升 FPS 以獲得更佳的轉場動畫品質
     });
 }
 ```

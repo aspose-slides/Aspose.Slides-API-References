@@ -3,12 +3,12 @@ title: LineFormatCollection
 second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 선 스타일 컬렉션을 나타냅니다.
 type: docs
-weight: 11420
+weight: 11440
 url: /ko/aspose.slides.theme/lineformatcollection/
 ---
 ## LineFormatCollection 클래스
 
-선 스타일 컬렉션을 나타냅니다.
+컬렉션의 선 스타일을 나타냅니다.
 
 ```csharp
 public sealed class LineFormatCollection : DomObject<FormatScheme>, ILineFormatCollection
@@ -19,7 +19,7 @@ public sealed class LineFormatCollection : DomObject<FormatScheme>, ILineFormatC
 | 이름 | 설명 |
 | --- | --- |
 | [Count](../../aspose.slides.theme/lineformatcollection/count) { get; } | 컬렉션에 실제로 포함된 요소 수를 가져옵니다. 읽기 전용 Int32. |
-| [IsSynchronized](../../aspose.slides.theme/lineformatcollection/issynchronized) { get; } | 컬렉션에 대한 액세스가 동기화(스레드 안전)되는지 여부를 나타내는 값을 반환합니다. 읽기 전용 Boolean. |
+| [IsSynchronized](../../aspose.slides.theme/lineformatcollection/issynchronized) { get; } | 컬렉션에 대한 접근이 동기화(스레드 안전)되는지 여부를 나타내는 값을 반환합니다. 읽기 전용 Boolean. |
 | [Item](../../aspose.slides.theme/lineformatcollection/item) { get; } | 지정된 인덱스에 있는 요소를 가져옵니다. 읽기 전용 [`ILineFormat`](../../aspose.slides/ilineformat). |
 | [SyncRoot](../../aspose.slides.theme/lineformatcollection/syncroot) { get; } | 동기화 루트를 반환합니다. 읽기 전용 Object. |
 
@@ -27,10 +27,10 @@ public sealed class LineFormatCollection : DomObject<FormatScheme>, ILineFormatC
 
 | 이름 | 설명 |
 | --- | --- |
-| [CopyTo](../../aspose.slides.theme/lineformatcollection/copyto)(Array, int) | 컬렉션의 모든 요소를 지정된 배열에 복사합니다. |
+| [CopyTo](../../aspose.slides.theme/lineformatcollection/copyto)(Array, int) | 컬렉션의 모든 요소를 지정된 배열로 복사합니다. |
 | [GetEnumerator](../../aspose.slides.theme/lineformatcollection/getenumerator)() | 컬렉션을 반복하는 열거자를 반환합니다. |
 
-### 관련 항목
+### 참조
 
 * 클래스 [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * 클래스 [FormatScheme](../formatscheme)

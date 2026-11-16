@@ -1,14 +1,14 @@
 ---
 title: FillOverlay
 second_title: Aspose.Sildes for .NET API リファレンス
-description: Fill Overlay 効果を表します。Fill Overlay は、オブジェクトに追加の塗りを指定し、2 つの塗りをブレンドするために使用できます。
+description: Fill Overlay 効果を表します。Fill Overlay はオブジェクトに追加の塗りを指定し、2 つの塗りをブレンドするために使用できます。
 type: docs
-weight: 2980
+weight: 3000
 url: /ja/aspose.slides.effects/filloverlay/
 ---
 ## FillOverlay クラス
 
-Fill Overlay 効果を表します。Fill Overlay は、オブジェクトに追加の塗りを指定し、2 つの塗りをブレンドするために使用できます。
+Fill Overlay 効果を表します。Fill Overlay はオブジェクトに追加の塗りを指定し、2 つの塗りをブレンドするために使用できます。
 
 ```csharp
 public sealed class FillOverlay : ImageTransformOperation, IFillOverlay

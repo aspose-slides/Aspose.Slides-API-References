@@ -1,9 +1,9 @@
 ---
 title: ImageTransformOperation
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes for .NET APIリファレンス
 description: 抽象的な画像変換効果を表します。
 type: docs
-weight: 3570
+weight: 3590
 url: /ja/aspose.slides.effects/imagetransformoperation/
 ---
 ## ImageTransformOperation クラス

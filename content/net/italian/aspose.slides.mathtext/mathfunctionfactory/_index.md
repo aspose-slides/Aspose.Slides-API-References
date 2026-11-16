@@ -1,14 +1,14 @@
 ---
 title: MathFunctionFactory
-second_title: Aspose.Sildes per .NET Riferimento API
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Consente di creare una funzione matematica
 type: docs
-weight: 8730
+weight: 8750
 url: /it/aspose.slides.mathtext/mathfunctionfactory/
 ---
 ## MathFunctionFactory classe
 
-Permette di creare una funzione matematica
+Consente di creare una funzione matematica
 
 ```csharp
 public class MathFunctionFactory : IMathFunctionFactory
@@ -16,16 +16,16 @@ public class MathFunctionFactory : IMathFunctionFactory
 
 ## Costruttori
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
 | [MathFunctionFactory](mathfunctionfactory)() | Il costruttore predefinito. |
 
 ## Metodi
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
-| [CreateMathFunction](../../aspose.slides.mathtext/mathfunctionfactory/createmathfunction#createmathfunction)(IMathElement, IMathElement) | Crea funzione matematica |
-| [CreateMathFunction](../../aspose.slides.mathtext/mathfunctionfactory/createmathfunction#createmathfunction_1)(string, IMathElement) | Crea funzione matematica |
+| [CreateMathFunction](../../aspose.slides.mathtext/mathfunctionfactory/createmathfunction#createmathfunction)(IMathElement, IMathElement) | Crea una funzione matematica |
+| [CreateMathFunction](../../aspose.slides.mathtext/mathfunctionfactory/createmathfunction#createmathfunction_1)(string, IMathElement) | Crea una funzione matematica |
 
 ### Osservazioni
 

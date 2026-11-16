@@ -3,12 +3,12 @@ title: ITabCollection
 second_title: Aspose.Sildes for .NET API リファレンス
 description: タブのコレクションを表します。
 type: docs
-weight: 7200
+weight: 7220
 url: /ja/aspose.slides/itabcollection/
 ---
 ## ITabCollection インターフェイス
 
-タブのコレクションを表します。
+Represents a collection of tabs.
 
 ```csharp
 public interface ITabCollection : IGenericCollection<ITab>
@@ -16,17 +16,17 @@ public interface ITabCollection : IGenericCollection<ITab>
 
 ## プロパティ
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
-| [Item](../../aspose.slides/itabcollection/item) { get; } | 指定されたインデックスの要素を取得します。読み取り専用 [`ITab`](../itab)。 |
+| [Item](../../aspose.slides/itabcollection/item) { get; } | 指定されたインデックスの要素を取得します。 読み取り専用 [`ITab`](../itab)。 |
 
 ## メソッド
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
 | [Add](../../aspose.slides/itabcollection/add#add_1)(ITab) | コレクションに Tab を追加します。 |
 | [Add](../../aspose.slides/itabcollection/add#add)(double, TabAlignment) | コレクションに Tab を追加します。 |
-| [Clear](../../aspose.slides/itabcollection/clear)() | コレクション内のすべての要素を削除します。 |
+| [Clear](../../aspose.slides/itabcollection/clear)() | コレクションからすべての要素を削除します。 |
 | [RemoveAt](../../aspose.slides/itabcollection/removeat)(int) | コレクションの指定されたインデックスの要素を削除します。 |
 
 ### 参照

@@ -3,7 +3,7 @@ title: IRowFormatEffectiveData
 second_title: Referência da API Aspose.Sildes para .NET
 description: Objeto imutável que contém propriedades de formatação efetiva de linhas de tabela.
 type: docs
-weight: 6880
+weight: 6900
 url: /pt/aspose.slides/irowformateffectivedata/
 ---
 ## IRowFormatEffectiveData interface
@@ -22,7 +22,7 @@ public interface IRowFormatEffectiveData : IBaseTableFormatEffectiveData
 
 ### Observações
 
-Esta interface é usada junto com a interface [`IRowFormat`](../irowformat) para retornar valores de formatação efetiva com herança e estilos de tabela aplicados.
+Esta interface é usada juntamente com a interface [`IRowFormat`](../irowformat) para retornar valores de formatação efetiva com herança e estilos de tabela aplicados.
 
 ### Veja Também
 

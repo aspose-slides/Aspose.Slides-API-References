@@ -3,7 +3,7 @@ title: LineFormat
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt das Format einer Linie dar.
 type: docs
-weight: 7790
+weight: 7810
 url: /de/aspose.slides/lineformat/
 ---
 ## LineFormat Klasse
@@ -18,32 +18,32 @@ public sealed class LineFormat : PVIObject, ILineFormat
 
 | Name | Beschreibung |
 | --- | --- |
-| [Alignment](../../aspose.slides/lineformat/alignment) { get; set; } | Gibt die Linienausrichtung zurück oder legt sie fest. Lesen/Schreiben [`LineAlignment`](../linealignment). |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Ermöglicht das Abrufen der Basis-IPresentationComponent-Schnittstelle. Nur-Lesen [`IPresentationComponent`](../ipresentationcomponent). |
-| [BeginArrowheadLength](../../aspose.slides/lineformat/beginarrowheadlength) { get; set; } | Gibt die Pfeilspitzenlänge am Anfang einer Linie zurück oder legt sie fest. Lesen/Schreiben [`LineArrowheadLength`](../linearrowheadlength). |
-| [BeginArrowheadStyle](../../aspose.slides/lineformat/beginarrowheadstyle) { get; set; } | Gibt den Pfeilspitzenstil am Anfang einer Linie zurück oder legt ihn fest. Lesen/Schreiben [`LineArrowheadStyle`](../linearrowheadstyle). |
-| [BeginArrowheadWidth](../../aspose.slides/lineformat/beginarrowheadwidth) { get; set; } | Gibt die Pfeilspitzenbreite am Anfang einer Linie zurück oder legt sie fest. Lesen/Schreiben [`LineArrowheadWidth`](../linearrowheadwidth). |
-| [CapStyle](../../aspose.slides/lineformat/capstyle) { get; set; } | Gibt den Linienende-Stil zurück oder legt ihn fest. Lesen/Schreiben [`LineCapStyle`](../linecapstyle). |
-| [CustomDashPattern](../../aspose.slides/lineformat/customdashpattern) { get; set; } | Gibt das benutzerdefinierte Strichmuster zurück oder legt es fest. Lesen/Schreiben Single[]. |
-| [DashStyle](../../aspose.slides/lineformat/dashstyle) { get; set; } | Gibt den Linienstil zurück oder legt ihn fest. Lesen/Schreiben [`LineDashStyle`](../linedashstyle). |
-| [EndArrowheadLength](../../aspose.slides/lineformat/endarrowheadlength) { get; set; } | Gibt die Pfeilspitzenlänge am Ende einer Linie zurück oder legt sie fest. Lesen/Schreiben [`LineArrowheadLength`](../linearrowheadlength). |
-| [EndArrowheadStyle](../../aspose.slides/lineformat/endarrowheadstyle) { get; set; } | Gibt den Pfeilspitzenstil am Ende einer Linie zurück oder legt ihn fest. Lesen/Schreiben [`LineArrowheadStyle`](../linearrowheadstyle). |
-| [EndArrowheadWidth](../../aspose.slides/lineformat/endarrowheadwidth) { get; set; } | Gibt die Pfeilspitzenbreite am Ende einer Linie zurück oder legt sie fest. Lesen/Schreiben [`LineArrowheadWidth`](../linearrowheadwidth). |
-| [FillFormat](../../aspose.slides/lineformat/fillformat) { get; } | Gibt das Füllformat einer Linie zurück. Nur-Lesen [`ILineFillFormat`](../ilinefillformat). |
-| [IsFormatNotDefined](../../aspose.slides/lineformat/isformatnotdefined) { get; } | Gibt true zurück, wenn das Linienformat nicht definiert ist (so wie gerade erstellt, Standard). Nur-Lesen Boolean. |
-| [JoinStyle](../../aspose.slides/lineformat/joinstyle) { get; set; } | Gibt den Linienverbindungsstil zurück oder legt ihn fest. Lesen/Schreiben [`LineJoinStyle`](../linejoinstyle). |
-| [MiterLimit](../../aspose.slides/lineformat/miterlimit) { get; set; } | Gibt die Gehrungsgrenze einer Linie zurück oder legt sie fest. Lesen/Schreiben Single. |
-| [SketchFormat](../../aspose.slides/lineformat/sketchformat) { get; } | Gibt das Skizzenformat einer Linie zurück. Nur-Lesen [`ILineFillFormat`](../ilinefillformat). |
-| [Style](../../aspose.slides/lineformat/style) { get; set; } | Gibt den Linienstil zurück oder legt ihn fest. Lesen/Schreiben [`LineStyle`](../linestyle). |
-| [Width](../../aspose.slides/lineformat/width) { get; set; } | Gibt die Breite einer Linie zurück oder legt sie fest. Lesen/Schreiben Double. |
+| [Alignment](../../aspose.slides/lineformat/alignment) { get; set; } | Gibt die Linienausrichtung zurück oder legt sie fest. Lese-/Schreib [`LineAlignment`](../linealignment). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Ermöglicht das Abrufen der Basis-IPresentationComponent-Schnittstelle. Nur-Lese [`IPresentationComponent`](../ipresentationcomponent). |
+| [BeginArrowheadLength](../../aspose.slides/lineformat/beginarrowheadlength) { get; set; } | Gibt die Pfeilspitzenlänge am Anfang einer Linie zurück oder legt sie fest. Lese-/Schreib [`LineArrowheadLength`](../linearrowheadlength). |
+| [BeginArrowheadStyle](../../aspose.slides/lineformat/beginarrowheadstyle) { get; set; } | Gibt den Pfeilspitzenstil am Anfang einer Linie zurück oder legt ihn fest. Lese-/Schreib [`LineArrowheadStyle`](../linearrowheadstyle). |
+| [BeginArrowheadWidth](../../aspose.slides/lineformat/beginarrowheadwidth) { get; set; } | Gibt die Pfeilspitzenbreite am Anfang einer Linie zurück oder legt sie fest. Lese-/Schreib [`LineArrowheadWidth`](../linearrowheadwidth). |
+| [CapStyle](../../aspose.slides/lineformat/capstyle) { get; set; } | Gibt den Linienende-Stil zurück oder legt ihn fest. Lese-/Schreib [`LineCapStyle`](../linecapstyle). |
+| [CustomDashPattern](../../aspose.slides/lineformat/customdashpattern) { get; set; } | Gibt das benutzerdefinierte Strichmuster zurück oder legt es fest. Lese-/Schreib Single[]. |
+| [DashStyle](../../aspose.slides/lineformat/dashstyle) { get; set; } | Gibt den Linienstil zurück oder legt ihn fest. Lese-/Schreib [`LineDashStyle`](../linedashstyle). |
+| [EndArrowheadLength](../../aspose.slides/lineformat/endarrowheadlength) { get; set; } | Gibt die Pfeilspitzenlänge am Ende einer Linie zurück oder legt sie fest. Lese-/Schreib [`LineArrowheadLength`](../linearrowheadlength). |
+| [EndArrowheadStyle](../../aspose.slides/lineformat/endarrowheadstyle) { get; set; } | Gibt den Pfeilspitzenstil am Ende einer Linie zurück oder legt ihn fest. Lese-/Schreib [`LineArrowheadStyle`](../linearrowheadstyle). |
+| [EndArrowheadWidth](../../aspose.slides/lineformat/endarrowheadwidth) { get; set; } | Gibt die Pfeilspitzenbreite am Ende einer Linie zurück oder legt sie fest. Lese-/Schreib [`LineArrowheadWidth`](../linearrowheadwidth). |
+| [FillFormat](../../aspose.slides/lineformat/fillformat) { get; } | Gibt das Füllformat einer Linie zurück. Nur-Lese [`ILineFillFormat`](../ilinefillformat). |
+| [IsFormatNotDefined](../../aspose.slides/lineformat/isformatnotdefined) { get; } | Gibt true zurück, wenn das Linienformat nicht definiert ist (so wie gerade erstellt, Standard). Nur-Lese Boolean. |
+| [JoinStyle](../../aspose.slides/lineformat/joinstyle) { get; set; } | Gibt den Linienverbindungsstil zurück oder legt ihn fest. Lese-/Schreib [`LineJoinStyle`](../linejoinstyle). |
+| [MiterLimit](../../aspose.slides/lineformat/miterlimit) { get; set; } | Gibt die Gehrungsbegrenzung einer Linie zurück oder legt sie fest. Lese-/Schreib Single. |
+| [SketchFormat](../../aspose.slides/lineformat/sketchformat) { get; } | Gibt das Skizzenformat einer Linie zurück. Nur-Lese [`ILineFillFormat`](../ilinefillformat). |
+| [Style](../../aspose.slides/lineformat/style) { get; set; } | Gibt den Linienstil zurück oder legt ihn fest. Lese-/Schreib [`LineStyle`](../linestyle). |
+| [Width](../../aspose.slides/lineformat/width) { get; set; } | Gibt die Breite einer Linie zurück oder legt sie fest. Lese-/Schreib Double. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [Equals](../../aspose.slides/lineformat/equals#equals)(ILineFormat) | Bestimmt, ob die beiden LineFormat-Instanzen gleich sind. |
+| [Equals](../../aspose.slides/lineformat/equals#equals)(ILineFormat) | Ermittelt, ob die beiden LineFormat-Instanzen gleich sind. |
 | override [Equals](../../aspose.slides/lineformat/equals#equals_1)(object) |  |
-| [GetEffective](../../aspose.slides/lineformat/geteffective)() | Ruft effektive Linienformatierungsdaten ab, wobei die Vererbung angewendet wird. |
+| [GetEffective](../../aspose.slides/lineformat/geteffective)() | Ruft die wirksamen Linienformatierungsdaten mit angewandter Vererbung ab. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Gibt den Hashcode zurück. |
 
 ### Siehe auch

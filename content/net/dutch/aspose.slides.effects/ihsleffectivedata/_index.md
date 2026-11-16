@@ -3,7 +3,7 @@ title: IHSLEffectiveData
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Stelt een Hue/Saturation/Luminance-effect voor. De hue, saturation en luminance kunnen elk worden aangepast ten opzichte van hun huidige waarde.
 type: docs
-weight: 3370
+weight: 3390
 url: /nl/aspose.slides.effects/ihsleffectivedata/
 ---
 ## IHSLEffectiveData interface
@@ -18,10 +18,10 @@ public interface IHSLEffectiveData : IEffectEffectiveData
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ihsleffectivedata/asieffecteffectivedata) { get; } | Staat toe om de basis IEffectEffectiveData interface op te halen. Alleen-lezen [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Hue](../../aspose.slides.effects/ihsleffectivedata/hue) { get; } | Geeft hue-percentage terug. Alleen-lezen Single. |
-| [Luminance](../../aspose.slides.effects/ihsleffectivedata/luminance) { get; } | Geeft luminance-percentage terug. Alleen-lezen Single. |
-| [Saturation](../../aspose.slides.effects/ihsleffectivedata/saturation) { get; } | Geeft saturation-percentage terug. Alleen-lezen Single. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ihsleffectivedata/asieffecteffectivedata) { get; } | Staat toe om de basis IEffectEffectiveData interface op te vragen. Alleen-lezen [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Hue](../../aspose.slides.effects/ihsleffectivedata/hue) { get; } | Retourneert hue-percentage. Alleen-lezen Single. |
+| [Luminance](../../aspose.slides.effects/ihsleffectivedata/luminance) { get; } | Retourneert luminance-percentage. Alleen-lezen Single. |
+| [Saturation](../../aspose.slides.effects/ihsleffectivedata/saturation) { get; } | Retourneert saturation-percentage. Alleen-lezen Single. |
 
 ### Zie ook
 

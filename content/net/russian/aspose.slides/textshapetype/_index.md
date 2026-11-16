@@ -1,9 +1,9 @@
 ---
 title: TextShapeType
-second_title: Справочник API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET справки по API
 description: Представляет форму обтекания текста.
 type: docs
-weight: 10980
+weight: 11000
 url: /ru/aspose.slides/textshapetype/
 ---
 ## TextShapeType перечисление
@@ -16,10 +16,10 @@ public enum TextShapeType : sbyte
 
 ### Значения
 
-| Name | Value | Description |
+| Имя | Значение | Описание |
 | --- | --- | --- |
 | NotDefined | `-1` | Не определено |
-| None | `0` | Нет фигуры |
+| None | `0` | Нет формы |
 | Plain | `1` | Простая |
 | Stop | `2` | Знак стоп |
 | Triangle | `3` | Треугольник |
@@ -28,18 +28,18 @@ public enum TextShapeType : sbyte
 | ChevronInverted | `6` | Перевернутый шеврон |
 | RingInside | `7` | Внутреннее кольцо |
 | RingOutside | `8` | Внешнее кольцо |
-| ArchUp | `9` | Вверхняя арка |
-| ArchDown | `10` | Нисходящая арка |
+| ArchUp | `9` | Верхняя арка |
+| ArchDown | `10` | Нижняя арка |
 | Circle | `11` | Круг |
 | Button | `12` | Кнопка |
-| ArchUpPour | `13` | Вверхняя арка наливания |
-| ArchDownPour | `14` | Нисходящая арка наливания |
-| CirclePour | `15` | Круг наливания |
-| ButtonPour | `16` | Кнопка наливания |
-| CurveUp | `17` | Вверхняя кривая |
-| CurveDown | `18` | Нисходящая кривая |
-| CanUp | `19` | Верхняя банка |
-| CanDown | `20` | Нижняя банка |
+| ArchUpPour | `13` | Верхняя арка налив |
+| ArchDownPour | `14` | Нижняя арка налив |
+| CirclePour | `15` | Круг налив |
+| ButtonPour | `16` | Кнопка налив |
+| CurveUp | `17` | Верхняя кривая |
+| CurveDown | `18` | Нижняя кривая |
+| CanUp | `19` | Канистра вверх |
+| CanDown | `20` | Канистра вниз |
 | Wave1 | `21` | Волна 1 |
 | Wave2 | `22` | Волна 2 |
 | DoubleWave1 | `23` | Двойная волна 1 |
@@ -52,10 +52,10 @@ public enum TextShapeType : sbyte
 | DeflateTop | `30` | Сдуть сверху |
 | DeflateInflate | `31` | Сдуть-надуть |
 | DeflateInflateDeflate | `32` | Сдуть-надуть-сдуть |
-| FadeRight | `33` | Затухание справа |
-| FadeLeft | `34` | Затухание слева |
-| FadeUp | `35` | Затухание вверх |
-| FadeDown | `36` | Затухание вниз |
+| FadeRight | `33` | Постепенное исчезновение справа |
+| FadeLeft | `34` | Постепенное исчезновение слева |
+| FadeUp | `35` | Постепенное исчезновение вверх |
+| FadeDown | `36` | Постепенное исчезновение вниз |
 | SlantUp | `37` | Наклон вверх |
 | SlantDown | `38` | Наклон вниз |
 | CascadeUp | `39` | Каскад вверх |

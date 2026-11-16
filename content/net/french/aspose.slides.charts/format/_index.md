@@ -3,10 +3,10 @@ title: Format
 second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Représente les propriétés de format du graphique.
 type: docs
-weight: 1680
+weight: 1690
 url: /fr/aspose.slides.charts/format/
 ---
-## Classe Format
+## Format classe
 
 Représente les propriétés de format du graphique.
 
@@ -16,9 +16,9 @@ public sealed class Format : PVIObject, IFormat
 
 ## Propriétés
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permet d'obtenir l'interface de base IPresentationComponent. Lecture seule [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permet d'obtenir l'interface IPresentationComponent de base. Lecture seule [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 | [Effect](../../aspose.slides.charts/format/effect) { get; } | Renvoie les effets utilisés pour un graphique. Lecture seule [`IEffectFormat`](../../aspose.slides/ieffectformat). |
 | [Effect3D](../../aspose.slides.charts/format/effect3d) { get; } | Renvoie le format 3D d'un graphique. Lecture seule [`IThreeDFormat`](../../aspose.slides/ithreedformat). |
 | [Fill](../../aspose.slides.charts/format/fill) { get; } | Renvoie les propriétés du style de remplissage d'un graphique. Lecture seule [`IFillFormat`](../../aspose.slides/ifillformat). |
@@ -26,7 +26,7 @@ public sealed class Format : PVIObject, IFormat
 
 ## Méthodes
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Compare avec l'objet spécifié. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Renvoie le code de hachage. |

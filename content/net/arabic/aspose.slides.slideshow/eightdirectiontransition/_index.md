@@ -1,14 +1,14 @@
 ---
 title: EightDirectionTransition
-second_title: Aspose.Sildes لـ .NET مرجع API
-description: تأثير انتقال شريحة في ثمانية اتجاهات.
+second_title: مرجع API لـ Aspose.Sildes لـ .NET
+description: تأثير انتقال الشريحة في ثمانية اتجاهات.
 type: docs
-weight: 10020
+weight: 10040
 url: /ar/aspose.slides.slideshow/eightdirectiontransition/
 ---
 ## EightDirectionTransition فئة
 
-تأثير انتقال شريحة في ثمانية اتجاهات.
+تأثير انتقال الشريحة في ثمانية اتجاهات.
 
 ```csharp
 public class EightDirectionTransition : TransitionValueBase, IEightDirectionTransition
@@ -24,7 +24,7 @@ public class EightDirectionTransition : TransitionValueBase, IEightDirectionTran
 
 | الاسم | الوصف |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | يحدد ما إذا كان مثليا TransitionValueBase الاثنين متساويين. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | يحدد ما إذا كانت مثيلتي TransitionValueBase متساويتين. |
 | override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | يعمل كدالة تجزئة لنوع معين، مناسبة للاستخدام في خوارزميات التجزئة والهياكل البيانية مثل جدول التجزئة. |
 
 ### انظر أيضًا

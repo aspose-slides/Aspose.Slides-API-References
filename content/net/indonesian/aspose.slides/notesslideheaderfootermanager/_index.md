@@ -3,12 +3,10 @@ title: NotesSlideHeaderFooterManager
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili manajer yang menyimpan perilaku placeholder slide catatan termasuk placeholder header.
 type: docs
-weight: 9150
+weight: 9170
 url: /id/aspose.slides/notesslideheaderfootermanager/
 ---
 ## NotesSlideHeaderFooterManager kelas
-
-Mewakili manajer yang menyimpan perilaku placeholder slide catatan, termasuk placeholder header.
 
 ```csharp
 public sealed class NotesSlideHeaderFooterManager : BaseHandoutNotesSlideHeaderFooterManager, 
@@ -19,10 +17,10 @@ public sealed class NotesSlideHeaderFooterManager : BaseHandoutNotesSlideHeaderF
 
 | Nama | Deskripsi |
 | --- | --- |
-| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | Mendapatkan nilai yang menunjukkan bahwa placeholder tanggal-waktu ada. ReadBoolean. |
-| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | Mendapatkan nilai yang menunjukkan bahwa placeholder footer ada. Read Boolean. |
-| [IsHeaderVisible](../../aspose.slides/basehandoutnotesslideheaderfootermanager/isheadervisible) { get; } | Mendapatkan nilai yang menunjukkan bahwa placeholder header ada. Read Boolean. |
-| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | Mendapatkan nilai yang menunjukkan bahwa placeholder nomor halaman ada. ReadBoolean. |
+| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | Mengambil nilai yang menunjukkan bahwa placeholder tanggal-waktu ada. ReadBoolean. |
+| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | Mengambil nilai yang menunjukkan bahwa placeholder footer ada. Read Boolean. |
+| [IsHeaderVisible](../../aspose.slides/basehandoutnotesslideheaderfootermanager/isheadervisible) { get; } | Mengambil nilai yang menunjukkan bahwa placeholder header ada. Read Boolean. |
+| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | Mengambil nilai yang menunjukkan bahwa placeholder nomor halaman ada. ReadBoolean. |
 
 ## Metode
 

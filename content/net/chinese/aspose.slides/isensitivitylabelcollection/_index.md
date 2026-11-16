@@ -1,14 +1,14 @@
 ---
 title: ISensitivityLabelCollection
-second_title: Aspose.Sildes for .NET API 参考
-description: 表示文档上应用的灵敏度标签集合。
+second_title: Aspose.Sildes .NET API 参考
+description: 表示应用于文档的敏感度标签集合。
 type: docs
-weight: 6940
+weight: 6960
 url: /zh/aspose.slides/isensitivitylabelcollection/
 ---
 ## ISensitivityLabelCollection 接口
 
-表示文档上应用的灵敏度标签集合。
+表示应用于文档的敏感度标签集合。
 
 ```csharp
 public interface ISensitivityLabelCollection : IEnumerable<ISensitivityLabel>
@@ -16,19 +16,19 @@ public interface ISensitivityLabelCollection : IEnumerable<ISensitivityLabel>
 
 ## 属性
 
-| 名称 | 说明 |
+| 名称 | 描述 |
 | --- | --- |
 | [Count](../../aspose.slides/isensitivitylabelcollection/count) { get; } | 获取集合中所有元素的数量。只读 Int32。 |
-| [Item](../../aspose.slides/isensitivitylabelcollection/item) { get; } | 按索引返回灵敏度标签。只读 [`ISensitivityLabel`](../isensitivitylabel)。 |
+| [Item](../../aspose.slides/isensitivitylabelcollection/item) { get; } | 按索引返回敏感度标签。只读 [`ISensitivityLabel`](../isensitivitylabel)。 |
 
 ## 方法
 
-| 名称 | 说明 |
+| 名称 | 描述 |
 | --- | --- |
-| [Add](../../aspose.slides/isensitivitylabelcollection/add#add_1)(ISensitivityLabel) | 将 SensitivityLabel 添加到集合中。 |
-| [Add](../../aspose.slides/isensitivitylabelcollection/add#add)(string, Guid, bool, SensitivityLabelAssignmentType) | 在集合末尾添加灵敏度标签。 |
+| [Add](../../aspose.slides/isensitivitylabelcollection/add#add_1)(ISensitivityLabel) | 向集合添加 SensitivityLabel。 |
+| [Add](../../aspose.slides/isensitivitylabelcollection/add#add)(string, Guid, bool, SensitivityLabelAssignmentType) | 在集合末尾添加敏感度标签。 |
 | [Clear](../../aspose.slides/isensitivitylabelcollection/clear)() | 从集合中移除所有元素。 |
-| [RemoveAt](../../aspose.slides/isensitivitylabelcollection/removeat)(int) | 移除指定索引处的灵敏度标签。 |
+| [RemoveAt](../../aspose.slides/isensitivitylabelcollection/removeat)(int) | 移除指定索引处的敏感度标签。 |
 
 ### 另见
 

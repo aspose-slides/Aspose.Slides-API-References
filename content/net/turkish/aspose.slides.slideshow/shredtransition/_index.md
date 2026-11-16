@@ -1,14 +1,14 @@
 ---
 title: ShredTransition
-second_title: Aspose.Sildes .NET için API Referansı
-description: Shred slayt geçiş efekti.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Shred slayt geçiş etkisi.
 type: docs
-weight: 10300
+weight: 10320
 url: /tr/aspose.slides.slideshow/shredtransition/
 ---
-## ShredTransition sınıfı
+## ShredTransition sınıf
 
-Shred slayt geçiş efekti.
+Shred slayt geçiş etkisi.
 
 ```csharp
 public class ShredTransition : TransitionValueBase, IShredTransition
@@ -18,15 +18,15 @@ public class ShredTransition : TransitionValueBase, IShredTransition
 
 | Ad | Açıklama |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/shredtransition/direction) { get; set; } | Geçiş yönü. Okunur/yazılabilir [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [Pattern](../../aspose.slides.slideshow/shredtransition/pattern) { get; set; } | Geçiş sırasında kullanılan görsellerin şeklini belirler. Okunur/yazılabilir [`TransitionShredPattern`](../transitionshredpattern). |
+| [Direction](../../aspose.slides.slideshow/shredtransition/direction) { get; set; } | Geçiş yönü. Okunur/yazılır [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
+| [Pattern](../../aspose.slides.slideshow/shredtransition/pattern) { get; set; } | Geçiş sırasında kullanılan görsellerin şeklini belirtir. Okunur/yazılır [`TransitionShredPattern`](../transitionshredpattern). |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | İki TransitionValueBase örneğinin eşit olup olmadığını belirler. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Belirli bir tip için hash işlevi olarak hizmet eder; hash algoritmaları ve hash tablosu gibi veri yapılarında kullanılmaya uygundur. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Belirli bir tip için hash işlevi olarak hizmet eder, hash tablosu gibi veri yapılarında ve hash algoritmalarında kullanılabilir. |
 
 ### Ayrıca Bakınız
 

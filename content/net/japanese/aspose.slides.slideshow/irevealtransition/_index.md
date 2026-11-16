@@ -1,14 +1,14 @@
 ---
 title: IRevealTransition
-second_title: Aspose.Sildes の .NET API リファレンス
-description: スライド遷移効果を表示します。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: スライドの遷移効果を表示します。
 type: docs
-weight: 10160
+weight: 10180
 url: /ja/aspose.slides.slideshow/irevealtransition/
 ---
 ## IRevealTransition インターフェイス
 
-スライド遷移効果を表示します。
+スライドの遷移効果を表示します。
 
 ```csharp
 public interface IRevealTransition : ITransitionValueBase
@@ -18,11 +18,11 @@ public interface IRevealTransition : ITransitionValueBase
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/irevealtransition/asitransitionvaluebase) { get; } | 基本 ITransitionValueBase インターフェイスを取得できます。読み取り専用 [`ITransitionValueBase`](../itransitionvaluebase)。 |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/irevealtransition/asitransitionvaluebase) { get; } | ベースの ITransitionValueBase インターフェイスを取得できます。読み取り専用 [`ITransitionValueBase`](../itransitionvaluebase)。 |
 | [Direction](../../aspose.slides.slideshow/irevealtransition/direction) { get; set; } | 遷移の方向。読み取り/書き込み可能 [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype)。 |
-| [ThroughBlack](../../aspose.slides.slideshow/irevealtransition/throughblack) { get; set; } | 遷移がブラックアウトでフェードアウトするかどうかを指定します。読み取り/書き込み可能 Boolean。 |
+| [ThroughBlack](../../aspose.slides.slideshow/irevealtransition/throughblack) { get; set; } | 遷移が黒を通してフェードするかどうかを指定します。読み取り/書き込み可能 Boolean。 |
 
-### 関連項目
+### 参照
 
 * インターフェイス [ITransitionValueBase](../itransitionvaluebase)
 * 名前空間 [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

@@ -1,14 +1,14 @@
 ---
 title: HtmlGenerator
-second_title: Aspose.Sildes для .NET Справочник API
-description: Генератор HTML.
+second_title: Aspose.Sildes для .NET справочник API
+description: HTML-генератор.
 type: docs
-weight: 3880
+weight: 3900
 url: /ru/aspose.slides.export/htmlgenerator/
 ---
 ## HtmlGenerator класс
 
-Html generator.
+HTML-генератор.
 
 ```csharp
 public sealed class HtmlGenerator : IHtmlGenerator
@@ -16,28 +16,28 @@ public sealed class HtmlGenerator : IHtmlGenerator
 
 ## Свойства
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
-| [NextSlideIndex](../../aspose.slides.export/htmlgenerator/nextslideindex) { get; } | Возвращает индекс слайда, который будет отображён после текущего слайда, или -1, если в данный момент отображается последний слайд. Только для чтения Int32. |
-| [PreviousSlideIndex](../../aspose.slides.export/htmlgenerator/previousslideindex) { get; } | Возвращает индекс ранее отображённого слайда или -1, если отображается первый слайд. Только для чтения Int32. |
+| [NextSlideIndex](../../aspose.slides.export/htmlgenerator/nextslideindex) { get; } | Возвращает индекс слайда, который будет отрисован после текущего слайда или -1, если в данный момент отрисовывается последний слайд. Только для чтения Int32. |
+| [PreviousSlideIndex](../../aspose.slides.export/htmlgenerator/previousslideindex) { get; } | Возвращает индекс ранее отрисованного слайда или -1, если отрисовывается первый слайд. Только для чтения Int32. |
 | [SlideImageSize](../../aspose.slides.export/htmlgenerator/slideimagesize) { get; } | Возвращает размер изображения слайда. Только для чтения SizeF. |
-| [SlideImageSizeUnit](../../aspose.slides.export/htmlgenerator/slideimagesizeunit) { get; } | Возвращает единицу измерения, в которой указана размер изображения слайда. Только для чтения [`SvgCoordinateUnit`](../svgcoordinateunit). |
-| [SlideImageSizeUnitCode](../../aspose.slides.export/htmlgenerator/slideimagesizeunitcode) { get; } | Возвращает CSS-код единицы измерения, в которой указана размер изображения слайда. Только для чтения String. |
-| [SlideIndex](../../aspose.slides.export/htmlgenerator/slideindex) { get; } | Возвращает индекс текущего отображаемого слайда. Только для чтения Int32. |
+| [SlideImageSizeUnit](../../aspose.slides.export/htmlgenerator/slideimagesizeunit) { get; } | Возвращает единицу измерения, в которой указаны размеры изображения слайда. Только для чтения [`SvgCoordinateUnit`](../svgcoordinateunit). |
+| [SlideImageSizeUnitCode](../../aspose.slides.export/htmlgenerator/slideimagesizeunitcode) { get; } | Возвращает CSS-код единицы измерения, в которой указаны размеры изображения слайда. Только для чтения String. |
+| [SlideIndex](../../aspose.slides.export/htmlgenerator/slideindex) { get; } | Возвращает индекс текущего отрисовываемого слайда. Только для чтения Int32. |
 
 ## Методы
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
-| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue)(char[]) | Заключает значение атрибута в кавычки и добавляет его в html-файл. |
-| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue_2)(string) | Заключает значение атрибута в кавычки и добавляет его в html-файл. |
-| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue_1)(char[], int, int) | Заключает значение атрибута в кавычки и добавляет его в html-файл. |
+| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue)(char[]) | Обрамляет значение атрибута кавычками и добавляет его в HTML-файл. |
+| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue_2)(string) | Обрамляет значение атрибута кавычками и добавляет его в HTML-файл. |
+| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue_1)(char[], int, int) | Обрамляет значение атрибута кавычками и добавляет его в HTML-файл. |
 | [AddHtml](../../aspose.slides.export/htmlgenerator/addhtml#addhtml)(char[]) | Добавляет отформатированный HTML-текст. |
 | [AddHtml](../../aspose.slides.export/htmlgenerator/addhtml#addhtml_2)(string) | Добавляет отформатированный HTML-текст. |
 | [AddHtml](../../aspose.slides.export/htmlgenerator/addhtml#addhtml_1)(char[], int, int) | Добавляет отформатированный HTML-текст. |
-| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext)(char[]) | Добавляет обычный текст в html-файлы, заменяя специальные символы на html-сущности. Переводы строк и пробелы не заменяются. |
-| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext_2)(string) | Добавляет обычный текст в html-файлы, заменяя специальные символы на html-сущности. Переводы строк и пробелы не заменяются. |
-| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext_1)(char[], int, int) | Добавляет обычный текст в html-файлы, заменяя специальные символы на html-сущности. Переводы строк и пробелы не заменяются. |
+| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext)(char[]) | Добавляет обычный текст в HTML-файлы, заменяя специальные символы на HTML-сущности. Разрывы строк и пробелы не заменяются. |
+| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext_2)(string) | Добавляет обычный текст в HTML-файлы, заменяя специальные символы на HTML-сущности. Разрывы строк и пробелы не заменяются. |
+| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext_1)(char[], int, int) | Добавляет обычный текст в HTML-файлы, заменяя специальные символы на HTML-сущности. Разрывы строк и пробелы не заменяются. |
 
 ### См. также
 

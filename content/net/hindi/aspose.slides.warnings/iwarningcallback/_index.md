@@ -1,14 +1,14 @@
 ---
 title: IWarningCallback
-second_title: Aspose.Sildes .NET API संदर्भ
-description: चेतावनी प्राप्त करने वाले वर्गों के लिए इंटरफ़ेस
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: चेतावनियों को प्राप्त करने वाली कक्षाओं के लिए इंटरफ़ेस
 type: docs
-weight: 11800
+weight: 11820
 url: /hi/aspose.slides.warnings/iwarningcallback/
 ---
 ## IWarningCallback इंटरफ़ेस
 
-चेतावनी प्राप्त करने वाले वर्गों के लिए इंटरफ़ेस
+चेतावनी प्राप्त करने वाली कक्षाओं के लिए इंटरफ़ेस
 
 ```csharp
 public interface IWarningCallback
@@ -18,7 +18,7 @@ public interface IWarningCallback
 
 | नाम | विवरण |
 | --- | --- |
-| [Warning](../../aspose.slides.warnings/iwarningcallback/warning)(IWarningInfo) | कॉलबैक विधि जो चेतावनी प्राप्त करता है और तय करता है कि क्या ऑपरेशन को निरस्त किया जाना चाहिए। |
+| [Warning](../../aspose.slides.warnings/iwarningcallback/warning)(IWarningInfo) | कॉलबैक मेथड जो चेतावनी प्राप्त करता है और निर्धारित करता है कि ऑपरेशन को रद्द किया जाना चाहिए या नहीं। |
 
 ### संबंधित देखें
 

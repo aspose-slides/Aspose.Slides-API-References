@@ -1,12 +1,12 @@
 ---
 title: ISlide
-second_title: Aspose.Sildes para la referencia de API .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa una diapositiva en una presentación.
 type: docs
-weight: 7040
+weight: 7060
 url: /es/aspose.slides/islide/
 ---
-## ISlide interfaz
+## Interfaz ISlide
 
 Representa una diapositiva en una presentación.
 
@@ -16,19 +16,19 @@ public interface ISlide : IBaseSlide, IOverrideThemeable
 
 ## Propiedades
 
-| Nombre | Descripción |
+| Name | Description |
 | --- | --- |
 | [AsIBaseSlide](../../aspose.slides/islide/asibaseslide) { get; } | Permite obtener la interfaz base IBaseSlide. Solo lectura [`IBaseSlide`](../ibaseslide). |
 | [AsIOverrideThemeable](../../aspose.slides/islide/asioverridethemeable) { get; } | Devuelve la interfaz IOverrideThemeable. Solo lectura [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
 | [HeaderFooterManager](../../aspose.slides/islide/headerfootermanager) { get; } | Devuelve el administrador HeaderFooter de la diapositiva. Solo lectura [`ISlideHeaderFooterManager`](../islideheaderfootermanager). |
-| [Hidden](../../aspose.slides/islide/hidden) { get; set; } | Determina si la diapositiva especificada está oculta durante una presentación. Booleano de lectura/escritura. |
+| [Hidden](../../aspose.slides/islide/hidden) { get; set; } | Determina si la diapositiva especificada está oculta durante una presentación de diapositivas. Booleano de lectura/escritura. |
 | [LayoutSlide](../../aspose.slides/islide/layoutslide) { get; set; } | Devuelve o establece la diapositiva de diseño para la diapositiva actual. Lectura/escritura [`ILayoutSlide`](../ilayoutslide). |
-| [NotesSlideManager](../../aspose.slides/islide/notesslidemanager) { get; } | Permite acceder a la diapositiva de notas, añadirla y quitarla. Solo lectura [`INotesSlideManager`](../inotesslidemanager). |
+| [NotesSlideManager](../../aspose.slides/islide/notesslidemanager) { get; } | Permite acceder a la diapositiva de notas, agregarla y eliminarla. Solo lectura [`INotesSlideManager`](../inotesslidemanager). |
 | [SlideNumber](../../aspose.slides/islide/slidenumber) { get; set; } | Devuelve un número de diapositiva. El índice de la diapositiva en la colección [`Slides`](../ipresentation/slides) siempre es igual a SlideNumber - 1. Int32 de lectura/escritura. |
 
 ## Métodos
 
-| Nombre | Descripción |
+| Name | Description |
 | --- | --- |
 | [GetImage](../../aspose.slides/islide/getimage#getimage)() | Devuelve un objeto Thumbnail Image (20 % del tamaño real). |
 | [GetImage](../../aspose.slides/islide/getimage#getimage_1)(IRenderingOptions) | Devuelve un objeto Thumbnail Bitmap. |
@@ -37,7 +37,7 @@ public interface ISlide : IBaseSlide, IOverrideThemeable
 | [GetImage](../../aspose.slides/islide/getimage#getimage_5)(float, float) | Devuelve un objeto de imagen con escalado personalizado. |
 | [GetImage](../../aspose.slides/islide/getimage#getimage_3)(IRenderingOptions, Size) | Devuelve un objeto Thumbnail Bitmap con el tamaño especificado. |
 | [GetImage](../../aspose.slides/islide/getimage#getimage_2)(IRenderingOptions, float, float) | Devuelve un objeto Thumbnail Bitmap con escalado personalizado. |
-| [GetSlideComments](../../aspose.slides/islide/getslidecomments)(ICommentAuthor) | Devuelve todos los comentarios de diapositiva añadidos por un autor específico. |
+| [GetSlideComments](../../aspose.slides/islide/getslidecomments)(ICommentAuthor) | Devuelve todos los comentarios de diapositiva agregados por un autor específico. |
 | [Remove](../../aspose.slides/islide/remove)() | Elimina la diapositiva de la presentación. |
 | [Reset](../../aspose.slides/islide/reset)() | Restablece la posición, el tamaño y el formato de cada forma que tiene un prototipo en LayoutSlide. |
 | [WriteAsEmf](../../aspose.slides/islide/writeasemf)(Stream) | Guarda el contenido de la diapositiva como un archivo EMF. |

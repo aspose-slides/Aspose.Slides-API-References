@@ -1,18 +1,22 @@
 ---
 title: GapDepth
-second_title: Aspose.Sildes dla .NET – odwołanie API
-description: Zwraca lub ustawia odległość jako procent szerokości znacznika pomiędzy seriami danych na wykresie 3D. Odczyt/zapis UInt16.
+second_title: Aspose.Sildes dla .NET – dokumentacja API
+description: Pobiera lub ustawia odległość między seriami danych na wykresie 3D jako procent szerokości znacznika. Wartość musi wynosić od 0 do 500. Odczyt/zapis UInt16.
 type: docs
 weight: 60
 url: /pl/aspose.slides.charts/ichartseriesgroup/gapdepth/
 ---
 ## IChartSeriesGroup.GapDepth właściwość
 
-Zwraca lub ustawia odległość, wyrażoną jako procent szerokości znacznika, pomiędzy seriami danych na wykresie 3D. Odczyt/zapis UInt16.
+Pobiera lub ustawia odległość między seriami danych na wykresie 3D, jako procent szerokości znacznika. Wartość musi wynosić od 0 do 500. Odczyt/zapis UInt16.
 
 ```csharp
 public ushort GapDepth { get; set; }
 ```
+
+### Uwagi
+
+Ta właściwość dotyczy serii następujących typów: podtypy słupkowe i kolumnowe 3D, Line3D, Area3D, StackedArea3D, PercentsStackedArea3D.
 
 ### Zobacz także
 

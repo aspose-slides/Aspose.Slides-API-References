@@ -3,12 +3,12 @@ title: ISlideComponent
 second_title: Aspose.Sildes para .NET Referência da API
 description: Representa um componente de um slide.
 type: docs
-weight: 7060
+weight: 7080
 url: /pt/aspose.slides/islidecomponent/
 ---
 ## ISlideComponent interface
 
-Representa um componente de um slide.
+Represents a component of a slide.
 
 ```csharp
 public interface ISlideComponent : IPresentationComponent
@@ -21,7 +21,7 @@ public interface ISlideComponent : IPresentationComponent
 | [AsIPresentationComponent](../../aspose.slides/islidecomponent/asipresentationcomponent) { get; } | Permite obter a interface base IPresentationComponent. Somente leitura [`IPresentationComponent`](../ipresentationcomponent). |
 | [Slide](../../aspose.slides/islidecomponent/slide) { get; } | Retorna o slide base. Somente leitura [`IBaseSlide`](../ibaseslide). |
 
-### Veja Também
+### Veja também
 
 * interface [IPresentationComponent](../ipresentationcomponent)
 * namespace [Aspose.Slides](../../aspose.slides)

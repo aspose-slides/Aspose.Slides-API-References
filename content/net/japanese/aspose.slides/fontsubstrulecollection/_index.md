@@ -3,7 +3,7 @@ title: FontSubstRuleCollection
 second_title: Aspose.Sildes for .NET API リファレンス
 description: フォント置換のコレクションを表します。
 type: docs
-weight: 4900
+weight: 4920
 url: /ja/aspose.slides/fontsubstrulecollection/
 ---
 ## FontSubstRuleCollection クラス
@@ -18,24 +18,24 @@ public class FontSubstRuleCollection : IFontSubstRuleCollection
 
 | 名前 | 説明 |
 | --- | --- |
-| [FontSubstRuleCollection](fontsubstrulecollection)() | デフォルトコンストラクタです。 |
+| [FontSubstRuleCollection](fontsubstrulecollection)() | デフォルトコンストラクタ。 |
 
 ## プロパティ
 
 | 名前 | 説明 |
 | --- | --- |
-| [Count](../../aspose.slides/fontsubstrulecollection/count) { get; } | コレクションに実際に含まれる要素の数を取得します。読み取り専用 Int32。 |
-| [IsSynchronized](../../aspose.slides/fontsubstrulecollection/issynchronized) { get; } | コレクションへのアクセスが同期化されているか（スレッドセーフ）を示す値を返します。読み取り専用 Boolean。 |
+| [Count](../../aspose.slides/fontsubstrulecollection/count) { get; } | コレクションに実際に含まれる要素数を取得します。読み取り専用 Int32。 |
+| [IsSynchronized](../../aspose.slides/fontsubstrulecollection/issynchronized) { get; } | コレクションへのアクセスが同期化されているか（スレッドセーフか）を示す値を返します。読み取り専用 Boolean。 |
 | [Item](../../aspose.slides/fontsubstrulecollection/item) { get; } | 指定されたインデックスの要素を取得します。 |
-| [SyncRoot](../../aspose.slides/fontsubstrulecollection/syncroot) { get; } | 同期化ルートを返します。読み取り専用 Object。 |
+| [SyncRoot](../../aspose.slides/fontsubstrulecollection/syncroot) { get; } | 同期のルートオブジェクトを返します。読み取り専用 Object。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
 | [Add](../../aspose.slides/fontsubstrulecollection/add)(IFontSubstRule) | 新しいフォント置換ルールをコレクションに追加します。 |
-| [CopyTo](../../aspose.slides/fontsubstrulecollection/copyto)(Array, int) | コレクションのすべての要素を指定された配列にコピーします。 |
-| [GetEnumerator](../../aspose.slides/fontsubstrulecollection/getenumerator)() | コレクションを列挙する列挙子を返します。 |
+| [CopyTo](../../aspose.slides/fontsubstrulecollection/copyto)(Array, int) | コレクション内のすべての要素を指定された配列にコピーします。 |
+| [GetEnumerator](../../aspose.slides/fontsubstrulecollection/getenumerator)() | コレクションを反復処理する列挙子を返します。 |
 | [Remove](../../aspose.slides/fontsubstrulecollection/remove)(IFontSubstRule) | コレクションから特定のオブジェクトの最初の出現を削除します。 |
 
 ### 参照

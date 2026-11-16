@@ -1,14 +1,14 @@
 ---
 title: LineDashStyle
 second_title: Aspose.Sildes για .NET API Αναφορά
-description: Αντιπροσωπεύει το στυλ παύλας της γραμμής.
+description: Αναπαριστά το στυλ παύλας γραμμής.
 type: docs
-weight: 7770
+weight: 7790
 url: /el/aspose.slides/linedashstyle/
 ---
-## LineDashStyle αρίθμηση
+## LineDashStyle απαρίθμηση
 
-Αντιπροσωπεύει το στυλ παύλας της γραμμής.
+Αναπαριστά το στυλ παύλας γραμμής.
 
 ```csharp
 public enum LineDashStyle : sbyte

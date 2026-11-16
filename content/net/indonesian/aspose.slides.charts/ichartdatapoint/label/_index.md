@@ -1,14 +1,14 @@
 ---
 title: Label
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili label dari titik data chart. Hanya-baca IDataLabelaspose.slides.charts/idatalabel.
+description: Mewakili label data poin diagram. Hanya-baca IDataLabelaspose.slides.charts/idatalabel.
 type: docs
-weight: 110
+weight: 150
 url: /id/aspose.slides.charts/ichartdatapoint/label/
 ---
 ## IChartDataPoint.Label properti
 
-Mewakili label dari titik data chart. Hanya-baca [`IDataLabel`](../../idatalabel).
+Mewakili label data poin diagram. Hanya-baca [`IDataLabel`](../../idatalabel).
 
 ```csharp
 public IDataLabel Label { get; }

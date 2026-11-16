@@ -1,9 +1,9 @@
 ---
 title: License
-second_title: Tham khảo API Aspose.Sildes cho .NET
+second_title: Aspose.Sildes cho .NET Tham chiếu API
 description: Cung cấp các phương thức để cấp phép cho thành phần.
 type: docs
-weight: 7680
+weight: 7700
 url: /vi/aspose.slides/license/
 ---
 ## Lớp License
@@ -14,24 +14,24 @@ Cung cấp các phương thức để cấp phép cho thành phần.
 public class License : ILicense
 ```
 
-## Các hàm khởi tạo
+## Hàm khởi tạo
 
-| Name | Description |
+| Tên | Mô tả |
 | --- | --- |
 | [License](license)() | Khởi tạo một thể hiện mới của lớp này. |
 
 ## Phương thức
 
-| Name | Description |
+| Tên | Mô tả |
 | --- | --- |
-| [IsLicensed](../../aspose.slides/license/islicensed)() | Kiểm tra xem giấy phép có được áp dụng cho thành phần hay không |
-| [ResetLicense](../../aspose.slides/license/resetlicense)() | Đặt lại giấy phép |
+| [IsLicensed](../../aspose.slides/license/islicensed)() | Kiểm tra xem license đã được áp dụng cho thành phần chưa |
+| [ResetLicense](../../aspose.slides/license/resetlicense)() | Đặt lại license |
 | [SetLicense](../../aspose.slides/license/setlicense#setlicense)(Stream) | Cấp phép cho thành phần. |
 | [SetLicense](../../aspose.slides/license/setlicense#setlicense_1)(string) | Cấp phép cho thành phần. |
 
 ### Ví dụ
 
-Trong ví dụ này, sẽ cố gắng tìm tệp giấy phép có tên MyLicense.lic trong thư mục chứa thành phần, trong thư mục chứa assembly gọi, trong thư mục của assembly entry và sau đó trong các tài nguyên nhúng của assembly gọi.
+Trong ví dụ này, sẽ cố gắng tìm một tệp license có tên MyLicense.lic trong thư mục chứa thành phần, trong thư mục chứa assembly gọi, trong thư mục của entry assembly và sau đó trong tài nguyên nhúng của assembly gọi.
 
 ```csharp
 [C#]

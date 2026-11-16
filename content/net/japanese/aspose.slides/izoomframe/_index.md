@@ -1,14 +1,14 @@
 ---
 title: IZoomFrame
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: スライド内の Slide Zoom オブジェクトを表します。
 type: docs
-weight: 7400
+weight: 7420
 url: /ja/aspose.slides/izoomframe/
 ---
 ## IZoomFrame インターフェイス
 
-スライド内の Slide Zoom オブジェクトを表します。
+Slide の中の Slide Zoom オブジェクトを表します。
 
 ```csharp
 public interface IZoomFrame : IZoomObject
@@ -19,7 +19,7 @@ public interface IZoomFrame : IZoomObject
 | 名前 | 説明 |
 | --- | --- |
 | [AsIZoomObject](../../aspose.slides/izoomframe/asizoomobject) { get; } | IZoomObject インターフェイスを返します。 |
-| [TargetSlide](../../aspose.slides/izoomframe/targetslide) { get; set; } | Slide Zoom オブジェクトがリンクするスライド オブジェクトを取得または設定します。読み取り/書き込み [`ISlide`](../islide)。 |
+| [TargetSlide](../../aspose.slides/izoomframe/targetslide) { get; set; } | Slide Zoom オブジェクトがリンクするスライド オブジェクトを取得または設定します。 読み取り/書き込み [`ISlide`](../islide)。 |
 
 ### 参照
 

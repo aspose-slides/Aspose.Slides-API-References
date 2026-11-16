@@ -1,14 +1,14 @@
 ---
 title: IColorSchemeEffectiveData
 second_title: Aspose.Sildes för .NET API-referens
-description: Oföränderligt objekt som innehåller de faktiska färgschemaegenskaperna.
+description: Oföränderligt objekt som innehåller effektiva färgschemaegenskaper.
 type: docs
-weight: 11160
+weight: 11180
 url: /sv/aspose.slides.theme/icolorschemeeffectivedata/
 ---
-## IColorSchemeEffectiveData gränssnitt
+## IColorSchemeEffectiveData interface
 
-Oföränderligt objekt som innehåller de faktiska färgschemaegenskaperna.
+Oföränderligt objekt som innehåller effektiva färgschemaegenskaper.
 
 ```csharp
 public interface IColorSchemeEffectiveData
@@ -26,9 +26,9 @@ public interface IColorSchemeEffectiveData
 | [Accent6](../../aspose.slides.theme/icolorschemeeffectivedata/accent6) { get; } | Sjätte accentfärgen i schemat. Skrivskyddad Color. |
 | [Dark1](../../aspose.slides.theme/icolorschemeeffectivedata/dark1) { get; } | Första mörka färgen i schemat. Skrivskyddad Color. |
 | [Dark2](../../aspose.slides.theme/icolorschemeeffectivedata/dark2) { get; } | Andra mörka färgen i schemat. Skrivskyddad Color. |
-| [FollowedHyperlink](../../aspose.slides.theme/icolorschemeeffectivedata/followedhyperlink) { get; } | Färg för besökta hyperlänkar. Skrivskyddad Color. |
-| [Hyperlink](../../aspose.slides.theme/icolorschemeeffectivedata/hyperlink) { get; } | Färg för hyperlänkar. Skrivskyddad Color. |
-| [Item](../../aspose.slides.theme/icolorschemeeffectivedata/item) { get; } | Hämtar elementet på angivet index. Skrivskyddad Color. |
+| [FollowedHyperlink](../../aspose.slides.theme/icolorschemeeffectivedata/followedhyperlink) { get; } | Färgen för besökta hyperlänkar. Skrivskyddad Color. |
+| [Hyperlink](../../aspose.slides.theme/icolorschemeeffectivedata/hyperlink) { get; } | Färgen för hyperlänkar. Skrivskyddad Color. |
+| [Item](../../aspose.slides.theme/icolorschemeeffectivedata/item) { get; } | Hämtar elementet på det angivna indexet. Skrivskyddad Color. |
 | [Light1](../../aspose.slides.theme/icolorschemeeffectivedata/light1) { get; } | Första ljusa färgen i schemat. Skrivskyddad Color. |
 | [Light2](../../aspose.slides.theme/icolorschemeeffectivedata/light2) { get; } | Andra ljusa färgen i schemat. Skrivskyddad Color. |
 
@@ -36,7 +36,7 @@ public interface IColorSchemeEffectiveData
 
 Denna klass används som en del av [`IThemeEffectiveData`](../ithemeeffectivedata).
 
-### Se även
+### Se också
 
 * namnrymd [Aspose.Slides.Theme](../../aspose.slides.theme)
 * samling [Aspose.Slides](../../)

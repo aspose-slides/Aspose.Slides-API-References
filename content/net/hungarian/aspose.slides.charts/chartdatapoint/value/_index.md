@@ -1,9 +1,9 @@
 ---
 title: Value
-second_title: Aspose.Sildes a .NET-hez API referencia
-description: Value. Csak olvasható IDoubleChartValueaspose.slides.charts/idoublechartvalue.
+second_title: Aspose.Sildes a .NET API referencia
+description: Érték. Csak olvasható IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
-weight: 190
+weight: 230
 url: /hu/aspose.slides.charts/chartdatapoint/value/
 ---
 ## ChartDataPoint.Value tulajdonság

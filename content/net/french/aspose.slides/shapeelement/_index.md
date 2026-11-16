@@ -1,14 +1,14 @@
 ---
 title: ShapeElement
 second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Représente une partie d’une forme avec les mêmes propriétés de contour et de remplissage.
+description: Représente une partie d'une forme avec les mêmes propriétés de contour et de remplissage.
 type: docs
-weight: 9870
+weight: 9890
 url: /fr/aspose.slides/shapeelement/
 ---
 ## ShapeElement classe
 
-Représente une partie d’une forme avec les mêmes propriétés de contour et de remplissage.
+Représente une partie d'une forme avec les mêmes propriétés de contour et de remplissage.
 
 ```csharp
 public class ShapeElement : IShapeElement
@@ -19,9 +19,9 @@ public class ShapeElement : IShapeElement
 | Nom | Description |
 | --- | --- |
 | [FillSource](../../aspose.slides/shapeelement/fillsource) { get; } | Renvoie des informations sur la façon de remplir un élément. Lecture seule [`ShapeElementFillSource`](../shapeelementfillsource). |
-| [ParentShape](../../aspose.slides/shapeelement/parentshape) { get; } | Renvoie un Shape_PPT pour lequel l’élément a été créé. Lecture seule [`Shape`](../shape). |
-| [PathPoints](../../aspose.slides/shapeelement/pathpoints) { get; } | Obtient un tableau de points qui définissent la géométrie du chemin de l’élément. |
-| [PathTypes](../../aspose.slides/shapeelement/pathtypes) { get; } | Obtient un tableau de valeurs d’octet qui spécifient le type de chaque point dans le chemin de l’élément. |
+| [ParentShape](../../aspose.slides/shapeelement/parentshape) { get; } | Renvoie un Shape_PPT pour lequel l'élément a été créé. Lecture seule [`Shape`](../shape). |
+| [PathPoints](../../aspose.slides/shapeelement/pathpoints) { get; } | Obtient un tableau de points qui définissent la géométrie du chemin de l'élément. |
+| [PathTypes](../../aspose.slides/shapeelement/pathtypes) { get; } | Obtient un tableau de valeurs d'octet qui spécifient le type de chaque point dans le chemin de l'élément. |
 | [StrokeSource](../../aspose.slides/shapeelement/strokesource) { get; } | Renvoie des informations sur la façon de tracer un élément. Lecture seule [`ShapeElementStrokeSource`](../shapeelementstrokesource). |
 
 ### Voir aussi

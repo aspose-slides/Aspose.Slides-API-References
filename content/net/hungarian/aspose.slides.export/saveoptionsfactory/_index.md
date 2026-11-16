@@ -1,9 +1,9 @@
 ---
 title: SaveOptionsFactory
-second_title: Aspose.Sildes a .NET API Referenciához
-description: Lehetővé teszi a mentési beállítások példányainak létrehozását
+second_title: Aspose.Sildes .NET API Referencia
+description: Lehetővé teszi mentési beállítások példányainak létrehozását
 type: docs
-weight: 4460
+weight: 4480
 url: /hu/aspose.slides.export/saveoptionsfactory/
 ---
 ## SaveOptionsFactory osztály
@@ -28,7 +28,7 @@ public class SaveOptionsFactory : ISaveOptionsFactory
 
 ### Megjegyzések
 
-COM-kompatibilitás céljából.
+A COM kompatibilitáshoz.
 
 ### Lásd még
 

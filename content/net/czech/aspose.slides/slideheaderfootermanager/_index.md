@@ -1,14 +1,14 @@
 ---
 title: SlideHeaderFooterManager
-second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje správce, který určuje chování zástupných symbolů zápatí snímku, data a času a čísla stránky.
+second_title: Aspose.Sildes pro .NET referenční příručku API
+description: Representuje správce, který určuje chování zástupných znaků zápatí snímku, data-času a čísla stránky.
 type: docs
-weight: 9980
+weight: 10000
 url: /cs/aspose.slides/slideheaderfootermanager/
 ---
 ## SlideHeaderFooterManager třída
 
-Representuje správce, který určuje chování zástupných symbolů zápatí snímku, data a času a čísla stránky.
+Represents manager which holds behavior of the slide footer, date-time, page number placeholders.
 
 ```csharp
 public sealed class SlideHeaderFooterManager : BaseSlideHeaderFooterManager, 
@@ -19,19 +19,19 @@ public sealed class SlideHeaderFooterManager : BaseSlideHeaderFooterManager,
 
 | Název | Popis |
 | --- | --- |
-| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | Vrací hodnotu, která udává, že je přítomen zástupný symbol data a času. ReadBoolean. |
-| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | Vrací hodnotu, která udává, že je přítomen zástupný symbol zápatí. Read Boolean. |
-| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | Vrací hodnotu, která udává, že je přítomen zástupný symbol čísla stránky. ReadBoolean. |
+| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | Vrací hodnotu označující, že je přítomen zástupný znak data a času. ReadBoolean. |
+| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | Vrací hodnotu označující, že je přítomen zástupný znak zápatí. Read Boolean. |
+| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | Vrací hodnotu označující, že je přítomen zástupný znak čísla stránky. ReadBoolean. |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | Nastaví text do zástupného symbolu data a času snímku. |
-| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | Změní viditelnost zástupného symbolu data a času snímku. |
-| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | Nastaví text do zástupného symbolu zápatí snímku. |
-| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | Změní viditelnost zástupného symbolu zápatí snímku. |
-| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | Změní viditelnost zástupného symbolu čísla stránky snímku. |
+| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | Nastavuje text do zástupného znaku data a času snímku. |
+| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | Mění viditelnost zástupného znaku data a času snímku. |
+| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | Nastavuje text do zástupného znaku zápatí snímku. |
+| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | Mění viditelnost zástupného znaku zápatí snímku. |
+| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | Mění viditelnost zástupného znaku čísla stránky snímku. |
 
 ### Viz také
 

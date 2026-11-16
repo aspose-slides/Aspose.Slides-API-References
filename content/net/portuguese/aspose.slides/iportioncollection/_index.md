@@ -3,7 +3,7 @@ title: IPortionCollection
 second_title: Aspose.Sildes para .NET Referência da API
 description: Representa uma coleção de porções.
 type: docs
-weight: 6710
+weight: 6730
 url: /pt/aspose.slides/iportioncollection/
 ---
 ## IPortionCollection interface
@@ -14,27 +14,27 @@ Representa uma coleção de porções.
 public interface IPortionCollection : IEnumerable<IPortion>
 ```
 
-## Propriedades
+## Properties
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides/iportioncollection/asienumerable) { get; } | Retorna a interface IEnumerable. Somente leitura IEnumerable. |
-| [Count](../../aspose.slides/iportioncollection/count) { get; } | Obtém o número de elementos realmente contidos na coleção. Somente leitura Int32. |
+| [AsIEnumerable](../../aspose.slides/iportioncollection/asienumerable) { get; } | Retorna a interface IEnumerable. IEnumerable somente leitura. |
+| [Count](../../aspose.slides/iportioncollection/count) { get; } | Obtém o número de elementos realmente contidos na coleção. Int32 somente leitura. |
 | [Item](../../aspose.slides/iportioncollection/item) { get; } | Obtém o elemento no índice especificado. |
 
-## Métodos
+## Methods
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
 | [Add](../../aspose.slides/iportioncollection/add)(IPortion) | Adiciona um Portion ao final da coleção. |
 | [Clear](../../aspose.slides/iportioncollection/clear)() | Remove todos os elementos da coleção. |
-| [Contains](../../aspose.slides/iportioncollection/contains)(IPortion) | Determina se o ICollection contém um valor específico. |
+| [Contains](../../aspose.slides/iportioncollection/contains)(IPortion) | Determina se a ICollection contém um valor específico. |
 | [IndexOf](../../aspose.slides/iportioncollection/indexof)(IPortion) | Determina o índice de uma porção específica na coleção. |
 | [Insert](../../aspose.slides/iportioncollection/insert)(int, IPortion) | Insere um Portion na coleção no índice especificado. |
-| [Remove](../../aspose.slides/iportioncollection/remove)(IPortion) | Remove a primeira ocorrência de um objeto específico do ICollection. |
+| [Remove](../../aspose.slides/iportioncollection/remove)(IPortion) | Remove a primeira ocorrência de um objeto específico da ICollection. |
 | [RemoveAt](../../aspose.slides/iportioncollection/removeat)(int) | Remove o elemento no índice especificado da coleção. |
 
-### Ver Também
+### Veja Também
 
 * interface [IPortion](../iportion)
 * namespace [Aspose.Slides](../../aspose.slides)

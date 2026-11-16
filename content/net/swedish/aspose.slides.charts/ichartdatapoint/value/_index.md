@@ -1,14 +1,14 @@
 ---
 title: Value
-second_title: Aspose.Slides för .NET API-referens
-description: Returnerar värdet för diagramdatapunkten. Skrivskyddad IDoubleChartValueaspose.slides.charts/idoublechartvalue.
+second_title: Aspose.Sildes för .NET API-referens
+description: Hämtar värdet på en datapunkt i ett diagram. Skrivskyddad IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
-weight: 160
+weight: 200
 url: /sv/aspose.slides.charts/ichartdatapoint/value/
 ---
 ## IChartDataPoint.Value egenskap
 
-Returnerar värdet för diagramdatapunkten. Skrivskyddad [`IDoubleChartValue`](../../idoublechartvalue).
+Hämtar värdet för en datapunkt i ett diagram. Skrivskyddad [`IDoubleChartValue`](../../idoublechartvalue).
 
 ```csharp
 public IDoubleChartValue Value { get; }

@@ -3,7 +3,7 @@ title: IDrawingGuidesCollection
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa una colección de las guías de dibujo ajustables.
 type: docs
-weight: 5730
+weight: 5750
 url: /es/aspose.slides/idrawingguidescollection/
 ---
 ## IDrawingGuidesCollection interfaz
@@ -18,7 +18,7 @@ public interface IDrawingGuidesCollection : IEnumerable<IDrawingGuide>
 
 | Nombre | Descripción |
 | --- | --- |
-| [Count](../../aspose.slides/idrawingguidescollection/count) { get; } | Obtiene el número de todos los elementos de la colección. Solo lectura Int32. |
+| [Count](../../aspose.slides/idrawingguidescollection/count) { get; } | Obtiene el número de todos los elementos en la colección. Solo lectura Int32. |
 | [Item](../../aspose.slides/idrawingguidescollection/item) { get; } | Devuelve la guía de dibujo por índice. Solo lectura [`IDrawingGuide`](../idrawingguide). |
 
 ## Métodos

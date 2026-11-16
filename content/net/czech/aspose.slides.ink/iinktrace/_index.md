@@ -1,14 +1,14 @@
 ---
 title: IInkTrace
 second_title: Aspose.Sildes pro .NET API Reference
-description: Představuje ručně psanou čáru v objektu Ink.
+description: Reprezentuje ručně psanou čáru v objektu Ink.
 type: docs
-weight: 7540
+weight: 7560
 url: /cs/aspose.slides.ink/iinktrace/
 ---
 ## IInkTrace rozhraní
 
-Představuje ručně psanou čáru v objektu Ink.
+Reprezentuje ručně psanou čáru v objektu Ink.
 
 ```csharp
 public interface IInkTrace

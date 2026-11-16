@@ -1,14 +1,14 @@
 ---
 title: MathNaryOperatorTypes
-second_title: Aspose.Sildes .NET API Referansı
-description: Bütünsel olmayan Nary operatör IMathNaryOperator tipleri. Bütünsel tipler için MathIntegralTypes./mathintegraltypes
+second_title: Aspose.Sildes for .NET API Referansı
+description: Tam sayılar hariç Nary operatör IMathNaryOperator türleri Tam sayılar için MathIntegralTypes./mathintegraltypes
 type: docs
-weight: 8890
+weight: 8910
 url: /tr/aspose.slides.mathtext/mathnaryoperatortypes/
 ---
 ## MathNaryOperatorTypes enum
 
-İntegraller hariç Nary operatör IMathNaryOperator tipleri (integraller için [`MathIntegralTypes`](../mathintegraltypes))
+Nary operatör IMathNaryOperator türleri (tam sayılar hariç) Tam sayılar için [`MathIntegralTypes`](../mathintegraltypes)
 
 ```csharp
 public enum MathNaryOperatorTypes

@@ -1,14 +1,14 @@
 ---
 title: IHtmlGenerator
-second_title: Aspose.Sildes برای .NET مرجع API
-description: ژنراتور Html.
+second_title: Aspose.Slides برای .NET مرجع API
+description: مولد Html.
 type: docs
-weight: 3960
+weight: 3980
 url: /fa/aspose.slides.export/ihtmlgenerator/
 ---
 ## IHtmlGenerator رابط
 
-ژنراتور HTML.
+مولد Html.
 
 ```csharp
 public interface IHtmlGenerator
@@ -18,30 +18,30 @@ public interface IHtmlGenerator
 
 | نام | توضیح |
 | --- | --- |
-| [NextSlideIndex](../../aspose.slides.export/ihtmlgenerator/nextslideindex) { get; } | شاخص اسلایدی را برمی‌گرداند که پس از اسلاید جاری رندر خواهد شد یا -1 اگر در حال رندر آخرین اسلاید باشد. فقط-خواندنی Int32. |
-| [PreviousSlideIndex](../../aspose.slides.export/ihtmlgenerator/previousslideindex) { get; } | شاخص اسلایدی که قبلاً رندر شده است را برمی‌گرداند یا -1 اگر در حال رندر اولین اسلاید باشد. فقط-خواندنی Int32. |
+| [NextSlideIndex](../../aspose.slides.export/ihtmlgenerator/nextslideindex) { get; } | اندیس اسلایدی را برمی‌گرداند که پس از اسلاید فعلی رندر خواهد شد یا -1 اگر در حال رندر آخرین اسلاید باشد. فقط-خواندنی Int32. |
+| [PreviousSlideIndex](../../aspose.slides.export/ihtmlgenerator/previousslideindex) { get; } | اندیس اسلاید قبلاً رندرشده را برمی‌گرداند یا -1 اگر اولین اسلاید در حال رندر باشد. فقط-خواندنی Int32. |
 | [SlideImageSize](../../aspose.slides.export/ihtmlgenerator/slideimagesize) { get; } | اندازه تصویر اسلاید را برمی‌گرداند. فقط-خواندنی SizeF. |
-| [SlideImageSizeUnit](../../aspose.slides.export/ihtmlgenerator/slideimagesizeunit) { get; } | یک واحد را که اندازه تصویر اسلاید بر اساس آن مشخص می‌شود برمی‌گرداند. فقط-خواندنی [`SvgCoordinateUnit`](../svgcoordinateunit). |
-| [SlideImageSizeUnitCode](../../aspose.slides.export/ihtmlgenerator/slideimagesizeunitcode) { get; } | کد CSS واحدی را که اندازه تصویر اسلاید بر اساس آن مشخص می‌شود برمی‌گرداند. فقط-خواندنی String. |
-| [SlideIndex](../../aspose.slides.export/ihtmlgenerator/slideindex) { get; } | شاخص اسلایدی که در حال حاضر رندر می‌شود را برمی‌گرداند. فقط-خواندنی Int32. |
+| [SlideImageSizeUnit](../../aspose.slides.export/ihtmlgenerator/slideimagesizeunit) { get; } | واحدی را که اندازه تصویر اسلاید بر اساس آن مشخص شده است برمی‌گرداند. فقط-خواندنی [`SvgCoordinateUnit`](../svgcoordinateunit). |
+| [SlideImageSizeUnitCode](../../aspose.slides.export/ihtmlgenerator/slideimagesizeunitcode) { get; } | کد css واحدی که اندازه تصویر اسلاید بر اساس آن مشخص شده است را برمی‌گرداند. فقط-خواندنی String. |
+| [SlideIndex](../../aspose.slides.export/ihtmlgenerator/slideindex) { get; } | اندیس اسلایدی که در حال رندر است را برمی‌گرداند. فقط-خواندنی Int32. |
 
 ## متدها
 
 | نام | توضیح |
 | --- | --- |
-| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue)(char[]) | مقدار ویژگی را نقل قول می‌کند و به فایل HTML اضافه می‌ورد. |
-| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue_2)(string) | مقدار ویژگی را نقل قول می‌کند و به فایل HTML اضافه می‌ورد. |
-| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue_1)(char[], int, int) | مقدار ویژگی را نقل قول می‌کند و به فایل HTML اضافه می‌ورد. |
+| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue)(char[]) | مقدار ویژگی را نقل قول می‌کند و به فایل html اضافه می‌نماید. |
+| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue_2)(string) | مقدار ویژگی را نقل قول می‌کند و به فایل html اضافه می‌نماید. |
+| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue_1)(char[], int, int) | مقدار ویژگی را نقل قول می‌کند و به فایل html اضافه می‌نماید. |
 | [AddHtml](../../aspose.slides.export/ihtmlgenerator/addhtml#addhtml)(char[]) | متن HTML قالب‌بندی‌شده را اضافه می‌کند. |
 | [AddHtml](../../aspose.slides.export/ihtmlgenerator/addhtml#addhtml_2)(string) | متن HTML قالب‌بندی‌شده را اضافه می‌کند. |
 | [AddHtml](../../aspose.slides.export/ihtmlgenerator/addhtml#addhtml_1)(char[], int, int) | متن HTML قالب‌بندی‌شده را اضافه می‌کند. |
-| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext)(char[]) | متن ساده را به فایل‌های HTML اضافه می‌کند، کاراکترهای خاص را با موجودیت‌های HTML جایگزین می‌نماید. شکست‌های خط و فضاهای خالی جایگزین نمی‌شوند. |
-| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext_2)(string) | متن ساده را به فایل‌های HTML اضافه می‌کند، کاراکترهای خاص را با موجودیت‌های HTML جایگزین می‌نماید. شکست‌های خط و فضاهای خالی جایگزین نمی‌شوند. |
-| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext_1)(char[], int, int) | متن ساده را به فایل‌های HTML اضافه می‌کند، کاراکترهای خاص را با موجودیت‌های HTML جایگزین می‌نماید. شکست‌های خط و فضاهای خالی جایگزین نمی‌شوند. |
+| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext)(char[]) | متن ساده را به فایل‌های html اضافه می‌کند و کاراکترهای ویژه را با موجودیت‌های html جایگزین می‌نماید. شکست خطوط و فاصله‌های سفید جایگزین نمی‌شوند. |
+| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext_2)(string) | متن ساده را به فایل‌های html اضافه می‌کند و کاراکترهای ویژه را با موجودیت‌های html جایگزین می‌نماید. شکست خطوط و فاصله‌های سفید جایگزین نمی‌شوند. |
+| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext_1)(char[], int, int) | متن ساده را به فایل‌های html اضافه می‌کند و کاراکترهای ویژه را با موجودیت‌های html جایگزین می‌نماید. شکست خطوط و فاصله‌های سفید جایگزین نمی‌شوند. |
 
 ### موارد مرتبط
 
 * فضای‌نام [Aspose.Slides.Export](../../aspose.slides.export)
-* مونتاژ [Aspose.Slides](../../)
+* مجتمع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

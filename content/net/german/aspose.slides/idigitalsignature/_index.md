@@ -1,9 +1,9 @@
 ---
 title: IDigitalSignature
 second_title: Aspose.Sildes für .NET API Referenz
-description: Digitale Signatur in einer signierten Datei.
+description: Digitale Signatur in signierter Datei.
 type: docs
-weight: 5690
+weight: 5710
 url: /de/aspose.slides/idigitalsignature/
 ---
 ## IDigitalSignature Schnittstelle
@@ -19,8 +19,8 @@ public interface IDigitalSignature
 | Name | Beschreibung |
 | --- | --- |
 | [Certificate](../../aspose.slides/idigitalsignature/certificate) { get; } | Zertifikatsobjekt, das zum Signieren des Dokuments verwendet wurde. Nur-Lesen X509Certificate2. |
-| [Comments](../../aspose.slides/idigitalsignature/comments) { get; set; } | Der Zweck der Signatur. Lesen/Schreiben String. |
-| [IsValid](../../aspose.slides/idigitalsignature/isvalid) { get; } | Wenn diese digitale Signatur gültig ist und das Dokument nicht manipuliert wurde, ist dieser Wert wahr. Nur-Lesen Boolean. |
+| [Comments](../../aspose.slides/idigitalsignature/comments) { get; set; } | Der Zweck der Signatur. Lese-/Schreib String. |
+| [IsValid](../../aspose.slides/idigitalsignature/isvalid) { get; } | Wenn diese digitale Signatur gültig ist und das Dokument nicht manipuliert wurde, ist dieser Wert true. Nur-Lesen Boolean. |
 | [SignTime](../../aspose.slides/idigitalsignature/signtime) { get; } | Der Zeitpunkt, zu dem das Dokument signiert wurde. Nur-Lesen DateTime. |
 
 ### Siehe auch

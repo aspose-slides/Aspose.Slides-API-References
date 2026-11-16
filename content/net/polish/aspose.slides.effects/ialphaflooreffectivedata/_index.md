@@ -1,14 +1,14 @@
 ---
 title: IAlphaFloorEffectiveData
 second_title: Aspose.Sildes dla .NET – odniesienie API
-description: Obiekt niezmienny, który reprezentuje efekt Alpha Floor. Wartości przezroczystości Alpha mniejsze niż 100 są zmieniane na zero. Innymi słowy, wszystko częściowo przezroczyste staje się całkowicie przezroczyste.
+description: Nieodmienny obiekt reprezentujący efekt Alpha Floor. Wartości przezroczystości Alpha mniejsze niż 100 są zmieniane na zero. Innymi słowy, wszystko częściowo przezroczyste staje się w pełni przezroczyste.
 type: docs
-weight: 3070
+weight: 3090
 url: /pl/aspose.slides.effects/ialphaflooreffectivedata/
 ---
 ## IAlphaFloorEffectiveData interfejs
 
-Obiekt niezmienny, który reprezentuje efekt Alpha Floor. Wartości Alpha (przezroczystość) mniejsze niż 100 % są zmieniane na zero. Innymi słowy, wszystko częściowo przezroczyste staje się całkowicie przezroczyste.
+Nieodmienny obiekt reprezentujący efekt Alpha Floor. Wartości Alpha (przezroczystość) mniejsze niż 100 % są zmieniane na zero. Innymi słowy, wszystko częściowo przezroczyste staje się w pełni przezroczyste.
 
 ```csharp
 public interface IAlphaFloorEffectiveData : IEffectEffectiveData

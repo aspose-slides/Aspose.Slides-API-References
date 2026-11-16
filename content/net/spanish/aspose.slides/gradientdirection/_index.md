@@ -3,10 +3,10 @@ title: GradientDirection
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa el estilo de degradado.
 type: docs
-weight: 4990
+weight: 5010
 url: /es/aspose.slides/gradientdirection/
 ---
-## Enumeración GradientDirection
+## GradientDirection enumeración
 
 Representa el estilo de degradado.
 

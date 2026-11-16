@@ -1,9 +1,9 @@
 ---
 title: IChartTextFormat
-second_title: Riferimento API di Aspose.Sildes per .NET
-description: Il grafico opera con un insieme limitato di proprietà di formattazione del testo. Le interfacce IChartTextFormat IChartTextBlockFormat IChartParagraphFormat IChartPortionFormat descrivono questo insieme limitato.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Chart opera con un insieme limitato di proprietà di formattazione del testo. IChartTextFormat IChartTextBlockFormat IChartParagraphFormat IChartPortionFormat interfacce descrivono questo insieme limitato.
 type: docs
-weight: 1990
+weight: 2010
 url: /it/aspose.slides.charts/icharttextformat/
 ---
 ## IChartTextFormat interfaccia
@@ -26,8 +26,8 @@ public interface IChartTextFormat
 
 | Nome | Descrizione |
 | --- | --- |
-| [CopyFrom](../../aspose.slides.charts/icharttextformat/copyfrom)(ITextFrame) | Copia il formato del testo dal frame di testo specificato. |
-| [CopyTo](../../aspose.slides.charts/icharttextformat/copyto)(ITextFrame) | Copia il formato del testo al frame di testo specificato. |
+| [CopyFrom](../../aspose.slides.charts/icharttextformat/copyfrom)(ITextFrame) | Copia la formattazione del testo dal frame di testo specificato. |
+| [CopyTo](../../aspose.slides.charts/icharttextformat/copyto)(ITextFrame) | Copia la formattazione del testo nel frame di testo specificato. |
 
 ### Vedi anche
 

@@ -3,7 +3,7 @@ title: IVbaProjectFactory
 second_title: Aspose.Sildes for .NET API 参考
 description: 允许通过 COM 接口创建 VBA 项目
 type: docs
-weight: 11560
+weight: 11580
 url: /zh/aspose.slides.vba/ivbaprojectfactory/
 ---
 ## IVbaProjectFactory 接口

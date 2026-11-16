@@ -1,12 +1,12 @@
 ---
 title: IVbaModule
-second_title: Aspose.Sildes .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: VBA projesinde bulunan modülü temsil eder.
 type: docs
-weight: 11530
+weight: 11550
 url: /tr/aspose.slides.vba/ivbamodule/
 ---
-## IVbaModule arayüzü
+## IVbaModule arayüz
 
 VBA projesinde bulunan modülü temsil eder.
 
@@ -18,8 +18,8 @@ public interface IVbaModule
 
 | Ad | Açıklama |
 | --- | --- |
-| [Name](../../aspose.slides.vba/ivbamodule/name) { get; } | Modülün adı. Salt okunur String. |
-| [SourceCode](../../aspose.slides.vba/ivbamodule/sourcecode) { get; set; } | Modülün kaynak kodu. Okunur/Yazılabilir String. |
+| [Name](../../aspose.slides.vba/ivbamodule/name) { get; } | Modülün adı. Yalnızca okuma String. |
+| [SourceCode](../../aspose.slides.vba/ivbamodule/sourcecode) { get; set; } | Modülün kaynak kodu. Okuma/yazma String. |
 
 ### Ayrıca Bakınız
 

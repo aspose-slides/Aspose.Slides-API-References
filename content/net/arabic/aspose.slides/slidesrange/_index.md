@@ -1,12 +1,12 @@
 ---
 title: SlidesRange
-second_title: مرجع API الخاص بـ Aspose.Sildes لـ .NET
+second_title: Aspose.Sildes لـ .NET مرجع API
 description: نطاق الشرائح
 type: docs
-weight: 10530
+weight: 10550
 url: /ar/aspose.slides/slidesrange/
 ---
-## SlidesRange الفئة
+## SlidesRange فئة
 
 نطاق الشرائح
 
@@ -14,11 +14,11 @@ url: /ar/aspose.slides/slidesrange/
 public class SlidesRange
 ```
 
-## المنشئات
+## المُنشئات
 
 | الاسم | الوصف |
 | --- | --- |
-| [SlidesRange](slidesrange)() | المنشئ الافتراضي. |
+| [SlidesRange](slidesrange)() | المُنشئ الافتراضي. |
 
 ## الخصائص
 

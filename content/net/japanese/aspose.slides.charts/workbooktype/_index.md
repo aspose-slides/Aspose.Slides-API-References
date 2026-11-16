@@ -1,14 +1,14 @@
 ---
 title: WorkbookType
 second_title: Aspose.Sildes の .NET API リファレンス
-description: Open XML ブックファイルの種類を指定します。
+description: Open XML ワークブック ファイルのタイプを指定します。
 type: docs
-weight: 2510
+weight: 2530
 url: /ja/aspose.slides.charts/workbooktype/
 ---
-## WorkbookType 列挙体
+## WorkbookType 列挙型
 
-Open XML ブックファイルの種類を指定します。
+Open XML ワークブック ファイルのタイプを指定します。
 
 ```csharp
 public enum WorkbookType
@@ -18,12 +18,12 @@ public enum WorkbookType
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
-| NotDefined | `-1` | ブックブックの種類が定義されていません。 |
-| Workbook | `0` | Excel ブック (*.xlsx)。 |
-| WorkbookMacro | `1` | マクロ対応の Excel ブック (*.xlsm)。 |
+| NotDefined | `-1` | ワークブック タイプは定義されていません。 |
+| Workbook | `0` | Excel ワークブック (*.xlsx)。 |
+| WorkbookMacro | `1` | Excel マクロ有効ワークブック (*.xlsm)。 |
 | Template | `2` | Excel テンプレート (*.xltx)。 |
-| TemplateMacro | `3` | マクロ対応の Excel テンプレート (*.xltm)。 |
-| WorkbookBinaryMacro | `4` | バイナリ マクロ対応の Excel ブック (*.xlsb)。 |
+| TemplateMacro | `3` | Excel マクロ有効テンプレート (*.xltm)。 |
+| WorkbookBinaryMacro | `4` | Excel バイナリ マクロ有効ワークブック (*.xlsb)。 |
 
 ### 参照
 

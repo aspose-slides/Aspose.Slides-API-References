@@ -3,7 +3,7 @@ title: EmbedAllFontsHtmlController
 second_title: Aspose.Sildes for .NET API 参考
 description: 用于在 WOFF 格式中嵌入所有演示文稿字体的格式化控制器类。
 type: docs
-weight: 3760
+weight: 3780
 url: /zh/aspose.slides.export/embedallfontshtmlcontroller/
 ---
 ## EmbedAllFontsHtmlController 类
@@ -18,19 +18,19 @@ public class EmbedAllFontsHtmlController : IHtmlFormattingController
 
 | 名称 | 描述 |
 | --- | --- |
-| [EmbedAllFontsHtmlController](embedallfontshtmlcontroller#constructor)() | 创建新的实例 |
-| [EmbedAllFontsHtmlController](embedallfontshtmlcontroller#constructor_1)(string[]) | 创建新的实例 |
+| [EmbedAllFontsHtmlController](embedallfontshtmlcontroller#constructor)() | 创建新实例 |
+| [EmbedAllFontsHtmlController](embedallfontshtmlcontroller#constructor_1)(string[]) | 创建新实例 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| virtual [WriteAllFonts](../../aspose.slides.export/embedallfontshtmlcontroller/writeallfonts)(IHtmlGenerator, IPresentation) | 将 [`Presentation`](../../aspose.slides/presentation) 中包含的所有字体写入。 |
+| virtual [WriteAllFonts](../../aspose.slides.export/embedallfontshtmlcontroller/writeallfonts)(IHtmlGenerator, IPresentation) | 写入 [`Presentation`](../../aspose.slides/presentation) 中包含的所有字体。 |
 | virtual [WriteDocumentEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writedocumentend)(IHtmlGenerator, IPresentation) | 用于写入 HTML 文档页脚。每次演示文稿转换调用一次。 |
 | virtual [WriteDocumentStart](../../aspose.slides.export/embedallfontshtmlcontroller/writedocumentstart)(IHtmlGenerator, IPresentation) | 用于写入 HTML 文档头部。每次演示文稿转换调用一次。 |
 | virtual [WriteFont](../../aspose.slides.export/embedallfontshtmlcontroller/writefont)(IHtmlGenerator, IFontData, IFontData, string, string, byte[]) | 将数据以 base64 形式写入 HTML 文档本身 |
-| virtual [WriteShapeEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapeend)(IHtmlGenerator, IShape) | 在形状渲染之前调用。每个形状调用一次。如果此函数向生成器写入任何内容，当前幻灯片图像生成将结束，插入已添加的 HTML 片段并在之前的图像之上启动新的图像。 |
-| virtual [WriteShapeStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapestart)(IHtmlGenerator, IShape) | 在形状渲染之前调用。每个形状调用一次。如果此函数向生成器写入任何内容，当前幻灯片图像生成将结束，插入已添加的 HTML 片段并在之前的图像之上启动新的图像。 |
+| virtual [WriteShapeEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapeend)(IHtmlGenerator, IShape) | 在形状渲染之前调用。每个形状调用一次。如果此函数向生成器写入任何内容，当前幻灯片的图像生成将结束，已添加的 HTML 片段将被插入，并在之前的图像之上启动新的图像。 |
+| virtual [WriteShapeStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapestart)(IHtmlGenerator, IShape) | 在形状渲染之前调用。每个形状调用一次。如果此函数向生成器写入任何内容，当前幻灯片的图像生成将结束，已添加的 HTML 片段将被插入，并在之前的图像之上启动新的图像。 |
 | virtual [WriteSlideEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeslideend)(IHtmlGenerator, ISlide) | 用于写入 HTML 幻灯片页脚。每个幻灯片调用一次。 |
 | virtual [WriteSlideStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeslidestart)(IHtmlGenerator, ISlide) | 用于写入 HTML 幻灯片头部。每个幻灯片调用一次。 |
 

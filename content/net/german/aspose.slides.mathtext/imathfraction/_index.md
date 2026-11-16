@@ -1,14 +1,14 @@
 ---
 title: IMathFraction
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Legt das Bruchobjekt fest, das aus einem Zähler und einem Nenner besteht, die durch einen Bruchstrich getrennt sind. Der Bruchstrich kann je nach Bruch-Eigenschaften horizontal oder diagonal sein. Das Bruchobjekt wird außerdem verwendet, um die Stapelfunktion darzustellen, die ein Element über einem anderen ohne Bruchstrich platziert.
+description: Definiert das Bruchobjekt, das aus einem Zähler und einem Nenner besteht, die durch einen Bruchstrich getrennt sind. Der Bruchstrich kann je nach Bruch-Eigenschaften horizontal oder diagonal sein. Das Bruchobjekt wird außerdem verwendet, um die Stapelfunktion darzustellen, die ein Element über einem anderen platziert, ohne Bruchstrich.
 type: docs
-weight: 8250
+weight: 8270
 url: /de/aspose.slides.mathtext/imathfraction/
 ---
 ## IMathFraction Schnittstelle
 
-Legt das Bruchobjekt fest, das aus einem Zähler und einem Nenner besteht, die durch einen Bruchstrich getrennt sind. Der Bruchstrich kann horizontal oder diagonal sein, abhängig von den Bruch-Eigenschaften. Das Bruchobjekt wird außerdem verwendet, um die Stapel-Funktion darzustellen, die ein Element über einem anderen platziert, ohne Bruchstrich.
+Definiert das Bruchobjekt, das aus einem Zähler und einem Nenner besteht, die durch einen Bruchstrich getrennt sind. Der Bruchstrich kann horizontal oder diagonal sein, je nach den Eigenschaften des Bruchs. Das Bruchobjekt wird außerdem verwendet, um die Stapelfunktion darzustellen, die ein Element über einem anderen platziert, ohne Bruchstrich.
 
 ```csharp
 public interface IMathFraction : IMathElement
@@ -16,9 +16,9 @@ public interface IMathFraction : IMathElement
 
 ## Eigenschaften
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathfraction/asimathelement) { get; } | Ermöglicht das Abrufen der Basis-Schnittstelle IMathElement [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathfraction/asimathelement) { get; } | Ermöglicht das Abrufen der Basis-IMathElement-Schnittstelle [`IMathElement`](../imathelement) |
 | [Denominator](../../aspose.slides.mathtext/imathfraction/denominator) { get; } | Nenner |
 | [FractionType](../../aspose.slides.mathtext/imathfraction/fractiontype) { get; set; } | Bruchtyp Standard: Bar |
 | [Numerator](../../aspose.slides.mathtext/imathfraction/numerator) { get; } | Zähler |

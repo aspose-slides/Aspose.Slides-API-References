@@ -1,14 +1,14 @@
 ---
 title: IExtraColorScheme
-second_title: Aspose.Sildes για .NET Αναφορά API
-description: Αντιπροσωπεί ένα πρόσθετο σχήμα χρώματος που μπορεί να ανατεθεί σε μια διαφάνεια.
+second_title: Aspose.Sildes για .NET API Αναφορά
+description: Αντιπροσωπεύει ένα πρόσθετο χρωματικό σχήμα που μπορεί να εκχωρηθεί σε μια διαφάνεια.
 type: docs
-weight: 11210
+weight: 11230
 url: /el/aspose.slides.theme/iextracolorscheme/
 ---
-## IExtraColorScheme διασύνδεση
+## IExtraColorScheme διεπαφή
 
-Αντιπροσωπεί ένα πρόσθετο σχήμα χρώματος που μπορεί να ανατεθεί σε μια διαφάνεια.
+Αντιπροσωπεύει ένα πρόσθετο χρωματικό σχήμα που μπορεί να εκχωρηθεί σε μια διαφάνεια.
 
 ```csharp
 public interface IExtraColorScheme
@@ -18,7 +18,7 @@ public interface IExtraColorScheme
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [ColorScheme](../../aspose.slides.theme/iextracolorscheme/colorscheme) { get; } | Επιστρέφει ένα σχήμα χρώματος. Μόνο για ανάγνωση [`IColorScheme`](../icolorscheme). |
+| [ColorScheme](../../aspose.slides.theme/iextracolorscheme/colorscheme) { get; } | Επιστρέφει ένα χρωματικό σχήμα. Μόνο για ανάγνωση [`IColorScheme`](../icolorscheme). |
 | [Name](../../aspose.slides.theme/iextracolorscheme/name) { get; } | Επιστρέφει ένα όνομα αυτού του σχήματος. Μόνο για ανάγνωση String. |
 
 ### Δείτε επίσης

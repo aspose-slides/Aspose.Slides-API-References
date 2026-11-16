@@ -3,7 +3,7 @@ title: LineFillFormat
 second_title: Aspose.Sildes .NET API 参考
 description: 表示线条填充的属性。
 type: docs
-weight: 7780
+weight: 7800
 url: /zh/aspose.slides/linefillformat/
 ---
 ## LineFillFormat 类
@@ -30,7 +30,7 @@ public sealed class LineFillFormat : PVIObject, ILineFillFormat
 | 名称 | 描述 |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | 与指定对象比较。 |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | 返回哈希代码。 |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | 返回哈希值。 |
 
 ### 另见
 

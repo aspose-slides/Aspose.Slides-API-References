@@ -1,14 +1,14 @@
 ---
 title: Zip64Mode
 second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Xác định thời điểm sử dụng các phần mở rộng định dạng ZIP64 cho tệp OpenXML.
+description: Chỉ định thời điểm sử dụng phần mở rộng định dạng ZIP64 cho tệp OpenXML.
 type: docs
-weight: 4740
+weight: 4760
 url: /vi/aspose.slides.export/zip64mode/
 ---
 ## Zip64Mode liệt kê
 
-Xác định thời điểm sử dụng các phần mở rộng định dạng ZIP64 cho tệp OpenXML.
+Chỉ định thời điểm sử dụng phần mở rộng định dạng ZIP64 cho tệp OpenXML.
 
 ```csharp
 public enum Zip64Mode
@@ -24,7 +24,7 @@ public enum Zip64Mode
 
 ### Ghi chú
 
-Tệp OpenXML là một ZIP-archive có giới hạn 4 GB (2^32 byte) về kích thước chưa nén của một tệp, kích thước đã nén của một tệp và tổng kích thước của kho lưu trữ, đồng thời giới hạn 65 535 (2^16-1) tệp trong kho lưu trữ. Các phần mở rộng định dạng ZIP64 tăng các giới hạn lên 2^64.
+Tệp OpenXML là một kho ZIP có giới hạn 4 GB (2^32 byte) về kích thước không nén của một tệp, kích thước đã nén của một tệp và tổng kích thước của kho, cũng như giới hạn 65.535 (2^16-1) tệp trong kho. Các phần mở rộng định dạng ZIP64 tăng giới hạn lên đến 2^64.
 
 ### Xem thêm
 

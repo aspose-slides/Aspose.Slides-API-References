@@ -1,9 +1,9 @@
 ---
 title: Hyperlink
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 하이퍼링크를 나타냅니다.
 type: docs
-weight: 5120
+weight: 5140
 url: /ko/aspose.slides/hyperlink/
 ---
 ## Hyperlink 클래스
@@ -18,44 +18,44 @@ public sealed class Hyperlink : PVIObject, IHyperlink
 
 | 이름 | 설명 |
 | --- | --- |
-| [Hyperlink](hyperlink#constructor_1)(ISlide) | 특정 슬라이드를 가리키는 하이퍼링크 인스턴스를 생성합니다. 참고: 생성된 하이퍼링크는 동일한 프레젠테이션의 객체에 할당해야 하며, 그렇지 않으면 링크가 NoAction으로 저장됩니다. |
+| [Hyperlink](hyperlink#constructor_1)(ISlide) | 특정 슬라이드를 가리키는 하이퍼링크 인스턴스를 생성합니다. 참고: 생성된 하이퍼링크는 동일한 프레젠테이션의 객체에 할당되어야 하며, 그렇지 않으면 링크가 NoAction으로 저장됩니다. |
 | [Hyperlink](hyperlink#constructor_2)(string) | 하이퍼링크 인스턴스를 생성합니다. |
-| [Hyperlink](hyperlink#constructor)(Hyperlink, string, string, bool, bool, bool) | 다른 하이퍼링크를 소스로 사용하고 보조 속성을 재정의하여 하이퍼링크 인스턴스를 생성합니다. |
+| [Hyperlink](hyperlink#constructor)(Hyperlink, string, string, bool, bool, bool) | 다른 하이퍼링크를 소스로 사용하여 하이퍼링크 인스턴스를 생성하고, 보조 속성을 재정의합니다. |
 
 ## 속성
 
 | 이름 | 설명 |
 | --- | --- |
 | static [EndShow](../../aspose.slides/hyperlink/endshow) { get; } | 쇼를 종료하는 하이퍼링크를 반환합니다. 읽기 전용 [`Hyperlink`](../hyperlink). |
-| static [FirstSlide](../../aspose.slides/hyperlink/firstslide) { get; } | 프레젠테이션의 첫 번째 슬라이드에 대한 하이퍼링크를 반환합니다. 읽기 전용 [`Hyperlink`](../hyperlink). |
-| static [LastSlide](../../aspose.slides/hyperlink/lastslide) { get; } | 프레젠테이션의 마지막 슬라이드에 대한 하이퍼링크를 반환합니다. 읽기 전용 [`Hyperlink`](../hyperlink). |
-| static [LastVievedSlide](../../aspose.slides/hyperlink/lastvievedslide) { get; } | 마지막으로 본 슬라이드에 대한 하이퍼링크를 반환합니다. 읽기 전용 [`Hyperlink`](../hyperlink). |
-| static [Media](../../aspose.slides/hyperlink/media) { get; } | 특수한 "play mediafile" 하이퍼링크를 반환합니다. AudioFrame 및 VideoFrame에서 사용됩니다. 읽기 전용 [`Hyperlink`](../hyperlink). |
-| static [NextSlide](../../aspose.slides/hyperlink/nextslide) { get; } | 다음 슬라이드에 대한 하이퍼링크를 반환합니다. 읽기 전용 [`Hyperlink`](../hyperlink). |
-| static [NoAction](../../aspose.slides/hyperlink/noaction) { get; } | 특수한 "do nothing" 하이퍼링크를 반환합니다. 읽기 전용 [`Hyperlink`](../hyperlink). |
-| static [PreviousSlide](../../aspose.slides/hyperlink/previousslide) { get; } | 이전 슬라이드에 대한 하이퍼링크를 반환합니다. 읽기 전용 [`Hyperlink`](../hyperlink). |
-| [ActionType](../../aspose.slides/hyperlink/actiontype) { get; } | Hyperlink의 동작 유형을 반환합니다. 읽기 전용 [`HyperlinkActionType`](../hyperlinkactiontype). |
+| static [FirstSlide](../../aspose.slides/hyperlink/firstslide) { get; } | 프레젠테이션의 첫 번째 슬라이드로 이동하는 하이퍼링크를 반환합니다. 읽기 전용 [`Hyperlink`](../hyperlink). |
+| static [LastSlide](../../aspose.slides/hyperlink/lastslide) { get; } | 프레젠테이션의 마지막 슬라이드로 이동하는 하이퍼링크를 반환합니다. 읽기 전용 [`Hyperlink`](../hyperlink). |
+| static [LastVievedSlide](../../aspose.slides/hyperlink/lastvievedslide) { get; } | 마지막으로 본 슬라이드로 이동하는 하이퍼링크를 반환합니다. 읽기 전용 [`Hyperlink`](../hyperlink). |
+| static [Media](../../aspose.slides/hyperlink/media) { get; } | 특수 “미디어 파일 재생” 하이퍼링크를 반환합니다. AudioFrame 및 VideoFrame에서 사용됩니다. 읽기 전용 [`Hyperlink`](../hyperlink). |
+| static [NextSlide](../../aspose.slides/hyperlink/nextslide) { get; } | 다음 슬라이드로 이동하는 하이퍼링크를 반환합니다. 읽기 전용 [`Hyperlink`](../hyperlink). |
+| static [NoAction](../../aspose.slides/hyperlink/noaction) { get; } | 특수 “동작 없음” 하이퍼링크를 반환합니다. 읽기 전용 [`Hyperlink`](../hyperlink). |
+| static [PreviousSlide](../../aspose.slides/hyperlink/previousslide) { get; } | 이전 슬라이드로 이동하는 하이퍼링크를 반환합니다. 읽기 전용 [`Hyperlink`](../hyperlink). |
+| [ActionType](../../aspose.slides/hyperlink/actiontype) { get; } | 하이퍼링크 동작 유형을 반환합니다. 읽기 전용 [`HyperlinkActionType`](../hyperlinkactiontype). |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 기본 IPresentationComponent 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IPresentationComponent`](../ipresentationcomponent). |
-| [ColorSource](../../aspose.slides/hyperlink/colorsource) { get; set; } | 하이퍼링크 색상의 원본을 나타냅니다 - 스타일 또는 구획 형식 중 하나. 읽기/쓰기 [`HyperlinkColorSource`](../hyperlinkcolorsource). |
-| [ExternalUrl](../../aspose.slides/hyperlink/externalurl) { get; } | 외부 URL을 지정합니다. 읽기 전용 문자열. |
-| [ExternalUrlOriginal](../../aspose.slides/hyperlink/externalurloriginal) { get; } | 이 구획에 대해 실제 내용과 무관하게 설정된 하이퍼링크를 나타냅니다. PowerPoint는 구획 내의 링크와 해당 텍스트에 대해 특별히 동작합니다. 실제 링크 주소와 다른 유효한 URL 형태의 텍스트를 하이퍼링크로 만들 수 있습니다. 이 경우 편집 창에서 링크를 보면 텍스트 구획에 맞게 변경됩니다. 이 속성은 하이퍼링크의 원래 값을 나타냅니다. |
-| [HighlightClick](../../aspose.slides/hyperlink/highlightclick) { get; set; } | 클릭 시 하이퍼링크를 강조 표시할지 여부를 결정합니다. 읽기/쓰기 부울. |
-| [History](../../aspose.slides/hyperlink/history) { get; set; } | 부모 하이퍼링크가 호출될 때 해당 대상이 조회된 하이퍼링크 목록에 추가될지 여부를 결정합니다. 읽기/쓰기 부울. |
+| [ColorSource](../../aspose.slides/hyperlink/colorsource) { get; set; } | 하이퍼링크 색상의 소스를 나타냅니다 – 스타일 또는 부분 형식 중 하나입니다. 읽기/쓰기 [`HyperlinkColorSource`](../hyperlinkcolorsource). |
+| [ExternalUrl](../../aspose.slides/hyperlink/externalurl) { get; } | 외부 URL을 지정합니다. 읽기 전용 String. |
+| [ExternalUrlOriginal](../../aspose.slides/hyperlink/externalurloriginal) { get; } | 이 부분에 실제 내용과 관계없이 설정된 하이퍼링크를 나타냅니다. PowerPoint는 부분 내 링크와 해당 텍스트에 대해 특수하게 동작합니다. 실제 링크 주소와 다른 유효한 URL 형태의 텍스트를 하이퍼링크로 생성할 수 있습니다. 이 경우 편집 창에서 링크를 볼 때 텍스트 부분에 맞게 변경됩니다. 이 속성은 하이퍼링크의 원래 값을 나타냅니다. |
+| [HighlightClick](../../aspose.slides/hyperlink/highlightclick) { get; set; } | 클릭 시 하이퍼링크를 강조 표시할지 여부를 결정합니다. 읽기/쓰기 Boolean. |
+| [History](../../aspose.slides/hyperlink/history) { get; set; } | 상위 하이퍼링크의 대상이 호출될 때 조회된 하이퍼링크 목록에 추가될지 여부를 결정합니다. 읽기/쓰기 Boolean. |
 | [Sound](../../aspose.slides/hyperlink/sound) { get; set; } | 하이퍼링크의 재생 사운드를 나타냅니다. 읽기/쓰기 [`IAudio`](../iaudio). |
-| [StopSoundOnClick](../../aspose.slides/hyperlink/stopsoundonclick) { get; set; } | 하이퍼링크 클릭 시 사운드를 중지할지 여부를 결정합니다. 읽기/쓰기 부울. |
-| [TargetFrame](../../aspose.slides/hyperlink/targetframe) { get; set; } | 존재할 경우 부모 하이퍼링크 대상에 대한 부모 HTML 프레임셋 내의 프레임을 반환합니다. 읽기/쓰기 문자열. |
-| [TargetSlide](../../aspose.slides/hyperlink/targetslide) { get; } | Hyperlink가 특정 슬라이드를 대상으로 하면 해당 슬라이드를 반환합니다. 읽기 전용 [`ISlide`](../islide). |
-| [Tooltip](../../aspose.slides/hyperlink/tooltip) { get; set; } | 사용자 인터페이스에 표시될 수 있는 문자열을 반환하며, 이는 부모 하이퍼링크와 연관됩니다. 읽기/쓰기 문자열. |
+| [StopSoundOnClick](../../aspose.slides/hyperlink/stopsoundonclick) { get; set; } | 하이퍼링크 클릭 시 사운드를 중단할지 여부를 결정합니다. 읽기/쓰기 Boolean. |
+| [TargetFrame](../../aspose.slides/hyperlink/targetframe) { get; set; } | 상위 하이퍼링크의 대상이 존재할 경우 상위 HTML 프레임셋 내 프레임을 반환합니다. 읽기/쓰기 String. |
+| [TargetSlide](../../aspose.slides/hyperlink/targetslide) { get; } | 하이퍼링크가 특정 슬라이드를 대상으로 하면 해당 슬라이드를 반환합니다. 읽기 전용 [`ISlide`](../islide). |
+| [Tooltip](../../aspose.slides/hyperlink/tooltip) { get; set; } | 사용자 인터페이스에 상위 하이퍼링크와 연관되어 표시될 수 있는 문자열을 반환합니다. 읽기/쓰기 String. |
 
 ## 메서드
 
 | 이름 | 설명 |
 | --- | --- |
-| [Equals](../../aspose.slides/hyperlink/equals#equals)(IHyperlink) | 두 Hyperlink 인스턴스가 같은지 여부를 결정합니다. |
-| override [Equals](../../aspose.slides/hyperlink/equals#equals_1)(object) | 두 Hyperlink 인스턴스가 같은지 여부를 결정합니다. |
-| override [GetHashCode](../../aspose.slides/hyperlink/gethashcode)() | 특정 유형에 대한 해시 함수를 제공하며, 해시 알고리즘 및 해시 테이블과 같은 데이터 구조에서 사용할 수 있습니다. |
-| [operator ==](../../aspose.slides/hyperlink/op_equality) | 두 하이퍼링크가 같은지 테스트합니다. |
-| [operator !=](../../aspose.slides/hyperlink/op_inequality) | 두 하이퍼링크가 다른지 테스트합니다. |
+| [Equals](../../aspose.slides/hyperlink/equals#equals)(IHyperlink) | 두 Hyperlink 인스턴스가 같은지 여부를 판단합니다. |
+| override [Equals](../../aspose.slides/hyperlink/equals#equals_1)(object) | 두 Hyperlink 인스턴스가 같은지 여부를 판단합니다. |
+| override [GetHashCode](../../aspose.slides/hyperlink/gethashcode)() | 특정 유형에 대한 해시 함수로 동작하며, 해시 테이블과 같은 해싱 알고리즘 및 데이터 구조에 사용할 수 있습니다. |
+| [operator ==](../../aspose.slides/hyperlink/op_equality) | 두 하이퍼링크의 동등성을 테스트합니다. |
+| [operator !=](../../aspose.slides/hyperlink/op_inequality) | 두 하이퍼링크의 불동등성을 테스트합니다. |
 
 ### 참고
 

@@ -3,7 +3,7 @@ title: SketchFormat
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta le proprietà per il formato schizzo delle linee.
 type: docs
-weight: 9950
+weight: 9970
 url: /it/aspose.slides/sketchformat/
 ---
 ## SketchFormat classe

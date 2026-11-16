@@ -1,9 +1,9 @@
 ---
 title: IShapeBevelEffectiveData
 second_title: Aspose.Sildes pro .NET API Reference
-description: Neměnný objekt, který obsahuje efektivní vlastnosti reliéfu plochy tvarů.
+description: Neměnný objekt, který obsahuje efektivní vlastnosti reliéfu povrchu tvarů.
 type: docs
-weight: 6970
+weight: 6990
 url: /cs/aspose.slides/ishapebeveleffectivedata/
 ---
 ## IShapeBevelEffectiveData rozhraní
@@ -16,11 +16,11 @@ public interface IShapeBevelEffectiveData
 
 ## Vlastnosti
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
-| [BevelType](../../aspose.slides/ishapebeveleffectivedata/beveltype) { get; } | Typ zkosení. Pouze pro čtení [`BevelPresetType`](../bevelpresettype). |
-| [Height](../../aspose.slides/ishapebeveleffectivedata/height) { get; } | Výška zkosení. Pouze pro čtení Double. |
-| [Width](../../aspose.slides/ishapebeveleffectivedata/width) { get; } | Šířka zkosení. Pouze pro čtení Double. |
+| [BevelType](../../aspose.slides/ishapebeveleffectivedata/beveltype) { get; } | Typ zkosení. Jen pro čtení [`BevelPresetType`](../bevelpresettype). |
+| [Height](../../aspose.slides/ishapebeveleffectivedata/height) { get; } | Výška zkosení. Jen pro čtení Double. |
+| [Width](../../aspose.slides/ishapebeveleffectivedata/width) { get; } | Šířka zkosení. Jen pro čtení Double. |
 
 ### Poznámky
 

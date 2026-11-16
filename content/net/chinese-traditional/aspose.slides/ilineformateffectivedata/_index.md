@@ -1,9 +1,9 @@
 ---
 title: ILineFormatEffectiveData
 second_title: Aspose.Sildes for .NET API 參考
-description: 不可變物件，包含有效的線條格式屬性。
+description: 不可變的物件，包含有效的線條格式屬性。
 type: docs
-weight: 6320
+weight: 6340
 url: /zh-hant/aspose.slides/ilineformateffectivedata/
 ---
 ## ILineFormatEffectiveData 介面
@@ -16,37 +16,37 @@ public interface ILineFormatEffectiveData : ILineParamSource
 
 ## 屬性
 
-| 名稱 | 描述 |
+| 名稱 | 說明 |
 | --- | --- |
-| [Alignment](../../aspose.slides/ilineformateffectivedata/alignment) { get; } | 返回線條對齊方式。唯讀 [`LineAlignment`](../linealignment)。 |
+| [Alignment](../../aspose.slides/ilineformateffectivedata/alignment) { get; } | 傳回線對齊方式。唯讀 [`LineAlignment`](../linealignment)。 |
 | [AsILineParamSource](../../aspose.slides/ilineformateffectivedata/asilineparamsource) { get; } | 允許取得基礎 ILineParamSource 介面。唯讀 [`ILineParamSource`](../ilineparamsource)。 |
-| [BeginArrowheadLength](../../aspose.slides/ilineformateffectivedata/beginarrowheadlength) { get; } | 返回線條起點的箭頭長度。唯讀 [`LineArrowheadLength`](../linearrowheadlength)。 |
-| [BeginArrowheadStyle](../../aspose.slides/ilineformateffectivedata/beginarrowheadstyle) { get; } | 返回線條起點的箭頭樣式。唯讀 [`LineArrowheadStyle`](../linearrowheadstyle)。 |
-| [BeginArrowheadWidth](../../aspose.slides/ilineformateffectivedata/beginarrowheadwidth) { get; } | 返回線條起點的箭頭寬度。唯讀 [`LineArrowheadWidth`](../linearrowheadwidth)。 |
-| [CapStyle](../../aspose.slides/ilineformateffectivedata/capstyle) { get; } | 返回線條端帽樣式。唯讀 [`LineCapStyle`](../linecapstyle)。 |
-| [CustomDashPattern](../../aspose.slides/ilineformateffectivedata/customdashpattern) { get; } | 返回自訂虛線模式。唯讀 Single[]。 |
-| [DashStyle](../../aspose.slides/ilineformateffectivedata/dashstyle) { get; } | 返回線條虛線樣式。唯讀 [`LineDashStyle`](../linedashstyle)。 |
-| [EndArrowheadLength](../../aspose.slides/ilineformateffectivedata/endarrowheadlength) { get; } | 返回線條終點的箭頭長度。唯讀 [`LineArrowheadLength`](../linearrowheadlength)。 |
-| [EndArrowheadStyle](../../aspose.slides/ilineformateffectivedata/endarrowheadstyle) { get; } | 返回線條終點的箭頭樣式。唯讀 [`LineArrowheadStyle`](../linearrowheadstyle)。 |
-| [EndArrowheadWidth](../../aspose.slides/ilineformateffectivedata/endarrowheadwidth) { get; } | 返回線條終點的箭頭寬度。唯讀 [`LineArrowheadWidth`](../linearrowheadwidth)。 |
-| [FillFormat](../../aspose.slides/ilineformateffectivedata/fillformat) { get; } | 返回線條的填充格式。唯讀 [`ILineFillFormatEffectiveData`](../ilinefillformateffectivedata)。 |
-| [JoinStyle](../../aspose.slides/ilineformateffectivedata/joinstyle) { get; } | 返回線條的接合樣式。唯讀 [`LineJoinStyle`](../linejoinstyle)。 |
-| [MiterLimit](../../aspose.slides/ilineformateffectivedata/miterlimit) { get; } | 返回線條的斜接限制。唯讀 Single。 |
-| [SketchFormat](../../aspose.slides/ilineformateffectivedata/sketchformat) { get; } | 返回線條的草圖格式。唯讀 [`ISketchFormatEffectiveData`](../isketchformateffectivedata)。 |
-| [Style](../../aspose.slides/ilineformateffectivedata/style) { get; } | 返回線條樣式。唯讀 [`LineStyle`](../linestyle)。 |
-| [Width](../../aspose.slides/ilineformateffectivedata/width) { get; } | 返回線條寬度。唯讀 Double。 |
+| [BeginArrowheadLength](../../aspose.slides/ilineformateffectivedata/beginarrowheadlength) { get; } | 傳回線段起始處的箭頭長度。唯讀 [`LineArrowheadLength`](../linearrowheadlength)。 |
+| [BeginArrowheadStyle](../../aspose.slides/ilineformateffectivedata/beginarrowheadstyle) { get; } | 傳回線段起始處的箭頭樣式。唯讀 [`LineArrowheadStyle`](../linearrowheadstyle)。 |
+| [BeginArrowheadWidth](../../aspose.slides/ilineformateffectivedata/beginarrowheadwidth) { get; } | 傳回線段起始處的箭頭寬度。唯讀 [`LineArrowheadWidth`](../linearrowheadwidth)。 |
+| [CapStyle](../../aspose.slides/ilineformateffectivedata/capstyle) { get; } | 傳回線端樣式。唯讀 [`LineCapStyle`](../linecapstyle)。 |
+| [CustomDashPattern](../../aspose.slides/ilineformateffectivedata/customdashpattern) { get; } | 傳回自訂虛線樣式。唯讀 Single[]. |
+| [DashStyle](../../aspose.slides/ilineformateffectivedata/dashstyle) { get; } | 傳回線段虛線樣式。唯讀 [`LineDashStyle`](../linedashstyle)。 |
+| [EndArrowheadLength](../../aspose.slides/ilineformateffectivedata/endarrowheadlength) { get; } | 傳回線段結尾處的箭頭長度。唯讀 [`LineArrowheadLength`](../linearrowheadlength)。 |
+| [EndArrowheadStyle](../../aspose.slides/ilineformateffectivedata/endarrowheadstyle) { get; } | 傳回線段結尾處的箭頭樣式。唯讀 [`LineArrowheadStyle`](../linearrowheadstyle)。 |
+| [EndArrowheadWidth](../../aspose.slides/ilineformateffectivedata/endarrowheadwidth) { get; } | 傳回線段結尾處的箭頭寬度。唯讀 [`LineArrowheadWidth`](../linearrowheadwidth)。 |
+| [FillFormat](../../aspose.slides/ilineformateffectivedata/fillformat) { get; } | 傳回線條的填滿格式。唯讀 [`ILineFillFormatEffectiveData`](../ilinefillformateffectivedata)。 |
+| [JoinStyle](../../aspose.slides/ilineformateffectivedata/joinstyle) { get; } | 傳回線段的接合樣式。唯讀 [`LineJoinStyle`](../linejoinstyle)。 |
+| [MiterLimit](../../aspose.slides/ilineformateffectivedata/miterlimit) { get; } | 傳回線段的斜接限制。唯讀 Single。 |
+| [SketchFormat](../../aspose.slides/ilineformateffectivedata/sketchformat) { get; } | 傳回線條的草圖格式。唯讀 [`ISketchFormatEffectiveData`](../isketchformateffectivedata)。 |
+| [Style](../../aspose.slides/ilineformateffectivedata/style) { get; } | 傳回線條樣式。唯讀 [`LineStyle`](../linestyle)。 |
+| [Width](../../aspose.slides/ilineformateffectivedata/width) { get; } | 傳回線條寬度。唯讀 Double。 |
 
 ## 方法
 
-| 名稱 | 描述 |
+| 名稱 | 說明 |
 | --- | --- |
 | [Equals](../../aspose.slides/ilineformateffectivedata/equals)(ILineFormatEffectiveData) | 判斷兩個 ILineFormatEffectiveData 實例是否相等。 |
 
 ### 備註
 
-此介面與 [`ILineFormat`](../ilineformat) 介面一起使用，以返回套用繼承的有效格式化值。
+此介面與 [`ILineFormat`](../ilineformat) 介面一起使用，以回傳套用繼承的有效格式設定值。
 
-### 另請參閱
+### 另見
 
 * 介面 [ILineParamSource](../ilineparamsource)
 * 命名空間 [Aspose.Slides](../../aspose.slides)

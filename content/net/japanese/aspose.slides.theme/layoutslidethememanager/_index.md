@@ -1,14 +1,14 @@
 ---
 title: LayoutSlideThemeManager
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: レイアウトスライドテーマのオーバーライドへのアクセスを提供します。
 type: docs
-weight: 11410
+weight: 11430
 url: /ja/aspose.slides.theme/layoutslidethememanager/
 ---
-## LayoutSlideThemeManager クラス
+## LayoutSlideThemeManager class
 
-レイアウトスライドテーマのオーバーライドへのアクセスを提供します。
+Provides access to layout slide theme overriden.
 
 ```csharp
 public class LayoutSlideThemeManager : BaseOverrideThemeManager
@@ -18,17 +18,17 @@ public class LayoutSlideThemeManager : BaseOverrideThemeManager
 
 | 名前 | 説明 |
 | --- | --- |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | OverrideTheme が継承された有効なテーマをオーバーライドするかどうかを決定します。OverrideTheme のオーバーライドを有効にするには OverrideTheme.Init*() メソッドを使用します。OverrideTheme のオーバーライドを無効にするには OverrideTheme.Clear() メソッドを使用します。読み取り専用の Boolean。 |
-| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | オーバーライドされたテーマオブジェクトを返します。読み書き可能な [`IOverrideTheme`](../ioverridetheme)。 |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | OverrideTheme が継承された有効テーマをオーバーライドするかどうかを決定します。オーバーライドを有効にするには OverrideTheme.Init*() メソッドを使用します。オーバーライドを無効にするには OverrideTheme.Clear() メソッドを使用します。読み取り専用 Boolean。 |
+| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | オーバーライドされたテーマオブジェクトを返します。読み書き可能 [`IOverrideTheme`](../ioverridetheme)。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | スライドに追加のカラースキームを適用します。 |
+| [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | スライドに余分なカラースキームを適用します。 |
 | [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | テーマオブジェクトを返します。 |
 
-### 関連項目
+### 参照
 
 * クラス [BaseOverrideThemeManager](../baseoverridethememanager)
 * 名前空間 [Aspose.Slides.Theme](../../aspose.slides.theme)

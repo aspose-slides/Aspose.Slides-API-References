@@ -1,9 +1,9 @@
 ---
 title: PresetColor
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Representa preajustes de color predefinidos.
+description: Representa los preajustes de color predefinidos.
 type: docs
-weight: 9660
+weight: 9680
 url: /es/aspose.slides/presetcolor/
 ---
 ## Enumeración PresetColor

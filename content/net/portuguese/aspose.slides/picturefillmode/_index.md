@@ -3,10 +3,10 @@ title: PictureFillMode
 second_title: Referência da API Aspose.Sildes para .NET
 description: Determina como a imagem preencherá a área.
 type: docs
-weight: 9400
+weight: 9420
 url: /pt/aspose.slides/picturefillmode/
 ---
-## Enumeração PictureFillMode
+## enumeração PictureFillMode
 
 Determina como a imagem preencherá a área.
 

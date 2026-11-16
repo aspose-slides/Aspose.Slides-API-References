@@ -1,14 +1,14 @@
 ---
 title: FontsLoader
-second_title: Referensi API Aspose.Sildes untuk .NET
-description: Kelas untuk memuat font khusus yang didefinisikan oleh pengguna. Harus digunakan sebelum membuat objek presentasi apa pun.
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Kelas untuk memuat font kustom yang didefinisikan oleh pengguna. Harus digunakan sebelum membuat objek presentasi apa pun.
 type: docs
-weight: 4930
+weight: 4950
 url: /id/aspose.slides/fontsloader/
 ---
 ## FontsLoader kelas
 
-Kelas untuk memuat font khusus yang didefinisikan oleh pengguna. Harus digunakan sebelum membuat objek presentasi apa pun.
+Kelas untuk memuat font kustom yang didefinisikan oleh pengguna. Harus digunakan sebelum membuat objek presentasi apa pun.
 
 ```csharp
 public sealed class FontsLoader : IFontsLoader
@@ -18,7 +18,7 @@ public sealed class FontsLoader : IFontsLoader
 
 | Nama | Deskripsi |
 | --- | --- |
-| static [ClearCache](../../aspose.slides/fontsloader/clearcache)() | Melepaskan semua font khusus yang didefinisikan oleh pengguna |
+| static [ClearCache](../../aspose.slides/fontsloader/clearcache)() | Melepaskan semua font kustom yang didefinisikan oleh pengguna |
 | static [GetFontFolders](../../aspose.slides/fontsloader/getfontfolders)() | Mendapatkan folder font. Mengembalikan folder yang telah ditambahkan dengan metode LoadExternalFonts serta folder font sistem |
 | static [LoadExternalFont](../../aspose.slides/fontsloader/loadexternalfont)(byte[]) | Menambahkan font dari data biner |
 | static [LoadExternalFonts](../../aspose.slides/fontsloader/loadexternalfonts)(string[]) | Menambahkan folder tambahan untuk mencari font. |

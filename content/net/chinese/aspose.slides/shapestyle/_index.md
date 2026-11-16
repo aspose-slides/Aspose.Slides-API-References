@@ -1,9 +1,9 @@
 ---
 title: ShapeStyle
-second_title: Aspose.Sildes for .NET API 参考
-description: 表示形状样式引用。
+second_title: Aspose.Sildes .NET API 参考
+description: 表示形状的样式引用。
 type: docs
-weight: 9910
+weight: 9930
 url: /zh/aspose.slides/shapestyle/
 ---
 ## ShapeStyle 类
@@ -19,15 +19,15 @@ public class ShapeStyle : DomObject<Shape>, IShapeStyle
 | 名称 | 描述 |
 | --- | --- |
 | [EffectColor](../../aspose.slides/shapestyle/effectcolor) { get; } | 返回形状的效果颜色。只读 [`IColorFormat`](../icolorformat)。 |
-| [EffectStyleIndex](../../aspose.slides/shapestyle/effectstyleindex) { get; set; } | 返回或设置形状在样式矩阵中的效果列索引。读写 UInt32。 |
+| [EffectStyleIndex](../../aspose.slides/shapestyle/effectstyleindex) { get; set; } | 返回或设置形状在样式矩阵中的效果列索引。读/写 UInt32。 |
 | [FillColor](../../aspose.slides/shapestyle/fillcolor) { get; } | 返回形状的填充颜色。只读 [`IColorFormat`](../icolorformat)。 |
-| [FillStyleIndex](../../aspose.slides/shapestyle/fillstyleindex) { get; set; } | 返回或设置形状在样式矩阵中的填充列索引。0 表示无填充，正值 - 主题填充样式的索引，负值 - 主题背景样式的索引。读写 Int16。 |
-| [FontCollectionIndex](../../aspose.slides/shapestyle/fontcollectionindex) { get; set; } | 返回或设置形状在字体集合中的字体索引。读写 [`FontCollectionIndex`](../fontcollectionindex)。 |
+| [FillStyleIndex](../../aspose.slides/shapestyle/fillstyleindex) { get; set; } | 返回或设置形状在样式矩阵中的填充列索引。0 表示无填充，正值 - 主题填充样式中的索引，负值 - 主题背景样式中的索引。读/写 Int16。 |
+| [FontCollectionIndex](../../aspose.slides/shapestyle/fontcollectionindex) { get; set; } | 返回或设置形状在字体集合中的字体索引。读/写 [`FontCollectionIndex`](../fontcollectionindex)。 |
 | [FontColor](../../aspose.slides/shapestyle/fontcolor) { get; } | 返回形状的字体颜色。只读 [`IColorFormat`](../icolorformat)。 |
 | [LineColor](../../aspose.slides/shapestyle/linecolor) { get; } | 返回形状的轮廓颜色。只读 [`IColorFormat`](../icolorformat)。 |
-| [LineStyleIndex](../../aspose.slides/shapestyle/linestyleindex) { get; set; } | 返回或设置线条在样式矩阵中的列索引。读写 UInt16。 |
+| [LineStyleIndex](../../aspose.slides/shapestyle/linestyleindex) { get; set; } | 返回或设置线条在样式矩阵中的列索引。读/写 UInt16。 |
 
-### 另见
+### 另请参阅
 
 * 类 [DomObject&lt;TParent&gt;](../domobject-1)
 * 类 [Shape](../shape)

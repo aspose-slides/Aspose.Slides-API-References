@@ -1,14 +1,14 @@
 ---
 title: ISideDirectionTransition
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Effetto di transizione della diapositiva in direzione laterale.
+description: Effetto di transizione slide in direzione laterale.
 type: docs
-weight: 10190
+weight: 10210
 url: /it/aspose.slides.slideshow/isidedirectiontransition/
 ---
 ## ISideDirectionTransition interfaccia
 
-Effetto di transizione della diapositiva in direzione laterale.
+Effetto di transizione slide in direzione laterale.
 
 ```csharp
 public interface ISideDirectionTransition : ITransitionValueBase

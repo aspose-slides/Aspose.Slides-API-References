@@ -1,14 +1,14 @@
 ---
 title: ShapeAdjustmentType
 second_title: Aspose.Sildes の .NET API リファレンス
-description: シェイプの調整値のさまざまなタイプを指定します。
+description: 形状調整値のさまざまなタイプを指定します。
 type: docs
-weight: 9840
+weight: 9860
 url: /ja/aspose.slides/shapeadjustmenttype/
 ---
 ## ShapeAdjustmentType 列挙型
 
-シェイプの調整値のさまざまなタイプを指定します。
+さまざまな形状調整値のタイプを指定します。
 
 ```csharp
 public enum ShapeAdjustmentType
@@ -19,40 +19,40 @@ public enum ShapeAdjustmentType
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
 | Custom | `0` | カスタムタイプ（不明な調整） |
-| CornerSize | `1` | コーナーのサイズを制御します。 |
-| LeftUpCorner | `2` | 左上コーナーを制御します。 |
-| RightUpCorner | `3` | 右上コーナーを制御します。 |
-| UpCorners | `4` | 上部のコーナーを制御します。 |
-| DownCorners | `5` | 下部のコーナーを制御します。 |
+| CornerSize | `1` | 角のサイズを制御します。 |
+| LeftUpCorner | `2` | 左上角を制御します。 |
+| RightUpCorner | `3` | 右上角を制御します。 |
+| UpCorners | `4` | 上部の角を制御します。 |
+| DownCorners | `5` | 下部の角を制御します。 |
 | Thickness | `6` | 図形の厚さを制御します。 |
-| ArrowTailThickness | `7` | 矢印の尾部の厚さを制御します。 |
-| ArrowheadLength | `8` | 矢じりの長さを制御します。 |
-| ArrowheadWidth | `9` | 矢じりの幅を制御します。 |
-| Radius | `10` | シェイプまたはその一部の半径のサイズを制御します。 |
-| Depth | `11` | ギアの歯またはベベル効果の深さを制御します。 |
-| ShapePartOffset | `12` | 図形のある部分と別の部分との相対的なオフセットを制御します。 |
-| Angle | `13` | 図形またはその部分の角度を制御します。 |
-| StartAngle | `14` | 円グラフや円弧シェイプの開始角度です。 |
-| EndAngle | `15` | 円グラフや円弧シェイプの終了角度です。 |
-| StartPointX | `16` | コールアウトの開始点 X 位置を制御します。 |
-| StartPointY | `17` | コールアウトの開始点 Y 位置を制御します。 |
-| ConnectorPoint1X | `18` | コールアウト角度調整点の水平位置を制御します。 |
-| ConnectorPoint1Y | `19` | コールアウト角度調整点の垂直位置を制御します。 |
-| ConnectorPoint2X | `20` | コールアウト角度調整点の水平位置を制御します。 |
-| ConnectorPoint2Y | `21` | コールアウト角度調整点の垂直位置を制御します。 |
-| ConnectorBendPositionX | `22` | コネクタの曲がりの水平位置を制御します。 |
-| ConnectorBendPositionY | `23` | コネクタの曲がりの垂直位置を制御します。 |
-| AttachY | `24` | 図形の垂直方向の接続点を制御します。 |
-| AttachX | `25` | 図形の水平方向の接続点を制御します。 |
+| ArrowTailThickness | `7` | 矢じりの太さを制御します。 |
+| ArrowheadLength | `8` | 矢尻の長さを制御します。 |
+| ArrowheadWidth | `9` | 矢尻の幅を制御します。 |
+| Radius | `10` | 形状またはその部品の半径のサイズを制御します。 |
+| Depth | `11` | 歯車の歯の深さまたは斜めエッジ効果を制御します。 |
+| ShapePartOffset | `12` | 図形のある部品と別の部品との相対オフセットを制御します。 |
+| Angle | `13` | 図形またはその部品の角度を制御します。 |
+| StartAngle | `14` | 円グラフや弧形の開始角度です。 |
+| EndAngle | `15` | 円グラフや弧形の終了角度です。 |
+| StartPointX | `16` | コールアウトの開始点X位置を制御します。 |
+| StartPointY | `17` | コールアウトの開始点Y位置を制御します。 |
+| ConnectorPoint1X | `18` | コールアウトの角度調整ポイントの水平位置を制御します。 |
+| ConnectorPoint1Y | `19` | コールアウトの角度調整ポイントの垂直位置を制御します。 |
+| ConnectorPoint2X | `20` | コールアウトの角度調整ポイントの水平位置を制御します。 |
+| ConnectorPoint2Y | `21` | コールアウトの角度調整ポイントの垂直位置を制御します。 |
+| ConnectorBendPositionX | `22` | コネクタの曲がり部分の水平位置を制御します。 |
+| ConnectorBendPositionY | `23` | コネクタの曲がり部分の垂直位置を制御します。 |
+| AttachY | `24` | 図形の垂直アタッチポイントを制御します。 |
+| AttachX | `25` | 図形の水平アタッチポイントを制御します。 |
 | CalloutHeight | `26` | コールアウトの垂直サイズを制御します。 |
 | CalloutWidth | `27` | コールアウトの水平サイズを制御します。 |
 | CalloutSize | `28` | コールアウトのサイズを制御します。 |
-| Curvature | `29` | 曲がった形、ブレース、曲線矢印またはシェイプの曲率です。 |
-| HorizontalThickness | `30` | コーナーシェイプの水平厚さを制御します。 |
-| VerticalThickness | `31` | コーナーシェイプの垂直厚さを制御します。 |
-| VerticalSize | `32` | シェイプの垂直サイズを制御します。 |
-| HorizontalSize | `33` | シェイプの水平サイズを制御します。 |
-| Top | `34` | シェイプの上側を制御します。 |
+| Curvature | `29` | 曲がった線、ブレース、曲線矢印または形状の曲率です。 |
+| HorizontalThickness | `30` | 角形の水平厚さを制御します。 |
+| VerticalThickness | `31` | 角形の垂直厚さを制御します。 |
+| VerticalSize | `32` | 形状の垂直サイズを制御します。 |
+| HorizontalSize | `33` | 形状の水平サイズを制御します。 |
+| Top | `34` | 形状の上側を制御します。 |
 
 ### 参照
 

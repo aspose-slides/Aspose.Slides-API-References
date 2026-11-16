@@ -1,14 +1,14 @@
 ---
 title: SlideShowTransition
-second_title: Aspose.Sildes για .NET Αναφορά API
+second_title: Αναφορά API Aspose.Sildes για .NET
 description: Αναπαριστά τη μετάβαση παρουσίασης διαφανειών.
 type: docs
-weight: 10320
+weight: 10340
 url: /el/aspose.slides.slideshow/slideshowtransition/
 ---
 ## SlideShowTransition κλάση
 
-Αναπαριστά τη μετάβαση παρουσίασης διαφανειών.
+Αντιπροσωπεύει τη μετάβαση παρουσίασης διαφανειών.
 
 ```csharp
 public class SlideShowTransition : DomObject<BaseSlide>, ISlideShowTransition
@@ -18,32 +18,32 @@ public class SlideShowTransition : DomObject<BaseSlide>, ISlideShowTransition
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [AdvanceAfter](../../aspose.slides.slideshow/slideshowtransition/advanceafter) { get; set; } | Αυτό το χαρακτηριστικό καθορίζει αν η παρουσίαση θα μεταβεί στην επόμενη διαφάνεια μετά από κάποιο χρονικό διάστημα. Ανάγνωση/Εγγραφή Boolean. |
-| [AdvanceAfterTime](../../aspose.slides.slideshow/slideshowtransition/advanceaftertime) { get; set; } | Καθορίζει το χρόνο, σε χιλιοστά του δευτερολέπτου, μετά τον οποίο πρέπει να ξεκινήσει η μετάβαση. Αυτή η ρύθμιση μπορεί να χρησιμοποιηθεί μαζί με το χαρακτηριστικό advClick. Εάν δεν καθοριστεί, θεωρείται ότι δεν θα υπάρχει αυτόματη προώθηση. Ανάγνωση/Εγγραφή UInt32. |
-| [AdvanceOnClick](../../aspose.slides.slideshow/slideshowtransition/advanceonclick) { get; set; } | Καθορίζει εάν ένα κλικ του ποντικιού θα προχωρήσει τη διαφάνεια ή όχι. Εάν δεν καθοριστεί, υποτίθεται τιμή true. Ανάγνωση/Εγγραφή Boolean. |
-| [Duration](../../aspose.slides.slideshow/slideshowtransition/duration) { get; set; } | Λαμβάνει ή ορίζει τη διάρκεια του εφέ μετάβασης της διαφάνειας σε χιλιοστά του δευτερολέπτου. Ανάγνωση/Εγγραφή Int32. |
-| [Sound](../../aspose.slides.slideshow/slideshowtransition/sound) { get; set; } | Επιστρέφει ή ορίζει τα ενσωματωμένα δεδομένα ήχου. Ανάγνωση/Εγγραφή [`IAudio`](../../aspose.slides/iaudio). |
-| [SoundIsBuiltIn](../../aspose.slides.slideshow/slideshowtransition/soundisbuiltin) { get; set; } | Καθορίζει εάν αυτός ο ήχος είναι ενσωματωμένος ή όχι. Εάν το χαρακτηριστικό αυτό είναι true, η δημιουργική εφαρμογή ειδοποιείται να ελέγξει το χαρακτηριστικό name του ήχου στη λίστα ενσωματωμένων ήχων και μπορεί να εμφανίσει προσαρμοσμένο όνομα ή διεπαφή χρήστη ανάλογα. Ανάγνωση-Εγγραφή Boolean. |
-| [SoundLoop](../../aspose.slides.slideshow/slideshowtransition/soundloop) { get; set; } | Αυτό το χαρακτηριστικό καθορίζει εάν ο ήχος θα επαναλαμβάνεται μέχρι να συμβεί το επόμενο ηχητικό γεγονός στην παρουσίαση. Ανάγνωση/Εγγραφή Boolean. |
-| [SoundMode](../../aspose.slides.slideshow/slideshowtransition/soundmode) { get; set; } | Ορίζει ή επιστρέφει τη λειτουργία ήχου για τη μετάβαση διαφάνειας. Ανάγνωση/Εγγραφή [`TransitionSoundMode`](../transitionsoundmode). |
-| [SoundName](../../aspose.slides.slideshow/slideshowtransition/soundname) { get; set; } | Καθορίζει ένα ανθρώπινα αναγνώσιμο όνομα για τον ήχο της μετάβασης. Η ιδιότητα [`Sound`](./sound) πρέπει να έχει οριστεί για να ληφθεί ή να οριστεί το όνομα του ήχου. Ανάγνωση-Εγγραφή String. |
-| [Speed](../../aspose.slides.slideshow/slideshowtransition/speed) { get; set; } | Καθορίζει την ταχύτητα μετάβασης που θα χρησιμοποιηθεί κατά τη μετάβαση από τη τρέχουσα διαφάνεια στην επόμενη. Ανάγνωση/Εγγραφή [`TransitionSpeed`](../transitionspeed). |
-| [Type](../../aspose.slides.slideshow/slideshowtransition/type) { get; set; } | Τύπος μετάβασης. Ανάγνωση/Εγγραφή [`TransitionType`](../transitiontype). |
-| [Value](../../aspose.slides.slideshow/slideshowtransition/value) { get; } | Τιμή μετάβασης παρουσίασης διαφανειών. Μόνο για ανάγνωση [`ITransitionValueBase`](../itransitionvaluebase). |
+| [AdvanceAfter](../../aspose.slides.slideshow/slideshowtransition/advanceafter) { get; set; } | Αυτό το χαρακτηριστικό καθορίζει αν η παρουσίαση θα μεταβεί στην επόμενη διαφάνεια μετά από κάποιο χρόνο. Ανάγνωση/εγγραφή Boolean. |
+| [AdvanceAfterTime](../../aspose.slides.slideshow/slideshowtransition/advanceaftertime) { get; set; } | Καθορίζει το χρόνο, σε χιλιοστά του δευτερολέπτου, μετά τον οποίο πρέπει να ξεκινήσει η μετάβαση. Αυτή η ρύθμιση μπορεί να χρησιμοποιηθεί σε συνδυασμό με το χαρακτηριστικό advClick. Εάν αυτό το χαρακτηριστικό δεν καθοριστεί, θεωρείται ότι δεν θα συμβεί αυτοματοποιημένη προχώρηση. Ανάγνωση/εγγραφή UInt32. |
+| [AdvanceOnClick](../../aspose.slides.slideshow/slideshowtransition/advanceonclick) { get; set; } | Καθορίζει αν ένα κλικ του ποντικιού θα προχωρήσει τη διαφάνεια ή όχι. Εάν αυτό το χαρακτηριστικό δεν καθοριστεί, θεωρείται ότι η τιμή είναι true. Ανάγνωση/εγγραφή Boolean. |
+| [Duration](../../aspose.slides.slideshow/slideshowtransition/duration) { get; set; } | Λαμβάνει ή ορίζει τη διάρκεια του εφέ μετάβασης της διαφάνειας σε χιλιοστά του δευτερολέπτου. Ανάγνωση/εγγραφή Int32. |
+| [Sound](../../aspose.slides.slideshow/slideshowtransition/sound) { get; set; } | Επιστρέφει ή ορίζει τα ενσωματωμένα δεδομένα ήχου. Ανάγνωση/εγγραφή [`IAudio`](../../aspose.slides/iaudio). |
+| [SoundIsBuiltIn](../../aspose.slides.slideshow/slideshowtransition/soundisbuiltin) { get; set; } | Καθορίζει αν αυτός ο ήχος είναι ενσωματωμένος ή όχι. Εάν αυτό το χαρακτηριστικό ορισθεί σε true, τότε η εφαρμογή που το δημιούργησε ειδοποιείται να ελέγξει το χαρακτηριστικό name που έχει καθοριστεί για αυτόν τον ήχο στη λίστα των ενσωματωμένων ήχων και μπορεί τότε να εμφανίσει ένα προσαρμοσμένο όνομα ή διεπαφή χρήστη όπως απαιτείται. Ανάγνωση-εγγραφή Boolean. |
+| [SoundLoop](../../aspose.slides.slideshow/slideshowtransition/soundloop) { get; set; } | Αυτό το χαρακτηριστικό καθορίζει αν ο ήχος θα επαναλαμβάνεται μέχρι να συμβεί το επόμενο ηχητικό γεγονός στην παρουσίαση. Ανάγνωση/εγγραφή Boolean. |
+| [SoundMode](../../aspose.slides.slideshow/slideshowtransition/soundmode) { get; set; } | Ορίζει ή επιστρέφει τη λειτουργία ήχου για τη μετάβαση της διαφάνειας. Ανάγνωση/εγγραφή [`TransitionSoundMode`](../transitionsoundmode). |
+| [SoundName](../../aspose.slides.slideshow/slideshowtransition/soundname) { get; set; } | Καθορίζει ένα όνομα αναγνώσιμο από τον άνθρωπο για τον ήχο της μετάβασης. Η ιδιότητα [`Sound`](./sound) πρέπει να οριστεί για να ληφθεί ή να οριστεί το όνομα του ήχου. Ανάγνωση-εγγραφή String. |
+| [Speed](../../aspose.slides.slideshow/slideshowtransition/speed) { get; set; } | Καθορίζει την ταχύτητα μετάβασης που θα χρησιμοποιηθεί κατά τη μετάβαση από την τρέχουσα διαφάνεια στην επόμενη. Ανάγνωση/εγγραφή [`TransitionSpeed`](../transitionspeed). |
+| [Type](../../aspose.slides.slideshow/slideshowtransition/type) { get; set; } | Τύπος μετάβασης. Ανάγνωση/εγγραφή [`TransitionType`](../transitiontype). |
+| [Value](../../aspose.slides.slideshow/slideshowtransition/value) { get; } | Τιμή μετάβασης παρουσίασης διαφανειών. Μόνο ανάγνωση [`ITransitionValueBase`](../itransitionvaluebase). |
 
 ## Μέθοδοι
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/slideshowtransition/equals)(object) | Προσδιορίζει εάν τα δύο στιγμιότυπα SlideShowTransition είναι ίσα. Ανάγνωση/Εγγραφή Boolean. |
-| override [GetHashCode](../../aspose.slides.slideshow/slideshowtransition/gethashcode)() | Λειτουργεί ως συνάρτηση κατακερματισμού για έναν συγκεκριμένο τύπο, κατάλληλη για χρήση σε αλγόριθμους κατακερματισμού και δομές δεδομένων όπως ένας πίνακας κατακερματισμού. |
+| override [Equals](../../aspose.slides.slideshow/slideshowtransition/equals)(object) | Καθορίζει αν τα δύο αντικείμενα SlideShowTransition είναι ίσα. Ανάγνωση/εγγραφή Boolean. |
+| override [GetHashCode](../../aspose.slides.slideshow/slideshowtransition/gethashcode)() | Λειτουργεί ως συνάρτηση κατακερματισμού για έναν συγκεκριμένο τύπο, κατάλληλη για χρήση σε αλγορίθμους κατακερματισμού και δομές δεδομένων όπως ένας πίνακας κατακερματισμού. |
 
 ### Δείτε επίσης
 
 * κλάση [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * κλάση [BaseSlide](../../aspose.slides/baseslide)
-* διασύνδεση [ISlideShowTransition](../../aspose.slides/islideshowtransition)
+* διεπαφή [ISlideShowTransition](../../aspose.slides/islideshowtransition)
 * χώρος ονομάτων [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
-* συγκρότηση [Aspose.Slides](../../)
+* συγκρότημα [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

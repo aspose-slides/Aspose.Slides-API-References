@@ -1,14 +1,14 @@
 ---
 title: IDrawingGuidesCollection
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แทนคอลเลกชันของคู่มือการวาดที่ปรับได้.
+description: แสดงคอลเลกชันของไกด์การวาดที่ปรับได้.
 type: docs
-weight: 5730
+weight: 5750
 url: /th/aspose.slides/idrawingguidescollection/
 ---
 ## IDrawingGuidesCollection อินเทอร์เฟซ
 
-แทนคอลเลกชันของคู่มือการวาดที่ปรับได้
+แสดงถึงคอลเลกชันของไกด์การวาดที่ปรับได้.
 
 ```csharp
 public interface IDrawingGuidesCollection : IEnumerable<IDrawingGuide>
@@ -16,18 +16,18 @@ public interface IDrawingGuidesCollection : IEnumerable<IDrawingGuide>
 
 ## คุณสมบัติ
 
-| ชื่อ | รายละเอียด |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Count](../../aspose.slides/idrawingguidescollection/count) { get; } | รับจำนวนของทุกองค์ประกอบในคอลเลกชัน แบบอ่านอย่างเดียว Int32. |
-| [Item](../../aspose.slides/idrawingguidescollection/item) { get; } | ส่งคืน drawing guide ตามดัชนี แบบอ่านอย่างเดียว [`IDrawingGuide`](../idrawingguide). |
+| [Count](../../aspose.slides/idrawingguidescollection/count) { get; } | รับจำนวนทั้งหมดขององค์ประกอบในคอลเลกชัน. อ่านอย่างเดียว Int32. |
+| [Item](../../aspose.slides/idrawingguidescollection/item) { get; } | ส่งคืนไกด์การวาดตามดัชนี. อ่านอย่างเดียว [`IDrawingGuide`](../idrawingguide). |
 
-## เมธอด
+## วิธีการ
 
-| ชื่อ | รายละเอียด |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Add](../../aspose.slides/idrawingguidescollection/add)(Orientation,float) | เพิ่ม drawing guide ที่ส่วนท้ายของคอลเลกชัน. |
-| [Clear](../../aspose.slides/idrawingguidescollection/clear)() | ลบทุกองค์ประกอบออกจากคอลเลกชัน. |
-| [RemoveAt](../../aspose.slides/idrawingguidescollection/removeat)(int) | ลบ drawing guide ที่ตำแหน่งดัชนีที่ระบุ. |
+| [Add](../../aspose.slides/idrawingguidescollection/add)(Orientation, float) | เพิ่มไกด์การวาดที่ส่วนท้ายของคอลเลกชัน. |
+| [Clear](../../aspose.slides/idrawingguidescollection/clear)() | ลบองค์ประกอบทั้งหมดจากคอลเลกชัน. |
+| [RemoveAt](../../aspose.slides/idrawingguidescollection/removeat)(int) | ลบไกด์การวาดที่ตำแหน่งดัชนีที่ระบุ. |
 
 ### ดูเพิ่มเติม
 

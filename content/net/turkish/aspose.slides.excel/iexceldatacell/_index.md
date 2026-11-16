@@ -1,14 +1,14 @@
 ---
 title: IExcelDataCell
 second_title: Aspose.Sildes for .NET API Referansı
-description: Bir Excel çalışma kitabındaki tek bir hücreyi temsil eder.
+description: Excel çalışma kitabında tek bir hücreyi temsil eder.
 type: docs
-weight: 3700
+weight: 3720
 url: /tr/aspose.slides.excel/iexceldatacell/
 ---
-## IExcelDataCell arayüzü
+## IExcelDataCell arayüz
 
-Excel çalışma kitabındaki tek bir hücreyi temsil eder.
+Excel çalışma kitabında tek bir hücreyi temsil eder.
 
 ```csharp
 public interface IExcelDataCell
@@ -18,9 +18,9 @@ public interface IExcelDataCell
 
 | Ad | Açıklama |
 | --- | --- |
-| [Column](../../aspose.slides.excel/iexceldatacell/column) { get; } | Hücrenin bulunduğu çalışma sayfasındaki sütunun sıfır-tabanlı indeksini alır. Salt-okunur Int32. |
+| [Column](../../aspose.slides.excel/iexceldatacell/column) { get; } | Hücrenin bulunduğu çalışma sayfasındaki sütunun sıfırdan başlayan dizinini alır. Salt-okunur Int32. |
 | [Name](../../aspose.slides.excel/iexceldatacell/name) { get; } | Grafik veri hücresinin adını alır. Salt-okunur String. |
-| [Row](../../aspose.slides.excel/iexceldatacell/row) { get; } | Hücrenin bulunduğu çalışma sayfasındaki satırın sıfır-tabanlı indeksini alır. Salt-okunur Int32. |
+| [Row](../../aspose.slides.excel/iexceldatacell/row) { get; } | Hücrenin bulunduğu çalışma sayfasındaki satırın sıfırdan başlayan dizinini alır. Salt-okunur Int32. |
 | [Value](../../aspose.slides.excel/iexceldatacell/value) { get; } | Excel hücresinde bulunan değeri alır. Salt-okunur Object. |
 
 ### Ayrıca Bakınız

@@ -1,9 +1,9 @@
 ---
 title: IFormat
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt die Diagrammformat-Eigenschaften dar.
+description: Stellt Diagrammformat-Eigenschaften dar.
 type: docs
-weight: 2100
+weight: 2120
 url: /de/aspose.slides.charts/iformat/
 ---
 ## IFormat Schnittstelle

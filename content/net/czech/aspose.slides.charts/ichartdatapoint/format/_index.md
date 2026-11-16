@@ -1,14 +1,14 @@
 ---
 title: Format
 second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje vlastnosti formátování. Čtení/Zápis IFormataspose.slides.charts/iformat.
+description: Reprezentuje vlastnosti formátování. Čtení/zápis IFormataspose.slides.charts/iformat.
 type: docs
-weight: 70
+weight: 110
 url: /cs/aspose.slides.charts/ichartdatapoint/format/
 ---
 ## IChartDataPoint.Format vlastnost
 
-Reprezentuje vlastnosti formátování. Čtení/Zápis [`IFormat`](../../iformat).
+Reprezentuje vlastnosti formátování. Čtení/zápis [`IFormat`](../../iformat).
 
 ```csharp
 public IFormat Format { get; set; }

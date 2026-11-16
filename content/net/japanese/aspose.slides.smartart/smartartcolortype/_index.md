@@ -3,10 +3,10 @@ title: SmartArtColorType
 second_title: Aspose.Sildes for .NET API リファレンス
 description: SmartArt ダイアグラムのカラースキームを表します。
 type: docs
-weight: 10610
+weight: 10630
 url: /ja/aspose.slides.smartart/smartartcolortype/
 ---
-## SmartArtColorType 列挙型
+## SmartArtColorType 列挙体
 
 SmartArt ダイアグラムのカラースキームを表します。
 

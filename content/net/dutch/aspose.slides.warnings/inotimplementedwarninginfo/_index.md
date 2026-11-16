@@ -1,14 +1,14 @@
 ---
 title: INotImplementedWarningInfo
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een waarschuwing voor een bekende niet-geïmplementeerde functie voor die niet op korte termijn zal worden geïmplementeerd.
+description: Representeert een waarschuwing over een bekende niet-implementeerde functie die niet in de nabije toekomst zal worden geïmplementeerd.
 type: docs
-weight: 11770
+weight: 11790
 url: /nl/aspose.slides.warnings/inotimplementedwarninginfo/
 ---
 ## INotImplementedWarningInfo interface
 
-Stelt een waarschuwing voor een bekende niet-geïmplementeerde functie voor die niet op korte termijn zal worden geïmplementeerd.
+Stelt een waarschuwing voor over een bekende niet-implementeerde functie die niet in de nabije toekomst zal worden geïmplementeerd.
 
 ```csharp
 public interface INotImplementedWarningInfo : IWarningInfo

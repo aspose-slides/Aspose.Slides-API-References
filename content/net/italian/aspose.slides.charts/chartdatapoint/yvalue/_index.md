@@ -1,9 +1,9 @@
 ---
 title: YValue
-second_title: Aspose.Sildes per .NET API Reference
+second_title: Riferimento API Aspose.Sildes per .NET
 description: YValue. Sola lettura IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
-weight: 210
+weight: 250
 url: /it/aspose.slides.charts/chartdatapoint/yvalue/
 ---
 ## ChartDataPoint.YValue proprietà

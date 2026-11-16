@@ -1,14 +1,14 @@
 ---
 title: IChartParagraphFormat
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt de alinea-opmaak eigenschappen van een diagram voor.
+description: Stelt de alinea-opmaak eigenschappen van een grafiek voor.
 type: docs
-weight: 1900
+weight: 1920
 url: /nl/aspose.slides.charts/ichartparagraphformat/
 ---
 ## IChartParagraphFormat interface
 
-Stelt de alinea-opmaak eigenschappen van een diagram voor.
+Geeft de alinea-opmaak eigenschappen van een grafiek weer.
 
 ```csharp
 public interface IChartParagraphFormat
@@ -20,14 +20,14 @@ public interface IChartParagraphFormat
 | --- | --- |
 | [Alignment](../../aspose.slides.charts/ichartparagraphformat/alignment) { get; set; } | Geeft de tekstuitlijning in een alinea terug of stelt deze in. Lezen/schrijven [`TextAlignment`](../../aspose.slides/textalignment). |
 | [DefaultTabSize](../../aspose.slides.charts/ichartparagraphformat/defaulttabsize) { get; set; } | Geeft de standaardtabulatiegrootte terug of stelt deze in. Lezen/schrijven Single. |
-| [EastAsianLineBreak](../../aspose.slides.charts/ichartparagraphformat/eastasianlinebreak) { get; set; } | Bepaalt of de Oost-Aziatische regelafbreking in een alinea wordt gebruikt. Lezen/schrijven [`NullableBool`](../../aspose.slides/nullablebool). |
-| [FontAlignment](../../aspose.slides.charts/ichartparagraphformat/fontalignment) { get; set; } | Geeft de lettertype-uitlijning in een alinea terug of stelt deze in. Lezen/schrijven [`FontAlignment`](../../aspose.slides/fontalignment). |
-| [HangingPunctuation](../../aspose.slides.charts/ichartparagraphformat/hangingpunctuation) { get; set; } | Bepaalt of hangende interpunctie in een alinea wordt gebruikt. Lezen/schrijven [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Indent](../../aspose.slides.charts/ichartparagraphformat/indent) { get; set; } | Geeft de eerste regel-insprong/Hangende insprong van een alinea terug of stelt deze in. Hangende insprong kan met negatieve waarden worden gedefinieerd. Lezen/schrijven Single. |
-| [LatinLineBreak](../../aspose.slides.charts/ichartparagraphformat/latinlinebreak) { get; set; } | Bepaalt of de Latijnse regelafbreking in een alinea wordt gebruikt. Lezen/schrijven [`NullableBool`](../../aspose.slides/nullablebool). |
+| [EastAsianLineBreak](../../aspose.slides.charts/ichartparagraphformat/eastasianlinebreak) { get; set; } | Bepaalt of de oost-Aziatische regelafbreking wordt gebruikt in een alinea. Lezen/schrijven [`NullableBool`](../../aspose.slides/nullablebool). |
+| [FontAlignment](../../aspose.slides.charts/ichartparagraphformat/fontalignment) { get; set; } | Geeft een lettertype-uitlijning in een alinea terug of stelt deze in. Lezen/schrijven [`FontAlignment`](../../aspose.slides/fontalignment). |
+| [HangingPunctuation](../../aspose.slides.charts/ichartparagraphformat/hangingpunctuation) { get; set; } | Bepaalt of hangende interpunctie wordt gebruikt in een alinea. Lezen/schrijven [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Indent](../../aspose.slides.charts/ichartparagraphformat/indent) { get; set; } | Geeft de Eerste-regel-inspringing/Hangende inspringing van een alinea terug of stelt deze in. Hangende inspringing kan worden gedefinieerd met negatieve waarden. Lezen/schrijven Single. |
+| [LatinLineBreak](../../aspose.slides.charts/ichartparagraphformat/latinlinebreak) { get; set; } | Bepaalt of de Latijnse regelafbreking wordt gebruikt in een alinea. Lezen/schrijven [`NullableBool`](../../aspose.slides/nullablebool). |
 | [MarginLeft](../../aspose.slides.charts/ichartparagraphformat/marginleft) { get; set; } | Geeft de linkermarge in een alinea terug of stelt deze in. Lezen/schrijven Single. |
 | [MarginRight](../../aspose.slides.charts/ichartparagraphformat/marginright) { get; set; } | Geeft de rechtermarge in een alinea terug of stelt deze in. Lezen/schrijven Single. |
-| [RightToLeft](../../aspose.slides.charts/ichartparagraphformat/righttoleft) { get; set; } | Bepaalt of rechts-naar-links schrijven in een alinea wordt gebruikt. Lezen/schrijven [`NullableBool`](../../aspose.slides/nullablebool). |
+| [RightToLeft](../../aspose.slides.charts/ichartparagraphformat/righttoleft) { get; set; } | Bepaalt of rechts-naar-links schrijven wordt gebruikt in een alinea. Lezen/schrijven [`NullableBool`](../../aspose.slides/nullablebool). |
 | [SpaceAfter](../../aspose.slides.charts/ichartparagraphformat/spaceafter) { get; set; } | Geeft de hoeveelheid ruimte na de laatste regel in een alinea terug of stelt deze in. Lezen/schrijven Single. |
 | [SpaceBefore](../../aspose.slides.charts/ichartparagraphformat/spacebefore) { get; set; } | Geeft de hoeveelheid ruimte vóór de eerste regel in een alinea terug of stelt deze in. Lezen/schrijven Single. |
 | [SpaceWithin](../../aspose.slides.charts/ichartparagraphformat/spacewithin) { get; set; } | Geeft de hoeveelheid ruimte tussen basisregels in een alinea terug of stelt deze in. Lezen/schrijven Single. |
@@ -35,7 +35,7 @@ public interface IChartParagraphFormat
 
 ### Zie ook
 
-* naamruimte [Aspose.Slides.Charts](../../aspose.slides.charts)
+* namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
 * assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

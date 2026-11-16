@@ -1,14 +1,14 @@
 ---
 title: Placeholder
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 슬라이드의 플레이스홀더를 나타냅니다.
+description: 슬라이드에서 자리 표시자를 나타냅니다.
 type: docs
-weight: 9430
+weight: 9450
 url: /ko/aspose.slides/placeholder/
 ---
-## 플레이스홀더 클래스
+## 자리 표시자 클래스
 
-슬라이드의 플레이스홀더를 나타냅니다.
+슬라이드의 자리 표시자를 나타냅니다.
 
 ```csharp
 public class Placeholder : IPlaceholder
@@ -16,14 +16,14 @@ public class Placeholder : IPlaceholder
 
 ## 속성
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
 | [Index](../../aspose.slides/placeholder/index) { get; } | 플레이스홀더의 인덱스를 가져오거나 설정합니다. 읽기 전용 UInt32. |
 | [Orientation](../../aspose.slides/placeholder/orientation) { get; } | 플레이스홀더의 방향을 가져오거나 설정합니다. 읽기 전용 [`Orientation`](../orientation). |
 | [Size](../../aspose.slides/placeholder/size) { get; } | 플레이스홀더의 크기를 가져오거나 설정합니다. 읽기 전용 [`PlaceholderSize`](../placeholdersize). |
 | [Type](../../aspose.slides/placeholder/type) { get; } | 플레이스홀더의 유형을 가져오거나 설정합니다. 읽기 전용 [`PlaceholderType`](../placeholdertype). |
 
-### 참조
+### 참고
 
 * 인터페이스 [IPlaceholder](../iplaceholder)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

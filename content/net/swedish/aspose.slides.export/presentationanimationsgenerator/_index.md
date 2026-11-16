@@ -3,7 +3,7 @@ title: PresentationAnimationsGenerator
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en generator av animationerna i Presentation../aspose.slides/presentation.
 type: docs
-weight: 4380
+weight: 4400
 url: /sv/aspose.slides.export/presentationanimationsgenerator/
 ---
 ## PresentationAnimationsGenerator klass
@@ -14,16 +14,16 @@ Representerar en generator av animationerna i [`Presentation`](../../aspose.slid
 public class PresentationAnimationsGenerator : IDisposable
 ```
 
-## Konstruktörer
+## Konstruktorer
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
 | [PresentationAnimationsGenerator](presentationanimationsgenerator#constructor)(Presentation) | Skapar en ny instans av [`PresentationAnimationsGenerator`](../presentationanimationsgenerator). |
 | [PresentationAnimationsGenerator](presentationanimationsgenerator#constructor_1)(Size) | Skapar en ny instans av [`PresentationAnimationsGenerator`](../presentationanimationsgenerator). |
 
 ## Egenskaper
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
 | [DefaultDelay](../../aspose.slides.export/presentationanimationsgenerator/defaultdelay) { get; set; } | Hämtar eller anger standardfördröjningstid [ms]. |
 | [ExportedSlides](../../aspose.slides.export/presentationanimationsgenerator/exportedslides) { get; } | Hämtar antalet exporterade bilder. |
@@ -31,23 +31,23 @@ public class PresentationAnimationsGenerator : IDisposable
 
 ## Metoder
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
-| [Dispose](../../aspose.slides.export/presentationanimationsgenerator/dispose)() | Avslutar instansen av [`PresentationAnimationsGenerator`](../presentationanimationsgenerator). |
+| [Dispose](../../aspose.slides.export/presentationanimationsgenerator/dispose)() | Frigör instansen av [`PresentationAnimationsGenerator`](../presentationanimationsgenerator). |
 | [Run](../../aspose.slides.export/presentationanimationsgenerator/run#run)(IEnumerable&lt;ISlide&gt;) | Kör generering av animationshändelser för varje bild. |
 | [Run](../../aspose.slides.export/presentationanimationsgenerator/run#run_1)(IEnumerable&lt;ISlide&gt;, int, FrameTickHandler) | Kör generering av animationshändelser för varje bild. |
 
 ## Fält
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
 | readonly [FrameSize](../../aspose.slides.export/presentationanimationsgenerator/framesize) | Hämtar ramens storlek. |
 
 ## Händelser
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
-| event [NewAnimation](../../aspose.slides.export/presentationanimationsgenerator/newanimation) | En händelse indikerar att en ny animation har genererats. |
+| event [NewAnimation](../../aspose.slides.export/presentationanimationsgenerator/newanimation) | Ett evenemang indikerar att en ny animation har genererats. |
 
 ### Exempel
 
@@ -68,7 +68,7 @@ using (Presentation presentation = new Presentation("animated.pptx"))
 }
 ```
 
-### Se även
+### Se också
 
 * namnrymd [Aspose.Slides.Export](../../aspose.slides.export)
 * assembly [Aspose.Slides](../../)

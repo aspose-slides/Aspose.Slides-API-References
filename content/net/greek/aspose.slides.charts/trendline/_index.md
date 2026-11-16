@@ -1,12 +1,12 @@
 ---
 title: Trendline
-second_title: Aspose.Sildes για .NET Αναφορά API
-description: Κλάση που αντιπροσωπεύει τη γραμμή τάσης της σειράς γραφήματος
+second_title: Aspose.Sildes για .NET API Αναφορά
+description: Η κλάση αντιπροσωπεύει τη γραμμή τάσης της σειράς διαγράμματος
 type: docs
-weight: 2470
+weight: 2490
 url: /el/aspose.slides.charts/trendline/
 ---
-## Κλάση Trendline
+## Trendline κλάση
 
 Η κλάση αντιπροσωπεύει τη γραμμή τάσης της σειράς γραφήματος
 
@@ -18,20 +18,20 @@ public class Trendline : DomObject<TrendlineCollection>, ITrendline
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [Backward](../../aspose.slides.charts/trendline/backward) { get; set; } | Καθορίζει τον αριθμό των κατηγοριών (ή μονάδων σε γράφημα διασποράς) που η γραμμή τάσης επεκτείνεται πριν από τα δεδομένα για τη σειρά που τείνει. Σε γραφήματα διασποράς και μη-διασποράς, η τιμή πρέπει να είναι οποιαδήποτε μη αρνητική τιμή. Ανάγνωση/εγγραφή Double. |
-| [Chart](../../aspose.slides.charts/trendline/chart) { get; } | Επιστρέφει το γονικό γράφημα. Μόνο για ανάγνωση [`IChart`](../ichart). |
-| [DisplayEquation](../../aspose.slides.charts/trendline/displayequation) { get; set; } | Καθορίζει αν η εξίσωση για τη γραμμή τάσης εμφανίζεται στο γράφημα (στο ίδιο ετικέτα με το Rsquaredvalue). Ανάγνωση/εγγραφή Boolean. |
-| [DisplayRSquaredValue](../../aspose.slides.charts/trendline/displayrsquaredvalue) { get; set; } | Καθορίζει αν η τιμή R-squared της γραμμής τάσης εμφανίζεται στο γράφημα (στο ίδιο ετικέτα με την εξίσωση). Ανάγνωση/εγγραφή Boolean. |
-| [Format](../../aspose.slides.charts/trendline/format) { get; set; } | Αντιπροσωπεύει τη μορφή της γραμμής τάσης. Ανάγνωση/εγγραφή [`IFormat`](../iformat). |
-| [Forward](../../aspose.slides.charts/trendline/forward) { get; set; } | Καθορίζει τον αριθμό των κατηγοριών (ή μονάδων σε γράφημα διασποράς) που η γραμμή τάσης επεκτείνεται μετά τα δεδομένα για τη σειρά που τείνει. Σε γραφήματα διασποράς και μη-διασποράς, η τιμή πρέπει να είναι οποιαδήποτε μη αρνητική τιμή. Ανάγνωση/εγγραφή Double. |
-| [Intercept](../../aspose.slides.charts/trendline/intercept) { get; set; } | Καθορίζει την τιμή όπου η γραμμή τάσης θα διασχίσει τον άξονα y. Αυτή η ιδιότητα υποστηρίζεται μόνο όταν ο τύπος της γραμμής τάσης είναι exp, linear ή poly. Ανάγνωση/εγγραφή Double. |
-| [Order](../../aspose.slides.charts/trendline/order) { get; set; } | Καθορίζει τη σειρά της πολυωνυμικής γραμμής τάσης. Αγνοείται για άλλους τύπους γραμμής τάσης. Η τιμή πρέπει να είναι μεταξύ 2 και 6. Ανάγνωση/εγγραφή Byte. |
-| [Period](../../aspose.slides.charts/trendline/period) { get; set; } | Καθορίζει την περίοδο της γραμμής τάσης για μια γραμμή τάσης κινητού μέσου. Αγνοείται για άλλες παραλλαγές γραμμής τάσης. Η τιμή πρέπει να είναι μεταξύ 2 και 255. Ανάγνωση/εγγραφή Byte. |
-| [RelatedLegendEntry](../../aspose.slides.charts/trendline/relatedlegendentry) { get; } | Αντιπροσωπεύει την καταχώρηση υπομνήματος σχετική με αυτή τη γραμμή τάσης Μόνο για ανάγνωση [`ILegendEntryProperties`](../ilegendentryproperties). |
-| [TextFormat](../../aspose.slides.charts/trendline/textformat) { get; } | Επιστρέφει τη μορφή κειμένου. Μόνο για ανάγνωση [`IChartTextFormat`](../icharttextformat). |
-| [TextFrameForOverriding](../../aspose.slides.charts/trendline/textframeforoverriding) { get; } | Μπορεί να περιέχει πλούσιο μορφοποιημένο κείμενο. Εάν αυτή η ιδιότητα δεν είναι null, τότε αυτή η μορφοποιημένη τιμή κειμένου αντικαθιστά το αυτόματα παραγόμενο κείμενο ετικέτας δεδομένων. Το αυτόματα παραγόμενο κείμενο ετικέτας δεδομένων σημαίνει κείμενο που διαχειρίζεται από τις ιδιότητες ShowSeriesName, ShowValue, ... και μορφοποιείται με την ιδιότητα TextFormatManager.TextFormat. Μόνο για ανάγνωση [`ITextFrame`](../../aspose.slides/itextframe). |
-| [TrendlineName](../../aspose.slides.charts/trendline/trendlinename) { get; set; } | Λαμβάνει ή ορίζει το όνομα της γραμμής τάσης. Ανάγνωση/εγγραφή String. |
-| [TrendlineType](../../aspose.slides.charts/trendline/trendlinetype) { get; set; } | Λαμβάνει ή ορίζει τον τύπο της γραμμής τάσης. Ανάγνωση/εγγραφή [`TrendlineType`](../trendlinetype). |
+| [Backward](../../aspose.slides.charts/trendline/backward) { get; set; } | Καθορίζει τον αριθμό των κατηγοριών (ή μονάδων σε διάγραμμα διασποράς) που η γραμμή τάσης επεκτείνεται πριν από τα δεδομένα της σειράς που υφίσταται την τάση. Σε διαγράμματα διασποράς και μη διασποράς, η τιμή πρέπει να είναι οποιαδήποτε μη αρνητική τιμή. Ανάγνωση/Εγγραφή Double. |
+| [Chart](../../aspose.slides.charts/trendline/chart) { get; } | Επιστρέφει το γονικό γράφημα. Μόνο-ανάγνωση [`IChart`](../ichart). |
+| [DisplayEquation](../../aspose.slides.charts/trendline/displayequation) { get; set; } | Καθορίζει ότι η εξίσωση για τη γραμμή τάσης εμφανίζεται στο γράφημα (στο ίδιο ετικέτα με το Rsquaredvalue). Ανάγνωση/Εγγραφή Boolean. |
+| [DisplayRSquaredValue](../../aspose.slides.charts/trendline/displayrsquaredvalue) { get; set; } | Καθορίζει ότι η τιμή R-squared της γραμμής τάσης εμφανίζεται στο γράφημα (στο ίδιο ετικέτα με την εξίσωση). Ανάγνωση/Εγγραφή Boolean. |
+| [Format](../../aspose.slides.charts/trendline/format) { get; set; } | Αναπαριστά τη μορφή της γραμμής τάσης. Ανάγνωση/Εγγραφή [`IFormat`](../iformat). |
+| [Forward](../../aspose.slides.charts/trendline/forward) { get; set; } | Καθορίζει τον αριθμό των κατηγοριών (ή μονάδων σε διάγραμμα διασποράς) που η γραμμή τάσης επεκτείνεται μετά τα δεδομένα της σειράς που υφίσταται την τάση. Σε διαγράμματα διασποράς και μη διασποράς, η τιμή πρέπει να είναι οποιαδήποτε μη-αρνητική τιμή. Ανάγνωση/Εγγραφή Double. |
+| [Intercept](../../aspose.slides.charts/trendline/intercept) { get; set; } | Καθορίζει την τιμή στην οποία η γραμμή τάσης θα διασχίσει τον άξονα y. Αυτή η ιδιότητα υποστηρίζεται μόνο όταν ο τύπος γραμμής τάσης είναι exp, linear ή poly. Ανάγνωση/Εγγραφή Double. |
+| [Order](../../aspose.slides.charts/trendline/order) { get; set; } | Καθορίζει τη σειρά (βαθμό) της πολυωνυμικής γραμμής τάσης. Αγνοείται για άλλους τύπους γραμμής τάσης. Η τιμή πρέπει να είναι μεταξύ 2 και 6. Ανάγνωση/Εγγραφή Byte. |
+| [Period](../../aspose.slides.charts/trendline/period) { get; set; } | Καθορίζει την περίοδο της γραμμής τάσης για μια γραμμή τάσης κινητού μέσου. Αγνοείται για άλλες παραλλαγές γραμμής τάσης. Η τιμή πρέπει να είναι μεταξύ 2 και 255. Ανάγνωση/Εγγραφή Byte. |
+| [RelatedLegendEntry](../../aspose.slides.charts/trendline/relatedlegendentry) { get; } | Αναπαριστά την είσοδο υπομνήματος που σχετίζεται με αυτήν τη γραμμή τάσης Μόνο-ανάγνωση [`ILegendEntryProperties`](../ilegendentryproperties). |
+| [TextFormat](../../aspose.slides.charts/trendline/textformat) { get; } | Επιστρέφει τη μορφή κειμένου. Μόνο-ανάγνωση [`IChartTextFormat`](../icharttextformat). |
+| [TextFrameForOverriding](../../aspose.slides.charts/trendline/textframeforoverriding) { get; } | Μπορεί να περιέχει πλούσιο μορφοποιημένο κείμενο. Εάν αυτή η ιδιότητα δεν είναι null, τότε αυτή η μορφοποιημένη τιμή κειμένου αντικαθιστά το αυτόματα δημιουργημένο κείμενο ετικέτας δεδομένων. Το αυτόματα δημιουργημένο κείμενο ετικέτας δεδομένων σημαίνει κείμενο που διαχειρίζεται από τις ιδιότητες ShowSeriesName, ShowValue, … και μορφοποιείται με την ιδιότητα TextFormatManager.TextFormat. Μόνο-ανάγνωση [`ITextFrame`](../../aspose.slides/itextframe). |
+| [TrendlineName](../../aspose.slides.charts/trendline/trendlinename) { get; set; } | Λαμβάνει ή ορίζει το όνομα της γραμμής τάσης. Ανάγνωση/Εγγραφή String. |
+| [TrendlineType](../../aspose.slides.charts/trendline/trendlinetype) { get; set; } | Λαμβάνει ή ορίζει τον τύπο της γραμμής τάσης. Ανάγνωση/Εγγραφή [`TrendlineType`](../trendlinetype). |
 
 ## Μέθοδοι
 
@@ -43,8 +43,8 @@ public class Trendline : DomObject<TrendlineCollection>, ITrendline
 
 * κλάση [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * κλάση [TrendlineCollection](../trendlinecollection)
-* διασύνδεση [ITrendline](../itrendline)
-* χώρος ονομάτων [Aspose.Slides.Charts](../../aspose.slides.charts)
-* συγκρότημα [Aspose.Slides](../../)
+* διεπαφή [ITrendline](../itrendline)
+* χώρο ονομάτων [Aspose.Slides.Charts](../../aspose.slides.charts)
+* συγκρότηση [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

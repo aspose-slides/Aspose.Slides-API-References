@@ -1,14 +1,14 @@
 ---
 title: OrientationTransition
-second_title: Aspose.Sildes .NET API Referencia
-description: Tájolási diaátmenet hatása.
+second_title: Aspose.Sildes a .NET API hivatkozás
+description: Orientációs diaátmenet hatása.
 type: docs
-weight: 10270
+weight: 10290
 url: /hu/aspose.slides.slideshow/orientationtransition/
 ---
 ## OrientationTransition osztály
 
-Orientation slide transition effect.
+Az orientációs diaátmenet hatása.
 
 ```csharp
 public class OrientationTransition : TransitionValueBase, IOrientationTransition
@@ -20,7 +20,7 @@ public class OrientationTransition : TransitionValueBase, IOrientationTransition
 | --- | --- |
 | [Direction](../../aspose.slides.slideshow/orientationtransition/direction) { get; set; } | Az átmenet iránya. Olvasás/írás [`Orientation`](../../aspose.slides/orientation). |
 
-## Metódusok
+## Módszerek
 
 | Név | Leírás |
 | --- | --- |

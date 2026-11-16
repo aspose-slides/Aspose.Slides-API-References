@@ -1,14 +1,14 @@
 ---
 title: IInkTrace
 second_title: Aspose.Sildes for .NET API リファレンス
-description: Ink オブジェクト内の手書きラインを表します。
+description: Ink オブジェクト内の手書きの線を表します。
 type: docs
-weight: 7540
+weight: 7560
 url: /ja/aspose.slides.ink/iinktrace/
 ---
 ## IInkTrace インターフェイス
 
-Ink オブジェクト内の手書きラインを表します。
+Ink オブジェクト内の手書きの線を表します。
 
 ```csharp
 public interface IInkTrace
@@ -18,8 +18,8 @@ public interface IInkTrace
 
 | 名前 | 説明 |
 | --- | --- |
-| [Brush](../../aspose.slides.ink/iinktrace/brush) { get; } | IInkLine の Brush を取得します [`IInkBrush`](../iinkbrush) 読み取り専用。 |
-| [Points](../../aspose.slides.ink/iinktrace/points) { get; } | IInkLine の PointF のポイントを取得します 読み取り専用。 |
+| [Brush](../../aspose.slides.ink/iinktrace/brush) { get; } | IInkLine [`IInkBrush`](../iinkbrush) の Brush を取得します（読み取り専用）。 |
+| [Points](../../aspose.slides.ink/iinktrace/points) { get; } | IInkLine PointF のポイントを取得します（読み取り専用）。 |
 
 ### 参照
 

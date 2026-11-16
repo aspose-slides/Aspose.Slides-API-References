@@ -1,9 +1,9 @@
 ---
 title: IOuterShadow
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงเอฟเฟกต์เงานอก.
+second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+description: แสดงถึงเอฟเฟกต์เงานอก
 type: docs
-weight: 3460
+weight: 3480
 url: /th/aspose.slides.effects/ioutershadow/
 ---
 ## IOuterShadow อินเทอร์เฟซ
@@ -19,18 +19,18 @@ public interface IOuterShadow : IAccessiblePVIObject<IOuterShadowEffectiveData>,
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ioutershadow/asiaccessiblepviobject) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IAccessiblePVIObject พื้นฐาน. อ่านอย่างเดียว [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ioutershadow/asiimagetransformoperation) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IImageTransformOperation พื้นฐาน. อ่านอย่างเดียว [`IImageTransformOperation`](../iimagetransformoperation). |
-| [BlurRadius](../../aspose.slides.effects/ioutershadow/blurradius) { get; set; } | รัศมีความเบลอ, หน่วยเป็นพอยท์. ค่าเริ่มต้น – 0 pt. อ่าน/เขียน Double. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ioutershadow/asiaccessiblepviobject) { get; } | อนุญาตให้รับ interface IAccessiblePVIObject พื้นฐาน. อ่านอย่างเดียว [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ioutershadow/asiimagetransformoperation) { get; } | อนุญาตให้รับ interface IImageTransformOperation พื้นฐาน. อ่านอย่างเดียว [`IImageTransformOperation`](../iimagetransformoperation). |
+| [BlurRadius](../../aspose.slides.effects/ioutershadow/blurradius) { get; set; } | รัศมีเบลอร์, หน่วยเป็นจุด. ค่าเริ่มต้น – 0 pt. อ่าน/เขียน Double. |
 | [Direction](../../aspose.slides.effects/ioutershadow/direction) { get; set; } | ทิศทางของเงา, หน่วยเป็นองศา. ค่าเริ่มต้น – 0 ° (จากซ้ายไปขวา). อ่าน/เขียน Single. |
-| [Distance](../../aspose.slides.effects/ioutershadow/distance) { get; set; } | ระยะของเงาจากวัตถุ, หน่วยเป็นพอยท์. ค่าเริ่มต้น – 0 pt. อ่าน/เขียน Double. |
-| [RectangleAlign](../../aspose.slides.effects/ioutershadow/rectanglealign) { get; set; } | การจัดตำแหน่งสี่เหลี่ยม. ค่าเริ่มต้น – Bottom. อ่าน/เขียน [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadow/rotateshadowwithshape) { get; set; } | บ่งชี้ว่าเงาจะหมุนพร้อมกับรูปร่างหรือไม่. ค่าเริ่มต้น – true. อ่าน/เขียน Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/ioutershadow/scalehorizontal) { get; set; } | ปัจจัยสเกลแนวนอน, เป็นเปอร์เซ็นต์ของขนาดต้นฉบับ. การสเกลเชิงลบทำให้กลับด้าน. ค่าเริ่มต้น – 100 %. อ่าน/เขียน Double. |
-| [ScaleVertical](../../aspose.slides.effects/ioutershadow/scalevertical) { get; set; } | ปัจจัยสเกลแนวตั้ง, เป็นเปอร์เซ็นต์ของขนาดต้นฉบับ. การสเกลเชิงลบทำให้กลับด้าน. ค่าเริ่มต้น – 100 %. อ่าน/เขียน Double. |
-| [ShadowColor](../../aspose.slides.effects/ioutershadow/shadowcolor) { get; } | สีของเงา. ค่าเริ่มต้น – สีดำอัตโนมัติ (ขึ้นอยู่กับธีม). อ่านอย่างเดียว [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [SkewHorizontal](../../aspose.slides.effects/ioutershadow/skewhorizontal) { get; set; } | มุมเอียงแนวนอน, หน่วยเป็นองศา. ค่าเริ่มต้น – 0 °. อ่าน/เขียน Double. |
-| [SkewVertical](../../aspose.slides.effects/ioutershadow/skewvertical) { get; set; } | มุมเอียงแนวตั้ง, หน่วยเป็นองศา. ค่าเริ่มต้น – 0 °. อ่าน/เขียน Double. |
+| [Distance](../../aspose.slides.effects/ioutershadow/distance) { get; set; } | ระยะทางของเงาจากวัตถุ, หน่วยเป็นจุด. ค่าเริ่มต้น – 0 pt. อ่าน/เขียน Double. |
+| [RectangleAlign](../../aspose.slides.effects/ioutershadow/rectanglealign) { get; set; } | การจัดแนวสี่เหลี่ยม. ค่าเริ่มต้น – Bottom. อ่าน/เขียน [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadow/rotateshadowwithshape) { get; set; } | บ่งชี้ว่าเงาจะหมุนพร้อมกับรูปทรงหรือไม่. ค่าเริ่มต้น – true. อ่าน/เขียน Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/ioutershadow/scalehorizontal) { get; set; } | แฟกเตอร์การสเกลแนวนอน, เป็นเปอร์เซ็นต์ของขนาดเดิม. การสเกลเชิงลบทำให้กลับด้าน. ค่าเริ่มต้น – 100 %. อ่าน/เขียน Double. |
+| [ScaleVertical](../../aspose.slides.effects/ioutershadow/scalevertical) { get; set; } | แฟกเตอร์การสเกลแนวตั้ง, เป็นเปอร์เซ็นต์ของขนาดเดิม. การสเคลเชิงลบทำให้กลับด้าน. ค่าเริ่มต้น – 100 %. อ่าน/เขียน Double. |
+| [ShadowColor](../../aspose.slides.effects/ioutershadow/shadowcolor) { get; } | สีของเงา. ค่าเริ่มต้น – สีดำอัตโนมัติ (ขึ้นกับธีม). อ่านอย่างเดียว [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [SkewHorizontal](../../aspose.slides.effects/ioutershadow/skewhorizontal) { get; set; } | มุมเอนแนวนอน, หน่วยเป็นองศา. ค่าเริ่มต้น – 0 °. อ่าน/เขียน Double. |
+| [SkewVertical](../../aspose.slides.effects/ioutershadow/skewvertical) { get; set; } | มุมเอนแนวตั้ง, หน่วยเป็นองศา. ค่าเริ่มต้น – 0 °. อ่าน/เขียน Double. |
 
 ### ดูเพิ่มเติม
 

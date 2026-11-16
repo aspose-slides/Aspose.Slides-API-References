@@ -1,14 +1,14 @@
 ---
 title: TextAlignment
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili berbagai gaya penjajaran teks.
+description: Mewakili berbagai gaya perataan teks.
 type: docs
-weight: 10900
+weight: 10920
 url: /id/aspose.slides/textalignment/
 ---
-## Enumerasi TextAlignment
+## Enum TextAlignment
 
-Mewakili berbagai gaya penjajaran teks.
+Mewakili berbagai gaya perataan teks.
 
 ```csharp
 public enum TextAlignment
@@ -18,13 +18,13 @@ public enum TextAlignment
 
 | Nama | Nilai | Deskripsi |
 | --- | --- | --- |
-| NotDefined | `-1` | Penjajaran default. |
-| Left | `0` | Penjajaran kiri. |
-| Center | `1` | Penjajaran tengah. |
-| Right | `2` | Penjajaran kanan. |
-| Justify | `3` | Penjajaran rata kanan kiri. |
-| JustifyLow | `4` | Penjajaran Kashida rendah. |
-| Distributed | `5` | Penjajaran tersebar. |
+| NotDefined | `-1` | Perataan default. |
+| Left | `0` | Perataan kiri. |
+| Center | `1` | Perataan tengah. |
+| Right | `2` | Perataan kanan. |
+| Justify | `3` | Perataan rata kanan-kiri. |
+| JustifyLow | `4` | Justify Kashida rendah. |
+| Distributed | `5` | Perataan tersebar. |
 
 ### Lihat Juga
 

@@ -1,14 +1,14 @@
 ---
 title: ZoomLayout
-second_title: Справочник API Aspose.Sildes для .NET
-description: Указывает макет зум-обзора.
+second_title: Aspose.Sildes для .NET справка API
+description: Указывает макет увеличения сводки.
 type: docs
-weight: 11860
+weight: 11880
 url: /ru/aspose.slides/zoomlayout/
 ---
 ## Перечисление ZoomLayout
 
-Указывает макет зум-обзора.
+Указывает макет увеличения сводки.
 
 ```csharp
 public enum ZoomLayout
@@ -18,8 +18,8 @@ public enum ZoomLayout
 
 | Имя | Значение | Описание |
 | --- | --- | --- |
-| GridLayout | `0` | Указывает макет в виде сетки для списка объектов. |
-| FixedLayout | `1` | Указывает макет с пользовательским позиционированием Zoom. |
+| GridLayout | `0` | Указывает макет как сеточный макет для списка объектов. |
+| FixedLayout | `1` | Указывает макет с пользовательским позиционированием увеличения. |
 
 ### См. также
 

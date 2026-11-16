@@ -3,7 +3,7 @@ title: PPImage
 second_title: Aspose.Sildes per .NET Riferimento API
 description: Rappresenta un'immagine in una presentazione.
 type: docs
-weight: 9250
+weight: 9270
 url: /it/aspose.slides/ppimage/
 ---
 ## PPImage classe
@@ -24,8 +24,8 @@ public class PPImage : IDisposable, IPPImage
 | [Image](../../aspose.slides/ppimage/image) { get; } | Restituisce una copia di un'immagine. Sola lettura [`IImage`](../iimage). |
 | [SvgImage](../../aspose.slides/ppimage/svgimage) { get; set; } | Restituisce o imposta l'oggetto ISvgImage [`ISvgImage`](../isvgimage) |
 | [Width](../../aspose.slides/ppimage/width) { get; } | Restituisce la larghezza di un'immagine. Sola lettura Int32. |
-| [X](../../aspose.slides/ppimage/x) { get; } | Restituisce lo scostamento X di un'immagine. Sola lettura Int32. |
-| [Y](../../aspose.slides/ppimage/y) { get; } | Restituisce lo scostamento Y di un'immagine. Sola lettura Int32. |
+| [X](../../aspose.slides/ppimage/x) { get; } | Restituisce l'offset X di un'immagine. Sola lettura Int32. |
+| [Y](../../aspose.slides/ppimage/y) { get; } | Restituisce l'offset Y di un'immagine. Sola lettura Int32. |
 
 ## Metodi
 
@@ -33,8 +33,8 @@ public class PPImage : IDisposable, IPPImage
 | --- | --- |
 | [Dispose](../../aspose.slides/ppimage/dispose)() | Rilascia l'oggetto. |
 | override [GetHashCode](../../aspose.slides/ppimage/gethashcode)() | Restituisce il codice hash di un'immagine. |
-| [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage_2)(byte[]) | Sostituisce i dati dell'immagine. I dati della nuova immagine. Quando il parametro newImageData è null. |
-| [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage)(IImage) | Sostituisce i dati dell'immagine. Attenzione: quando Image è metafile - verrà rasterizzata. Usa ReplaceImage(byte[]) invece. La nuova immagine. Quando il parametro newImage è null. |
+| [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage_2)(byte[]) | Sostituisce i dati dell'immagine. I nuovi dati dell'immagine. Quando il parametro newImageData è null. |
+| [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage)(IImage) | Sostituisce i dati dell'immagine. Attenzione: quando Image è metafile verrà rasterizzata. Usa ReplaceImage(byte[]) invece. La nuova immagine. Quando il parametro newImage è null. |
 | [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage_1)(IPPImage) | Sostituisce i dati dell'immagine. Il nuovo IPPImage. Quando il parametro newImage è null. |
 
 ### Vedi anche

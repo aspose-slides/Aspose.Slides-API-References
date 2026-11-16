@@ -1,14 +1,14 @@
 ---
 title: TransitionShredPattern
-second_title: Aspose.Sildes для .NET API Reference
-description: Определяет геометрическую форму, которая соединяется в узор, заполняющий большую площадь.
+second_title: Aspose.Sildes для .NET справочник API
+description: Указывает геометрическую форму, которая укладывается вместе, заполняя большую площадь.
 type: docs
-weight: 10410
+weight: 10430
 url: /ru/aspose.slides.slideshow/transitionshredpattern/
 ---
-## TransitionShredPattern перечисление
+## Перечисление TransitionShredPattern
 
-Определяет геометрическую форму, которая соединяется в узор, заполняющий большую площадь.
+Указывает геометрическую форму, которая укладывается вместе, заполняя большую площадь.
 
 ```csharp
 public enum TransitionShredPattern

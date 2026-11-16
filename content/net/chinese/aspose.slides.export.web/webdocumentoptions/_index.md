@@ -3,12 +3,12 @@ title: WebDocumentOptions
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示 WebDocument./webdocument 保存的选项集。
 type: docs
-weight: 4690
+weight: 4710
 url: /zh/aspose.slides.export.web/webdocumentoptions/
 ---
 ## WebDocumentOptions 类
 
-表示 [`WebDocument`](../webdocument) 保存的选项集。
+表示[`WebDocument`](../webdocument)保存的选项集。
 
 ```csharp
 public class WebDocumentOptions
@@ -16,13 +16,13 @@ public class WebDocumentOptions
 
 ## 构造函数
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
 | [WebDocumentOptions](webdocumentoptions)() | 默认构造函数。 |
 
 ## 属性
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
 | [AnimateShapes](../../aspose.slides.export.web/webdocumentoptions/animateshapes) { get; set; } | 返回或设置形状动画选项。读/写 Boolean。 |
 | [AnimateTransitions](../../aspose.slides.export.web/webdocumentoptions/animatetransitions) { get; set; } | 返回或设置转换动画选项。读/写 Boolean。 |
@@ -30,7 +30,7 @@ public class WebDocumentOptions
 | [OutputSaver](../../aspose.slides.export.web/webdocumentoptions/outputsaver) { get; set; } | 返回或设置输出保存器。读/写 [`IOutputSaver`](../ioutputsaver)。 |
 | [TemplateEngine](../../aspose.slides.export.web/webdocumentoptions/templateengine) { get; set; } | 返回或设置模板引擎。读/写 [`ITemplateEngine`](../itemplateengine)。 |
 
-### 另请参见
+### 另见
 
 * 命名空间 [Aspose.Slides.Export.Web](../../aspose.slides.export.web)
 * 程序集 [Aspose.Slides](../../)

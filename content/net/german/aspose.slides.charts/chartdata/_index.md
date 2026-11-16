@@ -1,14 +1,14 @@
 ---
 title: ChartData
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt Daten dar, die für die Diagrammerstellung verwendet werden.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Stellt Daten dar, die für die Diagrammdarstellung verwendet werden.
 type: docs
-weight: 1310
+weight: 1320
 url: /de/aspose.slides.charts/chartdata/
 ---
 ## ChartData Klasse
 
-Stellt Daten dar, die für die Diagrammerstellung verwendet werden.
+Stellt Daten dar, die für die Diagrammdarstellung verwendet werden.
 
 ```csharp
 public class ChartData : DomObject<Chart>, IChartData
@@ -18,27 +18,28 @@ public class ChartData : DomObject<Chart>, IChartData
 
 | Name | Beschreibung |
 | --- | --- |
-| [Categories](../../aspose.slides.charts/chartdata/categories) { get; } | Liefert die primären Kategorien (oder sowohl primäre als auch sekundäre Kategorien, wenn die [`UseSecondaryCategories`](./usesecondarycategories) Eigenschaft false ist). Nur lesbar [`IChartCategoryCollection`](../ichartcategorycollection). |
-| [ChartDataWorkbook](../../aspose.slides.charts/chartdata/chartdataworkbook) { get; } | Liefert die Zellenfabrik zum Erzeugen von Zellen, die für Diagrammserien oder -kategorien verwendet werden. Nur lesbar [`IChartDataWorkbook`](../ichartdataworkbook). |
-| [DataSourceType](../../aspose.slides.charts/chartdata/datasourcetype) { get; } | Stellt den Pfad zur externen Arbeitsmappe dar, falls externe Datenquelle, sonst null. |
-| [EmbeddedWorkbookType](../../aspose.slides.charts/chartdata/embeddedworkbooktype) { get; } | Liefert den Typ der eingebetteten Arbeitsmappe. Gibt NotDefined zurück, wenn [`DataSourceType`](./datasourcetype) ExternalWorkbook ist. Nur lesbar [`WorkbookType`](../workbooktype). |
-| [ExternalWorkbookPath](../../aspose.slides.charts/chartdata/externalworkbookpath) { get; } | Stellt die Datenquelle des Diagramms dar. |
-| [SecondaryCategories](../../aspose.slides.charts/chartdata/secondarycategories) { get; } | Liefert die sekundären Kategorien, wenn die [`UseSecondaryCategories`](./usesecondarycategories) Eigenschaft true ist. Nur lesbar [`IChartCategoryCollection`](../ichartcategorycollection). |
-| [Series](../../aspose.slides.charts/chartdata/series) { get; } | Liefert die Serien. Nur lesbar [`IChartSeriesCollection`](../ichartseriescollection). |
-| [SeriesGroups](../../aspose.slides.charts/chartdata/seriesgroups) { get; } | Liefert die Gruppen der Serien. Nur lesbar [`IChartSeriesGroupCollection`](../ichartseriesgroupcollection). |
-| [UseSecondaryCategories](../../aspose.slides.charts/chartdata/usesecondarycategories) { get; set; } | Wenn false, dann gibt die [`SecondaryCategories`](./secondarycategories) Eigenschaft null zurück und die Daten in der [`Categories`](./categories) Eigenschaft werden sowohl für primäre als auch für sekundäre Serien verwendet. Wenn true, dann werden die Daten in der [`SecondaryCategories`](./secondarycategories) Eigenschaft für sekundäre Serien und die Daten in der [`Categories`](./categories) Eigenschaft für primäre Serien verwendet. Lese/Schreib Boolean. |
+| [Categories](../../aspose.slides.charts/chartdata/categories) { get; } | Ruft die primären Kategorien ab (oder sowohl primäre als auch sekundäre Kategorien, wenn die Eigenschaft [`UseSecondaryCategories`](./usesecondarycategories) false ist). Nur lesend [`IChartCategoryCollection`](../ichartcategorycollection). |
+| [ChartDataWorkbook](../../aspose.slides.charts/chartdata/chartdataworkbook) { get; } | Ruft die Zellenfabrik ab, um Zellen für Diagrammserien oder Kategorien zu erstellen. Nur lesend [`IChartDataWorkbook`](../ichartdataworkbook). |
+| [DataSourceType](../../aspose.slides.charts/chartdata/datasourcetype) { get; } | Stellt den Pfad zu einer externen Arbeitsmappe dar, wenn eine externe Datenquelle verwendet wird, andernfalls null |
+| [EmbeddedWorkbookType](../../aspose.slides.charts/chartdata/embeddedworkbooktype) { get; } | Ruft den Typ der eingebetteten Arbeitsmappe ab. Gibt NotDefined zurück, wenn [`DataSourceType`](./datasourcetype) ExternalWorkbook ist. Nur lesend [`WorkbookType`](../workbooktype). |
+| [ExternalWorkbookPath](../../aspose.slides.charts/chartdata/externalworkbookpath) { get; } | Stellt die Datenquelle des Diagramms dar |
+| [SecondaryCategories](../../aspose.slides.charts/chartdata/secondarycategories) { get; } | Ruft die sekundären Kategorien ab, wenn die Eigenschaft [`UseSecondaryCategories`](./usesecondarycategories) true ist. Nur lesend [`IChartCategoryCollection`](../ichartcategorycollection). |
+| [Series](../../aspose.slides.charts/chartdata/series) { get; } | Ruft die Serien ab. Nur lesend [`IChartSeriesCollection`](../ichartseriescollection). |
+| [SeriesGroups](../../aspose.slides.charts/chartdata/seriesgroups) { get; } | Ruft die Gruppen von Serien ab. Nur lesend [`IChartSeriesGroupCollection`](../ichartseriesgroupcollection). |
+| [UseSecondaryCategories](../../aspose.slides.charts/chartdata/usesecondarycategories) { get; set; } | Wenn false, gibt die Eigenschaft [`SecondaryCategories`](./secondarycategories) null zurück und die Daten in der Eigenschaft [`Categories`](./categories) werden sowohl für primäre als auch für sekundäre Serien verwendet. Wenn true, werden die Daten in der Eigenschaft [`SecondaryCategories`](./secondarycategories) für sekundäre Serien und die Daten in der Eigenschaft [`Categories`](./categories) für primäre Serien verwendet. Lese/Schreib Boolean. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [GetRange](../../aspose.slides.charts/chartdata/getrange)() | Liefert den Diagrammdatenbereich. |
+| [GetRange](../../aspose.slides.charts/chartdata/getrange)() | Ruft den Diagrammdatenbereich ab. |
 | [ReadWorkbookStream](../../aspose.slides.charts/chartdata/readworkbookstream)() | Schreibt die intern enthaltene Excel-Arbeitsmappe in einen In-Memory-Stream. |
-| [SetExternalWorkbook](../../aspose.slides.charts/chartdata/setexternalworkbook#setexternalworkbook)(string) | Setzt die externe Arbeitsmappe als Datenquelle für das Diagramm. Diagrammdaten werden aus der Zielarbeitsmappe aktualisiert. |
-| [SetExternalWorkbook](../../aspose.slides.charts/chartdata/setexternalworkbook#setexternalworkbook_1)(string, bool) | Setzt die externe Arbeitsmappe als Datenquelle für das Diagramm. |
-| [SetRange](../../aspose.slides.charts/chartdata/setrange)(string) | Setzt den Diagrammdatenbereich. Serien und Kategorien werden basierend auf dem neuen Datenbereich aktualisiert. Wenn die Anzahl der Serien im Datenbereich größer ist als die Anzahl der Serien in den Diagrammdaten, dann werden zusätzliche Serien mit demselben Typ wie die letzte Serie in der aktuellen Sammlung am Ende der Sammlung hinzugefügt. |
-| [SwitchRowColumn](../../aspose.slides.charts/chartdata/switchrowcolumn)() | Vertauscht die Daten über die Achse. Daten, die auf der X-Achse chartiert werden, werden zur Y-Achse verschoben und umgekehrt. |
-| [WriteWorkbookStream](../../aspose.slides.charts/chartdata/writeworkbookstream)(MemoryStream) | Initialisiert die intern enthaltene Excel-Arbeitsmappe mit dem vom Benutzer angegebenen Wert. |
+| [RefreshData](../../aspose.slides.charts/chartdata/refreshdata)() | Aktualisiert die Diagrammdaten, indem sie aus der Quellarbeitsmappe neu geladen werden. |
+| [SetExternalWorkbook](../../aspose.slides.charts/chartdata/setexternalworkbook#setexternalworkbook)(string) | Legt eine externe Arbeitsmappe als Datenquelle für das Diagramm fest. Die Diagrammdaten werden aus der Zielarbeitsmappe aktualisiert. |
+| [SetExternalWorkbook](../../aspose.slides.charts/chartdata/setexternalworkbook#setexternalworkbook_1)(string, bool) | Legt eine externe Arbeitsmappe als Datenquelle für das Diagramm fest. |
+| [SetRange](../../aspose.slides.charts/chartdata/setrange)(string) | Setzt den Diagrammdatenbereich. Serien und Kategorien werden basierend auf dem neuen Datenbereich aktualisiert. Wenn die Anzahl der Serien im Datenbereich größer ist als die Anzahl der Serien in den Diagrammdaten, werden zusätzliche Serien mit demselben Typ wie die letzte Serie in der aktuellen Sammlung am Ende der Sammlung hinzugefügt. |
+| [SwitchRowColumn](../../aspose.slides.charts/chartdata/switchrowcolumn)() | Vertauscht die Daten über die Achse. Daten, die auf der X-Achse dargestellt werden, wechseln zur Y-Achse und umgekehrt. |
+| [WriteWorkbookStream](../../aspose.slides.charts/chartdata/writeworkbookstream)(MemoryStream) | Initialisiert die intern enthaltene Excel-Arbeitsmappe mit einem vom Benutzer angegebenen Wert. |
 
 ### Siehe auch
 

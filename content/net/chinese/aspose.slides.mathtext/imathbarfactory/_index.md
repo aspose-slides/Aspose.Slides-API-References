@@ -3,7 +3,7 @@ title: IMathBarFactory
 second_title: Aspose.Sildes for .NET API 参考
 description: 允许创建数学栏
 type: docs
-weight: 8130
+weight: 8150
 url: /zh/aspose.slides.mathtext/imathbarfactory/
 ---
 ## IMathBarFactory 接口
@@ -25,7 +25,7 @@ public interface IMathBarFactory
 
 用于 COM 兼容性
 
-### 另见
+### 另请参见
 
 * 命名空间 [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * 程序集 [Aspose.Slides](../../)

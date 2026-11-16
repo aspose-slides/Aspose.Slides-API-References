@@ -1,14 +1,14 @@
 ---
 title: MathGroupingCharacterFactory
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Staat toe een wiskundig groeperingskarakter te maken
+description: Staat toe om een wiskundig groeperingskarakter te maken
 type: docs
-weight: 8770
+weight: 8790
 url: /nl/aspose.slides.mathtext/mathgroupingcharacterfactory/
 ---
 ## MathGroupingCharacterFactory klasse
 
-Staat toe een wiskundig groeperingskarakter te maken
+Staat toe om een wiskundig groeperingskarakter te maken
 
 ```csharp
 public class MathGroupingCharacterFactory : IMathGroupingCharacterFactory

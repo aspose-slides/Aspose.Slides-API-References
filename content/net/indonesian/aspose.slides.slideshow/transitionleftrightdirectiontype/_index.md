@@ -1,14 +1,14 @@
 ---
 title: TransitionLeftRightDirectionType
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Menentukan arah yang dibatasi pada nilai left dan right.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Menentukan arah yang dibatasi pada nilai kiri dan kanan.
 type: docs
-weight: 10380
+weight: 10400
 url: /id/aspose.slides.slideshow/transitionleftrightdirectiontype/
 ---
-## TransitionLeftRightDirectionType enumeration
+## TransitionLeftRightDirectionType enumerasi
 
-Menentukan arah yang dibatasi pada nilai left dan right.
+Menentukan arah yang dibatasi pada nilai kiri dan kanan.
 
 ```csharp
 public enum TransitionLeftRightDirectionType

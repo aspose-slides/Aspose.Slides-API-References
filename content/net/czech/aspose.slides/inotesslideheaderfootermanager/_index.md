@@ -1,14 +1,14 @@
 ---
 title: INotesSlideHeaderFooterManager
 second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje správce, který obsahuje chování zástupných objektů poznámkového snímku, včetně záhlaví.
+description: Reprezentuje správce, který určuje chování zástupných objektů snímků s poznámkami, včetně záhlaví.
 type: docs
-weight: 6510
+weight: 6530
 url: /cs/aspose.slides/inotesslideheaderfootermanager/
 ---
 ## INotesSlideHeaderFooterManager rozhraní
 
-Reprezentuje správce, který obsahuje chování zástupných objektů poznámkového snímku, včetně záhlaví.
+Reprezentuje správce, který určuje chování zástupných objektů poznámkového snímku, včetně záhlaví.
 
 ```csharp
 public interface INotesSlideHeaderFooterManager : IBaseHandoutNotesSlideHeaderFooterManag
@@ -18,9 +18,9 @@ public interface INotesSlideHeaderFooterManager : IBaseHandoutNotesSlideHeaderFo
 
 | Název | Popis |
 | --- | --- |
-| [AsIBaseHandoutNotesSlideHeaderFooterManag](../../aspose.slides/inotesslideheaderfootermanager/asibasehandoutnotesslideheaderfootermanag) { get; } | Vrací rozhraní IBaseHandoutNotesSlideHeaderFooterManag. |
+| [AsIBaseHandoutNotesSlideHeaderFooterManag](../../aspose.slides/inotesslideheaderfootermanager/asibasehandoutnotesslideheaderfootermanag) { get; } | Vrací IBaseHandoutNotesSlideHeaderFooterManag rozhraní. |
 
-### Další související
+### Viz také
 
 * rozhraní [IBaseHandoutNotesSlideHeaderFooterManag](../ibasehandoutnotesslideheaderfootermanag)
 * jmenný prostor [Aspose.Slides](../../aspose.slides)

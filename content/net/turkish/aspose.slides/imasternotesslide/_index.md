@@ -3,12 +3,12 @@ title: IMasterNotesSlide
 second_title: Aspose.Sildes .NET için API Referansı
 description: Notlar için ana slaytı temsil eder.
 type: docs
-weight: 6390
+weight: 6410
 url: /tr/aspose.slides/imasternotesslide/
 ---
 ## IMasterNotesSlide arayüz
 
-Notlar için ana slaytı temsil eder.
+Temel notlar için ana slaytı temsil eder.
 
 ```csharp
 public interface IMasterNotesSlide : IBaseSlide, IMasterThemeable
@@ -20,11 +20,11 @@ public interface IMasterNotesSlide : IBaseSlide, IMasterThemeable
 | --- | --- |
 | [AsIBaseSlide](../../aspose.slides/imasternotesslide/asibaseslide) { get; } | Temel IBaseSlide arayüzünü almayı sağlar. Salt okunur [`IBaseSlide`](../ibaseslide). |
 | [AsIMasterThemeable](../../aspose.slides/imasternotesslide/asimasterthemeable) { get; } | IMasterThemeable arayüzünü döndürür. Salt okunur [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
-| [DrawingGuides](../../aspose.slides/imasternotesslide/drawingguides) { get; } | Ana not slaytı için çizim kılavuzlarının bir koleksiyonunu döndürür. Salt okunur [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [DrawingGuides](../../aspose.slides/imasternotesslide/drawingguides) { get; } | Ana not slaytı için çizim kılavuzlarından oluşan bir koleksiyonu döndürür. Salt okunur [`IDrawingGuidesCollection`](../idrawingguidescollection) |
 | [HeaderFooterManager](../../aspose.slides/imasternotesslide/headerfootermanager) { get; } | Ana not slaytının HeaderFooter yöneticisini döndürür. Salt okunur [`IMasterNotesSlideHeaderFooterManager`](../imasternotesslideheaderfootermanager). |
 | [NotesStyle](../../aspose.slides/imasternotesslide/notesstyle) { get; } | Not metninin stilini döndürür. Salt okunur [`ITextStyle`](../itextstyle). |
 
-### Ayrıca Bakınız
+### Ayrıca bakınız
 
 * arayüz [IBaseSlide](../ibaseslide)
 * arayüz [IMasterThemeable](../../aspose.slides.theme/imasterthemeable)

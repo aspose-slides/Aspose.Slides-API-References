@@ -3,7 +3,7 @@ title: ITheme
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa un tema.
 type: docs
-weight: 11370
+weight: 11390
 url: /es/aspose.slides.theme/itheme/
 ---
 ## ITheme interfaz
@@ -18,7 +18,7 @@ public interface ITheme : IPresentationComponent
 
 | Nombre | Descripción |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides.theme/itheme/asipresentationcomponent) { get; } | Permite obtener la IPresentationComponent interfaz. Solo lectura [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides.theme/itheme/asipresentationcomponent) { get; } | Permite obtener la interfaz base IPresentationComponent. Solo lectura [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 | [ColorScheme](../../aspose.slides.theme/itheme/colorscheme) { get; } | Devuelve el esquema de color. Solo lectura [`IColorScheme`](../icolorscheme). |
 | [FontScheme](../../aspose.slides.theme/itheme/fontscheme) { get; } | Devuelve el esquema de fuente. Solo lectura [`IFontScheme`](../ifontscheme). |
 | [FormatScheme](../../aspose.slides.theme/itheme/formatscheme) { get; } | Devuelve el esquema de formato de forma. Solo lectura [`IFormatScheme`](../iformatscheme). |
@@ -27,7 +27,7 @@ public interface ITheme : IPresentationComponent
 
 | Nombre | Descripción |
 | --- | --- |
-| [GetEffective](../../aspose.slides.theme/itheme/geteffective)() | Obtiene los datos de tema efectivos con la herencia aplicada. |
+| [GetEffective](../../aspose.slides.theme/itheme/geteffective)() | Obtiene los datos del tema efectivos con la herencia aplicada. |
 
 ### Ver también
 

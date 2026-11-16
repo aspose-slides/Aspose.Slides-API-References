@@ -1,14 +1,14 @@
 ---
 title: IChartSeriesReadonlyCollection
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili koleksi hanya-baca dari IChartSeries./ichartseries
+description: Mewakili koleksi baca-saja dari IChartSeries./ichartseries
 type: docs
-weight: 1970
+weight: 1990
 url: /id/aspose.slides.charts/ichartseriesreadonlycollection/
 ---
 ## IChartSeriesReadonlyCollection antarmuka
 
-Represents a readonly collection of [`IChartSeries`](../ichartseries)
+Mewakili koleksi baca-saja dari [`IChartSeries`](../ichartseries)
 
 ```csharp
 public interface IChartSeriesReadonlyCollection : IGenericCollection<IChartSeries>

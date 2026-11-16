@@ -1,9 +1,9 @@
 ---
 title: IEffectFactory
-second_title: Aspose.Sildes pro .NET API Referenci
+second_title: Aspose.Sildes pro .NET API Reference
 description: Umožňuje vytvářet instance efektů
 type: docs
-weight: 3290
+weight: 3310
 url: /cs/aspose.slides.effects/ieffectfactory/
 ---
 ## IEffectFactory rozhraní
@@ -16,20 +16,20 @@ public interface IEffectFactory
 
 ## Vlastnosti
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
 | [ImageTransformOperationFactory](../../aspose.slides.effects/ieffectfactory/imagetransformoperationfactory) { get; } | Vrací ImageTransformOperationFactory. Pouze pro čtení [`IImageTransformOperationFactory`](../iimagetransformoperationfactory). |
 
 ## Metody
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
 | [CreateGlow](../../aspose.slides.effects/ieffectfactory/createglow)() | Vytváří efekt Glow. |
-| [CreateInnerShadow](../../aspose.slides.effects/ieffectfactory/createinnershadow)() | Vytváří efekt vnitřního stínu. |
-| [CreateOuterShadow](../../aspose.slides.effects/ieffectfactory/createoutershadow)() | Vytváří efekt vnějšího stínu. |
-| [CreatePresetShadow](../../aspose.slides.effects/ieffectfactory/createpresetshadow)() | Vytváří předdefinovaný efekt stínu. |
-| [CreateReflection](../../aspose.slides.effects/ieffectfactory/createreflection)() | Vytváří efekt odrazu. |
-| [CreateSoftEdge](../../aspose.slides.effects/ieffectfactory/createsoftedge)() | Vytváří efekt měkkých okrajů. |
+| [CreateInnerShadow](../../aspose.slides.effects/ieffectfactory/createinnershadow)() | Vytváří efekt Inner shafow. |
+| [CreateOuterShadow](../../aspose.slides.effects/ieffectfactory/createoutershadow)() | Vytváří efekt Outer shadow. |
+| [CreatePresetShadow](../../aspose.slides.effects/ieffectfactory/createpresetshadow)() | Vytváří efekt Preset shadow. |
+| [CreateReflection](../../aspose.slides.effects/ieffectfactory/createreflection)() | Vytváří efekt Reflection. |
+| [CreateSoftEdge](../../aspose.slides.effects/ieffectfactory/createsoftedge)() | Vytváří efekt Soft Edge. |
 
 ### Poznámky
 

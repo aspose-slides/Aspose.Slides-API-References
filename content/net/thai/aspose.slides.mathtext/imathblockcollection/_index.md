@@ -3,7 +3,7 @@ title: IMathBlockCollection
 second_title: Aspose.Sildes สำหรับ .NET API Reference
 description: คอลเลกชันของบล็อกคณิตศาสตร์ IMathBlock
 type: docs
-weight: 8150
+weight: 8170
 url: /th/aspose.slides.mathtext/imathblockcollection/
 ---
 ## IMathBlockCollection อินเทอร์เฟซ
@@ -18,21 +18,21 @@ public interface IMathBlockCollection : IEnumerable<IMathBlock>
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.mathtext/imathblockcollection/asienumerable) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IEnumerable ฐาน |
-| [Count](../../aspose.slides.mathtext/imathblockcollection/count) { get; } | รับจำนวนขององค์ประกอบที่แท้จริงอยู่ในคอลเลกชัน. อ่านอย่างเดียว Int32. |
+| [AsIEnumerable](../../aspose.slides.mathtext/imathblockcollection/asienumerable) { get; } | อนุญาตให้รับอินเทอร์เฟซ IEnumerable พื้นฐาน |
+| [Count](../../aspose.slides.mathtext/imathblockcollection/count) { get; } | รับจำนวนขององค์ประกอบที่จริง ๆ อยู่ในคอลเลกชัน. อ่านอย่างเดียว Int32. |
 | [Item](../../aspose.slides.mathtext/imathblockcollection/item) { get; set; } | รับรายการที่ตำแหน่งที่ระบุ. อ่านอย่างเดียว [`IMathBlock`](../imathblock). |
 
-## วิธีการ
+## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Add](../../aspose.slides.mathtext/imathblockcollection/add)(IMathBlock) | เพิ่ม IMathBlock ไปยังท้ายของคอลเลกชัน. |
-| [Clear](../../aspose.slides.mathtext/imathblockcollection/clear)() | ลบทุกองค์ประกอบออกจากคอลเลกชัน. |
+| [Add](../../aspose.slides.mathtext/imathblockcollection/add)(IMathBlock) | เพิ่ม IMathBlock ที่ตำแหน่งท้ายของคอลเลกชัน. |
+| [Clear](../../aspose.slides.mathtext/imathblockcollection/clear)() | ลบทั้งหมดขององค์ประกอบจากคอลเลกชัน. |
 | [Contains](../../aspose.slides.mathtext/imathblockcollection/contains)(IMathBlock) | กำหนดว่าคอลเลกชันมีค่าที่ระบุหรือไม่. |
 | [IndexOf](../../aspose.slides.mathtext/imathblockcollection/indexof)(IMathBlock) | กำหนดดัชนีของ IMathBlock ที่ระบุในคอลเลกชัน. |
 | [Insert](../../aspose.slides.mathtext/imathblockcollection/insert)(int, IMathBlock) | แทรก IMMathBlock ลงในคอลเลกชันที่ตำแหน่งที่ระบุ. |
-| [Remove](../../aspose.slides.mathtext/imathblockcollection/remove)(IMathBlock) | ลบการเกิดครั้งแรกของอ็อบเจ็กต์ที่ระบุออกจากคอลเลกชัน. |
-| [RemoveAt](../../aspose.slides.mathtext/imathblockcollection/removeat)(int) | ลบรายการที่ตำแหน่งที่ระบุในคอลเลกชัน. |
+| [Remove](../../aspose.slides.mathtext/imathblockcollection/remove)(IMathBlock) | ลบการเกิดแรกสุดของอ็อบเจกต์ที่ระบุจากคอลเลกชัน/&gt;. |
+| [RemoveAt](../../aspose.slides.mathtext/imathblockcollection/removeat)(int) | ลบรายการที่ตำแหน่งที่ระบุของคอลเลกชัน. |
 
 ### ตัวอย่าง
 

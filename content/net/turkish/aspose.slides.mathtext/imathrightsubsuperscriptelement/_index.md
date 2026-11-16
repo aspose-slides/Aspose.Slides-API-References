@@ -1,14 +1,14 @@
 ---
 title: IMathRightSubSuperscriptElement
 second_title: Aspose.Sildes için .NET API Referansı
-description: Temelin sağ tarafına yerleştirilen bir temel, alt simge ve üst simge içeren Sub-Superscript nesnesini belirtir.
+description: Temel bir nesne ve ona sağ tarafına yerleştirilmiş alt ve üst simge içeren Alt-Üst Simge nesnesini belirtir.
 type: docs
-weight: 8450
+weight: 8470
 url: /tr/aspose.slides.mathtext/imathrightsubsuperscriptelement/
 ---
 ## IMathRightSubSuperscriptElement arayüz
 
-Bir temel ve temelin sağına yerleştirilen alt ve üst simge nesnesini belirtir.
+Temel ve onun sağ tarafına yerleştirilmiş alt ve üst simge nesnesini tanımlar.
 
 ```csharp
 public interface IMathRightSubSuperscriptElement : IMathElement
@@ -18,8 +18,8 @@ public interface IMathRightSubSuperscriptElement : IMathElement
 
 | Ad | Açıklama |
 | --- | --- |
-| [AlignScripts](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/alignscripts) { get; set; } | Alt simge/üst simgenin hizalamasını belirler. true olduğunda, alt ve üst simge yatay olarak birbirine hizalanır. false olduğunda, temel şekline göre çekilir. Varsayılan değer false'tur. |
-| [AsIMathElement](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/asimathelement) { get; } | Temel IMathElement arayüzünü almayı sağlar [`IMathElement`](../imathelement) |
+| [AlignScripts](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/alignscripts) { get; set; } | Alt ve üst simgenin hizalamasını belirtir. true olduğunda, alt ve üst simgeler birbirine yatay olarak hizalanır. false olduğunda, temel şeklinine göre kenar boşluğu uygulanır. Varsayılan değer false'tur. |
+| [AsIMathElement](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/asimathelement) { get; } | Temel IMathElement arayüzüne erişim sağlar [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/base) { get; } | Temel argüman |
 | [Subscript](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/subscript) { get; } | Alt simge argümanı |
 | [Superscript](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/superscript) { get; } | Üst simge argümanı |
@@ -33,7 +33,7 @@ public interface IMathRightSubSuperscriptElement : IMathElement
 IMathRightSubSuperscriptElement subsuperscript = new MathematicalText("N").SetSubSuperscriptOnTheRight("i", "j");
 ```
 
-### Ayrıca Bakınız
+### İlgili
 
 * arayüz [IMathElement](../imathelement)
 * ad alanı [Aspose.Slides.MathText](../../aspose.slides.mathtext)

@@ -1,14 +1,14 @@
 ---
 title: IChartSeriesCollection
-second_title: Tham khảo API Aspose.Sildes cho .NET
-description: Biểu thị tập hợp của IChartSeries./ichartseries
+second_title: Aspose.Sildes cho .NET Tham chiếu API
+description: Biểu diễn tập hợp của IChartSeries./ichartseries
 type: docs
-weight: 1940
+weight: 1960
 url: /vi/aspose.slides.charts/ichartseriescollection/
 ---
 ## IChartSeriesCollection giao diện
 
-Biểu thị tập hợp của [`IChartSeries`](../ichartseries)
+Biểu diễn tập hợp của [`IChartSeries`](../ichartseries)
 
 ```csharp
 public interface IChartSeriesCollection : IGenericCollection<IChartSeries>
@@ -24,13 +24,13 @@ public interface IChartSeriesCollection : IGenericCollection<IChartSeries>
 
 | Tên | Mô tả |
 | --- | --- |
-| [Add](../../aspose.slides.charts/ichartseriescollection/add#add)(ChartType) | Tạo chuỗi biểu đồ mới và thêm nó vào tập hợp. |
-| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_1)(IChartCellCollection, ChartType) | Tạo chuỗi biểu đồ mới từ [`IChartCellCollection`](../ichartcellcollection) và thêm nó vào tập hợp. |
-| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_2)(IChartDataCell, ChartType) | Tạo chuỗi biểu đồ mới từ [`IChartDataCell`](../ichartdatacell) và thêm nó vào tập hợp. |
-| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_3)(string, ChartType) | Tạo chuỗi biểu đồ mới từ giá trị và thêm nó vào tập hợp. |
-| [Clear](../../aspose.slides.charts/ichartseriescollection/clear)() | Xóa tất cả các phần tử (bao gồm cả kiểu biểu đồ) khỏi tập hợp. |
-| [IndexOf](../../aspose.slides.charts/ichartseriescollection/indexof)(IChartSeries) | Tìm kiếm [`IChartSeries`](../ichartseries) được chỉ định và trả về chỉ mục bắt đầu từ 0 của lần xuất hiện đầu tiên trong toàn bộ Collection |
-| [Insert](../../aspose.slides.charts/ichartseriescollection/insert)(int, ChartType) | Tạo chuỗi biểu đồ mới và chèn nó vào tập hợp. |
+| [Add](../../aspose.slides.charts/ichartseriescollection/add#add)(ChartType) | Tạo chuỗi biểu đồ mới và thêm nó vào bộ sưu tập. |
+| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_1)(IChartCellCollection, ChartType) | Tạo chuỗi biểu đồ mới từ [`IChartCellCollection`](../ichartcellcollection) và thêm nó vào bộ sưu tập. |
+| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_2)(IChartDataCell, ChartType) | Tạo chuỗi biểu đồ mới từ [`IChartDataCell`](../ichartdatacell) và thêm nó vào bộ sưu tập. |
+| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_3)(string, ChartType) | Tạo chuỗi biểu đồ mới từ giá trị và thêm nó vào bộ sưu tập. |
+| [Clear](../../aspose.slides.charts/ichartseriescollection/clear)() | Xóa tất cả các phần tử (bao gồm kiểu biểu đồ) khỏi bộ sưu tập. |
+| [IndexOf](../../aspose.slides.charts/ichartseriescollection/indexof)(IChartSeries) | Tìm kiếm [`IChartSeries`](../ichartseries) được chỉ định và trả về chỉ mục bắt đầu từ 0 của lần xuất hiện đầu tiên trong toàn bộ bộ sưu tập |
+| [Insert](../../aspose.slides.charts/ichartseriescollection/insert)(int, ChartType) | Tạo chuỗi biểu đồ mới và chèn nó vào bộ sưu tập. |
 | [Remove](../../aspose.slides.charts/ichartseriescollection/remove)(IChartSeries) | Xóa giá trị được chỉ định. |
 | [RemoveAt](../../aspose.slides.charts/ichartseriescollection/removeat)(int) | Xóa phần tử tại chỉ mục được chỉ định |
 

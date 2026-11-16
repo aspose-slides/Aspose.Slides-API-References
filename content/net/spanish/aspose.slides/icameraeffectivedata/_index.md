@@ -1,9 +1,9 @@
 ---
 title: ICameraEffectiveData
-second_title: Aspose.Sildes para la referencia de API .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Objeto inmutable que contiene las propiedades efectivas de la cámara.
 type: docs
-weight: 5420
+weight: 5440
 url: /es/aspose.slides/icameraeffectivedata/
 ---
 ## ICameraEffectiveData interfaz
@@ -19,18 +19,18 @@ public interface ICameraEffectiveData
 | Nombre | Descripción |
 | --- | --- |
 | [CameraType](../../aspose.slides/icameraeffectivedata/cameratype) { get; } | Tipo de cámara. Solo lectura [`CameraPresetType`](../camerapresettype). |
-| [FieldOfViewAngle](../../aspose.slides/icameraeffectivedata/fieldofviewangle) { get; } | Ángulo de visión de la cámara (0-180 grad, campo de visión). Solo lectura Single. |
+| [FieldOfViewAngle](../../aspose.slides/icameraeffectivedata/fieldofviewangle) { get; } | FOV de la cámara (0-180 grados, campo de visión). Solo lectura Single. |
 | [Zoom](../../aspose.slides/icameraeffectivedata/zoom) { get; } | Zoom de la cámara (valor positivo en porcentaje). Solo lectura Single. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [GetRotation](../../aspose.slides/icameraeffectivedata/getrotation)() | Se define una rotación mediante el uso de una coordenada de latitud, una coordenada de longitud y una revolución alrededor del eje según las coordenadas de latitud y longitud. primer elemento en la matriz de retorno - latitud, segundo - longitud, tercero - revolución. Devuelve null si no se ha definido rotación. |
+| [GetRotation](../../aspose.slides/icameraeffectivedata/getrotation)() | Una rotación se define mediante el uso de una coordenada de latitud, una coordenada de longitud y una revolución alrededor del eje como las coordenadas de latitud y longitud. primer elemento del arreglo devuelto - latitud, segundo - longitud, tercero - revolución. Devuelve null si no hay rotación definida. |
 
 ### Observaciones
 
-Esta interfaz se utiliza como parte de [`IThreeDFormatEffectiveData`](../ithreedformateffectivedata).
+Esta interfaz se usa como parte de [`IThreeDFormatEffectiveData`](../ithreedformateffectivedata).
 
 ### Ver también
 

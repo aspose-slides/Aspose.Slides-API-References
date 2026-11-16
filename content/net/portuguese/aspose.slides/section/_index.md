@@ -1,14 +1,14 @@
 ---
 title: Section
 second_title: Referência da API Aspose.Sildes para .NET
-description: Representa uma seção de slides.
+description: Representa a seção de slides.
 type: docs
-weight: 9750
+weight: 9770
 url: /pt/aspose.slides/section/
 ---
 ## Section classe
 
-Representa uma seção de slides.
+Representa a seção de slides.
 
 ```csharp
 public class Section : DomObject<SectionCollection>, ISection
@@ -28,7 +28,7 @@ public class Section : DomObject<SectionCollection>, ISection
 | --- | --- |
 | [GetSlidesListOfSection](../../aspose.slides/section/getslideslistofsection)() | Retorna a lista de slides na seção. |
 
-### Ver também
+### Veja também
 
 * classe [DomObject&lt;TParent&gt;](../domobject-1)
 * classe [SectionCollection](../sectioncollection)

@@ -1,14 +1,14 @@
 ---
 title: SetAsTotal
-second_title: Aspose.Sildes لـ .NET مرجع API
-description: يضبط نقطة البيانات كإجمالي. يُطبق فقط على نوع سلسلة الشلال.
+second_title: Aspose.Sildes لمرجع API .NET
+description: يضبط نقطة البيانات كإجمالي. يُطبق فقط على نوع السلسلة Waterfall.
 type: docs
-weight: 170
+weight: 210
 url: /ar/aspose.slides.charts/chartdatapoint/setastotal/
 ---
 ## ChartDataPoint.SetAsTotal خاصية
 
-يضبط نقطة البيانات كإجمالي. يُطبق فقط على نوع سلسلة الشلال.
+يضبط نقطة البيانات كإجمالي. يُطبق فقط على نوع السلسلة Waterfall.
 
 ```csharp
 public bool SetAsTotal { get; set; }

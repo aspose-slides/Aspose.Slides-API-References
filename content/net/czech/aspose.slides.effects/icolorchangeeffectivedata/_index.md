@@ -1,14 +1,14 @@
 ---
 title: IColorChangeEffectiveData
-second_title: Aspose.Sildes pro .NET – referenční příručka API
-description: Neměnný objekt představující efekt změny barvy. Instance FromColor jsou nahrazeny instancemi ToColor.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Neměnný objekt, který představuje efekt změny barvy. Instance FromColor jsou nahrazeny instancemi ToColor.
 type: docs
-weight: 3230
+weight: 3250
 url: /cs/aspose.slides.effects/icolorchangeeffectivedata/
 ---
 ## IColorChangeEffectiveData rozhraní
 
-Neměnný objekt představující efekt změny barvy. Instance FromColor jsou nahrazeny instancemi ToColor.
+Neměnný objekt, který představuje efekt změny barvy. Instance FromColor jsou nahrazeny instancemi ToColor.
 
 ```csharp
 public interface IColorChangeEffectiveData : IEffectEffectiveData
@@ -21,7 +21,7 @@ public interface IColorChangeEffectiveData : IEffectEffectiveData
 | [AsIEffectEffectiveData](../../aspose.slides.effects/icolorchangeeffectivedata/asieffecteffectivedata) { get; } | Umožňuje získat základní rozhraní IEffectEffectiveData. Pouze pro čtení [`IEffectEffectiveData`](../ieffecteffectivedata). |
 | [FromColor](../../aspose.slides.effects/icolorchangeeffectivedata/fromcolor) { get; } | Barva, která bude nahrazena. Pouze pro čtení Color. |
 | [ToColor](../../aspose.slides.effects/icolorchangeeffectivedata/tocolor) { get; } | Barva, která nahradí. Pouze pro čtení Color. |
-| [UseAlpha](../../aspose.slides.effects/icolorchangeeffectivedata/usealpha) { get; } | Vrací logickou hodnotu, která určuje, zda má být použit alfa komponent. Pouze pro čtení Boolean. |
+| [UseAlpha](../../aspose.slides.effects/icolorchangeeffectivedata/usealpha) { get; } | Vrací logickou hodnotu, která určuje, zda má být použita alfa složka. Pouze pro čtení Boolean. |
 
 ### Viz také
 

@@ -1,9 +1,9 @@
 ---
 title: ChartCellCollection
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Aspose.Sildes для .NET справка API
 description: Представляет коллекцию ячеек с данными.
 type: docs
-weight: 1300
+weight: 1310
 url: /ru/aspose.slides.charts/chartcellcollection/
 ---
 ## ChartCellCollection класс
@@ -28,7 +28,7 @@ public class ChartCellCollection : IChartCellCollection
 | [Add](../../aspose.slides.charts/chartcellcollection/add#add)(IChartDataCell) | Добавляет новую ячейку в коллекцию. |
 | [Add](../../aspose.slides.charts/chartcellcollection/add#add_1)(object) | Создаёт [`ChartDataCell`](../chartdatacell) из указанного значения и добавляет его в коллекцию. |
 | [GetCellsAddress](../../aspose.slides.charts/chartcellcollection/getcellsaddress)() | Возвращает адрес набора ячеек в рабочей книге. |
-| [GetConcatenatedValuesFromCells](../../aspose.slides.charts/chartcellcollection/getconcatenatedvaluesfromcells)() | Строка, полученная конкатенацией строковых значений всех ячеек. |
+| [GetConcatenatedValuesFromCells](../../aspose.slides.charts/chartcellcollection/getconcatenatedvaluesfromcells)() | Конкатенирует строки всех строковых значений ячеек. |
 | [GetEnumerator](../../aspose.slides.charts/chartcellcollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
 | [RemoveAt](../../aspose.slides.charts/chartcellcollection/removeat)(int) | Удаляет ячейку из коллекции по индексу. |
 

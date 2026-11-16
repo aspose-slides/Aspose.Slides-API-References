@@ -1,14 +1,14 @@
 ---
 title: ISlide
-second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
-description: แทนสไลด์หนึ่งในงานนำเสนอ.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: เป็นตัวแทนของสไลด์ในงานนำเสนอ.
 type: docs
-weight: 7040
+weight: 7060
 url: /th/aspose.slides/islide/
 ---
 ## ISlide อินเทอร์เฟซ
 
-แทนสไลด์หนึ่งในงานนำเสนอ.
+Represents a slide in a presentation.
 
 ```csharp
 public interface ISlide : IBaseSlide, IOverrideThemeable
@@ -26,7 +26,7 @@ public interface ISlide : IBaseSlide, IOverrideThemeable
 | [NotesSlideManager](../../aspose.slides/islide/notesslidemanager) { get; } | Allow to access notes slide, add and remove it. อ่านอย่างเดียว [`INotesSlideManager`](../inotesslidemanager). |
 | [SlideNumber](../../aspose.slides/islide/slidenumber) { get; set; } | Returns a number of slide. Index of slide in [`Slides`](../ipresentation/slides) collection is always equal to SlideNumber - 1. อ่าน/เขียน Int32. |
 
-## เมธอด
+## วิธีการ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |

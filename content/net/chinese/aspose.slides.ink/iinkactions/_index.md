@@ -1,9 +1,9 @@
 ---
 title: IInkActions
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 表示幻灯片上的墨水对象。
 type: docs
-weight: 7520
+weight: 7540
 url: /zh/aspose.slides.ink/iinkactions/
 ---
 ## IInkActions 接口
@@ -20,7 +20,7 @@ public interface IInkActions : IGraphicalObject
 | --- | --- |
 | [AsIGraphicalObject](../../aspose.slides.ink/iinkactions/asigraphicalobject) { get; } | 允许获取基 IGraphicalObject 接口。只读 [`IGraphicalObject`](../../aspose.slides/igraphicalobject)。 |
 
-### 另见
+### 另请参见
 
 * 接口 [IGraphicalObject](../../aspose.slides/igraphicalobject)
 * 命名空间 [Aspose.Slides.Ink](../../aspose.slides.ink)

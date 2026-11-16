@@ -3,7 +3,7 @@ title: EmbeddedWoffFontsHtmlController
 second_title: Aspose.Sildes για .NET API Αναφορά
 description: Η κλάση ελεγκτή μορφοποίησης που χρησιμοποιείται για την ενσωμάτωση γραμματοσειρών σε μορφή WOFF
 type: docs
-weight: 3790
+weight: 3810
 url: /el/aspose.slides.export/embeddedwofffontshtmlcontroller/
 ---
 ## EmbeddedWoffFontsHtmlController κλάση
@@ -23,7 +23,7 @@ public class EmbeddedWoffFontsHtmlController : IEmbeddedWoffFontsHtmlController
 
 ### Δείτε επίσης
 
-* διασύνδεση [IEmbeddedWoffFontsHtmlController](../iembeddedwofffontshtmlcontroller)
+* διεπαφή [IEmbeddedWoffFontsHtmlController](../iembeddedwofffontshtmlcontroller)
 * χώρο ονομάτων [Aspose.Slides.Export](../../aspose.slides.export)
 * συναρμολόγηση [Aspose.Slides](../../)
 

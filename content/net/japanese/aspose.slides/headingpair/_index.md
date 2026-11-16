@@ -1,14 +1,14 @@
 ---
 title: HeadingPair
 second_title: Aspose.Sildes for .NET API リファレンス
-description: ドキュメントの Heading pair プロパティを表します。これは、ドキュメント パーツのグループ名とグループ内のパーツ数を示します。
+description: 文書の Heading pair プロパティを表します。これは文書パーツのグループ名とグループ内のパーツ数を示します。
 type: docs
-weight: 5110
+weight: 5130
 url: /ja/aspose.slides/headingpair/
 ---
 ## HeadingPair クラス
 
-ドキュメントの「Heading pair」プロパティを表します。これは、ドキュメント パーツのグループ名とグループ内のパーツ数を示します。
+文書の「Heading pair」プロパティを表します。これは文書パーツのグループ名とグループ内のパーツ数を示します。
 
 ```csharp
 public sealed class HeadingPair : IHeadingPair
@@ -19,7 +19,7 @@ public sealed class HeadingPair : IHeadingPair
 | 名前 | 説明 |
 | --- | --- |
 | [Count](../../aspose.slides/headingpair/count) { get; } | グループ内のパーツ数を返します。読み取り専用 Int32。 |
-| [Name](../../aspose.slides/headingpair/name) { get; } | ドキュメント パーツのグループ名を返します。読み取り専用 String。 |
+| [Name](../../aspose.slides/headingpair/name) { get; } | 文書パーツのグループ名を返します。読み取り専用 String。 |
 
 ### 参照
 

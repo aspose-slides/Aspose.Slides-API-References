@@ -3,7 +3,7 @@ title: LineDashStyle
 second_title: Aspose.Sildes for .NET API 參考
 description: 表示線條虛線樣式。
 type: docs
-weight: 7770
+weight: 7790
 url: /zh-hant/aspose.slides/linedashstyle/
 ---
 ## LineDashStyle 列舉
@@ -32,7 +32,7 @@ public enum LineDashStyle : sbyte
 | SystemDashDotDot | `10` |  |
 | Custom | `11` |  |
 
-### 另請參閱
+### 另見
 
 * 命名空間 [Aspose.Slides](../../aspose.slides)
 * 組件 [Aspose.Slides](../../)

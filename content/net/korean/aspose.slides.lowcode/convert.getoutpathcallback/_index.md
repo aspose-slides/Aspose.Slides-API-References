@@ -1,14 +1,14 @@
 ---
 title: Convert.GetOutPathCallback
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 각 Slide../aspose.slides/slide에 대해 호출되는 콜백이며, 반환될 출력 경로가 예상됩니다.
+description: 각 Slide../aspose.slides/slide에 대해 호출되는 콜백이며, 반환될 출력 경로가 기대됩니다.
 type: docs
-weight: 7890
+weight: 7910
 url: /ko/aspose.slides.lowcode/convert.getoutpathcallback/
 ---
-## Convert.GetOutPathCallback 델리게이트
+## Convert.GetOutPathCallback delegate
 
-각 [`Slide`](../../aspose.slides/slide)에 대해 호출되는 콜백이며, 반환될 출력 경로가 예상됩니다.
+각 [`Slide`](../../aspose.slides/slide)에 대해 호출되는 콜백이며, 반환될 출력 경로가 기대됩니다.
 
 ```csharp
 public delegate string GetOutPathCallback(Slide slide, int index);
@@ -16,10 +16,10 @@ public delegate string GetOutPathCallback(Slide slide, int index);
 
 | 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
-| slide | Slide | 현재 반복 중인 슬라이드 |
+| slide | Slide | 현재 반복되는 슬라이드 |
 | index | Int32 | 현재 슬라이드의 인덱스 |
 
-### 참조
+### 관련 항목
 
 * 클래스 [Slide](../../aspose.slides/slide)
 * 클래스 [Convert](../convert)

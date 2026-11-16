@@ -1,12 +1,12 @@
 ---
 title: IAudioCollection
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 表示嵌入式音频文件的集合。
 type: docs
-weight: 5220
+weight: 5240
 url: /zh/aspose.slides/iaudiocollection/
 ---
-## IAudioCollection 接口
+## IAudioCollection interface
 
 表示嵌入式音频文件的集合。
 
@@ -18,17 +18,17 @@ public interface IAudioCollection : IGenericCollection<IAudio>
 
 | 名称 | 描述 |
 | --- | --- |
-| [Item](../../aspose.slides/iaudiocollection/item) { get; } | 获取指定索引处的元素。只读 [`IAudio`](../iaudio). |
+| [Item](../../aspose.slides/iaudiocollection/item) { get; } | 获取指定索引处的元素。只读 [`IAudio`](../iaudio)。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_1)(byte[]) | 从字节数组创建并添加音频到演示文稿。 |
+| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_1)(byte[]) | 从字节数组创建并将音频添加到演示文稿。 |
 | [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio)(IAudio) | 从另一个演示文稿添加音频文件的副本。 |
-| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_3)(Stream, LoadingStreamBehavior) | 从流创建并添加音频到演示文稿。 |
+| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_3)(Stream, LoadingStreamBehavior) | 从流创建并将音频添加到演示文稿。 |
 
-### 另见
+### 另请参阅
 
 * 接口 [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * 接口 [IAudio](../iaudio)

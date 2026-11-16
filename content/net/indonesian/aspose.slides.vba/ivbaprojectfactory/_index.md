@@ -1,14 +1,14 @@
 ---
 title: IVbaProjectFactory
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Memungkinkan membuat proyek VBA melalui antarmuka COM
 type: docs
-weight: 11560
+weight: 11580
 url: /id/aspose.slides.vba/ivbaprojectfactory/
 ---
 ## IVbaProjectFactory antarmuka
 
-Memungkinkan pembuatan proyek VBA melalui antarmuka COM
+Memungkinkan untuk membuat proyek VBA melalui antarmuka COM
 
 ```csharp
 public interface IVbaProjectFactory

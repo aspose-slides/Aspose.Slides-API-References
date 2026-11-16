@@ -1,14 +1,14 @@
 ---
 title: IMasterHandoutSlideManager
-second_title: Aspose.Sildes pour .NET – Référence API
-description: Gestionnaire de diapositive maître de support.
+second_title: Aspose.Sildes pour l'API .NET
+description: Gestionnaire de diapositive principale du support.
 type: docs
-weight: 6370
+weight: 6390
 url: /fr/aspose.slides/imasterhandoutslidemanager/
 ---
 ## IMasterHandoutSlideManager interface
 
-Gestionnaire de diapositive maître de support.
+Gestionnaire de diapositive principale du support.
 
 ```csharp
 public interface IMasterHandoutSlideManager
@@ -16,16 +16,16 @@ public interface IMasterHandoutSlideManager
 
 ## Propriétés
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
-| [MasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/masterhandoutslide) { get; } | Renvoie un maître pour toutes les diapos de notes de cette présentation s'il existe, sinon renvoie null. Lecture seule [`IMasterHandoutSlide`](../imasterhandoutslide). |
+| [MasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/masterhandoutslide) { get; } | Renvoie un maître pour toutes les diapositives de notes de cette présentation s'il y en a un, sinon renvoie null. Lecture seule [`IMasterHandoutSlide`](../imasterhandoutslide). |
 
 ## Méthodes
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
-| [RemoveMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/removemasterhandoutslide)() | Supprime la diapositive maître de distribution. |
-| [SetDefaultMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/setdefaultmasterhandoutslide)() | Définit la diapositive maître de distribution par défaut sur la diapositive de distribution associée. |
+| [RemoveMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/removemasterhandoutslide)() | Supprime la diapositive principale de support. |
+| [SetDefaultMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/setdefaultmasterhandoutslide)() | Définit la diapositive principale de support par défaut sur la diapositive de support associée. |
 
 ### Voir aussi
 

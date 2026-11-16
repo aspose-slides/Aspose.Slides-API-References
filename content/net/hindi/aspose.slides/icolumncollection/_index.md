@@ -1,14 +1,14 @@
 ---
 title: IColumnCollection
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: टेबल में कॉलमों के संग्रह का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes के लिए .NET API रेफ़रेंस
+description: एक तालिका में कॉलम के संग्रह का प्रतिनिधित्व करता है।
 type: docs
-weight: 5530
+weight: 5550
 url: /hi/aspose.slides/icolumncollection/
 ---
 ## IColumnCollection इंटरफ़ेस
 
-टेबल में कॉलमों का संग्रह दर्शाता है।
+एक तालिका में कॉलम के संग्रह का प्रतिनिधित्व करता है।
 
 ```csharp
 public interface IColumnCollection : IGenericCollection<IColumn>
@@ -18,15 +18,15 @@ public interface IColumnCollection : IGenericCollection<IColumn>
 
 | नाम | विवरण |
 | --- | --- |
-| [Item](../../aspose.slides/icolumncollection/item) { get; } | निर्दिष्ट इंडेक्स पर कॉलम लौटाता है। केवल-पढ़ने योग्य [`IColumn`](../icolumn). |
+| [Item](../../aspose.slides/icolumncollection/item) { get; } | निर्दिष्ट सूचकांक पर कॉलम लौटाता है। केवल पढ़ने योग्य [`IColumn`](../icolumn). |
 
 ## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [AddClone](../../aspose.slides/icolumncollection/addclone)(IColumn, bool) | निर्दिष्ट टेम्पलेट पंक्ति की एक प्रति बनाता है और इसे टेबल के नीचे सम्मिलित करता है। |
-| [InsertClone](../../aspose.slides/icolumncollection/insertclone)(int, IColumn, bool) | निर्दिष्ट टेम्पलेट कॉलम की एक प्रति बनाता है और इसे टेबल में निर्दिष्ट स्थान पर सम्मिलित करता है। |
-| [RemoveAt](../../aspose.slides/icolumncollection/removeat)(int, bool) | टेबल से निर्दिष्ट स्थान पर कॉलम को हटाता है। |
+| [AddClone](../../aspose.slides/icolumncollection/addclone)(IColumn, bool) | निर्दिष्ट टेम्पलेट पंक्ति की एक प्रति बनाता है और उसे तालिका के नीचे सम्मिलित करता है। |
+| [InsertClone](../../aspose.slides/icolumncollection/insertclone)(int, IColumn, bool) | निर्दिष्ट टेम्पलेट कॉलम की एक प्रति बनाता है और उसे तालिका में निर्दिष्ट स्थान पर सम्मिलित करता है। |
+| [RemoveAt](../../aspose.slides/icolumncollection/removeat)(int, bool) | तालिका से निर्दिष्ट स्थान पर कॉलम को हटाता है। |
 
 ### संबंधित देखें
 

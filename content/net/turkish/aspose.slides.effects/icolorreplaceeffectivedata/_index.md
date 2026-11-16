@@ -1,14 +1,14 @@
 ---
 title: IColorReplaceEffectiveData
-second_title: Aspose.Sildes için .NET API Referansı
-description: Renk Değiştirme etkisini temsil eden değişmez bir nesne. Tüm etki renkleri sabit bir renge değiştirilir. Alfa değerleri etkilenmez.
+second_title: Aspose.Sildes .NET API Referansı
+description: Renk Değiştirme etkisini temsil eden değiştirilemez nesne. Tüm etki renkleri sabit bir renge değiştirilir. Alfa değerleri etkilenmez.
 type: docs
-weight: 3250
+weight: 3270
 url: /tr/aspose.slides.effects/icolorreplaceeffectivedata/
 ---
-## IColorReplaceEffectiveData arayüz
+## IColorReplaceEffectiveData arayüzü
 
-Değişmez bir nesne olup bir Renk Değiştirme etkisini temsil eder. Tüm etki renkleri sabit bir renge değiştirilir. Alfa değerleri etkilenmez.
+Renk Değiştirme etkisini temsil eden değiştirilemez nesne. Tüm etki renkleri sabit bir renge değiştirilir. Alfa değerleri etkilenmez.
 
 ```csharp
 public interface IColorReplaceEffectiveData : IEffectEffectiveData
@@ -18,8 +18,8 @@ public interface IColorReplaceEffectiveData : IEffectEffectiveData
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/icolorreplaceeffectivedata/asieffecteffectivedata) { get; } | Temel IEffectEffectiveData arayüzünü almaya izin verir. Yalnızca okunabilir [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Color](../../aspose.slides.effects/icolorreplaceeffectivedata/color) { get; } | Her pikselin rengini değiştirecek renk biçimini döndürür. Yalnızca okunabilir Color. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/icolorreplaceeffectivedata/asieffecteffectivedata) { get; } | Temel IEffectEffectiveData arayüzünü almayı sağlar. Yalnızca okunabilir [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Color](../../aspose.slides.effects/icolorreplaceeffectivedata/color) { get; } | Her pikselin rengini değiştirecek renk formatını döndürür. Yalnızca okunabilir Color. |
 
 ### Ayrıca Bakınız
 

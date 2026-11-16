@@ -3,7 +3,7 @@ title: GradientStopEffectiveData
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Objeto inmutable que representa una parada de degradado.
 type: docs
-weight: 5050
+weight: 5070
 url: /es/aspose.slides/gradientstopeffectivedata/
 ---
 ## GradientStopEffectiveData clase

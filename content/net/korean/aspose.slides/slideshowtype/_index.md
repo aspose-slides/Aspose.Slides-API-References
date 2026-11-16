@@ -1,14 +1,14 @@
 ---
 title: SlideShowType
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 기본 슬라이드 쇼 설정. 조상은 슬라이드 쇼 유형을 나타냅니다 PresentedBySpeaker./presentedbyspeaker 발표자에 의해 전체 화면으로 발표 BrowsedByIndividual./browsedbyindividual 개별 사용자가 창으로 탐색 BrowsedAtKiosk./browsedatkiosk 키오스크에서 전체 화면으로 탐색
+second_title: Aspose.Sildes for .NET API 참조
+description: 기본 슬라이드 쇼 설정. 조상은 슬라이드 쇼 유형을 나타냅니다 PresentedBySpeaker./presentedbyspeaker 연설자에 의해 전체 화면으로 제시됨 BrowsedByIndividual./browsedbyindividual 개인에 의해 창으로 탐색됨 BrowsedAtKiosk./browsedatkiosk 키오스크에서 전체 화면으로 탐색됨
 type: docs
-weight: 10490
+weight: 10510
 url: /ko/aspose.slides/slideshowtype/
 ---
 ## SlideShowType 클래스
 
-기본 슬라이드 쇼 설정. 조상은 슬라이드 쇼 유형을 나타냅니다: [`PresentedBySpeaker`](../presentedbyspeaker) 발표자에 의해 발표(전체 화면) [`BrowsedByIndividual`](../browsedbyindividual) 개별 사용자가 창으로 탐색 [`BrowsedAtKiosk`](../browsedatkiosk) 키오스크에서 전체 화면으로 탐색
+기본 슬라이드 쇼 설정. 조상은 슬라이드 쇼 유형을 나타냅니다: [`PresentedBySpeaker`](../presentedbyspeaker) 연설자에 의해 제시됨 (전체 화면) [`BrowsedByIndividual`](../browsedbyindividual) 개인에 의해 탐색됨 (창) [`BrowsedAtKiosk`](../browsedatkiosk) 키오스크에서 탐색됨 (전체 화면)
 
 ```csharp
 public abstract class SlideShowType
@@ -31,7 +31,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### 참고
+### 또 보기
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: IPresentationSignedWarningInfo
-second_title: Référence API Aspose.Sildes pour .NET
-description: Cette alerte indique que la présentation lue possède une signature et que cette signature sera supprimée pendant le traitement.
+second_title: Référence de l'API Aspose.Sildes pour .NET
+description: Cet avertissement indique que la présentation lue possède une signature et que cette signature sera supprimée lors du traitement.
 type: docs
-weight: 11790
+weight: 11810
 url: /fr/aspose.slides.warnings/ipresentationsignedwarninginfo/
 ---
 ## IPresentationSignedWarningInfo interface
 
-Cette alerte indique que la présentation lue possède une signature et que cette signature sera supprimée pendant le traitement.
+Cette alerte indique que la présentation lue possède une signature et que cette signature sera supprimée lors du traitement.
 
 ```csharp
 public interface IPresentationSignedWarningInfo : IWarningInfo

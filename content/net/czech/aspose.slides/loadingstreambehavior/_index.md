@@ -1,14 +1,14 @@
 ---
 title: LoadingStreamBehavior
 second_title: Aspose.Sildes pro .NET API Reference
-description: Stream předávaný metodě je považován za binární velký objekt (BLOB) – viz popis IBlobManagementOptions./iblobmanagementoptions. Hodnoty této enumerace určují, jak má být Stream při předání metodě ošetřen. V závislosti na požadavcích lze učinit různá rozhodnutí, aby se zajistilo co nejefektivnější chování.
+description: Stream předaný metodě je považován za Binární velký objekt (BLOB) viz IBlobManagementOptions./iblobmanagementoptions popis. Hodnoty tohoto výčtu určují, jak má být Stream při předání metodě zpracován. V závislosti na požadavcích lze učinit různá rozhodnutí, aby bylo zajištěno nejefektivnější chování.
 type: docs
-weight: 7850
+weight: 7870
 url: /cs/aspose.slides/loadingstreambehavior/
 ---
-## LoadingStreamBehavior enumerace
+## Výčtový typ LoadingStreamBehavior
 
-Stream předávaný metodě je považován za binární velký objekt (BLOB) (viz [`IBlobManagementOptions`](../iblobmanagementoptions) popis). Hodnoty této enumerace určují, jak má být Stream při předání metodě ošetřen. V závislosti na požadavcích lze učinit různá rozhodnutí, aby se zajistilo co nejefektivnější chování.
+Stream předaný metodě je považován za Binární velký objekt (BLOB) (viz [`IBlobManagementOptions`](../iblobmanagementoptions) popis). Hodnoty tohoto výčtu určují, jak má být Stream při předání metodě zpracován. V závislosti na požadavcích lze učinit různá rozhodnutí k zajištění nejefektivnějšího chování.
 
 ```csharp
 public enum LoadingStreamBehavior
@@ -18,8 +18,8 @@ public enum LoadingStreamBehavior
 
 | Název | Hodnota | Popis |
 | --- | --- | --- |
-| ReadStreamAndRelease | `0` | Stream bude přečten až do konce a poté uvolněn – tj. bude zajištěno, že tento stream nebude v budoucnu používán instancí [`IPresentation`](../ipresentation). Může být uzavřen klientským kódem nebo použit jakýmkoli jiným způsobem. |
-| KeepLocked | `1` | Stream bude uzamčen uvnitř objektu [`IPresentation`](../ipresentation), tj. vlastnictví streamu bude převedeno. Objekt [`IPresentation`](../ipresentation) bude zodpovědný za správné uvolnění streamu, když bude tento objekt sám uvolněn. Toto chování je mimořádně užitečné, když potřebujete serializovat velký BLOB soubor (například velké video nebo audio – viz [`IBlobManagementOptions`](../iblobmanagementoptions) popis) a chcete zabránit načítání tohoto souboru do paměti nebo jiným výkonovým problémům. Můžete jednoduše otevřít FileStream pro tento soubor a předat jej metodě s volbou KeepLocked LoadingStreamBehavior. |
+| ReadStreamAndRelease | `0` | Stream bude načten až do konce a poté uvolněn – tj. bude zaručeno, že tento Stream nebude v budoucnu používán instancí [`IPresentation`](../ipresentation). Může být uzavřen klientským kódem nebo použit jiným způsobem. |
+| KeepLocked | `1` | Stream bude uzamčen uvnitř objektu [`IPresentation`](../ipresentation), tj. vlastnictví streamu bude převedeno. Objekt [`IPresentation`](../ipresentation) bude zodpovědný za správné uvolnění streamu, když bude tento objekt sám uvolněn. Toto chování je mimořádně užitečné, když potřebujete serializovat velký soubor BLOB (např. velké video nebo audio – viz [`IBlobManagementOptions`](../iblobmanagementoptions) popis) a chcete zabránit načtení tohoto souboru do paměti či jiným výkonovým problémům. Můžete jednoduše otevřít FileStream pro tento soubor a předat jej metodě, přičemž zvolíte KeepLocked LoadingStreamBehavior. |
 
 ### Viz také
 

@@ -1,14 +1,14 @@
 ---
 title: Orientation
-second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje orientaci tvaru.
+second_title: Aspose.Sildes pro .NET referenci API
+description: Representuje orientaci tvaru.
 type: docs
-weight: 9240
+weight: 9260
 url: /cs/aspose.slides/orientation/
 ---
 ## Výčet Orientation
 
-Reprezentuje orientaci tvaru.
+Representuje orientaci tvaru.
 
 ```csharp
 public enum Orientation : sbyte
@@ -18,8 +18,8 @@ public enum Orientation : sbyte
 
 | Název | Hodnota | Popis |
 | --- | --- | --- |
-| Horizontal | `0` | Horizontal. |
-| Vertical | `1` | Vertical. |
+| Horizontal | `0` | Horizontální. |
+| Vertical | `1` | Vertikální. |
 
 ### Viz také
 

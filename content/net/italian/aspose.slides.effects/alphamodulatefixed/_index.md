@@ -1,14 +1,14 @@
 ---
 title: AlphaModulateFixed
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Rappresenta un effetto Alpha Modulate Fixed. I valori di opacità alpha dell'effetto sono moltiplicati per una percentuale fissa.
+second_title: Aspose.Sildes per il riferimento API .NET
+description: Rappresenta un effetto Alpha Modulate Fixed. I valori di opacità alpha dell'effetto vengono moltiplicati per una percentuale fissa.
 type: docs
-weight: 2890
+weight: 2910
 url: /it/aspose.slides.effects/alphamodulatefixed/
 ---
 ## AlphaModulateFixed classe
 
-Rappresenta un effetto Alpha Modulate Fixed. I valori di alfa (opacità) dell'effetto sono moltiplicati per una percentuale fissa.
+Rappresenta un effetto Alpha Modulate Fixed. I valori alpha (opacità) dell'effetto vengono moltiplicati per una percentuale fissa.
 
 ```csharp
 public sealed class AlphaModulateFixed : ImageTransformOperation, IAlphaModulateFixed
@@ -16,16 +16,16 @@ public sealed class AlphaModulateFixed : ImageTransformOperation, IAlphaModulate
 
 ## Proprietà
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
-| [Amount](../../aspose.slides.effects/alphamodulatefixed/amount) { get; set; } | Restituisce una quantità dell'effetto in percentuale. Lettura/scrittura Single. |
+| [Amount](../../aspose.slides.effects/alphamodulatefixed/amount) { get; set; } | Restituisce una quantità di effetto in percentuale. Lettura/Scrittura Single. |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Consente di ottenere l'interfaccia base IPresentationComponent. Sola lettura [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Metodi
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/alphamodulatefixed/equals)(object) | Determina se il [`AlphaModulateFixed`](../alphamodulatefixed) specificato è uguale al corrente [`AlphaModulateFixed`](../alphamodulatefixed). |
+| override [Equals](../../aspose.slides.effects/alphamodulatefixed/equals)(object) | Determina se il [`AlphaModulateFixed`](../alphamodulatefixed) specificato è uguale al [`AlphaModulateFixed`](../alphamodulatefixed) corrente. |
 | [GetEffective](../../aspose.slides.effects/alphamodulatefixed/geteffective)() | Ottiene i dati effettivi dell'effetto Alpha Modulate Fixed con l'ereditarietà applicata. |
 | override [GetHashCode](../../aspose.slides.effects/alphamodulatefixed/gethashcode)() | Funge da funzione hash per un tipo particolare. |
 

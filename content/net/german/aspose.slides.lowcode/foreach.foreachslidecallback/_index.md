@@ -3,10 +3,10 @@ title: ForEach.ForEachSlideCallback
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Callback, der für jede Slide./foreach/slide in der Presentation../aspose.slides/presentation aufgerufen wird.
 type: docs
-weight: 7960
+weight: 7980
 url: /de/aspose.slides.lowcode/foreach.foreachslidecallback/
 ---
-## ForEach.ForEachSlideCallback Delegat
+## ForEach.ForEachSlideCallback delegate
 
 Callback, der für jedes [`Slide`](../foreach/slide) in der [`Presentation`](../../aspose.slides/presentation) aufgerufen wird.
 

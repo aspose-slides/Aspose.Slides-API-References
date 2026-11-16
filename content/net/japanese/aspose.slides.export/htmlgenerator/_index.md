@@ -1,14 +1,14 @@
 ---
 title: HtmlGenerator
-second_title: Aspose.Sildes の .NET API リファレンス
-description: HTML ジェネレータ。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: HTMLジェネレータ。
 type: docs
-weight: 3880
+weight: 3900
 url: /ja/aspose.slides.export/htmlgenerator/
 ---
 ## HtmlGenerator クラス
 
-HTML ジェネレータ。
+HTMLジェネレータ。
 
 ```csharp
 public sealed class HtmlGenerator : IHtmlGenerator
@@ -18,26 +18,26 @@ public sealed class HtmlGenerator : IHtmlGenerator
 
 | 名前 | 説明 |
 | --- | --- |
-| [NextSlideIndex](../../aspose.slides.export/htmlgenerator/nextslideindex) { get; } | 現在のスライドの後にレンダリングされるスライドのインデックス、または最後のスライドをレンダリング中の場合は -1 を返します。読み取り専用 Int32。 |
-| [PreviousSlideIndex](../../aspose.slides.export/htmlgenerator/previousslideindex) { get; } | 前にレンダリングされたスライドのインデックス、または最初のスライドをレンダリング中の場合は -1 を返します。読み取り専用 Int32。 |
+| [NextSlideIndex](../../aspose.slides.export/htmlgenerator/nextslideindex) { get; } | 現在のスライドの後にレンダリングされるスライドのインデックス、または現在最後のスライドをレンダリング中の場合は -1 を返します。読み取り専用 Int32。 |
+| [PreviousSlideIndex](../../aspose.slides.export/htmlgenerator/previousslideindex) { get; } | 前にレンダリングされたスライドのインデックス、または最初のスライドがレンダリング中の場合は -1 を返します。読み取り専用 Int32。 |
 | [SlideImageSize](../../aspose.slides.export/htmlgenerator/slideimagesize) { get; } | スライド画像のサイズを返します。読み取り専用 SizeF。 |
-| [SlideImageSizeUnit](../../aspose.slides.export/htmlgenerator/slideimagesizeunit) { get; } | スライド画像サイズが指定される単位を返します。読み取り専用 [`SvgCoordinateUnit`](../svgcoordinateunit)。 |
-| [SlideImageSizeUnitCode](../../aspose.slides.export/htmlgenerator/slideimagesizeunitcode) { get; } | スライド画像サイズが指定される単位の CSS コードを返します。読み取り専用 String。 |
+| [SlideImageSizeUnit](../../aspose.slides.export/htmlgenerator/slideimagesizeunit) { get; } | スライド画像サイズが指定されている単位を返します。読み取り専用 [`SvgCoordinateUnit`](../svgcoordinateunit)。 |
+| [SlideImageSizeUnitCode](../../aspose.slides.export/htmlgenerator/slideimagesizeunitcode) { get; } | スライド画像サイズが指定されている単位の CSS コードを返します。読み取り専用 String。 |
 | [SlideIndex](../../aspose.slides.export/htmlgenerator/slideindex) { get; } | 現在レンダリング中のスライドのインデックスを返します。読み取り専用 Int32。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue)(char[]) | 属性値をクオートし、HTML ファイルに追加します。 |
-| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue_2)(string) | 属性値をクオートし、HTML ファイルに追加します。 |
-| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue_1)(char[], int, int) | 属性値をクオートし、HTML ファイルに追加します。 |
-| [AddHtml](../../aspose.slides.export/htmlgenerator/addhtml#addhtml)(char[]) | フォーマットされた HTML テキストを追加します。 |
-| [AddHtml](../../aspose.slides.export/htmlgenerator/addhtml#addhtml_2)(string) | フォーマットされた HTML テキストを追加します。 |
-| [AddHtml](../../aspose.slides.export/htmlgenerator/addhtml#addhtml_1)(char[], int, int) | フォーマットされた HTML テキストを追加します。 |
-| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext)(char[]) | HTML ファイルにプレーンテキストを追加し、特殊文字を HTML エンティティに置き換えます。改行と空白は置き換えられません。 |
-| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext_2)(string) | HTML ファイルにプレーンテキストを追加し、特殊文字を HTML エンティティに置き換えます。改行と空白は置き換えられません。 |
-| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext_1)(char[], int, int) | HTML ファイルにプレーンテキストを追加し、特殊文字を HTML エンティティに置き換えます。改行と空白は置き換えられません。 |
+| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue)(char[]) | 属性値を引用し、HTMLファイルに追加します。 |
+| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue_2)(string) | 属性値を引用し、HTMLファイルに追加します。 |
+| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue_1)(char[], int, int) | 属性値を引用し、HTMLファイルに追加します。 |
+| [AddHtml](../../aspose.slides.export/htmlgenerator/addhtml#addhtml)(char[]) | 書式設定されたHTMLテキストを追加します。 |
+| [AddHtml](../../aspose.slides.export/htmlgenerator/addhtml#addhtml_2)(string) | 書式設定されたHTMLテキストを追加します。 |
+| [AddHtml](../../aspose.slides.export/htmlgenerator/addhtml#addhtml_1)(char[], int, int) | 書式設定されたHTMLテキストを追加します。 |
+| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext)(char[]) | HTMLファイルにプレーンテキストを追加し、特殊文字をHTMLエンティティに置き換えます。改行や空白は置き換えられません。 |
+| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext_2)(string) | HTMLファイルにプレーンテキストを追加し、特殊文字をHTMLエンティティに置き換えます。改行や空白は置き換えられません。 |
+| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext_1)(char[], int, int) | HTMLファイルにプレーンテキストを追加し、特殊文字をHTMLエンティティに置き換えます。改行や空白は置き換えられません。 |
 
 ### 参照
 

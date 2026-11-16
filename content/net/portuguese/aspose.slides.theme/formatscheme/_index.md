@@ -1,9 +1,9 @@
 ---
 title: FormatScheme
-second_title: Referência da API Aspose.Sildes for .NET
+second_title: Referência da API Aspose.Sildes para .NET
 description: Armazena formatos definidos pelo tema para as formas.
 type: docs
-weight: 11140
+weight: 11160
 url: /pt/aspose.slides.theme/formatscheme/
 ---
 ## FormatScheme classe
@@ -25,7 +25,7 @@ public class FormatScheme : IFormatScheme
 | [Presentation](../../aspose.slides.theme/formatscheme/presentation) { get; } | Retorna a apresentação pai. Somente leitura [`IPresentation`](../../aspose.slides/ipresentation). |
 | [Slide](../../aspose.slides.theme/formatscheme/slide) { get; } | Retorna o slide pai. Somente leitura [`IBaseSlide`](../../aspose.slides/ibaseslide). |
 
-### Veja Também
+### Ver também
 
 * interface [IFormatScheme](../iformatscheme)
 * espaço de nomes [Aspose.Slides.Theme](../../aspose.slides.theme)

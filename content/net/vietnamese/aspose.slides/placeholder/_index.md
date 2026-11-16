@@ -1,14 +1,14 @@
 ---
 title: Placeholder
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Biểu diễn một trình giữ chỗ trên một slide.
+second_title: Aspose.Sildes cho .NET Tham chiếu API
+description: Đại diện cho một trình giữ chỗ trên một slide.
 type: docs
-weight: 9430
+weight: 9450
 url: /vi/aspose.slides/placeholder/
 ---
 ## Lớp Placeholder
 
-Biểu diễn một trình giữ chỗ trên một slide.
+Đại diện cho một trình giữ chỗ trên một slide.
 
 ```csharp
 public class Placeholder : IPlaceholder
@@ -23,7 +23,7 @@ public class Placeholder : IPlaceholder
 | [Size](../../aspose.slides/placeholder/size) { get; } | Lấy hoặc đặt kích thước của một trình giữ chỗ. Chỉ đọc [`PlaceholderSize`](../placeholdersize). |
 | [Type](../../aspose.slides/placeholder/type) { get; } | Lấy hoặc đặt loại của một trình giữ chỗ. Chỉ đọc [`PlaceholderType`](../placeholdertype). |
 
-### Xem Thêm
+### Xem thêm
 
 * giao diện [IPlaceholder](../iplaceholder)
 * không gian tên [Aspose.Slides](../../aspose.slides)

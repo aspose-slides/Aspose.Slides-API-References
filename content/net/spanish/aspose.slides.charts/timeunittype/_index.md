@@ -1,14 +1,14 @@
 ---
 title: TimeUnitType
-second_title: Aspose.Sildes para la referencia de API de .NET
-description: Representa la unidad base para el eje de categorías
+second_title: Referencia de API de Aspose.Sildes para .NET
+description: Representa la unidad base para el eje de categoría
 type: docs
-weight: 2460
+weight: 2480
 url: /es/aspose.slides.charts/timeunittype/
 ---
-## enumeración TimeUnitType
+## TimeUnitType enumeración
 
-Representa la unidad base para el eje de categorías
+Representa la unidad base para el eje de categoría
 
 ```csharp
 public enum TimeUnitType

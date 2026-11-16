@@ -1,14 +1,14 @@
 ---
 title: MathFunctionsOfOneArgument
-second_title: Aspose.Sildes voor .NET API-referentie
-description: Algemene wiskundige functies met één argument
+second_title: Aspose.Sildes voor .NET API Referentie
+description: Gemeenschappelijke wiskundige functies van één argument
 type: docs
-weight: 8740
+weight: 8760
 url: /nl/aspose.slides.mathtext/mathfunctionsofoneargument/
 ---
 ## MathFunctionsOfOneArgument enumeratie
 
-Algemene wiskundige functies met één argument
+Gemeenschappelijke wiskundige functies van één argument
 
 ```csharp
 public enum MathFunctionsOfOneArgument
@@ -20,14 +20,14 @@ public enum MathFunctionsOfOneArgument
 | --- | --- | --- |
 | Sin | `0` | Sinus |
 | Cos | `1` | Cosinus |
-| Tan | `2` | Tangens |
-| Csc | `3` | Co secans |
+| Tan | `2` | Tangent |
+| Csc | `3` | Cosecans |
 | Sec | `4` | Secans |
 | Cot | `5` | Cotangens |
 | HyperbolicSin | `6` | Hyperbolische sinus |
 | HyperbolicCos | `7` | Hyperbolische cosinus |
 | HyperbolicTan | `8` | Hyperbolische tangens |
-| HyperbolicCsc | `9` | Hyperbolische co secans |
+| HyperbolicCsc | `9` | Hyperbolische cosecans |
 | HyperbolicSec | `10` | Hyperbolische secans |
 | HyperbolicCot | `11` | Hyperbolische cotangens |
 | Lg | `12` | Decimale logaritme |
@@ -35,15 +35,15 @@ public enum MathFunctionsOfOneArgument
 | ArcSin | `14` | Arcsinus |
 | ArcCos | `15` | Arccosinus |
 | ArcTan | `16` | Arctangens |
-| ArcCsc | `17` | Arcco secans |
+| ArcCsc | `17` | Arccosecans |
 | ArcSec | `18` | Arcsecans |
-| ArcCot | `19` | Arcotangens |
+| ArcCot | `19` | Arccotangens |
 | HyperbolicArcSin | `20` | Hyperbolische arcsinus |
 | HyperbolicArcCos | `21` | Hyperbolische arccosinus |
 | HyperbolicArcTan | `22` | Hyperbolische arctangens |
-| HyperbolicArcCsc | `23` | Hyperbolische arcco secans |
+| HyperbolicArcCsc | `23` | Hyperbolische arccosecans |
 | HyperbolicArcSec | `24` | Hyperbolische arcsecans |
-| HyperbolicArcCot | `25` | Hyperbolische arcotangens |
+| HyperbolicArcCot | `25` | Hyperbolische arccotangens |
 
 ### Zie ook
 

@@ -1,14 +1,14 @@
 ---
 title: IThreeDFormatEffectiveData
-second_title: Aspose.Sildes dla .NET Referencja API
-description: Niezmienny obiekt, który reprezentuje skuteczne właściwości formatowania 3-D.
+second_title: Aspose.Sildes dla .NET API Reference
+description: Niezmienny obiekt, który reprezentuje efektywne właściwości formatowania 3-D.
 type: docs
-weight: 7340
+weight: 7360
 url: /pl/aspose.slides/ithreedformateffectivedata/
 ---
-## Interfejs IThreeDFormatEffectiveData
+## interfejs IThreeDFormatEffectiveData
 
-Niezmienny obiekt reprezentujący skuteczne właściwości formatowania 3-D.
+Niezmienny obiekt, który reprezentuje efektywne właściwości formatowania 3-D.
 
 ```csharp
 public interface IThreeDFormatEffectiveData : IThreeDParamSource
@@ -19,20 +19,20 @@ public interface IThreeDFormatEffectiveData : IThreeDParamSource
 | Nazwa | Opis |
 | --- | --- |
 | [AsIThreeDParamSource](../../aspose.slides/ithreedformateffectivedata/asithreedparamsource) { get; } | Umożliwia pobranie podstawowego interfejsu IThreeDParamSource. Tylko do odczytu [`IThreeDParamSource`](../ithreedparamsource). |
-| [BevelBottom](../../aspose.slides/ithreedformateffectivedata/bevelbottom) { get; } | Zwraca typ dolnego wycięcia 3D. Tylko do odczytu [`IShapeBevelEffectiveData`](../ishapebeveleffectivedata). |
-| [BevelTop](../../aspose.slides/ithreedformateffectivedata/beveltop) { get; } | Zwraca typ górnego wycięcia 3D. Tylko do odczytu [`IShapeBevelEffectiveData`](../ishapebeveleffectivedata). |
+| [BevelBottom](../../aspose.slides/ithreedformateffectivedata/bevelbottom) { get; } | Zwraca typ dolnego 3-D fazetu. Tylko do odczytu [`IShapeBevelEffectiveData`](../ishapebeveleffectivedata). |
+| [BevelTop](../../aspose.slides/ithreedformateffectivedata/beveltop) { get; } | Zwraca typ górnego 3-D fazetu. Tylko do odczytu [`IShapeBevelEffectiveData`](../ishapebeveleffectivedata). |
 | [Camera](../../aspose.slides/ithreedformateffectivedata/camera) { get; } | Zwraca ustawienia kamery. Tylko do odczytu [`ICameraEffectiveData`](../icameraeffectivedata). |
 | [ContourColor](../../aspose.slides/ithreedformateffectivedata/contourcolor) { get; } | Zwraca kolor konturu. Tylko do odczytu Color. |
-| [ContourWidth](../../aspose.slides/ithreedformateffectivedata/contourwidth) { get; } | Zwraca szerokość konturu 3D. Tylko do odczytu Double. |
-| [Depth](../../aspose.slides/ithreedformateffectivedata/depth) { get; } | Zwraca głębokość kształtu 3D. Tylko do odczytu Double. |
-| [ExtrusionColor](../../aspose.slides/ithreedformateffectivedata/extrusioncolor) { get; } | Zwraca kolor ekstruzji. Tylko do odczytu Color. |
-| [ExtrusionHeight](../../aspose.slides/ithreedformateffectivedata/extrusionheight) { get; } | Zwraca wysokość efektu ekstruzji. Tylko do odczytu Double. |
+| [ContourWidth](../../aspose.slides/ithreedformateffectivedata/contourwidth) { get; } | Zwraca szerokość konturu 3-D. Tylko do odczytu Double. |
+| [Depth](../../aspose.slides/ithreedformateffectivedata/depth) { get; } | Zwraca głębokość kształtu 3-D. Tylko do odczytu Double. |
+| [ExtrusionColor](../../aspose.slides/ithreedformateffectivedata/extrusioncolor) { get; } | Zwraca kolor wyciągnięcia. Tylko do odczytu Color. |
+| [ExtrusionHeight](../../aspose.slides/ithreedformateffectivedata/extrusionheight) { get; } | Zwraca wysokość efektu wyciągnięcia. Tylko do odczytu Double. |
 | [LightRig](../../aspose.slides/ithreedformateffectivedata/lightrig) { get; } | Zwraca typ światła. Tylko do odczytu [`ILightRigEffectiveData`](../ilightrigeffectivedata). |
 | [Material](../../aspose.slides/ithreedformateffectivedata/material) { get; } | Zwraca typ materiału. Tylko do odczytu [`MaterialPresetType`](../materialpresettype). |
 
 ### Uwagi
 
-Ten interfejs jest używany razem z interfejsem [`IThreeDFormat`](../ithreedformat) aby zwrócić skuteczne wartości formatowania z zastosowanym dziedziczeniem.
+Ten interfejs jest używany razem z interfejsem [`IThreeDFormat`](../ithreedformat), aby zwrócić efektywne wartości formatowania z zastosowanym dziedziczeniem.
 
 ### Zobacz także
 

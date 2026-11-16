@@ -1,9 +1,9 @@
 ---
 title: IControlCollection
-second_title: Referencia de la API de Aspose.Sildes para .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Una colección de controles ActiveX.
 type: docs
-weight: 5640
+weight: 5660
 url: /es/aspose.slides/icontrolcollection/
 ---
 ## IControlCollection interfaz

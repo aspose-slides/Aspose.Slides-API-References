@@ -1,14 +1,14 @@
 ---
 title: GradientShape
-second_title: Tham khảo API Aspose.Sildes cho .NET
-description: Biểu diễn hình dạng của gradient fill.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Mô tả hình dạng của vùng tô màu gradient.
 type: docs
-weight: 5010
+weight: 5030
 url: /vi/aspose.slides/gradientshape/
 ---
-## GradientShape liệt kê
+## liệt kê GradientShape
 
-Biểu diễn hình dạng của gradient fill.
+Mô tả hình dạng của vùng tô màu gradient.
 
 ```csharp
 public enum GradientShape : sbyte

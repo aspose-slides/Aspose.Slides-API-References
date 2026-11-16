@@ -1,9 +1,9 @@
 ---
 title: EightDirectionTransition
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes for .NET API Referansı
 description: Sekiz yönlü slayt geçiş efekti.
 type: docs
-weight: 10020
+weight: 10040
 url: /tr/aspose.slides.slideshow/eightdirectiontransition/
 ---
 ## EightDirectionTransition sınıfı
@@ -16,16 +16,16 @@ public class EightDirectionTransition : TransitionValueBase, IEightDirectionTran
 
 ## Özellikler
 
-| Name | Description |
+| İsim | Açıklama |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/eightdirectiontransition/direction) { get; set; } | Geçişin yönü. Okuma/yazma [`TransitionEightDirectionType`](../transitioneightdirectiontype). |
+| [Direction](../../aspose.slides.slideshow/eightdirectiontransition/direction) { get; set; } | Geçiş yönü. Okunur/Yazılır [`TransitionEightDirectionType`](../transitioneightdirectiontype). |
 
 ## Yöntemler
 
-| Name | Description |
+| İsim | Açıklama |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | İki TransitionValueBase örneğinin eşit olup olmadığını belirler. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Belirli bir tip için bir hash işlevi olarak hizmet verir, hash tablosu gibi veri yapıları ve hashleme algoritmalarında kullanılmaya uygundur. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Belirli bir tür için hash işlevi olarak hizmet eder, hash algoritmaları ve hash tablosu gibi veri yapılarına uygundur. |
 
 ### Ayrıca Bakınız
 

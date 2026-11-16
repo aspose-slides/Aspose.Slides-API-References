@@ -1,14 +1,14 @@
 ---
 title: TextFormat
-second_title: مرجع API لـ Aspose.Sildes لـ .NET
-description: يرجع تنسيق النص. للقراءة فقط IChartTextFormataspose.slides.charts/icharttextformat.
+second_title: Aspose.Sildes لـ .NET مرجع API
+description: إرجاع تنسيق النص. للقراءة فقط IChartTextFormataspose.slides.charts/icharttextformat.
 type: docs
-weight: 120
+weight: 130
 url: /ar/aspose.slides.charts/datalabel/textformat/
 ---
 ## DataLabel.TextFormat خاصية
 
-يرجع تنسيق النص. للقراءة فقط [`IChartTextFormat`](../../icharttextformat).
+إرجاع تنسيق النص. للقراءة فقط [`IChartTextFormat`](../../icharttextformat).
 
 ```csharp
 public IChartTextFormat TextFormat { get; }

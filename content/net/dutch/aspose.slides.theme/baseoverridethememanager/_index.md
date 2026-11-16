@@ -1,14 +1,14 @@
 ---
 title: BaseOverrideThemeManager
-second_title: Aspose.Sildes voor .NET API-referentie
-description: Basisklasse voor klassen die toegang bieden tot verschillende typen overschreven thema's.
+second_title: Aspose.Sildes voor .NET API Referentie
+description: Basis klasse voor klassen die toegang bieden tot verschillende soorten overschreven thema's.
 type: docs
-weight: 11040
+weight: 11060
 url: /nl/aspose.slides.theme/baseoverridethememanager/
 ---
 ## BaseOverrideThemeManager klasse
 
-Basisklasse voor klassen die toegang bieden tot verschillende typen overschreven thema's.
+Basis klasse voor klassen die toegang bieden tot verschillende soorten overschreven thema&#39;s.
 
 ```csharp
 public abstract class BaseOverrideThemeManager : BaseThemeManager, IOverrideThemeManager
@@ -18,15 +18,15 @@ public abstract class BaseOverrideThemeManager : BaseThemeManager, IOverrideThem
 
 | Naam | Beschrijving |
 | --- | --- |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Bepaalt of OverrideTheme de geërfde effectieve theme negeert of niet. Om OverrideTheme in te schakelen voor overschrijven, gebruik de OverrideTheme.Init*() methoden. Om OverrideTheme uit te schakelen van overschrijven, gebruik de OverrideTheme.Clear() methode. Alleen-lezen Boolean. |
-| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Retourneert het overschrijvende theme-object. Lezen/Schrijven [`IOverrideTheme`](../ioverridetheme). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Bepaalt of OverrideTheme het geërfde effectieve thema overschrijft of niet. Om OverrideTheme voor overschrijven in te schakelen, gebruik OverrideTheme.Init*()-methoden. Om OverrideTheme van overschrijven uit te schakelen, gebruik OverrideTheme.Clear()-methode. Alleen-lezen Boolean. |
+| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Retourneert het overschrijvende themobject. Lezen/schrijven [`IOverrideTheme`](../ioverridetheme). |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | Past een extra kleurenpalet toe op een dia. |
-| [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | Retourneert het theme-object. |
+| [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | Past extra kleurschema toe op een dia. |
+| [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | Retourneert het themobject. |
 
 ### Zie ook
 

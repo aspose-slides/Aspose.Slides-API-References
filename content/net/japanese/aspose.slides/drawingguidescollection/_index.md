@@ -1,9 +1,9 @@
 ---
 title: DrawingGuidesCollection
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 可変可能な描画ガイドのコレクションを表します。
+description: 調整可能な描画ガイドのコレクションを表します。
 type: docs
-weight: 2820
+weight: 2840
 url: /ja/aspose.slides/drawingguidescollection/
 ---
 ## DrawingGuidesCollection クラス

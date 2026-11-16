@@ -1,23 +1,23 @@
 ---
 title: ForEach.ForEachSlideCallback
-second_title: Aspose.Sildes के लिए .NET API रेफ़रेंस
-description: प्रत्येक Slide./foreach/slide के लिए यह कॉलबैक Presentation../aspose.slides/presentation में बुलाया जाएगा।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: Callback जो प्रत्येक Slide./foreach/slide के लिए Presentation../aspose.slides/presentation में बुलाया जाएगा।
 type: docs
-weight: 7960
+weight: 7980
 url: /hi/aspose.slides.lowcode/foreach.foreachslidecallback/
 ---
 ## ForEach.ForEachSlideCallback delegate
 
-प्रत्येक [`Slide`](../foreach/slide) के लिए यह कॉलबैक [`Presentation`](../../aspose.slides/presentation) में बुलाया जाएगा।
+प्रत्येक [`Slide`](../foreach/slide) के लिए [`Presentation`](../../aspose.slides/presentation) में बुलाया जाने वाला कॉलबैक।
 
 ```csharp
 public delegate void ForEachSlideCallback(Slide slide, int index);
 ```
 
-| परामीटर | टाइप | विवरण |
+| Parameter | Type | Description |
 | --- | --- | --- |
-| slide | Slide | वर्तमान इटरित स्लाइड |
-| index | Int32 | वर्तमान स्लाइड का इंडेक्स |
+| slide | Slide | वर्तमान पुनरावृत्त स्लाइड |
+| index | Int32 | वर्तमान स्लाइड का अनुक्रमांक |
 
 ### संबंधित देखें
 

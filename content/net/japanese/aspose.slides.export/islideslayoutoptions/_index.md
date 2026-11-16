@@ -3,7 +3,7 @@ title: ISlidesLayoutOptions
 second_title: Aspose.Sildes for .NET API リファレンス
 description: エクスポート用のプレゼンテーション レイアウト モードを表します。
 type: docs
-weight: 4100
+weight: 4120
 url: /ja/aspose.slides.export/islideslayoutoptions/
 ---
 ## ISlidesLayoutOptions インターフェイス

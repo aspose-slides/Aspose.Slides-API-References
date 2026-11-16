@@ -1,9 +1,9 @@
 ---
 title: Theme
-second_title: Referencia de la API de Aspose.Sildes para .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa un tema.
 type: docs
-weight: 11480
+weight: 11500
 url: /es/aspose.slides.theme/theme/
 ---
 ## Clase Theme
@@ -27,7 +27,7 @@ public abstract class Theme : ITheme
 
 | Nombre | Descripción |
 | --- | --- |
-| [GetEffective](../../aspose.slides.theme/theme/geteffective)() | Obtiene los datos efectivos del tema con la herencia aplicada. |
+| [GetEffective](../../aspose.slides.theme/theme/geteffective)() | Obtiene los datos de tema efectivos con la herencia aplicada. |
 
 ### Ver también
 

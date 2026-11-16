@@ -1,14 +1,14 @@
 ---
 title: IObsoletePresLockingBehaviorWarningInfo
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: यह चेतावनी दर्शाती है कि एक पुरानी प्रस्तुति लॉकिंग व्यवहार का उपयोग किया गया है।
+description: यह चेतावनी दर्शाती है कि एक पुरानी प्रस्तुति लॉकिंग व्यवहार उपयोग किया जा रहा है।
 type: docs
-weight: 11780
+weight: 11800
 url: /hi/aspose.slides.warnings/iobsoletepreslockingbehaviorwarninginfo/
 ---
 ## IObsoletePresLockingBehaviorWarningInfo इंटरफ़ेस
 
-यह चेतावनी दर्शाती है कि एक पुरानी प्रस्तुति लॉकिंग व्यवहार का उपयोग किया गया है।
+यह चेतावनी दर्शाती है कि एक पुरानी प्रस्तुति लॉकिंग व्यवहार उपयोग किया जा रहा है।
 
 ```csharp
 public interface IObsoletePresLockingBehaviorWarningInfo : IWarningInfo
@@ -18,9 +18,9 @@ public interface IObsoletePresLockingBehaviorWarningInfo : IWarningInfo
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIWarningInfo](../../aspose.slides.warnings/iobsoletepreslockingbehaviorwarninginfo/asiwarninginfo) { get; } | IWarningInfo इंटरफ़ेस को वापस देता है। केवल पढ़ने योग्य [`IWarningInfo`](../iwarninginfo)। |
+| [AsIWarningInfo](../../aspose.slides.warnings/iobsoletepreslockingbehaviorwarninginfo/asiwarninginfo) { get; } | IWarningInfo इंटरफ़ेस लौटाता है। केवल-पढ़ने योग्य [`IWarningInfo`](../iwarninginfo)। |
 
-### देखें
+### संबंधित
 
 * इंटरफ़ेस [IWarningInfo](../iwarninginfo)
 * नामस्थान [Aspose.Slides.Warnings](../../aspose.slides.warnings)

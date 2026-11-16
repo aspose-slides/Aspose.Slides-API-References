@@ -3,10 +3,10 @@ title: SlideShowTransition
 second_title: Aspose.Sildes for .NET API संदर्भ
 description: स्लाइड शो ट्रांज़िशन का प्रतिनिधित्व करता है।
 type: docs
-weight: 10320
+weight: 10340
 url: /hi/aspose.slides.slideshow/slideshowtransition/
 ---
-## SlideShowTransition वर्ग
+## SlideShowTransition क्लास
 
 स्लाइड शो ट्रांज़िशन का प्रतिनिधित्व करता है।
 
@@ -14,34 +14,34 @@ url: /hi/aspose.slides.slideshow/slideshowtransition/
 public class SlideShowTransition : DomObject<BaseSlide>, ISlideShowTransition
 ```
 
-## Properties
+## गुण
 
 | नाम | विवरण |
 | --- | --- |
-| [AdvanceAfter](../../aspose.slides.slideshow/slideshowtransition/advanceafter) { get; set; } | यह गुण यह निर्दिष्ट करता है कि स्लाइडशो निर्धारित समय के बाद अगले स्लाइड पर जाएगा या नहीं। पढ़ने/लिखने योग्य Boolean. |
-| [AdvanceAfterTime](../../aspose.slides.slideshow/slideshowtransition/advanceaftertime) { get; set; } | ट्रांज़िशन के शुरू होने के बाद मिलिसेकंड में समय निर्दिष्ट करता है। यह सेटिंग advClick गुण के साथ उपयोग की जा सकती है। यदि यह गुण निर्दिष्ट नहीं किया गया है तो यह माना जाता है कि कोई स्वतः-आगे नहीं बढ़ेगा। पढ़ने/लिखने योग्य UInt32. |
-| [AdvanceOnClick](../../aspose.slides.slideshow/slideshowtransition/advanceonclick) { get; set; } | यह निर्दिष्ट करता है कि माउस क्लिक स्लाइड को आगे बढ़ाएगा या नहीं। यदि यह गुण निर्दिष्ट नहीं किया गया है तो true मान माना जाता है। पढ़ने/लिखने योग्य Boolean. |
-| [Duration](../../aspose.slides.slideshow/slideshowtransition/duration) { get; set; } | स्लाइड ट्रांज़िशन प्रभाव की अवधि को मिलिसेकंड में प्राप्त या सेट करता है। पढ़ने/लिखने योग्य Int32. |
-| [Sound](../../aspose.slides.slideshow/slideshowtransition/sound) { get; set; } | एंबेडेड ऑडियो डेटा को प्राप्त या सेट करता है। पढ़ने/लिखने योग्य [`IAudio`](../../aspose.slides/iaudio). |
-| [SoundIsBuiltIn](../../aspose.slides.slideshow/slideshowtransition/soundisbuiltin) { get; set; } | निर्दिष्ट करता है कि यह ध्वनि बिल्ट-इन ध्वनि है या नहीं। यदि यह गुण true पर सेट किया गया है तो उत्पन्न करने वाला एप्लिकेशन इस ध्वनि के लिए निर्दिष्ट name गुण की उसकी बिल्ट-इन ध्वनियों की सूची में जाँच करने के लिए सतर्क किया जाता है और फिर आवश्यकतानुसार कस्टम नाम या UI प्रदर्शित कर सकता है। पढ़ने/लिखने योग्य Boolean. |
-| [SoundLoop](../../aspose.slides.slideshow/slideshowtransition/soundloop) { get; set; } | यह गुण यह निर्दिष्ट करता है कि ध्वनि स्लाइडशो में अगले ध्वनि इवेंट तक लूप करेगा या नहीं। पढ़ने/लिखने योग्य Boolean. |
-| [SoundMode](../../aspose.slides.slideshow/slideshowtransition/soundmode) { get; set; } | स्लाइड ट्रांज़िशन के लिए ध्वनि मोड सेट या प्राप्त करता है। पढ़ने/लिखने योग्य [`TransitionSoundMode`](../transitionsoundmode). |
-| [SoundName](../../aspose.slides.slideshow/slideshowtransition/soundname) { get; set; } | ट्रांज़िशन की ध्वनि के लिए मानवीय पठनीय नाम निर्दिष्ट करता है। ध्वनि नाम प्राप्त या सेट करने के लिए [`Sound`](./sound) गुण को असाइन करना आवश्यक है। पढ़ने/लिखने योग्य String. |
-| [Speed](../../aspose.slides.slideshow/slideshowtransition/speed) { get; set; } | वर्तमान स्लाइड से अगले स्लाइड में ट्रांज़िशन के दौरान उपयोग की जाने वाली ट्रांज़िशन गति निर्धारित करता है। पढ़ने/लिखने योग्य [`TransitionSpeed`](../transitionspeed). |
-| [Type](../../aspose.slides.slideshow/slideshowtransition/type) { get; set; } | ट्रांज़िशन का प्रकार। पढ़ने/लिखने योग्य [`TransitionType`](../transitiontype). |
+| [AdvanceAfter](../../aspose.slides.slideshow/slideshowtransition/advanceafter) { get; set; } | यह विशेषता निर्धारित करती है कि क्या स्लाइडशो किसी निश्चित समय के बाद अगली स्लाइड पर जाएगा। पढ़ें/लिखें Boolean. |
+| [AdvanceAfterTime](../../aspose.slides.slideshow/slideshowtransition/advanceaftertime) { get; set; } | ट्रांज़िशन शुरू होने के बाद का समय, मिलिसेकंड में, निर्दिष्ट करता है। यह सेटिंग advClick विशेषता के साथ उपयोग की जा सकती है। यदि यह विशेषता निर्दिष्ट नहीं की गई तो यह माना जाता है कि कोई स्वतः आगे बढ़ना नहीं होगा। पढ़ें/लिखें UInt32. |
+| [AdvanceOnClick](../../aspose.slides.slideshow/slideshowtransition/advanceonclick) { get; set; } | निर्धारित करता है कि क्या माउस क्लिक स्लाइड को आगे बढ़ाएगा या नहीं। यदि यह विशेषता निर्दिष्ट नहीं की गई तो true मान माना जाएगा। पढ़ें/लिखें Boolean. |
+| [Duration](../../aspose.slides.slideshow/slideshowtransition/duration) { get; set; } | स्लाइड ट्रांज़िशन प्रभाव की अवधि मिलिसेकंड में प्राप्त या सेट करता है। पढ़ें/लिखें Int32. |
+| [Sound](../../aspose.slides.slideshow/slideshowtransition/sound) { get; set; } | एंबेडेड ऑडियो डेटा को प्राप्त या सेट करता है। पढ़ें/लिखें [`IAudio`](../../aspose.slides/iaudio). |
+| [SoundIsBuiltIn](../../aspose.slides.slideshow/slideshowtransition/soundisbuiltin) { get; set; } | निर्धारित करता है कि यह ध्वनि बिल्ट-इन ध्वनि है या नहीं। यदि यह विशेषता true पर सेट की गई है तो जेनरेटिंग एप्लिकेशन को सूचित किया जाता है कि वह इस ध्वनि के लिए निर्दिष्ट नाम विशेषता को बिल्ट-इन ध्वनियों की सूची में जांचे और आवश्यकतानुसार एक कस्टम नाम या UI प्रदर्शित कर सके। पढ़ें/लिखें Boolean. |
+| [SoundLoop](../../aspose.slides.slideshow/slideshowtransition/soundloop) { get; set; } | यह विशेषता निर्धारित करती है कि ध्वनि स्लाइडशो में अगले साउंड इवेंट के होने तक लूप करेगी या नहीं। पढ़ें/लिखें Boolean. |
+| [SoundMode](../../aspose.slides.slideshow/slideshowtransition/soundmode) { get; set; } | स्लाइड ट्रांज़िशन के लिए साउंड मोड सेट या प्राप्त करता है। पढ़ें/लिखें [`TransitionSoundMode`](../transitionsoundmode). |
+| [SoundName](../../aspose.slides.slideshow/slideshowtransition/soundname) { get; set; } | ट्रांज़िशन की ध्वनि के लिए एक मानव-पढ़ने योग्य नाम निर्दिष्ट करता है। ध्वनि नाम प्राप्त या सेट करने के लिए [`Sound`](./sound) प्रॉपर्टी को असाइन किया जाना चाहिए। पढ़ें/लिखें String. |
+| [Speed](../../aspose.slides.slideshow/slideshowtransition/speed) { get; set; } | वर्तमान स्लाइड से अगली स्लाइड में ट्रांज़िशन करते समय उपयोग की जाने वाली ट्रांज़िशन गति निर्दिष्ट करता है। पढ़ें/लिखें [`TransitionSpeed`](../transitionspeed). |
+| [Type](../../aspose.slides.slideshow/slideshowtransition/type) { get; set; } | ट्रांज़िशन का प्रकार। पढ़ें/लिखें [`TransitionType`](../transitiontype). |
 | [Value](../../aspose.slides.slideshow/slideshowtransition/value) { get; } | स्लाइडशो ट्रांज़िशन मान। केवल पढ़ने योग्य [`ITransitionValueBase`](../itransitionvaluebase). |
 
-## Methods
+## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/slideshowtransition/equals)(object) | निर्धारित करता है कि दो SlideShowTransition इंस्टेंस समान हैं या नहीं। पढ़ने/लिखने योग्य Boolean. |
-| override [GetHashCode](../../aspose.slides.slideshow/slideshowtransition/gethashcode)() | किसी विशेष प्रकार के लिए हैश फ़ंक्शन के रूप में कार्य करता है, जो हैशिंग एल्गोरिदम और डेटा संरचनाओं जैसे हैश टेबल में उपयोग के लिए उपयुक्त है। |
+| override [Equals](../../aspose.slides.slideshow/slideshowtransition/equals)(object) | निर्धारित करता है कि दो SlideShowTransition उदाहरण बराबर हैं या नहीं। पढ़ें/लिखें Boolean. |
+| override [GetHashCode](../../aspose.slides.slideshow/slideshowtransition/gethashcode)() | विशिष्ट प्रकार के लिए हैश फ़ंक्शन के रूप में कार्य करता है, जो हैशिंग एल्गोरिदम और हैश तालिका जैसी डेटा संरचनाओं में उपयोग के लिए उपयुक्त है। |
 
-### और देखें
+### संदर्भ
 
-* वर्ग [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
-* वर्ग [BaseSlide](../../aspose.slides/baseslide)
+* क्लास [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
+* क्लास [BaseSlide](../../aspose.slides/baseslide)
 * इंटरफ़ेस [ISlideShowTransition](../../aspose.slides/islideshowtransition)
 * नामस्थान [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * असेंबली [Aspose.Slides](../../)

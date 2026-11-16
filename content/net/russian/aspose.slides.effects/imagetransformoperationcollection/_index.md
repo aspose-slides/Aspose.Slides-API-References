@@ -1,14 +1,14 @@
 ---
 title: ImageTransformOperationCollection
-second_title: Aspose.Sildes для .NET API справка
+second_title: Aspose.Sildes для .NET справочник API
 description: Представляет коллекцию эффектов, применяемых к изображению.
 type: docs
-weight: 3580
+weight: 3600
 url: /ru/aspose.slides.effects/imagetransformoperationcollection/
 ---
 ## ImageTransformOperationCollection класс
 
-Представляет коллекцию эффектов, применяемых к изображению.
+Represents a collection of effects apllied to an image.
 
 ```csharp
 public sealed class ImageTransformOperationCollection : PVIObject, 
@@ -45,18 +45,18 @@ public sealed class ImageTransformOperationCollection : PVIObject,
 | [AddFillOverlayEffect](../../aspose.slides.effects/imagetransformoperationcollection/addfilloverlayeffect)() | Добавляет новый эффект Fill Overlay в конец коллекции. |
 | [AddGrayScaleEffect](../../aspose.slides.effects/imagetransformoperationcollection/addgrayscaleeffect)() | Добавляет новый эффект Gray Scale в конец коллекции. |
 | [AddHSLEffect](../../aspose.slides.effects/imagetransformoperationcollection/addhsleffect)(float, float, float) | Добавляет новый эффект Hue/Saturation/Luminance в конец коллекции. |
-| [AddLuminanceEffect](../../aspose.slides.effects/imagetransformoperationcollection/addluminanceeffect)(float, float) | Добавляет новый эффект Luminance в конец коллекции. |
-| [AddTintEffect](../../aspose.slides.effects/imagetransformoperationcollection/addtinteffect)(float, float) | Добавляет новый эффект Tint в конец коллекции. |
+| [AddLuminanceEffect](../../aspose.slides.effects/imagetransformoperationcollection/addluminanceeffect)(float, float) | Adds the new Luminance effect to the end of a collection. |
+| [AddTintEffect](../../aspose.slides.effects/imagetransformoperationcollection/addtinteffect)(float, float) | Adds the new Tint effect to the end of a collection. |
 | [Clear](../../aspose.slides.effects/imagetransformoperationcollection/clear)() | Удаляет все эффекты изображения из коллекции. |
 | [Contains](../../aspose.slides.effects/imagetransformoperationcollection/contains)(IImageTransformOperation) | Определяет, содержит ли ICollection конкретное значение. |
-| [CopyTo](../../aspose.slides.effects/imagetransformoperationcollection/copyto)(IImageTransformOperation[], int) | Копирует элементы ICollection в Array, начиная с определенного индекса массива. |
+| [CopyTo](../../aspose.slides.effects/imagetransformoperationcollection/copyto)(IImageTransformOperation[], int) | Копирует элементы ICollection в Array, начиная с указанного индекса массива. |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Сравнивает с указанным объектом. |
 | [GetEnumerator](../../aspose.slides.effects/imagetransformoperationcollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Возвращает код хэша. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Возвращает хеш-код. |
 | [Remove](../../aspose.slides.effects/imagetransformoperationcollection/remove)(IImageTransformOperation) | Удаляет первое вхождение конкретного объекта из ICollection. |
 | [RemoveAt](../../aspose.slides.effects/imagetransformoperationcollection/removeat)(int) | Удаляет эффект изображения из коллекции по указанному индексу. |
 
-### См. также
+### Смотрите также
 
 * класс [PVIObject](../../aspose.slides/pviobject)
 * интерфейс [IImageTransformOperationCollection](../iimagetransformoperationcollection)

@@ -3,7 +3,7 @@ title: PresetColor
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt vordefinierte Farbvoreinstellungen dar.
 type: docs
-weight: 9660
+weight: 9680
 url: /de/aspose.slides/presetcolor/
 ---
 ## PresetColor Aufzählung
@@ -18,7 +18,7 @@ public enum PresetColor
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| NotDefined | `-1` | Farbvoreinstellung ist nicht definiert. |
+| NotDefined | `-1` | Farbenvoreinstellung ist nicht definiert. |
 | AliceBlue | `0` |  |
 | AntiqueWhite | `1` |  |
 | Aqua | `2` |  |

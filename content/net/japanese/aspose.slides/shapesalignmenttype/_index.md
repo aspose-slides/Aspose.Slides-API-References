@@ -1,21 +1,20 @@
 ---
 title: ShapesAlignmentType
 second_title: Aspose.Sildes for .NET API リファレンス
-description: スライド上の選択された図形の配置を変更する方法を定義します。
+description: スライド上の選択されたシェイプの配置を変更する方法を定義します。
 type: docs
-weight: 9940
+weight: 9960
 url: /ja/aspose.slides/shapesalignmenttype/
 ---
+## ShapesAlignmentType 列挙型
 
-## ShapesAlignmentType 列挙体
-
-スライド上の選択された図形の配置を変更する方法を定義します。
+スライド上の選択されたシェイプの配置を変更する方法を定義します。
 
 ```csharp
 public enum ShapesAlignmentType
 ```
 
-### 値
+### Values
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
@@ -23,12 +22,12 @@ public enum ShapesAlignmentType
 | AlignRight | `1` | 右揃え |
 | AlignCenter | `2` | 中央揃え |
 | AlignTop | `3` | 上揃え |
-| AlignMiddle | `4` | 中揃え |
+| AlignMiddle | `4` | 中央揃え |
 | AlignBottom | `5` | 下揃え |
-| DistributeHorizontally | `6` | 横方向に均等配置 |
-| DistributeVertically | `7` | 縦方向に均等配置 |
+| DistributeHorizontally | `6` | 水平に分布 |
+| DistributeVertically | `7` | 垂直に分布 |
 
-### 参照
+### See Also
 
 * 名前空間 [Aspose.Slides](../../aspose.slides)
 * アセンブリ [Aspose.Slides](../../)

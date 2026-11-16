@@ -1,14 +1,14 @@
 ---
 title: GlitterTransition
-second_title: Aspose.Sildes .NET API 참조
-description: Glitter 슬라이드 전환 효과.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 글리터 슬라이드 전환 효과.
 type: docs
-weight: 10050
+weight: 10070
 url: /ko/aspose.slides.slideshow/glittertransition/
 ---
 ## GlitterTransition 클래스
 
-Glitter 슬라이드 전환 효과.
+글리터 슬라이드 전환 효과.
 
 ```csharp
 public class GlitterTransition : TransitionValueBase, IGlitterTransition
@@ -25,8 +25,8 @@ public class GlitterTransition : TransitionValueBase, IGlitterTransition
 
 | 이름 | 설명 |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 두 TransitionValueBase 인스턴스가 같은지 여부를 확인합니다. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 특정 유형에 대한 해시 함수로 작동하며, 해시 알고리즘 및 해시 테이블과 같은 데이터 구조에서 사용하기에 적합합니다. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 두 TransitionValueBase 인스턴스가 같은지 여부를 결정합니다. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 특정 유형에 대한 해시 함수로 동작하며, 해시 알고리즘 및 해시 테이블과 같은 데이터 구조에 사용하기에 적합합니다. |
 
 ### 참조
 

@@ -1,14 +1,14 @@
 ---
 title: ICornerDirectionTransition
 second_title: Aspose.Sildes .NET API referencia
-description: Sarokirányú diavetítés átmeneti hatás.
+description: Sarokirányú diaátmenet hatás.
 type: docs
-weight: 10060
+weight: 10080
 url: /hu/aspose.slides.slideshow/icornerdirectiontransition/
 ---
 ## ICornerDirectionTransition interfész
 
-Sarokirányú diavetítés átmeneti hatás.
+Sarokirányú diaátmenet hatás.
 
 ```csharp
 public interface ICornerDirectionTransition : ITransitionValueBase
@@ -18,8 +18,8 @@ public interface ICornerDirectionTransition : ITransitionValueBase
 
 | Név | Leírás |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/icornerdirectiontransition/asitransitionvaluebase) { get; } | Lehetővé teszi az alap ITransitionValueBase interfész lekérdezését. Csak olvasható [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/icornerdirectiontransition/direction) { get; set; } | Az átmenet iránya. Olvasható/írható [`TransitionCornerDirectionType`](../transitioncornerdirectiontype). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/icornerdirectiontransition/asitransitionvaluebase) { get; } | Lehetővé teszi a base ITransitionValueBase interfész lekérését. Csak olvasható [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/icornerdirectiontransition/direction) { get; set; } | A transzíció iránya. Olvasható/írható [`TransitionCornerDirectionType`](../transitioncornerdirectiontype). |
 
 ### Lásd még
 

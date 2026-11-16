@@ -1,9 +1,9 @@
 ---
 title: ForEach.ForEachMasterSlideCallback
-second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Rappel qui sera invoqué pour chaque MasterSlide./foreach/masterslide dans la Présentation../aspose.slides/presentation.
+second_title: Référence API Aspose.Sildes pour .NET
+description: Rappel qui sera invoqué pour chaque MasterSlide./foreach/masterslide dans le Presentation../aspose.slides/presentation.
 type: docs
-weight: 7920
+weight: 7940
 url: /fr/aspose.slides.lowcode/foreach.foreachmasterslidecallback/
 ---
 ## ForEach.ForEachMasterSlideCallback delegate

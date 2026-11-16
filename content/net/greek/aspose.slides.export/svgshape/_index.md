@@ -3,12 +3,12 @@ title: SvgShape
 second_title: Aspose.Sildes για .NET API Αναφορά
 description: Αναπαριστά επιλογές για σχήμα SVG.
 type: docs
-weight: 4510
+weight: 4530
 url: /el/aspose.slides.export/svgshape/
 ---
-## κλάση SvgShape
+## SvgShape κλάση
 
-Αναπαριστά επιλογές για σχήμα SVG.
+Αναπαριστά τις επιλογές για σχήμα SVG.
 
 ```csharp
 public sealed class SvgShape : ISvgShape
@@ -18,13 +18,13 @@ public sealed class SvgShape : ISvgShape
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [Id](../../aspose.slides.export/svgshape/id) { get; set; } | Λαμβάνει το αναγνωριστικό του σχήματος |
+| [Id](../../aspose.slides.export/svgshape/id) { get; set; } | Λαμβάνει το id του σχήματος |
 
 ## Μέθοδοι
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [SetEventHandler](../../aspose.slides.export/svgshape/seteventhandler)(SvgEvent, string) | Ορίζει τον διαχειριστή συμβάντων για το σχήμα |
+| [SetEventHandler](../../aspose.slides.export/svgshape/seteventhandler)(SvgEvent, string) | Ορίζει το χειριστή συμβάντος για το σχήμα |
 
 ### Δείτε επίσης
 

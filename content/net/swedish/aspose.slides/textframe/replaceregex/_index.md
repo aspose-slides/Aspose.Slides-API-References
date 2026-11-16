@@ -1,14 +1,14 @@
 ---
 title: ReplaceRegex
 second_title: Aspose.Sildes för .NET API-referens
-description: Ersätter alla matchningar av reguljärt uttryck med angiven sträng.
+description: Ersätter alla matchningar av ett reguljärt uttryck med angiven sträng.
 type: docs
-weight: 120
+weight: 130
 url: /sv/aspose.slides/textframe/replaceregex/
 ---
 ## TextFrame.ReplaceRegex metod
 
-Ersätter alla matchningar av reguljära uttryck med angiven sträng.
+Ersätter alla matchningar av ett reguljärt uttryck med den angivna strängen.
 
 ```csharp
 public void ReplaceRegex(Regex regex, string newText, IFindResultCallback callback)
@@ -16,13 +16,13 @@ public void ReplaceRegex(Regex regex, string newText, IFindResultCallback callba
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| regex | Regex | Det reguljära uttrycket Regex för att hämta strängar som ska ersättas. |
-| newText | String | Strängen som ersätter alla förekomster av strängar som ska ersättas. |
+| regex | Regex | Det reguljära uttrycket Regex för att hämta strängarna som ska ersättas. |
+| newText | String | Strängen som ersätter alla förekomster av de strängar som ska ersättas. |
 | callback | IFindResultCallback | Callback-objekt för att spara resultatet av ersättningsoperationen [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### Exempel
 
-Följande exempelprogram visar hur man ersätter text med reguljärt uttryck och en angiven sträng.
+Följande exempel på kod visar hur man ersätter text med ett reguljärt uttryck och en angiven sträng.
 
 ```csharp
 [C#]
@@ -34,7 +34,7 @@ using (Presentation presentation = new Presentation("SomePresentation.pptx")){
 }
 ```
 
-### Se också
+### Se även
 
 * gränssnitt [IFindResultCallback](../../ifindresultcallback)
 * klass [TextFrame](../../textframe)

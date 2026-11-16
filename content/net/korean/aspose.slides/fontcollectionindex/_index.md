@@ -1,14 +1,14 @@
 ---
 title: FontCollectionIndex
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 컬렉션에서 폰트 인덱스를 나타냅니다.
+description: 컬렉션에서 글꼴 인덱스를 나타냅니다.
 type: docs
-weight: 4810
+weight: 4830
 url: /ko/aspose.slides/fontcollectionindex/
 ---
 ## FontCollectionIndex 열거형
 
-컬렉션에서 폰트의 인덱스를 나타냅니다.
+컬렉션에서 글꼴의 인덱스를 나타냅니다.
 
 ```csharp
 public enum FontCollectionIndex : byte

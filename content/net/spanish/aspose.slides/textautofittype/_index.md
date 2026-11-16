@@ -1,12 +1,12 @@
 ---
 title: TextAutofitType
-second_title: Aspose.Sildes para la referencia de la API de .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa el modo de ajuste automático de texto.
 type: docs
-weight: 10920
+weight: 10940
 url: /es/aspose.slides/textautofittype/
 ---
-## Enumeración TextAutofitType
+## TextAutofitType enumeración
 
 Representa el modo de ajuste automático de texto.
 
@@ -20,8 +20,8 @@ public enum TextAutofitType : sbyte
 | --- | --- | --- |
 | NotDefined | `-1` | No definido. |
 | None | `0` | Sin ajuste automático. |
-| Normal | `1` | Ajuste automático normal. El tamaño de fuente y el interlineado se reducirán para adaptarse a la forma. |
-| Shape | `2` | Ajuste automático de forma. El tamaño de la forma se cambiará para adaptarse al texto. |
+| Normal | `1` | Ajuste automático normal. El tamaño de la fuente y el interlineado se reducirán para encajar en la forma. |
+| Shape | `2` | Ajuste automático de forma. El tamaño de la forma se cambiará para encajar el texto. |
 
 ### Ver también
 

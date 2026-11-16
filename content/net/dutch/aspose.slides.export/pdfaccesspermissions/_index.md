@@ -1,14 +1,14 @@
 ---
 title: PdfAccessPermissions
-second_title: Aspose.Sildes voor .NET API-referentie
-description: Bevat een set vlaggen die specificeren welke toegangsrechten moeten worden verleend wanneer het document wordt geopend met gebruikersrechten.
+second_title: Aspose.Slides voor .NET API-referentie
+description: Bevat een set vlaggen die aangeven welke toegangsrechten moeten worden verleend wanneer het document wordt geopend met gebruikersrechten.
 type: docs
-weight: 4310
+weight: 4330
 url: /nl/aspose.slides.export/pdfaccesspermissions/
 ---
 ## PdfAccessPermissions enumeratie
 
-Bevat een set vlaggen die specificeren welke toegangsrechten moeten worden verleend wanneer het document wordt geopend met gebruikersrechten.
+Bevat een set vlaggen die aangeven welke toegangsrechten moeten worden verleend wanneer het document wordt geopend met gebruikersrechten.
 
 ```csharp
 [Flags]
@@ -19,19 +19,19 @@ public enum PdfAccessPermissions
 
 | Naam | Waarde | Beschrijving |
 | --- | --- | --- |
-| None | `0` | Specificeert dat een gebruiker geen toegangsrechten heeft. |
-| PrintDocument | `4` | Specificeert of een gebruiker het document mag afdrukken (mogelijk niet op het hoogste kwaliteitsniveau, afhankelijk van of de bit HighQualityPrint ook is ingesteld). |
-| ModifyContent | `8` | Specificeert of een gebruiker de inhoud van het document mag wijzigen door bewerkingen anders dan die gecontroleerd door de bits AddOrModifyFields, FillExistingFields, AssembleDocument. |
-| CopyTextAndGraphics | `10` | Specificeert of een gebruiker tekst en afbeeldingen uit het document mag kopiëren of anderszins extraheren door bewerkingen anders dan die gecontroleerd door de bit ExtractTextAndGraphics. |
-| AddOrModifyFields | `20` | Specificeert of een gebruiker tekstannotaties mag toevoegen of wijzigen, interactieve formuliervelden mag invullen, en, indien de bit ModifyContent ook is ingesteld, interactieve formuliervelden mag maken of wijzigen (inclusief handtekeningenvelden). |
-| FillExistingFields | `100` | Specificeert of een gebruiker bestaande interactieve formuliervelden mag invullen (inclusief handtekeningenvelden), zelfs als de bit AddOrModifyFields niet is gezet. |
-| ExtractTextAndGraphics | `200` | Specificeert of een gebruiker tekst en afbeeldingen mag extraheren ter ondersteuning van toegankelijkheid voor gebruikers met een beperking of voor andere doeleinden. |
-| AssembleDocument | `400` | Specificeert of een gebruiker het document mag samenstellen (pagina's invoegen, roteren of verwijderen en bladwijzers of miniatuurafbeeldingen maken), zelfs als de bit ModifyContent niet is gezet. |
-| HighQualityPrint | `800` | Specificeert of een gebruiker het document mag afdrukken naar een representatie waarvan een getrouwe digitale kopie van de PDF-inhoud kan worden gegenereerd. Wanneer deze bit niet is gezet (en de bit PrintDocument is ingesteld), is afdrukken beperkt tot een laag-niveau representatie van het uiterlijk, mogelijk van verminderde kwaliteit. |
+| None | `0` | Geeft aan dat een gebruiker geen toegangsrechten heeft. |
+| PrintDocument | `4` | Geeft aan of een gebruiker het document mag afdrukken (mogelijk niet op het hoogste kwaliteitsniveau, afhankelijk van of bit HighQualityPrint ook is ingesteld). |
+| ModifyContent | `8` | Geeft aan of een gebruiker de inhoud van het document mag wijzigen door bewerkingen die niet worden beheerst door de bits AddOrModifyFields, FillExistingFields, AssembleDocument. |
+| CopyTextAndGraphics | `10` | Geeft aan of een gebruiker tekst en afbeeldingen uit het document mag kopiëren of anderszins extraheren door bewerkingen die niet worden beheerst door bit ExtractTextAndGraphics. |
+| AddOrModifyFields | `20` | Geeft aan of een gebruiker tekstannotaties mag toevoegen of wijzigen, interactieve formuliervelden mag invullen, en, indien bit ModifyContent ook is ingesteld, interactieve formuliervelden (inclusief handtekeningvelden) mag maken of wijzigen. |
+| FillExistingFields | `100` | Geeft aan of een gebruiker bestaande interactieve formuliervelden (inclusief handtekeningvelden) mag invullen, zelfs als bit AddOrModifyFields niet is ingesteld. |
+| ExtractTextAndGraphics | `200` | Geeft aan of een gebruiker tekst en afbeeldingen mag extraheren ter ondersteuning van toegankelijkheid voor gebruikers met een handicap of voor andere doeleinden. |
+| AssembleDocument | `400` | Geeft aan of een gebruiker het document mag samenstellen (pagina's invoegen, roteren of verwijderen en bladwijzers of miniatuurafbeeldingen maken), zelfs als bit ModifyContent niet is ingesteld. |
+| HighQualityPrint | `800` | Geeft aan of een gebruiker het document mag afdrukken naar een weergave waarvan een getrouwe digitale kopie van de PDF-inhoud kan worden gegenereerd. Wanneer dit bit niet is ingesteld (en bit PrintDocument wel is ingesteld), is afdrukken beperkt tot een low-level weergave van het uiterlijk, mogelijk van verminderde kwaliteit. |
 
 ### Zie ook
 
-* naamruimte [Aspose.Slides.Export](../../aspose.slides.export)
-* assemblage [Aspose.Slides](../../)
+* namespace [Aspose.Slides.Export](../../aspose.slides.export)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

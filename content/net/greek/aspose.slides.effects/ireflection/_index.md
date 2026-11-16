@@ -1,14 +1,14 @@
 ---
 title: IReflection
-second_title: Aspose.Sildes για .NET Τεκμηρίωση API
+second_title: Aspose.Sildes για .NET API Αναφορά
 description: Αναπαριστά ένα εφέ αντανάκλασης.
 type: docs
-weight: 3500
+weight: 3520
 url: /el/aspose.slides.effects/ireflection/
 ---
 ## IReflection διεπαφή
 
-Αναπαριστά ένα εφέ αντανάκλασης.
+Represents a reflection effect.
 
 ```csharp
 public interface IReflection : IAccessiblePVIObject<IReflectionEffectiveData>, 
@@ -19,22 +19,22 @@ public interface IReflection : IAccessiblePVIObject<IReflectionEffectiveData>,
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ireflection/asiaccessiblepviobject) { get; } | Επιτρέπει την ανάκτηση της βασικής διεπαφής IAccessiblePVIObject. Μόνο για ανάγνωση [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ireflection/asiimagetransformoperation) { get; } | Επιτρέπει την ανάκτηση της βασικής διεπαφής IImageTransformOperation. Μόνο για ανάγνωση [`IImageTransformOperation`](../iimagetransformoperation). |
-| [BlurRadius](../../aspose.slides.effects/ireflection/blurradius) { get; set; } | Ακτίνα θολώματος. Ανάγνωση/εγγραφή Double. |
-| [Direction](../../aspose.slides.effects/ireflection/direction) { get; set; } | Κατεύθυνση αντανάκλασης. Ανάγνωση/εγγραφή Single. |
-| [Distance](../../aspose.slides.effects/ireflection/distance) { get; set; } | Απόσταση αντανάκλασης. Ανάγνωση/εγγραφή Double. |
-| [EndPosAlpha](../../aspose.slides.effects/ireflection/endposalpha) { get; set; } | Καθορίζει τη θέση λήξης (κατά μήκος της κλίμακας διαβάθμισης άλφα) της τιμής άλφα λήξης (ποσοστά). Ανάγνωση/εγγραφή Single. |
-| [EndReflectionOpacity](../../aspose.slides.effects/ireflection/endreflectionopacity) { get; set; } | Διαφάνεια λήξης αντανάκλασης. (ποσοστά). Ανάγνωση/εγγραφή Single. |
-| [FadeDirection](../../aspose.slides.effects/ireflection/fadedirection) { get; set; } | Καθορίζει την κατεύθυνση μετατόπισης της αντανάκλασης. (γωνία). Ανάγνωση/εγγραφή Single. |
-| [RectangleAlign](../../aspose.slides.effects/ireflection/rectanglealign) { get; set; } | Στοίχιση ορθογωνίου. Ανάγνωση/εγγραφή [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/ireflection/rotateshadowwithshape) { get; set; } | Καθορίζει αν η αντανάκλαση πρέπει να περιστρέφεται μαζί με το σχήμα εάν το σχήμα περιστραφεί. Ανάγνωση/εγγραφή Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/ireflection/scalehorizontal) { get; set; } | Καθορίζει τον οριζόντιο συντελεστή κλιμάκωσης, η αρνητική κλιμάκωση προκαλεί ανάποδο περιστόιχιση. (ποσοστά) Ανάγνωση/εγγραφή Double. |
-| [ScaleVertical](../../aspose.slides.effects/ireflection/scalevertical) { get; set; } | Καθορίζει τον κάθετο συντελεστή κλιμάκωσης, η αρνητική κλιμάκωση προκαλεί ανάποδο περιστόιχιση. (ποσοστά) Ανάγνωση/εγγραφή Double. |
-| [SkewHorizontal](../../aspose.slides.effects/ireflection/skewhorizontal) { get; set; } | Καθορίζει την οριζόντια γωνία κλίσης. Ανάγνωση/εγγραφή Double. |
-| [SkewVertical](../../aspose.slides.effects/ireflection/skewvertical) { get; set; } | Καθορίζει την κάθετη γωνία κλίσης. Ανάγνωση/εγγραφή Double. |
-| [StartPosAlpha](../../aspose.slides.effects/ireflection/startposalpha) { get; set; } | Καθορίζει τη θέση έναρξης (κατά μήκος της κλίμακας διαβάθμισης άλφα) της τιμής άλφα έναρξης (ποσοστά). Ανάγνωση/εγγραφή Single. |
-| [StartReflectionOpacity](../../aspose.slides.effects/ireflection/startreflectionopacity) { get; set; } | Διαφάνεια έναρξης αντανάκλασης. (ποσοστά). Ανάγνωση/εγγραφή Single. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ireflection/asiaccessiblepviobject) { get; } | Επιτρέπει την ανάκτηση της βασικής διεπαφής IAccessiblePVIObject. Μόνο ανάγνωση [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ireflection/asiimagetransformoperation) { get; } | Επιτρέπει την ανάκτηση της βασικής διεπαφής IImageTransformOperation. Μόνο ανάγνωση [`IImageTransformOperation`](../iimagetransformoperation). |
+| [BlurRadius](../../aspose.slides.effects/ireflection/blurradius) { get; set; } | Ακτίνα θόλωσης. Ανάγνωση/Εγγραφή Double. |
+| [Direction](../../aspose.slides.effects/ireflection/direction) { get; set; } | Κατεύθυνση αντανάκλασης. Ανάγνωση/Εγγραφή Single. |
+| [Distance](../../aspose.slides.effects/ireflection/distance) { get; set; } | Απόσταση αντανάκλασης. Ανάγνωση/Εγγραφή Double. |
+| [EndPosAlpha](../../aspose.slides.effects/ireflection/endposalpha) { get; set; } | Καθορίζει τη θέση λήξης (κατά μήκος της κλίμακας διαβάθμισης άλφα) της τιμής άλφα λήξης (ποσοστά). Ανάγνωση/Εγγραφή Single. |
+| [EndReflectionOpacity](../../aspose.slides.effects/ireflection/endreflectionopacity) { get; set; } | Διαφάνεια τελικής αντανάκλασης. (ποσοστά). Ανάγνωση/Εγγραφή Single. |
+| [FadeDirection](../../aspose.slides.effects/ireflection/fadedirection) { get; set; } | Καθορίζει την κατεύθυνση για μετατόπιση της αντανάκλασης. (γωνία). Ανάγνωση/Εγγραφή Single. |
+| [RectangleAlign](../../aspose.slides.effects/ireflection/rectanglealign) { get; set; } | Στοίχιση ορθογωνίου. Ανάγνωση/Εγγραφή [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/ireflection/rotateshadowwithshape) { get; set; } | Καθορίζει εάν η αντανάκλαση πρέπει να περιστρέφεται μαζί με το σχήμα εάν το σχήμα περιστραφεί. Ανάγνωση/Εγγραφή Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/ireflection/scalehorizontal) { get; set; } | Καθορίζει τον οριζόντιο συντελεστή κλιμάκωσης, η αρνητική κλιμάκωση προκαλεί αναστροφή. (ποσοστά) Ανάγνωση/Εγγραφή Double. |
+| [ScaleVertical](../../aspose.slides.effects/ireflection/scalevertical) { get; set; } | Καθορίζει τον κατακόρυφο συντελεστή κλιμάκωσης, η αρνητική κλιμάκωση προκαλεί αναστροφή. (ποσοστά) Ανάγνωση/Εγγραφή Double. |
+| [SkewHorizontal](../../aspose.slides.effects/ireflection/skewhorizontal) { get; set; } | Καθορίζει την οριζόντια γωνία παραμόρφωσης. Ανάγνωση/Εγγραφή Double. |
+| [SkewVertical](../../aspose.slides.effects/ireflection/skewvertical) { get; set; } | Καθορίζει την κατακόρυφη γωνία παραμόρφωσης. Ανάγνωση/Εγγραφή Double. |
+| [StartPosAlpha](../../aspose.slides.effects/ireflection/startposalpha) { get; set; } | Καθορίζει τη θέση έναρξης (κατά μήκος της κλίμακας διαβάθμισης άλφα) της τιμής άλφα έναρξης (ποσοστά). Ανάγνωση/Εγγραφή Single. |
+| [StartReflectionOpacity](../../aspose.slides.effects/ireflection/startreflectionopacity) { get; set; } | Διαφάνεια αρχικής αντανάκλασης. (ποσοστά). Ανάγνωση/Εγγραφή Single. |
 
 ### Δείτε επίσης
 
@@ -42,6 +42,6 @@ public interface IReflection : IAccessiblePVIObject<IReflectionEffectiveData>,
 * διεπαφή [IReflectionEffectiveData](../ireflectioneffectivedata)
 * διεπαφή [IImageTransformOperation](../iimagetransformoperation)
 * χώρο ονομάτων [Aspose.Slides.Effects](../../aspose.slides.effects)
-* συγκρότηση [Aspose.Slides](../../)
+* συναρμολόγηση [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

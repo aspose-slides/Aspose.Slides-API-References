@@ -1,9 +1,9 @@
 ---
 title: JoinPortionsWithSameFormatting
 second_title: Aspose.Sildes για .NET API Αναφορά
-description: Συνδέει τμήματα με την ίδια μορφοποίηση σε όλες τις παραγράφους.
+description: Ενώνει τμήματα με την ίδια μορφοποίηση σε όλες τις παραγράφους.
 type: docs
-weight: 110
+weight: 120
 url: /el/aspose.slides/textframe/joinportionswithsameformatting/
 ---
 ## TextFrame.JoinPortionsWithSameFormatting μέθοδος

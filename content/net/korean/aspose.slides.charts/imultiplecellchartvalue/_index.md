@@ -1,14 +1,14 @@
 ---
 title: IMultipleCellChartValue
-second_title: Aspose.Sildes for .NET API 참조
-description: 차트 셀의 컬렉션을 나타냅니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 차트 셀들의 컬렉션을 나타냅니다.
 type: docs
-weight: 2170
+weight: 2190
 url: /ko/aspose.slides.charts/imultiplecellchartvalue/
 ---
 ## IMultipleCellChartValue 인터페이스
 
-chart cells 컬렉션을 나타냅니다.
+차트 셀들의 컬렉션을 나타냅니다.
 
 ```csharp
 public interface IMultipleCellChartValue : IBaseChartValue
@@ -18,7 +18,7 @@ public interface IMultipleCellChartValue : IBaseChartValue
 
 | 이름 | 설명 |
 | --- | --- |
-| [AsCells](../../aspose.slides.charts/imultiplecellchartvalue/ascells) { get; set; } | chart cells 컬렉션을 반환하거나 설정합니다. 읽기/쓰기 [`IChartCellCollection`](../ichartcellcollection). |
+| [AsCells](../../aspose.slides.charts/imultiplecellchartvalue/ascells) { get; set; } | 차트 셀 컬렉션을 반환하거나 설정합니다. 읽기/쓰기 [`IChartCellCollection`](../ichartcellcollection). |
 | [AsIBaseChartValue](../../aspose.slides.charts/imultiplecellchartvalue/asibasechartvalue) { get; } | 기본 IBaseChartValue 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IBaseChartValue`](../ibasechartvalue). |
 
 ### 참고

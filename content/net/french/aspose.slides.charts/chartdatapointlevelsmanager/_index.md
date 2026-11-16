@@ -1,9 +1,9 @@
 ---
 title: ChartDataPointLevelsManager
-second_title: Aspose.Sildes pour .NET Référence de l'API
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Conteneur des niveaux de points de données. Appliqué aux séries Treeamp et Sunburst. L'indexation des niveaux de points de données commence à zéro.
 type: docs
-weight: 1360
+weight: 1370
 url: /fr/aspose.slides.charts/chartdatapointlevelsmanager/
 ---
 ## ChartDataPointLevelsManager classe

@@ -1,14 +1,14 @@
 ---
 title: ITrendlineCollection
-second_title: Aspose.Sildes pro .NET – referenční příručka API
+second_title: Aspose.Sildes pro .NET API Reference
 description: Představuje kolekci TrendlineEx
 type: docs
-weight: 2250
+weight: 2270
 url: /cs/aspose.slides.charts/itrendlinecollection/
 ---
 ## ITrendlineCollection rozhraní
 
-Represents a collection of TrendlineEx
+Představuje kolekci TrendlineEx
 
 ```csharp
 public interface ITrendlineCollection : IEnumerable<ITrendline>
@@ -19,14 +19,14 @@ public interface ITrendlineCollection : IEnumerable<ITrendline>
 | Název | Popis |
 | --- | --- |
 | [AsIEnumerable](../../aspose.slides.charts/itrendlinecollection/asienumerable) { get; } | Umožňuje získat základní rozhraní IEnumerable. Pouze pro čtení IEnumerable. |
-| [Count](../../aspose.slides.charts/itrendlinecollection/count) { get; } | Získá počet skutečně obsažených prvků ve sbírce. Pouze pro čtení Int32. |
+| [Count](../../aspose.slides.charts/itrendlinecollection/count) { get; } | Získá počet prvků skutečně obsažených v kolekci. Pouze pro čtení Int32. |
 | [Item](../../aspose.slides.charts/itrendlinecollection/item) { get; } | Získá prvek na zadaném indexu. Pouze pro čtení [`ITrendline`](../itrendline). |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| [Add](../../aspose.slides.charts/itrendlinecollection/add)(TrendlineType) | Přidá novou Trendline na konec sbírky a vrátí ji. |
+| [Add](../../aspose.slides.charts/itrendlinecollection/add)(TrendlineType) | Přidá novou Trendline na konec kolekce a vrátí ji. |
 | [Remove](../../aspose.slides.charts/itrendlinecollection/remove)(ITrendline) | Odstraní zadanou hodnotu. |
 
 ### Viz také

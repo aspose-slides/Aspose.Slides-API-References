@@ -1,9 +1,9 @@
 ---
 title: Paragraph
-second_title: Aspose.Sildes para Referência de API .NET
+second_title: Referência da API Aspose.Sildes para .NET
 description: Representa um parágrafo de texto.
 type: docs
-weight: 9280
+weight: 9300
 url: /pt/aspose.slides/paragraph/
 ---
 ## Paragraph classe
@@ -19,7 +19,7 @@ public sealed class Paragraph : IParagraph
 | Nome | Descrição |
 | --- | --- |
 | [Paragraph](paragraph#constructor)() | Inicializa uma nova instância da classe Paragraph com propriedades padrão. |
-| [Paragraph](paragraph#constructor_1)(Paragraph) | Construtor de cópia que inicializa uma nova instância da classe Paragraph. |
+| [Paragraph](paragraph#constructor_1)(Paragraph) | Construtor de cópia que inicializa uma nova instância de uma classe Paragraph. |
 
 ## Propriedades
 
@@ -34,11 +34,13 @@ public sealed class Paragraph : IParagraph
 
 | Nome | Descrição |
 | --- | --- |
-| [GetLinesCount](../../aspose.slides/paragraph/getlinescount)() | Obtém o número de linhas em um parágrafo. |
+| [GetImage](../../aspose.slides/paragraph/getimage#getimage)() | Retorna uma imagem do parágrafo. |
+| [GetImage](../../aspose.slides/paragraph/getimage#getimage_1)(float, float) | Retorna uma imagem do parágrafo com a escala especificada. |
+| [GetLinesCount](../../aspose.slides/paragraph/getlinescount)() | Obtém o número de linhas de um parágrafo. |
 | [GetRect](../../aspose.slides/paragraph/getrect)() | Obtém as coordenadas do retângulo que delimita o parágrafo. O retângulo inclui todas as linhas de texto no parágrafo, incluindo as vazias. |
-| [JoinPortionsWithSameFormatting](../../aspose.slides/paragraph/joinportionswithsameformatting)() | Junta trechos com a mesma formatação. |
+| [JoinPortionsWithSameFormatting](../../aspose.slides/paragraph/joinportionswithsameformatting)() | Mescla execuções com a mesma formatação. |
 
-### Veja Também
+### Ver também
 
 * interface [IParagraph](../iparagraph)
 * namespace [Aspose.Slides](../../aspose.slides)

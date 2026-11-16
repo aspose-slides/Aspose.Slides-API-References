@@ -1,12 +1,12 @@
 ---
 title: IGrayScaleEffectiveData
-second_title: Aspose.Sildes .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Değiştirilemez nesne, bir Gri Ton etkisini temsil eder. Tüm etki renk değerlerini, parlaklıklarına karşılık gelen bir gri tonuna dönüştürür. Etki alfa opaklık değerleri etkilenmez.
 type: docs
-weight: 3350
+weight: 3370
 url: /tr/aspose.slides.effects/igrayscaleeffectivedata/
 ---
-## IGrayScaleEffectiveData arayüz
+## IGrayScaleEffectiveData arayüzü
 
 Değiştirilemez nesne, bir Gri Ton etkisini temsil eder. Tüm etki renk değerlerini, parlaklıklarına karşılık gelen bir gri tonuna dönüştürür. Etki alfa (opaklık) değerleri etkilenmez.
 
@@ -20,7 +20,7 @@ public interface IGrayScaleEffectiveData : IEffectEffectiveData
 | --- | --- |
 | [AsIEffectEffectiveData](../../aspose.slides.effects/igrayscaleeffectivedata/asieffecteffectivedata) { get; } | Temel IEffectEffectiveData arayüzünü almayı sağlar. Salt okunur [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
-### Ayrıca
+### Diğer Bağlantılar
 
 * arayüz [IEffectEffectiveData](../ieffecteffectivedata)
 * ad alanı [Aspose.Slides.Effects](../../aspose.slides.effects)

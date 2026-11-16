@@ -1,14 +1,14 @@
 ---
 title: NormalViewProperties
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: แสดงคุณสมบัติมุมมองปกติ มุมมองปกติประกอบด้วยพื้นที่เนื้อหา 3 ส่วน ได้แก่ สไลด์เอง พื้นที่เนื้อข้างด้าน และพื้นที่เนื้อหาด้านล่าง
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงคุณสมบัติมุมมองปกติ. มุมมองปกติมีสามส่วนเนื้อหา: สไลด์เอง, ส่วนเนื้อหาข้าง, และส่วนเนื้อหาตรงล่าง.
 type: docs
-weight: 9110
+weight: 9130
 url: /th/aspose.slides/normalviewproperties/
 ---
 ## NormalViewProperties คลาส
 
-แทนคุณสมบัติมุมมองปกติ มุมมองปกติประกอบด้วยพื้นที่เนื้อหา 3 ส่วน: สไลด์เอง, พื้นที่เนื้อหาข้างด้าน, และพื้นที่เนื้อหาด้านล่างสไลด์
+Represents normal view properties. The normal view consists of three content regions: the slide itself, a side content region, and a bottom content region.
 
 ```csharp
 public class NormalViewProperties : INormalViewProperties
@@ -18,21 +18,21 @@ public class NormalViewProperties : INormalViewProperties
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [HorizontalBarState](../../aspose.slides/normalviewproperties/horizontalbarstate) { get; set; } | ระบุสถานะที่ควรแสดงแถบแบ่งแนวนอน แถบแบ่งแนวนอนจะแยกสไลด์ออกจากพื้นที่เนื้อหาด้านล่างสไลด์ |
-| [PreferSingleView](../../aspose.slides/normalviewproperties/prefersingleview) { get; set; } | ระบุว่าผู้ใช้ต้องการมุมมองเนื้อหาเดียวเต็มหน้าต่างหรือมุมมองปกติมาตรฐานที่มี 3 พื้นที่ เนื้อหา หากเปิดใช้งาน แอปพลิเคชันอาจเลือกแสดงหนึ่งในพื้นที่เนื้อหาเต็มหน้าต่าง อ่าน/เขียน Boolean |
-| [RestoredLeft](../../aspose.slides/normalviewproperties/restoredleft) { get; } | องค์ประกอบนี้ระบุขนาดของพื้นที่เนื้อหาข้างด้านของมุมมองปกติเมื่อพื้นที่อยู่ในสภาวะขนาดที่กู้คืนได้ (ไม่ย่อส่วนและไม่ขยายเต็ม) อ่านอย่างเดียว [`INormalViewRestoredProperties`](../inormalviewrestoredproperties) |
-| [RestoredTop](../../aspose.slides/normalviewproperties/restoredtop) { get; } | องค์ประกอบนี้ระบุขนาดของพื้นที่สไลด์ด้านบนของมุมมองปกติเมื่อพื้นที่อยู่ในสภาวะขนาดที่กู้คืนได้ (ไม่ย่อส่วนและไม่ขยายเต็ม) อ่านอย่างเดียว [`INormalViewRestoredProperties`](../inormalviewrestoredproperties) |
-| [ShowOutlineIcons](../../aspose.slides/normalviewproperties/showoutlineicons) { get; set; } | ระบุว่าแอปพลิเคชันควรแสดงไอคอนหากแสดงเนื้อหาโครงร่างในพื้นที่ใดของพื้นที่เนื้อหาในโหมดมุมมองปกติ อ่าน/เขียน Boolean |
-| [SnapVerticalSplitter](../../aspose.slides/normalviewproperties/snapverticalsplitter) { get; set; } | ระบุว่ากดแยกแนวตั้งให้ยึดสถานะย่อเมื่อพื้นที่ด้านข้างเล็กพอหรือไม่ อ่าน/เขียน Boolean |
-| [VerticalBarState](../../aspose.slides/normalviewproperties/verticalbarstate) { get; set; } | ระบุสถานะที่ควรแสดงแถบแบ่งแนวตั้ง แถบแบ่งแนวตั้งจะแยกสไลด์ออกจากพื้นที่เนื้อหาข้างด้าน |
+| [HorizontalBarState](../../aspose.slides/normalviewproperties/horizontalbarstate) { get; set; } | ระบุสถานะที่แถบแบ่งแนวนอนควรแสดงอยู่. แถบแบ่งแนวนอนจะแยกสไลด์ออกจากส่วนเนื้อหาที่อยู่ด้านล่างของสไลด์. |
+| [PreferSingleView](../../aspose.slides/normalviewproperties/prefersingleview) { get; set; } | ระบุว่าผู้ใช้ต้องการดูส่วนเนื้อหาแบบหน้าต่างเต็มเดียวแทนมุมมองปกติมาตรฐานที่มีสามส่วนเนื้อหรือไม่. หากเปิดใช้งาน แอปพลิเคชันอาจเลือกแสดงหนึ่งส่วนเนื้อหาเต็มหน้าต่าง. อ่าน/เขียน Boolean. |
+| [RestoredLeft](../../aspose.slides/normalviewproperties/restoredleft) { get; } | องค์ประกอบนี้ระบุขนาดของส่วนเนื้อหาข้างของมุมมองปกติเมื่อส่วนนั้นอยู่ในขนาดที่กู้คืนได้ที่เปลี่ยนแปลงได้ (ไม่ย่อเล็กหรือขยายเต็ม). อ่านอย่างเดียว [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
+| [RestoredTop](../../aspose.slides/normalviewproperties/restoredtop) { get; } | องค์ประกอบนี้ระบุขนาดของส่วนสไลด์ด้านบนของมุมมองปกติเมื่อส่วนนั้นอยู่ในขนาดที่กู้คืนได้ที่เปลี่ยนแปลงได้ (ไม่ย่อเล็กหรือขยายเต็ม). อ่านอย่างเดียว [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
+| [ShowOutlineIcons](../../aspose.slides/normalviewproperties/showoutlineicons) { get; set; } | ระบุว่าตัวแอปพลิเคชันควรแสดงไอคอนหรือไม่หากแสดงเนื้อหาโครงร่างในส่วนเนื้อหาใด ๆ ของโหมดมุมมองปกติ. อ่าน/เขียน Boolean. |
+| [SnapVerticalSplitter](../../aspose.slides/normalviewproperties/snapverticalsplitter) { get; set; } | ระบุว่าตัวแบ่งแนวตั้งควรล็อกไปที่สถานะย่อเล็กเมื่อส่วนข้างมีขนาดเล็กพอ. อ่าน/เขียน Boolean. |
+| [VerticalBarState](../../aspose.slides/normalviewproperties/verticalbarstate) { get; set; } | ระบุสถานะที่แถบแบ่งแนวตั้งควรแสดงอยู่. แถบแบ่งแนวตั้งจะแยกสไลด์ออกจากส่วนเนื้อหาข้าง. |
 
 ### ตัวอย่าง
 
-ตัวอย่างต่อไปนี้แสดงวิธีกำหนดคุณสมบัติ ViewProperties.NormalViewProperties ของ PowerPoint Presentation
+ตัวอย่างต่อไปนี้แสดงวิธีกำหนดค่า ViewProperties.NormalViewProperties ของการนำเสนอ PowerPoint.
 
 ```csharp
 [C#]
-//สร้างอ็อบเจกต์ Presentation ที่แทนไฟล์การนำเสนอ
+//สร้างอ็อบเจ็กต์ Presentation ที่แสดงไฟล์งานนำเสนอ
 using (Presentation pres = new Presentation("demo.pptx"))
 {
     pres.ViewProperties.NormalViewProperties.HorizontalBarState = SplitterBarStateType.Restored;

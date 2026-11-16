@@ -1,14 +1,14 @@
 ---
 title: IResourceLoadingArgs
 second_title: Aspose.Sildes para .NET Referencia de API
-description: Interfaz para los argumentos de carga de recursos externos.
+description: Interfaz para argumentos de carga de recursos externos.
 type: docs
-weight: 6830
+weight: 6850
 url: /es/aspose.slides/iresourceloadingargs/
 ---
 ## IResourceLoadingArgs interfaz
 
-Interfaz para los argumentos de carga de recursos externos.
+Interfaz para argumentos de carga de recursos externos.
 
 ```csharp
 public interface IResourceLoadingArgs
@@ -18,14 +18,14 @@ public interface IResourceLoadingArgs
 
 | Nombre | Descripción |
 | --- | --- |
-| [OriginalUri](../../aspose.slides/iresourceloadingargs/originaluri) { get; } | URI original del recurso tal como se especifica en la presentación importada. |
-| [Uri](../../aspose.slides/iresourceloadingargs/uri) { get; set; } | URI del recurso que se utiliza para la descarga si [`ResourceLoading`](../iresourceloadingcallback/resourceloading) devuelve Default. Inicialmente se establece en la URI original del recurso, pero puede redefinirse a cualquier valor. |
+| [OriginalUri](../../aspose.slides/iresourceloadingargs/originaluri) { get; } | URI original del recurso tal como se especificó en la presentación importada. |
+| [Uri](../../aspose.slides/iresourceloadingargs/uri) { get; set; } | URI del recurso que se utiliza para la descarga si [`ResourceLoading`](../iresourceloadingcallback/resourceloading) devuelve Default. Inicialmente se establece en el URI original del recurso, pero puede redefinirse a cualquier valor. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [SetData](../../aspose.slides/iresourceloadingargs/setdata)(byte[]) | Establece los datos proporcionados por el usuario del recurso que se usan si [`ResourceLoading`](../iresourceloadingcallback/resourceloading) devuelve UserProvided. |
+| [SetData](../../aspose.slides/iresourceloadingargs/setdata)(byte[]) | Establece los datos provistos por el usuario del recurso que se usan si [`ResourceLoading`](../iresourceloadingcallback/resourceloading) devuelve UserProvided. |
 
 ### Ver también
 

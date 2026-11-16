@@ -1,14 +1,14 @@
 ---
 title: ImageTransformOperationFactory
 second_title: Aspose.Sildes .NET API referencia
-description: Lehetővé teszi képtranszformációs műveletek létrehozását
+description: Lehetővé teszi képek átalakítási műveleteinek létrehozását
 type: docs
-weight: 3590
+weight: 3610
 url: /hu/aspose.slides.effects/imagetransformoperationfactory/
 ---
 ## ImageTransformOperationFactory osztály
 
-Lehetővé teszi képtranszformációs műveletek létrehozását
+Allows to create image transform operations
 
 ```csharp
 public class ImageTransformOperationFactory : IImageTransformOperationFactory
@@ -16,35 +16,35 @@ public class ImageTransformOperationFactory : IImageTransformOperationFactory
 
 ## Konstruktorok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
 | [ImageTransformOperationFactory](imagetransformoperationfactory)() | Az alapértelmezett konstruktor. |
 
 ## Metódusok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
-| [CreateAlphaBiLevel](../../aspose.slides.effects/imagetransformoperationfactory/createalphabilevel)(float) | Létrehozza az Alpha BiLevel hatást. |
-| [CreateAlphaFloor](../../aspose.slides.effects/imagetransformoperationfactory/createalphafloor)() | Létrehozza az Alpha floor hatást. |
-| [CreateAlphaInverse](../../aspose.slides.effects/imagetransformoperationfactory/createalphainverse)() | Létrehozza az Alpha inverse hatást. |
-| [CreateAlphaModulate](../../aspose.slides.effects/imagetransformoperationfactory/createalphamodulate)() | Létrehozza az Alpha modulate hatást. |
-| [CreateAlphaModulateFixed](../../aspose.slides.effects/imagetransformoperationfactory/createalphamodulatefixed)(float) | Létrehozza az Alpha modulate fixed hatást. |
-| [CreateAlphaReplace](../../aspose.slides.effects/imagetransformoperationfactory/createalphareplace)(float) | Létrehozza az Alpha replace hatást. |
-| [CreateAlphCeiling](../../aspose.slides.effects/imagetransformoperationfactory/createalphceiling)() | Létrehozza az Alpha Ceiling hatást. |
-| [CreateBiLevel](../../aspose.slides.effects/imagetransformoperationfactory/createbilevel)(float) | Létrehozza a BiLevel hatást. |
-| [CreateBlur](../../aspose.slides.effects/imagetransformoperationfactory/createblur)(double, bool) | Létrehozza a Blur hatást. |
-| [CreateColorChange](../../aspose.slides.effects/imagetransformoperationfactory/createcolorchange)() | Létrehozza a Color change hatást. |
-| [CreateColorReplace](../../aspose.slides.effects/imagetransformoperationfactory/createcolorreplace)() | Létrehozza a Color replace hatást. |
-| [CreateDuotone](../../aspose.slides.effects/imagetransformoperationfactory/createduotone)() | Létrehozza a Duotone hatást. |
-| [CreateFillOverlay](../../aspose.slides.effects/imagetransformoperationfactory/createfilloverlay)() | Létrehozza a Fill overlay hatást. |
-| [CreateGrayScale](../../aspose.slides.effects/imagetransformoperationfactory/creategrayscale)() | Létrehozza a Gray scale hatást. |
-| [CreateHSL](../../aspose.slides.effects/imagetransformoperationfactory/createhsl)(float, float, float) | Létrehozza a Hue Saturation Luminance hatást. |
-| [CreateLuminance](../../aspose.slides.effects/imagetransformoperationfactory/createluminance)(float, float) | Létrehozza a Luminance hatást. |
-| [CreateTint](../../aspose.slides.effects/imagetransformoperationfactory/createtint)(float, float) | Létrehozza a Tint hatást. |
+| [CreateAlphaBiLevel](../../aspose.slides.effects/imagetransformoperationfactory/createalphabilevel)(float) | Alpha BiLevel effektust hoz létre. |
+| [CreateAlphaFloor](../../aspose.slides.effects/imagetransformoperationfactory/createalphafloor)() | Alpha floor effektust hoz létre. |
+| [CreateAlphaInverse](../../aspose.slides.effects/imagetransformoperationfactory/createalphainverse)() | Alpha inverse effektust hoz létre. |
+| [CreateAlphaModulate](../../aspose.slides.effects/imagetransformoperationfactory/createalphamodulate)() | Alpha modulate effektust hoz létre. |
+| [CreateAlphaModulateFixed](../../aspose.slides.effects/imagetransformoperationfactory/createalphamodulatefixed)(float) | Alpha modulate fixed effektust hoz létre. |
+| [CreateAlphaReplace](../../aspose.slides.effects/imagetransformoperationfactory/createalphareplace)(float) | Alpha replace effektust hoz létre. |
+| [CreateAlphCeiling](../../aspose.slides.effects/imagetransformoperationfactory/createalphceiling)() | Alpha Ceiling effektust hoz létre. |
+| [CreateBiLevel](../../aspose.slides.effects/imagetransformoperationfactory/createbilevel)(float) | BiLevel effektust hoz létre. |
+| [CreateBlur](../../aspose.slides.effects/imagetransformoperationfactory/createblur)(double, bool) | Blur efektust hoz létre. |
+| [CreateColorChange](../../aspose.slides.effects/imagetransformoperationfactory/createcolorchange)() | Color change efektust hoz létre. |
+| [CreateColorReplace](../../aspose.slides.effects/imagetransformoperationfactory/createcolorreplace)() | Color replace efektust hoz létre. |
+| [CreateDuotone](../../aspose.slides.effects/imagetransformoperationfactory/createduotone)() | Duotone efektust hoz létre. |
+| [CreateFillOverlay](../../aspose.slides.effects/imagetransformoperationfactory/createfilloverlay)() | Fill overlay efektust hoz létre. |
+| [CreateGrayScale](../../aspose.slides.effects/imagetransformoperationfactory/creategrayscale)() | Gray scale efektust hoz létre. |
+| [CreateHSL](../../aspose.slides.effects/imagetransformoperationfactory/createhsl)(float, float, float) | Hue Saturation Luminance efektust hoz létre. |
+| [CreateLuminance](../../aspose.slides.effects/imagetransformoperationfactory/createluminance)(float, float) | Luminance efektust hoz létre. |
+| [CreateTint](../../aspose.slides.effects/imagetransformoperationfactory/createtint)(float, float) | Tint efektust hoz létre. |
 
 ### Megjegyzések
 
-A COM kompatibilitáshoz.
+COM kompatibilitáshoz.
 
 ### Lásd még
 

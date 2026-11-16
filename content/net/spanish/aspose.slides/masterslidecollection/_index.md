@@ -3,7 +3,7 @@ title: MasterSlideCollection
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa una colección de diapositivas maestras.
 type: docs
-weight: 8040
+weight: 8060
 url: /es/aspose.slides/masterslidecollection/
 ---
 ## MasterSlideCollection clase
@@ -21,14 +21,14 @@ public sealed class MasterSlideCollection : DomObject<Presentation>, IMasterSlid
 | [Count](../../aspose.slides/masterslidecollection/count) { get; } | Obtiene el número de elementos realmente contenidos en la colección. Solo lectura Int32. |
 | [IsSynchronized](../../aspose.slides/masterslidecollection/issynchronized) { get; } | Devuelve un valor que indica si el acceso a la colección está sincronizado (seguro para subprocesos). Solo lectura Boolean. |
 | [Item](../../aspose.slides/masterslidecollection/item) { get; } | Obtiene el elemento en el índice especificado. Solo lectura [`MasterSlide`](../masterslide). |
-| [SyncRoot](../../aspose.slides/masterslidecollection/syncroot) { get; } | Devuelve un objeto raíz de sincronización. Solo lectura Object. |
+| [SyncRoot](../../aspose.slides/masterslidecollection/syncroot) { get; } | Devuelve una raíz de sincronización. Solo lectura Object. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
 | [AddClone](../../aspose.slides/masterslidecollection/addclone)(IMasterSlide) | Agrega una copia de una diapositiva maestra especificada al final de la colección. Las diapositivas de diseño vinculadas también se copiarán. |
-| [CopyTo](../../aspose.slides/masterslidecollection/copyto)(Array, int) | Copia todos los elementos de la colección al arreglo especificado. |
+| [CopyTo](../../aspose.slides/masterslidecollection/copyto)(Array, int) | Copia todos los elementos de la colección al array especificado. |
 | [GetEnumerator](../../aspose.slides/masterslidecollection/getenumerator)() | Devuelve un enumerador que itera a través de la colección. |
 | [InsertClone](../../aspose.slides/masterslidecollection/insertclone)(int, IMasterSlide) | Inserta una copia de una diapositiva maestra especificada en la posición indicada de la colección. Las diapositivas de diseño vinculadas también se copiarán. |
 | [Remove](../../aspose.slides/masterslidecollection/remove)(IMasterSlide) | Elimina la primera aparición de un objeto específico de la colección. |

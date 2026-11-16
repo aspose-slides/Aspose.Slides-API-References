@@ -1,14 +1,14 @@
 ---
 title: ISmartArtShapeCollection
-second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Biểu diễn một tập hợp các hình dạng SmartArt
+second_title: Tham khảo API Aspose.Sildes cho .NET
+description: Biểu thị một tập hợp các hình SmartArt
 type: docs
-weight: 10580
+weight: 10600
 url: /vi/aspose.slides.smartart/ismartartshapecollection/
 ---
-## ISmartArtShapeCollection interface
+## ISmartArtShapeCollection giao diện
 
-Biểu diễn một tập hợp các hình dạng SmartArt
+Biểu thị một tập hợp các hình SmartArt
 
 ```csharp
 public interface ISmartArtShapeCollection : IGenericCollection<ISmartArtShape>
@@ -18,9 +18,9 @@ public interface ISmartArtShapeCollection : IGenericCollection<ISmartArtShape>
 
 | Tên | Mô tả |
 | --- | --- |
-| [Item](../../aspose.slides.smartart/ismartartshapecollection/item) { get; } | Lấy phần tử tại chỉ mục đã chỉ định. Chỉ đọc [`ISmartArtShape`](../ismartartshape). Chỉ mục bắt đầu từ 0 của phần tử |
+| [Item](../../aspose.slides.smartart/ismartartshapecollection/item) { get; } | Lấy phần tử tại chỉ số chỉ định. Chỉ đọc [`ISmartArtShape`](../ismartartshape). Chỉ số bắt đầu từ 0 của phần tử |
 
-### Xem thêm
+### Xem Thêm
 
 * giao diện [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * giao diện [ISmartArtShape](../ismartartshape)

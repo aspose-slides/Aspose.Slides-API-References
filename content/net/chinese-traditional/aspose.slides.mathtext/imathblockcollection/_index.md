@@ -3,12 +3,12 @@ title: IMathBlockCollection
 second_title: Aspose.Sildes for .NET API 參考
 description: 數學區塊 IMathBlock 的集合
 type: docs
-weight: 8150
+weight: 8170
 url: /zh-hant/aspose.slides.mathtext/imathblockcollection/
 ---
 ## IMathBlockCollection 介面
 
-Collection of math blocks (IMathBlock) 的集合
+Collection of math blocks (IMathBlock)
 
 ```csharp
 public interface IMathBlockCollection : IEnumerable<IMathBlock>
@@ -18,25 +18,25 @@ public interface IMathBlockCollection : IEnumerable<IMathBlock>
 
 | 名稱 | 說明 |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.mathtext/imathblockcollection/asienumerable) { get; } | 允許取得基礎 IEnumerable 介面 |
-| [Count](../../aspose.slides.mathtext/imathblockcollection/count) { get; } | 取得集合實際包含的元素數量。唯讀 Int32。 |
-| [Item](../../aspose.slides.mathtext/imathblockcollection/item) { get; set; } | 取得指定索引處的項目。唯讀 [`IMathBlock`](../imathblock)。 |
+| [AsIEnumerable](../../aspose.slides.mathtext/imathblockcollection/asienumerable) { get; } | 允許取得基礎 IEnumerable 介面 IEnumerable |
+| [Count](../../aspose.slides.mathtext/imathblockcollection/count) { get; } | 取得集合實際包含的元素數量。只讀 Int32。 |
+| [Item](../../aspose.slides.mathtext/imathblockcollection/item) { get; set; } | 取得指定索引處的項目。只讀 [`IMathBlock`](../imathblock)。 |
 
 ## 方法
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Add](../../aspose.slides.mathtext/imathblockcollection/add)(IMathBlock) | 將 IMathBlock 新增至集合的末端。 |
+| [Add](../../aspose.slides.mathtext/imathblockcollection/add)(IMathBlock) | 將 IMathBlock 加入集合的末尾。 |
 | [Clear](../../aspose.slides.mathtext/imathblockcollection/clear)() | 從集合中移除所有元素。 |
 | [Contains](../../aspose.slides.mathtext/imathblockcollection/contains)(IMathBlock) | 判斷集合是否包含特定值。 |
-| [IndexOf](../../aspose.slides.mathtext/imathblockcollection/indexof)(IMathBlock) | 取得特定 IMathBlock 在集合中的索引。 |
+| [IndexOf](../../aspose.slides.mathtext/imathblockcollection/indexof)(IMathBlock) | 判斷集合中特定 IMathBlock 的索引。 |
 | [Insert](../../aspose.slides.mathtext/imathblockcollection/insert)(int, IMathBlock) | 在指定索引處將 IMathBlock 插入集合。 |
-| [Remove](../../aspose.slides.mathtext/imathblockcollection/remove)(IMathBlock) | 移除集合中特定物件的第一個出現。 |
-| [RemoveAt](../../aspose.slides.mathtext/imathblockcollection/removeat)(int) | 從集合中移除指定索引處的項目。 |
+| [Remove](../../aspose.slides.mathtext/imathblockcollection/remove)(IMathBlock) | 從集合中移除第一個出現的特定物件/&gt;。 |
+| [RemoveAt](../../aspose.slides.mathtext/imathblockcollection/removeat)(int) | 移除集合中指定索引處的項目。 |
 
 ### 範例
 
-Example:
+範例：
 
 ```csharp
 [C#]

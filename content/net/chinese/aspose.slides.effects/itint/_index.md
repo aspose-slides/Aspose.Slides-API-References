@@ -1,14 +1,14 @@
 ---
 title: ITint
 second_title: Aspose.Sildes for .NET API 参考
-description: 表示一种 Tint 效果。通过指定的量将效果颜色值向色相移动或远离色相。
+description: 表示一种 Tint 效果。通过指定的量将效果的颜色值向色相靠近或远离。
 type: docs
-weight: 3540
+weight: 3560
 url: /zh/aspose.slides.effects/itint/
 ---
 ## ITint 接口
 
-表示一种 Tint 效果。通过指定的量将效果颜色值向色相移动或远离色相。
+表示一种 Tint 效果。通过指定的量将效果的颜色值向色相靠近或远离。
 
 ```csharp
 public interface ITint : IAccessiblePVIObject<ITintEffectiveData>, IImageTransformOperation

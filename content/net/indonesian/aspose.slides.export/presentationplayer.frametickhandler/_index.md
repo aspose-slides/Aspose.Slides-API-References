@@ -1,14 +1,14 @@
 ---
 title: PresentationPlayer.FrameTickHandler
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili penangkap tick frame dari peristiwa FrameTick./presentationplayer/frametick.
+description: Mewakili penangani tick frame dari peristiwa FrameTick./presentationplayer/frametick.
 type: docs
-weight: 4400
+weight: 4420
 url: /id/aspose.slides.export/presentationplayer.frametickhandler/
 ---
-## PresentationPlayer.FrameTickHandler delegasi
+## PresentationPlayer.FrameTickHandler delegate
 
-Mewakili penangkap tick frame dari peristiwa [`FrameTick`](../presentationplayer/frametick).
+Mewakili penangani tick frame dari peristiwa [`FrameTick`](../presentationplayer/frametick).
 
 ```csharp
 public delegate void FrameTickHandler(PresentationPlayer sender, FrameTickEventArgs args);
@@ -17,7 +17,7 @@ public delegate void FrameTickHandler(PresentationPlayer sender, FrameTickEventA
 | Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | sender | PresentationPlayer | Pengirim peristiwa tick frame. |
-| args | FrameTickEventArgs | Argumen tick frame. |
+| args | FrameTickEventArgs | Argument tick frame. |
 
 ### Lihat Juga
 

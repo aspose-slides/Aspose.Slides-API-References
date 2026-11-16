@@ -1,14 +1,14 @@
 ---
 title: MathLimitLocations
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Position der Grenzen (Tief-/Hochstellung) bei n-ary Operatoren.
+description: Position von Grenzen (Tief-/Hochstellung) in n-ary Operatoren.
 type: docs
-weight: 8840
+weight: 8860
 url: /de/aspose.slides.mathtext/mathlimitlocations/
 ---
 ## MathLimitLocations Aufzählung
 
-Position der Grenzen (Tief-/Hochstellung) bei n-stelligen Operatoren.
+Position von Grenzen (Tief- / Hochstellung) in n-Ary-Operatoren.
 
 ```csharp
 public enum MathLimitLocations
@@ -19,8 +19,8 @@ public enum MathLimitLocations
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
 | NotDefined | `0` | Nicht definiert |
-| UnderOver | `1` | Grenzen werden oben und unten am Operatorsymbol gezeichnet |
-| SubscriptSuperscript | `2` | Grenzen werden als Tiefstellung und Hochstellung gezeichnet |
+| UnderOver | `1` | Grenzen werden oben und unten des Operatorsymbols gezeichnet |
+| SubscriptSuperscript | `2` | Grenzen werden als Tief- bzw. Hochstellung gezeichnet |
 
 ### Siehe auch
 

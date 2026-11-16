@@ -1,14 +1,14 @@
 ---
 title: IMasterSlideHeaderFooterManager
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili manajer yang memegang perilaku placeholder footer slide master, placeholder tanggal-waktu, placeholder nomor halaman, dan semua placeholder anak. Placeholder anak berarti placeholder yang berada pada slide layout tergantung dan slide tergantung. Slide layout tergantung dan slide menggunakan serta bergantung pada slide master.
+description: Mewakili manajer yang menyimpan perilaku placeholder footer slide master, tanggal-waktu, nomor halaman, dan semua placeholder anak. Placeholder anak berarti placeholder berada pada slide tata letak tergantung dan slide tergantung. Slide tata letak tergantung dan slide tergantung menggunakan dan bergantung pada slide master.
 type: docs
-weight: 6440
+weight: 6460
 url: /id/aspose.slides/imasterslideheaderfootermanager/
 ---
 ## IMasterSlideHeaderFooterManager antarmuka
 
-Mewakili manajer yang memegang perilaku placeholder footer slide master, placeholder tanggal-waktu, placeholder nomor halaman, dan semua placeholder anak. Placeholder anak berarti placeholder yang berada pada slide layout tergantung dan slide tergantung. Slide layout tergantung dan slide menggunakan serta bergantung pada slide master.
+Represents manager which holds behavior of the master slide footer, date-time, page number placeholders and all child placeholders. Child placeholders mean placeholders are contained on depending layout slides and depending slides. Depending layout slides and slides use and depend on master slide.
 
 ```csharp
 public interface IMasterSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
@@ -18,17 +18,17 @@ public interface IMasterSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIBaseSlideHeaderFooterManager](../../aspose.slides/imasterslideheaderfootermanager/asibaseslideheaderfootermanager) { get; } | Mengembalikan IBaseSlideHeaderFooterManager antarmuka. |
+| [AsIBaseSlideHeaderFooterManager](../../aspose.slides/imasterslideheaderfootermanager/asibaseslideheaderfootermanager) { get; } | Mengembalikan antarmuka IBaseSlideHeaderFooterManager. |
 
 ## Metode
 
 | Nama | Deskripsi |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Mengatur teks pada placeholder tanggal-waktu slide master dan semua placeholder tanggal-waktu anak. Placeholder anak berarti placeholder yang berada pada slide layout tergantung dan slide tergantung. Slide layout tergantung dan slide menggunakan serta bergantung pada slide master. |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Mengubah visibilitas placeholder tanggal-waktu slide master dan semua placeholder tanggal-waktu anak. Placeholder anak berarti placeholder yang berada pada slide layout tergantung dan slide tergantung. Slide layout tergantung dan slide menggunakan serta bergantung pada slide master. |
-| [SetFooterAndChildFootersText](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfooterstext)(string) | Mengatur teks pada placeholder footer slide master dan semua placeholder footer anak. Placeholder anak berarti placeholder yang berada pada slide layout tergantung dan slide tergantung. Slide layout tergantung dan slide menggunakan serta bergantung pada slide master. |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Mengubah visibilitas placeholder footer slide master dan semua placeholder footer anak. Placeholder anak berarti placeholder yang berada pada slide layout tergantung dan slide tergantung. Slide layout tergantung dan slide menggunakan serta bergantung pada slide master. |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Mengubah visibilitas placeholder nomor halaman slide master dan semua placeholder nomor halaman anak. Placeholder anak berarti placeholder yang berada pada slide layout tergantung dan slide tergantung. Slide layout tergantung dan slide menggunakan serta bergantung pada slide master. |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Mengatur teks ke placeholder tanggal-waktu slide master dan semua placeholder tanggal-waktu anak. Placeholder anak berarti placeholder berada pada slide tata letak tergantung dan slide tergantung. Slide tata letak tergantung dan slide tergantung menggunakan dan bergantung pada slide master. |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Mengubah visibilitas placeholder tanggal-waktu slide master dan semua placeholder tanggal-waktu anak. Placeholder anak berarti placeholder berada pada slide tata letak tergantung dan slide tergantung. Slide tata letak tergantung dan slide tergantung menggunakan dan bergantung pada slide master. |
+| [SetFooterAndChildFootersText](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfooterstext)(string) | Mengatur teks ke placeholder footer slide master dan semua placeholder footer anak. Placeholder anak berarti placeholder berada pada slide tata letak tergantung dan slide tergantung. Slide tata letak tergantung dan slide tergantung menggunakan dan bergantung pada slide master. |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Mengubah visibilitas placeholder footer slide master dan semua placeholder footer anak. Placeholder anak berarti placeholder berada pada slide tata letak tergantung dan slide tergantung. Slide tata letak tergantung dan slide tergantung menggunakan dan bergantung pada slide master. |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Mengubah visibilitas placeholder nomor halaman slide master dan semua placeholder nomor halaman anak. Placeholder anak berarti placeholder berada pada slide tata letak tergantung dan slide tergantung. Slide tata letak tergantung dan slide tergantung menggunakan dan bergantung pada slide master. |
 
 ### Lihat Juga
 

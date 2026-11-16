@@ -1,14 +1,14 @@
 ---
 title: IChartData
 second_title: Aspose.Sildes لـ .NET مرجع API
-description: يمثل البيانات المستخدمة في رسم المخطط.
+description: يمثل البيانات المستخدمة لتخطيط مخطط.
 type: docs
-weight: 1800
+weight: 1820
 url: /ar/aspose.slides.charts/ichartdata/
 ---
 ## IChartData واجهة
 
-يمثل البيانات المستخدمة في رسم المخطط.
+يمثل البيانات المستخدمة لرسم المخطط.
 
 ```csharp
 public interface IChartData
@@ -18,31 +18,32 @@ public interface IChartData
 
 | الاسم | الوصف |
 | --- | --- |
-| [Categories](../../aspose.slides.charts/ichartdata/categories) { get; } | يجلب الفئات الأساسية (أو كل من الفئات الأساسية والثانوية إذا كانت الخاصية [`UseSecondaryCategories`](./usesecondarycategories) خاطئة). قراءة فقط [`IChartCategoryCollection`](../ichartcategorycollection). |
-| [ChartDataWorkbook](../../aspose.slides.charts/ichartdata/chartdataworkbook) { get; } | يجلب مصنع الخلايا لإنشاء الخلايا المستخدمة في سلسلة المخطط أو الفئات. قراءة فقط [`IChartDataWorkbook`](../ichartdataworkbook). |
-| [DataSourceType](../../aspose.slides.charts/ichartdata/datasourcetype) { get; } | يمثل مصدر بيانات المخطط. |
-| [EmbeddedWorkbookType](../../aspose.slides.charts/ichartdata/embeddedworkbooktype) { get; } | يجلب نوع دفتر العمل المدمج. يرجع NotDefined إذا كان [`DataSourceType`](./datasourcetype) هو ExternalWorkbook. قراءة فقط [`WorkbookType`](../workbooktype). |
-| [ExternalWorkbookPath](../../aspose.slides.charts/ichartdata/externalworkbookpath) { get; } | يمثل مسار دفتر العمل الخارجي إذا كان مصدر البيانات خارجيًا، وإلا يكون null. |
-| [SecondaryCategories](../../aspose.slides.charts/ichartdata/secondarycategories) { get; } | يجلب الفئات الثانوية إذا كانت الخاصية [`UseSecondaryCategories`](./usesecondarycategories) صحيحة. قراءة فقط [`IChartCategoryCollection`](../ichartcategorycollection). |
-| [Series](../../aspose.slides.charts/ichartdata/series) { get; } | يجلب السلسلة. قراءة فقط [`IChartSeriesCollection`](../ichartseriescollection). |
-| [SeriesGroups](../../aspose.slides.charts/ichartdata/seriesgroups) { get; } | يجلب مجموعات السلاسل. قراءة فقط [`IChartSeriesGroupCollection`](../ichartseriesgroupcollection). |
-| [UseSecondaryCategories](../../aspose.slides.charts/ichartdata/usesecondarycategories) { get; set; } | إذا كانت false فإن الخاصية [`SecondaryCategories`](./secondarycategories) تُعيد null وتُستَخدم البيانات في الخاصية [`Categories`](./categories) لكل من السلسلات الأساسية والثانوية. إذا كانت true تُستَخدم البيانات في الخاصية [`SecondaryCategories`](./secondarycategories) للسلسلات الثانوية والبيانات في الخاصية [`Categories`](./categories) للسلسلات الأساسية. قراءة/كتابة Boolean. |
+| [Categories](../../aspose.slides.charts/ichartdata/categories) { get; } | يجلب الفئات الأساسية (أو كلً من الفئات الأساسية والثانوية إذا كانت الخاصية [`UseSecondaryCategories`](./usesecondarycategories) غير صحيحة). للقراءة فقط [`IChartCategoryCollection`](../ichartcategorycollection). |
+| [ChartDataWorkbook](../../aspose.slides.charts/ichartdata/chartdataworkbook) { get; } | يجلب مصنع الخلايا لإنشاء الخلايا المستخدمة لسلاسل المخطط أو الفئات. للقراءة فقط [`IChartDataWorkbook`](../ichartdataworkbook). |
+| [DataSourceType](../../aspose.slides.charts/ichartdata/datasourcetype) { get; } | يمثل مصدر البيانات للمخطط |
+| [EmbeddedWorkbookType](../../aspose.slides.charts/ichartdata/embeddedworkbooktype) { get; } | يجلب نوع دفتر العمل المضمن. يُرجع NotDefined إذا كان [`DataSourceType`](./datasourcetype) هو ExternalWorkbook. للقراءة فقط [`WorkbookType`](../workbooktype). |
+| [ExternalWorkbookPath](../../aspose.slides.charts/ichartdata/externalworkbookpath) { get; } | يمثل مسار دفتر العمل الخارجي إذا كان مصدر البيانات خارجيًا، وإلا null |
+| [SecondaryCategories](../../aspose.slides.charts/ichartdata/secondarycategories) { get; } | يجلب الفئات الثانوية إذا كانت الخاصية [`UseSecondaryCategories`](./usesecondarycategories) صحيحة. للقراءة فقط [`IChartCategoryCollection`](../ichartcategorycollection). |
+| [Series](../../aspose.slides.charts/ichartdata/series) { get; } | يجلب السلاسل. للقراءة فقط [`IChartSeriesCollection`](../ichartseriescollection). |
+| [SeriesGroups](../../aspose.slides.charts/ichartdata/seriesgroups) { get; } | يجلب مجموعات السلاسل. للقراءة فقط [`IChartSeriesGroupCollection`](../ichartseriesgroupcollection). |
+| [UseSecondaryCategories](../../aspose.slides.charts/ichartdata/usesecondarycategories) { get; set; } | إذا كان false فإن الخاصية [`SecondaryCategories`](./secondarycategories) تُرجع null ويتم استخدام البيانات في الخاصية [`Categories`](./categories) لكل من السلاسل الأساسية والثانوية. إذا كان true فإن البيانات في الخاصية [`SecondaryCategories`](./secondarycategories) تُستخدم للسلاسل الثانوية والبيانات في الخاصية [`Categories`](./categories) تُستخدم للسلاسل الأساسية. قراءة/كتابة Boolean. |
 
 ## الطرق
 
 | الاسم | الوصف |
 | --- | --- |
 | [GetRange](../../aspose.slides.charts/ichartdata/getrange)() | يجلب نطاق بيانات المخطط. |
-| [ReadWorkbookStream](../../aspose.slides.charts/ichartdata/readworkbookstream)() | يكتب دفتر عمل Excel المتضمن داخليًا إلى تدفق في الذاكرة. |
-| [SetExternalWorkbook](../../aspose.slides.charts/ichartdata/setexternalworkbook#setexternalworkbook)(string) | يضبط دفتر العمل الخارجي كمصدر للبيانات للمخطط. سيتم تحديث بيانات المخطط من دفتر العمل الهدف. |
-| [SetExternalWorkbook](../../aspose.slides.charts/ichartdata/setexternalworkbook#setexternalworkbook_1)(string, bool) | يضبط دفتر العمل الخارجي كمصدر للبيانات للمخطط. |
-| [SetRange](../../aspose.slides.charts/ichartdata/setrange)(string) | يضبط نطاق بيانات المخطط. سيتم تحديث السلاسل والفئات بناءً على نطاق البيانات الجديد. إذا كان عدد السلاسل في نطاق البيانات أكبر من عدد السلاسل في بيانات المخطط، فستُضاف سلاسل إضافية من نفس نوع السلسلة الأخيرة في المجموعة الحالية إلى نهاية المجموعة. |
-| [SwitchRowColumn](../../aspose.slides.charts/ichartdata/switchrowcolumn)() | يبدل البيانات عبر المحور. البيانات المرسومة على المحور X ستنتقل إلى المحور Y والعكس بالعكس. |
-| [WriteWorkbookStream](../../aspose.slides.charts/ichartdata/writeworkbookstream)(MemoryStream) | يُهيئ دفتر عمل Excel المتضمن داخليًا بالقيمة المحددة من قبل المستخدم. |
+| [ReadWorkbookStream](../../aspose.slides.charts/ichartdata/readworkbookstream)() | يكتب دفتر عمل Excel المحتوى داخليًا إلى تدفق في الذاكرة. |
+| [RefreshData](../../aspose.slides.charts/ichartdata/refreshdata)() | يقوم بتحديث بيانات المخطط بإعادة تحميلها من دفتر العمل المصدر. |
+| [SetExternalWorkbook](../../aspose.slides.charts/ichartdata/setexternalworkbook#setexternalworkbook)(string) | يضبط دفتر العمل الخارجي كمصدر بيانات للمخطط. سيتم تحديث بيانات المخطط من دفتر العمل الهدف. |
+| [SetExternalWorkbook](../../aspose.slides.charts/ichartdata/setexternalworkbook#setexternalworkbook_1)(string, bool) | يضبط دفتر العمل الخارجي كمصدر بيانات للمخطط. |
+| [SetRange](../../aspose.slides.charts/ichartdata/setrange)(string) | يضبط نطاق بيانات المخطط. سوف يتم تحديث السلاسل والفئات بناءً على نطاق البيانات الجديد. إذا كان عدد السلاسل في نطاق البيانات أكبر من عدد السلاسل في بيانات المخطط، فسيُضاف سلسلة إضافية من نفس النوع كسلسلة الأخيرة في المجموعة الحالية إلى نهاية المجموعة. |
+| [SwitchRowColumn](../../aspose.slides.charts/ichartdata/switchrowcolumn)() | تبديل البيانات عبر المحور. البيانات المرسومة على المحور X ستنتقل إلى المحور Y والعكس بالعكس. |
+| [WriteWorkbookStream](../../aspose.slides.charts/ichartdata/writeworkbookstream)(MemoryStream) | يُهيئ دفتر عمل Excel المحتوى داخليًا بالقيمة المحددة من قبل المستخدم. |
 
-### انظر أيضًا
+### انظر أيضاً
 
-* المساحة الاسمية [Aspose.Slides.Charts](../../aspose.slides.charts)
-* التجميع [Aspose.Slides](../../)
+* نطاق الاسم [Aspose.Slides.Charts](../../aspose.slides.charts)
+* مجمع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

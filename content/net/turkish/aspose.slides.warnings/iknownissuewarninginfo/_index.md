@@ -1,14 +1,14 @@
 ---
 title: IKnownIssueWarningInfo
 second_title: Aspose.Sildes için .NET API Referansı
-description: Yakın gelecekte düzeltilmeyecek bilinen bir sorunla ilgili bir uyarıyı temsil eder.
+description: Yakın gelecekte düzeltilmeyecek bilinen bir sorunla ilgili uyarıyı temsil eder.
 type: docs
-weight: 11760
+weight: 11780
 url: /tr/aspose.slides.warnings/iknownissuewarninginfo/
 ---
 ## IKnownIssueWarningInfo arayüz
 
-Yakın gelecekte düzeltilemeyecek bilinen bir sorun hakkında uyarıyı temsil eder.
+Yakın gelecekte düzeltilmeyecek bilinen bir sorunla ilgili uyarıyı temsil eder.
 
 ```csharp
 public interface IKnownIssueWarningInfo : IWarningInfo
@@ -18,9 +18,9 @@ public interface IKnownIssueWarningInfo : IWarningInfo
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIWarningInfo](../../aspose.slides.warnings/iknownissuewarninginfo/asiwarninginfo) { get; } | IWarningInfo arayüzünü döndürür. Salt okunur [`IWarningInfo`](../iwarninginfo). |
+| [AsIWarningInfo](../../aspose.slides.warnings/iknownissuewarninginfo/asiwarninginfo) { get; } | IWarningInfo arayüzünü döndürür. Yalnızca okunur [`IWarningInfo`](../iwarninginfo). |
 
-### Diğer Bağlantılar
+### İlgili
 
 * arayüz [IWarningInfo](../iwarninginfo)
 * ad alanı [Aspose.Slides.Warnings](../../aspose.slides.warnings)

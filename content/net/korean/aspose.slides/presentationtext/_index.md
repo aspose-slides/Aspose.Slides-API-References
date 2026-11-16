@@ -1,14 +1,14 @@
 ---
 title: PresentationText
-second_title: Aspose.Sildes .NET API 레퍼런스
-description: 프레젠테이션에서 추출한 텍스트를 나타냅니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: 프레젠테이션에서 추출한 텍스트를 나타냅니다
 type: docs
-weight: 9640
+weight: 9660
 url: /ko/aspose.slides/presentationtext/
 ---
 ## PresentationText 클래스
 
-프레젠테이션에서 추출한 텍스트를 나타냅니다.
+프레젠테이션에서 추출한 텍스트를 나타냅니다
 
 ```csharp
 public class PresentationText : IPresentationText
@@ -18,9 +18,9 @@ public class PresentationText : IPresentationText
 
 | 이름 | 설명 |
 | --- | --- |
-| [SlidesText](../../aspose.slides/presentationtext/slidestext) { get; } | [`SlideText`](../islidetext)의 배열은 프레젠테이션의 텍스트를 포함합니다. |
+| [SlidesText](../../aspose.slides/presentationtext/slidestext) { get; } | [`SlideText`](../islidetext) 배열은 프레젠테이션의 텍스트를 포함합니다. |
 
-### 참고
+### 참조
 
 * 인터페이스 [IPresentationText](../ipresentationtext)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

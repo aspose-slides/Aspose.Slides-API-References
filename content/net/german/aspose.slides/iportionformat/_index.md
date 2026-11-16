@@ -1,14 +1,14 @@
 ---
 title: IPortionFormat
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Diese Klasse enthält die Formatierungseigenschaften des Textabschnitts. Im Gegensatz zu IPortionFormatEffectiveData./iportionformateffectivedata sind alle Eigenschaften dieser Klasse beschreibbar.
+description: Diese Klasse enthält die Formatierungseigenschaften des Textabschnitts. Im Gegensatz zu IPortionFormatEffectiveData./iportionformateffectivedata sind alle Eigenschaften dieser Klasse schreibbar.
 type: docs
-weight: 6730
+weight: 6750
 url: /de/aspose.slides/iportionformat/
 ---
 ## IPortionFormat Schnittstelle
 
-Diese Klasse enthält die Textabschnitt-Formatierungseigenschaften. Im Gegensatz zu [`IPortionFormatEffectiveData`](../iportionformateffectivedata) sind alle Eigenschaften dieser Klasse schreibbar.
+Diese Klasse enthält die Formatierungseigenschaften des Textabschnitts. Im Gegensatz zu [`IPortionFormatEffectiveData`](../iportionformateffectivedata) sind alle Eigenschaften dieser Klasse schreibbar.
 
 ```csharp
 public interface IPortionFormat : IBasePortionFormat, IHyperlinkContainer
@@ -18,22 +18,22 @@ public interface IPortionFormat : IBasePortionFormat, IHyperlinkContainer
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIBasePortionFormat](../../aspose.slides/iportionformat/asibaseportionformat) { get; } | Gibt die IBasePortionFormat-Schnittstelle zurück. Read-only [`IBasePortionFormat`](../ibaseportionformat). |
-| [AsIHyperlinkContainer](../../aspose.slides/iportionformat/asihyperlinkcontainer) { get; } | Ermöglicht das Abrufen der Basis-IHyperlinkContainer-Schnittstelle. Read-only [`IHyperlinkContainer`](../ihyperlinkcontainer). |
-| [BookmarkId](../../aspose.slides/iportionformat/bookmarkid) { get; set; } | Gibt die Lesezeichenkennung zurück oder setzt sie. Read/write String. |
-| [SmartTagClean](../../aspose.slides/iportionformat/smarttagclean) { get; set; } | Bestimmt, ob das Smart-Tag bereinigt werden soll. Keine Vererbung angewendet. Read/write Boolean. |
+| [AsIBasePortionFormat](../../aspose.slides/iportionformat/asibaseportionformat) { get; } | Gibt die IBasePortionFormat-Schnittstelle zurück. Nur lesbar [`IBasePortionFormat`](../ibaseportionformat). |
+| [AsIHyperlinkContainer](../../aspose.slides/iportionformat/asihyperlinkcontainer) { get; } | Ermöglicht das Abrufen der Basis-IHyperlinkContainer-Schnittstelle. Nur lesbar [`IHyperlinkContainer`](../ihyperlinkcontainer). |
+| [BookmarkId](../../aspose.slides/iportionformat/bookmarkid) { get; set; } | Gibt den Lesezeichenbezeichner zurück oder legt ihn fest. Lesen/Schreiben String. |
+| [SmartTagClean](../../aspose.slides/iportionformat/smarttagclean) { get; set; } | Bestimmt, ob das SmartTag bereinigt werden soll. Keine Vererbung angewendet. Lesen/Schreiben Boolean. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [GetEffective](../../aspose.slides/iportionformat/geteffective)() | Ruft die wirksamen Abschnittsformatierungsdaten mit angewandter Vererbung ab. |
+| [GetEffective](../../aspose.slides/iportionformat/geteffective)() | Ruft die effektiven Formatierungsdaten des Abschnitts ab, wobei die Vererbung angewendet wird. |
 
-### Anmerkungen
+### Bemerkungen
 
-Diese Klasse wird verwendet, um die für den jeweiligen Abschnitt definierten Textabschnitt-Formatierungseigenschaften zurückzugeben und zu bearbeiten. Das bedeutet, dass beim Abrufen von Werten keine Vererbung angewendet wird, sodass Sie in den meisten Fällen Werte erhalten, die „undefiniert“ bedeuten.
+Diese Klasse wird verwendet, um die für den jeweiligen Abschnitt definierten Formatierungseigenschaften des Textabschnitts zurückzugeben und zu manipulieren. Das bedeutet, dass beim Abrufen von Werten keine Vererbung angewendet wird, sodass Sie in den meisten Fällen Werte erhalten, die „undefiniert“ bedeuten.
 
-Um die wirksamen Formatierungsparameterwerte einschließlich vererbter Werte zu erhalten, müssen Sie die [`GetEffective`](./geteffective)-Methode verwenden, die eine [`IPortionFormatEffectiveData`](../iportionformateffectivedata)-Instanz zurückgibt.
+Um die effektiven Formatierungsparameterwerte einschließlich geerbter Werte zu erhalten, müssen Sie die [`GetEffective`](./geteffective)-Methode verwenden, die eine [`IPortionFormatEffectiveData`](../iportionformateffectivedata)-Instanz zurückgibt.
 
 ### Siehe auch
 

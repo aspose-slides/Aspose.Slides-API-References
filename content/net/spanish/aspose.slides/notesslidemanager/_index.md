@@ -1,9 +1,9 @@
 ---
 title: NotesSlideManager
-second_title: Aspose.Sildes para la referencia de API de .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Administrador de diapositivas de notas.
 type: docs
-weight: 9160
+weight: 9180
 url: /es/aspose.slides/notesslidemanager/
 ---
 ## NotesSlideManager clase
@@ -18,7 +18,7 @@ public sealed class NotesSlideManager : DomObject<Slide>, INotesSlideManager
 
 | Nombre | Descripción |
 | --- | --- |
-| [NotesSlide](../../aspose.slides/notesslidemanager/notesslide) { get; } | Devuelve la diapositiva de notas para la diapositiva actual. Devuelve null si la diapositiva no tiene una diapositiva de notas. Solo lectura [`INotesSlide`](../inotesslide). |
+| [NotesSlide](../../aspose.slides/notesslidemanager/notesslide) { get; } | Devuelve la diapositiva de notas para la diapositiva actual. Devuelve null si la diapositiva no tiene diapositiva de notas. Sólo lectura [`INotesSlide`](../inotesslide). |
 
 ## Métodos
 
@@ -35,7 +35,7 @@ El siguiente ejemplo muestra cómo agregar notas a una diapositiva específica d
 [C#]
 	// Instanciar un objeto Presentation que representa un archivo de presentación
 	using(Presentation presentation = new Presentation(dataDir + "AccessSlides.pptx")) {
-	  // Agregar notas a la primera diapositiva
+	  // Añadir notas a la primera diapositiva
 	  INotesSlideManager mgr = presentation.Slides[0].NotesSlideManager;
 	  INotesSlide noteSlide = mgr.AddNotesSlide();
 	  noteSlide.NotesTextFrame.Text = "Your Notes";
@@ -44,13 +44,13 @@ El siguiente ejemplo muestra cómo agregar notas a una diapositiva específica d
 	}
 ```
 
-El siguiente ejemplo muestra cómo eliminar notas de una diapositiva específica de una presentación de PowerPoint.
+El siguiente ejemplo muestra cómo eliminar notas de la diapositiva específica de una presentación de PowerPoint.
 
 ```csharp
 [C#]
 	// Instanciar un objeto Presentation que representa un archivo de presentación
 	using(Presentation presentation = new Presentation(dataDir + "AccessSlides.pptx")) {
-	  // Eliminando notas de la primera diapositiva
+	  // Eliminar notas de la primera diapositiva
 	  INotesSlideManager mgr = presentation.Slides[0].NotesSlideManager;
 	  mgr.RemoveNotesSlide();
 	  // Guardar la presentación en disco

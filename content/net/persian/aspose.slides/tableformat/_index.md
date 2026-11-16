@@ -1,33 +1,33 @@
 ---
 title: TableFormat
-second_title: Aspose.Sildes برای .NET مرجع API
-description: نمایانگر فرمت یک جدول.
+second_title: مرجع API Aspose.Sildes برای .NET
+description: قالب یک جدول را نمایش می‌دهد.
 type: docs
-weight: 10870
+weight: 10890
 url: /fa/aspose.slides/tableformat/
 ---
 ## کلاس TableFormat
 
-نمایانگر فرمت یک جدول.
+نمایش‌دهنده قالب یک جدول.
 
 ```csharp
 public sealed class TableFormat : DomObject<Table>, ITableFormat
 ```
 
-## ویژگی‌ها
+## خواص
 
-| نام | توضیحات |
+| نام | توضیح |
 | --- | --- |
-| [FillFormat](../../aspose.slides/tableformat/fillformat) { get; } | یک شیء ویژگی‌های پر کردن جدول را برمی‌گرداند. فقط‌خواندنی [`IFillFormat`](../ifillformat). |
-| [Transparency](../../aspose.slides/tableformat/transparency) { get; set; } | شفافیت رنگ پرکننده را دریافت یا تنظیم می‌کند. خواندنی/نوشتنی Single. |
+| [FillFormat](../../aspose.slides/tableformat/fillformat) { get; } | یک شیء ویژگی‌های پرکردن جدول را برمی‌گرداند. فقط-خواندنی [`IFillFormat`](../ifillformat). |
+| [Transparency](../../aspose.slides/tableformat/transparency) { get; set; } | شفافیت رنگ پرکردن را دریافت یا تنظیم می‌کند. خواندنی/نوشتنی Single. |
 
 ## متدها
 
-| نام | توضیحات |
+| نام | توضیح |
 | --- | --- |
-| [GetEffective](../../aspose.slides/tableformat/geteffective)() | ویژگی‌های فرمت جدول مؤثر را با به‌کارگیری وراثت و سبک‌های جدول دریافت می‌کند. |
+| [GetEffective](../../aspose.slides/tableformat/geteffective)() | ویژگی‌های قالب‌بندی جدول مؤثر را با به‌کارگیری ارث‌بری و سبک‌های جدول دریافت می‌کند. |
 
-### همچنین ببینید
+### مراجع
 
 * کلاس [DomObject&lt;TParent&gt;](../domobject-1)
 * کلاس [Table](../table)

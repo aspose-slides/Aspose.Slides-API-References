@@ -1,14 +1,14 @@
 ---
 title: ITabEffectiveData
-second_title: Aspose.Sildes .NET के लिए API संदर्भ
-description: अपरिवर्तनीय ऑब्जेक्ट जो प्रभावी पाठों के टैबुलेशन स्टॉप गुणों को समेटे हुए है।
+second_title: Aspose.Sildes के लिए .NET API रेफ़रेंस
+description: एक अपरिवर्तनीय ऑब्जेक्ट जिसमें प्रभावी टेक्स्ट की टैबुलेशन स्टॉप गुण होते हैं।
 type: docs
-weight: 7210
+weight: 7230
 url: /hi/aspose.slides/itabeffectivedata/
 ---
 ## ITabEffectiveData इंटरफ़ेस
 
-एक अपरिवर्तनीय वस्तु जो प्रभावी पाठ के टैबुलेशन स्टॉप गुणों को समेटे हुए है।
+एक अपरिवर्तनीय ऑब्जेक्ट जो प्रभावी टेक्स्ट के टैबुलेशन स्टॉप गुणों को रखता है।
 
 ```csharp
 public interface ITabEffectiveData : IComparable
@@ -18,15 +18,15 @@ public interface ITabEffectiveData : IComparable
 
 | नाम | विवरण |
 | --- | --- |
-| [Alignment](../../aspose.slides/itabeffectivedata/alignment) { get; } | एक टैब की संरेखण शैली लौटाता है। केवल पढ़ने योग्य [`TabAlignment`](../tabalignment). |
-| [AsIComparable](../../aspose.slides/itabeffectivedata/asicomparable) { get; } | IComparable इंटरफ़ेस लौटाता है। केवल पढ़ने योग्य IComparable. |
-| [Position](../../aspose.slides/itabeffectivedata/position) { get; } | एक टैब की स्थिति लौटाता है। इस गुण को असाइन करने से संग्रह में टैब का अनुक्रमांक बदल सकता है और Enumerator अमान्य हो सकता है। केवल पढ़ने योग्य Double. |
+| [Alignment](../../aspose.slides/itabeffectivedata/alignment) { get; } | टैब की संरेखण शैली लौटाता है। केवल पढ़ने योग्य [`TabAlignment`](../tabalignment)। |
+| [AsIComparable](../../aspose.slides/itabeffectivedata/asicomparable) { get; } | IComparable इंटरफ़ेस लौटाता है। केवल पढ़ने योग्य IComparable। |
+| [Position](../../aspose.slides/itabeffectivedata/position) { get; } | टैब की स्थिति लौटाता है। इस प्रॉपर्टी को असाइन करने से संग्रह में टैब का अनुक्रमांक बदल सकता है और Enumerator अमान्य हो सकता है। केवल पढ़ने योग्य Double। |
 
 ### टिप्पणियाँ
 
-यह इंटरफ़ेस [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata) का एक भाग के रूप में उपयोग किया जाता है।
+यह इंटरफ़ेस [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata) का हिस्सा के रूप में उपयोग किया जाता है।
 
-### संबंधित देखें
+### संबंधित
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

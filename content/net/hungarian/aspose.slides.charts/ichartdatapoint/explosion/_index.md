@@ -1,14 +1,14 @@
 ---
 title: Explosion
-second_title: Aspose.Sildes .NET API Referencia
-description: Meghatározza, hogy a diagramadat-pont mennyivel legyen eltolva a kördiagram középpontjától. Olvasás/írás Int32.
+second_title: Aspose.Sildes .NET API referencia
+description: Megadja, hogy mennyivel legyen eltolva az adatpont a kördiagram középpontjától. Olvasás/írás Int32.
 type: docs
-weight: 60
+weight: 100
 url: /hu/aspose.slides.charts/ichartdatapoint/explosion/
 ---
 ## IChartDataPoint.Explosion tulajdonság
 
-Meghatározza, hogy a diagramadat-pont mennyivel legyen eltolva a kördiagram középpontjától. Olvasás/írás Int32.
+Megadja, hogy mennyivel legyen eltolva az adatpont a kördiagram középpontjától. Olvasás/írás Int32.
 
 ```csharp
 public int Explosion { get; set; }

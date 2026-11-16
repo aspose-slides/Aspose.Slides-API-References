@@ -1,20 +1,20 @@
 ---
 title: TileFlip
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: กำหนดโหมดการพลิกไทล์
+description: กำหนดโหมดการพลิกไทล์.
 type: docs
-weight: 11500
+weight: 11520
 url: /th/aspose.slides/tileflip/
 ---
-## TileFlip ประเภท
+## TileFlip enum
 
-กำหนดโหมดการพลิกไทล์
+กำหนดโหมดการพลิกไทล์.
 
 ```csharp
 public enum TileFlip
 ```
 
-### ค่า
+### ค่าต่าง ๆ
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |

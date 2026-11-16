@@ -1,14 +1,14 @@
 ---
 title: IWheelTransition
-second_title: Aspose.Sildes для .NET Справочник API
-description: Эффект перехода слайда колеса.
+second_title: Aspose.Sildes для .NET справочник API
+description: Эффект перехода слайдов колеса.
 type: docs
-weight: 10220
+weight: 10240
 url: /ru/aspose.slides.slideshow/iwheeltransition/
 ---
 ## IWheelTransition интерфейс
 
-Эффект перехода колеса.
+Эффект перехода слайдов колеса.
 
 ```csharp
 public interface IWheelTransition : ITransitionValueBase

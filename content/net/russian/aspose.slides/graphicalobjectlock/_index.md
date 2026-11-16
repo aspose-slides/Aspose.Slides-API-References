@@ -1,14 +1,14 @@
 ---
 title: GraphicalObjectLock
-second_title: Aspose.Sildes для .NET API справка
+second_title: Aspose.Sildes для .NET Справочник API
 description: Определяет, какие операции отключены у родительского GraphicalObject.
 type: docs
-weight: 5080
+weight: 5100
 url: /ru/aspose.slides/graphicalobjectlock/
 ---
 ## GraphicalObjectLock класс
 
-Determines which operations are disabled on the parent GraphicalObject.
+Определяет, какие операции отключены у родительского GraphicalObject.
 
 ```csharp
 public class GraphicalObjectLock : BaseShapeLock, IGraphicalObjectLock
@@ -18,9 +18,9 @@ public class GraphicalObjectLock : BaseShapeLock, IGraphicalObjectLock
 
 | Имя | Описание |
 | --- | --- |
-| [AspectRatioLocked](../../aspose.slides/graphicalobjectlock/aspectratiolocked) { get; set; } | Определяет, должен ли объект сохранять соотношение сторон при изменении размера. Чтение/запись Boolean. |
-| [DrilldownLocked](../../aspose.slides/graphicalobjectlock/drilldownlocked) { get; set; } | Определяет, запрещён ли выбор вложенных фигур данного объекта. Чтение/запись Boolean. |
-| [GroupingLocked](../../aspose.slides/graphicalobjectlock/groupinglocked) { get; set; } | Определяет, запрещено ли добавление этой фигуры в группу. Чтение/запись Boolean. |
+| [AspectRatioLocked](../../aspose.slides/graphicalobjectlock/aspectratiolocked) { get; set; } | Определяет, должна ли фигура сохранять соотношение сторон при изменении размера. Чтение/запись Boolean. |
+| [DrilldownLocked](../../aspose.slides/graphicalobjectlock/drilldownlocked) { get; set; } | Определяет, запрещён ли выбор подфигур этого объекта. Чтение/запись Boolean. |
+| [GroupingLocked](../../aspose.slides/graphicalobjectlock/groupinglocked) { get; set; } | Определяет, запрещено ли добавлять эту фигуру в группу. Чтение/запись Boolean. |
 | [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Возвращает true, если все флаги блокировки отключены. Только чтение Boolean. |
 | [PositionLocked](../../aspose.slides/graphicalobjectlock/positionlocked) { get; set; } | Определяет, запрещено ли перемещение этой фигуры. Чтение/запись Boolean. |
 | [SelectLocked](../../aspose.slides/graphicalobjectlock/selectlocked) { get; set; } | Определяет, запрещён ли выбор этой фигуры. Чтение/запись Boolean. |

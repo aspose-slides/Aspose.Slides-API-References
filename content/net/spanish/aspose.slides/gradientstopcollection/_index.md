@@ -1,14 +1,14 @@
 ---
 title: GradientStopCollection
-second_title: Aspose.Sildes para la referencia de la API de .NET
-description: Representa una colección de paradas de degradado.
+second_title: Referencia de API de Aspose.Sildes para .NET
+description: Representa una colección de puntos de degradado.
 type: docs
-weight: 5030
+weight: 5050
 url: /es/aspose.slides/gradientstopcollection/
 ---
 ## GradientStopCollection clase
 
-Representa una colección de paradas de degradado.
+Representa una colección de puntos de degradado.
 
 ```csharp
 public sealed class GradientStopCollection : PVIObject, IGradientStopCollection
@@ -16,32 +16,32 @@ public sealed class GradientStopCollection : PVIObject, IGradientStopCollection
 
 ## Propiedades
 
-| Name | Description |
+| Nombre | Descripción |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permite obtener la interfaz base IPresentationComponent. Solo lectura [`IPresentationComponent`](../ipresentationcomponent). |
-| [Count](../../aspose.slides/gradientstopcollection/count) { get; } | Devuelve el número de paradas de degradado en una colección. Solo lectura Int32. |
+| [Count](../../aspose.slides/gradientstopcollection/count) { get; } | Devuelve el número de puntos de degradado en una colección. Solo lectura Int32. |
 | [IsSynchronized](../../aspose.slides/gradientstopcollection/issynchronized) { get; } | Devuelve un valor que indica si el acceso a la colección está sincronizado (seguro para subprocesos). Solo lectura Boolean. |
-| [Item](../../aspose.slides/gradientstopcollection/item) { get; } | Devuelve la parada de degradado por índice. |
+| [Item](../../aspose.slides/gradientstopcollection/item) { get; } | Devuelve el punto de degradado por índice. |
 | [SyncRoot](../../aspose.slides/gradientstopcollection/syncroot) { get; } | Devuelve una raíz de sincronización. Solo lectura Object. |
 
 ## Métodos
 
-| Name | Description |
+| Nombre | Descripción |
 | --- | --- |
-| [Add](../../aspose.slides/gradientstopcollection/add#add_2)(float, Color) | Crea una nueva parada de degradado y la agrega al final de la colección. |
-| [Add](../../aspose.slides/gradientstopcollection/add#add)(float, PresetColor) | Crea una nueva parada de degradado y la agrega al final de la colección. |
-| [Add](../../aspose.slides/gradientstopcollection/add#add_1)(float, SchemeColor) | Crea una nueva parada de degradado y la agrega al final de la colección. |
-| [Clear](../../aspose.slides/gradientstopcollection/clear)() | Elimina todas las paradas de degradado de una colección. |
+| [Add](../../aspose.slides/gradientstopcollection/add#add_2)(float, Color) | Crea el nuevo punto de degradado y lo agrega al final de la colección. |
+| [Add](../../aspose.slides/gradientstopcollection/add#add)(float, PresetColor) | Crea el nuevo punto de degradado y lo agrega al final de la colección. |
+| [Add](../../aspose.slides/gradientstopcollection/add#add_1)(float, SchemeColor) | Crea el nuevo punto de degradado y lo agrega al final de la colección. |
+| [Clear](../../aspose.slides/gradientstopcollection/clear)() | Elimina todos los puntos de degradado de una colección. |
 | [CopyTo](../../aspose.slides/gradientstopcollection/copyto)(Array, int) | Copia todos los elementos de la colección al array especificado. |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Compara con el objeto especificado. |
 | [GetEnumerator](../../aspose.slides/gradientstopcollection/getenumerator)() | Devuelve un enumerador que recorre la colección. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Devuelve el código hash. |
-| [Insert](../../aspose.slides/gradientstopcollection/insert#insert_2)(int, float, Color) | Crea una nueva parada de degradado y la inserta en el índice especificado de la colección. |
-| [Insert](../../aspose.slides/gradientstopcollection/insert#insert)(int, float, PresetColor) | Crea una nueva parada de degradado y la inserta en el índice especificado de la colección. |
-| [Insert](../../aspose.slides/gradientstopcollection/insert#insert_1)(int, float, SchemeColor) | Crea una nueva parada de degradado y la inserta en el índice especificado de la colección. |
-| [RemoveAt](../../aspose.slides/gradientstopcollection/removeat)(int) | Elimina una parada de degradado en el índice especificado. |
+| [Insert](../../aspose.slides/gradientstopcollection/insert#insert_2)(int, float, Color) | Crea el nuevo punto de degradado y lo inserta en el índice especificado de la colección. |
+| [Insert](../../aspose.slides/gradientstopcollection/insert#insert)(int, float, PresetColor) | Crea el nuevo punto de degradado y lo inserta en el índice especificado de la colección. |
+| [Insert](../../aspose.slides/gradientstopcollection/insert#insert_1)(int, float, SchemeColor) | Crea el nuevo punto de degradado y lo inserta en el índice especificado de la colección. |
+| [RemoveAt](../../aspose.slides/gradientstopcollection/removeat)(int) | Elimina un punto de degradado en el índice especificado. |
 
-### Ver también
+### Véase también
 
 * clase [PVIObject](../pviobject)
 * interfaz [IGradientStopCollection](../igradientstopcollection)

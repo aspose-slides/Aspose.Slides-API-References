@@ -1,14 +1,14 @@
 ---
 title: NotesSlideManager
-second_title: Aspose.Sildes .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 备注幻灯片管理器。
 type: docs
-weight: 9160
+weight: 9180
 url: /zh/aspose.slides/notesslidemanager/
 ---
 ## NotesSlideManager 类
 
-备注幻灯片管理器。
+Notes slide manager.
 
 ```csharp
 public sealed class NotesSlideManager : DomObject<Slide>, INotesSlideManager
@@ -33,7 +33,7 @@ public sealed class NotesSlideManager : DomObject<Slide>, INotesSlideManager
 
 ```csharp
 [C#]
-	// 实例化一个表示演示文稿文件的 Presentation 对象
+	// 实例化一个代表演示文稿文件的 Presentation 对象
 	using(Presentation presentation = new Presentation(dataDir + "AccessSlides.pptx")) {
 	  // 向第一张幻灯片添加备注
 	  INotesSlideManager mgr = presentation.Slides[0].NotesSlideManager;
@@ -48,7 +48,7 @@ public sealed class NotesSlideManager : DomObject<Slide>, INotesSlideManager
 
 ```csharp
 [C#]
-	// 实例化一个表示演示文稿文件的 Presentation 对象
+	// 实例化一个代表演示文稿文件的 Presentation 对象
 	using(Presentation presentation = new Presentation(dataDir + "AccessSlides.pptx")) {
 	  // 删除第一张幻灯片的备注
 	  INotesSlideManager mgr = presentation.Slides[0].NotesSlideManager;

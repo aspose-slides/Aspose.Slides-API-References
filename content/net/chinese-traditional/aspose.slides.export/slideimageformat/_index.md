@@ -1,14 +1,14 @@
 ---
 title: SlideImageFormat
 second_title: Aspose.Sildes for .NET API 參考
-description: 確定在匯出為 HTML 時，投影片影像將以何種格式儲存。
+description: 確定投影片影像在匯出為 HTML 時將以何種格式儲存。
 type: docs
-weight: 4470
+weight: 4490
 url: /zh-hant/aspose.slides.export/slideimageformat/
 ---
 ## SlideImageFormat 類別
 
-確定在匯出為 HTML 時，投影片影像將以何種格式儲存。
+確定在將投影片匯出為 HTML 時，投影片影像將以何種格式儲存。
 
 ```csharp
 public class SlideImageFormat : ISlideImageFormat
@@ -24,8 +24,8 @@ public class SlideImageFormat : ISlideImageFormat
 
 | 名稱 | 說明 |
 | --- | --- |
-| static [Bitmap](../../aspose.slides.export/slideimageformat/bitmap)(float, ImageFormat) | 投影片應轉換為點陣圖影像。 |
-| static [Svg](../../aspose.slides.export/slideimageformat/svg)(SVGOptions) | 投影片應轉換為 SVG 格式。 |
+| static [Bitmap](../../aspose.slides.export/slideimageformat/bitmap)(float, ImageFormat) | 投影片應該被轉換為點陣圖影像。 |
+| static [Svg](../../aspose.slides.export/slideimageformat/svg)(SVGOptions) | 投影片應該被轉換為 SVG 格式。 |
 
 ### 另請參閱
 

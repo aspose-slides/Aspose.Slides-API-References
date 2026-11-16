@@ -1,14 +1,14 @@
 ---
 title: GetEnumerator
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: ส่งคืน enumerator ที่ทำการวนผ่านคอลเลกชัน.
+description: คืนค่า enumerator ที่วนผ่านคอลเลกชัน.
 type: docs
-weight: 90
+weight: 100
 url: /th/aspose.slides.charts/datalabelcollection/getenumerator/
 ---
 ## DataLabelCollection.GetEnumerator เมธอด
 
-ส่งคืน enumerator ที่ทำการวนผ่านคอลเลกชัน.
+คืนค่า enumerator ที่วนผ่านคอลเลกชัน.
 
 ```csharp
 public IEnumerator<IDataLabel> GetEnumerator()

@@ -1,14 +1,14 @@
 ---
 title: ErrorBarsCustomValues
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Specificeert de waarden van de foutbalken. Deze mag alleen worden gebruikt wanneer het type foutbalkwaarde Custom is.
+description: Specificeert de foutbalkwaarden. Dit mag alleen worden gebruikt wanneer het Error bars value type Custom is.
 type: docs
-weight: 1660
+weight: 1670
 url: /nl/aspose.slides.charts/errorbarscustomvalues/
 ---
 ## ErrorBarsCustomValues klasse
 
-Specificeert de waarden van de foutbalken. Deze mag alleen worden gebruikt wanneer het type foutbalkwaarde Custom is.
+Specificeert de waarden van de foutbalken. Deze moet alleen worden gebruikt wanneer het type foutbalkwaarde Custom is.
 
 ```csharp
 public class ErrorBarsCustomValues : DomObject<ChartDataPoint>, IErrorBarsCustomValues
@@ -18,10 +18,10 @@ public class ErrorBarsCustomValues : DomObject<ChartDataPoint>, IErrorBarsCustom
 
 | Naam | Beschrijving |
 | --- | --- |
-| [XMinus](../../aspose.slides.charts/errorbarscustomvalues/xminus) { get; } | Specificeert de foutbalkwaarde in de negatieve richting. Beschikbaar als het type foutbalkwaarde Custom is en ErrorBarsXFormat is toegestaan. In alle andere gevallen geeft deze eigenschap null terug. Alleen-lezen [`IDoubleChartValue`](../idoublechartvalue). |
-| [XPlus](../../aspose.slides.charts/errorbarscustomvalues/xplus) { get; } | Specificeert de foutbalkwaarde in de positieve richting. Beschikbaar als het type foutbalkwaarde Custom is en ErrorBarsXFormat is toegestaan. In alle andere gevallen geeft deze eigenschap null terug. Alleen-lezen [`IDoubleChartValue`](../idoublechartvalue). |
-| [YMinus](../../aspose.slides.charts/errorbarscustomvalues/yminus) { get; } | Specificeert de foutbalkwaarde in de negatieve richting. Beschikbaar als het type foutbalkwaarde Custom is en ErrorBarsYFormat is toegestaan. In alle andere gevallen geeft deze eigenschap null terug. Alleen-lezen [`IDoubleChartValue`](../idoublechartvalue). |
-| [YPlus](../../aspose.slides.charts/errorbarscustomvalues/yplus) { get; } | Specificeert de foutbalkwaarde in de positieve richting. Beschikbaar als het type foutbalkwaarde Custom is en ErrorBarsYFormat is toegestaan. In alle andere gevallen geeft deze eigenschap null terug. Alleen-lezen [`IDoubleChartValue`](../idoublechartvalue). |
+| [XMinus](../../aspose.slides.charts/errorbarscustomvalues/xminus) { get; } | Specificeert de foutbalkwaarde in de negatieve richting. Beschikbaar als het type foutbalkwaarde Custom is en ErrorBarsXFormat is toegestaan. In elk ander geval retourneert deze eigenschap null. Alleen-lezen [`IDoubleChartValue`](../idoublechartvalue). |
+| [XPlus](../../aspose.slides.charts/errorbarscustomvalues/xplus) { get; } | Specificeert de foutbalkwaarde in de positieve richting. Beschikbaar als het type foutbalkwaarde Custom is en ErrorBarsXFormat is toegestaan. In elk ander geval retourneert deze eigenschap null. Alleen-lezen [`IDoubleChartValue`](../idoublechartvalue). |
+| [YMinus](../../aspose.slides.charts/errorbarscustomvalues/yminus) { get; } | Specificeert de foutbalkwaarde in de negatieve richting. Beschikbaar als het type foutbalkwaarde Custom is en ErrorBarsYFormat is toegestaan. In elk ander geval retourneert deze eigenschap null. Alleen-lezen [`IDoubleChartValue`](../idoublechartvalue). |
+| [YPlus](../../aspose.slides.charts/errorbarscustomvalues/yplus) { get; } | Specificeert de foutbalkwaarde in de positieve richting. Beschikbaar als het type foutbalkwaarde Custom is en ErrorBarsYFormat is toegestaan. In elk ander geval retourneert deze eigenschap null. Alleen-lezen [`IDoubleChartValue`](../idoublechartvalue). |
 
 ### Zie ook
 

@@ -3,7 +3,7 @@ title: IAdjustValueCollection
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt eine Sammlung von Form-Anpassungen dar.
 type: docs
-weight: 5190
+weight: 5210
 url: /de/aspose.slides/iadjustvaluecollection/
 ---
 ## IAdjustValueCollection Schnittstelle
@@ -18,8 +18,8 @@ public interface IAdjustValueCollection : ICollection
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsICollection](../../aspose.slides/iadjustvaluecollection/asicollection) { get; } | Ermöglicht den Zugriff auf die Basis-ICollection-Schnittstelle. Nur-Lesen ICollection. |
-| [AsIEnumerable](../../aspose.slides/iadjustvaluecollection/asienumerable) { get; } | Gibt die IEnumerable-Schnittstelle zurück. Nur-Lesen IEnumerable. |
+| [AsICollection](../../aspose.slides/iadjustvaluecollection/asicollection) { get; } | Ermöglicht das Abrufen der Basis-ICollection-Schnittstelle. Nur lesbare ICollection. |
+| [AsIEnumerable](../../aspose.slides/iadjustvaluecollection/asienumerable) { get; } | Gibt die IEnumerable-Schnittstelle zurück. Nur lesbare IEnumerable. |
 | [Item](../../aspose.slides/iadjustvaluecollection/item) { get; } | Gibt die Anpassung nach Index zurück. |
 
 ### Siehe auch

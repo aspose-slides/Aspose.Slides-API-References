@@ -1,27 +1,27 @@
 ---
 title: IFormatSchemeEffectiveData
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งมีคุณสมบัติของรูปแบบสกีมที่มีผล
+second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
+description: อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งมีคุณสมบัติของสกีมรูปแบบที่มีผล
 type: docs
-weight: 11280
+weight: 11300
 url: /th/aspose.slides.theme/iformatschemeeffectivedata/
 ---
 ## IFormatSchemeEffectiveData อินเทอร์เฟซ
 
-อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งมีคุณสมบัติของรูปแบบสกีมที่มีผล
+อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งมีคุณสมบัติของสกีมรูปแบบที่มีผล
 
 ```csharp
 public interface IFormatSchemeEffectiveData
 ```
 
-## วิธีการ
+## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [GetBackgroundFillStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getbackgroundfillstyles)(Color) | คืนคอลเลกชันของสไตล์การเติมพื้นหลังที่กำหนดโดยธีม |
-| [GetEffectStyles](../../aspose.slides.theme/iformatschemeeffectivedata/geteffectstyles)(Color) | คืนคอลเลกชันของสไตล์เอฟเฟ็กต์ที่กำหนดโดยธีม |
-| [GetFillStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getfillstyles)(Color) | คืนคอลเลกชันของสไตล์การเติมที่กำหนดโดยธีม |
-| [GetLineStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getlinestyles)(Color) | คืนคอลเลกชันของสไตล์เส้นที่กำหนดโดยธีม |
+| [GetBackgroundFillStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getbackgroundfillstyles)(Color) | ส่งคืนคอลเลกชันของสไตล์การเติมพื้นหลังที่กำหนดโดยธีม. |
+| [GetEffectStyles](../../aspose.slides.theme/iformatschemeeffectivedata/geteffectstyles)(Color) | ส่งคืนคอลเลกชันของสไตล์เอฟเฟ็กต์ที่กำหนดโดยธีม. |
+| [GetFillStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getfillstyles)(Color) | ส่งคืนคอลเลกชันของสไตล์การเติมที่กำหนดโดยธีม. |
+| [GetLineStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getlinestyles)(Color) | ส่งคืนคอลเลกชันของสไตล์เส้นที่กำหนดโดยธีม. |
 
 ### หมายเหตุ
 

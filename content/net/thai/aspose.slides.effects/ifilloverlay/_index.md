@@ -1,14 +1,14 @@
 ---
 title: IFillOverlay
-second_title: Aspose.Sildes สำหรับ .NET การอ้างอิง API
-description: อธิบายถึงเอฟเฟกต์ Fill Overlay. Fill overlay สามารถใช้เพื่อระบุการเติมเพิ่มเติมสำหรับวัตถุและผสมการเติมสองแบบเข้าด้วยกัน.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: อธิบายถึงเอฟเฟกต์ Fill Overlay. Fill overlay สามารถใช้เพื่อระบุการเติมเพิ่มเติมสำหรับวัตถุและผสานการเติมสองแบบเข้าด้วยกัน.
 type: docs
-weight: 3300
+weight: 3320
 url: /th/aspose.slides.effects/ifilloverlay/
 ---
 ## IFillOverlay อินเทอร์เฟซ
 
-อธิบายถึงเอฟเฟกต์ Fill Overlay. Fill overlay สามารถใช้เพื่อระบุการเติมเพิ่มเติมสำหรับวัตถุและผสมการเติมสองแบบเข้าด้วยกัน
+อธิบายถึงเอฟเฟกต์ Fill Overlay. Fill overlay สามารถใช้เพื่อระบุการเติมเพิ่มเติมสำหรับอ็อบเจกต์และผสานการเติมสองแบบเข้าด้วยกัน
 
 ```csharp
 public interface IFillOverlay : IAccessiblePVIObject<IFillOverlayEffectiveData>, 
@@ -19,8 +19,8 @@ public interface IFillOverlay : IAccessiblePVIObject<IFillOverlayEffectiveData>,
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ifilloverlay/asiaccessiblepviobject) { get; } | อนุญาตให้รับอินเทอร์เฟซ IAccessiblePVIObject พื้นฐาน. อ่านอย่างเดียว [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ifilloverlay/asiimagetransformoperation) { get; } | อนุญาตให้รับอินเทอร์เฟซ IImageTransformOperation พื้นฐาน. อ่านอย่างเดียว [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ifilloverlay/asiaccessiblepviobject) { get; } | อนุญาตให้ดึง base IAccessiblePVIObject อินเทอร์เฟซ. อ่านอย่างเดียว [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ifilloverlay/asiimagetransformoperation) { get; } | อนุญาตให้ดึง base IImageTransformOperation อินเทอร์เฟซ. อ่านอย่างเดียว [`IImageTransformOperation`](../iimagetransformoperation). |
 | [Blend](../../aspose.slides.effects/ifilloverlay/blend) { get; set; } | FillBlendMode. อ่าน/เขียน [`FillBlendMode`](../../aspose.slides/fillblendmode). |
 | [FillFormat](../../aspose.slides.effects/ifilloverlay/fillformat) { get; } | รูปแบบการเติม. อ่านอย่างเดียว [`IFillFormat`](../../aspose.slides/ifillformat). |
 

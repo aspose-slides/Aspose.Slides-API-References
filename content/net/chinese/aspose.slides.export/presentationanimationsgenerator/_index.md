@@ -3,7 +3,7 @@ title: PresentationAnimationsGenerator
 second_title: Aspose.Sildes .NET API 参考
 description: 表示 Presentation../aspose.slides/presentation 中动画的生成器。
 type: docs
-weight: 4380
+weight: 4400
 url: /zh/aspose.slides.export/presentationanimationsgenerator/
 ---
 ## PresentationAnimationsGenerator 类
@@ -25,9 +25,9 @@ public class PresentationAnimationsGenerator : IDisposable
 
 | 名称 | 描述 |
 | --- | --- |
-| [DefaultDelay](../../aspose.slides.export/presentationanimationsgenerator/defaultdelay) { get; set; } | 获取或设置默认延迟时间[ms]。 |
-| [ExportedSlides](../../aspose.slides.export/presentationanimationsgenerator/exportedslides) { get; } | 获取导出幻灯片的数量。 |
-| [IncludeHiddenSlides](../../aspose.slides.export/presentationanimationsgenerator/includehiddenslides) { get; set; } | 获取或设置是否应包括隐藏的幻灯片。 |
+| [DefaultDelay](../../aspose.slides.export/presentationanimationsgenerator/defaultdelay) { get; set; } | 获取或设置默认延迟时间 [ms]。 |
+| [ExportedSlides](../../aspose.slides.export/presentationanimationsgenerator/exportedslides) { get; } | 获取已导出的幻灯片计数。 |
+| [IncludeHiddenSlides](../../aspose.slides.export/presentationanimationsgenerator/includehiddenslides) { get; set; } | 获取或设置是否应包含隐藏幻灯片。 |
 
 ## 方法
 
@@ -47,7 +47,7 @@ public class PresentationAnimationsGenerator : IDisposable
 
 | 名称 | 描述 |
 | --- | --- |
-| event [NewAnimation](../../aspose.slides.export/presentationanimationsgenerator/newanimation) | 表示已生成新动画的事件。 |
+| event [NewAnimation](../../aspose.slides.export/presentationanimationsgenerator/newanimation) | 此事件表示已生成新的动画。 |
 
 ### 示例
 

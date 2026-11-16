@@ -1,25 +1,25 @@
 ---
 title: ForEach.ForEachMasterSlideCallback
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: कॉलबैक जो प्रत्येक MasterSlide./foreach/masterslide के लिए Presentation../aspose.slides/presentation में बुलाया जाएगा।
+second_title: Aspose.Sildes .NET API संदर्भ
+description: कॉलबैक जो प्रत्येक MasterSlide./foreach/masterslide के लिये Presentation में बुलाया जाएगा../aspose.slides/presentation.
 type: docs
-weight: 7920
+weight: 7940
 url: /hi/aspose.slides.lowcode/foreach.foreachmasterslidecallback/
 ---
 ## ForEach.ForEachMasterSlideCallback डेलीगेट
 
-कॉलबैक जो प्रत्येक [`MasterSlide`](../foreach/masterslide) के लिए [`Presentation`](../../aspose.slides/presentation) में बुलाया जाएगा।
+कॉलबैक जो [`Presentation`](../../aspose.slides/presentation) में प्रत्येक [`MasterSlide`](../foreach/masterslide) के लिये बुलाया जाएगा।
 
 ```csharp
 public delegate void ForEachMasterSlideCallback(MasterSlide masterSlide, int index);
 ```
 
-| परामीटर | प्रकार | विवरण |
+| पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | masterSlide | MasterSlide | वर्तमान इटरेटेड मास्टर स्लाइड |
-| index | Int32 | वर्तमान मास्टर स्लाइड का सूचकांक |
+| index | Int32 | वर्तमान मास्टर स्लाइड का इंडेक्स |
 
-### देखें
+### संबंधित देखें
 
 * क्लास [MasterSlide](../../aspose.slides/masterslide)
 * क्लास [ForEach](../foreach)

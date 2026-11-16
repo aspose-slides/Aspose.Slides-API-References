@@ -3,12 +3,12 @@ title: IMathLimit
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Specificeert het Limit-object dat bestaat uit tekst op de basislijn en verkleinde tekst direct erboven of eronder.
 type: docs
-weight: 8320
+weight: 8340
 url: /nl/aspose.slides.mathtext/imathlimit/
 ---
 ## IMathLimit interface
 
-Specificeert het Limit-object, bestaande uit tekst op de basislijn en verkleinde tekst direct erboven of eronder het.
+Specificeert het Limit-object, bestaande uit tekst op de basislijn en verkleinde tekst direct erboven of eronder.
 
 ```csharp
 public interface IMathLimit : IMathElement
@@ -18,10 +18,10 @@ public interface IMathLimit : IMathElement
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathlimit/asimathelement) { get; } | Stelt toe om de basis IMathElement-interface op te halen [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathlimit/asimathelement) { get; } | Staat toe om de basis IMathElement-interface [`IMathElement`](../imathelement) op te halen |
 | [Base](../../aspose.slides.mathtext/imathlimit/base) { get; } | Basisargument |
 | [Limit](../../aspose.slides.mathtext/imathlimit/limit) { get; } | Limietargument |
-| [UpperLimit](../../aspose.slides.mathtext/imathlimit/upperlimit) { get; set; } | Specificeert een boven- of onderlimiet |
+| [UpperLimit](../../aspose.slides.mathtext/imathlimit/upperlimit) { get; set; } | Specificeert de boven- of onderlimiet |
 
 ### Voorbeelden
 

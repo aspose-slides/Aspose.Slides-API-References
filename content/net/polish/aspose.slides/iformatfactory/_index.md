@@ -1,14 +1,14 @@
 ---
 title: IFormatFactory
-second_title: Aspose.Sildes dla .NET – Referencja API
-description: Umożliwia tworzenie formatów za pośrednictwem interfejsu COM.
+second_title: Aspose.Sildes dla .NET – Dokumentacja API
+description: Umożliwia tworzenie formatów za pomocą interfejsu COM.
 type: docs
-weight: 5940
+weight: 5960
 url: /pl/aspose.slides/iformatfactory/
 ---
 ## IFormatFactory interfejs
 
-Umożliwia tworzenie formatów za pośrednictwem interfejsu COM.
+Umożliwia tworzenie formatów za pomocą interfejsu COM.
 
 ```csharp
 public interface IFormatFactory

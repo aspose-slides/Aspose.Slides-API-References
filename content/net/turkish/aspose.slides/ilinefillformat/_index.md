@@ -1,14 +1,14 @@
 ---
 title: ILineFillFormat
-second_title: Aspose.Sildes .NET için API Referansı
-description: Çizgi doldurması için özellikleri temsil eder.
+second_title: Aspose.Sildes .NET API Referansı
+description: Çizgi doldurma için özellikleri temsil eder.
 type: docs
-weight: 6290
+weight: 6310
 url: /tr/aspose.slides/ilinefillformat/
 ---
 ## ILineFillFormat arayüzü
 
-Çizgi doldurması için özellikleri temsil eder.
+Çizgi doldurma için özellikleri temsil eder.
 
 ```csharp
 public interface ILineFillFormat : IFillParamSource
@@ -18,14 +18,14 @@ public interface ILineFillFormat : IFillParamSource
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/ilinefillformat/asifillparamsource) { get; } | Temel IFillParamSource arayüzünü almaya izin verir. Salt okunur [`IFillParamSource`](../ifillparamsource). |
-| [FillType](../../aspose.slides/ilinefillformat/filltype) { get; set; } | Dolgu tipini döndürür veya ayarlar. Okunur/Yazılabilir [`FillType`](../filltype). |
-| [GradientFormat](../../aspose.slides/ilinefillformat/gradientformat) { get; } | Gradient dolgu biçimini döndürür. Salt okunur [`IGradientFormat`](../igradientformat). |
+| [AsIFillParamSource](../../aspose.slides/ilinefillformat/asifillparamsource) { get; } | Temel IFillParamSource arayüzüne erişmeyi sağlar. Salt okunur [`IFillParamSource`](../ifillparamsource). |
+| [FillType](../../aspose.slides/ilinefillformat/filltype) { get; set; } | Dolgu tipini döndürür veya ayarlar. Okunur/yazılabilir [`FillType`](../filltype). |
+| [GradientFormat](../../aspose.slides/ilinefillformat/gradientformat) { get; } | Gradyan dolgu biçimini döndürür. Salt okunur [`IGradientFormat`](../igradientformat). |
 | [PatternFormat](../../aspose.slides/ilinefillformat/patternformat) { get; } | Desen dolgu biçimini döndürür. Salt okunur [`IPatternFormat`](../ipatternformat). |
-| [RotateWithShape](../../aspose.slides/ilinefillformat/rotatewithshape) { get; set; } | Dolgunun bir şekil ile döndürülüp döndürülmeyeceğini belirler. Okunur/Yazılabilir [`NullableBool`](../nullablebool). |
-| [SolidFillColor](../../aspose.slides/ilinefillformat/solidfillcolor) { get; } | Katı bir dolgunun rengini döndürür. Salt okunur [`IColorFormat`](../icolorformat). |
+| [RotateWithShape](../../aspose.slides/ilinefillformat/rotatewithshape) { get; set; } | Dolgunun şekil ile döndürülüp döndürülmeyeceğini belirler. Okunur/yazılabilir [`NullableBool`](../nullablebool). |
+| [SolidFillColor](../../aspose.slides/ilinefillformat/solidfillcolor) { get; } | Katı dolgunun rengini döndürür. Salt okunur [`IColorFormat`](../icolorformat). |
 
-### Ayrıca Bakın
+### Ayrıca Bakınız
 
 * arayüz [IFillParamSource](../ifillparamsource)
 * ad alanı [Aspose.Slides](../../aspose.slides)

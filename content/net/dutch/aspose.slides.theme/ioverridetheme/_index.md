@@ -1,14 +1,14 @@
 ---
 title: IOverrideTheme
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Vertegenwoordigt een overriding-thema.
+description: Stelt een overschrijfend thema voor.
 type: docs
-weight: 11340
+weight: 11360
 url: /nl/aspose.slides.theme/ioverridetheme/
 ---
 ## IOverrideTheme interface
 
-Vertegenwoordigt een overriding-thema.
+Stelt een overschrijfend thema voor.
 
 ```csharp
 public interface IOverrideTheme : ITheme
@@ -18,14 +18,14 @@ public interface IOverrideTheme : ITheme
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsITheme](../../aspose.slides.theme/ioverridetheme/asitheme) { get; } | Staat toe om de basis ITheme interface op te halen. Alleen-lezen [`ITheme`](../itheme). |
-| [IsEmpty](../../aspose.slides.theme/ioverridetheme/isempty) { get; } | Een waarheidswaarde betekent dat ColorScheme, FontScheme, FormatScheme null is en elke overschrijving met dit themobject is uitgeschakeld. Alleen-lezen Boolean. |
+| [AsITheme](../../aspose.slides.theme/ioverridetheme/asitheme) { get; } | Staat toe de basis ITheme interface op te halen. Alleen-lezen [`ITheme`](../itheme). |
+| [IsEmpty](../../aspose.slides.theme/ioverridetheme/isempty) { get; } | Een waar-waarde betekent dat ColorScheme, FontScheme, FormatScheme null is en alle overschrijvingen met dit themobject zijn uitgeschakeld. Alleen-lezen Boolean. |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Clear](../../aspose.slides.theme/ioverridetheme/clear)() | Stel ColorScheme, FontScheme, FormatScheme in op null om elke overschrijving met dit themobject uit te schakelen. |
+| [Clear](../../aspose.slides.theme/ioverridetheme/clear)() | Stel ColorScheme, FontScheme, FormatScheme in op null om alle overschrijvingen met dit themobject uit te schakelen. |
 | [InitColorScheme](../../aspose.slides.theme/ioverridetheme/initcolorscheme)() | Initialiseer ColorScheme met een nieuw object om ColorScheme van InheritedTheme te overschrijven. |
 | [InitColorSchemeFrom](../../aspose.slides.theme/ioverridetheme/initcolorschemefrom)(IColorScheme) | Initialiseer ColorScheme met een nieuw object om ColorScheme van InheritedTheme te overschrijven. |
 | [InitColorSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initcolorschemefrominherited)() | Initialiseer ColorScheme met een nieuw object om ColorScheme van InheritedTheme te overschrijven. En initialiseert de gegevens van dit nieuwe object met de gegevens van de ColorScheme van InheritedTheme. |

@@ -3,7 +3,7 @@ title: OuterShadow
 second_title: Справочник API Aspose.Sildes для .NET
 description: Представляет эффект внешней тени.
 type: docs
-weight: 3620
+weight: 3640
 url: /ru/aspose.slides.effects/outershadow/
 ---
 ## OuterShadow класс
@@ -16,28 +16,28 @@ public sealed class OuterShadow : IOuterShadow
 
 ## Свойства
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
-| [BlurRadius](../../aspose.slides.effects/outershadow/blurradius) { get; set; } | Радиус размытия, в пунктах. Значение по умолчанию – 0 pt. Чтение/запись Double. |
-| [Direction](../../aspose.slides.effects/outershadow/direction) { get; set; } | Направление тени, в градусах. Значение по умолчанию – 0 ° (слева направо). Чтение/запись Single. |
-| [Distance](../../aspose.slides.effects/outershadow/distance) { get; set; } | Расстояние тени от объекта, в пунктах. Значение по умолчанию – 0 pt. Чтение/запись Double. |
+| [BlurRadius](../../aspose.slides.effects/outershadow/blurradius) { get; set; } | Радиус размытия в пунктах. Значение по умолчанию – 0 pt. Чтение/запись Double. |
+| [Direction](../../aspose.slides.effects/outershadow/direction) { get; set; } | Направление тени в градусах. Значение по умолчанию – 0 ° (слева направо). Чтение/запись Single. |
+| [Distance](../../aspose.slides.effects/outershadow/distance) { get; set; } | Расстояние тени от объекта в пунктах. Значение по умолчанию – 0 pt. Чтение/запись Double. |
 | [RectangleAlign](../../aspose.slides.effects/outershadow/rectanglealign) { get; set; } | Выравнивание прямоугольника. Значение по умолчанию – Bottom. Чтение/запись [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
 | [RotateShadowWithShape](../../aspose.slides.effects/outershadow/rotateshadowwithshape) { get; set; } | Указывает, вращается ли тень вместе с фигурой. Значение по умолчанию – true. Чтение/запись Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/outershadow/scalehorizontal) { get; set; } | Коэффициент горизонтального масштабирования, в процентах от исходного размера. Отрицательное масштабирование приводит к отражению. Значение по умолчанию – 100 %. Чтение/запись Double. |
-| [ScaleVertical](../../aspose.slides.effects/outershadow/scalevertical) { get; set; } | Коэффициент вертикального масштабирования, в процентах от исходного размера. Отрицательное масштабирование приводит к отражению. Значение по умолчанию – 100 %. Чтение/запись Double. |
-| [ShadowColor](../../aspose.slides.effects/outershadow/shadowcolor) { get; } | Цвет тени. Значение по умолчанию – автоматический чёрный (зависит от темы). Только для чтения [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [SkewHorizontal](../../aspose.slides.effects/outershadow/skewhorizontal) { get; set; } | Угол наклона по горизонтали, в градусах. Значение по умолчанию – 0 °. Чтение/запись Double. |
-| [SkewVertical](../../aspose.slides.effects/outershadow/skewvertical) { get; set; } | Угол наклона по вертикали, в градусах. Значение по умолчанию – 0 °. Чтение/запись Double. |
+| [ScaleHorizontal](../../aspose.slides.effects/outershadow/scalehorizontal) { get; set; } | Горизонтальный коэффициент масштабирования в процентах от исходного размера. Отрицательное масштабирование приводит к отражению. Значение по умолчанию – 100 %. Чтение/запись Double. |
+| [ScaleVertical](../../aspose.slides.effects/outershadow/scalevertical) { get; set; } | Вертикальный коэффициент масштабирования в процентах от исходного размера. Отрицательное масштабирование приводит к отражению. Значение по умолчанию – 100 %. Чтение/запись Double. |
+| [ShadowColor](../../aspose.slides.effects/outershadow/shadowcolor) { get; } | Цвет тени. Значение по умолчанию – автоматический черный (зависит от темы). Только чтение [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [SkewHorizontal](../../aspose.slides.effects/outershadow/skewhorizontal) { get; set; } | Горизонтальный угол наклона в градусах. Значение по умолчанию – 0 °. Чтение/запись Double. |
+| [SkewVertical](../../aspose.slides.effects/outershadow/skewvertical) { get; set; } | Вертикальный угол наклона в градусах. Значение по умолчанию – 0 °. Чтение/запись Double. |
 
 ## Методы
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/outershadow/equals)(object) | Определяет, равен ли указанный [`OuterShadow`](../outershadow) текущему [`OuterShadow`](../outershadow). |
 | [GetEffective](../../aspose.slides.effects/outershadow/geteffective)() | Получает эффективные данные эффекта внешней тени с учётом наследования. |
-| override [GetHashCode](../../aspose.slides.effects/outershadow/gethashcode)() | Используется как хеш-функция для конкретного типа. |
+| override [GetHashCode](../../aspose.slides.effects/outershadow/gethashcode)() | Служит хеш-функцией для конкретного типа. |
 
-### Смотрите также
+### См. также
 
 * интерфейс [IOuterShadow](../ioutershadow)
 * пространство имён [Aspose.Slides.Effects](../../aspose.slides.effects)

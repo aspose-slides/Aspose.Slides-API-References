@@ -1,9 +1,9 @@
 ---
 title: ColorScheme
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla .NET API Reference
 description: Przechowuje kolory zdefiniowane w motywie.
 type: docs
-weight: 11070
+weight: 11090
 url: /pl/aspose.slides.theme/colorscheme/
 ---
 ## ColorScheme klasa
@@ -31,8 +31,8 @@ public class ColorScheme : IColorScheme
 | [Item](../../aspose.slides.theme/colorscheme/item) { get; } | Pobiera element o określonym indeksie. Tylko do odczytu [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [Light1](../../aspose.slides.theme/colorscheme/light1) { get; } | Pierwszy jasny kolor w schemacie. Tylko do odczytu [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [Light2](../../aspose.slides.theme/colorscheme/light2) { get; } | Drugi jasny kolor w schemacie. Tylko do odczytu [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Presentation](../../aspose.slides.theme/colorscheme/presentation) { get; } | Zwraca nadrzędną prezentację. Tylko do odczytu [`IPresentation`](../../aspose.slides/ipresentation). |
-| [Slide](../../aspose.slides.theme/colorscheme/slide) { get; } | Zwraca nadrzędny slajd. Tylko do odczytu [`IBaseSlide`](../../aspose.slides/ibaseslide). |
+| [Presentation](../../aspose.slides.theme/colorscheme/presentation) { get; } | Zwraca prezentację nadrzędną. Tylko do odczytu [`IPresentation`](../../aspose.slides/ipresentation). |
+| [Slide](../../aspose.slides.theme/colorscheme/slide) { get; } | Zwraca slajd nadrzędny. Tylko do odczytu [`IBaseSlide`](../../aspose.slides/ibaseslide). |
 
 ### Zobacz także
 

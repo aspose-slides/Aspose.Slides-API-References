@@ -1,14 +1,14 @@
 ---
 title: PresentationHeaderFooterManager
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Representa el administrador que mantiene el comportamiento de todos los marcadores de posición de pie de página, fecha y hora y número de página de la presentación.
+description: Representa al administrador que mantiene el comportamiento de todos los marcadores de posición de pie de página, fecha y hora y número de página de la presentación.
 type: docs
-weight: 9610
+weight: 9630
 url: /es/aspose.slides/presentationheaderfootermanager/
 ---
 ## PresentationHeaderFooterManager clase
 
-Representa el administrador que mantiene el comportamiento de todos los marcadores de posición de pie de página, de fecha y hora y de número de página de la presentación.
+Representa al administrador que mantiene el comportamiento de todos los marcadores de posición de pie de página, fecha y hora y número de página de la presentación.
 
 ```csharp
 public class PresentationHeaderFooterManager : BaseHeaderFooterManager, 
@@ -26,7 +26,7 @@ public class PresentationHeaderFooterManager : BaseHeaderFooterManager,
 | [SetAllHeadersText](../../aspose.slides/presentationheaderfootermanager/setallheaderstext)(string) | Establece el texto en todos los marcadores de posición de encabezado, incluyendo maestro de notas, diapositivas de notas y maestro de folletos. |
 | [SetAllHeadersVisibility](../../aspose.slides/presentationheaderfootermanager/setallheadersvisibility)(bool) | Cambia la visibilidad de todos los marcadores de posición de encabezado, incluyendo maestro de notas, diapositivas de notas y maestro de folletos. |
 | [SetAllSlideNumbersVisibility](../../aspose.slides/presentationheaderfootermanager/setallslidenumbersvisibility)(bool) | Cambia la visibilidad de todos los marcadores de posición de número de página, incluyendo diapositivas maestras, diapositivas de diseño, diapositivas, maestro de notas, diapositivas de notas y maestro de folletos. |
-| [SetVisibilityOnAllTitleSlides](../../aspose.slides/presentationheaderfootermanager/setvisibilityonalltitleslides)(bool) | Cambia la visibilidad de los marcadores de posición de pie de página, fecha y hora y número de página para todas las diapositivas de título y para la primera diapositiva de diseño. Diapositivas de título – diapositivas basadas en la primera diapositiva de diseño (independientemente del tipo de este primer diseño). |
+| [SetVisibilityOnAllTitleSlides](../../aspose.slides/presentationheaderfootermanager/setvisibilityonalltitleslides)(bool) | Cambia la visibilidad de los marcadores de posición de pie de página, fecha y hora y número de página para todas las diapositivas de título y para la primera diapositiva de diseño. Las diapositivas de título son diapositivas basadas en la primera diapositiva de diseño (independientemente del tipo de esta primera diapositiva). |
 
 ### Ver también
 

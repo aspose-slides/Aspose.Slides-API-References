@@ -3,7 +3,7 @@ title: IColumn
 second_title: Aspose.Sildes for .NET API リファレンス
 description: テーブル内の列を表します。
 type: docs
-weight: 5520
+weight: 5540
 url: /ja/aspose.slides/icolumn/
 ---
 ## IColumn インターフェイス
@@ -18,9 +18,9 @@ public interface IColumn : IBulkTextFormattable, ICellCollection
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIBulkTextFormattable](../../aspose.slides/icolumn/asibulktextformattable) { get; } | ベースの IBulkTextFormattable インターフェイスを取得できます。読み取り専用 [`IBulkTextFormattable`](../ibulktextformattable). |
-| [AsICellCollection](../../aspose.slides/icolumn/asicellcollection) { get; } | ベースの ICellCollection インターフェイスを取得できます。読み取り専用 [`ICellCollection`](../icellcollection). |
-| [ColumnFormat](../../aspose.slides/icolumn/columnformat) { get; } | この列の書式設定プロパティを含む ColumnFormat オブジェクトを返します。読み取り専用 [`IColumnFormat`](../icolumnformat). |
+| [AsIBulkTextFormattable](../../aspose.slides/icolumn/asibulktextformattable) { get; } | ベースのIBulkTextFormattableインターフェイスを取得できます。読み取り専用 [`IBulkTextFormattable`](../ibulktextformattable). |
+| [AsICellCollection](../../aspose.slides/icolumn/asicellcollection) { get; } | ベースのICellCollectionインターフェイスを取得できます。読み取り専用 [`ICellCollection`](../icellcollection). |
+| [ColumnFormat](../../aspose.slides/icolumn/columnformat) { get; } | この列の書式設定プロパティを含むColumnFormatオブジェクトを返します。読み取り専用 [`IColumnFormat`](../icolumnformat). |
 | [Width](../../aspose.slides/icolumn/width) { get; set; } | 列の幅を取得または設定します。読み書き可能 Double. |
 
 ### 参照

@@ -3,7 +3,7 @@ title: IChartTitle
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示图表标题属性。
 type: docs
-weight: 2000
+weight: 2020
 url: /zh/aspose.slides.charts/icharttitle/
 ---
 ## IChartTitle 接口
@@ -18,12 +18,12 @@ public interface IChartTitle : IActualLayout, ILayoutable, IOverridableText
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsILayoutable](../../aspose.slides.charts/icharttitle/asilayoutable) { get; } | 允许获取基 ILayoutable 接口。只读 [`ILayoutable`](../ilayoutable)。 |
-| [AsIOverridableText](../../aspose.slides.charts/icharttitle/asioverridabletext) { get; } | 允许获取基 IOverridableText 接口。只读 [`IOverridableText`](../ioverridabletext)。 |
+| [AsILayoutable](../../aspose.slides.charts/icharttitle/asilayoutable) { get; } | 允许获取基础 ILayoutable 接口。只读 [`ILayoutable`](../ilayoutable)。 |
+| [AsIOverridableText](../../aspose.slides.charts/icharttitle/asioverridabletext) { get; } | 允许获取基础 IOverridableText 接口。只读 [`IOverridableText`](../ioverridabletext)。 |
 | [Format](../../aspose.slides.charts/icharttitle/format) { get; } | 返回标题的填充、线条、效果样式。只读 [`IFormat`](../iformat)。 |
-| [Overlay](../../aspose.slides.charts/icharttitle/overlay) { get; set; } | 确定是否允许其他图表元素覆盖标题。可读写 Boolean。 |
+| [Overlay](../../aspose.slides.charts/icharttitle/overlay) { get; set; } | 确定是否允许其他图表元素覆盖标题。读/写 Boolean。 |
 
-### 另见
+### 另请参阅
 
 * 接口 [IActualLayout](../iactuallayout)
 * 接口 [ILayoutable](../ilayoutable)

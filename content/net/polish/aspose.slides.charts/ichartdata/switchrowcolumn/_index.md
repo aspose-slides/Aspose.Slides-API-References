@@ -1,14 +1,14 @@
 ---
 title: SwitchRowColumn
-second_title: Aspose.Sildes dla .NET – odniesienie API
-description: Zamień dane wzdłuż osi. Dane wykresu na osi X zostaną przeniesione na oś Y i odwrotnie.
+second_title: Aspose.Sildes dla .NET API Reference
+description: Zamień dane wzdłuż osi. Dane wykreślane na osi X zostaną przeniesione na oś Y i odwrotnie.
 type: docs
-weight: 140
+weight: 150
 url: /pl/aspose.slides.charts/ichartdata/switchrowcolumn/
 ---
 ## IChartData.SwitchRowColumn metoda
 
-Zamień dane wzdłuż osi. Dane wykresu na osi X zostaną przeniesione na oś Y i odwrotnie.
+Zamień dane wzdłuż osi. Dane wykreślane na osi X zostaną przeniesione na oś Y i odwrotnie.
 
 ```csharp
 public void SwitchRowColumn()

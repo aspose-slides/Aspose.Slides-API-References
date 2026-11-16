@@ -1,14 +1,14 @@
 ---
 title: IMathBoxFactory
-second_title: Aspose.Sildes pro .NET API Reference
-description: Umožňuje vytvořit matematický box
+second_title: Aspose.Sildes pro .NET API Referenci
+description: Umožňuje vytvořit matematické okno
 type: docs
-weight: 8200
+weight: 8220
 url: /cs/aspose.slides.mathtext/imathboxfactory/
 ---
 ## IMathBoxFactory rozhraní
 
-Umožňuje vytvořit matematický box
+Umožňuje vytvořit matematické okno
 
 ```csharp
 public interface IMathBoxFactory
@@ -18,11 +18,11 @@ public interface IMathBoxFactory
 
 | Název | Popis |
 | --- | --- |
-| [CreateMathBox](../../aspose.slides.mathtext/imathboxfactory/createmathbox)(IMathElement) | Vytvoří matematický box aplikací na element |
+| [CreateMathBox](../../aspose.slides.mathtext/imathboxfactory/createmathbox)(IMathElement) | Vytvoří matematické okno aplikací na prvek |
 
 ### Poznámky
 
-Pro kompatibilitu s COM
+Pro COM kompatibilitu
 
 ### Viz také
 

@@ -1,14 +1,14 @@
 ---
 title: IChartWall
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt muren voor op 3D-diagrammen.
+description: Stelt muren voor in 3d-grafieken.
 type: docs
-weight: 2010
+weight: 2030
 url: /nl/aspose.slides.charts/ichartwall/
 ---
 ## IChartWall interface
 
-Stelt muren voor op 3D-diagrammen.
+Stelt muren voor in 3d-grafieken.
 
 ```csharp
 public interface IChartWall
@@ -18,9 +18,9 @@ public interface IChartWall
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Format](../../aspose.slides.charts/ichartwall/format) { get; } | Geeft de wandvulling, lijn, effect, 3D-stijlen terug. Alleen-lezen [`IFormat`](../iformat). |
-| [PictureType](../../aspose.slides.charts/ichartwall/picturetype) { get; set; } | Geeft het afbeeldings type terug of stelt het in. Lezen/Schrijven [`PictureType`](./picturetype). |
-| [Thickness](../../aspose.slides.charts/ichartwall/thickness) { get; set; } | Geeft de wanddikte terug of stelt deze in als een percentage van de grootste dimensie van het plotvolume. Lezen/Schrijven Int32. |
+| [Format](../../aspose.slides.charts/ichartwall/format) { get; } | Geeft de opvulling, lijn, effect, 3d-stijlen van de muur terug. Alleen-lezen [`IFormat`](../iformat). |
+| [PictureType](../../aspose.slides.charts/ichartwall/picturetype) { get; set; } | Geeft het type afbeelding terug of stelt het in. Lezen/Schrijven [`PictureType`](./picturetype). |
+| [Thickness](../../aspose.slides.charts/ichartwall/thickness) { get; set; } | Geeft de dikte van de muren terug of stelt deze in als een percentage van de grootste afmeting van het plotvolume. Lezen/Schrijven Int32. |
 
 ### Zie ook
 

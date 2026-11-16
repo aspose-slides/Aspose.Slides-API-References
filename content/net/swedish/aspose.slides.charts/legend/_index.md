@@ -1,39 +1,39 @@
 ---
 title: Legend
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar diagrammets legendegenskaper.
+description: Representerar diagrammens legendegenskaper.
 type: docs
-weight: 2280
+weight: 2300
 url: /sv/aspose.slides.charts/legend/
 ---
 ## Legend klass
 
-Representerar diagrammets legendegenskaper.
+Representerar chart legendegenskaper.
 
 ```csharp
 public class Legend : DomObject<Chart>, ILegend
 ```
 
-## Egenskaper
+## Properties
 
 | Namn | Beskrivning |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/legend/actualheight) { get; } | Anger den faktiska höjden på diagrammets element. Anropa metoden IChart.ValidateChartLayout() innan för att få faktiska värden. Skrivskyddad Single. |
-| [ActualWidth](../../aspose.slides.charts/legend/actualwidth) { get; } | Anger den faktiska bredden på diagrammets element. Anropa metoden IChart.ValidateChartLayout() innan för att få faktiska värden. Skrivskyddad Single. |
-| [ActualX](../../aspose.slides.charts/legend/actualx) { get; } | Anger den faktiska x-positionen (vänster) för diagrammets element relativt diagrammets övre vänstra hörn. Anropa metoden IChart.ValidateChartLayout() innan för att få faktiska värden. Skrivskyddad Single. |
-| [ActualY](../../aspose.slides.charts/legend/actualy) { get; } | Anger den faktiska toppen på diagrammets element relativt diagrammets övre vänstra hörn. Anropa metoden IChart.ValidateChartLayout() innan för att få faktiska värden. Skrivskyddad Single. |
-| [Bottom](../../aspose.slides.charts/legend/bottom) { get; } | Botten. Skrivskyddad Single. |
-| [Chart](../../aspose.slides.charts/legend/chart) { get; } | Returnerar diagrammet. Skrivskyddad [`IChart`](../ichart). |
-| [Entries](../../aspose.slides.charts/legend/entries) { get; } | Hämtar legendposterna. Skrivskyddad [`ILegendEntryCollection`](../ilegendentrycollection). |
-| [Format](../../aspose.slides.charts/legend/format) { get; } | Returnerar formatet för en legend. Skrivskyddad [`IFormat`](../iformat). |
-| [Height](../../aspose.slides.charts/legend/height) { get; set; } | Returnerar eller anger höjden på en legend som en bråkdel av diagrammets höjd. Läs/skriv Single. |
-| [Overlay](../../aspose.slides.charts/legend/overlay) { get; set; } | Bestämmer om andra diagramelement får överlappa legend. Läs/skriv Boolean. |
-| [Position](../../aspose.slides.charts/legend/position) { get; set; } | Anger legendens position på ett diagram. Icke-NaN-värden för X, Y, Width, Height-egenskaperna åsidosätter effekten av denna egenskap. Läs/skriv [`LegendPositionType`](../legendpositiontype). |
-| [Right](../../aspose.slides.charts/legend/right) { get; } | Höger. Skrivskyddad Single. |
-| [TextFormat](../../aspose.slides.charts/legend/textformat) { get; } | Textformat. Skrivskyddad [`IChartTextFormat`](../icharttextformat). |
-| [Width](../../aspose.slides.charts/legend/width) { get; set; } | Returnerar eller anger bredden på en legend som en bråkdel av diagrammets bredd. Läs/skriv Single. |
-| [X](../../aspose.slides.charts/legend/x) { get; set; } | Returnerar eller anger x-koordinaten för en legend som en bråkdel av diagrammets bredd. Läs/skriv Single. |
-| [Y](../../aspose.slides.charts/legend/y) { get; set; } | Returnerar eller anger y-koordinaten för en legend som en bråkdel av diagrammets höjd. Läs/skriv Single. |
+| [ActualHeight](../../aspose.slides.charts/legend/actualheight) { get; } | Anger den faktiska höjden på chart elementet. Anropa metoden IChart.ValidateChartLayout() innan för att få faktiska värden. Read Single. |
+| [ActualWidth](../../aspose.slides.charts/legend/actualwidth) { get; } | Anger den faktiska bredden på chart elementet. Anropa metoden IChart.ValidateChartLayout() innan för att få faktiska värden. Read Single. |
+| [ActualX](../../aspose.slides.charts/legend/actualx) { get; } | Anger den faktiska x positionen (left) för chart elementet relativt det vänstra översta hörnet av chart. Anropa metoden IChart.ValidateChartLayout() innan för att få faktiska värden. Read Single. |
+| [ActualY](../../aspose.slides.charts/legend/actualy) { get; } | Anger det faktiska överkanten på chart elementet relativt det vänstra översta hörnet av chart. Anropa metoden IChart.ValidateChartLayout() innan för att få faktiska värden. Read Single. |
+| [Bottom](../../aspose.slides.charts/legend/bottom) { get; } | Nederkant. Read-only Single. |
+| [Chart](../../aspose.slides.charts/legend/chart) { get; } | Returnerar chart. Read-only [`IChart`](../ichart). |
+| [Entries](../../aspose.slides.charts/legend/entries) { get; } | Hämtar legendposter. Read-only [`ILegendEntryCollection`](../ilegendentrycollection). |
+| [Format](../../aspose.slides.charts/legend/format) { get; } | Returnerar formatet för en legend. Read-only [`IFormat`](../iformat). |
+| [Height](../../aspose.slides.charts/legend/height) { get; set; } | Returnerar eller anger höjden på en legend som en bråkdel av chartens höjd. Read/write Single. |
+| [Overlay](../../aspose.slides.charts/legend/overlay) { get; set; } | Bestämmer om andra chart element får överlappa legend. Read/write Boolean. |
+| [Position](../../aspose.slides.charts/legend/position) { get; set; } | Anger positionen för legend på ett chart. Icke-NaN värden för X, Y, Width, Heigt egenskaper överskrider effekten av denna egenskap. Read/write [`LegendPositionType`](../legendpositiontype). |
+| [Right](../../aspose.slides.charts/legend/right) { get; } | Höger. Read-only Single. |
+| [TextFormat](../../aspose.slides.charts/legend/textformat) { get; } | Textformat. Read-only [`IChartTextFormat`](../icharttextformat). |
+| [Width](../../aspose.slides.charts/legend/width) { get; set; } | Returnerar eller anger bredden på en legend som en bråkdel av chartens bredd. Read/write Single. |
+| [X](../../aspose.slides.charts/legend/x) { get; set; } | Returnerar eller anger x-koordinaten för en legend som en bråkdel av chartens bredd. Read/write Single. |
+| [Y](../../aspose.slides.charts/legend/y) { get; set; } | Returnerar eller anger y-koordinaten för en legend som en bråkdel av chartens höjd. Read/write Single. |
 
 ### Se även
 
@@ -41,6 +41,6 @@ public class Legend : DomObject<Chart>, ILegend
 * klass [Chart](../chart)
 * gränssnitt [ILegend](../ilegend)
 * namnrymd [Aspose.Slides.Charts](../../aspose.slides.charts)
-* samling [Aspose.Slides](../../)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

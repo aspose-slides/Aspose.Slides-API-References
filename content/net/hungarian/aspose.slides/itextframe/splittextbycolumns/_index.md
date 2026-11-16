@@ -1,37 +1,37 @@
 ---
 title: SplitTextByColumns
-second_title: Aspose.Sildes .NET API Referenciája
-description: Felosztja az ITextFrameaspose.slides/itextframe szövegtartalmat egy karakterláncok tömbjébe, ahol minden elem a kereten belüli külön szövegoszlopnak felel meg.
+second_title: Aspose.Sildes .NET API Referencia
+description: Felosztja az ITextFrameaspose.slides/itextframe szövegtartalmát egy string tömbbe, ahol minden elem egy külön szövegoszlopnak felel meg a kereten belül.
 type: docs
-weight: 130
+weight: 140
 url: /hu/aspose.slides/itextframe/splittextbycolumns/
 ---
 ## ITextFrame.SplitTextByColumns metódus
 
-Felosztja a szövegtartalmat a [`ITextFrame`](../../itextframe)-ban egy karakterláncok tömbjébe, ahol minden elem egy külön szövegoszlopnak felel meg a keretben.
+Szétválasztja a [`ITextFrame`](../../itextframe) szövegtartalmát egy stringek tömbjébe, ahol minden elem egy külön szövegoszlopnak felel meg a kereten belül.
 
 ```csharp
 public string[] SplitTextByColumns()
 ```
 
-### Return Value
+### Visszatérési érték
 
-Egy karakterláncok tömb, ahol minden karakterlánc a [`ITextFrame`](../../itextframe) egy adott oszlopának szövegtartalmát képviseli.
+Egy stringek tömbje, ahol minden string egy adott oszlop szövegtartalmát képviseli a [`ITextFrame`](../../itextframe)-ben.
 
-### Remarks
+### Megjegyzések
 
-Ha a szövegramec nem tartalmaz több oszlopot, a visszaadott tömb egyetlen elemet tartalmaz, amely a teljes szöveget tartalmazza. Az üres oszlopok a tömbben üres karakterláncokként jelennek meg.
+Ha a szövegkeret nem tartalmaz több oszlopot, a visszaadott tömb egyetlen elemet tartalmaz, amely a teljes szöveget tartalmazza. Az üres oszlopok a tömbben üres stringként jelennek meg.
 
-### Examples
+### Példák
 
-A következő példa bemutatja, hogyan kell használni a `SplitTextByColumns`:
+A következő példa bemutatja, hogyan kell használni a `SplitTextByColumns` metódust:
 
 ```csharp
 using (Presentation pres = new Presentation("example.pptx"))
 {
     // A dián az első alakzat lekérése és ITextFrame típusra való átkonvertálása
     ITextFrame textFrame = pres.Slides[0].Shapes[0] as ITextFrame;
-    // A szövegramec tartalmának oszlopokra bontása
+    // A szövegkeret tartalmának oszlopokra bontása
     string[] columnsText = textFrame.SplitTextByColumns();
     // Minden oszlop szövegének kiírása a konzolra
     foreach (string column in columnsText)
@@ -39,7 +39,7 @@ using (Presentation pres = new Presentation("example.pptx"))
 }
 ```
 
-### See Also
+### Lásd még
 
 * interfész [ITextFrame](../../itextframe)
 * névtér [Aspose.Slides](../../itextframe)

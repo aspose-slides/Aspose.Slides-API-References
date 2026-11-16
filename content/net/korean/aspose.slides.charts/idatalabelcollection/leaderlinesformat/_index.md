@@ -1,9 +1,9 @@
 ---
 title: LeaderLinesFormat
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 데이터 레이블 리더 라인 형식을 나타냅니다. 읽기 전용 IChartLinesFormataspose.slides.charts/ichartlinesformat.
 type: docs
-weight: 80
+weight: 90
 url: /ko/aspose.slides.charts/idatalabelcollection/leaderlinesformat/
 ---
 ## IDataLabelCollection.LeaderLinesFormat 속성
@@ -31,7 +31,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### 또 보기
+### 참조
 
 * 인터페이스 [IChartLinesFormat](../../ichartlinesformat)
 * 인터페이스 [IDataLabelCollection](../../idatalabelcollection)

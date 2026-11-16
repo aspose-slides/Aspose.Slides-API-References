@@ -1,14 +1,14 @@
 ---
 title: SchemeColor
-second_title: Aspose.Sildes for .NET API リファレンス
-description: カラースキームの色を表します。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: カラースキーム内の色を表します。
 type: docs
-weight: 9740
+weight: 9760
 url: /ja/aspose.slides/schemecolor/
 ---
-## SchemeColor 列挙体
+## SchemeColor 列挙型
 
-カラー スキームの色を表します。
+カラースキーム内の色を表します。
 
 ```csharp
 public enum SchemeColor
@@ -18,7 +18,7 @@ public enum SchemeColor
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
-| NotDefined | `-1` | カラー スキームが定義されていません。 |
+| NotDefined | `-1` | カラースキームが定義されていません。 |
 | Background1 | `0` |  |
 | Text1 | `1` |  |
 | Background2 | `2` |  |

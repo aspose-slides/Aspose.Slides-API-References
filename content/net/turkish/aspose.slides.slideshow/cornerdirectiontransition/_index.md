@@ -1,14 +1,14 @@
 ---
 title: CornerDirectionTransition
 second_title: Aspose.Sildes için .NET API Referansı
-description: Köşe yönünde slayt geçiş efekti.
+description: Köşe yönündeki slayt geçiş efekti.
 type: docs
-weight: 10010
+weight: 10030
 url: /tr/aspose.slides.slideshow/cornerdirectiontransition/
 ---
-## CornerDirectionTransition sınıf
+## CornerDirectionTransition sınıfı
 
-Köşe yönünde slayt geçiş efekti.
+Corner direction slide transition effect.
 
 ```csharp
 public class CornerDirectionTransition : TransitionValueBase, ICornerDirectionTransition
@@ -16,18 +16,18 @@ public class CornerDirectionTransition : TransitionValueBase, ICornerDirectionTr
 
 ## Özellikler
 
-| İsim | Açıklama |
+| Ad | Açıklama |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/cornerdirectiontransition/direction) { get; set; } | Geçiş yönü. Okunur/yazılır [`TransitionCornerDirectionType`](../transitioncornerdirectiontype). |
+| [Direction](../../aspose.slides.slideshow/cornerdirectiontransition/direction) { get; set; } | Geçiş yönü. Okuma/Yazma [`TransitionCornerDirectionType`](../transitioncornerdirectiontype). |
 
 ## Yöntemler
 
-| İsim | Açıklama |
+| Ad | Açıklama |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | İki TransitionValueBase örneğinin eşit olup olmadığını belirler. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Belirli bir tür için hash işlevi olarak hizmet eder, hash algoritmaları ve hash tablosu gibi veri yapılarında kullanılmaya uygundur. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Belirli bir tür için bir karma işlevi olarak hizmet eder, karma algoritmaları ve bir hash table gibi veri yapılarında kullanılmaya uygundur. |
 
-### Ayrıca Bakınız
+### Diğer Bağlantılar
 
 * sınıf [TransitionValueBase](../transitionvaluebase)
 * arayüz [ICornerDirectionTransition](../icornerdirectiontransition)

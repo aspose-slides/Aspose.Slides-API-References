@@ -1,14 +1,14 @@
 ---
 title: IChartDataWorksheetCollection
 second_title: Aspose.Sildes for .NET API リファレンス
-description: チャートデータワークブックのワークシートコレクションを表します。
+description: チャート データ ワークブックのワークシート コレクションを表します。
 type: docs
-weight: 1880
+weight: 1900
 url: /ja/aspose.slides.charts/ichartdataworksheetcollection/
 ---
 ## IChartDataWorksheetCollection インターフェイス
 
-chart data workbook のワークシートのコレクションを表します。
+チャート データ ワークブックのワークシート コレクションを表します。
 
 ```csharp
 public interface IChartDataWorksheetCollection : IGenericCollection<IChartDataWorksheet>
@@ -18,11 +18,11 @@ public interface IChartDataWorksheetCollection : IGenericCollection<IChartDataWo
 
 | 名前 | 説明 |
 | --- | --- |
-| [Item](../../aspose.slides.charts/ichartdataworksheetcollection/item) { get; } | インデックスで worksheet を返します。 |
+| [Item](../../aspose.slides.charts/ichartdataworksheetcollection/item) { get; } | インデックスでワークシートを返します。 |
 
 ### 例
 
-Example:
+例:
 
 ```csharp
 [C#]

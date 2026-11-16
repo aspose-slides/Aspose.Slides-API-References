@@ -1,14 +1,14 @@
 ---
 title: OleEmbeddedDataInfo
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Representa la información de datos incrustada para un objeto OLE.
+description: Representa información de datos incrustada para un objeto OLE.
 type: docs
-weight: 2760
+weight: 2780
 url: /es/aspose.slides.dom.ole/oleembeddeddatainfo/
 ---
-## Clase OleEmbeddedDataInfo
+## OleEmbeddedDataInfo clase
 
-Representa la información de datos incrustada para un objeto OLE.
+Representa información de datos incrustada para un objeto OLE.
 
 ```csharp
 public class OleEmbeddedDataInfo : IOleEmbeddedDataInfo
@@ -19,14 +19,14 @@ public class OleEmbeddedDataInfo : IOleEmbeddedDataInfo
 | Nombre | Descripción |
 | --- | --- |
 | [OleEmbeddedDataInfo](oleembeddeddatainfo#constructor)() | Crea una nueva información de datos incrustada para un objeto OLE. |
-| [OleEmbeddedDataInfo](oleembeddeddatainfo#constructor_1)(byte[], string) | Crea una nueva instancia de una información de datos incrustada para un objeto OLE. Datos del archivo de un objeto OLE incrustado Byte[]. Extensión de archivo para el objeto OLE incrustado actual String. |
+| [OleEmbeddedDataInfo](oleembeddeddatainfo#constructor_1)(byte[], string) | Crea una nueva instancia de una información de datos incrustada para un objeto OLE. Datos del archivo de un objeto OLE incrustado Byte[]. Extensión del archivo para el objeto OLE incrustado actual String. |
 
 ## Propiedades
 
 | Nombre | Descripción |
 | --- | --- |
-| [EmbeddedFileData](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfiledata) { get; } | Devuelve los datos de archivo de un objeto OLE incrustado Solo lectura Byte[]. |
-| [EmbeddedFileExtension](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfileextension) { get; } | Devuelve la extensión de archivo para el objeto OLE incrustado actual Solo lectura String. |
+| [EmbeddedFileData](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfiledata) { get; } | Devuelve los datos del archivo de un objeto OLE incrustado Solo lectura Byte[]. |
+| [EmbeddedFileExtension](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfileextension) { get; } | Devuelve la extensión del archivo para el objeto OLE incrustado actual Solo lectura String. |
 
 ### Ver también
 

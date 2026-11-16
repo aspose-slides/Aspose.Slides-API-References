@@ -1,14 +1,14 @@
 ---
 title: IAlphaBiLevel
-second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje efekt Alpha Bi-Level. Hodnoty Alpha Opacity menší než práh jsou změněny na 0 plně průhledné a alpha hodnoty větší nebo rovny prahu jsou změněny na 100 plně neprůhledné.
+second_title: Aspose.Sildes pro .NET API reference
+description: Reprezentuje efekt Alpha Bi-Level. Hodnoty alfa neprůhlednosti menší než práh jsou změněny na 0 (úplně průhledné) a hodnoty alfa větší nebo rovné prahu jsou změněny na 100 (úplně neprůhledné).
 type: docs
-weight: 3020
+weight: 3040
 url: /cs/aspose.slides.effects/ialphabilevel/
 ---
 ## IAlphaBiLevel rozhraní
 
-Reprezentuje efekt Alpha Bi-Level. Hodnoty Alpha (Opacity) menší než práh jsou změněny na 0 (zcela průhledné) a hodnoty alpha větší nebo rovny prahu jsou změněny na 100 % (zcela neprůhledné).
+Represents an Alpha Bi-Level effect. Alpha (Opacity) values less than the threshold are changed to 0 (fully transparent) and alpha values greater than or equal to the threshold are changed to 100% (fully opaque).
 
 ```csharp
 public interface IAlphaBiLevel : IAccessiblePVIObject<IAlphaBiLevelEffectiveData>, 
@@ -21,7 +21,7 @@ public interface IAlphaBiLevel : IAccessiblePVIObject<IAlphaBiLevelEffectiveData
 | --- | --- |
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphabilevel/asiaccessiblepviobject) { get; } | Umožňuje získat základní rozhraní IAccessiblePVIObject. Pouze pro čtení [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
 | [AsIImageTransformOperation](../../aspose.slides.effects/ialphabilevel/asiimagetransformoperation) { get; } | Umožňuje získat základní rozhraní IImageTransformOperation. Pouze pro čtení [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Threshold](../../aspose.slides.effects/ialphabilevel/threshold) { get; set; } | Vrací práh efektu. Čtení/Zápis Single. |
+| [Threshold](../../aspose.slides.effects/ialphabilevel/threshold) { get; set; } | Vrací práh efektu. Čtení/zápis Single. |
 
 ### Poznámky
 

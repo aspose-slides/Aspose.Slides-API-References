@@ -1,14 +1,14 @@
 ---
 title: ITableFormat
 second_title: Aspose.Sildes .NET API 参考
-description: 表示表格的格式。
+description: 表示表的格式。
 type: docs
-weight: 7240
+weight: 7260
 url: /zh/aspose.slides/itableformat/
 ---
 ## ITableFormat 接口
 
-表示表格的格式。
+表示表的格式。
 
 ```csharp
 public interface ITableFormat
@@ -18,16 +18,16 @@ public interface ITableFormat
 
 | 名称 | 描述 |
 | --- | --- |
-| [FillFormat](../../aspose.slides/itableformat/fillformat) { get; } | 返回一个表格填充属性对象。只读 [`IFillFormat`](../ifillformat)。 |
+| [FillFormat](../../aspose.slides/itableformat/fillformat) { get; } | 返回表填充属性对象。只读 [`IFillFormat`](../ifillformat)。 |
 | [Transparency](../../aspose.slides/itableformat/transparency) { get; set; } | 获取或设置填充颜色的透明度。读/写 Single。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [GetEffective](../../aspose.slides/itableformat/geteffective)() | 获取有效的表格格式属性，已应用继承和表格样式。 |
+| [GetEffective](../../aspose.slides/itableformat/geteffective)() | 获取具有继承和已应用表样式的有效表格式属性。 |
 
-### 参见
+### 另请参见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

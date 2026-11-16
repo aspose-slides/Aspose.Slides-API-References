@@ -1,14 +1,14 @@
 ---
 title: CombinableSeriesTypesGroup
 second_title: Aspose.Sildes .NET API hivatkozás
-description: A kombinálható sorozattípusok csoportjainak felsorolása. Minden elem egy olyan típuscsoporthoz tartozik, amely olyan diagram sorozatok típusait jelöli, amelyek egyszerre megtarthatók egy ChartSeriesGroup-ban. Például a ChartType.PercentsStackedArea sorozat nem lehet egyszerre a ChartType.StackedArea sorozattal egy ChartSeriesGroup-ban. De két vagy több ChartType.PercentsStackedArea szerepelhet egyszerre egy ChartSeriesGroup-ban, például a CombinableSeriesTypesGroup.AreaChart_PercentsStackedArea. És a ChartType.Line sorozat együtt lehet a ChartType.LineWithMarkers sorozattal egy CombinableSeriesTypesGroup.LineChart_Line ChartSeriesGroup-ban.
+description: Az egyesíthető sorozattípus-csoportok enumerációja. Minden elem egy olyan típuscsoporthoz tartozik, amely diagram sorozatokban egyszerre létezhet egy ChartSeriesGroup-ban. Például a ChartType.PercentsStackedArea sorozat nem lehet egyszerre a ChartType.StackedArea sorozattal egy ChartSeriesGroup-ban. De két vagy több ChartType.PercentsStackedArea sorozat lehet egyszerre egy ChartSeriesGroup-ban: CombinableSeriesTypesGroup.AreaChart_PercentsStackedArea. És a ChartType.Line sorozat lehet egyszerre a ChartType.LineWithMarkers sorozattal egy CombinableSeriesTypesGroup.LineChart_Line ChartSeriesGroup-ban.
 type: docs
-weight: 1530
+weight: 1540
 url: /hu/aspose.slides.charts/combinableseriestypesgroup/
 ---
 ## CombinableSeriesTypesGroup enumeráció
 
-Az összekapcsolható sorozattípusok csoportjainak felsorolása. Minden elem egy olyan típuscsoporthoz tartozik, amely a diagram sorozatok típusait jelöli, és egyszerre létezhet egy ChartSeriesGroup-ban. Például: a ChartType.PercentsStackedArea sorozat nem lehet egyszerre a ChartType.StackedArea sorozattal egy ChartSeriesGroup-ban. De két vagy több ChartType.PercentsStackedArea szerepelhet egyszerre egy ChartSeriesGroup-ban (CombinableSeriesTypesGroup.AreaChart_PercentsStackedArea). És a ChartType.Line sorozat együtt lehet a ChartType.LineWithMarkers sorozattal egy CombinableSeriesTypesGroup.LineChart_Line ChartSeriesGroup-ban.
+Az egyesíthető sorozattípus-csoportok enumerációja. Minden elem egy olyan típuscsoporthoz kapcsolódik, amely diagram sorozatokban egyszerre létezhet egy ChartSeriesGroup-ban. Például: ChartType.PercentsStackedArea sorozat nem lehet egyszerre a ChartType.StackedArea sorozattal egy ChartSeriesGroup-ban. De két vagy több ChartType.PercentsStackedArea sorozat lehet egyszerre egy ChartSeriesGroup-ban (CombinableSeriesTypesGroup.AreaChart_PercentsStackedArea). És a ChartType.Line sorozat lehet egyszerre a ChartType.LineWithMarkers sorozattal egy CombinableSeriesTypesGroup.LineChart_Line ChartSeriesGroup-ban.
 
 ```csharp
 public enum CombinableSeriesTypesGroup

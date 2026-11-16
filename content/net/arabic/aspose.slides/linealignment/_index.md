@@ -1,12 +1,12 @@
 ---
 title: LineAlignment
-second_title: Aspose.Sildes لـ .NET مرجع API
+second_title: مرجع API الخاص بـ Aspose.Sildes for .NET
 description: يمثل نوع محاذاة الخطوط.
 type: docs
-weight: 7720
+weight: 7740
 url: /ar/aspose.slides/linealignment/
 ---
-## LineAlignment تعداد
+## تعداد LineAlignment
 
 يمثل نوع محاذاة الخطوط.
 

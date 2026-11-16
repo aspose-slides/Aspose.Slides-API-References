@@ -1,14 +1,14 @@
 ---
 title: SketchFormat
-second_title: Aspose.Sildes .NET API Referencia
-description: A vonalak vázlat formátumának tulajdonságait képviseli.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: A vonalak vázlatformátumának tulajdonságait reprezentálja.
 type: docs
-weight: 9950
+weight: 9970
 url: /hu/aspose.slides/sketchformat/
 ---
 ## SketchFormat osztály
 
-A vonalak vázlat formátumának tulajdonságait képviseli.
+A vonalak vázlat formátumának tulajdonságait reprezentálja.
 
 ```csharp
 public sealed class SketchFormat : PVIObject, ISketchFormat
@@ -18,8 +18,8 @@ public sealed class SketchFormat : PVIObject, ISketchFormat
 
 | Név | Leírás |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Lehetővé teszi a base IPresentationComponent interfész lekérését. Csak olvasható [`IPresentationComponent`](../ipresentationcomponent). |
-| [SketchType](../../aspose.slides/sketchformat/sketchtype) { get; set; } | Visszaadja vagy beállítja a vázlat típusát. Olvasás/írás [`LineSketchType`](../linesketchtype). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Lehetővé teszi a base IPresentationComponent interface lekérését. Csak olvasható [`IPresentationComponent`](../ipresentationcomponent). |
+| [SketchType](../../aspose.slides/sketchformat/sketchtype) { get; set; } | Visszaadja vagy beállítja a vázlat típusát. Olvasható/írható [`LineSketchType`](../linesketchtype). |
 
 ## Metódusok
 

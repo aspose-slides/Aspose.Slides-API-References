@@ -1,9 +1,9 @@
 ---
 title: IRowFormat
-second_title: Referencia de API Aspose.Sildes para .NET
+second_title: Referencia de la API de Aspose.Sildes para .NET
 description: Representa el formato de una fila de tabla.
 type: docs
-weight: 6870
+weight: 6890
 url: /es/aspose.slides/irowformat/
 ---
 ## IRowFormat interfaz

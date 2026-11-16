@@ -1,14 +1,14 @@
 ---
 title: IChartCategory
-second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt grafiekcategorieën voor.
+second_title: Aspose.Slides voor .NET API-referentie
+description: Stelt grafiektcategorieën voor.
 type: docs
-weight: 1750
+weight: 1770
 url: /nl/aspose.slides.charts/ichartcategory/
 ---
 ## IChartCategory interface
 
-Stelt grafiekcategorieën voor.
+Stelt grafiektcategorieën voor.
 
 ```csharp
 public interface IChartCategory
@@ -16,19 +16,20 @@ public interface IChartCategory
 
 ## Eigenschappen
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
-| [AsCell](../../aspose.slides.charts/ichartcategory/ascell) { get; set; } | Retourneert of stelt een IChartDataCell object in. Als de categorie meerlagig is, wordt dan het IChartDataCell object gebruikt voor niveau "0". Lezen/Schrijven [`IChartDataCell`](../ichartdatacell). |
-| [AsLiteral](../../aspose.slides.charts/ichartcategory/asliteral) { get; set; } | Retourneert of stelt AsLiteral in als UseCell onwaar is. Lezen/Schrijven Object. |
-| [GroupingLevels](../../aspose.slides.charts/ichartcategory/groupinglevels) { get; } | Beheerde container van de waarden van de groeperingsniveaus van de grafiekcategorie. Een meerlagige categorie bevat meer dan één groeperingsniveau. Indexering van groeperingsniveaus is nulgebaseerd. Alleen-lezen [`IChartCategoryLevelsManager`](../ichartcategorylevelsmanager). |
-| [UseCell](../../aspose.slides.charts/ichartcategory/usecell) { get; } | Als true is, dan is de AsCell-eigenschap actueel. Met andere woorden, werkblad wordt gebruikt voor het opslaan van de categorie (dit geval ondersteunt een meerlagige categorie). Als false is, dan is de AsLiteral-eigenschap actueel. Met andere woorden, werkblad wordt NIET gebruikt voor het opslaan van de categorie (en dit geval ondersteunt geen meerlagige categorieën). Alleen-lezen Boolean. |
-| [Value](../../aspose.slides.charts/ichartcategory/value) { get; set; } | Als UseCell true is, vertegenwoordigt deze eigenschap de AsCell.Value eigenschap. Als UseCell false is, vertegenwoordigt deze eigenschap de AsLiteral eigenschap. Lezen/Schrijven Object. |
+| [AsCell](../../aspose.slides.charts/ichartcategory/ascell) { get; set; } | Retourneert of stelt IChartDataCell-object in. Als de categorie meerlagig is, wordt het IChartDataCell-object voor niveau "0" gebruikt. Lees/schrijf [`IChartDataCell`](../ichartdatacell). |
+| [AsLiteral](../../aspose.slides.charts/ichartcategory/asliteral) { get; set; } | Retourneert of stelt AsLiteral in als UseCell false is. Lees/schrijf Object. |
+| [CachedValue](../../aspose.slides.charts/ichartcategory/cachedvalue) { get; } | Haalt de cachewaarde van een grafiektcategorie op. Alleen-lezen [`ICachedChartValue`](../icachedchartvalue). |
+| [GroupingLevels](../../aspose.slides.charts/ichartcategory/groupinglevels) { get; } | Beheerde container van de waarden van de groeperingsniveaus van de grafiektcategorie. Een meerlagige categorie bevat meer dan één groeperingsniveau. Indexering van groeperingsniveaus is nul-gebaseerd. Alleen-lezen [`IChartCategoryLevelsManager`](../ichartcategorylevelsmanager). |
+| [UseCell](../../aspose.slides.charts/ichartcategory/usecell) { get; } | Als true dan is de AsCell-eigenschap van toepassing. Met andere woorden, werkblad wordt gebruikt voor het opslaan van de categorie (dit geval ondersteunt een meerlagige categorie). Als false dan is de AsLiteral-eigenschap van toepassing. Met andere woorden, werkblad wordt NIET gebruikt voor het opslaan van de categorie (en dit geval ondersteunt geen meerlagige categorieën). Alleen-lezen Boolean. |
+| [Value](../../aspose.slides.charts/ichartcategory/value) { get; set; } | Als UseCell true is, vertegenwoordigt deze eigenschap de AsCell.Value-eigenschap. Als UseCell false is, vertegenwoordigt deze eigenschap de AsLiteral-eigenschap. Lees/schrijf Object. |
 
 ## Methoden
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
-| [Remove](../../aspose.slides.charts/ichartcategory/remove)() | Verwijdert de categorie uit de grafiek. |
+| [Remove](../../aspose.slides.charts/ichartcategory/remove)() | Verwijdert de categorie uit het diagram. |
 
 ### Zie ook
 

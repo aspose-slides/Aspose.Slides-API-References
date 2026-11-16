@@ -1,14 +1,14 @@
 ---
 title: ISideDirectionTransition
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Slide-Übergangseffekt für Seitenrichtung.
+description: Seitlicher Richtungs-Folienübergangseffekt.
 type: docs
-weight: 10190
+weight: 10210
 url: /de/aspose.slides.slideshow/isidedirectiontransition/
 ---
 ## ISideDirectionTransition Schnittstelle
 
-Slide-Übergangseffekt für Seitenrichtung.
+Seitlicher Richtungs-Folienübergangseffekt.
 
 ```csharp
 public interface ISideDirectionTransition : ITransitionValueBase
@@ -18,8 +18,8 @@ public interface ISideDirectionTransition : ITransitionValueBase
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/isidedirectiontransition/asitransitionvaluebase) { get; } | Ermöglicht das Abrufen der Basis-Schnittstelle ITransitionValueBase. Nur lesbar [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/isidedirectiontransition/direction) { get; set; } | Richtung des Übergangs. Lese-/Schreibzugriff [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/isidedirectiontransition/asitransitionvaluebase) { get; } | Ermöglicht das Abrufen der Basisschnittstelle ITransitionValueBase. Nur lesbar [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/isidedirectiontransition/direction) { get; set; } | Richtung des Übergangs. Lesen/Schreiben [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
 
 ### Siehe auch
 

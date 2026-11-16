@@ -1,14 +1,14 @@
 ---
 title: IBlurEffectiveData
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Unveränderliches Objekt, das einen Blur-Effekt darstellt, der auf die gesamte Form einschließlich ihrer Füllung angewendet wird. Alle Farbkanäle, einschließlich Alpha, sind betroffen.
+description: Unveränderliches Objekt, das einen Weichzeichnungseffekt darstellt, der auf die gesamte Form einschließlich ihrer Füllung angewendet wird. Alle Farbkanäle, einschließlich Alpha, werden beeinflusst.
 type: docs
-weight: 3190
+weight: 3210
 url: /de/aspose.slides.effects/iblureffectivedata/
 ---
 ## IBlurEffectiveData Schnittstelle
 
-Unveränderliches Objekt, das einen Blur-Effekt darstellt, der auf die gesamte Form, einschließlich ihrer Füllung, angewendet wird. Alle Farbkanäle, einschließlich Alpha, sind betroffen.
+Unveränderliches Objekt, das einen Weichzeichnungseffekt darstellt, der auf die gesamte Form, einschließlich ihrer Füllung, angewendet wird. Alle Farbkanäle, einschließlich Alpha, werden beeinflusst.
 
 ```csharp
 public interface IBlurEffectiveData : IEffectEffectiveData
@@ -18,11 +18,11 @@ public interface IBlurEffectiveData : IEffectEffectiveData
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/iblureffectivedata/asieffecteffectivedata) { get; } | Ermöglicht das Abrufen der Basis-IEffectEffectiveData-Schnittstelle. Nur lesbar [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Grow](../../aspose.slides.effects/iblureffectivedata/grow) { get; } | Bestimmt, ob die Grenzen des Objekts als Ergebnis der Unschärfe vergrößert werden sollen. True bedeutet, dass die Grenzen vergrößert werden, während false bedeutet, dass sie nicht vergrößert werden. Nur lesbar Boolean. |
-| [Radius](../../aspose.slides.effects/iblureffectivedata/radius) { get; } | Gibt den Blur-Radius zurück oder legt ihn fest. Nur lesbar Double. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/iblureffectivedata/asieffecteffectivedata) { get; } | Ermöglicht das Abrufen der Basis IEffectEffectiveData Schnittstelle. Nur lesbar [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Grow](../../aspose.slides.effects/iblureffectivedata/grow) { get; } | Bestimmt, ob die Begrenzungen des Objekts durch das Weichzeichnen vergrößert werden sollen. True bedeutet, dass die Begrenzungen vergrößert werden, während false bedeutet, dass sie nicht vergrößert werden. Nur lesbar Boolean. |
+| [Radius](../../aspose.slides.effects/iblureffectivedata/radius) { get; } | Gibt den Weichzeichnungsradius zurück oder setzt ihn. Nur lesbar Double. |
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IEffectEffectiveData](../ieffecteffectivedata)
 * Namensraum [Aspose.Slides.Effects](../../aspose.slides.effects)

@@ -1,14 +1,14 @@
 ---
 title: Luminance
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Representeert een Luminance-effect. Brightness verschuift lineair alle kleuren dichter naar wit of zwart. Contrast schaalt alle kleuren om dichterbij of verder van elkaar te liggen.
+description: Stelt een Luminance effect voor. Brightness verschuift lineair alle kleuren dichter naar wit of zwart. Contrast schaalt alle kleuren zodat ze dichter bij of verder van elkaar liggen.
 type: docs
-weight: 3610
+weight: 3630
 url: /nl/aspose.slides.effects/luminance/
 ---
 ## Luminance klasse
 
-Representeert een Luminance-effect. Brightness verschuift lineair alle kleuren dichter naar wit of zwart. Contrast schaalt alle kleuren om dichterbij of verder van elkaar te liggen.
+Stelt een Luminance effect voor. Brightness verschuift lineair alle kleuren dichter naar wit of zwart. Contrast schaalt alle kleuren zodat ze dichter bij of verder van elkaar liggen.
 
 ```csharp
 public sealed class Luminance : ImageTransformOperation, ILuminance
@@ -18,15 +18,15 @@ public sealed class Luminance : ImageTransformOperation, ILuminance
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Stelt toe de basis IPresentationComponent interface op te halen. Alleen-lezen [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Staat toe om de basis IPresentationComponent interface op te halen. Alleen-lezen [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/luminance/equals)(object) | Bepaalt of de opgegeven [`Luminance`](../luminance) gelijk is aan de huidige [`Luminance`](../luminance). |
-| [GetEffective](../../aspose.slides.effects/luminance/geteffective)() | Haalt effectieve Luminance-effectgegevens op met de geërfde waarden toegepast. |
-| override [GetHashCode](../../aspose.slides.effects/luminance/gethashcode)() | Dient als hash-functie voor een specifiek type. |
+| [GetEffective](../../aspose.slides.effects/luminance/geteffective)() | Haalt de effectieve Luminance-effectgegevens op met de overerving toegepast. |
+| override [GetHashCode](../../aspose.slides.effects/luminance/gethashcode)() | Dient als een hash-functie voor een bepaald type. |
 
 ### Zie ook
 

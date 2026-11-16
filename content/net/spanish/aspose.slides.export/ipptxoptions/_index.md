@@ -1,9 +1,9 @@
 ---
 title: IPptxOptions
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Referencia de la API de Aspose.Sildes para .NET
 description: Representa opciones para guardar presentaciones OpenXml PPTX PPSX POTX PPTM PPSM POTM.
 type: docs
-weight: 4020
+weight: 4040
 url: /es/aspose.slides.export/ipptxoptions/
 ---
 ## IPptxOptions interfaz
@@ -16,13 +16,13 @@ public interface IPptxOptions : ISaveOptions
 
 ## Propiedades
 
-| Name | Description |
+| Nombre | Descripción |
 | --- | --- |
 | [AsISaveOptions](../../aspose.slides.export/ipptxoptions/asisaveoptions) { get; } | Permite obtener la interfaz base ISaveOptions. Solo lectura [`ISaveOptions`](../isaveoptions). |
-| [CompressionLevel](../../aspose.slides.export/ipptxoptions/compressionlevel) { get; set; } | Especifica el nivel de compresión utilizado al guardar el documento de presentación. El valor predeterminado es Level6. |
-| [Conformance](../../aspose.slides.export/ipptxoptions/conformance) { get; set; } | Especifica la clase de conformidad a la que se ajusta el documento Presentation. El valor predeterminado es Ecma376_2006 |
-| [RefreshThumbnail](../../aspose.slides.export/ipptxoptions/refreshthumbnail) { get; set; } | Especifica si la miniatura de la presentación se actualizará. Lectura/escritura Boolean. El valor predeterminado es **true**. |
-| [Zip64Mode](../../aspose.slides.export/ipptxoptions/zip64mode) { get; set; } | Especifica si se utiliza el formato ZIP64 para el documento Presentation. El valor predeterminado es IfNecessary |
+| [CompressionLevel](../../aspose.slides.export/ipptxoptions/compressionlevel) { get; set; } | Especifica el nivel de compresión utilizado al guardar el documento de la presentación. El valor predeterminado es Level6. |
+| [Conformance](../../aspose.slides.export/ipptxoptions/conformance) { get; set; } | Especifica la clase de conformidad a la que se ajusta el documento Presentation. Valor predeterminado es Ecma376_2006 |
+| [RefreshThumbnail](../../aspose.slides.export/ipptxoptions/refreshthumbnail) { get; set; } | Especifica si la miniatura de la presentación se actualizará. Boolean de lectura/escritura. Valor predeterminado es **true**. |
+| [Zip64Mode](../../aspose.slides.export/ipptxoptions/zip64mode) { get; set; } | Especifica si se utiliza el formato ZIP64 para el documento Presentation. Valor predeterminado es IfNecessary |
 
 ### Ver también
 

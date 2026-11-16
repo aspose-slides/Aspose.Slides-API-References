@@ -1,14 +1,14 @@
 ---
 title: MathAccentFactory
-second_title: Aspose.Sildes a .NET API referencia
-description: Lehetővé teszi matematikai akcentus létrehozását
+second_title: Aspose.Sildes .NET API-referencia
+description: Lehetővé teszi egy matematikai ékezet létrehozását
 type: docs
-weight: 8540
+weight: 8560
 url: /hu/aspose.slides.mathtext/mathaccentfactory/
 ---
 ## MathAccentFactory osztály
 
-Lehetővé teszi matematikai akcentus létrehozását
+Lehetővé teszi egy matematikai ékezet létrehozását
 
 ```csharp
 public class MathAccentFactory : IMathAccentFactory
@@ -24,10 +24,10 @@ public class MathAccentFactory : IMathAccentFactory
 
 | Név | Leírás |
 | --- | --- |
-| [CreateMathAccent](../../aspose.slides.mathtext/mathaccentfactory/createmathaccent#createmathaccent)(IMathElement) | Létrehoz egy matematikai akcentust a megadott matematikai elemen az alapértelmezett akcentus karakter értékkel |
-| [CreateMathAccent](../../aspose.slides.mathtext/mathaccentfactory/createmathaccent#createmathaccent_1)(IMathElement, char) | Létrehoz egy matematikai akcentust a megadott matematikai elemhez |
+| [CreateMathAccent](../../aspose.slides.mathtext/mathaccentfactory/createmathaccent#createmathaccent)(IMathElement) | Létrehoz egy matematikai ékezetet a megadott math elemre, az alapértelmezett ékezetkarakter értékkel |
+| [CreateMathAccent](../../aspose.slides.mathtext/mathaccentfactory/createmathaccent#createmathaccent_1)(IMathElement, char) | Létrehoz egy matematikai ékezetet a megadott math elemre |
 
-### Megjegyzés
+### Megjegyzések
 
 COM kompatibilitáshoz
 

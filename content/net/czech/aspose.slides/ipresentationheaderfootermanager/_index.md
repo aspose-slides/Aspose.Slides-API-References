@@ -1,14 +1,14 @@
 ---
 title: IPresentationHeaderFooterManager
-second_title: Aspose.Sildes pro .NET – referenční příručka API
-description: Reprezentuje správce, který určuje chování všech placeholderů zápatí, data a času a číslování stránek v prezentaci.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Representuje správce, který obsahuje chování všech zástupných znaků zápatí, data a času a číslování stránek v prezentaci.
 type: docs
-weight: 6780
+weight: 6800
 url: /cs/aspose.slides/ipresentationheaderfootermanager/
 ---
 ## IPresentationHeaderFooterManager rozhraní
 
-Reprezentuje správce, který určuje chování všech placeholderů zápatí, data a času a číslování stránek v prezentaci.
+Representuje správce, který obsahuje chování všech zástupných znaků zápatí, data a času a číslování stránek v prezentaci.
 
 ```csharp
 public interface IPresentationHeaderFooterManager : IBaseHeaderFooterManager
@@ -24,14 +24,14 @@ public interface IPresentationHeaderFooterManager : IBaseHeaderFooterManager
 
 | Název | Popis |
 | --- | --- |
-| [SetAllDateTimesText](../../aspose.slides/ipresentationheaderfootermanager/setalldatetimestext)(string) | Nastaví text do všech placeholderů datum-čas, včetně hlavních snímků, rozložení snímků a snímků. |
-| [SetAllDateTimesVisibility](../../aspose.slides/ipresentationheaderfootermanager/setalldatetimesvisibility)(bool) | Změní viditelnost všech placeholderů datum-čas, včetně hlavních snímků, rozložení snímků a snímků. |
-| [SetAllFootersText](../../aspose.slides/ipresentationheaderfootermanager/setallfooterstext)(string) | Nastaví text do všech placeholderů zápatí, včetně hlavních snímků, rozložení snímků a snímků. |
-| [SetAllFootersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallfootersvisibility)(bool) | Změní viditelnost všech placeholderů zápatí, včetně hlavních snímků, rozložení snímků a snímků. |
-| [SetAllHeadersText](../../aspose.slides/ipresentationheaderfootermanager/setallheaderstext)(string) | Nastaví text do všech placeholderů záhlaví, včetně hlavního poznámkového snímku, snímků poznámek a hlavního výtisku. |
-| [SetAllHeadersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallheadersvisibility)(bool) | Změní viditelnost všech placeholderů záhlaví, včetně hlavního poznámkového snímku, snímků poznámek a hlavního výtisku. |
-| [SetAllSlideNumbersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallslidenumbersvisibility)(bool) | Změní viditelnost všech placeholderů číslování stránek, včetně hlavních snímků, rozložení snímků a snímků. |
-| [SetVisibilityOnAllTitleSlides](../../aspose.slides/ipresentationheaderfootermanager/setvisibilityonalltitleslides)(bool) | Změní viditelnost placeholderů zápatí, datum-čas a číslování stránek pro všechny titulní snímky a pro první snímek rozložení. Titulní snímky – snímky založené na prvním snímku rozložení (bez ohledu na typ tohoto prvního rozložení). |
+| [SetAllDateTimesText](../../aspose.slides/ipresentationheaderfootermanager/setalldatetimestext)(string) | Nastavuje text do všech zástupných znaků data a času, včetně hlavních snímků, rozložení snímků a snímků. |
+| [SetAllDateTimesVisibility](../../aspose.slides/ipresentationheaderfootermanager/setalldatetimesvisibility)(bool) | Mění viditelnost všech zástupných znaků data a času, včetně hlavních snímků, rozložení snímků a snímků. |
+| [SetAllFootersText](../../aspose.slides/ipresentationheaderfootermanager/setallfooterstext)(string) | Nastavuje text do všech zástupných znaků zápatí, včetně hlavních snímků, rozložení snímků a snímků. |
+| [SetAllFootersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallfootersvisibility)(bool) | Mění viditelnost všech zástupných znaků zápatí, včetně hlavních snímků, rozložení snímků a snímků. |
+| [SetAllHeadersText](../../aspose.slides/ipresentationheaderfootermanager/setallheaderstext)(string) | Nastavuje text do všech zástupných znaků záhlaví, včetně hlavního poznámkového podkladu, snímků poznámek a hlavního výtisku. |
+| [SetAllHeadersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallheadersvisibility)(bool) | Mění viditelnost všech zástupných znaků záhlaví, včetně hlavního poznámkového podkladu, snímků poznámek a hlavního výtisku. |
+| [SetAllSlideNumbersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallslidenumbersvisibility)(bool) | Mění viditelnost všech zástupných znaků číslování stránek, včetně hlavních snímků, rozložení snímků a snímků. |
+| [SetVisibilityOnAllTitleSlides](../../aspose.slides/ipresentationheaderfootermanager/setvisibilityonalltitleslides)(bool) | Mění viditelnost zástupných znaků zápatí, data a času a číslování stránek pro všechny titulní snímky a pro první snímek rozložení. Titulní snímky – snímky založené na prvním snímku rozložení (bez ohledu na typ tohoto prvního rozložení). |
 
 ### Viz také
 

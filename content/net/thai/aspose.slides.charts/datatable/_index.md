@@ -1,30 +1,29 @@
 ---
 title: DataTable
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: แสดงคุณสมบัติตารางข้อมูล.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงคุณสมบัติของ data table.
 type: docs
-weight: 1600
+weight: 1610
 url: /th/aspose.slides.charts/datatable/
 ---
 ## DataTable คลาส
 
-แสดงคุณสมบัติตารางข้อมูล.
+แสดงคุณสมบัติของตารางข้อมูล.
 
 ```csharp
 public class DataTable : DomObject<Chart>, IDataTable
 ```
-
 ## คุณสมบัติ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
 | [Chart](../../aspose.slides.charts/datatable/chart) { get; } | คืนค่าแผนภูมิ. อ่านอย่างเดียว [`IChart`](../ichart). |
-| [Format](../../aspose.slides.charts/datatable/format) { get; } | คืนค่าสไตล์ของเส้น, การเติม, และเอฟเฟกต์ของวัตถุ. อ่านอย่างเดียว [`IFormat`](../iformat). |
-| [HasBorderHorizontal](../../aspose.slides.charts/datatable/hasborderhorizontal) { get; set; } | จริงถ้าตารางข้อมูลแผนภูมิมีเส้นขอบเซลล์แนวนอน. อ่าน/เขียน Boolean. |
-| [HasBorderOutline](../../aspose.slides.charts/datatable/hasborderoutline) { get; set; } | จริงถ้าตารางข้อมูลแผนภูมิมีเส้นขอบรอบ. อ่าน/เขียน Boolean. |
-| [HasBorderVertical](../../aspose.slides.charts/datatable/hasbordervertical) { get; set; } | จริงถ้าตารางข้อมูลแผนภูมิมีเส้นขอบเซลล์แนวตั้ง. อ่าน/เขียน Boolean. |
-| [ShowLegendKey](../../aspose.slides.charts/datatable/showlegendkey) { get; set; } | จริงถ้ากุญแจคำอธิบายป้ายข้อมูลมองเห็นได้. อ่าน/เขียน Boolean. |
-| [TextFormat](../../aspose.slides.charts/datatable/textformat) { get; } | คืนรูปแบบข้อความ. อ่านอย่างเดียว [`IChartTextFormat`](../icharttextformat). |
+| [Format](../../aspose.slides.charts/datatable/format) { get; } | คืนค่าสไตล์เส้น, การเติมสี และเอฟเฟกต์ของอ็อบเจ็กต์. อ่านอย่างเดียว [`IFormat`](../iformat). |
+| [HasBorderHorizontal](../../aspose.slides.charts/datatable/hasborderhorizontal) { get; set; } | เป็นจริงถ้าแผนภูมิข้อมูลตารางมีขอบเซลล์แนวนอน. อ่าน/เขียน Boolean. |
+| [HasBorderOutline](../../aspose.slides.charts/datatable/hasborderoutline) { get; set; } | True หากตารางข้อมูลแผนภูมิมีเส้นขอบรอบ. อ่าน/เขียน Boolean. |
+| [HasBorderVertical](../../aspose.slides.charts/datatable/hasbordervertical) { get; set; } | True หากตารางข้อมูลแผนภูมิมีเส้นขอบแนวตั้งของเซลล์. อ่าน/เขียน Boolean. |
+| [ShowLegendKey](../../aspose.slides.charts/datatable/showlegendkey) { get; set; } | True หากคีย์ legend ของป้ายข้อมูลมองเห็นได้. อ่าน/เขียน Boolean. |
+| [TextFormat](../../aspose.slides.charts/datatable/textformat) { get; } | คืนค่าการจัดรูปแบบข้อความ. อ่านอย่างเดียว [`IChartTextFormat`](../icharttextformat). |
 
 ### ดูเพิ่มเติม
 

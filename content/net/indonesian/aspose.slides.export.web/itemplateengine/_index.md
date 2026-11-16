@@ -3,12 +3,12 @@ title: ITemplateEngine
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili mesin templat yang mengubah pasangan templat dan data menjadi output yang dihasilkan, biasanya HTML.
 type: docs
-weight: 4620
+weight: 4640
 url: /id/aspose.slides.export.web/itemplateengine/
 ---
 ## ITemplateEngine antarmuka
 
-Mewakili mesin templat yang mengubah pasangan templat dan data menjadi output yang dihasilkan (biasanya HTML).
+Mewakili sebuah mesin templat yang mengubah pasangan templat dan data menjadi output yang dihasilkan (biasanya HTML).
 
 ```csharp
 public interface ITemplateEngine
@@ -18,8 +18,8 @@ public interface ITemplateEngine
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AddTemplate](../../aspose.slides.export.web/itemplateengine/addtemplate)(string, string, Type) | Menambahkan templat ke koleksi templat. |
-| [Compile](../../aspose.slides.export.web/itemplateengine/compile)(string, object) | Mengubah templat dengan kunci yang diberikan dan objek model menjadi output. |
+| [AddTemplate](../../aspose.slides.export.web/itemplateengine/addtemplate)(string, string, Type) | Menambahkan template ke koleksi template. |
+| [Compile](../../aspose.slides.export.web/itemplateengine/compile)(string, object) | Mengubah template dengan kunci yang diberikan dan objek model menjadi output. |
 
 ### Lihat Juga
 

@@ -1,18 +1,22 @@
 ---
 title: GapWidth
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Xác định khoảng cách giữa các nhóm thanh hoặc cột, dưới dạng phần trăm của chiều rộng thanh hoặc cột. Đọc/ghi UInt16.
+description: Lấy hoặc đặt khoảng cách giữa các cụm thanh hoặc cột, tính theo phần trăm độ rộng của thanh hoặc cột. Giá trị phải nằm trong khoảng từ 0 đến 500. Đọc/ghi UInt16.
 type: docs
 weight: 70
 url: /vi/aspose.slides.charts/chartseriesgroup/gapwidth/
 ---
 ## ChartSeriesGroup.GapWidth thuộc tính
 
-Xác định khoảng cách giữa các nhóm thanh hoặc cột, dưới dạng phần trăm của chiều rộng thanh hoặc cột. Đọc/ghi UInt16.
+Lấy hoặc đặt khoảng cách giữa các cụm thanh hoặc cột, tính theo phần trăm của độ rộng thanh hoặc cột. Giá trị phải nằm trong khoảng từ 0 đến 500. Đọc/ghi UInt16.
 
 ```csharp
 public ushort GapWidth { get; set; }
 ```
+
+### Ghi chú
+
+Thuộc tính này áp dụng cho các chuỗi thuộc các kiểu sau: các kiểu con Bar (xem thêm [`IsChartTypeBar`](../../charttypecharacterizer/ischarttypebar) phương thức), các kiểu con Column (xem thêm [`IsChartTypeColumn`](../../charttypecharacterizer/ischarttypecolumn) phương thức), BarOfPie, PieOfPie, BoxAndWhisker, Funnel, Histogram, Waterfall.
 
 ### Xem thêm
 

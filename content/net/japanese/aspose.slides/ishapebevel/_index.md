@@ -1,14 +1,14 @@
 ---
 title: IShapeBevel
-second_title: Aspose.Sildes の .NET API リファレンス
-description: シェイプの主面のレリーフのプロパティを表します。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: シェイプの主面の凹凸を表すプロパティです。
 type: docs
-weight: 6960
+weight: 6980
 url: /ja/aspose.slides/ishapebevel/
 ---
 ## IShapeBevel インターフェイス
 
-シェイプのメインフェイスのレリーフのプロパティを表します。
+シェイプの主面の凹凸を表すプロパティです。
 
 ```csharp
 public interface IShapeBevel

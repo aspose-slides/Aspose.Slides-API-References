@@ -1,12 +1,12 @@
 ---
 title: LineFormatCollection
-second_title: Aspose.Sildes dla .NET Referencja API
+second_title: Aspose.Sildes dla .NET – odniesienie API
 description: Reprezentuje kolekcję stylów linii.
 type: docs
-weight: 11420
+weight: 11440
 url: /pl/aspose.slides.theme/lineformatcollection/
 ---
-## LineFormatCollection klasa
+## Klasa LineFormatCollection
 
 Reprezentuje kolekcję stylów linii.
 
@@ -18,17 +18,17 @@ public sealed class LineFormatCollection : DomObject<FormatScheme>, ILineFormatC
 
 | Nazwa | Opis |
 | --- | --- |
-| [Count](../../aspose.slides.theme/lineformatcollection/count) { get; } | Zwraca liczbę elementów faktycznie zawartych w kolekcji. Tylko do odczytu Int32. |
-| [IsSynchronized](../../aspose.slides.theme/lineformatcollection/issynchronized) { get; } | Zwraca wartość wskazującą, czy dostęp do kolekcji jest zsynchronizowany (wątkowo-bezpieczny). Tylko do odczytu Boolean. |
-| [Item](../../aspose.slides.theme/lineformatcollection/item) { get; } | Zwraca element o podanym indeksie. Tylko do odczytu [`ILineFormat`](../../aspose.slides/ilineformat). |
-| [SyncRoot](../../aspose.slides.theme/lineformatcollection/syncroot) { get; } | Zwraca korzeń synchronizacji. Tylko do odczytu Object. |
+| [Count](../../aspose.slides.theme/lineformatcollection/count) { get; } | Zwraca liczbę elementów faktycznie zawartych w kolekcji. Read-only Int32. |
+| [IsSynchronized](../../aspose.slides.theme/lineformatcollection/issynchronized) { get; } | Zwraca wartość wskazującą, czy dostęp do kolekcji jest zsynchronizowany (wątkowo bezpieczny). Read-only Boolean. |
+| [Item](../../aspose.slides.theme/lineformatcollection/item) { get; } | Zwraca element o podanym indeksie. Read-only [`ILineFormat`](../../aspose.slides/ilineformat). |
+| [SyncRoot](../../aspose.slides.theme/lineformatcollection/syncroot) { get; } | Zwraca korzeń synchronizacji. Read-only Object. |
 
 ## Metody
 
 | Nazwa | Opis |
 | --- | --- |
 | [CopyTo](../../aspose.slides.theme/lineformatcollection/copyto)(Array, int) | Kopiuje wszystkie elementy z kolekcji do określonej tablicy. |
-| [GetEnumerator](../../aspose.slides.theme/lineformatcollection/getenumerator)() | Zwraca enumerator, który iteruje po kolekcji. |
+| [GetEnumerator](../../aspose.slides.theme/lineformatcollection/getenumerator)() | Zwraca enumerator iterujący po kolekcji. |
 
 ### Zobacz także
 

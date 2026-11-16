@@ -1,14 +1,14 @@
 ---
 title: TextAnchorType
-second_title: Aspose.Sildes .NET-hez API hivatkozás
-description: szövegdoboz igazítása egy szövegterületen belül.
+second_title: Aspose.Sildes .NET API Referencia
+description: Szövegdoboz igazítása egy szövegtartományon belül.
 type: docs
-weight: 10910
+weight: 10930
 url: /hu/aspose.slides/textanchortype/
 ---
 ## TextAnchorType enumeráció
 
-szövegdoboz igazítása egy szövegterületen belül.
+szövegdoboz igazítása egy szövegtartományon belül.
 
 ```csharp
 public enum TextAnchorType : sbyte

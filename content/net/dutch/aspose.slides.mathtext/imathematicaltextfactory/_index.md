@@ -3,10 +3,10 @@ title: IMathematicalTextFactory
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Staat toe een MathematicalText-element te maken
 type: docs
-weight: 8520
+weight: 8540
 url: /nl/aspose.slides.mathtext/imathematicaltextfactory/
 ---
-## IMathematicalTextFactory interface
+## interface IMathematicalTextFactory
 
 Staat toe een MathematicalText-element te maken
 

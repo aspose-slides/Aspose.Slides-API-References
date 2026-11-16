@@ -1,21 +1,20 @@
 ---
 title: Explosion
-second_title: Aspose.Sildes for .NET API Reference
-description: 指定数据点应从饼图的中心移动的量。可读写 Int32。
+second_title: Aspose.Sildes for .NET API 参考
+description: 指定数据点应从饼图中心移动的距离。可读/可写 Int32.
 type: docs
-weight: 60
+weight: 100
 url: /zh/aspose.slides.charts/ichartdatapoint/explosion/
 ---
-
 ## IChartDataPoint.Explosion 属性
 
-指定数据点应从饼图的中心移动的量。可读写 Int32。
+指定数据点应从饼图中心移动的距离。可读/可写 Int32.
 
 ```csharp
 public int Explosion { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IChartDataPoint](../../ichartdatapoint)
 * 命名空间 [Aspose.Slides.Charts](../../ichartdatapoint)

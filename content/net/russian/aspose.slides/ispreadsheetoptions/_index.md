@@ -1,14 +1,14 @@
 ---
 title: ISpreadsheetOptions
 second_title: Aspose.Sildes для .NET справочник API
-description: Представляет параметры, которые могут использоваться для указания дополнительного поведения электронных таблиц.
+description: Представляет параметры, которые можно использовать для указания дополнительного поведения электронных таблиц.
 type: docs
-weight: 7120
+weight: 7140
 url: /ru/aspose.slides/ispreadsheetoptions/
 ---
 ## ISpreadsheetOptions интерфейс
 
-Представляет параметры, которые могут использоваться для указания дополнительного поведения электронных таблиц.
+Represents options which can be used to specify additional spreadsheets behavior.
 
 ```csharp
 public interface ISpreadsheetOptions
@@ -18,8 +18,8 @@ public interface ISpreadsheetOptions
 
 | Имя | Описание |
 | --- | --- |
-| [PreferredCulture](../../aspose.slides/ispreadsheetoptions/preferredculture) { get; set; } | Получает или задает предпочтительную информацию о культуре для вычисления некоторых функций, предназначенных для использования с языками, которые используют двойной байтовый набор символов (DBCS). |
-| [RecoverWorkbookFromChartCache](../../aspose.slides/ispreadsheetoptions/recoverworkbookfromchartcache) { get; set; } | Если источник данных для диаграммы является внешней книгой и недоступен, он будет восстановлен из кэша диаграммы. |
+| [PreferredCulture](../../aspose.slides/ispreadsheetoptions/preferredculture) { get; set; } | Получает или задает предпочтительную информацию о культуре для вычисления некоторых функций, предназначенных для использования с языками, использующими набор двойных байтов (DBCS). |
+| [RecoverWorkbookFromChartCache](../../aspose.slides/ispreadsheetoptions/recoverworkbookfromchartcache) { get; set; } | Если источник данных для chart является внешней workbook и он недоступен, он будет восстановлен из chart cache. |
 
 ### См. также
 

@@ -1,14 +1,14 @@
 ---
 title: NormalViewProperties
 second_title: Aspose.Sildes .NET API 参考
-description: 表示普通视图属性。普通视图由三个内容区域组成：幻灯片本身、侧内容区域和底部内容区域。
+description: 表示普通视图属性。普通视图由三个内容区域组成：幻灯片本身、侧边内容区域和底部内容区域。
 type: docs
-weight: 9110
+weight: 9130
 url: /zh/aspose.slides/normalviewproperties/
 ---
 ## NormalViewProperties 类
 
-表示普通视图属性。普通视图由三个内容区域组成：幻灯片本身、侧内容区域和底部内容区域。
+表示普通视图属性。普通视图包含三个内容区域：幻灯片本身、侧边内容区域和底部内容区域。
 
 ```csharp
 public class NormalViewProperties : INormalViewProperties
@@ -18,21 +18,21 @@ public class NormalViewProperties : INormalViewProperties
 
 | 名称 | 描述 |
 | --- | --- |
-| [HorizontalBarState](../../aspose.slides/normalviewproperties/horizontalbarstate) { get; set; } | 指定水平分割条应显示的状态。水平分割条将幻灯片与幻灯片下方的内容区域分隔开来。 |
-| [PreferSingleView](../../aspose.slides/normalviewproperties/prefersingleview) { get; set; } | 指定用户是否更喜欢在全窗口单内容区域中查看，而不是使用具有三个内容区域的标准普通视图。如果启用，应用程序可能会选择在整个窗口中显示其中一个内容区域。可读写 Boolean。 |
-| [RestoredLeft](../../aspose.slides/normalviewproperties/restoredleft) { get; } | 此元素指定正常视图侧内容区域的大小，当该区域为可变恢复大小（既未最小化也未最大化）时。只读 [`INormalViewRestoredProperties`](../inormalviewrestoredproperties)。 |
-| [RestoredTop](../../aspose.slides/normalviewproperties/restoredtop) { get; } | 此元素指定正常视图顶部幻灯片区域的大小，当该区域为可变恢复大小（既未最小化也未最大化）时。只读 [`INormalViewRestoredProperties`](../inormalviewrestoredproperties)。 |
-| [ShowOutlineIcons](../../aspose.slides/normalviewproperties/showoutlineicons) { get; set; } | 指定在普通视图模式的任何内容区域显示大纲内容时，应用程序是否应显示图标。可读写 Boolean。 |
-| [SnapVerticalSplitter](../../aspose.slides/normalviewproperties/snapverticalsplitter) { get; set; } | 指定当侧区域足够小时，垂直分割条是否应捕捉到最小化状态。可读写 Boolean。 |
-| [VerticalBarState](../../aspose.slides/normalviewproperties/verticalbarstate) { get; set; } | 指定垂直分割条应显示的状态。垂直分割条将幻灯片与侧内容区域分隔开来。 |
+| [HorizontalBarState](../../aspose.slides/normalviewproperties/horizontalbarstate) { get; set; } | 指定水平分割条应显示的状态。水平分割条将幻灯片与幻灯片下方的内容区域分开。 |
+| [PreferSingleView](../../aspose.slides/normalviewproperties/prefersingleview) { get; set; } | 指定用户是否更倾向于在全窗口的单内容区域中查看，而不是使用具有三个内容区域的标准普通视图。启用后，应用程序可能会选择在整个窗口中显示其中一个内容区域。可读写 Boolean。 |
+| [RestoredLeft](../../aspose.slides/normalviewproperties/restoredleft) { get; } | 该元素指定普通视图中侧边内容区域的大小，当该区域处于可变的恢复大小（既未最小化也未最大化）时。只读 [`INormalViewRestoredProperties`](../inormalviewrestoredproperties)。 |
+| [RestoredTop](../../aspose.slides/normalviewproperties/restoredtop) { get; } | 该元素指定普通视图中顶部幻灯片区域的大小，当该区域处于可变的恢复大小（既未最小化也未最大化）时。只读 [`INormalViewRestoredProperties`](../inormalviewrestoredproperties)。 |
+| [ShowOutlineIcons](../../aspose.slides/normalviewproperties/showoutlineicons) { get; set; } | 指定在普通视图模式的任意内容区域显示大纲内容时，应用程序是否应显示图标。可读写 Boolean。 |
+| [SnapVerticalSplitter](../../aspose.slides/normalviewproperties/snapverticalsplitter) { get; set; } | 指定当侧边区域足够小的时候，垂直分割条是否应捕捉到最小化状态。可读写 Boolean。 |
+| [VerticalBarState](../../aspose.slides/normalviewproperties/verticalbarstate) { get; set; } | 指定垂直分割条应显示的状态。垂直分割条将幻灯片与侧边内容区域分开。 |
 
 ### 示例
 
-以下示例演示如何配置 PowerPoint 演示文稿的 ViewProperties.NormalViewProperties 属性。
+下面的示例展示了如何配置 PowerPoint 演示文稿的 ViewProperties.NormalViewProperties 属性。
 
 ```csharp
 [C#]
-//实例化一个表示演示文稿文件的演示对象
+//实例化一个表示演示文件的 Presentation 对象
 using (Presentation pres = new Presentation("demo.pptx"))
 {
     pres.ViewProperties.NormalViewProperties.HorizontalBarState = SplitterBarStateType.Restored;
@@ -44,7 +44,7 @@ using (Presentation pres = new Presentation("demo.pptx"))
 }
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [INormalViewProperties](../inormalviewproperties)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

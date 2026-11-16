@@ -1,37 +1,37 @@
 ---
 title: AlphaBiLevel
-second_title: Aspose.Sildes .NET API रेफ़रेंस के लिए
-description: एक Alpha Bi-Level प्रभाव का प्रतिनिधित्व करता है। Alpha अपारदर्शिता मान जो थ्रेशोल्ड से कम हैं उन्हें 0 (पूरी तरह पारदर्शी) में बदल दिया जाता है और alpha मान जो थ्रेशोल्ड से अधिक या बराबर हैं उन्हें 100 (पूरी तरह अपारदर्शी) में बदल दिया जाता है।
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: एक Alpha Bi-Level प्रभाव का प्रतिनिधित्व करता है। Alpha Opacity मान जो सीमा से कम हैं, उन्हें 0 (पूरी तरह पारदर्शी) में बदला जाता है और Alpha Opacity मान जो सीमा के बराबर या अधिक हैं, उन्हें 100 (पूरी तरह अस्पष्ट) में बदला जाता है।
 type: docs
-weight: 2840
+weight: 2860
 url: /hi/aspose.slides.effects/alphabilevel/
 ---
-## AlphaBiLevel class
+## AlphaBiLevel क्लास
 
-Alpha (Opacity) मान थ्रेशोल्ड से कम होने पर 0 (पूरी तरह पारदर्शी) में बदल दिया जाता है और Alpha मान थ्रेशोल्ड से अधिक या बराबर होने पर 100% (पूरी तरह अपारदर्शी) में बदल दिया जाता है।
+Represents an Alpha Bi-Level effect. Alpha (अपारदर्शिता) values less than the threshold are changed to 0 (fully transparent) and alpha values greater than or equal to the threshold are changed to 100% (fully opaque).
 
 ```csharp
 public sealed class AlphaBiLevel : ImageTransformOperation, IAlphaBiLevel
 ```
 
-## Properties
+## गुण
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | बेस IPresentationComponent इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)। |
-| [Threshold](../../aspose.slides.effects/alphabilevel/threshold) { get; set; } | प्रभाव थ्रेशोल्ड को लौटाता है। पढ़ें/लिखें Single। |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | बेस IPresentationComponent इंटरफ़ेस प्राप्त करने की अनुमति देता है. केवल-पढ़ने योग्य [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [Threshold](../../aspose.slides.effects/alphabilevel/threshold) { get; set; } | इफ़ेक्ट थ्रेशोल्ड लौटाता है. पढ़ने/लिखने योग्य Single. |
 
-## Methods
+## मेथड्स
 
 | नाम | विवरण |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/alphabilevel/equals)(object) | निर्धारित करता है कि निर्दिष्ट [`AlphaBiLevel`](../alphabilevel) वर्तमान [`AlphaBiLevel`](../alphabilevel) के बराबर है या नहीं। |
-| [GetEffective](../../aspose.slides.effects/alphabilevel/geteffective)() | इनहेरिटेंस लागू किए गए प्रभावी Alpha Bi-Level प्रभाव डेटा को प्राप्त करता है। |
-| override [GetHashCode](../../aspose.slides.effects/alphabilevel/gethashcode)() | एक विशिष्ट प्रकार के लिए हैश फ़ंक्शन के रूप में कार्य करता है। |
+| override [Equals](../../aspose.slides.effects/alphabilevel/equals)(object) | निर्धारित करता है कि निर्दिष्ट [`AlphaBiLevel`](../alphabilevel) वर्तमान [`AlphaBiLevel`](../alphabilevel) के बराबर है। |
+| [GetEffective](../../aspose.slides.effects/alphabilevel/geteffective)() | विरासत लागू किए हुए प्रभावी Alpha Bi-Level इफ़ेक्ट डेटा प्राप्त करता है। |
+| override [GetHashCode](../../aspose.slides.effects/alphabilevel/gethashcode)() | किसी विशिष्ट प्रकार के लिए हैश फ़ंक्शन के रूप में कार्य करता है। |
 
 ### संबंधित देखें
 
-* वर्ग [ImageTransformOperation](../imagetransformoperation)
+* क्लास [ImageTransformOperation](../imagetransformoperation)
 * इंटरफ़ेस [IAlphaBiLevel](../ialphabilevel)
 * नामस्थान [Aspose.Slides.Effects](../../aspose.slides.effects)
 * असेंबली [Aspose.Slides](../../)

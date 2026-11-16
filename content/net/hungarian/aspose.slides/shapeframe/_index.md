@@ -1,14 +1,14 @@
 ---
 title: ShapeFrame
-second_title: Aspose.Sildes .NET API Hivatkozás
-description: A shape frame tulajdonságait képviseli.
+second_title: Aspose.Sildes .NET API referencia
+description: A shape frame tulajdonságait reprezentálja.
 type: docs
-weight: 9900
+weight: 9920
 url: /hu/aspose.slides/shapeframe/
 ---
 ## ShapeFrame osztály
 
-A shape frame tulajdonságait képviseli.
+A shape frame tulajdonságait reprezentálja.
 
 ```csharp
 public class ShapeFrame : IShapeFrame
@@ -18,7 +18,7 @@ public class ShapeFrame : IShapeFrame
 
 | Név | Leírás |
 | --- | --- |
-| [ShapeFrame](shapeframe)(float, float, float, float, NullableBool, NullableBool, float) | Új shape frame tulajdonságait hozza létre. |
+| [ShapeFrame](shapeframe)(float, float, float, float, NullableBool, NullableBool, float) | Új shape frame tulajdonságokat hoz létre. |
 
 ## Tulajdonságok
 
@@ -30,7 +30,7 @@ public class ShapeFrame : IShapeFrame
 | [FlipV](../../aspose.slides/shapeframe/flipv) { get; } | Meghatározza, hogy a keret függőlegesen tükrözött-e. Csak olvasható [`NullableBool`](../nullablebool). |
 | [Height](../../aspose.slides/shapeframe/height) { get; } | Visszaadja a keret magasságát. Csak olvasható Single. |
 | [Rectangle](../../aspose.slides/shapeframe/rectangle) { get; } | Visszaadja a keret koordinátáit. Csak olvasható RectangleF. |
-| [Rotation](../../aspose.slides/shapeframe/rotation) { get; } | Visszaadja a keret Z tengely körüli forgatásának fokszámát. A pozitív érték óramutató járásával megegyező forgatást jelent; a negatív érték ellenkező irányú forgatást. Csak olvasható Single. |
+| [Rotation](../../aspose.slides/shapeframe/rotation) { get; } | Visszaadja, hogy hány fokkal van a keret elfordítva a z-tengely körül. A pozitív érték az óramutató járásával megegyező forgást jelzi; a negatív érték az óramutató járásával ellentétes forgást. Csak olvasható Single. |
 | [Width](../../aspose.slides/shapeframe/width) { get; } | Visszaadja a keret szélességét. Csak olvasható Single. |
 | [X](../../aspose.slides/shapeframe/x) { get; } | Visszaadja a keret bal felső sarkának X koordinátáját. Csak olvasható Single. |
 | [Y](../../aspose.slides/shapeframe/y) { get; } | Visszaadja a keret bal felső sarkának Y koordinátáját. Csak olvasható Single. |
@@ -41,8 +41,8 @@ public class ShapeFrame : IShapeFrame
 | --- | --- |
 | [Clone](../../aspose.slides/shapeframe/clone)() | Klónozza |
 | [CloneT](../../aspose.slides/shapeframe/clonet)() | Klónozza. |
-| override [Equals](../../aspose.slides/shapeframe/equals#equals_1)(object) | Visszaad egy értéket, amely jelzi, hogy ez a példány egyenlő-e egy megadott objektummal. |
-| [Equals](../../aspose.slides/shapeframe/equals#equals)(ShapeFrame) | Visszaad egy értéket, amely jelzi, hogy ez a példány egyenlő-e egy megadott objektummal. |
+| override [Equals](../../aspose.slides/shapeframe/equals#equals_1)(object) | Visszaad egy értéket, amely jelzi, hogy ez a példány egy megadott objektummal egyenlő-e. |
+| [Equals](../../aspose.slides/shapeframe/equals#equals)(ShapeFrame) | Visszaad egy értéket, amely jelzi, hogy ez a példány egy megadott objektummal egyenlő-e. |
 | override [GetHashCode](../../aspose.slides/shapeframe/gethashcode)() | Visszaad egy hash kódot ehhez az objektumhoz. |
 
 ### Lásd még

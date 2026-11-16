@@ -1,9 +1,9 @@
 ---
 title: SlideOrientation
-second_title: Aspose.Sildes .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 表示幻灯片方向。
 type: docs
-weight: 10000
+weight: 10020
 url: /zh/aspose.slides/slideorientation/
 ---
 ## SlideOrientation 枚举

@@ -3,10 +3,10 @@ title: Remove
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Rimuove la categoria dal grafico.
 type: docs
-weight: 60
+weight: 70
 url: /it/aspose.slides.charts/chartcategory/remove/
 ---
-## Metodo ChartCategory.Remove
+## ChartCategory.Remove metodo
 
 Rimuove la categoria dal grafico.
 

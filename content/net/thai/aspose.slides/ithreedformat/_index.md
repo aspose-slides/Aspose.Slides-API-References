@@ -1,14 +1,14 @@
 ---
 title: IThreeDFormat
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
+second_title: Aspose.Sildes สำหรับ .NET API Reference
 description: แสดงคุณสมบัติ 3-D.
 type: docs
-weight: 7330
+weight: 7350
 url: /th/aspose.slides/ithreedformat/
 ---
 ## IThreeDFormat อินเทอร์เฟซ
 
-แสดงคุณสมบัติ 3-D
+แสดงคุณสมบัติ 3-D.
 
 ```csharp
 public interface IThreeDFormat : IThreeDParamSource
@@ -18,23 +18,23 @@ public interface IThreeDFormat : IThreeDParamSource
 
 | Name | Description |
 | --- | --- |
-| [AsIThreeDParamSource](../../aspose.slides/ithreedformat/asithreedparamsource) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IThreeDParamSource พื้นฐานได้. อ่านอย่างเดียว [`IThreeDParamSource`](../ithreedparamsource). |
-| [BevelBottom](../../aspose.slides/ithreedformat/bevelbottom) { get; } | คืนหรือกำหนดประเภทของ bevel 3D ด้านล่าง. อ่านอย่างเดียว [`IShapeBevel`](../ishapebevel). |
-| [BevelTop](../../aspose.slides/ithreedformat/beveltop) { get; } | คืนหรือกำหนดประเภทของ bevel 3D ด้านบน. อ่านอย่างเดียว [`IShapeBevel`](../ishapebevel). |
-| [Camera](../../aspose.slides/ithreedformat/camera) { get; } | คืนหรือกำหนดการตั้งค่าของกล้อง. อ่านอย่างเดียว [`ICamera`](../icamera). |
-| [ContourColor](../../aspose.slides/ithreedformat/contourcolor) { get; } | คืนหรือกำหนดสีของคอนทัวร์. อ่านอย่างเดียว [`IColorFormat`](../icolorformat). |
-| [ContourWidth](../../aspose.slides/ithreedformat/contourwidth) { get; set; } | คืนหรือกำหนดความกว้างของคอนทัวร์ 3D. อ่าน/เขียน Double. |
-| [Depth](../../aspose.slides/ithreedformat/depth) { get; set; } | คืนหรือกำหนดความลึกของรูปร่าง 3D. อ่าน/เขียน Double. |
-| [ExtrusionColor](../../aspose.slides/ithreedformat/extrusioncolor) { get; } | คืนหรือกำหนดสีของการดึงออก. อ่านอย่างเดียว [`IColorFormat`](../icolorformat). |
-| [ExtrusionHeight](../../aspose.slides/ithreedformat/extrusionheight) { get; set; } | คืนหรือกำหนดความสูงของเอฟเฟกต์การดึงออก. อ่าน/เขียน Double. |
-| [LightRig](../../aspose.slides/ithreedformat/lightrig) { get; } | คืนหรือกำหนดประเภทของแสง. อ่านอย่างเดียว [`ILightRig`](../ilightrig). |
-| [Material](../../aspose.slides/ithreedformat/material) { get; set; } | คืนหรือกำหนดประเภทของวัสดุ. อ่าน/เขียน [`MaterialPresetType`](../materialpresettype). |
+| [AsIThreeDParamSource](../../aspose.slides/ithreedformat/asithreedparamsource) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IThreeDParamSource พื้นฐาน. อ่านอย่างเดียว [`IThreeDParamSource`](../ithreedparamsource). |
+| [BevelBottom](../../aspose.slides/ithreedformat/bevelbottom) { get; } | คืนค่าหรือ ตั้งค่าชนิดของ bevel 3D ด้านล่าง. อ่านอย่างเดียว [`IShapeBevel`](../ishapebevel). |
+| [BevelTop](../../aspose.slides/ithreedformat/beveltop) { get; } | คืนค่าหรือ ตั้งค่าชนิดของ bevel 3D ด้านบน. อ่านอย่างเดียว [`IShapeBevel`](../ishapebevel). |
+| [Camera](../../aspose.slides/ithreedformat/camera) { get; } | คืนค่า หรือ ตั้งค่าการตั้งค่าของกล้อง. อ่านอย่างเดียว [`ICamera`](../icamera). |
+| [ContourColor](../../aspose.slides/ithreedformat/contourcolor) { get; } | คืนค่า หรือ ตั้งค่าสีของเค้าโครง. อ่านอย่างเดียว [`IColorFormat`](../icolorformat). |
+| [ContourWidth](../../aspose.slides/ithreedformat/contourwidth) { get; set; } | คืนค่า หรือ ตั้งค่าความกว้างของเค้าโครง 3D. อ่าน/เขียน Double. |
+| [Depth](../../aspose.slides/ithreedformat/depth) { get; set; } | คืนค่า หรือ ตั้งค่าความลึกของรูปทรง 3D. อ่าน/เขียน Double. |
+| [ExtrusionColor](../../aspose.slides/ithreedformat/extrusioncolor) { get; } | คืนค่า หรือ ตั้งค่าสีของการดึงขึ้น. อ่านอย่างเดียว [`IColorFormat`](../icolorformat). |
+| [ExtrusionHeight](../../aspose.slides/ithreedformat/extrusionheight) { get; set; } | คืนค่า หรือ ตั้งค่าความสูงของเอฟเฟกต์การดึงขึ้น. อ่าน/เขียน Double. |
+| [LightRig](../../aspose.slides/ithreedformat/lightrig) { get; } | คืนค่า หรือ ตั้งค่าชนิดของแสง. อ่านอย่างเดียว [`ILightRig`](../ilightrig). |
+| [Material](../../aspose.slides/ithreedformat/material) { get; set; } | คืนค่า หรือ ตั้งค่าชนิดของวัสดุ. อ่าน/เขียน [`MaterialPresetType`](../materialpresettype). |
 
-## เมธอด
+## วิธีการ
 
 | Name | Description |
 | --- | --- |
-| [GetEffective](../../aspose.slides/ithreedformat/geteffective)() | รับข้อมูลการจัดรูปแบบ 3-D ที่มีผลพร้อมการใช้การสืบทอด. |
+| [GetEffective](../../aspose.slides/ithreedformat/geteffective)() | ดึงข้อมูลการจัดรูปแบบ 3-D ที่มีประสิทธิภาพโดยมีการสืบทอดที่นำไปใช้. |
 
 ### ดูเพิ่มเติม
 

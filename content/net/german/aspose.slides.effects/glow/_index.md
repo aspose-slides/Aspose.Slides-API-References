@@ -1,14 +1,14 @@
 ---
 title: Glow
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt einen Glow-Effekt dar, bei dem ein farbiger unscharfer Umriss außerhalb der Kanten des Objekts hinzugefügt wird.
+description: Stellt einen Glow-Effekt dar, bei dem ein farblich verschwommener Umriss außerhalb der Objektkanten hinzugefügt wird.
 type: docs
-weight: 2990
+weight: 3010
 url: /de/aspose.slides.effects/glow/
 ---
 ## Glow Klasse
 
-Stellt einen Glow-Effekt dar, bei dem ein farbiges unscharfes Umriss außerhalb der Kanten des Objekts hinzugefügt wird.
+Stellt einen Glow-Effekt dar, bei dem ein farblich verschwommener Umriss außerhalb der Objektkanten hinzugefügt wird.
 
 ```csharp
 public sealed class Glow : IGlow
@@ -16,18 +16,18 @@ public sealed class Glow : IGlow
 
 ## Eigenschaften
 
-| Name | Description |
+| Name | Beschreibung |
 | --- | --- |
 | [Color](../../aspose.slides.effects/glow/color) { get; } | Farbformat. Nur lesbar [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [Radius](../../aspose.slides.effects/glow/radius) { get; set; } | Radius. Lesen/Schreiben Double. |
 
 ## Methoden
 
-| Name | Description |
+| Name | Beschreibung |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/glow/equals)(object) | Ermittelt, ob das angegebene [`Glow`](../glow) gleich dem aktuellen [`Glow`](../glow) ist. |
-| [GetEffective](../../aspose.slides.effects/glow/geteffective)() | Ruft effektive Glow-Effektdaten mit angewandter Vererbung ab. |
-| override [GetHashCode](../../aspose.slides.effects/glow/gethashcode)() | Dient als Hash-Funktion für einen bestimmten Typ. |
+| override [Equals](../../aspose.slides.effects/glow/equals)(object) | Bestimmt, ob das angegebene [`Glow`](../glow) dem aktuellen [`Glow`](../glow) entspricht. |
+| [GetEffective](../../aspose.slides.effects/glow/geteffective)() | Ermittelt die effektiven Glow-Effekt-Daten unter Anwendung der Vererbung. |
+| override [GetHashCode](../../aspose.slides.effects/glow/gethashcode)() | Dient als Hashfunktion für einen bestimmten Typ. |
 
 ### Siehe auch
 

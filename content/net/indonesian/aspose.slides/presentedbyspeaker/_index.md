@@ -1,14 +1,14 @@
 ---
 title: PresentedBySpeaker
-second_title: Referensi API Aspose.Sildes untuk .NET
-description: Ditampilkan oleh pembicara dalam layar penuh
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Ditampilkan oleh pembicara (layar penuh)
 type: docs
-weight: 9650
+weight: 9670
 url: /id/aspose.slides/presentedbyspeaker/
 ---
-## PresentedBySpeaker kelas
+## Kelas PresentedBySpeaker
 
-Ditampilkan oleh presenter (layar penuh)
+Ditampilkan oleh pembicara (layar penuh)
 
 ```csharp
 public class PresentedBySpeaker : SlideShowType
@@ -18,7 +18,7 @@ public class PresentedBySpeaker : SlideShowType
 
 | Nama | Deskripsi |
 | --- | --- |
-| [PresentedBySpeaker](presentedbyspeaker)() | Menginisialisasi instance baru dari kelas PresentedBySpeaker. |
+| [PresentedBySpeaker](presentedbyspeaker)() | Menginisialisasi sebuah instance baru dari kelas PresentedBySpeaker. |
 
 ### Contoh
 

@@ -1,14 +1,14 @@
 ---
 title: PictureFrameLock
-second_title: Aspose.Sildes برای .NET مرجع API
-description: تعیین می‌کند که کدام عملیات‌ها بر روی PictureFrame والد غیرفعال هستند.
+second_title: Aspose.Sildes برای مرجع API .NET
+description: مشخص می‌کند کدام عملیات‌ها بر روی PictureFrame والد غیرفعال هستند.
 type: docs
-weight: 9420
+weight: 9440
 url: /fa/aspose.slides/pictureframelock/
 ---
 ## PictureFrameLock کلاس
 
-تشخیص می‌دهد که کدام عملیات‌ها در PictureFrame والد غیرفعال هستند.
+مشخص می‌کند کدام عملیات‌ها بر روی PictureFrame والد غیرفعال هستند.
 
 ```csharp
 public class PictureFrameLock : BaseShapeLock, IPictureFrameLock
@@ -18,24 +18,24 @@ public class PictureFrameLock : BaseShapeLock, IPictureFrameLock
 
 | نام | توضیح |
 | --- | --- |
-| [AdjustHandlesLocked](../../aspose.slides/pictureframelock/adjusthandleslocked) { get; set; } | تعیین می‌کند که آیا تغییر مقادیر تنظیم ممنوع است. قابلیت خواندن/نوشتن Boolean. |
-| [ArrowheadsLocked](../../aspose.slides/pictureframelock/arrowheadslocked) { get; set; } | تعیین می‌کند که آیا تغییر سرهای فلش ممنوع است. قابلیت خواندن/نوشتن Boolean. |
-| [AspectRatioLocked](../../aspose.slides/pictureframelock/aspectratiolocked) { get; set; } | تعیین می‌کند که آیا شکل باید نسبت ابعاد را هنگام تغییر اندازه حفظ کند. قابلیت خواندن/نوشتن Boolean. |
-| [CropLocked](../../aspose.slides/pictureframelock/croplocked) { get; set; } | تعیین می‌کند که آیا برش تصویر ممنوع است. قابلیت خواندن/نوشتن Boolean. |
-| [EditPointsLocked](../../aspose.slides/pictureframelock/editpointslocked) { get; set; } | تعیین می‌کند که آیا تغییر مستقیم محدوده این شکل ممنوع است. قابلیت خواندن/نوشتن Boolean. |
-| [GroupingLocked](../../aspose.slides/pictureframelock/groupinglocked) { get; set; } | تعیین می‌کند که آیا افزودن این شکل به یک گروه ممنوع است. قابلیت خواندن/نوشتن Boolean. |
-| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | اگر تمام پرچم‌های قفل غیرفعال باشند true برمی‌گرداند. فقط‌خواندنی Boolean. |
-| [PositionLocked](../../aspose.slides/pictureframelock/positionlocked) { get; set; } | تعیین می‌کند که آیا جابجایی این شکل ممنوع است. قابلیت خواندن/نوشتن Boolean. |
-| [RotationLocked](../../aspose.slides/pictureframelock/rotationlocked) { get; set; } | تعیین می‌کند که آیا تغییر زاویه چرخش این شکل ممنوع است. قابلیت خواندن/نوشتن Boolean. |
-| [SelectLocked](../../aspose.slides/pictureframelock/selectlocked) { get; set; } | تعیین می‌کند که آیا انتخاب این شکل ممنوع است. قابلیت خواندن/نوشتن Boolean. |
-| [ShapeTypeLocked](../../aspose.slides/pictureframelock/shapetypelocked) { get; set; } | تعیین می‌کند که آیا تغییر نوع شکل ممنوع است. قابلیت خواندن/نوشتن Boolean. |
-| [SizeLocked](../../aspose.slides/pictureframelock/sizelocked) { get; set; } | تعیین می‌کند که آیا تغییر اندازه این شکل ممنوع است. قابلیت خواندن/نوشتن Boolean. |
+| [AdjustHandlesLocked](../../aspose.slides/pictureframelock/adjusthandleslocked) { get; set; } | مشخص می‌کند آیا تغییر مقادیر تنظیم ممنوع است. خواندنی/نوشتنی Boolean. |
+| [ArrowheadsLocked](../../aspose.slides/pictureframelock/arrowheadslocked) { get; set; } | مشخص می‌کند آیا تغییر سرپیکان‌ها ممنوع است. خواندنی/نوشتنی Boolean. |
+| [AspectRatioLocked](../../aspose.slides/pictureframelock/aspectratiolocked) { get; set; } | مشخص می‌کند آیا یک شکل باید نسبت ابعاد را در زمان تغییر اندازه حفظ کند. خواندنی/نوشتنی Boolean. |
+| [CropLocked](../../aspose.slides/pictureframelock/croplocked) { get; set; } | مشخص می‌کند آیا بریده‌برداری تصویر ممنوع است. خواندنی/نوشتنی Boolean. |
+| [EditPointsLocked](../../aspose.slides/pictureframelock/editpointslocked) { get; set; } | مشخص می‌کند آیا تغییر مستقیم خطوط بیرونی این شکل ممنوع است. خواندنی/نوشتنی Boolean. |
+| [GroupingLocked](../../aspose.slides/pictureframelock/groupinglocked) { get; set; } | مشخص می‌کند آیا افزودن این شکل به یک گروه ممنوع است. خواندنی/نوشتنی Boolean. |
+| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | در صورت غیرفعال بودن تمام پرچم‌های قفل، true برمی‌گرداند. فقط-خواندنی Boolean. |
+| [PositionLocked](../../aspose.slides/pictureframelock/positionlocked) { get; set; } | مشخص می‌کند آیا جابجایی این شکل ممنوع است. خواندنی/نوشتنی Boolean. |
+| [RotationLocked](../../aspose.slides/pictureframelock/rotationlocked) { get; set; } | مشخص می‌کند آیا تغییر زاویه چرخش این شکل ممنوع است. خواندنی/نوشتنی Boolean. |
+| [SelectLocked](../../aspose.slides/pictureframelock/selectlocked) { get; set; } | مشخص می‌کند آیا انتخاب این شکل ممنوع است. خواندنی/نوشتنی Boolean. |
+| [ShapeTypeLocked](../../aspose.slides/pictureframelock/shapetypelocked) { get; set; } | مشخص می‌کند آیا تغییر نوع شکل ممنوع است. خواندنی/نوشتنی Boolean. |
+| [SizeLocked](../../aspose.slides/pictureframelock/sizelocked) { get; set; } | مشخص می‌کند آیا تغییر اندازه این شکل ممنوع است. خواندنی/نوشتنی Boolean. |
 
-### موارد مرتبط
+### مراجع
 
 * کلاس [BaseShapeLock](../baseshapelock)
 * رابط [IPictureFrameLock](../ipictureframelock)
-* فضای‌نام [Aspose.Slides](../../aspose.slides)
-* مجموعه [Aspose.Slides](../../)
+* فضای نام [Aspose.Slides](../../aspose.slides)
+* مجمع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

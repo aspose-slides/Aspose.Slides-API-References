@@ -1,9 +1,9 @@
 ---
 title: ChartCategoryCollection
-second_title: Aspose.Sildes لـ .NET مرجع API
+second_title: مرجع API لـ Aspose.Sildes لـ .NET
 description: يمثل مجموعة من ChartCategory./chartcategory
 type: docs
-weight: 1280
+weight: 1290
 url: /ar/aspose.slides.charts/chartcategorycollection/
 ---
 ## ChartCategoryCollection فئة
@@ -16,34 +16,34 @@ public class ChartCategoryCollection : DomObject<ChartData>, IChartCategoryColle
 
 ## الخصائص
 
-| الاسم | الوصف |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides.charts/chartcategorycollection/count) { get; } | يعيد عدد العناصر في المجموعة. قراءة فقط Int32. |
-| [GroupingLevelCount](../../aspose.slides.charts/chartcategorycollection/groupinglevelcount) { get; } | يعيد عدد مستويات تجميع الفئات المستخدمة. يكون أكثر من واحد للفئات متعددة المستويات. قراءة فقط Int32. |
-| [IsSynchronized](../../aspose.slides.charts/chartcategorycollection/issynchronized) { get; } | يعيد قيمة تشير إلى ما إذا كان الوصول إلى القائمة متزامناً (آمن للخيوط). قراءة فقط Boolean. |
-| [Item](../../aspose.slides.charts/chartcategorycollection/item) { get; } | يحصل على العنصر عند الفهرس المحدد. |
-| [SyncRoot](../../aspose.slides.charts/chartcategorycollection/syncroot) { get; } | يعيد كائنًا يمكن استخدامه لمزامنة الوصول إلى المجموعة. قراءة فقط Object. |
-| [UseCells](../../aspose.slides.charts/chartcategorycollection/usecells) { get; set; } | إذا كان true فإن ورقة العمل تُستخدم لتخزين الفئات (هذا الحالة تدعم الفئات متعددة المستويات). إذا كان false فإن ورقة العمل لا تُستخدم لتخزين القيم (وهذا الحالة لا تدعم الفئات متعددة المستويات). قراءة/كتابة Boolean. |
+| [Count](../../aspose.slides.charts/chartcategorycollection/count) { get; } | يعيد عدد العناصر في المجموعة. للقراءة فقط Int32. |
+| [GroupingLevelCount](../../aspose.slides.charts/chartcategorycollection/groupinglevelcount) { get; } | يعيد عدد مستويات تجميع الفئات المستخدمة. يكون أكثر من واحد للفئات متعددة المستويات. للقراءة فقط Int32. |
+| [IsSynchronized](../../aspose.slides.charts/chartcategorycollection/issynchronized) { get; } | يعيد قيمة تشير ما إذا كان الوصول إلى القائمة متزامنًا (آمن الخيوط). للقراءة فقط Boolean. |
+| [Item](../../aspose.slides.charts/chartcategorycollection/item) { get; } | يحصل على العنصر في الفهرس المحدد. |
+| [SyncRoot](../../aspose.slides.charts/chartcategorycollection/syncroot) { get; } | يعيد كائنًا يمكن استخدامه لمزامنة الوصول إلى المجموعة. للقراءة فقط Object. |
+| [UseCells](../../aspose.slides.charts/chartcategorycollection/usecells) { get; set; } | إذا كان true فسيتم استخدام ورقة العمل لتخزين الفئات (هذه الحالة تدعم الفئات متعددة المستويات). إذا كان false فلن تُستخدم ورقة العمل لتخزين القيم (وهذه الحالة لا تدعم الفئات متعددة المستويات). قراءة/كتابة Boolean. |
 
 ## الطرق
 
-| الاسم | الوصف |
+| Name | Description |
 | --- | --- |
-| [Add](../../aspose.slides.charts/chartcategorycollection/add#add)(IChartDataCell) | إذا كانت الفئة موجودة في المجموعة، يُعادها. وإلا يتم إنشاء فئة مخطط جديدة من [`IChartDataCell`](../ichartdatacell) وتُضاف إلى المجموعة. |
-| [Add](../../aspose.slides.charts/chartcategorycollection/add#add_1)(object) | ينشئ [`ChartCategory`](../chartcategory) جديد من القيمة ويضيفه إلى المجموعة. |
+| [Add](../../aspose.slides.charts/chartcategorycollection/add#add)(IChartDataCell) | إذا كانت الفئة موجودة في المجموعة، يتم إرجاعها. وإلا يتم إنشاء فئة مخطط جديدة من [`IChartDataCell`](../ichartdatacell) وإضافتها إلى المجموعة. |
+| [Add](../../aspose.slides.charts/chartcategorycollection/add#add_1)(object) | يُنشئ [`ChartCategory`](../chartcategory) جديدًا من القيمة ويضيفه إلى المجموعة. |
 | [Clear](../../aspose.slides.charts/chartcategorycollection/clear)() | يزيل جميع العناصر من المجموعة. |
 | [CopyTo](../../aspose.slides.charts/chartcategorycollection/copyto)(Array, int) | ينسخ جميع عناصر المجموعة إلى المصفوفة المحددة. |
-| [GetEnumerator](../../aspose.slides.charts/chartcategorycollection/getenumerator)() | يعيد عدّادًا يتجول عبر المجموعة. |
-| [IndexOf](../../aspose.slides.charts/chartcategorycollection/indexof)(IChartCategory) | يبحث عن [`ChartCategory`](../chartcategory) المحدد ويعيد الفهرس الصفري للحدوث الأول داخل المجموعة بالكامل. |
+| [GetEnumerator](../../aspose.slides.charts/chartcategorycollection/getenumerator)() | يعيد كائن تعداد يتنقل عبر المجموعة. |
+| [IndexOf](../../aspose.slides.charts/chartcategorycollection/indexof)(IChartCategory) | يبحث عن [`ChartCategory`](../chartcategory) المحدد ويعيد الفهرس الصفري للظهور الأول ضمن المجموعة بالكامل. |
 | [Remove](../../aspose.slides.charts/chartcategorycollection/remove)(IChartCategory) | يزيل القيمة المحددة. |
-| [RemoveAt](../../aspose.slides.charts/chartcategorycollection/removeat)(int) | يزيل العنصر عند الفهرس المعطى. |
+| [RemoveAt](../../aspose.slides.charts/chartcategorycollection/removeat)(int) | يزيل العنصر في الفهرس المعطى. |
 
-### انظر أيضا
+### انظر أيضاً
 
 * فئة [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * فئة [ChartData](../chartdata)
 * واجهة [IChartCategoryCollection](../ichartcategorycollection)
-* مساحة الاسم [Aspose.Slides.Charts](../../aspose.slides.charts)
+* مساحة أسماء [Aspose.Slides.Charts](../../aspose.slides.charts)
 * تجميع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

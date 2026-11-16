@@ -1,14 +1,14 @@
 ---
 title: IMetered
-second_title: Aspose.Sildes voor .NET API-referentie
-description: Biedt methoden om de metered sleutel in te stellen.
+second_title: Aspose.Sildes voor .NET API Referentie
+description: Biedt methoden om een gemeten sleutel in te stellen.
 type: docs
-weight: 6450
+weight: 6470
 url: /nl/aspose.slides/imetered/
 ---
 ## IMetered interface
 
-Biedt methoden om de metered sleutel in te stellen.
+Provides methods to set metered key.
 
 ```csharp
 public interface IMetered
@@ -18,7 +18,7 @@ public interface IMetered
 
 | Naam | Beschrijving |
 | --- | --- |
-| [SetMeteredKey](../../aspose.slides/imetered/setmeteredkey)(string, string) | Stelt metered publieke en private sleutel in. |
+| [SetMeteredKey](../../aspose.slides/imetered/setmeteredkey)(string, string) | Stelt de gemeten openbare en private sleutel in. |
 
 ### Zie ook
 

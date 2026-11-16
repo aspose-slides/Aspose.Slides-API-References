@@ -1,12 +1,12 @@
 ---
 title: IChartCategoryLevelsManager
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Grafik kategori seviyelerinin değerlerinin yönetilen kapsayıcısı.
 type: docs
-weight: 1770
+weight: 1790
 url: /tr/aspose.slides.charts/ichartcategorylevelsmanager/
 ---
-## IChartCategoryLevelsManager arayüzü
+## IChartCategoryLevelsManager arayüz
 
 Grafik kategori seviyelerinin değerlerinin yönetilen kapsayıcısı.
 
@@ -18,16 +18,16 @@ public interface IChartCategoryLevelsManager
 
 | Ad | Açıklama |
 | --- | --- |
-| [Item](../../aspose.slides.charts/ichartcategorylevelsmanager/item) { get; } | Tanımlı seviye için IChartDataCell nesnesini döndürür. |
+| [Item](../../aspose.slides.charts/ichartcategorylevelsmanager/item) { get; } | Belirtilen seviye için IChartDataCell nesnesini döndürür. |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [DeleteGroupingItem](../../aspose.slides.charts/ichartcategorylevelsmanager/deletegroupingitem)(int) | Tanımlı seviye için gruplama öğesini siler. |
-| [SetGroupingItem](../../aspose.slides.charts/ichartcategorylevelsmanager/setgroupingitem)(int, object) | Tanımlı seviye için gruplama öğesini ayarlar. |
+| [DeleteGroupingItem](../../aspose.slides.charts/ichartcategorylevelsmanager/deletegroupingitem)(int) | Belirtilen seviye için gruplayıcı öğeyi siler. |
+| [SetGroupingItem](../../aspose.slides.charts/ichartcategorylevelsmanager/setgroupingitem)(int, object) | Belirtilen seviye için gruplayıcı öğeyi ayarlar. |
 
-### Diğer Bağlantılar
+### İlgili
 
 * ad alanı [Aspose.Slides.Charts](../../aspose.slides.charts)
 * derleme [Aspose.Slides](../../)

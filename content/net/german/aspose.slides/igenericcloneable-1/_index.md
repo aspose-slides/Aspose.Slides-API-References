@@ -1,9 +1,9 @@
 ---
 title: IGenericCloneableT
-second_title: Aspose.Sildes für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Stellt die generische Version von ICloneable dar
 type: docs
-weight: 5950
+weight: 5970
 url: /de/aspose.slides/igenericcloneable-1/
 ---
 ## IGenericCloneable<T> Schnittstelle

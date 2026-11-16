@@ -1,14 +1,14 @@
 ---
 title: IMathBorderBox
-second_title: Aspose.Sildes .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 在 IMathElement 周围绘制矩形或其他形状的边框。
 type: docs
-weight: 8170
+weight: 8190
 url: /zh/aspose.slides.mathtext/imathborderbox/
 ---
 ## IMathBorderBox 接口
 
-绘制一个矩形或其他形状的边框围绕 IMathElement。
+在 IMathElement 周围绘制矩形或其他形状的边框。
 
 ```csharp
 public interface IMathBorderBox : IMathElement
@@ -16,7 +16,7 @@ public interface IMathBorderBox : IMathElement
 
 ## 属性
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
 | [AsIMathElement](../../aspose.slides.mathtext/imathborderbox/asimathelement) { get; } | 允许获取基础 IMathElement 接口 [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathborderbox/base) { get; } | 基础参数 |
@@ -24,9 +24,9 @@ public interface IMathBorderBox : IMathElement
 | [HideLeft](../../aspose.slides.mathtext/imathborderbox/hideleft) { get; set; } | 隐藏左侧边缘（默认值为 false） - 指定边框盒左侧边缘的隐藏或显示状态。 |
 | [HideRight](../../aspose.slides.mathtext/imathborderbox/hideright) { get; set; } | 隐藏右侧边缘（默认值为 false） - 指定边框盒右侧边缘的隐藏或显示状态。 |
 | [HideTop](../../aspose.slides.mathtext/imathborderbox/hidetop) { get; set; } | 隐藏顶部边缘（默认值为 false） - 指定边框盒顶部边缘的隐藏或显示状态。 |
-| [StrikethroughBottomLeftToTopRight](../../aspose.slides.mathtext/imathborderbox/strikethroughbottomlefttotopright) { get; set; } | 从左下角到右上角的删除线（默认值为 false）。指定从边框盒左下角到右上角的删除线的隐藏或显示状态。 |
+| [StrikethroughBottomLeftToTopRight](../../aspose.slides.mathtext/imathborderbox/strikethroughbottomlefttotopright) { get; set; } | 从左下到右上删除线（默认值为 false）。指定从左下角到右上角的对角删除线的隐藏或显示状态。 |
 | [StrikethroughHorizontal](../../aspose.slides.mathtext/imathborderbox/strikethroughhorizontal) { get; set; } | 水平删除线（默认值为 false） - 指定水平删除线的隐藏或显示状态。 |
-| [StrikethroughTopLeftToBottomRight](../../aspose.slides.mathtext/imathborderbox/strikethroughtoplefttobottomright) { get; set; } | 从左上角到右下角的删除线（默认值为 false）。指定从边框盒左上角到右下角的删除线的隐藏或显示状态。 |
+| [StrikethroughTopLeftToBottomRight](../../aspose.slides.mathtext/imathborderbox/strikethroughtoplefttobottomright) { get; set; } | 从左上到右下删除线（默认值为 false）。指定从左上角到右下角的对角删除线的隐藏或显示状态。 |
 | [StrikethroughVertical](../../aspose.slides.mathtext/imathborderbox/strikethroughvertical) { get; set; } | 垂直删除线（默认值为 false） - 指定垂直删除线的隐藏或显示状态。 |
 
 ### 示例
@@ -38,7 +38,7 @@ public interface IMathBorderBox : IMathElement
 IMathBorderBox borderBox = new MathematicalText("x+y+z").ToBorderBox();
 ```
 
-### 另请参见
+### 另见
 
 * 接口 [IMathElement](../imathelement)
 * 命名空间 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

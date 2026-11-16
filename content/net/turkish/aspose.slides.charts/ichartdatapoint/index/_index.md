@@ -1,20 +1,20 @@
 ---
 title: Index
 second_title: Aspose.Sildes için .NET API Referansı
-description: Bu veri noktasının ebeveynin çocuk koleksiyonundan hangisine uygulandığını belirler. UInt32 okur.
+description: Bu veri noktasının ebeveynin çocuk koleksiyonundan hangisine uygulandığını belirler. Okunur UInt32.
 type: docs
-weight: 80
+weight: 120
 url: /tr/aspose.slides.charts/ichartdatapoint/index/
 ---
 ## IChartDataPoint.Index özelliği
 
-Bu veri noktasının ebeveynin çocuk koleksiyonundan hangisine uygulandığını belirler. UInt32 okur.
+Bu veri noktasının ebeveynin çocuk koleksiyonundan hangisine uygulandığını belirler. Okunur UInt32.
 
 ```csharp
 public uint Index { get; }
 ```
 
-### İlgili
+### Diğer Bağlantılar
 
 * arayüz [IChartDataPoint](../../ichartdatapoint)
 * ad alanı [Aspose.Slides.Charts](../../ichartdatapoint)

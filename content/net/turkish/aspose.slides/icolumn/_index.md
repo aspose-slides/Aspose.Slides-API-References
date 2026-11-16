@@ -1,14 +1,14 @@
 ---
 title: IColumn
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Bir tabloda bir sütunu temsil eder.
 type: docs
-weight: 5520
+weight: 5540
 url: /tr/aspose.slides/icolumn/
 ---
 ## IColumn arayüzü
 
-Represents a column in a table.
+Bir tabloda bir sütunu temsil eder.
 
 ```csharp
 public interface IColumn : IBulkTextFormattable, ICellCollection
@@ -18,10 +18,10 @@ public interface IColumn : IBulkTextFormattable, ICellCollection
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIBulkTextFormattable](../../aspose.slides/icolumn/asibulktextformattable) { get; } | Temel IBulkTextFormattable arayüzünü almaya izin verir. Yalnızca okuma [`IBulkTextFormattable`](../ibulktextformattable). |
-| [AsICellCollection](../../aspose.slides/icolumn/asicellcollection) { get; } | Temel ICellCollection arayüzünü almaya izin verir. Yalnızca okuma [`ICellCollection`](../icellcollection). |
-| [ColumnFormat](../../aspose.slides/icolumn/columnformat) { get; } | Bu sütun için biçimlendirme özelliklerini içeren ColumnFormat nesnesini döndürür. Yalnızca okuma [`IColumnFormat`](../icolumnformat). |
-| [Width](../../aspose.slides/icolumn/width) { get; set; } | Bir sütunun genişliğini döndürür veya ayarlar. Okunur/yazılır Double. |
+| [AsIBulkTextFormattable](../../aspose.slides/icolumn/asibulktextformattable) { get; } | Temel IBulkTextFormattable arayüzünü almaya izin verir. Yalnızca okunabilir [`IBulkTextFormattable`](../ibulktextformattable). |
+| [AsICellCollection](../../aspose.slides/icolumn/asicellcollection) { get; } | Temel ICellCollection arayüzünü almaya izin verir. Yalnızca okunabilir [`ICellCollection`](../icellcollection). |
+| [ColumnFormat](../../aspose.slides/icolumn/columnformat) { get; } | Bu sütun için biçimlendirme özelliklerini içeren ColumnFormat nesnesini döndürür. Yalnızca okunabilir [`IColumnFormat`](../icolumnformat). |
+| [Width](../../aspose.slides/icolumn/width) { get; set; } | Bir sütunun genişliğini döndürür veya ayarlar. Okunabilir/Yazılabilir Double. |
 
 ### Ayrıca Bakınız
 

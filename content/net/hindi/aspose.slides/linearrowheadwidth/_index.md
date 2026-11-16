@@ -1,14 +1,14 @@
 ---
 title: LineArrowheadWidth
-second_title: Aspose.Sildes for .NET API संदर्भ
+second_title: Aspose.Sildes के लिए .NET API रेफ़रेंस
 description: तीर के सिर की चौड़ाई का प्रतिनिधित्व करता है।
 type: docs
-weight: 7750
+weight: 7770
 url: /hi/aspose.slides/linearrowheadwidth/
 ---
 ## LineArrowheadWidth एन्यूमरेशन
 
-तीर के सिर की चौड़ाई को दर्शाता है।
+एक तीर के सिर की चौड़ाई का प्रतिनिधित्व करता है।
 
 ```csharp
 public enum LineArrowheadWidth : sbyte
@@ -16,14 +16,14 @@ public enum LineArrowheadWidth : sbyte
 
 ### मान
 
-| नाम | मान | विवरण |
+| नाम | मूल्य | विवरण |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | Narrow | `0` |  |
 | Medium | `1` |  |
 | Wide | `2` |  |
 
-### और देखें
+### संबंधित देखें
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

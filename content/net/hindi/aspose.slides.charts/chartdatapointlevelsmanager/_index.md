@@ -1,14 +1,14 @@
 ---
 title: ChartDataPointLevelsManager
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: डेटा पॉइंट लेवल का कंटेनर। Treeamp और Sunburst श्रृंखलाओं के लिए लागू किया गया। डेटा पॉइंट लेवल की इंडेक्सिंग शून्य-आधारित है।
+description: डेटा पॉइंट लेवल्स का कंटेनर। Treeamp और Sunburst सीरीज़ के लिए लागू। डेटा पॉइंट लेवल्स का इंडेक्सिंग शून्य-आधारित है।
 type: docs
-weight: 1360
+weight: 1370
 url: /hi/aspose.slides.charts/chartdatapointlevelsmanager/
 ---
 ## ChartDataPointLevelsManager क्लास
 
-डेटा पॉइंट लेवल का कंटेनर। Treeamp और Sunburst श्रृंखलाओं के लिए लागू किया गया। डेटा पॉइंट लेवल की इंडेक्सिंग शून्य-आधारित है।
+डेटा पॉइंट लेवल्स का कंटेनर। Treeamp और Sunburst सीरीज के लिए लागू। डेटा पॉइंट लेवल्स का इंडेक्सिंग शून्य-आधारित है।
 
 ```csharp
 public class ChartDataPointLevelsManager : DomObject<ChartDataPoint>, IChartDataPointLevelsManager
@@ -18,10 +18,10 @@ public class ChartDataPointLevelsManager : DomObject<ChartDataPoint>, IChartData
 
 | नाम | विवरण |
 | --- | --- |
-| [Count](../../aspose.slides.charts/chartdatapointlevelsmanager/count) { get; } | डेटा पॉइंट लेवल की गिनती लौटाता है। |
+| [Count](../../aspose.slides.charts/chartdatapointlevelsmanager/count) { get; } | डेटा पॉइंट लेवल्स की गिनती लौटाता है। |
 | [Item](../../aspose.slides.charts/chartdatapointlevelsmanager/item) { get; } | परिभाषित स्तर के लिए IChartDataPointLevel ऑब्जेक्ट लौटाता है। |
 
-### देखें भी
+### संबंधित
 
 * क्लास [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * क्लास [ChartDataPoint](../chartdatapoint)

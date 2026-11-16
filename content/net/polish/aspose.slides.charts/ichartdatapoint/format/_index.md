@@ -1,14 +1,14 @@
 ---
 title: Format
-second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Reprezentuje właściwości formatowania. Read/write IFormataspose.slides.charts/iformat.
+second_title: Aspose.Sildes dla .NET – referencja API
+description: Reprezentuje właściwości formatowania. Odczyt/zapis IFormataspose.slides.charts/iformat.
 type: docs
-weight: 70
+weight: 110
 url: /pl/aspose.slides.charts/ichartdatapoint/format/
 ---
 ## IChartDataPoint.Format właściwość
 
-Reprezentuje właściwości formatowania. Odczyt/zapis [`IFormat`](../../iformat).
+Reprezentuje właściwości formatowania. odczyt/zapis [`IFormat`](../../iformat).
 
 ```csharp
 public IFormat Format { get; set; }

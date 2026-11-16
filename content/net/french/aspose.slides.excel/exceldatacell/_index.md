@@ -1,14 +1,14 @@
 ---
 title: ExcelDataCell
-second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Représente une seule cellule dans un classeur Excel.
+second_title: Référence API Aspose.Sildes pour .NET
+description: Représente une cellule unique dans un classeur Excel.
 type: docs
-weight: 3680
+weight: 3700
 url: /fr/aspose.slides.excel/exceldatacell/
 ---
 ## ExcelDataCell classe
 
-Représente une seule cellule dans un classeur Excel.
+Représente une cellule unique dans un classeur Excel.
 
 ```csharp
 public class ExcelDataCell : IExcelDataCell
@@ -18,9 +18,9 @@ public class ExcelDataCell : IExcelDataCell
 
 | Nom | Description |
 | --- | --- |
-| [Column](../../aspose.slides.excel/exceldatacell/column) { get; } | Obtient l'index zéro-basé de la colonne dans la feuille de calcul où se trouve la cellule. Lecture seule Int32. |
+| [Column](../../aspose.slides.excel/exceldatacell/column) { get; } | Obtient l'index basé sur zéro de la colonne dans la feuille de calcul où se trouve la cellule. Lecture seule Int32. |
 | [Name](../../aspose.slides.excel/exceldatacell/name) { get; } | Obtient le nom de la cellule de données du graphique. |
-| [Row](../../aspose.slides.excel/exceldatacell/row) { get; } | Obtient l'index zéro-basé de la ligne dans la feuille de calcul où se trouve la cellule. Lecture seule Int32. |
+| [Row](../../aspose.slides.excel/exceldatacell/row) { get; } | Obtient l'index basé sur zéro de la ligne dans la feuille de calcul où se trouve la cellule. Lecture seule Int32. |
 | [Value](../../aspose.slides.excel/exceldatacell/value) { get; } | Obtient la valeur contenue dans la cellule Excel. |
 
 ### Voir aussi

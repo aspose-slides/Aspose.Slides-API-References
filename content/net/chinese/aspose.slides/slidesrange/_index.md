@@ -3,7 +3,7 @@ title: SlidesRange
 second_title: Aspose.Sildes .NET API 参考
 description: 幻灯片范围
 type: docs
-weight: 10530
+weight: 10550
 url: /zh/aspose.slides/slidesrange/
 ---
 ## SlidesRange 类
@@ -16,18 +16,18 @@ public class SlidesRange
 
 ## 构造函数
 
-| 名称 | 说明 |
+| 名称 | 描述 |
 | --- | --- |
 | [SlidesRange](slidesrange)() | 默认构造函数。 |
 
 ## 属性
 
-| 名称 | 说明 |
+| 名称 | 描述 |
 | --- | --- |
 | [End](../../aspose.slides/slidesrange/end) { get; set; } | 结束 |
 | [Start](../../aspose.slides/slidesrange/start) { get; set; } | 开始 |
 
-### 另请参阅
+### 另请参见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

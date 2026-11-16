@@ -1,14 +1,14 @@
 ---
 title: PresentationFactory
-second_title: Aspose.Sildes برای .NET مرجع API
-description: امکان ایجاد ارائه از طریق رابط COM را فراهم می‌کند
+second_title: Aspose.Sildes برای مرجع API .NET
+description: اجازه می‌دهد ارائه از طریق رابط COM ایجاد شود
 type: docs
-weight: 9600
+weight: 9620
 url: /fa/aspose.slides/presentationfactory/
 ---
 ## PresentationFactory کلاس
 
-اجازه می‌دهد ارائه را از طریق رابط COM ایجاد کنید
+Allows to create presentation via COM interface
 
 ```csharp
 public class PresentationFactory : IPresentationFactory
@@ -16,37 +16,37 @@ public class PresentationFactory : IPresentationFactory
 
 ## سازنده‌ها
 
-| نام | توضیح |
+| Name | Description |
 | --- | --- |
-| [PresentationFactory](presentationfactory)() | سازنده پیش‌فرض. |
+| [PresentationFactory](presentationfactory)() | سازندهٔ پیش‌فرض. |
 
-## خصوصیات
+## ویژگی‌ها
 
-| نام | توضیح |
+| Name | Description |
 | --- | --- |
-| static [Instance](../../aspose.slides/presentationfactory/instance) { get; } | نمونه ایستاتیک کارخانه ارائه. فقط-خواندنی [`PresentationFactory`](../presentationfactory). |
+| static [Instance](../../aspose.slides/presentationfactory/instance) { get; } | نمونهٔ استاتیک کارخانهٔ ارائه. فقط خواندنی [`PresentationFactory`](../presentationfactory). |
 
 ## متدها
 
-| نام | توضیح |
+| Name | Description |
 | --- | --- |
-| [CreatePresentation](../../aspose.slides/presentationfactory/createpresentation#createpresentation)() | یک ارائه جدید ایجاد می‌کند. |
-| [CreatePresentation](../../aspose.slides/presentationfactory/createpresentation#createpresentation_1)(ILoadOptions) | یک ارائه جدید با گزینه‌های بارگذاری اضافی ایجاد می‌کند. |
-| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo)(Stream) | یک شیء PresentationInfo را از جریان ایجاد می‌کند و ارائه را به آن متصل می‌نماید. اطلاعات دربارهٔ ارائه در جریان مشخص شده را دریافت می‌کند. |
-| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo_1)(string) | یک شیء PresentationInfo را از فایل ایجاد می‌کند و ارائه را به آن متصل می‌نماید. |
-| [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext)(Stream, TextExtractionArrangingMode) | متن خام اسلایدها را استخراج می‌کند. |
-| [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext_2)(string, TextExtractionArrangingMode) | متن خام اسلایدها را استخراج می‌کند. |
-| [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext_1)(Stream, TextExtractionArrangingMode, ILoadOptions) | متن خام اسلایدها را استخراج می‌کند. |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation)(byte[]) | یک ارائه موجود را از آرایه می‌خواند. |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_2)(Stream) | یک ارائه موجود را از جریان می‌خواند. |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_4)(string) | یک ارائه موجود را از فایل می‌خواند. |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_1)(byte[], ILoadOptions) | یک ارائه موجود را از آرایه با گزینه‌های بارگذاری اضافی می‌خواند. |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_3)(Stream, ILoadOptions) | یک ارائه موجود را از جریان با گزینه‌های بارگذاری اضافی می‌خواند. |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_5)(string, ILoadOptions) | یک ارائه موجود را از جریان با گزینه‌های بارگذاری اضافی می‌خواند. |
+| [CreatePresentation](../../aspose.slides/presentationfactory/createpresentation#createpresentation)() | یک ارائهٔ جدید ایجاد می‌کند. |
+| [CreatePresentation](../../aspose.slides/presentationfactory/createpresentation#createpresentation_1)(ILoadOptions) | یک ارائهٔ جدید با گزینه‌های بارگذاری اضافی ایجاد می‌کند |
+| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo)(Stream) | یک شیء PresentationInfo از جریان ایجاد می‌کند و ارائه را به آن متصل می‌سازد. اطلاعات ارائه را در جریان مشخص‌شده دریافت می‌کند. |
+| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo_1)(string) | یک شیء PresentationInfo از فایل ایجاد می‌کند و ارائه را به آن متصل می‌سازد. |
+| [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext)(Stream, TextExtractionArrangingMode) | متن خام را از اسلایدها بازیابی می‌کند |
+| [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext_2)(string, TextExtractionArrangingMode) | متن خام را از اسلایدها بازیابی می‌کند |
+| [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext_1)(Stream, TextExtractionArrangingMode, ILoadOptions) | متن خام را از اسلایدها بازیابی می‌کند |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation)(byte[]) | یک ارائهٔ موجود را از آرایه می‌خواند |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_2)(Stream) | یک ارائهٔ موجود را از جریان می‌خواند |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_4)(string) | یک ارائهٔ موجود را از فایل می‌خواند |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_1)(byte[], ILoadOptions) | یک ارائهٔ موجود را از آرایه با گزینه‌های بارگذاری اضافی می‌خواند |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_3)(Stream, ILoadOptions) | یک ارائهٔ موجود را از جریان با گزینه‌های بارگذاری اضافی می‌خواند |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_5)(string, ILoadOptions) | یک ارائهٔ موجود را از فایل با گزینه‌های بارگذاری اضافی می‌خواند |
 
-### مثال‌ها
+### نمونه‌ها
 
-مثال زیر نشان می‌دهد چگونه فرمت یک ارائه را بررسی کنید.
+مثال زیر نحوهٔ بررسی فرمت ارائه را نشان می‌دهد.
 
 ```csharp
 [C#]
@@ -58,7 +58,7 @@ IPresentationInfo info3 = PresentationFactory.Instance.GetPresentationInfo("pres
 Console.WriteLine(info3.LoadFormat); // ODP
 ```
 
-مثال زیر نشان می‌دهد چگونه خصوصیات یک ارائه را دریافت کنید.
+مثال زیر نحوهٔ دریافت ویژگی‌های یک ارائه را نشان می‌دهد.
 
 ```csharp
 [C#]
@@ -70,7 +70,7 @@ Console.WriteLine(props.Title);
 // ..
 ```
 
-مثال زیر نشان می‌دهد چگونه خصوصیات یک ارائه را به‌روز کنید.
+مثال زیر نحوهٔ به‌روزرسانی ویژگی‌های یک ارائه را نشان می‌دهد.
 
 ```csharp
 [C#]
@@ -80,10 +80,10 @@ props.Title = "My title";
 info.UpdateDocumentProperties(props);
 ```
 
-### مطالعه بیشتر
+### موارد مرتبط
 
 * رابط [IPresentationFactory](../ipresentationfactory)
-* فضای نام [Aspose.Slides](../../aspose.slides)
-* مجتمع [Aspose.Slides](../../)
+* فضای‌نام [Aspose.Slides](../../aspose.slides)
+* اسم اسمبلی [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

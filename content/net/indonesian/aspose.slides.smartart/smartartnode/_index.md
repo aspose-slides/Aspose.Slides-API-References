@@ -1,9 +1,9 @@
 ---
 title: SmartArtNode
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili node dari objek SmartArt
 type: docs
-weight: 10630
+weight: 10650
 url: /id/aspose.slides.smartart/smartartnode/
 ---
 ## SmartArtNode kelas
@@ -16,21 +16,21 @@ public sealed class SmartArtNode : ISmartArtNode
 
 ## Properti
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
-| [BulletFillFormat](../../aspose.slides.smartart/smartartnode/bulletfillformat) { get; } | Mengembalikan objek FillFormat yang berisi properti format isian untuk bullet node. Catatan: dapat mengembalikan null untuk tipe tertentu dari tata letak SmartArt yang tidak menyediakan bullet untuk node. Hanya-baca [`IFillFormat`](../../aspose.slides/ifillformat). |
-| [ChildNodes](../../aspose.slides.smartart/smartartnode/childnodes) { get; } | Mengembalikan koleksi semua node anak dari node saat ini. Hanya-baca [`ISmartArtNodeCollection`](../ismartartnodecollection). |
+| [BulletFillFormat](../../aspose.slides.smartart/smartartnode/bulletfillformat) { get; } | Mengembalikan objek FillFormat yang berisi properti pemformatan isian untuk bullet node. Catatan: dapat mengembalikan null untuk jenis tata letak SmartArt tertentu yang tidak menyediakan bullet untuk node. Baca-saja [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [ChildNodes](../../aspose.slides.smartart/smartartnode/childnodes) { get; } | Mengembalikan koleksi semua node anak dari node saat ini. Baca-saja [`ISmartArtNodeCollection`](../ismartartnodecollection). |
 | [IsAssistant](../../aspose.slides.smartart/smartartnode/isassistant) { get; set; } | Mengembalikan atau mengatur node sebagai asisten. Baca/tulis Boolean. |
-| [IsHidden](../../aspose.slides.smartart/smartartnode/ishidden) { get; } | Mengembalikan true jika node ini adalah node tersembunyi dalam model data. Hanya-baca Boolean. |
-| [Level](../../aspose.slides.smartart/smartartnode/level) { get; } | Mengembalikan tingkat penelusuran node. Hanya-baca Int32. |
-| [OrganizationChartLayout](../../aspose.slides.smartart/smartartnode/organizationchartlayout) { get; set; } | Mengembalikan atau mengatur jenis tata letak bagan organisasi yang terkait dengan node saat ini. Baca/tulis [`OrganizationChartLayoutType`](../organizationchartlayouttype). |
-| [Position](../../aspose.slides.smartart/smartartnode/position) { get; set; } | Mengembalikan atau mengatur posisi berbasis nol node di antara node saudara. Baca/tulis Int32. |
-| [Shapes](../../aspose.slides.smartart/smartartnode/shapes) { get; } | Mengembalikan koleksi semua shape yang terkait dengan node. Hanya-baca [`ISmartArtShapeCollection`](../ismartartshapecollection). |
-| [TextFrame](../../aspose.slides.smartart/smartartnode/textframe) { get; } | Mengembalikan frame teks node. Hanya-baca [`ITextFrame`](../../aspose.slides/itextframe). |
+| [IsHidden](../../aspose.slides.smartart/smartartnode/ishidden) { get; } | Mengembalikan true jika node ini adalah node tersembunyi dalam model data. Baca-saja Boolean. |
+| [Level](../../aspose.slides.smartart/smartartnode/level) { get; } | Mengembalikan tingkat bersarang dari node. Baca-saja Int32. |
+| [OrganizationChartLayout](../../aspose.slides.smartart/smartartnode/organizationchartlayout) { get; set; } | Mengembalikan atau mengatur tipe tata letak bagan organisasi yang terkait dengan node saat ini. Baca/tulis [`OrganizationChartLayoutType`](../organizationchartlayouttype). |
+| [Position](../../aspose.slides.smartart/smartartnode/position) { get; set; } | Mengembalikan atau mengatur posisi berbasis nol dari node di antara node saudara. Baca/tulis Int32. |
+| [Shapes](../../aspose.slides.smartart/smartartnode/shapes) { get; } | Mengembalikan koleksi semua shape yang terkait dengan node. Baca-saja [`ISmartArtShapeCollection`](../ismartartshapecollection). |
+| [TextFrame](../../aspose.slides.smartart/smartartnode/textframe) { get; } | Mengembalikan frame teks node. Baca-saja [`ITextFrame`](../../aspose.slides/itextframe). |
 
 ## Metode
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
 | [Remove](../../aspose.slides.smartart/smartartnode/remove)() | Menghapus node saat ini. |
 

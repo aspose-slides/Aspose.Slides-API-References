@@ -1,9 +1,9 @@
 ---
 title: TransitionSpeed
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes .NET API Referansı
 description: Geçiş hızı türlerini temsil eder.
 type: docs
-weight: 10440
+weight: 10460
 url: /tr/aspose.slides.slideshow/transitionspeed/
 ---
 ## TransitionSpeed enum
@@ -22,7 +22,7 @@ public enum TransitionSpeed
 | Medium | `1` |  |
 | Slow | `2` |  |
 
-### İlgili
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * derleme [Aspose.Slides](../../)

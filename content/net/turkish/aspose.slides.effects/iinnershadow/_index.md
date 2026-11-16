@@ -3,10 +3,10 @@ title: IInnerShadow
 second_title: Aspose.Sildes için .NET API Referansı
 description: İç gölge etkisini temsil eder.
 type: docs
-weight: 3420
+weight: 3440
 url: /tr/aspose.slides.effects/iinnershadow/
 ---
-## IInnerShadow arabirimi
+## IInnerShadow arayüzü
 
 İç gölge etkisini temsil eder.
 
@@ -19,12 +19,12 @@ public interface IInnerShadow : IAccessiblePVIObject<IInnerShadowEffectiveData>,
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/iinnershadow/asiaccessiblepviobject) { get; } | Temel IAccessiblePVIObject arabirimini almayı sağlar. Salt okunur [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/iinnershadow/asiimagetransformoperation) { get; } | Temel IImageTransformOperation arabirimini almayı sağlar. Salt okunur [`IImageTransformOperation`](../iimagetransformoperation). |
-| [BlurRadius](../../aspose.slides.effects/iinnershadow/blurradius) { get; set; } | Bulanıklık yarıçapı. Okunur/yazılabilir Double. |
-| [Direction](../../aspose.slides.effects/iinnershadow/direction) { get; set; } | Gölgenin yönü. Okunur/yazılabilir Single. |
-| [Distance](../../aspose.slides.effects/iinnershadow/distance) { get; set; } | Gölgenin mesafesi. Okunur/yazılabilir Double. |
-| [ShadowColor](../../aspose.slides.effects/iinnershadow/shadowcolor) { get; } | Gölgenin rengi. Salt okunur [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/iinnershadow/asiaccessiblepviobject) { get; } | IAccessiblePVIObject temel arayüzünü almaya izin verir. Salt-okunur [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/iinnershadow/asiimagetransformoperation) { get; } | IImageTransformOperation temel arayüzünü almaya izin verir. Salt-okunur [`IImageTransformOperation`](../iimagetransformoperation). |
+| [BlurRadius](../../aspose.slides.effects/iinnershadow/blurradius) { get; set; } | Bulanıklık yarıçapı. Okunabilir/Yazılabilir Double. |
+| [Direction](../../aspose.slides.effects/iinnershadow/direction) { get; set; } | Gölgenin yönü. Okunabilir/Yazılabilir Single. |
+| [Distance](../../aspose.slides.effects/iinnershadow/distance) { get; set; } | Gölgenin uzaklığı. Okunabilir/Yazılabilir Double. |
+| [ShadowColor](../../aspose.slides.effects/iinnershadow/shadowcolor) { get; } | Gölgenin rengi. Salt-okunur [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ### Ayrıca Bakınız
 

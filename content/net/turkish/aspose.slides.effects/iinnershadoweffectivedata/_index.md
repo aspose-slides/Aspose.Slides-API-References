@@ -1,14 +1,14 @@
 ---
 title: IInnerShadowEffectiveData
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes for .NET API Referansı
 description: İç gölge etkisini temsil eden değiştirilemez nesne.
 type: docs
-weight: 3430
+weight: 3450
 url: /tr/aspose.slides.effects/iinnershadoweffectivedata/
 ---
-## IInnerShadowEffectiveData arayüz
+## IInnerShadowEffectiveData arabirimi
 
-İç gölge etkisini temsil eden değiştirilemez nesne.
+Değiştirilemez nesne, iç gölge etkisini temsil eder.
 
 ```csharp
 public interface IInnerShadowEffectiveData : IEffectEffectiveData
@@ -18,15 +18,15 @@ public interface IInnerShadowEffectiveData : IEffectEffectiveData
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/iinnershadoweffectivedata/asieffecteffectivedata) { get; } | Temel IEffectEffectiveData arayüzünü almayı sağlar. Salt okunur [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/iinnershadoweffectivedata/asieffecteffectivedata) { get; } | Temel IEffectEffectiveData arabirimine erişim sağlar. Salt okunur [`IEffectEffectiveData`](../ieffecteffectivedata). |
 | [BlurRadius](../../aspose.slides.effects/iinnershadoweffectivedata/blurradius) { get; } | Bulanıklık yarıçapı. Salt okunur Double. |
 | [Direction](../../aspose.slides.effects/iinnershadoweffectivedata/direction) { get; } | Gölgenin yönü. Salt okunur Single. |
 | [Distance](../../aspose.slides.effects/iinnershadoweffectivedata/distance) { get; } | Gölgenin mesafesi. Salt okunur Double. |
 | [ShadowColor](../../aspose.slides.effects/iinnershadoweffectivedata/shadowcolor) { get; } | Gölgenin rengi. Salt okunur Color. |
 
-### See Also
+### Ayrıca Bakınız
 
-* arayüz [IEffectEffectiveData](../ieffecteffectivedata)
+* arabirimi [IEffectEffectiveData](../ieffecteffectivedata)
 * ad alanı [Aspose.Slides.Effects](../../aspose.slides.effects)
 * derleme [Aspose.Slides](../../)
 

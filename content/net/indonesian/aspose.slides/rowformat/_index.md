@@ -1,12 +1,12 @@
 ---
 title: RowFormat
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili format baris tabel.
 type: docs
-weight: 9730
+weight: 9750
 url: /id/aspose.slides/rowformat/
 ---
-## RowFormat kelas
+## Kelas RowFormat
 
 Mewakili format baris tabel.
 

@@ -1,14 +1,14 @@
 ---
 title: IOverrideTheme
-second_title: Aspose.Slides için .NET API Referansı
-description: Geçersiz kılan bir temayı temsil eder.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Geçersiz kılma temasını temsil eder.
 type: docs
-weight: 11340
+weight: 11360
 url: /tr/aspose.slides.theme/ioverridetheme/
 ---
-## IOverrideTheme arayüzü
+## IOverrideTheme arayüz
 
-Bir geçersiz kılan temayı temsil eder.
+Geçersiz kılma temasını temsil eder.
 
 ```csharp
 public interface IOverrideTheme : ITheme
@@ -18,23 +18,23 @@ public interface IOverrideTheme : ITheme
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsITheme](../../aspose.slides.theme/ioverridetheme/asitheme) { get; } | Temel ITheme arayüzünü almayı sağlar. Salt okunur [`ITheme`](../itheme). |
-| [IsEmpty](../../aspose.slides.theme/ioverridetheme/isempty) { get; } | True değeri, ColorScheme, FontScheme, FormatScheme'in null olduğunu ve bu tema nesnesiyle herhangi bir geçersiz kılmanın devre dışı bırakıldığını gösterir. Salt okunur Boolean. |
+| [AsITheme](../../aspose.slides.theme/ioverridetheme/asitheme) { get; } | Temel ITheme arabirimini almayı sağlar. Salt okunur [`ITheme`](../itheme). |
+| [IsEmpty](../../aspose.slides.theme/ioverridetheme/isempty) { get; } | Doğru değer, ColorScheme, FontScheme, FormatScheme'ın null olduğu ve bu tema nesnesiyle yapılan herhangi bir geçersiz kılmanın devre dışı bırakıldığı anlamına gelir. Salt okunur Boolean. |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [Clear](../../aspose.slides.theme/ioverridetheme/clear)() | ColorScheme, FontScheme, FormatScheme'i null olarak ayarlayarak bu tema nesnesiyle herhangi bir geçersiz kılmayı devre dışı bırakır. |
-| [InitColorScheme](../../aspose.slides.theme/ioverridetheme/initcolorscheme)() | InheritedTheme'in ColorScheme'ini geçersiz kılmak için yeni bir nesne ile ColorScheme'i başlatır. |
-| [InitColorSchemeFrom](../../aspose.slides.theme/ioverridetheme/initcolorschemefrom)(IColorScheme) | InheritedTheme'in ColorScheme'ini geçersiz kılmak için yeni bir nesne ile ColorScheme'i başlatır. |
-| [InitColorSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initcolorschemefrominherited)() | InheritedTheme'in ColorScheme'ini geçersiz kılmak için yeni bir nesne ile ColorScheme'i başlatır. Ve bu yeni nesnenin verilerini InheritedTheme'in ColorScheme'inin verileriyle başlatır. |
-| [InitFontScheme](../../aspose.slides.theme/ioverridetheme/initfontscheme)() | InheritedTheme'in FontScheme'ini geçersiz kılmak için yeni bir nesne ile FontScheme'i başlatır. |
-| [InitFontSchemeFrom](../../aspose.slides.theme/ioverridetheme/initfontschemefrom)(IFontScheme) | InheritedTheme'in FontScheme'ini geçersiz kılmak için yeni bir nesne ile FontScheme'i başlatır. |
-| [InitFontSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initfontschemefrominherited)() | InheritedTheme'in FontScheme'ini geçersiz kılmak için yeni bir nesne ile FontScheme'i başlatır. Ve bu yeni nesnenin verilerini InheritedTheme'in FontScheme'inin verileriyle başlatır. |
-| [InitFormatScheme](../../aspose.slides.theme/ioverridetheme/initformatscheme)() | InheritedTheme'in FormatScheme'ini geçersiz kılmak için yeni bir nesne ile FormatScheme'i başlatır. |
-| [InitFormatSchemeFrom](../../aspose.slides.theme/ioverridetheme/initformatschemefrom)(IFormatScheme) | InheritedTheme'in FormatScheme'ini geçersiz kılmak için yeni bir nesne ile FormatScheme'i başlatır. |
-| [InitFormatSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initformatschemefrominherited)() | InheritedTheme'in FormatScheme'ini geçersiz kılmak için yeni bir nesne ile FormatScheme'i başlatır. Ve bu yeni nesnenin verilerini InheritedTheme'in FormatScheme'inin verileriyle başlatır. |
+| [Clear](../../aspose.slides.theme/ioverridetheme/clear)() | ColorScheme, FontScheme ve FormatScheme'ı null olarak ayarlayarak bu tema nesnesiyle yapılan herhangi bir geçersiz kılmayı devre dışı bırakır. |
+| [InitColorScheme](../../aspose.slides.theme/ioverridetheme/initcolorscheme)() | InheritedTheme'in ColorScheme'ını geçersiz kılmak için yeni bir nesne ile ColorScheme'ı başlatır. |
+| [InitColorSchemeFrom](../../aspose.slides.theme/ioverridetheme/initcolorschemefrom)(IColorScheme) | InheritedTheme'in ColorScheme'ını geçersiz kılmak için yeni bir nesne ile ColorScheme'ı başlatır. |
+| [InitColorSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initcolorschemefrominherited)() | InheritedTheme'in ColorScheme'ını geçersiz kılmak için yeni bir nesne ile ColorScheme'ı başlatır. Ve bu yeni nesnenin verilerini InheritedTheme'in ColorScheme'ının verileriyle başlatır. |
+| [InitFontScheme](../../aspose.slides.theme/ioverridetheme/initfontscheme)() | InheritedTheme'in FontScheme'ını geçersiz kılmak için yeni bir nesne ile FontScheme'ı başlatır. |
+| [InitFontSchemeFrom](../../aspose.slides.theme/ioverridetheme/initfontschemefrom)(IFontScheme) | InheritedTheme'in FontScheme'ını geçersiz kılmak için yeni bir nesne ile FontScheme'ı başlatır. |
+| [InitFontSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initfontschemefrominherited)() | InheritedTheme'in FontScheme'ını geçersiz kılmak için yeni bir nesne ile FontScheme'ı başlatır. Ve bu yeni nesnenin verilerini InheritedTheme'in FontScheme'ının verileriyle başlatır. |
+| [InitFormatScheme](../../aspose.slides.theme/ioverridetheme/initformatscheme)() | InheritedTheme'in FormatScheme'ını geçersiz kılmak için yeni bir nesne ile FormatScheme'ı başlatır. |
+| [InitFormatSchemeFrom](../../aspose.slides.theme/ioverridetheme/initformatschemefrom)(IFormatScheme) | InheritedTheme'in FormatScheme'ını geçersiz kılmak için yeni bir nesne ile FormatScheme'ı başlatır. |
+| [InitFormatSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initformatschemefrominherited)() | InheritedTheme'in FormatScheme'ını geçersiz kılmak için yeni bir nesne ile FormatScheme'ı başlatır. Ve bu yeni nesnenin verilerini InheritedTheme'in FormatScheme'ının verileriyle başlatır. |
 
 ### Ayrıca Bakınız
 

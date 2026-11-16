@@ -1,9 +1,9 @@
 ---
 title: Label
-second_title: Aspose.Sildes para referência da API .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Label. Somente leitura IDataLabelaspose.slides.charts/idatalabel.
 type: docs
-weight: 140
+weight: 180
 url: /pt/aspose.slides.charts/chartdatapoint/label/
 ---
 ## ChartDataPoint.Label propriedade
@@ -14,7 +14,7 @@ Label. Somente leitura [`IDataLabel`](../../idatalabel).
 public IDataLabel Label { get; }
 ```
 
-### Veja também
+### Veja Também
 
 * interface [IDataLabel](../../idatalabel)
 * classe [ChartDataPoint](../../chartdatapoint)

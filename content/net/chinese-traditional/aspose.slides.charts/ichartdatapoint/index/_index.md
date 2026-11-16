@@ -1,14 +1,14 @@
 ---
 title: Index
-second_title: Aspose.Sildes 的 .NET API 參考
-description: 確定此資料點適用於父項目之子集合中的哪一個。讀取 UInt32.
+second_title: Aspose.Sildes for .NET API 參考文件
+description: 確定此資料點適用於父項子集合的哪個項目。 讀取 UInt32.
 type: docs
-weight: 80
+weight: 120
 url: /zh-hant/aspose.slides.charts/ichartdatapoint/index/
 ---
 ## IChartDataPoint.Index 屬性
 
-確定此資料點適用於父項目之子集合中的哪一個。讀取 UInt32.
+確定此資料點在父項的子集合中的位置。 讀取 UInt32.
 
 ```csharp
 public uint Index { get; }

@@ -3,7 +3,7 @@ title: IMathGroupingCharacterFactory
 second_title: Aspose.Sildes for .NET API 参考
 description: 允许创建数学分组字符
 type: docs
-weight: 8300
+weight: 8320
 url: /zh/aspose.slides.mathtext/imathgroupingcharacterfactory/
 ---
 ## IMathGroupingCharacterFactory 接口

@@ -3,10 +3,10 @@ title: IPathSegment
 second_title: Referência da API Aspose.Sildes para .NET
 description: Representa um segmento do caminho gráfico de GeometryShape
 type: docs
-weight: 6610
+weight: 6630
 url: /pt/aspose.slides/ipathsegment/
 ---
-## IPathSegment interface
+## interface IPathSegment
 
 Representa um segmento do caminho gráfico de GeometryShape
 
@@ -19,9 +19,9 @@ public interface IPathSegment
 | Nome | Descrição |
 | --- | --- |
 | [PathCommand](../../aspose.slides/ipathsegment/pathcommand) { get; } | Tipo de caminho do segmento |
-| [SegmentData](../../aspose.slides/ipathsegment/segmentdata) { get; } | Dados de caminho do segmento |
+| [SegmentData](../../aspose.slides/ipathsegment/segmentdata) { get; } | Dados do caminho do segmento |
 
-### Veja Também
+### Ver Também
 
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

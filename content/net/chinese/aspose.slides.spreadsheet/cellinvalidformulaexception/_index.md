@@ -1,14 +1,14 @@
 ---
 title: CellInvalidFormulaException
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 当计算的公式不正确或未被解析时抛出的异常。
 type: docs
-weight: 10710
+weight: 10730
 url: /zh/aspose.slides.spreadsheet/cellinvalidformulaexception/
 ---
 ## CellInvalidFormulaException 类
 
-当计算的公式不正确或未被解析时抛出的异常。
+当计算的公式不正确或未解析时抛出的异常。
 
 ```csharp
 public class CellInvalidFormulaException : PptxEditException
@@ -16,20 +16,20 @@ public class CellInvalidFormulaException : PptxEditException
 
 ## 构造函数
 
-| 名称 | 描述 |
+| 名称 | 说明 |
 | --- | --- |
 | [CellInvalidFormulaException](cellinvalidformulaexception#constructor)() | 初始化 [`CellInvalidFormulaException`](../cellinvalidformulaexception) 类的新实例。 |
 | [CellInvalidFormulaException](cellinvalidformulaexception#constructor_1)(string) | 使用指定的错误消息初始化 [`CellInvalidFormulaException`](../cellinvalidformulaexception) 类的新实例。 |
-| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_2)(string, Exception) | 使用指定的错误消息和指向导致此异常的内部异常的引用，初始化 [`CellInvalidFormulaException`](../cellinvalidformulaexception) 类的新实例。 |
-| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_3)(string, string) | 使用指定的错误消息和包含无效公式的单元格引用，初始化 [`CellInvalidFormulaException`](../cellinvalidformulaexception) 类的新实例。 |
+| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_2)(string, Exception) | 使用指定的错误消息和指向导致此异常的内部 Exception 的引用来初始化 [`CellInvalidFormulaException`](../cellinvalidformulaexception) 类的新实例。 |
+| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_3)(string, string) | 使用指定的错误消息和包含无效公式的单元格引用来初始化 [`CellInvalidFormulaException`](../cellinvalidformulaexception) 类的新实例。 |
 
 ## 属性
 
-| 名称 | 描述 |
+| 名称 | 说明 |
 | --- | --- |
 | [Reference](../../aspose.slides.spreadsheet/cellinvalidformulaexception/reference) { get; } | 获取包含无效公式的单元格引用。 |
 
-### 另请参见
+### 另见
 
 * 类 [PptxEditException](../../aspose.slides/pptxeditexception)
 * 命名空间 [Aspose.Slides.Spreadsheet](../../aspose.slides.spreadsheet)

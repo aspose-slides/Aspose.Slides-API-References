@@ -3,12 +3,12 @@ title: DrawingGuide
 second_title: Aspose.Sildes için .NET API Referansı
 description: Ayarlanabilir bir çizim kılavuzunu temsil eder.
 type: docs
-weight: 2810
+weight: 2830
 url: /tr/aspose.slides/drawingguide/
 ---
 ## DrawingGuide sınıfı
 
-Ayarlanabilir bir çizim kılavuzunu temsil eder.
+Çizim kılavuzunu ayarlanabilir şekilde temsil eder.
 
 ```csharp
 public sealed class DrawingGuide : IDrawingGuide
@@ -18,9 +18,9 @@ public sealed class DrawingGuide : IDrawingGuide
 
 | Ad | Açıklama |
 | --- | --- |
-| [Color](../../aspose.slides/drawingguide/color) { get; set; } | Çizim kılavuzunun rengini döndürür veya ayarlar. Okuma/Yazma Color. |
-| [Orientation](../../aspose.slides/drawingguide/orientation) { get; set; } | Çizim kılavuzunun yönünü döndürür veya ayarlar. Okuma/Yazma [`Orientation`](../orientation). |
-| [Position](../../aspose.slides/drawingguide/position) { get; set; } | Çizim kılavuzunun konumunu slaytın üst sol köşesinden nokta cinsinden döndürür veya ayarlar. Okuma/Yazma Single. |
+| [Color](../../aspose.slides/drawingguide/color) { get; set; } | Çizim kılavuzunun rengini döndürür veya ayarlar. Okunur/Yazılır Color. |
+| [Orientation](../../aspose.slides/drawingguide/orientation) { get; set; } | Çizim kılavuzunun yönünü döndürür veya ayarlar. Okunur/Yazılır [`Orientation`](../orientation). |
+| [Position](../../aspose.slides/drawingguide/position) { get; set; } | Çizim kılavuzunun konumunu slaytın üst sol köşesinden puan cinsinden döndürür veya ayarlar. Okunur/Yazılır Single. |
 
 ### Ayrıca Bakınız
 

@@ -1,14 +1,14 @@
 ---
 title: SmartArtColorType
-second_title: Справочник API Aspose.Sildes для .NET
-description: Представляет цветовую схему диаграммы SmartArt.
+second_title: Aspose.Sildes для .NET API Reference
+description: Представляет схему цветов диаграммы SmartArt.
 type: docs
-weight: 10610
+weight: 10630
 url: /ru/aspose.slides.smartart/smartartcolortype/
 ---
 ## Перечисление SmartArtColorType
 
-Представляет цветовую схему диаграммы SmartArt.
+Представляет схему цветов диаграммы SmartArt.
 
 ```csharp
 public enum SmartArtColorType

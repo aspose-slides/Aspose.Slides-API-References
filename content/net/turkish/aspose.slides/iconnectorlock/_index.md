@@ -1,14 +1,14 @@
 ---
 title: IConnectorLock
-second_title: Aspose.Sildes için .NET API Referansı
-description: Üst Connector üzerinde hangi işlemlerin devre dışı bırakıldığını belirler.
+second_title: Aspose.Sildes .NET için API Referansı
+description: Üst Connector'da hangi işlemlerin devre dışı bırakıldığını belirler.
 type: docs
-weight: 5620
+weight: 5640
 url: /tr/aspose.slides/iconnectorlock/
 ---
-## IConnectorLock arayüzü
+## IConnectorLock arayüz
 
-Ana Connector üzerinde hangi işlemlerin devre dışı bırakıldığını belirler.
+Üst Connector’da hangi işlemlerin devre dışı bırakıldığını belirler.
 
 ```csharp
 public interface IConnectorLock : IBaseShapeLock
@@ -18,19 +18,19 @@ public interface IConnectorLock : IBaseShapeLock
 
 | Ad | Açıklama |
 | --- | --- |
-| [AdjustHandlesLocked](../../aspose.slides/iconnectorlock/adjusthandleslocked) { get; set; } | Ayarlama değerlerinin değiştirilmesinin yasak olup olmadığını belirler. Okuma/Yazma Boolean. |
-| [ArrowheadsLocked](../../aspose.slides/iconnectorlock/arrowheadslocked) { get; set; } | Okların değiştirilmesinin yasak olup olmadığını belirler. Okuma/Yazma Boolean. |
-| [AsIBaseShapeLock](../../aspose.slides/iconnectorlock/asibaseshapelock) { get; } | Temel IBaseShapeLock arabirimini almayı sağlar. Sadece okunur [`IBaseShapeLock`](../ibaseshapelock). |
-| [AspectRatioLocked](../../aspose.slides/iconnectorlock/aspectratiolocked) { get; set; } | Bir şeklin yeniden boyutlandırma sırasında en boy oranını korumasının zorunlu olup olmadığını belirler. Okuma/Yazma Boolean. |
-| [EditPointsLocked](../../aspose.slides/iconnectorlock/editpointslocked) { get; set; } | Bu şeklin konturunun doğrudan değiştirilmesinin yasak olup olmadığını belirler. Okuma/Yazma Boolean. |
-| [GroupingLocked](../../aspose.slides/iconnectorlock/groupinglocked) { get; set; } | Bu şeklin bir gruba eklenmesinin yasak olup olmadığını belirler. Okuma/Yazma Boolean. |
-| [PositionMove](../../aspose.slides/iconnectorlock/positionmove) { get; set; } | Bu şeklin taşınmasının yasak olup olmadığını belirler. Okuma/Yazma Boolean. |
-| [RotateLocked](../../aspose.slides/iconnectorlock/rotatelocked) { get; set; } | Bu şeklin döndürme açısının değiştirilmesinin yasak olup olmadığını belirler. Okuma/Yazma Boolean. |
-| [SelectLocked](../../aspose.slides/iconnectorlock/selectlocked) { get; set; } | Bu şeklin seçilmesinin yasak olup olmadığını belirler. Okuma/Yazma Boolean. |
-| [ShapeTypeLocked](../../aspose.slides/iconnectorlock/shapetypelocked) { get; set; } | Şekil tipinin değiştirilmesinin yasak olup olmadığını belirler. Okuma/Yazma Boolean. |
-| [SizeLocked](../../aspose.slides/iconnectorlock/sizelocked) { get; set; } | Bu şeklin yeniden boyutlandırılmasının yasak olup olmadığını belirler. Okuma/Yazma Boolean. |
+| [AdjustHandlesLocked](../../aspose.slides/iconnectorlock/adjusthandleslocked) { get; set; } | Bir ayarlama değerinin değiştirilmesinin yasak olup olmadığını belirler. Okunur/Yazılabilir Boolean. |
+| [ArrowheadsLocked](../../aspose.slides/iconnectorlock/arrowheadslocked) { get; set; } | Bir ok başlığının (arrowheads) değiştirilmesinin yasak olup olmadığını belirler. Okunur/Yazılabilir Boolean. |
+| [AsIBaseShapeLock](../../aspose.slides/iconnectorlock/asibaseshapelock) { get; } | Temel IBaseShapeLock arayüzünü almayı sağlar. Okunur yalnızca [`IBaseShapeLock`](../ibaseshapelock). |
+| [AspectRatioLocked](../../aspose.slides/iconnectorlock/aspectratiolocked) { get; set; } | Bir şeklin yeniden boyutlandırıldığında en-boy oranını korumasının zorunlu olup olmadığını belirler. Okunur/Yazılabilir Boolean. |
+| [EditPointsLocked](../../aspose.slides/iconnectorlock/editpointslocked) { get; set; } | Bu şeklin konturunun doğrudan değiştirilmesinin yasak olup olmadığını belirler. Okunur/Yazılabilir Boolean. |
+| [GroupingLocked](../../aspose.slides/iconnectorlock/groupinglocked) { get; set; } | Bu şeklin bir gruba eklenmesinin yasak olup olmadığını belirler. Okunur/Yazılabilir Boolean. |
+| [PositionMove](../../aspose.slides/iconnectorlock/positionmove) { get; set; } | Bu şeklin hareket ettirilmesinin yasak olup olmadığını belirler. Okunur/Yazılabilir Boolean. |
+| [RotateLocked](../../aspose.slides/iconnectorlock/rotatelocked) { get; set; } | Bu şeklin dönüş açısının değiştirilmesinin yasak olup olmadığını belirler. Okunur/Yazılabilir Boolean. |
+| [SelectLocked](../../aspose.slides/iconnectorlock/selectlocked) { get; set; } | Bu şeklin seçilmesinin yasak olup olmadığını belirler. Okunur/Yazılabilir Boolean. |
+| [ShapeTypeLocked](../../aspose.slides/iconnectorlock/shapetypelocked) { get; set; } | Bir şekil türünün değiştirilmesinin yasak olup olmadığını belirler. Okunur/Yazılabilir Boolean. |
+| [SizeLocked](../../aspose.slides/iconnectorlock/sizelocked) { get; set; } | Bu şeklin yeniden boyutlandırılmasının yasak olup olmadığını belirler. Okunur/Yazılabilir Boolean. |
 
-### Ayrıca bakınız
+### Diğer Bağlantılar
 
 * arayüz [IBaseShapeLock](../ibaseshapelock)
 * ad alanı [Aspose.Slides](../../aspose.slides)

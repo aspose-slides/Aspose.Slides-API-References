@@ -1,9 +1,9 @@
 ---
 title: IAudioFrame
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: स्लाइड पर एक ऑडियो क्लिप का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: एक स्लाइड पर ऑडियो क्लिप का प्रतिनिधित्व करता है।
 type: docs
-weight: 5230
+weight: 5250
 url: /hi/aspose.slides/iaudioframe/
 ---
 ## IAudioFrame इंटरफ़ेस
@@ -18,31 +18,31 @@ public interface IAudioFrame : IPictureFrame
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIPictureFrame](../../aspose.slides/iaudioframe/asipictureframe) { get; } | बेस IPictureFrame इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल पढ़ने योग्य [`IPictureFrame`](../ipictureframe)। |
-| [AudioCdEndTrack](../../aspose.slides/iaudioframe/audiocdendtrack) { get; set; } | अंतिम ट्रैक इंडेक्स को लौटाता या सेट करता है। पढ़ने/लिखने योग्य Int32। |
+| [AsIPictureFrame](../../aspose.slides/iaudioframe/asipictureframe) { get; } | आधारभूत IPictureFrame इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IPictureFrame`](../ipictureframe)। |
+| [AudioCdEndTrack](../../aspose.slides/iaudioframe/audiocdendtrack) { get; set; } | अंतिम ट्रैक सूचकांक को लौटाता या सेट करता है। पढ़ने/लिखने योग्य Int32। |
 | [AudioCdEndTrackTime](../../aspose.slides/iaudioframe/audiocdendtracktime) { get; set; } | अंतिम ट्रैक समय को लौटाता या सेट करता है। पढ़ने/लिखने योग्य Int32। |
-| [AudioCdStartTrack](../../aspose.slides/iaudioframe/audiocdstarttrack) { get; set; } | स्टार्ट ट्रैक इंडेक्स को लौटाता या सेट करता है। पढ़ने/लिखने योग्य Int32। |
-| [AudioCdStartTrackTime](../../aspose.slides/iaudioframe/audiocdstarttracktime) { get; set; } | स्टार्ट ट्रैक समय को लौटाता या सेट करता है। पढ़ने/लिखने योग्य Int32। |
-| [CaptionTracks](../../aspose.slides/iaudioframe/captiontracks) { get; } | ऑडियो फ्रेम से जुड़े बंद कैप्शन का संग्रह प्राप्त करता है। यह गुण केवल पढ़ने योग्य है और एक [`ICaptionsCollection`](../icaptionscollection) लौटाता है जिसमें सभी कैप्शन ट्रैक शामिल हैं। |
-| [Embedded](../../aspose.slides/iaudioframe/embedded) { get; } | निर्धारित करता है कि क्या ध्वनि प्रस्तुति में एम्बेडेड है। केवल पढ़ने योग्य Boolean। |
-| [EmbeddedAudio](../../aspose.slides/iaudioframe/embeddedaudio) { get; set; } | एम्बेडेड ऑडियो ऑब्जेक्ट को लौटाता या सेट करता है। पढ़ने/लिखने योग्य [`IAudio`](../iaudio)। |
-| [FadeInDuration](../../aspose.slides/iaudioframe/fadeinduration) { get; set; } | मीडिया के प्रारंभिक फेड-इन की समयावधि को मिलीसेकंड में निर्दिष्ट करता है। पढ़ने/लिखने योग्य Single। |
-| [FadeOutDuration](../../aspose.slides/iaudioframe/fadeoutduration) { get; set; } | मीडिया के समाप्ति फेड-आउट की समयावधि को मिलीसेकंड में निर्दिष्ट करता है। पढ़ने/लिखने योग्य Single। |
-| [HideAtShowing](../../aspose.slides/iaudioframe/hideatshowing) { get; set; } | निर्धारित करता है कि क्या AudioFrame छिपी हुई है। पढ़ने/लिखने योग्य Boolean। |
+| [AudioCdStartTrack](../../aspose.slides/iaudioframe/audiocdstarttrack) { get; set; } | प्रारंभिक ट्रैक सूचकांक को लौटाता या सेट करता है। पढ़ने/लिखने योग्य Int32। |
+| [AudioCdStartTrackTime](../../aspose.slides/iaudioframe/audiocdstarttracktime) { get; set; } | प्रारंभिक ट्रैक समय को लौटाता या सेट करता है। पढ़ने/लिखने योग्य Int32। |
+| [CaptionTracks](../../aspose.slides/iaudioframe/captiontracks) { get; } | ऑडियो फ्रेम से संबंधित बंद कैप्शन का संग्रह प्राप्त करता है। यह गुण केवल-पढ़ने योग्य है और सभी कैप्शन ट्रैक्स को शामिल करने वाला [`ICaptionsCollection`](../icaptionscollection) लौटाता है। |
+| [Embedded](../../aspose.slides/iaudioframe/embedded) { get; } | निर्धारित करता है कि क्या ध्वनि प्रस्तुति में एंबेडेड है। केवल-पढ़ने योग्य Boolean। |
+| [EmbeddedAudio](../../aspose.slides/iaudioframe/embeddedaudio) { get; set; } | एंबेडेड ऑडियो ऑब्जेक्ट को लौटाता या सेट करता है। पढ़ने/लिखने योग्य [`IAudio`](../iaudio)। |
+| [FadeInDuration](../../aspose.slides/iaudioframe/fadeinduration) { get; set; } | मीडिया के प्रारंभिक फेड-इन की समय अवधि को मिलीसेकंड में निर्दिष्ट करता है। पढ़ने/लिखने योग्य Single। |
+| [FadeOutDuration](../../aspose.slides/iaudioframe/fadeoutduration) { get; set; } | मीडिया के अंत में फेड-आउट की समय अवधि को मिलीसेकंड में निर्दिष्ट करता है। पढ़ने/लिखने योग्य Single। |
+| [HideAtShowing](../../aspose.slides/iaudioframe/hideatshowing) { get; set; } | निर्धारित करता है कि क्या AudioFrame छिपा हुआ है। पढ़ने/लिखने योग्य Boolean। |
 | [LinkPathLong](../../aspose.slides/iaudioframe/linkpathlong) { get; set; } | AudioFrame से जुड़ी ऑडियो फ़ाइल का नाम लौटाता या सेट करता है। पढ़ने/लिखने योग्य String। |
 | [PlayAcrossSlides](../../aspose.slides/iaudioframe/playacrossslides) { get; set; } | निर्धारित करता है कि क्या ऑडियो स्लाइड्स के बीच चल रहा है। पढ़ने/लिखने योग्य Boolean। |
 | [PlayLoopMode](../../aspose.slides/iaudioframe/playloopmode) { get; set; } | निर्धारित करता है कि क्या ऑडियो लूप किया गया है। पढ़ने/लिखने योग्य Boolean। |
 | [PlayMode](../../aspose.slides/iaudioframe/playmode) { get; set; } | ऑडियो प्ले मोड को लौटाता या सेट करता है। पढ़ने/लिखने योग्य [`AudioPlayModePreset`](../audioplaymodepreset)। |
-| [RewindAudio](../../aspose.slides/iaudioframe/rewindaudio) { get; set; } | निर्धारित करता है कि क्या ऑडियो चलने के बाद स्वचालित रूप से शुरू में रीवाइंड होता है। पढ़ने/लिखने योग्य Boolean। |
-| [TrimFromEnd](../../aspose.slides/iaudioframe/trimfromend) { get; set; } | प्लेबैक के दौरान मीडिया के अंत से हटाए जाने वाले समयावधि को मिलीसेकंड में निर्दिष्ट करता है। पढ़ने/लिखने योग्य Single। |
-| [TrimFromStart](../../aspose.slides/iaudioframe/trimfromstart) { get; set; } | प्लेबैक के दौरान मीडिया की शुरुआत से हटाए जाने वाले समयावधि को मिलीसेकंड में निर्दिष्ट करता है। पढ़ने/लिखने योग्य Single। |
+| [RewindAudio](../../aspose.slides/iaudioframe/rewindaudio) { get; set; } | निर्धारित करता है कि क्या ऑडियो प्ले होने के बाद स्वचालित रूप से शुरुआत पर रीवाइंड होता है। पढ़ने/लिखने योग्य Boolean। |
+| [TrimFromEnd](../../aspose.slides/iaudioframe/trimfromend) { get; set; } | प्लेबैक के दौरान मीडिया के अंत से हटाई जाने वाली समय अवधि को मिलीसेकंड में निर्दिष्ट करता है। पढ़ने/लिखने योग्य Single। |
+| [TrimFromStart](../../aspose.slides/iaudioframe/trimfromstart) { get; set; } | प्लेबैक के दौरान मीडिया की शुरुआत से हटाई जाने वाली समय अवधि को मिलीसेकंड में निर्दिष्ट करता है। पढ़ने/लिखने योग्य Single। |
 | [Volume](../../aspose.slides/iaudioframe/volume) { get; set; } | ऑडियो वॉल्यूम को लौटाता या सेट करता है। पढ़ने/लिखने योग्य [`AudioVolumeMode`](../audiovolumemode)। |
 | [VolumeValue](../../aspose.slides/iaudioframe/volumevalue) { get; set; } | ऑडियो वॉल्यूम को प्रतिशत में लौटाता या सेट करता है। पढ़ने/लिखने योग्य Single। |
 
-### देखें
+### संबंधित देखें
 
 * इंटरफ़ेस [IPictureFrame](../ipictureframe)
-* नेमस्पेस [Aspose.Slides](../../aspose.slides)
+* नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

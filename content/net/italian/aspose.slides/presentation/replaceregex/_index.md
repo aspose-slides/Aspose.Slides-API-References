@@ -1,14 +1,14 @@
 ---
 title: ReplaceRegex
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Sostituisce tutte le corrispondenze dell'espressione regolare con la stringa specificata.
+second_title: Aspose.Sildes per la documentazione API .NET
+description: Sostituisce tutte le occorrenze dell'espressione regolare con la stringa specificata.
 type: docs
-weight: 370
+weight: 380
 url: /it/aspose.slides/presentation/replaceregex/
 ---
 ## Presentation.ReplaceRegex metodo
 
-Sostituisce tutte le corrispondenze dell'espressione regolare con la stringa specificata.
+Sostituisce tutte le occorrenze dell'espressione regolare con la stringa specificata.
 
 ```csharp
 public void ReplaceRegex(Regex regex, string newText, IFindResultCallback callback)

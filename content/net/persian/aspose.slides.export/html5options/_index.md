@@ -1,41 +1,41 @@
 ---
 title: Html5Options
-second_title: Aspose.Sildes برای .NET مرجع API
-description: نمایانگر گزینه‌های صادراتی HTML5 است.
+second_title: مرجع API Aspose.Sildes برای .NET
+description: نمایانگر گزینه‌های خروجی HTML5 است.
 type: docs
-weight: 3860
+weight: 3880
 url: /fa/aspose.slides.export/html5options/
 ---
-## Html5Options کلاس
+## کلاس Html5Options
 
-نمایانگر گزینه‌های صادراتی HTML5 است.
+نمایانگر گزینه‌های خروجی HTML5 است.
 
 ```csharp
 public class Html5Options : SaveOptions, IHtml5Options
 ```
 
-## سازندگان
+## سازنده‌ها
 
-| نام | توضیح |
+| Name | Description |
 | --- | --- |
-| [Html5Options](html5options)() | سازندۀ پیش‌فرض. |
+| [Html5Options](html5options)() | سازندهٔ پیش‌فرض. |
 
-## ویژگی‌ها
+## خصوصیات
 
-| نام | توضیح |
+| Name | Description |
 | --- | --- |
-| [AnimateShapes](../../aspose.slides.export/html5options/animateshapes) { get; set; } | مقدار یا تنظیم گزینهٔ انیمیشن اشکال. خواندنی/نوشتنی Boolean. |
-| [AnimateTransitions](../../aspose.slides.export/html5options/animatetransitions) { get; set; } | مقدار یا تنظیم گزینهٔ انیمیشن انتقال‌ها. خواندنی/نوشتنی Boolean. |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | مقدار یا تنظیم قلم استفاده‌شده در صورتی که قلم منبع یافت نشود. خواندنی/نوشتنی String. |
-| [DisableFontLigatures](../../aspose.slides.export/html5options/disablefontligatures) { get; set; } | مقدار یا تنظیم نشانه‌ای که نشان می‌دهد متن بدون استفاده از لیگیری‌ها رندر می‌شود. وقتی به `true` تنظیم شود، لیگیری‌ها در خروجی رندردهی غیرفعال می‌شوند. به طور پیش‌فرض، این ویژگی روی `false` تنظیم شده است. |
-| [EmbedImages](../../aspose.slides.export/html5options/embedimages) { get; set; } | مقدار یا تنظیم گزینهٔ جاسازی تصاویر. خواندنی/نوشتنی Boolean. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | مقدار یا تنظیم سبک بصری گرادیان. خواندنی/نوشتنی [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [OutputPath](../../aspose.slides.export/html5options/outputpath) { get; set; } | تعیین می‌کند که منابع خارجی در کجا ذخیره شوند. خواندنی/نوشتنی String. |
-| [PicturesCompression](../../aspose.slides.export/html5options/picturescompression) { get; set; } | نمایانگر سطح فشرده‌سازی تصاویر |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | نمایانگر یک شیء فراخوانی برای بروزرسانی پیشرفت ذخیره‌سازی به درصد. نگاه کنید به [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | مشخص می‌کند که آیا هنگام ذخیره‌سازی ارائه، پیوندهای فراخوانی جاوااسکریپت رد شوند یا نه. خواندنی/نوشتنی Boolean. مقدار پیش‌فرض **false** است. |
-| [SlidesLayoutOptions](../../aspose.slides.export/html5options/slideslayoutoptions) { get; set; } | مقدار یا تنظیم حالت قرارگیری اسلایدها بر صفحه هنگام صادرات ارائه [`ISlidesLayoutOptions`](../islideslayoutoptions). |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | مقدار یا تنظیم شیئی که هشدارها را دریافت می‌کند و تصمیم می‌گیرد آیا فرایند بارگذاری ادامه یابد یا متوقف شود. خواندنی/نوشتنی [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [AnimateShapes](../../aspose.slides.export/html5options/animateshapes) { get; set; } | گزینهٔ انیمیشن اشکال را برمی‌گرداند یا تنظیم می‌کند. خواندن/نوشتن Boolean. |
+| [AnimateTransitions](../../aspose.slides.export/html5options/animatetransitions) { get; set; } | گزینهٔ انیمیشن انتقال‌ها را برمی‌گرداند یا تنظیم می‌کند. خواندن/نوشتن Boolean. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | قلم مورد استفاده را هنگامی که قلم منبع یافت نشد برمی‌گرداند یا تنظیم می‌کند. خواندن/نوشتن String. |
+| [DisableFontLigatures](../../aspose.slides.export/html5options/disablefontligatures) { get; set; } | مقدار نشان‌دهنده این که متن بدون استفاده از لیگچرها رندر شود را برمی‌گیرد یا تنظیم می‌کند. وقتی به `true` تنظیم شود، لیگچرها در خروجی رندر غیرفعال می‌شوند. به طور پیش‌فرض این ویژگی به `false` تنظیم شده است. |
+| [EmbedImages](../../aspose.slides.export/html5options/embedimages) { get; set; } | گزینهٔ جاسازی تصاویر را برمی‌گرداند یا تنظیم می‌کند. خواندن/نوشتن Boolean. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | سبک بصری گرادیانت را برمی‌گرداند یا تنظیم می‌کند. خواندن/نوشتن [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [OutputPath](../../aspose.slides.export/html5options/outputpath) { get; set; } | مشخص می‌کند که منابع خارجی کجا ذخیره شوند. خواندن/نوشتن String. |
+| [PicturesCompression](../../aspose.slides.export/html5options/picturescompression) { get; set; } | سطح فشرده‌سازی تصاویر را نشان می‌دهد |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | یک شیء بازخوانی برای به‌روزرسانی پیشرفت ذخیره‌سازی به درصد را نشان می‌دهد. ببینید [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | مشخص می‌کند آیا هنگام ذخیرهٔ ارائه، پیوندهای‌هایپرلینک با فراخوانی‌های JavaScript رد شوند یا نه. خواندن/نوشتن Boolean. مقدار پیش‌فرض **false** است. |
+| [SlidesLayoutOptions](../../aspose.slides.export/html5options/slideslayoutoptions) { get; set; } | حالت قرارگیری اسلایدها بر صفحه هنگام خروجی‌گیری از یک ارائه [`ISlidesLayoutOptions`](../islideslayoutoptions) را برمی‌گیرد یا تنظیم می‌کند. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | یک شیء که هشدارها را دریافت می‌کند و تصمیم می‌گیرد آیا فرایند بارگذاری ادامه یابد یا abort شود را برمی‌گرداند یا تنظیم می‌کند. خواندن/نوشتن [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### مثال‌ها
 
@@ -53,11 +53,11 @@ using (Presentation pres = new Presentation("demo.pptx"))
 }
 ```
 
-### موارد مرتبط
+### مراجع
 
 * کلاس [SaveOptions](../saveoptions)
 * رابط [IHtml5Options](../ihtml5options)
 * فضای‌نام [Aspose.Slides.Export](../../aspose.slides.export)
-* اسمبلی [Aspose.Slides](../../)
+* مجتمع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

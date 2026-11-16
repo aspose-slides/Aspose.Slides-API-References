@@ -1,14 +1,14 @@
 ---
 title: IFillOverlay
 second_title: Aspose.Sildes .NET API 参考
-description: 表示 Fill Overlay 效果。Fill Overlay 可用于为对象指定附加填充并将两种填充混合在一起。
+description: 表示填充叠加效果。填充叠加可用于为对象指定额外的填充，并将两种填充混合在一起。
 type: docs
-weight: 3300
+weight: 3320
 url: /zh/aspose.slides.effects/ifilloverlay/
 ---
 ## IFillOverlay 接口
 
-表示 Fill Overlay 效果。Fill Overlay 可用于为对象指定附加填充并将两种填充混合在一起。
+表示填充叠加效果。填充叠加可用于为对象指定额外的填充，并将两种填充混合在一起。
 
 ```csharp
 public interface IFillOverlay : IAccessiblePVIObject<IFillOverlayEffectiveData>, 
@@ -19,9 +19,9 @@ public interface IFillOverlay : IAccessiblePVIObject<IFillOverlayEffectiveData>,
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ifilloverlay/asiaccessiblepviobject) { get; } | 允许获取基 IAccessiblePVIObject 接口。只读 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ifilloverlay/asiimagetransformoperation) { get; } | 允许获取基 IImageTransformOperation 接口。只读 [`IImageTransformOperation`](../iimagetransformoperation)。 |
-| [Blend](../../aspose.slides.effects/ifilloverlay/blend) { get; set; } | FillBlendMode。读/写 [`FillBlendMode`](../../aspose.slides/fillblendmode)。 |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ifilloverlay/asiaccessiblepviobject) { get; } | 允许获取基类 IAccessiblePVIObject 接口。只读 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ifilloverlay/asiimagetransformoperation) { get; } | 允许获取基类 IImageTransformOperation 接口。只读 [`IImageTransformOperation`](../iimagetransformoperation)。 |
+| [Blend](../../aspose.slides.effects/ifilloverlay/blend) { get; set; } | FillBlendMode。读写 [`FillBlendMode`](../../aspose.slides/fillblendmode)。 |
 | [FillFormat](../../aspose.slides.effects/ifilloverlay/fillformat) { get; } | 填充格式。只读 [`IFillFormat`](../../aspose.slides/ifillformat)。 |
 
 ### 另见

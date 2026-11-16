@@ -1,9 +1,9 @@
 ---
 title: ISection
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes .NET API Referansı
 description: Slaytların bir bölümünü temsil eder.
 type: docs
-weight: 6890
+weight: 6910
 url: /tr/aspose.slides/isection/
 ---
 ## ISection arayüz
@@ -16,15 +16,15 @@ public interface ISection
 
 ## Özellikler
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
 | [Name](../../aspose.slides/isection/name) { get; set; } | Bölümün adı. |
-| [SectionId](../../aspose.slides/isection/sectionid) { get; } | Bölüm kimliği. |
-| [StartedFromSlide](../../aspose.slides/isection/startedfromslide) { get; } | Bölümün ilk slaydını döndürür. |
+| [SectionId](../../aspose.slides/isection/sectionid) { get; } | Bölüm Id'si. |
+| [StartedFromSlide](../../aspose.slides/isection/startedfromslide) { get; } | Bölümün ilk slaytını döndürür. |
 
-## Metotlar
+## Yöntemler
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
 | [GetSlidesListOfSection](../../aspose.slides/isection/getslideslistofsection)() | Bölümdeki slaytların listesini döndürür. |
 

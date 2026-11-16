@@ -1,14 +1,14 @@
 ---
 title: TabCollection
 second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje kolekci tabulátorů.
+description: Reprezentuje kolekci záložek.
 type: docs
-weight: 10840
+weight: 10860
 url: /cs/aspose.slides/tabcollection/
 ---
 ## TabCollection třída
 
-Reprezentuje sbírku tabulátorů.
+Reprezentuje kolekci záložek.
 
 ```csharp
 public sealed class TabCollection : ITabCollection
@@ -16,25 +16,25 @@ public sealed class TabCollection : ITabCollection
 
 ## Vlastnosti
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides/tabcollection/count) { get; } | Získává počet prvků skutečně obsažených ve sbírce. Pouze pro čtení Int32. |
-| [IsSynchronized](../../aspose.slides/tabcollection/issynchronized) { get; } | Vrací hodnotu označující, zda je přístup ke sbírce synchronizován (vláknově bezpečný). Pouze pro čtení Boolean. |
-| [Item](../../aspose.slides/tabcollection/item) { get; } | Získává prvek na zadaném indexu. Pouze pro čtení [`Tab`](../tab). |
-| [SyncRoot](../../aspose.slides/tabcollection/syncroot) { get; } | Vrací kořen synchronizace. Pouze pro čtení Object. |
+| [Count](../../aspose.slides/tabcollection/count) { get; } | Získá počet prvků skutečně obsažených v kolekci. Pouze pro čtení Int32. |
+| [IsSynchronized](../../aspose.slides/tabcollection/issynchronized) { get; } | Vrátí hodnotu indikující, zda je přístup ke kolekci synchronizován (vláknově bezpečný). Pouze pro čtení Boolean. |
+| [Item](../../aspose.slides/tabcollection/item) { get; } | Získá prvek na zadaném indexu. Pouze pro čtení [`Tab`](../tab). |
+| [SyncRoot](../../aspose.slides/tabcollection/syncroot) { get; } | Vrátí kořen synchronizace. Pouze pro čtení Object. |
 
 ## Metody
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
-| [Add](../../aspose.slides/tabcollection/add#add_1)(ITab) | Přidá Tab do sbírky. |
-| [Add](../../aspose.slides/tabcollection/add#add)(double, TabAlignment) | Přidá Tab do sbírky. |
-| [Clear](../../aspose.slides/tabcollection/clear)() | Odstraní všechny prvky ze sbírky. |
-| [CopyTo](../../aspose.slides/tabcollection/copyto)(Array, int) | Zkopíruje všechny prvky ze sbírky do zadaného pole. |
+| [Add](../../aspose.slides/tabcollection/add#add_1)(ITab) | Přidá Tab do kolekce. |
+| [Add](../../aspose.slides/tabcollection/add#add)(double, TabAlignment) | Přidá Tab do kolekce. |
+| [Clear](../../aspose.slides/tabcollection/clear)() | Odstraní všechny prvky z kolekce. |
+| [CopyTo](../../aspose.slides/tabcollection/copyto)(Array, int) | Zkopíruje všechny prvky z kolekce do zadaného pole. |
 | override [Equals](../../aspose.slides/tabcollection/equals)(object) | Určuje, zda jsou dvě instance TabsEx rovny. |
-| [GetEnumerator](../../aspose.slides/tabcollection/getenumerator)() | Vrací enumerátor, který prochází sbírkou. |
-| override [GetHashCode](../../aspose.slides/tabcollection/gethashcode)() | Vrací hash kód pro tento objekt. |
-| [RemoveAt](../../aspose.slides/tabcollection/removeat)(int) | Odstraní prvek na zadaném indexu ve sbírce. |
+| [GetEnumerator](../../aspose.slides/tabcollection/getenumerator)() | Vrátí enumerátor, který prochází kolekcí. |
+| override [GetHashCode](../../aspose.slides/tabcollection/gethashcode)() | Vrátí hash kód pro tento objekt. |
+| [RemoveAt](../../aspose.slides/tabcollection/removeat)(int) | Odstraní prvek na zadaném indexu v kolekci. |
 
 ### Viz také
 

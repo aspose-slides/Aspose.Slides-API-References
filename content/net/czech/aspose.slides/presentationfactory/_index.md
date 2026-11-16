@@ -1,48 +1,48 @@
 ---
 title: PresentationFactory
-second_title: Aspose.Sildes pro .NET referenci API
-description: Umožňuje vytvořit prezentaci pomocí rozhraní COM
+second_title: Aspose.Sildes pro .NET API Reference
+description: Umožňuje vytvořit prezentaci prostřednictvím rozhraní COM
 type: docs
-weight: 9600
+weight: 9620
 url: /cs/aspose.slides/presentationfactory/
 ---
 ## PresentationFactory třída
 
-Umožňuje vytvořit prezentaci pomocí rozhraní COM
+Umožňuje vytvořit prezentaci prostřednictvím rozhraní COM
 
 ```csharp
 public class PresentationFactory : IPresentationFactory
 ```
 
-## Konstruktory
+## Constructory
 
-| Name | Description |
+| Název | Popis |
 | --- | --- |
 | [PresentationFactory](presentationfactory)() | Výchozí konstruktor. |
 
 ## Vlastnosti
 
-| Name | Description |
+| Název | Popis |
 | --- | --- |
 | static [Instance](../../aspose.slides/presentationfactory/instance) { get; } | Statická instance továrny na prezentace. Pouze pro čtení [`PresentationFactory`](../presentationfactory). |
 
 ## Metody
 
-| Name | Description |
+| Název | Popis |
 | --- | --- |
 | [CreatePresentation](../../aspose.slides/presentationfactory/createpresentation#createpresentation)() | Vytvoří novou prezentaci. |
-| [CreatePresentation](../../aspose.slides/presentationfactory/createpresentation#createpresentation_1)(ILoadOptions) | Vytvoří novou prezentaci s dalšími možnostmi načítání |
-| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo)(Stream) | Vytvoří nový objekt PresentationInfo ze streamu a naváže na něj prezentaci. Získá informace o prezentaci ve specifikovaném streamu. |
-| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo_1)(string) | Vytvoří nový objekt PresentationInfo ze souboru a naváže na něj prezentaci. |
-| [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext)(Stream, TextExtractionArrangingMode) | Získá surový text ze snímků |
-| [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext_2)(string, TextExtractionArrangingMode) | Získá surový text ze snímků |
-| [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext_1)(Stream, TextExtractionArrangingMode, ILoadOptions) | Získá surový text ze snímků |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation)(byte[]) | Načte existující prezentaci z pole |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_2)(Stream) | Načte existující prezentaci ze streamu |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_4)(string) | Načte existující prezentaci ze souboru |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_1)(byte[], ILoadOptions) | Načte existující prezentaci z pole s dalšími možnostmi načítání |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_3)(Stream, ILoadOptions) | Načte existující prezentaci ze streamu s dalšími možnostmi načítání |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_5)(string, ILoadOptions) | Načte existující prezentaci ze streamu s dalšími možnostmi načítání |
+| [CreatePresentation](../../aspose.slides/presentationfactory/createpresentation#createpresentation_1)(ILoadOptions) | Vytvoří novou prezentaci s dalšími možnostmi načítání. |
+| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo)(Stream) | Vytvoří nový objekt PresentationInfo ze streamu a spojí prezentaci s ním. Získá informace o prezentaci ve specifikovaném streamu. |
+| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo_1)(string) | Vytvoří nový objekt PresentationInfo ze souboru a spojí prezentaci s ním. |
+| [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext)(Stream, TextExtractionArrangingMode) | Získá nespracovaný text ze snímků. |
+| [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext_2)(string, TextExtractionArrangingMode) | Získá nespracovaný text ze snímků. |
+| [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext_1)(Stream, TextExtractionArrangingMode, ILoadOptions) | Získá nespracovaný text ze snímků. |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation)(byte[]) | Načte existující prezentaci z pole. |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_2)(Stream) | Načte existující prezentaci ze streamu. |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_4)(string) | Načte existující prezentaci ze souboru. |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_1)(byte[], ILoadOptions) | Načte existující prezentaci z pole s dalšími možnostmi načítání. |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_3)(Stream, ILoadOptions) | Načte existující prezentaci ze streamu s dalšími možnostmi načítání. |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_5)(string, ILoadOptions) | Načte existující prezentaci ze streamu s dalšími možnostmi načítání. |
 
 ### Příklady
 
@@ -84,6 +84,6 @@ info.UpdateDocumentProperties(props);
 
 * rozhraní [IPresentationFactory](../ipresentationfactory)
 * jmenný prostor [Aspose.Slides](../../aspose.slides)
-* sestavení [Aspose.Slides](../../)
+* sestava [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

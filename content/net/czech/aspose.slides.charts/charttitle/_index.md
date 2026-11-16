@@ -1,14 +1,14 @@
 ---
 title: ChartTitle
 second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje vlastnosti titulku grafu.
+description: Representuje vlastnosti nadpisu grafu.
 type: docs
-weight: 1490
+weight: 1500
 url: /cs/aspose.slides.charts/charttitle/
 ---
-## ChartTitle třída
+## Třída ChartTitle
 
-Represents chart title properties.
+Representuje vlastnosti nadpisu grafu.
 
 ```csharp
 public class ChartTitle : IChartTitle
@@ -18,32 +18,32 @@ public class ChartTitle : IChartTitle
 
 | Název | Popis |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/charttitle/actualheight) { get; } | Určuje skutečnou výšku prvku grafu. Zavolejte metodu IChart.ValidateChartLayout() před tím, abyste získali skutečné hodnoty. Pouze pro čtení Single. |
-| [ActualWidth](../../aspose.slides.charts/charttitle/actualwidth) { get; } | Určuje skutečnou šířku prvku grafu. Zavolejte metodu IChart.ValidateChartLayout() před tím, abyste získali skutečné hodnoty. Pouze pro čtení Single. |
-| [ActualX](../../aspose.slides.charts/charttitle/actualx) { get; } | Určuje skutečnou souřadnici x (levá) prvku grafu vzhledem k levému hornímu rohu grafu. Zavolejte metodu IChart.ValidateChartLayout() před tím, abyste získali skutečné hodnoty. Pouze pro čtení Single. |
-| [ActualY](../../aspose.slides.charts/charttitle/actualy) { get; } | Určuje skutečnou horní polohu prvku grafu vzhledem k levému hornímu rohu grafu. Zavolejte metodu IChart.ValidateChartLayout() před tím, abyste získali skutečné hodnoty. Pouze pro čtení Single. |
-| [Bottom](../../aspose.slides.charts/charttitle/bottom) { get; } | Spodní. Pouze pro čtení Single. |
+| [ActualHeight](../../aspose.slides.charts/charttitle/actualheight) { get; } | Určuje aktuální výšku prvku grafu. Před získáním skutečných hodnot zavolejte metodu IChart.ValidateChartLayout(). Pouze čtení Single. |
+| [ActualWidth](../../aspose.slides.charts/charttitle/actualwidth) { get; } | Určuje aktuální šířku prvku grafu. Před získáním skutečných hodnot zavolejte metodu IChart.ValidateChartLayout(). Pouze čtení Single. |
+| [ActualX](../../aspose.slides.charts/charttitle/actualx) { get; } | Určuje aktuální souřadnici x (vlevo) prvku grafu vzhledem k levému hornímu rohu grafu. Před získáním skutečných hodnot zavolejte metodu IChart.ValidateChartLayout(). Pouze čtení Single. |
+| [ActualY](../../aspose.slides.charts/charttitle/actualy) { get; } | Určuje aktuální souřadnici y (nahoře) prvku grafu vzhledem k levému hornímu rohu grafu. Před získáním skutečných hodnot zavolejte metodu IChart.ValidateChartLayout(). Pouze čtení Single. |
+| [Bottom](../../aspose.slides.charts/charttitle/bottom) { get; } | Dno. Pouze pro čtení Single. |
 | [Chart](../../aspose.slides.charts/charttitle/chart) { get; } | Vrací nadřazený graf. Pouze pro čtení [`IChart`](../ichart). |
-| [Format](../../aspose.slides.charts/charttitle/format) { get; } | Vrací výplň, čáru, efektní styly titulku. Pouze pro čtení [`IFormat`](../iformat). |
-| [Height](../../aspose.slides.charts/charttitle/height) { get; set; } | Vrací nebo nastavuje výšku titulku jako zlomek výšky grafu. Čtení/zápis Single. |
-| [Overlay](../../aspose.slides.charts/charttitle/overlay) { get; set; } | Určuje, zda ostatní prvky grafu mohou překrývat titulek. Čtení/zápis Boolean. |
-| [Right](../../aspose.slides.charts/charttitle/right) { get; } | Pravý. Pouze pro čtení Single. |
+| [Format](../../aspose.slides.charts/charttitle/format) { get; } | Vrací výplň, čáru a efekty nadpisu. Pouze pro čtení [`IFormat`](../iformat). |
+| [Height](../../aspose.slides.charts/charttitle/height) { get; set; } | Vrací nebo nastavuje výšku nadpisu jako zlomek výšky grafu. Čtení/zápis Single. |
+| [Overlay](../../aspose.slides.charts/charttitle/overlay) { get; set; } | Určuje, zda ostatní prvky grafu mohou překrývat nadpis. Čtení/zápis Boolean. |
+| [Right](../../aspose.slides.charts/charttitle/right) { get; } | Vpravo. Pouze pro čtení Single. |
 | [TextFormat](../../aspose.slides.charts/charttitle/textformat) { get; } | Vrací formát textu. Pouze pro čtení [`IChartTextFormat`](../icharttextformat). |
-| [TextFrameForOverriding](../../aspose.slides.charts/charttitle/textframeforoverriding) { get; } | Může obsahovat formátovaný bohatý text. Pokud tato vlastnost není null, pak tato hodnota formátovaného textu přepíše automaticky generovaný text. Automaticky generovaný text je implicitní vlastnost popisku dat, popisku jednotky zobrazení hodnotové osy, názvu osy, názvu grafu, popisku trendové čáry. Automaticky generovaný text je formátován pomocí vlastnosti IFormattedTextContainer.TextFormat. Pouze pro čtení [`ITextFrame`](../../aspose.slides/itextframe). |
-| [Width](../../aspose.slides.charts/charttitle/width) { get; set; } | Vrací nebo nastavuje šířku titulku jako zlomek šířky grafu. Čtení/zápis Single. |
-| [X](../../aspose.slides.charts/charttitle/x) { get; set; } | Vrací nebo nastavuje souřadnici x titulku jako zlomek šířky grafu. Čtení/zápis Single. |
-| [Y](../../aspose.slides.charts/charttitle/y) { get; set; } | Vrací nebo nastavuje souřadnici y titulku jako zlomek výšky grafu. Čtení/zápis Single. |
+| [TextFrameForOverriding](../../aspose.slides.charts/charttitle/textframeforoverriding) { get; } | Může obsahovat bohatě formátovaný text. Pokud není tato vlastnost null, pak tato formátovaná hodnota přepíše automaticky generovaný text. Automaticky generovaný text je implicitní vlastnost datové značky, popisku jednotky zobrazení hodnotové osy, názvu osy, nadpisu grafu, popisku regresní čáry. Automaticky generovaný text je formátován pomocí vlastnosti IFormattedTextContainer.TextFormat. Pouze pro čtení [`ITextFrame`](../../aspose.slides/itextframe). |
+| [Width](../../aspose.slides.charts/charttitle/width) { get; set; } | Vrací nebo nastavuje šířku nadpisu jako zlomek šířky grafu. Čtení/zápis Single. |
+| [X](../../aspose.slides.charts/charttitle/x) { get; set; } | Vrací nebo nastavuje souřadnici x nadpisu jako zlomek šířky grafu. Čtení/zápis Single. |
+| [Y](../../aspose.slides.charts/charttitle/y) { get; set; } | Vrací nebo nastavuje souřadnici y nadpisu jako zlomek výšky grafu. Čtení/zápis Single. |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| [AddTextFrameForOverriding](../../aspose.slides.charts/charttitle/addtextframeforoverriding)(string) | Inicializuje TextFrameForOverriding textem v parametru "text". Pokud je TextFrameForOverriding již inicializováno, jednoduše změní jeho text. |
+| [AddTextFrameForOverriding](../../aspose.slides.charts/charttitle/addtextframeforoverriding)(string) | Inicializuje TextFrameForOverriding textem z parametru "text". Pokud je TextFrameForOverriding již inicializován, jednoduše změní jeho text. |
 
 ### Viz také
 
 * rozhraní [IChartTitle](../icharttitle)
 * jmenný prostor [Aspose.Slides.Charts](../../aspose.slides.charts)
-* assemblie [Aspose.Slides](../../)
+* sestava [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

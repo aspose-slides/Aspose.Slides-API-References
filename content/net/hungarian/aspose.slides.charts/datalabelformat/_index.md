@@ -1,14 +1,14 @@
 ---
 title: DataLabelFormat
-second_title: Aspose.Sildes .NET API-referencia
-description: A DataLabel formázási beállításait képviseli.
+second_title: Aspose.Sildes .NET API Referencia
+description: A DataLabel formázási beállításait reprezentálja.
 type: docs
-weight: 1570
+weight: 1580
 url: /hu/aspose.slides.charts/datalabelformat/
 ---
-## DataLabelFormat osztály
+# DataLabelFormat osztály
 
-A DataLabel formázási beállításait képviseli.
+A DataLabel formázási beállításait reprezentálja.
 
 ```csharp
 public sealed class DataLabelFormat : PVIObject, IDataLabelFormat
@@ -18,25 +18,25 @@ public sealed class DataLabelFormat : PVIObject, IDataLabelFormat
 
 | Név | Leírás |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Lehetővé teszi az IPresentationComponent alap interfész elérését. Csak olvasható [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Lehetővé teszi a bázis IPresentationComponent interfész lekérdezését. Csak olvasható [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 | [Chart](../../aspose.slides.charts/datalabelformat/chart) { get; } | Visszaadja a diagramot. Csak olvasható [`IChart`](../ichart). |
 | [Format](../../aspose.slides.charts/datalabelformat/format) { get; } | A data label formátumát képviseli. Csak olvasható [`IFormat`](../iformat). |
 | [IsNumberFormatLinkedToSource](../../aspose.slides.charts/datalabelformat/isnumberformatlinkedtosource) { get; set; } | Olvasás/írás Boolean. |
 | [NumberFormat](../../aspose.slides.charts/datalabelformat/numberformat) { get; set; } | A DataLabels objektum formátumkarakterláncát képviseli. Olvasás/írás String. |
-| [Position](../../aspose.slides.charts/datalabelformat/position) { get; set; } | A data label helyzetét képviseli. Olvasás/írás [`LegendDataLabelPosition`](../legenddatalabelposition). |
-| [Separator](../../aspose.slides.charts/datalabelformat/separator) { get; set; } | Beállít vagy visszaad egy Variant értéket, amely a diagramon a data label-ek elválasztóját jelöli. Olvasás/írás String. |
-| [ShowBubbleSize](../../aspose.slides.charts/datalabelformat/showbubblesize) { get; set; } | Egy adott diagram data label buborékméret érték megjelenítésének viselkedését képviseli. Igaz esetén a buborékméret értéke megjelenik. Hamis esetén rejtett. Olvasás/írás Boolean. |
-| [ShowCategoryName](../../aspose.slides.charts/datalabelformat/showcategoryname) { get; set; } | Egy adott diagram data label kategórianév megjelenítésének viselkedését képviseli. Igaz esetén a kategórianév megjelenik a diagram data label-jeiben. Hamis esetén rejtett. Olvasás/írás Boolean. |
-| [ShowLabelAsDataCallout](../../aspose.slides.charts/datalabelformat/showlabelasdatacallout) { get; set; } | Meghatározza, hogy egy adott diagram data label-je adat hívásként vagy adat címkeként jelenik-e meg. Ha ennek a DataLabelFormat objektumnak a szülője egy DataLabelCollection adatcímke-gyűjtemény, akkor ez a tulajdonság a DataLabelCollection gyűjteményben új adatcímkék ShowLabelAsDataCallout tulajdonságának alapértelmezett értékét adja meg vagy állítja be. A tulajdonság értékének beállítása ugyanakkor ezt az értéket a DataLabelCollection gyűjteményben lévő összes adatcímke ShowLabelAsDataCallout tulajdonságára is alkalmazza (például "DataLabels.DefaultDataLabelFormat.ShowLabelAsDataCallout = val;" minden DataLabels[i].ShowLabelAsDataCallout értékét val-ra állítja). |
-| [ShowLabelValueFromCell](../../aspose.slides.charts/datalabelformat/showlabelvaluefromcell) { get; set; } | Egy adott diagram data label cell érték megjelenítésének viselkedését képviseli. Igaz esetén a cellaérték megjelenik. Hamis esetén rejtett. Olvasás/írás Boolean. |
-| [ShowLeaderLines](../../aspose.slides.charts/datalabelformat/showleaderlines) { get; set; } | Egy adott diagram data label vezetővonalainak megjelenítésének viselkedését képviseli. Igaz esetén a vezetővonalak megjelennek. Hamis esetén rejtett. Olvasás/írás Boolean. |
-| [ShowLegendKey](../../aspose.slides.charts/datalabelformat/showlegendkey) { get; set; } | Egy adott diagram data label legend kulcs megjelenítésének viselkedését képviseli. Igaz, ha a legend kulcs látható. Olvasás/írás Boolean. |
-| [ShowPercentage](../../aspose.slides.charts/datalabelformat/showpercentage) { get; set; } | Egy adott diagram data label százalékos érték megjelenítésének viselkedését képviseli. Igaz esetén a százalékos érték megjelenik. Hamis esetén rejtett. Olvasás/írás Boolean. |
-| [ShowSeriesName](../../aspose.slides.charts/datalabelformat/showseriesname) { get; set; } | Visszaad vagy beállít egy Boolean értéket, amely a diagram data label-jeinek sorozatnév megjelenítésének viselkedését jelzi. Igaz esetén a sorozatnév megjelenik. Hamis esetén rejtett. Olvasás/írás Boolean. |
-| [ShowValue](../../aspose.slides.charts/datalabelformat/showvalue) { get; set; } | Egy adott diagram data label százalékos érték megjelenítésének viselkedését képviseli. Igaz esetén a százalékos érték megjelenik. Hamis esetén rejtett. Olvasás/írás Boolean. |
+| [Position](../../aspose.slides.charts/datalabelformat/position) { get; set; } | A data label pozícióját képviseli. Olvasás/írás [`LegendDataLabelPosition`](../legenddatalabelposition). |
+| [Separator](../../aspose.slides.charts/datalabelformat/separator) { get; set; } | Beállítja vagy adja vissza a diagramon a data label-ek elválasztóját képviselő Variant értéket. Olvasás/írás String. |
+| [ShowBubbleSize](../../aspose.slides.charts/datalabelformat/showbubblesize) { get; set; } | Meghatározza, hogy egy adott diagram adatcímkéjének buborékméret-értéke megjelenjen-e. True megjeleníti a buborékméret-értéket, False elrejti. Olvasás/írás Boolean. |
+| [ShowCategoryName](../../aspose.slides.charts/datalabelformat/showcategoryname) { get; set; } | Meghatározza, hogy egy adott diagram adatcímkéjének kategórianév legyen-e látható. True megjeleníti a kategórianév, False elrejti. Olvasás/írás Boolean. |
+| [ShowLabelAsDataCallout](../../aspose.slides.charts/datalabelformat/showlabelasdatacallout) { get; set; } | Meghatározza, hogy a megadott diagram adatcímkéje adatfelhívásként vagy adatcímkeként jelenik meg. Ha ennek a DataLabelFormat objektumnak a szülője egy DataLabelCollection adatcímke-gyűjtemény, akkor ez a tulajdonság a ShowLabelAsDataCallout tulajdonság alapértelmezett értékét adja vagy állítja be az új adatcímkékhez a DataLabelCollection gyűjteményben. Ennek a tulajdonságnak az értékével történő beállítás ugyanazt az értéket állítja be a ShowLabelAsDataCallout tulajdonságnak minden adatcímkére a DataLabelCollection gyűjteményben (pl. "DataLabels.DefaultDataLabelFormat.ShowLabelAsDataCallout = val;" mindegyik DataLabels[i].ShowLabelAsDataCallout értéke ekkor val lesz). |
+| [ShowLabelValueFromCell](../../aspose.slides.charts/datalabelformat/showlabelvaluefromcell) { get; set; } | Meghatározza, hogy egy adott diagram adatcímkéjének cellaértéke megjelenjen-e. True megjeleníti a cellaértéket, False elrejti. Olvasás/írás Boolean. |
+| [ShowLeaderLines](../../aspose.slides.charts/datalabelformat/showleaderlines) { get; set; } | Meghatározza, hogy egy adott diagram adatcímkéjének vezető vonalai megjelenjenek-e. True megjeleníti a vezető vonalakat, False elrejti. Olvasás/írás Boolean. |
+| [ShowLegendKey](../../aspose.slides.charts/datalabelformat/showlegendkey) { get; set; } | Meghatározza, hogy egy adott diagram adatcímkéjének jelmagyarázat-ikona látható-e. True, ha a jelmagyarázat-ikona látható. Olvasás/írás Boolean. |
+| [ShowPercentage](../../aspose.slides.charts/datalabelformat/showpercentage) { get; set; } | Meghatározza, hogy egy adott diagram adatcímkéjének százalékértéke megjelenjen-e. True megjeleníti a százalékértéket, False elrejti. Olvasás/írás Boolean. |
+| [ShowSeriesName](../../aspose.slides.charts/datalabelformat/showseriesname) { get; set; } | Visszaadja vagy állítja be, hogy a diagramon a sorozat neve megjelenjen-e a data label-eknél. True megjeleníti a sorozat nevét, False elrejti. Olvasás/írás Boolean. |
+| [ShowValue](../../aspose.slides.charts/datalabelformat/showvalue) { get; set; } | Meghatározza, hogy egy adott diagram adatcímkéjének százalékértéke megjelenjen-e. True megjeleníti a százalékértéket, False elrejti. Olvasás/írás Boolean. |
 | [TextFormat](../../aspose.slides.charts/datalabelformat/textformat) { get; } | Visszaadja a diagram szövegformátumát. Csak olvasható [`IChartTextFormat`](../icharttextformat). |
 
-## Metódusok
+## Módszerek
 
 | Név | Leírás |
 | --- | --- |
@@ -48,6 +48,6 @@ public sealed class DataLabelFormat : PVIObject, IDataLabelFormat
 * osztály [PVIObject](../../aspose.slides/pviobject)
 * interfész [IDataLabelFormat](../idatalabelformat)
 * névtér [Aspose.Slides.Charts](../../aspose.slides.charts)
-* összeszerelés [Aspose.Slides](../../)
+* összeállítás [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

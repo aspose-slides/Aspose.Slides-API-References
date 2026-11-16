@@ -1,14 +1,14 @@
 ---
 title: VbaModule
-second_title: Aspose.Sildes for .NET API 参考
-description: 表示 VBA 项目中包含的模块。
+second_title: Aspose.Sildes .NET API 参考
+description: 表示包含在 VBA 项目中的模块。
 type: docs
-weight: 11630
+weight: 11650
 url: /zh/aspose.slides.vba/vbamodule/
 ---
 ## VbaModule 类
 
-表示 VBA 项目中包含的模块。
+表示包含在 VBA 项目中的模块。
 
 ```csharp
 public sealed class VbaModule : IVbaModule
@@ -21,7 +21,7 @@ public sealed class VbaModule : IVbaModule
 | [Name](../../aspose.slides.vba/vbamodule/name) { get; } | 获取模块的名称。只读 String。 |
 | [SourceCode](../../aspose.slides.vba/vbamodule/sourcecode) { get; set; } | 返回或设置模块的源代码。读/写 String。 |
 
-### 另见
+### 参见
 
 * 接口 [IVbaModule](../ivbamodule)
 * 命名空间 [Aspose.Slides.Vba](../../aspose.slides.vba)

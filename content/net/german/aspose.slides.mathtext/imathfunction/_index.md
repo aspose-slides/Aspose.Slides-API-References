@@ -1,14 +1,14 @@
 ---
 title: IMathFunction
 second_title: Aspose.Sildes für .NET API Referenz
-description: Beschreibt eine Funktion eines Arguments.
+description: Gibt eine Funktion eines Arguments an.
 type: docs
-weight: 8270
+weight: 8290
 url: /de/aspose.slides.mathtext/imathfunction/
 ---
 ## IMathFunction Schnittstelle
 
-Beschreibt eine Funktion eines Arguments.
+Gibt eine Funktion eines Arguments an.
 
 ```csharp
 public interface IMathFunction : IMathElement
@@ -18,7 +18,7 @@ public interface IMathFunction : IMathElement
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathfunction/asimathelement) { get; } | Ermöglicht das Abrufen der Basis IMathElement Schnittstelle [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathfunction/asimathelement) { get; } | Ermöglicht das Abrufen der Basis-IMathElement-Schnittstelle [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathfunction/base) { get; } | Funktionsargument |
 | [Name](../../aspose.slides.mathtext/imathfunction/name) { get; } | Funktionsname. Zum Beispiel sind Funktionsnamen sin und cos |
 

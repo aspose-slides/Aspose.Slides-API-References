@@ -1,14 +1,14 @@
 ---
 title: IAutoShapeLock
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 親 AutoshapeEx で無効化されている操作を決定します。
+description: 親 AutoshapeEx 上で無効化されている操作を決定します。
 type: docs
-weight: 5250
+weight: 5270
 url: /ja/aspose.slides/iautoshapelock/
 ---
 ## IAutoShapeLock インターフェイス
 
-親 AutoshapeEx において無効化されている操作を決定します。
+親 AutoshapeEx 上で無効化されている操作を決定します。
 
 ```csharp
 public interface IAutoShapeLock : IBaseShapeLock
@@ -18,18 +18,18 @@ public interface IAutoShapeLock : IBaseShapeLock
 
 | 名前 | 説明 |
 | --- | --- |
-| [AdjustHandlesLocked](../../aspose.slides/iautoshapelock/adjusthandleslocked) { get; set; } | 調整値の変更が禁止されているかどうかを決定します。読み書き可能な Boolean。 |
-| [ArrowheadsLocked](../../aspose.slides/iautoshapelock/arrowheadslocked) { get; set; } | 矢印ヘッドの変更が禁止されているかどうかを決定します。読み書き可能な Boolean。 |
-| [AsIBaseShapeLock](../../aspose.slides/iautoshapelock/asibaseshapelock) { get; } | 基本 IBaseShapeLock インターフェイスの取得を許可します。読み取り専用 [`IBaseShapeLock`](../ibaseshapelock)。 |
-| [AspectRatioLocked](../../aspose.slides/iautoshapelock/aspectratiolocked) { get; set; } | リサイズ時に形状がアスペクト比を保持する必要があるかどうかを決定します。読み書き可能な Boolean。 |
-| [EditPointsLocked](../../aspose.slides/iautoshapelock/editpointslocked) { get; set; } | この形状の輪郭の直接変更が禁止されているかどうかを決定します。読み書き可能な Boolean。 |
-| [GroupingLocked](../../aspose.slides/iautoshapelock/groupinglocked) { get; set; } | この形状をグループに追加することが禁止されているかどうかを決定します。読み書き可能な Boolean。 |
-| [PositionLocked](../../aspose.slides/iautoshapelock/positionlocked) { get; set; } | この形状の移動が禁止されているかどうかを決定します。読み書き可能な Boolean。 |
-| [RotateLocked](../../aspose.slides/iautoshapelock/rotatelocked) { get; set; } | この形状の回転角度の変更が禁止されているかどうかを決定します。読み書き可能な Boolean。 |
-| [SelectLocked](../../aspose.slides/iautoshapelock/selectlocked) { get; set; } | この形状の選択が禁止されているかどうかを決定します。読み書き可能な Boolean。 |
-| [ShapeTypeLocked](../../aspose.slides/iautoshapelock/shapetypelocked) { get; set; } | 形状タイプの変更が禁止されているかどうかを決定します。読み書き可能な Boolean。 |
-| [SizeLocked](../../aspose.slides/iautoshapelock/sizelocked) { get; set; } | この形状のサイズ変更が禁止されているかどうかを決定します。読み書き可能な Boolean。 |
-| [TextLocked](../../aspose.slides/iautoshapelock/textlocked) { get; set; } | テキストの編集が禁止されているかどうかを決定します。読み書き可能な Boolean。 |
+| [AdjustHandlesLocked](../../aspose.slides/iautoshapelock/adjusthandleslocked) { get; set; } | 調整値の変更が禁止されているかどうかを決定します。読み書き可能 Boolean。 |
+| [ArrowheadsLocked](../../aspose.slides/iautoshapelock/arrowheadslocked) { get; set; } | 矢印ヘッドの変更が禁止されているかどうかを決定します。読み書き可能 Boolean。 |
+| [AsIBaseShapeLock](../../aspose.slides/iautoshapelock/asibaseshapelock) { get; } | 基本の IBaseShapeLock インターフェイスを取得できるようにします。読み取り専用 [`IBaseShapeLock`](../ibaseshapelock)。 |
+| [AspectRatioLocked](../../aspose.slides/iautoshapelock/aspectratiolocked) { get; set; } | サイズ変更時に形状がアスペクト比を保持する必要があるかどうかを決定します。読み書き可能 Boolean。 |
+| [EditPointsLocked](../../aspose.slides/iautoshapelock/editpointslocked) { get; set; } | この形状の輪郭の直接変更が禁止されているかどうかを決定します。読み書き可能 Boolean。 |
+| [GroupingLocked](../../aspose.slides/iautoshapelock/groupinglocked) { get; set; } | この形状をグループに追加することが禁止されているかどうかを決定します。読み書き可能 Boolean。 |
+| [PositionLocked](../../aspose.slides/iautoshapelock/positionlocked) { get; set; } | この形状の移動が禁止されているかどうかを決定します。読み書き可能 Boolean。 |
+| [RotateLocked](../../aspose.slides/iautoshapelock/rotatelocked) { get; set; } | この形状の回転角の変更が禁止されているかどうかを決定します。読み書き可能 Boolean。 |
+| [SelectLocked](../../aspose.slides/iautoshapelock/selectlocked) { get; set; } | この形状の選択が禁止されているかどうかを決定します。読み書き可能 Boolean。 |
+| [ShapeTypeLocked](../../aspose.slides/iautoshapelock/shapetypelocked) { get; set; } | 形状タイプの変更が禁止されているかどうかを決定します。読み書き可能 Boolean。 |
+| [SizeLocked](../../aspose.slides/iautoshapelock/sizelocked) { get; set; } | この形状のサイズ変更が禁止されているかどうかを決定します。読み書き可能 Boolean。 |
+| [TextLocked](../../aspose.slides/iautoshapelock/textlocked) { get; set; } | テキストの編集が禁止されているかどうかを決定します。読み書き可能 Boolean。 |
 
 ### 参照
 

@@ -3,7 +3,7 @@ title: IAutoShape
 second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Représente une AutoShape.
 type: docs
-weight: 5240
+weight: 5260
 url: /fr/aspose.slides/iautoshape/
 ---
 ## IAutoShape interface
@@ -18,20 +18,20 @@ public interface IAutoShape : IGeometryShape
 
 | Nom | Description |
 | --- | --- |
-| [AsIGeometryShape](../../aspose.slides/iautoshape/asigeometryshape) { get; } | Permet d'obtenir l'interface de base IGeometryShape. Lecture seule [`IGeometryShape`](../igeometryshape). |
+| [AsIGeometryShape](../../aspose.slides/iautoshape/asigeometryshape) { get; } | Permet d'obtenir l'interface IGeometryShape de base. Lecture seule [`IGeometryShape`](../igeometryshape). |
 | [AutoShapeLock](../../aspose.slides/iautoshape/autoshapelock) { get; } | Renvoie les verrous de l'AutoShape. Lecture seule [`IAutoShapeLock`](../iautoshapelock). |
 | [IsTextBox](../../aspose.slides/iautoshape/istextbox) { get; } | Spécifie si la forme est une zone de texte. |
 | [ShapeLock](../../aspose.slides/iautoshape/shapelock) { get; } | Renvoie les verrous de la forme. Lecture seule [`IAutoShapeLock`](../iautoshapelock). |
 | [TextFrame](../../aspose.slides/iautoshape/textframe) { get; } | Renvoie l'objet TextFrame pour l'AutoShape. Lecture seule [`ITextFrame`](../itextframe). |
-| [UseBackgroundFill](../../aspose.slides/iautoshape/usebackgroundfill) { get; set; } | Détermine si cette autoshape doit être remplie avec le remplissage d'arrière-plan de la diapositive au lieu de celui spécifié par le style ou le format de remplissage. Lecture/écriture Boolean. |
+| [UseBackgroundFill](../../aspose.slides/iautoshape/usebackgroundfill) { get; set; } | Détermine si cet autoshape doit être rempli avec le remplissage d'arrière-plan de la diapositive plutôt que celui spécifié par le style ou le format de remplissage. Lecture/écriture Boolean. |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
-| [AddTextFrame](../../aspose.slides/iautoshape/addtextframe)(string) | Ajoute un nouveau TextFrame à une forme. Si la forme possède déjà un TextFrame, il modifie simplement son texte. |
+| [AddTextFrame](../../aspose.slides/iautoshape/addtextframe)(string) | Ajoute un nouveau TextFrame à une forme. Si la forme possède déjà un TextFrame, il change simplement son texte. |
 
-### Voir également
+### Voir aussi
 
 * interface [IGeometryShape](../igeometryshape)
 * espace de noms [Aspose.Slides](../../aspose.slides)

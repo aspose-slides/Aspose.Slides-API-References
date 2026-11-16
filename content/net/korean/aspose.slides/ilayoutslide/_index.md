@@ -1,9 +1,9 @@
 ---
 title: ILayoutSlide
-second_title: Aspose.Sildes .NET용 API 참조
+second_title: Aspose.Sildes .NET API 레퍼런스
 description: 레이아웃 슬라이드를 나타냅니다.
 type: docs
-weight: 6220
+weight: 6240
 url: /ko/aspose.slides/ilayoutslide/
 ---
 ## ILayoutSlide 인터페이스
@@ -20,11 +20,11 @@ public interface ILayoutSlide : IBaseSlide, IOverrideThemeable
 | --- | --- |
 | [AsIBaseSlide](../../aspose.slides/ilayoutslide/asibaseslide) { get; } | 기본 IBaseSlide 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IBaseSlide`](../ibaseslide). |
 | [AsIOverrideThemeable](../../aspose.slides/ilayoutslide/asioverridethemeable) { get; } | IOverrideThemeable 인터페이스를 반환합니다. 읽기 전용 [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
-| [DrawingGuides](../../aspose.slides/ilayoutslide/drawingguides) { get; } | 레이아웃 슬라이드용 그리기 가이드 컬렉션을 반환합니다. 읽기 전용 [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [HasDependingSlides](../../aspose.slides/ilayoutslide/hasdependingslides) { get; } | 이 레이아웃 슬라이드에 종속되는 슬라이드가 하나 이상 존재하면 true를 반환합니다. 읽기 전용 Boolean. |
+| [DrawingGuides](../../aspose.slides/ilayoutslide/drawingguides) { get; } | 레이아웃 슬라이드에 대한 그리기 가이드 컬렉션을 반환합니다. 읽기 전용 [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [HasDependingSlides](../../aspose.slides/ilayoutslide/hasdependingslides) { get; } | 이 레이아웃 슬라이드에 종속되는 슬라이드가 하나라도 존재하면 true를 반환합니다. 읽기 전용 Boolean. |
 | [HeaderFooterManager](../../aspose.slides/ilayoutslide/headerfootermanager) { get; } | 레이아웃 슬라이드의 HeaderFooter 관리자를 반환합니다. 읽기 전용 [`ILayoutSlideHeaderFooterManager`](../ilayoutslideheaderfootermanager). |
 | [LayoutType](../../aspose.slides/ilayoutslide/layouttype) { get; } | 이 레이아웃 슬라이드의 레이아웃 유형을 반환합니다. 읽기 전용 [`SlideLayoutType`](../slidelayouttype). |
-| [MasterSlide](../../aspose.slides/ilayoutslide/masterslide) { get; set; } | 레이아웃의 마스터 슬라이드를 반환하거나 설정합니다. 읽기/쓰기 [`IMasterSlide`](../imasterslide). |
+| [MasterSlide](../../aspose.slides/ilayoutslide/masterslide) { get; set; } | 레이아웃에 대한 마스터 슬라이드를 반환하거나 설정합니다. 읽기/쓰기 [`IMasterSlide`](../imasterslide). |
 | [PlaceholderManager](../../aspose.slides/ilayoutslide/placeholdermanager) { get; } | 레이아웃 슬라이드의 플레이스홀더 관리자를 반환합니다. 읽기 전용 [`ILayoutPlaceholderManager`](../ilayoutplaceholdermanager). |
 
 ## 메서드

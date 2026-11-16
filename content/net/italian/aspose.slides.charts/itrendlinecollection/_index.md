@@ -1,9 +1,9 @@
 ---
 title: ITrendlineCollection
-second_title: Aspose.Sildes per .NET API Reference
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta una raccolta di TrendlineEx
 type: docs
-weight: 2250
+weight: 2270
 url: /it/aspose.slides.charts/itrendlinecollection/
 ---
 ## ITrendlineCollection interfaccia
@@ -18,7 +18,7 @@ public interface ITrendlineCollection : IEnumerable<ITrendline>
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.charts/itrendlinecollection/asienumerable) { get; } | Consente di ottenere l'interfaccia di base IEnumerable. IEnumerable di sola lettura. |
+| [AsIEnumerable](../../aspose.slides.charts/itrendlinecollection/asienumerable) { get; } | Permette di ottenere l'interfaccia base IEnumerable. IEnumerable di sola lettura. |
 | [Count](../../aspose.slides.charts/itrendlinecollection/count) { get; } | Restituisce il numero di elementi effettivamente contenuti nella raccolta. Int32 di sola lettura. |
 | [Item](../../aspose.slides.charts/itrendlinecollection/item) { get; } | Restituisce l'elemento all'indice specificato. [`ITrendline`](../itrendline) di sola lettura. |
 

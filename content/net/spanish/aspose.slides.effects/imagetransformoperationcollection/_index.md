@@ -3,7 +3,7 @@ title: ImageTransformOperationCollection
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa una colección de efectos aplicados a una imagen.
 type: docs
-weight: 3580
+weight: 3600
 url: /es/aspose.slides.effects/imagetransformoperationcollection/
 ---
 ## ImageTransformOperationCollection clase
@@ -49,11 +49,11 @@ public sealed class ImageTransformOperationCollection : PVIObject,
 | [AddTintEffect](../../aspose.slides.effects/imagetransformoperationcollection/addtinteffect)(float, float) | Agrega el nuevo efecto Tint al final de una colección. |
 | [Clear](../../aspose.slides.effects/imagetransformoperationcollection/clear)() | Elimina todos los efectos de imagen de una colección. |
 | [Contains](../../aspose.slides.effects/imagetransformoperationcollection/contains)(IImageTransformOperation) | Determina si la ICollection contiene un valor específico. |
-| [CopyTo](../../aspose.slides.effects/imagetransformoperationcollection/copyto)(IImageTransformOperation[], int) | Copia los elementos de la ICollection a un Array, comenzando en un índice de Array específico. |
+| [CopyTo](../../aspose.slides.effects/imagetransformoperationcollection/copyto)(IImageTransformOperation[], int) | Copia los elementos de la ICollection a un Array, comenzando en un índice particular del Array. |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Compara con el objeto especificado. |
-| [GetEnumerator](../../aspose.slides.effects/imagetransformoperationcollection/getenumerator)() | Devuelve un enumerador que recorre la colección. |
+| [GetEnumerator](../../aspose.slides.effects/imagetransformoperationcollection/getenumerator)() | Devuelve un enumerador que itera a través de la colección. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Devuelve el código hash. |
-| [Remove](../../aspose.slides.effects/imagetransformoperationcollection/remove)(IImageTransformOperation) | Elimina la primera ocurrencia de un objeto específico de la ICollection. |
+| [Remove](../../aspose.slides.effects/imagetransformoperationcollection/remove)(IImageTransformOperation) | Elimina la primera aparición de un objeto específico de la ICollection. |
 | [RemoveAt](../../aspose.slides.effects/imagetransformoperationcollection/removeat)(int) | Elimina un efecto de imagen de una colección en el índice especificado. |
 
 ### Ver también

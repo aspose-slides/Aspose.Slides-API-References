@@ -3,7 +3,7 @@ title: TextFrameFormat
 second_title: Aspose.Sildes for .NET API リファレンス
 description: TextFrames の formatTextFrameFormatting プロパティを含みます。
 type: docs
-weight: 10960
+weight: 10980
 url: /ja/aspose.slides/textframeformat/
 ---
 ## TextFrameFormat クラス
@@ -14,39 +14,39 @@ TextFrame の formatTextFrameFormatting プロパティを含みます。
 public sealed class TextFrameFormat : PVIObject, IChartTextBlockFormat, ITextFrameFormat
 ```
 
-## コンストラクター
+## コンストラクタ
 
 | 名前 | 説明 |
 | --- | --- |
-| [TextFrameFormat](textframeformat)() | [`TextFrameFormat`](../textframeformat) クラスの新しいインスタンスを初期化します。 |
+| [TextFrameFormat](textframeformat)() | 新しい [`TextFrameFormat`](../textframeformat) クラスのインスタンスを初期化します。 |
 
 ## プロパティ
 
 | 名前 | 説明 |
 | --- | --- |
 | [AnchoringType](../../aspose.slides/textframeformat/anchoringtype) { get; set; } | TextFrame の垂直アンカー テキストを取得または設定します。 読み書き [`TextAnchorType`](../textanchortype)。 |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | ベースの IPresentationComponent インターフェイスを取得できます。 読み取り専用 [`IPresentationComponent`](../ipresentationcomponent)。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 基本となる IPresentationComponent インターフェイスを取得できます。 読み取り専用 [`IPresentationComponent`](../ipresentationcomponent)。 |
 | [AutofitType](../../aspose.slides/textframeformat/autofittype) { get; set; } | テキストの自動調整モードを取得または設定します。 読み書き [`TextAutofitType`](../textautofittype)。 |
-| [CenterText](../../aspose.slides/textframeformat/centertext) { get; set; } | NullableBool.True の場合、テキストはボックス内で水平に中央揃えになります。 読み書き [`NullableBool`](../nullablebool)。 |
-| [ColumnCount](../../aspose.slides/textframeformat/columncount) { get; set; } | テキスト領域の列数を取得または設定します。この値は正の数でなければなりません。そうでない場合、値は 0 に設定されます。値 0 は未定義を意味します。 読み書き Int32。 |
-| [ColumnSpacing](../../aspose.slides/textframeformat/columnspacing) { get; set; } | テキスト領域の列間の間隔（ポイント単位）を取得または設定します。列が 1 つ以上ある場合にのみ適用されます。この値は正の数でなければなりません。そうでない場合、値は 0 に設定されます。 読み書き Double。 |
-| [KeepTextFlat](../../aspose.slides/textframeformat/keeptextflat) { get; set; } | 3-D 回転効果が適用されていてもテキストを平坦に保つかどうかを取得または設定します。 読み書き Boolean。 |
-| [MarginBottom](../../aspose.slides/textframeformat/marginbottom) { get; set; } | TextFrame の下部余白（ポイント）を取得または設定します。 読み書き Double。 |
+| [CenterText](../../aspose.slides/textframeformat/centertext) { get; set; } | NullableBool.True の場合、テキストは水平方向にボックスの中央に配置されます。 読み書き [`NullableBool`](../nullablebool)。 |
+| [ColumnCount](../../aspose.slides/textframeformat/columncount) { get; set; } | テキスト領域の列数を取得または設定します。この値は正の数である必要があります。そうでない場合、値は 0 に設定されます。0 は未定義の値を意味します。 読み書き Int32。 |
+| [ColumnSpacing](../../aspose.slides/textframeformat/columnspacing) { get; set; } | テキスト領域のテキスト列間の間隔（ポイント単位）を取得または設定します。これは 1 列以上ある場合にのみ適用されます。この値は正の数である必要があります。そうでない場合、値は 0 に設定されます。 読み書き Double。 |
+| [KeepTextFlat](../../aspose.slides/textframeformat/keeptextflat) { get; set; } | 3D 回転効果が適用されていてもテキストを平坦に保つかどうかを取得または設定します。 読み書き Boolean。 |
+| [MarginBottom](../../aspose.slides/textframeformat/marginbottom) { get; set; } | TextFrame の下余白（ポイント）を取得または設定します。 読み書き Double。 |
 | [MarginLeft](../../aspose.slides/textframeformat/marginleft) { get; set; } | TextFrame の左余白（ポイント）を取得または設定します。 読み書き Double。 |
 | [MarginRight](../../aspose.slides/textframeformat/marginright) { get; set; } | TextFrame の右余白（ポイント）を取得または設定します。 読み書き Double。 |
-| [MarginTop](../../aspose.slides/textframeformat/margintop) { get; set; } | TextFrame の上部余白（ポイント）を取得または設定します。 読み書き Double。 |
-| [RotationAngle](../../aspose.slides/textframeformat/rotationangle) { get; set; } | バウンディング ボックス内のテキストに適用されるカスタム回転を指定します。指定されていない場合、付随するシェイプの回転が使用されます。指定されている場合、シェイプとは独立して適用されます。つまり、シェイプに回転が適用されると同時に、テキスト自体にも回転が適用されます。このプロパティと TextVerticalType プロパティの事前定義された縦方向タイプから要約された視覚的テキスト回転の結果値です。 読み書き Single。 |
-| [TextVerticalType](../../aspose.slides/textframeformat/textverticaltype) { get; set; } | テキストの向きを決定します。このプロパティと RotationAngle プロパティのカスタム角度から要約された視覚的テキスト回転の結果値です。 読み書き [`TextVerticalType`](../textverticaltype)。 |
+| [MarginTop](../../aspose.slides/textframeformat/margintop) { get; set; } | TextFrame の上余白（ポイント）を取得または設定します。 読み書き Double。 |
+| [RotationAngle](../../aspose.slides/textframeformat/rotationangle) { get; set; } | バウンディングボックス内のテキストに適用されるカスタム回転を指定します。指定されていない場合は、付随するシェイプの回転が使用されます。指定された場合、シェイプとは独立して適用されます。つまり、シェイプに回転が適用されると同時に、テキスト自体にも回転が適用されます。このプロパティと TextVerticalType プロパティの事前定義された垂直タイプからまとめられた視覚的テキスト回転の結果値です。 読み書き Single。 |
+| [TextVerticalType](../../aspose.slides/textframeformat/textverticaltype) { get; set; } | テキストの向きを決定します。このプロパティと RotationAngle プロパティのカスタム角度からまとめられた視覚的テキスト回転の結果値です。 読み書き [`TextVerticalType`](../textverticaltype)。 |
 | [ThreeDFormat](../../aspose.slides/textframeformat/threedformat) { get; } | テキストの 3D 効果プロパティを表す ThreeDFormat オブジェクトを取得します。 読み取り専用 [`IThreeDFormat`](../ithreedformat)。 |
-| [Transform](../../aspose.slides/textframeformat/transform) { get; set; } | テキストラッピング シェイプを取得または設定します。 読み書き [`TextShapeType`](../textshapetype)。 |
-| [WrapText](../../aspose.slides/textframeformat/wraptext) { get; set; } | **True** if text is wrapped at TextFrame's margins. 読み書き [`NullableBool`](../nullablebool)。 |
+| [Transform](../../aspose.slides/textframeformat/transform) { get; set; } | テキストの折り返しシェイプを取得または設定します。 読み書き [`TextShapeType`](../textshapetype)。 |
+| [WrapText](../../aspose.slides/textframeformat/wraptext) { get; set; } | テキストが TextFrame の余白で折り返されている場合は **True**。 読み書き [`NullableBool`](../nullablebool)。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | 指定されたオブジェクトと比較します。 |
-| [GetEffective](../../aspose.slides/textframeformat/geteffective)() | 継承が適用された有効なテキストフレームの書式設定データを取得します。 |
+| [GetEffective](../../aspose.slides/textframeformat/geteffective)() | 継承が適用された有効なテキストフレームの書式データを取得します。 |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | ハッシュコードを返します。 |
 
 ### 参照

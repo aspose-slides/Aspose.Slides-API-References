@@ -1,14 +1,14 @@
 ---
 title: IBulletFormatEffectiveData
-second_title: Aspose.Sildes برای .NET مرجع API
-description: شیء غیرقابل تغییر که شامل ویژگی‌های فرمت‌بندهای مؤثر پاراگراف است.
+second_title: Aspose.Sildes برای مرجع API .NET
+description: شیء غیرقابل تغییر که شامل خصوصیات فرمت‌بندی گلوله‌ای پاراگراف مؤثر است.
 type: docs
-weight: 5400
+weight: 5420
 url: /fa/aspose.slides/ibulletformateffectivedata/
 ---
 ## IBulletFormatEffectiveData رابط
 
-شیء غیرقابل تغییر که شامل ویژگی‌های فرمت‌بندهای پاراگراف مؤثر است.
+شیء غیرقابل تغییر که شامل خصوصیات فرمت‌بندی گلوله‌ای پاراگراف مؤثر است.
 
 ```csharp
 public interface IBulletFormatEffectiveData
@@ -18,24 +18,24 @@ public interface IBulletFormatEffectiveData
 
 | نام | توضیح |
 | --- | --- |
-| [ActualBulletValue](../../aspose.slides/ibulletformateffectivedata/actualbulletvalue) { get; } | مقدار واقعی گلوله برای پاراگراف والد را بازمی‌گرداند. فقط خواندنی String. |
-| [Char](../../aspose.slides/ibulletformateffectivedata/char) { get; } | کاراکتر گلوله یک پاراگراف را بازمی‌گرداند. فقط خواندنی Char. |
-| [FillFormat](../../aspose.slides/ibulletformateffectivedata/fillformat) { get; } | قالب پرکنش گلوله یک پاراگراف را بازمی‌گرداند. فقط خواندنی [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
-| [Font](../../aspose.slides/ibulletformateffectivedata/font) { get; } | قلم گلوله یک پاراگراف را بازمی‌گرداند. فقط خواندنی [`IFontData`](../ifontdata). |
-| [Height](../../aspose.slides/ibulletformateffectivedata/height) { get; } | ارتفاع گلوله یک پاراگراف را بازمی‌گرداند. فقط خواندنی Single. |
-| [IsBulletHardColor](../../aspose.slides/ibulletformateffectivedata/isbullethardcolor) { get; } | تعیین می‌کند که آیا گلوله رنگ اختصاصی دارد یا از اولین بخش در پاراگراف به ارث می‌برد. **true** برگردانده می‌شود اگر گلوله رنگ اختصاصی داشته باشد و **false** اگر گلوله رنگ را از اولین بخش در پاراگراف به ارث ببرد. فقط خواندنی Boolean. |
-| [IsBulletHardFont](../../aspose.slides/ibulletformateffectivedata/isbullethardfont) { get; } | تعیین می‌کند که آیا گلوله قلم اختصاصی دارد یا از اولین بخش در پاراگراف به ارث می‌برد. **true** برگردانده می‌شود اگر گلوله قلم اختصاصی داشته باشد و **true** اگر گلوله قلم را از اولین بخش در پاراگراف به ارث ببرد. فقط خواندنی Boolean. |
-| [NumberedBulletStartWith](../../aspose.slides/ibulletformateffectivedata/numberedbulletstartwith) { get; } | اولین عددی که برای گروهی از گلوله‌های شماره‌دار استفاده می‌شود را بازمی‌گرداند. فقط خواندنی Int16. |
-| [NumberedBulletStyle](../../aspose.slides/ibulletformateffectivedata/numberedbulletstyle) { get; } | سبک یک گلوله شماره‌دار را بازمی‌گرداند. فقط خواندنی [`NumberedBulletStyle`](../numberedbulletstyle). |
-| [Type](../../aspose.slides/ibulletformateffectivedata/type) { get; } | نوع گلوله یک پاراگراف را بازمی‌گرداند. فقط خواندنی [`BulletType`](../bullettype). |
+| [ActualBulletValue](../../aspose.slides/ibulletformateffectivedata/actualbulletvalue) { get; } | مقدار واقعی گلوله برای پاراگراف والد را برمی‌گرداند. فقط خواندنی String. |
+| [Char](../../aspose.slides/ibulletformateffectivedata/char) { get; } | کاراکتر گلوله پاراگراف را برمی‌گرداند. فقط خواندنی Char. |
+| [FillFormat](../../aspose.slides/ibulletformateffectivedata/fillformat) { get; } | قالب پر کردن گلوله پاراگراف را برمی‌گرداند. فقط خواندنی [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
+| [Font](../../aspose.slides/ibulletformateffectivedata/font) { get; } | قلم گلوله پاراگراف را برمی‌گرداند. فقط خواندنی [`IFontData`](../ifontdata). |
+| [Height](../../aspose.slides/ibulletformateffectivedata/height) { get; } | ارتفاع گلوله پاراگراف را برمی‌گرداند. فقط خواندنی Single. |
+| [IsBulletHardColor](../../aspose.slides/ibulletformateffectivedata/isbullethardcolor) { get; } | تعیین می‌کند آیا گلوله رنگ مخصوص به خود دارد یا از اولین بخش پاراگراف ارث می‌گیرد. اگر گلوله رنگ مخصوص به خود داشته باشد **true** و اگر رنگ را از اولین بخش پاراگراف به ارث ببرد **false** برمی‌گرداند. فقط خواندنی Boolean. |
+| [IsBulletHardFont](../../aspose.slides/ibulletformateffectivedata/isbullethardfont) { get; } | تعیین می‌کند آیا گلوله قلم مخصوص به خود دارد یا از اولین بخش پاراگراف ارث می‌گیرد. اگر گلوله قلم مخصوص به خود داشته باشد **true** و اگر قلم را از اولین بخش پاراگراف به ارث ببرد **true** برمی‌گرداند. فقط خواندنی Boolean. |
+| [NumberedBulletStartWith](../../aspose.slides/ibulletformateffectivedata/numberedbulletstartwith) { get; } | اولین عددی که برای گروه گلوله‌های شماره‌دار استفاده می‌شود را برمی‌گرداند. فقط خواندنی Int16. |
+| [NumberedBulletStyle](../../aspose.slides/ibulletformateffectivedata/numberedbulletstyle) { get; } | سبک گلوله شماره‌دار را برمی‌گرداند. فقط خواندنی [`NumberedBulletStyle`](../numberedbulletstyle). |
+| [Type](../../aspose.slides/ibulletformateffectivedata/type) { get; } | نوع گلوله پاراگراف را برمی‌گرداند. فقط خواندنی [`BulletType`](../bullettype). |
 
 ### توضیحات
 
 این رابط به عنوان بخشی از [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata) استفاده می‌شود.
 
-### موارد مرتبط
+### مراجع
 
-* namespace [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* فضای‌نام [Aspose.Slides](../../aspose.slides)
+* مجمع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

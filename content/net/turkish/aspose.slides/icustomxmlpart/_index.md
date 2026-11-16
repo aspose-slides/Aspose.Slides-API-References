@@ -1,12 +1,12 @@
 ---
 title: ICustomXmlPart
-second_title: Aspose.Sildes .NET için API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Özel XML bölümünü temsil eder.
 type: docs
-weight: 5670
+weight: 5690
 url: /tr/aspose.slides/icustomxmlpart/
 ---
-## ICustomXmlPart arayüz
+## ICustomXmlPart arayüzü
 
 Özel XML bölümünü temsil eder.
 
@@ -18,8 +18,8 @@ public interface ICustomXmlPart
 
 | Ad | Açıklama |
 | --- | --- |
-| [ItemId](../../aspose.slides/icustomxmlpart/itemid) { get; set; } | Bir Office Open XML belgesi içinde tek bir özel XML bölümünü benzersiz şekilde tanımlayan küresel benzersiz bir tanımlayıcı (GUID) belirtir. Salt okunur Guid. |
-| [NamespaceSchemas](../../aspose.slides/icustomxmlpart/namespaceschemas) { get; } | Özel XML bölümüyle ilişkilendirilen XML şemaları koleksiyonunu döndürür. Salt okunur String[]. |
+| [ItemId](../../aspose.slides/icustomxmlpart/itemid) { get; set; } | Bir Office Open XML belgesi içinde tek bir özel XML bölümünü benzersiz şekilde tanımlayan küresel olarak benzersiz bir tanımlayıcı (GUID) belirtir. Salt-okunur Guid. |
+| [NamespaceSchemas](../../aspose.slides/icustomxmlpart/namespaceschemas) { get; } | Özel XML bölümüyle ilişkili koleksiyon XML şemalarını döndürür. Salt-okunur String[]. |
 | [XmlAsString](../../aspose.slides/icustomxmlpart/xmlasstring) { get; set; } | XML verisini UTF-8 dizesi olarak döndürür veya ayarlar. Okuma/yazma String. değer `null`. değer boş veya xml-verisi geçersiz. |
 | [XmlData](../../aspose.slides/icustomxmlpart/xmldata) { get; set; } | XML verisini döndürür veya ayarlar. Okuma/yazma Byte[]. değer `null`. değer boş veya xml-verisi geçersiz. |
 
@@ -27,7 +27,7 @@ public interface ICustomXmlPart
 
 | Ad | Açıklama |
 | --- | --- |
-| [Remove](../../aspose.slides/icustomxmlpart/remove)() | Özel XML bölümünü sunumdan kaldırır. |
+| [Remove](../../aspose.slides/icustomxmlpart/remove)() | Özel xml bölümünü sunumdan kaldırır. |
 
 ### Ayrıca Bakınız
 

@@ -1,14 +1,14 @@
 ---
 title: INormalViewRestoredProperties
 second_title: Aspose.Sildes for .NET API リファレンス
-description: スライド領域のサイズを指定します。通常ビューで、領域が可変の復元サイズ（最小化でも最大化でもない）である場合、restoredTop の子であれば幅、restoredLeft の子であれば高さを表します。
+description: スライド領域のサイズを指定します。normal view の領域が可変の復元サイズ（最小化でも最大化でもない）で、restoredTop の子であれば幅、restoredLeft の子であれば高さを設定します。
 type: docs
-weight: 6480
+weight: 6500
 url: /ja/aspose.slides/inormalviewrestoredproperties/
 ---
 ## INormalViewRestoredProperties インターフェイス
 
-スライド領域のサイズを指定します（通常ビューで、領域が可変の復元サイズ（最小化でも最大化でもない）である場合、restoredTop の子であれば幅、restoredLeft の子であれば高さ）。
+スライド領域のサイズを指定します（正常ビューの (restoredTop の子の場合は幅、restoredLeft の子の場合は高さ) で、領域が可変の復元サイズ（最小化でも最大化でもない）である場合）。
 
 ```csharp
 public interface INormalViewRestoredProperties
@@ -18,8 +18,8 @@ public interface INormalViewRestoredProperties
 
 | 名前 | 説明 |
 | --- | --- |
-| [AutoAdjust](../../aspose.slides/inormalviewrestoredproperties/autoadjust) { get; set; } | ウィンドウ内のビューを含むアプリケーションでサイズ変更した際に、サイド コンテンツ領域のサイズが新しいサイズに合わせて補正されるかどうかを指定します。読み取り/書き込み Boolean. |
-| [DimensionSize](../../aspose.slides/inormalviewrestoredproperties/dimensionsize) { get; set; } | スライド領域のサイズを指定します（RestoredTop の子であれば幅、RestoredLeft の子であれば高さ）。読み取り/書き込み Single. 値が 0 未満または 100 より大きい場合は例外がスローされます。 |
+| [AutoAdjust](../../aspose.slides/inormalviewrestoredproperties/autoadjust) { get; set; } | ビューを含むウィンドウのサイズを変更するときに、新しいサイズに合わせてサイドコンテンツ領域のサイズを補正すべきかを指定します 読み取り/書き込み Boolean. |
+| [DimensionSize](../../aspose.slides/inormalviewrestoredproperties/dimensionsize) { get; set; } | スライド領域のサイズを指定します（RestoredTop の子の場合は幅、RestoredLeft の子の場合は高さ）。 読み取り/書き込み Single. 値が 0 未満または 100 を超える場合に例外がスローされます。 |
 
 ### 参照
 

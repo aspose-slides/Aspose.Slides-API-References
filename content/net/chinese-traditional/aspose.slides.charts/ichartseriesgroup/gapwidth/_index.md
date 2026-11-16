@@ -1,18 +1,22 @@
 ---
 title: GapWidth
-second_title: Aspose.Sildes for .NET API 參考文件
-description: 指定條形或柱形叢集之間的間距，以條形或柱形寬度的百分比表示。讀寫 UInt16.
+second_title: Aspose.Sildes for .NET API 參考
+description: 取得或設定條形或柱狀叢集之間的間距，以條形或柱狀寬度的百分比表示。值必須介於 0 和 500 之間。讀/寫 UInt16.
 type: docs
 weight: 70
 url: /zh-hant/aspose.slides.charts/ichartseriesgroup/gapwidth/
 ---
 ## IChartSeriesGroup.GapWidth 屬性
 
-指定條形或柱形叢集之間的間距，以條形或柱形寬度的百分比表示。讀寫 UInt16。
+取得或設定條形或柱狀叢集之間的間距，以條形或柱狀寬度的百分比表示。值必須介於 0 和 500 之間。讀/寫 UInt16.
 
 ```csharp
 public ushort GapWidth { get; set; }
 ```
+
+### 備註
+
+此屬性適用於以下類型的系列：All bar and column subtypes, BarOfPie, PieOfPie, BoxAndWhisker, Funnel, Histogram, Waterfall.
 
 ### 另見
 

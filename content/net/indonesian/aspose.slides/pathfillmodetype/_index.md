@@ -1,14 +1,14 @@
 ---
 title: PathFillModeType
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Menentukan cara sebuah path harus diisi
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Menentukan cara sebuah jalur harus diisi
 type: docs
-weight: 9330
+weight: 9350
 url: /id/aspose.slides/pathfillmodetype/
 ---
 ## PathFillModeType enumerasi
 
-Menentukan cara sebuah path harus diisi
+Menentukan cara sebuah jalur harus diisi
 
 ```csharp
 public enum PathFillModeType : byte
@@ -18,12 +18,12 @@ public enum PathFillModeType : byte
 
 | Nama | Nilai | Deskripsi |
 | --- | --- | --- |
-| None | `0` | Tidak ada isian Path. Ini menentukan bahwa path yang bersangkutan tidak memiliki isian. |
-| Normal | `1` | Isian Path Normal. Ini menentukan bahwa path yang bersangkutan memiliki warna berbayang normal yang diterapkan pada isinya. |
-| Lighten | `2` | Isian Path Mencerahkan. Ini menentukan bahwa path yang bersangkutan memiliki warna berbayang ringan yang diterapkan pada isinya. |
-| LightenLess | `3` | Isian Path Mencerahkan Sedikit. Ini menentukan bahwa path yang bersangkutan memiliki warna berbayang yang sedikit lebih terang diterapkan pada isinya. |
-| Darken | `4` | Isian Path Menggelapkan. Ini menentukan bahwa path yang bersangkutan memiliki warna berbayang lebih gelap yang diterapkan pada isinya. |
-| DarkenLess | `5` | Isian Path Menggelapkan Sedikit. Ini menentukan bahwa path yang bersangkutan memiliki warna berbayang yang sedikit lebih gelap diterapkan pada isinya. |
+| None | `0` | Tidak ada Pengisian Jalur. Ini menentukan bahwa jalur yang bersangkutan tidak memiliki pengisian. |
+| Normal | `1` | Pengisian Jalur Normal. Ini menentukan bahwa jalur yang bersangkutan harus memiliki warna yang disamakan secara normal diterapkan pada pengisiannya. |
+| Lighten | `2` | Pengisian Jalur Mencerahkan. Ini menentukan bahwa jalur yang bersangkutan harus memiliki warna yang disamakan secara ringan diterapkan pada pengisiannya. |
+| LightenLess | `3` | Pengisian Jalur Mencerahkan Lebih Sedikit. Ini menentukan bahwa jalur yang bersangkutan harus memiliki warna yang sedikit lebih terang diterapkan pada pengisiannya. |
+| Darken | `4` | Pengisian Jalur Menggelapkan. Ini menentukan bahwa jalur yang bersangkutan harus memiliki warna yang disamakan secara gelap diterapkan pada pengisiannya. |
+| DarkenLess | `5` | Pengisian Jalur Menggelapkan Lebih Sedikit. Ini menentukan bahwa jalur yang bersangkutan harus memiliki warna yang sedikit lebih gelap diterapkan pada pengisiannya. |
 
 ### Lihat Juga
 

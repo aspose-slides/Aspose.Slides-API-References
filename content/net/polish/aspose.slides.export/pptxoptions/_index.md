@@ -1,12 +1,12 @@
 ---
 title: PptxOptions
-second_title: Aspose.Sildes dla .NET Dokumentacja API
-description: "Reprezentuje opcje zapisywania prezentacji OpenXml: PPTX, PPSX, POTX, PPTM, PPSM, POTM."
+second_title: Aspose.Sildes dla .NET Referencja API
+description: Reprezentuje opcje zapisywania prezentacji OpenXml (PPTX, PPSX, POTX, PPTM, PPSM, POTM).
 type: docs
-weight: 4370
+weight: 4390
 url: /pl/aspose.slides.export/pptxoptions/
 ---
-## PptxOptions klasa
+## Klasa PptxOptions
 
 Reprezentuje opcje zapisywania prezentacji OpenXml (PPTX, PPSX, POTX, PPTM, PPSM, POTM).
 
@@ -16,23 +16,23 @@ public sealed class PptxOptions : SaveOptions, IPptxOptions
 
 ## Konstruktorzy
 
-| Name | Description |
+| Nazwa | Opis |
 | --- | --- |
-| [PptxOptions](pptxoptions)() | Creates new instance of PptxOptions |
+| [PptxOptions](pptxoptions)() | Tworzy nową instancję klasy PptxOptions |
 
 ## Właściwości
 
-| Name | Description |
+| Nazwa | Opis |
 | --- | --- |
-| [CompressionLevel](../../aspose.slides.export/pptxoptions/compressionlevel) { get; set; } | Określa poziom kompresji używany podczas zapisywania dokumentu prezentacji. Domyślna wartość to Level6. |
-| [Conformance](../../aspose.slides.export/pptxoptions/conformance) { get; set; } | Określa klasę zgodności, do której zgodny jest dokument prezentacji. Domyślna wartość to Ecma376_2006 |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Zwraca lub ustawia czcionkę używaną w przypadku, gdy nie znaleziono czcionki źródłowej. String odczyt/zapis. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Zwraca lub ustawia styl wizualny gradientu. Odczyt/zapis [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Reprezentuje obiekt wywołania zwrotnego do aktualizacji postępu zapisu w procentach. Zobacz [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [RefreshThumbnail](../../aspose.slides.export/pptxoptions/refreshthumbnail) { get; set; } | Określa, czy miniatura prezentacji będzie odświeżona. Odczyt/zapis Boolean. Domyślna wartość to **true**. |
+| [CompressionLevel](../../aspose.slides.export/pptxoptions/compressionlevel) { get; set; } | Określa poziom kompresji używany przy zapisywaniu dokumentu prezentacji. Domyślna wartość to Level6. |
+| [Conformance](../../aspose.slides.export/pptxoptions/conformance) { get; set; } | Określa klasę zgodności, do której dokument prezentacji jest zgodny. Domyślna wartość to Ecma376_2006 |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Zwraca lub ustawia czcionkę używaną w przypadku, gdy nie odnaleziono czcionki źródłowej. Odczyt/zapis String. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Zwraca lub ustawia wizualny styl gradientu. Odczyt/zapis [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Reprezentuje obiekt wywołania zwrotnego dla aktualizacji postępu zapisywania w procentach. Zobacz [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [RefreshThumbnail](../../aspose.slides.export/pptxoptions/refreshthumbnail) { get; set; } | Określa, czy miniatura prezentacji będzie odświeżana. Odczyt/zapis Boolean. Domyślna wartość to **true**. |
 | [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Określa, czy pomijać hiperłącza z wywołaniami JavaScript podczas zapisywania prezentacji. Odczyt/zapis Boolean. Domyślna wartość to **false**. |
 | [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Zwraca lub ustawia obiekt, który odbiera ostrzeżenia i decyduje, czy proces ładowania będzie kontynuowany, czy zostanie przerwany. Odczyt/zapis [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
-| [Zip64Mode](../../aspose.slides.export/pptxoptions/zip64mode) { get; set; } | Określa, czy w dokumencie prezentacji używany jest format ZIP64. Domyślna wartość to IfNecessary |
+| [Zip64Mode](../../aspose.slides.export/pptxoptions/zip64mode) { get; set; } | Określa, czy format ZIP64 jest używany dla dokumentu prezentacji. Domyślna wartość to IfNecessary |
 
 ### Zobacz także
 

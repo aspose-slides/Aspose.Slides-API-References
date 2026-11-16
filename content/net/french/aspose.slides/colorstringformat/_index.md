@@ -1,14 +1,14 @@
 ---
 title: ColorStringFormat
-second_title: Aspose.Sildes pour .NET Référence API
-description: Représente un type d'action de lien hypertexte.
+second_title: Aspose.Sildes pour la référence API .NET
+description: Représente un type d’action de lien hypertexte.
 type: docs
-weight: 2560
+weight: 2580
 url: /fr/aspose.slides/colorstringformat/
 ---
-## Énumération ColorStringFormat
+## ColorStringFormat énumération
 
-Représente un type d'action de lien hypertexte.
+Représente un type d’action de lien hypertexte.
 
 ```csharp
 public enum ColorStringFormat
@@ -18,9 +18,9 @@ public enum ColorStringFormat
 
 | Nom | Valeur | Description |
 | --- | --- | --- |
-| Vml | `0` | Format de chaîne de couleur VML. |
+| Vml | `0` | format de chaîne de couleur VML. |
 
-### Voir également
+### Voir aussi
 
 * espace de noms [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

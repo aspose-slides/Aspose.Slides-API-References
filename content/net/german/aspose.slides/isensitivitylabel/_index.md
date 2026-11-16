@@ -3,7 +3,7 @@ title: ISensitivityLabel
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt das Sensitivitätslabel von Microsoft Purview Information Protection dar.
 type: docs
-weight: 6930
+weight: 6950
 url: /de/aspose.slides/isensitivitylabel/
 ---
 ## ISensitivityLabel Schnittstelle
@@ -19,13 +19,13 @@ public interface ISensitivityLabel
 | Name | Beschreibung |
 | --- | --- |
 | [AssignmentMethodType](../../aspose.slides/isensitivitylabel/assignmentmethodtype) { get; set; } | Gibt die Zuweisungsmethode für das Sensitivitätslabel zurück oder legt sie fest. Lesen/Schreiben [`SensitivityLabelAssignmentType`](../sensitivitylabelassignmenttype). |
-| [ContentMarkTypes](../../aspose.slides/isensitivitylabel/contentmarktypes) { get; } | Gibt die Liste der Arten von Inhaltskennzeichnung zurück, die auf eine Datei angewendet werden sollen. |
+| [ContentMarkTypes](../../aspose.slides/isensitivitylabel/contentmarktypes) { get; } | Gibt die Liste der Typen von Inhaltskennzeichnungen zurück, die auf eine Datei angewendet werden sollen. |
 | [Id](../../aspose.slides/isensitivitylabel/id) { get; set; } | Gibt die ID des Sensitivitätslabels zurück oder legt sie fest. Lesen/Schreiben String. |
 | [IsEnabled](../../aspose.slides/isensitivitylabel/isenabled) { get; set; } | Gibt an, ob das Sensitivitätslabel aktiviert ist. |
 | [IsRemoved](../../aspose.slides/isensitivitylabel/isremoved) { get; set; } | Gibt an, ob das Sensitivitätslabel entfernt wurde. |
-| [SiteId](../../aspose.slides/isensitivitylabel/siteid) { get; set; } | Gibt die Azure Active Directory (Azure AD) Site-ID zurück oder legt sie fest, die der Sensitivitätslabel-Richtlinie entspricht, welche das Sensitivitätslabel beschreibt. Lesen/Schreiben Guid. |
+| [SiteId](../../aspose.slides/isensitivitylabel/siteid) { get; set; } | Gibt die Azure Active Directory (Azure AD) Site-Kennung zurück oder legt sie fest, die der Richtlinie für das Sensitivitätslabel entspricht, die das Sensitivitätslabel beschreibt. Lesen/Schreiben Guid. |
 
-### Siehe Auch
+### Siehe auch
 
 * Namensraum [Aspose.Slides](../../aspose.slides)
 * Assembly [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: IGlobalLayoutSlideCollection
 second_title: Aspose.Sildes for .NET API 참조
-description: 프레젠테이션의 모든 레이아웃 슬라이드 컬렉션을 나타냅니다. 개별 마스터 레이아웃 슬라이드 컬렉션을 통합하는 맥락에서 레이아웃 슬라이드를 추가/복제하는 메서드를 제공하는 ILayoutSlideCollection 인터페이스를 확장합니다.
+description: 프레젠테이션의 모든 레이아웃 슬라이드 컬렉션을 나타냅니다. 개별 마스터 레이아웃 슬라이드 컬렉션을 통합하는 컨텍스트에서 레이아웃 슬라이드를 추가/복제하는 메서드를 제공하여 ILayoutSlideCollection 인터페이스를 확장합니다.
 type: docs
-weight: 5990
+weight: 6010
 url: /ko/aspose.slides/igloballayoutslidecollection/
 ---
 ## IGlobalLayoutSlideCollection 인터페이스
 
-프레젠테이션의 모든 레이아웃 슬라이드 컬렉션을 나타냅니다. ILayoutSlideCollection 인터페이스를 확장하여 마스터 레이아웃 슬라이드의 개별 컬렉션을 통합하는 맥락에서 레이아웃 슬라이드를 추가/복제하는 메서드를 제공합니다.
+프레젠테이션의 모든 레이아웃 슬라이드 컬렉션을 나타냅니다. 마스터 레이아웃 슬라이드의 개별 컬렉션을 통합하는 컨텍스트에서 레이아웃 슬라이드를 추가/복제하는 메서드를 포함하여 ILayoutSlideCollection 인터페이스를 확장합니다.
 
 ```csharp
 public interface IGlobalLayoutSlideCollection : ILayoutSlideCollection
@@ -24,11 +24,11 @@ public interface IGlobalLayoutSlideCollection : ILayoutSlideCollection
 
 | 이름 | 설명 |
 | --- | --- |
-| [Add](../../aspose.slides/igloballayoutslidecollection/add)(IMasterSlide, SlideLayoutType, string) | 프레젠테이션에 새 레이아웃 슬라이드를 추가합니다. |
+| [Add](../../aspose.slides/igloballayoutslidecollection/add)(IMasterSlide, SlideLayoutType, string) | 프레젠테이션에 새로운 레이아웃 슬라이드를 추가합니다. |
 | [AddClone](../../aspose.slides/igloballayoutslidecollection/addclone#addclone)(ILayoutSlide) | 지정된 레이아웃 슬라이드의 복사본을 프레젠테이션에 추가합니다. |
 | [AddClone](../../aspose.slides/igloballayoutslidecollection/addclone#addclone_1)(ILayoutSlide, IMasterSlide) | 지정된 레이아웃 슬라이드의 복사본을 프레젠테이션에 추가합니다. |
 
-### 참조
+### 참고
 
 * 인터페이스 [ILayoutSlideCollection](../ilayoutslidecollection)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

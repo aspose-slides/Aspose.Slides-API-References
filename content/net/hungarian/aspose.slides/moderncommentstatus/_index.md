@@ -1,14 +1,14 @@
 ---
 title: ModernCommentStatus
 second_title: Aspose.Sildes .NET API referencia
-description: A modern megjegyzés állapotát reprezentálja.
+description: A modern komment állapotát reprezentálja.
 type: docs
-weight: 9100
+weight: 9120
 url: /hu/aspose.slides/moderncommentstatus/
 ---
-## ModernCommentStatus enumeráció
+## ModernCommentStatus felsorolás
 
-A modern megjegyzés állapotát reprezentálja.
+A modern komment állapotát reprezentálja.
 
 ```csharp
 public enum ModernCommentStatus : sbyte
@@ -20,8 +20,8 @@ public enum ModernCommentStatus : sbyte
 | --- | --- | --- |
 | NotDefined | `0` | Nincs definiálva. |
 | Active | `1` | Aktív. |
-| Resolved | `2` | Megoldott. |
-| Closed | `3` | Lezárt. |
+| Resolved | `2` | Megoldva. |
+| Closed | `3` | Zárva. |
 
 ### Lásd még
 

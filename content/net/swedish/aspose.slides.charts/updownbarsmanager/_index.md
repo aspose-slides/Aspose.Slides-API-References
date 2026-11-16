@@ -1,9 +1,9 @@
 ---
 title: UpDownBarsManager
 second_title: Aspose.Sildes för .NET API-referens
-description: Tillhandahåller åtkomst till upp/ner-staplar för linje- eller aktiediagram.
+description: Tillhandahåller åtkomst till upp/ned-staplar för linje- eller aktiediagram.
 type: docs
-weight: 2500
+weight: 2520
 url: /sv/aspose.slides.charts/updownbarsmanager/
 ---
 ## UpDownBarsManager klass

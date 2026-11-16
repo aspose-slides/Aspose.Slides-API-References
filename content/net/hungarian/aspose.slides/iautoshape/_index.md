@@ -1,9 +1,9 @@
 ---
 title: IAutoShape
-second_title: Aspose.Sildes .NET-hez API referenciája
-description: Egy AutoShape-t képvisel.
+second_title: Aspose.Sildes .NET API referencia
+description: Az AutoShape-t képviseli.
 type: docs
-weight: 5240
+weight: 5260
 url: /hu/aspose.slides/iautoshape/
 ---
 ## IAutoShape interfész
@@ -16,20 +16,20 @@ public interface IAutoShape : IGeometryShape
 
 ## Tulajdonságok
 
-| Name | Description |
+| Név | Leírás |
 | --- | --- |
-| [AsIGeometryShape](../../aspose.slides/iautoshape/asigeometryshape) { get; } | Lehetővé teszi az alap IGeometryShape interfész lekérését. Csak olvasható [`IGeometryShape`](../igeometryshape). |
+| [AsIGeometryShape](../../aspose.slides/iautoshape/asigeometryshape) { get; } | Lehetővé teszi a base IGeometryShape interfész lekérését. Csak olvasható [`IGeometryShape`](../igeometryshape). |
 | [AutoShapeLock](../../aspose.slides/iautoshape/autoshapelock) { get; } | Visszaadja az AutoShape zárolásait. Csak olvasható [`IAutoShapeLock`](../iautoshapelock). |
-| [IsTextBox](../../aspose.slides/iautoshape/istextbox) { get; } | Megadja, hogy az alakzat szövegdoboz-e. |
+| [IsTextBox](../../aspose.slides/iautoshape/istextbox) { get; } | Megadja, hogy az alakzat szövegmező-e. |
 | [ShapeLock](../../aspose.slides/iautoshape/shapelock) { get; } | Visszaadja az alakzat zárolásait. Csak olvasható [`IAutoShapeLock`](../iautoshapelock). |
-| [TextFrame](../../aspose.slides/iautoshape/textframe) { get; } | Visszaadja a TextFrame objektumot az AutoShape-hez. Csak olvasható [`ITextFrame`](../itextframe). |
-| [UseBackgroundFill](../../aspose.slides/iautoshape/usebackgroundfill) { get; set; } | Megállapítja, hogy ez az autóforma a dia háttérkitöltésével legyen-e kitöltve a stílus vagy kitöltési formátum által megadott helyett. Olvasás/írás Boolean. |
+| [TextFrame](../../aspose.slides/iautoshape/textframe) { get; } | Visszaadja a TextFrame objektumot az AutoShape számára. Csak olvasható [`ITextFrame`](../itextframe). |
+| [UseBackgroundFill](../../aspose.slides/iautoshape/usebackgroundfill) { get; set; } | Meghatározza, hogy ez az autoshape a dia háttérkitöltésével legyen-e kitöltve a stílus vagy kitöltési formátum helyett. Olvasható/írható Boolean. |
 
-## Metódusok
+## Módszerek
 
-| Name | Description |
+| Név | Leírás |
 | --- | --- |
-| [AddTextFrame](../../aspose.slides/iautoshape/addtextframe)(string) | Új TextFrame-et ad az alakzathoz. Ha az alakzat már rendelkezik TextFrame-el, akkor egyszerűen megváltoztatja a szövegét. |
+| [AddTextFrame](../../aspose.slides/iautoshape/addtextframe)(string) | Új TextFrame-et ad hozzá egy alakzathoz. Ha az alakzat már rendelkezik TextFrame-el, akkor egyszerűen megváltoztatja a szövegét. |
 
 ### Lásd még
 

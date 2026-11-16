@@ -1,9 +1,9 @@
 ---
 title: EmptyTransition
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 빈 슬라이드 전환 효과.
 type: docs
-weight: 10030
+weight: 10050
 url: /ko/aspose.slides.slideshow/emptytransition/
 ---
 ## EmptyTransition 클래스
@@ -19,9 +19,9 @@ public class EmptyTransition : TransitionValueBase, IEmptyTransition
 | 이름 | 설명 |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 두 TransitionValueBase 인스턴스가 같은지 여부를 결정합니다. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 특정 유형에 대한 해시 함수로 작동하며, 해시 알고리즘 및 해시 테이블과 같은 데이터 구조에서 사용하기에 적합합니다. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 특정 유형에 대한 해시 함수 역할을 하며, 해시 알고리즘 및 해시 테이블과 같은 데이터 구조에서 사용할 수 있습니다. |
 
-### 참고
+### 참조
 
 * 클래스 [TransitionValueBase](../transitionvaluebase)
 * 인터페이스 [IEmptyTransition](../iemptytransition)

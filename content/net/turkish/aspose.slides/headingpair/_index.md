@@ -1,14 +1,14 @@
 ---
 title: HeadingPair
 second_title: Aspose.Sildes için .NET API Referansı
-description: Belgenin bir Heading pair özelliğini temsil eder. Belge parçalarının grup adını ve grup içindeki parça sayısını belirtir.
+description: Belgenin 'Heading pair' özelliğini temsil eder. Belge parçalarının grup adını ve grup içindeki parça sayısını gösterir.
 type: docs
-weight: 5110
+weight: 5130
 url: /tr/aspose.slides/headingpair/
 ---
-## HeadingPair sınıfı
+## HeadingPair sınıf
 
-Belgenin bir 'Heading pair' özelliğini temsil eder. Belge parçalarının grup adını ve grup içindeki parça sayısını belirtir.
+Belgenin 'Heading pair' özelliğini temsil eder. Belge parçalarının grup adını ve grup içindeki parça sayısını gösterir.
 
 ```csharp
 public sealed class HeadingPair : IHeadingPair
@@ -18,7 +18,7 @@ public sealed class HeadingPair : IHeadingPair
 
 | Ad | Açıklama |
 | --- | --- |
-| [Count](../../aspose.slides/headingpair/count) { get; } | Grup içindeki parça sayısını döndürür. Salt okunur Int32. |
+| [Count](../../aspose.slides/headingpair/count) { get; } | Grup içindeki parçaların sayısını döndürür. Salt okunur Int32. |
 | [Name](../../aspose.slides/headingpair/name) { get; } | Belge parçalarının grup adını döndürür. Salt okunur String. |
 
 ### Ayrıca Bakınız

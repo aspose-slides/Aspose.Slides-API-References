@@ -1,14 +1,14 @@
 ---
 title: IWheelTransition
-second_title: Referência da API Aspose.Sildes para .NET
-description: Efeito de transição de slide da roda.
+second_title: Aspose.Sildes para .NET Referência de API
+description: Efeito de transição de deslizamento da roda.
 type: docs
-weight: 10220
+weight: 10240
 url: /pt/aspose.slides.slideshow/iwheeltransition/
 ---
 ## IWheelTransition interface
 
-Efeito de transição de slide da roda.
+Efeito de transição de deslizamento da roda.
 
 ```csharp
 public interface IWheelTransition : ITransitionValueBase
@@ -16,7 +16,7 @@ public interface IWheelTransition : ITransitionValueBase
 
 ## Propriedades
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
 | [AsITransitionValueBase](../../aspose.slides.slideshow/iwheeltransition/asitransitionvaluebase) { get; } | Permite obter a interface base ITransitionValueBase. Somente leitura [`ITransitionValueBase`](../itransitionvaluebase). |
 | [Spokes](../../aspose.slides.slideshow/iwheeltransition/spokes) { get; set; } | Número de raios da transição da roda. Leitura/gravação UInt32. |

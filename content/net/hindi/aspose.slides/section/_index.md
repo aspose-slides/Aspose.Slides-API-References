@@ -1,9 +1,9 @@
 ---
 title: Section
-second_title: Aspose.Sildes for .NET API संदर्भ
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
 description: स्लाइड्स के सेक्शन का प्रतिनिधित्व करता है।
 type: docs
-weight: 9750
+weight: 9770
 url: /hi/aspose.slides/section/
 ---
 ## सेक्शन क्लास
@@ -19,16 +19,16 @@ public class Section : DomObject<SectionCollection>, ISection
 | नाम | विवरण |
 | --- | --- |
 | [Name](../../aspose.slides/section/name) { get; set; } | सेक्शन का नाम। |
-| [SectionId](../../aspose.slides/section/sectionid) { get; } | सेक्शन Id। |
+| [SectionId](../../aspose.slides/section/sectionid) { get; } | सेक्शन आईडी। |
 | [StartedFromSlide](../../aspose.slides/section/startedfromslide) { get; } | सेक्शन की पहली स्लाइड लौटाता है। |
 
-## विधियाँ
+## मेथड्स
 
 | नाम | विवरण |
 | --- | --- |
 | [GetSlidesListOfSection](../../aspose.slides/section/getslideslistofsection)() | सेक्शन में स्लाइड्स की सूची लौटाता है। |
 
-### देखें
+### और देखें
 
 * क्लास [DomObject&lt;TParent&gt;](../domobject-1)
 * क्लास [SectionCollection](../sectioncollection)

@@ -1,14 +1,14 @@
 ---
 title: InnerShadow
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 内部シャドウ効果を表します。
+description: Inner Shadow エフェクトを表します。
 type: docs
-weight: 3600
+weight: 3620
 url: /ja/aspose.slides.effects/innershadow/
 ---
 ## InnerShadow クラス
 
-内部シャドウ効果を表します。
+Inner Shadow エフェクトを表します。
 
 ```csharp
 public sealed class InnerShadow : IInnerShadow
@@ -18,9 +18,9 @@ public sealed class InnerShadow : IInnerShadow
 
 | 名前 | 説明 |
 | --- | --- |
-| [BlurRadius](../../aspose.slides.effects/innershadow/blurradius) { get; set; } | ぼかし半径。読み取り/書き込み可能 Double。 |
-| [Direction](../../aspose.slides.effects/innershadow/direction) { get; set; } | 影の方向。読み取り/書き込み可能 Single。 |
-| [Distance](../../aspose.slides.effects/innershadow/distance) { get; set; } | 影の距離。読み取り/書き込み可能 Double。 |
+| [BlurRadius](../../aspose.slides.effects/innershadow/blurradius) { get; set; } | ぼかし半径。読み取り/書き込み Double。 |
+| [Direction](../../aspose.slides.effects/innershadow/direction) { get; set; } | 影の方向。読み取り/書き込み Single。 |
+| [Distance](../../aspose.slides.effects/innershadow/distance) { get; set; } | 影の距離。読み取り/書き込み Double。 |
 | [ShadowColor](../../aspose.slides.effects/innershadow/shadowcolor) { get; } | 影の色。読み取り専用 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
 
 ## メソッド
@@ -28,10 +28,10 @@ public sealed class InnerShadow : IInnerShadow
 | 名前 | 説明 |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/innershadow/equals)(object) | 指定された [`InnerShadow`](../innershadow) が現在の [`InnerShadow`](../innershadow) と等しいかどうかを判断します。 |
-| [GetEffective](../../aspose.slides.effects/innershadow/geteffective)() | 継承が適用された有効な内部シャドウ効果データを取得します。 |
-| override [GetHashCode](../../aspose.slides.effects/innershadow/gethashcode)() | 特定の型に対するハッシュ関数として機能します。 |
+| [GetEffective](../../aspose.slides.effects/innershadow/geteffective)() | 継承が適用された有効な Inner Shadow エフェクトデータを取得します。 |
+| override [GetHashCode](../../aspose.slides.effects/innershadow/gethashcode)() | 特定の型のハッシュ関数として機能します。 |
 
-### 関連項目
+### 参照
 
 * インターフェイス [IInnerShadow](../iinnershadow)
 * 名前空間 [Aspose.Slides.Effects](../../aspose.slides.effects)

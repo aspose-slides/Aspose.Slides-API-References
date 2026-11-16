@@ -3,7 +3,7 @@ title: TransitionValueBase
 second_title: Aspose.Sildes için .NET API Referansı
 description: Slayt geçiş efektleri için temel sınıf.
 type: docs
-weight: 10460
+weight: 10480
 url: /tr/aspose.slides.slideshow/transitionvaluebase/
 ---
 ## TransitionValueBase sınıfı
@@ -19,9 +19,9 @@ public class TransitionValueBase : ITransitionValueBase
 | Ad | Açıklama |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | İki TransitionValueBase örneğinin eşit olup olmadığını belirler. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Belirli bir tür için bir hash işlevi olarak hizmet eder; hash algoritmaları ve hash tablosu gibi veri yapılarında kullanılmaya uygundur. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Belirli bir tip için bir karma işlevi olarak hizmet eder, karma algoritmaları ve karma tablo gibi veri yapılarında kullanılmaya uygundur. |
 
-### Ayrıca Bakınız
+### Ayrıca
 
 * arayüz [ITransitionValueBase](../itransitionvaluebase)
 * ad alanı [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

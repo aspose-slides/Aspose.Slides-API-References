@@ -1,12 +1,12 @@
 ---
 title: LineFormat
-second_title: Aspose.Sildes dla .NET – Referencja API
+second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Reprezentuje format linii.
 type: docs
-weight: 7790
+weight: 7810
 url: /pl/aspose.slides/lineformat/
 ---
-## Klasa LineFormat
+## LineFormat klasa
 
 Reprezentuje format linii.
 
@@ -16,35 +16,35 @@ public sealed class LineFormat : PVIObject, ILineFormat
 
 ## Właściwości
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
 | [Alignment](../../aspose.slides/lineformat/alignment) { get; set; } | Zwraca lub ustawia wyrównanie linii. Odczyt/zapis [`LineAlignment`](../linealignment). |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Umożliwia pobranie podstawowego interfejsu IPresentationComponent. Tylko do odczytu [`IPresentationComponent`](../ipresentationcomponent). |
-| [BeginArrowheadLength](../../aspose.slides/lineformat/beginarrowheadlength) { get; set; } | Zwraca lub ustawia długość grotu strzały na początku linii. Odczyt/zapis [`LineArrowheadLength`](../linearrowheadlength). |
-| [BeginArrowheadStyle](../../aspose.slides/lineformat/beginarrowheadstyle) { get; set; } | Zwraca lub ustawia styl grotu strzały na początku linii. Odczyt/zapis [`LineArrowheadStyle`](../linearrowheadstyle). |
-| [BeginArrowheadWidth](../../aspose.slides/lineformat/beginarrowheadwidth) { get; set; } | Zwraca lub ustawia szerokość grotu strzały na początku linii. Odczyt/zapis [`LineArrowheadWidth`](../linearrowheadwidth). |
+| [BeginArrowheadLength](../../aspose.slides/lineformat/beginarrowheadlength) { get; set; } | Zwraca lub ustawia długość grotu strzałki na początku linii. Odczyt/zapis [`LineArrowheadLength`](../linearrowheadlength). |
+| [BeginArrowheadStyle](../../aspose.slides/lineformat/beginarrowheadstyle) { get; set; } | Zwraca lub ustawia styl grotu strzałki na początku linii. Odczyt/zapis [`LineArrowheadStyle`](../linearrowheadstyle). |
+| [BeginArrowheadWidth](../../aspose.slides/lineformat/beginarrowheadwidth) { get; set; } | Zwraca lub ustawia szerokość grotu strzałki na początku linii. Odczyt/zapis [`LineArrowheadWidth`](../linearrowheadwidth). |
 | [CapStyle](../../aspose.slides/lineformat/capstyle) { get; set; } | Zwraca lub ustawia styl zakończenia linii. Odczyt/zapis [`LineCapStyle`](../linecapstyle). |
-| [CustomDashPattern](../../aspose.slides/lineformat/customdashpattern) { get; set; } | Zwraca lub ustawia własny wzór kreskowania. Odczyt/zapis Single[]. |
+| [CustomDashPattern](../../aspose.slides/lineformat/customdashpattern) { get; set; } | Zwraca lub ustawia niestandardowy wzór kreski. Odczyt/zapis Single[]. |
 | [DashStyle](../../aspose.slides/lineformat/dashstyle) { get; set; } | Zwraca lub ustawia styl kreskowania linii. Odczyt/zapis [`LineDashStyle`](../linedashstyle). |
-| [EndArrowheadLength](../../aspose.slides/lineformat/endarrowheadlength) { get; set; } | Zwraca lub ustawia długość grotu strzały na końcu linii. Odczyt/zapis [`LineArrowheadLength`](../linearrowheadlength). |
-| [EndArrowheadStyle](../../aspose.slides/lineformat/endarrowheadstyle) { get; set; } | Zwraca lub ustawia styl grotu strzały na końcu linii. Odczyt/zapis [`LineArrowheadStyle`](../linearrowheadstyle). |
-| [EndArrowheadWidth](../../aspose.slides/lineformat/endarrowheadwidth) { get; set; } | Zwraca lub ustawia szerokość grotu strzały na końcu linii. Odczyt/zapis [`LineArrowheadWidth`](../linearrowheadwidth). |
+| [EndArrowheadLength](../../aspose.slides/lineformat/endarrowheadlength) { get; set; } | Zwraca lub ustawia długość grotu strzałki na końcu linii. Odczyt/zapis [`LineArrowheadLength`](../linearrowheadlength). |
+| [EndArrowheadStyle](../../aspose.slides/lineformat/endarrowheadstyle) { get; set; } | Zwraca lub ustawia styl grotu strzałki na końcu linii. Odczyt/zapis [`LineArrowheadStyle`](../linearrowheadstyle). |
+| [EndArrowheadWidth](../../aspose.slides/lineformat/endarrowheadwidth) { get; set; } | Zwraca lub ustawia szerokość grotu strzałki na końcu linii. Odczyt/zapis [`LineArrowheadWidth`](../linearrowheadwidth). |
 | [FillFormat](../../aspose.slides/lineformat/fillformat) { get; } | Zwraca format wypełnienia linii. Tylko do odczytu [`ILineFillFormat`](../ilinefillformat). |
-| [IsFormatNotDefined](../../aspose.slides/lineformat/isformatnotdefined) { get; } | Zwraca true, jeśli format linii nie jest zdefiniowany (nowo utworzony, domyślny). Tylko do odczytu Boolean. |
+| [IsFormatNotDefined](../../aspose.slides/lineformat/isformatnotdefined) { get; } | Zwraca wartość true, jeśli format linii nie jest zdefiniowany (dopiero utworzony, domyślny). Tylko do odczytu Boolean. |
 | [JoinStyle](../../aspose.slides/lineformat/joinstyle) { get; set; } | Zwraca lub ustawia styl łączenia linii. Odczyt/zapis [`LineJoinStyle`](../linejoinstyle). |
-| [MiterLimit](../../aspose.slides/lineformat/miterlimit) { get; set; } | Zwraca lub ustawia limit ścięcia (miter) linii. Odczyt/zapis Single. |
+| [MiterLimit](../../aspose.slides/lineformat/miterlimit) { get; set; } | Zwraca lub ustawia limit ścięcia linii. Odczyt/zapis Single. |
 | [SketchFormat](../../aspose.slides/lineformat/sketchformat) { get; } | Zwraca format szkicu linii. Tylko do odczytu [`ILineFillFormat`](../ilinefillformat). |
 | [Style](../../aspose.slides/lineformat/style) { get; set; } | Zwraca lub ustawia styl linii. Odczyt/zapis [`LineStyle`](../linestyle). |
 | [Width](../../aspose.slides/lineformat/width) { get; set; } | Zwraca lub ustawia szerokość linii. Odczyt/zapis Double. |
 
 ## Metody
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
 | [Equals](../../aspose.slides/lineformat/equals#equals)(ILineFormat) | Określa, czy dwa wystąpienia LineFormat są równe. |
 | override [Equals](../../aspose.slides/lineformat/equals#equals_1)(object) |  |
-| [GetEffective](../../aspose.slides/lineformat/geteffective)() | Pobiera efektywne dane formatowania linii z zastosowaną dziedziczeniem. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Zwraca kod skrótu. |
+| [GetEffective](../../aspose.slides/lineformat/geteffective)() | Pobiera skuteczne dane formatowania linii z zastosowaną dziedziczeniem. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Zwraca kod hash. |
 
 ### Zobacz także
 

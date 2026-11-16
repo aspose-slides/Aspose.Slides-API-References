@@ -1,14 +1,14 @@
 ---
 title: IChartWall
-second_title: Aspose.Sildes per .NET Riferimento API
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta le pareti nei grafici 3D.
 type: docs
-weight: 2010
+weight: 2030
 url: /it/aspose.slides.charts/ichartwall/
 ---
 ## IChartWall interfaccia
 
-Rappresenta le pareti nei grafici 3D.
+Rappresenta le pareti nei grafici 3d.
 
 ```csharp
 public interface IChartWall
@@ -18,9 +18,9 @@ public interface IChartWall
 
 | Nome | Descrizione |
 | --- | --- |
-| [Format](../../aspose.slides.charts/ichartwall/format) { get; } | Restituisce il riempimento della parete, linea, effetto, stili 3D. Solo lettura [`IFormat`](../iformat). |
-| [PictureType](../../aspose.slides.charts/ichartwall/picturetype) { get; set; } | Restituisce o imposta il tipo di immagine. Lettura/Scrittura [`PictureType`](./picturetype). |
-| [Thickness](../../aspose.slides.charts/ichartwall/thickness) { get; set; } | Restituisce o imposta lo spessore delle pareti come percentuale della dimensione più grande del volume del grafico. Lettura/Scrittura Int32. |
+| [Format](../../aspose.slides.charts/ichartwall/format) { get; } | Restituisce il riempimento del muro, la linea, l'effetto, gli stili 3d. Solo lettura [`IFormat`](../iformat). |
+| [PictureType](../../aspose.slides.charts/ichartwall/picturetype) { get; set; } | Restituisce o imposta il tipo di immagine. Lettura/scrittura [`PictureType`](./picturetype). |
+| [Thickness](../../aspose.slides.charts/ichartwall/thickness) { get; set; } | Restituisce o imposta lo spessore delle pareti come percentuale della più grande dimensione del volume del grafico. Lettura/scrittura Int32. |
 
 ### Vedi anche
 

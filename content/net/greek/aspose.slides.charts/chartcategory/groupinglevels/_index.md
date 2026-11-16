@@ -1,14 +1,14 @@
 ---
 title: GroupingLevels
-second_title: Aspose.Sildes για .NET API Αναφορά
-description: Διαχειριζόμενο δοχείο των τιμών των επιπέδων ομαδοποίησης κατηγορίας γραφήματος. Η κατηγορία πολλαπλών επιπέδων περιέχει περισσότερο από ένα επίπεδο ομαδοποίησης. Η αρίθμηση των επιπέδων ομαδοποίησης είναι μηδενική. Μόνο για ανάγνωση IChartCategoryLevelsManageraspose.slides.charts/ichartcategorylevelsmanager.
+second_title: Aspose.Sildes για .NET Αναφορά API
+description: Διαχειριζόμενος περιέκτης των τιμών των επιπέδων ομαδοποίησης της κατηγορίας διαγράμματος. Η κατηγορία πολλαπλών επιπέδων περιέχει περισσότερα από ένα επίπεδο ομαδοποίησης. Η αρίθμηση των επιπέδων ομαδοποίησης είναι μηδενική. Μόνο ανάγνωση IChartCategoryLevelsManageraspose.slides.charts/ichartcategorylevelsmanager.
 type: docs
-weight: 30
+weight: 40
 url: /el/aspose.slides.charts/chartcategory/groupinglevels/
 ---
 ## ChartCategory.GroupingLevels ιδιότητα
 
-Διαχειριζόμενο δοχείο των τιμών των επιπέδων ομαδοποίησης κατηγορίας γραφήματος. Η κατηγορία πολλαπλών επιπέδων περιέχει περισσότερο από ένα επίπεδο ομαδοποίησης. Η αρίθμηση των επιπέδων ομαδοποίησης είναι μηδενική. Μόνο για ανάγνωση [`IChartCategoryLevelsManager`](../../ichartcategorylevelsmanager).
+Διαχειριζόμενο περιέκτη των τιμών των επιπέδων ομαδοποίησης της κατηγορίας διαγράμματος. Η κατηγορία πολλαπλών επιπέδων περιέχει περισσότερα από ένα επίπεδο ομαδοποίησης. Η αρίθμηση των επιπέδων ομαδοποίησης είναι μηδενική. Μόνο ανάγνωση [`IChartCategoryLevelsManager`](../../ichartcategorylevelsmanager).
 
 ```csharp
 public IChartCategoryLevelsManager GroupingLevels { get; }

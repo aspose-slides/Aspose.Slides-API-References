@@ -1,14 +1,14 @@
 ---
 title: EmbeddedWoffFontsHtmlController
-second_title: Aspose.Sildes .NET API referencia
-description: A formázó vezérlő osztály a betűtípusok WOFF formátumba beágyazásához
+second_title: Aspose.Sildes a .NET API hivatkozáshoz
+description: A formázó vezérlőosztály a betűk WOFF formátumban történő beágyazásához
 type: docs
-weight: 3790
+weight: 3810
 url: /hu/aspose.slides.export/embeddedwofffontshtmlcontroller/
 ---
 ## EmbeddedWoffFontsHtmlController osztály
 
-A formázó vezérlő osztály a betűtípusok WOFF formátumba beágyazásához
+A formázóvezérlő osztály a betűk WOFF formátumban történő beágyazásához
 
 ```csharp
 public class EmbeddedWoffFontsHtmlController : IEmbeddedWoffFontsHtmlController

@@ -1,14 +1,14 @@
 ---
 title: IMasterNotesSlide
-second_title: Aspose.Sildes for .NET API 參考文件
-description: 表示備註的母版投影片。
+second_title: Aspose.Sildes for .NET API 參考
+description: 表示供註記使用的主投影片。
 type: docs
-weight: 6390
+weight: 6410
 url: /zh-hant/aspose.slides/imasternotesslide/
 ---
 ## IMasterNotesSlide 介面
 
-Represents master slide for notes.
+表示供註記使用的主投影片。
 
 ```csharp
 public interface IMasterNotesSlide : IBaseSlide, IMasterThemeable
@@ -16,15 +16,15 @@ public interface IMasterNotesSlide : IBaseSlide, IMasterThemeable
 
 ## 屬性
 
-| 名稱 | 描述 |
+| 名稱 | 說明 |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/imasternotesslide/asibaseslide) { get; } | 允許取得基礎 IBaseSlide 介面。唯讀 [`IBaseSlide`](../ibaseslide)。 |
+| [AsIBaseSlide](../../aspose.slides/imasternotesslide/asibaseslide) { get; } | 允許取得基底 IBaseSlide 介面。唯讀 [`IBaseSlide`](../ibaseslide)。 |
 | [AsIMasterThemeable](../../aspose.slides/imasternotesslide/asimasterthemeable) { get; } | 傳回 IMasterThemeable 介面。唯讀 [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable)。 |
 | [DrawingGuides](../../aspose.slides/imasternotesslide/drawingguides) { get; } | 傳回主註記投影片的繪圖參考線集合。唯讀 [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [HeaderFooterManager](../../aspose.slides/imasternotesslide/headerfootermanager) { get; } | 傳回主註記投影片的 HeaderFooter 管理員。唯讀 [`IMasterNotesSlideHeaderFooterManager`](../imasternotesslideheaderfootermanager)。 |
-| [NotesStyle](../../aspose.slides/imasternotesslide/notesstyle) { get; } | 傳回註記文字的樣式。唯讀 [`ITextStyle`](../itextstyle)。 |
+| [HeaderFooterManager](../../aspose.slides/imasternotesslide/headerfootermanager) { get; } | 傳回主註記投影片的 HeaderFooter 管理器。唯讀 [`IMasterNotesSlideHeaderFooterManager`](../imasternotesslideheaderfootermanager)。 |
+| [NotesStyle](../../aspose.slides/imasternotesslide/notesstyle) { get; } | 傳回註解文字的樣式。唯讀 [`ITextStyle`](../itextstyle)。 |
 
-### 另請參閱
+### 相關參考
 
 * 介面 [IBaseSlide](../ibaseslide)
 * 介面 [IMasterThemeable](../../aspose.slides.theme/imasterthemeable)

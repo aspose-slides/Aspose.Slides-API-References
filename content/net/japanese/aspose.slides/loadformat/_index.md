@@ -3,7 +3,7 @@ title: LoadFormat
 second_title: Aspose.Sildes の .NET API リファレンス
 description: ロードするドキュメントの形式を示します。
 type: docs
-weight: 7830
+weight: 7850
 url: /ja/aspose.slides/loadformat/
 ---
 ## LoadFormat 列挙型
@@ -25,9 +25,9 @@ public enum LoadFormat
 | Ppsx | `4` | Microsoft Office Open XML PresentationML スライドショー。 |
 | Odp | `5` | OpenOffice ODF プレゼンテーション。 |
 | Potx | `6` | Microsoft Office Open XML PresentationML テンプレート。 |
-| Pptm | `7` | Microsoft Office Open XML PresentationML マクロ有効ドキュメント。 |
-| Ppsm | `8` | Microsoft Office Open XML PresentationML マクロ有効スライドショー。 |
-| Potm | `9` | Microsoft Office Open XML PresentationML マクロ有効テンプレート。 |
+| Pptm | `7` | Microsoft Office Open XML PresentationML マクロ対応ドキュメント。 |
+| Ppsm | `8` | Microsoft Office Open XML PresentationML マクロ対応スライドショー。 |
+| Potm | `9` | Microsoft Office Open XML PresentationML マクロ対応テンプレート。 |
 | Otp | `10` | OpenOffice OTP プレゼンテーションテンプレート。 |
 | Ppt95 | `11` | Microsoft PowerPoint 95 プレゼンテーション。 |
 | Pot | `12` | Microsoft PowerPoint 97-2003 プレゼンテーションテンプレート。 |

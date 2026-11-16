@@ -3,12 +3,12 @@ title: ISvgTSpan
 second_title: Aspose.Sildes for .NET API リファレンス
 description: SVG テキスト部分 tspan のオプションを表します。
 type: docs
-weight: 4140
+weight: 4160
 url: /ja/aspose.slides.export/isvgtspan/
 ---
 ## ISvgTSpan インターフェイス
 
-SVG テキスト部分（"tspan"）のオプションを表します。
+SVG テキスト部分（「tspan」）のオプションを表します。
 
 ```csharp
 public interface ISvgTSpan
@@ -20,7 +20,7 @@ public interface ISvgTSpan
 | --- | --- |
 | [Id](../../aspose.slides.export/isvgtspan/id) { get; set; } | 「tspan」要素の id を取得または設定します |
 
-### 参照
+### 関連項目
 
 * 名前空間 [Aspose.Slides.Export](../../aspose.slides.export)
 * アセンブリ [Aspose.Slides](../../)

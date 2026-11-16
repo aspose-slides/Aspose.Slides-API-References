@@ -1,14 +1,14 @@
 ---
 title: InnerShadow
-second_title: Aspose.Sildes برای .NET مرجع API
-description: نمایانگر یک اثر سایه داخلی است.
+second_title: مرجع API Aspose.Sildes برای .NET
+description: یک اثر سایه داخلی را نشان می‌دهد.
 type: docs
-weight: 3600
+weight: 3620
 url: /fa/aspose.slides.effects/innershadow/
 ---
-## کلاس InnerShadow
+## InnerShadow کلاس
 
-نمایانگر یک اثر سایه داخلی است.
+یک اثر سایه داخلی را نشان می‌دهد.
 
 ```csharp
 public sealed class InnerShadow : IInnerShadow
@@ -16,20 +16,20 @@ public sealed class InnerShadow : IInnerShadow
 
 ## ویژگی‌ها
 
-| نام | توضیح |
+| Name | Description |
 | --- | --- |
 | [BlurRadius](../../aspose.slides.effects/innershadow/blurradius) { get; set; } | شعاع تاری. خواندنی/نوشتنی Double. |
 | [Direction](../../aspose.slides.effects/innershadow/direction) { get; set; } | جهت سایه. خواندنی/نوشتنی Single. |
 | [Distance](../../aspose.slides.effects/innershadow/distance) { get; set; } | فاصله سایه. خواندنی/نوشتنی Double. |
-| [ShadowColor](../../aspose.slides.effects/innershadow/shadowcolor) { get; } | رنگ سایه. فقط-خواندنی [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [ShadowColor](../../aspose.slides.effects/innershadow/shadowcolor) { get; } | رنگ سایه. فقط‌خواندنی [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ## متدها
 
-| نام | توضیح |
+| Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/innershadow/equals)(object) | تعیین می‌کند آیا [`InnerShadow`](../innershadow) مشخص شده برابر با [`InnerShadow`](../innershadow) فعلی است. |
-| [GetEffective](../../aspose.slides.effects/innershadow/geteffective)() | دادهٔ مؤثر اثر سایه داخلی را با به‌کارگیری وراثت دریافت می‌کند. |
-| override [GetHashCode](../../aspose.slides.effects/innershadow/gethashcode)() | به‌عنوان یک تابع هش برای یک نوع خاص عمل می‌کند. |
+| [GetEffective](../../aspose.slides.effects/innershadow/geteffective)() | داده‌های اثر داخلی سایه مؤثر را با اعمال ارث‌بری دریافت می‌کند. |
+| override [GetHashCode](../../aspose.slides.effects/innershadow/gethashcode)() | به عنوان یک تابع هش برای نوع خاصی عمل می‌کند. |
 
 ### موارد مرتبط
 

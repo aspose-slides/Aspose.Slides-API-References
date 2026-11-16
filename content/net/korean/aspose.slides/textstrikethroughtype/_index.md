@@ -3,7 +3,7 @@ title: TextStrikethroughType
 second_title: Aspose.Sildes for .NET API 참조
 description: 텍스트 취소선의 유형을 나타냅니다.
 type: docs
-weight: 10990
+weight: 11010
 url: /ko/aspose.slides/textstrikethroughtype/
 ---
 ## TextStrikethroughType 열거형
@@ -23,7 +23,7 @@ public enum TextStrikethroughType : sbyte
 | Single | `1` |  |
 | Double | `2` |  |
 
-### 참고
+### 참조
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

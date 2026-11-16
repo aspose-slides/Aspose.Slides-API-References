@@ -1,9 +1,9 @@
 ---
 title: IMathNaryOperatorProperties
-second_title: Aspose.Sildes 的 .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 指定 IMathNaryOperator 的属性
 type: docs
-weight: 8380
+weight: 8400
 url: /zh/aspose.slides.mathtext/imathnaryoperatorproperties/
 ---
 ## IMathNaryOperatorProperties 接口

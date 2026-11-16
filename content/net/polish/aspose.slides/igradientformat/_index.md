@@ -1,9 +1,9 @@
 ---
 title: IGradientFormat
-second_title: Aspose.Sildes dla .NET – referencja API
+second_title: Aspose.Sildes dla .NET – Dokumentacja API
 description: Reprezentuje format gradientu.
 type: docs
-weight: 6000
+weight: 6020
 url: /pl/aspose.slides/igradientformat/
 ---
 ## IGradientFormat interfejs

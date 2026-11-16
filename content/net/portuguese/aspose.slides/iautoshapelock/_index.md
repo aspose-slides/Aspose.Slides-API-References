@@ -1,14 +1,14 @@
 ---
 title: IAutoShapeLock
 second_title: Aspose.Sildes para .NET Referência da API
-description: Determina quais operações estão desativadas no AutoshapeEx pai.
+description: Determina quais operações são desativadas no AutoshapeEx pai.
 type: docs
-weight: 5250
+weight: 5270
 url: /pt/aspose.slides/iautoshapelock/
 ---
 ## IAutoShapeLock interface
 
-Determina quais operações estão desativadas no AutoshapeEx pai.
+Determines which operations are disabled on the parent AutoshapeEx.
 
 ```csharp
 public interface IAutoShapeLock : IBaseShapeLock
@@ -16,22 +16,22 @@ public interface IAutoShapeLock : IBaseShapeLock
 
 ## Propriedades
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
-| [AdjustHandlesLocked](../../aspose.slides/iautoshapelock/adjusthandleslocked) { get; set; } | Determina se a alteração de valores de ajuste é proibida. Booleano leitura-gravação. |
-| [ArrowheadsLocked](../../aspose.slides/iautoshapelock/arrowheadslocked) { get; set; } | Determina se a alteração de pontas de seta é proibida. Booleano leitura-gravação. |
+| [AdjustHandlesLocked](../../aspose.slides/iautoshapelock/adjusthandleslocked) { get; set; } | Determina se a alteração de valores de ajuste é proibida. Boolean de leitura/gravação. |
+| [ArrowheadsLocked](../../aspose.slides/iautoshapelock/arrowheadslocked) { get; set; } | Determina se a alteração de pontas de flecha é proibida. Boolean de leitura/gravação. |
 | [AsIBaseShapeLock](../../aspose.slides/iautoshapelock/asibaseshapelock) { get; } | Permite obter a interface base IBaseShapeLock. Somente leitura [`IBaseShapeLock`](../ibaseshapelock). |
-| [AspectRatioLocked](../../aspose.slides/iautoshapelock/aspectratiolocked) { get; set; } | Determina se uma forma deve preservar a proporção ao redimensionar. Booleano leitura-gravação. |
-| [EditPointsLocked](../../aspose.slides/iautoshapelock/editpointslocked) { get; set; } | Determina se a alteração direta do contorno desta forma é proibida. Booleano leitura-gravação. |
-| [GroupingLocked](../../aspose.slides/iautoshapelock/groupinglocked) { get; set; } | Determina se a adição desta forma a um grupo é proibida. Booleano leitura-gravação. |
-| [PositionLocked](../../aspose.slides/iautoshapelock/positionlocked) { get; set; } | Determina se mover esta forma é proibido. Booleano leitura-gravação. |
-| [RotateLocked](../../aspose.slides/iautoshapelock/rotatelocked) { get; set; } | Determina se a alteração do ângulo de rotação desta forma é proibida. Booleano leitura-gravação. |
-| [SelectLocked](../../aspose.slides/iautoshapelock/selectlocked) { get; set; } | Determina se a seleção desta forma é proibida. Booleano leitura-gravação. |
-| [ShapeTypeLocked](../../aspose.slides/iautoshapelock/shapetypelocked) { get; set; } | Determina se a alteração do tipo de forma é proibida. Booleano leitura-gravação. |
-| [SizeLocked](../../aspose.slides/iautoshapelock/sizelocked) { get; set; } | Determina se o redimensionamento desta forma é proibido. Booleano leitura-gravação. |
-| [TextLocked](../../aspose.slides/iautoshapelock/textlocked) { get; set; } | Determina se a edição de texto é proibida. Booleano leitura-gravação. |
+| [AspectRatioLocked](../../aspose.slides/iautoshapelock/aspectratiolocked) { get; set; } | Determina se uma forma deve preservar a proporção ao redimensionar. Boolean de leitura/gravação. |
+| [EditPointsLocked](../../aspose.slides/iautoshapelock/editpointslocked) { get; set; } | Determina se a alteração direta do contorno desta forma é proibida. Boolean de leitura/gravação. |
+| [GroupingLocked](../../aspose.slides/iautoshapelock/groupinglocked) { get; set; } | Determina se a adição desta forma a um grupo é proibida. Boolean de leitura/gravação. |
+| [PositionLocked](../../aspose.slides/iautoshapelock/positionlocked) { get; set; } | Determina se o movimento desta forma é proibido. Boolean de leitura/gravação. |
+| [RotateLocked](../../aspose.slides/iautoshapelock/rotatelocked) { get; set; } | Determina se a alteração do ângulo de rotação desta forma é proibida. Boolean de leitura/gravação. |
+| [SelectLocked](../../aspose.slides/iautoshapelock/selectlocked) { get; set; } | Determina se a seleção desta forma é proibida. Boolean de leitura/gravação. |
+| [ShapeTypeLocked](../../aspose.slides/iautoshapelock/shapetypelocked) { get; set; } | Determina se a alteração do tipo de forma é proibida. Boolean de leitura/gravação. |
+| [SizeLocked](../../aspose.slides/iautoshapelock/sizelocked) { get; set; } | Determina se o redimensionamento desta forma é proibido. Boolean de leitura/gravação. |
+| [TextLocked](../../aspose.slides/iautoshapelock/textlocked) { get; set; } | Determina se a edição de texto é proibida. Boolean de leitura/gravação. |
 
-### Ver Também
+### Veja também
 
 * interface [IBaseShapeLock](../ibaseshapelock)
 * namespace [Aspose.Slides](../../aspose.slides)

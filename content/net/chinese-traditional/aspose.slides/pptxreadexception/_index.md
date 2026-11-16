@@ -1,9 +1,9 @@
 ---
 title: PptxReadException
-second_title: Aspose.Sildes .NET API 參考
+second_title: Aspose.Sildes 的 .NET API 參考
 description: 表示在簡報讀取錯誤時拋出的例外。
 type: docs
-weight: 9570
+weight: 9590
 url: /zh-hant/aspose.slides/pptxreadexception/
 ---
 ## PptxReadException 類別
@@ -19,10 +19,10 @@ public class PptxReadException : PptxException
 | 名稱 | 說明 |
 | --- | --- |
 | [PptxReadException](pptxreadexception#constructor)() | 預設建構函式。 |
-| [PptxReadException](pptxreadexception#constructor_1)(string) | 允許向此例外加入訊息的建構函式。 |
-| [PptxReadException](pptxreadexception#constructor_2)(string, Exception) | 包含訊息與內嵌例外的例外建構函式。 |
+| [PptxReadException](pptxreadexception#constructor_1)(string) | 允許為此例外加入訊息的建構函式。 |
+| [PptxReadException](pptxreadexception#constructor_2)(string, Exception) | 用於包含訊息與內嵌例外的例外的建構函式。 |
 
-### 參見
+### 另請參閱
 
 * 類別 [PptxException](../pptxexception)
 * 命名空間 [Aspose.Slides](../../aspose.slides)

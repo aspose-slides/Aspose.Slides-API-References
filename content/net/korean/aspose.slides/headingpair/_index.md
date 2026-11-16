@@ -1,14 +1,14 @@
 ---
 title: HeadingPair
-second_title: Aspose.Sildes for .NET API 참조
-description: 문서의 Heading pair 속성을 나타냅니다. 이는 문서 파트의 그룹 이름과 그룹 내 파트 수를 나타냅니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 문서의 Heading pair 속성을 나타냅니다. 이는 문서 부분들의 그룹 이름과 그룹 내 부분 수를 나타냅니다.
 type: docs
-weight: 5110
+weight: 5130
 url: /ko/aspose.slides/headingpair/
 ---
 ## HeadingPair 클래스
 
-문서의 ‘Heading pair’ 속성을 나타냅니다. 이는 문서 파트의 그룹 이름과 그룹 내 파트 수를 나타냅니다.
+문서의 'Heading pair' 속성을 나타냅니다. 이는 문서 부분들의 그룹 이름과 그룹 내 부분 수를 나타냅니다.
 
 ```csharp
 public sealed class HeadingPair : IHeadingPair
@@ -18,10 +18,10 @@ public sealed class HeadingPair : IHeadingPair
 
 | 이름 | 설명 |
 | --- | --- |
-| [Count](../../aspose.slides/headingpair/count) { get; } | 그룹에 포함된 파트 수를 반환합니다. 읽기 전용 Int32. |
-| [Name](../../aspose.slides/headingpair/name) { get; } | 문서 파트의 그룹 이름을 반환합니다. 읽기 전용 String. |
+| [Count](../../aspose.slides/headingpair/count) { get; } | 그룹에 있는 부분 수를 반환합니다. 읽기 전용 Int32. |
+| [Name](../../aspose.slides/headingpair/name) { get; } | 문서 부분들의 그룹 이름을 반환합니다. 읽기 전용 String. |
 
-### 참고
+### 참조
 
 * 인터페이스 [IHeadingPair](../iheadingpair)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

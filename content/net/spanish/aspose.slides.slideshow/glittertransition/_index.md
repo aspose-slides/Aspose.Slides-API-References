@@ -1,9 +1,9 @@
 ---
 title: GlitterTransition
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Aspose.Sildes para la referencia de API de .NET
 description: Efecto de transición de diapositiva Glitter.
 type: docs
-weight: 10050
+weight: 10070
 url: /es/aspose.slides.slideshow/glittertransition/
 ---
 ## Clase GlitterTransition
@@ -19,14 +19,14 @@ public class GlitterTransition : TransitionValueBase, IGlitterTransition
 | Nombre | Descripción |
 | --- | --- |
 | [Direction](../../aspose.slides.slideshow/glittertransition/direction) { get; set; } | Dirección de la transición. Lectura/escritura [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
-| [Pattern](../../aspose.slides.slideshow/glittertransition/pattern) { get; set; } | Especifica la forma de los elementos visuales utilizados durante la transición. Lectura/escritura [`TransitionPattern`](../transitionpattern). |
+| [Pattern](../../aspose.slides.slideshow/glittertransition/pattern) { get; set; } | Especifica la forma de los visuales usados durante la transición. Lectura/escritura [`TransitionPattern`](../transitionpattern). |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Determina si las dos instancias de TransitionValueBase son iguales. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Sirve como función hash para un tipo particular, adecuada para su uso en algoritmos de hash y estructuras de datos como una tabla hash. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Funciona como una función hash para un tipo particular, adecuada para su uso en algoritmos de hash y estructuras de datos como una tabla hash. |
 
 ### Ver también
 

@@ -1,14 +1,14 @@
 ---
 title: IMathRightSubSuperscriptElement
-second_title: Aspose.Sildes 适用于 .NET 的 API 参考
-description: 指定 Sub-Superscript 对象，该对象由基元素以及位于基元素右侧的下标和上标组成。
+second_title: Aspose.Sildes for .NET API 参考
+description: 指定右上标对象，该对象由基准以及放置在基准右侧的下标和上标组成。
 type: docs
-weight: 8450
+weight: 8470
 url: /zh/aspose.slides.mathtext/imathrightsubsuperscriptelement/
 ---
 ## IMathRightSubSuperscriptElement 接口
 
-指定 Sub-Superscript 对象，该对象由基元素以及位于基元素右侧的下标和上标组成。
+指定右上标对象，该对象由基准以及放置在基准右侧的下标和上标组成。
 
 ```csharp
 public interface IMathRightSubSuperscriptElement : IMathElement
@@ -18,9 +18,9 @@ public interface IMathRightSubSuperscriptElement : IMathElement
 
 | 名称 | 描述 |
 | --- | --- |
-| [AlignScripts](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/alignscripts) { get; set; } | 指定下标/上标的对齐方式。为 true 时，下标和上标水平对齐；为 false 时，它们根据基元素的形状进行字距调整。默认值为 false。 |
-| [AsIMathElement](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/asimathelement) { get; } | 允许获取基 IMathElement 接口 [`IMathElement`](../imathelement) |
-| [Base](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/base) { get; } | 基参数 |
+| [AlignScripts](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/alignscripts) { get; set; } | 指定下标/上标的对齐方式。若为 true，则下标和上标在水平方向上相互对齐。若为 false，则它们根据基准的形状进行字距调整。默认值为 false。 |
+| [AsIMathElement](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/asimathelement) { get; } | 允许获取基准 IMathElement 接口 [`IMathElement`](../imathelement) |
+| [Base](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/base) { get; } | 基准参数 |
 | [Subscript](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/subscript) { get; } | 下标参数 |
 | [Superscript](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/superscript) { get; } | 上标参数 |
 
@@ -33,7 +33,7 @@ public interface IMathRightSubSuperscriptElement : IMathElement
 IMathRightSubSuperscriptElement subsuperscript = new MathematicalText("N").SetSubSuperscriptOnTheRight("i", "j");
 ```
 
-### 另请参见
+### 另见
 
 * 接口 [IMathElement](../imathelement)
 * 命名空间 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

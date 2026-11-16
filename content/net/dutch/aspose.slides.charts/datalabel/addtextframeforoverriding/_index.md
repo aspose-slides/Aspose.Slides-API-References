@@ -1,14 +1,14 @@
 ---
 title: AddTextFrameForOverriding
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Initialiseer TextFrameForOverriding met de tekst in parameter text. Als TextFrameForOverriding al is geïnitialiseerd, wordt de tekst eenvoudigweg gewijzigd.
+description: Initialiseer TextFrameForOverriding met de tekst in parameter text. Als TextFrameForOverriding al is geïnitialiseerd, wijzig dan eenvoudig de tekst.
 type: docs
-weight: 180
+weight: 190
 url: /nl/aspose.slides.charts/datalabel/addtextframeforoverriding/
 ---
 ## DataLabel.AddTextFrameForOverriding methode
 
-Initialiseer TextFrameForOverriding met de tekst in parameter "text". Als TextFrameForOverriding al is geïnitialiseerd, wordt de tekst eenvoudigweg gewijzigd.
+Initialiseer TextFrameForOverriding met de tekst in parameter "text". Als TextFrameForOverriding al is geïnitialiseerd, wijzig dan eenvoudig de tekst.
 
 ```csharp
 public ITextFrame AddTextFrameForOverriding(string text)
@@ -21,7 +21,7 @@ public ITextFrame AddTextFrameForOverriding(string text)
 ### Zie ook
 
 * interface [ITextFrame](../../../aspose.slides/itextframe)
-* class [DataLabel](../../datalabel)
+* klasse [DataLabel](../../datalabel)
 * namespace [Aspose.Slides.Charts](../../datalabel)
 * assembly [Aspose.Slides](../../../)
 

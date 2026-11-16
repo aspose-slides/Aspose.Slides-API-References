@@ -3,7 +3,7 @@ title: MathNaryOperatorFactory
 second_title: Aspose.Sildes .NET API hivatkozás
 description: Lehetővé teszi az IMathNaryOperator létrehozását
 type: docs
-weight: 8880
+weight: 8900
 url: /hu/aspose.slides.mathtext/mathnaryoperatorfactory/
 ---
 ## MathNaryOperatorFactory osztály
@@ -20,7 +20,7 @@ public class MathNaryOperatorFactory : IMathNaryOperatorFactory
 | --- | --- |
 | [MathNaryOperatorFactory](mathnaryoperatorfactory)() | Az alapértelmezett konstruktor. |
 
-## Módszerek
+## Metódusok
 
 | Név | Leírás |
 | --- | --- |
@@ -28,9 +28,9 @@ public class MathNaryOperatorFactory : IMathNaryOperatorFactory
 | [CreateMathNaryOperator](../../aspose.slides.mathtext/mathnaryoperatorfactory/createmathnaryoperator#createmathnaryoperator_1)(char, IMathElement, IMathElement) | Létrehozza az IMathNaryOperator |
 | [CreateMathNaryOperator](../../aspose.slides.mathtext/mathnaryoperatorfactory/createmathnaryoperator#createmathnaryoperator_2)(char, IMathElement, IMathElement, IMathElement) | Létrehozza az IMathNaryOperator |
 
-### Megjegyzés
+### Megjegyzések
 
-A COM kompatibilitás érdekében
+COM kompatibilitáshoz
 
 ### Lásd még
 

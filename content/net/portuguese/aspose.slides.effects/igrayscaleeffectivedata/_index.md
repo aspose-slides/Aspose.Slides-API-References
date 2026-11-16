@@ -1,14 +1,14 @@
 ---
 title: IGrayScaleEffectiveData
-second_title: Referência da API Aspose.Sildes for .NET
-description: Objeto imutável que representa um efeito de escala de cinza. Converte todos os valores de cor do efeito para uma tonalidade de cinza correspondente à sua luminância. Os valores de alfa (opacidade) do efeito não são alterados.
+second_title: Aspose.Sildes para .NET Referência da API
+description: Objeto imutável que representa um efeito de escala de cinza. Converte todos os valores de cor do efeito para um tom de cinza correspondente à sua luminância. Os valores alfa (opacidade) do efeito não são afetados.
 type: docs
-weight: 3350
+weight: 3370
 url: /pt/aspose.slides.effects/igrayscaleeffectivedata/
 ---
 ## IGrayScaleEffectiveData interface
 
-Objeto imutável que representa um efeito em escala de cinza. Converte todos os valores de cor do efeito para uma tonalidade de cinza, correspondente à sua luminância. Os valores de alfa (opacidade) do efeito não são alterados.
+Objeto imutável que representa um efeito de escala de cinza. Converte todos os valores de cor do efeito para um tom de cinza, correspondente à sua luminância. Os valores alfa (opacidade) do efeito não são afetados.
 
 ```csharp
 public interface IGrayScaleEffectiveData : IEffectEffectiveData
@@ -20,7 +20,7 @@ public interface IGrayScaleEffectiveData : IEffectEffectiveData
 | --- | --- |
 | [AsIEffectEffectiveData](../../aspose.slides.effects/igrayscaleeffectivedata/asieffecteffectivedata) { get; } | Permite obter a interface base IEffectEffectiveData. Somente leitura [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
-### Veja Também
+### Ver também
 
 * interface [IEffectEffectiveData](../ieffecteffectivedata)
 * namespace [Aspose.Slides.Effects](../../aspose.slides.effects)

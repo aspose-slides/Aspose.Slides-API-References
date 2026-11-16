@@ -1,14 +1,14 @@
 ---
 title: IThreeDFormat
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt 3-D-Eigenschaften dar.
+description: Stellt 3-D Eigenschaften dar.
 type: docs
-weight: 7330
+weight: 7350
 url: /de/aspose.slides/ithreedformat/
 ---
 ## IThreeDFormat Schnittstelle
 
-Stellt 3-D-Eigenschaften dar.
+Stellt 3-D Eigenschaften dar.
 
 ```csharp
 public interface IThreeDFormat : IThreeDParamSource
@@ -18,16 +18,16 @@ public interface IThreeDFormat : IThreeDParamSource
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIThreeDParamSource](../../aspose.slides/ithreedformat/asithreedparamsource) { get; } | Ermöglicht das Abrufen der Basis IThreeDParamSource Schnittstelle. Schreibgeschützt [`IThreeDParamSource`](../ithreedparamsource). |
-| [BevelBottom](../../aspose.slides/ithreedformat/bevelbottom) { get; } | Gibt den Typ einer unteren 3D-Fase zurück oder legt ihn fest. Schreibgeschützt [`IShapeBevel`](../ishapebevel). |
-| [BevelTop](../../aspose.slides/ithreedformat/beveltop) { get; } | Gibt den Typ einer oberen 3D-Fase zurück oder legt ihn fest. Schreibgeschützt [`IShapeBevel`](../ishapebevel). |
-| [Camera](../../aspose.slides/ithreedformat/camera) { get; } | Gibt die Einstellungen einer Kamera zurück oder legt sie fest. Schreibgeschützt [`ICamera`](../icamera). |
-| [ContourColor](../../aspose.slides/ithreedformat/contourcolor) { get; } | Gibt die Farbe einer Kontur zurück oder legt sie fest. Schreibgeschützt [`IColorFormat`](../icolorformat). |
+| [AsIThreeDParamSource](../../aspose.slides/ithreedformat/asithreedparamsource) { get; } | Ermöglicht das Abrufen der Basisschnittstelle IThreeDParamSource. Nur lesbar [`IThreeDParamSource`](../ithreedparamsource). |
+| [BevelBottom](../../aspose.slides/ithreedformat/bevelbottom) { get; } | Gibt den Typ einer unteren 3D-Ablaufkante zurück oder legt ihn fest. Nur lesbar [`IShapeBevel`](../ishapebevel). |
+| [BevelTop](../../aspose.slides/ithreedformat/beveltop) { get; } | Gibt den Typ einer oberen 3D-Ablaufkante zurück oder legt ihn fest. Nur lesbar [`IShapeBevel`](../ishapebevel). |
+| [Camera](../../aspose.slides/ithreedformat/camera) { get; } | Gibt die Einstellungen einer Kamera zurück oder legt sie fest. Nur lesbar [`ICamera`](../icamera). |
+| [ContourColor](../../aspose.slides/ithreedformat/contourcolor) { get; } | Gibt die Farbe einer Kontur zurück oder legt sie fest. Nur lesbar [`IColorFormat`](../icolorformat). |
 | [ContourWidth](../../aspose.slides/ithreedformat/contourwidth) { get; set; } | Gibt die Breite einer 3D-Kontur zurück oder legt sie fest. Lesen/Schreiben Double. |
 | [Depth](../../aspose.slides/ithreedformat/depth) { get; set; } | Gibt die Tiefe einer 3D-Form zurück oder legt sie fest. Lesen/Schreiben Double. |
-| [ExtrusionColor](../../aspose.slides/ithreedformat/extrusioncolor) { get; } | Gibt die Farbe einer Extrusion zurück oder legt sie fest. Schreibgeschützt [`IColorFormat`](../icolorformat). |
+| [ExtrusionColor](../../aspose.slides/ithreedformat/extrusioncolor) { get; } | Gibt die Farbe einer Extrusion zurück oder legt sie fest. Nur lesbar [`IColorFormat`](../icolorformat). |
 | [ExtrusionHeight](../../aspose.slides/ithreedformat/extrusionheight) { get; set; } | Gibt die Höhe eines Extrusionseffekts zurück oder legt sie fest. Lesen/Schreiben Double. |
-| [LightRig](../../aspose.slides/ithreedformat/lightrig) { get; } | Gibt den Typ eines Lichts zurück oder legt ihn fest. Schreibgeschützt [`ILightRig`](../ilightrig). |
+| [LightRig](../../aspose.slides/ithreedformat/lightrig) { get; } | Gibt den Typ einer Lichtquelle zurück oder legt ihn fest. Nur lesbar [`ILightRig`](../ilightrig). |
 | [Material](../../aspose.slides/ithreedformat/material) { get; set; } | Gibt den Typ eines Materials zurück oder legt ihn fest. Lesen/Schreiben [`MaterialPresetType`](../materialpresettype). |
 
 ## Methoden

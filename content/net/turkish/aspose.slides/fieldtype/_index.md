@@ -1,14 +1,14 @@
 ---
 title: FieldType
-second_title: Aspose.Sildes for .NET API Reference
-description: Bir alan türünü temsil eder. Bu değer, güncellendiğinde alan bölümüne hangi metnin ayarlanacağını belirler.
+second_title: Aspose.Slides için .NET API Referansı
+description: Bir alan türünü temsil eder. Bu değer, alan bölümü güncellendiğinde hangi metnin ayarlanacağını belirler.
 type: docs
-weight: 4760
+weight: 4780
 url: /tr/aspose.slides/fieldtype/
 ---
 ## FieldType sınıfı
 
-Bir alan türünü temsil eder. Bu değer, güncellendiğinde alan bölümüne hangi metnin ayarlanacağını belirler.
+Bir alan türünü temsil eder. Bu değer, alan bölümü güncellendiğinde hangi metnin ayarlanacağını belirler.
 
 ```csharp
 public sealed class FieldType : IFieldType
@@ -16,38 +16,38 @@ public sealed class FieldType : IFieldType
 
 ## Yapıcılar
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
 | [FieldType](fieldtype)(string) | FieldType sınıfının yeni bir örneğini başlatır. |
 
 ## Özellikler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
-| static [DateTime](../../aspose.slides/fieldtype/datetime) { get; } | Render uygulaması için varsayılan tarih saat biçiminde geçerli tarih ve saat. Salt okunur [`FieldType`](../fieldtype). |
-| static [DateTime1](../../aspose.slides/fieldtype/datetime1) { get; } | İlk önceden tanımlı biçimde (MM/DD/YYYY İngilizce için) geçerli tarih ve saat. Salt okunur [`FieldType`](../fieldtype). |
-| static [DateTime10](../../aspose.slides/fieldtype/datetime10) { get; } | Onuncu önceden tanımlı biçimde (hh:mm İngilizce için) geçerli tarih ve saat. Salt okunur [`FieldType`](../fieldtype). |
-| static [DateTime11](../../aspose.slides/fieldtype/datetime11) { get; } | On birinci önceden tanımlı biçimde (hh:mm:ss İngilizce için) geçerli tarih ve saat. Salt okunur [`FieldType`](../fieldtype). |
-| static [DateTime12](../../aspose.slides/fieldtype/datetime12) { get; } | On ikinci önceden tanımlı biçimde (hh:mm AM/PM İngilizce için) geçerli tarih ve saat. Salt okunur [`FieldType`](../fieldtype). |
-| static [DateTime13](../../aspose.slides/fieldtype/datetime13) { get; } | On üçüncü önceden tanımlı biçimde (hh:mm:ss AM/PM İngilizce için) geçerli tarih ve saat. Salt okunur [`FieldType`](../fieldtype). |
-| static [DateTime2](../../aspose.slides/fieldtype/datetime2) { get; } | İkinci önceden tanımlı biçimde (Gün, Ay DD, YYYY İngilizce için) geçerli tarih ve saat. Salt okunur [`FieldType`](../fieldtype). |
-| static [DateTime3](../../aspose.slides/fieldtype/datetime3) { get; } | Üçüncü önceden tanımlı biçimde (DD Ay YYYY İngilizce için) geçerli tarih ve saat. Salt okunur [`FieldType`](../fieldtype). |
-| static [DateTime4](../../aspose.slides/fieldtype/datetime4) { get; } | Dördüncü önceden tanımlı biçimde (Ay DD, YYYY İngilizce için) geçerli tarih ve saat. Salt okunur [`FieldType`](../fieldtype). |
-| static [DateTime5](../../aspose.slides/fieldtype/datetime5) { get; } | Beşinci önceden tanımlı biçimde (DD-Mon-YY İngilizce için) geçerli tarih ve saat. Salt okunur [`FieldType`](../fieldtype). |
-| static [DateTime6](../../aspose.slides/fieldtype/datetime6) { get; } | Altıncı önceden tanımlı biçimde (Ay YY İngilizce için) geçerli tarih ve saat. Salt okunur [`FieldType`](../fieldtype). |
-| static [DateTime7](../../aspose.slides/fieldtype/datetime7) { get; } | Yedinci önceden tanımlı biçimde (Mon-YY İngilizce için) geçerli tarih ve saat. Salt okunur [`FieldType`](../fieldtype). |
-| static [DateTime8](../../aspose.slides/fieldtype/datetime8) { get; } | Sekizinci önceden tanımlı biçimde (MM/DD/YYYY hh:mm AM/PM İngilizce için) geçerli tarih ve saat. Salt okunur [`FieldType`](../fieldtype). |
-| static [DateTime9](../../aspose.slides/fieldtype/datetime9) { get; } | Dokuzuncu önceden tanımlı biçimde (MM/DD/YYYY hh:mm:ss AM/PM İngilizce için) geçerli tarih ve saat. Salt okunur [`FieldType`](../fieldtype). |
-| static [Footer](../../aspose.slides/fieldtype/footer) { get; } | Slayt altbilgisi. Salt okunur [`FieldType`](../fieldtype). |
-| static [Header](../../aspose.slides/fieldtype/header) { get; } | Slayt üstbilgisi. Salt okunur [`FieldType`](../fieldtype). |
-| static [SlideNumber](../../aspose.slides/fieldtype/slidenumber) { get; } | Geçerli slayt numarası. Salt okunur [`FieldType`](../fieldtype). |
-| [InternalString](../../aspose.slides/fieldtype/internalstring) { get; set; } | Bu FieldType nesnesinin dahili adını döndürür. Okunabilir/Yazılabilir String. |
+| static [DateTime](../../aspose.slides/fieldtype/datetime) { get; } | Render uygulaması için varsayılan tarih saat biçiminde geçerli tarih ve saat. Yalnızca okunabilir [`FieldType`](../fieldtype). |
+| static [DateTime1](../../aspose.slides/fieldtype/datetime1) { get; } | İngilizce için ilk ön tanımlı biçimde (MM/DD/YYYY) geçerli tarih ve saat. Yalnızca okunabilir [`FieldType`](../fieldtype). |
+| static [DateTime10](../../aspose.slides/fieldtype/datetime10) { get; } | İngilizce için onuncu ön tanımlı biçimde (hh:mm) geçerli tarih ve saat. Yalnızca okunabilir [`FieldType`](../fieldtype). |
+| static [DateTime11](../../aspose.slides/fieldtype/datetime11) { get; } | İngilizce için on birinci ön tanımlı biçimde (hh:mm:ss) geçerli tarih ve saat. Yalnızca okunabilir [`FieldType`](../fieldtype). |
+| static [DateTime12](../../aspose.slides/fieldtype/datetime12) { get; } | İngilizce için on ikinci ön tanımlı biçimde (hh:mm AM/PM) geçerli tarih ve saat. Yalnızca okunabilir [`FieldType`](../fieldtype). |
+| static [DateTime13](../../aspose.slides/fieldtype/datetime13) { get; } | İngilizce için on üçüncü ön tanımlı biçimde (hh:mm:ss AM/PM) geçerli tarih ve saat. Yalnızca okunabilir [`FieldType`](../fieldtype). |
+| static [DateTime2](../../aspose.slides/fieldtype/datetime2) { get; } | İngilizce için ikinci ön tanımlı biçimde (Day, Month DD, YYYY) geçerli tarih ve saat. Yalnızca okunabilir [`FieldType`](../fieldtype). |
+| static [DateTime3](../../aspose.slides/fieldtype/datetime3) { get; } | İngilizce için üçüncü ön tanımlı biçimde (DD Month YYYY) geçerli tarih ve saat. Yalnızca okunabilir [`FieldType`](../fieldtype). |
+| static [DateTime4](../../aspose.slides/fieldtype/datetime4) { get; } | İngilizce için dördüncü ön tanımlı biçimde (Month DD, YYYY) geçerli tarih ve saat. Yalnızca okunabilir [`FieldType`](../fieldtype). |
+| static [DateTime5](../../aspose.slides/fieldtype/datetime5) { get; } | İngilizce için beşinci ön tanımlı biçimde (DD-Mon-YY) geçerli tarih ve saat. Yalnızca okunabilir [`FieldType`](../fieldtype). |
+| static [DateTime6](../../aspose.slides/fieldtype/datetime6) { get; } | İngilizce için altıncı ön tanımlı biçimde (Month YY) geçerli tarih ve saat. Yalnızca okunabilir [`FieldType`](../fieldtype). |
+| static [DateTime7](../../aspose.slides/fieldtype/datetime7) { get; } | İngilizce için yedinci ön tanımlı biçimde (Mon-YY) geçerli tarih ve saat. Yalnızca okunabilir [`FieldType`](../fieldtype). |
+| static [DateTime8](../../aspose.slides/fieldtype/datetime8) { get; } | İngilizce için sekizinci ön tanımlı biçimde (MM/DD/YYYY hh:mm AM/PM) geçerli tarih ve saat. Yalnızca okunabilir [`FieldType`](../fieldtype). |
+| static [DateTime9](../../aspose.slides/fieldtype/datetime9) { get; } | İngilizce için dokuzuncu ön tanımlı biçimde (MM/DD/YYYY hh:mm:ss AM/PM) geçerli tarih ve saat. Yalnızca okunabilir [`FieldType`](../fieldtype). |
+| static [Footer](../../aspose.slides/fieldtype/footer) { get; } | Slayt altbilgisi. Yalnızca okunabilir [`FieldType`](../fieldtype). |
+| static [Header](../../aspose.slides/fieldtype/header) { get; } | Slayt üstbilgisi. Yalnızca okunabilir [`FieldType`](../fieldtype). |
+| static [SlideNumber](../../aspose.slides/fieldtype/slidenumber) { get; } | Geçerli slaytın numarası. Yalnızca okunabilir [`FieldType`](../fieldtype). |
+| [InternalString](../../aspose.slides/fieldtype/internalstring) { get; set; } | Bu FieldType nesnesinin iç adını döndürür. Okunabilir/Yazılabilir String. |
 
 ## Yöntemler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.slides/fieldtype/equals)(object) | Bu alanın başka bir alanla eşit olup olmadığını denetler. |
+| override [Equals](../../aspose.slides/fieldtype/equals)(object) | Bu alanın başka bir alana eşit olup olmadığını denetler. |
 | override [GetHashCode](../../aspose.slides/fieldtype/gethashcode)() | Bu nesne için hashcode döndürür. |
 | [operator ==](../../aspose.slides/fieldtype/op_equality) | İki FieldType nesnesinin eşit olup olmadığını denetler. |
 | [operator !=](../../aspose.slides/fieldtype/op_inequality) | İki FieldType nesnesinin eşit olmadığını denetler. |

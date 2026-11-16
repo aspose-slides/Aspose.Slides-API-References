@@ -1,14 +1,14 @@
 ---
 title: IParagraphFormatEffectiveData
-second_title: Aspose.Sildes a .NET API hivatkozás
-description: Módosíthatatlan objektum, amely a bekezdés hatékony formázási tulajdonságait tartalmazza.
+second_title: Aspose.Sildes a .NET API referenciához
+description: Változtathatatlan objektum, amely a tényleges bekezdésformázási tulajdonságokat tartalmaz.
 type: docs
-weight: 6600
+weight: 6620
 url: /hu/aspose.slides/iparagraphformateffectivedata/
 ---
 ## IParagraphFormatEffectiveData interfész
 
-Módosíthatatlan objektum, amely a bekezdés hatékony formázási tulajdonságait tartalmazza.
+Változtathatatlan objektum, amely a tényleges bekezdésformázási tulajdonságokat tartalmaz.
 
 ```csharp
 public interface IParagraphFormatEffectiveData
@@ -16,29 +16,29 @@ public interface IParagraphFormatEffectiveData
 
 ## Tulajdonságok
 
-| Name | Description |
+| Név | Leírás |
 | --- | --- |
-| [Alignment](../../aspose.slides/iparagraphformateffectivedata/alignment) { get; } | Visszaadja a bekezdés szövegigazítását. Csak olvasható [`TextAlignment`](../textalignment). |
-| [Bullet](../../aspose.slides/iparagraphformateffectivedata/bullet) { get; } | Visszaadja a bekezdés felsorolásformátumát. Csak olvasható [`IBulletFormatEffectiveData`](../ibulletformateffectivedata). |
-| [DefaultPortionFormat](../../aspose.slides/iparagraphformateffectivedata/defaultportionformat) { get; } | Visszaadja a bekezdés alapértelmezett szakaszformátumát. Csak olvasható [`IPortionFormatEffectiveData`](../iportionformateffectivedata). |
+| [Alignment](../../aspose.slides/iparagraphformateffectivedata/alignment) { get; } | Visszaadja a szöveg igazítását egy bekezdésben. Csak olvasható [`TextAlignment`](../textalignment). |
+| [Bullet](../../aspose.slides/iparagraphformateffectivedata/bullet) { get; } | Visszaadja a bekezdés listaformátumát. Csak olvasható [`IBulletFormatEffectiveData`](../ibulletformateffectivedata). |
+| [DefaultPortionFormat](../../aspose.slides/iparagraphformateffectivedata/defaultportionformat) { get; } | Visszaadja a bekezdés alapértelmezett részformátumát. Csak olvasható [`IPortionFormatEffectiveData`](../iportionformateffectivedata). |
 | [DefaultTabSize](../../aspose.slides/iparagraphformateffectivedata/defaulttabsize) { get; } | Visszaadja az alapértelmezett tabuláció méretét. Csak olvasható Single. |
 | [Depth](../../aspose.slides/iparagraphformateffectivedata/depth) { get; } | Visszaadja a bekezdés mélységét. Csak olvasható Int16. |
-| [EastAsianLineBreak](../../aspose.slides/iparagraphformateffectivedata/eastasianlinebreak) { get; } | Megállapítja, hogy a kelet-ázsiai sortörés használatos-e a bekezdésben. Csak olvasható Boolean. |
-| [FontAlignment](../../aspose.slides/iparagraphformateffectivedata/fontalignment) { get; } | Visszaadja a bekezdés betűigazítását. Csak olvasható [`FontAlignment`](../fontalignment). |
-| [HangingPunctuation](../../aspose.slides/iparagraphformateffectivedata/hangingpunctuation) { get; } | Megállapítja, hogy függőleges írásjelek használatosak-e a bekezdésben. Csak olvasható Boolean. |
-| [Indent](../../aspose.slides/iparagraphformateffectivedata/indent) { get; } | Visszaadja a bekezdés első sor behúzását/függő behúzást. A függő behúzás negatív értékekkel is definiálható. Csak olvasható Single. |
-| [LatinLineBreak](../../aspose.slides/iparagraphformateffectivedata/latinlinebreak) { get; } | Megállapítja, hogy a latin sortörés használatos-e a bekezdésben. Csak olvasható Boolean. |
-| [MarginLeft](../../aspose.slides/iparagraphformateffectivedata/marginleft) { get; } | Visszaadja a bekezdés bal margóját. Csak olvasható Single. |
-| [MarginRight](../../aspose.slides/iparagraphformateffectivedata/marginright) { get; } | Visszaadja a bekezdés jobb margóját. Csak olvasható Single. |
-| [RightToLeft](../../aspose.slides/iparagraphformateffectivedata/righttoleft) { get; } | Megállapítja, hogy a jobbról balra írás használatos-e a bekezdésben. Csak olvasható Boolean. |
-| [SpaceAfter](../../aspose.slides/iparagraphformateffectivedata/spaceafter) { get; } | Visszaadja a bekezdés utolsó sor után maradó térköz mennyiségét. Csak olvasható Single. |
-| [SpaceBefore](../../aspose.slides/iparagraphformateffectivedata/spacebefore) { get; } | Visszaadja a bekezdés első sor előtt maradó térköz mennyiségét. Csak olvasható Single. |
-| [SpaceWithin](../../aspose.slides/iparagraphformateffectivedata/spacewithin) { get; } | Visszaadja a bekezdés alapvonalai közötti térköz mennyiségét. Csak olvasható Single. |
+| [EastAsianLineBreak](../../aspose.slides/iparagraphformateffectivedata/eastasianlinebreak) { get; } | Megállapítja, hogy kelet-ázsiai sortörést használnak-e egy bekezdésben. Csak olvasható Boolean. |
+| [FontAlignment](../../aspose.slides/iparagraphformateffectivedata/fontalignment) { get; } | Visszaadja a betűtípus igazítását egy bekezdésben. Csak olvasható [`FontAlignment`](../fontalignment). |
+| [HangingPunctuation](../../aspose.slides/iparagraphformateffectivedata/hangingpunctuation) { get; } | Megállapítja, hogy függőleges írásjelet használnak-e egy bekezdésben. Csak olvasható Boolean. |
+| [Indent](../../aspose.slides/iparagraphformateffectivedata/indent) { get; } | Visszaadja a bekezdés First Line Indent/Hanging Indent értékét. A Hanging Indent negatív értékekkel is megadható. Csak olvasható Single. |
+| [LatinLineBreak](../../aspose.slides/iparagraphformateffectivedata/latinlinebreak) { get; } | Megállapítja, hogy latin sortörést használnak-e egy bekezdésben. Csak olvasható Boolean. |
+| [MarginLeft](../../aspose.slides/iparagraphformateffectivedata/marginleft) { get; } | Visszaadja a bal margót egy bekezdésben. Csak olvasható Single. |
+| [MarginRight](../../aspose.slides/iparagraphformateffectivedata/marginright) { get; } | Visszaadja a jobb margót egy bekezdésben. Csak olvasható Single. |
+| [RightToLeft](../../aspose.slides/iparagraphformateffectivedata/righttoleft) { get; } | Megállapítja, hogy jobbról balra írásmódot használnak-e egy bekezdésben. Csak olvasható Boolean. |
+| [SpaceAfter](../../aspose.slides/iparagraphformateffectivedata/spaceafter) { get; } | Visszaadja az utolsó sor utáni térközt egy bekezdésben. Csak olvasható Single. |
+| [SpaceBefore](../../aspose.slides/iparagraphformateffectivedata/spacebefore) { get; } | Visszaadja az első sor előtti térközt egy bekezdésben. Csak olvasható Single. |
+| [SpaceWithin](../../aspose.slides/iparagraphformateffectivedata/spacewithin) { get; } | Visszaadja az alapvonalak közötti térközt egy bekezdésben. Csak olvasható Single. |
 | [Tabs](../../aspose.slides/iparagraphformateffectivedata/tabs) { get; } | Visszaadja a bekezdés tabulációit. Csak olvasható [`ITabEffectiveData`](../itabeffectivedata)[]. |
 
-### Megjegyzések
+### Megjegyzés
 
-Ez az interfész a [`IParagraphFormat`](../iparagraphformat) interfésszel együtt használható, hogy a származtatással alkalmazott hatékony formázási értékeket adja vissza.
+Ez az interfész a [`IParagraphFormat`](../iparagraphformat) interfésszel együtt használható a öröklődés alkalmazásával kapott tényleges formázási értékek visszaadásához.
 
 ### Lásd még
 

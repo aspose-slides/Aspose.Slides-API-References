@@ -3,7 +3,7 @@ title: RectangleAlignment
 second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 2차원 정렬을 정의합니다.
 type: docs
-weight: 9690
+weight: 9710
 url: /ko/aspose.slides/rectanglealignment/
 ---
 ## RectangleAlignment 열거형
@@ -29,7 +29,7 @@ public enum RectangleAlignment : sbyte
 | Bottom | `7` |  |
 | BottomRight | `8` |  |
 
-### 관련 항목
+### 참조
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

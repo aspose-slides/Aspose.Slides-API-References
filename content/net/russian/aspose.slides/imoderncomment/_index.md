@@ -1,9 +1,9 @@
 ---
 title: IModernComment
-second_title: Справочник API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET справочника API
 description: Представляет комментарий на слайде.
 type: docs
-weight: 6460
+weight: 6480
 url: /ru/aspose.slides/imoderncomment/
 ---
 ## IModernComment интерфейс
@@ -16,7 +16,7 @@ public interface IModernComment : IComment
 
 ## Свойства
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
 | [AsIComment](../../aspose.slides/imoderncomment/asicomment) { get; } | Позволяет получить базовый интерфейс IComment. Только для чтения [`IComment`](../icomment). |
 | [Shape](../../aspose.slides/imoderncomment/shape) { get; } | Возвращает форму, связанную с комментарием. Только для чтения [`IShape`](../ishape). |

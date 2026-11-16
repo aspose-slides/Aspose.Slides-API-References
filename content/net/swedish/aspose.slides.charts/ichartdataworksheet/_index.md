@@ -1,14 +1,14 @@
 ---
 title: IChartDataWorksheet
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar kalkylblad associerat med IChartDataCell./ichartdatacell
+description: Representerar kalkylblad som är associerat med IChartDataCell./ichartdatacell
 type: docs
-weight: 1870
+weight: 1890
 url: /sv/aspose.slides.charts/ichartdataworksheet/
 ---
 ## IChartDataWorksheet gränssnitt
 
-Representerar kalkylbladet som är associerat med [`IChartDataCell`](../ichartdatacell)
+Representerar kalkylblad som är associerat med [`IChartDataCell`](../ichartdatacell)
 
 ```csharp
 public interface IChartDataWorksheet
@@ -16,7 +16,7 @@ public interface IChartDataWorksheet
 
 ## Egenskaper
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
 | [Index](../../aspose.slides.charts/ichartdataworksheet/index) { get; } | Hämtar indexet. Skrivskyddad Int32. |
 | [Name](../../aspose.slides.charts/ichartdataworksheet/name) { get; } | Hämtar namnet. Skrivskyddad String. |

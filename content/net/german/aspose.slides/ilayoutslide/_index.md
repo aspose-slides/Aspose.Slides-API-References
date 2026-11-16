@@ -1,14 +1,14 @@
 ---
 title: ILayoutSlide
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt eine Layout-Folie dar.
+description: Stellt eine Layoutfolie dar.
 type: docs
-weight: 6220
+weight: 6240
 url: /de/aspose.slides/ilayoutslide/
 ---
 ## ILayoutSlide Schnittstelle
 
-Stellt eine Layout-Folien-Instanz dar.
+Stellt eine Layoutfolie dar.
 
 ```csharp
 public interface ILayoutSlide : IBaseSlide, IOverrideThemeable
@@ -18,20 +18,20 @@ public interface ILayoutSlide : IBaseSlide, IOverrideThemeable
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/ilayoutslide/asibaseslide) { get; } | Ermöglicht den Zugriff auf die Basis-IBaseSlide-Schnittstelle. Nur-Lesen [`IBaseSlide`](../ibaseslide). |
-| [AsIOverrideThemeable](../../aspose.slides/ilayoutslide/asioverridethemeable) { get; } | Gibt die IOverrideThemeable-Schnittstelle zurück. Nur-Lesen [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
-| [DrawingGuides](../../aspose.slides/ilayoutslide/drawingguides) { get; } | Gibt eine Sammlung von Zeichen-Hilfslinien für die Layout-Folien zurück. Nur-Lesen [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [HasDependingSlides](../../aspose.slides/ilayoutslide/hasdependingslides) { get; } | Gibt **true** zurück, wenn mindestens eine Folie von dieser Layout-Folien-Instanz abhängt. Nur-Lesen Boolean. |
-| [HeaderFooterManager](../../aspose.slides/ilayoutslide/headerfootermanager) { get; } | Gibt den HeaderFooter-Manager der Layout-Folien-Instanz zurück. Nur-Lesen [`ILayoutSlideHeaderFooterManager`](../ilayoutslideheaderfootermanager). |
-| [LayoutType](../../aspose.slides/ilayoutslide/layouttype) { get; } | Gibt den Layout-Typ dieser Layout-Folien-Instanz zurück. Nur-Lesen [`SlideLayoutType`](../slidelayouttype). |
-| [MasterSlide](../../aspose.slides/ilayoutslide/masterslide) { get; set; } | Gibt den Master-Slide für ein Layout zurück oder legt ihn fest. Lesen/Schreiben [`IMasterSlide`](../imasterslide). |
-| [PlaceholderManager](../../aspose.slides/ilayoutslide/placeholdermanager) { get; } | Gibt den Placeholder-Manager der Layout-Folien-Instanz zurück. Nur-Lesen [`ILayoutPlaceholderManager`](../ilayoutplaceholdermanager). |
+| [AsIBaseSlide](../../aspose.slides/ilayoutslide/asibaseslide) { get; } | Ermöglicht das Abrufen der Basisschnittstelle IBaseSlide. Nur lesbar [`IBaseSlide`](../ibaseslide). |
+| [AsIOverrideThemeable](../../aspose.slides/ilayoutslide/asioverridethemeable) { get; } | Gibt die Schnittstelle IOverrideThemeable zurück. Nur lesbar [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
+| [DrawingGuides](../../aspose.slides/ilayoutslide/drawingguides) { get; } | Gibt eine Sammlung von Zeichenhilfen für die Layoutfolie zurück. Nur lesbar [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [HasDependingSlides](../../aspose.slides/ilayoutslide/hasdependingslides) { get; } | Gibt true zurück, wenn mindestens eine Folie von dieser Layoutfolie abhängt. Nur lesbar Boolean. |
+| [HeaderFooterManager](../../aspose.slides/ilayoutslide/headerfootermanager) { get; } | Gibt den HeaderFooter-Manager der Layoutfolie zurück. Nur lesbar [`ILayoutSlideHeaderFooterManager`](../ilayoutslideheaderfootermanager). |
+| [LayoutType](../../aspose.slides/ilayoutslide/layouttype) { get; } | Gibt den Layouttyp dieser Layoutfolie zurück. Nur lesbar [`SlideLayoutType`](../slidelayouttype). |
+| [MasterSlide](../../aspose.slides/ilayoutslide/masterslide) { get; set; } | Gibt die Masterfolie für ein Layout zurück oder setzt sie. Lesen/Schreiben [`IMasterSlide`](../imasterslide). |
+| [PlaceholderManager](../../aspose.slides/ilayoutslide/placeholdermanager) { get; } | Gibt den Platzhalter-Manager der Layoutfolie zurück. Nur lesbar [`ILayoutPlaceholderManager`](../ilayoutplaceholdermanager). |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [GetDependingSlides](../../aspose.slides/ilayoutslide/getdependingslides)() | Gibt ein Array mit allen Folien zurück, die von dieser Layout-Folien-Instanz abhängen. |
+| [GetDependingSlides](../../aspose.slides/ilayoutslide/getdependingslides)() | Gibt ein Array mit allen Folien zurück, die von dieser Layoutfolie abhängen. |
 | [Remove](../../aspose.slides/ilayoutslide/remove)() | Entfernt das Layout aus der Präsentation. |
 
 ### Siehe auch

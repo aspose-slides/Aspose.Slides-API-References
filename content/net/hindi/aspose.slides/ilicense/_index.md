@@ -1,31 +1,31 @@
 ---
 title: ILicense
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: घटक को लाइसेंस करने के लिए विधियां प्रदान करता है।
+second_title: Aspose.Sildes के लिए .NET API रेफ़रेंस
+description: घटक को लाइसेंस करने के लिए विधियाँ प्रदान करता है।
 type: docs
-weight: 6260
+weight: 6280
 url: /hi/aspose.slides/ilicense/
 ---
-## ILicense इंटरफ़ेस
+## ILicense interface
 
-घटक को लाइसेंस करने के लिए विधियां प्रदान करता है।
+घटक को लाइसेंस करने के लिए विधियाँ प्रदान करता है।
 
 ```csharp
 public interface ILicense
 ```
 
-## विधियां
+## Methods
 
 | नाम | विवरण |
 | --- | --- |
-| [IsLicensed](../../aspose.slides/ilicense/islicensed)() | जाँचें कि क्या लाइसेंस घटक पर लागू है |
-| [ResetLicense](../../aspose.slides/ilicense/resetlicense)() | लाइसेंस को रीसेट करें |
+| [IsLicensed](../../aspose.slides/ilicense/islicensed)() | जांचें कि लाइसेंस घटक पर लागू है या नहीं |
+| [ResetLicense](../../aspose.slides/ilicense/resetlicense)() | लाइसेंस रीसेट करें |
 | [SetLicense](../../aspose.slides/ilicense/setlicense#setlicense)(Stream) | घटक को लाइसेंस करता है। |
 | [SetLicense](../../aspose.slides/ilicense/setlicense#setlicense_1)(string) | घटक को लाइसेंस करता है। |
 
 ### उदाहरण
 
-इस उदाहरण में, घटक को समाहित करने वाली फ़ोल्डर, कॉलिंग असेंबली को समाहित करने वाली फ़ोल्डर, एंट्री असेंबली के फ़ोल्डर, और फिर कॉलिंग असेंबली के एम्बेडेड संसाधनों में MyLicense.lic नामक लाइसेंस फ़ाइल को खोजने का प्रयास किया जाएगा।
+इस उदाहरण में, घटक को शामिल करने वाले फ़ोल्डर, कॉलिंग असेंबली को शामिल करने वाले फ़ोल्डर, एंट्री असेंबली के फ़ोल्डर, और फिर कॉलिंग असेंबली के एम्बेडेड संसाधनों में MyLicense.lic नामक लाइसेंस फ़ाइल को खोजने का प्रयास किया जाएगा।
 
 ```csharp
 [C#]

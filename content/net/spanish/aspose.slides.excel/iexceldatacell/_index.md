@@ -3,7 +3,7 @@ title: IExcelDataCell
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa una única celda en un libro de Excel.
 type: docs
-weight: 3700
+weight: 3720
 url: /es/aspose.slides.excel/iexceldatacell/
 ---
 ## IExcelDataCell interfaz
@@ -18,10 +18,10 @@ public interface IExcelDataCell
 
 | Nombre | Descripción |
 | --- | --- |
-| [Column](../../aspose.slides.excel/iexceldatacell/column) { get; } | Obtiene el índice basado en cero de la columna en la hoja de cálculo donde se encuentra la celda. Solo lectura Int32. |
-| [Name](../../aspose.slides.excel/iexceldatacell/name) { get; } | Obtiene el nombre de la celda de datos del gráfico. Solo lectura String. |
-| [Row](../../aspose.slides.excel/iexceldatacell/row) { get; } | Obtiene el índice basado en cero de la fila en la hoja de cálculo donde se encuentra la celda. Solo lectura Int32. |
-| [Value](../../aspose.slides.excel/iexceldatacell/value) { get; } | Obtiene el valor contenido en la celda de Excel. Solo lectura Object. |
+| [Column](../../aspose.slides.excel/iexceldatacell/column) { get; } | Obtiene el índice basado en cero de la columna en la hoja de cálculo donde se encuentra la celda. Sólo lectura Int32. |
+| [Name](../../aspose.slides.excel/iexceldatacell/name) { get; } | Obtiene el nombre de la celda de datos del gráfico. Sólo lectura String. |
+| [Row](../../aspose.slides.excel/iexceldatacell/row) { get; } | Obtiene el índice basado en cero de la fila en la hoja de cálculo donde se encuentra la celda. Sólo lectura Int32. |
+| [Value](../../aspose.slides.excel/iexceldatacell/value) { get; } | Obtiene el valor contenido en la celda de Excel. Sólo lectura Object. |
 
 ### Ver también
 

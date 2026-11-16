@@ -1,14 +1,14 @@
 ---
 title: OutputFile
-second_title: Aspose.Sildes .NET API-referenciája
-description: Kimeneti fájlt képvisel.
+second_title: Aspose.Sildes .NET API Referenciához
+description: Egy kimeneti fájlt képvisel.
 type: docs
-weight: 4650
+weight: 4670
 url: /hu/aspose.slides.export.web/outputfile/
 ---
 ## OutputFile osztály
 
-Kimeneti fájlt képvisel.
+Képviseli egy kimeneti fájlt.
 
 ```csharp
 public abstract class OutputFile : IOutputFile
@@ -18,7 +18,7 @@ public abstract class OutputFile : IOutputFile
 
 | Név | Leírás |
 | --- | --- |
-| abstract [Write](../../aspose.slides.export.web/outputfile/write)(Stream) | A fájl tartalmát a stream-be írja. |
+| abstract [Write](../../aspose.slides.export.web/outputfile/write)(Stream) | A fájl tartalmát a streambe írja. |
 
 ### Lásd még
 

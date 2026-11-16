@@ -1,14 +1,14 @@
 ---
 title: IChartDataPointLevel
-second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
-description: แสดงระดับจุดข้อมูล ใช้กับแผนภูมิ Treemap และแผนภูมิ Sunburst
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงระดับจุดข้อมูล. ใช้กับแผนภูมิ Treemap และ Sunburst.
 type: docs
-weight: 1840
+weight: 1860
 url: /th/aspose.slides.charts/ichartdatapointlevel/
 ---
 ## IChartDataPointLevel อินเทอร์เฟซ
 
-แสดงระดับจุดข้อมูล ใช้กับแผนภูมิ Treemap และ Sunburst chart.
+แสดงระดับจุดข้อมูล. ใช้กับแผนภูมิ Treemap และ Sunburst.
 
 ```csharp
 public interface IChartDataPointLevel
@@ -16,10 +16,10 @@ public interface IChartDataPointLevel
 
 ## คุณสมบัติ
 
-| Name | Description |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Format](../../aspose.slides.charts/ichartdatapointlevel/format) { get; } | แสดงคุณสมบัติการจัดรูปแบบของระดับจุดข้อมูล อ่าน/เขียน [`IFormat`](../iformat). |
-| [Label](../../aspose.slides.charts/ichartdatapointlevel/label) { get; } | แสดงป้ายข้อมูลของระดับจุดข้อมูล ใช้กับประเภทชุดข้อมูล Treemap และ Sunburst อ่านอย่างเดียว [`IDataLabel`](../idatalabel). |
+| [Format](../../aspose.slides.charts/ichartdatapointlevel/format) { get; } | แสดงคุณสมบัติการจัดรูปแบบของระดับจุดข้อมูล. อ่าน/เขียน [`IFormat`](../iformat). |
+| [Label](../../aspose.slides.charts/ichartdatapointlevel/label) { get; } | แสดงป้ายกำกับข้อมูลของระดับจุดข้อมูล. ใช้สำหรับประเภทแผนภูมิ Treemap และ Sunburst. อ่านอย่างเดียว [`IDataLabel`](../idatalabel). |
 
 ### ดูเพิ่มเติม
 

@@ -1,14 +1,14 @@
 ---
 title: IFontFallBackRule
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een fontfallback-regel voor
+description: Stelt de font fallback regel voor
 type: docs
-weight: 5850
+weight: 5870
 url: /nl/aspose.slides/ifontfallbackrule/
 ---
 ## IFontFallBackRule interface
 
-Stelt een fontfallback-regel voor
+Stelt de font fallback regel voor
 
 ```csharp
 public interface IFontFallBackRule
@@ -16,25 +16,25 @@ public interface IFontFallBackRule
 
 ## Eigenschappen
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides/ifontfallbackrule/count) { get; } | Haalt het aantal lettertypen op dat daadwerkelijk is gedefinieerd voor het bereik. |
-| [Item](../../aspose.slides/ifontfallbackrule/item) { get; } | Haalt de naam van het lettertype op op de opgegeven index. |
-| [RangeEndIndex](../../aspose.slides/ifontfallbackrule/rangeendindex) { get; } | Haalt de laatste index van een doorlopend Unicode-bereik op. |
-| [RangeStartIndex](../../aspose.slides/ifontfallbackrule/rangestartindex) { get; } | Haalt de eerste index van een doorlopend Unicode-bereik op. |
+| [Count](../../aspose.slides/ifontfallbackrule/count) { get; } | Haalt het aantal fonts op dat daadwerkelijk voor het bereik is gedefinieerd. |
+| [Item](../../aspose.slides/ifontfallbackrule/item) { get; } | Haalt de fontnaam op op de opgegeven index. |
+| [RangeEndIndex](../../aspose.slides/ifontfallbackrule/rangeendindex) { get; } | Haalt de laatste index van een continu Unicode-bereik op. |
+| [RangeStartIndex](../../aspose.slides/ifontfallbackrule/rangestartindex) { get; } | Haalt de eerste index van een continu Unicode-bereik op. |
 
 ## Methoden
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
-| [AddFallBackFonts](../../aspose.slides/ifontfallbackrule/addfallbackfonts#addfallbackfonts)(string) | Voegt een nieuw lettertype(s) toe aan de lijst met fallback-lettertypen. |
-| [AddFallBackFonts](../../aspose.slides/ifontfallbackrule/addfallbackfonts#addfallbackfonts_1)(string[]) | Voegt nieuwe lettertypen toe aan de lijst met fallback-lettertypen. |
-| [Clear](../../aspose.slides/ifontfallbackrule/clear)() | Verwijdert alle lettertypen uit de lijst. |
+| [AddFallBackFonts](../../aspose.slides/ifontfallbackrule/addfallbackfonts#addfallbackfonts)(string) | Voegt een nieuw(e) font(s) toe aan de lijst met FallBack-fonts. |
+| [AddFallBackFonts](../../aspose.slides/ifontfallbackrule/addfallbackfonts#addfallbackfonts_1)(string[]) | Voegt nieuwe fonts toe aan de lijst met FallBack-fonts. |
+| [Clear](../../aspose.slides/ifontfallbackrule/clear)() | Verwijdert alle fonts uit de lijst. |
 | [IndexOf](../../aspose.slides/ifontfallbackrule/indexof)(string) | Retourneert de index van de opgegeven regel in de collectie. |
-| [Remove](../../aspose.slides/ifontfallbackrule/remove)(string) | Verwijdert de eerste voorkomens van een specifiek fallback-lettertype uit de lijst. |
-| [RemoveAt](../../aspose.slides/ifontfallbackrule/removeat)(int) | Verwijdert het fallback-lettertype op de opgegeven index in de lijst. |
-| [ToArray](../../aspose.slides/ifontfallbackrule/toarray#toarray)() | Maakt een array met alle fallback-lettertypen voor deze regel en retourneert deze. |
-| [ToArray](../../aspose.slides/ifontfallbackrule/toarray#toarray_1)(int, int) | Maakt een array met alle fallback-lettertypen uit het opgegeven bereik in de lijst en retourneert deze. |
+| [Remove](../../aspose.slides/ifontfallbackrule/remove)(string) | Verwijdert het eerste voorkomen van een specifiek FallBack-font uit de lijst. |
+| [RemoveAt](../../aspose.slides/ifontfallbackrule/removeat)(int) | Verwijdert het FallBack-font op de opgegeven index in de lijst. |
+| [ToArray](../../aspose.slides/ifontfallbackrule/toarray#toarray)() | Maakt een array met alle FallBack-fonts voor deze regel en retourneert deze. |
+| [ToArray](../../aspose.slides/ifontfallbackrule/toarray#toarray_1)(int, int) | Maakt een array met alle FallBack-fonts van het opgegeven bereik in de lijst en retourneert deze. |
 
 ### Zie ook
 

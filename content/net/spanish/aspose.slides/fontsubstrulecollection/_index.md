@@ -1,9 +1,9 @@
 ---
 title: FontSubstRuleCollection
-second_title: Aspose.Sildes para la referencia de API de .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa una colección de sustitución de fuentes.
 type: docs
-weight: 4900
+weight: 4920
 url: /es/aspose.slides/fontsubstrulecollection/
 ---
 ## FontSubstRuleCollection clase
@@ -33,12 +33,12 @@ public class FontSubstRuleCollection : IFontSubstRuleCollection
 
 | Nombre | Descripción |
 | --- | --- |
-| [Add](../../aspose.slides/fontsubstrulecollection/add)(IFontSubstRule) | Agrega la nueva regla de sustitución de fuentes a la colección |
+| [Add](../../aspose.slides/fontsubstrulecollection/add)(IFontSubstRule) | Añade la nueva regla de sustitución de fuentes a la colección |
 | [CopyTo](../../aspose.slides/fontsubstrulecollection/copyto)(Array, int) | Copia todos los elementos de la colección al array especificado. |
-| [GetEnumerator](../../aspose.slides/fontsubstrulecollection/getenumerator)() | Devuelve un enumerador que itera a través de la colección. |
-| [Remove](../../aspose.slides/fontsubstrulecollection/remove)(IFontSubstRule) | Elimina la primera ocurrencia de un objeto específico de la colección. |
+| [GetEnumerator](../../aspose.slides/fontsubstrulecollection/getenumerator)() | Devuelve un enumerador que recorre la colección. |
+| [Remove](../../aspose.slides/fontsubstrulecollection/remove)(IFontSubstRule) | Elimina la primera aparición de un objeto específico de la colección. |
 
-### Ver también
+### Véase también
 
 * interfaz [IFontSubstRuleCollection](../ifontsubstrulecollection)
 * espacio de nombres [Aspose.Slides](../../aspose.slides)

@@ -1,14 +1,14 @@
 ---
 title: IAlphaModulateFixed
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt einen Alpha Modulate Fixed-Effekt dar. Effekt-Alpha-Opacity-Werte werden mit einem festen Prozentsatz multipliziert.
+description: Stellt einen Alpha Modulate Fixed-Effekt dar. Alpha-Opazitätswerte des Effekts werden mit einem festen Prozentsatz multipliziert.
 type: docs
-weight: 3120
+weight: 3140
 url: /de/aspose.slides.effects/ialphamodulatefixed/
 ---
 ## IAlphaModulateFixed Schnittstelle
 
-Stellt einen Alpha Modulate Fixed-Effekt dar. Effekt-Alpha (Transparenz) Werte werden mit einem festen Prozentsatz multipliziert.
+Stellt einen Alpha Modulate Fixed-Effekt dar. Effekt-Alpha-(Opazität)-Werte werden mit einem festen Prozentsatz multipliziert.
 
 ```csharp
 public interface IAlphaModulateFixed : IAccessiblePVIObject<IAlphaModulateFixedEffectiveData>, 
@@ -19,9 +19,9 @@ public interface IAlphaModulateFixed : IAccessiblePVIObject<IAlphaModulateFixedE
 
 | Name | Beschreibung |
 | --- | --- |
-| [Amount](../../aspose.slides.effects/ialphamodulatefixed/amount) { get; set; } | Gibt einen Effektwert in Prozent zurück. Lesen/Schreiben Single. |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphamodulatefixed/asiaccessiblepviobject) { get; } | Ermöglicht das Abrufen der Basis-IAccessiblePVIObject-Schnittstelle. Nur lesbar [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphamodulatefixed/asiimagetransformoperation) { get; } | Ermöglicht das Abrufen der Basis-IImageTransformOperation-Schnittstelle. Nur lesbar [`IImageTransformOperation`](../iimagetransformoperation). |
+| [Amount](../../aspose.slides.effects/ialphamodulatefixed/amount) { get; set; } | Gibt einen Betrag des Effekts in Prozent zurück. Lesen/Schreiben Single. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphamodulatefixed/asiaccessiblepviobject) { get; } | Ermöglicht den Zugriff auf die Basis-IAccessiblePVIObject-Schnittstelle. Nur-Lese [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphamodulatefixed/asiimagetransformoperation) { get; } | Ermöglicht den Zugriff auf die Basis-IImageTransformOperation-Schnittstelle. Nur-Lese [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### Siehe auch
 

@@ -1,14 +1,14 @@
 ---
 title: ForEach.ForEachPortionCallback
 second_title: Aspose.Sildes pro .NET API Reference
-description: Zpětné volání, které bude vyvoláno pro každý Portion./foreach/portion v Paragraph./foreach/paragraph na BaseSlide../aspose.slides/baseslide.
+description: Callback, který bude volán pro každou Portion./foreach/portion v Paragraph./foreach/paragraph na BaseSlide../aspose.slides/baseslide.
 type: docs
-weight: 7940
+weight: 7960
 url: /cs/aspose.slides.lowcode/foreach.foreachportioncallback/
 ---
 ## ForEach.ForEachPortionCallback delegate
 
-Zpětné volání, které bude vyvoláno pro každý [`Portion`](../foreach/portion) v [`Paragraph`](../foreach/paragraph) na [`BaseSlide`](../../aspose.slides/baseslide).
+Callback, který bude volán pro každý [`Portion`](../foreach/portion) v [`Paragraph`](../foreach/paragraph) na [`BaseSlide`](../../aspose.slides/baseslide).
 
 ```csharp
 public delegate void ForEachPortionCallback(Portion portion, Paragraph para, BaseSlide slide, 

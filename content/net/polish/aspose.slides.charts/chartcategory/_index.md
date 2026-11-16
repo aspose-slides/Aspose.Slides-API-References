@@ -1,12 +1,12 @@
 ---
 title: ChartCategory
-second_title: Aspose.Sildes dla .NET – Referencja API
+second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Reprezentuje kategorie wykresu.
 type: docs
-weight: 1270
+weight: 1280
 url: /pl/aspose.slides.charts/chartcategory/
 ---
-## Klasa ChartCategory
+## ChartCategory klasa
 
 Reprezentuje kategorie wykresu.
 
@@ -16,17 +16,18 @@ public class ChartCategory : IChartCategory
 
 ## Właściwości
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
 | [AsCell](../../aspose.slides.charts/chartcategory/ascell) { get; set; } | Zwraca lub ustawia obiekt IChartDataCell. Jeśli kategoria jest wielopoziomowa, używany jest obiekt IChartDataCell dla poziomu "0". Odczyt/zapis [`IChartDataCell`](../ichartdatacell). |
 | [AsLiteral](../../aspose.slides.charts/chartcategory/asliteral) { get; set; } | Zwraca lub ustawia obiekt AsLiteral. Odczyt/zapis Obiekt. |
+| [CachedValue](../../aspose.slides.charts/chartcategory/cachedvalue) { get; } | Pobiera buforowaną wartość kategorii wykresu. Tylko do odczytu [`ICachedChartValue`](../icachedchartvalue). |
 | [GroupingLevels](../../aspose.slides.charts/chartcategory/groupinglevels) { get; } | Zarządzany kontener wartości poziomów grupowania kategorii wykresu. Kategoria wielopoziomowa zawiera więcej niż jeden poziom grupowania. Indeksowanie poziomów grupowania rozpoczyna się od zera. Tylko do odczytu [`IChartCategoryLevelsManager`](../ichartcategorylevelsmanager). |
-| [UseCell](../../aspose.slides.charts/chartcategory/usecell) { get; } | Jeśli prawda, właściwość AsCell jest aktualna. Innymi słowy, arkusz jest używany do przechowywania kategorii (ten przypadek obsługuje kategorię wielopoziomową). Jeśli fałsz, właściwość AsLiteral jest aktualna. Innymi słowy, arkusz NIE jest używany do przechowywania kategorii (i ten przypadek nie obsługuje kategorii wielopoziomowych). Tylko do odczytu Boolean. |
-| [Value](../../aspose.slides.charts/chartcategory/value) { get; set; } | Jeśli UseCell jest prawda, ta właściwość reprezentuje właściwość AsCell.Value. Jeśli UseCell jest fałsz, ta właściwość reprezentuje właściwość AsLiteral. Odczyt/zapis Obiekt. |
+| [UseCell](../../aspose.slides.charts/chartcategory/usecell) { get; } | Jeśli true, właściwość AsCell jest aktualna. Innymi słowy, arkusz jest używany do przechowywania kategorii (ten przypadek obsługuje kategorię wielopoziomową). Jeśli false, właściwość AsLiteral jest aktualna. Innymi słowy, arkusz NIE jest używany do przechowywania kategorii (i ten przypadek nie obsługuje kategorii wielopoziomowych). Tylko do odczytu Boolean. |
+| [Value](../../aspose.slides.charts/chartcategory/value) { get; set; } | Jeśli UseCell jest true, ta właściwość reprezentuje właściwość AsCell.Value. Jeśli UseCell jest false, ta właściwość reprezentuje właściwość AsLiteral. Odczyt/zapis Obiekt. |
 
 ## Metody
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
 | [Remove](../../aspose.slides.charts/chartcategory/remove)() | Usuwa kategorię z wykresu. |
 

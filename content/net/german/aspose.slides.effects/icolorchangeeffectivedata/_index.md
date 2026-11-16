@@ -1,9 +1,9 @@
 ---
 title: IColorChangeEffectiveData
-second_title: Aspose.Sildes für .NET API Referenz
-description: Unveränderliches Objekt, das einen Color-Change-Effekt darstellt. Instanzen von FromColor werden durch Instanzen von ToColor ersetzt.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Unveränderliches Objekt, das einen Color Change-Effekt darstellt. Instanzen von FromColor werden durch Instanzen von ToColor ersetzt.
 type: docs
-weight: 3230
+weight: 3250
 url: /de/aspose.slides.effects/icolorchangeeffectivedata/
 ---
 ## IColorChangeEffectiveData Schnittstelle
@@ -18,10 +18,10 @@ public interface IColorChangeEffectiveData : IEffectEffectiveData
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/icolorchangeeffectivedata/asieffecteffectivedata) { get; } | Ermöglicht den Zugriff auf die Basis-Schnittstelle IEffectEffectiveData. Nur-Lese [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [FromColor](../../aspose.slides.effects/icolorchangeeffectivedata/fromcolor) { get; } | Farbe, die ersetzt wird. Nur-Lese Color. |
-| [ToColor](../../aspose.slides.effects/icolorchangeeffectivedata/tocolor) { get; } | Farbe, die ersetzen wird. Nur-Lese Color. |
-| [UseAlpha](../../aspose.slides.effects/icolorchangeeffectivedata/usealpha) { get; } | Gibt einen booleschen Wert zurück, der bestimmt, ob die Alpha-Komponente verwendet werden soll. Nur-Lese Boolean. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/icolorchangeeffectivedata/asieffecteffectivedata) { get; } | Ermöglicht das Abrufen der Basis-IEffectEffectiveData-Schnittstelle. Nur-Lesen [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [FromColor](../../aspose.slides.effects/icolorchangeeffectivedata/fromcolor) { get; } | Farbe, die ersetzt wird. Nur-Lesen Color. |
+| [ToColor](../../aspose.slides.effects/icolorchangeeffectivedata/tocolor) { get; } | Farbe, die ersetzt. Nur-Lesen Color. |
+| [UseAlpha](../../aspose.slides.effects/icolorchangeeffectivedata/usealpha) { get; } | Gibt einen Boolean-Wert zurück, der bestimmt, ob die Alpha-Komponente verwendet werden soll. Nur-Lesen Boolean. |
 
 ### Siehe auch
 

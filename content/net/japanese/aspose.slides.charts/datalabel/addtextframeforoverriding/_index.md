@@ -1,20 +1,20 @@
 ---
 title: AddTextFrameForOverriding
 second_title: Aspose.Sildes for .NET API リファレンス
-description: パラメータ text のテキストで TextFrameForOverriding を初期化します。TextFrameForOverriding がすでに初期化されている場合は、単にそのテキストを変更します。
+description: パラメーター text のテキストで TextFrameForOverriding を初期化します。TextFrameForOverriding がすでに初期化されている場合は、単にそのテキストを変更します。
 type: docs
-weight: 180
+weight: 190
 url: /ja/aspose.slides.charts/datalabel/addtextframeforoverriding/
 ---
 ## DataLabel.AddTextFrameForOverriding メソッド
 
-パラメータ "text" のテキストで TextFrameForOverriding を初期化します。TextFrameForOverriding がすでに初期化されている場合は、単にそのテキストを変更します。
+TextFrameForOverriding をパラメーター「text」のテキストで初期化します。TextFrameForOverriding がすでに初期化されている場合は、単にそのテキストを変更します。
 
 ```csharp
 public ITextFrame AddTextFrameForOverriding(string text)
 ```
 
-| パラメータ | 型 | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | text | String | 新しい TextFrameForOverriding 用のテキスト。 |
 

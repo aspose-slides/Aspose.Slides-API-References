@@ -1,14 +1,14 @@
 ---
 title: FontStyleType
-second_title: Aspose.Sildes .NET API 参考
-description: 定义可应用于文本的格式化样式。
+second_title: Aspose.Sildes for .NET API 参考
+description: 定义可应用于文本的格式样式。
 type: docs
-weight: 4870
+weight: 4890
 url: /zh/aspose.slides/fontstyletype/
 ---
 ## FontStyleType 枚举
 
-定义可应用于文本的格式化样式。
+定义可应用于文本的格式样式。
 
 ```csharp
 [Flags]
@@ -23,9 +23,9 @@ public enum FontStyleType
 | Bold | `1` | 粗体文本。 |
 | Italic | `2` | 斜体文本。 |
 | Underline | `4` | 带下划线的文本。 |
-| Strikeout | `8` | 被水平线划掉的文本。 |
+| Strikeout | `8` | 带水平线划去的文本。 |
 
-### 另见
+### 另请参见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

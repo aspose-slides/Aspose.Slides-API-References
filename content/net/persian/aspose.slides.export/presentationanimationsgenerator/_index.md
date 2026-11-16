@@ -1,25 +1,25 @@
 ---
 title: PresentationAnimationsGenerator
 second_title: Aspose.Sildes برای .NET مرجع API
-description: نمایانگر یک سازندهٔ انیمیشن‌ها در Presentation../aspose.slides/presentation.
+description: نمایانگر یک ژنراتور برای انیمیشن‌ها در Presentation../aspose.slides/presentation.
 type: docs
-weight: 4380
+weight: 4400
 url: /fa/aspose.slides.export/presentationanimationsgenerator/
 ---
 ## PresentationAnimationsGenerator کلاس
 
-نمادی از یک سازنده انیمیشن‌ها در [`Presentation`](../../aspose.slides/presentation) را نشان می‌دهد.
+نمایانگر یک ژنراتور از انیمیشن‌ها در [`Presentation`](../../aspose.slides/presentation) است.
 
 ```csharp
 public class PresentationAnimationsGenerator : IDisposable
 ```
 
-## سازندگان
+## سازنده‌ها
 
 | نام | توضیح |
 | --- | --- |
-| [PresentationAnimationsGenerator](presentationanimationsgenerator#constructor)(Presentation) | یک نمونه جدید از [`PresentationAnimationsGenerator`](../presentationanimationsgenerator) ایجاد می‌کند. |
-| [PresentationAnimationsGenerator](presentationanimationsgenerator#constructor_1)(Size) | یک نمونه جدید از [`PresentationAnimationsGenerator`](../presentationanimationsgenerator) ایجاد می‌کند. |
+| [PresentationAnimationsGenerator](presentationanimationsgenerator#constructor)(Presentation) | یک نمونه جدید از [`PresentationAnimationsGenerator`](../presentationanimationsgenerator) را ایجاد می‌کند. |
+| [PresentationAnimationsGenerator](presentationanimationsgenerator#constructor_1)(Size) | یک نمونه جدید از [`PresentationAnimationsGenerator`](../presentationanimationsgenerator) را ایجاد می‌کند. |
 
 ## ویژگی‌ها
 
@@ -68,7 +68,7 @@ using (Presentation presentation = new Presentation("animated.pptx"))
 }
 ```
 
-### موارد مرتبط
+### مراجع دیگر
 
 * namespace [Aspose.Slides.Export](../../aspose.slides.export)
 * assembly [Aspose.Slides](../../)

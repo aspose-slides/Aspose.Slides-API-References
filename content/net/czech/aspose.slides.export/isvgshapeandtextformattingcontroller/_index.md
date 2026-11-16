@@ -1,14 +1,14 @@
 ---
 title: ISvgShapeAndTextFormattingController
 second_title: Aspose.Sildes pro .NET API Reference
-description: Řídí generování SVG tvaru a textu.
+description: Řídí generování tvarů SVG a textu.
 type: docs
-weight: 4120
+weight: 4140
 url: /cs/aspose.slides.export/isvgshapeandtextformattingcontroller/
 ---
 ## ISvgShapeAndTextFormattingController rozhraní
 
-Řídí generování SVG tvaru a textu.
+Řídí generování tvarů SVG a textu.
 
 ```csharp
 public interface ISvgShapeAndTextFormattingController : ISvgShapeFormattingController
@@ -24,7 +24,7 @@ public interface ISvgShapeAndTextFormattingController : ISvgShapeFormattingContr
 
 | Název | Popis |
 | --- | --- |
-| [FormatText](../../aspose.slides.export/isvgshapeandtextformattingcontroller/formattext)(ISvgTSpan, IPortion, ITextFrame) | Tato funkce je volána před vykreslením textové části do SVG, aby uživatel mohl ovládat výsledné SVG. |
+| [FormatText](../../aspose.slides.export/isvgshapeandtextformattingcontroller/formattext)(ISvgTSpan, IPortion, ITextFrame) | Tato funkce je volána před vykreslením textové části do SVG, aby uživatel mohl řídit výsledné SVG. |
 
 ### Příklady
 

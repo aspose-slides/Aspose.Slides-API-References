@@ -1,14 +1,14 @@
 ---
 title: GroupShapeLock
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 親 GroupShape で無効化される操作を決定します。
+description: 親の GroupShape で無効となっている操作を決定します。
 type: docs
-weight: 5100
+weight: 5120
 url: /ja/aspose.slides/groupshapelock/
 ---
 ## GroupShapeLock クラス
 
-親 GroupShape で無効化されている操作を決定します。
+親の GroupShape で無効になっている操作を決定します。
 
 ```csharp
 public class GroupShapeLock : BaseShapeLock, IGroupShapeLock
@@ -18,16 +18,16 @@ public class GroupShapeLock : BaseShapeLock, IGroupShapeLock
 
 | 名前 | 説明 |
 | --- | --- |
-| [AspectRatioLocked](../../aspose.slides/groupshapelock/aspectratiolocked) { get; set; } | リサイズ時に形状がアスペクト比を保持する必要があるかどうかを決定します。読み取り/書き込み Boolean. |
-| [GroupingLocked](../../aspose.slides/groupshapelock/groupinglocked) { get; set; } | この形状をグループに追加できないかどうかを決定します。読み取り/書き込み Boolean. |
-| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | すべてのロックフラグが無効な場合は true を返します。読み取り専用 Boolean. |
-| [PositionLocked](../../aspose.slides/groupshapelock/positionlocked) { get; set; } | この形状の移動が禁止されているかどうかを決定します。読み取り/書き込み Boolean. |
-| [RotationLocked](../../aspose.slides/groupshapelock/rotationlocked) { get; set; } | この形状の回転角度の変更が禁止されているかどうかを決定します。読み取り/書き込み Boolean. |
-| [SelectLocked](../../aspose.slides/groupshapelock/selectlocked) { get; set; } | この形状の選択が禁止されているかどうかを決定します。読み取り/書き込み Boolean. |
-| [SizeLocked](../../aspose.slides/groupshapelock/sizelocked) { get; set; } | この形状のサイズ変更が禁止されているかどうかを決定します。読み取り/書き込み Boolean. |
-| [UngroupingLocked](../../aspose.slides/groupshapelock/ungroupinglocked) { get; set; } | このグループ形状の分割が禁止されているかどうかを決定します。読み取り/書き込み Boolean. |
+| [AspectRatioLocked](../../aspose.slides/groupshapelock/aspectratiolocked) { get; set; } | サイズ変更時にシェイプがアスペクト比を保持するかどうかを決定します。読み取り/書き込み Boolean。 |
+| [GroupingLocked](../../aspose.slides/groupshapelock/groupinglocked) { get; set; } | このシェイプをグループに追加できないかどうかを決定します。読み取り/書き込み Boolean。 |
+| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | すべてのロックフラグが無効な場合に true を返します。読み取り専用 Boolean。 |
+| [PositionLocked](../../aspose.slides/groupshapelock/positionlocked) { get; set; } | このシェイプの移動が禁止されているかどうかを決定します。読み取り/書き込み Boolean。 |
+| [RotationLocked](../../aspose.slides/groupshapelock/rotationlocked) { get; set; } | このシェイプの回転角度の変更が禁止されているかどうかを決定します。読み取り/書き込み Boolean。 |
+| [SelectLocked](../../aspose.slides/groupshapelock/selectlocked) { get; set; } | このシェイプの選択が禁止されているかどうかを決定します。読み取り/書き込み Boolean。 |
+| [SizeLocked](../../aspose.slides/groupshapelock/sizelocked) { get; set; } | このシェイプのサイズ変更が禁止されているかどうかを決定します。読み取り/書き込み Boolean。 |
+| [UngroupingLocked](../../aspose.slides/groupshapelock/ungroupinglocked) { get; set; } | この GroupShape を分割できないかどうかを決定します。読み取り/書き込み Boolean。 |
 
-### 関連項目
+### 参照
 
 * クラス [BaseShapeLock](../baseshapelock)
 * インターフェイス [IGroupShapeLock](../igroupshapelock)

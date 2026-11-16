@@ -1,14 +1,14 @@
 ---
 title: IEffectStyle
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Repräsentiert einen Effektstil.
+description: Stellt einen Effektstil dar.
 type: docs
-weight: 11170
+weight: 11190
 url: /de/aspose.slides.theme/ieffectstyle/
 ---
 ## IEffectStyle Schnittstelle
 
-Repräsentiert einen Effektstil.
+Stellt einen Effektstil dar.
 
 ```csharp
 public interface IEffectStyle

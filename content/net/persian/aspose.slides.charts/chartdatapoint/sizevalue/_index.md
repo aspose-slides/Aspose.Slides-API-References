@@ -1,20 +1,20 @@
 ---
 title: SizeValue
-second_title: Aspose.Sildes برای .NET API Reference
-description: مقدار اندازه نقطه دادهٔ نمودار را برمی‌گرداند. در نمودارهای Treemap و Sunburst استفاده می‌شود. فقط-خواندنی IDoubleChartValueaspose.slides.charts/idoublechartvalue.
+second_title: Aspose.Sildes برای .NET مرجع API
+description: مقدار اندازه نقطه داده نمودار را برمی‌گرداند. برای نمودارهای Treemap و Sunburst استفاده می‌شود. فقط خواندنی IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
-weight: 180
+weight: 220
 url: /fa/aspose.slides.charts/chartdatapoint/sizevalue/
 ---
 ## ChartDataPoint.SizeValue ویژگی
 
-مقدار اندازه نقطه دادهٔ نمودار را برمی‌گرداند. در نمودارهای Treemap و Sunburst استفاده می‌شود. فقط‌خواندنی [`IDoubleChartValue`](../../idoublechartvalue).
+مقدار اندازه نقطه داده نمودار را برمی‌گرداند. برای نمودارهای Treemap و Sunburst استفاده می‌شود. فقط خواندنی [`IDoubleChartValue`](../../idoublechartvalue).
 
 ```csharp
 public IDoubleChartValue SizeValue { get; }
 ```
 
-### موارد مرتبط
+### موارد دیگر
 
 * رابط [IDoubleChartValue](../../idoublechartvalue)
 * کلاس [ChartDataPoint](../../chartdatapoint)

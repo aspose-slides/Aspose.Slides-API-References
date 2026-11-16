@@ -1,14 +1,14 @@
 ---
 title: X
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mengembalikan atau mengatur koordinat x dari judul sebagai fraksi lebar diagram. Baca/tulis Single.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Mengembalikan atau mengatur koordinat x dari judul sebagai pecahan lebar bagan. Baca/tulis Single.
 type: docs
-weight: 160
+weight: 170
 url: /id/aspose.slides.charts/datalabel/x/
 ---
 ## DataLabel.X properti
 
-Mengembalikan atau mengatur koordinat x dari judul sebagai fraksi lebar diagram. Baca/tulis Single.
+Mengembalikan atau mengatur koordinat x dari judul sebagai pecahan lebar bagan. Baca/tulis Single.
 
 ```csharp
 public float X { get; set; }

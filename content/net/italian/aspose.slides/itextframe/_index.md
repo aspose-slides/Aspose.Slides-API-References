@@ -3,10 +3,10 @@ title: ITextFrame
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta un TextFrame.
 type: docs
-weight: 7270
+weight: 7290
 url: /it/aspose.slides/itextframe/
 ---
-## Interfaccia ITextFrame
+## ITextFrame interfaccia
 
 Rappresenta un TextFrame.
 
@@ -18,27 +18,28 @@ public interface ITextFrame : ISlideComponent
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides/itextframe/asislidecomponent) { get; } | Consente di ottenere l'interfaccia base ISlideComponent. Solo lettura [`ISlideComponent`](../islidecomponent). |
-| [HyperlinkQueries](../../aspose.slides/itextframe/hyperlinkqueries) { get; } | Fornisce un accesso semplice ai collegamenti ipertestuali contenuti. Solo lettura [`IHyperlinkQueries`](../ihyperlinkqueries). |
-| [Paragraphs](../../aspose.slides/itextframe/paragraphs) { get; } | Restituisce l'elenco di tutti i paragrafi in una cornice. Solo lettura [`IParagraphCollection`](../iparagraphcollection). |
-| [ParentCell](../../aspose.slides/itextframe/parentcell) { get; } | Restituisce la cella genitore o null se l'oggetto genitore non implementa l'interfaccia ICell. Solo lettura [`ICell`](../icell). |
-| [ParentShape](../../aspose.slides/itextframe/parentshape) { get; } | Restituisce la forma genitore o null se l'oggetto genitore non implementa l'interfaccia IShape. Solo lettura [`IShape`](../ishape). |
+| [AsISlideComponent](../../aspose.slides/itextframe/asislidecomponent) { get; } | Consente di ottenere l'interfaccia base ISlideComponent. Sola lettura [`ISlideComponent`](../islidecomponent). |
+| [HyperlinkQueries](../../aspose.slides/itextframe/hyperlinkqueries) { get; } | Fornisce un facile accesso ai collegamenti ipertestuali contenuti. Sola lettura [`IHyperlinkQueries`](../ihyperlinkqueries). |
+| [Paragraphs](../../aspose.slides/itextframe/paragraphs) { get; } | Restituisce l'elenco di tutti i paragrafi in un frame. Sola lettura [`IParagraphCollection`](../iparagraphcollection). |
+| [ParentCell](../../aspose.slides/itextframe/parentcell) { get; } | Restituisce la cella padre o null se l'oggetto padre non implementa l'interfaccia ICell. Sola lettura [`ICell`](../icell). |
+| [ParentShape](../../aspose.slides/itextframe/parentshape) { get; } | Restituisce la forma padre o null se l'oggetto padre non implementa l'interfaccia IShape. Sola lettura [`IShape`](../ishape). |
 | [Text](../../aspose.slides/itextframe/text) { get; set; } | Ottiene o imposta il testo semplice per un TextFrame. Lettura/scrittura String. |
-| [TextFrameFormat](../../aspose.slides/itextframe/textframeformat) { get; } | Restituisce l'oggetto di formattazione per questo oggetto TextFrame. Solo lettura [`ITextFrameFormat`](../itextframeformat). |
+| [TextFrameFormat](../../aspose.slides/itextframe/textframeformat) { get; } | Restituisce l'oggetto di formattazione per questo oggetto TextFrame. Sola lettura [`ITextFrameFormat`](../itextframeformat). |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
+| [GetTextRect](../../aspose.slides/itextframe/gettextrect)() | Restituisce il rettangolo di testo definito dalla geometria della forma padre. |
 | [HighlightRegex](../../aspose.slides/itextframe/highlightregex#highlightregex_1)(Regex, Color, IFindResultCallback) | Evidenzia tutte le corrispondenze dell'espressione regolare con il colore specificato. |
-| [HighlightText](../../aspose.slides/itextframe/highlighttext#highlighttext)(string, Color) | Evidenzia tutte le occorrenze del testo di esempio con il colore specificato. |
-| [HighlightText](../../aspose.slides/itextframe/highlighttext#highlighttext_2)(string, Color, ITextSearchOptions, IFindResultCallback) | Evidenzia tutte le occorrenze del testo di esempio con il colore specificato. |
-| [JoinPortionsWithSameFormatting](../../aspose.slides/itextframe/joinportionswithsameformatting)() | Unisce le sequenze con la stessa formattazione in tutti i paragrafi. |
+| [HighlightText](../../aspose.slides/itextframe/highlighttext#highlighttext)(string, Color) | Evidenzia tutte le corrispondenze del testo di esempio con il colore specificato. |
+| [HighlightText](../../aspose.slides/itextframe/highlighttext#highlighttext_2)(string, Color, ITextSearchOptions, IFindResultCallback) | Evidenzia tutte le corrispondenze del testo di esempio con il colore specificato. |
+| [JoinPortionsWithSameFormatting](../../aspose.slides/itextframe/joinportionswithsameformatting)() | Unisce i run con la stessa formattazione in tutti i paragrafi. |
 | [ReplaceRegex](../../aspose.slides/itextframe/replaceregex)(Regex, string, IFindResultCallback) | Sostituisce tutte le corrispondenze dell'espressione regolare con la stringa specificata. |
 | [ReplaceText](../../aspose.slides/itextframe/replacetext)(string, string, ITextSearchOptions, IFindResultCallback) | Sostituisce tutte le occorrenze del testo specificato con un altro testo specificato. |
-| [SplitTextByColumns](../../aspose.slides/itextframe/splittextbycolumns)() | Divide il contenuto testuale del [`ITextFrame`](../itextframe) in un array di stringhe, dove ogni elemento corrisponde a una colonna di testo separata all'interno della cornice. |
+| [SplitTextByColumns](../../aspose.slides/itextframe/splittextbycolumns)() | Divide il contenuto testuale del [`ITextFrame`](../itextframe) in un array di stringhe, dove ogni elemento corrisponde a una colonna di testo separata all'interno del frame. |
 
-### Vedere anche
+### Vedi anche
 
 * interfaccia [ISlideComponent](../islidecomponent)
 * spazio dei nomi [Aspose.Slides](../../aspose.slides)

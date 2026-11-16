@@ -1,14 +1,14 @@
 ---
 title: PresentationLockingBehavior
 second_title: Aspose.Sildes .NET API referencia
-description: Az IPresentation./ipresentation forrásfájl vagy Stream kezelésével kapcsolatos viselkedést képviseli betöltéskor és egy IPresentation./ipresentation példány használatakor.
+description: A viselkedést reprezentálja, amely az IPresentation./ipresentation forrásfájlt vagy Stream-et érinti a betöltés és az IPresentation./ipresentation példányával való munka során.
 type: docs
-weight: 9630
+weight: 9650
 url: /hu/aspose.slides/presentationlockingbehavior/
 ---
-## PresentationLockingBehavior felsorolás
+## PresentationLockingBehavior enumeráció
 
-Képviseli a viselkedést a [`IPresentation`](../ipresentation) forrás (fájl vagy Stream) kezelése során, betöltéskor és egy [`IPresentation`](../ipresentation) példány használatakor.
+A viselkedést írja le, ami a [`IPresentation`](../ipresentation) forrás (fájl vagy Stream) kezelésével kapcsolatos, miközben betöltünk és egy [`IPresentation`](../ipresentation) példánnyal dolgozunk.
 
 ```csharp
 public enum PresentationLockingBehavior
@@ -18,12 +18,12 @@ public enum PresentationLockingBehavior
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| LoadAndRelease | `0` | A forrás csak a [`IPresentation`](../ipresentation) konstruktor végrehajtása időtartamára lesz zárolva. [`IsTemporaryFilesAllowed`](../iblobmanagementoptions/istemporaryfilesallowed) hamisra van állítva, minden BLOB memóriába lesz betöltve. Ellenkező esetben más módszerek, például ideiglenes fájlok használhatók.Ez a viselkedés lassabb, mint a KeepLocked, és ha lehetséges a forrás tulajdonjogát átadni a [`IPresentation`](../ipresentation)-nek, ajánlott a KeepLocked használata. |
-| KeepLocked | `1` | A forrás a [`IPresentation`](../ipresentation) példány teljes élettartama során lesz zárolva, amíg el nem kerül eldobásra. [`IsTemporaryFilesAllowed`](../iblobmanagementoptions/istemporaryfilesallowed)-t igazra kell állítani ehhez a viselkedéshez, ellenkező esetben kivétel lesz dobva.Ez a viselkedés ajánlott, gyorsabb és kevesebb memóriát használ, mint a LoadAndRelease. |
+| LoadAndRelease | `0` | A forrás csak a [`IPresentation`](../ipresentation) konstruktor végrehajtásának időtartamára lesz zárolva. Ha [`IsTemporaryFilesAllowed`](../iblobmanagementoptions/istemporaryfilesallowed) értéke false, akkor az összes BLOB a memóriába lesz betöltve. Egyébként más megoldások, például ideiglenes fájlok használata is előfordulhat. Ez a viselkedés lassabb a KeepLocked-nél, és ha lehetséges a forrás tulajdonjogát átadni a [`IPresentation`](../ipresentation)-nek, akkor a KeepLocked használata ajánlott. |
+| KeepLocked | `1` | A forrás a teljes [`IPresentation`](../ipresentation) példány élettartamára zárolva lesz, amíg le nem lesz választva. [`IsTemporaryFilesAllowed`](../iblobmanagementoptions/istemporaryfilesallowed) értékét true-ra kell állítani ennek a viselkedésnek a használatához, ellenkező esetben kivétel lesz dobva. Ez a viselkedés ajánlott, gyorsabb és kevesebb memóriát használ, mint a LoadAndRelease. |
 
-### Megjegyzések
+### Megjegyzés
 
-A forrás a [`IPresentation`](../ipresentation) konstruktorának átadott paraméter. Az alábbi példában a forrás a "pres.pptx" fájl:
+A forrás a [`IPresentation`](../ipresentation) konstruktorhoz átadott paraméter. Az alábbi példában a forrás a "pres.pptx" fájl:
 
 ```csharp
 LoadOptions loadOptions = new LoadOptions { 
@@ -31,7 +31,7 @@ LoadOptions loadOptions = new LoadOptions {
 using (IPresentation pres = new Presentation("pres.pptx", loadOptions)) { }
 ```
 
-Ehhez a példához a forrás ("pres.pptx" fájl) a [`IPresentation`](../ipresentation) példány élettartama alatt lesz zárolva, vagyis a másik folyamat nem változtathatja meg vagy törölheti.
+Ezen a példán a forrás ("pres.pptx" fájl) a [`IPresentation`](../ipresentation) példány élettartamáig zárolva lesz, azaz a másik folyamat nem tudja módosítani vagy törölni.
 
 ### Lásd még
 

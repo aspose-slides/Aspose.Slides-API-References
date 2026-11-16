@@ -1,34 +1,34 @@
 ---
 title: TabFactory
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Cho phép tạo các thể hiện ITab
+second_title: Aspose.Sildes cho Tham chiếu API .NET
+description: Cho phép tạo các đối tượng ITab
 type: docs
-weight: 10850
+weight: 10870
 url: /vi/aspose.slides/tabfactory/
 ---
-## Lớp TabFactory
+## TabFactory lớp
 
-Cho phép tạo các thể hiện ITab
+Cho phép tạo các đối tượng ITab
 
 ```csharp
 public class TabFactory : ITabFactory
 ```
 
-## Các hàm khởi tạo
+## Hàm tạo
 
 | Tên | Mô tả |
 | --- | --- |
-| [TabFactory](tabfactory)() | Hàm khởi tạo mặc định. |
+| [TabFactory](tabfactory)() | Hàm tạo mặc định. |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| [CreateTab](../../aspose.slides/tabfactory/createtab)(double, TabAlignment) | Tạo một thể hiện ITab mới. |
+| [CreateTab](../../aspose.slides/tabfactory/createtab)(double, TabAlignment) | Tạo một đối tượng ITab mới. |
 
 ### Ghi chú
 
-Cho tương thích COM.
+Để tương thích COM.
 
 ### Xem thêm
 

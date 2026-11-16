@@ -1,9 +1,9 @@
 ---
 title: ISlide
-second_title: Aspose.Sildes für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Stellt eine Folie in einer Präsentation dar.
 type: docs
-weight: 7040
+weight: 7060
 url: /de/aspose.slides/islide/
 ---
 ## ISlide Schnittstelle
@@ -21,10 +21,10 @@ public interface ISlide : IBaseSlide, IOverrideThemeable
 | [AsIBaseSlide](../../aspose.slides/islide/asibaseslide) { get; } | Ermöglicht das Abrufen der Basis-IBaseSlide-Schnittstelle. Nur lesbar [`IBaseSlide`](../ibaseslide). |
 | [AsIOverrideThemeable](../../aspose.slides/islide/asioverridethemeable) { get; } | Gibt die IOverrideThemeable-Schnittstelle zurück. Nur lesbar [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
 | [HeaderFooterManager](../../aspose.slides/islide/headerfootermanager) { get; } | Gibt den HeaderFooter-Manager der Folie zurück. Nur lesbar [`ISlideHeaderFooterManager`](../islideheaderfootermanager). |
-| [Hidden](../../aspose.slides/islide/hidden) { get; set; } | Bestimmt, ob die angegebene Folie während einer Diashow ausgeblendet ist. Lese/Schreib Boolean. |
-| [LayoutSlide](../../aspose.slides/islide/layoutslide) { get; set; } | Gibt die Layout-Folie für die aktuelle Folie zurück oder legt sie fest. Lese/Schreib [`ILayoutSlide`](../ilayoutslide). |
-| [NotesSlideManager](../../aspose.slides/islide/notesslidemanager) { get; } | Ermöglicht den Zugriff auf die Notizfolie, Hinzufügen und Entfernen. Nur lesbar [`INotesSlideManager`](../inotesslidemanager). |
-| [SlideNumber](../../aspose.slides/islide/slidenumber) { get; set; } | Gibt die Foliennummer zurück. Der Index der Folie in der [`Slides`](../ipresentation/slides)-Sammlung ist stets gleich SlideNumber - 1. Lese/Schreib Int32. |
+| [Hidden](../../aspose.slides/islide/hidden) { get; set; } | Bestimmt, ob die angegebene Folie während einer Bildschirmpräsentation ausgeblendet wird. Lese/Schreib Boolean. |
+| [LayoutSlide](../../aspose.slides/islide/layoutslide) { get; set; } | Gibt die Layoutfolie für die aktuelle Folie zurück oder legt sie fest. Lese/Schreib [`ILayoutSlide`](../ilayoutslide). |
+| [NotesSlideManager](../../aspose.slides/islide/notesslidemanager) { get; } | Ermöglicht den Zugriff auf die Notizfolie, das Hinzufügen und Entfernen. Nur lesbar [`INotesSlideManager`](../inotesslidemanager). |
+| [SlideNumber](../../aspose.slides/islide/slidenumber) { get; set; } | Gibt die Nummer der Folie zurück. Der Index der Folie in der [`Slides`](../ipresentation/slides)-Sammlung ist immer gleich SlideNumber - 1. Lese/Schreib Int32. |
 
 ## Methoden
 
@@ -32,14 +32,14 @@ public interface ISlide : IBaseSlide, IOverrideThemeable
 | --- | --- |
 | [GetImage](../../aspose.slides/islide/getimage#getimage)() | Gibt ein Thumbnail-Image-Objekt zurück (20 % der Originalgröße). |
 | [GetImage](../../aspose.slides/islide/getimage#getimage_1)(IRenderingOptions) | Gibt ein Thumbnail-Bitmap-Objekt zurück. |
-| [GetImage](../../aspose.slides/islide/getimage#getimage_4)(ITiffOptions) | Gibt ein Thumbnail-Tiff-Bitmap-Objekt mit den angegebenen Parametern zurück. |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_4)(ITiffOptions) | Gibt ein Thumbnail-tiff-Bitmap-Objekt mit den angegebenen Parametern zurück. |
 | [GetImage](../../aspose.slides/islide/getimage#getimage_6)(Size) | Gibt ein Bildobjekt mit der angegebenen Größe zurück. |
 | [GetImage](../../aspose.slides/islide/getimage#getimage_5)(float, float) | Gibt ein Bildobjekt mit benutzerdefinierter Skalierung zurück. |
 | [GetImage](../../aspose.slides/islide/getimage#getimage_3)(IRenderingOptions, Size) | Gibt ein Thumbnail-Bitmap-Objekt mit der angegebenen Größe zurück. |
 | [GetImage](../../aspose.slides/islide/getimage#getimage_2)(IRenderingOptions, float, float) | Gibt ein Thumbnail-Bitmap-Objekt mit benutzerdefinierter Skalierung zurück. |
 | [GetSlideComments](../../aspose.slides/islide/getslidecomments)(ICommentAuthor) | Gibt alle Folienkommentare zurück, die von einem bestimmten Autor hinzugefügt wurden. |
 | [Remove](../../aspose.slides/islide/remove)() | Entfernt die Folie aus der Präsentation. |
-| [Reset](../../aspose.slides/islide/reset)() | Setzt Position, Größe und Formatierung aller Formen zurück, die ein Prototype auf LayoutSlide haben. |
+| [Reset](../../aspose.slides/islide/reset)() | Setzt Position, Größe und Formatierung jeder Form zurück, die ein Prototyp auf LayoutSlide hat. |
 | [WriteAsEmf](../../aspose.slides/islide/writeasemf)(Stream) | Speichert den Folieninhalt als EMF-Datei. |
 | [WriteAsSvg](../../aspose.slides/islide/writeassvg#writeassvg)(Stream) | Speichert den Folieninhalt als SVG-Datei. |
 | [WriteAsSvg](../../aspose.slides/islide/writeassvg#writeassvg_1)(Stream, ISVGOptions) | Speichert den Folieninhalt als SVG-Datei. |

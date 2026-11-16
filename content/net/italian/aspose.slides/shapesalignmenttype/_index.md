@@ -3,7 +3,7 @@ title: ShapesAlignmentType
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Definisce un modo per modificare la posizione delle forme selezionate nella diapositiva.
 type: docs
-weight: 9940
+weight: 9960
 url: /it/aspose.slides/shapesalignmenttype/
 ---
 ## ShapesAlignmentType enumerazione
@@ -22,7 +22,7 @@ public enum ShapesAlignmentType
 | AlignRight | `1` | Allinea a destra |
 | AlignCenter | `2` | Allinea al centro |
 | AlignTop | `3` | Allinea in alto |
-| AlignMiddle | `4` | Allinea al centro verticale |
+| AlignMiddle | `4` | Allinea al centro |
 | AlignBottom | `5` | Allinea in basso |
 | DistributeHorizontally | `6` | Distribuisci orizzontalmente |
 | DistributeVertically | `7` | Distribuisci verticalmente |

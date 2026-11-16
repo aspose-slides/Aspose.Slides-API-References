@@ -1,14 +1,14 @@
 ---
 title: ChartDataWorksheet
-second_title: Aspose.Sildes 的 .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 表示与 IChartDataCell./ichartdatacell 关联的工作表
 type: docs
-weight: 1390
+weight: 1400
 url: /zh/aspose.slides.charts/chartdataworksheet/
 ---
 ## ChartDataWorksheet 类
 
-表示与 [`IChartDataCell`](../ichartdatacell) 关联的工作表。
+表示与 [`IChartDataCell`](../ichartdatacell) 关联的工作表
 
 ```csharp
 public class ChartDataWorksheet : DomObject<ChartDataWorksheetCollection>, IChartDataWorksheet

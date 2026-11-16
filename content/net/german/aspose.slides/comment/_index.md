@@ -3,10 +3,10 @@ title: Comment
 second_title: Aspose.Sildes für .NET API Referenz
 description: Stellt einen Kommentar auf einer Folie dar.
 type: docs
-weight: 2620
+weight: 2640
 url: /de/aspose.slides/comment/
 ---
-## Kommentar-Klasse
+## Comment Klasse
 
 Stellt einen Kommentar auf einer Folie dar.
 
@@ -18,12 +18,12 @@ public class Comment : IComment
 
 | Name | Beschreibung |
 | --- | --- |
-| [Author](../../aspose.slides/comment/author) { get; } | Gibt den Autor eines Kommentars zurück. Schreibgeschützt [`ICommentAuthor`](../icommentauthor). |
-| [CreatedTime](../../aspose.slides/comment/createdtime) { get; set; } | Gibt die Zeit der Erstellung eines Kommentars zurück oder legt sie fest. Das Setzen dieser Eigenschaft auf MinValue bedeutet, dass keine Kommentarzeit festgelegt ist. Lese/Schreib DateTime. |
-| [ParentComment](../../aspose.slides/comment/parentcomment) { get; set; } | Gibt den übergeordneten Kommentar zurück oder legt ihn fest. Lese/Schreib [`IComment`](../icomment). |
-| [Position](../../aspose.slides/comment/position) { get; set; } | Gibt die Position eines Kommentars auf einer Folie zurück oder legt sie fest. Lese/Schreib PointF. |
-| [Slide](../../aspose.slides/comment/slide) { get; } | Gibt die übergeordnete Folie eines Kommentars zurück oder legt sie fest. Schreibgeschützt [`ISlide`](../islide). |
-| [Text](../../aspose.slides/comment/text) { get; set; } | Gibt den Klartext eines Folienkommentars zurück oder legt ihn fest. Lese/Schreib String. |
+| [Author](../../aspose.slides/comment/author) { get; } | Gibt den Autor eines Kommentars zurück. Nur Lese [`ICommentAuthor`](../icommentauthor). |
+| [CreatedTime](../../aspose.slides/comment/createdtime) { get; set; } | Gibt die Zeit der Kommentarerstellung zurück oder legt sie fest. Das Setzen dieser Eigenschaft auf MinValue bedeutet, dass keine Kommentarzeit festgelegt ist. Lese/Schreiben DateTime. |
+| [ParentComment](../../aspose.slides/comment/parentcomment) { get; set; } | Liest oder setzt übergeordneten Kommentar. Lese/Schreiben [`IComment`](../icomment). |
+| [Position](../../aspose.slides/comment/position) { get; set; } | Gibt die Position eines Kommentars auf einer Folie zurück oder legt sie fest. Lese/Schreiben PointF. |
+| [Slide](../../aspose.slides/comment/slide) { get; } | Gibt die übergeordnete Folie eines Kommentars zurück oder legt sie fest. Nur Lese [`ISlide`](../islide). |
+| [Text](../../aspose.slides/comment/text) { get; set; } | Gibt den Klartext eines Folienkommentars zurück oder legt ihn fest. Lese/Schreiben String. |
 
 ## Methoden
 
@@ -61,7 +61,7 @@ Dieses Beispiel zeigt, wie Sie auf einen vorhandenen Kommentar einer Folie in ei
 
 ```csharp
 [C#]
-// Instanziiert die Presentation-Klasse
+// Instanziert die Presentation-Klasse
 using (Presentation presentation = new Presentation("Comments1.pptx"))
 {
 	// Durchläuft CommentAuthors
@@ -82,7 +82,7 @@ Dieses Beispiel zeigt, wie Sie Kommentare hinzufügen und Antworten darauf erhal
 
 ```csharp
 [C#]
-// Instanziiert die Presentation-Klasse
+// Instanziert die Presentation-Klasse
 using (Presentation pres = new Presentation())
 {
     // Fügt einen Kommentar hinzu
@@ -95,14 +95,14 @@ using (Presentation pres = new Presentation())
     // Fügt eine weitere Antwort zu comment1 hinzu
     IComment reply2 = author2.Comments.AddComment("reply 2 for comment 1", pres.Slides[0], new PointF(10, 10), DateTime.Now);
     reply2.ParentComment = comment1;
-    // Fügt eine Antwort auf eine vorhandene Antwort hinzu
+    // Fügt eine Antwort zu einer bestehenden Antwort hinzu
     IComment subReply = author1.Comments.AddComment("subreply 3 for reply 2", pres.Slides[0], new PointF(10, 10), DateTime.Now);
     subReply.ParentComment = reply2;
     IComment comment2 = author2.Comments.AddComment("comment 2", pres.Slides[0], new PointF(10, 10), DateTime.Now);
     IComment comment3 = author2.Comments.AddComment("comment 3", pres.Slides[0], new PointF(10, 10), DateTime.Now);
     IComment reply3 = author1.Comments.AddComment("reply 4 for comment 3", pres.Slides[0], new PointF(10, 10), DateTime.Now);
     reply3.ParentComment = comment3;
-    // Gibt die Kommentarhierarchie auf der Konsole aus
+    // Zeigt die Kommentarhierarchie in der Konsole an
     ISlide slide = pres.Slides[0];
     var comments = slide.GetSlideComments(null);
     for (int i = 0; i < comments.Length; i++)
@@ -117,13 +117,13 @@ using (Presentation pres = new Presentation())
         Console.WriteLine();
     }
     pres.Save("parent_comment.pptx",SaveFormat.Pptx);
-    // Entfernt comment1 und alle zugehörigen Antworten
+    // Entfernt comment1 und alle Antworten darauf
     comment1.Remove();
     pres.Save("remove_comment.pptx", SaveFormat.Pptx);
 }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IComment](../icomment)
 * Namensraum [Aspose.Slides](../../aspose.slides)

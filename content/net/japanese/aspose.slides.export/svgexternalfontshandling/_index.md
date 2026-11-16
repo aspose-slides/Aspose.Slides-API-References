@@ -1,14 +1,14 @@
 ---
 title: SvgExternalFontsHandling
 second_title: Aspose.Sildes for .NET API リファレンス
-description: テキスト描画に使用される外部フォントの処理方法を表します。
+description: テキスト描画に使用される外部フォントを処理する方法を表します。
 type: docs
-weight: 4500
+weight: 4520
 url: /ja/aspose.slides.export/svgexternalfontshandling/
 ---
 ## SvgExternalFontsHandling 列挙型
 
-テキスト描画に使用される外部フォントの処理方法を表します。
+テキスト描画に使用される外部フォントを処理する方法を表します。
 
 ```csharp
 public enum SvgExternalFontsHandling
@@ -16,10 +16,10 @@ public enum SvgExternalFontsHandling
 
 ### 値
 
-| 名前 | 値 | 説明 |
+| Name | Value | Description |
 | --- | --- | --- |
 | AddLinksToFontFiles | `0` | SVG ファイルの style セクションに個別のフォントファイルへのリンクを追加します。 |
-| Embed | `1` | フォントデータを SVG ファイルに直接保存します。このオプションを使用する前に、すべての外部フォントのライセンス契約を確認してください。 |
+| Embed | `1` | フォント データを SVG ファイルに直接保存します。このオプションを使用する前に、すべての外部フォントのライセンス契約を確認してください。 |
 | Vectorize | `2` | 外部フォントを使用したすべてのテキストをグラフィックとして保存します。 |
 
 ### 参照

@@ -1,14 +1,14 @@
 ---
 title: ReplaceRegex
-second_title: Aspose.Sildes para Referência de API .NET
+second_title: Referência da API Aspose.Sildes para .NET
 description: Substitui todas as correspondências da expressão regular pela string especificada.
 type: docs
-weight: 370
+weight: 380
 url: /pt/aspose.slides/presentation/replaceregex/
 ---
 ## Presentation.ReplaceRegex método
 
-Substitui todas as correspondências da expressão regular pela cadeia especificada.
+Substitui todas as correspondências da expressão regular pela string especificada.
 
 ```csharp
 public void ReplaceRegex(Regex regex, string newText, IFindResultCallback callback)
@@ -16,26 +16,26 @@ public void ReplaceRegex(Regex regex, string newText, IFindResultCallback callba
 
 | Parâmetro | Tipo | Descrição |
 | --- | --- | --- |
-| regex | Regex | A expressão regular Regex para obter as cadeias a serem substituídas. |
-| newText | String | A cadeia para substituir todas as ocorrências das cadeias a serem substituídas. |
-| callback | IFindResultCallback | O objeto de retorno de chamada para receber os resultados da pesquisa [`IFindResultCallback`](../../ifindresultcallback). |
+| regex | Regex | A expressão regular Regex para obter as strings a serem substituídas. |
+| newText | String | A string para substituir todas as ocorrências das strings a serem substituídas. |
+| callback | IFindResultCallback | O objeto de callback para receber os resultados da pesquisa [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### Exemplos
 
-O exemplo de código a seguir mostra como substituir texto usando expressão regular com a cadeia especificada.
+O exemplo de código a seguir mostra como substituir texto usando expressão regular com a string especificada.
 
 ```csharp
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
 	Regex regex = new Regex(@"\b[^\s]{10,}\b");
-	// Substitui todas as palavras com 10 ou mais caracteres por '***'
+	// Substitua todas as palavras com 10 ou mais caracteres por '***'
 	presentation.ReplaceRegex(regex, "***", null);
 	presentation.Save("SomePresentation-out.pptx", SaveFormat.Pptx);
 }
 ```
 
-### Ver também
+### Veja Também
 
 * interface [IFindResultCallback](../../ifindresultcallback)
 * classe [Presentation](../../presentation)

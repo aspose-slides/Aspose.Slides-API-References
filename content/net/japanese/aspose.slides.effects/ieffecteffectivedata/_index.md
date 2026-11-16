@@ -1,14 +1,14 @@
 ---
 title: IEffectEffectiveData
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 効果を表す不変オブジェクトの基底クラスです。
+description: エフェクトを表すイミュータブルオブジェクトの基底クラスです。
 type: docs
-weight: 3280
+weight: 3300
 url: /ja/aspose.slides.effects/ieffecteffectivedata/
 ---
 ## IEffectEffectiveData インターフェイス
 
-効果を表す不変オブジェクトの基底クラスです。
+イミュータブルオブジェクトの基底クラスで、エフェクトを表します。
 
 ```csharp
 public interface IEffectEffectiveData

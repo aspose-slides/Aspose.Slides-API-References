@@ -1,14 +1,14 @@
 ---
 title: HyperlinkActionType
-second_title: Aspose.Sildes için .NET API Referansı
-description: Bir hiperbağlantı eylemi türünü temsil eder.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Bir hiperlink eylem türünü temsil eder.
 type: docs
-weight: 5130
+weight: 5150
 url: /tr/aspose.slides/hyperlinkactiontype/
 ---
 ## HyperlinkActionType enum
 
-Bir hiperbağlantı eylemi türünü temsil eder.
+Bir hiperlink eylemi türünü temsil eder.
 
 ```csharp
 public enum HyperlinkActionType
@@ -18,24 +18,24 @@ public enum HyperlinkActionType
 
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
-| Unknown | `-1` | Tanımlanamayan eylem türü. |
+| Unknown | `-1` | Tanımlanmamış eylem türü. |
 | NoAction | `0` | Eylem yok. |
-| Hyperlink | `1` | Normal hiperbağlantı. |
+| Hyperlink | `1` | Standart hiperlink. |
 | JumpFirstSlide | `2` | Sunumun ilk slaytına atla. |
 | JumpPreviousSlide | `3` | Önceki slayta atla. |
 | JumpNextSlide | `4` | Sonraki slayta atla. |
 | JumpLastSlide | `5` | Sunumun son slaytına atla. |
 | JumpEndShow | `6` | Slayt gösterisinin sonuna atla. |
 | JumpLastViewedSlide | `7` | Son görüntülenen slayta atla. |
-| JumpSpecificSlide | `8` | Belirli bir slayta atla, [`TargetSlide`](../ihyperlink/targetslide) özelliği tarafından referans edilir. |
+| JumpSpecificSlide | `8` | [`TargetSlide`](../ihyperlink/targetslide) özelliğiyle belirtilen belirli slayta atla. |
 | StartCustomSlideShow | `9` | Özel slayt gösterisini başlat. |
-| OpenFile | `10` | Referans verilen dosyayı aç. |
-| OpenPresentation | `11` | Referans verilen sunumu aç. |
-| StartStopMedia | `12` | Medya dosyasını oynatmaya başla/durdur. |
-| StartMacro | `13` | Makro betiğini çalıştırmaya başla. |
+| OpenFile | `10` | Başvurulan dosyayı aç. |
+| OpenPresentation | `11` | Başvurulan sunumu aç. |
+| StartStopMedia | `12` | Medya dosyasını başlat/durdur. |
+| StartMacro | `13` | Makro betiğini yürütmeye başla. |
 | StartProgram | `14` | Programı başlat. |
 
-### Diğer Bağlantılar
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: CellInvalidFormulaException
-second_title: Riferimento API Aspose.Sildes per .NET
-description: L'eccezione generata quando una formula calcolata non è corretta o non è stata analizzata.
+second_title: Riferimento API di Aspose.Sildes per .NET
+description: L'eccezione che viene lanciata quando una formula calcolata non è corretta o non è stata analizzata.
 type: docs
-weight: 10710
+weight: 10730
 url: /it/aspose.slides.spreadsheet/cellinvalidformulaexception/
 ---
 ## CellInvalidFormulaException classe
 
-L'eccezione che viene generata quando una formula calcolata non è corretta o non è stata analizzata.
+L'eccezione che viene lanciata quando una formula calcolata non è corretta o non è stata analizzata.
 
 ```csharp
 public class CellInvalidFormulaException : PptxEditException
@@ -16,7 +16,7 @@ public class CellInvalidFormulaException : PptxEditException
 
 ## Costruttori
 
-| Name | Description |
+| Nome | Descrizione |
 | --- | --- |
 | [CellInvalidFormulaException](cellinvalidformulaexception#constructor)() | Inizializza una nuova istanza della classe [`CellInvalidFormulaException`](../cellinvalidformulaexception). |
 | [CellInvalidFormulaException](cellinvalidformulaexception#constructor_1)(string) | Inizializza una nuova istanza della classe [`CellInvalidFormulaException`](../cellinvalidformulaexception) con un messaggio di errore specificato. |
@@ -25,9 +25,9 @@ public class CellInvalidFormulaException : PptxEditException
 
 ## Proprietà
 
-| Name | Description |
+| Nome | Descrizione |
 | --- | --- |
-| [Reference](../../aspose.slides.spreadsheet/cellinvalidformulaexception/reference) { get; } | Restituisce un riferimento di cella che contiene la formula non valida. |
+| [Reference](../../aspose.slides.spreadsheet/cellinvalidformulaexception/reference) { get; } | Ottiene un riferimento di cella che contiene la formula non valida. |
 
 ### Vedi anche
 

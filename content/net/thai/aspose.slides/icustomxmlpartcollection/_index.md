@@ -1,14 +1,14 @@
 ---
 title: ICustomXmlPartCollection
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
-description: แสดงคอลเลกชันของส่วน XML แบบกำหนดเอง.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงถึงคอลเลกชันของส่วน XML แบบกำหนดเอง
 type: docs
-weight: 5680
+weight: 5700
 url: /th/aspose.slides/icustomxmlpartcollection/
 ---
 ## ICustomXmlPartCollection อินเทอร์เฟซ
 
-แสดงคอลเลกชันของส่วน XML แบบกำหนดเอง.
+แสดงถึงคอลเลกชันของส่วน XML แบบกำหนดเอง
 
 ```csharp
 public interface ICustomXmlPartCollection : IGenericCollection<ICustomXmlPart>
@@ -18,18 +18,18 @@ public interface ICustomXmlPartCollection : IGenericCollection<ICustomXmlPart>
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Item](../../aspose.slides/icustomxmlpartcollection/item) { get; } | คืนค่าองค์ประกอบที่ตำแหน่งที่ระบุ. |
+| [Item](../../aspose.slides/icustomxmlpartcollection/item) { get; } | ส่งคืนองค์ประกอบที่ตำแหน่งที่ระบุ |
 
 ## วิธีการ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Add](../../aspose.slides/icustomxmlpartcollection/add#add)(byte[]) | เพิ่มส่วน XML แบบกำหนดเองใหม่. |
-| [Add](../../aspose.slides/icustomxmlpartcollection/add#add_1)(Stream) | เพิ่มส่วน XML แบบกำหนดเองใหม่. |
-| [Add](../../aspose.slides/icustomxmlpartcollection/add#add_2)(string) | เพิ่มส่วน XML แบบกำหนดเองใหม่. |
-| [Clear](../../aspose.slides/icustomxmlpartcollection/clear)() | ลบรายการทั้งหมดจากคอลเลกชัน. |
-| [Remove](../../aspose.slides/icustomxmlpartcollection/remove)(ICustomXmlPart) | ลบการเกิดแรกของอ็อบเจ็กต์เฉพาะจากคอลเลกชัน. |
-| [RemoveAt](../../aspose.slides/icustomxmlpartcollection/removeat)(int) | ลบส่วน XML แบบกำหนดเองที่ตำแหน่งที่ระบุ. |
+| [Add](../../aspose.slides/icustomxmlpartcollection/add#add)(byte[]) | เพิ่มส่วน XML แบบกำหนดเองใหม่ |
+| [Add](../../aspose.slides/icustomxmlpartcollection/add#add_1)(Stream) | เพิ่มส่วน XML แบบกำหนดเองใหม่ |
+| [Add](../../aspose.slides/icustomxmlpartcollection/add#add_2)(string) | เพิ่มส่วน XML แบบกำหนดเองใหม่ |
+| [Clear](../../aspose.slides/icustomxmlpartcollection/clear)() | ลบรายการทั้งหมดจากคอลเลกชัน |
+| [Remove](../../aspose.slides/icustomxmlpartcollection/remove)(ICustomXmlPart) | ลบการเกิดขึ้นครั้งแรกของออบเจกต์เฉพาะจากคอลเลกชัน |
+| [RemoveAt](../../aspose.slides/icustomxmlpartcollection/removeat)(int) | ลบส่วน XML แบบกำหนดเองที่ตำแหน่งที่ระบุ |
 
 ### ดูเพิ่มเติม
 

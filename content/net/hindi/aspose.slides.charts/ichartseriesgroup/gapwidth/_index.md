@@ -1,20 +1,24 @@
 ---
 title: GapWidth
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: बार या कॉलम क्लस्टर्स के बीच की जगह को बार या कॉलम की चौड़ाई के प्रतिशत के रूप में निर्दिष्ट करता है। पढ़ें/लिखें UInt16.
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: बार या कॉलम क्लस्टरों के बीच की जगह को बार या कॉलम की चौड़ाई के प्रतिशत के रूप में प्राप्त करता है या सेट करता है। मान 0 से 500 के बीच होना चाहिए। पढ़ें/लिखें UInt16.
 type: docs
 weight: 70
 url: /hi/aspose.slides.charts/ichartseriesgroup/gapwidth/
 ---
 ## IChartSeriesGroup.GapWidth प्रॉपर्टी
 
-बार या कॉलम क्लस्टर्स के बीच की स्पेस को निर्दिष्ट करता है, जो बार या कॉलम की चौड़ाई का प्रतिशत है। पढ़ें/लिखें UInt16.
+बार या कॉलम क्लस्टरों के बीच की जगह को प्राप्त करता है या सेट करता है, जो बार या कॉलम की चौड़ाई का प्रतिशत होती है। मान 0 से 500 के बीच होना चाहिए। पढ़ें/लिखें UInt16.
 
 ```csharp
 public ushort GapWidth { get; set; }
 ```
 
-### संबंधित देखें
+### टिप्पणियाँ
+
+यह प्रॉपर्टी निम्न प्रकार की शृंखलाओं पर लागू होती है: सभी बार और कॉलम उपप्रकार, BarOfPie, PieOfPie, BoxAndWhisker, Funnel, Histogram, Waterfall.
+
+### और देखें
 
 * इंटरफ़ेस [IChartSeriesGroup](../../ichartseriesgroup)
 * नेमस्पेस [Aspose.Slides.Charts](../../ichartseriesgroup)

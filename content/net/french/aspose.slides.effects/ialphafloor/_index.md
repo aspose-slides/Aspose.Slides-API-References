@@ -1,14 +1,14 @@
 ---
 title: IAlphaFloor
 second_title: Référence API Aspose.Sildes pour .NET
-description: Représente un effet Alpha Floor. Les valeurs d'opacité Alpha inférieures à 100 sont remplacées par zéro. En d’autres termes, tout ce qui est partiellement transparent devient totalement transparent.
+description: Représente un effet Alpha Floor. Les valeurs d'opacité Alpha inférieures à 100 sont remplacées par zéro. En d’autres termes, tout ce qui est partiellement transparent devient entièrement transparent.
 type: docs
-weight: 3060
+weight: 3080
 url: /fr/aspose.slides.effects/ialphafloor/
 ---
 ## IAlphaFloor interface
 
-Représente un effet Alpha Floor. Les valeurs Alpha (opacité) inférieures à 100 % sont remplacées par zéro. En d’autres termes, tout ce qui est partiellement transparent devient totalement transparent.
+Représente un effet Alpha Floor. Les valeurs Alpha (opacité) inférieures à 100% sont remplacées par zéro. En d’autres termes, tout ce qui est partiellement transparent devient entièrement transparent.
 
 ```csharp
 public interface IAlphaFloor : IAccessiblePVIObject<IAlphaFloorEffectiveData>, 
@@ -19,8 +19,8 @@ public interface IAlphaFloor : IAccessiblePVIObject<IAlphaFloorEffectiveData>,
 
 | Nom | Description |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphafloor/asiaccessiblepviobject) { get; } | Permet d'obtenir l'interface IAccessiblePVIObject de base. Lecture seule [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphafloor/asiimagetransformoperation) { get; } | Permet d'obtenir l'interface IImageTransformOperation de base. Lecture seule [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphafloor/asiaccessiblepviobject) { get; } | Permet d'obtenir l'interface de base IAccessiblePVIObject. Lecture seule [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphafloor/asiimagetransformoperation) { get; } | Permet d'obtenir l'interface de base IImageTransformOperation. Lecture seule [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### Voir aussi
 

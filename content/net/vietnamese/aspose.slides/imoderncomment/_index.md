@@ -1,14 +1,14 @@
 ---
 title: IModernComment
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đại diện cho một bình luận trên slide.
+description: Mô tả một nhận xét trên một slide.
 type: docs
-weight: 6460
+weight: 6480
 url: /vi/aspose.slides/imoderncomment/
 ---
 ## IModernComment giao diện
 
-Đại diện cho một bình luận trên slide.
+Mô tả một nhận xét trên một slide.
 
 ```csharp
 public interface IModernComment : IComment
@@ -19,10 +19,10 @@ public interface IModernComment : IComment
 | Tên | Mô tả |
 | --- | --- |
 | [AsIComment](../../aspose.slides/imoderncomment/asicomment) { get; } | Cho phép lấy giao diện IComment cơ bản. Chỉ đọc [`IComment`](../icomment). |
-| [Shape](../../aspose.slides/imoderncomment/shape) { get; } | Trả về một hình dạng liên kết với bình luận. Chỉ đọc [`IShape`](../ishape). |
-| [Status](../../aspose.slides/imoderncomment/status) { get; set; } | Trả về hoặc đặt trạng thái của bình luận. Đọc/ghi [`ModernCommentStatus`](../moderncommentstatus). |
-| [TextSelectionLength](../../aspose.slides/imoderncomment/textselectionlength) { get; set; } | Trả về hoặc đặt độ dài lựa chọn văn bản trong khung văn bản nếu bình luận được liên kết với AutoShape. Đọc/ghi Int32. |
-| [TextSelectionStart](../../aspose.slides/imoderncomment/textselectionstart) { get; set; } | Trả về hoặc đặt vị trí bắt đầu của lựa chọn văn bản trong khung văn bản nếu bình luận được liên kết với AutoShape. Đọc/ghi Int32. |
+| [Shape](../../aspose.slides/imoderncomment/shape) { get; } | Trả về một shape được liên kết với nhận xét. Chỉ đọc [`IShape`](../ishape). |
+| [Status](../../aspose.slides/imoderncomment/status) { get; set; } | Trả về hoặc đặt trạng thái của nhận xét. Đọc/ghi [`ModernCommentStatus`](../moderncommentstatus). |
+| [TextSelectionLength](../../aspose.slides/imoderncomment/textselectionlength) { get; set; } | Trả về hoặc đặt độ dài lựa chọn văn bản trong khung văn bản nếu nhận xét được liên kết với AutoShape. Đọc/ghi Int32. |
+| [TextSelectionStart](../../aspose.slides/imoderncomment/textselectionstart) { get; set; } | Trả về hoặc đặt vị trí bắt đầu của lựa chọn văn bản trong khung văn bản nếu nhận xét được liên kết với AutoShape. Đọc/ghi Int32. |
 
 ### Ví dụ
 

@@ -1,14 +1,14 @@
 ---
 title: RowCollection
-second_title: Aspose.Sildes a .NET API referencia
-description: A táblázat sorok gyűjteményét reprezentálja.
+second_title: Aspose.Sildes .NET API referencia
+description: A táblasor-gyűjteményt reprezentálja.
 type: docs
-weight: 9720
+weight: 9740
 url: /hu/aspose.slides/rowcollection/
 ---
 ## RowCollection osztály
 
-A táblázat sorgyűjteményét reprezentálja.
+A táblasor-gyűjteményt reprezentálja.
 
 ```csharp
 public sealed class RowCollection : DomObject<Table>, IRowCollection
@@ -18,7 +18,7 @@ public sealed class RowCollection : DomObject<Table>, IRowCollection
 
 | Név | Leírás |
 | --- | --- |
-| [Count](../../aspose.slides/rowcollection/count) { get; } | Lekéri a gyűjteményben ténylegesen lévő sorok számát. Csak olvasható Int32. |
+| [Count](../../aspose.slides/rowcollection/count) { get; } | Megkapja a gyűjteményben ténylegesen lévő sorok számát. Csak olvasható Int32. |
 | [IsSynchronized](../../aspose.slides/rowcollection/issynchronized) { get; } | Visszaad egy értéket, amely jelzi, hogy a gyűjteményhez való hozzáférés szinkronizált (szálbiztos). Csak olvasható Boolean. |
 | [Item](../../aspose.slides/rowcollection/item) { get; } | Visszaadja a megadott indexű sort. Csak olvasható [`Row`](../row). |
 | [SyncRoot](../../aspose.slides/rowcollection/syncroot) { get; } | Visszaad egy szinkronizációs gyökeret. Csak olvasható Object. |
@@ -27,10 +27,10 @@ public sealed class RowCollection : DomObject<Table>, IRowCollection
 
 | Név | Leírás |
 | --- | --- |
-| [AddClone](../../aspose.slides/rowcollection/addclone)(IRow, bool) | Létrehoz egy másolatot a megadott sablon sorból, és a táblázat aljára illeszti. |
+| [AddClone](../../aspose.slides/rowcollection/addclone)(IRow, bool) | Létrehozza a megadott sablonsor másolatát, és a táblázat aljára illeszti. |
 | [CopyTo](../../aspose.slides/rowcollection/copyto)(Array, int) | Átmásolja a gyűjtemény összes elemét a megadott tömbbe. |
-| [GetEnumerator](../../aspose.slides/rowcollection/getenumerator)() | Visszaad egy enumerátort, amely végigiterál a gyűjteményen. |
-| [InsertClone](../../aspose.slides/rowcollection/insertclone)(int, IRow, bool) | Létrehoz egy másolatot a megadott sablon sorból, és a táblázat megadott pozíciójába illeszti. |
+| [GetEnumerator](../../aspose.slides/rowcollection/getenumerator)() | Visszaad egy enumerátort, amely végig iterál a gyűjteményen. |
+| [InsertClone](../../aspose.slides/rowcollection/insertclone)(int, IRow, bool) | Létrehozza a megadott sablonsor másolatát, és a táblázat megadott pozíciójába illeszti. |
 | [RemoveAt](../../aspose.slides/rowcollection/removeat)(int, bool) | Eltávolít egy sort a táblázat megadott pozíciójából. |
 
 ### Lásd még

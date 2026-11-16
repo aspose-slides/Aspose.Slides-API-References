@@ -1,14 +1,14 @@
 ---
 title: PieSplitType
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt einen Typ von Trennpunkten im zweiten Kuchen oder Balken bei einem Kuchen-aus-Kuchen- oder Balken-aus-Kuchen-Diagramm dar.
+description: Stellt einen Typ von Aufteilungspunkten im zweiten Kreis oder Balken eines pie-of-pie- oder bar-of-pie-Diagramms dar.
 type: docs
-weight: 2380
+weight: 2400
 url: /de/aspose.slides.charts/piesplittype/
 ---
 ## PieSplitType Aufzählung
 
-Stellt einen Typ von Trennpunkten im zweiten Kuchen oder Balken in einem Kuchen-aus-Kuchen-Diagramm bzw. Balken-aus-Kuchen-Diagramm dar.
+Stellt einen Typ von Aufteilungspunkten im zweiten Kreis oder Balken eines pie-of-pie- oder bar-of-pie-Diagramms dar.
 
 ```csharp
 public enum PieSplitType
@@ -18,11 +18,11 @@ public enum PieSplitType
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| Default | `0` | Gibt an, dass die Datenpunkte mit dem Standardschlüssel für diesen Diagrammtyp getrennt werden. |
-| Custom | `1` | Gibt an, dass die Datenpunkte zwischen dem Kuchen und dem zweiten Diagramm gemäß den benutzerdefinierten Trennwerten getrennt werden. |
-| ByPercentage | `2` | Gibt an, dass die Datenpunkte zwischen dem Kuchen und dem zweiten Diagramm getrennt werden, indem Punkte mit einem Prozentsatz kleiner als Split Position Prozent im zweiten Diagramm platziert werden. |
-| ByPos | `3` | Gibt an, dass die Datenpunkte zwischen dem Kuchen und dem zweiten Diagramm getrennt werden, indem die letzte Split Position der Datenpunkte im zweiten Diagramm platziert wird. |
-| ByValue | `4` | Gibt an, dass die Datenpunkte zwischen dem Kuchen und dem zweiten Diagramm getrennt werden, indem Datenpunkte mit einem Wert kleiner als Split Position im zweiten Diagramm platziert werden. |
+| Default | `0` | Gibt an, dass die Datenpunkte mithilfe des Standardmechanismus für diesen Diagrammtyp aufgeteilt werden. |
+| Custom | `1` | Gibt an, dass die Datenpunkte gemäß den Custom Split-Werten zwischen dem Kreis und dem zweiten Diagramm aufgeteilt werden. |
+| ByPercentage | `2` | Gibt an, dass die Datenpunkte zwischen dem Kreis und dem zweiten Diagramm aufgeteilt werden, indem die Punkte mit einem Prozentsatz kleiner als Split Position Prozent im zweiten Diagramm platziert werden. |
+| ByPos | `3` | Gibt an, dass die Datenpunkte zwischen dem Kreis und dem zweiten Diagramm aufgeteilt werden, indem die letzte Split Position der Datenpunkte im zweiten Diagramm platziert wird. |
+| ByValue | `4` | Gibt an, dass die Datenpunkte zwischen dem Kreis und dem zweiten Diagramm aufgeteilt werden, indem die Datenpunkte mit einem Wert kleiner als Split Position im zweiten Diagramm platziert werden. |
 
 ### Siehe auch
 

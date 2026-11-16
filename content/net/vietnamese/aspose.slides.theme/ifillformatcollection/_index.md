@@ -1,14 +1,14 @@
 ---
 title: IFillFormatCollection
-second_title: Aspose.Sildes cho .NET Tham khảo API
-description: Đại diện cho bộ sưu tập các kiểu tô màu.
+second_title: Aspose.Sildes cho .NET Tham chiếu API
+description: Biểu diễn tập hợp các kiểu tô màu.
 type: docs
-weight: 11230
+weight: 11250
 url: /vi/aspose.slides.theme/ifillformatcollection/
 ---
 ## IFillFormatCollection giao diện
 
-Đại diện cho bộ sưu tập các kiểu tô màu.
+Biểu diễn tập hợp các kiểu tô màu.
 
 ```csharp
 public interface IFillFormatCollection : IGenericCollection<IFillFormat>
@@ -18,7 +18,7 @@ public interface IFillFormatCollection : IGenericCollection<IFillFormat>
 
 | Tên | Mô tả |
 | --- | --- |
-| [Item](../../aspose.slides.theme/ifillformatcollection/item) { get; } | Lấy phần tử tại chỉ số đã chỉ định. Chỉ đọc [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [Item](../../aspose.slides.theme/ifillformatcollection/item) { get; } | Lấy phần tử tại chỉ mục được chỉ định. Chỉ đọc [`IFillFormat`](../../aspose.slides/ifillformat). |
 
 ### Xem thêm
 

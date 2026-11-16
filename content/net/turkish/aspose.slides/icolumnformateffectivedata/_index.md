@@ -1,14 +1,14 @@
 ---
 title: IColumnFormatEffectiveData
-second_title: Aspose.Sildes için .NET API Referansı
-description: Etkili tablo sütunu biçimlendirme özelliklerini içeren değiştirilemez nesne.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Etkili tablo sütun biçimlendirme özelliklerini içeren değiştirilemez nesne.
 type: docs
-weight: 5550
+weight: 5570
 url: /tr/aspose.slides/icolumnformateffectivedata/
 ---
-## IColumnFormatEffectiveData arayüzü
+## IColumnFormatEffectiveData arabirimi
 
-Etkili tablo sütunu biçimlendirme özelliklerini içeren değiştirilemez nesne.
+Değiştirilemez nesne, etkili tablo sütun biçimlendirme özelliklerini içerir.
 
 ```csharp
 public interface IColumnFormatEffectiveData : IBaseTableFormatEffectiveData
@@ -18,15 +18,15 @@ public interface IColumnFormatEffectiveData : IBaseTableFormatEffectiveData
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIBaseTableFormatEffectiveData](../../aspose.slides/icolumnformateffectivedata/asibasetableformateffectivedata) { get; } | Temel IBaseTableFormatEffectiveData arayüzünü almayı sağlar. Salt okunur [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
+| [AsIBaseTableFormatEffectiveData](../../aspose.slides/icolumnformateffectivedata/asibasetableformateffectivedata) { get; } | Temel IBaseTableFormatEffectiveData arabirimini almaya izin verir. Salt okunur [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
 
 ### Açıklamalar
 
-Bu arayüz, [`IColumnFormat`](../icolumnformat) arayüzü ile birlikte, kalıtım ve tablo stilleri uygulanmış etkili biçimlendirme değerlerini döndürmek için kullanılır.
+Bu arabirim, [`IColumnFormat`](../icolumnformat) arabirimi ile birlikte, kalıtım ve tablo stilleri uygulanmış etkili biçimlendirme değerlerini döndürmek için kullanılır.
 
 ### Ayrıca Bakınız
 
-* arayüz [IBaseTableFormatEffectiveData](../ibasetableformateffectivedata)
+* arabirim [IBaseTableFormatEffectiveData](../ibasetableformateffectivedata)
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)
 

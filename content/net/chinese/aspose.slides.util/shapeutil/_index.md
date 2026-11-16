@@ -3,7 +3,7 @@ title: ShapeUtil
 second_title: Aspose.Sildes for .NET API 参考
 description: 提供帮助处理形状对象的方法。
 type: docs
-weight: 11510
+weight: 11530
 url: /zh/aspose.slides.util/shapeutil/
 ---
 ## ShapeUtil 类
@@ -14,7 +14,7 @@ url: /zh/aspose.slides.util/shapeutil/
 public static class ShapeUtil
 ```
 
-### 另见
+### 另请参阅
 
 * 命名空间 [Aspose.Slides.Util](../../aspose.slides.util)
 * 程序集 [Aspose.Slides](../../)

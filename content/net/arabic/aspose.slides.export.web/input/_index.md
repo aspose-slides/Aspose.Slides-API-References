@@ -3,10 +3,10 @@ title: Input
 second_title: Aspose.Sildes لـ .NET مرجع API
 description: يمثل مجموعة من قوالب عناصر الإدخال.
 type: docs
-weight: 4630
+weight: 4650
 url: /ar/aspose.slides.export.web/input/
 ---
-## فئة Input
+## فئة الإدخال
 
 يمثل مجموعة من عناصر الإدخال (القوالب).
 

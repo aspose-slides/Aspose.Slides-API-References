@@ -1,20 +1,20 @@
 ---
 title: IFontsLoader
-second_title: Aspose.Sildes .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 用于加载用户定义的自定义字体的类。应在创建任何演示文稿对象之前使用。
 type: docs
-weight: 5920
+weight: 5940
 url: /zh/aspose.slides/ifontsloader/
 ---
 ## IFontsLoader 接口
 
-用于加载用户定义的自定义字体的类。在创建任何演示文稿对象之前应使用它。
+类用于加载用户定义的自定义字体。应在创建任何演示文稿对象之前使用。
 
 ```csharp
 public interface IFontsLoader
 ```
 
-### 另请参见
+### 另见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

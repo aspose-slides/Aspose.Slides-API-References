@@ -1,14 +1,14 @@
 ---
 title: PVIObject
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 객체가 속성 값 상속의 대상이 될 수 있도록 기본 서비스 인프라를 캡슐화합니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: 속성 값 상속의 대상이 될 수 있는 객체에 대한 기본 서비스 인프라를 캡슐화합니다.
 type: docs
-weight: 9270
+weight: 9290
 url: /ko/aspose.slides/pviobject/
 ---
 ## PVIObject 클래스
 
-객체가 속성 값 상속의 대상이 될 수 있는 기본 서비스 인프라를 캡슐화합니다.
+속성 값 상속의 대상이 될 수 있는 객체에 대한 기본 서비스 인프라를 캡슐화합니다.
 
 ```csharp
 public abstract class PVIObject : ISlideComponent

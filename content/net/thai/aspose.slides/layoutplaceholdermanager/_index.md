@@ -1,14 +1,14 @@
 ---
 title: LayoutPlaceholderManager
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
-description: แสดงถึงตัวจัดการที่ให้คุณเพิ่ม placeholder ลงในสไลด์เค้าโครง.
+second_title: Aspose.Sildes สำหรับ .NET API อ้างอิง
+description: ตัวจัดการที่ช่วยให้คุณเพิ่มตัวครอบตำแหน่งลงในสไลด์เค้าโครง.
 type: docs
-weight: 7630
+weight: 7650
 url: /th/aspose.slides/layoutplaceholdermanager/
 ---
 ## LayoutPlaceholderManager คลาส
 
-Represents manager that allows you to add placeholders to the layout slide.
+เป็นตัวจัดการที่ช่วยให้คุณเพิ่มตัวครอบตำแหน่งลงในสไลด์เค้าโครง.
 
 ```csharp
 public class LayoutPlaceholderManager : ILayoutPlaceholderManager
@@ -18,16 +18,16 @@ public class LayoutPlaceholderManager : ILayoutPlaceholderManager
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AddChartPlaceholder](../../aspose.slides/layoutplaceholdermanager/addchartplaceholder)(float, float, float, float) | เพิ่มรูปร่าง placeholder ใหม่ลงในสไลด์เค้าโครงเพื่อใส่แผนภูมิ. |
-| [AddContentPlaceholder](../../aspose.slides/layoutplaceholdermanager/addcontentplaceholder)(float, float, float, float) | เพิ่มรูปร่าง placeholder ใหม่ลงในสไลด์เค้าโครงเพื่อเก็บเนื้อหา เช่น รูปภาพ ตาราง สื่อ หรือข้อความ. |
-| [AddMediaPlaceholder](../../aspose.slides/layoutplaceholdermanager/addmediaplaceholder)(float, float, float, float) | เพิ่มรูปร่าง placeholder ใหม่ลงในสไลด์เค้าโครงเพื่อเก็บอ็อบเจกต์สื่อ. |
-| [AddOnlineImagePlaceholder](../../aspose.slides/layoutplaceholdermanager/addonlineimageplaceholder)(float, float, float, float) | เพิ่มรูปร่าง placeholder ใหม่ลงในสไลด์เค้าโครงเพื่อเก็บภาพออนไลน์. |
-| [AddPicturePlaceholder](../../aspose.slides/layoutplaceholdermanager/addpictureplaceholder)(float, float, float, float) | เพิ่มรูปร่าง placeholder ใหม่ลงในสไลด์เค้าโครงเพื่อเก็บรูปภาพ. |
-| [AddSmartArtPlaceholder](../../aspose.slides/layoutplaceholdermanager/addsmartartplaceholder)(float, float, float, float) | เพิ่มรูปร่าง placeholder ใหม่ลงในสไลด์เค้าโครงเพื่อเก็บแผนผัง SmartArt. |
-| [AddTablePlaceholder](../../aspose.slides/layoutplaceholdermanager/addtableplaceholder)(float, float, float, float) | เพิ่มรูปร่าง placeholder ใหม่ลงในสไลด์เค้าโครงเพื่อเก็บตาราง. |
-| [AddTextPlaceholder](../../aspose.slides/layoutplaceholdermanager/addtextplaceholder)(float, float, float, float) | เพิ่มรูปร่าง placeholder ใหม่ลงในสไลด์เค้าโครงเพื่อเก็บเนื้อหาข้อความ. |
-| [AddVerticalContentPlaceholder](../../aspose.slides/layoutplaceholdermanager/addverticalcontentplaceholder)(float, float, float, float) | เพิ่มรูปร่าง placeholder ใหม่ลงในสไลด์เค้าโครงเพื่อเก็บเนื้อหา เช่น รูปภาพ ตาราง สื่อ หรือข้อความในแนวตั้ง. |
-| [AddVerticalTextPlaceholder](../../aspose.slides/layoutplaceholdermanager/addverticaltextplaceholder)(float, float, float, float) | เพิ่มรูปร่าง placeholder ใหม่ลงในสไลด์เค้าโครงเพื่อเก็บเนื้อหาข้อความในแนวตั้ง. |
+| [AddChartPlaceholder](../../aspose.slides/layoutplaceholdermanager/addchartplaceholder)(float, float, float, float) | เพิ่มรูปทรงตัวครอบตำแหน่งใหม่ลงในสไลด์เค้าโครงเพื่อใช้เก็บแผนภูมิ. |
+| [AddContentPlaceholder](../../aspose.slides/layoutplaceholdermanager/addcontentplaceholder)(float, float, float, float) | เพิ่มรูปทรงตัวครอบตำแหน่งใหม่ลงในสไลด์เค้าโครงเพื่อใช้เก็บเนื้อหา เช่น รูปภาพ ตาราง สื่อ หรือข้อความ. |
+| [AddMediaPlaceholder](../../aspose.slides/layoutplaceholdermanager/addmediaplaceholder)(float, float, float, float) | เพิ่มรูปทรงตัวครอบตำแหน่งใหม่ลงในสไลด์เค้าโครงเพื่อใช้เก็บวัตถุสื่อ. |
+| [AddOnlineImagePlaceholder](../../aspose.slides/layoutplaceholdermanager/addonlineimageplaceholder)(float, float, float, float) | เพิ่มรูปทรงตัวครอบตำแหน่งใหม่ลงในสไลด์เค้าโครงเพื่อใช้เก็บภาพออนไลน์. |
+| [AddPicturePlaceholder](../../aspose.slides/layoutplaceholdermanager/addpictureplaceholder)(float, float, float, float) | เพิ่มรูปทรงตัวครอบตำแหน่งใหม่ลงในสไลด์เค้าโครงเพื่อใช้เก็บรูปภาพ. |
+| [AddSmartArtPlaceholder](../../aspose.slides/layoutplaceholdermanager/addsmartartplaceholder)(float, float, float, float) | เพิ่มรูปทรงตัวครอบตำแหน่งใหม่ลงในสไลด์เค้าโครงเพื่อใช้เก็บแผนภาพ SmartArt. |
+| [AddTablePlaceholder](../../aspose.slides/layoutplaceholdermanager/addtableplaceholder)(float, float, float, float) | เพิ่มรูปทรงตัวครอบตำแหน่งใหม่ลงในสไลด์เค้าโครงเพื่อใช้เก็บตาราง. |
+| [AddTextPlaceholder](../../aspose.slides/layoutplaceholdermanager/addtextplaceholder)(float, float, float, float) | เพิ่มรูปทรงตัวครอบตำแหน่งใหม่ลงในสไลด์เค้าโครงเพื่อใช้เก็บเนื้อหาข้อความ. |
+| [AddVerticalContentPlaceholder](../../aspose.slides/layoutplaceholdermanager/addverticalcontentplaceholder)(float, float, float, float) | เพิ่มรูปทรงตัวครอบตำแหน่งใหม่ลงในสไลด์เค้าโครงเพื่อใช้เก็บเนื้อหา เช่น รูปภาพ ตาราง สื่อ หรือข้อความในแนวตั้ง. |
+| [AddVerticalTextPlaceholder](../../aspose.slides/layoutplaceholdermanager/addverticaltextplaceholder)(float, float, float, float) | เพิ่มรูปทรงตัวครอบตำแหน่งใหม่ลงในสไลด์เค้าโครงเพื่อใช้เก็บเนื้อหาข้อความในแนวตั้ง. |
 
 ### ดูเพิ่มเติม
 

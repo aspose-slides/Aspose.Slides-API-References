@@ -3,12 +3,12 @@ title: IPresentationComponent
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Stelt een component van een presentatie voor.
 type: docs
-weight: 6760
+weight: 6780
 url: /nl/aspose.slides/ipresentationcomponent/
 ---
 ## IPresentationComponent interface
 
-Stelt een component van een presentatie voor.
+Representeert een component van een presentatie.
 
 ```csharp
 public interface IPresentationComponent

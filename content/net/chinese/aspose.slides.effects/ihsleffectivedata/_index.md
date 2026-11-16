@@ -1,14 +1,14 @@
 ---
 title: IHSLEffectiveData
 second_title: Aspose.Sildes for .NET API 参考
-description: 表示 Hue/Saturation/Luminance 效果。色相、饱和度和亮度均可相对于其当前值进行调整。
+description: 表示一种色相/饱和度/亮度效果。色相、饱和度和亮度可以相对于其当前值进行调整。
 type: docs
-weight: 3370
+weight: 3390
 url: /zh/aspose.slides.effects/ihsleffectivedata/
 ---
 ## IHSLEffectiveData 接口
 
-表示 Hue/Saturation/Luminance 效果。色相、饱和度和亮度均可相对于其当前值进行调整。
+表示一种色相/饱和度/亮度效果。色相、饱和度和亮度可以相对于其当前值进行调整。
 
 ```csharp
 public interface IHSLEffectiveData : IEffectEffectiveData
@@ -23,7 +23,7 @@ public interface IHSLEffectiveData : IEffectEffectiveData
 | [Luminance](../../aspose.slides.effects/ihsleffectivedata/luminance) { get; } | 返回亮度百分比。只读 Single。 |
 | [Saturation](../../aspose.slides.effects/ihsleffectivedata/saturation) { get; } | 返回饱和度百分比。只读 Single。 |
 
-### 另请参见
+### 另见
 
 * 接口 [IEffectEffectiveData](../ieffecteffectivedata)
 * 命名空间 [Aspose.Slides.Effects](../../aspose.slides.effects)

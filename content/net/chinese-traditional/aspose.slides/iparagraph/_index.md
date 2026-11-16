@@ -1,14 +1,14 @@
 ---
 title: IParagraph
-second_title: Aspose.Sildes for .NET API 參考文件
-description: 表示文字的一個段落。
+second_title: Aspose.Sildes for .NET API 參考
+description: 表示文字的段落。
 type: docs
-weight: 6560
+weight: 6580
 url: /zh-hant/aspose.slides/iparagraph/
 ---
 ## IParagraph 介面
 
-Represents a paragraph of a text.
+表示文字的段落。
 
 ```csharp
 public interface IParagraph : ISlideComponent
@@ -19,20 +19,22 @@ public interface IParagraph : ISlideComponent
 | 名稱 | 說明 |
 | --- | --- |
 | [AsISlideComponent](../../aspose.slides/iparagraph/asislidecomponent) { get; } | 允許取得基礎 ISlideComponent 介面。唯讀 [`ISlideComponent`](../islidecomponent)。 |
-| [EndParagraphPortionFormat](../../aspose.slides/iparagraph/endparagraphportionformat) { get; set; } | 指定在最後一個 portion 之後插入另一個 portion 時要使用的 portion 屬性。 |
-| [ParagraphFormat](../../aspose.slides/iparagraph/paragraphformat) { get; } | 傳回此段落的格式化物件。唯讀 [`IParagraphFormat`](../iparagraphformat)。 |
-| [Portions](../../aspose.slides/iparagraph/portions) { get; } | 傳回文字 portions 的集合。唯讀 [`IPortionCollection`](../iportioncollection)。 |
-| [Text](../../aspose.slides/iparagraph/text) { get; set; } | 取得或設定段落的純文字。讀/寫 String。 |
+| [EndParagraphPortionFormat](../../aspose.slides/iparagraph/endparagraphportionformat) { get; set; } | 指定在最後一個段落之後插入另一個段落時要使用的部分屬性。 |
+| [ParagraphFormat](../../aspose.slides/iparagraph/paragraphformat) { get; } | 回傳此段落的格式化物件。唯讀 [`IParagraphFormat`](../iparagraphformat)。 |
+| [Portions](../../aspose.slides/iparagraph/portions) { get; } | 回傳文字部分的集合。唯讀 [`IPortionCollection`](../iportioncollection)。 |
+| [Text](../../aspose.slides/iparagraph/text) { get; set; } | 取得或設定段落的純文字。可讀寫 String。 |
 
 ## 方法
 
 | 名稱 | 說明 |
 | --- | --- |
-| [GetLinesCount](../../aspose.slides/iparagraph/getlinescount)() | 取得段落中的行數。 |
-| [GetRect](../../aspose.slides/iparagraph/getrect)() | 取得限定段落的矩形座標。此矩形包含段落中所有文字行，包括空行。 |
-| [JoinPortionsWithSameFormatting](../../aspose.slides/iparagraph/joinportionswithsameformatting)() | 合併具有相同格式的 runs。 |
+| [GetImage](../../aspose.slides/iparagraph/getimage#getimage)() | 回傳段落的影像。 |
+| [GetImage](../../aspose.slides/iparagraph/getimage#getimage_1)(float, float) | 回傳使用指定比例的段落影像。 |
+| [GetLinesCount](../../aspose.slides/iparagraph/getlinescount)() | 取得段落的行數。 |
+| [GetRect](../../aspose.slides/iparagraph/getrect)() | 取得包圍段落的矩形座標。該矩形包含段落中所有文字行，包括空行。 |
+| [JoinPortionsWithSameFormatting](../../aspose.slides/iparagraph/joinportionswithsameformatting)() | 合併格式相同的文字片段。 |
 
-### 參見
+### 另見
 
 * 介面 [ISlideComponent](../islidecomponent)
 * 命名空間 [Aspose.Slides](../../aspose.slides)

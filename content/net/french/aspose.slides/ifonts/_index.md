@@ -1,12 +1,12 @@
 ---
 title: IFonts
-second_title: Référence de l'API Aspose.Sildes pour .NET
+second_title: Référence API Aspose.Sildes pour .NET
 description: Représente la collection de polices.
 type: docs
-weight: 5900
+weight: 5920
 url: /fr/aspose.slides/ifonts/
 ---
-## Interface IFonts
+## IFonts interface
 
 Représente la collection de polices.
 
@@ -16,20 +16,20 @@ public interface IFonts
 
 ## Propriétés
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
 | [ComplexScriptFont](../../aspose.slides/ifonts/complexscriptfont) { get; set; } | Renvoie ou définit la police de script complexe. Lecture/écriture [`IFontData`](../ifontdata). |
-| [EastAsianFont](../../aspose.slides/ifonts/eastasianfont) { get; set; } | Renvoie ou définit la police d'Asie orientale. Lecture/écriture [`IFontData`](../ifontdata). |
+| [EastAsianFont](../../aspose.slides/ifonts/eastasianfont) { get; set; } | Renvoie ou définit la police asiatique de l&#39;Est. Lecture/écriture [`IFontData`](../ifontdata). |
 | [LatinFont](../../aspose.slides/ifonts/latinfont) { get; set; } | Renvoie ou définit la police latine. Lecture/écriture [`IFontData`](../ifontdata). |
 
 ## Méthodes
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
-| [GetScriptFont](../../aspose.slides/ifonts/getscriptfont)(string) | Obtient le nom de police associé à une balise de script spécifique du thème de la présentation. |
+| [GetScriptFont](../../aspose.slides/ifonts/getscriptfont)(string) | Obtient le nom de la police associé à une balise de script spécifique dans le thème de la présentation. |
 | [GetScriptFontMap](../../aspose.slides/ifonts/getscriptfontmap)() | Renvoie un dictionnaire de toutes les définitions de polices de script dans la présentation. |
 | [RemoveScriptFont](../../aspose.slides/ifonts/removescriptfont)(string) | Supprime le paramètre de police associé à une balise de script spécifique de la collection de polices du thème. |
-| [SetScriptFont](../../aspose.slides/ifonts/setscriptfont)(string, string) | Attribue un nom de police à une balise de script spécifique, ce qui définit la façon dont le texte de ce script sera rendu dans la présentation. |
+| [SetScriptFont](../../aspose.slides/ifonts/setscriptfont)(string, string) | Attribue un nom de police à une balise de script spécifique, ce qui définit comment le texte de ce script sera rendu dans la présentation. |
 
 ### Voir aussi
 

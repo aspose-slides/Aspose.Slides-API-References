@@ -1,14 +1,14 @@
 ---
 title: FontsLoader
-second_title: Aspose.Sildes dla .NET – odniesienie API
-description: Klasa służąca do ładowania czcionek niestandardowych zdefiniowanych przez użytkownika. Należy używać przed tworzeniem jakichkolwiek obiektów prezentacji.
+second_title: Aspose.Sildes dla .NET Referencja API
+description: Klasa służąca do ładowania czcionek niestandardowych definiowanych przez użytkownika. Należy używać przed tworzeniem jakichkolwiek obiektów prezentacji.
 type: docs
-weight: 4930
+weight: 4950
 url: /pl/aspose.slides/fontsloader/
 ---
 ## FontsLoader klasa
 
-Klasa służąca do ładowania czcionek niestandardowych zdefiniowanych przez użytkownika. Należy używać przed tworzeniem jakichkolwiek obiektów prezentacji.
+Klasa służąca do ładowania czcionek niestandardowych definiowanych przez użytkownika. Należy używać przed tworzeniem jakichkolwiek obiektów prezentacji.
 
 ```csharp
 public sealed class FontsLoader : IFontsLoader
@@ -19,9 +19,9 @@ public sealed class FontsLoader : IFontsLoader
 | Nazwa | Opis |
 | --- | --- |
 | static [ClearCache](../../aspose.slides/fontsloader/clearcache)() | Zwalnia wszystkie czcionki niestandardowe zdefiniowane przez użytkownika |
-| static [GetFontFolders](../../aspose.slides/fontsloader/getfontfolders)() | Pobiera foldery czcionek. Zwraca foldery, które zostały dodane metodą LoadExternalFonts, a także systemowe foldery czcionek |
+| static [GetFontFolders](../../aspose.slides/fontsloader/getfontfolders)() | Pobiera foldery czcionek. Zwraca foldery, które zostały dodane metodą LoadExternalFonts, oraz foldery czcionek systemowych |
 | static [LoadExternalFont](../../aspose.slides/fontsloader/loadexternalfont)(byte[]) | Dodaje czcionkę z danych binarnych |
-| static [LoadExternalFonts](../../aspose.slides/fontsloader/loadexternalfonts)(string[]) | Dodaje dodatkowe foldery do wyszukiwania czcionek. |
+| static [LoadExternalFonts](../../aspose.slides/fontsloader/loadexternalfonts)(string[]) | Dodaje dodatkowe foldery w poszukiwaniu czcionek. |
 
 ### Zobacz także
 

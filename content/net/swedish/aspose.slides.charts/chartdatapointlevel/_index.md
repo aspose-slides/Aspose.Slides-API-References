@@ -1,14 +1,14 @@
 ---
 title: ChartDataPointLevel
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar datapunktsnivå. Gäller för Treemap- och Sunburst-diagram.
+description: Representerar datapunktnivå. Gäller för Treemap- och Sunburst-diagram.
 type: docs
-weight: 1350
+weight: 1360
 url: /sv/aspose.slides.charts/chartdatapointlevel/
 ---
 ## ChartDataPointLevel klass
 
-Representerar datapunktsnivå. Gäller för Treemap och Sunburst-diagram.
+Representerar datapunktnivå. Gäller för Treemap- och Sunburst-diagram.
 
 ```csharp
 public class ChartDataPointLevel : DomObject<ChartDataPointLevelsManager>, IChartDataPointLevel
@@ -18,8 +18,8 @@ public class ChartDataPointLevel : DomObject<ChartDataPointLevelsManager>, IChar
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Format](../../aspose.slides.charts/chartdatapointlevel/format) { get; } | Representerar formateringsegenskaper för datapunktsnivå. Läs/skriv [`IFormat`](../iformat). |
-| [Label](../../aspose.slides.charts/chartdatapointlevel/label) { get; } | Representerar datatetikett för datapunktsnivå. Tillämpas för Treemap och Sunburst serietyper. Skrivskyddad [`IDataLabel`](../idatalabel). |
+| [Format](../../aspose.slides.charts/chartdatapointlevel/format) { get; } | Representerar formateringsegenskaper för datapunktnivå. Läs/skriv [`IFormat`](../iformat). |
+| [Label](../../aspose.slides.charts/chartdatapointlevel/label) { get; } | Representerar datapunktetikett för datapunktnivå. Tillämpas för Treemap- och Sunburst-sereis-typer. Skrivskyddad [`IDataLabel`](../idatalabel). |
 
 ### Se även
 

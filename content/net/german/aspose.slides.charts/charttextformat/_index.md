@@ -1,14 +1,14 @@
 ---
 title: ChartTextFormat
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Gibt die standardmäßige Textformatierung für Diagrammtextelemente an.
+description: Legt die Standard-Textformatierung für Diagramm-Text-Elemente fest.
 type: docs
-weight: 1480
+weight: 1490
 url: /de/aspose.slides.charts/charttextformat/
 ---
 ## ChartTextFormat Klasse
 
-Gibt die standardmäßige Textformatierung für Diagrammtextelemente an.
+Gibt die Standard-Textformatierung für Chart-Text-Elemente an.
 
 ```csharp
 public class ChartTextFormat : IChartTextFormat
@@ -16,7 +16,7 @@ public class ChartTextFormat : IChartTextFormat
 
 ## Eigenschaften
 
-| Name | Description |
+| Name | Beschreibung |
 | --- | --- |
 | [ParagraphFormat](../../aspose.slides.charts/charttextformat/paragraphformat) { get; } | ParagraphFormat. Nur lesbar [`IChartParagraphFormat`](../ichartparagraphformat). |
 | [PortionFormat](../../aspose.slides.charts/charttextformat/portionformat) { get; } | PortionFormat. Nur lesbar [`IChartPortionFormat`](../ichartportionformat). |
@@ -24,10 +24,10 @@ public class ChartTextFormat : IChartTextFormat
 
 ## Methoden
 
-| Name | Description |
+| Name | Beschreibung |
 | --- | --- |
-| [CopyFrom](../../aspose.slides.charts/charttextformat/copyfrom)(ITextFrame) | Kopiert das Textformat aus dem angegebenen Textrahmen. |
-| [CopyTo](../../aspose.slides.charts/charttextformat/copyto)(ITextFrame) | Kopiert das Textformat in den angegebenen Textrahmen. |
+| [CopyFrom](../../aspose.slides.charts/charttextformat/copyfrom)(ITextFrame) | Kopiert die Textformatierung aus dem angegebenen Textframe. |
+| [CopyTo](../../aspose.slides.charts/charttextformat/copyto)(ITextFrame) | Kopiert die Textformatierung in den angegebenen Textframe. |
 
 ### Siehe auch
 

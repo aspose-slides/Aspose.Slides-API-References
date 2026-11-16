@@ -1,14 +1,14 @@
 ---
 title: SwitchRowColumn
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Tukar data pada sumbu. Data yang digambarkan pada sumbu X akan dipindahkan ke sumbu Y dan sebaliknya.
+description: Tukar data pada sumbu. Data yang dipetakan pada sumbu X akan berpindah ke sumbu Y dan sebaliknya.
 type: docs
-weight: 140
+weight: 150
 url: /id/aspose.slides.charts/chartdata/switchrowcolumn/
 ---
 ## ChartData.SwitchRowColumn metode
 
-Tukar data pada sumbu. Data yang digambarkan pada sumbu X akan dipindahkan ke sumbu Y dan sebaliknya.
+Tukar data pada sumbu. Data yang dipetakan pada sumbu X akan berpindah ke sumbu Y dan sebaliknya.
 
 ```csharp
 public void SwitchRowColumn()

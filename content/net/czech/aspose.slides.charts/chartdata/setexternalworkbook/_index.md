@@ -1,14 +1,14 @@
 ---
 title: SetExternalWorkbook
-second_title: Aspose.Sildes pro .NET API Reference
-description: Nastaví externí sešit jako datový zdroj pro graf. Data grafu budou aktualizována z cílového sešitu.
+second_title: Aspose.Sildes pro .NET – referenční příručka API
+description: Nastaví externí sešit jako zdroj dat pro graf. Data grafu budou aktualizována z cílového sešitu.
 type: docs
-weight: 120
+weight: 130
 url: /cs/aspose.slides.charts/chartdata/setexternalworkbook/
 ---
 ## SetExternalWorkbook(string) {#setexternalworkbook}
 
-Nastaví externí sešit jako datový zdroj pro graf. Data grafu budou aktualizována z cílového sešitu.
+Nastaví externí sešit jako zdroj dat pro graf. Data grafu budou aktualizována z cílového sešitu.
 
 ```csharp
 public void SetExternalWorkbook(string workbookPath)
@@ -46,7 +46,7 @@ using (Presentation pres = new Presentation())
 
 ## SetExternalWorkbook(string, bool) {#setexternalworkbook_1}
 
-Nastaví externí sešit jako datový zdroj pro graf.
+Nastaví externí sešit jako zdroj dat pro graf.
 
 ```csharp
 public void SetExternalWorkbook(string workbookPath, bool updateChartData)
@@ -55,7 +55,7 @@ public void SetExternalWorkbook(string workbookPath, bool updateChartData)
 | Parametr | Typ | Popis |
 | --- | --- | --- |
 | workbookPath | String | Cesta k cílovému sešitu |
-| updateChartData | Boolean | Pokud je hodnota false, bude aktualizována pouze cesta k sešitu. Data grafu nebudou načtena a aktualizována z cílového sešitu. Lze použít, když cílový sešit neexistuje nebo není k dispozici. Pokud je hodnota true, data grafu budou aktualizována z cílového sešitu. |
+| updateChartData | Boolean | Pokud je hodnota false, bude aktualizována pouze cesta k sešitu. Data grafu nebudou načtena a aktualizována z cílového sešitu. Lze použít, když cílový sešit neexistuje nebo není dostupný. Pokud je hodnota true, data grafu budou aktualizována z cílového sešitu. |
 
 ### Výjimky
 

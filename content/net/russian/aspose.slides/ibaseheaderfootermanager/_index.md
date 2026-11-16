@@ -1,14 +1,14 @@
 ---
 title: IBaseHeaderFooterManager
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Aspose.Sildes для .NET справочник API
 description: Представляет менеджер, который управляет поведением заполнителей нижнего колонтитула, даты и времени, номера страницы для всех типов слайдов.
 type: docs
-weight: 5300
+weight: 5320
 url: /ru/aspose.slides/ibaseheaderfootermanager/
 ---
 ## IBaseHeaderFooterManager интерфейс
 
-Представляет менеджер, который управляет поведением заполнителей нижнего колонтитула, даты и времени, номера страниц для всех типов слайдов.
+Представляет менеджер, который управляет поведением заполнителей нижнего колонтитула, даты и времени, номера страницы для всех типов слайдов.
 
 ```csharp
 public interface IBaseHeaderFooterManager

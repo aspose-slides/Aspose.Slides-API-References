@@ -1,14 +1,14 @@
 ---
 title: CommentAuthor
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: เป็นตัวแทนของผู้เขียนความคิดเห็น
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: เป็นตัวแทนของผู้เขียนความคิดเห็น.
 type: docs
-weight: 2630
+weight: 2650
 url: /th/aspose.slides/commentauthor/
 ---
 ## CommentAuthor คลาส
 
-เป็นตัวแทนของผู้เขียนความคิดเห็น。
+Represents an author of comments.
 
 ```csharp
 public sealed class CommentAuthor : ICommentAuthor
@@ -18,7 +18,7 @@ public sealed class CommentAuthor : ICommentAuthor
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Comments](../../aspose.slides/commentauthor/comments) { get; } | ส่งคืนคอลเลกชันของความคิดเห็นที่สร้างโดยผู้เขียนนี้. อ่านอย่างเดียว [`ICommentCollection`](../icommentcollection). |
+| [Comments](../../aspose.slides/commentauthor/comments) { get; } | ส่งคืนคอลเลกชันของความคิดเห็นที่เขียนโดยผู้เขียนนี้. อ่านอย่างเดียว [`ICommentCollection`](../icommentcollection). |
 | [Initials](../../aspose.slides/commentauthor/initials) { get; set; } | ส่งคืนหรือกำหนดค่าอักษรย่อของผู้เขียน. อ่าน/เขียน String. |
 | [Name](../../aspose.slides/commentauthor/name) { get; set; } | ส่งคืนหรือกำหนดค่าชื่อของผู้เขียน. อ่าน/เขียน String. |
 
@@ -26,7 +26,7 @@ public sealed class CommentAuthor : ICommentAuthor
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Remove](../../aspose.slides/commentauthor/remove)() | ลบผู้เขียนออกจากคอลเลกชันแม่. |
+| [Remove](../../aspose.slides/commentauthor/remove)() | ลบผู้เขียนออกจากคอลเลกชันหลัก. |
 
 ### ดูเพิ่มเติม
 

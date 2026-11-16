@@ -1,41 +1,41 @@
 ---
 title: XpsOptions
-second_title: Aspose.Sildes لـ .NET مرجع API
-description: يوفر خيارات تتحكم في كيفية حفظ العرض التقديمي بتنسيق XPS.
+second_title: مرجع API Aspose.Sildes لـ .NET
+description: يوفر خيارات تتحكم في كيفية حفظ العرض التقديمي بصيغة XPS.
 type: docs
-weight: 4730
+weight: 4750
 url: /ar/aspose.slides.export/xpsoptions/
 ---
 ## XpsOptions فئة
 
-يقدم خيارات تتحكم في كيفية حفظ العرض التقديمي بتنسيق XPS.
+يوفر خيارات تتحكم في كيفية حفظ العرض التقديمي بصيغة XPS.
 
 ```csharp
 public class XpsOptions : SaveOptions, IXpsOptions
 ```
 
-## المُنشئات
+## المنشئون
 
-| Name | الوصف |
+| الاسم | الوصف |
 | --- | --- |
 | [XpsOptions](xpsoptions)() | منشئ افتراضي. |
 
 ## الخصائص
 
-| Name | الوصف |
+| الاسم | الوصف |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | إرجاع أو تعيين الخط المستخدم في حالة عدم العثور على الخط المصدر. قابل للقراءة والكتابة String. |
-| [DrawSlidesFrame](../../aspose.slides.export/xpsoptions/drawslidesframe) { get; set; } | صحيح لرسم إطار أسود حول كل شريحة. قابل للقراءة/الكتابة Boolean. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | إرجاع أو تعيين النمط البصري للتدرج. قابل للقراءة/الكتابة [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | يمثل كائنًا استدعائيًا لتحديثات حفظ التقدم بالنسبة المئوية. انظر [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SaveMetafilesAsPng](../../aspose.slides.export/xpsoptions/savemetafilesaspng) { get; set; } | صحيح لتحويل جميع ملفات الميتا المستخدمة في عرض تقديمي إلى صور PNG. قابل للقراءة/الكتابة Boolean. |
-| [ShowHiddenSlides](../../aspose.slides.export/xpsoptions/showhiddenslides) { get; set; } | يحدد ما إذا كان المستند المُولد يجب أن يتضمن الشرائح المخفية أم لا. القيمة الافتراضية هي `false`. |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | يحدد ما إذا كان يجب تخطي الروابط التشعبية التي تحتوي على استدعاءات جافا سكريبت عند حفظ العرض التقديمي. قابل للقراءة/الكتابة Boolean. القيمة الافتراضية هي **false**. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | إرجاع أو تعيين كائن يتلقى التحذيرات ويقرر ما إذا كانت عملية التحميل ستستمر أم ستُوقف. قابل للقراءة/الكتابة [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | يعيد أو يعين الخط المستخدم في حالة عدم العثور على الخط المصدر. قراءة-كتابة String. |
+| [DrawSlidesFrame](../../aspose.slides.export/xpsoptions/drawslidesframe) { get; set; } | true لرسم إطار أسود حول كل شريحة. قراءة-كتابة Boolean. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | يعيد أو يعين النمط البصري للتدرج. قراءة-كتابة [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | يمثل كائن رد نداء لتحديثات حفظ التقدم بالنسبة المئوية. انظر [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [SaveMetafilesAsPng](../../aspose.slides.export/xpsoptions/savemetafilesaspng) { get; set; } | true لتحويل جميع ملفات الميتا المستخدمة في العرض التقديمي إلى صور PNG. قراءة-كتابة Boolean. |
+| [ShowHiddenSlides](../../aspose.slides.export/xpsoptions/showhiddenslides) { get; set; } | يحدد ما إذا كان المستند المُنشأ يجب أن يتضمن الشرائح المخفية أم لا. القيمة الافتراضية هي `false`. |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | يحدد ما إذا كان يجب تخطي الروابط التشعبية ذات استدعاءات JavaScript عند حفظ العرض التقديمي. قراءة-كتابة Boolean. القيمة الافتراضية هي **false**. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | يعيد أو يعين كائن يتلقى التحذيرات ويقرر ما إذا كانت عملية التحميل ستستمر أو ستُوقف. قراءة-كتابة [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
-### أمثلة
+### الأمثلة
 
-المثال التالي يوضح كيفية تحويل العروض التقديمية إلى XPS باستخدام الإعدادات الافتراضية.
+المثال التالي يوضح طريقة تحويل العروض التقديمية إلى XPS باستخدام الإعدادات الافتراضية.
 
 ```csharp
 [C#]
@@ -47,27 +47,27 @@ using (Presentation pres = new Presentation("Convert_XPS.pptx"))
 }
 ```
 
-المثال التالي يوضح كيفية تحويل العروض التقديمية إلى XPS باستخدام إعدادات مخصصة.
+المثال التالي يوضح طريقة تحويل العروض التقديمية إلى XPS باستخدام إعدادات مخصصة.
 
 ```csharp
 [C#]
 // إنشاء كائن Presentation يمثل ملف عرض تقديمي
 using (Presentation pres = new Presentation("Convert_XPS_Options.pptx"))
 {
-    // إنشاء كائن من فئة TiffOptions
+    // إنشاء فئة TiffOptions
     XpsOptions options = new XpsOptions();
-    // حفظ ملفات MetaFiles كـ PNG
+    // حفظ MetaFiles كـ PNG
     options.SaveMetafilesAsPng = true;
     // حفظ العرض التقديمي إلى مستند XPS
     pres.Save("XPS_With_Options_out.xps", SaveFormat.Xps, options);
 }
 ```
 
-### أنظر أيضًا
+### انظر أيضًا
 
 * فئة [SaveOptions](../saveoptions)
 * واجهة [IXpsOptions](../ixpsoptions)
-* نطاق [Aspose.Slides.Export](../../aspose.slides.export)
+* نطاق الاسم [Aspose.Slides.Export](../../aspose.slides.export)
 * تجميع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

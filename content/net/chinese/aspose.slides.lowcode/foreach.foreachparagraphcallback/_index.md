@@ -1,14 +1,14 @@
 ---
 title: ForEach.ForEachParagraphCallback
 second_title: Aspose.Sildes .NET API 参考
-description: 将在 BaseSlide 上为每个 Paragraph 调用的回调。/foreach/paragraph ../aspose.slides/baseslide
+description: 在 BaseSlide 上的每个 Paragraph./foreach/paragraph 调用的回调。
 type: docs
-weight: 7930
+weight: 7950
 url: /zh/aspose.slides.lowcode/foreach.foreachparagraphcallback/
 ---
 ## ForEach.ForEachParagraphCallback 委托
 
-在 [`BaseSlide`](../../aspose.slides/baseslide) 上为每个 [`Paragraph`](../foreach/paragraph) 调用的回调。
+将在 [`BaseSlide`](../../aspose.slides/baseslide) 上对每个 [`Paragraph`](../foreach/paragraph) 调用的回调。
 
 ```csharp
 public delegate void ForEachParagraphCallback(Paragraph para, BaseSlide slide, int index);
@@ -18,7 +18,7 @@ public delegate void ForEachParagraphCallback(Paragraph para, BaseSlide slide, i
 | --- | --- | --- |
 | para | Paragraph | 当前迭代的段落 |
 | slide | BaseSlide | 当前迭代的幻灯片 |
-| index | Int32 | 当前幻灯片上段落的索引 |
+| index | Int32 | 当前段落在幻灯片上的索引 |
 
 ### 另请参见
 

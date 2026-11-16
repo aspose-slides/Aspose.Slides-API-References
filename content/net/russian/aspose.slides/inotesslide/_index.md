@@ -1,9 +1,9 @@
 ---
 title: INotesSlide
-second_title: Aspose.Sildes для .NET API справка
+second_title: Справочник API Aspose.Sildes для .NET
 description: Представляет слайд заметок в презентации.
 type: docs
-weight: 6500
+weight: 6520
 url: /ru/aspose.slides/inotesslide/
 ---
 ## INotesSlide интерфейс
@@ -21,10 +21,10 @@ public interface INotesSlide : IBaseSlide, IOverrideThemeable
 | [AsIBaseSlide](../../aspose.slides/inotesslide/asibaseslide) { get; } | Позволяет получить базовый интерфейс IBaseSlide. Только для чтения [`IBaseSlide`](../ibaseslide). |
 | [AsIOverrideThemeable](../../aspose.slides/inotesslide/asioverridethemeable) { get; } | Возвращает интерфейс IOverrideThemeable. Только для чтения [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
 | [HeaderFooterManager](../../aspose.slides/inotesslide/headerfootermanager) { get; } | Возвращает менеджер HeaderFooter слайда заметок. Только для чтения [`INotesSlideHeaderFooterManager`](../inotesslideheaderfootermanager). |
-| [NotesTextFrame](../../aspose.slides/inotesslide/notestextframe) { get; } | Возвращает TextFrame с текстом заметок, если он есть. Только для чтения [`ITextFrame`](../itextframe). |
-| [ParentSlide](../../aspose.slides/inotesslide/parentslide) { get; } | Возвращает ParentSlide. Только для чтения [`ISlide`](../islide). |
+| [NotesTextFrame](../../aspose.slides/inotesslide/notestextframe) { get; } | Возвращает объект TextFrame с текстом заметок, если он есть. Только для чтения [`ITextFrame`](../itextframe). |
+| [ParentSlide](../../aspose.slides/inotesslide/parentslide) { get; } | Возвращает объект ParentSlide. Только для чтения [`ISlide`](../islide). |
 
-### См. также
+### Смотрите также
 
 * интерфейс [IBaseSlide](../ibaseslide)
 * интерфейс [IOverrideThemeable](../../aspose.slides.theme/ioverridethemeable)

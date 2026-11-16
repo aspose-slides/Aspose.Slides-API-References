@@ -3,7 +3,7 @@ title: GetFontEmbeddingLevel
 second_title: Tham chiếu API Aspose.Sildes cho .NET
 description: Xác định mức độ nhúng của phông chữ từ mảng byte và tên phông chữ đã cho.
 type: docs
-weight: 60
+weight: 70
 url: /vi/aspose.slides/ifontsmanager/getfontembeddinglevel/
 ---
 ## IFontsManager.GetFontEmbeddingLevel phương thức
@@ -35,10 +35,10 @@ Mức độ nhúng của phông chữ đã chỉ định.
 [C#]
 using (Presentation pres = new Presentation(pptxFileName))
 {
-    // Lấy toàn bộ phông chữ được sử dụng trong bản trình chiếu
+    // Lấy tất cả các phông chữ được sử dụng trong bản trình chiếu
     IFontData[] fontDatas = pres.FontsManager.GetFonts();
 
-    // Lấy mảng byte đại diện cho kiểu regular của phông chữ đầu tiên trong bản trình chiếu
+    // Lấy mảng byte đại diện cho kiểu thường của phông chữ đầu tiên trong bản trình chiếu
     byte[] bytes = pres.FontsManager.GetFontBytes(fontDatas[0], FontStyle.Regular);
 
     // Xác định mức độ nhúng của phông chữ

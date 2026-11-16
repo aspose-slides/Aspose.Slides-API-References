@@ -1,14 +1,14 @@
 ---
 title: Luminance
-second_title: Aspose.Sildes para .NET Referência da API
-description: Representa um efeito Luminance. Brightness desloca linearmente todas as cores mais próximas ao branco ou preto. Contrast escala todas as cores para que fiquem mais próximas ou mais afastadas.
+second_title: Aspose.Sildes para a Referência da API .NET
+description: Representa um efeito Luminance. O brilho desloca linearmente todas as cores mais próximas do branco ou do preto. O contraste escala todas as cores para que fiquem mais próximas ou mais distantes umas das outras.
 type: docs
-weight: 3610
+weight: 3630
 url: /pt/aspose.slides.effects/luminance/
 ---
-## Classe Luminance
+## classe Luminance
 
-Representa um efeito Luminance. Brilho desloca linearmente todas as cores mais próximas ao branco ou preto. Contraste escala todas as cores para que fiquem mais próximas ou mais afastadas.
+Representa um efeito Luminance. Brilho desloca linearmente todas as cores mais próximas do branco ou do preto. Contraste escala todas as cores para que fiquem mais próximas ou mais distantes umas das outras.
 
 ```csharp
 public sealed class Luminance : ImageTransformOperation, ILuminance
@@ -26,9 +26,9 @@ public sealed class Luminance : ImageTransformOperation, ILuminance
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/luminance/equals)(object) | Determina se o [`Luminance`](../luminance) especificado é igual ao [`Luminance`](../luminance) atual. |
 | [GetEffective](../../aspose.slides.effects/luminance/geteffective)() | Obtém os dados efetivos do efeito Luminance com a herança aplicada. |
-| override [GetHashCode](../../aspose.slides.effects/luminance/gethashcode)() | Serve como função de hash para um tipo específico. |
+| override [GetHashCode](../../aspose.slides.effects/luminance/gethashcode)() | Funciona como uma função hash para um tipo específico. |
 
-### Veja Também
+### Ver também
 
 * classe [ImageTransformOperation](../imagetransformoperation)
 * interface [ILuminance](../iluminance)

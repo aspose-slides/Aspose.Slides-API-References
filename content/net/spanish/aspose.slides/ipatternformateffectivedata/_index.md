@@ -1,14 +1,14 @@
 ---
 title: IPatternFormatEffectiveData
-second_title: Referencia de API de Aspose.Sildes para .NET
-description: Objeto inmutable que contiene propiedades efectivas de relleno de patrón.
+second_title: Aspose.Sildes para la referencia de API .NET
+description: Objeto inmutable que contiene las propiedades efectivas de relleno de patrón.
 type: docs
-weight: 6630
+weight: 6650
 url: /es/aspose.slides/ipatternformateffectivedata/
 ---
 ## IPatternFormatEffectiveData interfaz
 
-Objeto inmutable que contiene propiedades efectivas de relleno de patrón.
+Objeto inmutable que contiene las propiedades efectivas de relleno de patrón.
 
 ```csharp
 public interface IPatternFormatEffectiveData
@@ -16,19 +16,19 @@ public interface IPatternFormatEffectiveData
 
 ## Propiedades
 
-| Name | Description |
+| Nombre | Descripción |
 | --- | --- |
 | [BackColor](../../aspose.slides/ipatternformateffectivedata/backcolor) { get; } | Devuelve el color de fondo del patrón. Solo lectura Color. |
-| [ForeColor](../../aspose.slides/ipatternformateffectivedata/forecolor) { get; } | Devuelve el color de primer plano del patrón. Solo lectura Color. |
+| [ForeColor](../../aspose.slides/ipatternformateffectivedata/forecolor) { get; } | Devuelve el color del patrón de primer plano. Solo lectura Color. |
 | [PatternStyle](../../aspose.slides/ipatternformateffectivedata/patternstyle) { get; } | Devuelve el estilo del patrón. Solo lectura [`PatternStyle`](../patternstyle). |
 
 ## Métodos
 
-| Name | Description |
+| Nombre | Descripción |
 | --- | --- |
-| [GetTileIImage](../../aspose.slides/ipatternformateffectivedata/gettileiimage)(Color, Color) | Crea una imagen de mosaico para el relleno de patrón con colores especificados. |
+| [GetTileIImage](../../aspose.slides/ipatternformateffectivedata/gettileiimage)(Color, Color) | Crea una imagen en mosaico para el relleno de patrón con colores especificados. |
 
-### Comentarios
+### Observaciones
 
 Esta interfaz se usa como parte de [`IFillFormatEffectiveData`](../ifillformateffectivedata) y [`ILineFillFormatEffectiveData`](../ilinefillformateffectivedata).
 

@@ -1,14 +1,14 @@
 ---
 title: Remove
 second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
-description: ลบ DataPoint จากชุดข้อมูลแผนภูมิ.
+description: ลบ DataPoint จากซีรีส์ของแผนภูมิ.
 type: docs
-weight: 230
+weight: 270
 url: /th/aspose.slides.charts/chartdatapoint/remove/
 ---
 ## ChartDataPoint.Remove เมธอด
 
-ลบ DataPoint จากชุดข้อมูลแผนภูมิ.
+ลบ DataPoint จากซีรีส์ของแผนภูมิ.
 
 ```csharp
 public void Remove()
@@ -18,7 +18,7 @@ public void Remove()
 
 | ข้อยกเว้น | เงื่อนไข |
 | --- | --- |
-| [PptxEditException](../../../aspose.slides/pptxeditexception) | ถูกโยนเมื่อจุดข้อมูลถูกลบออกจากชุดข้อมูลแผนภูมิแล้ว. |
+| [PptxEditException](../../../aspose.slides/pptxeditexception) | เกิดข้อยกเว้นหากจุดข้อมูลถูกลบออกจากซีรีส์ของแผนภูมิแล้ว. |
 
 ### ดูเพิ่มเติม
 

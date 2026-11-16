@@ -1,9 +1,9 @@
 ---
 title: EffectStyleCollection
-second_title: Aspose.Sildes dla .NET - Referencja API
+second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Reprezentuje kolekcję stylów efektów.
 type: docs
-weight: 11090
+weight: 11110
 url: /pl/aspose.slides.theme/effectstylecollection/
 ---
 ## EffectStyleCollection klasa
@@ -18,9 +18,9 @@ public sealed class EffectStyleCollection : DomObject<FormatScheme>, IEffectStyl
 
 | Nazwa | Opis |
 | --- | --- |
-| [Count](../../aspose.slides.theme/effectstylecollection/count) { get; } | Zwraca liczbę elementów w kolekcji. Tylko do odczytu Int32, Tylko do odczytu Int32. |
-| [IsSynchronized](../../aspose.slides.theme/effectstylecollection/issynchronized) { get; } | Zwraca wartość wskazującą, czy dostęp do kolekcji jest synchronizowany (bezpieczny wątkowo). Tylko do odczytu Boolean. |
-| [Item](../../aspose.slides.theme/effectstylecollection/item) { get; } | Zwraca element pod określonym pozycją. Tylko do odczytu [`EffectStyle`](../effectstyle). |
+| [Count](../../aspose.slides.theme/effectstylecollection/count) { get; } | Zwraca liczbę elementów w kolekcji. Tylko do odczytu Int32, tylko do odczytu Int32. |
+| [IsSynchronized](../../aspose.slides.theme/effectstylecollection/issynchronized) { get; } | Zwraca wartość wskazującą, czy dostęp do kolekcji jest synchronizowany (wątkowo-bezpieczny). Tylko do odczytu Boolean. |
+| [Item](../../aspose.slides.theme/effectstylecollection/item) { get; } | Zwraca element na określonej pozycji. Tylko do odczytu [`EffectStyle`](../effectstyle). |
 | [SyncRoot](../../aspose.slides.theme/effectstylecollection/syncroot) { get; } | Zwraca korzeń synchronizacji. Tylko do odczytu Object. |
 
 ## Metody

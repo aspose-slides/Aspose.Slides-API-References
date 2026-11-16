@@ -1,12 +1,12 @@
 ---
 title: Input
-second_title: Aspose.Sildes 的 .NET API 参考
-description: 表示输入元素（模板）的集合。
+second_title: Aspose.Sildes .NET API 参考
+description: 表示输入元素模板的集合。
 type: docs
-weight: 4630
+weight: 4650
 url: /zh/aspose.slides.export.web/input/
 ---
-## Input 类
+## 输入类
 
 表示输入元素（模板）的集合。
 
@@ -16,9 +16,9 @@ public sealed class Input
 
 ## 方法
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
-| [AddTemplate&lt;TContextObject&gt;](../../aspose.slides.export.web/input/addtemplate)(string, string) | 将模板添加到集合中。 |
+| [AddTemplate&lt;TContextObject&gt;](../../aspose.slides.export.web/input/addtemplate)(string, string) | 向集合中添加模板。 |
 
 ### 另见
 

@@ -1,14 +1,14 @@
 ---
 title: IFontSubstRuleCollection
-second_title: Aspose.Sildes dla .NET – odniesienie API
+second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Reprezentuje kolekcję substytucji czcionek.
 type: docs
-weight: 5890
+weight: 5910
 url: /pl/aspose.slides/ifontsubstrulecollection/
 ---
 ## IFontSubstRuleCollection interfejs
 
-Reprezentuje kolekcję substytucji czcionek.
+Represents collection of fonts substitution.
 
 ```csharp
 public interface IFontSubstRuleCollection : IGenericCollection<IFontSubstRule>
@@ -18,13 +18,13 @@ public interface IFontSubstRuleCollection : IGenericCollection<IFontSubstRule>
 
 | Nazwa | Opis |
 | --- | --- |
-| [Item](../../aspose.slides/ifontsubstrulecollection/item) { get; } | Zwraca element o podanym indeksie. |
+| [Item](../../aspose.slides/ifontsubstrulecollection/item) { get; } | Pobiera element o określonym indeksie. |
 
 ## Metody
 
 | Nazwa | Opis |
 | --- | --- |
-| [Add](../../aspose.slides/ifontsubstrulecollection/add)(IFontSubstRule) | Dodaje nową regułę substytucji czcionek do kolekcji |
+| [Add](../../aspose.slides/ifontsubstrulecollection/add)(IFontSubstRule) | Dodaje nową regułę substytucji czcionki do kolekcji |
 | [Remove](../../aspose.slides/ifontsubstrulecollection/remove)(IFontSubstRule) | Usuwa pierwsze wystąpienie określonego obiektu z kolekcji. |
 
 ### Zobacz także

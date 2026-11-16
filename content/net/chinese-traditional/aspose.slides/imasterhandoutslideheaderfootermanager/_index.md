@@ -1,14 +1,14 @@
 ---
 title: IMasterHandoutSlideHeaderFooterManager
-second_title: Aspose.Sildes 的 .NET API 參考
-description: 表示管理器，負責掌握主說明稿投影片佔位符的行為，包括頁首佔位符。
+second_title: Aspose.Sildes for .NET API 參考
+description: 表示管理主講義投影片佔位符行為的管理員，包含標題佔位符。
 type: docs
-weight: 6360
+weight: 6380
 url: /zh-hant/aspose.slides/imasterhandoutslideheaderfootermanager/
 ---
 ## IMasterHandoutSlideHeaderFooterManager 介面
 
-表示管理器，負責掌握主說明稿投影片的佔位符行為，包括頁首佔位符。
+表示管理主講義投影片佔位符行為的管理員，包含標題佔位符。
 
 ```csharp
 public interface IMasterHandoutSlideHeaderFooterManager : IBaseHandoutNotesSlideHeaderFooterManag
@@ -16,11 +16,11 @@ public interface IMasterHandoutSlideHeaderFooterManager : IBaseHandoutNotesSlide
 
 ## 屬性
 
-| 名稱 | 說明 |
+| Name | Description |
 | --- | --- |
-| [AsIBaseHandoutNotesSlideHeaderFooterManag](../../aspose.slides/imasterhandoutslideheaderfootermanager/asibasehandoutnotesslideheaderfootermanag) { get; } | 返回 IBaseHandoutNotesSlideHeaderFooterManag 介面。 |
+| [AsIBaseHandoutNotesSlideHeaderFooterManag](../../aspose.slides/imasterhandoutslideheaderfootermanager/asibasehandoutnotesslideheaderfootermanag) { get; } | 傳回 IBaseHandoutNotesSlideHeaderFooterManag 介面。 |
 
-### 另見
+### 參見
 
 * 介面 [IBaseHandoutNotesSlideHeaderFooterManag](../ibasehandoutnotesslideheaderfootermanag)
 * 命名空間 [Aspose.Slides](../../aspose.slides)

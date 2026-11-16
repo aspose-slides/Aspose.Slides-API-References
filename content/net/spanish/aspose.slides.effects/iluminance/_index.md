@@ -1,26 +1,26 @@
 ---
 title: ILuminance
-second_title: Aspose.Sildes para la referencia de API .NET
-description: Representa un efecto Luminance. Brightness desplaza linealmente todos los colores más cerca del blanco o negro. Contrast escala todos los colores para que estén más cerca o más alejados.
+second_title: Referencia de API de Aspose.Sildes para .NET
+description: Representa un efecto Luminance. Brillo desplaza linealmente todos los colores más cerca del blanco o del negro. Contraste escala todos los colores para que estén más cerca o más lejos entre sí.
 type: docs
-weight: 3440
+weight: 3460
 url: /es/aspose.slides.effects/iluminance/
 ---
 ## ILuminance interfaz
 
-Representa un efecto Luminance. Brightness desplaza linealmente todos los colores más cerca del blanco o negro. Contrast escala todos los colores para que estén más cerca o más separados.
+Representa un efecto Luminance. Brillo desplaza linealmente todos los colores más cerca del blanco o del negro. Contraste escala todos los colores para que estén más cerca o más lejos entre sí.
 
 ```csharp
 public interface ILuminance : IAccessiblePVIObject<ILuminanceEffectiveData>, 
     IImageTransformOperation
 ```
 
-## Propiedades
+## Properties
 
 | Nombre | Descripción |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/iluminance/asiaccessiblepviobject) { get; } | Permite obtener la interfaz base IAccessiblePVIObject. Solo lectura [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/iluminance/asiimagetransformoperation) { get; } | Permite obtener la interfaz base IImageTransformOperation. Solo lectura [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/iluminance/asiaccessiblepviobject) { get; } | Permite obtener la interfaz base IAccessiblePVIObject. Sólo lectura [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/iluminance/asiimagetransformoperation) { get; } | Permite obtener la interfaz base IImageTransformOperation. Sólo lectura [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### Ver también
 

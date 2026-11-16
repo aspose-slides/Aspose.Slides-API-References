@@ -1,14 +1,14 @@
 ---
 title: IShapeBevel
-second_title: Aspose.Sildes .NET API hivatkozás
+second_title: Aspose.Sildes .NET API referenciája
 description: A formák fő felületének domborítási tulajdonságait képviseli.
 type: docs
-weight: 6960
+weight: 6980
 url: /hu/aspose.slides/ishapebevel/
 ---
 ## IShapeBevel interfész
 
-A forma fő felületének domborítási tulajdonságait reprezentálja.
+A forma fő felületének domborítási tulajdonságait képviseli.
 
 ```csharp
 public interface IShapeBevel
@@ -18,9 +18,9 @@ public interface IShapeBevel
 
 | Név | Leírás |
 | --- | --- |
-| [BevelType](../../aspose.slides/ishapebevel/beveltype) { get; set; } | Ferdeség típusa. Olvasás/írás [`BevelPresetType`](../bevelpresettype). |
-| [Height](../../aspose.slides/ishapebevel/height) { get; set; } | Ferdeség magassága. Olvasás/írás Double. |
-| [Width](../../aspose.slides/ishapebevel/width) { get; set; } | Ferdeség szélessége. Olvasás/írás Double. |
+| [BevelType](../../aspose.slides/ishapebevel/beveltype) { get; set; } | Domborítás típusa. Olvasás/írás [`BevelPresetType`](../bevelpresettype). |
+| [Height](../../aspose.slides/ishapebevel/height) { get; set; } | Domborítás magassága. Olvasás/írás Double. |
+| [Width](../../aspose.slides/ishapebevel/width) { get; set; } | Domborítás szélessége. Olvasás/írás Double. |
 
 ### Lásd még
 

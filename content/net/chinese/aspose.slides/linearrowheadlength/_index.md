@@ -1,9 +1,9 @@
 ---
 title: LineArrowheadLength
-second_title: Aspose.Sildes for .NET API 参考
+second_title: 适用于 .NET 的 Aspose.Sildes API 参考
 description: 表示箭头的长度。
 type: docs
-weight: 7730
+weight: 7750
 url: /zh/aspose.slides/linearrowheadlength/
 ---
 ## LineArrowheadLength 枚举
@@ -14,7 +14,7 @@ url: /zh/aspose.slides/linearrowheadlength/
 public enum LineArrowheadLength : sbyte
 ```
 
-### 值
+### 取值
 
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
@@ -23,7 +23,7 @@ public enum LineArrowheadLength : sbyte
 | Medium | `1` |  |
 | Long | `2` |  |
 
-### 参见
+### 另请参阅
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

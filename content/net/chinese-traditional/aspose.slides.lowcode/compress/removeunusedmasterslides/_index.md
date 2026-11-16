@@ -1,22 +1,22 @@
 ---
 title: RemoveUnusedMasterSlides
-second_title: Aspose.Sildes for .NET API 參考文件
-description: 透過移除未使用的母片投影片，對 Presentationaspose.slides/presentation 執行壓縮。
+second_title: Aspose.Sildes 的 .NET API 參考
+description: 透過移除未使用的母投影片，對 Presentationaspose.slides/presentation 進行壓縮。
 type: docs
-weight: 30
+weight: 50
 url: /zh-hant/aspose.slides.lowcode/compress/removeunusedmasterslides/
 ---
 ## Compress.RemoveUnusedMasterSlides 方法
 
-透過移除未使用的母片投影片，對 [`Presentation`](../../../aspose.slides/presentation) 執行壓縮。
+透過移除未使用的母投影片來對 [`Presentation`](../../../aspose.slides/presentation) 進行壓縮。
 
 ```csharp
 public static void RemoveUnusedMasterSlides(Presentation pres)
 ```
 
-| 參數 | 類型 | 描述 |
+| 參數 | 類型 | 說明 |
 | --- | --- | --- |
-| pres | Presentation | 簡報實例 |
+| pres | Presentation | Presentation 實例 |
 
 ### 範例
 
@@ -29,7 +29,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### 另見
+### 參見
 
 * 類別 [Presentation](../../../aspose.slides/presentation)
 * 類別 [Compress](../../compress)

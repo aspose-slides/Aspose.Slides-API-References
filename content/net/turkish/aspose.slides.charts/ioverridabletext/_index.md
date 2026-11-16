@@ -3,7 +3,7 @@ title: IOverridableText
 second_title: Aspose.Sildes için .NET API Referansı
 description: Bir grafik için geçersiz kılınabilir metni temsil eder.
 type: docs
-weight: 2180
+weight: 2200
 url: /tr/aspose.slides.charts/ioverridabletext/
 ---
 ## IOverridableText arayüz
@@ -18,14 +18,14 @@ public interface IOverridableText : IFormattedTextContainer
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIFormattedTextContainer](../../aspose.slides.charts/ioverridabletext/asiformattedtextcontainer) { get; } | Temel IFormattedTextContainer arayüzünü almayı sağlar. Salt okunur [`IFormattedTextContainer`](../iformattedtextcontainer). |
-| [TextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/textframeforoverriding) { get; } | Zengin biçimlendirilmiş bir metin içerebilir. Bu özellik null değilse, bu biçimlendirilmiş metin değeri otomatik olarak oluşturulan metni geçersiz kılar. Otomatik oluşturulan metin, veri etiketi, değer ekseninin gösterge birimi etiketi, eksen başlığı, grafik başlığı, trend çizgisi etiketi gibi örtük bir özelliktir. Otomatik oluşturulan metin IFormattedTextContainer.TextFormat özelliğiyle biçimlendirilir. Salt okunur [`ITextFrame`](../../aspose.slides/itextframe). |
+| [AsIFormattedTextContainer](../../aspose.slides.charts/ioverridabletext/asiformattedtextcontainer) { get; } | Temel IFormattedTextContainer arayüzünü almaya izin verir. Salt Okunur [`IFormattedTextContainer`](../iformattedtextcontainer). |
+| [TextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/textframeforoverriding) { get; } | Zengin biçimlendirilmiş bir metin içerebilir. Bu özellik null değilse, bu biçimlendirilmiş metin değeri otomatik oluşturulan metni geçersiz kılar. Otomatik oluşturulan metin, veri etiketi, değer ekseninin görüntü birimi etiketi, eksen başlığı, grafik başlığı, eğri çizgi etiketi gibi öğelerin örtük bir özelliğidir. Otomatik oluşturulan metin, IFormattedTextContainer.TextFormat özelliğiyle biçimlendirilir. Salt Okunur [`ITextFrame`](../../aspose.slides/itextframe). |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [AddTextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/addtextframeforoverriding)(string) | TextFrameForOverriding'i parametre "text" içindeki metinle başlatır. TextFrameForOverriding zaten başlatılmışsa, yalnızca metnini değiştirir. |
+| [AddTextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/addtextframeforoverriding)(string) | Parametre "text" içindeki metin ile TextFrameForOverriding'i başlatır. TextFrameForOverriding zaten başlatılmışsa, sadece metnini değiştirir. |
 
 ### Ayrıca Bakınız
 

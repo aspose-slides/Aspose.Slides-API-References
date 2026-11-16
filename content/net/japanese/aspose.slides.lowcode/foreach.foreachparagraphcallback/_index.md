@@ -1,20 +1,20 @@
 ---
 title: ForEach.ForEachParagraphCallback
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 各 Paragraph./foreach/paragraph に対して BaseSlide../aspose.slides/baseslide 上で呼び出されるコールバックです。
+description: BaseSlide../aspose.slides/baseslide 上で各 Paragraph./foreach/paragraph に対して呼び出されるコールバック。
 type: docs
-weight: 7930
+weight: 7950
 url: /ja/aspose.slides.lowcode/foreach.foreachparagraphcallback/
 ---
-## ForEach.ForEachParagraphCallback delegate
+## ForEach.ForEachParagraphCallback デリゲート
 
-各[`Paragraph`](../foreach/paragraph)が[`BaseSlide`](../../aspose.slides/baseslide)上で呼び出されるコールバック。
+各[`Paragraph`](../foreach/paragraph)に対して[`BaseSlide`](../../aspose.slides/baseslide)上で呼び出されるコールバックです。
 
 ```csharp
 public delegate void ForEachParagraphCallback(Paragraph para, BaseSlide slide, int index);
 ```
 
-| パラメーター | 型 | 説明 |
+| パラメータ | 型 | 説明 |
 | --- | --- | --- |
 | para | Paragraph | 現在反復中の段落 |
 | slide | BaseSlide | 現在反復中のスライド |

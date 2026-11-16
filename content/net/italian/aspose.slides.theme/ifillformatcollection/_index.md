@@ -1,14 +1,14 @@
 ---
 title: IFillFormatCollection
-second_title: Aspose.Sildes per .NET API di Riferimento
-description: Rappresenta la raccolta di stili di riempimento.
+second_title: Aspose.Sildes per .NET API Reference
+description: Rappresenta la collezione di stili di riempimento.
 type: docs
-weight: 11230
+weight: 11250
 url: /it/aspose.slides.theme/ifillformatcollection/
 ---
 ## IFillFormatCollection interfaccia
 
-Rappresenta la raccolta di stili di riempimento.
+Rappresenta la collezione di stili di riempimento.
 
 ```csharp
 public interface IFillFormatCollection : IGenericCollection<IFillFormat>
@@ -16,11 +16,11 @@ public interface IFillFormatCollection : IGenericCollection<IFillFormat>
 
 ## Proprietà
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
 | [Item](../../aspose.slides.theme/ifillformatcollection/item) { get; } | Ottiene l'elemento all'indice specificato. Sola lettura [`IFillFormat`](../../aspose.slides/ifillformat). |
 
-### See Also
+### Vedi anche
 
 * interfaccia [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * interfaccia [IFillFormat](../../aspose.slides/ifillformat)

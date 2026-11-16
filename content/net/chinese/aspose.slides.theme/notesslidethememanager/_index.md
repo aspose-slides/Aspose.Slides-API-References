@@ -1,14 +1,14 @@
 ---
 title: NotesSlideThemeManager
 second_title: Aspose.Sildes for .NET API 参考
-description: 提供对备注幻灯片主题覆盖的访问。
+description: 提供对注释幻灯片主题覆盖的访问。
 type: docs
-weight: 11450
+weight: 11470
 url: /zh/aspose.slides.theme/notesslidethememanager/
 ---
 ## NotesSlideThemeManager 类
 
-提供对备注幻灯片主题覆盖的访问。
+提供对注释幻灯片主题覆盖的访问。
 
 ```csharp
 public class NotesSlideThemeManager : BaseOverrideThemeManager
@@ -18,7 +18,7 @@ public class NotesSlideThemeManager : BaseOverrideThemeManager
 
 | 名称 | 描述 |
 | --- | --- |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | 确定 OverrideTheme 是否覆盖继承的有效主题。要启用 OverrideTheme 进行覆盖，请使用 OverrideTheme.Init*() 方法。要禁用 OverrideTheme 的覆盖，请使用 OverrideTheme.Clear() 方法。只读 Boolean。 |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | 确定 OverrideTheme 是否覆盖继承的有效主题。要启用 OverrideTheme 的覆盖，请使用 OverrideTheme.Init*() 方法。要禁用 OverrideTheme 的覆盖，请使用 OverrideTheme.Clear() 方法。只读 Boolean。 |
 | [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | 返回覆盖的主题对象。可读写 [`IOverrideTheme`](../ioverridetheme)。 |
 
 ## 方法

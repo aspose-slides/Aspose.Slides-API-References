@@ -1,14 +1,14 @@
 ---
 title: HighlightRegex
-second_title: Aspose.Sildes .NET API 參考
-description: 使用指定的顏色突顯正則表達式的所有匹配項。
+second_title: Aspose.Sildes for .NET API 參考
+description: 以指定的顏色突顯正則表達式的所有匹配項。
 type: docs
-weight: 80
+weight: 90
 url: /zh-hant/aspose.slides/itextframe/highlightregex/
 ---
-## ITextFrame.HighlightRegex method
+## ITextFrame.HighlightRegex 方法
 
-使用指定的顏色突顯正則表達式的所有匹配項。
+將正則表達式的所有匹配項以指定的顏色突顯。
 
 ```csharp
 public void HighlightRegex(Regex regex, Color highlightColor, IFindResultCallback callback)
@@ -16,26 +16,26 @@ public void HighlightRegex(Regex regex, Color highlightColor, IFindResultCallbac
 
 | 參數 | 類型 | 說明 |
 | --- | --- | --- |
-| regex | Regex | 用於取得要突顯的字串的正則表達式 Regex。 |
-| highlightColor | Color | 用於突顯文字的顏色。 |
-| callback | IFindResultCallback | 用於接收搜尋結果的回呼物件 [`IFindResultCallback`](../../ifindresultcallback)。 |
+| regex | Regex | 用於取得要突顯之字串的正則表達式 Regex。 |
+| highlightColor | Color | 用於突顯文字的顏色 Color。 |
+| callback | IFindResultCallback | 用於接收搜尋結果的回呼物件 IFindResultCallback [`IFindResultCallback`](../../ifindresultcallback)。 |
 
 ### 範例
 
-以下程式碼範例示範如何在 TextFrame 中使用正則表達式來突顯文字。
+下列程式碼範例示範如何使用正則表達式在 TextFrame 中突顯文字。
 
 ```csharp
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
 	Regex regex = new Regex(@"\b[^\s]{10,}\b");
-	// 突出顯示所有長度為 10 個或以上字元的單詞
+	// 突顯所有長度為 10 個字元或以上的單詞
 	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.HighlightRegex(regex, Color.Blue, null);
 	presentation.Save("SomePresentation-out.pptx", SaveFormat.Pptx);
 }
 ```
 
-### 參見
+### 另請參閱
 
 * 介面 [IFindResultCallback](../../ifindresultcallback)
 * 介面 [ITextFrame](../../itextframe)

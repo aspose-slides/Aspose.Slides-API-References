@@ -1,14 +1,14 @@
 ---
 title: MathParagraph
 second_title: Aspose.Sildes για .NET API Αναφορά
-description: Μαθηματική παράγραφος που είναι υποδοχέας για μαθηματικά μπλοκ IMathBlock
+description: Παράγραφος μαθηματικών που αποτελεί υποδοχέα για μαθηματικά blocks IMathBlock
 type: docs
-weight: 8900
+weight: 8920
 url: /el/aspose.slides.mathtext/mathparagraph/
 ---
 ## MathParagraph κλάση
 
-Μαθηματική παράγραφος που είναι ένας υποδοχέας για μαθηματικά μπλοκ (IMathBlock)
+Παράγραφος μαθηματικών που αποτελεί έναν υποδοχέα για μαθηματικά blocks (IMathBlock)
 
 ```csharp
 public class MathParagraph : IMathParagraph
@@ -16,31 +16,31 @@ public class MathParagraph : IMathParagraph
 
 ## Κατασκευαστές
 
-| Όνομα | Περιγραφή |
+| Name | Description |
 | --- | --- |
 | [MathParagraph](mathparagraph#constructor)() | Αρχικοποιεί ένα νέο στιγμιότυπο της κλάσης MathParagraph. |
 | [MathParagraph](mathparagraph#constructor_1)(IMathBlock) | Αρχικοποιεί ένα νέο στιγμιότυπο της κλάσης MathParagraph. |
 
 ## Ιδιότητες
 
-| Όνομα | Περιγραφή |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides.mathtext/mathparagraph/count) { get; } | Επιστρέφει τον αριθμό των στοιχείων που περιέχονται στην συλλογή. Μόνο για ανάγνωση Int32. |
-| [Item](../../aspose.slides.mathtext/mathparagraph/item) { get; set; } | Επιστρέφει το στοιχείο στη δοσμένη θέση. Μόνο για ανάγνωση [`IMathBlock`](../imathblock). |
-| [Justification](../../aspose.slides.mathtext/mathparagraph/justification) { get; set; } | Στοίχιση παραγράφου Τιμή προεπιλογής: CenteredAsGroup |
+| [Count](../../aspose.slides.mathtext/mathparagraph/count) { get; } | Λαμβάνει τον αριθμό των στοιχείων που περιέχονται πραγματικά στη συλλογή. Μόνο για ανάγνωση Int32. |
+| [Item](../../aspose.slides.mathtext/mathparagraph/item) { get; set; } | Λαμβάνει το στοιχείο στο καθορισμένο δείκτη. Μόνο για ανάγνωση [`IMathBlock`](../imathblock). |
+| [Justification](../../aspose.slides.mathtext/mathparagraph/justification) { get; set; } | Στοίχιση παραγράφου Προεπιλεγμένη τιμή: CenteredAsGroup |
 
 ## Μέθοδοι
 
-| Όνομα | Περιγραφή |
+| Name | Description |
 | --- | --- |
 | [Add](../../aspose.slides.mathtext/mathparagraph/add)(IMathBlock) | Προσθέτει IMathBlock στο τέλος της συλλογής. |
 | [Clear](../../aspose.slides.mathtext/mathparagraph/clear)() | Αφαιρεί όλα τα στοιχεία από τη συλλογή. |
-| [Contains](../../aspose.slides.mathtext/mathparagraph/contains)(IMathBlock) | Καθορίζει αν η συλλογή περιέχει μια συγκεκριμένη τιμή. |
+| [Contains](../../aspose.slides.mathtext/mathparagraph/contains)(IMathBlock) | Καθορίζει εάν η συλλογή περιέχει μια συγκεκριμένη τιμή. |
 | [IndexOf](../../aspose.slides.mathtext/mathparagraph/indexof)(IMathBlock) | Καθορίζει το δείκτη ενός συγκεκριμένου IMathBlock στη συλλογή. |
-| [Insert](../../aspose.slides.mathtext/mathparagraph/insert)(int, IMathBlock) | Εισάγει IMathBlock στη συλλογή στη δοσμένη θέση. |
-| [Remove](../../aspose.slides.mathtext/mathparagraph/remove)(IMathBlock) | Αφαιρεί την πρώτη εμφάνιση ενός συγκεκριμένου αντικειμένου από τη συλλογή/&gt;. |
-| [RemoveAt](../../aspose.slides.mathtext/mathparagraph/removeat)(int) | Αφαιρεί ένα στοιχείο στη δοσμένη θέση της συλλογής. |
-| [ToLatex](../../aspose.slides.mathtext/mathparagraph/tolatex)() | Επιστρέφει μαθηματική εξίσωση σε μορφή LaTeX |
+| [Insert](../../aspose.slides.mathtext/mathparagraph/insert)(int, IMathBlock) | Εισάγει IMathBlock στη συλλογή στο καθορισμένο δείκτη. |
+| [Remove](../../aspose.slides.mathtext/mathparagraph/remove)(IMathBlock) | Αφαιρεί την πρώτη εμφάνιση ενός συγκεκριμένου αντικειμένου από τη συλλογή/>. |
+| [RemoveAt](../../aspose.slides.mathtext/mathparagraph/removeat)(int) | Αφαιρεί ένα στοιχείο στο καθορισμένο δείκτη της συλλογής. |
+| [ToLatex](../../aspose.slides.mathtext/mathparagraph/tolatex)() | Λαμβάνει μαθηματική εξίσωση σε μορφή LaTeX |
 | [WriteAsMathMl](../../aspose.slides.mathtext/mathparagraph/writeasmathml)(Stream) | Αποθηκεύει το περιεχόμενο αυτού του [`MathParagraph`](../mathparagraph) ως MathML |
 
 ### Παραδείγματα

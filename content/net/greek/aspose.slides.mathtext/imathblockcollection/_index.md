@@ -1,12 +1,12 @@
 ---
 title: IMathBlockCollection
-second_title: Aspose.Sildes για .NET API Αναφορά
+second_title: Αναφορά API Aspose.Sildes για .NET
 description: Συλλογή μαθηματικών μπλοκ IMathBlock
 type: docs
-weight: 8150
+weight: 8170
 url: /el/aspose.slides.mathtext/imathblockcollection/
 ---
-## IMathBlockCollection διεπαφή
+## Διεπαφή IMathBlockCollection
 
 Collection of math blocks (IMathBlock)
 
@@ -18,21 +18,21 @@ public interface IMathBlockCollection : IEnumerable<IMathBlock>
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.mathtext/imathblockcollection/asienumerable) { get; } | Επιτρέπει τη λήψη της βασικής διεπαφής IEnumerable |
-| [Count](../../aspose.slides.mathtext/imathblockcollection/count) { get; } | Λαμβάνει τον αριθμό των στοιχείων που πραγματικά περιέχονται στη συλλογή. Μόνο για ανάγνωση Int32. |
-| [Item](../../aspose.slides.mathtext/imathblockcollection/item) { get; set; } | Λαμβάνει το στοιχείο στη συγκεκριμένη θέση. Μόνο για ανάγνωση [`IMathBlock`](../imathblock). |
+| [AsIEnumerable](../../aspose.slides.mathtext/imathblockcollection/asienumerable) { get; } | Επιτρέπει την απόκτηση της βασικής διεπαφής IEnumerable |
+| [Count](../../aspose.slides.mathtext/imathblockcollection/count) { get; } | Επιστρέφει τον αριθμό των στοιχείων που πραγματικά περιέχονται στη συλλογή. Μόνο για ανάγνωση Int32. |
+| [Item](../../aspose.slides.mathtext/imathblockcollection/item) { get; set; } | Επιστρέφει το στοιχείο στο καθορισμένο ευρετήριο. Μόνο για ανάγνωση [`IMathBlock`](../imathblock). |
 
 ## Μέθοδοι
 
 | Όνομα | Περιγραφή |
 | --- | --- |
 | [Add](../../aspose.slides.mathtext/imathblockcollection/add)(IMathBlock) | Προσθέτει IMathBlock στο τέλος της συλλογής. |
-| [Clear](../../aspose.slides.mathtext/imathblockcollection/clear)() | Καταργεί όλα τα στοιχεία από τη συλλογή. |
+| [Clear](../../aspose.slides.mathtext/imathblockcollection/clear)() | Αφαιρεί όλα τα στοιχεία από τη συλλογή. |
 | [Contains](../../aspose.slides.mathtext/imathblockcollection/contains)(IMathBlock) | Καθορίζει εάν η συλλογή περιέχει μια συγκεκριμένη τιμή. |
-| [IndexOf](../../aspose.slides.mathtext/imathblockcollection/indexof)(IMathBlock) | Καθορίζει το δείκτη ενός συγκεκριμένου IMMathBlock στη συλλογή. |
-| [Insert](../../aspose.slides.mathtext/imathblockcollection/insert)(int, IMathBlock) | Εισάγει IMMathBlock στη συλλογή στη συγκεκριμένη θέση. |
-| [Remove](../../aspose.slides.mathtext/imathblockcollection/remove)(IMathBlock) | Καταργεί την πρώτη εμφάνιση ενός συγκεκριμένου αντικειμένου από τη συλλογή/&gt;. |
-| [RemoveAt](../../aspose.slides.mathtext/imathblockcollection/removeat)(int) | Καταργεί ένα στοιχείο στη συγκεκριμένη θέση της συλλογής. |
+| [IndexOf](../../aspose.slides.mathtext/imathblockcollection/indexof)(IMathBlock) | Καθορίζει το ευρετήριο ενός συγκεκριμένου IMathBlock στη συλλογή. |
+| [Insert](../../aspose.slides.mathtext/imathblockcollection/insert)(int, IMathBlock) | Εισάγει IMathBlock στη συλλογή στο καθορισμένο ευρετήριο. |
+| [Remove](../../aspose.slides.mathtext/imathblockcollection/remove)(IMathBlock) | Αφαιρεί την πρώτη εμφάνιση ενός συγκεκριμένου αντικειμένου από τη συλλογή/>. |
+| [RemoveAt](../../aspose.slides.mathtext/imathblockcollection/removeat)(int) | Αφαιρεί ένα στοιχείο στο καθορισμένο ευρετήριο της συλλογής. |
 
 ### Παραδείγματα
 

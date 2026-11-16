@@ -3,7 +3,7 @@ title: IRow
 second_title: Aspose.Sildes の .NET API リファレンス
 description: テーブル内の行を表します。
 type: docs
-weight: 6850
+weight: 6870
 url: /ja/aspose.slides/irow/
 ---
 ## IRow インターフェイス
@@ -16,13 +16,13 @@ public interface IRow : IBulkTextFormattable, ICellCollection
 
 ## プロパティ
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
-| [AsIBulkTextFormattable](../../aspose.slides/irow/asibulktextformattable) { get; } | IBulkTextFormattable 基底インターフェイスを取得できます。 読み取り専用 [`IBulkTextFormattable`](../ibulktextformattable)。 |
-| [AsICellCollection](../../aspose.slides/irow/asicellcollection) { get; } | ICellCollection 基底インターフェイスを取得できます。 読み取り専用 [`ICellCollection`](../icellcollection)。 |
-| [Height](../../aspose.slides/irow/height) { get; } | 行の高さを返します。 読み取り専用 Double。 |
-| [MinimalHeight](../../aspose.slides/irow/minimalheight) { get; set; } | 行の最小可能高さを取得または設定します。 読み書き可能 Double。 |
-| [RowFormat](../../aspose.slides/irow/rowformat) { get; } | この行の書式設定プロパティを含む RowFormat オブジェクトを返します。 読み取り専用 [`IRowFormat`](../irowformat)。 |
+| [AsIBulkTextFormattable](../../aspose.slides/irow/asibulktextformattable) { get; } | ベースの IBulkTextFormattable インターフェイスを取得できます。読み取り専用 [`IBulkTextFormattable`](../ibulktextformattable)。 |
+| [AsICellCollection](../../aspose.slides/irow/asicellcollection) { get; } | ベースの ICellCollection インターフェイスを取得できます。読み取り専用 [`ICellCollection`](../icellcollection)。 |
+| [Height](../../aspose.slides/irow/height) { get; } | 行の高さを返します。読み取り専用 Double。 |
+| [MinimalHeight](../../aspose.slides/irow/minimalheight) { get; set; } | 行の最小可能な高さを取得または設定します。読み書き Double。 |
+| [RowFormat](../../aspose.slides/irow/rowformat) { get; } | この行の書式設定プロパティを含む RowFormat オブジェクトを返します。読み取り専用 [`IRowFormat`](../irowformat)。 |
 
 ### 関連項目
 

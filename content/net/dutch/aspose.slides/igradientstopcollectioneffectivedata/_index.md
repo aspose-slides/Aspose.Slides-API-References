@@ -1,14 +1,14 @@
 ---
 title: IGradientStopCollectionEffectiveData
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een collectie van GradientStopDataEx-objecten voor.
+description: Representeert een verzameling van GradientStopDataEx-objecten.
 type: docs
-weight: 6040
+weight: 6060
 url: /nl/aspose.slides/igradientstopcollectioneffectivedata/
 ---
 ## IGradientStopCollectionEffectiveData interface
 
-Stelt een collectie van GradientStopDataEx-objecten voor.
+Vertegenwoordigt een verzameling van GradientStopDataEx-objecten.
 
 ```csharp
 public interface IGradientStopCollectionEffectiveData : 
@@ -17,9 +17,9 @@ public interface IGradientStopCollectionEffectiveData :
 
 ## Eigenschappen
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
-| [Item](../../aspose.slides/igradientstopcollectioneffectivedata/item) { get; } | Retourneert de gradientstop op index. |
+| [Item](../../aspose.slides/igradientstopcollectioneffectivedata/item) { get; } | Retourneert de gradientstop op basis van de index. |
 
 ### Zie ook
 

@@ -3,7 +3,7 @@ title: RippleTransition
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Ripple-Folienübergangseffekt.
 type: docs
-weight: 10290
+weight: 10310
 url: /de/aspose.slides.slideshow/rippletransition/
 ---
 ## RippleTransition Klasse
@@ -16,16 +16,16 @@ public class RippleTransition : TransitionValueBase, IRippleTransition
 
 ## Eigenschaften
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
 | [Direction](../../aspose.slides.slideshow/rippletransition/direction) { get; set; } | Richtung des Übergangs. Lesen/Schreiben [`TransitionCornerAndCenterDirectionType`](../transitioncornerandcenterdirectiontype). |
 
 ## Methoden
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Bestimmt, ob die beiden TransitionValueBase-Instanzen gleich sind. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Dient als Hashfunktion für einen bestimmten Typ, geeignet für den Einsatz in Hash-Algorithmen und Datenstrukturen wie einer Hashtabelle. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Dient als Hash-Funktion für einen bestimmten Typ, geeignet für den Einsatz in Hash-Algorithmen und Datenstrukturen wie einer Hashtabelle. |
 
 ### Siehe auch
 

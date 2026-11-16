@@ -1,14 +1,14 @@
 ---
 title: UpDownBarsManager
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Fornisce l'accesso alle barre su/giù di grafico a linee o a barre.
+description: Fornisce l'accesso alle barre su/giù di un grafico a linee o a barre.
 type: docs
-weight: 2500
+weight: 2520
 url: /it/aspose.slides.charts/updownbarsmanager/
 ---
 ## UpDownBarsManager classe
 
-Fornisce l'accesso alle barre su/giù di grafico a linee o a barre.
+Fornisce l'accesso alle barre su/giù di un grafico a linee o a barre.
 
 ```csharp
 public class UpDownBarsManager : DomObject<ChartSeriesGroup>, IUpDownBarsManager
@@ -16,7 +16,7 @@ public class UpDownBarsManager : DomObject<ChartSeriesGroup>, IUpDownBarsManager
 
 ## Proprietà
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
 | [DownBarsFormat](../../aspose.slides.charts/updownbarsmanager/downbarsformat) { get; } | Restituisce il formato DownBars. Sola lettura [`IFormat`](../iformat). |
 | [GapWidth](../../aspose.slides.charts/updownbarsmanager/gapwidth) { get; set; } | GapWidth. Lettura/scrittura Int32. |

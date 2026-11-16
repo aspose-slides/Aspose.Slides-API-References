@@ -3,7 +3,7 @@ title: OdpException
 second_title: Aspose.Sildes .NET API Referansı
 description: Standart bir iç istisna türünü temsil eder.
 type: docs
-weight: 9210
+weight: 9230
 url: /tr/aspose.slides/odpexception/
 ---
 ## OdpException sınıfı
@@ -14,16 +14,15 @@ Standart bir iç istisna türünü temsil eder.
 public class OdpException : Exception
 ```
 
-
 ## Yapıcılar
 
 | Ad | Açıklama |
 | --- | --- |
 | [OdpException](odpexception#constructor)() | Varsayılan yapıcı |
 | [OdpException](odpexception#constructor_1)(string) | Bu istisna için bir mesaj eklemeye izin veren yapıcı. |
-| [OdpException](odpexception#constructor_2)(string, Exception) | Bir mesaj ve gömülü bir istisna içeren bir istisna için yapıcı. |
+| [OdpException](odpexception#constructor_2)(string, Exception) | Bir mesaj ve gömülü bir istisna içeren istisna için yapıcı. |
 
-### Ayrıca Bakınız
+### İlgili
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

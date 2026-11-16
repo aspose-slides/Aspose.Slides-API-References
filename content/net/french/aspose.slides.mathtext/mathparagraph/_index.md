@@ -1,14 +1,14 @@
 ---
 title: MathParagraph
-second_title: Référence API Aspose.Sildes pour .NET
+second_title: Aspose.Sildes pour .NET Référence d'API
 description: Paragraphe mathématique qui est un conteneur pour les blocs mathématiques IMathBlock
 type: docs
-weight: 8900
+weight: 8920
 url: /fr/aspose.slides.mathtext/mathparagraph/
 ---
 ## MathParagraph classe
 
-Paragraphe mathématique qui est un conteneur pour les blocs mathématiques (IMathBlock)
+Paragraphe mathématique qui est un conteneur pour des blocs mathématiques (IMathBlock)
 
 ```csharp
 public class MathParagraph : IMathParagraph
@@ -36,8 +36,8 @@ public class MathParagraph : IMathParagraph
 | [Add](../../aspose.slides.mathtext/mathparagraph/add)(IMathBlock) | Ajoute IMathBlock à la fin de la collection. |
 | [Clear](../../aspose.slides.mathtext/mathparagraph/clear)() | Supprime tous les éléments de la collection. |
 | [Contains](../../aspose.slides.mathtext/mathparagraph/contains)(IMathBlock) | Détermine si la collection contient une valeur spécifique. |
-| [IndexOf](../../aspose.slides.mathtext/mathparagraph/indexof)(IMathBlock) | Détermine l'index d'un IMathBlock spécifique dans la collection. |
-| [Insert](../../aspose.slides.mathtext/mathparagraph/insert)(int, IMathBlock) | Insère IMathBlock dans la collection à l'index spécifié. |
+| [IndexOf](../../aspose.slides.mathtext/mathparagraph/indexof)(IMathBlock) | Détermine l'indice d'un IMathBlock spécifique dans la collection. |
+| [Insert](../../aspose.slides.mathtext/mathparagraph/insert)(int, IMathBlock) | Insère IMMathBlock dans la collection à l'index spécifié. |
 | [Remove](../../aspose.slides.mathtext/mathparagraph/remove)(IMathBlock) | Supprime la première occurrence d'un objet spécifique de la collection/&gt;. |
 | [RemoveAt](../../aspose.slides.mathtext/mathparagraph/removeat)(int) | Supprime un élément à l'index spécifié de la collection. |
 | [ToLatex](../../aspose.slides.mathtext/mathparagraph/tolatex)() | Obtient l'équation mathématique au format LaTeX |

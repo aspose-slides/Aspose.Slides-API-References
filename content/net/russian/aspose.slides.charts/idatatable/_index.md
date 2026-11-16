@@ -3,12 +3,12 @@ title: IDataTable
 second_title: Aspose.Sildes для .NET справочник API
 description: Представляет свойства таблицы данных.
 type: docs
-weight: 2060
+weight: 2080
 url: /ru/aspose.slides.charts/idatatable/
 ---
 ## IDataTable интерфейс
 
-Represents data table properties.
+Представляет свойства таблицы данных.
 
 ```csharp
 public interface IDataTable : IFormattedTextContainer
@@ -18,12 +18,12 @@ public interface IDataTable : IFormattedTextContainer
 
 | Имя | Описание |
 | --- | --- |
-| [AsIFormattedTextContainer](../../aspose.slides.charts/idatatable/asiformattedtextcontainer) { get; } | Позволяет получить базовый интерфейс IFormattedTextContainer. Только для чтения [`IFormattedTextContainer`](../iformattedtextcontainer). |
-| [Format](../../aspose.slides.charts/idatatable/format) { get; } | Возвращает стили линий, заливок и эффектов объекта. Только для чтения [`IFormat`](../iformat). |
-| [HasBorderHorizontal](../../aspose.slides.charts/idatatable/hasborderhorizontal) { get; set; } | True if the chart data table has horizontal cell borders. Чтение/запись Boolean. |
-| [HasBorderOutline](../../aspose.slides.charts/idatatable/hasborderoutline) { get; set; } | True if the chart data table has outline borders. Чтение/запись Boolean. |
-| [HasBorderVertical](../../aspose.slides.charts/idatatable/hasbordervertical) { get; set; } | True if the chart data table has vertical cell borders. Чтение/запись Boolean. |
-| [ShowLegendKey](../../aspose.slides.charts/idatatable/showlegendkey) { get; set; } | True if the data label legend key is visible. Чтение/запись Boolean. |
+| [AsIFormattedTextContainer](../../aspose.slides.charts/idatatable/asiformattedtextcontainer) { get; } | Позволяет получить базовый IFormattedTextContainer интерфейс. Только для чтения [`IFormattedTextContainer`](../iformattedtextcontainer). |
+| [Format](../../aspose.slides.charts/idatatable/format) { get; } | Возвращает стили линии, заливки и эффектов объекта. Только для чтения [`IFormat`](../iformat). |
+| [HasBorderHorizontal](../../aspose.slides.charts/idatatable/hasborderhorizontal) { get; set; } | True, если у таблицы данных диаграммы есть горизонтальные границы ячеек. Чтение/запись Boolean. |
+| [HasBorderOutline](../../aspose.slides.charts/idatatable/hasborderoutline) { get; set; } | True, если у таблицы данных диаграммы есть внешние границы. Чтение/запись Boolean. |
+| [HasBorderVertical](../../aspose.slides.charts/idatatable/hasbordervertical) { get; set; } | True, если у таблицы данных диаграммы есть вертикальные границы ячеек. Чтение/запись Boolean. |
+| [ShowLegendKey](../../aspose.slides.charts/idatatable/showlegendkey) { get; set; } | True, если ключ легенды подписи данных видим. Чтение/запись Boolean. |
 
 ### См. также
 

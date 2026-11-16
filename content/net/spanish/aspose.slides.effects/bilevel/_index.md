@@ -1,14 +1,14 @@
 ---
 title: BiLevel
-second_title: Aspose.Sildes para .NET Referencia de API
-description: Representa un efecto Bi-Level negro/blanco. Los colores de entrada cuya luminancia es inferior al valor umbral especificado se cambian a negro. Los colores de entrada cuya luminancia es mayor o igual al valor especificado se establecen a blanco. Los valores de efecto alfa no se ven afectados por este efecto.
+second_title: Referencia de API de Aspose.Sildes para .NET
+description: Representa un efecto Bi-Level negro/blanco. Los colores de entrada cuya luminancia sea menor que el valor umbral especificado se cambian a negro. Los colores de entrada cuya luminancia sea mayor o igual al valor especificado se establecen a blanco. Los valores del efecto alfa no se ven afectados por este efecto.
 type: docs
-weight: 2910
+weight: 2930
 url: /es/aspose.slides.effects/bilevel/
 ---
-## BiLevel clase
+## Clase BiLevel
 
-Representa un efecto Bi-Level (negro/blanco). Los colores de entrada cuya luminancia es inferior al valor umbral especificado se cambian a negro. Los colores de entrada cuya luminancia es mayor o igual al valor especificado se establecen a blanco. Los valores de efecto alfa no se ven afectados por este efecto.
+Representa un efecto Bi-Level (blanco/negro). Los colores de entrada cuya luminancia es menor que el valor umbral especificado se cambian a negro. Los colores de entrada cuya luminancia es mayor o igual al valor especificado se establecen a blanco. Los valores del efecto alfa no se ven afectados por este efecto.
 
 ```csharp
 public sealed class BiLevel : ImageTransformOperation, IBiLevel

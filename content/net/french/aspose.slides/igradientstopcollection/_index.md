@@ -1,14 +1,14 @@
 ---
 title: IGradientStopCollection
 second_title: Aspose.Sildes pour .NET Référence API
-description: Représente une collection de points d'arrêt de dégradé.
+description: Représente une collection de points d’arrêt de dégradé.
 type: docs
-weight: 6030
+weight: 6050
 url: /fr/aspose.slides/igradientstopcollection/
 ---
 ## IGradientStopCollection interface
 
-Représente une collection de points d'arrêt de dégradé.
+Représente une collection de points d’arrêt de dégradé.
 
 ```csharp
 public interface IGradientStopCollection : IGenericCollection<IGradientStop>
@@ -16,22 +16,22 @@ public interface IGradientStopCollection : IGenericCollection<IGradientStop>
 
 ## Propriétés
 
-| Name | Description |
+| Nom | Description |
 | --- | --- |
-| [Item](../../aspose.slides/igradientstopcollection/item) { get; } | Renvoie le point d'arrêt de dégradé par indice. |
+| [Item](../../aspose.slides/igradientstopcollection/item) { get; } | Renvoie le point d’arrêt de dégradé par index. |
 
 ## Méthodes
 
-| Name | Description |
+| Nom | Description |
 | --- | --- |
-| [Add](../../aspose.slides/igradientstopcollection/add#add_2)(float, Color) | Crée un nouveau point d'arrêt de dégradé et l'ajoute à la fin de la collection. |
-| [Add](../../aspose.slides/igradientstopcollection/add#add)(float, PresetColor) | Crée un nouveau point d'arrêt de dégradé et l'ajoute à la fin de la collection. |
-| [Add](../../aspose.slides/igradientstopcollection/add#add_1)(float, SchemeColor) | Crée un nouveau point d'arrêt de dégradé et l'ajoute à la fin de la collection. |
-| [Clear](../../aspose.slides/igradientstopcollection/clear)() | Supprime tous les points d'arrêt de dégradé d'une collection. |
-| [Insert](../../aspose.slides/igradientstopcollection/insert#insert_2)(int, float, Color) | Crée un nouveau point d'arrêt de dégradé et l'insère à l'index spécifié dans la collection. |
-| [Insert](../../aspose.slides/igradientstopcollection/insert#insert)(int, float, PresetColor) | Crée un nouveau point d'arrêt de dégradé et l'insère à l'index spécifié dans la collection. |
-| [Insert](../../aspose.slides/igradientstopcollection/insert#insert_1)(int, float, SchemeColor) | Crée un nouveau point d'arrêt de dégradé et l'insère à l'index spécifié dans la collection. |
-| [RemoveAt](../../aspose.slides/igradientstopcollection/removeat)(int) | Supprime un point d'arrêt de dégradé à l'index spécifié. |
+| [Add](../../aspose.slides/igradientstopcollection/add#add_2)(float, Color) | Crée un nouveau point d’arrêt de dégradé et l’ajoute à la fin de la collection. |
+| [Add](../../aspose.slides/igradientstopcollection/add#add)(float, PresetColor) | Crée un nouveau point d’arrêt de dégradé et l’ajoute à la fin de la collection. |
+| [Add](../../aspose.slides/igradientstopcollection/add#add_1)(float, SchemeColor) | Crée un nouveau point d’arrêt de dégradé et l’ajoute à la fin de la collection. |
+| [Clear](../../aspose.slides/igradientstopcollection/clear)() | Supprime tous les points d’arrêt de dégradé d’une collection. |
+| [Insert](../../aspose.slides/igradientstopcollection/insert#insert_2)(int, float, Color) | Crée un nouveau point d’arrêt de dégradé et l’insère à l’index spécifié dans la collection. |
+| [Insert](../../aspose.slides/igradientstopcollection/insert#insert)(int, float, PresetColor) | Crée un nouveau point d’arrêt de dégradé et l’insère à l’index spécifié dans la collection. |
+| [Insert](../../aspose.slides/igradientstopcollection/insert#insert_1)(int, float, SchemeColor) | Crée un nouveau point d’arrêt de dégradé et l’insère à l’index spécifié dans la collection. |
+| [RemoveAt](../../aspose.slides/igradientstopcollection/removeat)(int) | Supprime un point d’arrêt de dégradé à l’index spécifié. |
 
 ### Voir aussi
 

@@ -1,14 +1,14 @@
 ---
 title: StreamWrapperFactory
 second_title: Referencia de la API de Aspose.Sildes para .NET
-description: Fábrica de StreamWrappers. Para la interfaz COM.
+description: Fábrica de StreamWrappers. Para interfaz COM.
 type: docs
-weight: 10760
+weight: 10780
 url: /es/aspose.slides/streamwrapperfactory/
 ---
-## StreamWrapperFactory clase
+## Clase StreamWrapperFactory
 
-Fábrica de StreamWrappers. Para la interfaz COM.
+Fábrica de StreamWrappers. Para interfaz COM.
 
 ```csharp
 public class StreamWrapperFactory : IStreamWrapperFactory
@@ -24,12 +24,12 @@ public class StreamWrapperFactory : IStreamWrapperFactory
 
 | Nombre | Descripción |
 | --- | --- |
-| [CreateFileStreamWrapper](../../aspose.slides/streamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper)(string, FileMode) | Crea FileStream con la ruta especificada y el modo de creación. |
-| [CreateFileStreamWrapper](../../aspose.slides/streamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper_1)(string, FileMode, FileAccess) | Crea FileStream con la ruta especificada, el modo de creación y el permiso de lectura/escritura. |
+| [CreateFileStreamWrapper](../../aspose.slides/streamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper)(string, FileMode) | Crea FileStream con la ruta y el modo de creación especificados. |
+| [CreateFileStreamWrapper](../../aspose.slides/streamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper_1)(string, FileMode, FileAccess) | Crea FileStream con la ruta, el modo de creación y el permiso de lectura/escritura especificados. |
 | [CreateMemoryStreamWrapper](../../aspose.slides/streamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper)() | Crea un contenedor MemoryStream. |
-| [CreateMemoryStreamWrapper](../../aspose.slides/streamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper_1)(byte[]) | Crea un contenedor MemoryStream a partir de la matriz de bytes especificada. |
+| [CreateMemoryStreamWrapper](../../aspose.slides/streamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper_1)(byte[]) | Crea un contenedor MemoryStream basado en la matriz de bytes especificada. |
 
-### Ver también
+### Véase también
 
 * interfaz [IStreamWrapperFactory](../istreamwrapperfactory)
 * espacio de nombres [Aspose.Slides](../../aspose.slides)

@@ -3,7 +3,7 @@ title: MathTopBotPositions
 second_title: Aspose.Sildes pro .NET API Reference
 description: Výčet pozic nahoře/dole
 type: docs
-weight: 9040
+weight: 9060
 url: /cs/aspose.slides.mathtext/mathtopbotpositions/
 ---
 ## MathTopBotPositions výčet

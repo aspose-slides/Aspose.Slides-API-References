@@ -3,7 +3,7 @@ title: IPresentation
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Documento de presentación
 type: docs
-weight: 6750
+weight: 6770
 url: /es/aspose.slides/ipresentation/
 ---
 ## IPresentation interfaz
@@ -23,23 +23,23 @@ public interface IPresentation : IDisposable, IPresentationComponent
 | [AsIPresentationComponent](../../aspose.slides/ipresentation/asipresentationcomponent) { get; } | Permite obtener la interfaz base IPresentationComponent. Solo lectura [`IPresentationComponent`](../ipresentationcomponent). |
 | [Audios](../../aspose.slides/ipresentation/audios) { get; } | Devuelve la colección de todos los archivos de audio incrustados en la presentación. Solo lectura [`IAudioCollection`](../iaudiocollection). |
 | [CommentAuthors](../../aspose.slides/ipresentation/commentauthors) { get; } | Devuelve la colección de autores de comentarios. Solo lectura [`ICommentAuthorCollection`](../icommentauthorcollection). |
-| [CurrentDateTime](../../aspose.slides/ipresentation/currentdatetime) { get; set; } | Devuelve o establece la fecha y hora que sustituirá el contenido de los campos datetime. Tiempo de creación de este objeto Presentation por defecto. Lectura/escritura DateTime. |
+| [CurrentDateTime](../../aspose.slides/ipresentation/currentdatetime) { get; set; } | Devuelve o establece la fecha y hora que sustituirán el contenido de los campos datetime. Hora de creación de este objeto Presentation por defecto. Lectura/escritura DateTime. |
 | [CustomData](../../aspose.slides/ipresentation/customdata) { get; } | Devuelve los datos personalizados de la presentación. Solo lectura [`ICustomData`](../icustomdata). |
 | [DefaultTextStyle](../../aspose.slides/ipresentation/defaulttextstyle) { get; } | Devuelve el estilo de texto predeterminado para las formas. Solo lectura [`ITextStyle`](../itextstyle). |
 | [DigitalSignatures](../../aspose.slides/ipresentation/digitalsignatures) { get; } | Devuelve la colección de firmas usadas para firmar la presentación. Solo lectura [`IDigitalSignatureCollection`](../idigitalsignaturecollection). |
-| [DocumentProperties](../../aspose.slides/ipresentation/documentproperties) { get; } | Devuelve el objeto DocumentProperties que contiene propiedades estándar y personalizadas del documento. Solo lectura [`IDocumentProperties`](../idocumentproperties). |
+| [DocumentProperties](../../aspose.slides/ipresentation/documentproperties) { get; } | Devuelve el objeto DocumentProperties que contiene propiedades de documento estándar y personalizadas. Solo lectura [`IDocumentProperties`](../idocumentproperties). |
 | [FirstSlideNumber](../../aspose.slides/ipresentation/firstslidenumber) { get; set; } | Representa el número de la primera diapositiva en la presentación. Lectura/escritura Int32. |
-| [FontsManager](../../aspose.slides/ipresentation/fontsmanager) { get; } | Devuelve el administrador de fuentes. Solo lectura [`IFontsManager`](../ifontsmanager). |
-| [HeaderFooterManager](../../aspose.slides/ipresentation/headerfootermanager) { get; } | Devuelve el administrador de encabezado y pie de página de la presentación. Solo lectura [`IPresentationHeaderFooterManager`](../ipresentationheaderfootermanager). |
-| [HyperlinkQueries](../../aspose.slides/ipresentation/hyperlinkqueries) { get; } | Proporciona acceso fácil a todos los hipervínculos contenidos en todas las diapositivas de la presentación (no en maestro, diseño, notas). Solo lectura [`IHyperlinkQueries`](../ihyperlinkqueries). |
+| [FontsManager](../../aspose.slides/ipresentation/fontsmanager) { get; } | Devuelve el gestor de fuentes. Solo lectura [`IFontsManager`](../ifontsmanager). |
+| [HeaderFooterManager](../../aspose.slides/ipresentation/headerfootermanager) { get; } | Devuelve el gestor HeaderFooter de la presentación. Solo lectura [`IPresentationHeaderFooterManager`](../ipresentationheaderfootermanager). |
+| [HyperlinkQueries](../../aspose.slides/ipresentation/hyperlinkqueries) { get; } | Proporciona acceso fácil a todos los hipervínculos contenidos en todas las diapositivas de la presentación (no en master, layout, notas). Solo lectura [`IHyperlinkQueries`](../ihyperlinkqueries). |
 | [Images](../../aspose.slides/ipresentation/images) { get; } | Devuelve la colección de todas las imágenes en la presentación. Solo lectura [`IImageCollection`](../iimagecollection). |
 | [LayoutSlides](../../aspose.slides/ipresentation/layoutslides) { get; } | Devuelve una lista de todas las diapositivas de diseño definidas en la presentación. Solo lectura [`IGlobalLayoutSlideCollection`](../igloballayoutslidecollection). |
-| [MasterHandoutSlideManager](../../aspose.slides/ipresentation/masterhandoutslidemanager) { get; } | Devuelve el administrador del maestro de folletos. Solo lectura [`IMasterHandoutSlideManager`](../imasterhandoutslidemanager). |
-| [MasterNotesSlideManager](../../aspose.slides/ipresentation/masternotesslidemanager) { get; } | Devuelve el administrador del maestro de notas. Solo lectura [`IMasterNotesSlideManager`](../imasternotesslidemanager). |
-| [Masters](../../aspose.slides/ipresentation/masters) { get; } | Devuelve una lista de todas las diapositivas maestras definidas en la presentación. Solo lectura [`IMasterSlideCollection`](../imasterslidecollection). |
-| [MasterTheme](../../aspose.slides/ipresentation/mastertheme) { get; } | Devuelve el tema maestro de la presentación. Solo lectura [`IMasterTheme`](../../aspose.slides.theme/imastertheme). |
+| [MasterHandoutSlideManager](../../aspose.slides/ipresentation/masterhandoutslidemanager) { get; } | Devuelve el gestor del maestro de folletos. Solo lectura [`IMasterHandoutSlideManager`](../imasterhandoutslidemanager). |
+| [MasterNotesSlideManager](../../aspose.slides/ipresentation/masternotesslidemanager) { get; } | Devuelve el gestor del maestro de notas. Solo lectura [`IMasterNotesSlideManager`](../imasternotesslidemanager). |
+| [Masters](../../aspose.slides/ipresentation/masters) { get; } | Devuelve una lista de todas las diapositivas master definidas en la presentación. Solo lectura [`IMasterSlideCollection`](../imasterslidecollection). |
+| [MasterTheme](../../aspose.slides/ipresentation/mastertheme) { get; } | Devuelve el tema master de la presentación. Solo lectura [`IMasterTheme`](../../aspose.slides.theme/imastertheme). |
 | [NotesSize](../../aspose.slides/ipresentation/notessize) { get; } | Devuelve el objeto de tamaño de la diapositiva de notas. Solo lectura [`INotesSize`](../inotessize). |
-| [ProtectionManager](../../aspose.slides/ipresentation/protectionmanager) { get; } | Obtiene el administrador de los permisos para esta presentación. Solo lectura [`IProtectionManager`](../iprotectionmanager). |
+| [ProtectionManager](../../aspose.slides/ipresentation/protectionmanager) { get; } | Obtiene el gestor de los permisos para esta presentación. Solo lectura [`IProtectionManager`](../iprotectionmanager). |
 | [Sections](../../aspose.slides/ipresentation/sections) { get; } | Devuelve una lista de todas las secciones de diapositivas definidas en la presentación. Solo lectura [`ISectionCollection`](../isectioncollection). |
 | [SensitivityLabels](../../aspose.slides/ipresentation/sensitivitylabels) { get; } | Devuelve la colección de etiquetas de sensibilidad aplicadas al documento de la presentación. Solo lectura [`ISensitivityLabelCollection`](../isensitivitylabelcollection). |
 | [Slides](../../aspose.slides/ipresentation/slides) { get; } | Devuelve una lista de todas las diapositivas definidas en la presentación. Solo lectura [`ISlideCollection`](../islidecollection). |
@@ -54,18 +54,19 @@ public interface IPresentation : IDisposable, IPresentationComponent
 | Nombre | Descripción |
 | --- | --- |
 | [GetImages](../../aspose.slides/ipresentation/getimages#getimages)(IRenderingOptions) | Devuelve objetos Thumbnail Image para todas las diapositivas de una presentación. |
-| [GetImages](../../aspose.slides/ipresentation/getimages#getimages_1)(IRenderingOptions, int[]) | Devuelve objetos Thumbnail Bitmap para diapositivas especificadas de una presentación. |
+| [GetImages](../../aspose.slides/ipresentation/getimages#getimages_1)(IRenderingOptions, int[]) | Devuelve objetos Thumbnail Bitmap para las diapositivas especificadas de una presentación. |
 | [GetImages](../../aspose.slides/ipresentation/getimages#getimages_5)(IRenderingOptions, Size) | Devuelve objetos Thumbnail Image para todas las diapositivas de una presentación con el tamaño especificado. |
 | [GetImages](../../aspose.slides/ipresentation/getimages#getimages_4)(IRenderingOptions, float, float) | Devuelve objetos Thumbnail Image para todas las diapositivas de una presentación con escalado personalizado. |
-| [GetImages](../../aspose.slides/ipresentation/getimages#getimages_3)(IRenderingOptions, int[], Size) | Devuelve objetos Thumbnail Image para diapositivas especificadas de una presentación con el tamaño especificado. |
-| [GetImages](../../aspose.slides/ipresentation/getimages#getimages_2)(IRenderingOptions, int[], float, float) | Devuelve objetos Thumbnail Image para diapositivas especificadas de una presentación con escalado personalizado. |
-| [GetSlideById](../../aspose.slides/ipresentation/getslidebyid)(uint) | Devuelve un Slide, MasterSlide o LayoutSlide por Id. |
+| [GetImages](../../aspose.slides/ipresentation/getimages#getimages_3)(IRenderingOptions, int[], Size) | Devuelve objetos Thumbnail Image para las diapositivas especificadas de una presentación con el tamaño especificado. |
+| [GetImages](../../aspose.slides/ipresentation/getimages#getimages_2)(IRenderingOptions, int[], float, float) | Devuelve objetos Thumbnail Image para las diapositivas especificadas de una presentación con escalado personalizado. |
+| [GetSlideById](../../aspose.slides/ipresentation/getslidebyid)(uint) | Devuelve una Slide, MasterSlide o LayoutSlide por Id. |
 | [HighlightRegex](../../aspose.slides/ipresentation/highlightregex)(Regex, Color, IFindResultCallback) | Resalta todas las coincidencias de la expresión regular con el color especificado. |
 | [HighlightText](../../aspose.slides/ipresentation/highlighttext#highlighttext)(string, Color) | Resalta todas las coincidencias del texto de muestra con el color especificado. |
 | [HighlightText](../../aspose.slides/ipresentation/highlighttext#highlighttext_1)(string, Color, ITextSearchOptions, IFindResultCallback) | Resalta todas las coincidencias del texto de muestra con el color especificado. |
-| [JoinPortionsWithSameFormatting](../../aspose.slides/ipresentation/joinportionswithsameformatting)() | Une ejecuciones con el mismo formato en todos los párrafos de todas las formas aceptables en todas las diapositivas. |
+| [JoinPortionsWithSameFormatting](../../aspose.slides/ipresentation/joinportionswithsameformatting)() | Une secuencias con el mismo formato en todos los párrafos de todas las formas aceptables en todas las diapositivas. |
+| [RefreshChartsData](../../aspose.slides/ipresentation/refreshchartsdata)(bool) | Recarga los datos de todos los gráficos en la presentación desde sus libros de origen. |
 | [ReplaceRegex](../../aspose.slides/ipresentation/replaceregex)(Regex, string, IFindResultCallback) | Reemplaza todas las coincidencias de la expresión regular con la cadena especificada. |
-| [ReplaceText](../../aspose.slides/ipresentation/replacetext)(string, string, ITextSearchOptions, IFindResultCallback) | Reemplaza todas las apariciones del texto especificado con otro texto especificado. |
+| [ReplaceText](../../aspose.slides/ipresentation/replacetext)(string, string, ITextSearchOptions, IFindResultCallback) | Reemplaza todas las ocurrencias del texto especificado con otro texto especificado. |
 | [Save](../../aspose.slides/ipresentation/save#save)(IXamlOptions) | Guarda todas las diapositivas de una presentación en un conjunto de archivos que representan el marcado XAML. |
 | [Save](../../aspose.slides/ipresentation/save#save_1)(Stream, SaveFormat) | Guarda todas las diapositivas de una presentación en un flujo en el formato especificado. |
 | [Save](../../aspose.slides/ipresentation/save#save_5)(string, SaveFormat) | Guarda todas las diapositivas de una presentación en un archivo con el formato especificado. |

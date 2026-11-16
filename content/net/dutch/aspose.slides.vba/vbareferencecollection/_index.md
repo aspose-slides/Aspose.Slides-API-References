@@ -3,7 +3,7 @@ title: VbaReferenceCollection
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Stelt een verzameling van VBA-projectreferenties voor.
 type: docs
-weight: 11670
+weight: 11690
 url: /nl/aspose.slides.vba/vbareferencecollection/
 ---
 ## VbaReferenceCollection klasse
@@ -18,8 +18,8 @@ public class VbaReferenceCollection : IVbaReferenceCollection
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Count](../../aspose.slides.vba/vbareferencecollection/count) { get; } | Haalt het aantal elementen op dat daadwerkelijk in de collectie zit. Alleen-lezen Int32. |
-| [IsSynchronized](../../aspose.slides.vba/vbareferencecollection/issynchronized) { get; } | Retourneert een waarde die aangeeft of de toegang tot de collectie gesynchroniseerd (thread-safe) is. Alleen-lezen Boolean. |
+| [Count](../../aspose.slides.vba/vbareferencecollection/count) { get; } | Haalt het aantal elementen op dat daadwerkelijk in de collectie is opgenomen. Alleen-lezen Int32. |
+| [IsSynchronized](../../aspose.slides.vba/vbareferencecollection/issynchronized) { get; } | Retourneert een waarde die aangeeft of toegang tot de collectie gesynchroniseerd is (thread-safe). Alleen-lezen Boolean. |
 | [Item](../../aspose.slides.vba/vbareferencecollection/item) { get; } | Haalt het element op op de opgegeven index. |
 | [SyncRoot](../../aspose.slides.vba/vbareferencecollection/syncroot) { get; } | Retourneert een synchronisatiewortel. Alleen-lezen Object. |
 
@@ -27,9 +27,9 @@ public class VbaReferenceCollection : IVbaReferenceCollection
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Add](../../aspose.slides.vba/vbareferencecollection/add)(IVbaReference) | Voegt de nieuwe referentie toe aan de referentiecollectie |
+| [Add](../../aspose.slides.vba/vbareferencecollection/add)(IVbaReference) | Voegt de nieuwe referentie toe aan de referentiescollectie |
 | [CopyTo](../../aspose.slides.vba/vbareferencecollection/copyto)(Array, int) | Kopieert alle elementen van de collectie naar de opgegeven array. |
-| [GetEnumerator](../../aspose.slides.vba/vbareferencecollection/getenumerator)() | Retourneert een enumerator die door de collectie itereert. |
+| [GetEnumerator](../../aspose.slides.vba/vbareferencecollection/getenumerator)() | Retourneert een enumerator die door de collectie iterereert. |
 
 ### Zie ook
 

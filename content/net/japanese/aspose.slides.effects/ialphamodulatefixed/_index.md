@@ -1,14 +1,14 @@
 ---
 title: IAlphaModulateFixed
-second_title: Aspose.Sildes for .NET API リファレンス
-description: Alpha Modulate Fixed エフェクトを表します。エフェクトのアルファ（不透明度）値は固定パーセンテージで乗算されます。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: Alpha Modulate Fixed エフェクトを表します。エフェクトのアルファ不透明度の値は固定パーセンテージで乗算されます。
 type: docs
-weight: 3120
+weight: 3140
 url: /ja/aspose.slides.effects/ialphamodulatefixed/
 ---
 ## IAlphaModulateFixed インターフェイス
 
-Alpha Modulate Fixed エフェクトを表します。エフェクトのアルファ (不透明度) 値は固定パーセンテージで乗算されます。
+Represents an Alpha Modulate Fixed effect. Effect alpha (opacity) values are multiplied by a fixed percentage.
 
 ```csharp
 public interface IAlphaModulateFixed : IAccessiblePVIObject<IAlphaModulateFixedEffectiveData>, 
@@ -17,11 +17,11 @@ public interface IAlphaModulateFixed : IAccessiblePVIObject<IAlphaModulateFixedE
 
 ## プロパティ
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
-| [Amount](../../aspose.slides.effects/ialphamodulatefixed/amount) { get; set; } | エフェクトの量をパーセントで返します。読み書き可能 Single. |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphamodulatefixed/asiaccessiblepviobject) { get; } | ベースの IAccessiblePVIObject インターフェイスを取得できます。読み取り専用 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphamodulatefixed/asiimagetransformoperation) { get; } | ベースの IImageTransformOperation インターフェイスを取得できます。読み取り専用 [`IImageTransformOperation`](../iimagetransformoperation). |
+| [Amount](../../aspose.slides.effects/ialphamodulatefixed/amount) { get; set; } | エフェクトの量をパーセントで返します。読み書き Single。 |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphamodulatefixed/asiaccessiblepviobject) { get; } | ベースのIAccessiblePVIObject インターフェイスを取得できます。読み取り専用 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphamodulatefixed/asiimagetransformoperation) { get; } | ベースのIImageTransformOperation インターフェイスを取得できます。読み取り専用 [`IImageTransformOperation`](../iimagetransformoperation)。 |
 
 ### 関連項目
 

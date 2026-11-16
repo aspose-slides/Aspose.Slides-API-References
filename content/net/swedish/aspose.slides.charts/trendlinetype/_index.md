@@ -3,13 +3,11 @@ title: TrendlineType
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar typ av trendlinje
 type: docs
-weight: 2490
+weight: 2510
 url: /sv/aspose.slides.charts/trendlinetype/
 ---
-## TrendlineType enum
-
+## TrendlineType enumeration
 Representerar typ av trendlinje
-
 ```csharp
 public enum TrendlineType
 ```
@@ -21,7 +19,7 @@ public enum TrendlineType
 | Exponential | `0` | Anger att trendlinjen ska vara en exponentiell kurva i formen. |
 | Linear | `1` | Anger att trendlinjen ska vara en linje i formen. |
 | Logarithmic | `2` | Anger att trendlinjen ska vara en logaritmisk kurva i formen , där log är den naturliga logaritmen. |
-| MovingAverage | `3` | Anger att trendlinjen ska vara ett glidande medelvärde av perioden Period. |
+| MovingAverage | `3` | Anger att trendlinjen ska vara ett glidande medelvärde med perioden Period. |
 | Polynomial | `4` | Anger att trendlinjen ska vara en polynomkurva av ordning Order i formen. |
 | Power | `5` | Anger att trendlinjen ska vara en potenskurva i formen. |
 

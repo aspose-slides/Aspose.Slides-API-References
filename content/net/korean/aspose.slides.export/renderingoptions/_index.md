@@ -1,9 +1,9 @@
 ---
 title: RenderingOptions
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 프레젠테이션/슬라이드가 렌더링되는 방식을 제어하는 옵션을 제공합니다.
 type: docs
-weight: 4410
+weight: 4430
 url: /ko/aspose.slides.export/renderingoptions/
 ---
 ## RenderingOptions 클래스
@@ -24,14 +24,14 @@ public class RenderingOptions : SaveOptions, IRenderingOptions
 
 | 이름 | 설명 |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | 소스 폰트를 찾을 수 없을 경우 사용되는 폰트를 반환하거나 설정합니다. 읽기-쓰기 String. |
-| [DisableFontLigatures](../../aspose.slides.export/renderingoptions/disablefontligatures) { get; set; } | 텍스트가 합자를 사용하지 않고 렌더링되는지 여부를 나타내는 값을 반환하거나 설정합니다. `true` 로 설정하면 렌더링된 출력에서 합자가 비활성화됩니다. 기본적으로 이 속성은 `false` 로 설정됩니다. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | 그라디언트의 시각적 스타일을 반환하거나 설정합니다. 읽기-쓰기 [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | 소스 폰트를 찾을 수 없는 경우 사용되는 폰트를 반환하거나 설정합니다. 읽기/쓰기 String. |
+| [DisableFontLigatures](../../aspose.slides.export/renderingoptions/disablefontligatures) { get; set; } | 텍스트가 리가처를 사용하지 않고 렌더링되는지 여부를 나타내는 값을 가져오거나 설정합니다. `true` 로 설정하면 렌더링된 출력에서 리가처가 비활성화됩니다. 기본값으로 이 속성은 `false` 로 설정됩니다. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | 그라디언트의 시각적 스타일을 반환하거나 설정합니다. 읽기/쓰기 [`GradientStyle`](../../aspose.slides/gradientstyle). |
 | [InkOptions](../../aspose.slides.export/renderingoptions/inkoptions) { get; } | 내보낸 문서에서 Ink 객체의 모양을 제어하는 옵션을 제공합니다. 읽기 전용 [`IInkOptions`](../iinkoptions) |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 진행 상황 업데이트를 퍼센트로 저장하기 위한 콜백 객체를 나타냅니다. 참조 [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | 프레젠테이션을 저장할 때 JavaScript 호출이 포함된 하이퍼링크를 건너뛸지 여부를 지정합니다. 읽기-쓰기 Boolean. 기본값은 **false** 입니다. |
-| [SlidesLayoutOptions](../../aspose.slides.export/renderingoptions/slideslayoutoptions) { get; set; } | 프레젠테이션을 내보낼 때 슬라이드가 페이지에 배치되는 모드를 반환하거나 설정합니다 [`ISlidesLayoutOptions`](../islideslayoutoptions). |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 경고를 수신하고 로딩 프로세스를 계속 진행할지 중단할지를 결정하는 객체를 반환하거나 설정합니다. 읽기-쓰기 [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 진행 상황 업데이트를 백분율로 저장하기 위한 콜백 객체를 나타냅니다. 참조 [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | 프레젠테이션을 저장할 때 JavaScript 호출이 포함된 하이퍼링크를 건너뛸지 여부를 지정합니다. 읽기/쓰기 Boolean. 기본값은 **false** 입니다. |
+| [SlidesLayoutOptions](../../aspose.slides.export/renderingoptions/slideslayoutoptions) { get; set; } | 프레젠테이션을 내보낼 때 슬라이드가 페이지에 배치되는 모드를 가져오거나 설정합니다 [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 경고를 수신하고 로드 프로세스를 계속할지 중단할지를 결정하는 객체를 반환하거나 설정합니다. 읽기/쓰기 [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### 예제
 

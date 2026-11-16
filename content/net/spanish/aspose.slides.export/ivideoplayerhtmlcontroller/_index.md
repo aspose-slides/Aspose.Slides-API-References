@@ -1,14 +1,14 @@
 ---
 title: IVideoPlayerHtmlController
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Esta clase permite exportar archivos de video y audio a un HTML
+description: Esta clase permite exportar archivos de video y audio a HTML
 type: docs
-weight: 4180
+weight: 4200
 url: /es/aspose.slides.export/ivideoplayerhtmlcontroller/
 ---
 ## IVideoPlayerHtmlController interfaz
 
-Esta clase permite exportar archivos de video y audio a un HTML
+Esta clase permite exportar archivos de video y audio a HTML
 
 ```csharp
 public interface IVideoPlayerHtmlController : IHtmlFormattingController, ILinkEmbedController, 
@@ -19,9 +19,9 @@ public interface IVideoPlayerHtmlController : IHtmlFormattingController, ILinkEm
 
 | Nombre | Descripción |
 | --- | --- |
-| [AsIHtmlFormattingController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asihtmlformattingcontroller) { get; } | Permite obtener la interfaz base IHtmlFormattingController. Solo lectura [`IHtmlFormattingController`](../ihtmlformattingcontroller). |
-| [AsILinkEmbedController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asilinkembedcontroller) { get; } | Permite obtener la interfaz base ILinkEmbedController. Solo lectura [`ILinkEmbedController`](../ilinkembedcontroller). |
-| [AsISvgShapeFormattingController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asisvgshapeformattingcontroller) { get; } | Permite obtener la interfaz base ISvgShapeFormattingController. Solo lectura [`ISvgShapeFormattingController`](../isvgshapeformattingcontroller). |
+| [AsIHtmlFormattingController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asihtmlformattingcontroller) { get; } | Permite obtener la interfaz base IHtmlFormattingController interfaz. Solo lectura [`IHtmlFormattingController`](../ihtmlformattingcontroller). |
+| [AsILinkEmbedController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asilinkembedcontroller) { get; } | Permite obtener la interfaz base ILinkEmbedController interfaz. Solo lectura [`ILinkEmbedController`](../ilinkembedcontroller). |
+| [AsISvgShapeFormattingController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asisvgshapeformattingcontroller) { get; } | Permite obtener la interfaz base ISvgShapeFormattingController interfaz. Solo lectura [`ISvgShapeFormattingController`](../isvgshapeformattingcontroller). |
 
 ### Ver también
 

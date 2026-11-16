@@ -1,14 +1,14 @@
 ---
 title: IMasterNotesSlide
-second_title: Aspose.Sildes .NET के लिए API संदर्भ
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
 description: नोट्स के लिए मास्टर स्लाइड का प्रतिनिधित्व करता है।
 type: docs
-weight: 6390
+weight: 6410
 url: /hi/aspose.slides/imasternotesslide/
 ---
-## IMasterNotesSlide इंटरफ़ेस
+## IMMasterNotesSlide इंटरफ़ेस
 
-मास्टर नोट्स के लिए मास्टर स्लाइड का प्रतिनिधित्व करता है।
+नोट्स के लिए मास्टर स्लाइड का प्रतिनिधित्व करता है।
 
 ```csharp
 public interface IMasterNotesSlide : IBaseSlide, IMasterThemeable
@@ -19,12 +19,12 @@ public interface IMasterNotesSlide : IBaseSlide, IMasterThemeable
 | नाम | विवरण |
 | --- | --- |
 | [AsIBaseSlide](../../aspose.slides/imasternotesslide/asibaseslide) { get; } | बेस IBaseSlide इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IBaseSlide`](../ibaseslide)। |
-| [AsIMasterThemeable](../../aspose.slides/imasternotesslide/asimasterthemeable) { get; } | IMasterThemeable इंटरफ़ेस को वापस करता है। केवल-पढ़ने योग्य [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable)। |
-| [DrawingGuides](../../aspose.slides/imasternotesslide/drawingguides) { get; } | मास्टर नोट्स स्लाइड के लिए ड्राइंग गाइड्स का संग्रह लौटाता है। केवल-पढ़ने योग्य [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [HeaderFooterManager](../../aspose.slides/imasternotesslide/headerfootermanager) { get; } | मास्टर नोट्स स्लाइड के HeaderFooter प्रबंधक को लौटाता है। केवल-पढ़ने योग्य [`IMasterNotesSlideHeaderFooterManager`](../imasternotesslideheaderfootermanager)। |
-| [NotesStyle](../../aspose.slides/imasternotesslide/notesstyle) { get; } | नोट्स टेक्स्ट की शैली को लौटाता है। केवल-पढ़ने योग्य [`ITextStyle`](../itextstyle)। |
+| [AsIMasterThemeable](../../aspose.slides/imasternotesslide/asimasterthemeable) { get; } | IMasterThemeable इंटरफ़ेस को वापस देता है। केवल-पढ़ने योग्य [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable)। |
+| [DrawingGuides](../../aspose.slides/imasternotesslide/drawingguides) { get; } | मास्टर नोट्स स्लाइड के लिए ड्रॉइंग गाइड्स का संग्रह वापस देता है। केवल-पढ़ने योग्य [`IDrawingGuidesCollection`](../idrawingguidescollection)। |
+| [HeaderFooterManager](../../aspose.slides/imasternotesslide/headerfootermanager) { get; } | मास्टर नोट्स स्लाइड के HeaderFooter प्रबंधक को वापस देता है। केवल-पढ़ने योग्य [`IMasterNotesSlideHeaderFooterManager`](../imasternotesslideheaderfootermanager)। |
+| [NotesStyle](../../aspose.slides/imasternotesslide/notesstyle) { get; } | नोट्स टेक्स्ट की शैली को वापस देता है। केवल-पढ़ने योग्य [`ITextStyle`](../itextstyle)। |
 
-### देखें
+### संबंधित देखें
 
 * इंटरफ़ेस [IBaseSlide](../ibaseslide)
 * इंटरफ़ेस [IMasterThemeable](../../aspose.slides.theme/imasterthemeable)

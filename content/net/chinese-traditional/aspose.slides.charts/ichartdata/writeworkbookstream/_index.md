@@ -1,22 +1,22 @@
 ---
 title: WriteWorkbookStream
-second_title: Aspose.Sildes 的 .NET API 參考
-description: 使用者指定的值初始化內部包含的 Excel 活頁簿。
+second_title: Aspose.Sildes for .NET API 參考文件
+description: 使用者指定的值來初始化內部包含的 Excel 工作簿。
 type: docs
-weight: 150
+weight: 160
 url: /zh-hant/aspose.slides.charts/ichartdata/writeworkbookstream/
 ---
 ## IChartData.WriteWorkbookStream 方法
 
-使用者指定的值初始化內部包含的 Excel 活頁簿。
+使用者指定的值來初始化內部包含的 Excel 工作簿。
 
 ```csharp
 public void WriteWorkbookStream(MemoryStream ms)
 ```
 
-| 參數 | 類型 | 描述 |
+| 參數 | 類型 | 說明 |
 | --- | --- | --- |
-| ms | MemoryStream | 使用者提供的包含完整 Excel 活頁簿的串流。 |
+| ms | MemoryStream | 使用者提供的包含整個 Excel 工作簿的串流。 |
 
 ### 另請參閱
 

@@ -1,14 +1,14 @@
 ---
 title: IHyperlinkContainer
 second_title: Aspose.Sildes para .NET Referencia de API
-description: Representa el objeto de hipervínculo.
+description: Representa el objeto hipervínculo.
 type: docs
-weight: 6120
+weight: 6140
 url: /es/aspose.slides/ihyperlinkcontainer/
 ---
 ## IHyperlinkContainer interfaz
 
-Representa el objeto de hipervínculo.
+Representa el objeto hipervínculo.
 
 ```csharp
 public interface IHyperlinkContainer
@@ -19,10 +19,10 @@ public interface IHyperlinkContainer
 | Nombre | Descripción |
 | --- | --- |
 | [HyperlinkClick](../../aspose.slides/ihyperlinkcontainer/hyperlinkclick) { get; set; } | Devuelve o establece el hipervínculo definido para el clic del ratón. Lectura/escritura [`IHyperlink`](../ihyperlink). |
-| [HyperlinkManager](../../aspose.slides/ihyperlinkcontainer/hyperlinkmanager) { get; } | Administrador de hipervínculos Solo lectura [`IHyperlinkManager`](../ihyperlinkmanager). |
-| [HyperlinkMouseOver](../../aspose.slides/ihyperlinkcontainer/hyperlinkmouseover) { get; set; } | Devuelve o establece el hipervínculo definido para pasar el ratón por encima. Lectura/escritura [`IHyperlink`](../ihyperlink). |
+| [HyperlinkManager](../../aspose.slides/ihyperlinkcontainer/hyperlinkmanager) { get; } | Administrador de hipervínculos Sólo lectura [`IHyperlinkManager`](../ihyperlinkmanager). |
+| [HyperlinkMouseOver](../../aspose.slides/ihyperlinkcontainer/hyperlinkmouseover) { get; set; } | Devuelve o establece el hipervínculo definido para pasar el ratón. Lectura/escritura [`IHyperlink`](../ihyperlink). |
 
-### Véase también
+### Ver también
 
 * espacio de nombres [Aspose.Slides](../../aspose.slides)
 * ensamblado [Aspose.Slides](../../)

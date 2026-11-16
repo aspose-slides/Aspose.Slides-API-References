@@ -1,9 +1,9 @@
 ---
 title: IVideoFrame
-second_title: Aspose.Sildes dla .NET – referencja API
+second_title: Aspose.Sildes dla .NET - referencja API
 description: Reprezentuje klip wideo na slajdzie.
 type: docs
-weight: 7380
+weight: 7400
 url: /pl/aspose.slides/ivideoframe/
 ---
 ## IVideoFrame interfejs
@@ -19,17 +19,18 @@ public interface IVideoFrame : IPictureFrame
 | Nazwa | Opis |
 | --- | --- |
 | [AsIPictureFrame](../../aspose.slides/ivideoframe/asipictureframe) { get; } | Umożliwia pobranie bazowego interfejsu IPictureFrame. Tylko do odczytu [`IPictureFrame`](../ipictureframe). |
-| [CaptionTracks](../../aspose.slides/ivideoframe/captiontracks) { get; } | Pobiera kolekcję zamkniętych napisów powiązanych z ramką dźwięku. Ta właściwość jest tylko do odczytu i zwraca [`ICaptionsCollection`](../icaptionscollection) zawierający wszystkie ścieżki napisów. |
-| [EmbeddedVideo](../../aspose.slides/ivideoframe/embeddedvideo) { get; set; } | Zwraca lub ustawia osadzony obiekt wideo. Odczyt/Zapis [`IVideo`](../ivideo). |
-| [FullScreenMode](../../aspose.slides/ivideoframe/fullscreenmode) { get; set; } | Określa, czy wideo jest wyświetlane w trybie pełnoekranowym. Odczyt/Zapis Boolean. |
-| [HideAtShowing](../../aspose.slides/ivideoframe/hideatshowing) { get; set; } | Określa, czy VideoFrame jest ukryty. Odczyt/Zapis Boolean. |
-| [LinkPathLong](../../aspose.slides/ivideoframe/linkpathlong) { get; set; } | Zwraca lub ustawia nazwę pliku wideo połączonego z VideoFrame. Odczyt/Zapis String. |
-| [PlayLoopMode](../../aspose.slides/ivideoframe/playloopmode) { get; set; } | Określa, czy wideo jest odtwarzane w pętli. Odczyt/Zapis Boolean. |
-| [PlayMode](../../aspose.slides/ivideoframe/playmode) { get; set; } | Zwraca lub ustawia tryb odtwarzania wideo. Odczyt/Zapis [`VideoPlayModePreset`](../videoplaymodepreset). |
-| [RewindVideo](../../aspose.slides/ivideoframe/rewindvideo) { get; set; } | Określa, czy wideo jest automatycznie przewijane do początku po zakończeniu odtwarzania. Odczyt/Zapis Boolean. |
+| [CaptionTracks](../../aspose.slides/ivideoframe/captiontracks) { get; } | Pobiera kolekcję napisów zamkniętych powiązanych z ramką audio. Ta właściwość jest tylko do odczytu i zwraca [`ICaptionsCollection`](../icaptionscollection) zawierający wszystkie ścieżki napisów. |
+| [EmbeddedVideo](../../aspose.slides/ivideoframe/embeddedvideo) { get; set; } | Zwraca lub ustawia osadzony obiekt wideo. Odczyt/zapis [`IVideo`](../ivideo). |
+| [FullScreenMode](../../aspose.slides/ivideoframe/fullscreenmode) { get; set; } | Określa, czy wideo jest wyświetlane w trybie pełnoekranowym. Odczyt/zapis Boolean. |
+| [HideAtShowing](../../aspose.slides/ivideoframe/hideatshowing) { get; set; } | Określa, czy VideoFrame jest ukryty. Odczyt/zapis Boolean. |
+| [LinkPathLong](../../aspose.slides/ivideoframe/linkpathlong) { get; set; } | Zwraca lub ustawia nazwę pliku wideo powiązanego z VideoFrame. Odczyt/zapis String. |
+| [PlayLoopMode](../../aspose.slides/ivideoframe/playloopmode) { get; set; } | Określa, czy wideo jest odtwarzane w pętli. Odczyt/zapis Boolean. |
+| [PlayMode](../../aspose.slides/ivideoframe/playmode) { get; set; } | Zwraca lub ustawia tryb odtwarzania wideo. Odczyt/zapis [`VideoPlayModePreset`](../videoplaymodepreset). |
+| [RewindVideo](../../aspose.slides/ivideoframe/rewindvideo) { get; set; } | Określa, czy wideo jest automatycznie przewijane do startu, gdy film zakończy odtwarzanie. Odczyt/zapis Boolean. |
 | [TrimFromEnd](../../aspose.slides/ivideoframe/trimfromend) { get; set; } | Przytnij koniec [ms] |
 | [TrimFromStart](../../aspose.slides/ivideoframe/trimfromstart) { get; set; } | Przytnij początek [ms] |
-| [Volume](../../aspose.slides/ivideoframe/volume) { get; set; } | Zwraca lub ustawia głośność dźwięku. Odczyt/Zapis [`AudioVolumeMode`](../audiovolumemode). |
+| [Volume](../../aspose.slides/ivideoframe/volume) { get; set; } | Zwraca lub ustawia poziom głośności audio. Odczyt/zapis [`AudioVolumeMode`](../audiovolumemode). |
+| [VolumeValue](../../aspose.slides/ivideoframe/volumevalue) { get; set; } | Zwraca lub ustawia dokładny poziom głośności wideo jako procent. Wartość jest wyrażona jako procent od 0 do 100. Użyj tej właściwości, aby odczytać lub ustawić wartości głośności bardziej precyzyjne niż poziomy wstępnie zdefiniowane dostępne za pośrednictwem właściwości [`Volume`](./volume). Odczyt/zapis Single. |
 
 ### Zobacz również
 

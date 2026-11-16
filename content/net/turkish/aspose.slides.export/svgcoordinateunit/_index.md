@@ -1,14 +1,14 @@
 ---
 title: SvgCoordinateUnit
-second_title: Aspose.Sildes .NET API Referansı
-description: SVG koordinatlarını tanımlamak için kullanılan CSS2 koordinat birimlerini temsil eder.
+second_title: Aspose.Sildes for .NET API Referansı
+description: SVG koordinatlarını tanımlamakta kullanılan CSS2 koordinat birimlerini temsil eder.
 type: docs
-weight: 4480
+weight: 4500
 url: /tr/aspose.slides.export/svgcoordinateunit/
 ---
-## SvgCoordinateUnit enumu
+## SvgCoordinateUnit enumerasyonu
 
-SVG koordinatlarını tanımlamak için kullanılan CSS2 koordinat birimlerini temsil eder.
+SVG koordinatlarını tanımlamakta kullanılan CSS2 koordinat birimlerini temsil eder.
 
 ```csharp
 public enum SvgCoordinateUnit
@@ -18,14 +18,14 @@ public enum SvgCoordinateUnit
 
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
-| Inch | `0` | İnç |
-| Centimeter | `1` | Santimetre. |
-| Millimeter | `2` | Milimetre. |
-| Point | `3` | Nokta (1/72 inç), |
-| Pica | `4` | Pika (1/6 inç). |
-| Em | `5` | İçeren elemanın fontunun Em boyutu. |
-| Ex | `6` | Ex boyutu (küçük harf boyutu, genellikle "x"), içeren elemanın fontunun. |
-| Pixel | `7` | Piksel boyutu. |
+| Inch | `0` | Inch |
+| Centimeter | `1` | Centimeter. |
+| Millimeter | `2` | Millimeter. |
+| Point | `3` | Point (1/72 inç), |
+| Pica | `4` | Pica (1/6 inç). |
+| Em | `5` | Em, içeren öğenin bir yazı tipinin boyutu. |
+| Ex | `6` | Ex boyutu (küçük harf boyutu, genellikle "x") içeren öğenin bir yazı tipinin. |
+| Pixel | `7` | Pixel boyutu. |
 | Percent | `8` | Yüzde. |
 
 ### Ayrıca Bakınız

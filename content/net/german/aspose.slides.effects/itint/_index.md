@@ -1,14 +1,14 @@
 ---
 title: ITint
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt einen Tint-Effekt dar. Verschiebt die Farbewerte des Effekts zum bzw. vom Farbton um den angegebenen Betrag.
+description: Stellt einen Tint-Effekt dar. Verschiebt die Farbeigaben des Effekts in Richtung/weg vom Farbton um den angegebenen Betrag.
 type: docs
-weight: 3540
+weight: 3560
 url: /de/aspose.slides.effects/itint/
 ---
 ## ITint Schnittstelle
 
-Stellt einen Tint-Effekt dar. Verschiebt die Farbeffektwerte zum bzw. vom Farbton um den angegebenen Betrag.
+Repäsentiert einen Tint-Effekt. Verschiebt die Farbwerte des Effekts in Richtung/weg von der Farbtonschattierung um den angegebenen Betrag.
 
 ```csharp
 public interface ITint : IAccessiblePVIObject<ITintEffectiveData>, IImageTransformOperation
@@ -18,8 +18,8 @@ public interface ITint : IAccessiblePVIObject<ITintEffectiveData>, IImageTransfo
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/itint/asiaccessiblepviobject) { get; } | Ermöglicht das Abrufen der Basisschnittstelle IAccessiblePVIObject. Nur lesbar [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/itint/asiimagetransformoperation) { get; } | Ermöglicht das Abrufen der Basisschnittstelle IImageTransformOperation. Nur lesbar [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/itint/asiaccessiblepviobject) { get; } | Ermöglicht das Abrufen des Basis-IAccessiblePVIObject-Interface. Nur lesbar [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/itint/asiimagetransformoperation) { get; } | Ermöglicht das Abrufen des Basis-IImageTransformOperation-Interface. Nur lesbar [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### Siehe auch
 

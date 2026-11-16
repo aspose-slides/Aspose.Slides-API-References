@@ -1,12 +1,12 @@
 ---
 title: Marker
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 表示燧石的标记。
 type: docs
-weight: 2330
+weight: 2350
 url: /zh/aspose.slides.charts/marker/
 ---
-## 标记类
+## Marker 类
 
 表示燧石的标记。
 
@@ -18,9 +18,9 @@ public class Marker : IMarker
 
 | 名称 | 描述 |
 | --- | --- |
-| [Format](../../aspose.slides.charts/marker/format) { get; } | 获取或设置标记填充。只读 [`IFormat`](../iformat)。 |
-| [Size](../../aspose.slides.charts/marker/size) { get; set; } | 表示折线图、散点图或雷达图中的标记大小。读/写 Int32。 |
-| [Symbol](../../aspose.slides.charts/marker/symbol) { get; set; } | 表示折线图、散点图或雷达图中的标记样式。读/写 [`MarkerStyleType`](../markerstyletype)。 |
+| [Format](../../aspose.slides.charts/marker/format) { get; } | 获取或设置标记填充。 只读 [`IFormat`](../iformat). |
+| [Size](../../aspose.slides.charts/marker/size) { get; set; } | 表示线形图、散点图或雷达图中的标记大小。 读/写 Int32. |
+| [Symbol](../../aspose.slides.charts/marker/symbol) { get; set; } | 表示线形图、散点图或雷达图中的标记样式。 读/写 [`MarkerStyleType`](../markerstyletype). |
 
 ### 另见
 

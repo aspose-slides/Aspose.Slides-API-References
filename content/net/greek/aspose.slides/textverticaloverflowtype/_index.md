@@ -1,14 +1,14 @@
 ---
 title: TextVerticalOverflowType
 second_title: Aspose.Sildes για .NET API Αναφορά
-description: Αντιπροσωπεύει τον τύπο κατακόρυφης υπερχείλισης κειμένου.
+description: Αναπαριστά τον τύπο κατακόρυφης υπερχείλισης κειμένου.
 type: docs
-weight: 11020
+weight: 11040
 url: /el/aspose.slides/textverticaloverflowtype/
 ---
-## TextVerticalOverflowType απαρίθμηση
+## Απαρίθμηση TextVerticalOverflowType
 
-Αντιπροσωπεύει τον τύπο κατακόρυφης υπερχείλισης κειμένου.
+Αναπαριστά τον τύπο κατακόρυφης υπερχείλισης κειμένου.
 
 ```csharp
 public enum TextVerticalOverflowType : sbyte

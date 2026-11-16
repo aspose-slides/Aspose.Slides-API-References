@@ -1,29 +1,29 @@
 ---
 title: TickMarkType
 second_title: Aspose.Sildes .NET API 參考
-description: 表示指定坐標軸的刻度線類型。
+description: 代表指定軸的刻度標記類型。
 type: docs
-weight: 2450
+weight: 2470
 url: /zh-hant/aspose.slides.charts/tickmarktype/
 ---
 ## TickMarkType 列舉
 
-表示指定坐標軸的刻度線類型。
+表示指定軸的刻度標記類型。
 
 ```csharp
 public enum TickMarkType
 ```
 
-### 列舉值
+### 值
 
 | 名稱 | 值 | 說明 |
 | --- | --- | --- |
-| Cross | `0` | 指定刻度線應穿過坐標軸。 |
+| Cross | `0` | 指定刻度線應交叉軸。 |
 | Inside | `1` | 指定刻度線應位於繪圖區域內部。 |
-| None | `2` | 指定不存在刻度線。 |
+| None | `2` | 指定不應有刻度線。 |
 | Outside | `3` | 指定刻度線應位於繪圖區域外部。 |
 
-### 另請參閱
+### 另見
 
 * 命名空間 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 組件 [Aspose.Slides](../../)

@@ -3,7 +3,7 @@ title: IPictureFrame
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili sebuah bingkai dengan gambar di dalamnya.
 type: docs
-weight: 6670
+weight: 6690
 url: /id/aspose.slides/ipictureframe/
 ---
 ## IPictureFrame antarmuka

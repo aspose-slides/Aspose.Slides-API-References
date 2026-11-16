@@ -1,12 +1,12 @@
 ---
 title: TextVerticalOverflowType
-second_title: Aspose.Sildes для .NET справочника API
+second_title: Aspose.Sildes для .NET справочник API
 description: Представляет тип вертикального переполнения текста.
 type: docs
-weight: 11020
+weight: 11040
 url: /ru/aspose.slides/textverticaloverflowtype/
 ---
-## TextVerticalOverflowType перечисление
+## TextVerticalOverflowType enumeration
 
 Представляет тип вертикального переполнения текста.
 
@@ -23,7 +23,7 @@ public enum TextVerticalOverflowType : sbyte
 | Ellipsis | `1` |  |
 | Clip | `2` |  |
 
-### Смотрите также
+### См. также
 
 * пространство имён [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

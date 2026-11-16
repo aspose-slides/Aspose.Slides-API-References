@@ -1,12 +1,12 @@
 ---
 title: TickLabelPositionType
-second_title: Aspose.Sildes .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Belirtilen eksende tik işareti etiketlerinin konum tipini temsil eder.
 type: docs
-weight: 2440
+weight: 2460
 url: /tr/aspose.slides.charts/ticklabelpositiontype/
 ---
-## TickLabelPositionType numaralandırması
+## TickLabelPositionType enum
 
 Belirtilen eksende tik işareti etiketlerinin konum tipini temsil eder.
 
@@ -18,9 +18,9 @@ public enum TickLabelPositionType
 
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
-| High | `0` | Eksen etiketlerinin dik eksenin yüksek ucunda olacağını belirtir. |
-| Low | `1` | Eksen etiketlerinin dik eksenin düşük ucunda olacağını belirtir. |
-| NextTo | `2` | Eksen etiketlerinin eksenin yanında olacağını belirtir. |
+| High | `0` | Eksen etiketlerinin, dik eksenin yüksek ucunda olacağını belirtir. |
+| Low | `1` | Eksen etiketlerinin, dik eksenin düşük ucunda olacağını belirtir. |
+| NextTo | `2` | Eksen etiketlerinin eksene yan yana olacağını belirtir. |
 | None | `3` | Eksen etiketlerinin çizilmeyeceğini belirtir. |
 
 ### Ayrıca Bakınız

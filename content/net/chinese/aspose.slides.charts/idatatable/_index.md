@@ -1,12 +1,12 @@
 ---
 title: IDataTable
-second_title: Aspose.Sildes .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 表示数据表属性。
 type: docs
-weight: 2060
+weight: 2080
 url: /zh/aspose.slides.charts/idatatable/
 ---
-## IDataTable 接口
+## IDataTable interface
 
 表示数据表属性。
 
@@ -14,18 +14,18 @@ url: /zh/aspose.slides.charts/idatatable/
 public interface IDataTable : IFormattedTextContainer
 ```
 
-## 属性
+## Properties
 
 | 名称 | 描述 |
 | --- | --- |
 | [AsIFormattedTextContainer](../../aspose.slides.charts/idatatable/asiformattedtextcontainer) { get; } | 允许获取基础 IFormattedTextContainer 接口。只读 [`IFormattedTextContainer`](../iformattedtextcontainer)。 |
 | [Format](../../aspose.slides.charts/idatatable/format) { get; } | 返回对象的线条、填充和效果样式。只读 [`IFormat`](../iformat)。 |
-| [HasBorderHorizontal](../../aspose.slides.charts/idatatable/hasborderhorizontal) { get; set; } | 如果图表数据表具有水平单元格边框，则为 True。可读写 Boolean。 |
-| [HasBorderOutline](../../aspose.slides.charts/idatatable/hasborderoutline) { get; set; } | 如果图表数据表具有轮廓边框，则为 True。可读写 Boolean。 |
-| [HasBorderVertical](../../aspose.slides.charts/idatatable/hasbordervertical) { get; set; } | 如果图表数据表具有垂直单元格边框，则为 True。可读写 Boolean。 |
-| [ShowLegendKey](../../aspose.slides.charts/idatatable/showlegendkey) { get; set; } | 如果数据标签图例键可见，则为 True。可读写 Boolean。 |
+| [HasBorderHorizontal](../../aspose.slides.charts/idatatable/hasborderhorizontal) { get; set; } | 如果图表数据表具有水平单元格边框则为 True。读/写 Boolean。 |
+| [HasBorderOutline](../../aspose.slides.charts/idatatable/hasborderoutline) { get; set; } | 如果图表数据表具有轮廓边框则为 True。读/写 Boolean。 |
+| [HasBorderVertical](../../aspose.slides.charts/idatatable/hasbordervertical) { get; set; } | 如果图表数据表具有垂直单元格边框则为 True。读/写 Boolean。 |
+| [ShowLegendKey](../../aspose.slides.charts/idatatable/showlegendkey) { get; set; } | 如果数据标签图例键可见则为 True。读/写 Boolean。 |
 
-### 另请参见
+### 另请参阅
 
 * 接口 [IFormattedTextContainer](../iformattedtextcontainer)
 * 命名空间 [Aspose.Slides.Charts](../../aspose.slides.charts)

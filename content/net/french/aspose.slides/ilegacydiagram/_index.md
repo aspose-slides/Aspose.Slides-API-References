@@ -3,7 +3,7 @@ title: ILegacyDiagram
 second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Représente un objet diagramme hérité
 type: docs
-weight: 6250
+weight: 6270
 url: /fr/aspose.slides/ilegacydiagram/
 ---
 ## ILegacyDiagram interface
@@ -18,14 +18,14 @@ public interface ILegacyDiagram : IGraphicalObject
 
 | Nom | Description |
 | --- | --- |
-| [AsIGraphicalObject](../../aspose.slides/ilegacydiagram/asigraphicalobject) { get; } | Permet d'obtenir l'interface de base IGraphicalObject. Lecture seule [`IGraphicalObject`](../igraphicalobject). |
+| [AsIGraphicalObject](../../aspose.slides/ilegacydiagram/asigraphicalobject) { get; } | Permet de récupérer l'interface de base IGraphicalObject. Lecture seule [`IGraphicalObject`](../igraphicalobject). |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
-| [ConvertToGroupShape](../../aspose.slides/ilegacydiagram/converttogroupshape)() | Convertit le diagramme hérité en forme de groupe modifiable. L'objet GroupShape créé est ajouté à la forme de groupe parent à la même position. |
-| [ConvertToSmartArt](../../aspose.slides/ilegacydiagram/converttosmartart)() | Convertit le diagramme hérité en objet SmartArt modifiable. L'objet SmartArt créé est ajouté à la forme de groupe parent à la même position. |
+| [ConvertToGroupShape](../../aspose.slides/ilegacydiagram/converttogroupshape)() | Convertit le diagramme hérité en groupe de formes éditable. L'objet GroupShape créé est ajouté au groupe de formes parent à la même position. |
+| [ConvertToSmartArt](../../aspose.slides/ilegacydiagram/converttosmartart)() | Convertit le diagramme hérité en objet SmartArt éditable. L'objet SmartArt créé est ajouté au groupe de formes parent à la même position. |
 
 ### Voir aussi
 

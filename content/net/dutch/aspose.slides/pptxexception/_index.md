@@ -3,24 +3,24 @@ title: PptxException
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Stelt een standaard intern exceptietype voor.
 type: docs
-weight: 9560
+weight: 9580
 url: /nl/aspose.slides/pptxexception/
 ---
 ## PptxException klasse
 
-Stelt een standaard intern exceptietype voor.
+Standaard interne exceptietype.
 
 ```csharp
 public class PptxException : OOXMLException
 ```
 
-## Constructoren
+## Constructors
 
 | Naam | Beschrijving |
 | --- | --- |
 | [PptxException](pptxexception#constructor)() | Standaardconstructor. |
-| [PptxException](pptxexception#constructor_1)(string) | Constructor die het mogelijk maakt een bericht toe te voegen aan deze exceptie. |
-| [PptxException](pptxexception#constructor_2)(string, Exception) | Constructor voor een exceptie die een bericht en een ingebedde exceptie bevat. |
+| [PptxException](pptxexception#constructor_1)(string) | Constructor die een bericht aan deze exceptie kan toevoegen. |
+| [PptxException](pptxexception#constructor_2)(string, Exception) | Constructor voor een exceptie met een bericht en een ingesloten exceptie. |
 
 ### Zie ook
 

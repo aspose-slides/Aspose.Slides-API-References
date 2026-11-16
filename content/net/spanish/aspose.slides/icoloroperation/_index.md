@@ -1,14 +1,14 @@
 ---
 title: IColorOperation
-second_title: Aspose.Sildes para la referencia de API de .NET
-description: Representa diferentes operaciones de color utilizadas para transformaciones de color.
+second_title: Referencia de API de Aspose.Sildes para .NET
+description: Representa diferentes operaciones de color usadas para transformaciones de color.
 type: docs
-weight: 5500
+weight: 5520
 url: /es/aspose.slides/icoloroperation/
 ---
 ## IColorOperation interfaz
 
-Representa diferentes operaciones de color utilizadas para transformaciones de color.
+Representa diferentes operaciones de color usadas para transformaciones de color.
 
 ```csharp
 public interface IColorOperation

@@ -1,14 +1,14 @@
 ---
 title: GetSubstitutions
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Lấy thông tin về các phông chữ sẽ được thay thế khi hiển thị bản trình chiếu.
+description: Lấy thông tin về phông chữ sẽ được thay thế khi render bản trình chiếu.
 type: docs
-weight: 80
+weight: 90
 url: /vi/aspose.slides/fontsmanager/getsubstitutions/
 ---
 ## GetSubstitutions() {#getsubstitutions}
 
-Lấy thông tin về các phông chữ sẽ được thay thế khi hiển thị bản trình chiếu.
+Lấy thông tin về phông chữ sẽ được thay thế khi render bản trình chiếu.
 
 ```csharp
 public IEnumerable<FontSubstitutionInfo> GetSubstitutions()
@@ -41,7 +41,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 ## GetSubstitutions(int[]) {#getsubstitutions_1}
 
-Lấy thông tin về các phông chữ sẽ được thay thế trong quá trình hiển thị các slide được chỉ định.
+Lấy thông tin về phông chữ sẽ được thay thế khi render các slide được chỉ định.
 
 ```csharp
 public IEnumerable<FontSubstitutionInfo> GetSubstitutions(int[] slides)
@@ -49,7 +49,7 @@ public IEnumerable<FontSubstitutionInfo> GetSubstitutions(int[] slides)
 
 | Tham số | Kiểu | Mô tả |
 | --- | --- | --- |
-| slides | Int32[] | Mảng các chỉ số slide để lấy thông tin thay thế phông chữ, bắt đầu từ 1. |
+| slides | Int32[] | Một mảng các chỉ mục slide mà thông tin thay thế phông chữ sẽ được truy xuất, bắt đầu từ 1. |
 
 ### Giá trị trả về
 

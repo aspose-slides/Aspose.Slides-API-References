@@ -3,7 +3,7 @@ title: IBaseSlide
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar gemensam data för alla bildtyper.
 type: docs
-weight: 5340
+weight: 5360
 url: /sv/aspose.slides/ibaseslide/
 ---
 ## IBaseSlide gränssnitt
@@ -16,27 +16,27 @@ public interface IBaseSlide : IThemeable
 
 ## Egenskaper
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
-| [AsIThemeable](../../aspose.slides/ibaseslide/asithemeable) { get; } | Tillåter att hämta bas-IThemeable-gränssnittet. Skrivskyddad [`IThemeable`](../../aspose.slides.theme/ithemeable). |
+| [AsIThemeable](../../aspose.slides/ibaseslide/asithemeable) { get; } | Tillåter att hämta bas IThemeable-gränssnittet. Skrivskyddad [`IThemeable`](../../aspose.slides.theme/ithemeable). |
 | [Background](../../aspose.slides/ibaseslide/background) { get; } | Returnerar bildens bakgrund. Skrivskyddad [`IBackground`](../ibackground). |
 | [Controls](../../aspose.slides/ibaseslide/controls) { get; } | Returnerar samlingen av ActiveX-kontroller på en bild. Skrivskyddad [`IControlCollection`](../icontrolcollection). |
 | [CustomData](../../aspose.slides/ibaseslide/customdata) { get; } | Returnerar bildens anpassade data. Skrivskyddad [`ICustomData`](../icustomdata). |
-| [HyperlinkQueries](../../aspose.slides/ibaseslide/hyperlinkqueries) { get; } | Tillhandahåller enkel åtkomst till innehållna hyperlänkar. Skrivskyddad [`IHyperlinkQueries`](../ihyperlinkqueries). |
-| [Name](../../aspose.slides/ibaseslide/name) { get; set; } | Returnerar eller anger namnet på en bild. Läs/skriv String. |
+| [HyperlinkQueries](../../aspose.slides/ibaseslide/hyperlinkqueries) { get; } | Tillhandahåller enkel åtkomst till inbäddade hyperlänkar. Skrivskyddad [`IHyperlinkQueries`](../ihyperlinkqueries). |
+| [Name](../../aspose.slides/ibaseslide/name) { get; set; } | Returnerar eller sätter namnet på en bild. Läs/skriv String. |
 | [Shapes](../../aspose.slides/ibaseslide/shapes) { get; } | Returnerar formerna på en bild. Skrivskyddad [`IShapeCollection`](../ishapecollection). |
-| [ShowMasterShapes](../../aspose.slides/ibaseslide/showmastershapes) { get; set; } | Anger om former på masterbilden ska visas på bilder eller inte. För masterbilden själv returnerar denna egenskap alltid `false`. Läs/skriv Boolean. |
+| [ShowMasterShapes](../../aspose.slides/ibaseslide/showmastershapes) { get; set; } | Anger om former på masterbilden ska visas på bilder eller inte. För själva masterbilden returnerar denna egenskap alltid `false`. Läs/skriv Boolean. |
 | [SlideId](../../aspose.slides/ibaseslide/slideid) { get; } | Returnerar ID för en bild. Skrivskyddad UInt32. |
-| [SlideShowTransition](../../aspose.slides/ibaseslide/slideshowtransition) { get; } | Returnerar TransitionEx-objektet som innehåller information om hur den angivna bilden avancerar under ett bildspel. Skrivskyddad [`ISlideShowTransition`](../islideshowtransition). |
-| [Timeline](../../aspose.slides/ibaseslide/timeline) { get; } | Returnerar animations-tidslinjeobjektet. Skrivskyddad [`IAnimationTimeLine`](../ianimationtimeline). |
+| [SlideShowTransition](../../aspose.slides/ibaseslide/slideshowtransition) { get; } | Returnerar TransitionEx-objektet som innehåller information om hur den angivna bilden avancerar under en bildspelsvisning. Skrivskyddad [`ISlideShowTransition`](../islideshowtransition). |
+| [Timeline](../../aspose.slides/ibaseslide/timeline) { get; } | Returnerar animations-tidslinjeobjekt. Skrivskyddad [`IAnimationTimeLine`](../ianimationtimeline). |
 
 ## Metoder
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
-| [Equals](../../aspose.slides/ibaseslide/equals)(IBaseSlide) | Bestämmer om de två IBaseSlide-instanserna är lika. Returvärdet beräknas baserat på bildens struktur och statiska innehåll. Två bilder är lika om alla former, stilar, texter, animationer och andra inställningar osv. är lika. Jämförelsen tar inte hänsyn till unika identifierarvärden, t.ex. SlideId och dynamiskt innehåll, t.ex. aktuellt datumvärde i Date Placeholder. |
+| [Equals](../../aspose.slides/ibaseslide/equals)(IBaseSlide) | Bestämmer om de två IBaseSlide-instanserna är lika. Returnerat värde beräknas baserat på bildens struktur och statiska innehåll. Två bilder är lika om alla former, stilar, texter, animationer och andra inställningar osv. är lika. Jämförelsen tar inte hänsyn till unika identifierarvärden, t.ex. SlideId, och dynamiskt innehåll, t.ex. aktuellt datumvärde i Datumplatshållare. |
 | [FindShapeByAltText](../../aspose.slides/ibaseslide/findshapebyalttext)(string) | Hittar första förekomsten av en form med den angivna alternativa texten. |
-| [JoinPortionsWithSameFormatting](../../aspose.slides/ibaseslide/joinportionswithsameformatting)() | Sammanfogar körningar med samma formatering i alla stycken i alla godkända former. |
+| [JoinPortionsWithSameFormatting](../../aspose.slides/ibaseslide/joinportionswithsameformatting)() | Slår samman körningar med samma formatering i alla stycken i alla acceptabla former. |
 
 ### Se även
 

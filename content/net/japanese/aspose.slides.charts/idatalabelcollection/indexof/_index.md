@@ -1,9 +1,9 @@
 ---
 title: IndexOf
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: コレクション内の指定された DataLabel のインデックスを返します。
 type: docs
-weight: 110
+weight: 120
 url: /ja/aspose.slides.charts/idatalabelcollection/indexof/
 ---
 ## IDataLabelCollection.IndexOf メソッド
@@ -14,7 +14,7 @@ url: /ja/aspose.slides.charts/idatalabelcollection/indexof/
 public int IndexOf(IDataLabel value)
 ```
 
-| パラメータ | 型 | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | value | IDataLabel | 検索対象の DataLabel。 |
 

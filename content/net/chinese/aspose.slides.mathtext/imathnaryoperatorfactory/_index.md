@@ -1,14 +1,14 @@
 ---
 title: IMathNaryOperatorFactory
-second_title: Aspose.Sildes .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 允许创建 IMathNaryOperator
 type: docs
-weight: 8370
+weight: 8390
 url: /zh/aspose.slides.mathtext/imathnaryoperatorfactory/
 ---
 ## IMathNaryOperatorFactory 接口
 
-允许创建 IMathNaryOperator
+允许创建 IMMathNaryOperator
 
 ```csharp
 public interface IMathNaryOperatorFactory
@@ -18,9 +18,9 @@ public interface IMathNaryOperatorFactory
 
 | 名称 | 描述 |
 | --- | --- |
-| [CreateMathNaryOperator](../../aspose.slides.mathtext/imathnaryoperatorfactory/createmathnaryoperator#createmathnaryoperator)(char, IMathElement) | 创建 IMathNaryOperator |
-| [CreateMathNaryOperator](../../aspose.slides.mathtext/imathnaryoperatorfactory/createmathnaryoperator#createmathnaryoperator_1)(char, IMathElement, IMathElement) | 创建 IMathNaryOperator |
-| [CreateMathNaryOperator](../../aspose.slides.mathtext/imathnaryoperatorfactory/createmathnaryoperator#createmathnaryoperator_2)(char, IMathElement, IMathElement, IMathElement) | 创建 IMathNaryOperator |
+| [CreateMathNaryOperator](../../aspose.slides.mathtext/imathnaryoperatorfactory/createmathnaryoperator#createmathnaryoperator)(char, IMathElement) | 创建 IMMathNaryOperator |
+| [CreateMathNaryOperator](../../aspose.slides.mathtext/imathnaryoperatorfactory/createmathnaryoperator#createmathnaryoperator_1)(char, IMathElement, IMathElement) | 创建 IMMathNaryOperator |
+| [CreateMathNaryOperator](../../aspose.slides.mathtext/imathnaryoperatorfactory/createmathnaryoperator#createmathnaryoperator_2)(char, IMathElement, IMathElement, IMathElement) | 创建 IMMathNaryOperator |
 
 ### 备注
 

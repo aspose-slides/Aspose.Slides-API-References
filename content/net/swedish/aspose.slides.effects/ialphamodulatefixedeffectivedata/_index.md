@@ -1,14 +1,14 @@
 ---
 title: IAlphaModulateFixedEffectiveData
-second_title: Aspose.Sildes för .NET API-referens
-description: Oföränderligt objekt som representerar en Alpha Modulate Fixed-effekt. Effektens alfa opacitetsvärden multipliceras med en fast procentsats.
+second_title: Aspose.Sildes for .NET API-referens
+description: Oföränderligt objekt som representerar en Alpha Modulate Fixed-effekt. Effekt alpha opacitetsvärden multipliceras med en fast procentsats.
 type: docs
-weight: 3130
+weight: 3150
 url: /sv/aspose.slides.effects/ialphamodulatefixedeffectivedata/
 ---
 ## IAlphaModulateFixedEffectiveData gränssnitt
 
-Oföränderligt objekt som representerar en Alpha Modulate Fixed-effekt. Effektens alfa (opacitet) värden multipliceras med en fast procentsats.
+Oföränderligt objekt som representerar en Alpha Modulate Fixed-effekt. Effekt-alpha (opacitet) värden multipliceras med en fast procentsats.
 
 ```csharp
 public interface IAlphaModulateFixedEffectiveData : IEffectEffectiveData
@@ -18,8 +18,8 @@ public interface IAlphaModulateFixedEffectiveData : IEffectEffectiveData
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Amount](../../aspose.slides.effects/ialphamodulatefixedeffectivedata/amount) { get; } | Returnerar en mängd effekt i procent. Skrivskyddad Single. |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphamodulatefixedeffectivedata/asieffecteffectivedata) { get; } | Tillåter att hämta bas-IEffectEffectiveData-gränssnittet. Skrivskyddad [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Amount](../../aspose.slides.effects/ialphamodulatefixedeffectivedata/amount) { get; } | Returnerar en mängd av effekten i procent. Skrivskyddad Single. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphamodulatefixedeffectivedata/asieffecteffectivedata) { get; } | Tillåter att hämta bas IEffectEffectiveData interface. Skrivskyddad [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
 ### Se även
 

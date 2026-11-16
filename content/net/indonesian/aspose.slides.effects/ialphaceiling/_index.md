@@ -1,14 +1,14 @@
 ---
 title: IAlphaCeiling
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili efek Alpha Ceiling. Nilai opasitas Alpha yang lebih besar dari nol diubah menjadi 100. Dengan kata lain, apa pun yang semi transparan menjadi sepenuhnya opak.
+description: Mewakili efek Alpha Ceiling. Nilai opasitas Alpha yang lebih besar dari nol diubah menjadi 100. Dengan kata lain, apa pun yang sebagian opak menjadi sepenuhnya opak.
 type: docs
-weight: 3040
+weight: 3060
 url: /id/aspose.slides.effects/ialphaceiling/
 ---
 ## IAlphaCeiling antarmuka
 
-Mewakili efek Alpha Ceiling. Nilai Alpha (opasitas) yang lebih besar dari nol diubah menjadi 100%. Dengan kata lain, apa pun yang semi transparan menjadi sepenuhnya opak.
+Mewakili efek Alpha Ceiling. Nilai Alpha (opasitas) yang lebih besar dari nol diubah menjadi 100%. Dengan kata lain, apa pun yang sebagian opak menjadi sepenuhnya opak.
 
 ```csharp
 public interface IAlphaCeiling : IAccessiblePVIObject<IAlphaCeilingEffectiveData>, 
@@ -19,8 +19,8 @@ public interface IAlphaCeiling : IAccessiblePVIObject<IAlphaCeilingEffectiveData
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphaceiling/asiaccessiblepviobject) { get; } | Memungkinkan untuk memperoleh antarmuka IAccessiblePVIObject dasar. Hanya-baca [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphaceiling/asiimagetransformoperation) { get; } | Memungkinkan untuk memperoleh antarmuka IImageTransformOperationEx dasar. Hanya-baca [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphaceiling/asiaccessiblepviobject) { get; } | Memungkinkan mengambil antarmuka IAccessiblePVIObject dasar. Baca-saja [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphaceiling/asiimagetransformoperation) { get; } | Memungkinkan mengambil antarmuka IImageTransformOperationEx dasar. Baca-saja [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### Lihat Juga
 

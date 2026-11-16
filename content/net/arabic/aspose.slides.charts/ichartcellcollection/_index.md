@@ -1,14 +1,14 @@
 ---
 title: IChartCellCollection
-second_title: Aspose.Sildes لـ .NET مرجع API
-description: تمثّل مجموعة من الخلايا التي تحتوي على بيانات.
+second_title: مرجع API لـ Aspose.Sildes for .NET
+description: يمثل مجموعة من الخلايا التي تحتوي على بيانات.
 type: docs
-weight: 1780
+weight: 1800
 url: /ar/aspose.slides.charts/ichartcellcollection/
 ---
 ## IChartCellCollection واجهة
 
-تمثّل مجموعة من الخلايا التي تحتوي على بيانات.
+يمثل مجموعة من الخلايا التي تحتوي على بيانات.
 
 ```csharp
 public interface IChartCellCollection : IEnumerable<IChartDataCell>
@@ -18,19 +18,19 @@ public interface IChartCellCollection : IEnumerable<IChartDataCell>
 
 | الاسم | الوصف |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.charts/ichartcellcollection/asienumerable) { get; } | يرجع واجهة ICollection. IEnumerable للقراءة فقط. |
+| [AsIEnumerable](../../aspose.slides.charts/ichartcellcollection/asienumerable) { get; } | إرجاع واجهة ICollection. IEnumerable للقراءة فقط. |
 | [Count](../../aspose.slides.charts/ichartcellcollection/count) { get; } | يحصل على عدد الخلايا في المجموعة. Int32 للقراءة فقط. |
-| [Item](../../aspose.slides.charts/ichartcellcollection/item) { get; } | يرجع خلية (IChartDataCell) حسب الفهرس. |
+| [Item](../../aspose.slides.charts/ichartcellcollection/item) { get; } | إرجاع خلية (IChartDataCell) حسب الفهرس. |
 
 ## الطرق
 
 | الاسم | الوصف |
 | --- | --- |
-| [Add](../../aspose.slides.charts/ichartcellcollection/add#add)(IChartDataCell) | يضيف خلية جديدة إلى المجموعة. |
-| [Add](../../aspose.slides.charts/ichartcellcollection/add#add_1)(object) | ينشئ [`IChartDataCell`](../ichartdatacell) من القيمة المحددة ويضيفه إلى المجموعة. |
-| [GetCellsAddress](../../aspose.slides.charts/ichartcellcollection/getcellsaddress)() | يرجع عنوان مجموعة الخلايا في المصنف. |
-| [GetConcatenatedValuesFromCells](../../aspose.slides.charts/ichartcellcollection/getconcatenatedvaluesfromcells)() | سلسلة تجميع من قيم جميع الخلايا. |
-| [RemoveAt](../../aspose.slides.charts/ichartcellcollection/removeat)(int) | يزيل خلية من المجموعة حسب الفهرس. |
+| [Add](../../aspose.slides.charts/ichartcellcollection/add#add)(IChartDataCell) | إضافة خلية جديدة إلى المجموعة. |
+| [Add](../../aspose.slides.charts/ichartcellcollection/add#add_1)(object) | إنشاء [`IChartDataCell`](../ichartdatacell) من قيمة محددة وإضافتها إلى المجموعة. |
+| [GetCellsAddress](../../aspose.slides.charts/ichartcellcollection/getcellsaddress)() | إرجاع عنوان مجموعة الخلايا في دفتر العمل. |
+| [GetConcatenatedValuesFromCells](../../aspose.slides.charts/ichartcellcollection/getconcatenatedvaluesfromcells)() | سلسلة تجميع من جميع قيم الخلايا النصية. |
+| [RemoveAt](../../aspose.slides.charts/ichartcellcollection/removeat)(int) | إزالة خلية من المجموعة حسب الفهرس. |
 
 ### انظر أيضًا
 

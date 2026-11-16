@@ -3,10 +3,10 @@ title: IBackgroundEffectiveData
 second_title: Aspose.Sildes için .NET API Referansı
 description: Etkili arka plan özelliklerini içeren değiştirilemez nesne.
 type: docs
-weight: 5280
+weight: 5300
 url: /tr/aspose.slides/ibackgroundeffectivedata/
 ---
-## IBackgroundEffectiveData interface
+## IBackgroundEffectiveData arayüzü
 
 Değiştirilemez nesne, etkili arka plan özelliklerini içerir.
 
@@ -18,9 +18,9 @@ public interface IBackgroundEffectiveData : IFillParamSource
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/ibackgroundeffectivedata/asifillparamsource) { get; } | IFillParamSource arayüzünü döndürür. |
-| [EffectFormat](../../aspose.slides/ibackgroundeffectivedata/effectformat) { get; } | Etkili efekt formatını döndürür. Salt okunur [`IEffectFormatEffectiveData`](../ieffectformateffectivedata). |
-| [FillFormat](../../aspose.slides/ibackgroundeffectivedata/fillformat) { get; } | Etkili doldurma formatını döndürür. Salt okunur [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
+| [AsIFillParamSource](../../aspose.slides/ibackgroundeffectivedata/asifillparamsource) { get; } | Döndürür IFillParamSource arayüzü. |
+| [EffectFormat](../../aspose.slides/ibackgroundeffectivedata/effectformat) { get; } | Etkili efekt biçimini döndürür. Yalnızca okunabilir [`IEffectFormatEffectiveData`](../ieffectformateffectivedata). |
+| [FillFormat](../../aspose.slides/ibackgroundeffectivedata/fillformat) { get; } | Etkili doldurma biçimini döndürür. Yalnızca okunabilir [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
 
 ### Açıklamalar
 

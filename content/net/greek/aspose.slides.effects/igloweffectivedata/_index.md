@@ -1,14 +1,14 @@
 ---
 title: IGlowEffectiveData
-second_title: Aspose.Sildes για .NET Αναφορά API
-description: Αμετάβλητο αντικείμενο που αντιπροσωπεύει ένα εφέ Glow, στο οποίο προστίθεται μια θολή περιγράμμιση χρώματος έξω από τις άκρες του αντικειμένου.
+second_title: Aspose.Sildes για .NET API Αναφορά
+description: Αμετάβλητο αντικείμενο που αντιπροσωπεύει ένα εφέ Glow, στο οποίο προστίθεται μια θολή περίγραμμμα χρώματος έξω από τις άκρες του αντικειμένου.
 type: docs
-weight: 3330
+weight: 3350
 url: /el/aspose.slides.effects/igloweffectivedata/
 ---
-## IGlowEffectiveData διεπαφή
+## διεπαφή IGlowEffectiveData
 
-Αμετάβλητο αντικείμενο που αντιπροσωπεύει ένα εφέ Glow, στο οποίο προστίθεται μια θολή περιγράμμιση χρώματος έξω από τις άκρες του αντικειμένου.
+Αμετάβλητο αντικείμενο που αντιπροσωπεύει ένα εφέ Glow, στο οποίο προστίθεται μια θολή περίγραμμα χρώματος γύρω από τις άκρες του αντικειμένου.
 
 ```csharp
 public interface IGlowEffectiveData : IEffectEffectiveData
@@ -18,9 +18,9 @@ public interface IGlowEffectiveData : IEffectEffectiveData
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/igloweffectivedata/asieffecteffectivedata) { get; } | Επιτρέπει την απόκτηση της βασικής διεπαφής IEffectEffectiveData. Μόνο ανάγνωση [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Color](../../aspose.slides.effects/igloweffectivedata/color) { get; } | Color. Μόνο ανάγνωση Color. |
-| [Radius](../../aspose.slides.effects/igloweffectivedata/radius) { get; } | Radius. Μόνο ανάγνωση Double. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/igloweffectivedata/asieffecteffectivedata) { get; } | Επιτρέπει την ανάκτηση της βασικής διεπαφής IEffectEffectiveData. Μόνο για ανάγνωση [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Color](../../aspose.slides.effects/igloweffectivedata/color) { get; } | Χρώμα. Μόνο για ανάγνωση Color. |
+| [Radius](../../aspose.slides.effects/igloweffectivedata/radius) { get; } | Ακτίνα. Μόνο για ανάγνωση Double. |
 
 ### Δείτε επίσης
 

@@ -1,14 +1,14 @@
 ---
 title: PresentationPlayer
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt den Player von Animationen dar, der mit der Presentation../aspose.slides/presentation verknüpft ist.
+description: Stellt den Player von Animationen dar, die mit dem Presentation../aspose.slides/presentation verknüpft sind.
 type: docs
-weight: 4390
+weight: 4410
 url: /de/aspose.slides.export/presentationplayer/
 ---
 ## PresentationPlayer Klasse
 
-Stellt den Player von Animationen dar, der mit dem [`Presentation`](../../aspose.slides/presentation) verknüpft ist.
+Stellt den Player von Animationen dar, die mit dem [`Presentation`](../../aspose.slides/presentation) verknüpft sind.
 
 ```csharp
 public class PresentationPlayer : IDisposable
@@ -24,13 +24,13 @@ public class PresentationPlayer : IDisposable
 
 | Name | Beschreibung |
 | --- | --- |
-| [FrameIndex](../../aspose.slides.export/presentationplayer/frameindex) { get; } | Gibt den Frame-Index zurück. |
+| [FrameIndex](../../aspose.slides.export/presentationplayer/frameindex) { get; } | Ruft den Frame-Index ab. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [Dispose](../../aspose.slides.export/presentationplayer/dispose)() | Gibt die Instanz des [`PresentationPlayer`](../presentationplayer) frei. |
+| [Dispose](../../aspose.slides.export/presentationplayer/dispose)() | Gibt die Instanz von [`PresentationPlayer`](../presentationplayer) frei. |
 
 ## Weitere Mitglieder
 

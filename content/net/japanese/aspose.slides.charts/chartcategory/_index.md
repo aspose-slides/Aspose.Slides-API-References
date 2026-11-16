@@ -3,7 +3,7 @@ title: ChartCategory
 second_title: Aspose.Sildes for .NET API リファレンス
 description: チャートカテゴリを表します。
 type: docs
-weight: 1270
+weight: 1280
 url: /ja/aspose.slides.charts/chartcategory/
 ---
 ## ChartCategory クラス
@@ -18,17 +18,18 @@ public class ChartCategory : IChartCategory
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsCell](../../aspose.slides.charts/chartcategory/ascell) { get; set; } | IChartDataCell オブジェクトを取得または設定します。カテゴリが複数レベルの場合、レベル "0" の IChartDataCell オブジェクトが使用されます。読み書き [`IChartDataCell`](../ichartdatacell). |
-| [AsLiteral](../../aspose.slides.charts/chartcategory/asliteral) { get; set; } | AsLiteral オブジェクトを取得または設定します。読み書き Object. |
-| [GroupingLevels](../../aspose.slides.charts/chartcategory/groupinglevels) { get; } | チャートカテゴリのグループ化レベルの値を管理するコンテナです。複数レベルのカテゴリは 1 つ以上のグループ化レベルを含みます。グループ化レベルのインデックスはゼロベースです。読み取り専用 [`IChartCategoryLevelsManager`](../ichartcategorylevelsmanager). |
-| [UseCell](../../aspose.slides.charts/chartcategory/usecell) { get; } | true の場合、AsCell プロパティが有効です。つまり、ワークシートはカテゴリの保存に使用されます（この場合は複数レベルのカテゴリをサポートします）。false の場合、AsLiteral プロパティが有効です。つまり、ワークシートはカテゴリの保存に使用されません（この場合は複数レベルのカテゴリをサポートしません）。読み取り専用 Boolean. |
-| [Value](../../aspose.slides.charts/chartcategory/value) { get; set; } | UseCell が true の場合、このプロパティは AsCell.Value プロパティを表します。UseCell が false の場合、このプロパティは AsLiteral プロパティを表します。読み書き Object. |
+| [AsCell](../../aspose.slides.charts/chartcategory/ascell) { get; set; } | IChartDataCell オブジェクトを取得または設定します。カテゴリがマルチレベルの場合、レベル「0」の IChartDataCell オブジェクトが使用されます。読み取り/書き込み [`IChartDataCell`](../ichartdatacell)。 |
+| [AsLiteral](../../aspose.slides.charts/chartcategory/asliteral) { get; set; } | AsLiteral オブジェクトを取得または設定します。読み取り/書き込み Object。 |
+| [CachedValue](../../aspose.slides.charts/chartcategory/cachedvalue) { get; } | チャートカテゴリのキャッシュされた値を取得します。読み取り専用 [`ICachedChartValue`](../icachedchartvalue)。 |
+| [GroupingLevels](../../aspose.slides.charts/chartcategory/groupinglevels) { get; } | チャートカテゴリのグループ化レベルの値を格納するマネージド コンテナです。マルチレベルのカテゴリは複数のグループ化レベルを含みます。グループ化レベルのインデックスはゼロベースです。読み取り専用 [`IChartCategoryLevelsManager`](../ichartcategorylevelsmanager)。 |
+| [UseCell](../../aspose.slides.charts/chartcategory/usecell) { get; } | true の場合、AsCell プロパティが有効です。つまり、ワークシートがカテゴリの保存に使用されます（このケースはマルチレベルのカテゴリをサポートします）。false の場合、AsLiteral プロパティが有効です。つまり、ワークシートはカテゴリの保存に使用されません（このケースはマルチレベルのカテゴリをサポートしません）。読み取り専用 Boolean。 |
+| [Value](../../aspose.slides.charts/chartcategory/value) { get; set; } | UseCell が true の場合、このプロパティは AsCell.Value プロパティを表します。UseCell が false の場合、このプロパティは AsLiteral プロパティを表します。読み取り/書き込み Object。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [Remove](../../aspose.slides.charts/chartcategory/remove)() | カテゴリをチャートから削除します。 |
+| [Remove](../../aspose.slides.charts/chartcategory/remove)() | チャートからカテゴリを削除します。 |
 
 ### 参照
 

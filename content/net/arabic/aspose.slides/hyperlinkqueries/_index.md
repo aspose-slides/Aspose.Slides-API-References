@@ -1,14 +1,14 @@
 ---
 title: HyperlinkQueries
-second_title: Aspose.Sildes - مرجع API لـ .NET
+second_title: مرجع API Aspose.Sildes لـ .NET
 description: توفر وصولًا سهلاً إلى الارتباطات التشعبية المضمنة.
 type: docs
-weight: 5160
+weight: 5180
 url: /ar/aspose.slides/hyperlinkqueries/
 ---
 ## HyperlinkQueries فئة
 
-توفر وصولًا سهلاً إلى الارتباطات التشعبية المحتواة.
+Provide easy access to contained hyperlinks.
 
 ```csharp
 public sealed class HyperlinkQueries : IHyperlinkQueries
@@ -18,12 +18,12 @@ public sealed class HyperlinkQueries : IHyperlinkQueries
 
 | الاسم | الوصف |
 | --- | --- |
-| [GetAnyHyperlinks](../../aspose.slides/hyperlinkqueries/getanyhyperlinks)() | الحصول على جميع الكائنات الفرعية IHyperlinkContainer التي تحتوي على HyperlinkMouseOver غير فارغ. مع كائن IHyperlinkContainer المعطى يمكنك إدارة ارتباطه التشعبي (قراءة، تحديث أو إزالة). انظر واجهة IHyperlinkContainer. |
-| [GetHyperlinkClicks](../../aspose.slides/hyperlinkqueries/gethyperlinkclicks)() | الحصول على جميع الكائنات الفرعية IHyperlinkContainer التي تحتوي على HyperlinkClick غير فارغ. مع كائن IHyperlinkContainer المعطى يمكنك إدارة ارتباطه التشعبي (قراءة، تحديث أو إزالة). انظر واجهة IHyperlinkContainer. |
-| [GetHyperlinkMouseOvers](../../aspose.slides/hyperlinkqueries/gethyperlinkmouseovers)() | الحصول على جميع الكائنات الفرعية IHyperlinkContainer التي تحتوي على HyperlinkMouseOver غير فارغ. مع كائن IHyperlinkContainer المعطى يمكنك إدارة ارتباطه التشعبي (قراءة، تحديث أو إزالة). انظر واجهة IHyperlinkContainer. |
-| [RemoveAllHyperlinks](../../aspose.slides/hyperlinkqueries/removeallhyperlinks)() | إزالة جميع ارتباطات HyperlinkClick وHyperlinkMouseOver الموجودة (في جميع الكائنات الفرعية IHyperlinkContainer). |
+| [GetAnyHyperlinks](../../aspose.slides/hyperlinkqueries/getanyhyperlinks)() | احصل على جميع الكائنات الفرعية IHyperlinkContainer التي لا تحتوي على قيمة فارغة HyperlinkMouseOver. باستخدام كائن IHyperlinkContainer المعطى يمكنك إدارة الارتباط التشعبي الخاص به (قراءة، تحديث أو إزالة). انظر واجهة IHyperlinkContainer. |
+| [GetHyperlinkClicks](../../aspose.slides/hyperlinkqueries/gethyperlinkclicks)() | احصل على جميع الكائنات الفرعية IHyperlinkContainer التي لا تحتوي على قيمة فارغة HyperlinkClick. باستخدام كائن IHyperlinkContainer المعطى يمكنك إدارة الارتباط التشعبي الخاص به (قراءة، تحديث أو إزالة). انظر واجهة IHyperlinkContainer. |
+| [GetHyperlinkMouseOvers](../../aspose.slides/hyperlinkqueries/gethyperlinkmouseovers)() | احصل على جميع الكائنات الفرعية IHyperlinkContainer التي لا تحتوي على قيمة فارغة HyperlinkMouseOver. باستخدام كائن IHyperlinkContainer المعطى يمكنك إدارة الارتباط التشعبي الخاص به (قراءة، تحديث أو إزالة). انظر واجهة IHyperlinkContainer. |
+| [RemoveAllHyperlinks](../../aspose.slides/hyperlinkqueries/removeallhyperlinks)() | يزيل جميع الارتباطات التشعبية HyperlinkClick و HyperlinkMouseOver الموجودة (في جميع الكائنات الفرعية IHyperlinkContainer). |
 
-### أنظر أيضاً
+### انظر أيضًا
 
 * واجهة [IHyperlinkQueries](../ihyperlinkqueries)
 * نطاق [Aspose.Slides](../../aspose.slides)

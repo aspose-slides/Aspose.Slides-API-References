@@ -1,9 +1,9 @@
 ---
 title: InvalidPasswordException
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: プレゼンテーション ファイル形式がサポートされていない場合にスローされる例外です。
 type: docs
-weight: 7620
+weight: 7640
 url: /ja/aspose.slides/invalidpasswordexception/
 ---
 ## InvalidPasswordException クラス
@@ -18,11 +18,11 @@ public class InvalidPasswordException : Exception
 
 | 名前 | 説明 |
 | --- | --- |
-| [InvalidPasswordException](invalidpasswordexception#constructor)() | デフォルトコンストラクタです。 |
-| [InvalidPasswordException](invalidpasswordexception#constructor_1)(string) | この例外にメッセージを追加できるコンストラクタです。 |
-| [InvalidPasswordException](invalidpasswordexception#constructor_2)(string, Exception) | メッセージと内部例外を含む例外のためのコンストラクタです。 |
+| [InvalidPasswordException](invalidpasswordexception#constructor)() | デフォルト コンストラクタ。 |
+| [InvalidPasswordException](invalidpasswordexception#constructor_1)(string) | この例外にメッセージを追加できるコンストラクタ。 |
+| [InvalidPasswordException](invalidpasswordexception#constructor_2)(string, Exception) | メッセージと埋め込み Exception を含む Exception のためのコンストラクタ。 |
 
-### 参照
+### 関連項目
 
 * 名前空間 [Aspose.Slides](../../aspose.slides)
 * アセンブリ [Aspose.Slides](../../)

@@ -1,9 +1,9 @@
 ---
 title: IVbaReferenceOleTypeLib
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: OLE Automation 형식 라이브러리 참조를 나타냅니다.
 type: docs
-weight: 11610
+weight: 11630
 url: /ko/aspose.slides.vba/ivbareferenceoletypelib/
 ---
 ## IVbaReferenceOleTypeLib 인터페이스
@@ -21,7 +21,7 @@ public interface IVbaReferenceOleTypeLib : IVbaReference
 | [AsIVbaReference](../../aspose.slides.vba/ivbareferenceoletypelib/asivbareference) { get; } | IVbaReference 인터페이스를 반환합니다. 읽기 전용 [`IVbaReference`](../ivbareference). |
 | [Libid](../../aspose.slides.vba/ivbareferenceoletypelib/libid) { get; set; } | Automation 형식 라이브러리의 식별자를 나타냅니다. 읽기/쓰기 String. |
 
-### 참조
+### 참고
 
 * 인터페이스 [IVbaReference](../ivbareference)
 * 네임스페이스 [Aspose.Slides.Vba](../../aspose.slides.vba)

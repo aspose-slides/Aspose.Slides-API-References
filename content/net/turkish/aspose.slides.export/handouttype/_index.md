@@ -1,14 +1,14 @@
 ---
 title: HandoutType
-second_title: Aspose.Sildes için .NET API Referansı
-description: Sayfa üzerine kaç slayt yerleştirileceğini ve hangi sırada olacağını belirtir.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Sayfa başına kaç slayt yerleştirileceğini ve hangi sırayla yerleştirileceğini belirtir.
 type: docs
-weight: 3850
+weight: 3870
 url: /tr/aspose.slides.export/handouttype/
 ---
-## HandoutType enum
+## HandoutType enum'i
 
-Sayfa üzerine kaç slayt yerleştirileceğini ve hangi sırada yer alacağını belirtir.
+Sayfa başına kaç slayt yerleştirileceğini ve hangi sırayla yerleştirileceğini belirtir.
 
 ```csharp
 public enum HandoutType
@@ -21,14 +21,14 @@ public enum HandoutType
 | Handouts1 | `0` | Sayfa başına bir slayt. |
 | Handouts2 | `1` | Sayfa başına iki slayt. |
 | Handouts3 | `2` | Sayfa başına üç slayt. |
-| Handouts4Horizontal | `3` | Sayfa başına dört slayt, yatay sırada. |
-| Handouts4Vertical | `4` | Sayfa başına dört slayt, dikey sırada. |
-| Handouts6Horizontal | `5` | Sayfa başına altı slayt, yatay sırada. |
-| Handouts6Vertical | `6` | Sayfa başına altı slayt, dikey sırada. |
-| Handouts9Horizontal | `7` | Sayfa başına dokuz slayt, yatay sırada. |
-| Handouts9Vertical | `8` | Sayfa başına dokuz slayt, dikey sırada. |
+| Handouts4Horizontal | `3` | Sayfa başına dört slayt yatay sırada. |
+| Handouts4Vertical | `4` | Sayfa başına dört slayt dikey sırada. |
+| Handouts6Horizontal | `5` | Sayfa başına altı slayt yatay sırada. |
+| Handouts6Vertical | `6` | Sayfa başına altı slayt dikey sırada. |
+| Handouts9Horizontal | `7` | Sayfa başına dokuz slayt yatay sırada. |
+| Handouts9Vertical | `8` | Sayfa başına dokuz slayt dikey sırada. |
 
-### Diğerlerine Bakın
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides.Export](../../aspose.slides.export)
 * derleme [Aspose.Slides](../../)

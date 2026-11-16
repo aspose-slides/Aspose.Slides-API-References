@@ -3,7 +3,7 @@ title: ChartDataPointLevel
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta il livello del punto dati. Si applica ai grafici Treemap e Sunburst.
 type: docs
-weight: 1350
+weight: 1360
 url: /it/aspose.slides.charts/chartdatapointlevel/
 ---
 ## ChartDataPointLevel classe

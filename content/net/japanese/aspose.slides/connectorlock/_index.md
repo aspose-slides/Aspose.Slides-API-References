@@ -1,14 +1,14 @@
 ---
 title: ConnectorLock
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 親コネクタで無効になっている操作を決定します。
+description: 親コネクタで無効化されている操作を決定します。
 type: docs
-weight: 2680
+weight: 2700
 url: /ja/aspose.slides/connectorlock/
 ---
 ## ConnectorLock クラス
 
-親コネクタ上で無効になっている操作を決定します。
+親コネクタで無効化されている操作を決定します。
 
 ```csharp
 public class ConnectorLock : BaseShapeLock, IConnectorLock
@@ -18,17 +18,17 @@ public class ConnectorLock : BaseShapeLock, IConnectorLock
 
 | 名前 | 説明 |
 | --- | --- |
-| [AdjustHandlesLocked](../../aspose.slides/connectorlock/adjusthandleslocked) { get; set; } | 調整値の変更が禁止されているかどうかを決定します。読み取り/書き込み Boolean。 |
-| [ArrowheadsLocked](../../aspose.slides/connectorlock/arrowheadslocked) { get; set; } | 矢じりの変更が禁止されているかどうかを決定します。読み取り/書き込み Boolean。 |
-| [AspectRatioLocked](../../aspose.slides/connectorlock/aspectratiolocked) { get; set; } | リサイズ時に形状がアスペクト比を保持する必要があるかどうかを決定します。読み取り/書き込み Boolean。 |
-| [EditPointsLocked](../../aspose.slides/connectorlock/editpointslocked) { get; set; } | この形状の輪郭の直接変更が禁止されているかどうかを決定します。読み取り/書き込み Boolean。 |
-| [GroupingLocked](../../aspose.slides/connectorlock/groupinglocked) { get; set; } | この形状をグループに追加することが禁止されているかどうかを決定します。読み取り/書き込み Boolean。 |
+| [AdjustHandlesLocked](../../aspose.slides/connectorlock/adjusthandleslocked) { get; set; } | 調整値の変更が禁止されているかどうかを決定します。読み書き Boolean。 |
+| [ArrowheadsLocked](../../aspose.slides/connectorlock/arrowheadslocked) { get; set; } | 矢じりの変更が禁止されているかどうかを決定します。読み書き Boolean。 |
+| [AspectRatioLocked](../../aspose.slides/connectorlock/aspectratiolocked) { get; set; } | リサイズ時に形状がアスペクト比を保持しなければならないかどうかを決定します。読み書き Boolean。 |
+| [EditPointsLocked](../../aspose.slides/connectorlock/editpointslocked) { get; set; } | この形状の輪郭の直接変更が禁止されているかどうかを決定します。読み書き Boolean。 |
+| [GroupingLocked](../../aspose.slides/connectorlock/groupinglocked) { get; set; } | この形状をグループに追加することが禁止されているかどうかを決定します。読み書き Boolean。 |
 | [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | すべてのロックフラグが無効になっている場合に true を返します。読み取り専用 Boolean。 |
-| [PositionMove](../../aspose.slides/connectorlock/positionmove) { get; set; } | この形状の移動が禁止されているかどうかを決定します。読み取り/書き込み Boolean。 |
-| [RotateLocked](../../aspose.slides/connectorlock/rotatelocked) { get; set; } | この形状の回転角の変更が禁止されているかどうかを決定します。読み取り/書き込み Boolean。 |
-| [SelectLocked](../../aspose.slides/connectorlock/selectlocked) { get; set; } | この形状の選択が禁止されているかどうかを決定します。読み取り/書き込み Boolean。 |
-| [ShapeTypeLocked](../../aspose.slides/connectorlock/shapetypelocked) { get; set; } | 形状タイプの変更が禁止されているかどうかを決定します。読み取り/書き込み Boolean。 |
-| [SizeLocked](../../aspose.slides/connectorlock/sizelocked) { get; set; } | この形状のサイズ変更が禁止されているかどうかを決定します。読み取り/書き込み Boolean。 |
+| [PositionMove](../../aspose.slides/connectorlock/positionmove) { get; set; } | この形状の移動が禁止されているかどうかを決定します。読み書き Boolean。 |
+| [RotateLocked](../../aspose.slides/connectorlock/rotatelocked) { get; set; } | この形状の回転角度の変更が禁止されているかどうかを決定します。読み書き Boolean。 |
+| [SelectLocked](../../aspose.slides/connectorlock/selectlocked) { get; set; } | この形状の選択が禁止されているかどうかを決定します。読み書き Boolean。 |
+| [ShapeTypeLocked](../../aspose.slides/connectorlock/shapetypelocked) { get; set; } | 形状タイプの変更が禁止されているかどうかを決定します。読み書き Boolean。 |
+| [SizeLocked](../../aspose.slides/connectorlock/sizelocked) { get; set; } | この形状のリサイズが禁止されているかどうかを決定します。読み書き Boolean。 |
 
 ### 参照
 

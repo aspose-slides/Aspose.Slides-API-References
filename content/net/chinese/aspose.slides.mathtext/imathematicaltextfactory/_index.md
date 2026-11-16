@@ -1,14 +1,14 @@
 ---
 title: IMathematicalTextFactory
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 允许创建 MathematicalText 元素
 type: docs
-weight: 8520
+weight: 8540
 url: /zh/aspose.slides.mathtext/imathematicaltextfactory/
 ---
 ## IMathematicalTextFactory 接口
 
-允许创建一个 MathematicalText 元素
+允许创建 MathematicalText 元素
 
 ```csharp
 public interface IMathematicalTextFactory
@@ -16,7 +16,7 @@ public interface IMathematicalTextFactory
 
 ## 方法
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
 | [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext)() | 创建空的 MathematicalText 元素 |
 | [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_1)(char) | 使用指定的值创建 MathematicalText 元素 |
@@ -27,7 +27,7 @@ public interface IMathematicalTextFactory
 
 用于 COM 兼容性
 
-### 另请参见
+### 另见
 
 * 命名空间 [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * 程序集 [Aspose.Slides](../../)

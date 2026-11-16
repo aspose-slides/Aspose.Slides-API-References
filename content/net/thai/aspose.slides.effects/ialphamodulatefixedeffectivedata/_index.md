@@ -1,14 +1,14 @@
 ---
 title: IAlphaModulateFixedEffectiveData
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: อ็อบเจกต์แบบไม่เปลี่ยนแปลงที่เป็นตัวแทนของเอฟเฟกต์ Alpha Modulate Fixed ค่าอัลฟ่าความทึบของเอฟเฟกต์จะถูกคูณด้วยเปอร์เซ็นต์คงที่.
+second_title: Aspose.Sildes สำหรับ .NET การอ้างอิง API
+description: อ็อบเจกต์ที่ไม่เปลี่ยนแปลงซึ่งแสดงถึงเอฟเฟกต์ Alpha Modulate Fixed ค่าความโปร่งใสของอัลฟาในเอฟเฟกต์จะถูกคูณด้วยเปอร์เซ็นต์คงที่.
 type: docs
-weight: 3130
+weight: 3150
 url: /th/aspose.slides.effects/ialphamodulatefixedeffectivedata/
 ---
-## IAlphaModulateFixedEffectiveData อินเทอร์เฟซ
+## IAlphaModulateFixedEffectiveData ส่วนต่อประสาน
 
-อ็อบเจกต์แบบไม่เปลี่ยนแปลงที่เป็นตัวแทนของเอฟเฟกต์ Alpha Modulate Fixed ค่า alpha (ความทึบ) ของเอฟเฟกต์จะถูกคูณด้วยเปอร์เซ็นต์คงที่.
+Immutable object which represents an Alpha Modulate Fixed effect. Effect alpha (opacity) values are multiplied by a fixed percentage.
 
 ```csharp
 public interface IAlphaModulateFixedEffectiveData : IEffectEffectiveData
@@ -18,12 +18,12 @@ public interface IAlphaModulateFixedEffectiveData : IEffectEffectiveData
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Amount](../../aspose.slides.effects/ialphamodulatefixedeffectivedata/amount) { get; } | ส่งคืนจำนวนของเอฟเฟกต์เป็นเปอร์เซ็นต์ อ่านอย่างเดียว Single. |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphamodulatefixedeffectivedata/asieffecteffectivedata) { get; } | อนุญาตให้รับ IEffectEffectiveData อินเทอร์เฟซพื้นฐาน อ่านอย่างเดียว [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Amount](../../aspose.slides.effects/ialphamodulatefixedeffectivedata/amount) { get; } | ส่งคืนจำนวนของเอฟเฟกต์เป็นเปอร์เซ็นต์. อ่านอย่างเดียว Single. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphamodulatefixedeffectivedata/asieffecteffectivedata) { get; } | อนุญาตให้รับ IEffectEffectiveData interface พื้นฐาน. อ่านอย่างเดียว [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
 ### ดูเพิ่มเติม
 
-* อินเทอร์เฟซ [IEffectEffectiveData](../ieffecteffectivedata)
+* ส่วนต่อประสาน [IEffectEffectiveData](../ieffecteffectivedata)
 * เนมสเปซ [Aspose.Slides.Effects](../../aspose.slides.effects)
 * แอสเซมบลี [Aspose.Slides](../../)
 

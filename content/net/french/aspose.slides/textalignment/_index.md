@@ -1,14 +1,14 @@
 ---
 title: TextAlignment
 second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Représente différents styles d'alignement du texte.
+description: Représente différents styles d'alignement de texte.
 type: docs
-weight: 10900
+weight: 10920
 url: /fr/aspose.slides/textalignment/
 ---
-## TextAlignment énumération
+## Énumération TextAlignment
 
-Représente différents styles d'alignement du texte.
+Représente différents styles d'alignement de texte.
 
 ```csharp
 public enum TextAlignment
@@ -16,7 +16,7 @@ public enum TextAlignment
 
 ### Valeurs
 
-| Name | Value | Description |
+| Nom | Valeur | Description |
 | --- | --- | --- |
 | NotDefined | `-1` | Alignement par défaut. |
 | Left | `0` | Alignement à gauche. |

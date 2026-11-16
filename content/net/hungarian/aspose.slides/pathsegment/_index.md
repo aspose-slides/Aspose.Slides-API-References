@@ -1,14 +1,14 @@
 ---
 title: PathSegment
-second_title: Aspose.Sildes .NET API Referencia
-description: A GeometryShape grafikus útvonalának szegmensét képviseli
+second_title: Aspose.Sildes .NET API-referencia
+description: A GeometryShape grafikus útvonalának szegmense
 type: docs
-weight: 9340
+weight: 9360
 url: /hu/aspose.slides/pathsegment/
 ---
 ## PathSegment osztály
 
-A GeometryShape grafikusi útvonalának szegmensét képviseli
+A GeometryShape grafikus útvonalának szegmense
 
 ```csharp
 public sealed class PathSegment : IPathSegment
@@ -18,8 +18,8 @@ public sealed class PathSegment : IPathSegment
 
 | Név | Leírás |
 | --- | --- |
-| [PathCommand](../../aspose.slides/pathsegment/pathcommand) { get; } | A szegmens útvonal típusa |
-| [SegmentData](../../aspose.slides/pathsegment/segmentdata) { get; } | A szegmens útvonal adatai |
+| [PathCommand](../../aspose.slides/pathsegment/pathcommand) { get; } | A szegmens út típusa |
+| [SegmentData](../../aspose.slides/pathsegment/segmentdata) { get; } | A szegmens út adatai |
 
 ### Lásd még
 

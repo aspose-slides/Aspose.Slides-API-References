@@ -1,9 +1,9 @@
 ---
 title: VbaReferenceOleTypeLib
-second_title: Aspose.Sildes dla .NET - Referencja API
+second_title: Aspose.Sildes dla .NET referencja API
 description: Reprezentuje odwołanie do biblioteki typów OLE Automation.
 type: docs
-weight: 11690
+weight: 11710
 url: /pl/aspose.slides.vba/vbareferenceoletypelib/
 ---
 ## VbaReferenceOleTypeLib klasa
@@ -24,8 +24,8 @@ public class VbaReferenceOleTypeLib : IVbaReferenceOleTypeLib
 
 | Nazwa | Opis |
 | --- | --- |
-| [Libid](../../aspose.slides.vba/vbareferenceoletypelib/libid) { get; set; } | Reprezentuje identyfikator biblioteki typów Automation. Odczyt/zapis String. |
-| [Name](../../aspose.slides.vba/vbareferenceoletypelib/name) { get; set; } | Reprezentuje nazwę odwołania do projektu VBA. Odczyt/zapis String. |
+| [Libid](../../aspose.slides.vba/vbareferenceoletypelib/libid) { get; set; } | Reprezentuje identyfikator biblioteki typów Automation. Read/write String. |
+| [Name](../../aspose.slides.vba/vbareferenceoletypelib/name) { get; set; } | Reprezentuje nazwę odwołania projektu VBA. Read/write String. |
 
 ### Zobacz także
 

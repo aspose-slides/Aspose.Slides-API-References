@@ -1,9 +1,9 @@
 ---
 title: PresentationPlayer.FrameTickHandler
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Aspose.Sildes для .NET API справочник
 description: Представляет обработчик тика кадра события FrameTick./presentationplayer/frametick.
 type: docs
-weight: 4400
+weight: 4420
 url: /ru/aspose.slides.export/presentationplayer.frametickhandler/
 ---
 ## PresentationPlayer.FrameTickHandler делегат

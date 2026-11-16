@@ -1,14 +1,14 @@
 ---
 title: IVbaReferenceOleTypeLib
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt eine OLE Automation Typbibliotheksreferenz dar.
+description: Stellt eine Referenz auf die OLE-Automation-Typbibliothek dar.
 type: docs
-weight: 11610
+weight: 11630
 url: /de/aspose.slides.vba/ivbareferenceoletypelib/
 ---
 ## IVbaReferenceOleTypeLib Schnittstelle
 
-Stellt eine OLE-Automation-Typbibliotheksreferenz dar.
+Stellt eine Referenz auf die OLE-Automatisierungs-Typbibliothek dar.
 
 ```csharp
 public interface IVbaReferenceOleTypeLib : IVbaReference
@@ -18,8 +18,8 @@ public interface IVbaReferenceOleTypeLib : IVbaReference
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIVbaReference](../../aspose.slides.vba/ivbareferenceoletypelib/asivbareference) { get; } | Gibt die IVbaReference-Schnittstelle zurück. Nur Lesezugriff [`IVbaReference`](../ivbareference). |
-| [Libid](../../aspose.slides.vba/ivbareferenceoletypelib/libid) { get; set; } | Stellt den Bezeichner einer Automation-Typbibliothek dar. Lese/Schreib String. |
+| [AsIVbaReference](../../aspose.slides.vba/ivbareferenceoletypelib/asivbareference) { get; } | Gibt die IVbaReference Schnittstelle zurück. Nur lesend [`IVbaReference`](../ivbareference). |
+| [Libid](../../aspose.slides.vba/ivbareferenceoletypelib/libid) { get; set; } | Stellt den Bezeichner einer Automatisierungs-Typbibliothek dar. Lese-/Schreib String. |
 
 ### Siehe auch
 

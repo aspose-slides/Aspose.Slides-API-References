@@ -1,14 +1,14 @@
 ---
 title: TransitionPattern
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: ระบุรูปแบบเรขาคณิตที่ต่อเรียงกันเพื่อเติมพื้นที่ขนาดใหญ่
+second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
+description: ระบุรูปแบบเรขาคณิตที่เรียงต่อกันเพื่อเติมพื้นที่ขนาดใหญ่ขึ้น.
 type: docs
-weight: 10400
+weight: 10420
 url: /th/aspose.slides.slideshow/transitionpattern/
 ---
-## TransitionPattern ประเภท enum
+## TransitionPattern enumeration
 
-ระบุรูปแบบเรขาคณิตที่ต่อกันเพื่อเติมพื้นที่ขนาดใหญ่
+ระบุรูปแบบเรขาคณิตที่เรียงต่อกันเพื่อเติมพื้นที่ขนาดใหญ่ขึ้น.
 
 ```csharp
 public enum TransitionPattern
@@ -18,8 +18,8 @@ public enum TransitionPattern
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
-| Diamond | `0` | รูปแบบไทล์รูปข้าวหลามต้อ |
-| Hexagon | `1` | รูปแบบไทล์รูปหกเหลี่ยม |
+| Diamond | `0` | รูปแบบไทล์แบบเพชร |
+| Hexagon | `1` | รูปแบบไทล์แบบหกเหลี่ยม |
 
 ### ดูเพิ่มเติม
 

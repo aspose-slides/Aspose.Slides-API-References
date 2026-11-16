@@ -1,9 +1,9 @@
 ---
 title: ISvgImage
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: SVG 이미지를 나타냅니다.
 type: docs
-weight: 7180
+weight: 7200
 url: /ko/aspose.slides/isvgimage/
 ---
 ## ISvgImage 인터페이스
@@ -16,16 +16,16 @@ public interface ISvgImage
 
 ## 속성
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
-| [BaseUri](../../aspose.slides/isvgimage/baseuri) { get; } | 지정된 SVG의 기본 URI를 반환합니다. 상대 링크를 해결하는 데 사용됩니다. 읽기 전용 String. |
-| [ExternalResourceResolver](../../aspose.slides/isvgimage/externalresourceresolver) { get; } | SVG 문서 가져오기 중 외부 리소스를 해결하는 데 사용되는 콜백 인터페이스를 반환합니다. 읽기 전용 [`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver). |
+| [BaseUri](../../aspose.slides/isvgimage/baseuri) { get; } | 지정된 SVG의 기본 URI를 반환합니다. 상대 링크를 확인하는 데 사용됩니다. 읽기 전용 String. |
+| [ExternalResourceResolver](../../aspose.slides/isvgimage/externalresourceresolver) { get; } | SVG 문서 가져오기 중 외부 리소스를 확인하는 데 사용되는 콜백 인터페이스를 반환합니다. 읽기 전용 [`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver). |
 | [SvgContent](../../aspose.slides/isvgimage/svgcontent) { get; } | SVG 콘텐츠를 반환합니다. 읽기 전용 String. |
 | [SvgData](../../aspose.slides/isvgimage/svgdata) { get; } | SVG 데이터를 반환합니다. 읽기 전용 Byte[]. |
 
 ## 메서드
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
 | [WriteAsEmf](../../aspose.slides/isvgimage/writeasemf)(Stream) | SVG 이미지를 EMF 파일로 저장합니다. |
 

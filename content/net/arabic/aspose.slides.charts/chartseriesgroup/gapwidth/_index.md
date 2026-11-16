@@ -1,18 +1,22 @@
 ---
 title: GapWidth
-second_title: Aspose.Sildes لـ .NET مرجع API
-description: يحدد المسافة بين مجموعات الأعمدة أو الأشرطة كنسبة مئوية من عرض العمود أو الشريط. قراءة/كتابة UInt16.
+second_title: Aspose.Sildes ل .NET مرجع API
+description: يقوم بالحصول أو تعيين المسافة بين مجموعات الأشرطة أو الأعمدة كنسبة مئوية من عرض العمود أو الشريط. يجب أن تكون القيمة بين 0 و 500. قراءة/كتابة UInt16.
 type: docs
 weight: 70
 url: /ar/aspose.slides.charts/chartseriesgroup/gapwidth/
 ---
-## ChartSeriesGroup.GapWidth الخاصية
+## ChartSeriesGroup.GapWidth خاصية
 
-يحدد المسافة بين مجموعات الأعمدة أو الأشرطة، كنسبة مئوية من عرض العمود أو الشريط. قراءة/كتابة UInt16.
+يقوم بالحصول أو تعيين المسافة بين مجموعات الأشرطة أو الأعمدة، كنسبة مئوية من عرض العمود أو الشريط. يجب أن تكون القيمة بين 0 و 500. قراءة/كتابة UInt16.
 
 ```csharp
 public ushort GapWidth { get; set; }
 ```
+
+### ملاحظات
+
+تطبق هذه الخاصية على سلاسل الأنواع التالية: الأنواع الفرعية لـ Bar (انظر أيضًا طريقة [`IsChartTypeBar`](../../charttypecharacterizer/ischarttypebar))، الأنواع الفرعية لـ Column (انظر أيضًا طريقة [`IsChartTypeColumn`](../../charttypecharacterizer/ischarttypecolumn))، BarOfPie، PieOfPie، BoxAndWhisker، Funnel، Histogram، Waterfall.
 
 ### انظر أيضًا
 

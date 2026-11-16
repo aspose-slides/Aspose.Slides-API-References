@@ -1,9 +1,9 @@
 ---
 title: IThreeDFormat
-second_title: Aspose.Sildes для .NET — справочник API
+second_title: Aspose.Sildes для .NET справочник API
 description: Представляет свойства 3-D.
 type: docs
-weight: 7330
+weight: 7350
 url: /ru/aspose.slides/ithreedformat/
 ---
 ## IThreeDFormat интерфейс
@@ -18,25 +18,25 @@ public interface IThreeDFormat : IThreeDParamSource
 
 | Имя | Описание |
 | --- | --- |
-| [AsIThreeDParamSource](../../aspose.slides/ithreedformat/asithreedparamsource) { get; } | Позволяет получить базовый интерфейс IThreeDParamSource. Только для чтения [`IThreeDParamSource`](../ithreedparamsource). |
-| [BevelBottom](../../aspose.slides/ithreedformat/bevelbottom) { get; } | Возвращает или задает тип нижней 3D фаски. Только для чтения [`IShapeBevel`](../ishapebevel). |
-| [BevelTop](../../aspose.slides/ithreedformat/beveltop) { get; } | Возвращает или задает тип верхней 3D фаски. Только для чтения [`IShapeBevel`](../ishapebevel). |
-| [Camera](../../aspose.slides/ithreedformat/camera) { get; } | Возвращает или задает настройки камеры. Только для чтения [`ICamera`](../icamera). |
-| [ContourColor](../../aspose.slides/ithreedformat/contourcolor) { get; } | Возвращает или задает цвет контура. Только для чтения [`IColorFormat`](../icolorformat). |
+| [AsIThreeDParamSource](../../aspose.slides/ithreedformat/asithreedparamsource) { get; } | Позволяет получить базовый интерфейс IThreeDParamSource. Только чтение [`IThreeDParamSource`](../ithreedparamsource). |
+| [BevelBottom](../../aspose.slides/ithreedformat/bevelbottom) { get; } | Возвращает или задает тип нижней 3D фаски. Только чтение [`IShapeBevel`](../ishapebevel). |
+| [BevelTop](../../aspose.slides/ithreedformat/beveltop) { get; } | Возвращает или задает тип верхней 3D фаски. Только чтение [`IShapeBevel`](../ishapebevel). |
+| [Camera](../../aspose.slides/ithreedformat/camera) { get; } | Возвращает или задает параметры камеры. Только чтение [`ICamera`](../icamera). |
+| [ContourColor](../../aspose.slides/ithreedformat/contourcolor) { get; } | Возвращает или задает цвет контура. Только чтение [`IColorFormat`](../icolorformat). |
 | [ContourWidth](../../aspose.slides/ithreedformat/contourwidth) { get; set; } | Возвращает или задает ширину 3D контура. Чтение/запись Double. |
-| [Depth](../../aspose.slides/ithreedformat/depth) { get; set; } | Возвращает или задает глубину 3D фигуры. Чтение/запись Double. |
-| [ExtrusionColor](../../aspose.slides/ithreedformat/extrusioncolor) { get; } | Возвращает или задает цвет вытеснения. Только для чтения [`IColorFormat`](../icolorformat). |
-| [ExtrusionHeight](../../aspose.slides/ithreedformat/extrusionheight) { get; set; } | Возвращает или задает высоту эффекта вытеснения. Чтение/запись Double. |
-| [LightRig](../../aspose.slides/ithreedformat/lightrig) { get; } | Возвращает или задает тип света. Только для чтения [`ILightRig`](../ilightrig). |
+| [Depth](../../aspose.slides/ithreedformat/depth) { get; set; } | Возвращает или задает глубину 3D формы. Чтение/запись Double. |
+| [ExtrusionColor](../../aspose.slides/ithreedformat/extrusioncolor) { get; } | Возвращает или задает цвет экструзии. Только чтение [`IColorFormat`](../icolorformat). |
+| [ExtrusionHeight](../../aspose.slides/ithreedformat/extrusionheight) { get; set; } | Возвращает или задает высоту эффекта экструзии. Чтение/запись Double. |
+| [LightRig](../../aspose.slides/ithreedformat/lightrig) { get; } | Возвращает или задает тип света. Только чтение [`ILightRig`](../ilightrig). |
 | [Material](../../aspose.slides/ithreedformat/material) { get; set; } | Возвращает или задает тип материала. Чтение/запись [`MaterialPresetType`](../materialpresettype). |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [GetEffective](../../aspose.slides/ithreedformat/geteffective)() | Получает эффективные данные форматирования 3-D с примененным наследованием. |
+| [GetEffective](../../aspose.slides/ithreedformat/geteffective)() | Получает эффективные данные 3-D форматирования с учётом наследования. |
 
-### Смотрите также
+### См. также
 
 * интерфейс [IThreeDParamSource](../ithreedparamsource)
 * пространство имён [Aspose.Slides](../../aspose.slides)

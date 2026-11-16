@@ -1,12 +1,12 @@
 ---
 title: Input
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Referencia de la API de Aspose.Sildes para .NET
 description: Representa una colección de plantillas de elementos de entrada.
 type: docs
-weight: 4630
+weight: 4650
 url: /es/aspose.slides.export.web/input/
 ---
-## Input clase
+## Clase Input
 
 Representa una colección de elementos de entrada (plantillas).
 
@@ -18,7 +18,7 @@ public sealed class Input
 
 | Nombre | Descripción |
 | --- | --- |
-| [AddTemplate&lt;TContextObject&gt;](../../aspose.slides.export.web/input/addtemplate)(string, string) | Añade una plantilla a la colección. |
+| [AddTemplate&lt;TContextObject&gt;](../../aspose.slides.export.web/input/addtemplate)(string, string) | Agrega una plantilla a la colección. |
 
 ### Ver también
 

@@ -3,10 +3,10 @@ title: Right
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
 description: Right. केवल पढ़ने योग्य Single.
 type: docs
-weight: 110
+weight: 120
 url: /hi/aspose.slides.charts/datalabel/right/
 ---
-## DataLabel.Right प्रॉपर्टी
+## DataLabel.Right गुण
 
 Right. केवल पढ़ने योग्य Single.
 

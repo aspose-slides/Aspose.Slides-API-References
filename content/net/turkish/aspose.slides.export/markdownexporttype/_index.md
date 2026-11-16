@@ -3,12 +3,12 @@ title: MarkdownExportType
 second_title: Aspose.Sildes için .NET API Referansı
 description: Belge oluşturma türü.
 type: docs
-weight: 4240
+weight: 4260
 url: /tr/aspose.slides.export/markdownexporttype/
 ---
-## MarkdownExportType enum
+## MarkdownExportType enumerasyonu
 
-Belge oluşturma türü.
+Belgeyi oluşturma türü.
 
 ```csharp
 public enum MarkdownExportType
@@ -43,7 +43,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Ayrıca Bakınız
+### İlgili
 
 * ad alanı [Aspose.Slides.Export](../../aspose.slides.export)
 * derleme [Aspose.Slides](../../)

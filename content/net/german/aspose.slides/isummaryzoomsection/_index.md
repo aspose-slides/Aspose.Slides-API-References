@@ -1,14 +1,14 @@
 ---
 title: ISummaryZoomSection
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Repräsentiert ein Summary Zoom Section-Objekt in einem Summary Zoom-Frame.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Stellt ein Summary Zoom Section-Objekt in einem Summary Zoom-Frame dar.
 type: docs
-weight: 7160
+weight: 7180
 url: /de/aspose.slides/isummaryzoomsection/
 ---
 ## ISummaryZoomSection Schnittstelle
 
-Repräsentiert ein Summary Zoom Section-Objekt in einem Summary Zoom-Frame.
+Stellt ein Summary Zoom Section-Objekt in einem Summary Zoom-Frame dar.
 
 ```csharp
 public interface ISummaryZoomSection : ISectionZoomFrame
@@ -18,7 +18,7 @@ public interface ISummaryZoomSection : ISectionZoomFrame
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsISectionZoomFrame](../../aspose.slides/isummaryzoomsection/asisectionzoomframe) { get; } | Gibt die ISectionZoomFrame Schnittstelle zurück. |
+| [AsISectionZoomFrame](../../aspose.slides/isummaryzoomsection/asisectionzoomframe) { get; } | Gibt ISectionZoomFrame Schnittstelle zurück. |
 | [Description](../../aspose.slides/isummaryzoomsection/description) { get; set; } | Gibt die Textbeschreibung des Summary Zoom Section-Objekts zurück. |
 | [Title](../../aspose.slides/isummaryzoomsection/title) { get; set; } | Gibt den Texttitel des Summary Zoom Section-Objekts zurück. |
 

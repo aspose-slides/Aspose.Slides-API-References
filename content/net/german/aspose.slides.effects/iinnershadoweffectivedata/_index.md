@@ -3,7 +3,7 @@ title: IInnerShadowEffectiveData
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Unveränderliches Objekt, das einen inneren Schatteneffekt darstellt.
 type: docs
-weight: 3430
+weight: 3450
 url: /de/aspose.slides.effects/iinnershadoweffectivedata/
 ---
 ## IInnerShadowEffectiveData Schnittstelle

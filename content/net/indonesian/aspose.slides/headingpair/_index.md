@@ -1,14 +1,14 @@
 ---
 title: HeadingPair
-second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili properti Heading pair dari dokumen. Ini menunjukkan nama grup dari bagian dokumen dan jumlah bagian dalam grup.
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Mewakili properti Heading pair dari dokumen. Ini menunjukkan nama grup bagian dokumen dan jumlah bagian dalam grup.
 type: docs
-weight: 5110
+weight: 5130
 url: /id/aspose.slides/headingpair/
 ---
 ## HeadingPair kelas
 
-Mewakili properti 'Heading pair' dari dokumen. Ini menunjukkan nama grup dari bagian dokumen dan jumlah bagian dalam grup.
+Mewakili properti 'Heading pair' dari dokumen. Ini menunjukkan nama grup bagian dokumen dan jumlah bagian dalam grup.
 
 ```csharp
 public sealed class HeadingPair : IHeadingPair
@@ -16,10 +16,10 @@ public sealed class HeadingPair : IHeadingPair
 
 ## Properti
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
 | [Count](../../aspose.slides/headingpair/count) { get; } | Mengembalikan jumlah bagian dalam grup. Baca-saja Int32. |
-| [Name](../../aspose.slides/headingpair/name) { get; } | Mengembalikan nama grup dari bagian dokumen. Baca-saja String. |
+| [Name](../../aspose.slides/headingpair/name) { get; } | Mengembalikan nama grup bagian dokumen. Baca-saja String. |
 
 ### Lihat Juga
 

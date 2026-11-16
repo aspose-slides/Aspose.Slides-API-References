@@ -1,14 +1,14 @@
 ---
 title: HSL
 second_title: Aspose.Sildes for .NET API 参考
-description: 表示一种 Hue/Saturation/Luminance 效果。每个 hue、saturation 和 luminance 都可以相对于其当前值进行调整。
+description: 表示一种色相/饱和度/亮度效果。色相、饱和度和亮度都可以相对于其当前值进行调节。
 type: docs
-weight: 3010
+weight: 3030
 url: /zh/aspose.slides.effects/hsl/
 ---
 ## HSL 类
 
-表示一种 Hue/Saturation/Luminance 效果。Hue、Saturation 和 Luminance 都可以相对于当前值进行调整。
+表示一种色相/饱和度/亮度效果。色相、饱和度和亮度都可以相对于其当前值进行调节。
 
 ```csharp
 public sealed class HSL : ImageTransformOperation, IHSL
@@ -26,9 +26,9 @@ public sealed class HSL : ImageTransformOperation, IHSL
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/hsl/equals)(object) | 确定指定的 [`HSL`](../hsl) 是否等于当前的 [`HSL`](../hsl)。 |
 | [GetEffective](../../aspose.slides.effects/hsl/geteffective)() | 获取在应用继承后的有效 Hue/Saturation/Luminance 效果数据。 |
-| override [GetHashCode](../../aspose.slides.effects/hsl/gethashcode)() | 为特定类型提供哈希函数。 |
+| override [GetHashCode](../../aspose.slides.effects/hsl/gethashcode)() | 作为特定类型的散列函数。 |
 
-### 参见
+### 另见
 
 * 类 [ImageTransformOperation](../imagetransformoperation)
 * 接口 [IHSL](../ihsl)

@@ -1,37 +1,37 @@
 ---
 title: AlphaModulateFixed
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: एक Alpha Modulate Fixed इफ़ेक्ट का प्रतिनिधित्व करता है। इफ़ेक्ट के अल्फा अपारदर्शिता मानों को एक निश्चित प्रतिशत से गुणा किया जाता है।
+description: एक Alpha Modulate Fixed प्रभाव का प्रतिनिधित्व करता है। प्रभाव के alpha अपारदर्शिता मानों को एक निश्चित प्रतिशत से गुणा किया जाता है।
 type: docs
-weight: 2890
+weight: 2910
 url: /hi/aspose.slides.effects/alphamodulatefixed/
 ---
-## AlphaModulateFixed क्लास
+## AlphaModulateFixed वर्ग
 
-Alpha Modulate Fixed इफ़ेक्ट का प्रतिनिधित्व करता है। इफ़ेक्ट अल्फा (अपारदर्शिता) मानों को एक निश्चित प्रतिशत से गुणा किया जाता है।
+Represents an Alpha Modulate Fixed effect. Effect alpha (opacity) values are multiplied by a fixed percentage.
 
 ```csharp
 public sealed class AlphaModulateFixed : ImageTransformOperation, IAlphaModulateFixed
 ```
 
-## गुण
+## गुणधर्म
 
-| नाम | विवरण |
+| Name | Description |
 | --- | --- |
-| [Amount](../../aspose.slides.effects/alphamodulatefixed/amount) { get; set; } | इफ़ेक्ट का प्रतिशत मान लौटाता है। पढ़ें/लिखें Single. |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | आधार IPresentationComponent इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल-पढ़ने [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [Amount](../../aspose.slides.effects/alphamodulatefixed/amount) { get; set; } | प्रभाव की मात्रा प्रतिशत में लौटाता है। पढ़ें/लिखें Single. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | आधार IPPresentationComponent इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
-## मेथड्स
+## विधियाँ
 
-| नाम | विवरण |
+| Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/alphamodulatefixed/equals)(object) | निर्धारित करता है कि निर्दिष्ट [`AlphaModulateFixed`](../alphamodulatefixed) वर्तमान [`AlphaModulateFixed`](../alphamodulatefixed) के बराबर है या नहीं। |
-| [GetEffective](../../aspose.slides.effects/alphamodulatefixed/geteffective)() | विरासत लागू किए हुए प्रभावी Alpha Modulate Fixed प्रभाव डेटा प्राप्त करता है। |
-| override [GetHashCode](../../aspose.slides.effects/alphamodulatefixed/gethashcode)() | किसी विशिष्ट प्रकार के लिए हैश फ़ंक्शन के रूप में कार्य करता है। |
+| [GetEffective](../../aspose.slides.effects/alphamodulatefixed/geteffective)() | विरासत लागू होने पर प्रभावी Alpha Modulate Fixed प्रभाव डेटा प्राप्त करता है। |
+| override [GetHashCode](../../aspose.slides.effects/alphamodulatefixed/gethashcode)() | किसी विशेष प्रकार के लिए हैश फ़ंक्शन के रूप में कार्य करता है। |
 
 ### संबंधित देखें
 
-* क्लास [ImageTransformOperation](../imagetransformoperation)
+* वर्ग [ImageTransformOperation](../imagetransformoperation)
 * इंटरफ़ेस [IAlphaModulateFixed](../ialphamodulatefixed)
 * नामस्थान [Aspose.Slides.Effects](../../aspose.slides.effects)
 * असेंबली [Aspose.Slides](../../)

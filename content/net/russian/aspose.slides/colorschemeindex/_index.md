@@ -1,12 +1,12 @@
 ---
 title: ColorSchemeIndex
-second_title: Aspose.Sildes для .NET справочника API
+second_title: Aspose.Sildes для .NET справочник API
 description: Представляет индекс в цветовой схеме.
 type: docs
-weight: 2550
+weight: 2570
 url: /ru/aspose.slides/colorschemeindex/
 ---
-## ColorSchemeIndex перечисление
+## Перечисление ColorSchemeIndex
 
 Представляет индекс в цветовой схеме.
 
@@ -29,7 +29,7 @@ public enum ColorSchemeIndex : byte
 | Accent5 | `8` | Акцент 5. |
 | Accent6 | `9` | Акцент 6. |
 | Hyperlink | `10` | Гиперссылка. |
-| FollowedHyperlink | `11` | Отслеживаемая гиперссылка. |
+| FollowedHyperlink | `11` | Последующая гиперссылка. |
 
 ### См. также
 

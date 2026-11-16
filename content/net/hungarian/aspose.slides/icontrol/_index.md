@@ -1,14 +1,14 @@
 ---
 title: IControl
 second_title: Aspose.Sildes .NET API referencia
-description: Egy ActiveX vezérlőt képvisel.
+description: Egy ActiveX vezérlőt reprezentál.
 type: docs
-weight: 5630
+weight: 5650
 url: /hu/aspose.slides/icontrol/
 ---
 ## IControl interfész
 
-Egy ActiveX vezérlőt képvisel.
+Az ActiveX vezérlőt reprezentálja.
 
 ```csharp
 public interface IControl : ISlideComponent
@@ -18,14 +18,14 @@ public interface IControl : ISlideComponent
 
 | Név | Leírás |
 | --- | --- |
-| [ActiveXControlBinary](../../aspose.slides/icontrol/activexcontrolbinary) { get; } | Meghatározza egy ActiveX vezérlő állandóságát, amikor a perzisztáláshoz használt módszer a PersistStream, a PersistStreamInit vagy a PersistStorage. |
+| [ActiveXControlBinary](../../aspose.slides/icontrol/activexcontrolbinary) { get; } | Megadja egy ActiveX vezérlő perzisztenciáját, amikor a perzisztáláshoz használt módszer a PersistStream, PersistStreamInit vagy PersistStorage. |
 | [AsISlideComponent](../../aspose.slides/icontrol/asislidecomponent) { get; } | Lehetővé teszi az alap ISlideComponent interfész lekérését. Csak olvasható [`ISlideComponent`](../islidecomponent). |
-| [ClassId](../../aspose.slides/icontrol/classid) { get; } | Lekérdezi ennek a vezérlőnek a class id-jét. Csak olvasható Guid. |
+| [ClassId](../../aspose.slides/icontrol/classid) { get; } | Lekéri ennek a vezérlőnek az osztályazonosítóját. Csak olvasható Guid. |
 | [Frame](../../aspose.slides/icontrol/frame) { get; set; } | Visszaadja vagy beállítja a vezérlő keretét. Olvasás/írás [`IShapeFrame`](../ishapeframe). |
 | [Name](../../aspose.slides/icontrol/name) { get; set; } | Visszaadja ennek a vezérlőnek a nevét. Olvasás/írás String. |
-| [Persistence](../../aspose.slides/icontrol/persistence) { get; } | Lekérdezi az ActiveX vezérlő tulajdonságainak tárolásához használt módszert. Csak olvasható [`PersistenceType`](../persistencetype). |
+| [Persistence](../../aspose.slides/icontrol/persistence) { get; } | Lekéri az ActiveX vezérlő tulajdonságainak tárolására használt módszert. Csak olvasható [`PersistenceType`](../persistencetype). |
 | [Properties](../../aspose.slides/icontrol/properties) { get; } | Visszaad egy gyűjteményt az ActiveX tulajdonságokról. Csak olvasható [`IControlPropertiesCollection`](../icontrolpropertiescollection). |
-| [SubstitutePictureFormat](../../aspose.slides/icontrol/substitutepictureformat) { get; } | Visszaadja a ControlEx képkitöltési tulajdonságok objektumát. Csak olvasható [`IPictureFillFormat`](../ipicturefillformat). |
+| [SubstitutePictureFormat](../../aspose.slides/icontrol/substitutepictureformat) { get; } | Visszaadja a ControlEx kép kitöltés tulajdonságok objektumát. Csak olvasható [`IPictureFillFormat`](../ipicturefillformat). |
 
 ### Lásd még
 

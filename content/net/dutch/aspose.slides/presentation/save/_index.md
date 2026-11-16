@@ -3,7 +3,7 @@ title: Save
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Slaat alle dia's van een presentatie op in een bestand met het opgegeven formaat.
 type: docs
-weight: 390
+weight: 400
 url: /nl/aspose.slides/presentation/save/
 ---
 ## Save(string, SaveFormat) {#save_5}
@@ -30,7 +30,7 @@ public void Save(string fname, SaveFormat format)
 
 ## Save(Stream, SaveFormat) {#save_1}
 
-Slaat alle dia's van een presentatie op in een stream met het opgegeven formaat.
+Slaat alle dia's van een presentatie op in een stream in het opgegeven formaat.
 
 ```csharp
 public void Save(Stream stream, SaveFormat format)
@@ -68,7 +68,7 @@ public void Save(string fname, SaveFormat format, ISaveOptions options)
 
 ## Save(Stream, SaveFormat, ISaveOptions) {#save_2}
 
-Slaat alle dia's van een presentatie op in een stream met het opgegeven formaat en met extra opties.
+Slaat alle dia's van een presentatie op in een stream in het opgegeven formaat met extra opties.
 
 ```csharp
 public void Save(Stream stream, SaveFormat format, ISaveOptions options)
@@ -78,11 +78,11 @@ public void Save(Stream stream, SaveFormat format, ISaveOptions options)
 | --- | --- | --- |
 | stream | Stream | Uitvoerstroom. |
 | format | SaveFormat | Formaat van de geëxporteerde gegevens. |
-| options | ISaveOptions | Extra formaatopties. |
+| options | ISaveOptions | Extra opmaakopties. |
 
-### Excepties
+### Uitzonderingen
 
-| exceptie | conditie |
+| Uitzondering | Voorwaarde |
 | --- | --- |
 | NotSupportedException | Als u probeert een versleuteld bestand op te slaan in een niet-Office 2007-2010 formaat |
 
@@ -98,7 +98,7 @@ public void Save(Stream stream, SaveFormat format, ISaveOptions options)
 
 ## Save(IXamlOptions) {#save}
 
-Slaat alle dia's van een presentatie op in een set bestanden die XAML-markup weergeven.
+Slaat alle dia's van een presentatie op in een reeks bestanden die XAML-markup vertegenwoordigen.
 
 ```csharp
 public void Save(IXamlOptions options)
@@ -106,7 +106,7 @@ public void Save(IXamlOptions options)
 
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| options | IXamlOptions | De XAML-formatopties. |
+| options | IXamlOptions | De XAML-opmaakopties. |
 
 ### Voorbeelden
 
@@ -129,7 +129,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 ## Save(string, int[], SaveFormat) {#save_7}
 
-Slaat opgegeven dia's van een presentatie op in een bestand met het opgegeven formaat, met behoud van paginanummers.
+Slaat opgegeven dia's van een presentatie op in een bestand met het opgegeven formaat waarbij paginanummers behouden blijven.
 
 ```csharp
 public void Save(string fname, int[] slides, SaveFormat format)
@@ -141,9 +141,9 @@ public void Save(string fname, int[] slides, SaveFormat format)
 | slides | Int32[] | Array met dia-posities, beginnend bij 1. |
 | format | SaveFormat | Formaat van de geëxporteerde gegevens. |
 
-### Excepties
+### Uitzonderingen
 
-| exceptie | conditie |
+| Uitzondering | Voorwaarde |
 | --- | --- |
 | ArgumentNullException | Wanneer de stream- of slides-parameter null is. |
 | ArgumentOutOfRangeException | Wanneer de slides-parameter onjuiste paginanummers bevat. |
@@ -160,7 +160,7 @@ public void Save(string fname, int[] slides, SaveFormat format)
 
 ## Save(string, int[], SaveFormat, ISaveOptions) {#save_8}
 
-Slaat opgegeven dia's van een presentatie op in een bestand met het opgegeven formaat, met behoud van paginanummers en extra opties.
+Slaat opgegeven dia's van een presentatie op in een bestand met het opgegeven formaat waarbij paginanummers behouden blijven.
 
 ```csharp
 public void Save(string fname, int[] slides, SaveFormat format, ISaveOptions options)
@@ -171,7 +171,7 @@ public void Save(string fname, int[] slides, SaveFormat format, ISaveOptions opt
 | fname | String | Pad naar het aangemaakte bestand. |
 | slides | Int32[] | Array met dia-posities, beginnend bij 1. |
 | format | SaveFormat | Formaat van de geëxporteerde gegevens. |
-| options | ISaveOptions | Extra formaatopties. |
+| options | ISaveOptions | Extra opmaakopties. |
 
 ### Zie ook
 
@@ -185,7 +185,7 @@ public void Save(string fname, int[] slides, SaveFormat format, ISaveOptions opt
 
 ## Save(Stream, int[], SaveFormat) {#save_3}
 
-Slaat opgegeven dia's van een presentatie op in een stream met het opgegeven formaat, met behoud van paginanummers.
+Slaat opgegeven dia's van een presentatie op in een stream in het opgegeven formaat waarbij paginanummers behouden blijven.
 
 ```csharp
 public void Save(Stream stream, int[] slides, SaveFormat format)
@@ -208,7 +208,7 @@ public void Save(Stream stream, int[] slides, SaveFormat format)
 
 ## Save(Stream, int[], SaveFormat, ISaveOptions) {#save_4}
 
-Slaat opgegeven dia's van een presentatie op in een stream met het opgegeven formaat, met behoud van paginanummers en extra opties.
+Slaat opgegeven dia's van een presentatie op in een stream in het opgegeven formaat waarbij paginanummers behouden blijven.
 
 ```csharp
 public void Save(Stream stream, int[] slides, SaveFormat format, ISaveOptions options)
@@ -219,11 +219,11 @@ public void Save(Stream stream, int[] slides, SaveFormat format, ISaveOptions op
 | stream | Stream | Uitvoerstroom. |
 | slides | Int32[] | Array met dia-posities, beginnend bij 1. |
 | format | SaveFormat | Formaat van de geëxporteerde gegevens. |
-| options | ISaveOptions | Extra formaatopties. |
+| options | ISaveOptions | Extra opmaakopties. |
 
-### Excepties
+### Uitzonderingen
 
-| exceptie | conditie |
+| Uitzondering | Voorwaarde |
 | --- | --- |
 | ArgumentNullException | Wanneer de stream- of slides-parameter null is. |
 | ArgumentOutOfRangeException | Wanneer de slides-parameter onjuiste paginanummers bevat. |
@@ -231,7 +231,7 @@ public void Save(Stream stream, int[] slides, SaveFormat format, ISaveOptions op
 
 ### Voorbeelden
 
-Het volgende voorbeeld toont hoe PowerPoint naar PNG kan worden geconverteerd.
+Het volgende voorbeeld toont hoe u PowerPoint naar PNG kunt converteren.
 
 ```csharp
 [C#]
@@ -245,7 +245,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-Het volgende voorbeeld toont hoe PowerPoint naar PNG kan worden geconverteerd met aangepaste afmetingen.
+Het volgende voorbeeld toont hoe u PowerPoint naar PNG kunt converteren met aangepaste afmetingen.
 
 ```csharp
 [C#]
@@ -261,7 +261,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-Het volgende voorbeeld toont hoe PowerPoint naar PNG kan worden geconverteerd met een aangepaste grootte.
+Het volgende voorbeeld toont hoe u PowerPoint naar PNG kunt converteren met een aangepaste grootte.
 
 ```csharp
 [C#]

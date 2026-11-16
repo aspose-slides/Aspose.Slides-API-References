@@ -3,7 +3,7 @@ title: IPictureFrame
 second_title: Referência da API Aspose.Sildes para .NET
 description: Representa um quadro com uma imagem dentro.
 type: docs
-weight: 6670
+weight: 6690
 url: /pt/aspose.slides/ipictureframe/
 ---
 ## IPictureFrame interface
@@ -19,13 +19,13 @@ public interface IPictureFrame : IGeometryShape
 | Nome | Descrição |
 | --- | --- |
 | [AsIGeometryShape](../../aspose.slides/ipictureframe/asigeometryshape) { get; } | Permite obter a interface base IGeometryShape. Somente leitura [`IGeometryShape`](../igeometryshape). |
-| [PictureFormat](../../aspose.slides/ipictureframe/pictureformat) { get; } | Retorna o objeto PictureFillFormat de um quadro de imagem. Somente leitura [`IPictureFillFormat`](../ipicturefillformat). |
+| [PictureFormat](../../aspose.slides/ipictureframe/pictureformat) { get; } | Retorna o objeto PictureFillFormat para um quadro de imagem. Somente leitura [`IPictureFillFormat`](../ipicturefillformat). |
 | [PictureFrameLock](../../aspose.slides/ipictureframe/pictureframelock) { get; } | Retorna os bloqueios do PictureFrame. Somente leitura [`IPictureFrameLock`](../ipictureframelock). |
-| [RelativeScaleHeight](../../aspose.slides/ipictureframe/relativescaleheight) { get; set; } | Retorna ou define a escala de altura (relativa ao tamanho original da imagem) do quadro de imagem. Valor 1.0 corresponde a 100%. Leitura/gravação Single. |
-| [RelativeScaleWidth](../../aspose.slides/ipictureframe/relativescalewidth) { get; set; } | Retorna ou define a escala de largura (relativa ao tamanho original da imagem) do quadro de imagem. Valor 1.0 corresponde a 100%. Leitura/gravação Single. |
-| [ShapeLock](../../aspose.slides/ipictureframe/shapelock) { get; } | Retorna os bloqueios da forma. Somente leitura [`IPictureFrameLock`](../ipictureframelock). |
+| [RelativeScaleHeight](../../aspose.slides/ipictureframe/relativescaleheight) { get; set; } | Retorna ou define a escala da altura (relativa ao tamanho original da imagem) do quadro de imagem. Valor 1.0 corresponde a 100%. Leitura/gravação Single. |
+| [RelativeScaleWidth](../../aspose.slides/ipictureframe/relativescalewidth) { get; set; } | Retorna ou define a escala da largura (relativa ao tamanho original da imagem) do quadro de imagem. Valor 1.0 corresponde a 100%. Leitura/gravação Single. |
+| [ShapeLock](../../aspose.slides/ipictureframe/shapelock) { get; } | Retorna os bloqueios da shape. Somente leitura [`IPictureFrameLock`](../ipictureframelock). |
 
-### Ver Também
+### Veja também
 
 * interface [IGeometryShape](../igeometryshape)
 * namespace [Aspose.Slides](../../aspose.slides)

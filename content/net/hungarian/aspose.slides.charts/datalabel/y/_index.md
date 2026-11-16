@@ -1,9 +1,9 @@
 ---
 title: Y
-second_title: Aspose.Sildes .NET API referenciája
-description: Visszaadja vagy beállítja egy cím y koordinátáját a diagram magasságának arányaként. Olvasás/írás Single.
+second_title: Aspose.Sildes .NET API Referencia
+description: Visszaadja vagy beállítja a cím y koordinátáját a diagram magasságának arányaként. Olvasás/írás Single.
 type: docs
-weight: 170
+weight: 180
 url: /hu/aspose.slides.charts/datalabel/y/
 ---
 ## DataLabel.Y tulajdonság

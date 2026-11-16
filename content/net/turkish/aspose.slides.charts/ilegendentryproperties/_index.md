@@ -1,14 +1,14 @@
 ---
 title: ILegendEntryProperties
-second_title: Aspose.Sildes .NET API Referansı
-description: Bir grafiğin gösterge özelliklerini temsil eder.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Bir grafiğin efsane özelliklerini temsil eder.
 type: docs
-weight: 2150
+weight: 2170
 url: /tr/aspose.slides.charts/ilegendentryproperties/
 ---
-## ILegendEntryProperties interface
+## ILegendEntryProperties arayüz
 
-Bir grafiğin gösterge özelliklerini temsil eder.
+Grafiğin efsane özelliklerini temsil eder.
 
 ```csharp
 public interface ILegendEntryProperties : IFormattedTextContainer
@@ -18,8 +18,8 @@ public interface ILegendEntryProperties : IFormattedTextContainer
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIFormattedTextContainer](../../aspose.slides.charts/ilegendentryproperties/asiformattedtextcontainer) { get; } | Temel IFormattedTextContainer arayüzünü almaya izin verir. Salt okunur [`IFormattedTextContainer`](../iformattedtextcontainer). |
-| [Hide](../../aspose.slides.charts/ilegendentryproperties/hide) { get; set; } | Gösterge girişinin gizleme bayrağını döndürür veya ayarlar. Okunur/yazılabilir Boolean. |
+| [AsIFormattedTextContainer](../../aspose.slides.charts/ilegendentryproperties/asiformattedtextcontainer) { get; } | Temel IFormattedTextContainer arayüzünü almayı sağlar. Salt okunur [`IFormattedTextContainer`](../iformattedtextcontainer). |
+| [Hide](../../aspose.slides.charts/ilegendentryproperties/hide) { get; set; } | Efsane girişinin gizleme bayrağını döndürür veya ayarlar. Okunabilir/Yazılabilir Boolean. |
 
 ### Ayrıca Bakınız
 

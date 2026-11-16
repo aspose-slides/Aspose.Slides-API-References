@@ -1,14 +1,14 @@
 ---
 title: UpDownBarsManager
 second_title: Aspose.Sildes for .NET API 참조
-description: 라인 차트 또는 주식 차트의 up/down 바에 대한 액세스를 제공합니다.
+description: Line 차트 또는 Stock 차트의 up/down 바에 대한 액세스를 제공합니다.
 type: docs
-weight: 2500
+weight: 2520
 url: /ko/aspose.slides.charts/updownbarsmanager/
 ---
 ## UpDownBarsManager 클래스
 
-Line- 또는 Stock- 차트의 up/down 바에 대한 액세스를 제공합니다.
+Line 차트 또는 Stock 차트의 up/down 바에 대한 액세스를 제공합니다.
 
 ```csharp
 public class UpDownBarsManager : DomObject<ChartSeriesGroup>, IUpDownBarsManager

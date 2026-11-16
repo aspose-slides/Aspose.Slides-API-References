@@ -1,14 +1,14 @@
 ---
 title: Conformance
 second_title: Aspose.Sildes için .NET API Referansı
-description: PresentationML belgesinin uyduğu uyumluluk sınıfını belirtir.
+description: PresentationML belgesinin uyumluluk sınıfını belirtir.
 type: docs
-weight: 3750
+weight: 3770
 url: /tr/aspose.slides.export/conformance/
 ---
-## Uyumluluk enum'ı
+## Uyumluluk sayımı
 
-PresentationML belgesinin uyduğu uyumluluk sınıfını belirtir.
+Belgenin uyumluluk sınıfını belirtir.
 
 ```csharp
 public enum Conformance
@@ -18,9 +18,9 @@ public enum Conformance
 
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
-| Ecma376_2006 | `0` | Belgenin ECMA376:2006 standardına uyduğunu belirtir. |
-| Iso29500_2008_Transitional | `1` | Belgenin ISO/IEC 29500:2008 Geçiş uyumluluk sınıfına uyduğunu belirtir. |
-| Iso29500_2008_Strict | `2` | Belgenin ISO/IEC 29500:2008 Katı uyumluluk sınıfına uyduğunu belirtir. |
+| Ecma376_2006 | `0` | Belgenin ECMA376:2006 standardına uygun olduğunu belirtir. |
+| Iso29500_2008_Transitional | `1` | Belgenin ISO/IEC 29500:2008 Transitional uyumluluk sınıfına uygun olduğunu belirtir. |
+| Iso29500_2008_Strict | `2` | Belgenin ISO/IEC 29500:2008 Strict uyumluluk sınıfına uygun olduğunu belirtir. |
 
 ### Ayrıca Bakınız
 

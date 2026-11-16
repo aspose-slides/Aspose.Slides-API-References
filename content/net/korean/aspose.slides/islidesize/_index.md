@@ -3,7 +3,7 @@ title: ISlideSize
 second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 슬라이드의 크기와 방향을 나타냅니다.
 type: docs
-weight: 7090
+weight: 7110
 url: /ko/aspose.slides/islidesize/
 ---
 ## ISlideSize 인터페이스
@@ -16,20 +16,20 @@ public interface ISlideSize
 
 ## 속성
 
-| Name | Description |
+| 이름 | 설명 |
 | --- | --- |
 | [Orientation](../../aspose.slides/islidesize/orientation) { get; set; } | 슬라이드 방향을 가져오거나 설정합니다. |
-| [Size](../../aspose.slides/islidesize/size) { get; } | 슬라이드 차원을 포인트 단위로 가져옵니다. |
+| [Size](../../aspose.slides/islidesize/size) { get; } | 포인트 단위로 슬라이드 차원을 가져옵니다. |
 | [Type](../../aspose.slides/islidesize/type) { get; } | 슬라이드 크기 유형을 가져옵니다. |
 
 ## 메서드
 
-| Name | Description |
+| 이름 | 설명 |
 | --- | --- |
-| [SetSize](../../aspose.slides/islidesize/setsize#setsize)(SlideSizeType, SlideSizeScaleType) | 슬라이드 크기를 유형으로 설정하고 기존 콘텐츠를 스케일링합니다. |
+| [SetSize](../../aspose.slides/islidesize/setsize#setsize)(SlideSizeType, SlideSizeScaleType) | 유형에 따라 슬라이드 크기를 설정하고 기존 콘텐츠를 스케일링합니다. |
 | [SetSize](../../aspose.slides/islidesize/setsize#setsize_1)(float, float, SlideSizeScaleType) | 슬라이드 차원을 명시적으로 설정하고 기존 콘텐츠를 스케일링합니다. |
 
-### 또 보기
+### 참조
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

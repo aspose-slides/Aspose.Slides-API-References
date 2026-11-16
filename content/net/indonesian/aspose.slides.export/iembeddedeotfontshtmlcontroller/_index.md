@@ -1,14 +1,14 @@
 ---
 title: IEmbeddedEotFontsHtmlController
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Pengontrol HTML font Eot yang disematkan.
+description: Pengontrol HTML untuk font Eot yang disematkan.
 type: docs
-weight: 3900
+weight: 3920
 url: /id/aspose.slides.export/iembeddedeotfontshtmlcontroller/
 ---
 ## IEmbeddedEotFontsHtmlController antarmuka
 
-Pengontrol HTML font Eot yang disematkan.
+Pengontrol HTML untuk font Eot yang disematkan.
 
 ```csharp
 public interface IEmbeddedEotFontsHtmlController : IHtmlFormattingController

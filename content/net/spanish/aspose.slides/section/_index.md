@@ -1,9 +1,9 @@
 ---
 title: Section
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Aspose.Sildes para la referencia de la API de .NET
 description: Representa una sección de diapositivas.
 type: docs
-weight: 9750
+weight: 9770
 url: /es/aspose.slides/section/
 ---
 ## Section clase
@@ -26,7 +26,7 @@ public class Section : DomObject<SectionCollection>, ISection
 
 | Name | Description |
 | --- | --- |
-| [GetSlidesListOfSection](../../aspose.slides/section/getslideslistofsection)() | Devuelve la lista de diapositivas de la sección. |
+| [GetSlidesListOfSection](../../aspose.slides/section/getslideslistofsection)() | Devuelve la lista de diapositivas en la sección. |
 
 ### Ver también
 

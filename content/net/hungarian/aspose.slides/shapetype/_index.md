@@ -1,14 +1,14 @@
 ---
 title: ShapeType
-second_title: Aspose.Sildes a .NET API referencia
-description: Előre definiált geometriai alakzatok geometriáját jelöli.
+second_title: Aspose.Sildes .NET API Referenciája
+description: Az előre definiált geometriai alakzatok geometriáját képviseli.
 type: docs
-weight: 9930
+weight: 9950
 url: /hu/aspose.slides/shapetype/
 ---
 ## ShapeType enumeráció
 
-Előre definiált geometriai alakzatok geometriáját jelöli.
+Az előre beállított geometriai alakzatok geometriáját jelöli.
 
 ```csharp
 public enum ShapeType
@@ -18,195 +18,195 @@ public enum ShapeType
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| NotDefined | `-1` | Nincs definiálva. |
-| Custom | `0` | Egyéni alakzat. Ez csak visszatérési érték. |
-| Line | `1` | Vonal alakzat. |
-| LineInverse | `2` | Inverz vonal alakzat. |
-| Triangle | `3` | Háromszög alakzat. |
-| RightTriangle | `4` | Derékszögű háromszög alakzat. |
-| Rectangle | `5` | Téglalap alakzat. |
-| Diamond | `6` | Gyémánt alakzat. |
-| Parallelogram | `7` | Parallelogramma alakzat. |
-| Trapezoid | `8` | Trapez alakzat. |
-| NonIsoscelesTrapezoid | `9` | Nem egyenlő szárú trapez alakzat. |
-| Pentagon | `10` | Ötszög alakzat. |
-| Hexagon | `11` | Hatszög alakzat. |
-| Heptagon | `12` | Hét szög alakzat. |
-| Octagon | `13` | Nyolcszög alakzat. |
-| Decagon | `14` | Tízszög alakzat. |
-| Dodecagon | `15` | Tizenháromszög alakzat. |
-| FourPointedStar | `16` | Négypontos csillag alakzat. |
-| FivePointedStar | `17` | Öttpontos csillag alakzat. |
-| SixPointedStar | `18` | Hatpontos csillag alakzat. |
-| SevenPointedStar | `19` | Héttpontos csillag alakzat. |
-| EightPointedStar | `20` | Nyolcpontos csillag alakzat. |
-| TenPointedStar | `21` | Tízpontos csillag alakzat. |
-| TwelvePointedStar | `22` | Tizenkétpontos csillag alakzat. |
-| SixteenPointedStar | `23` | Tizenhatpontos csillag alakzat. |
-| TwentyFourPointedStar | `24` | Huszonnégypontos csillag alakzat. |
-| ThirtyTwoPointedStar | `25` | Harminckétpontos csillag alakzat. |
-| RoundCornerRectangle | `26` | Lekerekített sarkú téglalap alakzat. |
-| OneRoundCornerRectangle | `27` | Egy lekerekített sarokkal rendelkező téglalap alakzat. |
-| TwoSamesideRoundCornerRectangle | `28` | Két egyoldali lekerekített sarokkal rendelkező téglalap alakzat. |
-| TwoDiagonalRoundCornerRectangle | `29` | Két átlós lekerekített sarokkal rendelkező téglalap alakzat. |
-| OneSnipOneRoundCornerRectangle | `30` | Egy levágott és egy lekerekített sarokkal rendelkező téglalap alakzat. |
-| OneSnipCornerRectangle | `31` | Egy levágott sarokkal rendelkező téglalap alakzat. |
-| TwoSamesideSnipCornerRectangle | `32` | Két egyoldali levágott sarokkal rendelkező téglalap alakzat. |
-| TwoDiagonalSnipCornerRectangle | `33` | Két átlós levágott sarokkal rendelkező téglalap alakzat. |
-| Plaque | `34` | Plaque alakzat. |
-| Ellipse | `35` | Ellipszis alakzat. |
-| Teardrop | `36` | Könnycsepp alakzat. |
-| HomePlate | `37` | Home Plate alakzat. |
-| Chevron | `38` | Chevron alakzat. |
-| PieWedge | `39` | Körszelet alakzat. |
-| Pie | `40` | Kördiagram alakzat. |
-| BlockArc | `41` | Blokkív alakzat. |
-| Donut | `42` | Donut alakzat. |
-| NoSmoking | `43` | Nem dohányozás alakzat. |
-| RightArrow | `44` | Jobbra mutató nyíl alakzat. |
-| LeftArrow | `45` | Balra mutató nyíl alakzat. |
-| UpArrow | `46` | Felfelé mutató nyíl alakzat. |
-| DownArrow | `47` | Lefelé mutató nyíl alakzat. |
-| StripedRightArrow | `48` | Csíkozott jobbra mutató nyíl alakzat. |
-| NotchedRightArrow | `49` | Rendelt (vágott) jobbra mutató nyíl alakzat. |
-| BentUpArrow | `50` | Hajlított felfelé nyíl alakzat. |
-| LeftRightArrow | `51` | Bal-jobb nyíl alakzat. |
-| UpDownArrow | `52` | Fel-le nyíl alakzat. |
-| LeftUpArrow | `53` | Balra-felfelé nyíl alakzat. |
-| LeftRightUpArrow | `54` | Bal-jobb-felfelé nyíl alakzat. |
-| QuadArrow | `55` | Negyedik (kvadrát) nyíl alakzat. |
-| CalloutLeftArrow | `56` | Hívóballon bal nyíl alakzat. |
-| CalloutRightArrow | `57` | Hívóballon jobb nyíl alakzat. |
-| CalloutUpArrow | `58` | Hívóballon fel nyíl alakzat. |
-| CalloutDownArrow | `59` | Hívóballon le nyíl alakzat. |
-| CalloutLeftRightArrow | `60` | Hívóballon bal-jobb nyíl alakzat. |
-| CalloutUpDownArrow | `61` | Hívóballon fel-le nyíl alakzat. |
-| CalloutQuadArrow | `62` | Hívóballon négyszög nyíl alakzat. |
-| BentArrow | `63` | Hajlított nyíl alakzat. |
-| UTurnArrow | `64` | U-törés nyíl alakzat. |
-| CircularArrow | `65` | Körkörös nyíl alakzat. |
-| LeftCircularArrow | `66` | Balra körkörös nyíl alakzat. |
-| LeftRightCircularArrow | `67` | Bal-jobb körkörös nyíl alakzat. |
-| CurvedRightArrow | `68` | Ívelt jobbra nyíl alakzat. |
-| CurvedLeftArrow | `69` | Ívelt balra nyíl alakzat. |
-| CurvedUpArrow | `70` | Ívelt felfelé nyíl alakzat. |
-| CurvedDownArrow | `71` | Ívelt lefelé nyíl alakzat. |
-| SwooshArrow | `72` | Swoosh nyíl alakzat. |
-| Cube | `73` | Kocka alakzat. |
-| Can | `74` | Konzerv alakzat. |
-| LightningBolt | `75` | Villám alakzat. |
-| Heart | `76` | Szív alakzat. |
-| Sun | `77` | Nap alakzat. |
-| Moon | `78` | Hold alakzat. |
-| SmileyFace | `79` | Mosolygó arc alakzat. |
-| IrregularSeal1 | `80` | Rendellenes pecsét 1 alakzat. |
-| IrregularSeal2 | `81` | Rendellenes pecsét 2 alakzat. |
-| FoldedCorner | `82` | Hajtott sarok alakzat. |
-| Bevel | `83` | Sík (borost) alakzat. |
-| Frame | `84` | Keret alakzat. |
-| HalfFrame | `85` | Félkeret alakzat. |
-| Corner | `86` | Sarok alakzat. |
-| DiagonalStripe | `87` | Átlós csík alakzat. |
-| Chord | `88` | Húr alakzat. |
-| CurvedArc | `89` | Ívelt ív alakzat. |
-| LeftBracket | `90` | Bal oldali zárójel alakzat. |
-| RightBracket | `91` | Jobb oldali zárójel alakzat. |
-| LeftBrace | `92` | Bal oldali kapcsos zárójel alakzat. |
-| RightBrace | `93` | Jobb oldali kapcsos zárójel alakzat. |
-| BracketPair | `94` | Zárójeles pár alakzat. |
-| BracePair | `95` | Kapcsos pár alakzat. |
-| StraightConnector1 | `96` | Egyszerű csatlakozó 1 alakzat. |
-| BentConnector2 | `97` | Hajlított csatlakozó 2 alakzat. |
-| BentConnector3 | `98` | Hajlított csatlakozó 3 alakzat. |
-| BentConnector4 | `99` | Hajlított csatlakozó 4 alakzat. |
-| BentConnector5 | `100` | Hajlított csatlakozó 5 alakzat. |
-| CurvedConnector2 | `101` | Ívelt csatlakozó 2 alakzat. |
-| CurvedConnector3 | `102` | Ívelt csatlakozó 3 alakzat. |
-| CurvedConnector4 | `103` | Ívelt csatlakozó 4 alakzat. |
-| CurvedConnector5 | `104` | Ívelt csatlakozó 5 alakzat. |
-| Callout1 | `105` | Hívóballon 1 alakzat. |
-| Callout2 | `106` | Hívóballon 2 alakzat. |
-| Callout3 | `107` | Hívóballon 3 alakzat. |
-| Callout1WithAccent | `108` | Hívóballon 1 akcentussal alakzat. |
-| Callout2WithAccent | `109` | Hívóballon 2 akcentussal alakzat. |
-| Callout3WithAccent | `110` | Hívóballon 3 akcentussal alakzat. |
-| Callout1WithBorder | `111` | Hívóballon 1 szegéllel alakzat. |
-| Callout2WithBorder | `112` | Hívóballon 2 szegéllel alakzat. |
-| Callout3WithBorder | `113` | Hívóballon 3 szegéllel alakzat. |
-| Callout1WithBorderAndAccent | `114` | Hívóballon 1 szegéllel és akcentussal alakzat. |
-| Callout2WithBorderAndAccent | `115` | Hívóballon 2 szegéllel és akcentussal alakzat. |
-| Callout3WithBorderAndAccent | `116` | Hívóballon 3 szegéllel és akcentussal alakzat. |
-| CalloutWedgeRectangle | `117` | Hívóballon téglalapos szelet alakzat. |
-| CalloutWedgeRoundRectangle | `118` | Hívóballon lekerekített téglalap alakzat. |
-| CalloutWedgeEllipse | `119` | Hívóballon ellipszis alakzat. |
-| CalloutCloud | `120` | Hívóballon felhő alakzat. |
-| Cloud | `121` | Felhő alakzat. |
-| Ribbon | `122` | Szalag alakzat. |
-| Ribbon2 | `123` | Szalag 2 alakzat. |
-| EllipseRibbon | `124` | Ellipszis szalag alakzat. |
-| EllipseRibbon2 | `125` | Ellipszis szalag 2 alakzat. |
-| LeftRightRibbon | `126` | Bal-jobb szalag alakzat. |
-| VerticalScroll | `127` | Függőleges görgetés alakzat. |
-| HorizontalScroll | `128` | Vízszintes görgetés alakzat. |
-| Wave | `129` | Hullám alakzat. |
-| DoubleWave | `130` | Kettős hullám alakzat. |
-| Plus | `131` | Plusz jel alakzat. |
-| ProcessFlow | `132` | Folyamatáram alakzat. |
-| DecisionFlow | `133` | Döntési folyamat alakzat. |
-| InputOutputFlow | `134` | Bemenet-kimenet folyamat alakzat. |
-| PredefinedProcessFlow | `135` | Előre definiált folyamat alakzat. |
-| InternalStorageFlow | `136` | Belső tárolás folyamat alakzat. |
-| DocumentFlow | `137` | Dokumentum folyamat alakzat. |
-| MultiDocumentFlow | `138` | Többdokumentumos folyamat alakzat. |
-| TerminatorFlow | `139` | Terminátor folyamat alakzat. |
-| PreparationFlow | `140` | Előkészítő folyamat alakzat. |
-| ManualInputFlow | `141` | Manuális bemenet folyamat alakzat. |
-| ManualOperationFlow | `142` | Manuális művelet folyamat alakzat. |
-| ConnectorFlow | `143` | Csatoló folyamat alakzat. |
-| PunchedCardFlow | `144` | Lyukasztott kártya folyamat alakzat. |
-| PunchedTapeFlow | `145` | Lyukasztott szalag folyamat alakzat. |
-| SummingJunctionFlow | `146` | Összeadó csomópont folyamat alakzat. |
-| OrFlow | `147` | Vagy folyamat alakzat. |
-| CollateFlow | `148` | Gyűjtő folyamat alakzat. |
-| SortFlow | `149` | Rendező folyamat alakzat. |
-| ExtractFlow | `150` | Kivonó folyamat alakzat. |
-| MergeFlow | `151` | Egyesítő folyamat alakzat. |
-| OfflineStorageFlow | `152` | Offline tárolás folyamat alakzat. |
-| OnlineStorageFlow | `153` | Online tárolás folyamat alakzat. |
-| MagneticTapeFlow | `154` | Mágneses szalag folyamat alakzat. |
-| MagneticDiskFlow | `155` | Mágneses lemez folyamat alakzat. |
-| MagneticDrumFlow | `156` | Mágneses dob folyamat alakzat. |
-| DisplayFlow | `157` | Kijelző folyamat alakzat. |
-| DelayFlow | `158` | Késleltetés folyamat alakzat. |
-| AlternateProcessFlow | `159` | Alternatív folyamat alakzat. |
-| OffPageConnectorFlow | `160` | Oldalon kívüli csatlakozó folyamat alakzat. |
-| BlankButton | `161` | Üres gomb alakzat. |
-| HomeButton | `162` | Home gomb alakzat. |
-| HelpButton | `163` | Súgó gomb alakzat. |
-| InformationButton | `164` | Információ gomb alakzat. |
-| ForwardOrNextButton | `165` | Előre vagy következő gomb alakzat. |
-| BackOrPreviousButton | `166` | Vissza vagy előző gomb alakzat. |
-| EndButton | `167` | Befejezés gomb alakzat. |
-| BeginningButton | `168` | Kezdő gomb alakzat. |
-| ReturnButton | `169` | Visszatérés gomb alakzat. |
-| DocumentButton | `170` | Dokumentum gomb alakzat. |
-| SoundButton | `171` | Hang gomb alakzat. |
-| MovieButton | `172` | Film gomb alakzat. |
-| Gear6 | `173` | 6 fogaskerék alakzat. |
-| Gear9 | `174` | 9 fogaskerék alakzat. |
-| Funnel | `175` | Tölcsér alakzat. |
-| PlusMath | `176` | Plusz matematikai alakzat. |
-| MinusMath | `177` | Minusz matematikai alakzat. |
-| MultiplyMath | `178` | Szorzó matematikai alakzat. |
-| DivideMath | `179` | Osztó matematikai alakzat. |
-| EqualMath | `180` | Egyenlő matematikai alakzat. |
-| NotEqualMath | `181` | Nem egyenlő matematikai alakzat. |
-| CornerTabs | `182` | Sarokfülek alakzat. |
-| SquareTabs | `183` | Négyzetes fülek alakzat. |
-| PlaqueTabs | `184` | Plaque fülek alakzat. |
-| ChartX | `185` | Diagram X alakzat. |
-| ChartStar | `186` | Diagram csillag alakzat. |
-| ChartPlus | `187` | Diagram plusz alakzat. |
+| NotDefined | `-1` | Not defined. |
+| Custom | `0` | Custom shape. This is return-only value. |
+| Line | `1` | Line Shape. |
+| LineInverse | `2` | Line Inverse Shape. |
+| Triangle | `3` | Triangle Shape. |
+| RightTriangle | `4` | Right Triangle Shape. |
+| Rectangle | `5` | Rectangle Shape. |
+| Diamond | `6` | Diamond Shape. |
+| Parallelogram | `7` | Parallelogram Shape. |
+| Trapezoid | `8` | Trapezoid Shape. |
+| NonIsoscelesTrapezoid | `9` | Non-Isosceles Trapezoid Shape. |
+| Pentagon | `10` | Pentagon Shape. |
+| Hexagon | `11` | Hexagon Shape. |
+| Heptagon | `12` | Heptagon Shape. |
+| Octagon | `13` | Octagon Shape. |
+| Decagon | `14` | Decagon Shape. |
+| Dodecagon | `15` | Dodecagon Shape. |
+| FourPointedStar | `16` | Four Pointed Star Shape. |
+| FivePointedStar | `17` | Five Pointed Star Shape. |
+| SixPointedStar | `18` | Six Pointed Star Shape. |
+| SevenPointedStar | `19` | Seven Pointed Star Shape. |
+| EightPointedStar | `20` | Eight Pointed Star Shape. |
+| TenPointedStar | `21` | Ten Pointed Star Shape. |
+| TwelvePointedStar | `22` | Twelve Pointed Star Shape. |
+| SixteenPointedStar | `23` | Sixteen Pointed Star Shape. |
+| TwentyFourPointedStar | `24` | Twenty Four Pointed Star Shape. |
+| ThirtyTwoPointedStar | `25` | Thirty Two Pointed Star Shape. |
+| RoundCornerRectangle | `26` | Round Corner Rectangle Shape. |
+| OneRoundCornerRectangle | `27` | One Round Corner Rectangle Shape. |
+| TwoSamesideRoundCornerRectangle | `28` | Two Same-side Round Corner Rectangle Shape. |
+| TwoDiagonalRoundCornerRectangle | `29` | Two Diagonal Round Corner Rectangle Shape. |
+| OneSnipOneRoundCornerRectangle | `30` | One Snip One Round Corner Rectangle Shape. |
+| OneSnipCornerRectangle | `31` | One Snip Corner Rectangle Shape. |
+| TwoSamesideSnipCornerRectangle | `32` | Two Same-side Snip Corner Rectangle Shape. |
+| TwoDiagonalSnipCornerRectangle | `33` | Two Diagonal Snip Corner Rectangle Shape. |
+| Plaque | `34` | Plaque Shape. |
+| Ellipse | `35` | Ellipse Shape. |
+| Teardrop | `36` | Teardrop Shape. |
+| HomePlate | `37` | Home Plate Shape. |
+| Chevron | `38` | Chevron Shape. |
+| PieWedge | `39` | Pie Wedge Shape. |
+| Pie | `40` | Pie Shape. |
+| BlockArc | `41` | Block Arc Shape. |
+| Donut | `42` | Donut Shape. |
+| NoSmoking | `43` | No Smoking Shape. |
+| RightArrow | `44` | Right Arrow Shape. |
+| LeftArrow | `45` | Left Arrow Shape. |
+| UpArrow | `46` | Up Arrow Shape. |
+| DownArrow | `47` | Down Arrow Shape. |
+| StripedRightArrow | `48` | Striped Right Arrow Shape. |
+| NotchedRightArrow | `49` | Notched Right Arrow Shape. |
+| BentUpArrow | `50` | Bent Up Arrow Shape. |
+| LeftRightArrow | `51` | Left Right Arrow Shape. |
+| UpDownArrow | `52` | Up Down Arrow Shape. |
+| LeftUpArrow | `53` | Left Up Arrow Shape. |
+| LeftRightUpArrow | `54` | Left Right Up Arrow Shape. |
+| QuadArrow | `55` | Quad-Arrow Shape. |
+| CalloutLeftArrow | `56` | Callout Left Arrow Shape. |
+| CalloutRightArrow | `57` | Callout Right Arrow Shape. |
+| CalloutUpArrow | `58` | Callout Up Arrow Shape. |
+| CalloutDownArrow | `59` | Callout Down Arrow Shape. |
+| CalloutLeftRightArrow | `60` | Callout Left Right Arrow Shape. |
+| CalloutUpDownArrow | `61` | Callout Up Down Arrow Shape. |
+| CalloutQuadArrow | `62` | Callout Quad-Arrow Shape. |
+| BentArrow | `63` | Bent Arrow Shape. |
+| UTurnArrow | `64` | U-Turn Arrow Shape. |
+| CircularArrow | `65` | Circular Arrow Shape. |
+| LeftCircularArrow | `66` | Left Circular Arrow Shape. |
+| LeftRightCircularArrow | `67` | Left Right Circular Arrow Shape. |
+| CurvedRightArrow | `68` | Curved Right Arrow Shape. |
+| CurvedLeftArrow | `69` | Curved Left Arrow Shape. |
+| CurvedUpArrow | `70` | Curved Up Arrow Shape. |
+| CurvedDownArrow | `71` | Curved Down Arrow Shape. |
+| SwooshArrow | `72` | Swoosh Arrow Shape. |
+| Cube | `73` | Cube Shape. |
+| Can | `74` | Can Shape. |
+| LightningBolt | `75` | Lightning Bolt Shape. |
+| Heart | `76` | Heart Shape. |
+| Sun | `77` | Sun Shape. |
+| Moon | `78` | Moon Shape. |
+| SmileyFace | `79` | Smiley Face Shape. |
+| IrregularSeal1 | `80` | Irregular Seal 1 Shape. |
+| IrregularSeal2 | `81` | Irregular Seal 2 Shape. |
+| FoldedCorner | `82` | Folded Corner Shape. |
+| Bevel | `83` | Bevel Shape. |
+| Frame | `84` | Frame Shape. |
+| HalfFrame | `85` | Half Frame Shape. |
+| Corner | `86` | Corner Shape. |
+| DiagonalStripe | `87` | Diagonal Stripe Shape. |
+| Chord | `88` | Chord Shape. |
+| CurvedArc | `89` | Curved Arc Shape. |
+| LeftBracket | `90` | Left Bracket Shape. |
+| RightBracket | `91` | Right Bracket Shape. |
+| LeftBrace | `92` | Left Brace Shape. |
+| RightBrace | `93` | Right Brace Shape. |
+| BracketPair | `94` | Bracket Pair Shape. |
+| BracePair | `95` | Brace Pair Shape. |
+| StraightConnector1 | `96` | Straight Connector 1 Shape. |
+| BentConnector2 | `97` | Bent Connector 2 Shape. |
+| BentConnector3 | `98` | Bent Connector 3 Shape. |
+| BentConnector4 | `99` | Bent Connector 4 Shape. |
+| BentConnector5 | `100` | Bent Connector 5 Shape. |
+| CurvedConnector2 | `101` | Curved Connector 2 Shape. |
+| CurvedConnector3 | `102` | Curved Connector 3 Shape. |
+| CurvedConnector4 | `103` | Curved Connector 4 Shape. |
+| CurvedConnector5 | `104` | Curved Connector 5 Shape. |
+| Callout1 | `105` | Callout 1 Shape. |
+| Callout2 | `106` | Callout 2 Shape. |
+| Callout3 | `107` | Callout 3 Shape. |
+| Callout1WithAccent | `108` | Callout 1 with Accent Shape. |
+| Callout2WithAccent | `109` | Callout 2 with Accent Shape. |
+| Callout3WithAccent | `110` | Callout 3 with Accent Shape. |
+| Callout1WithBorder | `111` | Callout 1 with Border Shape. |
+| Callout2WithBorder | `112` | Callout 2 with Border Shape. |
+| Callout3WithBorder | `113` | Callout 3 with Border Shape. |
+| Callout1WithBorderAndAccent | `114` | Callout 1 with Border and Accent Shape. |
+| Callout2WithBorderAndAccent | `115` | Callout 2 with Border and Accent Shape. |
+| Callout3WithBorderAndAccent | `116` | Callout 3 with Border and Accent Shape. |
+| CalloutWedgeRectangle | `117` | Callout Wedge Rectangle Shape. |
+| CalloutWedgeRoundRectangle | `118` | Callout Wedge Round Rectangle Shape. |
+| CalloutWedgeEllipse | `119` | Callout Wedge Ellipse Shape. |
+| CalloutCloud | `120` | Callout Cloud Shape. |
+| Cloud | `121` | Cloud Shape. |
+| Ribbon | `122` | Ribbon Shape. |
+| Ribbon2 | `123` | Ribbon 2 Shape. |
+| EllipseRibbon | `124` | Ellipse Ribbon Shape. |
+| EllipseRibbon2 | `125` | Ellipse Ribbon 2 Shape. |
+| LeftRightRibbon | `126` | Left Right Ribbon Shape. |
+| VerticalScroll | `127` | Vertical Scroll Shape. |
+| HorizontalScroll | `128` | Horizontal Scroll Shape. |
+| Wave | `129` | Wave Shape. |
+| DoubleWave | `130` | Double Wave Shape. |
+| Plus | `131` | Plus Shape. |
+| ProcessFlow | `132` | Process Flow Shape. |
+| DecisionFlow | `133` | Decision Flow Shape. |
+| InputOutputFlow | `134` | Input Output Flow Shape. |
+| PredefinedProcessFlow | `135` | Predefined Process Flow Shape. |
+| InternalStorageFlow | `136` | Internal Storage Flow Shape. |
+| DocumentFlow | `137` | Document Flow Shape. |
+| MultiDocumentFlow | `138` | Multi-Document Flow Shape. |
+| TerminatorFlow | `139` | Terminator Flow Shape. |
+| PreparationFlow | `140` | Preparation Flow Shape. |
+| ManualInputFlow | `141` | Manual Input Flow Shape. |
+| ManualOperationFlow | `142` | Manual Operation Flow Shape. |
+| ConnectorFlow | `143` | Connector Flow Shape. |
+| PunchedCardFlow | `144` | Punched Card Flow Shape. |
+| PunchedTapeFlow | `145` | Punched Tape Flow Shape. |
+| SummingJunctionFlow | `146` | Summing Junction Flow Shape. |
+| OrFlow | `147` | Or Flow Shape. |
+| CollateFlow | `148` | Collate Flow Shape. |
+| SortFlow | `149` | Sort Flow Shape. |
+| ExtractFlow | `150` | Extract Flow Shape. |
+| MergeFlow | `151` | Merge Flow Shape. |
+| OfflineStorageFlow | `152` | Offline Storage Flow Shape. |
+| OnlineStorageFlow | `153` | Online Storage Flow Shape. |
+| MagneticTapeFlow | `154` | Magnetic Tape Flow Shape. |
+| MagneticDiskFlow | `155` | Magnetic Disk Flow Shape. |
+| MagneticDrumFlow | `156` | Magnetic Drum Flow Shape. |
+| DisplayFlow | `157` | Display Flow Shape. |
+| DelayFlow | `158` | Delay Flow Shape. |
+| AlternateProcessFlow | `159` | Alternate Process Flow Shape. |
+| OffPageConnectorFlow | `160` | Off-Page Connector Flow Shape. |
+| BlankButton | `161` | Blank Button Shape. |
+| HomeButton | `162` | Home Button Shape. |
+| HelpButton | `163` | Help Button Shape. |
+| InformationButton | `164` | Information Button Shape. |
+| ForwardOrNextButton | `165` | Forward or Next Button Shape. |
+| BackOrPreviousButton | `166` | Back or Previous Button Shape. |
+| EndButton | `167` | End Button Shape. |
+| BeginningButton | `168` | Beginning Button Shape. |
+| ReturnButton | `169` | Return Button Shape. |
+| DocumentButton | `170` | Document Button Shape. |
+| SoundButton | `171` | Sound Button Shape. |
+| MovieButton | `172` | Movie Button Shape. |
+| Gear6 | `173` | Gear 6 Shape. |
+| Gear9 | `174` | Gear 9 Shape. |
+| Funnel | `175` | Funnel Shape. |
+| PlusMath | `176` | Plus Math Shape. |
+| MinusMath | `177` | Minus Math Shape. |
+| MultiplyMath | `178` | Multiply Math Shape. |
+| DivideMath | `179` | Divide Math Shape. |
+| EqualMath | `180` | Equal Math Shape. |
+| NotEqualMath | `181` | Not Equal Math Shape. |
+| CornerTabs | `182` | Corner Tabs Shape. |
+| SquareTabs | `183` | Square Tabs Shape. |
+| PlaqueTabs | `184` | Plaque Tabs Shape. |
+| ChartX | `185` | Chart X Shape. |
+| ChartStar | `186` | Chart Star Shape. |
+| ChartPlus | `187` | Chart Plus Shape. |
 
 ### Lásd még
 

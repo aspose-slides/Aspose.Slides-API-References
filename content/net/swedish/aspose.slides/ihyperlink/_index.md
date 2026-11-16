@@ -3,7 +3,7 @@ title: IHyperlink
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en hyperlänk.
 type: docs
-weight: 6110
+weight: 6130
 url: /sv/aspose.slides/ihyperlink/
 ---
 ## IHyperlink gränssnitt
@@ -19,22 +19,22 @@ public interface IHyperlink
 | Namn | Beskrivning |
 | --- | --- |
 | [ActionType](../../aspose.slides/ihyperlink/actiontype) { get; } | Returnerar typen av HyperLinkEx:s åtgärd. Skrivskyddad [`HyperlinkActionType`](../hyperlinkactiontype). |
-| [ColorSource](../../aspose.slides/ihyperlink/colorsource) { get; set; } | Representerar källan till hyperlänkens färg - antingen stilar eller portionsformat. Läs/skriv [`HyperlinkColorSource`](../hyperlinkcolorsource). |
-| [ExternalUrl](../../aspose.slides/ihyperlink/externalurl) { get; } | Anger den externa URL. Om detta egendom blir icke-null så blir egendomen TargetSlide null. Skrivskyddad String. |
-| [ExternalUrlOriginal](../../aspose.slides/ihyperlink/externalurloriginal) { get; } | Representerar en hyperlänk som är inställd för denna portion utan hänsyn till portionens faktiska innehåll. PowerPoint beter sig specifikt för länkar och deras motsvarande text i en portion. Det tillåter att skapa text för hyperlänken i form av en giltig URL, som skiljer sig från den faktiska adressen för länken. I detta fall, när du visar länken i redigeringsfönstret, kommer den att ändras för att matcha textportionen. Denna egendom representerar hyperlänkens ursprungliga värde. |
-| [HighlightClick](../../aspose.slides/ihyperlink/highlightclick) { get; set; } | Avgör om hyperlänken ska markeras vid klick. Läs/skriv Boolean. |
-| [History](../../aspose.slides/ihyperlink/history) { get; set; } | Avgör om målet för den överordnade hyperlänken ska läggas till i en lista över visade hyperlänkar när den anropas. Läs/skriv Boolean. |
-| [Sound](../../aspose.slides/ihyperlink/sound) { get; set; } | Representerar uppspelning av ljudet för hyperlänken. Läs/skriv [`IAudio`](../iaudio). |
-| [StopSoundOnClick](../../aspose.slides/ihyperlink/stopsoundonclick) { get; set; } | Avgör om ljudet ska stoppas vid hyperlänksklick. Läs/skriv Boolean. |
-| [TargetFrame](../../aspose.slides/ihyperlink/targetframe) { get; set; } | Returnerar ramen inom den överordnade HTML-frameset för målet för den överordnade hyperlänken när en sådan finns. Läs/skriv String. |
-| [TargetSlide](../../aspose.slides/ihyperlink/targetslide) { get; } | Om HyperlinkEx pekar på en specifik bild returneras den bilden. Om egendomen blir icke-null så blir egendomen ExternalUrl null. Skrivskyddad [`ISlide`](../islide). |
-| [Tooltip](../../aspose.slides/ihyperlink/tooltip) { get; set; } | Returnerar strängen som kan visas i ett användargränssnitt som associerad med den överordnade hyperlänken. Läs/skriv String. |
+| [ColorSource](../../aspose.slides/ihyperlink/colorsource) { get; set; } | Representerar källan för hyperlänkens färg – antingen stilar eller portionsformat. Läs/skriv [`HyperlinkColorSource`](../hyperlinkcolorsource). |
+| [ExternalUrl](../../aspose.slides/ihyperlink/externalurl) { get; } | Anger den externa URL:en. Om den här egenskapen blir icke-null blir egenskapen TargetSlide null. Skrivskyddad String. |
+| [ExternalUrlOriginal](../../aspose.slides/ihyperlink/externalurloriginal) { get; } | Representerar en hyperlänk som är inställd för den här delen utan hänsyn till den faktiska innehållet i delen. PowerPoint beter sig specifikt för länkar och deras motsvarande text i en del. Det tillåter att skapa text för hyperlänken i form av en giltig URL, som skiljer sig från den faktiska adressen för länken. I detta fall, när du visar länken i redigeringsfönstret, kommer den att ändras för att matcha textdelen. Denna egenskap representerar hyperlänkens ursprungliga värde. |
+| [HighlightClick](../../aspose.slides/ihyperlink/highlightclick) { get; set; } | Bestämmer om hyperlänken ska markeras vid klick. Läs/skriv Boolean. |
+| [History](../../aspose.slides/ihyperlink/history) { get; set; } | Bestämmer om målet för den överordnade hyperlänken ska läggas till i en lista över visade hyperlänkar när den anropas. Läs/skriv Boolean. |
+| [Sound](../../aspose.slides/ihyperlink/sound) { get; set; } | Representerar ljuduppspelning för hyperlänken. Läs/skriv [`IAudio`](../iaudio). |
+| [StopSoundOnClick](../../aspose.slides/ihyperlink/stopsoundonclick) { get; set; } | Bestämmer om ljudet ska stoppas vid hyperlänkens klick. Läs/skriv Boolean. |
+| [TargetFrame](../../aspose.slides/ihyperlink/targetframe) { get; set; } | Returnerar ramen inom det överordnade HTML-ramverket för målet för den överordnade hyperlänken när en sådan finns. Läs/skriv String. |
+| [TargetSlide](../../aspose.slides/ihyperlink/targetslide) { get; } | Om HyperlinkEx pekar på en specifik bild returneras den här bilden. Om egenskapen blir icke-null blir egenskapen ExternalUrl null. Skrivskyddad [`ISlide`](../islide). |
+| [Tooltip](../../aspose.slides/ihyperlink/tooltip) { get; set; } | Returnerar strängen som kan visas i ett användargränssnitt i samband med den överordnade hyperlänken. Läs/skriv String. |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Equals](../../aspose.slides/ihyperlink/equals)(IHyperlink) | Avgör om de två Hyperlink-instanserna är lika. |
+| [Equals](../../aspose.slides/ihyperlink/equals)(IHyperlink) | Bestämmer om de två Hyperlink-instanserna är lika. |
 
 ### Se också
 

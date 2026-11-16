@@ -1,14 +1,14 @@
 ---
 title: LineStyle
-second_title: Aspose.Sildes için .NET API Referansı
-description: Bir satırın stilini temsil eder.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Bir çizginin stilini temsil eder.
 type: docs
-weight: 7820
+weight: 7840
 url: /tr/aspose.slides/linestyle/
 ---
-## LineStyle enum
+## LineStyle enumerasyonu
 
-Bir satırın stilini temsil eder.
+Bir çizginin stilini temsil eder.
 
 ```csharp
 public enum LineStyle : sbyte
@@ -25,7 +25,7 @@ public enum LineStyle : sbyte
 | ThinThick | `3` |  |
 | ThickBetweenThin | `4` |  |
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: MathNaryOperatorFactory
 second_title: Aspose.Sildes for .NET API リファレンス
-description: IMathNaryOperator を作成できます
+description: IMathNaryOperator の作成を可能にします
 type: docs
-weight: 8880
+weight: 8900
 url: /ja/aspose.slides.mathtext/mathnaryoperatorfactory/
 ---
 ## MathNaryOperatorFactory クラス
 
-Allows to create IMathNaryOperator
+IMathNaryOperator の作成を可能にします
 
 ```csharp
 public class MathNaryOperatorFactory : IMathNaryOperatorFactory

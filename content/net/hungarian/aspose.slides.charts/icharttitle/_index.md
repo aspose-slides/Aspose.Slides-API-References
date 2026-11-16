@@ -1,14 +1,14 @@
 ---
 title: IChartTitle
 second_title: Aspose.Sildes .NET API referencia
-description: A diagramcím tulajdonságait képviseli.
+description: A diagramcím tulajdonságait ábrázolja.
 type: docs
-weight: 2000
+weight: 2020
 url: /hu/aspose.slides.charts/icharttitle/
 ---
 ## IChartTitle interfész
 
-A diagramcím tulajdonságait képviseli.
+A diagramcím tulajdonságait ábrázolja.
 
 ```csharp
 public interface IChartTitle : IActualLayout, ILayoutable, IOverridableText
@@ -18,10 +18,10 @@ public interface IChartTitle : IActualLayout, ILayoutable, IOverridableText
 
 | Név | Leírás |
 | --- | --- |
-| [AsILayoutable](../../aspose.slides.charts/icharttitle/asilayoutable) { get; } | Lehetővé teszi a bázis ILayoutable interfész lekérését. Csak olvasható [`ILayoutable`](../ilayoutable). |
-| [AsIOverridableText](../../aspose.slides.charts/icharttitle/asioverridabletext) { get; } | Lehetővé teszi a bázis IOverridableText interfész lekérését. Csak olvasható [`IOverridableText`](../ioverridabletext). |
+| [AsILayoutable](../../aspose.slides.charts/icharttitle/asilayoutable) { get; } | Lehetővé teszi az alap ILayoutable interfész lekérését. Csak olvasható [`ILayoutable`](../ilayoutable). |
+| [AsIOverridableText](../../aspose.slides.charts/icharttitle/asioverridabletext) { get; } | Lehetővé teszi az alap IOverridableText interfész lekérését. Csak olvasható [`IOverridableText`](../ioverridabletext). |
 | [Format](../../aspose.slides.charts/icharttitle/format) { get; } | Visszaadja a cím kitöltés, vonal és effektus stílusait. Csak olvasható [`IFormat`](../iformat). |
-| [Overlay](../../aspose.slides.charts/icharttitle/overlay) { get; set; } | Meghatározza, hogy a diagram többi eleme átfedheti-e a címet. Olvasható/írható Boolean. |
+| [Overlay](../../aspose.slides.charts/icharttitle/overlay) { get; set; } | Meghatározza, hogy a többi diagram elem átfedheti-e a címet. Olvasási/írási Boolean. |
 
 ### Lásd még
 

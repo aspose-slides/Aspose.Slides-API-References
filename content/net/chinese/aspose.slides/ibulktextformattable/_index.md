@@ -1,9 +1,9 @@
 ---
 title: IBulkTextFormattable
-second_title: Aspose.Sildes .NET API 参考
-description: 表示一个能够批量设置子文本元素格式的对象。
+second_title: Aspose.Sildes for .NET API 参考
+description: 表示一个可以批量设置子文本元素格式的对象。
 type: docs
-weight: 5380
+weight: 5400
 url: /zh/aspose.slides/ibulktextformattable/
 ---
 ## IBulkTextFormattable 接口
@@ -13,14 +13,13 @@ url: /zh/aspose.slides/ibulktextformattable/
 ```csharp
 public interface IBulkTextFormattable
 ```
-
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat)(IParagraphFormat) | 将已定义的段落格式属性设置为所有元素的段落。 |
-| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat_1)(IPortionFormat) | 将已定义的部分格式属性设置为所有元素的部分。 |
-| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat_2)(ITextFrameFormat) | 将已定义的文本框格式属性设置为所有元素的文本框。 |
+| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat)(IParagraphFormat) | 设置已定义的段落格式属性到所有元素的段落。 |
+| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat_1)(IPortionFormat) | 设置已定义的部分格式属性到所有元素的部分。 |
+| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat_2)(ITextFrameFormat) | 设置已定义的文本框格式属性到所有元素的文本框。 |
 
 ### 另请参见
 

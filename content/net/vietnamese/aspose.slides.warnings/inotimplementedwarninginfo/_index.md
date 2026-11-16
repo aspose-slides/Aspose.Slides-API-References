@@ -1,14 +1,14 @@
 ---
 title: INotImplementedWarningInfo
-second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Biểu thị một cảnh báo về tính năng chưa được triển khai đã biết và sẽ không được triển khai trong tương lai gần.
+second_title: Aspose.Sildes cho Tham chiếu API .NET
+description: Biểu diễn một cảnh báo về tính năng đã biết chưa được triển khai và sẽ không được triển khai trong tương lai gần.
 type: docs
-weight: 11770
+weight: 11790
 url: /vi/aspose.slides.warnings/inotimplementedwarninginfo/
 ---
 ## INotImplementedWarningInfo giao diện
 
-Biểu thị một cảnh báo về tính năng chưa được triển khai đã biết và sẽ không được triển khai trong tương lai gần.
+Biểu diễn một cảnh báo về tính năng đã biết chưa được triển khai và sẽ không được triển khai trong tương lai gần.
 
 ```csharp
 public interface INotImplementedWarningInfo : IWarningInfo

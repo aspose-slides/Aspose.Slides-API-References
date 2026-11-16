@@ -1,12 +1,12 @@
 ---
 title: IOverrideTheme
-second_title: Aspose.Sildes για .NET Αναφορά API
+second_title: Αναφορά API Aspose.Sildes για .NET
 description: Αντιπροσωπεύει ένα θέμα αντικατάστασης.
 type: docs
-weight: 11340
+weight: 11360
 url: /el/aspose.slides.theme/ioverridetheme/
 ---
-## IOverrideTheme διεπαφή
+## IOverrideTheme διασύνδεση
 
 Αντιπροσωπεύει ένα θέμα αντικατάστασης.
 
@@ -19,27 +19,27 @@ public interface IOverrideTheme : ITheme
 | Όνομα | Περιγραφή |
 | --- | --- |
 | [AsITheme](../../aspose.slides.theme/ioverridetheme/asitheme) { get; } | Επιτρέπει την λήψη της βασικής διεπαφής ITheme. Μόνο για ανάγνωση [`ITheme`](../itheme). |
-| [IsEmpty](../../aspose.slides.theme/ioverridetheme/isempty) { get; } | Η τιμή True σημαίνει ότι το ColorScheme, FontScheme, FormatScheme είναι null και οποιαδήποτε αντικατάσταση με αυτό το αντικείμενο θέματος είναι απενεργοποιημένη. Μόνο για ανάγνωση Boolean. |
+| [IsEmpty](../../aspose.slides.theme/ioverridetheme/isempty) { get; } | Η αληθής τιμή σημαίνει ότι τα ColorScheme, FontScheme, FormatScheme είναι null και οποιαδήποτε αντικατάσταση με αυτό το αντικείμενο θέματος είναι απενεργοποιημένη. Μόνο για ανάγνωση Boolean. |
 
 ## Μέθοδοι
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [Clear](../../aspose.slides.theme/ioverridetheme/clear)() | Ορίζει το ColorScheme, FontScheme, FormatScheme σε null για να απενεργοποιήσει οποιαδήποτε αντικατάσταση με αυτό το αντικείμενο θέματος. |
-| [InitColorScheme](../../aspose.slides.theme/ioverridetheme/initcolorscheme)() | Αρχικοποιεί το ColorScheme με νέο αντικείμενο για την αντικατάσταση του ColorScheme του InheritedTheme. |
-| [InitColorSchemeFrom](../../aspose.slides.theme/ioverridetheme/initcolorschemefrom)(IColorScheme) | Αρχικοποιεί το ColorScheme με νέο αντικείμενο για την αντικατάσταση του ColorScheme του InheritedTheme. |
-| [InitColorSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initcolorschemefrominherited)() | Αρχικοποιεί το ColorScheme με νέο αντικείμενο για την αντικατάσταση του ColorScheme του InheritedTheme. Και αρχικοποιεί τα δεδομένα αυτού του νέου αντικειμένου με τα δεδομένα του ColorScheme του InheritedTheme. |
-| [InitFontScheme](../../aspose.slides.theme/ioverridetheme/initfontscheme)() | Αρχικοποιεί το FontScheme με νέο αντικείμενο για την αντικατάσταση του FontScheme του InheritedTheme. |
-| [InitFontSchemeFrom](../../aspose.slides.theme/ioverridetheme/initfontschemefrom)(IFontScheme) | Αρχικοποιεί το FontScheme με νέο αντικείμενο για την αντικατάσταση του FontScheme του InheritedTheme. |
-| [InitFontSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initfontschemefrominherited)() | Αρχικοποιεί το FontScheme με νέο αντικείμενο για την αντικατάσταση του FontScheme του InheritedTheme. Και αρχικοποιεί τα δεδομένα αυτού του νέου αντικειμένου με τα δεδομένα του FontScheme του InheritedTheme. |
-| [InitFormatScheme](../../aspose.slides.theme/ioverridetheme/initformatscheme)() | Αρχικοποιεί το FormatScheme με νέο αντικείμενο για την αντικατάσταση του FormatScheme του InheritedTheme. |
-| [InitFormatSchemeFrom](../../aspose.slides.theme/ioverridetheme/initformatschemefrom)(IFormatScheme) | Αρχικοποιεί το FormatScheme με νέο αντικείμενο για την αντικατάσταση του FormatScheme του InheritedTheme. |
-| [InitFormatSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initformatschemefrominherited)() | Αρχικοποιεί το FormatScheme με νέο αντικείμενο για την αντικατάσταση του FormatScheme του InheritedTheme. Και αρχικοποιεί τα δεδομένα αυτού του νέου αντικειμένου με τα δεδομένα του FormatScheme του InheritedTheme. |
+| [Clear](../../aspose.slides.theme/ioverridetheme/clear)() | Ορίστε τα ColorScheme, FontScheme, FormatScheme σε null για να απενεργοποιήσετε οποιαδήποτε αντικατάσταση με αυτό το αντικείμενο θέματος. |
+| [InitColorScheme](../../aspose.slides.theme/ioverridetheme/initcolorscheme)() | Αρχικοποιήστε το ColorScheme με νέο αντικείμενο για την αντικατάσταση του ColorScheme του InheritedTheme. |
+| [InitColorSchemeFrom](../../aspose.slides.theme/ioverridetheme/initcolorschemefrom)(IColorScheme) | Αρχικοποιήστε το ColorScheme με νέο αντικείμενο για την αντικατάσταση του ColorScheme του InheritedTheme. |
+| [InitColorSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initcolorschemefrominherited)() | Αρχικοποιήστε το ColorScheme με νέο αντικείμενο για την αντικατάσταση του ColorScheme του InheritedTheme. Και αρχικοποιήστε τα δεδομένα αυτού του νέου αντικειμένου με τα δεδομένα του ColorScheme του InheritedTheme. |
+| [InitFontScheme](../../aspose.slides.theme/ioverridetheme/initfontscheme)() | Αρχικοποιήστε το FontScheme με νέο αντικείμενο για την αντικατάσταση του FontScheme του InheritedTheme. |
+| [InitFontSchemeFrom](../../aspose.slides.theme/ioverridetheme/initfontschemefrom)(IFontScheme) | Αρχικοποιήστε το FontScheme με νέο αντικείμενο για την αντικατάσταση του FontScheme του InheritedTheme. |
+| [InitFontSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initfontschemefrominherited)() | Αρχικοποιήστε το FontScheme με νέο αντικείμενο για την αντικατάσταση του FontScheme του InheritedTheme. Και αρχικοποιήστε τα δεδομένα αυτού του νέου αντικειμένου με τα δεδομένα του FontScheme του InheritedTheme. |
+| [InitFormatScheme](../../aspose.slides.theme/ioverridetheme/initformatscheme)() | Αρχικοποιήστε το FormatScheme με νέο αντικείμενο για την αντικατάσταση του FormatScheme του InheritedTheme. |
+| [InitFormatSchemeFrom](../../aspose.slides.theme/ioverridetheme/initformatschemefrom)(IFormatScheme) | Αρχικοποιήστε το FormatScheme με νέο αντικείμενο για την αντικατάσταση του FormatScheme του InheritedTheme. |
+| [InitFormatSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initformatschemefrominherited)() | Αρχικοποιήστε το FormatScheme με νέο αντικείμενο για την αντικατάσταση του FormatScheme του InheritedTheme. Και αρχικοποιήστε τα δεδομένα αυτού του νέου αντικειμένου με τα δεδομένα του FormatScheme του InheritedTheme. |
 
 ### Δείτε επίσης
 
-* διεπαφή [ITheme](../itheme)
+* διασύνδεση [ITheme](../itheme)
 * χώρο ονομάτων [Aspose.Slides.Theme](../../aspose.slides.theme)
-* συγκρότημα [Aspose.Slides](../../)
+* συναρμολόγηση [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

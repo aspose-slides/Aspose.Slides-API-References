@@ -3,12 +3,12 @@ title: ErrorBarValueType
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Geeft het type van foutbalkwaarde weer
 type: docs
-weight: 1650
+weight: 1660
 url: /nl/aspose.slides.charts/errorbarvaluetype/
 ---
 ## ErrorBarValueType enumeratie
 
-Geeft het type van foutbalkwaarde weer
+Stelt het type van foutbalkwaarde voor
 
 ```csharp
 public enum ErrorBarValueType
@@ -18,11 +18,11 @@ public enum ErrorBarValueType
 
 | Naam | Waarde | Beschrijving |
 | --- | --- | --- |
-| Custom | `0` | Geeft aan dat de lengte van de foutbalken wordt bepaald door de Plus- en Minus-elementen. |
-| Fixed | `1` | Geeft aan dat de lengte van de foutbalken de vaste waarde is die is bepaald door Error Bar Value. |
-| Percentage | `2` | Geeft aan dat de lengte van de foutbalken een percentage van Error Bar Value van de gegevens is. |
-| StandardDeviation | `3` | Geeft aan dat de lengte van de foutbalken het aantal standaarddeviaties van Error Bar Value van de gegevens is. |
-| StandardError | `4` | Geeft aan dat de lengte van de foutbalken de standaardfouten van Error Bar Value van de gegevens zijn. |
+| Custom | `0` | Specificeert dat de lengte van de foutbalken moet worden bepaald door de Plus- en Minus-elementen. |
+| Fixed | `1` | Specificeert dat de lengte van de foutbalken de vaste waarde is die door Error Bar Value wordt bepaald. |
+| Percentage | `2` | Specificeert dat de lengte van de foutbalken Error Bar Value procent van de gegevens is. |
+| StandardDeviation | `3` | Specificeert dat de lengte van de foutbalken Error Bar Value standaarddeviaties van de gegevens is. |
+| StandardError | `4` | Specificeert dat de lengte van de foutbalken Error Bar Value standaardfouten van de gegevens is. |
 
 ### Zie ook
 

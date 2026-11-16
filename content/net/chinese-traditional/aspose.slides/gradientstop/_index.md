@@ -1,14 +1,14 @@
 ---
 title: GradientStop
 second_title: Aspose.Sildes for .NET API 參考
-description: 表示漸層格式。
+description: 表示一種漸層格式。
 type: docs
-weight: 5020
+weight: 5040
 url: /zh-hant/aspose.slides/gradientstop/
 ---
 ## GradientStop 類別
 
-表示漸層格式。
+Represents a gradient format.
 
 ```csharp
 public sealed class GradientStop : PVIObject, IGradientStop
@@ -19,17 +19,17 @@ public sealed class GradientStop : PVIObject, IGradientStop
 | 名稱 | 說明 |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允許取得基礎 IPresentationComponent 介面。唯讀 [`IPresentationComponent`](../ipresentationcomponent)。 |
-| [Color](../../aspose.slides/gradientstop/color) { get; } | 回傳漸層停靠點的顏色。唯讀 [`IColorFormat`](../icolorformat)。 |
-| [Position](../../aspose.slides/gradientstop/position) { get; set; } | 回傳或設定漸層停靠點的位置 (0..1)。讀/寫 Single。 |
+| [Color](../../aspose.slides/gradientstop/color) { get; } | 傳回漸層停止點的顏色。唯讀 [`IColorFormat`](../icolorformat)。 |
+| [Position](../../aspose.slides/gradientstop/position) { get; set; } | 傳回或設定漸層停止點的位置 (0..1)。可讀寫 Single。 |
 
 ## 方法
 
 | 名稱 | 說明 |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | 與指定的物件比較。 |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | 回傳雜湊碼。 |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | 傳回雜湊碼。 |
 
-### 另請參閱
+### 參見
 
 * 類別 [PVIObject](../pviobject)
 * 介面 [IGradientStop](../igradientstop)

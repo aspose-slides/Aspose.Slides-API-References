@@ -1,12 +1,12 @@
 ---
 title: PptxException
-second_title: "Aspose.Sildes для .NET: справочник API"
+second_title: Aspose.Sildes для .NET Справочник API
 description: Представляет стандартный внутренний тип исключения.
 type: docs
-weight: 9560
+weight: 9580
 url: /ru/aspose.slides/pptxexception/
 ---
-## PpttException класс
+## PptxException класс
 
 Представляет стандартный внутренний тип исключения.
 
@@ -22,7 +22,7 @@ public class PptxException : OOXMLException
 | [PptxException](pptxexception#constructor_1)(string) | Конструктор, позволяющий добавить сообщение к этому исключению. |
 | [PptxException](pptxexception#constructor_2)(string, Exception) | Конструктор для исключения, содержащего сообщение и вложенное исключение. |
 
-### Смотрите также
+### См. также
 
 * класс [OOXMLException](../ooxmlexception)
 * пространство имён [Aspose.Slides](../../aspose.slides)

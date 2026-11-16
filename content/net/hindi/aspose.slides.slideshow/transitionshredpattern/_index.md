@@ -1,27 +1,27 @@
 ---
 title: TransitionShredPattern
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: एक ज्यामितीय आकार को निर्दिष्ट करता है जो एक साथ टाइल करके बड़े क्षेत्र को भरता है।
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: एक ज्यामितीय आकार निर्दिष्ट करता है जो एक साथ टाइल करके बड़े क्षेत्र को भरता है।
 type: docs
-weight: 10410
+weight: 10430
 url: /hi/aspose.slides.slideshow/transitionshredpattern/
 ---
 ## TransitionShredPattern एन्यूमरेशन
 
-एक ज्यामितीय आकार को परिभाषित करता है जो मिलकर एक बड़े क्षेत्र को भरता है।
+एक ज्यामितीय आकार निर्दिष्ट करता है जो एक साथ टाइल करके बड़े क्षेत्र को भरता है।
 
 ```csharp
 public enum TransitionShredPattern
 ```
 
-### मान
+### Values
 
-| नाम | मूल्य | विवरण |
+| नाम | मान | विवरण |
 | --- | --- | --- |
-| Strip | `0` | ऊर्ध्वाधर पट्टियाँ |
-| Rectangle | `1` | छोटे आयत |
+| Strip | `0` | ऊर्ध्वाधर स्ट्रिप्स |
+| Rectangle | `1` | छोटे आयतें |
 
-### संबंधित देखें
+### See Also
 
 * नामस्थान [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * असेंबली [Aspose.Slides](../../)

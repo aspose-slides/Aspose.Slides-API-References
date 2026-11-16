@@ -3,10 +3,10 @@ title: VideoPlayModePreset
 second_title: Aspose.Sildes för .NET API-referens
 description: Konstanter som definierar hur en video spelas upp.
 type: docs
-weight: 11730
+weight: 11750
 url: /sv/aspose.slides/videoplaymodepreset/
 ---
-## VideoPlayModePreset uppräkning
+## VideoPlayModePreset enumeration
 
 Konstanter som definierar hur en video spelas upp.
 
@@ -19,10 +19,10 @@ public enum VideoPlayModePreset
 | Namn | Värde | Beskrivning |
 | --- | --- | --- |
 | Mixed | `-1` |  |
-| Auto | `0` | Spelas upp automatiskt. |
-| OnClick | `1` | Spelas bara när videoramen klickas på. |
-| AllSlides | `2` | Spelas på alla bilder. |
-| InClickSequence | `3` | Spelas upp automatiskt med ett klick. |
+| Auto | `0` | Spelar upp automatiskt. |
+| OnClick | `1` | Spelar bara när videoramen klickas på. |
+| AllSlides | `2` | Spelar på alla bilder. |
+| InClickSequence | `3` | Spelar automatiskt med ett klick. |
 
 ### Se även
 

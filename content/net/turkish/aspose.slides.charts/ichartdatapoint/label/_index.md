@@ -3,7 +3,7 @@ title: Label
 second_title: Aspose.Sildes için .NET API Referansı
 description: Grafik veri noktasının etiketini temsil eder. Salt okunur IDataLabelaspose.slides.charts/idatalabel.
 type: docs
-weight: 110
+weight: 150
 url: /tr/aspose.slides.charts/ichartdatapoint/label/
 ---
 ## IChartDataPoint.Label özelliği
@@ -14,7 +14,7 @@ Grafik veri noktasının etiketini temsil eder. Salt okunur [`IDataLabel`](../..
 public IDataLabel Label { get; }
 ```
 
-### İlgili
+### Ayrıca Bakınız
 
 * arayüz [IDataLabel](../../idatalabel)
 * arayüz [IChartDataPoint](../../ichartdatapoint)

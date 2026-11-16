@@ -1,14 +1,14 @@
 ---
 title: IFillOverlayEffectiveData
-second_title: Aspose.Sildes для .NET справочника API
-description: Неизменяемый объект, представляющий эффект Fill Overlay. Fill Overlay может использоваться для указания дополнительного заполнения для объекта и смешивания двух заполнений вместе.
+second_title: Справочник API Aspose.Sildes для .NET
+description: Неизменяемый объект, представляющий эффект наложения заливки. Наложение заливки может использоваться для указания дополнительной заливки объекта и смешивания двух заливок.
 type: docs
-weight: 3310
+weight: 3330
 url: /ru/aspose.slides.effects/ifilloverlayeffectivedata/
 ---
-## IFillOverlayEffectiveData интерфейс
+## IFillOverlayEffectiveData interface
 
-Неизменяемый объект, представляющий эффект Fill Overlay. Fill Overlay может использоваться для указания дополнительного заполнения для объекта и смешивания двух заполнений вместе.
+Неизменяемый объект, представляющий эффект наложения заливки. Наложение заливки может использоваться для указания дополнительной заливки объекта и смешивания двух заливок.
 
 ```csharp
 public interface IFillOverlayEffectiveData : IEffectEffectiveData
@@ -20,7 +20,7 @@ public interface IFillOverlayEffectiveData : IEffectEffectiveData
 | --- | --- |
 | [AsIEffectEffectiveData](../../aspose.slides.effects/ifilloverlayeffectivedata/asieffecteffectivedata) { get; } | Позволяет получить базовый интерфейс IEffectEffectiveData. Только для чтения [`IEffectEffectiveData`](../ieffecteffectivedata). |
 | [Blend](../../aspose.slides.effects/ifilloverlayeffectivedata/blend) { get; } | FillBlendMode. Только для чтения [`FillBlendMode`](../../aspose.slides/fillblendmode). |
-| [FillFormat](../../aspose.slides.effects/ifilloverlayeffectivedata/fillformat) { get; } | Fill format. Только для чтения [`IFillFormatEffectiveData`](../../aspose.slides/ifillformateffectivedata). |
+| [FillFormat](../../aspose.slides.effects/ifilloverlayeffectivedata/fillformat) { get; } | Формат заливки. Только для чтения [`IFillFormatEffectiveData`](../../aspose.slides/ifillformateffectivedata). |
 
 ### См. также
 

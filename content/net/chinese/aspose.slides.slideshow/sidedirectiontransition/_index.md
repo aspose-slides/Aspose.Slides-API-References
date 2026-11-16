@@ -1,14 +1,14 @@
 ---
 title: SideDirectionTransition
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 侧向幻灯片过渡效果。
 type: docs
-weight: 10310
+weight: 10330
 url: /zh/aspose.slides.slideshow/sidedirectiontransition/
 ---
 ## SideDirectionTransition 类
 
-Side direction slide transition effect.
+侧向幻灯片过渡效果。
 
 ```csharp
 public class SideDirectionTransition : TransitionValueBase, ISideDirectionTransition
@@ -18,16 +18,16 @@ public class SideDirectionTransition : TransitionValueBase, ISideDirectionTransi
 
 | 名称 | 描述 |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/sidedirectiontransition/direction) { get; set; } | 过渡方向。读/写 [`TransitionSideDirectionType`](../transitionsidedirectiontype)。 |
+| [Direction](../../aspose.slides.slideshow/sidedirectiontransition/direction) { get; set; } | 过渡的方向。读/写 [`TransitionSideDirectionType`](../transitionsidedirectiontype)。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 确定两个 TransitionValueBase 实例是否相等。 |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 充当特定类型的哈希函数，适用于哈希算法和诸如哈希表的数据结构。 |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 充当特定类型的散列函数，适用于散列算法和诸如散列表之类的数据结构。 |
 
-### 另请参阅
+### 另请参见
 
 * 类 [TransitionValueBase](../transitionvaluebase)
 * 接口 [ISideDirectionTransition](../isidedirectiontransition)

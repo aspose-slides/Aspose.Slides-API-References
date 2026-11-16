@@ -1,9 +1,9 @@
 ---
 title: IThreeDFormatEffectiveData
-second_title: Aspose.Slides för .NET API-referens
+second_title: Aspose.Sildes för .NET API-referens
 description: Oföränderligt objekt som representerar effektiva 3-D-formateringsegenskaper.
 type: docs
-weight: 7340
+weight: 7360
 url: /sv/aspose.slides/ithreedformateffectivedata/
 ---
 ## IThreeDFormatEffectiveData gränssnitt
@@ -18,7 +18,7 @@ public interface IThreeDFormatEffectiveData : IThreeDParamSource
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIThreeDParamSource](../../aspose.slides/ithreedformateffectivedata/asithreedparamsource) { get; } | Tillåter att hämta bas-IThreeDParamSource-gränssnittet. Skrivskyddad [`IThreeDParamSource`](../ithreedparamsource). |
+| [AsIThreeDParamSource](../../aspose.slides/ithreedformateffectivedata/asithreedparamsource) { get; } | Tillåter att hämta bas IThreeDParamSource gränssnitt. Skrivskyddad [`IThreeDParamSource`](../ithreedparamsource). |
 | [BevelBottom](../../aspose.slides/ithreedformateffectivedata/bevelbottom) { get; } | Returnerar typen av en botten-3D-avfasning. Skrivskyddad [`IShapeBevelEffectiveData`](../ishapebeveleffectivedata). |
 | [BevelTop](../../aspose.slides/ithreedformateffectivedata/beveltop) { get; } | Returnerar typen av en topp-3D-avfasning. Skrivskyddad [`IShapeBevelEffectiveData`](../ishapebeveleffectivedata). |
 | [Camera](../../aspose.slides/ithreedformateffectivedata/camera) { get; } | Returnerar inställningarna för en kamera. Skrivskyddad [`ICameraEffectiveData`](../icameraeffectivedata). |
@@ -32,9 +32,9 @@ public interface IThreeDFormatEffectiveData : IThreeDParamSource
 
 ### Anmärkningar
 
-Detta gränssnitt används tillsammans med [`IThreeDFormat`](../ithreedformat)-gränssnittet för att returnera effektiva formateringsvärden med arv tillämpat.
+Detta gränssnitt används tillsammans med [`IThreeDFormat`](../ithreedformat) gränssnitt för att returnera effektiva formateringsvärden med ärvd egenskaper tillämpade.
 
-### Se även
+### Se också
 
 * gränssnitt [IThreeDParamSource](../ithreedparamsource)
 * namnrymd [Aspose.Slides](../../aspose.slides)

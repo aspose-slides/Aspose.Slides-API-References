@@ -1,35 +1,35 @@
 ---
 title: MathFractionFactory
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: อนุญาตให้สร้างเศษส่วนคณิตศาสตร์
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: อนุญาตให้สร้างเศษคณิต
 type: docs
-weight: 8700
+weight: 8720
 url: /th/aspose.slides.mathtext/mathfractionfactory/
 ---
 ## MathFractionFactory คลาส
 
-อนุญาตให้สร้างเศษส่วนคณิตศาสตร์
+อนุญาตให้สร้างเศษคณิต
 
 ```csharp
 public class MathFractionFactory : IMathFractionFactory
 ```
 
-## คอนสตรัคเตอร์
+## คอนสตรักเตอร์
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [MathFractionFactory](mathfractionfactory)() | คอนสตรัคเตอร์เริ่มต้น |
+| [MathFractionFactory](mathfractionfactory)() | คอนสตรักเตอร์เริ่มต้น. |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [CreateMathFraction](../../aspose.slides.mathtext/mathfractionfactory/createmathfraction#createmathfraction)(IMathElement, IMathElement) | สร้างเศษส่วนคณิตศาสตร์ |
-| [CreateMathFraction](../../aspose.slides.mathtext/mathfractionfactory/createmathfraction#createmathfraction_1)(IMathElement, IMathElement, MathFractionTypes) | สร้างเศษส่วนคณิตศาสตร์ |
+| [CreateMathFraction](../../aspose.slides.mathtext/mathfractionfactory/createmathfraction#createmathfraction)(IMathElement, IMathElement) | สร้างเศษคณิต |
+| [CreateMathFraction](../../aspose.slides.mathtext/mathfractionfactory/createmathfraction#createmathfraction_1)(IMathElement, IMathElement, MathFractionTypes) | สร้างเศษคณิต |
 
 ### หมายเหตุ
 
-สำหรับความเข้ากันได้กับ COM
+สำหรับความเข้ากันได้ของ COM
 
 ### ดูเพิ่มเติม
 

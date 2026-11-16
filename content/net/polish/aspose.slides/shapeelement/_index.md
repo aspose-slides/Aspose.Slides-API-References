@@ -1,14 +1,14 @@
 ---
 title: ShapeElement
-second_title: Aspose.Sildes dla .NET – odniesienie API
-description: Reprezentuje część kształtu o takich samych właściwościach konturu i wypełnienia.
+second_title: Aspose.Sildes dla .NET API Reference
+description: Reprezentuje część kształtu o tych samych właściwościach konturu i wypełnienia.
 type: docs
-weight: 9870
+weight: 9890
 url: /pl/aspose.slides/shapeelement/
 ---
 ## ShapeElement klasa
 
-Reprezentuje część kształtu o takich samych właściwościach konturu i wypełnienia.
+Reprezentuje część kształtu o tych samych właściwościach konturu i wypełnienia.
 
 ```csharp
 public class ShapeElement : IShapeElement
@@ -22,7 +22,7 @@ public class ShapeElement : IShapeElement
 | [ParentShape](../../aspose.slides/shapeelement/parentshape) { get; } | Zwraca Shape_PPT, dla którego element został utworzony. Tylko do odczytu [`Shape`](../shape). |
 | [PathPoints](../../aspose.slides/shapeelement/pathpoints) { get; } | Zwraca tablicę punktów definiujących geometrię ścieżki elementu. |
 | [PathTypes](../../aspose.slides/shapeelement/pathtypes) { get; } | Zwraca tablicę wartości bajtowych określających typ każdego punktu w ścieżce elementu. |
-| [StrokeSource](../../aspose.slides/shapeelement/strokesource) { get; } | Zwraca informacje o tym, jak narysować obrys elementu. Tylko do odczytu [`ShapeElementStrokeSource`](../shapeelementstrokesource). |
+| [StrokeSource](../../aspose.slides/shapeelement/strokesource) { get; } | Zwraca informacje o tym, jak obrysować element. Tylko do odczytu [`ShapeElementStrokeSource`](../shapeelementstrokesource). |
 
 ### Zobacz także
 

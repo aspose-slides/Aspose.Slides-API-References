@@ -1,20 +1,20 @@
 ---
 title: TextFormat
 second_title: Aspose.Sildes for .NET API リファレンス
-description: テキスト形式を返します。読み取り専用 IChartTextFormataspose.slides.charts/icharttextformat.
+description: テキスト形式を返します。 読み取り専用 IChartTextFormataspose.slides.charts/icharttextformat.
 type: docs
-weight: 120
+weight: 130
 url: /ja/aspose.slides.charts/datalabel/textformat/
 ---
 ## DataLabel.TextFormat プロパティ
 
-テキスト形式を返します。読み取り専用 [`IChartTextFormat`](../../icharttextformat)。
+テキスト形式を返します。 読み取り専用 [`IChartTextFormat`](../../icharttextformat)。
 
 ```csharp
 public IChartTextFormat TextFormat { get; }
 ```
 
-### 関連項目
+### 参照
 
 * インターフェイス [IChartTextFormat](../../icharttextformat)
 * クラス [DataLabel](../../datalabel)

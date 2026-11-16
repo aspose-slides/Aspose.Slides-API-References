@@ -3,18 +3,18 @@ title: Portion
 second_title: Aspose.Sildes for .NET API リファレンス
 description: テキスト段落内のテキストの一部を表します。
 type: docs
-weight: 9460
+weight: 9480
 url: /ja/aspose.slides/portion/
 ---
 ## Portion クラス
 
-テキスト段落内のテキストの一部を表します。
+Represents a portion of text inside a text paragraph.
 
 ```csharp
 public class Portion : IPortion
 ```
 
-## コンストラクタ
+## コンストラクター
 
 | 名前 | 説明 |
 | --- | --- |
@@ -27,7 +27,7 @@ public class Portion : IPortion
 | 名前 | 説明 |
 | --- | --- |
 | [Field](../../aspose.slides/portion/field) { get; } | この部分のフィールドを返します。読み取り専用 [`IField`](../ifield)。 |
-| [PortionFormat](../../aspose.slides/portion/portionformat) { get; } | 継承が適用されていない、テキスト部分の明示的に設定された書式設定プロパティを含むフォーマットオブジェクトを返します。読み取り専用 [`IPortionFormat`](../iportionformat)。 |
+| [PortionFormat](../../aspose.slides/portion/portionformat) { get; } | 継承が適用されていないテキスト部分の明示的に設定された書式プロパティを含むフォーマットオブジェクトを返します。読み取り専用 [`IPortionFormat`](../iportionformat)。 |
 | [Text](../../aspose.slides/portion/text) { get; set; } | 部分のプレーンテキストを取得または設定します。読み書き可能な String。 |
 
 ## メソッド
@@ -36,9 +36,9 @@ public class Portion : IPortion
 | --- | --- |
 | [AddField](../../aspose.slides/portion/addfield#addfield)(IFieldType) | この部分を自動的に更新されるフィールドに変換します。 |
 | [AddField](../../aspose.slides/portion/addfield#addfield_1)(string) | この部分を自動的に更新されるフィールドに変換します。 |
-| [GetCoordinates](../../aspose.slides/portion/getcoordinates)() | 部分の開始位置の座標を取得します。点の X 座標は左側ベアリングを含む最初の文字からの部分の開始を表し、Y 座標は上側ベアリングを含みます。 |
-| [GetRect](../../aspose.slides/portion/getrect)() | 部分を囲む矩形の座標を取得します。この矩形は空の行を含む部分内のすべてのテキスト行を含みます。 |
-| [RemoveField](../../aspose.slides/portion/removefield)() | このフィールド部分をシンプルな部分に変換します。 |
+| [GetCoordinates](../../aspose.slides/portion/getcoordinates)() | 部分の開始座標を取得します。ポイントの X 座標は、左サイドベアリングを含む最初の文字からの部分開始を表します。Y 座標は上側ベアリングを含みます。 |
+| [GetRect](../../aspose.slides/portion/getrect)() | 部分を囲む矩形の座標を取得します。矩形は、空行を含む部分内のすべてのテキスト行を含みます。 |
+| [RemoveField](../../aspose.slides/portion/removefield)() | このフィールド部分を単純な部分に変換します。 |
 
 ### 関連項目
 

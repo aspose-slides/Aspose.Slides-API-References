@@ -1,9 +1,9 @@
 ---
 title: ExcelWorkbookImporter
-second_title: Aspose.Sildes για .NET API Reference
+second_title: Aspose.Sildes για .NET API Αναφορά
 description: Παρέχει λειτουργικότητα για την εισαγωγή περιεχομένου από ένα βιβλίο εργασίας Excel σε μια παρουσίαση.
 type: docs
-weight: 7470
+weight: 7490
 url: /el/aspose.slides.import/excelworkbookimporter/
 ---
 ## ExcelWorkbookImporter κλάση
@@ -18,17 +18,17 @@ public static class ExcelWorkbookImporter
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook)(IShapeCollection, float, float, IExcelDataWorkbook, string, int, bool) | Ανακτά ένα διάγραμμα από το καθορισμένο βιβλίο εργασίας Excel και το προσθέτει στο τέλος της δοσμένης συλλογής σχήματος στις καθορισμένες συντεταγμένες. |
-| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_1)(IShapeCollection, float, float, IExcelDataWorkbook, string, string, bool) | Ανακτά ένα διάγραμμα από το καθορισμένο βιβλίο εργασίας Excel και το προσθέτει στο τέλος της δοσμένης συλλογής σχήματος στις καθορισμένες συντεταγμένες. |
-| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_2)(IShapeCollection, float, float, Stream, string, string, bool) | Ανακτά ένα διάγραμμα από το καθορισμένο βιβλίο εργασίας Excel και το προσθέτει στο τέλος της δοσμένης συλλογής σχήματος στις καθορισμένες συντεταγμένες. |
-| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_3)(IShapeCollection, float, float, string, string, string, bool) | Ανακτά ένα διάγραμμα από το καθορισμένο βιβλίο εργασίας Excel και το προσθέτει στο τέλος της δοσμένης συλλογής σχήματος στις καθορισμένες συντεταγμένες. |
-| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook)(IShapeCollection, float, float, IExcelDataWorkbook, string, string) | Ανακτά έναν πίνακα από το καθορισμένο βιβλίο εργασίας Excel και τον προσθέτει στο τέλος της δοσμένης συλλογής σχήματος στις καθορισμένες συντεταγμένες. |
-| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook_1)(IShapeCollection, float, float, Stream, string, string) | Ανακτά έναν πίνακα από το καθορισμένο αρχείο βιβλίου εργασίας Excel και τον προσθέτει στο τέλος της δοσμένης συλλογής σχήματος στις καθορισμένες συντεταγμένες. |
-| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook_2)(IShapeCollection, float, float, string, string, string) | Ανακτά έναν πίνακα από το καθορισμένο αρχείο βιβλίου εργασίας Excel και τον προσθέτει στο τέλος της δοσμένης συλλογής σχήματος στις καθορισμένες συντεταγμένες. |
+| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook)(IShapeCollection, float, float, IExcelDataWorkbook, string, int, bool) | Ανακτά ένα γράφημα από το καθορισμένο βιβλίο εργασίας Excel και το προσθέτει στο τέλος της δεδομένης συλλογής σχημάτων στις καθορισμένες συντεταγμένες. |
+| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_1)(IShapeCollection, float, float, IExcelDataWorkbook, string, string, bool) | Ανακτά ένα γράφημα από το καθορισμένο βιβλίο εργασίας Excel και το προσθέτει στο τέλος της δεδομένης συλλογής σχημάτων στις καθορισμένες συντεταγμένες. |
+| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_2)(IShapeCollection, float, float, Stream, string, string, bool) | Ανακτά ένα γράφημα από το καθορισμένο βιβλίο εργασίας Excel και το προσθέτει στο τέλος της δεδομένης συλλογής σχημάτων στις καθορισμένες συντεταγμένες. |
+| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_3)(IShapeCollection, float, float, string, string, string, bool) | Ανακτά ένα γράφημα από το καθορισμένο βιβλίο εργασίας Excel και το προσθέτει στο τέλος της δεδομένης συλλογής σχημάτων στις καθορισμένες συντεταγμένες. |
+| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook)(IShapeCollection, float, float, IExcelDataWorkbook, string, string) | Ανακτά έναν πίνακα από το καθορισμένο βιβλίο εργασίας Excel και τον προσθέτει στο τέλος της δεδομένης συλλογής σχημάτων στις καθορισμένες συντεταγμένες. |
+| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook_1)(IShapeCollection, float, float, Stream, string, string) | Ανακτά έναν πίνακα από το καθορισμένο αρχείο βιβλίου εργασίας Excel και τον προσθέτει στο τέλος της δεδομένης συλλογής σχημάτων στις καθορισμένες συντεταγμένες. |
+| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook_2)(IShapeCollection, float, float, string, string, string) | Ανακτά έναν πίνακα από το καθορισμένο αρχείο βιβλίου εργασίας Excel και τον προσθέτει στο τέλος της δεδομένης συλλογής σχημάτων στις καθορισμένες συντεταγμένες. |
 
 ### Δείτε επίσης
 
 * χώρο ονομάτων [Aspose.Slides.Import](../../aspose.slides.import)
-* συγκρότημα [Aspose.Slides](../../)
+* συναρμολόγηση [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

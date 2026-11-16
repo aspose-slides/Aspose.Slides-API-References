@@ -1,14 +1,14 @@
 ---
 title: NotesSlide
-second_title: Aspose.Sildes .NET için API Referansı
-description: Bir sunumdaki not slaytını temsil eder.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Bir sunumda not slaytını temsil eder.
 type: docs
-weight: 9140
+weight: 9160
 url: /tr/aspose.slides/notesslide/
 ---
 ## NotesSlide sınıfı
 
-Bir sunumdaki not slaytını temsil eder.
+Sunumda bir not slaytını temsil eder.
 
 ```csharp
 public class NotesSlide : BaseSlide, INotesSlide
@@ -18,31 +18,31 @@ public class NotesSlide : BaseSlide, INotesSlide
 
 | Ad | Açıklama |
 | --- | --- |
-| [Background](../../aspose.slides/baseslide/background) { get; } | Slaytın arka planını döndürür. Salt okunur [`IBackground`](../ibackground). |
-| [Controls](../../aspose.slides/baseslide/controls) { get; } | Slayttaki ActiveX denetimlerinin koleksiyonunu döndürür. Salt okunur [`IControlCollection`](../icontrolcollection). |
-| [CustomData](../../aspose.slides/baseslide/customdata) { get; } | Slaytın özel verilerini döndürür. Salt okunur [`ICustomData`](../icustomdata). |
-| [HeaderFooterManager](../../aspose.slides/notesslide/headerfootermanager) { get; } | Not slaytının HeaderFooter yöneticisini döndürür. Salt okunur [`INotesSlideHeaderFooterManager`](../inotesslideheaderfootermanager). |
-| [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | İçerilen köprüleri kolayca erişim sağlar. Salt okunur [`IHyperlinkQueries`](../ihyperlinkqueries). |
-| virtual [Name](../../aspose.slides/baseslide/name) { get; set; } | Bir slaytın adını döndürür veya ayarlar. Okuma/yazma String. |
-| [NotesTextFrame](../../aspose.slides/notesslide/notestextframe) { get; } | Varsa notların metniyle bir TextFrame döndürür. Salt okunur [`ITextFrame`](../itextframe). |
-| [ParentSlide](../../aspose.slides/notesslide/parentslide) { get; } | Üst slaytı döndürür. Salt okunur [`ISlide`](../islide). |
-| [Presentation](../../aspose.slides/baseslide/presentation) { get; } | IPresentation arayüzünü döndürür. Salt okunur [`IPresentation`](../ipresentation). |
-| [Shapes](../../aspose.slides/baseslide/shapes) { get; } | Bir slaytın şekillerini döndürür. Salt okunur [`IShapeCollection`](../ishapecollection). |
-| override [ShowMasterShapes](../../aspose.slides/notesslide/showmastershapes) { get; set; } | Şekillerin ana slaytta gösterilip gösterilmeyeceğini belirtir. Okuma/yazma Boolean. |
-| [SlideId](../../aspose.slides/baseslide/slideid) { get; } | Bir slaytın kimliğini döndürür. Salt okunur UInt32. |
-| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | Belirtilen slaytın bir slayt gösterisi sırasında nasıl ilerlediğiyle ilgili bilgileri içeren Transition nesnesini döndürür. Salt okunur [`ISlideShowTransition`](../islideshowtransition). |
-| [ThemeManager](../../aspose.slides/notesslide/thememanager) { get; } | Üstüne yazılan tema yöneticisini döndürür. Salt okunur [`IOverrideThemeManager`](../../aspose.slides.theme/ioverridethememanager). |
-| [Timeline](../../aspose.slides/baseslide/timeline) { get; } | Animasyon zaman çizelgesi nesnesini döndürür. Salt okunur [`IAnimationTimeLine`](../ianimationtimeline). |
+| [Background](../../aspose.slides/baseslide/background) { get; } | Slaytın arka planını döndürür. Yalnızca okunur [`IBackground`](../ibackground). |
+| [Controls](../../aspose.slides/baseslide/controls) { get; } | Slayt üzerindeki ActiveX denetimlerinin koleksiyonunu döndürür. Yalnızca okunur [`IControlCollection`](../icontrolcollection). |
+| [CustomData](../../aspose.slides/baseslide/customdata) { get; } | Slaytın özel verilerini döndürür. Yalnızca okunur [`ICustomData`](../icustomdata). |
+| [HeaderFooterManager](../../aspose.slides/notesslide/headerfootermanager) { get; } | Not slaytının HeaderFooter yöneticisini döndürür. Yalnızca okunur [`INotesSlideHeaderFooterManager`](../inotesslideheaderfootermanager). |
+| [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | İçerdiği hiperlinklere kolay erişim sağlar. Yalnızca okunur [`IHyperlinkQueries`](../ihyperlinkqueries). |
+| virtual [Name](../../aspose.slides/baseslide/name) { get; set; } | Slaytın adını döndürür veya ayarlar. Okunur/yazılır String. |
+| [NotesTextFrame](../../aspose.slides/notesslide/notestextframe) { get; } | Varsa not metni içeren bir TextFrame döndürür. Yalnızca okunur [`ITextFrame`](../itextframe). |
+| [ParentSlide](../../aspose.slides/notesslide/parentslide) { get; } | Üst slaytı döndürür. Yalnızca okunur [`ISlide`](../islide). |
+| [Presentation](../../aspose.slides/baseslide/presentation) { get; } | IPresentation arayüzünü döndürür. Yalnızca okunur [`IPresentation`](../ipresentation). |
+| [Shapes](../../aspose.slides/baseslide/shapes) { get; } | Bir slaytın şekillerini döndürür. Yalnızca okunur [`IShapeCollection`](../ishapecollection). |
+| override [ShowMasterShapes](../../aspose.slides/notesslide/showmastershapes) { get; set; } | Ana slayttaki şekillerin slaytlarda gösterilip gösterilmeyeceğini belirler. Okunur/yazılır Boolean. |
+| [SlideId](../../aspose.slides/baseslide/slideid) { get; } | Bir slaytın kimliğini (ID) döndürür. Yalnızca okunur UInt32. |
+| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | Belirli bir slaytın gösterim sırasında nasıl ilerlediğiyle ilgili bilgileri içeren Transition nesnesini döndürür. Yalnızca okunur [`ISlideShowTransition`](../islideshowtransition). |
+| [ThemeManager](../../aspose.slides/notesslide/thememanager) { get; } | Geçersiz kılan tema yöneticisini döndürür. Yalnızca okunur [`IOverrideThemeManager`](../../aspose.slides.theme/ioverridethememanager). |
+| [Timeline](../../aspose.slides/baseslide/timeline) { get; } | Animasyon zaman çizelgesi nesnesini döndürür. Yalnızca okunur [`IAnimationTimeLine`](../ianimationtimeline). |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [CreateThemeEffective](../../aspose.slides/baseslide/createthemeeffective)() | Bu slayt için etkili bir temayı döndürür. |
-| [Equals](../../aspose.slides/baseslide/equals)(IBaseSlide) | İki IBaseSlide örneğinin eşit olup olmadığını belirler. Dönen değer, slaytın yapısı ve statik içeriğine göre hesaplanır. Tüm şekiller, stiller, metinler, animasyon ve diğer ayarlar vb. eşitse iki slayt eşittir. Karşılaştırma, SlideId gibi benzersiz tanımlayıcı değerleri ve Tarih Yer Tutucusunda mevcut tarih gibi dinamik içeriği dikkate almaz. |
+| [CreateThemeEffective](../../aspose.slides/baseslide/createthemeeffective)() | Bu slayt için geçerli bir temayı döndürür. |
+| [Equals](../../aspose.slides/baseslide/equals)(IBaseSlide) | İki IBaseSlide örneğinin eşit olup olmadığını belirler. Döndürülen değer slaytın yapısı ve statik içeriğine göre hesaplanır. Tüm şekiller, stiller, metinler, animasyon ve diğer ayarlar vb. eşit olduğunda iki slayt eşittir. Karşılaştırma, SlideId gibi benzersiz tanımlayıcı değerleri ve Date Placeholder içindeki mevcut tarih değerini dikkate almaz. |
 | [FindShapeByAltText](../../aspose.slides/baseslide/findshapebyalttext)(string) | Belirtilen alternatif metne sahip şeklin ilk oluşumunu bulur. |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)() | Tüm paragraf ve uygun şekillerde aynı biçimlendirmeye sahip çalışanları birleştirir. |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)(IShapeCollection) | Tüm paragraf ve uygun şekillerde aynı biçimlendirmeye sahip çalışanları birleştirir. |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)() | Tüm kabul edilebilir şekillerdeki tüm paragraflarda aynı biçimlendirmeye sahip run'ları birleştirir. |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)(IShapeCollection) | Tüm kabul edilebilir şekillerdeki tüm paragraflarda aynı biçimlendirmeye sahip run'ları birleştirir. |
 
 ### Ayrıca Bakınız
 

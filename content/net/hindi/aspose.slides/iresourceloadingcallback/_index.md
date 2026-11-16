@@ -3,12 +3,12 @@ title: IResourceLoadingCallback
 second_title: Aspose.Sildes .NET के लिए API संदर्भ
 description: बाहरी संसाधनों के लोडिंग को प्रबंधित करने के लिए उपयोग किया जाने वाला कॉलबैक इंटरफ़ेस।
 type: docs
-weight: 6840
+weight: 6860
 url: /hi/aspose.slides/iresourceloadingcallback/
 ---
 ## IResourceLoadingCallback इंटरफ़ेस
 
-बाहरी संसाधनों के लोडिंग को प्रबंधित करने के लिए उपयोग किया जाने वाला कॉलबैक इंटरफ़ेस।
+बाहरी संसाधनों के लोडिंग को प्रबंधित करने के लिए प्रयोग किया जाने वाला Callback इंटरफ़ेस।
 
 ```csharp
 public interface IResourceLoadingCallback
@@ -20,7 +20,7 @@ public interface IResourceLoadingCallback
 | --- | --- |
 | [ResourceLoading](../../aspose.slides/iresourceloadingcallback/resourceloading)(IResourceLoadingArgs) | बाहरी संसाधनों के लोडिंग को नियंत्रित करने वाला कॉलबैक मेथड। |
 
-### संदर्भ
+### देखें
 
 * नेमस्पेस [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

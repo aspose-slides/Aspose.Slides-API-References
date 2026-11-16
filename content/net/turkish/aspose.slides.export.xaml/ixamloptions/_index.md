@@ -1,9 +1,9 @@
 ---
 title: IXamlOptions
 second_title: Aspose.Sildes for .NET API Referansı
-description: XAML belgesinin nasıl kaydedileceğini kontrol eden seçenekler.
+description: Bir XAML belgesinin nasıl kaydedileceğini kontrol eden seçenekler.
 type: docs
-weight: 4700
+weight: 4720
 url: /tr/aspose.slides.export.xaml/ixamloptions/
 ---
 ## IXamlOptions arabirimi
@@ -32,9 +32,9 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### İlgili Bağlantılar
+### İlgili
 
-* arabirim [ISaveOptions](../../aspose.slides.export/isaveoptions)
+* arayüz [ISaveOptions](../../aspose.slides.export/isaveoptions)
 * ad alanı [Aspose.Slides.Export.Xaml](../../aspose.slides.export.xaml)
 * derleme [Aspose.Slides](../../)
 

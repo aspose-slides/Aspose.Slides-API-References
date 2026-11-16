@@ -1,14 +1,14 @@
 ---
 title: EmbeddedEotFontsHtmlController
-second_title: Aspose.Sildes for .NET API 참조
-description: EOT 형식으로 글꼴을 포함하기 위해 사용할 형식 지정 컨트롤러 클래스
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: EOT 형식으로 글꼴을 포함하기 위해 사용하는 포맷팅 컨트롤러 클래스
 type: docs
-weight: 3780
+weight: 3800
 url: /ko/aspose.slides.export/embeddedeotfontshtmlcontroller/
 ---
 ## EmbeddedEotFontsHtmlController 클래스
 
-EOT 형식으로 글꼴을 포함하기 위해 사용할 형식 지정 컨트롤러 클래스
+EOT 형식으로 글꼴을 포함하기 위해 사용하는 포맷팅 컨트롤러 클래스
 
 ```csharp
 public class EmbeddedEotFontsHtmlController : IEmbeddedEotFontsHtmlController
@@ -21,7 +21,7 @@ public class EmbeddedEotFontsHtmlController : IEmbeddedEotFontsHtmlController
 | [EmbeddedEotFontsHtmlController](embeddedeotfontshtmlcontroller#constructor)() | 새 인스턴스를 생성합니다. |
 | [EmbeddedEotFontsHtmlController](embeddedeotfontshtmlcontroller#constructor_1)(IHtmlFormattingController) | 새 인스턴스를 생성합니다. |
 
-### 참고
+### 또 보기
 
 * 인터페이스 [IEmbeddedEotFontsHtmlController](../iembeddedeotfontshtmlcontroller)
 * 네임스페이스 [Aspose.Slides.Export](../../aspose.slides.export)

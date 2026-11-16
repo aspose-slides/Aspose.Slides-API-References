@@ -3,7 +3,7 @@ title: ISmartArtNodeCollection
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa una colección de nodos SmartArt.
 type: docs
-weight: 10560
+weight: 10580
 url: /es/aspose.slides.smartart/ismartartnodecollection/
 ---
 ## ISmartArtNodeCollection interfaz
@@ -18,18 +18,18 @@ public interface ISmartArtNodeCollection : IGenericCollection<ISmartArtNode>
 
 | Nombre | Descripción |
 | --- | --- |
-| [Item](../../aspose.slides.smartart/ismartartnodecollection/item) { get; } | Devuelve el nodo por índice. Solo lectura [`ISmartArtNode`](../ismartartnode) |
+| [Item](../../aspose.slides.smartart/ismartartnodecollection/item) { get; } | Devuelve el nodo por índice. Solo de lectura [`ISmartArtNode`](../ismartartnode) |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [AddNode](../../aspose.slides.smartart/ismartartnodecollection/addnode)() | Añade un nuevo nodo o subnodo. |
-| [AddNodeByPosition](../../aspose.slides.smartart/ismartartnodecollection/addnodebyposition)(int) | Añade un nuevo nodo en la posición seleccionada de la colección de nodos. |
-| [RemoveNode](../../aspose.slides.smartart/ismartartnodecollection/removenode#removenode_1)(int) | Elimina el nodo o subnodo por índice. |
-| [RemoveNode](../../aspose.slides.smartart/ismartartnodecollection/removenode#removenode)(ISmartArtNode) | Elimina el nodo o subnodo. |
+| [AddNode](../../aspose.slides.smartart/ismartartnodecollection/addnode)() | Agregar un nuevo nodo o subnodo. |
+| [AddNodeByPosition](../../aspose.slides.smartart/ismartartnodecollection/addnodebyposition)(int) | Agregar un nuevo nodo en la posición seleccionada de la colección de nodos. |
+| [RemoveNode](../../aspose.slides.smartart/ismartartnodecollection/removenode#removenode_1)(int) | Eliminar nodo o subnodo por índice. |
+| [RemoveNode](../../aspose.slides.smartart/ismartartnodecollection/removenode#removenode)(ISmartArtNode) | Eliminar nodo o subnodo. |
 
-### Ver también
+### Véase también
 
 * interfaz [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * interfaz [ISmartArtNode](../ismartartnode)

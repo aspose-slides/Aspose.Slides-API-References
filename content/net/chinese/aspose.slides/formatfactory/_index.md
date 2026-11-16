@@ -3,7 +3,7 @@ title: FormatFactory
 second_title: Aspose.Sildes .NET API 参考
 description: 允许通过 COM 接口创建格式。
 type: docs
-weight: 4950
+weight: 4970
 url: /zh/aspose.slides/formatfactory/
 ---
 ## FormatFactory 类
@@ -24,7 +24,7 @@ public class FormatFactory : IFormatFactory
 
 | 名称 | 描述 |
 | --- | --- |
-| 静态 [Instance](../../aspose.slides/formatfactory/instance) { get; } | 格式工厂的静态实例。只读 [`FormatFactory`](../formatfactory)。 |
+| static [Instance](../../aspose.slides/formatfactory/instance) { get; } | 格式工厂的静态实例。只读 [`FormatFactory`](../formatfactory)。 |
 
 ## 方法
 
@@ -34,7 +34,7 @@ public class FormatFactory : IFormatFactory
 | [CreatePortionFormat](../../aspose.slides/formatfactory/createportionformat)() | 创建新的 [`IPortionFormat`](../iportionformat)。 |
 | [CreateTextFrameFormat](../../aspose.slides/formatfactory/createtextframeformat)() | 创建新的 [`ITextFrameFormat`](../itextframeformat)。 |
 
-### 另见
+### 另请参见
 
 * 接口 [IFormatFactory](../iformatfactory)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

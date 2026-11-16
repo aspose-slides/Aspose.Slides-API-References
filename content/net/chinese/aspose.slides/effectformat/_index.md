@@ -1,9 +1,9 @@
 ---
 title: EffectFormat
-second_title: Aspose.Sildes 的 .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 表示形状的效果属性。
 type: docs
-weight: 2830
+weight: 2850
 url: /zh/aspose.slides/effectformat/
 ---
 ## EffectFormat 类
@@ -19,15 +19,15 @@ public sealed class EffectFormat : PVIObject, IEffectFormat
 | 名称 | 描述 |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基础 IPresentationComponent 接口。只读 [`IPresentationComponent`](../ipresentationcomponent)。 |
-| [BlurEffect](../../aspose.slides/effectformat/blureffect) { get; set; } | 模糊效果。读/写 [`IBlur`](../../aspose.slides.effects/iblur)。 |
-| [FillOverlayEffect](../../aspose.slides/effectformat/filloverlayeffect) { get; set; } | 填充叠加效果。读/写 [`IFillOverlay`](../../aspose.slides.effects/ifilloverlay)。 |
-| [GlowEffect](../../aspose.slides/effectformat/gloweffect) { get; set; } | 辉光效果。读/写 [`IGlow`](../../aspose.slides.effects/iglow)。 |
-| [InnerShadowEffect](../../aspose.slides/effectformat/innershadoweffect) { get; set; } | 内部阴影。读/写 [`IInnerShadow`](../../aspose.slides.effects/iinnershadow)。 |
-| [IsNoEffects](../../aspose.slides/effectformat/isnoeffects) { get; } | 如果所有效果已禁用则返回 true（与刚创建的默认 EffectFormat 对象相同）。只读 Boolean。 |
-| [OuterShadowEffect](../../aspose.slides/effectformat/outershadoweffect) { get; set; } | 外部阴影。读/写 [`IOuterShadow`](../../aspose.slides.effects/ioutershadow)。 |
-| [PresetShadowEffect](../../aspose.slides/effectformat/presetshadoweffect) { get; set; } | 预设阴影。读/写 [`IPresetShadow`](../../aspose.slides.effects/ipresetshadow)。 |
-| [ReflectionEffect](../../aspose.slides/effectformat/reflectioneffect) { get; set; } | 反射。读/写 [`IReflection`](../../aspose.slides.effects/ireflection)。 |
-| [SoftEdgeEffect](../../aspose.slides/effectformat/softedgeeffect) { get; set; } | 柔和边缘。读/写 [`ISoftEdge`](../../aspose.slides.effects/isoftedge)。 |
+| [BlurEffect](../../aspose.slides/effectformat/blureffect) { get; set; } | 模糊效果。读写 [`IBlur`](../../aspose.slides.effects/iblur)。 |
+| [FillOverlayEffect](../../aspose.slides/effectformat/filloverlayeffect) { get; set; } | 填充叠加效果。读写 [`IFillOverlay`](../../aspose.slides.effects/ifilloverlay)。 |
+| [GlowEffect](../../aspose.slides/effectformat/gloweffect) { get; set; } | 辉光效果。读写 [`IGlow`](../../aspose.slides.effects/iglow)。 |
+| [InnerShadowEffect](../../aspose.slides/effectformat/innershadoweffect) { get; set; } | 内部阴影。读写 [`IInnerShadow`](../../aspose.slides.effects/iinnershadow)。 |
+| [IsNoEffects](../../aspose.slides/effectformat/isnoeffects) { get; } | 如果所有效果均被禁用，则返回 true（如刚创建的默认 EffectFormat 对象）。只读 Boolean。 |
+| [OuterShadowEffect](../../aspose.slides/effectformat/outershadoweffect) { get; set; } | 外部阴影。读写 [`IOuterShadow`](../../aspose.slides.effects/ioutershadow)。 |
+| [PresetShadowEffect](../../aspose.slides/effectformat/presetshadoweffect) { get; set; } | 预设阴影。读写 [`IPresetShadow`](../../aspose.slides.effects/ipresetshadow)。 |
+| [ReflectionEffect](../../aspose.slides/effectformat/reflectioneffect) { get; set; } | 反射。读写 [`IReflection`](../../aspose.slides.effects/ireflection)。 |
+| [SoftEdgeEffect](../../aspose.slides/effectformat/softedgeeffect) { get; set; } | 柔化边缘。读写 [`ISoftEdge`](../../aspose.slides.effects/isoftedge)。 |
 
 ## 方法
 
@@ -40,20 +40,20 @@ public sealed class EffectFormat : PVIObject, IEffectFormat
 | [DisableOuterShadowEffect](../../aspose.slides/effectformat/disableoutershadoweffect)() | 禁用外部阴影效果。 |
 | [DisablePresetShadowEffect](../../aspose.slides/effectformat/disablepresetshadoweffect)() | 禁用预设阴影效果。 |
 | [DisableReflectionEffect](../../aspose.slides/effectformat/disablereflectioneffect)() | 禁用反射效果。 |
-| [DisableSoftEdgeEffect](../../aspose.slides/effectformat/disablesoftedgeeffect)() | 禁用柔和边缘效果。 |
+| [DisableSoftEdgeEffect](../../aspose.slides/effectformat/disablesoftedgeeffect)() | 禁用柔化边缘效果。 |
 | [EnableFillOverlayEffect](../../aspose.slides/effectformat/enablefilloverlayeffect)() | 启用填充叠加效果。 |
 | [EnableGlowEffect](../../aspose.slides/effectformat/enablegloweffect)() | 启用辉光效果。 |
 | [EnableInnerShadowEffect](../../aspose.slides/effectformat/enableinnershadoweffect)() | 启用内部阴影效果。 |
 | [EnableOuterShadowEffect](../../aspose.slides/effectformat/enableoutershadoweffect)() | 启用外部阴影效果。 |
 | [EnablePresetShadowEffect](../../aspose.slides/effectformat/enablepresetshadoweffect)() | 启用预设阴影效果。 |
 | [EnableReflectionEffect](../../aspose.slides/effectformat/enablereflectioneffect)() | 启用反射效果。 |
-| [EnableSoftEdgeEffect](../../aspose.slides/effectformat/enablesoftedgeeffect)() | 启用柔和边缘效果。 |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | 与指定对象进行比较。 |
+| [EnableSoftEdgeEffect](../../aspose.slides/effectformat/enablesoftedgeeffect)() | 启用柔化边缘效果。 |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | 与指定对象比较。 |
 | [GetEffective](../../aspose.slides/effectformat/geteffective)() | 获取应用继承后的有效效果格式化数据。 |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | 返回哈希码。 |
 | [SetBlurEffect](../../aspose.slides/effectformat/setblureffect)(double, bool) | 设置模糊效果。 |
 
-### 另见
+### 另请参阅
 
 * 类 [PVIObject](../pviobject)
 * 接口 [IEffectFormat](../ieffectformat)

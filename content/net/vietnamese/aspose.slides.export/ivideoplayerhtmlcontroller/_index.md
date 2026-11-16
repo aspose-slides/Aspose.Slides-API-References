@@ -1,14 +1,14 @@
 ---
 title: IVideoPlayerHtmlController
-second_title: Tham khảo API Aspose.Sildes cho .NET
-description: Lớp này cho phép xuất các tệp video và audio thành HTML
+second_title: Aspose.Sildes cho Tham chiếu API .NET
+description: Lớp này cho phép xuất video và tệp âm thanh thành HTML
 type: docs
-weight: 4180
+weight: 4200
 url: /vi/aspose.slides.export/ivideoplayerhtmlcontroller/
 ---
 ## IVideoPlayerHtmlController giao diện
 
-Lớp này cho phép xuất các tệp video và audio sang HTML
+Lớp này cho phép xuất video và tệp âm thanh thành HTML
 
 ```csharp
 public interface IVideoPlayerHtmlController : IHtmlFormattingController, ILinkEmbedController, 
@@ -19,9 +19,9 @@ public interface IVideoPlayerHtmlController : IHtmlFormattingController, ILinkEm
 
 | Tên | Mô tả |
 | --- | --- |
-| [AsIHtmlFormattingController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asihtmlformattingcontroller) { get; } | Cho phép lấy giao diện IHtmlFormattingController cơ sở. Chỉ đọc [`IHtmlFormattingController`](../ihtmlformattingcontroller). |
-| [AsILinkEmbedController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asilinkembedcontroller) { get; } | Cho phép lấy giao diện ILinkEmbedController cơ sở. Chỉ đọc [`ILinkEmbedController`](../ilinkembedcontroller). |
-| [AsISvgShapeFormattingController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asisvgshapeformattingcontroller) { get; } | Cho phép lấy giao diện ISvgShapeFormattingController cơ sở. Chỉ đọc [`ISvgShapeFormattingController`](../isvgshapeformattingcontroller). |
+| [AsIHtmlFormattingController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asihtmlformattingcontroller) { get; } | Cho phép lấy giao diện IHtmlFormattingController cơ bản. Chỉ đọc [`IHtmlFormattingController`](../ihtmlformattingcontroller). |
+| [AsILinkEmbedController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asilinkembedcontroller) { get; } | Cho phép lấy giao diện ILinkEmbedController cơ bản. Chỉ đọc [`ILinkEmbedController`](../ilinkembedcontroller). |
+| [AsISvgShapeFormattingController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asisvgshapeformattingcontroller) { get; } | Cho phép lấy giao diện ISvgShapeFormattingController cơ bản. Chỉ đọc [`ISvgShapeFormattingController`](../isvgshapeformattingcontroller). |
 
 ### Xem thêm
 

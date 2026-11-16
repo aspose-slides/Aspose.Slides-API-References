@@ -1,14 +1,14 @@
 ---
 title: NotesSlideHeaderFooterManager
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 노트 슬라이드 자리 표시자(특히 헤더 자리 표시자)의 동작을 관리하는 매니저를 나타냅니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: 헤더 자리 표시자를 포함한 노트 슬라이드 자리 표시자의 동작을 관리하는 관리자를 나타냅니다.
 type: docs
-weight: 9150
+weight: 9170
 url: /ko/aspose.slides/notesslideheaderfootermanager/
 ---
 ## NotesSlideHeaderFooterManager 클래스
 
-노트 슬라이드 자리 표시자, 특히 헤더 자리 표시자의 동작을 관리하는 매니저를 나타냅니다.
+헤더 자리 표시자를 포함한 노트 슬라이드 자리 표시자의 동작을 담당하는 관리자를 나타냅니다.
 
 ```csharp
 public sealed class NotesSlideHeaderFooterManager : BaseHandoutNotesSlideHeaderFooterManager, 
@@ -17,7 +17,7 @@ public sealed class NotesSlideHeaderFooterManager : BaseHandoutNotesSlideHeaderF
 
 ## 속성
 
-| Name | Description |
+| 이름 | 설명 |
 | --- | --- |
 | [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | 날짜-시간 자리 표시자가 존재함을 나타내는 값을 가져옵니다. ReadBoolean. |
 | [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | 바닥글 자리 표시자가 존재함을 나타내는 값을 가져옵니다. Read Boolean. |
@@ -26,15 +26,15 @@ public sealed class NotesSlideHeaderFooterManager : BaseHandoutNotesSlideHeaderF
 
 ## 메서드
 
-| Name | Description |
+| 이름 | 설명 |
 | --- | --- |
 | [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | 슬라이드 날짜-시간 자리 표시자에 텍스트를 설정합니다. |
-| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | 슬라이드 날짜-시간 자리 표시자 표시 여부를 변경합니다. |
+| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | 슬라이드 날짜-시간 자리 표시자의 표시 여부를 변경합니다. |
 | [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | 슬라이드 바닥글 자리 표시자에 텍스트를 설정합니다. |
-| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | 슬라이드 바닥글 자리 표시자 표시 여부를 변경합니다. |
+| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | 슬라이드 바닥글 자리 표시자의 표시 여부를 변경합니다. |
 | [SetHeaderText](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadertext)(string) | 슬라이드 머리글 자리 표시자에 텍스트를 설정합니다. |
-| [SetHeaderVisibility](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadervisibility)(bool) | 슬라이드 머리글 자리 표시자 표시 여부를 변경합니다. |
-| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | 슬라이드 페이지 번호 자리 표시자 표시 여부를 변경합니다. |
+| [SetHeaderVisibility](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadervisibility)(bool) | 슬라이드 머리글 자리 표시자의 표시 여부를 변경합니다. |
+| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | 슬라이드 페이지 번호 자리 표시자의 표시 여부를 변경합니다. |
 
 ### 참조
 

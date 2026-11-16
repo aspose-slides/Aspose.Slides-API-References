@@ -1,9 +1,9 @@
 ---
 title: NotesCommentsLayoutingOptions
-second_title: Référence API Aspose.Sildes pour .NET
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Fournit des options qui contrôlent l'apparence de la mise en page des notes et des commentaires dans le document exporté.
 type: docs
-weight: 4290
+weight: 4310
 url: /fr/aspose.slides.export/notescommentslayoutingoptions/
 ---
 ## NotesCommentsLayoutingOptions classe
@@ -16,16 +16,16 @@ public class NotesCommentsLayoutingOptions : ISlidesLayoutOptions
 
 ## Constructeurs
 
-| Name | Description |
+| Nom | Description |
 | --- | --- |
 | [NotesCommentsLayoutingOptions](notescommentslayoutingoptions)() | Constructeur par défaut. |
 
 ## Propriétés
 
-| Name | Description |
+| Nom | Description |
 | --- | --- |
 | [CommentsAreaColor](../../aspose.slides.export/notescommentslayoutingoptions/commentsareacolor) { get; set; } | Obtient ou définit la couleur de la zone des commentaires (S'applique uniquement si les commentaires sont affichés à droite). |
-| [CommentsAreaWidth](../../aspose.slides.export/notescommentslayoutingoptions/commentsareawidth) { get; set; } | Obtient ou définit la largeur de la zone de sortie des commentaires en pixels (S'applique uniquement si les commentaires sont affichés à droite). |
+| [CommentsAreaWidth](../../aspose.slides.export/notescommentslayoutingoptions/commentsareawidth) { get; set; } | Obtient ou définit la largeur de la zone d'affichage des commentaires en pixels (S'applique uniquement si les commentaires sont affichés à droite). |
 | [CommentsPosition](../../aspose.slides.export/notescommentslayoutingoptions/commentsposition) { get; set; } | Obtient ou définit la position des commentaires sur la page. |
 | [NotesPosition](../../aspose.slides.export/notescommentslayoutingoptions/notesposition) { get; set; } | Obtient ou définit la position des notes sur la page. |
 | [ShowCommentsByNoAuthor](../../aspose.slides.export/notescommentslayoutingoptions/showcommentsbynoauthor) { get; set; } | Obtient ou définit la visibilité des commentaires qui n'ont pas d'auteur. Si vrai, les commentaires seront affichés. (S'applique uniquement si les commentaires sont affichés). |

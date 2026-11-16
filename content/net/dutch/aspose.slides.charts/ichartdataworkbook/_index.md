@@ -1,14 +1,14 @@
 ---
 title: IChartDataWorkbook
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Biedt toegang tot ingesloten Excel-werkmap
+description: Biedt toegang tot de ingebedde Excel-werkmap
 type: docs
-weight: 1860
+weight: 1880
 url: /nl/aspose.slides.charts/ichartdataworkbook/
 ---
 ## IChartDataWorkbook interface
 
-Biedt toegang tot de ingesloten Excel-werkmap
+Biedt toegang tot de ingebedde Excel-werkmap
 
 ```csharp
 public interface IChartDataWorkbook
@@ -16,21 +16,21 @@ public interface IChartDataWorkbook
 
 ## Eigenschappen
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
-| [Worksheets](../../aspose.slides.charts/ichartdataworkbook/worksheets) { get; } | Geeft een collectie werkbladen. |
+| [Worksheets](../../aspose.slides.charts/ichartdataworkbook/worksheets) { get; } | Haalt een verzameling werkbladen op. |
 
 ## Methoden
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
-| [CalculateFormulas](../../aspose.slides.charts/ichartdataworkbook/calculateformulas)() | Bereken alle formules in de werkmap en werkt de overeenkomstige celwaarden bij. |
-| [Clear](../../aspose.slides.charts/ichartdataworkbook/clear)(int) | Wis alle celwaarden op het blad |
-| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_2)(int, string) | Haalt de cel op die kan worden gebruikt voor chartreeksen of categorieën |
-| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell)(int, int, int) | Haalt de cel op die kan worden gebruikt voor chartreeksen of categorieën |
-| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_3)(int, string, object) | Haalt de cel op die kan worden gebruikt voor chartreeksen of categorieën |
-| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_4)(string, int, int) | Haalt de cel op die kan worden gebruikt voor chartreeksen of categorieën |
-| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_1)(int, int, int, object) | Haalt de cel op die kan worden gebruikt voor chartreeksen of categorieën |
+| [CalculateFormulas](../../aspose.slides.charts/ichartdataworkbook/calculateformulas)() | Berekent alle formules in de werkmap en werkt de bijbehorende celwaarden bij. |
+| [Clear](../../aspose.slides.charts/ichartdataworkbook/clear)(int) | Wis alle celwaarden op het werkblad |
+| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_2)(int, string) | Haalt de cel op die kan worden gebruikt voor grafiekreeksen of -categorieën |
+| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell)(int, int, int) | Haalt de cel op die kan worden gebruikt voor grafiekreeksen of -categorieën |
+| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_3)(int, string, object) | Haalt de cel op die kan worden gebruikt voor grafiekreeksen of -categorieën |
+| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_4)(string, int, int) | Haalt de cel op die kan worden gebruikt voor grafiekreeksen of -categorieën |
+| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_1)(int, int, int, object) | Haalt de cel op die kan worden gebruikt voor grafiekreeksen of -categorieën |
 | [GetCellCollection](../../aspose.slides.charts/ichartdataworkbook/getcellcollection)(string, bool) | Haalt de set van cellen op. |
 
 ### Zie ook

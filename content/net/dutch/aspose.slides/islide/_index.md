@@ -3,7 +3,7 @@ title: ISlide
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Stelt een dia in een presentatie voor.
 type: docs
-weight: 7040
+weight: 7060
 url: /nl/aspose.slides/islide/
 ---
 ## ISlide interface
@@ -18,27 +18,27 @@ public interface ISlide : IBaseSlide, IOverrideThemeable
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/islide/asibaseslide) { get; } | Staat toe de IBaseSlide-interface op te halen. Alleen-lezen [`IBaseSlide`](../ibaseslide). |
-| [AsIOverrideThemeable](../../aspose.slides/islide/asioverridethemeable) { get; } | Retourneert de IOverrideThemeable-interface. Alleen-lezen [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
-| [HeaderFooterManager](../../aspose.slides/islide/headerfootermanager) { get; } | Retourneert de HeaderFooter-manager van de dia. Alleen-lezen [`ISlideHeaderFooterManager`](../islideheaderfootermanager). |
-| [Hidden](../../aspose.slides/islide/hidden) { get; set; } | Bepaalt of de opgegeven dia verborgen is tijdens een diavoorstelling. Lezen/Schrijven Boolean. |
-| [LayoutSlide](../../aspose.slides/islide/layoutslide) { get; set; } | Retourneert of stelt de lay-out-dia in voor de huidige dia. Lezen/Schrijven [`ILayoutSlide`](../ilayoutslide). |
-| [NotesSlideManager](../../aspose.slides/islide/notesslidemanager) { get; } | Staat toe toegang tot de aantekeningen-dia, deze toe te voegen en te verwijderen. Alleen-lezen [`INotesSlideManager`](../inotesslidemanager). |
-| [SlideNumber](../../aspose.slides/islide/slidenumber) { get; set; } | Retourneert een aantal dia's. De index van een dia in [`Slides`](../ipresentation/slides)-collectie is altijd gelijk aan SlideNumber - 1. Lezen/Schrijven Int32. |
+| [AsIBaseSlide](../../aspose.slides/islide/asibaseslide) { get; } | Stelt u in staat de basis-IBaseSlide interface te krijgen. Alleen-lezen [`IBaseSlide`](../ibaseslide). |
+| [AsIOverrideThemeable](../../aspose.slides/islide/asioverridethemeable) { get; } | Retourneert IOverrideThemeable interface. Alleen-lezen [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
+| [HeaderFooterManager](../../aspose.slides/islide/headerfootermanager) { get; } | Retourneert HeaderFooter manager van de dia. Alleen-lezen [`ISlideHeaderFooterManager`](../islideheaderfootermanager). |
+| [Hidden](../../aspose.slides/islide/hidden) { get; set; } | Bepaalt of de opgegeven dia verborgen is tijdens een diavoorstelling. Lees/schrijf Boolean. |
+| [LayoutSlide](../../aspose.slides/islide/layoutslide) { get; set; } | Retourneert of stelt de lay-outdia in voor de huidige dia. Lees/schrijf [`ILayoutSlide`](../ilayoutslide). |
+| [NotesSlideManager](../../aspose.slides/islide/notesslidemanager) { get; } | Staat toe om de notitiesdia te benaderen, toe te voegen en te verwijderen. Alleen-lezen [`INotesSlideManager`](../inotesslidemanager). |
+| [SlideNumber](../../aspose.slides/islide/slidenumber) { get; set; } | Retourneert een nummer van dia. Index van dia in [`Slides`](../ipresentation/slides) collectie is altijd gelijk aan SlideNumber - 1. Lees/schrijf Int32. |
 
-## Methodes
+## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| [GetImage](../../aspose.slides/islide/getimage#getimage)() | Retourneert een Thumbnail-Image-object (20% van de werkelijke grootte). |
-| [GetImage](../../aspose.slides/islide/getimage#getimage_1)(IRenderingOptions) | Retourneert een Thumbnail-Bitmap-object. |
-| [GetImage](../../aspose.slides/islide/getimage#getimage_4)(ITiffOptions) | Retourneert een Thumbnail-tiff-bitmap-object met opgegeven parameters. |
-| [GetImage](../../aspose.slides/islide/getimage#getimage_6)(Size) | Retourneert een image-object met opgegeven grootte. |
-| [GetImage](../../aspose.slides/islide/getimage#getimage_5)(float, float) | Retourneert een image-object met aangepaste schaal. |
-| [GetImage](../../aspose.slides/islide/getimage#getimage_3)(IRenderingOptions, Size) | Retourneert een Thumbnail-Bitmap-object met opgegeven grootte. |
-| [GetImage](../../aspose.slides/islide/getimage#getimage_2)(IRenderingOptions, float, float) | Retourneert een Thumbnail-Bitmap-object met aangepaste schaal. |
-| [GetSlideComments](../../aspose.slides/islide/getslidecomments)(ICommentAuthor) | Retourneert alle dia-commentaren die door een specifieke auteur zijn toegevoegd. |
-| [Remove](../../aspose.slides/islide/remove)() | Verwijdert de dia uit de presentatie. |
+| [GetImage](../../aspose.slides/islide/getimage#getimage)() | Retourneert een Thumbnail Image object (20% van de werkelijke grootte). |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_1)(IRenderingOptions) | Retourneert een Thumbnail Bitmap object. |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_4)(ITiffOptions) | Retourneert een Thumbnail tiff bitmap object met gespecificeerde parameters. |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_6)(Size) | Retourneert een image object met gespecificeerde grootte. |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_5)(float, float) | Retourneert een image object met aangepaste schaal. |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_3)(IRenderingOptions, Size) | Retourneert een Thumbnail Bitmap object met gespecificeerde grootte. |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_2)(IRenderingOptions, float, float) | Retourneert een Thumbnail Bitmap object met aangepaste schaal. |
+| [GetSlideComments](../../aspose.slides/islide/getslidecomments)(ICommentAuthor) | Retourneert alle diaopmerkingen toegevoegd door een specifieke auteur. |
+| [Remove](../../aspose.slides/islide/remove)() | Verwijdert dia uit presentatie. |
 | [Reset](../../aspose.slides/islide/reset)() | Reset de positie, grootte en opmaak van elke vorm die een prototype heeft op LayoutSlide. |
 | [WriteAsEmf](../../aspose.slides/islide/writeasemf)(Stream) | Slaat de inhoud van de dia op als een EMF-bestand. |
 | [WriteAsSvg](../../aspose.slides/islide/writeassvg#writeassvg)(Stream) | Slaat de inhoud van de dia op als een SVG-bestand. |

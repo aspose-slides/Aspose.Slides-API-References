@@ -1,14 +1,14 @@
 ---
 title: ITextStyleEffectiveData
-second_title: Aspose.Sildes pro .NET referenci API
-description: Neměnný objekt, který obsahuje efektivní vlastnosti textového stylu.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Neměnný objekt, který obsahuje efektivní vlastnosti stylu textu.
 type: docs
-weight: 7320
+weight: 7340
 url: /cs/aspose.slides/itextstyleeffectivedata/
 ---
 ## ITextStyleEffectiveData rozhraní
 
-Neměnný objekt, který obsahuje efektivní vlastnosti textového stylu.
+Nezměnitelný objekt, který obsahuje efektivní vlastnosti stylu textu.
 
 ```csharp
 public interface ITextStyleEffectiveData
@@ -18,7 +18,7 @@ public interface ITextStyleEffectiveData
 
 | Název | Popis |
 | --- | --- |
-| [DefaultParagraphFormat](../../aspose.slides/itextstyleeffectivedata/defaultparagraphformat) { get; } | Vrací efektivní výchozí vlastnosti odstavce. Pouze ke čtení [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata). |
+| [DefaultParagraphFormat](../../aspose.slides/itextstyleeffectivedata/defaultparagraphformat) { get; } | Vrací efektivní výchozí vlastnosti odstavce. Pouze pro čtení [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata). |
 
 ## Metody
 

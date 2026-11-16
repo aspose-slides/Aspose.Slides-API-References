@@ -1,14 +1,14 @@
 ---
 title: ITextFrameFormat
-second_title: Aspose.Sildes dla .NET – odniesienie API
+second_title: Aspose.Sildes dla .NET Referencja API
 description: Zawiera właściwości formatowania TextFrames.
 type: docs
-weight: 7280
+weight: 7300
 url: /pl/aspose.slides/itextframeformat/
 ---
 ## ITextFrameFormat interfejs
 
-Zawiera własności formatowania TextFrame.
+Zawiera właściwości formatowania TextFrame.
 
 ```csharp
 public interface ITextFrameFormat
@@ -18,17 +18,17 @@ public interface ITextFrameFormat
 
 | Nazwa | Opis |
 | --- | --- |
-| [AnchoringType](../../aspose.slides/itextframeformat/anchoringtype) { get; set; } | Zwraca lub ustawia pionowy punkt kotwiczenia tekstu w TextFrame. Odczyt/zapis [`TextAnchorType`](../textanchortype). |
+| [AnchoringType](../../aspose.slides/itextframeformat/anchoringtype) { get; set; } | Zwraca lub ustawia pionowy kotwiczony tekst w TextFrame. Odczyt/zapis [`TextAnchorType`](../textanchortype). |
 | [AutofitType](../../aspose.slides/itextframeformat/autofittype) { get; set; } | Zwraca lub ustawia tryb automatycznego dopasowania tekstu. Odczyt/zapis [`TextAutofitType`](../textautofittype). |
-| [CenterText](../../aspose.slides/itextframeformat/centertext) { get; set; } | Jeśli NullableBool.True, tekst powinien być wyśrodkowany w ramce w poziomie. Odczyt/zapis [`NullableBool`](../nullablebool). |
-| [ColumnCount](../../aspose.slides/itextframeformat/columncount) { get; set; } | Zwraca lub ustawia liczbę kolumn w obszarze tekstu. Wartość musi być liczbą dodatnią. W przeciwnym razie zostanie ustawiona na zero. Wartość 0 oznacza nieokreśloną wartość. Odczyt/zapis Int32. |
-| [ColumnSpacing](../../aspose.slides/itextframeformat/columnspacing) { get; set; } | Zwraca lub ustawia odstęp pomiędzy kolumnami tekstu w obszarze tekstu (w punktach). Dotyczy to tylko, gdy istnieje więcej niż 1 kolumna. Wartość musi być liczbą dodatnią. W przeciwnym razie zostanie ustawiona na zero. Odczyt/zapis Double. |
+| [CenterText](../../aspose.slides/itextframeformat/centertext) { get; set; } | Jeśli NullableBool.True, tekst powinien być wyśrodkowany w polu w poziomie. Odczyt/zapis [`NullableBool`](../nullablebool). |
+| [ColumnCount](../../aspose.slides/itextframeformat/columncount) { get; set; } | Zwraca lub ustawia liczbę kolumn w obszarze tekstowym. Ta wartość musi być liczbą dodatnią. W przeciwnym razie wartość zostanie ustawiona na zero. Wartość 0 oznacza nieokreśloną wartość. Odczyt/zapis Int32. |
+| [ColumnSpacing](../../aspose.slides/itextframeformat/columnspacing) { get; set; } | Zwraca lub ustawia odstęp między kolumnami tekstu w obszarze tekstowym (w punktach). Powinno to mieć zastosowanie tylko gdy istnieje więcej niż 1 kolumna. Ta wartość musi być liczbą dodatnią. W przeciwnym razie wartość zostanie ustawiona na zero. Odczyt/zapis Double. |
 | [KeepTextFlat](../../aspose.slides/itextframeformat/keeptextflat) { get; set; } | Zwraca lub ustawia całkowite wykluczenie tekstu ze sceny 3D. Odczyt/zapis Boolean. |
 | [MarginBottom](../../aspose.slides/itextframeformat/marginbottom) { get; set; } | Zwraca lub ustawia dolny margines (punkty) w TextFrame. Odczyt/zapis Double. |
 | [MarginLeft](../../aspose.slides/itextframeformat/marginleft) { get; set; } | Zwraca lub ustawia lewy margines (punkty) w TextFrame. Odczyt/zapis Double. |
 | [MarginRight](../../aspose.slides/itextframeformat/marginright) { get; set; } | Zwraca lub ustawia prawy margines (punkty) w TextFrame. Odczyt/zapis Double. |
 | [MarginTop](../../aspose.slides/itextframeformat/margintop) { get; set; } | Zwraca lub ustawia górny margines (punkty) w TextFrame. Odczyt/zapis Double. |
-| [RotationAngle](../../aspose.slides/itextframeformat/rotationangle) { get; set; } | Określa niestandardowy obrót stosowany do tekstu wewnątrz ramki. Jeśli nie jest podany, używany jest obrót powiązanej figury. Jeśli jest podany, jest stosowany niezależnie od figury. Oznacza to, że figura może mieć obrót, a jednocześnie tekst może mieć własny obrót. Wynikowa wartość wizualnego obrotu tekstu podsumowana z tej właściwości i predefiniowanego typu pionowego w właściwości TextVerticalType. Odczyt/zapis Single. |
+| [RotationAngle](../../aspose.slides/itextframeformat/rotationangle) { get; set; } | Określa niestandardowy obrót stosowany do tekstu w obrębie ramki. Jeśli nie jest podany, używany jest obrót powiązanej figury. Jeśli jest podany, jest stosowany niezależnie od figury. Oznacza to, że figura może mieć zastosowany obrót oprócz tekstu, który także ma obrót. Wynikowa wartość wizualnego obrotu tekstu podsumowana z tej właściwości i predefiniowanego typu pionowego w właściwości TextVerticalType. Odczyt/zapis Single. |
 | [TextStyle](../../aspose.slides/itextframeformat/textstyle) { get; } | Zwraca styl tekstu. Tylko do odczytu [`ITextStyle`](../itextstyle). |
 | [TextVerticalType](../../aspose.slides/itextframeformat/textverticaltype) { get; set; } | Określa orientację tekstu. Wynikowa wartość wizualnego obrotu tekstu podsumowana z tej właściwości i niestandardowego kąta w właściwości RotationAngle. Odczyt/zapis [`TextVerticalType`](../textverticaltype). |
 | [ThreeDFormat](../../aspose.slides/itextframeformat/threedformat) { get; } | Zwraca obiekt ThreeDFormat reprezentujący właściwości efektu 3D dla tekstu. Tylko do odczytu [`IThreeDFormat`](../ithreedformat). |
@@ -39,7 +39,7 @@ public interface ITextFrameFormat
 
 | Nazwa | Opis |
 | --- | --- |
-| [GetEffective](../../aspose.slides/itextframeformat/geteffective)() | Pobiera efektywne dane formatowania ramki tekstowej z zastosowanym dziedziczeniem. |
+| [GetEffective](../../aspose.slides/itextframeformat/geteffective)() | Zwraca efektywne dane formatowania ramki tekstowej z zastosowanym dziedziczeniem. |
 
 ### Zobacz także
 

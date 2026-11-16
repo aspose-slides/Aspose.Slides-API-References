@@ -1,26 +1,26 @@
 ---
 title: IVbaReferenceFactory
-second_title: Aspose.Sildes için .NET API Referansı
-description: VBA proje referanslarını COM arayüzü üzerinden oluşturmayı sağlar
+second_title: Aspose.Sildes for .NET API Referansı
+description: COM arabirimi aracılığıyla VBA proje referansları oluşturmayı sağlar
 type: docs
-weight: 11590
+weight: 11610
 url: /tr/aspose.slides.vba/ivbareferencefactory/
 ---
-## IVbaReferenceFactory arayüzü
+## IVbaReferenceFactory arayüz
 
-VBA proje referanslarını COM arayüzü aracılığıyla oluşturmayı sağlar
+COM arabirimi aracılığıyla VBA proje referansları oluşturmayı sağlar
 
 ```csharp
 public interface IVbaReferenceFactory
 ```
 
-## Metotlar
+## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [CreateOleTypeLibReference](../../aspose.slides.vba/ivbareferencefactory/createoletypelibreference)(string, string) | Yeni OLE Automation tip kitaplığı referansı oluşturur. |
+| [CreateOleTypeLibReference](../../aspose.slides.vba/ivbareferencefactory/createoletypelibreference)(string, string) | Yeni bir OLE Automation tür kitaplığı referansı oluşturur. |
 
-### Ayrıca Bakınız
+### Ayrıca
 
 * ad alanı [Aspose.Slides.Vba](../../aspose.slides.vba)
 * derleme [Aspose.Slides](../../)

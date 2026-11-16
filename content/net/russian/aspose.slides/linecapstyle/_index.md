@@ -1,14 +1,14 @@
 ---
 title: LineCapStyle
-second_title: Aspose.Sildes для .NET справочник API
-description: Представляет стиль окончания линии.
+second_title: Aspose.Sildes для .NET справочника API
+description: Представляет стиль конца линии.
 type: docs
-weight: 7760
+weight: 7780
 url: /ru/aspose.slides/linecapstyle/
 ---
-## Перечисление LineCapStyle
+## LineCapStyle перечисление
 
-Представляет стиль окончания линии.
+Представляет стиль конца линии.
 
 ```csharp
 public enum LineCapStyle : sbyte

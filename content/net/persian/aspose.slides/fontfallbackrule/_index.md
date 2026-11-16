@@ -1,14 +1,14 @@
 ---
 title: FontFallBackRule
-second_title: مرجع API Aspose.Sildes برای .NET
-description: نمایانگر قانون جایگزینی قلم
+second_title: Aspose.Sildes برای .NET مرجع API
+description: نمایانگر قاعدهٔ جایگزینی فونت
 type: docs
-weight: 4840
+weight: 4860
 url: /fa/aspose.slides/fontfallbackrule/
 ---
-## کلاس FontFallBackRule
+## FontFallBackRule کلاس
 
-نمایانگر قانون جایگزینی فونت
+نمایانگر قاعدهٔ جایگزینی فونت
 
 ```csharp
 public class FontFallBackRule : IFontFallBackRule
@@ -25,23 +25,23 @@ public class FontFallBackRule : IFontFallBackRule
 
 | نام | توضیح |
 | --- | --- |
-| [Count](../../aspose.slides/fontfallbackrule/count) { get; } | تعداد قلم‌های واقعاً تعریف‌شده برای بازه را دریافت می‌کند. فقط قابل خواندن Int32. |
-| [Item](../../aspose.slides/fontfallbackrule/item) { get; } | نام قلم را در ایندکس مشخص دریافت می‌کند. فقط قابل خواندن [`IFontFallBackRule`](../ifontfallbackrule). |
-| [RangeEndIndex](../../aspose.slides/fontfallbackrule/rangeendindex) { get; set; } | دریافت آخرین ایندکس بازهٔ پیوستهٔ یونیکد. |
-| [RangeStartIndex](../../aspose.slides/fontfallbackrule/rangestartindex) { get; set; } | دریافت اولین ایندکس بازهٔ پیوستهٔ یونیکد. |
+| [Count](../../aspose.slides/fontfallbackrule/count) { get; } | تعداد فونت‌های واقعاً تعریف‌شده برای بازه را برمی‌گرداند. فقط-خواندنی Int32. |
+| [Item](../../aspose.slides/fontfallbackrule/item) { get; } | نام فونت در شاخص مشخص‌شده را برمی‌گرداند. فقط-خواندنی [`IFontFallBackRule`](../ifontfallbackrule). |
+| [RangeEndIndex](../../aspose.slides/fontfallbackrule/rangeendindex) { get; set; } | آخرین شاخص بازه یونیکد پیوسته را دریافت می‌کند. |
+| [RangeStartIndex](../../aspose.slides/fontfallbackrule/rangestartindex) { get; set; } | اولین شاخص بازه یونیکد پیوسته را دریافت می‌کند. |
 
 ## متدها
 
 | نام | توضیح |
 | --- | --- |
-| [AddFallBackFonts](../../aspose.slides/fontfallbackrule/addfallbackfonts#addfallbackfonts)(string) | قلم(های) جدیدی را به فهرست قلم‌های FallBack اضافه می‌کند. |
-| [AddFallBackFonts](../../aspose.slides/fontfallbackrule/addfallbackfonts#addfallbackfonts_1)(string[]) | قلم‌های جدیدی را به فهرست قلم‌های FallBack اضافه می‌کند. |
-| [Clear](../../aspose.slides/fontfallbackrule/clear)() | تمام قلم‌ها را از فهرست حذف می‌کند. |
-| [IndexOf](../../aspose.slides/fontfallbackrule/indexof)(string) | یک ایندکس از قانون مشخص شده در مجموعه را بر می‌گرداند. |
-| [Remove](../../aspose.slides/fontfallbackrule/remove)(string) | اولین رخداد یک قلم FallBack خاص را از فهرست حذف می‌کند. |
-| [RemoveAt](../../aspose.slides/fontfallbackrule/removeat)(int) | قلم FallBack را در ایندکس مشخص شده از فهرست حذف می‌کند. |
-| [ToArray](../../aspose.slides/fontfallbackrule/toarray#toarray)() | یک آرایه شامل تمام قلم‌های FallBack برای این قانون ایجاد و برمی‌گرداند. |
-| [ToArray](../../aspose.slides/fontfallbackrule/toarray#toarray_1)(int, int) | یک آرایه شامل تمام قلم‌های FallBack از بازهٔ مشخص شده در فهرست ایجاد و برمی‌گرداند. |
+| [AddFallBackFonts](../../aspose.slides/fontfallbackrule/addfallbackfonts#addfallbackfonts)(string) | یک یا چند فونت جدید را به فهرست فونت‌های FallBack اضافه می‌کند. |
+| [AddFallBackFonts](../../aspose.slides/fontfallbackrule/addfallbackfonts#addfallbackfonts_1)(string[]) | فونت‌های جدید را به فهرست فونت‌های FallBack اضافه می‌کند. |
+| [Clear](../../aspose.slides/fontfallbackrule/clear)() | تمام فونت‌ها را از فهرست حذف می‌کند. |
+| [IndexOf](../../aspose.slides/fontfallbackrule/indexof)(string) | شاخص قانون مشخص‌شده در مجموعه را برمی‌گرداند. |
+| [Remove](../../aspose.slides/fontfallbackrule/remove)(string) | اولین رخداد یک فونت FallBack خاص را از فهرست حذف می‌کند. |
+| [RemoveAt](../../aspose.slides/fontfallbackrule/removeat)(int) | فونت FallBack در شاخص مشخص‌شده در فهرست را حذف می‌کند. |
+| [ToArray](../../aspose.slides/fontfallbackrule/toarray#toarray)() | یک آرایه شامل تمام فونت‌های FallBack برای این قانون ایجاد و برمی‌گرداند. |
+| [ToArray](../../aspose.slides/fontfallbackrule/toarray#toarray_1)(int, int) | یک آرایه شامل تمام فونت‌های FallBack از بازهٔ مشخص‌شده در فهرست ایجاد و برمی‌گرداند. |
 
 ### موارد مرتبط
 

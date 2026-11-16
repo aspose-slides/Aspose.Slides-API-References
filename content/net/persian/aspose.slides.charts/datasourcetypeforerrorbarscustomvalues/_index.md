@@ -1,14 +1,14 @@
 ---
 title: DataSourceTypeForErrorBarsCustomValues
-second_title: Aspose.Sildes برای مرجع API .NET
+second_title: Aspose.Sildes برای .NET مرجع API
 description: انواع مقادیر را در فهرست ویژگی‌های ChartDataPoint.ErrorBarsCustomValues مشخص می‌کند
 type: docs
-weight: 1590
+weight: 1600
 url: /fa/aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/
 ---
 ## DataSourceTypeForErrorBarsCustomValues کلاس
 
-انواع مقادیر را در فهرست ویژگی‌های ChartDataPoint.ErrorBarsCustomValues تعیین می‌کند
+انواع مقادیر در فهرست ویژگی‌های ChartDataPoint.ErrorBarsCustomValues را مشخص می‌کند
 
 ```csharp
 public class DataSourceTypeForErrorBarsCustomValues : IDataSourceTypeForErrorBarsCustomValues
@@ -16,20 +16,20 @@ public class DataSourceTypeForErrorBarsCustomValues : IDataSourceTypeForErrorBar
 
 ## سازنده‌ها
 
-| نام | شرح |
+| Name | Description |
 | --- | --- |
-| [DataSourceTypeForErrorBarsCustomValues](datasourcetypeforerrorbarscustomvalues)() | سازنده پیش‌فرض |
+| [DataSourceTypeForErrorBarsCustomValues](datasourcetypeforerrorbarscustomvalues)() | سازندهٔ پیش‌فرض. |
 
 ## ویژگی‌ها
 
-| نام | شرح |
+| Name | Description |
 | --- | --- |
-| [DataSourceTypeForXMinusValues](../../aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforxminusvalues) { get; set; } | مشخص می‌کند که آیا ویژگی AsCell یا AsLiteralString یا AsLiteralDouble در شیء ویژگی XMinus نقاط داده برای مقادیر سفارشی نوارهای خطا واقعی است. به عبارت دیگر، نوع مقدار ویژگی ChartDataPoint.ErrorBarsCustomValues.XMinus.Data را تعیین می‌کند. خواندنی/نوشتنی [`DataSourceType`](../datasourcetype). |
-| [DataSourceTypeForXPlusValues](../../aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforxplusvalues) { get; set; } | مشخص می‌کند که آیا ویژگی AsCell یا AsLiteralString یا AsLiteralDouble در شیء ویژگی XPlus نقاط داده برای مقادیر سفارشی نوارهای خطا واقعی است. به عبارت دیگر، نوع مقدار ویژگی ChartDataPoint.ErrorBarsCustomValues.XPlus.Data را تعیین می‌کند. خواندنی/نوشتنی [`DataSourceType`](../datasourcetype). |
-| [DataSourceTypeForYMinusValues](../../aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforyminusvalues) { get; set; } | مشخص می‌کند که آیا ویژگی AsCell یا AsLiteralString یا AsLiteralDouble در شیء ویژگی YMinus نقاط داده برای مقادیر سفارشی نوارهای خطا واقعی است. به عبارت دیگر، نوع مقدار ویژگی ChartDataPointEx.ErrorBarsCustomValues.YMinus.Data را تعیین می‌کند. خواندنی/نوشتنی [`DataSourceType`](../datasourcetype). |
-| [DataSourceTypeForYPlusValues](../../aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforyplusvalues) { get; set; } | مشخص می‌کند که آیا ویژگی AsCell یا AsLiteralString یا AsLiteralDouble در شیء ویژگی YPlus نقاط داده برای مقادیر سفارشی نوارهای خطا واقعی است. به عبارت دیگر، نوع مقدار ویژگی ChartDataPointEx.ErrorBarsCustomValues.YPlus.Data را تعیین می‌کند. خواندنی/نوشتنی [`DataSourceType`](../datasourcetype). |
+| [DataSourceTypeForXMinusValues](../../aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforxminusvalues) { get; set; } | مشخص می‌کند آیا ویژگی AsCell یا AsLiteralString یا AsLiteralDouble در شیء ویژگی XMinus نقاط داده برای مقادیر سفارشی میلهٔ خطای داده‌ها واقعی است. به عبارت دیگر نوع مقدار ویژگی ChartDataPoint.ErrorBarsCustomValues.XMinus.Data را مشخص می‌کند. قابل خواندن/نوشتن [`DataSourceType`](../datasourcetype). |
+| [DataSourceTypeForXPlusValues](../../aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforxplusvalues) { get; set; } | مشخص می‌کند آیا ویژگی AsCell یا AsLiteralString یا AsLiteralDouble در شیء ویژگی XPlus نقاط داده برای مقادیر سفارشی میلهٔ خطای داده‌ها واقعی است. به عبارت دیگر نوع مقدار ویژگی ChartDataPoint.ErrorBarsCustomValues.XPlus.Data را مشخص می‌کند. قابل خواندن/نوشتن [`DataSourceType`](../datasourcetype). |
+| [DataSourceTypeForYMinusValues](../../aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforyminusvalues) { get; set; } | مشخص می‌کند آیا ویژگی AsCell یا AsLiteralString یا AsLiteralDouble در شیء ویژگی YMinus نقاط داده برای مقادیر سفارشی میلهٔ خطای داده‌ها واقعی است. به عبارت دیگر نوع مقدار ویژگی ChartDataPointEx.ErrorBarsCustomValues.YMinus.Data را مشخص می‌کند. قابل خواندن/نوشتن [`DataSourceType`](../datasourcetype). |
+| [DataSourceTypeForYPlusValues](../../aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforyplusvalues) { get; set; } | مشخص می‌کند آیا ویژگی AsCell یا AsLiteralString یا AsLiteralDouble در شیء ویژگی YPlus نقاط داده برای مقادیر سفارشی میلهٔ خطای داده‌ها واقعی است. به عبارت دیگر نوع مقدار ویژگی ChartDataPointEx.ErrorBarsCustomValues.YPlus.Data را مشخص می‌کند. قابل خواندن/نوشتن [`DataSourceType`](../datasourcetype). |
 
-### همچنین
+### موارد مرتبط
 
 * رابط [IDataSourceTypeForErrorBarsCustomValues](../idatasourcetypeforerrorbarscustomvalues)
 * فضای‌نام [Aspose.Slides.Charts](../../aspose.slides.charts)

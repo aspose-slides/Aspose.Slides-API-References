@@ -1,12 +1,12 @@
 ---
 title: ViewProperties
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes .NET API Referansı
 description: Sunum genelindeki görünüm özellikleri.
 type: docs
-weight: 11740
+weight: 11760
 url: /tr/aspose.slides/viewproperties/
 ---
-## ViewProperties sınıfı
+## ViewProperties sınıf
 
 Sunum genelindeki görünüm özellikleri.
 
@@ -18,14 +18,14 @@ public class ViewProperties : IViewProperties
 
 | Ad | Açıklama |
 | --- | --- |
-| [GridSpacing](../../aspose.slides/viewproperties/gridspacing) { get; set; } | Sunum belgesinin altındaki ızgara için kullanılacak ızgara boşluğunu nokta cinsinden alır veya ayarlar. Okunur/Yazılır Single. |
-| [LastView](../../aspose.slides/viewproperties/lastview) { get; set; } | Sunum belgesi en son kaydedildiğinde kullanılan görünüm modunu belirtir. Okunur/Yazılır [`ViewType`](../viewtype). |
-| [NormalViewProperties](../../aspose.slides/viewproperties/normalviewproperties) { get; } | Normal görünüm özelliklerini temsil eder. Normal görünüm üç içerik bölgesinden oluşur: slayt kendisi, bir yan içerik bölgesi ve bir alt içerik bölgesi. Salt okunur [`INormalViewProperties`](../inormalviewproperties). |
-| [NotesViewProperties](../../aspose.slides/viewproperties/notesviewproperties) { get; } | Notlar görünüm moduyla ilişkili ortak görünüm özelliklerini belirtir. Salt okunur [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
-| [ShowComments](../../aspose.slides/viewproperties/showcomments) { get; set; } | Slayt yorumlarının gösterilip gösterilmeyeceğini belirtir. Okunur/Yazılır [`NullableBool`](../nullablebool). |
-| [SlideViewProperties](../../aspose.slides/viewproperties/slideviewproperties) { get; } | Slayt görünüm moduyla ilişkili ortak görünüm özelliklerini belirtir. Salt okunur [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
+| [GridSpacing](../../aspose.slides/viewproperties/gridspacing) { get; set; } | Sunum belgesinin temelindeki ızgarada kullanılacak ızgara aralığını döndürür veya ayarlar, nokta cinsinden. Okunur/Yazılır Single. |
+| [LastView](../../aspose.slides/viewproperties/lastview) { get; set; } | Sunum belgesi son kaydedildiğinde kullanılan görünüm modunu belirler. Okunur/Yazılır [`ViewType`](../viewtype). |
+| [NormalViewProperties](../../aspose.slides/viewproperties/normalviewproperties) { get; } | Normal görünüm özelliklerini temsil eder. Normal görünüm üç içerik bölgesinden oluşur: slayt kendisi, yan içerik bölgesi ve alt içerik bölgesi. Salt-okunur [`INormalViewProperties`](../inormalviewproperties). |
+| [NotesViewProperties](../../aspose.slides/viewproperties/notesviewproperties) { get; } | Notlar görünüm modu ile ilişkili ortak görünüm özelliklerini belirler. Salt-okunur [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
+| [ShowComments](../../aspose.slides/viewproperties/showcomments) { get; set; } | Slayt yorumlarının gösterilip gösterilmeyeceğini belirler. Okunur/Yazılır [`NullableBool`](../nullablebool). |
+| [SlideViewProperties](../../aspose.slides/viewproperties/slideviewproperties) { get; } | Slayt görünüm modu ile ilişkili ortak görünüm özelliklerini belirler. Salt-okunur [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
 
-### Diğer Bağlantılar
+### Ayrıca Bakınız
 
 * arayüz [IViewProperties](../iviewproperties)
 * ad alanı [Aspose.Slides](../../aspose.slides)

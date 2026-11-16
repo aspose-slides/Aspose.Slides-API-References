@@ -1,14 +1,14 @@
 ---
 title: SoftEdge
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta un effetto di bordo morbido. I bordi della forma sono sfocati mentre il riempimento non è influenzato.
+description: Rappresenta un effetto di bordo morbido. I bordi della forma sono sfocati mentre il riempimento non è interessato.
 type: docs
-weight: 3650
+weight: 3670
 url: /it/aspose.slides.effects/softedge/
 ---
 ## SoftEdge classe
 
-Rappresenta un effetto di bordo morbido. I bordi della forma sono sfocati, mentre il riempimento non è influenzato.
+Rappresenta un effetto di bordo morbido. I bordi della forma sono sfocati, mentre il riempimento non è interessato.
 
 ```csharp
 public sealed class SoftEdge : ISoftEdge
@@ -18,15 +18,15 @@ public sealed class SoftEdge : ISoftEdge
 
 | Nome | Descrizione |
 | --- | --- |
-| [Radius](../../aspose.slides.effects/softedge/radius) { get; set; } | Specifica il raggio della sfocatura da applicare ai bordi. Lettura/Scrittura Double. |
+| [Radius](../../aspose.slides.effects/softedge/radius) { get; set; } | Specifica il raggio di sfocatura da applicare ai bordi. Lettura/scrittura Double. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/softedge/equals)(object) | Determina se il [`SoftEdge`](../softedge) specificato è uguale al corrente [`SoftEdge`](../softedge). |
-| [GetEffective](../../aspose.slides.effects/softedge/geteffective)() | Ottiene i dati dell'effetto Soft Edge effettivo con l'ereditarietà applicata. |
-| override [GetHashCode](../../aspose.slides.effects/softedge/gethashcode)() | Funziona come una funzione hash per un tipo particolare. |
+| override [Equals](../../aspose.slides.effects/softedge/equals)(object) | Determina se il [`SoftEdge`](../softedge) specificato è uguale all'attuale [`SoftEdge`](../softedge). |
+| [GetEffective](../../aspose.slides.effects/softedge/geteffective)() | Ottiene i dati effettivi dell'effetto Soft Edge con l'ereditarietà applicata. |
+| override [GetHashCode](../../aspose.slides.effects/softedge/gethashcode)() | Funziona come funzione hash per un tipo particolare. |
 
 ### Vedi anche
 

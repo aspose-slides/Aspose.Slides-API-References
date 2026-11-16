@@ -1,14 +1,14 @@
 ---
 title: DoubleChartValue
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: แสดงค่าตัวเลข double ที่สามารถจัดเก็บในเอกสารการนำเสนอ pptx ได้สองวิธี 1 ในเซลล์/เซลล์ของเวิร์กบุ๊กที่เกี่ยวข้องกับแผนภูมิ 2 เป็นค่าลิทเทอรัล
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงค่าดับเบิลที่สามารถเก็บไว้ในเอกสารพรีเซนเทชัน pptx ได้สองวิธี 1 ในเซลล์/เซลล์ของเวิร์กบุ๊กที่เกี่ยวกับแผนภูมิ 2 เป็นค่าตัวอักษร.
 type: docs
-weight: 1630
+weight: 1640
 url: /th/aspose.slides.charts/doublechartvalue/
 ---
 ## DoubleChartValue คลาส
 
-แสดงค่าตัวเลข double ที่สามารถจัดเก็บในเอกสารการนำเสนอ pptx ได้สองวิธี: 1) ในเซลล์/เซลล์ของเวิร์กบุ๊กที่เกี่ยวข้องกับแผนภูมิ; 2) เป็นค่าลิทเทอรัล
+แสดงค่าดับเบิลที่สามารถจัดเก็บในเอกสารพรีเซนเทชัน pptx ได้สองวิธี: 1) ในเซลล์/เซลล์ของเวิร์กบุ๊กที่เกี่ยวกับแผนภูมิ; 2) เป็นค่าตัวอักษรโดยตรง.
 
 ```csharp
 public class DoubleChartValue : BaseChartValue, IDoubleChartValue
@@ -16,16 +16,16 @@ public class DoubleChartValue : BaseChartValue, IDoubleChartValue
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [AsCell](../../aspose.slides.charts/doublechartvalue/ascell) { get; set; } | คืนค่า หรือกำหนดเซลล์ข้อมูลแผนภูมิ อ่าน/เขียน [`IChartDataCell`](../ichartdatacell). |
-| [AsLiteralDouble](../../aspose.slides.charts/doublechartvalue/asliteraldouble) { get; set; } | คืนค่า หรือกำหนดค่าเป็น double ลิทเทอรัล อ่าน/เขียน Double. |
-| override [Data](../../aspose.slides.charts/doublechartvalue/data) { get; set; } | คืนค่า หรือกำหนดอ็อบเจ็กต์ Data อ่าน/เขียน Object. |
-| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | ระบุว่า property AsCell, AsCells, AsLiteralString หรือ AsLiteralDouble เป็นค่าที่แท้จริงในคลาสลูก กล่าวคือระบุประเภทของค่าของ property Data อ่าน/เขียน [`DataSourceType`](../datasourcetype). |
+| [AsCell](../../aspose.slides.charts/doublechartvalue/ascell) { get; set; } | คืนค่า หรือ ตั้งค่า chart data cell. อ่าน/เขียน [`IChartDataCell`](../ichartdatacell). |
+| [AsLiteralDouble](../../aspose.slides.charts/doublechartvalue/asliteraldouble) { get; set; } | คืนค่า หรือ ตั้งค่า value as literal double. อ่าน/เขียน Double. |
+| override [Data](../../aspose.slides.charts/doublechartvalue/data) { get; set; } | คืนค่า หรือ ตั้งค่า Data object. อ่าน/เขียน Object. |
+| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | ระบุว่า AsCell, AsCells, AsLiteralString หรือ AsLiteralDouble property เป็นจริงในคลาสที่สืบทอดหรือไม่ ในคำอื่น ๆ มันระบุประเภทของค่าของ property Data. อ่าน/เขียน [`DataSourceType`](../datasourcetype). |
 
 ## เมธอด
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
 | [ToDouble](../../aspose.slides.charts/doublechartvalue/todouble)() | แปลงเป็น Double. |
 

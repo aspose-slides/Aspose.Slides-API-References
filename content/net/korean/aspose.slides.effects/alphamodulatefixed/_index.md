@@ -1,14 +1,14 @@
 ---
 title: AlphaModulateFixed
 second_title: Aspose.Sildes for .NET API 참조
-description: Alpha Modulate Fixed 효과를 나타냅니다. 효과 알파 불투명도 값은 고정 비율로 곱해집니다.
+description: Alpha Modulate Fixed 효과를 나타냅니다. 효과 알파(불투명도) 값이 고정 비율로 곱해집니다.
 type: docs
-weight: 2890
+weight: 2910
 url: /ko/aspose.slides.effects/alphamodulatefixed/
 ---
 ## AlphaModulateFixed 클래스
 
-Alpha Modulate Fixed 효과를 나타냅니다. 효과 알파(불투명도) 값은 고정 비율로 곱해집니다.
+Alpha Modulate Fixed 효과를 나타냅니다. 효과 알파(불투명도) 값이 고정 비율로 곱해집니다.
 
 ```csharp
 public sealed class AlphaModulateFixed : ImageTransformOperation, IAlphaModulateFixed
@@ -18,16 +18,16 @@ public sealed class AlphaModulateFixed : ImageTransformOperation, IAlphaModulate
 
 | 이름 | 설명 |
 | --- | --- |
-| [Amount](../../aspose.slides.effects/alphamodulatefixed/amount) { get; set; } | 퍼센트 단위의 효과 양을 반환합니다. 읽기/쓰기 Single. |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 베이스 IPresentationComponent 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [Amount](../../aspose.slides.effects/alphamodulatefixed/amount) { get; set; } | 효과 양을 퍼센트로 반환합니다. 읽기/쓰기 Single. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 기본 IPresentationComponent 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## 메서드
 
 | 이름 | 설명 |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/alphamodulatefixed/equals)(object) | 지정된 [`AlphaModulateFixed`](../alphamodulatefixed)가 현재 [`AlphaModulateFixed`](../alphamodulatefixed)와 같은지 확인합니다. |
+| override [Equals](../../aspose.slides.effects/alphamodulatefixed/equals)(object) | 지정된 [`AlphaModulateFixed`](../alphamodulatefixed)이 현재 [`AlphaModulateFixed`](../alphamodulatefixed)와 동일한지 여부를 결정합니다. |
 | [GetEffective](../../aspose.slides.effects/alphamodulatefixed/geteffective)() | 상속이 적용된 효과적인 Alpha Modulate Fixed 효과 데이터를 가져옵니다. |
-| override [GetHashCode](../../aspose.slides.effects/alphamodulatefixed/gethashcode)() | 특정 유형에 대한 해시 함수 역할을 합니다. |
+| override [GetHashCode](../../aspose.slides.effects/alphamodulatefixed/gethashcode)() | 특정 유형에 대한 해시 함수로 작동합니다. |
 
 ### 관련 항목
 

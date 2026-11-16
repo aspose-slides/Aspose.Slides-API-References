@@ -3,7 +3,7 @@ title: IFontScheme
 second_title: Aspose.Sildes для .NET справочник API
 description: Хранит шрифты, определённые темой.
 type: docs
-weight: 11250
+weight: 11270
 url: /ru/aspose.slides.theme/ifontscheme/
 ---
 ## IFontScheme интерфейс
@@ -18,8 +18,8 @@ public interface IFontScheme
 
 | Имя | Описание |
 | --- | --- |
-| [Major](../../aspose.slides.theme/ifontscheme/major) { get; } | Возвращает коллекцию шрифтов для части слайда "heading". Только для чтения [`IFonts`](../../aspose.slides/ifonts). |
-| [Minor](../../aspose.slides.theme/ifontscheme/minor) { get; } | Возвращает коллекцию шрифтов для части слайда "body". Только для чтения [`IFonts`](../../aspose.slides/ifonts). |
+| [Major](../../aspose.slides.theme/ifontscheme/major) { get; } | Возвращает коллекцию шрифтов для части с "heading" слайда. Только чтение [`IFonts`](../../aspose.slides/ifonts). |
+| [Minor](../../aspose.slides.theme/ifontscheme/minor) { get; } | Возвращает коллекцию шрифтов для части с "body" слайда. Только чтение [`IFonts`](../../aspose.slides/ifonts). |
 | [Name](../../aspose.slides.theme/ifontscheme/name) { get; set; } | Возвращает имя схемы шрифтов. Чтение/запись String. |
 
 ### См. также

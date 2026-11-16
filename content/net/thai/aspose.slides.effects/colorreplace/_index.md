@@ -1,14 +1,14 @@
 ---
 title: ColorReplace
-second_title: Aspose.Sildes สำหรับ .NET - เอกสารอ้างอิง API
-description: แสดงถึงเอฟเฟกต์การแทนที่สี ทั้งหมดของสีในเอฟเฟกต์จะถูกเปลี่ยนเป็นสีคงที่ ค่าอัลฟ่าไม่ถูกเปลี่ยนแปลง
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงถึงเอฟเฟกต์การแทนที่สี. สีของเอฟเฟกต์ทั้งหมดจะถูกเปลี่ยนเป็นสีคงที่. ค่าความโปร่งใส (Alpha) ไม่ได้รับผลกระทบ.
 type: docs
-weight: 2950
+weight: 2970
 url: /th/aspose.slides.effects/colorreplace/
 ---
-## คลาส ColorReplace
+## ColorReplace คลาส
 
-แสดงถึงเอฟเฟกต์การแทนที่สี ทั้งหมดของสีในเอฟเฟกต์จะถูกเปลี่ยนเป็นสีคงที่ ค่าอัลฟ่าไม่ถูกเปลี่ยนแปลง
+แสดงถึงเอฟเฟกต์การแทนที่สี. สีของเอฟเฟกต์ทั้งหมดจะถูกเปลี่ยเป็นสีคงที่. ค่าความโปร่งใส (Alpha) จะไม่ได้รับผลกระทบ.
 
 ```csharp
 public sealed class ColorReplace : ImageTransformOperation, IColorReplace
@@ -18,16 +18,16 @@ public sealed class ColorReplace : ImageTransformOperation, IColorReplace
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | อนุญาตให้ดึงส่วนเชื่อมต่อ IPresentationComponent พื้นฐาน. อ่านอย่างเดียว [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
-| [Color](../../aspose.slides.effects/colorreplace/color) { get; } | คืนค่าฟอร์แมตสีที่จะใช้แทนที่สีของพิกเซลทุกพิกเซล. อ่านอย่างเดียว [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | อนุญาตให้รับอินเทอร์เฟซ IPresentationComponent เบส. อ่านอย่างเดียว [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [Color](../../aspose.slides.effects/colorreplace/color) { get; } | คืนค่ารูปแบบสีที่จะทำการแทนที่สีของแต่ละพิกเซล. อ่านอย่างเดียว [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/colorreplace/equals)(object) | กำหนดว่า [`ColorReplace`](../colorreplace) ที่ระบุเท่ากับ [`ColorReplace`](../colorreplace) ปัจจุบันหรือไม่. |
-| [GetEffective](../../aspose.slides.effects/colorreplace/geteffective)() | ดึงข้อมูลเอฟเฟกต์การแทนที่สีที่มีผลพร้อมการสืบทอดที่ใช้. |
-| override [GetHashCode](../../aspose.slides.effects/colorreplace/gethashcode)() | ทำหน้าที่เป็นฟังก์ชันแฮชสำหรับประเภทที่ระบุ. |
+| [GetEffective](../../aspose.slides.effects/colorreplace/geteffective)() | ได้รับข้อมูลเอฟเฟกต์การแทนที่สีที่มีผลพร้อมกับการสืบทอดที่ใช้. |
+| override [GetHashCode](../../aspose.slides.effects/colorreplace/gethashcode)() | ทำหน้าที่เป็นฟังก์ชันแฮชสำหรับประเภทเฉพาะ. |
 
 ### ดูเพิ่มเติม
 

@@ -1,9 +1,9 @@
 ---
 title: JoinPortionsWithSameFormatting
-second_title: Aspose.Sildes pro .NET API Reference
+second_title: Aspose.Sildes pro .NET API Referenci
 description: Spojuje úseky se stejným formátováním ve všech odstavcích.
 type: docs
-weight: 100
+weight: 110
 url: /cs/aspose.slides/itextframe/joinportionswithsameformatting/
 ---
 ## ITextFrame.JoinPortionsWithSameFormatting metoda

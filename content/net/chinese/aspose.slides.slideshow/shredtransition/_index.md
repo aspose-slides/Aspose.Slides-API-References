@@ -1,14 +1,14 @@
 ---
 title: ShredTransition
 second_title: Aspose.Sildes .NET API 参考
-description: Shred 幻灯片转场效果。
+description: 碎片幻灯片过渡效果。
 type: docs
-weight: 10300
+weight: 10320
 url: /zh/aspose.slides.slideshow/shredtransition/
 ---
 ## ShredTransition 类
 
-Shred 幻灯片转场效果。
+Shred slide transition effect.
 
 ```csharp
 public class ShredTransition : TransitionValueBase, IShredTransition
@@ -18,15 +18,15 @@ public class ShredTransition : TransitionValueBase, IShredTransition
 
 | 名称 | 描述 |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/shredtransition/direction) { get; set; } | 转场方向。可读写 [`TransitionInOutDirectionType`](../transitioninoutdirectiontype)。 |
-| [Pattern](../../aspose.slides.slideshow/shredtransition/pattern) { get; set; } | 指定转场期间使用的视觉形状。可读写 [`TransitionShredPattern`](../transitionshredpattern)。 |
+| [Direction](../../aspose.slides.slideshow/shredtransition/direction) { get; set; } | 过渡方向。读/写 [`TransitionInOutDirectionType`](../transitioninoutdirectiontype)。 |
+| [Pattern](../../aspose.slides.slideshow/shredtransition/pattern) { get; set; } | 指定在过渡期间使用的可视形状。读/写 [`TransitionShredPattern`](../transitionshredpattern)。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 确定两个 TransitionValueBase 实例是否相等。 |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 充当特定类型的哈希函数，适用于哈希算法和诸如哈希表的数据结构。 |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 作为特定类型的哈希函数，可用于散列算法和类似哈希表的数据结构。 |
 
 ### 另见
 

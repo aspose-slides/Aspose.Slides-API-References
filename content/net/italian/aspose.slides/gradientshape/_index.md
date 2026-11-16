@@ -1,14 +1,14 @@
 ---
 title: GradientShape
-second_title: Aspose.Sildes for .NET Riferimento API
-description: Rappresenta la forma del riempimento gradiente.
+second_title: Aspose.Sildes per .NET Riferimento API
+description: Rappresenta la forma del riempimento a gradiente.
 type: docs
-weight: 5010
+weight: 5030
 url: /it/aspose.slides/gradientshape/
 ---
 ## GradientShape enumerazione
 
-Rappresenta la forma del riempimento gradiente.
+Rappresenta la forma del riempimento a gradiente.
 
 ```csharp
 public enum GradientShape : sbyte

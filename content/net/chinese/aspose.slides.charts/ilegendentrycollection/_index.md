@@ -1,14 +1,14 @@
 ---
 title: ILegendEntryCollection
-second_title: Aspose.Sildes .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 表示图例集合。
 type: docs
-weight: 2140
+weight: 2160
 url: /zh/aspose.slides.charts/ilegendentrycollection/
 ---
 ## ILegendEntryCollection 接口
 
-表示图例集合。
+Represents legends collection.
 
 ```csharp
 public interface ILegendEntryCollection
@@ -19,9 +19,9 @@ public interface ILegendEntryCollection
 | Name | Description |
 | --- | --- |
 | [Count](../../aspose.slides.charts/ilegendentrycollection/count) { get; } | 获取集合中实际包含的元素数量。只读 Int32。 |
-| [Item](../../aspose.slides.charts/ilegendentrycollection/item) { get; } | 获取对应于 Chart.ChartData.Series[0].DataPoints[index] 的图例条目属性（当图表类型为以下列表中的一种时：ChartType.BarOfPie、ChartType.ExplodedPie、ChartType.ExplodedPie3D、ChartType.Pie、ChartType.Pie3D、ChartType.PieOfPie）；或者对应于其他图表类型的 Chart.ChartData.Series[index] 的属性。 |
+| [Item](../../aspose.slides.charts/ilegendentrycollection/item) { get; } | 获取对应于 Chart.ChartData.Series[0].DataPoints[index] 的图例条目属性（当图表类型为以下列表之一时：ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie；或对应于其他图表类型的 Chart.ChartData.Series[index]）。 |
 
-### 另请参见
+### 另见
 
 * 命名空间 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 程序集 [Aspose.Slides](../../)

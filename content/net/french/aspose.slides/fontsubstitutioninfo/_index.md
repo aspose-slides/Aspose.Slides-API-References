@@ -1,9 +1,9 @@
 ---
 title: FontSubstitutionInfo
-second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Cette structure représente les informations sur le remplacement de police lorsqu'elle sera rendue.
+second_title: Aspose.Sildes pour .NET Référence de l'API
+description: Cette structure représente les informations sur le remplacement de police lors du rendu.
 type: docs
-weight: 4910
+weight: 4930
 url: /fr/aspose.slides/fontsubstitutioninfo/
 ---
 ## FontSubstitutionInfo classe
@@ -18,14 +18,14 @@ public class FontSubstitutionInfo
 
 | Nom | Description |
 | --- | --- |
-| [FontSubstitutionInfo](fontsubstitutioninfo)(string, string) | Crée une instance de [`FontSubstitutionInfo`](../fontsubstitutioninfo) class. |
+| [FontSubstitutionInfo](fontsubstitutioninfo)(string, string) | Crée une instance de la classe [`FontSubstitutionInfo`](../fontsubstitutioninfo). |
 
 ## Propriétés
 
 | Nom | Description |
 | --- | --- |
-| [OriginalFontName](../../aspose.slides/fontsubstitutioninfo/originalfontname) { get; } | Indique le nom de police source dans la présentation. Lecture seule String |
-| [SubstitutedFontName](../../aspose.slides/fontsubstitutioninfo/substitutedfontname) { get; } | Indique le nom de police de remplacement pour la police d'origine. Lecture seule String |
+| [OriginalFontName](../../aspose.slides/fontsubstitutioninfo/originalfontname) { get; } | Indique le nom de la police source dans la présentation. Lecture seule String |
+| [SubstitutedFontName](../../aspose.slides/fontsubstitutioninfo/substitutedfontname) { get; } | Indique le nom de la police de remplacement pour la police originale. Lecture seule String |
 
 ### Exemples
 

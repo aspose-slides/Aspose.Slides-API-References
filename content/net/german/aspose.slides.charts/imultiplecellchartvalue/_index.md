@@ -3,7 +3,7 @@ title: IMultipleCellChartValue
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt eine Sammlung von Diagrammzellen dar.
 type: docs
-weight: 2170
+weight: 2190
 url: /de/aspose.slides.charts/imultiplecellchartvalue/
 ---
 ## IMultipleCellChartValue Schnittstelle
@@ -18,8 +18,8 @@ public interface IMultipleCellChartValue : IBaseChartValue
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsCells](../../aspose.slides.charts/imultiplecellchartvalue/ascells) { get; set; } | Gibt die Sammlung von Diagrammzellen zurück oder legt sie fest. Lesen/Schreiben [`IChartCellCollection`](../ichartcellcollection). |
-| [AsIBaseChartValue](../../aspose.slides.charts/imultiplecellchartvalue/asibasechartvalue) { get; } | Ermöglicht das Abrufen der Basis-IBaseChartValue-Schnittstelle. Nur Lesen [`IBaseChartValue`](../ibasechartvalue). |
+| [AsCells](../../aspose.slides.charts/imultiplecellchartvalue/ascells) { get; set; } | Gibt die Sammlung von Diagrammzellen zurück oder setzt sie. Lesen/Schreiben [`IChartCellCollection`](../ichartcellcollection). |
+| [AsIBaseChartValue](../../aspose.slides.charts/imultiplecellchartvalue/asibasechartvalue) { get; } | Ermöglicht das Abrufen der Basis-IBaseChartValue-Schnittstelle. Nur-Lesen [`IBaseChartValue`](../ibasechartvalue). |
 
 ### Siehe auch
 

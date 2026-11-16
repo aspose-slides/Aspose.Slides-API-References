@@ -1,9 +1,9 @@
 ---
 title: CommentAuthor
-second_title: Aspose.Sildes für .NET API Referenz
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt einen Autor von Kommentaren dar.
 type: docs
-weight: 2630
+weight: 2650
 url: /de/aspose.slides/commentauthor/
 ---
 ## CommentAuthor Klasse
@@ -18,9 +18,9 @@ public sealed class CommentAuthor : ICommentAuthor
 
 | Name | Beschreibung |
 | --- | --- |
-| [Comments](../../aspose.slides/commentauthor/comments) { get; } | Gibt die Sammlung der von diesem Autor erstellten Kommentare zurück. Nur-Lesen [`ICommentCollection`](../icommentcollection). |
-| [Initials](../../aspose.slides/commentauthor/initials) { get; set; } | Gibt die Initialen des Autors zurück oder legt sie fest. Lesen/Schreiben String. |
-| [Name](../../aspose.slides/commentauthor/name) { get; set; } | Gibt den Namen des Autors zurück oder legt ihn fest. Lesen/Schreiben String. |
+| [Comments](../../aspose.slides/commentauthor/comments) { get; } | Gibt die Sammlung von Kommentaren zurück, die von diesem Autor erstellt wurden. Schreibgeschützt [`ICommentCollection`](../icommentcollection). |
+| [Initials](../../aspose.slides/commentauthor/initials) { get; set; } | Gibt die Initialen des Autors zurück oder legt sie fest. Lese-/Schreib String. |
+| [Name](../../aspose.slides/commentauthor/name) { get; set; } | Gibt den Namen des Autors zurück oder legt ihn fest. Lese-/Schreib String. |
 
 ## Methoden
 
@@ -28,7 +28,7 @@ public sealed class CommentAuthor : ICommentAuthor
 | --- | --- |
 | [Remove](../../aspose.slides/commentauthor/remove)() | Entfernt den Autor aus der übergeordneten Sammlung. |
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [ICommentAuthor](../icommentauthor)
 * Namensraum [Aspose.Slides](../../aspose.slides)

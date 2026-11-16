@@ -1,20 +1,20 @@
 ---
 title: SwitchRowColumn
-second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Hoán đổi dữ liệu theo trục. Dữ liệu được vẽ biểu đồ trên trục X sẽ di chuyển sang trục Y và ngược lại.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Hoán đổi dữ liệu qua trục. Dữ liệu được vẽ biểu đồ trên trục X sẽ chuyển sang trục Y và ngược lại.
 type: docs
-weight: 140
+weight: 150
 url: /vi/aspose.slides.charts/chartdata/switchrowcolumn/
 ---
 ## ChartData.SwitchRowColumn phương thức
 
-Hoán đổi dữ liệu theo trục. Dữ liệu được vẽ biểu đồ trên trục X sẽ di chuyển sang trục Y và ngược lại.
+Hoán đổi dữ liệu qua trục. Dữ liệu được vẽ biểu đồ trên trục X sẽ chuyển sang trục Y và ngược lại.
 
 ```csharp
 public void SwitchRowColumn()
 ```
 
-### Xem Thêm
+### Xem thêm
 
 * lớp [ChartData](../../chartdata)
 * không gian tên [Aspose.Slides.Charts](../../chartdata)

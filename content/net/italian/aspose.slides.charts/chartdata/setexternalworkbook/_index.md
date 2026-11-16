@@ -1,14 +1,14 @@
 ---
 title: SetExternalWorkbook
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Imposta la cartella di lavoro esterna come origine dati per il grafico. I dati del grafico verranno aggiornati dalla cartella di lavoro di destinazione.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Imposta la cartella di lavoro esterna come origine dati per il diagramma. I dati del diagramma verranno aggiornati dalla cartella di lavoro di destinazione.
 type: docs
-weight: 120
+weight: 130
 url: /it/aspose.slides.charts/chartdata/setexternalworkbook/
 ---
 ## SetExternalWorkbook(string) {#setexternalworkbook}
 
-Imposta la cartella di lavoro esterna come origine dati per il grafico. I dati del grafico verranno aggiornati dalla cartella di lavoro di destinazione.
+Imposta la cartella di lavoro esterna come origine dati per il diagramma. I dati del diagramma verranno aggiornati dalla cartella di lavoro di destinazione.
 
 ```csharp
 public void SetExternalWorkbook(string workbookPath)
@@ -16,13 +16,13 @@ public void SetExternalWorkbook(string workbookPath)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| workbookPath | String | Percorso della cartella di lavoro di destinazione |
+| workbookPath | String | Path to the target workbook |
 
 ### Eccezioni
 
 | eccezione | condizione |
 | --- | --- |
-| InvalidOperationException | La cartella di lavoro esterna non è disponibile o non può essere caricata. |
+| InvalidOperationException | External workbook is not available or can't be loaded. |
 
 ### Esempi
 
@@ -46,7 +46,7 @@ using (Presentation pres = new Presentation())
 
 ## SetExternalWorkbook(string, bool) {#setexternalworkbook_1}
 
-Imposta la cartella di lavoro esterna come origine dati per il grafico.
+Imposta la cartella di lavoro esterna come origine dati per il diagramma.
 
 ```csharp
 public void SetExternalWorkbook(string workbookPath, bool updateChartData)
@@ -54,14 +54,14 @@ public void SetExternalWorkbook(string workbookPath, bool updateChartData)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| workbookPath | String | Percorso della cartella di lavoro di destinazione |
-| updateChartData | Boolean | Se il valore è false, verrà aggiornato solo il percorso della cartella di lavoro. I dati del grafico non verranno caricati né aggiornati dalla cartella di lavoro di destinazione. Può essere usato quando la cartella di lavoro di destinazione non esiste o non è disponibile. Se il valore è true, i dati del grafico verranno aggiornati dalla cartella di lavoro di destinazione. |
+| workbookPath | String | Path to the target workbook |
+| updateChartData | Boolean | Se il valore è false, solo il percorso della cartella di lavoro verrà aggiornato. I dati del diagramma non verranno caricati né aggiornati dalla cartella di lavoro di destinazione. Può essere usato quando la cartella di lavoro di destinazione non esiste o non è disponibile. Se il valore è true, i dati del diagramma verranno aggiornati dalla cartella di lavoro di destinazione. |
 
 ### Eccezioni
 
 | eccezione | condizione |
 | --- | --- |
-| InvalidOperationException | La cartella di lavoro esterna non è disponibile o non può essere caricata. |
+| InvalidOperationException | External workbook is not available or can't be loaded. |
 
 ### Esempi
 

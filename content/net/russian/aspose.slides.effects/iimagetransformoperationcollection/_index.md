@@ -1,14 +1,14 @@
 ---
 title: IImageTransformOperationCollection
-second_title: Aspose.Sildes для .NET справочник API
-description: Представляет коллекцию эффектов, применяемых к изображению.
+second_title: Aspose.Sildes для .NET API Reference
+description: Представляет коллекцию эффектов, применённых к изображению.
 type: docs
-weight: 3400
+weight: 3420
 url: /ru/aspose.slides.effects/iimagetransformoperationcollection/
 ---
 ## IImageTransformOperationCollection интерфейс
 
-Представляет коллекцию эффектов, применяемых к изображению.
+Представляет коллекцию эффектов, применённых к изображению.
 
 ```csharp
 public interface IImageTransformOperationCollection : ICollection<IImageTransformOperation>
@@ -18,7 +18,7 @@ public interface IImageTransformOperationCollection : ICollection<IImageTransfor
 
 | Имя | Описание |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.effects/iimagetransformoperationcollection/asienumerable) { get; } | Возвращает интерфейс IEnumerable. Только для чтения IEnumerable. |
+| [AsIEnumerable](../../aspose.slides.effects/iimagetransformoperationcollection/asienumerable) { get; } | Возвращает интерфейс IEnumerable. IEnumerable только для чтения. |
 | [Item](../../aspose.slides.effects/iimagetransformoperationcollection/item) { get; } | Возвращает [`IImageTransformOperation`](../iimagetransformoperation) из коллекции по его индексу. |
 
 ## Методы

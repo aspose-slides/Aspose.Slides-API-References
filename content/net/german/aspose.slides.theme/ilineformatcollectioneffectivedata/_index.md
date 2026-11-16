@@ -1,14 +1,14 @@
 ---
 title: ILineFormatCollectionEffectiveData
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Unveränderliches Objekt, das eine schreibgeschützte Sammlung wirksamer Linienformate darstellt.
+description: Unveränderliches Objekt, das eine schreibgeschützte Sammlung effektiver Linienformate darstellt.
 type: docs
-weight: 11300
+weight: 11320
 url: /de/aspose.slides.theme/ilineformatcollectioneffectivedata/
 ---
 ## ILineFormatCollectionEffectiveData Schnittstelle
 
-Unveränderliches Objekt, das eine schreibgeschützte Sammlung von wirksamen Linienformaten darstellt.
+Unveränderliches Objekt, das eine schreibgeschützte Sammlung effektiver Linienformate darstellt.
 
 ```csharp
 public interface ILineFormatCollectionEffectiveData : IGenericCollection<ILineFormatEffectiveData>
@@ -18,11 +18,11 @@ public interface ILineFormatCollectionEffectiveData : IGenericCollection<ILineFo
 
 | Name | Beschreibung |
 | --- | --- |
-| [Item](../../aspose.slides.theme/ilineformatcollectioneffectivedata/item) { get; } | Liefert das Element am angegebenen Index. Nur lesbar [`ILineFormatEffectiveData`](../../aspose.slides/ilineformateffectivedata). |
+| [Item](../../aspose.slides.theme/ilineformatcollectioneffectivedata/item) { get; } | Liefert das Element am angegebenen Index. Schreibgeschützt [`ILineFormatEffectiveData`](../../aspose.slides/ilineformateffectivedata). |
 
-### Bemerkungen
+### Hinweise
 
-Dieses Interface wird als Teil von [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata) verwendet.
+Diese Schnittstelle wird als Teil von [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata) verwendet.
 
 ### Siehe auch
 

@@ -1,14 +1,14 @@
 ---
 title: IMathBarFactory
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: อนุญาตให้สร้างแถบคณิตศาสตร์
+description: อนุญาตให้สร้างบาร์คณิตศาสตร์
 type: docs
-weight: 8130
+weight: 8150
 url: /th/aspose.slides.mathtext/imathbarfactory/
 ---
 ## IMathBarFactory อินเทอร์เฟซ
 
-อนุญาตให้สร้างแถบคณิตศาสตร์
+อนุญาตให้สร้างบาร์คณิตศาสตร์
 
 ```csharp
 public interface IMathBarFactory
@@ -18,8 +18,8 @@ public interface IMathBarFactory
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [CreateMathBar](../../aspose.slides.mathtext/imathbarfactory/createmathbar#createmathbar)(IMathElement) | สร้างแถบคณิตศาสตร์โดยการนำไปใช้กับองค์ประกอบ |
-| [CreateMathBar](../../aspose.slides.mathtext/imathbarfactory/createmathbar#createmathbar_1)(IMathElement, MathTopBotPositions) | สร้างแถบคณิตศาสตร์โดยการนำไปใช้กับองค์ประกอบ |
+| [CreateMathBar](../../aspose.slides.mathtext/imathbarfactory/createmathbar#createmathbar)(IMathElement) | สร้างบาร์คณิตศาสตร์โดยการใช้กับองค์ประกอบ |
+| [CreateMathBar](../../aspose.slides.mathtext/imathbarfactory/createmathbar#createmathbar_1)(IMathElement, MathTopBotPositions) | สร้างบาร์คณิตศาสตร์โดยการใช้กับองค์ประกอบ |
 
 ### หมายเหตุ
 

@@ -1,20 +1,20 @@
 ---
 title: ErrorBarType
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili jenis error bar
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Mewakili tipe error bar
 type: docs
-weight: 1640
+weight: 1650
 url: /id/aspose.slides.charts/errorbartype/
 ---
-## ErrorBarType enumerasi
+## enumerasi ErrorBarType
 
-Mewakili jenis error bar
+Mewakili tipe error bar
 
 ```csharp
 public enum ErrorBarType
 ```
 
-### Values
+### Nilai
 
 | Nama | Nilai | Deskripsi |
 | --- | --- | --- |

@@ -3,7 +3,7 @@ title: OleEmbeddedDataInfo
 second_title: Aspose.Sildes .NET API 参考
 description: 表示 OLE 对象的嵌入数据信息。
 type: docs
-weight: 2760
+weight: 2780
 url: /zh/aspose.slides.dom.ole/oleembeddeddatainfo/
 ---
 ## OleEmbeddedDataInfo 类
@@ -16,17 +16,17 @@ public class OleEmbeddedDataInfo : IOleEmbeddedDataInfo
 
 ## 构造函数
 
-| 名称 | 说明 |
+| 名称 | 描述 |
 | --- | --- |
-| [OleEmbeddedDataInfo](oleembeddeddatainfo#constructor)() | 创建 OLE 对象的新嵌入数据信息。 |
-| [OleEmbeddedDataInfo](oleembeddeddatainfo#constructor_1)(byte[], string) | 为 OLE 对象创建嵌入数据信息的新实例。嵌入 OLE 对象的文件数据 Byte[]. 当前嵌入 OLE 对象的文件扩展名 String。 |
+| [OleEmbeddedDataInfo](oleembeddeddatainfo#constructor)() | 为 OLE 对象创建新的嵌入数据信息。 |
+| [OleEmbeddedDataInfo](oleembeddeddatainfo#constructor_1)(byte[], string) | 创建 OLE 对象的嵌入数据的信息的新实例。嵌入 OLE 对象的文件数据 Byte[]。当前嵌入 OLE 对象的文件扩展名 String。 |
 
 ## 属性
 
-| 名称 | 说明 |
+| 名称 | 描述 |
 | --- | --- |
-| [EmbeddedFileData](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfiledata) { get; } | 返回嵌入 OLE 对象的文件数据，仅读取 Byte[]. |
-| [EmbeddedFileExtension](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfileextension) { get; } | 返回当前嵌入 OLE 对象的文件扩展名，仅读取 String。 |
+| [EmbeddedFileData](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfiledata) { get; } | 返回嵌入 OLE 对象的文件数据，只读 Byte[]。 |
+| [EmbeddedFileExtension](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfileextension) { get; } | 返回当前嵌入 OLE 对象的文件扩展名，只读 String。 |
 
 ### 另见
 

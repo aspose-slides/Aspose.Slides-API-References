@@ -3,7 +3,7 @@ title: FontAlignment
 second_title: Справочник API Aspose.Sildes для .NET
 description: Представляет вертикальное выравнивание шрифта.
 type: docs
-weight: 4800
+weight: 4820
 url: /ru/aspose.slides/fontalignment/
 ---
 ## Перечисление FontAlignment

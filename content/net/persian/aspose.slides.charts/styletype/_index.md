@@ -1,73 +1,73 @@
 ---
 title: StyleType
-second_title: Aspose.Sildes برای مرجع API .NET
+second_title: Aspose.Sildes برای .NET مرجع API
 description: نمایانگر استایل نمودار.
 type: docs
-weight: 2430
+weight: 2450
 url: /fa/aspose.slides.charts/styletype/
 ---
-## شماره‌گذاری StyleType
+## StyleType شمارش
 
-نمایانگر استایل نمودار.
+نمایش می‌دهد استایل نمودار.
 
 ```csharp
 public enum StyleType
 ```
 
-### مقدارها
+### مقادیر
 
 | نام | مقدار | توضیح |
 | --- | --- | --- |
-| Style1 | `0` | استایل 1 |
-| Style2 | `1` | استایل 2 |
-| Style3 | `2` | استایل 3 |
-| Style4 | `3` | استایل 4 |
-| Style5 | `4` | استایل 5 |
-| Style6 | `5` | استایل 6 |
-| Style7 | `6` | استایل 7 |
-| Style8 | `7` | استایل 8 |
-| Style9 | `8` | استایل 9 |
-| Style10 | `9` | استایل 10 |
-| Style11 | `10` | استایل 11 |
-| Style12 | `11` | استایل 12 |
-| Style13 | `12` | استایل 13 |
-| Style14 | `13` | استایل 14 |
-| Style15 | `14` | استایل 15 |
-| Style16 | `15` | استایل 16 |
-| Style17 | `16` | استایل 17 |
-| Style18 | `17` | استایل 18 |
-| Style19 | `18` | استایل 19 |
-| Style20 | `19` | استایل 20 |
-| Style21 | `20` | استایل 21 |
-| Style22 | `21` | استایل 22 |
-| Style23 | `22` | استایل 23 |
-| Style24 | `23` | استایل 24 |
-| Style25 | `24` | استایل 25 |
-| Style26 | `25` | استایل 26 |
-| Style27 | `26` | استایل 27 |
-| Style28 | `27` | استایل 28 |
-| Style29 | `28` | استایل 29 |
-| Style30 | `29` | استایل 30 |
-| Style31 | `30` | استایل 31 |
-| Style32 | `31` | استایل 32 |
-| Style33 | `32` | استایل 33 |
-| Style34 | `33` | استایل 34 |
-| Style35 | `34` | استایل 35 |
-| Style36 | `35` | استایل 36 |
-| Style37 | `36` | استایل 37 |
-| Style38 | `37` | استایل 38 |
-| Style39 | `38` | استایل 39 |
-| Style40 | `39` | استایل 40 |
-| Style41 | `40` | استایل 41 |
-| Style42 | `41` | استایل 42 |
-| Style43 | `42` | استایل 43 |
-| Style44 | `43` | استایل 44 |
-| Style45 | `44` | استایل 45 |
-| Style46 | `45` | استایل 46 |
-| Style47 | `46` | استایل 47 |
-| Style48 | `47` | استایل 48 |
+| Style1 | `0` | Style 1 |
+| Style2 | `1` | Style 2 |
+| Style3 | `2` | Style 3 |
+| Style4 | `3` | Style 4 |
+| Style5 | `4` | Style 5 |
+| Style6 | `5` | Style 6 |
+| Style7 | `6` | Style 7 |
+| Style8 | `7` | Style 8 |
+| Style9 | `8` | Style 9 |
+| Style10 | `9` | Style 10 |
+| Style11 | `10` | Style 11 |
+| Style12 | `11` | Style 12 |
+| Style13 | `12` | Style 13 |
+| Style14 | `13` | Style 14 |
+| Style15 | `14` | Style 15 |
+| Style16 | `15` | Style 16 |
+| Style17 | `16` | Style 17 |
+| Style18 | `17` | Style 18 |
+| Style19 | `18` | Style 19 |
+| Style20 | `19` | Style 20 |
+| Style21 | `20` | Style 21 |
+| Style22 | `21` | Style 22 |
+| Style23 | `22` | Style 23 |
+| Style24 | `23` | Style 24 |
+| Style25 | `24` | Style 25 |
+| Style26 | `25` | Style 26 |
+| Style27 | `26` | Style 27 |
+| Style28 | `27` | Style 28 |
+| Style29 | `28` | Style 29 |
+| Style30 | `29` | Style 30 |
+| Style31 | `30` | Style 31 |
+| Style32 | `31` | Style 32 |
+| Style33 | `32` | Style 33 |
+| Style34 | `33` | Style 34 |
+| Style35 | `34` | Style 35 |
+| Style36 | `35` | Style 36 |
+| Style37 | `36` | Style 37 |
+| Style38 | `37` | Style 38 |
+| Style39 | `38` | Style 39 |
+| Style40 | `39` | Style 40 |
+| Style41 | `40` | Style 41 |
+| Style42 | `41` | Style 42 |
+| Style43 | `42` | Style 43 |
+| Style44 | `43` | Style 44 |
+| Style45 | `44` | Style 45 |
+| Style46 | `45` | Style 46 |
+| Style47 | `46` | Style 47 |
+| Style48 | `47` | Style 48 |
 
-### موارد مرتبط
+### همچنین ببینید
 
 * namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
 * assembly [Aspose.Slides](../../)

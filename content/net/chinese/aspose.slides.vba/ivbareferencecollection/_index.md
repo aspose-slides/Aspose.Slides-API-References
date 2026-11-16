@@ -3,7 +3,7 @@ title: IVbaReferenceCollection
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示 VBA 项目引用的集合。
 type: docs
-weight: 11580
+weight: 11600
 url: /zh/aspose.slides.vba/ivbareferencecollection/
 ---
 ## IVbaReferenceCollection 接口
@@ -24,9 +24,9 @@ public interface IVbaReferenceCollection : IGenericCollection<IVbaReference>
 
 | 名称 | 描述 |
 | --- | --- |
-| [Add](../../aspose.slides.vba/ivbareferencecollection/add)(IVbaReference) | 将新引用添加到引用集合 |
+| [Add](../../aspose.slides.vba/ivbareferencecollection/add)(IVbaReference) | 将新的引用添加到引用集合中 |
 
-### 另请参见
+### 另请参阅
 
 * 接口 [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * 接口 [IVbaReference](../ivbareference)

@@ -1,14 +1,14 @@
 ---
 title: AlphaInverse
 second_title: Aspose.Sildes for .NET API Referansı
-description: Alpha Ters etkisini temsil eder. Alpha opaklık değerleri %100'den çıkarılarak tersine çevrilir.
+description: Alpha Inverse etkisini temsil eder. Alpha opaklık değerleri %100'ten çıkarılarak tersine çevrilir.
 type: docs
-weight: 2870
+weight: 2890
 url: /tr/aspose.slides.effects/alphainverse/
 ---
-## AlphaInverse sınıfı
+## AlphaInverse sınıf
 
-Alpha Ters etkisini temsil eder. Alpha (opaklık) değerleri %100'den çıkarılarak tersine çevrilir.
+Alpha Inverse etkisini temsil eder. Alpha (opaklık) değerleri %100'ten çıkarılarak tersine çevrilir.
 
 ```csharp
 public sealed class AlphaInverse : ImageTransformOperation, IAlphaInverse
@@ -18,15 +18,15 @@ public sealed class AlphaInverse : ImageTransformOperation, IAlphaInverse
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arabirimine erişim sağlar. Yalnızca okunabilir [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arayüzünü almaya izin verir. Salt okunur [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
-## Metotlar
+## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/alphainverse/equals)(object) | Belirtilen [`AlphaInverse`](../alphainverse)'in mevcut [`AlphaInverse`](../alphainverse) ile eşit olup olmadığını belirler. |
-| [GetEffective](../../aspose.slides.effects/alphainverse/geteffective)() | Kalıtım uygulanmış etkili Alpha Ters etkisi verilerini alır. |
-| override [GetHashCode](../../aspose.slides.effects/alphainverse/gethashcode)() | Belirli bir tür için bir karma işlevi olarak hizmet eder. |
+| override [Equals](../../aspose.slides.effects/alphainverse/equals)(object) | Belirtilen [`AlphaInverse`](../alphainverse)'nin mevcut [`AlphaInverse`](../alphainverse) ile eşit olup olmadığını belirler. |
+| [GetEffective](../../aspose.slides.effects/alphainverse/geteffective)() | Uygulanan kalıtımla etkili Alpha Inverse efekt verilerini alır. |
+| override [GetHashCode](../../aspose.slides.effects/alphainverse/gethashcode)() | Belirli bir tip için hash işlevi olarak hizmet eder. |
 
 ### Ayrıca Bakınız
 

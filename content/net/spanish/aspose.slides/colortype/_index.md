@@ -1,9 +1,9 @@
 ---
 title: ColorType
-second_title: Referencia de API .NET de Aspose.Sildes
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa diferentes modos de color.
 type: docs
-weight: 2580
+weight: 2600
 url: /es/aspose.slides/colortype/
 ---
 ## ColorType enumeración

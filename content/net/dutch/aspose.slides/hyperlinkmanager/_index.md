@@ -3,7 +3,7 @@ title: HyperlinkManager
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Biedt beheer van hyperlinks, toevoegen en verwijderen.
 type: docs
-weight: 5150
+weight: 5170
 url: /nl/aspose.slides/hyperlinkmanager/
 ---
 ## HyperlinkManager klasse
@@ -20,11 +20,11 @@ public sealed class HyperlinkManager : IHyperlinkManager
 | --- | --- |
 | [RemoveHyperlinkClick](../../aspose.slides/hyperlinkmanager/removehyperlinkclick)() | Verwijdert hyperlink bij klikken. |
 | [RemoveHyperlinkMouseOver](../../aspose.slides/hyperlinkmanager/removehyperlinkmouseover)() | Verwijdert hyperlink bij muisover. |
-| [SetExternalHyperlinkClick](../../aspose.slides/hyperlinkmanager/setexternalhyperlinkclick)(string) | Stelt externe hyperlink in bij klikken. |
+| [SetExternalHyperlinkClick](../../aspose.slides/hyperlinkmanager/setexternalhyperlinkclick)(string) | Stel externe hyperlink in bij klikken. |
 | [SetExternalHyperlinkMouseOver](../../aspose.slides/hyperlinkmanager/setexternalhyperlinkmouseover)(string) | Stelt externe hyperlink in bij muisover. |
 | [SetInternalHyperlinkClick](../../aspose.slides/hyperlinkmanager/setinternalhyperlinkclick)(ISlide) | Stelt interne hyperlink in bij klikken. |
 | [SetInternalHyperlinkMouseOver](../../aspose.slides/hyperlinkmanager/setinternalhyperlinkmouseover)(ISlide) | Stelt interne hyperlink in bij muisover. |
-| [SetMacroHyperlinkClick](../../aspose.slides/hyperlinkmanager/setmacrohyperlinkclick)(string) | Stelt macro-hyperlink in bij een klik. |
+| [SetMacroHyperlinkClick](../../aspose.slides/hyperlinkmanager/setmacrohyperlinkclick)(string) | Stel macro-hyperlink in bij een klik. |
 
 ### Zie ook
 

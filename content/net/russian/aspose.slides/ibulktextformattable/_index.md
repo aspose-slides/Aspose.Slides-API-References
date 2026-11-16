@@ -1,14 +1,14 @@
 ---
 title: IBulkTextFormattable
-second_title: Aspose.Sildes для .NET справочника API
+second_title: Aspose.Sildes для .NET API Reference
 description: Представляет объект, позволяющий массово задавать форматы дочерних текстовых элементов.
 type: docs
-weight: 5380
+weight: 5400
 url: /ru/aspose.slides/ibulktextformattable/
 ---
 ## IBulkTextFormattable интерфейс
 
-Представляет объект с возможностью массовой установки форматов дочерних текстовых элементов.
+Представляет объект, позволяющий массово задавать форматы дочерних текстовых элементов.
 
 ```csharp
 public interface IBulkTextFormattable
@@ -18,9 +18,9 @@ public interface IBulkTextFormattable
 
 | Имя | Описание |
 | --- | --- |
-| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat)(IParagraphFormat) | Устанавливает определённые свойства формата абзаца для всех абзацев элемента. |
-| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat_1)(IPortionFormat) | Устанавливает определённые свойства формата части для всех частей элемента. |
-| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat_2)(ITextFrameFormat) | Устанавливает определённые свойства формата текстовой рамки для всех текстовых рамок элемента. |
+| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat)(IParagraphFormat) | Устанавливает заданные свойства формата абзаца для всех абзацев элемента. |
+| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat_1)(IPortionFormat) | Устанавливает заданные свойства формата фрагмента для всех фрагментов элемента. |
+| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat_2)(ITextFrameFormat) | Устанавливает заданные свойства формата текстового кадра для всех текстовых кадров элемента. |
 
 ### См. также
 

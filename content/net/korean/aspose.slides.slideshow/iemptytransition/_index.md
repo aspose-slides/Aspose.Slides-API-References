@@ -3,7 +3,7 @@ title: IEmptyTransition
 second_title: Aspose.Sildes for .NET API 참조
 description: 빈 슬라이드 전환 효과.
 type: docs
-weight: 10080
+weight: 10100
 url: /ko/aspose.slides.slideshow/iemptytransition/
 ---
 ## IEmptyTransition 인터페이스

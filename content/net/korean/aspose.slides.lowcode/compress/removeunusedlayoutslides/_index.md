@@ -1,14 +1,14 @@
 ---
 title: RemoveUnusedLayoutSlides
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 사용되지 않는 레이아웃 슬라이드를 제거하여 Presentationaspose.slides/presentation을 압축합니다.
+description: 사용되지 않은 레이아웃 슬라이드를 제거하여 Presentationaspose.slides/presentation을 압축합니다.
 type: docs
-weight: 20
+weight: 40
 url: /ko/aspose.slides.lowcode/compress/removeunusedlayoutslides/
 ---
 ## Compress.RemoveUnusedLayoutSlides 메서드
 
-사용되지 않는 레이아웃 슬라이드를 제거하여 [`Presentation`](../../../aspose.slides/presentation)를 압축합니다.
+사용되지 않은 레이아웃 슬라이드를 제거하여 [`Presentation`](../../../aspose.slides/presentation)을 압축합니다.
 
 ```csharp
 public static void RemoveUnusedLayoutSlides(Presentation pres)
@@ -29,7 +29,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### 참고
+### 관련 항목
 
 * 클래스 [Presentation](../../../aspose.slides/presentation)
 * 클래스 [Compress](../../compress)

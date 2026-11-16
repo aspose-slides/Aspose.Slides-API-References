@@ -1,9 +1,9 @@
 ---
 title: FontsLoader
-second_title: Aspose.Sildes para .NET Referencia de API
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Clase para cargar fuentes personalizadas definidas por el usuario. Debe usarse antes de crear cualquier objeto de presentación.
 type: docs
-weight: 4930
+weight: 4950
 url: /es/aspose.slides/fontsloader/
 ---
 ## FontsLoader clase
@@ -19,9 +19,9 @@ public sealed class FontsLoader : IFontsLoader
 | Nombre | Descripción |
 | --- | --- |
 | static [ClearCache](../../aspose.slides/fontsloader/clearcache)() | Libera todas las fuentes personalizadas definidas por el usuario |
-| static [GetFontFolders](../../aspose.slides/fontsloader/getfontfolders)() | Obtiene las carpetas de fuentes. Devuelve las carpetas que se han añadido con el método LoadExternalFonts así como las carpetas de fuentes del sistema |
-| static [LoadExternalFont](../../aspose.slides/fontsloader/loadexternalfont)(byte[]) | Añade una fuente a partir de los datos binarios |
-| static [LoadExternalFonts](../../aspose.slides/fontsloader/loadexternalfonts)(string[]) | Añade carpetas adicionales para buscar fuentes. |
+| static [GetFontFolders](../../aspose.slides/fontsloader/getfontfolders)() | Obtiene las carpetas de fuentes. Devuelve las carpetas que se han añadido con el método LoadExternalFonts, así como las carpetas de fuentes del sistema |
+| static [LoadExternalFont](../../aspose.slides/fontsloader/loadexternalfont)(byte[]) | Agrega una fuente a partir de los datos binarios |
+| static [LoadExternalFonts](../../aspose.slides/fontsloader/loadexternalfonts)(string[]) | Agrega carpetas adicionales para buscar fuentes. |
 
 ### Ver también
 

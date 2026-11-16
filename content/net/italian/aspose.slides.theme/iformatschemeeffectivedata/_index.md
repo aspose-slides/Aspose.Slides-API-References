@@ -1,14 +1,14 @@
 ---
 title: IFormatSchemeEffectiveData
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Oggetto immutabile che contiene le proprietà del formato schema effettivo.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Oggetto immutabile che contiene le proprietà dello schema di formato effettivo.
 type: docs
-weight: 11280
+weight: 11300
 url: /it/aspose.slides.theme/iformatschemeeffectivedata/
 ---
 ## IFormatSchemeEffectiveData interfaccia
 
-Oggetto immutabile che contiene le proprietà del formato schema effettivo.
+Oggetto immutabile che contiene le proprietà dello schema di formato effettivo.
 
 ```csharp
 public interface IFormatSchemeEffectiveData
@@ -23,9 +23,9 @@ public interface IFormatSchemeEffectiveData
 | [GetFillStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getfillstyles)(Color) | Restituisce una raccolta di stili di riempimento definiti dal tema. |
 | [GetLineStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getlinestyles)(Color) | Restituisce una raccolta di stili di linea definiti dal tema. |
 
-### Osservazioni
+### Note
 
-Questa interfaccia è usata come parte di [`IThemeEffectiveData`](../ithemeeffectivedata).
+Questa interfaccia è utilizzata come parte di [`IThemeEffectiveData`](../ithemeeffectivedata).
 
 ### Vedi anche
 

@@ -1,14 +1,14 @@
 ---
 title: IAlphaFloorEffectiveData
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Objek tak dapat diubah yang mewakili efek Alpha Floor. Nilai opacity Alpha yang kurang dari 100 diubah menjadi nol. Dengan kata lain, apa pun yang sebagian transparan menjadi sepenuhnya transparan.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Objek tak dapat diubah yang mewakili efek Alpha Floor. Nilai opacity Alpha yang kurang dari 100 diubah menjadi nol. Dengan kata lain, apa pun yang semi-transparan menjadi sepenuhnya transparan.
 type: docs
-weight: 3070
+weight: 3090
 url: /id/aspose.slides.effects/ialphaflooreffectivedata/
 ---
 ## IAlphaFloorEffectiveData antarmuka
 
-Objek tak dapat diubah yang mewakili efek Alpha Floor. Nilai Alpha (opacity) kurang dari 100% diubah menjadi nol. Dengan kata lain, apa pun yang semi transparan menjadi sepenuhnya transparan.
+Objek tak dapat diubah yang mewakili efek Alpha Floor. Nilai Alpha (opacity) yang kurang dari 100% diubah menjadi nol. Dengan kata lain, apa pun yang semi-transparan menjadi sepenuhnya transparan.
 
 ```csharp
 public interface IAlphaFloorEffectiveData : IEffectEffectiveData
@@ -18,7 +18,7 @@ public interface IAlphaFloorEffectiveData : IEffectEffectiveData
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphaflooreffectivedata/asieffecteffectivedata) { get; } | Mengizinkan mengambil antarmuka IEffectEffectiveData dasar. Hanya-baca [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphaflooreffectivedata/asieffecteffectivedata) { get; } | Mengizinkan untuk mendapatkan antarmuka IEffectEffectiveData dasar. Baca-saja [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
 ### Lihat Juga
 

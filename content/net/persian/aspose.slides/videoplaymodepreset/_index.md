@@ -1,14 +1,14 @@
 ---
 title: VideoPlayModePreset
-second_title: Aspose.Sildes برای .NET مرجع API
-description: ثابت‌هایی که نحوه پخش یک ویدیو را تعریف می‌کنند.
+second_title: Aspose.Sildes برای مرجع API .NET
+description: ثابت‌هایی که نحوه پخش یک ویدئو را تعیین می‌کنند.
 type: docs
-weight: 11730
+weight: 11750
 url: /fa/aspose.slides/videoplaymodepreset/
 ---
-## VideoPlayModePreset enum
+## VideoPlayModePreset enumeration
 
-ثابت‌هایی که نحوه پخش یک ویدیو را تعریف می‌کنند.
+ثابت‌هایی که نحوه پخش یک ویدئو را تعیین می‌کنند.
 
 ```csharp
 public enum VideoPlayModePreset
@@ -20,9 +20,9 @@ public enum VideoPlayModePreset
 | --- | --- | --- |
 | Mixed | `-1` |  |
 | Auto | `0` | به‌صورت خودکار پخش می‌شود. |
-| OnClick | `1` | فقط زمانی که فریم ویدیو کلیک شود، پخش می‌شود. |
+| OnClick | `1` | تنها زمانی پخش می‌شود که فریم ویدئو کلیک شود. |
 | AllSlides | `2` | در تمام اسلایدها پخش می‌شود. |
-| InClickSequence | `3` | به‌صورت خودکار با یک کلیک پخش می‌شود. |
+| InClickSequence | `3` | با کلیک به‌صورت خودکار پخش می‌شود. |
 
 ### مراجع
 

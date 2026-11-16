@@ -1,14 +1,14 @@
 ---
 title: VbaReferenceCollection
-second_title: Aspose.Sildes .NET API referencia
-description: Egy VBA projekt hivatkozásainak gyűjteményét képviseli.
+second_title: Aspose.Sildes a .NET API referenciája
+description: Egy VBA projekt hivatkozásainak gyűjteményét ábrázolja.
 type: docs
-weight: 11670
+weight: 11690
 url: /hu/aspose.slides.vba/vbareferencecollection/
 ---
 ## VbaReferenceCollection osztály
 
-Represents a collection of a VBA Project references.
+Egy VBA-projekt hivatkozásainak gyűjteménye.
 
 ```csharp
 public class VbaReferenceCollection : IVbaReferenceCollection
@@ -18,18 +18,18 @@ public class VbaReferenceCollection : IVbaReferenceCollection
 
 | Név | Leírás |
 | --- | --- |
-| [Count](../../aspose.slides.vba/vbareferencecollection/count) { get; } | Meghatározza a kollekcióban ténylegesen tárolt elemek számát. Csak olvasható Int32. |
-| [IsSynchronized](../../aspose.slides.vba/vbareferencecollection/issynchronized) { get; } | Visszaad egy értéket, amely jelzi, hogy a kollekcióhoz való hozzáférés szinkronizált-e (szálbiztos). Csak olvasható Boolean. |
-| [Item](../../aspose.slides.vba/vbareferencecollection/item) { get; } | Megkapja a megadott indexű elemet. |
+| [Count](../../aspose.slides.vba/vbareferencecollection/count) { get; } | Megkapja a gyűjteményben ténylegesen lévő elemek számát. Csak olvasható Int32. |
+| [IsSynchronized](../../aspose.slides.vba/vbareferencecollection/issynchronized) { get; } | Visszaad egy értéket, amely jelzi, hogy a gyűjteményhez való hozzáférés szinkronizált (szálbiztos)-e. Csak olvasható Boolean. |
+| [Item](../../aspose.slides.vba/vbareferencecollection/item) { get; } | Megkapja az elemét a megadott indexen. |
 | [SyncRoot](../../aspose.slides.vba/vbareferencecollection/syncroot) { get; } | Visszaad egy szinkronizációs gyökérobjektumot. Csak olvasható Object. |
 
-## Metódusok
+## Módszerek
 
 | Név | Leírás |
 | --- | --- |
-| [Add](../../aspose.slides.vba/vbareferencecollection/add)(IVbaReference) | Új referenciát ad a referenciák gyűjteményéhez |
-| [CopyTo](../../aspose.slides.vba/vbareferencecollection/copyto)(Array, int) | Átmásolja a kollekció összes elemét a megadott tömbbe. |
-| [GetEnumerator](../../aspose.slides.vba/vbareferencecollection/getenumerator)() | Visszaad egy enumerátort, amely végigiterál a kollekción. |
+| [Add](../../aspose.slides.vba/vbareferencecollection/add)(IVbaReference) | Hozzáadja az új hivatkozást a hivatkozások gyűjteményéhez |
+| [CopyTo](../../aspose.slides.vba/vbareferencecollection/copyto)(Array, int) | Átmásolja a gyűjtemény összes elemét a megadott tömbbe. |
+| [GetEnumerator](../../aspose.slides.vba/vbareferencecollection/getenumerator)() | Visszaad egy enumerátort, amely végigjárja a gyűjteményt. |
 
 ### Lásd még
 

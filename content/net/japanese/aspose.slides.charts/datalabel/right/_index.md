@@ -1,14 +1,14 @@
 ---
 title: Right
 second_title: Aspose.Sildes for .NET API リファレンス
-description: Right. 読み取り専用 Single.
+description: 右。 読み取り専用 Single.
 type: docs
-weight: 110
+weight: 120
 url: /ja/aspose.slides.charts/datalabel/right/
 ---
 ## DataLabel.Right プロパティ
 
-右。 読み取り専用 Single。
+右。 読み取り専用 Single.
 
 ```csharp
 public float Right { get; }

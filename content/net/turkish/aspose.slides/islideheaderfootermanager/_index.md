@@ -1,14 +1,14 @@
 ---
 title: ISlideHeaderFooterManager
-second_title: Aspose.Sildes için .NET API Referansı
-description: Slayt altbilgi, tarih-saat ve sayfa numarası yer tutucularının davranışını tutan yöneticiyi temsil eder.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Slayt altbilgisi, tarih-saat ve sayfa numarası yer tutucularının davranışını tutan yöneticiyi temsil eder.
 type: docs
-weight: 7070
+weight: 7090
 url: /tr/aspose.slides/islideheaderfootermanager/
 ---
-## ISlideHeaderFooterManager arayüz
+## ISlideHeaderFooterManager arayüzü
 
-Slayt altbilgi, tarih-saat ve sayfa numarası yer tutucularının davranışını tutan yöneticiyi temsil eder.
+Slayt altbilgisi, tarih-saat, sayfa numarası yer tutucularının davranışını tutan yöneticiyi temsil eder.
 
 ```csharp
 public interface ISlideHeaderFooterManager : IBaseSlideHeaderFooterManager
@@ -20,7 +20,7 @@ public interface ISlideHeaderFooterManager : IBaseSlideHeaderFooterManager
 | --- | --- |
 | [AsIBaseSlideHeaderFooterManager](../../aspose.slides/islideheaderfootermanager/asibaseslideheaderfootermanager) { get; } | Döndürür IBaseSlideHeaderFooterManager arayüz. |
 
-### İlgili
+### Ayrıca Bakınız
 
 * arayüz [IBaseSlideHeaderFooterManager](../ibaseslideheaderfootermanager)
 * ad alanı [Aspose.Slides](../../aspose.slides)

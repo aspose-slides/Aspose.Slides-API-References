@@ -1,26 +1,26 @@
 ---
 title: IndexOf
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: निर्दिष्ट DataLabel का संग्रह में इंडेक्स लौटाता है।
+description: निर्दिष्ट DataLabel का संग्रह में सूचकांक लौटाता है।
 type: docs
-weight: 110
+weight: 120
 url: /hi/aspose.slides.charts/idatalabelcollection/indexof/
 ---
-## IDataLabelCollection.IndexOf मेथड
+## IDataLabelCollection.IndexOf विधि
 
-निर्दिष्ट DataLabel का इंडेक्स संग्रह से लौटाता है।
+निर्दिष्ट DataLabel का संग्रह में सूचकांक लौटाता है।
 
 ```csharp
 public int IndexOf(IDataLabel value)
 ```
 
-| पैरामीटर | टाइप | विवरण |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | IDataLabel | खोजने के लिए DataLabel। |
 
-### रिटर्न वैल्यू
+### रिटर्न मान
 
-DataLabel का इंडेक्स या -1 यदि DataLabel इस संग्रह से नहीं है।
+DataLabel का सूचकांक या -1 यदि DataLabel इस संग्रह का हिस्सा नहीं है।
 
 ### संबंधित देखें
 

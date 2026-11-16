@@ -1,14 +1,14 @@
 ---
 title: MasterLayoutSlideCollection
-second_title: Aspose.Sildes の .NET API リファレンス
-description: 定義されたマスタースライドのすべてのレイアウトスライドのコレクションを表します。LayoutSlideCollection クラスを拡張し、個別のマスターのレイアウトスライドコレクションのコンテキストで、レイアウトスライドの追加/挿入/削除/クローン作成/並べ替えのためのメソッドを提供します。
+second_title: Aspose.Slides for .NET API リファレンス
+description: 定義されたマスタースライドのすべてのレイアウトスライドのコレクションを表します。LayoutSlideCollection クラスを拡張し、マスターのレイアウトスライドの個別コレクションのコンテキストでレイアウトスライドの追加/挿入/削除/クローン/再配置を行うメソッドを提供します。
 type: docs
-weight: 8000
+weight: 8020
 url: /ja/aspose.slides/masterlayoutslidecollection/
 ---
 ## MasterLayoutSlideCollection クラス
 
-定義されたマスタースライドのすべてのレイアウト スライドのコレクションを表します。LayoutSlideCollection クラスを拡張し、個々のマスターのレイアウト スライド コレクションのコンテキストでレイアウト スライドの追加/挿入/削除/クローン作成/並べ替えのためのメソッドを提供します。
+定義されたマスタースライドのすべてのレイアウトスライドのコレクションを表します。LayoutSlideCollection クラスを拡張し、マスターのレイアウトスライドの個別コレクションのコンテキストでレイアウトスライドの追加/挿入/削除/クローン/再配置を行うメソッドを提供します。
 
 ```csharp
 public sealed class MasterLayoutSlideCollection : LayoutSlideCollection, 
@@ -17,28 +17,28 @@ public sealed class MasterLayoutSlideCollection : LayoutSlideCollection,
 
 ## プロパティ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides/layoutslidecollection/count) { get; } | コレクション内のレイアウト スライドの数を返します。読み取り専用 Int32. |
-| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | コレクションへのアクセスが同期されているか (スレッドセーフ) を示す値を返します。読み取り専用 Boolean. |
-| [Item](../../aspose.slides/layoutslidecollection/item) { get; } | インデックスでレイアウト スライドを返します。読み取り専用 [`LayoutSlide`](../layoutslide). |
-| [SyncRoot](../../aspose.slides/layoutslidecollection/syncroot) { get; } | 同期ルートを返します。読み取り専用 Object. |
+| [Count](../../aspose.slides/layoutslidecollection/count) { get; } | コレクション内のレイアウトスライドの数を返します。読み取り専用 Int32。 |
+| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | コレクションへのアクセスが同期化されているか（スレッドセーフ）を示す値を返します。読み取り専用 Boolean。 |
+| [Item](../../aspose.slides/layoutslidecollection/item) { get; } | インデックスでレイアウトスライドを返します。読み取り専用 [`LayoutSlide`](../layoutslide)。 |
+| [SyncRoot](../../aspose.slides/layoutslidecollection/syncroot) { get; } | 同期ルートを返します。読み取り専用 Object。 |
 
 ## メソッド
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [Add](../../aspose.slides/masterlayoutslidecollection/add)(SlideLayoutType, string) | 新しいレイアウト スライドをコレクションの末尾に追加します。 |
-| [AddClone](../../aspose.slides/masterlayoutslidecollection/addclone)(ILayoutSlide) | 指定されたレイアウト スライドのコピーをコレクションの末尾に追加します。 |
+| [Add](../../aspose.slides/masterlayoutslidecollection/add)(SlideLayoutType, string) | 新しいレイアウトスライドをコレクションの末尾に追加します。 |
+| [AddClone](../../aspose.slides/masterlayoutslidecollection/addclone)(ILayoutSlide) | 指定されたレイアウトスライドのコピーをコレクションの末尾に追加します。 |
 | [CopyTo](../../aspose.slides/layoutslidecollection/copyto)(Array, int) | コレクション内のすべての要素を指定された配列にコピーします。 |
-| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | 指定されたタイプの最初のレイアウト スライドを返します。検索するレイアウト スライドのタイプ。[`LayoutSlide`](../layoutslide) が見つからない場合は null を返します。 |
+| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | 指定されたタイプの最初のレイアウトスライドを返します。検索するレイアウトスライドのタイプ。[`LayoutSlide`](../layoutslide) 指定されたタイプのもの、または見つからない場合は null を返します。 |
 | [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | コレクションを反復処理する列挙子を返します。 |
-| [Insert](../../aspose.slides/masterlayoutslidecollection/insert)(int, SlideLayoutType, string) | 新しいレイアウト スライドをコレクションの指定位置に挿入します。 |
-| [InsertClone](../../aspose.slides/masterlayoutslidecollection/insertclone)(int, ILayoutSlide) | 指定されたレイアウト スライドのコピーをコレクションの指定位置に挿入します。 |
+| [Insert](../../aspose.slides/masterlayoutslidecollection/insert)(int, SlideLayoutType, string) | 新しいレイアウトスライドをコレクションの指定位置に挿入します。 |
+| [InsertClone](../../aspose.slides/masterlayoutslidecollection/insertclone)(int, ILayoutSlide) | 指定されたレイアウトスライドのコピーをコレクションの指定位置に挿入します。 |
 | [Remove](../../aspose.slides/layoutslidecollection/remove)(ILayoutSlide) | コレクションからレイアウトを削除します。 |
-| [RemoveAt](../../aspose.slides/masterlayoutslidecollection/removeat)(int) | 指定されたインデックスの要素をコレクションから削除します。 |
-| [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | 未使用のレイアウト スライド (HasDependingSlides が false のレイアウト スライド) を削除します。 |
-| [Reorder](../../aspose.slides/masterlayoutslidecollection/reorder)(int, ILayoutSlide) | コレクション内のレイアウト スライドを指定された位置に移動します。 |
+| [RemoveAt](../../aspose.slides/masterlayoutslidecollection/removeat)(int) | コレクションの指定インデックスの要素を削除します。 |
+| [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | 未使用のレイアウトスライドを削除します（HasDependingSlides が false のレイアウトスライド）。 |
+| [Reorder](../../aspose.slides/masterlayoutslidecollection/reorder)(int, ILayoutSlide) | コレクション内のレイアウトスライドを指定された位置に移動します。 |
 
 ### 参照
 

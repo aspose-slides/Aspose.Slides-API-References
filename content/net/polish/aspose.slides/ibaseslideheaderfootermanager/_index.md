@@ -1,14 +1,14 @@
 ---
 title: IBaseSlideHeaderFooterManager
-second_title: Aspose.Sildes dla .NET – odniesienie API
-description: Reprezentuje menedżera, który kontroluje zachowanie placeholderów stopki, daty-i-czasu oraz numeru strony we wszystkich typach slajdów.
+second_title: Aspose.Sildes dla .NET - odniesienie API
+description: Reprezentuje menedżera, który obsługuje zachowanie pól zastępczych stopki, daty i godziny oraz numeru strony dla wszystkich typów slajdów.
 type: docs
-weight: 5350
+weight: 5370
 url: /pl/aspose.slides/ibaseslideheaderfootermanager/
 ---
 ## IBaseSlideHeaderFooterManager interfejs
 
-Reprezentuje menedżer, który kontroluje zachowanie znaków zastępczych stopki, daty-i-czasu oraz numeru strony we wszystkich typach slajdów.
+Reprezentuje menedżera, który obsługuje zachowanie pól zastępczych stopki, daty i godziny oraz numeru strony dla wszystkich typów slajdów.
 
 ```csharp
 public interface IBaseSlideHeaderFooterManager : IBaseHeaderFooterManager
@@ -19,21 +19,21 @@ public interface IBaseSlideHeaderFooterManager : IBaseHeaderFooterManager
 | Nazwa | Opis |
 | --- | --- |
 | [AsIBaseHeaderFooterManager](../../aspose.slides/ibaseslideheaderfootermanager/asibaseheaderfootermanager) { get; } | Zwraca interfejs IBaseHeaderFooterManager. |
-| [IsDateTimeVisible](../../aspose.slides/ibaseslideheaderfootermanager/isdatetimevisible) { get; } | Pobiera wartość wskazującą, że znacznik daty i godziny jest obecny. ReadBoolean. |
-| [IsFooterVisible](../../aspose.slides/ibaseslideheaderfootermanager/isfootervisible) { get; } | Pobiera wartość wskazującą, że znacznik stopki jest obecny. Read Boolean. |
-| [IsSlideNumberVisible](../../aspose.slides/ibaseslideheaderfootermanager/isslidenumbervisible) { get; } | Pobiera wartość wskazującą, że znacznik numeru strony jest obecny. ReadBoolean. |
+| [IsDateTimeVisible](../../aspose.slides/ibaseslideheaderfootermanager/isdatetimevisible) { get; } | Pobiera wartość wskazującą, że pole zastępcze daty i godziny jest obecne. ReadBoolean. |
+| [IsFooterVisible](../../aspose.slides/ibaseslideheaderfootermanager/isfootervisible) { get; } | Pobiera wartość wskazującą, że pole zastępcze stopki jest obecne. Read Boolean. |
+| [IsSlideNumberVisible](../../aspose.slides/ibaseslideheaderfootermanager/isslidenumbervisible) { get; } | Pobiera wartość wskazującą, że pole zastępcze numeru strony jest obecne. ReadBoolean. |
 
 ## Metody
 
 | Nazwa | Opis |
 | --- | --- |
-| [SetDateTimeText](../../aspose.slides/ibaseslideheaderfootermanager/setdatetimetext)(string) | Ustawia tekst w znaczniku daty i godziny slajdu. |
-| [SetDateTimeVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setdatetimevisibility)(bool) | Zmienia widoczność znacznika daty i godziny slajdu. |
-| [SetFooterText](../../aspose.slides/ibaseslideheaderfootermanager/setfootertext)(string) | Ustawia tekst w znaczniku stopki slajdu. |
-| [SetFooterVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setfootervisibility)(bool) | Zmienia widoczność znacznika stopki slajdu. |
-| [SetSlideNumberVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setslidenumbervisibility)(bool) | Zmienia widoczność znacznika numeru strony slajdu. |
+| [SetDateTimeText](../../aspose.slides/ibaseslideheaderfootermanager/setdatetimetext)(string) | Ustawia tekst w polu zastępczym daty i godziny slajdu. |
+| [SetDateTimeVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setdatetimevisibility)(bool) | Zmienia widoczność pola zastępczego daty i godziny slajdu. |
+| [SetFooterText](../../aspose.slides/ibaseslideheaderfootermanager/setfootertext)(string) | Ustawia tekst w polu zastępczym stopki slajdu. |
+| [SetFooterVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setfootervisibility)(bool) | Zmienia widoczność pola zastępczego stopki slajdu. |
+| [SetSlideNumberVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setslidenumbervisibility)(bool) | Zmienia widoczność pola zastępczego numeru strony slajdu. |
 
-### Zobacz też
+### Zobacz także
 
 * interfejs [IBaseHeaderFooterManager](../ibaseheaderfootermanager)
 * przestrzeń nazw [Aspose.Slides](../../aspose.slides)

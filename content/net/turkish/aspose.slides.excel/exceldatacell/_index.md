@@ -1,14 +1,14 @@
 ---
 title: ExcelDataCell
 second_title: Aspose.Sildes for .NET API Referansı
-description: Bir Excel çalışma kitabındaki tek bir hücreyi temsil eder.
+description: Excel çalışma kitabındaki tek bir hücreyi temsil eder.
 type: docs
-weight: 3680
+weight: 3700
 url: /tr/aspose.slides.excel/exceldatacell/
 ---
-## ExcelDataCell sınıf
+## ExcelDataCell sınıfı
 
-Bir Excel çalışma kitabındaki tek bir hücreyi temsil eder.
+Excel çalışma kitabındaki tek bir hücreyi temsil eder.
 
 ```csharp
 public class ExcelDataCell : IExcelDataCell
@@ -18,9 +18,9 @@ public class ExcelDataCell : IExcelDataCell
 
 | Ad | Açıklama |
 | --- | --- |
-| [Column](../../aspose.slides.excel/exceldatacell/column) { get; } | Hücrenin bulunduğu çalışma sayfasındaki sütunun sıfır tabanlı dizinini alır. Yalnızca okuma Int32. |
+| [Column](../../aspose.slides.excel/exceldatacell/column) { get; } | Hücrenin bulunduğu çalışma sayfasındaki sütunun sıfırdan başlayan dizinini alır. Yalnızca okunur Int32. |
 | [Name](../../aspose.slides.excel/exceldatacell/name) { get; } | Grafik veri hücresinin adını alır. |
-| [Row](../../aspose.slides.excel/exceldatacell/row) { get; } | Hücrenin bulunduğu çalışma sayfasındaki satırın sıfır tabanlı dizinini alır. Yalnızca okuma Int32. |
+| [Row](../../aspose.slides.excel/exceldatacell/row) { get; } | Hücrenin bulunduğu çalışma sayfasındaki satırın sıfırdan başlayan dizinini alır. Yalnızca okunur Int32. |
 | [Value](../../aspose.slides.excel/exceldatacell/value) { get; } | Excel hücresinde bulunan değeri alır. |
 
 ### Ayrıca Bakınız

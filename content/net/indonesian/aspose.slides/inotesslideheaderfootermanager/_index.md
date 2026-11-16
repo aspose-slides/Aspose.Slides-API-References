@@ -1,14 +1,14 @@
 ---
 title: INotesSlideHeaderFooterManager
-second_title: Aspose.Sildes untuk .NET Referensi API
-description: Mewakili manajer yang menyimpan perilaku placeholder slide catatan termasuk placeholder header.
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Mewakili manajer yang memegang perilaku placeholder slide catatan, termasuk placeholder header.
 type: docs
-weight: 6510
+weight: 6530
 url: /id/aspose.slides/inotesslideheaderfootermanager/
 ---
 ## INotesSlideHeaderFooterManager antarmuka
 
-Mewakili manajer yang menyimpan perilaku placeholder slide catatan, termasuk placeholder header.
+Mewakili manajer yang memegang perilaku placeholder slide catatan, termasuk placeholder header.
 
 ```csharp
 public interface INotesSlideHeaderFooterManager : IBaseHandoutNotesSlideHeaderFooterManag
@@ -18,7 +18,7 @@ public interface INotesSlideHeaderFooterManager : IBaseHandoutNotesSlideHeaderFo
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIBaseHandoutNotesSlideHeaderFooterManag](../../aspose.slides/inotesslideheaderfootermanager/asibasehandoutnotesslideheaderfootermanag) { get; } | Mengembalikan IBaseHandoutNotesSlideHeaderFooterManag antarmuka. |
+| [AsIBaseHandoutNotesSlideHeaderFooterManag](../../aspose.slides/inotesslideheaderfootermanager/asibasehandoutnotesslideheaderfootermanag) { get; } | Mengembalikan antarmuka IBaseHandoutNotesSlideHeaderFooterManag. |
 
 ### Lihat Juga
 

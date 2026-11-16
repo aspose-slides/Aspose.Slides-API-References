@@ -1,14 +1,14 @@
 ---
 title: HandoutLayoutingOptions
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt den Handout-Präsentationslayout-Modus für den Export dar.
+description: Stellt den Handzettel-Präsentationslayoutmodus für den Export dar.
 type: docs
-weight: 3840
+weight: 3860
 url: /de/aspose.slides.export/handoutlayoutingoptions/
 ---
 ## HandoutLayoutingOptions Klasse
 
-Stellt den Handout-Präsentationslayout-Modus für den Export dar.
+Stellt den Handzettel-Präsentationslayoutmodus für den Export dar.
 
 ```csharp
 public class HandoutLayoutingOptions : ISlidesLayoutOptions
@@ -27,7 +27,7 @@ public class HandoutLayoutingOptions : ISlidesLayoutOptions
 | [Handout](../../aspose.slides.export/handoutlayoutingoptions/handout) { get; set; } | Gibt an, wie viele Folien und in welcher Reihenfolge auf der Seite [`HandoutType`](../handouttype) platziert werden. |
 | [PrintComments](../../aspose.slides.export/handoutlayoutingoptions/printcomments) { get; set; } | Gibt an, ob Kommentare auf Folien angezeigt werden sollen oder nicht. |
 | [PrintFrameSlide](../../aspose.slides.export/handoutlayoutingoptions/printframeslide) { get; set; } | Gibt an, ob Rahmen um die angezeigten Folien gezeichnet werden sollen oder nicht. |
-| [PrintSlideNumbers](../../aspose.slides.export/handoutlayoutingoptions/printslidenumbers) { get; set; } | Gibt an, ob die angezeigten Folienzahlen gedruckt werden sollen oder nicht. |
+| [PrintSlideNumbers](../../aspose.slides.export/handoutlayoutingoptions/printslidenumbers) { get; set; } | Gibt an, ob die angezeigten Foliennummern gedruckt werden sollen oder nicht. |
 
 ### Siehe auch
 

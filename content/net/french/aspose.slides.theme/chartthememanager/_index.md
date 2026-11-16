@@ -1,9 +1,9 @@
 ---
 title: ChartThemeManager
-second_title: Référence de l'API Aspose.Sildes pour .NET
+second_title: Référence API Aspose.Sildes pour .NET
 description: Fournit un accès au thème de graphique remplacé.
 type: docs
-weight: 11060
+weight: 11080
 url: /fr/aspose.slides.theme/chartthememanager/
 ---
 ## ChartThemeManager classe
@@ -18,15 +18,15 @@ public class ChartThemeManager : BaseOverrideThemeManager
 
 | Nom | Description |
 | --- | --- |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Détermine si OverrideTheme remplace le thème effectif hérité ou non. Pour activer OverrideTheme pour le remplacement, utilisez les méthodes OverrideTheme.Init*(). Pour désactiver OverrideTheme du remplacement, utilisez la méthode OverrideTheme.Clear(). Booléen en lecture seule. |
-| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Renvoie l'objet de thème de remplacement. Lecture/écriture [`IOverrideTheme`](../ioverridetheme). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Détermine si OverrideTheme remplace le thème effectif hérité ou non. Pour activer OverrideTheme pour le remplacement, utilisez les méthodes OverrideTheme.Init*(). Pour désactiver OverrideTheme du remplacement, utilisez la méthode OverrideTheme.Clear(). Lecture seule Booléen. |
+| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Retourne l'objet de thème de remplacement. Lecture/écriture [`IOverrideTheme`](../ioverridetheme). |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
 | [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | Applique un schéma de couleur supplémentaire à une diapositive. |
-| [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | Renvoie l'objet de thème. |
+| [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | Retourne l'objet thème. |
 
 ### Voir aussi
 

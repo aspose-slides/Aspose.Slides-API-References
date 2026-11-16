@@ -1,14 +1,14 @@
 ---
 title: IGlitterTransition
-second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Hiệu ứng chuyển tiếp slide lấp lánh.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Hiệu ứng chuyển đổi slide Glitter.
 type: docs
-weight: 10100
+weight: 10120
 url: /vi/aspose.slides.slideshow/iglittertransition/
 ---
-## Giao diện IGlitterTransition
+## IGlitterTransition giao diện
 
-Hiệu ứng chuyển tiếp slide lấp lánh.
+Glitter slide transition effect.
 
 ```csharp
 public interface IGlitterTransition : ITransitionValueBase
@@ -18,9 +18,9 @@ public interface IGlitterTransition : ITransitionValueBase
 
 | Tên | Mô tả |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/iglittertransition/asitransitionvaluebase) { get; } | Cho phép lấy giao diện ITransitionValueBase cơ sở. Chỉ đọc [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/iglittertransition/direction) { get; set; } | Hướng của chuyển tiếp. Đọc/ghi [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
-| [Pattern](../../aspose.slides.slideshow/iglittertransition/pattern) { get; set; } | Xác định hình dạng của các hình ảnh được sử dụng trong quá trình chuyển tiếp. Đọc/ghi [`TransitionPattern`](../transitionpattern). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/iglittertransition/asitransitionvaluebase) { get; } | Cho phép lấy giao diện ITransitionValueBase cơ bản. Chỉ đọc [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/iglittertransition/direction) { get; set; } | Hướng của chuyển đổi. Đọc/ghi [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
+| [Pattern](../../aspose.slides.slideshow/iglittertransition/pattern) { get; set; } | Xác định hình dạng của các hình ảnh được sử dụng trong quá trình chuyển đổi. Đọc/ghi [`TransitionPattern`](../transitionpattern). |
 
 ### Xem thêm
 

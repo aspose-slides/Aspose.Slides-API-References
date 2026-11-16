@@ -1,9 +1,9 @@
 ---
 title: NotesPositions
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Aspose.Sildes para a Referência de API .NET
 description: Representa a regra para renderizar notas no documento exportado
 type: docs
-weight: 4300
+weight: 4320
 url: /pt/aspose.slides.export/notespositions/
 ---
 ## NotesPositions enumeração
@@ -19,10 +19,10 @@ public enum NotesPositions
 | Nome | Valor | Descrição |
 | --- | --- | --- |
 | None | `0` | Especifica que as notas não devem ser exibidas de forma alguma. |
-| BottomFull | `1` | Especifica que as notas devem ser exibidas completamente usando páginas adicionais conforme necessário. |
+| BottomFull | `1` | Especifica que as notas devem ser exibidas totalmente usando páginas adicionais conforme necessário. |
 | BottomTruncated | `2` | Especifica que as notas devem ser exibidas em apenas uma página. |
 
-### Ver também
+### Veja Também
 
 * namespace [Aspose.Slides.Export](../../aspose.slides.export)
 * assembly [Aspose.Slides](../../)

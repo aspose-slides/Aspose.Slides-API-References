@@ -3,7 +3,7 @@ title: LeaderLinesFormat
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili format garis pemimpin label data. Hanya-baca IChartLinesFormataspose.slides.charts/ichartlinesformat.
 type: docs
-weight: 80
+weight: 90
 url: /id/aspose.slides.charts/idatalabelcollection/leaderlinesformat/
 ---
 ## IDataLabelCollection.LeaderLinesFormat properti

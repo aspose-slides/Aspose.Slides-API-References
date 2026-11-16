@@ -3,7 +3,7 @@ title: IVideoFrame
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Stelt een video-clip op een dia voor.
 type: docs
-weight: 7380
+weight: 7400
 url: /nl/aspose.slides/ivideoframe/
 ---
 ## IVideoFrame interface
@@ -16,20 +16,21 @@ public interface IVideoFrame : IPictureFrame
 
 ## Eigenschappen
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
 | [AsIPictureFrame](../../aspose.slides/ivideoframe/asipictureframe) { get; } | Staat toe de basale IPictureFrame interface op te halen. Alleen-lezen [`IPictureFrame`](../ipictureframe). |
-| [CaptionTracks](../../aspose.slides/ivideoframe/captiontracks) { get; } | Haalt de verzameling van gesloten ondertitels op die bij het audiokader horen. Deze eigenschap is alleen-lezen en retourneert een [`ICaptionsCollection`](../icaptionscollection) met alle ondertitelsporen. |
-| [EmbeddedVideo](../../aspose.slides/ivideoframe/embeddedvideo) { get; set; } | Retourneert of stelt het ingesloten video-object in. Lezen/Schrijven [`IVideo`](../ivideo). |
-| [FullScreenMode](../../aspose.slides/ivideoframe/fullscreenmode) { get; set; } | Bepaalt of een video in volledig-scherm modus wordt getoond. Lezen/Schrijven Boolean. |
+| [CaptionTracks](../../aspose.slides/ivideoframe/captiontracks) { get; } | Haalt de collectie van gesloten ondertitels op die bij het audiokader horen. Deze eigenschap is alleen-lezen en retourneert een [`ICaptionsCollection`](../icaptionscollection) die alle ondertitelsporen bevat. |
+| [EmbeddedVideo](../../aspose.slides/ivideoframe/embeddedvideo) { get; set; } | Geeft het ingebedde video-object terug of stelt het in. Lezen/Schrijven [`IVideo`](../ivideo). |
+| [FullScreenMode](../../aspose.slides/ivideoframe/fullscreenmode) { get; set; } | Bepaalt of een video wordt weergegeven in volledigschermmodus. Lezen/Schrijven Boolean. |
 | [HideAtShowing](../../aspose.slides/ivideoframe/hideatshowing) { get; set; } | Bepaalt of een VideoFrame verborgen is. Lezen/Schrijven Boolean. |
-| [LinkPathLong](../../aspose.slides/ivideoframe/linkpathlong) { get; set; } | Retourneert of stelt de naam van een videobestand in dat gekoppeld is aan een VideoFrame. Lezen/Schrijven String. |
+| [LinkPathLong](../../aspose.slides/ivideoframe/linkpathlong) { get; set; } | Geeft de naam van een videobestand terug of stelt deze in die is gekoppeld aan een VideoFrame. Lezen/Schrijven String. |
 | [PlayLoopMode](../../aspose.slides/ivideoframe/playloopmode) { get; set; } | Bepaalt of een video in een lus wordt afgespeeld. Lezen/Schrijven Boolean. |
-| [PlayMode](../../aspose.slides/ivideoframe/playmode) { get; set; } | Retourneert of stelt de afspeelmodus van de video in. Lezen/Schrijven [`VideoPlayModePreset`](../videoplaymodepreset). |
-| [RewindVideo](../../aspose.slides/ivideoframe/rewindvideo) { get; set; } | Bepaalt of een video automatisch naar het begin wordt teruggespoeld zodra de film is afgelopen. Lezen/Schrijven Boolean. |
+| [PlayMode](../../aspose.slides/ivideoframe/playmode) { get; set; } | Geeft de afspeelmodus van de video terug of stelt deze in. Lezen/Schrijven [`VideoPlayModePreset`](../videoplaymodepreset). |
+| [RewindVideo](../../aspose.slides/ivideoframe/rewindvideo) { get; set; } | Bepaalt of een video automatisch wordt terugge spoeld naar het begin zodra de video is afgelopen. Lezen/Schrijven Boolean. |
 | [TrimFromEnd](../../aspose.slides/ivideoframe/trimfromend) { get; set; } | Trim einde [ms] |
 | [TrimFromStart](../../aspose.slides/ivideoframe/trimfromstart) { get; set; } | Trim start [ms] |
-| [Volume](../../aspose.slides/ivideoframe/volume) { get; set; } | Retourneert of stelt het audiovolume in. Lezen/Schrijven [`AudioVolumeMode`](../audiovolumemode). |
+| [Volume](../../aspose.slides/ivideoframe/volume) { get; set; } | Geeft het audiovolume terug of stelt dit in. Lezen/Schrijven [`AudioVolumeMode`](../audiovolumemode). |
+| [VolumeValue](../../aspose.slides/ivideoframe/volumevalue) { get; set; } | Geeft het exacte video-volume als een percentage terug of stelt dit in. De waarde wordt uitgedrukt als een percentage van 0 tot 100. Gebruik deze eigenschap om volume-waarden te lezen of in te stellen die nauwkeuriger zijn dan de vooraf gedefinieerde niveaus die beschikbaar zijn via de [`Volume`](./volume)-eigenschap. Lezen/Schrijven Single. |
 
 ### Zie ook
 

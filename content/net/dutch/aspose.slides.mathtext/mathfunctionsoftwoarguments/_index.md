@@ -3,7 +3,7 @@ title: MathFunctionsOfTwoArguments
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Gemeenschappelijke wiskundige functies van twee argumenten
 type: docs
-weight: 8750
+weight: 8770
 url: /nl/aspose.slides.mathtext/mathfunctionsoftwoarguments/
 ---
 ## MathFunctionsOfTwoArguments enumeratie
@@ -16,7 +16,7 @@ public enum MathFunctionsOfTwoArguments
 
 ### Waarden
 
-| Name | Value | Beschrijving |
+| Naam | Waarde | Beschrijving |
 | --- | --- | --- |
 | Log | `0` | Log |
 | Lim | `1` | Limiet |

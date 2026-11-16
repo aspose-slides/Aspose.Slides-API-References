@@ -1,14 +1,14 @@
 ---
 title: SetAsTotal
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt het gegevenspunt in als totaal. Alleen van toepassing op Waterfall-serietype.
+description: Stelt gegevenspunt in als totaal. Alleen toegepast voor Waterfall-reekstype.
 type: docs
-weight: 140
+weight: 180
 url: /nl/aspose.slides.charts/ichartdatapoint/setastotal/
 ---
 ## IChartDataPoint.SetAsTotal eigenschap
 
-Stelt het gegevenspunt in als totaal. Alleen van toepassing op Waterfall-serietype.
+Stelt gegevenspunt in als totaal. Alleen toegepast voor Waterfall-reekstype.
 
 ```csharp
 public bool SetAsTotal { get; set; }

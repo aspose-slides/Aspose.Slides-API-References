@@ -1,9 +1,9 @@
 ---
 title: FontSources
-second_title: Aspose.Sildes for .NET API リファレンス
-description: 外部フォント用のファイルとメモリソースを提供します。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: 外部フォント用のファイルおよびメモリ ソースを提供します。
 type: docs
-weight: 4860
+weight: 4880
 url: /ja/aspose.slides/fontsources/
 ---
 ## FontSources クラス
@@ -18,7 +18,7 @@ public class FontSources : IFontSources
 
 | 名前 | 説明 |
 | --- | --- |
-| [FontSources](fontsources)() | 新しいデフォルトフォントオプションを作成します。 |
+| [FontSources](fontsources)() | 新しいデフォルト フォント オプションを作成します。 |
 
 ## プロパティ
 

@@ -1,14 +1,14 @@
 ---
 title: IFontFallBackRule
-second_title: Aspose.Sildes для .NET API справка
-description: Представляет правило подстановки шрифтов
+second_title: Aspose.Sildes для .NET справочник API
+description: Представляет правило резервного шрифта
 type: docs
-weight: 5850
+weight: 5870
 url: /ru/aspose.slides/ifontfallbackrule/
 ---
 ## IFontFallBackRule интерфейс
 
-Представляет правило подстановки шрифтов
+Представляет правило резервного шрифта
 
 ```csharp
 public interface IFontFallBackRule
@@ -16,16 +16,16 @@ public interface IFontFallBackRule
 
 ## Свойства
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides/ifontfallbackrule/count) { get; } | Возвращает количество шрифтов, фактически определённых для диапазона. |
+| [Count](../../aspose.slides/ifontfallbackrule/count) { get; } | Возвращает количество шрифтов, реально определённых для диапазона. |
 | [Item](../../aspose.slides/ifontfallbackrule/item) { get; } | Возвращает имя шрифта по указанному индексу. |
-| [RangeEndIndex](../../aspose.slides/ifontfallbackrule/rangeendindex) { get; } | Возвращает последний индекс непрерывного диапазона Unicode. |
-| [RangeStartIndex](../../aspose.slides/ifontfallbackrule/rangestartindex) { get; } | Возвращает первый индекс непрерывного диапазона Unicode. |
+| [RangeEndIndex](../../aspose.slides/ifontfallbackrule/rangeendindex) { get; } | Получает последний индекс непрерывного диапазона Unicode. |
+| [RangeStartIndex](../../aspose.slides/ifontfallbackrule/rangestartindex) { get; } | Получает первый индекс непрерывного диапазона Unicode. |
 
 ## Методы
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
 | [AddFallBackFonts](../../aspose.slides/ifontfallbackrule/addfallbackfonts#addfallbackfonts)(string) | Добавляет новый шрифт(ы) в список резервных шрифтов. |
 | [AddFallBackFonts](../../aspose.slides/ifontfallbackrule/addfallbackfonts#addfallbackfonts_1)(string[]) | Добавляет новые шрифты в список резервных шрифтов. |
@@ -33,10 +33,10 @@ public interface IFontFallBackRule
 | [IndexOf](../../aspose.slides/ifontfallbackrule/indexof)(string) | Возвращает индекс указанного правила в коллекции. |
 | [Remove](../../aspose.slides/ifontfallbackrule/remove)(string) | Удаляет первое вхождение конкретного резервного шрифта из списка. |
 | [RemoveAt](../../aspose.slides/ifontfallbackrule/removeat)(int) | Удаляет резервный шрифт по указанному индексу в списке. |
-| [ToArray](../../aspose.slides/ifontfallbackrule/toarray#toarray)() | Создаёт и возвращает массив со всеми резервными шрифтами для этого правила. |
+| [ToArray](../../aspose.slides/ifontfallbackrule/toarray#toarray)() | Создаёт и возвращает массив со всеми резервными шрифтами для данного правила. |
 | [ToArray](../../aspose.slides/ifontfallbackrule/toarray#toarray_1)(int, int) | Создаёт и возвращает массив со всеми резервными шрифтами из указанного диапазона в списке. |
 
-### Смотрите также
+### См. также
 
 * пространство имён [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

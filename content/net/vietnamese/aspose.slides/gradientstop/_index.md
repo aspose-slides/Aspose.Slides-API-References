@@ -1,14 +1,14 @@
 ---
 title: GradientStop
-second_title: Aspose.Sildes cho .NET Tham khảo API
-description: Biểu diễn định dạng gradient.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Biểu diễn một định dạng gradient.
 type: docs
-weight: 5020
+weight: 5040
 url: /vi/aspose.slides/gradientstop/
 ---
 ## GradientStop lớp
 
-Biểu diễn định dạng gradient.
+Biểu diễn một định dạng gradient.
 
 ```csharp
 public sealed class GradientStop : PVIObject, IGradientStop
@@ -16,7 +16,7 @@ public sealed class GradientStop : PVIObject, IGradientStop
 
 ## Thuộc tính
 
-| Tên | Mô tả |
+| Name | Description |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Cho phép lấy giao diện IPresentationComponent cơ bản. Chỉ đọc [`IPresentationComponent`](../ipresentationcomponent). |
 | [Color](../../aspose.slides/gradientstop/color) { get; } | Trả về màu của một điểm dừng gradient. Chỉ đọc [`IColorFormat`](../icolorformat). |
@@ -24,9 +24,9 @@ public sealed class GradientStop : PVIObject, IGradientStop
 
 ## Phương thức
 
-| Tên | Mô tả |
+| Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | So sánh với đối tượng đã chỉ định. |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | So sánh với đối tượng được chỉ định. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Trả về mã băm. |
 
 ### Xem thêm

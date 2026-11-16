@@ -1,26 +1,26 @@
 ---
 title: PptxReadException
-second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Biểu diễn một ngoại lệ được ném khi có lỗi đọc bản trình chiếu.
+second_title: Aspose.Sildes cho .NET Tham chiếu API
+description: Đại diện cho một ngoại lệ được ném khi gặp lỗi đọc bản trình chiếu.
 type: docs
-weight: 9570
+weight: 9590
 url: /vi/aspose.slides/pptxreadexception/
 ---
-## Lớp PptxReadException
+## PptxReadException lớp
 
-Biểu diễn một ngoại lệ được ném khi có lỗi đọc bản trình chiếu.
+Đại diện cho một ngoại lệ được ném khi gặp lỗi đọc bản trình chiếu.
 
 ```csharp
 public class PptxReadException : PptxException
 ```
 
-## Các hàm tạo
+## Hàm khởi tạo
 
 | Name | Description |
 | --- | --- |
-| [PptxReadException](pptxreadexception#constructor)() | Hàm tạo mặc định. |
-| [PptxReadException](pptxreadexception#constructor_1)(string) | Hàm tạo cho phép thêm một thông điệp vào ngoại lệ này. |
-| [PptxReadException](pptxreadexception#constructor_2)(string, Exception) | Hàm tạo cho một ngoại lệ chứa thông điệp và một ngoại lệ nhúng. |
+| [PptxReadException](pptxreadexception#constructor)() | Hàm khởi tạo mặc định. |
+| [PptxReadException](pptxreadexception#constructor_1)(string) | Hàm khởi tạo cho phép thêm một thông điệp vào ngoại lệ này. |
+| [PptxReadException](pptxreadexception#constructor_2)(string, Exception) | Hàm khởi tạo cho một ngoại lệ chứa thông điệp và một ngoại lệ được nhúng. |
 
 ### Xem thêm
 

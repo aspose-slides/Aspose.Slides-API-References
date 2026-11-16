@@ -1,14 +1,14 @@
 ---
 title: MathBorderBoxFactory
-second_title: Aspose.Sildes .NET API Referencia
+second_title: Aspose.Sildes a .NET API hivatkozás
 description: Lehetővé teszi egy matematikai keretdoboz létrehozását
 type: docs
-weight: 8620
+weight: 8640
 url: /hu/aspose.slides.mathtext/mathborderboxfactory/
 ---
 ## MathBorderBoxFactory osztály
 
-Lehetővé teszi egy matematikai keret doboz létrehozását
+Lehetővé teszi egy matematikai keretdoboz létrehozását
 
 ```csharp
 public class MathBorderBoxFactory : IMathBorderBoxFactory
@@ -18,16 +18,16 @@ public class MathBorderBoxFactory : IMathBorderBoxFactory
 
 | Név | Leírás |
 | --- | --- |
-| [MathBorderBoxFactory](mathborderboxfactory)() | Az alapértelmezett konstruktor. |
+| [MathBorderBoxFactory](mathborderboxfactory)() | Alapértelmezett konstruktor. |
 
-## Módszerek
+## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [CreateMathBorderBox](../../aspose.slides.mathtext/mathborderboxfactory/createmathborderbox#createmathborderbox)(IMathElement) | Matematikai keret doboz létrehozása az elemre alkalmazva |
-| [CreateMathBorderBox](../../aspose.slides.mathtext/mathborderboxfactory/createmathborderbox#createmathborderbox_1)(IMathElement, bool, bool, bool, bool, bool, bool, bool, bool) | Matematikai keret doboz létrehozása az elemre alkalmazva |
+| [CreateMathBorderBox](../../aspose.slides.mathtext/mathborderboxfactory/createmathborderbox#createmathborderbox)(IMathElement) | Matematikai keretdoboz létrehozása az elemre alkalmazva |
+| [CreateMathBorderBox](../../aspose.slides.mathtext/mathborderboxfactory/createmathborderbox#createmathborderbox_1)(IMathElement, bool, bool, bool, bool, bool, bool, bool, bool) | Matematikai keretdoboz létrehozása az elemre alkalmazva |
 
-### Megjegyzés
+### Megjegyzések
 
 COM kompatibilitáshoz
 

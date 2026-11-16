@@ -3,7 +3,7 @@ title: FontFallBackRule
 second_title: Aspose.Sildes .NET API 参考
 description: 表示字体回退规则
 type: docs
-weight: 4840
+weight: 4860
 url: /zh/aspose.slides/fontfallbackrule/
 ---
 ## FontFallBackRule 类
@@ -28,22 +28,22 @@ public class FontFallBackRule : IFontFallBackRule
 | [Count](../../aspose.slides/fontfallbackrule/count) { get; } | 获取实际为范围定义的字体数量。只读 Int32。 |
 | [Item](../../aspose.slides/fontfallbackrule/item) { get; } | 获取指定索引处的字体名称。只读 [`IFontFallBackRule`](../ifontfallbackrule)。 |
 | [RangeEndIndex](../../aspose.slides/fontfallbackrule/rangeendindex) { get; set; } | 获取连续 Unicode 范围的最后索引。 |
-| [RangeStartIndex](../../aspose.slides/fontfallbackrule/rangestartindex) { get; set; } | 获取连续 Unicode 范围的第一个索引。 |
+| [RangeStartIndex](../../aspose.slides/fontfallbackrule/rangestartindex) { get; set; } | 获取连续 Unicode 范围的起始索引。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [AddFallBackFonts](../../aspose.slides/fontfallbackrule/addfallbackfonts#addfallbackfonts)(string) | 向 FallBack 字体列表中添加新字体。 |
-| [AddFallBackFonts](../../aspose.slides/fontfallbackrule/addfallbackfonts#addfallbackfonts_1)(string[]) | 向 FallBack 字体列表中添加新字体。 |
-| [Clear](../../aspose.slides/fontfallbackrule/clear)() | 从列表中移除所有字体。 |
+| [AddFallBackFonts](../../aspose.slides/fontfallbackrule/addfallbackfonts#addfallbackfonts)(string) | 向回退字体列表添加新的字体。 |
+| [AddFallBackFonts](../../aspose.slides/fontfallbackrule/addfallbackfonts#addfallbackfonts_1)(string[]) | 向回退字体列表添加新的字体。 |
+| [Clear](../../aspose.slides/fontfallbackrule/clear)() | 从列表中删除所有字体。 |
 | [IndexOf](../../aspose.slides/fontfallbackrule/indexof)(string) | 返回集合中指定规则的索引。 |
-| [Remove](../../aspose.slides/fontfallbackrule/remove)(string) | 从列表中移除第一次出现的特定 FallBack 字体。 |
-| [RemoveAt](../../aspose.slides/fontfallbackrule/removeat)(int) | 移除列表中指定索引处的 FallBack 字体。 |
-| [ToArray](../../aspose.slides/fontfallbackrule/toarray#toarray)() | 创建并返回包含此规则所有 FallBack 字体的数组。 |
-| [ToArray](../../aspose.slides/fontfallbackrule/toarray#toarray_1)(int, int) | 创建并返回列表中指定范围内所有 FallBack 字体的数组。 |
+| [Remove](../../aspose.slides/fontfallbackrule/remove)(string) | 从列表中删除指定回退字体的第一次出现。 |
+| [RemoveAt](../../aspose.slides/fontfallbackrule/removeat)(int) | 删除列表中指定索引处的回退字体。 |
+| [ToArray](../../aspose.slides/fontfallbackrule/toarray#toarray)() | 创建并返回包含此规则所有回退字体的数组。 |
+| [ToArray](../../aspose.slides/fontfallbackrule/toarray#toarray_1)(int, int) | 创建并返回列表中指定范围内所有回退字体的数组。 |
 
-### 另见
+### 另请参见
 
 * 接口 [IFontFallBackRule](../ifontfallbackrule)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

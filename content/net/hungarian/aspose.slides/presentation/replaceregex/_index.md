@@ -1,14 +1,14 @@
 ---
 title: ReplaceRegex
-second_title: Aspose.Sildes .NET API Referenciához
-description: A reguláris kifejezés minden egyezését a megadott karakterlánccal helyettesíti.
+second_title: Aspose.Sildes .NET API Referenciája
+description: A reguláris kifejezés összes egyezését a megadott karakterlánccal helyettesíti.
 type: docs
-weight: 370
+weight: 380
 url: /hu/aspose.slides/presentation/replaceregex/
 ---
 ## Presentation.ReplaceRegex metódus
 
-A reguláris kifejezés minden egyezését a megadott karakterlánccal helyettesíti.
+A reguláris kifejezés összes előfordulását a megadott karakterlánccal helyettesíti.
 
 ```csharp
 public void ReplaceRegex(Regex regex, string newText, IFindResultCallback callback)
@@ -16,20 +16,20 @@ public void ReplaceRegex(Regex regex, string newText, IFindResultCallback callba
 
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
-| regex | Regex | A reguláris kifejezés (Regex), amely a cserélendő karakterláncokat adja. |
-| newText | String | A karakterlánc, amely a cserélendő karakterláncok összes előfordulását helyettesíti. |
+| regex | Regex | A reguláris kifejezés (Regex), amelynek a karakterláncait helyettesíteni kell. |
+| newText | String | A karakterlánc, amely az összes helyettesítendő előfordulást lecseréli. |
 | callback | IFindResultCallback | A visszahívási objektum a keresési eredmények fogadásához [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### Példák
 
-Az alábbi kódminta bemutatja, hogyan lehet szöveget helyettesíteni reguláris kifejezéssel a megadott karakterlánc használatával.
+Az alábbi kódrészlet bemutatja, hogyan lehet a reguláris kifejezéssel a megadott karakterláncra cserélni a szöveget.
 
 ```csharp
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
 	Regex regex = new Regex(@"\b[^\s]{10,}\b");
-	// Cserélje le a 10 vagy több karakterből álló összes szót '***'-re
+	// Cserélje le az összes 10 vagy több karaktert tartalmazó szót '***'-re
 	presentation.ReplaceRegex(regex, "***", null);
 	presentation.Save("SomePresentation-out.pptx", SaveFormat.Pptx);
 }

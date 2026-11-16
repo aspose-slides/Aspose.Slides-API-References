@@ -1,24 +1,24 @@
 ---
 title: RemoveEmbeddedFont
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 임베디드 글꼴을 제거합니다
+second_title: Aspose.Sildes for .NET API 참조
+description: 임베디드 폰트를 제거합니다
 type: docs
-weight: 90
+weight: 100
 url: /ko/aspose.slides/ifontsmanager/removeembeddedfont/
 ---
 ## IFontsManager.RemoveEmbeddedFont 메서드
 
-임베디드 글꼴을 제거합니다
+임베디드 폰트를 제거합니다
 
 ```csharp
 public void RemoveEmbeddedFont(IFontData fontData)
 ```
 
-| 매개변수 | 형식 | 설명 |
+| 매개변수 | 유형 | 설명 |
 | --- | --- | --- |
 | fontData | IFontData | 폰트 데이터 객체 [`IFontData`](../../ifontdata) |
 
-### 참고
+### 관련 항목
 
 * 인터페이스 [IFontData](../../ifontdata)
 * 인터페이스 [IFontsManager](../../ifontsmanager)

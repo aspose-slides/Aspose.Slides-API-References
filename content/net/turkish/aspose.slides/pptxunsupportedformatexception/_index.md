@@ -1,14 +1,14 @@
 ---
 title: PptxUnsupportedFormatException
 second_title: Aspose.Sildes için .NET API Referansı
-description: Sunum dosyası formatı desteklenmediğinde fırlatılan istisna.
+description: Sunum dosyası formatı desteklenmediğinde atılan istisna.
 type: docs
-weight: 9580
+weight: 9600
 url: /tr/aspose.slides/pptxunsupportedformatexception/
 ---
 ## PptxUnsupportedFormatException sınıfı
 
-Desteklenmeyen sunum dosyası formatı olduğunda fırlatılan istisna.
+Sunum dosyası formatı desteklenmediğinde atılan istisna.
 
 ```csharp
 public class PptxUnsupportedFormatException : PptxReadException
@@ -16,11 +16,11 @@ public class PptxUnsupportedFormatException : PptxReadException
 
 ## Yapıcılar
 
-| Ad | Açıklama |
+| İsim | Açıklama |
 | --- | --- |
 | [PptxUnsupportedFormatException](pptxunsupportedformatexception#constructor)() | Varsayılan yapıcı. |
-| [PptxUnsupportedFormatException](pptxunsupportedformatexception#constructor_1)(string) | Bu istisna için bir mesaj eklenmesine izin veren yapıcı. |
-| [PptxUnsupportedFormatException](pptxunsupportedformatexception#constructor_2)(string, Exception) | Mesaj ve gömülü bir istisna içeren bir istisna için yapıcı. |
+| [PptxUnsupportedFormatException](pptxunsupportedformatexception#constructor_1)(string) | Bu istisnaya bir mesaj eklenmesini sağlayan yapıcı. |
+| [PptxUnsupportedFormatException](pptxunsupportedformatexception#constructor_2)(string, Exception) | Bir mesaj ve gömülü bir istisna içeren bir istisna için yapıcı. |
 
 ### Ayrıca Bakınız
 

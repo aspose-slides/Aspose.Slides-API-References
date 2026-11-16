@@ -3,7 +3,7 @@ title: GifOptions
 second_title: Aspose.Sildes لمرجع API .NET
 description: يمثل خيارات تصدير GIF.
 type: docs
-weight: 3820
+weight: 3840
 url: /ar/aspose.slides.export/gifoptions/
 ---
 ## فئة GifOptions
@@ -18,21 +18,21 @@ public class GifOptions : SaveOptions, IGifOptions
 
 | الاسم | الوصف |
 | --- | --- |
-| [GifOptions](gifoptions)() | يقوم بتهيئة نسخة جديدة من فئة GifOptions. |
+| [GifOptions](gifoptions)() | ينشئ مثيلاً جديداً من الفئة GifOptions. |
 
 ## الخصائص
 
 | الاسم | الوصف |
 | --- | --- |
-| [DefaultDelay](../../aspose.slides.export/gifoptions/defaultdelay) { get; set; } | يحصل أو يعيّن وقت التأخير الافتراضي [ms]. سيتم استخدام هذه القيمة إذا لم يتم تعيين [`AdvanceAfterTime`](../../aspose.slides/islideshowtransition/advanceaftertime). القيمة الافتراضية هي 1000. |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | يحصل أو يعيّن الخط المستخدم في حالة عدم العثور على الخط الأصلي. قابل للقراءة والكتابة String. |
+| [DefaultDelay](../../aspose.slides.export/gifoptions/defaultdelay) { get; set; } | يحصل أو يضبط الوقت الافتراضي للتأخير [ms]. سيتم استخدام هذه القيمة إذا لم يتم تعيين [`AdvanceAfterTime`](../../aspose.slides/islideshowtransition/advanceaftertime). القيمة الافتراضية هي 1000. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | يحصل أو يضبط الخط المستخدم في حال عدم العثور على الخط الأصلي. قراءة-كتابة String. |
 | [ExportHiddenSlides](../../aspose.slides.export/gifoptions/exporthiddenslides) { get; set; } | يحدد ما إذا كانت الشرائح المخفية سيتم تصديرها. القيمة الافتراضية هي false. |
-| [FrameSize](../../aspose.slides.export/gifoptions/framesize) { get; set; } | يحصل أو يعيّن حجم الإطار. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | يحصل أو يعيّن النمط البصري للتدرج. قابل للقراءة/الكتابة [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | يمثل كائنًا للاتصال الخلفي لحفظ تحديثات التقدم بالنسبة المئوية. انظر [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | يحدد ما إذا كان سيتم تخطي الروابط التشعبية التي تحتوي على استدعاءات JavaScript عند حفظ العرض التقديمي. قابل للقراءة/الكتابة Boolean. القيمة الافتراضية هي **false**. |
-| [TransitionFps](../../aspose.slides.export/gifoptions/transitionfps) { get; set; } | يحصل أو يعيّن معدل الإطارات للانتقال [frames/sec] القيمة الافتراضية هي 25. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | يحصل أو يعيّن كائنًا يستقبل التحذيرات ويقرر ما إذا كانت عملية التحميل ستستمر أو سيتم إلغاؤها. قابل للقراءة/الكتابة [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [FrameSize](../../aspose.slides.export/gifoptions/framesize) { get; set; } | يحصل أو يضبط حجم الإطار. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | يحصل أو يضبط النمط البصري للتدرج. قراءة-كتابة [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | يمثل كائنًا لاستدعاء رد عند حفظ تحديثات التقدم بالنسبة المئوية. انظر [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | يحدد ما إذا كان يجب تخطي الروابط التشعبية التي تستدعي JavaScript عند حفظ العرض التقديمي. قراءة-كتابة Boolean. القيمة الافتراضية هي **false**. |
+| [TransitionFps](../../aspose.slides.export/gifoptions/transitionfps) { get; set; } | يحصل أو يضبط عدد الإطارات للانتقال [الإطارات/ثانية]. القيمة الافتراضية هي 25. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | يحصل أو يضبط كائنًا يتلقى التحذيرات ويقرر ما إذا كانت عملية التحميل ستستمر أو ستُلغى. قراءة-كتابة [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### أمثلة
 
@@ -45,7 +45,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
     pres.Save("pres.gif", SaveFormat.Gif, new GifOptions
     {
         FrameSize = new Size(960, 720), // حجم GIF الناتج
-        DefaultDelay = 2000, // المدة التي ستُعرض فيها كل شريحة حتى يتم تغييرها إلى التالية
+        DefaultDelay = 2000, // المدة التي تُعرض فيها كل شريحة قبل الانتقال إلى الشريحة التالية
         TransitionFps = 35 // زيادة عدد الإطارات لتحسين جودة حركة الانتقال
     });
 }
@@ -53,9 +53,9 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 ### انظر أيضًا
 
-* الفئة [SaveOptions](../saveoptions)
-* الواجهة [IGifOptions](../igifoptions)
-* مساحة الاسم [Aspose.Slides.Export](../../aspose.slides.export)
-* التجمع [Aspose.Slides](../../)
+* فئة [SaveOptions](../saveoptions)
+* واجهة [IGifOptions](../igifoptions)
+* نطاق [Aspose.Slides.Export](../../aspose.slides.export)
+* مجموعة [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

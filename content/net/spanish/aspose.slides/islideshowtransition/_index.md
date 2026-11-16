@@ -1,14 +1,14 @@
 ---
 title: ISlideShowTransition
-second_title: Aspose.Sildes para .NET Referencia de API
-description: Representa la transición de la presentación.
+second_title: Referencia de API de Aspose.Sildes para .NET
+description: Representa la transición de la presentación de diapositivas.
 type: docs
-weight: 7080
+weight: 7100
 url: /es/aspose.slides/islideshowtransition/
 ---
-## interfaz ISlideShowTransition
+## Interfaz ISlideShowTransition
 
-Representa la transición de la presentación.
+Representa la transición de la presentación de diapositivas.
 
 ```csharp
 public interface ISlideShowTransition
@@ -18,16 +18,16 @@ public interface ISlideShowTransition
 
 | Nombre | Descripción |
 | --- | --- |
-| [AdvanceAfter](../../aspose.slides/islideshowtransition/advanceafter) { get; set; } | Este atributo especifica si la presentación avanzará a la diapositiva siguiente después de un tiempo determinado. Lectura/escritura Boolean. |
-| [AdvanceAfterTime](../../aspose.slides/islideshowtransition/advanceaftertime) { get; set; } | Especifica el tiempo, en milisegundos, después del cual la transición debe iniciarse. Esta configuración puede usarse junto con el atributo advClick. Si no se especifica este atributo, se asume que no habrá avance automático. Lectura-escritura UInt32. |
-| [AdvanceOnClick](../../aspose.slides/islideshowtransition/advanceonclick) { get; set; } | Especifica si un clic del ratón avanzará la diapositiva o no. Si no se especifica este atributo, se asume un valor true. Lectura-escritura Boolean. |
+| [AdvanceAfter](../../aspose.slides/islideshowtransition/advanceafter) { get; set; } | Este atributo especifica si la presentación avanzará a la siguiente diapositiva después de un tiempo determinado. Lectura/escritura Boolean. |
+| [AdvanceAfterTime](../../aspose.slides/islideshowtransition/advanceaftertime) { get; set; } | Especifica el tiempo, en milisegundos, después del cual debe iniciarse la transición. Esta configuración puede usarse junto con el atributo advClick. Si no se especifica este atributo, se asume que no habrá avance automático. Lectura-escritura UInt32. |
+| [AdvanceOnClick](../../aspose.slides/islideshowtransition/advanceonclick) { get; set; } | Especifica si un clic del mouse avanzará la diapositiva o no. Si no se especifica este atributo, se asume un valor verdadero. Lectura-escritura Boolean. |
 | [Duration](../../aspose.slides/islideshowtransition/duration) { get; set; } | Obtiene o establece la duración del efecto de transición de la diapositiva en milisegundos. Lectura/escritura Int32. |
 | [Sound](../../aspose.slides/islideshowtransition/sound) { get; set; } | Devuelve o establece los datos de audio incrustados. Lectura-escritura [`IAudio`](../iaudio). |
-| [SoundIsBuiltIn](../../aspose.slides/islideshowtransition/soundisbuiltin) { get; set; } | Especifica si este sonido es o no un sonido incorporado. Si este atributo se establece en true, la aplicación generadora se alerta para verificar el atributo name especificado para este sonido en su lista de sonidos incorporados y puede entonces mostrar un nombre personalizado o una interfaz según sea necesario. Lectura-escritura Boolean. |
-| [SoundLoop](../../aspose.slides/islideshowtransition/soundloop) { get; set; } | Este atributo especifica si el sonido se repetirá hasta que ocurra el siguiente evento de sonido en la presentación. Lectura-escritura Boolean. |
-| [SoundMode](../../aspose.slides/islideshowtransition/soundmode) { get; set; } | Establece o devuelve el modo de sonido para la transición de diapositiva. Lectura-escritura [`TransitionSoundMode`](../../aspose.slides.slideshow/transitionsoundmode). |
-| [SoundName](../../aspose.slides/islideshowtransition/soundname) { get; set; } | Especifica un nombre legible por humanos para el sonido de la transición. La propiedad [`Sound`](./sound) debe asignarse para obtener o establecer el nombre del sonido. Lectura-escritura String. |
-| [Speed](../../aspose.slides/islideshowtransition/speed) { get; set; } | Especifica la velocidad de transición que se utilizará al pasar de la diapositiva actual a la siguiente. Lectura-escritura [`TransitionSpeed`](../../aspose.slides.slideshow/transitionspeed). |
+| [SoundIsBuiltIn](../../aspose.slides/islideshowtransition/soundisbuiltin) { get; set; } | Especifica si este sonido es un sonido incorporado o no. Si este atributo se establece en verdadero, la aplicación generadora se alerta para comprobar el atributo name especificado para este sonido en su lista de sonidos incorporados y puede entonces mostrar un nombre personalizado o una interfaz según sea necesario. Lectura-escritura Boolean. |
+| [SoundLoop](../../aspose.slides/islideshowtransition/soundloop) { get; set; } | Este atributo especifica si el sonido se repetirá en bucle hasta que ocurra el siguiente evento de sonido en la presentación. Lectura-escritura Boolean. |
+| [SoundMode](../../aspose.slides/islideshowtransition/soundmode) { get; set; } | Establece o devuelve el modo de sonido para la transición de la diapositiva. Lectura-escritura [`TransitionSoundMode`](../../aspose.slides.slideshow/transitionsoundmode). |
+| [SoundName](../../aspose.slides/islideshowtransition/soundname) { get; set; } | Especifica un nombre legible para el sonido de la transición. La propiedad [`Sound`](./sound) debe asignarse para obtener o establecer el nombre del sonido. Lectura-escritura String. |
+| [Speed](../../aspose.slides/islideshowtransition/speed) { get; set; } | Especifica la velocidad de transición que se usará al pasar de la diapositiva actual a la siguiente. Lectura-escritura [`TransitionSpeed`](../../aspose.slides.slideshow/transitionspeed). |
 | [Type](../../aspose.slides/islideshowtransition/type) { get; set; } | Tipo de transición. Lectura-escritura [`TransitionType`](../../aspose.slides.slideshow/transitiontype). |
 | [Value](../../aspose.slides/islideshowtransition/value) { get; } | Valor de transición de la presentación. Solo lectura [`ITransitionValueBase`](../../aspose.slides.slideshow/itransitionvaluebase). |
 

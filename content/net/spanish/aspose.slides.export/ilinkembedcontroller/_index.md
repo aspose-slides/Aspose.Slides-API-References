@@ -3,7 +3,7 @@ title: ILinkEmbedController
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Interfaz de devolución de llamada utilizada para determinar cómo debe procesarse el objeto durante el guardado.
 type: docs
-weight: 3990
+weight: 4010
 url: /es/aspose.slides.export/ilinkembedcontroller/
 ---
 ## ILinkEmbedController interfaz
@@ -19,7 +19,7 @@ public interface ILinkEmbedController
 | Nombre | Descripción |
 | --- | --- |
 | [GetObjectStoringLocation](../../aspose.slides.export/ilinkembedcontroller/getobjectstoringlocation)(int, byte[], string, string, string) | Determina dónde debe almacenarse el objeto. Este método se llama una vez por cada id de objeto. No se garantiza que no haya dos objetos con los mismos datos, semanticName y contentType pero con diferentes id. |
-| [GetUrl](../../aspose.slides.export/ilinkembedcontroller/geturl)(int, int) | Devuelve una URL a un objeto externo. Este método siempre se llama si [`GetObjectStoringLocation`](./getobjectstoringlocation) devolvió Link y puede llamarse si [`GetObjectStoringLocation`](./getobjectstoringlocation) devolvió Embed pero la incrustación es imposible. Puede llamarse múltiples veces para el mismo id de objeto. |
+| [GetUrl](../../aspose.slides.export/ilinkembedcontroller/geturl)(int, int) | Devuelve una URL a un objeto externo. Este método siempre se llama si [`GetObjectStoringLocation`](./getobjectstoringlocation) devolvió Link y puede llamarse si [`GetObjectStoringLocation`](./getobjectstoringlocation) devolvió Embed pero la incrustación es imposible. Puede llamarse varias veces para el mismo id de objeto. |
 | [SaveExternal](../../aspose.slides.export/ilinkembedcontroller/saveexternal)(int, byte[]) | Guarda el objeto externo. |
 
 ### Ver también

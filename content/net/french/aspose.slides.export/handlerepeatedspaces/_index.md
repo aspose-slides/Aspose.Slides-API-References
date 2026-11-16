@@ -1,14 +1,14 @@
 ---
 title: HandleRepeatedSpaces
 second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Spécifie comment les caractères d'espace réguliers répétés doivent être gérés lors de l'exportation Markdown.
+description: Spécifie comment les caractères d'espace réguliers répétés doivent être traités lors de l'exportation Markdown.
 type: docs
-weight: 3830
+weight: 3850
 url: /fr/aspose.slides.export/handlerepeatedspaces/
 ---
 ## HandleRepeatedSpaces énumération
 
-Spécifie comment les caractères d'espace réguliers répétés doivent être gérés lors de l'exportation Markdown.
+Specifie comment les caractères d'espace réguliers répétés doivent être traités lors de l'exportation Markdown.
 
 ```csharp
 public enum HandleRepeatedSpaces
@@ -18,7 +18,7 @@ public enum HandleRepeatedSpaces
 
 | Nom | Valeur | Description |
 | --- | --- | --- |
-| None | `0` | Tous les espaces sont conservés comme des caractères d'espace réguliers sans aucune modification. Aucune transformation n'est appliquée, et les espaces consécutifs multiples sont exportés tels quels. |
+| None | `0` | Tous les espaces sont conservés en tant que caractères d'espace ordinaires sans aucune modification. Aucune transformation n'est appliquée, et les espaces consécutifs multiples sont exportés tels quels. |
 | AlternateSpacesToNbsp | `1` |  |
 | MultipleSpacesToNbsp | `2` |  |
 

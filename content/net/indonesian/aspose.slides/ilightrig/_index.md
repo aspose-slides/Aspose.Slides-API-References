@@ -3,7 +3,7 @@ title: ILightRig
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili LightRig.
 type: docs
-weight: 6270
+weight: 6290
 url: /id/aspose.slides/ilightrig/
 ---
 ## ILightRig antarmuka
@@ -16,16 +16,16 @@ public interface ILightRig
 
 ## Properti
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
 | [Direction](../../aspose.slides/ilightrig/direction) { get; set; } | Arah cahaya. Baca/tulis [`LightingDirection`](../lightingdirection). |
-| [LightType](../../aspose.slides/ilightrig/lighttype) { get; set; } | Mewakili preset cahaya kanan yang dapat diterapkan pada bentuk. Light rig mewakili sekelompok cahaya yang mengarah dalam cara tertentu relatif terhadap adegan 3D. Baca/tulis [`LightRigPresetType`](../lightrigpresettype). |
+| [LightType](../../aspose.slides/ilightrig/lighttype) { get; set; } | Mewakili preset cahaya kanan yang dapat diterapkan pada sebuah shape. Light rig mewakili sekelompok cahaya yang diarahkan dengan cara tertentu relatif terhadap adegan 3D. Baca/tulis [`LightRigPresetType`](../lightrigpresettype). |
 
 ## Metode
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
-| [GetRotation](../../aspose.slides/ilightrig/getrotation)() | Rotasi didefinisikan melalui penggunaan koordinat lintang, koordinat bujur, dan revolusi sekitar sumbu sebagai koordinat lintang dan bujur. elemen pertama dalam array yang dikembalikan - lintang, kedua - bujur, ketiga - revolusi. |
+| [GetRotation](../../aspose.slides/ilightrig/getrotation)() | Rotasi didefinisikan melalui penggunaan koordinat lintang, koordinat bujur, dan revolusi sekitar sumbu sebagai koordinat lintang dan bujur. elemen pertama dalam array hasil - lintang, elemen kedua - bujur, elemen ketiga - revolusi. |
 | [SetRotation](../../aspose.slides/ilightrig/setrotation)(float, float, float) | Rotasi didefinisikan melalui penggunaan koordinat lintang, koordinat bujur, dan revolusi sekitar sumbu sebagai koordinat lintang dan bujur. |
 
 ### Lihat Juga

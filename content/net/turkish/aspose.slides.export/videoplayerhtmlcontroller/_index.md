@@ -1,14 +1,14 @@
 ---
 title: VideoPlayerHtmlController
-second_title: Aspose.Sildes for .NET API Referansı
-description: Bu sınıf video ve ses dosyalarını bir HTML'e aktarmaya olanak tanır.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Bu sınıf, video ve ses dosyalarının bir HTML'ye dışa aktarılmasını sağlar
 type: docs
-weight: 4580
+weight: 4600
 url: /tr/aspose.slides.export/videoplayerhtmlcontroller/
 ---
-## VideoPlayerHtmlController sınıfı
+## VideoPlayerHtmlController sınıf
 
-Bu sınıf, video ve ses dosyalarının bir HTML'e aktarılmasını sağlar.
+Bu sınıf, video ve ses dosyalarının bir HTML'ye dışa aktarılmasını sağlar
 
 ```csharp
 public class VideoPlayerHtmlController : IVideoPlayerHtmlController

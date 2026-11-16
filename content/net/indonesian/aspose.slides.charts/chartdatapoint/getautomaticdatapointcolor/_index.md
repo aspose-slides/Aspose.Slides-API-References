@@ -1,9 +1,9 @@
 ---
 title: GetAutomaticDataPointColor
-second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mengembalikan warna otomatis titik data berdasarkan indeks seri, indeks titik data, properti ParentSeriesGroup.IsColorVaried, dan gaya bagan. Warna ini digunakan secara default jika FillType sama dengan NotDefined.
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Mengembalikan warna otomatis dari titik data berdasarkan indeks seri, indeks titik data, properti ParentSeriesGroup.IsColorVaried, dan gaya bagan. Warna ini digunakan secara default jika FillType sama dengan NotDefined.
 type: docs
-weight: 220
+weight: 260
 url: /id/aspose.slides.charts/chartdatapoint/getautomaticdatapointcolor/
 ---
 ## ChartDataPoint.GetAutomaticDataPointColor metode

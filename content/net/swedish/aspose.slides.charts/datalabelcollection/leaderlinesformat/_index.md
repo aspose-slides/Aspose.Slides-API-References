@@ -1,14 +1,14 @@
 ---
 title: LeaderLinesFormat
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar format för ledarlinjer för datamärkningar. Skrivskyddad IChartLinesFormataspose.slides.charts/ichartlinesformat.
+description: Representerar format för dataetiketters ledarlinjer. Skrivskyddad IChartLinesFormataspose.slides.charts/ichartlinesformat.
 type: docs
-weight: 70
+weight: 80
 url: /sv/aspose.slides.charts/datalabelcollection/leaderlinesformat/
 ---
-## DataLabelCollection.LeaderLinesFormat property
+## DataLabelCollection.LeaderLinesFormat egenskap
 
-Representerar format för ledarlinjer för datamärkningar. Skrivskyddad [`IChartLinesFormat`](../../ichartlinesformat).
+Representerar format för dataetiketter ledarlinjer. Skrivskyddad [`IChartLinesFormat`](../../ichartlinesformat).
 
 ```csharp
 public IChartLinesFormat LeaderLinesFormat { get; }

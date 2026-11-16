@@ -3,12 +3,12 @@ title: OptionalBlackTransition
 second_title: Aspose.Sildes för .NET API-referens
 description: Valfri svart bildövergångseffekt.
 type: docs
-weight: 10260
+weight: 10280
 url: /sv/aspose.slides.slideshow/optionalblacktransition/
 ---
 ## OptionalBlackTransition klass
 
-Valfri svart bildövergångseffekt.
+Valfritt svart bildövergångseffekt.
 
 ```csharp
 public class OptionalBlackTransition : TransitionValueBase, IOptionalBlackTransition
@@ -18,16 +18,16 @@ public class OptionalBlackTransition : TransitionValueBase, IOptionalBlackTransi
 
 | Namn | Beskrivning |
 | --- | --- |
-| [FromBlack](../../aspose.slides.slideshow/optionalblacktransition/fromblack) { get; set; } | Detta attribut anger om övergången ska börja från en svart skärm (och sedan övergå den nya bilden över svart). Läs/skriv Boolean. |
+| [FromBlack](../../aspose.slides.slideshow/optionalblacktransition/fromblack) { get; set; } | Detta attribut anger om övergången ska starta från en svart skärm (och sedan övergå den nya bilden över svart). Läs/skriv Boolean. |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Avgör om de två TransitionValueBase-instanserna är lika. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Fungerar som en hash-funktion för en specifik typ, lämplig för användning i hash-algoritmer och datastrukturer som en hash-tabell. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Bestämmer om de två TransitionValueBase-instansen är lika. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Fungerar som en hashfunktion för en viss typ, lämplig för användning i hashalgoritmer och datastrukturer som en hashtabell. |
 
-### Se även
+### Se också
 
 * klass [TransitionValueBase](../transitionvaluebase)
 * gränssnitt [IOptionalBlackTransition](../ioptionalblacktransition)

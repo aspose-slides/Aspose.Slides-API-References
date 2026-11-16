@@ -1,14 +1,14 @@
 ---
 title: TiffOptions
 second_title: Aspose.Sildes لـ .NET مرجع API
-description: يوفر خيارات تتحكم في طريقة حفظ العرض التقديمي بتنسيق TIFF.
+description: يوفر خيارات تتحكم في طريقة حفظ العرض التقديمي بصيغة TIFF.
 type: docs
-weight: 4570
+weight: 4590
 url: /ar/aspose.slides.export/tiffoptions/
 ---
-## فئة TiffOptions
+## الفئة TiffOptions
 
-يوفر خيارات تتحكم في كيفية حفظ العرض التقديمي بتنسيق TIFF.
+يوفر خيارات تتحكم في طريقة حفظ العرض التقديمي بصيغة TIFF.
 
 ```csharp
 public class TiffOptions : SaveOptions, ITiffOptions
@@ -24,24 +24,24 @@ public class TiffOptions : SaveOptions, ITiffOptions
 
 | الاسم | الوصف |
 | --- | --- |
-| [BwConversionMode](../../aspose.slides.export/tiffoptions/bwconversionmode) { get; set; } | يحدد الخوارزمية لتحويل صورة ملونة إلى صورة أبيض وأسود. سيتم تطبيق هذا الخيار فقط إذا كان [`CompressionType`](./compressiontype) مُعينًا إلى CCITT4 أو CCITT3 قابل للقراءة/الكتابة [`BlackWhiteConversionMode`](../blackwhiteconversionmode). الافتراضي هو Default. |
-| [CompressionType](../../aspose.slides.export/tiffoptions/compressiontype) { get; set; } | يحدد نوع الضغط. قابل للقراءة/الكتابة [`TiffCompressionTypes`](../tiffcompressiontypes). |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | يعيد أو يضبط الخط المستخدم في حالة عدم العثور على الخط المصدر. قابل للقراءة/الكتابة String. |
-| [DpiX](../../aspose.slides.export/tiffoptions/dpix) { get; set; } | يحدد الدقة الأفقية بوحدة النقاط لكل بوصة. قابل للقراءة/الكتابة UInt32. |
-| [DpiY](../../aspose.slides.export/tiffoptions/dpiy) { get; set; } | يحدد الدقة العمودية بوحدة النقاط لكل بوصة. قابل للقراءة/الكتابة UInt32. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | يعيد أو يضبط النمط البصري للتدرج. قابل للقراءة/الكتابة [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [ImageSize](../../aspose.slides.export/tiffoptions/imagesize) { get; set; } | يحدد حجم صورة TIFF المُولدة. القيمة الافتراضية هي 0x0، ما يعني أن أحجام الصور المتولدة سُتحسب بناءً على قيمة حجم شريحة العرض. قابل للقراءة/الكتابة Size. |
-| [InkOptions](../../aspose.slides.export/tiffoptions/inkoptions) { get; } | يوفر خيارات تتحكم في مظهر كائنات الحبر في المستند المصدر. للقراءة فقط [`IInkOptions`](../iinkoptions) |
-| [PixelFormat](../../aspose.slides.export/tiffoptions/pixelformat) { get; set; } | يحدد تنسيق البكسل للصور المتولدة. قابل للقراءة/الكتابة [`ImagePixelFormat`](../imagepixelformat). |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | يمثل كائن استدعاء للعودة لتحديثات تقدم الحفظ بالنسبة المئوية. انظر [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [ShowHiddenSlides](../../aspose.slides.export/tiffoptions/showhiddenslides) { get; set; } | يحدد ما إذا كان المستند المُولد يجب أن يتضمن الشرائح المخفية أم لا. الافتراضي هو `false`. |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | يحدد ما إذا كان يجب تخطي الروابط التشعبية ذات استدعاءات JavaScript عند حفظ العرض التقديمي. قابل للقراءة/الكتابة Boolean. القيمة الافتراضية هي **false**. |
-| [SlidesLayoutOptions](../../aspose.slides.export/tiffoptions/slideslayoutoptions) { get; set; } | يحصل أو يضبط الوضع الذي تُوضع فيه الشرائح على الصفحة عند تصدير عرض تقديمي [`ISlidesLayoutOptions`](../islideslayoutoptions). |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | يعيد أو يضبط كائنًا يتلقى التحذيرات ويقرر ما إذا كانت عملية التحميل ستستمر أو ستُجهض. قابل للقراءة/الكتابة [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [BwConversionMode](../../aspose.slides.export/tiffoptions/bwconversionmode) { get; set; } | يحدد الخوارزمية لتحويل الصورة الملونة إلى صورة بالأبيض والأسود. يتم تطبيق هذا الخيار فقط إذا تم تعيين [`CompressionType`](./compressiontype) إلى CCITT4 أو CCITT3 قراءة/كتابة [`BlackWhiteConversionMode`](../blackwhiteconversionmode). الافتراضي هو Default. |
+| [CompressionType](../../aspose.slides.export/tiffoptions/compressiontype) { get; set; } | يحدد نوع الضغط. قراءة/كتابة [`TiffCompressionTypes`](../tiffcompressiontypes). |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | إرجاع أو تعيين الخط المستخدم في حالة عدم العثور على الخط المصدر. قراءة/كتابة String. |
+| [DpiX](../../aspose.slides.export/tiffoptions/dpix) { get; set; } | يحدد الدقة الأفقية بوحدة النقاط في البوصة. قراءة/كتابة UInt32. |
+| [DpiY](../../aspose.slides.export/tiffoptions/dpiy) { get; set; } | يحدد الدقة الرأسية بوحدة النقاط في البوصة. قراءة/كتابة UInt32. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | إرجاع أو تعيين النمط البصري للتدرج. قراءة/كتابة [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [ImageSize](../../aspose.slides.export/tiffoptions/imagesize) { get; set; } | يحدد حجم صورة TIFF المولدة. القيمة الافتراضية هي 0x0، مما يعني أن أحجام الصور المولدة ستحسب بناءً على قيمة حجم شريحة العرض التقديمي. قراءة/كتابة Size. |
+| [InkOptions](../../aspose.slides.export/tiffoptions/inkoptions) { get; } | يوفر خيارات تتحكم في مظهر كائنات الحبر في المستند المُصدَّر. قراءة فقط [`IInkOptions`](../iinkoptions) |
+| [PixelFormat](../../aspose.slides.export/tiffoptions/pixelformat) { get; set; } | يحدد تنسيق البكسل للصور المولدة. قراءة/كتابة [`ImagePixelFormat`](../imagepixelformat). |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | يمثل كائن رد نداء لتحديثات حفظ التقدم كنسبة مئوية. انظر [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [ShowHiddenSlides](../../aspose.slides.export/tiffoptions/showhiddenslides) { get; set; } | يحدد ما إذا كان المستند المولد يجب أن يتضمن الشرائح المخفية أم لا. القيمة الافتراضية هي `false`. |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | يحدد ما إذا كان سيتم تخطي الروابط التشعبية التي تحتوي على استدعاءات JavaScript عند حفظ العرض التقديمي. قراءة/كتابة Boolean. القيمة الافتراضية هي **false**. |
+| [SlidesLayoutOptions](../../aspose.slides.export/tiffoptions/slideslayoutoptions) { get; set; } | إرجاع أو تعيين الوضع الذي توضع فيه الشرائح على الصفحة عند تصدير العرض التقديمي [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | إرجاع أو تعيين كائن يتلقى التحذيرات ويقرر ما إذا كانت عملية التحميل ستستمر أم تُلغى. قراءة/كتابة [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
-### الأمثلة
+### أمثلة
 
-المثال التالي يوضح كيفية تحويل PowerPoint إلى TIFF بالحجم الافتراضي.
+يوضح المثال التالي كيفية تحويل PowerPoint إلى TIFF بالحجم الافتراضي.
 
 ```csharp
 [C#]
@@ -53,14 +53,14 @@ using (Presentation presentation = new Presentation("DemoFile.pptx"))
 }
 ```
 
-المثال التالي يوضح كيفية تحويل PowerPoint إلى TIFF بحجم مخصص.
+يوضح المثال التالي كيفية تحويل PowerPoint إلى TIFF بحجم مخصص.
 
 ```csharp
 [C#]
 // إنشاء كائن Presentation يمثل ملف عرض تقديمي
 using (Presentation pres = new Presentation("Convert_Tiff_Custom.pptx"))
 {
-    // إنشاء كائن من فئة TiffOptions
+    // إنشاء كائن من الفئة TiffOptions
     TiffOptions opts = new TiffOptions();
     // تعيين نوع الضغط
     opts.CompressionType = TiffCompressionTypes.Default;
@@ -68,25 +68,25 @@ using (Presentation pres = new Presentation("Convert_Tiff_Custom.pptx"))
     notesOptions.NotesPosition = NotesPositions.BottomFull;
     opts.SlidesLayoutOption = notesOptions;
     // أنواع الضغط
-    // Default - يحدد نظام الضغط الافتراضي (LZW).
+    // Default - يحدد مخطط الضغط الافتراضي (LZW).
     // None - يحدد عدم وجود ضغط.
     // CCITT3
     // CCITT4
     // LZW
     // RLE
-    // يعتمد العمق على نوع الضغط ولا يمكن تعيينه يدويًا.
-    // وحدة الدقة دائمًا تساوي “2” (نقطة لكل بوصة)
-    // تعيين DPI الصورة
+    // العمق يعتمد على نوع الضغط ولا يمكن تعيينه يدويًا.
+    // وحدة الدقة دائمًا ما تكون مساوية لـ “2” (نقطة في البوصة)
+    // تعيين DPI للصورة
     opts.DpiX = 200;
     opts.DpiY = 100;
     // تعيين حجم الصورة
     opts.ImageSize = new Size(1728, 1078);
-    // حفظ العرض التقديمي إلى TIFF مع حجم الصورة المحدد
+    // حفظ العرض التقديمي إلى TIFF بالحجم المحدد للصورة
     pres.Save("TiffWithCustomSize_out.tiff", SaveFormat.Tiff, opts);
 }
 ```
 
-المثال التالي يوضح كيفية تحويل PowerPoint إلى TIFF بتنسيق بكسل صورة مخصص.
+يوضح المثال التالي كيفية تحويل PowerPoint إلى TIFF بتنسيق بكسل صورة مخصص.
 
 ```csharp
 [C#]
@@ -103,16 +103,16 @@ using (Presentation presentation = new Presentation("DemoFile.pptx"))
     Format24bppRgb; // 24 بت لكل بكسل، RGB.
     Format32bppArgb; // 32 بت لكل بكسل، ARGB.
     */
-    // حفظ العرض التقديمي إلى TIFF مع حجم الصورة المحدد
+    // حفظ العرض التقديمي إلى TIFF بالحجم المحدد للصورة
     presentation.Save("Tiff_With_Custom_Image_Pixel_Format_out.tiff", SaveFormat.Tiff, options);
 }
 ```
 
 ### انظر أيضًا
 
-* فئة [SaveOptions](../saveoptions)
-* واجهة [ITiffOptions](../itiffoptions)
+* الفئة [SaveOptions](../saveoptions)
+* الواجهة [ITiffOptions](../itiffoptions)
 * مساحة الاسم [Aspose.Slides.Export](../../aspose.slides.export)
-* تجميع [Aspose.Slides](../../)
+* التجميع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,14 +1,14 @@
 ---
 title: CommentsPositions
-second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Biểu thị quy tắc để hiển thị bình luận trong tài liệu đã xuất
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Biểu thị quy tắc để hiển thị bình luận trong tài liệu được xuất
 type: docs
-weight: 3730
+weight: 3750
 url: /vi/aspose.slides.export/commentspositions/
 ---
-## Liệt kê CommentsPositions
+## CommentsPositions liệt kê
 
-Biểu thị quy tắc để hiển thị bình luận trong tài liệu đã xuất
+Biểu thị quy tắc để hiển thị bình luận trong tài liệu được xuất
 
 ```csharp
 public enum CommentsPositions
@@ -18,11 +18,11 @@ public enum CommentsPositions
 
 | Tên | Giá trị | Mô tả |
 | --- | --- | --- |
-| None | `0` | Chỉ định rằng bình luận không được hiển thị hoàn toàn. |
-| Bottom | `1` | Chỉ định rằng bình luận sẽ được hiển thị ở phía dưới trang. |
-| Right | `2` | Chỉ định rằng bình luận sẽ được hiển thị ở phía bên phải của trang. |
+| None | `0` | Chỉ định rằng bình luận không nên được hiển thị dưới bất kỳ hình thức nào. |
+| Bottom | `1` | Chỉ định rằng bình luận nên được hiển thị ở đáy trang. |
+| Right | `2` | Chỉ định rằng bình luận nên được hiển thị ở phía bên phải của trang. |
 
-### Xem Thêm
+### Xem thêm
 
 * không gian tên [Aspose.Slides.Export](../../aspose.slides.export)
 * assembly [Aspose.Slides](../../)

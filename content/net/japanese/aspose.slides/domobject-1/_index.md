@@ -1,12 +1,12 @@
 ---
 title: DomObjectTParent
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: ベース DOM オブジェクト
 type: docs
-weight: 2800
+weight: 2820
 url: /ja/aspose.slides/domobject-1/
 ---
-## DomObject<TParent> クラス
+## DomObject&lt;TParent&gt; クラス
 
 ベース DOM オブジェクト
 
@@ -14,7 +14,7 @@ url: /ja/aspose.slides/domobject-1/
 public abstract class DomObject<TParent>
 ```
 
-| パラメータ | 説明 |
+| パラメーター | 説明 |
 | --- | --- |
 | TParent | 親 DOM オブジェクトの型 |
 

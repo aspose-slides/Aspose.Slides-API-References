@@ -3,10 +3,10 @@ title: IBulkTextFormattable
 second_title: Référence API Aspose.Sildes pour .NET
 description: Représente un objet avec la possibilité de définir en masse les formats des éléments texte enfants.
 type: docs
-weight: 5380
+weight: 5400
 url: /fr/aspose.slides/ibulktextformattable/
 ---
-## IBulkTextFormattable interface
+## Interface IBulkTextFormattable
 
 Représente un objet avec la possibilité de définir en masse les formats des éléments texte enfants.
 
@@ -18,9 +18,9 @@ public interface IBulkTextFormattable
 
 | Nom | Description |
 | --- | --- |
-| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat)(IParagraphFormat) | Définit les propriétés de format de paragraphe définies pour tous les paragraphes de l'élément. |
-| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat_1)(IPortionFormat) | Définit les propriétés de format de portion définies pour toutes les portions de l'élément. |
-| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat_2)(ITextFrameFormat) | Définit les propriétés de format de cadre de texte définies pour tous les cadres de texte de l'élément. |
+| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat)(IParagraphFormat) | Définit les propriétés de format de paragraphe spécifiées pour tous les paragraphes de l'élément. |
+| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat_1)(IPortionFormat) | Définit les propriétés de format de portion spécifiées pour toutes les portions de l'élément. |
+| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat_2)(ITextFrameFormat) | Définit les propriétés de format de cadre de texte spécifiées pour tous les cadres de texte de l'élément. |
 
 ### Voir aussi
 

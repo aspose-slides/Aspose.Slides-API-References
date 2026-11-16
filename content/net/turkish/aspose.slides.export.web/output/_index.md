@@ -1,9 +1,9 @@
 ---
 title: Output
-second_title: Aspose.Sildes .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: IWebDocument için çıktı öğelerinin bir koleksiyonunu temsil eder.
 type: docs
-weight: 4640
+weight: 4660
 url: /tr/aspose.slides.export.web/output/
 ---
 ## Çıktı sınıfı
@@ -18,16 +18,17 @@ public sealed class Output
 
 | Ad | Açıklama |
 | --- | --- |
-| [Add](../../aspose.slides.export.web/output/add#add_1)(string, IImage) | Görüntü için bir çıktı öğesi ekler. |
-| [Add](../../aspose.slides.export.web/output/add#add_2)(string, IPPImage) | Görüntü için bir çıktı öğesi ekler. |
-| [Add](../../aspose.slides.export.web/output/add#add_3)(string, IVideo) | Video için bir çıktı öğesi ekler. |
-| [Add](../../aspose.slides.export.web/output/add#add_4)(string, string) | Metin içeriği için bir çıktı öğesi ekler. |
-| [Add](../../aspose.slides.export.web/output/add#add)(string, IFontData, FontStyleType) | Belirtilen yazı tipi için bir çıktı dosyası öğesi oluşturur ve ekler. |
-| [Add&lt;TContextObject&gt;](../../aspose.slides.export.web/output/add#add_5)(string, string, TContextObject) | Bağlam nesnesi için bir çıktı öğesi ekler. |
+| [Add](../../aspose.slides.export.web/output/add#add)(string, IAudio) | Ses için bir çıktı öğesi ekler. |
+| [Add](../../aspose.slides.export.web/output/add#add_2)(string, IImage) | Görsel için bir çıktı öğesi ekler. |
+| [Add](../../aspose.slides.export.web/output/add#add_3)(string, IPPImage) | Görsel için bir çıktı öğesi ekler. |
+| [Add](../../aspose.slides.export.web/output/add#add_4)(string, IVideo) | Video için bir çıktı öğesi ekler. |
+| [Add](../../aspose.slides.export.web/output/add#add_5)(string, string) | Metin içeriği için bir çıktı öğesi ekler. |
+| [Add](../../aspose.slides.export.web/output/add#add_1)(string, IFontData, FontStyleType) | Belirtilen yazı tipi için bir çıktı dosyası öğesi oluşturur ve ekler. |
+| [Add&lt;TContextObject&gt;](../../aspose.slides.export.web/output/add#add_6)(string, string, TContextObject) | Bağlam nesnesi için bir çıktı öğesi ekler. |
 | [BindResource](../../aspose.slides.export.web/output/bindresource)(IOutputFile, object) | Kaynağı çıktı dosyasına bağlar. |
 | [GetResourcePath](../../aspose.slides.export.web/output/getresourcepath)(object) | Belirli bir kaynak için yolu döndürür. |
 
-### Ayrıca Bakınız
+### Ayrıca bakınız
 
 * ad alanı [Aspose.Slides.Export.Web](../../aspose.slides.export.web)
 * derleme [Aspose.Slides](../../)

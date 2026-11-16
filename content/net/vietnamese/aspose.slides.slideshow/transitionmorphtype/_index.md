@@ -1,26 +1,26 @@
 ---
 title: TransitionMorphType
-second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Biểu diễn một loại chuyển đổi morph.
+second_title: Aspose.Sildes cho .NET Tham khảo API
+description: Mô tả một loại chuyển đổi morph.
 type: docs
-weight: 10390
+weight: 10410
 url: /vi/aspose.slides.slideshow/transitionmorphtype/
 ---
 ## TransitionMorphType liệt kê
 
-Biểu diễn một loại chuyển đổi morph.
+Mô tả một loại chuyển đổi morph.
 
 ```csharp
 public enum TransitionMorphType
 ```
 
-### Giá trị
+### Values
 
 | Tên | Giá trị | Mô tả |
 | --- | --- | --- |
-| ByObject | `0` | Chuyển đổi morph sẽ được thực hiện coi các hình dạng là các đối tượng không thể tách rời. |
-| ByWord | `1` | Chuyển đổi morph sẽ được thực hiện bằng cách chuyển văn bản theo từ khi có thể. |
-| ByChar | `2` | Chuyển đổi morph sẽ được thực hiện bằng cách chuyển văn bản theo ký tự khi có thể. |
+| ByObject | `0` | Morph transition sẽ được thực hiện khi xem shapes là các đối tượng không thể chia tách. |
+| ByWord | `1` | Morph transition sẽ được thực hiện bằng cách chuyển văn bản theo từ khi có thể. |
+| ByChar | `2` | Morph transition sẽ được thực hiện bằng cách chuyển văn bản theo ký tự khi có thể. |
 
 ### Xem thêm
 

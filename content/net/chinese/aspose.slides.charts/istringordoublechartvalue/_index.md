@@ -1,14 +1,14 @@
 ---
 title: IStringOrDoubleChartValue
 second_title: Aspose.Sildes .NET API 参考
-description: 表示可以在 pptx 演示文稿中以两种方式存储的 string 或 double 值：1）在与图表关联的工作簿的单元格/单元格中；2）作为文字值。
+description: 表示可以以两种方式存储在 pptx 演示文稿中的字符串或 double 值：1）在与图表关联的工作簿的单元格中；2）作为文字值。
 type: docs
-weight: 2230
+weight: 2250
 url: /zh/aspose.slides.charts/istringordoublechartvalue/
 ---
 ## IStringOrDoubleChartValue 接口
 
-表示可以在 pptx 演示文稿中以两种方式存储的 string 或 double 值：1) 在与图表关联的工作簿的 cell/cells 中；2) 作为文字值。
+表示可以以两种方式存储在 pptx 演示文稿中的字符串或 double 值：1) 在与图表关联的工作簿的单元格中；2) 作为文字值。
 
 ```csharp
 public interface IStringOrDoubleChartValue : ISingleCellChartValue
@@ -18,7 +18,7 @@ public interface IStringOrDoubleChartValue : ISingleCellChartValue
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsISingleCellChartValue](../../aspose.slides.charts/istringordoublechartvalue/asisinglecellchartvalue) { get; } | 允许获取基 ISingleCellChartValue 接口。只读 [`ISingleCellChartValue`](../isinglecellchartvalue)。 |
+| [AsISingleCellChartValue](../../aspose.slides.charts/istringordoublechartvalue/asisinglecellchartvalue) { get; } | 允许获取基础 ISingleCellChartValue 接口。只读 [`ISingleCellChartValue`](../isinglecellchartvalue)。 |
 | [AsLiteralDouble](../../aspose.slides.charts/istringordoublechartvalue/asliteraldouble) { get; set; } | 如果 DataSourceType 属性为 DataSourceType.DoubleLiterals，则返回或设置文字 double。读写 Double。 |
 | [AsLiteralString](../../aspose.slides.charts/istringordoublechartvalue/asliteralstring) { get; set; } | 如果 DataSourceType 属性为 DataSourceType.StringLiterals，则返回或设置文字 string。读写 String。 |
 
@@ -28,7 +28,7 @@ public interface IStringOrDoubleChartValue : ISingleCellChartValue
 | --- | --- |
 | [ToDouble](../../aspose.slides.charts/istringordoublechartvalue/todouble)() | 将值转换为 double。 |
 
-### 另请参见
+### 参见
 
 * 接口 [ISingleCellChartValue](../isinglecellchartvalue)
 * 命名空间 [Aspose.Slides.Charts](../../aspose.slides.charts)

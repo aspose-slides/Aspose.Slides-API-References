@@ -1,9 +1,9 @@
 ---
 title: IPortionFactory
-second_title: Aspose.Sildes สำหรับ .NET API Reference
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
 description: อนุญาตให้สร้างส่วนทดสอบ
 type: docs
-weight: 6720
+weight: 6740
 url: /th/aspose.slides/iportionfactory/
 ---
 ## IPortionFactory อินเทอร์เฟซ
@@ -18,13 +18,13 @@ public interface IPortionFactory
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion)() | สร้างส่วนข้อความที่ว่างเปล่า. |
+| [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion)() | สร้างส่วนข้อความเปล่า. |
 | [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion_1)(IPortion) | สร้างส่วนโดยใช้ข้อมูลส่วนที่ระบุ. |
 | [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion_2)(string) | สร้างส่วนข้อความจากสตริงที่ระบุ. |
 
 ### หมายเหตุ
 
-สำหรับความเข้ากันได้กับ COM
+สำหรับความเข้ากันได้ของ COM
 
 ### ดูเพิ่มเติม
 

@@ -1,14 +1,14 @@
 ---
 title: LineDashStyle
-second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Đại diện cho kiểu gạch đứt của đường.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Đại diện cho kiểu gạch đoạn.
 type: docs
-weight: 7770
+weight: 7790
 url: /vi/aspose.slides/linedashstyle/
 ---
-## Kiểu liệt kê LineDashStyle
+## LineDashStyle liệt kê
 
-Đại diện cho kiểu gạch đứt của đường.
+Đại diện cho kiểu gạch đoạn.
 
 ```csharp
 public enum LineDashStyle : sbyte
@@ -32,7 +32,7 @@ public enum LineDashStyle : sbyte
 | SystemDashDotDot | `10` |  |
 | Custom | `11` |  |
 
-### Xem Thêm
+### Xem thêm
 
 * không gian tên [Aspose.Slides](../../aspose.slides)
 * tập hợp [Aspose.Slides](../../)

@@ -1,9 +1,9 @@
 ---
 title: IInterruptionTokenSource
-second_title: Aspose.Sildes для .NET справочника API
+second_title: Aspose.Sildes для .NET API справка
 description: Представляет источник IInterruptionToken./iinterruptiontoken.
 type: docs
-weight: 6200
+weight: 6220
 url: /ru/aspose.slides/iinterruptiontokensource/
 ---
 ## IInterruptionTokenSource интерфейс
@@ -27,7 +27,7 @@ public interface IInterruptionTokenSource
 | --- | --- |
 | [Interrupt](../../aspose.slides/iinterruptiontokensource/interrupt)() | Инициализирует запрос на прерывание. |
 
-### См. также
+### Смотрите также
 
 * пространство имён [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

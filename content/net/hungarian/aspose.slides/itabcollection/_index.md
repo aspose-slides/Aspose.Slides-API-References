@@ -1,14 +1,14 @@
 ---
 title: ITabCollection
-second_title: Aspose.Sildes .NET API hivatkozás
-description: A tabok gyűjteményét képviseli.
+second_title: Aspose.Sildes .NET API referencia
+description: Egy fülek gyűjteményét reprezentálja.
 type: docs
-weight: 7200
+weight: 7220
 url: /hu/aspose.slides/itabcollection/
 ---
 ## ITabCollection interfész
 
-Egy tabok gyűjteményét képviseli.
+Egy fülek gyűjteményét reprezentálja.
 
 ```csharp
 public interface ITabCollection : IGenericCollection<ITab>
@@ -20,12 +20,12 @@ public interface ITabCollection : IGenericCollection<ITab>
 | --- | --- |
 | [Item](../../aspose.slides/itabcollection/item) { get; } | A megadott indexű elemet adja vissza. Csak olvasható [`ITab`](../itab). |
 
-## Metódusok
+## Módszerek
 
 | Név | Leírás |
 | --- | --- |
-| [Add](../../aspose.slides/itabcollection/add#add_1)(ITab) | Tabot ad a gyűjteményhez. |
-| [Add](../../aspose.slides/itabcollection/add#add)(double, TabAlignment) | Tabot ad a gyűjteményhez. |
+| [Add](../../aspose.slides/itabcollection/add#add_1)(ITab) | Fület ad a gyűjteményhez. |
+| [Add](../../aspose.slides/itabcollection/add#add)(double, TabAlignment) | Fület ad a gyűjteményhez. |
 | [Clear](../../aspose.slides/itabcollection/clear)() | Eltávolítja a gyűjtemény összes elemét. |
 | [RemoveAt](../../aspose.slides/itabcollection/removeat)(int) | Eltávolítja a gyűjtemény megadott indexű elemét. |
 

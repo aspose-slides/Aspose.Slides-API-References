@@ -1,14 +1,14 @@
 ---
 title: WriteWorkbookStream
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: เริ่มต้น Excel workbook ที่บรรจุภายในด้วยค่าที่ผู้ใช้ระบุ
+description: เริ่มต้นเวิร์กบุ๊ก Excel ที่บรรจุอยู่ภายในด้วยค่าที่ผู้ใช้กำหนด.
 type: docs
-weight: 150
+weight: 160
 url: /th/aspose.slides.charts/ichartdata/writeworkbookstream/
 ---
-## IChartData.WriteWorkbookStream method
+## IChartData.WriteWorkbookStream เมธอด
 
-เริ่มต้น Excel workbook ที่บรรจุภายในด้วยค่าที่ผู้ใช้ระบุ
+เริ่มต้นเวิร์กบุ๊ก Excel ที่บรรจุอยู่ภายในโดยใช้ค่าที่ผู้ใช้กำหนด.
 
 ```csharp
 public void WriteWorkbookStream(MemoryStream ms)
@@ -16,7 +16,7 @@ public void WriteWorkbookStream(MemoryStream ms)
 
 | พารามิเตอร์ | ประเภท | คำอธิบาย |
 | --- | --- | --- |
-| ms | MemoryStream | สตรีมที่ผู้ใช้จัดหาไว้ซึ่งมี Excel workbook ทั้งหมด |
+| ms | MemoryStream | สตรีมที่ผู้ใช้จัดหาไว้ซึ่งมีเวิร์กบุ๊ก Excel ทั้งหมด |
 
 ### ดูเพิ่มเติม
 

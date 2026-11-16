@@ -3,7 +3,7 @@ title: ISlidesLayoutOptions
 second_title: Aspose.Sildes per .NET Riferimento API
 description: Rappresenta la modalità di layout della presentazione per l'esportazione.
 type: docs
-weight: 4100
+weight: 4120
 url: /it/aspose.slides.export/islideslayoutoptions/
 ---
 ## ISlidesLayoutOptions interfaccia

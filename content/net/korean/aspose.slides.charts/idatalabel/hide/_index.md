@@ -1,14 +1,14 @@
 ---
 title: Hide
 second_title: Aspose.Sildes for .NET API 참조
-description: 모든 Show-플래그 ShowValue ...를 false 상태로 설정하여 데이터 레이블을 숨깁니다. 이 후 IsVisible는 false가 됩니다.
+description: 모든 Show-플래그 ShowValue ... 를 false 상태로 설정하여 데이터 레이블을 숨깁니다. 이후 IsVisible 는 false 가 됩니다.
 type: docs
-weight: 80
+weight: 90
 url: /ko/aspose.slides.charts/idatalabel/hide/
 ---
 ## IDataLabel.Hide 메서드
 
-Show*-플래그(ShowValue, ...)를 모두 false 상태로 설정하여 데이터 레이블을 숨깁니다. IsVisible는 이 후 false가 됩니다.
+모든 Show*-플래그(ShowValue, ...)를 false 상태로 설정하여 데이터 레이블을 숨깁니다. 이후 IsVisible 는 false 가 됩니다.
 
 ```csharp
 public void Hide()
@@ -16,7 +16,7 @@ public void Hide()
 
 ### 비고
 
-데이터 레이블이 보이지 않을 경우(IsVisible가 false) Show*-플래그(ShowValue, ...)를 true 상태로 설정하여 데이터 레이블을 표시할 수 있습니다.
+데이터 레이블이 보이지 않는 경우(IsVisible가 false) Show*-플래그(ShowValue, ...)를 true 상태로 설정하여 데이터 레이블을 표시할 수 있습니다.
 
 ### 참조
 

@@ -1,14 +1,14 @@
 ---
 title: IHtmlOptions
-second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Đại diện các tùy chọn xuất HTML.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Biểu thị các tùy chọn xuất HTML.
 type: docs
-weight: 3970
+weight: 3990
 url: /vi/aspose.slides.export/ihtmloptions/
 ---
 ## IHtmlOptions giao diện
 
-Đại diện các tùy chọn xuất HTML.
+Biểu thị các tùy chọn xuất HTML.
 
 ```csharp
 public interface IHtmlOptions : ISaveOptions
@@ -19,18 +19,18 @@ public interface IHtmlOptions : ISaveOptions
 | Tên | Mô tả |
 | --- | --- |
 | [AsISaveOptions](../../aspose.slides.export/ihtmloptions/asisaveoptions) { get; } | Trả về giao diện ISaveOptions. Chỉ đọc [`ISaveOptions`](../isaveoptions). |
-| [DeletePicturesCroppedAreas](../../aspose.slides.export/ihtmloptions/deletepicturescroppedareas) { get; set; } | Cờ Boolean cho biết liệu các phần đã cắt có còn là một phần của tài liệu hay không. Nếu true các phần đã cắt sẽ bị loại bỏ, nếu false chúng sẽ được tuần tự hoá trong tài liệu (có thể dẫn đến tệp lớn hơn). Đọc/ghi Boolean. |
-| [DisableFontLigatures](../../aspose.slides.export/ihtmloptions/disablefontligatures) { get; set; } | Lấy hoặc đặt giá trị cho biết văn bản có được hiển thị mà không sử dụng ligatures hay không. Khi được đặt thành `true`, các ligature sẽ bị tắt trong đầu ra đã render. Mặc định, thuộc tính này được đặt thành `false`. |
+| [DeletePicturesCroppedAreas](../../aspose.slides.export/ihtmloptions/deletepicturescroppedareas) { get; set; } | Một cờ Boolean cho biết liệu các phần đã cắt có còn là một phần của tài liệu hay không. Nếu true các phần đã cắt sẽ bị loại bỏ, nếu false chúng sẽ được tuần tự hoá trong tài liệu (có thể dẫn đến tệp lớn hơn). Đọc/ghi Boolean. |
+| [DisableFontLigatures](../../aspose.slides.export/ihtmloptions/disablefontligatures) { get; set; } | Lấy hoặc đặt giá trị cho biết liệu văn bản có được hiển thị mà không sử dụng ligatures hay không. Khi đặt thành `true`, các ligatures sẽ bị tắt trong đầu ra đã render. Mặc định, thuộc tính này được đặt là `false`. |
 | [HtmlFormatter](../../aspose.slides.export/ihtmloptions/htmlformatter) { get; set; } | Trả về hoặc đặt mẫu HTML. Đọc/ghi [`IHtmlFormatter`](../ihtmlformatter). |
 | [InkOptions](../../aspose.slides.export/ihtmloptions/inkoptions) { get; } | Cung cấp các tùy chọn kiểm soát giao diện của các đối tượng Ink trong tài liệu đã xuất. Chỉ đọc [`IInkOptions`](../iinkoptions) |
-| [JpegQuality](../../aspose.slides.export/ihtmloptions/jpegquality) { get; set; } | Trả về hoặc đặt giá trị xác định chất lượng của hình ảnh JPEG trong tài liệu PDF. Đọc/ghi Byte. |
-| [PicturesCompression](../../aspose.slides.export/ihtmloptions/picturescompression) { get; set; } | Đại diện mức độ nén hình ảnh Đọc/ghi [`PicturesCompression`](./picturescompression). |
-| [ShowHiddenSlides](../../aspose.slides.export/ihtmloptions/showhiddenslides) { get; set; } | Xác định liệu tài liệu được tạo có bao gồm các slide ẩn hay không. Mặc định là `false`. |
+| [JpegQuality](../../aspose.slides.export/ihtmloptions/jpegquality) { get; set; } | Trả về hoặc đặt giá trị xác định chất lượng của các hình JPEG trong tài liệu PDF. Đọc/ghi Byte. |
+| [PicturesCompression](../../aspose.slides.export/ihtmloptions/picturescompression) { get; set; } | Biểu thị mức độ nén ảnh. Đọc/ghi [`PicturesCompression`](./picturescompression). |
+| [ShowHiddenSlides](../../aspose.slides.export/ihtmloptions/showhiddenslides) { get; set; } | Xác định liệu tài liệu được tạo ra có bao gồm các slide ẩn hay không. Mặc định là `false`. |
 | [SlideImageFormat](../../aspose.slides.export/ihtmloptions/slideimageformat) { get; set; } | Trả về hoặc đặt các tùy chọn định dạng ảnh slide. Đọc/ghi [`ISlideImageFormat`](../islideimageformat). |
-| [SlidesLayoutOptions](../../aspose.slides.export/ihtmloptions/slideslayoutoptions) { get; set; } | Lấy hoặc đặt chế độ sắp xếp các slide trên trang khi xuất bản trình chiếu [`ISlidesLayoutOptions`](../islideslayoutoptions). |
-| [SvgResponsiveLayout](../../aspose.slides.export/ihtmloptions/svgresponsivelayout) { get; set; } | True để loại bỏ các thuộc tính width và height khỏi container SVG - sẽ làm bố cục đáp ứng. False - ngược lại. Đọc/ghi Boolean. |
+| [SlidesLayoutOptions](../../aspose.slides.export/ihtmloptions/slideslayoutoptions) { get; set; } | Lấy hoặc đặt chế độ sắp xếp slide trên trang khi xuất bản trình chiếu [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [SvgResponsiveLayout](../../aspose.slides.export/ihtmloptions/svgresponsivelayout) { get; set; } | True để loại bỏ các thuộc tính width và height khỏi container SVG - điều này sẽ làm bố cục đáp ứng. False - ngược lại. Đọc/ghi Boolean. |
 
-### Xem thêm
+### Xem Thêm
 
 * giao diện [ISaveOptions](../isaveoptions)
 * không gian tên [Aspose.Slides.Export](../../aspose.slides.export)

@@ -1,14 +1,14 @@
 ---
 title: NotesSlideThemeManager
-second_title: Aspose.Sildes για .NET API Αναφορά
-description: Παρέχει πρόσβαση στο παραμερισμένο θέμα διαφάνειας σημειώσεων.
+second_title: Aspose.Sildes για .NET API Reference
+description: Παρέχει πρόσβαση σε παρακαμφθέν θέμα σημειώσεων διαφάνειας.
 type: docs
-weight: 11450
+weight: 11470
 url: /el/aspose.slides.theme/notesslidethememanager/
 ---
 ## NotesSlideThemeManager κλάση
 
-Παρέχει πρόσβαση στο παραμερισμένο θέμα διαφάνειας σημειώσεων.
+Παρέχει πρόσβαση σε παρακαμφθέν θέμα σημειώσεων διαφάνειας.
 
 ```csharp
 public class NotesSlideThemeManager : BaseOverrideThemeManager
@@ -18,14 +18,14 @@ public class NotesSlideThemeManager : BaseOverrideThemeManager
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Καθορίζει αν το OverrideTheme αντικαθιστά το κληρονομημένο αποτελεσματικό θέμα ή όχι. Για να ενεργοποιήσετε το OverrideTheme για αντικατάσταση, χρησιμοποιήστε τις μεθόδους OverrideTheme.Init*(). Για να απενεργοποιήσετε το OverrideTheme από την αντικατάσταση, χρησιμοποιήστε τη μέθοδο OverrideTheme.Clear(). Μόνο για ανάγνωση Boolean. |
-| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Επιστρέφει το αντικείμενο του αντικατεστημένου θέματος. Ανάγνωση/εγγραφή [`IOverrideTheme`](../ioverridetheme). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Καθορίζει εάν το OverrideTheme παρακάμπτει το κληρονομικό ενεργό θέμα ή όχι. Για ενεργοποίηση του OverrideTheme για παρακάμψη χρησιμοποιήστε τις μεθόδους OverrideTheme.Init*(). Για απενεργοποίηση του OverrideTheme από την παρακάμψη χρησιμοποιήστε τη μέθοδο OverrideTheme.Clear(). Μόνο-ανάγνωση Boolean. |
+| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Επιστρέφει το αντικείμενο του παρακαμφθέντος θέματος. Ανάγνωση/εγγραφή [`IOverrideTheme`](../ioverridetheme). |
 
 ## Μέθοδοι
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | Εφαρμόζει πρόσθετο σχήμα χρωμάτων σε μια διαφάνεια. |
+| [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | Εφαρμόζει επιπλέον χρωματικό σχήμα σε μια διαφάνεια. |
 | [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | Επιστρέφει το αντικείμενο του θέματος. |
 
 ### Δείτε επίσης

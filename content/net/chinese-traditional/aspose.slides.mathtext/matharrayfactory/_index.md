@@ -1,9 +1,9 @@
 ---
 title: MathArrayFactory
-second_title: Aspose.Sildes for .NET API 參考
+second_title: Aspose.Sildes .NET API 參考
 description: 允許建立數學陣列
 type: docs
-weight: 8560
+weight: 8580
 url: /zh-hant/aspose.slides.mathtext/matharrayfactory/
 ---
 ## MathArrayFactory 類別

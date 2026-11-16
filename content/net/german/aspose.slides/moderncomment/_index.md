@@ -3,12 +3,12 @@ title: ModernComment
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt einen Kommentar auf einer Folie dar.
 type: docs
-weight: 9090
+weight: 9110
 url: /de/aspose.slides/moderncomment/
 ---
 ## ModernComment Klasse
 
-Represents a comment on a slide.
+Stellt einen Kommentar auf einer Folie dar.
 
 ```csharp
 public sealed class ModernComment : Comment, IModernComment
@@ -18,16 +18,16 @@ public sealed class ModernComment : Comment, IModernComment
 
 | Name | Beschreibung |
 | --- | --- |
-| [Author](../../aspose.slides/comment/author) { get; } | Gibt den Autor eines Kommentars zurück. Nur-Lesen [`ICommentAuthor`](../icommentauthor). |
-| [CreatedTime](../../aspose.slides/comment/createdtime) { get; set; } | Gibt die Zeit der Erstellung eines Kommentars zurück oder legt sie fest. Das Setzen dieser Eigenschaft auf MinValue bedeutet, dass keine Kommentarzeit festgelegt ist. Lese/Schreib DateTime. |
-| [ParentComment](../../aspose.slides/comment/parentcomment) { get; set; } | Ruft die übergeordnete Kommentar ab oder legt sie fest. Lese/Schreib [`IComment`](../icomment). |
-| [Position](../../aspose.slides/comment/position) { get; set; } | Gibt die Position eines Kommentars auf einer Folie zurück oder legt sie fest. Lese/Schreib PointF. |
-| [Shape](../../aspose.slides/moderncomment/shape) { get; } | Gibt eine mit dem Kommentar verknüpfte Form zurück. Nur-Lesen [`IShape`](../ishape). |
-| [Slide](../../aspose.slides/comment/slide) { get; } | Gibt die übergeordnete Folie eines Kommentars zurück oder legt sie fest. Nur-Lesen [`ISlide`](../islide). |
-| [Status](../../aspose.slides/moderncomment/status) { get; set; } | Ruft den Status des Kommentars ab oder legt ihn fest. Lese/Schreib [`ModernCommentStatus`](../moderncommentstatus). |
-| [Text](../../aspose.slides/comment/text) { get; set; } | Gibt den Nur-Text eines Folienkommentars zurück oder legt ihn fest. Lese/Schreib String. |
-| [TextSelectionLength](../../aspose.slides/moderncomment/textselectionlength) { get; set; } | Ruft die Länge der Textauswahl im Textfeld ab oder legt sie fest, wenn der Kommentar mit AutoShape verknüpft ist. Lese/Schreib Int32. |
-| [TextSelectionStart](../../aspose.slides/moderncomment/textselectionstart) { get; set; } | Ruft die Startposition der Textauswahl im Textfeld ab oder legt sie fest, wenn der Kommentar mit AutoShape verknüpft ist. Lese/Schreib Int32. |
+| [Author](../../aspose.slides/comment/author) { get; } | Gibt den Autor eines Kommentars zurück. Nur lesbar [`ICommentAuthor`](../icommentauthor). |
+| [CreatedTime](../../aspose.slides/comment/createdtime) { get; set; } | Gibt die Erstellungszeit eines Kommentars zurück oder legt sie fest. Das Setzen dieser Eigenschaft auf MinValue bedeutet, dass keine Kommentarzeit festgelegt ist. Lesen/Schreiben DateTime. |
+| [ParentComment](../../aspose.slides/comment/parentcomment) { get; set; } | Gibt den übergeordneten Kommentar zurück oder legt ihn fest. Lesen/Schreiben [`IComment`](../icomment). |
+| [Position](../../aspose.slides/comment/position) { get; set; } | Gibt die Position eines Kommentars auf einer Folie zurück oder legt sie fest. Lesen/Schreiben PointF. |
+| [Shape](../../aspose.slides/moderncomment/shape) { get; } | Gibt eine Form zurück, die mit dem Kommentar verknüpft ist. Nur lesbar [`IShape`](../ishape). |
+| [Slide](../../aspose.slides/comment/slide) { get; } | Gibt die übergeordnete Folie eines Kommentars zurück oder legt sie fest. Nur lesbar [`ISlide`](../islide). |
+| [Status](../../aspose.slides/moderncomment/status) { get; set; } | Gibt den Status des Kommentars zurück oder legt ihn fest. Lesen/Schreiben [`ModernCommentStatus`](../moderncommentstatus). |
+| [Text](../../aspose.slides/comment/text) { get; set; } | Gibt den Klartext eines Folienkommentars zurück oder legt ihn fest. Lesen/Schreiben String. |
+| [TextSelectionLength](../../aspose.slides/moderncomment/textselectionlength) { get; set; } | Gibt die Länge der Textauswahl im Textfeld zurück oder legt sie fest, wenn der Kommentar mit AutoShape verknüpft ist. Lesen/Schreiben Int32. |
+| [TextSelectionStart](../../aspose.slides/moderncomment/textselectionstart) { get; set; } | Gibt die Startposition der Textauswahl im Textfeld zurück oder legt sie fest, wenn der Kommentar mit AutoShape verknüpft ist. Lesen/Schreiben Int32. |
 
 ## Methoden
 

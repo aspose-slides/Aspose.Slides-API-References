@@ -1,9 +1,9 @@
 ---
 title: IEmbeddedWoffFontsHtmlController
-second_title: Aspose.Sildes para .NET Referência de API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Controlador HTML de fontes woff incorporadas.
 type: docs
-weight: 3910
+weight: 3930
 url: /pt/aspose.slides.export/iembeddedwofffontshtmlcontroller/
 ---
 ## IEmbeddedWoffFontsHtmlController interface
@@ -18,7 +18,7 @@ public interface IEmbeddedWoffFontsHtmlController : IHtmlFormattingController
 
 | Nome | Descrição |
 | --- | --- |
-| [AsIHtmlFormattingController](../../aspose.slides.export/iembeddedwofffontshtmlcontroller/asihtmlformattingcontroller) { get; } | Retorna a interface IHtmlFormattingController. |
+| [AsIHtmlFormattingController](../../aspose.slides.export/iembeddedwofffontshtmlcontroller/asihtmlformattingcontroller) { get; } | Retorna IHtmlFormattingController interface. |
 
 ### Veja Também
 

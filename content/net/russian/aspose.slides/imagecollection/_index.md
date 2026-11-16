@@ -1,9 +1,9 @@
 ---
 title: ImageCollection
-second_title: Aspose.Sildes для .NET справочника API
+second_title: Aspose.Sildes для .NET API справка
 description: Представляет коллекцию PPImage.
 type: docs
-weight: 7420
+weight: 7440
 url: /ru/aspose.slides/imagecollection/
 ---
 ## ImageCollection класс
@@ -19,9 +19,9 @@ public sealed class ImageCollection : DomObject<Presentation>, IImageCollection
 | Имя | Описание |
 | --- | --- |
 | [Count](../../aspose.slides/imagecollection/count) { get; } | Возвращает количество изображений в коллекции. Только для чтения Int32. |
-| [IsSynchronized](../../aspose.slides/imagecollection/issynchronized) { get; } | Возвращает значение, указывающее, синхронизирован ли доступ к коллекции (потокобезопасный). Только для чтения Boolean. |
-| [Item](../../aspose.slides/imagecollection/item) { get; } | Возвращает элемент по указанному индексу. Только для чтения [`IPPImage`](../ippimage). |
-| [SyncRoot](../../aspose.slides/imagecollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтения Object. |
+| [IsSynchronized](../../aspose.slides/imagecollection/issynchronized) { get; } | Возвращает значение, указывающее, синхронизирован ли доступ к коллекции (потокобезопасен). Только для чтения Boolean. |
+| [Item](../../aspose.slides/imagecollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения [`IPPImage`](../ippimage). |
+| [SyncRoot](../../aspose.slides/imagecollection/syncroot) { get; } | Возвращает объект синхронизации. Только для чтения Object. |
 
 ## Методы
 

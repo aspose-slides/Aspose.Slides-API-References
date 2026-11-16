@@ -1,9 +1,9 @@
 ---
 title: IOverrideThemeManager
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 提供对不同类型已覆盖主题的访问。
 type: docs
-weight: 11350
+weight: 11370
 url: /zh/aspose.slides.theme/ioverridethememanager/
 ---
 ## IOverrideThemeManager 接口
@@ -16,13 +16,13 @@ public interface IOverrideThemeManager : IThemeManager
 
 ## 属性
 
-| Name | Description |
+| 名称 | 描述 |
 | --- | --- |
 | [AsIThemeManager](../../aspose.slides.theme/ioverridethememanager/asithememanager) { get; } | 允许获取基础 IThemeManager 接口。只读 [`IThemeManager`](../ithememanager)。 |
 | [IsOverrideThemeEnabled](../../aspose.slides.theme/ioverridethememanager/isoverridethemeenabled) { get; } | 确定 OverrideTheme 是否覆盖继承的有效主题。要启用 OverrideTheme 进行覆盖，请使用 OverrideTheme.Init*() 方法。要禁用 OverrideTheme 的覆盖，请使用 OverrideTheme.Clear() 方法。只读 Boolean。 |
 | [OverrideTheme](../../aspose.slides.theme/ioverridethememanager/overridetheme) { get; set; } | 返回覆盖的主题对象。读/写 [`IOverrideTheme`](../ioverridetheme)。 |
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IThemeManager](../ithememanager)
 * 命名空间 [Aspose.Slides.Theme](../../aspose.slides.theme)

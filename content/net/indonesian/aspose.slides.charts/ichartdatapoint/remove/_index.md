@@ -3,7 +3,7 @@ title: Remove
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Menghapus DataPoint dari seri grafik.
 type: docs
-weight: 200
+weight: 240
 url: /id/aspose.slides.charts/ichartdatapoint/remove/
 ---
 ## IChartDataPoint.Remove metode
@@ -16,9 +16,9 @@ public void Remove()
 
 ### Pengecualian
 
-| eksepsi | kondisi |
+| pengecualian | kondisi |
 | --- | --- |
-| [PptxEditException](../../../aspose.slides/pptxeditexception) | Dilemparkan jika titik data sudah dihapus dari seri grafik. |
+| [PptxEditException](../../../aspose.slides/pptxeditexception) | Dilemparkan jika DataPoint sudah dihapus dari seri grafik. |
 
 ### Lihat Juga
 

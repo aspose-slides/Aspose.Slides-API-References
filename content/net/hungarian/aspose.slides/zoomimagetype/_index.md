@@ -1,14 +1,14 @@
 ---
 title: ZoomImageType
-second_title: Aspose.Sildes .NET API referencia
-description: Meghatározza, hogy a Zoom objektum a diavetítés előnézetét vagy egy borítóképet használ-e.
+second_title: Aspose.Sildes .NET API-referencia
+description: Meghatározza, hogy a Zoom objektum a dia előnézetet vagy egy borítóképet használ-e.
 type: docs
-weight: 11850
+weight: 11870
 url: /hu/aspose.slides/zoomimagetype/
 ---
 ## ZoomImageType enumeráció
 
-Meghatározza, hogy a Zoom objektum a diavetítés előnézetét vagy egy borítóképet használja-e.
+Meghatározza, hogy a Zoom objektum a dia előnézetet vagy egy borítóképet használ-e.
 
 ```csharp
 public enum ZoomImageType
@@ -18,8 +18,8 @@ public enum ZoomImageType
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| Preview | `1` | A dia vagy szakasz képének használata. |
-| Cover | `2` | Egy egyéni kép használata. |
+| Preview | `1` | A dia vagy szekció képének használata. |
+| Cover | `2` | Egyedi kép használata. |
 
 ### Lásd még
 

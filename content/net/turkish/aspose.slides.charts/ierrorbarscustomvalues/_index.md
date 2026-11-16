@@ -1,14 +1,14 @@
 ---
 title: IErrorBarsCustomValues
-second_title: Aspose.Sildes .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Hata çubuğu değerlerini belirtir. Yalnızca Hata çubukları değer türü Custom olduğunda kullanılmalıdır.
 type: docs
-weight: 2080
+weight: 2100
 url: /tr/aspose.slides.charts/ierrorbarscustomvalues/
 ---
 ## IErrorBarsCustomValues arayüz
 
-Hata çubuğu değerlerini belirtir. Yalnızca Error bars değer türü Custom olduğunda kullanılmalıdır.
+Hata çubuğu değerlerini belirtir. Yalnızca Hata çubukları değer türü Custom olduğunda kullanılmalıdır.
 
 ```csharp
 public interface IErrorBarsCustomValues
@@ -18,12 +18,12 @@ public interface IErrorBarsCustomValues
 
 | Ad | Açıklama |
 | --- | --- |
-| [XMinus](../../aspose.slides.charts/ierrorbarscustomvalues/xminus) { get; } | Negatif yönde hata çubuğu değerini belirtir. Hata çubuğu değer türü Custom ve ErrorBarsXFormat izin verildiğinde mevcuttur. Diğer durumlarda bu özellik null döner. Salt okunur [`IDoubleChartValue`](../idoublechartvalue). |
-| [XPlus](../../aspose.slides.charts/ierrorbarscustomvalues/xplus) { get; } | Pozitif yönde hata çubuğu değerini belirtir. Hata çubuğu değer türü Custom ve ErrorBarsXFormat izin verildiğinde mevcuttur. Diğer durumlarda bu özellik null döner. Salt okunur [`IDoubleChartValue`](../idoublechartvalue). |
-| [YMinus](../../aspose.slides.charts/ierrorbarscustomvalues/yminus) { get; } | Negatif yönde hata çubuğu değerini belirtir. Hata çubuğu değer türü Custom ve ErrorBarsYFormat izin verildiğinde mevcuttur. Diğer durumlarda bu özellik null döner. Salt okunur [`IDoubleChartValue`](../idoublechartvalue). |
-| [YPlus](../../aspose.slides.charts/ierrorbarscustomvalues/yplus) { get; } | Pozitif yönde hata çubuğu değerini belirtir. Hata çubuğu değer türü Custom ve ErrorBarsYFormat izin verildiğinde mevcuttur. Diğer durumlarda bu özellik null döner. Salt okunur [`IDoubleChartValue`](../idoublechartvalue). |
+| [XMinus](../../aspose.slides.charts/ierrorbarscustomvalues/xminus) { get; } | Negatif yönde hata çubuğu değerini belirtir. Hata çubukları değer türü Custom ve ErrorBarsXFormat izin verildiğinde kullanılabilir. Diğer tüm durumlarda bu özellik null döner. Yalnızca okuma [`IDoubleChartValue`](../idoublechartvalue). |
+| [XPlus](../../aspose.slides.charts/ierrorbarscustomvalues/xplus) { get; } | Pozitif yönde hata çubuğu değerini belirtir. Hata çubukları değer türü Custom ve ErrorBarsXFormat izin verildiğinde kullanılabilir. Diğer tüm durumlarda bu özellik null döner. Yalnızca okuma [`IDoubleChartValue`](../idoublechartvalue). |
+| [YMinus](../../aspose.slides.charts/ierrorbarscustomvalues/yminus) { get; } | Negatif yönde hata çubuğu değerini belirtir. Hata çubukları değer türü Custom ve ErrorBarsYFormat izin verildiğinde kullanılabilir. Diğer tüm durumlarda bu özellik null döner. Yalnızca okuma [`IDoubleChartValue`](../idoublechartvalue). |
+| [YPlus](../../aspose.slides.charts/ierrorbarscustomvalues/yplus) { get; } | Pozitif yönde hata çubuğu değerini belirtir. Hata çubukları değer türü Custom ve ErrorBarsYFormat izin verildiğinde kullanılabilir. Diğer tüm durumlarda bu özellik null döner. Yalnızca okuma [`IDoubleChartValue`](../idoublechartvalue). |
 
-### Ayrıca Bakınız
+### İlgili
 
 * ad alanı [Aspose.Slides.Charts](../../aspose.slides.charts)
 * derleme [Aspose.Slides](../../)

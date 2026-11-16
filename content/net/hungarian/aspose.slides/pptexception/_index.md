@@ -1,14 +1,14 @@
 ---
 title: PptException
 second_title: Aspose.Sildes a .NET API hivatkozáshoz
-description: Szabványos belső kivételtípust képvisel.
+description: Egy szabványos belső kivételtípust képvisel.
 type: docs
-weight: 9520
+weight: 9540
 url: /hu/aspose.slides/pptexception/
 ---
 ## PptException osztály
 
-Szabványos belső kivételtípust képvisel.
+Egy szabványos belső kivételtípust képvisel.
 
 ```csharp
 public class PptException : Exception
@@ -20,7 +20,7 @@ public class PptException : Exception
 | --- | --- |
 | [PptException](pptexception#constructor)() | Alapértelmezett konstruktor. |
 | [PptException](pptexception#constructor_1)(string) | Konstruktor, amely lehetővé teszi üzenet hozzáadását ehhez a kivételhez. |
-| [PptException](pptexception#constructor_2)(string, Exception) | Konstruktor egy olyan kivételhez, amely üzenetet és egy beágyazott kivételt tartalmaz. |
+| [PptException](pptexception#constructor_2)(string, Exception) | Konstruktor egy üzenetet és egy beágyazott kivételt tartalmazó kivételhez. |
 
 ### Lásd még
 

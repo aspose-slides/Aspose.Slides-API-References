@@ -3,7 +3,7 @@ title: TextExtractionArrangingMode
 second_title: Aspose.Sildes .NET API 参考
 description: 表示在文本提取期间使用的模式
 type: docs
-weight: 10940
+weight: 10960
 url: /zh/aspose.slides/textextractionarrangingmode/
 ---
 ## TextExtractionArrangingMode 枚举
@@ -18,8 +18,8 @@ public enum TextExtractionArrangingMode
 
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
-| Unarranged | `0` | 原始文本，不考虑幻灯片上的位置 |
-| Arranged | `1` | 文本按照幻灯片上的顺序定位 |
+| Unarranged | `0` | 原始文本，不考虑在幻灯片上的位置 |
+| Arranged | `1` | 文本按照在幻灯片上的相同顺序定位 |
 
 ### 另见
 

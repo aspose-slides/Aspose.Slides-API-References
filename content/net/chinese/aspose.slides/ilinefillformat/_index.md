@@ -1,9 +1,9 @@
 ---
 title: ILineFillFormat
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes 的 .NET API 参考
 description: 表示线条填充的属性。
 type: docs
-weight: 6290
+weight: 6310
 url: /zh/aspose.slides/ilinefillformat/
 ---
 ## ILineFillFormat 接口
@@ -18,14 +18,14 @@ public interface ILineFillFormat : IFillParamSource
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/ilinefillformat/asifillparamsource) { get; } | 允许获取基础 IFillParamSource 接口。只读 [`IFillParamSource`](../ifillparamsource)。 |
+| [AsIFillParamSource](../../aspose.slides/ilinefillformat/asifillparamsource) { get; } | 允许获取基 IFillParamSource 接口。只读 [`IFillParamSource`](../ifillparamsource)。 |
 | [FillType](../../aspose.slides/ilinefillformat/filltype) { get; set; } | 返回或设置填充类型。可读写 [`FillType`](../filltype)。 |
 | [GradientFormat](../../aspose.slides/ilinefillformat/gradientformat) { get; } | 返回渐变填充格式。只读 [`IGradientFormat`](../igradientformat)。 |
 | [PatternFormat](../../aspose.slides/ilinefillformat/patternformat) { get; } | 返回图案填充格式。只读 [`IPatternFormat`](../ipatternformat)。 |
 | [RotateWithShape](../../aspose.slides/ilinefillformat/rotatewithshape) { get; set; } | 确定填充是否应随形状旋转。可读写 [`NullableBool`](../nullablebool)。 |
-| [SolidFillColor](../../aspose.slides/ilinefillformat/solidfillcolor) { get; } | 返回纯色填充的颜色。只读 [`IColorFormat`](../icolorformat)。 |
+| [SolidFillColor](../../aspose.slides/ilinefillformat/solidfillcolor) { get; } | 返回实心填充的颜色。只读 [`IColorFormat`](../icolorformat)。 |
 
-### 另见
+### 另请参见
 
 * 接口 [IFillParamSource](../ifillparamsource)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

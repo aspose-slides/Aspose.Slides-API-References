@@ -3,7 +3,7 @@ title: LayoutPlaceholderManager
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示允许您向布局幻灯片添加占位符的管理器。
 type: docs
-weight: 7630
+weight: 7650
 url: /zh/aspose.slides/layoutplaceholdermanager/
 ---
 ## LayoutPlaceholderManager 类
@@ -26,10 +26,10 @@ public class LayoutPlaceholderManager : ILayoutPlaceholderManager
 | [AddSmartArtPlaceholder](../../aspose.slides/layoutplaceholdermanager/addsmartartplaceholder)(float, float, float, float) | 向布局幻灯片添加一个新的占位符形状以容纳 SmartArt 图表。 |
 | [AddTablePlaceholder](../../aspose.slides/layoutplaceholdermanager/addtableplaceholder)(float, float, float, float) | 向布局幻灯片添加一个新的占位符形状以容纳表格。 |
 | [AddTextPlaceholder](../../aspose.slides/layoutplaceholdermanager/addtextplaceholder)(float, float, float, float) | 向布局幻灯片添加一个新的占位符形状以容纳文本内容。 |
-| [AddVerticalContentPlaceholder](../../aspose.slides/layoutplaceholdermanager/addverticalcontentplaceholder)(float, float, float, float) | 以垂直方向向布局幻灯片添加一个新的占位符形状以容纳内容，例如图片、表格、媒体或文本。 |
-| [AddVerticalTextPlaceholder](../../aspose.slides/layoutplaceholdermanager/addverticaltextplaceholder)(float, float, float, float) | 以垂直方向向布局幻灯片添加一个新的占位符形状以容纳文本内容。 |
+| [AddVerticalContentPlaceholder](../../aspose.slides/layoutplaceholdermanager/addverticalcontentplaceholder)(float, float, float, float) | 向布局幻灯片添加一个新的占位符形状以容纳内容，例如图片、表格、媒体或文本（垂直方向）。 |
+| [AddVerticalTextPlaceholder](../../aspose.slides/layoutplaceholdermanager/addverticaltextplaceholder)(float, float, float, float) | 向布局幻灯片添加一个新的占位符形状以容纳文本内容（垂直方向）。 |
 
-### 另见
+### 另请参见
 
 * 接口 [ILayoutPlaceholderManager](../ilayoutplaceholdermanager)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

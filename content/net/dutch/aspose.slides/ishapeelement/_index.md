@@ -1,14 +1,14 @@
 ---
 title: IShapeElement
-second_title: Aspose.Sildes voor .NET API Referentie
-description: Stelt een deel van een vorm voor met dezelfde omtrek- en vul-eigenschappen.
+second_title: Aspose.Sildes voor .NET API-referentie
+description: Stelt een deel van een vorm voor met dezelfde contour- en vul-eigenschappen.
 type: docs
-weight: 6990
+weight: 7010
 url: /nl/aspose.slides/ishapeelement/
 ---
 ## IShapeElement interface
 
-Stelt een deel van een vorm voor met dezelfde omtrek- en opvul-eigenschappen.
+Stelt een deel van een vorm voor met dezelfde contour- en vul-eigenschappen.
 
 ```csharp
 public interface IShapeElement

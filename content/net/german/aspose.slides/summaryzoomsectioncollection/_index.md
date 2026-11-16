@@ -3,7 +3,7 @@ title: SummaryZoomSectionCollection
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt eine Sammlung von Summary Zoom Section-Objekten dar.
 type: docs
-weight: 10790
+weight: 10810
 url: /de/aspose.slides/summaryzoomsectioncollection/
 ---
 ## SummaryZoomSectionCollection Klasse
@@ -19,10 +19,10 @@ public sealed class SummaryZoomSectionCollection : DomObject<SummaryZoomFrame>,
 
 | Name | Beschreibung |
 | --- | --- |
-| [Count](../../aspose.slides/summaryzoomsectioncollection/count) { get; } | Gibt die Anzahl der tatsächlich in der Sammlung enthaltenen Elemente zurück. Nur lesbar Int32. |
-| [IsSynchronized](../../aspose.slides/summaryzoomsectioncollection/issynchronized) { get; } | Gibt einen Wert zurück, der anzeigt, ob der Zugriff auf die Sammlung synchronisiert (thread-sicher) ist. Nur lesbar Boolean. |
-| [Item](../../aspose.slides/summaryzoomsectioncollection/item) { get; } | Gibt das Element am angegebenen Index zurück. Nur lesbar [`ISummaryZoomSection`](../isummaryzoomsection). |
-| [SyncRoot](../../aspose.slides/summaryzoomsectioncollection/syncroot) { get; } | Gibt eine Synchronisationswurzel zurück. Nur lesbar Object. |
+| [Count](../../aspose.slides/summaryzoomsectioncollection/count) { get; } | Liefert die tatsächliche Anzahl der im Sammlung enthaltenen Elemente. Nur-Lesen Int32. |
+| [IsSynchronized](../../aspose.slides/summaryzoomsectioncollection/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert ist (Thread-sicher). Nur-Lesen Boolean. |
+| [Item](../../aspose.slides/summaryzoomsectioncollection/item) { get; } | Liefert das Element am angegebenen Index. Nur-Lesen [`ISummaryZoomSection`](../isummaryzoomsection). |
+| [SyncRoot](../../aspose.slides/summaryzoomsectioncollection/syncroot) { get; } | Gibt eine Synchronisationswurzel zurück. Nur-Lesen Object. |
 
 ## Methoden
 
@@ -32,7 +32,7 @@ public sealed class SummaryZoomSectionCollection : DomObject<SummaryZoomFrame>,
 | [Clear](../../aspose.slides/summaryzoomsectioncollection/clear)() | Entfernt alle SummaryZoomSection-Objekte aus der Sammlung. |
 | [CopyTo](../../aspose.slides/summaryzoomsectioncollection/copyto)(Array, int) | Kopiert die gesamte Sammlung in das angegebene Array. |
 | [GetEnumerator](../../aspose.slides/summaryzoomsectioncollection/getenumerator)() | Gibt einen Enumerator zurück, der durch die Sammlung iteriert. |
-| [GetSummarySection](../../aspose.slides/summaryzoomsectioncollection/getsummarysection)(ISection) | Gibt das Summary Zoom Section-Element für die angegebene Section zurück. |
+| [GetSummarySection](../../aspose.slides/summaryzoomsectioncollection/getsummarysection)(ISection) | Gibt das Summary Zoom Section-Element für den angegebenen Abschnitt zurück. |
 | [IndexOf](../../aspose.slides/summaryzoomsectioncollection/indexof)(ISummaryZoomSection) | Gibt den Index des angegebenen SummaryZoomSection-Objekts zurück. |
 | [RemoveSummaryZoomSection](../../aspose.slides/summaryzoomsectioncollection/removesummaryzoomsection)(ISection) | Entfernt das Summary Zoom Section-Objekt aus der Sammlung. |
 

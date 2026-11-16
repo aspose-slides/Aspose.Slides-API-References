@@ -1,14 +1,14 @@
 ---
 title: IProgressCallback
-second_title: Aspose.Sildes pro .NET API Reference
-description: Representuje objekt zpětného volání pro ukládání aktualizací postupu v procentech.
+second_title: Aspose.Sildes pro .NET referenční příručka API
+description: Reprezentuje objekt zpětného volání pro ukládání aktualizací postupu v procentech.
 type: docs
-weight: 6810
+weight: 6830
 url: /cs/aspose.slides/iprogresscallback/
 ---
 ## IProgressCallback rozhraní
 
-Representuje objekt zpětného volání pro ukládání aktualizací postupu v procentech.
+Reprezentuje objekt zpětného volání pro ukládání aktualizací postupu v procentech.
 
 ```csharp
 public interface IProgressCallback

@@ -1,14 +1,14 @@
 ---
 title: Hide
 second_title: Aspose.Sildes pro .NET API Reference
-description: Zajistěte, aby byl datový popisek ve výchozím nastavení skrytý nastavením všech příznaků Show-flags ShowValue ... vlastnosti DefaultDataLabelFormat na hodnotu false. IsVisible bude po této operaci false.
+description: Nastavte popisek dat jako výchozí skrytý nastavením všech příznaků Show-flags ShowValue ... vlastnosti DefaultDataLabelFormat na hodnotu false. IsVisible bude po tomto nastavení false.
 type: docs
-weight: 100
+weight: 110
 url: /cs/aspose.slides.charts/idatalabelcollection/hide/
 ---
-## IDataLabelCollection.Hide metoda
+## IDataLabelCollection.Hide method
 
-Udělejte datový popisek skrytý ve výchozím nastavení nastavením všech příznaků Show*-flags (ShowValue, ...) vlastnosti DefaultDataLabelFormat na hodnotu false. IsVisible bude po této operaci false.
+Nastavte popisek dat jako skrytý ve výchozím nastavení nastavením všech příznaků Show*- (ShowValue, ...) vlastnosti DefaultDataLabelFormat na hodnotu false. IsVisible bude po tomto nastavení false.
 
 ```csharp
 public void Hide()
@@ -16,7 +16,7 @@ public void Hide()
 
 ### Poznámky
 
-Pokud datový popisek není ve výchozím nastavení viditelný (IsVisible je false), můžete jej učinit „viditelným ve výchozím nastavení“ nastavením příznaků Show*-flags (ShowValue, ...) vlastnosti DefaultDataLabelFormat na hodnotu true.
+Pokud není popisek dat ve výchozím nastavení viditelný (IsVisible je false), můžete ho učinit "viditelným ve výchozím nastavení" nastavením příznaků Show*- (ShowValue, ...) vlastnosti DefaultDataLabelFormat na hodnotu true.
 
 ### Viz také
 

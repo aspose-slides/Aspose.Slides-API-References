@@ -1,9 +1,9 @@
 ---
 title: Label
-second_title: Aspose.Sildes for .NET เอกสารอ้างอิง API
+second_title: Aspose.Sildes สำหรับ .NET API Reference
 description: Label. อ่านอย่างเดียว IDataLabelaspose.slides.charts/idatalabel.
 type: docs
-weight: 140
+weight: 180
 url: /th/aspose.slides.charts/chartdatapoint/label/
 ---
 ## ChartDataPoint.Label คุณสมบัติ

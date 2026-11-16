@@ -1,14 +1,14 @@
 ---
 title: ILineFormatCollection
-second_title: Aspose.Sildes for .NET API 참조
-description: 선 스타일 컬렉션을 나타냅니다.
+second_title: Aspose.Sildes .NET API 레퍼런스
+description: 라인 스타일 컬렉션을 나타냅니다.
 type: docs
-weight: 11290
+weight: 11310
 url: /ko/aspose.slides.theme/ilineformatcollection/
 ---
 ## ILineFormatCollection 인터페이스
 
-선 스타일 모음 컬렉션을 나타냅니다.
+라인 스타일 컬렉션을 나타냅니다.
 
 ```csharp
 public interface ILineFormatCollection : IGenericCollection<ILineFormat>
@@ -20,7 +20,7 @@ public interface ILineFormatCollection : IGenericCollection<ILineFormat>
 | --- | --- |
 | [Item](../../aspose.slides.theme/ilineformatcollection/item) { get; } | 지정된 인덱스에 있는 요소를 가져옵니다. 읽기 전용 [`ILineFormat`](../../aspose.slides/ilineformat). |
 
-### 관련 항목
+### 참고
 
 * 인터페이스 [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * 인터페이스 [ILineFormat](../../aspose.slides/ilineformat)

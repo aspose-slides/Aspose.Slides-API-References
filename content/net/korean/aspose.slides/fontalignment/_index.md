@@ -1,9 +1,9 @@
 ---
 title: FontAlignment
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 수직 글꼴 정렬을 나타냅니다.
 type: docs
-weight: 4800
+weight: 4820
 url: /ko/aspose.slides/fontalignment/
 ---
 ## FontAlignment 열거형

@@ -3,10 +3,10 @@ title: PresetColor
 second_title: Aspose.Sildes .NET API Referansı
 description: Önceden tanımlanmış renk ön ayarlarını temsil eder.
 type: docs
-weight: 9660
+weight: 9680
 url: /tr/aspose.slides/presetcolor/
 ---
-## PresetColor enum
+## PresetColor enumerasyonu
 
 Önceden tanımlanmış renk ön ayarlarını temsil eder.
 
@@ -18,7 +18,7 @@ public enum PresetColor
 
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
-| NotDefined | `-1` |  |
+| NotDefined | `-1` | Renk ön ayarı tanımlanmamış. |
 | AliceBlue | `0` |  |
 | AntiqueWhite | `1` |  |
 | Aqua | `2` |  |
@@ -160,7 +160,7 @@ public enum PresetColor
 | Yellow | `138` |  |
 | YellowGreen | `139` |  |
 
-### İlgili
+### Bakınız
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: IResponsiveHtmlController
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Duyarlı HTML Denetleyicisi
 type: docs
-weight: 4050
+weight: 4070
 url: /tr/aspose.slides.export/iresponsivehtmlcontroller/
 ---
 ## IResponsiveHtmlController arayüz
 
-Responsive HTML Denetleyicisi
+Duyarlı HTML Denetleyicisi
 
 ```csharp
 public interface IResponsiveHtmlController : IHtmlFormattingController
@@ -18,9 +18,9 @@ public interface IResponsiveHtmlController : IHtmlFormattingController
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIHtmlFormattingController](../../aspose.slides.export/iresponsivehtmlcontroller/asihtmlformattingcontroller) { get; } | IHtmlFormattingController arayüzünü döndürür. |
+| [AsIHtmlFormattingController](../../aspose.slides.export/iresponsivehtmlcontroller/asihtmlformattingcontroller) { get; } | IHtmlFormattingController arabirimini döndürür. |
 
-### Ayrıca Bakınız
+### Ayrıca bakınız
 
 * arayüz [IHtmlFormattingController](../ihtmlformattingcontroller)
 * ad alanı [Aspose.Slides.Export](../../aspose.slides.export)

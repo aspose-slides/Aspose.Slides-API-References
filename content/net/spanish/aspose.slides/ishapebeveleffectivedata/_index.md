@@ -1,14 +1,14 @@
 ---
 title: IShapeBevelEffectiveData
-second_title: Aspose.Sildes para .NET Referencia de API
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Objeto inmutable que contiene las propiedades de relieve de la cara de las formas efectivas.
 type: docs
-weight: 6970
+weight: 6990
 url: /es/aspose.slides/ishapebeveleffectivedata/
 ---
 ## IShapeBevelEffectiveData interfaz
 
-Objeto inmutable que contiene las propiedades de relieve de la cara del shape efectivo.
+Objeto inmutable que contiene las propiedades de relieve de la cara de la forma efectiva.
 
 ```csharp
 public interface IShapeBevelEffectiveData
@@ -18,9 +18,9 @@ public interface IShapeBevelEffectiveData
 
 | Nombre | Descripción |
 | --- | --- |
-| [BevelType](../../aspose.slides/ishapebeveleffectivedata/beveltype) { get; } | Tipo Bevel. Solo lectura [`BevelPresetType`](../bevelpresettype). |
-| [Height](../../aspose.slides/ishapebeveleffectivedata/height) { get; } | Altura Bevel. Solo lectura Double. |
-| [Width](../../aspose.slides/ishapebeveleffectivedata/width) { get; } | Ancho Bevel. Solo lectura Double. |
+| [BevelType](../../aspose.slides/ishapebeveleffectivedata/beveltype) { get; } | Tipo de bisel. Solo lectura [`BevelPresetType`](../bevelpresettype). |
+| [Height](../../aspose.slides/ishapebeveleffectivedata/height) { get; } | Altura del bisel. Solo lectura Double. |
+| [Width](../../aspose.slides/ishapebeveleffectivedata/width) { get; } | Anchura del bisel. Solo lectura Double. |
 
 ### Observaciones
 

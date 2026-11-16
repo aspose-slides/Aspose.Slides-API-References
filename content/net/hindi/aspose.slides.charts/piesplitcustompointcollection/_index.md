@@ -1,14 +1,14 @@
 ---
 title: PieSplitCustomPointCollection
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: बार-ऑफ़-पाई या पाई-ऑफ़-पाई चार्ट में कस्टम स्प्लिट के साथ स्प्लिटिंग पॉइंट के लिए पॉइंट्स का संग्रह दर्शाता है।
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: एक बार-ऑफ़-पाई या पाई-ऑफ़-पाई चार्ट में एक कस्टम विभाजन के साथ विभाजन बिंदु के लिए बिंदुओं का संग्रह दर्शाता है।
 type: docs
-weight: 2370
+weight: 2390
 url: /hi/aspose.slides.charts/piesplitcustompointcollection/
 ---
 ## PieSplitCustomPointCollection क्लास
 
-बार-ऑफ़-पाई या पाई-ऑफ़-पाई चार्ट में कस्टम स्प्लिट के साथ स्प्लिटिंग पॉइंट के लिए पॉइंट्स का संग्रह दर्शाता है।
+एक बार-ऑफ-पाई या पाई-ऑफ-पाई चार्ट में कस्टम विभाजन के साथ विभाजन बिंदु के लिए बिंदुओं का संग्रह दर्शाता है।
 
 ```csharp
 public class PieSplitCustomPointCollection : IPieSplitCustomPointCollection
@@ -16,28 +16,28 @@ public class PieSplitCustomPointCollection : IPieSplitCustomPointCollection
 
 ## गुण
 
-| नाम | विवरण |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides.charts/piesplitcustompointcollection/count) { get; } | चार्ट डेटा पॉइंट्स की गिनती लौटाता है या सेट करता है। केवल-पढ़ने योग्य Int32. |
-| [IsReadOnly](../../aspose.slides.charts/piesplitcustompointcollection/isreadonly) { get; } | यह दर्शाता है कि ICollection केवल-पढ़ने योग्य है या नहीं। केवल-पढ़ने योग्य Boolean. |
-| [IsSynchronized](../../aspose.slides.charts/piesplitcustompointcollection/issynchronized) { get; } | यह दर्शाता है कि संग्रह तक पहुंच सिंक्रनाइज़्ड (थ्रेड-सुरक्षित) है या नहीं। केवल-पढ़ने योग्य Boolean. |
-| [Item](../../aspose.slides.charts/piesplitcustompointcollection/item) { get; } | निर्दिष्ट इंडेक्स के लिए चार्ट डेटा पॉइंट लौटाता है। |
-| [SyncRoot](../../aspose.slides.charts/piesplitcustompointcollection/syncroot) { get; } | एक सिंक्रनाइज़ेशन रूट लौटाता है। केवल-पढ़ने योग्य Object. |
+| [Count](../../aspose.slides.charts/piesplitcustompointcollection/count) { get; } | चार्ट डेटा बिंदुओं की गिनती लौटाता या सेट करता है। केवल-पढ़ने योग्य Int32. |
+| [IsReadOnly](../../aspose.slides.charts/piesplitcustompointcollection/isreadonly) { get; } | ICollection का केवल-पढ़ने योग्य होने का संकेत देने वाला मान प्राप्त करता है। केवल-पढ़ने योग्य Boolean. |
+| [IsSynchronized](../../aspose.slides.charts/piesplitcustompointcollection/issynchronized) { get; } | कलेक्शन तक पहुंच की समरूपता (थ्रेड-सेफ़) का संकेत देने वाला मान लौटाता है। केवल-पढ़ने योग्य Boolean. |
+| [Item](../../aspose.slides.charts/piesplitcustompointcollection/item) { get; } | निर्दिष्ट अनुक्रमांक के लिए चार्ट डेटा बिंदु लौटाता है। |
+| [SyncRoot](../../aspose.slides.charts/piesplitcustompointcollection/syncroot) { get; } | समकालिकता मूल लौटाता है। केवल-पढ़ने योग्य Object. |
 
 ## विधियाँ
 
-| नाम | विवरण |
+| Name | Description |
 | --- | --- |
-| [Add](../../aspose.slides.charts/piesplitcustompointcollection/add#add)(IChartDataPoint) | डेटा पॉइंट को संग्रह में जोड़ता है। |
-| [Add](../../aspose.slides.charts/piesplitcustompointcollection/add#add_1)(int) | पैरेंट सीरीज़ पॉइंट्स संग्रह में उसके इंडेक्स द्वारा डेटा पॉइंट जोड़ता है। |
-| [Clear](../../aspose.slides.charts/piesplitcustompointcollection/clear)() | ICollection से सभी वस्तुएँ हटाता है। |
-| [Contains](../../aspose.slides.charts/piesplitcustompointcollection/contains)(IChartDataPoint) | निर्धारित करता है कि ICollection में विशिष्ट मान मौजूद है या नहीं। |
-| [CopyTo](../../aspose.slides.charts/piesplitcustompointcollection/copyto)(IChartDataPoint[], int) | ICollection के तत्वों को एक Array में कॉपी करता है, एक विशेष Array इंडेक्स से शुरू करते हुए। |
-| [GetEnumerator](../../aspose.slides.charts/piesplitcustompointcollection/getenumerator)() | एक इटरेटर लौटाता है जो संग्रह के माध्यम से घूमता है। |
-| [Remove](../../aspose.slides.charts/piesplitcustompointcollection/remove#remove)(IChartDataPoint) | संग्रह से वस्तु हटाता है। |
-| [Remove](../../aspose.slides.charts/piesplitcustompointcollection/remove#remove_1)(int) | पैरेंट सीरीज़ पॉइंट्स संग्रह में उसके इंडेक्स द्वारा वस्तु हटाता है। |
+| [Add](../../aspose.slides.charts/piesplitcustompointcollection/add#add)(IChartDataPoint) | डेटा बिंदु को संग्रह में जोड़ता है। |
+| [Add](../../aspose.slides.charts/piesplitcustompointcollection/add#add_1)(int) | पैरेंट सीरीज़ बिंदु संग्रह में उसके अनुक्रमांक द्वारा डेटा बिंदु जोड़ता है। |
+| [Clear](../../aspose.slides.charts/piesplitcustompointcollection/clear)() | ICollection से सभी आइटम हटाता है। |
+| [Contains](../../aspose.slides.charts/piesplitcustompointcollection/contains)(IChartDataPoint) | जाँचता है कि ICollection में कोई विशिष्ट मान मौजूद है या नहीं। |
+| [CopyTo](../../aspose.slides.charts/piesplitcustompointcollection/copyto)(IChartDataPoint[], int) | ICollection के तत्वों को एक एरे में कॉपी करता है, जो विशेष एरे अनुक्रमांक से शुरू होता है। |
+| [GetEnumerator](../../aspose.slides.charts/piesplitcustompointcollection/getenumerator)() | एक इटेरेटर लौटाता है जो संग्रह के माध्यम से इटरेट करता है। |
+| [Remove](../../aspose.slides.charts/piesplitcustompointcollection/remove#remove)(IChartDataPoint) | संग्रह से आइटम हटाता है। |
+| [Remove](../../aspose.slides.charts/piesplitcustompointcollection/remove#remove_1)(int) | पैरेंट सीरीज़ बिंदु संग्रह में उसके अनुक्रमांक द्वारा संग्रह से आइटम हटाता है। |
 
-### संबंधित देखें
+### देखें
 
 * इंटरफ़ेस [IPieSplitCustomPointCollection](../ipiesplitcustompointcollection)
 * नामस्थान [Aspose.Slides.Charts](../../aspose.slides.charts)

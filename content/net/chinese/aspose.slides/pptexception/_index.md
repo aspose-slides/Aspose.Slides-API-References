@@ -3,7 +3,7 @@ title: PptException
 second_title: Aspose.Sildes .NET API 参考
 description: 表示标准内部异常类型。
 type: docs
-weight: 9520
+weight: 9540
 url: /zh/aspose.slides/pptexception/
 ---
 ## PptException 类
@@ -19,8 +19,8 @@ public class PptException : Exception
 | 名称 | 描述 |
 | --- | --- |
 | [PptException](pptexception#constructor)() | 默认构造函数。 |
-| [PptException](pptexception#constructor_1)(string) | 构造函数，允许向此异常添加消息。 |
-| [PptException](pptexception#constructor_2)(string, Exception) | 用于包含消息和内部异常的异常的构造函数。 |
+| [PptException](pptexception#constructor_1)(string) | 允许向此异常添加消息的构造函数。 |
+| [PptException](pptexception#constructor_2)(string, Exception) | 包含消息和嵌入异常的构造函数。 |
 
 ### 另见
 

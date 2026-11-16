@@ -1,14 +1,14 @@
 ---
 title: ILegend
-second_title: Aspose.Slides için .NET API Referansı
-description: Grafik lejandının özelliklerini temsil eder.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Grafiklerin lejant özelliklerini temsil eder.
 type: docs
-weight: 2130
+weight: 2150
 url: /tr/aspose.slides.charts/ilegend/
 ---
-## ILegend arayüz
+## ILegend arabirimi
 
-Grafiğin lejandının özelliklerini temsil eder.
+Grafiğin lejant özelliklerini temsil eder.
 
 ```csharp
 public interface ILegend : IActualLayout, IFormattedTextContainer, ILayoutable
@@ -16,20 +16,20 @@ public interface ILegend : IActualLayout, IFormattedTextContainer, ILayoutable
 
 ## Özellikler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
-| [AsIFormattedTextContainer](../../aspose.slides.charts/ilegend/asiformattedtextcontainer) { get; } | Temel IFormattedTextContainer arayüzünü almayı sağlar. Salt okunur [`IFormattedTextContainer`](../iformattedtextcontainer). |
-| [AsILayoutable](../../aspose.slides.charts/ilegend/asilayoutable) { get; } | Temel ILayoutable arayüzünü almayı sağlar. Salt okunur [`ILayoutable`](../ilayoutable). |
+| [AsIFormattedTextContainer](../../aspose.slides.charts/ilegend/asiformattedtextcontainer) { get; } | Temel IFormattedTextContainer arabirimini almayı sağlar. Salt okunur [`IFormattedTextContainer`](../iformattedtextcontainer). |
+| [AsILayoutable](../../aspose.slides.charts/ilegend/asilayoutable) { get; } | Temel ILayoutable arabirimini almayı sağlar. Salt okunur [`ILayoutable`](../ilayoutable). |
 | [Entries](../../aspose.slides.charts/ilegend/entries) { get; } | Lejant girişlerini alır. Salt okunur [`ILegendEntryCollection`](../ilegendentrycollection). |
-| [Format](../../aspose.slides.charts/ilegend/format) { get; } | Bir lejantın biçimini döndürür. Salt okunur [`IFormat`](../iformat). |
-| [Overlay](../../aspose.slides.charts/ilegend/overlay) { get; set; } | Diğer grafik öğelerinin lejantın üzerine gelmesine izin verilip verilmeyeceğini belirler. Okunabilir/Yazılabilir Boolean. |
-| [Position](../../aspose.slides.charts/ilegend/position) { get; set; } | Lejantın bir grafik üzerindeki konumunu belirler. X, Y, Width, Heigt özelliklerinin NaN olmayan değerleri bu özelliğin etkisini geçersiz kılar. Okunabilir/Yazılabilir [`LegendPositionType`](../legendpositiontype). |
+| [Format](../../aspose.slides.charts/ilegend/format) { get; } | Lejantın biçimini döndürür. Salt okunur [`IFormat`](../iformat). |
+| [Overlay](../../aspose.slides.charts/ilegend/overlay) { get; set; } | Diğer grafik öğelerinin lejantla çakışmasına izin verilip verilmeyeceğini belirler. Okuma/Yazma Boolean. |
+| [Position](../../aspose.slides.charts/ilegend/position) { get; set; } | Lejantın bir grafikteki konumunu belirtir. X, Y, Width, Height özelliklerinin NaN olmayan değerleri bu özelliğin etkisini geçersiz kılar. Okuma/Yazma [`LegendPositionType`](../legendpositiontype). |
 
 ### Ayrıca Bakınız
 
-* arayüz [IActualLayout](../iactuallayout)
-* arayüz [IFormattedTextContainer](../iformattedtextcontainer)
-* arayüz [ILayoutable](../ilayoutable)
+* arabirim [IActualLayout](../iactuallayout)
+* arabirim [IFormattedTextContainer](../iformattedtextcontainer)
+* arabirim [ILayoutable](../ilayoutable)
 * ad alanı [Aspose.Slides.Charts](../../aspose.slides.charts)
 * derleme [Aspose.Slides](../../)
 

@@ -1,24 +1,24 @@
 ---
 title: GetSubstitutions
 second_title: Aspose.Sildes dla .NET – Dokumentacja API
-description: Pobiera informacje o czcionkach, które zostaną zamienione podczas renderowania prezentacji.
+description: Pobiera informacje o czcionkach, które zostaną zastąpione podczas renderowania prezentacji.
 type: docs
-weight: 80
+weight: 90
 url: /pl/aspose.slides/fontsmanager/getsubstitutions/
 ---
 ## GetSubstitutions() {#getsubstitutions}
 
-Pobiera informacje o czcionkach, które zostaną zamienione podczas renderowania prezentacji.
+Pobiera informacje o czcionkach, które zostaną zastąpione podczas renderowania prezentacji.
 
 ```csharp
 public IEnumerable<FontSubstitutionInfo> GetSubstitutions()
 ```
 
-### Wartość zwracana
+### Return Value
 
-Kolekcja wszystkich zamian czcionek [`FontSubstitutionInfo`](../../fontsubstitutioninfo).
+Kolekcja wszystkich zastąpień czcionek [`FontSubstitutionInfo`](../../fontsubstitutioninfo).
 
-### Przykłady
+### Examples
 
 ```csharp
 using (Presentation pres = new Presentation("pres.pptx"))
@@ -30,7 +30,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }        
 ```
 
-### Zobacz także
+### See Also
 
 * klasa [FontSubstitutionInfo](../../fontsubstitutioninfo)
 * klasa [FontsManager](../../fontsmanager)
@@ -41,21 +41,21 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 ## GetSubstitutions(int[]) {#getsubstitutions_1}
 
-Pobiera informacje o czcionkach, które zostaną zamienione podczas renderowania określonych slajdów.
+Pobiera informacje o czcionkach, które zostaną zastąpione podczas renderowania określonych slajdów.
 
 ```csharp
 public IEnumerable<FontSubstitutionInfo> GetSubstitutions(int[] slides)
 ```
 
-| Parametr | Typ | Opis |
+| Parameter | Type | Description |
 | --- | --- | --- |
-| slides | Int32[] | Tablica indeksów slajdów, dla których pobierane są informacje o zamianie czcionek, zaczynając od 1. |
+| slides | Int32[] | Tablica indeksów slajdów, dla których mają zostać pobrane informacje o zastąpieniu czcionek, zaczynając od 1. |
 
-### Wartość zwracana
+### Return Value
 
-Kolekcja wszystkich zamian czcionek ([`FontSubstitutionInfo`](../../fontsubstitutioninfo)) dla określonych slajdów.
+Kolekcja wszystkich zastąpień czcionek ([`FontSubstitutionInfo`](../../fontsubstitutioninfo)) dla określonych slajdów.
 
-### Przykłady
+### Examples
 
 ```csharp
 using (Presentation pres = new Presentation("pres.pptx"))
@@ -68,7 +68,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Zobacz także
+### See Also
 
 * klasa [FontSubstitutionInfo](../../fontsubstitutioninfo)
 * klasa [FontsManager](../../fontsmanager)

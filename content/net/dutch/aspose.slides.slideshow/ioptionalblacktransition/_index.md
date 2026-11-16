@@ -3,12 +3,12 @@ title: IOptionalBlackTransition
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Optioneel zwart dia overgangseffect.
 type: docs
-weight: 10140
+weight: 10160
 url: /nl/aspose.slides.slideshow/ioptionalblacktransition/
 ---
 ## IOptionalBlackTransition interface
 
-Optioneel zwart dia-overgangseffect.
+Optioneel zwart dia overgangseffect.
 
 ```csharp
 public interface IOptionalBlackTransition : ITransitionValueBase
@@ -19,7 +19,7 @@ public interface IOptionalBlackTransition : ITransitionValueBase
 | Naam | Beschrijving |
 | --- | --- |
 | [AsITransitionValueBase](../../aspose.slides.slideshow/ioptionalblacktransition/asitransitionvaluebase) { get; } | Staat toe de basis ITransitionValueBase interface op te halen. Alleen-lezen [`ITransitionValueBase`](../itransitionvaluebase). |
-| [FromBlack](../../aspose.slides.slideshow/ioptionalblacktransition/fromblack) { get; set; } | Dit attribuut geeft aan of de overgang zal starten vanaf een zwart scherm (en vervolgens de nieuwe dia over zwart zal overgaan). Lezen/Schrijven Boolean. |
+| [FromBlack](../../aspose.slides.slideshow/ioptionalblacktransition/fromblack) { get; set; } | Dit attribuut specificeert of de overgang start vanaf een zwart scherm (en vervolgens de nieuwe dia over zwart overgaat). Lezen/Schrijven Boolean. |
 
 ### Zie ook
 

@@ -1,14 +1,14 @@
 ---
 title: ShapeType
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Vertegenwoordigt vooraf gedefinieerde geometrie van geometrische vormen.
+description: Stelt vooraf ingestelde geometrie van geometrische vormen voor.
 type: docs
-weight: 9930
+weight: 9950
 url: /nl/aspose.slides/shapetype/
 ---
 ## ShapeType enumeratie
 
-Stelt vooraf bepaalde geometrie van geometrische vormen voor.
+Stelt vooraf ingestelde geometrie van geometrische vormen voor.
 
 ```csharp
 public enum ShapeType
@@ -21,7 +21,7 @@ public enum ShapeType
 | NotDefined | `-1` | Niet gedefinieerd. |
 | Custom | `0` | Aangepaste vorm. Dit is een alleen-lezen waarde. |
 | Line | `1` | Lijnvorm. |
-| LineInverse | `2` | Omgekeerde lijnvorm. |
+| LineInverse | `2` | Inverse lijnvorm. |
 | Triangle | `3` | Driehoekvorm. |
 | RightTriangle | `4` | Rechthoekige driehoekvorm. |
 | Rectangle | `5` | Rechthoekvorm. |
@@ -30,7 +30,7 @@ public enum ShapeType
 | Trapezoid | `8` | Trapeziumvorm. |
 | NonIsoscelesTrapezoid | `9` | Niet-isosceles trapeziumvorm. |
 | Pentagon | `10` | Pentagonvorm. |
-| Hexagon | `11` | Hexagonvorm. |
+| Hexagon | `11` | Hexagoonvorm. |
 | Heptagon | `12` | Heptagonvorm. |
 | Octagon | `13` | Octagonvorm. |
 | Decagon | `14` | Decagonvorm. |
@@ -45,76 +45,76 @@ public enum ShapeType
 | SixteenPointedStar | `23` | Zestienpuntige stervorm. |
 | TwentyFourPointedStar | `24` | Vierentwintigpuntige stervorm. |
 | ThirtyTwoPointedStar | `25` | Tweeëndertigpuntige stervorm. |
-| RoundCornerRectangle | `26` | Afgeronde rechthoekvorm. |
-| OneRoundCornerRectangle | `27` | Één afgeronde rechthoekvorm. |
-| TwoSamesideRoundCornerRectangle | `28` | Twee dezelfde-zijde afgeronde rechthoekvorm. |
-| TwoDiagonalRoundCornerRectangle | `29` | Twee diagonale afgeronde rechthoekvorm. |
-| OneSnipOneRoundCornerRectangle | `30` | Één inkeping één afgeronde rechthoekvorm. |
-| OneSnipCornerRectangle | `31` | Één inkeping hoekenrechthoekvorm. |
-| TwoSamesideSnipCornerRectangle | `32` | Twee dezelfde-zijde inkeping hoekenrechthoekvorm. |
-| TwoDiagonalSnipCornerRectangle | `33` | Twee diagonale inkeping hoekenrechthoekvorm. |
-| Plaque | `34` | Plaquettevorm. |
+| RoundCornerRectangle | `26` | Afgeronde hoek rechthoekvorm. |
+| OneRoundCornerRectangle | `27` | Één afgeronde hoek rechthoekvorm. |
+| TwoSamesideRoundCornerRectangle | `28` | Twee dezelfde zijde afgeronde hoek rechthoekvorm. |
+| TwoDiagonalRoundCornerRectangle | `29` | Twee diagonale afgeronde hoek rechthoekvorm. |
+| OneSnipOneRoundCornerRectangle | `30` | Één inkeping één afgeronde hoek rechthoekvorm. |
+| OneSnipCornerRectangle | `31` | Één inkeping hoek rechthoekvorm. |
+| TwoSamesideSnipCornerRectangle | `32` | Twee dezelfde zijde inkeping hoek rechthoekvorm. |
+| TwoDiagonalSnipCornerRectangle | `33` | Twee diagonale inkeping hoek rechthoekvorm. |
+| Plaque | `34` | Plaquevorm. |
 | Ellipse | `35` | Ellipsvorm. |
-| Teardrop | `36` | Tranenvorm. |
-| HomePlate | `37` | Thuisplaatvorm. |
+| Teardrop | `36` | Traanvorm. |
+| HomePlate | `37` | Home Plate vorm. |
 | Chevron | `38` | Chevronvorm. |
-| PieWedge | `39` | Taartpuntvorm. |
+| PieWedge | `39` | Taartpunt vorm. |
 | Pie | `40` | Taartvorm. |
 | BlockArc | `41` | Blokboogvorm. |
 | Donut | `42` | Donutvorm. |
-| NoSmoking | `43` | Verboden roken-vorm. |
-| RightArrow | `44` | Rechterpijlvorm. |
-| LeftArrow | `45` | Linkerpijlvorm. |
-| UpArrow | `46` | Opwaartse pijlvorm. |
-| DownArrow | `47` | Neerwaartse pijlvorm. |
-| StripedRightArrow | `48` | Gestreepte rechterpijlvorm. |
-| NotchedRightArrow | `49` | Inkeping rechterpijlvorm. |
-| BentUpArrow | `50` | Gebogen opwaartse pijlvorm. |
-| LeftRightArrow | `51` | Links-rechts pijlvorm. |
-| UpDownArrow | `52` | Omhoog-omlaag pijlvorm. |
-| LeftUpArrow | `53` | Links-opwaartse pijlvorm. |
-| LeftRightUpArrow | `54` | Links-rechts-opwaartse pijlvorm. |
-| QuadArrow | `55` | Vierpijlvorm. |
-| CalloutLeftArrow | `56` | Uitleg linker pijlvorm. |
-| CalloutRightArrow | `57` | Uitleg rechter pijlvorm. |
-| CalloutUpArrow | `58` | Uitleg opwaartse pijlvorm. |
-| CalloutDownArrow | `59` | Uitleg neerwaartse pijlvorm. |
-| CalloutLeftRightArrow | `60` | Uitleg links-rechts pijlvorm. |
-| CalloutUpDownArrow | `61` | Uitleg omhoog-omlaag pijlvorm. |
-| CalloutQuadArrow | `62` | Uitleg vierpijlvorm. |
-| BentArrow | `63` | Gebogen pijlvorm. |
-| UTurnArrow | `64` | U-bocht pijlvorm. |
-| CircularArrow | `65` | Ronde pijlvorm. |
-| LeftCircularArrow | `66` | Linker ronde pijlvorm. |
-| LeftRightCircularArrow | `67` | Links-rechts ronde pijlvorm. |
-| CurvedRightArrow | `68` | Gebogen rechterpijlvorm. |
-| CurvedLeftArrow | `69` | Gebogen linkerpijlvorm. |
-| CurvedUpArrow | `70` | Gebogen opwaartse pijlvorm. |
-| CurvedDownArrow | `71` | Gebogen neerwaartse pijlvorm. |
-| SwooshArrow | `72` | Swoosh-pijlvorm. |
-| Cube | `73` | Kubusvorm. |
+| NoSmoking | `43` | Rookverbod vorm. |
+| RightArrow | `44` | Rechterpijl vorm. |
+| LeftArrow | `45` | Linkerpijl vorm. |
+| UpArrow | `46` | Pijlvorm omhoog. |
+| DownArrow | `47` | Pijlvorm omlaag. |
+| StripedRightArrow | `48` | Gestreepte rechterpijl vorm. |
+| NotchedRightArrow | `49` | Inkeping rechterpijl vorm. |
+| BentUpArrow | `50` | Gebogen omhoogpijl vorm. |
+| LeftRightArrow | `51` | Links-rechts pijl vorm. |
+| UpDownArrow | `52` | Omhoog-omlaag pijl vorm. |
+| LeftUpArrow | `53` | Linker omhoog pijl vorm. |
+| LeftRightUpArrow | `54` | Links-rechts omhoog pijl vorm. |
+| QuadArrow | `55` | Quad-pijl vorm. |
+| CalloutLeftArrow | `56` | Uitleggende linker pijl vorm. |
+| CalloutRightArrow | `57` | Uitleggende rechter pijl vorm. |
+| CalloutUpArrow | `58` | Uitleggende omhoog pijl vorm. |
+| CalloutDownArrow | `59` | Uitleggende omlaag pijl vorm. |
+| CalloutLeftRightArrow | `60` | Uitleggende links-rechts pijl vorm. |
+| CalloutUpDownArrow | `61` | Uitleggende omhoog-omlaag pijl vorm. |
+| CalloutQuadArrow | `62` | Uitleggende quad-pijl vorm. |
+| BentArrow | `63` | Gebogen pijl vorm. |
+| UTurnArrow | `64` | U-bocht pijl vorm. |
+| CircularArrow | `65` | Circulaire pijl vorm. |
+| LeftCircularArrow | `66` | Linker circulaire pijl vorm. |
+| LeftRightCircularArrow | `67` | Links-rechts circulaire pijl vorm. |
+| CurvedRightArrow | `68` | Gebogen rechter pijl vorm. |
+| CurvedLeftArrow | `69` | Gebogen linker pijl vorm. |
+| CurvedUpArrow | `70` | Gebogen omhoog pijl vorm. |
+| CurvedDownArrow | `71` | Gebogen omlaag pijl vorm. |
+| SwooshArrow | `72` | Swoosh-pijl vorm. |
+| Cube | `73` | Kubus vorm. |
 | Can | `74` | Blikvorm. |
-| LightningBolt | `75` | Bliksemschichtvorm. |
+| LightningBolt | `75` | Bliksem vorm. |
 | Heart | `76` | Hartvorm. |
 | Sun | `77` | Zonvorm. |
 | Moon | `78` | Maanvorm. |
-| SmileyFace | `79` | Smiley-gezichtsvorm. |
+| SmileyFace | `79` | Glimlach gezicht vorm. |
 | IrregularSeal1 | `80` | Onregelmatige zegel 1 vorm. |
 | IrregularSeal2 | `81` | Onregelmatige zegel 2 vorm. |
-| FoldedCorner | `82` | Gevouwen hoekvorm. |
-| Bevel | `83` | Afgeschuinde vorm. |
+| FoldedCorner | `82` | Vouwhoek vorm. |
+| Bevel | `83` | Verstekvorm. |
 | Frame | `84` | Kadervorm. |
 | HalfFrame | `85` | Halve kadervorm. |
 | Corner | `86` | Hoekvorm. |
-| DiagonalStripe | `87` | Diagonale streepvorm. |
+| DiagonalStripe | `87` | Diagonale streep vorm. |
 | Chord | `88` | Koordvorm. |
 | CurvedArc | `89` | Gebogen boogvorm. |
 | LeftBracket | `90` | Linkerhaakvorm. |
 | RightBracket | `91` | Rechterhaakvorm. |
-| LeftBrace | `92` | Linkeraccoladevorm. |
-| RightBrace | `93` | Rechteraccoladevorm. |
-| BracketPair | `94` | Haakpaarvorm. |
-| BracePair | `95` | Accoladepaarvorm. |
+| LeftBrace | `92` | Linker accolades vorm. |
+| RightBrace | `93` | Rechter accolades vorm. |
+| BracketPair | `94` | Haakpaar vorm. |
+| BracePair | `95` | Accoladepaar vorm. |
 | StraightConnector1 | `96` | Rechte connector 1 vorm. |
 | BentConnector2 | `97` | Gebogen connector 2 vorm. |
 | BentConnector3 | `98` | Gebogen connector 3 vorm. |
@@ -136,81 +136,81 @@ public enum ShapeType
 | Callout1WithBorderAndAccent | `114` | Uitleg 1 met rand en accent vorm. |
 | Callout2WithBorderAndAccent | `115` | Uitleg 2 met rand en accent vorm. |
 | Callout3WithBorderAndAccent | `116` | Uitleg 3 met rand en accent vorm. |
-| CalloutWedgeRectangle | `117` | Uitleg wiggrook rechthoekvorm. |
-| CalloutWedgeRoundRectangle | `118` | Uitleg wiggrook afgeronde rechthoekvorm. |
-| CalloutWedgeEllipse | `119` | Uitleg wiggrook ellipsvorm. |
-| CalloutCloud | `120` | Uitleg wolkvorm. |
+| CalloutWedgeRectangle | `117` | Uitleg wig rechthoekvorm. |
+| CalloutWedgeRoundRectangle | `118` | Uitleg wig afgeronde rechthoekvorm. |
+| CalloutWedgeEllipse | `119` | Uitleg wig ellipsvorm. |
+| CalloutCloud | `120` | Uitleg wolk vorm. |
 | Cloud | `121` | Wolkvorm. |
 | Ribbon | `122` | Lintvorm. |
 | Ribbon2 | `123` | Lint 2 vorm. |
-| EllipseRibbon | `124` | Ellipslintvorm. |
-| EllipseRibbon2 | `125` | Ellipslint 2 vorm. |
+| EllipseRibbon | `124` | Ellips lintvorm. |
+| EllipseRibbon2 | `125` | Ellips lint 2 vorm. |
 | LeftRightRibbon | `126` | Links-rechts lintvorm. |
-| VerticalScroll | `127` | Verticale scrollvorm. |
-| HorizontalScroll | `128` | Horizontale scrollvorm. |
+| VerticalScroll | `127` | Verticale scroll vorm. |
+| HorizontalScroll | `128` | Horizontale scroll vorm. |
 | Wave | `129` | Golfvorm. |
 | DoubleWave | `130` | Dubbele golfvorm. |
 | Plus | `131` | Plusvorm. |
-| ProcessFlow | `132` | Processtroomvorm. |
-| DecisionFlow | `133` | Beslissingsstroomvorm. |
-| InputOutputFlow | `134` | Invoer-output stroomvorm. |
-| PredefinedProcessFlow | `135` | Vooraf gedefinieerde processtroomvorm. |
-| InternalStorageFlow | `136` | Interne opslag stroomvorm. |
-| DocumentFlow | `137` | Documentstroomvorm. |
-| MultiDocumentFlow | `138` | Multi-document stroomvorm. |
-| TerminatorFlow | `139` | Terminator stroomvorm. |
-| PreparationFlow | `140` | Voorbereidingstroomvorm. |
-| ManualInputFlow | `141` | Handmatige invoerstroomvorm. |
-| ManualOperationFlow | `142` | Handmatige operatiestroomvorm. |
-| ConnectorFlow | `143` | Connector stroomvorm. |
-| PunchedCardFlow | `144` | Geprikte kaartstroomvorm. |
-| PunchedTapeFlow | `145` | Geprikte tape stroomvorm. |
-| SummingJunctionFlow | `146` | Sommeerpunt stroomvorm. |
-| OrFlow | `147` | Of stroomvorm. |
-| CollateFlow | `148` | Samenvoegstroomvorm. |
-| SortFlow | `149` | Sorteerstroomvorm. |
-| ExtractFlow | `150` | Extractiestroomvorm. |
-| MergeFlow | `151` | Samenvoegstroomvorm. |
-| OfflineStorageFlow | `152` | Offline opslagstroomvorm. |
-| OnlineStorageFlow | `153` | Online opslagstroomvorm. |
-| MagneticTapeFlow | `154` | Magnetische tape stroomvorm. |
-| MagneticDiskFlow | `155` | Magnetische schijf stroomvorm. |
-| MagneticDrumFlow | `156` | Magnetische trommel stroomvorm. |
-| DisplayFlow | `157` | Weergavestroomvorm. |
-| DelayFlow | `158` | Vertragingstroomvorm. |
-| AlternateProcessFlow | `159` | Alternatieve processtroomvorm. |
-| OffPageConnectorFlow | `160` | Off-page connector stroomvorm. |
-| BlankButton | `161` | Lege knopvorm. |
-| HomeButton | `162` | Startknopvorm. |
-| HelpButton | `163` | Helpknopvorm. |
-| InformationButton | `164` | Informatieknoopvorm. |
-| ForwardOrNextButton | `165` | Vooruit- of volgendeknopvorm. |
-| BackOrPreviousButton | `166` | Terug- of vorigeknopvorm. |
-| EndButton | `167` | Eindknopvorm. |
-| BeginningButton | `168` | Beginknopvorm. |
-| ReturnButton | `169` | Retourknopvorm. |
-| DocumentButton | `170` | Documentknopvorm. |
-| SoundButton | `171` | Geluidknopvorm. |
-| MovieButton | `172` | Filmknopvorm. |
+| ProcessFlow | `132` | Processtroom vorm. |
+| DecisionFlow | `133` | Besluitstroom vorm. |
+| InputOutputFlow | `134` | Invoer-uitvoer stroom vorm. |
+| PredefinedProcessFlow | `135` | Vooraf gedefinieerde processtroom vorm. |
+| InternalStorageFlow | `136` | Interne opslagstroom vorm. |
+| DocumentFlow | `137` | Documentstroom vorm. |
+| MultiDocumentFlow | `138` | Multi-document stroom vorm. |
+| TerminatorFlow | `139` | Terminator stroom vorm. |
+| PreparationFlow | `140` | Voorbereidingsstroom vorm. |
+| ManualInputFlow | `141` | Handmatige invoerstroom vorm. |
+| ManualOperationFlow | `142` | Handmatige operationele stroom vorm. |
+| ConnectorFlow | `143` | Connectorstroom vorm. |
+| PunchedCardFlow | `144` | Geperforeerde kaartstroom vorm. |
+| PunchedTapeFlow | `145` | Geperforeerde band stroom vorm. |
+| SummingJunctionFlow | `146` | Sommenknooppunt stroom vorm. |
+| OrFlow | `147` | Of stroom vorm. |
+| CollateFlow | `148` | Verzamelstroom vorm. |
+| SortFlow | `149` | Sorteerstroom vorm. |
+| ExtractFlow | `150` | Uittrekkstroom vorm. |
+| MergeFlow | `151` | Samenvoegstroom vorm. |
+| OfflineStorageFlow | `152` | Offline opslagstroom vorm. |
+| OnlineStorageFlow | `153` | Online opslagstroom vorm. |
+| MagneticTapeFlow | `154` | Magnetische band stroom vorm. |
+| MagneticDiskFlow | `155` | Magnetische schijf stroom vorm. |
+| MagneticDrumFlow | `156` | Magnetische trommel stroom vorm. |
+| DisplayFlow | `157` | Display stroom vorm. |
+| DelayFlow | `158` | Vertraging stroom vorm. |
+| AlternateProcessFlow | `159` | Alternatieve processtroom vorm. |
+| OffPageConnectorFlow | `160` | Off-Page connector stroom vorm. |
+| BlankButton | `161` | Lege knop vorm. |
+| HomeButton | `162` | Home knop vorm. |
+| HelpButton | `163` | Helpknop vorm. |
+| InformationButton | `164` | Informatieknoop vorm. |
+| ForwardOrNextButton | `165` | Vooruit of volgende knop vorm. |
+| BackOrPreviousButton | `166` | Terug of vorige knop vorm. |
+| EndButton | `167` | Eindknop vorm. |
+| BeginningButton | `168` | Beginknop vorm. |
+| ReturnButton | `169` | Terugkeerknop vorm. |
+| DocumentButton | `170` | Documentknop vorm. |
+| SoundButton | `171` | Geluidknop vorm. |
+| MovieButton | `172` | Filmknop vorm. |
 | Gear6 | `173` | Tandwiel 6 vorm. |
 | Gear9 | `174` | Tandwiel 9 vorm. |
-| Funnel | `175` | Funnelvorm. |
-| PlusMath | `176` | Plus-wiskundevorm. |
-| MinusMath | `177` | Min-wiskundevorm. |
-| MultiplyMath | `178` | Vermenigvuldigings-wiskundevorm. |
-| DivideMath | `179` | Delen-wiskundevorm. |
-| EqualMath | `180` | Gelijk-wiskundevorm. |
-| NotEqualMath | `181` | Niet-gelijk-wiskundevorm. |
-| CornerTabs | `182` | Hoek-tabbladen vorm. |
-| SquareTabs | `183` | Vierkante tabbladen vorm. |
-| PlaqueTabs | `184` | Plaquette tabbladen vorm. |
+| Funnel | `175` | Trechtervorm. |
+| PlusMath | `176` | Plus wiskundig vorm. |
+| MinusMath | `177` | Minus wiskundig vorm. |
+| MultiplyMath | `178` | Vermenigvuldig wiskundig vorm. |
+| DivideMath | `179` | Delen wiskundig vorm. |
+| EqualMath | `180` | Gelijk wiskundig vorm. |
+| NotEqualMath | `181` | Niet gelijk wiskundig vorm. |
+| CornerTabs | `182` | Hoek tabs vorm. |
+| SquareTabs | `183` | Vierkante tabs vorm. |
+| PlaqueTabs | `184` | Plaque tabs vorm. |
 | ChartX | `185` | Grafiek X vorm. |
-| ChartStar | `186` | Grafiek stervorm. |
-| ChartPlus | `187` | Grafiek plusvorm. |
+| ChartStar | `186` | Grafiek ster vorm. |
+| ChartPlus | `187` | Grafiek plus vorm. |
 
 ### Zie ook
 
 * naamruimte [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* assemblage [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

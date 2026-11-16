@@ -1,14 +1,14 @@
 ---
 title: IWarningInfo
-second_title: Aspose.Sildes لـ .NET مرجع API
+second_title: مرجع API لـ Aspose.Sildes لـ .NET
 description: يمثل واجهة أساسية لجميع التحذيرات.
 type: docs
-weight: 11810
+weight: 11830
 url: /ar/aspose.slides.warnings/iwarninginfo/
 ---
 ## IWarningInfo واجهة
 
-Represents a base interface for all warnings.
+يمثل واجهة أساسية لجميع التحذيرات.
 
 ```csharp
 public interface IWarningInfo
@@ -18,14 +18,14 @@ public interface IWarningInfo
 
 | الاسم | الوصف |
 | --- | --- |
-| [Description](../../aspose.slides.warnings/iwarninginfo/description) { get; } | Returns a human readable description of this warning. للقراءة فقط String. |
-| [WarningType](../../aspose.slides.warnings/iwarninginfo/warningtype) { get; } | Returns a type of warning. للقراءة فقط [`WarningType`](./warningtype). |
+| [Description](../../aspose.slides.warnings/iwarninginfo/description) { get; } | يرجع وصفًا قابلاً للقراءة للإنسان لهذا التحذير. للقراءة فقط String. |
+| [WarningType](../../aspose.slides.warnings/iwarninginfo/warningtype) { get; } | يرجع نوعًا من التحذير. للقراءة فقط [`WarningType`](./warningtype). |
 
-## الأساليب
+## الطرق
 
 | الاسم | الوصف |
 | --- | --- |
-| [SendWarning](../../aspose.slides.warnings/iwarninginfo/sendwarning)(IWarningCallback) | إذا لم يكن receiver null ينتهي التحذير إلى receiver المحدد ويرمي الاستثناء AbortRequestedException إذا قرر receiver إلغاء العملية. |
+| [SendWarning](../../aspose.slides.warnings/iwarninginfo/sendwarning)(IWarningCallback) | إذا لم يكن receiver فارغًا، ينهي التحذير إلى receiver المحدد ويطرح AbortRequestedException إذا قرر receiver إلغاء العملية. |
 
 ### انظر أيضًا
 

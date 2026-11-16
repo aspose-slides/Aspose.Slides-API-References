@@ -1,14 +1,14 @@
 ---
 title: OdpReadException
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili sebuah pengecualian yang dilempar pada kesalahan pembacaan presentasi.
+description: Mewakili sebuah pengecualian yang dilemparkan saat terjadi kesalahan membaca presentasi.
 type: docs
-weight: 9220
+weight: 9240
 url: /id/aspose.slides/odpreadexception/
 ---
-## OdpReadException kelas
+## OdpReadException class
 
-Mewakili sebuah pengecualian yang dilempar pada kesalahan pembacaan presentasi.
+Mewakili sebuah pengecualian yang dilemparkan saat terjadi kesalahan membaca presentasi.
 
 ```csharp
 public class OdpReadException : OdpException
@@ -19,8 +19,8 @@ public class OdpReadException : OdpException
 | Nama | Deskripsi |
 | --- | --- |
 | [OdpReadException](odpreadexception#constructor)() | Konstruktor default |
-| [OdpReadException](odpreadexception#constructor_1)(string) | Konstruktor yang memungkinkan menambahkan pesan ke pengecualian ini. |
-| [OdpReadException](odpreadexception#constructor_2)(string, Exception) | Konstruktor untuk pengecualian yang berisi sebuah pesan dan pengecualian terbenam. |
+| [OdpReadException](odpreadexception#constructor_1)(string) | Konstruktor yang memungkinkan pesan ditambahkan ke pengecualian ini. |
+| [OdpReadException](odpreadexception#constructor_2)(string, Exception) | Konstruktor untuk pengecualian yang berisi pesan dan pengecualian tersemat. |
 
 ### Lihat Juga
 

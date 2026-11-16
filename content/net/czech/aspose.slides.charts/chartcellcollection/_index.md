@@ -1,34 +1,34 @@
 ---
 title: ChartCellCollection
-second_title: Aspose.Sildes pro .NET API Reference
-description: Representuje kolekci buněk s daty.
+second_title: Aspose.Sildes pro .NET - referenční příručka API
+description: Reprezentuje kolekci buněk s daty.
 type: docs
-weight: 1300
+weight: 1310
 url: /cs/aspose.slides.charts/chartcellcollection/
 ---
 ## ChartCellCollection třída
 
-Representuje kolekci buněk s daty.
+Reprezentuje kolekci buněk s daty.
 
 ```csharp
 public class ChartCellCollection : IChartCellCollection
 ```
 
-## Vlastnosti
+## Properties
 
 | Název | Popis |
 | --- | --- |
 | [Count](../../aspose.slides.charts/chartcellcollection/count) { get; } | Získá počet buněk v kolekci. Pouze pro čtení Int32. |
 | [Item](../../aspose.slides.charts/chartcellcollection/item) { get; } | Vrátí buňku (IChartDataCell) podle indexu. |
 
-## Metody
+## Methods
 
 | Název | Popis |
 | --- | --- |
 | [Add](../../aspose.slides.charts/chartcellcollection/add#add)(IChartDataCell) | Přidá novou buňku do kolekce. |
 | [Add](../../aspose.slides.charts/chartcellcollection/add#add_1)(object) | Vytvoří [`ChartDataCell`](../chartdatacell) ze zadané hodnoty a přidá ji do kolekce. |
 | [GetCellsAddress](../../aspose.slides.charts/chartcellcollection/getcellsaddress)() | Vrátí adresu sady buněk v sešitu. |
-| [GetConcatenatedValuesFromCells](../../aspose.slides.charts/chartcellcollection/getconcatenatedvaluesfromcells)() | Spojí řetězec ze všech řetězcových hodnot buněk. |
+| [GetConcatenatedValuesFromCells](../../aspose.slides.charts/chartcellcollection/getconcatenatedvaluesfromcells)() | Vrátí řetězec vzniklý spojením všech řetězcových hodnot buněk. |
 | [GetEnumerator](../../aspose.slides.charts/chartcellcollection/getenumerator)() | Vrátí enumerátor, který prochází kolekcí. |
 | [RemoveAt](../../aspose.slides.charts/chartcellcollection/removeat)(int) | Odstraní buňku z kolekce podle indexu. |
 

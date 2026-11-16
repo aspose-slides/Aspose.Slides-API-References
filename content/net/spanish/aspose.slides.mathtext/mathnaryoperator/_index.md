@@ -1,14 +1,14 @@
 ---
 title: MathNaryOperator
-second_title: Referencia de API de Aspose.Sildes para .NET
-description: "Especifica un objeto matemático N-ario como la Sumatoria y la Integral. Consiste en un operador, una base o operando y límites superior e inferior opcionales. Ejemplos de operadores N-arios son: Sumatoria, Unión, Intersección, Integral"
+second_title: Referencia de la API de Aspose.Slides para .NET
+description: Especifica un objeto matemático N-ario como Summation e Integral. Consiste en un operador, una base o operando y límites superior e inferior opcionales. Los ejemplos de operadores N-arios son Summation Union Intersection Integral
 type: docs
-weight: 8870
+weight: 8890
 url: /es/aspose.slides.mathtext/mathnaryoperator/
 ---
 ## MathNaryOperator clase
 
-Especifica un objeto matemático N-ario, como la Sumatoria y la Integral. Consiste en un operador, una base (u operando) y límites superior e inferior opcionales. Ejemplos de operadores N-arios son: Sumatoria, Unión, Intersección, Integral
+Especifica un objeto matemático N-ario, como Summation e Integral. Consiste en un operador, una base (u operando), y límites superior e inferior opcionales. Los ejemplos de operadores N-arios son: Summation, Union, Intersection, Integral
 
 ```csharp
 public sealed class MathNaryOperator : MathElementBase, IMathNaryOperator
@@ -27,11 +27,11 @@ public sealed class MathNaryOperator : MathElementBase, IMathNaryOperator
 | Nombre | Descripción |
 | --- | --- |
 | [Base](../../aspose.slides.mathtext/mathnaryoperator/base) { get; } | Argumento base |
-| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/mathnaryoperator/growtomatchoperandheight) { get; set; } | El carácter del operador crece verticalmente para coincidir con la altura del operando |
+| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/mathnaryoperator/growtomatchoperandheight) { get; set; } | El carácter del operador crece verticalmente para coincidir con la altura de su operando |
 | [HideSubscript](../../aspose.slides.mathtext/mathnaryoperator/hidesubscript) { get; set; } | Ocultar subíndice |
 | [HideSuperscript](../../aspose.slides.mathtext/mathnaryoperator/hidesuperscript) { get; set; } | Ocultar superíndice |
 | [LimitLocation](../../aspose.slides.mathtext/mathnaryoperator/limitlocation) { get; set; } | La ubicación de los límites (subíndice y superíndice) |
-| [Operator](../../aspose.slides.mathtext/mathnaryoperator/operator) { get; set; } | Carácter del operador N-ario. Por ejemplo: '∑', '∫' |
+| [Operator](../../aspose.slides.mathtext/mathnaryoperator/operator) { get; set; } | Carácter de operador N-ario Por ejemplo: '∑', '∫' |
 | [Subscript](../../aspose.slides.mathtext/mathnaryoperator/subscript) { get; } | Especifica un argumento de subíndice que, por ejemplo, en el caso de una integral, establece el límite inferior |
 | [Superscript](../../aspose.slides.mathtext/mathnaryoperator/superscript) { get; } | Especifica un argumento de superíndice que, por ejemplo, en el caso de una integral, establece el límite superior |
 
@@ -50,12 +50,12 @@ public sealed class MathNaryOperator : MathElementBase, IMathNaryOperator
 | [Divide](../../aspose.slides.mathtext/mathelementbase/divide)(IMathElement, MathFractionTypes) | Crea una fracción del tipo especificado con este numerador y el denominador especificado |
 | [Divide](../../aspose.slides.mathtext/mathelementbase/divide)(string, MathFractionTypes) | Crea una fracción del tipo especificado con este numerador y el denominador especificado |
 | [Enclose](../../aspose.slides.mathtext/mathelementbase/enclose)() | Encierra un elemento matemático entre paréntesis |
-| virtual [Enclose](../../aspose.slides.mathtext/mathelementbase/enclose)(char, char) | Encierra un elemento matemático en los caracteres especificados, como paréntesis u otros caracteres como marco |
+| virtual [Enclose](../../aspose.slides.mathtext/mathelementbase/enclose)(char, char) | Encierra un elemento matemático en caracteres especificados como paréntesis u otros caracteres como marco |
 | [Function](../../aspose.slides.mathtext/mathelementbase/function)(IMathElement) | Toma una función de un argumento usando esta instancia como nombre de la función |
 | [Function](../../aspose.slides.mathtext/mathelementbase/function)(string) | Toma una función de un argumento usando esta instancia como nombre de la función |
 | [GetChildren](../../aspose.slides.mathtext/mathnaryoperator/getchildren)() | Obtiene los elementos hijos |
-| [Group](../../aspose.slides.mathtext/mathelementbase/group)() | Coloca este elemento en un grupo usando una llave rizada inferior |
-| [Group](../../aspose.slides.mathtext/mathelementbase/group)(char, MathTopBotPositions, MathTopBotPositions) | Coloca este elemento en un grupo usando un carácter de agrupación como una llave rizada inferior u otro |
+| [Group](../../aspose.slides.mathtext/mathelementbase/group)() | Coloca este elemento en un grupo usando una llave inferior |
+| [Group](../../aspose.slides.mathtext/mathelementbase/group)(char, MathTopBotPositions, MathTopBotPositions) | Coloca este elemento en un grupo usando un carácter de agrupación como una llave inferior u otro |
 | [Integral](../../aspose.slides.mathtext/mathelementbase/integral)(MathIntegralTypes) | Toma la integral sin límites |
 | [Integral](../../aspose.slides.mathtext/mathelementbase/integral)(MathIntegralTypes, IMathElement, IMathElement) | Toma la integral |
 | [Integral](../../aspose.slides.mathtext/mathelementbase/integral)(MathIntegralTypes, string, string) | Toma la integral |
@@ -80,10 +80,10 @@ public sealed class MathNaryOperator : MathElementBase, IMathNaryOperator
 | [SetSuperscript](../../aspose.slides.mathtext/mathelementbase/setsuperscript)(string) | Crea superíndice |
 | [SetUpperLimit](../../aspose.slides.mathtext/mathelementbase/setupperlimit)(IMathElement) | Toma el límite superior |
 | [SetUpperLimit](../../aspose.slides.mathtext/mathelementbase/setupperlimit)(string) | Toma el límite superior |
-| [ToBorderBox](../../aspose.slides.mathtext/mathelementbase/toborderbox)() | Coloca este elemento en un recuadro |
-| [ToBorderBox](../../aspose.slides.mathtext/mathelementbase/toborderbox)(bool, bool, bool, bool, bool, bool, bool, bool) | Coloca este elemento en un recuadro |
-| [ToBox](../../aspose.slides.mathtext/mathelementbase/tobox)() | Coloca este elemento en un cuadro no visual (agrupación lógica) que se usa para agrupar componentes de una ecuación u otra instancia de texto matemático. Un objeto encuadrado puede (por ejemplo) servir como emulador de operador con o sin punto de alineación, servir como punto de salto de línea, o agruparse de modo que no se permitan saltos de línea dentro. |
-| virtual [ToMathArray](../../aspose.slides.mathtext/mathelementbase/tomatharray)() | Coloca en una matriz vertical |
+| [ToBorderBox](../../aspose.slides.mathtext/mathelementbase/toborderbox)() | Coloca este elemento en un recuadro con borde |
+| [ToBorderBox](../../aspose.slides.mathtext/mathelementbase/toborderbox)(bool, bool, bool, bool, bool, bool, bool, bool) | Coloca este elemento en un recuadro con borde |
+| [ToBox](../../aspose.slides.mathtext/mathelementbase/tobox)() | Coloca este elemento en un cuadro no visual (agrupación lógica) que se utiliza para agrupar componentes de una ecuación u otra instancia de texto matemático. Un objeto en cuadro puede (por ejemplo) servir como emulador de operador con o sin punto de alineación, servir como punto de salto de línea, o agruparse de forma que no permita saltos de línea dentro. |
+| virtual [ToMathArray](../../aspose.slides.mathtext/mathelementbase/tomatharray)() | Inserta en una matriz vertical |
 | [Underbar](../../aspose.slides.mathtext/mathelementbase/underbar)() | Establece una barra en la parte inferior de este elemento |
 
 ### Ejemplos

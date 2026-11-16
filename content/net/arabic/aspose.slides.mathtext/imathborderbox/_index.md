@@ -1,33 +1,33 @@
 ---
 title: IMathBorderBox
-second_title: Aspose.Sildes لواجهة برمجة تطبيقات .NET
-description: يرسم حدًا مستطيلًا أو حدودًا أخرى حول IMathElement.
+second_title: مرجع API لـ Aspose.Sildes لل.NET
+description: يرسم حدًا مستطيلًا أو حدًا آخر حول IMathElement.
 type: docs
-weight: 8170
+weight: 8190
 url: /ar/aspose.slides.mathtext/imathborderbox/
 ---
 ## IMathBorderBox واجهة
 
-يرسم حدودًا مستطيلة أو حدودًا أخرى حول IMMathElement.
+Draws a rectangular or some other border around the IMathElement.
 
 ```csharp
 public interface IMathBorderBox : IMathElement
 ```
 
-## خصائص
+## الخصائص
 
-| الاسم | الوصف |
+| Name | Description |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathborderbox/asimathelement) { get; } | يتيح الحصول على واجهة IMathElement الأساسية [`IMathElement`](../imathelement) |
-| [Base](../../aspose.slides.mathtext/imathborderbox/base) { get; } | الوسيط الأساسي |
-| [HideBottom](../../aspose.slides.mathtext/imathborderbox/hidebottom) { get; set; } | إخفاء الحافة السفلية (القيمة الافتراضية false) - يحدد الحالة المخفية أو المعروضة للحافة السفلية لصندوق الحد. |
-| [HideLeft](../../aspose.slides.mathtext/imathborderbox/hideleft) { get; set; } | إخفاء الحافة اليسرى (القيمة الافتراضية false) - يحدد الحالة المخفية أو المعروضة للحافة اليسرى لصندوق الحد. |
-| [HideRight](../../aspose.slides.mathtext/imathborderbox/hideright) { get; set; } | إخفاء الحافة اليمنى (القيمة الافتراضية false) - يحدد الحالة المخفية أو المعروضة للحافة اليمنى لصندوق الحد. |
-| [HideTop](../../aspose.slides.mathtext/imathborderbox/hidetop) { get; set; } | إخفاء الحافة العليا (القيمة الافتراضية false) - يحدد الحالة المخفية أو المعروضة للحافة العليا لصندوق الحد. |
-| [StrikethroughBottomLeftToTopRight](../../aspose.slides.mathtext/imathborderbox/strikethroughbottomlefttotopright) { get; set; } | خط شطب من الأسفل-اليسار إلى أعلى-اليمين (القيمة الافتراضية false). يحدد الحالة المخفية أو المعروضة لخط شطب قطري من الزاوية السفلية اليسرى إلى الزاوية العلوية اليمنى لصندوق الحد. |
-| [StrikethroughHorizontal](../../aspose.slides.mathtext/imathborderbox/strikethroughhorizontal) { get; set; } | خط شطب أفقي (القيمة الافتراضية false) - يحدد الحالة المخفية أو المعروضة لخط شطب أفقي. |
-| [StrikethroughTopLeftToBottomRight](../../aspose.slides.mathtext/imathborderbox/strikethroughtoplefttobottomright) { get; set; } | خط شطب من أعلى-اليسار إلى أسفل-اليمين (القيمة الافتراضية false). يحدد الحالة المخفية أو المعروضة لخط شطب قطري من الزاوية العليا اليسرى إلى الزاوية السفلية اليمنى لصندوق الحد. |
-| [StrikethroughVertical](../../aspose.slides.mathtext/imathborderbox/strikethroughvertical) { get; set; } | خط شطب عمودي (القيمة الافتراضية false) - يحدد الحالة المخفية أو المعروضة لخط شطب عمودي. |
+| [AsIMathElement](../../aspose.slides.mathtext/imathborderbox/asimathelement) { get; } | يسمح بالحصول على واجهة IMathElement الأساسية [`IMathElement`](../imathelement) |
+| [Base](../../aspose.slides.mathtext/imathborderbox/base) { get; } | معامل أساسي |
+| [HideBottom](../../aspose.slides.mathtext/imathborderbox/hidebottom) { get; set; } | إخفاء الحافة السفلية (القيمة الافتراضية هي false) - يحدد حالة الإخفاء أو العرض للحافة السفلية لصندوق الحدود. |
+| [HideLeft](../../aspose.slides.mathtext/imathborderbox/hideleft) { get; set; } | إخفاء الحافة اليسرى (القيمة الافتراضية هي false) - يحدد حالة الإخفاء أو العرض للحافة اليسرى لصندوق الحدود. |
+| [HideRight](../../aspose.slides.mathtext/imathborderbox/hideright) { get; set; } | إخفاء الحافة اليمنى (القيمة الافتراضية هي false) - يحدد حالة الإخفاء أو العرض للحافة اليمنى لصندوق الحدود. |
+| [HideTop](../../aspose.slides.mathtext/imathborderbox/hidetop) { get; set; } | إخفاء الحافة العليا (القيمة الافتراضية هي false) - يحدد حالة الإخفاء أو العرض للحافة العليا لصندوق الحدود. |
+| [StrikethroughBottomLeftToTopRight](../../aspose.slides.mathtext/imathborderbox/strikethroughbottomlefttotopright) { get; set; } | تسطير من أسفل اليسار إلى أعلى اليمين (القيمة الافتراضية هي false). يحدد حالة الإخفاء أو العرض لخط مائل مسطر يمتد من الزاوية السفلية اليسرى إلى الزاوية العليا اليمنى لصندوق الحدود. |
+| [StrikethroughHorizontal](../../aspose.slides.mathtext/imathborderbox/strikethroughhorizontal) { get; set; } | تسطير أفقي (القيمة الافتراضية هي false) - يحدد حالة الإخفاء أو العرض لخط أفقي مسطر. |
+| [StrikethroughTopLeftToBottomRight](../../aspose.slides.mathtext/imathborderbox/strikethroughtoplefttobottomright) { get; set; } | تسطير من أعلى اليسار إلى أسفل اليمين (القيمة الافتراضية هي false). يحدد حالة الإخفاء أو العرض لخط مائل مسطر يمتد من الزاوية العلوية اليسرى إلى الزاوية السفلية اليمنى لصندوق الحدود. |
+| [StrikethroughVertical](../../aspose.slides.mathtext/imathborderbox/strikethroughvertical) { get; set; } | تسطير عمودي (القيمة الافتراضية هي false) - يحدد حالة الإخفاء أو العرض لخط عمودي مسطر. |
 
 ### أمثلة
 
@@ -41,7 +41,7 @@ IMathBorderBox borderBox = new MathematicalText("x+y+z").ToBorderBox();
 ### انظر أيضًا
 
 * واجهة [IMathElement](../imathelement)
-* مساحة الأسماء [Aspose.Slides.MathText](../../aspose.slides.mathtext)
-* مجمع [Aspose.Slides](../../)
+* نطاق الاسم [Aspose.Slides.MathText](../../aspose.slides.mathtext)
+* تجميع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

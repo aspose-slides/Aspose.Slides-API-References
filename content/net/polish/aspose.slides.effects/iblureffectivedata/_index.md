@@ -1,25 +1,26 @@
 ---
 title: IBlurEffectiveData
-second_title: Aspose.Sildes dla .NET - odwołanie API
-description: Niezmienny obiekt, który reprezentuje efekt Blur stosowany do całego kształtu, włącznie z jego wypełnieniem. Wszystkie kanały kolorów, w tym alfa, są poddane działaniu.
+second_title: Aspose.Sildes dla .NET – Referencja API
+description: Niezmienny obiekt, który reprezentuje efekt rozmycia zastosowany do całego kształtu, włącznie z jego wypełnieniem. Wszystkie kanały kolorów, w tym alfa, są pod wpływem.
 type: docs
-weight: 3190
+weight: 3210
 url: /pl/aspose.slides.effects/iblureffectivedata/
 ---
 ## IBlurEffectiveData interfejs
 
-Niezmienny obiekt, który reprezentuje efekt Blur stosowany do całego kształtu, włącznie z jego wypełnieniem. Wszystkie kanały kolorów, w tym alfa, są poddane działaniu.
+Immutable object which represents a Blur effect that is applied to the entire shape, including its fill. All color channels, including alpha, are affected.
 
 ```csharp
 public interface IBlurEffectiveData : IEffectEffectiveData
 ```
+
 
 ## Właściwości
 
 | Nazwa | Opis |
 | --- | --- |
 | [AsIEffectEffectiveData](../../aspose.slides.effects/iblureffectivedata/asieffecteffectivedata) { get; } | Umożliwia pobranie podstawowego interfejsu IEffectEffectiveData. Tylko do odczytu [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Grow](../../aspose.slides.effects/iblureffectivedata/grow) { get; } | Określa, czy granice obiektu mają być powiększane w wyniku rozmycia. True wskazuje, że granice są powiększane, natomiast false wskazuje, że nie są. Tylko do odczytu Boolean. |
+| [Grow](../../aspose.slides.effects/iblureffectivedata/grow) { get; } | Określa, czy granice obiektu powinny być powiększone w wyniku rozmycia. Prawda wskazuje, że granice są powiększane, natomiast fałsz wskazuje, że nie są. Tylko do odczytu Boolean. |
 | [Radius](../../aspose.slides.effects/iblureffectivedata/radius) { get; } | Zwraca lub ustawia promień rozmycia. Tylko do odczytu Double. |
 
 ### Zobacz także

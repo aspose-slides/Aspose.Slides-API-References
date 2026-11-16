@@ -1,14 +1,14 @@
 ---
 title: ILayoutSlide
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili sebuah layout slide.
+description: Mewakili slide tata letak.
 type: docs
-weight: 6220
+weight: 6240
 url: /id/aspose.slides/ilayoutslide/
 ---
-## Antarmuka ILayoutSlide
+## ILayoutSlide antarmuka
 
-Mewakili sebuah layout slide.
+Mewakili slide tata letak.
 
 ```csharp
 public interface ILayoutSlide : IBaseSlide, IOverrideThemeable
@@ -18,21 +18,21 @@ public interface ILayoutSlide : IBaseSlide, IOverrideThemeable
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/ilayoutslide/asibaseslide) { get; } | Mengizinkan untuk mendapatkan antarmuka dasar IBaseSlide. Hanya baca [`IBaseSlide`](../ibaseslide). |
-| [AsIOverrideThemeable](../../aspose.slides/ilayoutslide/asioverridethemeable) { get; } | Mengembalikan antarmuka IOverrideThemeable. Hanya baca [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
-| [DrawingGuides](../../aspose.slides/ilayoutslide/drawingguides) { get; } | Mengembalikan koleksi panduan menggambar untuk layout slide. Hanya baca [`IDrawingGuidesCollection`](../idrawingguidescollection). |
-| [HasDependingSlides](../../aspose.slides/ilayoutslide/hasdependingslides) { get; } | Mengembalikan true jika ada setidaknya satu slide yang bergantung pada layout slide ini. Boolean hanya baca. |
-| [HeaderFooterManager](../../aspose.slides/ilayoutslide/headerfootermanager) { get; } | Mengembalikan manajer HeaderFooter dari layout slide. Hanya baca [`ILayoutSlideHeaderFooterManager`](../ilayoutslideheaderfootermanager). |
-| [LayoutType](../../aspose.slides/ilayoutslide/layouttype) { get; } | Mengembalikan tipe layout dari layout slide ini. Hanya baca [`SlideLayoutType`](../slidelayouttype). |
-| [MasterSlide](../../aspose.slides/ilayoutslide/masterslide) { get; set; } | Mengembalikan atau mengatur master slide untuk sebuah layout. Baca/tulis [`IMasterSlide`](../imasterslide). |
-| [PlaceholderManager](../../aspose.slides/ilayoutslide/placeholdermanager) { get; } | Mengembalikan manajer placeholder dari layout slide. Hanya baca [`ILayoutPlaceholderManager`](../ilayoutplaceholdermanager). |
+| [AsIBaseSlide](../../aspose.slides/ilayoutslide/asibaseslide) { get; } | Memungkinkan untuk mendapatkan antarmuka dasar IBaseSlide. Hanya-baca [`IBaseSlide`](../ibaseslide). |
+| [AsIOverrideThemeable](../../aspose.slides/ilayoutslide/asioverridethemeable) { get; } | Mengembalikan antarmuka IOverrideThemeable. Hanya-baca [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
+| [DrawingGuides](../../aspose.slides/ilayoutslide/drawingguides) { get; } | Mengembalikan kumpulan panduan gambar untuk slide tata letak. Hanya-baca [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [HasDependingSlides](../../aspose.slides/ilayoutslide/hasdependingslides) { get; } | Mengembalikan true jika ada setidaknya satu slide yang bergantung pada slide tata letak ini. Hanya-baca Boolean. |
+| [HeaderFooterManager](../../aspose.slides/ilayoutslide/headerfootermanager) { get; } | Mengembalikan pengelola HeaderFooter dari slide tata letak. Hanya-baca [`ILayoutSlideHeaderFooterManager`](../ilayoutslideheaderfootermanager). |
+| [LayoutType](../../aspose.slides/ilayoutslide/layouttype) { get; } | Mengembalikan tipe tata letak dari slide tata letak ini. Hanya-baca [`SlideLayoutType`](../slidelayouttype). |
+| [MasterSlide](../../aspose.slides/ilayoutslide/masterslide) { get; set; } | Mengembalikan atau mengatur slide master untuk sebuah tata letak. Baca/tulis [`IMasterSlide`](../imasterslide). |
+| [PlaceholderManager](../../aspose.slides/ilayoutslide/placeholdermanager) { get; } | Mengembalikan pengelola placeholder dari slide tata letak. Hanya-baca [`ILayoutPlaceholderManager`](../ilayoutplaceholdermanager). |
 
 ## Metode
 
 | Nama | Deskripsi |
 | --- | --- |
-| [GetDependingSlides](../../aspose.slides/ilayoutslide/getdependingslides)() | Mengembalikan array dengan semua slide yang bergantung pada layout slide ini. |
-| [Remove](../../aspose.slides/ilayoutslide/remove)() | Menghapus layout dari presentasi. |
+| [GetDependingSlides](../../aspose.slides/ilayoutslide/getdependingslides)() | Mengembalikan array dengan semua slide yang bergantung pada slide tata letak ini. |
+| [Remove](../../aspose.slides/ilayoutslide/remove)() | Menghapus tata letak dari presentasi. |
 
 ### Lihat Juga
 

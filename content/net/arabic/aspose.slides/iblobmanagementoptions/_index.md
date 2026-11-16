@@ -1,14 +1,14 @@
 ---
 title: IBlobManagementOptions
 second_title: Aspose.Sildes لـ .NET مرجع API
-description: كائن ثنائي كبير BLOB هو بيانات ثنائية مخزنة ككيان واحد - أي أن BLOB يمكن أن تكون صوتًا أو فيديو أو عرض تقديمي بحد ذاته. تُستخدم مجموعة من التقنيات لتحسين استهلاك الذاكرة أثناء العمل مع BLOBs - سواء كانت مخزنة مسبقًا في العرض التقديمي أو تُضاف لاحقًا برمجيًا. باستخدام IBlobManagementOptions./iblobmanagementoptions يمكنك تغيير جوانب سلوك مختلفة تتعلق بمعالجة BLOBs لعمر كائن IPresentation./ipresentation.
+description: كائن ثنائي كبير (BLOB) هو بيانات ثنائية مخزنة ككيان واحد - أي أن BLOB يمكن أن يكون صوتًا أو فيديو أو عرضًا تقديميًا نفسه. يتم استخدام عدد من التقنيات لتحسين استهلاك الذاكرة أثناء العمل مع BLOBs - سواء كانت مخزنة مسبقًا في العرض التقديمي أو تتم إضافتها لاحقًا برمجيًا. باستخدام IBlobManagementOptions./iblobmanagementoptions يمكنك تغيير جوانب سلوك مختلفة تتعلق بمعالجة BLOBs طوال عمر IPresentation./ipresentation.
 type: docs
-weight: 5370
+weight: 5390
 url: /ar/aspose.slides/iblobmanagementoptions/
 ---
-## واجهة IBlobManagementOptions
+## IBlobManagementOptions واجهة
 
-كائن ثنائي كبير (BLOB) هو بيانات ثنائية تُخزن ككيان واحد - أي أن BLOB يمكن أن تكون صوتًا أو فيديو أو عرض تقديمي بحد ذاته. تُستخدم مجموعة من التقنيات لتحسين استهلاك الذاكرة أثناء العمل مع BLOBs - سواء كانت مخزنة مسبقًا في العرض التقديمي أو تُضاف لاحقًا برمجيًا. باستخدام [`IBlobManagementOptions`](../iblobmanagementoptions) يمكنك تغيير سلوكيات مختلفة تتعلق بمعالجة BLOBs لعمر مثيل [`IPresentation`](../ipresentation).
+الكائن الثنائي الكبير (BLOB) هو بيانات ثنائية مخزنة ككيان واحد - أي أن BLOB يمكن أن يكون صوتًا أو فيديو أو عرضًا تقديميًا نفسه. يتم استخدام عدد من التقنيات لتحسين استهلاك الذاكرة أثناء العمل مع BLOBs - سواء كان مخزنًا مسبقًا في العرض التقديمي أو يضاف لاحقًا برمجيًا. باستخدام [`IBlobManagementOptions`](../iblobmanagementoptions) يمكنك تعديل جوانب السلوك المختلفة المتعلقة بمعالجة BLOBs طوال عمر [`IPresentation`](../ipresentation).
 
 ```csharp
 public interface IBlobManagementOptions
@@ -18,14 +18,14 @@ public interface IBlobManagementOptions
 
 | الاسم | الوصف |
 | --- | --- |
-| [IsTemporaryFilesAllowed](../../aspose.slides/iblobmanagementoptions/istemporaryfilesallowed) { get; set; } | تحدد هذه الخاصية ما إذا كان يمكن إنشاء ملفات مؤقتة أثناء العمل مع BLOBs، مما يقلل بشكل كبير من استهلاك الذاكرة لكنه يتطلب أذونات لإنشاء الملفات. سيتم حذف جميع الملفات بعد انتهاء العمل على العرض التقديمي. |
-| [MaxBlobsBytesInMemory](../../aspose.slides/iblobmanagementoptions/maxblobsbytesinmemory) { get; set; } | تحدد الحد الأقصى للحجم الكلي (بالبايت) الذي قد تحتله جميع BLOBs في الذاكرة. بشكل افتراضي، يتم تحميل جميع BLOBs في الذاكرة؛ وعند الوصول إلى هذا الحد تُستخدم آليات بديلة (مثل الملفات المؤقتة). الحفاظ على BLOBs في الذاكرة يعزز الأداء لكنه قد يتسبب في استهلاك عالي للذاكرة. استخدم هذه الخاصية لتخصيص السلوك وفقًا لبيئتك أو متطلباتك. |
-| [PresentationLockingBehavior](../../aspose.slides/iblobmanagementoptions/presentationlockingbehavior) { get; set; } | تحدد هذه الخاصية ما إذا كان يمكن لكائن من فئة Presentation أن يكون مالكًا للمصدر - الملف أو التدفق - خلال مدة حياة الكائن. إذا كان الكائن مالكًا، فإنه يقفل المصدر. يساعد ذلك في تحسين استهلاك الذاكرة والأداء أثناء العمل مع BLOBs، لكن لا يمكن تغيير المصدر (التدفق أو الملف) خلال مدة حياة كائن Presentation. هذا مثال: |
-| [TempFilesRootPath](../../aspose.slides/iblobmanagementoptions/tempfilesrootpath) { get; set; } | المسار الجذر حيث سيتم إنشاء الملفات المؤقتة. سيتم استخدام الدليل المؤقت للنظام بشكل افتراضي. يجب أن تكون لدى عملية الاستضافة أذونات لإنشاء الملفات والمجلدات هناك. |
+| [IsTemporaryFilesAllowed](../../aspose.slides/iblobmanagementoptions/istemporaryfilesallowed) { get; set; } | تحدد هذه الخاصية ما إذا كان يمكن إنشاء ملفات مؤقتة أثناء العمل مع BLOBs، وهو ما يقلل بشكل كبير من استهلاك الذاكرة لكنه يتطلب أذونات لإنشاء الملفات. سيتم حذف جميع الملفات بعد الانتهاء من العمل مع العرض التقديمي. |
+| [MaxBlobsBytesInMemory](../../aspose.slides/iblobmanagementoptions/maxblobsbytesinmemory) { get; set; } | تحدد الحجم الكلي الأقصى (بالبايت) الذي قد تشغله جميع BLOBs في الذاكرة. بشكل افتراضي، يتم تحميل جميع BLOBs إلى الذاكرة؛ وعند بلوغ هذا الحد تُستَخدم آليات بديلة (مثل الملفات المؤقتة). الحفاظ على BLOBs في الذاكرة يعزز الأداء لكنه قد يؤدي إلى استخدام عالي للذاكرة. استخدم هذه الخاصية لتكييف السلوك مع بيئتك أو متطلباتك. |
+| [PresentationLockingBehavior](../../aspose.slides/iblobmanagementoptions/presentationlockingbehavior) { get; set; } | تحدد هذه الخاصية ما إذا كان يمكن لكائن من فئة Presentation أن يكون مالكًا للمصدر - ملف أو تدفق - طوال عمر الكائن. إذا كان الكائن مالكًا، فإنه يقفل المصدر. هذا يساعد على تحسين استهلاك الذاكرة والأداء أثناء العمل مع BLOBs، ولكن لا يمكن تغيير المصدر (التدفق أو الملف) خلال عمر كائن Presentation. هذا مثال: |
+| [TempFilesRootPath](../../aspose.slides/iblobmanagementoptions/tempfilesrootpath) { get; set; } | المسار الجذر حيث سيتم إنشاء الملفات المؤقتة. سيتم استخدام دليل النظام المؤقت بشكل افتراضي. يجب أن يمتلك عملية الاستضافة أذونات لإنشاء الملفات والمجلدات هناك. |
 
 ### انظر أيضًا
 
-* النطاق [Aspose.Slides](../../aspose.slides)
-* التجميع [Aspose.Slides](../../)
+* مساحة الاسم [Aspose.Slides](../../aspose.slides)
+* تجميع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

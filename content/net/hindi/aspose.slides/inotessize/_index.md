@@ -1,9 +1,9 @@
 ---
 title: INotesSize
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
+second_title: Aspose.Sildes .NET के लिये API संदर्भ
 description: नोट्स स्लाइड का आकार दर्शाता है।
 type: docs
-weight: 6490
+weight: 6510
 url: /hi/aspose.slides/inotessize/
 ---
 ## INotesSize इंटरफ़ेस
@@ -18,7 +18,7 @@ public interface INotesSize
 
 | नाम | विवरण |
 | --- | --- |
-| [Size](../../aspose.slides/inotessize/size) { get; set; } | आकार को पॉइंट में लौटाता है या सेट करता है। पढ़ने/लिखने योग्य SizeF। |
+| [Size](../../aspose.slides/inotessize/size) { get; set; } | आकार को पॉइंट्स में लौटाता है या सेट करता है। पढ़ें/लिखें SizeF. |
 
 ### संबंधित देखें
 

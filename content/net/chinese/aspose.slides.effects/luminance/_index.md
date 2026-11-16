@@ -1,9 +1,9 @@
 ---
 title: Luminance
-second_title: Aspose.Sildes .NET API 参考
+second_title: Aspose.Sildes 的 .NET API 参考
 description: 表示 Luminance 效果。亮度线性地将所有颜色向白色或黑色移动。对比度按比例缩放所有颜色，使它们更接近或更远离。
 type: docs
-weight: 3610
+weight: 3630
 url: /zh/aspose.slides.effects/luminance/
 ---
 ## Luminance 类
@@ -28,7 +28,7 @@ public sealed class Luminance : ImageTransformOperation, ILuminance
 | [GetEffective](../../aspose.slides.effects/luminance/geteffective)() | 获取在应用继承后的有效 Luminance 效果数据。 |
 | override [GetHashCode](../../aspose.slides.effects/luminance/gethashcode)() | 作为特定类型的哈希函数。 |
 
-### 参见
+### 另见
 
 * 类 [ImageTransformOperation](../imagetransformoperation)
 * 接口 [ILuminance](../iluminance)

@@ -3,12 +3,12 @@ title: XpsOptions
 second_title: Aspose.Sildes for .NET API 参考
 description: 提供控制演示文稿以 XPS 格式保存方式的选项。
 type: docs
-weight: 4730
+weight: 4750
 url: /zh/aspose.slides.export/xpsoptions/
 ---
 ## XpsOptions 类
 
-提供控制演示文稿以 XPS 格式保存方式的选项。
+提供控制演示文稿如何以 XPS 格式保存的选项。
 
 ```csharp
 public class XpsOptions : SaveOptions, IXpsOptions
@@ -24,18 +24,18 @@ public class XpsOptions : SaveOptions, IXpsOptions
 
 | 名称 | 描述 |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | 返回或设置在未找到源字体时使用的字体。读写 String。 |
-| [DrawSlidesFrame](../../aspose.slides.export/xpsoptions/drawslidesframe) { get; set; } | 设为 true 时在每张幻灯片周围绘制黑色框架。读写 Boolean。 |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | 返回或设置渐变的视觉样式。读写 [`GradientStyle`](../../aspose.slides/gradientstyle)。 |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | 返回或设置在未找到源字体时使用的字体。可读写 String。 |
+| [DrawSlidesFrame](../../aspose.slides.export/xpsoptions/drawslidesframe) { get; set; } | 为 true 时在每张幻灯片周围绘制黑色框架。可读写 Boolean。 |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | 返回或设置渐变的视觉样式。可读写 [`GradientStyle`](../../aspose.slides/gradientstyle)。 |
 | [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 表示用于以百分比保存进度更新的回调对象。参见 [`IProgressCallback`](../../aspose.slides/iprogresscallback)。 |
-| [SaveMetafilesAsPng](../../aspose.slides.export/xpsoptions/savemetafilesaspng) { get; set; } | 设为 true 时将演示文稿中使用的所有元文件转换为 PNG 图像。读写 Boolean。 |
-| [ShowHiddenSlides](../../aspose.slides.export/xpsoptions/showhiddenslides) { get; set; } | 指定生成的文档是否应包括隐藏的幻灯片。默认是 `false`。 |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | 指定在保存演示文稿时是否跳过包含 JavaScript 调用的超链接。读写 Boolean。默认值为 **false**。 |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 返回或设置一个接收警告并决定加载过程是继续还是中止的对象。读写 [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)。 |
+| [SaveMetafilesAsPng](../../aspose.slides.export/xpsoptions/savemetafilesaspng) { get; set; } | 为 true 时将演示文稿中使用的所有元文件转换为 PNG 图像。可读写 Boolean。 |
+| [ShowHiddenSlides](../../aspose.slides.export/xpsoptions/showhiddenslides) { get; set; } | 指定生成的文档是否应包含隐藏幻灯片。默认是 `false`。 |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | 指定在保存演示文稿时是否跳过带有 JavaScript 调用的超链接。可读写 Boolean。默认值为 **false**。 |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 返回或设置接收警告并决定加载过程是继续还是中止的对象。可读写 [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)。 |
 
 ### 示例
 
-下面的示例演示如何使用默认设置将演示文稿转换为 XPS。
+下面的示例展示了如何使用默认设置将演示文稿转换为 XPS。
 
 ```csharp
 [C#]
@@ -47,23 +47,23 @@ using (Presentation pres = new Presentation("Convert_XPS.pptx"))
 }
 ```
 
-下面的示例演示如何使用自定义设置将演示文稿转换为 XPS。
+下面的示例展示了如何使用自定义设置将演示文稿转换为 XPS。
 
 ```csharp
 [C#]
 // 实例化一个表示演示文稿文件的 Presentation 对象
 using (Presentation pres = new Presentation("Convert_XPS_Options.pptx"))
 {
-    // 实例化 TiffOptions 类
+    // 实例化 XpsOptions 类
     XpsOptions options = new XpsOptions();
-    // 将 MetaFiles 保存为 PNG
+    // 将元文件保存为 PNG
     options.SaveMetafilesAsPng = true;
     // 将演示文稿保存为 XPS 文档
     pres.Save("XPS_With_Options_out.xps", SaveFormat.Xps, options);
 }
 ```
 
-### 另见
+### 另请参见
 
 * 类 [SaveOptions](../saveoptions)
 * 接口 [IXpsOptions](../ixpsoptions)

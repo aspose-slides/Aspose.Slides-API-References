@@ -1,27 +1,27 @@
 ---
 title: IAlphaModulateFixedEffectiveData
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 알파 모듈레이트 고정 효과를 나타내는 불변 객체입니다. 효과 알파 불투명도 값은 고정 비율로 곱해집니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: Alpha Modulate Fixed 효과를 나타내는 불변 객체입니다. 효과 알파 불투명도 값은 고정 비율로 곱해집니다.
 type: docs
-weight: 3130
+weight: 3150
 url: /ko/aspose.slides.effects/ialphamodulatefixedeffectivedata/
 ---
-## IAlphaModulateFixedEffectiveData interface
+## IAlphaModulateFixedEffectiveData 인터페이스
 
-알파 모듈레이트 고정 효과를 나타내는 불변 객체입니다. 효과 알파(불투명도) 값은 고정 비율로 곱해집니다.
+Immutable object which represents an Alpha Modulate Fixed effect. Effect alpha (opacity) values are multiplied by a fixed percentage.
 
 ```csharp
 public interface IAlphaModulateFixedEffectiveData : IEffectEffectiveData
 ```
 
-## Properties
+## 속성
 
 | 이름 | 설명 |
 | --- | --- |
 | [Amount](../../aspose.slides.effects/ialphamodulatefixedeffectivedata/amount) { get; } | 효과 양을 퍼센트 단위로 반환합니다. 읽기 전용 Single. |
 | [AsIEffectEffectiveData](../../aspose.slides.effects/ialphamodulatefixedeffectivedata/asieffecteffectivedata) { get; } | 기본 IEffectEffectiveData 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
-### See Also
+### 참고
 
 * 인터페이스 [IEffectEffectiveData](../ieffecteffectivedata)
 * 네임스페이스 [Aspose.Slides.Effects](../../aspose.slides.effects)

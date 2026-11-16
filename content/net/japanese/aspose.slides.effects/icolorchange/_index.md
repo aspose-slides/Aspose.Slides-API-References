@@ -1,14 +1,14 @@
 ---
 title: IColorChange
-second_title: Aspose.Sildes の .NET API リファレンス
-description: カラー変更エフェクトを表します。FromColor のインスタンスは ToColor のインスタンスに置き換えられます。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: Color Change エフェクトを表します。FromColor のインスタンスは ToColor のインスタンスに置き換えられます。
 type: docs
-weight: 3220
+weight: 3240
 url: /ja/aspose.slides.effects/icolorchange/
 ---
 ## IColorChange インターフェイス
 
-カラー変更エフェクトを表します。FromColor のインスタンスは ToColor のインスタンスに置き換えられます。
+Color Change エフェクトを表します。FromColor のインスタンスは ToColor のインスタンスに置き換えられます。
 
 ```csharp
 public interface IColorChange : IAccessiblePVIObject<IColorChangeEffectiveData>, 
@@ -19,8 +19,8 @@ public interface IColorChange : IAccessiblePVIObject<IColorChangeEffectiveData>,
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/icolorchange/asiaccessiblepviobject) { get; } | ベースの IAccessiblePVIObject インターフェイスを取得できます。読み取り専用 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
-| [AsIImageTransformOperation](../../aspose.slides.effects/icolorchange/asiimagetransformoperation) { get; } | ベースの IImageTransformOperation インターフェイスを取得できます。読み取り専用 [`IImageTransformOperation`](../iimagetransformoperation)。 |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/icolorchange/asiaccessiblepviobject) { get; } | ベース IAccessiblePVIObject インターフェイスを取得できます。読み取り専用 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
+| [AsIImageTransformOperation](../../aspose.slides.effects/icolorchange/asiimagetransformoperation) { get; } | ベース IImageTransformOperation インターフェイスを取得できます。読み取り専用 [`IImageTransformOperation`](../iimagetransformoperation)。 |
 | [FromColor](../../aspose.slides.effects/icolorchange/fromcolor) { get; } | 置き換えられる色。読み取り専用 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
 | [ToColor](../../aspose.slides.effects/icolorchange/tocolor) { get; } | 置き換える色。読み取り専用 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
 

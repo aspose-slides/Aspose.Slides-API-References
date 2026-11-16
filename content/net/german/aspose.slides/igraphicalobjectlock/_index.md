@@ -1,9 +1,9 @@
 ---
 title: IGraphicalObjectLock
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Bestimmt, welche Operationen beim übergeordneten GraphicalObjectEx deaktiviert sind.
+description: Bestimmt, welche Vorgänge im übergeordneten GraphicalObjectEx deaktiviert sind.
 type: docs
-weight: 6070
+weight: 6090
 url: /de/aspose.slides/igraphicalobjectlock/
 ---
 ## IGraphicalObjectLock Schnittstelle
@@ -18,13 +18,13 @@ public interface IGraphicalObjectLock : IBaseShapeLock
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIBaseShapeLock](../../aspose.slides/igraphicalobjectlock/asibaseshapelock) { get; } | Ermöglicht das Abrufen der Basis-IBaseShapeLock-Schnittstelle. Nur lesbar [`IBaseShapeLock`](../ibaseshapelock). |
-| [AspectRatioLocked](../../aspose.slides/igraphicalobjectlock/aspectratiolocked) { get; set; } | Bestimmt, ob das Shape das Seitenverhältnis beim Skalieren beibehalten muss. Lese/Schreib Boolean. |
-| [DrilldownLocked](../../aspose.slides/igraphicalobjectlock/drilldownlocked) { get; set; } | Bestimmt, ob das Auswählen von Untershape dieses Objekts verboten ist. Lese/Schreib Boolean. |
-| [GroupingLocked](../../aspose.slides/igraphicalobjectlock/groupinglocked) { get; set; } | Bestimmt, ob das Hinzufügen dieses Shapes zu einer Gruppe verboten ist. Lese/Schreib Boolean. |
-| [PositionLocked](../../aspose.slides/igraphicalobjectlock/positionlocked) { get; set; } | Bestimmt, ob das Verschieben dieses Shapes verboten ist. Lese/Schreib Boolean. |
-| [SelectLocked](../../aspose.slides/igraphicalobjectlock/selectlocked) { get; set; } | Bestimmt, ob das Auswählen dieses Shapes verboten ist. Lese/Schreib Boolean. |
-| [SizeLocked](../../aspose.slides/igraphicalobjectlock/sizelocked) { get; set; } | Bestimmt, ob das Ändern der Größe dieses Shapes verboten ist. Lese/Schreib Boolean. |
+| [AsIBaseShapeLock](../../aspose.slides/igraphicalobjectlock/asibaseshapelock) { get; } | Ermöglicht das Abrufen der Basisschnittstelle IBaseShapeLock. Nur lesbar [`IBaseShapeLock`](../ibaseshapelock). |
+| [AspectRatioLocked](../../aspose.slides/igraphicalobjectlock/aspectratiolocked) { get; set; } | Bestimmt, ob die Form beim Ändern der Größe das Seitenverhältnis beibehalten muss. Lese/Schreib Boolean. |
+| [DrilldownLocked](../../aspose.slides/igraphicalobjectlock/drilldownlocked) { get; set; } | Bestimmt, ob das Auswählen von Unterformen dieses Objekts verboten ist. Lese/Schreib Boolean. |
+| [GroupingLocked](../../aspose.slides/igraphicalobjectlock/groupinglocked) { get; set; } | Bestimmt, ob das Hinzufügen dieser Form zu einer Gruppe verboten ist. Lese/Schreib Boolean. |
+| [PositionLocked](../../aspose.slides/igraphicalobjectlock/positionlocked) { get; set; } | Bestimmt, ob das Verschieben dieser Form verboten ist. Lese/Schreib Boolean. |
+| [SelectLocked](../../aspose.slides/igraphicalobjectlock/selectlocked) { get; set; } | Bestimmt, ob das Auswählen dieser Form verboten ist. Lese/Schreib Boolean. |
+| [SizeLocked](../../aspose.slides/igraphicalobjectlock/sizelocked) { get; set; } | Bestimmt, ob das Ändern der Größe dieser Form verboten ist. Lese/Schreib Boolean. |
 
 ### Siehe auch
 

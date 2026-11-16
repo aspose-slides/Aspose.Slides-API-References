@@ -1,14 +1,14 @@
 ---
 title: IStringOrDoubleChartValue
 second_title: Aspose.Sildes .NET API referencia
-description: "String vagy double értéket képvisel, amely pptx prezentációs dokumentumban kétféleképpen tárolható: 1) a diagramhoz kapcsolódó munkafüzet celláiban/celláiban, 2) literális értékként."
+description: Képviseli a string vagy double értéket, amely pptx prezentációs dokumentumban két módon tárolható: 1) a diagramhoz kapcsolódó munkafüzet celláiban; 2) literális értékként.
 type: docs
-weight: 2230
+weight: 2250
 url: /hu/aspose.slides.charts/istringordoublechartvalue/
 ---
 ## IStringOrDoubleChartValue interfész
 
-String vagy double értéket képvisel, amely pptx prezentációs dokumentumban két módon tárolható: 1) a diagramhoz kapcsolódó munkafüzet celláiban/celláiban; 2) literális értékként.
+Képviseli a string vagy double értéket, amely pptx prezentációs dokumentumban két módon tárolható: 1) a diagramhoz kapcsolódó munkafüzet celláiban; 2) literális értékként.
 
 ```csharp
 public interface IStringOrDoubleChartValue : ISingleCellChartValue
@@ -18,11 +18,11 @@ public interface IStringOrDoubleChartValue : ISingleCellChartValue
 
 | Név | Leírás |
 | --- | --- |
-| [AsISingleCellChartValue](../../aspose.slides.charts/istringordoublechartvalue/asisinglecellchartvalue) { get; } | Lehetővé teszi az ISingleCellChartValue alap interfész lekérését. Csak olvasható [`ISingleCellChartValue`](../isinglecellchartvalue). |
-| [AsLiteralDouble](../../aspose.slides.charts/istringordoublechartvalue/asliteraldouble) { get; set; } | Visszaadja vagy beállítja a literális double értéket, ha a DataSourceType tulajdonság értéke DataSourceType.DoubleLiterals. Olvasás/írás Double. |
-| [AsLiteralString](../../aspose.slides.charts/istringordoublechartvalue/asliteralstring) { get; set; } | Visszaadja vagy beállítja a literális string értéket, ha a DataSourceType tulajdonság értéke DataSourceType.StringLiterals. Olvasás/írás String. |
+| [AsISingleCellChartValue](../../aspose.slides.charts/istringordoublechartvalue/asisinglecellchartvalue) { get; } | Lehetővé teszi a base ISingleCellChartValue interfész lekérését. Csak olvasható [`ISingleCellChartValue`](../isinglecellchartvalue). |
+| [AsLiteralDouble](../../aspose.slides.charts/istringordoublechartvalue/asliteraldouble) { get; set; } | Visszaadja vagy beállítja a literális double értéket, ha a DataSourceType property értéke DataSourceType.DoubleLiterals. Olvasás/írás Double. |
+| [AsLiteralString](../../aspose.slides.charts/istringordoublechartvalue/asliteralstring) { get; set; } | Visszaadja vagy beállítja a literális string értéket, ha a DataSourceType property értéke DataSourceType.StringLiterals. Olvasás/írás String. |
 
-## Módszerek
+## Metódusok
 
 | Név | Leírás |
 | --- | --- |

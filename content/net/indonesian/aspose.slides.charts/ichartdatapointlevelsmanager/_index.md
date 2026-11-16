@@ -1,14 +1,14 @@
 ---
 title: IChartDataPointLevelsManager
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Kontainer tingkat titik data. Diterapkan untuk seri Treeamp dan Sunburst. Pengindeksan tingkat titik data berbasis nol.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Kontainer level titik data. Diterapkan untuk seri Treeamp dan Sunburst. Pengindeksan level titik data menggunakan basis nol.
 type: docs
-weight: 1850
+weight: 1870
 url: /id/aspose.slides.charts/ichartdatapointlevelsmanager/
 ---
 ## IChartDataPointLevelsManager antarmuka
 
-Kontainer tingkat titik data. Diterapkan untuk seri Treeamp dan Sunburst. Pengindeksan tingkat titik data menggunakan basis nol.
+Kontainer level titik data. Diterapkan untuk seri Treeamp dan Sunburst. Pengindeksan level titik data menggunakan basis nol.
 
 ```csharp
 public interface IChartDataPointLevelsManager
@@ -18,8 +18,8 @@ public interface IChartDataPointLevelsManager
 
 | Nama | Deskripsi |
 | --- | --- |
-| [Count](../../aspose.slides.charts/ichartdatapointlevelsmanager/count) { get; } | Mengembalikan jumlah tingkat titik data. |
-| [Item](../../aspose.slides.charts/ichartdatapointlevelsmanager/item) { get; } | Mengembalikan objek IChartDataPointLevel untuk tingkat yang ditentukan. |
+| [Count](../../aspose.slides.charts/ichartdatapointlevelsmanager/count) { get; } | Mengembalikan jumlah level titik data. |
+| [Item](../../aspose.slides.charts/ichartdatapointlevelsmanager/item) { get; } | Mengembalikan objek IChartDataPointLevel untuk level yang ditentukan. |
 
 ### Lihat Juga
 

@@ -1,9 +1,9 @@
 ---
 title: ImageFormat
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili format berkas gambar.
 type: docs
-weight: 7430
+weight: 7450
 url: /id/aspose.slides/imageformat/
 ---
 ## enumerasi ImageFormat

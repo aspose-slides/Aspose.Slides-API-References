@@ -1,9 +1,9 @@
 ---
 title: Value
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: Value. 읽기 전용 IDoubleChartValueaspose.slides.charts/idoublechartvalue.
+description: 값. 읽기 전용 IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
-weight: 190
+weight: 230
 url: /ko/aspose.slides.charts/chartdatapoint/value/
 ---
 ## ChartDataPoint.Value 속성

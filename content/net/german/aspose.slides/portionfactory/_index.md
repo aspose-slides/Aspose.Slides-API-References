@@ -1,14 +1,14 @@
 ---
 title: PortionFactory
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Ermöglicht das Erstellen von Testportionen
+description: Ermöglicht das Erstellen von Testabschnitten
 type: docs
-weight: 9480
+weight: 9500
 url: /de/aspose.slides/portionfactory/
 ---
 ## PortionFactory Klasse
 
-Ermöglicht das Erstellen von Testportionen
+Ermöglicht das Erstellen von Testabschnitten
 
 ```csharp
 public class PortionFactory : IPortionFactory
@@ -24,9 +24,9 @@ public class PortionFactory : IPortionFactory
 
 | Name | Beschreibung |
 | --- | --- |
-| [CreatePortion](../../aspose.slides/portionfactory/createportion#createportion)() | Erstellt eine leere Textportion. |
-| [CreatePortion](../../aspose.slides/portionfactory/createportion#createportion_1)(IPortion) | Erstellt eine Portion unter Verwendung der angegebenen Portiondaten. |
-| [CreatePortion](../../aspose.slides/portionfactory/createportion#createportion_2)(string) | Erstellt eine Textportion aus dem angegebenen String. |
+| [CreatePortion](../../aspose.slides/portionfactory/createportion#createportion)() | Erstellt einen leeren Textabschnitt. |
+| [CreatePortion](../../aspose.slides/portionfactory/createportion#createportion_1)(IPortion) | Erstellt einen Abschnitt unter Verwendung der angegebenen Abschnittsdaten. |
+| [CreatePortion](../../aspose.slides/portionfactory/createportion#createportion_2)(string) | Erstellt einen Textabschnitt aus einem angegebenen String. |
 
 ### Anmerkungen
 

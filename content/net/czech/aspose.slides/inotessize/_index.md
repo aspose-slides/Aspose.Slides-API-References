@@ -1,14 +1,14 @@
 ---
 title: INotesSize
-second_title: Aspose.Sildes pro .NET API Reference
+second_title: Aspose.Sildes pro .NET – referenční příručka API
 description: Representuje velikost snímku poznámek.
 type: docs
-weight: 6490
+weight: 6510
 url: /cs/aspose.slides/inotessize/
 ---
 ## INotesSize rozhraní
 
-Reprezentuje velikost snímku poznámek.
+Representuje velikost snímku poznámek.
 
 ```csharp
 public interface INotesSize

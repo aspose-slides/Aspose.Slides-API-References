@@ -1,14 +1,14 @@
 ---
 title: RemoveEmbeddedFont
-second_title: Aspose.Sildes 的 .NET API 參考文件
-description: 移除內嵌字型
+second_title: Aspose.Sildes for .NET API 參考
+description: 移除嵌入式字型
 type: docs
-weight: 90
+weight: 100
 url: /zh-hant/aspose.slides/ifontsmanager/removeembeddedfont/
 ---
 ## IFontsManager.RemoveEmbeddedFont 方法
 
-移除內嵌字型
+移除嵌入式字型
 
 ```csharp
 public void RemoveEmbeddedFont(IFontData fontData)
@@ -16,9 +16,9 @@ public void RemoveEmbeddedFont(IFontData fontData)
 
 | 參數 | 類型 | 說明 |
 | --- | --- | --- |
-| fontData | IFontData | 字型資料物件 [`IFontData`](../../ifontdata) |
+| fontData | IFontData | Font data object [`IFontData`](../../ifontdata) |
 
-### 參見
+### 另請參閱
 
 * 介面 [IFontData](../../ifontdata)
 * 介面 [IFontsManager](../../ifontsmanager)

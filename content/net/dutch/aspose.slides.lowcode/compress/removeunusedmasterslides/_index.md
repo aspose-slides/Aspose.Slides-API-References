@@ -1,14 +1,14 @@
 ---
 title: RemoveUnusedMasterSlides
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Maakt compressie van de Presentationaspose.slides/presentation door ongebruikte masterslides te verwijderen.
+description: Maakt compressie van de Presentationaspose.slides/presentation door ongebruikte masterdia's te verwijderen.
 type: docs
-weight: 30
+weight: 50
 url: /nl/aspose.slides.lowcode/compress/removeunusedmasterslides/
 ---
-## Compress.RemoveUnusedMasterSlides methode
+## Compress.RemoveUnusedMasterSlides method
 
-Maakt compressie van de [`Presentation`](../../../aspose.slides/presentation) door ongebruikte masterslides te verwijderen.
+Comprimeert de [`Presentation`](../../../aspose.slides/presentation) door ongebruikte masterdia's te verwijderen.
 
 ```csharp
 public static void RemoveUnusedMasterSlides(Presentation pres)
@@ -16,7 +16,7 @@ public static void RemoveUnusedMasterSlides(Presentation pres)
 
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| pres | Presentation | De presentatie-instantie |
+| pres | Presentation | De Presentation-instantie |
 
 ### Voorbeelden
 

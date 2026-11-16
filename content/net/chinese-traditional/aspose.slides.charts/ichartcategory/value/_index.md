@@ -1,20 +1,20 @@
 ---
 title: Value
 second_title: Aspose.Sildes for .NET API 參考
-description: 如果 UseCell 為 true，則此屬性代表 AsCell.Value 屬性。如果 UseCell 為 false，則此屬性代表 AsLiteral 屬性。可讀寫 Object.
+description: 如果 UseCell 為 true，則此屬性表示 AsCell.Value 屬性。 如果 UseCell 為 false，則此屬性表示 AsLiteral 屬性。 讀/寫 Object.
 type: docs
-weight: 50
+weight: 60
 url: /zh-hant/aspose.slides.charts/ichartcategory/value/
 ---
 ## IChartCategory.Value 屬性
 
-如果 UseCell 為 true，則此屬性代表 AsCell.Value 屬性。如果 UseCell 為 false，則此屬性代表 AsLiteral 屬性。可讀寫 Object。
+如果 UseCell 為 true，則此屬性表示 AsCell.Value 屬性。 如果 UseCell 為 false，則此屬性表示 AsLiteral 屬性。 讀/寫 Object.
 
 ```csharp
 public object Value { get; set; }
 ```
 
-### 參見
+### 另請參閱
 
 * 介面 [IChartCategory](../../ichartcategory)
 * 命名空間 [Aspose.Slides.Charts](../../ichartcategory)

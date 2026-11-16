@@ -3,12 +3,12 @@ title: IImageCollection
 second_title: Aspose.Sildes for .NET API 參考
 description: 表示 PPImage 的集合。
 type: docs
-weight: 6160
+weight: 6180
 url: /zh-hant/aspose.slides/iimagecollection/
 ---
 ## IImageCollection 介面
 
-Represents collection of PPImage.
+表示 PPImage 的集合。
 
 ```csharp
 public interface IImageCollection : IGenericCollection<IPPImage>
@@ -18,21 +18,21 @@ public interface IImageCollection : IGenericCollection<IPPImage>
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Item](../../aspose.slides/iimagecollection/item) { get; } | 根據索引傳回影像。 |
+| [Item](../../aspose.slides/iimagecollection/item) { get; } | 根據其索引返回圖像。 |
 
 ## 方法
 
 | 名稱 | 說明 |
 | --- | --- |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_3)(byte[]) | 從指定的緩衝區將影像加入簡報。 |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage)(IImage) | 將影像加入簡報。 |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_1)(IPPImage) | 從另一個簡報新增影像的副本。 |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_2)(ISvgImage) | 從 SVG 物件將影像加入簡報。 |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_4)(MemoryStream) | 從記憶體串流加入影像。 |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_5)(Stream) | 從串流將影像加入簡報。 |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_6)(Stream, LoadingStreamBehavior) | 從串流建立並將影像加入簡報。 |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_3)(byte[]) | 從指定的緩衝區向簡報新增圖像。 |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage)(IImage) | 向簡報新增圖像。 |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_1)(IPPImage) | 從另一個簡報新增圖像的副本。 |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_2)(ISvgImage) | 從 SVG 物件向簡報新增圖像。 |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_4)(MemoryStream) | 從記憶體流新增圖像。 |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_5)(Stream) | 從串流向簡報新增圖像。 |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_6)(Stream, LoadingStreamBehavior) | 從串流建立並新增圖像至簡報。 |
 
-### 參見
+### 另請參閱
 
 * 介面 [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * 介面 [IPPImage](../ippimage)

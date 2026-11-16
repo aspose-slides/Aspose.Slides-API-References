@@ -1,14 +1,14 @@
 ---
 title: JoinPortionsWithSameFormatting
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Kết hợp các run có cùng định dạng trong tất cả các đoạn văn.
+second_title: Tham khảo API Aspose.Sildes cho .NET
+description: Nối các run có cùng định dạng trong tất cả các đoạn văn.
 type: docs
-weight: 110
+weight: 120
 url: /vi/aspose.slides/textframe/joinportionswithsameformatting/
 ---
 ## TextFrame.JoinPortionsWithSameFormatting phương thức
 
-Kết hợp các run có cùng định dạng trong tất cả các đoạn văn.
+Nối các run có cùng định dạng trong tất cả các đoạn văn.
 
 ```csharp
 public void JoinPortionsWithSameFormatting()

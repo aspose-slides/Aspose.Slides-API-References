@@ -1,9 +1,9 @@
 ---
 title: IAxesManager
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 提供对图表坐标轴的访问。
 type: docs
-weight: 1700
+weight: 1710
 url: /zh/aspose.slides.charts/iaxesmanager/
 ---
 ## IAxesManager 接口
@@ -18,13 +18,13 @@ public interface IAxesManager
 
 | 名称 | 描述 |
 | --- | --- |
-| [HorizontalAxis](../../aspose.slides.charts/iaxesmanager/horizontalaxis) { get; } | 获取图表的水平坐标轴。只读 [`IAxis`](../iaxis). |
-| [SecondaryHorizontalAxis](../../aspose.slides.charts/iaxesmanager/secondaryhorizontalaxis) { get; } | 获取图表的次要水平坐标轴。只读 [`IAxis`](../iaxis). |
-| [SecondaryVerticalAxis](../../aspose.slides.charts/iaxesmanager/secondaryverticalaxis) { get; } | 获取图表的次要垂直坐标轴。只读 [`IAxis`](../iaxis). |
-| [SeriesAxis](../../aspose.slides.charts/iaxesmanager/seriesaxis) { get; } | 获取图表的系列坐标轴。只读 [`IAxis`](../iaxis). |
-| [VerticalAxis](../../aspose.slides.charts/iaxesmanager/verticalaxis) { get; } | 获取图表的垂直坐标轴。只读 [`IAxis`](../iaxis). |
+| [HorizontalAxis](../../aspose.slides.charts/iaxesmanager/horizontalaxis) { get; } | 获取图表的水平轴。只读 [`IAxis`](../iaxis)。 |
+| [SecondaryHorizontalAxis](../../aspose.slides.charts/iaxesmanager/secondaryhorizontalaxis) { get; } | 获取图表的次要水平轴。只读 [`IAxis`](../iaxis)。 |
+| [SecondaryVerticalAxis](../../aspose.slides.charts/iaxesmanager/secondaryverticalaxis) { get; } | 获取图表的次要垂直轴。只读 [`IAxis`](../iaxis)。 |
+| [SeriesAxis](../../aspose.slides.charts/iaxesmanager/seriesaxis) { get; } | 获取图表的系列轴。只读 [`IAxis`](../iaxis)。 |
+| [VerticalAxis](../../aspose.slides.charts/iaxesmanager/verticalaxis) { get; } | 获取图表的垂直轴。只读 [`IAxis`](../iaxis)。 |
 
-### 另请参见
+### 另请参阅
 
 * 命名空间 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 程序集 [Aspose.Slides](../../)

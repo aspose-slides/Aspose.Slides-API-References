@@ -3,7 +3,7 @@ title: MathDelimiterShape
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Der Ort und die Größe der Trennzeichen relativ zum Inhalt der Operanden
 type: docs
-weight: 8670
+weight: 8690
 url: /de/aspose.slides.mathtext/mathdelimitershape/
 ---
 ## MathDelimiterShape Aufzählung
@@ -18,8 +18,8 @@ public enum MathDelimiterShape
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| Zentriert | `0` | Zentriert zur mathematischen Achse |
-| Übereinstimmung | `1` | Übereinstimmung mit dem Inhalt |
+| Centered | `0` | Zentriert zur mathematischen Achse |
+| Match | `1` | An Inhalt anpassen |
 
 ### Siehe auch
 

@@ -1,14 +1,14 @@
 ---
 title: IDataLabel
 second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje popisky řady.
+description: Představuje popisky řady.
 type: docs
-weight: 2020
+weight: 2040
 url: /cs/aspose.slides.charts/idatalabel/
 ---
 ## IDataLabel rozhraní
 
-Reprezentuje popisky řady.
+Představuje popisky řady.
 
 ```csharp
 public interface IDataLabel : IActualLayout, ILayoutable, IOverridableText
@@ -22,15 +22,16 @@ public interface IDataLabel : IActualLayout, ILayoutable, IOverridableText
 | [AsILayoutable](../../aspose.slides.charts/idatalabel/asilayoutable) { get; } | Vrací rozhraní ILayoutable. Pouze pro čtení [`ILayoutable`](../ilayoutable). |
 | [AsIOverridableText](../../aspose.slides.charts/idatalabel/asioverridabletext) { get; } | Vrací rozhraní IOverridableText. Pouze pro čtení [`IOverridableText`](../ioverridabletext). |
 | [DataLabelFormat](../../aspose.slides.charts/idatalabel/datalabelformat) { get; } | Vrací formát popisku dat. Pouze pro čtení [`IDataLabelFormat`](../idatalabelformat). |
-| [IsVisible](../../aspose.slides.charts/idatalabel/isvisible) { get; } | Hodnota false znamená, že popisek dat není viditelný (a proto jsou všechna příznaky Show* (ShowValue, ...) také false). Pouze pro čtení Boolean. |
-| [ValueFromCell](../../aspose.slides.charts/idatalabel/valuefromcell) { get; set; } | Získá nebo nastaví buňku dat sešitu. Použije se, pokud je vlastnost IDataLabelFormat.ShowLabelValueFromCell nastavena na true. |
+| [IsVisible](../../aspose.slides.charts/idatalabel/isvisible) { get; } | False znamená, že popisek dat není viditelný (a tak všechny příznaky Show*-flags (ShowValue, ...) jsou false). Pouze pro čtení Boolean. |
+| [LabelShapeType](../../aspose.slides.charts/idatalabel/labelshapetype) { get; set; } | Získá nebo nastaví typ tvaru popisku dat. Vrací NotDefined, pokud není tvar definován. |
+| [ValueFromCell](../../aspose.slides.charts/idatalabel/valuefromcell) { get; set; } | Získá nebo nastaví buňku dat sešitu. Použije se, pokud je vlastnost IDataLabelFormat.ShowLabelValueFromCell true. |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
 | [GetActualLabelText](../../aspose.slides.charts/idatalabel/getactuallabeltext)() | Vrací aktuální text popisku na základě nastavení DataLabelFormat nebo hodnoty TextFrameForOverriding.Text. |
-| [Hide](../../aspose.slides.charts/idatalabel/hide)() | Skryje popisek dat nastavením všech příznaků Show* (ShowValue, ...) na false. IsVisible bude po tomto nastavení false. |
+| [Hide](../../aspose.slides.charts/idatalabel/hide)() | Skryje popisek dat nastavením všech příznaků Show*-flags (ShowValue, ...) do stavu false. IsVisible bude po tomto nastavení false. |
 
 ### Viz také
 

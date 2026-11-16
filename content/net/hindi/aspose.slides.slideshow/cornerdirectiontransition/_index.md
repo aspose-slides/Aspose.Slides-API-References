@@ -1,31 +1,31 @@
 ---
 title: CornerDirectionTransition
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: कोर्नर दिशा स्लाइड संक्रमण प्रभाव।
+second_title: Aspose.Sildes .NET के लिए API संदर्भ
+description: कोर्नर दिशा स्लाइड ट्रांज़िशन प्रभाव।
 type: docs
-weight: 10010
+weight: 10030
 url: /hi/aspose.slides.slideshow/cornerdirectiontransition/
 ---
 ## CornerDirectionTransition क्लास
 
-कोर्नर दिशा स्लाइड संक्रमण प्रभाव।
+कोर्नर दिशा स्लाइड ट्रांज़िशन प्रभाव।
 
 ```csharp
 public class CornerDirectionTransition : TransitionValueBase, ICornerDirectionTransition
 ```
 
-## गुणधर्म
+## गुण
 
 | नाम | विवरण |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/cornerdirectiontransition/direction) { get; set; } | संक्रमण की दिशा। पढ़ें/लिखें [`TransitionCornerDirectionType`](../transitioncornerdirectiontype)। |
+| [Direction](../../aspose.slides.slideshow/cornerdirectiontransition/direction) { get; set; } | ट्रांज़िशन की दिशा। पढ़ें/लिखें [`TransitionCornerDirectionType`](../transitioncornerdirectiontype)। |
 
 ## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | निर्धारित करता है कि दो TransitionValueBase इंस्टैंस समान हैं या नहीं। |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | एक विशेष प्रकार के लिए हैश फ़ंक्शन के रूप में कार्य करता है, जो हैशिंग एल्गोरिदम और हैश तालिका जैसी डेटा संरचनाओं में उपयोग के लिए उपयुक्त है। |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | किसी विशेष प्रकार के लिए हैश फ़ंक्शन के रूप में कार्य करता है, हैशिंग एल्गोरिदम और हैश टेबल जैसे डेटा संरचनाओं में उपयोग के लिए उपयुक्त। |
 
 ### देखें भी
 

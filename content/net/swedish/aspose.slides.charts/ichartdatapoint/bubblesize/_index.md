@@ -1,14 +1,14 @@
 ---
 title: BubbleSize
 second_title: Aspose.Sildes för .NET API-referens
-description: Returnerar bubbelförstoringen för diagramdatapunkten. Skrivskyddad IDoubleChartValueaspose.slides.charts/idoublechartvalue.
+description: Hämtar bubbelstorleken för ett diagramdatapunkt. Skrivskyddad IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
 weight: 20
 url: /sv/aspose.slides.charts/ichartdatapoint/bubblesize/
 ---
 ## IChartDataPoint.BubbleSize egenskap
 
-Returnerar bubbelförstoringen för diagramdatapunkten. Skrivskyddad [`IDoubleChartValue`](../../idoublechartvalue).
+Hämtar bubbelstorleken för ett diagramdatapunkt. Skrivskyddad [`IDoubleChartValue`](../../idoublechartvalue).
 
 ```csharp
 public IDoubleChartValue BubbleSize { get; }

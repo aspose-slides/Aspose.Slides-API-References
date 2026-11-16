@@ -1,14 +1,14 @@
 ---
 title: InkTrace
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงออบเจกต์ Trace. องค์ประกอบ Trace ถูกใช้เพื่อบันทึกข้อมูลที่ดิจิตาไลเซอร์จับได้. มันมีลำดับของจุดที่เข้ารหัสตามสเปคที่กำหนดโดยออบเจกต์ InkTraceFormat
+second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
+description: เป็นอ็อบเจ็กต์ Trace. อิลเมนต์ Trace ใช้เพื่อบันทึกข้อมูลที่จับโดยดิจิไทเซอร์. มีลำดับของจุดที่เข้ารหัสตามสเปคที่กำหนดโดยอ็อบเจ็กต์ InkTraceFormat.
 type: docs
-weight: 7590
+weight: 7610
 url: /th/aspose.slides.ink/inktrace/
 ---
 ## InkTrace คลาส
 
-เป็นตัวแทนของออบเจกต์ Trace. องค์ประกอบ Trace ถูกใช้เพื่อบันทึกข้อมูลที่จับโดยดิจิตไลเซอร์. มันมีลำดับของจุดที่ถูกเข้ารหัสตามสเปกที่กำหนดโดยออบเจกต์ InkTraceFormat
+เป็นอ็อบเจ็กต์ Trace. อิลเมนต์ Trace ใช้เพื่อบันทึกข้อมูลที่จับโดยดิจิไทเซอร์. มีลำดับของจุดที่เข้ารหัสตามสเปคที่กำหนดโดยอ็อบเจ็กต์ InkTraceFormat.
 
 ```csharp
 public class InkTrace : IInkTrace
@@ -16,10 +16,10 @@ public class InkTrace : IInkTrace
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [Brush](../../aspose.slides.ink/inktrace/brush) { get; } | ดึงค่า Brush สำหรับ IInkLine [`IInkBrush`](../iinkbrush) อ่านอย่างเดียว. |
-| [Points](../../aspose.slides.ink/inktrace/points) { get; } | ดึงค่าจุดสำหรับ IInkLine PointF อ่านอย่างเดียว. |
+| [Brush](../../aspose.slides.ink/inktrace/brush) { get; } | ดึง Brush สำหรับ IInkLine [`IInkBrush`](../iinkbrush) แบบอ่านอย่างเดียว. |
+| [Points](../../aspose.slides.ink/inktrace/points) { get; } | ดึง จุด สำหรับ IInkLine PointF แบบอ่านอย่างเดียว. |
 
 ### ดูเพิ่มเติม
 

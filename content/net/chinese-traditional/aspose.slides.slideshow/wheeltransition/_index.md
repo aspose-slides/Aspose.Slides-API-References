@@ -1,14 +1,14 @@
 ---
 title: WheelTransition
-second_title: Aspose.Sildes for .NET API 參考
-description: 輪子滑動轉場效果。
+second_title: Aspose.Sildes .NET API 參考
+description: 滑輪滑動過渡效果。
 type: docs
-weight: 10470
+weight: 10490
 url: /zh-hant/aspose.slides.slideshow/wheeltransition/
 ---
 ## WheelTransition 類別
 
-輪子滑動轉場效果。
+滑輪滑動過渡效果。
 
 ```csharp
 public class WheelTransition : TransitionValueBase, IWheelTransition
@@ -18,16 +18,16 @@ public class WheelTransition : TransitionValueBase, IWheelTransition
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Spokes](../../aspose.slides.slideshow/wheeltransition/spokes) { get; set; } | 輪轉換的輻條數量。可讀寫 UInt32。 |
+| [Spokes](../../aspose.slides.slideshow/wheeltransition/spokes) { get; set; } | 輪轉過渡的輻條數量。讀/寫 UInt32。 |
 
 ## 方法
 
 | 名稱 | 說明 |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 判斷兩個 TransitionValueBase 實例是否相等。 |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 作為特定類型的雜湊函式，可用於雜湊演算法和類似雜湊表的資料結構。 |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 作為特定類型的雜湊函式，適用於雜湊演算法和類似雜湊表的資料結構。 |
 
-### 另請參閱
+### 另見
 
 * 類別 [TransitionValueBase](../transitionvaluebase)
 * 介面 [IWheelTransition](../iwheeltransition)

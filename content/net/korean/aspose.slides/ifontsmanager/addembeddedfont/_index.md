@@ -1,20 +1,20 @@
 ---
 title: AddEmbeddedFont
-second_title: Aspose.Sildes for .NET API 참조
-description: 임베디드 폰트를 추가합니다. 대부분의 폰트는 저작권이 있으므로 복사할 때 이를 유념하십시오. 먼저 폰트의 라이선스를 확인하고 다른 컴퓨터로 자유롭게 전송할 수 있는지 검증해야 합니다. 폰트 데이터가 null이거나 이미 임베디드된 경우 ArgumentException이 발생할 수 있습니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 임베디드 폰트를 추가합니다. 폰트를 복사할 때 대부분의 폰트는 저작권이 있음을 명심하십시오. 먼저 폰트의 라이선스를 확인하고 해당 폰트를 다른 컴퓨터로 자유롭게 전송할 수 있는지 확인하십시오. 폰트 데이터가 null이거나 이미 해당 폰트가 임베디드된 경우 ArgumentException이 발생할 수 있습니다.
 type: docs
-weight: 30
+weight: 40
 url: /ko/aspose.slides/ifontsmanager/addembeddedfont/
 ---
 ## AddEmbeddedFont(IFontData, EmbedFontCharacters) {#addembeddedfont}
 
-임베디드 폰트를 추가합니다. 대부분의 폰트는 저작권이 보호되어 있음을 유념하십시오. 먼저 폰트의 라이선스를 확인하고 다른 컴퓨터로 자유롭게 전송할 수 있는지 확인해야 합니다. 폰트 데이터가 null이거나 이미 임베디드된 경우 ArgumentException이 발생할 수 있습니다.
+임베디드 폰트를 추가합니다. 폰트를 복사할 때 대부분의 폰트는 저작권이 있음을 명심하십시오. 먼저 폰트의 라이선스를 확인하고 해당 폰트를 다른 컴퓨터로 자유롭게 전송할 수 있는지 확인하십시오. 폰트 데이터가 null이거나 이미 해당 폰트가 임베디드된 경우 ArgumentException이 발생할 수 있습니다.
 
 ```csharp
 public void AddEmbeddedFont(IFontData fontData, EmbedFontCharacters embedFontRule)
 ```
 
-| 매개변수 | 형식 | 설명 |
+| 매개변수 | 유형 | 설명 |
 | --- | --- | --- |
 | fontData | IFontData | 폰트 데이터 객체 [`IFontData`](../../ifontdata) |
 | embedFontRule | EmbedFontCharacters | 임베디드 폰트 규칙 [`EmbedFontCharacters`](../../../aspose.slides.export/embedfontcharacters) |
@@ -31,13 +31,13 @@ public void AddEmbeddedFont(IFontData fontData, EmbedFontCharacters embedFontRul
 
 ## AddEmbeddedFont(byte[], EmbedFontCharacters) {#addembeddedfont_1}
 
-임베디드 폰트를 추가합니다. 폰트를 추가할 때 대부분의 폰트는 저작권이 보호되어 있음을 유념하십시오. 먼저 폰트의 라이선스를 확인하고 다른 컴퓨터로 자유롭게 전송할 수 있는지 확인해야 합니다. 폰트 데이터가 null이거나 이미 임베디드된 경우 ArgumentException이 발생할 수 있습니다.
+임베디드 폰트를 추가합니다. 폰트를 추가할 때 대부분의 폰트는 저작권이 있음을 명심하십시오. 먼저 폰트의 라이선스를 확인하고 해당 폰트를 다른 컴퓨터로 자유롭게 전송할 수 있는지 확인하십시오. 폰트 데이터가 null이거나 이미 해당 폰트가 임베디드된 경우 ArgumentException이 발생할 수 있습니다.
 
 ```csharp
 public void AddEmbeddedFont(byte[] fontData, EmbedFontCharacters embedFontRule)
 ```
 
-| 매개변수 | 형식 | 설명 |
+| 매개변수 | 유형 | 설명 |
 | --- | --- | --- |
 | fontData | Byte[] | 폰트 데이터 Byte[] |
 | embedFontRule | EmbedFontCharacters | 임베디드 폰트 규칙 [`EmbedFontCharacters`](../../../aspose.slides.export/embedfontcharacters) |

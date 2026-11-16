@@ -1,12 +1,12 @@
 ---
 title: PatternStyle
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Aspose.Sildes для .NET справочник API
 description: Представляет стиль узора.
 type: docs
-weight: 9360
+weight: 9380
 url: /ru/aspose.slides/patternstyle/
 ---
-## PatternStyle перечисление
+## Перечисление PatternStyle
 
 Представляет стиль узора.
 

@@ -1,14 +1,14 @@
 ---
 title: GradientStop
-second_title: Aspose.Sildes .NET API referenciája
-description: Színátmenet formátumot reprezentál.
+second_title: Aspose.Sildes a .NET API referencia
+description: Gradient formátumot képvisel.
 type: docs
-weight: 5020
+weight: 5040
 url: /hu/aspose.slides/gradientstop/
 ---
 ## GradientStop osztály
 
-A színátmenet formátumát reprezentálja.
+A gradient formátumot ábrázolja.
 
 ```csharp
 public sealed class GradientStop : PVIObject, IGradientStop
@@ -16,20 +16,20 @@ public sealed class GradientStop : PVIObject, IGradientStop
 
 ## Tulajdonságok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Lehetővé teszi az alap IPresentationComponent interfész lekérését. Csak olvasható [`IPresentationComponent`](../ipresentationcomponent). |
-| [Color](../../aspose.slides/gradientstop/color) { get; } | Visszaadja a színátmenet állomás színét. Csak olvasható [`IColorFormat`](../icolorformat). |
-| [Position](../../aspose.slides/gradientstop/position) { get; set; } | Visszaadja vagy beállítja a színátmenet állomás pozícióját (0..1). Olvasás/írás Single. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Lehetővé teszi az alap IPresentationComponent interfész lekérdezését. Csak olvasható [`IPresentationComponent`](../ipresentationcomponent). |
+| [Color](../../aspose.slides/gradientstop/color) { get; } | Visszaadja a gradientállomás színét. Csak olvasható [`IColorFormat`](../icolorformat). |
+| [Position](../../aspose.slides/gradientstop/position) { get; set; } | Visszaadja vagy beállítja a gradientállomás helyzetét (0..1). Olvasás/írás Single. |
 
-## Metódusok
+## Módszerek
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Összehasonlítja a megadott objektummal. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Visszaadja a hash kódot. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Visszaadja a hash-kódot. |
 
-### Kapcsolódó
+### Lásd még
 
 * osztály [PVIObject](../pviobject)
 * interfész [IGradientStop](../igradientstop)

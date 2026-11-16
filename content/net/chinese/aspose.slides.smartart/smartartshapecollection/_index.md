@@ -3,7 +3,7 @@ title: SmartArtShapeCollection
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示 SmartArt 形状的集合
 type: docs
-weight: 10670
+weight: 10690
 url: /zh/aspose.slides.smartart/smartartshapecollection/
 ---
 ## SmartArtShapeCollection 类
@@ -28,9 +28,9 @@ public class SmartArtShapeCollection : ISmartArtShapeCollection
 | 名称 | 描述 |
 | --- | --- |
 | [CopyTo](../../aspose.slides.smartart/smartartshapecollection/copyto)(Array, int) | 将集合中的所有元素复制到指定的数组。 |
-| [GetEnumerator](../../aspose.slides.smartart/smartartshapecollection/getenumerator)() | 返回一个遍历集合的枚举器。 |
+| [GetEnumerator](../../aspose.slides.smartart/smartartshapecollection/getenumerator)() | 返回一个枚举器，用于遍历集合。 |
 
-### 另请参见
+### 另见
 
 * 接口 [ISmartArtShapeCollection](../ismartartshapecollection)
 * 命名空间 [Aspose.Slides.SmartArt](../../aspose.slides.smartart)

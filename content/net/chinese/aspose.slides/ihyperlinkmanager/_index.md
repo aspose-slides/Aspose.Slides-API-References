@@ -1,9 +1,9 @@
 ---
 title: IHyperlinkManager
 second_title: Aspose.Sildes .NET API 参考
-description: 提供超链接管理，包括添加和删除。
+description: 提供超链接管理（添加、删除）。
 type: docs
-weight: 6130
+weight: 6150
 url: /zh/aspose.slides/ihyperlinkmanager/
 ---
 ## IHyperlinkManager 接口
@@ -18,15 +18,15 @@ public interface IHyperlinkManager
 
 | 名称 | 描述 |
 | --- | --- |
-| [RemoveHyperlinkClick](../../aspose.slides/ihyperlinkmanager/removehyperlinkclick)() | 在点击时移除超链接。 |
+| [RemoveHyperlinkClick](../../aspose.slides/ihyperlinkmanager/removehyperlinkclick)() | 在单击时移除超链接。 |
 | [RemoveHyperlinkMouseOver](../../aspose.slides/ihyperlinkmanager/removehyperlinkmouseover)() | 在鼠标悬停时移除超链接。 |
-| [SetExternalHyperlinkClick](../../aspose.slides/ihyperlinkmanager/setexternalhyperlinkclick)(string) | 在点击时设置外部超链接。 |
+| [SetExternalHyperlinkClick](../../aspose.slides/ihyperlinkmanager/setexternalhyperlinkclick)(string) | 在单击时设置外部超链接。 |
 | [SetExternalHyperlinkMouseOver](../../aspose.slides/ihyperlinkmanager/setexternalhyperlinkmouseover)(string) | 在鼠标悬停时设置外部超链接。 |
-| [SetInternalHyperlinkClick](../../aspose.slides/ihyperlinkmanager/setinternalhyperlinkclick)(ISlide) | 在点击时设置内部超链接。 |
+| [SetInternalHyperlinkClick](../../aspose.slides/ihyperlinkmanager/setinternalhyperlinkclick)(ISlide) | 在单击时设置内部超链接。 |
 | [SetInternalHyperlinkMouseOver](../../aspose.slides/ihyperlinkmanager/setinternalhyperlinkmouseover)(ISlide) | 在鼠标悬停时设置内部超链接。 |
-| [SetMacroHyperlinkClick](../../aspose.slides/ihyperlinkmanager/setmacrohyperlinkclick)(string) | 在点击时设置宏超链接。 |
+| [SetMacroHyperlinkClick](../../aspose.slides/ihyperlinkmanager/setmacrohyperlinkclick)(string) | 在单击时设置宏超链接。 |
 
-### 另请参见
+### 另请参阅
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

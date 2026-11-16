@@ -1,14 +1,14 @@
 ---
 title: IPictureFillFormatEffectiveData
-second_title: Aspose.Sildes .NET API referencia
-description: Módosíthatatlan objektum, amely a kép kitöltésének tulajdonságait tartalmazza.
+second_title: Aspose.Sildes .NET API Referencia
+description: Változtathatatlan objektum, amely a kép kitöltésének tulajdonságait tartalmazza.
 type: docs
-weight: 6660
+weight: 6680
 url: /hu/aspose.slides/ipicturefillformateffectivedata/
 ---
 ## IPictureFillFormatEffectiveData interfész
 
-Nem módosítható objektum, amely a kép kitöltésének tulajdonságait tartalmazza.
+Egy immutable objektum, amely a kép kitöltésének tulajdonságait tartalmazza.
 
 ```csharp
 public interface IPictureFillFormatEffectiveData : IFillParamSource
@@ -18,14 +18,14 @@ public interface IPictureFillFormatEffectiveData : IFillParamSource
 
 | Név | Leírás |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/ipicturefillformateffectivedata/asifillparamsource) { get; } | Lehetővé teszi a base IFillParamSource interfész lekérdezését. Csak olvasható [`IFillParamSource`](../ifillparamsource). |
-| [CropBottom](../../aspose.slides/ipicturefillformateffectivedata/cropbottom) { get; } | Visszaadja a valós képmagasság százalékos arányát, amely a kép aljáról le van vágva. Csak olvasható Single. |
-| [CropLeft](../../aspose.slides/ipicturefillformateffectivedata/cropleft) { get; } | Visszaadja a valós képszélesség százalékos arányát, amely a kép bal oldaláról le van vágva. Csak olvasható Single. |
-| [CropRight](../../aspose.slides/ipicturefillformateffectivedata/cropright) { get; } | Visszaadja a valós képszélesség százalékos arányát, amely a kép jobb oldaláról le van vágva. Csak olvasható Single. |
-| [CropTop](../../aspose.slides/ipicturefillformateffectivedata/croptop) { get; } | Visszaadja a valós képmagasság százalékos arányát, amely a kép tetejéről le van vágva. Csak olvasható Single. |
-| [Dpi](../../aspose.slides/ipicturefillformateffectivedata/dpi) { get; } | Visszaadja a képet kitöltéséhez használt DPI értéket. Csak olvasható Int32. |
+| [AsIFillParamSource](../../aspose.slides/ipicturefillformateffectivedata/asifillparamsource) { get; } | Lehetővé teszi az alap IFillParamSource interfész lekérését. Csak olvasható [`IFillParamSource`](../ifillparamsource). |
+| [CropBottom](../../aspose.slides/ipicturefillformateffectivedata/cropbottom) { get; } | Visszaadja a valós képmagasság százalékos arányát, amely a kép aljáról van levágva. Csak olvasható Single. |
+| [CropLeft](../../aspose.slides/ipicturefillformateffectivedata/cropleft) { get; } | Visszaadja a valós kép szélesség százalékos arányát, amely a kép bal oldaláról van levágva. Csak olvasható Single. |
+| [CropRight](../../aspose.slides/ipicturefillformateffectivedata/cropright) { get; } | Visszaadja a valós kép szélesség százalékos arányát, amely a kép jobb oldaláról van levágva. Csak olvasható Single. |
+| [CropTop](../../aspose.slides/ipicturefillformateffectivedata/croptop) { get; } | Visszaadja a valós képmagasság százalékos arányát, amely a kép tetejéről van levágva. Csak olvasható Single. |
+| [Dpi](../../aspose.slides/ipicturefillformateffectivedata/dpi) { get; } | Visszaadja a képet kitöltéshez használt dpi értéket. Csak olvasható Int32. |
 | [Picture](../../aspose.slides/ipicturefillformateffectivedata/picture) { get; } | Visszaadja a képet. Csak olvasható [`IPictureEffectiveData`](../ipictureeffectivedata). |
-| [PictureFillMode](../../aspose.slides/ipicturefillformateffectivedata/picturefillmode) { get; } | Visszaadja a képkitöltés módját. Csak olvasható [`PictureFillMode`](../picturefillmode). |
+| [PictureFillMode](../../aspose.slides/ipicturefillformateffectivedata/picturefillmode) { get; } | Visszaadja a kép kitöltés módját. Csak olvasható [`PictureFillMode`](../picturefillmode). |
 
 ### Megjegyzés
 

@@ -1,14 +1,14 @@
 ---
 title: IGraphicalObjectLock
 second_title: Aspose.Sildes för .NET API-referens
-description: Bestämmer vilka operationer som är inaktiverade på föräldern GraphicalObjectEx.
+description: Bestämmer vilka operationer som är inaktiverade på den överordnade GraphicalObjectEx.
 type: docs
-weight: 6070
+weight: 6090
 url: /sv/aspose.slides/igraphicalobjectlock/
 ---
 ## IGraphicalObjectLock gränssnitt
 
-Bestämmer vilka operationer som är inaktiverade på föräldern GraphicalObjectEx.
+Bestämmer vilka operationer som är inaktiverade på den överordnade GraphicalObjectEx.
 
 ```csharp
 public interface IGraphicalObjectLock : IBaseShapeLock
@@ -18,15 +18,15 @@ public interface IGraphicalObjectLock : IBaseShapeLock
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIBaseShapeLock](../../aspose.slides/igraphicalobjectlock/asibaseshapelock) { get; } | Tillåter att hämta bas IBaseShapeLock gränssnitt. Endast läsning [`IBaseShapeLock`](../ibaseshapelock). |
+| [AsIBaseShapeLock](../../aspose.slides/igraphicalobjectlock/asibaseshapelock) { get; } | Tillåter att hämta bas-IBaseShapeLock-gränssnittet. Skrivskyddad [`IBaseShapeLock`](../ibaseshapelock). |
 | [AspectRatioLocked](../../aspose.slides/igraphicalobjectlock/aspectratiolocked) { get; set; } | Bestämmer om formen måste bevara bildförhållandet vid storleksändring. Läs/skriv Boolean. |
 | [DrilldownLocked](../../aspose.slides/igraphicalobjectlock/drilldownlocked) { get; set; } | Bestämmer om val av delformer av detta objekt är förbjudet. Läs/skriv Boolean. |
-| [GroupingLocked](../../aspose.slides/igraphicalobjectlock/groupinglocked) { get; set; } | Bestämmer om det är förbjudet att lägga till denna form i en grupp. Läs/skriv Boolean. |
-| [PositionLocked](../../aspose.slides/igraphicalobjectlock/positionlocked) { get; set; } | Bestämmer om det är förbjudet att flytta denna form. Läs/skriv Boolean. |
-| [SelectLocked](../../aspose.slides/igraphicalobjectlock/selectlocked) { get; set; } | Bestämmer om det är förbjudet att välja denna form. Läs/skriv Boolean. |
-| [SizeLocked](../../aspose.slides/igraphicalobjectlock/sizelocked) { get; set; } | Bestämmer om det är förbjudet att ändra storlek på denna form. Läs/skriv Boolean. |
+| [GroupingLocked](../../aspose.slides/igraphicalobjectlock/groupinglocked) { get; set; } | Bestämmer om tillägg av denna form till en grupp är förbjudet. Läs/skriv Boolean. |
+| [PositionLocked](../../aspose.slides/igraphicalobjectlock/positionlocked) { get; set; } | Bestämmer om flytt av denna form är förbjudet. Läs/skriv Boolean. |
+| [SelectLocked](../../aspose.slides/igraphicalobjectlock/selectlocked) { get; set; } | Bestämmer om val av denna form är förbjudet. Läs/skriv Boolean. |
+| [SizeLocked](../../aspose.slides/igraphicalobjectlock/sizelocked) { get; set; } | Bestämmer om storleksändring av denna form är förbjudet. Läs/skriv Boolean. |
 
-### Se även
+### Se också
 
 * gränssnitt [IBaseShapeLock](../ibaseshapelock)
 * namnrymd [Aspose.Slides](../../aspose.slides)

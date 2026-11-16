@@ -1,14 +1,14 @@
 ---
 title: Compress
-second_title: Aspose.Sildes for .NET API Referansı
-description: Presentation../aspose.slides/presentation'ı sıkıştırmak için tasarlanmış bir grup yöntemi temsil eder.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Presentation../aspose.slides/presentation'ı sıkıştırmak amacıyla tasarlanmış bir grup yöntemi temsil eder.
 type: docs
-weight: 7870
+weight: 7890
 url: /tr/aspose.slides.lowcode/compress/
 ---
-## Compress sınıf
+## Compress sınıfı
 
-Belirtilen [`Presentation`](../../aspose.slides/presentation)'ı sıkıştırmak için tasarlanmış bir grup yöntemi temsil eder.
+[`Presentation`](../../aspose.slides/presentation)'i sıkıştırmak için tasarlanmış bir grup yöntemi temsil eder.
 
 ```csharp
 public static class Compress
@@ -18,9 +18,11 @@ public static class Compress
 
 | Ad | Açıklama |
 | --- | --- |
-| static [CompressEmbeddedFonts](../../aspose.slides.lowcode/compress/compressembeddedfonts)(Presentation) | Gömülü yazı tiplerinden kullanılmayan karakterleri kaldırarak [`Presentation`](../../aspose.slides/presentation)'ın sıkıştırılmasını sağlar. |
-| static [RemoveUnusedLayoutSlides](../../aspose.slides.lowcode/compress/removeunusedlayoutslides)(Presentation) | Kullanılmayan düzen slaytlarını kaldırarak [`Presentation`](../../aspose.slides/presentation)'ın sıkıştırılmasını sağlar. |
-| static [RemoveUnusedMasterSlides](../../aspose.slides.lowcode/compress/removeunusedmasterslides)(Presentation) | Kullanılmayan ana slaytları kaldırarak [`Presentation`](../../aspose.slides/presentation)'ın sıkıştırılmasını sağlar. |
+| static [CompressEmbeddedFonts](../../aspose.slides.lowcode/compress/compressembeddedfonts)(Presentation) | [`Presentation`](../../aspose.slides/presentation)'in sıkıştırılmasını gömülü yazı tiplerinden kullanılmayan karakterleri kaldırarak yapar. |
+| static [CompressImages](../../aspose.slides.lowcode/compress/compressimages)(IPresentation, PicturesCompression) | Sunumdaki resimlerin çözünürlüğünü düşürür ve kırpılmış alanlarını siler, PowerPoint'in tüm resimlere uygulanan "Compress Pictures" özelliğine benzer. Slaytlar, şablon slaytlar ve ana slaytlardaki resimler işlenir, grup şekiller içindeki resimler ve şekillerin resim doldurmaları dahil. |
+| static [CompressPresentation](../../aspose.slides.lowcode/compress/compresspresentation)(Presentation) | Sunumun boyutunu mevcut tüm sıkıştırma adımlarını uygulayarak küçültür: |
+| static [RemoveUnusedLayoutSlides](../../aspose.slides.lowcode/compress/removeunusedlayoutslides)(Presentation) | [`Presentation`](../../aspose.slides/presentation)'in sıkıştırılmasını kullanılmayan yerleşim slaytlarını kaldırarak gerçekleştirir. |
+| static [RemoveUnusedMasterSlides](../../aspose.slides.lowcode/compress/removeunusedmasterslides)(Presentation) | [`Presentation`](../../aspose.slides/presentation)'in sıkıştırılmasını kullanılmayan ana slaytları kaldırarak gerçekleştirir. |
 
 ### Örnekler
 
@@ -33,7 +35,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Ayrıca Bakınız
+### Bkz
 
 * ad alanı [Aspose.Slides.LowCode](../../aspose.slides.lowcode)
 * derleme [Aspose.Slides](../../)

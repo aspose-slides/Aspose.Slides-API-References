@@ -1,14 +1,14 @@
 ---
 title: TransitionCornerDirectionType
 second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Reprezentuje typy przejść w kierunku narożnika.
+description: Reprezentuje typy przejść kierunku narożnika.
 type: docs
-weight: 10350
+weight: 10370
 url: /pl/aspose.slides.slideshow/transitioncornerdirectiontype/
 ---
-## TransitionCornerDirectionType – wyliczenie
+## Wyliczenie TransitionCornerDirectionType
 
-Reprezentuje typy przejść w kierunku narożnika.
+Reprezentuje typy przejść kierunku narożnika.
 
 ```csharp
 public enum TransitionCornerDirectionType

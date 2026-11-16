@@ -1,14 +1,14 @@
 ---
 title: IAudio
-second_title: Aspose.Slides pro .NET API Reference
-description: Reprezentuje vložený zvukový soubor.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Representuje vložený audio soubor.
 type: docs
-weight: 5210
+weight: 5230
 url: /cs/aspose.slides/iaudio/
 ---
 ## IAudio rozhraní
 
-Reprezentuje vložený zvukový soubor.
+Representuje vložený audio soubor.
 
 ```csharp
 public interface IAudio
@@ -16,16 +16,16 @@ public interface IAudio
 
 ## Vlastnosti
 
-| Name | Description |
+| Název | Popis |
 | --- | --- |
-| [BinaryData](../../aspose.slides/iaudio/binarydata) { get; } | Vrací kopii dat zvuku. V případě velkého objemu dat zvažte použití metody [`GetStream`](./getstream) k zamezení zbytečného načítání dat zvuku do paměti nebo dokonce výjimky OutOfMemoryException. Pouze pro čtení Byte[]. |
-| [ContentType](../../aspose.slides/iaudio/contenttype) { get; } | Vrací MIME typ zvuku, kódovaný v [`BinaryData`](./binarydata). Pouze pro čtení String. |
+| [BinaryData](../../aspose.slides/iaudio/binarydata) { get; } | Vrací kopii dat audio souboru. V případě velkého množství dat zvažte použití metody [`GetStream`](./getstream) k zabránění zbytečného načítání dat audio do paměti nebo dokonce výjimky OutOfMemoryException. Pouze pro čtení Byte[]. |
+| [ContentType](../../aspose.slides/iaudio/contenttype) { get; } | Vrací typ MIME audio, kódovaný v [`BinaryData`](./binarydata). Pouze pro čtení String. |
 
 ## Metody
 
-| Name | Description |
+| Název | Popis |
 | --- | --- |
-| [GetStream](../../aspose.slides/iaudio/getstream)() | Vrací Stream pro čtení. Použijte 'using' nebo uzavřete stream po použití. |
+| [GetStream](../../aspose.slides/iaudio/getstream)() | Vrací Stream pro čtení. Použijte 'using' nebo po použití stream zavřete. |
 
 ### Viz také
 

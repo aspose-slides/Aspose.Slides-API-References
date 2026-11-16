@@ -1,14 +1,14 @@
 ---
 title: LayoutTargetType
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Nếu bố trí khu vực vẽ được xác định thủ công, thuộc tính này chỉ định việc bố trí khu vực vẽ theo bên trong không bao gồm trục và nhãn trục hoặc bên ngoài bao gồm trục và nhãn trục.
+description: Nếu bố cục của khu vực vẽ được xác định thủ công, thuộc tính này chỉ định việc bố trí khu vực vẽ theo bên trong (không bao gồm trục và nhãn trục) hoặc bên ngoài (bao gồm trục và nhãn trục).
 type: docs
-weight: 2270
+weight: 2290
 url: /vi/aspose.slides.charts/layouttargettype/
 ---
 ## LayoutTargetType liệt kê
 
-Nếu bố trí khu vực vẽ được xác định thủ công, thuộc tính này chỉ định việc bố trí khu vực vẽ theo bên trong (không bao gồm trục và nhãn trục) hoặc bên ngoài (bao gồm trục và nhãn trục).
+Nếu bố cục của khu vực vẽ được xác định thủ công, thuộc tính này chỉ định việc bố trí khu vực vẽ theo bên trong (không bao gồm trục và nhãn trục) hoặc bên ngoài (bao gồm trục và nhãn trục).
 
 ```csharp
 public enum LayoutTargetType
@@ -18,10 +18,10 @@ public enum LayoutTargetType
 
 | Tên | Giá trị | Mô tả |
 | --- | --- | --- |
-| Inner | `0` | Xác định rằng kích thước khu vực vẽ sẽ quyết định kích thước của khu vực vẽ, không bao gồm các dấu tick và nhãn trục. |
-| Outer | `1` | Xác định rằng kích thước khu vực vẽ sẽ quyết định kích thước của khu vực vẽ, các dấu tick và nhãn trục. |
+| Inner | `0` | Chỉ ra rằng kích thước khu vực vẽ sẽ xác định kích thước của khu vực vẽ, không bao gồm các dấu tick và nhãn trục. |
+| Outer | `1` | Chỉ ra rằng kích thước khu vực vẽ sẽ xác định kích thước của khu vực vẽ, các dấu tick và nhãn trục. |
 
-### Xem thêm
+### Xem Thêm
 
 * không gian tên [Aspose.Slides.Charts](../../aspose.slides.charts)
 * tập hợp [Aspose.Slides](../../)

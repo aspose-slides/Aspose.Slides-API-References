@@ -3,10 +3,10 @@ title: IChartDataPointLevel
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示数据点级别。适用于 Treemap 和 Sunburst 图表。
 type: docs
-weight: 1840
+weight: 1860
 url: /zh/aspose.slides.charts/ichartdatapointlevel/
 ---
-## IChartDataPointLevel interface
+## IChartDataPointLevel 接口
 
 表示数据点级别。适用于 Treemap 和 Sunburst 图表。
 
@@ -14,14 +14,14 @@ url: /zh/aspose.slides.charts/ichartdatapointlevel/
 public interface IChartDataPointLevel
 ```
 
-## Properties
+## 属性
 
-| 名称 | 描述 |
+| 名称 | 说明 |
 | --- | --- |
 | [Format](../../aspose.slides.charts/ichartdatapointlevel/format) { get; } | 表示数据点级别的格式属性。可读写 [`IFormat`](../iformat)。 |
-| [Label](../../aspose.slides.charts/ichartdatapointlevel/label) { get; } | 表示数据点级别的数据标签。适用于 Treemap 和 Sunburst 系列类型。只读 [`IDataLabel`](../idatalabel)。 |
+| [Label](../../aspose.slides.charts/ichartdatapointlevel/label) { get; } | 表示数据点级别的数据标签。适用于 Treemap 和 Sunburst sereis 类型。只读 [`IDataLabel`](../idatalabel)。 |
 
-### See Also
+### 另请参见
 
 * 命名空间 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 程序集 [Aspose.Slides](../../)

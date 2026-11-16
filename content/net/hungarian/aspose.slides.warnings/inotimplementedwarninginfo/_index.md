@@ -1,14 +1,14 @@
 ---
 title: INotImplementedWarningInfo
-second_title: Aspose.Sildes a .NET API referenciához
-description: Egy ismert, még nem megvalósított funkcióról szóló figyelmeztetést jelöl, amely a közeljövőben nem lesz megvalósítva.
+second_title: Aspose.Sildes a .NET API referenciája
+description: Egy ismert, még nem megvalósított funkcióval kapcsolatos figyelmeztetést képvisel, amely a közeljövőben nem lesz implementálva.
 type: docs
-weight: 11770
+weight: 11790
 url: /hu/aspose.slides.warnings/inotimplementedwarninginfo/
 ---
 ## INotImplementedWarningInfo interfész
 
-Egy ismert, még nem megvalósított funkcióról szóló figyelmeztetést jelöl, amely a közeljövőben nem lesz megvalósítva.
+A közismert, még nem implementált funkcióval kapcsolatos figyelmeztetést képviseli, amely a közeljövőben nem kerül megvalósításra.
 
 ```csharp
 public interface INotImplementedWarningInfo : IWarningInfo
@@ -18,7 +18,7 @@ public interface INotImplementedWarningInfo : IWarningInfo
 
 | Név | Leírás |
 | --- | --- |
-| [AsIWarningInfo](../../aspose.slides.warnings/inotimplementedwarninginfo/asiwarninginfo) { get; } | Visszaadja az IWarningInfo interfészt. Csak olvasható [`IWarningInfo`](../iwarninginfo). |
+| [AsIWarningInfo](../../aspose.slides.warnings/inotimplementedwarninginfo/asiwarninginfo) { get; } | Visszaadja az IWarningInfo interfész. Csak olvasható [`IWarningInfo`](../iwarninginfo). |
 
 ### Lásd még
 

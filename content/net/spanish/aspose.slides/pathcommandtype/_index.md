@@ -3,7 +3,7 @@ title: PathCommandType
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa comandos de ruta gráfica
 type: docs
-weight: 9320
+weight: 9340
 url: /es/aspose.slides/pathcommandtype/
 ---
 ## PathCommandType enumeración
@@ -18,12 +18,12 @@ public enum PathCommandType : byte
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| Close | `0` | Cierra la ruta de geometría |
-| MoveTo | `1` | Establece la posición del siguiente punto de la ruta de geometría |
-| LineTo | `2` | Añade una línea a la ruta de geometría |
-| ArcTo | `3` | Añade el arco especificado a la ruta de geometría. |
-| QuadBezierTo | `4` | Añade una curva Bézier cuadrática a la ruta de geometría |
-| CubicBezierTo | `5` | Añade una curva Bézier cúbica a la ruta de geometría |
+| Close | `0` | Cierra la ruta geométrica |
+| MoveTo | `1` | Establece la posición del siguiente punto de la ruta geométrica |
+| LineTo | `2` | Agrega una línea a la ruta geométrica |
+| ArcTo | `3` | Agrega el arco especificado a la ruta geométrica. |
+| QuadBezierTo | `4` | Agrega una curva Bézier cuadrática a la ruta geométrica |
+| CubicBezierTo | `5` | Agrega una curva Bézier cúbica a la ruta geométrica |
 
 ### Ver también
 

@@ -3,7 +3,7 @@ title: StyleType
 second_title: Aspose.Sildes for .NET API 참조
 description: 차트 스타일을 나타냅니다.
 type: docs
-weight: 2430
+weight: 2450
 url: /ko/aspose.slides.charts/styletype/
 ---
 ## StyleType 열거형
@@ -67,7 +67,7 @@ public enum StyleType
 | Style47 | `46` | 스타일 47 |
 | Style48 | `47` | 스타일 48 |
 
-### 참고
+### 참조
 
 * 네임스페이스 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 어셈블리 [Aspose.Slides](../../)

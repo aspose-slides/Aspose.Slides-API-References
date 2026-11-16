@@ -1,9 +1,9 @@
 ---
 title: ICameraEffectiveData
-second_title: Aspose.Sildes .NET API referencia
+second_title: Aspose.Sildes .NET API referenciája
 description: Megváltoztathatatlan objektum, amely a hatékony kamera tulajdonságokat tartalmazza.
 type: docs
-weight: 5420
+weight: 5440
 url: /hu/aspose.slides/icameraeffectivedata/
 ---
 ## ICameraEffectiveData interfész
@@ -19,18 +19,18 @@ public interface ICameraEffectiveData
 | Név | Leírás |
 | --- | --- |
 | [CameraType](../../aspose.slides/icameraeffectivedata/cameratype) { get; } | Kamera típusa. Csak olvasható [`CameraPresetType`](../camerapresettype). |
-| [FieldOfViewAngle](../../aspose.slides/icameraeffectivedata/fieldofviewangle) { get; } | Kamera FOV (0-180 fok, látótér). Csak olvasható Single. |
+| [FieldOfViewAngle](../../aspose.slides/icameraeffectivedata/fieldofviewangle) { get; } | Kamera látószöge (0-180°, látómező). Csak olvasható Single. |
 | [Zoom](../../aspose.slides/icameraeffectivedata/zoom) { get; } | Kamera zoom (pozitív érték százalékban). Csak olvasható Single. |
 
 ## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [GetRotation](../../aspose.slides/icameraeffectivedata/getrotation)() | A forgatás egy szélességi koordináta, egy hosszúsági koordináta és a tengely körüli forogás használatával van definiálva. Az első elem a visszatérő tömbben – szélesség, a második – hosszúság, a harmadik – forogás. Null értéket ad vissza, ha nincs definiált forgatás. |
+| [GetRotation](../../aspose.slides/icameraeffectivedata/getrotation)() | Egy forgás a szélességi koordináta, a hosszúsági koordináta és a tengely körüli forogás használatával definiálható. az első elem a visszatérő tömbben – szélesség, a második – hosszúság, a harmadik – forogás. Null értéket ad vissza, ha nincs definiálva forgás. |
 
 ### Megjegyzések
 
-Ez az interfész a(z) [`IThreeDFormatEffectiveData`](../ithreedformateffectivedata) részeként használható.
+Ez az interfész a [`IThreeDFormatEffectiveData`](../ithreedformateffectivedata) részeként használatos.
 
 ### Lásd még
 

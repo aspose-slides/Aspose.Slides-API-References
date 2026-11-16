@@ -1,9 +1,9 @@
 ---
 title: IRowFormatEffectiveData
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Oggetto immutabile che contiene le proprietà di formattazione efficace della riga della tabella.
+second_title: Aspose.Sildes per .NET Riferimento API
+description: Oggetto immutabile che contiene le proprietà di formattazione efficace della riga di tabella.
 type: docs
-weight: 6880
+weight: 6900
 url: /it/aspose.slides/irowformateffectivedata/
 ---
 ## IRowFormatEffectiveData interfaccia
@@ -18,7 +18,7 @@ public interface IRowFormatEffectiveData : IBaseTableFormatEffectiveData
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsIBaseTableFormatEffectiveData](../../aspose.slides/irowformateffectivedata/asibasetableformateffectivedata) { get; } | Consente di ottenere l'interfaccia base IBaseTableFormatEffectiveData. Sola lettura [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
+| [AsIBaseTableFormatEffectiveData](../../aspose.slides/irowformateffectivedata/asibasetableformateffectivedata) { get; } | Consente di ottenere l'interfaccia base IBaseTableFormatEffectiveData. Solo lettura [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
 
 ### Osservazioni
 

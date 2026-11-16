@@ -1,9 +1,9 @@
 ---
 title: DataLabelCollection
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili label seri.
 type: docs
-weight: 1560
+weight: 1570
 url: /id/aspose.slides.charts/datalabelcollection/
 ---
 ## DataLabelCollection kelas
@@ -19,20 +19,21 @@ public class DataLabelCollection : DomObject<ChartSeries>, IDataLabelCollection
 | Nama | Deskripsi |
 | --- | --- |
 | [Chart](../../aspose.slides.charts/datalabelcollection/chart) { get; } | Mengembalikan chart induk. Hanya-baca [`IChart`](../ichart). |
-| [Count](../../aspose.slides.charts/datalabelcollection/count) { get; } | Mendapatkan jumlah semua label data dalam koleksi. Hanya-baca Int32. |
-| [CountOfVisibleDataLabels](../../aspose.slides.charts/datalabelcollection/countofvisibledatalabels) { get; } | Mendapatkan jumlah label data yang terlihat dalam koleksi. Hanya-baca Int32. |
-| [DefaultDataLabelFormat](../../aspose.slides.charts/datalabelcollection/defaultdatalabelformat) { get; } | Mendapatkan format label data default. Hanya-baca [`IDataLabelFormat`](../idatalabelformat). |
-| [IsVisible](../../aspose.slides.charts/datalabelcollection/isvisible) { get; } | False berarti label data tidak terlihat secara default (dan sehingga semua flag Show* (ShowValue, ...) pada properti DefaultDataLabelFormat bernilai false). Hanya-baca Boolean. |
-| [Item](../../aspose.slides.charts/datalabelcollection/item) { get; } | Mendapatkan label data untuk titik data dengan indeks yang ditentukan. |
+| [Count](../../aspose.slides.charts/datalabelcollection/count) { get; } | Mengambil jumlah semua label data dalam koleksi. Hanya-baca Int32. |
+| [CountOfVisibleDataLabels](../../aspose.slides.charts/datalabelcollection/countofvisibledatalabels) { get; } | Mengambil jumlah label data yang terlihat dalam koleksi. Hanya-baca Int32. |
+| [DefaultDataLabelFormat](../../aspose.slides.charts/datalabelcollection/defaultdatalabelformat) { get; } | Mengambil format label data default. Hanya-baca [`IDataLabelFormat`](../idatalabelformat). |
+| [DefaultLabelShapeType](../../aspose.slides.charts/datalabelcollection/defaultlabelshapetype) { get; set; } | Mengambil atau mengatur tipe shape default untuk label data. Mengembalikan NotDefined jika tidak ada shape yang didefinisikan. |
+| [IsVisible](../../aspose.slides.charts/datalabelcollection/isvisible) { get; } | False berarti label data tidak terlihat secara default (dan sehingga semua flag Show*- (ShowValue, ...) dari properti DefaultDataLabelFormat bernilai false). Hanya-baca Boolean. |
+| [Item](../../aspose.slides.charts/datalabelcollection/item) { get; } | Mengambil label data untuk titik data dengan indeks yang ditentukan. |
 | [LeaderLinesFormat](../../aspose.slides.charts/datalabelcollection/leaderlinesformat) { get; } | Mewakili format garis pemimpin label data. Hanya-baca [`IChartLinesFormat`](../ichartlinesformat). |
-| [ParentSeries](../../aspose.slides.charts/datalabelcollection/parentseries) { get; } | Mendapatkan seri induk. Hanya-baca [`IChartSeries`](../ichartseries). |
+| [ParentSeries](../../aspose.slides.charts/datalabelcollection/parentseries) { get; } | Mengambil series induk. Hanya-baca [`IChartSeries`](../ichartseries). |
 
 ## Metode
 
 | Nama | Deskripsi |
 | --- | --- |
 | [GetEnumerator](../../aspose.slides.charts/datalabelcollection/getenumerator)() | Mengembalikan enumerator yang mengiterasi koleksi. |
-| [Hide](../../aspose.slides.charts/datalabelcollection/hide)() | Menyembunyikan label data secara default dengan mengatur semua flag Show* (ShowValue, ...) pada properti DefaultDataLabelFormat ke keadaan false. IsVisible akan menjadi false setelah ini. |
+| [Hide](../../aspose.slides.charts/datalabelcollection/hide)() | Membuat label data tersembunyi secara default dengan mengatur semua flag Show*- (ShowValue, ...) dari properti DefaultDataLabelFormat ke keadaan false. IsVisible akan menjadi false setelah ini. |
 | [IndexOf](../../aspose.slides.charts/datalabelcollection/indexof)(IDataLabel) | Mengembalikan indeks DataLabel yang ditentukan dalam koleksi. |
 
 ### Lihat Juga

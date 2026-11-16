@@ -1,14 +1,14 @@
 ---
 title: IInOutTransition
-second_title: Aspose.Sildes için .NET API Referansı
-description: In-Out slayt geçiş efekti.
+second_title: Aspose.Sildes .NET API Referansı
+description: Giriş-Çıkış slayt geçiş efekti.
 type: docs
-weight: 10110
+weight: 10130
 url: /tr/aspose.slides.slideshow/iinouttransition/
 ---
-## IInOutTransition arayüz
+## IInOutTransition arayüzü
 
-In-Out slayt geçiş efekti.
+Giriş-Çıkış slayt geçiş efekti.
 
 ```csharp
 public interface IInOutTransition : ITransitionValueBase
@@ -21,7 +21,7 @@ public interface IInOutTransition : ITransitionValueBase
 | [AsITransitionValueBase](../../aspose.slides.slideshow/iinouttransition/asitransitionvaluebase) { get; } | Temel ITransitionValueBase arayüzünü almayı sağlar. Salt okunur [`ITransitionValueBase`](../itransitionvaluebase). |
 | [Direction](../../aspose.slides.slideshow/iinouttransition/direction) { get; set; } | Geçiş efektinin yönü. Okunur/yazılabilir [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
 
-### Ayrıca Bakınız
+### Ayrıca
 
 * arayüz [ITransitionValueBase](../itransitionvaluebase)
 * ad alanı [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

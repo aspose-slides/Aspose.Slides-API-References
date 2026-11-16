@@ -3,7 +3,7 @@ title: IField
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar ett fält.
 type: docs
-weight: 5770
+weight: 5790
 url: /sv/aspose.slides/ifield/
 ---
 ## IField gränssnitt
@@ -18,7 +18,7 @@ public interface IField : ISlideComponent
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides/ifield/asislidecomponent) { get; } | Tillåter att hämta bas-ISlideComponent-gränssnittet. Skrivskyddad [`ISlideComponent`](../islidecomponent). |
+| [AsISlideComponent](../../aspose.slides/ifield/asislidecomponent) { get; } | Tillåter att hämta bas ISlideComponent gränssnittet. Endast läsning [`ISlideComponent`](../islidecomponent). |
 | [Type](../../aspose.slides/ifield/type) { get; set; } | Returnerar eller anger fältets typ. Läs/skriv [`IFieldType`](../ifieldtype). |
 
 ### Se även

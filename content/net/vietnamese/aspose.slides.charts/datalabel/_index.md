@@ -1,14 +1,14 @@
 ---
 title: DataLabel
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Biểu diễn các nhãn của một chuỗi.
+description: Đại diện cho các nhãn của chuỗi.
 type: docs
-weight: 1550
+weight: 1560
 url: /vi/aspose.slides.charts/datalabel/
 ---
-## DataLabel lớp
+## Lớp DataLabel
 
-Biểu diễn các nhãn của một chuỗi.
+Đại diện cho các nhãn của chuỗi.
 
 ```csharp
 public class DataLabel : IDataLabel
@@ -18,41 +18,42 @@ public class DataLabel : IDataLabel
 
 | Tên | Mô tả |
 | --- | --- |
-| [DataLabel](datalabel)(IChartDataPoint) | Tạo một thể hiện mới của lớp DataLabel. |
+| [DataLabel](datalabel)(IChartDataPoint) | Tạo một thực thể mới của lớp DataLabel. |
 
 ## Thuộc tính
 
 | Tên | Mô tả |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/datalabel/actualheight) { get; } | Xác định chiều cao thực tế của phần tử biểu đồ. Gọi phương thức IChart.ValidateChartLayout() trước để lấy các giá trị thực tế. Chỉ đọc Single. |
-| [ActualWidth](../../aspose.slides.charts/datalabel/actualwidth) { get; } | Xác định chiều rộng thực tế của phần tử biểu đồ. Gọi phương thức IChart.ValidateChartLayout() trước để lấy các giá trị thực tế. Chỉ đọc Single. |
-| [ActualX](../../aspose.slides.charts/datalabel/actualx) { get; } | Xác định vị trí x thực tế (trái) của phần tử biểu đồ so với góc trái trên của biểu đồ. Gọi phương thức IChart.ValidateChartLayout() trước để lấy các giá trị thực tế. Chỉ đọc Single. |
-| [ActualY](../../aspose.slides.charts/datalabel/actualy) { get; } | Xác định vị trí trên thực tế của phần tử biểu đồ so với góc trái trên của biểu đồ. Gọi phương thức IChart.ValidateChartLayout() trước để lấy các giá trị thực tế. Chỉ đọc Single. |
+| [ActualHeight](../../aspose.slides.charts/datalabel/actualheight) { get; } | Xác định chiều cao thực tế của phần tử biểu đồ. Gọi phương thức IChart.ValidateChartLayout() trước để lấy giá trị thực tế. Đọc Single. |
+| [ActualWidth](../../aspose.slides.charts/datalabel/actualwidth) { get; } | Xác định chiều rộng thực tế của phần tử biểu đồ. Gọi phương thức IChart.ValidateChartLayout() trước để lấy giá trị thực tế. Đọc Single. |
+| [ActualX](../../aspose.slides.charts/datalabel/actualx) { get; } | Xác định vị trí x thực tế (trái) của phần tử biểu đồ so với góc trên bên trái của biểu đồ. Gọi phương thức IChart.ValidateChartLayout() trước để lấy giá trị thực tế. Đọc Single. |
+| [ActualY](../../aspose.slides.charts/datalabel/actualy) { get; } | Xác định vị trí trên thực tế của phần tử biểu đồ so với góc trên bên trái của biểu đồ. Gọi phương thức IChart.ValidateChartLayout() trước để lấy giá trị thực tế. Đọc Single. |
 | [Bottom](../../aspose.slides.charts/datalabel/bottom) { get; } | Dưới. Chỉ đọc Single. |
 | [Chart](../../aspose.slides.charts/datalabel/chart) { get; } | Trả về biểu đồ cha. Chỉ đọc [`IChart`](../ichart). |
 | [DataLabelFormat](../../aspose.slides.charts/datalabel/datalabelformat) { get; } | Trả về định dạng nhãn dữ liệu. Chỉ đọc [`IDataLabelFormat`](../idatalabelformat). |
-| [Height](../../aspose.slides.charts/datalabel/height) { get; set; } | Trả về hoặc đặt chiều cao của tiêu đề dưới dạng tỷ lệ phần trăm của chiều cao biểu đồ. Đọc/ghi Single. |
-| [IsVisible](../../aspose.slides.charts/datalabel/isvisible) { get; } | False có nghĩa là nhãn dữ liệu không hiển thị (và do đó tất cả các cờ Show* (ShowValue, ...) đều là false). Chỉ đọc Boolean. |
+| [Height](../../aspose.slides.charts/datalabel/height) { get; set; } | Trả về hoặc đặt chiều cao của tiêu đề dưới dạng tỷ lệ của chiều cao biểu đồ. Đọc/ghi Single. |
+| [IsVisible](../../aspose.slides.charts/datalabel/isvisible) { get; } | False có nghĩa là nhãn dữ liệu không hiển thị (vì vậy tất cả các cờ Show* (ShowValue, ...) đều là false). Chỉ đọc Boolean. |
+| [LabelShapeType](../../aspose.slides.charts/datalabel/labelshapetype) { get; set; } | Lấy hoặc đặt loại hình dạng của nhãn dữ liệu. Trả về NotDefined nếu không có hình dạng nào được xác định. |
 | [Right](../../aspose.slides.charts/datalabel/right) { get; } | Phải. Chỉ đọc Single. |
 | [TextFormat](../../aspose.slides.charts/datalabel/textformat) { get; } | Trả về định dạng văn bản. Chỉ đọc [`IChartTextFormat`](../icharttextformat). |
-| [TextFrameForOverriding](../../aspose.slides.charts/datalabel/textframeforoverriding) { get; } | Có thể chứa văn bản định dạng phong phú. Nếu thuộc tính này không null thì giá trị văn bản định dạng này sẽ ghi đè lên văn bản được tự động tạo của nhãn dữ liệu. Văn bản được tự động tạo của nhãn dữ liệu có nghĩa là văn bản được quản lý bởi các thuộc tính ShowSeriesName, ShowValue, ... và được định dạng bằng thuộc tính TextFormatManager.TextFormat. Chỉ đọc [`ITextFrame`](../../aspose.slides/itextframe). |
+| [TextFrameForOverriding](../../aspose.slides.charts/datalabel/textframeforoverriding) { get; } | Có thể chứa văn bản định dạng phong phú. Nếu thuộc tính này không null thì giá trị văn bản định dạng này sẽ ghi đè lên văn bản tự động tạo của nhãn dữ liệu. Văn bản tự động tạo của nhãn dữ liệu có nghĩa là văn bản được quản lý bởi các thuộc tính ShowSeriesName, ShowValue, ... và được định dạng bằng thuộc tính TextFormatManager.TextFormat. Chỉ đọc [`ITextFrame`](../../aspose.slides/itextframe). |
 | [ValueFromCell](../../aspose.slides.charts/datalabel/valuefromcell) { get; set; } | Lấy hoặc đặt ô dữ liệu của workbook. Áp dụng nếu thuộc tính IDataLabelFormat.ShowLabelValueFromCell bằng true. |
-| [Width](../../aspose.slides.charts/datalabel/width) { get; set; } | Trả về hoặc đặt chiều rộng của tiêu đề dưới dạng tỷ lệ phần trăm của chiều rộng biểu đồ. Đọc/ghi Single. |
-| [X](../../aspose.slides.charts/datalabel/x) { get; set; } | Trả về hoặc đặt tọa độ x của tiêu đề dưới dạng tỷ lệ phần trăm của chiều rộng biểu đồ. Đọc/ghi Single. |
-| [Y](../../aspose.slides.charts/datalabel/y) { get; set; } | Trả về hoặc đặt tọa độ y của tiêu đề dưới dạng tỷ lệ phần trăm của chiều cao biểu đồ. Đọc/ghi Single. |
+| [Width](../../aspose.slides.charts/datalabel/width) { get; set; } | Trả về hoặc đặt chiều rộng của tiêu đề dưới dạng tỷ lệ của chiều rộng biểu đồ. Đọc/ghi Single. |
+| [X](../../aspose.slides.charts/datalabel/x) { get; set; } | Trả về hoặc đặt tọa độ x của tiêu đề dưới dạng tỷ lệ của chiều rộng biểu đồ. Đọc/ghi Single. |
+| [Y](../../aspose.slides.charts/datalabel/y) { get; set; } | Trả về hoặc đặt tọa độ y của tiêu đề dưới dạng tỷ lệ của chiều cao biểu đồ. Đọc/ghi Single. |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
 | [AddTextFrameForOverriding](../../aspose.slides.charts/datalabel/addtextframeforoverriding)(string) | Khởi tạo TextFrameForOverriding với văn bản trong tham số "text". Nếu TextFrameForOverriding đã được khởi tạo thì chỉ thay đổi văn bản của nó. |
-| [GetActualLabelText](../../aspose.slides.charts/datalabel/getactuallabeltext)() | Trả về văn bản nhãn thực tế dựa trên cài đặt DataLabelFormat hoặc giá trị Text của TextFrameForOverriding. |
-| [Hide](../../aspose.slides.charts/datalabel/hide)() | Ẩn nhãn dữ liệu bằng cách đặt tất cả các cờ Show* (ShowValue, ...) thành false. IsVisible sẽ là false sau thao tác này. |
+| [GetActualLabelText](../../aspose.slides.charts/datalabel/getactuallabeltext)() | Trả về văn bản nhãn thực tế dựa trên cài đặt DataLabelFormat hoặc giá trị TextFrameForOverriding.Text. |
+| [Hide](../../aspose.slides.charts/datalabel/hide)() | Ẩn nhãn dữ liệu bằng cách đặt tất cả các cờ Show* (ShowValue, ...) về trạng thái false. IsVisible sẽ là false sau thao tác này. |
 
 ### Xem thêm
 
 * giao diện [IDataLabel](../idatalabel)
 * không gian tên [Aspose.Slides.Charts](../../aspose.slides.charts)
-* assembly [Aspose.Slides](../../)
+* tập hợp [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

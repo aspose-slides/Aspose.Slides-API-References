@@ -3,7 +3,7 @@ title: RowFormat
 second_title: Aspose.Sildes for .NET API リファレンス
 description: テーブル行の書式を表します。
 type: docs
-weight: 9730
+weight: 9750
 url: /ja/aspose.slides/rowformat/
 ---
 ## RowFormat クラス
@@ -18,7 +18,7 @@ public sealed class RowFormat : DomObject<Row>, IRowFormat
 
 | 名前 | 説明 |
 | --- | --- |
-| [GetEffective](../../aspose.slides/rowformat/geteffective)() | 継承とテーブルスタイルが適用された有効なテーブル行書式プロパティを取得します。 |
+| [GetEffective](../../aspose.slides/rowformat/geteffective)() | 継承およびテーブルスタイルが適用された、実際のテーブル行書式設定プロパティを取得します。 |
 
 ### 参照
 

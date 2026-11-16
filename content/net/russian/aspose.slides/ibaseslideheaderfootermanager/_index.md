@@ -1,14 +1,14 @@
 ---
 title: IBaseSlideHeaderFooterManager
-second_title: "Aspose.Sildes для .NET: справочник API"
-description: Представляет менеджер, который обеспечивает поведение заполнителей нижнего колонтитула, даты и времени, номера страницы для всех типов слайдов.
+second_title: Aspose.Sildes для .NET — справка API
+description: Представляет менеджер, отвечающий за поведение заполнителей нижнего колонтитула, даты и времени, номера страницы для всех типов слайдов.
 type: docs
-weight: 5350
+weight: 5370
 url: /ru/aspose.slides/ibaseslideheaderfootermanager/
 ---
 ## IBaseSlideHeaderFooterManager интерфейс
 
-Представляет менеджер, который управляет поведением заполнителей нижнего колонтитула, даты и времени, номера страницы для всех типов слайдов.
+Представляет менеджер, отвечающий за поведение заполнителей нижнего колонтитула, даты и времени, номера страницы для всех типов слайдов.
 
 ```csharp
 public interface IBaseSlideHeaderFooterManager : IBaseHeaderFooterManager
@@ -21,7 +21,7 @@ public interface IBaseSlideHeaderFooterManager : IBaseHeaderFooterManager
 | [AsIBaseHeaderFooterManager](../../aspose.slides/ibaseslideheaderfootermanager/asibaseheaderfootermanager) { get; } | Возвращает интерфейс IBaseHeaderFooterManager. |
 | [IsDateTimeVisible](../../aspose.slides/ibaseslideheaderfootermanager/isdatetimevisible) { get; } | Получает значение, указывающее, что заполнитель даты и времени присутствует. ReadBoolean. |
 | [IsFooterVisible](../../aspose.slides/ibaseslideheaderfootermanager/isfootervisible) { get; } | Получает значение, указывающее, что заполнитель нижнего колонтитула присутствует. Read Boolean. |
-| [IsSlideNumberVisible](../../aspose.slides/ibaseslideheaderfootermanager/isslidenumbervisible) { get; } | Получает значение, указывающее, что заполнитель номера страницы присутствует. ReadBoolean. |
+| [IsSlideNumberVisible](../../aspose.slides/ibaseslideheaderfootermanager/isslidenumbervisible) { get; } | Получает значение, указывающее, что заполнитель номера слайда присутствует. ReadBoolean. |
 
 ## Методы
 
@@ -31,9 +31,9 @@ public interface IBaseSlideHeaderFooterManager : IBaseHeaderFooterManager
 | [SetDateTimeVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setdatetimevisibility)(bool) | Изменяет видимость заполнителя даты и времени слайда. |
 | [SetFooterText](../../aspose.slides/ibaseslideheaderfootermanager/setfootertext)(string) | Устанавливает текст в заполнитель нижнего колонтитула слайда. |
 | [SetFooterVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setfootervisibility)(bool) | Изменяет видимость заполнителя нижнего колонтитула слайда. |
-| [SetSlideNumberVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setslidenumbervisibility)(bool) | Изменяет видимость заполнителя номера страницы слайда. |
+| [SetSlideNumberVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setslidenumbervisibility)(bool) | Изменяет видимость заполнителя номера слайда. |
 
-### Смотрите также
+### См. также
 
 * интерфейс [IBaseHeaderFooterManager](../ibaseheaderfootermanager)
 * пространство имён [Aspose.Slides](../../aspose.slides)

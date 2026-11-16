@@ -1,9 +1,9 @@
 ---
 title: IChartDataWorksheetCollection
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 表示图表数据工作簿的工作表集合。
 type: docs
-weight: 1880
+weight: 1900
 url: /zh/aspose.slides.charts/ichartdataworksheetcollection/
 ---
 ## IChartDataWorksheetCollection 接口
@@ -37,7 +37,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * 接口 [IChartDataWorksheet](../ichartdataworksheet)

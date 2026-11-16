@@ -1,14 +1,14 @@
 ---
 title: IModernComment
 second_title: Aspose.Sildes for .NET API 參考
-description: 表示投影片上的評論。
+description: 表示投影片上的批註。
 type: docs
-weight: 6460
+weight: 6480
 url: /zh-hant/aspose.slides/imoderncomment/
 ---
 ## IModernComment 介面
 
-表示投影片上的評論。
+表示投影片上的批註。
 
 ```csharp
 public interface IModernComment : IComment
@@ -16,13 +16,13 @@ public interface IModernComment : IComment
 
 ## 屬性
 
-| 名稱 | 描述 |
+| 名稱 | 說明 |
 | --- | --- |
 | [AsIComment](../../aspose.slides/imoderncomment/asicomment) { get; } | 允許取得基礎 IComment 介面。唯讀 [`IComment`](../icomment)。 |
-| [Shape](../../aspose.slides/imoderncomment/shape) { get; } | 傳回與評論相關聯的形狀。唯讀 [`IShape`](../ishape)。 |
-| [Status](../../aspose.slides/imoderncomment/status) { get; set; } | 傳回或設定評論的狀態。可讀寫 [`ModernCommentStatus`](../moderncommentstatus)。 |
-| [TextSelectionLength](../../aspose.slides/imoderncomment/textselectionlength) { get; set; } | 傳回或設定文字選取長度（於文字框中），若評論與 AutoShape 相關聯。可讀寫 Int32。 |
-| [TextSelectionStart](../../aspose.slides/imoderncomment/textselectionstart) { get; set; } | 傳回或設定文字選取的起始位置（於文字框中），若評論與 AutoShape 相關聯。可讀寫 Int32。 |
+| [Shape](../../aspose.slides/imoderncomment/shape) { get; } | 傳回與批註相關聯的圖形。唯讀 [`IShape`](../ishape)。 |
+| [Status](../../aspose.slides/imoderncomment/status) { get; set; } | 傳回或設定批註的狀態。可讀寫 [`ModernCommentStatus`](../moderncommentstatus)。 |
+| [TextSelectionLength](../../aspose.slides/imoderncomment/textselectionlength) { get; set; } | 如果批註與 AutoShape 相關聯，則傳回或設定文字框中文字選取長度。可讀寫 Int32。 |
+| [TextSelectionStart](../../aspose.slides/imoderncomment/textselectionstart) { get; set; } | 如果批註與 AutoShape 相關聯，則傳回或設定文字框中文字選取的起始位置。可讀寫 Int32。 |
 
 ### 範例
 
@@ -37,7 +37,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### 參見
+### 另請參閱
 
 * 介面 [IComment](../icomment)
 * 命名空間 [Aspose.Slides](../../aspose.slides)

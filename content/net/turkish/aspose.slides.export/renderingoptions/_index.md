@@ -1,14 +1,14 @@
 ---
 title: RenderingOptions
 second_title: Aspose.Sildes için .NET API Referansı
-description: Bir sunum/slaytın nasıl işlendiğini kontrol eden seçenekleri sağlar.
+description: Bir sunum/slaytın nasıl işleneceğini kontrol eden seçenekler sağlar.
 type: docs
-weight: 4410
+weight: 4430
 url: /tr/aspose.slides.export/renderingoptions/
 ---
 ## RenderingOptions sınıfı
 
-Sunum/slaytın nasıl işlendiğini kontrol eden seçenekleri sağlar.
+Bir sunum/slaytın nasıl işleneceğini kontrol eden seçenekler sağlar.
 
 ```csharp
 public class RenderingOptions : SaveOptions, IRenderingOptions
@@ -24,14 +24,14 @@ public class RenderingOptions : SaveOptions, IRenderingOptions
 
 | Ad | Açıklama |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Kaynak yazı tipi bulunamadığında kullanılan yazı tipini döndürür veya ayarlar. Okunabilir-yazılabilir String. |
-| [DisableFontLigatures](../../aspose.slides.export/renderingoptions/disablefontligatures) { get; set; } | Metnin ligatürler kullanılmadan işlenip işlenmediğini gösteren bir değeri alır veya ayarlar. `true` olarak ayarlandığında, ligatürler işlenen çıktıda devre dışı bırakılır. Varsayılan olarak, bu özellik `false` olarak ayarlanmıştır. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Gradyanın görsel stilini döndürür veya ayarlar. Okunabilir-yazılabilir [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [InkOptions](../../aspose.slides.export/renderingoptions/inkoptions) { get; } | Dışa aktarılan belgede Ink nesnelerinin görünümünü kontrol eden seçenekleri sağlar. Yalnızca okunabilir [`IInkOptions`](../iinkoptions) |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | İlerleme güncellemelerini yüzde olarak kaydetmek için bir geri çağırma nesnesini temsil eder. Bakınız [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Sunumu kaydederken JavaScript çağrısı içeren bağlantıların atlanıp atlanmayacağını belirtir. Okunabilir-yazılabilir Boolean. Varsayılan değer **false**. |
-| [SlidesLayoutOptions](../../aspose.slides.export/renderingoptions/slideslayoutoptions) { get; set; } | Sunumu dışa aktarırken slaytların sayfada yerleştirildiği modu alır veya ayarlar [`ISlidesLayoutOptions`](../islideslayoutoptions). |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Uyarıları alan ve yükleme sürecinin devam edip etmeyeceğine karar veren bir nesneyi döndürür veya ayarlar. Okunabilir-yazılabilir [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Kaynak yazı tipi bulunamadığında kullanılacak yazı tipini döndürür veya ayarlar. Okuma-yazma String. |
+| [DisableFontLigatures](../../aspose.slides.export/renderingoptions/disablefontligatures) { get; set; } | Metnin bağlamaları kullanmadan işlenip işlenmeyeceğini gösteren bir değeri alır veya ayarlar. `true` olarak ayarlandığında, bağlamalar işlenmiş çıktıda devre dışı bırakılır. Varsayılan olarak bu özellik `false` olarak ayarlanır. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Gradyentin görsel stilini döndürür veya ayarlar. Okuma/yazma [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [InkOptions](../../aspose.slides.export/renderingoptions/inkoptions) { get; } | Dışa aktarılan belgede Ink nesnelerinin görünümünü kontrol eden seçenekler sağlar. Yalnızca okuma [`IInkOptions`](../iinkoptions) |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Yüzde olarak ilerleme güncellemelerini kaydetmek için bir geri çağırma nesnesini temsil eder. Bkz. [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Sunumu kaydederken JavaScript çağrıları içeren köprülerin atlanıp atlanmayacağını belirtir. Okuma/yazma Boolean. Varsayılan değer **false**. |
+| [SlidesLayoutOptions](../../aspose.slides.export/renderingoptions/slideslayoutoptions) { get; set; } | Sunumu dışa aktarırken slaytların sayfada nasıl yerleştirileceğini gösteren modu alır veya ayarlar [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Uyarıları alan ve yükleme işleminin devam edip etmeyeceğine ya da iptal edileceğine karar veren bir nesneyi döndürür veya ayarlar. Okuma/yazma [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Örnekler
 
@@ -52,7 +52,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Ayrıca Bakınız
+### Diğer Bağlantılar
 
 * sınıf [SaveOptions](../saveoptions)
 * arayüz [IRenderingOptions](../irenderingoptions)

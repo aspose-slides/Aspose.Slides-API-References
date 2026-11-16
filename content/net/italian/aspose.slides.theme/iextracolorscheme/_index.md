@@ -1,14 +1,14 @@
 ---
 title: IExtraColorScheme
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta uno schema di colori aggiuntivo che può essere assegnato a una diapositiva.
+second_title: Riferimento API di Aspose.Sildes per .NET
+description: Rappresenta uno schema di colore aggiuntivo che può essere assegnato a una diapositiva.
 type: docs
-weight: 11210
+weight: 11230
 url: /it/aspose.slides.theme/iextracolorscheme/
 ---
 ## IExtraColorScheme interfaccia
 
-Rappresenta uno schema di colori aggiuntivo che può essere assegnato a una diapositiva.
+Rappresenta uno schema di colore aggiuntivo che può essere assegnato a una diapositiva.
 
 ```csharp
 public interface IExtraColorScheme

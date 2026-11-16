@@ -1,9 +1,9 @@
 ---
 title: PdfTextCompression
-second_title: Aspose.Sildes voor .NET API-referentie
+second_title: Aspose.Sildes voor .NET API Referentie
 description: Constanten die het type compressie definiëren dat wordt toegepast op alle inhoud in het PDF-bestand, behalve afbeeldingen.
 type: docs
-weight: 4340
+weight: 4360
 url: /nl/aspose.slides.export/pdftextcompression/
 ---
 ## PdfTextCompression enumeratie
@@ -19,7 +19,7 @@ public enum PdfTextCompression
 | Naam | Waarde | Beschrijving |
 | --- | --- | --- |
 | None | `0` | Geen compressie. |
-| Flate | `1` | Flate (ZIP)-compressie. |
+| Flate | `1` | Flate (ZIP) compressie. |
 
 ### Zie ook
 

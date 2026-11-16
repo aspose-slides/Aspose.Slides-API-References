@@ -1,12 +1,12 @@
 ---
 title: IDrawingGuidesCollection
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Ayarlanabilir çizim kılavuzlarının bir koleksiyonunu temsil eder.
 type: docs
-weight: 5730
+weight: 5750
 url: /tr/aspose.slides/idrawingguidescollection/
 ---
-## IDrawingGuidesCollection arayüz
+## IDrawingGuidesCollection arayüzü
 
 Ayarlanabilir çizim kılavuzlarının bir koleksiyonunu temsil eder.
 
@@ -18,8 +18,8 @@ public interface IDrawingGuidesCollection : IEnumerable<IDrawingGuide>
 
 | Ad | Açıklama |
 | --- | --- |
-| [Count](../../aspose.slides/idrawingguidescollection/count) { get; } | Koleksiyondaki tüm öğelerin sayısını alır. Salt-okunur Int32. |
-| [Item](../../aspose.slides/idrawingguidescollection/item) { get; } | İndeks ile çizim kılavuzunu döndürür. Salt-okunur [`IDrawingGuide`](../idrawingguide). |
+| [Count](../../aspose.slides/idrawingguidescollection/count) { get; } | Koleksiyondaki tüm öğelerin sayısını alır. Yalnızca okunabilir Int32. |
+| [Item](../../aspose.slides/idrawingguidescollection/item) { get; } | İndekse göre çizim kılavuzunu döndürür. Yalnızca okunabilir [`IDrawingGuide`](../idrawingguide). |
 
 ## Yöntemler
 
@@ -29,7 +29,7 @@ public interface IDrawingGuidesCollection : IEnumerable<IDrawingGuide>
 | [Clear](../../aspose.slides/idrawingguidescollection/clear)() | Koleksiyondaki tüm öğeleri kaldırır. |
 | [RemoveAt](../../aspose.slides/idrawingguidescollection/removeat)(int) | Belirtilen indeksteki çizim kılavuzunu kaldırır. |
 
-### İlgili
+### Ayrıca Bakınız
 
 * arayüz [IDrawingGuide](../idrawingguide)
 * ad alanı [Aspose.Slides](../../aspose.slides)

@@ -1,14 +1,14 @@
 ---
 title: IWheelTransition
-second_title: Aspose.Sildes dla .NET – referencja API
-description: Efekt przejścia slajdu kołowego.
+second_title: Aspose.Sildes dla .NET Referencja API
+description: Efekt przejścia slajdu koła.
 type: docs
-weight: 10220
+weight: 10240
 url: /pl/aspose.slides.slideshow/iwheeltransition/
 ---
 ## IWheelTransition interfejs
 
-Efekt przejścia slajdu kołowego.
+Efekt przejścia slajdu koła.
 
 ```csharp
 public interface IWheelTransition : ITransitionValueBase
@@ -18,7 +18,7 @@ public interface IWheelTransition : ITransitionValueBase
 
 | Nazwa | Opis |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/iwheeltransition/asitransitionvaluebase) { get; } | Umożliwia pobranie podstawowego interfejsu ITransitionValueBase. Tylko do odczytu [`ITransitionValueBase`](../itransitionvaluebase). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/iwheeltransition/asitransitionvaluebase) { get; } | Umożliwia pobranie bazowego interfejsu ITransitionValueBase. Tylko do odczytu [`ITransitionValueBase`](../itransitionvaluebase). |
 | [Spokes](../../aspose.slides.slideshow/iwheeltransition/spokes) { get; set; } | Liczba szprych przejścia koła. Odczyt/zapis UInt32. |
 
 ### Zobacz także

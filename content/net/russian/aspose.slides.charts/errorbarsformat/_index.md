@@ -1,14 +1,14 @@
 ---
 title: ErrorBarsFormat
 second_title: Aspose.Sildes для .NET API Reference
-description: Представляет полосы погрешности серии диаграммы. Пользовательские значения ErrorBars находятся в IChartDataPointCollection в свойстве ErrorBarsCustomValues./ichartdatapoint/errorbarscustomvalues.
+description: Представляет полосы ошибок серии диаграммы. Пользовательские значения ErrorBars находятся в IChartDataPointCollection в свойстве ErrorBarsCustomValues./ichartdatapoint/errorbarscustomvalues.
 type: docs
-weight: 1670
+weight: 1680
 url: /ru/aspose.slides.charts/errorbarsformat/
 ---
 ## ErrorBarsFormat класс
 
-Представляет полосы погрешности серии диаграммы. Пользовательские значения ErrorBars находятся в IChartDataPointCollection (в свойстве [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues)).
+Представляет полосы ошибок серии диаграммы. Пользовательские значения ErrorBars находятся в IChartDataPointCollection (в свойстве [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues)).
 
 ```csharp
 public class ErrorBarsFormat : DomObject<ChartSeries>, IErrorBarsFormat
@@ -19,12 +19,12 @@ public class ErrorBarsFormat : DomObject<ChartSeries>, IErrorBarsFormat
 | Имя | Описание |
 | --- | --- |
 | [Chart](../../aspose.slides.charts/errorbarsformat/chart) { get; } | Возвращает родительскую диаграмму. Только для чтения [`IChart`](../ichart). |
-| [Format](../../aspose.slides.charts/errorbarsformat/format) { get; set; } | Представляет формат полос погрешности. Чтение/запись [`IFormat`](../iformat). |
-| [HasEndCap](../../aspose.slides.charts/errorbarsformat/hasendcap) { get; set; } | Указывает, что конечная крышка не рисуется на полосах погрешности. Чтение/запись Boolean. |
+| [Format](../../aspose.slides.charts/errorbarsformat/format) { get; set; } | Представляет формат полос ошибок. Чтение/запись [`IFormat`](../iformat). |
+| [HasEndCap](../../aspose.slides.charts/errorbarsformat/hasendcap) { get; set; } | Указывает, что конец не рисуется на полосах ошибок. Чтение/запись Boolean. |
 | [IsVisible](../../aspose.slides.charts/errorbarsformat/isvisible) { get; set; } | Получает или задает видимость Error Bars. Чтение/запись Boolean. |
-| [Type](../../aspose.slides.charts/errorbarsformat/type) { get; set; } | Получает или задает тип полос погрешности. Чтение/запись [`ErrorBarType`](../errorbartype). |
-| [Value](../../aspose.slides.charts/errorbarsformat/value) { get; set; } | Получает или задает значение, которое используется с типами Fixed, Percentage и StandardDeviation для определения длины полос погрешности. В остальных случаях возвращает NaN. Чтение/запись Single. |
-| [ValueType](../../aspose.slides.charts/errorbarsformat/valuetype) { get; set; } | Представляет возможные способы определения длины полос погрешности. Для пользовательского типа значения используйте свойство [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues) конкретной точки данных в коллекции DataPoints серии. Для типов Fixed, Percentage или StandardDeviation используйте свойство Value для указания значения. Чтение/запись [`ErrorBarValueType`](../errorbarvaluetype). |
+| [Type](../../aspose.slides.charts/errorbarsformat/type) { get; set; } | Получает или задает тип полос ошибок. Чтение/запись [`ErrorBarType`](../errorbartype). |
+| [Value](../../aspose.slides.charts/errorbarsformat/value) { get; set; } | Получает или задает значение, которое используется с типами значений Fixed, Percentage и StandardDeviation для определения длины полос ошибок. В любом другом случае будет возвращать NaN. Чтение/запись Single. |
+| [ValueType](../../aspose.slides.charts/errorbarsformat/valuetype) { get; set; } | Представляет возможные способы определения длины полос ошибок. В случае пользовательского типа значения для указания значения используйте свойство [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues) конкретной точки данных в коллекции DataPoints серии. В случае типов значений Fixed, Percentage или StandardDeviation используйте свойство Value для указания значения. Чтение/запись [`ErrorBarValueType`](../errorbarvaluetype). |
 
 ### См. также
 

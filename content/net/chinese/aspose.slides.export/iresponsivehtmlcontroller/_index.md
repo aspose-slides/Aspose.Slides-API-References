@@ -1,9 +1,9 @@
 ---
 title: IResponsiveHtmlController
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 响应式 HTML 控制器
 type: docs
-weight: 4050
+weight: 4070
 url: /zh/aspose.slides.export/iresponsivehtmlcontroller/
 ---
 ## IResponsiveHtmlController 接口

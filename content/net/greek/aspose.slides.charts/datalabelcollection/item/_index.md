@@ -1,20 +1,20 @@
 ---
 title: Item
-second_title: Aspose.Sildes για .NET Αναφορά API
-description: Λαμβάνει την ετικέτα δεδομένων για το σημείο δεδομένων με τον καθορισμένο δείκτη.
+second_title: Αναφορά API Aspose.Sildes για .NET
+description: Λαμβάνει την ετικέτα δεδομένων για το σημείο δεδομένων με το καθορισμένο ευρετήριο.
 type: docs
-weight: 60
+weight: 70
 url: /el/aspose.slides.charts/datalabelcollection/item/
 ---
 ## DataLabelCollection δείκτης
 
-Επιστρέφει την ετικέτα δεδομένων για το σημείο δεδομένων με το καθορισμένο δείκτη.
+Λαμβάνει την ετικέτα δεδομένων για το σημείο δεδομένων με το συγκεκριμένο ευρετήριο.
 
 ```csharp
 public IDataLabel this[int index] { get; }
 ```
 
-### Παρατηρήσεις
+### Σχόλια
 
 Εναλλακτικός τρόπος πρόσβασης στην ετικέτα δεδομένων είναι: - SeriesEx.DataPoints[i].Label - διαχείριση ιδιοτήτων ετικέτας.
 

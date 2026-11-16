@@ -3,7 +3,7 @@ title: IFormatSchemeEffectiveData
 second_title: Aspose.Sildes for .NET API 参考
 description: 不可变对象，包含有效的格式方案属性。
 type: docs
-weight: 11280
+weight: 11300
 url: /zh/aspose.slides.theme/iformatschemeeffectivedata/
 ---
 ## IFormatSchemeEffectiveData 接口
@@ -27,7 +27,7 @@ public interface IFormatSchemeEffectiveData
 
 此接口用作 [`IThemeEffectiveData`](../ithemeeffectivedata) 的一部分。
 
-### 另请参阅
+### 另请参见
 
 * 命名空间 [Aspose.Slides.Theme](../../aspose.slides.theme)
 * 程序集 [Aspose.Slides](../../)

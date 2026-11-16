@@ -1,9 +1,9 @@
 ---
 title: ILineFormat
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Справка API Aspose.Sildes для .NET
 description: Представляет формат линии.
 type: docs
-weight: 6310
+weight: 6330
 url: /ru/aspose.slides/ilineformat/
 ---
 ## ILineFormat интерфейс
@@ -16,33 +16,33 @@ public interface ILineFormat : ILineParamSource
 
 ## Свойства
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
-| [Alignment](../../aspose.slides/ilineformat/alignment) { get; set; } | Возвращает или задаёт выравнивание линии. Чтение/запись [`LineAlignment`](../linealignment). |
+| [Alignment](../../aspose.slides/ilineformat/alignment) { get; set; } | Возвращает или задает выравнивание линии. Чтение/запись [`LineAlignment`](../linealignment). |
 | [AsILineParamSource](../../aspose.slides/ilineformat/asilineparamsource) { get; } | Позволяет получить базовый интерфейс ILineParamSource. Только для чтения [`ILineParamSource`](../ilineparamsource). |
-| [BeginArrowheadLength](../../aspose.slides/ilineformat/beginarrowheadlength) { get; set; } | Возвращает или задаёт длину наконечника стрелки в начале линии. Чтение/запись [`LineArrowheadLength`](../linearrowheadlength). |
-| [BeginArrowheadStyle](../../aspose.slides/ilineformat/beginarrowheadstyle) { get; set; } | Возвращает или задаёт стиль наконечника стрелки в начале линии. Чтение/запись [`LineArrowheadStyle`](../linearrowheadstyle). |
-| [BeginArrowheadWidth](../../aspose.slides/ilineformat/beginarrowheadwidth) { get; set; } | Возвращает или задаёт ширину наконечника стрелки в начале линии. Чтение/запись [`LineArrowheadWidth`](../linearrowheadwidth). |
-| [CapStyle](../../aspose.slides/ilineformat/capstyle) { get; set; } | Возвращает или задаёт стиль окончания линии. Чтение/запись [`LineCapStyle`](../linecapstyle). |
-| [CustomDashPattern](../../aspose.slides/ilineformat/customdashpattern) { get; set; } | Возвращает или задаёт пользовательский шаблон тире. Чтение/запись Single[]. |
-| [DashStyle](../../aspose.slides/ilineformat/dashstyle) { get; set; } | Возвращает или задаёт стиль тире линии. Чтение/запись [`LineDashStyle`](../linedashstyle). |
-| [EndArrowheadLength](../../aspose.slides/ilineformat/endarrowheadlength) { get; set; } | Возвращает или задаёт длину наконечника стрелки в конце линии. Чтение/запись [`LineArrowheadLength`](../linearrowheadlength). |
-| [EndArrowheadStyle](../../aspose.slides/ilineformat/endarrowheadstyle) { get; set; } | Возвращает или задаёт стиль наконечника стрелки в конце линии. Чтение/запись [`LineArrowheadStyle`](../linearrowheadstyle). |
-| [EndArrowheadWidth](../../aspose.slides/ilineformat/endarrowheadwidth) { get; set; } | Возвращает или задаёт ширину наконечника стрелки в конце линии. Чтение/запись [`LineArrowheadWidth`](../linearrowheadwidth). |
+| [BeginArrowheadLength](../../aspose.slides/ilineformat/beginarrowheadlength) { get; set; } | Возвращает или задает длину стрелки в начале линии. Чтение/запись [`LineArrowheadLength`](../linearrowheadlength). |
+| [BeginArrowheadStyle](../../aspose.slides/ilineformat/beginarrowheadstyle) { get; set; } | Возвращает или задает стиль стрелки в начале линии. Чтение/запись [`LineArrowheadStyle`](../linearrowheadstyle). |
+| [BeginArrowheadWidth](../../aspose.slides/ilineformat/beginarrowheadwidth) { get; set; } | Возвращает или задает ширину стрелки в начале линии. Чтение/запись [`LineArrowheadWidth`](../linearrowheadwidth). |
+| [CapStyle](../../aspose.slides/ilineformat/capstyle) { get; set; } | Возвращает или задает стиль окончания линии. Чтение/запись [`LineCapStyle`](../linecapstyle). |
+| [CustomDashPattern](../../aspose.slides/ilineformat/customdashpattern) { get; set; } | Возвращает или задает пользовательский шаблон пунктирной линии. Чтение/запись Single[]. |
+| [DashStyle](../../aspose.slides/ilineformat/dashstyle) { get; set; } | Возвращает или задает стиль пунктирной линии. Чтение/запись [`LineDashStyle`](../linedashstyle). |
+| [EndArrowheadLength](../../aspose.slides/ilineformat/endarrowheadlength) { get; set; } | Возвращает или задает длину стрелки в конце линии. Чтение/запись [`LineArrowheadLength`](../linearrowheadlength). |
+| [EndArrowheadStyle](../../aspose.slides/ilineformat/endarrowheadstyle) { get; set; } | Возвращает или задает стиль стрелки в конце линии. Чтение/запись [`LineArrowheadStyle`](../linearrowheadstyle). |
+| [EndArrowheadWidth](../../aspose.slides/ilineformat/endarrowheadwidth) { get; set; } | Возвращает или задает ширину стрелки в конце линии. Чтение/запись [`LineArrowheadWidth`](../linearrowheadwidth). |
 | [FillFormat](../../aspose.slides/ilineformat/fillformat) { get; } | Возвращает формат заливки линии. Только для чтения [`ILineFillFormat`](../ilinefillformat). |
 | [IsFormatNotDefined](../../aspose.slides/ilineformat/isformatnotdefined) { get; } | Возвращает true, если формат линии не определён (только что создан, по умолчанию). Только для чтения Boolean. |
-| [JoinStyle](../../aspose.slides/ilineformat/joinstyle) { get; set; } | Возвращает или задаёт стиль соединения линий. Чтение/запись [`LineJoinStyle`](../linejoinstyle). |
-| [MiterLimit](../../aspose.slides/ilineformat/miterlimit) { get; set; } | Возвращает или задаёт предел среза (miter limit) линии. Чтение/запись Single. |
+| [JoinStyle](../../aspose.slides/ilineformat/joinstyle) { get; set; } | Возвращает или задает стиль соединения линий. Чтение/запись [`LineJoinStyle`](../linejoinstyle). |
+| [MiterLimit](../../aspose.slides/ilineformat/miterlimit) { get; set; } | Возвращает или задает предел среза линии. Чтение/запись Single. |
 | [SketchFormat](../../aspose.slides/ilineformat/sketchformat) { get; } | Возвращает формат эскиза линии. Только для чтения [`ISketchFormat`](../isketchformat). |
-| [Style](../../aspose.slides/ilineformat/style) { get; set; } | Возвращает или задаёт стиль линии. Чтение/запись [`LineStyle`](../linestyle). |
-| [Width](../../aspose.slides/ilineformat/width) { get; set; } | Возвращает или задаёт ширину линии. Чтение/запись Double. |
+| [Style](../../aspose.slides/ilineformat/style) { get; set; } | Возвращает или задает стиль линии. Чтение/запись [`LineStyle`](../linestyle). |
+| [Width](../../aspose.slides/ilineformat/width) { get; set; } | Возвращает или задает ширину линии. Чтение/запись Double. |
 
 ## Методы
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
 | [Equals](../../aspose.slides/ilineformat/equals)(ILineFormat) | Определяет, равны ли два экземпляра LineFormat. |
-| [GetEffective](../../aspose.slides/ilineformat/geteffective)() | Получает данные эффективного форматирования линии с применённым наследованием. |
+| [GetEffective](../../aspose.slides/ilineformat/geteffective)() | Получает эффективные данные форматирования линии с учётом наследования. |
 
 ### См. также
 

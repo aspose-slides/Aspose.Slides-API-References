@@ -1,9 +1,9 @@
 ---
 title: PVIObject
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Aspose.Sildes для .NET справочник API
 description: Инкапсулирует базовую сервисную инфраструктуру для объектов, которые могут быть субъектом наследования значений свойств.
 type: docs
-weight: 9270
+weight: 9290
 url: /ru/aspose.slides/pviobject/
 ---
 ## PVIObject класс
@@ -16,18 +16,18 @@ public abstract class PVIObject : ISlideComponent
 
 ## Свойства
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения [`IPresentationComponent`](../ipresentationcomponent). |
 
 ## Методы
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Сравнивает с указанным объектом. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Возвращает хеш-код. |
 
-### Смотрите также
+### См. также
 
 * интерфейс [ISlideComponent](../islidecomponent)
 * пространство имён [Aspose.Slides](../../aspose.slides)

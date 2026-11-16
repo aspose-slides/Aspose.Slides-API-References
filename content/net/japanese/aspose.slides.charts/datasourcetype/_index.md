@@ -3,10 +3,10 @@ title: DataSourceType
 second_title: Aspose.Sildes for .NET API リファレンス
 description: データ ソースの種類。
 type: docs
-weight: 1580
+weight: 1590
 url: /ja/aspose.slides.charts/datasourcetype/
 ---
-## DataSourceType 列挙型
+## DataSourceType 列挙体
 
 データ ソースの種類。
 
@@ -18,9 +18,9 @@ public enum DataSourceType
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
-| Worksheet | `0` | データ ポイントの XValue、YValue、Value、または BubbleSize をワークシートに保存するために CellXls オブジェクトを使用します。 |
-| StringLiterals | `1` | データ ポイントの XValue、YValue、Value、または BubbleSize を保存するために高速アクセス文字列変数を使用します。Worksheet は値の保存に使用されません。 |
-| DoubleLiterals | `2` | データ ポイントの XValue、YValue、Value、または BubbleSize を保存するために高速アクセス double 変数を使用します。Worksheet は値の保存に使用されません。 |
+| Worksheet | `0` | データ ポイントの XValue、YValue、Value または BubbleSize をワークシートに保存するために CellXls オブジェクトを使用します。 |
+| StringLiterals | `1` | データ ポイントの XValue、YValue、Value または BubbleSize を保存するために高速アクセス文字列変数を使用します。ワークシートは値の保存に使用されません。 |
+| DoubleLiterals | `2` | データ ポイントの XValue、YValue、Value または BubbleSize を保存するために高速アクセス double 変数を使用します。ワークシートは値の保存に使用されません。 |
 
 ### 参照
 

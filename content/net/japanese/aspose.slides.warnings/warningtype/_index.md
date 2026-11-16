@@ -3,10 +3,10 @@ title: WarningType
 second_title: Aspose.Sildes for .NET API リファレンス
 description: 警告の種類を表します。
 type: docs
-weight: 11830
+weight: 11850
 url: /ja/aspose.slides.warnings/warningtype/
 ---
-## WarningType 列挙型
+## WarningType 列挙体
 
 警告の種類を表します。
 
@@ -18,14 +18,14 @@ public enum WarningType
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
-| SourceFileCorruption | `0` | ソースドキュメントに問題が検出され、元の形式で保存した場合にドキュメントを開けなくなる可能性が非常に高くなります。 |
-| DataLoss | `1` | テキスト/チャート/画像またはその他のデータが、ロード後のドキュメントツリー、または保存後に作成されたドキュメントから完全に欠落します。 |
-| MajorFormattingLoss | `2` | 大幅な書式設定の損失。 |
-| MinorFormattingLoss | `3` | 軽微な書式設定の損失。 |
-| CompatibilityIssue | `4` | 既知の問題で、特定のユーザーエージェントや過去のバージョンのユーザーエージェントではドキュメントを開くことができません。 |
-| UnexpectedContent | `99` | ソースドキュメントの一部コンテンツが認識できず（サポートされていない）、問題が発生したりデータ/書式設定が失われる可能性があります。 |
+| SourceFileCorruption | `0` | ソースドキュメントで問題が検出されました。これにより、元の形式で保存した場合、ドキュメントを開くことができない可能性が非常に高くなります。 |
+| DataLoss | `1` | テキスト、チャート、画像、またはその他のデータが、ロード後のドキュメントツリーまたは保存後に作成されたドキュメントから完全に欠落します。 |
+| MajorFormattingLoss | `2` | 重大な書式損失。 |
+| MinorFormattingLoss | `3` | 軽微な書式損失。 |
+| CompatibilityIssue | `4` | これは既知の問題で、特定のユーザーエージェントまたは以前のバージョンのユーザーエージェントではドキュメントを開くことができなくなります。 |
+| UnexpectedContent | `99` | ソースドキュメント内の一部のコンテンツが認識できません（すなわちサポートされていません）。これにより問題が発生したり、データや書式の損失が生じることがあります。 |
 
-### 関連項目
+### 参照
 
 * 名前空間 [Aspose.Slides.Warnings](../../aspose.slides.warnings)
 * アセンブリ [Aspose.Slides](../../)

@@ -1,9 +1,9 @@
 ---
 title: Index
-second_title: Aspose.Sildes dla .NET referencja API
-description: Określa, do którego elementu kolekcji podrzędnych rodzica odnosi się ten punkt danych. Odczyt UInt32.
+second_title: Referencja API Aspose.Sildes dla .NET
+description: Określa, do której kolekcji podrzędnych rodzica odnosi się ten punkt danych. Odczyt UInt32.
 type: docs
-weight: 80
+weight: 120
 url: /pl/aspose.slides.charts/ichartdatapoint/index/
 ---
 ## IChartDataPoint.Index właściwość

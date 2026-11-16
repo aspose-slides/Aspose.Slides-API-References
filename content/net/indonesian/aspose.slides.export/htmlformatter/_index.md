@@ -3,10 +3,10 @@ title: HtmlFormatter
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili templat file HTML.
 type: docs
-weight: 3870
+weight: 3890
 url: /id/aspose.slides.export/htmlformatter/
 ---
-## HtmlFormatter class
+## HtmlFormatter kelas
 
 Mewakili templat file HTML.
 
@@ -18,9 +18,9 @@ public sealed class HtmlFormatter : IHtmlFormatter
 
 | Nama | Deskripsi |
 | --- | --- |
-| static [CreateCustomFormatter](../../aspose.slides.export/htmlformatter/createcustomformatter)(IHtmlFormattingController) | Membuat dan mengembalikan format HTML untuk pembuatan html yang didorong oleh callback khusus. |
-| static [CreateDocumentFormatter](../../aspose.slides.export/htmlformatter/createdocumentformatter)(string, bool) | Membuat dan mengembalikan format HTML untuk tampilan dokumen sederhana yang terdiri dari urutan slide satu di bawah yang lain. |
-| static [CreateSlideShowFormatter](../../aspose.slides.export/htmlformatter/createslideshowformatter)(string, bool) | Membuat dan mengembalikan format HTML untuk html slide show sederhana yang menampilkan slide satu demi satu. |
+| static [CreateCustomFormatter](../../aspose.slides.export/htmlformatter/createcustomformatter)(IHtmlFormattingController) | Membuat dan mengembalikan HTML formatter untuk pembuatan html berbasis callback khusus. |
+| static [CreateDocumentFormatter](../../aspose.slides.export/htmlformatter/createdocumentformatter)(string, bool) | Membuat dan mengembalikan HTML formatter untuk tampilan dokumen sederhana yang terdiri dari urutan slide satu di bawah yang lain. |
+| static [CreateSlideShowFormatter](../../aspose.slides.export/htmlformatter/createslideshowformatter)(string, bool) | Membuat dan mengembalikan HTML formatter untuk slide show html sederhana yang menampilkan slide satu demi satu. |
 
 ### Lihat Juga
 

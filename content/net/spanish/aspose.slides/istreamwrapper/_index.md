@@ -1,14 +1,14 @@
 ---
 title: IStreamWrapper
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Envoltorio Aspose.IO.Stream para la interfaz COM.
+description: Wrapper de Aspose.IO.Stream para la interfaz COM.
 type: docs
-weight: 7130
+weight: 7150
 url: /es/aspose.slides/istreamwrapper/
 ---
-## Interfaz IStreamWrapper
+## IStreamWrapper interfaz
 
-Envoltorio Aspose.IO.Stream para la interfaz COM.
+Wrapper de Aspose.IO.Stream para la interfaz COM.
 
 ```csharp
 public interface IStreamWrapper : IDisposable
@@ -19,26 +19,26 @@ public interface IStreamWrapper : IDisposable
 | Nombre | Descripción |
 | --- | --- |
 | [AsIDisposable](../../aspose.slides/istreamwrapper/asidisposable) { get; } | Permite obtener la interfaz base IDisposable. Solo lectura IDisposable. |
-| [CanRead](../../aspose.slides/istreamwrapper/canread) { get; } | Obtiene un valor que indica si la corriente actual admite lectura. Solo lectura Boolean. |
-| [CanSeek](../../aspose.slides/istreamwrapper/canseek) { get; } | Obtiene un valor que indica si la corriente actual admite búsqueda. Solo lectura Boolean. |
-| [CanWrite](../../aspose.slides/istreamwrapper/canwrite) { get; } | Obtiene un valor que indica si la corriente actual admite escritura. Solo lectura Boolean. |
-| [Length](../../aspose.slides/istreamwrapper/length) { get; } | Obtiene la longitud en bytes de la corriente. Solo lectura Int64. |
-| [Position](../../aspose.slides/istreamwrapper/position) { get; } | Obtiene la posición dentro de la corriente actual. Solo lectura Int64. |
-| [Stream](../../aspose.slides/istreamwrapper/stream) { get; } | Obtiene una corriente. Solo lectura Stream. |
+| [CanRead](../../aspose.slides/istreamwrapper/canread) { get; } | Obtiene un valor que indica si el flujo actual admite lectura. Solo lectura Boolean. |
+| [CanSeek](../../aspose.slides/istreamwrapper/canseek) { get; } | Obtiene un valor que indica si el flujo actual admite búsqueda. Solo lectura Boolean. |
+| [CanWrite](../../aspose.slides/istreamwrapper/canwrite) { get; } | Obtiene un valor que indica si el flujo actual admite escritura. Solo lectura Boolean. |
+| [Length](../../aspose.slides/istreamwrapper/length) { get; } | Obtiene la longitud en bytes del flujo. Solo lectura Int64. |
+| [Position](../../aspose.slides/istreamwrapper/position) { get; } | Obtiene la posición dentro del flujo actual. Solo lectura Int64. |
+| [Stream](../../aspose.slides/istreamwrapper/stream) { get; } | Obtiene un flujo. Solo lectura Stream. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [Close](../../aspose.slides/istreamwrapper/close)() | Cierra la corriente actual y libera cualquier recurso. |
-| [Flush](../../aspose.slides/istreamwrapper/flush)() | Borra todos los búferes de esta corriente y provoca que los datos almacenados se escriban en el dispositivo subyacente. |
-| [Read](../../aspose.slides/istreamwrapper/read)(byte[], int, int) | Lee una secuencia de bytes de la corriente actual y avanza la posición dentro de la corriente por la cantidad de bytes leídos. |
-| [ReadByte](../../aspose.slides/istreamwrapper/readbyte)() | Lee un byte de la corriente y avanza la posición dentro de la corriente en un byte, o devuelve -1 si está al final de la corriente. |
-| [Seek](../../aspose.slides/istreamwrapper/seek)(long, SeekOrigin) | Establece la posición dentro de la corriente actual |
-| [Write](../../aspose.slides/istreamwrapper/write)(byte[], int, int) | escribe una secuencia de bytes en la corriente actual y avanza la posición actual dentro de esta corriente por la cantidad de bytes escritos. |
-| [WriteByte](../../aspose.slides/istreamwrapper/writebyte)(byte) | Escribe un byte en la posición actual de la corriente y avanza la posición dentro de la corriente en un byte. |
+| [Close](../../aspose.slides/istreamwrapper/close)() | Cierra el flujo actual y libera cualquier recurso. |
+| [Flush](../../aspose.slides/istreamwrapper/flush)() | Borra todos los buffers de este flujo y provoca que los datos almacenados en búfer se escriban en el dispositivo subyacente. |
+| [Read](../../aspose.slides/istreamwrapper/read)(byte[], int, int) | Lee una secuencia de bytes del flujo actual y avanza la posición dentro del flujo en la cantidad de bytes leídos. |
+| [ReadByte](../../aspose.slides/istreamwrapper/readbyte)() | Lee un byte del flujo y avanza la posición dentro del flujo en un byte, o devuelve -1 si está al final del flujo. |
+| [Seek](../../aspose.slides/istreamwrapper/seek)(long, SeekOrigin) | Establece la posición dentro del flujo actual |
+| [Write](../../aspose.slides/istreamwrapper/write)(byte[], int, int) | Escribe una secuencia de bytes en el flujo actual y avanza la posición actual dentro de este flujo en la cantidad de bytes escritos. |
+| [WriteByte](../../aspose.slides/istreamwrapper/writebyte)(byte) | Escribe un byte en la posición actual del flujo y avanza la posición dentro del flujo en un byte. |
 
-### Ver también
+### Véase también
 
 * espacio de nombres [Aspose.Slides](../../aspose.slides)
 * ensamblado [Aspose.Slides](../../)

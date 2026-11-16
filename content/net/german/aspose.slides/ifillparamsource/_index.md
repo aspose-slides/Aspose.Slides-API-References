@@ -1,9 +1,9 @@
 ---
 title: IFillParamSource
-second_title: Aspose.Sildes für .NET API Referenz
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Hilfsfüllparameter-Schnittstelle.
 type: docs
-weight: 5810
+weight: 5830
 url: /de/aspose.slides/ifillparamsource/
 ---
 ## IFillParamSource Schnittstelle

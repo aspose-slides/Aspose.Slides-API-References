@@ -1,9 +1,9 @@
 ---
 title: CellUnsupportedDataException
-second_title: Tham khảo API Aspose.Sildes cho .NET
+second_title: Tham chiếu API Aspose.Sildes cho .NET
 description: Ngoại lệ được ném ra khi gặp dữ liệu không được hỗ trợ trong một ô bảng tính.
 type: docs
-weight: 10730
+weight: 10750
 url: /vi/aspose.slides.spreadsheet/cellunsupporteddataexception/
 ---
 ## CellUnsupportedDataException lớp
@@ -14,13 +14,13 @@ Ngoại lệ được ném ra khi gặp dữ liệu không được hỗ trợ t
 public class CellUnsupportedDataException : PptxEditException
 ```
 
-## Các hàm khởi tạo
+## Hàm tạo
 
 | Tên | Mô tả |
 | --- | --- |
 | [CellUnsupportedDataException](cellunsupporteddataexception#constructor)() | Khởi tạo một thể hiện mới của lớp [`CellUnsupportedDataException`](../cellunsupporteddataexception). |
-| [CellUnsupportedDataException](cellunsupporteddataexception#constructor_1)(string) | Khởi tạo một thể hiện mới của lớp [`CellUnsupportedDataException`](../cellunsupporteddataexception) với thông báo lỗi được chỉ định. |
-| [CellUnsupportedDataException](cellunsupporteddataexception#constructor_2)(string, Exception) | Khởi tạo một thể hiện mới của lớp [`CellUnsupportedDataException`](../cellunsupporteddataexception) với thông báo lỗi được chỉ định và một tham chiếu tới ngoại lệ nội bộ là nguyên nhân của ngoại lệ này. |
+| [CellUnsupportedDataException](cellunsupporteddataexception#constructor_1)(string) | Khởi tạo một thể hiện mới của lớp [`CellUnsupportedDataException`](../cellunsupporteddataexception) với một thông báo lỗi được chỉ định. |
+| [CellUnsupportedDataException](cellunsupporteddataexception#constructor_2)(string, Exception) | Khởi tạo một thể hiện mới của lớp [`CellUnsupportedDataException`](../cellunsupporteddataexception) với một thông báo lỗi được chỉ định và một tham chiếu đến ngoại lệ bên trong là nguyên nhân gây ra ngoại lệ này. |
 
 ### Xem thêm
 

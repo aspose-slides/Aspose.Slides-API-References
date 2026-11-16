@@ -1,31 +1,31 @@
 ---
 title: FontSubstitutionInfo
-second_title: راهنمای API Aspose.Sildes برای .NET
-description: این ساختار اطلاعات مربوط به جایگزینی قلم را که هنگام رندر شدن استفاده می‌شود، نشان می‌دهد.
+second_title: Aspose.Sildes برای مرجع API .NET
+description: این ساختار اطلاعات مربوط به جایگزینی قلم را زمانی که رندر خواهد شد، نمایش می‌دهد.
 type: docs
-weight: 4910
+weight: 4930
 url: /fa/aspose.slides/fontsubstitutioninfo/
 ---
 ## FontSubstitutionInfo کلاس
 
-این ساختار اطلاعات مربوط به جایگزینی قلم را که هنگام رندر شدن استفاده می‌شود، نمایش می‌دهد.
+این ساختار اطلاعات مربوط به جایگزینی قلم را زمانی که رندر خواهد شد، نمایش می‌دهد.
 
 ```csharp
 public class FontSubstitutionInfo
 ```
 
-## سازندها
+## سازنده‌ها
 
 | نام | توضیح |
 | --- | --- |
 | [FontSubstitutionInfo](fontsubstitutioninfo)(string, string) | یک نمونه از کلاس [`FontSubstitutionInfo`](../fontsubstitutioninfo) ایجاد می‌کند. |
 
-## ویژگی‌ها
+## خواص
 
 | نام | توضیح |
 | --- | --- |
-| [OriginalFontName](../../aspose.slides/fontsubstitutioninfo/originalfontname) { get; } | نام قلم منبع را در ارائه نشان می‌دهد. فقط‌خواندنی String |
-| [SubstitutedFontName](../../aspose.slides/fontsubstitutioninfo/substitutedfontname) { get; } | نام قلم جایگزین برای قلم اصلی را نشان می‌دهد. فقط‌خواندنی String |
+| [OriginalFontName](../../aspose.slides/fontsubstitutioninfo/originalfontname) { get; } | نام قلم منبع را در ارائه نشان می‌دهد. رشته فقط‌خواندنی |
+| [SubstitutedFontName](../../aspose.slides/fontsubstitutioninfo/substitutedfontname) { get; } | نام قلم جایگزین برای قلم اصلی را نشان می‌دهد. رشته فقط‌خواندنی |
 
 ### مثال‌ها
 
@@ -39,7 +39,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }        
 ```
 
-### موارد مرتبط
+### مراجعه کنید به
 
 * فضای‌نام [Aspose.Slides](../../aspose.slides)
 * مجتمع [Aspose.Slides](../../)

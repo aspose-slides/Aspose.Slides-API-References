@@ -1,14 +1,14 @@
 ---
 title: MathBarFactory
-second_title: Aspose.Sildes for .NET API Referenz
-description: Ermöglicht das Erstellen einer mathematischen Leiste
+second_title: Aspose.Sildes für .NET API Referenz
+description: Ermöglicht das Erstellen einer Math Bar
 type: docs
-weight: 8580
+weight: 8600
 url: /de/aspose.slides.mathtext/mathbarfactory/
 ---
 ## MathBarFactory Klasse
 
-Ermöglicht das Erstellen einer mathematischen Leiste
+Ermöglicht das Erstellen einer Math Bar
 
 ```csharp
 public class MathBarFactory : IMathBarFactory
@@ -24,10 +24,10 @@ public class MathBarFactory : IMathBarFactory
 
 | Name | Beschreibung |
 | --- | --- |
-| [CreateMathBar](../../aspose.slides.mathtext/mathbarfactory/createmathbar#createmathbar)(IMathElement) | Erstellt eine mathematische Leiste, indem sie auf das Element angewendet wird |
-| [CreateMathBar](../../aspose.slides.mathtext/mathbarfactory/createmathbar#createmathbar_1)(IMathElement, MathTopBotPositions) | Erstellt eine mathematische Leiste, indem sie auf das Element angewendet wird |
+| [CreateMathBar](../../aspose.slides.mathtext/mathbarfactory/createmathbar#createmathbar)(IMathElement) | Erstellt eine Math Bar, indem es auf das Element angewendet wird |
+| [CreateMathBar](../../aspose.slides.mathtext/mathbarfactory/createmathbar#createmathbar_1)(IMathElement, MathTopBotPositions) | Erstellt eine Math Bar, indem es auf das Element angewendet wird |
 
-### Bemerkungen
+### Hinweise
 
 Für COM-Kompatibilität
 

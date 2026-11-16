@@ -1,14 +1,14 @@
 ---
 title: IAxisFormat
-second_title: Aspose.Sildes cho .NET Tham chiếu API
+second_title: Tham chiếu API Aspose.Sildes cho .NET
 description: Đại diện cho các thuộc tính định dạng biểu đồ.
 type: docs
-weight: 1720
+weight: 1730
 url: /vi/aspose.slides.charts/iaxisformat/
 ---
-## IAxisFormat giao diện
+## Giao diện IAxisFormat
 
-Represents chart format properties.
+Đại diện cho các thuộc tính định dạng biểu đồ.
 
 ```csharp
 public interface IAxisFormat
@@ -18,8 +18,8 @@ public interface IAxisFormat
 
 | Tên | Mô tả |
 | --- | --- |
-| [Effect](../../aspose.slides.charts/iaxisformat/effect) { get; } | Trả về hiệu ứng được sử dụng cho một trục. Chỉ đọc [`IEffectFormat`](../../aspose.slides/ieffectformat). |
-| [Fill](../../aspose.slides.charts/iaxisformat/fill) { get; } | Trả về các thuộc tính kiểu tô đầy của một trục. Chỉ đọc [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [Effect](../../aspose.slides.charts/iaxisformat/effect) { get; } | Trả về các hiệu ứng được sử dụng cho một trục. Chỉ đọc [`IEffectFormat`](../../aspose.slides/ieffectformat). |
+| [Fill](../../aspose.slides.charts/iaxisformat/fill) { get; } | Trả về các thuộc tính kiểu tô màu của một trục. Chỉ đọc [`IFillFormat`](../../aspose.slides/ifillformat). |
 | [Line](../../aspose.slides.charts/iaxisformat/line) { get; } | Trả về các thuộc tính kiểu đường của một trục. Chỉ đọc [`ILineFormat`](../../aspose.slides/ilineformat). |
 
 ### Xem thêm

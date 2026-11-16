@@ -3,7 +3,7 @@ title: IEffectEffectiveData
 second_title: Aspose.Sildes 的 .NET API 参考
 description: 表示效果的不可变对象的基类。
 type: docs
-weight: 3280
+weight: 3300
 url: /zh/aspose.slides.effects/ieffecteffectivedata/
 ---
 ## IEffectEffectiveData 接口
@@ -14,7 +14,7 @@ url: /zh/aspose.slides.effects/ieffecteffectivedata/
 public interface IEffectEffectiveData
 ```
 
-### 另请参见
+### 另请参阅
 
 * 命名空间 [Aspose.Slides.Effects](../../aspose.slides.effects)
 * 程序集 [Aspose.Slides](../../)

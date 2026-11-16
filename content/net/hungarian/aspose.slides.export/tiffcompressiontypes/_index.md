@@ -1,14 +1,14 @@
 ---
 title: TiffCompressionTypes
 second_title: Aspose.Sildes .NET API referencia
-description: Lehetőségeket biztosít, amelyek szabályozzák, hogyan tömörítik a prezentációt TIFF formátumban.
+description: Lehetővé teszi a beállításokat, amelyek meghatározzák, hogyan tömörítik a prezentációt TIFF formátumban.
 type: docs
-weight: 4560
+weight: 4580
 url: /hu/aspose.slides.export/tiffcompressiontypes/
 ---
-## TiffCompressionTypes enumeráció
+## TiffCompressionTypes felsorolás
 
-Lehetőségeket biztosít, amelyek szabályozzák, hogyan tömörítik a prezentációt TIFF formátumban.
+Lehetővé teszi a beállításokat, amelyek meghatározzák, hogyan tömörítik a prezentációt TIFF formátumban.
 
 ```csharp
 public enum TiffCompressionTypes

@@ -1,38 +1,38 @@
 ---
 title: EmbedAllFontsHtmlController
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: คลาสตัวควบคุมการจัดรูปแบบที่ใช้สำหรับฝังฟอนต์ทั้งหมดของการนำเสนอในรูปแบบ WOFF.
+description: คลาสตัวควบคุมการจัดรูปแบบที่ใช้สำหรับฝังแบบอักษรการพรีเซนเทชันทั้งหมดในรูปแบบ WOFF.
 type: docs
-weight: 3760
+weight: 3780
 url: /th/aspose.slides.export/embedallfontshtmlcontroller/
 ---
 ## EmbedAllFontsHtmlController คลาส
 
-คลาสตัวควบคุมการจัดรูปแบบที่ใช้สำหรับฝังฟอนต์ทั้งหมดของการนำเสนอในรูปแบบ WOFF.
+คลาสตัวควบคุมการจัดรูปแบบที่ใช้สำหรับฝังแบบอักษรการพรีเซนเทชันทั้งหมดในรูปแบบ WOFF.
 
 ```csharp
 public class EmbedAllFontsHtmlController : IHtmlFormattingController
 ```
 
-## คอนสตรัคเตอร์
+## ตัวสร้าง
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
 | [EmbedAllFontsHtmlController](embedallfontshtmlcontroller#constructor)() | สร้างอินสแตนซ์ใหม่ |
 | [EmbedAllFontsHtmlController](embedallfontshtmlcontroller#constructor_1)(string[]) | สร้างอินสแตนซ์ใหม่ |
 
 ## เมธอด
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| virtual [WriteAllFonts](../../aspose.slides.export/embedallfontshtmlcontroller/writeallfonts)(IHtmlGenerator, IPresentation) | เขียนฟอนต์ทั้งหมดที่อยู่ใน [`Presentation`](../../aspose.slides/presentation). |
-| virtual [WriteDocumentEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writedocumentend)(IHtmlGenerator, IPresentation) | ถูกเรียกเพื่อเขียนส่วนท้ายของเอกสาร html. ถูกเรียกหนึ่งครั้งต่อการแปลงการนำเสนอ. |
-| virtual [WriteDocumentStart](../../aspose.slides.export/embedallfontshtmlcontroller/writedocumentstart)(IHtmlGenerator, IPresentation) | ถูกเรียกเพื่อเขียนส่วนหัวของเอกสาร html. ถูกเรียกหนึ่งครั้งต่อการแปลงการนำเสนอ. |
+| virtual [WriteAllFonts](../../aspose.slides.export/embedallfontshtmlcontroller/writeallfonts)(IHtmlGenerator, IPresentation) | เขียนแบบอักษรทั้งหมดที่อยู่ใน [`Presentation`](../../aspose.slides/presentation). |
+| virtual [WriteDocumentEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writedocumentend)(IHtmlGenerator, IPresentation) | ใช้เพื่อเขียนส่วนท้ายของเอกสาร html. ถูกเรียกหนึ่งครั้งต่อการแปลงพรีเซนเทชัน. |
+| virtual [WriteDocumentStart](../../aspose.slides.export/embedallfontshtmlcontroller/writedocumentstart)(IHtmlGenerator, IPresentation) | ใช้เพื่อเขียนส่วนหัวของเอกสาร html. ถูกเรียกหนึ่งครั้งต่อการแปลงพรีเซนเทชัน. |
 | virtual [WriteFont](../../aspose.slides.export/embedallfontshtmlcontroller/writefont)(IHtmlGenerator, IFontData, IFontData, string, string, byte[]) | เขียนข้อมูลเป็น base64 ลงในเอกสาร HTML เอง |
-| virtual [WriteShapeEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapeend)(IHtmlGenerator, IShape) | ถูกเรียกก่อนการเรนเดอร์ของ shape. ถูกเรียกหนึ่งครั้งต่อแต่ละ shape. หากฟังก์ชันนี้เขียนอะไรลงใน generator, การสร้างภาพสไลด์ปัจจุบันจะเสร็จสิ้น, ส่วน html ที่เพิ่มเข้ามาจะถูกแทรกและภาพใหม่จะเริ่มต้นบนภาพก่อนหน้า. |
-| virtual [WriteShapeStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapestart)(IHtmlGenerator, IShape) | ถูกเรียกก่อนการเรนเดอร์ของ shape. ถูกเรียกหนึ่งครั้งต่อแต่ละ shape. หากฟังก์ชันนี้เขียนอะไรลงใน generator, การสร้างภาพสไลด์ปัจจุบันจะเสร็จสิ้น, ส่วน html ที่เพิ่มเข้ามาจะถูกแทรกและภาพใหม่จะเริ่มต้นบนภาพก่อนหน้า. |
-| virtual [WriteSlideEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeslideend)(IHtmlGenerator, ISlide) | ถูกเรียกเพื่อเขียนส่วนท้ายของสไลด์ html. ถูกเรียกหนึ่งครั้งต่อแต่ละสไลด์. |
-| virtual [WriteSlideStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeslidestart)(IHtmlGenerator, ISlide) | ถูกเรียกเพื่อเขียนส่วนหัวของสไลด์ html. ถูกเรียกหนึ่งครั้งต่อแต่ละสไลด์. |
+| virtual [WriteShapeEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapeend)(IHtmlGenerator, IShape) | เรียกก่อนการเรนเดอร์ของรูปร่าง. ถูกเรียกหนึ่งครั้งต่อแต่ละรูปร่าง. หากฟังก์ชันนี้เขียนอะไรลงใน generator การสร้างภาพสไลด์ปัจจุบันจะเสร็จสิ้น, ส่วน html ที่เพิ่มเข้ามาจะถูกแทรกและภาพใหม่จะเริ่มที่ด้านบนของภาพก่อนหน้า. |
+| virtual [WriteShapeStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapestart)(IHtmlGenerator, IShape) | เรียกก่อนการเรนเดอร์ของรูปร่าง. ถูกเรียกหนึ่งครั้งต่อแต่ละรูปร่าง. หากฟังก์ชันนี้เขียนอะไรลงใน generator การสร้างภาพสไลด์ปัจจุบันจะเสร็จสิ้น, ส่วน html ที่เพิ่มเข้ามาจะถูกแทรกและภาพใหม่จะเริ่มที่ด้านบนของภาพก่อนหน้า. |
+| virtual [WriteSlideEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeslideend)(IHtmlGenerator, ISlide) | ใช้เพื่อเขียนส่วนท้ายของสไลด์ html. ถูกเรียกหนึ่งครั้งต่อแต่ละสไลด์. |
+| virtual [WriteSlideStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeslidestart)(IHtmlGenerator, ISlide) | ใช้เพื่อเขียนส่วนหัวของสไลด์ html. ถูกเรียกหนึ่งครั้งต่อแต่ละสไลด์. |
 
 ### ดูเพิ่มเติม
 

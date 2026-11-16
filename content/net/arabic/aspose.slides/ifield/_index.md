@@ -3,7 +3,7 @@ title: IField
 second_title: مرجع API لـ Aspose.Sildes لـ .NET
 description: يمثل حقلًا.
 type: docs
-weight: 5770
+weight: 5790
 url: /ar/aspose.slides/ifield/
 ---
 ## IField واجهة
@@ -18,8 +18,8 @@ public interface IField : ISlideComponent
 
 | الاسم | الوصف |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides/ifield/asislidecomponent) { get; } | يسمح بالحصول على واجهة ISlideComponent الأساسية. للقراءة فقط [`ISlideComponent`](../islidecomponent). |
-| [Type](../../aspose.slides/ifield/type) { get; set; } | يعيد أو يضبط نوع الحقل. للقراءة والكتابة [`IFieldType`](../ifieldtype). |
+| [AsISlideComponent](../../aspose.slides/ifield/asislidecomponent) { get; } | يسمح بالحصول على واجهة ISlideComponent الأساسية. قراءة فقط [`ISlideComponent`](../islidecomponent). |
+| [Type](../../aspose.slides/ifield/type) { get; set; } | يرجع أو يحدد نوع الحقل. قراءة/كتابة [`IFieldType`](../ifieldtype). |
 
 ### انظر أيضًا
 

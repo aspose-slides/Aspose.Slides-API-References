@@ -1,9 +1,9 @@
 ---
 title: IVideoFrame
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa un clip de video en una diapositiva.
 type: docs
-weight: 7380
+weight: 7400
 url: /es/aspose.slides/ivideoframe/
 ---
 ## IVideoFrame interfaz
@@ -21,15 +21,16 @@ public interface IVideoFrame : IPictureFrame
 | [AsIPictureFrame](../../aspose.slides/ivideoframe/asipictureframe) { get; } | Permite obtener la interfaz base IPictureFrame. Solo lectura [`IPictureFrame`](../ipictureframe). |
 | [CaptionTracks](../../aspose.slides/ivideoframe/captiontracks) { get; } | Obtiene la colección de subtítulos cerrados asociados al fotograma de audio. Esta propiedad es solo lectura y devuelve un [`ICaptionsCollection`](../icaptionscollection) que contiene todas las pistas de subtítulos. |
 | [EmbeddedVideo](../../aspose.slides/ivideoframe/embeddedvideo) { get; set; } | Devuelve o establece el objeto de video incrustado. Lectura/escritura [`IVideo`](../ivideo). |
-| [FullScreenMode](../../aspose.slides/ivideoframe/fullscreenmode) { get; set; } | Determina si un video se muestra en modo pantalla completa. Lectura/escritura Boolean. |
+| [FullScreenMode](../../aspose.slides/ivideoframe/fullscreenmode) { get; set; } | Determina si un video se muestra en modo de pantalla completa. Lectura/escritura Boolean. |
 | [HideAtShowing](../../aspose.slides/ivideoframe/hideatshowing) { get; set; } | Determina si un VideoFrame está oculto. Lectura/escritura Boolean. |
 | [LinkPathLong](../../aspose.slides/ivideoframe/linkpathlong) { get; set; } | Devuelve o establece el nombre de un archivo de video que está vinculado a un VideoFrame. Lectura/escritura String. |
-| [PlayLoopMode](../../aspose.slides/ivideoframe/playloopmode) { get; set; } | Determina si un video se reproduce en bucle. Lectura/escritura Boolean. |
+| [PlayLoopMode](../../aspose.slides/ivideoframe/playloopmode) { get; set; } | Determina si un video está en bucle. Lectura/escritura Boolean. |
 | [PlayMode](../../aspose.slides/ivideoframe/playmode) { get; set; } | Devuelve o establece el modo de reproducción del video. Lectura/escritura [`VideoPlayModePreset`](../videoplaymodepreset). |
-| [RewindVideo](../../aspose.slides/ivideoframe/rewindvideo) { get; set; } | Determina si un video se rebobina automáticamente al inicio tan pronto como la película termina de reproducirse. Lectura/escritura Boolean. |
-| [TrimFromEnd](../../aspose.slides/ivideoframe/trimfromend) { get; set; } | Recorte final [ms] |
-| [TrimFromStart](../../aspose.slides/ivideoframe/trimfromstart) { get; set; } | Recorte inicial [ms] |
-| [Volume](../../aspose.slides/ivideoframe/volume) { get; set; } | Devuelve o establece el volumen del audio. Lectura/escritura [`AudioVolumeMode`](../audiovolumemode). |
+| [RewindVideo](../../aspose.slides/ivideoframe/rewindvideo) { get; set; } | Determina si un video se rebobina automáticamente al inicio tan pronto como la película haya terminado de reproducirse. Lectura/escritura Boolean. |
+| [TrimFromEnd](../../aspose.slides/ivideoframe/trimfromend) { get; set; } | Recortar fin [ms] |
+| [TrimFromStart](../../aspose.slides/ivideoframe/trimfromstart) { get; set; } | Recortar inicio [ms] |
+| [Volume](../../aspose.slides/ivideoframe/volume) { get; set; } | Devuelve o establece el volumen de audio. Lectura/escritura [`AudioVolumeMode`](../audiovolumemode). |
+| [VolumeValue](../../aspose.slides/ivideoframe/volumevalue) { get; set; } | Devuelve o establece el volumen exacto del video como un porcentaje. El valor se expresa como un porcentaje de 0 a 100. Use esta propiedad para leer o establecer valores de volumen más precisos que los niveles predefinidos disponibles a través de la propiedad [`Volume`](./volume). Lectura/escritura Single. |
 
 ### Ver también
 

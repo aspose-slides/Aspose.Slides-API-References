@@ -1,14 +1,14 @@
 ---
 title: IMasterHandoutSlideManager
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Trình quản lý slide handout chính.
+second_title: Aspose.Sildes cho .NET Tham chiếu API
+description: Trình quản lý slide bản tay chính.
 type: docs
-weight: 6370
+weight: 6390
 url: /vi/aspose.slides/imasterhandoutslidemanager/
 ---
 ## IMasterHandoutSlideManager giao diện
 
-Trình quản lý slide handout chính.
+Trình quản lý slide bản tay chính.
 
 ```csharp
 public interface IMasterHandoutSlideManager
@@ -18,14 +18,14 @@ public interface IMasterHandoutSlideManager
 
 | Tên | Mô tả |
 | --- | --- |
-| [MasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/masterhandoutslide) { get; } | Trả về một master cho tất cả các slide ghi chú của bài thuyết trình này nếu có, nếu không trả về null. Chỉ đọc [`IMasterHandoutSlide`](../imasterhandoutslide). |
+| [MasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/masterhandoutslide) { get; } | Trả về một master cho tất cả các slide ghi chú của bản trình chiếu này nếu có, nếu không trả về null. Chỉ đọc [`IMasterHandoutSlide`](../imasterhandoutslide). |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| [RemoveMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/removemasterhandoutslide)() | Xóa slide handout chính. |
-| [SetDefaultMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/setdefaultmasterhandoutslide)() | Đặt slide handout chính mặc định thành slide handout liên quan. |
+| [RemoveMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/removemasterhandoutslide)() | Xóa slide bản tay master. |
+| [SetDefaultMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/setdefaultmasterhandoutslide)() | Đặt slide bản tay master mặc định thành slide bản tay liên quan. |
 
 ### Xem thêm
 

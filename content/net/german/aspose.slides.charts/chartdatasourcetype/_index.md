@@ -1,14 +1,14 @@
 ---
 title: ChartDataSourceType
-second_title: Aspose.Sildes für .NET API Referenz
-description: Stellt einen Typ der Datenquelle des Diagramms dar
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Stellt einen Typ einer Datenquelle des Diagramms dar
 type: docs
-weight: 1370
+weight: 1380
 url: /de/aspose.slides.charts/chartdatasourcetype/
 ---
 ## ChartDataSourceType Aufzählung
 
-Stellt einen Typ der Datenquelle des Diagramms dar
+Stellt einen Typ einer Datenquelle des Diagramms dar
 
 ```csharp
 public enum ChartDataSourceType

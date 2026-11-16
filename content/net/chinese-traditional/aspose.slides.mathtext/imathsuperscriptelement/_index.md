@@ -1,14 +1,14 @@
 ---
 title: IMathSuperscriptElement
-second_title: Aspose.Sildes for .NET API 參考文件
-description: 指定上標物件，該物件由基礎與放置於右上方、尺寸較小的上標組成
+second_title: Aspose.Sildes for .NET API 參考
+description: 指定上標物件，此物件由基礎與位於右上方且尺寸較小的上標組成
 type: docs
-weight: 8490
+weight: 8510
 url: /zh-hant/aspose.slides.mathtext/imathsuperscriptelement/
 ---
 ## IMathSuperscriptElement 介面
 
-指定上標物件，該物件由基礎與放置於右上方、尺寸較小的上標組成
+指定上標物件，其由基底與位於右上方且尺寸較小的上標組成
 
 ```csharp
 public interface IMathSuperscriptElement : IMathElement
@@ -19,7 +19,7 @@ public interface IMathSuperscriptElement : IMathElement
 | 名稱 | 說明 |
 | --- | --- |
 | [AsIMathElement](../../aspose.slides.mathtext/imathsuperscriptelement/asimathelement) { get; } | 允許取得基礎 IMathElement 介面 [`IMathElement`](../imathelement) |
-| [Base](../../aspose.slides.mathtext/imathsuperscriptelement/base) { get; } | 基礎參數 |
+| [Base](../../aspose.slides.mathtext/imathsuperscriptelement/base) { get; } | 基底參數 |
 | [Superscript](../../aspose.slides.mathtext/imathsuperscriptelement/superscript) { get; } | 上標 |
 
 ### 範例
@@ -31,7 +31,7 @@ public interface IMathSuperscriptElement : IMathElement
 IMathSuperscriptElement superscriptElement = new MathematicalText("N").SetSuperscript("i");
 ```
 
-### 另見
+### 另請參閱
 
 * 介面 [IMathElement](../imathelement)
 * 命名空間 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

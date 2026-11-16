@@ -1,14 +1,14 @@
 ---
 title: IFormatScheme
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Slaat thema-gedefinieerde indelingen voor de vormen op.
+description: Slaat door thema gedefinieerde opmaak voor de vormen op.
 type: docs
-weight: 11270
+weight: 11290
 url: /nl/aspose.slides.theme/iformatscheme/
 ---
 ## IFormatScheme interface
 
-Slaat thema-gedefinieerde indelingen voor de vormen op.
+Slaat door thema gedefinieerde opmaak voor de vormen op.
 
 ```csharp
 public interface IFormatScheme : ISlideComponent
@@ -18,11 +18,11 @@ public interface IFormatScheme : ISlideComponent
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides.theme/iformatscheme/asislidecomponent) { get; } | Staat toe om de basis-interface ISlideComponent op te halen. Alleen-lezen [`ISlideComponent`](../../aspose.slides/islidecomponent). |
-| [BackgroundFillStyles](../../aspose.slides.theme/iformatscheme/backgroundfillstyles) { get; } | Retourneert een verzameling thema-gedefinieerde achtergrond-vullingsstijlen. Alleen-lezen [`IFillFormatCollection`](../ifillformatcollection). |
-| [EffectStyles](../../aspose.slides.theme/iformatscheme/effectstyles) { get; } | Retourneert een verzameling thema-gedefinieerde effectstijlen. Alleen-lezen [`IEffectStyleCollection`](../ieffectstylecollection). |
-| [FillStyles](../../aspose.slides.theme/iformatscheme/fillstyles) { get; } | Retourneert een verzameling thema-gedefinieerde vullingsstijlen. Alleen-lezen [`IFillFormatCollection`](../ifillformatcollection). |
-| [LineStyles](../../aspose.slides.theme/iformatscheme/linestyles) { get; } | Retourneert een verzameling thema-gedefinieerde lijnstijlen. Alleen-lezen [`ILineFormatCollection`](../ilineformatcollection). |
+| [AsISlideComponent](../../aspose.slides.theme/iformatscheme/asislidecomponent) { get; } | Staat toe om de basis ISlideComponent interface op te halen. Alleen-lezen [`ISlideComponent`](../../aspose.slides/islidecomponent). |
+| [BackgroundFillStyles](../../aspose.slides.theme/iformatscheme/backgroundfillstyles) { get; } | Geeft een collectie van door het thema gedefinieerde achtergrondvulstijlen terug. Alleen-lezen [`IFillFormatCollection`](../ifillformatcollection). |
+| [EffectStyles](../../aspose.slides.theme/iformatscheme/effectstyles) { get; } | Geeft een collectie van door het thema gedefinieerde effectstijlen terug. Alleen-lezen [`IEffectStyleCollection`](../ieffectstylecollection). |
+| [FillStyles](../../aspose.slides.theme/iformatscheme/fillstyles) { get; } | Geeft een collectie van door het thema gedefinieerde vulstijlen terug. Alleen-lezen [`IFillFormatCollection`](../ifillformatcollection). |
+| [LineStyles](../../aspose.slides.theme/iformatscheme/linestyles) { get; } | Geeft een collectie van door het thema gedefinieerde lijntijlen terug. Alleen-lezen [`ILineFormatCollection`](../ilineformatcollection). |
 
 ### Zie ook
 

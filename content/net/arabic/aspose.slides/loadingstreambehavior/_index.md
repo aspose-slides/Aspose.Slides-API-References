@@ -1,14 +1,14 @@
 ---
 title: LoadingStreamBehavior
 second_title: Aspose.Sildes لـ .NET مرجع API
-description: يُعتبر الـ Stream الممرَّر إلى طريقة ما ككائن ثنائي كبير (BLOB) راجع IBlobManagementOptions./iblobmanagementoptions description. تحدد قيم هذا التعداد كيف يجب معاملة الـ Stream عندما يُمرَّر إلى الطريقة. وفقًا للمتطلبات يمكن اتخاذ قرارات مختلفة لتوفير أكثر سلوك كفاءة.
+description: يُعَد الـ Stream الممرّر إلى طريقة ما ككائن ثنائي كبير (BLOB) راجع وصف IBlobManagementOptions./iblobmanagementoptions. تحدد قيم هذا التعداد كيفية التعامل مع الـ Stream عندما يُمرّر إلى الطريقة. بناءً على المتطلبات، يمكن اتخاذ قرارات مختلفة لتوفير أكثر سلوك كفاءة.
 type: docs
-weight: 7850
+weight: 7870
 url: /ar/aspose.slides/loadingstreambehavior/
 ---
 ## تعداد LoadingStreamBehavior
 
-يُعتبر الـ Stream الممرَّر إلى طريقة ما ككائن ثنائي كبير (BLOB) (انظر [`IBlobManagementOptions`](../iblobmanagementoptions) description). تحدد قيم هذا التعداد كيف ينبغي معالجة الـ Stream عندما يُمرَّر إلى الطريقة. وفقًا للمتطلبات، يمكن اتخاذ قرارات مختلفة لتوفير أكثر السلوك كفاءة.
+يُعتبر الـ Stream الممرّر إلى طريقة ما ككائن ثنائي كبير (BLOB) (انظر وصف [`IBlobManagementOptions`](../iblobmanagementoptions)). تحدد قيم هذا التعداد كيفية التعامل مع الـ Stream عندما يُمرّر إلى الطريقة. بناءً على المتطلبات، يمكن اتخاذ قرارات مختلفة لتوفير أكثر سلوك كفاءة.
 
 ```csharp
 public enum LoadingStreamBehavior
@@ -18,10 +18,10 @@ public enum LoadingStreamBehavior
 
 | الاسم | القيمة | الوصف |
 | --- | --- | --- |
-| ReadStreamAndRelease | `0` | سيتم قراءة الـ stream حتى النهاية ثم تحريره - أي سيتم ضمان عدم استخدام هذا الـ stream من قبل كائن [`IPresentation`](../ipresentation) في المستقبل. يمكن إغلاقه بواسطة كود العميل أو استخدامه بأي طريقة أخرى. |
-| KeepLocked | `1` | سيتم قفل الـ stream داخل كائن [`IPresentation`](../ipresentation)، أي سيتم نقل ملكية الـ stream. سيكون كائن [`IPresentation`](../ipresentation) مسؤولاً عن تحرير الـ stream بشكل صحيح عندما يتم تحرير هذا الكائن نفسه. هذا السلوك مفيد جدًا عندما تحتاج إلى تسلسل ملف BLOB كبير (مثل فيديو أو صوت كبير -see [`IBlobManagementOptions`](../iblobmanagementoptions) description) وتريد منع تحميل هذا الملف في الذاكرة أو تجنب مشكلات الأداء الأخرى. يمكنك ببساطة فتح FileStream لهذا الملف وتمريره إلى طريقة، مع اختيار KeepLocked LoadingStreamBehavior. |
+| ReadStreamAndRelease | `0` | سيتم قراءة الـ stream حتى النهاية ثم إطلاقه - أي أنه سيُضمن عدم استخدام هذا الـ stream من قبل مثيل [`IPresentation`](../ipresentation) في المستقبل. يمكن إغلاقه بواسطة شفرة العميل أو استخدامه بأي طريقة أخرى. |
+| KeepLocked | `1` | سيتم قفل الـ stream داخل كائن [`IPresentation`](../ipresentation)، أي سيتم نقل ملكية الـ stream. سيكون كائن [`IPresentation`](../ipresentation) مسؤولاً عن تحرير الـ stream بشكل صحيح عندما يتم تحرير هذا الكائن نفسه. هذا السلوك مفيد للغاية عندما تحتاج إلى تسلسل ملف BLOB كبير (مثل فيديو أو صوت كبير - انظر وصف [`IBlobManagementOptions`](../iblobmanagementoptions)) وتريد منع تحميل هذا الملف إلى الذاكرة أو تجنب مشاكل الأداء الأخرى. يمكنك simplement فتح FileStream لهذا الملف وتمريره إلى طريقة، مع اختيار KeepLocked LoadingStreamBehavior. |
 
-### أنظر أيضًا
+### انظر أيضًا
 
 * المجال [Aspose.Slides](../../aspose.slides)
 * التجميع [Aspose.Slides](../../)

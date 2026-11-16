@@ -1,14 +1,14 @@
 ---
 title: SensitivityLabel
-second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Représente le label de sensibilité de Microsoft Purview Information Protection.
+second_title: Référence API Aspose.Sildes pour .NET
+description: Représente l'étiquette de sensibilité de Microsoft Purview Information Protection.
 type: docs
-weight: 9790
+weight: 9810
 url: /fr/aspose.slides/sensitivitylabel/
 ---
 ## SensitivityLabel classe
 
-Représente le label de sensibilité de Microsoft Purview Information Protection.
+Represents the sensitivity label from Microsoft Purview Information Protection.
 
 ```csharp
 public sealed class SensitivityLabel : ISensitivityLabel
@@ -18,12 +18,12 @@ public sealed class SensitivityLabel : ISensitivityLabel
 
 | Nom | Description |
 | --- | --- |
-| [AssignmentMethodType](../../aspose.slides/sensitivitylabel/assignmentmethodtype) { get; set; } | Renvoie ou définit la méthode d’affectation pour le label de sensibilité. Lecture/écriture [`SensitivityLabelAssignmentType`](../sensitivitylabelassignmenttype). |
+| [AssignmentMethodType](../../aspose.slides/sensitivitylabel/assignmentmethodtype) { get; set; } | Renvoie ou définit la méthode d'affectation de l'étiquette de sensibilité. Lecture/écriture [`SensitivityLabelAssignmentType`](../sensitivitylabelassignmenttype). |
 | [ContentMarkTypes](../../aspose.slides/sensitivitylabel/contentmarktypes) { get; } | Renvoie la liste des types de marquage de contenu qui doivent être appliqués à un fichier. |
-| [Id](../../aspose.slides/sensitivitylabel/id) { get; set; } | Renvoie ou définit l’id du label de sensibilité. Lecture/écriture String. |
-| [IsEnabled](../../aspose.slides/sensitivitylabel/isenabled) { get; set; } | Indique si le label de sensibilité est activé. |
-| [IsRemoved](../../aspose.slides/sensitivitylabel/isremoved) { get; set; } | Indique si le label de sensibilité a été supprimé. |
-| [SiteId](../../aspose.slides/sensitivitylabel/siteid) { get; set; } | Renvoie ou définit l’identifiant du site Azure Active Directory (Azure AD) correspondant à la stratégie du label de sensibilité qui décrit le label de sensibilité. Lecture/écriture Guid. |
+| [Id](../../aspose.slides/sensitivitylabel/id) { get; set; } | Renvoie ou définit l'identifiant de l'étiquette de sensibilité. Lecture/écriture String. |
+| [IsEnabled](../../aspose.slides/sensitivitylabel/isenabled) { get; set; } | Indique si l'étiquette de sensibilité est activée. |
+| [IsRemoved](../../aspose.slides/sensitivitylabel/isremoved) { get; set; } | Indique si l'étiquette de sensibilité a été supprimée. |
+| [SiteId](../../aspose.slides/sensitivitylabel/siteid) { get; set; } | Renvoie ou définit l'identifiant du site Azure Active Directory (Azure AD) correspondant à la stratégie d'étiquette de sensibilité qui décrit l'étiquette de sensibilité. Lecture/écriture Guid. |
 
 ### Voir aussi
 

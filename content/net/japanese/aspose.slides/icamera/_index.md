@@ -1,9 +1,9 @@
 ---
 title: ICamera
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: カメラを表します。
 type: docs
-weight: 5410
+weight: 5430
 url: /ja/aspose.slides/icamera/
 ---
 ## ICamera インターフェイス
@@ -18,16 +18,16 @@ public interface ICamera
 
 | 名前 | 説明 |
 | --- | --- |
-| [CameraType](../../aspose.slides/icamera/cameratype) { get; set; } | カメラタイプ 読み書き [`CameraPresetType`](../camerapresettype). |
-| [FieldOfViewAngle](../../aspose.slides/icamera/fieldofviewangle) { get; set; } | カメラ FOV (0-180 度、視野角) 読み書き Single. |
-| [Zoom](../../aspose.slides/icamera/zoom) { get; set; } | カメラズーム (パーセンテージでの正の値) 読み書き Single. |
+| [CameraType](../../aspose.slides/icamera/cameratype) { get; set; } | カメラ タイプ 読み取り/書き込み [`CameraPresetType`](../camerapresettype)。 |
+| [FieldOfViewAngle](../../aspose.slides/icamera/fieldofviewangle) { get; set; } | カメラFOV（0-180度、視野） 読み取り/書き込み Single。 |
+| [Zoom](../../aspose.slides/icamera/zoom) { get; set; } | カメラズーム（パーセンテージの正の値） 読み取り/書き込み Single。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [GetRotation](../../aspose.slides/icamera/getrotation)() | 緯度座標、経度座標、および緯度と経度座標としての軸まわりの回転を使用して回転が定義されます。戻り配列の最初の要素は緯度、2番目は経度、3番目は回転です。回転が定義されていない場合は null を返します。 |
-| [SetRotation](../../aspose.slides/icamera/setrotation)(float, float, float) | 緯度座標、経度座標、および緯度と経度座標としての軸まわりの回転を使用して回転が定義されます。座標値のいずれかが float.NaN の場合、回転はすべて未定義となります。 |
+| [GetRotation](../../aspose.slides/icamera/getrotation)() | 緯度座標、経度座標、およびそれらの軸まわりの回転により回転が定義されます。戻り配列の最初の要素は緯度、2番目は経度、3番目は回転です。回転が定義されていない場合は null を返します。 |
+| [SetRotation](../../aspose.slides/icamera/setrotation)(float, float, float) | 緯度座標、経度座標、およびそれらの軸まわりの回転により回転が定義されます。座標値のいずれかが float.NaN の場合、すべての回転は未定義となります。 |
 
 ### 参照
 

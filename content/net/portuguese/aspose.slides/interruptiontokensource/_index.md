@@ -1,9 +1,9 @@
 ---
 title: InterruptionTokenSource
 second_title: Referência da API Aspose.Sildes para .NET
-description: Representa a fonte de InterruptionToken./interruptiontoken.
+description: Representa a origem de InterruptionToken./interruptiontoken.
 type: docs
-weight: 7610
+weight: 7630
 url: /pt/aspose.slides/interruptiontokensource/
 ---
 ## InterruptionTokenSource classe
@@ -33,7 +33,7 @@ public class InterruptionTokenSource : IInterruptionTokenSource
 | --- | --- |
 | [Interrupt](../../aspose.slides/interruptiontokensource/interrupt)() | Inicializa solicitação de interrupção. |
 
-### Ver Também
+### Veja Também
 
 * interface [IInterruptionTokenSource](../iinterruptiontokensource)
 * namespace [Aspose.Slides](../../aspose.slides)

@@ -1,14 +1,14 @@
 ---
 title: IExtraColorSchemeCollection
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een verzameling van extra kleurenschema's voor.
+description: Stelt een verzameling extra kleurenschema's voor.
 type: docs
-weight: 11220
+weight: 11240
 url: /nl/aspose.slides.theme/iextracolorschemecollection/
 ---
 ## IExtraColorSchemeCollection interface
 
-Stelt een verzameling van extra kleurenschema's voor.
+Stelt een verzameling extra kleurenschema's voor.
 
 ```csharp
 public interface IExtraColorSchemeCollection : IGenericCollection<IExtraColorScheme>

@@ -3,7 +3,7 @@ title: IWarningCallback
 second_title: Aspose.Sildes för .NET API-referens
 description: Gränssnitt för klasser som tar emot varning
 type: docs
-weight: 11800
+weight: 11820
 url: /sv/aspose.slides.warnings/iwarningcallback/
 ---
 ## IWarningCallback gränssnitt
@@ -18,7 +18,7 @@ public interface IWarningCallback
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Warning](../../aspose.slides.warnings/iwarningcallback/warning)(IWarningInfo) | Callback-metod som tar emot en varning och beslutar om operationen ska avbrytas. |
+| [Warning](../../aspose.slides.warnings/iwarningcallback/warning)(IWarningInfo) | Återuppringningsmetod som tar emot varning och bestämmer om operationen ska avbrytas. |
 
 ### Se även
 

@@ -1,14 +1,14 @@
 ---
 title: IBlobManagementOptions
-second_title: Aspose.Sildes .NET API 参考
-description: Binary Large Object（BLOB）是一种以单个实体存储的二进制数据——即 BLOB 可以是音频、视频或演示本身。使用多种技术来优化在处理 BLOB 时的内存消耗——无论是已存储在演示中还是之后通过编程方式添加的。使用 IBlobManagementOptions./iblobmanagementoptions，您可以更改与 IPresentation./ipresentation 实例生命周期相关的 BLOB 处理行为的不同方面。
+second_title: Aspose.Sildes for .NET API 参考
+description: 二进制大型对象 BLOB 是以单个实体存储的二进制数据——即 BLOB 可以是音频、视频或演示本身。使用多种技术来优化处理 BLOB 时的内存消耗——这些 BLOB 已经存储在演示中或以后通过编程方式添加。使用 IBlobManagementOptions./iblobmanagementoptions，您可以更改关于 BLOB 处理的不同行为方面，以适用于 IPresentation./ipresentation 实例的生命周期。
 type: docs
-weight: 5370
+weight: 5390
 url: /zh/aspose.slides/iblobmanagementoptions/
 ---
 ## IBlobManagementOptions 接口
 
-Binary Large Object (BLOB) 是以单个实体存储的二进制数据——即 BLOB 可以是音频、视频或演示本身。使用多种技术来优化在处理 BLOB 时的内存消耗——无论是已经存储在演示中还是随后通过代码添加的。使用 [`IBlobManagementOptions`](../iblobmanagementoptions)，您可以更改与 [`IPresentation`](../ipresentation) 实例生命周期相关的 BLOB 处理行为的不同方面。
+二进制大型对象 (BLOB) 是以单个实体存储的二进制数据——即 BLOB 可以是音频、视频或演示本身。使用多种技术来优化处理 BLOB 时的内存消耗——BLOB 已经存储在演示中或以后通过编程方式添加。使用 [`IBlobManagementOptions`](../iblobmanagementoptions)，您可以更改关于 BLOB 处理的不同行为方面，以适用于 [`IPresentation`](../ipresentation) 实例生命周期。
 
 ```csharp
 public interface IBlobManagementOptions
@@ -18,10 +18,10 @@ public interface IBlobManagementOptions
 
 | 名称 | 描述 |
 | --- | --- |
-| [IsTemporaryFilesAllowed](../../aspose.slides/iblobmanagementoptions/istemporaryfilesallowed) { get; set; } | 此属性定义在处理 BLOB 时是否可以创建临时文件，这会大幅降低内存消耗，但需要创建文件的权限。所有文件将在演示工作完成后被删除。 |
-| [MaxBlobsBytesInMemory](../../aspose.slides/iblobmanagementoptions/maxblobsbytesinmemory) { get; set; } | 定义所有 BLOB 在内存中可能占用的最大总大小（以字节为单位）。默认情况下，所有 BLOB 都会加载到内存中；仅当达到此限制时才会采用替代机制（例如临时文件）。将 BLOB 保留在内存中可最大化性能，但可能导致内存使用率较高。使用此属性可根据您的环境或需求调整行为。 |
-| [PresentationLockingBehavior](../../aspose.slides/iblobmanagementoptions/presentationlockingbehavior) { get; set; } | 此属性定义 Presentation 类的实例在其生命周期内是否可以成为源（文件或流）的拥有者。如果实例是拥有者，它会锁定该源。这有助于在处理 BLOB 时改善内存消耗和性能，但在 Presentation 实例的生命周期内，源（流或文件）无法更改。这是一个示例： |
-| [TempFilesRootPath](../../aspose.slides/iblobmanagementoptions/tempfilesrootpath) { get; set; } | 临时文件将被创建的根路径。默认使用系统临时目录。托管进程应具有在该位置创建文件和文件夹的权限。 |
+| [IsTemporaryFilesAllowed](../../aspose.slides/iblobmanagementoptions/istemporaryfilesallowed) { get; set; } | 此属性定义在处理 BLOB 时是否可以创建临时文件，这可以大幅降低内存消耗，但需要文件创建权限。所有文件将在演示工作完成后被删除。 |
+| [MaxBlobsBytesInMemory](../../aspose.slides/iblobmanagementoptions/maxblobsbytesinmemory) { get; set; } | 定义所有 BLOB 在内存中可能占用的最大总大小（单位：字节）。默认情况下，所有 BLOB 都会加载到内存中；仅当达到此限制时才会使用替代机制（例如临时文件）。将 BLOB 保持在内存中可最大化性能，但可能导致高内存使用。使用此属性可根据您的环境或需求定制行为。 |
+| [PresentationLockingBehavior](../../aspose.slides/iblobmanagementoptions/presentationlockingbehavior) { get; set; } | 此属性定义 Presentation 类的实例在其生命周期内是否可以成为源（文件或流）的所有者。如果实例是所有者，它会锁定源。这有助于在处理 BLOB 时提升内存使用和性能，但在 Presentation 实例的生命周期内，源（流或文件）无法更改。这是一个示例： |
+| [TempFilesRootPath](../../aspose.slides/iblobmanagementoptions/tempfilesrootpath) { get; set; } | 临时文件将被创建的根路径。默认情况下使用系统临时目录。托管进程应具有在此处创建文件和文件夹的权限。 |
 
 ### 另请参阅
 

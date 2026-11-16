@@ -3,10 +3,10 @@ title: IDataTable
 second_title: Aspose.Sildes for .NET API संदर्भ
 description: डेटा टेबल गुणों का प्रतिनिधित्व करता है।
 type: docs
-weight: 2060
+weight: 2080
 url: /hi/aspose.slides.charts/idatatable/
 ---
-## IDataTable इंटरफ़ेस
+## IDataTable interface
 
 डेटा टेबल गुणों का प्रतिनिधित्व करता है।
 
@@ -19,11 +19,11 @@ public interface IDataTable : IFormattedTextContainer
 | नाम | विवरण |
 | --- | --- |
 | [AsIFormattedTextContainer](../../aspose.slides.charts/idatatable/asiformattedtextcontainer) { get; } | बेस IFormattedTextContainer इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल पढ़ने योग्य [`IFormattedTextContainer`](../iformattedtextcontainer)। |
-| [Format](../../aspose.slides.charts/idatatable/format) { get; } | एक वस्तु की लाइन, फ़िल और इफ़ेक्ट शैलियों को लौटाता है। केवल पढ़ने योग्य [`IFormat`](../iformat)। |
-| [HasBorderHorizontal](../../aspose.slides.charts/idatatable/hasborderhorizontal) { get; set; } | यदि चार्ट डेटा टेबल में क्षैतिज सेल बॉर्डर हैं तो सत्य। पढ़ने/लिखने योग्य बूलियन। |
-| [HasBorderOutline](../../aspose.slides.charts/idatatable/hasborderoutline) { get; set; } | यदि चार्ट डेटा टेबल में रूपरेखा बॉर्डर हैं तो सत्य। पढ़ने/लिखने योग्य बूलियन। |
-| [HasBorderVertical](../../aspose.slides.charts/idatatable/hasbordervertical) { get; set; } | यदि चार्ट डेटा टेबल में लम्बवत सेल बॉर्डर हैं तो सत्य। पढ़ने/लिखने योग्य बूलियन। |
-| [ShowLegendKey](../../aspose.slides.charts/idatatable/showlegendkey) { get; set; } | यदि डेटा लेबल लेजेंड कुंजी दृश्यमान है तो सत्य। पढ़ने/लिखने योग्य बूलियन। |
+| [Format](../../aspose.slides.charts/idatatable/format) { get; } | एक ऑब्जेक्ट की लाइन, फिल, और इफ़ेक्ट शैलियों को लौटाता है। केवल पढ़ने योग्य [`IFormat`](../iformat)। |
+| [HasBorderHorizontal](../../aspose.slides.charts/idatatable/hasborderhorizontal) { get; set; } | यदि चार्ट डेटा टेबल में क्षैतिज सेल बॉर्डर हों तो सत्य। पढ़ने/लिखने योग्य Boolean। |
+| [HasBorderOutline](../../aspose.slides.charts/idatatable/hasborderoutline) { get; set; } | यदि चार्ट डेटा टेबल में रूपरेखा बोर्डर हों तो सत्य। पढ़ने/लिखने योग्य Boolean। |
+| [HasBorderVertical](../../aspose.slides.charts/idatatable/hasbordervertical) { get; set; } | यदि चार्ट डेटा टेबल में लंबवत सेल बॉर्डर हों तो सत्य। पढ़ने/लिखने योग्य Boolean। |
+| [ShowLegendKey](../../aspose.slides.charts/idatatable/showlegendkey) { get; set; } | यदि डेटा लेबल लेजेंड कुंजी दृश्यमान हो तो सत्य। पढ़ने/लिखने योग्य Boolean। |
 
 ### देखें
 

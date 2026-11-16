@@ -1,9 +1,9 @@
 ---
 title: OdpException
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla .NET – Referencja API
 description: Reprezentuje standardowy wewnętrzny typ wyjątku.
 type: docs
-weight: 9210
+weight: 9230
 url: /pl/aspose.slides/odpexception/
 ---
 ## OdpException klasa
@@ -19,10 +19,10 @@ public class OdpException : Exception
 | Nazwa | Opis |
 | --- | --- |
 | [OdpException](odpexception#constructor)() | Domyślny konstruktor |
-| [OdpException](odpexception#constructor_1)(string) | Konstruktor umożliwiający dodanie komunikatu do tego wyjątku. |
-| [OdpException](odpexception#constructor_2)(string, Exception) | Konstruktor wyjątku zawierającego komunikat i wbudowany wyjątek. |
+| [OdpException](odpexception#constructor_1)(string) | Konstruktor pozwalający dodać wiadomość do tego wyjątku. |
+| [OdpException](odpexception#constructor_2)(string, Exception) | Konstruktor wyjątku zawierającego wiadomość i osadzony wyjątek. |
 
-### Zobacz też
+### Zobacz także
 
 * przestrzeń nazw [Aspose.Slides](../../aspose.slides)
 * zbiór [Aspose.Slides](../../)

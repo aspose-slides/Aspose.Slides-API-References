@@ -1,14 +1,14 @@
 ---
 title: IMathBar
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: बार फ़ंक्शन को निर्दिष्ट करता है जिसमें एक आधार तर्क और एक ओवरबार या अंडरबार शामिल होता है
+second_title: Aspose.Sildes .NET के लिए API संदर्भ
+description: बार फ़ंक्शन को निर्दिष्ट करता है जो एक बेस आर्ग्युमेंट और एक ओवरबार या अंडरबार से बना होता है
 type: docs
-weight: 8120
+weight: 8140
 url: /hi/aspose.slides.mathtext/imathbar/
 ---
 ## IMathBar इंटरफ़ेस
 
-बार फ़ंक्शन को निर्दिष्ट करता है, जिसमें एक आधार तर्क और एक ओवरबार या अंडरबार शामिल होता है
+बार फ़ंक्शन को निर्दिष्ट करता है, जो एक बेस आर्ग्युमेंट और एक ओवरबार या अंडरबार से बना होता है
 
 ```csharp
 public interface IMathBar : IMathElement
@@ -18,9 +18,9 @@ public interface IMathBar : IMathElement
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathbar/asimathelement) { get; } | आधार IMathElement इंटरफ़ेस को प्राप्त करने की अनुमति देता है [`IMathElement`](../imathelement) |
-| [Base](../../aspose.slides.mathtext/imathbar/base) { get; } | आधार तर्क |
-| [Position](../../aspose.slides.mathtext/imathbar/position) { get; set; } | बार रेखा की स्थिति। डिफ़ॉल्ट: Top |
+| [AsIMathElement](../../aspose.slides.mathtext/imathbar/asimathelement) { get; } | बेस IMathElement इंटरफ़ेस को प्राप्त करने की अनुमति देता है [`IMathElement`](../imathelement) |
+| [Base](../../aspose.slides.mathtext/imathbar/base) { get; } | बेस आर्ग्युमेंट |
+| [Position](../../aspose.slides.mathtext/imathbar/position) { get; set; } | बार लाइन की स्थिति। डिफ़ॉल्ट: टॉप |
 
 ### उदाहरण
 
@@ -31,7 +31,7 @@ public interface IMathBar : IMathElement
 IMathBar mathBar = new MathBar(new MathematicalText("x"));
 ```
 
-### संबंधित देखें
+### देखें
 
 * इंटरफ़ेस [IMathElement](../imathelement)
 * नामस्थान [Aspose.Slides.MathText](../../aspose.slides.mathtext)

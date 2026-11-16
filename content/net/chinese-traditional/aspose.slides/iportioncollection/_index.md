@@ -1,14 +1,14 @@
 ---
 title: IPortionCollection
-second_title: Aspose.Sildes for .NET API 參考文件
-description: 表示 Portion 的集合。
+second_title: Aspose.Sildes for .NET API 參考
+description: 表示一個部分的集合。
 type: docs
-weight: 6710
+weight: 6730
 url: /zh-hant/aspose.slides/iportioncollection/
 ---
 ## IPortionCollection 介面
 
-表示 Portion 的集合。
+Represents a collection of a portions.
 
 ```csharp
 public interface IPortionCollection : IEnumerable<IPortion>
@@ -19,7 +19,7 @@ public interface IPortionCollection : IEnumerable<IPortion>
 | 名稱 | 說明 |
 | --- | --- |
 | [AsIEnumerable](../../aspose.slides/iportioncollection/asienumerable) { get; } | 傳回 IEnumerable 介面。唯讀 IEnumerable。 |
-| [Count](../../aspose.slides/iportioncollection/count) { get; } | 取得集合實際包含的元素數量。唯讀 Int32。 |
+| [Count](../../aspose.slides/iportioncollection/count) { get; } | 取得集合中實際包含的元素數量。唯讀 Int32。 |
 | [Item](../../aspose.slides/iportioncollection/item) { get; } | 取得指定索引處的元素。 |
 
 ## 方法
@@ -29,7 +29,7 @@ public interface IPortionCollection : IEnumerable<IPortion>
 | [Add](../../aspose.slides/iportioncollection/add)(IPortion) | 將 Portion 新增至集合的末端。 |
 | [Clear](../../aspose.slides/iportioncollection/clear)() | 從集合中移除所有元素。 |
 | [Contains](../../aspose.slides/iportioncollection/contains)(IPortion) | 判斷 ICollection 是否包含特定值。 |
-| [IndexOf](../../aspose.slides/iportioncollection/indexof)(IPortion) | 判斷特定 Portion 在集合中的索引。 |
+| [IndexOf](../../aspose.slides/iportioncollection/indexof)(IPortion) | 判斷特定 portion 在集合中的索引。 |
 | [Insert](../../aspose.slides/iportioncollection/insert)(int, IPortion) | 在指定索引處將 Portion 插入集合。 |
 | [Remove](../../aspose.slides/iportioncollection/remove)(IPortion) | 從 ICollection 中移除特定物件的第一次出現。 |
 | [RemoveAt](../../aspose.slides/iportioncollection/removeat)(int) | 移除集合中指定索引處的元素。 |

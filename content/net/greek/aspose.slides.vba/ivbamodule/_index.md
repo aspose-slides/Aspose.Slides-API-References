@@ -1,14 +1,14 @@
 ---
 title: IVbaModule
-second_title: Αναφορά API Aspose.Sildes για .NET
-description: Αντιπροσωπεύει τη μονάδα που περιέχεται στο έργο VBA.
+second_title: Aspose.Sildes για .NET αναφορά API
+description: Αντιπροσωπεύει τη μονάδα που περιέχεται σε έργο VBA.
 type: docs
-weight: 11530
+weight: 11550
 url: /el/aspose.slides.vba/ivbamodule/
 ---
 ## IVbaModule διασύνδεση
 
-Αντιπροσωπεύει τη μονάδα που περιέχεται στο έργο VBA.
+Αντιπροσωπεύει τη μονάδα που περιέχεται σε έργο VBA.
 
 ```csharp
 public interface IVbaModule
@@ -18,7 +18,7 @@ public interface IVbaModule
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [Name](../../aspose.slides.vba/ivbamodule/name) { get; } | Όνομα της μονάδας. Μόνο ανάγνωση String. |
+| [Name](../../aspose.slides.vba/ivbamodule/name) { get; } | Όνομα της μονάδας. Μόνο-ανάγνωση String. |
 | [SourceCode](../../aspose.slides.vba/ivbamodule/sourcecode) { get; set; } | Κώδικας πηγής της μονάδας. Ανάγνωση/εγγραφή String. |
 
 ### Δείτε επίσης

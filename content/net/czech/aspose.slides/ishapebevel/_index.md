@@ -1,14 +1,14 @@
 ---
 title: IShapeBevel
 second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje vlastnosti hlavního povrchu tvarů.
+description: Představuje vlastnosti reliéfu hlavní plochy tvaru.
 type: docs
-weight: 6960
+weight: 6980
 url: /cs/aspose.slides/ishapebevel/
 ---
-## IShapeBevel rozhraní
+## IShapeBelev rozhraní
 
-Reprezentuje vlastnosti hlavního povrchu tvaru.
+Představuje vlastnosti reliéfu hlavní plochy tvaru.
 
 ```csharp
 public interface IShapeBevel

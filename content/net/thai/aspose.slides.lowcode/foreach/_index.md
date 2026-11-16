@@ -1,20 +1,20 @@
 ---
 title: ForEach
-second_title: Aspose.Sildes สำหรับ .NET การอ้างอิง API
-description: เป็นตัวแทนของกลุ่มเมธอดที่ออกแบบมาเพื่อวนซ้ำ over ต่าง ๆ ของวัตถุ Presentation../aspose.slides/presentation model objects. เมธอดเหล่านี้อาจมีประโยชน์หากคุณต้องการวนซ้ำและเปลี่ยนแปลงการจัดรูปแบบหรือเนื้อหาของบางส่วนของ Presentation เช่น เปลี่ยนการจัดรูปแบบของแต่ละ portion.
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: เป็นกลุ่มของเมธอดที่มุ่งหมายให้ทำการวนซ้ำเหนืออ็อบเจ็กต์โมเดล Presentation../aspose.slides/presentation ที่ต่างกัน เมธอดเหล่านี้อาจมีประโยชน์หากคุณต้องการวนซ้ำและเปลี่ยนการจัดรูปแบบหรือเนื้อหาของส่วนประกอบ Presentation เช่น การเปลี่ยนการจัดรูปแบบของแต่ละ portion
 type: docs
-weight: 7900
+weight: 7920
 url: /th/aspose.slides.lowcode/foreach/
 ---
-## คลาส ForEach
+## ForEach คลาส
 
-Represents a group of methods intended to iterate over different [`Presentation`](../../aspose.slides/presentation) model objects. These methods can be useful if you need to iterate and change some Presentation' elements formatting or content, e.g. change each portion formatting.
+เป็นกลุ่มของเมธอดที่มุ่งหมายให้ทำการวนซ้ำเหนืออ็อบเจ็กต์โมเดล [`Presentation`](../../aspose.slides/presentation) ที่ต่างกัน. เมธอดเหล่านี้อาจมีประโยชน์หากคุณต้องการวนซ้ำและเปลี่ยนการจัดรูปแบบหรือเนื้อหาของบางส่วนของ Presentation, เช่น การเปลี่ยนการจัดรูปแบบของแต่ละ portion.
 
 ```csharp
 public static class ForEach
 ```
 
-## วิธีการ
+## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
@@ -22,11 +22,11 @@ public static class ForEach
 | static [MasterSlide](../../aspose.slides.lowcode/foreach/masterslide)(Presentation, ForEachMasterSlideCallback) | วนซ้ำแต่ละ [`MasterSlide`](./masterslide) ใน [`Presentation`](../../aspose.slides/presentation). |
 | static [Paragraph](../../aspose.slides.lowcode/foreach/paragraph#paragraph_1)(Presentation, ForEachParagraphCallback) | วนซ้ำแต่ละ [`Paragraph`](./paragraph) ใน [`Presentation`](../../aspose.slides/presentation). รูปร่างจะถูกวนซ้ำในสไลด์ทุกประเภท - [`Slide`](./slide), [`MasterSlide`](./masterslide) และ [`LayoutSlide`](./layoutslide) |
 | static [Paragraph](../../aspose.slides.lowcode/foreach/paragraph#paragraph)(Presentation, bool, ForEachParagraphCallback) | วนซ้ำแต่ละ [`Paragraph`](./paragraph) ใน [`Presentation`](../../aspose.slides/presentation). รูปร่างจะถูกวนซ้ำในสไลด์ทุกประเภท - [`Slide`](./slide), [`MasterSlide`](./masterslide), [`LayoutSlide`](./layoutslide) และ [`NotesSlide`](../../aspose.slides/notesslide) |
-| static [Portion](../../aspose.slides.lowcode/foreach/portion#portion_1)(Presentation, ForEachPortionCallback) | วนซ้ำแต่ละ [`Portion`](./portion) ใน [`Presentation`](../../aspose.slides/presentation). Portion จะถูกวนซ้ำในสไลด์ทุกประเภท - [`Slide`](./slide), [`MasterSlide`](./masterslide) และ [`LayoutSlide`](./layoutslide) |
-| static [Portion](../../aspose.slides.lowcode/foreach/portion#portion)(Presentation, bool, ForEachPortionCallback) | วนซ้ำแต่ละ [`Portion`](./portion) ใน [`Presentation`](../../aspose.slides/presentation). Portions จะถูกวนซ้ำในสไลด์ทุกประเภท - [`Slide`](./slide), [`MasterSlide`](./masterslide), [`LayoutSlide`](./layoutslide) และ [`NotesSlide`](../../aspose.slides/notesslide) |
-| static [Shape](../../aspose.slides.lowcode/foreach/shape#shape)(BaseSlide, ForEachShapeCallback) | วนซ้ำแต่ละ [`Shape`](./shape) ใน [`BaseSlide`](../../aspose.slides/baseslide). [`BaseSlide`](../../aspose.slides/baseslide) เป็นประเภทพื้นฐานสำหรับ [`Slide`](./slide), [`MasterSlide`](./masterslide) และ [`LayoutSlide`](./layoutslide) |
+| static [Portion](../../aspose.slides.lowcode/foreach/portion#portion_1)(Presentation, ForEachPortionCallback) | วนซ้ำแต่ละ [`Portion`](./portion) ใน [`Presentation`](../../aspose.slides/presentation). ส่วนจะถูกวนซ้ำในสไลด์ทุกประเภท - [`Slide`](./slide), [`MasterSlide`](./masterslide) และ [`LayoutSlide`](./layoutslide) |
+| static [Portion](../../aspose.slides.lowcode/foreach/portion#portion)(Presentation, bool, ForEachPortionCallback) | วนซ้ำแต่ละ [`Portion`](./portion) ใน [`Presentation`](../../aspose.slides/presentation). ส่วนจะถูกวนซ้ำในสไลด์ทุกประเภท - [`Slide`](./slide), [`MasterSlide`](./masterslide), [`LayoutSlide`](./layoutslide) และ [`NotesSlide`](../../aspose.slides/notesslide) |
+| static [Shape](../../aspose.slides.lowcode/foreach/shape#shape)(BaseSlide, ForEachShapeCallback) | วนซ้ำแต่ละ [`Shape`](./shape) ใน [`BaseSlide`](../../aspose.slides/baseslide). [`BaseSlide`](../../aspose.slides/baseslide) เป็นประเภทฐานสำหรับ [`Slide`](./slide), [`MasterSlide`](./masterslide) และ [`LayoutSlide`](./layoutslide) |
 | static [Shape](../../aspose.slides.lowcode/foreach/shape#shape_2)(Presentation, ForEachShapeCallback) | วนซ้ำแต่ละ [`Shape`](./shape) ใน [`Presentation`](../../aspose.slides/presentation). รูปร่างจะถูกวนซ้ำในสไลด์ทุกประเภท - [`Slide`](./slide), [`MasterSlide`](./masterslide) และ [`LayoutSlide`](./layoutslide) |
-| static [Shape](../../aspose.slides.lowcode/foreach/shape#shape_1)(Presentation, bool, ForEachShapeCallback) | วนซ้ำแต่ละ [`Shape`](./shape) ใน [`Presentation`](../../aspose.slides/presentation). รูปร่างจะถูกวนซ้ำในสไลด์ทุกประเภท - [`Slide`](./slide), [`MasterSlide`](./masterslide), [`LayoutSlide`](./layoutslide) และ [`NotesSlide`](../../aspose.slides/notesslide) หากต้องการ. |
+| static [Shape](../../aspose.slides.lowcode/foreach/shape#shape_1)(Presentation, bool, ForEachShapeCallback) | วนซ้ำแต่ละ [`Shape`](./shape) ใน [`Presentation`](../../aspose.slides/presentation). รูปร่างจะถูกวนซ้ำในสไลด์ทุกประเภท - [`Slide`](./slide), [`MasterSlide`](./masterslide), [`LayoutSlide`](./layoutslide) และ [`NotesSlide`](../../aspose.slides/notesslide) หากจำเป็น. |
 | static [Slide](../../aspose.slides.lowcode/foreach/slide)(Presentation, ForEachSlideCallback) | วนซ้ำแต่ละ [`Slide`](./slide) ใน [`Presentation`](../../aspose.slides/presentation). |
 
 ## สมาชิกอื่น

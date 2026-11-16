@@ -1,14 +1,14 @@
 ---
 title: IMetered
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Menyediakan metode untuk mengatur kunci bermeter.
+description: Menyediakan metode untuk mengatur kunci yang diukur.
 type: docs
-weight: 6450
+weight: 6470
 url: /id/aspose.slides/imetered/
 ---
 ## IMetered antarmuka
 
-Menyediakan metode untuk mengatur kunci bermeter.
+Menyediakan metode untuk mengatur kunci yang diukur.
 
 ```csharp
 public interface IMetered
@@ -18,7 +18,7 @@ public interface IMetered
 
 | Nama | Deskripsi |
 | --- | --- |
-| [SetMeteredKey](../../aspose.slides/imetered/setmeteredkey)(string, string) | Mengatur kunci publik dan pribadi bermeter. |
+| [SetMeteredKey](../../aspose.slides/imetered/setmeteredkey)(string, string) | Mengatur kunci publik dan privat yang diukur. |
 
 ### Lihat Juga
 

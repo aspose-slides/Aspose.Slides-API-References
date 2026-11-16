@@ -1,37 +1,37 @@
 ---
 title: GrayScale
-second_title: Aspose.Sildes for .NET API Referansı
-description: Gray Scale etkisini temsil eder. Tüm efekt renk değerlerini parlaklıklarına karşılık gelen bir gri tonu haline dönüştürür. Etki alfa opaklık değerleri etkilenmez.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Gray Scale etkisini temsil eder. Tüm efekt renk değerlerini, parlaklıklarına karşılık gelen bir gri tonuna dönüştürür. Efekt alfa opaklık değerleri etkilenmez.
 type: docs
-weight: 3000
+weight: 3020
 url: /tr/aspose.slides.effects/grayscale/
 ---
-## GrayScale class
+## GrayScale sınıf
 
-Gray Scale etkisini temsil eder. Tüm efekt renk değerlerini parlaklıklarına karşılık gelen bir gri tonu haline dönüştürür. Etki alfa (opaklık) değerleri etkilenmez.
+Gray Scale efektini temsil eder. Tüm efekt renk değerlerini, parlaklıklarına karşılık gelen bir gri tonu haline dönüştürür. Efekt alfa (opaklık) değerleri etkilenmez.
 
 ```csharp
 public sealed class GrayScale : ImageTransformOperation, IGrayScale
 ```
 
-## Properties
+## Özellikler
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arayüzünü almaya izin verir. Salt okunur [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arayüzünü almayı sağlar. Yalnızca okuma [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
-## Methods
+## Yöntemler
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/grayscale/equals)(object) | Belirtilen [`GrayScale`](../grayscale) öğesinin geçerli [`GrayScale`](../grayscale) ile eşit olup olmadığını belirler. |
-| [GetEffective](../../aspose.slides.effects/grayscale/geteffective)() | Miras uygulanmış etkin Gray Scale efekt verilerini alır. |
-| override [GetHashCode](../../aspose.slides.effects/grayscale/gethashcode)() | Belirli bir tip için karma (hash) işlevi olarak hizmet eder. |
+| override [Equals](../../aspose.slides.effects/grayscale/equals)(object) | Belirtilen [`GrayScale`](../grayscale)'in mevcut [`GrayScale`](../grayscale) ile eşit olup olmadığını belirler. |
+| [GetEffective](../../aspose.slides.effects/grayscale/geteffective)() | Uygulanan kalıtımla etkili Gray Scale efekt verilerini alır. |
+| override [GetHashCode](../../aspose.slides.effects/grayscale/gethashcode)() | Belirli bir tür için bir karmala işlevi olarak hizmet eder. |
 
-### See Also
+### İlgili
 
 * sınıf [ImageTransformOperation](../imagetransformoperation)
-* arayüz [IGrayScale](../igrayscale)
+* arabirim [IGrayScale](../igrayscale)
 * ad alanı [Aspose.Slides.Effects](../../aspose.slides.effects)
 * derleme [Aspose.Slides](../../)
 

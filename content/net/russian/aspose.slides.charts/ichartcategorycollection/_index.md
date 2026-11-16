@@ -1,9 +1,9 @@
 ---
 title: IChartCategoryCollection
-second_title: Aspose.Sildes для .NET справочник API
+second_title: Справочник API Aspose.Sildes для .NET
 description: Представляет коллекцию IChartCategory./ichartcategory
 type: docs
-weight: 1760
+weight: 1780
 url: /ru/aspose.slides.charts/ichartcategorycollection/
 ---
 ## IChartCategoryCollection интерфейс
@@ -16,24 +16,24 @@ public interface IChartCategoryCollection : IGenericCollection<IChartCategory>
 
 ## Свойства
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
 | [GroupingLevelCount](../../aspose.slides.charts/ichartcategorycollection/groupinglevelcount) { get; } | Возвращает количество уровней группировки категорий, используемых. Больше одного для многоуровневых категорий. Только для чтения Int32. |
 | [Item](../../aspose.slides.charts/ichartcategorycollection/item) { get; } | Получает элемент по указанному индексу. |
-| [UseCells](../../aspose.slides.charts/ichartcategorycollection/usecells) { get; set; } | Если true, то лист используется для хранения категорий (в этом случае поддерживаются многоуровневые категории). Если false, то лист НЕ используется для хранения значений (и в этом случае многоуровневые категории не поддерживаются). Чтение/запись Boolean. |
+| [UseCells](../../aspose.slides.charts/ichartcategorycollection/usecells) { get; set; } | Если true, то лист используется для хранения категорий (в этом случае поддерживаются многоуровневые категории). Если false, то лист НЕ используется для хранения значений (и в этом случае не поддерживаются многоуровневые категории). Чтение/запись Boolean. |
 
 ## Методы
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.slides.charts/ichartcategorycollection/add#add)(IChartDataCell) | Если категория существует в коллекции, возвращает её. Иначе создаёт новую категорию диаграммы из [`IChartDataCell`](../ichartdatacell) и добавляет её в коллекцию. |
+| [Add](../../aspose.slides.charts/ichartcategorycollection/add#add)(IChartDataCell) | Если категория существует в коллекции, возвращает её. В противном случае создаёт новую категорию диаграммы из [`IChartDataCell`](../ichartdatacell) и добавляет её в коллекцию. |
 | [Add](../../aspose.slides.charts/ichartcategorycollection/add#add_1)(object) | Создаёт новый [`IChartCategory`](../ichartcategory) из значения и добавляет его в коллекцию. |
 | [Clear](../../aspose.slides.charts/ichartcategorycollection/clear)() | Удаляет все элементы из коллекции. |
-| [IndexOf](../../aspose.slides.charts/ichartcategorycollection/indexof)(IChartCategory) | Ищет указанный [`IChartCategory`](../ichartcategory) и возвращает индекс, начинающийся с нуля, первого вхождения во всю коллекцию. |
+| [IndexOf](../../aspose.slides.charts/ichartcategorycollection/indexof)(IChartCategory) | Ищет указанный [`IChartCategory`](../ichartcategory) и возвращает индекс, начинающийся с нуля, первого вхождения в всю коллекцию. |
 | [Remove](../../aspose.slides.charts/ichartcategorycollection/remove)(IChartCategory) | Удаляет указанное значение. |
-| [RemoveAt](../../aspose.slides.charts/ichartcategorycollection/removeat)(int) | Удаляет элемент по заданному индексу. |
+| [RemoveAt](../../aspose.slides.charts/ichartcategorycollection/removeat)(int) | Удаляет элемент по указанному индексу. |
 
-### Смотрите также
+### См. также
 
 * интерфейс [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * интерфейс [IChartCategory](../ichartcategory)

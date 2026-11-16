@@ -1,14 +1,14 @@
 ---
 title: IMathSuperscriptElement
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
-description: ระบุอ็อบเจ็กต์ซูเปอร์สคริปต์ซึ่งประกอบด้วยฐานและซูเปอร์สคริปต์ขนาดลดลงที่วางอยู่เหนือและด้านขวา
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: ระบุวัตถุซูเปอร์สคริปต์ที่ประกอบด้วยฐานและซูเปอร์สคริปต์ขนาดเล็กที่วางอยู่ด้านบนและทางขวา
 type: docs
-weight: 8490
+weight: 8510
 url: /th/aspose.slides.mathtext/imathsuperscriptelement/
 ---
 ## IMathSuperscriptElement อินเทอร์เฟซ
 
-ระบุอ็อบเจ็กต์ซูเปอร์สคริปต์ ซึ่งประกอบด้วยฐานและซูเปอร์สคริปต์ขนาดลดลงที่วางอยู่เหนือและทางขวา
+ระบุวัตถุซูเปอร์สคริปต์ ซึ่งประกอบด้วยฐานและซูเปอร์สคริปต์ขนาดเล็กที่วางอยู่ด้านบนและทางขวา
 
 ```csharp
 public interface IMathSuperscriptElement : IMathElement
@@ -18,7 +18,7 @@ public interface IMathSuperscriptElement : IMathElement
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathsuperscriptelement/asimathelement) { get; } | อนุญาตให้เรียกค่า base IMathElement อินเทอร์เฟซ [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathsuperscriptelement/asimathelement) { get; } | อนุญาตให้ดึงค่าฐาน IMathElement interface [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathsuperscriptelement/base) { get; } | อาร์กิวเมนต์ฐาน |
 | [Superscript](../../aspose.slides.mathtext/imathsuperscriptelement/superscript) { get; } | ซูเปอร์สคริปต์ |
 

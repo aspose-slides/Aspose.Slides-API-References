@@ -1,14 +1,14 @@
 ---
 title: Comment
-second_title: Aspose.Sildes for .NET API 参考
-description: 表示幻灯片上的评论。
+second_title: Aspose.Sildes 的 .NET API 参考
+description: 表示幻灯片上的注释。
 type: docs
-weight: 2620
+weight: 2640
 url: /zh/aspose.slides/comment/
 ---
 ## Comment 类
 
-表示幻灯片上的评论。
+表示幻灯片上的注释。
 
 ```csharp
 public class Comment : IComment
@@ -16,24 +16,24 @@ public class Comment : IComment
 
 ## 属性
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
-| [Author](../../aspose.slides/comment/author) { get; } | 返回评论的作者。只读 [`ICommentAuthor`](../icommentauthor)。 |
-| [CreatedTime](../../aspose.slides/comment/createdtime) { get; set; } | 返回或设置评论创建的时间。将此属性设置为 MinValue 表示未设置评论时间。读/写 DateTime。 |
-| [ParentComment](../../aspose.slides/comment/parentcomment) { get; set; } | 获取或设置父评论。读/写 [`IComment`](../icomment)。 |
-| [Position](../../aspose.slides/comment/position) { get; set; } | 返回或设置评论在幻灯片上的位置。读/写 PointF。 |
-| [Slide](../../aspose.slides/comment/slide) { get; } | 返回或设置评论的父幻灯片。只读 [`ISlide`](../islide)。 |
-| [Text](../../aspose.slides/comment/text) { get; set; } | 返回或设置幻灯片评论的纯文本。读/写 String。 |
+| [Author](../../aspose.slides/comment/author) { get; } | 返回注释的作者。只读 [`ICommentAuthor`](../icommentauthor)。 |
+| [CreatedTime](../../aspose.slides/comment/createdtime) { get; set; } | 返回或设置注释创建的时间。将此属性设置为 MinValue 表示未设置注释时间。读/写 DateTime。 |
+| [ParentComment](../../aspose.slides/comment/parentcomment) { get; set; } | 获取或设置父注释。读/写 [`IComment`](../icomment)。 |
+| [Position](../../aspose.slides/comment/position) { get; set; } | 返回或设置注释在幻灯片上的位置。读/写 PointF。 |
+| [Slide](../../aspose.slides/comment/slide) { get; } | 返回或设置注释的父幻灯片。只读 [`ISlide`](../islide)。 |
+| [Text](../../aspose.slides/comment/text) { get; set; } | 返回或设置幻灯片注释的纯文本。读/写 String。 |
 
 ## 方法
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
-| [Remove](../../aspose.slides/comment/remove)() | 从父集合中删除评论及其所有回复。 |
+| [Remove](../../aspose.slides/comment/remove)() | 从父集合中删除注释及其所有回复。 |
 
 ### 示例
 
-此示例演示如何在 PowerPoint 演示文稿的幻灯片上添加评论。
+此示例演示如何在 PowerPoint 演示文稿中向幻灯片添加注释。
 
 ```csharp
 [C#]
@@ -48,16 +48,16 @@ using (Presentation presentation = new Presentation())
     PointF point = new PointF();
     point.X = 0.2f;
     point.Y = 0.2f;
-    // 为作者在第 1 张幻灯片添加评论
+    // 为作者在幻灯片 1 上添加幻灯片评论
     author.Comments.AddComment("Hello Jawad, this is slide comment", presentation.Slides[0], point, DateTime.Now);
-    // 为作者在第 2 张幻灯片添加评论
+    // 为作者在幻灯片 2 上添加幻灯片评论
     author.Comments.AddComment("Hello Jawad, this is second slide comment", presentation.Slides[1], point, DateTime.Now);
-    // 保存 PowerPoint 演示文稿文件
+	// 保存 PowerPoint 演示文稿文件
     presentation.Save("Comments_out.pptx", SaveFormat.Pptx);
 }
 ```
 
-此示例演示如何访问 PowerPoint 演示文稿中幻灯片上的现有评论。
+此示例演示如何访问 PowerPoint 演示文稿中幻灯片上的现有注释。
 
 ```csharp
 [C#]
@@ -78,7 +78,7 @@ using (Presentation presentation = new Presentation("Comments1.pptx"))
 }
 ```
 
-此示例演示如何添加评论并获取其回复。
+此示例演示如何添加注释并获取对其的回复。
 
 ```csharp
 [C#]
@@ -102,7 +102,7 @@ using (Presentation pres = new Presentation())
     IComment comment3 = author2.Comments.AddComment("comment 3", pres.Slides[0], new PointF(10, 10), DateTime.Now);
     IComment reply3 = author1.Comments.AddComment("reply 4 for comment 3", pres.Slides[0], new PointF(10, 10), DateTime.Now);
     reply3.ParentComment = comment3;
-    // 在控制台显示评论层级
+    // 在控制台显示评论层次结构
     ISlide slide = pres.Slides[0];
     var comments = slide.GetSlideComments(null);
     for (int i = 0; i < comments.Length; i++)
@@ -123,7 +123,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### 另请参见
+### 另见
 
 * 接口 [IComment](../icomment)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

@@ -1,9 +1,9 @@
 ---
 title: ISlideComponent
-second_title: Aspose.Sildes .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 表示幻灯片的组件。
 type: docs
-weight: 7060
+weight: 7080
 url: /zh/aspose.slides/islidecomponent/
 ---
 ## ISlideComponent 接口
@@ -18,10 +18,10 @@ public interface ISlideComponent : IPresentationComponent
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/islidecomponent/asipresentationcomponent) { get; } | 允许获取基 IPresentationComponent 接口。只读 [`IPresentationComponent`](../ipresentationcomponent)。 |
-| [Slide](../../aspose.slides/islidecomponent/slide) { get; } | 返回基幻灯片。只读 [`IBaseSlide`](../ibaseslide)。 |
+| [AsIPresentationComponent](../../aspose.slides/islidecomponent/asipresentationcomponent) { get; } | 允许获取基础 IPresentationComponent 接口。只读 [`IPresentationComponent`](../ipresentationcomponent)。 |
+| [Slide](../../aspose.slides/islidecomponent/slide) { get; } | 返回基础幻灯片。只读 [`IBaseSlide`](../ibaseslide)。 |
 
-### 参见
+### 另请参阅
 
 * 接口 [IPresentationComponent](../ipresentationcomponent)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

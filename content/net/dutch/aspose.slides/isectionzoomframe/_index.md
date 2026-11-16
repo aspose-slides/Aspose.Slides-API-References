@@ -1,25 +1,24 @@
 ---
 title: ISectionZoomFrame
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een Section Zoom-object in een dia voor.
+description: Stelt een Section Zoom-object voor in een dia.
 type: docs
-weight: 6920
+weight: 6940
 url: /nl/aspose.slides/isectionzoomframe/
 ---
 ## ISectionZoomFrame interface
 
-Stelt een Section Zoom-object in een dia voor.
+Stelt een Section Zoom-object voor in een dia.
 
 ```csharp
 public interface ISectionZoomFrame : IZoomObject
 ```
-
 ## Eigenschappen
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
 | [AsIZoomObject](../../aspose.slides/isectionzoomframe/asizoomobject) { get; } | Retourneert IZoomObject interface. |
-| [TargetSection](../../aspose.slides/isectionzoomframe/targetsection) { get; set; } | Haalt of stelt het sectie-object in waarop het Section Zoom-object is gekoppeld. Lezen/Schrijven [`ISection`](../isection). |
+| [TargetSection](../../aspose.slides/isectionzoomframe/targetsection) { get; set; } | Haalt of stelt het sectie-object in dat aan het Section Zoom-object is gekoppeld. Lezen/schrijven [`ISection`](../isection). |
 
 ### Zie ook
 

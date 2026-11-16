@@ -3,10 +3,10 @@ title: PictureType
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Determina el modo de relleno de la imagen de barra.
 type: docs
-weight: 2360
+weight: 2380
 url: /es/aspose.slides.charts/picturetype/
 ---
-## PictureType enumeración
+## enumeración PictureType
 
 Determina el modo de relleno de la imagen de barra.
 
@@ -21,7 +21,7 @@ public enum PictureType
 | NotDefined | `-1` | No definido. |
 | Stack | `0` | La imagen se dimensiona para repetirse un máximo de 15 veces en la barra apilada más larga. |
 | StackScale | `1` | La imagen se dimensiona a un número especificado de unidades y se repite a lo largo de la barra. |
-| Stretch | `2` | La imagen se estira a lo largo de toda la barra apilada. |
+| Stretch | `2` | La imagen se estira a lo largo completo de la barra apilada. |
 
 ### Ver también
 

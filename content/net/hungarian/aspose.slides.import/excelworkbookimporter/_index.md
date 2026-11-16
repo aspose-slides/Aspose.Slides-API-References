@@ -1,30 +1,30 @@
 ---
 title: ExcelWorkbookImporter
-second_title: Aspose.Sildes .NET API referencia
-description: Funkcionalitást biztosít az Excel munkafüzet tartalmának importálásához egy prezentációba.
+second_title: Aspose.Sildes .NET API-referencia
+description: Funkciókat biztosít az Excel munkafüzet tartalmának importálásához egy prezentációba.
 type: docs
-weight: 7470
+weight: 7490
 url: /hu/aspose.slides.import/excelworkbookimporter/
 ---
 ## ExcelWorkbookImporter osztály
 
-Funkcionalitást biztosít az Excel munkafüzet tartalmának prezentációba történő importálásához.
+Funkciókat biztosít az Excel munkafüzet tartalmának importálásához egy prezentációba.
 
 ```csharp
 public static class ExcelWorkbookImporter
 ```
 
-## Módszerek
+## Methods
 
 | Név | Leírás |
 | --- | --- |
-| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook)(IShapeCollection, float, float, IExcelDataWorkbook, string, int, bool) | Lekér egy diagramot a megadott Excel munkafüzetből, és a megadott koordinátákon a megadott alakgyűjtemény végéhez adja hozzá. |
-| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_1)(IShapeCollection, float, float, IExcelDataWorkbook, string, string, bool) | Lekér egy diagramot a megadott Excel munkafüzetből, és a megadott koordinátákon a megadott alakgyűjtemény végéhez adja hozzá. |
-| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_2)(IShapeCollection, float, float, Stream, string, string, bool) | Lekér egy diagramot a megadott Excel munkafüzetből, és a megadott koordinátákon a megadott alakgyűjtemény végéhez adja hozzá. |
-| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_3)(IShapeCollection, float, float, string, string, string, bool) | Lekér egy diagramot a megadott Excel munkafüzetből, és a megadott koordinátákon a megadott alakgyűjtemény végéhez adja hozzá. |
-| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook)(IShapeCollection, float, float, IExcelDataWorkbook, string, string) | Lekér egy táblázatot a megadott Excel munkafüzetből, és a megadott koordinátákon a megadott alakgyűjtemény végéhez adja hozzá. |
-| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook_1)(IShapeCollection, float, float, Stream, string, string) | Lekér egy táblázatot a megadott Excel munkafüzetből, és a megadott koordinátákon a megadott alakgyűjtemény végéhez adja hozzá. |
-| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook_2)(IShapeCollection, float, float, string, string, string) | Lekér egy táblázatot a megadott Excel munkafüzetből, és a megadott koordinátákon a megadott alakgyűjtemény végéhez adja hozzá. |
+| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook)(IShapeCollection, float, float, IExcelDataWorkbook, string, int, bool) | Lekér egy diagramot a megadott Excel munkafüzetből, és a megadott koordinátákon a megadott alakgyűjtemény végére adja hozzá. |
+| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_1)(IShapeCollection, float, float, IExcelDataWorkbook, string, string, bool) | Lekér egy diagramot a megadott Excel munkafüzetből, és a megadott koordinátákon a megadott alakgyűjtemény végére adja hozzá. |
+| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_2)(IShapeCollection, float, float, Stream, string, string, bool) | Lekér egy diagramot a megadott Excel munkafüzetből, és a megadott koordinátákon a megadott alakgyűjtemény végére adja hozzá. |
+| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_3)(IShapeCollection, float, float, string, string, string, bool) | Lekér egy diagramot a megadott Excel munkafüzetből, és a megadott koordinátákon a megadott alakgyűjtemény végére adja hozzá. |
+| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook)(IShapeCollection, float, float, IExcelDataWorkbook, string, string) | Lekér egy táblázatot a megadott Excel munkafüzetből, és a megadott koordinátákon a megadott alakgyűjtemény végére adja hozzá. |
+| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook_1)(IShapeCollection, float, float, Stream, string, string) | Lekér egy táblázatot a megadott Excel munkafüzetből, és a megadott koordinátákon a megadott alakgyűjtemény végére adja hozzá. |
+| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook_2)(IShapeCollection, float, float, string, string, string) | Lekér egy táblázatot a megadott Excel munkafüzetből, és a megadott koordinátákon a megadott alakgyűjtemény végére adja hozzá. |
 
 ### Lásd még
 

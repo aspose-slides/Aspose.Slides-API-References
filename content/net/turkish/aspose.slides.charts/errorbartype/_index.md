@@ -3,7 +3,7 @@ title: ErrorBarType
 second_title: Aspose.Sildes .NET API Referansı
 description: Hata çubuğu tipini temsil eder
 type: docs
-weight: 1640
+weight: 1650
 url: /tr/aspose.slides.charts/errorbartype/
 ---
 ## ErrorBarType enum
@@ -22,7 +22,7 @@ public enum ErrorBarType
 | Minus | `1` | Hata çubuklarının yalnızca negatif yönde gösterileceğini belirtir. |
 | Plus | `2` | Hata çubuklarının yalnızca pozitif yönde gösterileceğini belirtir. |
 
-### Ayrıca Bakınız
+### İlgili
 
 * ad alanı [Aspose.Slides.Charts](../../aspose.slides.charts)
 * derleme [Aspose.Slides](../../)

@@ -1,12 +1,12 @@
 ---
 title: Paragraph
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili sebuah paragraf teks.
 type: docs
-weight: 9280
+weight: 9300
 url: /id/aspose.slides/paragraph/
 ---
-## Kelas Paragraph
+## Paragraph kelas
 
 Mewakili sebuah paragraf teks.
 
@@ -18,24 +18,26 @@ public sealed class Paragraph : IParagraph
 
 | Nama | Deskripsi |
 | --- | --- |
-| [Paragraph](paragraph#constructor)() | Menginisialisasi instance baru dari kelas Paragraph dengan properti default. |
-| [Paragraph](paragraph#constructor_1)(Paragraph) | Konstruktor salin yang menginisialisasi instance baru dari kelas Paragraph. |
+| [Paragraph](paragraph#constructor)() | Menginisialisasi sebuah instance baru dari kelas Paragraph dengan properti default. |
+| [Paragraph](paragraph#constructor_1)(Paragraph) | Konstruktor penyalinan yang menginisialisasi sebuah instance baru dari kelas Paragraph. |
 
 ## Properti
 
 | Nama | Deskripsi |
 | --- | --- |
-| [EndParagraphPortionFormat](../../aspose.slides/paragraph/endparagraphportionformat) { get; set; } | Menentukan properti bagian yang akan digunakan jika bagian lain disisipkan setelah bagian terakhir. |
-| [ParagraphFormat](../../aspose.slides/paragraph/paragraphformat) { get; } | Mengembalikan objek format untuk paragraf ini. Hanya-baca [`IParagraphFormat`](../iparagraphformat). |
+| [EndParagraphPortionFormat](../../aspose.slides/paragraph/endparagraphportionformat) { get; set; } | Menentukan properti bagian yang akan digunakan jika bagian lain disisipkan setelah yang terakhir. |
+| [ParagraphFormat](../../aspose.slides/paragraph/paragraphformat) { get; } | Mengembalikan objek pemformatan untuk paragraf ini. Hanya-baca [`IParagraphFormat`](../iparagraphformat). |
 | [Portions](../../aspose.slides/paragraph/portions) { get; } | Mengembalikan koleksi bagian teks. Hanya-baca [`IPortionCollection`](../iportioncollection). |
-| [Text](../../aspose.slides/paragraph/text) { get; set; } | Mendapatkan atau mengatur teks polos dari sebuah paragraf. Baca/tulis String. |
+| [Text](../../aspose.slides/paragraph/text) { get; set; } | Mendapatkan atau mengatur teks biasa dari sebuah paragraf. Baca/tulis String. |
 
 ## Metode
 
 | Nama | Deskripsi |
 | --- | --- |
-| [GetLinesCount](../../aspose.slides/paragraph/getlinescount)() | Mendapatkan jumlah baris dalam sebuah paragraf. |
-| [GetRect](../../aspose.slides/paragraph/getrect)() | Mendapatkan koordinat rect yang membatasi paragraf. Rect mencakup semua baris teks dalam paragraf, termasuk yang kosong. |
+| [GetImage](../../aspose.slides/paragraph/getimage#getimage)() | Mengembalikan gambar dari paragraf. |
+| [GetImage](../../aspose.slides/paragraph/getimage#getimage_1)(float, float) | Mengembalikan gambar dari paragraf dengan skala yang ditentukan. |
+| [GetLinesCount](../../aspose.slides/paragraph/getlinescount)() | Mendapatkan jumlah baris dalam paragraf. |
+| [GetRect](../../aspose.slides/paragraph/getrect)() | Mendapatkan koordinat kotak yang membatasi paragraf. Kotak tersebut mencakup semua baris teks dalam paragraf, termasuk yang kosong. |
 | [JoinPortionsWithSameFormatting](../../aspose.slides/paragraph/joinportionswithsameformatting)() | Menggabungkan run dengan format yang sama. |
 
 ### Lihat Juga

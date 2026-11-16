@@ -1,14 +1,14 @@
 ---
 title: ISlidesPicture
-second_title: Aspose.Sildes สำหรับ .NET API Reference
+second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
 description: แสดงถึงรูปภาพในงานนำเสนอ.
 type: docs
-weight: 7110
+weight: 7130
 url: /th/aspose.slides/islidespicture/
 ---
 ## ISlidesPicture อินเทอร์เฟซ
 
-แสดงถึงรูปภาพในงานนำเสนอ.
+แสดงถึงรูปภาพในงานนำเสนอ
 
 ```csharp
 public interface ISlidesPicture : ISlideComponent
@@ -16,12 +16,12 @@ public interface ISlidesPicture : ISlideComponent
 
 ## คุณสมบัติ
 
-| ชื่อ | รายละเอียด |
+| Name | Description |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides/islidespicture/asislidecomponent) { get; } | อนุญาตให้รับอินเทอร์เฟซ ISlideComponent พื้นฐานได้ อ่านอย่างเดียว [`ISlideComponent`](../islidecomponent). |
-| [Image](../../aspose.slides/islidespicture/image) { get; set; } | คืนค่าหรือกำหนดรูปภาพที่ฝังอยู่ อ่าน/เขียน [`IPPImage`](../ippimage). |
-| [ImageTransform](../../aspose.slides/islidespicture/imagetransform) { get; } | คืนคอลเลกชันของเอฟเฟกต์การแปลงรูปภาพ อ่านอย่างเดียว [`IImageTransformOperationCollection`](../../aspose.slides.effects/iimagetransformoperationcollection). |
-| [LinkPathLong](../../aspose.slides/islidespicture/linkpathlong) { get; set; } | คืนค่าหรือกำหนด URL ของรูปภาพที่เชื่อมโยง อ่าน/เขียน String. |
+| [AsISlideComponent](../../aspose.slides/islidespicture/asislidecomponent) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ ISlideComponent พื้นฐาน. อ่านอย่างเดียว [`ISlideComponent`](../islidecomponent). |
+| [Image](../../aspose.slides/islidespicture/image) { get; set; } | คืนค่า หรือกำหนดภาพที่ฝังอยู่. อ่าน/เขียน [`IPPImage`](../ippimage). |
+| [ImageTransform](../../aspose.slides/islidespicture/imagetransform) { get; } | คืนค่าชุดของเอฟเฟกต์การแปลงภาพ. อ่านอย่างเดียว [`IImageTransformOperationCollection`](../../aspose.slides.effects/iimagetransformoperationcollection). |
+| [LinkPathLong](../../aspose.slides/islidespicture/linkpathlong) { get; set; } | คืนค่าหรือกำหนด URL ของภาพที่เชื่อมโยง. อ่าน/เขียน String. |
 
 ### ดูเพิ่มเติม
 

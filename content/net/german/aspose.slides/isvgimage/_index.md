@@ -3,7 +3,7 @@ title: ISvgImage
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt ein SVG-Bild dar.
 type: docs
-weight: 7180
+weight: 7200
 url: /de/aspose.slides/isvgimage/
 ---
 ## ISvgImage Schnittstelle
@@ -18,10 +18,10 @@ public interface ISvgImage
 
 | Name | Beschreibung |
 | --- | --- |
-| [BaseUri](../../aspose.slides/isvgimage/baseuri) { get; } | Gibt die Basis-URI des angegebenen SVG zurück. Wird verwendet, um relative Links aufzulösen. Nur-Lese-String. |
-| [ExternalResourceResolver](../../aspose.slides/isvgimage/externalresourceresolver) { get; } | Gibt das Callback-Interface zurück, das zum Auflösen externer Ressourcen während des Imports von SVG-Dokumenten verwendet wird. Nur-Lese-[`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver). |
-| [SvgContent](../../aspose.slides/isvgimage/svgcontent) { get; } | Gibt den SVG-Inhalt zurück. Nur-Lese-String. |
-| [SvgData](../../aspose.slides/isvgimage/svgdata) { get; } | Gibt die SVG-Daten zurück. Nur-Lese-Byte[]. |
+| [BaseUri](../../aspose.slides/isvgimage/baseuri) { get; } | Gibt die Basis-URI des angegebenen SVG zurück. Wird verwendet, um relative Links aufzulösen. Nur-Lesen String. |
+| [ExternalResourceResolver](../../aspose.slides/isvgimage/externalresourceresolver) { get; } | Gibt das Rückruf-Interface zurück, das zum Auflösen externer Ressourcen beim Import von SVG-Dokumenten verwendet wird. Nur-Lesen [`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver). |
+| [SvgContent](../../aspose.slides/isvgimage/svgcontent) { get; } | Gibt den SVG-Inhalt zurück. Nur-Lesen String. |
+| [SvgData](../../aspose.slides/isvgimage/svgdata) { get; } | Gibt die SVG-Daten zurück. Nur-Lesen Byte[]. |
 
 ## Methoden
 

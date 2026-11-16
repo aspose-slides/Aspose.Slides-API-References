@@ -1,14 +1,14 @@
 ---
 title: ILayoutSlideCollection
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een basisklasse voor de collectie van lay-outdia's.
+description: Stelt een basisklasse voor een collectie van lay-outdia's.
 type: docs
-weight: 6230
+weight: 6250
 url: /nl/aspose.slides/ilayoutslidecollection/
 ---
 ## ILayoutSlideCollection interface
 
-Stelt een basisklasse voor de collectie van lay-outdia's.
+Stelt een basisklasse voor voor een collectie van lay-out dia's.
 
 ```csharp
 public interface ILayoutSlideCollection : IGenericCollection<ILayoutSlide>
@@ -18,15 +18,15 @@ public interface ILayoutSlideCollection : IGenericCollection<ILayoutSlide>
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Item](../../aspose.slides/ilayoutslidecollection/item) { get; } | Retourneert de lay-outdia op index. Alleen-lezen [`ILayoutSlide`](../ilayoutslide). |
+| [Item](../../aspose.slides/ilayoutslidecollection/item) { get; } | Retourneert de lay-out dia op index. Alleen-lezen [`ILayoutSlide`](../ilayoutslide). |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| [GetByType](../../aspose.slides/ilayoutslidecollection/getbytype)(SlideLayoutType) | Retourneert de eerste lay-outdia van het opgegeven type. |
+| [GetByType](../../aspose.slides/ilayoutslidecollection/getbytype)(SlideLayoutType) | Retourneert de eerste lay-out dia van het opgegeven type. |
 | [Remove](../../aspose.slides/ilayoutslidecollection/remove)(ILayoutSlide) | Verwijdert een lay-out uit de collectie. |
-| [RemoveUnused](../../aspose.slides/ilayoutslidecollection/removeunused)() | Verwijdert ongebruikte lay-outdia's (lay-outdia's waarvan HasDependingSlides onwaar is). |
+| [RemoveUnused](../../aspose.slides/ilayoutslidecollection/removeunused)() | Verwijdert ongebruikte lay-out dia's (lay-out dia's waarvan HasDependingSlides onwaar is). |
 
 ### Zie ook
 

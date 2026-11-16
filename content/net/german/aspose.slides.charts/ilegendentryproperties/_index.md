@@ -1,14 +1,14 @@
 ---
 title: ILegendEntryProperties
-second_title: Aspose.Sildes für .NET API Referenz
-description: Stellt die Legendeigenschaften eines Diagramms dar.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Stellt die Legendeneigenschaften eines Diagramms dar.
 type: docs
-weight: 2150
+weight: 2170
 url: /de/aspose.slides.charts/ilegendentryproperties/
 ---
 ## ILegendEntryProperties Schnittstelle
 
-Stellt die Legendeigenschaften eines Diagramms dar.
+Stellt die Legenden-Eigenschaften eines Diagramms dar.
 
 ```csharp
 public interface ILegendEntryProperties : IFormattedTextContainer
@@ -18,8 +18,8 @@ public interface ILegendEntryProperties : IFormattedTextContainer
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIFormattedTextContainer](../../aspose.slides.charts/ilegendentryproperties/asiformattedtextcontainer) { get; } | Ermöglicht den Zugriff auf die Basis-IFormattedTextContainer-Schnittstelle. Nur lesbar [`IFormattedTextContainer`](../iformattedtextcontainer). |
-| [Hide](../../aspose.slides.charts/ilegendentryproperties/hide) { get; set; } | Gibt das Ausblenden-Flag des Legendeneintrags zurück oder setzt es. Lese-/Schreib-Boolean. |
+| [AsIFormattedTextContainer](../../aspose.slides.charts/ilegendentryproperties/asiformattedtextcontainer) { get; } | Ermöglicht das Abrufen der Basis-IFormattedTextContainer-Schnittstelle. Nur-Lese [`IFormattedTextContainer`](../iformattedtextcontainer). |
+| [Hide](../../aspose.slides.charts/ilegendentryproperties/hide) { get; set; } | Gibt das Hide-Flag des Legenden-Eintrags zurück oder setzt es. Lese/Schreib Boolean. |
 
 ### Siehe auch
 

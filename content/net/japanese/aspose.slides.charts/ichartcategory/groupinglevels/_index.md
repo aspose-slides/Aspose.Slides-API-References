@@ -1,14 +1,14 @@
 ---
 title: GroupingLevels
 second_title: Aspose.Sildes for .NET API リファレンス
-description: チャートカテゴリのグループ化レベルの値を管理するコンテナです。マルチレベルカテゴリは複数のグループ化レベルを含みます。グループ化レベルのインデックスはゼロベースです。読み取り専用 IChartCategoryLevelsManageraspose.slides.charts/ichartcategorylevelsmanager.
+description: チャートカテゴリのグルーピングレベルの値を管理するコンテナです。マルチレベルカテゴリは複数のグルーピングレベルを含みます。グルーピングレベルのインデックスはゼロベースです。読み取り専用 IChartCategoryLevelsManageraspose.slides.charts/ichartcategorylevelsmanager.
 type: docs
-weight: 30
+weight: 40
 url: /ja/aspose.slides.charts/ichartcategory/groupinglevels/
 ---
 ## IChartCategory.GroupingLevels プロパティ
 
-チャートカテゴリのグループ化レベルの値を管理するコンテナです。マルチレベルカテゴリは複数のグループ化レベルを含みます。グループ化レベルのインデックスはゼロベースです。読み取り専用 [`IChartCategoryLevelsManager`](../../ichartcategorylevelsmanager).
+チャートカテゴリのグルーピングレベルの値の管理コンテナです。マルチレベルカテゴリは複数のグルーピングレベルを含みます。グルーピングレベルのインデックスはゼロベースです。読み取り専用 [`IChartCategoryLevelsManager`](../../ichartcategorylevelsmanager)。
 
 ```csharp
 public IChartCategoryLevelsManager GroupingLevels { get; }

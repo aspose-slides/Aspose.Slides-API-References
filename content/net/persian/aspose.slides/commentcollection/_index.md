@@ -1,12 +1,12 @@
 ---
 title: CommentCollection
-second_title: مرجع API Aspose.Sildes برای .NET
+second_title: Aspose.Sildes برای .NET مرجع API
 description: نمایانگر مجموعه‌ای از نظرات یک نویسنده است.
 type: docs
-weight: 2650
+weight: 2670
 url: /fa/aspose.slides/commentcollection/
 ---
-## کلاس CommentCollection
+## CommentCollection کلاس
 
 نمایانگر مجموعه‌ای از نظرات یک نویسنده است.
 
@@ -18,10 +18,10 @@ public sealed class CommentCollection : DomObject<CommentAuthor>, ICommentCollec
 
 | نام | توضیح |
 | --- | --- |
-| [Count](../../aspose.slides/commentcollection/count) { get; } | تعداد عناصری که در واقع در مجموعه موجود هستند را دریافت می‌کند. فقط-خواندنی Int32. |
-| [IsSynchronized](../../aspose.slides/commentcollection/issynchronized) { get; } | مقداری را برمی‌گرداند که نشان می‌دهد آیا دسترسی به مجموعه همگام‌سازی شده (thread-safe) است. فقط-خواندنی Boolean. |
-| [Item](../../aspose.slides/commentcollection/item) { get; } | عنصر موجود در اندیس مشخص‌شده را دریافت می‌کند. فقط-خواندنی [`Comment`](../comment). |
-| [SyncRoot](../../aspose.slides/commentcollection/syncroot) { get; } | ریشهٔ همگام‌سازی را برمی‌گرداند. فقط-خواندنی Object. |
+| [Count](../../aspose.slides/commentcollection/count) { get; } | تعداد عناصری که در واقع در مجموعه موجود هستند را برمی‌گرداند. فقط‌خواندنی Int32. |
+| [IsSynchronized](../../aspose.slides/commentcollection/issynchronized) { get; } | مقداری را برمی‌گرداند که نشان می‌دهد آیا دسترسی به مجموعه همگام‌سازی شده است (امنیت نخ). فقط‌خواندنی Boolean. |
+| [Item](../../aspose.slides/commentcollection/item) { get; } | عنصر در اندیس مشخص شده را برمی‌گرداند. فقط‌خواندنی [`Comment`](../comment). |
+| [SyncRoot](../../aspose.slides/commentcollection/syncroot) { get; } | ریشه‌ی همگام‌سازی را برمی‌گرداند. فقط‌خواندنی Object. |
 
 ## متدها
 
@@ -30,22 +30,22 @@ public sealed class CommentCollection : DomObject<CommentAuthor>, ICommentCollec
 | [AddComment](../../aspose.slides/commentcollection/addcomment)(string, ISlide, PointF, DateTime) | یک نظر جدید را در انتهای مجموعه اضافه می‌کند. |
 | [AddModernComment](../../aspose.slides/commentcollection/addmoderncomment)(string, ISlide, IShape, PointF, DateTime) | یک نظر مدرن جدید را در انتهای مجموعه اضافه می‌کند. |
 | [Clear](../../aspose.slides/commentcollection/clear)() | تمام نظرات را از یک مجموعه حذف می‌کند. |
-| [CopyTo](../../aspose.slides/commentcollection/copyto)(Array, int) | تمام عناصر را از مجموعه به آرایهٔ مشخص‌شده کپی می‌کند. |
+| [CopyTo](../../aspose.slides/commentcollection/copyto)(Array, int) | تمام عناصر را از مجموعه به آرایه‌ی مشخص شده کپی می‌کند. |
 | [FindCommentByIdx](../../aspose.slides/commentcollection/findcommentbyidx)(int) | یک نظر را در مجموعه بر اساس اندیس پیدا می‌کند. |
-| [GetEnumerator](../../aspose.slides/commentcollection/getenumerator)() | یک شمارنده برمی‌گرداند که از طریق مجموعه پیمایش می‌کند. |
-| [InsertComment](../../aspose.slides/commentcollection/insertcomment)(int, string, ISlide, PointF, DateTime) | یک نظر جدید را در یک مجموعه در اندیس مشخص درج می‌کند. |
-| [InsertModernComment](../../aspose.slides/commentcollection/insertmoderncomment)(int, string, ISlide, IShape, PointF, DateTime) | یک نظر مدرن جدید را در یک مجموعه در اندیس مشخص درج می‌کند. |
-| [Remove](../../aspose.slides/commentcollection/remove)(IComment) | اولین رخداد نظر مشخص‌شده را در یک مجموعه حذف می‌کند. |
-| [RemoveAt](../../aspose.slides/commentcollection/removeat)(int) | عنصر موجود در اندیس مشخص‌شده را در یک مجموعه حذف می‌کند. |
-| [ToArray](../../aspose.slides/commentcollection/toarray#toarray)() | یک آرایه حاوی تمام نظرات ایجاد و برمی‌گرداند. |
-| [ToArray](../../aspose.slides/commentcollection/toarray#toarray_1)(int, int) | یک آرایه حاوی تمام نظرات از بازهٔ مشخص‌شده ایجاد و برمی‌گرداند. |
+| [GetEnumerator](../../aspose.slides/commentcollection/getenumerator)() | یک شمارنده را برمی‌گرداند که از طریق مجموعه عبور می‌کند. |
+| [InsertComment](../../aspose.slides/commentcollection/insertcomment)(int, string, ISlide, PointF, DateTime) | یک نظر جدید را در مجموعه در اندیس مشخص شده وارد می‌کند. |
+| [InsertModernComment](../../aspose.slides/commentcollection/insertmoderncomment)(int, string, ISlide, IShape, PointF, DateTime) | یک نظر مدرن جدید را در مجموعه در اندیس مشخص شده وارد می‌کند. |
+| [Remove](../../aspose.slides/commentcollection/remove)(IComment) | اولین رخداد نظر مشخص شده را از یک مجموعه حذف می‌کند. |
+| [RemoveAt](../../aspose.slides/commentcollection/removeat)(int) | عنصر در اندیس مشخص شده را از یک مجموعه حذف می‌کند. |
+| [ToArray](../../aspose.slides/commentcollection/toarray#toarray)() | یک آرایه شامل تمام نظرات ایجاد و برمی‌گرداند. |
+| [ToArray](../../aspose.slides/commentcollection/toarray#toarray_1)(int, int) | یک آرایه شامل تمام نظرات از بازه‌ی مشخص شده ایجاد و برمی‌گرداند. |
 
-### موارد مرتبط
+### نگاه کنید به
 
 * کلاس [DomObject&lt;TParent&gt;](../domobject-1)
 * کلاس [CommentAuthor](../commentauthor)
-* رابط [ICommentCollection](../icommentcollection)
+* اینترفیس [ICommentCollection](../icommentcollection)
 * فضای‌نام [Aspose.Slides](../../aspose.slides)
-* جامعه [Aspose.Slides](../../)
+* مجمع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

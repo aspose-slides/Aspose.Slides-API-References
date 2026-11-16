@@ -1,14 +1,14 @@
 ---
 title: X
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Visszaadja vagy beállítja egy cím X koordinátáját a diagram szélességének törtként. Olvasás/írás Single.
+second_title: Aspose.Sildes .NET API referencia
+description: Visszaadja vagy beállítja egy cím x koordinátáját a diagram szélességének tört részeként. Olvasás/írás Single.
 type: docs
-weight: 160
+weight: 170
 url: /hu/aspose.slides.charts/datalabel/x/
 ---
 ## DataLabel.X tulajdonság
 
-Visszaadja vagy beállítja a cím X koordinátáját a diagram szélességének törtként. Olvasás/írás Single.
+Visszaadja vagy beállítja a címsor x koordinátáját a diagram szélességének tört részeként. Olvasás/írás Single.
 
 ```csharp
 public float X { get; set; }

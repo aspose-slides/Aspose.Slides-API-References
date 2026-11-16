@@ -1,12 +1,12 @@
 ---
 title: TransitionSoundMode
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes for .NET APIリファレンス
 description: 遷移のサウンドモードを表します。
 type: docs
-weight: 10430
+weight: 10450
 url: /ja/aspose.slides.slideshow/transitionsoundmode/
 ---
-## TransitionSoundMode 列挙
+## TransitionSoundMode 列挙体
 
 遷移のサウンドモードを表します。
 

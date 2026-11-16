@@ -1,9 +1,9 @@
 ---
 title: ResourceLoadingAction
-second_title: Aspose.Sildes .NET API 參考
+second_title: Aspose.Sildes for .NET API 參考文件
 description: 指定外部資源載入的模式。
 type: docs
-weight: 9700
+weight: 9720
 url: /zh-hant/aspose.slides/resourceloadingaction/
 ---
 ## ResourceLoadingAction 列舉
@@ -18,9 +18,9 @@ public enum ResourceLoadingAction
 
 | 名稱 | 值 | 說明 |
 | --- | --- | --- |
-| Default | `0` | Aspose.Slides 將照常載入外部資源。 |
-| Skip | `1` | Aspose.Slides 將略過載入外部資源。僅會為圖片儲存沒有資料的連結。 |
-| UserProvided | `2` | Aspose.Slides 將使用使用者在 [`SetData`](../iresourceloadingargs/setdata) 中提供的位元組陣列作為圖片資料。 |
+| Default | `0` | Aspose.Slides 會照常載入外部資源。 |
+| Skip | `1` | Aspose.Slides 將跳過外部資源的載入。僅會為圖像儲存無資料的連結。 |
+| UserProvided | `2` | Aspose.Slides 會使用使用者於 [`SetData`](../iresourceloadingargs/setdata) 提供的位元組陣列作為圖像資料。 |
 
 ### 另請參閱
 

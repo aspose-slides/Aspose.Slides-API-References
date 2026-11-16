@@ -1,14 +1,14 @@
 ---
 title: IInterruptionToken
 second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Cette classe représente le jeton à utiliser pour signaler aux tâches longues si une interruption a été demandée.
+description: Cette classe représente le jeton à utiliser pour signaler aux tâches de longue durée si une interruption a été demandée.
 type: docs
-weight: 6190
+weight: 6210
 url: /fr/aspose.slides/iinterruptiontoken/
 ---
 ## IInterruptionToken interface
 
-Cette classe représente le jeton à utiliser pour signaler aux tâches longues si une interruption a été demandée.
+This class represents the token to use for signaling long running tasks whether the interruption was requested.
 
 ```csharp
 public interface IInterruptionToken
@@ -16,15 +16,15 @@ public interface IInterruptionToken
 
 ## Propriétés
 
-| Name | Description |
+| Nom | Description |
 | --- | --- |
 | [IsInterruptionRequested](../../aspose.slides/iinterruptiontoken/isinterruptionrequested) { get; } | Renvoie Boolean.true si une interruption a été demandée. |
 
 ## Méthodes
 
-| Name | Description |
+| Nom | Description |
 | --- | --- |
-| [ThrowIfInterruptionRequested](../../aspose.slides/iinterruptiontoken/throwifinterruptionrequested)() | Lance une OperationCanceledException si une interruption a été demandée. Lancée lorsque l'interruption a été demandée. |
+| [ThrowIfInterruptionRequested](../../aspose.slides/iinterruptiontoken/throwifinterruptionrequested)() | Lance une OperationCanceledException si une interruption a été demandée. Lancé lorsque l'interruption a été demandée. |
 
 ### Voir aussi
 

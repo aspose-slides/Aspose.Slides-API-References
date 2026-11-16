@@ -1,14 +1,14 @@
 ---
 title: IMasterThemeable
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงตัวจัดการธีมหลัก.
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: แสดงผู้จัดการธีมหลัก.
 type: docs
-weight: 11330
+weight: 11350
 url: /th/aspose.slides.theme/imasterthemeable/
 ---
 ## IMasterThemeable อินเทอร์เฟซ
 
-แสดงตัวจัดการธีมหลัก.
+แสดงผู้จัดการธีมหลัก.
 
 ```csharp
 public interface IMasterThemeable : IThemeable
@@ -18,8 +18,8 @@ public interface IMasterThemeable : IThemeable
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIThemeable](../../aspose.slides.theme/imasterthemeable/asithemeable) { get; } | คืนค่าอินเทอร์เฟซ IThemeable. อ่านอย่างเดียว [`IThemeable`](../ithemeable). |
-| [ThemeManager](../../aspose.slides.theme/imasterthemeable/thememanager) { get; } | คืนค่าผู้จัดการธีมหลัก. อ่านอย่างเดียว [`IMasterThemeManager`](../imasterthememanager). |
+| [AsIThemeable](../../aspose.slides.theme/imasterthemeable/asithemeable) { get; } | ส่งคืนอินเทอร์เฟซ IThemeable. อ่านอย่างเดียว [`IThemeable`](../ithemeable). |
+| [ThemeManager](../../aspose.slides.theme/imasterthemeable/thememanager) { get; } | ส่งคืนผู้จัดการธีมหลัก. อ่านอย่างเดียว [`IMasterThemeManager`](../imasterthememanager). |
 
 ### ดูเพิ่มเติม
 

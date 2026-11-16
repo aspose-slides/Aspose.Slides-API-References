@@ -1,18 +1,22 @@
 ---
 title: GapDepth
-second_title: Aspose.Sildes .NET API referencia
-description: Visszaadja vagy beállítja a távolságot a jelölő szélességének százalékában, a 3D diagram adat-sorozatai között. Olvasás/írás UInt16.
+second_title: Aspose.Sildes .NET-hez API referenciája
+description: Lekéri vagy beállítja a távolságot az adat sorozatok között egy 3D diagramon, a jelölő szélességének százalékában. Az értéknek 0 és 500 között kell lennie. Olvasás/írás UInt16.
 type: docs
 weight: 60
 url: /hu/aspose.slides.charts/ichartseriesgroup/gapdepth/
 ---
 ## IChartSeriesGroup.GapDepth tulajdonság
 
-Visszaadja vagy beállítja a távolságot, a jelölő szélességének százalékában megadva, a 3D diagram adat-sorozatai között. Olvasás/írás UInt16.
+Lekéri vagy beállítja a távolságot az adat sorozatok között egy 3D diagramon, a jelölő szélességének százalékában. Az értéknek 0 és 500 között kell lennie. Olvasás/írás UInt16.
 
 ```csharp
 public ushort GapDepth { get; set; }
 ```
+
+### Megjegyzések
+
+Ez a tulajdonság az alábbi típusú sorozatokra vonatkozik: 3D bar és column al-típusok, Line3D, Area3D, StackedArea3D, PercentsStackedArea3D.
 
 ### Lásd még
 

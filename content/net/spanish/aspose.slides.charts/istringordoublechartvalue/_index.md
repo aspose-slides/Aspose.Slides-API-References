@@ -1,14 +1,14 @@
 ---
 title: IStringOrDoubleChartValue
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: "Representa un valor de cadena o double que puede almacenarse en un documento de presentación pptx de dos maneras: 1) en celda(s) del libro de trabajo relacionado con el gráfico; 2) como valor literal."
+description: Representa un valor de cadena o doble que puede almacenarse en un documento de presentación pptx de dos maneras 1 en celda/celdas del libro de trabajo relacionado con el gráfico 2 como valor literal.
 type: docs
-weight: 2230
+weight: 2250
 url: /es/aspose.slides.charts/istringordoublechartvalue/
 ---
 ## IStringOrDoubleChartValue interfaz
 
-Representa un valor de cadena o double que puede almacenarse en un documento de presentación pptx de dos maneras: 1) en celda/celdas del libro de trabajo relacionado con el gráfico; 2) como valor literal.
+Representa un valor de cadena o doble que puede almacenarse en un documento de presentación pptx de dos maneras: 1) en celda/celdas del libro de trabajo relacionado con el gráfico; 2) como valor literal.
 
 ```csharp
 public interface IStringOrDoubleChartValue : ISingleCellChartValue
@@ -19,16 +19,16 @@ public interface IStringOrDoubleChartValue : ISingleCellChartValue
 | Nombre | Descripción |
 | --- | --- |
 | [AsISingleCellChartValue](../../aspose.slides.charts/istringordoublechartvalue/asisinglecellchartvalue) { get; } | Permite obtener la interfaz base ISingleCellChartValue. Solo lectura [`ISingleCellChartValue`](../isinglecellchartvalue). |
-| [AsLiteralDouble](../../aspose.slides.charts/istringordoublechartvalue/asliteraldouble) { get; set; } | Devuelve o establece el double literal si la propiedad DataSourceType es DataSourceType.DoubleLiterals. Lectura/escritura Double. |
+| [AsLiteralDouble](../../aspose.slides.charts/istringordoublechartvalue/asliteraldouble) { get; set; } | Devuelve o establece el doble literal si la propiedad DataSourceType es DataSourceType.DoubleLiterals. Lectura/escritura Double. |
 | [AsLiteralString](../../aspose.slides.charts/istringordoublechartvalue/asliteralstring) { get; set; } | Devuelve o establece la cadena literal si la propiedad DataSourceType es DataSourceType.StringLiterals. Lectura/escritura String. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [ToDouble](../../aspose.slides.charts/istringordoublechartvalue/todouble)() | Convierte el valor a double. |
+| [ToDouble](../../aspose.slides.charts/istringordoublechartvalue/todouble)() | Convierte el valor a doble. |
 
-### Véase también
+### Ver también
 
 * interfaz [ISingleCellChartValue](../isinglecellchartvalue)
 * espacio de nombres [Aspose.Slides.Charts](../../aspose.slides.charts)

@@ -1,14 +1,14 @@
 ---
 title: IMasterNotesSlideHeaderFooterManager
-second_title: Aspose.Sildes لمرجع API .NET
-description: يمثل المدير الذي يتحكم بسلوك تذييل شريحة الملاحظات الرئيسية وعناصر النائب للوقت/التاريخ ورقم الصفحة وجميع عناصر النائب الفرعية. تعني عناصر النائب الفرعية أن عناصر النائب موجودة في الشرائح المعتمدة على الملاحظات. تستخدم الشرائح المعتمدة على الملاحظات وتعتمد على شريحة الملاحظات الرئيسية.
+second_title: Aspose.Sildes لـ .NET مرجع API
+description: يمثل المدير الذي يحتفظ بسلوك نائبي التذييل، تاريخ ووقت، رقم الصفحة في شريحة الملاحظات الرئيسية وجميع النائبات الفرعية. النائبات الفرعية تعني أن النائبات موجودة على شرائح الملاحظات المعتمدة. شرائح الملاحظات المعتمدة تستخدم وتعتمد على شريحة الملاحظات الرئيسية.
 type: docs
-weight: 6400
+weight: 6420
 url: /ar/aspose.slides/imasternotesslideheaderfootermanager/
 ---
 ## IMasterNotesSlideHeaderFooterManager واجهة
 
-يمثل المدير الذي يتحكم بسلوك تذييل شريحة الملاحظات الرئيسية، وعناصر النائب للوقت/التاريخ، ورقم الصفحة، وجميع عناصر النائب الفرعية. تعني عناصر النائب الفرعية أن عناصر النائب موجودة في الشرائح المعتمدة على الملاحظات. تستخدم الشرائح المعتمدة على الملاحظات وتعتمد على شريحة الملاحظات الرئيسية.
+Represents manager which holds behavior of the master notes slide footer, date-time, page number placeholders and all child placeholders. Child placeholders mean placeholders are contained on depending notes slides. Depending notes slides use and depend on master notes slide.
 
 ```csharp
 public interface IMasterNotesSlideHeaderFooterManager : IBaseHandoutNotesSlideHeaderFooterManag
@@ -18,24 +18,24 @@ public interface IMasterNotesSlideHeaderFooterManager : IBaseHandoutNotesSlideHe
 
 | الاسم | الوصف |
 | --- | --- |
-| [AsIBaseHandoutNotesSlideHeaderFooterManag](../../aspose.slides/imasternotesslideheaderfootermanager/asibasehandoutnotesslideheaderfootermanag) { get; } | يرجع IBaseHandoutNotesSlideHeaderFooterManag واجهة. |
+| [AsIBaseHandoutNotesSlideHeaderFooterManag](../../aspose.slides/imasternotesslideheaderfootermanager/asibasehandoutnotesslideheaderfootermanag) { get; } | يعيد واجهة IBaseHandoutNotesSlideHeaderFooterManag. |
 
-## الطرق
+## الأساليب
 
 | الاسم | الوصف |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | يضبط النص في عنصر النائب لتاريخ ووقت شريحة الملاحظات الرئيسية وجميع عناصر النائب لتاريخ ووقت العناصر الفرعية. تعني عناصر النائب الفرعية أن عناصر النائب موجودة في الشرائح المعتمدة على الملاحظات. تستخدم الشرائح المعتمدة على الملاحظات وتعتمد على شريحة الملاحظات الرئيسية. |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | يغيّر رؤية عنصر النائب لتاريخ ووقت شريحة الملاحظات الرئيسية وجميع عناصر النائب لتاريخ ووقت العناصر الفرعية. تعني عناصر النائب الفرعية أن عناصر النائب موجودة في الشرائح المعتمدة على الملاحظات. تستخدم الشرائح المعتمدة على الملاحظات وتعتمد على شريحة الملاحظات الرئيسية. |
-| [SetFooterAndChildFootersText](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfooterstext)(string) | يضبط النص في عنصر النائب لتذييل شريحة الملاحظات الرئيسية وجميع عناصر النائب لتذييل العناصر الفرعية. تعني عناصر النائب الفرعية أن عناصر النائب موجودة في الشرائح المعتمدة على الملاحظات. تستخدم الشرائح المعتمدة على الملاحظات وتعتمد على شريحة الملاحظات الرئيسية. |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | يغيّر رؤية عنصر النائب لتذييل شريحة الملاحظات الرئيسية وجميع عناصر النائب لتذييل العناصر الفرعية. تعني عناصر النائب الفرعية أن عناصر النائب موجودة في الشرائح المعتمدة على الملاحظات. تستخدم الشرائح المعتمدة على الملاحظات وتعتمد على شريحة الملاحظات الرئيسية. |
-| [SetHeaderAndChildHeadersText](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheaderstext)(string) | يضبط النص في عنصر النائب لترويس شريحة الملاحظات الرئيسية وجميع عناصر النائب لترويس العناصر الفرعية. تعني عناصر النائب الفرعية أن عناصر النائب موجودة في الشرائح المعتمدة على الملاحظات. تستخدم الشرائح المعتمدة على الملاحظات وتعتمد على شريحة الملاحظات الرئيسية. |
-| [SetHeaderAndChildHeadersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheadersvisibility)(bool) | يغيّر رؤية عنصر النائب لترويس شريحة الملاحظات الرئيسية وجميع عناصر النائب لترويس العناصر الفرعية. تعني عناصر النائب الفرعية أن عناصر النائب موجودة في الشرائح المعتمدة على الملاحظات. تستخدم الشرائح المعتمدة على الملاحظات وتعتمد على شريحة الملاحظات الرئيسية. |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | يغيّر رؤية عنصر النائب لرقم الصفحة في شريحة الملاحظات الرئيسية وجميع عناصر النائب لرقم الصفحة للعناصر الفرعية. تعني عناصر النائب الفرعية أن عناصر النائب موجودة في الشرائح المعتمدة على الملاحظات. تستخدم الشرائح المعتمدة على الملاحظات وتعتمد على شريحة الملاحظات الرئيسية. |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | يضبط النص في عنصر نائب لتاريخ ووقت شريحة الملاحظات الرئيسية وجميع العناصر النائبة لتاريخ ووقت الفروع. العناصر النائبة الفرعية تعني أن العناصر النائبة موجودة على شرائح الملاحظات المعتمدة. شرائح الملاحظات المعتمدة تستخدم وتعتمد على شريحة الملاحظات الرئيسية. |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | يغيّر رؤية عنصر نائب لتاريخ ووقت شريحة الملاحظات الرئيسية وجميع العناصر النائبة لتاريخ ووقت الفروع. العناصر النائبة الفرعية تعني أن العناصر النائبة موجودة على شرائح الملاحظات المعتمدة. شرائح الملاحظات المعتمدة تستخدم وتعتمد على شريحة الملاحظات الرئيسية. |
+| [SetFooterAndChildFootersText](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfooterstext)(string) | يضبط النص في عنصر نائب للتذييل في شريحة الملاحظات الرئيسية وجميع العناصر النائبة للتذييل. العناصر النائبة الفرعية تعني أن العناصر النائبة موجودة على شرائح الملاحظات المعتمدة. شرائح الملاحظات المعتمدة تستخدم وتعتمد على شريحة الملاحظات الرئيسية. |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | يغيّر رؤية عنصر نائب للتذييل في شريحة الملاحظات الرئيسية وجميع العناصر النائبة للتذييل. العناصر النائبة الفرعية تعني أن العناصر النائبة موجودة على شرائح الملاحظات المعتمدة. شرائح الملاحظات المعتمدة تستخدم وتعتمد على شريحة الملاحظات الرئيسية. |
+| [SetHeaderAndChildHeadersText](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheaderstext)(string) | يضبط النص في عنصر نائب للرأس في شريحة الملاحظات الرئيسية وجميع العناصر النائبة للرأس. العناصر النائبة الفرعية تعني أن العناصر النائبة موجودة على شرائح الملاحظات المعتمدة. شرائح الملاحظات المعتمدة تستخدم وتعتمد على شريحة الملاحظات الرئيسية. |
+| [SetHeaderAndChildHeadersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheadersvisibility)(bool) | يغيّر رؤية عنصر نائب للرأس في شريحة الملاحظات الرئيسية وجميع العناصر النائبة للرأس. العناصر النائبة الفرعية تعني أن العناصر النائبة موجودة على شرائح الملاحظات المعتمدة. شرائح الملاحظات المعتمدة تستخدم وتعتمد على شريحة الملاحظات الرئيسية. |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | يغيّر رؤية عنصر نائب لرقم الصفحة في شريحة الملاحظات الرئيسية وجميع العناصر النائبة لأرقام الصفحات. العناصر النائبة الفرعية تعني أن العناصر النائبة موجودة على شرائح الملاحظات المعتمدة. شرائح الملاحظات المعتمدة تستخدم وتعتمد على شريحة الملاحظات الرئيسية. |
 
 ### انظر أيضًا
 
 * واجهة [IBaseHandoutNotesSlideHeaderFooterManag](../ibasehandoutnotesslideheaderfootermanag)
 * مساحة الاسم [Aspose.Slides](../../aspose.slides)
-* التجميع [Aspose.Slides](../../)
+* تجميع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

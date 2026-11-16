@@ -1,12 +1,12 @@
 ---
 title: ChartType
-second_title: Référence API Aspose.Sildes pour .NET
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Représente un type de graphique.
 type: docs
-weight: 1500
+weight: 1510
 url: /fr/aspose.slides.charts/charttype/
 ---
-## ChartType énumération
+## Énumération ChartType
 
 Représente un type de graphique.
 
@@ -25,25 +25,25 @@ public enum ChartType
 | StackedColumn3D | `4` | Représente le graphique à colonnes empilées 3D. |
 | PercentsStackedColumn3D | `5` | Représente le graphique à colonnes empilées à 100 % 3D. |
 | Column3D | `6` | Représente le graphique à colonnes 3D. |
-| ClusteredCylinder | `7` | Représente le graphique en cylindre. |
-| StackedCylinder | `8` | Représente le graphique en cylindre empilé. |
-| PercentsStackedCylinder | `9` | Représente le graphique en cylindre empilé à 100 %. |
-| Cylinder3D | `10` | Représente le graphique en cylindre 3D. |
-| ClusteredCone | `11` | Représente le graphique en cône. |
-| StackedCone | `12` | Représente le graphique en cône empilé. |
-| PercentsStackedCone | `13` | Représente le graphique en cône empilé à 100 %. |
-| Cone3D | `14` | Représente le graphique en cône 3D. |
-| ClusteredPyramid | `15` | Représente le graphique pyramidal. |
-| StackedPyramid | `16` | Représente le graphique pyramidal empilé. |
-| PercentsStackedPyramid | `17` | Représente le graphique pyramidal empilé à 100 %. |
-| Pyramid3D | `18` | Représente le graphique pyramidal 3D. |
-| Line | `19` | Représente le graphique linéaire. |
-| StackedLine | `20` | Représente le graphique linéaire empilé. |
-| PercentsStackedLine | `21` | Représente le graphique linéaire empilé à 100 %. |
-| LineWithMarkers | `22` | Représente le graphique linéaire avec des repères de données. |
-| StackedLineWithMarkers | `23` | Représente le graphique linéaire empilé avec des repères de données. |
-| PercentsStackedLineWithMarkers | `24` | Représente le graphique linéaire empilé à 100 % avec des repères de données. |
-| Line3D | `25` | Représente le graphique linéaire 3D. |
+| ClusteredCylinder | `7` | Représente le graphique à cylindres groupés. |
+| StackedCylinder | `8` | Représente le graphique à cylindres empilés. |
+| PercentsStackedCylinder | `9` | Représente le graphique à cylindres empilés à 100 %. |
+| Cylinder3D | `10` | Représente le graphique à cylindres 3D. |
+| ClusteredCone | `11` | Représente le graphique à cônes groupés. |
+| StackedCone | `12` | Représente le graphique à cônes empilés. |
+| PercentsStackedCone | `13` | Représente le graphique à cônes empilés à 100 %. |
+| Cone3D | `14` | Représente le graphique à cônes 3D. |
+| ClusteredPyramid | `15` | Représente le graphique à pyramides groupées. |
+| StackedPyramid | `16` | Représente le graphique à pyramides empilées. |
+| PercentsStackedPyramid | `17` | Représente le graphique à pyramides empilées à 100 %. |
+| Pyramid3D | `18` | Représente le graphique à pyramides 3D. |
+| Line | `19` | Représente le graphique en ligne. |
+| StackedLine | `20` | Représente le graphique en ligne empilé. |
+| PercentsStackedLine | `21` | Représente le graphique en ligne empilé à 100 %. |
+| LineWithMarkers | `22` | Représente le graphique en ligne avec des repères de données. |
+| StackedLineWithMarkers | `23` | Représente le graphique en ligne empilé avec des repères de données. |
+| PercentsStackedLineWithMarkers | `24` | Représente le graphique en ligne empilé à 100 % avec des repères de données. |
+| Line3D | `25` | Représente le graphique en ligne 3D. |
 | Pie | `26` | Représente le graphique circulaire. |
 | Pie3D | `27` | Représente le graphique circulaire 3D. |
 | PieOfPie | `28` | Représente le graphique circulaire imbriqué. |
@@ -56,26 +56,26 @@ public enum ChartType
 | StackedBar | `35` | Représente le graphique en barres empilées. |
 | StackedBar3D | `36` | Représente le graphique en barres empilées 3D. |
 | PercentsStackedBar3D | `37` | Représente le graphique en barres empilées à 100 % 3D. |
-| ClusteredHorizontalCylinder | `38` | Représente le graphique en barres cylindrique. |
-| StackedHorizontalCylinder | `39` | Représente le graphique en barres cylindrique empilé. |
-| PercentsStackedHorizontalCylinder | `40` | Représente le graphique en barres cylindrique empilé à 100 %. |
-| ClusteredHorizontalCone | `41` | Représente le graphique en barres conique. |
-| StackedHorizontalCone | `42` | Représente le graphique en barres conique empilé. |
-| PercentsStackedHorizontalCone | `43` | Représente le graphique en barres conique empilé à 100 %. |
-| ClusteredHorizontalPyramid | `44` | Représente le graphique en barres pyramidal. |
-| StackedHorizontalPyramid | `45` | Représente le graphique en barres pyramidal empilé. |
-| PercentsStackedHorizontalPyramid | `46` | Représente le graphique en barres pyramidal empilé à 100 %. |
-| Area | `47` | Représente le graphique en aires. |
-| StackedArea | `48` | Représente le graphique en aires empilées. |
-| PercentsStackedArea | `49` | Représente le graphique en aires empilées à 100 %. |
-| Area3D | `50` | Représente le graphique en aires 3D. |
-| StackedArea3D | `51` | Représente le graphique en aires empilées 3D. |
-| PercentsStackedArea3D | `52` | Représente le graphique en aires empilées à 100 % 3D. |
-| ScatterWithMarkers | `53` | Représente le graphique en nuage de points. |
-| ScatterWithSmoothLinesAndMarkers | `54` | Représente le graphique en nuage de points reliés par des courbes, avec des repères de données. |
-| ScatterWithSmoothLines | `55` | Représente le graphique en nuage de points reliés par des courbes, sans repères de données. |
-| ScatterWithStraightLinesAndMarkers | `56` | Représente le graphique en nuage de points reliés par des lignes droites, avec des repères de données. |
-| ScatterWithStraightLines | `57` | Représente le graphique en nuage de points reliés par des lignes droites, sans repères de données. |
+| ClusteredHorizontalCylinder | `38` | Représente le graphique à barres cylindriques groupées. |
+| StackedHorizontalCylinder | `39` | Représente le graphique à barres cylindriques empilées. |
+| PercentsStackedHorizontalCylinder | `40` | Représente le graphique à barres cylindriques empilées à 100 %. |
+| ClusteredHorizontalCone | `41` | Représente le graphique à barres coniques groupées. |
+| StackedHorizontalCone | `42` | Représente le graphique à barres coniques empilées. |
+| PercentsStackedHorizontalCone | `43` | Représente le graphique à barres coniques empilées à 100 %. |
+| ClusteredHorizontalPyramid | `44` | Représente le graphique à barres pyramidales groupées. |
+| StackedHorizontalPyramid | `45` | Représente le graphique à barres pyramidales empilées. |
+| PercentsStackedHorizontalPyramid | `46` | Représente le graphique à barres pyramidales empilées à 100 %. |
+| Area | `47` | Représente le graphique de zone. |
+| StackedArea | `48` | Représente le graphique de zone empilé. |
+| PercentsStackedArea | `49` | Représente le graphique de zone empilé à 100 %. |
+| Area3D | `50` | Représente le graphique de zone 3D. |
+| StackedArea3D | `51` | Représente le graphique de zone empilé 3D. |
+| PercentsStackedArea3D | `52` | Représente le graphique de zone empilé à 100 % 3D. |
+| ScatterWithMarkers | `53` | Représente le graphique de dispersion. |
+| ScatterWithSmoothLinesAndMarkers | `54` | Représente le graphique de dispersion relié par des courbes, avec des repères de données. |
+| ScatterWithSmoothLines | `55` | Représente le graphique de dispersion relié par des courbes, sans repères de données. |
+| ScatterWithStraightLinesAndMarkers | `56` | Représente le graphique de dispersion relié par des lignes droites, avec des repères de données. |
+| ScatterWithStraightLines | `57` | Représente le graphique de dispersion relié par des lignes droites, sans repères de données. |
 | HighLowClose | `58` | Représente le graphique boursier Haut-Bas-Fermeture. |
 | OpenHighLowClose | `59` | Représente le graphique boursier Ouverture-Haut-Bas-Fermeture. |
 | VolumeHighLowClose | `60` | Représente le graphique boursier Volume-Haut-Bas-Fermeture. |
@@ -86,24 +86,24 @@ public enum ChartType
 | WireframeContour | `65` | Représente le graphique de contour en fil de fer. |
 | Doughnut | `66` | Représente le graphique en anneau. |
 | ExplodedDoughnut | `67` | Représente le graphique en anneau éclaté. |
-| Bubble | `68` | Représente le graphique en bulles. |
-| BubbleWith3D | `69` | Représente le graphique en bulles 3D. |
+| Bubble | `68` | Représente le graphique à bulles. |
+| BubbleWith3D | `69` | Représente le graphique à bulles 3D. |
 | Radar | `70` | Représente le graphique radar. |
 | RadarWithMarkers | `71` | Représente le graphique radar avec des repères de données. |
 | FilledRadar | `72` | Représente le graphique radar rempli. |
-| SeriesOfMixedTypes | `73` | Cette valeur ne peut être renvoyée que par la propriété ChartEx.Type. Elle indique que le graphique possède des séries de types mixtes. |
-| Treemap | `74` | Représente le graphique en arborescence. |
-| Sunburst | `75` | Représente le graphique Sunburst. |
+| SeriesOfMixedTypes | `73` | Cette valeur ne peut être renvoyée que par la propriété ChartEx.Type. Elle indique que le graphique comporte des séries de types mixtes. |
+| Treemap | `74` | Représente le graphique en treemap. |
+| Sunburst | `75` | Représente le graphique en rayonnement solaire. |
 | Histogram | `76` | Représente le graphique histogramme. |
 | ParetoLine | `77` | Représente le type de série ligne Pareto (graphique histogramme Pareto). |
 | BoxAndWhisker | `78` | Représente le graphique boîte à moustaches. |
-| Waterfall | `79` | Représente le graphique en cascade. |
-| Funnel | `80` | Représente le graphique en entonnoir. |
-| Map | `81` | Représente le graphique cartographique. |
+| Waterfall | `79` | Représente le graphique cascade. |
+| Funnel | `80` | Représente le graphique entonnoir. |
+| Map | `81` | Représente le graphique de carte. |
 
 ### Voir aussi
 
 * espace de noms [Aspose.Slides.Charts](../../aspose.slides.charts)
-* assemblage [Aspose.Slides](../../)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

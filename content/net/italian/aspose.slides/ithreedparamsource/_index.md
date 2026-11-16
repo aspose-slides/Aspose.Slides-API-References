@@ -1,14 +1,14 @@
 ---
 title: IThreeDParamSource
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Interfaccia ausiliaria di origine delle proprietà 3D
+description: Interfaccia ausiliaria per la sorgente delle proprietà 3D
 type: docs
-weight: 7350
+weight: 7370
 url: /it/aspose.slides/ithreedparamsource/
 ---
 ## IThreeDParamSource interfaccia
 
-Interfaccia ausiliaria di origine delle proprietà 3D
+Interfaccia ausiliaria per la sorgente delle proprietà 3D
 
 ```csharp
 public interface IThreeDParamSource

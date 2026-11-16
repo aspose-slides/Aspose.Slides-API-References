@@ -1,9 +1,9 @@
 ---
 title: ShapeElement
-second_title: Aspose.Sildes для .NET справочник API
+second_title: Aspose.Sildes для .NET API справочник
 description: Представляет часть фигуры с одинаковыми свойствами контура и заливки.
 type: docs
-weight: 9870
+weight: 9890
 url: /ru/aspose.slides/shapeelement/
 ---
 ## ShapeElement класс
@@ -18,10 +18,10 @@ public class ShapeElement : IShapeElement
 
 | Имя | Описание |
 | --- | --- |
-| [FillSource](../../aspose.slides/shapeelement/fillsource) { get; } | Возвращает информацию о том, как залить элемент. Только для чтения [`ShapeElementFillSource`](../shapeelementfillsource). |
+| [FillSource](../../aspose.slides/shapeelement/fillsource) { get; } | Возвращает информацию о том, как заполнить элемент. Только для чтения [`ShapeElementFillSource`](../shapeelementfillsource). |
 | [ParentShape](../../aspose.slides/shapeelement/parentshape) { get; } | Возвращает объект Shape_PPT, для которого был создан элемент. Только для чтения [`Shape`](../shape). |
-| [PathPoints](../../aspose.slides/shapeelement/pathpoints) { get; } | Получает массив точек, определяющих геометрию пути элемента. |
-| [PathTypes](../../aspose.slides/shapeelement/pathtypes) { get; } | Получает массив байтовых значений, указывающих тип каждой точки в пути элемента. |
+| [PathPoints](../../aspose.slides/shapeelement/pathpoints) { get; } | Возвращает массив точек, определяющих геометрию пути элемента. |
+| [PathTypes](../../aspose.slides/shapeelement/pathtypes) { get; } | Возвращает массив байтовых значений, указывающих тип каждой точки в пути элемента. |
 | [StrokeSource](../../aspose.slides/shapeelement/strokesource) { get; } | Возвращает информацию о том, как обвести элемент. Только для чтения [`ShapeElementStrokeSource`](../shapeelementstrokesource). |
 
 ### См. также

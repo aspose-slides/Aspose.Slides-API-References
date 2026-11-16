@@ -1,14 +1,14 @@
 ---
 title: IMathBox
-second_title: Aspose.Sildes for .NET API 參考
-description: 指定數學元素的邏輯盒裝（打包）。例如，盒裝物件可作為帶或不帶對齊點的運算子模擬器、作為換行點，或被分組以防止在其內部換行。例如，應將該運算子盒裝以避免換行。
+second_title: Aspose.Sildes .NET API 參考
+description: 指定數學元素的邏輯盒裝（封裝）。例如，盒裝物件可以作為帶或不帶對齊點的運算子模擬器、作為換行點，或被分組以防止在其內部換行。例如，運算子應被盒裝以防止換行。
 type: docs
-weight: 8190
+weight: 8210
 url: /zh-hant/aspose.slides.mathtext/imathbox/
 ---
 ## IMathBox 介面
 
-指定數學元素的邏輯盒裝（打包）。例如，盒裝物件可以作為帶或不帶對齊點的運算子模擬器、作為換行點，或被分組以避免在其中換行。例如，應將 "==" 運算子盒裝以防止換行。
+指定數學元素的邏輯盒裝（封裝）。例如，盒裝物件可以作為帶或不帶對齊點的運算子模擬器，充當換行點，或被分組以防止在內部換行。例如，應將 "==" 運算子盒裝以防止換行。
 
 ```csharp
 public interface IMathBox : IMathElement
@@ -16,15 +16,15 @@ public interface IMathBox : IMathElement
 
 ## 屬性
 
-| 名稱 | 說明 |
+| Name | Description |
 | --- | --- |
-| [AlignmentPoint](../../aspose.slides.mathtext/imathbox/alignmentpoint) { get; set; } | 當為 true 時，此運算子模擬器充當對齊點；亦即，其他方程式中指定的對齊點可以與之對齊。預設值：false |
+| [AlignmentPoint](../../aspose.slides.mathtext/imathbox/alignmentpoint) { get; set; } | 當為 true 時，此運算子模擬器充當對齊點；亦即，其他等式中指定的對齊點可以與其對齊。預設值: false |
 | [AsIMathElement](../../aspose.slides.mathtext/imathbox/asimathelement) { get; } | 允許取得基礎 IMathElement 介面 [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathbox/base) { get; } | 基礎參數 |
-| [Differential](../../aspose.slides.mathtext/imathbox/differential) { get; set; } | 微分。當為 true 時，盒子作為微分（例如 integrand 中的 𝑑𝑥）使用，並獲得適當的水平間距以符合數學微分。預設值：false |
-| [ExplicitBreak](../../aspose.slides.mathtext/imathbox/explicitbreak) { get; set; } | 明確斷行指定盒子物件起始處是否有換行，使行在盒子物件起始處換行。它還指定前一行數學文字中的運算子編號，該編號將用作本行數學文字的對齊點。可能的值：1..255。預設值：0（無明確斷行） |
-| [NoBreak](../../aspose.slides.mathtext/imathbox/nobreak) { get; set; } | 不換行。此屬性指定物件盒子的「不可換行」屬性。當為 true 時，盒子內部不會發生換行。對於由多個二元運算子組成的運算子模擬器而言，這可能很重要。若未指定此元素，則盒子內可發生換行。預設值：true |
-| [OperatorEmulator](../../aspose.slides.mathtext/imathbox/operatoremulator) { get; set; } | 運算子模擬器。當為 true 時，盒子及其內容作為單一運算子運作，並繼承運算子的屬性。例如，該字元可作為換行點，且可對齊至其他運算子。運算子模擬器常在一個或多個字形結合成運算子（如 '=='）時使用。預設值：false |
+| [Differential](../../aspose.slides.mathtext/imathbox/differential) { get; set; } | 微分。當為 true 時，盒子作為微分（例如，積分式中的 𝑑𝑥），並獲得數學微分所需的適當水平間距。預設值: false |
+| [ExplicitBreak](../../aspose.slides.mathtext/imathbox/explicitbreak) { get; set; } | 明確換行 指定 Box 物件起始處是否存在換行，使得在盒子起始處換行。它指定先前數學文字行中的運算子編號，該編號將作為目前數學文字行的對齊點。可能的值: 1..255。預設值: 0（無明確換行） |
+| [NoBreak](../../aspose.slides.mathtext/imathbox/nobreak) { get; set; } | 無換行。此屬性指定物件盒子的「不可換行」屬性。當為 true 時，盒子內部不會發生換行。這在由多個二元運算子組成的運算子模擬器中可能很重要。若未指定此元素，則可以在盒子內換行。預設值: true |
+| [OperatorEmulator](../../aspose.slides.mathtext/imathbox/operatoremulator) { get; set; } | 運算子模擬器。當為 true 時，盒子及其內容行為如同單一運算子，並繼承運算子的屬性。這意味著，例如，該字元可以作為換行點，且可與其他運算子對齊。當一個或多個字形組合成運算子（如 '=='）時，常會使用運算子模擬器。預設值: false |
 
 ### 範例
 

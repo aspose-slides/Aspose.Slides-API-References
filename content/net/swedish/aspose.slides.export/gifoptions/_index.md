@@ -3,10 +3,10 @@ title: GifOptions
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar GIF-exportalternativ.
 type: docs
-weight: 3820
+weight: 3840
 url: /sv/aspose.slides.export/gifoptions/
 ---
-## GifOptions-klass
+## GifOptions klass
 
 Representerar GIF-exportalternativ.
 
@@ -14,29 +14,29 @@ Representerar GIF-exportalternativ.
 public class GifOptions : SaveOptions, IGifOptions
 ```
 
-## Konstruktorer
+## Konstruktörer
 
 | Namn | Beskrivning |
 | --- | --- |
-| [GifOptions](gifoptions)() | Initierar en ny instans av GifOptions-klass. |
+| [GifOptions](gifoptions)() | Initierar en ny instans av GifOptions-klassen. |
 
 ## Egenskaper
 
 | Namn | Beskrivning |
 | --- | --- |
-| [DefaultDelay](../../aspose.slides.export/gifoptions/defaultdelay) { get; set; } | Hämtar eller anger standardfördröjningstid [ms]. Detta värde kommer att användas om [`AdvanceAfterTime`](../../aspose.slides/islideshowtransition/advanceaftertime) inte är angivet. Standardvärdet är 1000. |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Hämtar eller anger teckensnitt som används om källteckensnittet inte hittas. Läs/skriv String. |
-| [ExportHiddenSlides](../../aspose.slides.export/gifoptions/exporthiddenslides) { get; set; } | Bestämmer om dolda bilder ska exporteras. Standardvärdet är false. |
-| [FrameSize](../../aspose.slides.export/gifoptions/framesize) { get; set; } | Hämtar eller anger ramstorlek. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Hämtar eller anger den visuella stilen för gradienten. Läs/skriv [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Representerar ett återuppringningsobjekt för att spara framstegsuppdateringar i procent. Se [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [DefaultDelay](../../aspose.slides.export/gifoptions/defaultdelay) { get; set; } | Hämtar eller anger standardfördröjningstid [ms]. Detta värde används om [`AdvanceAfterTime`](../../aspose.slides/islideshowtransition/advanceaftertime) inte är angivet. Standardvärdet är 1000. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Returnerar eller anger teckensnitt som används när källteckensnittet inte hittas. Läs/skriv String. |
+| [ExportHiddenSlides](../../aspose.slides.export/gifoptions/exporthiddenslides) { get; set; } | Bestämmer om dolda bilder ska exporteras. Standardvärdet är falskt. |
+| [FrameSize](../../aspose.slides.export/gifoptions/framesize) { get; set; } | Hämtar eller anger bildrutestorlek. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Returnerar eller anger den visuella stilen för gradienten. Läs/skriv [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Representerar ett återuppringningsobjekt för att spara förloppsuppdateringar i procent. Se [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
 | [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Anger om hyperlänkar med JavaScript-anrop ska hoppas över när presentationen sparas. Läs/skriv Boolean. Standardvärdet är **false**. |
-| [TransitionFps](../../aspose.slides.export/gifoptions/transitionfps) { get; set; } | Hämtar eller anger övergångs-FPS [frames/sec] Standardvärdet är 25. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Hämtar eller anger ett objekt som tar emot varningar och avgör om laddningsprocessen ska fortsätta eller avbrytas. Läs/skriv [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [TransitionFps](../../aspose.slides.export/gifoptions/transitionfps) { get; set; } | Hämtar eller anger övergångs-FPS [bilder/sek] Standardvärdet är 25. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Returnerar eller anger ett objekt som tar emot varningar och bestämmer om inläsningsprocessen ska fortsätta eller avbrytas. Läs/skriv [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Exempel
 
-Följande exempel visar hur man konverterar presentationer till animerad GIF med anpassade inställningar.
+Följande exempel visar hur man konverterar presentationer till animerade GIF-bilder med anpassade inställningar.
 
 ```csharp
 [C#]
@@ -44,9 +44,9 @@ using (Presentation pres = new Presentation("pres.pptx"))
 {
     pres.Save("pres.gif", SaveFormat.Gif, new GifOptions
     {
-        FrameSize = new Size(960, 720), // storleken på den resulterade GIF-en
-        DefaultDelay = 2000, // hur länge varje bild kommer att visas innan den byts till nästa
-        TransitionFps = 35 // öka FPS för bättre övergångsanimeringskvalitet
+        FrameSize = new Size(960, 720), // storleken på den resulterande GIF-filen
+        DefaultDelay = 2000, // hur länge varje bild visas innan den byts till nästa
+        TransitionFps = 35 // öka FPS för bättre övergångsanimationskvalitet
     });
 }
 ```
@@ -56,6 +56,6 @@ using (Presentation pres = new Presentation("pres.pptx"))
 * klass [SaveOptions](../saveoptions)
 * gränssnitt [IGifOptions](../igifoptions)
 * namnrymd [Aspose.Slides.Export](../../aspose.slides.export)
-* samling [Aspose.Slides](../../)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

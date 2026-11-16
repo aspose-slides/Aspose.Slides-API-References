@@ -3,7 +3,7 @@ title: ColorOperation
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示用于颜色转换的不同颜色操作。不可变对象。
 type: docs
-weight: 2530
+weight: 2550
 url: /zh/aspose.slides/coloroperation/
 ---
 ## ColorOperation 类
@@ -19,7 +19,7 @@ public class ColorOperation : IColorOperation
 | 名称 | 描述 |
 | --- | --- |
 | [ColorOperation](coloroperation#constructor)(ColorTransformOperation) | 创建新的颜色变换操作。 |
-| [ColorOperation](coloroperation#constructor_1)(ColorTransformOperation,float) | 创建新的颜色变换操作。 |
+| [ColorOperation](coloroperation#constructor_1)(ColorTransformOperation, float) | 创建新的颜色变换操作。 |
 
 ## 属性
 
@@ -33,9 +33,9 @@ public class ColorOperation : IColorOperation
 | 名称 | 描述 |
 | --- | --- |
 | override [Equals](../../aspose.slides/coloroperation/equals)(object) | 确定两个 ColorOperation 实例是否相等。 |
-| override [GetHashCode](../../aspose.slides/coloroperation/gethashcode)() | 充当特定类型的散列函数，适用于散列算法和如散列表等数据结构。 |
+| override [GetHashCode](../../aspose.slides/coloroperation/gethashcode)() | 充当特定类型的散列函数，适用于散列算法和诸如散列表之类的数据结构。 |
 
-### 另请参见
+### 另见
 
 * 接口 [IColorOperation](../icoloroperation)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

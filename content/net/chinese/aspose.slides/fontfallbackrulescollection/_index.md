@@ -1,14 +1,15 @@
 ---
 title: FontFallBackRulesCollection
-second_title: Aspose.Sildes for .NET API 参考
-description: 表示由用户定义的 FontFallBack 规则集合
+second_title: Aspose.Sildes .NET API 参考
+description: 表示用户定义的 FontFallBack 规则集合
 type: docs
-weight: 4850
+weight: 4870
 url: /zh/aspose.slides/fontfallbackrulescollection/
 ---
+
 ## FontFallBackRulesCollection 类
 
-表示由用户定义的 FontFallBack 规则集合。
+表示由用户定义的 FontFallBack 规则集合
 
 ```csharp
 public class FontFallBackRulesCollection : IFontFallBackRulesCollection
@@ -16,29 +17,29 @@ public class FontFallBackRulesCollection : IFontFallBackRulesCollection
 
 ## 构造函数
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
 | [FontFallBackRulesCollection](fontfallbackrulescollection)() | 默认构造函数。 |
 
 ## 属性
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides/fontfallbackrulescollection/count) { get; } | 获取集合中实际包含的规则数。只读 Int32。 |
-| [IsSynchronized](../../aspose.slides/fontfallbackrulescollection/issynchronized) { get; } | 返回一个值，指示对集合的访问是否同步（线程安全）。只读 Boolean。 |
+| [Count](../../aspose.slides/fontfallbackrulescollection/count) { get; } | 获取集合中实际包含的规则数量。只读 Int32。 |
+| [IsSynchronized](../../aspose.slides/fontfallbackrulescollection/issynchronized) { get; } | 返回一个值，指示对集合的访问是否已同步（线程安全）。只读 Boolean。 |
 | [Item](../../aspose.slides/fontfallbackrulescollection/item) { get; } | 获取指定索引处的规则。只读 [`IFontFallBackRule`](../ifontfallbackrule)。 |
 | [SyncRoot](../../aspose.slides/fontfallbackrulescollection/syncroot) { get; } | 返回同步根。只读 Object。 |
 
 ## 方法
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
 | [Add](../../aspose.slides/fontfallbackrulescollection/add)(IFontFallBackRule) | 将指定的 FallBack 规则添加到集合的末尾。 |
 | [CopyTo](../../aspose.slides/fontfallbackrulescollection/copyto)(Array, int) | 将集合中的所有元素复制到指定的数组。 |
 | [GetEnumerator](../../aspose.slides/fontfallbackrulescollection/getenumerator)() | 返回一个遍历集合的枚举器。 |
-| [Remove](../../aspose.slides/fontfallbackrulescollection/remove)(IFontFallBackRule) | 从集合中移除第一次出现的特定 FallBack 规则。 |
+| [Remove](../../aspose.slides/fontfallbackrulescollection/remove)(IFontFallBackRule) | 从集合中移除首次出现的特定 FallBack 规则。 |
 
-### 另请参见
+### 另见
 
 * 接口 [IFontFallBackRulesCollection](../ifontfallbackrulescollection)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

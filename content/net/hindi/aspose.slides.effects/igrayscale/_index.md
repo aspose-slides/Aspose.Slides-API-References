@@ -1,14 +1,14 @@
 ---
 title: IGrayScale
-second_title: Aspose.Sildes .NET API संदर्भ
-description: IImageTransformOperation इंटरफ़ेस को दर्शाता है।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: IImageTransformOperation इंटरफ़ेस का प्रतिनिधित्व करता है।
 type: docs
-weight: 3340
+weight: 3360
 url: /hi/aspose.slides.effects/igrayscale/
 ---
 ## IGrayScale इंटरफ़ेस
 
-IImageTransformOperation इंटरफ़ेस को दर्शाता है।
+IImageTransformOperation इंटरफ़ेस का प्रतिनिधित्व करता है।
 
 ```csharp
 public interface IGrayScale : IAccessiblePVIObject<IGrayScaleEffectiveData>, 
@@ -19,8 +19,8 @@ public interface IGrayScale : IAccessiblePVIObject<IGrayScaleEffectiveData>,
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/igrayscale/asiaccessiblepviobject) { get; } | आधार IAccessiblePVIObject इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल पढ़ने योग्य [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/igrayscale/asiimagetransformoperation) { get; } | IImageTransformOperation इंटरफ़ेस को लौटाता है। केवल पढ़ने योग्य [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/igrayscale/asiaccessiblepviobject) { get; } | बेस IAccessiblePVIObject इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)। |
+| [AsIImageTransformOperation](../../aspose.slides.effects/igrayscale/asiimagetransformoperation) { get; } | IImageTransformOperation इंटरफ़ेस लौटाता है। केवल-पढ़ने योग्य [`IImageTransformOperation`](../iimagetransformoperation)। |
 
 ### संबंधित देखें
 

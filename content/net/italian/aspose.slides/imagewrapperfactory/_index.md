@@ -1,9 +1,9 @@
 ---
 title: ImageWrapperFactory
-second_title: Aspose.Sildes per il Riferimento API .NET
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Questa classe consente di inizializzare IBitmapWrapper.
 type: docs
-weight: 7450
+weight: 7470
 url: /it/aspose.slides/imagewrapperfactory/
 ---
 ## ImageWrapperFactory classe
@@ -24,7 +24,7 @@ public class ImageWrapperFactory : IImageWrapperFactory
 
 | Nome | Descrizione |
 | --- | --- |
-| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper)(IImage) | Inizializza una nuova istanza della classe ImageWrapper dall'immagine esistente specificata. |
+| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper)(IImage) | Inizializza una nuova istanza della classe ImageWrapper dall’immagine esistente specificata. |
 | [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper_1)(Stream) | Inizializza una nuova istanza della classe BitmapWrapper dal flusso di dati specificato. |
 | [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper_2)(string) | Inizializza una nuova istanza della classe BitmapWrapper dal file specificato. |
 

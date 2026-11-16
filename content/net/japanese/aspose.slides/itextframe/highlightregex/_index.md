@@ -1,41 +1,41 @@
 ---
 title: HighlightRegex
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 指定された色で正規表現に一致するすべての文字列をハイライトします。
+description: 指定された色で正規表現のすべてのマッチをハイライトします。
 type: docs
-weight: 80
+weight: 90
 url: /ja/aspose.slides/itextframe/highlightregex/
 ---
 ## ITextFrame.HighlightRegex メソッド
 
-指定された色で正規表現に一致するすべての文字列をハイライトします。
+指定された色で正規表現のすべての一致箇所をハイライトします。
 
 ```csharp
 public void HighlightRegex(Regex regex, Color highlightColor, IFindResultCallback callback)
 ```
 
-| パラメータ | 型 | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| regex | Regex | ハイライト対象の文字列を取得する正規表現 Regex。 |
+| regex | Regex | ハイライト対象の文字列を取得するための正規表現 Regex。 |
 | highlightColor | Color | テキストをハイライトする色。 |
 | callback | IFindResultCallback | 検索結果を受け取るためのコールバックオブジェクト [`IFindResultCallback`](../../ifindresultcallback)。 |
 
 ### 例
 
-次のコードサンプルは、正規表現を使用して TextFrame のテキストをハイライトする方法を示しています。
+以下のコードサンプルは、正規表現を使用して TextFrame のテキストをハイライトする方法を示しています。
 
 ```csharp
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
 	Regex regex = new Regex(@"\b[^\s]{10,}\b");
-	// 10文字以上の単語をすべてハイライト
+	// 10文字以上のすべての単語をハイライトしています
 	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.HighlightRegex(regex, Color.Blue, null);
 	presentation.Save("SomePresentation-out.pptx", SaveFormat.Pptx);
 }
 ```
 
-### 関連項目
+### 参照
 
 * インターフェイス [IFindResultCallback](../../ifindresultcallback)
 * インターフェイス [ITextFrame](../../itextframe)

@@ -1,14 +1,14 @@
 ---
 title: LineArrowheadStyle
-second_title: Referência de API Aspose.Sildes para .NET
-description: Representa o estilo de uma ponta de flecha.
+second_title: Referência da API Aspose.Sildes para .NET
+description: Representa o estilo de uma ponta de seta.
 type: docs
-weight: 7740
+weight: 7760
 url: /pt/aspose.slides/linearrowheadstyle/
 ---
-## Enumeração LineArrowheadStyle
+## LineArrowheadStyle enumeração
 
-Representa o estilo de uma ponta de flecha.
+Represents the style of an arrowhead.
 
 ```csharp
 public enum LineArrowheadStyle : sbyte
@@ -26,7 +26,7 @@ public enum LineArrowheadStyle : sbyte
 | Oval | `4` |  |
 | Open | `5` |  |
 
-### Veja Também
+### Ver também
 
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

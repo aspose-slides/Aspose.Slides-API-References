@@ -3,7 +3,7 @@ title: TableFormat
 second_title: Aspose.Sildes dla .NET – odniesienie API
 description: Reprezentuje format tabeli.
 type: docs
-weight: 10870
+weight: 10890
 url: /pl/aspose.slides/tableformat/
 ---
 ## TableFormat klasa
@@ -16,18 +16,18 @@ public sealed class TableFormat : DomObject<Table>, ITableFormat
 
 ## Właściwości
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
-| [FillFormat](../../aspose.slides/tableformat/fillformat) { get; } | Zwraca obiekt właściwości wypełnienia tabeli. Tylko odczyt [`IFillFormat`](../ifillformat). |
-| [Transparency](../../aspose.slides/tableformat/transparency) { get; set; } | Pobiera lub ustawia przezroczystość koloru wypełnienia. Odczyt/zapis Single. |
+| [FillFormat](../../aspose.slides/tableformat/fillformat) { get; } | Zwraca obiekt właściwości wypełnienia tabeli. Tylko do odczytu [`IFillFormat`](../ifillformat). |
+| [Transparency](../../aspose.slides/tableformat/transparency) { get; set; } | Pobiera lub ustawia przeźroczystość koloru wypełnienia. Odczyt/zapis Single. |
 
 ## Metody
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
-| [GetEffective](../../aspose.slides/tableformat/geteffective)() | Zwraca efektywne właściwości formatowania tabeli z uwzględnieniem dziedziczenia i zastosowanych stylów tabeli. |
+| [GetEffective](../../aspose.slides/tableformat/geteffective)() | Pobiera efektywne właściwości formatowania tabeli z uwzględnieniem dziedziczenia i zastosowanych stylów tabeli. |
 
-### Zobacz także
+### Patrz także
 
 * klasa [DomObject&lt;TParent&gt;](../domobject-1)
 * klasa [Table](../table)

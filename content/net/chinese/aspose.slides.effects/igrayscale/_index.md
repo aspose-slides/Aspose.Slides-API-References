@@ -1,9 +1,9 @@
 ---
 title: IGrayScale
-second_title: Aspose.Sildes .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 表示 IImageTransformOperation 接口。
 type: docs
-weight: 3340
+weight: 3360
 url: /zh/aspose.slides.effects/igrayscale/
 ---
 ## IGrayScale 接口

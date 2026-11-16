@@ -1,14 +1,14 @@
 ---
 title: IPatternFormat
-second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
-description: แทนลวดลายเพื่อเติมรูปทรง.
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: แสดงลายที่ใช้เติมรูปทรง.
 type: docs
-weight: 6620
+weight: 6640
 url: /th/aspose.slides/ipatternformat/
 ---
 ## IPatternFormat อินเทอร์เฟซ
 
-แทนลวดลายเพื่อเติมรูปทรง
+แสดงลายที่ใช้เติมรูปทรง.
 
 ```csharp
 public interface IPatternFormat
@@ -16,20 +16,20 @@ public interface IPatternFormat
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| ชื่อ | รายละเอียด |
 | --- | --- |
-| [BackColor](../../aspose.slides/ipatternformat/backcolor) { get; } | ส่งกลับสีลวดลายพื้นหลัง อ่านอย่างเดียว [`IColorFormat`](../icolorformat). |
-| [ForeColor](../../aspose.slides/ipatternformat/forecolor) { get; } | ส่งกลับสีลวดลายพื้นหน้า อ่านอย่างเดียว [`IColorFormat`](../icolorformat). |
-| [PatternStyle](../../aspose.slides/ipatternformat/patternstyle) { get; set; } | ส่งกลับหรือกำหนดรูปแบบลวดลาย อ่าน/เขียน [`PatternStyle`](../patternstyle). |
+| [BackColor](../../aspose.slides/ipatternformat/backcolor) { get; } | คืนค่าสีพื้นหลังของลาย. อ่านอย่างเดียว [`IColorFormat`](../icolorformat). |
+| [ForeColor](../../aspose.slides/ipatternformat/forecolor) { get; } | คืนค่าสีพื้นหน้าของลาย. อ่านอย่างเดียว [`IColorFormat`](../icolorformat). |
+| [PatternStyle](../../aspose.slides/ipatternformat/patternstyle) { get; set; } | คืนค่า หรือกำหนดสไตล์ของลาย. อ่าน/เขียน [`PatternStyle`](../patternstyle). |
 
-## เมธอด
+## วิธีการ
 
-| ชื่อ | คำอธิบาย |
+| ชื่อ | รายละเอียด |
 | --- | --- |
-| [GetTile](../../aspose.slides/ipatternformat/gettile#gettile)(Color) | สร้างรูปภาพกระเบื้องสำหรับการเติมลวดลาย. |
-| [GetTile](../../aspose.slides/ipatternformat/gettile#gettile_1)(Color, Color) | สร้างรูปภาพกระเบื้องสำหรับการเติมลวดลายด้วยสีที่ระบุ. |
+| [GetTile](../../aspose.slides/ipatternformat/gettile#gettile)(Color) | สร้างภาพไทล์สำหรับการเติมลาย. |
+| [GetTile](../../aspose.slides/ipatternformat/gettile#gettile_1)(Color, Color) | สร้างภาพไทล์สำหรับการเติมลายด้วยสีที่ระบุ. |
 
-### ดูเพิ่มเติม
+### ดูเพิ่ม
 
 * เนมสเปซ [Aspose.Slides](../../aspose.slides)
 * แอสเซมบลี [Aspose.Slides](../../)

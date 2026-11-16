@@ -1,14 +1,14 @@
 ---
 title: ITextStyleEffectiveData
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Objeto inmutable que contiene propiedades de estilo de texto efectivas.
+description: Objeto inmutable que contiene las propiedades efectivas de estilo de texto.
 type: docs
-weight: 7320
+weight: 7340
 url: /es/aspose.slides/itextstyleeffectivedata/
 ---
-## Interfaz ITextStyleEffectiveData
+## ITextStyleEffectiveData interfaz
 
-Objeto inmutable que contiene propiedades de estilo de texto efectivas.
+Objeto inmutable que contiene las propiedades efectivas de estilo de texto.
 
 ```csharp
 public interface ITextStyleEffectiveData
@@ -18,7 +18,7 @@ public interface ITextStyleEffectiveData
 
 | Nombre | Descripción |
 | --- | --- |
-| [DefaultParagraphFormat](../../aspose.slides/itextstyleeffectivedata/defaultparagraphformat) { get; } | Devuelve las propiedades de párrafo predeterminadas efectivas. Sólo lectura [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata). |
+| [DefaultParagraphFormat](../../aspose.slides/itextstyleeffectivedata/defaultparagraphformat) { get; } | Devuelve las propiedades predeterminadas de párrafo efectivas. Solo lectura [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata). |
 
 ## Métodos
 
@@ -28,7 +28,7 @@ public interface ITextStyleEffectiveData
 
 ### Observaciones
 
-Esta interfaz se usa junto con la interfaz [`ITextStyle`](../itextstyle) para devolver valores de formato efectivos con herencia aplicada.
+Esta interfaz se usa junto con la [`ITextStyle`](../itextstyle) interfaz para devolver valores de formato efectivos con herencia aplicada.
 
 ### Ver también
 

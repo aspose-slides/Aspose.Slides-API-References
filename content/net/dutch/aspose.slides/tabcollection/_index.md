@@ -1,14 +1,14 @@
 ---
 title: TabCollection
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een collectie tabbladen voor.
+description: Representeert een verzameling tabs.
 type: docs
-weight: 10840
+weight: 10860
 url: /nl/aspose.slides/tabcollection/
 ---
 ## TabCollection klasse
 
-Stelt een collectie tabbladen voor.
+Representeert een verzameling tabs.
 
 ```csharp
 public sealed class TabCollection : ITabCollection
@@ -16,24 +16,24 @@ public sealed class TabCollection : ITabCollection
 
 ## Eigenschappen
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
 | [Count](../../aspose.slides/tabcollection/count) { get; } | Haalt het aantal elementen op dat daadwerkelijk in de collectie zit. Alleen-lezen Int32. |
-| [IsSynchronized](../../aspose.slides/tabcollection/issynchronized) { get; } | Geeft een waarde terug die aangeeft of toegang tot de collectie gesynchroniseerd is (thread-safe). Alleen-lezen Boolean. |
+| [IsSynchronized](../../aspose.slides/tabcollection/issynchronized) { get; } | Retourneert een waarde die aangeeft of de toegang tot de collectie gesynchroniseerd is (thread-safe). Alleen-lezen Boolean. |
 | [Item](../../aspose.slides/tabcollection/item) { get; } | Haalt het element op op de opgegeven index. Alleen-lezen [`Tab`](../tab). |
-| [SyncRoot](../../aspose.slides/tabcollection/syncroot) { get; } | Geeft een synchronisatiewortel terug. Alleen-lezen Object. |
+| [SyncRoot](../../aspose.slides/tabcollection/syncroot) { get; } | Retourneert een synchronisatieroot. Alleen-lezen Object. |
 
 ## Methoden
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
 | [Add](../../aspose.slides/tabcollection/add#add_1)(ITab) | Voegt een Tab toe aan de collectie. |
 | [Add](../../aspose.slides/tabcollection/add#add)(double, TabAlignment) | Voegt een Tab toe aan de collectie. |
 | [Clear](../../aspose.slides/tabcollection/clear)() | Verwijdert alle elementen uit de collectie. |
-| [CopyTo](../../aspose.slides/tabcollection/copyto)(Array, int) | Kopieert alle elementen van de collectie naar de opgegeven array. |
+| [CopyTo](../../aspose.slides/tabcollection/copyto)(Array, int) | Kopieert alle elementen uit de collectie naar de opgegeven array. |
 | override [Equals](../../aspose.slides/tabcollection/equals)(object) | Bepaalt of twee TabsEx-instanties gelijk zijn. |
-| [GetEnumerator](../../aspose.slides/tabcollection/getenumerator)() | Geeft een enumerator terug die door de collectie iterereert. |
-| override [GetHashCode](../../aspose.slides/tabcollection/gethashcode)() | Geeft een hashcode voor dit object terug. |
+| [GetEnumerator](../../aspose.slides/tabcollection/getenumerator)() | Retourneert een enumerator die door de collectie itereert. |
+| override [GetHashCode](../../aspose.slides/tabcollection/gethashcode)() | Retourneert hashcode voor dit object. |
 | [RemoveAt](../../aspose.slides/tabcollection/removeat)(int) | Verwijdert het element op de opgegeven index van de collectie. |
 
 ### Zie ook

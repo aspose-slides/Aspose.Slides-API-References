@@ -1,12 +1,12 @@
 ---
 title: ChartCellCollection
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Referência de API Aspose.Sildes para .NET
 description: Representa uma coleção de células com dados.
 type: docs
-weight: 1300
+weight: 1310
 url: /pt/aspose.slides.charts/chartcellcollection/
 ---
-## classe ChartCellCollection
+## ChartCellCollection classe
 
 Representa uma coleção de células com dados.
 
@@ -26,13 +26,13 @@ public class ChartCellCollection : IChartCellCollection
 | Nome | Descrição |
 | --- | --- |
 | [Add](../../aspose.slides.charts/chartcellcollection/add#add)(IChartDataCell) | Adiciona nova célula à coleção. |
-| [Add](../../aspose.slides.charts/chartcellcollection/add#add_1)(object) | Cria [`ChartDataCell`](../chartdatacell) a partir do valor especificado e a adiciona à coleção. |
+| [Add](../../aspose.slides.charts/chartcellcollection/add#add_1)(object) | Cria [`ChartDataCell`](../chartdatacell) a partir do valor especificado e o adiciona à coleção. |
 | [GetCellsAddress](../../aspose.slides.charts/chartcellcollection/getcellsaddress)() | Retorna o endereço do conjunto de células na pasta de trabalho. |
-| [GetConcatenatedValuesFromCells](../../aspose.slides.charts/chartcellcollection/getconcatenatedvaluesfromcells)() | Cadeia de concatenação dos valores de string de todas as células. |
-| [GetEnumerator](../../aspose.slides.charts/chartcellcollection/getenumerator)() | Retorna um enumerador que itera pela coleção. |
+| [GetConcatenatedValuesFromCells](../../aspose.slides.charts/chartcellcollection/getconcatenatedvaluesfromcells)() | String de concatenação a partir de todos os valores de string das células. |
+| [GetEnumerator](../../aspose.slides.charts/chartcellcollection/getenumerator)() | Retorna um enumerador que itera através da coleção. |
 | [RemoveAt](../../aspose.slides.charts/chartcellcollection/removeat)(int) | Remove uma célula da coleção por índice. |
 
-### Ver também
+### Veja Também
 
 * interface [IChartCellCollection](../ichartcellcollection)
 * namespace [Aspose.Slides.Charts](../../aspose.slides.charts)

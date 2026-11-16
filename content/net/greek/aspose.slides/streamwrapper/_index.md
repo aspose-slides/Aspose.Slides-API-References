@@ -1,9 +1,9 @@
 ---
 title: StreamWrapper
 second_title: Aspose.Sildes για .NET API Αναφορά
-description: Περιτύλιγμα Aspose.IO.Stream για διεπαφή COM.
+description: Aspose.IO.Stream wrapper για τη διεπαφή COM.
 type: docs
-weight: 10750
+weight: 10770
 url: /el/aspose.slides/streamwrapper/
 ---
 ## StreamWrapper κλάση
@@ -18,31 +18,31 @@ public class StreamWrapper : IStreamWrapper
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [AsIDisposable](../../aspose.slides/streamwrapper/asidisposable) { get; } | Διευκολύνει την απόκτηση της βασικής διεπαφής IDisposable. Μόνο για ανάγνωση IDisposable. |
-| [CanRead](../../aspose.slides/streamwrapper/canread) { get; } | Λαμβάνει μια τιμή που υποδεικνύει εάν η τρέχουσα ροή υποστηρίζει ανάγνωση. Μόνο για ανάγνωση Boolean. |
-| [CanSeek](../../aspose.slides/streamwrapper/canseek) { get; } | Λαμβάνει μια τιμή που υποδεικνύει εάν η τρέχουσα ροή υποστηρίζει αναζήτηση. Μόνο για ανάγνωση Boolean. |
-| [CanWrite](../../aspose.slides/streamwrapper/canwrite) { get; } | Λαμβάνει μια τιμή που υποδεικνύει εάν η τρέχουσα ροή υποστηρίζει εγγραφή. Μόνο για ανάγνωση Boolean. |
-| [Length](../../aspose.slides/streamwrapper/length) { get; } | Λαμβάνει το μήκος σε byte της ροής. Μόνο για ανάγνωση Int64. |
-| [Position](../../aspose.slides/streamwrapper/position) { get; } | Λαμβάνει ή ορίζει τη θέση μέσα στην τρέχουσα ροή. Μόνο για ανάγνωση Int64. |
-| [Stream](../../aspose.slides/streamwrapper/stream) { get; } | Λαμβάνει μια ροή. Μόνο για ανάγνωση Stream. |
+| [AsIDisposable](../../aspose.slides/streamwrapper/asidisposable) { get; } | Επιτρέπει την λήψη της βασικής διεπαφής IDisposable. Μόνο για ανάγνωση IDisposable. |
+| [CanRead](../../aspose.slides/streamwrapper/canread) { get; } | Λαμβάνει μια τιμή που υποδεικνύει εάν το τρέχον ρεύμα υποστηρίζει ανάγνωση. Μόνο για ανάγνωση Boolean. |
+| [CanSeek](../../aspose.slides/streamwrapper/canseek) { get; } | Λαμβάνει μια τιμή που υποδεικνύει εάν το τρέχον ρεύμα υποστηρίζει αναζήτηση. Μόνο για ανάγνωση Boolean. |
+| [CanWrite](../../aspose.slides/streamwrapper/canwrite) { get; } | Λαμβάνει μια τιμή που υποδεικνύει εάν το τρέχον ρεύμα υποστηρίζει εγγραφή. Μόνο για ανάγνωση Boolean. |
+| [Length](../../aspose.slides/streamwrapper/length) { get; } | Λαμβάνει το μήκος σε bytes του ρεύματος. Μόνο για ανάγνωση Int64. |
+| [Position](../../aspose.slides/streamwrapper/position) { get; } | Λαμβάνει ή ορίζει τη θέση μέσα στο τρέχον ρεύμα. Μόνο για ανάγνωση Int64. |
+| [Stream](../../aspose.slides/streamwrapper/stream) { get; } | Λαμβάνει ένα ρεύμα. Μόνο για ανάγνωση Stream. |
 
 ## Μέθοδοι
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [Close](../../aspose.slides/streamwrapper/close)() | Κλείνει την τρέχουσα ροή και απελευθερώνει τυχόν πόρους. |
-| [Dispose](../../aspose.slides/streamwrapper/dispose)() | Αποδεσμεύει το αντικείμενο. |
-| [Flush](../../aspose.slides/streamwrapper/flush)() | Καθαρίζει όλες τις προσωρινές μνήμες για αυτή τη ροή και προκαλεί την εγγραφή των δεδομένων που είναι στην προσωρινή μνήμη στη βασική συσκευή. |
-| [Read](../../aspose.slides/streamwrapper/read)(byte[], int, int) | Διαβάζει μια ακολουθία byte από την τρέχουσα ροή και προχωρά τη θέση μέσα στη ροή κατά τον αριθμό των byte που διαβάστηκαν. |
-| [ReadByte](../../aspose.slides/streamwrapper/readbyte)() | Διαβάζει ένα byte από τη ροή και προχωρά τη θέση μέσα στη ροή κατά ένα byte, ή επιστρέφει -1 αν είναι στο τέλος της ροής. |
-| [Seek](../../aspose.slides/streamwrapper/seek)(long, SeekOrigin) | Ορίζει τη θέση μέσα στην τρέχουσα ροή |
-| [Write](../../aspose.slides/streamwrapper/write)(byte[], int, int) | Γράφει μια ακολουθία byte στη τρέχουσα ροή και προχωρά τη τρέχουσα θέση μέσα σε αυτή τη ροή κατά τον αριθμό των byte που γράφτηκαν. |
-| [WriteByte](../../aspose.slides/streamwrapper/writebyte)(byte) | Γράφει ένα byte στην τρέχουσα θέση στη ροή και προχωρά τη θέση μέσα στη ροή κατά ένα byte. |
+| [Close](../../aspose.slides/streamwrapper/close)() | Κλείνει το τρέχον ρεύμα και απελευθερώνει τυχόν πόρους. |
+| [Dispose](../../aspose.slides/streamwrapper/dispose)() | Απελευθερώνει το αντικείμενο. |
+| [Flush](../../aspose.slides/streamwrapper/flush)() | Εκκαθαρίζει όλα τα buffers για αυτό το ρεύμα και προκαλεί την εγγραφή των δεδομένων που είναι στην προσωρινή μνήμη στη συσκευή. |
+| [Read](../../aspose.slides/streamwrapper/read)(byte[], int, int) | Διαβάζει μια ακολουθία bytes από το τρέχον ρεύμα και προχωρά τη θέση μέσα στο ρεύμα κατά τον αριθμό των διαβασμένων bytes. |
+| [ReadByte](../../aspose.slides/streamwrapper/readbyte)() | Διαβάζει ένα byte από το ρεύμα και προχωρά τη θέση μέσα στο ρεύμα κατά ένα byte, ή επιστρέφει -1 εάν είναι στο τέλος του ρεύματος. |
+| [Seek](../../aspose.slides/streamwrapper/seek)(long, SeekOrigin) | Ορίζει τη θέση μέσα στο τρέχον ρεύμα |
+| [Write](../../aspose.slides/streamwrapper/write)(byte[], int, int) | Γράφει μια ακολουθία bytes στο τρέχον ρεύμα και προχωρά τη θέση μέσα σε αυτό το ρεύμα κατά τον αριθμό των γραμμένων bytes. |
+| [WriteByte](../../aspose.slides/streamwrapper/writebyte)(byte) | Γράφει ένα byte στην τρέχουσα θέση του ρεύματος και προχωρά τη θέση μέσα στο ρεύμα κατά ένα byte. |
 
 ### Δείτε επίσης
 
-* διεπαφή [IStreamWrapper](../istreamwrapper)
-* χώρος ονομάτων [Aspose.Slides](../../aspose.slides)
-* συγκρότηση [Aspose.Slides](../../)
+* διασύνδεση [IStreamWrapper](../istreamwrapper)
+* χώρο ονομάτων [Aspose.Slides](../../aspose.slides)
+* συναρμολόγηση [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,9 +1,9 @@
 ---
 title: ICellFormat
-second_title: Aspose.Sildes dla .NET – odniesienie API
+second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Reprezentuje format komórki tabeli.
 type: docs
-weight: 5470
+weight: 5490
 url: /pl/aspose.slides/icellformat/
 ---
 ## ICellFormat interfejs
@@ -18,12 +18,12 @@ public interface ICellFormat
 
 | Nazwa | Opis |
 | --- | --- |
-| [BorderBottom](../../aspose.slides/icellformat/borderbottom) { get; } | Zwraca obiekt właściwości dolnej linii obramowania. Tylko do odczytu [`ILineFormat`](../ilineformat). |
-| [BorderDiagonalDown](../../aspose.slides/icellformat/borderdiagonaldown) { get; } | Zwraca obiekt właściwości linii przekątnych od góry-lewej do dołu-prawej. Tylko do odczytu [`ILineFormat`](../ilineformat). |
-| [BorderDiagonalUp](../../aspose.slides/icellformat/borderdiagonalup) { get; } | Zwraca obiekt właściwości linii przekątnych od dołu-lewej do góry-prawej. Tylko do odczytu [`ILineFormat`](../ilineformat). |
-| [BorderLeft](../../aspose.slides/icellformat/borderleft) { get; } | Zwraca obiekt właściwości lewej linii obramowania. Tylko do odczytu [`ILineFormat`](../ilineformat). |
-| [BorderRight](../../aspose.slides/icellformat/borderright) { get; } | Zwraca obiekt właściwości prawej linii obramowania. Tylko do odczytu [`ILineFormat`](../ilineformat). |
-| [BorderTop](../../aspose.slides/icellformat/bordertop) { get; } | Zwraca obiekt właściwości górnej linii obramowania. Tylko do odczytu [`ILineFormat`](../ilineformat). |
+| [BorderBottom](../../aspose.slides/icellformat/borderbottom) { get; } | Zwraca obiekt właściwości linii dolnej krawędzi. Tylko do odczytu [`ILineFormat`](../ilineformat). |
+| [BorderDiagonalDown](../../aspose.slides/icellformat/borderdiagonaldown) { get; } | Zwraca obiekt właściwości linii przekątnej od lewego górnego do prawego dolnego. Tylko do odczytu [`ILineFormat`](../ilineformat). |
+| [BorderDiagonalUp](../../aspose.slides/icellformat/borderdiagonalup) { get; } | Zwraca obiekt właściwości linii przekątnej od lewego dolnego do prawego górnego. Tylko do odczytu [`ILineFormat`](../ilineformat). |
+| [BorderLeft](../../aspose.slides/icellformat/borderleft) { get; } | Zwraca obiekt właściwości lewego obramowania. Tylko do odczytu [`ILineFormat`](../ilineformat). |
+| [BorderRight](../../aspose.slides/icellformat/borderright) { get; } | Zwraca obiekt właściwości prawego obramowania. Tylko do odczytu [`ILineFormat`](../ilineformat). |
+| [BorderTop](../../aspose.slides/icellformat/bordertop) { get; } | Zwraca obiekt właściwości górnego obramowania. Tylko do odczytu [`ILineFormat`](../ilineformat). |
 | [FillFormat](../../aspose.slides/icellformat/fillformat) { get; } | Zwraca obiekt właściwości wypełnienia komórki. Tylko do odczytu [`IFillFormat`](../ifillformat). |
 | [Transparency](../../aspose.slides/icellformat/transparency) { get; set; } | Pobiera lub ustawia przezroczystość koloru wypełnienia. Odczyt/zapis Single. |
 

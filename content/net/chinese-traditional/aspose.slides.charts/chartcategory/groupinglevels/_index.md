@@ -1,14 +1,14 @@
 ---
 title: GroupingLevels
-second_title: Aspose.Sildes for .NET API 參考
-description: 受管理的容器，儲存圖表類別分組層級的值。多層級類別包含多於一個分組層級。分組層級的索引從零開始。唯讀 IChartCategoryLevelsManageraspose.slides.charts/ichartcategorylevelsmanager.
+second_title: Aspose.Sildes 的 .NET API 參考
+description: 受控容器，用於儲存圖表類別分組層級的值。多層級類別包含多個分組層級。分組層級的索引是從零開始的。唯讀 IChartCategoryLevelsManageraspose.slides.charts/ichartcategorylevelsmanager.
 type: docs
-weight: 30
+weight: 40
 url: /zh-hant/aspose.slides.charts/chartcategory/groupinglevels/
 ---
 ## ChartCategory.GroupingLevels 屬性
 
-受管理的容器，儲存圖表類別分組層級的值。多層級類別包含多於一個分組層級。分組層級的索引從零開始。唯讀 [`IChartCategoryLevelsManager`](../../ichartcategorylevelsmanager).
+受控的容器，用於存放圖表類別分組層級的值。多層級類別包含多個分組層級。分組層級的索引是從零開始的。唯讀 [`IChartCategoryLevelsManager`](../../ichartcategorylevelsmanager)。
 
 ```csharp
 public IChartCategoryLevelsManager GroupingLevels { get; }

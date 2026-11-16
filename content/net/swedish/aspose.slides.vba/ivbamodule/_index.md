@@ -1,14 +1,14 @@
 ---
 title: IVbaModule
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar modul som finns i ett VBA-projekt.
+description: Representerar modul som ingår i ett VBA-projekt.
 type: docs
-weight: 11530
+weight: 11550
 url: /sv/aspose.slides.vba/ivbamodule/
 ---
 ## IVbaModule gränssnitt
 
-Representerar modul som finns i ett VBA-projekt.
+Representerar modul som ingår i ett VBA-projekt.
 
 ```csharp
 public interface IVbaModule
@@ -21,7 +21,7 @@ public interface IVbaModule
 | [Name](../../aspose.slides.vba/ivbamodule/name) { get; } | Namnet på modulen. Skrivskyddad String. |
 | [SourceCode](../../aspose.slides.vba/ivbamodule/sourcecode) { get; set; } | Källkoden för modulen. Läs/skriv String. |
 
-### Se även
+### Se också
 
 * namnrymd [Aspose.Slides.Vba](../../aspose.slides.vba)
 * samling [Aspose.Slides](../../)

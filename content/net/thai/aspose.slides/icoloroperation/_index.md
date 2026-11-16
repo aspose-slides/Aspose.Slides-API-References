@@ -3,12 +3,12 @@ title: IColorOperation
 second_title: Aspose.Sildes สำหรับ .NET API Reference
 description: แสดงการดำเนินการสีที่แตกต่างกันที่ใช้สำหรับการแปลงสี.
 type: docs
-weight: 5500
+weight: 5520
 url: /th/aspose.slides/icoloroperation/
 ---
 ## IColorOperation อินเทอร์เฟซ
 
-แสดงการดำเนินการสีที่แตกต่างกันที่ใช้สำหรับการแปลงสี
+เป็นตัวแทนของการดำเนินการสีที่แตกต่างกันที่ใช้สำหรับการแปลงสี.
 
 ```csharp
 public interface IColorOperation

@@ -3,7 +3,7 @@ title: ISection
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt einen Abschnitt von Folien dar.
 type: docs
-weight: 6890
+weight: 6910
 url: /de/aspose.slides/isection/
 ---
 ## ISection Schnittstelle
@@ -19,14 +19,14 @@ public interface ISection
 | Name | Beschreibung |
 | --- | --- |
 | [Name](../../aspose.slides/isection/name) { get; set; } | Name des Abschnitts. |
-| [SectionId](../../aspose.slides/isection/sectionid) { get; } | Abschnitts-ID. |
+| [SectionId](../../aspose.slides/isection/sectionid) { get; } | Abschnitts-Id. |
 | [StartedFromSlide](../../aspose.slides/isection/startedfromslide) { get; } | Gibt die erste Folie des Abschnitts zurück. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [GetSlidesListOfSection](../../aspose.slides/isection/getslideslistofsection)() | Gibt die Liste der Folien im Abschnitt zurück. |
+| [GetSlidesListOfSection](../../aspose.slides/isection/getslideslistofsection)() | Gibt eine Liste von Folien im Abschnitt zurück. |
 
 ### Siehe auch
 

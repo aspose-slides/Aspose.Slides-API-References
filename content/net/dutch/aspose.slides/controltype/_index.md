@@ -1,14 +1,14 @@
 ---
 title: ControlType
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Definieert een controletype dat moet worden ingebed door AddControl./icontrolcollection/addcontrol.
+description: Definieert een besturingstype dat moet worden ingesloten door AddControl./icontrolcollection/addcontrol.
 type: docs
-weight: 2720
+weight: 2740
 url: /nl/aspose.slides/controltype/
 ---
 ## ControlType enumeratie
 
-Definieert een controletype dat moet worden ingebed door [`AddControl`](../icontrolcollection/addcontrol).
+Definieert een besturingstype dat moet worden ingesloten door [`AddControl`](../icontrolcollection/addcontrol).
 
 ```csharp
 public enum ControlType

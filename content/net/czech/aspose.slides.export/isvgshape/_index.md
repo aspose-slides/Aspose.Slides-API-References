@@ -1,14 +1,14 @@
 ---
 title: ISvgShape
 second_title: Aspose.Sildes pro .NET API Reference
-description: Představuje možnosti pro SVG tvar.
+description: Představuje možnosti pro tvar SVG.
 type: docs
-weight: 4110
+weight: 4130
 url: /cs/aspose.slides.export/isvgshape/
 ---
-## ISvgShape rozhraní
+## Rozhraní ISvgShape
 
-Představuje možnosti pro SVG tvar.
+Představuje možnosti pro tvar SVG.
 
 ```csharp
 public interface ISvgShape
@@ -18,13 +18,13 @@ public interface ISvgShape
 
 | Název | Popis |
 | --- | --- |
-| [Id](../../aspose.slides.export/isvgshape/id) { get; set; } | Nastavuje nebo získává id pro tvar |
+| [Id](../../aspose.slides.export/isvgshape/id) { get; set; } | Nastavuje nebo získává id tvaru |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| [SetEventHandler](../../aspose.slides.export/isvgshape/seteventhandler)(SvgEvent, string) | Nastavuje obslužnou rutinu události pro tvar |
+| [SetEventHandler](../../aspose.slides.export/isvgshape/seteventhandler)(SvgEvent, string) | Nastavuje obslužnou funkci události pro tvar |
 
 ### Viz také
 

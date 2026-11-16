@@ -3,7 +3,7 @@ title: ISectionSlideCollection
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt eine Sammlung von Folien im Abschnitt dar.
 type: docs
-weight: 6910
+weight: 6930
 url: /de/aspose.slides/isectionslidecollection/
 ---
 ## ISectionSlideCollection Schnittstelle
@@ -18,7 +18,7 @@ public interface ISectionSlideCollection : IGenericCollection<ISlide>
 
 | Name | Beschreibung |
 | --- | --- |
-| [Item](../../aspose.slides/isectionslidecollection/item) { get; } | Ruft das Element am angegebenen Index ab. Nur lesbar [`ISlide`](../islide). |
+| [Item](../../aspose.slides/isectionslidecollection/item) { get; } | Liefert das Element am angegebenen Index. Schreibgeschützt [`ISlide`](../islide). |
 
 ### Siehe auch
 

@@ -1,14 +1,14 @@
 ---
 title: IBlobManagementOptions
-second_title: Aspose.Sildes برای .NET مرجع API
-description: یک شیء بزرگ باینری (BLOB) داده باینری است که به‌صورت یک موجودیت واحد ذخیره می‌شود - یعنی BLOB می‌تواند خود یک صدا، ویدئو یا ارائه باشد. مجموعه‌ای از تکنیک‌ها برای بهینه‌سازی مصرف حافظه هنگام کار با BLOBها استفاده می‌شود - چه این داده‌ها از پیش در ارائه ذخیره شده باشند یا به‌صورت برنامه‌ای بعدها اضافه شوند. با استفاده از IBlobManagementOptions./iblobmanagementoptions می‌توانید جنبه‌های مختلف رفتار مربوط به مدیریت BLOBها را برای دورهٔ حیات نمونه IPresentation./ipresentation تغییر دهید.
+second_title: مرجع API Aspose.Sildes برای .NET
+description: یک شیء باینری بزرگ (Binary Large Object) BLOB داده باینری است که به‌صورت یک موجودیت واحد ذخیره می‌شود - یعنی BLOB می‌تواند صوت، ویدئو یا خود ارائه باشد. برای بهینه‌سازی مصرف حافظه هنگام کار با BLOBها از چندین تکنیک استفاده می‌شود - که ممکن است قبلاً در ارائه ذخیره شده باشد یا بعداً به‌صورت برنامه‌نویسی اضافه شود. با استفاده از IBlobManagementOptions./iblobmanagementoptions می‌توانید جنبه‌های مختلف رفتار مربوط به مدیریت BLOBها را برای دوره حیات نمونه IPresentation./ipresentation تغییر دهید.
 type: docs
-weight: 5370
+weight: 5390
 url: /fa/aspose.slides/iblobmanagementoptions/
 ---
-## IBlobManagementOptions رابط
+## رابط IBlobManagementOptions
 
-یک شیء بزرگ بایانی (BLOB) داده باینری است که به عنوان یک واحد ذخیره می‌شود - یعنی BLOB می‌تواند خود یک صدا، ویدیو یا ارائه باشد. مجموعه‌ای از تکنیک‌ها برای بهینه‌سازی مصرف حافظه هنگام کار با BLOBها استفاده می‌شود - چه در زمانی که از قبل در ارائه ذخیره شده‌اند یا به‌صورت برنامه‌ای بعداً اضافه می‌شوند. با استفاده از [`IBlobManagementOptions`](../iblobmanagementoptions) می‌توانید جنبه‌های مختلف رفتار مربوط به مدیریت BLOBها را برای دورهٔ حیات نمونهٔ [`IPresentation`](../ipresentation) تغییر دهید.
+یک شیء بزرگ باینری (BLOB) داده باینری است که به عنوان یک موجودیت واحد ذخیره می‌شود - یعنی BLOB می‌تواند صوت، ویدئو یا خود ارائه باشد. برای بهینه‌سازی مصرف حافظه هنگام کار با BLOBها از چندین تکنیک استفاده می‌شود - که ممکن است قبلاً در ارائه ذخیره شده باشد یا بعداً به‌صورت برنامه‌نویسی اضافه شود. با استفاده از [`IBlobManagementOptions`](../iblobmanagementoptions) می‌توانید جنبه‌های رفتاری مختلف مربوط به مدیریت BLOBها را برای دوره حیات نمونه [`IPresentation`](../ipresentation) تغییر دهید.
 
 ```csharp
 public interface IBlobManagementOptions
@@ -16,16 +16,16 @@ public interface IBlobManagementOptions
 
 ## ویژگی‌ها
 
-| نام | توضیح |
+| Name | Description |
 | --- | --- |
-| [IsTemporaryFilesAllowed](../../aspose.slides/iblobmanagementoptions/istemporaryfilesallowed) { get; set; } | این ویژگی تعیین می‌کند که آیا می‌توان هنگام کار با BLOBها فایل‌های موقت ایجاد کرد یا نه، که به‌طور قابل‌توجهی مصرف حافظه را کاهش می‌دهد اما نیاز به مجوزهای ایجاد فایل دارد. تمام فایل‌ها پس از پایان کار با ارائه حذف خواهند شد. |
-| [MaxBlobsBytesInMemory](../../aspose.slides/iblobmanagementoptions/maxblobsbytesinmemory) { get; set; } | حداکثر اندازهٔ کلی (به بایت) که تمام BLOBها می‌توانند در حافظه اشغال کنند را تعریف می‌کند. به طور پیش‌فرض، تمام BLOBها در حافظه بارگذاری می‌شوند؛ تنها زمانی که این محدودیتReached شود، مکانیزم‌های جایگزین (مانند فایل‌های موقت) به کار می‌روند. نگه داشتن BLOBها در حافظه حداکثر عملکرد را فراهم می‌کند اما می‌تواند منجر به مصرف زیاد حافظه شود. از این ویژگی برای تنظیم رفتار متناسب با محیط یا نیازهای خود استفاده کنید. |
-| [PresentationLockingBehavior](../../aspose.slides/iblobmanagementoptions/presentationlockingbehavior) { get; set; } | این ویژگی تعیین می‌کند که آیا یک نمونه از کلاس Presentation می‌تواند صاحب منبع — فایل یا جریان — در طول دورهٔ حیات نمونه باشد یا نه. اگر نمونه صاحب باشد، منبع را قفل می‌کند. این به بهبود مصرف حافظه و عملکرد هنگام کار با BLOBها کمک می‌کند، اما منبع (جریان یا فایل) نمی‌تواند در طول دورهٔ حیات نمونه Presentation تغییر کند. این یک مثال است: |
-| [TempFilesRootPath](../../aspose.slides/iblobmanagementoptions/tempfilesrootpath) { get; set; } | مسیر ریشه‌ای که فایل‌های موقت در آن ایجاد می‌شوند. به‌صورت پیش‌فرض از پوشهٔ موقت سیستم استفاده می‌شود. فرآیند میزبانی باید دسترسی‌های لازم برای ایجاد فایل‌ها و پوشه‌ها در آنجا را داشته باشد. |
+| [IsTemporaryFilesAllowed](../../aspose.slides/iblobmanagementoptions/istemporaryfilesallowed) { get; set; } | این ویژگی تعریف می‌کند که آیا می‌توان فایل‌های موقت را هنگام کار با BLOBها ایجاد کرد یا خیر، که به‌طور قابل توجهی مصرف حافظه را کاهش می‌دهد اما نیاز به مجوزهای ایجاد فایل دارد. تمام فایل‌ها پس از اتمام کار با ارائه حذف خواهند شد. |
+| [MaxBlobsBytesInMemory](../../aspose.slides/iblobmanagementoptions/maxblobsbytesinmemory) { get; set; } | حداکثر اندازه کل (به بایت) که همه BLOBها ممکن است در حافظه اشغال کنند را تعریف می‌کند. به‌طور پیش‌فرض، تمام BLOBها در حافظه بارگذاری می‌شوند؛ تنها زمانی که این حد برسد، مکانیزم‌های جایگزین (مانند فایل‌های موقت) به کار گرفته می‌شوند. نگه داشتن BLOBها در حافظه عملکرد را به حداکثر می‌رساند اما می‌تواند منجر به مصرف زیاد حافظه شود. از این ویژگی برای تطبیق رفتار با محیط یا نیازهای خود استفاده کنید. |
+| [PresentationLockingBehavior](../../aspose.slides/iblobmanagementoptions/presentationlockingbehavior) { get; set; } | این ویژگی تعریف می‌کند که آیا یک نمونه از کلاس Presentation می‌تواند مالک منبع — فایل یا جریان — در طول دوره حیات نمونه باشد یا خیر. اگر نمونه مالک باشد، منبع را قفل می‌کند. این به بهبود مصرف حافظه و عملکرد هنگام کار با BLOBها کمک می‌کند، اما منبع (جریان یا فایل) نمی‌تواند در طول دوره حیات نمونه Presentation تغییر کند. این یک مثال است: |
+| [TempFilesRootPath](../../aspose.slides/iblobmanagementoptions/tempfilesrootpath) { get; set; } | مسیر ریشه‌ای که فایل‌های موقت در آن ایجاد می‌شوند. به‌طور پیش‌فرض از پوشه موقت سیستم استفاده می‌شود. فرآیند میزبانی باید مجوزهای ایجاد فایل و پوشه در این مسیر را داشته باشد. |
 
-### همچنین ببینید
+### موارد مرتبط
 
 * فضای‌نام [Aspose.Slides](../../aspose.slides)
-* اسمبل [Aspose.Slides](../../)
+* مجمع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

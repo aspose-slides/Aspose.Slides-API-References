@@ -1,12 +1,12 @@
 ---
 title: ColumnCollection
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
-description: แสดงคอลเลกชันของคอลัมน์ในตาราง.
+second_title: Aspose.Sildes สำหรับ .NET API อ้างอิง
+description: แทนคอลเลกชันของคอลัมน์ในตาราง.
 type: docs
-weight: 2600
+weight: 2620
 url: /th/aspose.slides/columncollection/
 ---
-## ColumnCollection คลาส
+## คลาส ColumnCollection
 
 Represents collection of columns in a table.
 
@@ -19,18 +19,18 @@ public sealed class ColumnCollection : DomObject<RowCollection>, IColumnCollecti
 | ชื่อ | คำอธิบาย |
 | --- | --- |
 | [Count](../../aspose.slides/columncollection/count) { get; } | ส่งคืนจำนวนคอลัมน์ในคอลเลกชัน. อ่านอย่างเดียว Int32. |
-| [IsSynchronized](../../aspose.slides/columncollection/issynchronized) { get; } | ส่งคืนค่าแสดงว่าการเข้าถึงคอลเลกชันถูกซิงโครไนซ์ (thread-safe). อ่านอย่างเดียว Boolean. |
+| [IsSynchronized](../../aspose.slides/columncollection/issynchronized) { get; } | ส่งค่าที่บ่งบอกว่าการเข้าถึงคอลเลกชันถูกซิงโครไนซ์ (ปลอดภัยต่อเธรด). อ่านอย่างเดียว Boolean. |
 | [Item](../../aspose.slides/columncollection/item) { get; } | ส่งคืนคอลัมน์ที่ตำแหน่งที่ระบุ. อ่านอย่างเดียว [`Column`](../column). |
 | [SyncRoot](../../aspose.slides/columncollection/syncroot) { get; } | ส่งคืนรากของการซิงโครไนซ์. อ่านอย่างเดียว Object. |
 
-## วิธีการ
+## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AddClone](../../aspose.slides/columncollection/addclone)(IColumn, bool) | สร้างสำเนาของแถวแม่แบบที่ระบุและแทรกลงที่ด้านล่างของตาราง. |
+| [AddClone](../../aspose.slides/columncollection/addclone)(IColumn, bool) | สร้างสำเนาของเทมเพลตแถวที่ระบุและแทรกที่ด้านล่างของตาราง. |
 | [CopyTo](../../aspose.slides/columncollection/copyto)(Array, int) | คัดลอกทุกองค์ประกอบจากคอลเลกชันไปยังอาเรย์ที่ระบุ. |
 | [GetEnumerator](../../aspose.slides/columncollection/getenumerator)() | ส่งคืน enumerator ที่วนซ้ำผ่านคอลเลกชัน. |
-| [InsertClone](../../aspose.slides/columncollection/insertclone)(int, IColumn, bool) | สร้างสำเนาของคอลัมน์แม่แบบที่ระบุและแทรกลงในตำแหน่งที่ระบุในตาราง. |
+| [InsertClone](../../aspose.slides/columncollection/insertclone)(int, IColumn, bool) | สร้างสำเนาของเทมเพลตคอลัมน์ที่ระบุและแทรกที่ตำแหน่งที่ระบุในตาราง. |
 | [RemoveAt](../../aspose.slides/columncollection/removeat)(int, bool) | ลบคอลัมน์ที่ตำแหน่งที่ระบุออกจากตาราง. |
 
 ### ดูเพิ่มเติม

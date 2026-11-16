@@ -1,14 +1,14 @@
 ---
 title: IGradientStopEffectiveData
 second_title: Aspose.Sildes voor .NET API-referentie
-description: immutabel object dat een gradientstop vertegenwoordigt.
+description: onveranderlijk object dat een kleurverloopstop voorstelt.
 type: docs
-weight: 6050
+weight: 6070
 url: /nl/aspose.slides/igradientstopeffectivedata/
 ---
 ## IGradientStopEffectiveData interface
 
-immutabel object dat een gradientstop vertegenwoordigt.
+onveranderlijk object dat een kleurverloopstop voorstelt.
 
 ```csharp
 public interface IGradientStopEffectiveData
@@ -16,10 +16,10 @@ public interface IGradientStopEffectiveData
 
 ## Eigenschappen
 
-| Naam | Omschrijving |
+| Naam | Beschrijving |
 | --- | --- |
-| [Color](../../aspose.slides/igradientstopeffectivedata/color) { get; } | Geeft de kleur van een gradientstop terug. Alleen-lezen Color. |
-| [Position](../../aspose.slides/igradientstopeffectivedata/position) { get; } | Geeft de positie (0..1) van een gradientstop terug. Alleen-lezen Single. |
+| [Color](../../aspose.slides/igradientstopeffectivedata/color) { get; } | Geeft de kleur van een kleurverloopstop terug. Alleen-lezen Color. |
+| [Position](../../aspose.slides/igradientstopeffectivedata/position) { get; } | Geeft de positie (0..1) van een kleurverloopstop terug. Alleen-lezen Single. |
 
 ### Zie ook
 

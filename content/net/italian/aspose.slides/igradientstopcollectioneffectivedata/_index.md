@@ -1,26 +1,25 @@
 ---
 title: IGradientStopCollectionEffectiveData
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta una collezione di oggetti GradientStopDataEx.
+second_title: Aspose.Sildes per il Riferimento API .NET
+description: Rappresenta una raccolta di oggetti GradientStopDataEx.
 type: docs
-weight: 6040
+weight: 6060
 url: /it/aspose.slides/igradientstopcollectioneffectivedata/
 ---
-## IGradientStopCollectionEffectiveData interface
+## IGradientStopCollectionEffectiveData interfaccia
 
-Rappresenta una collezione di oggetti GradientStopDataEx.
+Rappresenta una raccolta di oggetti GradientStopDataEx.
 
 ```csharp
 public interface IGradientStopCollectionEffectiveData : 
     IGenericCollection<IGradientStopEffectiveData>
 ```
 
-
 ## Proprietà
 
 | Nome | Descrizione |
 | --- | --- |
-| [Item](../../aspose.slides/igradientstopcollectioneffectivedata/item) { get; } | Restituisce lo stop di gradiente per indice. |
+| [Item](../../aspose.slides/igradientstopcollectioneffectivedata/item) { get; } | Restituisce lo stop del gradiente per indice. |
 
 ### Vedi anche
 

@@ -1,14 +1,14 @@
 ---
 title: TextFrameForOverriding
 second_title: Aspose.Sildes for .NET API リファレンス
-description: リッチフォーマットされたテキストを含めることができます。このプロパティが null でない場合、このフォーマットされたテキスト値はデータラベルの自動生成テキストを上書きします。データラベルの自動生成テキストとは、ShowSeriesName ShowValue ... プロパティによって管理され、TextFormatManager.TextFormat プロパティでフォーマットされるテキストのことです。読み取り専用 ITextFrameaspose.slides/itextframe.
+description: リッチな書式設定テキストを含めることができます。このプロパティが null でない場合、この書式設定テキストの値はデータラベルの自動生成テキストを上書きします。データラベルの自動生成テキストとは、ShowSeriesName、ShowValue、... プロパティによって管理され、TextFormatManager.TextFormat プロパティで書式設定されたテキストを指します。読み取り専用 ITextFrameaspose.slides/itextframe.
 type: docs
-weight: 130
+weight: 140
 url: /ja/aspose.slides.charts/datalabel/textframeforoverriding/
 ---
 ## DataLabel.TextFrameForOverriding プロパティ
 
-リッチフォーマットされたテキストを含めることができます。このプロパティが null でない場合、このフォーマットされたテキスト値はデータ ラベルの自動生成テキストを上書きします。データ ラベルの自動生成テキストとは、ShowSeriesName、ShowValue、... プロパティによって管理され、TextFormatManager.TextFormat プロパティでフォーマットされるテキストのことです。読み取り専用 [`ITextFrame`](../../../aspose.slides/itextframe).
+リッチフォーマットされたテキストを含めることができます。 このプロパティが null でない場合、この書式設定テキストの値はデータラベルの自動生成テキストを上書きします。 データラベルの自動生成テキストとは、ShowSeriesName、ShowValue、... プロパティによって管理され、TextFormatManager.TextFormat プロパティで書式設定されたテキストを指します。 読み取り専用 [`ITextFrame`](../../../aspose.slides/itextframe).
 
 ```csharp
 public ITextFrame TextFrameForOverriding { get; }

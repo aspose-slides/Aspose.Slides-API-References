@@ -1,14 +1,14 @@
 ---
 title: GroupingLevels
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 차트 카테고리 그룹화 수준 값의 관리 컨테이너입니다. 다중 수준 카테고리는 하나 이상의 그룹화 수준을 포함합니다. 그룹화 수준 인덱싱은 0부터 시작합니다. Read-only IChartCategoryLevelsManageraspose.slides.charts/ichartcategorylevelsmanager.
+description: 차트 카테고리 그룹화 수준 값의 관리형 컨테이너입니다. 다중 수준 카테고리는 하나 이상의 그룹화 수준을 포함합니다. 그룹화 수준 인덱싱은 0부터 시작합니다. 읽기 전용 IChartCategoryLevelsManageraspose.slides.charts/ichartcategorylevelsmanager.
 type: docs
-weight: 30
+weight: 40
 url: /ko/aspose.slides.charts/chartcategory/groupinglevels/
 ---
 ## ChartCategory.GroupingLevels 속성
 
-차트 카테고리 그룹화 수준 값의 관리 컨테이너입니다. 다중 수준 카테고리는 하나 이상의 그룹화 수준을 포함합니다. 그룹화 수준 인덱스는 0부터 시작합니다. 읽기 전용 [`IChartCategoryLevelsManager`](../../ichartcategorylevelsmanager).
+차트 카테고리 그룹화 수준 값의 관리형 컨테이너입니다. 다중 수준 카테고리는 하나 이상의 그룹화 수준을 포함합니다. 그룹화 수준 인덱싱은 0부터 시작합니다. 읽기 전용 [`IChartCategoryLevelsManager`](../../ichartcategorylevelsmanager).
 
 ```csharp
 public IChartCategoryLevelsManager GroupingLevels { get; }

@@ -1,14 +1,14 @@
 ---
 title: IMathBlock
-second_title: Aspose.Sildes per .NET API Reference
-description: Specifica un'istanza di testo matematico contenuta in un MathParagraph e che inizia su una propria riga. Tutte le zone matematiche, incluse equazioni, espressioni, array di equazioni o espressioni e formule, sono rappresentate da un blocco matematico.
+second_title: Riferimento API di Aspose.Slides per .NET
+description: Specifica un'istanza di testo matematico contenuta all'interno di un MathParagraph e che inizia su una propria riga. Tutte le zone matematiche, comprese equazioni, espressioni, array di equazioni o espressioni e formule, sono rappresentate da un blocco matematico.
 type: docs
-weight: 8140
+weight: 8160
 url: /it/aspose.slides.mathtext/imathblock/
 ---
 ## IMathBlock interfaccia
 
-Specifica un'istanza di testo matematico contenuta in un MathParagraph e che inizia su una propria riga. Tutte le zone matematiche, incluse equazioni, espressioni, array di equazioni o espressioni e formule sono rappresentate da un math block.
+Specifica un'istanza di testo matematico contenuta all'interno di un MathParagraph e che inizia su una sua linea. Tutte le zone matematiche, comprese equazioni, espressioni, array di equazioni o espressioni e formule, sono rappresentate da un blocco matematico.
 
 ```csharp
 public interface IMathBlock : IMathElement, IMathElementCollection
@@ -26,7 +26,7 @@ public interface IMathBlock : IMathElement, IMathElementCollection
 | Nome | Descrizione |
 | --- | --- |
 | [Delimit](../../aspose.slides.mathtext/imathblock/delimit)(char) | Delimita tutti gli elementi figli con il carattere separatore (senza le parentesi) |
-| [Enclose](../../aspose.slides.mathtext/imathblock/enclose)(char, char, char) | Racchiude gli elementi figli di questo blocco nei caratteri specificati, come parentesi o altri, come inquadratura e delimita con un carattere separatore |
+| [Enclose](../../aspose.slides.mathtext/imathblock/enclose)(char, char, char) | Racchiude gli elementi figli di questo blocco nei caratteri specificati, come le parentesi o altri, come inquadratura e delimita con un carattere separatore |
 | [JoinBlock](../../aspose.slides.mathtext/imathblock/joinblock)(IMathBlock) | Unisce un altro blocco matematico a questo |
 | [WriteAsMathMl](../../aspose.slides.mathtext/imathblock/writeasmathml)(Stream) | Salva il contenuto di questo [`IMathBlock`](../imathblock) come MathML |
 

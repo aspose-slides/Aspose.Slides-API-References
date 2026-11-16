@@ -1,12 +1,12 @@
 ---
 title: IBulletFormat
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes .NET API Referansı
 description: Paragraf madde işareti biçimlendirme özelliklerini temsil eder.
 type: docs
-weight: 5390
+weight: 5410
 url: /tr/aspose.slides/ibulletformat/
 ---
-## IBulletFormat arayüz
+## IBulletFormat arayüzü
 
 Paragraf madde işareti biçimlendirme özelliklerini temsil eder.
 
@@ -16,25 +16,25 @@ public interface IBulletFormat
 
 ## Özellikler
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
-| [Char](../../aspose.slides/ibulletformat/char) { get; set; } | Paragrafta miras alınmadan madde işareti karakterini döndürür veya ayarlar. Okuma/Yazma Char. |
-| [Color](../../aspose.slides/ibulletformat/color) { get; } | Paragrafta miras alınmadan bir madde işaretinin renk biçimini döndürür. Salt-okunur [`IColorFormat`](../icolorformat). |
-| [Font](../../aspose.slides/ibulletformat/font) { get; set; } | Paragrafta miras alınmadan madde işareti yazı tipini döndürür veya ayarlar. Okuma/Yazma [`IFontData`](../ifontdata). |
-| [Height](../../aspose.slides/ibulletformat/height) { get; set; } | Paragrafta miras alınmadan madde işareti yüksekliğini döndürür veya ayarlar. float.NaN değeri, madde işaretinin yüksekliğinin paragraftaki ilk bölümden miras alınacağını belirler. Okuma/Yazma Single. |
-| [IsBulletHardColor](../../aspose.slides/ibulletformat/isbullethardcolor) { get; set; } | Madde işaretinin kendi rengine sahip olup olmadığını veya paragraftaki ilk bölüme göre miras alıp almadığını belirler. **NullableBool.True** eğer madde işareti kendi rengine sahipse ve **NullableBool.False** eğer madde işareti rengini paragraftaki ilk bölümden miras alıyorsa. Okuma/Yazma [`NullableBool`](../nullablebool). |
-| [IsBulletHardFont](../../aspose.slides/ibulletformat/isbullethardfont) { get; set; } | Madde işaretinin kendi yazı tipine sahip olup olmadığını veya paragraftaki ilk bölüme göre miras alıp almadığını belirler. **NullableBool.True** eğer madde işareti kendi yazı tipine sahipse ve **NullableBool.False** eğer madde işareti yazı tipini paragraftaki ilk bölümden miras alıyorsa. Okuma/Yazma [`NullableBool`](../nullablebool). |
-| [NumberedBulletStartWith](../../aspose.slides/ibulletformat/numberedbulletstartwith) { get; set; } | Miras alınmadan numaralı madde işareti grubunda kullanılan ilk sayıyı döndürür veya ayarlar. Okuma/Yazma Int16. |
-| [NumberedBulletStyle](../../aspose.slides/ibulletformat/numberedbulletstyle) { get; set; } | Miras alınmadan numaralı bir madde işaretinin stilini döndürür veya ayarlar. Okuma/Yazma [`NumberedBulletStyle`](./numberedbulletstyle). |
-| [Picture](../../aspose.slides/ibulletformat/picture) { get; } | Miras alınmadan bir paragrafta madde işareti olarak kullanılan resmi döndürür. Salt-okunur [`ISlidesPicture`](../islidespicture). |
-| [Type](../../aspose.slides/ibulletformat/type) { get; set; } | Miras alınmadan bir paragrafta madde işareti tipini döndürür veya ayarlar. Okuma/Yazma [`BulletType`](../bullettype). |
+| [Char](../../aspose.slides/ibulletformat/char) { get; set; } | Miras alınmadan bir paragraftaki madde işareti karakterini alır veya ayarlar. Okuma/Yazma Char. |
+| [Color](../../aspose.slides/ibulletformat/color) { get; } | Miras alınmadan bir paragraftaki madde işaretinin renk formatını döndürür. Yalnızca okuma [`IColorFormat`](../icolorformat). |
+| [Font](../../aspose.slides/ibulletformat/font) { get; set; } | Miras alınmadan bir paragraftaki madde işareti yazı tipini alır veya ayarlar. Okuma/Yazma [`IFontData`](../ifontdata). |
+| [Height](../../aspose.slides/ibulletformat/height) { get; set; } | Miras alınmadan bir paragraftaki madde işareti yüksekliğini alır veya ayarlar. float.NaN değeri, madde işaretinin paragraftaki ilk bölümden yüksekliği miras aldığını belirler. Okuma/Yazma Single. |
+| [IsBulletHardColor](../../aspose.slides/ibulletformat/isbullethardcolor) { get; set; } | Madde işaretinin kendi renginin olup olmadığını veya paragraftaki ilk bölümden miras alıp almadığını belirler. **NullableBool.True** eğer madde işareti kendi rengine sahipse ve **NullableBool.False** eğer madde işareti renklerini paragraftaki ilk bölüme miras alıyorsa. Okuma/Yazma [`NullableBool`](../nullablebool). |
+| [IsBulletHardFont](../../aspose.slides/ibulletformat/isbullethardfont) { get; set; } | Madde işaretinin kendi yazı tipine sahip olup olmadığını veya paragraftaki ilk bölümden miras alıp almadığını belirler. **NullableBool.True** eğer madde işareti kendi yazı tipine sahipse ve **NullableBool.False** eğer madde işareti yazı tipini paragraftaki ilk bölüme miras alıyorsa. Okuma/Yazma [`NullableBool`](../nullablebool). |
+| [NumberedBulletStartWith](../../aspose.slides/ibulletformat/numberedbulletstartwith) { get; set; } | Miras alınmadan numaralı madde işaretleri grubunda kullanılan ilk sayıyı alır veya ayarlar. Okuma/Yazma Int16. |
+| [NumberedBulletStyle](../../aspose.slides/ibulletformat/numberedbulletstyle) { get; set; } | Miras alınmadan numaralı bir madde işaretinin stilini alır veya ayarlar. Okuma/Yazma [`NumberedBulletStyle`](./numberedbulletstyle). |
+| [Picture](../../aspose.slides/ibulletformat/picture) { get; } | Miras alınmadan bir paragrafta madde işareti olarak kullanılan resmi alır. Yalnızca okuma [`ISlidesPicture`](../islidespicture). |
+| [Type](../../aspose.slides/ibulletformat/type) { get; set; } | Miras alınmadan bir paragraftaki madde işareti tipini alır veya ayarlar. Okuma/Yazma [`BulletType`](../bullettype). |
 
-## Yöntemler
+## Metotlar
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
-| [ApplyDefaultParagraphIndentsShifts](../../aspose.slides/ibulletformat/applydefaultparagraphindentsshifts)() | Madde işaretleri etkin olduğunda (PowerPoint’te paragraf madde işaretleri/numaralandırması etkinleştirildiğinde olduğu gibi) etkin paragraf Indent ve MarginLeft için varsayılan sıfır olmayan kaymaları ayarlar. Madde işaretleri devre dışı bırakıldığında sadece paragraf Indent ve MarginLeft sıfırlanır (PowerPoint’te paragraf madde işaretleri/numaralandırması devre dışı bırakıldığında olduğu gibi). Girinti kaymaları, geçerli madde işareti bağlamına göre uygulanır - IBulletFormat.Type, .NumberedBulletStyle ve ilk bölümün FontHeight değeri. Sıfır olmayan girinti kaymaları, geçerli paragrafın etkili Indent ve MarginLeft değerlerine uygulanır (sonuç değerlerini yerel değerler yapar). |
-| [GetEffective](../../aspose.slides/ibulletformat/geteffective)() | Miras uygulandıktan sonra etkili madde işareti biçimlendirme verilerini alır. |
+| [ApplyDefaultParagraphIndentsShifts](../../aspose.slides/ibulletformat/applydefaultparagraphindentsshifts)() | Madde işaretleri etkin olduğunda (PowerPoint'te paragraf madde işaretleri/numaralandırması etkinleştirildiğinde olduğu gibi) etkili paragraf Indent ve MarginLeft için varsayılan sıfır olmayan kaymaları ayarlar. Madde işaretleri devre dışı bırakıldığında sadece paragraf Indent ve MarginLeft'ı sıfırlar (PowerPoint'te paragraf madde işaretleri/numaralandırması devre dışı bırakıldığında olduğu gibi). Girinti kaymaları, geçerli madde işareti bağlamına göre uygulanır - IBulletFormat.Type, .NumberedBulletStyle ve ilk bölümün FontHeight'i. Sıfır olmayan girinti kaymaları, geçerli paragrafın etkili Indent ve MarginLeft'ına uygulanır (sonuç değerlerini yerel değerler haline getirir). |
+| [GetEffective](../../aspose.slides/ibulletformat/geteffective)() | Miras uygulandığında etkili madde işareti biçimlendirme verilerini alır. |
 
 ### Ayrıca Bakınız
 

@@ -1,9 +1,9 @@
 ---
 title: XValue
-second_title: Tham khảo API Aspose.Sildes cho .NET
+second_title: Tham chiếu API Aspose.Sildes cho .NET
 description: XValue. Chỉ đọc IStringOrDoubleChartValueaspose.slides.charts/istringordoublechartvalue.
 type: docs
-weight: 200
+weight: 240
 url: /vi/aspose.slides.charts/chartdatapoint/xvalue/
 ---
 ## ChartDataPoint.XValue thuộc tính

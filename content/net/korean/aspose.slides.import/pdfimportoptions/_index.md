@@ -1,14 +1,14 @@
 ---
 title: PdfImportOptions
 second_title: Aspose.Sildes for .NET API 참조
-description: PDF 가져오기 옵션을 나타냅니다.
+description: PDF 가져오기 옵션을 나타냅니다
 type: docs
-weight: 7500
+weight: 7520
 url: /ko/aspose.slides.import/pdfimportoptions/
 ---
 ## PdfImportOptions 클래스
 
-PDF 가져오기 옵션을 나타냅니다.
+PDF 가져오기 옵션을 나타냅니다
 
 ```csharp
 public class PdfImportOptions
@@ -26,7 +26,7 @@ public class PdfImportOptions
 | --- | --- |
 | [DetectTables](../../aspose.slides.import/pdfimportoptions/detecttables) { get; set; } | PDF 파일을 가져올 때 표를 감지할지 여부를 결정합니다. |
 
-### 참조
+### 참고
 
 * 네임스페이스 [Aspose.Slides.Import](../../aspose.slides.import)
 * 어셈블리 [Aspose.Slides](../../)

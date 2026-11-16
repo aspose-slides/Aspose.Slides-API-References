@@ -1,14 +1,14 @@
 ---
 title: SvgShape
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar alternativ för SVG-form.
+description: Representerar alternativ för SVG-formen.
 type: docs
-weight: 4510
+weight: 4530
 url: /sv/aspose.slides.export/svgshape/
 ---
 ## SvgShape klass
 
-Representerar alternativ för SVG-form.
+Representerar alternativ för SVG-formen.
 
 ```csharp
 public sealed class SvgShape : ISvgShape
@@ -16,13 +16,13 @@ public sealed class SvgShape : ISvgShape
 
 ## Egenskaper
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
 | [Id](../../aspose.slides.export/svgshape/id) { get; set; } | Hämtar form-id |
 
 ## Metoder
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
 | [SetEventHandler](../../aspose.slides.export/svgshape/seteventhandler)(SvgEvent, string) | Ställer in händelsehanterare för formen |
 

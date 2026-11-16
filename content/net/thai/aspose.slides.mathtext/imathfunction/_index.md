@@ -1,14 +1,14 @@
 ---
 title: IMathFunction
-second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+second_title: Aspose.Sildes สำหรับ .NET API Reference
 description: ระบุฟังก์ชันของอาร์กิวเมนต์.
 type: docs
-weight: 8270
+weight: 8290
 url: /th/aspose.slides.mathtext/imathfunction/
 ---
-## อินเทอร์เฟซ IMathFunction
+## IMMathFunction อินเทอร์เฟซ
 
-ระบุฟังก์ชันของอาร์กิวเมนต์.
+ระบุฟังก์ชันของอาร์กิวเมนต์
 
 ```csharp
 public interface IMathFunction : IMathElement
@@ -18,9 +18,9 @@ public interface IMathFunction : IMathElement
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathfunction/asimathelement) { get; } | อนุญาตให้รับอินเทอร์เฟซ IMathElement base [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathfunction/asimathelement) { get; } | อนุญาตให้รับอินเทอร์เฟซพื้นฐาน IMathElement [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathfunction/base) { get; } | อาร์กิวเมนต์ของฟังก์ชัน |
-| [Name](../../aspose.slides.mathtext/imathfunction/name) { get; } | ชื่อฟังก์ชัน ตัวอย่างเช่น sin และ cos |
+| [Name](../../aspose.slides.mathtext/imathfunction/name) { get; } | ชื่อฟังก์ชัน ตัวอย่างเช่น ชื่อฟังก์ชันคือ sin และ cos |
 
 ### ตัวอย่าง
 

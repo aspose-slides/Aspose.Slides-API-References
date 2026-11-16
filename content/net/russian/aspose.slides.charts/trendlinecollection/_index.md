@@ -1,9 +1,9 @@
 ---
 title: TrendlineCollection
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Aspose.Sildes для .NET справка API
 description: Представляет коллекцию Trendline
 type: docs
-weight: 2480
+weight: 2500
 url: /ru/aspose.slides.charts/trendlinecollection/
 ---
 ## TrendlineCollection класс
@@ -26,7 +26,7 @@ public class TrendlineCollection : DomObject<ChartSeries>, ITrendlineCollection
 | Имя | Описание |
 | --- | --- |
 | [Add](../../aspose.slides.charts/trendlinecollection/add)(TrendlineType) | Добавляет новый Trendline в конец коллекции и возвращает его. |
-| [GetEnumerator](../../aspose.slides.charts/trendlinecollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
+| [GetEnumerator](../../aspose.slides.charts/trendlinecollection/getenumerator)() | Возвращает перечислитель, который перебирает элементы коллекции. |
 | [Remove](../../aspose.slides.charts/trendlinecollection/remove)(ITrendline) | Удаляет указанное значение. |
 
 ### См. также

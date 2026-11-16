@@ -1,9 +1,9 @@
 ---
 title: IImageTransformOperationFactory
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 允许创建图像效果实例
 type: docs
-weight: 3410
+weight: 3430
 url: /zh/aspose.slides.effects/iimagetransformoperationfactory/
 ---
 ## IImageTransformOperationFactory 接口
@@ -40,7 +40,7 @@ public interface IImageTransformOperationFactory
 
 用于 COM 接口。
 
-### 另请参阅
+### 另见
 
 * 命名空间 [Aspose.Slides.Effects](../../aspose.slides.effects)
 * 程序集 [Aspose.Slides](../../)

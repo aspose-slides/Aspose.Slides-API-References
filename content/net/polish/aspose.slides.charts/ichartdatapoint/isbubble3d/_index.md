@@ -1,9 +1,9 @@
 ---
 title: IsBubble3D
-second_title: Aspose.Sildes dla .NET referencja API
+second_title: Aspose.Sildes dla .NET – odniesienie API
 description: Określa, że bąbelki mają zastosowany efekt 3-D. Odczyt/zapis Boolean.
 type: docs
-weight: 100
+weight: 140
 url: /pl/aspose.slides.charts/ichartdatapoint/isbubble3d/
 ---
 ## IChartDataPoint.IsBubble3D właściwość
@@ -14,7 +14,7 @@ Określa, że bąbelki mają zastosowany efekt 3-D. Odczyt/zapis Boolean.
 public bool IsBubble3D { get; set; }
 ```
 
-### Zobacz także
+### Zobacz też
 
 * interfejs [IChartDataPoint](../../ichartdatapoint)
 * przestrzeń nazw [Aspose.Slides.Charts](../../ichartdatapoint)

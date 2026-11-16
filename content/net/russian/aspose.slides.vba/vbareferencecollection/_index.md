@@ -1,9 +1,9 @@
 ---
 title: VbaReferenceCollection
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Справочник API Aspose.Sildes для .NET
 description: Представляет коллекцию ссылок проекта VBA.
 type: docs
-weight: 11670
+weight: 11690
 url: /ru/aspose.slides.vba/vbareferencecollection/
 ---
 ## VbaReferenceCollection класс
@@ -19,9 +19,9 @@ public class VbaReferenceCollection : IVbaReferenceCollection
 | Имя | Описание |
 | --- | --- |
 | [Count](../../aspose.slides.vba/vbareferencecollection/count) { get; } | Возвращает количество элементов, фактически содержащихся в коллекции. Только для чтения Int32. |
-| [IsSynchronized](../../aspose.slides.vba/vbareferencecollection/issynchronized) { get; } | Возвращает значение, указывающее, синхронизирован ли доступ к коллекции (потокобезопасный). Только для чтения Boolean. |
+| [IsSynchronized](../../aspose.slides.vba/vbareferencecollection/issynchronized) { get; } | Возвращает значение, указывающее, синхронизирован ли доступ к коллекции (потокобезопасен). Только для чтения Boolean. |
 | [Item](../../aspose.slides.vba/vbareferencecollection/item) { get; } | Возвращает элемент по указанному индексу. |
-| [SyncRoot](../../aspose.slides.vba/vbareferencecollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтения Object. |
+| [SyncRoot](../../aspose.slides.vba/vbareferencecollection/syncroot) { get; } | Возвращает объект синхронизационного корня. Только для чтения Object. |
 
 ## Методы
 
@@ -29,7 +29,7 @@ public class VbaReferenceCollection : IVbaReferenceCollection
 | --- | --- |
 | [Add](../../aspose.slides.vba/vbareferencecollection/add)(IVbaReference) | Добавляет новую ссылку в коллекцию ссылок |
 | [CopyTo](../../aspose.slides.vba/vbareferencecollection/copyto)(Array, int) | Копирует все элементы из коллекции в указанный массив. |
-| [GetEnumerator](../../aspose.slides.vba/vbareferencecollection/getenumerator)() | Возвращает перечислитель, который проходит по элементам коллекции. |
+| [GetEnumerator](../../aspose.slides.vba/vbareferencecollection/getenumerator)() | Возвращает перечислитель, который перебирает элементы коллекции. |
 
 ### См. также
 

@@ -1,14 +1,14 @@
 ---
 title: ILineFormatEffectiveData
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: एक अपरिवर्तनीय ऑब्जेक्ट जिसमें प्रभावी लाइन फ़ॉर्मेटिंग गुण होते हैं।
+description: अपरिवर्तनीय वस्तु जो प्रभावी रेखा स्वरूपण गुणों को सम्मिलित करती है।
 type: docs
-weight: 6320
+weight: 6340
 url: /hi/aspose.slides/ilineformateffectivedata/
 ---
 ## ILineFormatEffectiveData इंटरफ़ेस
 
-इम्यूटेबल ऑब्जेक्ट जिसमें प्रभावी लाइन फ़ॉर्मेटिंग गुण होते हैं।
+एक अपरिवर्तनीय वस्तु जो प्रभावी रेखा स्वरूपण गुणों को शामिल करती है।
 
 ```csharp
 public interface ILineFormatEffectiveData : ILineParamSource
@@ -18,38 +18,38 @@ public interface ILineFormatEffectiveData : ILineParamSource
 
 | नाम | विवरण |
 | --- | --- |
-| [Alignment](../../aspose.slides/ilineformateffectivedata/alignment) { get; } | लाइन संरेखण लौटाता है। केवल पढ़ने योग्य [`LineAlignment`](../linealignment). |
-| [AsILineParamSource](../../aspose.slides/ilineformateffectivedata/asilineparamsource) { get; } | आधार ILineParamSource इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल पढ़ने योग्य [`ILineParamSource`](../ilineparamsource). |
-| [BeginArrowheadLength](../../aspose.slides/ilineformateffectivedata/beginarrowheadlength) { get; } | लाइन की शुरुआत में एरोहेड की लंबाई लौटाता है। केवल पढ़ने योग्य [`LineArrowheadLength`](../linearrowheadlength). |
-| [BeginArrowheadStyle](../../aspose.slides/ilineformateffectivedata/beginarrowheadstyle) { get; } | लाइन की शुरुआत में एरोहेड शैली लौटाता है। केवल पढ़ने योग्य [`LineArrowheadStyle`](../linearrowheadstyle). |
-| [BeginArrowheadWidth](../../aspose.slides/ilineformateffectivedata/beginarrowheadwidth) { get; } | लाइन की शुरुआत में एरोहेड की चौड़ाई लौटाता है। केवल पढ़ने योग्य [`LineArrowheadWidth`](../linearrowheadwidth). |
-| [CapStyle](../../aspose.slides/ilineformateffectivedata/capstyle) { get; } | लाइन कैप शैली लौटाता है। केवल पढ़ने योग्य [`LineCapStyle`](../linecapstyle). |
-| [CustomDashPattern](../../aspose.slides/ilineformateffectivedata/customdashpattern) { get; } | कस्टम डैश पैटर्न लौटाता है। केवल पढ़ने योग्य Single[]. |
-| [DashStyle](../../aspose.slides/ilineformateffectivedata/dashstyle) { get; } | लाइन डैश शैली लौटाता है। केवल पढ़ने योग्य [`LineDashStyle`](../linedashstyle). |
-| [EndArrowheadLength](../../aspose.slides/ilineformateffectivedata/endarrowheadlength) { get; } | लाइन के अंत में एरोहेड की लंबाई लौटाता है। केवल पढ़ने योग्य [`LineArrowheadLength`](../linearrowheadlength). |
-| [EndArrowheadStyle](../../aspose.slides/ilineformateffectivedata/endarrowheadstyle) { get; } | लाइन के अंत में एरोहेड शैली लौटाता है। केवल पढ़ने योग्य [`LineArrowheadStyle`](../linearrowheadstyle). |
-| [EndArrowheadWidth](../../aspose.slides/ilineformateffectivedata/endarrowheadwidth) { get; } | लाइन के अंत में एरोहेड की चौड़ाई लौटाता है। केवल पढ़ने योग्य [`LineArrowheadWidth`](../linearrowheadwidth). |
-| [FillFormat](../../aspose.slides/ilineformateffectivedata/fillformat) { get; } | लाइन के फ़िल फ़ॉर्मेट को लौटाता है। केवल पढ़ने योग्य [`ILineFillFormatEffectiveData`](../ilinefillformateffectivedata). |
-| [JoinStyle](../../aspose.slides/ilineformateffectivedata/joinstyle) { get; } | लाइन जॉइन शैली लौटाता है। केवल पढ़ने योग्य [`LineJoinStyle`](../linejoinstyle). |
-| [MiterLimit](../../aspose.slides/ilineformateffectivedata/miterlimit) { get; } | लाइन की मिटर सीमा लौटाता है। केवल पढ़ने योग्य Single. |
-| [SketchFormat](../../aspose.slides/ilineformateffectivedata/sketchformat) { get; } | लाइन का स्केच फ़ॉर्मेट लौटाता है। केवल पढ़ने योग्य [`ISketchFormatEffectiveData`](../isketchformateffectivedata). |
-| [Style](../../aspose.slides/ilineformateffectivedata/style) { get; } | लाइन शैली लौटाता है। केवल पढ़ने योग्य [`LineStyle`](../linestyle). |
-| [Width](../../aspose.slides/ilineformateffectivedata/width) { get; } | लाइन की चौड़ाई लौटाता है। केवल पढ़ने योग्य Double. |
+| [Alignment](../../aspose.slides/ilineformateffectivedata/alignment) { get; } | लाइन संरेखण लौटाता है। केवल-पढ़ने योग्य [`LineAlignment`](../linealignment)। |
+| [AsILineParamSource](../../aspose.slides/ilineformateffectivedata/asilineparamsource) { get; } | बेस ILineParamSource इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`ILineParamSource`](../ilineparamsource)। |
+| [BeginArrowheadLength](../../aspose.slides/ilineformateffectivedata/beginarrowheadlength) { get; } | रेखा की शुरुआत में तीरसिर की लंबाई लौटाता है। केवल-पढ़ने योग्य [`LineArrowheadLength`](../linearrowheadlength)। |
+| [BeginArrowheadStyle](../../aspose.slides/ilineformateffectivedata/beginarrowheadstyle) { get; } | रेखा की शुरुआत में तीरसिर की शैली लौटाता है। केवल-पढ़ने योग्य [`LineArrowheadStyle`](../linearrowheadstyle)। |
+| [BeginArrowheadWidth](../../aspose.slides/ilineformateffectivedata/beginarrowheadwidth) { get; } | रेखा की शुरुआत में तीरसिर की चौड़ाई लौटाता है। केवल-पढ़ने योग्य [`LineArrowheadWidth`](../linearrowheadwidth)। |
+| [CapStyle](../../aspose.slides/ilineformateffectivedata/capstyle) { get; } | रेखा कैप शैली लौटाता है। केवल-पढ़ने योग्य [`LineCapStyle`](../linecapstyle)। |
+| [CustomDashPattern](../../aspose.slides/ilineformateffectivedata/customdashpattern) { get; } | कस्टम डैश पैटर्न लौटाता है। केवल-पढ़ने योग्य Single[]। |
+| [DashStyle](../../aspose.slides/ilineformateffectivedata/dashstyle) { get; } | रेखा डैश शैली लौटाता है। केवल-पढ़ने योग्य [`LineDashStyle`](../linedashstyle)। |
+| [EndArrowheadLength](../../aspose.slides/ilineformateffectivedata/endarrowheadlength) { get; } | रेखा के अंत में तीरसिर की लंबाई लौटाता है। केवल-पढ़ने योग्य [`LineArrowheadLength`](../linearrowheadlength)। |
+| [EndArrowheadStyle](../../aspose.slides/ilineformateffectivedata/endarrowheadstyle) { get; } | रेखा के अंत में तीरसिर की शैली लौटाता है। केवल-पढ़ने योग्य [`LineArrowheadStyle`](../linearrowheadstyle)। |
+| [EndArrowheadWidth](../../aspose.slides/ilineformateffectivedata/endarrowheadwidth) { get; } | रेखा के अंत में तीरसिर की चौड़ाई लौटाता है। केवल-पढ़ने योग्य [`LineArrowheadWidth`](../linearrowheadwidth)। |
+| [FillFormat](../../aspose.slides/ilineformateffectivedata/fillformat) { get; } | रेखा की भराव प्रारूप लौटाता है। केवल-पढ़ने योग्य [`ILineFillFormatEffectiveData`](../ilinefillformateffectivedata)। |
+| [JoinStyle](../../aspose.slides/ilineformateffectivedata/joinstyle) { get; } | रेखाओं के जोड़ शैली लौटाता है। केवल-पढ़ने योग्य [`LineJoinStyle`](../linejoinstyle)। |
+| [MiterLimit](../../aspose.slides/ilineformateffectivedata/miterlimit) { get; } | रेखा की मिटर सीमा लौटाता है। केवल-पढ़ने योग्य Single। |
+| [SketchFormat](../../aspose.slides/ilineformateffectivedata/sketchformat) { get; } | रेखा का स्केच प्रारूप लौटाता है। केवल-पढ़ने योग्य [`ISketchFormatEffectiveData`](../isketchformateffectivedata)। |
+| [Style](../../aspose.slides/ilineformateffectivedata/style) { get; } | रेखा शैली लौटाता है। केवल-पढ़ने योग्य [`LineStyle`](../linestyle)। |
+| [Width](../../aspose.slides/ilineformateffectivedata/width) { get; } | रेखा की चौड़ाई लौटाता है। केवल-पढ़ने योग्य Double। |
 
 ## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [Equals](../../aspose.slides/ilineformateffectivedata/equals)(ILineFormatEffectiveData) | यह निर्धारित करता है कि दो ILineFormatEffectiveData इंस्टेंस समान हैं या नहीं। |
+| [Equals](../../aspose.slides/ilineformateffectivedata/equals)(ILineFormatEffectiveData) | निर्धारित करता है कि दो ILineFormatEffectiveData उदाहरण समान हैं या नहीं। |
 
-### टिप्पणी
+### टिप्पणियाँ
 
-इस इंटरफ़ेस को [`ILineFormat`](../ilineformat) इंटरफ़ेस के साथ मिलकर उपयोग किया जाता है ताकि विरासत लागू होने के साथ प्रभावी फ़ॉर्मेटिंग मान लौटाए जा सकें।
+इस इंटरफ़ेस को [`ILineFormat`](../ilineformat) इंटरफ़ेस के साथ मिलाकर उपयोग किया जाता है ताकि उत्तराधिकार लागू होने पर प्रभावी स्वरूपण मान लौटाए जा सकें।
 
-### देखें
+### संबंधित
 
 * इंटरफ़ेस [ILineParamSource](../ilineparamsource)
-* नेमस्पेस [Aspose.Slides](../../aspose.slides)
+* नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

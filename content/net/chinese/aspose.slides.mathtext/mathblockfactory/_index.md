@@ -1,9 +1,9 @@
 ---
 title: MathBlockFactory
-second_title: Aspose.Sildes .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 允许创建数学块
 type: docs
-weight: 8600
+weight: 8620
 url: /zh/aspose.slides.mathtext/mathblockfactory/
 ---
 ## MathBlockFactory 类
@@ -26,7 +26,7 @@ public class MathBlockFactory : IMathBlockFactory
 | --- | --- |
 | [CreateMathBlock](../../aspose.slides.mathtext/mathblockfactory/createmathblock#createmathblock)() | 创建数学块 |
 | [CreateMathBlock](../../aspose.slides.mathtext/mathblockfactory/createmathblock#createmathblock_1)(IMathElement) | 创建数学块并将元素放入其中 |
-| [CreateMathBlock](../../aspose.slides.mathtext/mathblockfactory/createmathblock#createmathblock_2)(IMathElementCollection) | 创建数学块并将多个元素放入其中 |
+| [CreateMathBlock](../../aspose.slides.mathtext/mathblockfactory/createmathblock#createmathblock_2)(IMathElementCollection) | 创建数学块并将元素放入其中 |
 
 ### 备注
 

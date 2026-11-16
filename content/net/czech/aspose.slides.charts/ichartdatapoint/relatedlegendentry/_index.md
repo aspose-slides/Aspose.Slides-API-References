@@ -1,14 +1,14 @@
 ---
 title: RelatedLegendEntry
 second_title: Aspose.Sildes pro .NET API Reference
-description: Vlastnosti odpovídající položky legendy v případě typu grafu ze seznamu ChartType.BarOfPie ChartType.ExplodedPie ChartType.ExplodedPie3D ChartType.Pie ChartType.Pie3D ChartType.PieOfPie. Pouze ke čtení ILegendEntryPropertiesaspose.slides.charts/ilegendentryproperties.
+description: Vlastnosti odpovídající položky legendy v případě typu grafu ze seznamu ChartType.BarOfPie ChartType.ExplodedPie ChartType.ExplodedPie3D ChartType.Pie ChartType.Pie3D ChartType.PieOfPie. Pouze pro čtení ILegendEntryPropertiesaspose.slides.charts/ilegendentryproperties.
 type: docs
-weight: 130
+weight: 170
 url: /cs/aspose.slides.charts/ichartdatapoint/relatedlegendentry/
 ---
 ## IChartDataPoint.RelatedLegendEntry vlastnost
 
-Vlastnosti odpovídající položky legendy v případě typu grafu z následujícího seznamu: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. Pouze ke čtení [`ILegendEntryProperties`](../../ilegendentryproperties).
+Vlastnosti odpovídající položky legendy v případě typu grafu ze seznamu: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. Jen pro čtení [`ILegendEntryProperties`](../../ilegendentryproperties).
 
 ```csharp
 public ILegendEntryProperties RelatedLegendEntry { get; }

@@ -1,14 +1,14 @@
 ---
 title: IAudioCollection
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili kumpulan file audio tersemat.
+description: Mewakili koleksi file audio yang disematkan.
 type: docs
-weight: 5220
+weight: 5240
 url: /id/aspose.slides/iaudiocollection/
 ---
 ## IAudioCollection antarmuka
 
-Mewakili kumpulan file audio tersemat.
+Mewakili koleksi file audio yang disematkan.
 
 ```csharp
 public interface IAudioCollection : IGenericCollection<IAudio>
@@ -16,17 +16,17 @@ public interface IAudioCollection : IGenericCollection<IAudio>
 
 ## Properti
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
-| [Item](../../aspose.slides/iaudiocollection/item) { get; } | Mengambil elemen pada indeks yang ditentukan. Hanya-baca [`IAudio`](../iaudio). |
+| [Item](../../aspose.slides/iaudiocollection/item) { get; } | Mendapatkan elemen pada indeks yang ditentukan. Hanya baca [`IAudio`](../iaudio). |
 
 ## Metode
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
 | [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_1)(byte[]) | Membuat dan menambahkan audio ke presentasi dari array byte. |
 | [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio)(IAudio) | Menambahkan salinan file audio dari presentasi lain. |
-| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_3)(Stream, LoadingStreamBehavior) | Membuat dan menambahkan audio ke presentasi dari aliran. |
+| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_3)(Stream, LoadingStreamBehavior) | Membuat dan menambahkan audio ke presentasi dari stream. |
 
 ### Lihat Juga
 

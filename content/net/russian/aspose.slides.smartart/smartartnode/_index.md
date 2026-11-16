@@ -1,14 +1,14 @@
 ---
 title: SmartArtNode
-second_title: Aspose.Sildes для справочника API .NET
+second_title: Aspose.Sildes для .NET справка API
 description: Представляет узел объекта SmartArt
 type: docs
-weight: 10630
+weight: 10650
 url: /ru/aspose.slides.smartart/smartartnode/
 ---
 ## SmartArtNode класс
 
-Представляет узел объекта SmartArt
+Represents node of a SmartArt object
 
 ```csharp
 public sealed class SmartArtNode : ISmartArtNode
@@ -18,15 +18,15 @@ public sealed class SmartArtNode : ISmartArtNode
 
 | Имя | Описание |
 | --- | --- |
-| [BulletFillFormat](../../aspose.slides.smartart/smartartnode/bulletfillformat) { get; } | Возвращает объект FillFormat, содержащий свойства форматирования заливки для маркера узла. Примечание: может возвращать null для некоторых типов схемы SmartArt, которые не предоставляют маркеры для узлов. Только для чтения [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [BulletFillFormat](../../aspose.slides.smartart/smartartnode/bulletfillformat) { get; } | Возвращает объект FillFormat, который содержит свойства заполнения для маркера узла. Примечание: может возвращать null для некоторых типов макета SmartArt, которые не предоставляют маркеры для узлов. Только для чтения [`IFillFormat`](../../aspose.slides/ifillformat). |
 | [ChildNodes](../../aspose.slides.smartart/smartartnode/childnodes) { get; } | Возвращает коллекцию всех дочерних узлов текущего узла. Только для чтения [`ISmartArtNodeCollection`](../ismartartnodecollection). |
-| [IsAssistant](../../aspose.slides.smartart/smartartnode/isassistant) { get; set; } | Возвращает или задает узел как помощник. Чтение/запись Boolean. |
-| [IsHidden](../../aspose.slides.smartart/smartartnode/ishidden) { get; } | Возвращает true, если этот узел является скрытым узлом в модели данных. Только для чтения Boolean. |
+| [IsAssistant](../../aspose.slides.smartart/smartartnode/isassistant) { get; set; } | Возвращает или задает узел как помощника. Чтение/запись Boolean. |
+| [IsHidden](../../aspose.slides.smartart/smartartnode/ishidden) { get; } | Возвращает true, если этот узел скрыт в модели данных. Только для чтения Boolean. |
 | [Level](../../aspose.slides.smartart/smartartnode/level) { get; } | Возвращает уровень вложенности узла. Только для чтения Int32. |
-| [OrganizationChartLayout](../../aspose.slides.smartart/smartartnode/organizationchartlayout) { get; set; } | Возвращает или задает тип макета организационной диаграммы, связанный с текущим узлом. Чтение/запись [`OrganizationChartLayoutType`](../organizationchartlayouttype). |
-| [Position](../../aspose.slides.smartart/smartartnode/position) { get; set; } | Возвращает или задает нулевую позицию узла среди узлов-сестёр. Чтение/запись Int32. |
+| [OrganizationChartLayout](../../aspose.slides.smartart/smartartnode/organizationchartlayout) { get; set; } | Возвращает или задает тип макета организационной схемы, связанный с текущим узлом. Чтение/запись [`OrganizationChartLayoutType`](../organizationchartlayouttype). |
+| [Position](../../aspose.slides.smartart/smartartnode/position) { get; set; } | Возвращает или задает позицию узла среди соседних узлов, начиная с нуля. Чтение/запись Int32. |
 | [Shapes](../../aspose.slides.smartart/smartartnode/shapes) { get; } | Возвращает коллекцию всех фигур, связанных с узлом. Только для чтения [`ISmartArtShapeCollection`](../ismartartshapecollection). |
-| [TextFrame](../../aspose.slides.smartart/smartartnode/textframe) { get; } | Возвращает текстовый кадр узла. Только для чтения [`ITextFrame`](../../aspose.slides/itextframe). |
+| [TextFrame](../../aspose.slides.smartart/smartartnode/textframe) { get; } | Возвращает текстовый фрейм узла. Только для чтения [`ITextFrame`](../../aspose.slides/itextframe). |
 
 ## Методы
 

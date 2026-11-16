@@ -1,9 +1,9 @@
 ---
 title: IFontFallBackRulesCollection
-second_title: Aspose.Sildes สำหรับ .NET API Reference
+second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
 description: แสดงถึงคอลเลกชันของกฎ FontFallBack ที่กำหนดโดยผู้ใช้
 type: docs
-weight: 5860
+weight: 5880
 url: /th/aspose.slides/ifontfallbackrulescollection/
 ---
 ## IFontFallBackRulesCollection อินเทอร์เฟซ
@@ -20,12 +20,12 @@ public interface IFontFallBackRulesCollection : IGenericCollection<IFontFallBack
 | --- | --- |
 | [Item](../../aspose.slides/ifontfallbackrulescollection/item) { get; } | รับกฎที่ตำแหน่งที่ระบุ. อ่านอย่างเดียว [`IFontFallBackRule`](../ifontfallbackrule). |
 
-## เมธอด
+## วิธีการ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Add](../../aspose.slides/ifontfallbackrulescollection/add)(IFontFallBackRule) | เพิ่มกฎ FallBack ใหม่ไปยังส่วนท้ายของคอลเลกชัน. |
-| [Remove](../../aspose.slides/ifontfallbackrulescollection/remove)(IFontFallBackRule) | ลบการปรากฏครั้งแรกของกฎ FallBack เฉพาะจากคอลเลกชัน. |
+| [Add](../../aspose.slides/ifontfallbackrulescollection/add)(IFontFallBackRule) | เพิ่มกฎ FallBack ใหม่ที่ส่วนท้ายของคอลเลกชัน. |
+| [Remove](../../aspose.slides/ifontfallbackrulescollection/remove)(IFontFallBackRule) | ลบการเกิดครั้งแรกของกฎ FallBack ที่ระบุจากคอลเลกชัน. |
 
 ### ดูเพิ่มเติม
 

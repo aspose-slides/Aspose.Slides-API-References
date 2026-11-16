@@ -1,14 +1,14 @@
 ---
 title: PieSplitCustomPointCollection
 second_title: Aspose.Sildes için .NET API Referansı
-description: Özel bölme ile bar-of-pie veya pie-of-pie grafiğinde bölme noktası için noktaların bir koleksiyonunu temsil eder.
+description: Özel bir bölme ile bar-of-pie veya pie-of-pie grafiklerinde bölme noktası için nokta koleksiyonunu temsil eder.
 type: docs
-weight: 2370
+weight: 2390
 url: /tr/aspose.slides.charts/piesplitcustompointcollection/
 ---
 ## PieSplitCustomPointCollection sınıf
 
-Bar-of-pie veya pie-of-pie grafiğinde özel bölme ile bölme noktası için nokta koleksiyonunu temsil eder.
+Bar-of-pie veya pie-of-pie grafiklerinde özel bir bölme ile bölme noktası için nokta koleksiyonunu temsil eder.
 
 ```csharp
 public class PieSplitCustomPointCollection : IPieSplitCustomPointCollection
@@ -16,26 +16,26 @@ public class PieSplitCustomPointCollection : IPieSplitCustomPointCollection
 
 ## Özellikler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides.charts/piesplitcustompointcollection/count) { get; } | Grafik veri noktalarının sayısını alır veya ayarlar. Salt okunur Int32. |
-| [IsReadOnly](../../aspose.slides.charts/piesplitcustompointcollection/isreadonly) { get; } | ICollection’ın salt okunur olup olmadığını gösteren değeri alır. Salt okunur Boolean. |
-| [IsSynchronized](../../aspose.slides.charts/piesplitcustompointcollection/issynchronized) { get; } | Koleksiyona erişimin senkronize (iş parçacığı güvenli) olup olmadığını gösteren değeri döndürür. Salt okunur Boolean. |
-| [Item](../../aspose.slides.charts/piesplitcustompointcollection/item) { get; } | Belirtilen dizindeki grafik veri noktasını döndürür. |
+| [Count](../../aspose.slides.charts/piesplitcustompointcollection/count) { get; } | Grafik veri noktalarının sayısını döndürür veya ayarlar. Salt okunur Int32. |
+| [IsReadOnly](../../aspose.slides.charts/piesplitcustompointcollection/isreadonly) { get; } | ICollection'ın salt okunur olup olmadığını gösteren bir değeri alır. Salt okunur Boolean. |
+| [IsSynchronized](../../aspose.slides.charts/piesplitcustompointcollection/issynchronized) { get; } | Erişimin senkronize (thread-safe) olup olmadığını gösteren bir değeri döndürür. Salt okunur Boolean. |
+| [Item](../../aspose.slides.charts/piesplitcustompointcollection/item) { get; } | Belirtilen indeks için grafik veri noktasını döndürür. |
 | [SyncRoot](../../aspose.slides.charts/piesplitcustompointcollection/syncroot) { get; } | Bir senkronizasyon kökü döndürür. Salt okunur Object. |
 
 ## Yöntemler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
 | [Add](../../aspose.slides.charts/piesplitcustompointcollection/add#add)(IChartDataPoint) | Veri noktasını koleksiyona ekler. |
-| [Add](../../aspose.slides.charts/piesplitcustompointcollection/add#add_1)(int) | Üst serinin nokta koleksiyonundaki indeksine göre veri noktasını ekler. |
-| [Clear](../../aspose.slides.charts/piesplitcustompointcollection/clear)() | ICollection içindeki tüm öğeleri kaldırır. |
-| [Contains](../../aspose.slides.charts/piesplitcustompointcollection/contains)(IChartDataPoint) | ICollection içinde belirli bir değerin bulunup bulunmadığını belirler. |
-| [CopyTo](../../aspose.slides.charts/piesplitcustompointcollection/copyto)(IChartDataPoint[], int) | ICollection öğelerini bir diziye, belirli bir dizi indeksinden başlayarak kopyalar. |
-| [GetEnumerator](../../aspose.slides.charts/piesplitcustompointcollection/getenumerator)() | Koleksiyonu yineleyen bir enumaratör döndürür. |
-| [Remove](../../aspose.slides.charts/piesplitcustompointcollection/remove#remove)(IChartDataPoint) | Öğeyi koleksiyondan kaldırır. |
-| [Remove](../../aspose.slides.charts/piesplitcustompointcollection/remove#remove_1)(int) | Üst serinin nokta koleksiyonundaki indeksine göre öğeyi koleksiyondan kaldırır. |
+| [Add](../../aspose.slides.charts/piesplitcustompointcollection/add#add_1)(int) | Veri noktasını üst serinin nokta koleksiyonundaki indeksine göre ekler. |
+| [Clear](../../aspose.slides.charts/piesplitcustompointcollection/clear)() | ICollection'dan tüm öğeleri kaldırır. |
+| [Contains](../../aspose.slides.charts/piesplitcustompointcollection/contains)(IChartDataPoint) | ICollection'ın belirli bir değeri içerip içermediğini belirler. |
+| [CopyTo](../../aspose.slides.charts/piesplitcustompointcollection/copyto)(IChartDataPoint[], int) | ICollection öğelerini belirli bir dizi indeksinden başlayarak bir Array'e kopyalar. |
+| [GetEnumerator](../../aspose.slides.charts/piesplitcustompointcollection/getenumerator)() | Koleksiyon içinde yineleme yapan bir enumerator döndürür. |
+| [Remove](../../aspose.slides.charts/piesplitcustompointcollection/remove#remove)(IChartDataPoint) | Koleksiyondan öğeyi kaldırır. |
+| [Remove](../../aspose.slides.charts/piesplitcustompointcollection/remove#remove_1)(int) | Koleksiyondan öğeyi, üst serinin nokta koleksiyonundaki indeksine göre kaldırır. |
 
 ### Ayrıca Bakınız
 

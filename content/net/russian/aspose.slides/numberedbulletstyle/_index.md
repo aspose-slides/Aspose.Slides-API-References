@@ -1,12 +1,12 @@
 ---
 title: NumberedBulletStyle
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Aspose.Sildes для .NET Справочник API
 description: Представляет стиль нумерованных маркеров.
 type: docs
-weight: 9180
+weight: 9200
 url: /ru/aspose.slides/numberedbulletstyle/
 ---
-## NumberedBulletStyle перечисление
+## Перечисление NumberedBulletStyle
 
 Представляет стиль нумерованных маркеров.
 
@@ -35,31 +35,31 @@ public enum NumberedBulletStyle : sbyte
 | BulletArabicPlain | `13` | Арабские цифры. Пример: 1, 2, 3, ... |
 | BulletRomanUCParenBoth | `14` | Прописные римские цифры с обеими скобками. Пример: (I), (II), (III), ... |
 | BulletRomanUCParenRight | `15` | Прописные римские цифры с закрывающей скобкой. Пример: I), II), III), ... |
-| BulletSimpChinPlain | `16` | Упрощенный китайский без точки. |
-| BulletSimpChinPeriod | `17` | Упрощенный китайский с точкой. |
-| BulletCircleNumDBPlain | `18` | Двухбайтовый обведенный номер для значений до 10, от 11 – арабские цифры. |
-| BulletCircleNumWDWhitePlain | `19` | Цифра того же цвета, что и текст, с окружностью того же цвета (белые круги Wingdings). С 11 – арабские цифры. |
-| BulletCircleNumWDBlackPlain | `20` | Тень цифры с круглым фоном обычного цвета текста (чёрные круги Wingdings). |
+| BulletSimpChinPlain | `16` | Упрощённый китайский без точки. |
+| BulletSimpChinPeriod | `17` | Упрощённый китайский с точкой. |
+| BulletCircleNumDBPlain | `18` | Двухбайтовый закольцованный номер для значений до 10, от 11 — арабские цифры. |
+| BulletCircleNumWDWhitePlain | `19` | Текстовый номер, окрашенный в цвет текста, с окружностью того же цвета (белые круги Wingdings). От 11 — арабские цифры. |
+| BulletCircleNumWDBlackPlain | `20` | Тень цвета номера с круглым фоном обычного цвета текста (чёрные круги Wingdings). |
 | BulletTradChinPlain | `21` | Традиционный китайский без точки. |
 | BulletTradChinPeriod | `22` | Традиционный китайский с точкой. |
-| BulletArabicAlphaDash | `23` | Арабские буквенные символы с дефисом. |
+| BulletArabicAlphaDash | `23` | Арабские буквенно-алфавитные символы с дефисом. |
 | BulletArabicAbjadDash | `24` | Арабские абджадные алфавиты с дефисом. |
-| BulletHebrewAlphaDash | `25` | Ивритские буквенные символы с дефисом. |
+| BulletHebrewAlphaDash | `25` | Ивритские буквенно-алфавитные символы с дефисом. |
 | BulletKanjiKoreanPlain | `26` | Японские/корейские цифры без точки. |
 | BulletKanjiKoreanPeriod | `27` | Японские/корейские цифры с точкой. |
-| BulletArabicDBPlain | `28` | Двухбайтовая арабская нумерация (без пунктуации). |
-| BulletArabicDBPeriod | `29` | Двухбайтовая арабская нумерация с двухбайтовой точкой. |
+| BulletArabicDBPlain | `28` | Двухбайтовая схема арабской нумерации (без знаков препинания). |
+| BulletArabicDBPeriod | `29` | Двухбайтовая схема арабской нумерации с двухбайтовой точкой. |
 | BulletThaiAlphaPeriod | `30` | Тайский алфавит с точкой. |
 | BulletThaiAlphaParenRight | `31` | Тайский алфавит с правой скобкой. |
 | BulletThaiAlphaParenBoth | `32` | Тайский алфавит с обеими скобками. |
-| BulletThaiNumPeriod | `33` | Тайская цифра с точкой. |
-| BulletThaiNumParenRight | `34` | Тайская цифра с правой скобкой. |
-| BulletThaiNumParenBoth | `35` | Тайская цифра с обеими скобками. |
-| BulletHindiAlphaPeriod | `36` | Хинди алфавит с точкой – гласные. |
-| BulletHindiNumPeriod | `37` | Хинди цифра с точкой. |
-| BulletKanjiSimpChinDBPeriod | `38` | Кандзи простой китайский DBPeriod. |
-| BulletHindiNumParenRight | `39` | Хинди цифра с правой скобкой. |
-| BulletHindiAlpha1Period | `40` | Хинди алфавит с точкой – согласные. |
+| BulletThaiNumPeriod | `33` | Тайская числовая запись с точкой. |
+| BulletThaiNumParenRight | `34` | Тайские числовые скобки - правые. |
+| BulletThaiNumParenBoth | `35` | Тайские числовые скобки - обе. |
+| BulletHindiAlphaPeriod | `36` | Хинди алфавит с точкой - гласные. |
+| BulletHindiNumPeriod | `37` | Хинди числовая запись с точкой. |
+| BulletKanjiSimpChinDBPeriod | `38` | Кандзи упрощенный китайский DBPeriod. |
+| BulletHindiNumParenRight | `39` | Хинди числовые скобки - правые. |
+| BulletHindiAlpha1Period | `40` | Хинди алфавит с точкой - согласные. |
 
 ### См. также
 

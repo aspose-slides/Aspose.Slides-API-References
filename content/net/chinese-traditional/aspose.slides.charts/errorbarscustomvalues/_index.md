@@ -1,14 +1,14 @@
 ---
 title: ErrorBarsCustomValues
 second_title: Aspose.Sildes for .NET API 參考
-description: 指定誤差條的值。僅在誤差條值類型為 Custom 時使用。
+description: 指定誤差棒的值。僅在 Error bars 值類型為 Custom 時使用。
 type: docs
-weight: 1660
+weight: 1670
 url: /zh-hant/aspose.slides.charts/errorbarscustomvalues/
 ---
 ## ErrorBarsCustomValues 類別
 
-指定誤差條值。僅在誤差條值類型為 Custom 時使用。
+指定誤差棒的值。僅在 Error bars 值類型為 Custom 時使用。
 
 ```csharp
 public class ErrorBarsCustomValues : DomObject<ChartDataPoint>, IErrorBarsCustomValues
@@ -16,14 +16,14 @@ public class ErrorBarsCustomValues : DomObject<ChartDataPoint>, IErrorBarsCustom
 
 ## 屬性
 
-| 名稱 | 說明 |
+| Name | Description |
 | --- | --- |
-| [XMinus](../../aspose.slides.charts/errorbarscustomvalues/xminus) { get; } | 指定負方向的誤差條值。若誤差條值類型為 Custom 且允許 ErrorBarsXFormat，則可用。否則此屬性會傳回 null。唯讀 [`IDoubleChartValue`](../idoublechartvalue)。 |
-| [XPlus](../../aspose.slides.charts/errorbarscustomvalues/xplus) { get; } | 指定正方向的誤差條值。若誤差條值類型為 Custom 且允許 ErrorBarsXFormat，則可用。否則此屬性會傳回 null。唯讀 [`IDoubleChartValue`](../idoublechartvalue)。 |
-| [YMinus](../../aspose.slides.charts/errorbarscustomvalues/yminus) { get; } | 指定負方向的誤差條值。若誤差條值類型為 Custom 且允許 ErrorBarsYFormat，則可用。否則此屬性會傳回 null。唯讀 [`IDoubleChartValue`](../idoublechartvalue)。 |
-| [YPlus](../../aspose.slides.charts/errorbarscustomvalues/yplus) { get; } | 指定正方向的誤差條值。若誤差條值類型為 Custom 且允許 ErrorBarsYFormat，則可用。否則此屬性會傳回 null。唯讀 [`IDoubleChartValue`](../idoublechartvalue)。 |
+| [XMinus](../../aspose.slides.charts/errorbarscustomvalues/xminus) { get; } | 指定負方向的誤差棒值。如果 error bars 值類型為 Custom 且允許 ErrorBarsXFormat，則可用。 在其他任何情況下，此屬性會傳回 null。 唯讀 [`IDoubleChartValue`](../idoublechartvalue)。 |
+| [XPlus](../../aspose.slides.charts/errorbarscustomvalues/xplus) { get; } | 指定正方向的誤差棒值。如果 error bars 值類型為 Custom 且允許 ErrorBarsXFormat，則可用。 在其他任何情況下，此屬性會傳回 null。 唯讀 [`IDoubleChartValue`](../idoublechartvalue)。 |
+| [YMinus](../../aspose.slides.charts/errorbarscustomvalues/yminus) { get; } | 指定負方向的誤差棒值。如果 error bars 值類型為 Custom 且允許 ErrorBarsYFormat，則可用。 在其他任何情況下，此屬性會傳回 null。 唯讀 [`IDoubleChartValue`](../idoublechartvalue)。 |
+| [YPlus](../../aspose.slides.charts/errorbarscustomvalues/yplus) { get; } | 指定正方向的誤差棒值。如果 error bars 值類型為 Custom 且允許 ErrorBarsYFormat，則可用。 在其他任何情況下，此屬性會傳回 null。 唯讀 [`IDoubleChartValue`](../idoublechartvalue)。 |
 
-### 相關參考
+### 另請參閱
 
 * 類別 [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * 類別 [ChartDataPoint](../chartdatapoint)

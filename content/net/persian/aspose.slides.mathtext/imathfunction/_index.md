@@ -1,14 +1,14 @@
 ---
 title: IMathFunction
-second_title: Aspose.Sildes برای .NET مرجع API
-description: یک تابع برای یک آرگومان را مشخص می‌کند.
+second_title: Aspose.Sildes برای مرجع API .NET
+description: یک تابع از یک آرگومان را مشخص می‌کند.
 type: docs
-weight: 8270
+weight: 8290
 url: /fa/aspose.slides.mathtext/imathfunction/
 ---
 ## IMathFunction رابط
 
-یک تابع برای یک آرگومان را مشخص می‌کند.
+مشخص می‌کند که یک تابع با یک آرگومان دارد.
 
 ```csharp
 public interface IMathFunction : IMathElement
@@ -18,9 +18,9 @@ public interface IMathFunction : IMathElement
 
 | نام | توضیح |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathfunction/asimathelement) { get; } | اجازه دریافت رابط پایه IMathElement [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathfunction/asimathelement) { get; } | اجازه می‌دهد رابط پایه IMathElement [`IMathElement`](../imathelement) را دریافت کند |
 | [Base](../../aspose.slides.mathtext/imathfunction/base) { get; } | آرگومان تابع |
-| [Name](../../aspose.slides.mathtext/imathfunction/name) { get; } | نام تابع برای مثال نام توابع sin و cos هستند |
+| [Name](../../aspose.slides.mathtext/imathfunction/name) { get; } | نام تابع. به عنوان مثال، نام‌های توابع sin و cos هستند |
 
 ### مثال‌ها
 

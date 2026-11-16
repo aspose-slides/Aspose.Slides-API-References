@@ -1,14 +1,14 @@
 ---
 title: HighlightRegex
 second_title: Aspose.Sildes för .NET API-referens
-description: Markerar alla matchningar av det reguljära uttrycket med den angivna färgen.
+description: Markerar alla träffar av reguljära uttrycket med angiven färg.
 type: docs
-weight: 80
+weight: 90
 url: /sv/aspose.slides/itextframe/highlightregex/
 ---
 ## ITextFrame.HighlightRegex metod
 
-Markerar alla matchningar av det reguljära uttrycket med den angivna färgen.
+Markerar alla träffar av reguljära uttrycket med den angivna färgen.
 
 ```csharp
 public void HighlightRegex(Regex regex, Color highlightColor, IFindResultCallback callback)
@@ -16,13 +16,13 @@ public void HighlightRegex(Regex regex, Color highlightColor, IFindResultCallbac
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| regex | Regex | Det reguljära uttrycket Regex för att hämta strängar som ska markeras. |
+| regex | Regex | Det reguljära uttrycket Regex för att hämta strängar att markera. |
 | highlightColor | Color | Färgen för att markera texten. |
 | callback | IFindResultCallback | Callback-objektet för att ta emot sökresultat [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### Exempel
 
-Följande kodexempel visar hur man markerar text i en TextFrame med hjälp av ett reguljärt uttryck.
+Följande kodexempel visar hur man markerar text i en TextFrame med ett reguljärt uttryck.
 
 ```csharp
 [C#]
@@ -35,7 +35,7 @@ using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 }
 ```
 
-### Se också
+### Se även
 
 * gränssnitt [IFindResultCallback](../../ifindresultcallback)
 * gränssnitt [ITextFrame](../../itextframe)

@@ -1,14 +1,14 @@
 ---
 title: ValueFromCell
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: รับหรือกำหนดเซลล์ข้อมูลของสมุดงาน ใช้ได้หากคุณสมบัติ IDataLabelFormat.ShowLabelValueFromCell มีค่าเป็น true.
+second_title: เอกสารอ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+description: รับหรือกำหนดเซลล์ข้อมูลของสมุดงาน. ใช้เมื่อ IDataLabelFormat.ShowLabelValueFromCell คุณสมบัติ มีค่าเป็น true.
 type: docs
-weight: 140
+weight: 150
 url: /th/aspose.slides.charts/datalabel/valuefromcell/
 ---
 ## DataLabel.ValueFromCell คุณสมบัติ
 
-รับหรือกำหนดค่าเซลล์ข้อมูลของสมุดงาน หากคุณสมบัติ IDataLabelFormat.ShowLabelValueFromCell มีค่าเป็น true.
+รับหรือกำหนดค่าเซลล์ข้อมูลของสมุดงาน. ใช้เมื่อ IDataLabelFormat.ShowLabelValueFromCell คุณสมบัติ มีค่าเป็น true.
 
 ```csharp
 public IChartDataCell ValueFromCell { get; set; }

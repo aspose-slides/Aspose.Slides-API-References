@@ -3,7 +3,7 @@ title: GradientDirection
 second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 그라디언트 스타일을 나타냅니다.
 type: docs
-weight: 4990
+weight: 5010
 url: /ko/aspose.slides/gradientdirection/
 ---
 ## GradientDirection 열거형
@@ -14,18 +14,18 @@ url: /ko/aspose.slides/gradientdirection/
 public enum GradientDirection
 ```
 
-### 값
+### Values
 
 | 이름 | 값 | 설명 |
 | --- | --- | --- |
 | NotDefined | `-1` | 정의되지 않음 |
-| FromCorner1 | `0` | 왼쪽 위 모서리에서 |
-| FromCorner2 | `1` | 오른쪽 위 모서리에서 |
-| FromCorner3 | `2` | 왼쪽 아래 모서리에서 |
-| FromCorner4 | `3` | 오른쪽 아래 모서리에서 |
+| FromCorner1 | `0` | 좌측 상단 모서리에서 |
+| FromCorner2 | `1` | 우측 상단 모서리에서 |
+| FromCorner3 | `2` | 좌측 하단 모서리에서 |
+| FromCorner4 | `3` | 우측 하단 모서리에서 |
 | FromCenter | `4` | 중심에서 |
 
-### 참고
+### 참조
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

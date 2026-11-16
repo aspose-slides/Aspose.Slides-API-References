@@ -1,14 +1,14 @@
 ---
 title: InOutTransition
 second_title: Aspose.Sildes για .NET API Αναφορά
-description: Εφέ μετάβασης διαφάνειας εισόδου-εξόδου.
+description: Εφέ μετάβασης διαφάνειας In-Out.
 type: docs
-weight: 10230
+weight: 10250
 url: /el/aspose.slides.slideshow/inouttransition/
 ---
 ## InOutTransition κλάση
 
-Εφέ μετάβασης διαφάνειας εισόδου-εξόδου.
+Εφέ μετάβασης διαφάνειας In-Out.
 
 ```csharp
 public class InOutTransition : TransitionValueBase, IInOutTransition
@@ -24,13 +24,13 @@ public class InOutTransition : TransitionValueBase, IInOutTransition
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Καθορίζει εάν τα δύο αντικείμενα TransitionValueBase είναι ίσα. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Καθορίζει αν τα δύο TransitionValueBase είναι ίσα. |
 | override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Λειτουργεί ως συνάρτηση κατακερματισμού για έναν συγκεκριμένο τύπο, κατάλληλη για χρήση σε αλγόριθμους κατακερματισμού και δομές δεδομένων όπως ένας πίνακας κατακερματισμού. |
 
 ### Δείτε επίσης
 
 * κλάση [TransitionValueBase](../transitionvaluebase)
-* διασύνδεση [IInOutTransition](../iinouttransition)
+* διεπαφή [IInOutTransition](../iinouttransition)
 * χώρο ονομάτων [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * συναρμολόγηση [Aspose.Slides](../../)
 

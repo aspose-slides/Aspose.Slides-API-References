@@ -1,14 +1,14 @@
 ---
 title: ParagraphCollection
-second_title: مرجع API لـ Aspose.Sildes لـ .NET
-description: تمثل مجموعة من الفقرات.
+second_title: Aspose.Sildes for .NET مرجع API
+description: يمثل مجموعة من الفقرات.
 type: docs
-weight: 9290
+weight: 9310
 url: /ar/aspose.slides/paragraphcollection/
 ---
-## فئة ParagraphCollection
+## ParagraphCollection فئة
 
-تمثل مجموعة من الفقرات.
+يمثل مجموعة من الفقرات.
 
 ```csharp
 public sealed class ParagraphCollection : DomObject<TextFrame>, IParagraphCollection
@@ -18,35 +18,35 @@ public sealed class ParagraphCollection : DomObject<TextFrame>, IParagraphCollec
 
 | الاسم | الوصف |
 | --- | --- |
-| [Count](../../aspose.slides/paragraphcollection/count) { get; } | يحصل على عدد العناصر الفعلية المحتواة في المجموعة. قراءة فقط Int32. |
-| [IsReadOnly](../../aspose.slides/paragraphcollection/isreadonly) { get; } | يحصل على قيمة تشير إلى ما إذا كانت ICollection قراءة فقط. قراءة فقط Boolean. |
-| [Item](../../aspose.slides/paragraphcollection/item) { get; } | يحصل على العنصر عند الفهرس المحدد. |
+| [Count](../../aspose.slides/paragraphcollection/count) { get; } | يحصل على عدد العناصر الفعلية الموجودة في المجموعة. للقراءة فقط Int32. |
+| [IsReadOnly](../../aspose.slides/paragraphcollection/isreadonly) { get; } | يحصل على قيمة تشير إلى ما إذا كان ICollection للقراءة فقط. للقراءة فقط Boolean. |
+| [Item](../../aspose.slides/paragraphcollection/item) { get; } | يحصل على العنصر في الفهرس المحدد. |
 
-## الأساليب
+## الطرق
 
 | الاسم | الوصف |
 | --- | --- |
 | [Add](../../aspose.slides/paragraphcollection/add#add_1)(IParagraph) | يضيف Paragraph إلى نهاية المجموعة. |
 | [Add](../../aspose.slides/paragraphcollection/add#add)(IParagraphCollection) | يضيف محتوى ParagraphCollection إلى نهاية المجموعة. |
-| [AddFromHtml](../../aspose.slides/paragraphcollection/addfromhtml#addfromhtml)(string) | يضيف نصًا من سلسلة HTML المحددة إلى المجموعة. |
-| [AddFromHtml](../../aspose.slides/paragraphcollection/addfromhtml#addfromhtml_1)(string, IExternalResourceResolver, string) | يضيف نصًا من سلسلة HTML المحددة إلى المجموعة. |
+| [AddFromHtml](../../aspose.slides/paragraphcollection/addfromhtml#addfromhtml)(string) | يضيف نصًا من سلسلة html string المحددة إلى المجموعة. |
+| [AddFromHtml](../../aspose.slides/paragraphcollection/addfromhtml#addfromhtml_1)(string, IExternalResourceResolver, string) | يضيف نصًا من سلسلة html string المحددة إلى المجموعة. |
 | [Clear](../../aspose.slides/paragraphcollection/clear)() | يزيل جميع العناصر من المجموعة. |
-| [Contains](../../aspose.slides/paragraphcollection/contains)(IParagraph) | يحدد ما إذا كانت ICollection تحتوي على قيمة محددة. |
-| [CopyTo](../../aspose.slides/paragraphcollection/copyto)(IParagraph[], int) | ينسخ عناصر ICollection إلى مصفوفة، بدءًا من فهرس مصفوفة معين. |
-| [ExportToHtml](../../aspose.slides/paragraphcollection/exporttohtml)(int, int, ITextToHtmlConversionOptions) | يحول الفقرات المحددة إلى HTML ويعيدها ككائن String. |
-| [GetEnumerator](../../aspose.slides/paragraphcollection/getenumerator)() | يعيد كائن عدد يُتيح التجول عبر المجموعة. |
+| [Contains](../../aspose.slides/paragraphcollection/contains)(IParagraph) | يحدد ما إذا كان ICollection يحتوي على قيمة معينة. |
+| [CopyTo](../../aspose.slides/paragraphcollection/copyto)(IParagraph[], int) | ينسخ عناصر ICollection إلى Array، بدءًا من فهرس Array معين. |
+| [ExportToHtml](../../aspose.slides/paragraphcollection/exporttohtml)(int, int, ITextToHtmlConversionOptions) | يحوِّل الفقرات المحددة إلى HTML ويعيده ككائن String. |
+| [GetEnumerator](../../aspose.slides/paragraphcollection/getenumerator)() | يُعيد enumerator الذي يتكرر عبر المجموعة. |
 | [IndexOf](../../aspose.slides/paragraphcollection/indexof)(IParagraph) | يحدد فهرس عنصر معين في IList. |
-| [Insert](../../aspose.slides/paragraphcollection/insert#insert)(int, IParagraph) | يُدرج Paragraph في المجموعة عند الفهرس المحدد. |
-| [Insert](../../aspose.slides/paragraphcollection/insert#insert_1)(int, IParagraphCollection) | يُدرج محتوى ParagraphCollection في المجموعة عند الفهرس المحدد. |
-| [Remove](../../aspose.slides/paragraphcollection/remove)(IParagraph) | يزيل أول ظهور لعنصر معين من ICollection. |
+| [Insert](../../aspose.slides/paragraphcollection/insert#insert)(int, IParagraph) | يدرج Paragraph في المجموعة عند الفهرس المحدد. |
+| [Insert](../../aspose.slides/paragraphcollection/insert#insert_1)(int, IParagraphCollection) | يدرج محتوى ParagraphCollection في المجموعة عند الفهرس المحدد. |
+| [Remove](../../aspose.slides/paragraphcollection/remove)(IParagraph) | يزيل أول تكرار لكائن معين من ICollection. |
 | [RemoveAt](../../aspose.slides/paragraphcollection/removeat)(int) | يزيل العنصر عند الفهرس المحدد في المجموعة. |
 
-### انظر أيضًا
+### أنظر أيضًا
 
 * فئة [DomObject&lt;TParent&gt;](../domobject-1)
 * فئة [TextFrame](../textframe)
 * واجهة [IParagraphCollection](../iparagraphcollection)
-* مساحة الأسماء [Aspose.Slides](../../aspose.slides)
-* التجميع [Aspose.Slides](../../)
+* مساحة الاسم [Aspose.Slides](../../aspose.slides)
+* تجميع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

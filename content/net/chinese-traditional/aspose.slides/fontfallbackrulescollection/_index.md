@@ -1,40 +1,40 @@
 ---
 title: FontFallBackRulesCollection
-second_title: Aspose.Sildes for .NET API 參考文件
-description: 表示使用者定義的 FontFallBack 規則集合
+second_title: Aspose.Sildes .NET API 參考
+description: 代表使用者定義的 FontFallBack 規則集合
 type: docs
-weight: 4850
+weight: 4870
 url: /zh-hant/aspose.slides/fontfallbackrulescollection/
 ---
 ## FontFallBackRulesCollection 類別
 
-表示由使用者定義的 FontFallBack 規則集合
+代表使用者定義的 FontFallBack 規則集合
 
 ```csharp
 public class FontFallBackRulesCollection : IFontFallBackRulesCollection
 ```
 
-## 建構式
+## 建構函式
 
 | 名稱 | 說明 |
 | --- | --- |
-| [FontFallBackRulesCollection](fontfallbackrulescollection)() | 預設建構式。 |
+| [FontFallBackRulesCollection](fontfallbackrulescollection)() | 預設建構函式。 |
 
 ## 屬性
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Count](../../aspose.slides/fontfallbackrulescollection/count) { get; } | 取得集合中實際包含的規則數量。唯讀 Int32。 |
-| [IsSynchronized](../../aspose.slides/fontfallbackrulescollection/issynchronized) { get; } | 傳回指示是否已同步（執行緒安全）存取集合的值。唯讀 Boolean。 |
-| [Item](../../aspose.slides/fontfallbackrulescollection/item) { get; } | 取得指定索引處的規則。唯讀 [`IFontFallBackRule`](../ifontfallbackrule)。 |
-| [SyncRoot](../../aspose.slides/fontfallbackrulescollection/syncroot) { get; } | 傳回同步根。唯讀 Object。 |
+| [Count](../../aspose.slides/fontfallbackrulescollection/count) { get; } | 取得實際包含在集合中的規則數量。 唯讀 Int32。 |
+| [IsSynchronized](../../aspose.slides/fontfallbackrulescollection/issynchronized) { get; } | 傳回指示集合的存取是否已同步 (執行緒安全) 的值。 唯讀 Boolean。 |
+| [Item](../../aspose.slides/fontfallbackrulescollection/item) { get; } | 取得指定索引處的規則。 唯讀 [`IFontFallBackRule`](../ifontfallbackrule)。 |
+| [SyncRoot](../../aspose.slides/fontfallbackrulescollection/syncroot) { get; } | 傳回同步根。 唯讀 Object。 |
 
 ## 方法
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Add](../../aspose.slides/fontfallbackrulescollection/add)(IFontFallBackRule) | 將指定的 FallBack 規則加入集合的末端。 |
-| [CopyTo](../../aspose.slides/fontfallbackrulescollection/copyto)(Array, int) | 將集合中的所有元素複製到指定的陣列。 |
+| [Add](../../aspose.slides/fontfallbackrulescollection/add)(IFontFallBackRule) | 將指定的 FallBack 規則新增至集合的末端。 |
+| [CopyTo](../../aspose.slides/fontfallbackrulescollection/copyto)(Array, int) | 將集合中所有元素複製到指定的陣列。 |
 | [GetEnumerator](../../aspose.slides/fontfallbackrulescollection/getenumerator)() | 傳回一個可遍歷集合的列舉器。 |
 | [Remove](../../aspose.slides/fontfallbackrulescollection/remove)(IFontFallBackRule) | 從集合中移除第一個出現的特定 FallBack 規則。 |
 

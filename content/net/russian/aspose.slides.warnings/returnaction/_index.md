@@ -3,7 +3,7 @@ title: ReturnAction
 second_title: Aspose.Sildes для .NET справочник API
 description: Представляет варианты решений обратного вызова предупреждения.
 type: docs
-weight: 11820
+weight: 11840
 url: /ru/aspose.slides.warnings/returnaction/
 ---
 ## ReturnAction перечисление
@@ -18,8 +18,8 @@ public enum ReturnAction
 
 | Имя | Значение | Описание |
 | --- | --- | --- |
-| Continue | `0` | Операцию следует продолжить. |
-| Abort | `1` | Операцию следует прервать. |
+| Continue | `0` | Операция должна быть продолжена. |
+| Abort | `1` | Операция должна быть прервана. |
 
 ### См. также
 

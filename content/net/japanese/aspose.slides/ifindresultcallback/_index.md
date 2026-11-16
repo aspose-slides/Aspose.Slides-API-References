@@ -1,9 +1,9 @@
 ---
 title: IFindResultCallback
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 検索テキストの結果取得に使用されるコールバックインターフェイスです。
+description: 検索テキストの結果を取得するために使用されるコールバックインターフェイスです。
 type: docs
-weight: 5820
+weight: 5840
 url: /ja/aspose.slides/ifindresultcallback/
 ---
 ## IFindResultCallback インターフェイス
@@ -20,7 +20,7 @@ public interface IFindResultCallback
 | --- | --- |
 | [FoundResult](../../aspose.slides/ifindresultcallback/foundresult)(ITextFrame, string, string, int) | 見つかったテキストに関するデータを受け取るコールバックメソッドです。 |
 
-### 関連項目
+### 参照
 
 * 名前空間 [Aspose.Slides](../../aspose.slides)
 * アセンブリ [Aspose.Slides](../../)

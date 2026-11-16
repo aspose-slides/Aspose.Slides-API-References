@@ -3,7 +3,7 @@ title: FontSources
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Proporciona fuentes de archivo y de memoria para fuentes externas.
 type: docs
-weight: 4860
+weight: 4880
 url: /es/aspose.slides/fontsources/
 ---
 ## FontSources clase
@@ -24,7 +24,7 @@ public class FontSources : IFontSources
 
 | Nombre | Descripción |
 | --- | --- |
-| [FontFolders](../../aspose.slides/fontsources/fontfolders) { get; set; } | Carpetas que contienen archivos de fuentes. Todos los archivos de fuentes ubicados en estas carpetas se incluyen en la colección. Carpetas que se buscan de forma recursiva. |
+| [FontFolders](../../aspose.slides/fontsources/fontfolders) { get; set; } | Carpetas que contienen archivos de fuentes. Todos los archivos de fuentes ubicados en estas carpetas se incluyen en la colección. Carpetas que se buscan recursivamente. |
 | [MemoryFonts](../../aspose.slides/fontsources/memoryfonts) { get; set; } | Una colección de fuentes representadas como matrices de bytes. |
 
 ### Ver también

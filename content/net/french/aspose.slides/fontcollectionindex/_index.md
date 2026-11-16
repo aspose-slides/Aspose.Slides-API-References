@@ -3,7 +3,7 @@ title: FontCollectionIndex
 second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Représente l'index des polices dans une collection.
 type: docs
-weight: 4810
+weight: 4830
 url: /fr/aspose.slides/fontcollectionindex/
 ---
 ## FontCollectionIndex énumération
@@ -16,7 +16,7 @@ public enum FontCollectionIndex : byte
 
 ### Valeurs
 
-| Name | Value | Description |
+| Nom | Valeur | Description |
 | --- | --- | --- |
 | None | `0` |  |
 | Minor | `1` |  |

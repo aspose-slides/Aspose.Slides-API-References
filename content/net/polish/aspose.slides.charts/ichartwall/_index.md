@@ -1,9 +1,9 @@
 ---
 title: IChartWall
-second_title: Aspose.Sildes dla .NET API Reference
+second_title: Aspose.Sildes dla .NET - odniesienie API
 description: Reprezentuje ściany na wykresach 3D.
 type: docs
-weight: 2010
+weight: 2030
 url: /pl/aspose.slides.charts/ichartwall/
 ---
 ## IChartWall interfejs
@@ -14,13 +14,13 @@ Reprezentuje ściany na wykresach 3D.
 public interface IChartWall
 ```
 
-## Właściwości
+## Properties
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
-| [Format](../../aspose.slides.charts/ichartwall/format) { get; } | Zwraca wypełnienie ściany, linię, efekt, style 3D. Read-only [`IFormat`](../iformat). |
-| [PictureType](../../aspose.slides.charts/ichartwall/picturetype) { get; set; } | Zwraca lub ustawia typ obrazu. Read/write [`PictureType`](./picturetype). |
-| [Thickness](../../aspose.slides.charts/ichartwall/thickness) { get; set; } | Zwraca lub ustawia grubość ścian jako procent największego wymiaru objętości wykresu. Read/write Int32. |
+| [Format](../../aspose.slides.charts/ichartwall/format) { get; } | Zwraca wypełnienie ściany, linię, efekt oraz style 3D. Tylko do odczytu [`IFormat`](../iformat). |
+| [PictureType](../../aspose.slides.charts/ichartwall/picturetype) { get; set; } | Zwraca lub ustawia typ obrazu. Odczyt/zapis [`PictureType`](./picturetype). |
+| [Thickness](../../aspose.slides.charts/ichartwall/thickness) { get; set; } | Zwraca lub ustawia grubość ścian jako procent największego wymiaru objętości wykresu. Odczyt/zapis Int32. |
 
 ### Zobacz także
 

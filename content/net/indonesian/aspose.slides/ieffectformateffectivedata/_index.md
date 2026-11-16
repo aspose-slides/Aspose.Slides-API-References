@@ -1,29 +1,29 @@
 ---
 title: IEffectFormatEffectiveData
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Objek tidak dapat diubah yang berisi properti pemformatan efek yang efektif.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Objek Imutable yang berisi properti pemformatan efek yang efektif.
 type: docs
-weight: 5750
+weight: 5770
 url: /id/aspose.slides/ieffectformateffectivedata/
 ---
-## IEffectFormatEffectiveData antarmuka
+## IEffectFormatEffectiveData interface
 
-Objek tidak dapat diubah yang berisi properti pemformatan efek yang efektif.
+Objek Imutable yang berisi properti pemformatan efek yang efektif.
 
 ```csharp
 public interface IEffectFormatEffectiveData : IEffectParamSource
 ```
 
-## Properti
+## Properties
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIEffectParamSource](../../aspose.slides/ieffectformateffectivedata/asieffectparamsource) { get; } | Mengizinkan mendapatkan antarmuka IEffectParamSource dasar. Hanya-baca [`IEffectParamSource`](../ieffectparamsource). |
+| [AsIEffectParamSource](../../aspose.slides/ieffectformateffectivedata/asieffectparamsource) { get; } | Memungkinkan untuk mendapatkan antarmuka dasar IEffectParamSource. Hanya-baca [`IEffectParamSource`](../ieffectparamsource). |
 | [BlurEffect](../../aspose.slides/ieffectformateffectivedata/blureffect) { get; } | Efek blur. Hanya-baca [`IBlurEffectiveData`](../../aspose.slides.effects/iblureffectivedata). |
 | [FillOverlayEffect](../../aspose.slides/ieffectformateffectivedata/filloverlayeffect) { get; } | Efek overlay isi. Hanya-baca [`IFillOverlayEffectiveData`](../../aspose.slides.effects/ifilloverlayeffectivedata). |
 | [GlowEffect](../../aspose.slides/ieffectformateffectivedata/gloweffect) { get; } | Efek glow. Hanya-baca [`IGlowEffectiveData`](../../aspose.slides.effects/igloweffectivedata). |
 | [InnerShadowEffect](../../aspose.slides/ieffectformateffectivedata/innershadoweffect) { get; } | Bayangan dalam. Hanya-baca [`IInnerShadowEffectiveData`](../../aspose.slides.effects/iinnershadoweffectivedata). |
-| [IsNoEffects](../../aspose.slides/ieffectformateffectivedata/isnoeffects) { get; } | Mengembalikan true jika semua efek dinonaktifkan (seperti baru dibuat, objek EffectFormat default). Hanya-baca Boolean. |
+| [IsNoEffects](../../aspose.slides/ieffectformateffectivedata/isnoeffects) { get; } | Mengembalikan true jika semua efek dinonaktifkan (seperti objek EffectFormat default yang baru dibuat). Hanya-baca Boolean. |
 | [OuterShadowEffect](../../aspose.slides/ieffectformateffectivedata/outershadoweffect) { get; } | Bayangan luar. Hanya-baca [`IOuterShadowEffectiveData`](../../aspose.slides.effects/ioutershadoweffectivedata). |
 | [PresetShadowEffect](../../aspose.slides/ieffectformateffectivedata/presetshadoweffect) { get; } | Bayangan preset. Hanya-baca [`IPresetShadowEffectiveData`](../../aspose.slides.effects/ipresetshadoweffectivedata). |
 | [ReflectionEffect](../../aspose.slides/ieffectformateffectivedata/reflectioneffect) { get; } | Refleksi. Hanya-baca [`IReflectionEffectiveData`](../../aspose.slides.effects/ireflectioneffectivedata). |

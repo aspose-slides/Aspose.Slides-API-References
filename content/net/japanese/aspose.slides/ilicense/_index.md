@@ -1,14 +1,14 @@
 ---
 title: ILicense
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: コンポーネントにライセンスを付与するためのメソッドを提供します。
 type: docs
-weight: 6260
+weight: 6280
 url: /ja/aspose.slides/ilicense/
 ---
 ## ILicense インターフェイス
 
-コンポーネントをライセンス付与するためのメソッドを提供します。
+コンポーネントにライセンスを付与するためのメソッドを提供します。
 
 ```csharp
 public interface ILicense
@@ -18,14 +18,14 @@ public interface ILicense
 
 | 名前 | 説明 |
 | --- | --- |
-| [IsLicensed](../../aspose.slides/ilicense/islicensed)() | コンポーネントにライセンスが適用されているか確認します |
+| [IsLicensed](../../aspose.slides/ilicense/islicensed)() | ライセンスがコンポーネントに適用されているかを確認します |
 | [ResetLicense](../../aspose.slides/ilicense/resetlicense)() | ライセンスをリセットします |
 | [SetLicense](../../aspose.slides/ilicense/setlicense#setlicense)(Stream) | コンポーネントにライセンスを付与します。 |
 | [SetLicense](../../aspose.slides/ilicense/setlicense#setlicense_1)(string) | コンポーネントにライセンスを付与します。 |
 
 ### 例
 
-この例では、コンポーネントが含まれるフォルダー、呼び出し元アセンブリが含まれるフォルダー、エントリアセンブリのフォルダー、そして呼び出し元アセンブリの埋め込みリソースの順に、MyLicense.lic という名前のライセンス ファイルを検索しようとします。
+この例では、コンポーネントが含まれるフォルダー、呼び出しアセンブリが含まれるフォルダー、エントリー アセンブリのフォルダー、そして呼び出しアセンブリの埋め込みリソースの順に、MyLicense.lic という名前のライセンス ファイルを検索しようとします。
 
 ```csharp
 [C#]
@@ -40,7 +40,7 @@ Dim license As license = New license
 License.SetLicense("MyLicense.lic")
 ```
 
-### 関連項目
+### 参照
 
 * 名前空間 [Aspose.Slides](../../aspose.slides)
 * アセンブリ [Aspose.Slides](../../)

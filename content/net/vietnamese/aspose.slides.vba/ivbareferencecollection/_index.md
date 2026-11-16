@@ -1,14 +1,14 @@
 ---
 title: IVbaReferenceCollection
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đại diện cho một bộ sưu tập các tham chiếu của dự án VBA.
+second_title: Aspose.Sildes cho .NET Tham khảo API
+description: Biểu diễn một tập hợp các tham chiếu của dự án VBA.
 type: docs
-weight: 11580
+weight: 11600
 url: /vi/aspose.slides.vba/ivbareferencecollection/
 ---
 ## IVbaReferenceCollection giao diện
 
-Đại diện cho một bộ sưu tập các tham chiếu của dự án VBA.
+Biểu diễn một tập hợp các tham chiếu dự án VBA.
 
 ```csharp
 public interface IVbaReferenceCollection : IGenericCollection<IVbaReference>
@@ -24,7 +24,7 @@ public interface IVbaReferenceCollection : IGenericCollection<IVbaReference>
 
 | Tên | Mô tả |
 | --- | --- |
-| [Add](../../aspose.slides.vba/ivbareferencecollection/add)(IVbaReference) | Thêm tham chiếu mới vào bộ sưu tập tham chiếu |
+| [Add](../../aspose.slides.vba/ivbareferencecollection/add)(IVbaReference) | Thêm tham chiếu mới vào tập hợp các tham chiếu |
 
 ### Xem thêm
 

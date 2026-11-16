@@ -1,14 +1,14 @@
 ---
 title: Tint
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: แสดงถึงเอฟเฟกต์ Tint. ปรับค่าสีของเอฟเฟกต์ให้เคลื่อนที่ไปทาง/ห่างจากโทนสีตามจำนวนที่ระบุ.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แทนค่าเอฟเฟกต์ Tint. เลื่อนค่สีของเอฟเฟกต์ไปทางหรือห่างจากเฉดสีตามจำนวนที่ระบุ.
 type: docs
-weight: 3660
+weight: 3680
 url: /th/aspose.slides.effects/tint/
 ---
-## Tint คลาส
+## คลาส Tint
 
-แสดงถึงเอฟเฟกต์ Tint. ปรับค่าสีของเอฟเฟกต์ให้เคลื่อนไปทาง/ห่างจากโทนสีตามจำนวนที่กำหนด.
+แทนค่าเอฟเฟกต์ Tint. เลื่อนค่สีของเอฟเฟกต์ไปทางหรือห่างจากเฉดสีตามจำนวนที่ระบุ.
 
 ```csharp
 public sealed class Tint : ImageTransformOperation, ITint
@@ -18,15 +18,15 @@ public sealed class Tint : ImageTransformOperation, ITint
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | อนุญาตให้รับอินเทอร์เฟซ IPresentationComponent พื้นฐานได้. อ่านอย่างเดียว [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | อนุญาตให้รับอินเทอร์เฟซ IPresentationComponent พื้นฐาน. อ่านอย่างเดียว [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
-## วิธีการ
+## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/tint/equals)(object) | กำหนดว่ากลุ่ม [`Tint`](../tint) ที่ระบุเท่ากับ [`Tint`](../tint) ปัจจุบันหรือไม่. |
+| override [Equals](../../aspose.slides.effects/tint/equals)(object) | กำหนดว่า [`Tint`](../tint) ที่ระบุเท่ากับ [`Tint`](../tint) ปัจจุบันหรือไม่. |
 | [GetEffective](../../aspose.slides.effects/tint/geteffective)() | รับข้อมูลเอฟเฟกต์ Tint ที่มีผลพร้อมการสืบทอดที่ใช้. |
-| override [GetHashCode](../../aspose.slides.effects/tint/gethashcode)() | ทำหน้าที่เป็นฟังก์ชันแฮชสำหรับประเภทที่ระบุ. |
+| override [GetHashCode](../../aspose.slides.effects/tint/gethashcode)() | ทำหน้าที่เป็นฟังก์ชันแฮชสำหรับประเภทหนึ่ง. |
 
 ### ดูเพิ่มเติม
 

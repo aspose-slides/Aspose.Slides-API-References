@@ -3,7 +3,7 @@ title: Fonts
 second_title: Aspose.Sildes for .NET API 参考
 description: 字体集合。
 type: docs
-weight: 4920
+weight: 4940
 url: /zh/aspose.slides/fonts/
 ---
 ## Fonts 类
@@ -14,7 +14,7 @@ url: /zh/aspose.slides/fonts/
 public class Fonts : IFonts
 ```
 
-## Properties
+## 属性
 
 | 名称 | 描述 |
 | --- | --- |
@@ -22,16 +22,16 @@ public class Fonts : IFonts
 | [EastAsianFont](../../aspose.slides/fonts/eastasianfont) { get; set; } | 返回或设置东亚字体。可读写 [`IFontData`](../ifontdata)。 |
 | [LatinFont](../../aspose.slides/fonts/latinfont) { get; set; } | 返回或设置拉丁字体。可读写 [`IFontData`](../ifontdata)。 |
 
-## Methods
+## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [GetScriptFont](../../aspose.slides/fonts/getscriptfont)(string) | 获取与演示文稿主题中特定脚本标签关联的字体名称。 |
+| [GetScriptFont](../../aspose.slides/fonts/getscriptfont)(string) | 获取与演示文稿主题中特定脚本标记关联的字体名称。 |
 | [GetScriptFontMap](../../aspose.slides/fonts/getscriptfontmap)() | 返回演示文稿中所有脚本字体定义的字典。 |
-| [RemoveScriptFont](../../aspose.slides/fonts/removescriptfont)(string) | 从主题的字体集合中删除与特定脚本标签关联的字体设置。 |
-| [SetScriptFont](../../aspose.slides/fonts/setscriptfont)(string, string) | 为特定脚本标签分配字体名称，该设置定义了演示文稿中该脚本的文本将如何呈现。 |
+| [RemoveScriptFont](../../aspose.slides/fonts/removescriptfont)(string) | 从主题的字体集合中移除与特定脚本标记关联的字体设置。 |
+| [SetScriptFont](../../aspose.slides/fonts/setscriptfont)(string, string) | 为特定脚本标记分配一个字体名称，该标记定义了该脚本文本在演示文稿中的呈现方式。 |
 
-### 另请参见
+### 另见
 
 * 接口 [IFonts](../ifonts)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

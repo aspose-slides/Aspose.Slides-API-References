@@ -1,14 +1,14 @@
 ---
 title: ImageWrapper
 second_title: Aspose.Sildes for .NET API 参考
-description: System.Drawing.Image 的 COM 接口包装器。
+description: System.Drawing.Image 的 COM 接口包装。
 type: docs
-weight: 7440
+weight: 7460
 url: /zh/aspose.slides/imagewrapper/
 ---
 ## ImageWrapper 类
 
-System.Drawing.Image wrapper for COM interface.
+System.Drawing.Image 包装用于 COM 接口。
 
 ```csharp
 public class ImageWrapper : IImageWrapper
@@ -30,7 +30,7 @@ public class ImageWrapper : IImageWrapper
 | [Save](../../aspose.slides/imagewrapper/save#save)(Stream, PPImageFormat) | 将 Image 保存到指定流中，使用指定的格式。 |
 | [Save](../../aspose.slides/imagewrapper/save#save_2)(string, PPImageFormat) | 将 Image 保存到指定文件中，使用指定的格式。 |
 
-### 另请参见
+### 另见
 
 * 接口 [IImageWrapper](../iimagewrapper)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

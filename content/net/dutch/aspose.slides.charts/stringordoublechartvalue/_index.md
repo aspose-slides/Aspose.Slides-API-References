@@ -1,14 +1,14 @@
 ---
 title: StringOrDoubleChartValue
 second_title: Aspose.Sildes voor .NET API-referentie
-description: "Stelt een string- of double-waarde voor die in een pptx-presentatiedocument op twee manieren kan worden opgeslagen: 1) in cel/cellen van een werkmap die gerelateerd is aan een grafiek; 2) als letterlijke waarde."
+description: Stelt een string- of double-waarde voor die in een pptx-presentatiedocument op twee manieren kan worden opgeslagen: 1) in cel/cellen van de werkmap die bij een diagram hoort 2) als letterlijke waarde.
 type: docs
-weight: 2420
+weight: 2440
 url: /nl/aspose.slides.charts/stringordoublechartvalue/
 ---
 ## StringOrDoubleChartValue klasse
 
-Stelt een string- of double-waarde voor die in een pptx-presentatiedocument op twee manieren kan worden opgeslagen: 1) in cel/cellen van een werkmap die verband houdt met een grafiek; 2) als letterlijke waarde.
+Stelt een string- of double-waarde voor die in een pptx-presentatiedocument op twee manieren kan worden opgeslagen: 1) in cel/cellen van de werkmap die bij een diagram hoort; 2) als letterlijke waarde.
 
 ```csharp
 public class StringOrDoubleChartValue : BaseChartValue, IStringOrDoubleChartValue
@@ -16,17 +16,17 @@ public class StringOrDoubleChartValue : BaseChartValue, IStringOrDoubleChartValu
 
 ## Eigenschappen
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
-| [AsCell](../../aspose.slides.charts/stringordoublechartvalue/ascell) { get; set; } | Geeft of stelt de grafiekgegevenscel in. Lezen/schrijven [`IChartDataCell`](../ichartdatacell). |
-| [AsLiteralDouble](../../aspose.slides.charts/stringordoublechartvalue/asliteraldouble) { get; set; } | Geeft of stelt de waarde in als letterlijke double. Lezen/schrijven Double. |
-| [AsLiteralString](../../aspose.slides.charts/stringordoublechartvalue/asliteralstring) { get; set; } | Geeft of stelt de waarde in als letterlijke string. Lezen/schrijven String. |
-| override [Data](../../aspose.slides.charts/stringordoublechartvalue/data) { get; set; } | Geeft of stelt Data-object in. Lezen/schrijven Object. |
-| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Specificeert of de AsCell-, AsCells-, AsLiteralString- of AsLiteralDouble-eigenschap daadwerkelijk is in afgeleiden. Met andere woorden specificeert het het type waarde van de Data-eigenschap. Lezen/schrijven [`DataSourceType`](../datasourcetype). |
+| [AsCell](../../aspose.slides.charts/stringordoublechartvalue/ascell) { get; set; } | Geeft de diagramgegevenscel terug of stelt deze in. Lezen/schrijven [`IChartDataCell`](../ichartdatacell). |
+| [AsLiteralDouble](../../aspose.slides.charts/stringordoublechartvalue/asliteraldouble) { get; set; } | Geeft de waarde terug als een letterlijke double of stelt deze in. Lezen/schrijven Double. |
+| [AsLiteralString](../../aspose.slides.charts/stringordoublechartvalue/asliteralstring) { get; set; } | Geeft de waarde terug als een letterlijke string of stelt deze in. Lezen/schrijven String. |
+| override [Data](../../aspose.slides.charts/stringordoublechartvalue/data) { get; set; } | Geeft het Data-object terug of stelt dit in. Lezen/schrijven Object. |
+| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Specificeert of de eigenschap AsCell, AsCells, AsLiteralString of AsLiteralDouble daadwerkelijk is in afgeleide klassen. Met andere woorden specificeert het het type waarde van de Data-eigenschap. Lezen/schrijven [`DataSourceType`](../datasourcetype). |
 
 ## Methoden
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
 | [ToDouble](../../aspose.slides.charts/stringordoublechartvalue/todouble)() | Converteert naar double. |
 

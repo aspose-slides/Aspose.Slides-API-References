@@ -1,12 +1,12 @@
 ---
 title: ICellCollection
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 表示单元格的集合。
 type: docs
-weight: 5460
+weight: 5480
 url: /zh/aspose.slides/icellcollection/
 ---
-## ICellCollection 接口
+## ICellCollection interface
 
 表示单元格的集合。
 
@@ -18,10 +18,10 @@ public interface ICellCollection : IGenericCollection<ICell>, ISlideComponent
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides/icellcollection/asislidecomponent) { get; } | 允许获取基础 ISlideComponent 接口。只读 [`ISlideComponent`](../islidecomponent)。 |
-| [Item](../../aspose.slides/icellcollection/item) { get; } | 返回指定位置的单元格。只读 [`ICell`](../icell)。 |
+| [AsISlideComponent](../../aspose.slides/icellcollection/asislidecomponent) { get; } | 允许获取基 ISlideComponent 接口。只读 [`ISlideComponent`](../islidecomponent)。 |
+| [Item](../../aspose.slides/icellcollection/item) { get; } | 返回位于其位置的单元格。只读 [`ICell`](../icell)。 |
 
-### 另请参见
+### 另见
 
 * 接口 [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * 接口 [ICell](../icell)

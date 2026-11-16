@@ -3,12 +3,12 @@ title: SvgTSpan
 second_title: Aspose.Sildes 的 .NET API 参考
 description: 表示 SVG 文本部分 tspan 的选项。
 type: docs
-weight: 4520
+weight: 4540
 url: /zh/aspose.slides.export/svgtspan/
 ---
 ## SvgTSpan 类
 
-表示 SVG 文本部分（"tspan"）的选项。
+表示 SVG 文本部分（“tspan”）的选项。
 
 ```csharp
 public sealed class SvgTSpan : ISvgTSpan
@@ -18,7 +18,7 @@ public sealed class SvgTSpan : ISvgTSpan
 
 | 名称 | 描述 |
 | --- | --- |
-| [Id](../../aspose.slides.export/svgtspan/id) { get; set; } | 获取 "tspan" 元素 id |
+| [Id](../../aspose.slides.export/svgtspan/id) { get; set; } | 获取 “tspan” 元素的 id |
 
 ### 另见
 

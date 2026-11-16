@@ -1,14 +1,14 @@
 ---
 title: DataTable
-second_title: مرجع API Aspose.Sildes برای .NET
-description: نمایش‌دهندهٔ ویژگی‌های جدول داده.
+second_title: Aspose.Sildes برای مرجع API .NET
+description: ویژگی‌های جدول داده را نمایان می‌کند.
 type: docs
-weight: 1600
+weight: 1610
 url: /fa/aspose.slides.charts/datatable/
 ---
-## DataTable کلاس
+## کلاس DataTable
 
-نمایش‌دهندهٔ ویژگی‌های جدول داده.
+نمایانگر ویژگی‌های جدول داده.
 
 ```csharp
 public class DataTable : DomObject<Chart>, IDataTable
@@ -18,15 +18,15 @@ public class DataTable : DomObject<Chart>, IDataTable
 
 | نام | توضیح |
 | --- | --- |
-| [Chart](../../aspose.slides.charts/datatable/chart) { get; } | chart را باز می‌گرداند. فقط-خواندنی [`IChart`](../ichart). |
-| [Format](../../aspose.slides.charts/datatable/format) { get; } | سبک‌های خط، پرکننده و اثر یک شی را باز می‌گرداند. فقط-خواندنی [`IFormat`](../iformat). |
-| [HasBorderHorizontal](../../aspose.slides.charts/datatable/hasborderhorizontal) { get; set; } | درست اگر جدول داده chart دارای حاشیه‌های افقی سلول باشد. Boolean قابل خواندن/نوشتن. |
-| [HasBorderOutline](../../aspose.slides.charts/datatable/hasborderoutline) { get; set; } | درست اگر جدول داده chart دارای حاشیه‌های کلی باشد. Boolean قابل خواندن/نوشتن. |
-| [HasBorderVertical](../../aspose.slides.charts/datatable/hasbordervertical) { get; set; } | درست اگر جدول داده chart دارای حاشیه‌های عمودی سلول باشد. Boolean قابل خواندن/نوشتن. |
-| [ShowLegendKey](../../aspose.slides.charts/datatable/showlegendkey) { get; set; } | درست اگر کلید افسانه برچسب داده قابل مشاهده باشد. Boolean قابل خواندن/نوشتن. |
-| [TextFormat](../../aspose.slides.charts/datatable/textformat) { get; } | فرمت متن را باز می‌گرداند. فقط-خواندنی [`IChartTextFormat`](../icharttextformat). |
+| [Chart](../../aspose.slides.charts/datatable/chart) { get; } | Chart را برمی‌گرداند. فقط‌خواندنی [`IChart`](../ichart). |
+| [Format](../../aspose.slides.charts/datatable/format) { get; } | خط، پرکردن و سبک‌های اثر یک شیء را برمی‌گرداند. فقط‌خواندنی [`IFormat`](../iformat). |
+| [HasBorderHorizontal](../../aspose.slides.charts/datatable/hasborderhorizontal) { get; set; } | اگر جدول داده‌های Chart دارای حواشی افقی سلول باشد، درست است. قابل خواندن/قابل نوشتن Boolean. |
+| [HasBorderOutline](../../aspose.slides.charts/datatable/hasborderoutline) { get; set; } | اگر جدول داده‌های Chart دارای حواشی خارجی باشد، درست است. قابل خواندن/قابل نوشتن Boolean. |
+| [HasBorderVertical](../../aspose.slides.charts/datatable/hasbordervertical) { get; set; } | اگر جدول داده‌های Chart دارای حواشی عمودی سلول باشد، درست است. قابل خواندن/قابل نوشتن Boolean. |
+| [ShowLegendKey](../../aspose.slides.charts/datatable/showlegendkey) { get; set; } | اگر کلید افسانه برچسب داده قابل مشاهده باشد، درست است. قابل خواندن/قابل نوشتن Boolean. |
+| [TextFormat](../../aspose.slides.charts/datatable/textformat) { get; } | قالب متن را برمی‌گرداند. فقط‌خواندنی [`IChartTextFormat`](../icharttextformat). |
 
-### مراجع
+### موارد مرتبط
 
 * کلاس [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * کلاس [Chart](../chart)

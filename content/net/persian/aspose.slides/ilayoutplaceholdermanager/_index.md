@@ -1,14 +1,14 @@
 ---
 title: ILayoutPlaceholderManager
-second_title: Aspose.Sildes برای مرجع API .NET
-description: نمایشگر مدیری است که به شما امکان می‌دهد جای‌دارها را به اسلاید چیدمان اضافه کنید.
+second_title: Aspose.Sildes برای .NET مرجع API
+description: مدیریت را نشان می‌دهد که به شما امکان می‌دهد نگهدارنده‌ها را به اسلاید قالب اضافه کنید.
 type: docs
-weight: 6210
+weight: 6230
 url: /fa/aspose.slides/ilayoutplaceholdermanager/
 ---
-## رابط ILayoutPlaceholderManager
+## ILayoutPlaceholderManager رابط
 
-نمایشگر مدیری است که به شما امکان می‌دهد جای‌دارها را به اسلاید چیدمان اضافه کنید.
+مدیری را نشان می‌دهد که به شما امکان می‌دهد نگهدارنده‌ها را به اسلاید قالب اضافه کنید.
 
 ```csharp
 public interface ILayoutPlaceholderManager
@@ -18,20 +18,20 @@ public interface ILayoutPlaceholderManager
 
 | نام | توضیح |
 | --- | --- |
-| [AddChartPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addchartplaceholder)(float, float, float, float) | یک شکل جای‌دار جدید به اسلاید چیدمان اضافه می‌کند تا یک نمودار را در خود نگه دارد. |
-| [AddContentPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addcontentplaceholder)(float, float, float, float) | یک شکل جای‌دار جدید به اسلاید چیدمان اضافه می‌کند تا محتواهایی مانند عکس، جدول، رسانه یا متن را در خود نگه دارد. |
-| [AddMediaPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addmediaplaceholder)(float, float, float, float) | یک شکل جای‌دار جدید به اسلاید چیدمان اضافه می‌کند تا یک شیء رسانه‌ای را در خود نگه دارد. |
-| [AddOnlineImagePlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addonlineimageplaceholder)(float, float, float, float) | یک شکل جای‌دار جدید به اسلاید چیدمان اضافه می‌کند تا یک تصویر آنلاین را در خود نگه دارد. |
-| [AddPicturePlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addpictureplaceholder)(float, float, float, float) | یک شکل جای‌دار جدید به اسلاید چیدمان اضافه می‌کند تا یک عکس را در خود نگه دارد. |
-| [AddSmartArtPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addsmartartplaceholder)(float, float, float, float) | یک شکل جای‌دار جدید به اسلاید چیدمان اضافه می‌کند تا یک نمودار SmartArt را در خود نگه دارد. |
-| [AddTablePlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addtableplaceholder)(float, float, float, float) | یک شکل جای‌دار جدید به اسلاید چیدمان اضافه می‌کند تا یک جدول را در خود نگه دارد. |
-| [AddTextPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addtextplaceholder)(float, float, float, float) | یک شکل جای‌دار جدید به اسلاید چیدمان اضافه می‌کند تا محتواهای متنی را در خود نگه دارد. |
-| [AddVerticalContentPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addverticalcontentplaceholder)(float, float, float, float) | یک شکل جای‌دار جدید به اسلاید چیدمان اضافه می‌کند تا محتواهایی مانند عکس، جدول، رسانه یا متن را در جهت عمودی نگه دارد. |
-| [AddVerticalTextPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addverticaltextplaceholder)(float, float, float, float) | یک شکل جای‌دار جدید به اسلاید چیدمان اضافه می‌کند تا محتواهای متنی را در جهت عمودی نگه دارد. |
+| [AddChartPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addchartplaceholder)(float, float, float, float) | یک شکل نگهدارندهٔ جدید به اسلاید قالب اضافه می‌کند تا یک نمودار را در خود داشته باشد. |
+| [AddContentPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addcontentplaceholder)(float, float, float, float) | یک شکل نگهدارندهٔ جدید به اسلاید قالب اضافه می‌کند تا محتوایی مانند تصویر، جدول، رسانه یا متن را در خود داشته باشد. |
+| [AddMediaPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addmediaplaceholder)(float, float, float, float) | یک شکل نگهدارندهٔ جدید به اسلاید قالب اضافه می‌کند تا یک شی رسانه‌ای را در خود داشته باشد. |
+| [AddOnlineImagePlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addonlineimageplaceholder)(float, float, float, float) | یک شکل نگهدارندهٔ جدید به اسلاید قالب اضافه می‌کند تا یک تصویر آنلاین را در خود داشته باشد. |
+| [AddPicturePlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addpictureplaceholder)(float, float, float, float) | یک شکل نگهدارندهٔ جدید به اسلاید قالب اضافه می‌کند تا یک تصویر را در خود داشته باشد. |
+| [AddSmartArtPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addsmartartplaceholder)(float, float, float, float) | یک شکل نگهدارندهٔ جدید به اسلاید قالب اضافه می‌کند تا یک نمودار SmartArt را در خود داشته باشد. |
+| [AddTablePlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addtableplaceholder)(float, float, float, float) | یک شکل نگهدارندهٔ جدید به اسلاید قالب اضافه می‌کند تا یک جدول را در خود داشته باشد. |
+| [AddTextPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addtextplaceholder)(float, float, float, float) | یک شکل نگهدارندهٔ جدید به اسلاید قالب اضافه می‌کند تا محتوای متنی را در خود داشته باشد. |
+| [AddVerticalContentPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addverticalcontentplaceholder)(float, float, float, float) | یک شکل نگهدارندهٔ جدید به اسلاید قالب اضافه می‌کند تا محتوایی مانند تصویر، جدول، رسانه یا متن را به صورت عمودی در خود داشته باشد. |
+| [AddVerticalTextPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addverticaltextplaceholder)(float, float, float, float) | یک شکل نگهدارندهٔ جدید به اسلاید قالب اضافه می‌کند تا محتوای متنی را به صورت عمودی در خود داشته باشد. |
 
-### همچنین ببینید
+### همچنین
 
-* فضای نام [Aspose.Slides](../../aspose.slides)
-* مونتاژ [Aspose.Slides](../../)
+* فضای‌نام [Aspose.Slides](../../aspose.slides)
+* مجتمع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

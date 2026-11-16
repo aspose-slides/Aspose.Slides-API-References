@@ -1,12 +1,12 @@
 ---
 title: IMathFunction
-second_title: Aspose.Sildes for .NET API संदर्भ
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
 description: एक तर्क का फ़ंक्शन निर्दिष्ट करता है।
 type: docs
-weight: 8270
+weight: 8290
 url: /hi/aspose.slides.mathtext/imathfunction/
 ---
-## IMathFunction इंटरफ़ेस
+## IMathFunction interface
 
 एक तर्क का फ़ंक्शन निर्दिष्ट करता है।
 
@@ -14,15 +14,15 @@ url: /hi/aspose.slides.mathtext/imathfunction/
 public interface IMathFunction : IMathElement
 ```
 
-## गुण
+## Properties
 
-| नाम | विवरण |
+| Name | Description |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathfunction/asimathelement) { get; } | बेस IMathElement इंटरफ़ेस प्राप्त करने की अनुमति देता है [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathfunction/asimathelement) { get; } | बेस IMathElement इंटरफ़ेस [`IMathElement`](../imathelement) को प्राप्त करने की अनुमति देता है |
 | [Base](../../aspose.slides.mathtext/imathfunction/base) { get; } | फ़ंक्शन तर्क |
-| [Name](../../aspose.slides.mathtext/imathfunction/name) { get; } | फ़ंक्शन नाम उदाहरण के लिए, फ़ंक्शन नाम sin और cos हैं |
+| [Name](../../aspose.slides.mathtext/imathfunction/name) { get; } | फ़ंक्शन नाम। उदाहरण के लिए, फ़ंक्शन नाम sin और cos हैं |
 
-### उदाहरण
+### Examples
 
 उदाहरण:
 
@@ -31,7 +31,7 @@ public interface IMathFunction : IMathElement
 IMathFunction sinX = new MathematicalText("sin").Function("x");
 ```
 
-### संबंधित देखें
+### See Also
 
 * इंटरफ़ेस [IMathElement](../imathelement)
 * नामस्थान [Aspose.Slides.MathText](../../aspose.slides.mathtext)

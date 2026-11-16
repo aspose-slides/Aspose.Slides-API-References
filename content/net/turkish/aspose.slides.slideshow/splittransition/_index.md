@@ -1,12 +1,12 @@
 ---
 title: SplitTransition
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Slayt bölme geçiş efekti.
 type: docs
-weight: 10330
+weight: 10350
 url: /tr/aspose.slides.slideshow/splittransition/
 ---
-## SplitTransition sınıf
+## SplitTransition sınıfı
 
 Slayt bölme geçiş efekti.
 
@@ -18,17 +18,17 @@ public class SplitTransition : TransitionValueBase, ISplitTransition
 
 | Ad | Açıklama |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/splittransition/direction) { get; set; } | Geçiş bölmesinin yönü. Okuma/Yazma [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [Orientation](../../aspose.slides.slideshow/splittransition/orientation) { get; set; } | Geçiş bölmesinin oryantasyonu. Okuma/Yazma [`Orientation`](../../aspose.slides/orientation). |
+| [Direction](../../aspose.slides.slideshow/splittransition/direction) { get; set; } | Geçiş bölmesinin yönü. Okunur/Yazılabilir [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
+| [Orientation](../../aspose.slides.slideshow/splittransition/orientation) { get; set; } | Geçiş bölmesinin yönelimi. Okunur/Yazılabilir [`Orientation`](../../aspose.slides/orientation). |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | İki TransitionValueBase örneğinin eşit olup olmadığını belirler. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Belirli bir tip için bir hash fonksiyonu olarak hizmet eder; hash algoritmaları ve hash tablosu gibi veri yapılarında kullanılmaya uygundur. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Belirli bir tip için hash işlevi olarak hizmet eder; hash algoritmaları ve hash tablosu gibi veri yapılarında kullanılabilir. |
 
-### Ayrıca Bakınız
+### İlgili
 
 * sınıf [TransitionValueBase](../transitionvaluebase)
 * arayüz [ISplitTransition](../isplittransition)

@@ -1,14 +1,14 @@
 ---
 title: IAccessiblePVIObjectT
 second_title: Aspose.Sildes .NET API 參考
-description: 表示一種可以在套用繼承後返回相應有效資料的類型。
+description: 表示一種可以在套用繼承後返回相應有效資料的型別。
 type: docs
-weight: 5170
+weight: 5190
 url: /zh-hant/aspose.slides/iaccessiblepviobject-1/
 ---
-## IAccessiblePVIObject&lt;T&gt; 介面
+## IAccessiblePVIObject<T> 介面
 
-表示一種可以在套用繼承後返回相應有效資料的類型。
+表示一種可以在套用繼承後返回相應有效資料的型別。
 
 ```csharp
 public interface IAccessiblePVIObject<T>
@@ -23,7 +23,7 @@ public interface IAccessiblePVIObject<T>
 
 | 名稱 | 說明 |
 | --- | --- |
-| [GetEffective](../../aspose.slides/iaccessiblepviobject`1/geteffective)() | 取得套用繼承後的有效資料。 |
+| [GetEffective](../../aspose.slides/iaccessiblepviobject`1/geteffective)() | 取得在套用繼承後的有效資料。 |
 
 ### 另請參閱
 

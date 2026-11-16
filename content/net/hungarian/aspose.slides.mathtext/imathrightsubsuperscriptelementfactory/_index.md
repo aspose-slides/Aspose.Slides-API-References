@@ -1,9 +1,9 @@
 ---
 title: IMathRightSubSuperscriptElementFactory
-second_title: Aspose.Sildes .NET API referencia
+second_title: Aspose.Sildes .NET API hivatkozás
 description: Lehetővé teszi az IMathRightSubSuperscriptElementFactory létrehozását
 type: docs
-weight: 8460
+weight: 8480
 url: /hu/aspose.slides.mathtext/imathrightsubsuperscriptelementfactory/
 ---
 ## IMathRightSubSuperscriptElementFactory interfész
@@ -18,11 +18,11 @@ public interface IMathRightSubSuperscriptElementFactory
 
 | Név | Leírás |
 | --- | --- |
-| [CreateMathRightSubSuperscriptElement](../../aspose.slides.mathtext/imathrightsubsuperscriptelementfactory/createmathrightsubsuperscriptelement)(IMathElement, IMathElement, IMathElement) | Létrehozza IMathRightSubSuperscriptElementFactory |
+| [CreateMathRightSubSuperscriptElement](../../aspose.slides.mathtext/imathrightsubsuperscriptelementfactory/createmathrightsubsuperscriptelement)(IMathElement, IMathElement, IMathElement) | Létrehozza az IMathRightSubSuperscriptElementFactory |
 
-### Megjegyzések
+### Megjegyzés
 
-COM kompatibilitáshoz
+A COM kompatibilitáshoz
 
 ### Lásd még
 

@@ -1,14 +1,14 @@
 ---
 title: IBiLevelEffectiveData
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Unveränderliches Objekt, das einen Bi-Level Schwarz/Weiß Effekt darstellt. Eingabefarben, deren Luminanz kleiner ist als der angegebene Schwellenwert, werden zu Schwarz geändert. Eingabefarben, deren Luminanz größer oder gleich dem angegebenen Wert ist, werden zu Weiß gesetzt. Die Alpha-Effektwerte bleiben von diesem Effekt unberührt.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Unveränderliches Objekt, das einen Bi-Level Schwarz/Weiß-Effekt darstellt. Eingabefarben, deren Luminanz kleiner als der angegebene Schwellenwert ist, werden zu Schwarz geändert. Eingabefarben, deren Luminanz größer oder gleich dem angegebenen Wert ist, werden auf Weiß gesetzt. Die Alpha-Effektwerte bleiben von diesem Effekt unberührt.
 type: docs
-weight: 3170
+weight: 3190
 url: /de/aspose.slides.effects/ibileveleffectivedata/
 ---
 ## IBiLevelEffectiveData Schnittstelle
 
-Unveränderliches Objekt, das einen Bi-Level-(schwarz/weiß)-Effekt darstellt. Eingabefarben, deren Luminanz kleiner als der angegebene Schwellenwert ist, werden zu Schwarz geändert. Eingabefarben, deren Luminanz größer oder gleich dem angegebenen Wert ist, werden zu Weiß gesetzt. Die Alpha-Effektwerte bleiben von diesem Effekt unberührt.
+Unveränderliches Objekt, das einen Bi-Level (schwarz/weiß) Effekt darstellt. Eingabefarben, deren Luminanz kleiner als der angegebene Schwellenwert ist, werden zu Schwarz geändert. Eingabefarben, deren Luminanz größer oder gleich dem angegebenen Wert ist, werden auf Weiß gesetzt. Die Alpha-Effektwerte bleiben von diesem Effekt unberührt.
 
 ```csharp
 public interface IBiLevelEffectiveData : IEffectEffectiveData
@@ -16,10 +16,10 @@ public interface IBiLevelEffectiveData : IEffectEffectiveData
 
 ## Eigenschaften
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ibileveleffectivedata/asieffecteffectivedata) { get; } | Ermöglicht das Abrufen der Basis IEffectEffectiveData Schnittstelle. Nur lesbar [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Threshold](../../aspose.slides.effects/ibileveleffectivedata/threshold) { get; } | Gibt den Schwellenwert zurück. Nur lesbar Single. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ibileveleffectivedata/asieffecteffectivedata) { get; } | Ermöglicht den Zugriff auf die Basis-IEffectEffectiveData-Schnittstelle. Schreibgeschützt [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Threshold](../../aspose.slides.effects/ibileveleffectivedata/threshold) { get; } | Gibt den Schwellenwert zurück. Schreibgeschützt Single. |
 
 ### Siehe auch
 

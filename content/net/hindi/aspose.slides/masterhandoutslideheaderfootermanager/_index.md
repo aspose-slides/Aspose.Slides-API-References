@@ -1,14 +1,12 @@
 ---
 title: MasterHandoutSlideHeaderFooterManager
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: मास्टर हैंडआउट स्लाइड प्लेसहोल्डर्स, जिसमें हेडर प्लेसहोल्डर शामिल है, के व्यवहार को रखने वाला प्रबंधक दर्शाता है।
+description: मास्टर हैंडआउट स्लाइड प्लेसहोल्डर्स, जिसमें हेडर प्लेसहोल्डर भी शामिल है, के व्यवहार को धारण करने वाले मैनेजर का प्रतिनिधित्व करता है।
 type: docs
-weight: 7990
+weight: 8010
 url: /hi/aspose.slides/masterhandoutslideheaderfootermanager/
 ---
 ## MasterHandoutSlideHeaderFooterManager क्लास
-
-मास्टर हैंडआउट स्लाइड प्लेसहोल्डर्स, जिसमें हैडर प्लेसहोल्डर शामिल है, के व्यवहार को रखता है।
 
 ```csharp
 public class MasterHandoutSlideHeaderFooterManager : BaseHandoutNotesSlideHeaderFooterManager, 
@@ -19,24 +17,24 @@ public class MasterHandoutSlideHeaderFooterManager : BaseHandoutNotesSlideHeader
 
 | नाम | विवरण |
 | --- | --- |
-| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | एक तिथि-समय प्लेसहोल्डर मौजूद होने का संकेत देने वाला मान प्राप्त करता है। ReadBoolean. |
-| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | एक फुटर प्लेसहोल्डर मौजूद होने का संकेत देने वाला मान प्राप्त करता है। Read Boolean. |
-| [IsHeaderVisible](../../aspose.slides/basehandoutnotesslideheaderfootermanager/isheadervisible) { get; } | एक हेडर प्लेसहोल्डर मौजूद होने का संकेत देने वाला मान प्राप्त करता है। Read Boolean. |
-| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | एक पेज नंबर प्लेसहोल्डर मौजूद होने का संकेत देने वाला मान प्राप्त करता है। ReadBoolean. |
+| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | डेट-टाइम प्लेसहोल्डर मौजूद होने का संकेत देने वाला मान प्राप्त करता है। ReadBoolean. |
+| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | फ़ूटर प्लेसहॉल्डर मौजूद होने का संकेत देने वाला मान प्राप्त करता है। Read Boolean. |
+| [IsHeaderVisible](../../aspose.slides/basehandoutnotesslideheaderfootermanager/isheadervisible) { get; } | हेडर प्लेसहॉल्डर मौजूद होने का संकेत देने वाला मान प्राप्त करता है। Read Boolean. |
+| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | पेज नंबर प्लेसहॉल्डर मौजूद होने का संकेत देने वाला मान प्राप्त करता है। ReadBoolean. |
 
-## विधियाँ
+## मेथड्स
 
 | नाम | विवरण |
 | --- | --- |
-| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | स्लाइड तिथि-समय प्लेसहोल्डर में पाठ सेट करता है। |
-| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | स्लाइड तिथि-समय प्लेसहोल्डर की दृश्यमानता बदलता है। |
-| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | स्लाइड फुटर प्लेसहोल्डर में पाठ सेट करता है। |
-| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | स्लाइड फुटर प्लेसहोल्डर की दृश्यमानता बदलता है। |
-| [SetHeaderText](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadertext)(string) | स्लाइड हेडर प्लेसहोल्डर में पाठ सेट करता है। |
-| [SetHeaderVisibility](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadervisibility)(bool) | स्लाइड हेडर प्लेसहोल्डर की दृश्यमानता बदलता है। |
-| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | स्लाइड पेज नंबर प्लेसहोल्डर की दृश्यमानता बदलता है। |
+| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | स्लाइड डेट-टाइम प्लेसहॉल्डर में टेक्स्ट सेट करता है। |
+| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | स्लाइड डेट-टाइम प्लेसहॉल्डर की दृश्यता बदलता है। |
+| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | स्लाइड फ़ूटर प्लेसहॉल्डर में टेक्स्ट सेट करता है। |
+| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | स्लाइड फ़ूटर प्लेसहॉल्डर की दृश्यता बदलता है। |
+| [SetHeaderText](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadertext)(string) | स्लाइड हेडर प्लेसहॉल्डर में टेक्स्ट सेट करता है। |
+| [SetHeaderVisibility](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadervisibility)(bool) | स्लाइड हेडर प्लेसहॉल्डर की दृश्यता बदलता है। |
+| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | स्लाइड पेज नंबर प्लेसहॉल्डर की दृश्यता बदलता है। |
 
-### संबंधित देखें
+### सम्बंधित देखें
 
 * क्लास [BaseHandoutNotesSlideHeaderFooterManager](../basehandoutnotesslideheaderfootermanager)
 * इंटरफ़ेस [IMasterHandoutSlideHeaderFooterManager](../imasterhandoutslideheaderfootermanager)

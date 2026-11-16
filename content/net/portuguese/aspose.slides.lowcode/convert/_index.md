@@ -3,7 +3,7 @@ title: Convert
 second_title: Referência da API Aspose.Sildes para .NET
 description: Representa um grupo de métodos destinados a converter Presentation../aspose.slides/presentation.
 type: docs
-weight: 7880
+weight: 7900
 url: /pt/aspose.slides.lowcode/convert/
 ---
 ## Convert classe
@@ -16,7 +16,7 @@ public static class Convert
 
 ## Métodos
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
 | static [AutoByExtension](../../aspose.slides.lowcode/convert/autobyextension)(string, string) | Converte [`Presentation`](../../aspose.slides/presentation) usando a extensão do caminho de saída fornecida para determinar o formato de exportação necessário. |
 | static [ToJpeg](../../aspose.slides.lowcode/convert/tojpeg#tojpeg)(Presentation, string) | Converte a apresentação de entrada em um conjunto de imagens no formato JPEG. Se o nome do arquivo de saída for fornecido como "myPath/myFilename.jpeg", o resultado será salvo como um conjunto de arquivos "myPath/myFilename_N.jpeg", onde N é o número do slide. |
@@ -35,13 +35,13 @@ public static class Convert
 | static [ToSvg](../../aspose.slides.lowcode/convert/tosvg#tosvg_4)(string, GetOutPathCallback) | Converte [`Presentation`](../../aspose.slides/presentation) para SVG. |
 | static [ToSvg](../../aspose.slides.lowcode/convert/tosvg#tosvg_2)(Presentation, GetOutPathCallback, ISVGOptions) | Converte [`Presentation`](../../aspose.slides/presentation) para SVG. |
 | static [ToTiff](../../aspose.slides.lowcode/convert/totiff#totiff)(Presentation, string) | Converte a apresentação de entrada em um conjunto de imagens no formato TIFF. Se o nome do arquivo de saída for fornecido como "myPath/myFilename.tiff", o resultado será salvo como um conjunto de arquivos "myPath/myFilename_N.tiff", onde N é o número do slide. |
-| static [ToTiff](../../aspose.slides.lowcode/convert/totiff#totiff_1)(Presentation, string, ITiffOptions, bool) | Converte a apresentação de entrada para TIFF com opções personalizadas. Se o nome do arquivo de saída for fornecido como "myPath/myFilename.tiff" e *multipage* for `false`, o resultado será salvo como um conjunto de arquivos "myPath/myFilename_N.tiff", onde N é o número do slide. Caso contrário, se *multipage* for `true`, o resultado será um documento multipágina "myPath/myFilename.tiff". |
+| static [ToTiff](../../aspose.slides.lowcode/convert/totiff#totiff_1)(Presentation, string, ITiffOptions, bool) | Converte a apresentação de entrada para o formato TIFF com opções personalizadas. Se o nome do arquivo de saída for fornecido como "myPath/myFilename.tiff" e *multipage* for `false`, o resultado será salvo como um conjunto de arquivos "myPath/myFilename_N.tiff", onde N é o número do slide. Caso contrário, se *multipage* for `true`, o resultado será um documento de várias páginas "myPath/myFilename.tiff". |
 
 ## Outros Membros
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
-| delegate [GetOutPathCallback](convert.getoutpathcallback) | Callback que será invocado para cada [`Slide`](../../aspose.slides/slide), sendo esperado que o caminho de saída seja retornado. |
+| delegate [GetOutPathCallback](convert.getoutpathcallback) | Callback que será invocado para cada [`Slide`](../../aspose.slides/slide), o caminho de saída esperado para ser retornado. |
 
 ### Exemplos
 

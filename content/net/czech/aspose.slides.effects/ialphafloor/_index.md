@@ -1,14 +1,14 @@
 ---
 title: IAlphaFloor
 second_title: Aspose.Sildes pro .NET API Reference
-description: Representuje efekt Alpha Floor. Hodnoty opacity Alpha menší než 100 jsou změněny na nulu. Jinými slovy, vše, co je částečně průhledné, se stane zcela průhledným.
+description: Reprezentuje efekt Alpha Floor. Hodnoty průhlednosti Alpha menší než 100 jsou nastaveny na nulu. Jinými slovy, vše, co je částečně průhledné, se stane zcela průhledným.
 type: docs
-weight: 3060
+weight: 3080
 url: /cs/aspose.slides.effects/ialphafloor/
 ---
 ## IAlphaFloor rozhraní
 
-Representuje efekt Alpha Floor. Hodnoty Alpha (průhlednosti) menší než 100 % jsou změněny na nulu. Jinými slovy, vše, co je částečně průhledné, se stane zcela průhledným.
+Reprezentuje efekt Alpha Floor. Hodnoty Alpha (průhlednost) menší než 100% jsou nastaveny na nulu. Jinými slovy, cokoli částečně průhledné se stane zcela průhledným.
 
 ```csharp
 public interface IAlphaFloor : IAccessiblePVIObject<IAlphaFloorEffectiveData>, 
@@ -17,10 +17,10 @@ public interface IAlphaFloor : IAccessiblePVIObject<IAlphaFloorEffectiveData>,
 
 ## Vlastnosti
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphafloor/asiaccessiblepviobject) { get; } | Umožňuje získat základní rozhraní IAccessiblePVIObject. Pouze pro čtení [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphafloor/asiimagetransformoperation) { get; } | Umožňuje získat základní rozhraní IImageTransformOperation. Pouze pro čtení [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphafloor/asiaccessiblepviobject) { get; } | Umožňuje získat základní rozhraní IAccessiblePVIObject. Pouze ke čtení [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphafloor/asiimagetransformoperation) { get; } | Umožňuje získat základní rozhraní IImageTransformOperation. Pouze ke čtení [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### Viz také
 

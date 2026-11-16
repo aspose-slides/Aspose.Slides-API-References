@@ -1,14 +1,14 @@
 ---
 title: XpsOptions
-second_title: Aspose.Sildes for .NET API Referansı
-description: Sunumun XPS formatında kaydedilmesini kontrol eden seçenekleri sağlar.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Bir sunumun XPS formatında nasıl kaydedileceğini kontrol eden seçenekler sağlar.
 type: docs
-weight: 4730
+weight: 4750
 url: /tr/aspose.slides.export/xpsoptions/
 ---
 ## XpsOptions sınıfı
 
-Sunumun XPS formatında kaydedilmesini kontrol eden seçenekleri sağlar.
+Bir sunumun XPS formatında nasıl kaydedileceğini kontrol eden seçenekleri sağlar.
 
 ```csharp
 public class XpsOptions : SaveOptions, IXpsOptions
@@ -24,22 +24,22 @@ public class XpsOptions : SaveOptions, IXpsOptions
 
 | Ad | Açıklama |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Kaynak yazı tipi bulunamadığında kullanılan yazı tipini döndürür veya ayarlar. Okuma-yazma String. |
-| [DrawSlidesFrame](../../aspose.slides.export/xpsoptions/drawslidesframe) { get; set; } | Her slaytın etrafına siyah çerçeve çizmeye izin verir. Okuma/yazma Boolean. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Gradyanın görsel stilini döndürür veya ayarlar. Okuma/yazma [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Yüzde olarak kaydetme ilerleme güncellemeleri için bir geri çağırma nesnesini temsil eder. Bakınız [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SaveMetafilesAsPng](../../aspose.slides.export/xpsoptions/savemetafilesaspng) { get; set; } | Sunumda kullanılan tüm metafile'ları PNG görüntülerine dönüştürmeyi etkinleştirir. Okuma/yazma Boolean. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Kaynak yazı tipi bulunamadığında kullanılan yazı tipini döndürür veya ayarlar. Okunabilir-yazılabilir String. |
+| [DrawSlidesFrame](../../aspose.slides.export/xpsoptions/drawslidesframe) { get; set; } | Her slayt etrafına siyah çerçeve çizmek için true. Okunabilir/yazılabilir Boolean. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Gradyanın görsel stilini döndürür veya ayarlar. Okunabilir/yazılabilir [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Yüzde olarak kaydetme ilerleme güncellemeleri için bir geri çağırma nesnesini temsil eder. Bkz. [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [SaveMetafilesAsPng](../../aspose.slides.export/xpsoptions/savemetafilesaspng) { get; set; } | Sunumda kullanılan tüm metafile'ları PNG görüntülerine dönüştürmek için true. Okunabilir/yazılabilir Boolean. |
 | [ShowHiddenSlides](../../aspose.slides.export/xpsoptions/showhiddenslides) { get; set; } | Oluşturulan belgenin gizli slaytları içerip içermeyeceğini belirtir. Varsayılan `false`. |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Sunumu kaydederken JavaScript çağrıları içeren köprülerin atlanıp atlanmayacağını belirtir. Okuma/yazma Boolean. Varsayılan değer **false**. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Uyarıları alan ve yükleme sürecinin devam edip etmeyeceğine karar veren bir nesneyi döndürür veya ayarlar. Okuma/yazma [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Sunumu kaydederken JavaScript çağrıları içeren bağlantıları atlayıp atlamayacağını belirler. Okunabilir/yazılabilir Boolean. Varsayılan değer **false**. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Uyarıları alan ve yükleme sürecinin devam edip etmeyeceğine karar veren bir nesneyi döndürür veya ayarlar. Okunabilir/yazılabilir [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Örnekler
 
-Aşağıdaki örnek, sunumları varsayılan ayarlarla XPS formatına nasıl dönüştüreceğinizi gösterir.
+Aşağıdaki örnek, varsayılan ayarlarla sunumları XPS'ye nasıl dönüştüreceğinizi gösterir.
 
 ```csharp
 [C#]
-// Sunum dosyasını temsil eden bir Presentation nesnesi oluşturun
+// Bir sunum dosyasını temsil eden Presentation nesnesi oluşturulur
 using (Presentation pres = new Presentation("Convert_XPS.pptx"))
 {
     // Sunumu XPS belgesine kaydediyor
@@ -47,16 +47,16 @@ using (Presentation pres = new Presentation("Convert_XPS.pptx"))
 }
 ```
 
-Aşağıdaki örnek, sunumları özelleştirilmiş ayarlarla XPS formatına nasıl dönüştüreceğinizi gösterir.
+Aşağıdaki örnek, özel ayarlarla sunumları XPS'ye nasıl dönüştüreceğinizi gösterir.
 
 ```csharp
 [C#]
-// Bir sunum dosyasını temsil eden Presentation nesnesi oluşturun
+// Bir sunum dosyasını temsil eden Presentation nesnesi oluşturulur
 using (Presentation pres = new Presentation("Convert_XPS_Options.pptx"))
 {
-    // TiffOptions sınıfını oluşturun
+    // TiffOptions sınıfını oluşturur
     XpsOptions options = new XpsOptions();
-    // MetaDosyaları PNG olarak kaydet
+    // MetaFiles'i PNG olarak kaydet
     options.SaveMetafilesAsPng = true;
     // Sunumu XPS belgesine kaydet
     pres.Save("XPS_With_Options_out.xps", SaveFormat.Xps, options);

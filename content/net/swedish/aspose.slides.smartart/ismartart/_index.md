@@ -1,9 +1,9 @@
 ---
 title: ISmartArt
-second_title: Aspose.Sildes för .NET API-referens
+second_title: Aspose.Slides för .NET API-referens
 description: Representerar ett SmartArt-diagram.
 type: docs
-weight: 10540
+weight: 10560
 url: /sv/aspose.slides.smartart/ismartart/
 ---
 ## ISmartArt gränssnitt
@@ -14,17 +14,17 @@ Representerar ett SmartArt-diagram.
 public interface ISmartArt : IGraphicalObject
 ```
 
-## Properties
+## Egenskaper
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AllNodes](../../aspose.slides.smartart/ismartart/allnodes) { get; } | Returnerar samlingar av alla noder i SmartArt-objektet. Endast läsning [`ISmartArtNodeCollection`](../ismartartnodecollection). |
-| [AsIGraphicalObject](../../aspose.slides.smartart/ismartart/asigraphicalobject) { get; } | Tillåter att hämta bas-IGraphicalObject-gränssnittet. Endast läsning [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
-| [ColorStyle](../../aspose.slides.smartart/ismartart/colorstyle) { get; set; } | Returnerar eller anger färgstilen för SmartArt-objektet. Läs/skriv [`SmartArtColorType`](../smartartcolortype). |
-| [IsReversed](../../aspose.slides.smartart/ismartart/isreversed) { get; set; } | Returnerar eller anger diagrammets tillstånd med avseende på (vänster-till-höger) LTR eller (höger-till-vänster) RTL, om diagrammet stöder omvändning. Läs/skriv Boolean. |
-| [Layout](../../aspose.slides.smartart/ismartart/layout) { get; set; } | Returnerar eller anger layouten för SmartArt-objektet. Läs/skriv [`SmartArtLayoutType`](../smartartlayouttype). |
-| [Nodes](../../aspose.slides.smartart/ismartart/nodes) { get; } | Returnerar samlingar av rotnoder i SmartArt-objektet. Endast läsning [`ISmartArtNodeCollection`](../ismartartnodecollection). |
-| [QuickStyle](../../aspose.slides.smartart/ismartart/quickstyle) { get; set; } | Returnerar eller anger snabbstil för SmartArt-objektet. Läs/skriv [`SmartArtQuickStyleType`](../smartartquickstyletype). |
+| [AllNodes](../../aspose.slides.smartart/ismartart/allnodes) { get; } | Returnerar samlingar av alla noder i SmartArt-objektet. Skrivskyddad [`ISmartArtNodeCollection`](../ismartartnodecollection). |
+| [AsIGraphicalObject](../../aspose.slides.smartart/ismartart/asigraphicalobject) { get; } | Tillåter att hämta bas-IGraphicalObject-gränssnittet. Skrivskyddad [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
+| [ColorStyle](../../aspose.slides.smartart/ismartart/colorstyle) { get; set; } | Returnera eller ange färgstilen för SmartArt-objektet. Läs/skriv [`SmartArtColorType`](../smartartcolortype). |
+| [IsReversed](../../aspose.slides.smartart/ismartart/isreversed) { get; set; } | Returnera eller ange tillståndet för SmartArt-diagrammet med avseende på (vänster-till-höger) LTR eller (höger-till-vänster) RTL, om diagrammet stöder omvändning. Läs/skriv Boolean. |
+| [Layout](../../aspose.slides.smartart/ismartart/layout) { get; set; } | Returnera eller ange layouten för SmartArt-objektet. Läs/skriv [`SmartArtLayoutType`](../smartartlayouttype). |
+| [Nodes](../../aspose.slides.smartart/ismartart/nodes) { get; } | Returnerar samlingar av rot-noder i SmartArt-objektet. Skrivskyddad [`ISmartArtNodeCollection`](../ismartartnodecollection). |
+| [QuickStyle](../../aspose.slides.smartart/ismartart/quickstyle) { get; set; } | Returnera eller ange snabbstil för SmartArt-objektet. Läs/skriv [`SmartArtQuickStyleType`](../smartartquickstyletype). |
 
 ### Se även
 

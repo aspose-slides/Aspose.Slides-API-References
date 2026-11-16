@@ -3,7 +3,7 @@ title: IExtraColorSchemeCollection
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt eine Sammlung zusätzlicher Farbschemata dar.
 type: docs
-weight: 11220
+weight: 11240
 url: /de/aspose.slides.theme/iextracolorschemecollection/
 ---
 ## IExtraColorSchemeCollection Schnittstelle
@@ -18,7 +18,7 @@ public interface IExtraColorSchemeCollection : IGenericCollection<IExtraColorSch
 
 | Name | Beschreibung |
 | --- | --- |
-| [Item](../../aspose.slides.theme/iextracolorschemecollection/item) { get; } | Gibt ein Farbschema nach Index zurück. Nur Lesezugriff [`IExtraColorScheme`](../iextracolorscheme). |
+| [Item](../../aspose.slides.theme/iextracolorschemecollection/item) { get; } | Gibt ein Farbschema nach Index zurück. Schreibgeschützt [`IExtraColorScheme`](../iextracolorscheme). |
 
 ### Siehe auch
 

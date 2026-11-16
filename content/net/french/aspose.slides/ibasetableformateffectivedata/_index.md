@@ -1,14 +1,14 @@
 ---
 title: IBaseTableFormatEffectiveData
-second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Interface de base pour les objets immuables qui contiennent les propriétés de mise en forme de tableau effectives.
+second_title: Référence API Aspose.Sildes pour .NET
+description: Interface de base pour les objets immuables qui contiennent des propriétés de mise en forme de tableau effectives.
 type: docs
-weight: 5360
+weight: 5380
 url: /fr/aspose.slides/ibasetableformateffectivedata/
 ---
 ## IBaseTableFormatEffectiveData interface
 
-Interface de base pour les objets immuables qui contiennent les propriétés de mise en forme de tableau effectives.
+Interface de base pour les objets immuables qui contiennent des propriétés de mise en forme de tableau effectives.
 
 ```csharp
 public interface IBaseTableFormatEffectiveData
@@ -18,13 +18,13 @@ public interface IBaseTableFormatEffectiveData
 
 | Nom | Description |
 | --- | --- |
-| [BorderBottom](../../aspose.slides/ibasetableformateffectivedata/borderbottom) { get; } | Renvoie la valeur effective du format de la ligne de bordure inférieure. Lecture seule [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderDiagonalDown](../../aspose.slides/ibasetableformateffectivedata/borderdiagonaldown) { get; } | Renvoie la valeur effective du format de la ligne diagonale descendante. Lecture seule [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderDiagonalUp](../../aspose.slides/ibasetableformateffectivedata/borderdiagonalup) { get; } | Renvoie la valeur effective du format de la ligne diagonale ascendante. Lecture seule [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderLeft](../../aspose.slides/ibasetableformateffectivedata/borderleft) { get; } | Renvoie la valeur effective du format de la ligne de bordure gauche. Lecture seule [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderRight](../../aspose.slides/ibasetableformateffectivedata/borderright) { get; } | Renvoie la valeur effective du format de la ligne de bordure droite. Lecture seule [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderTop](../../aspose.slides/ibasetableformateffectivedata/bordertop) { get; } | Renvoie la valeur effective du format de la ligne de bordure supérieure. Lecture seule [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [FillFormat](../../aspose.slides/ibasetableformateffectivedata/fillformat) { get; } | Renvoie la valeur effective du format de remplissage. Lecture seule [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
+| [BorderBottom](../../aspose.slides/ibasetableformateffectivedata/borderbottom) { get; } | Renvoie la valeur effective du format de ligne de bordure inférieure. lecture seule [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderDiagonalDown](../../aspose.slides/ibasetableformateffectivedata/borderdiagonaldown) { get; } | Renvoie la valeur effective du format de ligne diagonale descendante. lecture seule [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderDiagonalUp](../../aspose.slides/ibasetableformateffectivedata/borderdiagonalup) { get; } | Renvoie la valeur effective du format de ligne diagonale ascendante. lecture seule [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderLeft](../../aspose.slides/ibasetableformateffectivedata/borderleft) { get; } | Renvoie la valeur effective du format de ligne de bordure gauche. lecture seule [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderRight](../../aspose.slides/ibasetableformateffectivedata/borderright) { get; } | Renvoie la valeur effective du format de ligne de bordure droite. lecture seule [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderTop](../../aspose.slides/ibasetableformateffectivedata/bordertop) { get; } | Renvoie la valeur effective du format de ligne de bordure supérieure. lecture seule [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [FillFormat](../../aspose.slides/ibasetableformateffectivedata/fillformat) { get; } | Renvoie la valeur effective du format de remplissage. lecture seule [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
 
 ### Voir aussi
 

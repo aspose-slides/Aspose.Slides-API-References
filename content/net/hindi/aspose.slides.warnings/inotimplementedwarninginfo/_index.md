@@ -1,14 +1,14 @@
 ---
 title: INotImplementedWarningInfo
-second_title: Aspose.Sildes के लिए .NET API रेफ़रेंस
-description: जानी-पहचानी न लागू फ़ीचर के बारे में चेतावनी का प्रतिनिधित्व करता है, जिसे निकट भविष्य में लागू नहीं किया जाएगा।
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: एक ज्ञात न लागू की गई सुविधा के बारे में चेतावनी को दर्शाता है, जिसे निकट भविष्य में लागू नहीं किया जाएगा।
 type: docs
-weight: 11770
+weight: 11790
 url: /hi/aspose.slides.warnings/inotimplementedwarninginfo/
 ---
 ## INotImplementedWarningInfo इंटरफ़ेस
 
-जानी-पहचानी न कार्यान्वित फीचर के बारे में चेतावनी को दर्शाता है, जिसे निकट भविष्य में लागू नहीं किया जाएगा।
+एक ज्ञात न लागू की गई सुविधा के बारे में चेतावनी को दर्शाता है, जिसे निकट भविष्य में लागू नहीं किया जाएगा।
 
 ```csharp
 public interface INotImplementedWarningInfo : IWarningInfo
@@ -18,7 +18,7 @@ public interface INotImplementedWarningInfo : IWarningInfo
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIWarningInfo](../../aspose.slides.warnings/inotimplementedwarninginfo/asiwarninginfo) { get; } | IWarningInfo इंटरफ़ेस लौटाता है। केवल-पढ़ने योग्य [`IWarningInfo`](../iwarninginfo)। |
+| [AsIWarningInfo](../../aspose.slides.warnings/inotimplementedwarninginfo/asiwarninginfo) { get; } | IWarningInfo इंटरफ़ेस को लौटाता है। केवल-पढ़ने-योग्य [`IWarningInfo`](../iwarninginfo)। |
 
 ### संबंधित देखें
 

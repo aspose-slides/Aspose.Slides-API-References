@@ -1,14 +1,14 @@
 ---
 title: FillFormatCollection
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes용 .NET API 참고문서
 description: 채우기 스타일 컬렉션을 나타냅니다.
 type: docs
-weight: 11120
+weight: 11140
 url: /ko/aspose.slides.theme/fillformatcollection/
 ---
 ## FillFormatCollection 클래스
 
-채우기 스타일 컬렉션을 나타냅니다.
+채우기 스타일의 컬렉션을 나타냅니다.
 
 ```csharp
 public sealed class FillFormatCollection : DomObject<FormatScheme>, IFillFormatCollection
@@ -19,7 +19,7 @@ public sealed class FillFormatCollection : DomObject<FormatScheme>, IFillFormatC
 | 이름 | 설명 |
 | --- | --- |
 | [Count](../../aspose.slides.theme/fillformatcollection/count) { get; } | 컬렉션에 실제로 포함된 요소의 수를 가져옵니다. 읽기 전용 Int32. |
-| [IsSynchronized](../../aspose.slides.theme/fillformatcollection/issynchronized) { get; } | 컬렉션에 대한 액세스가 동기화(스레드 안전)되는지 여부를 나타내는 값을 반환합니다. 읽기 전용 Boolean. |
+| [IsSynchronized](../../aspose.slides.theme/fillformatcollection/issynchronized) { get; } | 컬렉션에 대한 액세스가 동기화(스레드 안전)되었는지 여부를 나타내는 값을 반환합니다. 읽기 전용 Boolean. |
 | [Item](../../aspose.slides.theme/fillformatcollection/item) { get; } | 지정된 인덱스에 있는 요소를 가져옵니다. 읽기 전용 [`IFillFormat`](../../aspose.slides/ifillformat). |
 | [SyncRoot](../../aspose.slides.theme/fillformatcollection/syncroot) { get; } | 동기화 루트를 반환합니다. 읽기 전용 Object. |
 
@@ -27,10 +27,10 @@ public sealed class FillFormatCollection : DomObject<FormatScheme>, IFillFormatC
 
 | 이름 | 설명 |
 | --- | --- |
-| [CopyTo](../../aspose.slides.theme/fillformatcollection/copyto)(Array, int) | 컬렉션의 모든 요소를 지정된 배열로 복사합니다. |
+| [CopyTo](../../aspose.slides.theme/fillformatcollection/copyto)(Array, int) | 컬렉션의 모든 요소를 지정된 배열에 복사합니다. |
 | [GetEnumerator](../../aspose.slides.theme/fillformatcollection/getenumerator)() | 컬렉션을 반복하는 열거자를 반환합니다. |
 
-### 또한 보기
+### 참고
 
 * 클래스 [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * 클래스 [FormatScheme](../formatscheme)

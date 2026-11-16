@@ -1,14 +1,14 @@
 ---
 title: LineArrowheadLength
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Mô tả độ dài của một mũi tên.
+second_title: Aspose.Sildes cho .NET Tham chiếu API
+description: Biểu thị độ dài của đầu mũi tên.
 type: docs
-weight: 7730
+weight: 7750
 url: /vi/aspose.slides/linearrowheadlength/
 ---
 ## LineArrowheadLength liệt kê
 
-Mô tả độ dài của một mũi tên.
+Biểu thị độ dài của đầu mũi tên.
 
 ```csharp
 public enum LineArrowheadLength : sbyte

@@ -1,14 +1,14 @@
 ---
 title: IFillFormatEffectiveData
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Oggetto immutabile che contiene le proprietà di formattazione del riempimento effettive.
+description: Oggetto immutabile che contiene le proprietà di formattazione riempimento effettive.
 type: docs
-weight: 5800
+weight: 5820
 url: /it/aspose.slides/ifillformateffectivedata/
 ---
 ## IFillFormatEffectiveData interfaccia
 
-Oggetto immutabile che contiene le proprietà di formattazione di riempimento effettive.
+Oggetto immutabile che contiene le proprietà di formattazione riempimento effettive.
 
 ```csharp
 public interface IFillFormatEffectiveData : IFillParamSource
@@ -18,18 +18,18 @@ public interface IFillFormatEffectiveData : IFillParamSource
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/ifillformateffectivedata/asifillparamsource) { get; } | Restituisce l'interfaccia IFillParamSource. Sola lettura [`IFillParamSource`](../ifillparamsource). |
-| [FillType](../../aspose.slides/ifillformateffectivedata/filltype) { get; } | Restituisce il tipo di riempimento. Sola lettura [`FillType`](../filltype). |
-| [GradientFormat](../../aspose.slides/ifillformateffectivedata/gradientformat) { get; } | Restituisce il formato di riempimento gradiente. Sola lettura [`IGradientFormatEffectiveData`](../igradientformateffectivedata). |
-| [PatternFormat](../../aspose.slides/ifillformateffectivedata/patternformat) { get; } | Restituisce il formato di riempimento a motivo. Sola lettura [`IPatternFormatEffectiveData`](../ipatternformateffectivedata). |
-| [PictureFillFormat](../../aspose.slides/ifillformateffectivedata/picturefillformat) { get; } | Restituisce il formato di riempimento immagine. Sola lettura [`IPictureFillFormatEffectiveData`](../ipicturefillformateffectivedata). |
-| [RotateWithShape](../../aspose.slides/ifillformateffectivedata/rotatewithshape) { get; } | Determina se il riempimento deve essere ruotato con la forma. Sola lettura Boolean. |
-| [SolidFillColor](../../aspose.slides/ifillformateffectivedata/solidfillcolor) { get; } | Restituisce il colore di riempimento. Sola lettura Color. |
-| [SolidFillSchemeColor](../../aspose.slides/ifillformateffectivedata/solidfillschemecolor) { get; } | Ottiene il colore di riempimento definito da uno schema di colore. Il valore NotDefined indica che il [`SolidFillColor`](./solidfillcolor) non è un colore di schema. Sola lettura [`SchemeColor`](../schemecolor). |
+| [AsIFillParamSource](../../aspose.slides/ifillformateffectivedata/asifillparamsource) { get; } | Restituisce l'interfaccia IFillParamSource. Solo lettura [`IFillParamSource`](../ifillparamsource). |
+| [FillType](../../aspose.slides/ifillformateffectivedata/filltype) { get; } | Restituisce il tipo di riempimento. Solo lettura [`FillType`](../filltype). |
+| [GradientFormat](../../aspose.slides/ifillformateffectivedata/gradientformat) { get; } | Restituisce il formato di riempimento sfumato. Solo lettura [`IGradientFormatEffectiveData`](../igradientformateffectivedata). |
+| [PatternFormat](../../aspose.slides/ifillformateffectivedata/patternformat) { get; } | Restituisce il formato di riempimento a trama. Solo lettura [`IPatternFormatEffectiveData`](../ipatternformateffectivedata). |
+| [PictureFillFormat](../../aspose.slides/ifillformateffectivedata/picturefillformat) { get; } | Restituisce il formato di riempimento immagine. Solo lettura [`IPictureFillFormatEffectiveData`](../ipicturefillformateffectivedata). |
+| [RotateWithShape](../../aspose.slides/ifillformateffectivedata/rotatewithshape) { get; } | Determina se il riempimento deve essere ruotato con la forma. Solo lettura Boolean. |
+| [SolidFillColor](../../aspose.slides/ifillformateffectivedata/solidfillcolor) { get; } | Restituisce il colore di riempimento. Solo lettura Color. |
+| [SolidFillSchemeColor](../../aspose.slides/ifillformateffectivedata/solidfillschemecolor) { get; } | Ottiene il colore di riempimento definito da uno schema colori. Il valore NotDefined indica che il [`SolidFillColor`](./solidfillcolor) non è un colore di schema. Solo lettura [`SchemeColor`](../schemecolor). |
 
 ### Osservazioni
 
-Questa interfaccia è usata insieme all'interfaccia [`IFillFormat`](../ifillformat) per restituire i valori di formattazione effettivi con l'eredità applicata.
+Questa interfaccia è usata insieme all'interfaccia [`IFillFormat`](../ifillformat) per restituire i valori di formattazione effettivi con l'ereditarietà applicata.
 
 ### Vedi anche
 

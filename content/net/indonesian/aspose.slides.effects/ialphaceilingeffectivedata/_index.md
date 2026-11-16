@@ -1,14 +1,14 @@
 ---
 title: IAlphaCeilingEffectiveData
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Objek tak dapat diubah yang mewakili efek Alpha Ceiling. Nilai opacity Alpha yang lebih besar dari nol diubah menjadi 100. Dengan kata lain, apa pun yang sebagian tembus menjadi sepenuhnya tidak tembus.
+description: Objek tak dapat diubah yang mewakili efek Alpha Ceiling. Nilai opasitas Alpha yang lebih besar dari nol diubah menjadi 100. Dengan kata lain, apa pun yang semi transparan menjadi sepenuhnya tidak tembus pandang.
 type: docs
-weight: 3050
+weight: 3070
 url: /id/aspose.slides.effects/ialphaceilingeffectivedata/
 ---
-## IAlphaCeilingEffectiveData antarmuka
+## antarmuka IAlphaCeilingEffectiveData
 
-Objek tak dapat diubah yang mewakili efek Alpha Ceiling. Nilai Alpha (keburaman) yang lebih besar dari nol diubah menjadi 100%. Dengan kata lain, apa pun yang sebagian tembus menjadi sepenuhnya tidak tembus.
+Objek tak dapat diubah yang mewakili efek Alpha Ceiling. Nilai Alpha (opasitas) lebih besar dari nol diubah menjadi 100%. Dengan kata lain, apa pun yang semi transparan menjadi sepenuhnya tidak tembus pandang.
 
 ```csharp
 public interface IAlphaCeilingEffectiveData : IEffectEffectiveData
@@ -18,7 +18,7 @@ public interface IAlphaCeilingEffectiveData : IEffectEffectiveData
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphaceilingeffectivedata/asieffecteffectivedata) { get; } | Memungkinkan untuk mendapatkan antarmuka IEffectEffectiveData dasar. Hanya-baca [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphaceilingeffectivedata/asieffecteffectivedata) { get; } | Memungkinkan untuk memperoleh antarmuka IEffectEffectiveData dasar. hanya-baca [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
 ### Lihat Juga
 

@@ -1,9 +1,9 @@
 ---
 title: IVbaModule
-second_title: Aspose.Sildes para Referência da API .NET
+second_title: Referência da API Aspose.Sildes para .NET
 description: Representa o módulo que está contido no projeto VBA.
 type: docs
-weight: 11530
+weight: 11550
 url: /pt/aspose.slides.vba/ivbamodule/
 ---
 ## IVbaModule interface
@@ -21,7 +21,7 @@ public interface IVbaModule
 | [Name](../../aspose.slides.vba/ivbamodule/name) { get; } | Nome do módulo. Somente leitura String. |
 | [SourceCode](../../aspose.slides.vba/ivbamodule/sourcecode) { get; set; } | Código-fonte do módulo. Leitura/gravação String. |
 
-### Ver também
+### Veja também
 
 * namespace [Aspose.Slides.Vba](../../aspose.slides.vba)
 * assembly [Aspose.Slides](../../)

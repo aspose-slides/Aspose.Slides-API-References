@@ -1,14 +1,14 @@
 ---
 title: IPictureEffectiveData
 second_title: Aspose.Sildes for .NET API 참조
-description: 유효한 그림 속성을 포함하는 불변 객체입니다.
+description: 효과적인 그림 속성을 포함하는 불변 객체입니다.
 type: docs
-weight: 6640
+weight: 6660
 url: /ko/aspose.slides/ipictureeffectivedata/
 ---
 ## IPictureEffectiveData 인터페이스
 
-유효한 그림 속성을 포함하는 불변 객체입니다.
+효과적인 그림 속성을 포함하는 불변 객체입니다.
 
 ```csharp
 public interface IPictureEffectiveData
@@ -16,17 +16,17 @@ public interface IPictureEffectiveData
 
 ## 속성
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
-| [Image](../../aspose.slides/ipictureeffectivedata/image) { get; } | 임베디드 이미지를 반환합니다. 읽기 전용 [`IPPImage`](../ippimage). |
-| [ImageTransform](../../aspose.slides/ipictureeffectivedata/imagetransform) { get; } | 이미지 변환 효과의 컬렉션을 반환합니다. 읽기 전용 [`IImageTransformOCollectionEffectiveData`](../../aspose.slides.effects/iimagetransformocollectioneffectivedata). |
+| [Image](../../aspose.slides/ipictureeffectivedata/image) { get; } | 내장된 이미지를 반환합니다. 읽기 전용 [`IPPImage`](../ippimage). |
+| [ImageTransform](../../aspose.slides/ipictureeffectivedata/imagetransform) { get; } | 이미지 변환 효과 컬렉션을 반환합니다. 읽기 전용 [`IImageTransformOCollectionEffectiveData`](../../aspose.slides.effects/iimagetransformocollectioneffectivedata). |
 | [LinkPathLong](../../aspose.slides/ipictureeffectivedata/linkpathlong) { get; } | 링크된 이미지의 URL을 반환합니다. 읽기 전용 String. |
 
 ### 비고
 
 이 인터페이스는 [`IPictureFillFormatEffectiveData`](../ipicturefillformateffectivedata) 및 [`IBulletFormatEffectiveData`](../ibulletformateffectivedata)의 일부로 사용됩니다.
 
-### 참고
+### 참조
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

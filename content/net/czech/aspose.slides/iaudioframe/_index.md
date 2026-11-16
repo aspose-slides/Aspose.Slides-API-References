@@ -1,14 +1,14 @@
 ---
 title: IAudioFrame
-second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje zvukový klip na snímku.
+second_title: Aspose.Sildes pro .NET API referenci
+description: Představuje zvukový klip na snímku.
 type: docs
-weight: 5230
+weight: 5250
 url: /cs/aspose.slides/iaudioframe/
 ---
 ## IAudioFrame rozhraní
 
-Reprezentuje zvukový klip na snímku.
+Představuje zvukový klip na snímku.
 
 ```csharp
 public interface IAudioFrame : IPictureFrame
@@ -16,26 +16,26 @@ public interface IAudioFrame : IPictureFrame
 
 ## Vlastnosti
 
-| Name | Description |
+| Název | Popis |
 | --- | --- |
 | [AsIPictureFrame](../../aspose.slides/iaudioframe/asipictureframe) { get; } | Umožňuje získat základní rozhraní IPictureFrame. Pouze pro čtení [`IPictureFrame`](../ipictureframe). |
 | [AudioCdEndTrack](../../aspose.slides/iaudioframe/audiocdendtrack) { get; set; } | Vrací nebo nastavuje poslední index stopy. Čtení/Zápis Int32. |
 | [AudioCdEndTrackTime](../../aspose.slides/iaudioframe/audiocdendtracktime) { get; set; } | Vrací nebo nastavuje čas poslední stopy. Čtení/Zápis Int32. |
 | [AudioCdStartTrack](../../aspose.slides/iaudioframe/audiocdstarttrack) { get; set; } | Vrací nebo nastavuje počáteční index stopy. Čtení/Zápis Int32. |
-| [AudioCdStartTrackTime](../../aspose.slides/iaudioframe/audiocdstarttracktime) { get; set; } | Vrací nebo nastavuje počáteční čas stopy. Čtení/Zápis Int32. |
-| [CaptionTracks](../../aspose.slides/iaudioframe/captiontracks) { get; } | Vrací kolekci uzavřených titulků spojených s audio rámečkem. Tato vlastnost je pouze pro čtení a vrací [`ICaptionsCollection`](../icaptionscollection) obsahující všechny titulkové stopy. |
-| [Embedded](../../aspose.slides/iaudioframe/embedded) { get; } | Určuje, zda je zvuk zabudován do prezentace. Pouze pro čtení Boolean. |
-| [EmbeddedAudio](../../aspose.slides/iaudioframe/embeddedaudio) { get; set; } | Vrací nebo nastavuje vložený objekt audia. Čtení/Zápis [`IAudio`](../iaudio). |
-| [FadeInDuration](../../aspose.slides/iaudioframe/fadeinduration) { get; set; } | Určuje časové trvání počátečního fade-in média v milisekundách. Čtení/Zápis Single. |
-| [FadeOutDuration](../../aspose.slides/iaudioframe/fadeoutduration) { get; set; } | Určuje časové trvání koncového fade-out média v milisekundách. Čtení/Zápis Single. |
+| [AudioCdStartTrackTime](../../aspose.slides/iaudioframe/audiocdstarttracktime) { get; set; } | Vrací nebo nastavuje čas počáteční stopy. Čtení/Zápis Int32. |
+| [CaptionTracks](../../aspose.slides/iaudioframe/captiontracks) { get; } | Získá kolekci uzavřených titulků spojených s audio snímkem. Tato vlastnost je pouze pro čtení a vrací [`ICaptionsCollection`](../icaptionscollection) obsahující všechny titulkové stopy. |
+| [Embedded](../../aspose.slides/iaudioframe/embedded) { get; } | Určuje, zda je zvuk vložen do prezentace. Pouze pro čtení Boolean. |
+| [EmbeddedAudio](../../aspose.slides/iaudioframe/embeddedaudio) { get; set; } | Vrací nebo nastavuje vložený audio objekt. Čtení/Zápis [`IAudio`](../iaudio). |
+| [FadeInDuration](../../aspose.slides/iaudioframe/fadeinduration) { get; set; } | Určuje časovou délku počátečního postupného zesílení média v milisekundách. Čtení/Zápis Single. |
+| [FadeOutDuration](../../aspose.slides/iaudioframe/fadeoutduration) { get; set; } | Určuje časovou délku koncového postupného zeslabení média v milisekundách. Čtení/Zápis Single. |
 | [HideAtShowing](../../aspose.slides/iaudioframe/hideatshowing) { get; set; } | Určuje, zda je AudioFrame skrytý. Čtení/Zápis Boolean. |
 | [LinkPathLong](../../aspose.slides/iaudioframe/linkpathlong) { get; set; } | Vrací nebo nastavuje název audio souboru, který je propojen s AudioFrame. Čtení/Zápis String. |
 | [PlayAcrossSlides](../../aspose.slides/iaudioframe/playacrossslides) { get; set; } | Určuje, zda se audio přehrává napříč snímky. Čtení/Zápis Boolean. |
-| [PlayLoopMode](../../aspose.slides/iaudioframe/playloopmode) { get; set; } | Určuje, zda je audio opakováno. Čtení/Zápis Boolean. |
+| [PlayLoopMode](../../aspose.slides/iaudioframe/playloopmode) { get; set; } | Určuje, zda se audio opakuje. Čtení/Zápis Boolean. |
 | [PlayMode](../../aspose.slides/iaudioframe/playmode) { get; set; } | Vrací nebo nastavuje režim přehrávání audia. Čtení/Zápis [`AudioPlayModePreset`](../audioplaymodepreset). |
-| [RewindAudio](../../aspose.slides/iaudioframe/rewindaudio) { get; set; } | Určuje, zda se audio po přehrání automaticky přehraje od začátku. Čtení/Zápis Boolean. |
-| [TrimFromEnd](../../aspose.slides/iaudioframe/trimfromend) { get; set; } | Určuje časové trvání, které má být během přehrávání odebráno od konce média, v milisekundách. Čtení/Zápis Single. |
-| [TrimFromStart](../../aspose.slides/iaudioframe/trimfromstart) { get; set; } | Určuje časové trvání, které má být během přehrávání odebráno od začátku média, v milisekundách. Čtení/Zápis Single. |
+| [RewindAudio](../../aspose.slides/iaudioframe/rewindaudio) { get; set; } | Určuje, zda se audio po přehrání automaticky přetočí na začátek. Čtení/Zápis Boolean. |
+| [TrimFromEnd](../../aspose.slides/iaudioframe/trimfromend) { get; set; } | Určuje časovou délku, která se má odebrat z konce média během přehrávání, v milisekundách. Čtení/Zápis Single. |
+| [TrimFromStart](../../aspose.slides/iaudioframe/trimfromstart) { get; set; } | Určuje časovou délku, která se má odebrat od začátku média během přehrávání, v milisekundách. Čtení/Zápis Single. |
 | [Volume](../../aspose.slides/iaudioframe/volume) { get; set; } | Vrací nebo nastavuje hlasitost audia. Čtení/Zápis [`AudioVolumeMode`](../audiovolumemode). |
 | [VolumeValue](../../aspose.slides/iaudioframe/volumevalue) { get; set; } | Vrací nebo nastavuje hlasitost audia v procentech. Čtení/Zápis Single. |
 
@@ -43,6 +43,6 @@ public interface IAudioFrame : IPictureFrame
 
 * rozhraní [IPictureFrame](../ipictureframe)
 * jmenný prostor [Aspose.Slides](../../aspose.slides)
-* sestavení [Aspose.Slides](../../)
+* sestava [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

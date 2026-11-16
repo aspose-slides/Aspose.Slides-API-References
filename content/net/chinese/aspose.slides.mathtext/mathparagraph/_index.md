@@ -1,14 +1,14 @@
 ---
 title: MathParagraph
 second_title: Aspose.Sildes for .NET API 参考
-description: 数学段落，是数学块 IMathBlock 的容器
+description: 数学段落，是容纳数学块 IMathBlock 的容器
 type: docs
-weight: 8900
+weight: 8920
 url: /zh/aspose.slides.mathtext/mathparagraph/
 ---
 ## MathParagraph 类
 
-数学段落，是数学块 (IMathBlock) 的容器
+数学段落是容纳数学块 (IMathBlock) 的容器。
 
 ```csharp
 public class MathParagraph : IMathParagraph
@@ -16,32 +16,32 @@ public class MathParagraph : IMathParagraph
 
 ## 构造函数
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
 | [MathParagraph](mathparagraph#constructor)() | 初始化 MathParagraph 类的新实例。 |
 | [MathParagraph](mathparagraph#constructor_1)(IMathBlock) | 初始化 MathParagraph 类的新实例。 |
 
 ## 属性
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides.mathtext/mathparagraph/count) { get; } | 获取集合实际包含的元素数量。只读 Int32。 |
+| [Count](../../aspose.slides.mathtext/mathparagraph/count) { get; } | 获取集合中实际包含的元素数量。只读 Int32。 |
 | [Item](../../aspose.slides.mathtext/mathparagraph/item) { get; set; } | 获取指定索引处的项。只读 [`IMathBlock`](../imathblock)。 |
-| [Justification](../../aspose.slides.mathtext/mathparagraph/justification) { get; set; } | Paragraph Justification 默认值：CenteredAsGroup |
+| [Justification](../../aspose.slides.mathtext/mathparagraph/justification) { get; set; } | 段落对齐 默认值：CenteredAsGroup |
 
 ## 方法
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
-| [Add](../../aspose.slides.mathtext/mathparagraph/add)(IMathBlock) | 在集合末尾添加 IMMathBlock。 |
+| [Add](../../aspose.slides.mathtext/mathparagraph/add)(IMathBlock) | 将 IMathBlock 添加到集合的末尾。 |
 | [Clear](../../aspose.slides.mathtext/mathparagraph/clear)() | 从集合中移除所有元素。 |
 | [Contains](../../aspose.slides.mathtext/mathparagraph/contains)(IMathBlock) | 确定集合是否包含特定值。 |
-| [IndexOf](../../aspose.slides.mathtext/mathparagraph/indexof)(IMathBlock) | 确定集合中特定 IMathBlock 的索引。 |
-| [Insert](../../aspose.slides.mathtext/mathparagraph/insert)(int, IMathBlock) | 在指定索引处将 IMathBlock 插入集合。 |
-| [Remove](../../aspose.slides.mathtext/mathparagraph/remove)(IMathBlock) | 从集合中移除特定对象的第一次出现。/> |
-| [RemoveAt](../../aspose.slides.mathtext/mathparagraph/removeat)(int) | 从集合中移除指定索引处的项。 |
+| [IndexOf](../../aspose.slides.mathtext/mathparagraph/indexof)(IMathBlock) | 确定特定 IMathBlock 在集合中的索引。 |
+| [Insert](../../aspose.slides.mathtext/mathparagraph/insert)(int, IMathBlock) | 在指定索引处将 IMathBlock 插入到集合中。 |
+| [Remove](../../aspose.slides.mathtext/mathparagraph/remove)(IMathBlock) | 从集合中删除特定对象的第一次出现。 |
+| [RemoveAt](../../aspose.slides.mathtext/mathparagraph/removeat)(int) | 从集合中删除指定索引处的项。 |
 | [ToLatex](../../aspose.slides.mathtext/mathparagraph/tolatex)() | 获取 LaTeX 格式的数学公式 |
-| [WriteAsMathMl](../../aspose.slides.mathtext/mathparagraph/writeasmathml)(Stream) | 将此 [`MathParagraph`](../mathparagraph) 的内容保存为 MathML |
+| [WriteAsMathMl](../../aspose.slides.mathtext/mathparagraph/writeasmathml)(Stream) | 将此 [`MathParagraph`](../mathparagraph) 的内容另存为 MathML |
 
 ### 示例
 
@@ -54,7 +54,7 @@ IMathParagraph mathParagraph = (shape.TextFrame.Paragraphs[0].Portions[0] as Mat
 mathParagraph.Justification = MathJustification.LeftJustified;
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IMathParagraph](../imathparagraph)
 * 命名空间 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

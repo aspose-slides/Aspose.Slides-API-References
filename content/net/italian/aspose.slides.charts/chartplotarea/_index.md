@@ -1,9 +1,9 @@
 ---
 title: ChartPlotArea
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta il rettangolo in cui il grafico dovrebbe essere tracciato.
+description: Rappresenta il rettangolo in cui il grafico deve essere tracciato.
 type: docs
-weight: 1420
+weight: 1430
 url: /it/aspose.slides.charts/chartplotarea/
 ---
 ## ChartPlotArea classe
@@ -18,20 +18,20 @@ public class ChartPlotArea : DomObject<Chart>, IChartPlotArea
 
 | Nome | Descrizione |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/chartplotarea/actualheight) { get; } | Specifica l'altezza effettiva dell'elemento del grafico. Chiamare il metodo IChart.ValidateChartLayout() prima per ottenere i valori effettivi. Solo lettura Single. |
-| [ActualWidth](../../aspose.slides.charts/chartplotarea/actualwidth) { get; } | Specifica la larghezza effettiva dell'elemento del grafico. Chiamare il metodo IChart.ValidateChartLayout() prima per ottenere i valori effettivi. Solo lettura Single. |
-| [ActualX](../../aspose.slides.charts/chartplotarea/actualx) { get; } | Specifica la posizione x effettiva (sinistra) dell'elemento del grafico rispetto all'angolo in alto a sinistra del grafico. Chiamare il metodo IChart.ValidateChartLayout() prima per ottenere i valori effettivi. Solo lettura Single. |
-| [ActualY](../../aspose.slides.charts/chartplotarea/actualy) { get; } | Specifica la parte superiore effettiva dell'elemento del grafico rispetto all'angolo in alto a sinistra del grafico. Chiamare il metodo IChart.ValidateChartLayout() prima per ottenere i valori effettivi. Solo lettura Single. |
-| [Bottom](../../aspose.slides.charts/chartplotarea/bottom) { get; } | Inferiore. Solo lettura Single. |
-| [Chart](../../aspose.slides.charts/chartplotarea/chart) { get; } | Grafico. Solo lettura [`IChart`](../ichart). |
-| [Format](../../aspose.slides.charts/chartplotarea/format) { get; } | Restituisce il formato dell'area di tracciamento. Solo lettura [`IFormat`](../iformat). |
-| [Height](../../aspose.slides.charts/chartplotarea/height) { get; set; } | Restituisce o imposta l'altezza del riquadro dell'area di tracciamento come frazione dell'altezza del grafico (da 0 a 1). Lettura/scrittura Single. |
-| [IsLocationAutocalculated](../../aspose.slides.charts/chartplotarea/islocationautocalculated) { get; } | Definisce come calcolare la posizione: true – calcolata automaticamente; definita da X, Y, Width, Height. Solo lettura Boolean. |
-| [LayoutTargetType](../../aspose.slides.charts/chartplotarea/layouttargettype) { get; set; } | Se il layout dell'area di tracciamento è definito manualmente, questa proprietà specifica se il layout avvenga dall'interno (escludendo assi e etichette) o dall'esterno (includendo assi e etichette). Lettura/scrittura [`LayoutTargetType`](./layouttargettype). |
-| [Right](../../aspose.slides.charts/chartplotarea/right) { get; } | Destro. Solo lettura Single. |
-| [Width](../../aspose.slides.charts/chartplotarea/width) { get; set; } | Restituisce o imposta la larghezza del riquadro dell'area di tracciamento come frazione della larghezza del grafico (da 0 a 1). Lettura/scrittura Single. |
-| [X](../../aspose.slides.charts/chartplotarea/x) { get; set; } | Restituisce o imposta la coordinata x dell'angolo in alto a sinistra del riquadro dell'area di tracciamento come frazione della larghezza del grafico (da 0 a 1). Lettura/scrittura Single. |
-| [Y](../../aspose.slides.charts/chartplotarea/y) { get; set; } | Restituisce o imposta la coordinata y dell'angolo in alto a sinistra del riquadro dell'area di tracciamento come frazione dell'altezza del grafico (da 0 a 1). Lettura/scrittura Single. |
+| [ActualHeight](../../aspose.slides.charts/chartplotarea/actualheight) { get; } | Specifica l'altezza effettiva dell'elemento del grafico. Chiamare il metodo IChart.ValidateChartLayout() prima per ottenere i valori effettivi. Di sola lettura Single. |
+| [ActualWidth](../../aspose.slides.charts/chartplotarea/actualwidth) { get; } | Specifica la larghezza effettiva dell'elemento del grafico. Chiamare il metodo IChart.ValidateChartLayout() prima per ottenere i valori effettivi. Di sola lettura Single. |
+| [ActualX](../../aspose.slides.charts/chartplotarea/actualx) { get; } | Specifica la posizione x (sinistra) effettiva dell'elemento del grafico rispetto all'angolo in alto a sinistra del grafico. Chiamare il metodo IChart.ValidateChartLayout() prima per ottenere i valori effettivi. Di sola lettura Single. |
+| [ActualY](../../aspose.slides.charts/chartplotarea/actualy) { get; } | Specifica la parte superiore effettiva dell'elemento del grafico rispetto all'angolo in alto a sinistra del grafico. Chiamare il metodo IChart.ValidateChartLayout() prima per ottenere i valori effettivi. Di sola lettura Single. |
+| [Bottom](../../aspose.slides.charts/chartplotarea/bottom) { get; } | Inferiore. Di sola lettura Single. |
+| [Chart](../../aspose.slides.charts/chartplotarea/chart) { get; } | Grafico. Di sola lettura [`IChart`](../ichart). |
+| [Format](../../aspose.slides.charts/chartplotarea/format) { get; } | Restituisce il formato di un'area del grafico. Di sola lettura [`IFormat`](../iformat). |
+| [Height](../../aspose.slides.charts/chartplotarea/height) { get; set; } | Restituisce o imposta l'altezza del riquadro di delimitazione dell'area del grafico come frazione dell'altezza del grafico (da 0 a 1). Di lettura/scrittura Single. |
+| [IsLocationAutocalculated](../../aspose.slides.charts/chartplotarea/islocationautocalculated) { get; } | Definisce come deve essere calcolata la posizione: true – calcolata automaticamente; definita dalle proprietà X, Y, Width, Height. Di sola lettura Boolean. |
+| [LayoutTargetType](../../aspose.slides.charts/chartplotarea/layouttargettype) { get; set; } | Se il layout dell'area del grafico è definito manualmente, questa proprietà specifica se il layout dell'area del grafico deve essere interno (senza includere assi ed etichette degli assi) o esterno (includendo assi ed etichette degli assi). Di lettura/scrittura [`LayoutTargetType`](./layouttargettype). |
+| [Right](../../aspose.slides.charts/chartplotarea/right) { get; } | Destra. Di sola lettura Single. |
+| [Width](../../aspose.slides.charts/chartplotarea/width) { get; set; } | Restituisce o imposta la larghezza del riquadro di delimitazione dell'area del grafico come frazione della larghezza del grafico (da 0 a 1). Di lettura/scrittura Single. |
+| [X](../../aspose.slides.charts/chartplotarea/x) { get; set; } | Restituisce o imposta la coordinata x dell'angolo in alto a sinistra del riquadro di delimitazione dell'area del grafico come frazione della larghezza del grafico (da 0 a 1). Di lettura/scrittura Single. |
+| [Y](../../aspose.slides.charts/chartplotarea/y) { get; set; } | Restituisce o imposta la coordinata y dell'angolo in alto a sinistra del riquadro di delimitazione dell'area del grafico come frazione dell'altezza del grafico (da 0 a 1). Di lettura/scrittura Single. |
 
 ### Vedi anche
 

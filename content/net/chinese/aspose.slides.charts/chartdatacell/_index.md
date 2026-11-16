@@ -1,9 +1,9 @@
 ---
 title: ChartDataCell
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes .NET API 参考
 description: 表示图表数据的单元格。
 type: docs
-weight: 1320
+weight: 1330
 url: /zh/aspose.slides.charts/chartdatacell/
 ---
 ## ChartDataCell 类
@@ -16,25 +16,25 @@ public class ChartDataCell : IChartDataCell
 
 ## 属性
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
 | [ChartDataWorksheet](../../aspose.slides.charts/chartdatacell/chartdataworksheet) { get; } | 获取工作表。只读 [`IChartDataWorksheet`](../ichartdataworksheet)。 |
 | [Column](../../aspose.slides.charts/chartdatacell/column) { get; } | 返回工作表中单元格所在列的索引。只读 Int32。 |
 | [CustomNumberFormat](../../aspose.slides.charts/chartdatacell/customnumberformat) { get; set; } | 获取或设置数字和日期的自定义显示格式。如果值为空，将使用 PresetNumberFormat 值。读/写 String。 |
 | [Formula](../../aspose.slides.charts/chartdatacell/formula) { get; set; } | 获取或设置 A1 样式的公式。 |
 | [IsHidden](../../aspose.slides.charts/chartdatacell/ishidden) { get; } | 确定单元格是否隐藏。只读 Boolean。 |
-| [PresetNumberFormat](../../aspose.slides.charts/chartdatacell/presetnumberformat) { get; set; } | 获取或设置数字和日期的内置显示格式。预设数字必须在 [0..22] 或 [37..49] 范围内。读/写 Byte。 |
+| [PresetNumberFormat](../../aspose.slides.charts/chartdatacell/presetnumberformat) { get; set; } | 获取或设置数字和日期的内置显示格式。预设编号必须在 [0..22] 或 [37..49] 范围内。读/写 Byte。 |
 | [R1C1Formula](../../aspose.slides.charts/chartdatacell/r1c1formula) { get; set; } | 获取或设置 R1C1 样式的公式。 |
 | [Row](../../aspose.slides.charts/chartdatacell/row) { get; } | 返回工作表中单元格所在行的索引。只读 Int32。 |
 | [Value](../../aspose.slides.charts/chartdatacell/value) { get; set; } | 获取或设置单元格的值。读/写 Object。 |
 
 ## 方法
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
-| [Calculate](../../aspose.slides.charts/chartdatacell/calculate)(bool) | 如果单元格包含公式，值将基于该公式更新。 |
+| [Calculate](../../aspose.slides.charts/chartdatacell/calculate)(bool) | 如果单元格包含公式，值将基于该公式进行更新。 |
 
-### 另见
+### 另请参阅
 
 * 接口 [IChartDataCell](../ichartdatacell)
 * 命名空间 [Aspose.Slides.Charts](../../aspose.slides.charts)

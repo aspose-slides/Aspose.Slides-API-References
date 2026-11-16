@@ -1,14 +1,14 @@
 ---
 title: PersistenceType
-second_title: Aspose.Sildes για .NET Αναφορά API
-description: Καθορίζει τη μέθοδο που χρησιμοποιείται για την αποθήκευση των ιδιοτήτων του ActiveX control.
+second_title: Aspose.Sildes για .NET API αναφορά
+description: Καθορίζει τη μέθοδο που χρησιμοποιείται για την αποθήκευση των ιδιοτήτων του ελέγχου ActiveX.
 type: docs
-weight: 9370
+weight: 9390
 url: /el/aspose.slides/persistencetype/
 ---
-## Απαρίθμηση PersistenceType
+## PersistenceType απαρίθμηση
 
-Καθορίζει τη μέθοδο που χρησιμοποιείται για την αποθήκευση των ιδιοτήτων του ActiveX control.
+Specifies the method used to store properties of the ActiveX control.
 
 ```csharp
 public enum PersistenceType
@@ -18,11 +18,11 @@ public enum PersistenceType
 
 | Όνομα | Τιμή | Περιγραφή |
 | --- | --- | --- |
-| NotDefined | `-1` | Το αναγνωριστικό διατήρησης δεν καθορίζεται. |
-| PersistPropertyBag | `0` | Καθορίζει ότι το ActiveX control διατηρείται χρησιμοποιώντας διατήρηση βασισμένη σε property-bag. Η διατήρηση βασισμένη σε property-bag αποθηκεύει ένα ActiveX control μέσω μιας συλλογής ζευγών ονόματος και τιμής που καθορίζουν τα δεδομένα που διατηρούνται από το ActiveX control. |
-| PersistStream | `1` | Καθορίζει ότι το ActiveX control διατηρείται χρησιμοποιώντας διατήρηση βασισμένη σε ροή που δεν υποστηρίζει την αρχικοποίηση του ActiveX control σε προεπιλεγμένη κατάσταση. |
-| PersistStreamInit | `2` | Καθορίζει ότι το ActiveX control διατηρείται χρησιμοποιώντας διατήρηση βασισμένη σε ροή που υποστηρίζει την αρχικοποίηση του ActiveX control σε προεπιλεγμένη κατάσταση. |
-| PersistStorage | `3` | Καθορίζει ότι το ActiveX control διατηρείται χρησιμοποιώντας διατήρηση βασισμένη σε αποθήκευση. |
+| NotDefined | `-1` | Το αναγνωριστικό επιμονής δεν έχει καθοριστεί. |
+| PersistPropertyBag | `0` | Καθορίζει ότι το ActiveX control αποθηκεύεται χρησιμοποιώντας επιμονή βασισμένη σε property-bag. Η επιμονή βασισμένη σε property-bag αποθηκεύει ένα ActiveX control μέσω μιας συλλογής ζευγών όνομα-τιμή που καθορίζουν τα δεδομένα που αποθηκεύονται από το ActiveX control. |
+| PersistStream | `1` | Καθορίζει ότι το ActiveX control αποθηκεύεται χρησιμοποιώντας επιμονή βασισμένη σε ροή που δεν υποστηρίζει την αρχικοποίηση του ActiveX control σε προεπιλεγμένη κατάσταση. |
+| PersistStreamInit | `2` | Καθορίζει ότι το ActiveX control αποθηκεύεται χρησιμοποιώντας επιμονή βασισμένη σε ροή που υποστηρίζει την αρχικοποίηση του ActiveX control σε προεπιλεγμένη κατάσταση. |
+| PersistStorage | `3` | Καθορίζει ότι το ActiveX control αποθηκεύεται χρησιμοποιώντας επιμονή βασισμένη σε αποθήκευση. |
 
 ### Δείτε επίσης
 

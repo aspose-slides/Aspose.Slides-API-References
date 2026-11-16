@@ -1,14 +1,14 @@
 ---
 title: PersistenceType
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Specificeert de methode die wordt gebruikt om eigenschappen van het ActiveX-besturingselement op te slaan.
+description: Specificeert de methode die wordt gebruikt om de eigenschappen van het ActiveX-besturingselement op te slaan.
 type: docs
-weight: 9370
+weight: 9390
 url: /nl/aspose.slides/persistencetype/
 ---
 ## PersistenceType enumeratie
 
-Specificeert de methode die wordt gebruikt om eigenschappen van het ActiveX-besturingselement op te slaan.
+Specificeert de methode die wordt gebruikt om de eigenschappen van het ActiveX-besturingselement op te slaan.
 
 ```csharp
 public enum PersistenceType
@@ -16,13 +16,13 @@ public enum PersistenceType
 
 ### Waarden
 
-| Naam | Waarde | Beschrijving |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `-1` | Persistentie-id niet gespecificeerd. |
-| PersistPropertyBag | `0` | Specificeert dat het ActiveX-besturingselement wordt bewaard met behulp van property-bag-gebaseerde persistentie. Property-bag-gebaseerde persistentie slaat een ActiveX-besturingselement op via een verzameling van naam-en-waardeparen die de door het ActiveX-besturingselement bewaarde gegevens specificeren. |
-| PersistStream | `1` | Specificeert dat het ActiveX-besturingselement wordt bewaard met behulp van een op stream gebaseerde persistentie die geen initialisatie van het ActiveX-besturingselement naar een standaardstatus ondersteunt. |
-| PersistStreamInit | `2` | Specificeert dat het ActiveX-besturingselement wordt bewaard met behulp van een op stream gebaseerde persistentie die initialisatie van het ActiveX-besturingselement naar een standaardstatus ondersteunt. |
-| PersistStorage | `3` | Specificeert dat het ActiveX-besturingselement wordt bewaard met behulp van opslag-gebaseerde persistentie. |
+| PersistPropertyBag | `0` | Geeft aan dat het ActiveX-besturingselement wordt bewaard met behulp van property-bag-gebaseerde persistentie. Property-bag-gebaseerde persistentie slaat een ActiveX-besturingselement op door middel van een verzameling naam-en-waarde-paren die de door het ActiveX-besturingselement bewaarde gegevens specificeren. |
+| PersistStream | `1` | Geeft aan dat het ActiveX-besturingselement wordt bewaard met behulp van stream-gebaseerde persistentie die geen initialisatie van het ActiveX-besturingselement naar een standaardstatus ondersteunt. |
+| PersistStreamInit | `2` | Geeft aan dat het ActiveX-besturingselement wordt bewaard met behulp van stream-gebaseerde persistentie die initialisatie van het ActiveX-besturingselement naar een standaardstatus ondersteunt. |
+| PersistStorage | `3` | Geeft aan dat het ActiveX-besturingselement wordt bewaard met behulp van opslag-gebaseerde persistentie. |
 
 ### Zie ook
 

@@ -1,9 +1,9 @@
 ---
 title: RevealTransition
-second_title: Aspose.Sildes para .NET API Reference
+second_title: Aspose.Sildes para .NET Referência da API
 description: Efeito de transição de slide Reveal.
 type: docs
-weight: 10280
+weight: 10300
 url: /pt/aspose.slides.slideshow/revealtransition/
 ---
 ## RevealTransition classe
@@ -18,17 +18,17 @@ public class RevealTransition : TransitionValueBase, IRevealTransition
 
 | Nome | Descrição |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/revealtransition/direction) { get; set; } | Direção da transição. Leitura/gravação [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
-| [ThroughBlack](../../aspose.slides.slideshow/revealtransition/throughblack) { get; set; } | Especifica se a transição desvanece para preto. Leitura/gravação Boolean. |
+| [Direction](../../aspose.slides.slideshow/revealtransition/direction) { get; set; } | Direção da transição. Leitura/Gravação [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
+| [ThroughBlack](../../aspose.slides.slideshow/revealtransition/throughblack) { get; set; } | Especifica se a transição desaparece através do preto. Leitura/Gravação Boolean. |
 
 ## Métodos
 
 | Nome | Descrição |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Determina se as duas instâncias de TransitionValueBase são iguais. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Serve como uma função de hash para um tipo específico, adequada para uso em algoritmos de hash e estruturas de dados como uma tabela de hash. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Funciona como uma função hash para um tipo específico, adequada para uso em algoritmos de hash e estruturas de dados como uma tabela hash. |
 
-### Ver também
+### Veja Também
 
 * classe [TransitionValueBase](../transitionvaluebase)
 * interface [IRevealTransition](../irevealtransition)

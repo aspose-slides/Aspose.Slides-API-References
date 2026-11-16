@@ -1,9 +1,9 @@
 ---
 title: NotesSlideThemeManager
-second_title: Aspose.Slides for .NET APIリファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: ノートスライドテーマのオーバーライドへのアクセスを提供します。
 type: docs
-weight: 11450
+weight: 11470
 url: /ja/aspose.slides.theme/notesslidethememanager/
 ---
 ## NotesSlideThemeManager クラス
@@ -16,16 +16,16 @@ public class NotesSlideThemeManager : BaseOverrideThemeManager
 
 ## プロパティ
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | OverrideTheme が継承された有効なテーマをオーバーライドするかどうかを決定します。オーバーライド用に OverrideTheme を有効にするには OverrideTheme.Init*() メソッドを使用します。オーバーライドから OverrideTheme を無効にするには OverrideTheme.Clear() メソッドを使用します。読み取り専用 Boolean。 |
-| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | 上書きされたテーマオブジェクトを返します。読み書き可能な [`IOverrideTheme`](../ioverridetheme)。 |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | OverrideTheme が継承された有効なテーマを上書きするかどうかを決定します。OverrideTheme を上書き用に有効にするには OverrideTheme.Init*() メソッドを使用します。OverrideTheme の上書きを無効にするには OverrideTheme.Clear() メソッドを使用します。読み取り専用 Boolean。 |
+| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | 上書きテーマオブジェクトを返します。読み書き可能 [`IOverrideTheme`](../ioverridetheme)。 |
 
 ## メソッド
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
-| [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | スライドに余分なカラースキームを適用します。 |
+| [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | スライドに追加のカラースキームを適用します。 |
 | [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | テーマオブジェクトを返します。 |
 
 ### 参照

@@ -1,20 +1,20 @@
 ---
 title: ErrorBarsCustomValues
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
+second_title: Aspose.Sildes for .NET API संदर्भ
 description: कस्टम मान प्रकार के मामले में श्रृंखला त्रुटि बार मानों का प्रतिनिधित्व करता है। केवल पढ़ने योग्य IErrorBarsCustomValuesaspose.slides.charts/ierrorbarscustomvalues.
 type: docs
-weight: 80
+weight: 120
 url: /hi/aspose.slides.charts/chartdatapoint/errorbarscustomvalues/
 ---
-## ChartDataPoint.ErrorBarsCustomValues प्रॉपर्टी
+## ChartDataPoint.ErrorBarsCustomValues गुण
 
-कस्टम मान प्रकार के मामले में श्रृंखला त्रुटि बार मानों का प्रतिनिधित्व करता है। केवल पढ़ने योग्य [`IErrorBarsCustomValues`](../../ierrorbarscustomvalues).
+कस्टम मान प्रकार के मामले में श्रृंखला त्रुटि बार मानों का प्रतिनिधित्व करता है। केवल पढ़ने योग्य [`IErrorBarsCustomValues`](../../ierrorbarscustomvalues)।
 
 ```csharp
 public IErrorBarsCustomValues ErrorBarsCustomValues { get; }
 ```
 
-### देखें
+### संबंधित देखें
 
 * इंटरफ़ेस [IErrorBarsCustomValues](../../ierrorbarscustomvalues)
 * क्लास [ChartDataPoint](../../chartdatapoint)

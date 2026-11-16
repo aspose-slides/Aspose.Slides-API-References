@@ -1,14 +1,14 @@
 ---
 title: Portion
-second_title: Aspose.Sildes .NET API Referenciája
-description: A szöveg bekezdésen belüli szövegrészt reprezentálja.
+second_title: Aspose.Sildes .NET API referencia
+description: Egy szöveg bekezdésen belüli szövegrészletet képviseli.
 type: docs
-weight: 9460
+weight: 9480
 url: /hu/aspose.slides/portion/
 ---
 ## Portion osztály
 
-A szöveg bekezdésen belüli szövegrészletet (Portion) reprezentál.
+A szöveg bekezdésen belüli szövegrészletet képviseli.
 
 ```csharp
 public class Portion : IPortion
@@ -16,29 +16,29 @@ public class Portion : IPortion
 
 ## Konstruktorok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
-| [Portion](portion#constructor)() | Új példányt hoz létre a Portion osztályban. |
-| [Portion](portion#constructor_1)(Portion) | Új példányt hoz létre a Portion osztályban. |
-| [Portion](portion#constructor_2)(string) | Új példányt hoz létre a Portion osztályban. |
+| [Portion](portion#constructor)() | Új példányt hoz létre a Portion osztályból. |
+| [Portion](portion#constructor_1)(Portion) | Új példányt hoz létre a Portion osztályból. |
+| [Portion](portion#constructor_2)(string) | Új példányt hoz létre a Portion osztályból. |
 
 ## Tulajdonságok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
-| [Field](../../aspose.slides/portion/field) { get; } | Visszaadja ennek a Portion résznek egy mezőjét. Csak olvasható [`IField`](../ifield). |
-| [PortionFormat](../../aspose.slides/portion/portionformat) { get; } | Visszaad egy formázási objektumot, amely a szövegrészlet explicit módon beállított formázási tulajdonságait tartalmazza, öröklés nélkül. Csak olvasható [`IPortionFormat`](../iportionformat). |
-| [Text](../../aspose.slides/portion/text) { get; set; } | Lekérdezi vagy beállítja egy rész egyszerű szövegét. Olvasható/írható String. |
+| [Field](../../aspose.slides/portion/field) { get; } | Visszaadja ennek a részletnek a mezőt. Csak olvasható [`IField`](../ifield). |
+| [PortionFormat](../../aspose.slides/portion/portionformat) { get; } | Visszaadja a formázási objektumot, amely a szövegrészlet kifejezetten beállított formázási tulajdonságait tartalmazza, öröklődés nélkül. Csak olvasható [`IPortionFormat`](../iportionformat). |
+| [Text](../../aspose.slides/portion/text) { get; set; } | A részlet egyszerű szövegét kapja vagy állítja be. Olvasás/írás String. |
 
 ## Metódusok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
-| [AddField](../../aspose.slides/portion/addfield#addfield)(IFieldType) | Átalakítja ezt a Portion-t egy automatikusan frissített mezővé. |
-| [AddField](../../aspose.slides/portion/addfield#addfield_1)(string) | Átalakítja ezt a Portion-t egy automatikusan frissített mezővé. |
-| [GetCoordinates](../../aspose.slides/portion/getcoordinates)() | Lekéri a rész kezdőpontjának koordinátáit. Az X koordináta a pont kezdődését jelzi az első karaktertől, beleértve a bal oldalra eső távolságot. Az Y koordináta tartalmazza a felső távolságot. |
-| [GetRect](../../aspose.slides/portion/getrect)() | Lekéri a részt körülhatároló téglalap koordinátáit. A téglalap magában foglalja a rész összes szövegsorát, beleértve az üres sorokat is. |
-| [RemoveField](../../aspose.slides/portion/removefield)() | Átalakítja ezt a mező-részt egyszerű részre. |
+| [AddField](../../aspose.slides/portion/addfield#addfield)(IFieldType) | Átalakítja ezt a részletet automatikusan frissített mezővé. |
+| [AddField](../../aspose.slides/portion/addfield#addfield_1)(string) | Átalakítja ezt a részletet automatikusan frissített mezővé. |
+| [GetCoordinates](../../aspose.slides/portion/getcoordinates)() | Lekéri a részlet kezdetének koordinátáit. A pont X koordinátája a részlet elejét jelöli az első karaktertől, beleértve a bal oldali távolságot. A Y koordináta tartalmazza a felső oldali távolságot. |
+| [GetRect](../../aspose.slides/portion/getrect)() | Lekéri a részletet körülhatároló téglalap koordinátáit. A téglalap tartalmazza a részletben lévő összes szövegsort, beleértve az üres sorokat is. |
+| [RemoveField](../../aspose.slides/portion/removefield)() | Átalakítja ezt a mező részletet egyszerű részletté. |
 
 ### Lásd még
 

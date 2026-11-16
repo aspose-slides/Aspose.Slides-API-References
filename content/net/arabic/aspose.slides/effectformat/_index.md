@@ -1,14 +1,14 @@
 ---
 title: EffectFormat
 second_title: Aspose.Sildes لمرجع API .NET
-description: يمثل خصائص التأثيرات للشكل.
+description: يمثل خصائص التأثير للشكل.
 type: docs
-weight: 2830
+weight: 2850
 url: /ar/aspose.slides/effectformat/
 ---
-## الفئة EffectFormat
+## EffectFormat فئة
 
-يمثل خصائص التأثيرات للشكل.
+يمثل خصائص التأثير للشكل.
 
 ```csharp
 public sealed class EffectFormat : PVIObject, IEffectFormat
@@ -16,48 +16,48 @@ public sealed class EffectFormat : PVIObject, IEffectFormat
 
 ## الخصائص
 
-| Name | Description |
+| الاسم | الوصف |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | يسمح بالحصول على واجهة IPresentationComponent الأساسية. للقراءة فقط [`IPresentationComponent`](../ipresentationcomponent). |
-| [BlurEffect](../../aspose.slides/effectformat/blureffect) { get; set; } | تأثير الضبابية. للقراءة والكتابة [`IBlur`](../../aspose.slides.effects/iblur). |
-| [FillOverlayEffect](../../aspose.slides/effectformat/filloverlayeffect) { get; set; } | تأثير تغطية التعبئة. للقراءة والكتابة [`IFillOverlay`](../../aspose.slides.effects/ifilloverlay). |
-| [GlowEffect](../../aspose.slides/effectformat/gloweffect) { get; set; } | تأثير التوهج. للقراءة والكتابة [`IGlow`](../../aspose.slides.effects/iglow). |
-| [InnerShadowEffect](../../aspose.slides/effectformat/innershadoweffect) { get; set; } | ظل داخلي. للقراءة والكتابة [`IInnerShadow`](../../aspose.slides.effects/iinnershadow). |
-| [IsNoEffects](../../aspose.slides/effectformat/isnoeffects) { get; } | يعيد true إذا تم إبطال جميع التأثيرات (كما هو الحال عند الإنشاء، كائن EffectFormat الافتراضي). للقراءة فقط Boolean. |
-| [OuterShadowEffect](../../aspose.slides/effectformat/outershadoweffect) { get; set; } | ظل خارجي. للقراءة والكتابة [`IOuterShadow`](../../aspose.slides.effects/ioutershadow). |
-| [PresetShadowEffect](../../aspose.slides/effectformat/presetshadoweffect) { get; set; } | ظل مسبق الإعداد. للقراءة والكتابة [`IPresetShadow`](../../aspose.slides.effects/ipresetshadow). |
-| [ReflectionEffect](../../aspose.slides/effectformat/reflectioneffect) { get; set; } | انعكاس. للقراءة والكتابة [`IReflection`](../../aspose.slides.effects/ireflection). |
-| [SoftEdgeEffect](../../aspose.slides/effectformat/softedgeeffect) { get; set; } | حافة ناعمة. للقراءة والكتابة [`ISoftEdge`](../../aspose.slides.effects/isoftedge). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | يسمح بالحصول على واجهة IPresentationComponent الأساسية. قراءة فقط [`IPresentationComponent`](../ipresentationcomponent). |
+| [BlurEffect](../../aspose.slides/effectformat/blureffect) { get; set; } | تأثير الضبابية. قراءة/كتابة [`IBlur`](../../aspose.slides.effects/iblur). |
+| [FillOverlayEffect](../../aspose.slides/effectformat/filloverlayeffect) { get; set; } | تأثير ملء التراكب. قراءة/كتابة [`IFillOverlay`](../../aspose.slides.effects/ifilloverlay). |
+| [GlowEffect](../../aspose.slides/effectformat/gloweffect) { get; set; } | تأثير التوهج. قراءة/كتابة [`IGlow`](../../aspose.slides.effects/iglow). |
+| [InnerShadowEffect](../../aspose.slides/effectformat/innershadoweffect) { get; set; } | ظل داخلي. قراءة/كتابة [`IInnerShadow`](../../aspose.slides.effects/iinnershadow). |
+| [IsNoEffects](../../aspose.slides/effectformat/isnoeffects) { get; } | يعيد true إذا تم تعطيل جميع التأثيرات (كما هو الحال عند الإنشاء، كائن EffectFormat الافتراضي). قراءة فقط Boolean. |
+| [OuterShadowEffect](../../aspose.slides/effectformat/outershadoweffect) { get; set; } | ظل خارجي. قراءة/كتابة [`IOuterShadow`](../../aspose.slides.effects/ioutershadow). |
+| [PresetShadowEffect](../../aspose.slides/effectformat/presetshadoweffect) { get; set; } | ظل مسبق الإعداد. قراءة/كتابة [`IPresetShadow`](../../aspose.slides.effects/ipresetshadow). |
+| [ReflectionEffect](../../aspose.slides/effectformat/reflectioneffect) { get; set; } | انعكاس. قراءة/كتابة [`IReflection`](../../aspose.slides.effects/ireflection). |
+| [SoftEdgeEffect](../../aspose.slides/effectformat/softedgeeffect) { get; set; } | حافة ناعمة. قراءة/كتابة [`ISoftEdge`](../../aspose.slides.effects/isoftedge). |
 
 ## الطرق
 
-| Name | Description |
+| الاسم | الوصف |
 | --- | --- |
 | [DisableBlurEffect](../../aspose.slides/effectformat/disableblureffect)() | يعطل تأثير الضبابية. |
-| [DisableFillOverlayEffect](../../aspose.slides/effectformat/disablefilloverlayeffect)() | يعطل تأثير تغطية التعبئة. |
+| [DisableFillOverlayEffect](../../aspose.slides/effectformat/disablefilloverlayeffect)() | يعطل تأثير ملء التراكب. |
 | [DisableGlowEffect](../../aspose.slides/effectformat/disablegloweffect)() | يعطل تأثير التوهج. |
 | [DisableInnerShadowEffect](../../aspose.slides/effectformat/disableinnershadoweffect)() | يعطل تأثير الظل الداخلي. |
 | [DisableOuterShadowEffect](../../aspose.slides/effectformat/disableoutershadoweffect)() | يعطل تأثير الظل الخارجي. |
-| [DisablePresetShadowEffect](../../aspose.slides/effectformat/disablepresetshadoweffect)() | يعطل تأثير الظل المسبق. |
+| [DisablePresetShadowEffect](../../aspose.slides/effectformat/disablepresetshadoweffect)() | يعطل تأثير الظل المسبق الإعداد. |
 | [DisableReflectionEffect](../../aspose.slides/effectformat/disablereflectioneffect)() | يعطل تأثير الانعكاس. |
 | [DisableSoftEdgeEffect](../../aspose.slides/effectformat/disablesoftedgeeffect)() | يعطل تأثير الحافة الناعمة. |
-| [EnableFillOverlayEffect](../../aspose.slides/effectformat/enablefilloverlayeffect)() | يُفعّل تأثير تغطية التعبئة. |
-| [EnableGlowEffect](../../aspose.slides/effectformat/enablegloweffect)() | يُفعّل تأثير التوهج. |
-| [EnableInnerShadowEffect](../../aspose.slides/effectformat/enableinnershadoweffect)() | يُفعّل تأثير الظل الداخلي. |
-| [EnableOuterShadowEffect](../../aspose.slides/effectformat/enableoutershadoweffect)() | يُفعّل تأثير الظل الخارجي. |
-| [EnablePresetShadowEffect](../../aspose.slides/effectformat/enablepresetshadoweffect)() | يُفعّل تأثير الظلال المسبقة. |
-| [EnableReflectionEffect](../../aspose.slides/effectformat/enablereflectioneffect)() | يُفعّل تأثير الانعكاس. |
-| [EnableSoftEdgeEffect](../../aspose.slides/effectformat/enablesoftedgeeffect)() | يُفعّل تأثير الحافة الناعمة. |
+| [EnableFillOverlayEffect](../../aspose.slides/effectformat/enablefilloverlayeffect)() | يفعّل تأثير ملء التراكب. |
+| [EnableGlowEffect](../../aspose.slides/effectformat/enablegloweffect)() | يفعّل تأثير التوهج. |
+| [EnableInnerShadowEffect](../../aspose.slides/effectformat/enableinnershadoweffect)() | يفعّل تأثير الظل الداخلي. |
+| [EnableOuterShadowEffect](../../aspose.slides/effectformat/enableoutershadoweffect)() | يفعّل تأثير الظل الخارجي. |
+| [EnablePresetShadowEffect](../../aspose.slides/effectformat/enablepresetshadoweffect)() | يفعّل تأثير الظلال المسبقة الإعداد. |
+| [EnableReflectionEffect](../../aspose.slides/effectformat/enablereflectioneffect)() | يفعّل تأثير الانعكاس. |
+| [EnableSoftEdgeEffect](../../aspose.slides/effectformat/enablesoftedgeeffect)() | يفعّل تأثير الحافة الناعمة. |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | يقارن مع الكائن المحدد. |
-| [GetEffective](../../aspose.slides/effectformat/geteffective)() | يحصل على بيانات تنسيق التأثير الفعّالة مع تطبيق الوراثة. |
+| [GetEffective](../../aspose.slides/effectformat/geteffective)() | يحصل على بيانات تنسيق التأثير الفعّال مع تطبيق الوراثة. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | يعيد رمز التجزئة. |
 | [SetBlurEffect](../../aspose.slides/effectformat/setblureffect)(double, bool) | يضبط تأثير الضبابية. |
 
 ### انظر أيضًا
 
-* الفئة [PVIObject](../pviobject)
-* الواجهة [IEffectFormat](../ieffectformat)
-* مساحة الاسم [Aspose.Slides](../../aspose.slides)
-* التجميع [Aspose.Slides](../../)
+* فئة [PVIObject](../pviobject)
+* واجهة [IEffectFormat](../ieffectformat)
+* مساحة اسم [Aspose.Slides](../../aspose.slides)
+* تجميع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

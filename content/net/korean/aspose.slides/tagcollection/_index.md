@@ -1,9 +1,9 @@
 ---
 title: TagCollection
-second_title: Aspose.Sildes for .NET API 참조
-description: 태그와 사용자 정의 문자열 쌍의 컬렉션을 나타냅니다
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 사용자 정의 문자열 쌍으로 구성된 태그 컬렉션을 나타냅니다
 type: docs
-weight: 10890
+weight: 10910
 url: /ko/aspose.slides/tagcollection/
 ---
 ## TagCollection 클래스
@@ -18,7 +18,7 @@ public sealed class TagCollection : ITagCollection
 
 | 이름 | 설명 |
 | --- | --- |
-| [Count](../../aspose.slides/tagcollection/count) { get; } | 컬렉션에 포함된 태그 수를 반환합니다. 읽기 전용 Int32. |
+| [Count](../../aspose.slides/tagcollection/count) { get; } | 컬렉션에 있는 태그 수를 반환합니다. 읽기 전용 Int32. |
 | [IsSynchronized](../../aspose.slides/tagcollection/issynchronized) { get; } | 컬렉션에 대한 접근이 동기화(스레드 안전)되는지 여부를 나타내는 값을 반환합니다. 읽기 전용 Boolean. |
 | [Item](../../aspose.slides/tagcollection/item) { get; set; } | 태그의 키와 값 쌍을 반환하거나 설정합니다. |
 | [SyncRoot](../../aspose.slides/tagcollection/syncroot) { get; } | 동기화 루트를 반환합니다. 읽기 전용 Object. |
@@ -27,17 +27,17 @@ public sealed class TagCollection : ITagCollection
 
 | 이름 | 설명 |
 | --- | --- |
-| [Add](../../aspose.slides/tagcollection/add)(string, string) | 컬렉션에 새 태그를 추가합니다. |
-| [Clear](../../aspose.slides/tagcollection/clear)() | 컬렉션의 모든 태그를 제거합니다. |
+| [Add](../../aspose.slides/tagcollection/add)(string, string) | 컬렉션에 새로운 태그를 추가합니다. |
+| [Clear](../../aspose.slides/tagcollection/clear)() | 컬렉션에서 모든 태그를 제거합니다. |
 | [Contains](../../aspose.slides/tagcollection/contains)(string) | 컬렉션에 특정 이름이 포함되어 있는지 확인합니다. |
-| [CopyTo](../../aspose.slides/tagcollection/copyto)(Array, int) | 컬렉션의 모든 요소를 지정된 배열로 복사합니다. |
-| [GetEnumerator](../../aspose.slides/tagcollection/getenumerator)() | 컬렉션을 순회하는 열거자를 반환합니다. |
+| [CopyTo](../../aspose.slides/tagcollection/copyto)(Array, int) | 컬렉션의 모든 요소를 지정된 배열에 복사합니다. |
+| [GetEnumerator](../../aspose.slides/tagcollection/getenumerator)() | 컬렉션을 반복하는 열거자를 반환합니다. |
 | [GetNameByIndex](../../aspose.slides/tagcollection/getnamebyindex)(int) | 지정된 인덱스에 있는 태그의 키를 반환합니다. |
-| [GetNamesOfTags](../../aspose.slides/tagcollection/getnamesoftags)() | 태그 이름들을 반환합니다. |
+| [GetNamesOfTags](../../aspose.slides/tagcollection/getnamesoftags)() | 태그의 이름을 반환합니다. |
 | [GetValueByIndex](../../aspose.slides/tagcollection/getvaluebyindex)(int) | 지정된 인덱스에 있는 태그의 값을 반환합니다. |
-| [IndexOfName](../../aspose.slides/tagcollection/indexofname)(string) | 컬렉션에서 지정된 키의 0부터 시작하는 인덱스를 반환합니다. |
+| [IndexOfName](../../aspose.slides/tagcollection/indexofname)(string) | 컬렉션에서 지정된 키의 0 기반 인덱스를 반환합니다. |
 | [Remove](../../aspose.slides/tagcollection/remove)(string) | 컬렉션에서 지정된 이름을 가진 태그를 제거합니다. |
-| [RemoveAt](../../aspose.slides/tagcollection/removeat)(int) | 지정된 인덱스에 있는 태그를 제거합니다. |
+| [RemoveAt](../../aspose.slides/tagcollection/removeat)(int) | 컬렉션에서 지정된 인덱스에 있는 태그를 제거합니다. |
 
 ### 예제
 
@@ -52,7 +52,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### 참조
+### 참고
 
 * 인터페이스 [ITagCollection](../itagcollection)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

@@ -1,14 +1,14 @@
 ---
 title: IAlphaBiLevel
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt einen Alpha-Bi-Level-Effekt dar. Alpha-Opazitätswerte, die kleiner als der Schwellenwert sind, werden auf 0 (vollständig transparent) geändert, und Alpha-Werte, die größer oder gleich dem Schwellenwert sind, werden auf 100 (vollständig undurchsichtig) geändert.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Stellt einen Alpha-Bi-Level-Effekt dar. Alpha-Opazitätswerte, die kleiner als der Schwellenwert sind, werden zu 0 (vollständig transparent) geändert und Alpha-Werte, die größer als oder gleich dem Schwellenwert sind, werden zu 100 (vollständig undurchsichtig) geändert.
 type: docs
-weight: 3020
+weight: 3040
 url: /de/aspose.slides.effects/ialphabilevel/
 ---
 ## IAlphaBiLevel Schnittstelle
 
-Stellt einen Alpha-Bi-Level-Effekt dar. Alpha-Werte (Opazität), die kleiner als der Schwellwert sind, werden auf 0 (vollständig transparent) geändert, und Alpha-Werte, die größer oder gleich dem Schwellwert sind, werden auf 100% (vollständig undurchsichtig) geändert.
+Represents an Alpha Bi-Level effect. Alpha (Opacity) values less than the threshold are changed to 0 (fully transparent) and alpha values greater than or equal to the threshold are changed to 100% (fully opaque).
 
 ```csharp
 public interface IAlphaBiLevel : IAccessiblePVIObject<IAlphaBiLevelEffectiveData>, 
@@ -19,11 +19,11 @@ public interface IAlphaBiLevel : IAccessiblePVIObject<IAlphaBiLevelEffectiveData
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphabilevel/asiaccessiblepviobject) { get; } | Ermöglicht das Abrufen der Basis-IAccessiblePVIObject-Schnittstelle. Nur lesbar [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphabilevel/asiimagetransformoperation) { get; } | Ermöglicht das Abrufen der Basis-IImageTransformOperation-Schnittstelle. Nur lesbar [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Threshold](../../aspose.slides.effects/ialphabilevel/threshold) { get; set; } | Gibt den Effekt-Schwellwert zurück. Lese/Schreib Single. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphabilevel/asiaccessiblepviobject) { get; } | Ermöglicht das Abrufen der Basis-IAccessiblePVIObject-Schnittstelle. Nur-Lese [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphabilevel/asiimagetransformoperation) { get; } | Ermöglicht das Abrufen der Basis-IImageTransformOperation-Schnittstelle. Nur-Lese [`IImageTransformOperation`](../iimagetransformoperation). |
+| [Threshold](../../aspose.slides.effects/ialphabilevel/threshold) { get; set; } | Gibt den Effekt-Schwellenwert zurück. Lesen/Schreiben Single. |
 
-### Bemerkungen
+### Anmerkungen
 
 Verwenden Sie ImageTransformOperationFactory, um Instanzen in COM zu erstellen.
 

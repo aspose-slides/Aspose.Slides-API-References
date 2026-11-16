@@ -1,14 +1,14 @@
 ---
 title: INormalViewProperties
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 정규 보기 속성을 나타냅니다. 정규 보기에는 슬라이드 자체, 측면 콘텐츠 영역 및 하단 콘텐츠 영역의 세 가지 콘텐츠 영역이 포함됩니다.
+description: 표준 보기 속성을 나타냅니다. 표준 보기에는 슬라이드 자체, 측면 콘텐츠 영역 및 하단 콘텐츠 영역의 세 가지 콘텐츠 영역이 포함됩니다.
 type: docs
-weight: 6470
+weight: 6490
 url: /ko/aspose.slides/inormalviewproperties/
 ---
 ## INormalViewProperties 인터페이스
 
-정규 보기 속성을 나타냅니다. 정규 보기에는 슬라이드 자체, 측면 콘텐츠 영역 및 하단 콘텐츠 영역의 세 가지 콘텐츠 영역이 포함됩니다.
+표준 보기 속성을 나타냅니다. 표준 보기에는 슬라이드 자체, 측면 콘텐츠 영역, 하단 콘텐츠 영역의 세 가지 콘텐츠 영역이 포함됩니다.
 
 ```csharp
 public interface INormalViewProperties
@@ -16,17 +16,17 @@ public interface INormalViewProperties
 
 ## 속성
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
-| [HorizontalBarState](../../aspose.slides/inormalviewproperties/horizontalbarstate) { get; set; } | 수평 스플리터 막대가 표시되어야 하는 상태를 지정합니다. 수평 스플리터 막대는 슬라이드를 슬라이드 아래의 콘텐츠 영역과 구분합니다. |
-| [PreferSingleView](../../aspose.slides/inormalviewproperties/prefersingleview) { get; set; } | 사용자가 세 개의 콘텐츠 영역이 있는 표준 정규 보기 대신 전체 창 단일 콘텐츠 영역을 보기를 선호하는지 여부를 지정합니다. 사용 설정된 경우, 애플리케이션은 전체 창에 하나의 콘텐츠 영역을 표시하도록 선택할 수 있습니다. 읽기/쓰기 Boolean. |
-| [RestoredLeft](../../aspose.slides/inormalviewproperties/restoredleft) { get; } | 이 요소는 정규 보기의 측면 콘텐츠 영역 크기를 지정합니다(크기가 복원된 가변 상태이며 최소화 또는 최대화되지 않음). 읽기 전용 [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
-| [RestoredTop](../../aspose.slides/inormalviewproperties/restoredtop) { get; } | 이 요소는 정규 보기의 상단 슬라이드 영역 크기를 지정합니다(크기가 복원된 가변 상태이며 최소화 또는 최대화되지 않음). 읽기 전용 [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
-| [ShowOutlineIcons](../../aspose.slides/inormalviewproperties/showoutlineicons) { get; set; } | 정규 보기 모드의 어떤 콘텐츠 영역에서 개요 콘텐츠를 표시할 때 애플리케이션이 아이콘을 표시해야 하는지 여부를 지정합니다. 읽기/쓰기 Boolean. |
-| [SnapVerticalSplitter](../../aspose.slides/inormalviewproperties/snapverticalsplitter) { get; set; } | 측면 영역이 충분히 작을 때 수직 스플리터가 최소화 상태로 스냅되는지 여부를 지정합니다. 읽기/쓰기 Boolean. |
-| [VerticalBarState](../../aspose.slides/inormalviewproperties/verticalbarstate) { get; set; } | 수직 스플리터 막대가 표시되어야 하는 상태를 지정합니다. 수직 스플리터 막대는 슬라이드를 측면 콘텐츠 영역과 구분합니다. |
+| [HorizontalBarState](../../aspose.slides/inormalviewproperties/horizontalbarstate) { get; set; } | 수평 분할 막대가 표시되어야 하는 상태를 지정합니다. 수평 분할 막대는 슬라이드와 슬라이드 아래의 콘텐츠 영역을 구분합니다. |
+| [PreferSingleView](../../aspose.slides/inormalviewproperties/prefersingleview) { get; set; } | 사용자가 세 개의 콘텐츠 영역을 갖는 표준 일반 보기보다 전체 창 단일 콘텐츠 영역을 보기를 선호하는지 여부를 지정합니다. 사용 설정된 경우, 애플리케이션은 하나의 콘텐츠 영역을 전체 창에 표시하도록 선택할 수 있습니다. 읽기/쓰기 Boolean. |
+| [RestoredLeft](../../aspose.slides/inormalviewproperties/restoredleft) { get; } | 이 요소는 영역이 가변 복원 크기(축소되지도 최대화되지도 않음)인 경우, 표준 보기의 측면 콘텐츠 영역 크기를 지정합니다. 읽기 전용 [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
+| [RestoredTop](../../aspose.slides/inormalviewproperties/restoredtop) { get; } | 이 요소는 영역이 가변 복원 크기(축소되지도 최대화되지도 않음)인 경우, 표준 보기의 상단 슬라이드 영역 크기를 지정합니다. 읽기 전용 [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
+| [ShowOutlineIcons](../../aspose.slides/inormalviewproperties/showoutlineicons) { get; set; } | 표준 보기 모드의 어느 콘텐츠 영역에서든 개요 콘텐츠를 표시할 때 애플리케이션이 아이콘을 표시해야 하는지 여부를 지정합니다. 읽기/쓰기 Boolean. |
+| [SnapVerticalSplitter](../../aspose.slides/inormalviewproperties/snapverticalsplitter) { get; set; } | 측면 영역이 충분히 작을 때 수직 분할기가 최소화 상태에 스냅하도록 할지 여부를 지정합니다. 읽기/쓰기 Boolean. |
+| [VerticalBarState](../../aspose.slides/inormalviewproperties/verticalbarstate) { get; set; } | 수직 분할 막대가 표시되어야 하는 상태를 지정합니다. 수직 분할 막대는 슬라이드와 측면 콘텐츠 영역을 구분합니다. |
 
-### 참고
+### 참조
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

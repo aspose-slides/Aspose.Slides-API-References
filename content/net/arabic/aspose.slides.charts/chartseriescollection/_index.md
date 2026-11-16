@@ -1,9 +1,9 @@
 ---
 title: ChartSeriesCollection
-second_title: مرجع API لـ Aspose.Sildes لـ .NET
+second_title: مرجع API لـ Aspose.Sildes for .NET
 description: يمثل مجموعة من ChartSeries./chartseries
 type: docs
-weight: 1450
+weight: 1460
 url: /ar/aspose.slides.charts/chartseriescollection/
 ---
 ## ChartSeriesCollection فئة
@@ -18,24 +18,24 @@ public class ChartSeriesCollection : DomObject<ChartData>, IChartSeriesCollectio
 
 | الاسم | الوصف |
 | --- | --- |
-| [Count](../../aspose.slides.charts/chartseriescollection/count) { get; } | يرجع عددًا من الكائنات في المجموعة. للقراءة فقط Int32. |
-| [IsSynchronized](../../aspose.slides.charts/chartseriescollection/issynchronized) { get; } | يرجع قيمة تشير إلى ما إذا كان الوصول إلى المجموعة متزامنًا (آمن للخيوط). للقراءة فقط Boolean. |
-| [Item](../../aspose.slides.charts/chartseriescollection/item) { get; } | يحصل على العنصر في الفهرس المحدد. |
-| [SyncRoot](../../aspose.slides.charts/chartseriescollection/syncroot) { get; } | يرجع جذر التزامن. للقراءة فقط Object. |
+| [Count](../../aspose.slides.charts/chartseriescollection/count) { get; } | يعيد عددًا من الكائنات في المجموعة. قراءة فقط Int32. |
+| [IsSynchronized](../../aspose.slides.charts/chartseriescollection/issynchronized) { get; } | يعيد قيمة تشير إلى ما إذا كان الوصول إلى المجموعة متزامنًا (آمن ضد الخيوط). قراءة فقط Boolean. |
+| [Item](../../aspose.slides.charts/chartseriescollection/item) { get; } | يجلب العنصر في الفهرس المحدد. |
+| [SyncRoot](../../aspose.slides.charts/chartseriescollection/syncroot) { get; } | يعيد جذر المزامنة. قراءة فقط Object. |
 
 ## الطرق
 
 | الاسم | الوصف |
 | --- | --- |
-| [Add](../../aspose.slides.charts/chartseriescollection/add#add)(ChartType) | ينشئ سلسلة مخطط جديدة ويضيفها إلى المجموعة. |
-| [Add](../../aspose.slides.charts/chartseriescollection/add#add_1)(IChartCellCollection, ChartType) | ينشئ سلسلة مخطط جديدة من [`ChartCellCollection`](../chartcellcollection) ويضيفها إلى المجموعة. |
-| [Add](../../aspose.slides.charts/chartseriescollection/add#add_2)(IChartDataCell, ChartType) | ينشئ سلسلة مخطط جديدة من [`ChartDataCell`](../chartdatacell) ويضيفها إلى المجموعة. |
-| [Add](../../aspose.slides.charts/chartseriescollection/add#add_3)(string, ChartType) | ينشئ سلسلة مخطط جديدة من القيمة ويضيفها إلى المجموعة. |
-| [Clear](../../aspose.slides.charts/chartseriescollection/clear)() | يزيل جميع عناصر التحكم من المجموعة. |
-| [CopyTo](../../aspose.slides.charts/chartseriescollection/copyto)(Array, int) | ينسخ المجموعة بأكملها إلى المصفوفة المحددة. |
-| [GetEnumerator](../../aspose.slides.charts/chartseriescollection/getenumerator)() | يرجع المُعدد الذي يتجول عبر المجموعة. |
-| [IndexOf](../../aspose.slides.charts/chartseriescollection/indexof)(IChartSeries) | يبحث عن [`ChartSeries`](../chartseries) المحدد ويعيد الفهرس الصفري للظهور الأول داخل المجموعة بالكامل |
-| [Insert](../../aspose.slides.charts/chartseriescollection/insert)(int, ChartType) | ينشئ سلسلة مخطط جديدة ويُدرجها في المجموعة. |
+| [Add](../../aspose.slides.charts/chartseriescollection/add#add)(ChartType) | ينتج سلسلة مخطط جديدة ويضيفها إلى المجموعة. |
+| [Add](../../aspose.slides.charts/chartseriescollection/add#add_1)(IChartCellCollection, ChartType) | ينتج سلسلة مخطط جديدة من [`ChartCellCollection`](../chartcellcollection) ويضيفها إلى المجموعة. |
+| [Add](../../aspose.slides.charts/chartseriescollection/add#add_2)(IChartDataCell, ChartType) | ينتج سلسلة مخطط جديدة من [`ChartDataCell`](../chartdatacell) ويضيفها إلى المجموعة. |
+| [Add](../../aspose.slides.charts/chartseriescollection/add#add_3)(string, ChartType) | ينتج سلسلة مخطط جديدة من القيمة ويضيفها إلى المجموعة. |
+| [Clear](../../aspose.slides.charts/chartseriescollection/clear)() | يزيل جميع العناصر التحكمية من المجموعة. |
+| [CopyTo](../../aspose.slides.charts/chartseriescollection/copyto)(Array, int) | ينسخ المجموعة بالكامل إلى المصفوفة المحددة. |
+| [GetEnumerator](../../aspose.slides.charts/chartseriescollection/getenumerator)() | يعيد كائن تعداد يتنقل عبر المجموعة. |
+| [IndexOf](../../aspose.slides.charts/chartseriescollection/indexof)(IChartSeries) | يبحث عن [`ChartSeries`](../chartseries) المحدد ويعيد الفهرس صفر القاعدة لأول حدوث داخل المجموعة بالكامل |
+| [Insert](../../aspose.slides.charts/chartseriescollection/insert)(int, ChartType) | ينتج سلسلة مخطط جديدة ويُدرجها في المجموعة. |
 | [Remove](../../aspose.slides.charts/chartseriescollection/remove)(IChartSeries) | يزيل القيمة المحددة. |
 | [RemoveAt](../../aspose.slides.charts/chartseriescollection/removeat)(int) | يزيل عنصر تحكم ActiveX المخزن في الموضع المحدد من المجموعة. |
 
@@ -44,7 +44,7 @@ public class ChartSeriesCollection : DomObject<ChartData>, IChartSeriesCollectio
 * فئة [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * فئة [ChartData](../chartdata)
 * واجهة [IChartSeriesCollection](../ichartseriescollection)
-* مساحة الاسم [Aspose.Slides.Charts](../../aspose.slides.charts)
-* التجميع [Aspose.Slides](../../)
+* مساحة أسماء [Aspose.Slides.Charts](../../aspose.slides.charts)
+* تجميع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

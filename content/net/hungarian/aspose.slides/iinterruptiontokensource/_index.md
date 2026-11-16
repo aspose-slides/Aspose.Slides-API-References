@@ -1,14 +1,14 @@
 ---
 title: IInterruptionTokenSource
-second_title: Aspose.Sildes .NET API Referenciája
-description: Az IInterruptionToken forrását képviseli.
+second_title: Aspose.Sildes a .NET API hivatkozás
+description: A IInterruptionToken./iinterruptiontoken forrását képviseli.
 type: docs
-weight: 6200
+weight: 6220
 url: /hu/aspose.slides/iinterruptiontokensource/
 ---
 ## IInterruptionTokenSource interfész
 
-A(z) [`IInterruptionToken`](../iinterruptiontoken) forrását képviseli.
+Represents the source of [`IInterruptionToken`](../iinterruptiontoken).
 
 ```csharp
 public interface IInterruptionTokenSource
@@ -18,14 +18,14 @@ public interface IInterruptionTokenSource
 
 | Név | Leírás |
 | --- | --- |
-| [IsInterruptionRequested](../../aspose.slides/iinterruptiontokensource/isinterruptionrequested) { get; } | Igaz értéket ad vissza, ha megszakításra kérés történt, egyébként hamis. |
-| [Token](../../aspose.slides/iinterruptiontokensource/token) { get; } | Új token visszaadása, amely ehhez a [`IInterruptionTokenSource`](../iinterruptiontokensource) van kötve. |
+| [IsInterruptionRequested](../../aspose.slides/iinterruptiontokensource/isinterruptionrequested) { get; } | true értéket ad vissza, ha megszakítás kérve van, különben false. |
+| [Token](../../aspose.slides/iinterruptiontokensource/token) { get; } | Visszaadja az új token-t, amely ehhez a [`IInterruptionTokenSource`](../iinterruptiontokensource)-hez van kötve. |
 
 ## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [Interrupt](../../aspose.slides/iinterruptiontokensource/interrupt)() | Megszakítási kérést inicializál. |
+| [Interrupt](../../aspose.slides/iinterruptiontokensource/interrupt)() | Megszakítási kérés inicializálása. |
 
 ### Lásd még
 

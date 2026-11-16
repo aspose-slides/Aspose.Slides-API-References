@@ -3,7 +3,7 @@ title: LayoutSlideCollection
 second_title: Aspose.Sildes para .NET Referência da API
 description: Representa uma classe base para a coleção de slides de layout.
 type: docs
-weight: 7650
+weight: 7670
 url: /pt/aspose.slides/layoutslidecollection/
 ---
 ## LayoutSlideCollection classe
@@ -16,20 +16,20 @@ public class LayoutSlideCollection : ILayoutSlideCollection
 
 ## Propriedades
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
 | [Count](../../aspose.slides/layoutslidecollection/count) { get; } | Retorna o número de slides de layout em uma coleção. Somente leitura Int32. |
-| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | Retorna um valor que indica se o acesso à coleção está sincronizado (thread-safe). Somente leitura Boolean. |
+| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | Retorna um valor que indica se o acesso à coleção é sincronizado (thread-safe). Somente leitura Boolean. |
 | [Item](../../aspose.slides/layoutslidecollection/item) { get; } | Retorna o slide de layout por índice. Somente leitura [`LayoutSlide`](../layoutslide). |
-| [SyncRoot](../../aspose.slides/layoutslidecollection/syncroot) { get; } | Retorna uma raiz de sincronização. Somente leitura Object. |
+| [SyncRoot](../../aspose.slides/layoutslidecollection/syncroot) { get; } | Retorna um objeto de sincronização. Somente leitura Object. |
 
 ## Métodos
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
 | [CopyTo](../../aspose.slides/layoutslidecollection/copyto)(Array, int) | Copia todos os elementos da coleção para o array especificado. |
 | [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | Retorna o primeiro slide de layout do tipo especificado. Um tipo de slide de layout a ser encontrado.[`LayoutSlide`](../layoutslide) com o tipo especificado ou null se nenhum layout for encontrado. |
-| [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | Retorna um enumerador que itera através da coleção. |
+| [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | Retorna um enumerador que itera sobre a coleção. |
 | [Remove](../../aspose.slides/layoutslidecollection/remove)(ILayoutSlide) | Remove um layout da coleção. |
 | [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | Remove slides de layout não utilizados (slides de layout cujo HasDependingSlides é false). |
 

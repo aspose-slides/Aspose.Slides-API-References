@@ -1,14 +1,14 @@
 ---
 title: CellUnsupportedDataException
-second_title: Aspose.Sildes pour la référence API .NET
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: L'exception qui est levée lorsqu'une donnée non prise en charge est rencontrée dans une cellule de feuille de calcul.
 type: docs
-weight: 10730
+weight: 10750
 url: /fr/aspose.slides.spreadsheet/cellunsupporteddataexception/
 ---
 ## CellUnsupportedDataException classe
 
-L’exception qui est levée lorsqu’une donnée non prise en charge est rencontrée dans une cellule de feuille de calcul.
+L'exception qui est levée lorsqu'une donnée non prise en charge est rencontrée dans une cellule de feuille de calcul.
 
 ```csharp
 public class CellUnsupportedDataException : PptxEditException
@@ -19,8 +19,8 @@ public class CellUnsupportedDataException : PptxEditException
 | Nom | Description |
 | --- | --- |
 | [CellUnsupportedDataException](cellunsupporteddataexception#constructor)() | Initialise une nouvelle instance de la classe [`CellUnsupportedDataException`](../cellunsupporteddataexception). |
-| [CellUnsupportedDataException](cellunsupporteddataexception#constructor_1)(string) | Initialise une nouvelle instance de la classe [`CellUnsupportedDataException`](../cellunsupporteddataexception) avec un message d’erreur spécifié. |
-| [CellUnsupportedDataException](cellunsupporteddataexception#constructor_2)(string, Exception) | Initialise une nouvelle instance de la classe [`CellUnsupportedDataException`](../cellunsupporteddataexception) avec un message d’erreur spécifié et une référence à l’exception interne qui est la cause de cette exception. |
+| [CellUnsupportedDataException](cellunsupporteddataexception#constructor_1)(string) | Initialise une nouvelle instance de la classe [`CellUnsupportedDataException`](../cellunsupporteddataexception) avec un message d'erreur spécifié. |
+| [CellUnsupportedDataException](cellunsupporteddataexception#constructor_2)(string, Exception) | Initialise une nouvelle instance de la classe [`CellUnsupportedDataException`](../cellunsupporteddataexception) avec un message d'erreur spécifié et une référence à l'exception interne qui est la cause de cette exception. |
 
 ### Voir aussi
 

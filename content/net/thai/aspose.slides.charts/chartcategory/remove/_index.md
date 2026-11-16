@@ -1,9 +1,9 @@
 ---
 title: Remove
-second_title: Aspose.Sildes สำหรับ .NET API Reference
+second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
 description: ลบประเภทออกจากแผนภูมิ.
 type: docs
-weight: 60
+weight: 70
 url: /th/aspose.slides.charts/chartcategory/remove/
 ---
 ## ChartCategory.Remove เมธอด
@@ -18,7 +18,7 @@ public void Remove()
 
 | ข้อยกเว้น | เงื่อนไข |
 | --- | --- |
-| [PptxEditException](../../../aspose.slides/pptxeditexception) | เกิดข้อยกเว้นหากประเภทได้ถูกลบออกจากแผนภูมิแล้ว. |
+| [PptxEditException](../../../aspose.slides/pptxeditexception) | เกิดข้อยกเว้นหากประเภทถูกลบออกจากแผนภูมิแล้ว. |
 
 ### ดูเพิ่มเติม
 

@@ -1,9 +1,9 @@
 ---
 title: IPresentationComponent
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Referencia API de Aspose.Sildes para .NET
 description: Representa un componente de una presentación.
 type: docs
-weight: 6760
+weight: 6780
 url: /es/aspose.slides/ipresentationcomponent/
 ---
 ## IPresentationComponent interfaz

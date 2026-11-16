@@ -3,12 +3,12 @@ title: NotesSlideManager
 second_title: Aspose.Sildes için .NET API Referansı
 description: Not slaytı yöneticisi.
 type: docs
-weight: 9160
+weight: 9180
 url: /tr/aspose.slides/notesslidemanager/
 ---
 ## NotesSlideManager sınıfı
 
-Not slayt yöneticisi.
+Not slaytı yöneticisi.
 
 ```csharp
 public sealed class NotesSlideManager : DomObject<Slide>, INotesSlideManager
@@ -18,22 +18,22 @@ public sealed class NotesSlideManager : DomObject<Slide>, INotesSlideManager
 
 | Ad | Açıklama |
 | --- | --- |
-| [NotesSlide](../../aspose.slides/notesslidemanager/notesslide) { get; } | Mevcut slayt için not slaytını döndürür. Slaytın not slaytı yoksa null döndürür. Salt okunur [`INotesSlide`](../inotesslide). |
+| [NotesSlide](../../aspose.slides/notesslidemanager/notesslide) { get; } | Geçerli slayt için not slaytını döndürür. Slaytta not slaytı yoksa null döndürür. Salt okunur [`INotesSlide`](../inotesslide). |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [AddNotesSlide](../../aspose.slides/notesslidemanager/addnotesslide)() | Mevcut slayt için not slaytını döndürür, yoksa bir tane oluşturur. |
-| [RemoveNotesSlide](../../aspose.slides/notesslidemanager/removenotesslide)() | Mevcut slaytın not slaytını kaldırır. |
+| [AddNotesSlide](../../aspose.slides/notesslidemanager/addnotesslide)() | Geçerli slayt için not slaytını döndürür, yoksa bir tane oluşturur. |
+| [RemoveNotesSlide](../../aspose.slides/notesslidemanager/removenotesslide)() | Geçerli slaytın not slaytını kaldırır. |
 
 ### Örnekler
 
-Aşağıdaki örnek, belirli bir PowerPoint sunum slaytına Not eklemenin nasıl yapılacağını gösterir.
+Aşağıdaki örnek, belirli bir PowerPoint sunumu slaydına Not eklemenin nasıl yapılacağını gösterir.
 
 ```csharp
 [C#]
-	// Bir sunum dosyasını temsil eden Presentation nesnesini örnekleyin
+	// Bir sunum dosyasını temsil eden Presentation nesnesi oluşturur
 	using(Presentation presentation = new Presentation(dataDir + "AccessSlides.pptx")) {
 	  // İlk slayta not ekle
 	  INotesSlideManager mgr = presentation.Slides[0].NotesSlideManager;
@@ -44,13 +44,13 @@ Aşağıdaki örnek, belirli bir PowerPoint sunum slaytına Not eklemenin nasıl
 	}
 ```
 
-Aşağıdaki örnek, PowerPoint sunumunun belirli bir slaytından Notları kaldırmanın nasıl yapıldığını gösterir.
+Aşağıdaki örnek, PowerPoint sunumunun belirli bir slaydından Notları kaldırmanın nasıl yapılacağını gösterir.
 
 ```csharp
 [C#]
-	// Sunum dosyasını temsil eden bir Presentation nesnesi örnekleyin
+	// Bir sunum dosyasını temsil eden Presentation nesnesi oluşturur
 	using(Presentation presentation = new Presentation(dataDir + "AccessSlides.pptx")) {
-	  // İlk slaytın notlarını kaldırma
+	  // İlk slaytın notlarını kaldırıyor
 	  INotesSlideManager mgr = presentation.Slides[0].NotesSlideManager;
 	  mgr.RemoveNotesSlide();
 	  // Sunumu diske kaydet
@@ -58,7 +58,7 @@ Aşağıdaki örnek, PowerPoint sunumunun belirli bir slaytından Notları kald�
 	}
 ```
 
-### İlgili
+### Ayrıca Bakınız
 
 * sınıf [DomObject&lt;TParent&gt;](../domobject-1)
 * sınıf [Slide](../slide)

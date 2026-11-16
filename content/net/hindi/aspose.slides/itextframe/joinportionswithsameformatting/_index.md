@@ -3,10 +3,10 @@ title: JoinPortionsWithSameFormatting
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
 description: सभी पैराग्राफ़ में समान फ़ॉर्मेटिंग वाले रन को जोड़ता है।
 type: docs
-weight: 100
+weight: 110
 url: /hi/aspose.slides/itextframe/joinportionswithsameformatting/
 ---
-## ITextFrame.JoinPortionsWithSameFormatting विधि
+## ITextFrame.JoinPortionsWithSameFormatting मेथड
 
 सभी पैराग्राफ़ में समान फ़ॉर्मेटिंग वाले रन को जोड़ता है।
 

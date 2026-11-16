@@ -3,7 +3,7 @@ title: EffectFactory
 second_title: Aspose.Sildes for .NET API 参考
 description: 允许创建效果
 type: docs
-weight: 2970
+weight: 2990
 url: /zh/aspose.slides.effects/effectfactory/
 ---
 ## EffectFactory 类
@@ -41,7 +41,7 @@ public class EffectFactory : IEffectFactory
 
 用于 COM 兼容性。
 
-### 另请参见
+### 另请参阅
 
 * 接口 [IEffectFactory](../ieffectfactory)
 * 命名空间 [Aspose.Slides.Effects](../../aspose.slides.effects)

@@ -1,14 +1,14 @@
 ---
 title: IAlphaModulate
-second_title: Referencia de API de Aspose.Sildes para .NET
-description: Representa un efecto Alpha Modulate. Los valores de opacidad alfa del efecto se multiplican por un porcentaje fijo. El contenedor de efectos especifica un efecto que contiene valores alfa para modular.
+second_title: Referencia API de Aspose.Sildes para .NET
+description: Representa un efecto Alpha Modulate. Los valores de alfa (opacidad) del efecto se multiplican por un porcentaje fijo. El contenedor de efectos especifica un efecto que contiene valores alfa para modular.
 type: docs
-weight: 3100
+weight: 3120
 url: /es/aspose.slides.effects/ialphamodulate/
 ---
-## interfaz IAlphaModulate
+## IAlphaModulate interfaz
 
-Representa un efecto Alpha Modulate. Los valores alfa (opacidad) del efecto se multiplican por un porcentaje fijo. El contenedor de efectos especifica un efecto que contiene valores alfa para modular.
+Representa un efecto Alpha Modulate. Los valores de alfa (opacidad) del efecto se multiplican por un porcentaje fijo. El contenedor de efecto especifica un efecto que contiene valores alfa para modular.
 
 ```csharp
 public interface IAlphaModulate : IAccessiblePVIObject<IAlphaModulateEffectiveData>, 

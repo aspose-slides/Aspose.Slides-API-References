@@ -1,9 +1,9 @@
 ---
 title: CommonSlideViewProperties
-second_title: Aspose.Sildes для .NET API справка
+second_title: Справочник API Aspose.Sildes для .NET
 description: Представляет общие свойства просмотра слайда.
 type: docs
-weight: 2660
+weight: 2680
 url: /ru/aspose.slides/commonslideviewproperties/
 ---
 ## CommonSlideViewProperties класс
@@ -18,9 +18,9 @@ public class CommonSlideViewProperties : ICommonSlideViewProperties
 
 | Имя | Описание |
 | --- | --- |
-| [DrawingGuides](../../aspose.slides/commonslideviewproperties/drawingguides) { get; } | Возвращает коллекцию направляющих рисования. Только для чтения [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [Scale](../../aspose.slides/commonslideviewproperties/scale) { get; set; } | Задаёт коэффициент масштабирования просмотра в процентах. Чтение/запись Int32. |
-| [VariableScale](../../aspose.slides/commonslideviewproperties/variablescale) { get; set; } | Задаёт, следует ли автоматически масштабировать содержимое просмотра для лучшего соответствия текущему размеру окна. Чтение/запись Boolean. |
+| [DrawingGuides](../../aspose.slides/commonslideviewproperties/drawingguides) { get; } | Возвращает коллекцию направляющих чертежа. Только для чтения [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [Scale](../../aspose.slides/commonslideviewproperties/scale) { get; set; } | Указывает коэффициент масштабирования представления в процентах. Чтение/запись Int32. |
+| [VariableScale](../../aspose.slides/commonslideviewproperties/variablescale) { get; set; } | Указывает, что содержимое представления должно автоматически масштабироваться для наилучшего соответствия текущему размеру окна. Чтение/запись Boolean. |
 
 ### Примеры
 
@@ -28,10 +28,10 @@ public class CommonSlideViewProperties : ICommonSlideViewProperties
 
 ```csharp
 [C#]
-// Создайте объект Presentation, который представляет файл презентации
+// Создать объект Presentation, представляющий файл презентации
 using (Presentation presentation = new Presentation("demo.pptx"))
 {
-    // Установка свойств просмотра презентации
+    // Установка свойств отображения презентации
     presentation.ViewProperties.SlideViewProperties.Scale = 100; // Значение масштабирования в процентах для просмотра слайда
 	presentation.ViewProperties.NotesViewProperties.Scale = 100; // Значение масштабирования в процентах для просмотра заметок
     presentation.Save("Zoom_out.pptx", SaveFormat.Pptx);

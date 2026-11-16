@@ -1,14 +1,14 @@
 ---
 title: ImagePixelFormat
-second_title: Aspose.Sildes для .NET API Reference
-description: Указывает формат пикселей для создаваемых изображений.
+second_title: Aspose.Sildes для .NET: справочник API
+description: Указывает формат пикселей для генерируемых изображений.
 type: docs
-weight: 4210
+weight: 4230
 url: /ru/aspose.slides.export/imagepixelformat/
 ---
 ## Перечисление ImagePixelFormat
 
-Указывает формат пикселей для создаваемых изображений.
+Указывает формат пикселей для генерируемых изображений.
 
 ```csharp
 public enum ImagePixelFormat

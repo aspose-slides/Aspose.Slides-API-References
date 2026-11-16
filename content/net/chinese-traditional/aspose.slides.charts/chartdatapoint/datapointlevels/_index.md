@@ -1,14 +1,14 @@
 ---
 title: DataPointLevels
 second_title: Aspose.Sildes for .NET API 參考
-description: 傳回資料點層級的容器。適用於 Treeamp 和 Sunburst 系列。資料點層級索引以零為基礎。
+description: 返回資料點層級的容器。適用於 Treeamp 和 Sunburst 系列。資料點層級的索引是從零開始。
 type: docs
-weight: 70
+weight: 110
 url: /zh-hant/aspose.slides.charts/chartdatapoint/datapointlevels/
 ---
 ## ChartDataPoint.DataPointLevels 屬性
 
-傳回資料點層級的容器。適用於 Treeamp 和 Sunburst 系列。資料點層級索引以零為基礎。
+返回資料點層級的容器。適用於 Treeamp 和 Sunburst 系列。資料點層級的索引從零開始。
 
 ```csharp
 public IChartDataPointLevelsManager DataPointLevels { get; }

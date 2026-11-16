@@ -1,14 +1,14 @@
 ---
 title: IPlaceholder
-second_title: Aspose.Sildes .NET API referenciája
-description: Egy dián lévő helyőrzőt képvisel.
+second_title: Aspose.Sildes .NET API-referencia
+description: Egy helykitöltőt képvisel egy dián.
 type: docs
-weight: 6690
+weight: 6710
 url: /hu/aspose.slides/iplaceholder/
 ---
 ## IPlaceholder interfész
 
-A helyőrzőt képviseli egy dián.
+Egy helykitöltőt képvisel egy dián.
 
 ```csharp
 public interface IPlaceholder
@@ -18,10 +18,10 @@ public interface IPlaceholder
 
 | Név | Leírás |
 | --- | --- |
-| [Index](../../aspose.slides/iplaceholder/index) { get; } | Lekéri egy helyőrző indexét. Csak olvasható UInt32. |
-| [Orientation](../../aspose.slides/iplaceholder/orientation) { get; } | Lekéri egy helyőrző tájolását. Csak olvasható [`Orientation`](../orientation). |
-| [Size](../../aspose.slides/iplaceholder/size) { get; } | Lekéri egy helyőrző méretét. Csak olvasható [`PlaceholderSize`](../placeholdersize). |
-| [Type](../../aspose.slides/iplaceholder/type) { get; } | Lekéri egy helyőrző típusát. Csak olvasható [`PlaceholderType`](../placeholdertype). |
+| [Index](../../aspose.slides/iplaceholder/index) { get; } | Megkapja egy helykitöltő indexét. Csak olvasható UInt32. |
+| [Orientation](../../aspose.slides/iplaceholder/orientation) { get; } | Megkapja egy helykitöltő tájolását. Csak olvasható [`Orientation`](../orientation). |
+| [Size](../../aspose.slides/iplaceholder/size) { get; } | Megkapja egy helykitöltő méretét. Csak olvasható [`PlaceholderSize`](../placeholdersize). |
+| [Type](../../aspose.slides/iplaceholder/type) { get; } | Megkapja egy helykitöltő típusát. Csak olvasható [`PlaceholderType`](../placeholdertype). |
 
 ### Lásd még
 

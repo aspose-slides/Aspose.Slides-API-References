@@ -3,7 +3,7 @@ title: MathSubscriptElementFactory
 second_title: Aspose.Sildes för .NET API-referens
 description: Tillåter att skapa IMathSubscriptElement
 type: docs
-weight: 9010
+weight: 9030
 url: /sv/aspose.slides.mathtext/mathsubscriptelementfactory/
 ---
 ## MathSubscriptElementFactory klass
@@ -14,15 +14,15 @@ Tillåter att skapa IMathSubscriptElement
 public class MathSubscriptElementFactory : IMathSubscriptElementFactory
 ```
 
-## Konstruktorer
+## Konstruktörer
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
 | [MathSubscriptElementFactory](mathsubscriptelementfactory)() | Standardkonstruktorn. |
 
 ## Metoder
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
 | [CreateMathSubscriptElement](../../aspose.slides.mathtext/mathsubscriptelementfactory/createmathsubscriptelement)(IMathElement, IMathElement) | Skapar IMathSubscriptElement |
 

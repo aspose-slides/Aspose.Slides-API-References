@@ -1,14 +1,14 @@
 ---
 title: ITextFrameFormatEffectiveData
-second_title: Aspose.Sildes .NET API referencia
-description: Módosíthatatlan objektum, amely a hatékony szövegkeret formázási tulajdonságait tartalmazza.
+second_title: Aspose.Sildes a .NET API hivatkozás
+description: Módosíthatatlan objektum, amely a tényleges szövegdoboz formázási tulajdonságait tartalmazza.
 type: docs
-weight: 7290
+weight: 7310
 url: /hu/aspose.slides/itextframeformateffectivedata/
 ---
 ## ITextFrameFormatEffectiveData interfész
 
-Nem módosítható objektum, amely a hatékony szövegkeret formázási tulajdonságait tartalmazza.
+Módosíthatatlan objektum, amely tartalmazza a tényleges szövegdoboz formázási tulajdonságait.
 
 ```csharp
 public interface ITextFrameFormatEffectiveData
@@ -16,24 +16,24 @@ public interface ITextFrameFormatEffectiveData
 
 ## Tulajdonságok
 
-| Name | Description |
+| Név | Leírás |
 | --- | --- |
-| [AnchoringType](../../aspose.slides/itextframeformateffectivedata/anchoringtype) { get; } | Visszaadja a függőleges horgony szöveget egy TextFrame-ben. Csak olvasható [`TextAnchorType`](../textanchortype). |
-| [AutofitType](../../aspose.slides/itextframeformateffectivedata/autofittype) { get; } | Visszaadja a szöveg automatikus illesztési módját. Csak olvasható [`TextAutofitType`](../textautofittype). |
-| [CenterText](../../aspose.slides/itextframeformateffectivedata/centertext) { get; } | Visszaadja, hogy a szöveget vízszintesen középre kell-e helyezni a dobozban. Csak olvasható Boolean. |
-| [ColumnCount](../../aspose.slides/itextframeformateffectivedata/columncount) { get; } | Megadja a szöveg oszlopok számát a határoló téglalapban. Csak olvasható Int32. |
-| [ColumnSpacing](../../aspose.slides/itextframeformateffectivedata/columnspacing) { get; } | Megadja a szövegoszlopok közötti távolságot a szövegterületen (pontban). Csak olvasható Single. |
-| [MarginBottom](../../aspose.slides/itextframeformateffectivedata/marginbottom) { get; } | Visszaadja az alsó margót (pont) egy TextFrame-ben. Csak olvasható Double. |
-| [MarginLeft](../../aspose.slides/itextframeformateffectivedata/marginleft) { get; } | Visszaadja a bal margót (pont) egy TextFrame-ben. Csak olvasható Double. |
-| [MarginRight](../../aspose.slides/itextframeformateffectivedata/marginright) { get; } | Visszaadja a jobb margót (pont) egy TextFrame-ben. Csak olvasható Double. |
-| [MarginTop](../../aspose.slides/itextframeformateffectivedata/margintop) { get; } | Visszaadja a felső margót (pont) egy TextFrame-ben. Csak olvasható Double. |
-| [TextStyle](../../aspose.slides/itextframeformateffectivedata/textstyle) { get; } | Visszaadja a hatékony szöveg stílusát. Csak olvasható [`ITextStyleEffectiveData`](../itextstyleeffectivedata). |
-| [TextVerticalType](../../aspose.slides/itextframeformateffectivedata/textverticaltype) { get; } | Visszaadja a szöveg tájolását. Csak olvasható [`TextVerticalType`](../textverticaltype). |
-| [WrapText](../../aspose.slides/itextframeformateffectivedata/wraptext) { get; } | Visszaadja, hogy a szöveget a TextFrame margóinál tördelik-e. Csak olvasható Boolean. |
+| [AnchoringType](../../aspose.slides/itextframeformateffectivedata/anchoringtype) { get; } | Visszaadja a függőleges horgony szöveget a TextFrame-ben. Csak olvasható [`TextAnchorType`](../textanchortype). |
+| [AutofitType](../../aspose.slides/itextframeformateffectivedata/autofittype) { get; } | Visszaadja a szöveg automatikus illesztés módját. Csak olvasható [`TextAutofitType`](../textautofittype). |
+| [CenterText](../../aspose.slides/itextframeformateffectivedata/centertext) { get; } | Visszaadja, hogy a szöveg vízszintesen középre legyen-e igazítva a keretben. Csak olvasható Boolean. |
+| [ColumnCount](../../aspose.slides/itextframeformateffectivedata/columncount) { get; } | Meghatározza a szöveg oszlopainak számát a környező téglalapban. Csak olvasható Int32. |
+| [ColumnSpacing](../../aspose.slides/itextframeformateffectivedata/columnspacing) { get; } | Meghatározza a szövegoszlopok közötti távolságot a szöveg területén (pontban). Csak olvasható Single. |
+| [MarginBottom](../../aspose.slides/itextframeformateffectivedata/marginbottom) { get; } | Visszaadja az alsó margót (pontban) a TextFrame-ben. Csak olvasható Double. |
+| [MarginLeft](../../aspose.slides/itextframeformateffectivedata/marginleft) { get; } | Visszaadja a bal margót (pontban) a TextFrame-ben. Csak olvasható Double. |
+| [MarginRight](../../aspose.slides/itextframeformateffectivedata/marginright) { get; } | Visszaadja a jobb margót (pontban) a TextFrame-ben. Csak olvasható Double. |
+| [MarginTop](../../aspose.slides/itextframeformateffectivedata/margintop) { get; } | Visszaadja a felső margót (pontban) a TextFrame-ben. Csak olvasható Double. |
+| [TextStyle](../../aspose.slides/itextframeformateffectivedata/textstyle) { get; } | Visszaadja a tényleges szöveg stílusát. Csak olvasható [`ITextStyleEffectiveData`](../itextstyleeffectivedata). |
+| [TextVerticalType](../../aspose.slides/itextframeformateffectivedata/textverticaltype) { get; } | Visszaadja a szöveg orientációját. Csak olvasható [`TextVerticalType`](../textverticaltype). |
+| [WrapText](../../aspose.slides/itextframeformateffectivedata/wraptext) { get; } | Visszaadja, hogy a szöveg a TextFrame margóinál törjön-e. Csak olvasható Boolean. |
 
 ### Megjegyzések
 
-Ez az interfész a [`ITextFrameFormat`](../itextframeformat) interfésszel együtt használható a hatékony formázási értékek visszaadásához, öröklődés alkalmazásával.
+Ez az interfész a [`ITextFrameFormat`](../itextframeformat) interfésszel együtt használható, hogy a öröklődéssel alkalmazott tényleges formázási értékeket adja vissza.
 
 ### Lásd még
 

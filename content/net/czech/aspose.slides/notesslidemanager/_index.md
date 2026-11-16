@@ -1,14 +1,14 @@
 ---
 title: NotesSlideManager
-second_title: Aspose.Sildes pro .NET – referenční příručka API
-description: Správce poznámkových snímků.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Správce snímků poznámek.
 type: docs
-weight: 9160
+weight: 9180
 url: /cs/aspose.slides/notesslidemanager/
 ---
 ## NotesSlideManager třída
 
-Správce poznámek snímku.
+Správce snímků poznámek.
 
 ```csharp
 public sealed class NotesSlideManager : DomObject<Slide>, INotesSlideManager
@@ -18,24 +18,24 @@ public sealed class NotesSlideManager : DomObject<Slide>, INotesSlideManager
 
 | Název | Popis |
 | --- | --- |
-| [NotesSlide](../../aspose.slides/notesslidemanager/notesslide) { get; } | Vrací poznámkový snímek pro aktuální snímek. Vrací null, pokud snímek nemá poznámkový snímek. Pouze pro čtení [`INotesSlide`](../inotesslide). |
+| [NotesSlide](../../aspose.slides/notesslidemanager/notesslide) { get; } | Vrací snímek poznámek pro aktuální snímek. Vrací null, pokud snímek nemá snímek poznámek. Pouze pro čtení [`INotesSlide`](../inotesslide). |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| [AddNotesSlide](../../aspose.slides/notesslidemanager/addnotesslide)() | Vrací poznámkový snímek pro aktuální snímek, vytvoří ho, pokud neexistuje. |
-| [RemoveNotesSlide](../../aspose.slides/notesslidemanager/removenotesslide)() | Odstraňuje poznámkový snímek aktuálního snímku. |
+| [AddNotesSlide](../../aspose.slides/notesslidemanager/addnotesslide)() | Vrací snímek poznámek pro aktuální snímek, vytvoří jej, pokud neexistuje. |
+| [RemoveNotesSlide](../../aspose.slides/notesslidemanager/removenotesslide)() | Odstraňuje snímek poznámek aktuálního snímku. |
 
 ### Příklady
 
-Následující příklad ukazuje, jak přidat poznámky do konkrétního snímku prezentace PowerPoint.
+Následující příklad ukazuje, jak přidat poznámky k určitému snímku prezentace PowerPoint.
 
 ```csharp
 [C#]
 	// Vytvořte objekt Presentation, který představuje soubor prezentace
 	using(Presentation presentation = new Presentation(dataDir + "AccessSlides.pptx")) {
-	  // Přidejte poznámky na první snímek
+	  // Přidejte poznámky k prvnímu snímku
 	  INotesSlideManager mgr = presentation.Slides[0].NotesSlideManager;
 	  INotesSlide noteSlide = mgr.AddNotesSlide();
 	  noteSlide.NotesTextFrame.Text = "Your Notes";

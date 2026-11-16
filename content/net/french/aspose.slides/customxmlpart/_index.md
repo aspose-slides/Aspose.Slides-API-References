@@ -1,14 +1,14 @@
 ---
 title: CustomXmlPart
-second_title: Référence API Aspose.Sildes pour .NET
-description: Représente une partie XML personnalisée.
+second_title: Référence de l'API Aspose.Sildes pour .NET
+description: Représente la partie XML personnalisée.
 type: docs
-weight: 2740
+weight: 2760
 url: /fr/aspose.slides/customxmlpart/
 ---
 ## CustomXmlPart classe
 
-Représente une partie XML personnalisée.
+Représente la partie XML personnalisée.
 
 ```csharp
 public class CustomXmlPart : ICustomXmlPart
@@ -18,8 +18,8 @@ public class CustomXmlPart : ICustomXmlPart
 
 | Nom | Description |
 | --- | --- |
-| [ItemId](../../aspose.slides/customxmlpart/itemid) { get; set; } | Spécifie un identifiant globalement unique (GUID) qui identifie de manière unique une seule partie XML personnalisée dans un document Office Open XML. Guid en lecture seule. |
-| [NamespaceSchemas](../../aspose.slides/customxmlpart/namespaceschemas) { get; } | Renvoie la collection de schémas XML qui sont associés à la partie XML personnalisée. String[] en lecture seule. |
+| [ItemId](../../aspose.slides/customxmlpart/itemid) { get; set; } | Spécifie un identifiant global unique (GUID) qui identifie de manière unique une seule partie XML personnalisée dans un document Office Open XML. Guid en lecture seule. |
+| [NamespaceSchemas](../../aspose.slides/customxmlpart/namespaceschemas) { get; } | Renvoie les schémas XML de la collection associés à la partie XML personnalisée. String[] en lecture seule. |
 | [XmlAsString](../../aspose.slides/customxmlpart/xmlasstring) { get; set; } | Renvoie ou définit les données xml sous forme de chaîne UTF-8. String en lecture/écriture. la valeur est `null`. la valeur est vide ou les données xml sont invalides. |
 | [XmlData](../../aspose.slides/customxmlpart/xmldata) { get; set; } | Renvoie ou définit les données xml. Byte[] en lecture/écriture. la valeur est `null`. la valeur est vide ou les données xml sont invalides. |
 
@@ -27,7 +27,7 @@ public class CustomXmlPart : ICustomXmlPart
 
 | Nom | Description |
 | --- | --- |
-| [Remove](../../aspose.slides/customxmlpart/remove)() | Supprime la partie XML personnalisée de la présentation. |
+| [Remove](../../aspose.slides/customxmlpart/remove)() | Supprime la partie xml personnalisée de la présentation. |
 
 ### Voir aussi
 

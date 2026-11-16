@@ -1,9 +1,9 @@
 ---
 title: MathGroupingCharacterFactory
-second_title: Aspose.Sildes a .NET API hivatkozáshoz
+second_title: Aspose.Sildes a .NET API referencia
 description: Lehetővé teszi egy matematikai csoportosító karakter létrehozását
 type: docs
-weight: 8770
+weight: 8790
 url: /hu/aspose.slides.mathtext/mathgroupingcharacterfactory/
 ---
 ## MathGroupingCharacterFactory osztály
@@ -20,7 +20,7 @@ public class MathGroupingCharacterFactory : IMathGroupingCharacterFactory
 | --- | --- |
 | [MathGroupingCharacterFactory](mathgroupingcharacterfactory)() | Az alapértelmezett konstruktor. |
 
-## Módszerek
+## Metódusok
 
 | Név | Leírás |
 | --- | --- |
@@ -29,7 +29,7 @@ public class MathGroupingCharacterFactory : IMathGroupingCharacterFactory
 
 ### Megjegyzések
 
-COM-kompatibilitás miatt
+COM kompatibilitás érdekében
 
 ### Lásd még
 

@@ -1,14 +1,14 @@
 ---
 title: GetFontBytes
-second_title: Aspose.Sildes pro .NET API Reference
-description: Získá pole bytů představující data písma pro zadaný styl písma a data písma.
+second_title: Aspose.Sildes pro .NET – referenční příručka API
+description: Získá pole bajtů představující data písma pro určený styl písma a data písma.
 type: docs
-weight: 50
+weight: 60
 url: /cs/aspose.slides/fontsmanager/getfontbytes/
 ---
-## FontsManager.GetFontBytes metoda
+## FontsManager.GetFontBytes method
 
-Získá pole bytů představující data písma pro zadaný styl písma a data písma.
+Získá pole bajtů představující data písma pro určený styl písma a data písma.
 
 ```csharp
 public byte[] GetFontBytes(IFontData fontData, FontStyleType fontStyle)
@@ -16,12 +16,12 @@ public byte[] GetFontBytes(IFontData fontData, FontStyleType fontStyle)
 
 | Parametr | Typ | Popis |
 | --- | --- | --- |
-| fontData | IFontData | Objekt dat písma obsahující informace o písmu [`IFontData`](../../ifontdata). |
-| fontStyle | FontStyleType | Styl písma, pro který se mají získat data [`FontStyleType`](../../fontstyletype). |
+| fontData | IFontData | Objekt dat písma obsahující informace o fontu [`IFontData`](../../ifontdata). |
+| fontStyle | FontStyleType | Styl písma, pro který mají být získána data [`FontStyleType`](../../fontstyletype). |
 
 ### Návratová hodnota
 
-Pole bytů obsahující data písma pro zadaný styl písma. Pokud data písma nebo styl nejsou nalezeny, vrátí null.
+Pole bajtů obsahující data písma pro určený styl písma. Pokud nejsou data písma nebo styl nalezeny, vrátí null.
 
 ### Příklady
 
@@ -32,7 +32,7 @@ using (Presentation pres = new Presentation ("Presentation.pptx"))
     // Načte všechna písma použitá v prezentaci
     IFontData[] fonts = pres.FontsManager.GetFonts();
 
-    // Získá pole bytů představující běžný styl prvního písma v prezentaci
+    // Získá pole bajtů představující normální styl prvního písma v prezentaci
     byte[] bytes = pres.FontsManager.GetFontBytes(fonts[0], FontStyleType.Regular);
 }
 ```
@@ -40,7 +40,7 @@ using (Presentation pres = new Presentation ("Presentation.pptx"))
 ### Viz také
 
 * rozhraní [IFontData](../../ifontdata)
-* výčet [FontStyleType](../../fontstyletype)
+* výčtový typ [FontStyleType](../../fontstyletype)
 * třída [FontsManager](../../fontsmanager)
 * jmenný prostor [Aspose.Slides](../../fontsmanager)
 * sestavení [Aspose.Slides](../../../)

@@ -1,14 +1,14 @@
 ---
 title: ISummaryZoomSectionCollection
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een verzameling van Summary Zoom Section-objecten voor.
+description: Stelt een collectie van Summary Zoom Section-objecten voor.
 type: docs
-weight: 7170
+weight: 7190
 url: /nl/aspose.slides/isummaryzoomsectioncollection/
 ---
 ## ISummaryZoomSectionCollection interface
 
-Stelt een verzameling van Summary Zoom Section-objecten voor.
+Stelt een collectie van Summary Zoom Section-objecten voor.
 
 ```csharp
 public interface ISummaryZoomSectionCollection : IGenericCollection<ISummaryZoomSection>
@@ -24,10 +24,10 @@ public interface ISummaryZoomSectionCollection : IGenericCollection<ISummaryZoom
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AddSummaryZoomSection](../../aspose.slides/isummaryzoomsectioncollection/addsummaryzoomsection)(ISection) | Maakt een nieuw Summary Zoom Section-object aan en voegt het toe aan de collectie |
+| [AddSummaryZoomSection](../../aspose.slides/isummaryzoomsectioncollection/addsummaryzoomsection)(ISection) | Maakt een nieuw Summary Zoom Section-object en voegt het toe aan de collectie |
 | [Clear](../../aspose.slides/isummaryzoomsectioncollection/clear)() | Verwijdert alle SummaryZoomSection-objecten uit de collectie. |
-| [GetSummarySection](../../aspose.slides/isummaryzoomsectioncollection/getsummarysection)(ISection) | Geeft het Summary Zoom Section-element terug voor de opgegeven sectie. |
-| [IndexOf](../../aspose.slides/isummaryzoomsectioncollection/indexof)(ISummaryZoomSection) | Geeft een index terug van het opgegeven SummaryZoomSection-object. |
+| [GetSummarySection](../../aspose.slides/isummaryzoomsectioncollection/getsummarysection)(ISection) | Retourneert het Summary Zoom Section-element voor de opgegeven sectie. |
+| [IndexOf](../../aspose.slides/isummaryzoomsectioncollection/indexof)(ISummaryZoomSection) | Retourneert een index van het gespecificeerde SummaryZoomSection-object. |
 | [RemoveSummaryZoomSection](../../aspose.slides/isummaryzoomsectioncollection/removesummaryzoomsection)(ISection) | Verwijdert het Summary Zoom Section-object uit de collectie. |
 
 ### Zie ook

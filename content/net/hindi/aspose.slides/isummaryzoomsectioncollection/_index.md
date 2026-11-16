@@ -1,14 +1,14 @@
 ---
 title: ISummaryZoomSectionCollection
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: Summary Zoom Section ऑब्जेक्ट्स के एक संग्रह का प्रतिनिधित्व करता है।
+description: Summary Zoom Section वस्तुओं का संग्रह दर्शाता है।
 type: docs
-weight: 7170
+weight: 7190
 url: /hi/aspose.slides/isummaryzoomsectioncollection/
 ---
-## ISummaryZoomSectionCollection इंटरफ़ेस
+## ISummaryZoomSectionCollection इंटरफेस
 
-Summary Zoom Section ऑब्जेक्ट्स का संग्रह प्रतिनिधित्व करता है।
+Summary Zoom Section वस्तुओं का संग्रह दर्शाता है।
 
 ```csharp
 public interface ISummaryZoomSectionCollection : IGenericCollection<ISummaryZoomSection>
@@ -24,16 +24,16 @@ public interface ISummaryZoomSectionCollection : IGenericCollection<ISummaryZoom
 
 | नाम | विवरण |
 | --- | --- |
-| [AddSummaryZoomSection](../../aspose.slides/isummaryzoomsectioncollection/addsummaryzoomsection)(ISection) | नया Summary Zoom Section ऑब्जेक्ट बनाता है और इसे संग्रह में जोड़ता है |
-| [Clear](../../aspose.slides/isummaryzoomsectioncollection/clear)() | सभी SummaryZoomSection ऑब्जेक्ट्स को संग्रह से हटाता है। |
-| [GetSummarySection](../../aspose.slides/isummaryzoomsectioncollection/getsummarysection)(ISection) | दिए गए अनुभाग के लिए Summary Zoom Section तत्व लौटाता है। |
-| [IndexOf](../../aspose.slides/isummaryzoomsectioncollection/indexof)(ISummaryZoomSection) | निर्दिष्ट SummaryZoomSection ऑब्जेक्ट का सूचकांक लौटाता है। |
-| [RemoveSummaryZoomSection](../../aspose.slides/isummaryzoomsectioncollection/removesummaryzoomsection)(ISection) | संग्रह से Summary Zoom Section ऑब्जेक्ट हटाता है। |
+| [AddSummaryZoomSection](../../aspose.slides/isummaryzoomsectioncollection/addsummaryzoomsection)(ISection) | नया Summary Zoom Section वस्तु बनाता है और उसे संग्रह में जोड़ता है |
+| [Clear](../../aspose.slides/isummaryzoomsectioncollection/clear)() | सभी SummaryZoomSection वस्तुओं को संग्रह से हटाता है। |
+| [GetSummarySection](../../aspose.slides/isummaryzoomsectioncollection/getsummarysection)(ISection) | दिए गए सेक्शन के लिए Summary Zoom Section तत्व लौटाता है। |
+| [IndexOf](../../aspose.slides/isummaryzoomsectioncollection/indexof)(ISummaryZoomSection) | निर्दिष्ट SummaryZoomSection वस्तु का सूचकांक लौटाता है। |
+| [RemoveSummaryZoomSection](../../aspose.slides/isummaryzoomsectioncollection/removesummaryzoomsection)(ISection) | Summary Zoom Section वस्तु को संग्रह से हटाएँ। |
 
 ### संबंधित देखें
 
-* इंटरफ़ेस [IGenericCollection&lt;T&gt;](../igenericcollection-1)
-* इंटरफ़ेस [ISummaryZoomSection](../isummaryzoomsection)
+* इंटरफेस [IGenericCollection&lt;T&gt;](../igenericcollection-1)
+* इंटरफेस [ISummaryZoomSection](../isummaryzoomsection)
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)
 

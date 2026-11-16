@@ -1,9 +1,9 @@
 ---
 title: BlackWhiteConversionMode
-second_title: Referencia de la API de Aspose.Sildes para .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Proporciona opciones que controlan cómo se convertirán las imágenes de las diapositivas a imágenes bitonales.
 type: docs
-weight: 3720
+weight: 3740
 url: /es/aspose.slides.export/blackwhiteconversionmode/
 ---
 ## enumeración BlackWhiteConversionMode
@@ -18,11 +18,11 @@ public enum BlackWhiteConversionMode
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| Default | `0` | Especifica que no se use ningún algoritmo de conversión. Se usará el algoritmo implementado en el códec TIFF. (Predeterminado) |
-| Dithering | `1` | Especifica el algoritmo de tramado (Floyd-Steinberg). |
-| DitheringFloydSteinberg | `2` | Especifica el algoritmo de tramado Floyd-Steinberg. |
+| Default | `0` | Especifica que no hay algoritmo de conversión. Se usará el algoritmo implementado en el códec TIFF. (Predeterminado) |
+| Dithering | `1` | Especifica el algoritmo de dithering (Floyd-Steinberg). |
+| DitheringFloydSteinberg | `2` | Especifica el algoritmo de dithering Floyd-Steinberg. |
 | Auto | `3` | Especifica el algoritmo de umbral calculado automáticamente (Otsu). |
-| AutoOtsu | `4` | Especifica el algoritmo de umbral de Otsu calculado automáticamente. |
+| AutoOtsu | `4` | Especifica el algoritmo de umbral Otsu calculado automáticamente. |
 | Threshold25 | `5` | Especifica el algoritmo de umbral estático (25%). |
 | Threshold50 | `6` | Especifica el algoritmo de umbral estático (50%). |
 | Threshold75 | `7` | Especifica el algoritmo de umbral estático (75%). |

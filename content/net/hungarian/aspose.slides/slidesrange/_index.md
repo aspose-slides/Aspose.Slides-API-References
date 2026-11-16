@@ -1,14 +1,14 @@
 ---
 title: SlidesRange
-second_title: Aspose.Sildes .NET API referencia
-description: Dia-tartomány
+second_title: Aspose.Sildes a .NET API referencia
+description: Dia tartomány
 type: docs
-weight: 10530
+weight: 10550
 url: /hu/aspose.slides/slidesrange/
 ---
 ## SlidesRange osztály
 
-Dia-tartomány
+Dia tartomány
 
 ```csharp
 public class SlidesRange

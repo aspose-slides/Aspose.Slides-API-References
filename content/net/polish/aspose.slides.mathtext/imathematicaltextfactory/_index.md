@@ -1,14 +1,14 @@
 ---
 title: IMathematicalTextFactory
-second_title: Aspose.Sildes dla .NET - dokumentacja API
-description: Umożliwia tworzenie elementu MathematicalText
+second_title: Aspose.Sildes dla .NET – dokumentacja API
+description: Umożliwia utworzenie elementu MathematicalText
 type: docs
-weight: 8520
+weight: 8540
 url: /pl/aspose.slides.mathtext/imathematicaltextfactory/
 ---
 ## IMathematicalTextFactory interfejs
 
-Umożliwia tworzenie elementu MathematicalText
+Umożliwia utworzenie elementu MathematicalText
 
 ```csharp
 public interface IMathematicalTextFactory
@@ -16,7 +16,7 @@ public interface IMathematicalTextFactory
 
 ## Metody
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
 | [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext)() | Utwórz pusty element MathematicalText |
 | [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_1)(char) | Utwórz element MathematicalText z określoną wartością |
@@ -25,9 +25,9 @@ public interface IMathematicalTextFactory
 
 ### Uwagi
 
-Dla zgodności z COM
+Dla kompatybilności z COM
 
-### Zobacz również
+### Zobacz także
 
 * przestrzeń nazw [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * zestaw [Aspose.Slides](../../)

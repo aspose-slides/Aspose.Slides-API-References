@@ -1,9 +1,9 @@
 ---
 title: JoinPortionsWithSameFormatting
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: すべての段落で同じ書式設定のランを結合します。
 type: docs
-weight: 100
+weight: 110
 url: /ja/aspose.slides/itextframe/joinportionswithsameformatting/
 ---
 ## ITextFrame.JoinPortionsWithSameFormatting メソッド

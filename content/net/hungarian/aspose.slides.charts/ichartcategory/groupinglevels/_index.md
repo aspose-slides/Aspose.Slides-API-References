@@ -1,14 +1,14 @@
 ---
 title: GroupingLevels
-second_title: Aspose.Sildes .NET API Referenciája
-description: Kezelt tároló a diagramkategória csoportosítási szintek értékeinek. A több szintű kategória egynél több csoportosítási szintet tartalmaz. A csoportosítási szintek indexelése nulláról kezdődik. Csak olvasható IChartCategoryLevelsManageraspose.slides.charts/ichartcategorylevelsmanager.
+second_title: Aspose.Sildes .NET API-referencia
+description: Kezelt tárolója a diagramkategória csoportosítási szintek értékeinek. Többszintű kategória egynél több csoportosítási szintet tartalmaz. A csoportosítási szintek indexelése nulláról indul. Írásvédett IChartCategoryLevelsManageraspose.slides.charts/ichartcategorylevelsmanager.
 type: docs
-weight: 30
+weight: 40
 url: /hu/aspose.slides.charts/ichartcategory/groupinglevels/
 ---
 ## IChartCategory.GroupingLevels tulajdonság
 
-A diagramkategória csoportosítási szintek értékeinek kezelt tárolója. A több szintű kategória egynél több csoportosítási szintet tartalmaz. A csoportosítási szintek indexelése nulláról kezdődik. Csak olvasható [`IChartCategoryLevelsManager`](../../ichartcategorylevelsmanager).
+Kezelt tárolója a diagramkategória csoportosítási szintek értékeinek. Többszintű kategória egynél több csoportosítási szintet tartalmaz. A csoportosítási szintek indexelése nulláról indul. Írásvédett [`IChartCategoryLevelsManager`](../../ichartcategorylevelsmanager).
 
 ```csharp
 public IChartCategoryLevelsManager GroupingLevels { get; }

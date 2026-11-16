@@ -1,14 +1,14 @@
 ---
 title: IResourceLoadingArgs
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Schnittstelle für Argumente beim Laden externer Ressourcen.
+description: Schnittstelle für Parameter zum Laden externer Ressourcen.
 type: docs
-weight: 6830
+weight: 6850
 url: /de/aspose.slides/iresourceloadingargs/
 ---
 ## IResourceLoadingArgs Schnittstelle
 
-Schnittstelle für Argumente beim Laden externer Ressourcen.
+Schnittstelle für Parameter zum Laden externer Ressourcen.
 
 ```csharp
 public interface IResourceLoadingArgs
@@ -18,8 +18,8 @@ public interface IResourceLoadingArgs
 
 | Name | Beschreibung |
 | --- | --- |
-| [OriginalUri](../../aspose.slides/iresourceloadingargs/originaluri) { get; } | Original-URI der Ressource, wie in der importierten Präsentation angegeben. |
-| [Uri](../../aspose.slides/iresourceloadingargs/uri) { get; set; } | URI der Ressource, die zum Herunterladen verwendet wird, wenn [`ResourceLoading`](../iresourceloadingcallback/resourceloading) Default zurückgibt. Anfangs ist sie auf die Original-URI der Ressource gesetzt, kann aber auf einen beliebigen Wert neu definiert werden. |
+| [OriginalUri](../../aspose.slides/iresourceloadingargs/originaluri) { get; } | Ursprüngliche URI der Ressource, wie in der importierten Präsentation angegeben. |
+| [Uri](../../aspose.slides/iresourceloadingargs/uri) { get; set; } | URI der Ressource, die zum Herunterladen verwendet wird, wenn [`ResourceLoading`](../iresourceloadingcallback/resourceloading) Default zurückgibt. Anfangs ist sie auf die ursprüngliche URI der Ressource gesetzt, kann aber auf einen beliebigen Wert neu definiert werden. |
 
 ## Methoden
 

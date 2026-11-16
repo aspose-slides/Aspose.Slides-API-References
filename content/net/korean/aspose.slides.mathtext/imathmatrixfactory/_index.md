@@ -3,12 +3,12 @@ title: IMathMatrixFactory
 second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 수학 행렬을 생성할 수 있습니다
 type: docs
-weight: 8350
+weight: 8370
 url: /ko/aspose.slides.mathtext/imathmatrixfactory/
 ---
 ## IMathMatrixFactory 인터페이스
 
-수학 행렬을 생성합니다
+수학 행렬을 생성할 수 있습니다
 
 ```csharp
 public interface IMathMatrixFactory
@@ -20,7 +20,7 @@ public interface IMathMatrixFactory
 | --- | --- |
 | [CreateMathMatrix](../../aspose.slides.mathtext/imathmatrixfactory/createmathmatrix)(int, int) | 수학 행렬을 생성합니다 |
 
-### 비고
+### 참고
 
 COM 호환성을 위해
 

@@ -1,14 +1,14 @@
 ---
 title: ChartDataWorkbook
-second_title: Aspose.Sildes dla .NET – odniesienie API
-description: Umożliwia dostęp do osadzonego skoroszytu Excel
+second_title: Aspose.Sildes dla .NET – referencja API
+description: Zapewnia dostęp do osadzonego skoroszytu Excel
 type: docs
-weight: 1380
+weight: 1390
 url: /pl/aspose.slides.charts/chartdataworkbook/
 ---
 ## ChartDataWorkbook klasa
 
-Umożliwia dostęp do osadzonego skoroszytu Excel
+Provides access to embedded Excel workbook
 
 ```csharp
 public class ChartDataWorkbook : DomObject<ChartData>, IChartDataWorkbook
@@ -18,7 +18,7 @@ public class ChartDataWorkbook : DomObject<ChartData>, IChartDataWorkbook
 
 | Nazwa | Opis |
 | --- | --- |
-| [Worksheets](../../aspose.slides.charts/chartdataworkbook/worksheets) { get; } | Zwraca kolekcję arkuszy. |
+| [Worksheets](../../aspose.slides.charts/chartdataworkbook/worksheets) { get; } | Zwraca kolekcję arkuszy roboczych. |
 
 ## Metody
 

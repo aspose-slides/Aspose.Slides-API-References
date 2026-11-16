@@ -1,14 +1,14 @@
 ---
 title: LayoutTargetType
 second_title: Aspose.Sildes for .NET API 參考
-description: 如果手動定義繪圖區域的版面配置，則此屬性指定是根據內部（不包括坐標軸和坐標軸標籤）還是外部（包括坐標軸和坐標軸標籤）來佈局繪圖區域。
+description: 如果手動定義繪圖區域的佈局，則此屬性指定是以繪圖區域的內部（不包括座標軸和座標軸標籤）還是外部（包括座標軸和座標軸標籤）進行佈局。
 type: docs
-weight: 2270
+weight: 2290
 url: /zh-hant/aspose.slides.charts/layouttargettype/
 ---
 ## LayoutTargetType 列舉
 
-如果手動定義繪圖區域的佈局，則此屬性指定是對繪圖區域的內部（不包括坐標軸和坐標軸標籤）佈局，還是對外部（包括坐標軸和坐標軸標籤）佈局。
+如果手動定義繪圖區域的佈局，則此屬性指定是以繪圖區域的內部（不包括座標軸和座標軸標籤）還是外部（包括座標軸和座標軸標籤）進行佈局。
 
 ```csharp
 public enum LayoutTargetType
@@ -18,10 +18,10 @@ public enum LayoutTargetType
 
 | 名稱 | 值 | 說明 |
 | --- | --- | --- |
-| Inner | `0` | 指定繪圖區域的大小應決定繪圖區域的尺寸，但不包括刻度標記和坐標軸標籤。 |
-| Outer | `1` | 指定繪圖區域的大小應決定繪圖區域的尺寸、刻度標記以及坐標軸標籤。 |
+| Inner | `0` | 指定繪圖區域的大小應決定繪圖區域的尺寸，不包括刻度標記和座標軸標籤。 |
+| Outer | `1` | 指定繪圖區域的大小應決定繪圖區域的尺寸，包括刻度標記和座標軸標籤。 |
 
-### 另請參閱
+### 參見
 
 * 命名空間 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 組件 [Aspose.Slides](../../)

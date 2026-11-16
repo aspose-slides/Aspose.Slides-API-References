@@ -1,42 +1,42 @@
 ---
 title: IDataLabelFormat
 second_title: Aspose.Sildes برای .NET مرجع API
-description: گزینه‌های قالب‌بندی برای DataLabel را نشان می‌دهد.
+description: نمایش‌دهنده گزینه‌های قالب‌بندی برای DataLabel.
 type: docs
-weight: 2040
+weight: 2060
 url: /fa/aspose.slides.charts/idatalabelformat/
 ---
-## IDataLabelFormat واسط
+## IDataLabelFormat رابط
 
-گزینه‌های قالب‌بندی برای DataLabel را نشان می‌دهد.
+نمایش‌دهندهٔ گزینه‌های قالب‌بندی برای DataLabel.
 
 ```csharp
 public interface IDataLabelFormat : IFormattedTextContainer
 ```
 
-## خصوصیات
+## ویژگی‌ها
 
 | نام | توضیح |
 | --- | --- |
-| [AsIFormattedTextContainer](../../aspose.slides.charts/idatalabelformat/asiformattedtextcontainer) { get; } | اجازه می‌دهد واسط پایه IFormattedTextContainer را دریافت کند. فقط-خواندنی [`IFormattedTextContainer`](../iformattedtextcontainer). |
-| [Format](../../aspose.slides.charts/idatalabelformat/format) { get; } | قالب برچسب داده را نشان می‌دهد. فقط-خواندنی [`IFormat`](../iformat). |
-| [IsNumberFormatLinkedToSource](../../aspose.slides.charts/idatalabelformat/isnumberformatlinkedtosource) { get; set; } | قابل خواندن/قابل نوشتن Boolean. |
-| [NumberFormat](../../aspose.slides.charts/idatalabelformat/numberformat) { get; set; } | قابل خواندن/قابل نوشتن String. |
-| [Position](../../aspose.slides.charts/idatalabelformat/position) { get; set; } | موقعیت برچسب داده را نشان می‌دهد. قابل خواندن/قابل نوشتن [`LegendDataLabelPosition`](../legenddatalabelposition). |
-| [Separator](../../aspose.slides.charts/idatalabelformat/separator) { get; set; } | یک Variant که جداکننده مورد استفاده برای برچسب‌های داده روی نمودار را نشان می‌دهد تنظیم یا برمی‌گرداند. قابل خواندن/قابل نوشتن String. |
-| [ShowBubbleSize](../../aspose.slides.charts/idatalabelformat/showbubblesize) { get; set; } | رفتار نمایش مقدار اندازه حباب برچسب داده برای نمودار مشخص را نشان می‌دهد. مقدار True مقدار اندازه حباب را نمایش می‌دهد. مقدار False برای مخفی کردن. قابل خواندن/قابل نوشتن Boolean. |
-| [ShowCategoryName](../../aspose.slides.charts/idatalabelformat/showcategoryname) { get; set; } | رفتار نمایش نام دسته‌بندی برچسب داده برای نمودار مشخص را نشان می‌دهد. مقدار True نام دسته‌بندی را نمایش می‌دهد. مقدار False برای مخفی کردن. قابل خواندن/قابل نوشتن Boolean. |
-| [ShowLabelAsDataCallout](../../aspose.slides.charts/idatalabelformat/showlabelasdatacallout) { get; set; } | تعیین می‌کند که برچسب داده نمودار مشخص به‌صورت فراخوان داده یا به‌صورت برچسب داده نمایش داده شود. اگر والد این شیء DataLabelFormat یک مجموعه DataLabelCollection از برچسب‌های داده باشد، این ویژگی مقدار پیش‌فرض ویژگی ShowLabelAsDataCallout را برای برچسب‌های داده جدید در مجموعه DataLabelCollection دریافت یا تنظیم می‌کند. تنظیم این ویژگی با مقدار، این مقدار را برای ویژگی ShowLabelAsDataCallout تمام برچسب‌های داده در مجموعه DataLabelCollection نیز تنظیم می‌کند (به عنوان مثال "DataLabels.DefaultDataLabelFormat.ShowLabelAsDataCallout = val;" باعث می‌شود همه DataLabels[i].ShowLabelAsDataCallout برابر با val شود). |
-| [ShowLabelValueFromCell](../../aspose.slides.charts/idatalabelformat/showlabelvaluefromcell) { get; set; } | رفتار نمایش مقدار سلول برچسب داده برای نمودار مشخص را نشان می‌دهد. مقدار True مقدار سلول را نمایش می‌دهد. مقدار False برای مخفی کردن. قابل خواندن/قابل نوشتن Boolean. |
-| [ShowLeaderLines](../../aspose.slides.charts/idatalabelformat/showleaderlines) { get; set; } | رفتار نمایش خطوط راهنمای برچسب داده برای نمودار مشخص را نشان می‌دهد. مقدار True خطوط راهنما را نمایش می‌دهد. مقدار False برای مخفی کردن. قابل خواندن/قابل نوشتن Boolean. |
-| [ShowLegendKey](../../aspose.slides.charts/idatalabelformat/showlegendkey) { get; set; } | رفتار نمایش کلید راهنمای برچسب داده برای نمودار مشخص را نشان می‌دهد. مقدار True کلید راهنمای برچسب داده قابل مشاهده است. مقدار False برای مخفی کردن. قابل خواندن/قابل نوشتن Boolean. |
-| [ShowPercentage](../../aspose.slides.charts/idatalabelformat/showpercentage) { get; set; } | رفتار نمایش مقدار درصد برچسب داده برای نمودار مشخص را نشان می‌دهد. مقدار True مقدار درصد را نمایش می‌دهد. مقدار False برای مخفی کردن. قابل خواندن/قابل نوشتن Boolean. |
-| [ShowSeriesName](../../aspose.slides.charts/idatalabelformat/showseriesname) { get; set; } | مقدار Boolean را برمی‌گرداند یا تنظیم می‌کند تا رفتار نمایش نام سری برای برچسب‌های داده روی نمودار را تعیین کند. مقدار True نام سری را نشان می‌دهد. مقدار False برای مخفی کردن. قابل خواندن/قابل نوشتن Boolean. |
-| [ShowValue](../../aspose.slides.charts/idatalabelformat/showvalue) { get; set; } | رفتار نمایش مقدار درصد برچسب داده برای نمودار مشخص را نشان می‌دهد. مقدار True مقدار درصد را نمایش می‌دهد. مقدار False برای مخفی کردن. قابل خواندن/قابل نوشتن Boolean. |
+| [AsIFormattedTextContainer](../../aspose.slides.charts/idatalabelformat/asiformattedtextcontainer) { get; } | اجازه می‌دهد رابط پایه IFormattedTextContainer را دریافت کند. فقط خواندنی [`IFormattedTextContainer`](../iformattedtextcontainer). |
+| [Format](../../aspose.slides.charts/idatalabelformat/format) { get; } | نمایانگر قالب برچسب داده است. فقط خواندنی [`IFormat`](../iformat). |
+| [IsNumberFormatLinkedToSource](../../aspose.slides.charts/idatalabelformat/isnumberformatlinkedtosource) { get; set; } | قابل خواندن/نوشتن Boolean. |
+| [NumberFormat](../../aspose.slides.charts/idatalabelformat/numberformat) { get; set; } | نمایانگر رشتهٔ قالب برای شی DataLabels است. قابل خواندن/نوشتن String. |
+| [Position](../../aspose.slides.charts/idatalabelformat/position) { get; set; } | نمایانگر موقعیت برچسب داده است. قابل خواندن/نوشتن [`LegendDataLabelPosition`](../legenddatalabelposition). |
+| [Separator](../../aspose.slides.charts/idatalabelformat/separator) { get; set; } | مقدار Variant را که جداکنندهٔ استفاده‌شده برای برچسب‌های داده بر روی نمودار را نشان می‌دهد، تنظیم یا برمی‌گرداند. قابل خواندن/نوشتن String. |
+| [ShowBubbleSize](../../aspose.slides.charts/idatalabelformat/showbubblesize) { get; set; } | نمایانگر رفتار نمایش مقدار اندازه حباب برچسب دادهٔ نمودار مشخص شده است. True مقدار اندازه حباب را نمایش می‌دهد. False برای مخفی کردن. قابل خواندن/نوشتن Boolean. |
+| [ShowCategoryName](../../aspose.slides.charts/idatalabelformat/showcategoryname) { get; set; } | نمایانگر رفتار نمایش نام دسته‌بندی برچسب دادهٔ نمودار مشخص شده است. True برای نمایش نام دسته‌بندی برچسب‌های داده بر روی نمودار. False برای مخفی کردن. قابل خواندن/نوشتن Boolean. |
+| [ShowLabelAsDataCallout](../../aspose.slides.charts/idatalabelformat/showlabelasdatacallout) { get; set; } | تعیین می‌کند که برچسب دادهٔ نمودار مشخص شده به عنوان فراخوان داده یا به عنوان برچسب داده نمایش داده شود. اگر والد این شیء DataLabelFormat یک مجموعه DataLabelCollection از برچسب‌های داده باشد، این ویژگی مقدار پیش‌فرض ویژگی ShowLabelAsDataCallout را برای برچسب‌های داده جدید در مجموعه DataLabelCollection دریافت یا تنظیم می‌کند. تنظیم این ویژگی با مقدار، این مقدار را نیز برای ویژگی ShowLabelAsDataCallout تمام برچسب‌های داده در مجموعه DataLabelCollection تنظیم می‌کند (به عنوان مثال "DataLabels.DefaultDataLabelFormat.ShowLabelAsDataCallout = val;" موجب می‌شود تمام DataLabels[i].ShowLabelAsDataCallout برابر با val شود). |
+| [ShowLabelValueFromCell](../../aspose.slides.charts/idatalabelformat/showlabelvaluefromcell) { get; set; } | نمایانگر رفتار نمایش مقدار سلول برچسب دادهٔ نمودار مشخص شده است. True مقدار سلول را نمایش می‌دهد. False برای مخفی کردن. قابل خواندن/نوشتن Boolean. |
+| [ShowLeaderLines](../../aspose.slides.charts/idatalabelformat/showleaderlines) { get; set; } | نمایانگر رفتار نمایش خطوط راهنما برچسب دادهٔ نمودار مشخص شده است. True خطوط راهنما را نمایش می‌دهد. False برای مخفی کردن. قابل خواندن/نوشتن Boolean. |
+| [ShowLegendKey](../../aspose.slides.charts/idatalabelformat/showlegendkey) { get; set; } | نمایانگر رفتار نمایش کلید افسانهٔ برچسب دادهٔ نمودار مشخص شده است. True اگر کلید افسانهٔ برچسب داده قابل مشاهده باشد. قابل خواندن/نوشتن Boolean. |
+| [ShowPercentage](../../aspose.slides.charts/idatalabelformat/showpercentage) { get; set; } | نمایانگر رفتار نمایش مقدار درصد برچسب دادهٔ نمودار مشخص شده است. True مقدار درصد را نمایش می‌دهد. False برای مخفی کردن. قابل خواندن/نوشتن Boolean. |
+| [ShowSeriesName](../../aspose.slides.charts/idatalabelformat/showseriesname) { get; set; } | یک Boolean را برگردانده یا تنظیم می‌کند تا رفتار نمایش نام سری برای برچسب‌های داده بر روی یک نمودار را نشان دهد. True برای نمایش نام سری. False برای مخفی کردن. قابل خواندن/نوشتن Boolean. |
+| [ShowValue](../../aspose.slides.charts/idatalabelformat/showvalue) { get; set; } | نمایانگر رفتار نمایش مقدار درصد برچسب دادهٔ نمودار مشخص شده است. True مقدار درصد را نمایش می‌دهد. False برای مخفی کردن. قابل خواندن/نوشتن Boolean. |
 
-### مراجع
+### همچنین ببینید
 
-* واسط [IFormattedTextContainer](../iformattedtextcontainer)
+* رابط [IFormattedTextContainer](../iformattedtextcontainer)
 * فضای‌نام [Aspose.Slides.Charts](../../aspose.slides.charts)
 * اسمبلی [Aspose.Slides](../../)
 

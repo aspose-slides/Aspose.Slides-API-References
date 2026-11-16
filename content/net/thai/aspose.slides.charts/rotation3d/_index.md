@@ -3,12 +3,12 @@ title: Rotation3D
 second_title: Aspose.Sildes สำหรับ .NET API Reference
 description: แสดงการหมุน 3 มิติของแผนภูมิ
 type: docs
-weight: 2400
+weight: 2420
 url: /th/aspose.slides.charts/rotation3d/
 ---
 ## Rotation3D คลาส
 
-Represents 3D rotation of a chart.
+แสดงการหมุน 3 มิติของแผนภูมิ
 
 ```csharp
 public class Rotation3D : IRotation3D
@@ -18,12 +18,12 @@ public class Rotation3D : IRotation3D
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [DepthPercents](../../aspose.slides.charts/rotation3d/depthpercents) { get; set; } | คืนค่าหรือกำหนดความลึกของแผนภูมิ 3 มิติเป็นเปอร์เซ็นต์ของความกว้างแผนภูมิ (ระหว่าง 20 ถึง 2000 เปอร์เซ็นต์) อ่าน/เขียน UInt16. |
-| [HeightPercents](../../aspose.slides.charts/rotation3d/heightpercents) { get; set; } | ระบุความสูงของแผนภูมิ 3 มิติเป็นเปอร์เซ็นต์ของความกว้างแผนภูมิ (ระหว่าง 5 ถึง 500 เปอร์เซ็นต์) อ่าน/เขียน UInt16. |
-| [Perspective](../../aspose.slides.charts/rotation3d/perspective) { get; set; } | คืนค่าหรือกำหนดค่ามุมมอง (มุมมองของสนามมองเห็น) สำหรับแผนภูมิ 3 มิติ (ระหว่าง 0 ถึง 240) จะถูกละเลยหากค่าคุณสมบัติ RightAngleAxes เป็น true อ่าน/เขียน Byte. |
-| [RightAngleAxes](../../aspose.slides.charts/rotation3d/rightangleaxes) { get; set; } | กำหนดว่ามีแกนของแผนภูมิมีมุมฉากหรือไม่ แทนที่จะถูกวาดในมุมมองเชิงมุมมอง กล่าวคือ กำหนดว่ามุมของแกนแผนภูมิกันอิสระจากการหมุนหรือการยกของแผนภูมิหรือไม่ อ่าน/เขียน Boolean. |
-| [RotationX](../../aspose.slides.charts/rotation3d/rotationx) { get; set; } | คืนค่าหรือกำหนดมุมการหมุนเป็นองศารอบแกน X (คือในทิศทาง Y สำหรับแผนภูมิ 3 มิติ) (ระหว่าง -90 ถึง 90 องศา) คุณสมบัตินี้สอดคล้องกับรายการ 21.2.2.157 rotX (X Rotation) ใน ECMA-376 และตัวเลือก "Y Rotation" ใน PowerPoint 2007+ อ่าน/เขียน SByte. |
-| [RotationY](../../aspose.slides.charts/rotation3d/rotationy) { get; set; } | คืนค่าหรือกำหนดมุมการหมุนเป็นองศารอบแกน Y (คือในทิศทาง X สำหรับแผนภูมิ 3 มิติ) (ระหว่าง 0 ถึง 360 องศา) คุณสมบัตินี้สอดคล้องกับรายการ 21.2.2.158 rotY (Y Rotation) ใน ECMA-376 และตัวเลือก "X Rotation" ใน PowerPoint 2007+ อ่าน/เขียน UInt16. |
+| [DepthPercents](../../aspose.slides.charts/rotation3d/depthpercents) { get; set; } | ส่งคืนหรือกำหนดความลึกของแผนภูมิ 3 มิติเป็นเปอร์เซ็นต์ของความกว้างของแผนภูมิ (ระหว่าง 20 ถึง 2000 เปอร์เซ็นต์) อ่าน/เขียน UInt16. |
+| [HeightPercents](../../aspose.slides.charts/rotation3d/heightpercents) { get; set; } | ระบุความสูงของแผนภูมิ 3 มิติเป็นเปอร์เซ็นต์ของความกว้างของแผนภูมิ (ระหว่าง 5 ถึง 500 เปอร์เซ็นต์) อ่าน/เขียน UInt16. |
+| [Perspective](../../aspose.slides.charts/rotation3d/perspective) { get; set; } | ส่งคืนหรือกำหนดค่ามุมมอง (มุมมองของสนามมองเห็น) สำหรับแผนภูมิ 3 มิติ (ระหว่าง 0 ถึง 240) จะถูกละเว้นหากค่า RightAngleAxes เป็น true อ่าน/เขียน Byte. |
+| [RightAngleAxes](../../aspose.slides.charts/rotation3d/rightangleaxes) { get; set; } | กำหนดว่าแกนของแผนภูมิเป็นมุมฉากหรือไม่ แทนที่จะวาดในมุมมองเชิงลึก กล่าวคือ กำหนดว่ามุมของแกนแผนภูมิเป็นอิสระจากการหมุนหรือการยกระดับของแผนภูมิหรือไม่ อ่าน/เขียน Boolean. |
+| [RotationX](../../aspose.slides.charts/rotation3d/rotationx) { get; set; } | ส่งคืนหรือกำหนดค่ามุมการหมุนรอบแกน X ซึ่งคือทิศทาง Y สำหรับแผนภูมิ 3 มิติ (ระหว่าง -90 ถึง 90 องศา) คุณสมบัตินี้ตรงกับรายการ 21.2.2.157 rotX (X Rotation) ใน ECMA-376 และกับตัวเลือก "Y Rotation" ใน PowerPoint 2007+ อ่าน/เขียน SByte. |
+| [RotationY](../../aspose.slides.charts/rotation3d/rotationy) { get; set; } | ส่งคืนหรือกำหนดค่ามุมการหมุนรอบแกน Y ซึ่งคือทิศทาง X สำหรับแผนภูมิ 3 มิติ (ระหว่าง 0 ถึง 360 องศา) คุณสมบัตินี้ตรงกับรายการ 21.2.2.158 rotY (Y Rotation) ใน ECMA-376 และกับตัวเลือก "X Rotation" ใน PowerPoint 2007+ อ่าน/เขียน UInt16. |
 
 ### ดูเพิ่มเติม
 

@@ -1,9 +1,9 @@
 ---
 title: TransitionSideDirectionType
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 측면 방향 전환 유형을 나타냅니다.
 type: docs
-weight: 10420
+weight: 10440
 url: /ko/aspose.slides.slideshow/transitionsidedirectiontype/
 ---
 ## TransitionSideDirectionType 열거형
@@ -23,7 +23,7 @@ public enum TransitionSideDirectionType
 | Down | `2` |  |
 | Right | `3` |  |
 
-### 참조
+### 참고
 
 * 네임스페이스 [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * 어셈블리 [Aspose.Slides](../../)

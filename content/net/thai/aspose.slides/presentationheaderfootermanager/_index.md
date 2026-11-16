@@ -1,32 +1,33 @@
 ---
 title: PresentationHeaderFooterManager
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
-description: แสดงผู้จัดการที่เก็บพฤติกรรมของ placeholder ส่วนล่าง วันที่-เวลา และเลขหน้าทั้งหมดของงานนำเสนอ
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงถึงผู้จัดการที่ควบคุมพฤติกรรมของตัวเติมตำแหน่งส่วนล่าง วันที่-เวลา และหมายเลขหน้า ทั้งหมดในงานนำเสนอ
 type: docs
-weight: 9610
+weight: 9630
 url: /th/aspose.slides/presentationheaderfootermanager/
 ---
-## PresentationHeaderFooterManager คลาส
+## คลาส PresentationHeaderFooterManager
 
-แสดงผู้จัดการที่มีพฤติกรรมของตัวแทนที่ส่วนล่าง, วันที่-เวลา และเลขหน้า ทั้งหมดของงานนำเสนอ
+แทนตัวผู้จัดการที่ควบคุมพฤติกรรมของตัวเติมตำแหน่งส่วนล่าง, วันที่-เวลา และหมายเลขหน้าในงานนำเสนอทั้งหมด
 
 ```csharp
 public class PresentationHeaderFooterManager : BaseHeaderFooterManager, 
     IPresentationHeaderFooterManager
 ```
 
+
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [SetAllDateTimesText](../../aspose.slides/presentationheaderfootermanager/setalldatetimestext)(string) | ตั้งค่าข้อความให้กับ placeholder วันที่-เวลา ทั้งหมด รวมถึงสไลด์แม่, สไลด์เลเอาต์, สไลด์, โน้ตแม่, สไลด์โน้ต และ handout แม่ |
-| [SetAllDateTimesVisibility](../../aspose.slides/presentationheaderfootermanager/setalldatetimesvisibility)(bool) | เปลี่ยนการมองเห็นของ placeholder วันที่-เวลา ทั้งหมด รวมถึงสไลด์แม่, สไลด์เลเอาต์, สไลด์, โน้ตแม่, สไลด์โน้ต และ handout แม่ |
-| [SetAllFootersText](../../aspose.slides/presentationheaderfootermanager/setallfooterstext)(string) | ตั้งค่าข้อความให้กับ placeholder ส่วนล่างทั้งหมด รวมถึงสไลด์แม่, สไลด์เลเอาต์, สไลด์, โน้ตแม่, สไลด์โน้ต และ handout แม่ |
-| [SetAllFootersVisibility](../../aspose.slides/presentationheaderfootermanager/setallfootersvisibility)(bool) | เปลี่ยนการมองเห็นของ placeholder ส่วนล่างทั้งหมด รวมถึงสไลด์แม่, สไลด์เลเอาต์, สไลด์, โน้ตแม่, สไลด์โน้ต และ handoff แม่ |
-| [SetAllHeadersText](../../aspose.slides/presentationheaderfootermanager/setallheaderstext)(string) | ตั้งค่าข้อความให้กับ placeholder ส่วนหัวทั้งหมด รวมถึงโน้ตแม่, สไลด์โน้ต และ handout แม่ |
-| [SetAllHeadersVisibility](../../aspose.slides/presentationheaderfootermanager/setallheadersvisibility)(bool) | เปลี่ยนการมองเห็นของ placeholder ส่วนหัวทั้งหมด รวมถึงโน้ตแม่, สไลด์โน้ต และ handout แม่ |
-| [SetAllSlideNumbersVisibility](../../aspose.slides/presentationheaderfootermanager/setallslidenumbersvisibility)(bool) | เปลี่ยนการมองเห็นของ placeholder เลขหน้า ทั้งหมด รวมถึงสไลด์แม่, สไลด์เลเอาต์, สไลด์, โน้ตแม่, สไลด์โน้ต และ handout แม่ |
-| [SetVisibilityOnAllTitleSlides](../../aspose.slides/presentationheaderfootermanager/setvisibilityonalltitleslides)(bool) | เปลี่ยนการมองเห็นของ placeholder ส่วนล่าง, วันที่-เวลา และเลขหน้า สำหรับสไลด์หัวเรื่องทั้งหมดและสไลด์เลเอาต์แรก สไลด์หัวเรื่อง – สไลด์ที่อิงจากสไลด์เลเอาต์แรก (ไม่ว่าจะเป็นประเภทใดของเลเอาต์แรก) |
+| [SetAllDateTimesText](../../aspose.slides/presentationheaderfootermanager/setalldatetimestext)(string) | ตั้งค่าข้อความให้กับตัวเติมตำแหน่งวันที่และเวลาทั้งหมด รวมถึงสไลด์มาสเตอร์, สไลด์เค้าโครง, สไลด์, โน้ตมาสเตอร์, โน้ตสไลด์และมาสเตอร์แจก |
+| [SetAllDateTimesVisibility](../../aspose.slides/presentationheaderfootermanager/setalldatetimesvisibility)(bool) | เปลี่ยนการมองเห็นของตัวเติมตำแหน่งวันที่และเวลาทั้งหมด รวมถึงสไลด์มาสเตอร์, สไลด์เค้าโครง, สไลด์, โน้ตมาสเตอร์, โน้ตสไลด์และมาสเตอร์แจก |
+| [SetAllFootersText](../../aspose.slides/presentationheaderfootermanager/setallfooterstext)(string) | ตั้งค่าข้อความให้กับตัวเติมตำแหน่งเท้า (footer) ทั้งหมด รวมถึงสไลด์มาสเตอร์, สไลด์เค้าโครง, สไลด์, โน้ตมาสเตอร์, โน้ตสไลด์และมาสเตอร์แจก |
+| [SetAllFootersVisibility](../../aspose.slides/presentationheaderfootermanager/setallfootersvisibility)(bool) | เปลี่ยนการมองเห็นของตัวเติมตำแหน่งเท้า (footer) ทั้งหมด รวมถึงสไลด์มาสเตอร์, สไลด์เค้าโครง, สไลด์, โน้ตมาสเตอร์, โน้ตสไลด์และมาสเตอร์แจก |
+| [SetAllHeadersText](../../aspose.slides/presentationheaderfootermanager/setallheaderstext)(string) | ตั้งค่าข้อความให้กับตัวเติมตำแหน่งส่วนหัว (header) ทั้งหมด รวมถึงโน้ตมาสเตอร์, โน้ตสไลด์และมาสเตอร์แจก |
+| [SetAllHeadersVisibility](../../aspose.slides/presentationheaderfootermanager/setallheadersvisibility)(bool) | เปลี่ยนการมองเห็นของตัวเติมตำแหน่งส่วนหัว (header) ทั้งหมด รวมถึงโน้ตมาสเตอร์, โน้ตสไลด์และมาสเตอร์แจก |
+| [SetAllSlideNumbersVisibility](../../aspose.slides/presentationheaderfootermanager/setallslidenumbersvisibility)(bool) | เปลี่ยนการมองเห็นของตัวเติมตำแหน่งหมายเลขหน้า (page number) ทั้งหมด รวมถึงสไลด์มาสเตอร์, สไลด์เค้าโครง, สไลด์, โน้ตมาสเตอร์, โน้ตสไลด์และมาสเตอร์แจก |
+| [SetVisibilityOnAllTitleSlides](../../aspose.slides/presentationheaderfootermanager/setvisibilityonalltitleslides)(bool) | เปลี่ยนการมองเห็นของตัวเติมตำแหน่งเท้า, วันที่-เวลา และหมายเลขหน้า สำหรับสไลด์หัวเรื่องทั้งหมดและสไลด์เค้าโครงแรก. สไลด์หัวเรื่อง – สไลด์ที่สร้างจากสไลด์เค้าโครงแรก (ไม่ขึ้นกับประเภทของเค้าโครงแรกนี้) |
 
 ### ดูเพิ่มเติม
 

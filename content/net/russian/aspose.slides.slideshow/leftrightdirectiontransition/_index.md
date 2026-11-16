@@ -1,14 +1,14 @@
 ---
 title: LeftRightDirectionTransition
-second_title: Aspose.Sildes для .NET Справочник API
+second_title: Aspose.Sildes для .NET справки API
 description: Эффект перехода слайда слева направо.
 type: docs
-weight: 10240
+weight: 10260
 url: /ru/aspose.slides.slideshow/leftrightdirectiontransition/
 ---
 ## LeftRightDirectionTransition класс
 
-Эффект перехода слайда влево-вправо.
+Эффект перехода слайда слева направо.
 
 ```csharp
 public class LeftRightDirectionTransition : TransitionValueBase, ILeftRightDirectionTransition
@@ -25,7 +25,7 @@ public class LeftRightDirectionTransition : TransitionValueBase, ILeftRightDirec
 | Имя | Описание |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Определяет, равны ли два экземпляра TransitionValueBase. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Служит хеш-функцией для определённого типа, подходящей для использования в алгоритмах хеширования и структурах данных, таких как хеш-таблица. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Служит хеш-функцией для определённого типа, подходящей для использования в хеш-алгоритмах и структурах данных, таких как хеш-таблица. |
 
 ### См. также
 

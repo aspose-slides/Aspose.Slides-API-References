@@ -1,14 +1,14 @@
 ---
 title: SetRange
-second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
-description: กำหนดช่วงข้อมูลแผนภูมิ Series และหมวดหมู่จะได้รับการอัปเดตตามช่วงข้อมูลใหม่ หากจำนวนของ series ในช่วงข้อมูลมากกว่าจำนวนของ series ในข้อมูลแผนภูมิ จะเพิ่ม series เพิ่มเติมที่มีประเภทเดียวกับ series สุดท้ายในคอลเลกชันปัจจุบันไปยังส่วนท้ายของคอลเลกชัน
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: กำหนดช่วงข้อมูลของแผนภูมิ ชุดข้อมูลและหมวดหมู่จะได้รับการอัปเดตตามช่วงข้อมูลใหม่ หากจำนวนชุดข้อมูลในช่วงข้อมูลมากกว่าจำนวนชุดข้อมูลใน chart data จะมีการเพิ่มชุดข้อมูลเพิ่มเติมที่มีประเภทเดียวกับชุดข้อมูลสุดท้ายในคอลเลกชันปัจจุบัน ไปยังส่วนท้ายของคอลเลกชัน
 type: docs
-weight: 130
+weight: 140
 url: /th/aspose.slides.charts/chartdata/setrange/
 ---
 ## ChartData.SetRange เมธอด
 
-กำหนดช่วงข้อมูลแผนภูมิ Series และหมวดหมู่จะได้รับการอัปเดตตามช่วงข้อมูลใหม่ หากจำนวนของ series ในช่วงข้อมูลมากกว่าจำนวนของ series ใน chart data จะเพิ่ม series เพิ่มเติมที่มีประเภทเดียวกับ series สุดท้ายในคอลเลกชันปัจจุบันไปยังส่วนท้ายของคอลเลกชัน
+กำหนดช่วงข้อมูลของแผนภูมิ ชุดข้อมูลและหมวดหมู่จะถูกอัปเดตตามช่วงข้อมูลใหม่ หากจำนวนชุดข้อมูลในช่วงข้อมูลมากกว่าจำนวนชุดข้อมูลใน chart data จะมีการเพิ่มชุดข้อมูลเพิ่มเติมที่มีประเภทเดียวกับชุดข้อมูลสุดท้ายในคอลเลกชันปัจจุบัน ไปยังส่วนท้ายของคอลเลกชัน
 
 ```csharp
 public void SetRange(string formula)
@@ -16,15 +16,15 @@ public void SetRange(string formula)
 
 | พารามิเตอร์ | ประเภท | คำอธิบาย |
 | --- | --- | --- |
-| formula | String | สูตรช่วงข้อมูลของเซลล์ ตัวอย่างเช่น: "Sheet1!$A$1:$C$4" , "SomeSheetName!A1:B100", "Sheet1!$A$1:$B$5;Sheet1!$D$1:$D$5". |
+| formula | String | สูตรช่วงข้อมูลของเซลล์ เช่น: "Sheet1!$A$1:$C$4" , "SomeSheetName!A1:B100", "Sheet1!$A$1:$B$5;Sheet1!$D$1:$D$5". |
 
 ### ข้อยกเว้น
 
 | ข้อยกเว้น | เงื่อนไข |
 | --- | --- |
-| ArgumentNullException | formula คือ null. |
-| InvalidOperationException | ประเภทแผนภูมิที่ไม่รองรับ |
-| ArgumentException | formula มีรูปแบบไม่ถูกต้อง. |
+| ArgumentNullException | formula is null. |
+| InvalidOperationException | Unsupported chart type |
+| ArgumentException | formula has incorrect format. |
 
 ### ดูเพิ่มเติม
 

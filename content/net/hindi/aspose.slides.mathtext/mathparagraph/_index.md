@@ -1,14 +1,14 @@
 ---
 title: MathParagraph
-second_title: Aspose.Sildes .NET API संदर्भ
-description: गणितीय पैराग्राफ जो गणितीय ब्लॉकों के कंटेनर के रूप में कार्य करता है IMathBlock
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: गणितीय अनुच्छेद जो गणितीय ब्लॉक्स IMMathBlock के लिए कंटेनर है
 type: docs
-weight: 8900
+weight: 8920
 url: /hi/aspose.slides.mathtext/mathparagraph/
 ---
 ## MathParagraph क्लास
 
-Mathematical paragraph that is a container for mathematical blocks (IMathBlock)
+गणितीय अनुच्छेद जो गणितीय ब्लॉक्स (IMathBlock) के लिए कंटेनर होता है।
 
 ```csharp
 public class MathParagraph : IMathParagraph
@@ -18,34 +18,34 @@ public class MathParagraph : IMathParagraph
 
 | नाम | विवरण |
 | --- | --- |
-| [MathParagraph](mathparagraph#constructor)() | MathParagraph क्लास का नया उदाहरण प्रारंभ करता है। |
-| [MathParagraph](mathparagraph#constructor_1)(IMathBlock) | MathParagraph क्लास का नया उदाहरण प्रारंभ करता है। |
+| [MathParagraph](mathparagraph#constructor)() | MathParagraph क्लास का नया उदाहरण आरंभ करता है। |
+| [MathParagraph](mathparagraph#constructor_1)(IMathBlock) | MathParagraph क्लास का नया उदाहरण आरंभ करता है। |
 
 ## गुण
 
 | नाम | विवरण |
 | --- | --- |
-| [Count](../../aspose.slides.mathtext/mathparagraph/count) { get; } | कलेक्शन में वास्तव में सम्मिलित तत्वों की संख्या प्राप्त करता है। केवल-पढ़ने योग्य Int32। |
-| [Item](../../aspose.slides.mathtext/mathparagraph/item) { get; set; } | निर्दिष्ट सूचकांक पर आइटम प्राप्त करता है। केवल-पढ़ने योग्य [`IMathBlock`](../imathblock)। |
-| [Justification](../../aspose.slides.mathtext/mathparagraph/justification) { get; set; } | Paragraph समतलीकरण डिफ़ॉल्ट मान: CenteredAsGroup |
+| [Count](../../aspose.slides.mathtext/mathparagraph/count) { get; } | संग्रह में वास्तव में सम्मिलित तत्वों की संख्या प्राप्त करता है। केवल-पढ़ने योग्य Int32। |
+| [Item](../../aspose.slides.mathtext/mathparagraph/item) { get; set; } | निर्दिष्ट अनुक्रमांक पर आइटम प्राप्त करता है। केवल-पढ़ने योग्य [`IMathBlock`](../imathblock)। |
+| [Justification](../../aspose.slides.mathtext/mathparagraph/justification) { get; set; } | Paragraph Justification डिफ़ॉल्ट मान: CenteredAsGroup |
 
 ## विधियां
 
 | नाम | विवरण |
 | --- | --- |
-| [Add](../../aspose.slides.mathtext/mathparagraph/add)(IMathBlock) | IMMathBlock को कलेक्शन के अंत में जोड़ता है। |
-| [Clear](../../aspose.slides.mathtext/mathparagraph/clear)() | कलेक्शन से सभी तत्वों को हटाता है। |
-| [Contains](../../aspose.slides.mathtext/mathparagraph/contains)(IMathBlock) | कलेक्शन में किसी विशिष्ट मान के अस्तित्व का निर्धारण करता है। |
-| [IndexOf](../../aspose.slides.mathtext/mathparagraph/indexof)(IMathBlock) | कलेक्शन में किसी विशिष्ट IMathBlock का सूचकांक निर्धारित करता है। |
-| [Insert](../../aspose.slides.mathtext/mathparagraph/insert)(int, IMathBlock) | निर्दिष्ट सूचकांक पर कलेक्शन में IMathBlock सम्मिलित करता है। |
-| [Remove](../../aspose.slides.mathtext/mathparagraph/remove)(IMathBlock) | कलेक्शन से विशिष्ट वस्तु की पहली घटना हटाता है/>। |
-| [RemoveAt](../../aspose.slides.mathtext/mathparagraph/removeat)(int) | कलेक्शन में निर्दिष्ट सूचकांक पर आइटम हटाता है। |
-| [ToLatex](../../aspose.slides.mathtext/mathparagraph/tolatex)() | LaTeX प्रारूप में गणितीय समीकरण प्राप्त करता है। |
+| [Add](../../aspose.slides.mathtext/mathparagraph/add)(IMathBlock) | संग्रह के अंत में IMathBlock जोड़ता है। |
+| [Clear](../../aspose.slides.mathtext/mathparagraph/clear)() | संग्रह से सभी तत्वों को हटाता है। |
+| [Contains](../../aspose.slides.mathtext/mathparagraph/contains)(IMathBlock) | निर्धारित करता है कि क्या संग्रह में एक विशिष्ट मान मौजूद है। |
+| [IndexOf](../../aspose.slides.mathtext/mathparagraph/indexof)(IMathBlock) | संग्रह में एक विशिष्ट IMathBlock का अनुक्रमांक निर्धारित करता है। |
+| [Insert](../../aspose.slides.mathtext/mathparagraph/insert)(int, IMathBlock) | निर्दिष्ट अनुक्रमांक पर संग्रह में IMMathBlock डालता है। |
+| [Remove](../../aspose.slides.mathtext/mathparagraph/remove)(IMathBlock) | संग्रह में एक विशिष्ट वस्तु की पहली घटना को हटाता है/>। |
+| [RemoveAt](../../aspose.slides.mathtext/mathparagraph/removeat)(int) | निर्दिष्ट अनुक्रमांक पर संग्रह से एक आइटम हटाता है। |
+| [ToLatex](../../aspose.slides.mathtext/mathparagraph/tolatex)() | LaTeX फ़ॉर्मेट में गणितीय समीकरण प्राप्त करता है। |
 | [WriteAsMathMl](../../aspose.slides.mathtext/mathparagraph/writeasmathml)(Stream) | इस [`MathParagraph`](../mathparagraph) की सामग्री को MathML के रूप में सहेजता है। |
 
 ### उदाहरण
 
-Example:
+उदाहरण:
 
 ```csharp
 [C#]
@@ -54,10 +54,10 @@ IMathParagraph mathParagraph = (shape.TextFrame.Paragraphs[0].Portions[0] as Mat
 mathParagraph.Justification = MathJustification.LeftJustified;
 ```
 
-### देखें
+### और देखें
 
-* interface [IMathParagraph](../imathparagraph)
-* namespace [Aspose.Slides.MathText](../../aspose.slides.mathtext)
-* assembly [Aspose.Slides](../../)
+* इंटरफ़ेस [IMathParagraph](../imathparagraph)
+* नामस्थान [Aspose.Slides.MathText](../../aspose.slides.mathtext)
+* असेंबली [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

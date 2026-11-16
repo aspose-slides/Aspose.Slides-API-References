@@ -3,7 +3,7 @@ title: IDrawingGuidesCollection
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示可调绘图参考线的集合。
 type: docs
-weight: 5730
+weight: 5750
 url: /zh/aspose.slides/idrawingguidescollection/
 ---
 ## IDrawingGuidesCollection 接口
@@ -19,7 +19,7 @@ public interface IDrawingGuidesCollection : IEnumerable<IDrawingGuide>
 | 名称 | 描述 |
 | --- | --- |
 | [Count](../../aspose.slides/idrawingguidescollection/count) { get; } | 获取集合中所有元素的数量。只读 Int32。 |
-| [Item](../../aspose.slides/idrawingguidescollection/item) { get; } | 根据索引返回绘图参考线。只读 [`IDrawingGuide`](../idrawingguide)。 |
+| [Item](../../aspose.slides/idrawingguidescollection/item) { get; } | 按索引返回绘图参考线。只读 [`IDrawingGuide`](../idrawingguide)。 |
 
 ## 方法
 

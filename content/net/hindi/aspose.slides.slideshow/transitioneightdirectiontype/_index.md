@@ -1,12 +1,12 @@
 ---
 title: TransitionEightDirectionType
-second_title: Aspose.Sildes के लिए .NET API रेफ़रेंस
+second_title: Aspose.Sildes for .NET API संदर्भ
 description: आठ दिशा संक्रमण प्रकारों का प्रतिनिधित्व करता है।
 type: docs
-weight: 10360
+weight: 10380
 url: /hi/aspose.slides.slideshow/transitioneightdirectiontype/
 ---
-## TransitionEightDirectionType एन्यूमरेशन
+## TransitionEightDirectionType ए़न्यूमरेशन
 
 आठ दिशा संक्रमण प्रकारों का प्रतिनिधित्व करता है।
 
@@ -27,7 +27,7 @@ public enum TransitionEightDirectionType
 | Down | `6` |  |
 | Right | `7` |  |
 
-### देखें भी
+### देखें
 
 * नामस्थान [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * असेंबली [Aspose.Slides](../../)

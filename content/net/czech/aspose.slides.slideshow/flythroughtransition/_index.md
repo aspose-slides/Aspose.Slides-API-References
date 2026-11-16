@@ -1,14 +1,14 @@
 ---
 title: FlyThroughTransition
-second_title: Aspose.Sildes pro .NET – reference API
-description: Efekt přechodu snímku fly-through.
+second_title: Aspose.Sildes pro .NET API referenci
+description: Efekt přechodu snímku letem.
 type: docs
-weight: 10040
+weight: 10060
 url: /cs/aspose.slides.slideshow/flythroughtransition/
 ---
-## FlyThroughTransition třída
+## FlyThroughTransition class
 
-Efekt přechodu snímku typu Fly-through.
+Efekt přechodu snímku letem.
 
 ```csharp
 public class FlyThroughTransition : TransitionValueBase, IFlyThroughTransition
@@ -18,14 +18,14 @@ public class FlyThroughTransition : TransitionValueBase, IFlyThroughTransition
 
 | Název | Popis |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/flythroughtransition/direction) { get; set; } | Směr přechodu. Číst/zapisovat [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [HasBounce](../../aspose.slides.slideshow/flythroughtransition/hasbounce) { get; set; } | Určuje, že pohyb snímků prezentace během přechodu zahrnuje odraz. Číst/zapisovat Boolean. |
+| [Direction](../../aspose.slides.slideshow/flythroughtransition/direction) { get; set; } | Směr přechodu. Čtení/zápis [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
+| [HasBounce](../../aspose.slides.slideshow/flythroughtransition/hasbounce) { get; set; } | Určuje, že pohyb snímků prezentace během přechodu zahrnuje odraz. Čtení/zápis Boolean. |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Určuje, zda jsou dvě instance TransitionValueBase si rovny. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Určuje, zda jsou dvě instance TransitionValueBase rovny. |
 | override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Slouží jako hashovací funkce pro konkrétní typ, vhodná pro použití v hashovacích algoritmech a datových strukturách, jako je hash tabulka. |
 
 ### Viz také

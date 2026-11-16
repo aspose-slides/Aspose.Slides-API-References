@@ -3,7 +3,7 @@ title: TextUnderlineType
 second_title: Aspose.Sildes pour la référence de l'API .NET
 description: Représente le type de soulignement de texte.
 type: docs
-weight: 11010
+weight: 11030
 url: /fr/aspose.slides/textunderlinetype/
 ---
 ## Énumération TextUnderlineType

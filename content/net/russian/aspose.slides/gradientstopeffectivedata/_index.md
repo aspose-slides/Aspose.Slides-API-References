@@ -3,10 +3,10 @@ title: GradientStopEffectiveData
 second_title: Aspose.Sildes для .NET справочник API
 description: Неизменяемый объект, представляющий градиентную остановку.
 type: docs
-weight: 5050
+weight: 5070
 url: /ru/aspose.slides/gradientstopeffectivedata/
 ---
-## GradientStopEffectiveData класс
+## GradientStopEffectiveData class
 
 Неизменяемый объект, представляющий градиентную остановку.
 
@@ -19,7 +19,7 @@ public class GradientStopEffectiveData : IGradientStopEffectiveData
 | Имя | Описание |
 | --- | --- |
 | [Color](../../aspose.slides/gradientstopeffectivedata/color) { get; } | Возвращает цвет градиентной остановки. Только для чтения Color. |
-| [Position](../../aspose.slides/gradientstopeffectivedata/position) { get; } | Возвращает позицию (0..1) градиентной остановки. Только для чтения Single. |
+| [Position](../../aspose.slides/gradientstopeffectivedata/position) { get; } | Возвращает положение (0..1) градиентной остановки. Только для чтения Single. |
 
 ## Методы
 

@@ -1,9 +1,9 @@
 ---
 title: IFillFormat
-second_title: Aspose.Sildes para la referencia de API de .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa opciones de formato de relleno.
 type: docs
-weight: 5790
+weight: 5810
 url: /es/aspose.slides/ifillformat/
 ---
 ## IFillFormat interfaz

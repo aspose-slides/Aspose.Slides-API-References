@@ -1,9 +1,9 @@
 ---
 title: PresentationFactory
-second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
-description: อนุญาตให้สร้างงานนำเสนอผ่านอินเทอร์เฟซ COM
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: อนุญาตให้สร้างการนำเสนอผ่านอินเทอร์เฟซ COM
 type: docs
-weight: 9600
+weight: 9620
 url: /th/aspose.slides/presentationfactory/
 ---
 ## PresentationFactory คลาส
@@ -18,31 +18,31 @@ public class PresentationFactory : IPresentationFactory
 
 | Name | Description |
 | --- | --- |
-| [PresentationFactory](presentationfactory)() | ตัวสร้างค่าเริ่มต้น |
+| [PresentationFactory](presentationfactory)() | คอนสตรัคเตอร์เริ่มต้น. |
 
 ## คุณสมบัติ
 
 | Name | Description |
 | --- | --- |
-| static [Instance](../../aspose.slides/presentationfactory/instance) { get; } | อินสแตนซ์แบบคงที่ของ Presentation factory. อ่านอย่างเดียว [`PresentationFactory`](../presentationfactory). |
+| static [Instance](../../aspose.slides/presentationfactory/instance) { get; } | อินสแตนซ์สเตติกของแฟกทอรีการนำเสนอ. อ่านอย่างเดียว [`PresentationFactory`](../presentationfactory). |
 
 ## เมธอด
 
 | Name | Description |
 | --- | --- |
-| [CreatePresentation](../../aspose.slides/presentationfactory/createpresentation#createpresentation)() | สร้าง Presentation ใหม่ |
-| [CreatePresentation](../../aspose.slides/presentationfactory/createpresentation#createpresentation_1)(ILoadOptions) | สร้าง Presentation ใหม่พร้อมตัวเลือกการโหลดเพิ่มเติม |
-| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo)(Stream) | สร้างอ็อบเจ็กต์ PresentationInfo จากสตรีมและผูก Presentation เข้ากับมัน – รับข้อมูลเกี่ยวกับ Presentation ในสตรีมที่ระบุ |
-| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo_1)(string) | สร้างอ็อบเจ็กต์ PresentationInfo จากไฟล์และผูก Presentation เข้ากับมัน |
+| [CreatePresentation](../../aspose.slides/presentationfactory/createpresentation#createpresentation)() | สร้างการนำเสนอใหม่. |
+| [CreatePresentation](../../aspose.slides/presentationfactory/createpresentation#createpresentation_1)(ILoadOptions) | สร้างการนำเสนอใหม่ด้วยตัวเลือกการโหลดเพิ่มเติม |
+| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo)(Stream) | สร้างอ็อบเจ็กต์ PresentationInfo จากสตรีมและผูกการนำเสนอเข้ากับมัน. รับข้อมูลเกี่ยวกับการนำเสนอในสตรีมที่ระบุ. |
+| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo_1)(string) | สร้างอ็อบเจ็กต์ PresentationInfo จากไฟล์และผูกการนำเสนอเข้ากับมัน. |
 | [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext)(Stream, TextExtractionArrangingMode) | ดึงข้อความดิบจากสไลด์ |
 | [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext_2)(string, TextExtractionArrangingMode) | ดึงข้อความดิบจากสไลด์ |
 | [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext_1)(Stream, TextExtractionArrangingMode, ILoadOptions) | ดึงข้อความดิบจากสไลด์ |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation)(byte[]) | อ่าน Presentation ที่มีอยู่จากอาเรย์ |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_2)(Stream) | อ่าน Presentation ที่มีอยู่จากสตรีม |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_4)(string) | อ่าน Presentation ที่มีอยู่จากไฟล์ |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_1)(byte[], ILoadOptions) | อ่าน Presentation ที่มีอยู่จากอาเรย์พร้อมตัวเลือกการโหลดเพิ่มเติม |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_3)(Stream, ILoadOptions) | อ่าน Presentation ที่มีอยู่จากสตรีมพร้อมตัวเลือกการโหลดเพิ่มเติม |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_5)(string, ILoadOptions) | อ่าน Presentation ที่มีอยู่จากสตรีมพร้อมตัวเลือกการโหลดเพิ่มเติม |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation)(byte[]) | อ่านการนำเสนอที่มีอยู่จากอาร์เรย์ |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_2)(Stream) | อ่านการนำเสนอที่มีอยู่จากสตรีม |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_4)(string) | อ่านการนำเสนอที่มีอยู่จากไฟล์ |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_1)(byte[], ILoadOptions) | อ่านการนำเสนอที่มีอยู่จากอาร์เรย์ด้วยตัวเลือกการโหลดเพิ่มเติม |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_3)(Stream, ILoadOptions) | อ่านการนำเสนอที่มีอยู่จากสตรีมด้วยตัวเลือกการโหลดเพิ่มเติม |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_5)(string, ILoadOptions) | อ่านการนำเสนอที่มีอยู่จากไฟล์ด้วยตัวเลือกการโหลดเพิ่มเติม |
 
 ### ตัวอย่าง
 
@@ -82,8 +82,8 @@ info.UpdateDocumentProperties(props);
 
 ### ดูเพิ่มเติม
 
-* interface [IPresentationFactory](../ipresentationfactory)
-* namespace [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* อินเทอร์เฟซ [IPresentationFactory](../ipresentationfactory)
+* เนมสเปซ [Aspose.Slides](../../aspose.slides)
+* แอสเซมบลี [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

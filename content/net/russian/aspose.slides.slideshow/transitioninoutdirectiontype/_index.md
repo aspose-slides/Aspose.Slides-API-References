@@ -1,9 +1,9 @@
 ---
 title: TransitionInOutDirectionType
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Aspose.Sildes для .NET справка по API
 description: Представляет типы переходов входа и выхода.
 type: docs
-weight: 10370
+weight: 10390
 url: /ru/aspose.slides.slideshow/transitioninoutdirectiontype/
 ---
 ## Перечисление TransitionInOutDirectionType

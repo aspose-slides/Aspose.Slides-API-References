@@ -1,9 +1,9 @@
 ---
 title: ILineFillFormat
-second_title: Aspose.Sildes pro .NET API referenci
+second_title: Aspose.Sildes pro .NET API Reference
 description: Reprezentuje vlastnosti pro vyplňování čar.
 type: docs
-weight: 6290
+weight: 6310
 url: /cs/aspose.slides/ilinefillformat/
 ---
 ## ILineFillFormat rozhraní
@@ -18,12 +18,12 @@ public interface ILineFillFormat : IFillParamSource
 
 | Název | Popis |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/ilinefillformat/asifillparamsource) { get; } | Umožňuje získat základní rozhraní IFillParamSource. Pouze pro čtení [`IFillParamSource`](../ifillparamsource). |
+| [AsIFillParamSource](../../aspose.slides/ilinefillformat/asifillparamsource) { get; } | Umožňuje získat základní rozhraní IFillParamSource. Pouze ke čtení [`IFillParamSource`](../ifillparamsource). |
 | [FillType](../../aspose.slides/ilinefillformat/filltype) { get; set; } | Vrací nebo nastavuje typ výplně. Čtení/zápis [`FillType`](../filltype). |
-| [GradientFormat](../../aspose.slides/ilinefillformat/gradientformat) { get; } | Vrací formát přechodové výplně. Pouze pro čtení [`IGradientFormat`](../igradientformat). |
-| [PatternFormat](../../aspose.slides/ilinefillformat/patternformat) { get; } | Vrací formát vzorové výplně. Pouze pro čtení [`IPatternFormat`](../ipatternformat). |
-| [RotateWithShape](../../aspose.slides/ilinefillformat/rotatewithshape) { get; set; } | Určuje, zda by výplň měla být otáčena s tvarem. Čtení/zápis [`NullableBool`](../nullablebool). |
-| [SolidFillColor](../../aspose.slides/ilinefillformat/solidfillcolor) { get; } | Vrací barvu plné výplně. Pouze pro čtení [`IColorFormat`](../icolorformat). |
+| [GradientFormat](../../aspose.slides/ilinefillformat/gradientformat) { get; } | Vrací formát gradientového výplně. Pouze ke čtení [`IGradientFormat`](../igradientformat). |
+| [PatternFormat](../../aspose.slides/ilinefillformat/patternformat) { get; } | Vrací formát vzorové výplně. Pouze ke čtení [`IPatternFormat`](../ipatternformat). |
+| [RotateWithShape](../../aspose.slides/ilinefillformat/rotatewithshape) { get; set; } | Určuje, zda by měla být výplň otočena společně s tvarem. Čtení/zápis [`NullableBool`](../nullablebool). |
+| [SolidFillColor](../../aspose.slides/ilinefillformat/solidfillcolor) { get; } | Vrací barvu plné výplně. Pouze ke čtení [`IColorFormat`](../icolorformat). |
 
 ### Viz také
 

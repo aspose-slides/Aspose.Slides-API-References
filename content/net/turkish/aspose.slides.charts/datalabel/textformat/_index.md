@@ -1,20 +1,20 @@
 ---
 title: TextFormat
-second_title: Aspose.Sildes .NET için API Referansı
-description: Metin biçimini döndürür. Salt okunur IChartTextFormataspose.slides.charts/icharttextformat.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Metin biçimini döndürür. Yalnızca okunabilir IChartTextFormataspose.slides.charts/icharttextformat.
 type: docs
-weight: 120
+weight: 130
 url: /tr/aspose.slides.charts/datalabel/textformat/
 ---
 ## DataLabel.TextFormat özelliği
 
-Metin biçimini döndürür. Salt okunur [`IChartTextFormat`](../../icharttextformat).
+Metin biçimini döndürür. Yalnızca okunabilir [`IChartTextFormat`](../../icharttextformat).
 
 ```csharp
 public IChartTextFormat TextFormat { get; }
 ```
 
-### İlgili
+### Ayrıca Bakınız
 
 * arayüz [IChartTextFormat](../../icharttextformat)
 * sınıf [DataLabel](../../datalabel)

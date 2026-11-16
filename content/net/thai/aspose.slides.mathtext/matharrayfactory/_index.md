@@ -1,12 +1,12 @@
 ---
 title: MathArrayFactory
-second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
+second_title: Aspose.Sildes สำหรับ .NET API Reference
 description: อนุญาตให้สร้างอาร์เรย์คณิตศาสตร์
 type: docs
-weight: 8560
+weight: 8580
 url: /th/aspose.slides.mathtext/matharrayfactory/
 ---
-## คลาส MathArrayFactory
+## MathArrayFactory คลาส
 
 อนุญาตให้สร้างอาร์เรย์คณิตศาสตร์
 
@@ -24,16 +24,16 @@ public class MathArrayFactory : IMathArrayFactory
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [CreateMathArray](../../aspose.slides.mathtext/matharrayfactory/creatematharray#creatematharray)(IMathElement) | สร้างอาร์เรย์คณิตศาสตร์และวางองค์ประกอบที่ระบุไว้ในอาร์เรย์ |
-| [CreateMathArray](../../aspose.slides.mathtext/matharrayfactory/creatematharray#creatematharray_1)(IMathElementCollection) | สร้างอาร์เรย์คณิตศาสตร์และวางองค์ประกอบที่ระบุไว้ในอาร์เรย์ |
+| [CreateMathArray](../../aspose.slides.mathtext/matharrayfactory/creatematharray#creatematharray)(IMathElement) | สร้างอาร์เรย์คณิตศาสตร์และวางองค์ประกอบที่ระบุไว้ในนั้น |
+| [CreateMathArray](../../aspose.slides.mathtext/matharrayfactory/creatematharray#creatematharray_1)(IMathElementCollection) | สร้างอาร์เรย์คณิตศาสตร์และวางองค์ประกอบที่ระบุไว้ในนั้น |
 
 ### หมายเหตุ
 
-สำหรับความเข้ากันได้กับ COM
+เพื่อความเข้ากันได้กับ COM
 
 ### ดูเพิ่มเติม
 
-* ส่วนต่อประสาน [IMathArrayFactory](../imatharrayfactory)
+* อินเทอร์เฟซ [IMathArrayFactory](../imatharrayfactory)
 * เนมสเปซ [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * แอสเซมบลี [Aspose.Slides](../../)
 

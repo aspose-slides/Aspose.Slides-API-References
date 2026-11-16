@@ -1,14 +1,14 @@
 ---
 title: MasterLayoutSlideCollection
-second_title: Aspose.Sildes для .NET API Reference
-description: Представляет коллекцию всех макетных слайдов определённого мастера-слайда. Наследует класс LayoutSlideCollection и содержит методы для добавления, вставки, удаления, клонирования и переупорядочения макетных слайдов в контексте отдельных коллекций макетных слайдов мастера.
+second_title: Aspose.Sildes для .NET справочник API
+description: Представляет коллекцию всех слайдов-макетов определённого главного слайда. Расширяет класс LayoutSlideCollection методами добавления, вставки, удаления, клонирования и перестановки слайдов-макетов в контексте отдельных коллекций макетов главных слайдов.
 type: docs
-weight: 8000
+weight: 8020
 url: /ru/aspose.slides/masterlayoutslidecollection/
 ---
 ## MasterLayoutSlideCollection класс
 
-Представляет коллекцию всех макетных слайдов заданного основного слайда. Наследует класс LayoutSlideCollection и содержит методы для добавления/вставки/удаления/клонирования/перестановки макетных слайдов в контексте отдельных коллекций макетных слайдов мастера.
+Представляет коллекцию всех слайдов-макетов определенного главного слайда. Расширяет класс LayoutSlideCollection методами добавления/вставки/удаления/клонирования/перестановки слайдов-макетов в контексте отдельных коллекций макетов главного слайда.
 
 ```csharp
 public sealed class MasterLayoutSlideCollection : LayoutSlideCollection, 
@@ -19,26 +19,26 @@ public sealed class MasterLayoutSlideCollection : LayoutSlideCollection,
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides/layoutslidecollection/count) { get; } | Возвращает количество макетных слайдов в коллекции. Только для чтения Int32. |
+| [Count](../../aspose.slides/layoutslidecollection/count) { get; } | Возвращает количество слайдов-макетов в коллекции. Только для чтения Int32. |
 | [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | Возвращает значение, указывающее, синхронизирован ли доступ к коллекции (потокобезопасный). Только для чтения Boolean. |
-| [Item](../../aspose.slides/layoutslidecollection/item) { get; } | Возвращает макетный слайд по индексу. Только для чтения [`LayoutSlide`](../layoutslide). |
-| [SyncRoot](../../aspose.slides/layoutslidecollection/syncroot) { get; } | Возвращает объект синхронизации. Только для чтения Object. |
+| [Item](../../aspose.slides/layoutslidecollection/item) { get; } | Возвращает слайд-макет по индексу. Только для чтения [`LayoutSlide`](../layoutslide). |
+| [SyncRoot](../../aspose.slides/layoutslidecollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтения Object. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.slides/masterlayoutslidecollection/add)(SlideLayoutType, string) | Добавляет новый макетный слайд в конец коллекции. |
-| [AddClone](../../aspose.slides/masterlayoutslidecollection/addclone)(ILayoutSlide) | Добавляет копию указанного макетного слайда в конец коллекции. |
-| [CopyTo](../../aspose.slides/layoutslidecollection/copyto)(Array, int) | Копирует все элементы коллекции в указанный массив. |
-| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | Возвращает первый макетный слайд указанного типа. Тип макетного слайда для поиска.[`LayoutSlide`](../layoutslide) с указанным типом или null, если макеты не найдены. |
-| [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | Возвращает перечислитель, который перебирает элементы коллекции. |
-| [Insert](../../aspose.slides/masterlayoutslidecollection/insert)(int, SlideLayoutType, string) | Вставляет новый макетный слайд в указанную позицию коллекции. |
-| [InsertClone](../../aspose.slides/masterlayoutslidecollection/insertclone)(int, ILayoutSlide) | Вставляет копию указанного макетного слайда в указанную позицию коллекции. |
+| [Add](../../aspose.slides/masterlayoutslidecollection/add)(SlideLayoutType, string) | Добавляет новый слайд-макет в конец коллекции. |
+| [AddClone](../../aspose.slides/masterlayoutslidecollection/addclone)(ILayoutSlide) | Добавляет копию указанного слайда-макета в конец коллекции. |
+| [CopyTo](../../aspose.slides/layoutslidecollection/copyto)(Array, int) | Копирует все элементы из коллекции в указанный массив. |
+| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | Возвращает первый слайд-макет указанного типа. Тип слайда-макета для поиска.[`LayoutSlide`](../layoutslide) с указанным типом или null, если макеты не найдены. |
+| [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
+| [Insert](../../aspose.slides/masterlayoutslidecollection/insert)(int, SlideLayoutType, string) | Вставляет новый слайд-макет в указанную позицию коллекции. |
+| [InsertClone](../../aspose.slides/masterlayoutslidecollection/insertclone)(int, ILayoutSlide) | Вставляет копию указанного слайда-макета в указанную позицию коллекции. |
 | [Remove](../../aspose.slides/layoutslidecollection/remove)(ILayoutSlide) | Удаляет макет из коллекции. |
 | [RemoveAt](../../aspose.slides/masterlayoutslidecollection/removeat)(int) | Удаляет элемент по указанному индексу в коллекции. |
-| [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | Удаляет неиспользуемые макетные слайды (макетные слайды, у которых HasDependingSlides равно false). |
-| [Reorder](../../aspose.slides/masterlayoutslidecollection/reorder)(int, ILayoutSlide) | Перемещает макетный слайд в коллекции на указанную позицию. |
+| [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | Удаляет неиспользуемые слайды-макеты (слайды-макеты, у которых HasDependingSlides равно false). |
+| [Reorder](../../aspose.slides/masterlayoutslidecollection/reorder)(int, ILayoutSlide) | Перемещает слайд-макет из коллекции в указанную позицию. |
 
 ### См. также
 

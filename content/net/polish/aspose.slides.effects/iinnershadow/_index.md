@@ -1,14 +1,14 @@
 ---
 title: IInnerShadow
-second_title: Aspose.Sildes dla .NET - odniesienie API
-description: Reprezentuje efekt wewnętrznego cienia.
+second_title: Aspose.Sildes dla .NET - dokumentacja API
+description: Reprezentuje wewnętrzny efekt cienia.
 type: docs
-weight: 3420
+weight: 3440
 url: /pl/aspose.slides.effects/iinnershadow/
 ---
 ## IInnerShadow interfejs
 
-Reprezentuje efekt wewnętrznego cienia.
+Reprezentuje wewnętrzny efekt cienia.
 
 ```csharp
 public interface IInnerShadow : IAccessiblePVIObject<IInnerShadowEffectiveData>, 
@@ -26,7 +26,7 @@ public interface IInnerShadow : IAccessiblePVIObject<IInnerShadowEffectiveData>,
 | [Distance](../../aspose.slides.effects/iinnershadow/distance) { get; set; } | Odległość cienia. Odczyt/zapis Double. |
 | [ShadowColor](../../aspose.slides.effects/iinnershadow/shadowcolor) { get; } | Kolor cienia. Tylko do odczytu [`IColorFormat`](../../aspose.slides/icolorformat). |
 
-### Zobacz także
+### Zobacz również
 
 * interfejs [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * interfejs [IInnerShadowEffectiveData](../iinnershadoweffectivedata)

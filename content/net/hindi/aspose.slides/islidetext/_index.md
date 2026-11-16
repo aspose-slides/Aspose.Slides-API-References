@@ -1,14 +1,14 @@
 ---
 title: ISlideText
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: स्लाइड से निकाले गए पाठ का प्रतिनिधित्व करता है
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: स्लाइड से निकाले गये टेक्स्ट का प्रतिनिधित्व करता है
 type: docs
-weight: 7100
+weight: 7120
 url: /hi/aspose.slides/islidetext/
 ---
 ## ISlideText इंटरफ़ेस
 
-स्लाइड से निकाले गए पाठ का प्रतिनिधित्व करता है
+स्लाइड से निकाले गये टेक्स्ट का प्रतिनिधित्व करता है
 
 ```csharp
 public interface ISlideText
@@ -18,13 +18,13 @@ public interface ISlideText
 
 | नाम | विवरण |
 | --- | --- |
-| [CommentsText](../../aspose.slides/islidetext/commentstext) { get; } | स्लाइड टिप्पणी का पाठ |
-| [LayoutText](../../aspose.slides/islidetext/layouttext) { get; } | इस स्लाइड के लेआउट पेज की आकृतियों पर पाठ |
-| [MasterText](../../aspose.slides/islidetext/mastertext) { get; } | इस स्लाइड के मास्टर पेज की आकृतियों पर पाठ |
-| [NotesText](../../aspose.slides/islidetext/notestext) { get; } | इस स्लाइड के नोट्स पेज की आकृतियों पर पाठ |
-| [Text](../../aspose.slides/islidetext/text) { get; } | स्लाइड की आकृतियों पर पाठ |
+| [CommentsText](../../aspose.slides/islidetext/commentstext) { get; } | स्लाइड टिप्पणियों का टेक्स्ट |
+| [LayoutText](../../aspose.slides/islidetext/layouttext) { get; } | इस स्लाइड के लेआउट पेज के शैप्स पर टेक्स्ट |
+| [MasterText](../../aspose.slides/islidetext/mastertext) { get; } | इस स्लाइड के मास्टर पेज के शैप्स पर टेक्स्ट |
+| [NotesText](../../aspose.slides/islidetext/notestext) { get; } | इस स्लाइड के नोट्स पेज के शैप्स पर टेक्स्ट |
+| [Text](../../aspose.slides/islidetext/text) { get; } | स्लाइड के शैप्स पर टेक्स्ट |
 
-### संबंधित देखें
+### और देखें
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: LayoutTargetType
-second_title: Aspose.Sildes for .NET API 参考文档
-description: 如果手动定义绘图区域的布局，此属性指定是按内部布局（不包括坐标轴及坐标轴标签）还是按外部布局（包括坐标轴及坐标轴标签）。
+second_title: Aspose.Sildes for .NET API 参考
+description: 如果手动定义绘图区域的布局，此属性指定是按内部布局绘图区域（不包括坐标轴和坐标轴标签），还是按外部布局（包括坐标轴和坐标轴标签）。
 type: docs
-weight: 2270
+weight: 2290
 url: /zh/aspose.slides.charts/layouttargettype/
 ---
 ## LayoutTargetType 枚举
 
-如果手动定义了绘图区域的布局，此属性指定是按内部布局（不包括坐标轴和坐标轴标签）还是按外部布局（包括坐标轴和坐标轴标签）。
+如果手动定义绘图区域的布局，此属性指定是按内部布局绘图区域（不包括坐标轴和坐标轴标签），还是按外部布局（包括坐标轴和坐标轴标签）。
 
 ```csharp
 public enum LayoutTargetType
@@ -16,10 +16,10 @@ public enum LayoutTargetType
 
 ### 值
 
-| 名称 | 数值 | 描述 |
+| 名称 | 值 | 描述 |
 | --- | --- | --- |
-| Inner | `0` | 指定绘图区域的大小决定绘图区域的尺寸，不包括刻度线和坐标轴标签。 |
-| Outer | `1` | 指定绘图区域的大小决定绘图区域的尺寸、刻度线以及坐标轴标签。 |
+| Inner | `0` | 指定绘图区域的大小应决定绘图区域的大小，不包括刻度线和坐标轴标签。 |
+| Outer | `1` | 指定绘图区域的大小应决定绘图区域的大小、刻度线和坐标轴标签。 |
 
 ### 另见
 

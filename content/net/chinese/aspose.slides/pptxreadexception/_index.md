@@ -1,14 +1,14 @@
 ---
 title: PptxReadException
-second_title: Aspose.Sildes for .NET API 参考
-description: 表示在读取演示文稿时抛出的异常。
+second_title: Aspose.Sildes .NET API 参考
+description: 表示在演示读取错误时抛出的异常。
 type: docs
-weight: 9570
+weight: 9590
 url: /zh/aspose.slides/pptxreadexception/
 ---
 ## PptxReadException 类
 
-表示在读取演示文稿时抛出的异常。
+表示在演示读取错误时抛出的异常。
 
 ```csharp
 public class PptxReadException : PptxException
@@ -22,7 +22,7 @@ public class PptxReadException : PptxException
 | [PptxReadException](pptxreadexception#constructor_1)(string) | 允许向此异常添加消息的构造函数。 |
 | [PptxReadException](pptxreadexception#constructor_2)(string, Exception) | 包含消息和嵌入异常的构造函数。 |
 
-### 另见
+### 另请参见
 
 * 类 [PptxException](../pptxexception)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

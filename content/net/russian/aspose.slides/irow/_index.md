@@ -1,9 +1,9 @@
 ---
 title: IRow
-second_title: Aspose.Sildes для .NET API справочник
+second_title: Справка API Aspose.Sildes для .NET
 description: Представляет строку в таблице.
 type: docs
-weight: 6850
+weight: 6870
 url: /ru/aspose.slides/irow/
 ---
 ## IRow интерфейс

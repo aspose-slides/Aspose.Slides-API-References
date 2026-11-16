@@ -1,14 +1,14 @@
 ---
 title: IAlphaModulateFixedEffectiveData
-second_title: Aspose.Sildes dla .NET – Dokumentacja API
-description: Niezmienny obiekt reprezentujący efekt Alpha Modulate Fixed. Wartości alfa (przezroczystości) efektu są mnożone przez stały procent.
+second_title: Aspose.Sildes dla .NET – odniesienie API
+description: Niezmienny obiekt reprezentujący efekt Alpha Modulate Fixed. Wartości alfa (przezroczystość) efektu są mnożone przez stały procent.
 type: docs
-weight: 3130
+weight: 3150
 url: /pl/aspose.slides.effects/ialphamodulatefixedeffectivedata/
 ---
 ## IAlphaModulateFixedEffectiveData interfejs
 
-Immutable object which represents an Alpha Modulate Fixed effect. Effect alpha (opacity) values are multiplied by a fixed percentage.
+Niezmienny obiekt, który reprezentuje efekt Alpha Modulate Fixed. Wartości alfa (przezroczystości) efektu są mnożone przez stały procent.
 
 ```csharp
 public interface IAlphaModulateFixedEffectiveData : IEffectEffectiveData

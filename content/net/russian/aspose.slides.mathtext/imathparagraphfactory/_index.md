@@ -3,12 +3,12 @@ title: IMathParagraphFactory
 second_title: Aspose.Sildes для .NET справочник API
 description: Позволяет создавать математический абзац
 type: docs
-weight: 8400
+weight: 8420
 url: /ru/aspose.slides.mathtext/imathparagraphfactory/
 ---
 ## IMathParagraphFactory интерфейс
 
-Позволяет создать математический абзац
+Позволяет создавать математический абзац
 
 ```csharp
 public interface IMathParagraphFactory
@@ -19,7 +19,7 @@ public interface IMathParagraphFactory
 | Имя | Описание |
 | --- | --- |
 | [CreateMathParagraph](../../aspose.slides.mathtext/imathparagraphfactory/createmathparagraph#createmathparagraph)() | Создать пустой математический абзац |
-| [CreateMathParagraph](../../aspose.slides.mathtext/imathparagraphfactory/createmathparagraph#createmathparagraph_1)(IMathBlock) | Создает математический абзац и помещает в него указанный блок математики |
+| [CreateMathParagraph](../../aspose.slides.mathtext/imathparagraphfactory/createmathparagraph#createmathparagraph_1)(IMathBlock) | Создает математический абзац и помещает указанный математический блок в него |
 
 ### Примечания
 

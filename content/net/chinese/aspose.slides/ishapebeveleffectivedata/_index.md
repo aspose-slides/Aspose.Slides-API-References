@@ -1,14 +1,14 @@
 ---
 title: IShapeBevelEffectiveData
-second_title: Aspose.Sildes .NET API 参考
-description: 不可变对象，包含有效形状的面部浮雕属性。
+second_title: Aspose.Sildes for .NET API 参考
+description: 不可变对象，包含有效形状表面凸起属性。
 type: docs
-weight: 6970
+weight: 6990
 url: /zh/aspose.slides/ishapebeveleffectivedata/
 ---
 ## IShapeBevelEffectiveData 接口
 
-不可变对象，包含有效形状的面部浮雕属性。
+不可变对象，包含有效形状的表面凸起属性。
 
 ```csharp
 public interface IShapeBevelEffectiveData
@@ -18,15 +18,15 @@ public interface IShapeBevelEffectiveData
 
 | 名称 | 描述 |
 | --- | --- |
-| [BevelType](../../aspose.slides/ishapebeveleffectivedata/beveltype) { get; } | 斜角类型。只读 [`BevelPresetType`](../bevelpresettype)。 |
-| [Height](../../aspose.slides/ishapebeveleffectivedata/height) { get; } | 斜角高度。只读 Double。 |
-| [Width](../../aspose.slides/ishapebeveleffectivedata/width) { get; } | 斜角宽度。只读 Double。 |
+| [BevelType](../../aspose.slides/ishapebeveleffectivedata/beveltype) { get; } | 斜面类型。只读 [`BevelPresetType`](../bevelpresettype)。 |
+| [Height](../../aspose.slides/ishapebeveleffectivedata/height) { get; } | 斜面高度。只读 Double。 |
+| [Width](../../aspose.slides/ishapebeveleffectivedata/width) { get; } | 斜面宽度。只读 Double。 |
 
 ### 备注
 
-此接口作为 [`IThreeDFormatEffectiveData`](../ithreedformateffectivedata) 的一部分使用。
+此接口用作 [`IThreeDFormatEffectiveData`](../ithreedformateffectivedata) 的一部分。
 
-### 另请参阅
+### 另请参见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

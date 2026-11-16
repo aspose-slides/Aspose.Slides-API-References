@@ -1,12 +1,12 @@
 ---
 title: Flavor
-second_title: Aspose.Sildes .NET API referencia
+second_title: Aspose.Sildes a .NET API hivatkozás
 description: A programban használt összes markdown specifikáció.
 type: docs
-weight: 3800
+weight: 3820
 url: /hu/aspose.slides.export/flavor/
 ---
-## Flavor enumeráció
+## Íz enumeráció
 
 A programban használt összes markdown specifikáció.
 

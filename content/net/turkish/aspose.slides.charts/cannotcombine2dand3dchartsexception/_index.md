@@ -1,9 +1,9 @@
 ---
 title: CannotCombine2DAnd3DChartsException
 second_title: Aspose.Sildes .NET API Referansı
-description: 2D ve 3D grafik türlerini birleştirmeye çalışırken atılan istisna.
+description: 2D ve 3D grafik türlerini birleştirmeye çalışırken atılan Exception.
 type: docs
-weight: 1240
+weight: 1250
 url: /tr/aspose.slides.charts/cannotcombine2dand3dchartsexception/
 ---
 ## CannotCombine2DAnd3DChartsException sınıf
@@ -16,13 +16,13 @@ public class CannotCombine2DAnd3DChartsException : InvalidOperationException
 
 ## Yapıcılar
 
-| Ad | Açıklama |
+| İsim | Açıklama |
 | --- | --- |
 | [CannotCombine2DAnd3DChartsException](cannotcombine2dand3dchartsexception#constructor)() | Varsayılan yapıcı. |
-| [CannotCombine2DAnd3DChartsException](cannotcombine2dand3dchartsexception#constructor_1)(string) | Bu istisna için bir mesaj eklenmesine izin veren yapıcı. |
-| [CannotCombine2DAnd3DChartsException](cannotcombine2dand3dchartsexception#constructor_2)(string, Exception) | Mesaj ve gömülü bir istisna içeren bir istisna için yapıcı. |
+| [CannotCombine2DAnd3DChartsException](cannotcombine2dand3dchartsexception#constructor_1)(string) | Bu Exception'a bir mesaj eklenmesine izin veren yapıcı. |
+| [CannotCombine2DAnd3DChartsException](cannotcombine2dand3dchartsexception#constructor_2)(string, Exception) | Bir mesaj ve gömülü bir Exception içeren Exception için yapıcı. |
 
-### Ayrıca Bakınız
+### Diğer
 
 * ad alanı [Aspose.Slides.Charts](../../aspose.slides.charts)
 * derleme [Aspose.Slides](../../)

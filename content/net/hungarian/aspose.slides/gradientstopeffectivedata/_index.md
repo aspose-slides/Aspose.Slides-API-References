@@ -1,14 +1,14 @@
 ---
 title: GradientStopEffectiveData
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Megváltoztathatatlan objektum, amely egy színátmenet-állomást képvisel.
+second_title: Aspose.Sildes a .NET API referencia
+description: Módosíthatatlan objektum, amely egy színátmenet állomást képvisel.
 type: docs
-weight: 5050
+weight: 5070
 url: /hu/aspose.slides/gradientstopeffectivedata/
 ---
 ## GradientStopEffectiveData osztály
 
-Megváltoztathatatlan objektum, amely egy színátmenet-állomást reprezentál.
+Immutable object which represents a gradient stop.
 
 ```csharp
 public class GradientStopEffectiveData : IGradientStopEffectiveData
@@ -18,8 +18,8 @@ public class GradientStopEffectiveData : IGradientStopEffectiveData
 
 | Név | Leírás |
 | --- | --- |
-| [Color](../../aspose.slides/gradientstopeffectivedata/color) { get; } | Visszaadja a színátmenet-állomás színét. Csak-olvasás Color. |
-| [Position](../../aspose.slides/gradientstopeffectivedata/position) { get; } | Visszaadja a színátmenet-állomás pozícióját (0..1). Csak-olvasás Single. |
+| [Color](../../aspose.slides/gradientstopeffectivedata/color) { get; } | Visszaadja a színátmenet állomás színét. Csak olvasható Color. |
+| [Position](../../aspose.slides/gradientstopeffectivedata/position) { get; } | Visszaadja a színátmenet állomás pozícióját (0..1). Csak olvasható Single. |
 
 ## Metódusok
 

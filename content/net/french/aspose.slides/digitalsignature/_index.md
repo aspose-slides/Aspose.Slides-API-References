@@ -1,12 +1,12 @@
 ---
 title: DigitalSignature
-second_title: Référence de l'API Aspose.Sildes pour .NET
+second_title: Référence API Aspose.Sildes pour .NET
 description: Signature numérique dans le fichier signé.
 type: docs
-weight: 2770
+weight: 2790
 url: /fr/aspose.slides/digitalsignature/
 ---
-## classe DigitalSignature
+## DigitalSignature classe
 
 Signature numérique dans le fichier signé.
 
@@ -19,13 +19,13 @@ public class DigitalSignature : IDigitalSignature
 | Nom | Description |
 | --- | --- |
 | [DigitalSignature](digitalsignature#constructor)(X509Certificate2) | Crée un nouvel objet DigitalSignature avec le certificat spécifié. |
-| [DigitalSignature](digitalsignature#constructor_1)(string, string) | Crée un nouvel objet DigitalSignature avec le chemin du fichier de certificat et le mot de passe spécifiés. |
+| [DigitalSignature](digitalsignature#constructor_1)(string, string) | Crée un nouvel objet DigitalSignature avec le chemin du fichier de certificat spécifié et le mot de passe. |
 
 ## Propriétés
 
 | Nom | Description |
 | --- | --- |
-| [Certificate](../../aspose.slides/digitalsignature/certificate) { get; } | Objet certificat utilisé pour signer le document. Lecture seule X509Certificate2. |
+| [Certificate](../../aspose.slides/digitalsignature/certificate) { get; } | Objet certificat qui a été utilisé pour signer le document. Lecture seule X509Certificate2. |
 | [Comments](../../aspose.slides/digitalsignature/comments) { get; set; } | Le but de la signature. Lecture/écriture String. |
 | [IsValid](../../aspose.slides/digitalsignature/isvalid) { get; } | Si cette signature numérique est valide et que le document n'a pas été altéré, cette valeur sera vraie. Lecture seule Boolean. |
 | [SignTime](../../aspose.slides/digitalsignature/signtime) { get; } | Le moment où le document a été signé. Lecture seule DateTime. |
@@ -36,16 +36,16 @@ L'exemple suivant montre comment ajouter une signature numérique à partir d'un
 
 ```csharp
 [C#]
-// Initialiser l'instance Presentation
+// Initialise l'instance Presentation
 using (Presentation pres = new Presentation())
 {
-    // Créer un objet DigitalSignature avec le fichier PFX et le mot de passe PFX
+    // Crée un objet DigitalSignature avec le fichier PFX et le mot de passe PFX
     DigitalSignature signature = new DigitalSignature("testsignature1.pfx", @"testpass1");
-    // Commenter la nouvelle signature numérique
+    // Commentaire de la nouvelle signature numérique
     signature.Comments = "Aspose.Slides digital signing test.";
-    // Ajouter la signature numérique à la présentation
+    // Ajoute la signature numérique à la présentation
     pres.DigitalSignatures.Add(signature);
-    // Enregistrer la présentation
+    // Enregistre la présentation
     pres.Save("SomePresentationSigned.pptx", SaveFormat.Pptx);
 }
 ```
@@ -61,7 +61,7 @@ using (Presentation pres = new Presentation("SomePresentationSigned.pptx"))
     {
         bool allSignaturesAreValid = true;
         Console.WriteLine("Signatures used to sign the presentation: ");
-        // Vérifier si toutes les signatures numériques sont valides
+        // Vérifie si toutes les signatures numériques sont valides
         foreach (DigitalSignature signature in pres.DigitalSignatures)
         {
             Console.WriteLine(signature.Certificate.SubjectName.Name + ", "

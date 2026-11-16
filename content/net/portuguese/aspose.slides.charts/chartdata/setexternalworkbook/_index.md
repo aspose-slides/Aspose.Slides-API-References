@@ -1,9 +1,9 @@
 ---
 title: SetExternalWorkbook
-second_title: Aspose.Sildes para .NET - Referência da API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Define a pasta de trabalho externa como fonte de dados para o gráfico. Os dados do gráfico serão atualizados a partir da pasta de trabalho de destino.
 type: docs
-weight: 120
+weight: 130
 url: /pt/aspose.slides.charts/chartdata/setexternalworkbook/
 ---
 ## SetExternalWorkbook(string) {#setexternalworkbook}
@@ -14,17 +14,17 @@ Define a pasta de trabalho externa como fonte de dados para o gráfico. Os dados
 public void SetExternalWorkbook(string workbookPath)
 ```
 
-| Parâmetro | Tipo | Descrição |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | workbookPath | String | Caminho para a pasta de trabalho de destino |
 
-### Exceções
+### Exceptions
 
-| exceção | condição |
+| exception | condition |
 | --- | --- |
 | InvalidOperationException | A pasta de trabalho externa não está disponível ou não pode ser carregada. |
 
-### Exemplos
+### Examples
 
 ```csharp
 [C#]
@@ -33,9 +33,10 @@ using (Presentation pres = new Presentation())
    IChart chart = pres.Slides[0].Shapes.AddChart(ChartType.Pie, 50, 50, 400, 600, true);
    IChartData chartData = chart.ChartData;
    (chartData as ChartData).SetExternalWorkbook("../../workbook.xlsx");
+
 ```
 
-### Veja Também
+### See Also
 
 * classe [ChartData](../../chartdata)
 * espaço de nomes [Aspose.Slides.Charts](../../chartdata)
@@ -51,18 +52,18 @@ Define a pasta de trabalho externa como fonte de dados para o gráfico.
 public void SetExternalWorkbook(string workbookPath, bool updateChartData)
 ```
 
-| Parâmetro | Tipo | Descrição |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | workbookPath | String | Caminho para a pasta de trabalho de destino |
-| updateChartData | Boolean | Se o valor for falso, apenas o caminho da pasta de trabalho será atualizado. Os dados do gráfico não serão carregados nem atualizados a partir da pasta de trabalho de destino. Pode ser usado quando a pasta de trabalho de destino não existe ou não está disponível. Se o valor for verdadeiro, os dados do gráfico serão atualizados a partir da pasta de trabalho de destino. |
+| updateChartData | Boolean | Se o valor for false, apenas o caminho da pasta de trabalho será atualizado. Os dados do gráfico não serão carregados nem atualizados a partir da pasta de trabalho de destino. Pode ser usado quando a pasta de trabalho de destino não existe ou não está disponível. Se o valor for true, os dados do gráfico serão atualizados a partir da pasta de trabalho de destino. |
 
-### Exceções
+### Exceptions
 
-| exceção | condição |
+| exception | condition |
 | --- | --- |
 | InvalidOperationException | A pasta de trabalho externa não está disponível ou não pode ser carregada. |
 
-### Exemplos
+### Examples
 
 ```csharp
 [C#]
@@ -76,7 +77,7 @@ using (Presentation pres = new Presentation())
 
 ```
 
-### Veja Também
+### See Also
 
 * classe [ChartData](../../chartdata)
 * espaço de nomes [Aspose.Slides.Charts](../../chartdata)

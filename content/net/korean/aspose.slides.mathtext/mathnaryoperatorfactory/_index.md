@@ -1,9 +1,9 @@
 ---
 title: MathNaryOperatorFactory
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes용 .NET API 참조
 description: IMathNaryOperator를 생성할 수 있습니다
 type: docs
-weight: 8880
+weight: 8900
 url: /ko/aspose.slides.mathtext/mathnaryoperatorfactory/
 ---
 ## MathNaryOperatorFactory 클래스
@@ -14,13 +14,13 @@ IMathNaryOperator를 생성할 수 있습니다
 public class MathNaryOperatorFactory : IMathNaryOperatorFactory
 ```
 
-## 생성자
+## Constructors
 
 | 이름 | 설명 |
 | --- | --- |
-| [MathNaryOperatorFactory](mathnaryoperatorfactory)() | 기본 생성자입니다. |
+| [MathNaryOperatorFactory](mathnaryoperatorfactory)() | 기본 생성자. |
 
-## 메서드
+## Methods
 
 | 이름 | 설명 |
 | --- | --- |
@@ -32,7 +32,7 @@ public class MathNaryOperatorFactory : IMathNaryOperatorFactory
 
 COM 호환성을 위해
 
-### 참조
+### 참고
 
 * 인터페이스 [IMathNaryOperatorFactory](../imathnaryoperatorfactory)
 * 네임스페이스 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

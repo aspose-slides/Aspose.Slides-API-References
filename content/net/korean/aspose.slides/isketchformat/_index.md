@@ -3,7 +3,7 @@ title: ISketchFormat
 second_title: Aspose.Sildes for .NET API 참조
 description: 라인 스케치 형식에 대한 속성을 나타냅니다.
 type: docs
-weight: 7020
+weight: 7040
 url: /ko/aspose.slides/isketchformat/
 ---
 ## ISketchFormat 인터페이스
@@ -20,7 +20,7 @@ public interface ISketchFormat
 | --- | --- |
 | [SketchType](../../aspose.slides/isketchformat/sketchtype) { get; set; } | 스케치 유형을 반환하거나 설정합니다. 읽기/쓰기 [`LineSketchType`](../linesketchtype). |
 
-### 참조
+### 참고
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

@@ -3,7 +3,7 @@ title: ControlCollection
 second_title: Aspose.Sildes for .NET API 參考
 description: ActiveX 控制項的集合。
 type: docs
-weight: 2700
+weight: 2720
 url: /zh-hant/aspose.slides/controlcollection/
 ---
 ## ControlCollection 類別
@@ -18,21 +18,21 @@ public class ControlCollection : IControlCollection
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Count](../../aspose.slides/controlcollection/count) { get; } | 傳回集合中物件的數量。唯讀 Int32. |
-| [IsSynchronized](../../aspose.slides/controlcollection/issynchronized) { get; } | 傳回一個值，指示對集合的存取是否已同步（執行緒安全）。唯讀 Boolean. |
+| [Count](../../aspose.slides/controlcollection/count) { get; } | 傳回集合中物件的數量。唯讀 Int32。 |
+| [IsSynchronized](../../aspose.slides/controlcollection/issynchronized) { get; } | 傳回一個值，表示對集合的存取是否已同步（執行緒安全）。唯讀 Boolean。 |
 | [Item](../../aspose.slides/controlcollection/item) { get; } | 傳回指定位置的控制項。 |
-| [SyncRoot](../../aspose.slides/controlcollection/syncroot) { get; } | 傳回同步根。唯讀 Object. |
+| [SyncRoot](../../aspose.slides/controlcollection/syncroot) { get; } | 傳回同步根。唯讀 Object。 |
 
 ## 方法
 
 | 名稱 | 說明 |
 | --- | --- |
-| [AddControl](../../aspose.slides/controlcollection/addcontrol)(ControlType, float, float, float, float) | 建立並將新控制項新增至集合。 |
-| [Clear](../../aspose.slides/controlcollection/clear)() | 從集合中移除所有控制項。 |
+| [AddControl](../../aspose.slides/controlcollection/addcontrol)(ControlType, float, float, float, float) | 建立並將新控制項加入集合。 |
+| [Clear](../../aspose.slides/controlcollection/clear)() | 從集合中移除全部控制項。 |
 | [CopyTo](../../aspose.slides/controlcollection/copyto)(Array, int) | 將整個集合複製到指定的陣列。 |
 | [GetEnumerator](../../aspose.slides/controlcollection/getenumerator)() | 傳回可遍歷集合的列舉器。 |
 | [Remove](../../aspose.slides/controlcollection/remove)(IControl) | 從集合中移除 ActiveX 控制項。 |
-| [RemoveAt](../../aspose.slides/controlcollection/removeat)(int) | 從集合中移除存放於指定位置的 ActiveX 控制項。 |
+| [RemoveAt](../../aspose.slides/controlcollection/removeat)(int) | 從集合中移除儲存在指定位置的 ActiveX 控制項。 |
 
 ### 另請參閱
 

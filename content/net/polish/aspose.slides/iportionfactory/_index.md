@@ -1,14 +1,14 @@
 ---
 title: IPortionFactory
 second_title: Aspose.Sildes dla .NET – odniesienie API
-description: Umożliwia tworzenie fragmentów testowych
+description: Umożliwia tworzenie testowych części
 type: docs
-weight: 6720
+weight: 6740
 url: /pl/aspose.slides/iportionfactory/
 ---
 ## IPortionFactory interfejs
 
-Umożliwia tworzenie fragmentów testowych
+Umożliwia tworzenie testowych części
 
 ```csharp
 public interface IPortionFactory
@@ -16,11 +16,11 @@ public interface IPortionFactory
 
 ## Metody
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
-| [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion)() | Tworzy pusty fragment tekstowy. |
-| [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion_1)(IPortion) | Tworzy fragment przy użyciu określonych danych fragmentu. |
-| [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion_2)(string) | Tworzy fragment tekstowy z określonego string. |
+| [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion)() | Tworzy pustą część tekstową. |
+| [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion_1)(IPortion) | Tworzy część przy użyciu określonych danych części. |
+| [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion_2)(string) | Tworzy część tekstową z określonego ciągu znaków. |
 
 ### Uwagi
 

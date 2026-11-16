@@ -1,14 +1,14 @@
 ---
 title: IOleEmbeddedDataInfo
-second_title: Aspose.Sildes pour .NET Référence de l'API
-description: Représente les informations de données intégrées pour un objet OLE.
+second_title: Référence API Aspose.Sildes pour .NET
+description: Représente les informations de données intégrées pour l'objet OLE.
 type: docs
-weight: 6530
+weight: 6550
 url: /fr/aspose.slides/ioleembeddeddatainfo/
 ---
 ## IOleEmbeddedDataInfo interface
 
-Représente les informations de données intégrées pour un objet OLE.
+Représente les informations de données intégrées pour l'objet OLE.
 
 ```csharp
 public interface IOleEmbeddedDataInfo
@@ -19,7 +19,7 @@ public interface IOleEmbeddedDataInfo
 | Nom | Description |
 | --- | --- |
 | [EmbeddedFileData](../../aspose.slides/ioleembeddeddatainfo/embeddedfiledata) { get; } | Renvoie les données du fichier de l'objet OLE intégré Lecture seule Byte[]. |
-| [EmbeddedFileExtension](../../aspose.slides/ioleembeddeddatainfo/embeddedfileextension) { get; } | Renvoie l'extension de fichier de l'objet OLE intégré actuel Lecture seule String. |
+| [EmbeddedFileExtension](../../aspose.slides/ioleembeddeddatainfo/embeddedfileextension) { get; } | Renvoie l'extension du fichier pour l'objet OLE intégré actuel Lecture seule String. |
 
 ### Voir aussi
 

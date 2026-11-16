@@ -1,14 +1,14 @@
 ---
 title: LineDashStyle
-second_title: Aspose.Sildes a .NET API hivatkozáshoz
-description: A vonal szaggatási stílusát jelöli.
+second_title: Aspose.Sildes .NET API referencia
+description: A vonal szaggatott stílusát reprezentálja.
 type: docs
-weight: 7770
+weight: 7790
 url: /hu/aspose.slides/linedashstyle/
 ---
-## LineDashStyle felsorolás
+## LineDashStyle enumeráció
 
-A vonal szaggatási stílusát jelöli.
+A vonal szaggatott stílusát reprezentálja.
 
 ```csharp
 public enum LineDashStyle : sbyte

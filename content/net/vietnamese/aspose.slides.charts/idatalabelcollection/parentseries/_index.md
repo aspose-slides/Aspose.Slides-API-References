@@ -1,9 +1,9 @@
 ---
 title: ParentSeries
-second_title: Tham khảo API Aspose.Sildes cho .NET
+second_title: Tham chiếu API Aspose.Sildes cho .NET
 description: Trả về chuỗi biểu đồ cha. Chỉ đọc IChartSeriesaspose.slides.charts/ichartseries.
 type: docs
-weight: 90
+weight: 100
 url: /vi/aspose.slides.charts/idatalabelcollection/parentseries/
 ---
 ## IDataLabelCollection.ParentSeries thuộc tính
@@ -14,7 +14,7 @@ Trả về chuỗi biểu đồ cha. Chỉ đọc [`IChartSeries`](../../icharts
 public IChartSeries ParentSeries { get; }
 ```
 
-### Xem thêm
+### Xem Thêm
 
 * giao diện [IChartSeries](../../ichartseries)
 * giao diện [IDataLabelCollection](../../idatalabelcollection)

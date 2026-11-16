@@ -3,10 +3,10 @@ title: IColumnFormat
 second_title: Aspose.Sildes για .NET Αναφορά API
 description: Αναπαριστά τη μορφή μιας στήλης πίνακα.
 type: docs
-weight: 5540
+weight: 5560
 url: /el/aspose.slides/icolumnformat/
 ---
-## IColumnFormat διεπαφή
+## IColumnFormat διασύνδεση
 
 Αναπαριστά τη μορφή μιας στήλης πίνακα.
 
@@ -18,7 +18,7 @@ public interface IColumnFormat
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [GetEffective](../../aspose.slides/icolumnformat/geteffective)() | Λαμβάνει τις ενεργές ιδιότητες μορφοποίησης στήλης πίνακα με κληρονομικότητα και εφαρμοσμένα στυλ πίνακα. |
+| [GetEffective](../../aspose.slides/icolumnformat/geteffective)() | Λαμβάνει τις αποτελεσματικές ιδιότητες μορφοποίησης στήλης πίνακα με κληρονόμηση και εφαρμοσμένα στυλ πίνακα. |
 
 ### Δείτε επίσης
 

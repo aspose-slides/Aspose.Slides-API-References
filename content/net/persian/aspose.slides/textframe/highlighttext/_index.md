@@ -1,14 +1,14 @@
 ---
 title: HighlightText
-second_title: Aspose.Sildes برای .NET مرجع API
-description: تمام تطابق‌های متن نمونه را با رنگ مشخص شده برجسته می‌کند.
+second_title: مرجع API Aspose.Sildes برای .NET
+description: تمام مطابقت‌های متن نمونه را با رنگ مشخص‌شده برجسته می‌کند.
 type: docs
-weight: 100
+weight: 110
 url: /fa/aspose.slides/textframe/highlighttext/
 ---
 ## HighlightText(string, Color) {#highlighttext}
 
-تمام تطابق‌های متن نمونه را با رنگ مشخص شده برجسته می‌کند.
+تمام مطابقت‌های متن نمونه با رنگ مشخص‌شده برجسته می‌شوند.
 
 ```csharp
 public void HighlightText(string text, Color highlightColor)
@@ -17,7 +17,7 @@ public void HighlightText(string text, Color highlightColor)
 | پارامتر | نوع | توضیح |
 | --- | --- | --- |
 | text | String | نمونه متن برای برجسته‌سازی. |
-| highlightColor | Color | رنگی که متن را برجسته می‌کند. |
+| highlightColor | Color | رنگی که برای برجسته‌سازی متن استفاده می‌شود. |
 
 ### موارد مرتبط
 
@@ -29,7 +29,7 @@ public void HighlightText(string text, Color highlightColor)
 
 ## HighlightText(string, Color, ITextSearchOptions, IFindResultCallback) {#highlighttext_2}
 
-تمام تطابق‌های متن نمونه را با رنگ مشخص شده برجسته می‌کند.
+تمام مطابقت‌های متن نمونه با رنگ مشخص‌شده برجسته می‌شوند.
 
 ```csharp
 public void HighlightText(string text, Color highlightColor, ITextSearchOptions options, 
@@ -39,13 +39,13 @@ public void HighlightText(string text, Color highlightColor, ITextSearchOptions 
 | پارامتر | نوع | توضیح |
 | --- | --- | --- |
 | text | String | متنی که باید برجسته شود. |
-| highlightColor | Color | رنگی که متن را برجسته می‌کند. |
+| highlightColor | Color | رنگی که برای برجسته‌سازی متن استفاده می‌شود. |
 | options | ITextSearchOptions | گزینه‌های جستجوی متن [`ITextSearchOptions`](../../itextsearchoptions). |
-| callback | IFindResultCallback | شیء فراخوانی برای دریافت نتایج جستجو [`IFindResultCallback`](../../ifindresultcallback). |
+| callback | IFindResultCallback | شیء بازگشتی برای دریافت نتایج جستجو [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### مثال‌ها
 
-نمونه کد زیر نحوه برجسته‌سازی متن در یک TextFrame را نشان می‌دهد.
+نمونه کد زیر نشان می‌دهد چگونه متن در یک TextFrame را برجسته کنید.
 
 ```csharp
 [C#]
@@ -53,7 +53,7 @@ using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
 	// برجسته‌سازی تمام کلمات 'important'
 	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.HighlightText("important", Color.LightBlue);
-	// برجسته‌سازی تمام رخدادهای جداگانه 'the'
+	// برجسته‌سازی تمام موارد جداگانه 'the' رخدادها
 	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.HighlightText("the", Color.Violet, new TextSearchOptions()
 	{ WholeWordsOnly = true }, null);
 	presentation.Save("SomePresentation-out2.pptx", SaveFormat.Pptx);

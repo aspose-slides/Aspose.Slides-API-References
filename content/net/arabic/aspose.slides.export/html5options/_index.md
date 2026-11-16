@@ -1,12 +1,12 @@
 ---
 title: Html5Options
-second_title: مرجع API Aspose.Sildes لـ .NET
+second_title: Aspose.Sildes لـ .NET مرجع API
 description: يمثل خيارات تصدير HTML5.
 type: docs
-weight: 3860
+weight: 3880
 url: /ar/aspose.slides.export/html5options/
 ---
-## Html5Options الفئة
+## Html5Options فئة
 
 يمثل خيارات تصدير HTML5.
 
@@ -14,28 +14,28 @@ url: /ar/aspose.slides.export/html5options/
 public class Html5Options : SaveOptions, IHtml5Options
 ```
 
-## المُنشئات
+## المنشئات
 
 | الاسم | الوصف |
 | --- | --- |
-| [Html5Options](html5options)() | منشئ افتراضي. |
+| [Html5Options](html5options)() | المنشئ الافتراضي. |
 
 ## الخصائص
 
 | الاسم | الوصف |
 | --- | --- |
-| [AnimateShapes](../../aspose.slides.export/html5options/animateshapes) { get; set; } | يعيد أو يحدد خيار تحريك الأشكال. قابل للقراءة والكتابة Boolean. |
-| [AnimateTransitions](../../aspose.slides.export/html5options/animatetransitions) { get; set; } | يعيد أو يحدد خيار تحريك الانتقالات. قابل للقراءة والكتابة Boolean. |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | يعيد أو يحدد الخط المستخدم في حال عدم العثور على الخط المصدر. قابل للقراءة والكتابة String. |
-| [DisableFontLigatures](../../aspose.slides.export/html5options/disablefontligatures) { get; set; } | يحصل أو يحدد قيمة تشير إلى ما إذا كان النص يُعرض دون استخدام الأحرف المتصلة. عند تعيينها إلى `true`، سيتم تعطيل الأحرف المتصلة في الناتج المعروض. بشكل افتراضي، يتم تعيين هذه الخاصية إلى `false`. |
-| [EmbedImages](../../aspose.slides.export/html5options/embedimages) { get; set; } | يعيد أو يحدد خيار تضمين الصور. قابل للقراءة والكتابة Boolean. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | يعيد أو يحدد النمط البصري للتدرج. قابل للقراءة والكتابة [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [OutputPath](../../aspose.slides.export/html5options/outputpath) { get; set; } | يحدد أين يجب تخزين الموارد الخارجية. قابل للقراءة والكتابة String. |
+| [AnimateShapes](../../aspose.slides.export/html5options/animateshapes) { get; set; } | تُرجع أو تُعيّن خيار تحريك الأشكال. قراءة/كتابة Boolean. |
+| [AnimateTransitions](../../aspose.slides.export/html5options/animatetransitions) { get; set; } | تُرجع أو تُعيّن خيار تحريك الانتقالات. قراءة/كتابة Boolean. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | تُرجع أو تُعيّن الخط المستخدم في حال عدم العثور على الخط المصدر. قراءة-كتابة String. |
+| [DisableFontLigatures](../../aspose.slides.export/html5options/disablefontligatures) { get; set; } | تُعيد أو تُعيّن قيمة تشير إلى ما إذا كان النص يُعرض دون استخدام الأحرف المتصلة. عند ضبطه إلى `true`، سيتم تعطيل الأحرف المتصلة في الناتج المعروض. بشكل افتراضي، تُعيّن هذه الخاصية إلى `false`. |
+| [EmbedImages](../../aspose.slides.export/html5options/embedimages) { get; set; } | تُرجع أو تُعيّن خيار تضمين الصور. قراءة/كتابة Boolean. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | تُرجع أو تُعيّن النمط البصري للتدرج. قراءة/كتابة [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [OutputPath](../../aspose.slides.export/html5options/outputpath) { get; set; } | يحدّد أين يجب تخزين الموارد الخارجية. قراءة/كتابة String. |
 | [PicturesCompression](../../aspose.slides.export/html5options/picturescompression) { get; set; } | يمثل مستوى ضغط الصور |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | يمثل كائنًا استدعائيًا لتحديثات حفظ التقدم بالنسبة المئوية. راجع [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | يحدد ما إذا كان سيُتجاوز الروابط التشعبية التي تحتوي على استدعاءات جافا سكريبت عند حفظ العرض التقديمي. قابل للقراءة والكتابة Boolean. القيمة الافتراضية هي **false**. |
-| [SlidesLayoutOptions](../../aspose.slides.export/html5options/slideslayoutoptions) { get; set; } | يحصل أو يحدد الوضع الذي تُوضع فيه الشرائح على الصفحة عند تصدير عرض تقديمي [`ISlidesLayoutOptions`](../islideslayoutoptions). |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | يعيد أو يحدد كائنًا يتلقى التحذيرات ويقرر ما إذا كانت عملية التحميل ستستمر أم سيتم إلغاؤها. قابل للقراءة والكتابة [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | يمثل كائن استدعاء رد لتحديثات حفظ التقدم بالنسبة المئوية. انظر [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | يحدد ما إذا كان يجب تخطي الارتباطات التشعبية التي تحتوي على استدعاءات جافا سكريبت عند حفظ العرض التقديمي. قراءة/كتابة Boolean. القيمة الافتراضية هي **false**. |
+| [SlidesLayoutOptions](../../aspose.slides.export/html5options/slideslayoutoptions) { get; set; } | تُعيد أو تُعيّن الوضع الذي تُوضع فيه الشرائح على الصفحة عند تصدير عرض تقديمي [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | تُرجع أو تُعيّن كائنًا يتلقى التحذيرات ويحدّد ما إذا كانت عملية التحميل ستستمر أم ستُوقف. قراءة/كتابة [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### أمثلة
 
@@ -55,9 +55,9 @@ using (Presentation pres = new Presentation("demo.pptx"))
 
 ### انظر أيضًا
 
-* الفئة [SaveOptions](../saveoptions)
-* الواجهة [IHtml5Options](../ihtml5options)
-* نطاق الاسم [Aspose.Slides.Export](../../aspose.slides.export)
-* التجميع [Aspose.Slides](../../)
+* فئة [SaveOptions](../saveoptions)
+* واجهة [IHtml5Options](../ihtml5options)
+* نطاق [Aspose.Slides.Export](../../aspose.slides.export)
+* تجميع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,14 +1,14 @@
 ---
 title: IXamlOutputSaver
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar en implementering av en utdata-sparare för att överföra data till extern lagring.
+description: Representerar en implementation av en output-sparare för att överföra data till extern lagring.
 type: docs
-weight: 4710
+weight: 4730
 url: /sv/aspose.slides.export.xaml/ixamloutputsaver/
 ---
 ## IXamlOutputSaver gränssnitt
 
-Representerar en implementering av en utdata-sparare för att överföra data till extern lagring.
+Representerar en implementation av en output-sparare för att överföra data till extern lagring.
 
 ```csharp
 public interface IXamlOutputSaver
@@ -18,7 +18,7 @@ public interface IXamlOutputSaver
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Save](../../aspose.slides.export.xaml/ixamloutputsaver/save)(string, byte[]) | Sparar en bytearray till en destinationsplats. |
+| [Save](../../aspose.slides.export.xaml/ixamloutputsaver/save)(string, byte[]) | Sparar en byte-array till en destination. |
 
 ### Se även
 

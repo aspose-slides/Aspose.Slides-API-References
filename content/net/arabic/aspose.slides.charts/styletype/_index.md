@@ -3,7 +3,7 @@ title: StyleType
 second_title: مرجع API لـ Aspose.Sildes لـ .NET
 description: يمثل نمط المخطط.
 type: docs
-weight: 2430
+weight: 2450
 url: /ar/aspose.slides.charts/styletype/
 ---
 ## تعداد StyleType

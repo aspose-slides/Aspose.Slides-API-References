@@ -1,12 +1,12 @@
 ---
 title: MarkdownExportType
-second_title: Aspose.Sildes .NET API referencia
+second_title: Aspose.Sildes .NET API hivatkozás
 description: A dokumentum renderelésének típusa.
 type: docs
-weight: 4240
+weight: 4260
 url: /hu/aspose.slides.export/markdownexporttype/
 ---
-## MarkdownExportType felsorolás
+## MarkdownExportType enumeráció
 
 A dokumentum renderelésének típusa.
 

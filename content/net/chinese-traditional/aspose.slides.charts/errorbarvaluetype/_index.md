@@ -1,14 +1,14 @@
 ---
 title: ErrorBarValueType
-second_title: Aspose.Sildes 用於 .NET 的 API 參考
-description: 表示誤差棒值的類型
+second_title: Aspose.Sildes for .NET API 參考文件
+description: 表示誤差條的類型
 type: docs
-weight: 1650
+weight: 1660
 url: /zh-hant/aspose.slides.charts/errorbarvaluetype/
 ---
 ## ErrorBarValueType 列舉
 
-表示誤差棒值的類型
+表示誤差條的類型
 
 ```csharp
 public enum ErrorBarValueType
@@ -18,11 +18,11 @@ public enum ErrorBarValueType
 
 | 名稱 | 值 | 說明 |
 | --- | --- | --- |
-| Custom | `0` | 指定誤差棒的長度應由 Plus 和 Minus 元素決定。 |
-| Fixed | `1` | 指定誤差棒的長度應為由 Error Bar Value 決定的固定值。 |
-| Percentage | `2` | 指定誤差棒的長度應為資料的 Error Bar Value 百分比。 |
-| StandardDeviation | `3` | 指定誤差棒的長度應為資料的 Error Bar Value 標準差。 |
-| StandardError | `4` | 指定誤差棒的長度應為資料的 Error Bar Value 標準誤差。 |
+| Custom | `0` | 指定誤差條的長度應由 Plus 與 Minus 元素決定。 |
+| Fixed | `1` | 指定誤差條的長度應為由 Error Bar Value 所決定的固定值。 |
+| Percentage | `2` | 指定誤差條的長度應為資料的 Error Bar Value 百分比。 |
+| StandardDeviation | `3` | 指定誤差條的長度應為資料的 Error Bar Value 標準差。 |
+| StandardError | `4` | 指定誤差條的長度應為資料的 Error Bar Value 標準誤差。 |
 
 ### 另請參閱
 

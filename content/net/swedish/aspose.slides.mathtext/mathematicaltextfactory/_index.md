@@ -3,7 +3,7 @@ title: MathematicalTextFactory
 second_title: Aspose.Sildes för .NET API-referens
 description: Tillåter att skapa ett MathematicalText-element
 type: docs
-weight: 9070
+weight: 9090
 url: /sv/aspose.slides.mathtext/mathematicaltextfactory/
 ---
 ## MathematicalTextFactory klass
@@ -33,7 +33,7 @@ public class MathematicalTextFactory : IMathematicalTextFactory
 
 För COM-kompatibilitet
 
-### Se även
+### Se också
 
 * gränssnitt [IMathematicalTextFactory](../imathematicaltextfactory)
 * namnrymd [Aspose.Slides.MathText](../../aspose.slides.mathtext)

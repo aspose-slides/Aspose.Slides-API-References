@@ -1,14 +1,14 @@
 ---
 title: ChartTypeCharacterizer
-second_title: "Aspose.Sildes для .NET: справочник API"
-description: Вспомогательный класс для получения дополнительной информации о диаграммах и рядах по их ChartType.
+second_title: Aspose.Sildes для .NET API Reference
+description: Помощник для получения дополнительной информации о диаграммах и сериях по их ChartType.
 type: docs
-weight: 1510
+weight: 1520
 url: /ru/aspose.slides.charts/charttypecharacterizer/
 ---
 ## ChartTypeCharacterizer класс
 
-Вспомогательный класс для получения дополнительной информации о диаграммах и рядах по их ChartType.
+Помощник для получения дополнительной информации о диаграммах и сериях по их ChartType.
 
 ```csharp
 public static class ChartTypeCharacterizer
@@ -18,7 +18,7 @@ public static class ChartTypeCharacterizer
 
 | Имя | Описание |
 | --- | --- |
-| static [HasSeriesTrendLines](../../aspose.slides.charts/charttypecharacterizer/hasseriestrendlines)(ChartType) | Возвращает, есть ли линии тренда у рядов указанного типа. |
+| static [HasSeriesTrendLines](../../aspose.slides.charts/charttypecharacterizer/hasseriestrendlines)(ChartType) | Возвращает, существуют ли линии тренда для указанного типа серии. |
 | static [Is2DChart](../../aspose.slides.charts/charttypecharacterizer/is2dchart)(ChartType) | Возвращает true, если *chartType* является одним из 2D типов диаграмм. |
 | static [Is3DChart](../../aspose.slides.charts/charttypecharacterizer/is3dchart)(ChartType) | Возвращает true, если *chartType* является одним из 3D типов диаграмм. |
 | static [IsBar3DChart](../../aspose.slides.charts/charttypecharacterizer/isbar3dchart)(ChartType) | Возвращает true, если chartType является одним из подтипов bar3DChart (3D столбцы или бары). |
@@ -33,12 +33,12 @@ public static class ChartTypeCharacterizer
 | static [IsChartTypeScatter](../../aspose.slides.charts/charttypecharacterizer/ischarttypescatter)(ChartType) | Возвращает true, если chartType является одним из подтипов Scatter. Набор подтипов соответствует соответствующему набору в PowerPoint (см. диалог "Change Chart Type" в PowerPoint): ScatterWithMarkers, ScatterWithSmoothLines, ScatterWithSmoothLinesAndMarkers, ScatterWithStraightLines, ScatterWithStraightLinesAndMarkers. |
 | static [IsChartTypeStock](../../aspose.slides.charts/charttypecharacterizer/ischarttypestock)(ChartType) | Возвращает true, если chartType является одним из подтипов Stock. Набор подтипов соответствует соответствующему набору в PowerPoint (см. диалог "Change Chart Type" в PowerPoint): HighLowClose, OpenHighLowClose, VolumeHighLowClose, VolumeOpenHighLowClose. |
 | static [IsChartTypeSurface](../../aspose.slides.charts/charttypecharacterizer/ischarttypesurface)(ChartType) | Возвращает true, если chartType является одним из подтипов Surface. Набор подтипов соответствует соответствующему набору в PowerPoint (см. диалог "Change Chart Type" в PowerPoint): Surface3D, WireframeSurface3D, Contour, WireframeContour. |
-| static [IsErrorBarsXAllowed](../../aspose.slides.charts/charttypecharacterizer/iserrorbarsxallowed)(ChartType) | Возвращает, разрешены ли погрешности по оси X для указанного типа ряда. |
-| static [IsErrorBarsYAllowed](../../aspose.slides.charts/charttypecharacterizer/iserrorbarsyallowed)(ChartType) | Возвращает, разрешены ли погрешности по оси Y для указанного типа ряда. |
-| static [IsSeriesUsesBubbleSizeCoordinate](../../aspose.slides.charts/charttypecharacterizer/isseriesusesbubblesizecoordinate)(ChartType) | Возвращает, можно ли использовать координаты размера пузыря для указанного типа ряда. |
-| static [IsSeriesUsesValueCoordinate](../../aspose.slides.charts/charttypecharacterizer/isseriesusesvaluecoordinate)(ChartType) | Возвращает, использует ли указанный тип ряда координаты значений. |
-| static [IsSeriesUsesXValueCoordinate](../../aspose.slides.charts/charttypecharacterizer/isseriesusesxvaluecoordinate)(ChartType) | Возвращает, использует ли указанный тип ряда координаты значений X. |
-| static [IsSeriesUsesYValueCoordinate](../../aspose.slides.charts/charttypecharacterizer/isseriesusesyvaluecoordinate)(ChartType) | Возвращает, использует ли указанный тип ряда координаты значений Y. |
+| static [IsErrorBarsXAllowed](../../aspose.slides.charts/charttypecharacterizer/iserrorbarsxallowed)(ChartType) | Возвращает, разрешены ли погрешности X для указанного типа серии. |
+| static [IsErrorBarsYAllowed](../../aspose.slides.charts/charttypecharacterizer/iserrorbarsyallowed)(ChartType) | Возвращает, разрешены ли погрешности Y для указанного типа серии. |
+| static [IsSeriesUsesBubbleSizeCoordinate](../../aspose.slides.charts/charttypecharacterizer/isseriesusesbubblesizecoordinate)(ChartType) | Возвращает, можно ли использовать координаты размера пузыря для указанного типа серии. |
+| static [IsSeriesUsesValueCoordinate](../../aspose.slides.charts/charttypecharacterizer/isseriesusesvaluecoordinate)(ChartType) | Возвращает, использует ли указанный тип серии координаты значений. |
+| static [IsSeriesUsesXValueCoordinate](../../aspose.slides.charts/charttypecharacterizer/isseriesusesxvaluecoordinate)(ChartType) | Возвращает, использует ли указанный тип серии координаты значений X. |
+| static [IsSeriesUsesYValueCoordinate](../../aspose.slides.charts/charttypecharacterizer/isseriesusesyvaluecoordinate)(ChartType) | Возвращает, использует ли указанный тип серии координаты значений Y. |
 
 ### См. также
 

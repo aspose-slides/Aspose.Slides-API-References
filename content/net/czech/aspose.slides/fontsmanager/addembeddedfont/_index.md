@@ -1,14 +1,14 @@
 ---
 title: AddEmbeddedFont
-second_title: Aspose.Sildes pro .NET API referenci
-description: Přidá vložené písmo Mějte na paměti při kopírování jakýchkoli písem, že většina písem je chráněna autorským právem. Nejprve zjistěte licenci písma předem a ověřte, že může být volně přeneseno na jiný počítač.An ArgumentException může být vyvolána, pokud jsou data písma null nebo je toto písmo již vloženo
+second_title: Aspose.Sildes pro .NET – referenční příručka API
+description: Přidá vložené písmo. Mějte na paměti, že při kopírování písem jsou většina písem chráněna autorským právem. Nejprve zjistěte licenci písma a ověřte, že může být volně převedena na jiný počítač. Může být vyvolána výjimka ArgumentException, pokud jsou data písma nulová nebo je toto písmo již vloženo.
 type: docs
-weight: 30
+weight: 40
 url: /cs/aspose.slides/fontsmanager/addembeddedfont/
 ---
 ## AddEmbeddedFont(IFontData, EmbedFontCharacters) {#addembeddedfont}
 
-Přidá vložené písmo. Mějte na paměti, že většina písem je chráněna autorským právem. Nejprve zjistěte licenci písma a ověřte, že je možné jej volně přenést na jiný počítač. Může být vyvolána výjimka ArgumentException, pokud jsou data písma null nebo je toto písmo již vloženo
+Přidá vložené písmo. Mějte na paměti, že při kopírování písem jsou většina písem chráněna autorským právem. Nejprve zjistěte licenci písma a ověřte, že může být volně převedena na jiný počítač. Může být vyvolána výjimka ArgumentException, pokud jsou data písma nulová nebo je toto písmo již vloženo.
 
 ```csharp
 public void AddEmbeddedFont(IFontData fontData, EmbedFontCharacters embedFontRule)
@@ -17,7 +17,7 @@ public void AddEmbeddedFont(IFontData fontData, EmbedFontCharacters embedFontRul
 ### Viz také
 
 * rozhraní [IFontData](../../ifontdata)
-* výčet [EmbedFontCharacters](../../../aspose.slides.export/embedfontcharacters)
+* enum [EmbedFontCharacters](../../../aspose.slides.export/embedfontcharacters)
 * třída [FontsManager](../../fontsmanager)
 * jmenný prostor [Aspose.Slides](../../fontsmanager)
 * sestavení [Aspose.Slides](../../../)
@@ -26,7 +26,7 @@ public void AddEmbeddedFont(IFontData fontData, EmbedFontCharacters embedFontRul
 
 ## AddEmbeddedFont(byte[], EmbedFontCharacters) {#addembeddedfont_1}
 
-Přidá vložené písmo. Mějte na paměti, že většina písem je chráněna autorským právem. Nejprve zjistěte licenci písma a ověřte, že je možné jej volně přenést na jiný počítač. Může být vyvolána výjimka ArgumentException, pokud jsou data písma null nebo je toto písmo již vloženo
+Přidá vložené písmo. Mějte na paměti, že při kopírování písem jsou většina písem chráněna autorským právem. Nejprve zjistěte licenci písma a ověřte, že může být volně převedena na jiný počítač. Může být vyvolána výjimka ArgumentException, pokud jsou data písma nulová nebo je toto písmo již vloženo.
 
 ```csharp
 public void AddEmbeddedFont(byte[] fontData, EmbedFontCharacters embedFontRule)
@@ -34,7 +34,7 @@ public void AddEmbeddedFont(byte[] fontData, EmbedFontCharacters embedFontRule)
 
 ### Viz také
 
-* výčet [EmbedFontCharacters](../../../aspose.slides.export/embedfontcharacters)
+* enum [EmbedFontCharacters](../../../aspose.slides.export/embedfontcharacters)
 * třída [FontsManager](../../fontsmanager)
 * jmenný prostor [Aspose.Slides](../../fontsmanager)
 * sestavení [Aspose.Slides](../../../)

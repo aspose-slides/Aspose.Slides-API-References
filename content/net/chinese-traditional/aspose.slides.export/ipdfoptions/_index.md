@@ -1,14 +1,14 @@
 ---
 title: IPdfOptions
 second_title: Aspose.Sildes for .NET API 參考
-description: 提供控制將簡報以 Pdf 格式儲存的選項。
+description: 提供控制簡報以 Pdf 格式儲存方式的選項。
 type: docs
-weight: 4000
+weight: 4020
 url: /zh-hant/aspose.slides.export/ipdfoptions/
 ---
 ## IPdfOptions 介面
 
-提供控制將簡報以 Pdf 格式儲存的選項。
+提供控制簡報以 Pdf 格式儲存方式的選項。
 
 ```csharp
 public interface IPdfOptions : ISaveOptions
@@ -18,31 +18,31 @@ public interface IPdfOptions : ISaveOptions
 
 | 名稱 | 說明 |
 | --- | --- |
-| [AccessPermissions](../../aspose.slides.export/ipdfoptions/accesspermissions) { get; set; } | 包含一組旗標，指定在使用者存取時開啟文件時應授予哪些存取權限。請參閱 [`PdfAccessPermissions`](../pdfaccesspermissions)。 |
-| [AdditionalCommonFontFamilies](../../aspose.slides.export/ipdfoptions/additionalcommonfontfamilies) { get; set; } | 傳回或設定一組使用者自訂的字型族名稱，Aspose.Slides 應視為共用字型。可讀寫 String[]. |
-| [ApplyImageTransparent](../../aspose.slides.export/ipdfoptions/applyimagetransparent) { get; set; } | 若為 `true`，則將指定的透明色套用至影像。 |
+| [AccessPermissions](../../aspose.slides.export/ipdfoptions/accesspermissions) { get; set; } | 包含一組旗標，指定在使用者存取權限開啟文件時應授予哪些存取許可。請參閱 [`PdfAccessPermissions`](../pdfaccesspermissions)。 |
+| [AdditionalCommonFontFamilies](../../aspose.slides.export/ipdfoptions/additionalcommonfontfamilies) { get; set; } | 取得或設定 Aspose.Slides 應視為通用的字型家族之使用者自訂名稱陣列。可讀/可寫 String[]. |
+| [ApplyImageTransparent](../../aspose.slides.export/ipdfoptions/applyimagetransparent) { get; set; } | 如果 `true`，則將指定的透明色套用至影像。 |
 | [AsISaveOptions](../../aspose.slides.export/ipdfoptions/asisaveoptions) { get; } | 傳回 ISaveOptions 介面。唯讀 [`ISaveOptions`](../isaveoptions)。 |
-| [BestImagesCompressionRatio](../../aspose.slides.export/ipdfoptions/bestimagescompressionratio) { get; set; } | 指示是否應自動為每張影像選取最有效的壓縮（取代預設壓縮）。若設定為 Boolean.true，則簡報中的每張影像都會選擇最適當的壓縮演算法，從而減少產生的 PDF 文件大小。最佳影像壓縮比的選取會消耗較多計算資源並佔用額外記憶體，此選項預設為 Boolean.false。 |
-| [Compliance](../../aspose.slides.export/ipdfoptions/compliance) { get; set; } | 產生的 PDF 文件所需的符合等級。可讀寫 [`PdfCompliance`](../pdfcompliance)。 |
-| [DrawSlidesFrame](../../aspose.slides.export/ipdfoptions/drawslidesframe) { get; set; } | 若為 true，則在每張投影片周圍繪製黑色框線。可讀寫 Boolean。 |
-| [EmbedFullFonts](../../aspose.slides.export/ipdfoptions/embedfullfonts) { get; set; } | 決定是否應嵌入字型的全部字元或僅嵌入使用的子集。可讀寫 Boolean。 |
-| [EmbedTrueTypeFontsForASCII](../../aspose.slides.export/ipdfoptions/embedtruetypefontsforascii) { get; set; } | 若為 true，則為 ASCII 字元 32-127 嵌入 TrueType 字型。字元碼大於 127 的字型始終嵌入。可讀寫 Boolean。 |
-| [ImageTransparentColor](../../aspose.slides.export/ipdfoptions/imagetransparentcolor) { get; set; } | 取得或設定影像的透明色。 |
-| [IncludeOleData](../../aspose.slides.export/ipdfoptions/includeoledata) { get; set; } | 若為 true，則將簡報中的所有 OLE 資料轉換為產生的 PDF 中的嵌入檔案。可讀寫 Boolean。 |
+| [BestImagesCompressionRatio](../../aspose.slides.export/ipdfoptions/bestimagescompressionratio) { get; set; } | 指示是否應自動為每張影像選擇最有效的壓縮（而非預設）。如果設定為 Boolean.true，簡報中的每張影像都將選擇最適當的壓縮演算法，從而使產生的 PDF 文件尺寸更小。最佳影像壓縮比的選擇計算量大且需要額外的 RAM，且此選項預設為 Boolean.false。 |
+| [Compliance](../../aspose.slides.export/ipdfoptions/compliance) { get; set; } | 產生的 PDF 文件所需的相容等級。可讀/可寫 [`PdfCompliance`](../pdfcompliance)。 |
+| [DrawSlidesFrame](../../aspose.slides.export/ipdfoptions/drawslidesframe) { get; set; } | 若為 true，則在每張投影片周圍繪製黑色框線。可讀/可寫 Boolean。 |
+| [EmbedFullFonts](../../aspose.slides.export/ipdfoptions/embedfullfonts) { get; set; } | 決定是否應嵌入字型的全部字元或僅使用子集。可讀/可寫 Boolean。 |
+| [EmbedTrueTypeFontsForASCII](../../aspose.slides.export/ipdfoptions/embedtruetypefontsforascii) { get; set; } | 若為 true，則嵌入 ASCII 字元 32-127 的 TrueType 字型。字元代碼大於 127 的字型總是會被嵌入。可讀/可寫 Boolean。 |
+| [ImageTransparentColor](../../aspose.slides.export/ipdfoptions/imagetransparentcolor) { get; set; } | 取得或設定影像的透明色彩。 |
+| [IncludeOleData](../../aspose.slides.export/ipdfoptions/includeoledata) { get; set; } | 若為 true，則將簡報中的所有 OLE 資料轉換為產生之 PDF 中的嵌入檔案。可讀/可寫 Boolean。 |
 | [InkOptions](../../aspose.slides.export/ipdfoptions/inkoptions) { get; } | 提供控制匯出文件中墨跡物件外觀的選項。唯讀 [`IInkOptions`](../iinkoptions) |
-| [JpegQuality](../../aspose.slides.export/ipdfoptions/jpegquality) { get; set; } | 傳回或設定決定 PDF 文件中 JPEG 影像品質的值。可讀寫 Byte。 |
-| [Password](../../aspose.slides.export/ipdfoptions/password) { get; set; } | 設定使用者密碼以保護 PDF 文件。可讀寫 String。 |
-| [RasterizeUnsupportedFontStyles](../../aspose.slides.export/ipdfoptions/rasterizeunsupportedfontstyles) { get; set; } | 指示當字型不支援粗體樣式時，文字是否應以點陣圖方式光柵化並儲存為 PDF。此方法可提升特定字型在產生的 PDF 中的文字品質。可讀寫 Boolean。 |
-| [SaveMetafilesAsPng](../../aspose.slides.export/ipdfoptions/savemetafilesaspng) { get; set; } | 若為 true，則將簡報中使用的所有中繪檔轉換為 PNG 影像。可讀寫 Boolean。 |
+| [JpegQuality](../../aspose.slides.export/ipdfoptions/jpegquality) { get; set; } | 傳回或設定決定 PDF 文件中 JPEG 影像品質的值。可讀/可寫 Byte。 |
+| [Password](../../aspose.slides.export/ipdfoptions/password) { get; set; } | 設定使用者密碼以保護 PDF 文件。可讀/可寫 String。 |
+| [RasterizeUnsupportedFontStyles](../../aspose.slides.export/ipdfoptions/rasterizeunsupportedfontstyles) { get; set; } | 指示當字型不支援粗體樣式時，文字是否應以點陣圖方式光柵化並儲存至 PDF。此方法可提升特定字型在產生的 PDF 中的文字品質。可讀/可寫 Boolean。 |
+| [SaveMetafilesAsPng](../../aspose.slides.export/ipdfoptions/savemetafilesaspng) { get; set; } | 若為 true，則將簡報中使用的所有中繪圖檔轉換為 PNG 影像。可讀/可寫 Boolean。 |
 | [ShowHiddenSlides](../../aspose.slides.export/ipdfoptions/showhiddenslides) { get; set; } | 指定產生的文件是否應包含隱藏投影片。預設為 `false`。 |
-| [SlidesLayoutOptions](../../aspose.slides.export/ipdfoptions/slideslayoutoptions) { get; set; } | 取得或設定匯出簡報時投影片在頁面上的排列模式 [`ISlidesLayoutOptions`](../islideslayoutoptions)。 |
-| [SufficientResolution](../../aspose.slides.export/ipdfoptions/sufficientresolution) { get; set; } | 傳回或設定決定 PDF 文件內影像解析度的值。 |
-| [TextCompression](../../aspose.slides.export/ipdfoptions/textcompression) { get; set; } | 指定文件中所有文字內容使用的壓縮類型。可讀寫 [`PdfTextCompression`](../pdftextcompression)。 |
+| [SlidesLayoutOptions](../../aspose.slides.export/ipdfoptions/slideslayoutoptions) { get; set; } | 取得或設定匯出簡報 [`ISlidesLayoutOptions`](../islideslayoutoptions) 時投影片在頁面上的排列模式。 |
+| [SufficientResolution](../../aspose.slides.export/ipdfoptions/sufficientresolution) { get; set; } | 傳回或設定決定 PDF 文件中影像解析度的值。 |
+| [TextCompression](../../aspose.slides.export/ipdfoptions/textcompression) { get; set; } | 指定文件中所有文字內容使用的壓縮類型。可讀/可寫 [`PdfTextCompression`](../pdftextcompression)。 |
 
-### 相關參考
+### 另見
 
 * 介面 [ISaveOptions](../isaveoptions)
 * 命名空間 [Aspose.Slides.Export](../../aspose.slides.export)
-* 組件 [Aspose.Slides](../../)
+* 程式集 [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

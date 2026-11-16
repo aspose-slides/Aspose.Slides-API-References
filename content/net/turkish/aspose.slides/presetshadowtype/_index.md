@@ -1,14 +1,14 @@
 ---
 title: PresetShadowType
-second_title: Aspose.Sildes için .NET API Referansı
-description: Gölge efekti için bir ön ayarı temsil eder.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Bir gölge etkisi için ön ayarı temsil eder.
 type: docs
-weight: 9670
+weight: 9690
 url: /tr/aspose.slides/presetshadowtype/
 ---
-## PresetShadowType enum
+## PresetShadowType enumerasyonu
 
-Bir gölge efekti için ön ayarı temsil eder.
+Bir gölge etkisi için ön ayarı temsil eder.
 
 ```csharp
 public enum PresetShadowType
@@ -20,8 +20,8 @@ public enum PresetShadowType
 | --- | --- | --- |
 | TopLeftDropShadow | `0` | Top Left Drop Shadow öğesini temsil eder. |
 | TopLeftLargeDropShadow | `1` | Top Left Large Drop Shadow öğesini temsil eder. |
-| BackLeftLongPerspectiveShadow | `2` | Back Left Long Perspective Shadow öğesini temsil eder. |
-| BackRightLongPerspectiveShadow | `3` | Back Right Long Perspective Shadow öğesini temsil eder. |
+| BackLeftLongPerspectiveShadow | `2` | Back Left Long Perspective Shadow öğesini temsil eder |
+| BackRightLongPerspectiveShadow | `3` | Back Right Long Perspective Shadow öğesini temsil eder |
 | TopLeftDoubleDropShadow | `4` | Top Left Double Drop Shadow öğesini temsil eder. |
 | BottomRightSmallDropShadow | `5` | Bottom Right Small Drop Shadow öğesini temsil eder. |
 | FrontLeftLongPerspectiveShadow | `6` | Front Left Long Perspective Shadow öğesini temsil eder. |
@@ -39,7 +39,7 @@ public enum PresetShadowType
 | FrontRightPerspectiveShadow | `18` | Front Right Perspective Shadow öğesini temsil eder. |
 | TopLeftSmallDropShadow | `19` | Top Left Small Drop Shadow öğesini temsil eder. |
 
-### Bakınız
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

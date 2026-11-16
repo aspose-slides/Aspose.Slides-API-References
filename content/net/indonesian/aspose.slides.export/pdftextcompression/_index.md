@@ -1,14 +1,14 @@
 ---
 title: PdfTextCompression
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Konstanta yang menentukan jenis kompresi yang diterapkan pada semua konten dalam file PDF kecuali gambar.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Konstanta yang mendefinisikan tipe kompresi yang diterapkan pada semua konten dalam file PDF kecuali gambar.
 type: docs
-weight: 4340
+weight: 4360
 url: /id/aspose.slides.export/pdftextcompression/
 ---
 ## PdfTextCompression enumerasi
 
-Konstanta yang menentukan jenis kompresi yang diterapkan pada semua konten dalam file PDF kecuali gambar.
+Konstanta yang mendefinisikan tipe kompresi yang diterapkan pada semua konten dalam file PDF kecuali gambar.
 
 ```csharp
 public enum PdfTextCompression
@@ -18,7 +18,7 @@ public enum PdfTextCompression
 
 | Nama | Nilai | Deskripsi |
 | --- | --- | --- |
-| None | `0` | Tanpa kompresi. |
+| None | `0` | Tidak ada kompresi. |
 | Flate | `1` | Kompresi Flate (ZIP). |
 
 ### Lihat Juga

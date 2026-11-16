@@ -1,14 +1,14 @@
 ---
 title: IImageWrapperFactory
-second_title: Aspose.Sildes .NET API 参考
-description: 此接口允许初始化 IBitmapWrapper。
+second_title: Aspose.Sildes for .NET API 参考
+description: 此接口允许初始化 IBitmapWrapper.
 type: docs
-weight: 6180
+weight: 6200
 url: /zh/aspose.slides/iimagewrapperfactory/
 ---
 ## IImageWrapperFactory 接口
 
-此接口允许初始化 IBitmapWrapper。
+此接口允许初始化 IBitmapWrapper.
 
 ```csharp
 public interface IImageWrapperFactory
@@ -22,7 +22,7 @@ public interface IImageWrapperFactory
 | [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper_1)(Stream) | 从指定的数据流初始化 ImageWrapper 类的新实例。 |
 | [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper_2)(string) | 从指定的文件初始化 ImageWrapper 类的新实例。 |
 
-### 参见
+### 另请参见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

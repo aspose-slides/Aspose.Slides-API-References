@@ -3,7 +3,7 @@ title: LayoutSlide
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa una diapositiva de diseño.
 type: docs
-weight: 7640
+weight: 7660
 url: /es/aspose.slides/layoutslide/
 ---
 ## LayoutSlide clase
@@ -24,7 +24,7 @@ public sealed class LayoutSlide : BaseSlide, ILayoutSlide
 | [DrawingGuides](../../aspose.slides/layoutslide/drawingguides) { get; } | Devuelve una colección de guías de dibujo para la diapositiva de diseño. Solo lectura [`IDrawingGuidesCollection`](../idrawingguidescollection) |
 | [HasDependingSlides](../../aspose.slides/layoutslide/hasdependingslides) { get; } | Devuelve true si existe al menos una diapositiva que depende de esta diapositiva de diseño. Solo lectura Boolean. |
 | [HeaderFooterManager](../../aspose.slides/layoutslide/headerfootermanager) { get; } | Devuelve el administrador HeaderFooter de la diapositiva de diseño. Solo lectura [`ILayoutSlideHeaderFooterManager`](../ilayoutslideheaderfootermanager). |
-| [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | Proporciona acceso fácil a los hipervínculos contenidos. Solo lectura [`IHyperlinkQueries`](../ihyperlinkqueries). |
+| [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | Proporciona un acceso fácil a los hipervínculos contenidos. Solo lectura [`IHyperlinkQueries`](../ihyperlinkqueries). |
 | [LayoutType](../../aspose.slides/layoutslide/layouttype) { get; } | Devuelve el tipo de diseño de esta diapositiva de diseño. Solo lectura [`SlideLayoutType`](../slidelayouttype). |
 | [MasterSlide](../../aspose.slides/layoutslide/masterslide) { get; set; } | Devuelve o establece la diapositiva maestra para un diseño. Lectura/escritura [`IMasterSlide`](../imasterslide). |
 | virtual [Name](../../aspose.slides/baseslide/name) { get; set; } | Devuelve o establece el nombre de una diapositiva. Lectura/escritura String. |
@@ -34,7 +34,7 @@ public sealed class LayoutSlide : BaseSlide, ILayoutSlide
 | override [ShowMasterShapes](../../aspose.slides/layoutslide/showmastershapes) { get; set; } | Especifica si las formas en la diapositiva maestra deben mostrarse en las diapositivas o no. Lectura/escritura Boolean. |
 | [SlideId](../../aspose.slides/baseslide/slideid) { get; } | Devuelve el ID de una diapositiva. Solo lectura UInt32. |
 | virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | Devuelve el objeto Transition que contiene información sobre cómo avanza la diapositiva especificada durante una presentación. Solo lectura [`ISlideShowTransition`](../islideshowtransition). |
-| [ThemeManager](../../aspose.slides/layoutslide/thememanager) { get; } | Devuelve el administrador de tema de sobrescritura. Solo lectura [`IOverrideThemeManager`](../../aspose.slides.theme/ioverridethememanager). |
+| [ThemeManager](../../aspose.slides/layoutslide/thememanager) { get; } | Devuelve el administrador de tema sobrescrito. Solo lectura [`IOverrideThemeManager`](../../aspose.slides.theme/ioverridethememanager). |
 | [Timeline](../../aspose.slides/baseslide/timeline) { get; } | Devuelve el objeto de línea de tiempo de animación. Solo lectura [`IAnimationTimeLine`](../ianimationtimeline). |
 
 ## Métodos
@@ -42,11 +42,11 @@ public sealed class LayoutSlide : BaseSlide, ILayoutSlide
 | Nombre | Descripción |
 | --- | --- |
 | [CreateThemeEffective](../../aspose.slides/baseslide/createthemeeffective)() | Devuelve un tema efectivo para esta diapositiva. |
-| [Equals](../../aspose.slides/baseslide/equals)(IBaseSlide) | Determina si las dos instancias IBaseSlide son iguales. El valor devuelto se calcula en función de la estructura de la diapositiva y el contenido estático. Dos diapositivas son iguales si todas las formas, estilos, textos, animaciones y demás configuraciones, etc., son iguales. La comparación no tiene en cuenta los valores de identificadores únicos, p. ej., SlideId, ni el contenido dinámico, p. ej., el valor de fecha actual en el marcador de posición de fecha. |
-| [FindShapeByAltText](../../aspose.slides/baseslide/findshapebyalttext)(string) | Encuentra la primera aparición de una forma con el texto alternativo especificado. |
+| [Equals](../../aspose.slides/baseslide/equals)(IBaseSlide) | Determina si las dos instancias de IBaseSlide son iguales. El valor devuelto se calcula en función de la estructura de la diapositiva y el contenido estático. Dos diapositivas son iguales si todas las formas, estilos, textos, animaciones y otras configuraciones, etc., son iguales. La comparación no tiene en cuenta los valores de identificadores únicos, por ejemplo SlideId, ni el contenido dinámico, por ejemplo el valor de fecha actual en el marcador de posición de fecha. |
+| [FindShapeByAltText](../../aspose.slides/baseslide/findshapebyalttext)(string) | Encuentra la primera ocurrencia de una forma con el texto alternativo especificado. |
 | [GetDependingSlides](../../aspose.slides/layoutslide/getdependingslides)() | Devuelve una matriz con todas las diapositivas que dependen de esta diapositiva de diseño. |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)() | Combina ejecuciones con el mismo formato en todos los párrafos de todas las formas aceptables. |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)(IShapeCollection) | Combina ejecuciones con el mismo formato en todos los párrafos de todas las formas aceptables. |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)() | Une secuencias con el mismo formato en todos los párrafos de todas las formas aceptables. |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)(IShapeCollection) | Une secuencias con el mismo formato en todos los párrafos de todas las formas aceptables. |
 | [Remove](../../aspose.slides/layoutslide/remove)() | Elimina el diseño de la presentación. |
 
 ### Ver también

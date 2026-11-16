@@ -1,14 +1,14 @@
 ---
 title: ILuminanceEffectiveData
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 휘도 효과를 나타냅니다. Brightness는 모든 색상을 흰색 또는 검은색에 더 가깝게 선형적으로 이동시킵니다. Contrast는 모든 색상이 서로 더 가깝거나 더 멀어지도록 스케일링합니다.
+description: Luminance 효과를 나타냅니다. 밝기는 모든 색상을 선형으로 흰색이나 검은색에 가깝게 이동시킵니다. 대비는 모든 색상이 서로 더 가깝게 또는 더 멀리 떨어지도록 스케일링합니다.
 type: docs
-weight: 3450
+weight: 3470
 url: /ko/aspose.slides.effects/iluminanceeffectivedata/
 ---
 ## ILuminanceEffectiveData 인터페이스
 
-휘도 효과를 나타냅니다. Brightness는 모든 색상을 흰색 또는 검은색에 더 가깝게 선형적으로 이동시킵니다. Contrast는 모든 색상이 서로 더 가깝거나 더 멀어지도록 스케일링합니다.
+Luminance 효과를 나타냅니다. 밝기는 모든 색상을 선형으로 흰색이나 검은색에 가깝게 이동시킵니다. 대비는 모든 색상이 서로 더 가깝게 또는 더 멀리 떨어지도록 스케일링합니다.
 
 ```csharp
 public interface ILuminanceEffectiveData : IEffectEffectiveData
@@ -19,10 +19,10 @@ public interface ILuminanceEffectiveData : IEffectEffectiveData
 | 이름 | 설명 |
 | --- | --- |
 | [AsIEffectEffectiveData](../../aspose.slides.effects/iluminanceeffectivedata/asieffecteffectivedata) { get; } | 기본 IEffectEffectiveData 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Brightness](../../aspose.slides.effects/iluminanceeffectivedata/brightness) { get; } | Brightness. 읽기 전용 Single. |
-| [Contrast](../../aspose.slides.effects/iluminanceeffectivedata/contrast) { get; } | Contrast. 읽기 전용 Single. |
+| [Brightness](../../aspose.slides.effects/iluminanceeffectivedata/brightness) { get; } | 밝기. 읽기 전용 Single. |
+| [Contrast](../../aspose.slides.effects/iluminanceeffectivedata/contrast) { get; } | 대비. 읽기 전용 Single. |
 
-### 참고
+### 참조
 
 * 인터페이스 [IEffectEffectiveData](../ieffecteffectivedata)
 * 네임스페이스 [Aspose.Slides.Effects](../../aspose.slides.effects)

@@ -1,12 +1,12 @@
 ---
 title: HandoutType
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Especifica quantos slides e em que sequência serão colocados na página.
 type: docs
-weight: 3850
+weight: 3870
 url: /pt/aspose.slides.export/handouttype/
 ---
-## Enumeração HandoutType
+## HandoutType enumeração
 
 Especifica quantos slides e em que sequência serão colocados na página.
 
@@ -21,14 +21,14 @@ public enum HandoutType
 | Handouts1 | `0` | Um slide por página. |
 | Handouts2 | `1` | Dois slides por página. |
 | Handouts3 | `2` | Três slides por página. |
-| Handouts4Horizontal | `3` | Quatro slides por página em sequência horizontal. |
-| Handouts4Vertical | `4` | Quatro slides por página em sequência vertical. |
-| Handouts6Horizontal | `5` | Seis slides por página em sequência horizontal. |
-| Handouts6Vertical | `6` | Seis slides por página em sequência vertical. |
-| Handouts9Horizontal | `7` | Nove slides por página em sequência horizontal. |
-| Handouts9Vertical | `8` | Nove slides por página em sequência vertical. |
+| Handouts4Horizontal | `3` | Quatro slides por página em uma sequência horizontal. |
+| Handouts4Vertical | `4` | Quatro slides por página em uma sequência vertical. |
+| Handouts6Horizontal | `5` | Seis slides por página em uma sequência horizontal. |
+| Handouts6Vertical | `6` | Seis slides por página em uma sequência vertical. |
+| Handouts9Horizontal | `7` | Nove slides por página em uma sequência horizontal. |
+| Handouts9Vertical | `8` | Nove slides por página em uma sequência vertical. |
 
-### Ver também
+### Veja Também
 
 * espaço de nomes [Aspose.Slides.Export](../../aspose.slides.export)
 * assembly [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: IBlurEffectiveData
-second_title: Aspose.Sildes for .NET APIリファレンス
-description: シェイプ全体（塗りつぶしを含む）に適用されるブラー効果を表す不変オブジェクトです。アルファを含むすべてのカラーチャンネルが影響を受けます。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: 塗りつぶしを含むシェイプ全体に適用される Blur 効果を表す不変オブジェクトです。アルファを含むすべてのカラーチャンネルが影響を受けます。
 type: docs
-weight: 3190
+weight: 3210
 url: /ja/aspose.slides.effects/iblureffectivedata/
 ---
 ## IBlurEffectiveData インターフェイス
 
-シェイプ全体（塗りつぶしを含む）に適用されるブラー効果を表す不変オブジェクトです。アルファを含むすべてのカラーチャンネルが影響を受けます。
+全体のシェイプとその塗りつぶしに適用される Blur 効果を表す不変オブジェクトです。アルファを含むすべてのカラーチャンネルが影響を受けます。
 
 ```csharp
 public interface IBlurEffectiveData : IEffectEffectiveData
@@ -18,9 +18,9 @@ public interface IBlurEffectiveData : IEffectEffectiveData
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/iblureffectivedata/asieffecteffectivedata) { get; } | ベース IEffectEffectiveData インターフェイスを取得できます。読み取り専用 [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Grow](../../aspose.slides.effects/iblureffectivedata/grow) { get; } | ブラー処理の結果、オブジェクトの境界を拡大すべきかどうかを決定します。True は境界が拡大されることを示し、false は拡大されないことを示します。読み取り専用 Boolean. |
-| [Radius](../../aspose.slides.effects/iblureffectivedata/radius) { get; } | ブラー半径を取得または設定します。読み取り専用 Double. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/iblureffectivedata/asieffecteffectivedata) { get; } | ベース IEffectEffectiveData インターフェイスを取得できます。読み取り専用 [`IEffectEffectiveData`](../ieffecteffectivedata)。 |
+| [Grow](../../aspose.slides.effects/iblureffectivedata/grow) { get; } | ブラー処理の結果としてオブジェクトの境界が拡大されるかどうかを決定します。true は境界が拡大されることを示し、false は拡大されないことを示します。読み取り専用 Boolean。 |
+| [Radius](../../aspose.slides.effects/iblureffectivedata/radius) { get; } | ぼかし半径を取得または設定します。読み取り専用 Double。 |
 
 ### 参照
 

@@ -1,9 +1,9 @@
 ---
 title: ShapeUtil
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Offre metodi che aiutano a elaborare oggetti shape.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Offre metodi che aiutano a elaborare gli oggetti shape.
 type: docs
-weight: 11510
+weight: 11530
 url: /it/aspose.slides.util/shapeutil/
 ---
 ## ShapeUtil classe

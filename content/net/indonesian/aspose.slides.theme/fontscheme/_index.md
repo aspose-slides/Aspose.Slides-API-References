@@ -1,14 +1,14 @@
 ---
 title: FontScheme
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Menyimpan font yang ditentukan tema.
+description: Menyimpan font yang ditetapkan oleh tema.
 type: docs
-weight: 11130
+weight: 11150
 url: /id/aspose.slides.theme/fontscheme/
 ---
 ## FontScheme kelas
 
-Menyimpan font yang ditentukan tema.
+Menyimpan font yang ditetapkan oleh tema.
 
 ```csharp
 public class FontScheme : IFontScheme
@@ -18,8 +18,8 @@ public class FontScheme : IFontScheme
 
 | Nama | Deskripsi |
 | --- | --- |
-| [Major](../../aspose.slides.theme/fontscheme/major) { get; } | Mengembalikan koleksi font untuk bagian "heading" pada slide. Hanya-baca [`IFonts`](../../aspose.slides/ifonts). |
-| [Minor](../../aspose.slides.theme/fontscheme/minor) { get; } | Mengembalikan koleksi font untuk bagian "body" pada slide. Hanya-baca [`IFonts`](../../aspose.slides/ifonts). |
+| [Major](../../aspose.slides.theme/fontscheme/major) { get; } | Mengembalikan koleksi font untuk bagian "heading" pada slide. Hanya baca [`IFonts`](../../aspose.slides/ifonts). |
+| [Minor](../../aspose.slides.theme/fontscheme/minor) { get; } | Mengembalikan koleksi font untuk bagian "body" pada slide. Hanya baca [`IFonts`](../../aspose.slides/ifonts). |
 | [Name](../../aspose.slides.theme/fontscheme/name) { get; set; } | Mengembalikan nama skema font. Baca/tulis String. |
 
 ### Lihat Juga

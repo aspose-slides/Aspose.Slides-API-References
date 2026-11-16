@@ -1,12 +1,14 @@
 ---
 title: IMathBlockCollection
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para Referência da API .NET
 description: Coleção de blocos matemáticos IMathBlock
 type: docs
-weight: 8150
+weight: 8170
 url: /pt/aspose.slides.mathtext/imathblockcollection/
 ---
 ## IMathBlockCollection interface
+
+Coleção de blocos matemáticos (IMathBlock)
 
 ```csharp
 public interface IMathBlockCollection : IEnumerable<IMathBlock>
@@ -14,7 +16,7 @@ public interface IMathBlockCollection : IEnumerable<IMathBlock>
 
 ## Propriedades
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
 | [AsIEnumerable](../../aspose.slides.mathtext/imathblockcollection/asienumerable) { get; } | Permite obter a interface base IEnumerable |
 | [Count](../../aspose.slides.mathtext/imathblockcollection/count) { get; } | Obtém o número de elementos realmente contidos na coleção. Somente leitura Int32. |
@@ -22,14 +24,14 @@ public interface IMathBlockCollection : IEnumerable<IMathBlock>
 
 ## Métodos
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
 | [Add](../../aspose.slides.mathtext/imathblockcollection/add)(IMathBlock) | Adiciona IMathBlock ao final da coleção. |
 | [Clear](../../aspose.slides.mathtext/imathblockcollection/clear)() | Remove todos os elementos da coleção. |
 | [Contains](../../aspose.slides.mathtext/imathblockcollection/contains)(IMathBlock) | Determina se a coleção contém um valor específico. |
-| [IndexOf](../../aspose.slides.mathtext/imathblockcollection/indexof)(IMathBlock) | Determina o índice de um IMathBlock específico na coleção. |
+| [IndexOf](../../aspose.slides.mathtext/imathblockcollection/indexof)(IMathBlock) | Determina o índice de um IMMathBlock específico na coleção. |
 | [Insert](../../aspose.slides.mathtext/imathblockcollection/insert)(int, IMathBlock) | Insere IMathBlock na coleção no índice especificado. |
-| [Remove](../../aspose.slides.mathtext/imathblockcollection/remove)(IMathBlock) | Remove a primeira ocorrência de um objeto específico da coleção. |
+| [Remove](../../aspose.slides.mathtext/imathblockcollection/remove)(IMathBlock) | Remove a primeira ocorrência de um objeto específico da coleção/>. |
 | [RemoveAt](../../aspose.slides.mathtext/imathblockcollection/removeat)(int) | Remove um item no índice especificado da coleção. |
 
 ### Exemplos
@@ -41,7 +43,7 @@ Exemplo:
 IMathBlockCollection blockCollection = new MathParagraph();
 ```
 
-### Ver também
+### Veja Também
 
 * interface [IMathBlock](../imathblock)
 * namespace [Aspose.Slides.MathText](../../aspose.slides.mathtext)

@@ -3,7 +3,7 @@ title: MathFunctionFactory
 second_title: Aspose.Sildes for .NET API 参考
 description: 允许创建数学函数
 type: docs
-weight: 8730
+weight: 8750
 url: /zh/aspose.slides.mathtext/mathfunctionfactory/
 ---
 ## MathFunctionFactory 类
@@ -16,13 +16,13 @@ public class MathFunctionFactory : IMathFunctionFactory
 
 ## 构造函数
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
 | [MathFunctionFactory](mathfunctionfactory)() | 默认构造函数。 |
 
 ## 方法
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
 | [CreateMathFunction](../../aspose.slides.mathtext/mathfunctionfactory/createmathfunction#createmathfunction)(IMathElement, IMathElement) | 创建数学函数 |
 | [CreateMathFunction](../../aspose.slides.mathtext/mathfunctionfactory/createmathfunction#createmathfunction_1)(string, IMathElement) | 创建数学函数 |
@@ -31,7 +31,7 @@ public class MathFunctionFactory : IMathFunctionFactory
 
 用于 COM 兼容性
 
-### 另见
+### 另请参见
 
 * 接口 [IMathFunctionFactory](../imathfunctionfactory)
 * 命名空间 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

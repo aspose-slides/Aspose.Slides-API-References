@@ -1,9 +1,9 @@
 ---
 title: NotesSize
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili ukuran slide catatan.
 type: docs
-weight: 9130
+weight: 9150
 url: /id/aspose.slides/notessize/
 ---
 ## NotesSize kelas

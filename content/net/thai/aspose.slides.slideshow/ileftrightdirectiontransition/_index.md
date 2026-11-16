@@ -1,25 +1,25 @@
 ---
 title: ILeftRightDirectionTransition
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+second_title: Aspose.Sildes สำหรับ .NET API Reference
 description: เอฟเฟกต์การเปลี่ยนสไลด์ในทิศทางซ้าย-ขวา.
 type: docs
-weight: 10120
+weight: 10140
 url: /th/aspose.slides.slideshow/ileftrightdirectiontransition/
 ---
 ## ILeftRightDirectionTransition อินเทอร์เฟซ
 
-เอฟเฟกต์การเปลี่ยนสไลด์ในทิศทางซ้าย-ขวา.
+เอฟเฟกต์การเปลี่ยนสไลด์ในทิศทางซ้ายขวา
 
 ```csharp
 public interface ILeftRightDirectionTransition : ITransitionValueBase
 ```
 
-## คุณสมบัติ
+## Properties
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/ileftrightdirectiontransition/asitransitionvaluebase) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ ITransitionValueBase พื้นฐาน อ่านอย่างเดียว [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/ileftrightdirectiontransition/direction) { get; set; } | ทิศทางของการเปลี่ยน อ่าน/เขียน [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/ileftrightdirectiontransition/asitransitionvaluebase) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ ITransitionValueBase พื้นฐาน. อ่านอย่างเดียว [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/ileftrightdirectiontransition/direction) { get; set; } | ทิศทางของการเปลี่ยนสภาพ. อ่าน/เขียน [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
 
 ### ดูเพิ่มเติม
 

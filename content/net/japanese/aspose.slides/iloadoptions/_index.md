@@ -1,14 +1,14 @@
 ---
 title: ILoadOptions
-second_title: Aspose.Sildes の .NET API リファレンス
-description: プレゼンテーションの読み込み時に、形式やデフォルトフォントなどの追加オプションを指定できます。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: プレゼンテーションの読み込み時に、形式や既定フォントなどの追加オプションを指定できます。
 type: docs
-weight: 6340
+weight: 6360
 url: /ja/aspose.slides/iloadoptions/
 ---
 ## ILoadOptions インターフェイス
 
-プレゼンテーションの読み込み時に、追加オプション（形式やデフォルトフォントなど）を指定できます。
+プレゼンテーションの読み込み時に、フォーマットや既定フォントなどの追加オプションを指定できます。
 
 ```csharp
 public interface ILoadOptions
@@ -18,20 +18,20 @@ public interface ILoadOptions
 
 | 名前 | 説明 |
 | --- | --- |
-| [BlobManagementOptions](../../aspose.slides/iloadoptions/blobmanagementoptions) { get; set; } | Binary Large Objects (BLOB) の処理動作を管理するために使用できるオプションを表します。たとえば、一時ファイルの使用やメモリ内の最大 BLOB バイト数などです。これらのオプションは、特定の環境や要件に対して最適なパフォーマンス/メモリ消費の比率を設定することを目的としています。Binary Large Object (BLOB) は単一のエンティティとして保存されるバイナリデータであり、たとえばオーディオ、ビデオ、またはプレゼンテーション自体が BLOB になり得ます。 |
-| [DefaultAsianFont](../../aspose.slides/iloadoptions/defaultasianfont) { get; set; } | ソースフォントが見つからない場合に使用されるアジアフォントを取得または設定します。読み書き可能な String。 |
-| [DefaultRegularFont](../../aspose.slides/iloadoptions/defaultregularfont) { get; set; } | ソースフォントが見つからない場合に使用される Regular フォントを取得または設定します。読み書き可能な String。 |
-| [DefaultSymbolFont](../../aspose.slides/iloadoptions/defaultsymbolfont) { get; set; } | ソースフォントが見つからない場合に使用される Symbol フォントを取得または設定します。読み書き可能な String。 |
-| [DefaultTextLanguage](../../aspose.slides/iloadoptions/defaulttextlanguage) { get; set; } | プレゼンテーションテキストのデフォルト言語を取得または設定します。読み書き可能な String。 |
+| [BlobManagementOptions](../../aspose.slides/iloadoptions/blobmanagementoptions) { get; set; } | バイナリ 大規模オブジェクト (BLOB) の処理動作を管理するために使用できるオプションを表します。たとえば、一時ファイルの使用やメモリ内の BLOB の最大バイト数などです。これらのオプションは、特定の環境や要件に対して最適なパフォーマンス/メモリ消費のバランスを設定することを目的としています。バイナリ 大規模オブジェクト (BLOB) は単一のエンティティとして格納されるバイナリデータであり、音声、動画、またはプレゼンテーション自体になることがあります。 |
+| [DefaultAsianFont](../../aspose.slides/iloadoptions/defaultasianfont) { get; set; } | ソースフォントが見つからない場合に使用されるアジアフォントを取得または設定します。読み書き String. |
+| [DefaultRegularFont](../../aspose.slides/iloadoptions/defaultregularfont) { get; set; } | ソースフォントが見つからない場合に使用される通常フォントを取得または設定します。読み書き String. |
+| [DefaultSymbolFont](../../aspose.slides/iloadoptions/defaultsymbolfont) { get; set; } | ソースフォントが見つからない場合に使用されるシンボルフォントを取得または設定します。読み書き String. |
+| [DefaultTextLanguage](../../aspose.slides/iloadoptions/defaulttextlanguage) { get; set; } | プレゼンテーションのテキストの既定言語を取得または設定します。読み書き String. |
 | [DeleteEmbeddedBinaryObjects](../../aspose.slides/iloadoptions/deleteembeddedbinaryobjects) { get; set; } | プレゼンテーションの読み込み時に Aspose.Slides が埋め込みバイナリオブジェクトをすべて削除するかどうかを決定します。 |
-| [DocumentLevelFontSources](../../aspose.slides/iloadoptions/documentlevelfontsources) { get; set; } | プレゼンテーションで使用される外部フォントのソースを指定します。これらのフォントはプレゼンテーションの存続期間中利用可能で、他のプレゼンテーションと共有されません。 |
-| [InterruptionToken](../../aspose.slides/iloadoptions/interruptiontoken) { get; set; } | 割り込み要求を監視するトークンです。このトークンは [`IPresentation`](../ipresentation) インスタンス全体のライフタイムを管理します。プレゼンテーションの読み込みや保存などの長時間実行される操作は、[`IInterruptionTokenSource`](../iinterruptiontokensource) の [`Interrupt`](../iinterruptiontokensource/interrupt) メソッドを呼び出すことで中断されます。 |
-| [LoadFormat](../../aspose.slides/iloadoptions/loadformat) { get; set; } | 読み込むプレゼンテーションのフォーマットを取得または設定します。読み書き可能な [`LoadFormat`](../loadformat)。 |
-| [OnlyLoadDocumentProperties](../../aspose.slides/iloadoptions/onlyloaddocumentproperties) { get; set; } | このプロパティは、プレゼンテーションファイルがパスワードで保護されている場合に意味があります。true の場合、暗号化されたプレゼンテーションファイルからドキュメント プロパティのみを読み込み、パスワードは無視されます。false の場合、正しいパスワードを使用して暗号化されたプレゼンテーション全体を読み込みます。プレゼンテーションが暗号化されていない場合、このプロパティの値は常に無視されます。暗号化されたファイルのドキュメント プロパティが公開されておらず、プロパティの値が true の場合、ドキュメント プロパティは読み込めず、例外がスローされます。読み書き可能な Boolean。 |
-| [Password](../../aspose.slides/iloadoptions/password) { get; set; } | パスワードを取得または設定します。読み書き可能な String。 |
-| [ResourceLoadingCallback](../../aspose.slides/iloadoptions/resourceloadingcallback) { get; set; } | 外部リソースの読み込みを管理するコールバック インターフェイスを取得または設定します。読み書き可能な [`IResourceLoadingCallback`](../iresourceloadingcallback)。 |
+| [DocumentLevelFontSources](../../aspose.slides/iloadoptions/documentlevelfontsources) { get; set; } | プレゼンテーションで使用される外部フォントのソースを指定します。これらのフォントはプレゼンテーションの全期間にわたって利用可能で、他のプレゼンテーションと共有されません |
+| [InterruptionToken](../../aspose.slides/iloadoptions/interruptiontoken) { get; set; } | 中断要求を監視するトークンです。このトークンは [`IPresentation`](../ipresentation) インスタンス全体のライフタイムを管理します。プレゼンテーションの読み込みや保存などの長時間実行される操作は、[`IInterruptionTokenSource`](../iinterruptiontokensource) の [`Interrupt`](../iinterruptiontokensource/interrupt) メソッドを呼び出すことで中断されます。 |
+| [LoadFormat](../../aspose.slides/iloadoptions/loadformat) { get; set; } | 読み込むプレゼンテーションの形式を取得または設定します。読み書き [`LoadFormat`](../loadformat). |
+| [OnlyLoadDocumentProperties](../../aspose.slides/iloadoptions/onlyloaddocumentproperties) { get; set; } | このプロパティは、プレゼンテーションファイルがパスワードで保護されている場合に意味があります。true の場合、暗号化されたプレゼンテーションファイルからドキュメントプロパティのみを読み込み、パスワードは無視されます。false の場合、正しいパスワードを使用して暗号化されたプレゼンテーション全体を読み込みます。プレゼンテーションが暗号化されていない場合、このプロパティの値は常に無視されます。暗号化されたファイルのドキュメントプロパティが公開されておらず、プロパティの値が true の場合、ドキュメントプロパティは読み込めず、例外がスローされます。読み書き Boolean. |
+| [Password](../../aspose.slides/iloadoptions/password) { get; set; } | パスワードを取得または設定します。読み書き String. |
+| [ResourceLoadingCallback](../../aspose.slides/iloadoptions/resourceloadingcallback) { get; set; } | 外部リソースの読み込みを管理するコールバックインターフェイスを取得または設定します。読み書き [`IResourceLoadingCallback`](../iresourceloadingcallback). |
 | [SpreadsheetOptions](../../aspose.slides/iloadoptions/spreadsheetoptions) { get; set; } | 追加のスプレッドシート動作を指定するために使用できるオプションを表します。 |
-| [WarningCallback](../../aspose.slides/iloadoptions/warningcallback) { get; set; } | 警告を受け取り、読み込みプロセスを続行するか中止するかを決定するオブジェクトを取得または設定します。読み書き可能な [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)。 |
+| [WarningCallback](../../aspose.slides/iloadoptions/warningcallback) { get; set; } | 警告を受け取り、読み込みプロセスを継続するか中止するかを決定するオブジェクトを取得または設定します。読み書き [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### 参照
 

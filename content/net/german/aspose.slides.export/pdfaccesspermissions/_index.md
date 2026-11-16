@@ -1,14 +1,14 @@
 ---
 title: PdfAccessPermissions
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Enthält eine Menge von Flags, die angeben, welche Zugriffsberechtigungen beim Öffnen des Dokuments mit Benutzerzugriff gewährt werden sollen.
+description: Enthält eine Menge von Flags, die angeben, welche Zugriffsberechtigungen gewährt werden sollen, wenn das Dokument mit Benutzerzugriff geöffnet wird.
 type: docs
-weight: 4310
+weight: 4330
 url: /de/aspose.slides.export/pdfaccesspermissions/
 ---
 ## PdfAccessPermissions Aufzählung
 
-Enthält eine Menge von Flags, die angeben, welche Zugriffsberechtigungen beim Öffnen des Dokuments mit Benutzerzugriff gewährt werden sollen.
+Enthält eine Menge von Flags, die angeben, welche Zugriffsberechtigungen gewährt werden sollen, wenn das Dokument mit Benutzerzugriff geöffnet wird.
 
 ```csharp
 [Flags]
@@ -17,17 +17,17 @@ public enum PdfAccessPermissions
 
 ### Werte
 
-| Name | Value | Description |
+| Name | Wert | Beschreibung |
 | --- | --- | --- |
 | None | `0` | Gibt an, dass ein Benutzer keine Zugriffsberechtigungen hat. |
 | PrintDocument | `4` | Gibt an, ob ein Benutzer das Dokument drucken darf (möglicherweise nicht in höchster Qualität, abhängig davon, ob das Bit HighQualityPrint ebenfalls gesetzt ist). |
 | ModifyContent | `8` | Gibt an, ob ein Benutzer den Inhalt des Dokuments durch andere Vorgänge als die von den Bits AddOrModifyFields, FillExistingFields, AssembleDocument gesteuerten ändern darf. |
-| CopyTextAndGraphics | `10` | Gibt an, ob ein Benutzer Text und Grafiken aus dem Dokument kopieren oder anderweitig extrahieren darf, durch Vorgänge, die nicht vom Bit ExtractTextAndGraphics gesteuert werden. |
-| AddOrModifyFields | `20` | Gibt an, ob ein Benutzer Textanmerkungen hinzufügen oder ändern, interaktive Formularfelder ausfüllen und, wenn das Bit ModifyContent ebenfalls gesetzt ist, interaktive Formularfelder (einschließlich Signaturfelder) erstellen oder ändern darf. |
-| FillExistingFields | `100` | Gibt an, ob ein Benutzer vorhandene interaktive Formularfelder (einschließlich Signaturfelder) ausfüllen darf, selbst wenn das Bit AddOrModifyFields nicht gesetzt ist. |
-| ExtractTextAndGraphics | `200` | Gibt an, ob ein Benutzer Text und Grafiken zur Barrierefreiheit für Benutzer mit Behinderungen oder zu anderen Zwecken extrahieren darf. |
-| AssembleDocument | `400` | Gibt an, ob ein Benutzer das Dokument zusammenstellen darf (Seiten einfügen, drehen oder löschen und Lesezeichen oder Miniaturbilder erstellen), selbst wenn das Bit ModifyContent nicht gesetzt ist. |
-| HighQualityPrint | `800` | Gibt an, ob ein Benutzer das Dokument so drucken darf, dass daraus eine getreue digitale Kopie des PDF-Inhalts erzeugt werden kann. Ist dieses Bit nicht gesetzt (und das Bit PrintDocument ist gesetzt), ist der Druck auf eine niedrigstufige Darstellung des Aussehens beschränkt, möglicherweise in reduzierter Qualität. |
+| CopyTextAndGraphics | `10` | Gibt an, ob ein Benutzer Text und Grafiken aus dem Dokument kopieren oder anderweitig extrahieren darf, durch Vorgänge, die nicht von dem Bit ExtractTextAndGraphics gesteuert werden. |
+| AddOrModifyFields | `20` | Gibt an, ob ein Benutzer Textanmerkungen hinzufügen oder ändern, interaktive Formularfelder ausfüllen und, falls das Bit ModifyContent ebenfalls gesetzt ist, interaktive Formularfelder (einschließlich Signaturfelder) erstellen oder ändern darf. |
+| FillExistingFields | `100` | Gibt an, ob ein Benutzer bestehende interaktive Formularfelder (einschließlich Signaturfelder) ausfüllen darf, selbst wenn das Bit AddOrModifyFields nicht gesetzt ist. |
+| ExtractTextAndGraphics | `200` | Gibt an, ob ein Benutzer Text und Grafiken zur Unterstützung der Barrierefreiheit für Benutzer mit Behinderungen oder für andere Zwecke extrahieren darf. |
+| AssembleDocument | `400` | Gibt an, ob ein Benutzer das Dokument zusammenstellen darf (Seiten einfügen, drehen oder löschen sowie Lesezeichen oder Miniaturbilder erstellen), selbst wenn das Bit ModifyContent nicht gesetzt ist. |
+| HighQualityPrint | `800` | Gibt an, ob ein Benutzer das Dokument so drucken darf, dass daraus eine getreue digitale Kopie des PDF-Inhalts erzeugt werden kann. Ist dieses Bit nicht gesetzt (und das Bit PrintDocument ist gesetzt), ist der Druck auf eine niedrigstufige Darstellung des Erscheinungsbildes beschränkt, möglicherweise von verminderter Qualität. |
 
 ### Siehe auch
 

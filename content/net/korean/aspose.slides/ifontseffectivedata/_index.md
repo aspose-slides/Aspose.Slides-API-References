@@ -3,7 +3,7 @@ title: IFontsEffectiveData
 second_title: Aspose.Sildes for .NET API 참조
 description: 효과적인 글꼴 집합을 포함하는 불변 객체입니다.
 type: docs
-weight: 5910
+weight: 5930
 url: /ko/aspose.slides/ifontseffectivedata/
 ---
 ## IFontsEffectiveData 인터페이스
@@ -26,7 +26,7 @@ public interface IFontsEffectiveData
 
 이 인터페이스는 [`IBasePortionFormatEffectiveData`](../ibaseportionformateffectivedata) 및 [`IFontSchemeEffectiveData`](../../aspose.slides.theme/ifontschemeeffectivedata) 인터페이스의 일부로 사용됩니다.
 
-### 관련 항목
+### 참고
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

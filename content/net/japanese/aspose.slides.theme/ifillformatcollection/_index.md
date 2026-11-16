@@ -3,7 +3,7 @@ title: IFillFormatCollection
 second_title: Aspose.Sildes for .NET API リファレンス
 description: 塗りつぶしスタイルのコレクションを表します。
 type: docs
-weight: 11230
+weight: 11250
 url: /ja/aspose.slides.theme/ifillformatcollection/
 ---
 ## IFillFormatCollection インターフェイス

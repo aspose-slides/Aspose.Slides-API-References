@@ -1,14 +1,14 @@
 ---
 title: IFormatSchemeEffectiveData
-second_title: Aspose.Sildes для .NET API Reference
-description: Неизменяемый объект, содержащий свойства действующей схемы формата.
+second_title: Aspose.Sildes для .NET API справочник
+description: Неизменяемый объект, содержащий эффективные свойства схемы формата.
 type: docs
-weight: 11280
+weight: 11300
 url: /ru/aspose.slides.theme/iformatschemeeffectivedata/
 ---
 ## IFormatSchemeEffectiveData интерфейс
 
-Неизменяемый объект, содержащий свойства действующей схемы формата.
+Неизменяемый объект, содержащий эффективные свойства схемы формата.
 
 ```csharp
 public interface IFormatSchemeEffectiveData
@@ -16,12 +16,12 @@ public interface IFormatSchemeEffectiveData
 
 ## Методы
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
-| [GetBackgroundFillStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getbackgroundfillstyles)(Color) | Возвращает коллекцию стилей заполнения фона, определённых темой. |
-| [GetEffectStyles](../../aspose.slides.theme/iformatschemeeffectivedata/geteffectstyles)(Color) | Возвращает коллекцию стилей эффектов, определённых темой. |
-| [GetFillStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getfillstyles)(Color) | Возвращает коллекцию стилей заполнения, определённых темой. |
-| [GetLineStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getlinestyles)(Color) | Возвращает коллекцию стилей линий, определённых темой. |
+| [GetBackgroundFillStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getbackgroundfillstyles)(Color) | Возвращает коллекцию стилей заливки фона, определенных темой. |
+| [GetEffectStyles](../../aspose.slides.theme/iformatschemeeffectivedata/geteffectstyles)(Color) | Возвращает коллекцию стилей эффектов, определенных темой. |
+| [GetFillStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getfillstyles)(Color) | Возвращает коллекцию стилей заливки, определенных темой. |
+| [GetLineStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getlinestyles)(Color) | Возвращает коллекцию стилей линий, определенных темой. |
 
 ### Примечания
 

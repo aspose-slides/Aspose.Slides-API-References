@@ -1,14 +1,14 @@
 ---
 title: ColorChange
 second_title: Aspose.Sildes .NET API referencia
-description: Egy Color Change hatást képvisel. A FromColor példányait a ToColor példányai helyettesítik.
+description: Színváltoztató hatást képvisel. A FromColor példányait a ToColor példányai helyettesítik.
 type: docs
-weight: 2940
+weight: 2960
 url: /hu/aspose.slides.effects/colorchange/
 ---
 ## ColorChange osztály
 
-Egy Color Change hatást képvisel. A FromColor példányait a ToColor példányai helyettesítik.
+Represents a Color Change effect. Instances of FromColor are replaced with instances of ToColor.
 
 ```csharp
 public sealed class ColorChange : ImageTransformOperation, IColorChange
@@ -20,15 +20,15 @@ public sealed class ColorChange : ImageTransformOperation, IColorChange
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Lehetővé teszi a base IPresentationComponent interfész lekérését. Csak olvasható [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 | [FromColor](../../aspose.slides.effects/colorchange/fromcolor) { get; } | A cserélendő szín. Csak olvasható [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [ToColor](../../aspose.slides.effects/colorchange/tocolor) { get; } | A helyettesítő szín. Csak olvasható [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [ToColor](../../aspose.slides.effects/colorchange/tocolor) { get; } | A cserélni fogó szín. Csak olvasható [`IColorFormat`](../../aspose.slides/icolorformat). |
 
-## Metódusok
+## Módszerek
 
 | Név | Leírás |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/colorchange/equals)(object) | Meghatározza, hogy a megadott [`ColorChange`](../colorchange) egyenlő-e a jelenlegi [`ColorChange`](../colorchange). |
-| [GetEffective](../../aspose.slides.effects/colorchange/geteffective)() | Lekéri a hatékony Color Change effektus adatait az öröklődés alkalmazásával. |
-| override [GetHashCode](../../aspose.slides.effects/colorchange/gethashcode)() | Hasítófüggvényként szolgál egy adott típus számára. |
+| [GetEffective](../../aspose.slides.effects/colorchange/geteffective)() | Lekéri a hatékony Color Change effektus adatokat az öröklődés alkalmazásával. |
+| override [GetHashCode](../../aspose.slides.effects/colorchange/gethashcode)() | Hash függvényként szolgál egy adott típusra. |
 
 ### Lásd még
 

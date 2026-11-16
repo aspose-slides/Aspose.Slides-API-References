@@ -1,14 +1,14 @@
 ---
 title: TextCapType
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Mô tả loại viết hoa của văn bản.
+description: Biểu thị kiểu viết hoa văn bản.
 type: docs
-weight: 10930
+weight: 10950
 url: /vi/aspose.slides/textcaptype/
 ---
-## TextCapType liệt kê
+## Kiểu liệt kê TextCapType
 
-Mô tả loại viết hoa của văn bản.
+Biểu thị kiểu viết hoa văn bản.
 
 ```csharp
 public enum TextCapType : sbyte

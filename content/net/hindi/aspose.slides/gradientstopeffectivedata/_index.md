@@ -1,14 +1,14 @@
 ---
 title: GradientStopEffectiveData
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: एक अपरिवर्तनीय ऑब्जेक्ट जो ग्रेडिएंट स्टॉप का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes .NET के लिए API संदर्भ
+description: एक अपरिवर्तनीय ऑब्जेक्ट जो एक ग्रेडिएंट स्टॉप का प्रतिनिधित्व करता है।
 type: docs
-weight: 5050
+weight: 5070
 url: /hi/aspose.slides/gradientstopeffectivedata/
 ---
 ## GradientStopEffectiveData क्लास
 
-Immutable object which represents a gradient stop.
+एक अपरिवर्तनीय ऑब्जेक्ट जो एक ग्रेडिएंट स्टॉप का प्रतिनिधित्व करता है।
 
 ```csharp
 public class GradientStopEffectiveData : IGradientStopEffectiveData
@@ -21,14 +21,14 @@ public class GradientStopEffectiveData : IGradientStopEffectiveData
 | [Color](../../aspose.slides/gradientstopeffectivedata/color) { get; } | ग्रेडिएंट स्टॉप का रंग लौटाता है। केवल-पढ़ने योग्य Color. |
 | [Position](../../aspose.slides/gradientstopeffectivedata/position) { get; } | ग्रेडिएंट स्टॉप की स्थिति (0..1) लौटाता है। केवल-पढ़ने योग्य Single. |
 
-## मेथड्स
+## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
 | override [Equals](../../aspose.slides/gradientstopeffectivedata/equals)(object) | निर्धारित करता है कि निर्दिष्ट [`GradientStopEffectiveData`](../gradientstopeffectivedata) वर्तमान [`GradientStopEffectiveData`](../gradientstopeffectivedata) के बराबर है या नहीं। |
 | override [GetHashCode](../../aspose.slides/gradientstopeffectivedata/gethashcode)() |  |
 
-### संबंधित देखें
+### देखें
 
 * इंटरफ़ेस [IGradientStopEffectiveData](../igradientstopeffectivedata)
 * नामस्थान [Aspose.Slides](../../aspose.slides)

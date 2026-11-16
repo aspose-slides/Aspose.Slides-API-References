@@ -1,9 +1,9 @@
 ---
 title: ImageWrapperFactory
-second_title: Aspose.Slides pro .NET – reference API
-description: Třída umožňuje inicializovat IBitmapWrapper.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Tato třída umožňuje inicializovat IBitmapWrapper.
 type: docs
-weight: 7450
+weight: 7470
 url: /cs/aspose.slides/imagewrapperfactory/
 ---
 ## ImageWrapperFactory třída
@@ -25,8 +25,8 @@ public class ImageWrapperFactory : IImageWrapperFactory
 | Název | Popis |
 | --- | --- |
 | [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper)(IImage) | Inicializuje novou instanci třídy ImageWrapper z určeného existujícího obrázku. |
-| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper_1)(Stream) | Inicializuje novou instanci třídy BitmapWrapper z určeného datového proudu. |
-| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper_2)(string) | Inicializuje novou instanci třídy BitmapWrapper z určeného souboru. |
+| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper_1)(Stream) | Inicializuje novou instanci třídy BitmapWrapper ze specifikovaného datového proudu. |
+| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper_2)(string) | Inicializuje novou instanci třídy BitmapWrapper ze specifikovaného souboru. |
 
 ### Viz také
 

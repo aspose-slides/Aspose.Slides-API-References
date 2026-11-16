@@ -1,9 +1,9 @@
 ---
 title: IFieldType
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per il riferimento API .NET
 description: Rappresenta un tipo di campo. Questo valore determina quale testo verrà impostato nella parte del campo quando verrà aggiornato.
 type: docs
-weight: 5780
+weight: 5800
 url: /it/aspose.slides/ifieldtype/
 ---
 ## IFieldType interfaccia

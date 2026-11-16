@@ -1,14 +1,14 @@
 ---
 title: ITrendline
 second_title: Référence API Aspose.Sildes pour .NET
-description: Classe représentant la ligne de tendance d’une série de graphique
+description: La classe représente la ligne de tendance d'une série de graphique
 type: docs
-weight: 2240
+weight: 2260
 url: /fr/aspose.slides.charts/itrendline/
 ---
 ## ITrendline interface
 
-Classe représente la ligne de tendance d’une série de graphique
+La classe représente la ligne de tendance d’une série de graphique
 
 ```csharp
 public interface ITrendline : IOverridableText
@@ -19,15 +19,15 @@ public interface ITrendline : IOverridableText
 | Nom | Description |
 | --- | --- |
 | [AsIOverridableText](../../aspose.slides.charts/itrendline/asioverridabletext) { get; } | Renvoie l'interface IOverridableText. Lecture seule [`IOverridableText`](../ioverridabletext). |
-| [Backward](../../aspose.slides.charts/itrendline/backward) { get; set; } | Spécifie le nombre de catégories (ou d’unités sur un graphique de dispersion) que la ligne de tendance prolonge avant les données de la série suivie. Sur les graphiques de dispersion et non-dispersion, la valeur doit être une valeur non négative. Lecture/écriture Double. |
-| [DisplayEquation](../../aspose.slides.charts/itrendline/displayequation) { get; set; } | Spécifie que l’équation de la ligne de tendance est affichée sur le graphique (dans la même étiquette que la valeur Rsquaredvalue). Lecture/écriture Boolean. |
-| [DisplayRSquaredValue](../../aspose.slides.charts/itrendline/displayrsquaredvalue) { get; set; } | Spécifie que la valeur R-squared de la ligne de tendance est affichée sur le graphique (dans la même étiquette que l’équation). Lecture/écriture Boolean. |
+| [Backward](../../aspose.slides.charts/itrendline/backward) { get; set; } | Spécifie le nombre de catégories (ou d’unités sur un graphique en nuage de points) que la ligne de tendance prolonge avant les données pour la série qui est suivie. Sur les graphiques en nuage de points et non nuage de points, la valeur doit être une valeur non négative. Lecture/écriture Double. |
+| [DisplayEquation](../../aspose.slides.charts/itrendline/displayequation) { get; set; } | Spécifie que l’équation de la ligne de tendance est affichée sur le tableau (dans la même étiquette que la valeur Rsquared). Lecture/écriture Boolean. |
+| [DisplayRSquaredValue](../../aspose.slides.charts/itrendline/displayrsquaredvalue) { get; set; } | Spécifie que la valeur R carré de la ligne de tendance est affichée sur le tableau (dans la même étiquette que l’équation). Lecture/écriture Boolean. |
 | [Format](../../aspose.slides.charts/itrendline/format) { get; set; } | Représente le format de la ligne de tendance. Lecture/écriture [`IFormat`](../iformat). |
-| [Forward](../../aspose.slides.charts/itrendline/forward) { get; set; } | Spécifie le nombre de catégories (ou d’unités sur un graphique de dispersion) que la ligne de tendance prolonge après les données de la série suivie. Sur les graphiques de dispersion et non-dispersion, la valeur doit être une valeur non négative. Lecture/écriture Double. |
-| [Intercept](../../aspose.slides.charts/itrendline/intercept) { get; set; } | Spécifie la valeur où la ligne de tendance doit croiser l’axe y. Cette propriété n’est prise en charge que lorsque le type de ligne de tendance est exp, linéaire ou poly. Lecture/écriture Double. |
-| [Order](../../aspose.slides.charts/itrendline/order) { get; set; } | Spécifie l’ordre de la ligne de tendance polynomiale. Elle est ignorée pour les autres types de ligne de tendance. La valeur doit être comprise entre 2 et 6. Lecture/écriture Byte. |
-| [Period](../../aspose.slides.charts/itrendline/period) { get; set; } | Spécifie la période de la ligne de tendance pour une ligne de tendance moyenne mobile. Elle est ignorée pour les autres variantes de ligne de tendance. La valeur doit être comprise entre 2 et 255. Lecture/écriture Byte. |
-| [RelatedLegendEntry](../../aspose.slides.charts/itrendline/relatedlegendentry) { get; } | Représente l’entrée de légende liée à cette ligne de tendance Lecture seule [`ILegendEntryProperties`](../ilegendentryproperties). |
+| [Forward](../../aspose.slides.charts/itrendline/forward) { get; set; } | Spécifie le nombre de catégories (ou d’unités sur un graphique en nuage de points) que la ligne de tendance prolonge après les données pour la série qui est suivie. Sur les graphiques en nuage de points et non nuage de points, la valeur doit être une valeur non négative. Lecture/écriture Double. |
+| [Intercept](../../aspose.slides.charts/itrendline/intercept) { get; set; } | Spécifie la valeur où la ligne de tendance doit croiser l’axe y. Cette propriété est prise en charge uniquement lorsque le type de ligne de tendance est exp, linear ou poly. Lecture/écriture Double. |
+| [Order](../../aspose.slides.charts/itrendline/order) { get; set; } | Spécifie l’ordre de la ligne de tendance polynomiale. Elle est ignorée pour les autres types de lignes de tendance. La valeur doit être comprise entre 2 et 6. Lecture/écriture Byte. |
+| [Period](../../aspose.slides.charts/itrendline/period) { get; set; } | Spécifie la période de la ligne de tendance pour une moyenne mobile. Elle est ignorée pour les autres variantes de lignes de tendance. La valeur doit être comprise entre 2 et 255. Lecture/écriture Byte. |
+| [RelatedLegendEntry](../../aspose.slides.charts/itrendline/relatedlegendentry) { get; } | Représente l’entrée de légende associée à cette ligne de tendance. Lecture seule [`ILegendEntryProperties`](../ilegendentryproperties). |
 | [TrendlineName](../../aspose.slides.charts/itrendline/trendlinename) { get; set; } | Obtient ou définit le nom de la ligne de tendance. Lecture/écriture String. |
 | [TrendlineType](../../aspose.slides.charts/itrendline/trendlinetype) { get; set; } | Obtient ou définit le type de ligne de tendance. Lecture/écriture [`TrendlineType`](./trendlinetype). |
 
@@ -35,6 +35,6 @@ public interface ITrendline : IOverridableText
 
 * interface [IOverridableText](../ioverridabletext)
 * espace de noms [Aspose.Slides.Charts](../../aspose.slides.charts)
-* assembly [Aspose.Slides](../../)
+* assemblage [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

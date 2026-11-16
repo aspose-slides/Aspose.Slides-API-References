@@ -1,9 +1,9 @@
 ---
 title: MathPortion
-second_title: Справочник API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET справочник API
 description: Представляет часть с математическим контекстом внутри.
 type: docs
-weight: 8930
+weight: 8950
 url: /ru/aspose.slides.mathtext/mathportion/
 ---
 ## MathPortion класс
@@ -27,7 +27,7 @@ public sealed class MathPortion : Portion, IMathPortion
 | [Field](../../aspose.slides/portion/field) { get; } | Возвращает поле этой части. Только для чтения [`IField`](../../aspose.slides/ifield). |
 | [MathParagraph](../../aspose.slides.mathtext/mathportion/mathparagraph) { get; } | Математический абзац |
 | [PortionFormat](../../aspose.slides/portion/portionformat) { get; } | Возвращает объект форматирования, который содержит явно заданные свойства форматирования текстовой части без применения наследования. Только для чтения [`IPortionFormat`](../../aspose.slides/iportionformat). |
-| [Text](../../aspose.slides/portion/text) { get; set; } | Получает или задает обычный текст части. Чтение/запись String. |
+| [Text](../../aspose.slides/portion/text) { get; set; } | Получает или задает простой текст части. Чтение/запись String. |
 
 ## Методы
 
@@ -35,7 +35,7 @@ public sealed class MathPortion : Portion, IMathPortion
 | --- | --- |
 | [AddField](../../aspose.slides/portion/addfield)(IFieldType) | Преобразует эту часть в автоматически обновляемое поле. |
 | [AddField](../../aspose.slides/portion/addfield)(string) | Преобразует эту часть в автоматически обновляемое поле. |
-| [GetCoordinates](../../aspose.slides/portion/getcoordinates)() | Получает координаты начала части. Координата X точки представляет начало части с первого символа, включая левый отступ. Координата Y включает верхний отступ. |
+| [GetCoordinates](../../aspose.slides/portion/getcoordinates)() | Получает координаты начала части. Координата X точки представляет начало части с первого символа, включая левый боковой отступ. Координата Y включает верхний боковой отступ. |
 | [GetRect](../../aspose.slides/portion/getrect)() | Получает координаты прямоугольника, ограничивающего часть. Прямоугольник включает все строки текста в части, включая пустые. |
 | [RemoveField](../../aspose.slides/portion/removefield)() | Преобразует эту часть поля в простую часть. |
 
@@ -54,7 +54,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### См. также
+### Смотрите также
 
 * класс [Portion](../../aspose.slides/portion)
 * интерфейс [IMathPortion](../imathportion)

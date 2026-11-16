@@ -1,48 +1,48 @@
 ---
 title: IAudioFrame
-second_title: Aspose.Sildes برای .NET مرجع API
-description: نمایانگر یک کلیپ صوتی در یک اسلاید است.
+second_title: مرجع API Aspose.Sildes برای .NET
+description: نمایانگر یک کلیپ صوتی روی اسلاید است.
 type: docs
-weight: 5230
+weight: 5250
 url: /fa/aspose.slides/iaudioframe/
 ---
-## رابط IAudioFrame
+## IAudioFrame واسط
 
-نمایانگر یک کلیپ صوتی در یک اسلاید است.
+نمایانگر یک کلیپ صوتی روی اسلاید است.
 
 ```csharp
 public interface IAudioFrame : IPictureFrame
 ```
 
-## ویژگی‌ها
+## خواص
 
-| نام | توضیح |
+| Name | Description |
 | --- | --- |
-| [AsIPictureFrame](../../aspose.slides/iaudioframe/asipictureframe) { get; } | امکان دریافت رابط پایه IPictureFrame را فراهم می‌کند. فقط خواندنی [`IPictureFrame`](../ipictureframe). |
-| [AudioCdEndTrack](../../aspose.slides/iaudioframe/audiocdendtrack) { get; set; } | مقدار یا تنظیم شاخص آخرین ترک را برمی‌گرداند. خواندنی/قابل نوشتن Int32. |
-| [AudioCdEndTrackTime](../../aspose.slides/iaudioframe/audiocdendtracktime) { get; set; } | مقدار یا تنظیم زمان آخرین ترک را برمی‌گرداند. خواندنی/قابل نوشتن Int32. |
-| [AudioCdStartTrack](../../aspose.slides/iaudioframe/audiocdstarttrack) { get; set; } | مقدار یا تنظیم شاخص ترک شروع را برمی‌گرداند. خواندنی/قابل نوشتن Int32. |
-| [AudioCdStartTrackTime](../../aspose.slides/iaudioframe/audiocdstarttracktime) { get; set; } | مقدار یا تنظیم زمان ترک شروع را برمی‌گرداند. خواندنی/قابل نوشتن Int32. |
-| [CaptionTracks](../../aspose.slides/iaudioframe/captiontracks) { get; } | مجموعه زیرنویس‌های بسته مرتبط با فریم صوتی را دریافت می‌کند. این ویژگی فقط خواندنی است و یک [`ICaptionsCollection`](../icaptionscollection) شامل تمام ترک‌های زیرنویس را برمی‌گرداند. |
-| [Embedded](../../aspose.slides/iaudioframe/embedded) { get; } | تعیین می‌کند آیا صدا در ارائه جاسازی شده است یا خیر. فقط خواندنی Boolean. |
-| [EmbeddedAudio](../../aspose.slides/iaudioframe/embeddedaudio) { get; set; } | مقدار یا تنظیم شیء صوتی جاسازی‌شده را برمی‌گرداند. خواندنی/قابل نوشتن [`IAudio`](../iaudio). |
-| [FadeInDuration](../../aspose.slides/iaudioframe/fadeinduration) { get; set; } | مدت زمان به میلی‌ثانیه برای محو شدن اولیه رسانه را مشخص می‌کند. خواندنی/قابل نوشتن Single. |
-| [FadeOutDuration](../../aspose.slides/iaudioframe/fadeoutduration) { get; set; } | مدت زمان به میلی‌ثانیه برای محو شدن انتهایی رسانه را مشخص می‌کند. خواندنی/قابل نوشتن Single. |
-| [HideAtShowing](../../aspose.slides/iaudioframe/hideatshowing) { get; set; } | تعیین می‌کند آیا یک AudioFrame مخفی است یا نه. خواندنی/قابل نوشتن Boolean. |
-| [LinkPathLong](../../aspose.slides/iaudioframe/linkpathlong) { get; set; } | مقدار یا تنظیم نام فایل صوتی که به AudioFrame پیوند دارد را برمی‌گرداند. خواندنی/قابل نوشتن String. |
-| [PlayAcrossSlides](../../aspose.slides/iaudioframe/playacrossslides) { get; set; } | تعیین می‌کند آیا صدا در تمام اسلایدها پخش می‌شود یا نه. خواندنی/قابل نوشتن Boolean. |
-| [PlayLoopMode](../../aspose.slides/iaudioframe/playloopmode) { get; set; } | تعیین می‌کند آیا صدا به صورت حلقه‌ای پخش می‌شود یا نه. خواندنی/قابل نوشتن Boolean. |
-| [PlayMode](../../aspose.slides/iaudioframe/playmode) { get; set; } | مقدار یا تنظیم حالت پخش صدا را برمی‌گرداند. خواندنی/قابل نوشتن [`AudioPlayModePreset`](../audioplaymodepreset). |
-| [RewindAudio](../../aspose.slides/iaudioframe/rewindaudio) { get; set; } | تعیین می‌کند آیا پس از پخش صدا به طور خودکار به ابتدا باز می‌گردد یا نه. خواندنی/قابل نوشتن Boolean. |
-| [TrimFromEnd](../../aspose.slides/iaudioframe/trimfromend) { get; set; } | مدت زمان به میلی‌ثانیه‌ای که باید از انتهای رسانه در حین پخش حذف شود را مشخص می‌کند. خواندنی/قابل نوشتن Single. |
-| [TrimFromStart](../../aspose.slides/iaudioframe/trimfromstart) { get; set; } | مدت زمان به میلی‌ثانیه‌ای که باید از ابتدای رسانه در حین پخش حذف شود را مشخص می‌کند. خواندنی/قابل نوشتن Single. |
-| [Volume](../../aspose.slides/iaudioframe/volume) { get; set; } | مقدار یا تنظیم حجم صدا را برمی‌گرداند. خواندنی/قابل نوشتن [`AudioVolumeMode`](../audiovolumemode). |
-| [VolumeValue](../../aspose.slides/iaudioframe/volumevalue) { get; set; } | مقدار یا تنظیم حجم صدا به درصد را برمی‌گرداند. خواندنی/قابل نوشتن Single. |
+| [AsIPictureFrame](../../aspose.slides/iaudioframe/asipictureframe) { get; } | اجازه می‌دهد واسط پایه IPictureFrame را دریافت کند. فقط‌خواندنی [`IPictureFrame`](../ipictureframe). |
+| [AudioCdEndTrack](../../aspose.slides/iaudioframe/audiocdendtrack) { get; set; } | مقدار یا تنظیم می‌کند فهرست آخرین ترک. خواندنی/نوشتنی Int32. |
+| [AudioCdEndTrackTime](../../aspose.slides/iaudioframe/audiocdendtracktime) { get; set; } | مقدار یا تنظیم می‌کند زمان آخرین ترک. خواندنی/نوشتنی Int32. |
+| [AudioCdStartTrack](../../aspose.slides/iaudioframe/audiocdstarttrack) { get; set; } | مقدار یا تنظیم می‌کند فهرست شروع ترک. خواندنی/نوشتنی Int32. |
+| [AudioCdStartTrackTime](../../aspose.slides/iaudioframe/audiocdstarttracktime) { get; set; } | مقدار یا تنظیم می‌کند زمان شروع ترک. خواندنی/نوشتنی Int32. |
+| [CaptionTracks](../../aspose.slides/iaudioframe/captiontracks) { get; } | مجموعهٔ زیرنویس‌های بسته مرتبط با فریم صوتی را دریافت می‌کند. این ویژگی فقط‌خواندنی است و یک [`ICaptionsCollection`](../icaptionscollection) حاوی تمام مسیرهای زیرنویس را برمی‌گرداند. |
+| [Embedded](../../aspose.slides/iaudioframe/embedded) { get; } | تشخیص می‌دهد آیا صدا به ارائه جاساز شده است. فقط‌خواندنی Boolean. |
+| [EmbeddedAudio](../../aspose.slides/iaudioframe/embeddedaudio) { get; set; } | مقدار یا تنظیم می‌کند شیء صوتی جاساز شده. خواندنی/نوشتنی [`IAudio`](../iaudio). |
+| [FadeInDuration](../../aspose.slides/iaudioframe/fadeinduration) { get; set; } | مدت زمان محو اولیهٔ رسانه بر حسب میلی‌ثانیه را مشخص می‌کند. خواندنی/نوشتنی Single. |
+| [FadeOutDuration](../../aspose.slides/iaudioframe/fadeoutduration) { get; set; } | مدت زمان محو نهاییٔ رسانه بر حسب میلی‌ثانیه را مشخص می‌کند. خواندنی/نوشتنی Single. |
+| [HideAtShowing](../../aspose.slides/iaudioframe/hideatshowing) { get; set; } | تشخیص می‌دهد آیا AudioFrame مخفی است. خواندنی/نوشتنی Boolean. |
+| [LinkPathLong](../../aspose.slides/iaudioframe/linkpathlong) { get; set; } | مقدار یا تنظیم می‌کند نام فایل صوتی که به AudioFrame لینک شده است. خواندنی/نوشتنی String. |
+| [PlayAcrossSlides](../../aspose.slides/iaudioframe/playacrossslides) { get; set; } | تشخیص می‌دهد آیا صدا در تمام اسلایدها پخش می‌شود. خواندنی/نوشتنی Boolean. |
+| [PlayLoopMode](../../aspose.slides/iaudioframe/playloopmode) { get; set; } | تشخیص می‌دهد آیا صدا به صورت حلقه‌ای پخش می‌شود. خواندنی/نوشتنی Boolean. |
+| [PlayMode](../../aspose.slides/iaudioframe/playmode) { get; set; } | مقدار یا تنظیم می‌کند حالت پخش صدا. خواندنی/نوشتنی [`AudioPlayModePreset`](../audioplaymodepreset). |
+| [RewindAudio](../../aspose.slides/iaudioframe/rewindaudio) { get; set; } | تشخیص می‌دهد آیا صدا پس از پخش به‌صورت خودکار به شروع باز می‌گردد. خواندنی/نوشتنی Boolean. |
+| [TrimFromEnd](../../aspose.slides/iaudioframe/trimfromend) { get; set; } | مدت زمان حذف شده از انتهای رسانه هنگام پخش بر حسب میلی‌ثانیه را مشخص می‌کند. خواندنی/نوشتنی Single. |
+| [TrimFromStart](../../aspose.slides/iaudioframe/trimfromstart) { get; set; } | مدت زمان حذف شده از ابتدای رسانه هنگام پخش بر حسب میلی‌ثانیه را مشخص می‌کند. خواندنی/نوشتنی Single. |
+| [Volume](../../aspose.slides/iaudioframe/volume) { get; set; } | مقدار یا تنظیم می‌کند حجم صدا. خواندنی/نوشتنی [`AudioVolumeMode`](../audiovolumemode). |
+| [VolumeValue](../../aspose.slides/iaudioframe/volumevalue) { get; set; } | مقدار یا تنظیم می‌کند حجم صدا به درصد. خواندنی/نوشتنی Single. |
 
-### موارد مرتبط
+### مراجع
 
-* رابط [IPictureFrame](../ipictureframe)
-* فضای‌نام [Aspose.Slides](../../aspose.slides)
-* مجوعه [Aspose.Slides](../../)
+* واسط [IPictureFrame](../ipictureframe)
+* فضای نام [Aspose.Slides](../../aspose.slides)
+* مجمع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

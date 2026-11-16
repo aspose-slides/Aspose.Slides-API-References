@@ -1,9 +1,9 @@
 ---
 title: TagCollection
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Rappresenta la raccolta di tag, coppie di stringhe definite dall'utente
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Rappresenta la raccolta di tag (coppie di stringhe definite dall'utente)
 type: docs
-weight: 10890
+weight: 10910
 url: /it/aspose.slides/tagcollection/
 ---
 ## TagCollection classe
@@ -16,16 +16,16 @@ public sealed class TagCollection : ITagCollection
 
 ## Proprietà
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
 | [Count](../../aspose.slides/tagcollection/count) { get; } | Restituisce il numero di tag nella raccolta. Solo lettura Int32. |
 | [IsSynchronized](../../aspose.slides/tagcollection/issynchronized) { get; } | Restituisce un valore che indica se l'accesso alla raccolta è sincronizzato (thread-safe). Solo lettura Boolean. |
 | [Item](../../aspose.slides/tagcollection/item) { get; set; } | Restituisce o imposta una coppia chiave e valore di un tag. |
-| [SyncRoot](../../aspose.slides/tagcollection/syncroot) { get; } | Restituisce una radice di sincronizzazione. Solo lettura Object. |
+| [SyncRoot](../../aspose.slides/tagcollection/syncroot) { get; } | Restituisce la radice di sincronizzazione. Solo lettura Object. |
 
 ## Metodi
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
 | [Add](../../aspose.slides/tagcollection/add)(string, string) | Aggiunge un nuovo tag alla raccolta. |
 | [Clear](../../aspose.slides/tagcollection/clear)() | Rimuove tutti i tag dalla raccolta. |
@@ -36,7 +36,7 @@ public sealed class TagCollection : ITagCollection
 | [GetNamesOfTags](../../aspose.slides/tagcollection/getnamesoftags)() | Restituisce i nomi dei tag. |
 | [GetValueByIndex](../../aspose.slides/tagcollection/getvaluebyindex)(int) | Restituisce il valore di un tag all'indice specificato. |
 | [IndexOfName](../../aspose.slides/tagcollection/indexofname)(string) | Restituisce l'indice basato su zero della chiave specificata nella raccolta. |
-| [Remove](../../aspose.slides/tagcollection/remove)(string) | Rimuove il tag con il nome specificato dalla raccolta. |
+| [Remove](../../aspose.slides/tagcollection/remove)(string) | Rimuove il tag con un nome specificato dalla raccolta. |
 | [RemoveAt](../../aspose.slides/tagcollection/removeat)(int) | Rimuove il tag all'indice specificato. |
 
 ### Esempi

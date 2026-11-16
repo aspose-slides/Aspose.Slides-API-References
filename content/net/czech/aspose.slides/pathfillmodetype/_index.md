@@ -1,14 +1,14 @@
 ---
 title: PathFillModeType
-second_title: Aspose.Sildes pro .NET - referenční příručka API
+second_title: Aspose.Sildes pro .NET API Reference
 description: Určuje způsob, jakým by měla být cesta vyplněna
 type: docs
-weight: 9330
+weight: 9350
 url: /cs/aspose.slides/pathfillmodetype/
 ---
-## enumerace PathFillModeType
+## PathFillModeType enumerace
 
-Specifikuje způsob, jakým by měla být cesta vyplněna
+Určuje způsob, jakým by měla být cesta vyplněna
 
 ```csharp
 public enum PathFillModeType : byte
@@ -18,12 +18,12 @@ public enum PathFillModeType : byte
 
 | Název | Hodnota | Popis |
 | --- | --- | --- |
-| None | `0` | Žádná výplň cesty – Specifikuje, že odpovídající cesta by neměla mít žádnou výplň. |
-| Normal | `1` | Normální výplň cesty – Specifikuje, že odpovídající cesta by měla mít normální stínovanou barvu aplikovanou na její výplň. |
-| Lighten | `2` | Zesvětlení výplně cesty – Specifikuje, že odpovídající cesta by měla mít lehce stínovanou barvu aplikovanou na její výplň. |
-| LightenLess | `3` | Mírnější zesvětlení výplně cesty – Specifikuje, že odpovídající cesta by měla mít mírně světlejší stínovanou barvu aplikovanou na její výplň. |
-| Darken | `4` | Ztmavení výplně cesty – Specifikuje, že odpovídající cesta by měla mít tmavší stínovanou barvu aplikovanou na její výplň. |
-| DarkenLess | `5` | Mírnější ztmavení výplně cesty – Specifikuje, že odpovídající cesta by měla mít mírně tmavší stínovanou barvu aplikovanou na její výplň. |
+| None | `0` | Žádné vyplnění cesty. Toto určuje, že odpovídající cesta by neměla mít žádné vyplnění. |
+| Normal | `1` | Normální vyplnění cesty. Toto určuje, že odpovídající cesta by měla mít aplikovanou normálně zatienenou barvu na své vyplnění. |
+| Lighten | `2` | Zesvětlení vyplnění cesty. Toto určuje, že odpovídající cesta by měla mít aplikovanou lehce zatienenou barvu na své vyplnění. |
+| LightenLess | `3` | Méně zesvětlené vyplnění cesty. Toto určuje, že odpovídající cesta by měla mít aplikovanou mírně světlejší zatienenou barvu na své vyplnění. |
+| Darken | `4` | Ztmavení vyplnění cesty. Toto určuje, že odpovídající cesta by měla mít aplikovanou tmavší zatienenou barvu na své vyplnění. |
+| DarkenLess | `5` | Méně ztmavené vyplnění cesty. Toto určuje, že odpovídající cesta by měla mít aplikovanou mírně tmavší zatienenou barvu na své vyplnění. |
 
 ### Viz také
 

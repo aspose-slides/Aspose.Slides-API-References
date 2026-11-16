@@ -3,7 +3,7 @@ title: IOuterShadow
 second_title: Aspose.Sildes for .NET API リファレンス
 description: 外部シャドウ効果を表します。
 type: docs
-weight: 3460
+weight: 3480
 url: /ja/aspose.slides.effects/ioutershadow/
 ---
 ## IOuterShadow インターフェイス
@@ -15,22 +15,22 @@ public interface IOuterShadow : IAccessiblePVIObject<IOuterShadowEffectiveData>,
     IImageTransformOperation
 ```
 
-## プロパティ
+## Properties
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ioutershadow/asiaccessiblepviobject) { get; } | ベース IAccessiblePVIObject インターフェイスを取得できます。読み取り専用 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ioutershadow/asiimagetransformoperation) { get; } | ベース IImageTransformOperation インターフェイスを取得できます。読み取り専用 [`IImageTransformOperation`](../iimagetransformoperation)。 |
-| [BlurRadius](../../aspose.slides.effects/ioutershadow/blurradius) { get; set; } | ぼかし半径（ポイント）。デフォルト値 – 0 pt。読み書き可能 Double。 |
-| [Direction](../../aspose.slides.effects/ioutershadow/direction) { get; set; } | 影の方向（度）。デフォルト値 – 0 °（左から右へ）。読み書き可能 Single。 |
-| [Distance](../../aspose.slides.effects/ioutershadow/distance) { get; set; } | オブジェクトからの影の距離（ポイント）。デフォルト値 – 0 pt。読み書き可能 Double。 |
-| [RectangleAlign](../../aspose.slides.effects/ioutershadow/rectanglealign) { get; set; } | 矩形の配置。デフォルト値 – Bottom。読み書き可能 [`RectangleAlignment`](../../aspose.slides/rectanglealignment)。 |
-| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadow/rotateshadowwithshape) { get; set; } | 影がシェイプと共に回転するかどうかを示します。デフォルト値 – true。読み書き可能 Boolean。 |
-| [ScaleHorizontal](../../aspose.slides.effects/ioutershadow/scalehorizontal) { get; set; } | 元のサイズのパーセンテージで表す水平スケーリング係数。負のスケーリングは反転を引き起こします。デフォルト値 – 100 %. 読み書き可能 Double。 |
-| [ScaleVertical](../../aspose.slides.effects/ioutershadow/scalevertical) { get; set; } | 元のサイズのパーセンテージで表す垂直スケーリング係数。負のスケーリングは反転を引き起こします。デフォルト値 – 100 %. 読み書き可能 Double。 |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ioutershadow/asiaccessiblepviobject) { get; } | 基本 IAccessiblePVIObject インターフェイスを取得できます。読み取り専用 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ioutershadow/asiimagetransformoperation) { get; } | 基本 IImageTransformOperation インターフェイスを取得できます。読み取り専用 [`IImageTransformOperation`](../iimagetransformoperation)。 |
+| [BlurRadius](../../aspose.slides.effects/ioutershadow/blurradius) { get; set; } | ブラー半径（ポイント単位）。デフォルト値 – 0 pt。読み取り/書き込み Double。 |
+| [Direction](../../aspose.slides.effects/ioutershadow/direction) { get; set; } | 影の方向（度単位）。デフォルト値 – 0 °（左から右）。読み取り/書き込み Single。 |
+| [Distance](../../aspose.slides.effects/ioutershadow/distance) { get; set; } | 影がオブジェクトから離れる距離（ポイント単位）。デフォルト値 – 0 pt。読み取り/書き込み Double。 |
+| [RectangleAlign](../../aspose.slides.effects/ioutershadow/rectanglealign) { get; set; } | 矩形の配置。デフォルト値 – Bottom。読み取り/書き込み [`RectangleAlignment`](../../aspose.slides/rectanglealignment)。 |
+| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadow/rotateshadowwithshape) { get; set; } | 影がシェイプとともに回転するかどうかを示します。デフォルト値 – true。読み取り/書き込み Boolean。 |
+| [ScaleHorizontal](../../aspose.slides.effects/ioutershadow/scalehorizontal) { get; set; } | 元のサイズに対するパーセンテージで水平スケーリング係数。負のスケーリングは反転を引き起こします。デフォルト値 – 100%。読み取り/書き込み Double。 |
+| [ScaleVertical](../../aspose.slides.effects/ioutershadow/scalevertical) { get; set; } | 元のサイズに対するパーセンテージで垂直スケーリング係数。負のスケーリングは反転を引き起こします。デフォルト値 – 100%。読み取り/書き込み Double。 |
 | [ShadowColor](../../aspose.slides.effects/ioutershadow/shadowcolor) { get; } | 影の色。デフォルト値 – 自動黒（テーマ依存）。読み取り専用 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
-| [SkewHorizontal](../../aspose.slides.effects/ioutershadow/skewhorizontal) { get; set; } | 水平歪み角度（度）。デフォルト値 – 0 °。読み書き可能 Double。 |
-| [SkewVertical](../../aspose.slides.effects/ioutershadow/skewvertical) { get; set; } | 垂直歪み角度（度）。デフォルト値 – 0 °。読み書き可能 Double。 |
+| [SkewHorizontal](../../aspose.slides.effects/ioutershadow/skewhorizontal) { get; set; } | 水平斜め角度（度単位）。デフォルト値 – 0 °。読み取り/書き込み Double。 |
+| [SkewVertical](../../aspose.slides.effects/ioutershadow/skewvertical) { get; set; } | 垂直斜め角度（度単位）。デフォルト値 – 0 °。読み取り/書き込み Double。 |
 
 ### 参照
 

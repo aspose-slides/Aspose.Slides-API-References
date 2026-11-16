@@ -1,9 +1,9 @@
 ---
 title: EmbeddedEotFontsHtmlController
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Lớp bộ điều khiển định dạng dùng để nhúng phông chữ ở định dạng EOT
+second_title: Aspose.Sildes cho Tham chiếu API .NET
+description: Lớp bộ điều khiển định dạng để sử dụng cho việc nhúng phông chữ ở định dạng EOT
 type: docs
-weight: 3780
+weight: 3800
 url: /vi/aspose.slides.export/embeddedeotfontshtmlcontroller/
 ---
 ## EmbeddedEotFontsHtmlController lớp

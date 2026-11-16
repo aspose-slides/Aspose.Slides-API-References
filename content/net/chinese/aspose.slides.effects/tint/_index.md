@@ -1,14 +1,14 @@
 ---
 title: Tint
-second_title: Aspose.Sildes for .NET API 参考
-description: 表示一种 Tint 效果。根据指定的量将效果颜色值向色相方向或远离色相方向移动。
+second_title: Aspose.Sildes .NET API 参考
+description: 表示一个 Tint 效果。按指定量将效果颜色值向色相方向或相反方向移动。
 type: docs
-weight: 3660
+weight: 3680
 url: /zh/aspose.slides.effects/tint/
 ---
 ## Tint 类
 
-表示一种 Tint 效果。根据指定的量将效果颜色值向色相方向或远离色相方向移动。
+表示一个 Tint 效果。将效果颜色值按指定量向色相方向或相反方向移动。
 
 ```csharp
 public sealed class Tint : ImageTransformOperation, ITint
@@ -16,19 +16,19 @@ public sealed class Tint : ImageTransformOperation, ITint
 
 ## 属性
 
-| Name | Description |
+| 名称 | 描述 |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基础 IPresentationComponent 接口。只读 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
 
 ## 方法
 
-| Name | Description |
+| 名称 | 描述 |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/tint/equals)(object) | 确定指定的 [`Tint`](../tint) 是否等于当前的 [`Tint`](../tint)。 |
-| [GetEffective](../../aspose.slides.effects/tint/geteffective)() | 获取在应用继承后的有效 Tint 效果数据。 |
-| override [GetHashCode](../../aspose.slides.effects/tint/gethashcode)() | 作为特定类型的哈希函数。 |
+| [GetEffective](../../aspose.slides.effects/tint/geteffective)() | 获取应用继承后的有效 Tint 效果数据。 |
+| override [GetHashCode](../../aspose.slides.effects/tint/gethashcode)() | 充当特定类型的哈希函数。 |
 
-### 另请参阅
+### 另见
 
 * 类 [ImageTransformOperation](../imagetransformoperation)
 * 接口 [ITint](../itint)

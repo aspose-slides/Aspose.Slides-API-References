@@ -1,9 +1,9 @@
 ---
 title: IHtmlFormattingController
-second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
 description: ควบคุมการสร้างไฟล์ html.
 type: docs
-weight: 3950
+weight: 3970
 url: /th/aspose.slides.export/ihtmlformattingcontroller/
 ---
 ## IHtmlFormattingController อินเทอร์เฟซ
@@ -14,16 +14,16 @@ url: /th/aspose.slides.export/ihtmlformattingcontroller/
 public interface IHtmlFormattingController
 ```
 
-## วิธีการ
+## เมธอด
 
-| ชื่อ | คำอธิบาย |
+| Name | คำอธิบาย |
 | --- | --- |
-| [WriteDocumentEnd](../../aspose.slides.export/ihtmlformattingcontroller/writedocumentend)(IHtmlGenerator, IPresentation) | ถูกเรียกเพื่อเขียนส่วนท้ายของเอกสาร html. ถูกเรียกหนึ่งครั้งต่อการแปลงงานนำเสนอ. |
-| [WriteDocumentStart](../../aspose.slides.export/ihtmlformattingcontroller/writedocumentstart)(IHtmlGenerator, IPresentation) | ถูกเรียกเพื่อเขียนส่วนหัวของเอกสาร html. ถูกเรียกหนึ่งครั้งต่อการแปลงงานนำเสนอ. |
-| [WriteShapeEnd](../../aspose.slides.export/ihtmlformattingcontroller/writeshapeend)(IHtmlGenerator, IShape) | ถูกเรียกก่อนการเรนเดอร์ของ shape. ถูกเรียกหนึ่งครั้งต่อแต่ละ shape. หากฟังก์ชันนี้เขียนอะไรลงใน generator, การสร้างภาพสไลด์ปัจจุบันจะสิ้นสุด, ส่วน html ที่เพิ่มเข้ามาจะถูกแทรกและภาพใหม่จะเริ่มต้นบนภาพก่อนหน้า. |
-| [WriteShapeStart](../../aspose.slides.export/ihtmlformattingcontroller/writeshapestart)(IHtmlGenerator, IShape) | ถูกเรียกก่อนการเรนเดอร์ของ shape. ถูกเรียกหนึ่งครั้งต่อแต่ละ shape. หากฟังก์ชันนี้เขียนอะไรลงใน generator, การสร้างภาพสไลด์ปัจจุบันจะสิ้นสุด, ส่วน html ที่เพิ่มเข้ามาจะถูกแทรกและภาพใหม่จะเริ่มต้นบนภาพก่อนหน้า. |
-| [WriteSlideEnd](../../aspose.slides.export/ihtmlformattingcontroller/writeslideend)(IHtmlGenerator, ISlide) | ถูกเรียกเพื่อเขียนส่วนท้ายของสไลด์ html. ถูกเรียกหนึ่งครั้งต่อแต่ละสไลด์. |
-| [WriteSlideStart](../../aspose.slides.export/ihtmlformattingcontroller/writeslidestart)(IHtmlGenerator, ISlide) | ถูกเรียกเพื่อเขียนส่วนหัวของสไลด์ html. ถูกเรียกหนึ่งครั้งต่อแต่ละสไลด์. |
+| [WriteDocumentEnd](../../aspose.slides.export/ihtmlformattingcontroller/writedocumentend)(IHtmlGenerator, IPresentation) | เรียกเพื่อเขียนส่วนท้ายของเอกสาร html. เรียกหนึ่งครั้งต่อการแปลงพรีเซนเทชั่น. |
+| [WriteDocumentStart](../../aspose.slides.export/ihtmlformattingcontroller/writedocumentstart)(IHtmlGenerator, IPresentation) | เรียกเพื่อเขียนส่วนหัวของเอกสาร html. เรียกหนึ่งครั้งต่อการแปลงพรีเซนเทชั่น. |
+| [WriteShapeEnd](../../aspose.slides.export/ihtmlformattingcontroller/writeshapeend)(IHtmlGenerator, IShape) | เรียกก่อนการเรนเดอร์ของ shape. เรียกหนึ่งครั้งต่อแต่ละ shape. หากฟังก์ชันนี้เขียนอะไรลงใน generator การสร้างภาพสไลด์ปัจจุบันจะเสร็จสิ้น ส่วน html ที่เพิ่มจะถูกแทรกและภาพใหม่จะเริ่มต้นเหนือภาพก่อนหน้า. |
+| [WriteShapeStart](../../aspose.slides.export/ihtmlformattingcontroller/writeshapestart)(IHtmlGenerator, IShape) | เรียกก่อนการเรนเดอร์ของ shape. เรียกหนึ่งครั้งต่อแต่ละ shape. หากฟังก์ชันนี้เขียนอะไรลงใน generator การสร้างภาพสไลด์ปัจจุบันจะเสร็จสิ้น ส่วน html ที่เพิ่มจะถูกแทรกและภาพใหม่จะเริ่มต้นเหนือภาพก่อนหน้า. |
+| [WriteSlideEnd](../../aspose.slides.export/ihtmlformattingcontroller/writeslideend)(IHtmlGenerator, ISlide) | เรียกเพื่อเขียนส่วนท้ายของสไลด์ html. เรียกหนึ่งครั้งต่อแต่ละสไลด์. |
+| [WriteSlideStart](../../aspose.slides.export/ihtmlformattingcontroller/writeslidestart)(IHtmlGenerator, ISlide) | เรียกเพื่อเขียนส่วนหัวของสไลด์ html. เรียกหนึ่งครั้งต่อแต่ละสไลด์. |
 
 ### ดูเพิ่มเติม
 

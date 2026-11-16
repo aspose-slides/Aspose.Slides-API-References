@@ -1,9 +1,9 @@
 ---
 title: TransitionSpeed
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili tipe kecepatan transisi.
 type: docs
-weight: 10440
+weight: 10460
 url: /id/aspose.slides.slideshow/transitionspeed/
 ---
 ## TransitionSpeed enumerasi

@@ -1,9 +1,9 @@
 ---
 title: PptxEditException
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 편집 프레젠테이션 오류가 감지될 때 발생하는 예외를 나타냅니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: 프레젠테이션 편집 오류가 감지될 때 발생하는 예외를 나타냅니다.
 type: docs
-weight: 9550
+weight: 9570
 url: /ko/aspose.slides/pptxeditexception/
 ---
 ## PptxEditException 클래스
@@ -19,10 +19,10 @@ public class PptxEditException : PptxException
 | 이름 | 설명 |
 | --- | --- |
 | [PptxEditException](pptxeditexception#constructor)() | 기본 생성자. |
-| [PptxEditException](pptxeditexception#constructor_1)(string) | 예외에 메시지를 추가할 수 있는 생성자. |
-| [PptxEditException](pptxeditexception#constructor_2)(string, Exception) | 메시지와 포함된 예외를 포함하는 예외에 대한 생성자. |
+| [PptxEditException](pptxeditexception#constructor_1)(string) | 이 예외에 메시지를 추가할 수 있는 생성자. |
+| [PptxEditException](pptxeditexception#constructor_2)(string, Exception) | 메시지와 포함된 예외를 포함하는 예외용 생성자. |
 
-### 참고
+### 참조
 
 * 클래스 [PptxException](../pptxexception)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

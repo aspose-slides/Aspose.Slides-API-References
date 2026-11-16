@@ -3,7 +3,7 @@ title: IPresentationText
 second_title: Aspose.Sildes per .NET Riferimento API
 description: Rappresenta il testo estratto dalla diapositiva
 type: docs
-weight: 6800
+weight: 6820
 url: /it/aspose.slides/ipresentationtext/
 ---
 ## IPresentationText interfaccia

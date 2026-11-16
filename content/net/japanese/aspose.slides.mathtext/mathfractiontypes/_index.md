@@ -1,14 +1,14 @@
 ---
 title: MathFractionTypes
-second_title: Aspose.Sildes for .NET API リファレンス
-description: 分数タイプ
+second_title: Aspose.Sildes の .NET API リファレンス
+description: 分数の種類
 type: docs
-weight: 8710
+weight: 8730
 url: /ja/aspose.slides.mathtext/mathfractiontypes/
 ---
 ## MathFractionTypes 列挙型
 
-分数タイプ
+分数の種類
 
 ```csharp
 public enum MathFractionTypes
@@ -18,12 +18,12 @@ public enum MathFractionTypes
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
-| Bar | `1` | バー分数 |
-| Skewed | `2` | 斜め |
+| Bar | `1` | Bar 分数 |
+| Skewed | `2` | 傾斜 |
 | Linear | `3` | 線形分数 |
-| NoBar | `4` | バーなし分数（スタック） |
+| NoBar | `4` | No-Bar 分数 (スタック) |
 
-### 関連項目
+### 参照
 
 * 名前空間 [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * アセンブリ [Aspose.Slides](../../)

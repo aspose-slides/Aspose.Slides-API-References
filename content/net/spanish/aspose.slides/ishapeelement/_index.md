@@ -1,9 +1,9 @@
 ---
 title: IShapeElement
-second_title: Referencia de la API de Aspose.Sildes para .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa una parte de la forma con las mismas propiedades de contorno y relleno.
 type: docs
-weight: 6990
+weight: 7010
 url: /es/aspose.slides/ishapeelement/
 ---
 ## IShapeElement interfaz

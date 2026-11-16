@@ -1,14 +1,14 @@
 ---
 title: SlideShowType
 second_title: Aspose.Sildes .NET API 参考
-description: 基础幻灯片放映设置。祖先表示幻灯片放映的类型 PresentedBySpeaker./presentedbyspeaker 由演讲者呈现（全屏） BrowsedByIndividual./browsedbyindividual 个人浏览（窗口） BrowsedAtKiosk./browsedatkiosk 在自助终端浏览（全屏）
+description: Base slide show settings. Ancestors represent types of the slide show PresentedBySpeaker./presentedbyspeaker 由演讲者呈现（全屏） BrowsedByIndividual./browsedbyindividual 个人浏览（窗口） BrowsedAtKiosk./browsedatkiosk 在信息亭浏览（全屏）
 type: docs
-weight: 10490
+weight: 10510
 url: /zh/aspose.slides/slideshowtype/
 ---
 ## SlideShowType 类
 
-基础幻灯片放映设置。祖先表示幻灯片放映的类型： [`PresentedBySpeaker`](../presentedbyspeaker) 由演讲者呈现（全屏） [`BrowsedByIndividual`](../browsedbyindividual) 个人浏览（窗口） [`BrowsedAtKiosk`](../browsedatkiosk) 在自助终端浏览（全屏）
+基本幻灯片放映设置。祖先表示幻灯片放映的类型：[`PresentedBySpeaker`](../presentedbyspeaker) 由演讲者呈现（全屏） [`BrowsedByIndividual`](../browsedbyindividual) 个人浏览（窗口） [`BrowsedAtKiosk`](../browsedatkiosk) 在信息亭浏览（全屏）
 
 ```csharp
 public abstract class SlideShowType

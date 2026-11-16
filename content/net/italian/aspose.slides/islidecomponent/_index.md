@@ -1,12 +1,12 @@
 ---
 title: ISlideComponent
-second_title: Riferimento API di Aspose.Sildes per .NET
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta un componente di una diapositiva.
 type: docs
-weight: 7060
+weight: 7080
 url: /it/aspose.slides/islidecomponent/
 ---
-## Interfaccia ISlideComponent
+## ISlideComponent interfaccia
 
 Rappresenta un componente di una diapositiva.
 
@@ -18,8 +18,8 @@ public interface ISlideComponent : IPresentationComponent
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/islidecomponent/asipresentationcomponent) { get; } | Consente di ottenere l'interfaccia base IPresentationComponent. Solo lettura [`IPresentationComponent`](../ipresentationcomponent). |
-| [Slide](../../aspose.slides/islidecomponent/slide) { get; } | Restituisce la diapositiva base. Solo lettura [`IBaseSlide`](../ibaseslide). |
+| [AsIPresentationComponent](../../aspose.slides/islidecomponent/asipresentationcomponent) { get; } | Consente di ottenere l'interfaccia IPresentationComponent di base. Sola lettura [`IPresentationComponent`](../ipresentationcomponent). |
+| [Slide](../../aspose.slides/islidecomponent/slide) { get; } | Restituisce la diapositiva di base. Sola lettura [`IBaseSlide`](../ibaseslide). |
 
 ### Vedi anche
 

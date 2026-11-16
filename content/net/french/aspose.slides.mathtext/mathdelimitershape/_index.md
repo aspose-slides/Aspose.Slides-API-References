@@ -1,9 +1,9 @@
 ---
 title: MathDelimiterShape
-second_title: Référence API Aspose.Sildes pour .NET
+second_title: Aspose.Sildes pour la référence API .NET
 description: L'emplacement et la taille des délimiteurs par rapport au contenu des opérandes
 type: docs
-weight: 8670
+weight: 8690
 url: /fr/aspose.slides.mathtext/mathdelimitershape/
 ---
 ## MathDelimiterShape énumération

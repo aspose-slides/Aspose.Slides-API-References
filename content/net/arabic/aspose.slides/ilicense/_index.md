@@ -1,14 +1,14 @@
 ---
 title: ILicense
-second_title: Aspose.Sildes لـ .NET مرجع API
-description: يوفر طرقًا لترخيص المكوّن.
+second_title: مرجع API لـ Aspose.Sildes لـ .NET
+description: توفر طرقًا لترخيص المكوّن.
 type: docs
-weight: 6260
+weight: 6280
 url: /ar/aspose.slides/ilicense/
 ---
 ## واجهة ILicense
 
-توفر طرقاً لترخيص المكوّن.
+توفر طرقًا لتفعيل الترخيص للمكوّن.
 
 ```csharp
 public interface ILicense
@@ -18,14 +18,14 @@ public interface ILicense
 
 | الاسم | الوصف |
 | --- | --- |
-| [IsLicensed](../../aspose.slides/ilicense/islicensed)() | التحقق ما إذا تم تطبيق الترخيص على المكوّن |
-| [ResetLicense](../../aspose.slides/ilicense/resetlicense)() | إعادة تعيين الترخيص |
-| [SetLicense](../../aspose.slides/ilicense/setlicense#setlicense)(Stream) | يَرُخّص المكوّن. |
-| [SetLicense](../../aspose.slides/ilicense/setlicense#setlicense_1)(string) | يَرُخّص المكوّن. |
+| [IsLicensed](../../aspose.slides/ilicense/islicensed)() | التحقق مما إذا تم تطبيق الترخيص على المكوّن |
+| [ResetLicense](../../aspose.slides/ilicense/resetlicense)() | إعادة ضبط الترخيص |
+| [SetLicense](../../aspose.slides/ilicense/setlicense#setlicense)(Stream) | يفعّل الترخيص للمكوّن. |
+| [SetLicense](../../aspose.slides/ilicense/setlicense#setlicense_1)(string) | يفعّل الترخيص للمكوّن. |
 
-### أمثلة
+### الأمثلة
 
-في هذا المثال، سيُجرى محاولة للعثور على ملف الترخيص المسمّى MyLicense.lic في المجلد الذي يحتوي على المكوّن، في المجلد الذي يحتوي على التجميع المستدعي، في مجلد التجميع الرئيسي، ثم في الموارد المدمجة للتجميع المستدعي.
+في هذا المثال، سيتم محاولة العثور على ملف ترخيص باسم MyLicense.lic في المجلد الذي يحتوي على المكوّن، وفي المجلد الذي يحتوي على التجميع المستدعي، وفي مجلد التجميع الرئيسي، ثم في الموارد المضمَّنة للتجميع المستدعي.
 
 ```csharp
 [C#]
@@ -40,7 +40,7 @@ Dim license As license = New license
 License.SetLicense("MyLicense.lic")
 ```
 
-### انظر أيضاً
+### انظر أيضًا
 
 * النطاق [Aspose.Slides](../../aspose.slides)
 * التجميع [Aspose.Slides](../../)

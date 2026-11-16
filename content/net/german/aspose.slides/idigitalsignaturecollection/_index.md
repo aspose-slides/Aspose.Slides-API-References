@@ -1,9 +1,9 @@
 ---
 title: IDigitalSignatureCollection
-second_title: Aspose.Sildes für .NET API Referenz
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt eine Sammlung digitaler Signaturen dar, die an ein Dokument angehängt sind.
 type: docs
-weight: 5700
+weight: 5720
 url: /de/aspose.slides/idigitalsignaturecollection/
 ---
 ## IDigitalSignatureCollection Schnittstelle
@@ -18,7 +18,7 @@ public interface IDigitalSignatureCollection : IGenericCollection<IDigitalSignat
 
 | Name | Beschreibung |
 | --- | --- |
-| [Item](../../aspose.slides/idigitalsignaturecollection/item) { get; } | Gibt die Signatur anhand des Index zurück. |
+| [Item](../../aspose.slides/idigitalsignaturecollection/item) { get; } | Gibt die Signatur nach Index zurück. |
 
 ## Methoden
 

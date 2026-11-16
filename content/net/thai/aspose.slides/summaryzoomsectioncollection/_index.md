@@ -1,14 +1,14 @@
 ---
 title: SummaryZoomSectionCollection
-second_title: Aspose.Sildes สำหรับ .NET การอ้างอิง API
-description: แทนที่คอลเลกชันของวัตถุ Summary Zoom Section.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงคอลเลกชันของอ็อบเจกต์ Summary Zoom Section objects.
 type: docs
-weight: 10790
+weight: 10810
 url: /th/aspose.slides/summaryzoomsectioncollection/
 ---
 ## SummaryZoomSectionCollection คลาส
 
-แทนที่คอลเลกชันของอ็อบเจ็กต์ Summary Zoom Section
+แสดงคอลเลกชันของอ็อบเจกต์ Summary Zoom Section
 
 ```csharp
 public sealed class SummaryZoomSectionCollection : DomObject<SummaryZoomFrame>, 
@@ -17,24 +17,24 @@ public sealed class SummaryZoomSectionCollection : DomObject<SummaryZoomFrame>,
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides/summaryzoomsectioncollection/count) { get; } | รับจำนวนขององค์ประกอบที่มีอยู่จริงในคอลเลกชัน อ่านอย่างเดียว Int32. |
-| [IsSynchronized](../../aspose.slides/summaryzoomsectioncollection/issynchronized) { get; } | คืนค่าที่บ่งชี้ว่าการเข้าถึงคอลเลกชันถูกซิงโครไนซ์ (ปลอดภัยต่อเธรด) อ่านอย่างเดียว Boolean. |
-| [Item](../../aspose.slides/summaryzoomsectioncollection/item) { get; } | รับองค์ประกอบที่ตำแหน่งที่ระบุ อ่านอย่างเดียว [`ISummaryZoomSection`](../isummaryzoomsection). |
-| [SyncRoot](../../aspose.slides/summaryzoomsectioncollection/syncroot) { get; } | คืนค่ารากของการซิงโครไนซ์ อ่านอย่างเดียว Object. |
+| [Count](../../aspose.slides/summaryzoomsectioncollection/count) { get; } | Gets the number of elements actually contained in the collection. อ่านอย่างเดียว Int32. |
+| [IsSynchronized](../../aspose.slides/summaryzoomsectioncollection/issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). อ่านอย่างเดียว Boolean. |
+| [Item](../../aspose.slides/summaryzoomsectioncollection/item) { get; } | Gets the element at the specified index. อ่านอย่างเดียว [`ISummaryZoomSection`](../isummaryzoomsection). |
+| [SyncRoot](../../aspose.slides/summaryzoomsectioncollection/syncroot) { get; } | Returns a synchronization root. อ่านอย่างเดียว Object. |
 
-## เมธอด
+## วิธีการ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [AddSummaryZoomSection](../../aspose.slides/summaryzoomsectioncollection/addsummaryzoomsection)(ISection) | สร้างวัตถุ Summary Zoom Section ใหม่และเพิ่มลงในคอลเลกชัน |
-| [Clear](../../aspose.slides/summaryzoomsectioncollection/clear)() | ลบวัตถุ SummaryZoomSection ทั้งหมดออกจากคอลเลกชัน. |
+| [AddSummaryZoomSection](../../aspose.slides/summaryzoomsectioncollection/addsummaryzoomsection)(ISection) | สร้างอ็อบเจกต์ Summary Zoom Section ใหม่และเพิ่มลงในคอลเลกชัน |
+| [Clear](../../aspose.slides/summaryzoomsectioncollection/clear)() | ลบอ็อบเจกต์ SummaryZoomSection ทั้งหมดจากคอลเลกชัน. |
 | [CopyTo](../../aspose.slides/summaryzoomsectioncollection/copyto)(Array, int) | คัดลอกคอลเลกชันทั้งหมดไปยังอาเรย์ที่ระบุ. |
 | [GetEnumerator](../../aspose.slides/summaryzoomsectioncollection/getenumerator)() | คืนค่า enumerator ที่วนซ้ำผ่านคอลเลกชัน. |
-| [GetSummarySection](../../aspose.slides/summaryzoomsectioncollection/getsummarysection)(ISection) | คืนค่าองค์ประกอบ Summary Zoom Section สำหรับส่วนที่กำหนด. |
-| [IndexOf](../../aspose.slides/summaryzoomsectioncollection/indexof)(ISummaryZoomSection) | คืนค่าดัชนีของวัตถุ SummaryZoomSection ที่ระบุ. |
-| [RemoveSummaryZoomSection](../../aspose.slides/summaryzoomsectioncollection/removesummaryzoomsection)(ISection) | ลบวัตถุ Summary Zoom Section ออกจากคอลเลกชัน. |
+| [GetSummarySection](../../aspose.slides/summaryzoomsectioncollection/getsummarysection)(ISection) | คืนค่าองค์ประกอบ Summary Zoom Section สำหรับ section ที่ให้มา. |
+| [IndexOf](../../aspose.slides/summaryzoomsectioncollection/indexof)(ISummaryZoomSection) | คืนดัชนีของอ็อบเจกต์ SummaryZoomSection ที่ระบุ. |
+| [RemoveSummaryZoomSection](../../aspose.slides/summaryzoomsectioncollection/removesummaryzoomsection)(ISection) | ลบอ็อบเจกต์ Summary Zoom Section ออกจากคอลเลกชัน. |
 
 ### ดูเพิ่มเติม
 

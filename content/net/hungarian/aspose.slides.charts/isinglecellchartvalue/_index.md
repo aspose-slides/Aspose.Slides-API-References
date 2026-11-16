@@ -1,9 +1,9 @@
 ---
 title: ISingleCellChartValue
-second_title: Aspose.Sildes .NET API referencia
-description: Diagram adatcellát képvisel.
+second_title: Aspose.Sildes .NET API referenciája
+description: Egy diagram adatcellát képvisel.
 type: docs
-weight: 2210
+weight: 2230
 url: /hu/aspose.slides.charts/isinglecellchartvalue/
 ---
 ## ISingleCellChartValue interfész

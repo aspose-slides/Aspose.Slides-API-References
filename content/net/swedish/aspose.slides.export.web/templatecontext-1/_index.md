@@ -3,7 +3,7 @@ title: TemplateContextTObject
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar ett modellobjektgränssnitt för en mallmotor.
 type: docs
-weight: 4670
+weight: 4690
 url: /sv/aspose.slides.export.web/templatecontext-1/
 ---
 ## TemplateContext<TObject> klass
@@ -18,16 +18,16 @@ public sealed class TemplateContext<TObject>
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Global](../../aspose.slides.export.web/templatecontext`1/global) { get; } | Returnerar global lagring för värddokumentet. Skrivskyddad [`Storage`](../storage). |
-| [Local](../../aspose.slides.export.web/templatecontext`1/local) { get; } | Returnerar lokal lagring för det aktuella mallkontextet. Skrivskyddad [`Storage`](../storage). |
+| [Global](../../aspose.slides.export.web/templatecontext`1/global) { get; } | Returnerar global lagring av värddokumentet. Skrivskyddad [`Storage`](../storage). |
+| [Local](../../aspose.slides.export.web/templatecontext`1/local) { get; } | Returnerar lokal lagring av den aktuella mallkontexten. Skrivskyddad [`Storage`](../storage). |
 | [Object](../../aspose.slides.export.web/templatecontext`1/object) { get; } | Returnerar modellobjektet. Skrivskyddad !:TObject. |
-| [Output](../../aspose.slides.export.web/templatecontext`1/output) { get; } | Returnerar samling av utdataelement i värddokumentet. Skrivskyddad [`Output`](./output). |
+| [Output](../../aspose.slides.export.web/templatecontext`1/output) { get; } | Returnerar samling av utdataelement för värddokumentet. Skrivskyddad [`Output`](./output). |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
-| [SubModel&lt;TSubModel&gt;](../../aspose.slides.export.web/templatecontext`1/submodel)(TSubModel) | Skapar ett underordnat mallkontext. |
+| [SubModel&lt;TSubModel&gt;](../../aspose.slides.export.web/templatecontext`1/submodel)(TSubModel) | Skapar ett barnmallkontext. |
 
 ### Se även
 

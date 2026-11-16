@@ -1,9 +1,9 @@
 ---
 title: IOptionalBlackTransition
-second_title: Aspose.Sildes .NET API hivatkozás
+second_title: Aspose.Sildes .NET API Referenciája
 description: Opcionális fekete diaátmenet hatás.
 type: docs
-weight: 10140
+weight: 10160
 url: /hu/aspose.slides.slideshow/ioptionalblacktransition/
 ---
 ## IOptionalBlackTransition interfész
@@ -18,8 +18,8 @@ public interface IOptionalBlackTransition : ITransitionValueBase
 
 | Név | Leírás |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/ioptionalblacktransition/asitransitionvaluebase) { get; } | Lehetővé teszi a base ITransitionValueBase interfész lekérését. Csak olvasható [`ITransitionValueBase`](../itransitionvaluebase). |
-| [FromBlack](../../aspose.slides.slideshow/ioptionalblacktransition/fromblack) { get; set; } | Ez az attribútum meghatározza, hogy az átmenet fekete képernyőn indul-e (és ezután a új dia átmenete a feketén). Olvasás/írás Boolean. |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/ioptionalblacktransition/asitransitionvaluebase) { get; } | Lehetővé teszi a base ITransitionValueBase interfész lekérdezését. Csak olvasható [`ITransitionValueBase`](../itransitionvaluebase). |
+| [FromBlack](../../aspose.slides.slideshow/ioptionalblacktransition/fromblack) { get; set; } | Ez az attribútum meghatározza, hogy az átmenet fekete képernyőről indul-e (és ezután a új diát fekete felett váltja). Olvasás/írás Boolean. |
 
 ### Lásd még
 

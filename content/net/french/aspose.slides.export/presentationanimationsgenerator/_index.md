@@ -1,14 +1,14 @@
 ---
 title: PresentationAnimationsGenerator
 second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Représente un générateur d'animations dans le Presentation../aspose.slides/presentation.
+description: Représente un générateur des animations dans la Présentation../aspose.slides/presentation.
 type: docs
-weight: 4380
+weight: 4400
 url: /fr/aspose.slides.export/presentationanimationsgenerator/
 ---
 ## PresentationAnimationsGenerator classe
 
-Représente un générateur d'animations dans le [`Presentation`](../../aspose.slides/presentation).
+Représente un générateur des animations dans le [`Presentation`](../../aspose.slides/presentation).
 
 ```csharp
 public class PresentationAnimationsGenerator : IDisposable
@@ -18,8 +18,8 @@ public class PresentationAnimationsGenerator : IDisposable
 
 | Nom | Description |
 | --- | --- |
-| [PresentationAnimationsGenerator](presentationanimationsgenerator#constructor)(Presentation) | Crée une nouvelle instance du [`PresentationAnimationsGenerator`](../presentationanimationsgenerator). |
-| [PresentationAnimationsGenerator](presentationanimationsgenerator#constructor_1)(Size) | Crée une nouvelle instance du [`PresentationAnimationsGenerator`](../presentationanimationsgenerator). |
+| [PresentationAnimationsGenerator](presentationanimationsgenerator#constructor)(Presentation) | Crée une nouvelle instance de [`PresentationAnimationsGenerator`](../presentationanimationsgenerator). |
+| [PresentationAnimationsGenerator](presentationanimationsgenerator#constructor_1)(Size) | Crée une nouvelle instance de [`PresentationAnimationsGenerator`](../presentationanimationsgenerator). |
 
 ## Propriétés
 
@@ -33,7 +33,7 @@ public class PresentationAnimationsGenerator : IDisposable
 
 | Nom | Description |
 | --- | --- |
-| [Dispose](../../aspose.slides.export/presentationanimationsgenerator/dispose)() | Libère l'instance du [`PresentationAnimationsGenerator`](../presentationanimationsgenerator). |
+| [Dispose](../../aspose.slides.export/presentationanimationsgenerator/dispose)() | Libère l'instance de [`PresentationAnimationsGenerator`](../presentationanimationsgenerator). |
 | [Run](../../aspose.slides.export/presentationanimationsgenerator/run#run)(IEnumerable&lt;ISlide&gt;) | Exécute la génération des événements d'animation pour chaque diapositive. |
 | [Run](../../aspose.slides.export/presentationanimationsgenerator/run#run_1)(IEnumerable&lt;ISlide&gt;, int, FrameTickHandler) | Exécute la génération des événements d'animation pour chaque diapositive. |
 

@@ -1,14 +1,14 @@
 ---
 title: GetFontBytes
 second_title: Aspose.Sildes for .NET API 參考
-description: 擷取代表指定字型樣式與字型資料之字型資料的位元組陣列。
+description: 取得代表指定字型樣式與字型資料之字型資料的位元組陣列。
 type: docs
-weight: 50
+weight: 60
 url: /zh-hant/aspose.slides/fontsmanager/getfontbytes/
 ---
 ## FontsManager.GetFontBytes 方法
 
-擷取代表指定字型樣式與字型資料之字型資料的位元組陣列。
+取得代表指定字型樣式與字型資料之字型資料的位元組陣列。
 
 ```csharp
 public byte[] GetFontBytes(IFontData fontData, FontStyleType fontStyle)
@@ -16,12 +16,12 @@ public byte[] GetFontBytes(IFontData fontData, FontStyleType fontStyle)
 
 | 參數 | 類型 | 說明 |
 | --- | --- | --- |
-| fontData | IFontData | 包含字型資訊的字型資料物件 [`IFontData`](../../ifontdata)。 |
-| fontStyle | FontStyleType | 要擷取其資料的字型樣式 [`FontStyleType`](../../fontstyletype)。 |
+| fontData | IFontData | 包含關於字型資訊的字型資料物件 [`IFontData`](../../ifontdata)。 |
+| fontStyle | FontStyleType | 要擷取資料的字型樣式 [`FontStyleType`](../../fontstyletype)。 |
 
-### 返回值
+### 回傳值
 
-包含指定字型樣式之字型資料的位元組陣列。如果找不到字型資料或樣式，則傳回 null。
+回傳包含指定字型樣式之字型資料的位元組陣列。若找不到字型資料或樣式，則傳回 null。
 
 ### 範例
 
@@ -29,10 +29,10 @@ public byte[] GetFontBytes(IFontData fontData, FontStyleType fontStyle)
 [C#]
 using (Presentation pres = new Presentation ("Presentation.pptx"))
 {
-    // 取得簡報中使用的所有字型
+    // 檢索簡報中使用的所有字型
     IFontData[] fonts = pres.FontsManager.GetFonts();
 
-    // 取得簡報中第一個字型之普通樣式的位元組陣列
+    // 取得簡報中第一個字型的常規樣式之位元組陣列
     byte[] bytes = pres.FontsManager.GetFontBytes(fonts[0], FontStyleType.Regular);
 }
 ```

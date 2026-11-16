@@ -3,10 +3,10 @@ title: FontSubstCondition
 second_title: Aspose.Sildes için .NET API Referansı
 description: Yazı tipi ikamesi için bir kuralı temsil eder
 type: docs
-weight: 4880
+weight: 4900
 url: /tr/aspose.slides/fontsubstcondition/
 ---
-## FontSubstCondition numaralandırması
+## FontSubstCondition enum'ı
 
 Yazı tipi ikamesi için bir kuralı temsil eder
 

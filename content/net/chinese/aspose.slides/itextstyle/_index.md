@@ -3,7 +3,7 @@ title: ITextStyle
 second_title: Aspose.Sildes for .NET API 参考
 description: 文本样式格式属性。
 type: docs
-weight: 7310
+weight: 7330
 url: /zh/aspose.slides/itextstyle/
 ---
 ## ITextStyle 接口
@@ -16,18 +16,18 @@ public interface ITextStyle
 
 ## 属性
 
-| 名称 | 描述 |
+| 名称 | 说明 |
 | --- | --- |
 | [DefaultParagraphFormat](../../aspose.slides/itextstyle/defaultparagraphformat) { get; } | 默认段落属性。只读 [`IParagraphFormat`](../iparagraphformat)。 |
 
 ## 方法
 
-| 名称 | 描述 |
+| 名称 | 说明 |
 | --- | --- |
-| [GetEffective](../../aspose.slides/itextstyle/geteffective)() | 获取在应用继承后的有效文本样式格式数据。 |
+| [GetEffective](../../aspose.slides/itextstyle/geteffective)() | 获取在应用继承后有效的文本样式格式数据。 |
 | [GetLevel](../../aspose.slides/itextstyle/getlevel)(int) | 如果样式级别存在则返回它，否则返回 null。 |
 
-### 另见
+### 另请参见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

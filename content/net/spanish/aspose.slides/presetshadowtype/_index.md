@@ -1,14 +1,14 @@
 ---
 title: PresetShadowType
 second_title: Referencia de API de Aspose.Sildes para .NET
-description: Representa una predefinición para un efecto de sombra.
+description: Representa un ajuste preestablecido para un efecto de sombra.
 type: docs
-weight: 9670
+weight: 9690
 url: /es/aspose.slides/presetshadowtype/
 ---
 ## Enumeración PresetShadowType
 
-Representa una predefinición para un efecto de sombra.
+Representa un ajuste preestablecido para un efecto de sombra.
 
 ```csharp
 public enum PresetShadowType
@@ -16,28 +16,28 @@ public enum PresetShadowType
 
 ### Valores
 
-| Nombre | Valor | Descripción |
+| Name | Value | Description |
 | --- | --- | --- |
-| TopLeftDropShadow | `0` | Representa una sombra proyectada superior izquierda. |
-| TopLeftLargeDropShadow | `1` | Representa una sombra proyectada superior izquierda grande. |
-| BackLeftLongPerspectiveShadow | `2` | Representa una sombra en perspectiva larga trasera izquierda. |
-| BackRightLongPerspectiveShadow | `3` | Representa una sombra en perspectiva larga trasera derecha. |
-| TopLeftDoubleDropShadow | `4` | Representa una sombra proyectada doble superior izquierda. |
-| BottomRightSmallDropShadow | `5` | Representa una sombra proyectada pequeña inferior derecha. |
-| FrontLeftLongPerspectiveShadow | `6` | Representa una sombra en perspectiva larga frontal izquierda. |
-| FrontRightLongPerspectiveShadow | `7` | Representa una sombra en perspectiva larga frontal derecha. |
-| OuterBoxShadow3D | `8` | Representa una sombra de caja externa 3D. |
-| InnerBoxShadow3D | `9` | Representa una sombra de caja interna 3D. |
-| BackCenterPerspectiveShadow | `10` | Representa una sombra en perspectiva central trasera. |
-| TopRightDropShadow | `11` | Representa una sombra proyectada superior derecha. |
-| FrontBottomShadow | `12` | Representa una sombra frontal inferior. |
-| BackLeftPerspectiveShadow | `13` | Representa una sombra en perspectiva trasera izquierda. |
-| BackRightPerspectiveShadow | `14` | Representa una sombra en perspectiva trasera derecha. |
-| BottomLeftDropShadow | `15` | Representa una sombra proyectada inferior izquierda. |
-| BottomRightDropShadow | `16` | Representa una sombra proyectada inferior derecha. |
-| FrontLeftPerspectiveShadow | `17` | Representa una sombra en perspectiva frontal izquierda. |
-| FrontRightPerspectiveShadow | `18` | Representa una sombra en perspectiva frontal derecha. |
-| TopLeftSmallDropShadow | `19` | Representa una sombra proyectada pequeña superior izquierda. |
+| TopLeftDropShadow | `0` | Representa Top Left Drop Shadow. |
+| TopLeftLargeDropShadow | `1` | Representa Top Left Large Drop Shadow. |
+| BackLeftLongPerspectiveShadow | `2` | Representa Back Left Long Perspective Shadow |
+| BackRightLongPerspectiveShadow | `3` | Representa Back Right Long Perspective Shadow |
+| TopLeftDoubleDropShadow | `4` | Representa Top Left Double Drop Shadow. |
+| BottomRightSmallDropShadow | `5` | Representa Bottom Right Small Drop Shadow. |
+| FrontLeftLongPerspectiveShadow | `6` | Representa Front Left Long Perspective Shadow. |
+| FrontRightLongPerspectiveShadow | `7` | Representa Front Right Long Perspective Shadow. |
+| OuterBoxShadow3D | `8` | Representa Outer Box Shadow 3D. |
+| InnerBoxShadow3D | `9` | Representa Inner Box Shadow 3D. |
+| BackCenterPerspectiveShadow | `10` | Representa Back Center Perspective Shadow. |
+| TopRightDropShadow | `11` | Representa Top Right Drop Shadow. |
+| FrontBottomShadow | `12` | Representa Front Bottom Shadow. |
+| BackLeftPerspectiveShadow | `13` | Representa Back Left Perspective Shadow. |
+| BackRightPerspectiveShadow | `14` | Representa Back Right Perspective Shadow. |
+| BottomLeftDropShadow | `15` | Representa Bottom Left Drop Shadow. |
+| BottomRightDropShadow | `16` | Representa Bottom Right Drop Shadow. |
+| FrontLeftPerspectiveShadow | `17` | Representa Front Left Perspective Shadow. |
+| FrontRightPerspectiveShadow | `18` | Representa Front Right Perspective Shadow. |
+| TopLeftSmallDropShadow | `19` | Representa Top Left Small Drop Shadow. |
 
 ### Ver también
 

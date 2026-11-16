@@ -1,14 +1,14 @@
 ---
 title: Hide
 second_title: Aspose.Sildes för .NET API-referens
-description: Gör dataetiketten dold genom att sätta alla Show-flaggor ShowValue ... till falskt läge. IsVisible blir falskt efter detta.
+description: Gör dataetiketten dold genom att sätta alla Show-flags ShowValue ... till falskt tillstånd. IsVisible kommer att vara falskt efter detta.
 type: docs
-weight: 80
+weight: 90
 url: /sv/aspose.slides.charts/idatalabel/hide/
 ---
 ## IDataLabel.Hide metod
 
-Gör dataetiketten dold genom att sätta alla Show*-flaggor (ShowValue, ...) till falskt läge. IsVisible blir falskt efter detta.
+Gör dataetiketten dold genom att sätta alla Show*-flags (ShowValue, ...) till falskt läge. IsVisible kommer att vara falskt efter detta.
 
 ```csharp
 public void Hide()
@@ -16,9 +16,9 @@ public void Hide()
 
 ### Anmärkningar
 
-Om dataetiketten inte är synlig (IsVisible är falskt) kan du göra dataetiketten synlig genom att sätta Show*-flaggor (ShowValue, ...) till sant läge.
+Om dataetiketten inte är synlig (IsVisible är falskt) kan du göra dataetiketten synlig genom att sätta Show*-flags (ShowValue, ...) till sant läge.
 
-### Se även
+### Se också
 
 * gränssnitt [IDataLabel](../../idatalabel)
 * namnrymd [Aspose.Slides.Charts](../../idatalabel)

@@ -3,10 +3,10 @@ title: EffectFormat
 second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Représente les propriétés d'effet d'une forme.
 type: docs
-weight: 2830
+weight: 2850
 url: /fr/aspose.slides/effectformat/
 ---
-## classe EffectFormat
+## Classe EffectFormat
 
 Représente les propriétés d'effet d'une forme.
 
@@ -20,11 +20,11 @@ public sealed class EffectFormat : PVIObject, IEffectFormat
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permet d'obtenir l'interface de base IPresentationComponent. Lecture seule [`IPresentationComponent`](../ipresentationcomponent). |
 | [BlurEffect](../../aspose.slides/effectformat/blureffect) { get; set; } | Effet de flou. Lecture/écriture [`IBlur`](../../aspose.slides.effects/iblur). |
-| [FillOverlayEffect](../../aspose.slides/effectformat/filloverlayeffect) { get; set; } | Effet de remplissage superposé. Lecture/écriture [`IFillOverlay`](../../aspose.slides.effects/ifilloverlay). |
+| [FillOverlayEffect](../../aspose.slides/effectformat/filloverlayeffect) { get; set; } | Effet de superposition de remplissage. Lecture/écriture [`IFillOverlay`](../../aspose.slides.effects/ifilloverlay). |
 | [GlowEffect](../../aspose.slides/effectformat/gloweffect) { get; set; } | Effet de lueur. Lecture/écriture [`IGlow`](../../aspose.slides.effects/iglow). |
 | [InnerShadowEffect](../../aspose.slides/effectformat/innershadoweffect) { get; set; } | Ombre interne. Lecture/écriture [`IInnerShadow`](../../aspose.slides.effects/iinnershadow). |
 | [IsNoEffects](../../aspose.slides/effectformat/isnoeffects) { get; } | Renvoie true si tous les effets sont désactivés (comme juste créé, objet EffectFormat par défaut). Lecture seule Boolean. |
-| [OuterShadowEffect](../../aspose.slides/effectformat/outershadoweffect) { get; set; } | Ombre extérieure. Lecture/écriture [`IOuterShadow`](../../aspose.slides.effects/ioutershadow). |
+| [OuterShadowEffect](../../aspose.slides/effectformat/outershadoweffect) { get; set; } | Ombre externe. Lecture/écriture [`IOuterShadow`](../../aspose.slides.effects/ioutershadow). |
 | [PresetShadowEffect](../../aspose.slides/effectformat/presetshadoweffect) { get; set; } | Ombre prédéfinie. Lecture/écriture [`IPresetShadow`](../../aspose.slides.effects/ipresetshadow). |
 | [ReflectionEffect](../../aspose.slides/effectformat/reflectioneffect) { get; set; } | Réflexion. Lecture/écriture [`IReflection`](../../aspose.slides.effects/ireflection). |
 | [SoftEdgeEffect](../../aspose.slides/effectformat/softedgeeffect) { get; set; } | Bord doux. Lecture/écriture [`ISoftEdge`](../../aspose.slides.effects/isoftedge). |
@@ -34,18 +34,18 @@ public sealed class EffectFormat : PVIObject, IEffectFormat
 | Nom | Description |
 | --- | --- |
 | [DisableBlurEffect](../../aspose.slides/effectformat/disableblureffect)() | Désactive l'effet de flou. |
-| [DisableFillOverlayEffect](../../aspose.slides/effectformat/disablefilloverlayeffect)() | Désactive l'effet de remplissage superposé. |
+| [DisableFillOverlayEffect](../../aspose.slides/effectformat/disablefilloverlayeffect)() | Désactive l'effet de superposition de remplissage. |
 | [DisableGlowEffect](../../aspose.slides/effectformat/disablegloweffect)() | Désactive l'effet de lueur. |
-| [DisableInnerShadowEffect](../../aspose.slides/effectformat/disableinnershadoweffect)() | Désactive l'ombre interne. |
-| [DisableOuterShadowEffect](../../aspose.slides/effectformat/disableoutershadoweffect)() | Désactive l'ombre extérieure. |
-| [DisablePresetShadowEffect](../../aspose.slides/effectformat/disablepresetshadoweffect)() | Désactive l'ombre prédéfinie. |
+| [DisableInnerShadowEffect](../../aspose.slides/effectformat/disableinnershadoweffect)() | Désactive l'effet d'ombre interne. |
+| [DisableOuterShadowEffect](../../aspose.slides/effectformat/disableoutershadoweffect)() | Désactive l'effet d'ombre externe. |
+| [DisablePresetShadowEffect](../../aspose.slides/effectformat/disablepresetshadoweffect)() | Désactive l'effet d'ombre prédéfinie. |
 | [DisableReflectionEffect](../../aspose.slides/effectformat/disablereflectioneffect)() | Désactive l'effet de réflexion. |
 | [DisableSoftEdgeEffect](../../aspose.slides/effectformat/disablesoftedgeeffect)() | Désactive l'effet de bord doux. |
-| [EnableFillOverlayEffect](../../aspose.slides/effectformat/enablefilloverlayeffect)() | Active l'effet de remplissage superposé. |
+| [EnableFillOverlayEffect](../../aspose.slides/effectformat/enablefilloverlayeffect)() | Active l'effet de superposition de remplissage. |
 | [EnableGlowEffect](../../aspose.slides/effectformat/enablegloweffect)() | Active l'effet de lueur. |
-| [EnableInnerShadowEffect](../../aspose.slides/effectformat/enableinnershadoweffect)() | Active l'ombre interne. |
-| [EnableOuterShadowEffect](../../aspose.slides/effectformat/enableoutershadoweffect)() | Active l'ombre extérieure. |
-| [EnablePresetShadowEffect](../../aspose.slides/effectformat/enablepresetshadoweffect)() | Active les ombres prédéfinies. |
+| [EnableInnerShadowEffect](../../aspose.slides/effectformat/enableinnershadoweffect)() | Active l'effet d'ombre interne. |
+| [EnableOuterShadowEffect](../../aspose.slides/effectformat/enableoutershadoweffect)() | Active l'effet d'ombre externe. |
+| [EnablePresetShadowEffect](../../aspose.slides/effectformat/enablepresetshadoweffect)() | Active l'effet d'ombres prédéfinies. |
 | [EnableReflectionEffect](../../aspose.slides/effectformat/enablereflectioneffect)() | Active l'effet de réflexion. |
 | [EnableSoftEdgeEffect](../../aspose.slides/effectformat/enablesoftedgeeffect)() | Active l'effet de bord doux. |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Compare avec l'objet spécifié. |

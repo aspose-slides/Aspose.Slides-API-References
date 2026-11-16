@@ -1,9 +1,9 @@
 ---
 title: DrawingGuide
 second_title: Référence API Aspose.Sildes pour .NET
-description: Représente un guide de dessin réglable.
+description: Représente un guide de dessin ajustable.
 type: docs
-weight: 2810
+weight: 2830
 url: /fr/aspose.slides/drawingguide/
 ---
 ## DrawingGuide classe

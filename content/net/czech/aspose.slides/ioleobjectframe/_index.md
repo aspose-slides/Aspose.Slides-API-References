@@ -1,14 +1,14 @@
 ---
 title: IOleObjectFrame
-second_title: Aspose.Sildes pro .NET API reference
-description: Reprezentuje OLE objekt na snímku.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Představuje OLE objekt na snímku.
 type: docs
-weight: 6540
+weight: 6560
 url: /cs/aspose.slides/ioleobjectframe/
 ---
 ## IOleObjectFrame rozhraní
 
-Reprezentuje OLE objekt na snímku.
+Představuje OLE objekt na snímku.
 
 ```csharp
 public interface IOleObjectFrame : IGraphicalObject
@@ -18,19 +18,19 @@ public interface IOleObjectFrame : IGraphicalObject
 
 | Název | Popis |
 | --- | --- |
-| [AsIGraphicalObject](../../aspose.slides/ioleobjectframe/asigraphicalobject) { get; } | Umožňuje získat základní IGraphicalObject rozhraní. Pouze pro čtení [`IGraphicalObject`](../igraphicalobject). |
+| [AsIGraphicalObject](../../aspose.slides/ioleobjectframe/asigraphicalobject) { get; } | Umožňuje získat základní rozhraní IGraphicalObject. Pouze ke čtení [`IGraphicalObject`](../igraphicalobject). |
 | [EmbeddedData](../../aspose.slides/ioleobjectframe/embeddeddata) { get; } | Získává informace o vložených OLE datech. Pouze ke čtení [`IOleEmbeddedDataInfo`](../ioleembeddeddatainfo). |
 | [EmbeddedFileLabel](../../aspose.slides/ioleobjectframe/embeddedfilelabel) { get; } | Vrací název souboru vloženého OLE objektu |
 | [EmbeddedFileName](../../aspose.slides/ioleobjectframe/embeddedfilename) { get; } | Vrací cestu vloženého OLE objektu |
-| [IsObjectIcon](../../aspose.slides/ioleobjectframe/isobjecticon) { get; set; } | Určuje, zda je objekt viditelný jako ikona. Čtení/zápis Boolean. |
-| [IsObjectLink](../../aspose.slides/ioleobjectframe/isobjectlink) { get; } | Určuje, zda je objekt propojen s externím souborem. Pouze pro čtení Boolean. |
-| [LinkFileName](../../aspose.slides/ioleobjectframe/linkfilename) { get; } | Vrací úplnou cestu k propojenému souboru. Použije se krátký název souboru. Pouze pro čtení String. |
-| [LinkPathLong](../../aspose.slides/ioleobjectframe/linkpathlong) { get; set; } | Vrací úplnou cestu k propojenému souboru. Použije se dlouhý název souboru. Čtení/zápis String. |
-| [LinkPathRelative](../../aspose.slides/ioleobjectframe/linkpathrelative) { get; } | Vrací relativní cestu k propojenému souboru, pokud existuje, jinak vrací prázdný řetězec. Pouze pro čtení String. |
+| [IsObjectIcon](../../aspose.slides/ioleobjectframe/isobjecticon) { get; set; } | Určuje, zda je objekt zobrazen jako ikona. Čtení/zápis Boolean. |
+| [IsObjectLink](../../aspose.slides/ioleobjectframe/isobjectlink) { get; } | Určuje, zda je objekt propojen s externím souborem. Pouze ke čtení Boolean. |
+| [LinkFileName](../../aspose.slides/ioleobjectframe/linkfilename) { get; } | Vrací úplnou cestu k propojenému souboru. Bude použito krátké jméno souboru. Pouze ke čtení String. |
+| [LinkPathLong](../../aspose.slides/ioleobjectframe/linkpathlong) { get; set; } | Vrací úplnou cestu k propojenému souboru. Bude použito dlouhé jméno souboru. Čtení/zápis String. |
+| [LinkPathRelative](../../aspose.slides/ioleobjectframe/linkpathrelative) { get; } | Vrací relativní cestu k propojenému souboru, pokud je dostupná, jinak vrací prázdný řetězec. Pouze ke čtení String. |
 | [ObjectName](../../aspose.slides/ioleobjectframe/objectname) { get; set; } | Vrací nebo nastavuje název objektu. Čtení/zápis String. |
-| [ObjectProgId](../../aspose.slides/ioleobjectframe/objectprogid) { get; set; } | Vrací ProgID objektu. Pouze pro čtení String. |
-| [SubstitutePictureFormat](../../aspose.slides/ioleobjectframe/substitutepictureformat) { get; } | Vrací objekt vlastností výplně obrázku OleObject. Pouze pro čtení [`IPictureFillFormat`](../ipicturefillformat). |
-| [SubstitutePictureTitle](../../aspose.slides/ioleobjectframe/substitutepicturetitle) { get; set; } | Vrací nebo nastavuje název ikony OleObject. Čtení/zápis String. |
+| [ObjectProgId](../../aspose.slides/ioleobjectframe/objectprogid) { get; set; } | Vrací ProgID objektu. Pouze ke čtení String. |
+| [SubstitutePictureFormat](../../aspose.slides/ioleobjectframe/substitutepictureformat) { get; } | Vrací objekt vlastností výplně obrázku OleObject. Pouze ke čtení [`IPictureFillFormat`](../ipicturefillformat). |
+| [SubstitutePictureTitle](../../aspose.slides/ioleobjectframe/substitutepicturetitle) { get; set; } | Vrací nebo nastavuje titulek ikony OleObject. Čtení/zápis String. |
 | [UpdateAutomatic](../../aspose.slides/ioleobjectframe/updateautomatic) { get; set; } | Určuje, zda je propojený vložený objekt automaticky aktualizován při otevření nebo tisku prezentace. Čtení/zápis Boolean. |
 
 ## Metody

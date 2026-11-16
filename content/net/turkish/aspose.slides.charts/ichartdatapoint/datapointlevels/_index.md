@@ -1,20 +1,20 @@
 ---
 title: DataPointLevels
-second_title: Aspose.Sildes for .NET API Referansı
-description: Veri noktası seviyelerinin konteynerini döndürür. Treeamp ve Sunburst serileri için uygulanır. Veri noktası seviyeleri indekslemesi sıfır tabanlıdır.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Veri nokta seviyelerinin konteynerini döndürür. Treeamp ve Sunburst serileri için uygulanır. Veri nokta seviyelerinin indekslemesi sıfır tabanlıdır.
 type: docs
-weight: 40
+weight: 80
 url: /tr/aspose.slides.charts/ichartdatapoint/datapointlevels/
 ---
 ## IChartDataPoint.DataPointLevels özelliği
 
-Veri noktası seviyelerinin konteynerini döndürür. Treeamp ve Sunburst serileri için uygulanır. Veri noktası seviyesi indekslemesi sıfır tabanlıdır.
+Veri nokta seviyelerinin konteynerini döndürür. Treeamp ve Sunburst serileri için uygulanır. Veri nokta seviyelerinin indekslemesi sıfır tabanlıdır.
 
 ```csharp
 public IChartDataPointLevelsManager DataPointLevels { get; }
 ```
 
-### İlgili
+### Ayrıca Bakınız
 
 * arayüz [IChartDataPointLevelsManager](../../ichartdatapointlevelsmanager)
 * arayüz [IChartDataPoint](../../ichartdatapoint)

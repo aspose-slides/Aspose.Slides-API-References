@@ -1,14 +1,14 @@
 ---
 title: IBulletFormatEffectiveData
-second_title: Aspose.Sildes για .NET API Reference
-description: Αμετάβλητο αντικείμενο που περιέχει τις αποτελεσματικές ιδιότητες μορφοποίησης κουκκίδων παραγράφου.
+second_title: Aspose.Sildes για .NET API Αναφορά
+description: Αμετάβλητο αντικείμενο που περιέχει τις ενεργές ιδιότητες μορφοποίησης κουκκίδων παραγράφου.
 type: docs
-weight: 5400
+weight: 5420
 url: /el/aspose.slides/ibulletformateffectivedata/
 ---
-## IBulletFormatEffectiveData διεπαφή
+## IBulletFormatEffectiveData διασύνδεση
 
-Αμετάβλητο αντικείμενο που περιέχει τις αποτελεσματικές ιδιότητες μορφοποίησης κουκκίδων παραγράφου.
+Αμετάβλητο αντικείμενο που περιέχει τις ενεργές ιδιότητες μορφοποίησης κουκκίδων παραγράφου.
 
 ```csharp
 public interface IBulletFormatEffectiveData
@@ -18,24 +18,24 @@ public interface IBulletFormatEffectiveData
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [ActualBulletValue](../../aspose.slides/ibulletformateffectivedata/actualbulletvalue) { get; } | Επιστρέφει την πραγματική τιμή της κουκκίδας για την γονική παράγραφο. Μόνο για ανάγνωση String. |
-| [Char](../../aspose.slides/ibulletformateffectivedata/char) { get; } | Επιστρέφει το χαρακτήρα της κουκκίδας μιας παραγράφου. Μόνο για ανάγνωση Char. |
-| [FillFormat](../../aspose.slides/ibulletformateffectivedata/fillformat) { get; } | Επιστρέφει τη μορφή γεμίσματος της κουκκίδας μιας παραγράφου. Μόνο για ανάγνωση [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
-| [Font](../../aspose.slides/ibulletformateffectivedata/font) { get; } | Επιστρέφει τη γραμματοσειρά της κουκκίδας μιας παραγράφου. Μόνο για ανάγνωση [`IFontData`](../ifontdata). |
-| [Height](../../aspose.slides/ibulletformateffectivedata/height) { get; } | Επιστρέφει το ύψος της κουκκίδας μιας παραγράφου. Μόνο για ανάγνωση Single. |
-| [IsBulletHardColor](../../aspose.slides/ibulletformateffectivedata/isbullethardcolor) { get; } | Προσδιορίζει εάν η κουκκίδα έχει δικό της χρώμα ή το κληρονομεί από το πρώτο τμήμα της παραγράφου. Επιστρέφει **true** εάν η κουκκίδα έχει δικό της χρώμα και **false** εάν κληρονομεί το χρώμα από το πρώτο τμήμα της παραγράφου. Μόνο για ανάγνωση Boolean. |
-| [IsBulletHardFont](../../aspose.slides/ibulletformateffectivedata/isbullethardfont) { get; } | Προσδιορίζει εάν η κουκκίδα έχει δική της γραμματοσειρά ή την κληρονομεί από το πρώτο τμήμα της παραγράφου. Επιστρέφει **true** εάν η κουκκίδα έχει δική της γραμματοσειρά και **true** εάν κληρονομεί τη γραμματοσειρά από το πρώτο τμήμα της παραγράφου. Μόνο για ανάγνωση Boolean. |
-| [NumberedBulletStartWith](../../aspose.slides/ibulletformateffectivedata/numberedbulletstartwith) { get; } | Επιστρέφει τον πρώτο αριθμό που χρησιμοποιείται για ομάδα αριθμημένων κουκκίδων. Μόνο για ανάγνωση Int16. |
-| [NumberedBulletStyle](../../aspose.slides/ibulletformateffectivedata/numberedbulletstyle) { get; } | Επιστρέφει το στυλ μιας αριθμημένης κουκκίδας. Μόνο για ανάγνωση [`NumberedBulletStyle`](../numberedbulletstyle). |
-| [Type](../../aspose.slides/ibulletformateffectivedata/type) { get; } | Επιστρέφει τον τύπο της κουκκίδας μιας παραγράφου. Μόνο για ανάγνωση [`BulletType`](../bullettype). |
+| [ActualBulletValue](../../aspose.slides/ibulletformateffectivedata/actualbulletvalue) { get; } | Επιστρέφει την πραγματική τιμή της κουκκίδας για την γονική παράγραφο. Μόνο ανάγνωση String. |
+| [Char](../../aspose.slides/ibulletformateffectivedata/char) { get; } | Επιστρέφει τον χαρακτήρα της κουκκίδας μιας παραγράφου. Μόνο ανάγνωση Char. |
+| [FillFormat](../../aspose.slides/ibulletformateffectivedata/fillformat) { get; } | Επιστρέφει τη μορφή γεμίσματος της κουκκίδας μιας παραγράφου. Μόνο ανάγνωση [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
+| [Font](../../aspose.slides/ibulletformateffectivedata/font) { get; } | Επιστρέφει τη γραμματοσειρά της κουκκίδας μιας παραγράφου. Μόνο ανάγνωση [`IFontData`](../ifontdata). |
+| [Height](../../aspose.slides/ibulletformateffectivedata/height) { get; } | Επιστρέφει το ύψος της κουκκίδας μιας παραγράφου. Μόνο ανάγνωση Single. |
+| [IsBulletHardColor](../../aspose.slides/ibulletformateffectivedata/isbullethardcolor) { get; } | Καθορίζει εάν η κουκκίδα έχει δικό της χρώμα ή το κληρονομεί από το πρώτο τμήμα στην παράγραφο. Επιστρέφει **true** εάν η κουκκίδα έχει δικό της χρώμα και **false** εάν η κουκκίδα κληρονομεί το χρώμα από το πρώτο τμήμα στην παράγραφο. Μόνο ανάγνωση Boolean. |
+| [IsBulletHardFont](../../aspose.slides/ibulletformateffectivedata/isbullethardfont) { get; } | Καθορίζει εάν η κουκκίδα έχει δική της γραμματοσειρά ή την κληρονομεί από το πρώτο τμήμα στην παράγραφο. Επιστρέφει **true** εάν η κουκκίδα έχει δική της γραμματοσειρά και **true** εάν η κουκκίδα κληρονομεί τη γραμματοσειρά από το πρώτο τμήμα στην παράγραφο. Μόνο ανάγνωση Boolean. |
+| [NumberedBulletStartWith](../../aspose.slides/ibulletformateffectivedata/numberedbulletstartwith) { get; } | Επιστρέφει τον πρώτο αριθμό που χρησιμοποιείται για ομάδα αριθμημένων κουκκίδων. Μόνο ανάγνωση Int16. |
+| [NumberedBulletStyle](../../aspose.slides/ibulletformateffectivedata/numberedbulletstyle) { get; } | Επιστρέφει το στυλ μιας αριθμημένης κουκκίδας. Μόνο ανάγνωση [`NumberedBulletStyle`](../numberedbulletstyle). |
+| [Type](../../aspose.slides/ibulletformateffectivedata/type) { get; } | Επιστρέφει τον τύπο της κουκκίδας μιας παραγράφου. Μόνο ανάγνωση [`BulletType`](../bullettype). |
 
 ### Σχόλια
 
-Αυτή η διεπαφή χρησιμοποιείται ως μέρος του [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata).
+Αυτή η διασύνδεση χρησιμοποιείται ως μέρος του [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata).
 
 ### Δείτε επίσης
 
 * χώρος ονομάτων [Aspose.Slides](../../aspose.slides)
-* συναρμολόγηση [Aspose.Slides](../../)
+* συγκρότηση [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

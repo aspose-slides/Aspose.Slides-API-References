@@ -1,14 +1,14 @@
 ---
 title: IFontsEffectiveData
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đối tượng bất biến chứa tập hợp các phông chữ hiệu lực.
+second_title: Aspose.Sildes cho Tham chiếu API .NET
+description: Đối tượng bất biến chứa tập hợp phông chữ hiệu quả.
 type: docs
-weight: 5910
+weight: 5930
 url: /vi/aspose.slides/ifontseffectivedata/
 ---
 ## IFontsEffectiveData giao diện
 
-Đối tượng bất biến chứa tập hợp phông chữ hiệu lực.
+Đối tượng bất biến chứa tập hợp phông chữ hiệu quả.
 
 ```csharp
 public interface IFontsEffectiveData
@@ -18,7 +18,7 @@ public interface IFontsEffectiveData
 
 | Tên | Mô tả |
 | --- | --- |
-| [ComplexScriptFont](../../aspose.slides/ifontseffectivedata/complexscriptfont) { get; } | Trả về phông chữ cho script phức tạp. Chỉ đọc [`IFontData`](../ifontdata). |
+| [ComplexScriptFont](../../aspose.slides/ifontseffectivedata/complexscriptfont) { get; } | Trả về phông chữ viết phức hợp. Chỉ đọc [`IFontData`](../ifontdata). |
 | [EastAsianFont](../../aspose.slides/ifontseffectivedata/eastasianfont) { get; } | Trả về phông chữ Đông Á. Chỉ đọc [`IFontData`](../ifontdata). |
 | [LatinFont](../../aspose.slides/ifontseffectivedata/latinfont) { get; } | Trả về phông chữ Latin. Chỉ đọc [`IFontData`](../ifontdata). |
 

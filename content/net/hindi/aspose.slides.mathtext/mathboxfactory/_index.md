@@ -1,36 +1,36 @@
 ---
 title: MathBoxFactory
-second_title: Aspose.Sildes .NET के लिए API संदर्भ
-description: एक गणित बॉक्स बनाने की अनुमति देता है
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: गणित बॉक्स बनाने की अनुमति देता है
 type: docs
-weight: 8640
+weight: 8660
 url: /hi/aspose.slides.mathtext/mathboxfactory/
 ---
 ## MathBoxFactory क्लास
 
-एक गणित बॉक्स बनाने की अनुमति देता है
+गणित बॉक्स बनाने की अनुमति देता है
 
 ```csharp
 public class MathBoxFactory : IMathBoxFactory
 ```
 
-## कंस्ट्रक्टर्स
+## निर्माताएँ
 
 | नाम | विवरण |
 | --- | --- |
-| [MathBoxFactory](mathboxfactory)() | डिफ़ॉल्ट कंस्ट्रक्टर। |
+| [MathBoxFactory](mathboxfactory)() | डिफ़ॉल्ट निर्माता। |
 
 ## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [CreateMathBox](../../aspose.slides.mathtext/mathboxfactory/createmathbox)(IMathElement) | तत्व पर लागू करके एक गणित बॉक्स बनाता है |
+| [CreateMathBox](../../aspose.slides.mathtext/mathboxfactory/createmathbox)(IMathElement) | तत्व पर लागू करके एक गणित बॉक्स बनाएं |
 
 ### टिप्पणियाँ
 
 COM संगतता के लिए
 
-### देखें
+### संबंधित देखें
 
 * इंटरफ़ेस [IMathBoxFactory](../imathboxfactory)
 * नामस्थान [Aspose.Slides.MathText](../../aspose.slides.mathtext)

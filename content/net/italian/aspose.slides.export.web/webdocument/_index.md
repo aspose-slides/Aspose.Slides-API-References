@@ -3,7 +3,7 @@ title: WebDocument
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta una forma di transizione della presentazione per il salvataggio in un formato web.
 type: docs
-weight: 4680
+weight: 4700
 url: /it/aspose.slides.export.web/webdocument/
 ---
 ## WebDocument classe
@@ -16,21 +16,21 @@ public class WebDocument
 
 ## Costruttori
 
-| Name | Description |
+| Nome | Descrizione |
 | --- | --- |
 | [WebDocument](webdocument)(WebDocumentOptions) | [`WebDocument`](../webdocument) costruttore. |
 
 ## Proprietà
 
-| Name | Description |
+| Nome | Descrizione |
 | --- | --- |
-| [Global](../../aspose.slides.export.web/webdocument/global) { get; } | Restituisce l'archiviazione globale del documento. Sola lettura [`Storage`](../storage). |
+| [Global](../../aspose.slides.export.web/webdocument/global) { get; } | Restituisce l'archiviazione globale del documento. Solo lettura [`Storage`](../storage). |
 | [Input](../../aspose.slides.export.web/webdocument/input) { get; } |  |
-| [Output](../../aspose.slides.export.web/webdocument/output) { get; } | Restituisce la collezione degli elementi di output del documento. Sola lettura [`Output`](./output). |
+| [Output](../../aspose.slides.export.web/webdocument/output) { get; } | Restituisce la collezione di elementi di output del documento. Solo lettura [`Output`](./output). |
 
 ## Metodi
 
-| Name | Description |
+| Nome | Descrizione |
 | --- | --- |
 | [Save](../../aspose.slides.export.web/webdocument/save)() | Salva l'output del documento. |
 

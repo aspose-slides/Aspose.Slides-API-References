@@ -1,14 +1,14 @@
 ---
 title: LayoutSlideThemeManager
 second_title: Aspose.Sildes för .NET API-referens
-description: Ger åtkomst till layout-bildtema som har åsidosatts.
+description: Tillhandahåller åtkomst till layout-bildtema som åsidosätts.
 type: docs
-weight: 11410
+weight: 11430
 url: /sv/aspose.slides.theme/layoutslidethememanager/
 ---
 ## LayoutSlideThemeManager klass
 
-Ger åtkomst till layout-bildtema som har åsidosatts.
+Tillhandahåller åtkomst till layout-bildtema som åsidosätts.
 
 ```csharp
 public class LayoutSlideThemeManager : BaseOverrideThemeManager
@@ -16,14 +16,14 @@ public class LayoutSlideThemeManager : BaseOverrideThemeManager
 
 ## Egenskaper
 
-| Name | Description |
+| Namn | Beskrivning |
 | --- | --- |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Bestämmer om OverrideTheme åsidosätter ärvt effektivt tema eller inte. För att aktivera OverrideTheme för åsidosättning, använd OverrideTheme.Init*()-metoderna. För att inaktivera OverrideTheme från att åsidosätta, använd OverrideTheme.Clear()-metoden. Skrivskyddad Boolean. |
-| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Returnerar det åsidosättande temaobjektet. Läs/skriv [`IOverrideTheme`](../ioverridetheme). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Bestämmer om OverrideTheme åsidosätter ärvt effektivt tema eller inte. För att aktivera OverrideTheme för åsidosättning, använd OverrideTheme.Init*()-metoderna. För att inaktivera OverrideTheme från åsidosättning, använd OverrideTheme.Clear()-metoden. Skrivskyddad Boolean. |
+| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Returnerar temaobjektet. Läs/skriv [`IOverrideTheme`](../ioverridetheme). |
 
 ## Metoder
 
-| Name | Description |
+| Namn | Beskrivning |
 | --- | --- |
 | [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | Tillämpar extra färgschema på en bild. |
 | [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | Returnerar temaobjektet. |

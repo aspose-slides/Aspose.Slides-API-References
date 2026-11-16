@@ -1,14 +1,14 @@
 ---
 title: LayoutSlideCollection
-second_title: Aspose.Slides .NET API Referencia
-description: Egy alap osztály, amely a layout diák gyűjteményét képviseli.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Az elrendezési diák gyűjteményének alap osztályát képviseli.
 type: docs
-weight: 7650
+weight: 7670
 url: /hu/aspose.slides/layoutslidecollection/
 ---
 ## LayoutSlideCollection osztály
 
-Egy alap osztály, amely a layoutdiák gyűjteményét képviseli.
+Represents a base class for collection of a layout slides.
 
 ```csharp
 public class LayoutSlideCollection : ILayoutSlideCollection
@@ -16,22 +16,22 @@ public class LayoutSlideCollection : ILayoutSlideCollection
 
 ## Tulajdonságok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides/layoutslidecollection/count) { get; } | Visszaadja az elrendezési diák számát egy gyűjteményben. Csak olvasható Int32. |
-| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | Visszaad egy értéket, amely jelzi, hogy a gyűjteményhez való hozzáférés szinkronizált-e (szálbiztos). Csak olvasható Boolean. |
-| [Item](../../aspose.slides/layoutslidecollection/item) { get; } | Visszaadja az elrendezési diát az index alapján. Csak olvasható [`LayoutSlide`](../layoutslide). |
-| [SyncRoot](../../aspose.slides/layoutslidecollection/syncroot) { get; } | Visszaad egy szinkronizációs gyökeret. Csak olvasható Object. |
+| [Count](../../aspose.slides/layoutslidecollection/count) { get; } | Visszaadja a gyűjteményben lévő elrendezési diák számát. Csak olvasható Int32. |
+| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | Visszaad egy értéket, amely jelzi, hogy a gyűjteményhez való hozzáférés szinkronizált (szálbiztos). Csak olvasható Boolean. |
+| [Item](../../aspose.slides/layoutslidecollection/item) { get; } | Visszaadja az elrendezési diát index alapján. Csak olvasható [`LayoutSlide`](../layoutslide). |
+| [SyncRoot](../../aspose.slides/layoutslidecollection/syncroot) { get; } | Visszaad egy szinkronizációs gyökérobjektumot. Csak olvasható Object. |
 
 ## Metódusok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
-| [CopyTo](../../aspose.slides/layoutslidecollection/copyto) (Array, int) | Átmásolja a gyűjtemény összes elemét a megadott tömbbe. |
-| [GetByType](../../aspose.slides/layoutslidecollection/getbytype) (SlideLayoutType) | Visszaadja a megadott típusú első elrendezési diát. A keresett elrendezési dia típusa.[`LayoutSlide`](../layoutslide) a megadott típussal, vagy null, ha nem található elrendezés. |
-| [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator) () | Visszaad egy enumerátort, amely végigiterál a gyűjteményen. |
-| [Remove](../../aspose.slides/layoutslidecollection/remove) (ILayoutSlide) | Eltávolít egy elrendezést a gyűjteményből. |
-| [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused) () | Eltávolítja a nem használt elrendezési diákat (azokat a diák, amelyeknél a HasDependingSlides hamis). |
+| [CopyTo](../../aspose.slides/layoutslidecollection/copyto)(Array, int) | Átmásolja a gyűjtemény összes elemét a megadott tömbbe. |
+| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | Visszaadja a megadott típusú első elrendezési diát. A keresendő elrendezési dia típusa.[`LayoutSlide`](../layoutslide) a megadott típussal, vagy null, ha nem található elrendezés. |
+| [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | Visszaad egy enumerátort, amely végigiterál a gyűjteményen. |
+| [Remove](../../aspose.slides/layoutslidecollection/remove)(ILayoutSlide) | Eltávolít egy elrendezést a gyűjteményből. |
+| [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | Eltávolítja a nem használt elrendezési diákat (azok a diák, amelyeknél a HasDependingSlides hamis). |
 
 ### Lásd még
 

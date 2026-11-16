@@ -1,9 +1,9 @@
 ---
 title: SlidesRange
-second_title: Aspose.Sildes para .NET – Referência da API
+second_title: Aspose.Sildes para .NET Referência da API
 description: Intervalo de Slides
 type: docs
-weight: 10530
+weight: 10550
 url: /pt/aspose.slides/slidesrange/
 ---
 ## SlidesRange classe

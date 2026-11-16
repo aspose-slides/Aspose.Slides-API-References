@@ -1,14 +1,14 @@
 ---
 title: MathParagraph
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Paragrafo matematico che è un contenitore per i blocchi matematici IMathBlock
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Paragrafo matematico che è un contenitore per blocchi matematici IMathBlock
 type: docs
-weight: 8900
+weight: 8920
 url: /it/aspose.slides.mathtext/mathparagraph/
 ---
-## classe MathParagraph
+## MathParagraph classe
 
-Paragrafo matematico che è un contenitore per i blocchi matematici (IMathBlock)
+Paragrafo matematico che è un contenitore per blocchi matematici (IMathBlock)
 
 ```csharp
 public class MathParagraph : IMathParagraph
@@ -16,29 +16,29 @@ public class MathParagraph : IMathParagraph
 
 ## Costruttori
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
 | [MathParagraph](mathparagraph#constructor)() | Inizializza una nuova istanza della classe MathParagraph. |
 | [MathParagraph](mathparagraph#constructor_1)(IMathBlock) | Inizializza una nuova istanza della classe MathParagraph. |
 
 ## Proprietà
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides.mathtext/mathparagraph/count) { get; } | Restituisce il numero di elementi effettivamente contenuti nella raccolta. Sola lettura Int32. |
-| [Item](../../aspose.slides.mathtext/mathparagraph/item) { get; set; } | Restituisce l'elemento all'indice specificato. Sola lettura [`IMathBlock`](../imathblock). |
-| [Justification](../../aspose.slides.mathtext/mathparagraph/justification) { get; set; } | Allineamento del paragrafo Valore predefinito: CenteredAsGroup |
+| [Count](../../aspose.slides.mathtext/mathparagraph/count) { get; } | Restituisce il numero di elementi effettivamente contenuti nella raccolta. Solo lettura Int32. |
+| [Item](../../aspose.slides.mathtext/mathparagraph/item) { get; set; } | Restituisce l'elemento all'indice specificato. Solo lettura [`IMathBlock`](../imathblock). |
+| [Justification](../../aspose.slides.mathtext/mathparagraph/justification) { get; set; } | Giustificazione del paragrafo Valore predefinito: CenteredAsGroup |
 
 ## Metodi
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
 | [Add](../../aspose.slides.mathtext/mathparagraph/add)(IMathBlock) | Aggiunge IMathBlock alla fine della raccolta. |
 | [Clear](../../aspose.slides.mathtext/mathparagraph/clear)() | Rimuove tutti gli elementi dalla raccolta. |
 | [Contains](../../aspose.slides.mathtext/mathparagraph/contains)(IMathBlock) | Determina se la raccolta contiene un valore specifico. |
 | [IndexOf](../../aspose.slides.mathtext/mathparagraph/indexof)(IMathBlock) | Determina l'indice di un IMathBlock specifico nella raccolta. |
 | [Insert](../../aspose.slides.mathtext/mathparagraph/insert)(int, IMathBlock) | Inserisce IMathBlock nella raccolta all'indice specificato. |
-| [Remove](../../aspose.slides.mathtext/mathparagraph/remove)(IMathBlock) | Rimuove la prima occorrenza di un oggetto specifico dalla raccolta/>. |
+| [Remove](../../aspose.slides.mathtext/mathparagraph/remove)(IMathBlock) | Rimuove la prima occorrenza di un oggetto specifico dalla raccolta/&gt;. |
 | [RemoveAt](../../aspose.slides.mathtext/mathparagraph/removeat)(int) | Rimuove un elemento all'indice specificato della raccolta. |
 | [ToLatex](../../aspose.slides.mathtext/mathparagraph/tolatex)() | Restituisce l'equazione matematica in formato LaTeX |
 | [WriteAsMathMl](../../aspose.slides.mathtext/mathparagraph/writeasmathml)(Stream) | Salva il contenuto di questo [`MathParagraph`](../mathparagraph) come MathML |

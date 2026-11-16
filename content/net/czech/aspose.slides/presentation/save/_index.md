@@ -1,14 +1,14 @@
 ---
 title: Save
-second_title: Aspose.Sildes pro .NET – reference API
-description: Uloží všechny snímky prezentace do souboru ve specifikovaném formátu.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Uloží všechny snímky prezentace do souboru ve zvoleném formátu.
 type: docs
-weight: 390
+weight: 400
 url: /cs/aspose.slides/presentation/save/
 ---
 ## Save(string, SaveFormat) {#save_5}
 
-Uloží všechny snímky prezentace do souboru ve specifikovaném formátu.
+Uloží všechny snímky prezentace do souboru ve zvoleném formátu.
 
 ```csharp
 public void Save(string fname, SaveFormat format)
@@ -21,7 +21,7 @@ public void Save(string fname, SaveFormat format)
 
 ### Viz také
 
-* výčet [SaveFormat](../../../aspose.slides.export/saveformat)
+* enum [SaveFormat](../../../aspose.slides.export/saveformat)
 * třída [Presentation](../../presentation)
 * jmenný prostor [Aspose.Slides](../../presentation)
 * sestavení [Aspose.Slides](../../../)
@@ -30,7 +30,7 @@ public void Save(string fname, SaveFormat format)
 
 ## Save(Stream, SaveFormat) {#save_1}
 
-Uloží všechny snímky prezentace do proudu ve specifikovaném formátu.
+Uloží všechny snímky prezentace do proudu ve zvoleném formátu.
 
 ```csharp
 public void Save(Stream stream, SaveFormat format)
@@ -43,7 +43,7 @@ public void Save(Stream stream, SaveFormat format)
 
 ### Viz také
 
-* výčet [SaveFormat](../../../aspose.slides.export/saveformat)
+* enum [SaveFormat](../../../aspose.slides.export/saveformat)
 * třída [Presentation](../../presentation)
 * jmenný prostor [Aspose.Slides](../../presentation)
 * sestavení [Aspose.Slides](../../../)
@@ -58,7 +58,7 @@ public void Save(string fname, SaveFormat format, ISaveOptions options)
 
 ### Viz také
 
-* výčet [SaveFormat](../../../aspose.slides.export/saveformat)
+* enum [SaveFormat](../../../aspose.slides.export/saveformat)
 * rozhraní [ISaveOptions](../../../aspose.slides.export/isaveoptions)
 * třída [Presentation](../../presentation)
 * jmenný prostor [Aspose.Slides](../../presentation)
@@ -68,7 +68,7 @@ public void Save(string fname, SaveFormat format, ISaveOptions options)
 
 ## Save(Stream, SaveFormat, ISaveOptions) {#save_2}
 
-Uloží všechny snímky prezentace do proudu ve specifikovaném formátu a s dalšími možnostmi.
+Uloží všechny snímky prezentace do proudu ve zvoleném formátu a s dodatečnými možnostmi.
 
 ```csharp
 public void Save(Stream stream, SaveFormat format, ISaveOptions options)
@@ -78,7 +78,7 @@ public void Save(Stream stream, SaveFormat format, ISaveOptions options)
 | --- | --- | --- |
 | stream | Stream | Výstupní proud. |
 | format | SaveFormat | Formát exportovaných dat. |
-| options | ISaveOptions | Další možnosti formátu. |
+| options | ISaveOptions | Dodatečné možnosti formátu. |
 
 ### Výjimky
 
@@ -88,7 +88,7 @@ public void Save(Stream stream, SaveFormat format, ISaveOptions options)
 
 ### Viz také
 
-* výčet [SaveFormat](../../../aspose.slides.export/saveformat)
+* enum [SaveFormat](../../../aspose.slides.export/saveformat)
 * rozhraní [ISaveOptions](../../../aspose.slides.export/isaveoptions)
 * třída [Presentation](../../presentation)
 * jmenný prostor [Aspose.Slides](../../presentation)
@@ -98,7 +98,7 @@ public void Save(Stream stream, SaveFormat format, ISaveOptions options)
 
 ## Save(IXamlOptions) {#save}
 
-Uloží všechny snímky prezentace do sady souborů představujících značkování XAML.
+Uloží všechny snímky prezentace do sady souborů představujících XAML značkování.
 
 ```csharp
 public void Save(IXamlOptions options)
@@ -129,7 +129,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 ## Save(string, int[], SaveFormat) {#save_7}
 
-Uloží vybrané snímky prezentace do souboru ve specifikovaném formátu se zachováním číslování stránek.
+Uloží zadané snímky prezentace do souboru ve zvoleném formátu a zachová čísla stránek.
 
 ```csharp
 public void Save(string fname, int[] slides, SaveFormat format)
@@ -138,7 +138,7 @@ public void Save(string fname, int[] slides, SaveFormat format)
 | Parametr | Typ | Popis |
 | --- | --- | --- |
 | fname | String | Cesta k vytvořenému souboru. |
-| slides | Int32[] | Pole s pozicemi snímků, počínaje od 1. |
+| slides | Int32[] | Pole s pozicemi snímků, počínaje 1. |
 | format | SaveFormat | Formát exportovaných dat. |
 
 ### Výjimky
@@ -151,7 +151,7 @@ public void Save(string fname, int[] slides, SaveFormat format)
 
 ### Viz také
 
-* výčet [SaveFormat](../../../aspose.slides.export/saveformat)
+* enum [SaveFormat](../../../aspose.slides.export/saveformat)
 * třída [Presentation](../../presentation)
 * jmenný prostor [Aspose.Slides](../../presentation)
 * sestavení [Aspose.Slides](../../../)
@@ -160,7 +160,7 @@ public void Save(string fname, int[] slides, SaveFormat format)
 
 ## Save(string, int[], SaveFormat, ISaveOptions) {#save_8}
 
-Uloží vybrané snímky prezentace do souboru ve specifikovaném formátu se zachováním číslování stránek.
+Uloží zadané snímky prezentace do souboru ve zvoleném formátu a zachová čísla stránek.
 
 ```csharp
 public void Save(string fname, int[] slides, SaveFormat format, ISaveOptions options)
@@ -169,13 +169,13 @@ public void Save(string fname, int[] slides, SaveFormat format, ISaveOptions opt
 | Parametr | Typ | Popis |
 | --- | --- | --- |
 | fname | String | Cesta k vytvořenému souboru. |
-| slides | Int32[] | Pole s pozicemi snímků, počínaje od 1. |
+| slides | Int32[] | Pole s pozicemi snímků, počínaje 1. |
 | format | SaveFormat | Formát exportovaných dat. |
-| options | ISaveOptions | Další možnosti formátu. |
+| options | ISaveOptions | Dodatečné možnosti formátu. |
 
 ### Viz také
 
-* výčet [SaveFormat](../../../aspose.slides.export/saveformat)
+* enum [SaveFormat](../../../aspose.slides.export/saveformat)
 * rozhraní [ISaveOptions](../../../aspose.slides.export/isaveoptions)
 * třída [Presentation](../../presentation)
 * jmenný prostor [Aspose.Slides](../../presentation)
@@ -185,7 +185,7 @@ public void Save(string fname, int[] slides, SaveFormat format, ISaveOptions opt
 
 ## Save(Stream, int[], SaveFormat) {#save_3}
 
-Uloží vybrané snímky prezentace do proudu ve specifikovaném formátu se zachováním číslování stránek.
+Uloží zadané snímky prezentace do proudu ve zvoleném formátu a zachová čísla stránek.
 
 ```csharp
 public void Save(Stream stream, int[] slides, SaveFormat format)
@@ -194,12 +194,12 @@ public void Save(Stream stream, int[] slides, SaveFormat format)
 | Parametr | Typ | Popis |
 | --- | --- | --- |
 | stream | Stream | Výstupní proud. |
-| slides | Int32[] | Pole s pozicemi snímků, počínaje od 1. |
+| slides | Int32[] | Pole s pozicemi snímků, počínaje 1. |
 | format | SaveFormat | Formát exportovaných dat. |
 
 ### Viz také
 
-* výčet [SaveFormat](../../../aspose.slides.export/saveformat)
+* enum [SaveFormat](../../../aspose.slides.export/saveformat)
 * třída [Presentation](../../presentation)
 * jmenný prostor [Aspose.Slides](../../presentation)
 * sestavení [Aspose.Slides](../../../)
@@ -208,7 +208,7 @@ public void Save(Stream stream, int[] slides, SaveFormat format)
 
 ## Save(Stream, int[], SaveFormat, ISaveOptions) {#save_4}
 
-Uloží vybrané snímky prezentace do proudu ve specifikovaném formátu se zachováním číslování stránek.
+Uloží zadané snímky prezentace do proudu ve zvoleném formátu a zachová čísla stránek.
 
 ```csharp
 public void Save(Stream stream, int[] slides, SaveFormat format, ISaveOptions options)
@@ -217,9 +217,9 @@ public void Save(Stream stream, int[] slides, SaveFormat format, ISaveOptions op
 | Parametr | Typ | Popis |
 | --- | --- | --- |
 | stream | Stream | Výstupní proud. |
-| slides | Int32[] | Pole s pozicemi snímků, počínaje od 1. |
+| slides | Int32[] | Pole s pozicemi snímků, počínaje 1. |
 | format | SaveFormat | Formát exportovaných dat. |
-| options | ISaveOptions | Další možnosti formátu. |
+| options | ISaveOptions | Dodatečné možnosti formátu. |
 
 ### Výjimky
 
@@ -231,7 +231,7 @@ public void Save(Stream stream, int[] slides, SaveFormat format, ISaveOptions op
 
 ### Příklady
 
-Následující příklad ukazuje, jak převést PowerPoint na PNG.
+Následující příklad ukazuje, jak převést PowerPoint do formátu PNG.
 
 ```csharp
 [C#]
@@ -245,7 +245,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-Následující příklad ukazuje, jak převést PowerPoint na PNG s vlastními rozměry.
+Následující příklad ukazuje, jak převést PowerPoint do formátu PNG s vlastními rozměry.
 
 ```csharp
 [C#]
@@ -261,7 +261,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-Následující příklad ukazuje, jak převést PowerPoint na PNG s vlastní velikostí.
+Následující příklad ukazuje, jak převést PowerPoint do formátu PNG s vlastní velikostí.
 
 ```csharp
 [C#]
@@ -278,7 +278,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 ### Viz také
 
-* výčet [SaveFormat](../../../aspose.slides.export/saveformat)
+* enum [SaveFormat](../../../aspose.slides.export/saveformat)
 * rozhraní [ISaveOptions](../../../aspose.slides.export/isaveoptions)
 * třída [Presentation](../../presentation)
 * jmenný prostor [Aspose.Slides](../../presentation)

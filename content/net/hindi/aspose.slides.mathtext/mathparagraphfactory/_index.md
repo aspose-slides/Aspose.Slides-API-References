@@ -1,14 +1,14 @@
 ---
 title: MathParagraphFactory
-second_title: Aspose.Sildes .NET के लिए API संदर्भ
-description: गणित अनुच्छेद बनाने की अनुमति देता है
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: गणित पैराग्राफ बनाने की अनुमति देता है
 type: docs
-weight: 8910
+weight: 8930
 url: /hi/aspose.slides.mathtext/mathparagraphfactory/
 ---
 ## MathParagraphFactory क्लास
 
-गणित अनुच्छेद बनाने की अनुमति देता है
+गणित पैराग्राफ बनाने की अनुमति देता है
 
 ```csharp
 public class MathParagraphFactory : IMathParagraphFactory
@@ -16,22 +16,22 @@ public class MathParagraphFactory : IMathParagraphFactory
 
 ## कंस्ट्रक्टर्स
 
-| नाम | विवरण |
+| Name | Description |
 | --- | --- |
 | [MathParagraphFactory](mathparagraphfactory)() | डिफ़ॉल्ट कंस्ट्रक्टर। |
 
-## मेथड्स
+## विधियाँ
 
-| नाम | विवरण |
+| Name | Description |
 | --- | --- |
-| [CreateMathParagraph](../../aspose.slides.mathtext/mathparagraphfactory/createmathparagraph#createmathparagraph)() | खाली गणित अनुच्छेद बनाएं |
-| [CreateMathParagraph](../../aspose.slides.mathtext/mathparagraphfactory/createmathparagraph#createmathparagraph_1)(IMathBlock) | एक गणित अनुच्छेद बनाता है और उसमें निर्दिष्ट गणित ब्लॉक को रखता है |
+| [CreateMathParagraph](../../aspose.slides.mathtext/mathparagraphfactory/createmathparagraph#createmathparagraph)() | खाली गणित पैराग्राफ बनाएं |
+| [CreateMathParagraph](../../aspose.slides.mathtext/mathparagraphfactory/createmathparagraph#createmathparagraph_1)(IMathBlock) | एक गणित पैराग्राफ बनाता है और निर्दिष्ट गणित ब्लॉक को उसमें रखता है |
 
 ### टिप्पणी
 
 COM संगतता के लिए
 
-### संबंधित देखें
+### देखें
 
 * इंटरफ़ेस [IMathParagraphFactory](../imathparagraphfactory)
 * नामस्थान [Aspose.Slides.MathText](../../aspose.slides.mathtext)

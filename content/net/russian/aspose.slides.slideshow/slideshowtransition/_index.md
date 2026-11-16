@@ -1,9 +1,9 @@
 ---
 title: SlideShowTransition
-second_title: Aspose.Sildes для .NET - справочник API
+second_title: Aspose.Sildes для .NET справочник API
 description: Представляет переход слайд-шоу.
 type: docs
-weight: 10320
+weight: 10340
 url: /ru/aspose.slides.slideshow/slideshowtransition/
 ---
 ## SlideShowTransition класс
@@ -18,15 +18,15 @@ public class SlideShowTransition : DomObject<BaseSlide>, ISlideShowTransition
 
 | Имя | Описание |
 | --- | --- |
-| [AdvanceAfter](../../aspose.slides.slideshow/slideshowtransition/advanceafter) { get; set; } | Этот атрибут указывает, будет ли слайд-шоу переходить к следующему слайду после определённого времени. Чтение/запись Boolean. |
-| [AdvanceAfterTime](../../aspose.slides.slideshow/slideshowtransition/advanceaftertime) { get; set; } | Указывает время в миллисекундах, после которого должен начаться переход. Этот параметр может использоваться совместно с атрибутом advClick. Если этот атрибут не указан, считается, что автоматический переход не будет происходить. Чтение/запись UInt32. |
-| [AdvanceOnClick](../../aspose.slides.slideshow/slideshowtransition/advanceonclick) { get; set; } | Указывает, будет ли щелчок мыши продвигать слайд или нет. Если этот атрибут не указан, предполагается значение true. Чтение/запись Boolean. |
-| [Duration](../../aspose.slides.slideshow/slideshowtransition/duration) { get; set; } | Получает или задаёт длительность эффекта перехода слайда в миллисекундах. Чтение/запись Int32. |
-| [Sound](../../aspose.slides.slideshow/slideshowtransition/sound) { get; set; } | Возвращает или задаёт встроенные аудио данные. Чтение/запись [`IAudio`](../../aspose.slides/iaudio). |
-| [SoundIsBuiltIn](../../aspose.slides.slideshow/slideshowtransition/soundisbuiltin) { get; set; } | Указывает, является ли этот звук встроенным звуком. Если этот атрибут установлен в true, генерирующее приложение будет уведомлено проверить атрибут name, указанный для этого звука в списке встроенных звуков, и при необходимости отобразить пользовательское имя или интерфейс. Чтение/запись Boolean. |
+| [AdvanceAfter](../../aspose.slides.slideshow/slideshowtransition/advanceafter) { get; set; } | Этот атрибут определяет, перейдет ли слайд-шоу к следующему слайду через определённое время. Чтение/запись Boolean. |
+| [AdvanceAfterTime](../../aspose.slides.slideshow/slideshowtransition/advanceaftertime) { get; set; } | Указывает время в миллисекундах, после которого должен начаться переход. Этот параметр может использоваться вместе с атрибутом advClick. Если этот атрибут не указан, считается, что авто-переход не будет происходить. Чтение/запись UInt32. |
+| [AdvanceOnClick](../../aspose.slides.slideshow/slideshowtransition/advanceonclick) { get; set; } | Указывает, будет ли клик мышью переходить к следующему слайду. Если этот атрибут не указан, подразумевается значение true. Чтение/запись Boolean. |
+| [Duration](../../aspose.slides.slideshow/slideshowtransition/duration) { get; set; } | Получает или задает длительность эффекта перехода слайда в миллисекундах. Чтение/запись Int32. |
+| [Sound](../../aspose.slides.slideshow/slideshowtransition/sound) { get; set; } | Возвращает или задает встроенные аудиоданные. Чтение/запись [`IAudio`](../../aspose.slides/iaudio). |
+| [SoundIsBuiltIn](../../aspose.slides.slideshow/slideshowtransition/soundisbuiltin) { get; set; } | Указывает, является ли этот звук встроенным. Если этот атрибут установлен в true, генерирующее приложение уведомляется о необходимости проверить атрибут name, указанный для этого звука в его списке встроенных звуков, и при необходимости отобразить пользовательское имя или интерфейс. Чтение/запись Boolean. |
 | [SoundLoop](../../aspose.slides.slideshow/slideshowtransition/soundloop) { get; set; } | Этот атрибут указывает, будет ли звук зацикливаться до наступления следующего звукового события в слайд-шоу. Чтение/запись Boolean. |
-| [SoundMode](../../aspose.slides.slideshow/slideshowtransition/soundmode) { get; set; } | Устанавливает или возвращает режим звука для перехода слайда. Чтение/запись [`TransitionSoundMode`](../transitionsoundmode). |
-| [SoundName](../../aspose.slides.slideshow/slideshowtransition/soundname) { get; set; } | Указывает человеко-читаемое имя звука перехода. Свойство [`Sound`](./sound) должно быть назначено для получения или установки имени звука. Чтение/запись String. |
+| [SoundMode](../../aspose.slides.slideshow/slideshowtransition/soundmode) { get; set; } | Задает или возвращает режим звука для перехода слайда. Чтение/запись [`TransitionSoundMode`](../transitionsoundmode). |
+| [SoundName](../../aspose.slides.slideshow/slideshowtransition/soundname) { get; set; } | Указывает читаемое человеком имя звука перехода. Свойство [`Sound`](./sound) должно быть назначено для получения или установки имени звука. Чтение/запись String. |
 | [Speed](../../aspose.slides.slideshow/slideshowtransition/speed) { get; set; } | Указывает скорость перехода, которая будет использоваться при переходе от текущего слайда к следующему. Чтение/запись [`TransitionSpeed`](../transitionspeed). |
 | [Type](../../aspose.slides.slideshow/slideshowtransition/type) { get; set; } | Тип перехода. Чтение/запись [`TransitionType`](../transitiontype). |
 | [Value](../../aspose.slides.slideshow/slideshowtransition/value) { get; } | Значение перехода слайд-шоу. Только для чтения [`ITransitionValueBase`](../itransitionvaluebase). |
@@ -36,7 +36,7 @@ public class SlideShowTransition : DomObject<BaseSlide>, ISlideShowTransition
 | Имя | Описание |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/slideshowtransition/equals)(object) | Определяет, равны ли два экземпляра SlideShowTransition. Чтение/запись Boolean. |
-| override [GetHashCode](../../aspose.slides.slideshow/slideshowtransition/gethashcode)() | Служит хеш-функцией для конкретного типа, подходящей для использования в алгоритмах хеширования и структурах данных, таких как хеш-таблица. |
+| override [GetHashCode](../../aspose.slides.slideshow/slideshowtransition/gethashcode)() | Служит хеш-функцией для определённого типа, пригодной для использования в алгоритмах хеширования и структурах данных, таких как хеш-таблица. |
 
 ### Смотрите также
 

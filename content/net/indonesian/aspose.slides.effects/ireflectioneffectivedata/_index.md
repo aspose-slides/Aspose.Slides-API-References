@@ -1,14 +1,14 @@
 ---
 title: IReflectionEffectiveData
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Objek tidak dapat diubah yang mewakili efek Refleksi.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Objek tak dapat diubah yang mewakili efek Refleksi.
 type: docs
-weight: 3510
+weight: 3530
 url: /id/aspose.slides.effects/ireflectioneffectivedata/
 ---
 ## IReflectionEffectiveData antarmuka
 
-Objek tidak dapat diubah yang mewakili efek Refleksi.
+Objek tak dapat diubah yang mewakili efek Refleksi.
 
 ```csharp
 public interface IReflectionEffectiveData : IEffectEffectiveData
@@ -16,28 +16,28 @@ public interface IReflectionEffectiveData : IEffectEffectiveData
 
 ## Properti
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ireflectioneffectivedata/asieffecteffectivedata) { get; } | Memungkinkan untuk mendapatkan antarmuka IEffectEffectiveData dasar. Hanya-Baca [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [BlurRadius](../../aspose.slides.effects/ireflectioneffectivedata/blurradius) { get; } | Radius blur. Hanya-Baca Double. |
-| [Direction](../../aspose.slides.effects/ireflectioneffectivedata/direction) { get; } | Arah refleksi. Hanya-Baca Single. |
-| [Distance](../../aspose.slides.effects/ireflectioneffectivedata/distance) { get; } | Jarak refleksi. Hanya-Baca Double. |
-| [EndPosAlpha](../../aspose.slides.effects/ireflectioneffectivedata/endposalpha) { get; } | Menentukan posisi akhir (sepanjang ramp gradien alfa) nilai alfa akhir (persen). Hanya-Baca Single. |
-| [EndReflectionOpacity](../../aspose.slides.effects/ireflectioneffectivedata/endreflectionopacity) { get; } | Opasitas akhir refleksi. (persen). Hanya-Baca Single. |
-| [FadeDirection](../../aspose.slides.effects/ireflectioneffectivedata/fadedirection) { get; } | Menentukan arah offset refleksi. (sudut). Hanya-Baca Single. |
-| [RectangleAlign](../../aspose.slides.effects/ireflectioneffectivedata/rectanglealign) { get; } | Perataan persegi panjang. Hanya-Baca [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/ireflectioneffectivedata/rotateshadowwithshape) { get; } | Menentukan apakah refleksi harus berputar bersama bentuk jika bentuk diputar. Hanya-Baca Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/ireflectioneffectivedata/scalehorizontal) { get; } | Menentukan faktor skala horizontal, skala negatif menyebabkan pembalikan. (persen) Hanya-Baca Double. |
-| [ScaleVertical](../../aspose.slides.effects/ireflectioneffectivedata/scalevertical) { get; } | Menentukan faktor skala vertikal, skala negatif menyebabkan pembalikan. (persen) Hanya-Baca Double. |
-| [SkewHorizontal](../../aspose.slides.effects/ireflectioneffectivedata/skewhorizontal) { get; } | Menentukan sudut skew horizontal. Hanya-Baca Double. |
-| [SkewVertical](../../aspose.slides.effects/ireflectioneffectivedata/skewvertical) { get; } | Menentukan sudut skew vertikal. Hanya-Baca Double. |
-| [StartPosAlpha](../../aspose.slides.effects/ireflectioneffectivedata/startposalpha) { get; } | Menentukan posisi awal (sepanjang ramp gradien alfa) nilai alfa awal (persen). Hanya-Baca Single. |
-| [StartReflectionOpacity](../../aspose.slides.effects/ireflectioneffectivedata/startreflectionopacity) { get; } | Opasitas awal refleksi. (persen). Hanya-Baca Single. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ireflectioneffectivedata/asieffecteffectivedata) { get; } | Mengizinkan untuk mendapatkan antarmuka dasar IEffectEffectiveData. Baca-saja [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [BlurRadius](../../aspose.slides.effects/ireflectioneffectivedata/blurradius) { get; } | Radius blur. Baca-saja Double. |
+| [Direction](../../aspose.slides.effects/ireflectioneffectivedata/direction) { get; } | Arah refleksi. Baca-saja Single. |
+| [Distance](../../aspose.slides.effects/ireflectioneffectivedata/distance) { get; } | Jarak refleksi. Baca-saja Double. |
+| [EndPosAlpha](../../aspose.slides.effects/ireflectioneffectivedata/endposalpha) { get; } | Menentukan posisi akhir (sepanjang ramp gradien alfa) nilai alfa akhir (persen). Baca-saja Single. |
+| [EndReflectionOpacity](../../aspose.slides.effects/ireflectioneffectivedata/endreflectionopacity) { get; } | Kejernihan akhir refleksi. (persen). Baca-saja Single. |
+| [FadeDirection](../../aspose.slides.effects/ireflectioneffectivedata/fadedirection) { get; } | Menentukan arah untuk menggeser refleksi. (sudut). Baca-saja Single. |
+| [RectangleAlign](../../aspose.slides.effects/ireflectioneffectivedata/rectanglealign) { get; } | Penjajaran persegi panjang. Baca-saja [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/ireflectioneffectivedata/rotateshadowwithshape) { get; } | Menentukan apakah refleksi harus berputar bersama bentuk jika bentuk diputar. Baca-saja Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/ireflectioneffectivedata/scalehorizontal) { get; } | Menentukan faktor skala horizontal, skala negatif menyebabkan pencerminan. (persen) Baca-saja Double. |
+| [ScaleVertical](../../aspose.slides.effects/ireflectioneffectivedata/scalevertical) { get; } | Menentukan faktor skala vertikal, skala negatif menyebabkan pencerminan. (persen) Baca-saja Double. |
+| [SkewHorizontal](../../aspose.slides.effects/ireflectioneffectivedata/skewhorizontal) { get; } | Menentukan sudut skew horizontal. Baca-saja Double. |
+| [SkewVertical](../../aspose.slides.effects/ireflectioneffectivedata/skewvertical) { get; } | Menentukan sudut skew vertikal. Baca-saja Double. |
+| [StartPosAlpha](../../aspose.slides.effects/ireflectioneffectivedata/startposalpha) { get; } | Menentukan posisi awal (sepanjang ramp gradien alfa) nilai alfa awal (persen). Baca-saja Single. |
+| [StartReflectionOpacity](../../aspose.slides.effects/ireflectioneffectivedata/startreflectionopacity) { get; } | Kejernihan awal refleksi. (persen). Baca-saja Single. |
 
 ### Lihat Juga
 
 * antarmuka [IEffectEffectiveData](../ieffecteffectivedata)
 * ruang nama [Aspose.Slides.Effects](../../aspose.slides.effects)
-* rakitan [Aspose.Slides](../../)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

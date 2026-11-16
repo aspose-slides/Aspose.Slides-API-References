@@ -3,7 +3,7 @@ title: BaseThemeManager
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Kelas dasar untuk kelas yang menyediakan akses ke berbagai jenis tema.
 type: docs
-weight: 11050
+weight: 11070
 url: /id/aspose.slides.theme/basethememanager/
 ---
 ## BaseThemeManager kelas

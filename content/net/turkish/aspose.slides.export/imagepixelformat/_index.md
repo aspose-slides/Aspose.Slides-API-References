@@ -1,14 +1,14 @@
 ---
 title: ImagePixelFormat
-second_title: Aspose.Sildes .NET API Referansı için
+second_title: Aspose.Sildes için .NET API Referansı
 description: Oluşturulan görüntüler için piksel biçimini belirtir.
 type: docs
-weight: 4210
+weight: 4230
 url: /tr/aspose.slides.export/imagepixelformat/
 ---
-## ImagePixelFormat enum
+## ImagePixelFormat enumerasyonu
 
-Oluşturulan görüntüler için piksel biçimini belirtir.
+Oluşturulan görüntüler için piksel biçimini belirler.
 
 ```csharp
 public enum ImagePixelFormat
@@ -16,15 +16,15 @@ public enum ImagePixelFormat
 
 ### Değerler
 
-| Ad | Değer | Açıklama |
+| Name | Value | Description |
 | --- | --- | --- |
-| Format1bppIndexed | `1` | 1 bit piksel başına, indeksli. |
-| Format4bppIndexed | `4` | 4 bit piksel başına, indeksli. |
-| Format8bppIndexed | `8` | 8 bit piksel başına, indeksli. |
-| Format24bppRgb | `24` | 24 bit piksel başına, RGB. |
-| Format32bppArgb | `32` | 32 bit piksel başına, ARGB. |
+| Format1bppIndexed | `1` | piks başına 1 bit, indeksli. |
+| Format4bppIndexed | `4` | piks başına 4 bit, indeksli. |
+| Format8bppIndexed | `8` | piks başına 8 bit, indeksli. |
+| Format24bppRgb | `24` | piks başına 24 bit, RGB. |
+| Format32bppArgb | `32` | piks başına 32 bit, ARGB. |
 
-### Diğer Bağlantılar
+### İlgili
 
 * ad alanı [Aspose.Slides.Export](../../aspose.slides.export)
 * derleme [Aspose.Slides](../../)

@@ -1,15 +1,14 @@
 ---
 title: EffectStyleCollection
-second_title: Aspose.Sildes for .NET API参考
-description: 表示一组效果样式的集合。
+second_title: Aspose.Sildes .NET API 参考
+description: 表示效果样式的集合。
 type: docs
-weight: 11090
+weight: 11110
 url: /zh/aspose.slides.theme/effectstylecollection/
 ---
-
 ## EffectStyleCollection 类
 
-表示一组效果样式的集合。
+表示效果样式的集合。
 
 ```csharp
 public sealed class EffectStyleCollection : DomObject<FormatScheme>, IEffectStyleCollection
@@ -19,8 +18,8 @@ public sealed class EffectStyleCollection : DomObject<FormatScheme>, IEffectStyl
 
 | 名称 | 描述 |
 | --- | --- |
-| [Count](../../aspose.slides.theme/effectstylecollection/count) { get; } | 返回集合中的元素数量。只读 Int32, 只读 Int32. |
-| [IsSynchronized](../../aspose.slides.theme/effectstylecollection/issynchronized) { get; } | 返回一个值，指示对集合的访问是否已同步（线程安全）。只读 Boolean. |
+| [Count](../../aspose.slides.theme/effectstylecollection/count) { get; } | 返回集合中的元素数目。只读 Int32, 只读 Int32. |
+| [IsSynchronized](../../aspose.slides.theme/effectstylecollection/issynchronized) { get; } | 返回一个值，指示对集合的访问是否同步（线程安全）。只读 Boolean. |
 | [Item](../../aspose.slides.theme/effectstylecollection/item) { get; } | 返回指定位置的元素。只读 [`EffectStyle`](../effectstyle). |
 | [SyncRoot](../../aspose.slides.theme/effectstylecollection/syncroot) { get; } | 返回同步根。只读 Object. |
 
@@ -28,7 +27,7 @@ public sealed class EffectStyleCollection : DomObject<FormatScheme>, IEffectStyl
 
 | 名称 | 描述 |
 | --- | --- |
-| [CopyTo](../../aspose.slides.theme/effectstylecollection/copyto)(Array, int) | 将集合中的所有元素复制到指定的数组中。 |
+| [CopyTo](../../aspose.slides.theme/effectstylecollection/copyto)(Array, int) | 将集合中的所有元素复制到指定数组。 |
 | [GetEnumerator](../../aspose.slides.theme/effectstylecollection/getenumerator)() | 返回一个枚举器，用于遍历集合。 |
 
 ### 另见

@@ -1,9 +1,9 @@
 ---
 title: IBaseChartValue
-second_title: Aspose.Sildes pro .NET – referenční příručka API
+second_title: Aspose.Sildes pro .NET API Reference
 description: Reprezentuje hodnotu grafu.
 type: docs
-weight: 1730
+weight: 1740
 url: /cs/aspose.slides.charts/ibasechartvalue/
 ---
 ## IBaseChartValue rozhraní
@@ -18,8 +18,8 @@ public interface IBaseChartValue
 
 | Název | Popis |
 | --- | --- |
-| [Data](../../aspose.slides.charts/ibasechartvalue/data) { get; set; } | Číst/Zapisovat Objekt. |
-| [DataSourceType](../../aspose.slides.charts/ibasechartvalue/datasourcetype) { get; set; } | Určuje, zda je vlastnost AsCell nebo AsLiteralString nebo AsLiteralDouble aktuální. Jinými slovy určuje typ hodnoty vlastnosti Data. Tato vlastnost je pouze pro čtení. Pro změnu hodnoty této vlastnosti můžete použít jednu z vlastností ChartDataPointCollection.DataSourceTypeFor&lt;...&gt; vlastností. Číst/Zapisovat [`DataSourceType`](./datasourcetype). |
+| [Data](../../aspose.slides.charts/ibasechartvalue/data) { get; set; } | Čtení/zápis Object. |
+| [DataSourceType](../../aspose.slides.charts/ibasechartvalue/datasourcetype) { get; set; } | Určuje, zda je vlastnost AsCell nebo AsLiteralString nebo AsLiteralDouble aktuální. Jinými slovy určuje typ hodnoty vlastnosti Data. Tato vlastnost je pouze ke čtení. Pro změnu hodnoty této vlastnosti můžete použít jednu z vlastností ChartDataPointCollection.DataSourceTypeFor&lt;...&gt;. Čtení/zápis [`DataSourceType`](./datasourcetype). |
 
 ### Viz také
 

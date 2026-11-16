@@ -3,7 +3,7 @@ title: MathFractionFactory
 second_title: Aspose.Sildes for .NET API 參考
 description: 允許建立數學分式
 type: docs
-weight: 8700
+weight: 8720
 url: /zh-hant/aspose.slides.mathtext/mathfractionfactory/
 ---
 ## MathFractionFactory 類別
@@ -29,7 +29,7 @@ public class MathFractionFactory : IMathFractionFactory
 
 ### 備註
 
-用於 COM 相容性
+供 COM 相容性使用
 
 ### 另請參閱
 

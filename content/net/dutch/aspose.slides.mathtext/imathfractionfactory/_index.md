@@ -3,7 +3,7 @@ title: IMathFractionFactory
 second_title: Aspose.Sildes voor .NET API-referentie
 description: Staat toe een wiskundige breuk te maken
 type: docs
-weight: 8260
+weight: 8280
 url: /nl/aspose.slides.mathtext/imathfractionfactory/
 ---
 ## IMathFractionFactory interface
@@ -18,8 +18,8 @@ public interface IMathFractionFactory
 
 | Naam | Beschrijving |
 | --- | --- |
-| [CreateMathFraction](../../aspose.slides.mathtext/imathfractionfactory/createmathfraction#createmathfraction)(IMathElement, IMathElement) | Maakt een wiskundige breuk |
-| [CreateMathFraction](../../aspose.slides.mathtext/imathfractionfactory/createmathfraction#createmathfraction_1)(IMathElement, IMathElement, MathFractionTypes) | Maakt een wiskundige breuk |
+| [CreateMathFraction](../../aspose.slides.mathtext/imathfractionfactory/createmathfraction#createmathfraction)(IMathElement, IMathElement) | Creates a math fraction |
+| [CreateMathFraction](../../aspose.slides.mathtext/imathfractionfactory/createmathfraction#createmathfraction_1)(IMathElement, IMathElement, MathFractionTypes) | Creates a math fraction |
 
 ### Opmerkingen
 

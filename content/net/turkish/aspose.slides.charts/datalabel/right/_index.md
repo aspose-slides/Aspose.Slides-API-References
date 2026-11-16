@@ -1,14 +1,14 @@
 ---
 title: Right
 second_title: Aspose.Sildes için .NET API Referansı
-description: Right. Yalnızca okunur Single.
+description: Sağ. Salt okunur Tek.
 type: docs
-weight: 110
+weight: 120
 url: /tr/aspose.slides.charts/datalabel/right/
 ---
 ## DataLabel.Right özelliği
 
-Right. Yalnızca okunur Single.
+Sağ. Salt okunur Tek.
 
 ```csharp
 public float Right { get; }

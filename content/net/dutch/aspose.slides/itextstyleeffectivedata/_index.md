@@ -1,14 +1,14 @@
 ---
 title: ITextStyleEffectiveData
-second_title: Aspose.Sildes voor .NET API Referentie
-description: Onveranderlijk object dat effectieve tekststijleigenschappen bevat.
+second_title: Aspose.Sildes voor .NET API-referentie
+description: Onveranderlijk object dat effectieve tekstopmaak-eigenschappen bevat.
 type: docs
-weight: 7320
+weight: 7340
 url: /nl/aspose.slides/itextstyleeffectivedata/
 ---
 ## ITextStyleEffectiveData interface
 
-Onveranderlijk object dat effectieve tekststijleigenschappen bevat.
+Onveranderlijk object dat effectieve tekstopmaak-eigenschappen bevat.
 
 ```csharp
 public interface ITextStyleEffectiveData
@@ -16,19 +16,19 @@ public interface ITextStyleEffectiveData
 
 ## Eigenschappen
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
-| [DefaultParagraphFormat](../../aspose.slides/itextstyleeffectivedata/defaultparagraphformat) { get; } | Retourneert effectieve standaardparagraaf-eigenschappen. Alleen-lezen [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata). |
+| [DefaultParagraphFormat](../../aspose.slides/itextstyleeffectivedata/defaultparagraphformat) { get; } | Retourneert effectieve standaard alinea-eigenschappen. Alleen-lezen [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata). |
 
 ## Methoden
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
-| [GetLevel](../../aspose.slides/itextstyleeffectivedata/getlevel)(int) | Retourneert niveau van effectieve stijl. |
+| [GetLevel](../../aspose.slides/itextstyleeffectivedata/getlevel)(int) | Retourneert het niveau van de effectieve stijl. |
 
 ### Opmerkingen
 
-Deze interface wordt gebruikt samen met de [`ITextStyle`](../itextstyle) interface om effectieve opmaakwaarden met toegepaste overerving te retourneren.
+Deze interface wordt samen met de [`ITextStyle`](../itextstyle) interface gebruikt om effectieve opmaakwaarden met toegepaste overerving te retourneren.
 
 ### Zie ook
 

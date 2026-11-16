@@ -1,9 +1,9 @@
 ---
 title: ParagraphFormat
 second_title: Aspose.Sildes for .NET API リファレンス
-description: このクラスは段落の書式設定プロパティを含みます。IParagraphFormatEffectiveData./iparagraphformateffectivedata とは異なり、このクラスのすべてのプロパティは書き込み可能です。
+description: このクラスは段落書式設定プロパティを含みます。IParagraphFormatEffectiveData./iparagraphformateffectivedataとは異なり、このクラスのすべてのプロパティは書き込み可能です。
 type: docs
-weight: 9310
+weight: 9330
 url: /ja/aspose.slides/paragraphformat/
 ---
 ## ParagraphFormat クラス
@@ -16,49 +16,49 @@ public sealed class ParagraphFormat : PVIObject, IChartParagraphFormat, IParagra
 
 ## コンストラクタ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [ParagraphFormat](paragraphformat)() | 新しい [`ParagraphFormat`](../paragraphformat) クラスのインスタンスを初期化します。 |
+| [ParagraphFormat](paragraphformat)() | [`ParagraphFormat`](../paragraphformat) クラスの新しいインスタンスを初期化します。 |
 
 ## プロパティ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [Alignment](../../aspose.slides/paragraphformat/alignment) { get; set; } | 段落内のテキスト配置を取得または設定します（継承なし）。Read/write [`TextAlignment`](../textalignment)。 |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | ベースの IPresentationComponent インターフェイスを取得できます。Read-only [`IPresentationComponent`](../ipresentationcomponent)。 |
-| [DefaultTabSize](../../aspose.slides/paragraphformat/defaulttabsize) { get; set; } | デフォルトのタブ幅を取得または設定します（継承なし）。Read/write Single。 |
-| [EastAsianLineBreak](../../aspose.slides/paragraphformat/eastasianlinebreak) { get; set; } | 段落で東アジアの改行が使用されているかどうかを決定します。継承は適用されません。Read/write [`NullableBool`](../nullablebool)。 |
-| [FontAlignment](../../aspose.slides/paragraphformat/fontalignment) { get; set; } | 段落内のフォント配置を取得または設定します（継承なし）。Read/write [`FontAlignment`](../fontalignment)。 |
-| [HangingPunctuation](../../aspose.slides/paragraphformat/hangingpunctuation) { get; set; } | 段落でハンギング句読点が使用されているかどうかを決定します。継承は適用されません。Read/write [`NullableBool`](../nullablebool)。 |
-| [Indent](../../aspose.slides/paragraphformat/indent) { get; set; } | 段落の最初の行インデント/ハンギングインデントを取得または設定します（継承なし）。ハンギングインデントは負の値で定義できます。Read/write Single。 |
-| [LatinLineBreak](../../aspose.slides/paragraphformat/latinlinebreak) { get; set; } | 段落でラテン文字の改行が使用されているかどうかを決定します。継承は適用されません。Read/write [`NullableBool`](../nullablebool)。 |
-| [MarginLeft](../../aspose.slides/paragraphformat/marginleft) { get; set; } | 段落の左余白を取得または設定します（継承なし）。Read/write Single。 |
-| [MarginRight](../../aspose.slides/paragraphformat/marginright) { get; set; } | 段落の右余白を取得または設定します（継承なし）。Read/write Single。 |
-| [RightToLeft](../../aspose.slides/paragraphformat/righttoleft) { get; set; } | 段落で右から左への書き込みが使用されているかどうかを決定します。継承は適用されません。Read/write [`NullableBool`](../nullablebool)。 |
-| [SpaceAfter](../../aspose.slides/paragraphformat/spaceafter) { get; set; } | 段落の最終行の後の余白量を取得または設定します（継承なし）。正の値はフォントサイズの百分率で余白を指定し、負の値はポイントサイズで余白を指定します。Read/write Single。 |
-| [SpaceBefore](../../aspose.slides/paragraphformat/spacebefore) { get; set; } | 段落の最初の行の前の余白量を取得または設定します（継承なし）。正の値はフォントサイズの百分率で余白を指定し、負の値はポイントサイズで余白を指定します。Read/write Single。 |
-| [SpaceWithin](../../aspose.slides/paragraphformat/spacewithin) { get; set; } | 段落のベースライン間の余白量を取得または設定します。正の値は百分率、負の値はポイントでのサイズを表します。継承は適用されません。Read/write Single。 |
-| [Tabs](../../aspose.slides/paragraphformat/tabs) { get; } | 段落のタブ設定を取得します。継承は適用されません。Read-only [`ITabCollection`](../itabcollection)。 |
+| [Alignment](../../aspose.slides/paragraphformat/alignment) { get; set; } | 継承なしで段落のテキスト配置を取得または設定します。読み書き可能 [`TextAlignment`](../textalignment)。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 基本的な IPresentationComponent インターフェイスを取得できます。読み取り専用 [`IPresentationComponent`](../ipresentationcomponent)。 |
+| [DefaultTabSize](../../aspose.slides/paragraphformat/defaulttabsize) { get; set; } | 継承なしでデフォルトのタブ幅を取得または設定します。読み書き可能 Single。 |
+| [EastAsianLineBreak](../../aspose.slides/paragraphformat/eastasianlinebreak) { get; set; } | 段落で東アジアの改行が使用されるかどうかを決定します。継承は適用されません。読み書き可能 [`NullableBool`](../nullablebool)。 |
+| [FontAlignment](../../aspose.slides/paragraphformat/fontalignment) { get; set; } | 継承なしで段落のフォント配置を取得または設定します。読み書き可能 [`FontAlignment`](../fontalignment)。 |
+| [HangingPunctuation](../../aspose.slides/paragraphformat/hangingpunctuation) { get; set; } | 段落でハング付く句読点が使用されるかどうかを決定します。継承は適用されません。読み書き可能 [`NullableBool`](../nullablebool)。 |
+| [Indent](../../aspose.slides/paragraphformat/indent) { get; set; } | 継承なしで段落の最初の行インデント/ハングインデントを取得または設定します。ハングインデントは負の値で定義できます。読み書き可能 Single。 |
+| [LatinLineBreak](../../aspose.slides/paragraphformat/latinlinebreak) { get; set; } | 段落でラテン語の改行が使用されるかどうかを決定します。継承は適用されません。読み書き可能 [`NullableBool`](../nullablebool)。 |
+| [MarginLeft](../../aspose.slides/paragraphformat/marginleft) { get; set; } | 継承なしで段落の左余白を取得または設定します。読み書き可能 Single。 |
+| [MarginRight](../../aspose.slides/paragraphformat/marginright) { get; set; } | 継承なしで段落の右余白を取得または設定します。読み書き可能 Single。 |
+| [RightToLeft](../../aspose.slides/paragraphformat/righttoleft) { get; set; } | 段落で右から左への書き込みが使用されるかどうかを決定します。継承は適用されません。読み書き可能 [`NullableBool`](../nullablebool)。 |
+| [SpaceAfter](../../aspose.slides/paragraphformat/spaceafter) { get; set; } | 継承なしで段落の最終行の後の余白量を取得または設定します。正の値はフォントサイズのパーセンテージで空白を指定し、負の値はポイントサイズで空白の大きさを指定します。読み書き可能 Single。 |
+| [SpaceBefore](../../aspose.slides/paragraphformat/spacebefore) { get; set; } | 継承なしで段落の最初の行の前の余白量を取得または設定します。正の値はフォントサイズのパーセンテージで空白を指定し、負の値はポイントサイズで空白の大きさを指定します。読み書き可能 Single。 |
+| [SpaceWithin](../../aspose.slides/paragraphformat/spacewithin) { get; set; } | 段落のベースライン間の余白量を取得または設定します。正の値はパーセンテージ、負の値はポイントサイズを意味します。継承は適用されません。読み書き可能 Single。 |
+| [Tabs](../../aspose.slides/paragraphformat/tabs) { get; } | 段落のタブ設定を取得します。継承は適用されません。読み取り専用 [`ITabCollection`](../itabcollection)。 |
 
 ## メソッド
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | 指定されたオブジェクトと比較します。 |
-| [GetEffective](../../aspose.slides/paragraphformat/geteffective)() | 継承が適用された実効的な段落書式設定データを取得します。 |
+| [GetEffective](../../aspose.slides/paragraphformat/geteffective)() | 継承が適用された実際の段落書式設定データを取得します。 |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | ハッシュコードを返します。 |
 
 ### 備考
 
-このクラスは特定の段落に定義された段落書式設定プロパティを取得および操作するために使用されます。値を取得する際に継承が適用されないため、ほとんどの場合「未定義」ことを示す値が取得されます。
+このクラスは特定の段落に定義された段落書式設定プロパティを取得および操作するために使用されます。値を取得する際に継承が適用されないため、ほとんどの場合「未定義」の値が返されます。
 
-[`GetEffective`](./geteffective) メソッドを使用して、継承を含む実効的な書式設定パラメータ値を取得する必要があります。このメソッドは [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata) インスタンスを返します。
+継承を含む実際の書式設定パラメータ値を取得するには、[`GetEffective`](./geteffective) メソッドを使用し、[`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata) インスタンスを返す必要があります。
 
-### 参照
+### 関連項目
 
 * クラス [PVIObject](../pviobject)
-* インターフェイス [IChartParagraphFormat](../../aspose.slides.charts/ichartparagraphformat)
-* インターフェイス [IParagraphFormat](../iparagraphformat)
+* インターフェース [IChartParagraphFormat](../../aspose.slides.charts/ichartparagraphformat)
+* インターフェース [IParagraphFormat](../iparagraphformat)
 * 名前空間 [Aspose.Slides](../../aspose.slides)
 * アセンブリ [Aspose.Slides](../../)
 

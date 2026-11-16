@@ -1,14 +1,14 @@
 ---
 title: IOrientationTransition
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Oriëntatie dia overgangseffect.
+description: Oriëntatie-diaovergangseffect.
 type: docs
-weight: 10150
+weight: 10170
 url: /nl/aspose.slides.slideshow/iorientationtransition/
 ---
 ## IOrientationTransition interface
 
-Oriëntatie dia overgangseffect.
+Oriëntatie diaovergangseffect.
 
 ```csharp
 public interface IOrientationTransition : ITransitionValueBase
@@ -18,8 +18,8 @@ public interface IOrientationTransition : ITransitionValueBase
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/iorientationtransition/asitransitionvaluebase) { get; } | Staat toe om de basis ITransitionValueBase interface op te halen. Alleen-lezen [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/iorientationtransition/direction) { get; set; } | Richting van de overgang. Lees/schrijf [`Orientation`](../../aspose.slides/orientation). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/iorientationtransition/asitransitionvaluebase) { get; } | Stelt in staat de basis ITransitionValueBase interface op te halen. Alleen-lezen [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/iorientationtransition/direction) { get; set; } | Richting van de overgang. Lezen/Schrijven [`Orientation`](../../aspose.slides/orientation). |
 
 ### Zie ook
 

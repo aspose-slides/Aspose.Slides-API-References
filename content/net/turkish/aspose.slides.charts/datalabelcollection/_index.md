@@ -1,14 +1,14 @@
 ---
 title: DataLabelCollection
-second_title: Aspose.Sildes için .NET API Referansı
-description: Seri etiketlerini temsil eder.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Bir seri etiketini temsil eder.
 type: docs
-weight: 1560
+weight: 1570
 url: /tr/aspose.slides.charts/datalabelcollection/
 ---
 ## DataLabelCollection sınıfı
 
-Seri etiketlerini temsil eder.
+Bir seri etiketini temsil eder.
 
 ```csharp
 public class DataLabelCollection : DomObject<ChartSeries>, IDataLabelCollection
@@ -20,26 +20,27 @@ public class DataLabelCollection : DomObject<ChartSeries>, IDataLabelCollection
 | --- | --- |
 | [Chart](../../aspose.slides.charts/datalabelcollection/chart) { get; } | Üst grafiği döndürür. Salt okunur [`IChart`](../ichart). |
 | [Count](../../aspose.slides.charts/datalabelcollection/count) { get; } | Koleksiyondaki tüm veri etiketlerinin sayısını alır. Salt okunur Int32. |
-| [CountOfVisibleDataLabels](../../aspose.slides.charts/datalabelcollection/countofvisibledatalabels) { get; } | Koleksiyondaki görünen veri etiketlerinin sayısını alır. Salt okunur Int32. |
+| [CountOfVisibleDataLabels](../../aspose.slides.charts/datalabelcollection/countofvisibledatalabels) { get; } | Koleksiyondaki görünür veri etiketlerinin sayısını alır. Salt okunur Int32. |
 | [DefaultDataLabelFormat](../../aspose.slides.charts/datalabelcollection/defaultdatalabelformat) { get; } | Varsayılan veri etiketi biçimini alır. Salt okunur [`IDataLabelFormat`](../idatalabelformat). |
-| [IsVisible](../../aspose.slides.charts/datalabelcollection/isvisible) { get; } | False, veri etiketinin varsayılan olarak görünür olmadığını (ve bu nedenle DefaultDataLabelFormat özelliğinin tüm Show*-bayraklarının (ShowValue, ...) false olduğunu) ifade eder. Salt okunur Boolean. |
-| [Item](../../aspose.slides.charts/datalabelcollection/item) { get; } | Belirtilen indeksli veri noktasının veri etiketini alır. |
-| [LeaderLinesFormat](../../aspose.slides.charts/datalabelcollection/leaderlinesformat) { get; } | Veri etiketlerinin lider çizgi biçimini temsil eder. Salt okunur [`IChartLinesFormat`](../ichartlinesformat). |
+| [DefaultLabelShapeType](../../aspose.slides.charts/datalabelcollection/defaultlabelshapetype) { get; set; } | Veri etiketleri için varsayılan şekil türünü alır veya ayarlar. Şekil tanımlı değilse NotDefined döndürür. |
+| [IsVisible](../../aspose.slides.charts/datalabelcollection/isvisible) { get; } | False değeri, veri etiketinin varsayılan olarak görünür olmadığını (ve bu nedenle DefaultDataLabelFormat özelliğinin tüm Show*-flag'leri (ShowValue, ...) yanlıştır) gösterir. Salt okunur Boolean. |
+| [Item](../../aspose.slides.charts/datalabelcollection/item) { get; } | Belirtilen dizine sahip veri noktasının veri etiketini alır. |
+| [LeaderLinesFormat](../../aspose.slides.charts/datalabelcollection/leaderlinesformat) { get; } | Veri etiketleri lider çizgi biçimini temsil eder. Salt okunur [`IChartLinesFormat`](../ichartlinesformat). |
 | [ParentSeries](../../aspose.slides.charts/datalabelcollection/parentseries) { get; } | Üst seriyi alır. Salt okunur [`IChartSeries`](../ichartseries). |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [GetEnumerator](../../aspose.slides.charts/datalabelcollection/getenumerator)() | Koleksiyon içinde yinelemeye devam eden bir enumeratörü döndürür. |
-| [Hide](../../aspose.slides.charts/datalabelcollection/hide)() | Tüm Show*-bayraklarını (ShowValue, ...) DefaultDataLabelFormat özelliğinde false durumuna ayarlayarak veri etiketini varsayılan olarak gizli yapar. Bu işlemden sonra IsVisible false olacaktır. |
-| [IndexOf](../../aspose.slides.charts/datalabelcollection/indexof)(IDataLabel) | Koleksiyondaki belirtilen DataLabel'in indeksini döndürür. |
+| [GetEnumerator](../../aspose.slides.charts/datalabelcollection/getenumerator)() | Koleksiyonda yineleme yapan bir enumerator döndürür. |
+| [Hide](../../aspose.slides.charts/datalabelcollection/hide)() | Tüm Show*-flag'leri (ShowValue, ...) DefaultDataLabelFormat özelliğinde false olarak ayarlayarak veri etiketini varsayılan olarak gizli yapar. Bu işlemden sonra IsVisible false olacaktır. |
+| [IndexOf](../../aspose.slides.charts/datalabelcollection/indexof)(IDataLabel) | Koleksiyondaki belirtilen DataLabel'ın dizinini döndürür. |
 
 ### Ayrıca Bakınız
 
 * sınıf [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * sınıf [ChartSeries](../chartseries)
-* arabirim [IDataLabelCollection](../idatalabelcollection)
+* arayüz [IDataLabelCollection](../idatalabelcollection)
 * ad alanı [Aspose.Slides.Charts](../../aspose.slides.charts)
 * derleme [Aspose.Slides](../../)
 

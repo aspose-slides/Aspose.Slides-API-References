@@ -1,14 +1,14 @@
 ---
 title: IHSLEffectiveData
-second_title: Aspose.Sildes pro .NET API Reference
-description: Představuje efekt odstín/sytost/jas. Hodnoty odstínu, sytosti a jasu mohou být každá upravena relativně k jejich současné hodnotě.
+second_title: Aspose.Sildes pro .NET API referenci
+description: Představuje efekt odstín/sytost/jas. Každý z odstínu, sytosti a jasu může být upraven relativně k jeho aktuální hodnotě.
 type: docs
-weight: 3370
+weight: 3390
 url: /cs/aspose.slides.effects/ihsleffectivedata/
 ---
 ## IHSLEffectiveData rozhraní
 
-Představuje efekt odstín/sytost/jas. Hodnoty odstínu, sytosti a jasu mohou být každá upravena relativně k jejich současné hodnotě.
+Představuje efekt odstín/sytost/jas. Odstín, sytost a jas lze každé upravit relativně k jejich aktuální hodnotě.
 
 ```csharp
 public interface IHSLEffectiveData : IEffectEffectiveData
@@ -18,7 +18,7 @@ public interface IHSLEffectiveData : IEffectEffectiveData
 
 | Název | Popis |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ihsleffectivedata/asieffecteffectivedata) { get; } | Umožňuje získat základní rozhraní IEffectEffectiveData. Pouze pro čtení [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ihsleffectivedata/asieffecteffectivedata) { get; } | Umožňuje získat základní IEffectEffectiveData rozhraní. Pouze pro čtení [`IEffectEffectiveData`](../ieffecteffectivedata). |
 | [Hue](../../aspose.slides.effects/ihsleffectivedata/hue) { get; } | Vrací procento odstínu. Pouze pro čtení Single. |
 | [Luminance](../../aspose.slides.effects/ihsleffectivedata/luminance) { get; } | Vrací procento jasu. Pouze pro čtení Single. |
 | [Saturation](../../aspose.slides.effects/ihsleffectivedata/saturation) { get; } | Vrací procento sytosti. Pouze pro čtení Single. |

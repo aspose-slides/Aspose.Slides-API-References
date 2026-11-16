@@ -3,7 +3,7 @@ title: IBaseShapeLock
 second_title: Aspose.Sildes para la referencia de API de .NET
 description: Representa la operación de bloqueo de Shape deshabilitada.
 type: docs
-weight: 5330
+weight: 5350
 url: /es/aspose.slides/ibaseshapelock/
 ---
 ## IBaseShapeLock interfaz
@@ -18,7 +18,7 @@ public interface IBaseShapeLock
 
 | Nombre | Descripción |
 | --- | --- |
-| [NoLocks](../../aspose.slides/ibaseshapelock/nolocks) { get; } | Devuelve true si todos los indicadores de bloqueo están desactivados. Solo lectura Boolean. |
+| [NoLocks](../../aspose.slides/ibaseshapelock/nolocks) { get; } | Devuelve true si todos los lock-flags están deshabilitados. Boolean de solo lectura. |
 
 ### Ver también
 

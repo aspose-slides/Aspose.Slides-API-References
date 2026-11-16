@@ -1,9 +1,9 @@
 ---
 title: ResponsiveHtmlController
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per .NET Riferimento API
 description: Controller HTML responsivo
 type: docs
-weight: 4420
+weight: 4440
 url: /it/aspose.slides.export/responsivehtmlcontroller/
 ---
 ## ResponsiveHtmlController classe

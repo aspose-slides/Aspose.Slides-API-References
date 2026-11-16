@@ -1,9 +1,9 @@
 ---
 title: TrendlineType
-second_title: Aspose.Sildes .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 表示趋势线的类型
 type: docs
-weight: 2490
+weight: 2510
 url: /zh/aspose.slides.charts/trendlinetype/
 ---
 ## TrendlineType 枚举
@@ -18,14 +18,14 @@ public enum TrendlineType
 
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
-| Exponential | `0` | 指定趋势线应为指数曲线形式。 |
-| Linear | `1` | 指定趋势线应为直线形式。 |
-| Logarithmic | `2` | 指定趋势线应为对数曲线形式，其中 log 是自然对数。 |
-| MovingAverage | `3` | 指定趋势线应为周期为 Period 的移动平均。 |
-| Polynomial | `4` | 指定趋势线应为阶数为 Order 的多项式曲线形式。 |
-| Power | `5` | 指定趋势线应为幂曲线形式。 |
+| Exponential | `0` | 指定趋势线应为指数曲线的形式。 |
+| Linear | `1` | 指定趋势线应为直线的形式。 |
+| Logarithmic | `2` | 指定趋势线应为对数曲线的形式，其中 log 为自然对数。 |
+| MovingAverage | `3` | 指定趋势线应为周期 Period 的移动平均。 |
+| Polynomial | `4` | 指定趋势线应为阶数 Order 的多项式曲线的形式。 |
+| Power | `5` | 指定趋势线应为幂曲线的形式。 |
 
-### 另请参见
+### 另见
 
 * 命名空间 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 程序集 [Aspose.Slides](../../)

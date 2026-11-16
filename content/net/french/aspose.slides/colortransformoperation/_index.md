@@ -1,9 +1,9 @@
 ---
 title: ColorTransformOperation
-second_title: Référence API Aspose.Sildes pour .NET
+second_title: Aspose.Sildes pour .NET Référence API
 description: Définit l'opération de transformation de couleur.
 type: docs
-weight: 2570
+weight: 2590
 url: /fr/aspose.slides/colortransformoperation/
 ---
 ## ColorTransformOperation énumération
@@ -18,38 +18,38 @@ public enum ColorTransformOperation
 
 | Nom | Valeur | Description |
 | --- | --- | --- |
-| Tint | `0` | Applique une teinte à la couleur. Le paramètre est compris entre 0 (couleur originale) et 1 (blanc). |
-| Shade | `1` | Assombrit la couleur. Le paramètre est compris entre 0 (couleur originale) et 1 (noir). |
+| Tint | `0` | Teinte la couleur. Le paramètre est dans la plage entre 0 (couleur originale) et 1 (blanc). |
+| Shade | `1` | Assombrit la couleur. Le paramètre est dans la plage entre 0 (couleur originale) et 1 (noir). |
 | Complement | `2` | Modifie la couleur en une couleur complémentaire RGB. m = Max(r, g, b); r = m - r; g = m - g; b = m - b; |
 | Inverse | `3` | Modifie la couleur en une couleur inversée. r = 1 - r; g = 1 - g; b = 1 - b; |
-| Grayscale | `4` | Modifie la couleur en une nuance de gris avec la même luminosité. Paramètre ignoré. |
-| SetAlpha | `5` | Définit un composant alpha de la couleur. Le paramètre est compris entre 0 (transparent) et 1 (opaque). |
-| AddAlpha | `6` | Ajoute la valeur du paramètre à un composant alpha de la couleur. Le paramètre est compris entre -1 et 1. |
-| MultiplyAlpha | `7` | Multiplie un composant alpha par la valeur du paramètre. |
-| SetHue | `8` | Modifie le composant teinte de la couleur à la valeur du paramètre. Le paramètre est compris entre 0 et 360. |
-| AddHue | `9` | Ajoute la valeur du paramètre au composant teinte de la couleur. Le paramètre est compris entre -360 et 360. |
-| MultiplyHue | `10` | Multiplie un composant teinte par la valeur du paramètre. |
-| SetSaturation | `11` | Modifie le composant saturation de la couleur à la valeur du paramètre. Le paramètre est compris entre 0 et 1. |
-| AddSaturation | `12` | Ajoute la valeur du paramètre à un composant saturation de la couleur. Le paramètre est compris entre -1 et 1. |
-| MultiplySaturation | `13` | Multiplie un composant saturation par la valeur du paramètre. |
-| SetLuminance | `14` | Modifie le composant luminance de la couleur à la valeur du paramètre. Le paramètre est compris entre 0 et 1. |
-| AddLuminance | `15` | Ajoute la valeur du paramètre à un composant luminance de la couleur. Le paramètre est compris entre -1 et 1. |
-| MultiplyLuminance | `16` | Multiplie un composant luminance par la valeur du paramètre. |
-| SetRed | `17` | Modifie le composant rouge de la couleur à la valeur du paramètre. Le paramètre est compris entre 0 et 1. |
-| AddRed | `18` | Ajoute la valeur du paramètre à un composant rouge de la couleur. Le paramètre est compris entre -1 et 1. |
+| Grayscale | `4` | Modifie la couleur en une teinte de gris avec la même luminosité. Le paramètre est ignoré. |
+| SetAlpha | `5` | Définit un composant alpha de la couleur. Le paramètre est dans la plage entre 0 (transparent) et 1 (opaque). |
+| AddAlpha | `6` | Ajoute la valeur d'un paramètre à un composant alpha de la couleur. Le paramètre est dans la plage entre -1 et 1. |
+| MultiplyAlpha | `7` | Multiplie un composant alpha par la valeur d'un paramètre. |
+| SetHue | `8` | Modifie un composant teinte de la couleur à la valeur du paramètre. Le paramètre est dans la plage entre 0 et 360. |
+| AddHue | `9` | Ajoute la valeur du paramètre au composant teinte de la couleur. Le paramètre est dans la plage entre -360 et 360. |
+| MultiplyHue | `10` | Multiplie un composant teinte par la valeur d'un paramètre. |
+| SetSaturation | `11` | Modifie un composant saturation de la couleur à la valeur du paramètre. Le paramètre est dans la plage entre 0 et 1. |
+| AddSaturation | `12` | Ajoute la valeur du paramètre à un composant saturation de la couleur. Le paramètre est dans la plage entre -1 et 1. |
+| MultiplySaturation | `13` | Multiplie un composant saturation par la valeur d'un paramètre. |
+| SetLuminance | `14` | Modifie un composant luminance de la couleur à la valeur du paramètre. Le paramètre est dans la plage entre 0 et 1. |
+| AddLuminance | `15` | Ajoute la valeur du paramètre à un composant luminance de la couleur. Le paramètre est dans la plage entre -1 et 1. |
+| MultiplyLuminance | `16` | Multiplie un composant luminance par la valeur d'un paramètre. |
+| SetRed | `17` | Modifie un composant rouge de la couleur à la valeur du paramètre. Le paramètre est dans la plage entre 0 et 1. |
+| AddRed | `18` | Ajoute la valeur du paramètre à un composant rouge de la couleur. Le paramètre est dans la plage entre -1 et 1. |
 | MultiplyRed | `19` | Multiplie un composant rouge par un paramètre. |
-| SetGreen | `20` | Modifie le composant vert de la couleur à la valeur du paramètre. Le paramètre est compris entre 0 et 1. |
-| AddGreen | `21` | Ajoute un paramètre à un composant vert de la couleur. Le paramètre est compris entre -1 et 1. |
-| MultiplyGreen | `22` | Multiplie un composant vert par la valeur du paramètre. |
-| SetBlue | `23` | Modifie le composant bleu de la couleur à la valeur du paramètre. Le paramètre est compris entre 0 et 360. |
-| AddBlue | `24` | Ajoute la valeur du paramètre à un composant bleu de la couleur. Le paramètre est compris entre -1 et 1. |
-| MultiplyBlue | `25` | Multiplie un composant bleu par la valeur du paramètre. |
-| Gamma | `26` | Correction gamma. Paramètre ignoré. |
-| InverseGamma | `27` | Correction gamma inverse. Paramètre ignoré. |
+| SetGreen | `20` | Modifie un composant vert de la couleur à la valeur du paramètre. Le paramètre est dans la plage entre 0 et 1. |
+| AddGreen | `21` | Ajoute un paramètre à un composant vert de la couleur. Le paramètre est dans la plage entre -1 et 1. |
+| MultiplyGreen | `22` | Multiplie un composant vert par la valeur d'un paramètre. |
+| SetBlue | `23` | Modifie un composant bleu de la couleur à la valeur du paramètre. Le paramètre est dans la plage entre 0 et 360. |
+| AddBlue | `24` | Ajoute la valeur du paramètre à un composant bleu de la couleur. Le paramètre est dans la plage entre -1 et 1. |
+| MultiplyBlue | `25` | Multiplie un composant bleu par la valeur d'un paramètre. |
+| Gamma | `26` | Correction gamma. Le paramètre est ignoré. |
+| InverseGamma | `27` | Correction gamma inverse. Le paramètre est ignoré. |
 
 ### Voir aussi
 
-* namespace [Aspose.Slides](../../aspose.slides)
+* espace de noms [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

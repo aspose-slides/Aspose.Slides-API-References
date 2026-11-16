@@ -1,14 +1,14 @@
 ---
 title: ISectionZoomFrame
-second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
-description: แสดงถึงอ็อบเจ็กต์ Section Zoom ในสไลด์
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงถึงอ็อบเจกต์ Section Zoom ในสไลด์.
 type: docs
-weight: 6920
+weight: 6940
 url: /th/aspose.slides/isectionzoomframe/
 ---
-## ISectionZoomFrame interface
+## ISectionZoomFrame อินเทอร์เฟซ
 
-แสดงถึงอ็อบเจ็กต์ Section Zoom ในสไลด์
+แสดงถึงอ็อบเจกต์ Section Zoom ในสไลด์.
 
 ```csharp
 public interface ISectionZoomFrame : IZoomObject
@@ -18,8 +18,8 @@ public interface ISectionZoomFrame : IZoomObject
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIZoomObject](../../aspose.slides/isectionzoomframe/asizoomobject) { get; } | คืนค่า IZoomObject interface. |
-| [TargetSection](../../aspose.slides/isectionzoomframe/targetsection) { get; set; } | รับหรือกำหนดอ็อบเจ็กต์ส่วนที่ Section Zoom object เชื่อมโยงไปยัง. อ่าน/เขียน [`ISection`](../isection). |
+| [AsIZoomObject](../../aspose.slides/isectionzoomframe/asizoomobject) { get; } | ส่งคืนส่วนต่อประสาน IZoomObject. |
+| [TargetSection](../../aspose.slides/isectionzoomframe/targetsection) { get; set; } | รับหรือกำหนดออบเจกต์ส่วนที่อ็อบเจกต์ Section Zoom เชื่อมโยงถึง. อ่าน/เขียน [`ISection`](../isection). |
 
 ### ดูเพิ่มเติม
 

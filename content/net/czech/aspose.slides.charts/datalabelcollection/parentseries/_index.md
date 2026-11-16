@@ -1,14 +1,14 @@
 ---
 title: ParentSeries
 second_title: Aspose.Sildes pro .NET API Reference
-description: Získá rodičovskou řadu. Pouze pro čtení IChartSeriesaspose.slides.charts/ichartseries.
+description: Získá nadřazenou sérii. Pouze pro čtení IChartSeriesaspose.slides.charts/ichartseries.
 type: docs
-weight: 80
+weight: 90
 url: /cs/aspose.slides.charts/datalabelcollection/parentseries/
 ---
 ## DataLabelCollection.ParentSeries vlastnost
 
-Získá rodičovskou řadu. Pouze pro čtení [`IChartSeries`](../../ichartseries).
+Získá nadřazenou sérii. Pouze pro čtení [`IChartSeries`](../../ichartseries).
 
 ```csharp
 public IChartSeries ParentSeries { get; }

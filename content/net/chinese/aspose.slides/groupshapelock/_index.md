@@ -1,14 +1,14 @@
 ---
 title: GroupShapeLock
-second_title: Aspose.Sildes .NET API 参考
-description: 确定在父 GroupShape 上哪些操作被禁用。
+second_title: Aspose.Sildes for .NET API 参考
+description: 确定在父 GroupShape 上禁用哪些操作。
 type: docs
-weight: 5100
+weight: 5120
 url: /zh/aspose.slides/groupshapelock/
 ---
 ## GroupShapeLock 类
 
-确定父 GroupShape 上哪些操作被禁用。
+确定在父 GroupShape 上禁用哪些操作。
 
 ```csharp
 public class GroupShapeLock : BaseShapeLock, IGroupShapeLock
@@ -18,16 +18,16 @@ public class GroupShapeLock : BaseShapeLock, IGroupShapeLock
 
 | 名称 | 描述 |
 | --- | --- |
-| [AspectRatioLocked](../../aspose.slides/groupshapelock/aspectratiolocked) { get; set; } | 确定在调整大小时是否必须保持形状的宽高比。可读写 Boolean。 |
+| [AspectRatioLocked](../../aspose.slides/groupshapelock/aspectratiolocked) { get; set; } | 确定在调整大小时形状是否必须保持纵横比。可读写 Boolean。 |
 | [GroupingLocked](../../aspose.slides/groupshapelock/groupinglocked) { get; set; } | 确定是否禁止将此形状添加到组中。可读写 Boolean。 |
 | [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | 如果所有锁标志均已禁用，则返回 true。只读 Boolean。 |
 | [PositionLocked](../../aspose.slides/groupshapelock/positionlocked) { get; set; } | 确定是否禁止移动此形状。可读写 Boolean。 |
 | [RotationLocked](../../aspose.slides/groupshapelock/rotationlocked) { get; set; } | 确定是否禁止更改此形状的旋转角度。可读写 Boolean。 |
 | [SelectLocked](../../aspose.slides/groupshapelock/selectlocked) { get; set; } | 确定是否禁止选择此形状。可读写 Boolean。 |
 | [SizeLocked](../../aspose.slides/groupshapelock/sizelocked) { get; set; } | 确定是否禁止调整此形状的大小。可读写 Boolean。 |
-| [UngroupingLocked](../../aspose.slides/groupshapelock/ungroupinglocked) { get; set; } | 确定是否禁止拆分此 GroupShape。可读写 Boolean。 |
+| [UngroupingLocked](../../aspose.slides/groupshapelock/ungroupinglocked) { get; set; } | 确定是否禁止拆分此 groupshape。可读写 Boolean。 |
 
-### 另请参见
+### 另请参阅
 
 * 类 [BaseShapeLock](../baseshapelock)
 * 接口 [IGroupShapeLock](../igroupshapelock)

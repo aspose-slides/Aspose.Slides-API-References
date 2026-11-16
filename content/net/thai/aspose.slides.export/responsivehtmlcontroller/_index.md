@@ -1,14 +1,14 @@
 ---
 title: ResponsiveHtmlController
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: ตัวควบคุม HTML แบบตอบสนอง
+second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
+description: ตัวควบคุม HTML ที่ตอบสนอง
 type: docs
-weight: 4420
+weight: 4440
 url: /th/aspose.slides.export/responsivehtmlcontroller/
 ---
 ## ResponsiveHtmlController คลาส
 
-ตัวควบคุม HTML แบบตอบสนอง
+ตัวควบคุม HTML ที่ตอบสนอง
 
 ```csharp
 public class ResponsiveHtmlController : IResponsiveHtmlController
@@ -23,7 +23,7 @@ public class ResponsiveHtmlController : IResponsiveHtmlController
 
 ### ดูเพิ่มเติม
 
-* อินเทอร์เฟส [IResponsiveHtmlController](../iresponsivehtmlcontroller)
+* อินเทอร์เฟซ [IResponsiveHtmlController](../iresponsivehtmlcontroller)
 * เนมสเปซ [Aspose.Slides.Export](../../aspose.slides.export)
 * แอสเซมบลี [Aspose.Slides](../../)
 

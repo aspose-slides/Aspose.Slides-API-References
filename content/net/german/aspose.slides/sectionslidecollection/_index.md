@@ -3,7 +3,7 @@ title: SectionSlideCollection
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt eine Sammlung von Folien im Abschnitt dar.
 type: docs
-weight: 9770
+weight: 9790
 url: /de/aspose.slides/sectionslidecollection/
 ---
 ## SectionSlideCollection Klasse
@@ -16,16 +16,16 @@ public sealed class SectionSlideCollection : DomObject<Section>, ISectionSlideCo
 
 ## Eigenschaften
 
-| Name | Description |
+| Name | Beschreibung |
 | --- | --- |
-| [Count](../../aspose.slides/sectionslidecollection/count) { get; } | Ermittelt die tatsächlich in der Sammlung enthaltene Anzahl von Elementen. Nur lesbar Int32. |
-| [IsSynchronized](../../aspose.slides/sectionslidecollection/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert ist (thread-sicher). Nur lesbar Boolean. |
-| [Item](../../aspose.slides/sectionslidecollection/item) { get; } | Liefert das Element am angegebenen Index. Nur lesbar [`ISlide`](../islide). |
-| [SyncRoot](../../aspose.slides/sectionslidecollection/syncroot) { get; } | Gibt eine Synchronisationswurzel zurück. Nur lesbar Object. |
+| [Count](../../aspose.slides/sectionslidecollection/count) { get; } | Gibt die tatsächlich in der Sammlung enthaltene Anzahl von Elementen zurück. Nur-Lese Int32. |
+| [IsSynchronized](../../aspose.slides/sectionslidecollection/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert (Thread-sicher) ist. Nur-Lese Boolean. |
+| [Item](../../aspose.slides/sectionslidecollection/item) { get; } | Gibt das Element am angegebenen Index zurück. Nur-Lese [`ISlide`](../islide). |
+| [SyncRoot](../../aspose.slides/sectionslidecollection/syncroot) { get; } | Gibt ein Synchronisations-Root zurück. Nur-Lese Object. |
 
 ## Methoden
 
-| Name | Description |
+| Name | Beschreibung |
 | --- | --- |
 | [CopyTo](../../aspose.slides/sectionslidecollection/copyto)(Array, int) | Kopiert die gesamte Sammlung in das angegebene Array. |
 | [GetEnumerator](../../aspose.slides/sectionslidecollection/getenumerator)() | Gibt einen Enumerator zurück, der die Sammlung durchläuft. |

@@ -1,25 +1,25 @@
 ---
 title: QuartileMethodType
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Trả về kiểu của phương pháp tứ phân
+second_title: Aspose.Sildes cho Tham chiếu API .NET
+description: Trả về kiểu của phương pháp tứ phân vị
 type: docs
-weight: 2390
+weight: 2410
 url: /vi/aspose.slides.charts/quartilemethodtype/
 ---
-## liệt kê QuartileMethodType
+## QuartileMethodType liệt kê
 
-Trả về kiểu của phương pháp tứ phân
+Trả về kiểu của phương pháp tứ phân vị
 
 ```csharp
 public enum QuartileMethodType
 ```
 
-### Giá trị
+### Values
 
 | Tên | Giá trị | Mô tả |
 | --- | --- | --- |
-| Exclusive | `0` | Biểu thị phương pháp tứ phân exclusive. |
-| Inclusive | `1` | Biểu thị phương pháp tứ phân inclusive. |
+| Exclusive | `0` | Biểu thị phương pháp tứ phân vị exclusive. |
+| Inclusive | `1` | Biểu thị phương pháp tứ phân vị inclusive. |
 
 ### Xem thêm
 

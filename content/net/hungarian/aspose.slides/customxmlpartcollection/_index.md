@@ -1,14 +1,14 @@
 ---
 title: CustomXmlPartCollection
-second_title: Aspose.Sildes .NET API-referencia
-description: A testreszabott XML részek gyűjteményét képviseli.
+second_title: Aspose.Sildes .NET API referenciája
+description: A testreszabott xml részek gyűjteményét képviseli.
 type: docs
-weight: 2750
+weight: 2770
 url: /hu/aspose.slides/customxmlpartcollection/
 ---
 ## CustomXmlPartCollection osztály
 
-A testreszabott xml részek gyűjteményét képviseli.
+A testreszabott XML részek gyűjteményét képviseli.
 
 ```csharp
 public class CustomXmlPartCollection : ICustomXmlPartCollection
@@ -18,23 +18,23 @@ public class CustomXmlPartCollection : ICustomXmlPartCollection
 
 | Név | Leírás |
 | --- | --- |
-| [Count](../../aspose.slides/customxmlpartcollection/count) { get; } | Visszaadja a gyűjteményben lévő testreszabott xml részek számát. Csak olvasható Int32. |
-| [IsSynchronized](../../aspose.slides/customxmlpartcollection/issynchronized) { get; } | Visszaad egy értéket, amely azt jelzi, hogy a gyűjteményhez való hozzáférés szinkronizált (szálbiztos). Csak olvasható Boolean. |
-| [Item](../../aspose.slides/customxmlpartcollection/item) { get; } | Visszaadja a megadott indexű elemet. |
-| [SyncRoot](../../aspose.slides/customxmlpartcollection/syncroot) { get; } | Visszaad egy szinkronizációs gyökért. Csak olvasható Object. |
+| [Count](../../aspose.slides/customxmlpartcollection/count) { get; } | Visszaadja a gyűjteményben lévő egyéni XML részek számát. Csak olvasható Int32. |
+| [IsSynchronized](../../aspose.slides/customxmlpartcollection/issynchronized) { get; } | Visszaad egy értéket, amely jelzi, hogy a gyűjteményhez való hozzáférés szinkronizált (szálbiztos). Csak olvasható Boolean. |
+| [Item](../../aspose.slides/customxmlpartcollection/item) { get; } | Visszaadja az elemet a megadott indexnél. |
+| [SyncRoot](../../aspose.slides/customxmlpartcollection/syncroot) { get; } | Visszaad egy szinkronizációs gyökérpontot. Csak olvasható Object. |
 
-## Módszerek
+## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [Add](../../aspose.slides/customxmlpartcollection/add#add)(byte[]) | Új testreszabott xml részt ad hozzá. |
-| [Add](../../aspose.slides/customxmlpartcollection/add#add_1)(Stream) | Új testreszabott xml részt ad hozzá. |
-| [Add](../../aspose.slides/customxmlpartcollection/add#add_2)(string) | Új testreszabott xml részt ad hozzá. |
+| [Add](../../aspose.slides/customxmlpartcollection/add#add)(byte[]) | Új egyéni XML részt ad hozzá. |
+| [Add](../../aspose.slides/customxmlpartcollection/add#add_1)(Stream) | Új egyéni XML részt ad hozzá. |
+| [Add](../../aspose.slides/customxmlpartcollection/add#add_2)(string) | Új egyéni XML részt ad hozzá. |
 | [Clear](../../aspose.slides/customxmlpartcollection/clear)() | Eltávolítja a gyűjtemény összes elemét. |
 | [CopyTo](../../aspose.slides/customxmlpartcollection/copyto)(Array, int) | Másolja a megadott tömbbe. |
-| [GetEnumerator](../../aspose.slides/customxmlpartcollection/getenumerator)() | Visszaad egy enumerátort, amely végigiterál a gyűjteményen. |
-| [Remove](../../aspose.slides/customxmlpartcollection/remove)(ICustomXmlPart) | Eltávolítja a megadott objektum első előfordulását a gyűjteményből. |
-| [RemoveAt](../../aspose.slides/customxmlpartcollection/removeat)(int) | Eltávolítja a megadott indexű testreszabott xml részt. |
+| [GetEnumerator](../../aspose.slides/customxmlpartcollection/getenumerator)() | Visszaad egy enumerátort, amely bejárja a gyűjteményt. |
+| [Remove](../../aspose.slides/customxmlpartcollection/remove)(ICustomXmlPart) | Eltávolítja a gyűjteményből a megadott objektum első előfordulását. |
+| [RemoveAt](../../aspose.slides/customxmlpartcollection/removeat)(int) | Eltávolítja a megadott indexnél lévő egyéni XML részt. |
 
 ### Lásd még
 

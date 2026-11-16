@@ -1,14 +1,14 @@
 ---
 title: IMathElementCollection
-second_title: Aspose.Slides для .NET API Reference
+second_title: Aspose.Sildes для .NET справочник API
 description: Представляет коллекцию математических элементов MathElement.
 type: docs
-weight: 8240
+weight: 8260
 url: /ru/aspose.slides.mathtext/imathelementcollection/
 ---
 ## IMathElementCollection интерфейс
 
-Представляет коллекцию математических элементов (MathElement).
+Represents a collection of mathematical elements (MathElement).
 
 ```csharp
 public interface IMathElementCollection : IEnumerable<IMathElement>
@@ -18,9 +18,9 @@ public interface IMathElementCollection : IEnumerable<IMathElement>
 
 | Имя | Описание |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.mathtext/imathelementcollection/asienumerable) { get; } | Возвращает интерфейс IEnumerable. Точно для чтения IEnumerable. |
-| [Count](../../aspose.slides.mathtext/imathelementcollection/count) { get; } | Возвращает количество элементов, фактически содержащихся в коллекции. Точно для чтения Int32. |
-| [Item](../../aspose.slides.mathtext/imathelementcollection/item) { get; } | Возвращает элемент по указанному индексу. Точно для чтения [`IMathElement`](../imathelement). |
+| [AsIEnumerable](../../aspose.slides.mathtext/imathelementcollection/asienumerable) { get; } | Возвращает интерфейс IEnumerable. Только для чтения IEnumerable. |
+| [Count](../../aspose.slides.mathtext/imathelementcollection/count) { get; } | Получает количество фактически содержащихся в коллекции элементов. Только для чтения Int32. |
+| [Item](../../aspose.slides.mathtext/imathelementcollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения [`IMathElement`](../imathelement). |
 
 ## Методы
 
@@ -37,7 +37,7 @@ public interface IMathElementCollection : IEnumerable<IMathElement>
 
 ### Примеры
 
-Пример:
+Example:
 
 ```csharp
 [C#]

@@ -1,39 +1,39 @@
 ---
 title: ColorOperation
-second_title: Aspose.Sildes voor .NET API Referentie
-description: Stelt verschillende kleurbewerkingen voor die worden gebruikt voor kleurtransformaties. Onveranderlijk object.
+second_title: Aspose.Sildes voor .NET API-referentie
+description: Vertegenwoordigt verschillende kleurbewerkingen die worden gebruikt voor kleurtransformaties. Onveranderlijk object.
 type: docs
-weight: 2530
+weight: 2550
 url: /nl/aspose.slides/coloroperation/
 ---
 ## ColorOperation klasse
 
-Stelt verschillende kleurbewerkingen voor die worden gebruikt voor kleurtransformaties. Onveranderlijk object.
+Vertegenwoordigt verschillende kleurbewerkingen die worden gebruikt voor kleurtransformaties. Onveranderlijk object.
 
 ```csharp
 public class ColorOperation : IColorOperation
 ```
 
-## Constructoren
+## Constructors
 
 | Naam | Beschrijving |
 | --- | --- |
-| [ColorOperation](coloroperation#constructor)(ColorTransformOperation) | Maakt een nieuwe kleurtransformatiebewerking. |
-| [ColorOperation](coloroperation#constructor_1)(ColorTransformOperation, float) | Maakt een nieuwe kleurtransformatiebewerking. |
+| [ColorOperation](coloroperation#constructor)(ColorTransformOperation) | Maakt een nieuwe kleurtransformatie-bewerking. |
+| [ColorOperation](coloroperation#constructor_1)(ColorTransformOperation, float) | Maakt een nieuwe kleurtransformatie-bewerking. |
 
-## Eigenschappen
+## Properties
 
 | Naam | Beschrijving |
 | --- | --- |
-| [OperationType](../../aspose.slides/coloroperation/operationtype) { get; } | Geeft of stelt het type van een bewerking in. Alleen-lezen [`ColorTransformOperation`](../colortransformoperation). |
+| [OperationType](../../aspose.slides/coloroperation/operationtype) { get; } | Geeft de type van een bewerking terug of stelt deze in. Alleen-lezen [`ColorTransformOperation`](../colortransformoperation). |
 | [Parameter](../../aspose.slides/coloroperation/parameter) { get; } | Geeft een parameter van een bewerking terug. Alleen-lezen Single. |
 
-## Methoden
+## Methods
 
 | Naam | Beschrijving |
 | --- | --- |
 | override [Equals](../../aspose.slides/coloroperation/equals)(object) | Bepaalt of de twee ColorOperation-instanties gelijk zijn. |
-| override [GetHashCode](../../aspose.slides/coloroperation/gethashcode)() | Dient als hash-functie voor een bepaald type, geschikt voor gebruik in hash-algoritmen en datastructuren zoals een hashtabel. |
+| override [GetHashCode](../../aspose.slides/coloroperation/gethashcode)() | Dient als een hash-functie voor een bepaald type, geschikt voor gebruik in hash-algoritmen en datastructuren zoals een hashtabel. |
 
 ### Zie ook
 

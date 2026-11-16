@@ -1,14 +1,14 @@
 ---
 title: IChartSeriesGroup
-second_title: Aspose.Sildes .NET API referencia
-description: A sorozatok csoportját képviseli.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Sorozatcsoportot reprezentál.
 type: docs
-weight: 1950
+weight: 1970
 url: /hu/aspose.slides.charts/ichartseriesgroup/
 ---
 ## IChartSeriesGroup interfész
 
-Képviseli a sorozatok csoportját.
+Represents group of series.
 
 ```csharp
 public interface IChartSeriesGroup : IChartComponent
@@ -18,30 +18,30 @@ public interface IChartSeriesGroup : IChartComponent
 
 | Név | Leírás |
 | --- | --- |
-| [AsIChartComponent](../../aspose.slides.charts/ichartseriesgroup/asichartcomponent) { get; } | Lehetővé teszi az alap IChartComponent interfész lekérését. Csak olvasható [`IChartComponent`](../ichartcomponent). |
-| [BubbleSizeRepresentation](../../aspose.slides.charts/ichartseriesgroup/bubblesizerepresentation) { get; set; } | Megadja, hogyan jelennek meg a buborékméret értékek a buborékdiagramon. Olvasás/írás [`BubbleSizeRepresentationType`](../bubblesizerepresentationtype). |
-| [BubbleSizeScale](../../aspose.slides.charts/ichartseriesgroup/bubblesizescale) { get; set; } | Megadja a buborékdiagram méretezési tényezőjét (0 és az alapméret 300 százaléka között lehet). Olvasás/írás Int32. |
-| [DoughnutHoleSize](../../aspose.slides.charts/ichartseriesgroup/doughnutholesize) { get; set; } | Megadja a fánkdiagram lyukának méretét (a diagramterület méretének 10 és 90 százaléka között lehet). Olvasás/írás Byte. |
-| [FirstSliceAngle](../../aspose.slides.charts/ichartseriesgroup/firstsliceangle) { get; set; } | Megkapja vagy beállítja az első torta vagy fánkdiagram szeletének szögét fokban (óra járásával felfelé, 0-tól 360 fokig). Olvasás/írás UInt16. |
-| [GapDepth](../../aspose.slides.charts/ichartseriesgroup/gapdepth) { get; set; } | Megadja vagy beállítja a távolságot a jelölő szélességének százalékában, az adat sorozatok között egy 3D diagramon. Olvasás/írás UInt16. |
-| [GapWidth](../../aspose.slides.charts/ichartseriesgroup/gapwidth) { get; set; } | Megadja az oszlopcsoportok közti távolságot az oszlop vagy oszlop szélességének százalékában. Olvasás/írás UInt16. |
-| [HasSeriesLines](../../aspose.slides.charts/ichartseriesgroup/hasserieslines) { get; set; } | Igaz, ha a diagram rendelkezik sorozatvonalakkal. Alkalmazott halmozott oszlop és OfPie diagramoknál. Olvasás/írás Boolean. |
-| [HiLowLinesFormat](../../aspose.slides.charts/ichartseriesgroup/hilowlinesformat) { get; } | Megadja a HiLowLines formátumot. A HiLowLines a HiLowClose, OpenHiLowClose, VolumeHiLowClose és VolumeOpenHiLowClose diagramtípusokkal együtt alkalmazható. |
-| [IsColorVaried](../../aspose.slides.charts/ichartseriesgroup/iscolorvaried) { get; set; } | Megadja, hogy a sorozat minden adatjelzője különböző színű legyen. Olvasás/írás Boolean. |
-| [Item](../../aspose.slides.charts/ichartseriesgroup/item) { get; } | Megkapja a megadott indexű elemet. |
-| [Overlap](../../aspose.slides.charts/ichartseriesgroup/overlap) { get; set; } | Megadja, hogy a sávok és oszlopok mennyire fedjék egymást 2-D diagramokon, százalékban (-100-tól 100-ig). -100%: Legnagyobb távolság (a sávok teljesen el vannak választva). 0%: A sávok egymás mellett helyezkednek el átfedés vagy távolság nélkül. 100%: Legnagyobb átfedés (a sávok teljesen átfedik egymást). Ez a tulajdonság Olvasás/írás SByte. |
-| [PieSplitBy](../../aspose.slides.charts/ichartseriesgroup/piesplitby) { get; set; } | Megadja, hogyan határozzuk meg, mely adatpontok vannak a második tortán vagy oszlopon egy pie-of-pie vagy bar-of-pie diagramon. Olvasás/írás [`PieSplitType`](../piesplittype). |
-| [PieSplitCustomPoints](../../aspose.slides.charts/ichartseriesgroup/piesplitcustompoints) { get; } | Az egyéni felosztási információ egy egyéni felosztással rendelkező pie-of-pie vagy bar-of-pie diagramhoz. Azokat az adatpontokat tartalmazza, melyeket a második tortán vagy oszlopon kell megjeleníteni. Csak olvasható [`IPieSplitCustomPointCollection`](../ipiesplitcustompointcollection). |
-| [PieSplitPosition](../../aspose.slides.charts/ichartseriesgroup/piesplitposition) { get; set; } | Megad egy értéket, amelyet a második tortán vagy oszlopon lévő adatpontok meghatározásához használnak egy pie-of-pie vagy bar-of-pie diagramon. A PieSplitBy tulajdonsággal együtt használatos. Olvasás/írás Double. |
+| [AsIChartComponent](../../aspose.slides.charts/ichartseriesgroup/asichartcomponent) { get; } | Lehetővé teszi a bázis IChartComponent interfész lekérését. Csak olvasható [`IChartComponent`](../ichartcomponent). |
+| [BubbleSizeRepresentation](../../aspose.slides.charts/ichartseriesgroup/bubblesizerepresentation) { get; set; } | Meghatározza, hogyan jelennek meg a buborékméret értékek a buborékdiagramon. Olvasás/írás [`BubbleSizeRepresentationType`](../bubblesizerepresentationtype). |
+| [BubbleSizeScale](../../aspose.slides.charts/ichartseriesgroup/bubblesizescale) { get; set; } | Meghatározza a skalázási tényezőt a buborékdiagramhoz (0 és az alapértelmezett méret 300 százaléka között). Olvasás/írás Int32. |
+| [DoughnutHoleSize](../../aspose.slides.charts/ichartseriesgroup/doughnutholesize) { get; set; } | Meghatározza a lyuk méretét a fánkdiagramon (10 és 90 százalék között a diagramterület méretéhez képest). Olvasás/írás Byte. |
+| [FirstSliceAngle](../../aspose.slides.charts/ichartseriesgroup/firstsliceangle) { get; set; } | Lekéri vagy beállítja az első kör vagy fánkdiagram szeletének szögét fokban (az óramutató járásával megegyező irányban fentről, 0-tól 360 fokig). Olvasás/írás UInt16. |
+| [GapDepth](../../aspose.slides.charts/ichartseriesgroup/gapdepth) { get; set; } | Lekéri vagy beállítja az adatcsoportok közötti távolságot egy 3D diagramon, a jelölő szélességének százalékában. Az értéknek 0 és 500 között kell lennie. Olvasás/írás UInt16. |
+| [GapWidth](../../aspose.slides.charts/ichartseriesgroup/gapwidth) { get; set; } | Lekéri vagy beállítja az oszlop vagy sávcsoportok közötti hézagot, az oszlop vagy sáv szélességének százalékában. Az értéknek 0 és 500 között kell lennie. Olvasás/írás UInt16. |
+| [HasSeriesLines](../../aspose.slides.charts/ichartseriesgroup/hasserieslines) { get; set; } | Igaz, ha a diagramnak sorvonalai vannak. Alkalmazva a halmozott sáv és OfPie diagramokra. Olvasás/írás Boolean. |
+| [HiLowLinesFormat](../../aspose.slides.charts/ichartseriesgroup/hilowlinesformat) { get; } | Meghatározza a HiLowLines formátumot. A HiLowLines a HiLowClose, OpenHiLowClose, VolumeHiLowClose és VolumeOpenHiLowClose diagramtípusokkal alkalmazható. |
+| [IsColorVaried](../../aspose.slides.charts/ichartseriesgroup/iscolorvaried) { get; set; } | Meghatározza, hogy a sorozat minden adatjelölője más színű legyen. Olvasás/írás Boolean. |
+| [Item](../../aspose.slides.charts/ichartseriesgroup/item) { get; } | Lekéri a megadott indexű elemet. |
+| [Overlap](../../aspose.slides.charts/ichartseriesgroup/overlap) { get; set; } | Meghatározza, hogy a sávok és oszlopok mennyire fedjék át egymást 2-D diagramokon, százalékban (-100 % és 100 % között). - -100 %: maximális távolság (a sávok teljesen el vannak választva). - 0 %: a sávok egymás mellett helyezkednek el átfedés vagy távolság nélkül. - 100 %: maximális átfedés (a sávok teljesen egymásra fedik). Ez a tulajdonság olvasás/írás SByte. |
+| [PieSplitBy](../../aspose.slides.charts/ichartseriesgroup/piesplitby) { get; set; } | Meghatározza, hogyan határozzuk meg, mely adatpontok vannak a második körben vagy sávban egy kör-kör vagy sáv-kör diagramon. Olvasás/írás [`PieSplitType`](../piesplittype). |
+| [PieSplitCustomPoints](../../aspose.slides.charts/ichartseriesgroup/piesplitcustompoints) { get; } | Az egyéni felosztási információ egy kör-kör vagy sáv-kör diagramhoz egyedi felosztással. Az adatpontokat tartalmazza, amelyeket a második körben vagy sávban kell megjeleníteni egy kör-kör vagy sáv-kör diagramon. Csak olvasható [`IPieSplitCustomPointCollection`](../ipiesplitcustompointcollection). |
+| [PieSplitPosition](../../aspose.slides.charts/ichartseriesgroup/piesplitposition) { get; set; } | Meghatározza azt az értéket, amelyet a második körben vagy sávban lévő adatpontok meghatározásához használnak egy kör-kör vagy sáv-kör diagramon. A PieSplitBy tulajdonsággal együtt használatos. Olvasás/írás Double. |
 | [PlotOnSecondAxis](../../aspose.slides.charts/ichartseriesgroup/plotonsecondaxis) { get; } | Jelzi, hogy a csoport sorozatai másodlagos tengelyen vannak-e ábrázolva. Csak olvasható Boolean. |
-| [SecondPieSize](../../aspose.slides.charts/ichartseriesgroup/secondpiesize) { get; set; } | Megadja a második torta vagy oszlop méretét egy pie-of-pie vagy bar-of-pie diagramon, az első torta méretének százalékában (5-tól 200-ig százalék). Olvasás/írás UInt16. |
-| [Series](../../aspose.slides.charts/ichartseriesgroup/series) { get; } | Visszaad egy csak olvasható diagram sorozatgyűjteményt. Csak olvasható [`IChartSeriesReadonlyCollection`](../ichartseriesreadonlycollection). |
-| [Type](../../aspose.slides.charts/ichartseriesgroup/type) { get; } | Visszaad ennek a sorozatcsoportnak a típusát. Csak olvasható [`CombinableSeriesTypesGroup`](../combinableseriestypesgroup). |
-| [UpDownBars](../../aspose.slides.charts/ichartseriesgroup/updownbars) { get; } | Elérést biztosít a vonal- vagy részvény-diagram fel/le oszlopaihoz. Csak olvasható [`IUpDownBarsManager`](../iupdownbarsmanager). |
+| [SecondPieSize](../../aspose.slides.charts/ichartseriesgroup/secondpiesize) { get; set; } | Meghatározza a második kör vagy sáv méretét egy kör-kör vagy sáv-kör diagramon, az első kör méretének százalékában (5 és 200 százalék között). Olvasás/írás UInt16. |
+| [Series](../../aspose.slides.charts/ichartseriesgroup/series) { get; } | Visszaad egy csak olvasható gyűjteményt a diagram sorozatairól. Csak olvasható [`IChartSeriesReadonlyCollection`](../ichartseriesreadonlycollection). |
+| [Type](../../aspose.slides.charts/ichartseriesgroup/type) { get; } | Visszaad a sorozatcsoport típusát. Csak olvasható [`CombinableSeriesTypesGroup`](../combinableseriestypesgroup). |
+| [UpDownBars](../../aspose.slides.charts/ichartseriesgroup/updownbars) { get; } | Biztosít hozzáférést a vonal- vagy részvény-diagram fel/le sávjaihoz. Csak olvasható [`IUpDownBarsManager`](../iupdownbarsmanager). |
 
 ### Megjegyzések
 
-1) Lásd a ChartSeriesGroupCollection osztály és a CombinableSeriesTypesGroup enum összefoglalóját és megjegyzéseit. 2) A sorozatok csoportja néhány sorozati tulajdonságot tartalmaz, amelyek közösek minden sorozatra a csoportban („sorozatcsoport tulajdonságok”). A „sorozatcsoport tulajdonságok” a ChartSeriesGroup osztályban olvasás/írás. Minden egyes „sorozatcsoport tulajdonság” rendelkezik egy csak olvasható vetítéssel a ChartSeries osztályban.
+1) Lásd a összefoglalót és a megjegyzéseket a ChartSeriesGroupCollection osztály és a CombinableSeriesTypesGroup enum esetén. 2) A sorozatcsoport tartalmaz néhány sorozat tulajdonságot, amely közös minden sorozatra a csoportban („sorozatcsoport tulajdonságok”). A „sorozatcsoport tulajdonságok” a ChartSeriesGroup osztályban olvasás/írás. Minden egyes „sorozatcsoport tulajdonság” rendelkezhet csak-olvasható vetítéssel a ChartSeries osztályban.
 
 ### Lásd még
 

@@ -1,14 +1,14 @@
 ---
 title: RemoveEmbeddedFont
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Verwijdert het ingesloten lettertype
+description: Verwijdert het ingebedde lettertype
 type: docs
-weight: 90
+weight: 100
 url: /nl/aspose.slides/fontsmanager/removeembeddedfont/
 ---
 ## FontsManager.RemoveEmbeddedFont methode
 
-Verwijdert het ingesloten lettertype
+Verwijdert het ingebedde lettertype
 
 ```csharp
 public void RemoveEmbeddedFont(IFontData fontData)

@@ -1,14 +1,14 @@
 ---
 title: TimeUnitType
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Kategori ekseni için temel birimi temsil eder
 type: docs
-weight: 2460
+weight: 2480
 url: /tr/aspose.slides.charts/timeunittype/
 ---
-## TimeUnitType enum
+## TimeUnitType enumerasyonu
 
-Kategori ekseni için temel birimi temsil eder
+Temel birimi kategori ekseni için temsil eder
 
 ```csharp
 public enum TimeUnitType

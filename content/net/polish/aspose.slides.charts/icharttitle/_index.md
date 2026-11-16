@@ -1,12 +1,12 @@
 ---
 title: IChartTitle
-second_title: Aspose.Sildes dla .NET – referencja API
+second_title: Aspose.Sildes dla .NET – Referencja API
 description: Reprezentuje właściwości tytułu wykresu.
 type: docs
-weight: 2000
+weight: 2020
 url: /pl/aspose.slides.charts/icharttitle/
 ---
-## IChartTitle interfejs
+## Interfejs IChartTitle
 
 Reprezentuje właściwości tytułu wykresu.
 
@@ -18,10 +18,10 @@ public interface IChartTitle : IActualLayout, ILayoutable, IOverridableText
 
 | Nazwa | Opis |
 | --- | --- |
-| [AsILayoutable](../../aspose.slides.charts/icharttitle/asilayoutable) { get; } | Umożliwia uzyskanie podstawowego interfejsu ILayoutable. Tylko do odczytu [`ILayoutable`](../ilayoutable). |
-| [AsIOverridableText](../../aspose.slides.charts/icharttitle/asioverridabletext) { get; } | Umożliwia uzyskanie podstawowego interfejsu IOverridableText. Tylko do odczytu [`IOverridableText`](../ioverridabletext). |
+| [AsILayoutable](../../aspose.slides.charts/icharttitle/asilayoutable) { get; } | Umożliwia pobranie bazowego interfejsu ILayoutable. Tylko do odczytu [`ILayoutable`](../ilayoutable). |
+| [AsIOverridableText](../../aspose.slides.charts/icharttitle/asioverridabletext) { get; } | Umożliwia pobranie bazowego interfejsu IOverridableText. Tylko do odczytu [`IOverridableText`](../ioverridabletext). |
 | [Format](../../aspose.slides.charts/icharttitle/format) { get; } | Zwraca style wypełnienia, linii i efektów tytułu. Tylko do odczytu [`IFormat`](../iformat). |
-| [Overlay](../../aspose.slides.charts/icharttitle/overlay) { get; set; } | Określa, czy inne elementy wykresu mogą nachodzić na tytuł. Odczyt/zapis Boolean. |
+| [Overlay](../../aspose.slides.charts/icharttitle/overlay) { get; set; } | Określa, czy inne elementy wykresu mogą nakładać się na tytuł. Odczyt/zapis Boolean. |
 
 ### Zobacz także
 

@@ -1,14 +1,14 @@
 ---
 title: IPptOptions
-second_title: เอกสารอ้างอิง API ของ Aspose.Sildes สำหรับ .NET
-description: จัดหา ตัวเลือกที่ควบคุมวิธีการบันทึกการนำเสนอในรูปแบบ PPT.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: ให้ตัวเลือกที่ควบคุมวิธีการบันทึกงานนำเสนอในรูปแบบ PPT.
 type: docs
-weight: 4010
+weight: 4030
 url: /th/aspose.slides.export/ipptoptions/
 ---
-## IPptOptions interface
+## IPptOptions อินเทอร์เฟซ
 
-จัดหา ตัวเลือกที่ควบคุมวิธีการบันทึกการนำเสนอในรูปแบบ PPT.
+ให้ตัวเลือกที่ควบคุมวิธีการบันทึกงานนำเสนอในรูปแบบ PPT.
 
 ```csharp
 public interface IPptOptions : ISaveOptions
@@ -18,8 +18,8 @@ public interface IPptOptions : ISaveOptions
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/ipptoptions/asisaveoptions) { get; } | คืนค่า ISaveOptions interface. อ่านอย่างเดียว [`ISaveOptions`](../isaveoptions). |
-| [RootDirectoryClsid](../../aspose.slides.export/ipptoptions/rootdirectoryclsid) { get; set; } | แทนคลาส GUID (CLSID) ของอ็อบเจ็กต์ที่เก็บไว้ในรายการไดเรกทอรีราก สามารถใช้สำหรับการเปิดใช้งาน COM ของแอปพลิเคชันเอกสาร ค่าเริ่มต้นคือ '64818D11-4F9B-11CF-86EA-00AA00B929E8' ซึ่งสอดคล้องกับ 'Microsoft Powerpoint.Slide.8'. |
+| [AsISaveOptions](../../aspose.slides.export/ipptoptions/asisaveoptions) { get; } | ส่งคืน ISaveOptions อินเทอร์เฟซ. อ่านอย่างเดียว [`ISaveOptions`](../isaveoptions). |
+| [RootDirectoryClsid](../../aspose.slides.export/ipptoptions/rootdirectoryclsid) { get; set; } | แสดงคลาส GUID ของออบเจ็กต์ (CLSID) ที่ถูกเก็บไว้ในรายการไดเรกทอรีราก สามารถใช้เพื่อเปิดใช้งาน COM ของแอปพลิเคชันเอกสาร ค่าเริ่มต้นคือ '64818D11-4F9B-11CF-86EA-00AA00B929E8' ซึ่งสอดคล้องกับ 'Microsoft Powerpoint.Slide.8'. |
 
 ### ดูเพิ่มเติม
 

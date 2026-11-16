@@ -1,14 +1,14 @@
 ---
 title: GrayScale
 second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje efekt Gray Scale. Převádí všechny barevné hodnoty efektu na odstín šedé odpovídající jejich luminanci. Hodnoty alfa (průhlednost) efektu zůstávají beze změny.
+description: Reprezentuje efekt Gray Scale. Převádí všechny hodnoty barev efektu na odstín šedé odpovídající jejich luminanci. Hodnoty alfa (průhlednost) efektu nejsou ovlivněny.
 type: docs
-weight: 3000
+weight: 3020
 url: /cs/aspose.slides.effects/grayscale/
 ---
 ## GrayScale třída
 
-Reprezentuje efekt Gray Scale. Převádí všechny hodnoty barev efektu na odstín šedé odpovídající jejich luminanci. Hodnoty alfa (průhlednost) efektu zůstávají beze změny.
+Reprezentuje efekt Gray Scale. Převádí všechny hodnoty barev efektu na odstín šedé, odpovídající jejich luminanci. Hodnoty alfa (průhlednost) efektu nejsou ovlivněny.
 
 ```csharp
 public sealed class GrayScale : ImageTransformOperation, IGrayScale

@@ -1,12 +1,12 @@
 ---
 title: ICell
-second_title: Aspose.Sildes dla .NET – Dokumentacja API
+second_title: Aspose.Sildes dla .NET – referencja API
 description: Reprezentuje komórkę w tabeli.
 type: docs
-weight: 5450
+weight: 5470
 url: /pl/aspose.slides/icell/
 ---
-## ICell interfejs
+## interfejs ICell
 
 Reprezentuje komórkę w tabeli.
 
@@ -18,24 +18,24 @@ public interface ICell : ISlideComponent
 
 | Nazwa | Opis |
 | --- | --- |
-| [AnchorCenter](../../aspose.slides/icell/anchorcenter) { get; set; } | Określa, czy pole tekstowe jest wyśrodkowane w komórce. Odczyt/zapis Boolean. |
+| [AnchorCenter](../../aspose.slides/icell/anchorcenter) { get; set; } | Określa, czy pole tekstowe jest wyśrodkowane wewnątrz komórki. Odczyt/zapis Boolean. |
 | [AsISlideComponent](../../aspose.slides/icell/asislidecomponent) { get; } | Umożliwia pobranie podstawowego interfejsu ISlideComponent. Tylko do odczytu [`ISlideComponent`](../islidecomponent). |
-| [CellFormat](../../aspose.slides/icell/cellformat) { get; } | Zwraca obiekt CellFormat, który zawiera właściwości formatowania tej komórki. Tylko do odczytu [`ICellFormat`](../icellformat). |
-| [ColSpan](../../aspose.slides/icell/colspan) { get; } | Zwraca liczbę kolumn siatki w tabeli nadrzędnej, które mają być zajęte przez bieżącą komórkę. Ta właściwość pozwala komórkom wyglądać tak, jakby były połączone, ponieważ obejmują pionowe granice innych komórek w tabeli. Tylko do odczytu Int32. |
-| [FirstColumn](../../aspose.slides/icell/firstcolumn) { get; } | Pobiera pierwszą kolumnę komórki. Tylko do odczytu [`IColumn`](../icolumn). |
-| [FirstColumnIndex](../../aspose.slides/icell/firstcolumnindex) { get; } | Zwraca indeks pierwszej kolumny zajmowanej przez komórkę. Tylko do odczytu Int32. |
-| [FirstRow](../../aspose.slides/icell/firstrow) { get; } | Pobiera pierwszy wiersz komórki. Tylko do odczytu [`IRow`](../irow). |
-| [FirstRowIndex](../../aspose.slides/icell/firstrowindex) { get; } | Zwraca indeks pierwszego wiersza zajmowanego przez komórkę. Tylko do odczytu Int32. |
+| [CellFormat](../../aspose.slides/icell/cellformat) { get; } | Zwraca obiekt CellFormat, który zawiera właściwości formatowania dla tej komórki. Tylko do odczytu [`ICellFormat`](../icellformat). |
+| [ColSpan](../../aspose.slides/icell/colspan) { get; } | Zwraca liczbę kolumn siatki w siatce tabeli nadrzędnej, które mają być obejmowane przez bieżącą komórkę. Ta właściwość pozwala komórkom wyglądać tak, jakby były scalone, ponieważ obejmują pionowe granice innych komórek w tabeli. Tylko do odczytu Int32. |
+| [FirstColumn](../../aspose.slides/icell/firstcolumn) { get; } | Zwraca pierwszą kolumnę komórki. Tylko do odczytu [`IColumn`](../icolumn). |
+| [FirstColumnIndex](../../aspose.slides/icell/firstcolumnindex) { get; } | Zwraca indeks pierwszej kolumny objętej przez komórkę. Tylko do odczytu Int32. |
+| [FirstRow](../../aspose.slides/icell/firstrow) { get; } | Zwraca pierwszy wiersz komórki. Tylko do odczytu [`IRow`](../irow). |
+| [FirstRowIndex](../../aspose.slides/icell/firstrowindex) { get; } | Zwraca indeks pierwszego wiersza objętego przez komórkę. Tylko do odczytu Int32. |
 | [Height](../../aspose.slides/icell/height) { get; } | Zwraca wysokość komórki. Tylko do odczytu Double. |
 | [IsMergedCell](../../aspose.slides/icell/ismergedcell) { get; } | Zwraca true, jeśli komórka jest połączona z dowolną dopasowaną komórką, w przeciwnym razie false. Tylko do odczytu Boolean. |
 | [MarginBottom](../../aspose.slides/icell/marginbottom) { get; set; } | Zwraca lub ustawia dolny margines w TextFrame. Odczyt/zapis Double. |
 | [MarginLeft](../../aspose.slides/icell/marginleft) { get; set; } | Zwraca lub ustawia lewy margines w TextFrame. Odczyt/zapis Double. |
 | [MarginRight](../../aspose.slides/icell/marginright) { get; set; } | Zwraca lub ustawia prawy margines w TextFrame. Odczyt/zapis Double. |
 | [MarginTop](../../aspose.slides/icell/margintop) { get; set; } | Zwraca lub ustawia górny margines w TextFrame. Odczyt/zapis Double. |
-| [MinimalHeight](../../aspose.slides/icell/minimalheight) { get; } | Zwraca minimalną wysokość komórki. Jest to suma minimalnych wysokości wszystkich wierszy obejmowanych przez komórkę. Tylko do odczytu Double. |
+| [MinimalHeight](../../aspose.slides/icell/minimalheight) { get; } | Zwraca minimalną wysokość komórki. Jest to suma minimalnych wysokości wszystkich wierszy pokrytych przez komórkę. Tylko do odczytu Double. |
 | [OffsetX](../../aspose.slides/icell/offsetx) { get; } | Zwraca odległość od lewej krawędzi tabeli do lewej krawędzi komórki. Tylko do odczytu Double. |
 | [OffsetY](../../aspose.slides/icell/offsety) { get; } | Zwraca odległość od górnej krawędzi tabeli do górnej krawędzi komórki. Tylko do odczytu Double. |
-| [RowSpan](../../aspose.slides/icell/rowspan) { get; } | Zwraca liczbę wierszy, które zajmuje połączona komórka. Jest to używane w połączeniu z atrybutem vMerge w innych komórkach, aby określić początkową komórkę poziomego połączenia. Tylko do odczytu Int32. |
+| [RowSpan](../../aspose.slides/icell/rowspan) { get; } | Zwraca liczbę wierszy, które obejmuje połączona komórka. Jest to używane w połączeniu z atrybutem vMerge w innych komórkach w celu określenia początkowej komórki połączenia poziomego. Tylko do odczytu Int32. |
 | [Table](../../aspose.slides/icell/table) { get; } | Zwraca obiekt Table nadrzędny dla komórki. Tylko do odczytu [`ITable`](../itable). |
 | [TextAnchorType](../../aspose.slides/icell/textanchortype) { get; set; } | Zwraca lub ustawia typ kotwiczenia tekstu. Odczyt/zapis [`TextAnchorType`](../textanchortype). |
 | [TextFrame](../../aspose.slides/icell/textframe) { get; } | Zwraca ramkę tekstową komórki. Tylko do odczytu [`ITextFrame`](../itextframe). |

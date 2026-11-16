@@ -1,14 +1,14 @@
 ---
 title: ILineFormatEffectiveData
 second_title: Aspose.Sildes .NET API referencia
-description: Változtathatatlan objektum, amely a hatékony vonalformázási tulajdonságokat tartalmaz.
+description: Módosíthatatlan objektum, amely hatékony vonalformázási tulajdonságokat tartalmaz.
 type: docs
-weight: 6320
+weight: 6340
 url: /hu/aspose.slides/ilineformateffectivedata/
 ---
 ## ILineFormatEffectiveData interfész
 
-Változtathatatlan objektum, amely a hatékony vonalformázási tulajdonságokat tartalmaz.
+Módosíthatatlan objektum, amely hatékony vonalformázási tulajdonságokat tartalmaz.
 
 ```csharp
 public interface ILineFormatEffectiveData : ILineParamSource
@@ -19,24 +19,24 @@ public interface ILineFormatEffectiveData : ILineParamSource
 | Név | Leírás |
 | --- | --- |
 | [Alignment](../../aspose.slides/ilineformateffectivedata/alignment) { get; } | Visszaadja a vonal igazítását. Csak olvasható [`LineAlignment`](../linealignment). |
-| [AsILineParamSource](../../aspose.slides/ilineformateffectivedata/asilineparamsource) { get; } | Lehetővé teszi a bázis ILineParamSource interfész lekérését. Csak olvasható [`ILineParamSource`](../ilineparamsource). |
-| [BeginArrowheadLength](../../aspose.slides/ilineformateffectivedata/beginarrowheadlength) { get; } | Visszaadja a nyílfej hosszát egy vonal elején. Csak olvasható [`LineArrowheadLength`](../linearrowheadlength). |
-| [BeginArrowheadStyle](../../aspose.slides/ilineformateffectivedata/beginarrowheadstyle) { get; } | Visszaadja a nyílfej stílusát egy vonal elején. Csak olvasható [`LineArrowheadStyle`](../linearrowheadstyle). |
-| [BeginArrowheadWidth](../../aspose.slides/ilineformateffectivedata/beginarrowheadwidth) { get; } | Visszaadja a nyílfej szélességét egy vonal elején. Csak olvasható [`LineArrowheadWidth`](../linearrowheadwidth). |
-| [CapStyle](../../aspose.slides/ilineformateffectivedata/capstyle) { get; } | Visszaadja a vonal cap stílusát. Csak olvasható [`LineCapStyle`](../linecapstyle). |
-| [CustomDashPattern](../../aspose.slides/ilineformateffectivedata/customdashpattern) { get; } | Visszaadja az egyéni szaggatott mintát. Csak olvasható Single[]. |
-| [DashStyle](../../aspose.slides/ilineformateffectivedata/dashstyle) { get; } | Visszaadja a vonal szaggatottság stílusát. Csak olvasható [`LineDashStyle`](../linedashstyle). |
-| [EndArrowheadLength](../../aspose.slides/ilineformateffectivedata/endarrowheadlength) { get; } | Visszaadja a nyílfej hosszát egy vonal végén. Csak olvasható [`LineArrowheadLength`](../linearrowheadlength). |
-| [EndArrowheadStyle](../../aspose.slides/ilineformateffectivedata/endarrowheadstyle) { get; } | Visszaadja a nyílfej stílusát egy vonal végén. Csak olvasható [`LineArrowheadStyle`](../linearrowheadstyle). |
-| [EndArrowheadWidth](../../aspose.slides/ilineformateffectivedata/endarrowheadwidth) { get; } | Visszaadja a nyílfej szélességét egy vonal végén. Csak olvasható [`LineArrowheadWidth`](../linearrowheadwidth). |
-| [FillFormat](../../aspose.slides/ilineformateffectivedata/fillformat) { get; } | Visszaadja egy vonal kitöltési formátumát. Csak olvasható [`ILineFillFormatEffectiveData`](../ilinefillformateffectivedata). |
-| [JoinStyle](../../aspose.slides/ilineformateffectivedata/joinstyle) { get; } | Visszaadja a vonalak csatlakozási stílusát. Csak olvasható [`LineJoinStyle`](../linejoinstyle). |
-| [MiterLimit](../../aspose.slides/ilineformateffectivedata/miterlimit) { get; } | Visszaadja egy vonal miter határát. Csak olvasható Single. |
-| [SketchFormat](../../aspose.slides/ilineformateffectivedata/sketchformat) { get; } | Visszaadja egy vonal vázlat formátumát. Csak olvasható [`ISketchFormatEffectiveData`](../isketchformateffectivedata). |
+| [AsILineParamSource](../../aspose.slides/ilineformateffectivedata/asilineparamsource) { get; } | Lehetővé teszi a base ILineParamSource interfész lekérését. Csak olvasható [`ILineParamSource`](../ilineparamsource). |
+| [BeginArrowheadLength](../../aspose.slides/ilineformateffectivedata/beginarrowheadlength) { get; } | Visszaadja a nyílhegy hosszát a vonal elején. Csak olvasható [`LineArrowheadLength`](../linearrowheadlength). |
+| [BeginArrowheadStyle](../../aspose.slides/ilineformateffectivedata/beginarrowheadstyle) { get; } | Visszaadja a nyílhegy stílusát a vonal elején. Csak olvasható [`LineArrowheadStyle`](../linearrowheadstyle). |
+| [BeginArrowheadWidth](../../aspose.slides/ilineformateffectivedata/beginarrowheadwidth) { get; } | Visszaadja a nyílhegy szélességét a vonal elején. Csak olvasható [`LineArrowheadWidth`](../linearrowheadwidth). |
+| [CapStyle](../../aspose.slides/ilineformateffectivedata/capstyle) { get; } | Visszaadja a vonal vége stílusát. Csak olvasható [`LineCapStyle`](../linecapstyle). |
+| [CustomDashPattern](../../aspose.slides/ilineformateffectivedata/customdashpattern) { get; } | Visszaadja az egyéni vonalhajlítás mintát. Csak olvasható Single[]. |
+| [DashStyle](../../aspose.slides/ilineformateffectivedata/dashstyle) { get; } | Visszaadja a vonal szaggatott stílusát. Csak olvasható [`LineDashStyle`](../linedashstyle). |
+| [EndArrowheadLength](../../aspose.slides/ilineformateffectivedata/endarrowheadlength) { get; } | Visszaadja a nyílhegy hosszát a vonal végén. Csak olvasható [`LineArrowheadLength`](../linearrowheadlength). |
+| [EndArrowheadStyle](../../aspose.slides/ilineformateffectivedata/endarrowheadstyle) { get; } | Visszaadja a nyílhegy stílusát a vonal végén. Csak olvasható [`LineArrowheadStyle`](../linearrowheadstyle). |
+| [EndArrowheadWidth](../../aspose.slides/ilineformateffectivedata/endarrowheadwidth) { get; } | Visszaadja a nyílhegy szélességét a vonal végén. Csak olvasható [`LineArrowheadWidth`](../linearrowheadwidth). |
+| [FillFormat](../../aspose.slides/ilineformateffectivedata/fillformat) { get; } | Visszaadja a vonal kitöltési formátumát. Csak olvasható [`ILineFillFormatEffectiveData`](../ilinefillformateffectivedata). |
+| [JoinStyle](../../aspose.slides/ilineformateffectivedata/joinstyle) { get; } | Visszaadja a vonalak egyesülési stílusát. Csak olvasható [`LineJoinStyle`](../linejoinstyle). |
+| [MiterLimit](../../aspose.slides/ilineformateffectivedata/miterlimit) { get; } | Visszaadja a vonal butterolt korlátját. Csak olvasható Single. |
+| [SketchFormat](../../aspose.slides/ilineformateffectivedata/sketchformat) { get; } | Visszaadja a vonal vázlat formátumát. Csak olvasható [`ISketchFormatEffectiveData`](../isketchformateffectivedata). |
 | [Style](../../aspose.slides/ilineformateffectivedata/style) { get; } | Visszaadja a vonal stílusát. Csak olvasható [`LineStyle`](../linestyle). |
-| [Width](../../aspose.slides/ilineformateffectivedata/width) { get; } | Visszaadja egy vonal szélességét. Csak olvasható Double. |
+| [Width](../../aspose.slides/ilineformateffectivedata/width) { get; } | Visszaadja a vonal szélességét. Csak olvasható Double. |
 
-## Metódusok
+## Módszerek
 
 | Név | Leírás |
 | --- | --- |
@@ -44,7 +44,7 @@ public interface ILineFormatEffectiveData : ILineParamSource
 
 ### Megjegyzés
 
-Ez az interfész a [`ILineFormat`](../ilineformat) interfésszel együtt használható a hatékony formázási értékek visszaadására, öröklődés alkalmazásával.
+Ez az interfész a [`ILineFormat`](../ilineformat) interfésszel együtt használható, hogy visszaadja a öröklődés alkalmazott hatékony formázási értékeket.
 
 ### Lásd még
 

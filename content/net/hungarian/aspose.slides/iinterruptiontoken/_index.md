@@ -1,14 +1,14 @@
 ---
 title: IInterruptionToken
-second_title: Aspose.Sildes .NET API-referencia
-description: Ez az osztály a tokent jelöli, amelyet a hosszú futású feladatok esetén a megszakítás kérésének jelzésére használnak.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Ez az osztály azt a tokent képviseli, amelyet a hosszú futású feladatok esetén a megszakítás kérése jelzésére használunk.
 type: docs
-weight: 6190
+weight: 6210
 url: /hu/aspose.slides/iinterruptiontoken/
 ---
 ## IInterruptionToken interfész
 
-Ez az osztály a tokent jelöli, amelyet a hosszú futású feladatok esetén a megszakítás kérésének jelzésére használnak.
+Ez az osztály azt a tokent képviseli, amelyet hosszú futású feladatok esetén használhatunk annak jelzésére, hogy az megszakítás kért.
 
 ```csharp
 public interface IInterruptionToken
@@ -16,15 +16,15 @@ public interface IInterruptionToken
 
 ## Tulajdonságok
 
-| Name | Description |
+| Név | Leírás |
 | --- | --- |
-| [IsInterruptionRequested](../../aspose.slides/iinterruptiontoken/isinterruptionrequested) { get; } | Visszaadja a Boolean.true értéket, ha a megszakításra kérés történt. |
+| [IsInterruptionRequested](../../aspose.slides/iinterruptiontoken/isinterruptionrequested) { get; } | Visszaadja a Boolean.true értéket, ha az megszakítás kért. |
 
 ## Metódusok
 
-| Name | Description |
+| Név | Leírás |
 | --- | --- |
-| [ThrowIfInterruptionRequested](../../aspose.slides/iinterruptiontoken/throwifinterruptionrequested)() | Kivételt dob egy OperationCanceledException-t, ha a megszakításra kérés történt. Kivétel, ha a megszakításra kérés történt. |
+| [ThrowIfInterruptionRequested](../../aspose.slides/iinterruptiontoken/throwifinterruptionrequested)() | OperationCanceledException kivételt dob, ha az megszakítás kért. Dobás akkor történik, amikor az megszakítás kért. |
 
 ### Lásd még
 

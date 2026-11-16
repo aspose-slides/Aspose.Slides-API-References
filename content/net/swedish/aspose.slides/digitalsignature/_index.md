@@ -1,14 +1,14 @@
 ---
 title: DigitalSignature
 second_title: Aspose.Sildes för .NET API-referens
-description: Digital signatur i en signerad fil.
+description: Digital signatur i signerad fil.
 type: docs
-weight: 2770
+weight: 2790
 url: /sv/aspose.slides/digitalsignature/
 ---
-## DigitalSignature klass
+## DigitalSignature-klass
 
-Digital signatur i en signerad fil.
+Digital signatur i signerad fil.
 
 ```csharp
 public class DigitalSignature : IDigitalSignature
@@ -16,19 +16,19 @@ public class DigitalSignature : IDigitalSignature
 
 ## Konstruktörer
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
 | [DigitalSignature](digitalsignature#constructor)(X509Certificate2) | Skapar ett nytt DigitalSignature-objekt med det angivna certifikatet. |
-| [DigitalSignature](digitalsignature#constructor_1)(string, string) | Skapar ett nytt DigitalSignature-objekt med den angivna certifikatfilens sökväg och lösenordet. |
+| [DigitalSignature](digitalsignature#constructor_1)(string, string) | Skapar ett nytt DigitalSignature-objekt med den angivna certifikatfilens sökväg och lösenord. |
 
 ## Egenskaper
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
-| [Certificate](../../aspose.slides/digitalsignature/certificate) { get; } | Certifikatobjekt som användes för att signera dokumentet. Endast läs X509Certificate2. |
+| [Certificate](../../aspose.slides/digitalsignature/certificate) { get; } | Certifikatobjekt som användes för att signera dokumentet. Skrivskyddad X509Certificate2. |
 | [Comments](../../aspose.slides/digitalsignature/comments) { get; set; } | Syftet med signaturen. Läs/skriv String. |
-| [IsValid](../../aspose.slides/digitalsignature/isvalid) { get; } | Om denna digitala signatur är giltig och dokumentet inte har manipulerats, blir detta värde sant. Endast läs Boolean. |
-| [SignTime](../../aspose.slides/digitalsignature/signtime) { get; } | Tiden då dokumentet signerades. Endast läs DateTime. |
+| [IsValid](../../aspose.slides/digitalsignature/isvalid) { get; } | Om den här digitala signaturen är giltig och dokumentet inte har manipulerats, kommer detta värde att vara true. Skrivskyddad Boolean. |
+| [SignTime](../../aspose.slides/digitalsignature/signtime) { get; } | Tidpunkten då dokumentet signerades. Skrivskyddad DateTime. |
 
 ### Exempel
 
@@ -50,7 +50,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-Följande exempel på kod visar hur man validerar digital signatur för en PowerPoint-presentation.
+Följande exempel på kod visar hur man validerar en digital signatur för en PowerPoint-presentation.
 
 ```csharp
 [C#]
@@ -76,7 +76,7 @@ using (Presentation pres = new Presentation("SomePresentationSigned.pptx"))
 }
 ```
 
-### Se också
+### Se även
 
 * gränssnitt [IDigitalSignature](../idigitalsignature)
 * namnrymd [Aspose.Slides](../../aspose.slides)

@@ -1,14 +1,14 @@
 ---
 title: SpreadsheetOptions
-second_title: Referência da API Aspose.Sildes para .NET
-description: Representa opções que podem ser usadas para especificar comportamentos adicionais de planilhas.
+second_title: Aspose.Sildes para .NET Referência da API
+description: Representa opções que podem ser usadas para especificar comportamento adicional das planilhas.
 type: docs
-weight: 10740
+weight: 10760
 url: /pt/aspose.slides/spreadsheetoptions/
 ---
-## classe SpreadsheetOptions
+## SpreadsheetOptions classe
 
-Representa opções que podem ser usadas para especificar comportamentos adicionais de planilhas.
+Representa opções que podem ser usadas para especificar comportamento adicional das planilhas.
 
 ```csharp
 public class SpreadsheetOptions : ISpreadsheetOptions
@@ -24,10 +24,10 @@ public class SpreadsheetOptions : ISpreadsheetOptions
 
 | Nome | Descrição |
 | --- | --- |
-| [PreferredCulture](../../aspose.slides/spreadsheetoptions/preferredculture) { get; set; } | Obtém ou define as informações de cultura preferidas para calcular algumas funções destinadas ao uso com linguagens que utilizam o conjunto de caracteres de byte duplo (DBCS). |
-| [RecoverWorkbookFromChartCache](../../aspose.slides/spreadsheetoptions/recoverworkbookfromchartcache) { get; set; } | Se a fonte de dados para o gráfico for uma pasta de trabalho externa e não estiver disponível, ela será recuperada do cache do gráfico. |
+| [PreferredCulture](../../aspose.slides/spreadsheetoptions/preferredculture) { get; set; } | Obtém ou define informações de cultura preferidas para calcular algumas funções destinadas ao uso com idiomas que utilizam o conjunto de caracteres de dois bytes (DBCS). |
+| [RecoverWorkbookFromChartCache](../../aspose.slides/spreadsheetoptions/recoverworkbookfromchartcache) { get; set; } | Se a fonte de dados para o gráfico for uma pasta de trabalho externa e não estiver disponível, será recuperada do cache do gráfico. |
 
-### Veja Também
+### Ver também
 
 * interface [ISpreadsheetOptions](../ispreadsheetoptions)
 * namespace [Aspose.Slides](../../aspose.slides)

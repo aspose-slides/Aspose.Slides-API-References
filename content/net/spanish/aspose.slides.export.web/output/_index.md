@@ -1,9 +1,9 @@
 ---
 title: Output
-second_title: Aspose.Sildes para la referencia de la API .NET
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Representa una colección de elementos de salida para IWebDocument.
 type: docs
-weight: 4640
+weight: 4660
 url: /es/aspose.slides.export.web/output/
 ---
 ## Output clase
@@ -18,12 +18,13 @@ public sealed class Output
 
 | Nombre | Descripción |
 | --- | --- |
-| [Add](../../aspose.slides.export.web/output/add#add_1)(string, IImage) | Agrega un elemento de salida para la imagen. |
-| [Add](../../aspose.slides.export.web/output/add#add_2)(string, IPPImage) | Agrega un elemento de salida para la imagen. |
-| [Add](../../aspose.slides.export.web/output/add#add_3)(string, IVideo) | Agrega un elemento de salida para el video. |
-| [Add](../../aspose.slides.export.web/output/add#add_4)(string, string) | Agrega un elemento de salida para el contenido de texto. |
-| [Add](../../aspose.slides.export.web/output/add#add)(string, IFontData, FontStyleType) | Crea y agrega un elemento de archivo de salida para la fuente especificada. |
-| [Add&lt;TContextObject&gt;](../../aspose.slides.export.web/output/add#add_5)(string, string, TContextObject) | Agrega un elemento de salida para el objeto de contexto. |
+| [Add](../../aspose.slides.export.web/output/add#add)(string, IAudio) | Agrega un elemento de salida para el audio. |
+| [Add](../../aspose.slides.export.web/output/add#add_2)(string, IImage) | Agrega un elemento de salida para la imagen. |
+| [Add](../../aspose.slides.export.web/output/add#add_3)(string, IPPImage) | Agrega un elemento de salida para la imagen. |
+| [Add](../../aspose.slides.export.web/output/add#add_4)(string, IVideo) | Agrega un elemento de salida para el video. |
+| [Add](../../aspose.slides.export.web/output/add#add_5)(string, string) | Agrega un elemento de salida para el contenido de texto. |
+| [Add](../../aspose.slides.export.web/output/add#add_1)(string, IFontData, FontStyleType) | Crea y agrega un elemento de archivo de salida para la fuente especificada. |
+| [Add&lt;TContextObject&gt;](../../aspose.slides.export.web/output/add#add_6)(string, string, TContextObject) | Agrega un elemento de salida para el objeto de contexto. |
 | [BindResource](../../aspose.slides.export.web/output/bindresource)(IOutputFile, object) | Vincula el recurso al archivo de salida. |
 | [GetResourcePath](../../aspose.slides.export.web/output/getresourcepath)(object) | Devuelve la ruta para un recurso dado. |
 

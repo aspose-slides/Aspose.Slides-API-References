@@ -3,12 +3,12 @@ title: IGraphicalObjectLock
 second_title: Aspose.Sildes .NET API 參考
 description: 判斷在父層 GraphicalObjectEx 上哪些操作被停用。
 type: docs
-weight: 6070
+weight: 6090
 url: /zh-hant/aspose.slides/igraphicalobjectlock/
 ---
 ## IGraphicalObjectLock 介面
 
-決定在父層 GraphicalObjectEx 上哪些操作被停用。
+確定在父層 GraphicalObjectEx 上哪些操作被停用。
 
 ```csharp
 public interface IGraphicalObjectLock : IBaseShapeLock
@@ -19,14 +19,14 @@ public interface IGraphicalObjectLock : IBaseShapeLock
 | 名稱 | 說明 |
 | --- | --- |
 | [AsIBaseShapeLock](../../aspose.slides/igraphicalobjectlock/asibaseshapelock) { get; } | 允許取得基礎 IBaseShapeLock 介面。唯讀 [`IBaseShapeLock`](../ibaseshapelock)。 |
-| [AspectRatioLocked](../../aspose.slides/igraphicalobjectlock/aspectratiolocked) { get; set; } | 決定形狀在調整大小時是否必須保持長寬比。可讀寫 Boolean。 |
-| [DrilldownLocked](../../aspose.slides/igraphicalobjectlock/drilldownlocked) { get; set; } | 決定是否禁止選取此物件的子形狀。可讀寫 Boolean。 |
-| [GroupingLocked](../../aspose.slides/igraphicalobjectlock/groupinglocked) { get; set; } | 決定是否禁止將此形狀加入群組。可讀寫 Boolean。 |
-| [PositionLocked](../../aspose.slides/igraphicalobjectlock/positionlocked) { get; set; } | 決定是否禁止移動此形狀。可讀寫 Boolean。 |
-| [SelectLocked](../../aspose.slides/igraphicalobjectlock/selectlocked) { get; set; } | 決定是否禁止選取此形狀。可讀寫 Boolean。 |
-| [SizeLocked](../../aspose.slides/igraphicalobjectlock/sizelocked) { get; set; } | 決定是否禁止調整此形狀的大小。可讀寫 Boolean。 |
+| [AspectRatioLocked](../../aspose.slides/igraphicalobjectlock/aspectratiolocked) { get; set; } | 確定形狀在調整大小時是否必須保持長寬比。讀寫 Boolean。 |
+| [DrilldownLocked](../../aspose.slides/igraphicalobjectlock/drilldownlocked) { get; set; } | 確定是否禁止選取此物件的子形狀。讀寫 Boolean。 |
+| [GroupingLocked](../../aspose.slides/igraphicalobjectlock/groupinglocked) { get; set; } | 確定是否禁止將此形狀加入群組。讀寫 Boolean。 |
+| [PositionLocked](../../aspose.slides/igraphicalobjectlock/positionlocked) { get; set; } | 確定是否禁止移動此形狀。讀寫 Boolean。 |
+| [SelectLocked](../../aspose.slides/igraphicalobjectlock/selectlocked) { get; set; } | 確定是否禁止選取此形狀。讀寫 Boolean。 |
+| [SizeLocked](../../aspose.slides/igraphicalobjectlock/sizelocked) { get; set; } | 確定是否禁止調整此形狀的大小。讀寫 Boolean。 |
 
-### 另見
+### 另請參閱
 
 * 介面 [IBaseShapeLock](../ibaseshapelock)
 * 命名空間 [Aspose.Slides](../../aspose.slides)

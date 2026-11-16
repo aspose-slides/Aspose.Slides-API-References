@@ -1,14 +1,14 @@
 ---
 title: DataSourceTypeForErrorBarsCustomValues
-second_title: Aspose.Sildes .NET API referencia
-description: Meghatározza a ChartDataPoint.ErrorBarsCustomValues tulajdonságlistájában szereplő értéktípusokat
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Megadja a ChartDataPoint.ErrorBarsCustomValues tulajdonságlista értéktípusait
 type: docs
-weight: 1590
+weight: 1600
 url: /hu/aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/
 ---
 ## DataSourceTypeForErrorBarsCustomValues osztály
 
-Meghatározza a ChartDataPoint.ErrorBarsCustomValues tulajdonságlista értéktípusait.
+Meghatározza a ChartDataPoint.ErrorBarsCustomValues tulajdonságlistában szereplő értékek típusát
 
 ```csharp
 public class DataSourceTypeForErrorBarsCustomValues : IDataSourceTypeForErrorBarsCustomValues
@@ -24,10 +24,10 @@ public class DataSourceTypeForErrorBarsCustomValues : IDataSourceTypeForErrorBar
 
 | Név | Leírás |
 | --- | --- |
-| [DataSourceTypeForXMinusValues](../../aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforxminusvalues) { get; set; } | Meghatározza, hogy a AsCell vagy AsLiteralString vagy AsLiteralDouble tulajdonság a data points XMinus tulajdonságobjektumban az error bars custom values esetén ténylegesen megtalálható-e. Más szóval meghatározza a ChartDataPoint.ErrorBarsCustomValues.XMinus.Data tulajdonság értéktípusát. Olvasás/írás [`DataSourceType`](../datasourcetype). |
-| [DataSourceTypeForXPlusValues](../../aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforxplusvalues) { get; set; } | Meghatározza, hogy a AsCell vagy AsLiteralString vagy AsLiteralDouble tulajdonság a data points XPlus tulajdonságobjektumban az error bars custom values esetén ténylegesen megtalálható-e. Más szóval meghatározza a ChartDataPoint.ErrorBarsCustomValues.XPlus.Data tulajdonság értéktípusát. Olvasás/írás [`DataSourceType`](../datasourcetype). |
-| [DataSourceTypeForYMinusValues](../../aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforyminusvalues) { get; set; } | Meghatározza, hogy a AsCell vagy AsLiteralString vagy AsLiteralDouble tulajdonság a data points YMinus tulajdonságobjektumban az error bars custom values esetén ténylegesen megtalálható-e. Más szóval meghatározza a ChartDataPointEx.ErrorBarsCustomValues.YMinus.Data tulajdonság értéktípusát. Olvasás/írás [`DataSourceType`](../datasourcetype). |
-| [DataSourceTypeForYPlusValues](../../aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforyplusvalues) { get; set; } | Meghatározza, hogy a AsCell vagy AsLiteralString vagy AsLiteralDouble tulajdonság a data points YPlus tulajdonságobjektumban az error bars custom values esetén ténylegesen megtalálható-e. Más szóval meghatározza a ChartDataPointEx.ErrorBarsCustomValues.YPlus.Data tulajdonság értéktípusát. Olvasás/írás [`DataSourceType`](../datasourcetype). |
+| [DataSourceTypeForXMinusValues](../../aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforxminusvalues) { get; set; } | Meghatározza, hogy az AsCell vagy AsLiteralString vagy AsLiteralDouble tulajdonság érvényes-e az adatpontok XMinus tulajdonságobjektumában az egyéni hibasávértékekhez. Más szóval meghatározza a ChartDataPoint.ErrorBarsCustomValues.XMinus.Data tulajdonság értékének típusát. Olvasás/írás [`DataSourceType`](../datasourcetype). |
+| [DataSourceTypeForXPlusValues](../../aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforxplusvalues) { get; set; } | Meghatározza, hogy az AsCell vagy AsLiteralString vagy AsLiteralDouble tulajdonság érvényes-e az adatpontok XPlus tulajdonságobjektumában az egyéni hibasávértékekhez. Más szóval meghatározza a ChartDataPoint.ErrorBarsCustomValues.XPlus.Data tulajdonság értékének típusát. Olvasás/írás [`DataSourceType`](../datasourcetype). |
+| [DataSourceTypeForYMinusValues](../../aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforyminusvalues) { get; set; } | Meghatározza, hogy az AsCell vagy AsLiteralString vagy AsLiteralDouble tulajdonság érvényes-e az adatpontok YMinus tulajdonságobjektumában az egyéni hibasávértékekhez. Más szóval meghatározza a ChartDataPointEx.ErrorBarsCustomValues.YMinus.Data tulajdonság értékének típusát. Olvasás/írás [`DataSourceType`](../datasourcetype). |
+| [DataSourceTypeForYPlusValues](../../aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforyplusvalues) { get; set; } | Meghatározza, hogy az AsCell vagy AsLiteralString vagy AsLiteralDouble tulajdonság érvényes-e az adatpontok YPlus tulajdonságobjektumában az egyéni hibasávértékekhez. Más szóval meghatározza a ChartDataPointEx.ErrorBarsCustomValues.YPlus.Data tulajdonság értékének típusát. Olvasás/írás [`DataSourceType`](../datasourcetype). |
 
 ### Lásd még
 

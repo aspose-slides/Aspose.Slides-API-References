@@ -1,14 +1,14 @@
 ---
 title: IRotation3D
 second_title: Tham khảo API Aspose.Sildes cho .NET
-description: Đại diện cho phép quay 3D của một biểu đồ.
+description: Đại diện cho việc xoay 3D của một biểu đồ.
 type: docs
-weight: 2200
+weight: 2220
 url: /vi/aspose.slides.charts/irotation3d/
 ---
-## IRotation3D giao diện
+## Giao diện IRotation3D
 
-Đại diện cho phép quay 3D của một biểu đồ.
+Đại diện cho việc xoay 3D của một biểu đồ.
 
 ```csharp
 public interface IRotation3D
@@ -18,14 +18,14 @@ public interface IRotation3D
 
 | Name | Description |
 | --- | --- |
-| [DepthPercents](../../aspose.slides.charts/irotation3d/depthpercents) { get; set; } | Trả về hoặc thiết lập độ sâu của biểu đồ 3D dưới dạng phần trăm của độ rộng biểu đồ (giữa 20 và 2000 phần trăm). Đọc/ghi UInt16. |
-| [HeightPercents](../../aspose.slides.charts/irotation3d/heightpercents) { get; set; } | Xác định chiều cao của biểu đồ 3D dưới dạng phần trăm của độ rộng biểu đồ (giữa 5 và 500 phần trăm). Đọc/ghi UInt16. |
-| [Perspective](../../aspose.slides.charts/irotation3d/perspective) { get; set; } | Trả về hoặc thiết lập giá trị phối cảnh (góc trường nhìn) cho biểu đồ 3D (giữa 0 và 100). Bị bỏ qua nếu giá trị thuộc tính RightAngleAxes là true. Đọc/ghi Byte. |
-| [RightAngleAxes](../../aspose.slides.charts/irotation3d/rightangleaxes) { get; set; } | Xác định liệu các trục của biểu đồ có vuông góc hay không, thay vì được vẽ theo phối cảnh. Nói cách khác, nó xác định liệu các góc trục của biểu đồ có độc lập với việc xoay hoặc nâng độ cao của biểu đồ hay không. Đọc/ghi Boolean. |
-| [RotationX](../../aspose.slides.charts/irotation3d/rotationx) { get; set; } | Trả về hoặc thiết lập độ quay quanh trục X, tức là hướng Y cho biểu đồ 3D (giữa -90 và 90 độ). Thuộc tính này phù hợp với mục 21.2.2.157 rotX (X Rotation) trong ECMA-376 và với tùy chọn "Y Rotation" trong PowerPoint 2007+. Đọc/ghi SByte. |
-| [RotationY](../../aspose.slides.charts/irotation3d/rotationy) { get; set; } | Trả về hoặc thiết lập độ quay quanh trục Y, tức là hướng X cho biểu đồ 3D (giữa 0 và 360 độ). Thuộc tính này phù hợp với mục 21.2.2.158 rotY (Y Rotation) trong ECMA-376 và với tùy chọn "X Rotation" trong PowerPoint 2007+. Đọc/ghi UInt16. |
+| [DepthPercents](../../aspose.slides.charts/irotation3d/depthpercents) { get; set; } | Trả về hoặc đặt độ sâu của biểu đồ 3D dưới dạng phần trăm của chiều rộng biểu đồ (giữa 20 và 2000 phần trăm). Đọc/ghi UInt16. |
+| [HeightPercents](../../aspose.slides.charts/irotation3d/heightpercents) { get; set; } | Xác định chiều cao của biểu đồ 3D dưới dạng phần trăm của chiều rộng biểu đồ (giữa 5 và 500 phần trăm). Đọc/ghi UInt16. |
+| [Perspective](../../aspose.slides.charts/irotation3d/perspective) { get; set; } | Trả về hoặc đặt giá trị phối cảnh (góc trường nhìn) cho các biểu đồ 3D (giữa 0 và 100). Bị bỏ qua nếu giá trị thuộc tính RightAngleAxes là true. Đọc/ghi Byte. |
+| [RightAngleAxes](../../aspose.slides.charts/irotation3d/rightangleaxes) { get; set; } | Xác định liệu các trục của biểu đồ có vuông góc nhau hay không, thay vì được vẽ theo phối cảnh. Nói cách khác, nó xác định liệu các góc trục của biểu đồ có độc lập với việc xoay hoặc nghiêng của biểu đồ hay không. Đọc/ghi Boolean. |
+| [RotationX](../../aspose.slides.charts/irotation3d/rotationx) { get; set; } | Trả về hoặc đặt độ xoay quanh trục X, tức là theo hướng Y cho các biểu đồ 3D (giữa -90 và 90 độ). Thuộc tính này tương ứng với mục 21.2.2.157 rotX (X Rotation) trong ECMA-376 và với tùy chọn "Y Rotation" trong PowerPoint 2007+. Đọc/ghi SByte. |
+| [RotationY](../../aspose.slides.charts/irotation3d/rotationy) { get; set; } | Trả về hoặc đặt độ xoay quanh trục Y, tức là theo hướng X cho các biểu đồ 3D (giữa 0 và 360 độ). Thuộc tính này tương ứng với mục 21.2.2.158 rotY (Y Rotation) trong ECMA-376 và với tùy chọn "X Rotation" trong PowerPoint 2007+. Đọc/ghi UInt16. |
 
-### Xem Thêm
+### Xem thêm
 
 * không gian tên [Aspose.Slides.Charts](../../aspose.slides.charts)
 * tập hợp [Aspose.Slides](../../)

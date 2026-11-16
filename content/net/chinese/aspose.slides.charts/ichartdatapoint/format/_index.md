@@ -1,21 +1,20 @@
 ---
 title: Format
-second_title: Aspose.Sildes for .NET API Reference
-description: 表示格式属性。可读/写 IFormataspose.slides.charts/iformat。
+second_title: Aspose.Sildes for .NET API 参考
+description: 表示格式属性。读/写 IFormataspose.slides.charts/iformat.
 type: docs
-weight: 70
+weight: 110
 url: /zh/aspose.slides.charts/ichartdatapoint/format/
 ---
-
 ## IChartDataPoint.Format 属性
 
-表示格式属性。可读/写 [`IFormat`](../../iformat)。
+表示格式属性。读/写 [`IFormat`](../../iformat).
 
 ```csharp
 public IFormat Format { get; set; }
 ```
 
-### 另见
+### 参见
 
 * 接口 [IFormat](../../iformat)
 * 接口 [IChartDataPoint](../../ichartdatapoint)

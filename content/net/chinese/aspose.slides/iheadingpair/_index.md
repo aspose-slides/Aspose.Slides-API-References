@@ -3,7 +3,7 @@ title: IHeadingPair
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示文档的 Heading pair 属性。它指示文档部件的组名以及组中部件的数量。
 type: docs
-weight: 6100
+weight: 6120
 url: /zh/aspose.slides/iheadingpair/
 ---
 ## IHeadingPair 接口
@@ -18,10 +18,10 @@ public interface IHeadingPair
 
 | 名称 | 描述 |
 | --- | --- |
-| [Count](../../aspose.slides/iheadingpair/count) { get; } | 返回组中部件的数量。只读 Int32. |
-| [Name](../../aspose.slides/iheadingpair/name) { get; } | 返回文档部件的组名。只读 String. |
+| [Count](../../aspose.slides/iheadingpair/count) { get; } | 返回组中部件的数量。只读 Int32。 |
+| [Name](../../aspose.slides/iheadingpair/name) { get; } | 返回文档部件的组名。只读 String。 |
 
-### 参见
+### 另见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

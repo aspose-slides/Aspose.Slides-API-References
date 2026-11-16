@@ -1,14 +1,14 @@
 ---
 title: IMathPhantom
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: एक phantom गणितीय वस्तु ltmphantgt का प्रतिनिधित्व करता है जो उसके चाइल्ड तत्व के लेआउट को प्रभावित करता है बिना अनिवार्य रूप से उसे प्रदर्शित किए। एक phantom अपनी मूल अभिव्यक्ति को छिपा सकता है जबकि उसकी चौड़ाई, ऊँचाई या गहराई को संरक्षित रखता है ताकि सूत्रों को संरेखित किया जा सके या स्थान आरक्षित रखा जा सके। दृश्यता और ज्यामिति व्यवहार को Show, ZeroWid, ZeroAsc, ZeroDesc और Transp जैसी प्रॉपर्टीज़ द्वारा नियंत्रित किया जाता है।
+description: एक phantom गणित वस्तु ltmphantgt का प्रतिनिधित्व करता है जो अपने child element की लेआउट को प्रभावित करता है बिना आवश्यक रूप से उसे प्रदर्शित किए। एक phantom अपने base अभिव्यक्ति को छुपा सकता है जबकि उसकी width, height या depth को संरक्षित रखते हुए सूत्रों को संरेखित किया जा सकता है या स्थान आरक्षित किया जा सकता है। visibility और geometry व्यवहार को Show, ZeroWid, ZeroAsc, ZeroDesc, और Transp जैसी properties द्वारा नियंत्रित किया जाता है।
 type: docs
-weight: 8410
+weight: 8430
 url: /hi/aspose.slides.mathtext/imathphantom/
 ---
 ## IMathPhantom इंटरफ़ेस
 
-भ्रामक गणितीय ऑब्जेक्ट (&lt;m:phant&gt;) को दर्शाता है जो अपने चाइल्ड एलिमेंट के लेआउट को प्रभावित करता है बिना आवश्यक रूप से उसे प्रदर्शित किए। एक भ्रामक अपना बेस अभिव्यक्ति को छिपा सकता है जबकि उसकी चौड़ाई, ऊँचाई या गहराई को संरक्षित रखता है ताकि सूत्रों को संरेखित किया जा सके या स्थान आरक्षित रखा जा सके। दृश्यता और ज्यामिति व्यवहार को Show, ZeroWid, ZeroAsc, ZeroDesc, और Transp जैसी प्रॉपर्टीज़ द्वारा नियंत्रित किया जाता है।
+भूत गणित वस्तु (&lt;m:phant&gt;) का प्रतिनिधित्व करता है जो अपने बाल तत्व की व्यवस्था को प्रभावित करती है बिना ज़रूरी रूप से उसे प्रदर्शित किए। एक भूत अपने आधार अभिव्यक्ति को छुपा सकता है जबकि उसके चौड़ाई, ऊँचाई या गहराई को संरक्षित रखता है ताकि सूत्रों को संरेखित किया जा सके या स्थान आरक्षित रखा जा सके। दृश्यता और ज्यामिति व्यवहार को Show, ZeroWid, ZeroAsc, ZeroDesc, और Transp जैसी गुणों द्वारा नियंत्रित किया जाता है।
 
 ```csharp
 public interface IMathPhantom : IMathElement
@@ -18,12 +18,12 @@ public interface IMathPhantom : IMathElement
 
 | नाम | विवरण |
 | --- | --- |
-| [Base](../../aspose.slides.mathtext/imathphantom/base) { get; } | आधार तर्क |
-| [Show](../../aspose.slides.mathtext/imathphantom/show) { get; set; } | एक मान प्राप्त या निर्दिष्ट करता है जो यह दर्शाता है कि आधार तत्व प्रदर्शित है या नहीं। |
-| [Transp](../../aspose.slides.mathtext/imathphantom/transp) { get; set; } | एक मान प्राप्त या निर्दिष्ट करता है जो यह दर्शाता है कि कक्षा-आधारित स्पेसिंग नियमों के लिए भ्रामक वस्तु पारदर्शी है या नहीं। |
-| [ZeroAsc](../../aspose.slides.mathtext/imathphantom/zeroasc) { get; set; } | एक मान प्राप्त या निर्दिष्ट करता है जो यह दर्शाता है कि आधार तत्व की आरोह (बेसलाइन के ऊपर की ऊँचाई) को शून्य माना जाना चाहिए या नहीं। |
-| [ZeroDesc](../../aspose.slides.mathtext/imathphantom/zerodesc) { get; set; } | एक मान प्राप्त या निर्दिष्ट करता है जो यह दर्शाता है कि आधार तत्व की अवरोह (बेसलाइन के नीचे की गहराई) को शून्य माना जाना चाहिए या नहीं। |
-| [ZeroWidth](../../aspose.slides.mathtext/imathphantom/zerowidth) { get; set; } | एक मान प्राप्त या निर्दिष्ट करता है जो यह दर्शाता है कि आधार तत्व की चौड़ाई को शून्य माना जाना चाहिए या नहीं। |
+| [Base](../../aspose.slides.mathtext/imathphantom/base) { get; } | बेस तर्क |
+| [Show](../../aspose.slides.mathtext/imathphantom/show) { get; set; } | दर्शाता है कि बेस तत्व प्रदर्शित किया जाए या नहीं, इसे प्राप्त या सेट करता है। |
+| [Transp](../../aspose.slides.mathtext/imathphantom/transp) { get; set; } | दर्शाता है कि वर्ग-आधारित स्पेसिंग नियमों के लिए भूत पारदर्शी है या नहीं, इसे प्राप्त या सेट करता है। |
+| [ZeroAsc](../../aspose.slides.mathtext/imathphantom/zeroasc) { get; set; } | दर्शाता है कि बेस तत्व की आरोह (बेसलाइन के ऊपर की ऊँचाई) को शून्य माना जाए या नहीं, इसे प्राप्त या सेट करता है। |
+| [ZeroDesc](../../aspose.slides.mathtext/imathphantom/zerodesc) { get; set; } | दर्शाता है कि बेस तत्व की अवरोह (बेसलाइन के नीचे की गहराई) को शून्य माना जाए या नहीं, इसे प्राप्त या सेट करता है। |
+| [ZeroWidth](../../aspose.slides.mathtext/imathphantom/zerowidth) { get; set; } | दर्शाता है कि बेस तत्व की चौड़ाई को शून्य माना जाए या नहीं, इसे प्राप्त या सेट करता है। |
 
 ### उदाहरण
 
@@ -33,10 +33,10 @@ public interface IMathPhantom : IMathElement
 [C#]
 IMathPhantom phantom = new MathPhantom(new MathematicalText("1/2"));
 phantom.Show = false;          // सामग्री को छुपाएँ
-phantom.ZeroWidth = false;     // चौड़ाई बनाए रखें।
+phantom.ZeroWidth = false;     // चौड़ाई बनाए रखें
 ```
 
-### देखें
+### संबंधित देखें
 
 * इंटरफ़ेस [IMathElement](../imathelement)
 * नामस्थान [Aspose.Slides.MathText](../../aspose.slides.mathtext)

@@ -1,9 +1,9 @@
 ---
 title: SlideOrientation
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili orientasi slide.
 type: docs
-weight: 10000
+weight: 10020
 url: /id/aspose.slides/slideorientation/
 ---
 ## SlideOrientation enumerasi
@@ -18,8 +18,8 @@ public enum SlideOrientation
 
 | Nama | Nilai | Deskripsi |
 | --- | --- | --- |
-| Landscape | `0` | Orientasi lanskap. |
-| Portrait | `1` | Orientasi potret. |
+| Landscape | `0` | Orientasi Landscape. |
+| Portrait | `1` | Orientasi Portrait. |
 
 ### Lihat Juga
 

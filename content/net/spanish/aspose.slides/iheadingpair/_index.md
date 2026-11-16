@@ -3,7 +3,7 @@ title: IHeadingPair
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa una propiedad Heading pair del documento. Indica el nombre del grupo de partes del documento y el número de partes en el grupo.
 type: docs
-weight: 6100
+weight: 6120
 url: /es/aspose.slides/iheadingpair/
 ---
 ## IHeadingPair interfaz
@@ -18,7 +18,7 @@ public interface IHeadingPair
 
 | Nombre | Descripción |
 | --- | --- |
-| [Count](../../aspose.slides/iheadingpair/count) { get; } | Devuelve el número de partes del grupo. Solo lectura Int32. |
+| [Count](../../aspose.slides/iheadingpair/count) { get; } | Devuelve el número de partes en el grupo. Solo lectura Int32. |
 | [Name](../../aspose.slides/iheadingpair/name) { get; } | Devuelve el nombre del grupo de partes del documento. Solo lectura String. |
 
 ### Ver también

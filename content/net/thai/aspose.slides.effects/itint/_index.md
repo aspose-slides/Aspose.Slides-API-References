@@ -1,14 +1,14 @@
 ---
 title: ITint
-second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
-description: แทนค่าผลกระทบ Tint. เลื่อนค่าความเข้มสีของผลกระทบไปทาง/ออกจาก hue ตามปริมาณที่ระบุ.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: เป็นตัวแทนของเอฟเฟกต์ Tint. ปรับค่าความสีของเอฟเฟกต์ให้เข้าใกล้หรือห่างออกจากสีหลักตามจำนวนที่ระบุ.
 type: docs
-weight: 3540
+weight: 3560
 url: /th/aspose.slides.effects/itint/
 ---
-## ITint อินเทอร์เฟซ
+## ITint ส่วนต่อประสาน
 
-แทนค่าผลกระทบ Tint. เลื่อนค่าความเข้มสีของผลกระทบไปทาง/ออกจากสีตามปริมาณที่ระบุ
+เป็นตัวแทนของเอฟเฟกต์ Tint. ปรับค่าความสีของเอฟเฟกต์ให้เข้าใกล้หรือห่างออกจากสีหลักตามจำนวนที่ระบุ.
 
 ```csharp
 public interface ITint : IAccessiblePVIObject<ITintEffectiveData>, IImageTransformOperation
@@ -18,14 +18,14 @@ public interface ITint : IAccessiblePVIObject<ITintEffectiveData>, IImageTransfo
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/itint/asiaccessiblepviobject) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IAccessiblePVIObject พื้นฐานได้. อ่านอย่างเดียว [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/itint/asiimagetransformoperation) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IImageTransformOperation พื้นฐานได้. อ่านอย่างเดียว [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/itint/asiaccessiblepviobject) { get; } | อนุญาตให้ดึงส่วนต่อประสาน IAccessiblePVIObject พื้นฐาน. อ่านอย่างเดียว [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/itint/asiimagetransformoperation) { get; } | อนุญาตให้ดึงส่วนต่อประสาน IImageTransformOperation พื้นฐาน. อ่านอย่างเดียว [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### ดูเพิ่มเติม
 
-* อินเทอร์เฟซ [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
-* อินเทอร์เฟซ [ITintEffectiveData](../itinteffectivedata)
-* อินเทอร์เฟซ [IImageTransformOperation](../iimagetransformoperation)
+* ส่วนต่อประสาน [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
+* ส่วนต่อประสาน [ITintEffectiveData](../itinteffectivedata)
+* ส่วนต่อประสาน [IImageTransformOperation](../iimagetransformoperation)
 * เนมสเปซ [Aspose.Slides.Effects](../../aspose.slides.effects)
 * แอสเซมบลี [Aspose.Slides](../../)
 

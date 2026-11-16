@@ -1,14 +1,14 @@
 ---
 title: MasterLayoutSlideCollection
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงคอลเลกชันของสไลด์เลเอาต์ทั้งหมดของมาสเตอร์สไลด์ที่กำหนดไว้. ขยายคลาส LayoutSlideCollection ด้วยเมธอดสำหรับการเพิ่ม/แทรก/ลบ/คัดลอก/จัดเรียงสไลด์เลเอาต์ในบริบทของคอลเลกชันแยกของมาสเตอร์สไลด์เลเอาต์.
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: เป็นตัวแทนของคอลเลกชันของสไลด์เลเอาต์ทั้งหมดของมาสเตอร์สไลด์ที่กำหนด ขยายคลาส LayoutSlideCollection ด้วยเมธอดสำหรับการเพิ่ม/แทรก/ลบ/ทำสำเนา/จัดลำดับใหม่ของสไลด์เลเอาต์ในบริบทของคอลเลกชันแยกของสไลด์เลเอาต์ของมาสเตอร์
 type: docs
-weight: 8000
+weight: 8020
 url: /th/aspose.slides/masterlayoutslidecollection/
 ---
 ## MasterLayoutSlideCollection คลาส
 
-แสดงคอลเลกชันของสไลด์เลเอาต์ทั้งหมดของมาสเตอร์สไลด์ที่กำหนดไว้. ขยายคลาส LayoutSlideCollection ด้วยเมธอดสำหรับการเพิ่ม/แทรก/ลบ/คัดลอก/จัดเรียงสไลด์เลเอาต์ในบริบทของคอลเลกชันแยกของสไลด์เลเอาต์ของมาสเตอร์.
+เป็นตัวแทนของคอลเลกชันของสไลด์เลเอาต์ทั้งหมดของมาสเตอร์สไลด์ที่กำหนด ขยายคลาส LayoutSlideCollection ด้วยเมธอดสำหรับการเพิ่ม/แทรก/ลบ/ทำสำเนา/จัดลำดับใหม่ของสไลด์เลเอาต์ในบริบทของคอลเลกชันแยกของสไลด์เลเอาต์ของมาสเตอร์
 
 ```csharp
 public sealed class MasterLayoutSlideCollection : LayoutSlideCollection, 
@@ -17,26 +17,26 @@ public sealed class MasterLayoutSlideCollection : LayoutSlideCollection,
 
 ## คุณสมบัติ
 
-| ชื่อ | รายละเอียด |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Count](../../aspose.slides/layoutslidecollection/count) { get; } | คืนค่าจำนวนสไลด์เลเอาต์ในคอลเลกชัน. อ่านอย่างเดียว Int32. |
-| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | คืนค่าที่บ่งชี้ว่าการเข้าถึงคอลเลกชันถูกซิงโครไนซ์ (ปลอดภัยต่อเธรด). อ่านอย่างเดียว Boolean. |
-| [Item](../../aspose.slides/layoutslidecollection/item) { get; } | คืนค่าสไลด์เลเออต์ตามดัชนี. อ่านอย่างเดียว [`LayoutSlide`](../layoutslide). |
-| [SyncRoot](../../aspose.slides/layoutslidecollection/syncroot) { get; } | คืนรากการซิงโครไนซ์. อ่านอย่างเดียว Object. |
+| [Count](../../aspose.slides/layoutslidecollection/count) { get; } | คืนค่าจำนวนสไลด์เลเอาต์ในคอลเลกชัน อ่านอย่างเดียว Int32. |
+| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | คืนค่าค่าที่บ่งชี้ว่าการเข้าถึงคอลเลกชันได้รับการประสาน (ปลอดภัยจากเธรด) อ่านอย่างเดียว Boolean. |
+| [Item](../../aspose.slides/layoutslidecollection/item) { get; } | คืนค่าสไลด์เลเอาต์ตามดัชนี อ่านอย่างเดียว [`LayoutSlide`](../layoutslide). |
+| [SyncRoot](../../aspose.slides/layoutslidecollection/syncroot) { get; } | คืนค่ารากการประสาน อ่านอย่างเดียว Object. |
 
-## วิธีการ
+## เมธอด
 
-| ชื่อ | รายละเอียด |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Add](../../aspose.slides/masterlayoutslidecollection/add)(SlideLayoutType, string) | เพิ่มสไลด์เลเอาต์ใหม่ที่ตำแหน่งสุดท้ายของคอลเลกชัน. |
-| [AddClone](../../aspose.slides/masterlayoutslidecollection/addclone)(ILayoutSlide) | เพิ่มสำเนาของสไลด์เลเอาต์ที่ระบุที่ตำแหน่งสุดท้ายของคอลเลกชัน. |
-| [CopyTo](../../aspose.slides/layoutslidecollection/copyto)(Array, int) | คัดลอกองค์ประกอบทั้งหมดจากคอลเลกชันไปยังอาร์เรย์ที่ระบุ. |
-| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | คืนสไลด์เลเอาต์แรกของประเภทที่ระบุ. ประเภทของสไลด์เลเอาต์ที่ต้องการหา.[`LayoutSlide`](../layoutslide) โดยมีประเภทที่ระบุหรือ null หากไม่พบเลเอาต์. |
-| [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | คืนอีเทอเรเตอร์ที่วนผ่านคอลเลกชัน. |
-| [Insert](../../aspose.slides/masterlayoutslidecollection/insert)(int, SlideLayoutType, string) | แทรกสไลด์เลเอาต์ใหม่ในตำแหน่งที่ระบุของคอลเลกชัน. |
-| [InsertClone](../../aspose.slides/masterlayoutslidecollection/insertclone)(int, ILayoutSlide) | แทรกสำเนาของสไลด์เลเอาต์ที่ระบุในตำแหน่งที่ระบุของคอลเลกชัน. |
+| [Add](../../aspose.slides/masterlayoutslidecollection/add)(SlideLayoutType, string) | เพิ่มสไลด์เลเอาต์ใหม่ไปยังท้ายคอลเลกชัน. |
+| [AddClone](../../aspose.slides/masterlayoutslidecollection/addclone)(ILayoutSlide) | เพิ่มสำเนาของสไลด์เลเอาต์ที่ระบุไปยังท้ายคอลเลกชัน. |
+| [CopyTo](../../aspose.slides/layoutslidecollection/copyto)(Array, int) | คัดลอกทุกองค์ประกอบจากคอลเลกชันไปยังอาร์เรย์ที่ระบุ. |
+| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | คืนค่าสไลด์เลเอาต์แรกของประเภทที่ระบุ. ประเภทของสไลด์เลเอาต์ที่จะค้นหา.[`LayoutSlide`](../layoutslide) ด้วยประเภทที่ระบุหรือ null หากไม่พบเลเอาต์. |
+| [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | คืนค่า enumerator ที่วนซ้ำผ่านคอลเลกชัน. |
+| [Insert](../../aspose.slides/masterlayoutslidecollection/insert)(int, SlideLayoutType, string) | แทรกสไลด์เลเอาต์ใหม่ไปยังตำแหน่งที่ระบุของคอลเลกชัน. |
+| [InsertClone](../../aspose.slides/masterlayoutslidecollection/insertclone)(int, ILayoutSlide) | แทรกสำเนาของสไลด์เลเอาต์ที่ระบุไปยังตำแหน่งที่ระบุของคอลเลกชัน. |
 | [Remove](../../aspose.slides/layoutslidecollection/remove)(ILayoutSlide) | ลบเลเอาต์ออกจากคอลเลกชัน. |
-| [RemoveAt](../../aspose.slides/masterlayoutslidecollection/removeat)(int) | ลบองค์ประกอบที่ตำแหน่งดัชนีที่ระบุในคอลเลกชัน. |
+| [RemoveAt](../../aspose.slides/masterlayoutslidecollection/removeat)(int) | ลบองค์ประกอบที่ตำแหน่งดัชนีที่ระบุจากคอลเลกชัน. |
 | [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | ลบสไลด์เลเอาต์ที่ไม่ได้ใช้ (สไลด์เลเอาต์ที่ HasDependingSlides เป็น false). |
 | [Reorder](../../aspose.slides/masterlayoutslidecollection/reorder)(int, ILayoutSlide) | ย้ายสไลด์เลเอาต์จากคอลเลกชันไปยังตำแหน่งที่ระบุ. |
 

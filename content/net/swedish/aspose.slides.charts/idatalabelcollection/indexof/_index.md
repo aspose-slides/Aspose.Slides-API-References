@@ -3,7 +3,7 @@ title: IndexOf
 second_title: Aspose.Sildes för .NET API-referens
 description: Returnerar ett index för den angivna DataLabel i samlingen.
 type: docs
-weight: 110
+weight: 120
 url: /sv/aspose.slides.charts/idatalabelcollection/indexof/
 ---
 ## IDataLabelCollection.IndexOf metod
@@ -20,7 +20,7 @@ public int IndexOf(IDataLabel value)
 
 ### Returvärde
 
-Index för en DataLabel eller -1 om DataLabel inte kommer från den här samlingen.
+Index för en DataLabel eller -1 om DataLabel inte kommer från denna samling.
 
 ### Se även
 

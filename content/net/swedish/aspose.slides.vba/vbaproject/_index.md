@@ -3,7 +3,7 @@ title: VbaProject
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar VBA-projekt med presentationsmakron.
 type: docs
-weight: 11650
+weight: 11670
 url: /sv/aspose.slides.vba/vbaproject/
 ---
 ## VbaProject klass
@@ -16,27 +16,27 @@ public sealed class VbaProject : IVbaProject
 
 ## Konstruktorer
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
-| [VbaProject](vbaproject#constructor)() | Denna konstruktor skapar ett nytt VBA-projekt från början. Projektet kommer att skapas i 1252 Windows Latin 1 (ANSI) codepage |
-| [VbaProject](vbaproject#constructor_1)(byte[]) | Denna konstruktor läser in VBA-projekt från binär representation av en OLE-behållare. |
+| [VbaProject](vbaproject#constructor)() | Denna konstruktor skapar ett nytt VBA-projekt från början. Projektet kommer att skapas i 1252 Windows Latin 1 (ANSI) kodsida |
+| [VbaProject](vbaproject#constructor_1)(byte[]) | Denna konstruktor läser in VBA-projektet från den binära representationen av en OLE-behållare. |
 
 ## Egenskaper
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
-| [IsPasswordProtected](../../aspose.slides.vba/vbaproject/ispasswordprotected) { get; } | Anger om VBAProject är skyddat med ett lösenord för att visa projektegenskaper. Read-only Boolean. |
-| [Modules](../../aspose.slides.vba/vbaproject/modules) { get; } | Returnerar listan över alla moduler som ingår i VBA-projektet. Read-only [`IVbaModuleCollection`](../ivbamodulecollection). |
-| [Name](../../aspose.slides.vba/vbaproject/name) { get; } | Returnerar namnet på VBA-projektet. Read-only String. |
-| [References](../../aspose.slides.vba/vbaproject/references) { get; } | Returnerar listan över alla referenser som ingår i VBA-projektet. Read-only [`IVbaReferenceCollection`](../ivbareferencecollection). |
+| [IsPasswordProtected](../../aspose.slides.vba/vbaproject/ispasswordprotected) { get; } | Indikerar om VBAProject är skyddat med ett lösenord för att visa projekt-egenskaper. Skrivskyddad Boolean. |
+| [Modules](../../aspose.slides.vba/vbaproject/modules) { get; } | Returnerar listan över alla moduler som ingår i VBA-projektet. Skrivskyddad [`IVbaModuleCollection`](../ivbamodulecollection). |
+| [Name](../../aspose.slides.vba/vbaproject/name) { get; } | Returnerar namnet på VBA-projektet. Skrivskyddad String. |
+| [References](../../aspose.slides.vba/vbaproject/references) { get; } | Returnerar listan över alla referenser som ingår i VBA-projektet. Skrivskyddad [`IVbaReferenceCollection`](../ivbareferencecollection). |
 
 ## Metoder
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
 | [ToBinary](../../aspose.slides.vba/vbaproject/tobinary)() | Returnerar den binära representationen av VBA-projektet som OLE-behållare |
 
-### Se också
+### Se även
 
 * gränssnitt [IVbaProject](../ivbaproject)
 * namnrymd [Aspose.Slides.Vba](../../aspose.slides.vba)

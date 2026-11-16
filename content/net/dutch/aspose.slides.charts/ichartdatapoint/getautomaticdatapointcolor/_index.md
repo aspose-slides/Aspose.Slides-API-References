@@ -1,14 +1,14 @@
 ---
 title: GetAutomaticDataPointColor
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Retourneert een automatische kleur van het datapunt op basis van de series-index, datapunt-index, de eigenschap ParentSeriesGroup.IsColorVaried en de diagramstijl. Deze kleur wordt standaard gebruikt als FillType gelijk is aan NotDefined.
+description: Retourneert een automatische kleur van gegevenspunt op basis van seriesindex, gegevenspuntindex, ParentSeriesGroup.IsColorVaried eigenschap en diagramstijl. Deze kleur wordt standaard gebruikt als FillType gelijk is aan NotDefined.
 type: docs
-weight: 190
+weight: 230
 url: /nl/aspose.slides.charts/ichartdatapoint/getautomaticdatapointcolor/
 ---
 ## IChartDataPoint.GetAutomaticDataPointColor methode
 
-Retourneert een automatische kleur van het datapunt op basis van de series-index, datapunt-index, de eigenschap ParentSeriesGroup.IsColorVaried en de diagramstijl. Deze kleur wordt standaard gebruikt als FillType gelijk is aan NotDefined.
+Retourneert een automatische kleur van gegevenspunt op basis van seriesindex, gegevenspuntindex, ParentSeriesGroup.IsColorVaried eigenschap en diagramstijl. Deze kleur wordt standaard gebruikt als FillType gelijk is aan NotDefined.
 
 ```csharp
 public Color GetAutomaticDataPointColor()
@@ -16,7 +16,7 @@ public Color GetAutomaticDataPointColor()
 
 ### Retourwaarde
 
-Automatische kleur van datapunt Color
+Automatische kleur van gegevenspunt Color
 
 ### Zie ook
 

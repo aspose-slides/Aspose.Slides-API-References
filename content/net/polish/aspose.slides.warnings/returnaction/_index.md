@@ -1,12 +1,12 @@
 ---
 title: ReturnAction
-second_title: Aspose.Sildes dla .NET – odniesienie API
+second_title: Aspose.Sildes dla .NET – Dokumentacja API
 description: Reprezentuje opcje decyzji wywołania zwrotnego ostrzeżenia.
 type: docs
-weight: 11820
+weight: 11840
 url: /pl/aspose.slides.warnings/returnaction/
 ---
-## Wyliczenie ReturnAction
+## ReturnAction enumeracja
 
 Reprezentuje opcje decyzji wywołania zwrotnego ostrzeżenia.
 

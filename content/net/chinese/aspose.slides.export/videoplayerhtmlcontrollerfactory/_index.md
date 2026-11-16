@@ -3,12 +3,12 @@ title: VideoPlayerHtmlControllerFactory
 second_title: Aspose.Sildes for .NET API 参考
 description: 允许创建 VideoPlayerHtmlController。
 type: docs
-weight: 4590
+weight: 4610
 url: /zh/aspose.slides.export/videoplayerhtmlcontrollerfactory/
 ---
 ## VideoPlayerHtmlControllerFactory 类
 
-允许创建 VideoPlayerHtmlController。
+允许创建 VideoPlayerHtmlController.
 
 ```csharp
 public class VideoPlayerHtmlControllerFactory : IVideoPlayerHtmlControllerFactory
@@ -26,11 +26,11 @@ public class VideoPlayerHtmlControllerFactory : IVideoPlayerHtmlControllerFactor
 | --- | --- |
 | [CreateVideoPlayerHtmlController](../../aspose.slides.export/videoplayerhtmlcontrollerfactory/createvideoplayerhtmlcontroller)(string, string, string) | 创建新的 `VideoPlayerHtmlController`。 |
 
-### 备注
+### 注意
 
 用于 COM 兼容性。
 
-### 另见
+### 另请参阅
 
 * 接口 [IVideoPlayerHtmlControllerFactory](../ivideoplayerhtmlcontrollerfactory)
 * 命名空间 [Aspose.Slides.Export](../../aspose.slides.export)

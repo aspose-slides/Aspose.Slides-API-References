@@ -1,14 +1,14 @@
 ---
 title: ISketchFormatEffectiveData
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Oggetto immutabile che contiene le proprietà effettive del tratto di linea.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Oggetto immutabile che contiene le proprietà effettive dello schizzo di linea.
 type: docs
-weight: 7030
+weight: 7050
 url: /it/aspose.slides/isketchformateffectivedata/
 ---
 ## ISketchFormatEffectiveData interfaccia
 
-Oggetto immutabile che contiene le proprietà effettive del tratto di schizzo.
+Oggetto immutabile che contiene le proprietà effettive dello schizzo di linea.
 
 ```csharp
 public interface ISketchFormatEffectiveData

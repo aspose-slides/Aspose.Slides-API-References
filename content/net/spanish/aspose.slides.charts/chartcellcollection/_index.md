@@ -3,7 +3,7 @@ title: ChartCellCollection
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa una colección de celdas con datos.
 type: docs
-weight: 1300
+weight: 1310
 url: /es/aspose.slides.charts/chartcellcollection/
 ---
 ## ChartCellCollection clase
@@ -28,7 +28,7 @@ public class ChartCellCollection : IChartCellCollection
 | [Add](../../aspose.slides.charts/chartcellcollection/add#add)(IChartDataCell) | Agrega una nueva celda a la colección. |
 | [Add](../../aspose.slides.charts/chartcellcollection/add#add_1)(object) | Crea [`ChartDataCell`](../chartdatacell) a partir del valor especificado y lo agrega a la colección. |
 | [GetCellsAddress](../../aspose.slides.charts/chartcellcollection/getcellsaddress)() | Devuelve la dirección del conjunto de celdas en el libro de trabajo. |
-| [GetConcatenatedValuesFromCells](../../aspose.slides.charts/chartcellcollection/getconcatenatedvaluesfromcells)() | Cadena de concatenación de los valores de cadena de todas las celdas. |
+| [GetConcatenatedValuesFromCells](../../aspose.slides.charts/chartcellcollection/getconcatenatedvaluesfromcells)() | Cadena concatenada de los valores de cadena de todas las celdas. |
 | [GetEnumerator](../../aspose.slides.charts/chartcellcollection/getenumerator)() | Devuelve un enumerador que itera a través de la colección. |
 | [RemoveAt](../../aspose.slides.charts/chartcellcollection/removeat)(int) | Elimina una celda de la colección por índice. |
 

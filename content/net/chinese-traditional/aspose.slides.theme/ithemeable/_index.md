@@ -1,14 +1,14 @@
 ---
 title: IThemeable
-second_title: Aspose.Sildes for .NET API 參考文件
-description: 表示可以使用 ITheme./itheme 進行主題設定的物件。
+second_title: Aspose.Sildes for .NET API 參考
+description: 表示可以使用 ITheme./itheme 佈景的物件。
 type: docs
-weight: 11400
+weight: 11420
 url: /zh-hant/aspose.slides.theme/ithemeable/
 ---
 ## IThemeable 介面
 
-代表可以使用 [`ITheme`](../itheme) 進行主題設定的物件。
+表示可以使用 [`ITheme`](../itheme) 佈景的物件。
 
 ```csharp
 public interface IThemeable : ISlideComponent
@@ -16,17 +16,17 @@ public interface IThemeable : ISlideComponent
 
 ## 屬性
 
-| 名稱 | 描述 |
+| Name | Description |
 | --- | --- |
 | [AsISlideComponent](../../aspose.slides.theme/ithemeable/asislidecomponent) { get; } | 傳回 ISlideComponent 介面。唯讀 [`ISlideComponent`](../../aspose.slides/islidecomponent)。 |
 
 ## 方法
 
-| 名稱 | 描述 |
+| Name | Description |
 | --- | --- |
-| [CreateThemeEffective](../../aspose.slides.theme/ithemeable/createthemeeffective)() | 傳回此可主題化物件的有效主題。 |
+| [CreateThemeEffective](../../aspose.slides.theme/ithemeable/createthemeeffective)() | 傳回此可佈景物件的有效主題。 |
 
-### 另見
+### 另請參閱
 
 * 介面 [ISlideComponent](../../aspose.slides/islidecomponent)
 * 命名空間 [Aspose.Slides.Theme](../../aspose.slides.theme)

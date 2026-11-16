@@ -1,9 +1,9 @@
 ---
 title: ISectionZoomFrame
-second_title: Aspose.Sildes für .NET API Referenz
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt ein Section Zoom-Objekt in einer Folie dar.
 type: docs
-weight: 6920
+weight: 6940
 url: /de/aspose.slides/isectionzoomframe/
 ---
 ## ISectionZoomFrame Schnittstelle
@@ -18,8 +18,8 @@ public interface ISectionZoomFrame : IZoomObject
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIZoomObject](../../aspose.slides/isectionzoomframe/asizoomobject) { get; } | Gibt die IZoomObject-Schnittstelle zurück. |
-| [TargetSection](../../aspose.slides/isectionzoomframe/targetsection) { get; set; } | Liest oder schreibt das Abschnittsobjekt, mit dem das Section Zoom-Objekt verknüpft ist. Lesen/Schreiben [`ISection`](../isection). |
+| [AsIZoomObject](../../aspose.slides/isectionzoomframe/asizoomobject) { get; } | Gibt zurück IZoomObject Schnittstelle. |
+| [TargetSection](../../aspose.slides/isectionzoomframe/targetsection) { get; set; } | Liest oder setzt das Abschnittsobjekt, mit dem das Section Zoom-Objekt verknüpft ist. Lesen/Schreiben [`ISection`](../isection). |
 
 ### Siehe auch
 

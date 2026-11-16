@@ -1,14 +1,14 @@
 ---
 title: ICommentAuthorCollection
-second_title: Referencia de la API de Aspose.Sildes para .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa una colección de autores de comentarios.
 type: docs
-weight: 5580
+weight: 5600
 url: /es/aspose.slides/icommentauthorcollection/
 ---
 ## ICommentAuthorCollection interfaz
 
-Representa una colección de autores de comentarios.
+Represents a collection of comment authors.
 
 ```csharp
 public interface ICommentAuthorCollection : IGenericCollection<ICommentAuthor>
@@ -24,12 +24,12 @@ public interface ICommentAuthorCollection : IGenericCollection<ICommentAuthor>
 
 | Nombre | Descripción |
 | --- | --- |
-| [AddAuthor](../../aspose.slides/icommentauthorcollection/addauthor)(string, string) | Agregar nuevo autor al final de una colección. |
+| [AddAuthor](../../aspose.slides/icommentauthorcollection/addauthor)(string, string) | Agrega un nuevo autor al final de una colección. |
 | [Clear](../../aspose.slides/icommentauthorcollection/clear)() | Elimina todos los autores de una colección. |
-| [FindByName](../../aspose.slides/icommentauthorcollection/findbyname)(string) | Buscar autor en una colección por nombre. |
-| [FindByNameAndInitials](../../aspose.slides/icommentauthorcollection/findbynameandinitials)(string, string) | Buscar autor en una colección por nombre e iniciales. |
-| [Remove](../../aspose.slides/icommentauthorcollection/remove)(ICommentAuthor) | Elimina la primera ocurrencia del autor especificado en una colección. |
-| [RemoveAt](../../aspose.slides/icommentauthorcollection/removeat)(int) | Elimina el autor en el índice especificado de la colección. |
+| [FindByName](../../aspose.slides/icommentauthorcollection/findbyname)(string) | Encuentra al autor en una colección por nombre. |
+| [FindByNameAndInitials](../../aspose.slides/icommentauthorcollection/findbynameandinitials)(string, string) | Encuentra al autor en una colección por nombre e iniciales. |
+| [Remove](../../aspose.slides/icommentauthorcollection/remove)(ICommentAuthor) | Elimina la primera aparición del autor especificado en una colección. |
+| [RemoveAt](../../aspose.slides/icommentauthorcollection/removeat)(int) | Elimina al autor en el índice especificado de la colección. |
 | [ToArray](../../aspose.slides/icommentauthorcollection/toarray)() | Crea y devuelve una matriz con todos los autores. |
 
 ### Ver también

@@ -1,14 +1,14 @@
 ---
 title: IMathArrayFactory
-second_title: Aspose.Sildes dla .NET Referencja API
-description: Umożliwia tworzenie tablicy matematycznej
+second_title: Aspose.Sildes dla referencji API .NET
+description: Umożliwia utworzenie tablicy matematycznej
 type: docs
-weight: 8110
+weight: 8130
 url: /pl/aspose.slides.mathtext/imatharrayfactory/
 ---
 ## IMathArrayFactory interfejs
 
-Umożliwia tworzenie tablicy matematycznej
+Umożliwia utworzenie tablicy matematycznej
 
 ```csharp
 public interface IMathArrayFactory
@@ -23,7 +23,7 @@ public interface IMathArrayFactory
 
 ### Uwagi
 
-Dla zgodności z COM
+Dla kompatybilności z COM
 
 ### Zobacz także
 

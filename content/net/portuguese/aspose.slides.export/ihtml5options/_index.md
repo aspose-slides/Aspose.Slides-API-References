@@ -3,7 +3,7 @@ title: IHtml5Options
 second_title: Aspose.Sildes para .NET Referência da API
 description: Representa opções de exportação HTML5.
 type: docs
-weight: 3930
+weight: 3950
 url: /pt/aspose.slides.export/ihtml5options/
 ---
 ## IHtml5Options interface
@@ -21,10 +21,10 @@ public interface IHtml5Options : ISaveOptions
 | [AnimateShapes](../../aspose.slides.export/ihtml5options/animateshapes) { get; set; } | Retorna ou define a opção de animação de formas. Leitura/gravação Boolean. |
 | [AnimateTransitions](../../aspose.slides.export/ihtml5options/animatetransitions) { get; set; } | Retorna ou define a opção de animação de transições. Leitura/gravação Boolean. |
 | [AsISaveOptions](../../aspose.slides.export/ihtml5options/asisaveoptions) { get; } | Retorna a interface ISaveOptions. Somente leitura [`ISaveOptions`](../isaveoptions). |
-| [DisableFontLigatures](../../aspose.slides.export/ihtml5options/disablefontligatures) { get; set; } | Obtém ou define um valor que indica se o texto é renderizado sem usar ligaduras. Quando definido como `true`, as ligaduras serão desativadas na saída renderizada. Por padrão, esta propriedade está definida como `false`. |
+| [DisableFontLigatures](../../aspose.slides.export/ihtml5options/disablefontligatures) { get; set; } | Obtém ou define um valor que indica se o texto é renderizado sem usar ligaturas. Quando definido como `true`, as ligaturas serão desativadas na saída renderizada. Por padrão, esta propriedade está definida como `false`. |
 | [EmbedImages](../../aspose.slides.export/ihtml5options/embedimages) { get; set; } | Retorna ou define a opção de incorporação de imagens. Leitura/gravação Boolean. |
 | [OutputPath](../../aspose.slides.export/ihtml5options/outputpath) { get; set; } | Determina onde os recursos externos devem ser armazenados. Leitura/gravação String. |
-| [PicturesCompression](../../aspose.slides.export/ihtml5options/picturescompression) { get; set; } | Representa o nível de compressão de imagens. Leitura/gravação [`PicturesCompression`](./picturescompression). |
+| [PicturesCompression](../../aspose.slides.export/ihtml5options/picturescompression) { get; set; } | Representa o nível de compressão das imagens. Leitura/gravação [`PicturesCompression`](./picturescompression). |
 | [SlidesLayoutOptions](../../aspose.slides.export/ihtml5options/slideslayoutoptions) { get; set; } | Obtém ou define o modo como os slides são posicionados na página ao exportar uma apresentação [`ISlidesLayoutOptions`](../islideslayoutoptions). |
 
 ### Exemplos
@@ -43,7 +43,7 @@ using (Presentation pres = new Presentation("demo.pptx"))
 }
 ```
 
-### Ver também
+### Veja Também
 
 * interface [ISaveOptions](../isaveoptions)
 * namespace [Aspose.Slides.Export](../../aspose.slides.export)

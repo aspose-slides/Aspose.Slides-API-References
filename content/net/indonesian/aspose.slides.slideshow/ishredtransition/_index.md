@@ -1,12 +1,12 @@
 ---
 title: IShredTransition
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Efek transisi slide Shred.
 type: docs
-weight: 10180
+weight: 10200
 url: /id/aspose.slides.slideshow/ishredtransition/
 ---
-## Antarmuka IShredTransition
+## IShredTransition antarmuka
 
 Efek transisi slide Shred.
 
@@ -18,7 +18,7 @@ public interface IShredTransition : ITransitionValueBase
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/ishredtransition/asitransitionvaluebase) { get; } | Memungkinkan untuk mendapatkan antarmuka ITransitionValueBase dasar. Hanya-baca [`ITransitionValueBase`](../itransitionvaluebase). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/ishredtransition/asitransitionvaluebase) { get; } | Mengizinkan untuk mendapatkan antarmuka dasar ITransitionValueBase. Baca-saja [`ITransitionValueBase`](../itransitionvaluebase). |
 | [Direction](../../aspose.slides.slideshow/ishredtransition/direction) { get; set; } | Arah transisi. Baca/tulis [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
 | [Pattern](../../aspose.slides.slideshow/ishredtransition/pattern) { get; set; } | Menentukan bentuk visual yang digunakan selama transisi. Baca/tulis [`TransitionShredPattern`](../transitionshredpattern). |
 

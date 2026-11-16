@@ -1,9 +1,9 @@
 ---
 title: Html5Options
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: HTML5 エクスポートオプションを表します。
 type: docs
-weight: 3860
+weight: 3880
 url: /ja/aspose.slides.export/html5options/
 ---
 ## Html5Options クラス
@@ -18,31 +18,30 @@ public class Html5Options : SaveOptions, IHtml5Options
 
 | 名前 | 説明 |
 | --- | --- |
-| [Html5Options](html5options)() | デフォルトコンストラクタ。 |
+| [Html5Options](html5options)() | デフォルトコンストラクター。 |
 
 ## プロパティ
 
 | 名前 | 説明 |
 | --- | --- |
-| [AnimateShapes](../../aspose.slides.export/html5options/animateshapes) { get; set; } | シェイプのアニメーションオプションを取得または設定します。読み取り/書き込み Boolean。 |
-| [AnimateTransitions](../../aspose.slides.export/html5options/animatetransitions) { get; set; } | トランジションのアニメーションオプションを取得または設定します。読み取り/書き込み Boolean。 |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | ソースフォントが見つからない場合に使用されるフォントを取得または設定します。読み取り/書き込み String。 |
-| [DisableFontLigatures](../../aspose.slides.export/html5options/disablefontligatures) { get; set; } | リガチャを使用せずにテキストがレンダリングされるかどうかを示す値を取得または設定します。`true` に設定すると、レンダリング出力でリガチャが無効になります。デフォルトでは、このプロパティは `false` に設定されています。 |
-| [EmbedImages](../../aspose.slides.export/html5options/embedimages) { get; set; } | 画像の埋め込みオプションを取得または設定します。読み取り/書き込み Boolean。 |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | グラデーションの視覚スタイルを取得または設定します。読み取り/書き込み [`GradientStyle`](../../aspose.slides/gradientstyle)。 |
-| [OutputPath](../../aspose.slides.export/html5options/outputpath) { get; set; } | 外部リソースの保存場所を決定します。読み取り/書き込み String。 |
-| [PicturesCompression](../../aspose.slides.export/html5options/picturescompression) { get; set; } | 画像の圧縮レベルを表します |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | パーセンテージで保存進捗を更新するコールバックオブジェクトを表します。[`IProgressCallback`](../../aspose.slides/iprogresscallback) を参照してください。 |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | プレゼンテーションを保存する際に JavaScript 呼び出しを含むハイパーリンクをスキップするかどうかを指定します。読み取り/書き込み Boolean。デフォルト値は **false** です。 |
-| [SlidesLayoutOptions](../../aspose.slides.export/html5options/slideslayoutoptions) { get; set; } | プレゼンテーションをエクスポートする際にスライドがページ上に配置されるモードを取得または設定します [`ISlidesLayoutOptions`](../islideslayoutoptions)。 |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 警告を受け取り、ロードプロセスを継続するか中止するかを決定するオブジェクトを取得または設定します。読み取り/書き込み [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)。 |
+| [AnimateShapes](../../aspose.slides.export/html5options/animateshapes) { get; set; } | アニメーション オプションを取得または設定します。読み書き可能な Boolean。 |
+| [AnimateTransitions](../../aspose.slides.export/html5options/animatetransitions) { get; set; } | トランジション アニメーション オプションを取得または設定します。読み書き可能な Boolean。 |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | ソースフォントが見つからない場合に使用されるフォントを取得または設定します。読み書き可能な String。 |
+| [DisableFontLigatures](../../aspose.slides.export/html5options/disablefontligatures) { get; set; } | テキストをリガチャを使用せずにレンダリングするかどうかを示す値を取得または設定します。`true` に設定すると、レンダリング出力でリガチャが無効になります。デフォルトではこのプロパティは `false` に設定されています。 |
+| [EmbedImages](../../aspose.slides.export/html5options/embedimages) { get; set; } | 画像の埋め込みオプションを取得または設定します。読み書き可能な Boolean。 |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | グラデーションのビジュアル スタイルを取得または設定します。読み書き可能な [`GradientStyle`](../../aspose.slides/gradientstyle)。 |
+| [OutputPath](../../aspose.slides.export/html5options/outputpath) { get; set; } | 外部リソースの保存場所を決定します。読み書き可能な String。 |
+| [PicturesCompression](../../aspose.slides.export/html5options/picturescompression) { get; set; } | 画像の圧縮レベルを表します。 |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 進捗更新をパーセンテージで保存するコールバック オブジェクトを表します。[`IProgressCallback`](../../aspose.slides/iprogresscallback) を参照してください。 |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | プレゼンテーションの保存時に JavaScript 呼び出しを含むハイパーリンクをスキップするかどうかを指定します。読み書き可能な Boolean。デフォルト値は **false** です。 |
+| [SlidesLayoutOptions](../../aspose.slides.export/html5options/slideslayoutoptions) { get; set; } | プレゼンテーション [`ISlidesLayoutOptions`](../islideslayoutoptions) をエクスポートする際にスライドがページに配置されるモードを取得または設定します。 |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 警告を受け取り、ロードプロセスを継続するか中止するかを決定するオブジェクトを取得または設定します。読み書き可能な [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)。 |
 
 ### 例
 
-例:
+例：
 
 ```csharp
-[C#]
 using (Presentation pres = new Presentation("demo.pptx"))
 {
   pres.Save("demo-animate-shapes-and-transitions.html", SaveFormat.Html5, new Html5Options()

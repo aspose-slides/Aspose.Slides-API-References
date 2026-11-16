@@ -1,9 +1,9 @@
 ---
 title: HyperlinkActionType
-second_title: Aspose.Sildes для .NET API справочник
+second_title: Aspose.Sildes для .NET API Reference
 description: Представляет тип действия гиперссылки.
 type: docs
-weight: 5130
+weight: 5150
 url: /ru/aspose.slides/hyperlinkactiontype/
 ---
 ## HyperlinkActionType перечисление
@@ -18,22 +18,22 @@ public enum HyperlinkActionType
 
 | Имя | Значение | Описание |
 | --- | --- | --- |
-| Unknown | `-1` | Неопределенный тип действия. |
+| Unknown | `-1` | Неизвестный тип действия. |
 | NoAction | `0` | Нет действия. |
 | Hyperlink | `1` | Обычная гиперссылка. |
 | JumpFirstSlide | `2` | Переход к первому слайду презентации. |
 | JumpPreviousSlide | `3` | Переход к предыдущему слайду. |
 | JumpNextSlide | `4` | Переход к следующему слайду. |
 | JumpLastSlide | `5` | Переход к последнему слайду презентации. |
-| JumpEndShow | `6` | Переход к концу слайд-шоу. |
+| JumpEndShow | `6` | Переход к концу показа слайдов. |
 | JumpLastViewedSlide | `7` | Переход к последнему просмотренному слайду. |
 | JumpSpecificSlide | `8` | Переход к конкретному слайду, указанному свойством [`TargetSlide`](../ihyperlink/targetslide). |
-| StartCustomSlideShow | `9` | Запуск пользовательского слайд-шоу. |
+| StartCustomSlideShow | `9` | Запуск пользовательского показа слайдов. |
 | OpenFile | `10` | Открыть указанный файл. |
 | OpenPresentation | `11` | Открыть указанную презентацию. |
-| StartStopMedia | `12` | Запуск/остановка воспроизведения медиафайла. |
-| StartMacro | `13` | Начало выполнения макроскрипта. |
-| StartProgram | `14` | Запуск программы. |
+| StartStopMedia | `12` | Начать/остановить воспроизведение медиафайла. |
+| StartMacro | `13` | Начать выполнение макроскрипта. |
+| StartProgram | `14` | Запустить программу. |
 
 ### См. также
 

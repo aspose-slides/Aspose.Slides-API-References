@@ -1,14 +1,14 @@
 ---
 title: IMathBar
-second_title: Aspose.Sildes dla .NET – Dokumentacja API
-description: Określa funkcję kreski składającą się z argumentu bazowego oraz kreski górnej lub dolnej
+second_title: Aspose.Sildes dla referencji API .NET
+description: Określa funkcję kreski składającą się z argumentu bazowego oraz kreski nad lub pod
 type: docs
-weight: 8120
+weight: 8140
 url: /pl/aspose.slides.mathtext/imathbar/
 ---
 ## IMathBar interfejs
 
-Określa funkcję kreski, składającą się z argumentu bazowego oraz kreski górnej lub dolnej
+Określa funkcję kreski, składającą się z argumentu bazowego oraz kreski nad lub pod
 
 ```csharp
 public interface IMathBar : IMathElement
@@ -18,7 +18,7 @@ public interface IMathBar : IMathElement
 
 | Nazwa | Opis |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathbar/asimathelement) { get; } | Umożliwia pobranie podstawowego interfejsu IMathElement [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathbar/asimathelement) { get; } | Umożliwia pobranie bazowego interfejsu IMathElement [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathbar/base) { get; } | Argument bazowy |
 | [Position](../../aspose.slides.mathtext/imathbar/position) { get; set; } | Pozycja linii kreski. Domyślnie: Top |
 

@@ -1,12 +1,12 @@
 ---
 title: MathDelimiterShape
-second_title: Aspose.Sildes cho .NET Tham chiếu API
+second_title: Aspose.Sildes cho Tham chiếu API .NET
 description: Vị trí và kích thước của các dấu phân cách so với nội dung của các toán hạng
 type: docs
-weight: 8670
+weight: 8690
 url: /vi/aspose.slides.mathtext/mathdelimitershape/
 ---
-## MathDelimiterShape enum
+## MathDelimiterShape liệt kê
 
 Vị trí và kích thước của các dấu phân cách so với nội dung của các toán hạng
 

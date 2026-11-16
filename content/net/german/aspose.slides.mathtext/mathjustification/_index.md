@@ -1,14 +1,14 @@
 ---
 title: MathJustification
 second_title: Aspose.Sildes für .NET API Referenz
-description: Gibt die Ausrichtung des mathematischen Absatzes an, einer Reihe benachbarter Instanzen von mathematischem Text im selben Absatz
+description: Gibt die Ausrichtung des mathematischen Absatzes an, einer Reihe benachbarter Instanzen mathematischen Textes innerhalb desselben Absatzes
 type: docs
-weight: 8800
+weight: 8820
 url: /de/aspose.slides.mathtext/mathjustification/
 ---
-## MathJustification Aufzählung
+## MathJustification-Aufzählung
 
-Gibt die Ausrichtung des mathematischen Absatzes an (eine Reihe benachbarter Instanzen von mathematischem Text innerhalb desselben Absatzes)
+Gibt die Ausrichtung des mathematischen Absatzes an (eine Reihe benachbarter Instanzen mathematischen Textes innerhalb desselben Absatzes)
 
 ```csharp
 public enum MathJustification
@@ -16,12 +16,12 @@ public enum MathJustification
 
 ### Werte
 
-| Name | Value | Description |
+| Name | Wert | Beschreibung |
 | --- | --- | --- |
-| LeftJustified | `1` | Richten mathematischen Text nach links aus |
-| RightJustified | `2` | Richten mathematischen Text nach rechts aus |
-| Centered | `3` | Richten mathematischen Text zentriert aus |
-| CenteredAsGroup | `4` | Zentrieren auf der Seite die gesamte Gruppe von mathematischen Blöcken als eine Einheit. Das bedeutet, dass die Instanzen des mathematischen Textes zueinander ausgerichtet werden können, die gesamte Gruppe des mathematischen Textes jedoch als Ganzes zentriert ist. |
+| LeftJustified | `1` | Richtet den mathematischen Text linksbündig aus |
+| RightJustified | `2` | Richtet den mathematischen Text rechtsbündig aus |
+| Centered | `3` | Richtet den mathematischen Text zentriert aus |
+| CenteredAsGroup | `4` | Zentriert die gesamte Gruppe von mathematischen Blöcken auf der Seite als Einheit. Das bedeutet, dass die Instanzen des mathematischen Textes zueinander ausgerichtet werden können, aber die gesamte Gruppe des mathematischen Textes als Ganzes zentriert wird. |
 
 ### Siehe auch
 

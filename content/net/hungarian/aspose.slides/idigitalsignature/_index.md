@@ -1,14 +1,14 @@
 ---
 title: IDigitalSignature
-second_title: Aspose.Sildes .NET API Referencia
-description: Digitális aláírás az aláírt fájlban.
+second_title: Aspose.Sildes .NET API referencia
+description: Digitális aláírás a aláírt fájlban.
 type: docs
-weight: 5690
+weight: 5710
 url: /hu/aspose.slides/idigitalsignature/
 ---
 ## IDigitalSignature interfész
 
-Digitális aláírás az aláírt fájlban.
+Digitális aláírás a aláírt fájlban.
 
 ```csharp
 public interface IDigitalSignature
@@ -18,10 +18,10 @@ public interface IDigitalSignature
 
 | Név | Leírás |
 | --- | --- |
-| [Certificate](../../aspose.slides/idigitalsignature/certificate) { get; } | A dokumentum aláírásához használt tanúsítványobjektum. Csak olvasható X509Certificate2. |
+| [Certificate](../../aspose.slides/idigitalsignature/certificate) { get; } | A dokumentum aláírásához használt tanúsítvány objektum. Csak olvasható X509Certificate2. |
 | [Comments](../../aspose.slides/idigitalsignature/comments) { get; set; } | Az aláírás célja. Olvasható/írható String. |
-| [IsValid](../../aspose.slides/idigitalsignature/isvalid) { get; } | Ha ez a digitális aláírás érvényes és a dokumentum nem lett megváltoztatva, ez az érték igaz lesz. Csak olvasható Boolean. |
-| [SignTime](../../aspose.slides/idigitalsignature/signtime) { get; } | Az időpont, amikor a dokumentum aláírásra került. Csak olvasható DateTime. |
+| [IsValid](../../aspose.slides/idigitalsignature/isvalid) { get; } | Ha ez a digitális aláírás érvényes és a dokumentumot nem módosították, ez az érték igaz lesz. Csak olvasható Boolean. |
+| [SignTime](../../aspose.slides/idigitalsignature/signtime) { get; } | A dokumentum aláírásának ideje. Csak olvasható DateTime. |
 
 ### Lásd még
 

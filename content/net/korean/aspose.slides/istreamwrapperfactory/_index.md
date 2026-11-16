@@ -1,14 +1,14 @@
 ---
 title: IStreamWrapperFactory
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: StreamWrappers의 팩터리. COM 인터페이스용.
+second_title: Aspose.Sildes for .NET API 참조
+description: StreamWrappers의 팩토리입니다. COM 인터페이스용.
 type: docs
-weight: 7140
+weight: 7160
 url: /ko/aspose.slides/istreamwrapperfactory/
 ---
 ## IStreamWrapperFactory 인터페이스
 
-StreamWrappers의 팩터리. COM 인터페이스용.
+StreamWrappers의 팩토리입니다. COM 인터페이스용.
 
 ```csharp
 public interface IStreamWrapperFactory
@@ -18,12 +18,12 @@ public interface IStreamWrapperFactory
 
 | 이름 | 설명 |
 | --- | --- |
-| [CreateFileStreamWrapper](../../aspose.slides/istreamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper)(string, FileMode) | 지정된 경로와 생성 모드로 FileStream을 생성합니다. |
-| [CreateFileStreamWrapper](../../aspose.slides/istreamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper_1)(string, FileMode, FileAccess) | 지정된 경로, 생성 모드 및 읽기/쓰기 권한으로 FileStream을 생성합니다. |
+| [CreateFileStreamWrapper](../../aspose.slides/istreamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper)(string, FileMode) | 지정된 경로와 생성 모드를 사용하여 FileStream을 생성합니다. |
+| [CreateFileStreamWrapper](../../aspose.slides/istreamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper_1)(string, FileMode, FileAccess) | 지정된 경로, 생성 모드 및 읽기/쓰기 권한을 사용하여 FileStream을 생성합니다. |
 | [CreateMemoryStreamWrapper](../../aspose.slides/istreamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper)() | MemoryStream 래퍼를 생성합니다. |
 | [CreateMemoryStreamWrapper](../../aspose.slides/istreamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper_1)(byte[]) | 지정된 바이트 배열을 기반으로 MemoryStream 래퍼를 생성합니다. |
 
-### 참조
+### 참고
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

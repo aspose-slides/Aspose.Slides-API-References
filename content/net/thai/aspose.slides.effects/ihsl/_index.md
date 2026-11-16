@@ -1,14 +1,14 @@
 ---
 title: IHSL
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงเอฟเฟ็กต์ Hue/Saturation/Luminance. ค่าสี ความอิ่มสี และความสว่าง สามารถปรับได้โดยอิงจากค่าปัจจุบันของแต่ละค่า.
+description: แสดงถึงเอฟเฟกต์ Hue/Saturation/Luminance. Hue Saturation และ Luminance สามารถปรับได้แต่ละค่าโดยอิงค่าปัจจุบัน.
 type: docs
-weight: 3360
+weight: 3380
 url: /th/aspose.slides.effects/ihsl/
 ---
 ## IHSL อินเทอร์เฟซ
 
-แสดงถึงเอฟเฟ็กต์ Hue/Saturation/Luminance. ค่าสี, ความอิ่มสี และความสว่าง สามารถปรับได้โดยอิงจากค่าปัจจุบันของแต่ละค่า.
+แสดงถึงเอฟเฟกต์ Hue/Saturation/Luminance. Hue, Saturation, และ Luminance สามารถปรับได้แต่ละค่าโดยอิงค่าปัจจุบัน
 
 ```csharp
 public interface IHSL : IAccessiblePVIObject<IHSLEffectiveData>, IImageTransformOperation
@@ -18,8 +18,8 @@ public interface IHSL : IAccessiblePVIObject<IHSLEffectiveData>, IImageTransform
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ihsl/asiaccessiblepviobject) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IAccessiblePVIObject พื้นฐาน. อ่านอย่างเดียว [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ihsl/asiimagetransformoperation) { get; } | คืนค่าอินเทอร์เฟซ IImageTransformOperation. อ่านอย่างเดียว [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ihsl/asiaccessiblepviobject) { get; } | อนุญาตให้ดึงฐาน IAccessiblePVIObject อินเทอร์เฟซ. อ่านอย่างเดียว [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ihsl/asiimagetransformoperation) { get; } | คืนค่า IImageTransformOperation อินเทอร์เฟซ. อ่านอย่างเดียว [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### ดูเพิ่มเติม
 

@@ -1,14 +1,14 @@
 ---
 title: ITab
-second_title: Aspose.Sildes .NET API 參考
-description: 表示文字的製表符。
+second_title: Aspose.Sildes for .NET API 參考
+description: 表示文字的定位點。
 type: docs
-weight: 7190
+weight: 7210
 url: /zh-hant/aspose.slides/itab/
 ---
 ## ITab 介面
 
-表示文字的製表符。
+表示文字的定位點。
 
 ```csharp
 public interface ITab : IComparable
@@ -16,11 +16,11 @@ public interface ITab : IComparable
 
 ## 屬性
 
-| 名稱 | 說明 |
+| Name | Description |
 | --- | --- |
-| [Alignment](../../aspose.slides/itab/alignment) { get; set; } | 返回或設定製表符的對齊樣式。可讀寫 [`TabAlignment`](../tabalignment)。 |
-| [AsIComparable](../../aspose.slides/itab/asicomparable) { get; } | 返回 IComparable 介面。唯讀 IComparable。 |
-| [Position](../../aspose.slides/itab/position) { get; set; } | 返回或設定製表符的位置。設定此屬性可能會變更集合中製表符的索引並使列舉器失效。可讀寫 Double。 |
+| [Alignment](../../aspose.slides/itab/alignment) { get; set; } | 傳回或設定 Tab 的對齊樣式。可讀寫 [`TabAlignment`](../tabalignment)。 |
+| [AsIComparable](../../aspose.slides/itab/asicomparable) { get; } | 傳回 IComparable 介面。唯讀 IComparable。 |
+| [Position](../../aspose.slides/itab/position) { get; set; } | 傳回或設定 Tab 的位置。指派此屬性可能會變更該 Tab 在集合中的索引，且會使 Enumerator 失效。可讀寫 Double。 |
 
 ### 另請參閱
 

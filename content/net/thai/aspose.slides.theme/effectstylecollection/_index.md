@@ -1,14 +1,14 @@
 ---
 title: EffectStyleCollection
-second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
-description: แสดงถึงคอลเลกชันของสไตล์เอฟเฟ็กต์.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: เป็นตัวแทนของคอลเลกชันของสไตล์เอฟเฟกต์.
 type: docs
-weight: 11090
+weight: 11110
 url: /th/aspose.slides.theme/effectstylecollection/
 ---
 ## EffectStyleCollection คลาส
 
-แสดงถึงคอลเลกชันของสไตล์เอฟเฟ็กต์.
+เป็นตัวแทนของคอลเลกชันของสไตล์เอฟเฟกต์
 
 ```csharp
 public sealed class EffectStyleCollection : DomObject<FormatScheme>, IEffectStyleCollection
@@ -18,17 +18,17 @@ public sealed class EffectStyleCollection : DomObject<FormatScheme>, IEffectStyl
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Count](../../aspose.slides.theme/effectstylecollection/count) { get; } | ส่งคืนจำนวนขององค์ประกอบในคอลเลกชัน. อ่านอย่างเดียว Int32, อ่านอย่างเดียว Int32. |
-| [IsSynchronized](../../aspose.slides.theme/effectstylecollection/issynchronized) { get; } | ส่งคืนค่าที่บ่งบอกว่าการเข้าถึงคอลเลกชันนั้นทำงานประสาน (ปลอดภัยต่อเธรด). อ่านอย่างเดียว Boolean. |
-| [Item](../../aspose.slides.theme/effectstylecollection/item) { get; } | ส่งคืนองค์ประกอบที่ตำแหน่งที่ระบุ. อ่านอย่างเดียว [`EffectStyle`](../effectstyle). |
-| [SyncRoot](../../aspose.slides.theme/effectstylecollection/syncroot) { get; } | ส่งคืนรากฐานการประสาน. อ่านอย่างเดียว Object. |
+| [Count](../../aspose.slides.theme/effectstylecollection/count) { get; } | คืนค่าจำนวนของสมาชิกในคอลเลกชัน. อ่านอย่างเดียว Int32, อ่านอย่างเดียว Int32. |
+| [IsSynchronized](../../aspose.slides.theme/effectstylecollection/issynchronized) { get; } | คืนค่าค่าที่ระบุว่าการเข้าถึงคอลเลกชันเป็นแบบซิงโครไนซ์ (ปลอดภัยต่อเธรด). อ่านอย่างเดียว Boolean. |
+| [Item](../../aspose.slides.theme/effectstylecollection/item) { get; } | คืนค่าองค์ประกอบตามตำแหน่งที่ระบุ. อ่านอย่างเดียว [`EffectStyle`](../effectstyle). |
+| [SyncRoot](../../aspose.slides.theme/effectstylecollection/syncroot) { get; } | คืนค่า root ของการซิงโครไนซ์. อ่านอย่างเดียว Object. |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [CopyTo](../../aspose.slides.theme/effectstylecollection/copyto)(Array, int) | คัดลอกทุกองค์ประกอบจากคอลเลกชันไปยังอาเรย์ที่ระบุ. |
-| [GetEnumerator](../../aspose.slides.theme/effectstylecollection/getenumerator)() | ส่งคืนตัววนซ้ำที่ทำการวนผ่านคอลเลกชัน. |
+| [CopyTo](../../aspose.slides.theme/effectstylecollection/copyto)(Array, int) | คัดลอกรายการทั้งหมดจากคอลเลกชันไปยังอาร์เรย์ที่ระบุ. |
+| [GetEnumerator](../../aspose.slides.theme/effectstylecollection/getenumerator)() | คืนค่า enumerator ที่ทำการวนผ่านคอลเลกชัน. |
 
 ### ดูเพิ่มเติม
 

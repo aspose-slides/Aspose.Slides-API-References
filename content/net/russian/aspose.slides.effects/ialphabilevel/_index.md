@@ -1,14 +1,14 @@
 ---
 title: IAlphaBiLevel
-second_title: "Aspose.Sildes для .NET: справочник API"
-description: Представляет эффект Alpha Bi-Level. Значения Alpha Opacity, меньше порога, изменяются на 0 (полностью прозрачные), а значения alpha, большие или равные порогу, изменяются на 100 (полностью непрозрачные).
+second_title: Aspose.Sildes для .NET Справочник API
+description: Представляет эффект Alpha Bi-Level. Значения Alpha Opacity, меньшие порога, изменяются на 0 (полностью прозрачные), а значения alpha, большие или равные порогу, изменяются на 100 (полностью непрозрачные).
 type: docs
-weight: 3020
+weight: 3040
 url: /ru/aspose.slides.effects/ialphabilevel/
 ---
 ## IAlphaBiLevel интерфейс
 
-Представляет эффект Alpha Bi-Level. Значения Alpha (Opacity), меньше порога, изменяются на 0 (полностью прозрачные), а значения Alpha, большие или равные порогу, изменяются на 100 % (полностью непрозрачные).
+Представляет эффект Alpha Bi-Level. Значения Alpha (Opacity), меньшие порога, изменяются на 0 (полностью прозрачные), а значения alpha, большие или равные порогу, изменяются на 100% (полностью непрозрачные).
 
 ```csharp
 public interface IAlphaBiLevel : IAccessiblePVIObject<IAlphaBiLevelEffectiveData>, 
@@ -25,7 +25,7 @@ public interface IAlphaBiLevel : IAccessiblePVIObject<IAlphaBiLevelEffectiveData
 
 ### Примечания
 
-Используйте ImageTransformOperationFactory для создания экземпляров в COM.
+Use ImageTransformOperationFactory to create instaces in COM.
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: ChartDataWorkbook
-second_title: Tham khảo API Aspose.Sildes cho .NET
-description: Cung cấp quyền truy cập vào sổ làm việc Excel được nhúng
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Cung cấp quyền truy cập vào workbook Excel được nhúng
 type: docs
-weight: 1380
+weight: 1390
 url: /vi/aspose.slides.charts/chartdataworkbook/
 ---
-## ChartDataWorkbook lớp
+## Lớp ChartDataWorkbook
 
-Cung cấp quyền truy cập vào sổ làm việc Excel được nhúng
+Cung cấp quyền truy cập vào workbook Excel được nhúng
 
 ```csharp
 public class ChartDataWorkbook : DomObject<ChartData>, IChartDataWorkbook
@@ -18,19 +18,19 @@ public class ChartDataWorkbook : DomObject<ChartData>, IChartDataWorkbook
 
 | Tên | Mô tả |
 | --- | --- |
-| [Worksheets](../../aspose.slides.charts/chartdataworkbook/worksheets) { get; } | Lấy một tập hợp các bảng tính. |
+| [Worksheets](../../aspose.slides.charts/chartdataworkbook/worksheets) { get; } | Lấy một tập hợp các worksheet. |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| [CalculateFormulas](../../aspose.slides.charts/chartdataworkbook/calculateformulas)() | Tính toán tất cả công thức trong sổ làm việc và cập nhật giá trị các ô tương ứng. |
-| [Clear](../../aspose.slides.charts/chartdataworkbook/clear)(int) | Xóa tất cả giá trị ô trên trang tính |
-| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_2)(int, string) | Lấy ô có thể được sử dụng cho chuỗi hoặc danh mục biểu đồ |
-| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell)(int, int, int) | Lấy ô có thể được sử dụng cho chuỗi hoặc danh mục biểu đồ |
-| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_3)(int, string, object) | Lấy ô có thể được sử dụng cho chuỗi hoặc danh mục biểu đồ |
-| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_4)(string, int, int) | Lấy ô có thể được sử dụng cho chuỗi hoặc danh mục biểu đồ |
-| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_1)(int, int, int, object) | Lấy ô có thể được sử dụng cho chuỗi hoặc danh mục biểu đồ |
+| [CalculateFormulas](../../aspose.slides.charts/chartdataworkbook/calculateformulas)() | Tính toán tất cả công thức trong workbook và cập nhật giá trị các ô tương ứng. |
+| [Clear](../../aspose.slides.charts/chartdataworkbook/clear)(int) | Xóa tất cả giá trị ô trên sheet |
+| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_2)(int, string) | Lấy ô có thể được sử dụng cho chuỗi biểu đồ hoặc danh mục |
+| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell)(int, int, int) | Lấy ô có thể được sử dụng cho chuỗi biểu đồ hoặc danh mục |
+| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_3)(int, string, object) | Lấy ô có thể được sử dụng cho chuỗi biểu đồ hoặc danh mục |
+| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_4)(string, int, int) | Lấy ô có thể được sử dụng cho chuỗi biểu đồ hoặc danh mục |
+| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_1)(int, int, int, object) | Lấy ô có thể được sử dụng cho chuỗi biểu đồ hoặc danh mục |
 | [GetCellCollection](../../aspose.slides.charts/chartdataworkbook/getcellcollection)(string, bool) | Lấy tập hợp các ô. |
 
 ### Xem thêm

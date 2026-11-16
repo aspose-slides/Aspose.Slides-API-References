@@ -3,7 +3,7 @@ title: License
 second_title: Aspose.Sildes .NET API 参考
 description: 提供对组件进行授权的方法。
 type: docs
-weight: 7680
+weight: 7700
 url: /zh/aspose.slides/license/
 ---
 ## License 类
@@ -18,20 +18,20 @@ public class License : ILicense
 
 | 名称 | 描述 |
 | --- | --- |
-| [License](license)() | 初始化此类的新实例。 |
+| [License](license)() | 初始化此类的一个新实例。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [IsLicensed](../../aspose.slides/license/islicensed)() | 检查是否已将许可证应用于组件 |
+| [IsLicensed](../../aspose.slides/license/islicensed)() | 检查组件是否已应用许可证 |
 | [ResetLicense](../../aspose.slides/license/resetlicense)() | 重置许可证 |
-| [SetLicense](../../aspose.slides/license/setlicense#setlicense)(Stream) | 授权组件。 |
-| [SetLicense](../../aspose.slides/license/setlicense#setlicense_1)(string) | 授权组件。 |
+| [SetLicense](../../aspose.slides/license/setlicense#setlicense)(Stream) | 为组件授权。 |
+| [SetLicense](../../aspose.slides/license/setlicense#setlicense_1)(string) | 为组件授权。 |
 
 ### 示例
 
-在本示例中，将尝试在包含组件的文件夹、包含调用程序集的文件夹、入口程序集的文件夹以及调用程序集的嵌入资源中查找名为 MyLicense.lic 的许可证文件。
+在本例中，将尝试在包含组件的文件夹、包含调用程序集的文件夹、入口程序集的文件夹以及调用程序集的嵌入资源中查找名为 MyLicense.lic 的许可证文件。
 
 ```csharp
 [C#]

@@ -1,14 +1,14 @@
 ---
 title: BrightnessContrast
 second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
-description: แสดงถึงเอฟเฟกต์ BrightnessContrast. ปรับความสว่างและคอนทราสต์
+description: เป็นตัวแทนของเอฟเฟกต์ BrightnessContrast. ปรับความสว่างและความตัดกัน
 type: docs
-weight: 2930
+weight: 2950
 url: /th/aspose.slides.effects/brightnesscontrast/
 ---
-## คลาส BrightnessContrast
+## BrightnessContrast คลาส
 
-แสดงถึงเอฟเฟกต์ BrightnessContrast. ปรับความสว่างและคอนทราสต์
+แทนที่เอฟเฟกต์ BrightnessContrast. ปรับความสว่างและความตัดกัน
 
 ```csharp
 public sealed class BrightnessContrast : ImageTransformOperation, IBrightnessContrast
@@ -18,15 +18,15 @@ public sealed class BrightnessContrast : ImageTransformOperation, IBrightnessCon
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IPresentationComponent เบื้องต้นได้. อ่านอย่างเดียว [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | อนุญาตให้เข้าถึงอินเทอร์เฟซ IPresentationComponent พื้นฐาน. อ่านอย่างเดียว [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
-## เมธอด
+## วิธีการ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/brightnesscontrast/equals)(object) | กำหนดว่าค่า [`BrightnessContrast`](../brightnesscontrast) ที่ระบุเทียบกับค่า [`BrightnessContrast`](../brightnesscontrast) ปัจจุบันหรือไม่. |
-| [GetEffective](../../aspose.slides.effects/brightnesscontrast/geteffective)() | รับข้อมูลเอฟเฟกต์ BrightnessContrast ที่มีผลโดยคำนึงถึงการสืบทอด. |
-| override [GetHashCode](../../aspose.slides.effects/brightnesscontrast/gethashcode)() | ทำหน้าที่เป็นฟังก์ชันแฮชสำหรับประเภทเฉพาะ. |
+| override [Equals](../../aspose.slides.effects/brightnesscontrast/equals)(object) | กำหนดว่าผลลัพธ์ [`BrightnessContrast`](../brightnesscontrast) ที่ระบุเท่ากับ [`BrightnessContrast`](../brightnesscontrast) ปัจจุบันหรือไม่. |
+| [GetEffective](../../aspose.slides.effects/brightnesscontrast/geteffective)() | รับข้อมูลเอฟเฟกต์ BrightnessContrast ที่ใช้งานได้จริงพร้อมการสืบทอดที่นำมาใช้. |
+| override [GetHashCode](../../aspose.slides.effects/brightnesscontrast/gethashcode)() | ทำหน้าที่เป็นฟังก์ชันแฮชสำหรับประเภทที่กำหนด. |
 
 ### ดูเพิ่มเติม
 

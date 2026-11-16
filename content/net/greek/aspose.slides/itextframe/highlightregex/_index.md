@@ -1,12 +1,12 @@
 ---
 title: HighlightRegex
-second_title: Aspose.Sildes για .NET API Reference
+second_title: Aspose.Sildes για .NET API Αναφορά
 description: Επισημαίνει όλες τις αντιστοιχίες της κανονικής έκφρασης με το καθορισμένο χρώμα.
 type: docs
-weight: 80
+weight: 90
 url: /el/aspose.slides/itextframe/highlightregex/
 ---
-## ITextFrame.HighlightRegex μέθοδος
+## ITextFrame.HighlightRegex method
 
 Επισημαίνει όλες τις αντιστοιχίες της κανονικής έκφρασης με το καθορισμένο χρώμα.
 
@@ -16,7 +16,7 @@ public void HighlightRegex(Regex regex, Color highlightColor, IFindResultCallbac
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| regex | Regex | Η κανονική έκφραση Regex για την απόκτηση των συμβολοσειρών που θα επισημανθούν. |
+| regex | Regex | Η κανονική έκφραση Regex για την απόκτηση συμβολοσειρών προς επισήμανση. |
 | highlightColor | Color | Το χρώμα για την επισήμανση του κειμένου. |
 | callback | IFindResultCallback | Το αντικείμενο callback για τη λήψη των αποτελεσμάτων αναζήτησης [`IFindResultCallback`](../../ifindresultcallback). |
 

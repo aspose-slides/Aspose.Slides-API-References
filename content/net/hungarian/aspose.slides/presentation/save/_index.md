@@ -1,14 +1,14 @@
 ---
 title: Save
-second_title: Aspose.Sildes .NET API-referencia
-description: Ment minden diát egy prezentációból a megadott formátumú fájlba.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Ment minden diát egy bemutatóból egy fájlba a megadott formátummal.
 type: docs
-weight: 390
+weight: 400
 url: /hu/aspose.slides/presentation/save/
 ---
 ## Save(string, SaveFormat) {#save_5}
 
-Ment minden diát egy prezentációból a megadott formátumú fájlba.
+Ment minden diát egy bemutatóból egy fájlba a megadott formátummal.
 
 ```csharp
 public void Save(string fname, SaveFormat format)
@@ -16,21 +16,21 @@ public void Save(string fname, SaveFormat format)
 
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
-| fname | String | Az elkészített fájl elérési útja. |
+| fname | String | Az létrehozott fájl elérési útja. |
 | format | SaveFormat | Az exportált adatok formátuma. |
 
 ### Lásd még
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
-* class [Presentation](../../presentation)
-* namespace [Aspose.Slides](../../presentation)
-* assembly [Aspose.Slides](../../../)
+* osztály [Presentation](../../presentation)
+* névtér [Aspose.Slides](../../presentation)
+* összeállítás [Aspose.Slides](../../../)
 
 ---
 
 ## Save(Stream, SaveFormat) {#save_1}
 
-Ment minden diát egy prezentációból egy adatfolyamba a megadott formátumban.
+Ment minden diát egy bemutatóból egy adatfolyamba a megadott formátummal.
 
 ```csharp
 public void Save(Stream stream, SaveFormat format)
@@ -44,9 +44,9 @@ public void Save(Stream stream, SaveFormat format)
 ### Lásd még
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
-* class [Presentation](../../presentation)
-* namespace [Aspose.Slides](../../presentation)
-* assembly [Aspose.Slides](../../../)
+* osztály [Presentation](../../presentation)
+* névtér [Aspose.Slides](../../presentation)
+* összeállítás [Aspose.Slides](../../../)
 
 ---
 
@@ -59,16 +59,16 @@ public void Save(string fname, SaveFormat format, ISaveOptions options)
 ### Lásd még
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
-* interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
-* class [Presentation](../../presentation)
-* namespace [Aspose.Slides](../../presentation)
-* assembly [Aspose.Slides](../../../)
+* interfész [ISaveOptions](../../../aspose.slides.export/isaveoptions)
+* osztály [Presentation](../../presentation)
+* névtér [Aspose.Slides](../../presentation)
+* összeállítás [Aspose.Slides](../../../)
 
 ---
 
 ## Save(Stream, SaveFormat, ISaveOptions) {#save_2}
 
-Ment minden diát egy prezentációból egy adatfolyamba a megadott formátumban, plusz további beállításokkal.
+Ment minden diát egy bemutatóból egy adatfolyamba a megadott formátummal és további beállításokkal.
 
 ```csharp
 public void Save(Stream stream, SaveFormat format, ISaveOptions options)
@@ -80,25 +80,25 @@ public void Save(Stream stream, SaveFormat format, ISaveOptions options)
 | format | SaveFormat | Az exportált adatok formátuma. |
 | options | ISaveOptions | További formátumbeállítások. |
 
-### Kivétel
+### Kivételek
 
 | kivétel | feltétel |
 | --- | --- |
-| NotSupportedException | Ha titkosított fájlt próbál menteni a nem Office 2007-2010 formátumokban |
+| NotSupportedException | Ha titkosított fájlt próbál menteni olyan formátumban, amely nem Office 2007-2010 |
 
 ### Lásd még
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
-* interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
-* class [Presentation](../../presentation)
-* namespace [Aspose.Slides](../../presentation)
-* assembly [Aspose.Slides](../../../)
+* interfész [ISaveOptions](../../../aspose.slides.export/isaveoptions)
+* osztály [Presentation](../../presentation)
+* névtér [Aspose.Slides](../../presentation)
+* összeállítás [Aspose.Slides](../../../)
 
 ---
 
 ## Save(IXamlOptions) {#save}
 
-Ment minden diát egy prezentációból egy sor fájlba, amely XAML jelölést reprezentál.
+Ment minden diát egy bemutatóból egy XAML jelöléskészletet képviselő fájlok halmazába.
 
 ```csharp
 public void Save(IXamlOptions options)
@@ -106,7 +106,7 @@ public void Save(IXamlOptions options)
 
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
-| options | IXamlOptions | A XAML formátum beállításai. |
+| options | IXamlOptions | A XAML formátumbeállítások. |
 
 ### Példák
 
@@ -120,16 +120,16 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 ### Lásd még
 
-* interface [IXamlOptions](../../../aspose.slides.export.xaml/ixamloptions)
-* class [Presentation](../../presentation)
-* namespace [Aspose.Slides](../../presentation)
-* assembly [Aspose.Slides](../../../)
+* interfész [IXamlOptions](../../../aspose.slides.export.xaml/ixamloptions)
+* osztály [Presentation](../../presentation)
+* névtér [Aspose.Slides](../../presentation)
+* összeállítás [Aspose.Slides](../../../)
 
 ---
 
 ## Save(string, int[], SaveFormat) {#save_7}
 
-Ment egy prezentáció kiválasztott diáit egy fájlba a megadott formátummal, az oldalszámok megtartásával.
+Ment megadott diákat egy bemutatóból egy fájlba a megadott formátummal, az oldalszámok megtartásával.
 
 ```csharp
 public void Save(string fname, int[] slides, SaveFormat format)
@@ -137,30 +137,30 @@ public void Save(string fname, int[] slides, SaveFormat format)
 
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
-| fname | String | Az elkészített fájl elérési útja. |
-| slides | Int32[] | Diapozíciók tömbje, 1-től kezdve. |
+| fname | String | Az létrehozott fájl elérési útja. |
+| slides | Int32[] | A diákat tartalmazó tömb, 1-től kezdődően. |
 | format | SaveFormat | Az exportált adatok formátuma. |
 
-### Kivétel
+### Kivételek
 
 | kivétel | feltétel |
 | --- | --- |
-| ArgumentNullException | Ha a stream vagy a slides paraméter null. |
+| ArgumentNullException | Ha a stream vagy a slides paraméter null értékű. |
 | ArgumentOutOfRangeException | Ha a slides paraméter hibás oldalszámokat tartalmaz. |
-| InvalidOperationException | Ha egy nem támogatott SaveFormat-ot használnak, például PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+| InvalidOperationException | Ha nem támogatott SaveFormat van használva, például PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
 ### Lásd még
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
-* class [Presentation](../../presentation)
-* namespace [Aspose.Slides](../../presentation)
-* assembly [Aspose.Slides](../../../)
+* osztály [Presentation](../../presentation)
+* névtér [Aspose.Slides](../../presentation)
+* összeállítás [Aspose.Slides](../../../)
 
 ---
 
 ## Save(string, int[], SaveFormat, ISaveOptions) {#save_8}
 
-Ment egy prezentáció kiválasztott diáit egy fájlba a megadott formátummal, az oldalszámok megtartásával.
+Ment megadott diákat egy bemutatóból egy fájlba a megadott formátummal, az oldalszámok megtartásával.
 
 ```csharp
 public void Save(string fname, int[] slides, SaveFormat format, ISaveOptions options)
@@ -168,24 +168,24 @@ public void Save(string fname, int[] slides, SaveFormat format, ISaveOptions opt
 
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
-| fname | String | Az elkészített fájl elérési útja. |
-| slides | Int32[] | Diapozíciók tömbje, 1-től kezdve. |
+| fname | String | Az létrehozott fájl elérési útja. |
+| slides | Int32[] | A diákat tartalmazó tömb, 1-től kezdődően. |
 | format | SaveFormat | Az exportált adatok formátuma. |
 | options | ISaveOptions | További formátumbeállítások. |
 
 ### Lásd még
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
-* interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
-* class [Presentation](../../presentation)
-* namespace [Aspose.Slides](../../presentation)
-* assembly [Aspose.Slides](../../../)
+* interfész [ISaveOptions](../../../aspose.slides.export/isaveoptions)
+* osztály [Presentation](../../presentation)
+* névtér [Aspose.Slides](../../presentation)
+* összeállítás [Aspose.Slides](../../../)
 
 ---
 
 ## Save(Stream, int[], SaveFormat) {#save_3}
 
-Ment egy prezentáció kiválasztott diáit egy adatfolyamba a megadott formátumban, az oldalszámok megtartásával.
+Ment megadott diákat egy bemutatóból egy adatfolyamba a megadott formátummal, az oldalszámok megtartásával.
 
 ```csharp
 public void Save(Stream stream, int[] slides, SaveFormat format)
@@ -194,21 +194,21 @@ public void Save(Stream stream, int[] slides, SaveFormat format)
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
 | stream | Stream | Kimeneti adatfolyam. |
-| slides | Int32[] | Diapozíciók tömbje, 1-től kezdve. |
+| slides | Int32[] | A diákat tartalmazó tömb, 1-től kezdődően. |
 | format | SaveFormat | Az exportált adatok formátuma. |
 
 ### Lásd még
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
-* class [Presentation](../../presentation)
-* namespace [Aspose.Slides](../../presentation)
-* assembly [Aspose.Slides](../../../)
+* osztály [Presentation](../../presentation)
+* névtér [Aspose.Slides](../../presentation)
+* összeállítás [Aspose.Slides](../../../)
 
 ---
 
 ## Save(Stream, int[], SaveFormat, ISaveOptions) {#save_4}
 
-Ment egy prezentáció kiválasztott diáit egy adatfolyamba a megadott formátumban, az oldalszámok megtartásával.
+Ment megadott diákat egy bemutatóból egy adatfolyamba a megadott formátummal, az oldalszámok megtartásával.
 
 ```csharp
 public void Save(Stream stream, int[] slides, SaveFormat format, ISaveOptions options)
@@ -217,21 +217,21 @@ public void Save(Stream stream, int[] slides, SaveFormat format, ISaveOptions op
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
 | stream | Stream | Kimeneti adatfolyam. |
-| slides | Int32[] | Diapozíciók tömbje, 1-től kezdve. |
+| slides | Int32[] | A diákat tartalmazó tömb, 1-től kezdődően. |
 | format | SaveFormat | Az exportált adatok formátuma. |
 | options | ISaveOptions | További formátumbeállítások. |
 
-### Kivétel
+### Kivételek
 
 | kivétel | feltétel |
 | --- | --- |
-| ArgumentNullException | Ha a stream vagy a slides paraméter null. |
+| ArgumentNullException | Ha a stream vagy a slides paraméter null értékű. |
 | ArgumentOutOfRangeException | Ha a slides paraméter hibás oldalszámokat tartalmaz. |
-| InvalidOperationException | Ha egy nem támogatott SaveFormat-ot használnak, például PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+| InvalidOperationException | Ha nem támogatott SaveFormat van használva, például PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
 ### Példák
 
-A következő példa bemutatja, hogyan lehet a PowerPoint-ot PNG-re konvertálni.
+Az alábbi példa bemutatja, hogyan konvertálhatunk PowerPointot PNG formátumba.
 
 ```csharp
 [C#]
@@ -245,7 +245,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-A következő példa bemutatja, hogyan lehet a PowerPoint-ot egyedi méretekkel PNG-re konvertálni.
+Az alábbi példa bemutatja, hogyan konvertálhatunk PowerPointot PNG formátumba egyéni méretekkel.
 
 ```csharp
 [C#]
@@ -261,7 +261,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-A következő példa bemutatja, hogyan lehet a PowerPoint-ot egyedi mérettel PNG-re konvertálni.
+Az alábbi példa bemutatja, hogyan konvertálhatunk PowerPointot PNG formátumba egyéni mérettel.
 
 ```csharp
 [C#]
@@ -279,9 +279,9 @@ using (Presentation pres = new Presentation("pres.pptx"))
 ### Lásd még
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
-* interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
-* class [Presentation](../../presentation)
-* namespace [Aspose.Slides](../../presentation)
-* assembly [Aspose.Slides](../../../)
+* interfész [ISaveOptions](../../../aspose.slides.export/isaveoptions)
+* osztály [Presentation](../../presentation)
+* névtér [Aspose.Slides](../../presentation)
+* összeállítás [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

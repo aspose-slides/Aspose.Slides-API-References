@@ -1,14 +1,14 @@
 ---
 title: IFontFallBackRule
-second_title: Aspose.Sildes para la referencia de API .NET
-description: Representa la regla de sustitución de fuentes
+second_title: Referencia de API de Aspose.Sildes para .NET
+description: Representa la regla de respaldo de fuentes
 type: docs
-weight: 5850
+weight: 5870
 url: /es/aspose.slides/ifontfallbackrule/
 ---
 ## IFontFallBackRule interfaz
 
-Representa la regla de sustitución de fuentes
+Representa la regla de respaldo de fuentes
 
 ```csharp
 public interface IFontFallBackRule
@@ -16,25 +16,25 @@ public interface IFontFallBackRule
 
 ## Propiedades
 
-| Nombre | Descripción |
+| Name | Description |
 | --- | --- |
 | [Count](../../aspose.slides/ifontfallbackrule/count) { get; } | Obtiene el número de fuentes realmente definidas para el rango. |
 | [Item](../../aspose.slides/ifontfallbackrule/item) { get; } | Obtiene el nombre de la fuente en el índice especificado. |
-| [RangeEndIndex](../../aspose.slides/ifontfallbackrule/rangeendindex) { get; } | Obtiene el último índice del rango unicode continuo. |
-| [RangeStartIndex](../../aspose.slides/ifontfallbackrule/rangestartindex) { get; } | Obtiene el primer índice del rango unicode continuo. |
+| [RangeEndIndex](../../aspose.slides/ifontfallbackrule/rangeendindex) { get; } | Obtiene el último índice del rango Unicode continuo. |
+| [RangeStartIndex](../../aspose.slides/ifontfallbackrule/rangestartindex) { get; } | Obtiene el primer índice del rango Unicode continuo. |
 
 ## Métodos
 
-| Nombre | Descripción |
+| Name | Description |
 | --- | --- |
-| [AddFallBackFonts](../../aspose.slides/ifontfallbackrule/addfallbackfonts#addfallbackfonts)(string) | Añade una(s) nueva(s) fuente(s) a la lista de fuentes FallBack. |
-| [AddFallBackFonts](../../aspose.slides/ifontfallbackrule/addfallbackfonts#addfallbackfonts_1)(string[]) | Añade nuevas fuentes a la lista de fuentes FallBack. |
+| [AddFallBackFonts](../../aspose.slides/ifontfallbackrule/addfallbackfonts#addfallbackfonts)(string) | Añade una(s) nueva(s) fuente(s) a la lista de fuentes de respaldo. |
+| [AddFallBackFonts](../../aspose.slides/ifontfallbackrule/addfallbackfonts#addfallbackfonts_1)(string[]) | Añade nuevas fuentes a la lista de fuentes de respaldo. |
 | [Clear](../../aspose.slides/ifontfallbackrule/clear)() | Elimina todas las fuentes de la lista. |
 | [IndexOf](../../aspose.slides/ifontfallbackrule/indexof)(string) | Devuelve un índice de la regla especificada en la colección. |
-| [Remove](../../aspose.slides/ifontfallbackrule/remove)(string) | Elimina la primera aparición de una fuente FallBack específica de la lista. |
-| [RemoveAt](../../aspose.slides/ifontfallbackrule/removeat)(int) | Elimina la fuente FallBack en el índice especificado de la lista. |
-| [ToArray](../../aspose.slides/ifontfallbackrule/toarray#toarray)() | Crea y devuelve una matriz con todas las fuentes FallBack para esta regla. |
-| [ToArray](../../aspose.slides/ifontfallbackrule/toarray#toarray_1)(int, int) | Crea y devuelve una matriz con todas las fuentes FallBack del rango especificado en la lista. |
+| [Remove](../../aspose.slides/ifontfallbackrule/remove)(string) | Elimina la primera aparición de una fuente de respaldo específica de la lista. |
+| [RemoveAt](../../aspose.slides/ifontfallbackrule/removeat)(int) | Elimina la fuente de respaldo en el índice especificado de la lista. |
+| [ToArray](../../aspose.slides/ifontfallbackrule/toarray#toarray)() | Crea y devuelve una matriz con todas las fuentes de respaldo para esta regla. |
+| [ToArray](../../aspose.slides/ifontfallbackrule/toarray#toarray_1)(int, int) | Crea y devuelve una matriz con todas las fuentes de respaldo del rango especificado en la lista. |
 
 ### Ver también
 

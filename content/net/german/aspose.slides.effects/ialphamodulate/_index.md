@@ -1,14 +1,14 @@
 ---
 title: IAlphaModulate
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt einen Alpha-Modulations-Effekt dar. Die Alpha (Deckkraft)-Werte des Effekts werden mit einem festen Prozentsatz multipliziert. Der Effekt-Container gibt einen Effekt an, der Alpha-Werte zur Modulation enthält.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Stellt einen Alpha-Modulations-Effekt dar. Effekt-Alpha-Deckkraftwerte werden mit einem festen Prozentsatz multipliziert. Der Effekt-Container gibt einen Effekt an, der Alpha-Werte zur Modulation enthält.
 type: docs
-weight: 3100
+weight: 3120
 url: /de/aspose.slides.effects/ialphamodulate/
 ---
 ## IAlphaModulate Schnittstelle
 
-Represents an Alpha Modulate effect. Effect alpha (opacity) values are multiplied by a fixed percentage. The effect container specifies an effect containing alpha values to modulate.
+Stellt einen Alpha-Modulations-Effekt dar. Effekt-Alpha- (Deckkraft-)Werte werden mit einem festen Prozentsatz multipliziert. Der Effekt-Container gibt einen Effekt an, der Alpha-Werte zur Modulation enthält.
 
 ```csharp
 public interface IAlphaModulate : IAccessiblePVIObject<IAlphaModulateEffectiveData>, 
@@ -19,8 +19,8 @@ public interface IAlphaModulate : IAccessiblePVIObject<IAlphaModulateEffectiveDa
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphamodulate/asiaccessiblepviobject) { get; } | Ermöglicht das Abrufen der Basis-IAccessiblePVIObject Schnittstelle. Schreibgeschützt [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphamodulate/asiimagetransformoperation) { get; } | Ermöglicht das Abrufen der Basis-IImageTransformOperation Schnittstelle. Schreibgeschützt [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphamodulate/asiaccessiblepviobject) { get; } | Allows to get base IAccessiblePVIObject interface. Nur lesbar [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphamodulate/asiimagetransformoperation) { get; } | Allows to get base IImageTransformOperation interface. Nur lesbar [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### Siehe auch
 

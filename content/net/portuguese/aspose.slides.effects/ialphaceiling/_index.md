@@ -1,14 +1,14 @@
 ---
 title: IAlphaCeiling
-second_title: Aspose.Sildes para .NET Referência da API
-description: Representa um efeito Alpha Ceiling. Valores de opacidade Alpha maiores que zero são alterados para 100. Em outras palavras, qualquer coisa parcialmente opaca torna-se totalmente opaca.
+second_title: Referência da API Aspose.Sildes para .NET
+description: Representa um efeito Alpha Ceiling. Valores de opacidade Alpha maiores que zero são alterados para 100. Em outras palavras, tudo que é parcialmente opaco torna-se totalmente opaco.
 type: docs
-weight: 3040
+weight: 3060
 url: /pt/aspose.slides.effects/ialphaceiling/
 ---
 ## IAlphaCeiling interface
 
-Represents an Alpha Ceiling effect. Alpha (opacity) values greater than zero are changed to 100%. In other words, anything partially opaque becomes fully opaque.
+Representa um efeito de teto de alfa. Valores de alfa (opacidade) maiores que zero são alterados para 100 %. Em outras palavras, tudo que é parcialmente opaco torna-se totalmente opaco.
 
 ```csharp
 public interface IAlphaCeiling : IAccessiblePVIObject<IAlphaCeilingEffectiveData>, 
@@ -22,7 +22,7 @@ public interface IAlphaCeiling : IAccessiblePVIObject<IAlphaCeilingEffectiveData
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphaceiling/asiaccessiblepviobject) { get; } | Permite obter a interface base IAccessiblePVIObject. Somente leitura [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
 | [AsIImageTransformOperation](../../aspose.slides.effects/ialphaceiling/asiimagetransformoperation) { get; } | Permite obter a interface base IImageTransformOperationEx. Somente leitura [`IImageTransformOperation`](../iimagetransformoperation). |
 
-### Ver também
+### Veja Também
 
 * interface [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * interface [IAlphaCeilingEffectiveData](../ialphaceilingeffectivedata)

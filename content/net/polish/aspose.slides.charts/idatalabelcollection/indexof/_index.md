@@ -3,7 +3,7 @@ title: IndexOf
 second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Zwraca indeks określonego DataLabel w kolekcji.
 type: docs
-weight: 110
+weight: 120
 url: /pl/aspose.slides.charts/idatalabelcollection/indexof/
 ---
 ## IDataLabelCollection.IndexOf metoda

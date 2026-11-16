@@ -1,14 +1,14 @@
 ---
 title: TextToHtmlConversionOptions
-second_title: Aspose.Sildes for .NET API 参考
-description: 用于从 Pptx 文本中提取 HTML 的选项。
+second_title: Aspose.Sildes .NET API 参考
+description: 从 Pptx 文本提取 HTML 的选项。
 type: docs
-weight: 4550
+weight: 4570
 url: /zh/aspose.slides.export/texttohtmlconversionoptions/
 ---
 ## TextToHtmlConversionOptions 类
 
-用于从 Pptx 文本中提取 HTML 的选项。
+从 Pptx 文本提取 HTML 的选项。
 
 ```csharp
 public sealed class TextToHtmlConversionOptions : ITextToHtmlConversionOptions
@@ -24,12 +24,12 @@ public sealed class TextToHtmlConversionOptions : ITextToHtmlConversionOptions
 
 | 名称 | 描述 |
 | --- | --- |
-| [AddClipboardFragmentHeader](../../aspose.slides.export/texttohtmlconversionoptions/addclipboardfragmentheader) { get; set; } | 返回或设置值，指示是否应添加 Clipboard 标头。读/写 Boolean。 |
-| [EncodingName](../../aspose.slides.export/texttohtmlconversionoptions/encodingname) { get; set; } | 返回或设置 html 编码名称。此值将保存到生成的 HTML 文件中，但由调用者确保文件以此编码保存。读/写 String。 |
-| [LinkEmbedController](../../aspose.slides.export/texttohtmlconversionoptions/linkembedcontroller) { get; set; } | 返回或设置回调对象，用于控制外部对象的存储方式。读/写 [`ILinkEmbedController`](../ilinkembedcontroller)。 |
-| [TextInheritanceLimit](../../aspose.slides.export/texttohtmlconversionoptions/textinheritancelimit) { get; set; } | 返回或设置文本属性的继承深度。读/写 [`TextInheritanceLimit`](../textinheritancelimit)。 |
+| [AddClipboardFragmentHeader](../../aspose.slides.export/texttohtmlconversionoptions/addclipboardfragmentheader) { get; set; } | 返回或设置值，指示是否应添加 Clipboard 标头。可读写 Boolean。 |
+| [EncodingName](../../aspose.slides.export/texttohtmlconversionoptions/encodingname) { get; set; } | 返回或设置 html 编码名称。此值将保存到生成的 HTML 文件中，但由调用方确保文件以此编码保存。可读写 String。 |
+| [LinkEmbedController](../../aspose.slides.export/texttohtmlconversionoptions/linkembedcontroller) { get; set; } | 返回或设置一个回调对象，用于控制外部对象的存储方式。可读写 [`ILinkEmbedController`](../ilinkembedcontroller)。 |
+| [TextInheritanceLimit](../../aspose.slides.export/texttohtmlconversionoptions/textinheritancelimit) { get; set; } | 返回或设置文本属性的继承深度。可读写 [`TextInheritanceLimit`](../textinheritancelimit)。 |
 
-### 另见
+### 另请参阅
 
 * 接口 [ITextToHtmlConversionOptions](../itexttohtmlconversionoptions)
 * 命名空间 [Aspose.Slides.Export](../../aspose.slides.export)

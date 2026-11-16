@@ -1,30 +1,30 @@
 ---
 title: SensitivityLabelContentType
-second_title: Aspose.Sildes for .NET API リファレンス
-description: ドキュメントに適用すべきコンテンツマーキングの種類を表します。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: ドキュメントに適用すべきコンテンツマーキングのタイプを表します。
 type: docs
-weight: 9820
+weight: 9840
 url: /ja/aspose.slides/sensitivitylabelcontenttype/
 ---
-## SensitivityLabelContentType 列挙型
+## SensitivityLabelContentType 列挙体
 
-ドキュメントに適用すべきコンテンツマーキングの種類を表します。
+ドキュメントに適用すべきコンテンツマーキングのタイプを表します。
 
 ```csharp
 public enum SensitivityLabelContentType
 ```
 
-### Values
+### 値
 
-| 名前 | 値 | 説明 |
+| Name | Value | Description |
 | --- | --- | --- |
-| None | `0` | ラベルが既定または自動的に適用されることを意味します。 |
-| Header | `1` | ラベルが手動で適用されたことを意味します。ユーザーが直接適用した任意の機密ラベルに使用します。 |
-| Footer | `2` | ラベルが手動で適用されたことを意味します。ユーザーが直接適用した任意の機密ラベルに使用します。 |
-| Watermark | `4` | ラベルが手動で適用されたことを意味します。ユーザーが直接適用した任意の機密ラベルに使用します。 |
-| Encryption | `8` | ラベルが手動で適用されたことを意味します。ユーザーが直接適用した任意の機密ラベルに使用します。 |
+| None | `0` | ラベルがデフォルトまたは自動的に適用されることを意味します。 |
+| Header | `1` | ラベルが手動で適用されたことを意味します。ユーザーが直接適用した感度ラベルに使用します。 |
+| Footer | `2` | ラベルが手動で適用されたことを意味します。ユーザーが直接適用した感度ラベルに使用します。 |
+| Watermark | `4` | ラベルが手動で適用されたことを意味します。ユーザーが直接適用した感度ラベルに使用します。 |
+| Encryption | `8` | ラベルが手動で適用されたことを意味します。ユーザーが直接適用した感度ラベルに使用します。 |
 
-### See Also
+### 参照
 
 * 名前空間 [Aspose.Slides](../../aspose.slides)
 * アセンブリ [Aspose.Slides](../../)

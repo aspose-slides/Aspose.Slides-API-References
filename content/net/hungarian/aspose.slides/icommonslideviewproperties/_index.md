@@ -1,14 +1,14 @@
 ---
 title: ICommonSlideViewProperties
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Közös diavetítés nézet tulajdonságait képviseli.
+second_title: Aspose.Sildes .NET API referenciája
+description: Képviseli a közös dianézet tulajdonságait.
 type: docs
-weight: 5600
+weight: 5620
 url: /hu/aspose.slides/icommonslideviewproperties/
 ---
 ## ICommonSlideViewProperties interfész
 
-Közös diavetítés nézet tulajdonságait képviseli.
+Képviseli a közös dianézet tulajdonságait.
 
 ```csharp
 public interface ICommonSlideViewProperties
@@ -18,9 +18,9 @@ public interface ICommonSlideViewProperties
 
 | Név | Leírás |
 | --- | --- |
-| [DrawingGuides](../../aspose.slides/icommonslideviewproperties/drawingguides) { get; } | Visszaadja a rajzoló segédvonalak gyűjteményét. Csak olvasható [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [Scale](../../aspose.slides/icommonslideviewproperties/scale) { get; set; } | Megadja a nézet méretezési arányát százalékban. Olvasás/írás Int32. |
-| [VariableScale](../../aspose.slides/icommonslideviewproperties/variablescale) { get; set; } | Megadja, hogy a nézet tartalma automatikusan méreteződjön, hogy a legjobban illeszkedjen az aktuális ablakmérethez. Olvasás/írás Boolean. |
+| [DrawingGuides](../../aspose.slides/icommonslideviewproperties/drawingguides) { get; } | Visszaadja a rajzolási segédvonalak gyűjteményét. Csak olvasható [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [Scale](../../aspose.slides/icommonslideviewproperties/scale) { get; set; } | Meghatározza a nézet méretezési arányát százalékban. Olvasható/írható Int32. |
+| [VariableScale](../../aspose.slides/icommonslideviewproperties/variablescale) { get; set; } | Meghatározza, hogy a nézet tartalma automatikusan méreteződjön a jelenlegi ablakmérethez legjobban illeszkedő módon. Olvasható/írható Boolean. |
 
 ### Lásd még
 

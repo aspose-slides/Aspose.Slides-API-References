@@ -3,7 +3,7 @@ title: IPictureEffectiveData
 second_title: Aspose.Sildes for .NET API リファレンス
 description: 有効な画像プロパティを含む不変オブジェクトです。
 type: docs
-weight: 6640
+weight: 6660
 url: /ja/aspose.slides/ipictureeffectivedata/
 ---
 ## IPictureEffectiveData インターフェイス
@@ -18,9 +18,9 @@ public interface IPictureEffectiveData
 
 | 名前 | 説明 |
 | --- | --- |
-| [Image](../../aspose.slides/ipictureeffectivedata/image) { get; } | 埋め込み画像を返します。読み取り専用 [`IPPImage`](../ippimage). |
-| [ImageTransform](../../aspose.slides/ipictureeffectivedata/imagetransform) { get; } | 画像変換エフェクトのコレクションを返します。読み取り専用 [`IImageTransformOCollectionEffectiveData`](../../aspose.slides.effects/iimagetransformocollectioneffectivedata). |
-| [LinkPathLong](../../aspose.slides/ipictureeffectivedata/linkpathlong) { get; } | リンクされた画像の URL を返します。読み取り専用 String. |
+| [Image](../../aspose.slides/ipictureeffectivedata/image) { get; } | 埋め込まれた画像を返します。読み取り専用 [`IPPImage`](../ippimage)。 |
+| [ImageTransform](../../aspose.slides/ipictureeffectivedata/imagetransform) { get; } | 画像変換エフェクトのコレクションを返します。読み取り専用 [`IImageTransformOCollectionEffectiveData`](../../aspose.slides.effects/iimagetransformocollectioneffectivedata)。 |
+| [LinkPathLong](../../aspose.slides/ipictureeffectivedata/linkpathlong) { get; } | リンクされた画像のURLを返します。読み取り専用 String。 |
 
 ### 備考
 

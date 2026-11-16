@@ -3,7 +3,7 @@ title: IEffectStyleCollection
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en samling av effektstilar.
 type: docs
-weight: 11180
+weight: 11200
 url: /sv/aspose.slides.theme/ieffectstylecollection/
 ---
 ## IEffectStyleCollection gränssnitt
@@ -20,7 +20,7 @@ public interface IEffectStyleCollection : IGenericCollection<IEffectStyle>
 | --- | --- |
 | [Item](../../aspose.slides.theme/ieffectstylecollection/item) { get; } | Returnerar ett element på angiven position. Skrivskyddad [`IEffectStyle`](../ieffectstyle). |
 
-### Se också
+### Se även
 
 * gränssnitt [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * gränssnitt [IEffectStyle](../ieffectstyle)

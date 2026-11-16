@@ -1,14 +1,14 @@
 ---
 title: ShapeBevel
-second_title: Aspose.Sildes .NET API Referencia
-description: Tartalmazza a formák fő felületének domborulatával kapcsolatos tulajdonságokat.
+second_title: Aspose.Sildes a .NET API referencia
+description: Tartalmazza a formák fő felületének domborítási tulajdonságait.
 type: docs
-weight: 9850
+weight: 9870
 url: /hu/aspose.slides/shapebevel/
 ---
 ## ShapeBevel osztály
 
-Tartalmazza az alakzat fő felületének domborulatával kapcsolatos tulajdonságokat.
+A forma fő felületének domborítási tulajdonságait tartalmazza.
 
 ```csharp
 public sealed class ShapeBevel : PVIObject, IShapeBevel
@@ -25,9 +25,9 @@ public sealed class ShapeBevel : PVIObject, IShapeBevel
 | Név | Leírás |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Lehetővé teszi a base IPresentationComponent interfész lekérését. Csak olvasható [`IPresentationComponent`](../ipresentationcomponent). |
-| [BevelType](../../aspose.slides/shapebevel/beveltype) { get; set; } | Fazetta típus. Olvasás/írás [`BevelPresetType`](../bevelpresettype). |
-| [Height](../../aspose.slides/shapebevel/height) { get; set; } | Fazetta magasság. Olvasás/írás Double. |
-| [Width](../../aspose.slides/shapebevel/width) { get; set; } | Fazetta szélesség. Olvasás/írás Double. |
+| [BevelType](../../aspose.slides/shapebevel/beveltype) { get; set; } | Domborítás típusa. Olvasható/írható [`BevelPresetType`](../bevelpresettype). |
+| [Height](../../aspose.slides/shapebevel/height) { get; set; } | Domborítás magassága. Olvasható/írható Double. |
+| [Width](../../aspose.slides/shapebevel/width) { get; set; } | Domborítás szélessége. Olvasható/írható Double. |
 
 ## Metódusok
 
@@ -36,7 +36,7 @@ public sealed class ShapeBevel : PVIObject, IShapeBevel
 | override [Equals](../../aspose.slides/shapebevel/equals)(object) |  |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Visszaadja a hash kódot. |
 
-### Lásd még
+### Továbbiak
 
 * osztály [PVIObject](../pviobject)
 * interfész [IShapeBevel](../ishapebevel)

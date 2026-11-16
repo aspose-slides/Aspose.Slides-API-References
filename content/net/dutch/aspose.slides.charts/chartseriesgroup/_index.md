@@ -1,14 +1,14 @@
 ---
 title: ChartSeriesGroup
-second_title: Aspose.Sildes voor .NET API-referentie
-description: Vertegenwoordigt een groep series.
+second_title: Aspose.Slides voor .NET API-referentie
+description: Vertegenwoordigt een groep van series.
 type: docs
-weight: 1460
+weight: 1470
 url: /nl/aspose.slides.charts/chartseriesgroup/
 ---
 ## ChartSeriesGroup klasse
 
-Vertegenwoordigt een groep van series.
+Represents group of series.
 
 ```csharp
 public class ChartSeriesGroup : IChartSeriesGroup
@@ -18,36 +18,35 @@ public class ChartSeriesGroup : IChartSeriesGroup
 
 | Naam | Beschrijving |
 | --- | --- |
-| [BubbleSizeRepresentation](../../aspose.slides.charts/chartseriesgroup/bubblesizerepresentation) { get; set; } | Specificeert hoe de bubbelformaatwaarden worden weergegeven op de bubbelgrafiek. Lezen/schrijven [`BubbleSizeRepresentationType`](../bubblesizerepresentationtype). |
-| [BubbleSizeScale](../../aspose.slides.charts/chartseriesgroup/bubblesizescale) { get; set; } | Specificeert de schaalfactor voor de bubbelgrafiek (kan tussen 0 en 300 % van de standaardgrootte liggen). Lezen/schrijven Int32. |
-| [Chart](../../aspose.slides.charts/chartseriesgroup/chart) { get; } | Retourneert de bovenliggende grafiek. Alleen-lezen [`IChart`](../ichart). |
-| [DoughnutHoleSize](../../aspose.slides.charts/chartseriesgroup/doughnutholesize) { get; set; } | Specificeert de grootte van het gat in een donutgrafiek (kan tussen 0 en 90 % van de grootte van het tekengedeelte liggen). Lezen/schrijven Byte. |
-| [FirstSliceAngle](../../aspose.slides.charts/chartseriesgroup/firstsliceangle) { get; set; } | Haalt de hoek van de eerste taart- of donutgrafieksegment op, in graden (met de klok mee vanaf boven, van 0 tot 360 graden). Lezen/schrijven UInt16. |
-| [GapDepth](../../aspose.slides.charts/chartseriesgroup/gapdepth) { get; set; } | Retourneert of stelt de afstand in, als percentage van de markerbreedte, tussen de gegevensseries in een 3D-grafiek. Lezen/schrijven UInt16. |
-| [GapWidth](../../aspose.slides.charts/chartseriesgroup/gapwidth) { get; set; } | Specificeert de ruimte tussen staaf- of kolomclusters, als percentage van de staaf- of kolombreedte. Lezen/schrijven UInt16. |
-| [HasSeriesLines](../../aspose.slides.charts/chartseriesgroup/hasserieslines) { get; set; } | Waar als de grafiek serielijnen heeft. Toegepast op gestapelde staaf- en OfPie-grafieken. Lezen/schrijven Boolean. |
-| [HiLowLinesFormat](../../aspose.slides.charts/chartseriesgroup/hilowlinesformat) { get; } | Specificeert HiLowLines-indeling. HiLowLines toegepast met HiLowClose, OpenHiLowClose, VolumeHiLowClose en VolumeOpenHiLowClose grafiektypen. |
-| [IsColorVaried](../../aspose.slides.charts/chartseriesgroup/iscolorvaried) { get; set; } | Specificeert dat elke datamarker in de serie een andere kleur heeft. Lezen/schrijven Boolean. |
+| [BubbleSizeRepresentation](../../aspose.slides.charts/chartseriesgroup/bubblesizerepresentation) { get; set; } | Specificeert hoe de bubbelgroottewaarden worden weergegeven in het bubbel-diagram. Lezen/Schrijven [`BubbleSizeRepresentationType`](../bubblesizerepresentationtype). |
+| [BubbleSizeScale](../../aspose.slides.charts/chartseriesgroup/bubblesizescale) { get; set; } | Specificeert de schaalfactor voor het bubbel-diagram (kan tussen 0 en 300 procent van de standaardgrootte liggen). Lezen/Schrijven Int32. |
+| [Chart](../../aspose.slides.charts/chartseriesgroup/chart) { get; } | Geeft het bovenliggende diagram terug. Alleen-lezen [`IChart`](../ichart). |
+| [DoughnutHoleSize](../../aspose.slides.charts/chartseriesgroup/doughnutholesize) { get; set; } | Specificeert de grootte van het gat in een donut-diagram (kan tussen 0 en 90 procent van de grootte van het plotgebied liggen). Lezen/Schrijven Byte. |
+| [FirstSliceAngle](../../aspose.slides.charts/chartseriesgroup/firstsliceangle) { get; set; } | Haalt de hoek op of stelt deze in van het eerste taart- of donut-diagramsegment, in graden (met de klok mee vanaf boven, van 0 tot 360 graden). Lezen/Schrijven UInt16. |
+| [GapDepth](../../aspose.slides.charts/chartseriesgroup/gapdepth) { get; set; } | Haalt de afstand op of stelt deze in tussen gegevensreeksen in een 3D-diagram, als een percentage van de markerbreedte. De waarde moet tussen 0 en 500 liggen. Lezen/Schrijven UInt16. |
+| [GapWidth](../../aspose.slides.charts/chartseriesgroup/gapwidth) { get; set; } | Haalt de ruimte op of stelt deze in tussen balk- of kolom-clusters, als een percentage van de balk- of kolombreedte. De waarde moet tussen 0 en 500 liggen. Lezen/Schrijven UInt16. |
+| [HasSeriesLines](../../aspose.slides.charts/chartseriesgroup/hasserieslines) { get; set; } | Waar als diagram reekslijnen heeft. Toegepast op gestapelde balk- en OfPie-diagrammen. Lezen/Schrijven Boolean. |
+| [HiLowLinesFormat](../../aspose.slides.charts/chartseriesgroup/hilowlinesformat) { get; } | Specificeert het HiLowLines-formaat. HiLowLines toegepast met HiLowClose, OpenHiLowClose, VolumeHiLowClose en VolumeOpenHiLowClose diagramtypen. |
+| [IsColorVaried](../../aspose.slides.charts/chartseriesgroup/iscolorvaried) { get; set; } | Specificeert dat elke datamarker in de reeks een andere kleur heeft. Lezen/Schrijven Boolean. |
 | [Item](../../aspose.slides.charts/chartseriesgroup/item) { get; } | Haalt het element op op de opgegeven index. |
-| [Overlap](../../aspose.slides.charts/chartseriesgroup/overlap) { get; set; } | Specificeert hoeveel staven en kolommen op 2-D-grafieken overlappen, als percentage (van -100 % tot 100 %). -100 %: maximale afstand (staven zijn volledig gescheiden). -0 %: staven staan naast elkaar zonder overlap of afstand. 100 %: maximale overlap (staven overlappen volledig). Deze eigenschap is lezen/schrijven SByte. |
-| [PieSplitBy](../../aspose.slides.charts/chartseriesgroup/piesplitby) { get; set; } | Specificeert hoe bepaald wordt welke datapunten in de tweede taart of staaf van een pie-of-pie- of bar-of-pie-grafiek voorkomen. Lezen/schrijven [`PieSplitType`](../piesplittype). |
-| [PieSplitCustomPoints](../../aspose.slides.charts/chartseriesgroup/piesplitcustompoints) { get; } | De aangepaste splitsingsinformatie voor een pie-of-pie- of bar-of-pie-grafiek met een aangepaste splitsing. Bevat datapunten die in de tweede taart of staaf van een pie-of-pie- of bar-of-pie-grafiek getekend moeten worden. Alleen-lezen [`PieSplitCustomPointCollection`](../piesplitcustompointcollection). |
-| [PieSplitPosition](../../aspose.slides.charts/chartseriesgroup/piesplitposition) { get; set; } | Specificeert een waarde die gebruikt wordt om te bepalen welke datapunten in de tweede taart of staaf van een pie-of-pie- of bar-of-pie-grafiek voorkomen. Wordt samen met de eigenschap PieSplitBy gebruikt. Lezen/schrijven Double. |
-| [PlotOnSecondAxis](../../aspose.slides.charts/chartseriesgroup/plotonsecondaxis) { get; } | Geeft aan of series van deze groep op een secundaire as worden geplot. Alleen-lezen Boolean. |
-| [SecondPieSize](../../aspose.slides.charts/chartseriesgroup/secondpiesize) { get; set; } | Specificeert de grootte van de tweede taart of staaf van een pie-of-pie-grafiek of een bar-of-pie-grafiek, als percentage van de grootte van de eerste taart (kan tussen 5 en 200 % liggen). Lezen/schrijven UInt16. |
-| [Series](../../aspose.slides.charts/chartseriesgroup/series) { get; } | Retourneert een collectie van series. Alleen-lezen [`IChartSeriesReadonlyCollection`](../ichartseriesreadonlycollection). |
-| [Type](../../aspose.slides.charts/chartseriesgroup/type) { get; } | Retourneert een type van deze seriegroep. Alleen-lezen [`CombinableSeriesTypesGroup`](../combinableseriestypesgroup). |
-| [UpDownBars](../../aspose.slides.charts/chartseriesgroup/updownbars) { get; } | Biedt toegang tot op/ neer-balken van een lijn- of aandelen-grafiek. Alleen-lezen [`IUpDownBarsManager`](../iupdownbarsmanager). |
+| [Overlap](../../aspose.slides.charts/chartseriesgroup/overlap) { get; set; } | Specificeert hoeveel balken en kolommen overlappen in 2-D-diagrammen, als een percentage (van -100 % tot 100 %). - -100 %: Maximale spatiëring (balken zijn volledig gescheiden). - 0 %: Balken staan naast elkaar zonder overlapping of ruimte. - 100 %: Maximale overlapping (balken overlappen volledig elkaar). Deze eigenschap is Lezen/Schrijven SByte. |
+| [PieSplitBy](../../aspose.slides.charts/chartseriesgroup/piesplitby) { get; set; } | Specificeert hoe bepaald wordt welke gegevenspunten zich in de tweede taart of balk bevinden in een taart-van-taart- of balk-van-taart-diagram. Lezen/Schrijven [`PieSplitType`](../piesplittype). |
+| [PieSplitCustomPoints](../../aspose.slides.charts/chartseriesgroup/piesplitcustompoints) { get; } | De aangepaste splitsingsinformatie voor een taart-van-taart- of balk-van-taart-diagram met een aangepaste splitsing. Bevat gegevenspunten die in de tweede taart of balk moeten worden getekend in een taart-van-taart- of balk-van-taart-diagram. Alleen-lezen [`PieSplitCustomPointCollection`](../piesplitcustompointcollection). |
+| [PieSplitPosition](../../aspose.slides.charts/chartseriesgroup/piesplitposition) { get; set; } | Specificeert een waarde die gebruikt wordt om te bepalen welke gegevenspunten zich in de tweede taart of balk bevinden in een taart-van-taart- of balk-van-taart-diagram. Wordt samen met de eigenschap PieSplitBy gebruikt. Lezen/Schrijven Double. |
+| [PlotOnSecondAxis](../../aspose.slides.charts/chartseriesgroup/plotonsecondaxis) { get; } | Geeft aan of reeksen van deze groep worden weergegeven op een secundaire as. Alleen-lezen Boolean. |
+| [SecondPieSize](../../aspose.slides.charts/chartseriesgroup/secondpiesize) { get; set; } | Specificeert de grootte van de tweede taart of balk van een taart-van-taart- of balk-van-taart-diagram, als een percentage van de grootte van de eerste taart (kan tussen 5 en 200 procent liggen). Lezen/Schrijven UInt16. |
+| [Series](../../aspose.slides.charts/chartseriesgroup/series) { get; } | Geeft een verzameling van reeksen terug. Alleen-lezen [`IChartSeriesReadonlyCollection`](../ichartseriesreadonlycollection). |
+| [Type](../../aspose.slides.charts/chartseriesgroup/type) { get; } | Geeft een type van deze reeksgroep terug. Alleen-lezen [`CombinableSeriesTypesGroup`](../combinableseriestypesgroup). |
+| [UpDownBars](../../aspose.slides.charts/chartseriesgroup/updownbars) { get; } | Biedt toegang tot op/naar-beneden-balken van een Lijn- of Aandelen-diagram. Alleen-lezen [`IUpDownBarsManager`](../iupdownbarsmanager). |
 
 ### Opmerkingen
 
-1) Zie samenvatting en opmerkingen voor ChartSeriesGroupCollection klasse en CombinableSeriesTypesGroup enum.  
-2) Een groep van series bevat enkele series-eigenschappen die gemeenschappelijk zijn voor elke serie in de groep (“series group properties”). “Series group properties” in de ChartSeriesGroup klasse is lezen/schrijven. Elke “series group properties” kan een alleen-lezen projectie hebben in de ChartSeries klasse.
+1) Zie de samenvatting en opmerkingen voor de ChartSeriesGroupCollection klasse en de CombinableSeriesTypesGroup enum. 2) Een groep reeksen bevat enkele reeks-eigenschappen die gemeenschappelijk zijn voor elke reeks in de groep (“series group properties”). “Series group properties” in de ChartSeriesGroup klasse is Lezen/Schrijven. Elke “series group properties” kan een Alleen-lezen projectie hebben in de ChartSeries klasse.
 
 ### Zie ook
 
 * interface [IChartSeriesGroup](../ichartseriesgroup)
-* naamruimte [Aspose.Slides.Charts](../../aspose.slides.charts)
+* namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
 * assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

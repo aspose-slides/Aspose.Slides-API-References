@@ -1,12 +1,12 @@
 ---
 title: ShapeAdjustmentType
-second_title: Référence de l'API Aspose.Sildes pour .NET
-description: "Spécifie différents types de valeurs d'ajustement de forme."
+second_title: Aspose.Sildes pour .NET Référence de l'API
+description: Spécifie différents types de valeurs d'ajustement de forme.
 type: docs
-weight: 9840
+weight: 9860
 url: /fr/aspose.slides/shapeadjustmenttype/
 ---
-## ShapeAdjustmentType énumération
+## Énumération ShapeAdjustmentType
 
 Spécifie différents types de valeurs d'ajustement de forme.
 
@@ -24,26 +24,26 @@ public enum ShapeAdjustmentType
 | RightUpCorner | `3` | Contrôle le coin supérieur droit. |
 | UpCorners | `4` | Contrôle les coins supérieurs. |
 | DownCorners | `5` | Contrôle les coins inférieurs. |
-| Thickness | `6` | Contrôle l'épaisseur de la figure. |
-| ArrowTailThickness | `7` | Contrôle l'épaisseur de la queue de la flèche. |
-| ArrowheadLength | `8` | Contrôle la longueur de la pointe de la flèche. |
-| ArrowheadWidth | `9` | Contrôle la largeur de la pointe de la flèche. |
+| Thickness | `6` | Contrôle l'épaisseur de la forme. |
+| ArrowTailThickness | `7` | Contrôle l'épaisseur de la queue de flèche. |
+| ArrowheadLength | `8` | Contrôle la longueur de la pointe de flèche. |
+| ArrowheadWidth | `9` | Contrôle la largeur de la pointe de flèche. |
 | Radius | `10` | Contrôle la taille du rayon de la forme ou de sa partie. |
-| Depth | `11` | Contrôle la profondeur des dents d'engrenage ou de l'effet biseauté. |
-| ShapePartOffset | `12` | Contrôle le décalage d'une partie de la figure par rapport à une autre. |
-| Angle | `13` | Contrôle l'angle de la figure ou de sa partie. |
-| StartAngle | `14` | Angle de départ pour les formes de secteur et d'arc. |
-| EndAngle | `15` | Angle de fin pour les formes de secteur et d'arc. |
+| Depth | `11` | Contrôle la profondeur des dents d'engrenage ou de l'effet biseau. |
+| ShapePartOffset | `12` | Contrôle le décalage d'une partie de la forme par rapport à une autre. |
+| Angle | `13` | Contrôle l'angle de la forme ou de sa partie. |
+| StartAngle | `14` | Angle de départ pour les formes en secteurs et en arcs. |
+| EndAngle | `15` | Angle de fin pour les formes en secteurs et en arcs. |
 | StartPointX | `16` | Contrôle la position X du point de départ de l'annotation. |
 | StartPointY | `17` | Contrôle la position Y du point de départ de l'annotation. |
-| ConnectorPoint1X | `18` | Contrôle la position horizontale du point d'ajustement d'angle de l'annotation. |
-| ConnectorPoint1Y | `19` | Contrôle la position verticale du point d'ajustement d'angle de l'annotation. |
-| ConnectorPoint2X | `20` | Contrôle la position horizontale du point d'ajustement d'angle de l'annotation. |
-| ConnectorPoint2Y | `21` | Contrôle la position verticale du point d'ajustement d'angle de l'annotation. |
+| ConnectorPoint1X | `18` | Contrôle la position horizontale du point d'ajustement de l'angle de l'annotation. |
+| ConnectorPoint1Y | `19` | Contrôle la position verticale du point d'ajustement de l'angle de l'annotation. |
+| ConnectorPoint2X | `20` | Contrôle la position horizontale du point d'ajustement de l'angle de l'annotation. |
+| ConnectorPoint2Y | `21` | Contrôle la position verticale du point d'ajustement de l'angle de l'annotation. |
 | ConnectorBendPositionX | `22` | Contrôle la position horizontale du pli dans le connecteur. |
 | ConnectorBendPositionY | `23` | Contrôle la position verticale du pli dans le connecteur. |
-| AttachY | `24` | Contrôle le point d'attache vertical de la figure. |
-| AttachX | `25` | Contrôle le point d'attache horizontal de la figure. |
+| AttachY | `24` | Contrôle le point d'attache vertical de la forme. |
+| AttachX | `25` | Contrôle le point d'attache horizontal de la forme. |
 | CalloutHeight | `26` | Contrôle la taille verticale de l'annotation. |
 | CalloutWidth | `27` | Contrôle la taille horizontale de l'annotation. |
 | CalloutSize | `28` | Contrôle la taille de l'annotation. |

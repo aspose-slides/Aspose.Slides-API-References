@@ -1,9 +1,9 @@
 ---
 title: ModernComment
-second_title: Aspose.Sildes .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Bir slayttaki yorumu temsil eder.
 type: docs
-weight: 9090
+weight: 9110
 url: /tr/aspose.slides/moderncomment/
 ---
 ## ModernComment sınıfı
@@ -18,18 +18,18 @@ public sealed class ModernComment : Comment, IModernComment
 
 | Ad | Açıklama |
 | --- | --- |
-| [Author](../../aspose.slides/comment/author) { get; } | Bir yorumun yazarını döndürür. Salt okunur [`ICommentAuthor`](../icommentauthor). |
-| [CreatedTime](../../aspose.slides/comment/createdtime) { get; set; } | Bir yorumun oluşturulma zamanını döndürür veya ayarlar. Bu özelliği MinValue olarak ayarlamak, yorum zamanının ayarlanmadığını gösterir. Okuma/yazma DateTime. |
+| [Author](../../aspose.slides/comment/author) { get; } | Bir yorumun yazarını döndürür. Yalnızca okuma [`ICommentAuthor`](../icommentauthor). |
+| [CreatedTime](../../aspose.slides/comment/createdtime) { get; set; } | Bir yorumun oluşturulma zamanını döndürür veya ayarlar. Bu özelliği MinValue değerine ayarlamak yorum zamanının ayarlanmadığını gösterir. Okuma/yazma DateTime. |
 | [ParentComment](../../aspose.slides/comment/parentcomment) { get; set; } | Üst yorumu alır veya ayarlar. Okuma/yazma [`IComment`](../icomment). |
 | [Position](../../aspose.slides/comment/position) { get; set; } | Bir slayttaki yorumun konumunu döndürür veya ayarlar. Okuma/yazma PointF. |
-| [Shape](../../aspose.slides/moderncomment/shape) { get; } | Yorumla ilişkili bir şekli döndürür. Salt okunur [`IShape`](../ishape). |
-| [Slide](../../aspose.slides/comment/slide) { get; } | Bir yorumun üst slaydını döndürür veya ayarlar. Salt okunur [`ISlide`](../islide). |
+| [Shape](../../aspose.slides/moderncomment/shape) { get; } | Yorumla ilişkili bir şekli döndürür. Yalnızca okuma [`IShape`](../ishape). |
+| [Slide](../../aspose.slides/comment/slide) { get; } | Bir yorumun üst slaytını döndürür veya ayarlar. Yalnızca okuma [`ISlide`](../islide). |
 | [Status](../../aspose.slides/moderncomment/status) { get; set; } | Yorumun durumunu alır veya ayarlar. Okuma/yazma [`ModernCommentStatus`](../moderncommentstatus). |
 | [Text](../../aspose.slides/comment/text) { get; set; } | Bir slayt yorumunun düz metnini döndürür veya ayarlar. Okuma/yazma String. |
-| [TextSelectionLength](../../aspose.slides/moderncomment/textselectionlength) { get; set; } | Yorum AutoShape ile ilişkilendirilmişse, metin çerçevesindeki metin seçimi uzunluğunu alır veya ayarlar. Okuma/yazma Int32. |
-| [TextSelectionStart](../../aspose.slides/moderncomment/textselectionstart) { get; set; } | Yorum AutoShape ile ilişkilendirilmişse, metin çerçevesindeki metin seçiminin başlangıç konumunu alır veya ayarlar. Okuma/yazma Int32. |
+| [TextSelectionLength](../../aspose.slides/moderncomment/textselectionlength) { get; set; } | Yorum AutoShape ile ilişkili ise metin çerçevesindeki metin seçimi uzunluğunu alır veya ayarlar. Okuma/yazma Int32. |
+| [TextSelectionStart](../../aspose.slides/moderncomment/textselectionstart) { get; set; } | Yorum AutoShape ile ilişkili ise metin çerçevesindeki metin seçiminin başlangıç konumunu alır veya ayarlar. Okuma/yazma Int32. |
 
-## Yöntemler
+## Metotlar
 
 | Ad | Açıklama |
 | --- | --- |

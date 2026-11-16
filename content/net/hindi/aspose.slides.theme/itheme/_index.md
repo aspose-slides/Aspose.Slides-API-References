@@ -1,9 +1,9 @@
 ---
 title: ITheme
-second_title: Aspose.Sildes के लिए .NET API रेफ़रेंस
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
 description: एक थीम का प्रतिनिधित्व करता है।
 type: docs
-weight: 11370
+weight: 11390
 url: /hi/aspose.slides.theme/itheme/
 ---
 ## ITheme इंटरफ़ेस
@@ -18,18 +18,18 @@ public interface ITheme : IPresentationComponent
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides.theme/itheme/asipresentationcomponent) { get; } | आधारभूत IPresentationComponent इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल पढ़ने योग्य [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)। |
-| [ColorScheme](../../aspose.slides.theme/itheme/colorscheme) { get; } | रंग योजना को लौटाता है। केवल पढ़ने योग्य [`IColorScheme`](../icolorscheme)। |
-| [FontScheme](../../aspose.slides.theme/itheme/fontscheme) { get; } | फ़ॉन्ट योजना को लौटाता है। केवल पढ़ने योग्य [`IFontScheme`](../ifontscheme)। |
-| [FormatScheme](../../aspose.slides.theme/itheme/formatscheme) { get; } | आकृति स्वरूप योजना को लौटाता है। केवल पढ़ने योग्य [`IFormatScheme`](../iformatscheme)। |
+| [AsIPresentationComponent](../../aspose.slides.theme/itheme/asipresentationcomponent) { get; } | बेस IPresentationComponent इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़नेयोग्य [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)। |
+| [ColorScheme](../../aspose.slides.theme/itheme/colorscheme) { get; } | रंग योजना को लौटाता है। केवल-पढ़नेयोग्य [`IColorScheme`](../icolorscheme)। |
+| [FontScheme](../../aspose.slides.theme/itheme/fontscheme) { get; } | फ़ॉन्ट योजना को लौटाता है। केवल-पढ़नेयोग्य [`IFontScheme`](../ifontscheme)। |
+| [FormatScheme](../../aspose.slides.theme/itheme/formatscheme) { get; } | आकार फ़ॉर्मेट योजना को लौटाता है। केवल-पढ़नेयोग्य [`IFormatScheme`](../iformatscheme)। |
 
 ## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [GetEffective](../../aspose.slides.theme/itheme/geteffective)() | विरासत लागू किए गए प्रभावी थीम डेटा को प्राप्त करता है। |
+| [GetEffective](../../aspose.slides.theme/itheme/geteffective)() | विरासत लागू होते हुए प्रभावी थीम डेटा प्राप्त करता है। |
 
-### संबंधित देखें
+### देखें भी
 
 * इंटरफ़ेस [IPresentationComponent](../../aspose.slides/ipresentationcomponent)
 * नामस्थान [Aspose.Slides.Theme](../../aspose.slides.theme)

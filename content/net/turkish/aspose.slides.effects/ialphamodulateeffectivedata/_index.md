@@ -1,14 +1,14 @@
 ---
 title: IAlphaModulateEffectiveData
 second_title: Aspose.Sildes için .NET API Referansı
-description: Alpha Modulate etkisini temsil eden değiştirilemez nesne. Etki alfa opaklık değerleri sabit bir yüzdeyle çarpılır. Etki konteyneri, modüle edilecek alfa değerlerini içeren bir etki belirtir.
+description: Alfa Modülasyon etkisini temsil eden değiştirilemez nesne. Etki alfa opaklık değerleri sabit bir yüzde ile çarpılır. Etki kapsayıcısı, modüle edilecek alfa değerlerini içeren bir etki belirtir.
 type: docs
-weight: 3110
+weight: 3130
 url: /tr/aspose.slides.effects/ialphamodulateeffectivedata/
 ---
 ## IAlphaModulateEffectiveData arayüz
 
-Değiştirilemez nesne, Alpha Modulate etkisini temsil eder. Etki alfa (opaklık) değerleri sabit bir yüzdeyle çarpılır. Etki konteyneri, modüle edilecek alfa değerlerini içeren bir etki belirtir.
+Alfa Modülasyon etkisini temsil eden değiştirilemez nesne. Etkinin alfa (opaklık) değerleri sabit bir yüzde ile çarpılır. Etki kapsayıcısı, modüle edilecek alfa değerlerini içeren bir etki belirtir.
 
 ```csharp
 public interface IAlphaModulateEffectiveData : IEffectEffectiveData
@@ -18,7 +18,7 @@ public interface IAlphaModulateEffectiveData : IEffectEffectiveData
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphamodulateeffectivedata/asieffecteffectivedata) { get; } | Temel IEffectEffectiveData arayüzünü almayı sağlar. Yalnızca okuma [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphamodulateeffectivedata/asieffecteffectivedata) { get; } | Temel IEffectEffectiveData arabirimini almayı sağlar. Yalnızca okunabilir [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
 ### Ayrıca Bakınız
 

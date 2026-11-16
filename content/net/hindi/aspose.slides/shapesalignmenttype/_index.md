@@ -1,14 +1,14 @@
 ---
 title: ShapesAlignmentType
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: स्लाइड पर चयनित शैप्स की स्थिति बदलने का एक तरीका परिभाषित करता है।
+description: स्लाइड पर चयनित आकारों की स्थिति बदलने का एक तरीका निर्धारित करता है।
 type: docs
-weight: 9940
+weight: 9960
 url: /hi/aspose.slides/shapesalignmenttype/
 ---
 ## ShapesAlignmentType एन्यूमरेशन
 
-एक तरीका परिभाषित करता है जिससे स्लाइड पर चयनित शैप्स की स्थिति बदली जा सके।
+स्लाइड पर चयनित आकारों की स्थिति बदलने का तरीका परिभाषित करता है।
 
 ```csharp
 public enum ShapesAlignmentType
@@ -20,14 +20,14 @@ public enum ShapesAlignmentType
 | --- | --- | --- |
 | AlignLeft | `0` | बाएँ संरेखित |
 | AlignRight | `1` | दाएँ संरेखित |
-| AlignCenter | `2` | केंद्रित |
+| AlignCenter | `2` | केंद्र में संरेखित |
 | AlignTop | `3` | ऊपर संरेखित |
 | AlignMiddle | `4` | मध्य में संरेखित |
 | AlignBottom | `5` | नीचे संरेखित |
 | DistributeHorizontally | `6` | क्षैतिज रूप से वितरित |
-| DistributeVertically | `7` | लंबवत रूप से वितरित |
+| DistributeVertically | `7` | ऊर्ध्वाधर रूप से वितरित |
 
-### संबंधित
+### देखें
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

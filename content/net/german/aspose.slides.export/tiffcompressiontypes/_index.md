@@ -3,7 +3,7 @@ title: TiffCompressionTypes
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt Optionen bereit, die steuern, wie eine Präsentation im TIFF-Format komprimiert wird.
 type: docs
-weight: 4560
+weight: 4580
 url: /de/aspose.slides.export/tiffcompressiontypes/
 ---
 ## TiffCompressionTypes Aufzählung
@@ -18,8 +18,8 @@ public enum TiffCompressionTypes
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| Default | `0` | Gibt das standardmäßige Komprimierungsschema an (LZW). |
-| None | `1` | Gibt an, dass keine Kompression verwendet wird. |
+| Default | `0` | Gibt das Standardkomprimierungsschema an (LZW). |
+| None | `1` | Gibt an, dass keine Komprimierung verwendet wird. |
 | CCITT3 | `2` | Gibt das CCITT3-Komprimierungsschema an. |
 | CCITT4 | `3` | Gibt das CCITT4-Komprimierungsschema an. |
 | LZW | `4` | Gibt das LZW-Komprimierungsschema an (Standard). |

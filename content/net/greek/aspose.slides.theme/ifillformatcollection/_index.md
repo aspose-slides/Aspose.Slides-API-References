@@ -3,10 +3,10 @@ title: IFillFormatCollection
 second_title: Aspose.Sildes για .NET Αναφορά API
 description: Αντιπροσωπεύει τη συλλογή των στυλ γεμίσματος.
 type: docs
-weight: 11230
+weight: 11250
 url: /el/aspose.slides.theme/ifillformatcollection/
 ---
-## IFillFormatCollection διασύνδεση
+## IFillFormatCollection διεπαφή
 
 Αντιπροσωπεύει τη συλλογή των στυλ γεμίσματος.
 
@@ -18,12 +18,12 @@ public interface IFillFormatCollection : IGenericCollection<IFillFormat>
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [Item](../../aspose.slides.theme/ifillformatcollection/item) { get; } | Λαμβάνει το στοιχείο στη συγκεκριμένη θέση. Μόνο ανάγνωση [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [Item](../../aspose.slides.theme/ifillformatcollection/item) { get; } | Επιστρέφει το στοιχείο στο καθορισμένο δείκτη. Μόνο για ανάγνωση [`IFillFormat`](../../aspose.slides/ifillformat). |
 
 ### Δείτε επίσης
 
-* διασύνδεση [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
-* διασύνδεση [IFillFormat](../../aspose.slides/ifillformat)
+* διεπαφή [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
+* διεπαφή [IFillFormat](../../aspose.slides/ifillformat)
 * χώρος ονομάτων [Aspose.Slides.Theme](../../aspose.slides.theme)
 * συγκρότηση [Aspose.Slides](../../)
 

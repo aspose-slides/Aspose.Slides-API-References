@@ -1,15 +1,14 @@
 ---
 title: ISaveOptions
-second_title: Aspose.Sildes per .NET Riferimento API
+second_title: Aspose.Sildes per .NET API Reference
 description: Opzioni che controllano come viene salvata una presentazione.
 type: docs
-weight: 4070
+weight: 4090
 url: /it/aspose.slides.export/isaveoptions/
 ---
-
 ## ISaveOptions interfaccia
 
-Opzioni che controllano come una presentazione viene salvata.
+Opzioni che controllano come viene salvata una presentazione.
 
 ```csharp
 public interface ISaveOptions
@@ -19,11 +18,11 @@ public interface ISaveOptions
 
 | Nome | Descrizione |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/isaveoptions/defaultregularfont) { get; set; } | Restituisce o imposta il carattere usato nel caso il carattere sorgente non sia trovato. Lettura-scrittura String. |
+| [DefaultRegularFont](../../aspose.slides.export/isaveoptions/defaultregularfont) { get; set; } | Restituisce o imposta il font usato nel caso in cui il font di origine non sia trovato. Stringa lettura-scrittura. |
 | [GradientStyle](../../aspose.slides.export/isaveoptions/gradientstyle) { get; set; } | Restituisce o imposta lo stile visivo del gradiente. Lettura/scrittura [`GradientStyle`](../../aspose.slides/gradientstyle). |
 | [ProgressCallback](../../aspose.slides.export/isaveoptions/progresscallback) { get; set; } | Rappresenta un oggetto di callback per gli aggiornamenti di avanzamento del salvataggio in percentuale. Vedi [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SkipJavaScriptLinks](../../aspose.slides.export/isaveoptions/skipjavascriptlinks) { get; set; } | Specifica se ignorare i collegamenti ipertestuali con chiamate JavaScript durante il salvataggio della presentazione. Lettura/scrittura Boolean. Il valore predefinito è **false**. |
-| [WarningCallback](../../aspose.slides.export/isaveoptions/warningcallback) { get; set; } | Restituisce o imposta un oggetto che riceve avvisi e decide se il processo di caricamento continuerà o sarà interrotto. Lettura/scrittura [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [SkipJavaScriptLinks](../../aspose.slides.export/isaveoptions/skipjavascriptlinks) { get; set; } | Specificare se ignorare i collegamenti ipertestuali con chiamate JavaScript durante il salvataggio della presentazione. Booleano lettura/scrittura. Il valore predefinito è **false**. |
+| [WarningCallback](../../aspose.slides.export/isaveoptions/warningcallback) { get; set; } | Restituisce o imposta un oggetto che riceve gli avvisi e decide se il processo di caricamento continuerà o verrà interrotto. Lettura/scrittura [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Vedi anche
 

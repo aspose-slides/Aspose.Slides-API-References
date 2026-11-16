@@ -3,39 +3,39 @@ title: ImageCollection
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt eine Sammlung von PPImage dar.
 type: docs
-weight: 7420
+weight: 7440
 url: /de/aspose.slides/imagecollection/
 ---
-## ImageCollection class
+## ImageCollection Klasse
 
-Stellt eine Sammlung von PPImage dar.
+Represents collection of PPImage.
 
 ```csharp
 public sealed class ImageCollection : DomObject<Presentation>, IImageCollection
 ```
 
-## Properties
+## Eigenschaften
 
-| Name | Description |
+| Name | Beschreibung |
 | --- | --- |
-| [Count](../../aspose.slides/imagecollection/count) { get; } | Gibt die Anzahl der Bilder in der Sammlung zurück. Nur lesbar Int32. |
-| [IsSynchronized](../../aspose.slides/imagecollection/issynchronized) { get; } | Gibt an, ob der Zugriff auf die Sammlung synchronisiert (thread-safe) ist. Nur lesbar Boolean. |
-| [Item](../../aspose.slides/imagecollection/item) { get; } | Gibt das Element am angegebenen Index zurück. Nur lesbar [`IPPImage`](../ippimage). |
-| [SyncRoot](../../aspose.slides/imagecollection/syncroot) { get; } | Gibt ein Synchronisations-Root zurück. Nur lesbar Object. |
+| [Count](../../aspose.slides/imagecollection/count) { get; } | Gibt die Anzahl der Bilder in der Sammlung zurück. Schreibgeschützt Int32. |
+| [IsSynchronized](../../aspose.slides/imagecollection/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert (Thread-sicher) ist. Schreibgeschützt Boolean. |
+| [Item](../../aspose.slides/imagecollection/item) { get; } | Gibt das Element am angegebenen Index zurück. Schreibgeschützt [`IPPImage`](../ippimage). |
+| [SyncRoot](../../aspose.slides/imagecollection/syncroot) { get; } | Gibt ein Synchronisations-Root zurück. Schreibgeschützt Object. |
 
-## Methods
+## Methoden
 
-| Name | Description |
+| Name | Beschreibung |
 | --- | --- |
-| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_3)(byte[]) | Fügt ein Bild zu einer Präsentation aus dem angegebenen Puffer hinzu. |
-| [AddImage](../../aspose.slides/imagecollection/addimage#addimage)(IImage) | Fügt ein Bild zu einer Präsentation hinzu. |
+| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_3)(byte[]) | Fügt einer Präsentation ein Bild aus einem angegebenen Puffer hinzu. |
+| [AddImage](../../aspose.slides/imagecollection/addimage#addimage)(IImage) | Fügt einer Präsentation ein Bild hinzu. |
 | [AddImage](../../aspose.slides/imagecollection/addimage#addimage_1)(IPPImage) | Fügt eine Kopie eines Bildes aus einer anderen Präsentation hinzu. |
-| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_2)(ISvgImage) | Fügt ein Bild zu einer Präsentation aus einem Svg-Objekt hinzu. |
-| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_4)(MemoryStream) | Fügt ein Bild zu einer Präsentation aus einem Stream hinzu. |
-| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_5)(Stream) | Fügt ein Bild zu einer Präsentation aus einem Stream hinzu. |
-| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_6)(Stream, LoadingStreamBehavior) | Erstellt und fügt ein Bild zu einer Präsentation aus einem Stream hinzu. |
+| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_2)(ISvgImage) | Fügt einer Präsentation ein Bild aus einem Svg-Objekt hinzu. |
+| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_4)(MemoryStream) | Fügt einer Präsentation ein Bild aus einem Stream hinzu. |
+| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_5)(Stream) | Fügt einer Präsentation ein Bild aus einem Stream hinzu. |
+| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_6)(Stream, LoadingStreamBehavior) | Erstellt und fügt einer Präsentation ein Bild aus einem Stream hinzu. |
 | [CopyTo](../../aspose.slides/imagecollection/copyto)(Array, int) | Kopiert alle Elemente der Sammlung in das angegebene Array. |
-| [GetEnumerator](../../aspose.slides/imagecollection/getenumerator)() | Gibt einen Enumerator zurück, der die Sammlung durchläuft. |
+| [GetEnumerator](../../aspose.slides/imagecollection/getenumerator)() | Gibt einen Aufzähler zurück, der durch die Sammlung iteriert. |
 
 ### Siehe auch
 

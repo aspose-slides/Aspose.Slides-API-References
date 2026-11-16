@@ -1,14 +1,14 @@
 ---
 title: RelatedLegendEntry
 second_title: Aspose.Sildes .NET API referencia
-description: A megfelelő jelmagyarázat-bejegyzés tulajdonságai a következő diagramtípusok esetén ChartType.BarOfPie ChartType.ExplodedPie ChartType.ExplodedPie3D ChartType.Pie ChartType.Pie3D ChartType.PieOfPie. Csak olvasható ILegendEntryPropertiesaspose.slides.charts/ilegendentryproperties.
+description: Az adott diagramtípusok esetén a listában szereplő diagramtípusokhoz tartozó jelmagyarázat bejegyzésének tulajdonságai: ChartType.BarOfPie ChartType.ExplodedPie ChartType.ExplodedPie3D ChartType.Pie ChartType.Pie3D ChartType.PieOfPie. Csak olvasható ILegendEntryPropertiesaspose.slides.charts/ilegendentryproperties.
 type: docs
-weight: 160
+weight: 200
 url: /hu/aspose.slides.charts/chartdatapoint/relatedlegendentry/
 ---
 ## ChartDataPoint.RelatedLegendEntry tulajdonság
 
-A megfelelő jelmagyarázat-bejegyzés tulajdonságai a következő diagramtípusok esetén: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. Csak olvasható [`ILegendEntryProperties`](../../ilegendentryproperties).
+Az adott diagramtípusok esetén a listában szereplő diagramtípusokhoz tartozó jelmagyarázat bejegyzésének tulajdonságai: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. Csak olvasható [`ILegendEntryProperties`](../../ilegendentryproperties).
 
 ```csharp
 public ILegendEntryProperties RelatedLegendEntry { get; }

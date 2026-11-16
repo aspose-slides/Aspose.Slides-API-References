@@ -1,14 +1,14 @@
 ---
 title: SpreadsheetOptions
 second_title: Aspose.Sildes for .NET API Referansı
-description: Ek hesap tabloları davranışını belirlemek için kullanılabilecek seçenekleri temsil eder.
+description: Ek elektronik tablo davranışlarını belirtmek için kullanılabilecek seçenekleri temsil eder.
 type: docs
-weight: 10740
+weight: 10760
 url: /tr/aspose.slides/spreadsheetoptions/
 ---
 ## SpreadsheetOptions sınıfı
 
-Ek hesap tabloları davranışını belirlemek için kullanılabilecek seçenekleri temsil eder.
+Ek elektronik tablo davranışlarını belirtmek için kullanılabilecek seçenekleri temsil eder.
 
 ```csharp
 public class SpreadsheetOptions : ISpreadsheetOptions
@@ -24,10 +24,10 @@ public class SpreadsheetOptions : ISpreadsheetOptions
 
 | Ad | Açıklama |
 | --- | --- |
-| [PreferredCulture](../../aspose.slides/spreadsheetoptions/preferredculture) { get; set; } | Çift bayt karakter kümesi (DBCS) kullanan dillerde kullanılmak üzere amaçlanan bazı işlevlerin hesaplanması için tercih edilen kültür bilgilerini alır veya ayarlar. |
-| [RecoverWorkbookFromChartCache](../../aspose.slides/spreadsheetoptions/recoverworkbookfromchartcache) { get; set; } | Grafik için veri kaynağı harici bir çalışma kitabı ise ve mevcut değilse, grafik önbelleğinden geri alınır. |
+| [PreferredCulture](../../aspose.slides/spreadsheetoptions/preferredculture) { get; set; } | Alır veya ayarlar tercih edilen kültür bilgisini, çift bayt karakter seti (DBCS) kullanan diller için bazı fonksiyonların hesaplanmasında kullanılmak üzere. |
+| [RecoverWorkbookFromChartCache](../../aspose.slides/spreadsheetoptions/recoverworkbookfromchartcache) { get; set; } | Eğer grafik için veri kaynağı harici bir çalışma kitabı ise ve mevcut değilse, grafik önbelleğinden geri alınacaktır. |
 
-### Ayrıca Bakınız
+### Diğer
 
 * arayüz [ISpreadsheetOptions](../ispreadsheetoptions)
 * ad alanı [Aspose.Slides](../../aspose.slides)
