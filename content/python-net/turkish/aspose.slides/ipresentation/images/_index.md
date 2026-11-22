@@ -4,11 +4,11 @@ second_title: Aspose.Slides for Python via .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides/ipresentation/images/
-weight: 230
+weight: 240
 ---
 ## images özelliği
 Sunumdaki tüm görsellerin koleksiyonunu döndürür.
-            Yalnızca okuma [`IImageCollection`](/slides/python-net/tr/aspose.slides/iimagecollection).
+            Salt-okunur [`IImageCollection`](/slides/python-net/tr/aspose.slides/iimagecollection).
 
 ### Tanım:
 ```python

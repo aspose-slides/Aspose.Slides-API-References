@@ -7,13 +7,9 @@ url: /fr/aspose.slides/stringstringpair/
 ---
 ## StringStringPair classe
 
-La structure contient une clé string et une valeur string et constitue un remplacement temporaire de KeyValuePair<string, string>
+La structure contient string clé et string valeur et est un remplacement temporaire de KeyValuePair<string, string>
 
-## Constructeurs
-
-| Constructeur | Description |
-| :- | :- |
-| [`__init__(self)`](/slides/python-net/fr/aspose.slides/stringstringpair/__init__/#) |  |
+Le type StringStringPair expose les membres suivants:
 
 ## Propriétés
 

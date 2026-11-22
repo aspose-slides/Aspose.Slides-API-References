@@ -1,13 +1,13 @@
 ---
 title: x property
-second_title: مرجع API لـ Aspose.Slides للبايثون عبر .NET
+second_title: Aspose.Slides لـ Python عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides.charts/datalabel/x/
-weight: 270
+weight: 280
 ---
 ## خاصية x
-يُعيد أو يضبط إحداثي x للعنوان كنسبة من عرض المخطط.
+تُعيد أو تُعيّن إحداثي x لعنوان كنسبة من عرض المخطط.
             قراءة/كتابة **float**.
 
 ### التعريف:
@@ -23,6 +23,6 @@ def x(self, value):
 
 
 ### انظر أيضًا
-* الفئة [`DataLabel`](/slides/python-net/ar/aspose.slides.charts/datalabel)
-* الوحدة [`aspose.slides.charts`](/slides/python-net/ar/aspose.slides.charts)
-* المكتبة [`Aspose.Slides`](/slides/python-net)
+* فئة [`DataLabel`](/slides/python-net/ar/aspose.slides.charts/datalabel)
+* وحدة [`aspose.slides.charts`](/slides/python-net/ar/aspose.slides.charts)
+* مكتبة [`Aspose.Slides`](/slides/python-net)

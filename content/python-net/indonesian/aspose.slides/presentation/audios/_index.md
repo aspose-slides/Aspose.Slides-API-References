@@ -4,11 +4,11 @@ second_title: Referensi API Aspose.Slides untuk Python via .NET
 description: 
 type: docs
 url: /id/aspose.slides/presentation/audios/
-weight: 130
+weight: 140
 ---
 ## audios properti
-Mengembalikan koleksi semua file audio yang disematkan dalam presentasi.
-            Hanya-baca [`IAudioCollection`](/slides/python-net/id/aspose.slides/iaudiocollection).
+Mengembalikan koleksi semua file audio tersemat dalam presentasi.
+            Baca-saja [`IAudioCollection`](/slides/python-net/id/aspose.slides/iaudiocollection).
 
 ### Definisi:
 ```python
@@ -22,4 +22,4 @@ def audios(self):
 * kelas [`IAudioCollection`](/slides/python-net/id/aspose.slides/iaudiocollection)
 * kelas [`Presentation`](/slides/python-net/id/aspose.slides/presentation)
 * modul [`aspose.slides`](/slides/python-net/id/aspose.slides)
-* pustaka [`Aspose.Slides`](/slides/python-net)
+* library [`Aspose.Slides`](/slides/python-net)

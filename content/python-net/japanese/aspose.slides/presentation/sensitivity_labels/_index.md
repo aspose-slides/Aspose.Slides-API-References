@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides/presentation/sensitivity_labels/
-weight: 340
+weight: 350
 ---
 ## sensitivity_labels プロパティ
 プレゼンテーション ドキュメントに適用された感度ラベルのコレクションを返します。

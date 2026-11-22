@@ -1,14 +1,14 @@
 ---
 title: series property
-second_title: Αναφορά API Aspose.Slides για Python μέσω .NET
+second_title: Aspose.Slides για Python μέσω .NET Αναφορά API
 description: 
 type: docs
 url: /el/aspose.slides.charts/ichartdata/series/
-weight: 130
+weight: 140
 ---
 ## series ιδιότητα
-Επιστρέφει τη series.
-            Μόνο-ανάγνωση [`IChartSeriesCollection`](/slides/python-net/el/aspose.slides.charts/ichartseriescollection).
+Ανακτά τη series.
+            Μόνο για ανάγνωση [`IChartSeriesCollection`](/slides/python-net/el/aspose.slides.charts/ichartseriescollection).
 
 ### Ορισμός:
 ```python
@@ -20,6 +20,6 @@ def series(self):
 
 ### Δείτε επίσης
 * κλάση [`IChartData`](/slides/python-net/el/aspose.slides.charts/ichartdata)
-* κlass [`IChartSeriesCollection`](/slides/python-net/el/aspose.slides.charts/ichartseriescollection)
+* κλάση [`IChartSeriesCollection`](/slides/python-net/el/aspose.slides.charts/ichartseriescollection)
 * μονάδα [`aspose.slides.charts`](/slides/python-net/el/aspose.slides.charts)
 * βιβλιοθήκη [`Aspose.Slides`](/slides/python-net)

@@ -1,10 +1,10 @@
 ---
 title: is_bubble_3d property
-second_title: Référence de l'API Aspose.Slides pour Python via .NET
+second_title: Aspose.Slides pour Python via .NET Référence API
 description: 
 type: docs
 url: /fr/aspose.slides.charts/ichartdatapoint/is_bubble_3d/
-weight: 160
+weight: 200
 ---
 ## is_bubble_3d propriété
 Spécifie que les bulles ont un effet 3-D appliqué.

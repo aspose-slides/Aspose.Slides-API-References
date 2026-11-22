@@ -1,14 +1,14 @@
 ---
 title: slide_size property
-second_title: Aspose.Slides pro Python přes .NET API Reference
+second_title: Aspose.Slides pro Python prostřednictvím .NET API Reference
 description: 
 type: docs
 url: /cs/aspose.slides/presentation/slide_size/
-weight: 360
+weight: 370
 ---
 ## slide_size vlastnost
 Vrací objekt velikosti snímku.
-            Pouze pro čtení [`ISlideSize`](/slides/python-net/cs/aspose.slides/islidesize).
+            Pouze ke čtení [`ISlideSize`](/slides/python-net/cs/aspose.slides/islidesize).
 
 ### Definice:
 ```python

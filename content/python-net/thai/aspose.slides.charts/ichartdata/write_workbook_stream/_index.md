@@ -1,22 +1,26 @@
 ---
 title: write_workbook_stream method
-second_title: Aspose.Slides สำหรับ Python ผ่าน .NET อ้างอิง API
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET เอกสารอ้างอิง API
 description: 
 type: docs
 url: /th/aspose.slides.charts/ichartdata/write_workbook_stream/
-weight: 60
+weight: 70
 ---
 ## write_workbook_stream(self, ms) {#iorawiobase}
-เริ่มต้นเวิร์กบุ๊ก Excel ที่บรรจุภายในด้วยค่าที่ผู้ใช้ระบุ.
+กำหนดค่าเริ่มต้นสำหรับเวิร์กบุ๊ก Excel ที่เก็บไว้ภายในด้วยค่าที่ผู้ใช้ระบุ
+
 
 ```python
 def write_workbook_stream(self, ms):
     ...
 ```
 
+
 | พารามิเตอร์ | ประเภท | คำอธิบาย |
 | :- | :- | :- |
-| ms | **io.RawIOBase** | สตรีมที่ผู้ใช้จัดหา ซึ่งมีเวิร์กบุ๊ก Excel ทั้งหมด. |
+| ms | **io.RawIOBase** | สตรีมที่ผู้ใช้จัดเตรียมซึ่งประกอบด้วยเวิร์กบุ๊ก Excel ทั้งหมด |
+
+
 
 ### ดูเพิ่มเติม
 * คลาส [`IChartData`](/slides/python-net/th/aspose.slides.charts/ichartdata)

@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API 참조
 description: 
 type: docs
 url: /ko/aspose.slides/ipresentation/vba_project/
-weight: 370
+weight: 380
 ---
 ## vba_project 속성
 프레젠테이션 매크로가 포함된 VBA 프로젝트를 가져옵니다.
@@ -22,7 +22,7 @@ def vba_project(self, value):
 ```
 
 
-### 참조
+### 참고
 * 클래스 [`IPresentation`](/slides/python-net/ko/aspose.slides/ipresentation)
 * 클래스 [`IVbaProject`](/slides/python-net/ko/aspose.slides.vba/ivbaproject)
 * 모듈 [`aspose.slides`](/slides/python-net/ko/aspose.slides)

@@ -7,15 +7,9 @@ url: /it/aspose.slides/positionedstring/
 ---
 ## PositionedString classe
 
-La struttura contiene una chiave intera e un valore stringa ed è una sostituzione temporanea di KeyValuePair<int, string>
+Structure contains integer key and string value and is temporary replacement of KeyValuePair<int, string>
 
-Il tipo PositionedString espone i seguenti membri:
-
-## Costruttori
-
-| Costruttore | Descrizione |
-| :- | :- |
-| [`__init__(self)`](/slides/python-net/it/aspose.slides/positionedstring/__init__/#) |  |
+The PositionedString type exposes the following members:
 
 ## Proprietà
 

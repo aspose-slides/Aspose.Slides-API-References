@@ -5,22 +5,22 @@ description:
 type: docs
 url: /tr/aspose.slides.animation/ipropertyeffect/
 ---
-## IPropertyEffect sınıf
+## IPropertyEffect sınıfı
 
-Özellik etkisi davranışını temsil eder.
+Özellik efekti davranışını temsil eder.
 
-IPropertyEffect türü aşağıdaki üyeleri ortaya koyar:
+IPropertyEffect türü aşağıdaki üyeleri açığa çıkar:
 
 ## Özellikler
 
 | Özellik | Açıklama |
 | :- | :- |
-| [`from_address`](/slides/python-net/tr/aspose.slides.animation/ipropertyeffect/from_address/) | Animasyonun başlangıç değerini belirtir.<br/> Okuma/yazma **str**. |
-| [`to`](/slides/python-net/tr/aspose.slides.animation/ipropertyeffect/to/) | Animasyonun bitiş değerini belirtir.<br/> Okuma/yazma **str**. |
-| [`by`](/slides/python-net/tr/aspose.slides.animation/ipropertyeffect/by/) | Animasyonun başlangıç öncesindeki konumuna göre göreceli bir ofset değeri belirtir.<br/> Okuma/yazma **str**. |
-| [`value_type`](/slides/python-net/tr/aspose.slides.animation/ipropertyeffect/value_type/) | Bir özellik değerinin tipini belirtir.<br/> Okuma/yazma [`PropertyValueType`](/slides/python-net/tr/aspose.slides.animation/propertyvaluetype). |
-| [`calc_mode`](/slides/python-net/tr/aspose.slides.animation/ipropertyeffect/calc_mode/) | Animasyon için enterpolasyon modunu belirtir<br/> Okuma/yazma [`PropertyCalcModeType`](/slides/python-net/tr/aspose.slides.animation/propertycalcmodetype). |
-| [`points`](/slides/python-net/tr/aspose.slides.animation/ipropertyeffect/points/) | Animasyonun noktalarını belirtir.<br/> Okuma/yazma [`IPointCollection`](/slides/python-net/tr/aspose.slides.animation/ipointcollection). |
+| [`from_`](/slides/python-net/tr/aspose.slides.animation/ipropertyeffect/from_/) | Animasyonun başlangıç değerini belirtir.<br/> Okunur/Yazılır **str**. |
+| [`to`](/slides/python-net/tr/aspose.slides.animation/ipropertyeffect/to/) | Animasyonun bitiş değerini belirtir.<br/> Okunur/Yazılır **str**. |
+| [`by`](/slides/python-net/tr/aspose.slides.animation/ipropertyeffect/by/) | Animasyonun, başlamadan önceki konumuna göre relatif bir kaydırma değerini belirtir.<br/> Okunur/Yazılır **str**. |
+| [`value_type`](/slides/python-net/tr/aspose.slides.animation/ipropertyeffect/value_type/) | Bir özellik değerinin türünü belirtir.<br/> Okunur/Yazılır [`PropertyValueType`](/slides/python-net/tr/aspose.slides.animation/propertyvaluetype). |
+| [`calc_mode`](/slides/python-net/tr/aspose.slides.animation/ipropertyeffect/calc_mode/) | Animasyon için enterpolasyon modunu belirtir<br/> Okunur/Yazılır [`PropertyCalcModeType`](/slides/python-net/tr/aspose.slides.animation/propertycalcmodetype). |
+| [`points`](/slides/python-net/tr/aspose.slides.animation/ipropertyeffect/points/) | Animasyonun noktalarını belirtir.<br/> Okunur/Yazılır [`IPointCollection`](/slides/python-net/tr/aspose.slides.animation/ipointcollection). |
 | [`accumulate`](/slides/python-net/tr/aspose.slides.animation/ipropertyeffect/accumulate/) |  |
 | [`additive`](/slides/python-net/tr/aspose.slides.animation/ipropertyeffect/additive/) |  |
 | [`properties`](/slides/python-net/tr/aspose.slides.animation/ipropertyeffect/properties/) |  |

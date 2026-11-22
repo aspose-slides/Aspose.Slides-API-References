@@ -1,16 +1,16 @@
 ---
 title: text_frame_format property
-second_title: Aspose.Slides Pythonhoz .NET-en keresztül API hivatkozás
+second_title: Aspose.Slides for Python .NET API hivatkozás
 description: 
 type: docs
 url: /hu/aspose.slides/itextframe/text_frame_format/
-weight: 160
+weight: 170
 ---
 ## text_frame_format tulajdonság
-Visszaadja ennek a TextFrame objektumnak a formázási objektumot.
+Returns the formatting object for this TextFrame object.
             Csak olvasható [`ITextFrameFormat`](/slides/python-net/hu/aspose.slides/itextframeformat).
 
-### Definíció:
+### Meghatározás:
 ```python
 @property
 def text_frame_format(self):

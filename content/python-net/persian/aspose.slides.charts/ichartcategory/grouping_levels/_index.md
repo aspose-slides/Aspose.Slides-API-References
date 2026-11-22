@@ -4,13 +4,13 @@ second_title: Aspose.Slides برای Python از طریق .NET مرجع API
 description: 
 type: docs
 url: /fa/aspose.slides.charts/ichartcategory/grouping_levels/
-weight: 40
+weight: 50
 ---
 ## grouping_levels ویژگی
 Managed container of the values of the chart category grouping levels.
             Multi-level category contain more then one grouping level.
             Grouping levels indexing is zero-based.
-            فقط خواندنی [`IChartCategoryLevelsManager`](/slides/python-net/fa/aspose.slides.charts/ichartcategorylevelsmanager).
+            فقط-خواندنی [`IChartCategoryLevelsManager`](/slides/python-net/fa/aspose.slides.charts/ichartcategorylevelsmanager).
 
 ### تعریف:
 ```python

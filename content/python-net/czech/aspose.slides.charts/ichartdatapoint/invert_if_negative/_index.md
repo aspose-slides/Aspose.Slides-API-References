@@ -4,11 +4,11 @@ second_title: Aspose.Slides pro Python přes .NET API Reference
 description: 
 type: docs
 url: /cs/aspose.slides.charts/ichartdatapoint/invert_if_negative/
-weight: 150
+weight: 190
 ---
 ## invert_if_negative vlastnost
 Určuje, že datový bod má invertovat své barvy, pokud je hodnota záporná.
-            Čtení/zápis **bool**.
+            Číst/Zapisovat **bool**.
 
 ### Definice:
 ```python

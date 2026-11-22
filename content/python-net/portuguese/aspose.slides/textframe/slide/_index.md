@@ -1,10 +1,10 @@
 ---
 title: slide property
-second_title: Aspose.Slides para Python via .NET Referência da API
+second_title: Aspose.Slides para Python via .NET Referência de API
 description: 
 type: docs
 url: /pt/aspose.slides/textframe/slide/
-weight: 140
+weight: 150
 ---
 ## propriedade do slide
 Retorna o slide pai de um TextFrame.

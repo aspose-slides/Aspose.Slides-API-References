@@ -1,20 +1,23 @@
 ---
 title: use_cell property
-second_title: Aspose.Slides para Python via .NET Referência da API
+second_title: Aspose.Slides para Python via .NET API Reference
 description: 
 type: docs
 url: /pt/aspose.slides.charts/chartcategory/use_cell/
-weight: 50
+weight: 60
 ---
 ## use_cell propriedade
-Se true então AsCell propriedade está atual. Em outras palavras, worksheet é usado para armazenar categoria (este caso suporta uma categoria multinível).
-Se false então AsLiteral propriedade está atual. Em outras palavras, worksheet NÃO é usado para armazenar categoria (e este caso não suporta categorias multiníveis).
+Se verdadeiro, então a propriedade AsCell é efetiva. Em outras palavras, a planilha é usada para
+            armazenar a categoria (este caso suporta uma categoria de múltiplos níveis).
+Se falso, então a propriedade AsLiteral é efetiva. Em outras palavras, a planilha NÃO é usada
+            para armazenar a categoria (e este caso não suporta categorias de múltiplos níveis).
 Somente leitura **bool**.
 
 
 ### Observações
 
-Para alterar o valor desta propriedade (para todas as categorias na coleção), defina o novo valor na propriedade ChartCategoryCollection.UseCells.
+Para alterar o valor desta propriedade (para todas as categorias na coleção) defina o novo
+            valor na propriedade ChartCategoryCollection.UseCells.
 
 ### Definição:
 ```python

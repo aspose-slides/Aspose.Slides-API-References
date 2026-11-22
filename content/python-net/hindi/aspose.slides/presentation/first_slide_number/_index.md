@@ -1,13 +1,13 @@
 ---
 title: first_slide_number property
-second_title: Aspose.Slides for Python द्वारा .NET API रेफ़रेंस
+second_title: Aspose.Slides Python के लिये .NET के माध्यम से API संदर्भ
 description: 
 type: docs
 url: /hi/aspose.slides/presentation/first_slide_number/
-weight: 200
+weight: 210
 ---
-## first_slide_number प्रॉपर्टी
-प्रस्तुति में पहला स्लाइड नंबर दर्शाता है
+## first_slide_number गुण
+प्रस्तुति में पहले स्लाइड संख्या का प्रतिनिधित्व करता है
 
 ### परिभाषा:
 ```python

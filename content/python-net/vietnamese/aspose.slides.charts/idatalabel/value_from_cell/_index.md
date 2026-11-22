@@ -1,13 +1,13 @@
 ---
 title: value_from_cell property
-second_title: Tham chiếu API Aspose.Slides cho Python qua .NET
+second_title: Tham khảo API Aspose.Slides cho Python qua .NET
 description: 
 type: docs
 url: /vi/aspose.slides.charts/idatalabel/value_from_cell/
-weight: 240
+weight: 250
 ---
 ## value_from_cell thuộc tính
-Lấy hoặc đặt ô dữ liệu workbook. Được áp dụng nếu IDataLabelFormat.ShowLabelValueFromCell thuộc tính bằng true.
+Lấy hoặc đặt ô dữ liệu workbook. Được áp dụng nếu thuộc tính IDataLabelFormat.ShowLabelValueFromCell bằng true.
 
 ### Định nghĩa:
 ```python

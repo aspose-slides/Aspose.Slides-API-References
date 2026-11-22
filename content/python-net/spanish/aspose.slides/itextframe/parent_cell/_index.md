@@ -1,13 +1,13 @@
 ---
 title: parent_cell property
-second_title: Referencia de API de Aspose.Slides para Python mediante .NET
+second_title: Referencia de API de Aspose.Slides para Python a través de .NET
 description: 
 type: docs
 url: /es/aspose.slides/itextframe/parent_cell/
-weight: 110
+weight: 120
 ---
 ## parent_cell propiedad
-Returns the parent cell or None if the parent object does not implement the ICell interface.
+Devuelve la celda padre o None si el objeto padre no implementa la interfaz ICell.
             Solo lectura [`ICell`](/slides/python-net/es/aspose.slides/icell).
 
 ### Definición:

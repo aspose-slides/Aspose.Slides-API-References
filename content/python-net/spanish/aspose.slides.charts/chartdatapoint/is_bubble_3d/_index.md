@@ -1,10 +1,10 @@
 ---
 title: is_bubble_3d property
-second_title: Referencia de la API de Aspose.Slides para Python vía .NET
+second_title: Referencia de API de Aspose.Slides para Python vía .NET
 description: 
 type: docs
 url: /es/aspose.slides.charts/chartdatapoint/is_bubble_3d/
-weight: 160
+weight: 200
 ---
 ## is_bubble_3d propiedad
 Especifica que las burbujas tienen un efecto 3-D aplicado a ellas.
@@ -20,6 +20,7 @@ def is_bubble_3d(self):
 def is_bubble_3d(self, value):
     ...
 ```
+
 
 ### Ver también
 * clase [`ChartDataPoint`](/slides/python-net/es/aspose.slides.charts/chartdatapoint)

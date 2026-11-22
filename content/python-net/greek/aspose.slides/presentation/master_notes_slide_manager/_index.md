@@ -1,10 +1,10 @@
 ---
 title: master_notes_slide_manager property
-second_title: Aspose.Slides για Python μέσω .NET αναφορά API
+second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
 description: 
 type: docs
 url: /el/aspose.slides/presentation/master_notes_slide_manager/
-weight: 270
+weight: 280
 ---
 ## master_notes_slide_manager ιδιότητα
 Επιστρέφει τον κύριο διαχειριστή σημειώσεων.

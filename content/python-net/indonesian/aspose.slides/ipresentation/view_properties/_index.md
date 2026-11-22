@@ -4,7 +4,7 @@ second_title: Referensi API Aspose.Slides untuk Python via .NET
 description: 
 type: docs
 url: /id/aspose.slides/ipresentation/view_properties/
-weight: 390
+weight: 400
 ---
 ## view_properties properti
 Mendapatkan properti tampilan seluruh presentasi.
@@ -22,4 +22,4 @@ def view_properties(self):
 * kelas [`IPresentation`](/slides/python-net/id/aspose.slides/ipresentation)
 * kelas [`IViewProperties`](/slides/python-net/id/aspose.slides/iviewproperties)
 * modul [`aspose.slides`](/slides/python-net/id/aspose.slides)
-* perpustakaan [`Aspose.Slides`](/slides/python-net)
+* pustaka [`Aspose.Slides`](/slides/python-net)

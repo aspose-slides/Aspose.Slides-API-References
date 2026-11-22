@@ -4,10 +4,10 @@ second_title: Aspose.Slides för Python via .NET API-referens
 description: 
 type: docs
 url: /sv/aspose.slides/itextframe/text/
-weight: 150
+weight: 160
 ---
 ## textegenskap
-Hämtar eller anger den rena texten för en TextFrame.
+Hämtar eller anger den enkla texten för en TextFrame.
             Läs/skriv **str**.
 
 ### Definition:

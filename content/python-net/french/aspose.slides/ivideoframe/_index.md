@@ -15,17 +15,18 @@ Le type IVideoFrame expose les membres suivants :
 
 | Propriété | Description |
 | :- | :- |
-| [`rewind_video`](/slides/python-net/fr/aspose.slides/ivideoframe/rewind_video/) | Détermine si une vidéo est automatiquement rembobinée au début<br/>            dès que le film a fini de se lire.<br/>            Lecture/écriture **bool**. |
-| [`play_loop_mode`](/slides/python-net/fr/aspose.slides/ivideoframe/play_loop_mode/) | Détermine si une vidéo est en boucle.<br/>            Lecture/écriture **bool**. |
-| [`hide_at_showing`](/slides/python-net/fr/aspose.slides/ivideoframe/hide_at_showing/) | Détermine si un VideoFrame est masqué.<br/>            Lecture/écriture **bool**. |
-| [`volume`](/slides/python-net/fr/aspose.slides/ivideoframe/volume/) | Renvoie ou définit le volume audio.<br/>            Lecture/écriture [`AudioVolumeMode`](/slides/python-net/fr/aspose.slides/audiovolumemode). |
-| [`play_mode`](/slides/python-net/fr/aspose.slides/ivideoframe/play_mode/) | Renvoie ou définit le mode de lecture vidéo.<br/>            Lecture/écriture [`VideoPlayModePreset`](/slides/python-net/fr/aspose.slides/videoplaymodepreset). |
-| [`full_screen_mode`](/slides/python-net/fr/aspose.slides/ivideoframe/full_screen_mode/) | Détermine si une vidéo est affichée en mode plein écran.<br/>            Lecture/écriture **bool**. |
-| [`link_path_long`](/slides/python-net/fr/aspose.slides/ivideoframe/link_path_long/) | Renvoie ou définit le nom d'un fichier vidéo lié à un VideoFrame.<br/>            Lecture/écriture **str**. |
-| [`embedded_video`](/slides/python-net/fr/aspose.slides/ivideoframe/embedded_video/) | Renvoie ou définit l'objet vidéo intégré.<br/>            Lecture/écriture [`IVideo`](/slides/python-net/fr/aspose.slides/ivideo). |
+| [`rewind_video`](/slides/python-net/fr/aspose.slides/ivideoframe/rewind_video/) | Détermine si une vidéo est automatiquement rembobinée au début<br/>            dès que le film a fini de jouer.<br/>            Lire/écrire **bool**. |
+| [`play_loop_mode`](/slides/python-net/fr/aspose.slides/ivideoframe/play_loop_mode/) | Détermine si une vidéo est en boucle.<br/>            Lire/écrire **bool**. |
+| [`hide_at_showing`](/slides/python-net/fr/aspose.slides/ivideoframe/hide_at_showing/) | Détermine si un VideoFrame est masqué.<br/>            Lire/écrire **bool**. |
+| [`volume`](/slides/python-net/fr/aspose.slides/ivideoframe/volume/) | Renvoie ou définit le volume audio.<br/>            Lire/écrire [`AudioVolumeMode`](/slides/python-net/fr/aspose.slides/audiovolumemode). |
+| [`volume_value`](/slides/python-net/fr/aspose.slides/ivideoframe/volume_value/) | Renvoie ou définit le volume vidéo exact en pourcentage.<br/>             La valeur est exprimée en pourcentage de 0 à 100. Utilisez cette propriété<br/>             pour lire ou définir des valeurs de volume plus précises que les niveaux prédéfinis<br/>             disponibles via la propriété [`IVideoFrame.volume`](/slides/python-net/fr/aspose.slides/ivideoframe/volume).<br/>             Lire/écrire **float**. |
+| [`play_mode`](/slides/python-net/fr/aspose.slides/ivideoframe/play_mode/) | Renvoie ou définit le mode de lecture vidéo.<br/>            Lire/écrire [`VideoPlayModePreset`](/slides/python-net/fr/aspose.slides/videoplaymodepreset). |
+| [`full_screen_mode`](/slides/python-net/fr/aspose.slides/ivideoframe/full_screen_mode/) | Détermine si une vidéo est affichée en plein écran.<br/>            Lire/écrire **bool**. |
+| [`link_path_long`](/slides/python-net/fr/aspose.slides/ivideoframe/link_path_long/) | Renvoie ou définit le nom d'un fichier vidéo lié à un VideoFrame.<br/>            Lire/écrire **str**. |
+| [`embedded_video`](/slides/python-net/fr/aspose.slides/ivideoframe/embedded_video/) | Renvoie ou définit l'objet vidéo intégré.<br/>            Lire/écrire [`IVideo`](/slides/python-net/fr/aspose.slides/ivideo). |
 | [`trim_from_start`](/slides/python-net/fr/aspose.slides/ivideoframe/trim_from_start/) | Début du rognage [ms] |
 | [`trim_from_end`](/slides/python-net/fr/aspose.slides/ivideoframe/trim_from_end/) | Fin du rognage [ms] |
-| [`caption_tracks`](/slides/python-net/fr/aspose.slides/ivideoframe/caption_tracks/) | Obtient la collection de sous-titres associés à la trame audio.<br/>             Cette propriété est en lecture seule et renvoie un [`ICaptionsCollection`](/slides/python-net/fr/aspose.slides/icaptionscollection) contenant toutes les pistes de sous-titres. |
+| [`caption_tracks`](/slides/python-net/fr/aspose.slides/ivideoframe/caption_tracks/) | Obtient la collection de sous-titres fermés associés à la trame audio.<br/>             Cette propriété est en lecture seule et renvoie un [`ICaptionsCollection`](/slides/python-net/fr/aspose.slides/icaptionscollection) contenant toutes les pistes de sous-titres. |
 | [`shape_lock`](/slides/python-net/fr/aspose.slides/ivideoframe/shape_lock/) |  |
 | [`picture_frame_lock`](/slides/python-net/fr/aspose.slides/ivideoframe/picture_frame_lock/) |  |
 | [`picture_format`](/slides/python-net/fr/aspose.slides/ivideoframe/picture_format/) |  |
@@ -81,7 +82,6 @@ Le type IVideoFrame expose les membres suivants :
 | [`add_placeholder(self, placeholder_to_copy_from)`](/slides/python-net/fr/aspose.slides/ivideoframe/add_placeholder/#iplaceholder) |  |
 | [`remove_placeholder(self)`](/slides/python-net/fr/aspose.slides/ivideoframe/remove_placeholder/#) |  |
 | [`get_base_placeholder(self)`](/slides/python-net/fr/aspose.slides/ivideoframe/get_base_placeholder/#) |  |
-
 
 ### Voir aussi
 * module [`aspose.slides`](/slides/python-net/fr/aspose.slides)

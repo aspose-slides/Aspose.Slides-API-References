@@ -4,9 +4,9 @@ second_title: Référence de l'API Aspose.Slides pour Python via .NET
 description: 
 type: docs
 url: /fr/aspose.slides.charts/ichartdatapoint/index/
-weight: 140
+weight: 180
 ---
-## propriété d'index
+## index propriété
 Détermine à quelle collection d'enfants du parent ce point de données s'applique.
             Lecture **int**.
 
@@ -16,6 +16,7 @@ Détermine à quelle collection d'enfants du parent ce point de données s'appli
 def index(self):
     ...
 ```
+
 
 ### Voir aussi
 * classe [`IChartDataPoint`](/slides/python-net/fr/aspose.slides.charts/ichartdatapoint)

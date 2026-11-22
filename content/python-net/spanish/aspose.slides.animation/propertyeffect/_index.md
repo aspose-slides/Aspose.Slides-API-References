@@ -1,11 +1,11 @@
 ---
 title: PropertyEffect class
-second_title: Referencia de API de Aspose.Slides para Python vía .NET
+second_title: Aspose.Slides para Python vía .NET Referencia de API
 description: 
 type: docs
 url: /es/aspose.slides.animation/propertyeffect/
 ---
-## PropertyEffect clase
+## Clase PropertyEffect
 
 Representa el comportamiento del efecto de propiedad.
 
@@ -25,9 +25,9 @@ El tipo PropertyEffect expone los siguientes miembros:
 | :- | :- |
 | [`accumulate`](/slides/python-net/es/aspose.slides.animation/propertyeffect/accumulate/) | Representa si los comportamientos de animación se acumulan.<br/>            Lectura/escritura [`NullableBool`](/slides/python-net/es/aspose.slides/nullablebool). |
 | [`additive`](/slides/python-net/es/aspose.slides.animation/propertyeffect/additive/) | Representa si el comportamiento de animación actual se combina con otras animaciones en ejecución.<br/>            Lectura/escritura [`BehaviorAdditiveType`](/slides/python-net/es/aspose.slides.animation/behavioradditivetype). |
-| [`properties`](/slides/python-net/es/aspose.slides.animation/propertyeffect/properties/) | Representa las propiedades del comportamiento.<br/>            Solo lectura [`IBehaviorPropertyCollection`](/slides/python-net/es/aspose.slides.animation/ibehaviorpropertycollection). |
-| [`timing`](/slides/python-net/es/aspose.slides.animation/propertyeffect/timing/) | Representa las propiedades de tiempo para el comportamiento del efecto.<br/>            Lectura/escritura [`ITiming`](/slides/python-net/es/aspose.slides.animation/itiming). |
-| [`from_address`](/slides/python-net/es/aspose.slides.animation/propertyeffect/from_address/) | Especifica el valor inicial de la animación.<br/>            Lectura/escritura **str**. |
+| [`properties`](/slides/python-net/es/aspose.slides.animation/propertyeffect/properties/) | Representa las propiedades del comportamiento.<br/>            Sólo lectura [`IBehaviorPropertyCollection`](/slides/python-net/es/aspose.slides.animation/ibehaviorpropertycollection). |
+| [`timing`](/slides/python-net/es/aspose.slides.animation/propertyeffect/timing/) | Representa las propiedades de sincronización para el comportamiento del efecto.<br/>            Lectura/escritura [`ITiming`](/slides/python-net/es/aspose.slides.animation/itiming). |
+| [`from_`](/slides/python-net/es/aspose.slides.animation/propertyeffect/from_/) | Especifica el valor inicial de la animación.<br/>            Lectura/escritura **str**. |
 | [`to`](/slides/python-net/es/aspose.slides.animation/propertyeffect/to/) | Especifica el valor final de la animación.<br/>            Lectura/escritura **str**. |
 | [`by`](/slides/python-net/es/aspose.slides.animation/propertyeffect/by/) | Especifica un valor de desplazamiento relativo para la animación con respecto a su<br/>            posición antes del inicio de la animación.<br/>            Lectura/escritura **str**. |
 | [`value_type`](/slides/python-net/es/aspose.slides.animation/propertyeffect/value_type/) | Especifica el tipo de un valor de propiedad.<br/>            Lectura/escritura [`PropertyValueType`](/slides/python-net/es/aspose.slides.animation/propertyvaluetype). |

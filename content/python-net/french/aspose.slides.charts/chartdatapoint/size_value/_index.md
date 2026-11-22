@@ -1,10 +1,10 @@
 ---
 title: size_value property
-second_title: Référence API Aspose.Slides pour Python via .NET
+second_title: Aspose.Slides pour Python via .NET Référence d'API
 description: 
 type: docs
 url: /fr/aspose.slides.charts/chartdatapoint/size_value/
-weight: 210
+weight: 250
 ---
 ## size_value propriété
 Renvoie la valeur de taille du point de données du graphique.
@@ -19,7 +19,7 @@ def size_value(self):
 ```
 
 
-### Voir aussi
+### Voir également
 * classe [`ChartDataPoint`](/slides/python-net/fr/aspose.slides.charts/chartdatapoint)
 * classe [`IDoubleChartValue`](/slides/python-net/fr/aspose.slides.charts/idoublechartvalue)
 * module [`aspose.slides.charts`](/slides/python-net/fr/aspose.slides.charts)

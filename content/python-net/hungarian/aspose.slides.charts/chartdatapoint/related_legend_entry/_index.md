@@ -1,13 +1,13 @@
 ---
 title: related_legend_entry property
-second_title: Aspose.Slides for Python via .NET API Referencia
+second_title: Aspose.Slides a Pythonhoz a .NET API hivatkozás
 description: 
 type: docs
 url: /hu/aspose.slides.charts/chartdatapoint/related_legend_entry/
-weight: 190
+weight: 230
 ---
 ## related_legend_entry tulajdonság
-Az alábbi listában szereplő diagramtípusok esetén a megfelelő jelmagyarázat bejegyzésének tulajdonságai:
+A megfelelő jelmagyarázat bejegyzés tulajdonságai az alábbi listából származó diagramtípus esetén:
             ChartType.BarOfPie,
             ChartType.ExplodedPie,
             ChartType.ExplodedPie3D,

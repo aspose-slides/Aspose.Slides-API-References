@@ -1,23 +1,20 @@
 ---
 title: series_groups property
-second_title: Aspose.Slides برای Python از طریق .NET API Reference
+second_title: مرجع API Aspose.Slides برای پایتون از طریق .NET
 description: 
 type: docs
 url: /fa/aspose.slides.charts/chartdata/series_groups/
-weight: 140
+weight: 150
 ---
 ## series_groups ویژگی
-گروه‌های سری را دریافت می‌کند.
-فقط‌خواندنی [`IChartSeriesGroupCollection`](/slides/python-net/fa/aspose.slides.charts/ichartseriesgroupcollection).
+دسته‌های سری را دریافت می‌کند.
+            فقط-خواندنی [`IChartSeriesGroupCollection`](/slides/python-net/fa/aspose.slides.charts/ichartseriesgroupcollection).
 
+### توضیحات
 
-### ملاحظات
+1) هر گروهی از سری‌ها شامل سری‌هایی با انواع ترکیبی است. گروه‌های انواع سری‌های ترکیبی با استفاده از شمارنده CombinableSeriesTypesGroup تعریف و توصیف شده‌اند. همچنین هر گروهی از سری‌ها شامل سری‌هایی است که بر روی محورهای اصلی یا بر روی محورهای ثانویه ترسیم می‌شوند (هر دو حالت در یک گروه وجود ندارد). بنابراین، اصل گروه‌بندی سری‌ها، گروه‌بندی بر اساس انواع ذکر شده در بالا و نوع ترسیم اولیه/ثانویه است.
 
-1) هر گروهی از سری شامل سری‌هایی با انواع ترکیبی است. گروه‌های انواع سری‌های ترکیبی با استفاده از CombinableSeriesTypesGroup enum تعریف و توضیح داده می‌شوند. همچنین هر گروهی از سری شامل سری‌هایی است که بر روی محورهای اصلی یا محورهای ثانویه رسم می‌شوند (نه هر دو حالت در یک گروه). بنابراین، اصل گروه‌بندی سری‌ها، گروه‌بندی بر اساس گروه‌های نوع ذکر شده در بالا و بر پایه نوع نمودار کشی اصلی/ثانویه است.
-
-2) گروهی از سری شامل برخی خصوصیات سری است که برای هر سری در گروه مشترک هستند ("series group properties").
-"Series group properties" در کلاس ChartSeriesGroup دارای قابلیت خواندن/نوشتن است.
-هر یک از "series group properties" می‌تواند یک پیش‌نمایش فقط‌خواندنی در کلاس ChartSeries داشته باشد.
+2) گروه سری شامل برخی ویژگی‌های سری است که برای هر سری در گروه مشترک است («ویژگی‌های گروه سری»). «ویژگی‌های گروه سری» در کلاس ChartSeriesGroup قابلیت خواندن/نوشتن است. هر یک از «ویژگی‌های گروه سری» می‌تواند یک پروجکشن فقط-خواندنی در کلاس ChartSeries داشته باشد.
 
 ### تعریف:
 ```python
@@ -25,7 +22,6 @@ weight: 140
 def series_groups(self):
     ...
 ```
-
 
 ### موارد مرتبط
 * کلاس [`ChartData`](/slides/python-net/fa/aspose.slides.charts/chartdata)

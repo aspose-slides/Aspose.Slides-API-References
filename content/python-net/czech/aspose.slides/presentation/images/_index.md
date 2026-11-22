@@ -1,13 +1,13 @@
 ---
 title: images property
-second_title: Aspose.Slides pro Python přes .NET referenční příručku API
+second_title: Aspose.Slides pro Python prostřednictvím .NET referenční příručky
 description: 
 type: docs
 url: /cs/aspose.slides/presentation/images/
-weight: 240
+weight: 250
 ---
 ## images vlastnost
-Vrací kolekci všech images v prezentaci.
+Vrací kolekci všech obrázků v prezentaci.
             Pouze pro čtení [`IImageCollection`](/slides/python-net/cs/aspose.slides/iimagecollection).
 
 ### Definice:
@@ -16,6 +16,7 @@ Vrací kolekci všech images v prezentaci.
 def images(self):
     ...
 ```
+
 
 ### Viz také
 * třída [`IImageCollection`](/slides/python-net/cs/aspose.slides/iimagecollection)

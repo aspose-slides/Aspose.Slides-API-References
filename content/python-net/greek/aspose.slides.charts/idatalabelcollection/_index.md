@@ -1,31 +1,32 @@
 ---
 title: IDataLabelCollection class
-second_title: Aspose.Slides για Python μέσω .NET Αναφορά API
+second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
 description: 
 type: docs
 url: /el/aspose.slides.charts/idatalabelcollection/
 ---
 ## IDataLabelCollection κλάση
 
-Αναπαριστά ετικέτες σειράς.
+Represents a series labels.
 
-Ο τύπος IDataLabelCollection εκθέτει τα παρακάτω μέλη:
+The IDataLabelCollection type exposes the following members:
 
 ## Ιδιότητες
 
 | Property | Description |
 | :- | :- |
-| [`default_data_label_format`](/slides/python-net/el/aspose.slides.charts/idatalabelcollection/default_data_label_format/) | Επιστρέφει την προεπιλεγμένη μορφή όλων των ετικετών δεδομένων στη συλλογή.<br/>            Μόνο ανάγνωση [`IDataLabelFormat`](/slides/python-net/el/aspose.slides.charts/idatalabelformat). |
-| [`leader_lines_format`](/slides/python-net/el/aspose.slides.charts/idatalabelcollection/leader_lines_format/) | Αναπαριστά τη μορφή των γραμμών οδηγού των ετικετών δεδομένων.<br/>             Μόνο ανάγνωση [`IChartLinesFormat`](/slides/python-net/el/aspose.slides.charts/ichartlinesformat). |
-| [`is_visible`](/slides/python-net/el/aspose.slides.charts/idatalabelcollection/is_visible/) | False σημαίνει ότι η ετικέτα δεδομένων δεν είναι ορατή εξ ορισμού (και έτσι όλες οι <br/>            σημαίες Show* (ShowValue, ...) της ιδιότητας DefaultDataLabelFormat είναι false).<br/>            Μόνο ανάγνωση **bool**. |
-| [`count_of_visible_data_labels`](/slides/python-net/el/aspose.slides.charts/idatalabelcollection/count_of_visible_data_labels/) | Λαμβάνει τον αριθμό των ορατών ετικετών δεδομένων στη συλλογή.<br/>            Μόνο ανάγνωση **int**. |
-| [`count`](/slides/python-net/el/aspose.slides.charts/idatalabelcollection/count/) | Λαμβάνει τον αριθμό όλων των ετικετών δεδομένων στη συλλογή.<br/>            Μόνο ανάγνωση **int**. |
-| [`parent_series`](/slides/python-net/el/aspose.slides.charts/idatalabelcollection/parent_series/) | Επιστρέφει τη γονική σειρά διαγράμματος.<br/>            Μόνο ανάγνωση [`IChartSeries`](/slides/python-net/el/aspose.slides.charts/ichartseries). |
+| [`default_data_label_format`](/slides/python-net/el/aspose.slides.charts/idatalabelcollection/default_data_label_format/) | Returns default format of all data labels in the collection.<br/>            Μόνο ανάγνωση [`IDataLabelFormat`](/slides/python-net/el/aspose.slides.charts/idatalabelformat). |
+| [`leader_lines_format`](/slides/python-net/el/aspose.slides.charts/idatalabelcollection/leader_lines_format/) | Represents data labels leader lines format.<br/>            Μόνο ανάγνωση [`IChartLinesFormat`](/slides/python-net/el/aspose.slides.charts/ichartlinesformat). |
+| [`is_visible`](/slides/python-net/el/aspose.slides.charts/idatalabelcollection/is_visible/) | False means that data label is not visible by default (and so all <br/>            Show*-flags (ShowValue, ...) of the DefaultDataLabelFormat property are false).<br/>            Μόνο ανάγνωση **bool**. |
+| [`count_of_visible_data_labels`](/slides/python-net/el/aspose.slides.charts/idatalabelcollection/count_of_visible_data_labels/) | Gets the number of visible data labels in the collection.<br/>            Μόνο ανάγνωση **int**. |
+| [`count`](/slides/python-net/el/aspose.slides.charts/idatalabelcollection/count/) | Gets the number of all data labels in the collection.<br/>            Μόνο ανάγνωση **int**. |
+| [`parent_series`](/slides/python-net/el/aspose.slides.charts/idatalabelcollection/parent_series/) | Returns parent chart series.<br/>            Μόνο ανάγνωση [`IChartSeries`](/slides/python-net/el/aspose.slides.charts/ichartseries). |
+| [`default_label_shape_type`](/slides/python-net/el/aspose.slides.charts/idatalabelcollection/default_label_shape_type/) | Gets or sets the default shape type for data labels.<br/>            Returns [`ShapeType.NOT_DEFINED`](/slides/python-net/el/aspose.slides/shapetype/NOT_DEFINED) if no shape is defined. |
 | [`chart`](/slides/python-net/el/aspose.slides.charts/idatalabelcollection/chart/) |  |
 | [`slide`](/slides/python-net/el/aspose.slides.charts/idatalabelcollection/slide/) |  |
 | [`presentation`](/slides/python-net/el/aspose.slides.charts/idatalabelcollection/presentation/) |  |
 
-Λαμβάνει την ετικέτα δεδομένων για το σημείο δεδομένων με τον καθορισμένο δείκτη.
+Gets the data label for the data point with the specified index.
 
 ## Δείκτης
 
@@ -35,10 +36,10 @@ url: /el/aspose.slides.charts/idatalabelcollection/
 
 ## Μέθοδοι
 
-| Μέθοδος | Περιγραφή |
+| Method | Description |
 | :- | :- |
-| [`hide(self)`](/slides/python-net/el/aspose.slides.charts/idatalabelcollection/hide/#) | Κάνει την ετικέτα δεδομένων κρυφή εξ ορισμού ορίζοντας όλες τις σημαίες Show* (ShowValue, ...) της <br/>            ιδιότητας DefaultDataLabelFormat σε κατάσταση false.<br/>            Το IsVisible θα είναι false μετά από αυτό. |
-| [`index_of(self, value)`](/slides/python-net/el/aspose.slides.charts/idatalabelcollection/index_of/#idatalabel) | Επιστρέφει έναν δείκτη της καθορισμένης DataLabel στη συλλογή. |
+| [`hide(self)`](/slides/python-net/el/aspose.slides.charts/idatalabelcollection/hide/#) | Make data label hidden by default by setting all Show*-flags (ShowValue, ...) of the <br/>            DefaultDataLabelFormat property to false state.<br/>            IsVisible will be false after this. |
+| [`index_of(self, value)`](/slides/python-net/el/aspose.slides.charts/idatalabelcollection/index_of/#idatalabel) | Returns an index of the specified DataLabel in the collection. |
 
 ### Δείτε επίσης
 * μονάδα [`aspose.slides.charts`](/slides/python-net/el/aspose.slides.charts)

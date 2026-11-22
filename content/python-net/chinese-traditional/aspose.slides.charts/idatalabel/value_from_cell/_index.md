@@ -1,13 +1,13 @@
 ---
 title: value_from_cell property
-second_title: Aspose.Slides for Python via .NET API 參考文件
+second_title: Aspose.Slides for Python via .NET API 參考
 description: 
 type: docs
 url: /zh-hant/aspose.slides.charts/idatalabel/value_from_cell/
-weight: 240
+weight: 250
 ---
 ## value_from_cell 屬性
-取得或設定工作表資料儲存格。若 IDataLabelFormat.ShowLabelValueFromCell 屬性為 true，則套用。
+取得或設定工作簿資料儲存格。當 IDataLabelFormat.ShowLabelValueFromCell 屬性 等於 true 時。
 
 ### 定義:
 ```python

@@ -4,11 +4,12 @@ second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides.charts/chartdata/embedded_workbook_type/
-weight: 100
+weight: 110
 ---
 ## embedded_workbook_type eigenschap
-Haalt het type van de ingebedde werkmap op.
-            Retourneert [`WorkbookType.NOT_DEFINED`](/slides/python-net/nl/aspose.slides.charts/workbooktype/NOT_DEFINED) als [`ChartData.data_source_type`](/slides/python-net/nl/aspose.slides.charts/chartdata/data_source_type) [`ChartDataSourceType.EXTERNAL_WORKBOOK`](/slides/python-net/nl/aspose.slides.charts/chartdatasourcetype/EXTERNAL_WORKBOOK) is.
+Haalt het type op van de ingebedde werkmap.
+            Retourneert [`WorkbookType.NOT_DEFINED`](/slides/python-net/nl/aspose.slides.charts/workbooktype/NOT_DEFINED) als [`ChartData.data_source_type`](/slides/python-net/nl/aspose.slides.charts/chartdata/data_source_type) is
+            [`ChartDataSourceType.EXTERNAL_WORKBOOK`](/slides/python-net/nl/aspose.slides.charts/chartdatasourcetype/EXTERNAL_WORKBOOK).
             Alleen-lezen [`WorkbookType`](/slides/python-net/nl/aspose.slides.charts/workbooktype).
 
 ### Definitie:
@@ -18,8 +19,7 @@ def embedded_workbook_type(self):
     ...
 ```
 
-
-### Zie Ook
+### Zie ook
 * klasse [`ChartData`](/slides/python-net/nl/aspose.slides.charts/chartdata)
 * enumeratie [`WorkbookType`](/slides/python-net/nl/aspose.slides.charts/workbooktype)
 * module [`aspose.slides.charts`](/slides/python-net/nl/aspose.slides.charts)

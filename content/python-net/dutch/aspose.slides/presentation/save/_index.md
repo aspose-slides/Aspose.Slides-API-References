@@ -4,7 +4,7 @@ second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides/presentation/save/
-weight: 90
+weight: 100
 ---
 ## save(self, options) {#asposeslidesexportxamlixamloptions}
 Slaat alle dia's van een presentatie op in een reeks bestanden die XAML-markup vertegenwoordigen.
@@ -16,7 +16,7 @@ def save(self, options):
 
 | Parameter | Type | Beschrijving |
 | :- | :- | :- |
-| options | [`IXamlOptions`](/slides/python-net/nl/aspose.slides.export.xaml/ixamloptions) | De XAML-indelingsopties. |
+| options | [`IXamlOptions`](/slides/python-net/nl/aspose.slides.export.xaml/ixamloptions) | De XAML-indelingopties. |
 
 ## save(self, fname, format) {#str-asposeslidesexportsaveformat}
 Slaat alle dia's van een presentatie op in een bestand met het opgegeven formaat.
@@ -41,7 +41,7 @@ def save(self, stream, format):
 
 | Parameter | Type | Beschrijving |
 | :- | :- | :- |
-| stream | **io.RawIOBase** | Uitvoerstroom. |
+| stream | **io.RawIOBase** | Uitvoerstream. |
 | format | [`SaveFormat`](/slides/python-net/nl/aspose.slides.export/saveformat) | Formaat van de geëxporteerde gegevens. |
 
 ## save(self, fname, format, options) {#str-asposeslidesexportsaveformat-asposeslidesexportisaveoptions}
@@ -67,15 +67,15 @@ def save(self, stream, format, options):
 
 | Parameter | Type | Beschrijving |
 | :- | :- | :- |
-| stream | **io.RawIOBase** | Uitvoerstroom. |
+| stream | **io.RawIOBase** | Uitvoerstream. |
 | format | [`SaveFormat`](/slides/python-net/nl/aspose.slides.export/saveformat) | Formaat van de geëxporteerde gegevens. |
 | options | [`ISaveOptions`](/slides/python-net/nl/aspose.slides.export/isaveoptions) | Extra indelingsopties. |
 
-### Uitzonderingen
+### Exceptions
 
 | Uitzondering | Beschrijving |
 | :- | :- |
-| **RuntimeError(Proxy error(NotSupportedException))** | Als u probeert een versleuteld bestand op te slaan in geen Office 2007-2010-formaat |
+| **RuntimeError(Proxy error(NotSupportedException))** | Als u probeert een versleuteld bestand op te slaan in <br/>            geen Office 2007-2010 formaat |
 
 ## save(self, fname, slides, format) {#str-listint-asposeslidesexportsaveformat}
 Slaat opgegeven dia's van een presentatie op in een bestand met het opgegeven formaat met behoud van paginanummers.
@@ -88,14 +88,14 @@ def save(self, fname, slides, format):
 | Parameter | Type | Beschrijving |
 | :- | :- | :- |
 | fname | **str** | Pad naar het aangemaakte bestand. |
-| slides | **List[int]** | Lijst met diapositieposities, beginnend vanaf 1. |
+| slides | **List[int]** | Array met dia-posities, beginnend bij 1. |
 | format | [`SaveFormat`](/slides/python-net/nl/aspose.slides.export/saveformat) | Formaat van de geëxporteerde gegevens. |
 
-### Uitzonderingen
+### Exceptions
 
 | Uitzondering | Beschrijving |
 | :- | :- |
-| **RuntimeError(Proxy error(ArgumentNullException))** | Wanneer stream- of slides-parameter None is. |
+| **RuntimeError(Proxy error(ArgumentNullException))** | Wanneer de stream- of slides-parameter None is. |
 | **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Wanneer de slides-parameter onjuiste paginanummers bevat. |
 | **RuntimeError(Proxy error(InvalidOperationException))** | Wanneer een niet-ondersteund SaveFormat wordt gebruikt, bijv. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
@@ -109,8 +109,8 @@ def save(self, stream, slides, format):
 
 | Parameter | Type | Beschrijving |
 | :- | :- | :- |
-| stream | **io.RawIOBase** | Uitvoerstroom. |
-| slides | **List[int]** | Lijst met diapositieposities, beginnend vanaf 1. |
+| stream | **io.RawIOBase** | Uitvoerstream. |
+| slides | **List[int]** | Array met dia-posities, beginnend bij 1. |
 | format | [`SaveFormat`](/slides/python-net/nl/aspose.slides.export/saveformat) | Formaat van de geëxporteerde gegevens. |
 
 ## save(self, fname, slides, format, options) {#str-listint-asposeslidesexportsaveformat-asposeslidesexportisaveoptions}
@@ -124,7 +124,7 @@ def save(self, fname, slides, format, options):
 | Parameter | Type | Beschrijving |
 | :- | :- | :- |
 | fname | **str** | Pad naar het aangemaakte bestand. |
-| slides | **List[int]** | Lijst met diapositieposities, beginnend vanaf 1. |
+| slides | **List[int]** | Array met dia-posities, beginnend bij 1. |
 | format | [`SaveFormat`](/slides/python-net/nl/aspose.slides.export/saveformat) | Formaat van de geëxporteerde gegevens. |
 | options | [`ISaveOptions`](/slides/python-net/nl/aspose.slides.export/isaveoptions) | Extra indelingsopties. |
 
@@ -138,20 +138,20 @@ def save(self, stream, slides, format, options):
 
 | Parameter | Type | Beschrijving |
 | :- | :- | :- |
-| stream | **io.RawIOBase** | Uitvoerstroom. |
-| slides | **List[int]** | Lijst met diapositieposities, beginnend vanaf 1. |
+| stream | **io.RawIOBase** | Uitvoerstream. |
+| slides | **List[int]** | Array met dia-posities, beginnend bij 1. |
 | format | [`SaveFormat`](/slides/python-net/nl/aspose.slides.export/saveformat) | Formaat van de geëxporteerde gegevens. |
 | options | [`ISaveOptions`](/slides/python-net/nl/aspose.slides.export/isaveoptions) | Extra indelingsopties. |
 
-### Uitzonderingen
+### Exceptions
 
 | Uitzondering | Beschrijving |
 | :- | :- |
-| **RuntimeError(Proxy error(ArgumentNullException))** | Wanneer stream- of slides-parameter None is. |
+| **RuntimeError(Proxy error(ArgumentNullException))** | Wanneer de stream- of slides-parameter None is. |
 | **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Wanneer de slides-parameter onjuiste paginanummers bevat. |
 | **RuntimeError(Proxy error(InvalidOperationException))** | Wanneer een niet-ondersteund SaveFormat wordt gebruikt, bijv. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
-### Zie ook
+### See Also
 * klasse [`ISaveOptions`](/slides/python-net/nl/aspose.slides.export/isaveoptions)
 * klasse [`IXamlOptions`](/slides/python-net/nl/aspose.slides.export.xaml/ixamloptions)
 * klasse [`Presentation`](/slides/python-net/nl/aspose.slides/presentation)

@@ -4,13 +4,13 @@ second_title: Referensi API Aspose.Slides untuk Python via .NET
 description: 
 type: docs
 url: /id/aspose.slides/presentation/header_footer_manager/
-weight: 220
+weight: 230
 ---
 ## header_footer_manager properti
 Mengembalikan manajer HeaderFooter yang sebenarnya.
-            Baca-saja [`IPresentationHeaderFooterManager`](/slides/python-net/id/aspose.slides/ipresentationheaderfootermanager).
+            Hanya-baca [`IPresentationHeaderFooterManager`](/slides/python-net/id/aspose.slides/ipresentationheaderfootermanager).
 
-### Definisi:
+### Definition:
 ```python
 @property
 def header_footer_manager(self):
@@ -18,7 +18,7 @@ def header_footer_manager(self):
 ```
 
 
-### Lihat Juga
+### See Also
 * kelas [`IPresentationHeaderFooterManager`](/slides/python-net/id/aspose.slides/ipresentationheaderfootermanager)
 * kelas [`Presentation`](/slides/python-net/id/aspose.slides/presentation)
 * modul [`aspose.slides`](/slides/python-net/id/aspose.slides)

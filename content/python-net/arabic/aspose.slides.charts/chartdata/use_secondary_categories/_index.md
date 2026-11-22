@@ -1,16 +1,16 @@
 ---
 title: use_secondary_categories property
-second_title: Aspose.Slides for Python عبر .NET مرجع API
+second_title: مرجع API Aspose.Slides للغة Python عبر .NET
 description: 
 type: docs
 url: /ar/aspose.slides.charts/chartdata/use_secondary_categories/
-weight: 150
+weight: 160
 ---
 ## use_secondary_categories خاصية
-إذا كان false إذًا [`ChartData.secondary_categories`](/slides/python-net/ar/aspose.slides.charts/chartdata/secondary_categories) خاصية ترجع None و البيانات 
-            في [`ChartData.categories`](/slides/python-net/ar/aspose.slides.charts/chartdata/categories) خاصية تُستَخدم لكل من السلسلة الأولية والثانوية.
-            إذا كان true إذًا البيانات في [`ChartData.secondary_categories`](/slides/python-net/ar/aspose.slides.charts/chartdata/secondary_categories) خاصية تُستَخدم للسلسلة الثانوية و البيانات 
-            في [`ChartData.categories`](/slides/python-net/ar/aspose.slides.charts/chartdata/categories) خاصية تُستَخدم للسلسلة الأولية.
+إذا كان false فإن الخاصية [`ChartData.secondary_categories`](/slides/python-net/ar/aspose.slides.charts/chartdata/secondary_categories) تُعيد None والبيانات 
+            في الخاصية [`ChartData.categories`](/slides/python-net/ar/aspose.slides.charts/chartdata/categories) تُستخدم لكل من السلسلة الأولية والثانوية.
+            إذا كان true فإن البيانات في الخاصية [`ChartData.secondary_categories`](/slides/python-net/ar/aspose.slides.charts/chartdata/secondary_categories) تُستخدم للسلسلة الثانوية والبيانات 
+            في الخاصية [`ChartData.categories`](/slides/python-net/ar/aspose.slides.charts/chartdata/categories) تُستخدم للسلسلة الأولية.
             قراءة/كتابة **bool**.
 
 ### التعريف:
@@ -23,6 +23,7 @@ def use_secondary_categories(self):
 def use_secondary_categories(self, value):
     ...
 ```
+
 
 ### انظر أيضًا
 * فئة [`ChartData`](/slides/python-net/ar/aspose.slides.charts/chartdata)

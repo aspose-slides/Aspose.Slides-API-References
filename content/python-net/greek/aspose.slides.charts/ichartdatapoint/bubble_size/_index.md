@@ -1,13 +1,13 @@
 ---
 title: bubble_size property
-second_title: Αναφορά API Aspose.Slides για Python μέσω .NET
+second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
 description: 
 type: docs
 url: /el/aspose.slides.charts/ichartdatapoint/bubble_size/
 weight: 80
 ---
 ## bubble_size ιδιότητα
-Επιστρέφει το μέγεθος φούσκας του σημείου δεδομένων του διαγράμματος.
+Επιστρέφει το μέγεθος φυσαλίδας ενός σημείου δεδομένων διαγράμματος.
             Μόνο για ανάγνωση [`IDoubleChartValue`](/slides/python-net/el/aspose.slides.charts/idoublechartvalue).
 
 ### Ορισμός:

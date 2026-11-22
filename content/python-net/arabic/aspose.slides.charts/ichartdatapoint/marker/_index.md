@@ -1,14 +1,14 @@
 ---
 title: marker property
-second_title: Aspose.Slides لبايثون عبر .NET مرجع API
+second_title: مرجع API لـ Aspose.Slides للبايثون عبر .NET
 description: 
 type: docs
 url: /ar/aspose.slides.charts/ichartdatapoint/marker/
-weight: 180
+weight: 220
 ---
-## خاصية المؤشر
-Specifies a data marker.
-            قراءة فقط [`IMarker`](/slides/python-net/ar/aspose.slides.charts/imarker).
+## خاصية العلامة
+يحدد علامة بيانات.
+            للقراءة فقط [`IMarker`](/slides/python-net/ar/aspose.slides.charts/imarker).
 
 ### التعريف:
 ```python
@@ -19,7 +19,7 @@ def marker(self):
 
 
 ### انظر أيضًا
-* فئة [`IChartDataPoint`](/slides/python-net/ar/aspose.slides.charts/ichartdatapoint)
-* فئة [`IMarker`](/slides/python-net/ar/aspose.slides.charts/imarker)
-* وحدة [`aspose.slides.charts`](/slides/python-net/ar/aspose.slides.charts)
-* مكتبة [`Aspose.Slides`](/slides/python-net)
+* الفئة [`IChartDataPoint`](/slides/python-net/ar/aspose.slides.charts/ichartdatapoint)
+* الفئة [`IMarker`](/slides/python-net/ar/aspose.slides.charts/imarker)
+* الوحدة [`aspose.slides.charts`](/slides/python-net/ar/aspose.slides.charts)
+* المكتبة [`Aspose.Slides`](/slides/python-net)

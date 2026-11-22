@@ -9,27 +9,27 @@ url: /it/aspose.slides.animation/rotationeffect/
 
 Rappresenta il comportamento di rotazione dell'effetto.
 
-**Ereditarietà:**[`RotationEffect`](/slides/python-net/it/aspose.slides.animation/rotationeffect) → [`Behavior`](/slides/python-net/it/aspose.slides.animation/behavior)
+**Eredità:**[`RotationEffect`](/slides/python-net/it/aspose.slides.animation/rotationeffect) → [`Behavior`](/slides/python-net/it/aspose.slides.animation/behavior)
 
 Il tipo RotationEffect espone i seguenti membri:
 
 ## Costruttori
 
-| Constructor | Descrizione |
+| Costruttore | Descrizione |
 | :- | :- |
 | [`__init__(self)`](/slides/python-net/it/aspose.slides.animation/rotationeffect/__init__/#) | Crea una nuova istanza. |
 
 ## Proprietà
 
-| Property | Descrizione |
+| Proprietà | Descrizione |
 | :- | :- |
-| [`accumulate`](/slides/python-net/it/aspose.slides.animation/rotationeffect/accumulate/) | Indica se i comportamenti di animazione sono accumulati.<br/>            Lettura/Scrittura [`NullableBool`](/slides/python-net/it/aspose.slides/nullablebool). |
-| [`additive`](/slides/python-net/it/aspose.slides.animation/rotationeffect/additive/) | Indica se il comportamento di animazione corrente è combinato con altre animazioni in esecuzione.<br/>            Lettura/Scrittura [`BehaviorAdditiveType`](/slides/python-net/it/aspose.slides.animation/behavioradditivetype). |
-| [`properties`](/slides/python-net/it/aspose.slides.animation/rotationeffect/properties/) | Rappresenta le proprietà del comportamento.<br/>            Sola lettura [`IBehaviorPropertyCollection`](/slides/python-net/it/aspose.slides.animation/ibehaviorpropertycollection). |
-| [`timing`](/slides/python-net/it/aspose.slides.animation/rotationeffect/timing/) | Rappresenta le proprietà di temporizzazione per il comportamento dell'effetto.<br/>            Lettura/Scrittura [`ITiming`](/slides/python-net/it/aspose.slides.animation/itiming). |
-| [`from_address`](/slides/python-net/it/aspose.slides.animation/rotationeffect/from_address/) | Descrive il valore iniziale per l'animazione.<br/>            Lettura/Scrittura **float**. |
-| [`to`](/slides/python-net/it/aspose.slides.animation/rotationeffect/to/) | Descrive il valore finale per l'animazione.<br/>            Lettura/Scrittura **float**. |
-| [`by`](/slides/python-net/it/aspose.slides.animation/rotationeffect/by/) | Descrive il valore di offset relativo per l'animazione.<br/>            Lettura/Scrittura **float**. |
+| [`accumulate`](/slides/python-net/it/aspose.slides.animation/rotationeffect/accumulate/) | Rappresenta se i comportamenti di animazione sono accumulati.<br/>            Read/write [`NullableBool`](/slides/python-net/it/aspose.slides/nullablebool). |
+| [`additive`](/slides/python-net/it/aspose.slides.animation/rotationeffect/additive/) | Rappresenta se il comportamento di animazione corrente è combinato con altre animazioni in esecuzione.<br/>            Read/write [`BehaviorAdditiveType`](/slides/python-net/it/aspose.slides.animation/behavioradditivetype). |
+| [`properties`](/slides/python-net/it/aspose.slides.animation/rotationeffect/properties/) | Rappresenta le proprietà del comportamento.<br/>            Read-only [`IBehaviorPropertyCollection`](/slides/python-net/it/aspose.slides.animation/ibehaviorpropertycollection). |
+| [`timing`](/slides/python-net/it/aspose.slides.animation/rotationeffect/timing/) | Rappresenta le proprietà di temporizzazione per il comportamento dell'effetto.<br/>            Read/write [`ITiming`](/slides/python-net/it/aspose.slides.animation/itiming). |
+| [`from_`](/slides/python-net/it/aspose.slides.animation/rotationeffect/from_/) | Descrive il valore iniziale per l'animazione.<br/>            Read/write **float**. |
+| [`to`](/slides/python-net/it/aspose.slides.animation/rotationeffect/to/) | Descrive il valore finale per l'animazione.<br/>            Read/write **float**. |
+| [`by`](/slides/python-net/it/aspose.slides.animation/rotationeffect/by/) | Descrive il valore di offset relativo per l'animazione.<br/>            Read/write **float**. |
 
 
 ### Vedi anche

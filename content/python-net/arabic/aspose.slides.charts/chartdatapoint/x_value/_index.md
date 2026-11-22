@@ -4,11 +4,11 @@ second_title: Aspose.Slides للـ Python عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides.charts/chartdatapoint/x_value/
-weight: 230
+weight: 270
 ---
 ## x_value خاصية
 XValue.
-            قراءة فقط [`IStringOrDoubleChartValue`](/slides/python-net/ar/aspose.slides.charts/istringordoublechartvalue).
+            للقراءة فقط [`IStringOrDoubleChartValue`](/slides/python-net/ar/aspose.slides.charts/istringordoublechartvalue).
 
 ### التعريف:
 ```python

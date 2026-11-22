@@ -1,17 +1,18 @@
 ---
 title: split_text_by_columns method
-second_title: Aspose.Slides for Python via .NET API Referansı
+second_title: Aspose.Slides Python için .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides/textframe/split_text_by_columns/
-weight: 60
+weight: 70
 ---
 ## split_text_by_columns(self) {#}
-Metin çerçevesinin [`ITextFrame`](/slides/python-net/tr/aspose.slides/itextframe) içeriğini bir dizi stringe bölerek, her öğenin çerçeve içindeki ayrı bir metin sütununa karşılık gelmesini sağlar.
+[`ITextFrame`](/slides/python-net/tr/aspose.slides/itextframe) öğesinin metin içeriğini bir diziye ayırır,  
+            her öğe çerçevedeki ayrı bir metin sütununa karşılık gelir.
 
-### Dönüş
+### Dönüş Değeri
 
-Her bir stringin belirli bir sütunun metin içeriğini temsil ettiği bir string dizisi, [`ITextFrame`](/slides/python-net/tr/aspose.slides/itextframe) içinde.
+Belirli bir sütunun [`ITextFrame`](/slides/python-net/tr/aspose.slides/itextframe) içindeki metin içeriğini temsil eden dize dizisi.  
 
 ```python
 def split_text_by_columns(self):
@@ -20,7 +21,8 @@ def split_text_by_columns(self):
 
 ### Açıklamalar
 
-Metin çerçevesi birden çok sütun içermiyorsa, döndürülen dizi tam metni içeren tek bir öğeye sahip olur. Boş sütunlar dizide boş stringler olarak temsil edilir.
+Metin çerçevesi birden fazla sütun içermiyorsa, döndürülen dizi tam metni içeren tek bir öğeye sahip olur.  
+            Boş sütunlar dizi içinde boş dizeler olarak temsil edilir.
 
 ### Ayrıca Bakınız
 * sınıf [`ITextFrame`](/slides/python-net/tr/aspose.slides/itextframe)

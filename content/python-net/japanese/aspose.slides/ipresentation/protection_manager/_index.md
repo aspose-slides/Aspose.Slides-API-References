@@ -4,10 +4,10 @@ second_title: Aspose.Slides for Python via .NET API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides/ipresentation/protection_manager/
-weight: 310
+weight: 320
 ---
 ## protection_manager プロパティ
-このプレゼンテーションの権限マネージャーを取得します。
+このプレゼンテーションの権限マネージャーを取得します。 
             読み取り専用 [`IProtectionManager`](/slides/python-net/ja/aspose.slides/iprotectionmanager).
 
 ### 定義:

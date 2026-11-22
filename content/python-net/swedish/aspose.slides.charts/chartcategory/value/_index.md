@@ -4,11 +4,11 @@ second_title: Aspose.Slides för Python via .NET API-referens
 description: 
 type: docs
 url: /sv/aspose.slides.charts/chartcategory/value/
-weight: 60
+weight: 70
 ---
-## värdeegenskap
-            Om UseCell är true då denna egenskap representerar AsCell.Value egenskap.
-            Om UseCell är false då denna egenskap representerar AsLiteral egenskap.
+## value egenskap
+Om UseCell är true så representerar denna egenskap AsCell.Value egenskap.
+            Om UseCell är false så representerar denna egenskap AsLiteral egenskap.
             Läs/skriv **valfri**.
 
 ### Definition:

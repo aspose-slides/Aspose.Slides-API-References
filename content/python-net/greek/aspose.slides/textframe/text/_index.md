@@ -1,13 +1,13 @@
 ---
 title: text property
-second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
+second_title: Aspose.Slides για Python μέσω .NET API αναφορά
 description: 
 type: docs
 url: /el/aspose.slides/textframe/text/
-weight: 150
+weight: 160
 ---
 ## ιδιότητα κειμένου
-Ανακτά ή ορίζει το απλό κείμενο για ένα TextFrame.
+Λαμβάνει ή ορίζει το απλό κείμενο για ένα TextFrame.
             Ανάγνωση/εγγραφή **str**.
 
 ### Ορισμός:

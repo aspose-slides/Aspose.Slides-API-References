@@ -1,13 +1,13 @@
 ---
 title: slide_show_settings property
-second_title: Référence de l'API Aspose.Slides pour Python via .NET
+second_title: Aspose.Slides pour Python via .NET Référence de l'API
 description: 
 type: docs
 url: /fr/aspose.slides/presentation/slide_show_settings/
-weight: 350
+weight: 360
 ---
 ## slide_show_settings propriété
-Renvoie les paramètres du diaporama pour la présentation.
+Renvoie les paramètres slide_show_settings pour la présentation.
 
 ### Définition:
 ```python

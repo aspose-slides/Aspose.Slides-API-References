@@ -1,13 +1,13 @@
 ---
 title: sensitivity_labels property
-second_title: Aspose.Slides Pythonhoz a .NET API hivatkozás
+second_title: Aspose.Slides a .NET-en keresztül Pythonhoz API-referencia
 description: 
 type: docs
 url: /hu/aspose.slides/ipresentation/sensitivity_labels/
-weight: 330
+weight: 340
 ---
 ## sensitivity_labels tulajdonság
-Visszaadja a prezentációs dokumentumra alkalmazott érzékenységi címkék gyűjteményét.
+Visszaadja a bemutató dokumentumra alkalmazott érzékenységi címkék gyűjteményét.
             Csak olvasható [`ISensitivityLabelCollection`](/slides/python-net/hu/aspose.slides/isensitivitylabelcollection).
 
 ### Definíció:

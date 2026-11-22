@@ -4,10 +4,10 @@ second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides/ipresentation/slides/
-weight: 350
+weight: 360
 ---
 ## slides eigenschap
-Retourneert een lijst met alle slides die gedefinieerd zijn in de presentatie.
+Retourneert een lijst van alle slides die zijn gedefinieerd in de presentatie.
             Alleen-lezen [`ISlideCollection`](/nl/slides/python-net/aspose.slides/islidecollection).
 
 ### Definitie:

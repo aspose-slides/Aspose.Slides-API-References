@@ -4,17 +4,14 @@ second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
 description: 
 type: docs
 url: /el/aspose.slides.charts/idatalabelcollection/is_visible/
-weight: 120
+weight: 130
 ---
 ## is_visible ιδιότητα
-False σημαίνει ότι η ετικέτα δεδομένων δεν είναι ορατή από προεπιλογή (και έτσι όλα τα Show*-flags (ShowValue, ...) της ιδιότητας DefaultDataLabelFormat είναι ψευδείς). Μόνο για ανάγνωση **bool**.
-
+False σημαίνει ότι η ετικέτα δεδομένων δεν είναι ορατή από προεπιλογή (και έτσι όλες οι σημαίες Show*-flags (ShowValue, ...) της ιδιότητας DefaultDataLabelFormat είναι false). Μόνο για ανάγνωση **bool**.
 
 ### Παρατηρήσεις
 
-Εάν η ετικέτα δεδομένων είναι ορατή από προεπιλογή, μπορείτε να τη κρύψετε από προεπιλογή με τη μέθοδο Hide().
-            Αλλά εάν η ετικέτα δεδομένων δεν είναι ορατή από προεπιλογή (IsVisible είναι ψευδής), μπορείτε να κάνετε την ετικέτα δεδομένων "ορατή 
-            από προεπιλογή" ορίζοντας τα Show*-flags (ShowValue, ...) της ιδιότητας DefaultDataLabelFormat σε αληθές κατάσταση.
+Αν η ετικέτα δεδομένων είναι ορατή από προεπιλογή, μπορείτε να την κρύψετε από προεπιλογή με τη μέθοδο Hide(). Αλλά αν η ετικέτα δεδομένων δεν είναι ορατή από προεπιλογή (IsVisible είναι false) μπορείτε να κάνετε την ετικέτα δεδομένων «ορατή από προεπιλογή» ορίζοντας τις σημαίες Show*-flags (ShowValue, ...) της ιδιότητας DefaultDataLabelFormat σε κατάσταση true.
 
 ### Ορισμός:
 ```python
@@ -22,7 +19,6 @@ False σημαίνει ότι η ετικέτα δεδομένων δεν είν
 def is_visible(self):
     ...
 ```
-
 
 ### Δείτε επίσης
 * κλάση [`IDataLabelCollection`](/slides/python-net/el/aspose.slides.charts/idatalabelcollection)

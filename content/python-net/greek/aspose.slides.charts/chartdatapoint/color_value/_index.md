@@ -4,11 +4,11 @@ second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
 description: 
 type: docs
 url: /el/aspose.slides.charts/chartdatapoint/color_value/
-weight: 90
+weight: 130
 ---
 ## color_value ιδιότητα
-Επιστρέφει την τιμή χρώματος του σημείου δεδομένων του διαγράμματος.
-            Used with Map charts. 
+Επιστρέφει την τιμή χρώματος του σημείου δεδομένων διαγράμματος.
+            Χρησιμοποιείται με Map charts. 
             Μόνο για ανάγνωση [`IDoubleChartValue`](/slides/python-net/el/aspose.slides.charts/idoublechartvalue).
 
 ### Ορισμός:
@@ -17,7 +17,6 @@ weight: 90
 def color_value(self):
     ...
 ```
-
 
 ### Δείτε επίσης
 * κλάση [`ChartDataPoint`](/slides/python-net/el/aspose.slides.charts/chartdatapoint)

@@ -1,6 +1,6 @@
 ---
 title: MotionEffect class
-second_title: Aspose.Slides para Python a través de la referencia de API .NET
+second_title: Referencia de API de Aspose.Slides para Python a través de .NET
 description: 
 type: docs
 url: /es/aspose.slides.animation/motioneffect/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.animation/motioneffect/
 
 Representa el comportamiento del efecto de movimiento.
 
-**Herencia:**[`MotionEffect`](/slides/python-net/es/aspose.slides.animation/motioneffect) → [`Behavior`](/slides/python-net/es/aspose.slides.animation/behavior)
+**Inheritance:**[`MotionEffect`](/slides/python-net/es/aspose.slides.animation/motioneffect) → [`Behavior`](/slides/python-net/es/aspose.slides.animation/behavior)
 
 El tipo MotionEffect expone los siguientes miembros:
 
@@ -25,16 +25,16 @@ El tipo MotionEffect expone los siguientes miembros:
 | :- | :- |
 | [`accumulate`](/slides/python-net/es/aspose.slides.animation/motioneffect/accumulate/) | Representa si los comportamientos de animación se acumulan.<br/>            Lectura/escritura [`NullableBool`](/slides/python-net/es/aspose.slides/nullablebool). |
 | [`additive`](/slides/python-net/es/aspose.slides.animation/motioneffect/additive/) | Representa si el comportamiento de animación actual se combina con otras animaciones en ejecución.<br/>            Lectura/escritura [`BehaviorAdditiveType`](/slides/python-net/es/aspose.slides.animation/behavioradditivetype). |
-| [`properties`](/slides/python-net/es/aspose.slides.animation/motioneffect/properties/) | Representa las propiedades del comportamiento.<br/>            Solo lectura [`IBehaviorPropertyCollection`](/slides/python-net/es/aspose.slides.animation/ibehaviorpropertycollection). |
-| [`timing`](/slides/python-net/es/aspose.slides.animation/motioneffect/timing/) | Representa las propiedades de temporización del comportamiento del efecto.<br/>            Lectura/escritura [`ITiming`](/slides/python-net/es/aspose.slides.animation/itiming). |
-| [`from_address`](/slides/python-net/es/aspose.slides.animation/motioneffect/from_address/) | Especifica una coordenada x/y desde la cual iniciar la animación (en porcentajes). <br/>            Lectura/escritura [`PointF`](/slides/python-net/es/aspose.slides/pointf). |
+| [`properties`](/slides/python-net/es/aspose.slides.animation/motioneffect/properties/) | Representa propiedades del comportamiento.<br/>            Solo lectura [`IBehaviorPropertyCollection`](/slides/python-net/es/aspose.slides.animation/ibehaviorpropertycollection). |
+| [`timing`](/slides/python-net/es/aspose.slides.animation/motioneffect/timing/) | Representa propiedades de temporización para el comportamiento del efecto.<br/>            Lectura/escritura [`ITiming`](/slides/python-net/es/aspose.slides.animation/itiming). |
+| [`from_`](/slides/python-net/es/aspose.slides.animation/motioneffect/from_/) | Especifica una coordenada x/y desde la cual iniciar la animación (en porcentajes).<br/>            Lectura/escritura [`PointF`](/slides/python-net/es/aspose.slides/pointf). |
 | [`to`](/slides/python-net/es/aspose.slides.animation/motioneffect/to/) | Especifica la ubicación objetivo para un efecto de movimiento de animación (en porcentajes).<br/>            Lectura/escritura [`PointF`](/slides/python-net/es/aspose.slides/pointf). |
 | [`by`](/slides/python-net/es/aspose.slides.animation/motioneffect/by/) | Describe el valor de desplazamiento relativo para la animación (en porcentajes).<br/>            Lectura/escritura [`PointF`](/slides/python-net/es/aspose.slides/pointf). |
-| [`rotation_center`](/slides/python-net/es/aspose.slides.animation/motioneffect/rotation_center/) | Describe el centro de rotación utilizado para girar una trayectoria de movimiento por un ángulo X.<br/>            Lectura/escritura [`PointF`](/slides/python-net/es/aspose.slides/pointf). |
-| [`origin`](/slides/python-net/es/aspose.slides.animation/motioneffect/origin/) | Especifica a qué está relativo el origen de la trayectoria de movimiento, como el diseño de la diapositiva,<br/>            o el elemento padre.<br/>            Lectura/escritura [`MotionOriginType`](/slides/python-net/es/aspose.slides.animation/motionorigintype). |
-| [`path`](/slides/python-net/es/aspose.slides.animation/motioneffect/path/) | Especifica la primitiva de la ruta seguida de coordenadas para el movimiento de animación.<br/>            Lectura/escritura [`IMotionPath`](/slides/python-net/es/aspose.slides.animation/imotionpath). |
-| [`path_edit_mode`](/slides/python-net/es/aspose.slides.animation/motioneffect/path_edit_mode/) | Especifica cómo se mueve la trayectoria de movimiento cuando se mueve la forma.<br/>            Lectura/escritura [`MotionPathEditMode`](/slides/python-net/es/aspose.slides.animation/motionpatheditmode). |
-| [`angle`](/slides/python-net/es/aspose.slides.animation/motioneffect/angle/) | Describe el ángulo relativo de la trayectoria de movimiento.<br/>            Lectura/escritura **float**. |
+| [`rotation_center`](/slides/python-net/es/aspose.slides.animation/motioneffect/rotation_center/) | Describe el centro de rotación utilizado para rotar una ruta de movimiento por un ángulo X.<br/>            Lectura/escritura [`PointF`](/slides/python-net/es/aspose.slides/pointf). |
+| [`origin`](/slides/python-net/es/aspose.slides.animation/motioneffect/origin/) | Especifica cuál es el origen de la ruta de movimiento relativo, por ejemplo al diseño de la diapositiva,<br/>            o al elemento padre.<br/>            Lectura/escritura [`MotionOriginType`](/slides/python-net/es/aspose.slides.animation/motionorigintype). |
+| [`path`](/slides/python-net/es/aspose.slides.animation/motioneffect/path/) | Especifica la primitiva de ruta seguida de coordenadas para el movimiento de la animación.<br/>            Lectura/escritura [`IMotionPath`](/slides/python-net/es/aspose.slides.animation/imotionpath). |
+| [`path_edit_mode`](/slides/python-net/es/aspose.slides.animation/motioneffect/path_edit_mode/) | Especifica cómo se mueve la ruta de movimiento cuando se desplaza la forma.<br/>            Lectura/escritura [`MotionPathEditMode`](/slides/python-net/es/aspose.slides.animation/motionpatheditmode). |
+| [`angle`](/slides/python-net/es/aspose.slides.animation/motioneffect/angle/) | Describe el ángulo relativo de la ruta de movimiento.<br/>            Lectura/escritura **float**. |
 
 ### Ver también
 * clase [`Behavior`](/slides/python-net/es/aspose.slides.animation/behavior)

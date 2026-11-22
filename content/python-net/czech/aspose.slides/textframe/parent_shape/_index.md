@@ -4,10 +4,10 @@ second_title: Aspose.Slides pro Python prostřednictvím .NET API Reference
 description: 
 type: docs
 url: /cs/aspose.slides/textframe/parent_shape/
-weight: 120
+weight: 130
 ---
 ## parent_shape vlastnost
-Vrací nadřazený tvar nebo None, pokud nadřazený objekt neimplementuje rozhraní IShape
+Vrací rodičovský tvar nebo None, pokud nadřazený objekt neimplementuje rozhraní IShape
             Pouze pro čtení [`IShape`](/slides/python-net/cs/aspose.slides/ishape).
 
 ### Definice:

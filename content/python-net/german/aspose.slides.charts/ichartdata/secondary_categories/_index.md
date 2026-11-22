@@ -1,20 +1,24 @@
 ---
 title: secondary_categories property
-second_title: Aspose.Slides für Python über .NET API-Referenz
+second_title: Aspose.Slides für Python via .NET API-Referenz
 description: 
 type: docs
 url: /de/aspose.slides.charts/ichartdata/secondary_categories/
-weight: 120
+weight: 130
 ---
 ## secondary_categories Eigenschaft
-Ruft die sekundären Kategorien ab, wenn die [`IChartData.use_secondary_categories`](/slides/python-net/de/aspose.slides.charts/ichartdata/use_secondary_categories) Eigenschaft true ist.
-Nur lesbar [`IChartCategoryCollection`](/slides/python-net/de/aspose.slides.charts/ichartcategorycollection).
+Gibt die sekundären Kategorien zurück, wenn [`IChartData.use_secondary_categories`](/slides/python-net/de/aspose.slides.charts/ichartdata/use_secondary_categories) Eigenschaft true ist.
+            Nur-Lesen [`IChartCategoryCollection`](/slides/python-net/de/aspose.slides.charts/ichartcategorycollection).
 
+### Bemerkungen
 
-### Hinweise
+Wenn [`IChartData.use_secondary_categories`](/slides/python-net/de/aspose.slides.charts/ichartdata/use_secondary_categories) Eigenschaft false ist, dann diese [`IChartData.secondary_categories`](/slides/python-net/de/aspose.slides.charts/ichartdata/secondary_categories) 
+            Eigenschaft gibt None zurück und die Daten in [`IChartData.categories`](/slides/python-net/de/aspose.slides.charts/ichartdata/categories) Eigenschaft werden sowohl für die primäre 
+            und sekundäre Serien.
 
-Wenn die [`IChartData.use_secondary_categories`](/slides/python-net/de/aspose.slides.charts/ichartdata/use_secondary_categories) Eigenschaft false ist, dann gibt diese [`IChartData.secondary_categories`](/slides/python-net/de/aspose.slides.charts/ichartdata/secondary_categories) Eigenschaft None zurück und Daten in der [`IChartData.categories`](/slides/python-net/de/aspose.slides.charts/ichartdata/categories) Eigenschaft werden sowohl für die primäre als auch für die sekundäre Serie verwendet.
-Wenn die [`IChartData.use_secondary_categories`](/slides/python-net/de/aspose.slides.charts/ichartdata/use_secondary_categories) Eigenschaft true ist, dann werden Daten in dieser [`IChartData.secondary_categories`](/slides/python-net/de/aspose.slides.charts/ichartdata/secondary_categories) Eigenschaft für die sekundäre Serie verwendet und Daten in der [`IChartData.categories`](/slides/python-net/de/aspose.slides.charts/ichartdata/categories) Eigenschaft für die primäre Serie verwendet.
+Wenn [`IChartData.use_secondary_categories`](/slides/python-net/de/aspose.slides.charts/ichartdata/use_secondary_categories) Eigenschaft true ist, dann werden Daten in 
+            dieser [`IChartData.secondary_categories`](/slides/python-net/de/aspose.slides.charts/ichartdata/secondary_categories) Eigenschaft für sekundäre Serien verwendet und Daten 
+            in [`IChartData.categories`](/slides/python-net/de/aspose.slides.charts/ichartdata/categories) Eigenschaft für primäre Serien verwendet.
 
 ### Definition:
 ```python
@@ -22,7 +26,6 @@ Wenn die [`IChartData.use_secondary_categories`](/slides/python-net/de/aspose.sl
 def secondary_categories(self):
     ...
 ```
-
 
 ### Siehe auch
 * Klasse [`IChartCategoryCollection`](/slides/python-net/de/aspose.slides.charts/ichartcategorycollection)

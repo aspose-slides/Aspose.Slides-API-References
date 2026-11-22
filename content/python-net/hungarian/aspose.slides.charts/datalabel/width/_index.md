@@ -1,13 +1,13 @@
 ---
 title: width property
-second_title: Aspose.Slides Pythonhoz a .NET API hivatkozás
+second_title: Aspose.Slides Python számára .NET API hivatkozás
 description: 
 type: docs
 url: /hu/aspose.slides.charts/datalabel/width/
-weight: 260
+weight: 270
 ---
-## width tulajdonság
-Visszaadja vagy beállítja egy cím szélességét a diagram szélességének tört részeként.
+## szélesség tulajdonság
+Visszaadja vagy beállítja a cím szélességét a diagram szélességének arányaként.
             Olvasás/írás **float**.
 
 ### Definíció:

@@ -1,14 +1,14 @@
 ---
 title: slide property
-second_title: Aspose.Slides per Python via .NET Riferimento API
+second_title: Riferimento API Aspose.Slides per Python via .NET
 description: 
 type: docs
 url: /it/aspose.slides/textframe/slide/
-weight: 140
+weight: 150
 ---
-## slide proprietà
-Restituisce la slide padre di un TextFrame.
-            Solo lettura [`IBaseSlide`](/slides/python-net/it/aspose.slides/ibaseslide).
+## proprietà della diapositiva
+Restituisce la diapositiva padre di un TextFrame.
+            Sola lettura [`IBaseSlide`](/slides/python-net/it/aspose.slides/ibaseslide).
 
 ### Definizione:
 ```python

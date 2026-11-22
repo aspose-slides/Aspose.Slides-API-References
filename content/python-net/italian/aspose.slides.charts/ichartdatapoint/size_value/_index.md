@@ -4,11 +4,11 @@ second_title: Riferimento API Aspose.Slides per Python via .NET
 description: 
 type: docs
 url: /it/aspose.slides.charts/ichartdatapoint/size_value/
-weight: 210
+weight: 250
 ---
 ## size_value proprietà
-Returns the size value of chart data point.
-            Used with Treemap and Sunburst charts. 
+Restituisce il valore di dimensione di un punto dati del grafico.
+            Utilizzato con i grafici Treemap e Sunburst. 
             Solo lettura [`IDoubleChartValue`](/slides/python-net/it/aspose.slides.charts/idoublechartvalue).
 
 ### Definizione:

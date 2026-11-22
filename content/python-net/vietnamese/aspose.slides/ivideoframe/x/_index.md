@@ -1,10 +1,10 @@
 ---
 title: x property
-second_title: Aspose.Slides cho Python qua Tham chiếu API .NET
+second_title: Aspose.Slides cho Python qua .NET Tham chiếu API
 description: 
 type: docs
 url: /vi/aspose.slides/ivideoframe/x/
-weight: 630
+weight: 640
 ---
 ## x thuộc tính
 ### Định nghĩa:

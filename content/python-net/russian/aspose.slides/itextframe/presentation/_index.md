@@ -1,10 +1,10 @@
 ---
 title: presentation property
-second_title: Aspose.Slides для Python через .NET API Reference
+second_title: Aspose.Slides для Python через .NET справочник API
 description: 
 type: docs
 url: /ru/aspose.slides/itextframe/presentation/
-weight: 130
+weight: 140
 ---
 ## presentation свойство
 ### Определение:

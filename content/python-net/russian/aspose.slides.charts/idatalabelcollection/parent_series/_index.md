@@ -1,14 +1,14 @@
 ---
 title: parent_series property
-second_title: Aspose.Slides для Python через .NET — справочник API
+second_title: Aspose.Slides для Python через .NET справочник API
 description: 
 type: docs
 url: /ru/aspose.slides.charts/idatalabelcollection/parent_series/
-weight: 140
+weight: 150
 ---
 ## parent_series свойство
 Возвращает родительскую серию диаграммы.
-Только для чтения [`IChartSeries`](/slides/python-net/ru/aspose.slides.charts/ichartseries).
+            Только для чтения [`IChartSeries`](/slides/python-net/ru/aspose.slides.charts/ichartseries).
 
 ### Определение:
 ```python
@@ -18,7 +18,7 @@ def parent_series(self):
 ```
 
 
-### Смотрите также
+### См. также
 * класс [`IChartSeries`](/slides/python-net/ru/aspose.slides.charts/ichartseries)
 * класс [`IDataLabelCollection`](/slides/python-net/ru/aspose.slides.charts/idatalabelcollection)
 * модуль [`aspose.slides.charts`](/slides/python-net/ru/aspose.slides.charts)

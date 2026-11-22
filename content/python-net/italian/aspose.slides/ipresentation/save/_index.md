@@ -1,13 +1,13 @@
 ---
 title: save method
-second_title: Riferimento API di Aspose.Slides per Python via .NET
+second_title: Aspose.Slides per Python via .NET Riferimento API
 description: 
 type: docs
 url: /it/aspose.slides/ipresentation/save/
-weight: 80
+weight: 90
 ---
 ## save(self, options) {#asposeslidesexportxamlixamloptions}
-Salva tutte le diapositive di una presentazione in un insieme di file che rappresentano markup XAML.
+Salva tutte le diapositive di una presentazione in un insieme di file che rappresentano il markup XAML.
 
 
 ```python
@@ -15,10 +15,9 @@ def save(self, options):
     ...
 ```
 
-
 | Parametro | Tipo | Descrizione |
 | :- | :- | :- |
-| options | [`IXamlOptions`](/slides/python-net/it/aspose.slides.export.xaml/ixamloptions) | Le opzioni di formato XAML. |
+| options | [`IXamlOptions`](/slides/python-net/it/aspose.slides.export.xaml/ixamloptions) | Le opzioni del formato XAML. |
 
 
 ## save(self, fname, format) {#str-asposeslidesexportsaveformat}
@@ -30,15 +29,14 @@ def save(self, fname, format):
     ...
 ```
 
-
 | Parametro | Tipo | Descrizione |
 | :- | :- | :- |
-| fname | **str** | Percorso del file creato. |
+| fname | **str** | Percorso al file creato. |
 | format | [`SaveFormat`](/slides/python-net/it/aspose.slides.export/saveformat) | Formato dei dati esportati. |
 
 
 ## save(self, stream, format) {#iorawiobase-asposeslidesexportsaveformat}
-Salva tutte le diapositive di una presentazione su un flusso nel formato specificato.
+Salva tutte le diapositive di una presentazione in uno stream nel formato specificato.
 
 
 ```python
@@ -46,10 +44,9 @@ def save(self, stream, format):
     ...
 ```
 
-
 | Parametro | Tipo | Descrizione |
 | :- | :- | :- |
-| stream | **io.RawIOBase** | Flusso di output. |
+| stream | **io.RawIOBase** | Stream di output. |
 | format | [`SaveFormat`](/slides/python-net/it/aspose.slides.export/saveformat) | Formato dei dati esportati. |
 
 
@@ -62,16 +59,15 @@ def save(self, fname, format, options):
     ...
 ```
 
-
 | Parametro | Tipo | Descrizione |
 | :- | :- | :- |
-| fname | **str** | Percorso del file creato. |
+| fname | **str** | Percorso al file creato. |
 | format | [`SaveFormat`](/slides/python-net/it/aspose.slides.export/saveformat) | Formato dei dati esportati. |
 | options | [`ISaveOptions`](/slides/python-net/it/aspose.slides.export/isaveoptions) | Opzioni di formato aggiuntive. |
 
 
 ## save(self, stream, format, options) {#iorawiobase-asposeslidesexportsaveformat-asposeslidesexportisaveoptions}
-Salva tutte le diapositive di una presentazione su un flusso nel formato specificato e con opzioni aggiuntive.
+Salva tutte le diapositive di una presentazione in uno stream nel formato specificato e con opzioni aggiuntive.
 
 
 ```python
@@ -79,10 +75,9 @@ def save(self, stream, format, options):
     ...
 ```
 
-
 | Parametro | Tipo | Descrizione |
 | :- | :- | :- |
-| stream | **io.RawIOBase** | Flusso di output. |
+| stream | **io.RawIOBase** | Stream di output. |
 | format | [`SaveFormat`](/slides/python-net/it/aspose.slides.export/saveformat) | Formato dei dati esportati. |
 | options | [`ISaveOptions`](/slides/python-net/it/aspose.slides.export/isaveoptions) | Opzioni di formato aggiuntive. |
 
@@ -90,7 +85,7 @@ def save(self, stream, format, options):
 
 | Eccezione | Descrizione |
 | :- | :- |
-| **RuntimeError(Proxy error(NotSupportedException))** | Se provi a salvare un file crittografato in <br/>            nessun formato Office 2007-2010 |
+| **RuntimeError(Proxy error(NotSupportedException))** | Se si tenta di salvare un file crittografato in <br/>            nessun formato Office 2007-2010 |
 
 
 ## save(self, fname, slides, format) {#str-listint-asposeslidesexportsaveformat}
@@ -102,10 +97,9 @@ def save(self, fname, slides, format):
     ...
 ```
 
-
 | Parametro | Tipo | Descrizione |
 | :- | :- | :- |
-| fname | **str** | Percorso del file creato. |
+| fname | **str** | Percorso al file creato. |
 | slides | **List[int]** | Array con le posizioni delle diapositive, a partire da 1. |
 | format | [`SaveFormat`](/slides/python-net/it/aspose.slides.export/saveformat) | Formato dei dati esportati. |
 
@@ -115,11 +109,11 @@ def save(self, fname, slides, format):
 | :- | :- |
 | **RuntimeError(Proxy error(ArgumentNullException))** | Quando il parametro stream o slides è None. |
 | **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Quando il parametro slides contiene numeri di pagina errati. |
-| **RuntimeError(Proxy error(InvalidOperationException))** | Quando viene utilizzato un SaveFormat non supportato, ad es. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+| **RuntimeError(Proxy error(InvalidOperationException))** | Quando viene utilizzato un SaveFormat non supportato, ad esempio PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
 
 ## save(self, stream, slides, format) {#iorawiobase-listint-asposeslidesexportsaveformat}
-Salva le diapositive specificate di una presentazione su un flusso nel formato specificato.
+Salva le diapositive specificate di una presentazione in uno stream nel formato specificato.
 
 
 ```python
@@ -127,10 +121,9 @@ def save(self, stream, slides, format):
     ...
 ```
 
-
 | Parametro | Tipo | Descrizione |
 | :- | :- | :- |
-| stream | **io.RawIOBase** | Flusso di output. |
+| stream | **io.RawIOBase** | Stream di output. |
 | slides | **List[int]** | Array con le posizioni delle diapositive, a partire da 1. |
 | format | [`SaveFormat`](/slides/python-net/it/aspose.slides.export/saveformat) | Formato dei dati esportati. |
 
@@ -140,7 +133,7 @@ def save(self, stream, slides, format):
 | :- | :- |
 | **RuntimeError(Proxy error(ArgumentNullException))** | Quando il parametro stream o slides è None. |
 | **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Quando il parametro slides contiene numeri di pagina errati. |
-| **RuntimeError(Proxy error(InvalidOperationException))** | Quando viene utilizzato un SaveFormat non supportato, ad es. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+| **RuntimeError(Proxy error(InvalidOperationException))** | Quando viene utilizzato un SaveFormat non supportato, ad esempio PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
 
 ## save(self, fname, slides, format, options) {#str-listint-asposeslidesexportsaveformat-asposeslidesexportisaveoptions}
@@ -152,10 +145,9 @@ def save(self, fname, slides, format, options):
     ...
 ```
 
-
 | Parametro | Tipo | Descrizione |
 | :- | :- | :- |
-| fname | **str** | Percorso del file creato. |
+| fname | **str** | Percorso al file creato. |
 | slides | **List[int]** | Array con le posizioni delle diapositive, a partire da 1. |
 | format | [`SaveFormat`](/slides/python-net/it/aspose.slides.export/saveformat) | Formato dei dati esportati. |
 | options | [`ISaveOptions`](/slides/python-net/it/aspose.slides.export/isaveoptions) | Opzioni di formato aggiuntive. |
@@ -166,11 +158,11 @@ def save(self, fname, slides, format, options):
 | :- | :- |
 | **RuntimeError(Proxy error(ArgumentNullException))** | Quando il parametro stream o slides è None. |
 | **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Quando il parametro slides contiene numeri di pagina errati. |
-| **RuntimeError(Proxy error(InvalidOperationException))** | Quando viene utilizzato un SaveFormat non supportato, ad es. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+| **RuntimeError(Proxy error(InvalidOperationException))** | Quando viene utilizzato un SaveFormat non supportato, ad esempio PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
 
 ## save(self, stream, slides, format, options) {#iorawiobase-listint-asposeslidesexportsaveformat-asposeslidesexportisaveoptions}
-Salva le diapositive specificate di una presentazione su un flusso nel formato specificato.
+Salva le diapositive specificate di una presentazione in uno stream nel formato specificato.
 
 
 ```python
@@ -178,10 +170,9 @@ def save(self, stream, slides, format, options):
     ...
 ```
 
-
 | Parametro | Tipo | Descrizione |
 | :- | :- | :- |
-| stream | **io.RawIOBase** | Flusso di output. |
+| stream | **io.RawIOBase** | Stream di output. |
 | slides | **List[int]** | Array con le posizioni delle diapositive, a partire da 1. |
 | format | [`SaveFormat`](/slides/python-net/it/aspose.slides.export/saveformat) | Formato dei dati esportati. |
 | options | [`ISaveOptions`](/slides/python-net/it/aspose.slides.export/isaveoptions) | Opzioni di formato aggiuntive. |
@@ -192,7 +183,7 @@ def save(self, stream, slides, format, options):
 | :- | :- |
 | **RuntimeError(Proxy error(ArgumentNullException))** | Quando il parametro stream o slides è None. |
 | **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Quando il parametro slides contiene numeri di pagina errati. |
-| **RuntimeError(Proxy error(InvalidOperationException))** | Quando viene utilizzato un SaveFormat non supportato, ad es. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+| **RuntimeError(Proxy error(InvalidOperationException))** | Quando viene utilizzato un SaveFormat non supportato, ad esempio PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
 
 

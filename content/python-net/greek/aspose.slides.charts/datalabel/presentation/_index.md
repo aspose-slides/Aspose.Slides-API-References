@@ -4,9 +4,9 @@ second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
 description: 
 type: docs
 url: /el/aspose.slides.charts/datalabel/presentation/
-weight: 200
+weight: 210
 ---
-## ιδιοκτησία παρουσίασης
+## ιδιότητα παρουσίασης
 ### Ορισμός:
 ```python
 @property

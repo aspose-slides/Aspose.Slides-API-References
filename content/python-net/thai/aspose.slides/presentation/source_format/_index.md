@@ -1,14 +1,14 @@
 ---
 title: source_format property
-second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Reference
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET อ้างอิง API
 description: 
 type: docs
 url: /th/aspose.slides/presentation/source_format/
-weight: 380
+weight: 390
 ---
-## คุณสมบัติ source_format
-ส่งคืนข้อมูลเกี่ยวกับว่าการนำเสนอถูกโหลดจากรูปแบบใด
-            อ่านอย่างเดียว [`SourceFormat`](/slides/python-net/th/aspose.slides/sourceformat).
+## source_format คุณสมบัติ
+ส่งคืนข้อมูลเกี่ยวกับรูปแบบที่การนำเสนอถูกโหลด.
+อ่านอย่างเดียว [`SourceFormat`](/slides/python-net/th/aspose.slides/sourceformat).
 
 ### คำนิยาม:
 ```python

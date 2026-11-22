@@ -4,7 +4,7 @@ second_title: Riferimento API Aspose.Slides per Python via .NET
 description: 
 type: docs
 url: /it/aspose.slides/itextframe/highlight_regex/
-weight: 10
+weight: 20
 ---
 ## highlight_regex(self, regex, highlight_color) {#str-asposeslidescolor}
 Evidenzia tutte le corrispondenze dell'espressione regolare con il colore specificato.
@@ -41,8 +41,8 @@ def highlight_regex(self, regex, highlight_color, options):
 
 
 ### Vedi anche
-* class [`ITextFrame`](/slides/python-net/it/aspose.slides/itextframe)
-* class [`ITextHighlightingOptions`](/slides/python-net/it/aspose.slides/itexthighlightingoptions)
-* class [`Color`](/slides/python-net/it/aspose.slides/color)
-* module [`aspose.slides`](/slides/python-net/it/aspose.slides)
-* library [`Aspose.Slides`](/slides/python-net)
+* classe [`ITextFrame`](/slides/python-net/it/aspose.slides/itextframe)
+* classe [`ITextHighlightingOptions`](/slides/python-net/it/aspose.slides/itexthighlightingoptions)
+* classe [`Color`](/slides/python-net/it/aspose.slides/color)
+* modulo [`aspose.slides`](/slides/python-net/it/aspose.slides)
+* libreria [`Aspose.Slides`](/slides/python-net)

@@ -1,10 +1,10 @@
 ---
 title: right property
-second_title: Aspose.Slides για Python μέσω .NET API Reference
+second_title: Aspose.Slides για Python μέσω .NET Αναφορά API
 description: 
 type: docs
 url: /el/aspose.slides.charts/idatalabel/right/
-weight: 200
+weight: 210
 ---
 ## right ιδιότητα
 ### Ορισμός:

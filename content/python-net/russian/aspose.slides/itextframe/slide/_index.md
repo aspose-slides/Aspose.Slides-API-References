@@ -1,10 +1,10 @@
 ---
 title: slide property
-second_title: Aspose.Slides for Python via .NET Справочник API
+second_title: Aspose.Slides для Python через .NET справочник API
 description: 
 type: docs
 url: /ru/aspose.slides/itextframe/slide/
-weight: 140
+weight: 150
 ---
 ## свойство slide
 ### Определение:
@@ -13,7 +13,6 @@ weight: 140
 def slide(self):
     ...
 ```
-
 
 ### См. также
 * класс [`ITextFrame`](/slides/python-net/ru/aspose.slides/itextframe)

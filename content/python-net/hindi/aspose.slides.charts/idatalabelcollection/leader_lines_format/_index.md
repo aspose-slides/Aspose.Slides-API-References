@@ -4,11 +4,11 @@ second_title: Aspose.Slides for Python via .NET API संदर्भ
 description: 
 type: docs
 url: /hi/aspose.slides.charts/idatalabelcollection/leader_lines_format/
-weight: 130
+weight: 140
 ---
 ## leader_lines_format प्रॉपर्टी
-डेटा लेबल्स के लीडर लाइन्स के स्वरूप का प्रतिनिधित्व करता है.
-             केवल पढ़ने योग्य [`IChartLinesFormat`](/slides/python-net/hi/aspose.slides.charts/ichartlinesformat).
+डेटा लेबल की लीडर लाइनों के स्वरूप को दर्शाता है.
+केवल-पढ़ने योग्य [`IChartLinesFormat`](/slides/python-net/hi/aspose.slides.charts/ichartlinesformat).
 
 ### परिभाषा:
 ```python
@@ -16,7 +16,6 @@ weight: 130
 def leader_lines_format(self):
     ...
 ```
-
 
 ### संबंधित देखें
 * क्लास [`IChartLinesFormat`](/slides/python-net/hi/aspose.slides.charts/ichartlinesformat)

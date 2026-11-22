@@ -4,10 +4,10 @@ second_title: Tham chiếu API Aspose.Slides cho Python thông qua .NET
 description: 
 type: docs
 url: /vi/aspose.slides/itextframe/hyperlink_queries/
-weight: 90
+weight: 100
 ---
-## hyperlink_queries Thuộc tính
-Cung cấp truy cập dễ dàng tới các siêu liên kết được chứa.
+## thuộc tính hyperlink_queries
+Cung cấp cách truy cập dễ dàng đến các liên kết siêu văn bản được chứa.
             Chỉ đọc [`IHyperlinkQueries`](/slides/python-net/vi/aspose.slides/ihyperlinkqueries).
 
 ### Định nghĩa:

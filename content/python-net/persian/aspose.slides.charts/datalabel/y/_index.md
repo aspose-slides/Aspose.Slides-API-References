@@ -4,11 +4,11 @@ second_title: Aspose.Slides برای Python از طریق .NET مرجع API
 description: 
 type: docs
 url: /fa/aspose.slides.charts/datalabel/y/
-weight: 280
+weight: 290
 ---
 ## y ویژگی
-مختصات y یک عنوان را به عنوان کسری از ارتفاع نمودار برمی‌گرداند یا تنظیم می‌کند.
-            خواندنی/نوشتنی **float**.
+مقدار y مختص عنوان را به صورت کسری از ارتفاع نمودار باز می‌گرداند یا تنظیم می‌کند.
+            قابل خواندن/قابل نوشتن **float**.
 
 ### تعریف:
 ```python

@@ -1,16 +1,16 @@
 ---
 title: marker property
-second_title: Aspose.Slides สำหรับ Python ผ่าน .NET อ้างอิง API
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Reference
 description: 
 type: docs
 url: /th/aspose.slides.charts/chartdatapoint/marker/
-weight: 180
+weight: 220
 ---
-## คุณสมบัติ marker
-ระบุตัวบ่งชี้ข้อมูล.
+## marker คุณสมบัติ
+Specifies a data marker.
             อ่านอย่างเดียว [`IMarker`](/slides/python-net/th/aspose.slides.charts/imarker).
 
-### คำนิยาม:
+### การกำหนด:
 ```python
 @property
 def marker(self):

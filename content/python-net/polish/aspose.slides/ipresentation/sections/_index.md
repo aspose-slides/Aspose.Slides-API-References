@@ -1,13 +1,13 @@
 ---
 title: sections property
-second_title: Aspose.Slides dla Pythona przez .NET – odniesienie API
+second_title: Aspose.Slides dla Pythona poprzez .NET API Reference
 description: 
 type: docs
 url: /pl/aspose.slides/ipresentation/sections/
-weight: 320
+weight: 330
 ---
 ## sections właściwość
-Zwraca listę wszystkich sekcji slajdów zdefiniowanych w prezentacji.
+Zwraca listę wszystkich sekcji slajdów, które są zdefiniowane w prezentacji.
             Tylko do odczytu [`ISectionCollection`](/slides/python-net/pl/aspose.slides/isectioncollection).
 
 ### Definicja:

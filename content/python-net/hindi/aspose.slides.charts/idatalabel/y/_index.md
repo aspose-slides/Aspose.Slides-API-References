@@ -1,10 +1,10 @@
 ---
 title: y property
-second_title: Aspose.Slides Python के लिए .NET API संदर्भ के माध्यम से
+second_title: Aspose.Slides के लिये Python के माध्यम से .NET API संदर्भ
 description: 
 type: docs
 url: /hi/aspose.slides.charts/idatalabel/y/
-weight: 270
+weight: 280
 ---
 ## y प्रॉपर्टी
 ### परिभाषा:
@@ -18,8 +18,7 @@ def y(self, value):
     ...
 ```
 
-
-### देखें
+### संबंधित देखें
 * क्लास [`IDataLabel`](/slides/python-net/hi/aspose.slides.charts/idatalabel)
 * मॉड्यूल [`aspose.slides.charts`](/slides/python-net/hi/aspose.slides.charts)
 * लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

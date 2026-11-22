@@ -1,16 +1,16 @@
 ---
 title: document_properties property
-second_title: Aspose.Slides a Python számára .NET-en keresztül API-referencia
+second_title: Aspose.Slides for Python a .NET API Referenciája
 description: 
 type: docs
 url: /hu/aspose.slides/presentation/document_properties/
-weight: 190
+weight: 200
 ---
 ## document_properties tulajdonság
 Visszaad egy DocumentProperties objektumot, amely szabványos és egyéni dokumentumtulajdonságokat tartalmaz.
-Csak olvasható [`IDocumentProperties`](/slides/python-net/hu/aspose.slides/idocumentproperties).
+            Csak olvasható [`IDocumentProperties`](/slides/python-net/hu/aspose.slides/idocumentproperties).
 
-### Meghatározás:
+### Definíció:
 ```python
 @property
 def document_properties(self):
@@ -22,4 +22,4 @@ def document_properties(self):
 * osztály [`IDocumentProperties`](/slides/python-net/hu/aspose.slides/idocumentproperties)
 * osztály [`Presentation`](/slides/python-net/hu/aspose.slides/presentation)
 * modul [`aspose.slides`](/slides/python-net/hu/aspose.slides)
-* könyvtár [`Aspose.Slides`](/slides/python-net)
+* library [`Aspose.Slides`](/slides/python-net)

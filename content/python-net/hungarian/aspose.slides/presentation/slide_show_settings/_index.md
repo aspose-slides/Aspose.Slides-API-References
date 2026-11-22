@@ -1,10 +1,10 @@
 ---
 title: slide_show_settings property
-second_title: Aspose.Slides a Python számára .NET API hivatkozás
+second_title: Aspose.Slides for Python via .NET API referencia
 description: 
 type: docs
 url: /hu/aspose.slides/presentation/slide_show_settings/
-weight: 350
+weight: 360
 ---
 ## slide_show_settings tulajdonság
 Visszaadja a diavetítés beállításait a prezentációhoz.

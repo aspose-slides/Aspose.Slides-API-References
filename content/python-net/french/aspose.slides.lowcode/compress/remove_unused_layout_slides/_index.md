@@ -4,7 +4,7 @@ second_title: Référence de l'API Aspose.Slides pour Python via .NET
 description: 
 type: docs
 url: /fr/aspose.slides.lowcode/compress/remove_unused_layout_slides/
-weight: 20
+weight: 40
 ---
 ## remove_unused_layout_slides(pres) {#presentation}
 Effectue la compression du [`Presentation`](/slides/python-net/fr/aspose.slides/presentation) en supprimant les diapositives de mise en page inutilisées.

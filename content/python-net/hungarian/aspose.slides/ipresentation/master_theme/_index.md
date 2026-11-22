@@ -1,16 +1,16 @@
 ---
 title: master_theme property
-second_title: Aspose.Slides for Python via .NET API Referencia
+second_title: Aspose.Slides a Pythonhoz a .NET API-n keresztül
 description: 
 type: docs
 url: /hu/aspose.slides/ipresentation/master_theme/
-weight: 270
+weight: 280
 ---
 ## master_theme tulajdonság
-Visszaadja a prezentáció master theme-ét.
+Visszaadja a bemutató mester témáját.
             Csak olvasható [`IMasterTheme`](/slides/python-net/hu/aspose.slides.theme/imastertheme).
 
-### Meghatározás:
+### Definíció:
 ```python
 @property
 def master_theme(self):

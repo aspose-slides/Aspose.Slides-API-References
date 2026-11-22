@@ -1,13 +1,13 @@
 ---
 title: related_legend_entry property
-second_title: Aspose.Slides para Python mediante la referencia de API .NET
+second_title: Referencia de API de Aspose.Slides para Python vía .NET
 description: 
 type: docs
 url: /es/aspose.slides.charts/chartdatapoint/related_legend_entry/
-weight: 190
+weight: 230
 ---
 ## related_legend_entry propiedad
-Propiedades de la entrada de leyenda correspondiente en caso de tipo de gráfico de la siguiente lista:
+Propiedades de la entrada de leyenda correspondiente en caso de tipo de gráfico de esta lista:
             ChartType.BarOfPie,
             ChartType.ExplodedPie,
             ChartType.ExplodedPie3D,

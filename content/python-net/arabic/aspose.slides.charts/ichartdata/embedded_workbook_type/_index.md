@@ -1,15 +1,15 @@
 ---
 title: embedded_workbook_type property
-second_title: مرجع API لـ Aspose.Slides للبرمجة بلغة Python عبر .NET
+second_title: Aspose.Slides للـ Python عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides.charts/ichartdata/embedded_workbook_type/
-weight: 100
+weight: 110
 ---
-## خاصية embedded_workbook_type
-يحصل على نوع دفتر العمل المضمن.
-            يعيد [`WorkbookType.NOT_DEFINED`](/slides/python-net/ar/aspose.slides.charts/workbooktype/NOT_DEFINED) إذا كان [`IChartData.data_source_type`](/slides/python-net/ar/aspose.slides.charts/ichartdata/data_source_type) هو [`ChartDataSourceType.EXTERNAL_WORKBOOK`](/slides/python-net/ar/aspose.slides.charts/chartdatasourcetype/EXTERNAL_WORKBOOK).
-            للقراءة فقط [`WorkbookType`](/slides/python-net/ar/aspose.slides.charts/workbooktype).
+## embedded_workbook_type خاصية
+يسترجع نوع دفتر العمل المضمّن.
+            يرجع [`WorkbookType.NOT_DEFINED`](/slides/python-net/ar/aspose.slides.charts/workbooktype/NOT_DEFINED) إذا كان [`IChartData.data_source_type`](/slides/python-net/ar/aspose.slides.charts/ichartdata/data_source_type) هو [`ChartDataSourceType.EXTERNAL_WORKBOOK`](/slides/python-net/ar/aspose.slides.charts/chartdatasourcetype/EXTERNAL_WORKBOOK).
+            قراءة فقط [`WorkbookType`](/slides/python-net/ar/aspose.slides.charts/workbooktype).
 
 ### التعريف:
 ```python

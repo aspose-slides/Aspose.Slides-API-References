@@ -4,10 +4,10 @@ second_title: Aspose.Slides for Python via .NET API 레퍼런스
 description: 
 type: docs
 url: /ko/aspose.slides/presentation/slide_size/
-weight: 360
+weight: 370
 ---
 ## slide_size 속성
-슬라이드 크기 개체를 반환합니다.
+슬라이드 크기 객체를 반환합니다.
             읽기 전용 [`ISlideSize`](/slides/python-net/ko/aspose.slides/islidesize).
 
 ### 정의:

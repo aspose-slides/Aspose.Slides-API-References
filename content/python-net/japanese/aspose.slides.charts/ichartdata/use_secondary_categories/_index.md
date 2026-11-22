@@ -4,13 +4,12 @@ second_title: Aspose.Slides for Python via .NET API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides.charts/ichartdata/use_secondary_categories/
-weight: 150
+weight: 160
 ---
 ## use_secondary_categories プロパティ
-false の場合、[`IChartData.secondary_categories`](/slides/python-net/ja/aspose.slides.charts/ichartdata/secondary_categories) プロパティは None を返し、データ
-            [`IChartData.categories`](/slides/python-net/ja/aspose.slides.charts/ichartdata/categories) プロパティのデータは一次および二次シリーズの両方に使用されます。
-true の場合、[`IChartData.secondary_categories`](/slides/python-net/ja/aspose.slides.charts/ichartdata/secondary_categories) プロパティのデータは二次シリーズに使用され、[`IChartData.categories`](/slides/python-net/ja/aspose.slides.charts/ichartdata/categories) プロパティのデータは一次シリーズに使用されます。
-            読み取り/書き込み **bool**.
+false の場合、[`IChartData.secondary_categories`](/slides/python-net/ja/aspose.slides.charts/ichartdata/secondary_categories) プロパティは None を返し、[`IChartData.categories`](/slides/python-net/ja/aspose.slides.charts/ichartdata/categories) プロパティのデータは一次系列と二次系列の両方に使用されます。
+true の場合、[`IChartData.secondary_categories`](/slides/python-net/ja/aspose.slides.charts/ichartdata/secondary_categories) プロパティのデータは二次系列に、[`IChartData.categories`](/slides/python-net/ja/aspose.slides.charts/ichartdata/categories) プロパティのデータは一次系列に使用されます。
+読み取り/書き込み **bool**.
 
 ### 定義:
 ```python

@@ -1,15 +1,15 @@
 ---
 title: value property
-second_title: Aspose.Slides pro Python prostřednictvím .NET referenční příručka API
+second_title: Aspose.Slides pro Python prostřednictvím .NET referenční příručky API
 description: 
 type: docs
 url: /cs/aspose.slides.charts/chartcategory/value/
-weight: 60
+weight: 70
 ---
-## vlastnost value
-If UseCell is true then this property represents AsCell.Value property.
-            If UseCell is false then this property represents AsLiteral property.
-            Read/write **libovolné**.
+## value vlastnost
+            Pokud je UseCell true, pak tato vlastnost představuje AsCell.Value vlastnost.
+            Pokud je UseCell false, pak tato vlastnost představuje AsLiteral vlastnost.
+            Číst/Zapisovat **jakýkoli**.
 
 ### Definice:
 ```python

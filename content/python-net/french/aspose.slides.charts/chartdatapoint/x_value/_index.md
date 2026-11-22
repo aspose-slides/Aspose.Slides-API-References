@@ -1,10 +1,10 @@
 ---
 title: x_value property
-second_title: Référence API Aspose.Slides pour Python via .NET
+second_title: Référence de l'API Aspose.Slides pour Python via .NET
 description: 
 type: docs
 url: /fr/aspose.slides.charts/chartdatapoint/x_value/
-weight: 230
+weight: 270
 ---
 ## x_value propriété
 XValue.

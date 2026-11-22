@@ -1,19 +1,19 @@
 ---
 title: width property
-second_title: Aspose.Slides cho Python qua .NET Tham khảo API
+second_title: Aspose.Slides cho Python qua .NET Tham chiếu API
 description: 
 type: docs
 url: /vi/aspose.slides/videoframe/width/
-weight: 640
+weight: 650
 ---
-## width thuộc tính
-Lấy hoặc thiết lập độ rộng của hình dạng, đo bằng điểm.
-Đọc/ghi **float**.
+## thuộc tính width
+Lấy hoặc đặt chiều rộng của shape, đo bằng points.
+            Đọc/ghi **float**.
 
 ### Ghi chú
 
 Giá trị trả về luôn được xác định và không bao giờ là **float**.
-Giá trị được gán cũng phải được xác định; chỉ gán **float** cho các thuộc tính của một thể hiện `RawFrame`.
+            Giá trị được gán cũng phải được xác định; chỉ gán **float** cho các thuộc tính của một thực thể `RawFrame`.
 
 ### Định nghĩa:
 ```python

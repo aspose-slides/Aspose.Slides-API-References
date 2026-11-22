@@ -1,29 +1,30 @@
 ---
 title: IChartCategory class
-second_title: Aspose.Slides for Python via .NET API Referencia
+second_title: Aspose.Slides for Python via .NET API referencia
 description: 
 type: docs
 url: /hu/aspose.slides.charts/ichartcategory/
 ---
 ## IChartCategory osztály
 
-Represents chart categories.
+Képviseli a diagramkategóriákat.
 
-The IChartCategory type exposes the following members:
+Az IChartCategory típus a következő tagokat teszi elérhetővé:
 
 ## Tulajdonságok
 
 | Tulajdonság | Leírás |
 | :- | :- |
-| [`use_cell`](/slides/python-net/hu/aspose.slides.charts/ichartcategory/use_cell/) | Ha igaz, akkor az AsCell property aktuális. Más szóval, a munkalap a <br/>            kategória tárolására szolgál (ez az eset több szintű kategóriát támogat).<br/>            Ha hamis, akkor az AsLiteral property aktuális. Más szóval, a munkalap NEM használatos <br/>            a kategória tárolására (és ez az eset nem támogat több szintű kategóriákat).<br/>            Csak olvasható **bool**. |
-| [`as_cell`](/slides/python-net/hu/aspose.slides.charts/ichartcategory/as_cell/) | Visszaadja vagy beállítja az IChartDataCell objektumot.<br/>            Ha a kategória több szintű, akkor a "0" szinthez használt IChartDataCell objektum.<br/>            Olvasás/írás [`IChartDataCell`](/slides/python-net/hu/aspose.slides.charts/ichartdatacell). |
-| [`as_literal`](/slides/python-net/hu/aspose.slides.charts/ichartcategory/as_literal/) | Visszaadja vagy beállítja az AsLiteral értéket, ha a UseCell hamis.<br/>            Olvasás/írás **any**. |
-| [`value`](/slides/python-net/hu/aspose.slides.charts/ichartcategory/value/) | Ha a UseCell igaz, akkor ez a property az AsCell.Value property-t jelenti.<br/>            Ha a UseCell hamis, akkor ez a property az AsLiteral property-t jelenti.<br/>            Olvasás/írás **any**. |
-| [`grouping_levels`](/slides/python-net/hu/aspose.slides.charts/ichartcategory/grouping_levels/) | A diagramkategória csoportosítási szintek értékeinek kezelt tárolója.<br/>            Többszintű kategória egynél több csoportosítási szintet tartalmaz.<br/>            A csoportosítási szintek indexelése nulláról indul.<br/>            Csak olvasható [`IChartCategoryLevelsManager`](/slides/python-net/hu/aspose.slides.charts/ichartcategorylevelsmanager). |
+| [`use_cell`](/slides/python-net/hu/aspose.slides.charts/ichartcategory/use_cell/) | Ha igaz, akkor az AsCell property aktuális. Más szóval, a worksheet-et használják a <br/>            storing category (this case supports a multi-level category).<br/>            Ha hamis, akkor az AsLiteral property aktuális. Más szóval, a worksheet NEM használják <br/>            for storing category (and this case doesn't support a multi-level categories).<br/>            Csak olvasható **bool**. |
+| [`as_cell`](/slides/python-net/hu/aspose.slides.charts/ichartcategory/as_cell/) | Visszaadja vagy beállítja az IChartDataCell object.<br/>            Ha a category multi-level, akkor a \"0\" szinthez használt IChartDataCell object.<br/>            Olvasás/írás [`IChartDataCell`](/slides/python-net/hu/aspose.slides.charts/ichartdatacell). |
+| [`as_literal`](/slides/python-net/hu/aspose.slides.charts/ichartcategory/as_literal/) | Visszaadja vagy beállítja az AsLiteral, ha UseCell hamis.<br/>            Olvasás/írás **any**. |
+| [`value`](/slides/python-net/hu/aspose.slides.charts/ichartcategory/value/) | Ha UseCell igaz, akkor ez a property az AsCell.Value property-t jelenti.<br/>            Ha UseCell hamis, akkor ez a property az AsLiteral property-t jelenti.<br/>            Olvasás/írás **any**. |
+| [`cached_value`](/slides/python-net/hu/aspose.slides.charts/ichartcategory/cached_value/) | Lekéri a diagramkategória gyorsítótárazott értékét.<br/>            Csak olvasható [`ICachedChartValue`](/slides/python-net/hu/aspose.slides.charts/icachedchartvalue). |
+| [`grouping_levels`](/slides/python-net/hu/aspose.slides.charts/ichartcategory/grouping_levels/) | Kezelt tároló a diagramkategória csoportosítási szintjeinek értékeihez.<br/>            Többszintű kategória több, mint egy csoportosítási szintet tartalmaz.<br/>            A csoportosítási szintek indexelése nullától indul.<br/>            Csak olvasható [`IChartCategoryLevelsManager`](/slides/python-net/hu/aspose.slides.charts/ichartcategorylevelsmanager). |
 
 ## Metódusok
 
-| Metódus | Leírás |
+| Metóda | Leírás |
 | :- | :- |
 | [`remove(self)`](/slides/python-net/hu/aspose.slides.charts/ichartcategory/remove/#) | Eltávolítja a kategóriát a diagramról. |
 

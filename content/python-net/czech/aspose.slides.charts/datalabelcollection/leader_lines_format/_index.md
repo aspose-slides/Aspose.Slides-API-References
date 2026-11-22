@@ -1,14 +1,14 @@
 ---
 title: leader_lines_format property
-second_title: Aspose.Slides pro Python prostřednictvím .NET API Reference
+second_title: Aspose.Slides pro Python přes .NET API Reference
 description: 
 type: docs
 url: /cs/aspose.slides.charts/datalabelcollection/leader_lines_format/
-weight: 130
+weight: 140
 ---
 ## leader_lines_format vlastnost
-Reprezentuje formát vodicích čar datových štítků.
-             Pouze ke čtení [`IChartLinesFormat`](/slides/python-net/cs/aspose.slides.charts/ichartlinesformat).
+Representuje formát vodících čar popisků dat.
+             Pouze pro čtení [`IChartLinesFormat`](/slides/python-net/cs/aspose.slides.charts/ichartlinesformat).
 
 ### Definice:
 ```python

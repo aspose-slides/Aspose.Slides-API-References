@@ -1,13 +1,13 @@
 ---
 title: remove_unused_layout_slides method
-second_title: Aspose.Slides لـ Python عبر .NET مرجع API
+second_title: مرجع واجهة برمجة التطبيقات Aspose.Slides للبايثون عبر .NET
 description: 
 type: docs
 url: /ar/aspose.slides.lowcode/compress/remove_unused_layout_slides/
-weight: 20
+weight: 40
 ---
 ## remove_unused_layout_slides(pres) {#presentation}
-يقوم بضغط [`Presentation`](/slides/python-net/ar/aspose.slides/presentation) عن طريق إزالة الشرائح التخطيطية غير المستخدمة.
+يقوم بضغط [`Presentation`](/slides/python-net/ar/aspose.slides/presentation) عن طريق إزالة شرائح التخطيط غير المستخدمة.
 
 ```python
 @staticmethod
@@ -15,11 +15,13 @@ def remove_unused_layout_slides(pres):
     ...
 ```
 
-| المعلمة | النوع | الوصف |
+| المعامل | النوع | الوصف |
 | :- | :- | :- |
 | pres | [`Presentation`](/slides/python-net/ar/aspose.slides/presentation) | مثيل العرض التقديمي |
 
-### انظر أيضًا
+
+
+### انظر أيضا
 * فئة [`Compress`](/slides/python-net/ar/aspose.slides.lowcode/compress)
 * فئة [`Presentation`](/slides/python-net/ar/aspose.slides/presentation)
 * وحدة [`aspose.slides.lowcode`](/slides/python-net/ar/aspose.slides.lowcode)

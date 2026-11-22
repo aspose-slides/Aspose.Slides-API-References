@@ -1,12 +1,12 @@
 ---
 title: slide property
-second_title: Aspose.Slides Python के लिए .NET के माध्यम से API रेफ़रेंस
+second_title: Aspose.Slides Python के लिए .NET API संदर्भ
 description: 
 type: docs
 url: /hi/aspose.slides/itextframe/slide/
-weight: 140
+weight: 150
 ---
-## slide प्रॉपर्टी
+## स्लाइड प्रॉपर्टी
 ### परिभाषा:
 ```python
 @property
@@ -15,7 +15,7 @@ def slide(self):
 ```
 
 
-### संबंधित देखें
+### और देखें
 * क्लास [`ITextFrame`](/slides/python-net/hi/aspose.slides/itextframe)
 * मॉड्यूल [`aspose.slides`](/slides/python-net/hi/aspose.slides)
 * लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

@@ -1,13 +1,13 @@
 ---
 title: slide property
-second_title: Aspose.Slides สำหรับ Python ผ่าน .NET เอกสารอ้างอิง API
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Reference
 description: 
 type: docs
 url: /th/aspose.slides/itextframe/slide/
-weight: 140
+weight: 150
 ---
-## คุณสมบัติสไลด์
-### คำจำกัดความ:
+## คุณสมบัติของสไลด์
+### คำนิยาม:
 ```python
 @property
 def slide(self):

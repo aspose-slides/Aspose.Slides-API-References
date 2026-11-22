@@ -1,14 +1,14 @@
 ---
 title: custom_data property
-second_title: Aspose.Slides pro Python přes .NET API Reference
+second_title: Aspose.Slides pro Python prostřednictvím .NET - referenční příručka API
 description: 
 type: docs
 url: /cs/aspose.slides/ipresentation/custom_data/
-weight: 150
+weight: 160
 ---
-## custom_data vlastnost
+## vlastnost custom_data
 Vrací vlastní data prezentace.
-            Jen ke čtení [`ICustomData`](/slides/python-net/cs/aspose.slides/icustomdata).
+            Pouze ke čtení [`ICustomData`](/slides/python-net/cs/aspose.slides/icustomdata).
 
 ### Definice:
 ```python
@@ -16,6 +16,7 @@ Vrací vlastní data prezentace.
 def custom_data(self):
     ...
 ```
+
 
 ### Viz také
 * třída [`ICustomData`](/slides/python-net/cs/aspose.slides/icustomdata)

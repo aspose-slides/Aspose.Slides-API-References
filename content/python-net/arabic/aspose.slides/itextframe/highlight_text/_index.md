@@ -1,10 +1,10 @@
 ---
 title: highlight_text method
-second_title: Aspose.Slides لـ Python عبر .NET مرجع API
+second_title: Aspose.Slides للغة Python عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides/itextframe/highlight_text/
-weight: 20
+weight: 30
 ---
 ## highlight_text(self, text, highlight_color) {#str-asposeslidescolor}
 يُبرز جميع التطابقات للنص العيني باللون المحدد.
@@ -14,10 +14,10 @@ def highlight_text(self, text, highlight_color):
     ...
 ```
 
-| Parameter | Type | Description |
+| المعامل | النوع | الوصف |
 | :- | :- | :- |
-| text | **str** | النص لتسليط الضوء عليه. |
-| highlight_color | [`Color`](/slides/python-net/ar/aspose.slides/color) | اللون لتسليط الضوء على النص. |
+| text | **str** | النص المراد تمييزه. |
+| highlight_color | [`Color`](/slides/python-net/ar/aspose.slides/color) | اللون المستخدم لتمييز النص. |
 
 ## highlight_text(self, text, highlight_color, options) {#str-asposeslidescolor-itexthighlightingoptions}
 يُبرز جميع التطابقات للنص العيني باللون المحدد.
@@ -27,10 +27,10 @@ def highlight_text(self, text, highlight_color, options):
     ...
 ```
 
-| Parameter | Type | Description |
+| المعامل | النوع | الوصف |
 | :- | :- | :- |
-| text | **str** | النص لتسليط الضوء عليه. |
-| highlight_color | [`Color`](/slides/python-net/ar/aspose.slides/color) | اللون لتسليط الضوء على النص. |
+| text | **str** | النص المراد تمييزه. |
+| highlight_color | [`Color`](/slides/python-net/ar/aspose.slides/color) | اللون المستخدم لتمييز النص. |
 | options | [`ITextHighlightingOptions`](/slides/python-net/ar/aspose.slides/itexthighlightingoptions) | خيارات التمييز. |
 
 ## highlight_text(self, text, highlight_color, options, callback) {#str-asposeslidescolor-itextsearchoptions-ifindresultcallback}
@@ -41,18 +41,18 @@ def highlight_text(self, text, highlight_color, options, callback):
     ...
 ```
 
-| Parameter | Type | Description |
+| المعامل | النوع | الوصف |
 | :- | :- | :- |
-| text | **str** | النص لتسليط الضوء عليه. |
-| highlight_color | [`Color`](/slides/python-net/ar/aspose.slides/color) | اللون لتسليط الضوء على النص. |
-| options | [`ITextSearchOptions`](/slides/python-net/ar/aspose.slides/itextsearchoptions) | خيارات البحث النصي [`ITextSearchOptions`](/slides/python-net/ar/aspose.slides/itextsearchoptions). |
-| callback | [`IFindResultCallback`](/slides/python-net/ar/aspose.slides/ifindresultcallback) | كائن رد النداء لتلقي نتائج البحث [`IFindResultCallback`](/slides/python-net/ar/aspose.slides/ifindresultcallback). |
+| text | **str** | النص المراد تمييزه. |
+| highlight_color | [`Color`](/slides/python-net/ar/aspose.slides/color) | اللون المستخدم لتمييز النص. |
+| options | [`ITextSearchOptions`](/slides/python-net/ar/aspose.slides/itextsearchoptions) | خيارات البحث عن النص [`ITextSearchOptions`](/slides/python-net/ar/aspose.slides/itextsearchoptions). |
+| callback | [`IFindResultCallback`](/slides/python-net/ar/aspose.slides/ifindresultcallback) | كائن الاستدعاء لتلقي نتائج البحث [`IFindResultCallback`](/slides/python-net/ar/aspose.slides/ifindresultcallback). |
 
 ### انظر أيضًا
-* الصنف [`IFindResultCallback`](/slides/python-net/ar/aspose.slides/ifindresultcallback)
-* الصنف [`ITextFrame`](/slides/python-net/ar/aspose.slides/itextframe)
-* الصنف [`ITextHighlightingOptions`](/slides/python-net/ar/aspose.slides/itexthighlightingoptions)
-* الصنف [`ITextSearchOptions`](/slides/python-net/ar/aspose.slides/itextsearchoptions)
-* الصنف [`Color`](/slides/python-net/ar/aspose.slides/color)
-* الوحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
-* المكتبة [`Aspose.Slides`](/slides/python-net)
+* فئة [`IFindResultCallback`](/slides/python-net/ar/aspose.slides/ifindresultcallback)
+* فئة [`ITextFrame`](/slides/python-net/ar/aspose.slides/itextframe)
+* فئة [`ITextHighlightingOptions`](/slides/python-net/ar/aspose.slides/itexthighlightingoptions)
+* فئة [`ITextSearchOptions`](/slides/python-net/ar/aspose.slides/itextsearchoptions)
+* فئة [`Color`](/slides/python-net/ar/aspose.slides/color)
+* وحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
+* مكتبة [`Aspose.Slides`](/slides/python-net)

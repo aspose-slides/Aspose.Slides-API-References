@@ -4,13 +4,13 @@ second_title: Aspose.Slides for Python via .NET API 参考
 description: 
 type: docs
 url: /zh/aspose.slides/presentation/sensitivity_labels/
-weight: 340
+weight: 350
 ---
 ## sensitivity_labels 属性
 Returns the collection of sensitivity labels applied to the presentation document.
             只读 [`ISensitivityLabelCollection`](/slides/python-net/zh/aspose.slides/isensitivitylabelcollection).
 
-### 定义：
+### 定义:
 ```python
 @property
 def sensitivity_labels(self):

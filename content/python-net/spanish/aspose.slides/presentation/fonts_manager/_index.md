@@ -1,13 +1,13 @@
 ---
 title: fonts_manager property
-second_title: Referencia de API de Aspose.Slides para Python mediante .NET
+second_title: Referencia de API de Aspose.Slides para Python vía .NET
 description: 
 type: docs
 url: /es/aspose.slides/presentation/fonts_manager/
-weight: 210
+weight: 220
 ---
 ## fonts_manager propiedad
-Devuelve el administrador de fuentes.
+Devuelve el gestor de fuentes.
             Solo lectura [`IFontsManager`](/slides/python-net/es/aspose.slides/ifontsmanager).
 
 ### Definición:
@@ -17,8 +17,9 @@ def fonts_manager(self):
     ...
 ```
 
+
 ### Ver también
 * clase [`IFontsManager`](/slides/python-net/es/aspose.slides/ifontsmanager)
 * clase [`Presentation`](/slides/python-net/es/aspose.slides/presentation)
 * módulo [`aspose.slides`](/slides/python-net/es/aspose.slides)
-* library [`Aspose.Slides`](/slides/python-net)
+* biblioteca [`Aspose.Slides`](/slides/python-net)

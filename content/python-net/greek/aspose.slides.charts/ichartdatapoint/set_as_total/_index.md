@@ -1,10 +1,10 @@
 ---
 title: set_as_total property
-second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
+second_title: Aspose.Slides για Python μέσω .NET Αναφορά API
 description: 
 type: docs
 url: /el/aspose.slides.charts/ichartdatapoint/set_as_total/
-weight: 200
+weight: 240
 ---
 ## set_as_total ιδιότητα
 Ορίζει το σημείο δεδομένων ως σύνολο. Εφαρμόζεται μόνο για τύπο σειράς Waterfall.
@@ -19,7 +19,6 @@ def set_as_total(self):
 def set_as_total(self, value):
     ...
 ```
-
 
 ### Δείτε επίσης
 * κλάση [`IChartDataPoint`](/slides/python-net/el/aspose.slides.charts/ichartdatapoint)

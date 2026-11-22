@@ -1,13 +1,13 @@
 ---
 title: highlight_text method
-second_title: Aspose.Slides a Python számára a .NET API hivatkozása
+second_title: Aspose.Slides a Python számára .NET API hivatkozás
 description: 
 type: docs
 url: /hu/aspose.slides/textframe/highlight_text/
-weight: 20
+weight: 30
 ---
 ## highlight_text(self, text, highlight_color) {#str-asposeslidescolor}
-Kiemeli a minta szöveg összes egyezését a megadott színnel.
+A minta szöveg összes előfordulását kiemeli a megadott színnel.
 
 ```python
 def highlight_text(self, text, highlight_color):
@@ -16,11 +16,11 @@ def highlight_text(self, text, highlight_color):
 
 | Paraméter | Típus | Leírás |
 | :- | :- | :- |
-| text | **str** | Text sample to highlight. |
-| highlight_color | [`Color`](/slides/python-net/hu/aspose.slides/color) | The color to highlight the text. |
+| text | **str** | Kiemelendő szövegminta. |
+| highlight_color | [`Color`](/slides/python-net/hu/aspose.slides/color) | A szöveg kiemeléséhez használt szín. |
 
 ## highlight_text(self, text, highlight_color, options) {#str-asposeslidescolor-itexthighlightingoptions}
-Kiemeli a minta szöveg összes egyezését a megadott színnel.
+A minta szöveg összes előfordulását kiemeli a megadott színnel.
 
 ```python
 def highlight_text(self, text, highlight_color, options):
@@ -29,12 +29,12 @@ def highlight_text(self, text, highlight_color, options):
 
 | Paraméter | Típus | Leírás |
 | :- | :- | :- |
-| text | **str** | The text to highlight. |
-| highlight_color | [`Color`](/slides/python-net/hu/aspose.slides/color) | The color to highlight the text. |
-| options | [`ITextHighlightingOptions`](/slides/python-net/hu/aspose.slides/itexthighlightingoptions) | Highlighting options. |
+| text | **str** | A kiemelendő szöveg. |
+| highlight_color | [`Color`](/slides/python-net/hu/aspose.slides/color) | A szöveg kiemeléséhez használt szín. |
+| options | [`ITextHighlightingOptions`](/slides/python-net/hu/aspose.slides/itexthighlightingoptions) | Kiemelési beállítások. |
 
 ## highlight_text(self, text, highlight_color, options, callback) {#str-asposeslidescolor-itextsearchoptions-ifindresultcallback}
-Kiemeli a minta szöveg összes egyezését a megadott színnel.
+A minta szöveg összes előfordulását kiemeli a megadott színnel.
 
 ```python
 def highlight_text(self, text, highlight_color, options, callback):
@@ -43,10 +43,10 @@ def highlight_text(self, text, highlight_color, options, callback):
 
 | Paraméter | Típus | Leírás |
 | :- | :- | :- |
-| text | **str** | The text to highlight. |
-| highlight_color | [`Color`](/slides/python-net/hu/aspose.slides/color) | The color to highlight the text. |
-| options | [`ITextSearchOptions`](/slides/python-net/hu/aspose.slides/itextsearchoptions) | Text search options [`ITextSearchOptions`](/slides/python-net/hu/aspose.slides/itextsearchoptions). |
-| callback | [`IFindResultCallback`](/slides/python-net/hu/aspose.slides/ifindresultcallback) | The callback object for receiving search results [`IFindResultCallback`](/slides/python-net/hu/aspose.slides/ifindresultcallback). |
+| text | **str** | A kiemelendő szöveg. |
+| highlight_color | [`Color`](/slides/python-net/hu/aspose.slides/color) | A szöveg kiemeléséhez használt szín. |
+| options | [`ITextSearchOptions`](/slides/python-net/hu/aspose.slides/itextsearchoptions) | Szövegkeresési beállítások [`ITextSearchOptions`](/slides/python-net/hu/aspose.slides/itextsearchoptions). |
+| callback | [`IFindResultCallback`](/slides/python-net/hu/aspose.slides/ifindresultcallback) | A visszahívási objektum a keresési eredmények fogadásához [`IFindResultCallback`](/slides/python-net/hu/aspose.slides/ifindresultcallback). |
 
 ### Lásd még
 * osztály [`IFindResultCallback`](/slides/python-net/hu/aspose.slides/ifindresultcallback)

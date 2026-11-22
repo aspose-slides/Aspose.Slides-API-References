@@ -1,13 +1,13 @@
 ---
 title: marker property
-second_title: Aspose.Slides لـ Python عبر .NET مرجع API
+second_title: Aspose.Slides للبايثون عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides.charts/chartdatapoint/marker/
-weight: 180
+weight: 220
 ---
 ## خاصية العلامة
-يحدد علامة بيانات.
+يقوم بتحديد علامة البيانات.
             قراءة فقط [`IMarker`](/slides/python-net/ar/aspose.slides.charts/imarker).
 
 ### التعريف:

@@ -1,13 +1,13 @@
 ---
 title: label property
-second_title: Aspose.Slides for Python via .NET API 참조
+second_title: Aspose.Slides for Python via .NET API 레퍼런스
 description: 
 type: docs
 url: /ko/aspose.slides.charts/chartdatapoint/label/
-weight: 170
+weight: 210
 ---
 ## 레이블 속성
-레이블.
+라벨.
             읽기 전용 [`IDataLabel`](/slides/python-net/ko/aspose.slides.charts/idatalabel).
 
 ### 정의:
@@ -18,7 +18,7 @@ def label(self):
 ```
 
 
-### 관련 항목
+### 참조
 * 클래스 [`ChartDataPoint`](/slides/python-net/ko/aspose.slides.charts/chartdatapoint)
 * 클래스 [`IDataLabel`](/slides/python-net/ko/aspose.slides.charts/idatalabel)
 * 모듈 [`aspose.slides.charts`](/slides/python-net/ko/aspose.slides.charts)

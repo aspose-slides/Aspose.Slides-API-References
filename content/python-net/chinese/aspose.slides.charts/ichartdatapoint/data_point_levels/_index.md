@@ -4,11 +4,10 @@ second_title: Aspose.Slides for Python via .NET API 参考
 description: 
 type: docs
 url: /zh/aspose.slides.charts/ichartdatapoint/data_point_levels/
-weight: 100
+weight: 140
 ---
 ## data_point_levels 属性
-返回 数据点级别 的容器。适用于 Treeamp 和 Sunburst 系列。
-            数据点级别 的索引是从零开始的。
+返回数据点级别的容器。适用于 Treeamp 和 Sunburst 系列。数据点级别的索引从零开始。
 
 ### 定义:
 ```python
@@ -16,7 +15,6 @@ weight: 100
 def data_point_levels(self):
     ...
 ```
-
 
 ### 另请参阅
 * 类 [`IChartDataPoint`](/slides/python-net/zh/aspose.slides.charts/ichartdatapoint)

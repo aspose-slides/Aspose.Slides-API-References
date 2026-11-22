@@ -4,10 +4,10 @@ second_title: Aspose.Slides pro Python přes .NET API Reference
 description: 
 type: docs
 url: /cs/aspose.slides/presentation/view_properties/
-weight: 410
+weight: 420
 ---
 ## view_properties vlastnost
-Získá vlastnosti zobrazení prezentace.
+Gets presentation wide view properties.
             Pouze pro čtení [`IViewProperties`](/slides/python-net/cs/aspose.slides/iviewproperties).
 
 ### Definice:

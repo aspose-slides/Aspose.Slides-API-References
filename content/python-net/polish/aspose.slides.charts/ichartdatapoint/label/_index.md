@@ -1,14 +1,14 @@
 ---
 title: label property
-second_title: Aspose.Slides dla Pythona przez .NET API
+second_title: Aspose.Slides dla Pythona przez .NET – dokumentacja API
 description: 
 type: docs
 url: /pl/aspose.slides.charts/ichartdatapoint/label/
-weight: 170
+weight: 210
 ---
 ## label właściwość
 Reprezentuje etykietę punktu danych wykresu.
-Tylko do odczytu [`IDataLabel`](/slides/python-net/pl/aspose.slides.charts/idatalabel).
+            Tylko do odczytu [`IDataLabel`](/slides/python-net/pl/aspose.slides.charts/idatalabel).
 
 ### Definicja:
 ```python

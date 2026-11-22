@@ -1,13 +1,13 @@
 ---
 title: digital_signatures property
-second_title: Aspose.Slides for Python के लिए .NET API संदर्भ
+second_title: Aspose.Slides for Python via .NET API संदर्भ
 description: 
 type: docs
 url: /hi/aspose.slides/ipresentation/digital_signatures/
-weight: 170
+weight: 180
 ---
-## digital_signatures प्रॉपर्टी
-प्रेज़ेंटेशन पर हस्ताक्षर करने के लिए उपयोग किए गए हस्ताक्षरों का संग्रह लौटाता है।
+## digital_signatures गुण
+प्रेजेंटेशन पर हस्ताक्षर करने के लिए उपयोग किए गए हस्ताक्षरों का संग्रह लौटाता है.
             केवल-पढ़ने योग्य [`IDigitalSignatureCollection`](/slides/python-net/hi/aspose.slides/idigitalsignaturecollection).
 
 ### परिभाषा:

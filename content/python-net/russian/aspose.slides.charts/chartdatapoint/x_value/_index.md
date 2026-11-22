@@ -4,7 +4,7 @@ second_title: Aspose.Slides для Python через .NET справочник A
 description: 
 type: docs
 url: /ru/aspose.slides.charts/chartdatapoint/x_value/
-weight: 230
+weight: 270
 ---
 ## x_value свойство
 XValue.

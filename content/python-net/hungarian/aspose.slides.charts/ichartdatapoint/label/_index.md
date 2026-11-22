@@ -1,13 +1,13 @@
 ---
 title: label property
-second_title: Aspose.Slides Pythonhoz .NET API Referencia
+second_title: Aspose.Slides Pythonhoz .NET API hivatkozás
 description: 
 type: docs
 url: /hu/aspose.slides.charts/ichartdatapoint/label/
-weight: 170
+weight: 210
 ---
-## címke tulajdonság
-A diagram adatpont címkéjét képviseli.
+## label tulajdonság
+Képviseli a diagram adatpontjának címkéjét.
             Csak olvasható [`IDataLabel`](/slides/python-net/hu/aspose.slides.charts/idatalabel).
 
 ### Definíció:

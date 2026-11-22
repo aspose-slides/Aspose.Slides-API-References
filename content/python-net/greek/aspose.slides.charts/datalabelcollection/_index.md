@@ -1,13 +1,13 @@
 ---
 title: DataLabelCollection class
-second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
+second_title: Aspose.Slides για Python μέσω .NET Αναφορά API
 description: 
 type: docs
 url: /el/aspose.slides.charts/datalabelcollection/
 ---
 ## DataLabelCollection κλάση
 
-Αναπαριστά ετικέτες σειράς.
+Αντιπροσωπεύει τις ετικέτες μιας σειράς.
 
 Ο τύπος DataLabelCollection εκθέτει τα ακόλουθα μέλη:
 
@@ -15,17 +15,18 @@ url: /el/aspose.slides.charts/datalabelcollection/
 
 | Ιδιότητα | Περιγραφή |
 | :- | :- |
-| [`chart`](/slides/python-net/el/aspose.slides.charts/datalabelcollection/chart/) | Επιστρέφει το γονικό διάγραμμα.<br/>            Μόνο ανάγνωση [`IChart`](/slides/python-net/el/aspose.slides.charts/ichart). |
-| [`is_visible`](/slides/python-net/el/aspose.slides.charts/datalabelcollection/is_visible/) | Η τιμή false σημαίνει ότι η ετικέτα δεδομένων δεν είναι ορατή από προεπιλογή (και έτσι όλα τα <br/>            Show*-flags (ShowValue, ...) της ιδιότητας DefaultDataLabelFormat είναι false).<br/>            Μόνο ανάγνωση **bool**. |
-| [`count_of_visible_data_labels`](/slides/python-net/el/aspose.slides.charts/datalabelcollection/count_of_visible_data_labels/) | Λαμβάνει τον αριθμό των ορατών ετικετών δεδομένων στη συλλογή.<br/>            Μόνο ανάγνωση **int**. |
-| [`count`](/slides/python-net/el/aspose.slides.charts/datalabelcollection/count/) | Λαμβάνει τον αριθμό όλων των ετικετών δεδομένων στη συλλογή.<br/>            Μόνο ανάγνωση **int**. |
-| [`default_data_label_format`](/slides/python-net/el/aspose.slides.charts/datalabelcollection/default_data_label_format/) | Λαμβάνει τη προεπιλεγμένη μορφή ετικέτας δεδομένων.<br/>            Μόνο ανάγνωση [`IDataLabelFormat`](/slides/python-net/el/aspose.slides.charts/idatalabelformat). |
-| [`leader_lines_format`](/slides/python-net/el/aspose.slides.charts/datalabelcollection/leader_lines_format/) | Αναπαριστά τη μορφή γραμμών οδηγού των ετικετών δεδομένων.<br/>             Μόνο ανάγνωση [`IChartLinesFormat`](/slides/python-net/el/aspose.slides.charts/ichartlinesformat). |
-| [`parent_series`](/slides/python-net/el/aspose.slides.charts/datalabelcollection/parent_series/) | Λαμβάνει τη γονική σειρά.<br/>            Μόνο ανάγνωση [`IChartSeries`](/slides/python-net/el/aspose.slides.charts/ichartseries). |
+| [`chart`](/slides/python-net/el/aspose.slides.charts/datalabelcollection/chart/) | Επιστρέφει το γονικό γράφημα.<br/>            Μόνο για ανάγνωση [`IChart`](/slides/python-net/el/aspose.slides.charts/ichart). |
+| [`is_visible`](/slides/python-net/el/aspose.slides.charts/datalabelcollection/is_visible/) | False σημαίνει ότι η ετικέτα δεδομένων δεν είναι ορατή εξ ορισμού (και έτσι όλα τα Show*-flags (ShowValue, ...) της ιδιότητας DefaultDataLabelFormat είναι false).<br/>            Μόνο για ανάγνωση **bool**. |
+| [`count_of_visible_data_labels`](/slides/python-net/el/aspose.slides.charts/datalabelcollection/count_of_visible_data_labels/) | Αποκτά τον αριθμό των ορατών ετικετών δεδομένων στη συλλογή.<br/>            Μόνο για ανάγνωση **int**. |
+| [`count`](/slides/python-net/el/aspose.slides.charts/datalabelcollection/count/) | Αποκτά τον αριθμό όλων των ετικετών δεδομένων στη συλλογή.<br/>            Μόνο για ανάγνωση **int**. |
+| [`default_data_label_format`](/slides/python-net/el/aspose.slides.charts/datalabelcollection/default_data_label_format/) | Αποκτά τη προεπιλεγμένη μορφή ετικέτας δεδομένων.<br/>            Μόνο για ανάγνωση [`IDataLabelFormat`](/slides/python-net/el/aspose.slides.charts/idatalabelformat). |
+| [`leader_lines_format`](/slides/python-net/el/aspose.slides.charts/datalabelcollection/leader_lines_format/) | Αναπαριστά τη μορφή των γραμμών οδηγού των ετικετών δεδομένων.<br/>             Μόνο για ανάγνωση [`IChartLinesFormat`](/slides/python-net/el/aspose.slides.charts/ichartlinesformat). |
+| [`parent_series`](/slides/python-net/el/aspose.slides.charts/datalabelcollection/parent_series/) | Αποκτά τη γονική σειρά.<br/>            Μόνο για ανάγνωση [`IChartSeries`](/slides/python-net/el/aspose.slides.charts/ichartseries). |
+| [`default_label_shape_type`](/slides/python-net/el/aspose.slides.charts/datalabelcollection/default_label_shape_type/) | Αποκτά ή ορίζει τον προεπιλεγμένο τύπο σχήματος για τις ετικέτες δεδομένων.<br/>             Επιστρέφει [`ShapeType.NOT_DEFINED`](/slides/python-net/el/aspose.slides/shapetype/NOT_DEFINED) αν δεν έχει οριστεί σχήμα. |
 | [`slide`](/slides/python-net/el/aspose.slides.charts/datalabelcollection/slide/) |  |
 | [`presentation`](/slides/python-net/el/aspose.slides.charts/datalabelcollection/presentation/) |  |
 
-Λαμβάνει την ετικέτα δεδομένων για το σημείο δεδομένων με το καθορισμένο δείκτη.
+Αποκτά την ετικέτα δεδομένων για το σημείο δεδομένων με τον καθορισμένο δείκτη.
 
 ## Δείκτης
 
@@ -37,8 +38,9 @@ url: /el/aspose.slides.charts/datalabelcollection/
 
 | Μέθοδος | Περιγραφή |
 | :- | :- |
-| [`hide(self)`](/slides/python-net/el/aspose.slides.charts/datalabelcollection/hide/#) | Κάνει την ετικέτα δεδομένων κρυφή από προεπιλογή ορίζοντας όλα τα Show*-flags (ShowValue, ...) της ιδιότητας DefaultDataLabelFormat σε κατάσταση false.<br/>            IsVisible θα είναι false μετά από αυτό. |
-| [`index_of(self, value)`](/slides/python-net/el/aspose.slides.charts/datalabelcollection/index_of/#idatalabel) | Επιστρέφει ένα δείκτη της καθορισμένης DataLabel στη συλλογή. |
+| [`hide(self)`](/slides/python-net/el/aspose.slides.charts/datalabelcollection/hide/#) | Κάνει την ετικέτα δεδομένων κρυφή εξ ορισμού ορίζοντας όλα τα Show*-flags (ShowValue, ...) της ιδιότητας DefaultDataLabelFormat σε κατάσταση false.<br/>            Το IsVisible θα είναι false μετά από αυτό. |
+| [`index_of(self, value)`](/slides/python-net/el/aspose.slides.charts/datalabelcollection/index_of/#idatalabel) | Επιστρέφει έναν δείκτη του καθορισμένου DataLabel στη συλλογή. |
+
 
 ### Δείτε επίσης
 * μονάδα [`aspose.slides.charts`](/slides/python-net/el/aspose.slides.charts)

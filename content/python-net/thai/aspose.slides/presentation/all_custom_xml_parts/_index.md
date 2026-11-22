@@ -1,16 +1,16 @@
 ---
 title: all_custom_xml_parts property
-second_title: Aspose.Slides สำหรับ Python ผ่าน .NET เอกสารอ้างอิง API
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Reference
 description: 
 type: docs
 url: /th/aspose.slides/presentation/all_custom_xml_parts/
-weight: 100
+weight: 110
 ---
 ## all_custom_xml_parts คุณสมบัติ
-คืนค่าทุกส่วนข้อมูลแบบกำหนดเองในงานนำเสนอ.
+ส่งคืนส่วนข้อมูลแบบกำหนดเองทั้งหมดในงานนำเสนอ.
             อ่านอย่างเดียว [`ICustomXmlPart`](/slides/python-net/th/aspose.slides/icustomxmlpart)[].
 
-### คำนิยาม:
+### คำอธิบาย:
 ```python
 @property
 def all_custom_xml_parts(self):

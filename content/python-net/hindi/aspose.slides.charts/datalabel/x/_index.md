@@ -1,14 +1,14 @@
 ---
 title: x property
-second_title: Aspose.Slides for Python द्वारा .NET API संदर्भ
+second_title: Aspose.Slides for Python via .NET API संदर्भ
 description: 
 type: docs
 url: /hi/aspose.slides.charts/datalabel/x/
-weight: 270
+weight: 280
 ---
-## x गुण
-शीर्षक के x निर्देशांक को चार्ट की चौड़ाई के अनुपात के रूप में प्राप्त करता है या सेट करता है।
-            पढ़ें/लिखें **float**.
+## x प्रॉपर्टी
+शीर्षक का x कोऑर्डिनेट लौटाता है या सेट करता है, जो चार्ट की चौड़ाई के अनुपात में है।
+            पढ़ने/लिखने योग्य **float**.
 
 ### परिभाषा:
 ```python
@@ -22,7 +22,7 @@ def x(self, value):
 ```
 
 
-### और देखें
+### संबंधित देखें
 * क्लास [`DataLabel`](/slides/python-net/hi/aspose.slides.charts/datalabel)
 * मॉड्यूल [`aspose.slides.charts`](/slides/python-net/hi/aspose.slides.charts)
 * लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

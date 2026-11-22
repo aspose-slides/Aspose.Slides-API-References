@@ -1,14 +1,14 @@
 ---
 title: masters property
-second_title: Aspose.Slides για Python μέσω .NET αναφορά API
+second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
 description: 
 type: docs
 url: /el/aspose.slides/ipresentation/masters/
-weight: 280
+weight: 290
 ---
 ## masters ιδιότητα
-Returns a list of all master slides that are defined in the presentation.
-            Μόνο για ανάγνωση [`IMasterSlideCollection`](/slides/python-net/el/aspose.slides/imasterslidecollection).
+Επιστρέφει μια λίστα με όλες τις master διαφάνειες που ορίζονται στην παρουσίαση.
+            Μόνο ανάγνωση [`IMasterSlideCollection`](/slides/python-net/el/aspose.slides/imasterslidecollection).
 
 ### Ορισμός:
 ```python

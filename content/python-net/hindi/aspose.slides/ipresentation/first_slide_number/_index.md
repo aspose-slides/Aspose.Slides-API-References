@@ -4,10 +4,10 @@ second_title: Aspose.Slides for Python via .NET API संदर्भ
 description: 
 type: docs
 url: /hi/aspose.slides/ipresentation/first_slide_number/
-weight: 190
+weight: 200
 ---
 ## first_slide_number प्रॉपर्टी
-प्रेज़ेंटेशन में पहला स्लाइड नंबर दर्शाता है।
+प्रस्तुति में पहले स्लाइड नंबर को दर्शाता है।
             पढ़ें/लिखें **int**.
 
 ### परिभाषा:

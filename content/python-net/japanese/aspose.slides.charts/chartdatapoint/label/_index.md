@@ -4,10 +4,10 @@ second_title: Aspose.Slides for Python via .NET API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides.charts/chartdatapoint/label/
-weight: 170
+weight: 210
 ---
-## label プロパティ
-Label.
+## ラベル プロパティ
+ラベル.
             読み取り専用 [`IDataLabel`](/slides/python-net/ja/aspose.slides.charts/idatalabel).
 
 ### 定義:

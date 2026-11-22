@@ -4,13 +4,13 @@ second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Refe
 description: 
 type: docs
 url: /th/aspose.slides/ipresentation/vba_project/
-weight: 370
+weight: 380
 ---
 ## vba_project คุณสมบัติ
-ดึงโครงการ VBA พร้อมแมโครการนำเสนอ.
+รับโครงการ VBA ที่มีมาโครการนำเสนอ.
             อ่าน/เขียน [`IVbaProject`](/slides/python-net/th/aspose.slides.vba/ivbaproject).
 
-### การกำหนด:
+### คำนิยาม:
 ```python
 @property
 def vba_project(self):

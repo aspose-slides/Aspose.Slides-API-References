@@ -4,10 +4,10 @@ second_title: Aspose.Slides for Python via .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides.charts/chartdata/data_source_type/
-weight: 90
+weight: 100
 ---
 ## data_source_type özelliği
-Dış veri kaynağı ise dış çalışma kitabı yolunu temsil eder, aksi takdirinde None
+Dış veri kaynağı ise harici çalışma kitabı yolunu temsil eder, aksi takdirinde None
 
 ### Tanım:
 ```python

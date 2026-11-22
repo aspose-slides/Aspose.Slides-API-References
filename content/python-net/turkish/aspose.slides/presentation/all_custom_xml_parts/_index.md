@@ -4,10 +4,10 @@ second_title: Aspose.Slides for Python via .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides/presentation/all_custom_xml_parts/
-weight: 100
+weight: 110
 ---
 ## all_custom_xml_parts özelliği
-Sunumda tüm özel veri bölümlerini döndürür.
+Sunumda bulunan tüm özel veri bölümlerini döndürür.
             Yalnızca okuma [`ICustomXmlPart`](/slides/python-net/tr/aspose.slides/icustomxmlpart)[].
 
 ### Tanım:

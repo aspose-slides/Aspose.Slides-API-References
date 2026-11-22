@@ -1,21 +1,15 @@
 ---
 title: PositionedString class
-second_title: Aspose.Slides pour Python via .NET Référence de l'API
+second_title: Référence de l'API Aspose.Slides pour Python via .NET
 description: 
 type: docs
 url: /fr/aspose.slides/positionedstring/
 ---
 ## PositionedString classe
 
-La structure contient une clé entière et une valeur chaîne et constitue un remplacement temporaire de KeyValuePair<int, string>
+La structure contient une clé entière et une valeur chaîne et est un remplacement temporaire de KeyValuePair<int, string>
 
 Le type PositionedString expose les membres suivants :
-
-## Constructeurs
-
-| Constructeur | Description |
-| :- | :- |
-| [`__init__(self)`](/slides/python-net/fr/aspose.slides/positionedstring/__init__/#) |  |
 
 ## Propriétés
 

@@ -4,10 +4,10 @@ second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides.charts/datalabel/value_from_cell/
-weight: 250
+weight: 260
 ---
 ## value_from_cell eigenschap
-Leest of stelt de werkmap gegevenscel in. Toegepast als de IDataLabelFormat.ShowLabelValueFromCell eigenschap true is.
+Krijgt of stelt werkbladgegevenscel in. Toegepast als de IDataLabelFormat.ShowLabelValueFromCell eigenschap gelijk is aan true.
 
 ### Definitie:
 ```python

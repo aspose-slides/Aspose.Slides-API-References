@@ -4,10 +4,10 @@ second_title: Aspose.Slides for Python via .NET API 参考
 description: 
 type: docs
 url: /zh/aspose.slides/itextframe/join_portions_with_same_formatting/
-weight: 30
+weight: 40
 ---
 ## join_portions_with_same_formatting(self) {#}
-在所有段落中合并具有相同格式的运行。
+在所有段落中合并具有相同格式的文本运行。
 
 
 ```python

@@ -1,13 +1,13 @@
 ---
 title: index property
-second_title: อ้างอิง API Aspose.Slides สำหรับ Python ผ่าน .NET
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Reference
 description: 
 type: docs
 url: /th/aspose.slides.charts/ichartdatapoint/index/
-weight: 140
+weight: 180
 ---
-## คุณสมบัติ index
-กำหนดว่าข้อมูลจุดนี้ใช้กับคอลเลกชันของบุตรของพ่อแม่ใด.
+## index คุณสมบัติ
+กำหนดว่าข้อมูลจุดนี้ใช้กับคอลเลกชันของบุตรของผู้ปกครองใด
             อ่าน **int**.
 
 ### คำนิยาม:

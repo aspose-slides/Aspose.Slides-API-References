@@ -1,10 +1,10 @@
 ---
 title: slides property
-second_title: Aspose.Slides a Pythonhoz .NET-en keresztül API-referencia
+second_title: Aspose.Slides Pythonhoz a .NET-en keresztül API Referencia
 description: 
 type: docs
 url: /hu/aspose.slides/presentation/slides/
-weight: 370
+weight: 380
 ---
 ## slides tulajdonság
 Visszaad egy listát az összes slides-ről, amely a prezentációban definiálva van.

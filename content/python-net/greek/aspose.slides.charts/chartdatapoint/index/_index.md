@@ -1,12 +1,12 @@
 ---
 title: index property
-second_title: Aspose.Slides για Python μέσω .NET αναφορά API
+second_title: Aspose.Slides για Python μέσω .NET Αναφορά API
 description: 
 type: docs
 url: /el/aspose.slides.charts/chartdatapoint/index/
-weight: 140
+weight: 180
 ---
-## ιδιότητα ευρετηρίου
+## ιδιότητα δείκτη
 ### Ορισμός:
 ```python
 @property

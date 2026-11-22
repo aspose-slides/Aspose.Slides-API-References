@@ -4,9 +4,9 @@ second_title: Aspose.Slides för Python via .NET API-referens
 description: 
 type: docs
 url: /sv/aspose.slides.charts/ichartdatapoint/format/
-weight: 130
+weight: 170
 ---
-## formategenskap
+## format egenskap
 Representerar formateringsegenskaperna.
             Läs/skriv [`IFormat`](/slides/python-net/sv/aspose.slides.charts/iformat).
 
@@ -20,7 +20,6 @@ def format(self):
 def format(self, value):
     ...
 ```
-
 
 ### Se även
 * klass [`IChartDataPoint`](/slides/python-net/sv/aspose.slides.charts/ichartdatapoint)

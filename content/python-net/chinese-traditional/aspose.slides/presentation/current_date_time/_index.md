@@ -4,14 +4,14 @@ second_title: Aspose.Slides for Python via .NET API 參考
 description: 
 type: docs
 url: /zh-hant/aspose.slides/presentation/current_date_time/
-weight: 150
+weight: 160
 ---
 ## current_date_time 屬性
-返回或設定日期和時間，將取代 datetime 欄位的內容。
-            此簡報物件建立時的時間，預設值。
-            讀/寫 **System.DateTime**。
+返回或設定將取代 datetime 欄位內容的日期與時間。
+            預設為此 Presentation 物件建立的時間。
+            讀寫 **System.DateTime**。
 
-### 定義:
+### 定義：
 ```python
 @property
 def current_date_time(self):

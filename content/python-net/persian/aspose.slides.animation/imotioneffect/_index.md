@@ -5,24 +5,24 @@ description:
 type: docs
 url: /fa/aspose.slides.animation/imotioneffect/
 ---
-## IMotionEffect کلاس
+## کلاس IMotionEffect
 
-نمایانگر رفتار اثر حرکتی است.
+Represent motion effect behavior of effect.
 
-نوع IMotionEffect اعضای زیر را نمایش می‌دهد:
+The IMotionEffect type exposes the following members:
 
 ## ویژگی‌ها
 
-| ویژگی | توضیح |
+| Property | Description |
 | :- | :- |
-| [`from_address`](/slides/python-net/fa/aspose.slides.animation/imotioneffect/from_address/) | مختصات x/y را برای شروع انیمیشن مشخص می‌کند (به درصد). <br/>            خواندن/نوشتن [`PointF`](/slides/python-net/fa/aspose.slides/pointf). |
-| [`to`](/slides/python-net/fa/aspose.slides.animation/imotioneffect/to/) | مکان هدف را برای یک اثر حرکتی انیمیشن مشخص می‌کند (به درصد).<br/>            خواندن/نوشتن [`PointF`](/slides/python-net/fa/aspose.slides/pointf). |
-| [`by`](/slides/python-net/fa/aspose.slides.animation/imotioneffect/by/) | مقدار جابجایی نسبی را برای انیمیشن توصیف می‌کند (به درصد).<br/>            خواندن/نوشتن [`PointF`](/slides/python-net/fa/aspose.slides/pointf). |
-| [`rotation_center`](/slides/python-net/fa/aspose.slides.animation/imotioneffect/rotation_center/) | مرکز چرخش مورد استفاده برای چرخاندن مسیر حرکتی به زاویه X را توصیف می‌کند.<br/>            خواندن/نوشتن [`PointF`](/slides/python-net/fa/aspose.slides/pointf). |
-| [`origin`](/slides/python-net/fa/aspose.slides.animation/imotioneffect/origin/) | مشخص می‌کند مبدأ مسیر حرکتی نسبت به چه چیزی است، مانند طرح اسلاید,<br/>            یا والد.<br/>            خواندن/نوشتن [`MotionOriginType`](/slides/python-net/fa/aspose.slides.animation/motionorigintype). |
-| [`path`](/slides/python-net/fa/aspose.slides.animation/imotioneffect/path/) | مسیر اولیه را که با مختصات برای حرکت انیمیشن دنبال می‌شود، مشخص می‌کند.<br/>            خواندن/نوشتن [`IMotionPath`](/slides/python-net/fa/aspose.slides.animation/imotionpath). |
-| [`path_edit_mode`](/slides/python-net/fa/aspose.slides.animation/imotioneffect/path_edit_mode/) | مشخص می‌کند مسیر حرکتی هنگام جابجایی شکل چگونه حرکت می‌کند.<br/>            خواندن/نوشتن [`MotionPathEditMode`](/slides/python-net/fa/aspose.slides.animation/motionpatheditmode). |
-| [`angle`](/slides/python-net/fa/aspose.slides.animation/imotioneffect/angle/) | زاویه نسبی مسیر حرکتی را توصیف می‌کند.<br/>            خواندن/نوشتن **float**. |
+| [`from_`](/slides/python-net/fa/aspose.slides.animation/imotioneffect/from_/) | مختصات x/y را برای شروع انیمیشن (به درصد) مشخص می‌کند.<br/>            قابل خواندن/نوشتن [`PointF`](/slides/python-net/fa/aspose.slides/pointf). |
+| [`to`](/slides/python-net/fa/aspose.slides.animation/imotioneffect/to/) | مکان هدف برای اثر حرکتی انیمیشن (به درصد) را مشخص می‌کند.<br/>            قابل خواندن/نوشتن [`PointF`](/slides/python-net/fa/aspose.slides/pointf). |
+| [`by`](/slides/python-net/fa/aspose.slides.animation/imotioneffect/by/) | مقدار آفست نسبی برای انیمیشن (به درصد) را توصیف می‌کند.<br/>            قابل خواندن/نوشتن [`PointF`](/slides/python-net/fa/aspose.slides/pointf). |
+| [`rotation_center`](/slides/python-net/fa/aspose.slides.animation/imotioneffect/rotation_center/) | مرکز چرخشی که برای چرخاندن مسیر حرکتی به زاویه X استفاده می‌شود را توصیف می‌کند.<br/>            قابل خواندن/نوشتن [`PointF`](/slides/python-net/fa/aspose.slides/pointf). |
+| [`origin`](/slides/python-net/fa/aspose.slides.animation/imotioneffect/origin/) | مبدا مسیر حرکتی نسبت به مواردی مانند طرح‌بندی اسلاید یا والد را مشخص می‌کند.<br/>            قابل خواندن/نوشتن [`MotionOriginType`](/slides/python-net/fa/aspose.slides.animation/motionorigintype). |
+| [`path`](/slides/python-net/fa/aspose.slides.animation/imotioneffect/path/) | اشکال اولیه مسیر که با مختصات برای حرکت انیمیشن دنبال می‌شود را مشخص می‌کند.<br/>            قابل خواندن/نوشتن [`IMotionPath`](/slides/python-net/fa/aspose.slides.animation/imotionpath). |
+| [`path_edit_mode`](/slides/python-net/fa/aspose.slides.animation/imotioneffect/path_edit_mode/) | نحوه حرکت مسیر حرکتی هنگام جابه‌جایی شکل را مشخص می‌کند.<br/>            قابل خواندن/نوشتن [`MotionPathEditMode`](/slides/python-net/fa/aspose.slides.animation/motionpatheditmode). |
+| [`angle`](/slides/python-net/fa/aspose.slides.animation/imotioneffect/angle/) | زاویه نسبی مسیر حرکتی را توصیف می‌کند.<br/>            قابل خواندن/نوشتن **float**. |
 | [`accumulate`](/slides/python-net/fa/aspose.slides.animation/imotioneffect/accumulate/) |  |
 | [`additive`](/slides/python-net/fa/aspose.slides.animation/imotioneffect/additive/) |  |
 | [`properties`](/slides/python-net/fa/aspose.slides.animation/imotioneffect/properties/) |  |

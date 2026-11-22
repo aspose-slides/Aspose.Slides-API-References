@@ -4,11 +4,11 @@ second_title: Aspose.Slides for Python via .NET API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides.charts/chartdata/chart_data_workbook/
-weight: 80
+weight: 90
 ---
 ## chart_data_workbook プロパティ
-チャート系列またはカテゴリで使用されるセルを作成するセルファクトリを取得します。
-            読み取り専用 [`IChartDataWorkbook`](/slides/python-net/ja/aspose.slides.charts/ichartdataworkbook).
+チャートのシリーズまたはカテゴリで使用されるセルを作成するためのセル ファクトリを取得します。
+            読み取り専用 [`IChartDataWorkbook`](/slides/python-net/ja/aspose.slides.charts/ichartdataworkbook)。
 
 ### 定義:
 ```python

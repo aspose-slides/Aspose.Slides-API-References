@@ -4,7 +4,7 @@ second_title: Aspose.Slides för Python via .NET API-referens
 description: 
 type: docs
 url: /sv/aspose.slides/presentation/digital_signatures/
-weight: 180
+weight: 190
 ---
 ## digital_signatures egenskap
 Returnerar samlingen av signaturer som används för att signera presentationen.

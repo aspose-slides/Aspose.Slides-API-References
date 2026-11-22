@@ -1,10 +1,10 @@
 ---
 title: right property
-second_title: Aspose.Slides for Python via .NET API 참조
+second_title: Aspose.Slides for Python via .NET API 레퍼런스
 description: 
 type: docs
 url: /ko/aspose.slides.charts/datalabel/right/
-weight: 210
+weight: 220
 ---
 ## right 속성
 Right.

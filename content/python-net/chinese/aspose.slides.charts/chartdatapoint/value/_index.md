@@ -1,13 +1,13 @@
 ---
 title: value property
-second_title: Aspose.Slides for Python via .NET API 参考
+second_title: Aspose.Slides 用于 Python via .NET API 参考
 description: 
 type: docs
 url: /zh/aspose.slides.charts/chartdatapoint/value/
-weight: 220
+weight: 260
 ---
 ## value 属性
-Value.
+值。
             只读 [`IDoubleChartValue`](/slides/python-net/zh/aspose.slides.charts/idoublechartvalue).
 
 ### 定义:

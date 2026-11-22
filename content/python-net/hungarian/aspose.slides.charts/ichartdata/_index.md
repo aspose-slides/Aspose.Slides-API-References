@@ -1,41 +1,42 @@
 ---
 title: IChartData class
-second_title: Aspose.Slides a Pythonhoz .NET-en keresztül API hivatkozás
+second_title: Aspose.Slides a Pythonhoz .NET-en keresztül API referencia
 description: 
 type: docs
 url: /hu/aspose.slides.charts/ichartdata/
 ---
 ## IChartData osztály
 
-A diagram ábrázolásához használt adatokat képviseli.
+Az ábrázolandó diagram adatait képviseli.
 
-Az IChartData típus a következő tagokat teszi elérhetővé:
+Az IChartData típus a következő tagokat teszi közzé:
 
 ## Tulajdonságok
 
-| Property | Description |
+| Tulajdonság | Leírás |
 | :- | :- |
-| [`chart_data_workbook`](/slides/python-net/hu/aspose.slides.charts/ichartdata/chart_data_workbook/) | A cellagyár lekérdezése a diagram sorozatokhoz vagy kategóriákhoz használt cellák létrehozásához.<br/>            Csak olvasható [`IChartDataWorkbook`](/slides/python-net/hu/aspose.slides.charts/ichartdataworkbook). |
-| [`series`](/slides/python-net/hu/aspose.slides.charts/ichartdata/series/) | A sorozatok lekérdezése.<br/>            Csak olvasható [`IChartSeriesCollection`](/slides/python-net/hu/aspose.slides.charts/ichartseriescollection). |
-| [`series_groups`](/slides/python-net/hu/aspose.slides.charts/ichartdata/series_groups/) | A sorozatok csoportjainak lekérdezése.<br/>            Csak olvasható [`IChartSeriesGroupCollection`](/slides/python-net/hu/aspose.slides.charts/ichartseriesgroupcollection). |
-| [`categories`](/slides/python-net/hu/aspose.slides.charts/ichartdata/categories/) | Az elsődleges kategóriák lekérdezése (vagy az elsődleges és másodlagos kategóriák is <br/>            ha a [`IChartData.use_secondary_categories`](/slides/python-net/hu/aspose.slides.charts/ichartdata/use_secondary_categories) tulajdonság hamis).<br/>            Csak olvasható [`IChartCategoryCollection`](/slides/python-net/hu/aspose.slides.charts/ichartcategorycollection). |
-| [`use_secondary_categories`](/slides/python-net/hu/aspose.slides.charts/ichartdata/use_secondary_categories/) | Ha hamis, akkor a [`IChartData.secondary_categories`](/slides/python-net/hu/aspose.slides.charts/ichartdata/secondary_categories) tulajdonság None értéket ad vissza, és az [`IChartData.categories`](/slides/python-net/hu/aspose.slides.charts/ichartdata/categories) tulajdonság adatait az elsődleges és másodlagos sorozatok egyaránt használják.<br/>            Ha igaz, akkor a [`IChartData.secondary_categories`](/slides/python-net/hu/aspose.slides.charts/ichartdata/secondary_categories) tulajdonság adatait a másodlagos sorozatok, a [`IChartData.categories`](/slides/python-net/hu/aspose.slides.charts/ichartdata/categories) tulajdonság adatait pedig az elsődleges sorozatok használják.<br/>            Olvasható/írható **bool**. |
-| [`secondary_categories`](/slides/python-net/hu/aspose.slides.charts/ichartdata/secondary_categories/) | A másodlagos kategóriák lekérdezése, ha a [`IChartData.use_secondary_categories`](/slides/python-net/hu/aspose.slides.charts/ichartdata/use_secondary_categories) tulajdonság igaz.<br/>            Csak olvasható [`IChartCategoryCollection`](/slides/python-net/hu/aspose.slides.charts/ichartcategorycollection). |
-| [`data_source_type`](/slides/python-net/hu/aspose.slides.charts/ichartdata/data_source_type/) | A diagram adatforrását képviseli |
-| [`external_workbook_path`](/slides/python-net/hu/aspose.slides.charts/ichartdata/external_workbook_path/) | Külső munkafüzet útvonalát képviseli, ha az adatforrás külső, egyébként None |
-| [`embedded_workbook_type`](/slides/python-net/hu/aspose.slides.charts/ichartdata/embedded_workbook_type/) | A beágyazott munkafüzet típusának lekérdezése.<br/>            [`WorkbookType.NOT_DEFINED`](/slides/python-net/hu/aspose.slides.charts/workbooktype/NOT_DEFINED) értéket ad vissza, ha a [`IChartData.data_source_type`](/slides/python-net/hu/aspose.slides.charts/ichartdata/data_source_type) <br/>            [`ChartDataSourceType.EXTERNAL_WORKBOOK`](/slides/python-net/hu/aspose.slides.charts/chartdatasourcetype/EXTERNAL_WORKBOOK).<br/>            Csak olvasható [`WorkbookType`](/slides/python-net/hu/aspose.slides.charts/workbooktype). |
+| [`chart_data_workbook`](/slides/python-net/hu/aspose.slides.charts/ichartdata/chart_data_workbook/) | Gets the cells factory to create cells used for chart series or categories.<br/>            Read-only [`IChartDataWorkbook`](/slides/python-net/hu/aspose.slides.charts/ichartdataworkbook). |
+| [`series`](/slides/python-net/hu/aspose.slides.charts/ichartdata/series/) | Gets the series.<br/>            Read-only [`IChartSeriesCollection`](/slides/python-net/hu/aspose.slides.charts/ichartseriescollection). |
+| [`series_groups`](/slides/python-net/hu/aspose.slides.charts/ichartdata/series_groups/) | Gets the groups of series.<br/>            Read-only [`IChartSeriesGroupCollection`](/slides/python-net/hu/aspose.slides.charts/ichartseriesgroupcollection). |
+| [`categories`](/slides/python-net/hu/aspose.slides.charts/ichartdata/categories/) | Gets the primary categories (or both primary and secondary categories <br/>            if [`IChartData.use_secondary_categories`](/slides/python-net/hu/aspose.slides.charts/ichartdata/use_secondary_categories) property is false).<br/>            Read-only [`IChartCategoryCollection`](/slides/python-net/hu/aspose.slides.charts/ichartcategorycollection). |
+| [`use_secondary_categories`](/slides/python-net/hu/aspose.slides.charts/ichartdata/use_secondary_categories/) | If false then [`IChartData.secondary_categories`](/slides/python-net/hu/aspose.slides.charts/ichartdata/secondary_categories) property return None and data <br/>            in [`IChartData.categories`](/slides/python-net/hu/aspose.slides.charts/ichartdata/categories) property is used both for primary and secondary series.<br/>            If true then data in [`IChartData.secondary_categories`](/slides/python-net/hu/aspose.slides.charts/ichartdata/secondary_categories) property is used for secondary series and data <br/>            in [`IChartData.categories`](/slides/python-net/hu/aspose.slides.charts/ichartdata/categories) property is used for primary series.<br/>            Read/write **bool**. |
+| [`secondary_categories`](/slides/python-net/hu/aspose.slides.charts/ichartdata/secondary_categories/) | Gets the secondary categories if [`IChartData.use_secondary_categories`](/slides/python-net/hu/aspose.slides.charts/ichartdata/use_secondary_categories) property is true.<br/>            Read-only [`IChartCategoryCollection`](/slides/python-net/hu/aspose.slides.charts/ichartcategorycollection). |
+| [`data_source_type`](/slides/python-net/hu/aspose.slides.charts/ichartdata/data_source_type/) | Represents data source of the chart |
+| [`external_workbook_path`](/slides/python-net/hu/aspose.slides.charts/ichartdata/external_workbook_path/) | Represents external workbook path if data source is external, None otherwise |
+| [`embedded_workbook_type`](/slides/python-net/hu/aspose.slides.charts/ichartdata/embedded_workbook_type/) | Gets the type of the embedded workbook.<br/>            Returns [`WorkbookType.NOT_DEFINED`](/slides/python-net/hu/aspose.slides.charts/workbooktype/NOT_DEFINED) if [`IChartData.data_source_type`](/slides/python-net/hu/aspose.slides.charts/ichartdata/data_source_type) is <br/>            [`ChartDataSourceType.EXTERNAL_WORKBOOK`](/slides/python-net/hu/aspose.slides.charts/chartdatasourcetype/EXTERNAL_WORKBOOK).<br/>            Read-only [`WorkbookType`](/slides/python-net/hu/aspose.slides.charts/workbooktype). |
 
 ## Metódusok
 
-| Method | Description |
+| Metódus | Leírás |
 | :- | :- |
-| [`set_external_workbook(self, workbook_path)`](/slides/python-net/hu/aspose.slides.charts/ichartdata/set_external_workbook/#str) | Beállítja a külső munkafüzetet a diagram adatforrásaként. A diagram adatai a cél munkafüzetről lesznek frissítve. |
-| [`set_external_workbook(self, workbook_path, update_chart_data)`](/slides/python-net/hu/aspose.slides.charts/ichartdata/set_external_workbook/#str-bool) | Beállítja a külső munkafüzetet a diagram adatforrásaként. |
-| [`read_workbook_stream(self)`](/slides/python-net/hu/aspose.slides.charts/ichartdata/read_workbook_stream/#) | A belső Excel munkafüzetet egy memóriában lévő adatfolyamba írja. |
-| [`write_workbook_stream(self, ms)`](/slides/python-net/hu/aspose.slides.charts/ichartdata/write_workbook_stream/#iorawiobase) | A belső Excel munkafüzetet felhasználó által megadott értékkel inicializálja. |
-| [`set_range(self, formula)`](/slides/python-net/hu/aspose.slides.charts/ichartdata/set_range/#str) | Állítsa be a diagram adat tartományát. A sorozatok és kategóriák az új adat tartomány alapján frissülnek.<br/>            Ha az adat tartományban lévő sorozatok száma nagyobb, mint a diagram adatban lévő sorozatok száma, akkor további sorozatok ugyanazzal a típussal,<br/>            mint az aktuális gyűjtemény utolsó sorozata, a gyűjtemény végéhez lesznek hozzáadva. |
-| [`get_range(self)`](/slides/python-net/hu/aspose.slides.charts/ichartdata/get_range/#) | A diagram adat tartomány lekérdezése. |
-| [`switch_row_column(self)`](/slides/python-net/hu/aspose.slides.charts/ichartdata/switch_row_column/#) | Az adat cseréje a tengelyek között.<br/>            Az X tengelyen ábrázolt adat a Y tengelyre kerül, és fordítva. |
+| [`set_external_workbook(self, workbook_path)`](/slides/python-net/hu/aspose.slides.charts/ichartdata/set_external_workbook/#str) | Sets external workbook as a data source for the chart. Chart data will be updated from the target workbook. |
+| [`set_external_workbook(self, workbook_path, update_chart_data)`](/slides/python-net/hu/aspose.slides.charts/ichartdata/set_external_workbook/#str-bool) | Sets external workbook as a data source for the chart. |
+| [`read_workbook_stream(self)`](/slides/python-net/hu/aspose.slides.charts/ichartdata/read_workbook_stream/#) | Writes the internally contained Excel workbook it into an in-memory stream. |
+| [`write_workbook_stream(self, ms)`](/slides/python-net/hu/aspose.slides.charts/ichartdata/write_workbook_stream/#iorawiobase) | Initializes the internally contained Excel workbook with user-specified value. |
+| [`set_range(self, formula)`](/slides/python-net/hu/aspose.slides.charts/ichartdata/set_range/#str) | Set chart data range. Series and categories will be updated based on new data range.<br/>            If amount of series in data range greater than count of series in the chart data then additional series with the same type<br/>            as a last series in the current collection will be added to the end of the collection. |
+| [`get_range(self)`](/slides/python-net/hu/aspose.slides.charts/ichartdata/get_range/#) | Gets chart data range. |
+| [`switch_row_column(self)`](/slides/python-net/hu/aspose.slides.charts/ichartdata/switch_row_column/#) | Swap the data over the axis.<br/>            Data being charted on the X axis will move to the Y axis and vice versa. |
+| [`refresh_data(self)`](/slides/python-net/hu/aspose.slides.charts/ichartdata/refresh_data/#) | Refreshes the chart data by reloading it from the source workbook. |
 
 ### Lásd még
 * modul [`aspose.slides.charts`](/slides/python-net/hu/aspose.slides.charts)

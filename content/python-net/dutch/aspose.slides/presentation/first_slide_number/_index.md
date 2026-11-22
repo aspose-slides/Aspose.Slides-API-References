@@ -4,10 +4,10 @@ second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides/presentation/first_slide_number/
-weight: 200
+weight: 210
 ---
 ## first_slide_number eigenschap
-Geeft het eerste dia-nummer in de presentatie weer
+Stelt het eerste slide-nummer in de presentatie voor
 
 ### Definitie:
 ```python

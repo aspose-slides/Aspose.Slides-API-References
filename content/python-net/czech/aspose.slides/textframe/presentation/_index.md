@@ -1,14 +1,14 @@
 ---
 title: presentation property
-second_title: Aspose.Slides pro Python prostřednictvím .NET API Reference
+second_title: Aspose.Slides pro Python přes .NET API Reference
 description: 
 type: docs
 url: /cs/aspose.slides/textframe/presentation/
-weight: 130
+weight: 140
 ---
 ## presentation vlastnost
 Vrací nadřazenou presentation objektu TextFrame.
-            Pouze pro čtení [`IPresentation`](/slides/python-net/cs/aspose.slides/ipresentation).
+            Pouze ke čtení [`IPresentation`](/slides/python-net/cs/aspose.slides/ipresentation).
 
 ### Definice:
 ```python

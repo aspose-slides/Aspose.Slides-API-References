@@ -4,10 +4,10 @@ second_title: Aspose.Slides pro Python pomocí .NET API Reference
 description: 
 type: docs
 url: /cs/aspose.slides/ipresentation/master_notes_slide_manager/
-weight: 260
+weight: 270
 ---
 ## master_notes_slide_manager vlastnost
-Vrací správce hlavních poznámek.
+Vrací hlavního správce poznámek.
             Pouze pro čtení [`IMasterNotesSlideManager`](/slides/python-net/cs/aspose.slides/imasternotesslidemanager).
 
 ### Definice:

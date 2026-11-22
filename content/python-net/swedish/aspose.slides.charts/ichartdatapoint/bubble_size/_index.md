@@ -7,8 +7,8 @@ url: /sv/aspose.slides.charts/ichartdatapoint/bubble_size/
 weight: 80
 ---
 ## bubble_size egenskap
-Returnerar bubbelstorleken för diagramdatapunkt.
-            Skrivskyddad [`IDoubleChartValue`](/slides/python-net/sv/aspose.slides.charts/idoublechartvalue).
+Hämtar bubblestorleken för ett diagramdatapunkt.
+Skrivskyddad [`IDoubleChartValue`](/slides/python-net/sv/aspose.slides.charts/idoublechartvalue).
 
 ### Definition:
 ```python

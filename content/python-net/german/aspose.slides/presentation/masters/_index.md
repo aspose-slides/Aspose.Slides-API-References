@@ -1,14 +1,14 @@
 ---
 title: masters property
 second_title: Aspose.Slides für Python über .NET API-Referenz
-description:
+description: 
 type: docs
 url: /de/aspose.slides/presentation/masters/
-weight: 290
+weight: 300
 ---
-## masters Eigenschaft
+## masters-Eigenschaft
 Gibt eine Liste aller Masterfolien zurück, die in der Präsentation definiert sind.
-Nur lesbar [`IMasterSlideCollection`](/slides/python-net/de/aspose.slides/imasterslidecollection).
+            Nur-Lesen [`IMasterSlideCollection`](/slides/python-net/de/aspose.slides/imasterslidecollection).
 
 ### Definition:
 ```python

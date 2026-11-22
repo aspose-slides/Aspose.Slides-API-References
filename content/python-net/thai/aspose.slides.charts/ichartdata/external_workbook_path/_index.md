@@ -1,13 +1,13 @@
 ---
 title: external_workbook_path property
-second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Reference
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET การอ้างอิง API
 description: 
 type: docs
 url: /th/aspose.slides.charts/ichartdata/external_workbook_path/
-weight: 110
+weight: 120
 ---
 ## external_workbook_path คุณสมบัติ
-แทนที่พาธของเวิร์กบุ๊คภายนอกหากแหล่งข้อมูลเป็นภายนอก, มิฉะนั้นเป็น None
+แสดงเส้นทาง workbook ภายนอกหากแหล่งข้อมูลเป็นภายนอก, None หากไม่เป็น
 
 ### คำนิยาม:
 ```python
@@ -15,7 +15,6 @@ weight: 110
 def external_workbook_path(self):
     ...
 ```
-
 
 ### ดูเพิ่มเติม
 * คลาส [`IChartData`](/slides/python-net/th/aspose.slides.charts/ichartdata)

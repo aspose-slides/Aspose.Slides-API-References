@@ -1,10 +1,10 @@
 ---
 title: presentation property
-second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
+second_title: Aspose.Slides για Python μέσω .NET API Reference
 description: 
 type: docs
 url: /el/aspose.slides.charts/idatalabelcollection/presentation/
-weight: 150
+weight: 160
 ---
 ## ιδιότητα παρουσίασης
 ### Ορισμός:
@@ -13,6 +13,7 @@ weight: 150
 def presentation(self):
     ...
 ```
+
 
 ### Δείτε επίσης
 * κλάση [`IDataLabelCollection`](/slides/python-net/el/aspose.slides.charts/idatalabelcollection)

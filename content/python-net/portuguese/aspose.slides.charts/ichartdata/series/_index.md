@@ -1,13 +1,13 @@
 ---
 title: series property
-second_title: Referência de API Aspose.Slides para Python via .NET
+second_title: Aspose.Slides para Python via .NET Referência da API
 description: 
 type: docs
 url: /pt/aspose.slides.charts/ichartdata/series/
-weight: 130
+weight: 140
 ---
 ## series propriedade
-Obtém a série.
+Obtém a series.
             Somente leitura [`IChartSeriesCollection`](/slides/python-net/pt/aspose.slides.charts/ichartseriescollection).
 
 ### Definição:
@@ -18,7 +18,7 @@ def series(self):
 ```
 
 
-### Ver Também
+### Veja Também
 * classe [`IChartData`](/slides/python-net/pt/aspose.slides.charts/ichartdata)
 * classe [`IChartSeriesCollection`](/slides/python-net/pt/aspose.slides.charts/ichartseriescollection)
 * módulo [`aspose.slides.charts`](/slides/python-net/pt/aspose.slides.charts)

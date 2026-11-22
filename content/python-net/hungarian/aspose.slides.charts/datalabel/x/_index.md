@@ -1,13 +1,13 @@
 ---
 title: x property
-second_title: Aspose.Slides Pythonhoz a .NET API referencián keresztül
+second_title: Aspose.Slides a Python számára a .NET API hivatkozás
 description: 
 type: docs
 url: /hu/aspose.slides.charts/datalabel/x/
-weight: 270
+weight: 280
 ---
 ## x tulajdonság
-Visszaadja vagy beállítja a cím x koordinátáját a diagram szélességének arányaként.
+Visszaadja vagy beállítja egy cím x koordinátáját a diagram szélességének arányaként.
             Olvasás/írás **float**.
 
 ### Definíció:

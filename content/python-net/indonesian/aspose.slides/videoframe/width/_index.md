@@ -1,16 +1,16 @@
 ---
 title: width property
-second_title: Referensi API Aspose.Slides untuk Python via .NET
+second_title: Aspose.Slides untuk Python via .NET Referensi API
 description: 
 type: docs
 url: /id/aspose.slides/videoframe/width/
-weight: 640
+weight: 650
 ---
-## width properti
-Gets or sets the width of the shape, measured in points.
+## properti width
+Mendapatkan atau mengatur width shape, diukur dalam poin.
             Baca/tulis **float**.
 
-### Keterangan
+### Catatan
 
 Nilai yang dikembalikan selalu terdefinisi dan tidak pernah **float**.
             Nilai yang ditetapkan juga harus terdefinisi; tetapkan **float** hanya pada properti dari instance `RawFrame`.
@@ -29,4 +29,4 @@ def width(self, value):
 ### Lihat Juga
 * kelas [`VideoFrame`](/slides/python-net/id/aspose.slides/videoframe)
 * modul [`aspose.slides`](/slides/python-net/id/aspose.slides)
-* pustaka [`Aspose.Slides`](/slides/python-net)
+* perpustakaan [`Aspose.Slides`](/slides/python-net)

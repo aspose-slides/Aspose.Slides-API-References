@@ -1,13 +1,13 @@
 ---
 title: sensitivity_labels property
-second_title: Aspose.Slides cho Python qua .NET Tham chiếu API
+second_title: Tham chiếu API Aspose.Slides cho Python qua .NET
 description: 
 type: docs
 url: /vi/aspose.slides/presentation/sensitivity_labels/
-weight: 340
+weight: 350
 ---
 ## sensitivity_labels thuộc tính
-Trả về bộ sưu tập các nhãn nhạy cảm được áp dụng cho tài liệu trình chiếu.
+Trả về bộ sưu tập các nhãn nhạy cảm được áp dụng cho tài liệu bản trình bày.
             Chỉ đọc [`ISensitivityLabelCollection`](/slides/python-net/vi/aspose.slides/isensitivitylabelcollection).
 
 ### Định nghĩa:
@@ -17,9 +17,8 @@ def sensitivity_labels(self):
     ...
 ```
 
-
-### Xem Thêm
+### Xem thêm
 * lớp [`ISensitivityLabelCollection`](/slides/python-net/vi/aspose.slides/isensitivitylabelcollection)
 * lớp [`Presentation`](/slides/python-net/vi/aspose.slides/presentation)
-* mô-đun [`aspose.slides`](/slides/python-net/vi/aspose.slides)
-* thư viện [`Aspose.Slides`](/slides/python-net)
+* module [`aspose.slides`](/slides/python-net/vi/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

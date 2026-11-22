@@ -1,10 +1,10 @@
 ---
 title: x property
-second_title: Aspose.Slides for Python via .NET API 레퍼런스
+second_title: Aspose.Slides for Python via .NET API 참조
 description: 
 type: docs
 url: /ko/aspose.slides.charts/datalabel/x/
-weight: 270
+weight: 280
 ---
 ## x 속성
 제목의 x 좌표를 차트 너비의 비율로 반환하거나 설정합니다.
@@ -22,7 +22,7 @@ def x(self, value):
 ```
 
 
-### 참조
+### 관련 항목
 * 클래스 [`DataLabel`](/slides/python-net/ko/aspose.slides.charts/datalabel)
 * 모듈 [`aspose.slides.charts`](/slides/python-net/ko/aspose.slides.charts)
 * 라이브러리 [`Aspose.Slides`](/slides/python-net)

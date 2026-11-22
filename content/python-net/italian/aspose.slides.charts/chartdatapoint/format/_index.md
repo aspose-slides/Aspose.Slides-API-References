@@ -1,12 +1,12 @@
 ---
 title: format property
-second_title: Riferimento API Aspose.Slides per Python via .NET
+second_title: Aspose.Slides per Python tramite .NET Riferimento API
 description: 
 type: docs
 url: /it/aspose.slides.charts/chartdatapoint/format/
-weight: 130
+weight: 170
 ---
-## proprietà format
+## format proprietà
 Rappresenta le proprietà di formattazione.
             Lettura/scrittura [`IFormat`](/slides/python-net/it/aspose.slides.charts/iformat).
 

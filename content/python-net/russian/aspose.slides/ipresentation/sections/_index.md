@@ -1,14 +1,14 @@
 ---
 title: sections property
-second_title: Aspose.Slides для Python через .NET API справочник
+second_title: Aspose.Slides для Python через .NET справочник API
 description: 
 type: docs
 url: /ru/aspose.slides/ipresentation/sections/
-weight: 320
+weight: 330
 ---
 ## sections свойство
 Возвращает список всех разделов слайдов, определённых в презентации.
-            Только для чтения [`ISectionCollection`](/slides/python-net/ru/aspose.slides/isectioncollection).
+Только для чтения [`ISectionCollection`](/slides/python-net/ru/aspose.slides/isectioncollection).
 
 ### Определение:
 ```python

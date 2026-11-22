@@ -4,11 +4,11 @@ second_title: Aspose.Slides برای Python از طریق .NET مرجع API
 description: 
 type: docs
 url: /fa/aspose.slides/ipresentation/digital_signatures/
-weight: 170
+weight: 180
 ---
-## digital_signatures ویژگی
-مجموعه‌ای از امضاهایی که برای امضای ارائه استفاده می‌شوند را برمی‌گرداند.
-            فقط-خواندنی [`IDigitalSignatureCollection`](/slides/python-net/fa/aspose.slides/idigitalsignaturecollection).
+## digital_signatures خاصیت
+مجموعه امضاهایی که برای امضای ارائه استفاده می‌شوند را بر می‌گرداند.
+فقط خواندنی [`IDigitalSignatureCollection`](/slides/python-net/fa/aspose.slides/idigitalsignaturecollection).
 
 ### تعریف:
 ```python

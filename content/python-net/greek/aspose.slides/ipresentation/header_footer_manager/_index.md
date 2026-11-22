@@ -1,14 +1,14 @@
 ---
 title: header_footer_manager property
-second_title: Aspose.Slides για Python μέσω .NET αναφορά API
+second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
 description: 
 type: docs
 url: /el/aspose.slides/ipresentation/header_footer_manager/
-weight: 210
+weight: 220
 ---
 ## header_footer_manager ιδιότητα
-Επιστρέφει τον διαχειριστή HeaderFooter της παρουσίασης.
-            Μόνο ανάγνωση [`IPresentationHeaderFooterManager`](/slides/python-net/el/aspose.slides/ipresentationheaderfootermanager).
+Επιστρέφει διαχειριστή HeaderFooter της παρουσίασης.
+            Μόνο για ανάγνωση [`IPresentationHeaderFooterManager`](/slides/python-net/el/aspose.slides/ipresentationheaderfootermanager).
 
 ### Ορισμός:
 ```python
@@ -16,7 +16,6 @@ weight: 210
 def header_footer_manager(self):
     ...
 ```
-
 
 ### Δείτε επίσης
 * κλάση [`IPresentation`](/slides/python-net/el/aspose.slides/ipresentation)

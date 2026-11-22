@@ -1,14 +1,16 @@
 ---
 title: value property
-second_title: Aspose.Slides per Python via .NET Riferimento API
+second_title: Riferimento API Aspose.Slides per Python via .NET
 description: 
 type: docs
 url: /it/aspose.slides.charts/ichartcategory/value/
-weight: 60
+weight: 70
 ---
 ## value proprietà
-Se UseCell è true allora questa proprietà rappresenta la proprietà AsCell.Value.
-            Se UseCell è false allora questa proprietà rappresenta la proprietà AsLiteral.
+If UseCell is true then this property represents AsCell.Value property.
+            Se UseCell è vero allora questa proprietà rappresenta AsCell.Value proprietà.
+            Se UseCell è false then this property represents AsLiteral property.
+            Se UseCell è falso allora questa proprietà rappresenta AsLiteral proprietà.
             Lettura/scrittura **qualsiasi**.
 
 ### Definizione:

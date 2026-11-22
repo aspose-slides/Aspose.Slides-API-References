@@ -1,13 +1,13 @@
 ---
 title: document_properties property
-second_title: Aspose.Slides для Python через .NET Справочник API
+second_title: Aspose.Slides для Python через .NET API Reference
 description: 
 type: docs
 url: /ru/aspose.slides/ipresentation/document_properties/
-weight: 180
+weight: 190
 ---
 ## document_properties свойство
-Возвращает объект DocumentProperties, который содержит стандартные и пользовательские свойства документа.
+Возвращает объект DocumentProperties, содержащий стандартные и пользовательские свойства документа.
             Только для чтения [`IDocumentProperties`](/slides/python-net/ru/aspose.slides/idocumentproperties).
 
 ### Определение:

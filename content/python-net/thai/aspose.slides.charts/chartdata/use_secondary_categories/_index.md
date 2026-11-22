@@ -1,19 +1,19 @@
 ---
 title: use_secondary_categories property
-second_title: Aspose.Slides สำหรับ Python ผ่าน .NET เอกสารอ้างอิง API
+second_title: อ้างอิง API ของ Aspose.Slides สำหรับ Python ผ่าน .NET
 description: 
 type: docs
 url: /th/aspose.slides.charts/chartdata/use_secondary_categories/
-weight: 150
+weight: 160
 ---
 ## use_secondary_categories คุณสมบัติ
-ถ้าเป็น false แล้ว [`ChartData.secondary_categories`](/slides/python-net/th/aspose.slides.charts/chartdata/secondary_categories) คุณสมบัติ คืนค่า None และข้อมูล 
-            ใน [`ChartData.categories`](/slides/python-net/th/aspose.slides.charts/chartdata/categories) คุณสมบัติ จะใช้ทั้งสำหรับชุดหลักและชุดรอง.
-            ถ้าเป็น true แล้วข้อมูลใน [`ChartData.secondary_categories`](/slides/python-net/th/aspose.slides.charts/chartdata/secondary_categories) คุณสมบัติ จะใช้สำหรับชุดรองและข้อมูล 
-            ใน [`ChartData.categories`](/slides/python-net/th/aspose.slides.charts/chartdata/categories) คุณสมบัติ จะใช้สำหรับชุดหลัก.
+If false then [`ChartData.secondary_categories`](/slides/python-net/th/aspose.slides.charts/chartdata/secondary_categories) คุณสมบัติ return None and data 
+            ในคุณสมบัติ [`ChartData.categories`](/slides/python-net/th/aspose.slides.charts/chartdata/categories) จะใช้ทั้งสำหรับ primary และ secondary series.
+            If true then data ในคุณสมบัติ [`ChartData.secondary_categories`](/slides/python-net/th/aspose.slides.charts/chartdata/secondary_categories) จะใช้สำหรับ secondary series และ data 
+            ในคุณสมบัติ [`ChartData.categories`](/slides/python-net/th/aspose.slides.charts/chartdata/categories) จะใช้สำหรับ primary series.
             อ่าน/เขียน **bool**.
 
-### คำนิยาม:
+### คำจำกัดความ:
 ```python
 @property
 def use_secondary_categories(self):

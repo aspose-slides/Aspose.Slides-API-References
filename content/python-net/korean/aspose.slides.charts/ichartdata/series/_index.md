@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API 레퍼런스
 description: 
 type: docs
 url: /ko/aspose.slides.charts/ichartdata/series/
-weight: 130
+weight: 140
 ---
 ## 시리즈 속성
 시리즈를 가져옵니다.
@@ -18,7 +18,7 @@ def series(self):
 ```
 
 
-### 관련 항목
+### 참조
 * 클래스 [`IChartData`](/slides/python-net/ko/aspose.slides.charts/ichartdata)
 * 클래스 [`IChartSeriesCollection`](/slides/python-net/ko/aspose.slides.charts/ichartseriescollection)
 * 모듈 [`aspose.slides.charts`](/slides/python-net/ko/aspose.slides.charts)

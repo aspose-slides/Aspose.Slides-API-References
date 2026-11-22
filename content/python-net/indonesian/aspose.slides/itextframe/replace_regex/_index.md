@@ -1,10 +1,10 @@
 ---
 title: replace_regex method
-second_title: Aspose.Slides untuk Python melalui Referensi API .NET
+second_title: Aspose.Slides untuk Python via .NET Referensi API
 description: 
 type: docs
 url: /id/aspose.slides/itextframe/replace_regex/
-weight: 40
+weight: 50
 ---
 ## replace_regex(self, regex, new_text) {#str-str}
 Mengganti semua kecocokan ekspresi reguler dengan string yang ditentukan.
@@ -22,4 +22,4 @@ def replace_regex(self, regex, new_text):
 ### Lihat Juga
 * kelas [`ITextFrame`](/slides/python-net/id/aspose.slides/itextframe)
 * modul [`aspose.slides`](/slides/python-net/id/aspose.slides)
-* pustaka [`Aspose.Slides`](/slides/python-net)
+* perpustakaan [`Aspose.Slides`](/slides/python-net)

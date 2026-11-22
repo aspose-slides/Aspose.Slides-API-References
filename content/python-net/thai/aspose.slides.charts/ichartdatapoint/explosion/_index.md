@@ -1,16 +1,16 @@
 ---
 title: explosion property
-second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Reference
+second_title: อ้างอิง API ของ Aspose.Slides สำหรับ Python ผ่าน .NET
 description: 
 type: docs
 url: /th/aspose.slides.charts/ichartdatapoint/explosion/
-weight: 120
+weight: 160
 ---
-## คุณสมบัติการระเบิด
+## explosion คุณสมบัติ
 ระบุจำนวนที่จุดข้อมูลจะถูกย้ายออกจากศูนย์กลางของพาย.
             อ่าน/เขียน **int**.
 
-### คำนิยาม:
+### คำจำกัดความ:
 ```python
 @property
 def explosion(self):

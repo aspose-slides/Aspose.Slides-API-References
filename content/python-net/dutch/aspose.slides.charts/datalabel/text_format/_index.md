@@ -4,7 +4,7 @@ second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides.charts/datalabel/text_format/
-weight: 230
+weight: 240
 ---
 ## text_format eigenschap
 Retourneert tekstopmaak.

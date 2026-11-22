@@ -4,14 +4,14 @@ second_title: Aspose.Slides for Python via .NET API 参考
 description: 
 type: docs
 url: /zh/aspose.slides.charts/ichartdatapoint/color_value/
-weight: 90
+weight: 130
 ---
 ## color_value 属性
-返回图表数据点的颜色值。
+获取图表数据点的颜色值。
             用于地图图表。 
             只读 [`IDoubleChartValue`](/slides/python-net/zh/aspose.slides.charts/idoublechartvalue).
 
-### 定义：
+### 定义:
 ```python
 @property
 def color_value(self):

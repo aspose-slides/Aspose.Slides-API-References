@@ -4,11 +4,11 @@ second_title: Aspose.Slides for Python via .NET API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides/textframe/text/
-weight: 150
+weight: 160
 ---
 ## テキスト プロパティ
 TextFrame のプレーンテキストを取得または設定します。
-            読み取り/書き込み **str**.
+            読み取り/書き込み **str**。
 
 ### 定義:
 ```python

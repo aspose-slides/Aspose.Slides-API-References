@@ -4,7 +4,7 @@ second_title: Referensi API Aspose.Slides untuk Python via .NET
 description: 
 type: docs
 url: /id/aspose.slides.charts/idatalabel/slide/
-weight: 210
+weight: 220
 ---
 ## properti slide
 ### Definisi:

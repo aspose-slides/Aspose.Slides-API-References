@@ -1,14 +1,14 @@
 ---
 title: hyperlink_queries property
-second_title: Aspose.Slides for Python via .NET API संदर्भ
+second_title: Aspose.Slides Python के लिए .NET API Reference के माध्यम से
 description: 
 type: docs
 url: /hi/aspose.slides/presentation/hyperlink_queries/
-weight: 230
+weight: 240
 ---
-## hyperlink_queries प्रॉपर्टी
-सभी प्रस्तुति स्लाइड्स में शामिल सभी हाइपरलिंक तक आसान पहुंच प्रदान करता है (मास्टर, लेआउट, नोट्स स्लाइड्स में नहीं)।
-केवल-पढ़ने योग्य [`IHyperlinkQueries`](/slides/python-net/hi/aspose.slides/ihyperlinkqueries)।
+## hyperlink_queries गुण
+Provides easy access to all hyperlinks contained in all presentation slides (not in master, layout, notes slides).
+            केवल पढ़ने योग्य [`IHyperlinkQueries`](/slides/python-net/hi/aspose.slides/ihyperlinkqueries).
 
 ### परिभाषा:
 ```python
@@ -18,7 +18,7 @@ def hyperlink_queries(self):
 ```
 
 
-### संबंधी देखें
+### संबंधित देखें
 * क्लास [`IHyperlinkQueries`](/slides/python-net/hi/aspose.slides/ihyperlinkqueries)
 * क्लास [`Presentation`](/slides/python-net/hi/aspose.slides/presentation)
 * मॉड्यूल [`aspose.slides`](/slides/python-net/hi/aspose.slides)

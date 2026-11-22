@@ -4,10 +4,10 @@ second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides/ipresentation/sections/
-weight: 320
+weight: 330
 ---
 ## sections eigenschap
-Retourneert een lijst van alle slides sections die zijn gedefinieerd in de presentatie.
+Retourneert een lijst van alle slide-secties die in de presentatie zijn gedefinieerd.
             Alleen-lezen [`ISectionCollection`](/slides/python-net/nl/aspose.slides/isectioncollection).
 
 ### Definitie:

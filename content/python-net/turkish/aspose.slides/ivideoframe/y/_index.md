@@ -1,10 +1,10 @@
 ---
 title: y property
-second_title: Aspose.Slides Python için .NET API Referansı
+second_title: Aspose.Slides için Python .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides/ivideoframe/y/
-weight: 640
+weight: 650
 ---
 ## y özelliği
 ### Tanım:

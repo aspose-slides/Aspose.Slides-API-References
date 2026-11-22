@@ -1,6 +1,6 @@
 ---
 title: PositionedString class
-second_title: Aspose.Slides Pythonhoz .NET-en keresztül API-referencia
+second_title: Aspose.Slides Python számára a .NET-en keresztül API-referencia
 description: 
 type: docs
 url: /hu/aspose.slides/positionedstring/
@@ -9,13 +9,7 @@ url: /hu/aspose.slides/positionedstring/
 
 A struktúra egész szám kulcsot és karakterlánc értéket tartalmaz, és a KeyValuePair<int, string> ideiglenes helyettesítője.
 
-A PositionedString típus a következő tagokkal rendelkezik:
-
-## Konstruktorok
-
-| Konstruktor | Leírás |
-| :- | :- |
-| [`__init__(self)`](/slides/python-net/hu/aspose.slides/positionedstring/__init__/#) |  |
+A PositionedString típus a következő tagokat teszi elérhetővé:
 
 ## Tulajdonságok
 

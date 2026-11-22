@@ -4,10 +4,10 @@ second_title: Aspose.Slides för Python via .NET API-referens
 description: 
 type: docs
 url: /sv/aspose.slides.charts/chartdatapoint/marker/
-weight: 180
+weight: 220
 ---
-## markör egenskap
-Anger en datamarkör.
+## marker egenskap
+Specifies a datamarkör.
             Skrivskyddad [`IMarker`](/slides/python-net/sv/aspose.slides.charts/imarker).
 
 ### Definition:

@@ -1,12 +1,12 @@
 ---
 title: y property
-second_title: مرجع API لـ Aspose.Slides للبايثون عبر .NET
+second_title: Aspose.Slides لـ Python عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides.charts/idatalabel/y/
-weight: 270
+weight: 280
 ---
-## y خاصية
+## y الخاصية
 ### التعريف:
 ```python
 @property

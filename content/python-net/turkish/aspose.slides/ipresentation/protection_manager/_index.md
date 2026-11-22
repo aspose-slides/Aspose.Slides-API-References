@@ -1,14 +1,14 @@
 ---
 title: protection_manager property
-second_title: Aspose.Slides Python için .NET aracılığıyla API Referansı
+second_title: Aspose.Slides için Python üzerinden .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides/ipresentation/protection_manager/
-weight: 310
+weight: 320
 ---
 ## protection_manager özelliği
-Bu sunum için izinlerin yöneticisini alır. 
-            Yalnızca okunabilir [`IProtectionManager`](/slides/python-net/tr/aspose.slides/iprotectionmanager).
+Bu sunum için izinlerin yöneticisini alır.
+            Salt Okunur [`IProtectionManager`](/slides/python-net/tr/aspose.slides/iprotectionmanager).
 
 ### Tanım:
 ```python

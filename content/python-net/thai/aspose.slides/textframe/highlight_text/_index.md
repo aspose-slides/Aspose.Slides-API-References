@@ -1,13 +1,13 @@
 ---
 title: highlight_text method
-second_title: Aspose.Slides สำหรับ Python ผ่าน .NET อ้างอิง API
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET เอกสารอ้างอิง API
 description: 
 type: docs
 url: /th/aspose.slides/textframe/highlight_text/
-weight: 20
+weight: 30
 ---
 ## highlight_text(self, text, highlight_color) {#str-asposeslidescolor}
-เน้นข้อความตัวอย่างทั้งหมดที่ตรงกันด้วยสีที่ระบุ.
+ไฮไลท์ข้อความที่ตรงกับข้อความตัวอย่างทั้งหมดด้วยสีที่ระบุ.
 
 ```python
 def highlight_text(self, text, highlight_color):
@@ -16,11 +16,11 @@ def highlight_text(self, text, highlight_color):
 
 | พารามิเตอร์ | ประเภท | คำอธิบาย |
 | :- | :- | :- |
-| text | **str** | ข้อความตัวอย่างสำหรับการเน้น. |
-| highlight_color | [`Color`](/slides/python-net/th/aspose.slides/color) | สีสำหรับการเน้นข้อความ. |
+| text | **str** | ตัวอย่างข้อความสำหรับการไฮไลต์. |
+| highlight_color | [`Color`](/slides/python-net/th/aspose.slides/color) | สีสำหรับไฮไลท์ข้อความ. |
 
 ## highlight_text(self, text, highlight_color, options) {#str-asposeslidescolor-itexthighlightingoptions}
-เน้นข้อความตัวอย่างทั้งหมดที่ตรงกันด้วยสีที่ระบุ.
+ไฮไลท์ข้อความที่ตรงกับข้อความตัวอย่างทั้งหมดด้วยสีที่ระบุ.
 
 ```python
 def highlight_text(self, text, highlight_color, options):
@@ -29,12 +29,12 @@ def highlight_text(self, text, highlight_color, options):
 
 | พารามิเตอร์ | ประเภท | คำอธิบาย |
 | :- | :- | :- |
-| text | **str** | ข้อความที่จะเน้น. |
-| highlight_color | [`Color`](/slides/python-net/th/aspose.slides/color) | สีสำหรับการเน้นข้อความ. |
-| options | [`ITextHighlightingOptions`](/slides/python-net/th/aspose.slides/itexthighlightingoptions) | ตัวเลือกการเน้นสี. |
+| text | **str** | ข้อความที่ต้องไฮไลต์. |
+| highlight_color | [`Color`](/slides/python-net/th/aspose.slides/color) | สีสำหรับไฮไลท์ข้อความ. |
+| options | [`ITextHighlightingOptions`](/slides/python-net/th/aspose.slides/itexthighlightingoptions) | ตัวเลือกการไฮไลท์. |
 
 ## highlight_text(self, text, highlight_color, options, callback) {#str-asposeslidescolor-itextsearchoptions-ifindresultcallback}
-เน้นข้อความตัวอย่างทั้งหมดที่ตรงกันด้วยสีที่ระบุ.
+ไฮไลท์ข้อความที่ตรงกับข้อความตัวอย่างทั้งหมดด้วยสีที่ระบุ.
 
 ```python
 def highlight_text(self, text, highlight_color, options, callback):
@@ -43,10 +43,10 @@ def highlight_text(self, text, highlight_color, options, callback):
 
 | พารามิเตอร์ | ประเภท | คำอธิบาย |
 | :- | :- | :- |
-| text | **str** | ข้อความที่จะเน้น. |
-| highlight_color | [`Color`](/slides/python-net/th/aspose.slides/color) | สีสำหรับการเน้นข้อความ. |
+| text | **str** | ข้อความที่ต้องไฮไลต์. |
+| highlight_color | [`Color`](/slides/python-net/th/aspose.slides/color) | สีสำหรับไฮไลท์ข้อความ. |
 | options | [`ITextSearchOptions`](/slides/python-net/th/aspose.slides/itextsearchoptions) | ตัวเลือกการค้นหาข้อความ [`ITextSearchOptions`](/slides/python-net/th/aspose.slides/itextsearchoptions). |
-| callback | [`IFindResultCallback`](/slides/python-net/th/aspose.slides/ifindresultcallback) | อ็อบเจ็กต์คอลแบ็กสำหรับรับผลการค้นหา [`IFindResultCallback`](/slides/python-net/th/aspose.slides/ifindresultcallback). |
+| callback | [`IFindResultCallback`](/slides/python-net/th/aspose.slides/ifindresultcallback) | อ็อบเจกต์ callback สำหรับรับผลการค้นหา [`IFindResultCallback`](/slides/python-net/th/aspose.slides/ifindresultcallback). |
 
 ### ดูเพิ่มเติม
 * คลาส [`IFindResultCallback`](/slides/python-net/th/aspose.slides/ifindresultcallback)

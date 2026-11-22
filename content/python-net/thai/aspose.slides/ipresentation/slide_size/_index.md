@@ -4,11 +4,11 @@ second_title: Aspose.Slides สำหรับ Python ผ่าน .NET อ้�
 description: 
 type: docs
 url: /th/aspose.slides/ipresentation/slide_size/
-weight: 340
+weight: 350
 ---
 ## slide_size คุณสมบัติ
 ส่งคืนอ็อบเจ็กต์ขนาดสไลด์.
-อ่านอย่างเดียว [`ISlideSize`](/slides/python-net/th/aspose.slides/islidesize).
+            อ่านอย่างเดียว [`ISlideSize`](/slides/python-net/th/aspose.slides/islidesize).
 
 ### คำนิยาม:
 ```python
@@ -16,6 +16,7 @@ weight: 340
 def slide_size(self):
     ...
 ```
+
 
 ### ดูเพิ่มเติม
 * คลาส [`IPresentation`](/slides/python-net/th/aspose.slides/ipresentation)

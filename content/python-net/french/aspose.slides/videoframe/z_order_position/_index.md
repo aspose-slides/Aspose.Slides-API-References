@@ -1,15 +1,15 @@
 ---
 title: z_order_position property
-second_title: Référence API Aspose.Slides pour Python via .NET
+second_title: Référence de l'API Aspose.Slides pour Python via .NET
 description: 
 type: docs
 url: /fr/aspose.slides/videoframe/z_order_position/
-weight: 670
+weight: 680
 ---
 ## z_order_position propriété
-Retourne la position d'une forme dans l'ordre Z.
-            Shapes[0] renvoie la forme à l'arrière de l'ordre Z,
-            et Shapes[Shapes.Count - 1] renvoie la forme à l'avant de l'ordre Z.
+Retourne la position d'une forme dans le z-order.
+            Shapes[0] retourne la forme à l'arrière du z-order,
+            et Shapes[Shapes.Count - 1] retourne la forme à l'avant du z-order.
             Lecture seule **int**.
 
 ### Définition:

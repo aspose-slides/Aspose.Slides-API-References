@@ -1,16 +1,16 @@
 ---
 title: split_text_by_columns method
-second_title: Tham chiếu API Aspose.Slides cho Python qua .NET
+second_title: Aspose.Slides cho Python qua .NET Tham chiếu API
 description: 
 type: docs
 url: /vi/aspose.slides/textframe/split_text_by_columns/
-weight: 60
+weight: 70
 ---
 ## split_text_by_columns(self) {#}
-Phân tách nội dung văn bản của [`ITextFrame`](/slides/python-net/vi/aspose.slides/itextframe) thành một mảng các chuỗi,  
+Tách nội dung văn bản của [`ITextFrame`](/slides/python-net/vi/aspose.slides/itextframe) thành một mảng các chuỗi,  
             trong đó mỗi phần tử tương ứng với một cột văn bản riêng biệt trong khung.
 
-### Trả về
+### Giá trị trả về
 
 Một mảng các chuỗi, trong đó mỗi chuỗi đại diện cho nội dung văn bản của một cột cụ thể trong [`ITextFrame`](/slides/python-net/vi/aspose.slides/itextframe).
 

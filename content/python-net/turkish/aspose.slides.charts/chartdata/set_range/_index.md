@@ -1,25 +1,24 @@
 ---
 title: set_range method
-second_title: Aspose.Slides Python için .NET API Referansı
+second_title: Aspose.Slides for Python via .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides.charts/chartdata/set_range/
-weight: 40
+weight: 50
 ---
 ## set_range(self, formula) {#str}
-Grafik veri aralığını ayarlar. Seriler ve kategoriler yeni veri aralığına göre güncellenecektir.
-            Eğer veri aralığındaki seri sayısı grafik verisindeki seri sayısından daha fazla ise, mevcut koleksiyondaki son seriye aynı tipe sahip ek seriler koleksiyonun sonuna eklenecektir.
-
+Set chart data range. Series and categories will be updated based on new data range.
+            If amount of series in data range greater than count of series in the chart data then additional series with the same type
+            as a last series in the current collection will be added to the end of the collection.
 
 ```python
 def set_range(self, formula):
     ...
 ```
 
-
 | Parametre | Tür | Açıklama |
 | :- | :- | :- |
-| formula | **str** | The cells data range formula. E.g: "Sheet1!$A$1:$C$4" , "SomeSheetName!A1:B100", "Sheet1!$A$1:$B$5;Sheet1!$D$1:$D$5". |
+| formula | **str** | Hücre veri aralığı formülü. Örneğin: "Sheet1!$A$1:$C$4" , "SomeSheetName!A1:B100", "Sheet1!$A$1:$B$5;Sheet1!$D$1:$D$5". |
 
 ### İstisnalar
 
@@ -27,11 +26,9 @@ def set_range(self, formula):
 | :- | :- |
 | **RuntimeError(Proxy error(ArgumentNullException))** | formula None'dur. |
 | **RuntimeError(Proxy error(InvalidOperationException))** | Desteklenmeyen grafik türü |
-| **RuntimeError(Proxy error(ArgumentException))** | formula yanlış biçimde. |
+| **RuntimeError(Proxy error(ArgumentException))** | formula hatalı formata sahip. |
 
-
-
-### Ayrıca Bakınız
+### İlgili
 * sınıf [`ChartData`](/slides/python-net/tr/aspose.slides.charts/chartdata)
 * modül [`aspose.slides.charts`](/slides/python-net/tr/aspose.slides.charts)
 * kütüphane [`Aspose.Slides`](/slides/python-net)

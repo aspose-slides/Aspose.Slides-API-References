@@ -1,14 +1,14 @@
 ---
 title: y_value property
-second_title: Aspose.Slides के लिये Python के माध्यम से .NET API संदर्भ
+second_title: Aspose.Slides Python के लिए .NET के माध्यम से API संदर्भ
 description: 
 type: docs
 url: /hi/aspose.slides.charts/chartdatapoint/y_value/
-weight: 240
+weight: 280
 ---
-## y_value प्रॉपर्टी
+## y_value गुण
 YValue.
-            केवल पढ़ने योग्य [`IDoubleChartValue`](/slides/python-net/hi/aspose.slides.charts/idoublechartvalue).
+केवल पढ़ने योग्य [`IDoubleChartValue`](/slides/python-net/hi/aspose.slides.charts/idoublechartvalue).
 
 ### परिभाषा:
 ```python
@@ -17,8 +17,7 @@ def y_value(self):
     ...
 ```
 
-
-### और देखें
+### संबंधित देखें
 * क्लास [`ChartDataPoint`](/slides/python-net/hi/aspose.slides.charts/chartdatapoint)
 * क्लास [`IDoubleChartValue`](/slides/python-net/hi/aspose.slides.charts/idoublechartvalue)
 * मॉड्यूल [`aspose.slides.charts`](/slides/python-net/hi/aspose.slides.charts)

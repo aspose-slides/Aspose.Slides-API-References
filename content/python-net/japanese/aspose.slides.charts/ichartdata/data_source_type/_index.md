@@ -4,10 +4,10 @@ second_title: Aspose.Slides for Python via .NET API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides.charts/ichartdata/data_source_type/
-weight: 90
+weight: 100
 ---
 ## data_source_type プロパティ
-チャートのデータ ソースを表します
+chart のデータ ソースを表します
 
 ### 定義:
 ```python

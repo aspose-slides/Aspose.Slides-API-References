@@ -4,11 +4,11 @@ second_title: Aspose.Slides для Python через .NET справочник A
 description: 
 type: docs
 url: /ru/aspose.slides.charts/ichartdatapoint/index/
-weight: 140
+weight: 180
 ---
-## index property
-Determines which of the parent's children collection this data point applies to.
-            Read **int**.
+## index свойство
+Определяет, к какой из коллекций дочерних элементов родителя относится эта точка данных.
+            Точно для чтения **int**.
 
 ### Определение:
 ```python

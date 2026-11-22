@@ -1,12 +1,12 @@
 ---
 title: first_slide_number property
-second_title: Aspose.Slides for Python via .NET API Referansı
+second_title: Aspose.Slides için Python üzerinden .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides/presentation/first_slide_number/
-weight: 200
+weight: 210
 ---
-## first_slide_number özelliği
+## first_slide_number özellik
 Sunumda ilk slayt numarasını temsil eder
 
 ### Tanım:
@@ -21,7 +21,7 @@ def first_slide_number(self, value):
 ```
 
 
-### Bakınız
+### Ayrıca Bakınız
 * sınıf [`Presentation`](/slides/python-net/tr/aspose.slides/presentation)
 * modül [`aspose.slides`](/slides/python-net/tr/aspose.slides)
 * kütüphane [`Aspose.Slides`](/slides/python-net)

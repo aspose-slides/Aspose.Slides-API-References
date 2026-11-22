@@ -1,10 +1,10 @@
 ---
 title: parent_cell property
-second_title: Aspose.Slides dla Pythona przez .NET Referencja API
+second_title: Aspose.Slides dla Pythona via .NET – referencja API
 description: 
 type: docs
 url: /pl/aspose.slides/itextframe/parent_cell/
-weight: 110
+weight: 120
 ---
 ## parent_cell właściwość
 Zwraca komórkę nadrzędną lub None, jeśli obiekt nadrzędny nie implementuje interfejsu ICell.
@@ -16,7 +16,6 @@ Zwraca komórkę nadrzędną lub None, jeśli obiekt nadrzędny nie implementuje
 def parent_cell(self):
     ...
 ```
-
 
 ### Zobacz także
 * klasa [`ICell`](/slides/python-net/pl/aspose.slides/icell)

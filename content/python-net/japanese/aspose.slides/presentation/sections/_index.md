@@ -1,13 +1,13 @@
 ---
 title: sections property
-second_title: Aspose.Slides for Python via .NET API リファレンス
+second_title: Aspose.Slides の Python 用 .NET API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides/presentation/sections/
-weight: 330
+weight: 340
 ---
 ## sections プロパティ
-プレゼンテーションで定義されているすべてのスライド sections のリストを返します。
+Returns a list of all slides sections that are defined in the presentation.
             読み取り専用 [`ISectionCollection`](/slides/python-net/ja/aspose.slides/isectioncollection).
 
 ### 定義:

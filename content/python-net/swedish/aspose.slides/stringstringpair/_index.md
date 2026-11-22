@@ -9,11 +9,7 @@ url: /sv/aspose.slides/stringstringpair/
 
 Strukturen innehåller string nyckel och string värde och är en tillfällig ersättning för KeyValuePair<string, string>
 
-## Konstruktörer
-
-| Konstruktor | Beskrivning |
-| :- | :- |
-| [`__init__(self)`](/slides/python-net/sv/aspose.slides/stringstringpair/__init__/#) |  |
+Typen StringStringPair exponerar följande medlemmar:
 
 ## Egenskaper
 
@@ -23,6 +19,6 @@ Strukturen innehåller string nyckel och string värde och är en tillfällig er
 | [`value`](/slides/python-net/sv/aspose.slides/stringstringpair/value/) | String värde |
 
 
-### Se även
+### Se också
 * modul [`aspose.slides`](/slides/python-net/sv/aspose.slides)
 * bibliotek [`Aspose.Slides`](/slides/python-net)

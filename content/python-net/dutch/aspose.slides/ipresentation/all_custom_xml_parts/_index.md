@@ -4,10 +4,10 @@ second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides/ipresentation/all_custom_xml_parts/
-weight: 90
+weight: 100
 ---
 ## all_custom_xml_parts eigenschap
-Geeft alle aangepaste gegevensdelen in de presentatie terug.
+Retourneert alle aangepaste gegevensonderdelen in de presentatie.
             Alleen-lezen [`ICustomXmlPart`](/slides/python-net/nl/aspose.slides/icustomxmlpart)[].
 
 ### Definitie:

@@ -1,27 +1,31 @@
 ---
 title: replace_text method
-second_title: مرجع API لـ Aspose.Slides للبايثون عبر .NET
+second_title: مرجع API لـ Aspose.Slides للـ Python عبر .NET
 description: 
 type: docs
 url: /ar/aspose.slides/textframe/replace_text/
-weight: 50
+weight: 60
 ---
 ## replace_text(self, old_text, new_text, options, callback) {#str-str-itextsearchoptions-ifindresultcallback}
-يستبدل جميع مرات ظهور النص المحدد بنص آخر محدد.
+يستبدل جميع تواظرات النص المحدد بنص آخر محدد.
+
 
 ```python
 def replace_text(self, old_text, new_text, options, callback):
     ...
 ```
 
-| Parameter | Type | Description |
+
+| معـامل | نوع | الوصف |
 | :- | :- | :- |
 | old_text | **str** | السلسلة التي سيتم استبدالها. |
-| new_text | **str** | السلسلة التي تستبدل جميع مرات ظهور oldText. |
-| options | [`ITextSearchOptions`](/slides/python-net/ar/aspose.slides/itextsearchoptions) | خيارات بحث النص [`ITextSearchOptions`](/slides/python-net/ar/aspose.slides/itextsearchoptions). |
-| callback | [`IFindResultCallback`](/slides/python-net/ar/aspose.slides/ifindresultcallback) | كائن رد النداء لحفظ نتيجة عملية الاستبدال [`IFindResultCallback`](/slides/python-net/ar/aspose.slides/ifindresultcallback). |
+| new_text | **str** | السلسلة التي ستحل محل جميع تواظرات oldText. |
+| options | [`ITextSearchOptions`](/slides/python-net/ar/aspose.slides/itextsearchoptions) | خيارات البحث النصي [`ITextSearchOptions`](/slides/python-net/ar/aspose.slides/itextsearchoptions). |
+| callback | [`IFindResultCallback`](/slides/python-net/ar/aspose.slides/ifindresultcallback) | كائن رد الاتصال لحفظ نتيجة عملية الاستبدال [`IFindResultCallback`](/slides/python-net/ar/aspose.slides/ifindresultcallback). |
 
-### انظر أيضًا
+
+
+### انظر أيضاً
 * فئة [`IFindResultCallback`](/slides/python-net/ar/aspose.slides/ifindresultcallback)
 * فئة [`ITextSearchOptions`](/slides/python-net/ar/aspose.slides/itextsearchoptions)
 * فئة [`TextFrame`](/slides/python-net/ar/aspose.slides/textframe)

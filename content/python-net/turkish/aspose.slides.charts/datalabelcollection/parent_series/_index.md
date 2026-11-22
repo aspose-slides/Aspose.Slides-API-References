@@ -1,14 +1,14 @@
 ---
 title: parent_series property
-second_title: Aspose.Slides for Python via .NET API Referansı
+second_title: Aspose.Slides Python için .NET üzerinden API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides.charts/datalabelcollection/parent_series/
-weight: 140
+weight: 150
 ---
 ## parent_series özelliği
 Üst seriyi alır.
-            Salt okunur [`IChartSeries`](/slides/python-net/tr/aspose.slides.charts/ichartseries).
+            Yalnızca okunur [`IChartSeries`](/slides/python-net/tr/aspose.slides.charts/ichartseries).
 
 ### Tanım:
 ```python
@@ -18,7 +18,7 @@ def parent_series(self):
 ```
 
 
-### Ayrıca Bakınız
+### Ayrıca bakınız
 * sınıf [`DataLabelCollection`](/slides/python-net/tr/aspose.slides.charts/datalabelcollection)
 * sınıf [`IChartSeries`](/slides/python-net/tr/aspose.slides.charts/ichartseries)
 * modül [`aspose.slides.charts`](/slides/python-net/tr/aspose.slides.charts)

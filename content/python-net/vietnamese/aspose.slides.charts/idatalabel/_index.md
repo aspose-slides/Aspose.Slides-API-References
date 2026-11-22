@@ -1,23 +1,24 @@
 ---
 title: IDataLabel class
-second_title: Aspose.Slides cho Python qua .NET Tham chiếu API
+second_title: Tham chiếu API Aspose.Slides cho Python qua .NET
 description: 
 type: docs
 url: /vi/aspose.slides.charts/idatalabel/
 ---
 ## IDataLabel lớp
 
-Represents a series labels.
+Biểu diễn các nhãn của chuỗi.
 
-The IDataLabel type exposes the following members:
+Kiểu IDataLabel cung cấp các thành viên sau:
 
 ## Thuộc tính
 
-| Property | Description |
+| Thuộc tính | Mô tả |
 | :- | :- |
-| [`is_visible`](/slides/python-net/vi/aspose.slides.charts/idatalabel/is_visible/) | False có nghĩa là nhãn dữ liệu không hiển thị (và do đó tất cả các cờ Show*-flags (ShowValue, ...) đều là false).<br/>            Chỉ đọc **bool**. |
+| [`is_visible`](/slides/python-net/vi/aspose.slides.charts/idatalabel/is_visible/) | False có nghĩa là nhãn dữ liệu không hiển thị (và do đó tất cả các cờ Show*-flags (ShowValue, ...) đều sai).<br/>            Chỉ đọc **bool**. |
 | [`data_label_format`](/slides/python-net/vi/aspose.slides.charts/idatalabel/data_label_format/) | Trả về định dạng của nhãn dữ liệu.<br/>            Chỉ đọc [`IDataLabelFormat`](/slides/python-net/vi/aspose.slides.charts/idatalabelformat). |
-| [`value_from_cell`](/slides/python-net/vi/aspose.slides.charts/idatalabel/value_from_cell/) | Lấy hoặc đặt ô dữ liệu workbook. Áp dụng nếu thuộc tính IDataLabelFormat.ShowLabelValueFromCell bằng true. |
+| [`value_from_cell`](/slides/python-net/vi/aspose.slides.charts/idatalabel/value_from_cell/) | Lấy hoặc đặt ô dữ liệu của workbook. Được áp dụng nếu thuộc tính IDataLabelFormat.ShowLabelValueFromCell bằng true. |
+| [`label_shape_type`](/slides/python-net/vi/aspose.slides.charts/idatalabel/label_shape_type/) | Lấy hoặc đặt kiểu hình dạng của nhãn dữ liệu.<br/>            Trả về [`ShapeType.NOT_DEFINED`](/slides/python-net/vi/aspose.slides/shapetype/NOT_DEFINED) nếu không có hình dạng nào được xác định. |
 | [`x`](/slides/python-net/vi/aspose.slides.charts/idatalabel/x/) |  |
 | [`y`](/slides/python-net/vi/aspose.slides.charts/idatalabel/y/) |  |
 | [`width`](/slides/python-net/vi/aspose.slides.charts/idatalabel/width/) |  |
@@ -36,12 +37,12 @@ The IDataLabel type exposes the following members:
 
 ## Phương thức
 
-| Method | Description |
+| Phương thức | Mô tả |
 | :- | :- |
-| [`hide(self)`](/slides/python-net/vi/aspose.slides.charts/idatalabel/hide/#) | Ẩn nhãn dữ liệu bằng cách đặt tất cả các cờ Show*-flags (ShowValue, ...) ở trạng thái false.<br/>            IsVisible sẽ là false sau thao tác này. |
+| [`hide(self)`](/slides/python-net/vi/aspose.slides.charts/idatalabel/hide/#) | Ẩn nhãn dữ liệu bằng cách đặt tất cả các cờ Show*-flags (ShowValue, ...) thành trạng thái false.<br/>            IsVisible sẽ là false sau thao tác này. |
 | [`get_actual_label_text(self)`](/slides/python-net/vi/aspose.slides.charts/idatalabel/get_actual_label_text/#) | Trả về văn bản nhãn thực tế dựa trên cài đặt DataLabelFormat hoặc giá trị TextFrameForOverriding.Text. |
 | [`add_text_frame_for_overriding(self, text)`](/slides/python-net/vi/aspose.slides.charts/idatalabel/add_text_frame_for_overriding/#str) |  |
 
-### Xem Thêm
+### Xem thêm
 * module [`aspose.slides.charts`](/slides/python-net/vi/aspose.slides.charts)
 * thư viện [`Aspose.Slides`](/slides/python-net)

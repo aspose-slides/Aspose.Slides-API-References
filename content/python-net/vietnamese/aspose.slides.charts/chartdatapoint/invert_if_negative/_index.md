@@ -1,13 +1,13 @@
 ---
 title: invert_if_negative property
-second_title: Tham chiếu API Aspose.Slides cho Python thông qua .NET
+second_title: Aspose.Slides cho Python qua .NET Tham chiếu API
 description: 
 type: docs
 url: /vi/aspose.slides.charts/chartdatapoint/invert_if_negative/
-weight: 150
+weight: 190
 ---
 ## invert_if_negative thuộc tính
-Xác định rằng điểm dữ liệu sẽ đảo ngược màu sắc của nó nếu giá trị là âm.
+Xác định rằng điểm dữ liệu sẽ đảo màu nếu giá trị là âm.
             Đọc/ghi **bool**.
 
 ### Định nghĩa:

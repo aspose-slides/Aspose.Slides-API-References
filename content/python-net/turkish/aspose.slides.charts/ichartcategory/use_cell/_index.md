@@ -1,23 +1,20 @@
 ---
 title: use_cell property
-second_title: Aspose.Slides for Python via .NET API Referansı
+second_title: Aspose.Slides Python için .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides.charts/ichartcategory/use_cell/
-weight: 50
+weight: 60
 ---
 ## use_cell özelliği
-True ise AsCell özelliği geçerlidir. Başka bir ifadeyle, çalışma sayfası 
-            kategori depolamak için kullanılır (bu durumda çok seviyeli kategori desteklenir).
-            False ise AsLiteral özelliği geçerlidir. Başka bir ifadeyle, çalışma sayfası 
-            kategori depolamak için KULLANILMAZ (ve bu durumda çok seviyeli kategoriler desteklenmez).
-            Salt okunur **bool**.
+Eğer true ise AsCell property geçerlidir. Başka bir deyişle, worksheet kategori depolamak için kullanılır (bu durumda çok seviyeli kategori desteklenir).  
+Eğer false ise AsLiteral property geçerlidir. Başka bir deyişle, worksheet kategori depolamak için KULLANILMAZ (ve bu durumda çok seviyeli kategori desteklenmez).  
+Salt-okunur **bool**.
 
 
 ### Açıklamalar
 
-Bu özelliğin değerini değiştirmek için (koleksiyondaki tüm kategoriler için) yeni 
-            değeri ChartCategoryCollection.UseCells özelliğine ayarlayın.
+Bu özelliğin değerini değiştirmek (koleksiyondaki tüm kategoriler için) yeni değeri ChartCategoryCollection.UseCells property ayarlayın.
 
 ### Tanım:
 ```python

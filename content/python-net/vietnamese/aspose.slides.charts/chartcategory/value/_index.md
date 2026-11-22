@@ -1,14 +1,14 @@
 ---
 title: value property
-second_title: Aspose.Slides cho Python thông qua .NET Tham chiếu API
+second_title: Tham chiếu API Aspose.Slides cho Python qua .NET
 description: 
 type: docs
 url: /vi/aspose.slides.charts/chartcategory/value/
-weight: 60
+weight: 70
 ---
-## thuộc tính value
-If UseCell is true then this property represents AsCell.Value property.
-            If UseCell is false then this property represents AsLiteral property.
+## value thuộc tính
+Nếu UseCell là true thì thuộc tính này đại diện cho thuộc tính AsCell.Value.
+            Nếu UseCell là false thì thuộc tính này đại diện cho thuộc tính AsLiteral.
             Đọc/ghi **bất kỳ**.
 
 ### Định nghĩa:

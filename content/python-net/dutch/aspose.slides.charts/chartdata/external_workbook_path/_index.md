@@ -4,7 +4,7 @@ second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides.charts/chartdata/external_workbook_path/
-weight: 110
+weight: 120
 ---
 ## external_workbook_path eigenschap
 Geeft de gegevensbron van de grafiek weer

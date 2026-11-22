@@ -1,16 +1,16 @@
 ---
 title: use_secondary_categories property
-second_title: Referensi API Aspose.Slides untuk Python via .NET
+second_title: Aspose.Slides untuk Python via .NET Referensi API
 description: 
 type: docs
 url: /id/aspose.slides.charts/ichartdata/use_secondary_categories/
-weight: 150
+weight: 160
 ---
 ## use_secondary_categories properti
-Jika false maka properti [`IChartData.secondary_categories`](/slides/python-net/id/aspose.slides.charts/ichartdata/secondary_categories) mengembalikan None dan data 
-            di properti [`IChartData.categories`](/slides/python-net/id/aspose.slides.charts/ichartdata/categories) digunakan baik untuk seri primer maupun sekunder.
-            Jika true maka data di properti [`IChartData.secondary_categories`](/slides/python-net/id/aspose.slides.charts/ichartdata/secondary_categories) digunakan untuk seri sekunder dan data 
-            di properti [`IChartData.categories`](/slides/python-net/id/aspose.slides.charts/ichartdata/categories) digunakan untuk seri primer.
+If false then [`IChartData.secondary_categories`](/slides/python-net/id/aspose.slides.charts/ichartdata/secondary_categories) properti return None and data 
+            in [`IChartData.categories`](/slides/python-net/id/aspose.slides.charts/ichartdata/categories) properti is used both for primary and secondary series.
+            If true then data in [`IChartData.secondary_categories`](/slides/python-net/id/aspose.slides.charts/ichartdata/secondary_categories) properti is used for secondary series and data 
+            in [`IChartData.categories`](/slides/python-net/id/aspose.slides.charts/ichartdata/categories) properti is used for primary series.
             Baca/tulis **bool**.
 
 ### Definisi:

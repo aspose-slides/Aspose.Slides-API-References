@@ -1,64 +1,54 @@
 ---
 title: highlight_text method
-second_title: مرجع API لـ Aspose.Slides للغة Python عبر .NET
+second_title: مرجع API لـ Aspose.Slides للبايثون عبر .NET
 description: 
 type: docs
 url: /ar/aspose.slides/textframe/highlight_text/
-weight: 20
+weight: 30
 ---
 ## highlight_text(self, text, highlight_color) {#str-asposeslidescolor}
-يُبرز جميع التطابقات للنص العيني باللون المحدد.
-
+يتم تمييز جميع التطابقات للنص العيني باللون المحدد.
 
 ```python
 def highlight_text(self, text, highlight_color):
     ...
 ```
 
-
-| Parameter | Type | Description |
+| المعامل | النوع | الوصف |
 | :- | :- | :- |
-| text | **str** | النص العيني لتسليط الإضاءة. |
-| highlight_color | [`Color`](/slides/python-net/ar/aspose.slides/color) | اللون لتسليط الإضاءة على النص. |
-
+| text | **str** | نص العينة للتمييز. |
+| highlight_color | [`Color`](/slides/python-net/ar/aspose.slides/color) | اللون لتمييز النص. |
 
 ## highlight_text(self, text, highlight_color, options) {#str-asposeslidescolor-itexthighlightingoptions}
-يُبرز جميع التطابقات للنص العيني باللون المحدد.
-
+يتم تمييز جميع التطابقات للنص العيني باللون المحدد.
 
 ```python
 def highlight_text(self, text, highlight_color, options):
     ...
 ```
 
-
-| Parameter | Type | Description |
+| المعامل | النوع | الوصف |
 | :- | :- | :- |
-| text | **str** | النص لتسليط الإضاءة. |
-| highlight_color | [`Color`](/slides/python-net/ar/aspose.slides/color) | اللون لتسليط الإضاءة على النص. |
-| options | [`ITextHighlightingOptions`](/slides/python-net/ar/aspose.slides/itexthighlightingoptions) | خيارات التسليط. |
-
+| text | **str** | النص للتمييز. |
+| highlight_color | [`Color`](/slides/python-net/ar/aspose.slides/color) | اللون لتمييز النص. |
+| options | [`ITextHighlightingOptions`](/slides/python-net/ar/aspose.slides/itexthighlightingoptions) | خيارات التمييز. |
 
 ## highlight_text(self, text, highlight_color, options, callback) {#str-asposeslidescolor-itextsearchoptions-ifindresultcallback}
-يُبرز جميع التطابقات للنص العيني باللون المحدد.
-
+يتم تمييز جميع التطابقات للنص العيني باللون المحدد.
 
 ```python
 def highlight_text(self, text, highlight_color, options, callback):
     ...
 ```
 
-
-| Parameter | Type | Description |
+| المعامل | النوع | الوصف |
 | :- | :- | :- |
-| text | **str** | النص لتسليط الإضاءة. |
-| highlight_color | [`Color`](/slides/python-net/ar/aspose.slides/color) | اللون لتسليط الإضاءة على النص. |
-| options | [`ITextSearchOptions`](/slides/python-net/ar/aspose.slides/itextsearchoptions) | خيارات البحث النصي [`ITextSearchOptions`](/slides/python-net/ar/aspose.slides/itextsearchoptions). |
+| text | **str** | النص للتمييز. |
+| highlight_color | [`Color`](/slides/python-net/ar/aspose.slides/color) | اللون لتمييز النص. |
+| options | [`ITextSearchOptions`](/slides/python-net/ar/aspose.slides/itextsearchoptions) | خيارات البحث عن النص [`ITextSearchOptions`](/slides/python-net/ar/aspose.slides/itextsearchoptions). |
 | callback | [`IFindResultCallback`](/slides/python-net/ar/aspose.slides/ifindresultcallback) | كائن الاستدعاء لتلقي نتائج البحث [`IFindResultCallback`](/slides/python-net/ar/aspose.slides/ifindresultcallback). |
 
-
-
-### انظر أيضا
+### انظر أيضاً
 * فئة [`IFindResultCallback`](/slides/python-net/ar/aspose.slides/ifindresultcallback)
 * فئة [`ITextHighlightingOptions`](/slides/python-net/ar/aspose.slides/itexthighlightingoptions)
 * فئة [`ITextSearchOptions`](/slides/python-net/ar/aspose.slides/itextsearchoptions)

@@ -1,10 +1,10 @@
 ---
 title: label property
-second_title: Aspose.Slides für Python via .NET API-Referenz
+second_title: Aspose.Slides für Python über .NET API-Referenz
 description: 
 type: docs
 url: /de/aspose.slides.charts/chartdatapoint/label/
-weight: 170
+weight: 210
 ---
 ## label Eigenschaft
 Label.

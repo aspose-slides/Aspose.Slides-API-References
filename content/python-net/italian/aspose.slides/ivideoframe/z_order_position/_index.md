@@ -4,7 +4,7 @@ second_title: Riferimento API Aspose.Slides per Python via .NET
 description: 
 type: docs
 url: /it/aspose.slides/ivideoframe/z_order_position/
-weight: 650
+weight: 660
 ---
 ## z_order_position proprietà
 ### Definizione:

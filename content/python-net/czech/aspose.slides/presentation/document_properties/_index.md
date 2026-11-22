@@ -1,10 +1,10 @@
 ---
 title: document_properties property
-second_title: Aspose.Slides pro Python prostřednictvím .NET API Reference
+second_title: Aspose.Slides pro Python přes .NET API Reference
 description: 
 type: docs
 url: /cs/aspose.slides/presentation/document_properties/
-weight: 190
+weight: 200
 ---
 ## document_properties vlastnost
 Vrací objekt DocumentProperties, který obsahuje standardní a vlastní vlastnosti dokumentu.
@@ -16,7 +16,6 @@ Pouze pro čtení [`IDocumentProperties`](/slides/python-net/cs/aspose.slides/id
 def document_properties(self):
     ...
 ```
-
 
 ### Viz také
 * třída [`IDocumentProperties`](/slides/python-net/cs/aspose.slides/idocumentproperties)

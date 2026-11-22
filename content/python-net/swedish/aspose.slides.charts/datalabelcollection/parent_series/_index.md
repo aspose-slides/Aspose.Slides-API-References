@@ -4,10 +4,10 @@ second_title: Aspose.Slides för Python via .NET API-referens
 description: 
 type: docs
 url: /sv/aspose.slides.charts/datalabelcollection/parent_series/
-weight: 140
+weight: 150
 ---
 ## parent_series egenskap
-Gets the parent series.
+Hämtar den överordnade serien.
             Skrivskyddad [`IChartSeries`](/slides/python-net/sv/aspose.slides.charts/ichartseries).
 
 ### Definition:

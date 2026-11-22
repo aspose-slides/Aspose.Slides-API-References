@@ -1,25 +1,19 @@
 ---
 title: StringStringPair class
-second_title: Aspose.Slides برای Python از طریق .NET مرجع API
+second_title: مرجع API Aspose.Slides برای Python از طریق .NET
 description: 
 type: docs
 url: /fa/aspose.slides/stringstringpair/
 ---
 ## StringStringPair کلاس
 
-ساختار شامل کلید string و مقدار string است و جایگزین موقت KeyValuePair<string, string> می‌باشد
+ساختار شامل کلید رشته‌ای و مقدار رشته‌ای است و به‌عنوان جایگزین موقت KeyValuePair<string, string> عمل می‌کند.
 
-نوع StringStringPair اعضای زیر را نمایش می‌دهد:
+نوع StringStringPair اعضای زیر را در دسترس قرار می‌دهد:
 
-## سازنده‌ها
+## خواص
 
-| سازنده | توضیح |
-| :- | :- |
-| [`__init__(self)`](/slides/python-net/fa/aspose.slides/stringstringpair/__init__/#) |  |
-
-## ویژگی‌ها
-
-| ویژگی | توضیح |
+| Property | Description |
 | :- | :- |
 | [`key`](/slides/python-net/fa/aspose.slides/stringstringpair/key/) | String کلید |
 | [`value`](/slides/python-net/fa/aspose.slides/stringstringpair/value/) | String مقدار |

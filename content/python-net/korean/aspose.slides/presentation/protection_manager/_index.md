@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API 레퍼런스
 description: 
 type: docs
 url: /ko/aspose.slides/presentation/protection_manager/
-weight: 320
+weight: 330
 ---
 ## protection_manager 속성
 Gets manager of the permissions for this presentation.

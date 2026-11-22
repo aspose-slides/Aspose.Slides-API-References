@@ -4,10 +4,10 @@ second_title: Tham chiếu API Aspose.Slides cho Python qua .NET
 description: 
 type: docs
 url: /vi/aspose.slides.charts/ichartdatapoint/related_legend_entry/
-weight: 190
+weight: 230
 ---
 ## related_legend_entry thuộc tính
-Thuộc tính của mục chú giải tương ứng trong trường hợp loại biểu đồ trong danh sách này:
+Thuộc tính của mục chú giải tương ứng trong trường hợp loại biểu đồ từ danh sách sau:
             ChartType.BarOfPie,
             ChartType.ExplodedPie,
             ChartType.ExplodedPie3D,
@@ -23,7 +23,8 @@ def related_legend_entry(self):
     ...
 ```
 
-### Xem thêm
+
+### Xem Thêm
 * lớp [`IChartDataPoint`](/slides/python-net/vi/aspose.slides.charts/ichartdatapoint)
 * lớp [`ILegendEntryProperties`](/slides/python-net/vi/aspose.slides.charts/ilegendentryproperties)
 * module [`aspose.slides.charts`](/slides/python-net/vi/aspose.slides.charts)

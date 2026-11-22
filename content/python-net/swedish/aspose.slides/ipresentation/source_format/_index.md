@@ -4,7 +4,7 @@ second_title: Aspose.Slides för Python via .NET API-referens
 description: 
 type: docs
 url: /sv/aspose.slides/ipresentation/source_format/
-weight: 360
+weight: 370
 ---
 ## source_format egenskap
 Returnerar information om från vilket format presentationen laddades.

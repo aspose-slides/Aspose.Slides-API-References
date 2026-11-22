@@ -1,16 +1,16 @@
 ---
 title: document_properties property
-second_title: Aspose.Slides สำหรับ Python ผ่าน .NET อ้างอิง API
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET เอกสารอ้างอิง API
 description: 
 type: docs
 url: /th/aspose.slides/presentation/document_properties/
-weight: 190
+weight: 200
 ---
 ## document_properties คุณสมบัติ
-ส่งคืนอ็อบเจ็กต์ DocumentProperties ที่มีคุณสมบัติมาตรฐานและกำหนดเองของเอกสาร.
+คืนค่าอ็อบเจ็กต์ DocumentProperties ซึ่งมีคุณสมบัติมาตรฐานและคุณสมบัติที่กำหนดเอง.
             อ่านอย่างเดียว [`IDocumentProperties`](/slides/python-net/th/aspose.slides/idocumentproperties).
 
-### การกำหนด:
+### คำจำกัดความ:
 ```python
 @property
 def document_properties(self):

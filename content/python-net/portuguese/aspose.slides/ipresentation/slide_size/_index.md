@@ -4,10 +4,10 @@ second_title: Referência da API Aspose.Slides para Python via .NET
 description: 
 type: docs
 url: /pt/aspose.slides/ipresentation/slide_size/
-weight: 340
+weight: 350
 ---
 ## slide_size propriedade
-Retorna o objeto slide size.
+Retorna objeto de tamanho do slide.
             Somente leitura [`ISlideSize`](/slides/python-net/pt/aspose.slides/islidesize).
 
 ### Definição:

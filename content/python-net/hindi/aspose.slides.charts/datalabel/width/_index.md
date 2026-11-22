@@ -1,13 +1,13 @@
 ---
 title: width property
-second_title: Aspose.Slides के लिए Python के द्वारा .NET API संदर्भ
+second_title: Aspose.Slides for Python via .NET API संदर्भ
 description: 
 type: docs
 url: /hi/aspose.slides.charts/datalabel/width/
-weight: 260
+weight: 270
 ---
 ## width प्रॉपर्टी
-शीर्षक की width को प्राप्त करता है या सेट करता है जैसा कि चार्ट की width का अंश है।
+एक शीर्षक की width को चार्ट की width के अंश के रूप में लौटाता है या सेट करता है।
             पढ़ें/लिखें **float**.
 
 ### परिभाषा:
@@ -22,7 +22,7 @@ def width(self, value):
 ```
 
 
-### देखें भी
+### संबंधित देखें
 * क्लास [`DataLabel`](/slides/python-net/hi/aspose.slides.charts/datalabel)
 * मॉड्यूल [`aspose.slides.charts`](/slides/python-net/hi/aspose.slides.charts)
 * लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

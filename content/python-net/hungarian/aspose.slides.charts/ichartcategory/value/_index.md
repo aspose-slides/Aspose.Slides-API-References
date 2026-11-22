@@ -1,14 +1,14 @@
 ---
 title: value property
-second_title: Aspose.Slides a Pythonhoz a .NET API hivatkozáson keresztül
+second_title: Aspose.Slides for Python via .NET API-referencia
 description: 
 type: docs
 url: /hu/aspose.slides.charts/ichartcategory/value/
-weight: 60
+weight: 70
 ---
-## érték tulajdonság
-Ha a UseCell igaz, akkor ez a tulajdonság az AsCell.Value tulajdonságot képviseli.
-            Ha a UseCell hamis, akkor ez a tulajdonság az AsLiteral tulajdonságot képviseli.
+## value tulajdonság
+Ha UseCell igaz, akkor ez a tulajdonság az AsCell.Value tulajdonságot jelenti.
+            Ha UseCell hamis, akkor ez a tulajdonság az AsLiteral tulajdonságot jelenti.
             Olvasás/írás **bármely**.
 
 ### Definíció:

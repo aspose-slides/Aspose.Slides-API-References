@@ -1,10 +1,10 @@
 ---
 title: first_slide_number property
-second_title: Aspose.Slides for Python via .NET API 참조
+second_title: Aspose.Slides for Python via .NET API 레퍼런스
 description: 
 type: docs
 url: /ko/aspose.slides/ipresentation/first_slide_number/
-weight: 190
+weight: 200
 ---
 ## first_slide_number 속성
 프레젠테이션에서 첫 번째 슬라이드 번호를 나타냅니다.

@@ -1,23 +1,24 @@
 ---
 title: IDataLabel class
-second_title: Aspose.Slides для Python через .NET справочник API
+second_title: Aspose.Slides для Python через .NET API Reference
 description: 
 type: docs
 url: /ru/aspose.slides.charts/idatalabel/
 ---
 ## IDataLabel класс
 
-Представляет подписи серии.
+Представляет метки серии.
 
 Тип IDataLabel раскрывает следующие члены:
 
 ## Свойства
 
-| Property | Description |
+| Свойство | Описание |
 | :- | :- |
-| [`is_visible`](/slides/python-net/ru/aspose.slides.charts/idatalabel/is_visible/) | False означает, что подпись данных не видна (и поэтому все флаги Show*-flags (ShowValue, ...) имеют значение false).<br/>            Только для чтения **bool**. |
-| [`data_label_format`](/slides/python-net/ru/aspose.slides.charts/idatalabel/data_label_format/) | Возвращает формат подписи данных.<br/>            Только для чтения [`IDataLabelFormat`](/slides/python-net/ru/aspose.slides.charts/idatalabelformat). |
-| [`value_from_cell`](/slides/python-net/ru/aspose.slides.charts/idatalabel/value_from_cell/) | Получает или задает ячейку данных рабочей книги. Применяется, если свойство IDataLabelFormat.ShowLabelValueFromCell равно true. |
+| [`is_visible`](/slides/python-net/ru/aspose.slides.charts/idatalabel/is_visible/) | False означает, что метка данных не видна (и поэтому все флаги Show*-flags (ShowValue, ...) тоже false).<br/>            Только для чтения **bool**. |
+| [`data_label_format`](/slides/python-net/ru/aspose.slides.charts/idatalabel/data_label_format/) | Возвращает формат метки данных.<br/>            Только для чтения [`IDataLabelFormat`](/slides/python-net/ru/aspose.slides.charts/idatalabelformat). |
+| [`value_from_cell`](/slides/python-net/ru/aspose.slides.charts/idatalabel/value_from_cell/) | Получает или задает ячейку данных книги. Применяется, если свойство IDataLabelFormat.ShowLabelValueFromCell равно true. |
+| [`label_shape_type`](/slides/python-net/ru/aspose.slides.charts/idatalabel/label_shape_type/) | Получает или задает тип фигуры метки данных.<br/>            Возвращает [`ShapeType.NOT_DEFINED`](/slides/python-net/ru/aspose.slides/shapetype/NOT_DEFINED), если фигура не определена. |
 | [`x`](/slides/python-net/ru/aspose.slides.charts/idatalabel/x/) |  |
 | [`y`](/slides/python-net/ru/aspose.slides.charts/idatalabel/y/) |  |
 | [`width`](/slides/python-net/ru/aspose.slides.charts/idatalabel/width/) |  |
@@ -36,12 +37,12 @@ url: /ru/aspose.slides.charts/idatalabel/
 
 ## Методы
 
-| Method | Description |
+| Метод | Описание |
 | :- | :- |
-| [`hide(self)`](/slides/python-net/ru/aspose.slides.charts/idatalabel/hide/#) | Скрывает подпись данных, установив все флаги Show*-flags (ShowValue, ...) в состояние false.<br/>            IsVisible будет false после этого. |
-| [`get_actual_label_text(self)`](/slides/python-net/ru/aspose.slides.charts/idatalabel/get_actual_label_text/#) | Возвращает фактический текст подписи на основе настроек DataLabelFormat или значения TextFrameForOverriding.Text. |
+| [`hide(self)`](/slides/python-net/ru/aspose.slides.charts/idatalabel/hide/#) | Скрывает метку данных, устанавливая все флаги Show*-flags (ShowValue, ...) в состояние false.<br/>            После этого IsVisible будет false. |
+| [`get_actual_label_text(self)`](/slides/python-net/ru/aspose.slides.charts/idatalabel/get_actual_label_text/#) | Возвращает фактический текст метки на основе настроек DataLabelFormat или значения TextFrameForOverriding.Text. |
 | [`add_text_frame_for_overriding(self, text)`](/slides/python-net/ru/aspose.slides.charts/idatalabel/add_text_frame_for_overriding/#str) |  |
 
-### Смотрите также
+### См. также
 * модуль [`aspose.slides.charts`](/slides/python-net/ru/aspose.slides.charts)
 * библиотека [`Aspose.Slides`](/slides/python-net)

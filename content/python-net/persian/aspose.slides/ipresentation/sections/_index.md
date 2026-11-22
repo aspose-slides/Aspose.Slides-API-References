@@ -1,14 +1,14 @@
 ---
 title: sections property
-second_title: مرجع API Aspose.Slides برای Python از طریق .NET
+second_title: Aspose.Slides برای پایتون از طریق .NET مرجع API
 description: 
 type: docs
 url: /fa/aspose.slides/ipresentation/sections/
-weight: 320
+weight: 330
 ---
 ## sections ویژگی
-Returns a list of all slides sections that are defined in the presentation.
-فقط‌خواندنی [`ISectionCollection`](/slides/python-net/fa/aspose.slides/isectioncollection).
+یک فهرست از تمام sections اسلاید که در ارائه تعریف شده‌اند.
+            فقط خواندنی [`ISectionCollection`](/slides/python-net/fa/aspose.slides/isectioncollection).
 
 ### تعریف:
 ```python

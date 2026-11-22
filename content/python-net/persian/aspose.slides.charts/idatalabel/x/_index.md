@@ -1,12 +1,12 @@
 ---
 title: x property
-second_title: مرجع API .NET از طریق Aspose.Slides برای Python
+second_title: Aspose.Slides برای Python از طریق .NET مرجع API
 description: 
 type: docs
 url: /fa/aspose.slides.charts/idatalabel/x/
-weight: 260
+weight: 270
 ---
-## x ویژگی
+## x خاصیت
 ### تعریف:
 ```python
 @property
@@ -19,7 +19,7 @@ def x(self, value):
 ```
 
 
-### مراجع دیگر
+### موارد مرتبط
 * کلاس [`IDataLabel`](/slides/python-net/fa/aspose.slides.charts/idatalabel)
 * ماژول [`aspose.slides.charts`](/slides/python-net/fa/aspose.slides.charts)
 * کتابخانه [`Aspose.Slides`](/slides/python-net)

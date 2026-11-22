@@ -1,14 +1,14 @@
 ---
 title: x property
-second_title: Aspose.Slides pro Python prostřednictvím .NET API Reference
+second_title: Aspose.Slides pro Python pomocí .NET API Reference
 description: 
 type: docs
 url: /cs/aspose.slides.charts/datalabel/x/
-weight: 270
+weight: 280
 ---
 ## x vlastnost
-Vrací nebo nastavuje souřadnici x titulku jako podíl šířky grafu.
-            Číst/zapisovat **float**.
+Vrací nebo nastavuje x-souřadnici titulku jako zlomek šířky grafu.
+            Čtení/zápis **float**.
 
 ### Definice:
 ```python
@@ -20,6 +20,7 @@ def x(self):
 def x(self, value):
     ...
 ```
+
 
 ### Viz také
 * třída [`DataLabel`](/slides/python-net/cs/aspose.slides.charts/datalabel)

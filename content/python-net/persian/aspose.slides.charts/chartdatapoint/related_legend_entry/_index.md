@@ -1,20 +1,21 @@
 ---
 title: related_legend_entry property
 second_title: Aspose.Slides برای Python از طریق .NET مرجع API
-description:
+description: 
 type: docs
 url: /fa/aspose.slides.charts/chartdatapoint/related_legend_entry/
-weight: 190
+weight: 230
 ---
 ## related_legend_entry ویژگی
-ویژگی‌های ورودی افسانه متناظر در صورت نوع نمودار از این فهرست:
+
+ویژگی‌های ورودی افسانهٔ مرتبط در صورت نوع نمودار از این فهرست:
             ChartType.BarOfPie,
             ChartType.ExplodedPie,
             ChartType.ExplodedPie3D,
             ChartType.Pie,
             ChartType.Pie3D,
             ChartType.PieOfPie.
-            فقط خواندنی [`ILegendEntryProperties`](/slides/python-net/fa/aspose.slides.charts/ilegendentryproperties).
+            فقط‌خواندنی [`ILegendEntryProperties`](/slides/python-net/fa/aspose.slides.charts/ilegendentryproperties).
 
 ### تعریف:
 ```python

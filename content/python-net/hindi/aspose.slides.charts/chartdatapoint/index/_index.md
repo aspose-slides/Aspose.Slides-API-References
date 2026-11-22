@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API संदर्भ
 description: 
 type: docs
 url: /hi/aspose.slides.charts/chartdatapoint/index/
-weight: 140
+weight: 180
 ---
 ## इंडेक्स प्रॉपर्टी
 ### परिभाषा:

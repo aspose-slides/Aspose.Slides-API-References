@@ -4,12 +4,12 @@ second_title: Aspose.Slides for Python via .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides.charts/chartcategory/value/
-weight: 60
+weight: 70
 ---
 ## değer özelliği
-If UseCell is true then this property represents AsCell.Value property.
-            If UseCell is false then this property represents AsLiteral property.
-            Oku/yaz **herhangi**.
+If UseCell true ise bu özellik AsCell.Value özelliğini temsil eder.
+            If UseCell false ise bu özellik AsLiteral özelliğini temsil eder.
+            Okunur/yazılır **herhangi**.
 
 ### Tanım:
 ```python
@@ -23,7 +23,7 @@ def value(self, value):
 ```
 
 
-### Diğer
+### Ayrıca
 * sınıf [`ChartCategory`](/slides/python-net/tr/aspose.slides.charts/chartcategory)
 * modül [`aspose.slides.charts`](/slides/python-net/tr/aspose.slides.charts)
 * kütüphane [`Aspose.Slides`](/slides/python-net)

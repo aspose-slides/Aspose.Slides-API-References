@@ -1,13 +1,13 @@
 ---
 title: presentation property
-second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API อ้างอิง
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Reference
 description: 
 type: docs
 url: /th/aspose.slides/textframe/presentation/
-weight: 130
+weight: 140
 ---
 ## presentation คุณสมบัติ
-Returns the parent presentation of a TextFrame.
+ส่งคืน presentation พาเรนต์ของ TextFrame.
             อ่านอย่างเดียว [`IPresentation`](/slides/python-net/th/aspose.slides/ipresentation).
 
 ### คำนิยาม:
@@ -17,8 +17,9 @@ def presentation(self):
     ...
 ```
 
+
 ### ดูเพิ่มเติม
 * คลาส [`IPresentation`](/slides/python-net/th/aspose.slides/ipresentation)
 * คลาส [`TextFrame`](/slides/python-net/th/aspose.slides/textframe)
-* มอดูล [`aspose.slides`](/slides/python-net/th/aspose.slides)
+* โมดูล [`aspose.slides`](/slides/python-net/th/aspose.slides)
 * ไลบรารี [`Aspose.Slides`](/slides/python-net)

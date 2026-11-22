@@ -1,14 +1,14 @@
 ---
 title: all_custom_xml_parts property
-second_title: Referência da API Aspose.Slides para Python via .NET
+second_title: Aspose.Slides para Python via .NET Referência da API
 description: 
 type: docs
 url: /pt/aspose.slides/presentation/all_custom_xml_parts/
-weight: 100
+weight: 110
 ---
 ## all_custom_xml_parts propriedade
 Retorna todas as partes de dados personalizadas na apresentação.
-            Somente leitura [`ICustomXmlPart`](/slides/python-net/pt/aspose.slides/icustomxmlpart)[].
+Somente leitura [`ICustomXmlPart`](/slides/python-net/pt/aspose.slides/icustomxmlpart)[].
 
 ### Definição:
 ```python

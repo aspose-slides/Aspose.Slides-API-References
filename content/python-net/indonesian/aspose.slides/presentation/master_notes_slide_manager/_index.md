@@ -1,14 +1,14 @@
 ---
 title: master_notes_slide_manager property
-second_title: Referensi API Aspose.Slides untuk Python melalui .NET
+second_title: Referensi API Aspose.Slides untuk Python via .NET
 description: 
 type: docs
 url: /id/aspose.slides/presentation/master_notes_slide_manager/
-weight: 270
+weight: 280
 ---
 ## master_notes_slide_manager properti
-Mengembalikan manajer master catatan.
-            Baca-saja [`IMasterNotesSlideManager`](/slides/python-net/id/aspose.slides/imasternotesslidemanager).
+Mengembalikan pengelola master catatan.
+            Hanya-baca [`IMasterNotesSlideManager`](/slides/python-net/id/aspose.slides/imasternotesslidemanager).
 
 ### Definisi:
 ```python

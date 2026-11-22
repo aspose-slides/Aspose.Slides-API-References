@@ -7,8 +7,19 @@ url: /nl/aspose.slides.charts/ichartseriesgroup/gap_depth/
 weight: 100
 ---
 ## gap_depth eigenschap
-Geeft de afstand terug of stelt deze in, als een percentage van de markerbreedte, tussen de gegevensreeksen in een 3D-diagram.
-Lezen/Schrijven **int**.
+Haalt of stelt de afstand tussen gegevensreeksen in een 3D-diagram in, als een percentage van de markerbreedte.
+            De waarde moet tussen 0 en 500 liggen.
+            Lezen/Schrijven **int**.
+
+
+### Opmerkingen
+
+Deze eigenschap is van toepassing op reeksen van de volgende typen:
+            3D staaf- en kolomsubtypen, 
+            [`ChartType.LINE_3D`](/slides/python-net/nl/aspose.slides.charts/charttype/LINE_3D),
+            [`ChartType.AREA_3D`](/slides/python-net/nl/aspose.slides.charts/charttype/AREA_3D),
+            [`ChartType.STACKED_AREA_3D`](/slides/python-net/nl/aspose.slides.charts/charttype/STACKED_AREA_3D),
+            [`ChartType.PERCENTS_STACKED_AREA_3D`](/slides/python-net/nl/aspose.slides.charts/charttype/PERCENTS_STACKED_AREA_3D).
 
 ### Definitie:
 ```python
@@ -20,6 +31,7 @@ def gap_depth(self):
 def gap_depth(self, value):
     ...
 ```
+
 
 ### Zie ook
 * klasse [`IChartSeriesGroup`](/slides/python-net/nl/aspose.slides.charts/ichartseriesgroup)

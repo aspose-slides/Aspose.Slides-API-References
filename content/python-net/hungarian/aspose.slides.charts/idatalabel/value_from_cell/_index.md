@@ -1,15 +1,15 @@
 ---
 title: value_from_cell property
-second_title: Aspose.Slides a Pythonhoz .NET API Referencia
+second_title: Aspose.Slides a Pythonhoz a .NET API hivatkozás
 description: 
 type: docs
 url: /hu/aspose.slides.charts/idatalabel/value_from_cell/
-weight: 240
+weight: 250
 ---
 ## value_from_cell tulajdonság
-A munkafüzet adatcelláját lekéri vagy beállítja. Alkalmazva, ha az IDataLabelFormat.ShowLabelValueFromCell tulajdonság értéke true.
+A munkafüzet adatcelláját kapja vagy állítja be. Alkalmazva, ha az IDataLabelFormat.ShowLabelValueFromCell tulajdonság true.
 
-### Definíció:
+### Meghatározás:
 ```python
 @property
 def value_from_cell(self):
@@ -19,7 +19,6 @@ def value_from_cell(self):
 def value_from_cell(self, value):
     ...
 ```
-
 
 ### Lásd még
 * osztály [`IDataLabel`](/slides/python-net/hu/aspose.slides.charts/idatalabel)

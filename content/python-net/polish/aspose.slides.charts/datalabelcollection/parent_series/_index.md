@@ -1,14 +1,14 @@
 ---
 title: parent_series property
-second_title: Aspose.Slides dla Pythona poprzez .NET – Referencja API
+second_title: Aspose.Slides dla Pythona poprzez .NET API Reference
 description: 
 type: docs
 url: /pl/aspose.slides.charts/datalabelcollection/parent_series/
-weight: 140
+weight: 150
 ---
 ## parent_series właściwość
 Pobiera serię nadrzędną.
-            tylko do odczytu [`IChartSeries`](/slides/python-net/pl/aspose.slides.charts/ichartseries).
+            Tylko do odczytu [`IChartSeries`](/slides/python-net/pl/aspose.slides.charts/ichartseries).
 
 ### Definicja:
 ```python

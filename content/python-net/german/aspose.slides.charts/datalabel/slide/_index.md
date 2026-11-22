@@ -4,7 +4,7 @@ second_title: Aspose.Slides für Python via .NET API-Referenz
 description: 
 type: docs
 url: /de/aspose.slides.charts/datalabel/slide/
-weight: 220
+weight: 230
 ---
 ## slide Eigenschaft
 ### Definition:
@@ -13,7 +13,6 @@ weight: 220
 def slide(self):
     ...
 ```
-
 
 ### Siehe auch
 * Klasse [`DataLabel`](/slides/python-net/de/aspose.slides.charts/datalabel)

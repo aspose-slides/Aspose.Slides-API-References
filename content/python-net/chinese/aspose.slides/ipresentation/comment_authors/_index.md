@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API 参考
 description: 
 type: docs
 url: /zh/aspose.slides/ipresentation/comment_authors/
-weight: 130
+weight: 140
 ---
 ## comment_authors 属性
 返回评论作者的集合。
@@ -17,7 +17,8 @@ def comment_authors(self):
     ...
 ```
 
-### 另请参见
+
+### 另见
 * 类 [`ICommentAuthorCollection`](/slides/python-net/zh/aspose.slides/icommentauthorcollection)
 * 类 [`IPresentation`](/slides/python-net/zh/aspose.slides/ipresentation)
 * 模块 [`aspose.slides`](/slides/python-net/zh/aspose.slides)

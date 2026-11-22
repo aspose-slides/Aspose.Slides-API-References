@@ -4,11 +4,11 @@ second_title: Aspose.Slides برای Python از طریق .NET مرجع API
 description: 
 type: docs
 url: /fa/aspose.slides.charts/chartdatapoint/value/
-weight: 220
+weight: 260
 ---
-## value ویژگی
+## مقدار خاصیت
 مقدار.
-            فقط-خواندنی [`IDoubleChartValue`](/slides/python-net/fa/aspose.slides.charts/idoublechartvalue).
+            فقط خواندنی [`IDoubleChartValue`](/slides/python-net/fa/aspose.slides.charts/idoublechartvalue).
 
 ### تعریف:
 ```python

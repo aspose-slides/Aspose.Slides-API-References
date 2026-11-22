@@ -1,10 +1,10 @@
 ---
 title: value property
-second_title: Aspose.Slides pro Python prostřednictvím .NET API Reference
+second_title: Aspose.Slides pro Python prostřednictvím .NET referenční příručky API
 description: 
 type: docs
 url: /cs/aspose.slides.charts/chartdatapoint/value/
-weight: 220
+weight: 260
 ---
 ## value vlastnost
 Hodnota.

@@ -4,10 +4,10 @@ second_title: Aspose.Slides for Python via .NET API 레퍼런스
 description: 
 type: docs
 url: /ko/aspose.slides/textframe/paragraphs/
-weight: 100
+weight: 110
 ---
 ## paragraphs 속성
-프레임의 모든 paragraphs 목록을 반환합니다.
+프레임에서 모든 paragraphs의 목록을 반환합니다.
             읽기 전용 [`IParagraphCollection`](/slides/python-net/ko/aspose.slides/iparagraphcollection).
 
 ### 정의:
@@ -16,7 +16,6 @@ weight: 100
 def paragraphs(self):
     ...
 ```
-
 
 ### 참고
 * 클래스 [`IParagraphCollection`](/slides/python-net/ko/aspose.slides/iparagraphcollection)

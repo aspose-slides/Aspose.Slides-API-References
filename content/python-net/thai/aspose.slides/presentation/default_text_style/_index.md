@@ -1,13 +1,13 @@
 ---
 title: default_text_style property
-second_title: Aspose.Slides สำหรับ Python ผ่าน .NET เอกสารอ้างอิง API
+second_title: อ้างอิง API Aspose.Slides สำหรับ Python ผ่าน .NET
 description: 
 type: docs
 url: /th/aspose.slides/presentation/default_text_style/
-weight: 170
+weight: 180
 ---
 ## default_text_style คุณสมบัติ
-คืนค่าสไตล์ข้อความเริ่มต้นสำหรับ shapes.
+คืนค่ารูปแบบข้อความเริ่มต้นสำหรับรูปทรง
             อ่านอย่างเดียว [`ITextStyle`](/slides/python-net/th/aspose.slides/itextstyle).
 
 ### คำนิยาม:

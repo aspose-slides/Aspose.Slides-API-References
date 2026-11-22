@@ -4,7 +4,7 @@ second_title: Aspose.Slides för Python via .NET API-referens
 description: 
 type: docs
 url: /sv/aspose.slides.charts/datalabel/text_format/
-weight: 230
+weight: 240
 ---
 ## text_format egenskap
 Returnerar textformat.

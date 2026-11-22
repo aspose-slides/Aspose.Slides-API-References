@@ -1,13 +1,13 @@
 ---
 title: z_order_position property
-second_title: Aspose.Slides สำหรับ Python ผ่าน .NET เอกสารอ้างอิง
+second_title: อ้างอิง API ของ Aspose.Slides สำหรับ Python ผ่าน .NET
 description: 
 type: docs
 url: /th/aspose.slides/ivideoframe/z_order_position/
-weight: 650
+weight: 660
 ---
 ## z_order_position คุณสมบัติ
-### คำนิยาม:
+### คำจำกัดความ:
 ```python
 @property
 def z_order_position(self):

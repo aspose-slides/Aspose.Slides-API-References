@@ -1,13 +1,13 @@
 ---
 title: value_from_cell property
-second_title: Aspose.Slides para Python via .NET Referência da API
+second_title: Referência da API Aspose.Slides para Python via .NET
 description: 
 type: docs
 url: /pt/aspose.slides.charts/idatalabel/value_from_cell/
-weight: 240
+weight: 250
 ---
 ## value_from_cell propriedade
-Obtém ou define a célula de dados da pasta de trabalho. Aplicado se a propriedade IDataLabelFormat.ShowLabelValueFromCell for true.
+Obtém ou define a célula de dados da planilha. Aplicado se a propriedade IDataLabelFormat.ShowLabelValueFromCell for true.
 
 ### Definição:
 ```python

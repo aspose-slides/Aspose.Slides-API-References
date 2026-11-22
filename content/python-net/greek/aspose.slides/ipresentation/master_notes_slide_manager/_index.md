@@ -4,11 +4,11 @@ second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
 description: 
 type: docs
 url: /el/aspose.slides/ipresentation/master_notes_slide_manager/
-weight: 260
+weight: 270
 ---
 ## master_notes_slide_manager ιδιότητα
 Επιστρέφει τον διαχειριστή κύριων σημειώσεων.
-Μόνο για ανάγνωση [`IMasterNotesSlideManager`](/slides/python-net/el/aspose.slides/imasternotesslidemanager).
+            Μόνο για ανάγνωση [`IMasterNotesSlideManager`](/slides/python-net/el/aspose.slides/imasternotesslidemanager).
 
 ### Ορισμός:
 ```python
@@ -16,6 +16,7 @@ weight: 260
 def master_notes_slide_manager(self):
     ...
 ```
+
 
 ### Δείτε επίσης
 * κλάση [`IMasterNotesSlideManager`](/slides/python-net/el/aspose.slides/imasternotesslidemanager)

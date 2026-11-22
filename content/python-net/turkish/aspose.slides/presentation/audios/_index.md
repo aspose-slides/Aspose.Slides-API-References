@@ -1,14 +1,14 @@
 ---
 title: audios property
-second_title: Aspose.Slides için Python üzerinden .NET API Referansı
+second_title: Aspose.Slides Python için .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides/presentation/audios/
-weight: 130
+weight: 140
 ---
-## audios özelliği
-Sunumda gömülü tüm ses dosyalarının koleksiyonunu döndürür.
-Yalnızca okuma [`IAudioCollection`](/slides/python-net/tr/aspose.slides/iaudiocollection).
+## sesler özelliği
+Sunumdaki tüm gömülü ses dosyalarının koleksiyonunu döndürür.
+            Salt okunur [`IAudioCollection`](/slides/python-net/tr/aspose.slides/iaudiocollection).
 
 ### Tanım:
 ```python
@@ -18,7 +18,7 @@ def audios(self):
 ```
 
 
-### İlgili
+### Ayrıca Bakınız
 * sınıf [`IAudioCollection`](/slides/python-net/tr/aspose.slides/iaudiocollection)
 * sınıf [`Presentation`](/slides/python-net/tr/aspose.slides/presentation)
 * modül [`aspose.slides`](/slides/python-net/tr/aspose.slides)

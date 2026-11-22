@@ -5,13 +5,13 @@ description:
 type: docs
 url: /tr/aspose.slides.animation/coloreffect/
 ---
-## ColorEffect sınıf
+## ColorEffect sınıfı
 
-Bir animasyon davranışı için renk etkisini temsil eder.
+Bir animasyon davranışı için renk efekti temsil eder.
 
-**Inheritance:**[`ColorEffect`](/slides/python-net/tr/aspose.slides.animation/coloreffect) → [`Behavior`](/slides/python-net/tr/aspose.slides.animation/behavior)
+**Kalıtım:**[`ColorEffect`](/slides/python-net/tr/aspose.slides.animation/coloreffect) → [`Behavior`](/slides/python-net/tr/aspose.slides.animation/behavior)
 
-The ColorEffect type exposes the following members:
+ColorEffect türü aşağıdaki üyeleri sunar:
 
 ## Yapıcılar
 
@@ -23,18 +23,17 @@ The ColorEffect type exposes the following members:
 
 | Özellik | Açıklama |
 | :- | :- |
-| [`accumulate`](/slides/python-net/tr/aspose.slides.animation/coloreffect/accumulate/) | Animasyon davranışlarının birikimli olup olmadığını temsil eder.<br/>            Okunur/Yazılabilir [`NullableBool`](/slides/python-net/tr/aspose.slides/nullablebool). |
-| [`additive`](/slides/python-net/tr/aspose.slides.animation/coloreffect/additive/) | Mevcut animasyon davranışının diğer çalışan animasyonlarla birleştirilip birleştirilemeyeceğini temsil eder.<br/>            Okunur/Yazılabilir [`BehaviorAdditiveType`](/slides/python-net/tr/aspose.slides.animation/behavioradditivetype). |
-| [`properties`](/slides/python-net/tr/aspose.slides.animation/coloreffect/properties/) | Davranışın özelliklerini temsil eder.<br/>            Salt Okunur [`IBehaviorPropertyCollection`](/slides/python-net/tr/aspose.slides.animation/ibehaviorpropertycollection). |
-| [`timing`](/slides/python-net/tr/aspose.slides.animation/coloreffect/timing/) | Etki davranışı için zamanlama özelliklerini temsil eder.<br/>            Okunur/Yazılabilir [`ITiming`](/slides/python-net/tr/aspose.slides.animation/itiming). |
-| [`from_address`](/slides/python-net/tr/aspose.slides.animation/coloreffect/from_address/) | Bu değer, davranışın başlangıç rengini belirtmek için kullanılır.<br/>            Okunur/Yazılabilir [`IColorFormat`](/slides/python-net/tr/aspose.slides/icolorformat). |
-| [`to`](/slides/python-net/tr/aspose.slides.animation/coloreffect/to/) | Animasyon renk değişimi için ortaya çıkan rengi tanımlar.<br/>            Okunur/Yazılabilir [`IColorFormat`](/slides/python-net/tr/aspose.slides/icolorformat). |
-| [`by`](/slides/python-net/tr/aspose.slides.animation/coloreffect/by/) | Renk animasyonu için göreceli ofset değerini tanımlar.<br/>            Okunur/Yazılabilir [`IColorOffset`](/slides/python-net/tr/aspose.slides.animation/icoloroffset). |
-| [`color_space`](/slides/python-net/tr/aspose.slides.animation/coloreffect/color_space/) | Davranışın renk uzayını temsil eder.<br/>            Okunur/Yazılabilir [`ColorSpace`](/slides/python-net/tr/aspose.slides.animation/colorspace). |
-| [`direction`](/slides/python-net/tr/aspose.slides.animation/coloreffect/direction/) | Renk çarkında tonun döneceği yönü belirtir.<br/>            Okunur/Yazılabilir [`ColorDirection`](/slides/python-net/tr/aspose.slides.animation/colordirection). |
+| [`accumulate`](/slides/python-net/tr/aspose.slides.animation/coloreffect/accumulate/) | Animasyon davranışlarının birikip birikmediğini temsil eder.<br/>            Okuma/yazma [`NullableBool`](/slides/python-net/tr/aspose.slides/nullablebool). |
+| [`additive`](/slides/python-net/tr/aspose.slides.animation/coloreffect/additive/) | Mevcut animasyon davranışının diğer çalışan animasyonlarla birleştirilip birleştirilmediğini temsil eder.<br/>            Okuma/yazma [`BehaviorAdditiveType`](/slides/python-net/tr/aspose.slides.animation/behavioradditivetype). |
+| [`properties`](/slides/python-net/tr/aspose.slides.animation/coloreffect/properties/) | Davranışın özelliklerini temsil eder.<br/>            Salt-okunur [`IBehaviorPropertyCollection`](/slides/python-net/tr/aspose.slides.animation/ibehaviorpropertycollection). |
+| [`timing`](/slides/python-net/tr/aspose.slides.animation/coloreffect/timing/) | Efekt davranışı için zamanlama özelliklerini temsil eder.<br/>            Okuma/yazma [`ITiming`](/slides/python-net/tr/aspose.slides.animation/itiming). |
+| [`from_`](/slides/python-net/tr/aspose.slides.animation/coloreffect/from_/) | Bu değer, davranışın başlangıç rengini belirtmek için kullanılır.<br/>            Okuma/yazma [`IColorFormat`](/slides/python-net/tr/aspose.slides/icolorformat). |
+| [`to`](/slides/python-net/tr/aspose.slides.animation/coloreffect/to/) | Animasyon renk değişikliği için ortaya çıkan rengi tanımlar.<br/>            Okuma/yazma [`IColorFormat`](/slides/python-net/tr/aspose.slides/icolorformat). |
+| [`by`](/slides/python-net/tr/aspose.slides.animation/coloreffect/by/) | Renk animasyonu için göreli ofset değerini tanımlar.<br/>            Okuma/yazma [`IColorOffset`](/slides/python-net/tr/aspose.slides.animation/icoloroffset). |
+| [`color_space`](/slides/python-net/tr/aspose.slides.animation/coloreffect/color_space/) | Davranışın renk uzayını temsil eder.<br/>            Okuma/yazma [`ColorSpace`](/slides/python-net/tr/aspose.slides.animation/colorspace). |
+| [`direction`](/slides/python-net/tr/aspose.slides.animation/coloreffect/direction/) | Renk çarkı etrafında tonu hangi yönde döndürmek gerektiğini belirtir.<br/>            Okuma/yazma [`ColorDirection`](/slides/python-net/tr/aspose.slides.animation/colordirection). |
 
-
-### Ayrıca Bakınız
+### İlgili
 * sınıf [`Behavior`](/slides/python-net/tr/aspose.slides.animation/behavior)
 * sınıf [`ColorEffect`](/slides/python-net/tr/aspose.slides.animation/coloreffect)
 * modül [`aspose.slides.animation`](/slides/python-net/tr/aspose.slides.animation)

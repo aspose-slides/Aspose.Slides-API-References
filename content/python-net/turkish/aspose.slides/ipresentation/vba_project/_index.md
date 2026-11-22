@@ -4,11 +4,11 @@ second_title: Aspose.Slides Python için .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides/ipresentation/vba_project/
-weight: 370
+weight: 380
 ---
 ## vba_project özelliği
 Sunum makrolarıyla VBA projesini alır.
-            Okunur/Yazılır [`IVbaProject`](/slides/python-net/tr/aspose.slides.vba/ivbaproject).
+            Okuma/yazma [`IVbaProject`](/slides/python-net/tr/aspose.slides.vba/ivbaproject).
 
 ### Tanım:
 ```python
@@ -22,7 +22,7 @@ def vba_project(self, value):
 ```
 
 
-### Ayrıca Bakınız
+### Bakınız
 * sınıf [`IPresentation`](/slides/python-net/tr/aspose.slides/ipresentation)
 * sınıf [`IVbaProject`](/slides/python-net/tr/aspose.slides.vba/ivbaproject)
 * modül [`aspose.slides`](/slides/python-net/tr/aspose.slides)

@@ -4,11 +4,12 @@ second_title: مرجع API Aspose.Slides برای Python از طریق .NET
 description: 
 type: docs
 url: /fa/aspose.slides/presentation/hyperlink_queries/
-weight: 230
+weight: 240
 ---
-## hyperlink_queries ویژگی
-دسترسی آسان به تمام پیوندها موجود در همه اسلایدهای ارائه (به جز اسلایدهای اصلی، طرح‌بندی، یادداشت‌ها).
-            فقط-خواندنی [`IHyperlinkQueries`](/slides/python-net/fa/aspose.slides/ihyperlinkqueries).
+## ویژگی hyperlink_queries
+
+دسترسی راحت به تمام هایپرلینک‌های موجود در تمام اسلایدهای ارائه (به‌جز اسلایدهای master، layout، notes).  
+فقط-خواندنی [`IHyperlinkQueries`](/slides/python-net/fa/aspose.slides/ihyperlinkqueries).
 
 ### تعریف:
 ```python
@@ -16,7 +17,6 @@ weight: 230
 def hyperlink_queries(self):
     ...
 ```
-
 
 ### موارد مرتبط
 * کلاس [`IHyperlinkQueries`](/slides/python-net/fa/aspose.slides/ihyperlinkqueries)

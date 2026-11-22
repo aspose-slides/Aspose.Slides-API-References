@@ -4,7 +4,7 @@ second_title: Aspose.Slides för Python via .NET API-referens
 description: 
 type: docs
 url: /sv/aspose.slides/presentation/first_slide_number/
-weight: 200
+weight: 210
 ---
 ## first_slide_number egenskap
 Representerar det första bildnumret i presentationen

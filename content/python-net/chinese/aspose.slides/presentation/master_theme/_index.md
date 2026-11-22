@@ -4,10 +4,10 @@ second_title: Aspose.Slides for Python via .NET API 参考
 description: 
 type: docs
 url: /zh/aspose.slides/presentation/master_theme/
-weight: 280
+weight: 290
 ---
 ## master_theme 属性
-Returns master theme.
+返回主主题。
             只读 [`IMasterTheme`](/slides/python-net/zh/aspose.slides.theme/imastertheme).
 
 ### 定义:

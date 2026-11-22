@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides.charts/ichartdatapoint/label/
-weight: 170
+weight: 210
 ---
 ## ラベル プロパティ
 チャート データ ポイントのラベルを表します。

@@ -1,13 +1,13 @@
 ---
 title: value property
-second_title: Aspose.Slides pro Python prostřednictvím .NET API Reference
+second_title: Aspose.Slides pro Python přes .NET API Reference
 description: 
 type: docs
 url: /cs/aspose.slides.charts/ichartdatapoint/value/
-weight: 220
+weight: 260
 ---
-## value vlastnost
-Vrací value datového bodu grafu.
+## vlastnost value
+Získá hodnotu datového bodu grafu.
             Pouze pro čtení [`IDoubleChartValue`](/slides/python-net/cs/aspose.slides.charts/idoublechartvalue).
 
 ### Definice:

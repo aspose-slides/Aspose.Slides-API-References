@@ -1,13 +1,13 @@
 ---
 title: text property
-second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Reference
+second_title: Aspose.Slides for Python via .NET เอกสารอ้างอิง API
 description: 
 type: docs
 url: /th/aspose.slides/textframe/text/
-weight: 150
+weight: 160
 ---
 ## คุณสมบัติข้อความ
-รับหรือกำหนดข้อความธรรมดาสำหรับ TextFrame.
+Gets or sets the plain text for a TextFrame.
             อ่าน/เขียน **str**.
 
 ### คำนิยาม:

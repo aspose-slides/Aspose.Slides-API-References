@@ -4,10 +4,10 @@ second_title: Referensi API Aspose.Slides untuk Python via .NET
 description: 
 type: docs
 url: /id/aspose.slides.charts/chartdatapoint/related_legend_entry/
-weight: 190
+weight: 230
 ---
 ## related_legend_entry properti
-Properti entri legenda yang sesuai dalam kasus tipe bagan dari daftar berikut:
+Properti entri legenda yang sesuai dalam kasus tipe chart dari daftar berikut:
             ChartType.BarOfPie,
             ChartType.ExplodedPie,
             ChartType.ExplodedPie3D,

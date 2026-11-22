@@ -1,14 +1,14 @@
 ---
 title: default_text_style property
-second_title: Aspose.Slides pro Python přes .NET API Reference
+second_title: Aspose.Slides pro Python pomocí .NET API Reference
 description: 
 type: docs
 url: /cs/aspose.slides/presentation/default_text_style/
-weight: 170
+weight: 180
 ---
 ## default_text_style vlastnost
 Vrací výchozí styl textu pro tvary.
-            Pouze ke čtení [`ITextStyle`](/slides/python-net/cs/aspose.slides/itextstyle).
+            Jen ke čtení [`ITextStyle`](/slides/python-net/cs/aspose.slides/itextstyle).
 
 ### Definice:
 ```python

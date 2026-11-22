@@ -4,15 +4,16 @@ second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
 description: 
 type: docs
 url: /el/aspose.slides/ipresentation/layout_slides/
-weight: 240
+weight: 250
 ---
 ## layout_slides ιδιότητα
-Επιστρέφει μια λίστα με όλες τις διαφάνειες διάταξης που ορίζονται στην παρουσίαση.
-            Μόνο για ανάγνωση [`IGlobalLayoutSlideCollection`](/slides/python-net/el/aspose.slides/igloballayoutslidecollection).
+Επιστρέφει μια λίστα με όλες τις διαφάνειες διάταξης που έχουν οριστεί στην παρουσίαση.
+            Μόνο ανάγνωση [`IGlobalLayoutSlideCollection`](/slides/python-net/el/aspose.slides/igloballayoutslidecollection).
 
 ### Παρατηρήσεις
 
-Μπορείτε να έχετε πρόσβαση σε εναλλακτικό API για προσθήκη/εισαγωγή/αφαίρεση/κλωνοποίηση διαφανειών διάταξης χρησιμοποιώντας την ιδιότητα IMasterSlide.LayoutSlides.
+Μπορείτε να έχετε πρόσβαση σε εναλλακτικό API για προσθήκη/εισαγωγή/αφαίρεση/κλωνοποίηση διαφανειών διάταξης 
+            χρησιμοποιώντας την ιδιότητα IMasterSlide.LayoutSlides.
 
 ### Ορισμός:
 ```python

@@ -1,14 +1,14 @@
 ---
 title: explosion property
-second_title: Aspose.Slides for Python via .NET API リファレンス
+second_title: Aspose.Slides for Python via .NET APIリファレンス
 description: 
 type: docs
 url: /ja/aspose.slides.charts/chartdatapoint/explosion/
-weight: 120
+weight: 160
 ---
-## 爆発プロパティ
-データポイントがパイの中心からどれだけ移動するかを指定します。
-            読み書き **int**.
+## 爆発 プロパティ
+Specifies the amount the data point shall be moved from the center of the pie.
+            Read/write **int**.
 
 ### 定義:
 ```python

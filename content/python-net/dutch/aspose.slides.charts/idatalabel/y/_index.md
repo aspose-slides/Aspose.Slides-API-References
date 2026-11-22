@@ -4,7 +4,7 @@ second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides.charts/idatalabel/y/
-weight: 270
+weight: 280
 ---
 ## y eigenschap
 ### Definitie:

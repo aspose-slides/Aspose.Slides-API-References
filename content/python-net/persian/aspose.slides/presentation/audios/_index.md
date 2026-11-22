@@ -4,11 +4,11 @@ second_title: Aspose.Slides برای Python از طریق .NET مرجع API
 description: 
 type: docs
 url: /fa/aspose.slides/presentation/audios/
-weight: 130
+weight: 140
 ---
 ## audios ویژگی
-مجموعه تمام فایل‌های صوتی توکار در ارائه را برمی‌گرداند.
-فقط خواندنی [`IAudioCollection`](/slides/python-net/fa/aspose.slides/iaudiocollection).
+مجموعه‌ای از تمام فایل‌های صوتی جاسازی‌شده در ارائه را برمی‌گرداند.
+            فقط-خواندنی [`IAudioCollection`](/slides/python-net/fa/aspose.slides/iaudiocollection).
 
 ### تعریف:
 ```python
@@ -17,7 +17,8 @@ def audios(self):
     ...
 ```
 
-### مراجع
+
+### موارد مرتبط
 * کلاس [`IAudioCollection`](/slides/python-net/fa/aspose.slides/iaudiocollection)
 * کلاس [`Presentation`](/slides/python-net/fa/aspose.slides/presentation)
 * ماژول [`aspose.slides`](/slides/python-net/fa/aspose.slides)

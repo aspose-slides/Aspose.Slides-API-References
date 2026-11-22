@@ -1,13 +1,13 @@
 ---
 title: external_workbook_path property
-second_title: Aspose.Slides for Python via .NET API 參考
+second_title: Aspose.Slides for Python via .NET API 參考文件
 description: 
 type: docs
 url: /zh-hant/aspose.slides.charts/ichartdata/external_workbook_path/
-weight: 110
+weight: 120
 ---
 ## external_workbook_path 屬性
-如果資料來源是外部，則表示外部工作簿路徑，否則為 None
+如果資料來源是外部，則表示外部工作簿路徑；否則為 None
 
 ### 定義:
 ```python
@@ -17,7 +17,7 @@ def external_workbook_path(self):
 ```
 
 
-### 另請參閱
+### 另見
 * 類別 [`IChartData`](/slides/python-net/zh-hant/aspose.slides.charts/ichartdata)
 * 模組 [`aspose.slides.charts`](/slides/python-net/zh-hant/aspose.slides.charts)
-* 函式庫 [`Aspose.Slides`](/slides/python-net)
+* 程式庫 [`Aspose.Slides`](/slides/python-net)

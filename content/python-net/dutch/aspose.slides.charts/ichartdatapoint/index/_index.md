@@ -4,10 +4,10 @@ second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides.charts/ichartdatapoint/index/
-weight: 140
+weight: 180
 ---
 ## index eigenschap
-Bepaalt op welke collectie van de kinderen van de ouder dit gegevenspunt van toepassing is.
+Bepaalt op welke van de kinderenverzameling van de ouder dit datapunt van toepassing is.
             Lezen **int**.
 
 ### Definitie:
@@ -16,6 +16,7 @@ Bepaalt op welke collectie van de kinderen van de ouder dit gegevenspunt van toe
 def index(self):
     ...
 ```
+
 
 ### Zie ook
 * klasse [`IChartDataPoint`](/slides/python-net/nl/aspose.slides.charts/ichartdatapoint)

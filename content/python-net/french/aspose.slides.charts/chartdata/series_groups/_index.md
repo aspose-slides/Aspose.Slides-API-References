@@ -1,10 +1,10 @@
 ---
 title: series_groups property
-second_title: Référence de l'API Aspose.Slides pour Python via .NET
+second_title: Référence API Aspose.Slides pour Python via .NET
 description: 
 type: docs
 url: /fr/aspose.slides.charts/chartdata/series_groups/
-weight: 140
+weight: 150
 ---
 ## series_groups propriété
 Obtient les groupes de séries.
@@ -12,17 +12,14 @@ Obtient les groupes de séries.
 
 ### Remarques
 
-1) Chaque groupe de séries contient des séries avec des types combinables. Groups of 
-            combinable series types defined and described with CombinableSeriesTypesGroup 
-            enum.
-            Also each group of series contains series witch is plotted whether 
-            on primary axes or on secondary axes (not both cases in one group).
-            So, principle of series grouping is a grouping by type groups mentioned 
-            above and by primary/secondary plotting type.
-
-2) Group of series contains some series properies whitch is common for each series in group ("Series group properties").
-            "Series group properties" in classe ChartSeriesGroup is lecture/écriture.
-            Each of "Series group properties" can have a lecture seule projection in classe ChartSeries.
+1) Chaque groupe de séries contient des séries avec des types combinables. 
+            Les groupes de types de séries combinables sont définis et décrits avec l'énumération CombinableSeriesTypesGroup. 
+            De plus, chaque groupe de séries contient des séries qui sont tracées sur les axes primaires ou sur les axes secondaires (pas les deux cas dans un même groupe). 
+            Ainsi, le principe du groupement des séries repose sur un groupement par groupes de types mentionnés ci-dessus et par le type de tracé principal/secondaire.
+            
+2) Un groupe de séries contient certaines propriétés de séries qui sont communes à chaque série du groupe ("Series group properties").
+            Les "Series group properties" dans la classe ChartSeriesGroup sont en lecture/écriture. 
+            Chaque "series group properties" peut avoir une projection en lecture seule dans la classe ChartSeries.
 
 ### Définition:
 ```python

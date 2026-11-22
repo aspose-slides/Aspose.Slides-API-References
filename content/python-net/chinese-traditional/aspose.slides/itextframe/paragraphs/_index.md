@@ -1,16 +1,16 @@
 ---
 title: paragraphs property
-second_title: Aspose.Slides for Python 透過 .NET API 參考文件
+second_title: Aspose.Slides for Python via .NET API 參考
 description: 
 type: docs
 url: /zh-hant/aspose.slides/itextframe/paragraphs/
-weight: 100
+weight: 110
 ---
 ## paragraphs 屬性
-返回框架中所有段落的清單。
-            唯讀 [`IParagraphCollection`](/slides/python-net/zh-hant/aspose.slides/iparagraphcollection).
+傳回框架中所有 paragraphs 的清單。
+            唯讀 [`IParagraphCollection`](/slides/python-net/zh-hant/aspose.slides/iparagraphcollection)。
 
-### 定義:
+### 定義：
 ```python
 @property
 def paragraphs(self):
@@ -18,7 +18,7 @@ def paragraphs(self):
 ```
 
 
-### 另見
+### 另請參閱
 * 類別 [`IParagraphCollection`](/slides/python-net/zh-hant/aspose.slides/iparagraphcollection)
 * 類別 [`ITextFrame`](/slides/python-net/zh-hant/aspose.slides/itextframe)
 * 模組 [`aspose.slides`](/slides/python-net/zh-hant/aspose.slides)

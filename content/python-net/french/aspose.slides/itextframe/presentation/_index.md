@@ -4,7 +4,7 @@ second_title: Référence de l'API Aspose.Slides pour Python via .NET
 description: 
 type: docs
 url: /fr/aspose.slides/itextframe/presentation/
-weight: 130
+weight: 140
 ---
 ## propriété de présentation
 ### Définition:

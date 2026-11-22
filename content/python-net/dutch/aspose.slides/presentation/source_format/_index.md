@@ -1,13 +1,13 @@
 ---
 title: source_format property
-second_title: Aspose.Slides voor Python via .NET API-referentie
+second_title: Aspose.Slides voor Python via .NET API Referentie
 description: 
 type: docs
 url: /nl/aspose.slides/presentation/source_format/
-weight: 380
+weight: 390
 ---
 ## source_format eigenschap
-Retourneert informatie over van welk formaat de presentatie is geladen.
+Geeft informatie over van welk formaat de presentatie is geladen.
             Alleen-lezen [`SourceFormat`](/slides/python-net/nl/aspose.slides/sourceformat).
 
 ### Definitie:

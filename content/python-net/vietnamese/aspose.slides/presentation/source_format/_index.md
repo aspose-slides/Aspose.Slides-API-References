@@ -1,13 +1,13 @@
 ---
 title: source_format property
-second_title: Aspose.Slides cho Python qua Tham chiếu API .NET
+second_title: Tham chiếu API Aspose.Slides cho Python qua .NET
 description: 
 type: docs
 url: /vi/aspose.slides/presentation/source_format/
-weight: 380
+weight: 390
 ---
-## source_format thuộc tính
-Trả về thông tin về định dạng mà bản trình chiếu được tải.
+## thuộc tính source_format
+Trả về thông tin về định dạng mà bản trình chiếu đã được tải.
             Chỉ đọc [`SourceFormat`](/slides/python-net/vi/aspose.slides/sourceformat).
 
 ### Định nghĩa:

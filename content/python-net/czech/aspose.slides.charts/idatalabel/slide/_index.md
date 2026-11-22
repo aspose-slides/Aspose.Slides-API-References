@@ -1,10 +1,10 @@
 ---
 title: slide property
-second_title: Aspose.Slides pro Python přes .NET API Reference
+second_title: Aspose.Slides pro Python prostřednictvím .NET API Reference
 description: 
 type: docs
 url: /cs/aspose.slides.charts/idatalabel/slide/
-weight: 210
+weight: 220
 ---
 ## slide vlastnost
 ### Definice:
@@ -13,7 +13,6 @@ weight: 210
 def slide(self):
     ...
 ```
-
 
 ### Viz také
 * třída [`IDataLabel`](/slides/python-net/cs/aspose.slides.charts/idatalabel)

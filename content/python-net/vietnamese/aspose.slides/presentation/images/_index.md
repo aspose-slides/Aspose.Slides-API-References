@@ -1,14 +1,14 @@
 ---
 title: images property
-second_title: Tham chiếu API Aspose.Slides cho Python thông qua .NET
+second_title: Tham khảo API Aspose.Slides cho Python thông qua .NET
 description: 
 type: docs
 url: /vi/aspose.slides/presentation/images/
-weight: 240
+weight: 250
 ---
 ## images thuộc tính
-Trả về bộ sưu tập tất cả các hình ảnh trong bản trình chiếu.
-            Chỉ đọc [`IImageCollection`](/slides/python-net/vi/aspose.slides/iimagecollection).
+Trả về bộ sưu tập của tất cả các images trong bản trình bày.
+Chỉ đọc [`IImageCollection`](/slides/python-net/vi/aspose.slides/iimagecollection).
 
 ### Định nghĩa:
 ```python
@@ -22,4 +22,4 @@ def images(self):
 * lớp [`IImageCollection`](/slides/python-net/vi/aspose.slides/iimagecollection)
 * lớp [`Presentation`](/slides/python-net/vi/aspose.slides/presentation)
 * mô-đun [`aspose.slides`](/slides/python-net/vi/aspose.slides)
-* thư viện [`Aspose.Slides`](/slides/python-net)
+* library [`Aspose.Slides`](/slides/python-net)

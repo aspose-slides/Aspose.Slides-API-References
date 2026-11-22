@@ -1,10 +1,10 @@
 ---
 title: right property
-second_title: Référence de l'API Aspose.Slides pour Python via .NET
+second_title: Aspose.Slides pour Python via .NET Référence de l'API
 description: 
 type: docs
 url: /fr/aspose.slides.charts/datalabel/right/
-weight: 210
+weight: 220
 ---
 ## right propriété
 Right.

@@ -4,10 +4,10 @@ second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides/ipresentation/masters/
-weight: 280
+weight: 290
 ---
 ## masters eigenschap
-Returns a list of all master slides that are defined in the presentation.
+Retourneert een lijst van alle masterdia's die zijn gedefinieerd in de presentatie.
             Alleen-lezen [`IMasterSlideCollection`](/slides/python-net/nl/aspose.slides/imasterslidecollection).
 
 ### Definitie:

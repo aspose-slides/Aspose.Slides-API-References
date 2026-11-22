@@ -1,13 +1,13 @@
 ---
 title: set_as_total property
-second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Reference
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET อ้างอิง API
 description: 
 type: docs
 url: /th/aspose.slides.charts/ichartdatapoint/set_as_total/
-weight: 200
+weight: 240
 ---
 ## set_as_total คุณสมบัติ
-กำหนดจุดข้อมูลเป็นผลรวม ใช้กับประเภทซีรีส์ Waterfall เท่านั้น.
+ตั้งค่าจุดข้อมูลเป็นผลรวม ใช้ได้กับประเภทซีรีส์ Waterfall เท่านั้น.
 
 ### คำนิยาม:
 ```python

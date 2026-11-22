@@ -4,13 +4,13 @@ second_title: Tham chiếu API Aspose.Slides cho Python qua .NET
 description: 
 type: docs
 url: /vi/aspose.slides.charts/ichartcategory/grouping_levels/
-weight: 40
+weight: 50
 ---
 ## grouping_levels thuộc tính
-Managed container of the values of the chart category grouping levels.
-            Danh mục đa cấp chứa nhiều hơn một cấp nhóm.
-            Chỉ mục các cấp nhóm được đánh số bắt đầu từ 0.
-            Chỉ đọc [`IChartCategoryLevelsManager`](/slides/python-net/vi/aspose.slides.charts/ichartcategorylevelsmanager).
+Bộ chứa được quản lý cho các giá trị của các mức nhóm danh mục biểu đồ.
+Danh mục đa cấp chứa hơn một mức nhóm.
+Chỉ mục của các mức nhóm dựa trên số không.
+Chỉ đọc [`IChartCategoryLevelsManager`](/slides/python-net/vi/aspose.slides.charts/ichartcategorylevelsmanager).
 
 ### Định nghĩa:
 ```python

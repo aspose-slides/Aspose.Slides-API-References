@@ -1,12 +1,12 @@
 ---
 title: text property
-second_title: Referência da API Aspose.Slides para Python via .NET
+second_title: Aspose.Slides para Python via .NET Referência de API
 description: 
 type: docs
 url: /pt/aspose.slides/itextframe/text/
-weight: 150
+weight: 160
 ---
-## text propriedade
+## propriedade de texto
 Obtém ou define o texto simples para um TextFrame.
             Leitura/gravação **str**.
 
@@ -22,7 +22,7 @@ def text(self, value):
 ```
 
 
-### Ver também
+### Veja também
 * classe [`ITextFrame`](/slides/python-net/pt/aspose.slides/itextframe)
 * módulo [`aspose.slides`](/slides/python-net/pt/aspose.slides)
 * biblioteca [`Aspose.Slides`](/slides/python-net)

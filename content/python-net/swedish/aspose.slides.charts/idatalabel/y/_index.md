@@ -4,7 +4,7 @@ second_title: Aspose.Slides för Python via .NET API-referens
 description: 
 type: docs
 url: /sv/aspose.slides.charts/idatalabel/y/
-weight: 270
+weight: 280
 ---
 ## y egenskap
 ### Definition:

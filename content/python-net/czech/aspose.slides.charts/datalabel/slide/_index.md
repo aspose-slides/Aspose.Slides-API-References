@@ -1,19 +1,18 @@
 ---
 title: slide property
-second_title: Aspose.Slides pro Python prostřednictvím .NET API
+second_title: Aspose.Slides pro Python přes .NET API Reference
 description: 
 type: docs
 url: /cs/aspose.slides.charts/datalabel/slide/
-weight: 220
+weight: 230
 ---
-## vlastnost slide
+## slide vlastnost
 ### Definice:
 ```python
 @property
 def slide(self):
     ...
 ```
-
 
 ### Viz také
 * třída [`DataLabel`](/slides/python-net/cs/aspose.slides.charts/datalabel)

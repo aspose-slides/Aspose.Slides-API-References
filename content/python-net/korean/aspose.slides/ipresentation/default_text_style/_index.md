@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API 레퍼런스
 description: 
 type: docs
 url: /ko/aspose.slides/ipresentation/default_text_style/
-weight: 160
+weight: 170
 ---
 ## default_text_style 속성
 도형에 대한 기본 텍스트 스타일을 반환합니다.

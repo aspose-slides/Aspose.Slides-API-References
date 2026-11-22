@@ -4,13 +4,13 @@ second_title: Aspose.Slides für Python über .NET API-Referenz
 description: 
 type: docs
 url: /de/aspose.slides.charts/ichartcategory/grouping_levels/
-weight: 40
+weight: 50
 ---
 ## grouping_levels Eigenschaft
-Verwalteter Container der Werte der Diagrammkategorie-Gruppierungsebenen.
+Verwalteter Container der Werte der Gruppierungsebenen der Diagrammkategorie.
             Eine mehrstufige Kategorie enthält mehr als eine Gruppierungsebene.
             Die Indizierung der Gruppierungsebenen ist nullbasiert.
-            Schreibgeschützt [`IChartCategoryLevelsManager`](/slides/python-net/de/aspose.slides.charts/ichartcategorylevelsmanager).
+            Nur lesbar [`IChartCategoryLevelsManager`](/slides/python-net/de/aspose.slides.charts/ichartcategorylevelsmanager).
 
 ### Definition:
 ```python

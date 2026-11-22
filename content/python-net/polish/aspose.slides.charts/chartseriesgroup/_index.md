@@ -1,11 +1,11 @@
 ---
 title: ChartSeriesGroup class
-second_title: Aspose.Slides dla Pythona poprzez .NET – Dokumentacja API
+second_title: Aspose.Slides dla Pythona poprzez .NET – dokumentacja API
 description: 
 type: docs
 url: /pl/aspose.slides.charts/chartseriesgroup/
 ---
-## Klasa ChartSeriesGroup
+## ChartSeriesGroup klasa
 
 Reprezentuje grupę serii.
 
@@ -15,29 +15,29 @@ Typ ChartSeriesGroup udostępnia następujące elementy:
 
 | Właściwość | Opis |
 | :- | :- |
-| [`type`](/slides/python-net/pl/aspose.slides.charts/chartseriesgroup/type/) | Returns a type of this series group.<br/>            Read-only [`CombinableSeriesTypesGroup`](/slides/python-net/pl/aspose.slides.charts/combinableseriestypesgroup). |
-| [`plot_on_second_axis`](/slides/python-net/pl/aspose.slides.charts/chartseriesgroup/plot_on_second_axis/) | Indicates if series of this group is plotted on secondary axis.<br/>            Read-only **bool**. |
-| [`series`](/slides/python-net/pl/aspose.slides.charts/chartseriesgroup/series/) | Returns a collection of series.<br/>            Read-only [`IChartSeriesReadonlyCollection`](/slides/python-net/pl/aspose.slides.charts/ichartseriesreadonlycollection). |
-| [`up_down_bars`](/slides/python-net/pl/aspose.slides.charts/chartseriesgroup/up_down_bars/) | Provides access to up/down bars of Line- or Stock-chart.<br/>            Read-only [`IUpDownBarsManager`](/slides/python-net/pl/aspose.slides.charts/iupdownbarsmanager). |
-| [`gap_width`](/slides/python-net/pl/aspose.slides.charts/chartseriesgroup/gap_width/) | Specifies the space between bar or column clusters, as a percentage of the bar or column width.<br/>            Read/write **int**. |
-| [`gap_depth`](/slides/python-net/pl/aspose.slides.charts/chartseriesgroup/gap_depth/) | Returns or sets the distance, as a percentage of the marker width, between the data series in a 3D chart.<br/>            Read/write **int**. |
-| [`first_slice_angle`](/slides/python-net/pl/aspose.slides.charts/chartseriesgroup/first_slice_angle/) | Gets or sets the angle of the first pie or doughnut chart slice, <br/>            in degrees (clockwise from up, from 0 to 360 degrees).<br/>            Read/write **int**. |
-| [`doughnut_hole_size`](/slides/python-net/pl/aspose.slides.charts/chartseriesgroup/doughnut_hole_size/) | Specifies the size of the hole in a doughnut chart (can be between 0 and 90 percents <br/>            of the size of the plot area.).<br/>            Read/write **int**. |
-| [`overlap`](/slides/python-net/pl/aspose.slides.charts/chartseriesgroup/overlap/) | Specifies how much bars and columns shall overlap on 2-D charts, as a percentage (from -100% to 100%).<br/>             - -100%: Maximum spacing (bars are completely separated).<br/>             - 0%: Bars are placed side by side without overlap or spacing.<br/>             - 100%: Maximum overlap (bars completely overlap each other).<br/>             This property is read/write **int**. |
-| [`second_pie_size`](/slides/python-net/pl/aspose.slides.charts/chartseriesgroup/second_pie_size/) | Specifies the size of the second pie or bar of a pie-of-pie chart or <br/>            a bar-of-pie chart, as a percentage of the size of the first pie (can <br/>            be between 5 and 200 percents).<br/>            Read/write **int**. |
-| [`bubble_size_representation`](/slides/python-net/pl/aspose.slides.charts/chartseriesgroup/bubble_size_representation/) | Specifies how the bubble size values are represented on the bubble chart.<br/>            Read/write [`BubbleSizeRepresentationType`](/slides/python-net/pl/aspose.slides.charts/bubblesizerepresentationtype). |
-| [`pie_split_position`](/slides/python-net/pl/aspose.slides.charts/chartseriesgroup/pie_split_position/) | Specifies a value that shall be used to determine which data points <br/>            are in the second pie or bar on a pie-of-pie or bar-of-pie chart. <br/>            Is used together with PieSplitBy property.<br/>            Read/write **float**. |
-| [`pie_split_by`](/slides/python-net/pl/aspose.slides.charts/chartseriesgroup/pie_split_by/) | Specifies how to determine which data points are in the second pie or bar <br/>            on a pie-of-pie or bar-of-pie chart.<br/>            Read/write [`PieSplitType`](/slides/python-net/pl/aspose.slides.charts/piesplittype). |
-| [`is_color_varied`](/slides/python-net/pl/aspose.slides.charts/chartseriesgroup/is_color_varied/) | Specifies that each data marker in the series has a different color.<br/>            Read/write **bool**. |
-| [`has_series_lines`](/slides/python-net/pl/aspose.slides.charts/chartseriesgroup/has_series_lines/) | True if chart has series lines. Applied to stacked bar and OfPie charts.<br/>            Read/write **bool**. |
-| [`hi_low_lines_format`](/slides/python-net/pl/aspose.slides.charts/chartseriesgroup/hi_low_lines_format/) | Specifies HiLowLines format. <br/>            HiLowLines applied with HiLowClose, OpenHiLowClose, VolumeHiLowClose and VolumeOpenHiLowClose chart types. |
-| [`bubble_size_scale`](/slides/python-net/pl/aspose.slides.charts/chartseriesgroup/bubble_size_scale/) | Specifies the scale factor for the bubble chart (can be <br/>            between 0 and 300 percents of the default size).<br/>            Read/write **int**. |
-| [`pie_split_custom_points`](/slides/python-net/pl/aspose.slides.charts/chartseriesgroup/pie_split_custom_points/) | The custom split information for a pie-of-pie or bar-of-pie chart with a custom split.<br/>            Contains data points that shall be drawn in the second pie or bar in a pie-of-pie or <br/>            bar-of-pie chart.<br/>            Read-only [`PieSplitCustomPointCollection`](/slides/python-net/pl/aspose.slides.charts/piesplitcustompointcollection). |
-| [`chart`](/slides/python-net/pl/aspose.slides.charts/chartseriesgroup/chart/) | Returns the parent chart.<br/>            Read-only [`IChart`](/slides/python-net/pl/aspose.slides.charts/ichart). |
+| [`type`](/slides/python-net/pl/aspose.slides.charts/chartseriesgroup/type/) | Zwraca typ tej grupy serii.<br/>            Tylko do odczytu [`CombinableSeriesTypesGroup`](/slides/python-net/pl/aspose.slides.charts/combinableseriestypesgroup). |
+| [`plot_on_second_axis`](/slides/python-net/pl/aspose.slides.charts/chartseriesgroup/plot_on_second_axis/) | Wskazuje, czy seria tej grupy jest rysowana na drugiej osi.<br/>            Tylko do odczytu **bool**. |
+| [`series`](/slides/python-net/pl/aspose.slides.charts/chartseriesgroup/series/) | Zwraca kolekcję serii.<br/>            Tylko do odczytu [`IChartSeriesReadonlyCollection`](/slides/python-net/pl/aspose.slides.charts/ichartseriesreadonlycollection). |
+| [`up_down_bars`](/slides/python-net/pl/aspose.slides.charts/chartseriesgroup/up_down_bars/) | Umożliwia dostęp do słupków góra/dół wykresu liniowego lub giełdowego.<br/>            Tylko do odczytu [`IUpDownBarsManager`](/slides/python-net/pl/aspose.slides.charts/iupdownbarsmanager). |
+| [`gap_width`](/slides/python-net/pl/aspose.slides.charts/chartseriesgroup/gap_width/) | Pobiera lub ustawia odstęp między grupami słupków lub kolumn, wyrażony jako procent szerokości słupka lub kolumny.<br/>            Wartość musi mieścić się w przedziale od 0 do 500.<br/>            Odczyt/zapis **int**. |
+| [`gap_depth`](/slides/python-net/pl/aspose.slides.charts/chartseriesgroup/gap_depth/) | Pobiera lub ustawia odległość między seriami danych w wykresie 3D, wyrażoną jako procent szerokości znacznika.<br/>            Wartość musi mieścić się w przedziale od 0 do 500.<br/>            Odczyt/zapis **int**. |
+| [`first_slice_angle`](/slides/python-net/pl/aspose.slides.charts/chartseriesgroup/first_slice_angle/) | Pobiera lub ustawia kąt pierwszego wycinka wykresu kołowego lub pierścieniowego,<br/>            w stopniach (zgodnie z ruchem wskazówek zegara od góry, od 0 do 360 stopni).<br/>            Odczyt/zapis **int**. |
+| [`doughnut_hole_size`](/slides/python-net/pl/aspose.slides.charts/chartseriesgroup/doughnut_hole_size/) | Określa rozmiar otworu w wykresie pierścieniowym (może wynosić od 0 do 90 procent<br/>            rozmiaru obszaru wykresu).<br/>            Odczyt/zapis **int**. |
+| [`overlap`](/slides/python-net/pl/aspose.slides.charts/chartseriesgroup/overlap/) | Określa, jak bardzo słupki i kolumny mają nachodzić na siebie w wykresach 2-D, wyrażone jako procent (od -100% do 100%).<br/>             - -100%: Maksymalny odstęp (słupki są całkowicie rozdzielone).<br/>             - 0%: Słupki są umieszczone obok siebie bez nachodzenia ani odstępu.<br/>             - 100%: Maksymalne nachodzenie (słupki całkowicie na siebie nachodzą).<br/>             Ta właściwość jest odczyt/zapis **int**. |
+| [`second_pie_size`](/slides/python-net/pl/aspose.slides.charts/chartseriesgroup/second_pie_size/) | Określa rozmiar drugiego koła lub słupka w wykresie koło-w-kółku lub słupek-w-kółku, wyrażony jako procent rozmiaru pierwszego koła (może wynosić od 5 do 200 procent).<br/>            Odczyt/zapis **int**. |
+| [`bubble_size_representation`](/slides/python-net/pl/aspose.slides.charts/chartseriesgroup/bubble_size_representation/) | Określa sposób reprezentacji wartości rozmiaru bąbelka na wykresie bąbelkowym.<br/>            Odczyt/zapis [`BubbleSizeRepresentationType`](/slides/python-net/pl/aspose.slides.charts/bubblesizerepresentationtype). |
+| [`pie_split_position`](/slides/python-net/pl/aspose.slides.charts/chartseriesgroup/pie_split_position/) | Określa wartość używaną do określenia, które punkty danych znajdują się w drugim kole lub słupku na wykresie koło-w-kółku lub słupek-w-kółku.<br/>            Jest używana razem z właściwością PieSplitBy.<br/>            Odczyt/zapis **float**. |
+| [`pie_split_by`](/slides/python-net/pl/aspose.slides.charts/chartseriesgroup/pie_split_by/) | Określa sposób określania, które punkty danych znajdują się w drugim kole lub słupku na wykresie koło-w-kółku lub słupek-w-kółku.<br/>            Odczyt/zapis [`PieSplitType`](/slides/python-net/pl/aspose.slides.charts/piesplittype). |
+| [`is_color_varied`](/slides/python-net/pl/aspose.slides.charts/chartseriesgroup/is_color_varied/) | Określa, że każdy znacznik danych w serii ma inny kolor.<br/>            Odczyt/zapis **bool**. |
+| [`has_series_lines`](/slides/python-net/pl/aspose.slides.charts/chartseriesgroup/has_series_lines/) | Prawda, jeśli wykres ma linie serii. Stosowane do wykresów słupkowych skumulowanych i OfPie.<br/>            Odczyt/zapis **bool**. |
+| [`hi_low_lines_format`](/slides/python-net/pl/aspose.slides.charts/chartseriesgroup/hi_low_lines_format/) | Określa format HiLowLines.<br/>            HiLowLines stosowane wraz z typami wykresów HiLowClose, OpenHiLowClose, VolumeHiLowClose i VolumeOpenHiLowClose. |
+| [`bubble_size_scale`](/slides/python-net/pl/aspose.slides.charts/chartseriesgroup/bubble_size_scale/) | Określa współczynnik skali dla wykresu bąbelkowego (może wynosić od 0 do 300 procent domyślnego rozmiaru).<br/>            Odczyt/zapis **int**. |
+| [`pie_split_custom_points`](/slides/python-net/pl/aspose.slides.charts/chartseriesgroup/pie_split_custom_points/) | Niestandardowe informacje o podziale dla wykresu koło-w-kółku lub słupek-w-kółku z niestandardowym podziałem.<br/>            Zawiera punkty danych, które mają być rysowane w drugim kole lub słupku w wykresie koło-w-kółku lub słupek-w-kółku.<br/>            Tylko do odczytu [`PieSplitCustomPointCollection`](/slides/python-net/pl/aspose.slides.charts/piesplitcustompointcollection). |
+| [`chart`](/slides/python-net/pl/aspose.slides.charts/chartseriesgroup/chart/) | Zwraca wykres nadrzędny.<br/>            Tylko do odczytu [`IChart`](/slides/python-net/pl/aspose.slides.charts/ichart). |
 | [`slide`](/slides/python-net/pl/aspose.slides.charts/chartseriesgroup/slide/) |  |
 | [`presentation`](/slides/python-net/pl/aspose.slides.charts/chartseriesgroup/presentation/) |  |
 
-Pobiera element pod określonym indeksem.
+Pobiera element o określonym indeksie.
 
 ## Indeksator
 
@@ -45,15 +45,12 @@ Pobiera element pod określonym indeksem.
 | :- | :- |
 | [`[index]`](/slides/python-net/pl/aspose.slides.charts/chartseriesgroup/__getitem__/) |  |
 
-
 ### Uwagi
 
-1) Zobacz podsumowanie i uwagi dla klasy ChartSeriesGroupCollection oraz wyliczenia CombinableSeriesTypesGroup enum.
-            2) Grupa serii zawiera niektóre właściwości serii, które są wspólne dla 
-            każdej serii w grupie („właściwości grupy serii”).
-            „Właściwości grupy serii” w klasie ChartSeriesGroup są read/write.
-            Każda z „właściwości grupy serii” może mieć read-only projection w klasie ChartSeries.
-
+1) Zobacz podsumowanie i uwagi dla klasy ChartSeriesGroupCollection i wyliczenia CombinableSeriesTypesGroup.  
+2) Grupa serii zawiera pewne właściwości serii, które są wspólne dla każdej serii w grupie („właściwości grupy serii”).  
+„Właściwości grupy serii” w klasie ChartSeriesGroup są odczyt/zapis.  
+Każda z „właściwości grupy serii” może mieć projekcję tylko do odczytu w klasie ChartSeries.
 
 ### Zobacz także
 * moduł [`aspose.slides.charts`](/slides/python-net/pl/aspose.slides.charts)

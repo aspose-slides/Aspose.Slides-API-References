@@ -1,6 +1,6 @@
 ---
 title: IDataLabel class
-second_title: Riferimento API di Aspose.Slides per Python via .NET
+second_title: Riferimento API Aspose.Slides per Python via .NET
 description: 
 type: docs
 url: /it/aspose.slides.charts/idatalabel/
@@ -13,11 +13,12 @@ Il tipo IDataLabel espone i seguenti membri:
 
 ## Proprietà
 
-| Proprietà | Descrizione |
+| Property | Description |
 | :- | :- |
-| [`is_visible`](/slides/python-net/it/aspose.slides.charts/idatalabel/is_visible/) | False indica che l'etichetta dei dati non è visibile (e quindi tutti i flag Show*-flags (ShowValue, ...) sono false).<br/>            Sola lettura **bool**. |
-| [`data_label_format`](/slides/python-net/it/aspose.slides.charts/idatalabel/data_label_format/) | Restituisce il formato dell'etichetta dei dati.<br/>            Sola lettura [`IDataLabelFormat`](/slides/python-net/it/aspose.slides.charts/idatalabelformat). |
+| [`is_visible`](/slides/python-net/it/aspose.slides.charts/idatalabel/is_visible/) | False indica che l'etichetta dei dati non è visibile (e quindi tutti i flag Show*-flags (ShowValue, ...) sono false).<br/>            Solo lettura **bool**. |
+| [`data_label_format`](/slides/python-net/it/aspose.slides.charts/idatalabel/data_label_format/) | Restituisce il formato dell'etichetta dei dati.<br/>            Solo lettura [`IDataLabelFormat`](/slides/python-net/it/aspose.slides.charts/idatalabelformat). |
 | [`value_from_cell`](/slides/python-net/it/aspose.slides.charts/idatalabel/value_from_cell/) | Ottiene o imposta la cella dati della cartella di lavoro. Applicato se la proprietà IDataLabelFormat.ShowLabelValueFromCell è true. |
+| [`label_shape_type`](/slides/python-net/it/aspose.slides.charts/idatalabel/label_shape_type/) | Ottiene o imposta il tipo di forma dell'etichetta dei dati.<br/>             Restituisce [`ShapeType.NOT_DEFINED`](/slides/python-net/it/aspose.slides/shapetype/NOT_DEFINED) se non è definita alcuna forma. |
 | [`x`](/slides/python-net/it/aspose.slides.charts/idatalabel/x/) |  |
 | [`y`](/slides/python-net/it/aspose.slides.charts/idatalabel/y/) |  |
 | [`width`](/slides/python-net/it/aspose.slides.charts/idatalabel/width/) |  |
@@ -36,10 +37,10 @@ Il tipo IDataLabel espone i seguenti membri:
 
 ## Metodi
 
-| Metodo | Descrizione |
+| Method | Description |
 | :- | :- |
-| [`hide(self)`](/slides/python-net/it/aspose.slides.charts/idatalabel/hide/#) | Nasconde l'etichetta dei dati impostando tutti i flag Show*-flags (ShowValue, ...) su false.<br/>            IsVisible sarà false dopo questa operazione. |
-| [`get_actual_label_text(self)`](/slides/python-net/it/aspose.slides.charts/idatalabel/get_actual_label_text/#) | Restituisce il testo effettivo dell'etichetta basato sulle impostazioni di DataLabelFormat o sul valore TextFrameForOverriding.Text. |
+| [`hide(self)`](/slides/python-net/it/aspose.slides.charts/idatalabel/hide/#) | Rende l'etichetta dei dati nascosta impostando tutti i flag Show*-flags (ShowValue, ...) nello stato false.<br/>            IsVisible sarà false dopo questa operazione. |
+| [`get_actual_label_text(self)`](/slides/python-net/it/aspose.slides.charts/idatalabel/get_actual_label_text/#) | Restituisce il testo effettivo dell'etichetta in base alle impostazioni di DataLabelFormat o al valore TextFrameForOverriding.Text. |
 | [`add_text_frame_for_overriding(self, text)`](/slides/python-net/it/aspose.slides.charts/idatalabel/add_text_frame_for_overriding/#str) |  |
 
 ### Vedi anche

@@ -1,15 +1,15 @@
 ---
 title: value property
-second_title: Aspose.Slides для Python через .NET Справочник API
+second_title: Aspose.Slides для Python через .NET справка API
 description: 
 type: docs
 url: /ru/aspose.slides.charts/ichartcategory/value/
-weight: 60
+weight: 70
 ---
-## Свойство value
+## value свойство
 Если UseCell равно true, то это свойство представляет свойство AsCell.Value.
             Если UseCell равно false, то это свойство представляет свойство AsLiteral.
-            Чтение/запись **any**.
+            Чтение/запись **любой**.
 
 ### Определение:
 ```python

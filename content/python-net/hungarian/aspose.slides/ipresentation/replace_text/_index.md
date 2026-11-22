@@ -1,13 +1,13 @@
 ---
 title: replace_text method
-second_title: Aspose.Slides for Python a .NET API hivatkozás
+second_title: Aspose.Slides a Pythonhoz a .NET API hivatkozás
 description: 
 type: docs
 url: /hu/aspose.slides/ipresentation/replace_text/
-weight: 70
+weight: 80
 ---
 ## replace_text(self, old_text, new_text, options, callback) {#str-str-itextsearchoptions-ifindresultcallback}
-Lecseréli a megadott szöveg összes előfordulását egy másik megadott szövegre.
+Az összes előforduló megadott szöveget egy másik megadott szövegre cseréli.
 
 
 ```python
@@ -18,8 +18,8 @@ def replace_text(self, old_text, new_text, options, callback):
 
 | Paraméter | Típus | Leírás |
 | :- | :- | :- |
-| old_text | **str** | A lecserélendő karakterlánc. |
-| new_text | **str** | A karakterlánc, amely az összes oldText előfordulást lecseréli. |
+| old_text | **str** | A cserélendő karakterlánc. |
+| new_text | **str** | A karakterlánc, amely az összes oldText előfordulást lecserél. |
 | options | [`ITextSearchOptions`](/slides/python-net/hu/aspose.slides/itextsearchoptions) | Szövegkeresési beállítások [`ITextSearchOptions`](/slides/python-net/hu/aspose.slides/itextsearchoptions). |
 | callback | [`IFindResultCallback`](/slides/python-net/hu/aspose.slides/ifindresultcallback) | A visszahívási objektum a keresési eredmények fogadásához [`IFindResultCallback`](/slides/python-net/hu/aspose.slides/ifindresultcallback). |
 

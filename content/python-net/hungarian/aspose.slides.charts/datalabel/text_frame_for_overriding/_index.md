@@ -1,16 +1,16 @@
 ---
 title: text_frame_for_overriding property
-second_title: Aspose.Slides a Pythonhoz .NET API referencia
+second_title: Aspose.Slides for Python via .NET API Referencia
 description: 
 type: docs
 url: /hu/aspose.slides.charts/datalabel/text_frame_for_overriding/
-weight: 240
+weight: 250
 ---
 ## text_frame_for_overriding tulajdonság
-Tartalmazhat gazdag formázott szöveget. Ha ez a tulajdonság nem None, akkor ez 
-            formázott szövegérték felülírja a diagramcímke automatikusan generált szövegét.
-            Az adatcímke automatikusan generált szövege olyan szöveget jelent, amelyet a ShowSeriesName, 
-            ShowValue, ... tulajdonságok kezelnek, és amely a TextFormatManager.TextFormat tulajdonsággal van formázva.
+Tartalmazhat gazdag formázott szöveget. Ha ez a tulajdonság nem None, akkor ez a
+            formázott szövegérték felülírja az adatcímke automatikusan generált szövegét.
+            Az adatcímke automatikusan generált szövege azt a szöveget jelenti, amelyet a ShowSeriesName,
+            ShowValue, ... tulajdonságok kezelnek, és a TextFormatManager.TextFormat tulajdonság segítségével van formázva.
             Csak olvasható [`ITextFrame`](/slides/python-net/hu/aspose.slides/itextframe).
 
 ### Definíció:
@@ -19,6 +19,7 @@ Tartalmazhat gazdag formázott szöveget. Ha ez a tulajdonság nem None, akkor e
 def text_frame_for_overriding(self):
     ...
 ```
+
 
 ### Lásd még
 * osztály [`DataLabel`](/slides/python-net/hu/aspose.slides.charts/datalabel)

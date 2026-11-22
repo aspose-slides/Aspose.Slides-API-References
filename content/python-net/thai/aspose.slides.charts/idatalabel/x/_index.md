@@ -1,10 +1,10 @@
 ---
 title: x property
-second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Reference
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET การอ้างอิง API
 description: 
 type: docs
 url: /th/aspose.slides.charts/idatalabel/x/
-weight: 260
+weight: 270
 ---
 ## x คุณสมบัติ
 ### คำนิยาม:

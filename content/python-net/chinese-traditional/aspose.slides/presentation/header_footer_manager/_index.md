@@ -4,10 +4,10 @@ second_title: Aspose.Slides for Python via .NET API 參考文件
 description: 
 type: docs
 url: /zh-hant/aspose.slides/presentation/header_footer_manager/
-weight: 220
+weight: 230
 ---
 ## header_footer_manager 屬性
-傳回實際的 HeaderFooter 管理器.
+傳回實際的 HeaderFooter 管理員。
             唯讀 [`IPresentationHeaderFooterManager`](/slides/python-net/zh-hant/aspose.slides/ipresentationheaderfootermanager).
 
 ### 定義:

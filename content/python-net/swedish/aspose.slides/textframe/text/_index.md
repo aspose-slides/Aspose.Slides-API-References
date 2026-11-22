@@ -4,10 +4,10 @@ second_title: Aspose.Slides för Python via .NET API-referens
 description: 
 type: docs
 url: /sv/aspose.slides/textframe/text/
-weight: 150
+weight: 160
 ---
 ## textegenskap
-Hämtar eller anger den vanliga texten för en TextFrame.
+Hämtar eller anger vanlig text för en TextFrame.
             Läs/skriv **str**.
 
 ### Definition:
@@ -21,8 +21,7 @@ def text(self, value):
     ...
 ```
 
-
-### Se även
+### Se också
 * klass [`TextFrame`](/slides/python-net/sv/aspose.slides/textframe)
 * modul [`aspose.slides`](/slides/python-net/sv/aspose.slides)
 * bibliotek [`Aspose.Slides`](/slides/python-net)

@@ -1,24 +1,24 @@
 ---
 title: IScaleEffect class
-second_title: Aspose.Slides cho Python qua .NET Tham chiếu API
+second_title: Tham chiếu API Aspose.Slides cho Python qua .NET
 description: 
 type: docs
 url: /vi/aspose.slides.animation/iscaleeffect/
 ---
 ## IScaleEffect lớp
 
-Đại diện cho hiệu ứng thu phóng hoạt ảnh.
+Đại diện cho hiệu ứng thu phóng của hoạt ảnh.
 
-Kiểu IScaleEffect tiết lộ các thành viên sau:
+Kiểu IScaleEffect cung cấp các thành viên sau:
 
 ## Thuộc tính
 
 | Thuộc tính | Mô tả |
 | :- | :- |
 | [`zoom_content`](/slides/python-net/vi/aspose.slides.animation/iscaleeffect/zoom_content/) | Xác định liệu nội dung có nên được phóng to hay không.<br/>            Đọc/ghi [`NullableBool`](/slides/python-net/vi/aspose.slides/nullablebool). |
-| [`from_address`](/slides/python-net/vi/aspose.slides.animation/iscaleeffect/from_address/) | Xác định tọa độ x/y để bắt đầu hoạt ảnh (theo phần trăm).<br/>            Đọc/ghi [`PointF`](/slides/python-net/vi/aspose.slides/pointf). |
-| [`to`](/slides/python-net/vi/aspose.slides.animation/iscaleeffect/to/) | Xác định vị trí mục tiêu cho hiệu ứng thu phóng hoạt ảnh (theo phần trăm).<br/>            Đọc/ghi [`PointF`](/slides/python-net/vi/aspose.slides/pointf). |
-| [`by`](/slides/python-net/vi/aspose.slides.animation/iscaleeffect/by/) | Mô tả giá trị độ dịch tương đối cho hoạt ảnh (theo phần trăm).<br/>            Đọc/ghi [`PointF`](/slides/python-net/vi/aspose.slides/pointf). |
+| [`from_`](/slides/python-net/vi/aspose.slides.animation/iscaleeffect/from_/) | Xác định tọa độ x/y để bắt đầu hoạt ảnh (tính theo phần trăm).<br/>            Đọc/ghi [`PointF`](/slides/python-net/vi/aspose.slides/pointf). |
+| [`to`](/slides/python-net/vi/aspose.slides.animation/iscaleeffect/to/) | Xác định vị trí mục tiêu cho hiệu ứng thu phóng của hoạt ảnh (tính theo phần trăm).<br/>            Đọc/ghi [`PointF`](/slides/python-net/vi/aspose.slides/pointf). |
+| [`by`](/slides/python-net/vi/aspose.slides.animation/iscaleeffect/by/) | Mô tả giá trị offset tương đối cho hoạt ảnh (tính theo phần trăm).<br/>            Đọc/ghi [`PointF`](/slides/python-net/vi/aspose.slides/pointf). |
 | [`accumulate`](/slides/python-net/vi/aspose.slides.animation/iscaleeffect/accumulate/) |  |
 | [`additive`](/slides/python-net/vi/aspose.slides.animation/iscaleeffect/additive/) |  |
 | [`properties`](/slides/python-net/vi/aspose.slides.animation/iscaleeffect/properties/) |  |

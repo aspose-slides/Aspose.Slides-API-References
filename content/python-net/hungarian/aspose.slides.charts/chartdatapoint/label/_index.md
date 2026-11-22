@@ -1,10 +1,10 @@
 ---
 title: label property
-second_title: Aspose.Slides a Python számára .NET-en keresztül API-referencia
+second_title: Aspose.Slides Python számára .NET-en keresztül API-referencia
 description: 
 type: docs
 url: /hu/aspose.slides.charts/chartdatapoint/label/
-weight: 170
+weight: 210
 ---
 ## címke tulajdonság
 Címke.

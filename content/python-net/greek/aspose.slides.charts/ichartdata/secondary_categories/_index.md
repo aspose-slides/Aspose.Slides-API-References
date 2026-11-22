@@ -4,19 +4,16 @@ second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
 description: 
 type: docs
 url: /el/aspose.slides.charts/ichartdata/secondary_categories/
-weight: 120
+weight: 130
 ---
-## secondary_categories ιδιότητα
-Επιστρέφει τις δευτερεύουσες κατηγορίες αν η ιδιότητα [`IChartData.use_secondary_categories`](/slides/python-net/el/aspose.slides.charts/ichartdata/use_secondary_categories) είναι αληθής.
-Μόνο ανάγνωση [`IChartCategoryCollection`](/slides/python-net/el/aspose.slides.charts/ichartcategorycollection).
+## ιδιότητα secondary_categories
+Λαμβάνει τις δευτερεύουσες κατηγορίες εάν η ιδιότητα [`IChartData.use_secondary_categories`](/slides/python-net/el/aspose.slides.charts/ichartdata/use_secondary_categories) είναι true.
+Μόνο-ανάγνωση [`IChartCategoryCollection`](/slides/python-net/el/aspose.slides.charts/ichartcategorycollection).
 
-### Παρατηρήσεις
+### Σχόλια
 
-Αν η ιδιότητα [`IChartData.use_secondary_categories`](/slides/python-net/el/aspose.slides.charts/ichartdata/use_secondary_categories) είναι ψευδής τότε η ιδιότητα [`IChartData.secondary_categories`](/slides/python-net/el/aspose.slides.charts/ichartdata/secondary_categories) 
-            επιστρέφει None και τα δεδομένα στην ιδιότητα [`IChartData.categories`](/slides/python-net/el/aspose.slides.charts/ichartdata/categories) χρησιμοποιούνται τόσο για την πρωτεύουσα όσο και για τη δευτερεύουσα σειρά.
-            Εάν η ιδιότητα [`IChartData.use_secondary_categories`](/slides/python-net/el/aspose.slides.charts/ichartdata/use_secondary_categories) είναι αληθής, τότε τα δεδομένα στην 
-            αυτή την ιδιότητα [`IChartData.secondary_categories`](/slides/python-net/el/aspose.slides.charts/ichartdata/secondary_categories) χρησιμοποιείται για τη δευτερεύουσα σειρά και τα δεδομένα 
-            στην ιδιότητα [`IChartData.categories`](/slides/python-net/el/aspose.slides.charts/ichartdata/categories) χρησιμοποιείται για την πρωτεύουσα σειρά.
+Εάν η ιδιότητα [`IChartData.use_secondary_categories`](/slides/python-net/el/aspose.slides.charts/ichartdata/use_secondary_categories) είναι false, τότε αυτή η ιδιότητα [`IChartData.secondary_categories`](/slides/python-net/el/aspose.slides.charts/ichartdata/secondary_categories) επιστρέφει None και τα δεδομένα στην ιδιότητα [`IChartData.categories`](/slides/python-net/el/aspose.slides.charts/ichartdata/categories) χρησιμοποιούνται τόσο για την κύρια όσο και για τη δευτερεύουσα σειρά.
+Εάν η ιδιότητα [`IChartData.use_secondary_categories`](/slides/python-net/el/aspose.slides.charts/ichartdata/use_secondary_categories) είναι true, τότε τα δεδομένα στην ιδιότητα [`IChartData.secondary_categories`](/slides/python-net/el/aspose.slides.charts/ichartdata/secondary_categories) χρησιμοποιούνται για τη δευτερεύουσα σειρά και τα δεδομένα στην ιδιότητα [`IChartData.categories`](/slides/python-net/el/aspose.slides.charts/ichartdata/categories) χρησιμοποιούνται για την κύρια σειρά.
 
 ### Ορισμός:
 ```python

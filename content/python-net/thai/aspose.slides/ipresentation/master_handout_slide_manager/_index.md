@@ -4,7 +4,7 @@ second_title: Aspose.Slides สำหรับ Python ผ่าน .NET กา�
 description: 
 type: docs
 url: /th/aspose.slides/ipresentation/master_handout_slide_manager/
-weight: 250
+weight: 260
 ---
 ## master_handout_slide_manager คุณสมบัติ
 คืนค่า handout master manager.

@@ -1,10 +1,10 @@
 ---
 title: all_custom_xml_parts property
-second_title: Aspose.Slides cho Python qua Tham chiếu API .NET
+second_title: Aspose.Slides cho Python qua .NET Tham chiếu API
 description: 
 type: docs
 url: /vi/aspose.slides/presentation/all_custom_xml_parts/
-weight: 100
+weight: 110
 ---
 ## all_custom_xml_parts thuộc tính
 Trả về tất cả các phần dữ liệu tùy chỉnh trong bản trình chiếu.

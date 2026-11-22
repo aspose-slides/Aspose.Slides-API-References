@@ -19,13 +19,15 @@ Il tipo IChartCategory espone i seguenti membri:
 | [`as_cell`](/slides/python-net/it/aspose.slides.charts/ichartcategory/as_cell/) | Restituisce o imposta l'oggetto IChartDataCell.<br/>            Se la categoria è a più livelli allora viene usato l'oggetto IChartDataCell per il livello "0".<br/>            Lettura/scrittura [`IChartDataCell`](/slides/python-net/it/aspose.slides.charts/ichartdatacell). |
 | [`as_literal`](/slides/python-net/it/aspose.slides.charts/ichartcategory/as_literal/) | Restituisce o imposta AsLiteral se UseCell è false.<br/>            Lettura/scrittura **any**. |
 | [`value`](/slides/python-net/it/aspose.slides.charts/ichartcategory/value/) | Se UseCell è true allora questa proprietà rappresenta la proprietà AsCell.Value.<br/>            Se UseCell è false allora questa proprietà rappresenta la proprietà AsLiteral.<br/>            Lettura/scrittura **any**. |
-| [`grouping_levels`](/slides/python-net/it/aspose.slides.charts/ichartcategory/grouping_levels/) | Contenitore gestito dei valori dei livelli di raggruppamento della categoria del grafico.<br/>            La categoria a più livelli contiene più di un livello di raggruppamento.<br/>            L'indicizzazione dei livelli di raggruppamento è basata su zero.<br/>            Solo lettura [`IChartCategoryLevelsManager`](/slides/python-net/it/aspose.slides.charts/ichartcategorylevelsmanager). |
+| [`cached_value`](/slides/python-net/it/aspose.slides.charts/ichartcategory/cached_value/) | Ottiene il valore memorizzato nella cache di una categoria del grafico.<br/>            Solo lettura [`ICachedChartValue`](/slides/python-net/it/aspose.slides.charts/icachedchartvalue). |
+| [`grouping_levels`](/slides/python-net/it/aspose.slides.charts/ichartcategory/grouping_levels/) | Contenitore gestito dei valori dei livelli di raggruppamento della categoria del grafico.<br/>            Una categoria a più livelli contiene più di un livello di raggruppamento.<br/>            L'indicizzazione dei livelli di raggruppamento parte da zero.<br/>            Solo lettura [`IChartCategoryLevelsManager`](/slides/python-net/it/aspose.slides.charts/ichartcategorylevelsmanager). |
 
 ## Metodi
 
 | Metodo | Descrizione |
 | :- | :- |
 | [`remove(self)`](/slides/python-net/it/aspose.slides.charts/ichartcategory/remove/#) | Rimuove la categoria dal grafico. |
+
 
 ### Vedi anche
 * modulo [`aspose.slides.charts`](/slides/python-net/it/aspose.slides.charts)

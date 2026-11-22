@@ -4,13 +4,11 @@ second_title: Aspose.Slides pro Python přes .NET API Reference
 description: 
 type: docs
 url: /cs/aspose.slides.charts/ichartcategory/use_cell/
-weight: 50
+weight: 60
 ---
 ## use_cell vlastnost
-Pokud je true, pak je vlastnost AsCell aktuální. Jinými slovy, list je používán k 
-            ukládání kategorií (tento případ podporuje víceúrovňovou kategorii).
-            Pokud je false, pak je vlastnost AsLiteral aktuální. Jinými slovy, list NENÍ používán k 
-            ukládání kategorií (a tento případ nepodporuje víceúrovňové kategorie).
+Pokud je true, pak je vlastnost AsCell aktuální. Jinými slovy, list je používán k ukládání kategorie (tento případ podporuje vícestupňovou kategorii).
+            Pokud je false, pak je vlastnost AsLiteral aktuální. Jinými slovy, list NENÍ používán k ukládání kategorie (a tento případ nepodporuje vícestupňové kategorie).
             Pouze pro čtení **bool**.
 
 ### Poznámky

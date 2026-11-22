@@ -1,10 +1,10 @@
 ---
 title: digital_signatures property
-second_title: Aspose.Slides pro Python přes .NET referenční příručka API
+second_title: Aspose.Slides pro Python přes .NET API Referenční příručka
 description: 
 type: docs
 url: /cs/aspose.slides/presentation/digital_signatures/
-weight: 180
+weight: 190
 ---
 ## digital_signatures vlastnost
 Vrací kolekci podpisů použitých k podepsání prezentace.
@@ -19,7 +19,7 @@ def digital_signatures(self):
 
 
 ### Viz také
-* třída [`IDigitalSignatureCollection`](/slides/python-net/cs/aspose.slides/idigitalsignaturecollection)
-* třída [`Presentation`](/slides/python-net/cs/aspose.slides/presentation)
-* modul [`aspose.slides`](/slides/python-net/cs/aspose.slides)
-* knihovna [`Aspose.Slides`](/slides/python-net)
+* class [`IDigitalSignatureCollection`](/slides/python-net/cs/aspose.slides/idigitalsignaturecollection)
+* class [`Presentation`](/slides/python-net/cs/aspose.slides/presentation)
+* module [`aspose.slides`](/slides/python-net/cs/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

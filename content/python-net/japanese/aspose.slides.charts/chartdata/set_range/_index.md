@@ -1,21 +1,21 @@
 ---
 title: set_range method
 second_title: Aspose.Slides for Python via .NET API リファレンス
-description:
+description: 
 type: docs
 url: /ja/aspose.slides.charts/chartdata/set_range/
-weight: 40
+weight: 50
 ---
 ## set_range(self, formula) {#str}
-チャートのデータ範囲を設定します。シリーズとカテゴリは新しいデータ範囲に基づいて更新されます。
-データ範囲内のシリーズ数がチャートデータのシリーズ数を超える場合、現在のコレクションの最後のシリーズと同じタイプの追加シリーズがコレクションの末尾に追加されます。
+チャートのデータ範囲を設定します。系列とカテゴリは新しいデータ範囲に基づいて更新されます。
+            データ範囲内の系列の数がチャート データの系列数より多い場合、現在のコレクションの最後の系列と同じタイプの追加系列がコレクションの末尾に追加されます。
+            。
 
 
 ```python
 def set_range(self, formula):
     ...
 ```
-
 
 | パラメータ | 型 | 説明 |
 | :- | :- | :- |
@@ -25,11 +25,9 @@ def set_range(self, formula):
 
 | 例外 | 説明 |
 | :- | :- |
-| **RuntimeError(Proxy error(ArgumentNullException))** | formula は None です。 |
-| **RuntimeError(Proxy error(InvalidOperationException))** | サポートされていないチャートタイプ |
+| **RuntimeError(Proxy error(ArgumentNullException))** | formula が None です。 |
+| **RuntimeError(Proxy error(InvalidOperationException))** | サポートされていないチャート タイプ |
 | **RuntimeError(Proxy error(ArgumentException))** | formula の形式が正しくありません。 |
-
-
 
 ### 参照
 * クラス [`ChartData`](/slides/python-net/ja/aspose.slides.charts/chartdata)

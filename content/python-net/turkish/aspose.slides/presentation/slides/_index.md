@@ -1,13 +1,13 @@
 ---
 title: slides property
-second_title: Aspose.Slides için Python üzerinden .NET API Referansı
+second_title: Aspose.Slides for Python via .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides/presentation/slides/
-weight: 370
+weight: 380
 ---
 ## slides özelliği
-Sunumda tanımlanan tüm slides'in bir listesini döndürür.
+Sunumda tanımlı olan tüm slides'in bir listesini döndürür.
             Yalnızca okuma [`ISlideCollection`](/tr/slides/python-net/aspose.slides/islidecollection).
 
 ### Tanım:
@@ -18,7 +18,7 @@ def slides(self):
 ```
 
 
-### Ayrıca Bakınız
+### Diğer Bilgiler
 * sınıf [`ISlideCollection`](/slides/python-net/tr/aspose.slides/islidecollection)
 * sınıf [`Presentation`](/slides/python-net/tr/aspose.slides/presentation)
 * modül [`aspose.slides`](/slides/python-net/tr/aspose.slides)

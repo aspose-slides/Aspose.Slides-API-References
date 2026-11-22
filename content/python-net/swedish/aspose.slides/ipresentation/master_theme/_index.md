@@ -4,10 +4,10 @@ second_title: Aspose.Slides för Python via .NET API-referens
 description: 
 type: docs
 url: /sv/aspose.slides/ipresentation/master_theme/
-weight: 270
+weight: 280
 ---
 ## master_theme egenskap
-Returnerar master theme för presentationen.
+Returnerar huvudtema för presentationen.
             Skrivskyddad [`IMasterTheme`](/slides/python-net/sv/aspose.slides.theme/imastertheme).
 
 ### Definition:
@@ -18,7 +18,7 @@ def master_theme(self):
 ```
 
 
-### Se också
+### Se även
 * klass [`IMasterTheme`](/slides/python-net/sv/aspose.slides.theme/imastertheme)
 * klass [`IPresentation`](/slides/python-net/sv/aspose.slides/ipresentation)
 * modul [`aspose.slides`](/slides/python-net/sv/aspose.slides)

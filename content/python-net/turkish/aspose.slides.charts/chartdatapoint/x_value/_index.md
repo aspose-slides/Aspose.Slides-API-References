@@ -1,14 +1,14 @@
 ---
 title: x_value property
-second_title: Aspose.Slides for Python via .NET API Referansı
+second_title: Aspose.Slides için Python üzerinden .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides.charts/chartdatapoint/x_value/
-weight: 230
+weight: 270
 ---
 ## x_value özelliği
 XValue.
-            Salt-okunur [`IStringOrDoubleChartValue`](/slides/python-net/tr/aspose.slides.charts/istringordoublechartvalue).
+            Salt okuma [`IStringOrDoubleChartValue`](/slides/python-net/tr/aspose.slides.charts/istringordoublechartvalue).
 
 ### Tanım:
 ```python

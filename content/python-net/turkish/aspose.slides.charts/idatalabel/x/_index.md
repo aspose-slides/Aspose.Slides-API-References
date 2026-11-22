@@ -1,10 +1,10 @@
 ---
 title: x property
-second_title: Aspose.Slides for Python via .NET API Referansı
+second_title: Aspose.Slides için Python üzerinden .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides.charts/idatalabel/x/
-weight: 260
+weight: 270
 ---
 ## x özelliği
 ### Tanım:
@@ -18,7 +18,8 @@ def x(self, value):
     ...
 ```
 
-### Diğerlerine Bak
+
+### İlgili
 * sınıf [`IDataLabel`](/slides/python-net/tr/aspose.slides.charts/idatalabel)
 * modül [`aspose.slides.charts`](/slides/python-net/tr/aspose.slides.charts)
 * kütüphane [`Aspose.Slides`](/slides/python-net)

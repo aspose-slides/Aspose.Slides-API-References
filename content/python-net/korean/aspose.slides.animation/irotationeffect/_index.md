@@ -1,6 +1,6 @@
 ---
 title: IRotationEffect class
-second_title: Aspose.Slides for Python via .NET API 참조
+second_title: Aspose.Slides for Python via .NET API 레퍼런스
 description: 
 type: docs
 url: /ko/aspose.slides.animation/irotationeffect/
@@ -15,7 +15,7 @@ IRotationEffect 유형은 다음 멤버를 노출합니다:
 
 | 속성 | 설명 |
 | :- | :- |
-| [`from_address`](/slides/python-net/ko/aspose.slides.animation/irotationeffect/from_address/) | 애니메이션의 시작 값을 설명합니다.<br/>            읽기/쓰기 **float**. |
+| [`from_`](/slides/python-net/ko/aspose.slides.animation/irotationeffect/from_/) | 애니메이션의 시작 값을 설명합니다.<br/>            읽기/쓰기 **float**. |
 | [`to`](/slides/python-net/ko/aspose.slides.animation/irotationeffect/to/) | 애니메이션의 끝 값을 설명합니다.<br/>            읽기/쓰기 **float**. |
 | [`by`](/slides/python-net/ko/aspose.slides.animation/irotationeffect/by/) | 애니메이션의 상대 오프셋 값을 설명합니다.<br/>            읽기/쓰기 **float**. |
 | [`accumulate`](/slides/python-net/ko/aspose.slides.animation/irotationeffect/accumulate/) |  |

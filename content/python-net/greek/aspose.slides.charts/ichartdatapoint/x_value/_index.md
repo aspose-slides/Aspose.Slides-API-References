@@ -1,14 +1,14 @@
 ---
 title: x_value property
-second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
+second_title: Aspose.Slides για Python μέσω .NET Αναφορά API
 description: 
 type: docs
 url: /el/aspose.slides.charts/ichartdatapoint/x_value/
-weight: 230
+weight: 270
 ---
 ## x_value ιδιότητα
-Επιστρέφει την τιμή x του σημείου δεδομένων γραφήματος.
-            Μόνο προς ανάγνωση [`IStringOrDoubleChartValue`](/slides/python-net/el/aspose.slides.charts/istringordoublechartvalue).
+Λαμβάνει την τιμή x ενός σημείου δεδομένων γραφήματος.
+            Μόνο για ανάγνωση [`IStringOrDoubleChartValue`](/slides/python-net/el/aspose.slides.charts/istringordoublechartvalue).
 
 ### Ορισμός:
 ```python

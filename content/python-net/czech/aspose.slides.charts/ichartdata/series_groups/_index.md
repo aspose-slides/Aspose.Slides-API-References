@@ -1,26 +1,29 @@
 ---
 title: series_groups property
-second_title: Aspose.Slides pro Python pomocí .NET API Reference
+second_title: Aspose.Slides pro Python přes .NET API Reference
 description: 
 type: docs
 url: /cs/aspose.slides.charts/ichartdata/series_groups/
-weight: 140
+weight: 150
 ---
-## series_groups property
-Získá skupiny řad.
+## series_groups vlastnost
+Gets the groups of series.
             Pouze pro čtení [`IChartSeriesGroupCollection`](/slides/python-net/cs/aspose.slides.charts/ichartseriesgroupcollection).
 
 ### Poznámky
 
-1) Každá skupina řad obsahuje řady s kombinovatelnými typy. Skupiny
-            kombinovatelných typů řad definované a popsány pomocí CombinableSeriesTypesGroup 
+1) Each group of series contains series with combinable types. Groups of 
+            combinable series types defined and described with CombinableSeriesTypesGroup 
             enum.
-            Také každá skupina řad obsahuje řady, které jsou vykresleny buď na hlavních osách nebo na sekundárních osách (ne v obou případech ve stejné skupině).
-            Princip skupinování řad je tedy seskupování podle výše zmíněných typových skupin a podle typu vykreslování na hlavní/sekundární osu.
+            Also each group of series contains series witch is plotted whether 
+            on primary axes or on secondary axes (not both cases in one group).
+            So, principle of series grouping is a grouping by type groups mentioned 
+            above and by primary/secondary plotting type.
 
-            2) Skupina řad obsahuje některé vlastnosti řad, které jsou společné pro každou řadu ve skupině ("series group properties").
-            "Series group properties" v třídě ChartSeriesGroup je čtení/zápis.
-            Každá z "series group properties" může mít pouze pro čtení projekci ve třídě ChartSeries.
+2) Group of series contains some series properies whitch is common for 
+            each series in group ("series group properties").
+            "Series group properties" in ChartSeriesGroup class is read/write.
+            Each of "series group properties" can have a read-only projection in ChartSeries class.
 
 ### Definice:
 ```python

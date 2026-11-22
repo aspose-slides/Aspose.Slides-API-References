@@ -1,18 +1,19 @@
 ---
 title: layout_slides property
-second_title: Aspose.Slides voor Python via .NET API Referentie
-description:
+second_title: Aspose.Slides voor Python via .NET API-referentie
+description: 
 type: docs
 url: /nl/aspose.slides/ipresentation/layout_slides/
-weight: 240
+weight: 250
 ---
 ## layout_slides eigenschap
-Returns a list of all layout-slides that are defined in the presentation.
+Retourneert een lijst met alle layout-dia's die zijn gedefinieerd in de presentatie.
             Alleen-lezen [`IGlobalLayoutSlideCollection`](/slides/python-net/nl/aspose.slides/igloballayoutslidecollection).
 
 ### Opmerkingen
 
-U kunt toegang krijgen tot een alternatieve API voor het toevoegen/invoegen/verwijderen/klonen van layout-slides door gebruik te maken van IMasterSlide.LayoutSlides eigenschap.
+U kunt toegang krijgen tot een alternatieve API voor het toevoegen/invoegen/verwijderen/kloon van layout-dia's
+            via de IMasterSlide.LayoutSlides eigenschap.
 
 ### Definitie:
 ```python

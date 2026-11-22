@@ -1,10 +1,10 @@
 ---
 title: external_workbook_path property
-second_title: Aspose.Slides для Python через .NET API справка
+second_title: Aspose.Slides для Python через .NET API
 description: 
 type: docs
 url: /ru/aspose.slides.charts/chartdata/external_workbook_path/
-weight: 110
+weight: 120
 ---
 ## external_workbook_path свойство
 Представляет источник данных диаграммы

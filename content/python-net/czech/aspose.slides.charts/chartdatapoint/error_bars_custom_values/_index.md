@@ -1,13 +1,13 @@
 ---
 title: error_bars_custom_values property
-second_title: Aspose.Slides pro Python prostřednictvím .NET referenční příručky
+second_title: Aspose.Slides pro Python přes .NET – referenční příručka API
 description: 
 type: docs
 url: /cs/aspose.slides.charts/chartdatapoint/error_bars_custom_values/
-weight: 110
+weight: 150
 ---
 ## error_bars_custom_values vlastnost
-Represents series error bars values in case of Custom value type.
+Reprezentuje hodnoty chybových úseček řady v případě typu Custom.
             Pouze pro čtení [`IErrorBarsCustomValues`](/slides/python-net/cs/aspose.slides.charts/ierrorbarscustomvalues).
 
 ### Definice:

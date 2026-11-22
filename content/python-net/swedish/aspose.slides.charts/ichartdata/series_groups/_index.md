@@ -4,17 +4,26 @@ second_title: Aspose.Slides för Python via .NET API-referens
 description: 
 type: docs
 url: /sv/aspose.slides.charts/ichartdata/series_groups/
-weight: 140
+weight: 150
 ---
 ## series_groups egenskap
-Hämtar grupperna av serier.
+Gets the groups of series.
             Skrivskyddad [`IChartSeriesGroupCollection`](/slides/python-net/sv/aspose.slides.charts/ichartseriesgroupcollection).
 
-### Anmärkningar
+### Remarks
 
-1) Varje grupp av serier innehåller serier med kombinerbara typer. Grupper av kombinerbara serietyper definieras och beskrivs med enum CombinableSeriesTypesGroup. Dessutom innehåller varje grupp av serier serier som plottas antingen på primära axlar eller på sekundära axlar (inte båda fallen i en grupp). Således är principen för seriegruppering en gruppering efter typgrupperna som nämns ovan samt efter primär/sekundär plottningstyp.
-
-2) En grupp av serier innehåller några serieegenskaper som är gemensamma för varje serie i gruppen ("Series group properties"). "Series group properties" i ChartSeriesGroup klass är läs/skriv. Varje av "Series group properties" kan ha en skrivskyddad projektion i ChartSeries klass.
+1) Each group of series contains series with combinable types. Groups of 
+            combinable series types defined and described with CombinableSeriesTypesGroup 
+            enum.
+            Also each group of series contains series witch is plotted whether 
+            on primary axes or on secondary axes (not both cases in one group).
+            So, principle of series grouping is a grouping by type groups mentioned 
+            above and by primary/secondary plotting type.
+            
+            2) Group of series contains some series properies whitch is common for 
+            each series in group ("series group properties").
+            "Series group properties" in ChartSeriesGroup class is read/write.
+            Each of "series group properties" can have a read-only projection in ChartSeries class.
 
 ### Definition:
 ```python

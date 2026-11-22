@@ -1,10 +1,10 @@
 ---
 title: masters property
-second_title: Aspose.Slides pro Python přes .NET API Reference
+second_title: Aspose.Slides pro Python prostřednictvím .NET referenčního API
 description: 
 type: docs
 url: /cs/aspose.slides/ipresentation/masters/
-weight: 280
+weight: 290
 ---
 ## masters vlastnost
 Vrací seznam všech hlavních snímků, které jsou definovány v prezentaci.

@@ -1,14 +1,14 @@
 ---
 title: leader_lines_format property
-second_title: Aspose.Slides für Python über .NET API-Referenz
+second_title: Aspose.Slides für Python via .NET API Referenz
 description: 
 type: docs
 url: /de/aspose.slides.charts/datalabelcollection/leader_lines_format/
-weight: 130
+weight: 140
 ---
 ## leader_lines_format Eigenschaft
 Stellt das Format der Führungslinien von Datenbeschriftungen dar.
-             Nur-Lesen [`IChartLinesFormat`](/slides/python-net/de/aspose.slides.charts/ichartlinesformat).
+Nur lesbar [`IChartLinesFormat`](/slides/python-net/de/aspose.slides.charts/ichartlinesformat).
 
 ### Definition:
 ```python

@@ -1,13 +1,14 @@
 ---
 title: data_point_levels property
-second_title: Aspose.Slides for Python の .NET API リファレンス
+second_title: Aspose.Slides for Python via .NET API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides.charts/ichartdatapoint/data_point_levels/
-weight: 100
+weight: 140
 ---
 ## data_point_levels プロパティ
-データ ポイント レベルのコンテナを返します。Treeamp と Sunburst シリーズに適用されます。データ ポイント レベルのインデックスはゼロベースです。
+データ ポイント レベルのコンテナを返します。Treeamp および Sunburst 系列に適用されます。
+データ ポイント レベルのインデックスはゼロベースです。
 
 ### 定義:
 ```python

@@ -1,13 +1,13 @@
 ---
 title: bubble_size property
-second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Reference
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET การอ้างอิง API
 description: 
 type: docs
 url: /th/aspose.slides.charts/ichartdatapoint/bubble_size/
 weight: 80
 ---
 ## bubble_size คุณสมบัติ
-คืนค่าขนาดฟองของจุดข้อมูลแผนภูมิ
+รับขนาดฟองของจุดข้อมูลแผนภูมิ
             อ่านอย่างเดียว [`IDoubleChartValue`](/slides/python-net/th/aspose.slides.charts/idoublechartvalue).
 
 ### คำนิยาม:

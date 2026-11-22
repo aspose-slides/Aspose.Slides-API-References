@@ -1,28 +1,22 @@
 ---
 title: StringStringPair class
-second_title: Aspose.Slides 用于 Python via .NET API 参考
+second_title: Aspose.Slides for Python via .NET API 参考
 description: 
 type: docs
 url: /zh/aspose.slides/stringstringpair/
 ---
 ## StringStringPair 类
 
-结构包含字符串键和字符串值，并且是 KeyValuePair<string, string> 的临时替代
+结构 包含 string 键 和 string 值，并且是 KeyValuePair<string, string> 的临时替代。
 
-StringStringPair 类型公开以下成员：
-
-## 构造函数
-
-| 构造函数 | 描述 |
-| :- | :- |
-| [`__init__(self)`](/slides/python-net/zh/aspose.slides/stringstringpair/__init__/#) |  |
+StringStringPair 类型公开 以下成员：
 
 ## 属性
 
 | 属性 | 描述 |
 | :- | :- |
-| [`key`](/slides/python-net/zh/aspose.slides/stringstringpair/key/) | 字符串键 |
-| [`value`](/slides/python-net/zh/aspose.slides/stringstringpair/value/) | 字符串值 |
+| [`key`](/slides/python-net/zh/aspose.slides/stringstringpair/key/) | String 键 |
+| [`value`](/slides/python-net/zh/aspose.slides/stringstringpair/value/) | String 值 |
 
 
 ### 另请参见

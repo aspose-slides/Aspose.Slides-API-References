@@ -1,21 +1,21 @@
 ---
 title: is_visible property
-second_title: مرجع API Aspose.Slides للـ Python عبر .NET
+second_title: Aspose.Slides للغة Python عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides.charts/datalabelcollection/is_visible/
-weight: 120
+weight: 130
 ---
 ## خاصية is_visible
-False يعني أن تسمية البيانات غير مرئية بشكل افتراضي (وبالتالي جميع
+False يعني أن تسمية البيانات غير مرئية بشكل افتراضي (وبالتالي فإن جميع 
             Show*-flags (ShowValue, ...) الخاصة بخاصية DefaultDataLabelFormat هي false).
-            قراءة فقط **bool**.
+            للقراءة فقط **bool**.
 
 ### ملاحظات
-
-إذا كانت تسمية البيانات مرئية بشكل افتراضي يمكنك إخفاؤها بشكل افتراضي باستخدام طريقة Hide().
-            ولكن إذا كانت تسمية البيانات غير مرئية بشكل افتراضي (IsVisible هو false) يمكنك جعل تسمية البيانات "مرئية
-            بشكل افتراضي" بضبط Show*-flags (ShowValue, ...) الخاصة بخاصية DefaultDataLabelFormat إلى الحالة true.
+إذا كانت تسمية البيانات مرئية افتراضيًا يمكنك جعلها مخفية افتراضيًا باستخدام الطريقة Hide().
+            ولكن إذا كانت تسمية البيانات غير مرئية افتراضيًا (IsVisible هو false) يمكنك جعل تسمية البيانات "visible 
+            by default" عن طريق ضبط Show*-flags (ShowValue, ...) الخاصة بخاصية DefaultDataLabelFormat 
+            إلى الحالة true.
 
 ### التعريف:
 ```python

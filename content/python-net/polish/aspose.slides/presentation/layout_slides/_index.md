@@ -1,18 +1,20 @@
 ---
 title: layout_slides property
-second_title: Aspose.Slides dla Pythona poprzez .NET – odwołanie do API
+second_title: Aspose.Slides dla Pythona przez .NET API Reference
 description: 
 type: docs
 url: /pl/aspose.slides/presentation/layout_slides/
-weight: 250
+weight: 260
 ---
 ## layout_slides właściwość
 Zwraca listę wszystkich slajdów układu, które są zdefiniowane w prezentacji.
-Tylko do odczytu [`IGlobalLayoutSlideCollection`](/slides/python-net/pl/aspose.slides/igloballayoutslidecollection).
+            Tylko do odczytu [`IGlobalLayoutSlideCollection`](/slides/python-net/pl/aspose.slides/igloballayoutslidecollection).
+
 
 ### Uwagi
 
-Możesz uzyskać dostęp do alternatywnego API do dodawania/wstawiania/usuwania/klonowania slajdów układu, używając właściwości IMasterSlide.LayoutSlides.
+Możesz uzyskać dostęp do alternatywnego API do dodawania/wstawiania/usuwania/klonowania slajdów układu 
+            używając IMasterSlide.LayoutSlides właściwości.
 
 ### Definicja:
 ```python
@@ -20,6 +22,7 @@ Możesz uzyskać dostęp do alternatywnego API do dodawania/wstawiania/usuwania/
 def layout_slides(self):
     ...
 ```
+
 
 ### Zobacz także
 * klasa [`IGlobalLayoutSlideCollection`](/slides/python-net/pl/aspose.slides/igloballayoutslidecollection)

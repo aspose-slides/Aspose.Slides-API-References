@@ -1,12 +1,12 @@
 ---
 title: slide property
-second_title: Aspose.Slides dla Pythona przez .NET Referencja API
+second_title: Aspose.Slides dla Pythona za pośrednictwem .NET – dokumentacja API
 description: 
 type: docs
 url: /pl/aspose.slides.charts/datalabel/slide/
-weight: 220
+weight: 230
 ---
-## właściwość slajdu
+## slide property
 ### Definicja:
 ```python
 @property

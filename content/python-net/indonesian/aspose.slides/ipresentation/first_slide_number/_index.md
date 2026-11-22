@@ -1,14 +1,14 @@
 ---
 title: first_slide_number property
-second_title: Aspose.Slides untuk Python melalui Referensi API .NET
+second_title: Referensi API Aspose.Slides untuk Python via .NET
 description: 
 type: docs
 url: /id/aspose.slides/ipresentation/first_slide_number/
-weight: 190
+weight: 200
 ---
 ## first_slide_number properti
-Mewakili nomor slide pertama dalam presentasi.
-Baca/tulis **int**.
+Mewakili first_slide_number dalam presentasi.
+            Baca/tulis **int**.
 
 ### Definisi:
 ```python
@@ -21,7 +21,8 @@ def first_slide_number(self, value):
     ...
 ```
 
+
 ### Lihat Juga
 * kelas [`IPresentation`](/slides/python-net/id/aspose.slides/ipresentation)
 * modul [`aspose.slides`](/slides/python-net/id/aspose.slides)
-* perpustakaan [`Aspose.Slides`](/slides/python-net)
+* pustaka [`Aspose.Slides`](/slides/python-net)

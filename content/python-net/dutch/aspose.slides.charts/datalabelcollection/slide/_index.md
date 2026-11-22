@@ -4,9 +4,9 @@ second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides.charts/datalabelcollection/slide/
-weight: 160
+weight: 170
 ---
-## slide property
+## dia eigenschap
 ### Definitie:
 ```python
 @property

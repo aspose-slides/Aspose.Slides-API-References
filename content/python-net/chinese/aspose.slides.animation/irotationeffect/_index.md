@@ -15,7 +15,7 @@ IRotationEffect 类型公开以下成员：
 
 | 属性 | 描述 |
 | :- | :- |
-| [`from_address`](/slides/python-net/zh/aspose.slides.animation/irotationeffect/from_address/) | 描述动画的起始值。<br/>            读/写 **float**. |
+| [`from_`](/slides/python-net/zh/aspose.slides.animation/irotationeffect/from_/) | 描述动画的起始值。<br/>            读/写 **float**. |
 | [`to`](/slides/python-net/zh/aspose.slides.animation/irotationeffect/to/) | 描述动画的结束值。<br/>            读/写 **float**. |
 | [`by`](/slides/python-net/zh/aspose.slides.animation/irotationeffect/by/) | 描述动画的相对偏移值。<br/>            读/写 **float**. |
 | [`accumulate`](/slides/python-net/zh/aspose.slides.animation/irotationeffect/accumulate/) |  |
@@ -23,6 +23,6 @@ IRotationEffect 类型公开以下成员：
 | [`properties`](/slides/python-net/zh/aspose.slides.animation/irotationeffect/properties/) |  |
 | [`timing`](/slides/python-net/zh/aspose.slides.animation/irotationeffect/timing/) |  |
 
-### 另见
+### 另请参见
 * 模块 [`aspose.slides.animation`](/slides/python-net/zh/aspose.slides.animation)
 * 库 [`Aspose.Slides`](/slides/python-net)

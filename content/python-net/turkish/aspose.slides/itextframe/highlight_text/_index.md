@@ -4,10 +4,10 @@ second_title: Aspose.Slides for Python via .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides/itextframe/highlight_text/
-weight: 20
+weight: 30
 ---
 ## highlight_text(self, text, highlight_color) {#str-asposeslidescolor}
-Belirtilen renk ile örnek metnin tüm eşleşmelerini vurgular.
+Örnek metnin tüm eşleşmelerini belirtilen renk ile vurgular.
 
 ```python
 def highlight_text(self, text, highlight_color):
@@ -20,7 +20,7 @@ def highlight_text(self, text, highlight_color):
 | highlight_color | [`Color`](/slides/python-net/tr/aspose.slides/color) | Metni vurgulamak için renk. |
 
 ## highlight_text(self, text, highlight_color, options) {#str-asposeslidescolor-itexthighlightingoptions}
-Belirtilen renk ile örnek metnin tüm eşleşmelerini vurgular.
+Örnek metnin tüm eşleşmelerini belirtilen renk ile vurgular.
 
 ```python
 def highlight_text(self, text, highlight_color, options):
@@ -34,7 +34,7 @@ def highlight_text(self, text, highlight_color, options):
 | options | [`ITextHighlightingOptions`](/slides/python-net/tr/aspose.slides/itexthighlightingoptions) | Vurgulama seçenekleri. |
 
 ## highlight_text(self, text, highlight_color, options, callback) {#str-asposeslidescolor-itextsearchoptions-ifindresultcallback}
-Belirtilen renk ile örnek metnin tüm eşleşmelerini vurgular.
+Örnek metnin tüm eşleşmelerini belirtilen renk ile vurgular.
 
 ```python
 def highlight_text(self, text, highlight_color, options, callback):
@@ -48,7 +48,7 @@ def highlight_text(self, text, highlight_color, options, callback):
 | options | [`ITextSearchOptions`](/slides/python-net/tr/aspose.slides/itextsearchoptions) | Metin arama seçenekleri [`ITextSearchOptions`](/slides/python-net/tr/aspose.slides/itextsearchoptions). |
 | callback | [`IFindResultCallback`](/slides/python-net/tr/aspose.slides/ifindresultcallback) | Arama sonuçlarını almak için geri çağırma nesnesi [`IFindResultCallback`](/slides/python-net/tr/aspose.slides/ifindresultcallback). |
 
-### Ayrıca Bakınız
+### İlgili
 * sınıf [`IFindResultCallback`](/slides/python-net/tr/aspose.slides/ifindresultcallback)
 * sınıf [`ITextFrame`](/slides/python-net/tr/aspose.slides/itextframe)
 * sınıf [`ITextHighlightingOptions`](/slides/python-net/tr/aspose.slides/itexthighlightingoptions)

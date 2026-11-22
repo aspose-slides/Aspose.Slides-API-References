@@ -1,14 +1,14 @@
 ---
 title: custom_data property
-second_title: Riferimento API Aspose.Slides per Python via .NET
+second_title: Aspose.Slides per Python via .NET Riferimento API
 description: 
 type: docs
 url: /it/aspose.slides/presentation/custom_data/
-weight: 160
+weight: 170
 ---
 ## custom_data proprietà
 Restituisce i dati personalizzati della presentazione.
-            Solo lettura [`ICustomData`](/slides/python-net/it/aspose.slides/icustomdata).
+            Sola lettura [`ICustomData`](/slides/python-net/it/aspose.slides/icustomdata).
 
 ### Definizione:
 ```python

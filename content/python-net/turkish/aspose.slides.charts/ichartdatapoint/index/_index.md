@@ -4,10 +4,10 @@ second_title: Aspose.Slides for Python via .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides.charts/ichartdatapoint/index/
-weight: 140
+weight: 180
 ---
-## index özelliği
-Bu veri noktasının ebeveynin çocuk koleksiyonundan hangisine uygulandığını belirler.
+## indeks özelliği
+Bu veri noktasının ebeveynin çocuk koleksiyonundan hangisine uygulanacağını belirler.
             Okunur **int**.
 
 ### Tanım:
@@ -18,7 +18,7 @@ def index(self):
 ```
 
 
-### Ayrıca Bakınız
+### Diğerleri
 * sınıf [`IChartDataPoint`](/slides/python-net/tr/aspose.slides.charts/ichartdatapoint)
 * modül [`aspose.slides.charts`](/slides/python-net/tr/aspose.slides.charts)
 * kütüphane [`Aspose.Slides`](/slides/python-net)

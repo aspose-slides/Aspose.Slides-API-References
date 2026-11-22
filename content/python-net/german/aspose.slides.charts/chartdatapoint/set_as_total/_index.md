@@ -1,13 +1,13 @@
 ---
 title: set_as_total property
-second_title: Aspose.Slides für Python über .NET API-Referenz
+second_title: Aspose.Slides für Python via .NET API-Referenz
 description: 
 type: docs
 url: /de/aspose.slides.charts/chartdatapoint/set_as_total/
-weight: 200
+weight: 240
 ---
 ## set_as_total Eigenschaft
-Setzt den Datenpunkt als Gesamtsumme. Wird nur für den Waterfall-Serientyp angewendet.
+Setzt den Datenpunkt als Gesamtsumme. Wird nur für den Waterfall-Serientyp verwendet.
 
 ### Definition:
 ```python

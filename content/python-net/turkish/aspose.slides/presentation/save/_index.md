@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides/presentation/save/
-weight: 90
+weight: 100
 ---
 ## save(self, options) {#asposeslidesexportxamlixamloptions}
 Bir sunumun tüm slaytlarını XAML işaretlemesini temsil eden bir dizi dosyaya kaydeder.
@@ -18,7 +18,7 @@ def save(self, options):
 
 | Parametre | Tür | Açıklama |
 | :- | :- | :- |
-| options | [`IXamlOptions`](/slides/python-net/tr/aspose.slides.export.xaml/ixamloptions) | XAML formatı seçenekleri. |
+| options | [`IXamlOptions`](/slides/python-net/tr/aspose.slides.export.xaml/ixamloptions) | XAML format seçenekleri. |
 
 
 ## save(self, fname, format) {#str-asposeslidesexportsaveformat}
@@ -71,7 +71,7 @@ def save(self, fname, format, options):
 
 
 ## save(self, stream, format, options) {#iorawiobase-asposeslidesexportsaveformat-asposeslidesexportisaveoptions}
-Belirtilen formatta ve ek seçeneklerle bir sunumun tüm slaytlarını bir akışa kaydeder.
+Bir sunumun tüm slaytlarını belirtilen formatta ve ek seçeneklerle bir akışa kaydeder.
 
 
 ```python
@@ -90,11 +90,11 @@ def save(self, stream, format, options):
 
 | İstisna | Açıklama |
 | :- | :- |
-| **RuntimeError(Proxy error(NotSupportedException))** | Şifreli bir dosyayı <br/> Office 2007-2010 dışı formatta kaydetmeye çalışırsanız |
+| **RuntimeError(Proxy error(NotSupportedException))** | Şifreli bir dosyayı <br/>            none Office 2007-2010 format içinde kaydetmeye çalışırsanız |
 
 
 ## save(self, fname, slides, format) {#str-listint-asposeslidesexportsaveformat}
-Belirtilen slaytları sayfa numarası korunarak bir dosyaya kaydeder.
+Belirtilen slaytları bir sunumdan, sayfa numaraları korunarak, belirtilen formatta bir dosyaya kaydeder.
 
 
 ```python
@@ -114,12 +114,12 @@ def save(self, fname, slides, format):
 | İstisna | Açıklama |
 | :- | :- |
 | **RuntimeError(Proxy error(ArgumentNullException))** | Akış veya slayt parametresi None olduğunda. |
-| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Slayt parametresi yanlış sayfa numaraları içerdiğinde. |
+| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Slayt parametresi hatalı sayfa numaraları içerdiğinde. |
 | **RuntimeError(Proxy error(InvalidOperationException))** | Desteklenmeyen bir SaveFormat kullanıldığında, ör. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
 
 ## save(self, stream, slides, format) {#iorawiobase-listint-asposeslidesexportsaveformat}
-Belirtilen slaytları sayfa numarası korunarak bir akışa kaydeder.
+Belirtilen slaytları bir sunumdan, sayfa numaraları korunarak, belirtilen formatta bir akışa kaydeder.
 
 
 ```python
@@ -136,7 +136,7 @@ def save(self, stream, slides, format):
 
 
 ## save(self, fname, slides, format, options) {#str-listint-asposeslidesexportsaveformat-asposeslidesexportisaveoptions}
-Belirtilen slaytları sayfa numarası korunarak, ek seçeneklerle bir dosyaya kaydeder.
+Belirtilen slaytları bir sunumdan, sayfa numaraları korunarak, belirtilen formatta bir dosyaya kaydeder.
 
 
 ```python
@@ -154,7 +154,7 @@ def save(self, fname, slides, format, options):
 
 
 ## save(self, stream, slides, format, options) {#iorawiobase-listint-asposeslidesexportsaveformat-asposeslidesexportisaveoptions}
-Belirtilen slaytları sayfa numarası korunarak, ek seçeneklerle bir akışa kaydeder.
+Belirtilen slaytları bir sunumdan, sayfa numaraları korunarak, belirtilen formatta bir akışa kaydeder.
 
 
 ```python
@@ -175,15 +175,14 @@ def save(self, stream, slides, format, options):
 | İstisna | Açıklama |
 | :- | :- |
 | **RuntimeError(Proxy error(ArgumentNullException))** | Akış veya slayt parametresi None olduğunda. |
-| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Slayt parametresi yanlış sayfa numaraları içerdiğinde. |
+| **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Slayt parametresi hatalı sayfa numaraları içerdiğinde. |
 | **RuntimeError(Proxy error(InvalidOperationException))** | Desteklenmeyen bir SaveFormat kullanıldığında, ör. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
 
-
-### İlgili
-* class [`ISaveOptions`](/slides/python-net/tr/aspose.slides.export/isaveoptions)
-* class [`IXamlOptions`](/slides/python-net/tr/aspose.slides.export.xaml/ixamloptions)
-* class [`Presentation`](/slides/python-net/tr/aspose.slides/presentation)
-* enumeration [`SaveFormat`](/slides/python-net/tr/aspose.slides.export/saveformat)
-* module [`aspose.slides`](/slides/python-net/tr/aspose.slides)
-* library [`Aspose.Slides`](/slides/python-net)
+### Bakınız
+* sınıf [`ISaveOptions`](/slides/python-net/tr/aspose.slides.export/isaveoptions)
+* sınıf [`IXamlOptions`](/slides/python-net/tr/aspose.slides.export.xaml/ixamloptions)
+* sınıf [`Presentation`](/slides/python-net/tr/aspose.slides/presentation)
+* enumerasyon [`SaveFormat`](/slides/python-net/tr/aspose.slides.export/saveformat)
+* modül [`aspose.slides`](/slides/python-net/tr/aspose.slides)
+* kütüphane [`Aspose.Slides`](/slides/python-net)

@@ -4,7 +4,7 @@ second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides/itextframe/presentation/
-weight: 130
+weight: 140
 ---
 ## presentatie-eigenschap
 ### Definitie:
@@ -13,7 +13,6 @@ weight: 130
 def presentation(self):
     ...
 ```
-
 
 ### Zie ook
 * klasse [`ITextFrame`](/slides/python-net/nl/aspose.slides/itextframe)

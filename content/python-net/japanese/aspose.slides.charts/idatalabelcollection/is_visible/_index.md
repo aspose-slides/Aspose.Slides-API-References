@@ -4,14 +4,15 @@ second_title: Aspose.Slides for Python via .NET API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides.charts/idatalabelcollection/is_visible/
-weight: 120
+weight: 130
 ---
 ## is_visible プロパティ
-False はデータ ラベルがデフォルトで非表示であることを意味します (そして DefaultDataLabelFormat プロパティのすべての Show*-flags (ShowValue, ...) が false です)。 読み取り専用 **bool**。
+False は、データ ラベルがデフォルトで表示されないことを意味します（したがって DefaultDataLabelFormat プロパティのすべての Show*-flags (ShowValue, ...) が false になります）。
+読み取り専用 **bool**。
 
 ### 備考
-
-データ ラベルがデフォルトで表示されている場合は Hide() メソッドでデフォルトで非表示にできます。 ただしデータ ラベルがデフォルトで非表示 (IsVisible は false) の場合は、DefaultDataLabelFormat プロパティの Show*-flags (ShowValue, ...) を true に設定してデータ ラベルを「デフォルトで表示」状態にできます。
+データ ラベルがデフォルトで表示されている場合は、Hide() メソッドでデフォルトで非表示にすることができます。
+ただし、データ ラベルがデフォルトで表示されていない場合（IsVisible が false）には、DefaultDataLabelFormat プロパティの Show*-flags (ShowValue, ...) を true に設定することで、データ ラベルを「デフォルトで表示」させることができます。
 
 ### 定義:
 ```python

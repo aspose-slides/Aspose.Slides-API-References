@@ -4,11 +4,11 @@ second_title: Aspose.Slides for Python via .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides.charts/ichartdatapoint/error_bars_custom_values/
-weight: 110
+weight: 150
 ---
 ## error_bars_custom_values özelliği
-Custom değer türü durumunda serinin hata çubukları değerlerini temsil eder.
-            Yalnızca okuma [`IErrorBarsCustomValues`](/slides/python-net/tr/aspose.slides.charts/ierrorbarscustomvalues).
+Özel değer türü durumunda seri hata çubukları değerlerini temsil eder.
+            Salt Okunur [`IErrorBarsCustomValues`](/slides/python-net/tr/aspose.slides.charts/ierrorbarscustomvalues).
 
 ### Tanım:
 ```python
@@ -18,7 +18,7 @@ def error_bars_custom_values(self):
 ```
 
 
-### İlgili
+### Ayrıca Bakınız
 * sınıf [`IChartDataPoint`](/slides/python-net/tr/aspose.slides.charts/ichartdatapoint)
 * sınıf [`IErrorBarsCustomValues`](/slides/python-net/tr/aspose.slides.charts/ierrorbarscustomvalues)
 * modül [`aspose.slides.charts`](/slides/python-net/tr/aspose.slides.charts)

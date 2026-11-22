@@ -1,12 +1,12 @@
 ---
 title: right property
-second_title: Aspose.Slides Python के लिए .NET API संदर्भ
+second_title: Aspose.Slides for Python via .NET API संदर्भ
 description: 
 type: docs
 url: /hi/aspose.slides.charts/idatalabel/right/
-weight: 200
+weight: 210
 ---
-## right प्रॉपर्टी
+## दाएँ प्रॉपर्टी
 ### परिभाषा:
 ```python
 @property

@@ -1,14 +1,14 @@
 ---
 title: is_bubble_3d property
-second_title: Aspose.Slides pro Python přes .NET API Reference
+second_title: Aspose.Slides pro Python prostřednictvím .NET API Reference
 description: 
 type: docs
 url: /cs/aspose.slides.charts/chartdatapoint/is_bubble_3d/
-weight: 160
+weight: 200
 ---
 ## is_bubble_3d vlastnost
 Určuje, že bubliny mají aplikovaný 3-D efekt.
-            Číst/Zapisovat **bool**.
+            Čtení/zápis **bool**.
 
 ### Definice:
 ```python

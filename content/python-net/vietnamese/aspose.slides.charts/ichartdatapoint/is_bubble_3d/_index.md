@@ -1,13 +1,13 @@
 ---
 title: is_bubble_3d property
-second_title: Tham chiếu API Aspose.Slides cho Python qua .NET
+second_title: Tham chiếu API Aspose.Slides cho Python thông qua .NET
 description: 
 type: docs
 url: /vi/aspose.slides.charts/ichartdatapoint/is_bubble_3d/
-weight: 160
+weight: 200
 ---
 ## is_bubble_3d thuộc tính
-Chỉ định rằng các bong bóng có hiệu ứng 3-D được áp dụng cho chúng.
+Chỉ định rằng các bong bóng có hiệu ứng 3-D được áp dụng.
             Đọc/ghi **bool**.
 
 ### Định nghĩa:

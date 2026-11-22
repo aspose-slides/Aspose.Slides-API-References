@@ -4,11 +4,11 @@ second_title: Aspose.Slides for Python via .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides/itextframe/text/
-weight: 150
+weight: 160
 ---
-## metin özelliği
-Bir TextFrame için düz metni alır veya ayarlar.
-            Okunur/Yazılır **str**.
+## text özelliği
+TextFrame için düz metni alır veya ayarlar.
+            Okuma/yazma **str**.
 
 ### Tanım:
 ```python

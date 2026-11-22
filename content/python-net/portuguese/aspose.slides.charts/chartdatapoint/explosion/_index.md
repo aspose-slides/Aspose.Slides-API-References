@@ -1,14 +1,14 @@
 ---
 title: explosion property
-second_title: Aspose.Slides para Python via .NET Referência da API
+second_title: Referência da API Aspose.Slides para Python via .NET
 description: 
 type: docs
 url: /pt/aspose.slides.charts/chartdatapoint/explosion/
-weight: 120
+weight: 160
 ---
 ## explosion propriedade
-Especifica a quantidade que o ponto de dados deve ser deslocado a partir do centro do gráfico de pizza.
-            Leitura/Gravação **int**.
+Especifica a quantidade que o ponto de dados deve ser movido a partir do centro da pizza.
+Leitura/gravação **int**.
 
 ### Definição:
 ```python
@@ -21,8 +21,7 @@ def explosion(self, value):
     ...
 ```
 
-
-### Veja Também
+### Ver também
 * classe [`ChartDataPoint`](/slides/python-net/pt/aspose.slides.charts/chartdatapoint)
 * módulo [`aspose.slides.charts`](/slides/python-net/pt/aspose.slides.charts)
 * biblioteca [`Aspose.Slides`](/slides/python-net)

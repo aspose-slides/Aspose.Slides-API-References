@@ -1,14 +1,14 @@
 ---
 title: value property
-second_title: Aspose.Slides für Python via .NET API-Referenz
+second_title: Aspose.Slides für Python über .NET API-Referenz
 description: 
 type: docs
 url: /de/aspose.slides.charts/chartdatapoint/value/
-weight: 220
+weight: 260
 ---
 ## Wert-Eigenschaft
 Wert.
-Nur lesbar [`IDoubleChartValue`](/slides/python-net/de/aspose.slides.charts/idoublechartvalue).
+            Nur lesbar [`IDoubleChartValue`](/slides/python-net/de/aspose.slides.charts/idoublechartvalue).
 
 ### Definition:
 ```python
@@ -16,6 +16,7 @@ Nur lesbar [`IDoubleChartValue`](/slides/python-net/de/aspose.slides.charts/idou
 def value(self):
     ...
 ```
+
 
 ### Siehe auch
 * Klasse [`ChartDataPoint`](/slides/python-net/de/aspose.slides.charts/chartdatapoint)

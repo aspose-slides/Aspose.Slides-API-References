@@ -1,13 +1,13 @@
 ---
 title: header_footer_manager property
-second_title: Aspose.Slides for Python via .NET API Referenciája
+second_title: Aspose.Slides Python API referencia .NET-en keresztül
 description: 
 type: docs
 url: /hu/aspose.slides/ipresentation/header_footer_manager/
-weight: 210
+weight: 220
 ---
 ## header_footer_manager tulajdonság
-Returns HeaderFooter manager of the presentation.
+Visszaadja a bemutató HeaderFooter menedzserét.
             Csak olvasható [`IPresentationHeaderFooterManager`](/slides/python-net/hu/aspose.slides/ipresentationheaderfootermanager).
 
 ### Definíció:

@@ -1,14 +1,14 @@
 ---
 title: y property
-second_title: Aspose.Slides für Python via .NET API-Referenz
+second_title: Aspose.Slides für Python über .NET API-Referenz
 description: 
 type: docs
 url: /de/aspose.slides.charts/datalabel/y/
-weight: 280
+weight: 290
 ---
 ## y Eigenschaft
-Gibt den y Koordinatenwert eines Titels zurück oder setzt ihn als Bruchteil der Höhe des Diagramms.
-            Lesen/Schreiben **float**.
+Gibt die y-Koordinate eines Titels zurück oder setzt sie als Bruchteil der Höhe des Diagramms.
+            Lese/Schreib **float**.
 
 ### Definition:
 ```python

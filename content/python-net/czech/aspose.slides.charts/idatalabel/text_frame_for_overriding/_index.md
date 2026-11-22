@@ -1,10 +1,10 @@
 ---
 title: text_frame_for_overriding property
-second_title: Aspose.Slides pro Python pomocí .NET API
+second_title: Aspose.Slides pro Python prostřednictvím .NET API
 description: 
 type: docs
 url: /cs/aspose.slides.charts/idatalabel/text_frame_for_overriding/
-weight: 230
+weight: 240
 ---
 ## text_frame_for_overriding vlastnost
 ### Definice:

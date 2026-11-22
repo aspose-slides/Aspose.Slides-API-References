@@ -1,14 +1,14 @@
 ---
 title: document_properties property
-second_title: Aspose.Slides برای Python از طریق .NET API Reference
+second_title: Aspose.Slides برای Python از طریق .NET مرجع API
 description: 
 type: docs
 url: /fa/aspose.slides/ipresentation/document_properties/
-weight: 180
+weight: 190
 ---
-## document_properties ویژگی
+## document_properties خاصیت
 یک شیء DocumentProperties را برمی‌گرداند که شامل ویژگی‌های استاندارد و سفارشی سند است.
-            فقط‌خواندنی [`IDocumentProperties`](/slides/python-net/fa/aspose.slides/idocumentproperties).
+            فقط-خواندنی [`IDocumentProperties`](/slides/python-net/fa/aspose.slides/idocumentproperties).
 
 ### تعریف:
 ```python

@@ -4,11 +4,11 @@ second_title: Aspose.Slides برای Python از طریق .NET مرجع API
 description: 
 type: docs
 url: /fa/aspose.slides.charts/ichartdatapoint/y_value/
-weight: 240
+weight: 280
 ---
-## ویژگی y_value
-مقدار y نقطه داده نمودار را باز می‌گرداند.
-فقط-خواندنی [`IDoubleChartValue`](/slides/python-net/fa/aspose.slides.charts/idoublechartvalue).
+## y_value ویژگی
+مقدار y یک نقطه دادهٔ chart را برمی‌گرداند.
+            فقط خواندنی [`IDoubleChartValue`](/slides/python-net/fa/aspose.slides.charts/idoublechartvalue).
 
 ### تعریف:
 ```python
@@ -16,6 +16,7 @@ weight: 240
 def y_value(self):
     ...
 ```
+
 
 ### موارد مرتبط
 * کلاس [`IChartDataPoint`](/slides/python-net/fa/aspose.slides.charts/ichartdatapoint)

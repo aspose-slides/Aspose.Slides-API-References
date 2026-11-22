@@ -4,11 +4,11 @@ second_title: Aspose.Slides pro Python přes .NET API Reference
 description: 
 type: docs
 url: /cs/aspose.slides/presentation/masters/
-weight: 290
+weight: 300
 ---
-## masters vlastnost
+## vlastnost masters
 Vrací seznam všech hlavních snímků, které jsou definovány v prezentaci.
-            Pouze ke čtení [`IMasterSlideCollection`](/slides/python-net/cs/aspose.slides/imasterslidecollection).
+Pouze pro čtení [`IMasterSlideCollection`](/slides/python-net/cs/aspose.slides/imasterslidecollection).
 
 ### Definice:
 ```python
@@ -16,7 +16,6 @@ Vrací seznam všech hlavních snímků, které jsou definovány v prezentaci.
 def masters(self):
     ...
 ```
-
 
 ### Viz také
 * třída [`IMasterSlideCollection`](/slides/python-net/cs/aspose.slides/imasterslidecollection)

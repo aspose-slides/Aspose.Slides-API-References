@@ -7,25 +7,26 @@ url: /zh-hant/aspose.slides/ivideoframe/
 ---
 ## IVideoFrame 類別
 
-Represents a video clip on a slide.
+代表投影片上的影片剪輯。
 
-The IVideoFrame type exposes the following members:
+IVideoFrame 型別公開以下成員：
 
 ## 屬性
 
-| Property | Description |
+| Property | 說明 |
 | :- | :- |
-| [`rewind_video`](/slides/python-net/zh-hant/aspose.slides/ivideoframe/rewind_video/) | 確定影片是否會在影片播放完畢後自動倒回至開始<br/>            一旦影片結束播放。<br/>            可讀寫 **bool**. |
-| [`play_loop_mode`](/slides/python-net/zh-hant/aspose.slides/ivideoframe/play_loop_mode/) | 確定影片是否會循環播放。<br/>            可讀寫 **bool**. |
-| [`hide_at_showing`](/slides/python-net/zh-hant/aspose.slides/ivideoframe/hide_at_showing/) | 確定 VideoFrame 是否已隱藏。<br/>            可讀寫 **bool**. |
-| [`volume`](/slides/python-net/zh-hant/aspose.slides/ivideoframe/volume/) | 取得或設定音訊音量。<br/>            可讀寫 [`AudioVolumeMode`](/slides/python-net/zh-hant/aspose.slides/audiovolumemode). |
-| [`play_mode`](/slides/python-net/zh-hant/aspose.slides/ivideoframe/play_mode/) | 取得或設定影片播放模式。<br/>            可讀寫 [`VideoPlayModePreset`](/slides/python-net/zh-hant/aspose.slides/videoplaymodepreset). |
-| [`full_screen_mode`](/slides/python-net/zh-hant/aspose.slides/ivideoframe/full_screen_mode/) | 確定影片是否以全螢幕模式顯示。<br/>            可讀寫 **bool**. |
-| [`link_path_long`](/slides/python-net/zh-hant/aspose.slides/ivideoframe/link_path_long/) | 取得或設定連結至 VideoFrame 的影片檔案名稱。<br/>            可讀寫 **str**. |
-| [`embedded_video`](/slides/python-net/zh-hant/aspose.slides/ivideoframe/embedded_video/) | 取得或設定嵌入式影片物件。<br/>            可讀寫 [`IVideo`](/slides/python-net/zh-hant/aspose.slides/ivideo). |
-| [`trim_from_start`](/slides/python-net/zh-hant/aspose.slides/ivideoframe/trim_from_start/) | 裁剪起始點 [ms] |
-| [`trim_from_end`](/slides/python-net/zh-hant/aspose.slides/ivideoframe/trim_from_end/) | 裁剪結束 [ms] |
-| [`caption_tracks`](/slides/python-net/zh-hant/aspose.slides/ivideoframe/caption_tracks/) | 取得與音訊框關聯的隱藏式字幕集合。<br/>             此屬性為唯讀，並回傳包含所有字幕軌道的 [`ICaptionsCollection`](/slides/python-net/zh-hant/aspose.slides/icaptionscollection). |
+| [`rewind_video`](/slides/python-net/zh-hant/aspose.slides/ivideoframe/rewind_video/) | 判斷是否在影片播放完畢後自動倒回至開始<br/>            一旦影片播放完畢。<br/>            讀寫 **bool**. |
+| [`play_loop_mode`](/slides/python-net/zh-hant/aspose.slides/ivideoframe/play_loop_mode/) | 判斷是否循環播放影片。<br/>            讀寫 **bool**. |
+| [`hide_at_showing`](/slides/python-net/zh-hant/aspose.slides/ivideoframe/hide_at_showing/) | 判斷 VideoFrame 是否隱藏。<br/>            讀寫 **bool**. |
+| [`volume`](/slides/python-net/zh-hant/aspose.slides/ivideoframe/volume/) | 取得或設定音訊音量。<br/>            讀寫 [`AudioVolumeMode`](/slides/python-net/zh-hant/aspose.slides/audiovolumemode). |
+| [`volume_value`](/slides/python-net/zh-hant/aspose.slides/ivideoframe/volume_value/) | 取得或設定精確的影片音量（百分比）。<br/>            該值以 0 到 100 的百分比表示。使用此屬性<br/>            讀取或設定比 [`IVideoFrame.volume`](/slides/python-net/zh-hant/aspose.slides/ivideoframe/volume) 屬性中預設等級更精確的音量值。<br/>            讀寫 **float**. |
+| [`play_mode`](/slides/python-net/zh-hant/aspose.slides/ivideoframe/play_mode/) | 取得或設定影片播放模式。<br/>            讀寫 [`VideoPlayModePreset`](/slides/python-net/zh-hant/aspose.slides/videoplaymodepreset). |
+| [`full_screen_mode`](/slides/python-net/zh-hant/aspose.slides/ivideoframe/full_screen_mode/) | 判斷影片是否以全螢幕模式顯示。<br/>            讀寫 **bool**. |
+| [`link_path_long`](/slides/python-net/zh-hant/aspose.slides/ivideoframe/link_path_long/) | 取得或設定連結至 VideoFrame 的影片檔案名稱。<br/>            讀寫 **str**. |
+| [`embedded_video`](/slides/python-net/zh-hant/aspose.slides/ivideoframe/embedded_video/) | 取得或設定嵌入式影片物件。<br/>            讀寫 [`IVideo`](/slides/python-net/zh-hant/aspose.slides/ivideo). |
+| [`trim_from_start`](/slides/python-net/zh-hant/aspose.slides/ivideoframe/trim_from_start/) | 剪裁起始點 [ms] |
+| [`trim_from_end`](/slides/python-net/zh-hant/aspose.slides/ivideoframe/trim_from_end/) | 剪裁終止點 [ms] |
+| [`caption_tracks`](/slides/python-net/zh-hant/aspose.slides/ivideoframe/caption_tracks/) | 取得與音訊框架相關的閉幕字幕集合。<br/>            此屬性為唯讀，並返回包含所有字幕軌道的 [`ICaptionsCollection`](/slides/python-net/zh-hant/aspose.slides/icaptionscollection). |
 | [`shape_lock`](/slides/python-net/zh-hant/aspose.slides/ivideoframe/shape_lock/) |  |
 | [`picture_frame_lock`](/slides/python-net/zh-hant/aspose.slides/ivideoframe/picture_frame_lock/) |  |
 | [`picture_format`](/slides/python-net/zh-hant/aspose.slides/ivideoframe/picture_format/) |  |
@@ -68,7 +69,7 @@ The IVideoFrame type exposes the following members:
 
 ## 方法
 
-| Method | Description |
+| Method | 說明 |
 | :- | :- |
 | [`get_image(self)`](/slides/python-net/zh-hant/aspose.slides/ivideoframe/get_image/#) |  |
 | [`get_image(self, bounds, scale_x, scale_y)`](/slides/python-net/zh-hant/aspose.slides/ivideoframe/get_image/#shapethumbnailbounds-float-float) |  |

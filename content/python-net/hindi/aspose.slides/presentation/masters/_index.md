@@ -1,13 +1,13 @@
 ---
 title: masters property
-second_title: Aspose.Slides Python के लिए .NET के द्वारा API संदर्भ
+second_title: Aspose.Slides for Python के लिए .NET API संदर्भ
 description: 
 type: docs
 url: /hi/aspose.slides/presentation/masters/
-weight: 290
+weight: 300
 ---
 ## masters प्रॉपर्टी
-प्रस्तुति में परिभाषित सभी मास्टर स्लाइड्स की सूची लौटाता है।
+प्रेजेंटेशन में परिभाषित सभी मास्टर स्लाइड्स की सूची लौटाता है।
             केवल-पढ़ने योग्य [`IMasterSlideCollection`](/slides/python-net/hi/aspose.slides/imasterslidecollection).
 
 ### परिभाषा:
@@ -18,7 +18,7 @@ def masters(self):
 ```
 
 
-### देखें भी
+### संबंधित देखें
 * क्लास [`IMasterSlideCollection`](/slides/python-net/hi/aspose.slides/imasterslidecollection)
 * क्लास [`Presentation`](/slides/python-net/hi/aspose.slides/presentation)
 * मॉड्यूल [`aspose.slides`](/slides/python-net/hi/aspose.slides)

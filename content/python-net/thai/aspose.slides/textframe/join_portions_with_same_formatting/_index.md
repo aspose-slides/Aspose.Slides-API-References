@@ -4,7 +4,7 @@ second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Refe
 description: 
 type: docs
 url: /th/aspose.slides/textframe/join_portions_with_same_formatting/
-weight: 30
+weight: 40
 ---
 ## join_portions_with_same_formatting(self) {#}
 รวมรันที่มีการจัดรูปแบบเดียวกันในทุกย่อหน้า.

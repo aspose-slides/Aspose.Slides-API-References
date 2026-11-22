@@ -4,10 +4,10 @@ second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides/ipresentation/document_properties/
-weight: 180
+weight: 190
 ---
 ## document_properties eigenschap
-Retourneert een DocumentProperties-object dat standaard- en aangepaste documenteigenschappen bevat.
+Retourneert DocumentProperties object dat standaard- en aangepaste documenteigenschappen bevat.
             Alleen-lezen [`IDocumentProperties`](/slides/python-net/nl/aspose.slides/idocumentproperties).
 
 ### Definitie:

@@ -1,13 +1,13 @@
 ---
 title: chart_data_workbook property
-second_title: Aspose.Slides Python számára .NET API-referencia
+second_title: Aspose.Slides a Python számára .NET-en keresztül API-referencia
 description: 
 type: docs
 url: /hu/aspose.slides.charts/chartdata/chart_data_workbook/
-weight: 80
+weight: 90
 ---
 ## chart_data_workbook tulajdonság
-Lekéri a cellagyárat, amely a diagram sorozatokhoz vagy kategóriákhoz használt cellákat hozza létre.
+Megkapja a cellagyárat, amely a diagram sorozatokhoz vagy kategóriákhoz használt cellákat hozza létre.
             Csak olvasható [`IChartDataWorkbook`](/slides/python-net/hu/aspose.slides.charts/ichartdataworkbook).
 
 ### Definíció:

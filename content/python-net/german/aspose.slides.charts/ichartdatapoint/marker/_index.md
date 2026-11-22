@@ -4,11 +4,11 @@ second_title: Aspose.Slides für Python über .NET API-Referenz
 description: 
 type: docs
 url: /de/aspose.slides.charts/ichartdatapoint/marker/
-weight: 180
+weight: 220
 ---
 ## Marker-Eigenschaft
 Gibt einen Datenmarker an.
-            Schreibgeschützt [`IMarker`](/slides/python-net/de/aspose.slides.charts/imarker).
+            Nur lesbar [`IMarker`](/slides/python-net/de/aspose.slides.charts/imarker).
 
 ### Definition:
 ```python

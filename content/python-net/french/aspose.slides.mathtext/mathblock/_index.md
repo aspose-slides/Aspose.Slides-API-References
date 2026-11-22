@@ -1,14 +1,14 @@
 ---
 title: MathBlock class
-second_title: Aspose.Slides pour Python via .NET Référence d'API
+second_title: Référence API Aspose.Slides pour Python via .NET
 description: 
 type: docs
 url: /fr/aspose.slides.mathtext/mathblock/
 ---
-## classe MathBlock
+## MathBlock classe
 
-Spécifie une instance de texte mathématique contenue dans un MathParagraph et commençant sur sa propre ligne.
-            Toutes les zones mathématiques, y compris les équations, les expressions, les tableaux d'équations ou d'expressions, et les formules sont représentées par un math block.
+Spécifie une instance de texte mathématique qui se trouve dans un MathParagraph et commence sur sa propre ligne.
+            Toutes les zones mathématiques, y compris les équations, les expressions, les tableaux d'équations ou d'expressions, et les formules sont représentées par un bloc mathématique.
 
 **Héritage:**[`MathBlock`](/slides/python-net/fr/aspose.slides.mathtext/mathblock) → [`MathElementBase`](/slides/python-net/fr/aspose.slides.mathtext/mathelementbase)
 
@@ -19,7 +19,7 @@ Le type MathBlock expose les membres suivants :
 | Constructeur | Description |
 | :- | :- |
 | [`__init__(self)`](/slides/python-net/fr/aspose.slides.mathtext/mathblock/__init__/#) | Initialise une nouvelle instance de la classe MathBlock. |
-| [`__init__(self, math_element)`](/slides/python-net/fr/aspose.slides.mathtext/mathblock/__init__/#imathelement) | Crée un nouveau bloc mathématique et y place l'élément spécifié |
+| [`__init__(self, math_element)`](/slides/python-net/fr/aspose.slides.mathtext/mathblock/__init__/#imathelement) | Crée un nouveau bloc mathématique et y place l'élément spécifié. |
 | [`__init__(self, math_elements)`](/slides/python-net/fr/aspose.slides.mathtext/mathblock/__init__/#iterableimathelement) |  |
 
 ## Propriétés
@@ -29,27 +29,27 @@ Le type MathBlock expose les membres suivants :
 | [`count`](/slides/python-net/fr/aspose.slides.mathtext/mathblock/count/) | Obtient le nombre d'éléments mathématiques enfants réellement contenus dans la collection.<br/>            Lecture seule **int**. |
 | [`is_read_only`](/slides/python-net/fr/aspose.slides.mathtext/mathblock/is_read_only/) | Renvoie false car la collection d'éléments enfants peut être modifiée. |
 
-Obtient ou définit IMathElement à l'indice spécifié.
+Obtient ou définit IMathElement à l'index spécifié.
 
 ## Indexeur
 
 | Nom | Description |
 | :- | :- |
-| [`[index]`](/slides/python-net/fr/aspose.slides.mathtext/mathblock/__getitem__/) | L'indice basé sur zéro de l'élément |
+| [`[index]`](/slides/python-net/fr/aspose.slides.mathtext/mathblock/__getitem__/) | L'index de l'élément basé sur zéro |
 
 ## Méthodes
 
 | Méthode | Description |
 | :- | :- |
-| [`join(self, math_element)`](/slides/python-net/fr/aspose.slides.mathtext/mathblock/join/#imathelement) | Joint un élément mathématique avec ce bloc mathématique |
-| [`join(self, math_text)`](/slides/python-net/fr/aspose.slides.mathtext/mathblock/join/#str) | Joint un texte mathématique avec ce bloc mathématique |
+| [`join(self, math_element)`](/slides/python-net/fr/aspose.slides.mathtext/mathblock/join/#imathelement) | Joint un élément mathématique à ce bloc mathématique |
+| [`join(self, math_text)`](/slides/python-net/fr/aspose.slides.mathtext/mathblock/join/#str) | Joint un texte mathématique à ce bloc mathématique |
 | [`divide(self, denominator)`](/slides/python-net/fr/aspose.slides.mathtext/mathblock/divide/#imathelement) | Crée une fraction avec ce numérateur et le dénominateur spécifié |
 | [`divide(self, denominator)`](/slides/python-net/fr/aspose.slides.mathtext/mathblock/divide/#str) | Crée une fraction avec ce numérateur et le dénominateur spécifié |
 | [`divide(self, denominator, fraction_type)`](/slides/python-net/fr/aspose.slides.mathtext/mathblock/divide/#imathelement-mathfractiontypes) | Crée une fraction du type spécifié avec ce numérateur et le dénominateur spécifié |
 | [`divide(self, denominator, fraction_type)`](/slides/python-net/fr/aspose.slides.mathtext/mathblock/divide/#str-mathfractiontypes) | Crée une fraction du type spécifié avec ce numérateur et le dénominateur spécifié |
-| [`enclose(self, beginning_character, ending_character)`](/slides/python-net/fr/aspose.slides.mathtext/mathblock/enclose/#char-char) | Encadre les éléments enfants de ce bloc avec des caractères spécifiés tels que des parenthèses ou d'autres caractères comme cadre |
-| [`enclose(self, beginning_character, ending_character, separator_character)`](/slides/python-net/fr/aspose.slides.mathtext/mathblock/enclose/#char-char-char) | Encadre les éléments enfants de ce bloc avec des caractères spécifiés tels que des parenthèses ou d'autres comme cadre<br/>            et délimite avec un caractère séparateur |
 | [`enclose(self)`](/slides/python-net/fr/aspose.slides.mathtext/mathblock/enclose/#) | Encadre un élément mathématique entre parenthèses |
+| [`enclose(self, beginning_character, ending_character)`](/slides/python-net/fr/aspose.slides.mathtext/mathblock/enclose/#char-char) | Encadre les éléments enfants de ce bloc avec des caractères spécifiés tels que des parenthèses ou d'autres caractères comme encadrement |
+| [`enclose(self, beginning_character, ending_character, separator_character)`](/slides/python-net/fr/aspose.slides.mathtext/mathblock/enclose/#char-char-char) | Encadre les éléments enfants de ce bloc avec des caractères spécifiés tels que des parenthèses ou un autre comme encadrement<br/>            et délimite avec un caractère séparateur |
 | [`function(self, function_argument)`](/slides/python-net/fr/aspose.slides.mathtext/mathblock/function/#imathelement) | Prend une fonction d'un argument en utilisant cette instance comme nom de fonction |
 | [`function(self, function_argument)`](/slides/python-net/fr/aspose.slides.mathtext/mathblock/function/#str) | Prend une fonction d'un argument en utilisant cette instance comme nom de fonction |
 | [`as_argument_of_function(self, function_name)`](/slides/python-net/fr/aspose.slides.mathtext/mathblock/as_argument_of_function/#imathelement) | Prend la fonction spécifiée en utilisant cette instance comme argument |
@@ -80,26 +80,25 @@ Obtient ou définit IMathElement à l'indice spécifié.
 | [`integral(self, integral_type, lower_limit, upper_limit)`](/slides/python-net/fr/aspose.slides.mathtext/mathblock/integral/#mathintegraltypes-str-str) | Prend l'intégrale |
 | [`group(self)`](/slides/python-net/fr/aspose.slides.mathtext/mathblock/group/#) | Place cet élément dans un groupe en utilisant une accolade inférieure |
 | [`group(self, character, position, vertical_justification)`](/slides/python-net/fr/aspose.slides.mathtext/mathblock/group/#char-mathtopbotpositions-mathtopbotpositions) | Place cet élément dans un groupe en utilisant un caractère de groupement tel qu'une accolade inférieure ou un autre |
-| [`to_border_box(self)`](/slides/python-net/fr/aspose.slides.mathtext/mathblock/to_border_box/#) | Place cet élément dans une boîte à bordure |
-| [`to_border_box(self, hide_top, hide_bottom, hide_left, hide_right, strikethrough_horizontal, strikethrough_vertical, strikethrough_bottom_left_to_top_right, strikethrough_top_left_to_bottom_right)`](/slides/python-net/fr/aspose.slides.mathtext/mathblock/to_border_box/#bool-bool-bool-bool-bool-bool-bool-bool) | Place cet élément dans une boîte à bordure |
+| [`to_border_box(self)`](/slides/python-net/fr/aspose.slides.mathtext/mathblock/to_border_box/#) | Place cet élément dans une boîte bordure |
+| [`to_border_box(self, hide_top, hide_bottom, hide_left, hide_right, strikethrough_horizontal, strikethrough_vertical, strikethrough_bottom_left_to_top_right, strikethrough_top_left_to_bottom_right)`](/slides/python-net/fr/aspose.slides.mathtext/mathblock/to_border_box/#bool-bool-bool-bool-bool-bool-bool-bool) | Place cet élément dans une boîte bordure |
 | [`to_math_array(self)`](/slides/python-net/fr/aspose.slides.mathtext/mathblock/to_math_array/#) | Place les éléments enfants dans un tableau vertical |
-| [`accent(self, accent_character)`](/slides/python-net/fr/aspose.slides.mathtext/mathblock/accent/#char) | Définit un accent (un caractère au-dessus de cet élément) |
+| [`accent(self, accent_character)`](/slides/python-net/fr/aspose.slides.mathtext/mathblock/accent/#char) | Définit une marque d'accent (un caractère au sommet de cet élément) |
 | [`overbar(self)`](/slides/python-net/fr/aspose.slides.mathtext/mathblock/overbar/#) | Définit une barre au sommet de cet élément |
 | [`underbar(self)`](/slides/python-net/fr/aspose.slides.mathtext/mathblock/underbar/#) | Définit une barre au bas de cet élément |
-| [`to_box(self)`](/slides/python-net/fr/aspose.slides.mathtext/mathblock/to_box/#) | Place cet élément dans une boîte non visuelle (groupement logique) <br/>            qui est utilisée pour regrouper les composants d'une équation ou d'autre instance de texte mathématique.<br/>            Un objet encadré peut (par exemple) servir d'émulateur d'opérateur avec ou sans point d'alignement, <br/>            servir de point de rupture de ligne, ou être groupé de manière à ne pas autoriser les sauts de ligne à l'intérieur. |
+| [`to_box(self)`](/slides/python-net/fr/aspose.slides.mathtext/mathblock/to_box/#) | Place cet élément dans une boîte non visuelle (groupement logique) <br/>            qui est utilisée pour regrouper les composants d'une équation ou autre instance de texte mathématique.<br/>            Un objet encadré peut (par exemple) servir d'émulateur d'opérateur avec ou sans point d'alignement, <br/>            servir de point de rupture de ligne, ou être groupé de manière à ne pas permettre de sauts de ligne à l'intérieur. |
 | [`get_children(self)`](/slides/python-net/fr/aspose.slides.mathtext/mathblock/get_children/#) | Obtient les éléments enfants |
 | [`add(self, item)`](/slides/python-net/fr/aspose.slides.mathtext/mathblock/add/#imathelement) | Ajoute un élément mathématique à la fin de la collection. |
 | [`clear(self)`](/slides/python-net/fr/aspose.slides.mathtext/mathblock/clear/#) | Supprime tous les éléments de la collection. |
 | [`contains(self, item)`](/slides/python-net/fr/aspose.slides.mathtext/mathblock/contains/#imathelement) | Détermine si la collection contient une valeur spécifique. |
-| [`copy_to(self, array, array_index)`](/slides/python-net/fr/aspose.slides.mathtext/mathblock/copy_to/#listimathelement-int) | Copie dans le tableau spécifié. |
+| [`copy_to(self, array, array_index)`](/slides/python-net/fr/aspose.slides.mathtext/mathblock/copy_to/#listimathelement-int) | Copie vers le tableau spécifié. |
 | [`remove(self, item)`](/slides/python-net/fr/aspose.slides.mathtext/mathblock/remove/#imathelement) | Supprime la première occurrence d'un objet spécifique de la collection. |
-| [`index_of(self, item)`](/slides/python-net/fr/aspose.slides.mathtext/mathblock/index_of/#imathelement) | Détermine l'indice d'un élément mathématique spécifique dans la collection. |
-| [`insert(self, index, item)`](/slides/python-net/fr/aspose.slides.mathtext/mathblock/insert/#int-imathelement) | Insère un MathElement dans la collection à l'indice spécifié. |
-| [`remove_at(self, index)`](/slides/python-net/fr/aspose.slides.mathtext/mathblock/remove_at/#int) | Supprime l'élément à l'indice spécifié de la collection. |
+| [`index_of(self, item)`](/slides/python-net/fr/aspose.slides.mathtext/mathblock/index_of/#imathelement) | Détermine l'index d'un élément mathématique spécifique dans la collection. |
+| [`insert(self, index, item)`](/slides/python-net/fr/aspose.slides.mathtext/mathblock/insert/#int-imathelement) | Insère un MathElement dans la collection à l'index spécifié. |
+| [`remove_at(self, index)`](/slides/python-net/fr/aspose.slides.mathtext/mathblock/remove_at/#int) | Supprime l'élément à l'index spécifié de la collection. |
 | [`join_block(self, other)`](/slides/python-net/fr/aspose.slides.mathtext/mathblock/join_block/#imathblock) | Joint un autre bloc mathématique avec celui-ci |
-| [`delimit(self, separator_character)`](/slides/python-net/fr/aspose.slides.mathtext/mathblock/delimit/#char) | Délimite les éléments enfants avec le caractère séparateur (sans les crochets) |
+| [`delimit(self, separator_character)`](/slides/python-net/fr/aspose.slides.mathtext/mathblock/delimit/#char) | Délimite les éléments enfants avec un caractère séparateur (sans les crochets) |
 | [`write_as_math_ml(self, stream)`](/slides/python-net/fr/aspose.slides.mathtext/mathblock/write_as_math_ml/#iorawiobase) | Enregistre le contenu de ce [`MathBlock`](/slides/python-net/fr/aspose.slides.mathtext/mathblock) en tant que MathML |
-
 
 ### Voir aussi
 * classe [`MathBlock`](/slides/python-net/fr/aspose.slides.mathtext/mathblock)

@@ -4,7 +4,7 @@ second_title: Riferimento API Aspose.Slides per Python via .NET
 description: 
 type: docs
 url: /it/aspose.slides/ipresentation/digital_signatures/
-weight: 170
+weight: 180
 ---
 ## digital_signatures proprietà
 Restituisce la raccolta di firme utilizzate per firmare la presentazione.

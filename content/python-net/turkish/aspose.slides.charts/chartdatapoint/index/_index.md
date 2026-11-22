@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides.charts/chartdatapoint/index/
-weight: 140
+weight: 180
 ---
 ## index özelliği
 ### Tanım:

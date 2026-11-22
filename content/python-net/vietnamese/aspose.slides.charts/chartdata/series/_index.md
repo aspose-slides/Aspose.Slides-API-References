@@ -4,7 +4,7 @@ second_title: Tham chiếu API Aspose.Slides cho Python thông qua .NET
 description: 
 type: docs
 url: /vi/aspose.slides.charts/chartdata/series/
-weight: 130
+weight: 140
 ---
 ## series thuộc tính
 Lấy series.

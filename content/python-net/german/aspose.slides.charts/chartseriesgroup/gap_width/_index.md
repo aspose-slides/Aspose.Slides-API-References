@@ -7,8 +7,22 @@ url: /de/aspose.slides.charts/chartseriesgroup/gap_width/
 weight: 110
 ---
 ## gap_width Eigenschaft
-Gibt den Abstand zwischen Balken- oder Spaltenclustern als Prozentsatz der Balken- oder Spaltenbreite an.
+Liest oder setzt den Abstand zwischen Balken- oder Säulen-Clustern, ausgedrückt als Prozentsatz der Balken- oder Säulenbreite.
+            Der Wert muss zwischen 0 und 500 liegen.
             Lesen/Schreiben **int**.
+
+
+### Anmerkungen
+
+Diese Eigenschaft gilt für Serien der folgenden Typen:
+            Bar-Untertypen (siehe auch **Aspose.Slides.Charts.ChartTypeCharacterizer.IsChartTypeBar(Aspose.Slides.Chart** method), 
+            Column-Untertypen (siehe auch **Aspose.Slides.Charts.ChartTypeCharacterizer.IsChartTypeColumn(Aspose.Slides.Chart** method), 
+            [`ChartType.BAR_OF_PIE`](/slides/python-net/de/aspose.slides.charts/charttype/BAR_OF_PIE),
+            [`ChartType.PIE_OF_PIE`](/slides/python-net/de/aspose.slides.charts/charttype/PIE_OF_PIE),
+            [`ChartType.BOX_AND_WHISKER`](/slides/python-net/de/aspose.slides.charts/charttype/BOX_AND_WHISKER),
+            [`ChartType.FUNNEL`](/slides/python-net/de/aspose.slides.charts/charttype/FUNNEL),
+            [`ChartType.HISTOGRAM`](/slides/python-net/de/aspose.slides.charts/charttype/HISTOGRAM),
+            [`ChartType.WATERFALL`](/slides/python-net/de/aspose.slides.charts/charttype/WATERFALL).
 
 ### Definition:
 ```python
@@ -20,6 +34,7 @@ def gap_width(self):
 def gap_width(self, value):
     ...
 ```
+
 
 ### Siehe auch
 * Klasse [`ChartSeriesGroup`](/slides/python-net/de/aspose.slides.charts/chartseriesgroup)

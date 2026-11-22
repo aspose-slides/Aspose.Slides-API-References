@@ -1,14 +1,14 @@
 ---
 title: size_value property
-second_title: Aspose.Slides Pythonhoz a .NET API-referencia
+second_title: Aspose.Slides a Python számára .NET-en keresztül API hivatkozás
 description: 
 type: docs
 url: /hu/aspose.slides.charts/chartdatapoint/size_value/
-weight: 210
+weight: 250
 ---
 ## size_value tulajdonság
-Visszaadja a diagram adatpontjának méretértékét.
-            Treemap és Sunburst diagramoknál használható. 
+Visszaadja a diagram adatpont méretértékét.
+            A Treemap és a Sunburst diagramoknál használható.
             Csak olvasható [`IDoubleChartValue`](/slides/python-net/hu/aspose.slides.charts/idoublechartvalue).
 
 ### Definíció:
@@ -17,7 +17,6 @@ Visszaadja a diagram adatpontjának méretértékét.
 def size_value(self):
     ...
 ```
-
 
 ### Lásd még
 * osztály [`ChartDataPoint`](/slides/python-net/hu/aspose.slides.charts/chartdatapoint)

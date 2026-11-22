@@ -1,14 +1,14 @@
 ---
 title: slide property
-second_title: Aspose.Slides برای Python از طریق .NET مرجع API
+second_title: مرجع API Aspose.Slides برای Python از طریق .NET
 description: 
 type: docs
 url: /fa/aspose.slides/textframe/slide/
-weight: 140
+weight: 150
 ---
 ## ویژگی اسلاید
-اسلاید اصلی یک TextFrame را برمی‌گرداند.
-فقط‌خواندنی [`IBaseSlide`](/slides/python-net/fa/aspose.slides/ibaseslide).
+اسلاید والد یک TextFrame را برمی‌گرداند.
+فقط خواندنی [`IBaseSlide`](/slides/python-net/fa/aspose.slides/ibaseslide).
 
 ### تعریف:
 ```python

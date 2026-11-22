@@ -1,14 +1,14 @@
 ---
 title: y_value property
-second_title: Aspose.Slides برای Python از طریق .NET API مرجع
+second_title: Aspose.Slides برای پایتون از طریق .NET مرجع API
 description: 
 type: docs
 url: /fa/aspose.slides.charts/chartdatapoint/y_value/
-weight: 240
+weight: 280
 ---
-## y_value ویژگی
+## y_value خاصیت
 YValue.
-            فقط خواندنی [`IDoubleChartValue`](/slides/python-net/fa/aspose.slides.charts/idoublechartvalue).
+            فقط‌خواندنی [`IDoubleChartValue`](/slides/python-net/fa/aspose.slides.charts/idoublechartvalue).
 
 ### تعریف:
 ```python
@@ -18,7 +18,7 @@ def y_value(self):
 ```
 
 
-### موارد مرتبط
+### موارد دیگر
 * کلاس [`ChartDataPoint`](/slides/python-net/fa/aspose.slides.charts/chartdatapoint)
 * کلاس [`IDoubleChartValue`](/slides/python-net/fa/aspose.slides.charts/idoublechartvalue)
 * ماژول [`aspose.slides.charts`](/slides/python-net/fa/aspose.slides.charts)

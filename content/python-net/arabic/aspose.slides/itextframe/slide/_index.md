@@ -1,10 +1,10 @@
 ---
 title: slide property
-second_title: مرجع API Aspose.Slides للـ Python عبر .NET
+second_title: مرجع API لـ Aspose.Slides للبايثون عبر .NET
 description: 
 type: docs
 url: /ar/aspose.slides/itextframe/slide/
-weight: 140
+weight: 150
 ---
 ## خاصية الشريحة
 ### التعريف:
@@ -14,8 +14,7 @@ def slide(self):
     ...
 ```
 
-
 ### انظر أيضًا
-* فئة [`ITextFrame`](/slides/python-net/ar/aspose.slides/itextframe)
-* وحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
-* مكتبة [`Aspose.Slides`](/slides/python-net)
+* الفئة [`ITextFrame`](/slides/python-net/ar/aspose.slides/itextframe)
+* الوحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
+* المكتبة [`Aspose.Slides`](/slides/python-net)

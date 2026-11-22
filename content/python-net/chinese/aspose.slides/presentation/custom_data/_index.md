@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API 参考
 description: 
 type: docs
 url: /zh/aspose.slides/presentation/custom_data/
-weight: 160
+weight: 170
 ---
 ## custom_data 属性
 Returns the presentation's custom data.
@@ -16,6 +16,7 @@ Returns the presentation's custom data.
 def custom_data(self):
     ...
 ```
+
 
 
 ### 另请参见

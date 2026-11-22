@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides.charts/idatalabelcollection/slide/
-weight: 160
+weight: 170
 ---
 ## スライド プロパティ
 ### 定義:

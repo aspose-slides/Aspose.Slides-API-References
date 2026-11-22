@@ -1,10 +1,10 @@
 ---
 title: y property
-second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Reference
+second_title: อ้างอิง API Aspose.Slides สำหรับ Python ผ่าน .NET
 description: 
 type: docs
 url: /th/aspose.slides.charts/idatalabel/y/
-weight: 270
+weight: 280
 ---
 ## y คุณสมบัติ
 ### คำนิยาม:

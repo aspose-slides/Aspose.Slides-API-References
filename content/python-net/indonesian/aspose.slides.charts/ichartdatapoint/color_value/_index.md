@@ -4,12 +4,12 @@ second_title: Referensi API Aspose.Slides untuk Python via .NET
 description: 
 type: docs
 url: /id/aspose.slides.charts/ichartdatapoint/color_value/
-weight: 90
+weight: 130
 ---
 ## color_value properti
-Mengembalikan nilai warna dari titik data diagram.
-            Digunakan dengan diagram Peta. 
-            Hanya-baca [`IDoubleChartValue`](/slides/python-net/id/aspose.slides.charts/idoublechartvalue).
+Gets the color value of a chart data point.
+            Used with Map charts. 
+            Read-only [`IDoubleChartValue`](/slides/python-net/id/aspose.slides.charts/idoublechartvalue).
 
 ### Definisi:
 ```python
@@ -23,4 +23,4 @@ def color_value(self):
 * kelas [`IChartDataPoint`](/slides/python-net/id/aspose.slides.charts/ichartdatapoint)
 * kelas [`IDoubleChartValue`](/slides/python-net/id/aspose.slides.charts/idoublechartvalue)
 * modul [`aspose.slides.charts`](/slides/python-net/id/aspose.slides.charts)
-* pustaka [`Aspose.Slides`](/slides/python-net)
+* perpustakaan [`Aspose.Slides`](/slides/python-net)

@@ -1,13 +1,13 @@
 ---
 title: hyperlink_queries property
-second_title: Aspose.Slides สำหรับ Python ผ่านอ้างอิง API ของ .NET
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET เอกสารอ้างอิง API
 description: 
 type: docs
 url: /th/aspose.slides/textframe/hyperlink_queries/
-weight: 90
+weight: 100
 ---
 ## hyperlink_queries คุณสมบัติ
-ให้การเข้าถึงไฮเปอร์ลิงก์ที่บรรจุอย่างง่ายดาย.
+Provides easy access to contained hyperlinks.
             อ่านอย่างเดียว [`IHyperlinkQueries`](/slides/python-net/th/aspose.slides/ihyperlinkqueries).
 
 ### คำนิยาม:

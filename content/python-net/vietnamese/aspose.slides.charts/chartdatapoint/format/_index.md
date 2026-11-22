@@ -4,10 +4,10 @@ second_title: Tham chiếu API Aspose.Slides cho Python qua .NET
 description: 
 type: docs
 url: /vi/aspose.slides.charts/chartdatapoint/format/
-weight: 130
+weight: 170
 ---
-## thuộc tính format
-Biểu diễn các thuộc tính định dạng.
+## format thuộc tính
+Biểu thị các thuộc tính định dạng.
             Đọc/ghi [`IFormat`](/slides/python-net/vi/aspose.slides.charts/iformat).
 
 ### Định nghĩa:
@@ -20,7 +20,6 @@ def format(self):
 def format(self, value):
     ...
 ```
-
 
 ### Xem thêm
 * lớp [`ChartDataPoint`](/slides/python-net/vi/aspose.slides.charts/chartdatapoint)

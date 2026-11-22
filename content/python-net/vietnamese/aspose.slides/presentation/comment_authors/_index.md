@@ -4,7 +4,7 @@ second_title: Tham chiếu API Aspose.Slides cho Python thông qua .NET
 description: 
 type: docs
 url: /vi/aspose.slides/presentation/comment_authors/
-weight: 140
+weight: 150
 ---
 ## comment_authors thuộc tính
 Trả về bộ sưu tập các tác giả bình luận.
@@ -21,5 +21,5 @@ def comment_authors(self):
 ### Xem thêm
 * lớp [`ICommentAuthorCollection`](/slides/python-net/vi/aspose.slides/icommentauthorcollection)
 * lớp [`Presentation`](/slides/python-net/vi/aspose.slides/presentation)
-* module [`aspose.slides`](/slides/python-net/vi/aspose.slides)
+* mô-đun [`aspose.slides`](/slides/python-net/vi/aspose.slides)
 * thư viện [`Aspose.Slides`](/slides/python-net)

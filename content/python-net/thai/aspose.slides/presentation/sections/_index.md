@@ -4,10 +4,10 @@ second_title: Aspose.Slides สำหรับ Python ผ่าน .NET อ้�
 description: 
 type: docs
 url: /th/aspose.slides/presentation/sections/
-weight: 330
+weight: 340
 ---
 ## sections คุณสมบัติ
-คืนรายการของส่วนสไลด์ทั้งหมดที่กำหนดในงานนำเสนอ.
+คืนค่ารายการของส่วนสไลด์ทั้งหมดที่กำหนดไว้ในงานนำเสนอ
             อ่านอย่างเดียว [`ISectionCollection`](/slides/python-net/th/aspose.slides/isectioncollection).
 
 ### คำนิยาม:

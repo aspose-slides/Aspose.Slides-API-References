@@ -7,25 +7,26 @@ url: /ko/aspose.slides/ivideoframe/
 ---
 ## IVideoFrame 클래스
 
-슬라이드에 있는 비디오 클립을 나타냅니다.
+Represents a video clip on a slide.
 
-IVideoFrame 형식은 다음 멤버를 제공합니다:
+The IVideoFrame type exposes the following members:
 
 ## 속성
 
-| 속성 | 설명 |
+| Property | Description |
 | :- | :- |
-| [`rewind_video`](/slides/python-net/ko/aspose.slides/ivideoframe/rewind_video/) | 동영상이 재생이 끝난 직후 자동으로 시작 지점으로 되감아질지 여부를 결정합니다.<br/>            읽기/쓰기 **bool**. |
-| [`play_loop_mode`](/slides/python-net/ko/aspose.slides/ivideoframe/play_loop_mode/) | 동영상이 루프될지 여부를 결정합니다.<br/>            읽기/쓰기 **bool**. |
-| [`hide_at_showing`](/slides/python-net/ko/aspose.slides/ivideoframe/hide_at_showing/) | VideoFrame이 숨겨져 있는지 여부를 결정합니다.<br/>            읽기/쓰기 **bool**. |
-| [`volume`](/slides/python-net/ko/aspose.slides/ivideoframe/volume/) | 오디오 볼륨을 반환하거나 설정합니다.<br/>            읽기/쓰기 [`AudioVolumeMode`](/slides/python-net/ko/aspose.slides/audiovolumemode). |
-| [`play_mode`](/slides/python-net/ko/aspose.slides/ivideoframe/play_mode/) | 비디오 재생 모드를 반환하거나 설정합니다.<br/>            읽기/쓰기 [`VideoPlayModePreset`](/slides/python-net/ko/aspose.slides/videoplaymodepreset). |
-| [`full_screen_mode`](/slides/python-net/ko/aspose.slides/ivideoframe/full_screen_mode/) | 동영상이 전체 화면 모드로 표시되는지 여부를 결정합니다.<br/>            읽기/쓰기 **bool**. |
-| [`link_path_long`](/slides/python-net/ko/aspose.slides/ivideoframe/link_path_long/) | VideoFrame에 연결된 비디오 파일 이름을 반환하거나 설정합니다.<br/>            읽기/쓰기 **str**. |
-| [`embedded_video`](/slides/python-net/ko/aspose.slides/ivideoframe/embedded_video/) | 임베드된 비디오 객체를 반환하거나 설정합니다.<br/>            읽기/쓰기 [`IVideo`](/slides/python-net/ko/aspose.slides/ivideo). |
+| [`rewind_video`](/slides/python-net/ko/aspose.slides/ivideoframe/rewind_video/) | 동영상이 재생이 끝난 직후 자동으로 시작 부분으로 되감길 결정합니다. 읽기/쓰기 **bool**. |
+| [`play_loop_mode`](/slides/python-net/ko/aspose.slides/ivideoframe/play_loop_mode/) | 동영상이 반복 재생되는지를 결정합니다. 읽기/쓰기 **bool**. |
+| [`hide_at_showing`](/slides/python-net/ko/aspose.slides/ivideoframe/hide_at_showing/) | VideoFrame이 숨겨져 있는지를 결정합니다. 읽기/쓰기 **bool**. |
+| [`volume`](/slides/python-net/ko/aspose.slides/ivideoframe/volume/) | 오디오 볼륨을 가져오거나 설정합니다. 읽기/쓰기 [`AudioVolumeMode`](/slides/python-net/ko/aspose.slides/audiovolumemode). |
+| [`volume_value`](/slides/python-net/ko/aspose.slides/ivideoframe/volume_value/) | 동영상 볼륨을 백분율로 정확히 가져오거나 설정합니다. 값은 0에서 100까지의 백분율로 표현됩니다. 이 속성은 [`IVideoFrame.volume`](/slides/python-net/ko/aspose.slides/ivideoframe/volume) 속성을 통해 제공되는 사전 정의 레벨보다 더 정밀한 볼륨 값을 읽거나 설정하는 데 사용합니다. 읽기/쓰기 **float**. |
+| [`play_mode`](/slides/python-net/ko/aspose.slides/ivideoframe/play_mode/) | 동영상 재생 모드를 가져오거나 설정합니다. 읽기/쓰기 [`VideoPlayModePreset`](/slides/python-net/ko/aspose.slides/videoplaymodepreset). |
+| [`full_screen_mode`](/slides/python-net/ko/aspose.slides/ivideoframe/full_screen_mode/) | 동영상이 전체 화면 모드로 표시되는지를 결정합니다. 읽기/쓰기 **bool**. |
+| [`link_path_long`](/slides/python-net/ko/aspose.slides/ivideoframe/link_path_long/) | VideoFrame에 연결된 비디오 파일의 이름을 가져오거나 설정합니다. 읽기/쓰기 **str**. |
+| [`embedded_video`](/slides/python-net/ko/aspose.slides/ivideoframe/embedded_video/) | 내장 비디오 객체를 가져오거나 설정합니다. 읽기/쓰기 [`IVideo`](/slides/python-net/ko/aspose.slides/ivideo). |
 | [`trim_from_start`](/slides/python-net/ko/aspose.slides/ivideoframe/trim_from_start/) | 시작 트림 [ms] |
 | [`trim_from_end`](/slides/python-net/ko/aspose.slides/ivideoframe/trim_from_end/) | 끝 트림 [ms] |
-| [`caption_tracks`](/slides/python-net/ko/aspose.slides/ivideoframe/caption_tracks/) | 오디오 프레임과 연결된 폐쇄 캡션 컬렉션을 가져옵니다.<br/>            이 속성은 읽기 전용이며 모든 캡션 트랙을 포함하는 [`ICaptionsCollection`](/slides/python-net/ko/aspose.slides/icaptionscollection)를 반환합니다. |
+| [`caption_tracks`](/slides/python-net/ko/aspose.slides/ivideoframe/caption_tracks/) | 오디오 프레임과 연결된 폐쇄 캡션 컬렉션을 가져옵니다. 이 속성은 읽기 전용이며 모든 캡션 트랙을 포함하는 [`ICaptionsCollection`](/slides/python-net/ko/aspose.slides/icaptionscollection)를 반환합니다. |
 | [`shape_lock`](/slides/python-net/ko/aspose.slides/ivideoframe/shape_lock/) |  |
 | [`picture_frame_lock`](/slides/python-net/ko/aspose.slides/ivideoframe/picture_frame_lock/) |  |
 | [`picture_format`](/slides/python-net/ko/aspose.slides/ivideoframe/picture_format/) |  |
@@ -68,7 +69,7 @@ IVideoFrame 형식은 다음 멤버를 제공합니다:
 
 ## 메서드
 
-| 메서드 | 설명 |
+| Method | Description |
 | :- | :- |
 | [`get_image(self)`](/slides/python-net/ko/aspose.slides/ivideoframe/get_image/#) |  |
 | [`get_image(self, bounds, scale_x, scale_y)`](/slides/python-net/ko/aspose.slides/ivideoframe/get_image/#shapethumbnailbounds-float-float) |  |
@@ -82,6 +83,7 @@ IVideoFrame 형식은 다음 멤버를 제공합니다:
 | [`remove_placeholder(self)`](/slides/python-net/ko/aspose.slides/ivideoframe/remove_placeholder/#) |  |
 | [`get_base_placeholder(self)`](/slides/python-net/ko/aspose.slides/ivideoframe/get_base_placeholder/#) |  |
 
-### 참고
+
+### 또 보기
 * 모듈 [`aspose.slides`](/slides/python-net/ko/aspose.slides)
 * 라이브러리 [`Aspose.Slides`](/slides/python-net)

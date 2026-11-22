@@ -1,14 +1,14 @@
 ---
 title: master_theme property
-second_title: Aspose.Slides for Python via .NET API Referansı
+second_title: Aspose.Slides, Python için .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides/ipresentation/master_theme/
-weight: 270
+weight: 280
 ---
-## master_theme özelliği
+## master_theme özellik
 Sunumun ana temasını döndürür.
-Salt-okunur [`IMasterTheme`](/slides/python-net/tr/aspose.slides.theme/imastertheme).
+            Salt okunur [`IMasterTheme`](/slides/python-net/tr/aspose.slides.theme/imastertheme).
 
 ### Tanım:
 ```python

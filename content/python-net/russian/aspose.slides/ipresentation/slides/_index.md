@@ -4,13 +4,13 @@ second_title: Aspose.Slides для Python через .NET справочник A
 description: 
 type: docs
 url: /ru/aspose.slides/ipresentation/slides/
-weight: 350
+weight: 360
 ---
-## slides свойство
-Возвращает список всех slides, определённых в презентации.
+## slides property
+Возвращает список всех слайдов, определённых в презентации.
             Только для чтения [`ISlideCollection`](/ru/slides/python-net/aspose.slides/islidecollection).
 
-### Определение:
+### Definition:
 ```python
 @property
 def slides(self):
@@ -18,7 +18,7 @@ def slides(self):
 ```
 
 
-### См. также
+### See Also
 * класс [`IPresentation`](/slides/python-net/ru/aspose.slides/ipresentation)
 * класс [`ISlideCollection`](/slides/python-net/ru/aspose.slides/islidecollection)
 * модуль [`aspose.slides`](/slides/python-net/ru/aspose.slides)

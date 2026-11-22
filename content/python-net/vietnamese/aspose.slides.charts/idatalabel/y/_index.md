@@ -4,9 +4,9 @@ second_title: Tham chiếu API Aspose.Slides cho Python qua .NET
 description: 
 type: docs
 url: /vi/aspose.slides.charts/idatalabel/y/
-weight: 270
+weight: 280
 ---
-## Thuộc tính y
+## y thuộc tính
 ### Định nghĩa:
 ```python
 @property
@@ -18,7 +18,8 @@ def y(self, value):
     ...
 ```
 
-### Xem thêm
+
+### Xem Thêm
 * lớp [`IDataLabel`](/slides/python-net/vi/aspose.slides.charts/idatalabel)
-* mô-đun [`aspose.slides.charts`](/slides/python-net/vi/aspose.slides.charts)
+* module [`aspose.slides.charts`](/slides/python-net/vi/aspose.slides.charts)
 * thư viện [`Aspose.Slides`](/slides/python-net)

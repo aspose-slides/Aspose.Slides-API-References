@@ -4,19 +4,19 @@ second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Refe
 description: 
 type: docs
 url: /th/aspose.slides/videoframe/y/
-weight: 660
+weight: 670
 ---
 ## y คุณสมบัติ
-Gets or sets the y-coordinate of the shape's upper-left corner, measured in points.
+รับหรือกำหนดพิกัด y ของมุมซ้ายบนของรูปทรง, วัดเป็นจุด.
             อ่าน/เขียน **float**.
 
 
-### Remarks
+### หมายเหตุ
 
 ค่าที่ส่งกลับจะถูกกำหนดเสมอและไม่เคยเป็น **float**.
-            ค่าที่กำหนดจะต้องถูกกำหนดเช่นกัน; กำหนด **float** เฉพาะให้กับคุณสมบัติของอินสแตนซ์ `RawFrame` เท่านั้น.
+            ค่าที่กำหนดต้องถูกกำหนดเช่นกัน; กำหนด **float** ให้กับคุณสมบัติของอ็อบเจกต์ `RawFrame` เท่านั้น.
 
-### คำนิยาม:
+### คำจำกัดความ:
 ```python
 @property
 def y(self):
@@ -28,7 +28,7 @@ def y(self, value):
 ```
 
 
-### See Also
+### ดูเพิ่มเติม
 * คลาส [`VideoFrame`](/slides/python-net/th/aspose.slides/videoframe)
 * โมดูล [`aspose.slides`](/slides/python-net/th/aspose.slides)
 * ไลบรารี [`Aspose.Slides`](/slides/python-net)

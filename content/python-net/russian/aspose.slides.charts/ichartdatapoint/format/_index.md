@@ -1,10 +1,10 @@
 ---
 title: format property
-second_title: Aspose.Slides для Python через .NET API справочник
+second_title: Aspose.Slides для Python через .NET справочник API
 description: 
 type: docs
 url: /ru/aspose.slides.charts/ichartdatapoint/format/
-weight: 130
+weight: 170
 ---
 ## format свойство
 Представляет свойства форматирования.
@@ -20,7 +20,6 @@ def format(self):
 def format(self, value):
     ...
 ```
-
 
 ### См. также
 * класс [`IChartDataPoint`](/slides/python-net/ru/aspose.slides.charts/ichartdatapoint)

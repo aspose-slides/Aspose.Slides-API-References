@@ -1,13 +1,13 @@
 ---
 title: paragraphs property
-second_title: Aspose.Slides para Python via .NET API Referência
+second_title: Referência da API Aspose.Slides para Python via .NET
 description: 
 type: docs
 url: /pt/aspose.slides/itextframe/paragraphs/
-weight: 100
+weight: 110
 ---
 ## paragraphs propriedade
-Returns the list of all paragraphs in a frame.
+Retorna a lista de todos os paragraphs em um quadro.
             Somente leitura [`IParagraphCollection`](/slides/python-net/pt/aspose.slides/iparagraphcollection).
 
 ### Definição:

@@ -1,13 +1,13 @@
 ---
 title: parent_cell property
-second_title: Aspose.Slides สำหรับ Python ผ่าน .NET เอกสารอ้างอิง API
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Reference
 description: 
 type: docs
 url: /th/aspose.slides/itextframe/parent_cell/
-weight: 110
+weight: 120
 ---
 ## parent_cell คุณสมบัติ
-คืนค่าเซลล์แม่หรือNoneหากอ็อบเจกต์แม่ไม่ได้ทำหน้าที่เป็นอินเทอร์เฟซ ICell.
+ส่งคืนเซลล์แม่หรือ None หากวัตถุแม่ไม่รองรับอินเทอร์เฟซ ICell.
             อ่านอย่างเดียว [`ICell`](/slides/python-net/th/aspose.slides/icell).
 
 ### คำนิยาม:

@@ -1,14 +1,14 @@
 ---
 title: data_point_levels property
-second_title: Aspose.Slides برای پایتون از طریق مرجع API .NET
+second_title: Aspose.Slides برای Python از طریق .NET مرجع API
 description: 
 type: docs
 url: /fa/aspose.slides.charts/ichartdatapoint/data_point_levels/
-weight: 100
+weight: 140
 ---
 ## data_point_levels ویژگی
-یک مخزن از سطوح نقطه داده را برمی‌گرداند. برای سری‌های Treeamp و Sunburst اعمال می‌شود.
-            اندیس‌گذاری سطوح نقطه داده صفر-مبنا است.
+Returns container of  data point levels. Applied for Treeamp and Sunburst series.
+            Data point levels indexing is zero-based.
 
 ### تعریف:
 ```python

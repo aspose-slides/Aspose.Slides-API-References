@@ -1,10 +1,10 @@
 ---
 title: text_format property
-second_title: Riferimento API Aspose.Slides per Python via .NET
+second_title: Riferimento API Aspose.Slides per Python tramite .NET
 description: 
 type: docs
 url: /it/aspose.slides.charts/idatalabel/text_format/
-weight: 220
+weight: 230
 ---
 ## text_format proprietà
 ### Definizione:

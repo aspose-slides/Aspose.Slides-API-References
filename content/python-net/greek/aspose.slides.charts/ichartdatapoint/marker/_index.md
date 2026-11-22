@@ -1,13 +1,13 @@
 ---
 title: marker property
-second_title: Aspose.Slides για Python μέσω .NET API Reference
+second_title: Αναφορά API Aspose.Slides για Python μέσω .NET
 description: 
 type: docs
 url: /el/aspose.slides.charts/ichartdatapoint/marker/
-weight: 180
+weight: 220
 ---
-## Ιδιότητα marker
-Καθορίζει έναν δείκτη δεδομένων.
+## ιδιότητα marker
+Καθορίζει ένα δείκτη δεδομένων.
             Μόνο για ανάγνωση [`IMarker`](/slides/python-net/el/aspose.slides.charts/imarker).
 
 ### Ορισμός:

@@ -1,14 +1,14 @@
 ---
 title: sections property
-second_title: Aspose.Slides pro Python pomocí .NET API
+second_title: Aspose.Slides pro Python přes .NET API Reference
 description: 
 type: docs
 url: /cs/aspose.slides/ipresentation/sections/
-weight: 320
+weight: 330
 ---
-## sections vlastnost
-Vrací seznam všech slides sections, které jsou v prezentaci definovány.
-            Pouze pro čtení [`ISectionCollection`](/slides/python-net/cs/aspose.slides/isectioncollection).
+## sections property
+Vrací seznam všech sekcí snímků, které jsou v prezentaci definovány.
+            Jen ke čtení [`ISectionCollection`](/slides/python-net/cs/aspose.slides/isectioncollection).
 
 ### Definice:
 ```python

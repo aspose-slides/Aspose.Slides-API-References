@@ -4,10 +4,10 @@ second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides/presentation/slide_show_settings/
-weight: 350
+weight: 360
 ---
 ## slide_show_settings eigenschap
-Retourneert de diavoorstellinginstellingen voor de presentatie.
+Retourneert de instellingen voor de diavoorstelling van de presentatie.
 
 ### Definitie:
 ```python

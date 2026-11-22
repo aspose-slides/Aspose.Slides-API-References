@@ -1,14 +1,14 @@
 ---
 title: protection_manager property
-second_title: Riferimento API Aspose.Slides per Python via .NET
+second_title: Riferimento API di Aspose.Slides per Python via .NET
 description: 
 type: docs
 url: /it/aspose.slides/presentation/protection_manager/
-weight: 320
+weight: 330
 ---
 ## protection_manager proprietà
-Gets manager of the permissions for this presentation.
-            Solo lettura [`IProtectionManager`](/slides/python-net/it/aspose.slides/iprotectionmanager).
+Ottiene il gestore delle autorizzazioni per questa presentazione.
+Solo lettura [`IProtectionManager`](/slides/python-net/it/aspose.slides/iprotectionmanager).
 
 ### Definizione:
 ```python

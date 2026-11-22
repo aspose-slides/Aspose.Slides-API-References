@@ -1,6 +1,6 @@
 ---
 title: IVideoFrame class
-second_title: Tham chiếu API Aspose.Slides cho Python qua .NET
+second_title: Tham khảo API Aspose.Slides cho Python qua .NET
 description: 
 type: docs
 url: /vi/aspose.slides/ivideoframe/
@@ -15,17 +15,18 @@ Kiểu IVideoFrame cung cấp các thành viên sau:
 
 | Thuộc tính | Mô tả |
 | :- | :- |
-| [`rewind_video`](/slides/python-net/vi/aspose.slides/ivideoframe/rewind_video/) | Xác định xem video có được tự động tua lại về đầu không<br/>            ngay khi bộ phim đã phát xong.<br/>            Đọc/ghi **bool**. |
+| [`rewind_video`](/slides/python-net/vi/aspose.slides/ivideoframe/rewind_video/) | Xác định xem video có được tự động quay lại đầu không<br/>            ngay khi bộ phim đã phát xong.<br/>            Đọc/ghi **bool**. |
 | [`play_loop_mode`](/slides/python-net/vi/aspose.slides/ivideoframe/play_loop_mode/) | Xác định xem video có được lặp lại không.<br/>            Đọc/ghi **bool**. |
-| [`hide_at_showing`](/slides/python-net/vi/aspose.slides/ivideoframe/hide_at_showing/) | Xác định xem VideoFrame có bị ẩn không.<br/>            Đọc/ghi **bool**. |
-| [`volume`](/slides/python-net/vi/aspose.slides/ivideoframe/volume/) | Trả về hoặc đặt âm lượng âm thanh.<br/>            Đọc/ghi [`AudioVolumeMode`](/slides/python-net/vi/aspose.slides/audiovolumemode). |
+| [`hide_at_showing`](/slides/python-net/vi/aspose.slides/ivideoframe/hide_at_showing/) | Xác định xem VideoFrame có bị ẩn hay không.<br/>            Đọc/ghi **bool**. |
+| [`volume`](/slides/python-net/vi/aspose.slides/ivideoframe/volume/) | Trả về hoặc đặt mức âm lượng audio.<br/>            Đọc/ghi [`AudioVolumeMode`](/slides/python-net/vi/aspose.slides/audiovolumemode). |
+| [`volume_value`](/slides/python-net/vi/aspose.slides/ivideoframe/volume_value/) | Trả về hoặc đặt mức âm lượng video chính xác dưới dạng phần trăm.<br/>            Giá trị được biểu thị dưới dạng phần trăm từ 0 đến 100. Sử dụng thuộc tính này<br/>            để đọc hoặc đặt giá trị âm lượng chi tiết hơn so với các mức đã định<br/>            sẵn có thông qua thuộc tính [`IVideoFrame.volume`](/slides/python-net/vi/aspose.slides/ivideoframe/volume).<br/>            Đọc/ghi **float**. |
 | [`play_mode`](/slides/python-net/vi/aspose.slides/ivideoframe/play_mode/) | Trả về hoặc đặt chế độ phát video.<br/>            Đọc/ghi [`VideoPlayModePreset`](/slides/python-net/vi/aspose.slides/videoplaymodepreset). |
 | [`full_screen_mode`](/slides/python-net/vi/aspose.slides/ivideoframe/full_screen_mode/) | Xác định xem video có được hiển thị ở chế độ toàn màn hình không.<br/>            Đọc/ghi **bool**. |
-| [`link_path_long`](/slides/python-net/vi/aspose.slides/ivideoframe/link_path_long/) | Trả về hoặc đặt tên tệp video được liên kết với VideoFrame.<br/>            Đọc/ghi **str**. |
+| [`link_path_long`](/slides/python-net/vi/aspose.slides/ivideoframe/link_path_long/) | Trả về hoặc đặt tên của tệp video được liên kết với VideoFrame.<br/>            Đọc/ghi **str**. |
 | [`embedded_video`](/slides/python-net/vi/aspose.slides/ivideoframe/embedded_video/) | Trả về hoặc đặt đối tượng video nhúng.<br/>            Đọc/ghi [`IVideo`](/slides/python-net/vi/aspose.slides/ivideo). |
-| [`trim_from_start`](/slides/python-net/vi/aspose.slides/ivideoframe/trim_from_start/) | Cắt đầu [ms] |
-| [`trim_from_end`](/slides/python-net/vi/aspose.slides/ivideoframe/trim_from_end/) | Cắt kết thúc [ms] |
-| [`caption_tracks`](/slides/python-net/vi/aspose.slides/ivideoframe/caption_tracks/) | Lấy bộ sưu tập phụ đề đóng được liên kết với khung âm thanh.<br/>             Thuộc tính này chỉ đọc và trả về một [`ICaptionsCollection`](/slides/python-net/vi/aspose.slides/icaptionscollection) chứa tất cả các track phụ đề. |
+| [`trim_from_start`](/slides/python-net/vi/aspose.slides/ivideoframe/trim_from_start/) | Bắt đầu cắt [ms] |
+| [`trim_from_end`](/slides/python-net/vi/aspose.slides/ivideoframe/trim_from_end/) | Kết thúc cắt [ms] |
+| [`caption_tracks`](/slides/python-net/vi/aspose.slides/ivideoframe/caption_tracks/) | Lấy bộ sưu tập phụ đề đóng liên quan đến khung audio.<br/>            Thuộc tính này chỉ đọc và trả về một [`ICaptionsCollection`](/slides/python-net/vi/aspose.slides/icaptionscollection) chứa tất cả các track phụ đề. |
 | [`shape_lock`](/slides/python-net/vi/aspose.slides/ivideoframe/shape_lock/) |  |
 | [`picture_frame_lock`](/slides/python-net/vi/aspose.slides/ivideoframe/picture_frame_lock/) |  |
 | [`picture_format`](/slides/python-net/vi/aspose.slides/ivideoframe/picture_format/) |  |
@@ -84,4 +85,4 @@ Kiểu IVideoFrame cung cấp các thành viên sau:
 
 ### Xem thêm
 * module [`aspose.slides`](/slides/python-net/vi/aspose.slides)
-* library [`Aspose.Slides`](/slides/python-net)
+* thư viện [`Aspose.Slides`](/slides/python-net)

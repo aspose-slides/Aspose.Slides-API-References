@@ -1,23 +1,22 @@
 ---
 title: data_source_type property
-second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Reference
+second_title: อ้างอิง API ของ Aspose.Slides สำหรับ Python ผ่าน .NET
 description: 
 type: docs
 url: /th/aspose.slides.charts/ichartdata/data_source_type/
-weight: 90
+weight: 100
 ---
 ## data_source_type คุณสมบัติ
-แสดงที่มาของข้อมูลของแผนภูมิ
+แสดงแหล่งข้อมูลของแผนภูมิ
 
-### Definition:
+### คำนิยาม:
 ```python
 @property
 def data_source_type(self):
     ...
 ```
 
-
-### See Also
+### ดูเพิ่มเติม
 * คลาส [`IChartData`](/slides/python-net/th/aspose.slides.charts/ichartdata)
 * โมดูล [`aspose.slides.charts`](/slides/python-net/th/aspose.slides.charts)
 * ไลบรารี [`Aspose.Slides`](/slides/python-net)

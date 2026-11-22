@@ -1,10 +1,10 @@
 ---
 title: protection_manager property
-second_title: Aspose.Slides pro Python prostřednictvím .NET API Reference
+second_title: Aspose.Slides pro Python prostřednictvím .NET API
 description: 
 type: docs
 url: /cs/aspose.slides/presentation/protection_manager/
-weight: 320
+weight: 330
 ---
 ## protection_manager vlastnost
 Získá správce oprávnění pro tuto prezentaci.

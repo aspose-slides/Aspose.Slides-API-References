@@ -1,16 +1,16 @@
 ---
 title: bubble_size property
-second_title: Aspose.Slides 用于 Python 的 .NET API 参考
+second_title: Aspose.Slides for Python via .NET API 参考
 description: 
 type: docs
 url: /zh/aspose.slides.charts/ichartdatapoint/bubble_size/
 weight: 80
 ---
 ## bubble_size 属性
-返回图表数据点的气泡大小。
+获取图表数据点的气泡大小。
             只读 [`IDoubleChartValue`](/slides/python-net/zh/aspose.slides.charts/idoublechartvalue).
 
-### 定义：
+### 定义:
 ```python
 @property
 def bubble_size(self):

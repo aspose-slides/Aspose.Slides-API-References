@@ -4,10 +4,10 @@ second_title: Aspose.Slides برای Python از طریق .NET API Reference
 description: 
 type: docs
 url: /fa/aspose.slides/presentation/first_slide_number/
-weight: 200
+weight: 210
 ---
 ## first_slide_number ویژگی
-نمایانگر شماره اولین اسلاید در ارائه است
+شمارهٔ اولین اسلاید در ارائه را نشان می‌دهد
 
 ### تعریف:
 ```python

@@ -4,7 +4,7 @@ second_title: Aspose.Slides för Python via .NET API-referens
 description: 
 type: docs
 url: /sv/aspose.slides/ipresentation/slides/
-weight: 350
+weight: 360
 ---
 ## slides egenskap
 Returnerar en lista med alla slides som är definierade i presentationen.

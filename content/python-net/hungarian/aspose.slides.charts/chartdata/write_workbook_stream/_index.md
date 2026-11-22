@@ -1,10 +1,10 @@
 ---
 title: write_workbook_stream method
-second_title: Aspose.Slides a Pythonhoz .NET API referencia
+second_title: Aspose.Slides for Python .NET API Referencia
 description: 
 type: docs
 url: /hu/aspose.slides.charts/chartdata/write_workbook_stream/
-weight: 60
+weight: 70
 ---
 ## write_workbook_stream(self, ms) {#iorawiobase}
 Inicializálja a belsőleg tárolt Excel munkafüzetet a felhasználó által megadott értékkel.
@@ -18,7 +18,7 @@ def write_workbook_stream(self, ms):
 
 | Paraméter | Típus | Leírás |
 | :- | :- | :- |
-| ms | **io.RawIOBase** | A felhasználó által biztosított adatfolyam, amely az egész Excel munkafüzetet tartalmazza. |
+| ms | **io.RawIOBase** | A felhasználó által biztosított adatfolyam, amely a teljes Excel munkafüzetet tartalmazza. |
 
 
 

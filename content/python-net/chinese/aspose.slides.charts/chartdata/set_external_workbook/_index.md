@@ -4,10 +4,10 @@ second_title: Aspose.Slides for Python via .NET API 参考
 description: 
 type: docs
 url: /zh/aspose.slides.charts/chartdata/set_external_workbook/
-weight: 30
+weight: 40
 ---
 ## set_external_workbook(self, workbook_path) {#str}
-将外部工作簿设为图表的数据源。图表数据将从目标工作簿进行更新。
+将外部工作簿设置为图表的数据源。图表数据将从目标工作簿更新。
 
 
 ```python
@@ -28,7 +28,7 @@ def set_external_workbook(self, workbook_path):
 
 
 ## set_external_workbook(self, workbook_path, update_chart_data) {#str-bool}
-将外部工作簿设为图表的数据源。
+将外部工作簿设置为图表的数据源。
 
 
 ```python
@@ -40,7 +40,7 @@ def set_external_workbook(self, workbook_path, update_chart_data):
 | 参数 | 类型 | 描述 |
 | :- | :- | :- |
 | workbook_path | **str** | 目标工作簿的路径 |
-| update_chart_data | **bool** | 如果值为 false，则仅更新工作簿路径。<br/><br/>图表数据不会从目标工作簿加载和更新。可在目标工作簿不存在或不可用时使用。<br/><br/>如果值为 true，图表数据将从目标工作簿更新。 |
+| update_chart_data | **bool** | 如果值为 false，则仅更新工作簿路径。<br/><br/>             图表数据将不会从目标工作簿加载和更新。可在目标工作簿不存在或不可用时使用。<br/><br/>             如果值为 true，则图表数据将从目标工作簿更新。 |
 
 ### 异常
 
@@ -50,7 +50,7 @@ def set_external_workbook(self, workbook_path, update_chart_data):
 
 
 
-### 另见
+### 另请参见
 * 类 [`ChartData`](/slides/python-net/zh/aspose.slides.charts/chartdata)
 * 模块 [`aspose.slides.charts`](/slides/python-net/zh/aspose.slides.charts)
 * 库 [`Aspose.Slides`](/slides/python-net)

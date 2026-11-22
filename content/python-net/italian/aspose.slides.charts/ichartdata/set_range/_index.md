@@ -1,14 +1,14 @@
 ---
 title: set_range method
-second_title: Riferimento API Aspose.Slides per Python via .NET
+second_title: Aspose.Slides per Python via .NET Riferimento API
 description: 
 type: docs
 url: /it/aspose.slides.charts/ichartdata/set_range/
-weight: 40
+weight: 50
 ---
 ## set_range(self, formula) {#str}
-Imposta l'intervallo dei dati del grafico. Le serie e le categorie verranno aggiornate in base al nuovo intervallo di dati.
-            Se il numero di serie nell'intervallo dei dati è maggiore del conteggio delle serie nei dati del grafico, allora saranno aggiunte serie aggiuntive dello stesso tipo dell'ultima serie nella collezione corrente, alla fine della collezione.
+Imposta l'intervallo di dati del grafico. Le serie e le categorie verranno aggiornate in base al nuovo intervallo di dati.
+            Se il numero di serie nell'intervallo di dati è maggiore del conteggio delle serie nei dati del grafico, verranno aggiunte serie aggiuntive con lo stesso tipo dell'ultima serie nella collezione corrente alla fine della collezione.
 
 
 ```python

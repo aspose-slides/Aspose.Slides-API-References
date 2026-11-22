@@ -1,13 +1,13 @@
 ---
 title: set_as_total property
-second_title: Aspose.Slides для Python через .NET API Reference
+second_title: Aspose.Slides для Python через .NET: справочник API
 description: 
 type: docs
 url: /ru/aspose.slides.charts/chartdatapoint/set_as_total/
-weight: 200
+weight: 240
 ---
 ## set_as_total свойство
-Устанавливает точку данных как итоговую. Применяется только для типа серии Waterfall.
+Устанавливает точку данных как итог. Применяется только для типа серии Waterfall.
 
 ### Определение:
 ```python

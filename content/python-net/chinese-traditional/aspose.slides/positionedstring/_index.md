@@ -1,21 +1,15 @@
 ---
 title: PositionedString class
-second_title: Aspose.Slides 用於 Python via .NET API 參考
+second_title: Aspose.Slides for Python via .NET API 參考文件
 description: 
 type: docs
 url: /zh-hant/aspose.slides/positionedstring/
 ---
 ## PositionedString 類別
 
-結構包含整數鍵和值字串，且是 KeyValuePair<int, string> 的臨時替代方案。
+此結構包含整數鍵與字串值，並暫時取代 KeyValuePair<int, string>
 
-PositionedString 類型公開以下成員：
-
-## 建構函式
-
-| 建構函式 | 描述 |
-| :- | :- |
-| [`__init__(self)`](/slides/python-net/zh-hant/aspose.slides/positionedstring/__init__/#) |  |
+PositionedString 類別提供以下成員：
 
 ## 屬性
 
@@ -25,6 +19,6 @@ PositionedString 類型公開以下成員：
 | [`value`](/slides/python-net/zh-hant/aspose.slides/positionedstring/value/) | 字串值 |
 
 
-### 參見
+### 另請參閱
 * 模組 [`aspose.slides`](/slides/python-net/zh-hant/aspose.slides)
 * 函式庫 [`Aspose.Slides`](/slides/python-net)

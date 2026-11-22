@@ -1,13 +1,13 @@
 ---
 title: slide_size property
-second_title: Aspose.Slides لـ Python عبر .NET مرجع API
+second_title: Aspose.Slides لبايثون عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides/ipresentation/slide_size/
-weight: 340
+weight: 350
 ---
 ## slide_size خاصية
-يُرجع كائن حجم الشريحة.
+يرجع slide size كائن.
             للقراءة فقط [`ISlideSize`](/slides/python-net/ar/aspose.slides/islidesize).
 
 ### التعريف:
@@ -16,7 +16,6 @@ weight: 340
 def slide_size(self):
     ...
 ```
-
 
 ### انظر أيضًا
 * فئة [`IPresentation`](/slides/python-net/ar/aspose.slides/ipresentation)

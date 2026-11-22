@@ -1,10 +1,10 @@
 ---
 title: data_source_type property
-second_title: Aspose.Slides untuk Python via .NET Referensi API
+second_title: Referensi API Aspose.Slides untuk Python melalui .NET
 description: 
 type: docs
 url: /id/aspose.slides.charts/ichartdata/data_source_type/
-weight: 90
+weight: 100
 ---
 ## data_source_type properti
 Mewakili sumber data dari diagram

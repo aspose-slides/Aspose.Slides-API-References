@@ -1,16 +1,16 @@
 ---
 title: images property
-second_title: Aspose.Slides for Python via .NET APIリファレンス
+second_title: Aspose.Slides for Python via .NET API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides/presentation/images/
-weight: 240
+weight: 250
 ---
 ## images プロパティ
-プレゼンテーション内のすべての画像のコレクションを返します。
-読み取り専用 [`IImageCollection`](/slides/python-net/ja/aspose.slides/iimagecollection)。
+Returns the collection of all images in the presentation.
+            読み取り専用 [`IImageCollection`](/slides/python-net/ja/aspose.slides/iimagecollection).
 
-### 定義:
+### 定義：
 ```python
 @property
 def images(self):

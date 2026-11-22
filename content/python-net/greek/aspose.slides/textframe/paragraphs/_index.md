@@ -1,13 +1,13 @@
 ---
 title: paragraphs property
-second_title: Aspose.Slides για Python μέσω .NET API Reference
+second_title: Aspose.Slides για Python μέσω .NET Αναφορά API
 description: 
 type: docs
 url: /el/aspose.slides/textframe/paragraphs/
-weight: 100
+weight: 110
 ---
 ## paragraphs ιδιότητα
-Επιστρέφει τη λίδα όλων των paragraphs σε ένα πλαίσιο.
+Επιστρέφει τη λίστα όλων των paragraphs σε ένα πλαίσιο.
             Μόνο για ανάγνωση [`IParagraphCollection`](/slides/python-net/el/aspose.slides/iparagraphcollection).
 
 ### Ορισμός:

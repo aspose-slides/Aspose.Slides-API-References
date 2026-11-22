@@ -1,12 +1,12 @@
 ---
 title: slide property
-second_title: Aspose.Slides για Python μέσω .NET αναφορά API
+second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
 description: 
 type: docs
 url: /el/aspose.slides.charts/datalabel/slide/
-weight: 220
+weight: 230
 ---
-## ιδιότητα διαφάνειας
+## slide ιδιότητα
 ### Ορισμός:
 ```python
 @property

@@ -1,13 +1,13 @@
 ---
 title: audios property
-second_title: Aspose.Slides cho Python qua .NET API Tham chiếu
+second_title: Tham chiếu API Aspose.Slides cho Python qua .NET
 description: 
 type: docs
 url: /vi/aspose.slides/ipresentation/audios/
-weight: 120
+weight: 130
 ---
 ## audios thuộc tính
-Trả về bộ sưu tập tất cả các tệp âm thanh được nhúng trong bản trình chiếu.
+Trả về tập hợp của tất cả các tệp âm thanh nhúng trong bản trình bày.
             Chỉ đọc [`IAudioCollection`](/slides/python-net/vi/aspose.slides/iaudiocollection).
 
 ### Định nghĩa:

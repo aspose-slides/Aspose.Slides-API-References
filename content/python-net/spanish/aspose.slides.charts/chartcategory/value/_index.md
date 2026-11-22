@@ -1,15 +1,15 @@
 ---
 title: value property
-second_title: Referencia de API de Aspose.Slides para Python vía .NET
+second_title: Referencia de API de Aspose.Slides para Python a través de .NET
 description: 
 type: docs
 url: /es/aspose.slides.charts/chartcategory/value/
-weight: 60
+weight: 70
 ---
-## propiedad value
+## value propiedad
 Si UseCell es true entonces esta propiedad representa la propiedad AsCell.Value.
-Si UseCell es false entonces esta propiedad representa la propiedad AsLiteral.
-Lectura/escritura **cualquiera**.
+            Si UseCell es false entonces esta propiedad representa la propiedad AsLiteral.
+            Lectura/escritura **cualquier**.
 
 ### Definición:
 ```python
@@ -21,6 +21,7 @@ def value(self):
 def value(self, value):
     ...
 ```
+
 
 ### Ver también
 * clase [`ChartCategory`](/slides/python-net/es/aspose.slides.charts/chartcategory)

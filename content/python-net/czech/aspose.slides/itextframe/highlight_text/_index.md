@@ -1,10 +1,10 @@
 ---
 title: highlight_text method
-second_title: Aspose.Slides pro Python přes .NET API Reference
+second_title: Aspose.Slides pro Python přes .NET API referenci
 description: 
 type: docs
 url: /cs/aspose.slides/itextframe/highlight_text/
-weight: 20
+weight: 30
 ---
 ## highlight_text(self, text, highlight_color) {#str-asposeslidescolor}
 Zvýrazní všechny výskyty ukázkového textu zadanou barvou.
@@ -18,8 +18,8 @@ def highlight_text(self, text, highlight_color):
 
 | Parametr | Typ | Popis |
 | :- | :- | :- |
-| text | **str** | Text k zvýraznění. |
-| highlight_color | [`Color`](/slides/python-net/cs/aspose.slides/color) | Barva pro zvýraznění textu. |
+| text | **str** | Text, který má být zvýrazněn. |
+| highlight_color | [`Color`](/slides/python-net/cs/aspose.slides/color) | Barva, kterou má být text zvýrazněn. |
 
 
 ## highlight_text(self, text, highlight_color, options) {#str-asposeslidescolor-itexthighlightingoptions}
@@ -34,8 +34,8 @@ def highlight_text(self, text, highlight_color, options):
 
 | Parametr | Typ | Popis |
 | :- | :- | :- |
-| text | **str** | Text k zvýraznění. |
-| highlight_color | [`Color`](/slides/python-net/cs/aspose.slides/color) | Barva pro zvýraznění textu. |
+| text | **str** | Text, který má být zvýrazněn. |
+| highlight_color | [`Color`](/slides/python-net/cs/aspose.slides/color) | Barva, kterou má být text zvýrazněn. |
 | options | [`ITextHighlightingOptions`](/slides/python-net/cs/aspose.slides/itexthighlightingoptions) | Možnosti zvýraznění. |
 
 
@@ -51,8 +51,8 @@ def highlight_text(self, text, highlight_color, options, callback):
 
 | Parametr | Typ | Popis |
 | :- | :- | :- |
-| text | **str** | Text k zvýraznění. |
-| highlight_color | [`Color`](/slides/python-net/cs/aspose.slides/color) | Barva pro zvýraznění textu. |
+| text | **str** | Text, který má být zvýrazněn. |
+| highlight_color | [`Color`](/slides/python-net/cs/aspose.slides/color) | Barva, kterou má být text zvýrazněn. |
 | options | [`ITextSearchOptions`](/slides/python-net/cs/aspose.slides/itextsearchoptions) | Možnosti vyhledávání textu [`ITextSearchOptions`](/slides/python-net/cs/aspose.slides/itextsearchoptions). |
 | callback | [`IFindResultCallback`](/slides/python-net/cs/aspose.slides/ifindresultcallback) | Objekt zpětného volání pro přijímání výsledků vyhledávání [`IFindResultCallback`](/slides/python-net/cs/aspose.slides/ifindresultcallback). |
 

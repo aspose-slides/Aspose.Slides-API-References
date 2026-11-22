@@ -4,10 +4,10 @@ second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides/textframe/paragraphs/
-weight: 100
+weight: 110
 ---
 ## paragraphs eigenschap
-Retourneert de lijst met alle paragraphs in een kader.
+Retourneert de lijst met alle paragraphs in een frame.
             Alleen-lezen [`IParagraphCollection`](/slides/python-net/nl/aspose.slides/iparagraphcollection).
 
 ### Definitie:

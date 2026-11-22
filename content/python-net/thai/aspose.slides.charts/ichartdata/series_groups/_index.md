@@ -1,31 +1,31 @@
 ---
 title: series_groups property
-second_title: Aspose.Slides สำหรับ Python ผ่าน .NET การอ้างอิง API
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET เอกสารอ้างอิง API
 description: 
 type: docs
 url: /th/aspose.slides.charts/ichartdata/series_groups/
-weight: 140
+weight: 150
 ---
 ## series_groups คุณสมบัติ
 Gets the groups of series.
 อ่านอย่างเดียว [`IChartSeriesGroupCollection`](/slides/python-net/th/aspose.slides.charts/ichartseriesgroupcollection).
 
-### คำอธิบาย
+### หมายเหตุ
 
-1) แต่ละกลุ่มของ series มี series ที่มีประเภทที่สามารถรวมกันได้. กลุ่มของ 
-            ประเภท series ที่สามารถรวมกันได้ที่กำหนดและอธิบายด้วย CombinableSeriesTypesGroup 
+1) Each group of series contains series with combinable types. Groups of 
+            combinable series types defined and described with CombinableSeriesTypesGroup 
             enum.
-            นอกจากนี้แต่ละกลุ่มของ series มี series ที่ถูกวาดบน 
-            แกนหลักหรือแกนรอง (ไม่ใช่ทั้งสองกรณีในกลุ่มเดียว).
-            ดังนั้นหลักการของการจัดกลุ่ม series คือการจัดกลุ่มตามประเภทที่กล่าวถึง 
-            ข้างต้นและตามประเภทการวาดบนแกนหลัก/แกนรอง.
+            Also each group of series contains series witch is plotted whether 
+            on primary axes or on secondary axes (not both cases in one group).
+            So, principle of series grouping is a grouping by type groups mentioned 
+            above and by primary/secondary plotting type.
+            
+2) Group of series contains some series properies whitch is common for 
+            each series in group ("series group properties").
+            "Series group properties" in ChartSeriesGroup class is read/write.
+            Each of "series group properties" can have a read-only projection in ChartSeries class.
 
-            2) กลุ่มของ series มีบางคุณสมบัติของ series ที่เป็นทั่วไปสำหรับ 
-            แต่ละ series ในกลุ่ม ("คุณสมบัติของกลุ่ม series").
-            "คุณสมบัติของกลุ่ม series" ในคลาส ChartSeriesGroup เป็น อ่าน/เขียน.
-            แต่ละ "คุณสมบัติของกลุ่ม series" สามารถมีการฉายแบบอ่านอย่างเดียวในคลาส ChartSeries.
-
-### คำนิยาม:
+### คำจำกัดความ:
 ```python
 @property
 def series_groups(self):

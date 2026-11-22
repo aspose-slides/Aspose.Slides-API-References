@@ -4,10 +4,10 @@ second_title: Tham chiếu API Aspose.Slides cho Python qua .NET
 description: 
 type: docs
 url: /vi/aspose.slides.charts/ichartdata/set_external_workbook/
-weight: 30
+weight: 40
 ---
 ## set_external_workbook(self, workbook_path) {#str}
-Đặt workbook bên ngoài làm nguồn dữ liệu cho biểu đồ. Dữ liệu biểu đồ sẽ được cập nhật từ workbook mục tiêu.
+Đặt sổ làm việc bên ngoài làm nguồn dữ liệu cho biểu đồ. Dữ liệu biểu đồ sẽ được cập nhật từ sổ làm việc đích.
 
 
 ```python
@@ -18,17 +18,17 @@ def set_external_workbook(self, workbook_path):
 
 | Tham số | Kiểu | Mô tả |
 | :- | :- | :- |
-| workbook_path | **str** | Đường dẫn tới workbook mục tiêu |
+| workbook_path | **str** | Đường dẫn tới sổ làm việc đích |
 
 ### Ngoại lệ
 
 | Ngoại lệ | Mô tả |
 | :- | :- |
-| **RuntimeError(Proxy error(InvalidOperationException))** | Workbook bên ngoài không có hoặc không thể tải. |
+| **RuntimeError(Proxy error(InvalidOperationException))** | External workbook is not available or can't be loaded. |
 
 
 ## set_external_workbook(self, workbook_path, update_chart_data) {#str-bool}
-Đặt workbook bên ngoài làm nguồn dữ liệu cho biểu đồ.
+Đặt sổ làm việc bên ngoài làm nguồn dữ liệu cho biểu đồ.
 
 
 ```python
@@ -39,14 +39,14 @@ def set_external_workbook(self, workbook_path, update_chart_data):
 
 | Tham số | Kiểu | Mô tả |
 | :- | :- | :- |
-| workbook_path | **str** | Đường dẫn tới workbook mục tiêu |
-| update_chart_data | **bool** | Nếu giá trị là false chỉ đường dẫn workbook sẽ được cập nhật. <br/><br/>             Dữ liệu biểu đồ sẽ không được tải và cập nhật từ workbook mục tiêu. Có thể được sử dụng khi workbook mục tiêu không tồn tại hoặc không khả dụng.<br/><br/>             Nếu giá trị là true dữ liệu biểu đồ sẽ được cập nhật từ workbook mục tiêu. |
+| workbook_path | **str** | Đường dẫn tới sổ làm việc đích |
+| update_chart_data | **bool** | Nếu giá trị là false, chỉ đường dẫn sổ làm việc sẽ được cập nhật. <br/><br/> Dữ liệu biểu đồ sẽ không được tải và cập nhật từ sổ làm việc đích. Có thể được sử dụng khi sổ làm việc đích không tồn tại hoặc không khả dụng.<br/><br/> Nếu giá trị là true, dữ liệu biểu đồ sẽ được cập nhật từ sổ làm việc đích. |
 
 ### Ngoại lệ
 
 | Ngoại lệ | Mô tả |
 | :- | :- |
-| **RuntimeError(Proxy error(InvalidOperationException))** | Workbook bên ngoài không có hoặc không thể tải. |
+| **RuntimeError(Proxy error(InvalidOperationException))** | External workbook is not available or can't be loaded. |
 
 
 

@@ -1,10 +1,10 @@
 ---
 title: x_value property
-second_title: Aspose.Slides a Pythonhoz .NET API hivatkozása
+second_title: Aspose.Slides Pythonhoz a .NET API hivatkozásban
 description: 
 type: docs
 url: /hu/aspose.slides.charts/chartdatapoint/x_value/
-weight: 230
+weight: 270
 ---
 ## x_value tulajdonság
 XValue.

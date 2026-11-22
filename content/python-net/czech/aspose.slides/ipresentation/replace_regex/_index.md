@@ -1,13 +1,13 @@
 ---
 title: replace_regex method
-second_title: Aspose.Slides pro Python prostřednictvím .NET API Reference
+second_title: Aspose.Slides pro Python přes .NET API Reference
 description: 
 type: docs
 url: /cs/aspose.slides/ipresentation/replace_regex/
-weight: 60
+weight: 70
 ---
 ## replace_regex(self, regex, new_text) {#str-str}
-Nahrazuje všechny shody regulárního výrazu zadaným řetězcem.
+Nahradí všechny výskyty regulárního výrazu zadaným řetězcem.
 
 
 ```python
@@ -19,7 +19,7 @@ def replace_regex(self, regex, new_text):
 | Parametr | Typ | Popis |
 | :- | :- | :- |
 | regex | **str** | Řetězec obsahuje regulární výraz pro získání řetězců k nahrazení. |
-| new_text | **str** | Řetězec pro nahrazení všech výskytů řetězců, které mají být nahrazeny. |
+| new_text | **str** | Řetězec, který nahradí všechny výskyty řetězců, jež mají být nahrazeny. |
 
 
 

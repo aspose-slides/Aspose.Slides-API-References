@@ -4,11 +4,11 @@ second_title: Aspose.Slides for Python via .NET API 레퍼런스
 description: 
 type: docs
 url: /ko/aspose.slides.charts/chartdatapoint/error_bars_custom_values/
-weight: 110
+weight: 150
 ---
 ## error_bars_custom_values 속성
 Custom 값 유형인 경우 시리즈 오류 막대 값을 나타냅니다.
-읽기 전용 [`IErrorBarsCustomValues`](/slides/python-net/ko/aspose.slides.charts/ierrorbarscustomvalues).
+            읽기 전용 [`IErrorBarsCustomValues`](/slides/python-net/ko/aspose.slides.charts/ierrorbarscustomvalues).
 
 ### 정의:
 ```python

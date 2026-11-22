@@ -1,14 +1,14 @@
 ---
 title: text_frame_format property
-second_title: Riferimento API Aspose.Slides per Python via .NET
+second_title: Riferimento API Aspose.Slides per Python tramite .NET
 description: 
 type: docs
 url: /it/aspose.slides/itextframe/text_frame_format/
-weight: 160
+weight: 170
 ---
 ## text_frame_format proprietà
 Restituisce l'oggetto di formattazione per questo oggetto TextFrame.
-            Solo lettura [`ITextFrameFormat`](/slides/python-net/it/aspose.slides/itextframeformat).
+            Sola lettura [`ITextFrameFormat`](/slides/python-net/it/aspose.slides/itextframeformat).
 
 ### Definizione:
 ```python

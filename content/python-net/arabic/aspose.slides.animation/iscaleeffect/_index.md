@@ -1,29 +1,29 @@
 ---
 title: IScaleEffect class
-second_title: Aspose.Slides لـ Python عبر .NET مرجع API
+second_title: Aspose.Slides لـ Python عبر مرجع API .NET
 description: 
 type: docs
 url: /ar/aspose.slides.animation/iscaleeffect/
 ---
-## IScaleEffect فئة
+## IScaleEffect الفئة
 
-يمثل تأثير مقياس الرسوم المتحركة.
+يمثل تأثير تكبير الرسوم المتحركة.
 
-يعرض نوع IScaleEffect الأعضاء التالية:
+نوع IScaleEffect يعرض الأعضاء التالية:
 
 ## الخصائص
 
 | خاصية | الوصف |
 | :- | :- |
-| [`zoom_content`](/slides/python-net/ar/aspose.slides.animation/iscaleeffect/zoom_content/) | يحدد ما إذا كان يجب تكبير المحتوى.<br/>            القراءة/الكتابة [`NullableBool`](/slides/python-net/ar/aspose.slides/nullablebool). |
-| [`from_address`](/slides/python-net/ar/aspose.slides.animation/iscaleeffect/from_address/) | يحدد إحداثي س/ص لبدء الرسوم المتحركة من (بنسبة مئوية).<br/>            القراءة/الكتابة [`PointF`](/slides/python-net/ar/aspose.slides/pointf). |
-| [`to`](/slides/python-net/ar/aspose.slides.animation/iscaleeffect/to/) | يحدد الموقع الهدف لتأثير مقياس الرسوم المتحركة (بنسبة مئوية).<br/>            القراءة/الكتابة [`PointF`](/slides/python-net/ar/aspose.slides/pointf). |
-| [`by`](/slides/python-net/ar/aspose.slides.animation/iscaleeffect/by/) | يصف قيمة الانزياح النسبي للرسوم المتحركة (بنسبة مئوية).<br/>            القراءة/الكتابة [`PointF`](/slides/python-net/ar/aspose.slides/pointf). |
+| [`zoom_content`](/slides/python-net/ar/aspose.slides.animation/iscaleeffect/zoom_content/) | يحدد ما إذا كان يجب تكبير المحتوى.<br/> قراءة/كتابة [`NullableBool`](/slides/python-net/ar/aspose.slides/nullablebool). |
+| [`from_`](/slides/python-net/ar/aspose.slides.animation/iscaleeffect/from_/) | يحدد إحداثيات x/y لبدء الرسوم المتحركة (بالنسبة المئوية).<br/> قراءة/كتابة [`PointF`](/slides/python-net/ar/aspose.slides/pointf). |
+| [`to`](/slides/python-net/ar/aspose.slides.animation/iscaleeffect/to/) | يحدد الموقع المستهدف لتأثير تكبير الرسوم المتحركة (بالنسبة المئوية).<br/> قراءة/كتابة [`PointF`](/slides/python-net/ar/aspose.slides/pointf). |
+| [`by`](/slides/python-net/ar/aspose.slides.animation/iscaleeffect/by/) | يصف قيمة الإزاحة النسبية للرسوم المتحركة (بالنسبة المئوية).<br/> قراءة/كتابة [`PointF`](/slides/python-net/ar/aspose.slides/pointf). |
 | [`accumulate`](/slides/python-net/ar/aspose.slides.animation/iscaleeffect/accumulate/) |  |
 | [`additive`](/slides/python-net/ar/aspose.slides.animation/iscaleeffect/additive/) |  |
 | [`properties`](/slides/python-net/ar/aspose.slides.animation/iscaleeffect/properties/) |  |
 | [`timing`](/slides/python-net/ar/aspose.slides.animation/iscaleeffect/timing/) |  |
 
-### انظر أيضًا
-* وحدة [`aspose.slides.animation`](/slides/python-net/ar/aspose.slides.animation)
-* مكتبة [`Aspose.Slides`](/slides/python-net)
+### أنظر أيضًا
+* الوحدة [`aspose.slides.animation`](/slides/python-net/ar/aspose.slides.animation)
+* المكتبة [`Aspose.Slides`](/slides/python-net)

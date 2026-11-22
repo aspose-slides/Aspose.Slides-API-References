@@ -4,7 +4,7 @@ second_title: Referencia de API de Aspose.Slides para Python vía .NET
 description: 
 type: docs
 url: /es/aspose.slides.charts/ichartdata/embedded_workbook_type/
-weight: 100
+weight: 110
 ---
 ## embedded_workbook_type propiedad
 Obtiene el tipo del libro de trabajo incrustado.

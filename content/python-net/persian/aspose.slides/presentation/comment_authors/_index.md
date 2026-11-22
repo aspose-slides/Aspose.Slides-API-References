@@ -4,11 +4,11 @@ second_title: Aspose.Slides برای Python از طریق .NET مرجع API
 description: 
 type: docs
 url: /fa/aspose.slides/presentation/comment_authors/
-weight: 140
+weight: 150
 ---
 ## comment_authors ویژگی
-مجموعه‌ای از نویسندگان نظرات را برمی‌گرداند.
-فقط‌خواندنی [`ICommentAuthorCollection`](/slides/python-net/fa/aspose.slides/icommentauthorcollection).
+مجموعه نظرات نویسندگان را برمی‌گرداند.
+            فقط-خواندنی [`ICommentAuthorCollection`](/slides/python-net/fa/aspose.slides/icommentauthorcollection).
 
 ### تعریف:
 ```python

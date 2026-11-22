@@ -1,10 +1,10 @@
 ---
 title: presentation property
-second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
+second_title: Αναφορά API του Aspose.Slides για Python μέσω .NET
 description: 
 type: docs
 url: /el/aspose.slides/ipresentation/presentation/
-weight: 300
+weight: 310
 ---
 ## ιδιότητα παρουσίασης
 ### Ορισμός:

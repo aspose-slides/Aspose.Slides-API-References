@@ -1,6 +1,6 @@
 ---
 title: IVideoFrame class
-second_title: Aspose.Slides dla Pythona – referencja API .NET
+second_title: Aspose.Slides dla Pythona przy użyciu .NET – odniesienie API
 description: 
 type: docs
 url: /pl/aspose.slides/ivideoframe/
@@ -13,19 +13,20 @@ Typ IVideoFrame udostępnia następujące elementy:
 
 ## Właściwości
 
-| Właściwość | Opis |
+| Property | Description |
 | :- | :- |
-| [`rewind_video`](/slides/python-net/pl/aspose.slides/ivideoframe/rewind_video/) | Określa, czy wideo jest automatycznie przewijane do początku<br/>            zaraz po zakończeniu odtwarzania filmu.<br/>            Odczyt/zapis **bool**. |
-| [`play_loop_mode`](/slides/python-net/pl/aspose.slides/ivideoframe/play_loop_mode/) | Określa, czy wideo jest odtwarzane w pętli.<br/>            Odczyt/zapis **bool**. |
-| [`hide_at_showing`](/slides/python-net/pl/aspose.slides/ivideoframe/hide_at_showing/) | Określa, czy VideoFrame jest ukryty.<br/>            Odczyt/zapis **bool**. |
-| [`volume`](/slides/python-net/pl/aspose.slides/ivideoframe/volume/) | Zwraca lub ustawia poziom głośności audio.<br/>            Odczyt/zapis [`AudioVolumeMode`](/slides/python-net/pl/aspose.slides/audiovolumemode). |
-| [`play_mode`](/slides/python-net/pl/aspose.slides/ivideoframe/play_mode/) | Zwraca lub ustawia tryb odtwarzania wideo.<br/>            Odczyt/zapis [`VideoPlayModePreset`](/slides/python-net/pl/aspose.slides/videoplaymodepreset). |
-| [`full_screen_mode`](/slides/python-net/pl/aspose.slides/ivideoframe/full_screen_mode/) | Określa, czy wideo jest wyświetlane w trybie pełnoekranowym.<br/>            Odczyt/zapis **bool**. |
-| [`link_path_long`](/slides/python-net/pl/aspose.slides/ivideoframe/link_path_long/) | Zwraca lub ustawia nazwę pliku wideo połączonego z VideoFrame.<br/>            Odczyt/zapis **str**. |
-| [`embedded_video`](/slides/python-net/pl/aspose.slides/ivideoframe/embedded_video/) | Zwraca lub ustawia osadzony obiekt wideo.<br/>            Odczyt/zapis [`IVideo`](/slides/python-net/pl/aspose.slides/ivideo). |
-| [`trim_from_start`](/slides/python-net/pl/aspose.slides/ivideoframe/trim_from_start/) | Przytnij początek [ms] |
-| [`trim_from_end`](/slides/python-net/pl/aspose.slides/ivideoframe/trim_from_end/) | Przytnij koniec [ms] |
-| [`caption_tracks`](/slides/python-net/pl/aspose.slides/ivideoframe/caption_tracks/) | Pobiera kolekcję napisów zamkniętych powiązanych z ramką audio.<br/>             Ta właściwość jest tylko do odczytu i zwraca [`ICaptionsCollection`](/slides/python-net/pl/aspose.slides/icaptionscollection) zawierający wszystkie ścieżki napisów. |
+| [`rewind_video`](/slides/python-net/pl/aspose.slides/ivideoframe/rewind_video/) | Określa, czy wideo jest automatycznie przewijane do początku, gdy tylko film zakończy odtwarzanie.<br/>            Read/write **bool**. |
+| [`play_loop_mode`](/slides/python-net/pl/aspose.slides/ivideoframe/play_loop_mode/) | Określa, czy wideo jest odtwarzane w pętli.<br/>            Read/write **bool**. |
+| [`hide_at_showing`](/slides/python-net/pl/aspose.slides/ivideoframe/hide_at_showing/) | Określa, czy VideoFrame jest ukryty.<br/>            Read/write **bool**. |
+| [`volume`](/slides/python-net/pl/aspose.slides/ivideoframe/volume/) | Zwraca lub ustawia głośność dźwięku.<br/>            Read/write [`AudioVolumeMode`](/slides/python-net/pl/aspose.slides/audiovolumemode). |
+| [`volume_value`](/slides/python-net/pl/aspose.slides/ivideoframe/volume_value/) | Zwraca lub ustawia dokładną głośność wideo jako procent.<br/>             Wartość wyrażana jest jako procent od 0 do 100. Użyj tej właściwości, aby odczytać lub ustawić wartości głośności bardziej precyzyjne niż poziomy zdefiniowane w właściwości [`IVideoFrame.volume`](/slides/python-net/pl/aspose.slides/ivideoframe/volume).<br/>             Read/write **float**. |
+| [`play_mode`](/slides/python-net/pl/aspose.slides/ivideoframe/play_mode/) | Zwraca lub ustawia tryb odtwarzania wideo.<br/>            Read/write [`VideoPlayModePreset`](/slides/python-net/pl/aspose.slides/videoplaymodepreset). |
+| [`full_screen_mode`](/slides/python-net/pl/aspose.slides/ivideoframe/full_screen_mode/) | Określa, czy wideo jest wyświetlane w trybie pełnoekranowym.<br/>            Read/write **bool**. |
+| [`link_path_long`](/slides/python-net/pl/aspose.slides/ivideoframe/link_path_long/) | Zwraca lub ustawia nazwę pliku wideo powiązanego z VideoFrame.<br/>            Read/write **str**. |
+| [`embedded_video`](/slides/python-net/pl/aspose.slides/ivideoframe/embedded_video/) | Zwraca lub ustawia osadzony obiekt wideo.<br/>            Read/write [`IVideo`](/slides/python-net/pl/aspose.slides/ivideo). |
+| [`trim_from_start`](/slides/python-net/pl/aspose.slides/ivideoframe/trim_from_start/) | Trim start [ms] |
+| [`trim_from_end`](/slides/python-net/pl/aspose.slides/ivideoframe/trim_from_end/) | Trim end [ms] |
+| [`caption_tracks`](/slides/python-net/pl/aspose.slides/ivideoframe/caption_tracks/) | Pobiera kolekcję zamkniętych napisów powiązanych z ramką audio.<br/>             Ta właściwość jest tylko do odczytu i zwraca [`ICaptionsCollection`](/slides/python-net/pl/aspose.slides/icaptionscollection) zawierający wszystkie ścieżki napisów. |
 | [`shape_lock`](/slides/python-net/pl/aspose.slides/ivideoframe/shape_lock/) |  |
 | [`picture_frame_lock`](/slides/python-net/pl/aspose.slides/ivideoframe/picture_frame_lock/) |  |
 | [`picture_format`](/slides/python-net/pl/aspose.slides/ivideoframe/picture_format/) |  |
@@ -68,7 +69,7 @@ Typ IVideoFrame udostępnia następujące elementy:
 
 ## Metody
 
-| Metoda | Opis |
+| Method | Description |
 | :- | :- |
 | [`get_image(self)`](/slides/python-net/pl/aspose.slides/ivideoframe/get_image/#) |  |
 | [`get_image(self, bounds, scale_x, scale_y)`](/slides/python-net/pl/aspose.slides/ivideoframe/get_image/#shapethumbnailbounds-float-float) |  |
@@ -81,6 +82,7 @@ Typ IVideoFrame udostępnia następujące elementy:
 | [`add_placeholder(self, placeholder_to_copy_from)`](/slides/python-net/pl/aspose.slides/ivideoframe/add_placeholder/#iplaceholder) |  |
 | [`remove_placeholder(self)`](/slides/python-net/pl/aspose.slides/ivideoframe/remove_placeholder/#) |  |
 | [`get_base_placeholder(self)`](/slides/python-net/pl/aspose.slides/ivideoframe/get_base_placeholder/#) |  |
+
 
 ### Zobacz także
 * moduł [`aspose.slides`](/slides/python-net/pl/aspose.slides)

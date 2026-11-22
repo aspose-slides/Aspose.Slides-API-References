@@ -4,10 +4,10 @@ second_title: Aspose.Slides för Python via .NET API-referens
 description: 
 type: docs
 url: /sv/aspose.slides.charts/datalabel/x/
-weight: 270
+weight: 280
 ---
 ## x egenskap
-Returnerar eller anger x-koordinaten för en rubrik som en bråkdel av diagrammets bredd.
+Returnerar eller anger x-koordinaten för en titel som en bråkdel av diagrammets bredd.
             Läs/skriv **float**.
 
 ### Definition:
@@ -22,7 +22,7 @@ def x(self, value):
 ```
 
 
-### Se även
+### Se också
 * klass [`DataLabel`](/slides/python-net/sv/aspose.slides.charts/datalabel)
 * modul [`aspose.slides.charts`](/slides/python-net/sv/aspose.slides.charts)
 * bibliotek [`Aspose.Slides`](/slides/python-net)

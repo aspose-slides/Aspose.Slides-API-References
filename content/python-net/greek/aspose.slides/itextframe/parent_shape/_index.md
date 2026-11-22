@@ -1,16 +1,16 @@
 ---
 title: parent_shape property
-second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
+second_title: Aspose.Slides για Python μέσω .NET Αναφορά API
 description: 
 type: docs
 url: /el/aspose.slides/itextframe/parent_shape/
-weight: 120
+weight: 130
 ---
 ## parent_shape ιδιότητα
 Επιστρέφει το γονικό σχήμα ή None εάν το γονικό αντικείμενο δεν υλοποιεί τη διεπαφή IShape
             Μόνο για ανάγνωση [`IShape`](/slides/python-net/el/aspose.slides/ishape).
 
-### Ορισμός:
+### Ορισμό:
 ```python
 @property
 def parent_shape(self):

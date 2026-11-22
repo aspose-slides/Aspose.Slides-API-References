@@ -4,7 +4,7 @@ second_title: Aspose.Slides för Python via .NET API-referens
 description: 
 type: docs
 url: /sv/aspose.slides/textframe/parent_shape/
-weight: 120
+weight: 130
 ---
 ## parent_shape egenskap
 Returnerar den överordnade formen eller None om det överordnade objektet inte implementerar IShape-gränssnittet

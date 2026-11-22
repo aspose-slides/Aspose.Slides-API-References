@@ -1,23 +1,19 @@
 ---
 title: use_cell property
-second_title: Aspose.Slides für Python über .NET API-Referenz
+second_title: Aspose.Slides für Python via .NET API-Referenz
 description: 
 type: docs
 url: /de/aspose.slides.charts/chartcategory/use_cell/
-weight: 50
+weight: 60
 ---
 ## use_cell Eigenschaft
-If true then AsCell Eigenschaft is actual. In other words, worksheet is used for 
-            storing category (this case supports a multi-level category).
-            If false then AsLiteral Eigenschaft is actual. In other words, worksheet is NOT used 
-            for storing category (and this case doesn't support a multi-level categories).
-            Schreibgeschützt **bool**.
-
+Wenn true, dann ist die AsCell Eigenschaft aktiv. Mit anderen Worten, das Arbeitsblatt wird zum Speichern von Kategorien verwendet (dieser Fall unterstützt eine mehrstufige Kategorie).
+Wenn false, dann ist die AsLiteral Eigenschaft aktiv. Mit anderen Worten, das Arbeitsblatt wird NICHT zum Speichern von Kategorien verwendet (und dieser Fall unterstützt keine mehrstufigen Kategorien).
+Nur-Lesen **bool**.
 
 ### Hinweise
 
-Um den Wert dieser Eigenschaft (für alle Kategorien in der Sammlung) zu ändern, setzen Sie den neuen 
-            Wert auf die Eigenschaft ChartCategoryCollection.UseCells.
+Um den Wert dieser Eigenschaft zu ändern (für alle Kategorien in der Sammlung), setzen Sie den neuen Wert auf die ChartCategoryCollection.UseCells Eigenschaft.
 
 ### Definition:
 ```python
@@ -26,8 +22,7 @@ def use_cell(self):
     ...
 ```
 
-
 ### Siehe auch
 * Klasse [`ChartCategory`](/slides/python-net/de/aspose.slides.charts/chartcategory)
 * Modul [`aspose.slides.charts`](/slides/python-net/de/aspose.slides.charts)
-* Bibliothek [`Aspose.Slides`](/slides/python-net)
+* library [`Aspose.Slides`](/slides/python-net)

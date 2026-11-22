@@ -1,13 +1,13 @@
 ---
 title: value_from_cell property
-second_title: Aspose.Slides для Python через .NET справочник API
+second_title: Справочник API Aspose.Slides for Python через .NET
 description: 
 type: docs
 url: /ru/aspose.slides.charts/idatalabel/value_from_cell/
-weight: 240
+weight: 250
 ---
 ## value_from_cell свойство
-Получает или задает ячейку данных рабочей книги. Применяется, если свойство IDataLabelFormat.ShowLabelValueFromCell равно true.
+Получает или задает ячейку данных рабочей книги. Применяется, если IDataLabelFormat.ShowLabelValueFromCell свойство равно true.
 
 ### Определение:
 ```python

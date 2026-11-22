@@ -1,14 +1,14 @@
 ---
 title: marker property
-second_title: Aspose.Slides voor Python via .NET API Referentie
+second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides.charts/ichartdatapoint/marker/
-weight: 180
+weight: 220
 ---
-## markering eigenschap
-Specificeert een gegevensmarkering.
-            Alleen-lezen [`IMarker`](/slides/python-net/nl/aspose.slides.charts/imarker).
+## marker eigenschap
+Specificeert een datamarker.
+Alleen-lezen [`IMarker`](/slides/python-net/nl/aspose.slides.charts/imarker).
 
 ### Definitie:
 ```python

@@ -1,14 +1,14 @@
 ---
 title: bubble_size property
-second_title: Aspose.Slides для Python через .NET API Reference
+second_title: Aspose.Slides для Python через .NET справочник API
 description: 
 type: docs
 url: /ru/aspose.slides.charts/ichartdatapoint/bubble_size/
 weight: 80
 ---
 ## bubble_size свойство
-Возвращает размер пузыря точки данных диаграммы.
-            Только для чтения [`IDoubleChartValue`](/slides/python-net/ru/aspose.slides.charts/idoublechartvalue).
+Получает размер пузыря точки данных диаграммы.
+Только для чтения [`IDoubleChartValue`](/slides/python-net/ru/aspose.slides.charts/idoublechartvalue).
 
 ### Определение:
 ```python

@@ -1,10 +1,10 @@
 ---
 title: videos property
-second_title: Aspose.Slides pro Python prostřednictvím .NET API Reference
+second_title: Aspose.Slides pro Python přes .NET API Reference
 description: 
 type: docs
 url: /cs/aspose.slides/presentation/videos/
-weight: 400
+weight: 410
 ---
 ## videos vlastnost
 Vrací kolekci všech vložených video souborů v prezentaci.

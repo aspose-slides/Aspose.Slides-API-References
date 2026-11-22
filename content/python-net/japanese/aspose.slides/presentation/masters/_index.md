@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides/presentation/masters/
-weight: 290
+weight: 300
 ---
 ## masters プロパティ
 プレゼンテーションで定義されているすべてのマスタースライドのリストを返します。

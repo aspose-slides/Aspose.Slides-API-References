@@ -1,12 +1,12 @@
 ---
 title: y property
-second_title: Aspose.Slides για Python μέσω .NET Αναφορά API
+second_title: Αναφορά API Aspose.Slides για Python μέσω .NET
 description: 
 type: docs
 url: /el/aspose.slides.charts/datalabel/y/
-weight: 280
+weight: 290
 ---
-## ιδιότητα y
+## y ιδιότητα
 Επιστρέφει ή ορίζει τη συντεταγμένη y ενός τίτλου ως κλάσμα του ύψους του διαγράμματος.
             Ανάγνωση/εγγραφή **float**.
 

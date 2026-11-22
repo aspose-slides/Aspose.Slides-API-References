@@ -4,11 +4,11 @@ second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
 description: 
 type: docs
 url: /el/aspose.slides/itextframe/paragraphs/
-weight: 100
+weight: 110
 ---
 ## paragraphs ιδιότητα
-Επιστρέφει τη λίστα όλων των παραγράφων σε ένα πλαίσιο.
-            Μόνο για ανάγνωση [`IParagraphCollection`](/slides/python-net/el/aspose.slides/iparagraphcollection).
+Επιστρέφει τη λίστα με όλα τα paragraphs σε ένα πλαίσιο.
+            Μόνο ανάγνωση [`IParagraphCollection`](/slides/python-net/el/aspose.slides/iparagraphcollection).
 
 ### Ορισμός:
 ```python

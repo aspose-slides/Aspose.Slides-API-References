@@ -5,7 +5,7 @@ description:
 type: docs
 url: /tr/aspose.slides/fontsmanager/
 ---
-## FontsManager sınıf
+## FontsManager sınıfı
 
 Sunum boyunca fontları yönetir.
 
@@ -15,8 +15,9 @@ FontsManager türü aşağıdaki üyeleri sunar:
 
 | Özellik | Açıklama |
 | :- | :- |
-| [`font_subst_rule_list`](/slides/python-net/tr/aspose.slides/fontsmanager/font_subst_rule_list/) | Render sırasında kullanılacak font ikameleri.<br/>            Okuma/yazma [`IFontSubstRuleCollection`](/slides/python-net/tr/aspose.slides/ifontsubstrulecollection). |
-| [`font_fall_back_rules_collection`](/slides/python-net/tr/aspose.slides/fontsmanager/font_fall_back_rules_collection/) | Kullanıcının, fontların uygun ikameleri için geri dönüş (fallback) işlevselliğiyle yönetilmesi amacıyla FontFallBack kurallarının bir koleksiyonunu temsil eder<br/>            Okuma/yazma [`IFontFallBackRulesCollection`](/slides/python-net/tr/aspose.slides/ifontfallbackrulescollection). |
+| [`font_subst_rule_list`](/slides/python-net/tr/aspose.slides/fontsmanager/font_subst_rule_list/) | Render ederken kullanılacak font ikameleri.<br/>            Okuma/Yazma [`IFontSubstRuleCollection`](/slides/python-net/tr/aspose.slides/ifontsubstrulecollection). |
+| [`font_fall_back_rules_collection`](/slides/python-net/tr/aspose.slides/fontsmanager/font_fall_back_rules_collection/) | Kullanıcının font koleksiyonlarını uygun ikameler için yöneten FontFallBack kurallarının koleksiyonunu temsil eder<br/>            Okuma/Yazma [`IFontFallBackRulesCollection`](/slides/python-net/tr/aspose.slides/ifontfallbackrulescollection). |
+| [`prefer_registered_fonts_over_embedded`](/slides/python-net/tr/aspose.slides/fontsmanager/prefer_registered_fonts_over_embedded/) | Aynı font adı ve stiline sahip gömülü fontlara göre kayıtlı fontların tercih edilip edilmeyeceğini belirtir.<br/>            Etkinleştirildiğinde, eşleşen gömülü fontlar dışa aktarım sırasında geçici olarak ilgili kayıtlı fontlarla değiştirilir. |
 
 ## Yöntemler
 
@@ -24,11 +25,11 @@ FontsManager türü aşağıdaki üyeleri sunar:
 | :- | :- |
 | [`get_substitutions(self)`](/slides/python-net/tr/aspose.slides/fontsmanager/get_substitutions/#) | Sunumun render edilmesi sırasında değiştirilecek fontlar hakkında bilgi alır. |
 | [`get_substitutions(self, slides)`](/slides/python-net/tr/aspose.slides/fontsmanager/get_substitutions/#listint) | Belirtilen slaytların render edilmesi sırasında değiştirilecek fontlar hakkında bilgi alır. |
-| [`add_embedded_font(self, font_data, embed_font_rule)`](/slides/python-net/tr/aspose.slides/fontsmanager/add_embedded_font/#ifontdata-asposeslidesexportembedfontcharacters) | Embedded font ekler<br/>            Herhangi bir font kopyalarken çoğu fontun telif hakkı bulunduğunu unutmayın. Önceden bir fontun lisansını bulup, başka bir makineye özgürce aktarılabileceğini doğrulayın. Font verisi None ise veya bu font zaten gömülü ise ArgumentException fırlatılabilir |
-| [`add_embedded_font(self, font_data, embed_font_rule)`](/slides/python-net/tr/aspose.slides/fontsmanager/add_embedded_font/#bytes-asposeslidesexportembedfontcharacters) | Embedded font ekler<br/>            Herhangi bir font kopyalarken çoğu fontun telif hakkı bulunduğunu unutmayın. Önceden bir fontun lisansını bulup, başka bir makineye özgürce aktarılabileceğini doğrulayın. Font verisi None ise veya bu font zaten gömülü ise ArgumentException fırlatılabilir |
+| [`add_embedded_font(self, font_data, embed_font_rule)`](/slides/python-net/tr/aspose.slides/fontsmanager/add_embedded_font/#ifontdata-asposeslidesexportembedfontcharacters) | Gömülü font ekler<br/>            Fontları kopyalarken çoğu fontun telif hakkına sahip olduğunu unutmayın. Önceden bir fontun lisansını bulun ve başka bir makineye serbestçe aktarılabileceğini doğrulayın. Font verisi None ise veya bu font zaten gömülü ise ArgumentException alınabilir |
+| [`add_embedded_font(self, font_data, embed_font_rule)`](/slides/python-net/tr/aspose.slides/fontsmanager/add_embedded_font/#bytes-asposeslidesexportembedfontcharacters) | Gömülü font ekler<br/>            Fontları kopyalarken çoğu fontun telif hakkına sahip olduğunu unutmayın. Önceden bir fontun lisansını bulun ve başka bir makineye serbestçe aktarılabileceğini doğrulayın. Font verisi None ise veya bu font zaten gömülü ise ArgumentException alınabilir |
 | [`replace_font(self, source_font, dest_font)`](/slides/python-net/tr/aspose.slides/fontsmanager/replace_font/#ifontdata-ifontdata) | Sunumda fontu değiştir |
-| [`replace_font(self, subst_rule)`](/slides/python-net/tr/aspose.slides/fontsmanager/replace_font/#ifontsubstrule) | Sunumda fontu, [`FontSubstRule`](/slides/python-net/tr/aspose.slides/fontsubstrule) içinde sağlanan bilgiler kullanılarak değiştir |
-| [`replace_font(self, subst_rules)`](/slides/python-net/tr/aspose.slides/fontsmanager/replace_font/#ifontsubstrulecollection) | Sunumda fontu, [`FontSubstRule`](/slides/python-net/tr/aspose.slides/fontsubstrule) koleksiyonunda sağlanan bilgiler kullanılarak değiştir |
+| [`replace_font(self, subst_rule)`](/slides/python-net/tr/aspose.slides/fontsmanager/replace_font/#ifontsubstrule) | Sunumda fontu [`FontSubstRule`](/slides/python-net/tr/aspose.slides/fontsubstrule) içinde verilen bilgilerle değiştir |
+| [`replace_font(self, subst_rules)`](/slides/python-net/tr/aspose.slides/fontsmanager/replace_font/#ifontsubstrulecollection) | Sunumda fontu [`FontSubstRule`](/slides/python-net/tr/aspose.slides/fontsubstrule) koleksiyonunda sağlanan bilgilerle değiştir |
 | [`get_fonts(self)`](/slides/python-net/tr/aspose.slides/fontsmanager/get_fonts/#) | Sunumda kullanılan fontları döndürür |
 | [`get_embedded_fonts(self)`](/slides/python-net/tr/aspose.slides/fontsmanager/get_embedded_fonts/#) | Sunumda gömülü fontları döndürür |
 | [`remove_embedded_font(self, font_data)`](/slides/python-net/tr/aspose.slides/fontsmanager/remove_embedded_font/#ifontdata) | Gömülü fontu kaldırır |

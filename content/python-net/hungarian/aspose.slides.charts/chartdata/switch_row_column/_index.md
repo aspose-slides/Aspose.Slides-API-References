@@ -1,14 +1,14 @@
 ---
 title: switch_row_column method
-second_title: Aspose.Slides for Python via .NET API Referenciája
+second_title: Aspose.Slides Pythonhoz .NET-en keresztül API referencia
 description: 
 type: docs
 url: /hu/aspose.slides.charts/chartdata/switch_row_column/
-weight: 50
+weight: 60
 ---
 ## switch_row_column(self) {#}
 Cserélje fel az adatokat a tengelyen.
-            Az X tengelyen ábrázolt adatok átkerülnek a Y tengelyre, és fordítva.
+            Az X tengelyen ábrázolt adatok az Y tengelyre kerülnek, és fordítva.
 
 
 ```python

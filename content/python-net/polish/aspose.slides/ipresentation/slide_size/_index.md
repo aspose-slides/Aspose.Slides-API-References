@@ -1,10 +1,10 @@
 ---
 title: slide_size property
-second_title: Aspose.Slides dla Pythona za pośrednictwem .NET – dokumentacja API
+second_title: Aspose.Slides dla Pythona poprzez .NET – Dokumentacja API
 description: 
 type: docs
 url: /pl/aspose.slides/ipresentation/slide_size/
-weight: 340
+weight: 350
 ---
 ## slide_size właściwość
 Zwraca obiekt rozmiaru slajdu.

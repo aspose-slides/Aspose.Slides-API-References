@@ -1,14 +1,14 @@
 ---
 title: source_format property
-second_title: Aspose.Slides για Python μέσω .NET αναφορά API
+second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
 description: 
 type: docs
 url: /el/aspose.slides/ipresentation/source_format/
-weight: 360
+weight: 370
 ---
 ## source_format ιδιότητα
-Επιστρέφει πληροφορίες σχετικά με τη μορφή από την οποία φορτώθηκε η παρουσίαση.
-            Μόνο για ανάγνωση [`IPresentation.source_format`](/slides/python-net/el/aspose.slides/ipresentation/source_format).
+Επιστρέφει πληροφορίες σχετικά με το από ποια μορφή φορτώθηκε η παρουσίαση.
+            Μόνο ανάγνωση [`IPresentation.source_format`](/slides/python-net/el/aspose.slides/ipresentation/source_format).
 
 ### Ορισμός:
 ```python

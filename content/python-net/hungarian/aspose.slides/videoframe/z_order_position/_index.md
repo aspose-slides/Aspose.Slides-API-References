@@ -1,15 +1,15 @@
 ---
 title: z_order_position property
-second_title: Aspose.Slides Pythonhoz a .NET API Referenciája
+second_title: Aspose.Slides for Python via .NET API referencia
 description: 
 type: docs
 url: /hu/aspose.slides/videoframe/z_order_position/
-weight: 670
+weight: 680
 ---
 ## z_order_position tulajdonság
-Returns the position of a shape in the z-order.
-            Shapes[0] visszaadja az alakzatot a z-sorrend hátulján,
-            and Shapes[Shapes.Count - 1] visszaadja az alakzatot a z-sorrend elején.
+Visszaadja egy alakzat helyzetét a z-rendben.
+            Shapes[0] visszaadja a z-rend hátulján lévő alakzatot,
+            és Shapes[Shapes.Count - 1] visszaadja a z-rend elején lévő alakzatot.
             Csak olvasható **int**.
 
 ### Definíció:

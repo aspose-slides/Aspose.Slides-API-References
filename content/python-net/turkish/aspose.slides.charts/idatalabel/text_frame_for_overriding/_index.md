@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides.charts/idatalabel/text_frame_for_overriding/
-weight: 230
+weight: 240
 ---
 ## text_frame_for_overriding özelliği
 ### Tanım:
@@ -15,7 +15,7 @@ def text_frame_for_overriding(self):
 ```
 
 
-### Diğerlerine Bak
+### İlgili
 * sınıf [`IDataLabel`](/slides/python-net/tr/aspose.slides.charts/idatalabel)
 * modül [`aspose.slides.charts`](/slides/python-net/tr/aspose.slides.charts)
 * kütüphane [`Aspose.Slides`](/slides/python-net)

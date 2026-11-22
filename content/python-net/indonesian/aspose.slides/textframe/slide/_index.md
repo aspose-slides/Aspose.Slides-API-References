@@ -1,13 +1,13 @@
 ---
 title: slide property
-second_title: Referensi API Aspose.Slides untuk Python via .NET
+second_title: Aspose.Slides untuk Python melalui .NET Referensi API
 description: 
 type: docs
 url: /id/aspose.slides/textframe/slide/
-weight: 140
+weight: 150
 ---
 ## properti slide
-Mengembalikan slide induk dari TextFrame.
+Returns the parent slide of a TextFrame.
             Hanya-baca [`IBaseSlide`](/slides/python-net/id/aspose.slides/ibaseslide).
 
 ### Definisi:
@@ -22,4 +22,4 @@ def slide(self):
 * kelas [`IBaseSlide`](/slides/python-net/id/aspose.slides/ibaseslide)
 * kelas [`TextFrame`](/slides/python-net/id/aspose.slides/textframe)
 * modul [`aspose.slides`](/slides/python-net/id/aspose.slides)
-* pustaka [`Aspose.Slides`](/slides/python-net)
+* perpustakaan [`Aspose.Slides`](/slides/python-net)

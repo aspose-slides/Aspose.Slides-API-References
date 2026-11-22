@@ -1,13 +1,13 @@
 ---
 title: leader_lines_format property
-second_title: Aspose.Slides a Pythonhoz .NET API-referencia
+second_title: Aspose.Slides a Pythonhoz .NET API referencia
 description: 
 type: docs
 url: /hu/aspose.slides.charts/idatalabelcollection/leader_lines_format/
-weight: 130
+weight: 140
 ---
 ## leader_lines_format tulajdonság
-Ábrázolja az adatcímkék vezetővonalak formátumát.
+Ábrázolja az adatcímkék vezetővonalainak formátumát.
              Csak olvasható [`IChartLinesFormat`](/slides/python-net/hu/aspose.slides.charts/ichartlinesformat).
 
 ### Definíció:

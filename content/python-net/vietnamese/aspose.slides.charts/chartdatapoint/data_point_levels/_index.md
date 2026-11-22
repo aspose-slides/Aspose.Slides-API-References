@@ -1,14 +1,14 @@
 ---
 title: data_point_levels property
-second_title: Tham chiếu API Aspose.Slides cho Python qua .NET
+second_title: Aspose.Slides cho Python qua .NET Tham khảo API
 description: 
 type: docs
 url: /vi/aspose.slides.charts/chartdatapoint/data_point_levels/
-weight: 100
+weight: 140
 ---
 ## data_point_levels thuộc tính
-Trả về bộ chứa của  các mức điểm dữ liệu. Áp dụng cho các series Treeamp và Sunburst.
-            Chỉ mục các mức điểm dữ liệu bắt đầu từ không.
+Trả về container của các mức điểm dữ liệu. Áp dụng cho Treeamp và Sunburst series.
+            Chỉ mục các mức điểm dữ liệu được đánh chỉ số bắt đầu từ zero.
 
 ### Định nghĩa:
 ```python
@@ -18,7 +18,7 @@ def data_point_levels(self):
 ```
 
 
-### Xem thêm
+### Xem Thêm
 * lớp [`ChartDataPoint`](/slides/python-net/vi/aspose.slides.charts/chartdatapoint)
-* module [`aspose.slides.charts`](/slides/python-net/vi/aspose.slides.charts)
+* mô-đun [`aspose.slides.charts`](/slides/python-net/vi/aspose.slides.charts)
 * thư viện [`Aspose.Slides`](/slides/python-net)

@@ -4,10 +4,10 @@ second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides/textframe/parent_shape/
-weight: 120
+weight: 130
 ---
 ## parent_shape eigenschap
-Retourneert de bovenliggende shape of None als het bovenliggende object de IShape interface niet implementeert
+Retourneert de bovenliggende shape of None als het bovenliggende object de IShape-interface niet implementeert
             Alleen-lezen [`IShape`](/slides/python-net/nl/aspose.slides/ishape).
 
 ### Definitie:
@@ -22,4 +22,4 @@ def parent_shape(self):
 * klasse [`IShape`](/slides/python-net/nl/aspose.slides/ishape)
 * klasse [`TextFrame`](/slides/python-net/nl/aspose.slides/textframe)
 * module [`aspose.slides`](/slides/python-net/nl/aspose.slides)
-* bibliotheek [`Aspose.Slides`](/slides/python-net)
+* library [`Aspose.Slides`](/slides/python-net)

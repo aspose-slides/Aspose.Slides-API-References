@@ -9,16 +9,16 @@ url: /id/aspose.slides.animation/iscaleeffect/
 
 Mewakili efek skala animasi.
 
-Tipe IScaleEffect mengekspose anggota berikut:
+Tipe IScaleEffect menyajikan anggota-anggota berikut:
 
 ## Properti
 
 | Properti | Deskripsi |
 | :- | :- |
 | [`zoom_content`](/slides/python-net/id/aspose.slides.animation/iscaleeffect/zoom_content/) | Menentukan apakah konten harus diperbesar.<br/>            Baca/tulis [`NullableBool`](/slides/python-net/id/aspose.slides/nullablebool). |
-| [`from_address`](/slides/python-net/id/aspose.slides.animation/iscaleeffect/from_address/) | Menentukan koordinat x/y untuk memulai animasi (dalam persen).<br/>            Baca/tulis [`PointF`](/slides/python-net/id/aspose.slides/pointf). |
+| [`from_`](/slides/python-net/id/aspose.slides.animation/iscaleeffect/from_/) | Menentukan koordinat x/y untuk memulai animasi (dalam persen).<br/>            Baca/tulis [`PointF`](/slides/python-net/id/aspose.slides/pointf). |
 | [`to`](/slides/python-net/id/aspose.slides.animation/iscaleeffect/to/) | Menentukan lokasi target untuk efek skala animasi (dalam persen).<br/>            Baca/tulis [`PointF`](/slides/python-net/id/aspose.slides/pointf). |
-| [`by`](/slides/python-net/id/aspose.slides.animation/iscaleeffect/by/) | menjelaskan nilai offset relatif untuk animasi (dalam persen).<br/>            Baca/tulis [`PointF`](/slides/python-net/id/aspose.slides/pointf). |
+| [`by`](/slides/python-net/id/aspose.slides.animation/iscaleeffect/by/) | menggambarkan nilai offset relatif untuk animasi (dalam persen).<br/>            Baca/tulis [`PointF`](/slides/python-net/id/aspose.slides/pointf). |
 | [`accumulate`](/slides/python-net/id/aspose.slides.animation/iscaleeffect/accumulate/) |  |
 | [`additive`](/slides/python-net/id/aspose.slides.animation/iscaleeffect/additive/) |  |
 | [`properties`](/slides/python-net/id/aspose.slides.animation/iscaleeffect/properties/) |  |

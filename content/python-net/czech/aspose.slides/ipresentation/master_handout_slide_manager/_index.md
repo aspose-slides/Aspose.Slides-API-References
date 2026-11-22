@@ -1,14 +1,14 @@
 ---
 title: master_handout_slide_manager property
-second_title: Aspose.Slides pro Python přes .NET API Reference
+second_title: Aspose.Slides pro Python pomocí .NET API Reference
 description: 
 type: docs
 url: /cs/aspose.slides/ipresentation/master_handout_slide_manager/
-weight: 250
+weight: 260
 ---
 ## master_handout_slide_manager vlastnost
-Vrací správce hlavního podkladu.
-            Jen pro čtení [`IMasterHandoutSlideManager`](/slides/python-net/cs/aspose.slides/imasterhandoutslidemanager).
+Returns handout master manager.
+            Pouze ke čtení [`IMasterHandoutSlideManager`](/slides/python-net/cs/aspose.slides/imasterhandoutslidemanager).
 
 ### Definice:
 ```python

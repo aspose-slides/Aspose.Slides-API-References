@@ -1,14 +1,14 @@
 ---
 title: width property
-second_title: Tham chiếu API Aspose.Slides cho Python thông qua .NET
+second_title: Aspose.Slides cho Python qua .NET Tham chiếu API
 description: 
 type: docs
 url: /vi/aspose.slides.charts/datalabel/width/
-weight: 260
+weight: 270
 ---
-## thuộc tính width
-Trả về hoặc đặt chiều rộng của tiêu đề dưới dạng tỷ lệ của chiều rộng của biểu đồ.
-            Đọc/ghi **float**.
+## width thuộc tính
+Trả về hoặc đặt width của tiêu đề dưới dạng phần tỷ lệ của width của biểu đồ.
+Đọc/ghi **float**.
 
 ### Định nghĩa:
 ```python
@@ -21,8 +21,7 @@ def width(self, value):
     ...
 ```
 
-
-### Xem thêm
+### Xem Thêm
 * lớp [`DataLabel`](/slides/python-net/vi/aspose.slides.charts/datalabel)
-* mô-đun [`aspose.slides.charts`](/slides/python-net/vi/aspose.slides.charts)
+* module [`aspose.slides.charts`](/slides/python-net/vi/aspose.slides.charts)
 * thư viện [`Aspose.Slides`](/slides/python-net)

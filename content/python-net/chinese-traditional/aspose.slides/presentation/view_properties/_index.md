@@ -1,16 +1,16 @@
 ---
 title: view_properties property
-second_title: Aspose.Slides for Python via .NET API 參考文件
+second_title: Aspose.Slides 用於 Python 的 .NET API 參考
 description: 
 type: docs
 url: /zh-hant/aspose.slides/presentation/view_properties/
-weight: 410
+weight: 420
 ---
 ## view_properties 屬性
-取得整個簡報的檢視屬性。
+取得簡報範圍的檢視屬性。
             唯讀 [`IViewProperties`](/slides/python-net/zh-hant/aspose.slides/iviewproperties).
 
-### 定義：
+### 定義:
 ```python
 @property
 def view_properties(self):

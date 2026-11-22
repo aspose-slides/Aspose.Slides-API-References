@@ -4,9 +4,9 @@ second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides.charts/chartdatapoint/format/
-weight: 130
+weight: 170
 ---
-## formateigenschap
+## format eigenschap
 Geeft de opmaak-eigenschappen weer.
             Lezen/Schrijven [`IFormat`](/slides/python-net/nl/aspose.slides.charts/iformat).
 

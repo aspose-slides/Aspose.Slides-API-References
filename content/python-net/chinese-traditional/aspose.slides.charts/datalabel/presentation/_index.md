@@ -4,10 +4,10 @@ second_title: Aspose.Slides for Python via .NET API 參考文件
 description: 
 type: docs
 url: /zh-hant/aspose.slides.charts/datalabel/presentation/
-weight: 200
+weight: 210
 ---
-## presentation 屬性
-### 定義:
+## 簡報屬性
+### 定義：
 ```python
 @property
 def presentation(self):

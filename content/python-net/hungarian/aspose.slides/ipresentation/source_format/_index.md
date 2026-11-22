@@ -1,13 +1,13 @@
 ---
 title: source_format property
-second_title: Aspose.Slides Python számára .NET-en keresztül API-referencia
+second_title: Aspose.Slides for Python via .NET API Referenciája
 description: 
 type: docs
 url: /hu/aspose.slides/ipresentation/source_format/
-weight: 360
+weight: 370
 ---
 ## source_format tulajdonság
-Visszaad információt arról, hogy melyik formátumból lett betöltve a prezentáció.
+Információt ad vissza arról, hogy melyik formátumból lett betöltve a bemutató.
             Csak olvasható [`IPresentation.source_format`](/slides/python-net/hu/aspose.slides/ipresentation/source_format).
 
 ### Definíció:

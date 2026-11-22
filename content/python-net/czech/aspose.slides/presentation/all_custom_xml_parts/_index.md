@@ -4,7 +4,7 @@ second_title: Aspose.Slides pro Python prostřednictvím .NET API Reference
 description: 
 type: docs
 url: /cs/aspose.slides/presentation/all_custom_xml_parts/
-weight: 100
+weight: 110
 ---
 ## all_custom_xml_parts vlastnost
 Vrací všechny vlastní datové části v prezentaci.

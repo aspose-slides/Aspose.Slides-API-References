@@ -1,14 +1,14 @@
 ---
 title: images property
-second_title: مرجع API لـ Aspose.Slides للغة Python عبر .NET
+second_title: Aspose.Slides للغة Python عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides/presentation/images/
-weight: 240
+weight: 250
 ---
 ## images خاصية
-يعيد مجموعة جميع images في العرض التقديمي.
-للقراءة فقط [`IImageCollection`](/slides/python-net/ar/aspose.slides/iimagecollection).
+يعيد مجموعة كل الصور في العرض التقديمي.
+            للقراءة فقط [`IImageCollection`](/slides/python-net/ar/aspose.slides/iimagecollection).
 
 ### التعريف:
 ```python
@@ -16,6 +16,7 @@ weight: 240
 def images(self):
     ...
 ```
+
 
 ### انظر أيضًا
 * فئة [`IImageCollection`](/slides/python-net/ar/aspose.slides/iimagecollection)

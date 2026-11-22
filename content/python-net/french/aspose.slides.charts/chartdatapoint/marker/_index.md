@@ -1,10 +1,10 @@
 ---
 title: marker property
-second_title: Référence de l'API Aspose.Slides pour Python via .NET
+second_title: Aspose.Slides pour Python via .NET - Référence de l'API
 description: 
 type: docs
 url: /fr/aspose.slides.charts/chartdatapoint/marker/
-weight: 180
+weight: 220
 ---
 ## propriété du marqueur
 Spécifie un marqueur de données.

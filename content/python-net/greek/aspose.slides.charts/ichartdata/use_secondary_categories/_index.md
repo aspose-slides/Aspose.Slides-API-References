@@ -4,12 +4,14 @@ second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
 description: 
 type: docs
 url: /el/aspose.slides.charts/ichartdata/use_secondary_categories/
-weight: 150
+weight: 160
 ---
 ## use_secondary_categories ιδιότητα
-Αν είναι false τότε η ιδιότητα [`IChartData.secondary_categories`](/slides/python-net/el/aspose.slides.charts/ichartdata/secondary_categories) επιστρέφει None και τα δεδομένα στην ιδιότητα [`IChartData.categories`](/slides/python-net/el/aspose.slides.charts/ichartdata/categories) χρησιμοποιούνται τόσο για τις πρωτεύουσες όσο και για τις δευτερεύουσες σειρές. 
-Αν είναι true τότε τα δεδομένα στην ιδιότητα [`IChartData.secondary_categories`](/slides/python-net/el/aspose.slides.charts/ichartdata/secondary_categories) χρησιμοποιούνται για τις δευτερεύουσες σειρές και τα δεδομένα στην ιδιότητα [`IChartData.categories`](/slides/python-net/el/aspose.slides.charts/ichartdata/categories) χρησιμοποιούνται για τις πρωτεύουσες σειρές. 
-Ανάγνωση/εγγραφή **bool**.
+Αν είναι ψευδές τότε [`IChartData.secondary_categories`](/slides/python-net/el/aspose.slides.charts/ichartdata/secondary_categories) ιδιότητα επιστρέφει None και τα δεδομένα 
+            στην [`IChartData.categories`](/slides/python-net/el/aspose.slides.charts/ichartdata/categories) ιδιότητα χρησιμοποιείται και για τις πρωτεύουσες και τις δευτερεύουσες σειρές.
+            Αν είναι αληθές τότε τα δεδομένα στην [`IChartData.secondary_categories`](/slides/python-net/el/aspose.slides.charts/ichartdata/secondary_categories) ιδιότητα χρησιμοποιούνται για τη δευτερεύουσα σειρά και τα δεδομένα 
+            στην [`IChartData.categories`](/slides/python-net/el/aspose.slides.charts/ichartdata/categories) ιδιότητα χρησιμοποιούνται για την πρωτεύουσα σειρά.
+            Ανάγνωση/εγγραφή **bool**.
 
 ### Ορισμός:
 ```python
@@ -26,4 +28,4 @@ def use_secondary_categories(self, value):
 ### Δείτε επίσης
 * κλάση [`IChartData`](/slides/python-net/el/aspose.slides.charts/ichartdata)
 * μονάδα [`aspose.slides.charts`](/slides/python-net/el/aspose.slides.charts)
-* library [`Aspose.Slides`](/slides/python-net)
+* βιβλιοθήκη [`Aspose.Slides`](/slides/python-net)

@@ -1,13 +1,13 @@
 ---
 title: data_source_type property
-second_title: Aspose.Slides Python के लिए .NET API के माध्यम से संदर्भ
+second_title: Aspose.Slides Python के लिये .NET के माध्यम से API Reference
 description: 
 type: docs
 url: /hi/aspose.slides.charts/chartdata/data_source_type/
-weight: 90
+weight: 100
 ---
 ## data_source_type प्रॉपर्टी
-यदि बाहरी डेटा स्रोत हो तो बाहरी वर्कबुक पथ का प्रतिनिधित्व करता है, अन्यथा None
+यदि बाहरी डेटा स्रोत है तो बाहरी वर्कबुक पथ का प्रतिनिधित्व करता है, अन्यथा None
 
 ### परिभाषा:
 ```python
@@ -16,7 +16,8 @@ def data_source_type(self):
     ...
 ```
 
-### और देखें
+
+### संबंधित देखें
 * क्लास [`ChartData`](/slides/python-net/hi/aspose.slides.charts/chartdata)
 * मॉड्यूल [`aspose.slides.charts`](/slides/python-net/hi/aspose.slides.charts)
 * लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

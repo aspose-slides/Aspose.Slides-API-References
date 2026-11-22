@@ -4,7 +4,7 @@ second_title: Référence de l'API Aspose.Slides pour Python via .NET
 description: 
 type: docs
 url: /fr/aspose.slides/ipresentation/replace_regex/
-weight: 60
+weight: 70
 ---
 ## replace_regex(self, regex, new_text) {#str-str}
 Remplace toutes les correspondances de l'expression régulière par la chaîne spécifiée.

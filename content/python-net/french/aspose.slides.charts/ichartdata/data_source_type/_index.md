@@ -1,10 +1,10 @@
 ---
 title: data_source_type property
-second_title: Aspose.Slides pour Python via .NET Référence d'API
+second_title: Référence de l'API Aspose.Slides pour Python via .NET
 description: 
 type: docs
 url: /fr/aspose.slides.charts/ichartdata/data_source_type/
-weight: 90
+weight: 100
 ---
 ## data_source_type propriété
 Représente la source de données du graphique

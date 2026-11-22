@@ -4,10 +4,10 @@ second_title: Aspose.Slides for Python via .NET API 参考
 description: 
 type: docs
 url: /zh/aspose.slides.charts/ichartdatapoint/value/
-weight: 220
+weight: 260
 ---
 ## value 属性
-返回图表数据点的值。
+获取图表数据点的 value。
             只读 [`IDoubleChartValue`](/slides/python-net/zh/aspose.slides.charts/idoublechartvalue).
 
 ### 定义:

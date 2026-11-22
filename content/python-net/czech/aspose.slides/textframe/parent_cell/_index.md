@@ -1,14 +1,14 @@
 ---
 title: parent_cell property
-second_title: Aspose.Slides pro Python přes .NET referenci API
+second_title: Aspose.Slides pro Python prostřednictvím .NET API Reference
 description: 
 type: docs
 url: /cs/aspose.slides/textframe/parent_cell/
-weight: 110
+weight: 120
 ---
 ## parent_cell vlastnost
-Vrací nadřazenou buňku nebo None, pokud nadřazený objekt neimplementuje rozhraní ICell.
-            Pouze pro čtení [`ICell`](/slides/python-net/cs/aspose.slides/icell).
+Vrací rodičovskou buňku nebo None, pokud rodičovský objekt neimplementuje rozhraní ICell.
+            Pouze ke čtení [`ICell`](/slides/python-net/cs/aspose.slides/icell).
 
 ### Definice:
 ```python

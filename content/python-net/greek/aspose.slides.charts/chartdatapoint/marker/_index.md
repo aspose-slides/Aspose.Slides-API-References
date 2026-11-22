@@ -4,7 +4,7 @@ second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
 description: 
 type: docs
 url: /el/aspose.slides.charts/chartdatapoint/marker/
-weight: 180
+weight: 220
 ---
 ## ιδιότητα δείκτη
 Καθορίζει έναν δείκτη δεδομένων.
@@ -19,7 +19,7 @@ def marker(self):
 
 
 ### Δείτε επίσης
-* κατηγορία [`ChartDataPoint`](/slides/python-net/el/aspose.slides.charts/chartdatapoint)
-* κατηγορία [`IMarker`](/slides/python-net/el/aspose.slides.charts/imarker)
+* κλάση [`ChartDataPoint`](/slides/python-net/el/aspose.slides.charts/chartdatapoint)
+* κλάση [`IMarker`](/slides/python-net/el/aspose.slides.charts/imarker)
 * μονάδα [`aspose.slides.charts`](/slides/python-net/el/aspose.slides.charts)
 * βιβλιοθήκη [`Aspose.Slides`](/slides/python-net)

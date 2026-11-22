@@ -4,10 +4,10 @@ second_title: Aspose.Slides for Python via .NET API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides.charts/ichartdata/set_external_workbook/
-weight: 30
+weight: 40
 ---
 ## set_external_workbook(self, workbook_path) {#str}
-チャートのデータ ソースとして外部ブックを設定します。チャート データは対象ブックから更新されます。
+外部ブックをチャートのデータ ソースとして設定します。チャート データは対象のブックから更新されます。
 
 
 ```python
@@ -24,11 +24,11 @@ def set_external_workbook(self, workbook_path):
 
 | 例外 | 説明 |
 | :- | :- |
-| **RuntimeError(Proxy error(InvalidOperationException))** | 外部ブックが利用できないか、読み込めません。 |
+| **RuntimeError(Proxy error(InvalidOperationException))** | 外部ブックが利用できないか、ロードできません。 |
 
 
 ## set_external_workbook(self, workbook_path, update_chart_data) {#str-bool}
-チャートのデータ ソースとして外部ブックを設定します。
+外部ブックをチャートのデータ ソースとして設定します。
 
 
 ```python
@@ -40,13 +40,13 @@ def set_external_workbook(self, workbook_path, update_chart_data):
 | パラメータ | 型 | 説明 |
 | :- | :- | :- |
 | workbook_path | **str** | 対象ブックへのパス |
-| update_chart_data | **bool** | 値が false の場合、ブック パスのみが更新されます。<br/><br/>チャート データは対象ブックから読み込まれず、更新されません。対象ブックが存在しない場合や利用できない場合に使用できます。<br/><br/>値が true の場合、チャート データは対象ブックから更新されます。 |
+| update_chart_data | **bool** | false の場合、ブック パスのみが更新されます。<br/><br/>             チャート データは対象のブックから読み込まれず、更新されません。対象のブックが存在しない、または利用できない場合に使用できます。<br/><br/>             true の場合、チャート データは対象のブックから更新されます。 |
 
 ### 例外
 
 | 例外 | 説明 |
 | :- | :- |
-| **RuntimeError(Proxy error(InvalidOperationException))** | 外部ブックが利用できないか、読み込めません。 |
+| **RuntimeError(Proxy error(InvalidOperationException))** | 外部ブックが利用できないか、ロードできません。 |
 
 
 

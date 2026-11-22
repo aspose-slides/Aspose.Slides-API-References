@@ -1,13 +1,13 @@
 ---
 title: source_format property
-second_title: Aspose.Slides for Python via .NET API 參考說明
+second_title: Aspose.Slides for Python 透過 .NET API 參考
 description: 
 type: docs
 url: /zh-hant/aspose.slides/ipresentation/source_format/
-weight: 360
+weight: 370
 ---
 ## source_format 屬性
-傳回有關簡報載入自哪種格式的資訊。
+返回有關簡報從哪種格式載入的資訊。
             唯讀 [`IPresentation.source_format`](/slides/python-net/zh-hant/aspose.slides/ipresentation/source_format).
 
 ### 定義:

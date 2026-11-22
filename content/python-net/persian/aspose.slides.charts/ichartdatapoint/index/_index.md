@@ -4,11 +4,11 @@ second_title: Aspose.Slides برای Python از طریق .NET مرجع API
 description: 
 type: docs
 url: /fa/aspose.slides.charts/ichartdatapoint/index/
-weight: 140
+weight: 180
 ---
 ## index ویژگی
-مشخص می‌کند که این نقطه داده به کدام یک از مجموعه فرزندان والد اعمال می‌شود.
-            خواندنی **int**.
+تعیین می‌کند که این نقطه داده به کدام مجموعه فرزندان والد اعمال می‌شود.
+            خواندن **int**.
 
 ### تعریف:
 ```python
@@ -18,7 +18,7 @@ def index(self):
 ```
 
 
-### موارد مرتبط
+### همچنین ببینید
 * کلاس [`IChartDataPoint`](/slides/python-net/fa/aspose.slides.charts/ichartdatapoint)
 * ماژول [`aspose.slides.charts`](/slides/python-net/fa/aspose.slides.charts)
 * کتابخانه [`Aspose.Slides`](/slides/python-net)

@@ -1,14 +1,14 @@
 ---
 title: embedded_workbook_type property
-second_title: Aspose.Slides для Python через .NET справочник API
+second_title: Aspose.Slides для Python через .NET справка API
 description: 
 type: docs
 url: /ru/aspose.slides.charts/chartdata/embedded_workbook_type/
-weight: 100
+weight: 110
 ---
 ## embedded_workbook_type свойство
-Получает тип вложенной рабочей книги.
-            Возвращает [`WorkbookType.NOT_DEFINED`](/slides/python-net/ru/aspose.slides.charts/workbooktype/NOT_DEFINED), если [`ChartData.data_source_type`](/slides/python-net/ru/aspose.slides.charts/chartdata/data_source_type) равен 
+Получает тип встроенной рабочей книги.
+            Возвращает [`WorkbookType.NOT_DEFINED`](/slides/python-net/ru/aspose.slides.charts/workbooktype/NOT_DEFINED) если [`ChartData.data_source_type`](/slides/python-net/ru/aspose.slides.charts/chartdata/data_source_type) является 
             [`ChartDataSourceType.EXTERNAL_WORKBOOK`](/slides/python-net/ru/aspose.slides.charts/chartdatasourcetype/EXTERNAL_WORKBOOK).
             Только для чтения [`WorkbookType`](/slides/python-net/ru/aspose.slides.charts/workbooktype).
 

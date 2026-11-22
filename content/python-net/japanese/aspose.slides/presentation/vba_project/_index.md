@@ -4,10 +4,10 @@ second_title: Aspose.Slides for Python via .NET API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides/presentation/vba_project/
-weight: 390
+weight: 400
 ---
 ## vba_project プロパティ
-プレゼンテーションのマクロを含む VBA プロジェクトを取得または設定します。
+VBA project を取得または設定します。プレゼンテーションのマクロが含まれます。
             読み取り/書き込み [`IVbaProject`](/slides/python-net/ja/aspose.slides.vba/ivbaproject).
 
 ### 定義:

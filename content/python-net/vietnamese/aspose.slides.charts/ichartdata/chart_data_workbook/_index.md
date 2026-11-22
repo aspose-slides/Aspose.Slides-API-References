@@ -1,14 +1,14 @@
 ---
 title: chart_data_workbook property
-second_title: Aspose.Slides cho Python qua Tham chiếu API .NET
+second_title: Tham chiếu API Aspose.Slides cho Python qua .NET
 description: 
 type: docs
 url: /vi/aspose.slides.charts/ichartdata/chart_data_workbook/
-weight: 80
+weight: 90
 ---
 ## chart_data_workbook thuộc tính
-Lấy bộ tạo ô để tạo các ô được sử dụng cho các chuỗi hoặc danh mục biểu đồ.
-            chỉ đọc [`IChartDataWorkbook`](/slides/python-net/vi/aspose.slides.charts/ichartdataworkbook).
+Lấy nhà máy ô để tạo các ô được sử dụng cho chuỗi biểu đồ hoặc danh mục.
+            Chỉ đọc [`IChartDataWorkbook`](/slides/python-net/vi/aspose.slides.charts/ichartdataworkbook).
 
 ### Định nghĩa:
 ```python
@@ -18,7 +18,7 @@ def chart_data_workbook(self):
 ```
 
 
-### Xem thêm
+### Xem Thêm
 * lớp [`IChartData`](/slides/python-net/vi/aspose.slides.charts/ichartdata)
 * lớp [`IChartDataWorkbook`](/slides/python-net/vi/aspose.slides.charts/ichartdataworkbook)
 * mô-đun [`aspose.slides.charts`](/slides/python-net/vi/aspose.slides.charts)

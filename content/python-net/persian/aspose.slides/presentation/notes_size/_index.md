@@ -1,14 +1,14 @@
 ---
 title: notes_size property
-second_title: Aspose.Slides برای پایتون از طریق .NET مرجع API
+second_title: مرجع API Aspose.Slides برای Python از طریق .NET
 description: 
 type: docs
 url: /fa/aspose.slides/presentation/notes_size/
-weight: 300
+weight: 310
 ---
 ## notes_size ویژگی
-شیء اندازه اسلاید یادداشت‌ها را برمی‌گرداند.
-            فقط-خواندنی [`INotesSize`](/slides/python-net/fa/aspose.slides/inotessize).
+شی اندازه اسلاید یادداشت‌ها را برمی‌گرداند.
+            فقط‌خواندنی [`INotesSize`](/slides/python-net/fa/aspose.slides/inotessize).
 
 ### تعریف:
 ```python

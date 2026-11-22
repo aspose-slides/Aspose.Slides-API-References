@@ -1,13 +1,13 @@
 ---
 title: join_portions_with_same_formatting method
-second_title: Aspose.Slides for Python via .NET API リファレンス
+second_title: Aspose.Slides for Python via .NET APIリファレンス
 description: 
 type: docs
 url: /ja/aspose.slides/itextframe/join_portions_with_same_formatting/
-weight: 30
+weight: 40
 ---
 ## join_portions_with_same_formatting(self) {#}
-すべての段落で同じ書式設定のランを結合します。
+すべての段落で同じ書式のランを結合します。
 
 
 ```python

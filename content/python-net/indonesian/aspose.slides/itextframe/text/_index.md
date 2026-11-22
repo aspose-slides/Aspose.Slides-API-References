@@ -4,10 +4,10 @@ second_title: Referensi API Aspose.Slides untuk Python via .NET
 description: 
 type: docs
 url: /id/aspose.slides/itextframe/text/
-weight: 150
+weight: 160
 ---
 ## properti teks
-Mendapatkan atau mengatur teks biasa untuk TextFrame.
+Mendapatkan atau mengatur teks polos untuk TextFrame.
             Baca/tulis **str**.
 
 ### Definisi:

@@ -1,10 +1,10 @@
 ---
 title: y property
-second_title: Aspose.Slides dla Pythona za pośrednictwem .NET Referencja API
-description: 
+second_title: Aspose.Slides dla Pythona poprzez .NET – dokumentacja API
+description:
 type: docs
 url: /pl/aspose.slides.charts/idatalabel/y/
-weight: 270
+weight: 280
 ---
 ## y właściwość
 ### Definicja:

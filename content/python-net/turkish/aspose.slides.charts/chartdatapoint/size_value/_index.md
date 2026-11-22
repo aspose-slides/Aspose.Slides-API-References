@@ -1,15 +1,15 @@
 ---
 title: size_value property
-second_title: Aspose.Slides for Python via .NET API Referansı
+second_title: Aspose.Slides için Python üzerinden .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides.charts/chartdatapoint/size_value/
-weight: 210
+weight: 250
 ---
 ## size_value özelliği
 Grafik veri noktasının boyut değerini döndürür.
             Treemap ve Sunburst grafiklerinde kullanılır. 
-            Salt okunur [`IDoubleChartValue`](/slides/python-net/tr/aspose.slides.charts/idoublechartvalue).
+            Yalnızca okunabilir [`IDoubleChartValue`](/slides/python-net/tr/aspose.slides.charts/idoublechartvalue).
 
 ### Tanım:
 ```python
@@ -19,7 +19,7 @@ def size_value(self):
 ```
 
 
-### Diğer
+### İlgili
 * sınıf [`ChartDataPoint`](/slides/python-net/tr/aspose.slides.charts/chartdatapoint)
 * sınıf [`IDoubleChartValue`](/slides/python-net/tr/aspose.slides.charts/idoublechartvalue)
 * modül [`aspose.slides.charts`](/slides/python-net/tr/aspose.slides.charts)

@@ -1,18 +1,18 @@
 ---
 title: z_order_position property
-second_title: Aspose.Slides สำหรับ Python ผ่าน .NET – เอกสารอ้างอิง API
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Reference
 description: 
 type: docs
 url: /th/aspose.slides/videoframe/z_order_position/
-weight: 670
+weight: 680
 ---
-## คุณสมบัติ z_order_position
-ส่งคืนตำแหน่งของรูปร่างใน z-order.
-            Shapes[0] ส่งคืนรูปร่างที่อยู่ด้านหลังของ z-order,
-            และ Shapes[Shapes.Count - 1] ส่งคืนรูปร่างที่อยู่ด้านหน้าของ z-order.
+## z_order_position คุณสมบัติ
+คืนค่าตำแหน่งของรูปร่างใน z-order.
+            Shapes[0] คืนค่ารูปร่างที่อยู่ด้านหลังของ z-order,
+            และ Shapes[Shapes.Count - 1] คืนค่ารูปร่างที่อยู่ด้านหน้าของ z-order.
             อ่านอย่างเดียว **int**.
 
-### การกำหนดค่า:
+### คำนิยาม:
 ```python
 @property
 def z_order_position(self):

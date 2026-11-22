@@ -4,12 +4,12 @@ second_title: Referensi API Aspose.Slides untuk Python via .NET
 description: 
 type: docs
 url: /id/aspose.slides.charts/chartdatapoint/size_value/
-weight: 210
+weight: 250
 ---
 ## size_value properti
 Mengembalikan nilai ukuran dari titik data bagan.
-            Digunakan dengan bagan Treemap dan Sunburst.
-            Hanya-baca [`IDoubleChartValue`](/slides/python-net/id/aspose.slides.charts/idoublechartvalue).
+            Digunakan dengan bagan Treemap dan Sunburst. 
+            Baca-saja [`IDoubleChartValue`](/slides/python-net/id/aspose.slides.charts/idoublechartvalue).
 
 ### Definisi:
 ```python

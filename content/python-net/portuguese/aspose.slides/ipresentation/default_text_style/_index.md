@@ -1,13 +1,13 @@
 ---
 title: default_text_style property
-second_title: Aspose.Slides para Python via .NET Referência da API
+second_title: Referência da API Aspose.Slides para Python via .NET
 description: 
 type: docs
 url: /pt/aspose.slides/ipresentation/default_text_style/
-weight: 160
+weight: 170
 ---
 ## default_text_style propriedade
-Returns default text style for shapes.
+Retorna o estilo de texto padrão para formas.
             Somente leitura [`ITextStyle`](/slides/python-net/pt/aspose.slides/itextstyle).
 
 ### Definição:
@@ -18,7 +18,7 @@ def default_text_style(self):
 ```
 
 
-### Veja também
+### Ver também
 * classe [`IPresentation`](/slides/python-net/pt/aspose.slides/ipresentation)
 * classe [`ITextStyle`](/slides/python-net/pt/aspose.slides/itextstyle)
 * módulo [`aspose.slides`](/slides/python-net/pt/aspose.slides)

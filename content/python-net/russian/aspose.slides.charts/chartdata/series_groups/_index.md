@@ -1,10 +1,10 @@
 ---
 title: series_groups property
-second_title: Aspose.Slides для Python через .NET — справочник API
+second_title: Справочник API Aspose.Slides для Python через .NET
 description: 
 type: docs
 url: /ru/aspose.slides.charts/chartdata/series_groups/
-weight: 140
+weight: 150
 ---
 ## series_groups свойство
 Получает группы серий.
@@ -12,9 +12,11 @@ weight: 140
 
 ### Примечания
 
-1) Каждая группа серий содержит серии с комбинируемыми типами. Группы комбинируемых типов серий определены и описаны перечислением CombinableSeriesTypesGroup enum. Также каждая группа серий содержит серии, которые отображаются либо на главных осях, либо на вторичных осях (не оба случая в одной группе). Таким образом, принцип группировки серий — это группировка по типовым группам, упомянутым выше, и по типу построения на главных/вторичных осях.
+1) Каждая группа рядов содержит ряды с комбинируемыми типами. Группы комбинируемых типов рядов определены и описаны перечислением CombinableSeriesTypesGroup enum. Также каждая группа рядов содержит ряды, которые отображаются либо на первичной оси, либо на вторичной оси (не оба случая в одной группе). Таким образом, принцип группировки рядов — это группировка по типовым группам, упомянутым выше, и по типу построения на первичной/вторичной оси.
 
-2) Группа серий содержит некоторые свойства серий, общие для каждой серии в группе ("Series group properties"). "Series group properties" в классе ChartSeriesGroup имеют режим read/write. Каждое из "Series group properties" может иметь только для чтения проекцию в классе ChartSeries.
+2) Группа рядов содержит некоторые свойства рядов, общие для каждого ряда в группе ("series group properties").
+"Series group properties" в классе ChartSeriesGroup — чтение/запись.
+Каждое из "series group properties" может иметь только для чтения проекцию в классе ChartSeries.
 
 ### Определение:
 ```python
@@ -23,7 +25,7 @@ def series_groups(self):
     ...
 ```
 
-### См. также
+### Смотрите также
 * класс [`ChartData`](/slides/python-net/ru/aspose.slides.charts/chartdata)
 * класс [`IChartSeriesGroupCollection`](/slides/python-net/ru/aspose.slides.charts/ichartseriesgroupcollection)
 * модуль [`aspose.slides.charts`](/slides/python-net/ru/aspose.slides.charts)

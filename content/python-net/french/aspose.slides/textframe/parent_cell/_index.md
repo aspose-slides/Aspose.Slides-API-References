@@ -1,12 +1,12 @@
 ---
 title: parent_cell property
-second_title: Aspose.Slides pour Python via .NET Référence API
+second_title: Aspose.Slides pour Python via .NET Référence de l'API
 description: 
 type: docs
 url: /fr/aspose.slides/textframe/parent_cell/
-weight: 110
+weight: 120
 ---
-## parent_cell propriété
+## propriété parent_cell
 Renvoie la cellule parente ou None si l'objet parent n'implémente pas l'interface ICell.
             Lecture seule [`ICell`](/slides/python-net/fr/aspose.slides/icell).
 

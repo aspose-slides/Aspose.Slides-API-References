@@ -1,16 +1,17 @@
 ---
 title: y property
-second_title: Riferimento API Aspose.Slides per Python via .NET
+second_title: Riferimento API Aspose.Slides per Python tramite .NET
 description: 
 type: docs
 url: /it/aspose.slides/videoframe/y/
-weight: 660
+weight: 670
 ---
-## y proprietà
+## Proprietà y
 Ottiene o imposta la coordinata y dell'angolo superiore sinistro della forma, misurata in punti.
             Lettura/scrittura **float**.
 
-### Note
+
+### Osservazioni
 
 Il valore restituito è sempre definito e mai **float**.
             Il valore assegnato deve essere anch'esso definito; assegnare **float** solo alle proprietà di un'istanza `RawFrame`.
@@ -25,6 +26,7 @@ def y(self):
 def y(self, value):
     ...
 ```
+
 
 ### Vedi anche
 * classe [`VideoFrame`](/slides/python-net/it/aspose.slides/videoframe)

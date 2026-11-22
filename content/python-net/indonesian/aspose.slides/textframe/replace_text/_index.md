@@ -4,7 +4,7 @@ second_title: Referensi API Aspose.Slides untuk Python via .NET
 description: 
 type: docs
 url: /id/aspose.slides/textframe/replace_text/
-weight: 50
+weight: 60
 ---
 ## replace_text(self, old_text, new_text, options, callback) {#str-str-itextsearchoptions-ifindresultcallback}
 Mengganti semua kemunculan teks yang ditentukan dengan teks lain yang ditentukan.

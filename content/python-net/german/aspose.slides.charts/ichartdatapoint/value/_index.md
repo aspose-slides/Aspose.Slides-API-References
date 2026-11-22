@@ -4,11 +4,11 @@ second_title: Aspose.Slides für Python über .NET API-Referenz
 description: 
 type: docs
 url: /de/aspose.slides.charts/ichartdatapoint/value/
-weight: 220
+weight: 260
 ---
 ## Wert-Eigenschaft
-Gibt den Wert des Chart-Datenpunkts zurück.
-            Nur lesbar [`IDoubleChartValue`](/slides/python-net/de/aspose.slides.charts/idoublechartvalue).
+Liefert den Wert eines Diagrammdatenpunkts.
+            Schreibgeschützt [`IDoubleChartValue`](/slides/python-net/de/aspose.slides.charts/idoublechartvalue).
 
 ### Definition:
 ```python

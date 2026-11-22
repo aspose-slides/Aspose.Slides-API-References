@@ -1,20 +1,21 @@
 ---
 title: width property
-second_title: Aspose.Slides pro Python přes .NET API
+second_title: Aspose.Slides pro Python prostřednictvím .NET API Reference
 description: 
 type: docs
 url: /cs/aspose.slides/videoframe/width/
-weight: 640
+weight: 650
 ---
-## vlastnost width
-Získá nebo nastaví šířku width tvaru, měřenou v bodech.
-            Číst/zapisovat **float**.
+## width vlastnost
+Získá nebo nastaví šířku tvaru, měřenou v bodech.
+            Číst/Zapisovat **float**.
 
 
 ### Poznámky
 
 Vrácená hodnota je vždy definována a nikdy **float**.
-            Přiřazená hodnota musí být také definována; přiřazujte **float** pouze vlastnostem instance `RawFrame`.
+            Přiřazená hodnota musí být také definována; přiřaďte **float** pouze k vlastnostem instance `RawFrame`.
+
 
 ### Definice:
 ```python

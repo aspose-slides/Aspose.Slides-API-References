@@ -1,13 +1,13 @@
 ---
 title: first_slide_number property
-second_title: Aspose.Slides dla Pythona poprzez .NET Referencja API
+second_title: Aspose.Slides dla Pythona poprzez .NET referencję API
 description: 
 type: docs
 url: /pl/aspose.slides/ipresentation/first_slide_number/
-weight: 190
+weight: 200
 ---
 ## first_slide_number właściwość
-Represents the first slide number in the presentation.
+Reprezentuje numer pierwszego slajdu w prezentacji.
             Odczyt/zapis **int**.
 
 ### Definicja:

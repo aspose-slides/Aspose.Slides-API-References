@@ -1,14 +1,14 @@
 ---
 title: parent_cell property
-second_title: Referensi API Aspose.Slides untuk Python melalui .NET
+second_title: Referensi API Aspose.Slides untuk Python via .NET
 description: 
 type: docs
 url: /id/aspose.slides/textframe/parent_cell/
-weight: 110
+weight: 120
 ---
 ## parent_cell properti
-Mengembalikan sel induk atau None jika objek induk tidak menerapkan antarmuka ICell.
-            Hanya-baca [`ICell`](/slides/python-net/id/aspose.slides/icell).
+Mengembalikan sel induk atau None jika objek induk tidak mengimplementasikan antarmuka ICell.
+            Baca-saja [`ICell`](/slides/python-net/id/aspose.slides/icell).
 
 ### Definisi:
 ```python

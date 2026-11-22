@@ -1,13 +1,13 @@
 ---
 title: series property
-second_title: Aspose.Slides for Python qua Tham chiếu API .NET
+second_title: Tham chiếu API Aspose.Slides cho Python qua .NET
 description: 
 type: docs
 url: /vi/aspose.slides.charts/ichartdata/series/
-weight: 130
+weight: 140
 ---
-## thuộc tính series
-Lấy series.
+## series thuộc tính
+Gets the series.
             Chỉ đọc [`IChartSeriesCollection`](/slides/python-net/vi/aspose.slides.charts/ichartseriescollection).
 
 ### Định nghĩa:

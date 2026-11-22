@@ -1,24 +1,25 @@
 ---
 title: series property
-second_title: Aspose.Slides के लिए Python के माध्यम से .NET API संदर्भ
+second_title: Aspose.Slides for Python via .NET API संदर्भ
 description: 
 type: docs
 url: /hi/aspose.slides.charts/chartdata/series/
-weight: 130
+weight: 140
 ---
-## series प्रॉपर्टी
-series को प्राप्त करता है।
-केवल-पढ़ने योग्य [`IChartSeriesCollection`](/slides/python-net/hi/aspose.slides.charts/ichartseriescollection)।
+## सीरीज़ गुण
+Gets the series.
+            केवल-पढ़ने योग्य [`IChartSeriesCollection`](/slides/python-net/hi/aspose.slides.charts/ichartseriescollection).
 
-### Definition:
+### परिभाषा:
 ```python
 @property
 def series(self):
     ...
 ```
 
-### संबंधित देखें
-* क्लास [`ChartData`](/slides/python-net/hi/aspose.slides.charts/chartdata)
-* क्लास [`IChartSeriesCollection`](/slides/python-net/hi/aspose.slides.charts/ichartseriescollection)
+
+### अधिक देखें
+* वर्ग [`ChartData`](/slides/python-net/hi/aspose.slides.charts/chartdata)
+* वर्ग [`IChartSeriesCollection`](/slides/python-net/hi/aspose.slides.charts/ichartseriescollection)
 * मॉड्यूल [`aspose.slides.charts`](/slides/python-net/hi/aspose.slides.charts)
-* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)
+* पुस्तकालय [`Aspose.Slides`](/slides/python-net)

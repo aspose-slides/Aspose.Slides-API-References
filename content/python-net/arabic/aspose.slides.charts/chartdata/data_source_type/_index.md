@@ -1,13 +1,13 @@
 ---
 title: data_source_type property
-second_title: مرجع API Aspose.Slides للغة Python عبر .NET
+second_title: Aspose.Slides لبايثون عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides.charts/chartdata/data_source_type/
-weight: 90
+weight: 100
 ---
 ## data_source_type خاصية
-يمثل مسار المصنف الخارجي إذا كان مصدر بيانات خارجي، وإلا يكون None
+يمثل مسار المصنف الخارجي إذا كان مصدر البيانات خارجيًا، وإلا تكون القيمة None
 
 ### التعريف:
 ```python
@@ -20,4 +20,4 @@ def data_source_type(self):
 ### انظر أيضًا
 * فئة [`ChartData`](/slides/python-net/ar/aspose.slides.charts/chartdata)
 * وحدة [`aspose.slides.charts`](/slides/python-net/ar/aspose.slides.charts)
-* library [`Aspose.Slides`](/slides/python-net)
+* مكتبة [`Aspose.Slides`](/slides/python-net)

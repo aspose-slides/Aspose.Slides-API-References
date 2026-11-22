@@ -1,14 +1,14 @@
 ---
 title: chart_data_workbook property
-second_title: Aspose.Slides dla Pythona via .NET Dokumentacja API
+second_title: Aspose.Slides dla Pythona poprzez .NET – dokumentacja API
 description: 
 type: docs
 url: /pl/aspose.slides.charts/ichartdata/chart_data_workbook/
-weight: 80
+weight: 90
 ---
 ## chart_data_workbook właściwość
 Zwraca fabrykę komórek służącą do tworzenia komórek używanych w seriach wykresu lub kategoriach.
-            Tylko do odczytu [`IChartDataWorkbook`](/slides/python-net/pl/aspose.slides.charts/ichartdataworkbook).
+            tylko do odczytu [`IChartDataWorkbook`](/slides/python-net/pl/aspose.slides.charts/ichartdataworkbook).
 
 ### Definicja:
 ```python

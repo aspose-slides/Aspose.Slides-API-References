@@ -7,7 +7,7 @@ url: /de/aspose.slides.charts/ichartdatapoint/bubble_size/
 weight: 80
 ---
 ## bubble_size Eigenschaft
-Gibt die Blasengröße des Diagrammdatenpunkts zurück.
+Gibt die Blasengröße eines Diagrammdatenpunkts zurück.
             Nur lesbar [`IDoubleChartValue`](/slides/python-net/de/aspose.slides.charts/idoublechartvalue).
 
 ### Definition:

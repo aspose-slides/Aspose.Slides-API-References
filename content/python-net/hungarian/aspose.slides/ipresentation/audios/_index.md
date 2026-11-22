@@ -1,13 +1,13 @@
 ---
 title: audios property
-second_title: Aspose.Slides for Python a .NET API Referenciához
+second_title: Aspose.Slides for Python a .NET API-referencia
 description: 
 type: docs
 url: /hu/aspose.slides/ipresentation/audios/
-weight: 120
+weight: 130
 ---
 ## audios tulajdonság
-Visszaadja az összes beágyazott hangfájl gyűjteményét a prezentációban.
+Visszaadja a bemutatóban beágyazott összes hangfájl gyűjteményét.
             Csak olvasható [`IAudioCollection`](/slides/python-net/hu/aspose.slides/iaudiocollection).
 
 ### Definíció:

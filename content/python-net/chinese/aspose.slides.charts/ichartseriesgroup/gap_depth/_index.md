@@ -7,10 +7,21 @@ url: /zh/aspose.slides.charts/ichartseriesgroup/gap_depth/
 weight: 100
 ---
 ## gap_depth 属性
-返回或设置数据系列在 3D 图表中之间的距离，以标记宽度的百分比表示。
-            读/写 **int**.
+获取或设置 3D 图表中数据系列之间的距离，作为标记宽度的百分比。
+            值必须在 0 到 500 之间。
+            读/写 **int**。
 
-### 定义:
+
+### 备注
+
+此属性适用于以下类型的系列：
+            3D 条形图和柱形图子类型, 
+            [`ChartType.LINE_3D`](/slides/python-net/zh/aspose.slides.charts/charttype/LINE_3D),
+            [`ChartType.AREA_3D`](/slides/python-net/zh/aspose.slides.charts/charttype/AREA_3D),
+            [`ChartType.STACKED_AREA_3D`](/slides/python-net/zh/aspose.slides.charts/charttype/STACKED_AREA_3D),
+            [`ChartType.PERCENTS_STACKED_AREA_3D`](/slides/python-net/zh/aspose.slides.charts/charttype/PERCENTS_STACKED_AREA_3D).
+
+### 定义：
 ```python
 @property
 def gap_depth(self):
@@ -20,6 +31,7 @@ def gap_depth(self):
 def gap_depth(self, value):
     ...
 ```
+
 
 ### 另请参见
 * 类 [`IChartSeriesGroup`](/slides/python-net/zh/aspose.slides.charts/ichartseriesgroup)

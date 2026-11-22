@@ -1,13 +1,13 @@
 ---
 title: value property
-second_title: Aspose.Slides dla Pythona przy użyciu .NET API
+second_title: Aspose.Slides dla Pythona za pośrednictwem .NET API Reference
 description: 
 type: docs
 url: /pl/aspose.slides.charts/ichartdatapoint/value/
-weight: 220
+weight: 260
 ---
 ## value właściwość
-Zwraca wartość value punktu danych wykresu.
+Pobiera wartość punktu danych wykresu.
             Tylko do odczytu [`IDoubleChartValue`](/slides/python-net/pl/aspose.slides.charts/idoublechartvalue).
 
 ### Definicja:

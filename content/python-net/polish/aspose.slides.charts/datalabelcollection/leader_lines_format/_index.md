@@ -1,10 +1,10 @@
 ---
 title: leader_lines_format property
-second_title: Referencja API Aspose.Slides dla Pythona via .NET
+second_title: Aspose.Slides dla Pythona przez .NET referencja API
 description: 
 type: docs
 url: /pl/aspose.slides.charts/datalabelcollection/leader_lines_format/
-weight: 130
+weight: 140
 ---
 ## leader_lines_format właściwość
 Reprezentuje format linii prowadzących etykiet danych.

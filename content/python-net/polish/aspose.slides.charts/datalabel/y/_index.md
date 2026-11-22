@@ -1,12 +1,12 @@
 ---
 title: y property
-second_title: Aspose.Slides dla Pythona przez API .NET
+second_title: Aspose.Slides dla Pythona za pośrednictwem .NET – odniesienie API
 description: 
 type: docs
 url: /pl/aspose.slides.charts/datalabel/y/
-weight: 280
+weight: 290
 ---
-## właściwość y
+## y właściwość
 Zwraca lub ustawia współrzędną y tytułu jako ułamek wysokości wykresu.
             Odczyt/zapis **float**.
 

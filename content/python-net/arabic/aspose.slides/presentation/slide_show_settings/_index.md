@@ -1,13 +1,13 @@
 ---
 title: slide_show_settings property
-second_title: مرجع API Aspose.Slides للغة Python عبر .NET
+second_title: Aspose.Slides لبايثون عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides/presentation/slide_show_settings/
-weight: 350
+weight: 360
 ---
 ## slide_show_settings خاصية
-يرجع إعدادات عرض الشرائح للعرض التقديمي.
+يعيد إعدادات عرض الشرائح للعرض التقديمي.
 
 ### التعريف:
 ```python

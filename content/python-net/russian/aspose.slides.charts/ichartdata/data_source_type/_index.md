@@ -4,7 +4,7 @@ second_title: Aspose.Slides для Python через .NET справочник A
 description: 
 type: docs
 url: /ru/aspose.slides.charts/ichartdata/data_source_type/
-weight: 90
+weight: 100
 ---
 ## data_source_type свойство
 Представляет источник данных диаграммы

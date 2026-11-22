@@ -1,16 +1,16 @@
 ---
 title: notes_size property
-second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API เอกสารอ้างอิง
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET อ้างอิง API
 description: 
 type: docs
 url: /th/aspose.slides/ipresentation/notes_size/
-weight: 290
+weight: 300
 ---
 ## notes_size คุณสมบัติ
-คืนค่าอ็อบเจ็กต์ขนาดสไลด์โน้ต
+คืนค่าอ็อบเจกต์ขนาดสไลด์บันทึกย่อ
             อ่านอย่างเดียว [`INotesSize`](/slides/python-net/th/aspose.slides/inotessize).
 
-### คำนิยาม:
+### คำจำกัดความ:
 ```python
 @property
 def notes_size(self):

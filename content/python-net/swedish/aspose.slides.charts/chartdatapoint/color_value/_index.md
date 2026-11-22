@@ -4,7 +4,7 @@ second_title: Aspose.Slides för Python via .NET API-referens
 description: 
 type: docs
 url: /sv/aspose.slides.charts/chartdatapoint/color_value/
-weight: 90
+weight: 130
 ---
 ## color_value egenskap
 Returnerar färgvärdet för diagramdatapunkten.

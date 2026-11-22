@@ -1,20 +1,20 @@
 ---
 title: x property
-second_title: Aspose.Slides voor Python via .NET API-referentie
+second_title: Aspose.Slides voor Python via .NET API Referentie
 description: 
 type: docs
 url: /nl/aspose.slides/videoframe/x/
-weight: 650
+weight: 660
 ---
 ## x eigenschap
-Gets or sets the x-coordinate of the shape's upper-left corner, measured in points.
-            Read/write **float**.
+Haalt of stelt de x-coördinaat van de linkerbovenhoek van de vorm in, gemeten in punten.
+            Lezen/Schrijven **float**.
 
 
 ### Opmerkingen
 
-The value returned is always defined and never **float**.
-            The value assigned must also be defined; assign **float** only to properties of a `RawFrame` instance.
+De geretourneerde waarde is altijd gedefinieerd en nooit **float**.
+            De toegekende waarde moet ook gedefinieerd zijn; wijs **float** alleen toe aan eigenschappen van een `RawFrame`-instance.
 
 ### Definitie:
 ```python

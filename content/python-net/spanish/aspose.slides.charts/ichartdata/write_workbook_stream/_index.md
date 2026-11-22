@@ -1,10 +1,10 @@
 ---
 title: write_workbook_stream method
-second_title: Aspose.Slides para Python vía .NET Referencia de API
+second_title: Aspose.Slides para Python a través de .NET Referencia de API
 description: 
 type: docs
 url: /es/aspose.slides.charts/ichartdata/write_workbook_stream/
-weight: 60
+weight: 70
 ---
 ## write_workbook_stream(self, ms) {#iorawiobase}
 Inicializa el libro de Excel contenido internamente con el valor especificado por el usuario.

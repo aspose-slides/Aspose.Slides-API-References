@@ -1,13 +1,13 @@
 ---
 title: videos property
-second_title: Aspose.Slides a Pythonhoz a .NET API hivatkozása
+second_title: Aspose.Slides a Pythonhoz .NET API hivatkozás
 description: 
 type: docs
 url: /hu/aspose.slides/ipresentation/videos/
-weight: 380
+weight: 390
 ---
 ## videos tulajdonság
-Visszaadja a prezentációban található összes beágyazott videofájl gyűjteményét.
+Visszaadja a bemutatóban beágyazott összes videofájl gyűjteményét.
             Csak olvasható [`IVideoCollection`](/slides/python-net/hu/aspose.slides/ivideocollection).
 
 ### Definíció:

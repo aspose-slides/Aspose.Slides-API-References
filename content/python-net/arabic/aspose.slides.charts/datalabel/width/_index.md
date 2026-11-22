@@ -1,13 +1,13 @@
 ---
 title: width property
-second_title: Aspose.Slides لـ Python عبر .NET مرجع API
+second_title: Aspose.Slides للـ Python عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides.charts/datalabel/width/
-weight: 260
+weight: 270
 ---
-## width خاصية
-يرجع أو يحدد width للعنوان كنسبة من width المخطط.
+## خاصية العرض
+يقوم بإرجاع أو ضبط عرض العنوان كنسبة من عرض المخطط.
             قراءة/كتابة **float**.
 
 ### التعريف:
@@ -20,6 +20,7 @@ def width(self):
 def width(self, value):
     ...
 ```
+
 
 ### انظر أيضًا
 * فئة [`DataLabel`](/slides/python-net/ar/aspose.slides.charts/datalabel)

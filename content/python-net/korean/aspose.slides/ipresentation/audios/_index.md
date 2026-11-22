@@ -1,14 +1,14 @@
 ---
 title: audios property
-second_title: Aspose.Slides for Python via .NET API 참조
+second_title: Aspose.Slides for Python via .NET API 레퍼런스
 description: 
 type: docs
 url: /ko/aspose.slides/ipresentation/audios/
-weight: 120
+weight: 130
 ---
-## 오디오 속성
-프레젠테이션에 포함된 모든 임베디드 오디오 파일 컬렉션을 반환합니다.
-            읽기 전용 [`IAudioCollection`](/slides/python-net/ko/aspose.slides/iaudiocollection).
+## audios 속성
+프레젠테이션에 포함된 모든 임베드된 오디오 파일의 컬렉션을 반환합니다.
+읽기 전용 [`IAudioCollection`](/slides/python-net/ko/aspose.slides/iaudiocollection).
 
 ### 정의:
 ```python

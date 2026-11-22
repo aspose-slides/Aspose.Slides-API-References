@@ -1,27 +1,25 @@
 ---
 title: is_visible property
-second_title: Aspose.Slides برای Python از طریق .NET مرجع API
+second_title: Aspose.Slides برای Python از طریق .NET API Reference
 description: 
 type: docs
 url: /fa/aspose.slides.charts/datalabelcollection/is_visible/
-weight: 120
+weight: 130
 ---
-## is_visible ویژگی
-False به این معنی است که برچسب داده به طور پیش‌فرض قابل مشاهده نیست (و بنابراین تمام پرچم‌های Show*-flags (ShowValue, ...) از ویژگی DefaultDataLabelFormat برابر false هستند).
-فقط-خواندنی **bool**.
+## is_visible خاصیت
+False به این معنی است که برچسب داده به‌طور پیش‌فرض قابل مشاهده نیست (و بنابراین تمام Show*-flags (ShowValue, ...) از ویژگی DefaultDataLabelFormat برابر false هستند). فقط-خواندنی **bool**.
 
-### توضیحات
-اگر برچسب داده به طور پیش‌فرض قابل مشاهده باشد می‌توانید با Hide() متد آن را به طور پیش‌فرض مخفی کنید.
-اما اگر برچسب داده به طور پیش‌فرض قابل مشاهده نباشد (IsVisible برابر false است) می‌توانید برچسب داده را «قابل مشاهده به صورت پیش‌فرض» کنید با تنظیم Show*-flags (ShowValue, ...) از ویژگی DefaultDataLabelFormat به حالت true.
+### Remarks
+اگر برچسب داده به‌طور پیش‌فرض قابل مشاهده باشد، می‌توانید با متد Hide() آن را به‌طور پیش‌فرض مخفی کنید. اما اگر برچسب داده به‌طور پیش‌فرض قابل مشاهده نباشد (IsVisible برابر false) می‌توانید با تنظیم Show*-flags (ShowValue, ...) از ویژگی DefaultDataLabelFormat به وضعیت true، برچسب داده را «قابل مشاهده به‌صورت پیش‌فرض» کنید.
 
-### تعریف:
+### Definition:
 ```python
 @property
 def is_visible(self):
     ...
 ```
 
-### مشاهده نیز
+### See Also
 * کلاس [`DataLabelCollection`](/slides/python-net/fa/aspose.slides.charts/datalabelcollection)
 * ماژول [`aspose.slides.charts`](/slides/python-net/fa/aspose.slides.charts)
 * کتابخانه [`Aspose.Slides`](/slides/python-net)

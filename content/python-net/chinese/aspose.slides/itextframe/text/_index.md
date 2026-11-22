@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API 参考
 description: 
 type: docs
 url: /zh/aspose.slides/itextframe/text/
-weight: 150
+weight: 160
 ---
 ## 文本属性
 获取或设置 TextFrame 的纯文本。
@@ -22,7 +22,7 @@ def text(self, value):
 ```
 
 
-### 另见
+### 另请参阅
 * 类 [`ITextFrame`](/slides/python-net/zh/aspose.slides/itextframe)
 * 模块 [`aspose.slides`](/slides/python-net/zh/aspose.slides)
 * 库 [`Aspose.Slides`](/slides/python-net)

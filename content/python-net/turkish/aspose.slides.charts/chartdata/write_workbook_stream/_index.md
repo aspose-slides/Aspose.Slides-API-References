@@ -4,19 +4,23 @@ second_title: Aspose.Slides for Python via .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides.charts/chartdata/write_workbook_stream/
-weight: 60
+weight: 70
 ---
 ## write_workbook_stream(self, ms) {#iorawiobase}
-Kullanıcı tarafından belirtilen değerle, dahili olarak tutulan Excel çalışma kitabını başlatır.
+İçeride tutulan Excel çalışma kitabını, kullanıcı tarafından belirtilen değerle başlatır.
+
 
 ```python
 def write_workbook_stream(self, ms):
     ...
 ```
 
+
 | Parametre | Tür | Açıklama |
 | :- | :- | :- |
-| ms | **io.RawIOBase** | Kullanıcı tarafından sağlanan, tüm Excel çalışma kitabını içeren akış. |
+| ms | **io.RawIOBase** | Tüm Excel çalışma kitabını içeren kullanıcı tarafından sağlanan akış. |
+
+
 
 ### Ayrıca Bakınız
 * sınıf [`ChartData`](/slides/python-net/tr/aspose.slides.charts/chartdata)

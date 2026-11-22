@@ -4,10 +4,10 @@ second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides.charts/datalabel/x/
-weight: 270
+weight: 280
 ---
 ## x eigenschap
-Geeft de x-coördinaat van een titel terug of stelt deze in als een fractie van de breedte van de grafiek.
+Retourneert of stelt de x-coördinaat van een titel in als een fractie van de breedte van de grafiek.
             Lezen/schrijven **float**.
 
 ### Definitie:

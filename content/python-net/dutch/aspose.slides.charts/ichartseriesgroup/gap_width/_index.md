@@ -1,14 +1,27 @@
 ---
 title: gap_width property
-second_title: Aspose.Slides voor Python via .NET API-referentie
+second_title: Aspose.Slides voor Python via .NET API Referentie
 description: 
 type: docs
 url: /nl/aspose.slides.charts/ichartseriesgroup/gap_width/
 weight: 110
 ---
 ## gap_width eigenschap
-Specificeert de ruimte tussen balk- of kolomclusters, als een percentage van de breedte van de balk of kolom.
+Haalt of stelt de ruimte tussen balk- of kolomclusters in, als een percentage van de balk- of kolombreedte.
+            De waarde moet tussen 0 en 500 liggen.
             Lezen/schrijven **int**.
+
+
+### Opmerkingen
+
+Deze eigenschap is van toepassing op series van de volgende typen:
+            Alle balk- en kolomsubtypen, 
+            [`ChartType.BAR_OF_PIE`](/slides/python-net/nl/aspose.slides.charts/charttype/BAR_OF_PIE),
+            [`ChartType.PIE_OF_PIE`](/slides/python-net/nl/aspose.slides.charts/charttype/PIE_OF_PIE),
+            [`ChartType.BOX_AND_WHISKER`](/slides/python-net/nl/aspose.slides.charts/charttype/BOX_AND_WHISKER),
+            [`ChartType.FUNNEL`](/slides/python-net/nl/aspose.slides.charts/charttype/FUNNEL),
+            [`ChartType.HISTOGRAM`](/slides/python-net/nl/aspose.slides.charts/charttype/HISTOGRAM),
+            [`ChartType.WATERFALL`](/slides/python-net/nl/aspose.slides.charts/charttype/WATERFALL).
 
 ### Definitie:
 ```python

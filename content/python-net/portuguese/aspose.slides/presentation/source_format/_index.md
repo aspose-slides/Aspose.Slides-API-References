@@ -1,10 +1,10 @@
 ---
 title: source_format property
-second_title: Referência da API Aspose.Slides para Python via .NET
+second_title: Aspose.Slides para Python via .NET Referência da API
 description: 
 type: docs
 url: /pt/aspose.slides/presentation/source_format/
-weight: 380
+weight: 390
 ---
 ## source_format propriedade
 Retorna informações sobre de qual formato a apresentação foi carregada.
@@ -18,7 +18,7 @@ def source_format(self):
 ```
 
 
-### Veja Também
+### Ver também
 * classe [`Presentation`](/slides/python-net/pt/aspose.slides/presentation)
 * enumeração [`SourceFormat`](/slides/python-net/pt/aspose.slides/sourceformat)
 * módulo [`aspose.slides`](/slides/python-net/pt/aspose.slides)

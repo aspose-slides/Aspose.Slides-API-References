@@ -1,13 +1,13 @@
 ---
 title: custom_data property
-second_title: Aspose.Slides untuk Python via .NET Referensi API
+second_title: Referensi API Aspose.Slides untuk Python via .NET
 description: 
 type: docs
 url: /id/aspose.slides/presentation/custom_data/
-weight: 160
+weight: 170
 ---
 ## custom_data properti
-Returns the presentation's custom data.
+Mengembalikan data khusus presentasi.
             Hanya-baca [`ICustomData`](/slides/python-net/id/aspose.slides/icustomdata).
 
 ### Definisi:
@@ -22,4 +22,4 @@ def custom_data(self):
 * kelas [`ICustomData`](/slides/python-net/id/aspose.slides/icustomdata)
 * kelas [`Presentation`](/slides/python-net/id/aspose.slides/presentation)
 * modul [`aspose.slides`](/slides/python-net/id/aspose.slides)
-* perpustakaan [`Aspose.Slides`](/slides/python-net)
+* pustaka [`Aspose.Slides`](/slides/python-net)

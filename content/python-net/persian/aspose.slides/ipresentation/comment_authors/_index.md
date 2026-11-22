@@ -1,13 +1,13 @@
 ---
 title: comment_authors property
-second_title: مرجع API Aspose.Slides برای پایتون از طریق .NET
+second_title: مرجع API Aspose.Slides برای Python از طریق .NET
 description: 
 type: docs
 url: /fa/aspose.slides/ipresentation/comment_authors/
-weight: 130
+weight: 140
 ---
 ## comment_authors ویژگی
-مجموعه‌ای از نویسندگان نظرات را برمی‌گرداند.
+مجموعه‌ای از نظرات نویسندگان را برمی‌گرداند.
             فقط-خواندنی [`ICommentAuthorCollection`](/slides/python-net/fa/aspose.slides/icommentauthorcollection).
 
 ### تعریف:
@@ -16,7 +16,6 @@ weight: 130
 def comment_authors(self):
     ...
 ```
-
 
 ### موارد مرتبط
 * کلاس [`ICommentAuthorCollection`](/slides/python-net/fa/aspose.slides/icommentauthorcollection)

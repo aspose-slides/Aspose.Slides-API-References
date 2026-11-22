@@ -4,10 +4,10 @@ second_title: Aspose.Slides for Python via .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides/textframe/highlight_regex/
-weight: 10
+weight: 20
 ---
 ## highlight_regex(self, regex, highlight_color) {#str-asposeslidescolor}
-Belirtilen renk ile düzenli ifadeye uyan tüm eşleşmeleri vurgular.
+Belirtilen renk ile normal ifadeye (regex) uyan tüm eşleşmeleri vurgular.
 
 
 ```python
@@ -16,14 +16,14 @@ def highlight_regex(self, regex, highlight_color):
 ```
 
 
-| Parametre | Tür | Açıklama |
+| Parameter | Type | Description |
 | :- | :- | :- |
-| regex | **str** | Vurgulanacak dizeleri elde etmek için düzenli ifadeyi içeren dizedir. |
-| highlight_color | [`Color`](/slides/python-net/tr/aspose.slides/color) | Metni vurgulamak için renk. |
+| regex | **str** | Vurgulanacak metinleri elde etmek için kullanılan normal ifadenin bulunduğu dizedir. |
+| highlight_color | [`Color`](/slides/python-net/tr/aspose.slides/color) | Metni vurgulamak için kullanılacak renktir. |
 
 
 ## highlight_regex(self, regex, highlight_color, options) {#str-asposeslidescolor-itexthighlightingoptions}
-Belirtilen renk ile düzenli ifadeye uyan tüm eşleşmeleri vurgular.
+Belirtilen renk ile normal ifadeye (regex) uyan tüm eşleşmeleri vurgular.
 
 
 ```python
@@ -32,17 +32,17 @@ def highlight_regex(self, regex, highlight_color, options):
 ```
 
 
-| Parametre | Tür | Açıklama |
+| Parameter | Type | Description |
 | :- | :- | :- |
-| regex | **str** | Vurgulanacak metni elde etmek için düzenli ifadenin metni. |
-| highlight_color | [`Color`](/slides/python-net/tr/aspose.slides/color) | Metni vurgulamak için renk. |
+| regex | **str** | Vurgulanacak metni elde etmek için kullanılan normal ifadenin metnidir. |
+| highlight_color | [`Color`](/slides/python-net/tr/aspose.slides/color) | Metni vurgulamak için kullanılacak renktir. |
 | options | [`ITextHighlightingOptions`](/slides/python-net/tr/aspose.slides/itexthighlightingoptions) | Vurgulama seçenekleri. |
 
 
 
-### Ayrıça Bakınız
+### See Also
 * sınıf [`ITextHighlightingOptions`](/slides/python-net/tr/aspose.slides/itexthighlightingoptions)
 * sınıf [`TextFrame`](/slides/python-net/tr/aspose.slides/textframe)
 * sınıf [`Color`](/slides/python-net/tr/aspose.slides/color)
 * modül [`aspose.slides`](/slides/python-net/tr/aspose.slides)
-* kütüphane [`Aspose.Slides`](/slides/python-net)
+* library [`Aspose.Slides`](/slides/python-net)

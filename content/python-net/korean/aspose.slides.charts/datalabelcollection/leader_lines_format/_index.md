@@ -1,13 +1,13 @@
 ---
 title: leader_lines_format property
-second_title: Aspose.Slides for Python via .NET API 레퍼런스
+second_title: Aspose.Slides for Python via .NET API 참조
 description: 
 type: docs
 url: /ko/aspose.slides.charts/datalabelcollection/leader_lines_format/
-weight: 130
+weight: 140
 ---
 ## leader_lines_format 속성
-Represents data labels leader lines format.
+데이터 레이블 리더 라인 형식을 나타냅니다.
              읽기 전용 [`IChartLinesFormat`](/slides/python-net/ko/aspose.slides.charts/ichartlinesformat).
 
 ### 정의:
@@ -18,7 +18,7 @@ def leader_lines_format(self):
 ```
 
 
-### 관련 항목
+### 참조
 * 클래스 [`DataLabelCollection`](/slides/python-net/ko/aspose.slides.charts/datalabelcollection)
 * 클래스 [`IChartLinesFormat`](/slides/python-net/ko/aspose.slides.charts/ichartlinesformat)
 * 모듈 [`aspose.slides.charts`](/slides/python-net/ko/aspose.slides.charts)

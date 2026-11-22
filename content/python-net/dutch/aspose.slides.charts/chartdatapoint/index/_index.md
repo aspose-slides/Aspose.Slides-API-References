@@ -4,7 +4,7 @@ second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides.charts/chartdatapoint/index/
-weight: 140
+weight: 180
 ---
 ## index eigenschap
 ### Definitie:

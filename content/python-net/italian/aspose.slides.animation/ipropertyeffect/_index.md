@@ -1,6 +1,6 @@
 ---
 title: IPropertyEffect class
-second_title: Riferimento API Aspose.Slides per Python via .NET
+second_title: Aspose.Slides per Python via .NET Riferimento API
 description: 
 type: docs
 url: /it/aspose.slides.animation/ipropertyeffect/
@@ -15,8 +15,8 @@ Il tipo IPropertyEffect espone i seguenti membri:
 
 | Proprietà | Descrizione |
 | :- | :- |
-| [`from_address`](/slides/python-net/it/aspose.slides.animation/ipropertyeffect/from_address/) | Specifica il valore iniziale dell'animazione.<br/>            Lettura/scrittura **str**. |
-| [`to`](/slides/python-net/it/aspose.slides.animation/ipropertyeffect/to/) | Specifica il valore finale dell'animazione.<br/>            Lettura/scrittura **str**. |
+| [`from_`](/slides/python-net/it/aspose.slides.animation/ipropertyeffect/from_/) | Specifica il valore iniziale dell'animazione.<br/>            Lettura/scrittura **str**. |
+| [`to`](/slides/python-net/it/aspose.slides.animation/ipropertyeffect/to/) | Specifica il valore finale per l'animazione.<br/>            Lettura/scrittura **str**. |
 | [`by`](/slides/python-net/it/aspose.slides.animation/ipropertyeffect/by/) | Specifica un valore di offset relativo per l'animazione rispetto alla sua<br/>            posizione prima dell'inizio dell'animazione.<br/>            Lettura/scrittura **str**. |
 | [`value_type`](/slides/python-net/it/aspose.slides.animation/ipropertyeffect/value_type/) | Specifica il tipo di un valore di proprietà.<br/>            Lettura/scrittura [`PropertyValueType`](/slides/python-net/it/aspose.slides.animation/propertyvaluetype). |
 | [`calc_mode`](/slides/python-net/it/aspose.slides.animation/ipropertyeffect/calc_mode/) | Specifica la modalità di interpolazione per l'animazione<br/>            Lettura/scrittura [`PropertyCalcModeType`](/slides/python-net/it/aspose.slides.animation/propertycalcmodetype). |

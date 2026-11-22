@@ -1,14 +1,14 @@
 ---
 title: parent_series property
-second_title: Aspose.Slides for Python via .NET API 레퍼런스
+second_title: Python용 Aspose.Slides via .NET API 참조
 description: 
 type: docs
 url: /ko/aspose.slides.charts/datalabelcollection/parent_series/
-weight: 140
+weight: 150
 ---
 ## parent_series 속성
 부모 시리즈를 가져옵니다.
-읽기 전용 [`IChartSeries`](/slides/python-net/ko/aspose.slides.charts/ichartseries).
+            읽기 전용 [`IChartSeries`](/slides/python-net/ko/aspose.slides.charts/ichartseries).
 
 ### 정의:
 ```python
@@ -18,7 +18,7 @@ def parent_series(self):
 ```
 
 
-### 참고
+### 참조
 * 클래스 [`DataLabelCollection`](/slides/python-net/ko/aspose.slides.charts/datalabelcollection)
 * 클래스 [`IChartSeries`](/slides/python-net/ko/aspose.slides.charts/ichartseries)
 * 모듈 [`aspose.slides.charts`](/slides/python-net/ko/aspose.slides.charts)

@@ -1,14 +1,14 @@
 ---
 title: master_theme property
-second_title: Aspose.Slides for Python via .NET API संदर्भ
+second_title: Aspose.Slides का Python के लिए .NET API संदर्भ
 description: 
 type: docs
 url: /hi/aspose.slides/presentation/master_theme/
-weight: 280
+weight: 290
 ---
-## master_theme संपत्ति
-मुख्य थीम लौटाता है.
-            केवल पढ़ने योग्य [`IMasterTheme`](/slides/python-net/hi/aspose.slides.theme/imastertheme).
+## master_theme प्रॉपर्टी
+मास्टर थीम लौटाता है।
+केवल पढ़ने योग्य [`IMasterTheme`](/slides/python-net/hi/aspose.slides.theme/imastertheme).
 
 ### परिभाषा:
 ```python
@@ -17,9 +17,8 @@ def master_theme(self):
     ...
 ```
 
-
-### संबंधित देखें
+### देखें
 * क्लास [`IMasterTheme`](/slides/python-net/hi/aspose.slides.theme/imastertheme)
 * क्लास [`Presentation`](/slides/python-net/hi/aspose.slides/presentation)
-* मोड्यूल [`aspose.slides`](/slides/python-net/hi/aspose.slides)
+* मॉड्यूल [`aspose.slides`](/slides/python-net/hi/aspose.slides)
 * लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

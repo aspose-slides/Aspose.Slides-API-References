@@ -1,14 +1,14 @@
 ---
 title: index property
-second_title: Aspose.Slides per Python via .NET API Reference
+second_title: Riferimento API Aspose.Slides per Python via .NET
 description: 
 type: docs
 url: /it/aspose.slides.charts/ichartdatapoint/index/
-weight: 140
+weight: 180
 ---
 ## proprietà indice
 Determina a quale collezione di figli del genitore si applica questo punto dati.
-            Leggi **int**.
+            Lettura **int**.
 
 ### Definizione:
 ```python

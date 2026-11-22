@@ -4,10 +4,10 @@ second_title: Aspose.Slides for Python via .NET API 參考文件
 description: 
 type: docs
 url: /zh-hant/aspose.slides.charts/datalabel/right/
-weight: 210
+weight: 220
 ---
 ## right 屬性
-右。
+右.
             唯讀 **float**.
 
 ### 定義:
@@ -18,7 +18,7 @@ def right(self):
 ```
 
 
-### 另請參閱
+### 參見
 * 類別 [`DataLabel`](/slides/python-net/zh-hant/aspose.slides.charts/datalabel)
 * 模組 [`aspose.slides.charts`](/slides/python-net/zh-hant/aspose.slides.charts)
-* 函式庫 [`Aspose.Slides`](/slides/python-net)
+* 程式庫 [`Aspose.Slides`](/slides/python-net)

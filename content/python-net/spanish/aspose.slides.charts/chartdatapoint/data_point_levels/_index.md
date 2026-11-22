@@ -4,11 +4,11 @@ second_title: Referencia de API de Aspose.Slides para Python a través de .NET
 description: 
 type: docs
 url: /es/aspose.slides.charts/chartdatapoint/data_point_levels/
-weight: 100
+weight: 140
 ---
 ## data_point_levels propiedad
-Devuelve el contenedor de niveles de punto de datos. Aplicado para series Treeamp y Sunburst.
-            La indexación de niveles de punto de datos comienza en cero.
+Devuelve un contenedor de niveles de punto de datos. Aplicado a series Treeamp y Sunburst.
+La indexación de los niveles de punto de datos es basada en cero.
 
 ### Definición:
 ```python

@@ -4,10 +4,10 @@ second_title: Aspose.Slides pro Python přes .NET API Reference
 description: 
 type: docs
 url: /cs/aspose.slides.lowcode/compress/remove_unused_master_slides/
-weight: 30
+weight: 50
 ---
 ## remove_unused_master_slides(pres) {#presentation}
-Provede kompresi [`Presentation`](/slides/python-net/cs/aspose.slides/presentation) odstraněním nepoužitých hlavních snímků.
+Provádí kompresi [`Presentation`](/slides/python-net/cs/aspose.slides/presentation) odebráním nepoužívaných hlavních snímků.
 
 ```python
 @staticmethod

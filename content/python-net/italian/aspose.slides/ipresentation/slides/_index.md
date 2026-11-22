@@ -4,11 +4,11 @@ second_title: Aspose.Slides per Python via .NET Riferimento API
 description: 
 type: docs
 url: /it/aspose.slides/ipresentation/slides/
-weight: 350
+weight: 360
 ---
 ## slides proprietà
-Restituisce un elenco di tutte le diapositive definite nella presentazione.
-            Sola lettura [`ISlideCollection`](/it/slides/python-net/aspose.slides/islidecollection).
+Restituisce un elenco di tutte le slides che sono definite nella presentazione.
+            Solo lettura [`ISlideCollection`](/it/slides/python-net/aspose.slides/islidecollection).
 
 ### Definizione:
 ```python

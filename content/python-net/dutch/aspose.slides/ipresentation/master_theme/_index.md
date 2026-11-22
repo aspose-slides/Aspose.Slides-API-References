@@ -4,11 +4,11 @@ second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides/ipresentation/master_theme/
-weight: 270
+weight: 280
 ---
 ## master_theme eigenschap
 Retourneert het masterthema van de presentatie.
-            Alleen-lezen [`IMasterTheme`](/slides/python-net/nl/aspose.slides.theme/imastertheme).
+Alleen-lezen [`IMasterTheme`](/slides/python-net/nl/aspose.slides.theme/imastertheme).
 
 ### Definitie:
 ```python
@@ -16,7 +16,6 @@ Retourneert het masterthema van de presentatie.
 def master_theme(self):
     ...
 ```
-
 
 ### Zie ook
 * klasse [`IMasterTheme`](/slides/python-net/nl/aspose.slides.theme/imastertheme)

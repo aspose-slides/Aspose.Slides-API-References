@@ -4,9 +4,9 @@ second_title: Riferimento API Aspose.Slides per Python via .NET
 description: 
 type: docs
 url: /it/aspose.slides/ipresentation/presentation/
-weight: 300
+weight: 310
 ---
-## presentation proprietà
+## proprietà di presentazione
 ### Definizione:
 ```python
 @property

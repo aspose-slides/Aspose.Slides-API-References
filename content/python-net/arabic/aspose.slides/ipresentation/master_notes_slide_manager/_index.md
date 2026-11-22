@@ -1,12 +1,12 @@
 ---
 title: master_notes_slide_manager property
-second_title: مرجع API لـ Aspose.Slides للبايثون عبر .NET
+second_title: Aspose.Slides لبايثون عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides/ipresentation/master_notes_slide_manager/
-weight: 260
+weight: 270
 ---
-## master_notes_slide_manager خاصية
+## master_notes_slide_manager الخاصية
 يرجع مدير الملاحظات الرئيسي.
             قراءة فقط [`IMasterNotesSlideManager`](/slides/python-net/ar/aspose.slides/imasternotesslidemanager).
 

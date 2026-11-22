@@ -1,6 +1,6 @@
 ---
 title: IVideoFrame class
-second_title: Aspose.Slides Pythonhoz .NET-en keresztül API referencia
+second_title: Aspose.Slides a Pythonhoz a .NET API referencia
 description: 
 type: docs
 url: /hu/aspose.slides/ivideoframe/
@@ -13,19 +13,20 @@ The IVideoFrame type exposes the following members:
 
 ## Tulajdonságok
 
-| Tulajdonság | Leírás |
+| Property | Description |
 | :- | :- |
-| [`rewind_video`](/slides/python-net/hu/aspose.slides/ivideoframe/rewind_video/) | Megadja, hogy egy videó automatikusan visszatekerődik-e az elejére<br/>            amint a film lejátszása befejeződött.<br/>            Olvasás/írás **bool**. |
-| [`play_loop_mode`](/slides/python-net/hu/aspose.slides/ivideoframe/play_loop_mode/) | Megadja, hogy a videó ismétlődik-e.<br/>            Olvasás/írás **bool**. |
-| [`hide_at_showing`](/slides/python-net/hu/aspose.slides/ivideoframe/hide_at_showing/) | Megadja, hogy a VideoFrame rejtett-e.<br/>            Olvasás/írás **bool**. |
-| [`volume`](/slides/python-net/hu/aspose.slides/ivideoframe/volume/) | Visszaadja vagy beállítja a hang hangerőjét.<br/>            Olvasás/írás [`AudioVolumeMode`](/slides/python-net/hu/aspose.slides/audiovolumemode). |
-| [`play_mode`](/slides/python-net/hu/aspose.slides/ivideoframe/play_mode/) | Visszaadja vagy beállítja a videó lejátszási módját.<br/>            Olvasás/írás [`VideoPlayModePreset`](/slides/python-net/hu/aspose.slides/videoplaymodepreset). |
-| [`full_screen_mode`](/slides/python-net/hu/aspose.slides/ivideoframe/full_screen_mode/) | Megadja, hogy a videó teljes képernyő módban jelenik-e meg.<br/>            Olvasás/írás **bool**. |
-| [`link_path_long`](/slides/python-net/hu/aspose.slides/ivideoframe/link_path_long/) | Visszaadja vagy beállítja egy videófájl nevét, amely egy VideoFrame-hez van kapcsolva.<br/>            Olvasás/írás **str**. |
-| [`embedded_video`](/slides/python-net/hu/aspose.slides/ivideoframe/embedded_video/) | Visszaadja vagy beállítja a beágyazott videóobjektumot.<br/>            Olvasás/írás [`IVideo`](/slides/python-net/hu/aspose.slides/ivideo). |
-| [`trim_from_start`](/slides/python-net/hu/aspose.slides/ivideoframe/trim_from_start/) | Vágás kezdete [ms] |
-| [`trim_from_end`](/slides/python-net/hu/aspose.slides/ivideoframe/trim_from_end/) | Vágás vége [ms] |
-| [`caption_tracks`](/slides/python-net/hu/aspose.slides/ivideoframe/caption_tracks/) | Lekéri a hangkerethez tartozó lezárt feliratok gyűjteményét.<br/>             Ez a tulajdonság csak olvasható, és egy [`ICaptionsCollection`](/slides/python-net/hu/aspose.slides/icaptionscollection)-t ad vissza, amely minden feliratsávot tartalmaz. |
+| [`rewind_video`](/slides/python-net/hu/aspose.slides/ivideoframe/rewind_video/) | Meghatározza, hogy a videót automatikusan vissza kell-e tekerni a kezdetre, amint a film lejátszása befejeződött.<br/>            Olvasás/írás **bool**. |
+| [`play_loop_mode`](/slides/python-net/hu/aspose.slides/ivideoframe/play_loop_mode/) | Meghatározza, hogy a videó ismétlődik-e. Olvasás/írás **bool**. |
+| [`hide_at_showing`](/slides/python-net/hu/aspose.slides/ivideoframe/hide_at_showing/) | Meghatározza, hogy a VideoFrame rejtett-e. Olvasás/írás **bool**. |
+| [`volume`](/slides/python-net/hu/aspose.slides/ivideoframe/volume/) | Visszaadja vagy beállítja a hang hangerőt. Olvasás/írás [`AudioVolumeMode`](/slides/python-net/hu/aspose.slides/audiovolumemode). |
+| [`volume_value`](/slides/python-net/hu/aspose.slides/ivideoframe/volume_value/) | Visszaadja vagy beállítja a pontos videóhangerőt százalékban.<br/>            Az érték százalékban van kifejezve 0 és 100 között. Használja ezt a tulajdonságot<br/>            a hangerőértékek olvasásához vagy beállításához, amelyek pontosabbak, mint a [`IVideoFrame.volume`](/slides/python-net/hu/aspose.slides/ivideoframe/volume) tulajdonságban elérhető előre definiált szintek.<br/>            Olvasás/írás **float**. |
+| [`play_mode`](/slides/python-net/hu/aspose.slides/ivideoframe/play_mode/) | Visszaadja vagy beállítja a videó lejátszási módot. Olvasás/írás [`VideoPlayModePreset`](/slides/python-net/hu/aspose.slides/videoplaymodepreset). |
+| [`full_screen_mode`](/slides/python-net/hu/aspose.slides/ivideoframe/full_screen_mode/) | Meghatározza, hogy a videó teljes képernyős módban jelenik-e meg. Olvasás/írás **bool**. |
+| [`link_path_long`](/slides/python-net/hu/aspose.slides/ivideoframe/link_path_long/) | Visszaadja vagy beállítja egy videofájl nevét, amely a VideoFrame-hez van kapcsolva. Olvasás/írás **str**. |
+| [`embedded_video`](/slides/python-net/hu/aspose.slides/ivideoframe/embedded_video/) | Visszaadja vagy beállítja a beágyazott videóobjektumot. Olvasás/írás [`IVideo`](/slides/python-net/hu/aspose.slides/ivideo). |
+| [`trim_from_start`](/slides/python-net/hu/aspose.slides/ivideoframe/trim_from_start/) | Kivágás kezdete [ms] |
+| [`trim_from_end`](/slides/python-net/hu/aspose.slides/ivideoframe/trim_from_end/) | Kivágás vége [ms] |
+| [`caption_tracks`](/slides/python-net/hu/aspose.slides/ivideoframe/caption_tracks/) | Lekéri a hangkerethez tartozó zárt feliratok gyűjteményét.<br/>            Ez a tulajdonság csak olvasható, és egy [`ICaptionsCollection`](/slides/python-net/hu/aspose.slides/icaptionscollection)-t ad vissza, amely az összes feliratsávot tartalmazza. |
 | [`shape_lock`](/slides/python-net/hu/aspose.slides/ivideoframe/shape_lock/) |  |
 | [`picture_frame_lock`](/slides/python-net/hu/aspose.slides/ivideoframe/picture_frame_lock/) |  |
 | [`picture_format`](/slides/python-net/hu/aspose.slides/ivideoframe/picture_format/) |  |
@@ -68,7 +69,7 @@ The IVideoFrame type exposes the following members:
 
 ## Metódusok
 
-| Metódus | Leírás |
+| Method | Description |
 | :- | :- |
 | [`get_image(self)`](/slides/python-net/hu/aspose.slides/ivideoframe/get_image/#) |  |
 | [`get_image(self, bounds, scale_x, scale_y)`](/slides/python-net/hu/aspose.slides/ivideoframe/get_image/#shapethumbnailbounds-float-float) |  |
@@ -84,4 +85,4 @@ The IVideoFrame type exposes the following members:
 
 ### Lásd még
 * modul [`aspose.slides`](/slides/python-net/hu/aspose.slides)
-* library [`Aspose.Slides`](/slides/python-net)
+* könyvtár [`Aspose.Slides`](/slides/python-net)

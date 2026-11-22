@@ -4,11 +4,11 @@ second_title: Aspose.Slides برای Python از طریق .NET مرجع API
 description: 
 type: docs
 url: /fa/aspose.slides/textframe/parent_shape/
-weight: 120
+weight: 130
 ---
 ## parent_shape ویژگی
-شیء والد را برمی‌گرداند یا None اگر شیء والد رابط IShape را پیاده‌سازی نکرده باشد
-فقط خواندنی [`IShape`](/slides/python-net/fa/aspose.slides/ishape).
+بازمی‌گرداند شکل والد یا None اگر شیء والد رابط IShape را پیاده‌سازی نکند
+            فقط خواندنی [`IShape`](/slides/python-net/fa/aspose.slides/ishape).
 
 ### تعریف:
 ```python

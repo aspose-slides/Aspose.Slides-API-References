@@ -1,10 +1,10 @@
 ---
 title: digital_signatures property
-second_title: Aspose.Slides for Python via .NET API リファレンス
+second_title: Aspose.Slides 用 Python via .NET API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides/presentation/digital_signatures/
-weight: 180
+weight: 190
 ---
 ## digital_signatures プロパティ
 プレゼンテーションに署名するために使用される署名のコレクションを返します。

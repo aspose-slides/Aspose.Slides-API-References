@@ -4,16 +4,16 @@ second_title: Aspose.Slides for Python via .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides/videoframe/y/
-weight: 660
+weight: 670
 ---
-## y özellik
-Şeklin sol üst köşesinin y-koordinatını alır veya ayarlar, puan cinsinden ölçülür.
+## y özelliği
+Şeklin sol üst köşesinin y-koordinatını alır veya ayarlar, ölçüm birimi nokta cinsindendir.
             Okuma/yazma **float**.
 
 
 ### Açıklamalar
 
-Dönen değer her zaman tanımlıdır ve asla **float** değildir.
+Dönen değer her zaman tanımlıdır ve **float** değildir.
             Atanan değer de tanımlı olmalıdır; **float** yalnızca bir `RawFrame` örneğinin özelliklerine atanmalıdır.
 
 ### Tanım:
@@ -28,7 +28,7 @@ def y(self, value):
 ```
 
 
-### Bakınız
+### Ayrıca Bakınız
 * sınıf [`VideoFrame`](/slides/python-net/tr/aspose.slides/videoframe)
 * modül [`aspose.slides`](/slides/python-net/tr/aspose.slides)
 * kütüphane [`Aspose.Slides`](/slides/python-net)

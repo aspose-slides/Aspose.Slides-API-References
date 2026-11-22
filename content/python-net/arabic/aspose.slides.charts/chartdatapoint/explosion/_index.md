@@ -4,10 +4,10 @@ second_title: Aspose.Slides لـ Python عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides.charts/chartdatapoint/explosion/
-weight: 120
+weight: 160
 ---
 ## خاصية الانفجار
-يحدد مقدار تحريك نقطة البيانات من مركز المخطط الدائري.
+تحدد مقدار نقل نقطة البيانات من مركز المخطط الدائري.
             قراءة/كتابة **int**.
 
 ### التعريف:
@@ -20,6 +20,7 @@ def explosion(self):
 def explosion(self, value):
     ...
 ```
+
 
 ### انظر أيضًا
 * فئة [`ChartDataPoint`](/slides/python-net/ar/aspose.slides.charts/chartdatapoint)

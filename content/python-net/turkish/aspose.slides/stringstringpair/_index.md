@@ -5,26 +5,20 @@ description:
 type: docs
 url: /tr/aspose.slides/stringstringpair/
 ---
-## StringStringPair sınıf
+## StringStringPair sınıfı
 
 Yapı, string anahtar ve string değer içerir ve KeyValuePair<string, string> öğesinin geçici bir yerine geçer.
 
-StringStringPair türü aşağıdaki üyeleri açığa çıkar:
-
-## Yapıcılar
-
-| Yapıcı | Açıklama |
-| :- | :- |
-| [`__init__(self)`](/slides/python-net/tr/aspose.slides/stringstringpair/__init__/#) |  |
+StringStringPair tipi aşağıdaki üyeleri sunar:
 
 ## Özellikler
 
 | Özellik | Açıklama |
 | :- | :- |
-| [`key`](/slides/python-net/tr/aspose.slides/stringstringpair/key/) | String key |
-| [`value`](/slides/python-net/tr/aspose.slides/stringstringpair/value/) | String value |
+| [`key`](/slides/python-net/tr/aspose.slides/stringstringpair/key/) | String anahtar |
+| [`value`](/slides/python-net/tr/aspose.slides/stringstringpair/value/) | String değer |
 
 
-### Ayrıca Bakınız
+### Başvurular
 * modül [`aspose.slides`](/slides/python-net/tr/aspose.slides)
 * kütüphane [`Aspose.Slides`](/slides/python-net)

@@ -4,10 +4,10 @@ second_title: Référence de l'API Aspose.Slides pour Python via .NET
 description: 
 type: docs
 url: /fr/aspose.slides/ipresentation/hyperlink_queries/
-weight: 220
+weight: 230
 ---
-## hyperlink_queries propriété
-Fournit un accès facile à tous les hyperliens contenus dans toutes les diapositives de la présentation (pas dans les diapositives maître, de mise en page ou de notes).
+## propriété hyperlink_queries
+Fournit un accès facile à tous les hyperliens contenus dans toutes les diapositives de la présentation (pas dans les diapositives maîtres, de mise en page, de notes).
             Lecture seule [`IHyperlinkQueries`](/slides/python-net/fr/aspose.slides/ihyperlinkqueries).
 
 ### Définition:

@@ -7,19 +7,19 @@ url: /fa/aspose.slides.animation/icoloreffect/
 ---
 ## IColorEffect کلاس
 
-نمایش یک افکت رنگی برای یک رفتار انیمیشن است.
+یک افکت رنگی برای رفتار انیمیشن را نمایش می‌دهد.
 
-نوع IColorEffect اعضای زیر را ارائه می‌دهد:
+نوع IColorEffect اعضای زیر را در اختیار می‌گذارد:
 
 ## ویژگی‌ها
 
-| Property | Description |
+| ویژگی | توضیح |
 | :- | :- |
-| [`from_address`](/slides/python-net/fa/aspose.slides.animation/icoloreffect/from_address/) | این مقدار برای تعیین رنگ شروع رفتار استفاده می‌شود.<br/>            خواندن/نوشتن [`IColorFormat`](/slides/python-net/fa/aspose.slides/icolorformat). |
+| [`from_`](/slides/python-net/fa/aspose.slides.animation/icoloreffect/from_/) | این مقدار برای مشخص کردن رنگ شروع رفتار استفاده می‌شود.<br/>            خواندن/نوشتن [`IColorFormat`](/slides/python-net/fa/aspose.slides/icolorformat). |
 | [`to`](/slides/python-net/fa/aspose.slides.animation/icoloreffect/to/) | رنگ حاصل از تغییر رنگ انیمیشن را توصیف می‌کند.<br/>            خواندن/نوشتن [`IColorFormat`](/slides/python-net/fa/aspose.slides/icolorformat). |
 | [`by`](/slides/python-net/fa/aspose.slides.animation/icoloreffect/by/) | مقدار جابجایی نسبی برای انیمیشن رنگ را توصیف می‌کند.<br/>            خواندن/نوشتن [`IColorOffset`](/slides/python-net/fa/aspose.slides.animation/icoloroffset). |
-| [`color_space`](/slides/python-net/fa/aspose.slides.animation/icoloreffect/color_space/) | فضای رنگی رفتار را نشان می‌دهد.<br/>            خواندن/نوشتن [`IColorEffect.color_space`](/slides/python-net/fa/aspose.slides.animation/icoloreffect/color_space). |
-| [`direction`](/slides/python-net/fa/aspose.slides.animation/icoloreffect/direction/) | جهت چرخش هیو در اطراف چرخ رنگ را مشخص می‌کند.<br/>            خواندن/نوشتن [`ColorDirection`](/slides/python-net/fa/aspose.slides.animation/colordirection). |
+| [`color_space`](/slides/python-net/fa/aspose.slides.animation/icoloreffect/color_space/) | فضای رنگی رفتار را نمایان می‌کند.<br/>            خواندن/نوشتن [`IColorEffect.color_space`](/slides/python-net/fa/aspose.slides.animation/icoloreffect/color_space). |
+| [`direction`](/slides/python-net/fa/aspose.slides.animation/icoloreffect/direction/) | جهتی که هیو باید دور چرخ رنگ بچرخد را مشخص می‌کند.<br/>            خواندن/نوشتن [`ColorDirection`](/slides/python-net/fa/aspose.slides.animation/colordirection). |
 | [`accumulate`](/slides/python-net/fa/aspose.slides.animation/icoloreffect/accumulate/) |  |
 | [`additive`](/slides/python-net/fa/aspose.slides.animation/icoloreffect/additive/) |  |
 | [`properties`](/slides/python-net/fa/aspose.slides.animation/icoloreffect/properties/) |  |

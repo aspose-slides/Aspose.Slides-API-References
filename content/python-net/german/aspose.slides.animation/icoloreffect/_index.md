@@ -1,6 +1,6 @@
 ---
 title: IColorEffect class
-second_title: Aspose.Slides für Python über .NET API-Referenz
+second_title: Aspose.Slides für Python via .NET API Referenz
 description: 
 type: docs
 url: /de/aspose.slides.animation/icoloreffect/
@@ -9,17 +9,17 @@ url: /de/aspose.slides.animation/icoloreffect/
 
 Stellt einen Farbeffekt für ein Animationsverhalten dar.
 
-Der Typ IColorEffect stellt die folgenden Member bereit:
+Der IColorEffect-Typ stellt die folgenden Member bereit:
 
 ## Eigenschaften
 
 | Eigenschaft | Beschreibung |
 | :- | :- |
-| [`from_address`](/slides/python-net/de/aspose.slides.animation/icoloreffect/from_address/) | Dieser Wert wird verwendet, um die Startfarbe des Verhaltens anzugeben.<br/>            Lesen/Schreiben [`IColorFormat`](/slides/python-net/de/aspose.slides/icolorformat). |
+| [`from_`](/slides/python-net/de/aspose.slides.animation/icoloreffect/from_/) | Dieser Wert wird verwendet, um die Startfarbe des Verhaltens anzugeben.<br/>            Lesen/Schreiben [`IColorFormat`](/slides/python-net/de/aspose.slides/icolorformat). |
 | [`to`](/slides/python-net/de/aspose.slides.animation/icoloreffect/to/) | Beschreibt die resultierende Farbe für die Farbänderung der Animation.<br/>            Lesen/Schreiben [`IColorFormat`](/slides/python-net/de/aspose.slides/icolorformat). |
 | [`by`](/slides/python-net/de/aspose.slides.animation/icoloreffect/by/) | Beschreibt den relativen Offsetwert für die Farbanimation.<br/>            Lesen/Schreiben [`IColorOffset`](/slides/python-net/de/aspose.slides.animation/icoloroffset). |
 | [`color_space`](/slides/python-net/de/aspose.slides.animation/icoloreffect/color_space/) | Stellt den Farbraum des Verhaltens dar.<br/>            Lesen/Schreiben [`IColorEffect.color_space`](/slides/python-net/de/aspose.slides.animation/icoloreffect/color_space). |
-| [`direction`](/slides/python-net/de/aspose.slides.animation/icoloreffect/direction/) | Gibt an, in welche Richtung der Farbton im Farbkreis rotiert wird.<br/>            Lesen/Schreiben [`ColorDirection`](/slides/python-net/de/aspose.slides.animation/colordirection). |
+| [`direction`](/slides/python-net/de/aspose.slides.animation/icoloreffect/direction/) | Gibt an, in welche Richtung der Farbton im Farbkreis gedreht werden soll.<br/>            Lesen/Schreiben [`ColorDirection`](/slides/python-net/de/aspose.slides.animation/colordirection). |
 | [`accumulate`](/slides/python-net/de/aspose.slides.animation/icoloreffect/accumulate/) |  |
 | [`additive`](/slides/python-net/de/aspose.slides.animation/icoloreffect/additive/) |  |
 | [`properties`](/slides/python-net/de/aspose.slides.animation/icoloreffect/properties/) |  |

@@ -1,17 +1,17 @@
 ---
 title: value property
-second_title: Aspose.Slides สำหรับ Python ผ่าน .NET เอกสารอ้างอิง API
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET อ้างอิง API
 description: 
 type: docs
 url: /th/aspose.slides.charts/ichartcategory/value/
-weight: 60
+weight: 70
 ---
 ## value คุณสมบัติ
-หาก UseCell เป็น true แล้วคุณสมบัตินี้แทนค่า AsCell.Value คุณสมบัติ.
-            หาก UseCell เป็น false แล้วคุณสมบัตินี้แทนค่า AsLiteral คุณสมบัติ.
-            อ่าน/เขียน **ใด ๆ**.
+ถ้า UseCell เป็น true แล้วคุณสมบัตินี้จะแทนคุณสมบัติ AsCell.Value
+            ถ้า UseCell เป็น false แล้วคุณสมบัตินี้จะแทนคุณสมบัติ AsLiteral
+            อ่าน/เขียน **ใดก็ได้**.
 
-### คำนิยาม:
+### คำจำกัดความ:
 ```python
 @property
 def value(self):

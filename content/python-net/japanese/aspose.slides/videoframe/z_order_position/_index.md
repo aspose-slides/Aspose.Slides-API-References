@@ -4,12 +4,12 @@ second_title: Aspose.Slides for Python via .NET API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides/videoframe/z_order_position/
-weight: 670
+weight: 680
 ---
 ## z_order_position プロパティ
-z-order におけるシェイプの位置を返します。
-            Shapes[0] returns the shape at the back of the z-order,
-            and Shapes[Shapes.Count - 1] returns the shape at the front of the z-order.
+シェイプの z-order における位置を返します。
+            Shapes[0] は z-order の背面にあるシェイプを返します,
+            そして Shapes[Shapes.Count - 1] は z-order の前面にあるシェイプを返します.
             読み取り専用 **int**.
 
 ### 定義:

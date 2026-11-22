@@ -4,7 +4,7 @@ second_title: Aspose.Slides för Python via .NET API-referens
 description: 
 type: docs
 url: /sv/aspose.slides.charts/chartdata/switch_row_column/
-weight: 50
+weight: 60
 ---
 ## switch_row_column(self) {#}
 Byt data över axeln.

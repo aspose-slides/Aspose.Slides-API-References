@@ -1,14 +1,14 @@
 ---
 title: index property
-second_title: Aspose.Slides Pythonhoz .NET API Referencia
+second_title: Aspose.Slides Pythonhoz a .NET-en keresztül API Referencia
 description: 
 type: docs
 url: /hu/aspose.slides.charts/ichartdatapoint/index/
-weight: 140
+weight: 180
 ---
 ## index tulajdonság
 Meghatározza, hogy a szülő gyermekgyűjteményének melyik elemére vonatkozik ez az adatpont.
-            Olvas **int**.
+            Olvasandó **int**.
 
 ### Definíció:
 ```python

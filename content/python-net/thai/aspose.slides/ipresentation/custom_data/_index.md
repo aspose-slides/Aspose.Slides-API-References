@@ -1,13 +1,13 @@
 ---
 title: custom_data property
-second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Reference
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET เอกสารอ้างอิง API
 description: 
 type: docs
 url: /th/aspose.slides/ipresentation/custom_data/
-weight: 150
+weight: 160
 ---
 ## custom_data คุณสมบัติ
-คืนค่าข้อมูลกำหนดเองของการนำเสนอ
+คืนค่าข้อมูลกำหนดเองของงานนำเสนอ.
             อ่านอย่างเดียว [`ICustomData`](/slides/python-net/th/aspose.slides/icustomdata).
 
 ### คำจำกัดความ:
@@ -16,6 +16,7 @@ weight: 150
 def custom_data(self):
     ...
 ```
+
 
 ### ดูเพิ่มเติม
 * คลาส [`ICustomData`](/slides/python-net/th/aspose.slides/icustomdata)

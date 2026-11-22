@@ -1,16 +1,17 @@
 ---
 title: use_secondary_categories property
-second_title: Aspose.Slides for Python via .NET API संदर्भ
+second_title: Aspose.Slides Python के लिए .NET के माध्यम से API संदर्भ
 description: 
 type: docs
 url: /hi/aspose.slides.charts/chartdata/use_secondary_categories/
-weight: 150
+weight: 160
 ---
-## use_secondary_categories प्रॉपर्टी
-यदि false है तो [`ChartData.secondary_categories`](/slides/python-net/hi/aspose.slides.charts/chartdata/secondary_categories) प्रॉपर्टी None लौटाती है और डेटा 
-            [`ChartData.categories`](/slides/python-net/hi/aspose.slides.charts/chartdata/categories) प्रॉपर्टी में प्राथमिक और द्वितीयक दोनों श्रृंखलाओं के लिए उपयोग होता है।
-यदि true है तो [`ChartData.secondary_categories`](/slides/python-net/hi/aspose.slides.charts/chartdata/secondary_categories) प्रॉपर्टी में डेटा द्वितीयक श्रृंखला के लिए उपयोग होता है और [`ChartData.categories`](/slides/python-net/hi/aspose.slides.charts/chartdata/categories) प्रॉपर्टी में डेटा प्राथमिक श्रृंखला के लिए उपयोग होता है।
-पढ़ें/लिखें **bool**.
+## use_secondary_categories गुण
+यदि false तो [`ChartData.secondary_categories`](/slides/python-net/hi/aspose.slides.charts/chartdata/secondary_categories) गुण None लौटाता है और डेटा 
+            [`ChartData.categories`](/slides/python-net/hi/aspose.slides.charts/chartdata/categories) गुण में दोनों प्राथमिक और द्वितीयक श्रृंखला के लिये उपयोग किया जाता है।
+यदि true तो [`ChartData.secondary_categories`](/slides/python-net/hi/aspose.slides.charts/chartdata/secondary_categories) गुण में डेटा द्वितीयक श्रृंखला के लिये उपयोग किया जाता है और डेटा 
+            [`ChartData.categories`](/slides/python-net/hi/aspose.slides.charts/chartdata/categories) गुण में प्राथमिक श्रृंखला के लिये उपयोग किया जाता है।
+पढ़ने/लिखने योग्य **bool**.
 
 ### परिभाषा:
 ```python
@@ -23,7 +24,7 @@ def use_secondary_categories(self, value):
     ...
 ```
 
-### देखें
+### संबंधित देखें
 * क्लास [`ChartData`](/slides/python-net/hi/aspose.slides.charts/chartdata)
 * मॉड्यूल [`aspose.slides.charts`](/slides/python-net/hi/aspose.slides.charts)
 * लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

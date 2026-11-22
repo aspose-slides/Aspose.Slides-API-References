@@ -1,10 +1,10 @@
 ---
 title: remove_unused_layout_slides method
-second_title: Aspose.Slides for Python via .NET API 참조
+second_title: Aspose.Slides for Python via .NET API 레퍼런스
 description: 
 type: docs
 url: /ko/aspose.slides.lowcode/compress/remove_unused_layout_slides/
-weight: 20
+weight: 40
 ---
 ## remove_unused_layout_slides(pres) {#presentation}
 사용되지 않은 레이아웃 슬라이드를 제거하여 [`Presentation`](/slides/python-net/ko/aspose.slides/presentation)의 압축을 수행합니다.
@@ -23,7 +23,7 @@ def remove_unused_layout_slides(pres):
 
 
 
-### 참고
+### 관련 항목
 * 클래스 [`Compress`](/slides/python-net/ko/aspose.slides.lowcode/compress)
 * 클래스 [`Presentation`](/slides/python-net/ko/aspose.slides/presentation)
 * 모듈 [`aspose.slides.lowcode`](/slides/python-net/ko/aspose.slides.lowcode)

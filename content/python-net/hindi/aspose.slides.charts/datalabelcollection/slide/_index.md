@@ -1,12 +1,12 @@
 ---
 title: slide property
-second_title: Aspose.Slides Python के लिए .NET के माध्यम से API संदर्भ
+second_title: Aspose.Slides for Python via .NET API संदर्भ
 description: 
 type: docs
 url: /hi/aspose.slides.charts/datalabelcollection/slide/
-weight: 160
+weight: 170
 ---
-## slide प्रॉपर्टी
+## slide property
 ### परिभाषा:
 ```python
 @property
@@ -15,7 +15,7 @@ def slide(self):
 ```
 
 
-### संबंधित देखें
-* क्लास [`DataLabelCollection`](/slides/python-net/hi/aspose.slides.charts/datalabelcollection)
+### और देखें
+* वर्ग [`DataLabelCollection`](/slides/python-net/hi/aspose.slides.charts/datalabelcollection)
 * मॉड्यूल [`aspose.slides.charts`](/slides/python-net/hi/aspose.slides.charts)
 * लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

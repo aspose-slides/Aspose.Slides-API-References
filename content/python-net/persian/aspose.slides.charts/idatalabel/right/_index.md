@@ -1,12 +1,12 @@
 ---
 title: right property
-second_title: Aspose.Slides برای Python از طریق .NET مرجع API
+second_title: Aspose.Slides برای پایتون از طریق .NET مرجع API
 description: 
 type: docs
 url: /fa/aspose.slides.charts/idatalabel/right/
-weight: 200
+weight: 210
 ---
-## right ویژگی
+## right خاصیت
 ### تعریف:
 ```python
 @property

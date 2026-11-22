@@ -1,10 +1,10 @@
 ---
 title: presentation property
-second_title: Aspose.Slides Python için .NET API Referansı
+second_title: Aspose.Slides for Python via .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides.charts/idatalabel/presentation/
-weight: 190
+weight: 200
 ---
 ## sunum özelliği
 ### Tanım:

@@ -1,14 +1,14 @@
 ---
 title: right property
-second_title: Aspose.Slides για Python μέσω .NET Αναφορά API
+second_title: Αναφορά API Aspose.Slides για Python μέσω .NET
 description: 
 type: docs
 url: /el/aspose.slides.charts/datalabel/right/
-weight: 210
+weight: 220
 ---
 ## right ιδιότητα
-Right.
-Μόνο ανάγνωση **float**.
+Δεξιά.
+            Μόνο ανάγνωση **float**.
 
 ### Ορισμός:
 ```python
@@ -16,6 +16,7 @@ Right.
 def right(self):
     ...
 ```
+
 
 ### Δείτε επίσης
 * κλάση [`DataLabel`](/slides/python-net/el/aspose.slides.charts/datalabel)

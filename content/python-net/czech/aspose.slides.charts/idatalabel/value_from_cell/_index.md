@@ -4,10 +4,10 @@ second_title: Aspose.Slides pro Python přes .NET API Reference
 description: 
 type: docs
 url: /cs/aspose.slides.charts/idatalabel/value_from_cell/
-weight: 240
+weight: 250
 ---
 ## value_from_cell vlastnost
-Získá nebo nastaví buňku dat sešitu. Použije se, pokud je vlastnost IDataLabelFormat.ShowLabelValueFromCell nastavena na true.
+Získá nebo nastaví buňku dat sešitu. Použito, pokud je vlastnost IDataLabelFormat.ShowLabelValueFromCell rovna true.
 
 ### Definice:
 ```python
@@ -24,4 +24,4 @@ def value_from_cell(self, value):
 ### Viz také
 * třída [`IDataLabel`](/slides/python-net/cs/aspose.slides.charts/idatalabel)
 * modul [`aspose.slides.charts`](/slides/python-net/cs/aspose.slides.charts)
-* library [`Aspose.Slides`](/slides/python-net)
+* knihovna [`Aspose.Slides`](/slides/python-net)

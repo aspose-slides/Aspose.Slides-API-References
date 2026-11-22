@@ -1,19 +1,20 @@
 ---
 title: y property
-second_title: Aspose.Slides للـ Python عبر .NET مرجع API
+second_title: Aspose.Slides لبايثون عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides/videoframe/y/
-weight: 660
+weight: 670
 ---
-## الخاصية y
-يسترجع أو يعيّن إحداثي y للزاوية العليا اليسرى للشكل، مقاسة بالنقاط.
+## خاصية y
+تحصل أو تعين إحداثي y للزاوية العلوية اليسرى للشكل، مقاسًا بالنقاط.
             قراءة/كتابة **float**.
+
 
 ### ملاحظات
 
-القيمة المعادة دائمًا محددة ولا تكون أبدًا **float**.
-            القيمة المعينة يجب أيضًا أن تكون محددة؛ عيّن **float** فقط للخصائص الخاصة بكائن `RawFrame`.
+القيمة المعادة دائمًا معرفة ولا تكون أبدًا **float**.
+            يجب أن تكون القيمة المعينة أيضًا معرفة؛ عيّن **float** فقط لخصائص كائن `RawFrame`.
 
 ### التعريف:
 ```python
@@ -25,6 +26,7 @@ def y(self):
 def y(self, value):
     ...
 ```
+
 
 ### انظر أيضًا
 * فئة [`VideoFrame`](/slides/python-net/ar/aspose.slides/videoframe)

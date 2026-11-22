@@ -1,10 +1,10 @@
 ---
 title: embedded_workbook_type property
-second_title: Aspose.Slides para Python mediante la referencia de API de .NET
+second_title: Referencia de API de Aspose.Slides para Python vía .NET
 description: 
 type: docs
 url: /es/aspose.slides.charts/chartdata/embedded_workbook_type/
-weight: 100
+weight: 110
 ---
 ## embedded_workbook_type propiedad
 Obtiene el tipo del libro de trabajo incrustado.

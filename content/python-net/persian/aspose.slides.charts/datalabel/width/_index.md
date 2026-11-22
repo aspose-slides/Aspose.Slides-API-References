@@ -1,14 +1,14 @@
 ---
 title: width property
-second_title: مرجع API Aspose.Slides برای پایتون از طریق .NET
+second_title: Aspose.Slides برای Python از طریق .NET مرجع API
 description: 
 type: docs
 url: /fa/aspose.slides.charts/datalabel/width/
-weight: 260
+weight: 270
 ---
-## width خاصیت
-عرض یک عنوان را به‌صورت کسر از عرض نمودار برمی‌گرداند یا تنظیم می‌کند.
-            خواندن/نوشتن **float**.
+## خاصیت width
+عرض یک عنوان را به عنوان کسری از عرض نمودار برمی‌گرداند یا تنظیم می‌کند.
+            خواندنی/نوشتنی **float**.
 
 ### تعریف:
 ```python

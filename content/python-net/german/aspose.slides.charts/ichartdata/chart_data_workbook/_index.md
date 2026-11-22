@@ -4,10 +4,10 @@ second_title: Aspose.Slides für Python über .NET API-Referenz
 description: 
 type: docs
 url: /de/aspose.slides.charts/ichartdata/chart_data_workbook/
-weight: 80
+weight: 90
 ---
 ## chart_data_workbook Eigenschaft
-Gibt die Zellenfabrik zurück, um Zellen zu erzeugen, die für Diagrammserien oder -kategorien verwendet werden.
+Ruft die Zellenfabrik ab, um Zellen zu erstellen, die für Diagrammserien oder -kategorien verwendet werden.
             Nur lesbar [`IChartDataWorkbook`](/slides/python-net/de/aspose.slides.charts/ichartdataworkbook).
 
 ### Definition:

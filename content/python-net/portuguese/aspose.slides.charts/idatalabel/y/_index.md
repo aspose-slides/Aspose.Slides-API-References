@@ -4,7 +4,7 @@ second_title: Referência da API Aspose.Slides para Python via .NET
 description: 
 type: docs
 url: /pt/aspose.slides.charts/idatalabel/y/
-weight: 270
+weight: 280
 ---
 ## y propriedade
 ### Definição:
@@ -19,7 +19,7 @@ def y(self, value):
 ```
 
 
-### Ver também
+### Veja Também
 * classe [`IDataLabel`](/slides/python-net/pt/aspose.slides.charts/idatalabel)
 * módulo [`aspose.slides.charts`](/slides/python-net/pt/aspose.slides.charts)
 * biblioteca [`Aspose.Slides`](/slides/python-net)

@@ -1,12 +1,12 @@
 ---
 title: slides property
-second_title: Référence de l'API Aspose.Slides pour Python via .NET
+second_title: Référence API Aspose.Slides pour Python via .NET
 description: 
 type: docs
 url: /fr/aspose.slides/presentation/slides/
-weight: 370
+weight: 380
 ---
-## slides propriété
+## propriété slides
 Renvoie une liste de toutes les diapositives qui sont définies dans la présentation.
             Lecture seule [`ISlideCollection`](/fr/slides/python-net/aspose.slides/islidecollection).
 

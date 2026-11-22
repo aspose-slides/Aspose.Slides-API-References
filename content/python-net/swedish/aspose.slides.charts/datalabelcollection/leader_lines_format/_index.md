@@ -4,10 +4,10 @@ second_title: Aspose.Slides för Python via .NET API-referens
 description: 
 type: docs
 url: /sv/aspose.slides.charts/datalabelcollection/leader_lines_format/
-weight: 130
+weight: 140
 ---
 ## leader_lines_format egenskap
-Representerar formatet för ledlinjer för datamärkning.
+Representerar format för ledlinjer för dataetiketter.
 Skrivskyddad [`IChartLinesFormat`](/slides/python-net/sv/aspose.slides.charts/ichartlinesformat).
 
 ### Definition:
@@ -18,7 +18,7 @@ def leader_lines_format(self):
 ```
 
 
-### Se också
+### Se även
 * klass [`DataLabelCollection`](/slides/python-net/sv/aspose.slides.charts/datalabelcollection)
 * klass [`IChartLinesFormat`](/slides/python-net/sv/aspose.slides.charts/ichartlinesformat)
 * modul [`aspose.slides.charts`](/slides/python-net/sv/aspose.slides.charts)

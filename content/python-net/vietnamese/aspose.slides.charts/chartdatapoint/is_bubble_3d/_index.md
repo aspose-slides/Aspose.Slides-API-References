@@ -1,14 +1,14 @@
 ---
 title: is_bubble_3d property
-second_title: Tham chiếu API Aspose.Slides cho Python qua .NET
+second_title: Aspose.Slides cho Python qua .NET Tham chiếu API
 description: 
 type: docs
 url: /vi/aspose.slides.charts/chartdatapoint/is_bubble_3d/
-weight: 160
+weight: 200
 ---
 ## is_bubble_3d thuộc tính
-Xác định rằng các bong bóng có hiệu ứng 3D được áp dụng lên chúng.
-Đọc/ghi **bool**.
+Chỉ định rằng các bong bóng có hiệu ứng 3-D được áp dụng cho chúng.
+            Đọc/ghi **bool**.
 
 ### Định nghĩa:
 ```python
@@ -21,7 +21,8 @@ def is_bubble_3d(self, value):
     ...
 ```
 
+
 ### Xem thêm
 * lớp [`ChartDataPoint`](/slides/python-net/vi/aspose.slides.charts/chartdatapoint)
-* mô-đun [`aspose.slides.charts`](/slides/python-net/vi/aspose.slides.charts)
+* module [`aspose.slides.charts`](/slides/python-net/vi/aspose.slides.charts)
 * thư viện [`Aspose.Slides`](/slides/python-net)

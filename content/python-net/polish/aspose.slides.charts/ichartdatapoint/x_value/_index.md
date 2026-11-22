@@ -1,10 +1,10 @@
 ---
 title: x_value property
-second_title: Aspose.Slides dla Pythona przez .NET API Reference
+second_title: Aspose.Slides dla Pythona przez .NET – Dokumentacja API
 description: 
 type: docs
 url: /pl/aspose.slides.charts/ichartdatapoint/x_value/
-weight: 230
+weight: 270
 ---
 ## x_value właściwość
 Zwraca wartość x punktu danych wykresu.

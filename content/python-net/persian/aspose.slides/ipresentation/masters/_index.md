@@ -4,11 +4,11 @@ second_title: Aspose.Slides برای Python از طریق .NET مرجع API
 description: 
 type: docs
 url: /fa/aspose.slides/ipresentation/masters/
-weight: 280
+weight: 290
 ---
-## masters ویژگی
-فهرستی از تمام اسلایدهای master که در ارائه تعریف شده‌اند را برمی‌گرداند.
-فقط-خواندنی [`IMasterSlideCollection`](/slides/python-net/fa/aspose.slides/imasterslidecollection).
+## ویژگی masters
+Returns a list of all master slides that are defined in the presentation.
+Read-only [`IMasterSlideCollection`](/slides/python-net/fa/aspose.slides/imasterslidecollection).
 
 ### تعریف:
 ```python
@@ -17,7 +17,8 @@ def masters(self):
     ...
 ```
 
-### همچنین ببینید
+
+### موارد مرتبط
 * کلاس [`IMasterSlideCollection`](/slides/python-net/fa/aspose.slides/imasterslidecollection)
 * کلاس [`IPresentation`](/slides/python-net/fa/aspose.slides/ipresentation)
 * ماژول [`aspose.slides`](/slides/python-net/fa/aspose.slides)

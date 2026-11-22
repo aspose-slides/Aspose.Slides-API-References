@@ -1,14 +1,14 @@
 ---
 title: explosion property
-second_title: Aspose.Slides for Python via .NET API 레퍼런스
+second_title: Aspose.Slides for Python via .NET API 참조
 description: 
 type: docs
 url: /ko/aspose.slides.charts/ichartdatapoint/explosion/
-weight: 120
+weight: 160
 ---
-## explosion 속성
+## 폭발 속성
 Specifies the amount the data point shall be moved from the center of the pie.
-읽기/쓰기 **int**.
+            읽기/쓰기 **int**.
 
 ### 정의:
 ```python
@@ -20,6 +20,7 @@ def explosion(self):
 def explosion(self, value):
     ...
 ```
+
 
 ### 참고
 * 클래스 [`IChartDataPoint`](/slides/python-net/ko/aspose.slides.charts/ichartdatapoint)

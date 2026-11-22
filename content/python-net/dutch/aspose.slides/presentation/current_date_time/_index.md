@@ -4,12 +4,12 @@ second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides/presentation/current_date_time/
-weight: 150
+weight: 160
 ---
 ## current_date_time eigenschap
 Retourneert of stelt datum en tijd in die de inhoud van datetime-velden zal vervangen.
-            Tijd van de creatie van dit Presentation-object standaard.
-            Lezen/schrijven **System.DateTime**.
+            Tijd van deze Presentation-objectcreatie standaard.
+            Lezen/Schrijven **System.DateTime**.
 
 ### Definitie:
 ```python

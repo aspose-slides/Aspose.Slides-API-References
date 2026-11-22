@@ -4,10 +4,10 @@ second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides/presentation/videos/
-weight: 400
+weight: 410
 ---
 ## videos eigenschap
-Retourneert de verzameling van alle ingebedde videobestanden in de presentatie.
+Retourneert de collectie van alle ingebedde videobestanden in de presentatie.
             Alleen-lezen [`IVideoCollection`](/slides/python-net/nl/aspose.slides/ivideocollection).
 
 ### Definitie:

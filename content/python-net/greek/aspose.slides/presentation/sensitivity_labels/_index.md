@@ -4,11 +4,11 @@ second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
 description: 
 type: docs
 url: /el/aspose.slides/presentation/sensitivity_labels/
-weight: 340
+weight: 350
 ---
 ## sensitivity_labels ιδιότητα
-Επιστρέφει τη συλλογή των ετικετών ευαισθησίας που εφαρμόζονται στο έγγραφο παρουσίασης.
-Μόνο-ανάγνωση [`ISensitivityLabelCollection`](/slides/python-net/el/aspose.slides/isensitivitylabelcollection).
+Επιστρέφει τη συλλογή των ετικετών ευαισθησίας που έχουν εφαρμοστεί στο έγγραφο παρουσίασης.
+            Μόνο ανάγνωση [`ISensitivityLabelCollection`](/slides/python-net/el/aspose.slides/isensitivitylabelcollection).
 
 ### Ορισμός:
 ```python

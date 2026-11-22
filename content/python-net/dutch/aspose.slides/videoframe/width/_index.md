@@ -4,17 +4,17 @@ second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides/videoframe/width/
-weight: 640
+weight: 650
 ---
 ## width eigenschap
-Gets or sets the width of the shape, measured in points.
-            Lezen/schrijven **float**.
+Haalt of stelt de breedte van de vorm in, gemeten in punten.
+            Lezen/Schrijven **float**.
 
 
 ### Opmerkingen
 
-The value returned is always defined and never **float**.
-            The value assigned must also be defined; assign **float** only to properties of a `RawFrame` instance.
+De geretourneerde waarde is altijd gedefinieerd en nooit **float**.
+            De toegekende waarde moet ook gedefinieerd zijn; wijs **float** alleen toe aan eigenschappen van een `RawFrame` instantie.
 
 ### Definitie:
 ```python

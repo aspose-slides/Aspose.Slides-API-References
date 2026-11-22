@@ -1,6 +1,6 @@
 ---
 title: IVideoFrame class
-second_title: Aspose.Slides для Python через .NET: справочник API
+second_title: Aspose.Slides для Python через .NET справочник API
 description: 
 type: docs
 url: /ru/aspose.slides/ivideoframe/
@@ -9,23 +9,24 @@ url: /ru/aspose.slides/ivideoframe/
 
 Представляет видеоклип на слайде.
 
-Тип IVideoFrame раскрывает следующие члены:
+Тип IVideoFrame содержит следующие члены:
 
 ## Свойства
 
 | Свойство | Описание |
 | :- | :- |
-| [`rewind_video`](/slides/python-net/ru/aspose.slides/ivideoframe/rewind_video/) | Определяет, будет ли видео автоматически перемотываться к началу<br/>            как только воспроизведение фильма завершится.<br/>            Чтение/запись **bool**. |
-| [`play_loop_mode`](/slides/python-net/ru/aspose.slides/ivideoframe/play_loop_mode/) | Определяет, будет ли видео зациклено.<br/>            Чтение/запись **bool**. |
-| [`hide_at_showing`](/slides/python-net/ru/aspose.slides/ivideoframe/hide_at_showing/) | Определяет, скрыт ли VideoFrame.<br/>            Чтение/запись **bool**. |
-| [`volume`](/slides/python-net/ru/aspose.slides/ivideoframe/volume/) | Возвращает или задаёт уровень громкости аудио.<br/>            Чтение/запись [`AudioVolumeMode`](/slides/python-net/ru/aspose.slides/audiovolumemode). |
-| [`play_mode`](/slides/python-net/ru/aspose.slides/ivideoframe/play_mode/) | Возвращает или задаёт режим воспроизведения видео.<br/>            Чтение/запись [`VideoPlayModePreset`](/slides/python-net/ru/aspose.slides/videoplaymodepreset). |
-| [`full_screen_mode`](/slides/python-net/ru/aspose.slides/ivideoframe/full_screen_mode/) | Определяет, отображается ли видео в полноэкранном режиме.<br/>            Чтение/запись **bool**. |
-| [`link_path_long`](/slides/python-net/ru/aspose.slides/ivideoframe/link_path_long/) | Возвращает или задаёт имя видеофайла, связанного с VideoFrame.<br/>            Чтение/запись **str**. |
-| [`embedded_video`](/slides/python-net/ru/aspose.slides/ivideoframe/embedded_video/) | Возвращает или задаёт встроенный объект видео.<br/>            Чтение/запись [`IVideo`](/slides/python-net/ru/aspose.slides/ivideo). |
+| [`rewind_video`](/slides/python-net/ru/aspose.slides/ivideoframe/rewind_video/) | Определяет, будет ли видео автоматически перемотываться к началу сразу после завершения воспроизведения фильма. Чтение/запись **bool**. |
+| [`play_loop_mode`](/slides/python-net/ru/aspose.slides/ivideoframe/play_loop_mode/) | Определяет, будет ли видео зациклено. Чтение/запись **bool**. |
+| [`hide_at_showing`](/slides/python-net/ru/aspose.slides/ivideoframe/hide_at_showing/) | Определяет, скрыт ли VideoFrame. Чтение/запись **bool**. |
+| [`volume`](/slides/python-net/ru/aspose.slides/ivideoframe/volume/) | Возвращает или задаёт уровень громкости аудио. Чтение/запись [`AudioVolumeMode`](/slides/python-net/ru/aspose.slides/audiovolumemode). |
+| [`volume_value`](/slides/python-net/ru/aspose.slides/ivideoframe/volume_value/) | Возвращает или задаёт точный уровень громкости видео в процентах. Значение выражается в процентах от 0 до 100. Используйте это свойство для чтения или установки значений громкости, более точных, чем предопределённые уровни, доступные через свойство [`IVideoFrame.volume`](/slides/python-net/ru/aspose.slides/ivideoframe/volume). Чтение/запись **float**. |
+| [`play_mode`](/slides/python-net/ru/aspose.slides/ivideoframe/play_mode/) | Возвращает или задаёт режим воспроизведения видео. Чтение/запись [`VideoPlayModePreset`](/slides/python-net/ru/aspose.slides/videoplaymodepreset). |
+| [`full_screen_mode`](/slides/python-net/ru/aspose.slides/ivideoframe/full_screen_mode/) | Определяет, отображается ли видео в полноэкранном режиме. Чтение/запись **bool**. |
+| [`link_path_long`](/slides/python-net/ru/aspose.slides/ivideoframe/link_path_long/) | Возвращает или задаёт имя видеофайла, связанного с VideoFrame. Чтение/запись **str**. |
+| [`embedded_video`](/slides/python-net/ru/aspose.slides/ivideoframe/embedded_video/) | Возвращает или задаёт встроенный объект видео. Чтение/запись [`IVideo`](/slides/python-net/ru/aspose.slides/ivideo). |
 | [`trim_from_start`](/slides/python-net/ru/aspose.slides/ivideoframe/trim_from_start/) | Начало обрезки [ms] |
 | [`trim_from_end`](/slides/python-net/ru/aspose.slides/ivideoframe/trim_from_end/) | Конец обрезки [ms] |
-| [`caption_tracks`](/slides/python-net/ru/aspose.slides/ivideoframe/caption_tracks/) | Получает коллекцию закрытых субтитров, связанных с аудио-кадром.<br/>             Это свойство только для чтения и возвращает [`ICaptionsCollection`](/slides/python-net/ru/aspose.slides/icaptionscollection), содержащий все дорожки субтитров. |
+| [`caption_tracks`](/slides/python-net/ru/aspose.slides/ivideoframe/caption_tracks/) | Получает коллекцию закрытых субтитров, связанных с аудио-кадром. Это свойство только для чтения и возвращает [`ICaptionsCollection`](/slides/python-net/ru/aspose.slides/icaptionscollection), содержащий все дорожки субтитров. |
 | [`shape_lock`](/slides/python-net/ru/aspose.slides/ivideoframe/shape_lock/) |  |
 | [`picture_frame_lock`](/slides/python-net/ru/aspose.slides/ivideoframe/picture_frame_lock/) |  |
 | [`picture_format`](/slides/python-net/ru/aspose.slides/ivideoframe/picture_format/) |  |
@@ -82,6 +83,6 @@ url: /ru/aspose.slides/ivideoframe/
 | [`remove_placeholder(self)`](/slides/python-net/ru/aspose.slides/ivideoframe/remove_placeholder/#) |  |
 | [`get_base_placeholder(self)`](/slides/python-net/ru/aspose.slides/ivideoframe/get_base_placeholder/#) |  |
 
-### Смотрите также
+### См. также
 * модуль [`aspose.slides`](/slides/python-net/ru/aspose.slides)
 * библиотека [`Aspose.Slides`](/slides/python-net)

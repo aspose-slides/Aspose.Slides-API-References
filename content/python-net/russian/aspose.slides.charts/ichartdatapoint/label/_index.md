@@ -4,11 +4,11 @@ second_title: Aspose.Slides для Python через .NET справочник A
 description: 
 type: docs
 url: /ru/aspose.slides.charts/ichartdatapoint/label/
-weight: 170
+weight: 210
 ---
-## Свойство label
+## label свойство
 Представляет метку точки данных диаграммы.
-Только для чтения [`IDataLabel`](/slides/python-net/ru/aspose.slides.charts/idatalabel).
+            Только для чтения [`IDataLabel`](/slides/python-net/ru/aspose.slides.charts/idatalabel).
 
 ### Определение:
 ```python

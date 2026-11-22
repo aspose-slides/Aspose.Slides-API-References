@@ -1,14 +1,14 @@
 ---
 title: text_frame_format property
-second_title: Aspose.Slides لـ Python عبر .NET مرجع API
+second_title: Aspose.Slides للبايثون عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides/textframe/text_frame_format/
-weight: 160
+weight: 170
 ---
 ## text_frame_format خاصية
-يعيد كائن التنسيق لهذا كائن TextFrame.
-للقراءة فقط [`ITextFrameFormat`](/slides/python-net/ar/aspose.slides/itextframeformat).
+يرجع كائن التنسيق لهذا كائن TextFrame.
+            قراءة فقط [`ITextFrameFormat`](/slides/python-net/ar/aspose.slides/itextframeformat).
 
 ### التعريف:
 ```python
@@ -16,6 +16,7 @@ weight: 160
 def text_frame_format(self):
     ...
 ```
+
 
 ### انظر أيضًا
 * فئة [`ITextFrameFormat`](/slides/python-net/ar/aspose.slides/itextframeformat)

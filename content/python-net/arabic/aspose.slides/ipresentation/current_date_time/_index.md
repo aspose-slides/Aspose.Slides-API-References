@@ -4,10 +4,10 @@ second_title: Aspose.Slides لبايثون عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides/ipresentation/current_date_time/
-weight: 140
+weight: 150
 ---
-## current_date_time الخاصية
-يعيد أو يضبط التاريخ والوقت الذي سيستبدل محتوى حقول datetime.
+## current_date_time خاصية
+تُعيد أو تعيّن التاريخ والوقت اللذين سيستبدلان محتوى حقول datetime.
             وقت إنشاء كائن Presentation هذا بشكل افتراضي.
             قراءة/كتابة **System.DateTime**.
 

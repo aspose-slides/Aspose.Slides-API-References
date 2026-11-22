@@ -4,11 +4,11 @@ second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
 description: 
 type: docs
 url: /el/aspose.slides/presentation/master_theme/
-weight: 280
+weight: 290
 ---
 ## master_theme ιδιότητα
 Επιστρέφει το κύριο θέμα.
-            Μόνο για ανάγνωση [`IMasterTheme`](/slides/python-net/el/aspose.slides.theme/imastertheme).
+            Μόνο ανάγνωση [`IMasterTheme`](/slides/python-net/el/aspose.slides.theme/imastertheme).
 
 ### Ορισμός:
 ```python
@@ -22,4 +22,4 @@ def master_theme(self):
 * κλάση [`IMasterTheme`](/slides/python-net/el/aspose.slides.theme/imastertheme)
 * κλάση [`Presentation`](/slides/python-net/el/aspose.slides/presentation)
 * μονάδα [`aspose.slides`](/slides/python-net/el/aspose.slides)
-* βιβλιοθήκη [`Aspose.Slides`](/slides/python-net)
+* library [`Aspose.Slides`](/slides/python-net)

@@ -4,11 +4,11 @@ second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
 description: 
 type: docs
 url: /el/aspose.slides.charts/datalabel/x/
-weight: 270
+weight: 280
 ---
 ## x ιδιότητα
 Επιστρέφει ή ορίζει τη συντεταγμένη x ενός τίτλου ως κλάσμα του πλάτους του διαγράμματος.
-            Ανάγνωση/εγγραφή **float**.
+            Ανάγνωση/Εγγραφή **float**.
 
 ### Ορισμός:
 ```python

@@ -1,29 +1,22 @@
 ---
 title: StringStringPair class
-second_title: Aspose.Slides for Python के लिए .NET API संदर्भ
+second_title: Aspose.Slides के लिए Python के माध्यम से .NET API रेफ़रेंस
 description: 
 type: docs
 url: /hi/aspose.slides/stringstringpair/
 ---
 ## StringStringPair क्लास
 
-संरचना में String कुंजी और String मान शामिल हैं और यह KeyValuePair<string, string> का अस्थायी प्रतिस्थापन है।
+Structure में string key और string value होते हैं और यह KeyValuePair<string, string> का अस्थायी प्रतिस्थापन है।
 
-StringStringPair प्रकार निम्न सदस्यों को प्रदर्शित करता है:
+StringStringPair टाइप निम्नलिखित सदस्यों को उजागर करता है:
 
-## कन्स्ट्रक्टर
+## गुण
 
-| कन्स्ट्रक्टर | विवरण |
-| :- | :- |
-| [`__init__(self)`](/slides/python-net/hi/aspose.slides/stringstringpair/__init__/#) |  |
-
-## प्रॉपर्टी
-
-| प्रॉपर्टी | विवरण |
+| गुण | विवरण |
 | :- | :- |
 | [`key`](/slides/python-net/hi/aspose.slides/stringstringpair/key/) | String कुंजी |
 | [`value`](/slides/python-net/hi/aspose.slides/stringstringpair/value/) | String मान |
-
 
 ### संबंधित देखें
 * मॉड्यूल [`aspose.slides`](/slides/python-net/hi/aspose.slides)

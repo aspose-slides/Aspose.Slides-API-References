@@ -4,11 +4,11 @@ second_title: Aspose.Slides برای Python از طریق .NET مرجع API
 description: 
 type: docs
 url: /fa/aspose.slides/ipresentation/slides/
-weight: 350
+weight: 360
 ---
-## ویژگی slides
-یک لیست از تمام اسلایدهایی که در ارائه تعریف شده‌اند را برمی‌گرداند.
-            فقط خواندنی [`ISlideCollection`](/fa/slides/python-net/aspose.slides/islidecollection).
+## slides ویژگی
+یک لیست از تمام slides که در ارائه تعریف شده‌اند را بازمی‌گرداند.
+            فقط-خواندنی [`ISlideCollection`](/fa/slides/python-net/aspose.slides/islidecollection).
 
 ### تعریف:
 ```python

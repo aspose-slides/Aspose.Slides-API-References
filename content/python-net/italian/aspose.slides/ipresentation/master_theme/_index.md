@@ -1,10 +1,10 @@
 ---
 title: master_theme property
-second_title: Aspose.Slides per Python via .NET Riferimento API
+second_title: Riferimento API Aspose.Slides per Python tramite .NET
 description: 
 type: docs
 url: /it/aspose.slides/ipresentation/master_theme/
-weight: 270
+weight: 280
 ---
 ## master_theme proprietà
 Restituisce il tema principale della presentazione.

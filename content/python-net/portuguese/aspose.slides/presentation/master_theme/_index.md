@@ -4,9 +4,9 @@ second_title: Referência da API Aspose.Slides para Python via .NET
 description: 
 type: docs
 url: /pt/aspose.slides/presentation/master_theme/
-weight: 280
+weight: 290
 ---
-## master_theme propriedade
+## propriedade master_theme
 Retorna o tema mestre.
             Somente leitura [`IMasterTheme`](/slides/python-net/pt/aspose.slides.theme/imastertheme).
 
@@ -18,7 +18,7 @@ def master_theme(self):
 ```
 
 
-### Veja Também
+### Veja também
 * classe [`IMasterTheme`](/slides/python-net/pt/aspose.slides.theme/imastertheme)
 * classe [`Presentation`](/slides/python-net/pt/aspose.slides/presentation)
 * módulo [`aspose.slides`](/slides/python-net/pt/aspose.slides)

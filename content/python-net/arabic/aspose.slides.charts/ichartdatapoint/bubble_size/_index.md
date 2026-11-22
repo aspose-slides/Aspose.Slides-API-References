@@ -1,13 +1,13 @@
 ---
 title: bubble_size property
-second_title: مرجع API Aspose.Slides لـ Python عبر .NET
+second_title: مرجع API Aspose.Slides للبايثون عبر .NET
 description: 
 type: docs
 url: /ar/aspose.slides.charts/ichartdatapoint/bubble_size/
 weight: 80
 ---
-## خاصية bubble_size
-Returns the bubble size of chart data point.
+## bubble_size خاصية
+يُجلب حجم الفقاعات لنقطة بيانات المخطط.
             للقراءة فقط [`IDoubleChartValue`](/slides/python-net/ar/aspose.slides.charts/idoublechartvalue).
 
 ### التعريف:

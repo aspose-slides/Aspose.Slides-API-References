@@ -1,15 +1,15 @@
 ---
 title: size_value property
-second_title: مرجع API لـ Aspose.Slides للـ Python عبر .NET
+second_title: Aspose.Slides لـ Python عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides.charts/chartdatapoint/size_value/
-weight: 210
+weight: 250
 ---
-## خاصية size_value
-يرجع قيمة الحجم لنقطة بيانات المخطط.
+## size_value الخاصية
+يعيد قيمة الحجم لنقطة بيانات المخطط.
             يُستخدم مع مخططات Treemap و Sunburst. 
-            قراءة فقط [`IDoubleChartValue`](/slides/python-net/ar/aspose.slides.charts/idoublechartvalue).
+            للقراءة فقط [`IDoubleChartValue`](/slides/python-net/ar/aspose.slides.charts/idoublechartvalue).
 
 ### التعريف:
 ```python
@@ -17,6 +17,7 @@ weight: 210
 def size_value(self):
     ...
 ```
+
 
 ### انظر أيضًا
 * فئة [`ChartDataPoint`](/slides/python-net/ar/aspose.slides.charts/chartdatapoint)

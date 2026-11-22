@@ -1,10 +1,10 @@
 ---
 title: sensitivity_labels property
-second_title: Aspose.Slides per Python via .NET Riferimento API
+second_title: Riferimento API Aspose.Slides per Python via .NET
 description: 
 type: docs
 url: /it/aspose.slides/ipresentation/sensitivity_labels/
-weight: 330
+weight: 340
 ---
 ## sensitivity_labels proprietà
 Restituisce la raccolta di etichette di sensibilità applicate al documento della presentazione.

@@ -4,10 +4,10 @@ second_title: Riferimento API Aspose.Slides per Python via .NET
 description: 
 type: docs
 url: /it/aspose.slides.charts/chartdatapoint/explosion/
-weight: 120
+weight: 160
 ---
-## proprietà explosion
-Specifica la quantità di spostamento del punto dati dal centro della torta.
+## explosion proprietà
+Specifica la quantità con cui il punto dati deve essere spostato dal centro della torta.
             Lettura/scrittura **int**.
 
 ### Definizione:

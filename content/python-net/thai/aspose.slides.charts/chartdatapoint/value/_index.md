@@ -4,10 +4,10 @@ second_title: Aspose.Slides สำหรับ Python ผ่าน .NET เอ�
 description: 
 type: docs
 url: /th/aspose.slides.charts/chartdatapoint/value/
-weight: 220
+weight: 260
 ---
-## value พร็อพเพอร์ตี
-Value.
+## value คุณสมบัติ
+ค่า.
             อ่านอย่างเดียว [`IDoubleChartValue`](/slides/python-net/th/aspose.slides.charts/idoublechartvalue).
 
 ### คำนิยาม:

@@ -1,17 +1,18 @@
 ---
 title: is_visible property
-second_title: Aspose.Slides Pythonhoz .NET-en keresztül API hivatkozás
+second_title: Aspose.Slides Pythonhoz .NET-en keresztül API referencia
 description: 
 type: docs
 url: /hu/aspose.slides.charts/datalabelcollection/is_visible/
-weight: 120
+weight: 130
 ---
 ## is_visible tulajdonság
-False azt jelenti, hogy az adatcímke alapértelmezés szerint nem látható (és ezért a DefaultDataLabelFormat tulajdonság összes Show*-flags (ShowValue, ...) hamis). Csak olvasható **bool**.
+False means that data label is not visible by default (and so all Show*-flags (ShowValue, ...) of the DefaultDataLabelFormat tulajdonság are false). Csak olvasható **bool**.
 
-### Megjegyzések
+### Megjegyzés
 
-Ha az adatcímke alapértelmezés szerint látható, azt alapértelmezés szerint elrejtheted a Hide() metódussal. De ha az adatcímke alapértelmezés szerint nem látható (IsVisible hamis), akkor a data label "alapértelmezés szerint látható" állapotba hozható a Show*-flags (ShowValue, ...) a DefaultDataLabelFormat tulajdonságban true állapotra állításával.
+Ha az adatcímke alapértelmezés szerint látható, a Hide() metódussal teheti azt alapértelmezés szerint rejtetté. 
+De ha az adatcímke alapértelmezés szerint nem látható (IsVisible is false), a Show*-flagjeinek (ShowValue, ...) a DefaultDataLabelFormat tulajdonságban való beállításával true állapotra teheti az adatcímkét „alapértelmezés szerint láthatóvá”.
 
 ### Definíció:
 ```python

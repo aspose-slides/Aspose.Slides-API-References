@@ -1,14 +1,14 @@
 ---
 title: paragraphs property
-second_title: Aspose.Slides für Python über .NET API-Referenz
+second_title: Aspose.Slides für Python via .NET API-Referenz
 description: 
 type: docs
 url: /de/aspose.slides/textframe/paragraphs/
-weight: 100
+weight: 110
 ---
-## Absätze Eigenschaft
+## paragraphs Eigenschaft
 Gibt die Liste aller Absätze in einem Rahmen zurück.
-            Nur lesbar [`IParagraphCollection`](/slides/python-net/de/aspose.slides/iparagraphcollection).
+            Nur-Lesen [`IParagraphCollection`](/slides/python-net/de/aspose.slides/iparagraphcollection).
 
 ### Definition:
 ```python

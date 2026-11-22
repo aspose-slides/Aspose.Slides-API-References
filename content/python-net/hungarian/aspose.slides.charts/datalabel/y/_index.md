@@ -1,14 +1,14 @@
 ---
 title: y property
-second_title: Aspose.Slides a Python számára .NET-en keresztül API-referencia
+second_title: Aspose.Slides Pythonhoz .NET-en keresztül API referencia
 description: 
 type: docs
 url: /hu/aspose.slides.charts/datalabel/y/
-weight: 280
+weight: 290
 ---
 ## y tulajdonság
 Visszaadja vagy beállítja a cím y koordinátáját a diagram magasságának tört részében.
-Olvasás/írás **float**.
+            Olvasás/írás **float**.
 
 ### Definíció:
 ```python

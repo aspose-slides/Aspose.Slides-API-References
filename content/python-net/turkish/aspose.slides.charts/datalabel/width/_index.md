@@ -4,11 +4,11 @@ second_title: Aspose.Slides for Python via .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides.charts/datalabel/width/
-weight: 260
+weight: 270
 ---
-## genişlik özelliği
-Bir başlığın genişliğini, grafiğin genişliğinin bir kesri olarak döndürür veya ayarlar.
-            Okunabilir/Yazılabilir **float**.
+## width özelliği
+Bir başlığın width değerini, grafiğin width değerinin bir kesri olarak döndürür veya ayarlar.
+            Okunur/Yazılır **float**.
 
 ### Tanım:
 ```python
@@ -21,8 +21,7 @@ def width(self, value):
     ...
 ```
 
-
-### İlgili
+### Diğer Bilgiler
 * sınıf [`DataLabel`](/slides/python-net/tr/aspose.slides.charts/datalabel)
 * modül [`aspose.slides.charts`](/slides/python-net/tr/aspose.slides.charts)
 * kütüphane [`Aspose.Slides`](/slides/python-net)

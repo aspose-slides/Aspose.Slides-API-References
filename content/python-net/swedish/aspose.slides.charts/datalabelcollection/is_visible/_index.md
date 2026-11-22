@@ -4,15 +4,18 @@ second_title: Aspose.Slides för Python via .NET API-referens
 description: 
 type: docs
 url: /sv/aspose.slides.charts/datalabelcollection/is_visible/
-weight: 120
+weight: 130
 ---
 ## is_visible egenskap
-False betyder att dataetiketten inte är synlig som standard (och därför är alla Show*-flags (ShowValue, ...) för egenskapen DefaultDataLabelFormat falska). Skrivskyddad **bool**.
+False betyder att dataetikett inte är synlig som standard (och så alla 
+            Show*-flags (ShowValue, ...) av DefaultDataLabelFormat egenskapen är falska).
+            Skrivskyddad **bool**.
 
 
 ### Anmärkningar
 
-Om dataetiketten är synlig som standard kan du göra den dold som standard med metoden Hide(). Men om dataetiketten inte är synlig som standard (IsVisible är false) kan du göra dataetiketten "synlig som standard" genom att ställa in Show*-flags (ShowValue, ...) för egenskapen DefaultDataLabelFormat till true state.
+Om dataetikett är synlig som standard kan du göra den dold som standard med Hide()-metoden.
+            Men om dataetikett inte är synlig som standard (IsVisible är false) kan du göra dataetikett "synlig som standard" genom att sätta Show*-flags (ShowValue, ...) på DefaultDataLabelFormat egenskapen till sant tillstånd.
 
 ### Definition:
 ```python

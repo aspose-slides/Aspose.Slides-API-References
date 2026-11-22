@@ -1,14 +1,14 @@
 ---
 title: color_value property
-second_title: Aspose.Slides a Pythonhoz, .NET API hivatkozás
+second_title: Aspose.Slides a Python számára .NET API hivatkozás
 description: 
 type: docs
 url: /hu/aspose.slides.charts/chartdatapoint/color_value/
-weight: 90
+weight: 130
 ---
 ## color_value tulajdonság
 Visszaadja a diagram adatpont színértékét.
-            Használható térképes diagramoknál. 
+            Map diagramokban használható. 
             Csak olvasható [`IDoubleChartValue`](/slides/python-net/hu/aspose.slides.charts/idoublechartvalue).
 
 ### Definíció:

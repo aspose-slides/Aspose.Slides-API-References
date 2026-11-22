@@ -1,13 +1,13 @@
 ---
 title: slide property
-second_title: Aspose.Slides لـ Python عبر .NET مرجع API
+second_title: Aspose.Slides لـ Python عبر .NET API Reference
 description: 
 type: docs
 url: /ar/aspose.slides/textframe/slide/
-weight: 140
+weight: 150
 ---
-## slide الخاصية
-يعيد الشريحة الأصلية لـ TextFrame.
+## خاصية slide
+يعيد الـ slide الأصلية لـ TextFrame.
             للقراءة فقط [`IBaseSlide`](/slides/python-net/ar/aspose.slides/ibaseslide).
 
 ### التعريف:
@@ -21,5 +21,5 @@ def slide(self):
 ### انظر أيضًا
 * فئة [`IBaseSlide`](/slides/python-net/ar/aspose.slides/ibaseslide)
 * فئة [`TextFrame`](/slides/python-net/ar/aspose.slides/textframe)
-* وحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
-* مكتبة [`Aspose.Slides`](/slides/python-net)
+* الوحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
+* المكتبة [`Aspose.Slides`](/slides/python-net)

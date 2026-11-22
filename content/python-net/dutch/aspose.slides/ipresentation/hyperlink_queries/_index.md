@@ -4,10 +4,10 @@ second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides/ipresentation/hyperlink_queries/
-weight: 220
+weight: 230
 ---
 ## hyperlink_queries eigenschap
-Biedt gemakkelijke toegang tot alle hyperlinks die zich in alle presentatieslides bevinden (niet in master, layout, notitieslides).
+Biedt gemakkelijke toegang tot alle hyperlinks die zich bevinden in alle presentatieslides (niet in master-, lay-out- en notitieslides).
             Alleen-lezen [`IHyperlinkQueries`](/slides/python-net/nl/aspose.slides/ihyperlinkqueries).
 
 ### Definitie:

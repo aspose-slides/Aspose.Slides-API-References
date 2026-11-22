@@ -4,9 +4,9 @@ second_title: Aspose.Slides för Python via .NET API-referens
 description: 
 type: docs
 url: /sv/aspose.slides.charts/chartdatapoint/value/
-weight: 220
+weight: 260
 ---
-## value egenskap
+## Värdeegenskap
 Värde.
             Skrivskyddad [`IDoubleChartValue`](/slides/python-net/sv/aspose.slides.charts/idoublechartvalue).
 

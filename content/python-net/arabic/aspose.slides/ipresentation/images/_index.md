@@ -4,11 +4,11 @@ second_title: Aspose.Slides لـ Python عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides/ipresentation/images/
-weight: 230
+weight: 240
 ---
-## images خاصية
-إرجاع مجموعة جميع images في العرض التقديمي.
-            للقراءة فقط [`IImageCollection`](/slides/python-net/ar/aspose.slides/iimagecollection).
+## خاصية images
+يرجع مجموعة جميع الصور في العرض التقديمي.
+للقراءة فقط [`IImageCollection`](/slides/python-net/ar/aspose.slides/iimagecollection).
 
 ### التعريف:
 ```python

@@ -1,13 +1,13 @@
 ---
 title: index property
-second_title: Aspose.Slides για Python μέσω .NET Αναφορά API
+second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
 description: 
 type: docs
 url: /el/aspose.slides.charts/ichartdatapoint/index/
-weight: 140
+weight: 180
 ---
-## ιδιότητα index
-Καθορίζει σε ποιον από τη συλλογή των παιδιών του γονέα εφαρμόζεται αυτό το σημείο δεδομένων.
+## index ιδιότητα
+Καθορίζει σε ποια από τη συλλογή παιδιών του γονέα εφαρμόζεται αυτό το σημείο δεδομένων.
             Ανάγνωση **int**.
 
 ### Ορισμός:

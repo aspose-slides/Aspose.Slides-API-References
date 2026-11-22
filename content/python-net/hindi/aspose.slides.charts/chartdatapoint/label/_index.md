@@ -1,14 +1,14 @@
 ---
 title: label property
-second_title: Aspose.Slides for Python के माध्यम से .NET API संदर्भ
+second_title: Aspose.Slides के लिए Python के माध्यम से .NET API संदर्भ
 description: 
 type: docs
 url: /hi/aspose.slides.charts/chartdatapoint/label/
-weight: 170
+weight: 210
 ---
-## लेबल गुण
+## लेबल प्रॉपर्टी
 लेबल।
-केवल-पढ़ने योग्य [`IDataLabel`](/slides/python-net/hi/aspose.slides.charts/idatalabel).
+            केवल पढ़ने योग्य [`IDataLabel`](/slides/python-net/hi/aspose.slides.charts/idatalabel).
 
 ### परिभाषा:
 ```python
@@ -17,7 +17,8 @@ def label(self):
     ...
 ```
 
-### अन्य देखें
+
+### संबंधित देखें
 * क्लास [`ChartDataPoint`](/slides/python-net/hi/aspose.slides.charts/chartdatapoint)
 * क्लास [`IDataLabel`](/slides/python-net/hi/aspose.slides.charts/idatalabel)
 * मॉड्यूल [`aspose.slides.charts`](/slides/python-net/hi/aspose.slides.charts)

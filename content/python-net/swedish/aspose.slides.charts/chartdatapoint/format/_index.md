@@ -4,7 +4,7 @@ second_title: Aspose.Slides för Python via .NET API-referens
 description: 
 type: docs
 url: /sv/aspose.slides.charts/chartdatapoint/format/
-weight: 130
+weight: 170
 ---
 ## format egenskap
 Representerar formateringsegenskaperna.

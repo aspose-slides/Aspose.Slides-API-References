@@ -7,22 +7,16 @@ url: /ja/aspose.slides/positionedstring/
 ---
 ## PositionedString クラス
 
-この構造体は整数キーと文字列値を含み、KeyValuePair<int, string> の一時的な置き換えです。
+構造体は整数キーと文字列値を含み、KeyValuePair<int, string> の一時的な代替です。
 
-PositionedString 型は以下のメンバーを公開します。
-
-## コンストラクタ
-
-| コンストラクタ | 説明 |
-| :- | :- |
-| [`__init__(self)`](/slides/python-net/ja/aspose.slides/positionedstring/__init__/#) |  |
+PositionedString 型は次のメンバーを公開します：
 
 ## プロパティ
 
 | プロパティ | 説明 |
 | :- | :- |
-| [`key`](/slides/python-net/ja/aspose.slides/positionedstring/key/) | Integer key |
-| [`value`](/slides/python-net/ja/aspose.slides/positionedstring/value/) | String value |
+| [`key`](/slides/python-net/ja/aspose.slides/positionedstring/key/) | 整数キー |
+| [`value`](/slides/python-net/ja/aspose.slides/positionedstring/value/) | 文字列値 |
 
 
 ### 参照

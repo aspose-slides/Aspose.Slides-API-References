@@ -1,14 +1,14 @@
 ---
 title: text_frame_format property
-second_title: Αναφορά API Aspose.Slides για Python μέσω .NET
+second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
 description: 
 type: docs
 url: /el/aspose.slides/itextframe/text_frame_format/
-weight: 160
+weight: 170
 ---
 ## text_frame_format ιδιότητα
 Επιστρέφει το αντικείμενο μορφοποίησης για αυτό το αντικείμενο TextFrame.
-Μόνο για ανάγνωση [`ITextFrameFormat`](/slides/python-net/el/aspose.slides/itextframeformat).
+            Μόνο για ανάγνωση [`ITextFrameFormat`](/slides/python-net/el/aspose.slides/itextframeformat).
 
 ### Ορισμός:
 ```python

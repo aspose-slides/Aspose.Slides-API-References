@@ -1,6 +1,6 @@
 ---
 title: IPropertyEffect class
-second_title: Referencia de API de Aspose.Slides para Python vía .NET
+second_title: Aspose.Slides para Python a través de .NET Referencia de API
 description: 
 type: docs
 url: /es/aspose.slides.animation/ipropertyeffect/
@@ -15,7 +15,7 @@ El tipo IPropertyEffect expone los siguientes miembros:
 
 | Propiedad | Descripción |
 | :- | :- |
-| [`from_address`](/slides/python-net/es/aspose.slides.animation/ipropertyeffect/from_address/) | Especifica el valor inicial de la animación.<br/>            Lectura/escritura **str**. |
+| [`from_`](/slides/python-net/es/aspose.slides.animation/ipropertyeffect/from_/) | Especifica el valor inicial de la animación.<br/>            Lectura/escritura **str**. |
 | [`to`](/slides/python-net/es/aspose.slides.animation/ipropertyeffect/to/) | Especifica el valor final de la animación.<br/>            Lectura/escritura **str**. |
 | [`by`](/slides/python-net/es/aspose.slides.animation/ipropertyeffect/by/) | Especifica un valor de desplazamiento relativo para la animación con respecto a su<br/>            posición antes del inicio de la animación.<br/>            Lectura/escritura **str**. |
 | [`value_type`](/slides/python-net/es/aspose.slides.animation/ipropertyeffect/value_type/) | Especifica el tipo de un valor de propiedad.<br/>            Lectura/escritura [`PropertyValueType`](/slides/python-net/es/aspose.slides.animation/propertyvaluetype). |
@@ -25,7 +25,6 @@ El tipo IPropertyEffect expone los siguientes miembros:
 | [`additive`](/slides/python-net/es/aspose.slides.animation/ipropertyeffect/additive/) |  |
 | [`properties`](/slides/python-net/es/aspose.slides.animation/ipropertyeffect/properties/) |  |
 | [`timing`](/slides/python-net/es/aspose.slides.animation/ipropertyeffect/timing/) |  |
-
 
 ### Ver también
 * módulo [`aspose.slides.animation`](/slides/python-net/es/aspose.slides.animation)

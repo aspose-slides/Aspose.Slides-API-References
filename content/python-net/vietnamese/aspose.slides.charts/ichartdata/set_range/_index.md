@@ -1,19 +1,22 @@
 ---
 title: set_range method
-second_title: Tham chiếu API Aspose.Slides cho Python qua .NET
+second_title: Aspose.Slides cho Python thông qua Tham chiếu API .NET
 description: 
 type: docs
 url: /vi/aspose.slides.charts/ichartdata/set_range/
-weight: 40
+weight: 50
 ---
 ## set_range(self, formula) {#str}
-Đặt phạm vi dữ liệu cho biểu đồ. Các chuỗi và danh mục sẽ được cập nhật dựa trên phạm vi dữ liệu mới.
-            Nếu số lượng chuỗi trong phạm vi dữ liệu lớn hơn số chuỗi trong dữ liệu biểu đồ, thì các chuỗi bổ sung có cùng kiểu với chuỗi cuối cùng trong bộ sưu tập hiện tại sẽ được thêm vào cuối bộ sưu tập.
+Đặt phạm vi dữ liệu biểu đồ. Các chuỗi và danh mục sẽ được cập nhật dựa trên phạm vi dữ liệu mới.
+            Nếu số lượng chuỗi trong phạm vi dữ liệu lớn hơn số chuỗi trong dữ liệu biểu đồ thì các chuỗi bổ sung có cùng kiểu
+            như một chuỗi cuối cùng trong bộ sưu tập hiện tại sẽ được thêm vào cuối bộ sưu tập.
+
 
 ```python
 def set_range(self, formula):
     ...
 ```
+
 
 | Tham số | Kiểu | Mô tả |
 | :- | :- | :- |
@@ -23,8 +26,10 @@ def set_range(self, formula):
 
 | Ngoại lệ | Mô tả |
 | :- | :- |
-| **RuntimeError(Proxy error(ArgumentNullException))** | công thức là None. |
-| **RuntimeError(Proxy error(ArgumentException))** | công thức có định dạng không đúng. |
+| **RuntimeError(Proxy error(ArgumentNullException))** | formula là None. |
+| **RuntimeError(Proxy error(ArgumentException))** | formula có định dạng không chính xác. |
+
+
 
 ### Xem thêm
 * lớp [`IChartData`](/slides/python-net/vi/aspose.slides.charts/ichartdata)

@@ -4,7 +4,7 @@ second_title: Référence de l'API Aspose.Slides pour Python via .NET
 description: 
 type: docs
 url: /fr/aspose.slides.charts/chartdatapoint/value/
-weight: 220
+weight: 260
 ---
 ## value propriété
 Valeur.

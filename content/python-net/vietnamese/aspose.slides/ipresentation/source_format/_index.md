@@ -1,13 +1,13 @@
 ---
 title: source_format property
-second_title: Aspose.Slides cho Python qua Tham chiếu API .NET
+second_title: Tham khảo API Aspose.Slides cho Python qua .NET
 description: 
 type: docs
 url: /vi/aspose.slides/ipresentation/source_format/
-weight: 360
+weight: 370
 ---
 ## source_format thuộc tính
-Trả về thông tin về định dạng mà bản trình chiếu được tải.
+Returns information about from which format presentation was loaded.
             Chỉ đọc [`IPresentation.source_format`](/slides/python-net/vi/aspose.slides/ipresentation/source_format).
 
 ### Định nghĩa:
@@ -20,5 +20,5 @@ def source_format(self):
 
 ### Xem Thêm
 * lớp [`IPresentation`](/slides/python-net/vi/aspose.slides/ipresentation)
-* module [`aspose.slides`](/slides/python-net/vi/aspose.slides)
+* mô-đun [`aspose.slides`](/slides/python-net/vi/aspose.slides)
 * thư viện [`Aspose.Slides`](/slides/python-net)

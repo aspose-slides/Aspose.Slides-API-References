@@ -7,15 +7,9 @@ url: /de/aspose.slides/positionedstring/
 ---
 ## PositionedString Klasse
 
-Struktur enthält ganzzahligen Schlüssel und Zeichenkettenwert und ist ein temporärer Ersatz für KeyValuePair<int, string>
+Struktur enthält einen ganzzahligen Schlüssel und einen Zeichenkettenwert und ist ein temporärer Ersatz für KeyValuePair<int, string>
 
-Der PositionedString-Typ stellt die folgenden Member bereit:
-
-## Konstruktoren
-
-| Konstruktor | Beschreibung |
-| :- | :- |
-| [`__init__(self)`](/slides/python-net/de/aspose.slides/positionedstring/__init__/#) |  |
+Der PositionedString Typ stellt die folgenden Member bereit:
 
 ## Eigenschaften
 

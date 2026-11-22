@@ -1,19 +1,23 @@
 ---
 title: secondary_categories property
-second_title: Aspose.Slides cho Python qua .NET Tham chiếu API
+second_title: Tham khảo API Aspose.Slides cho Python thông qua .NET
 description: 
 type: docs
 url: /vi/aspose.slides.charts/chartdata/secondary_categories/
-weight: 120
+weight: 130
 ---
-## thuộc tính secondary_categories
-Lấy các danh mục phụ nếu thuộc tính [`ChartData.use_secondary_categories`](/slides/python-net/vi/aspose.slides.charts/chartdata/use_secondary_categories) là true.
+## secondary_categories thuộc tính
+Lấy các danh mục phụ nếu [`ChartData.use_secondary_categories`](/slides/python-net/vi/aspose.slides.charts/chartdata/use_secondary_categories) thuộc tính là true.
             Chỉ đọc [`IChartCategoryCollection`](/slides/python-net/vi/aspose.slides.charts/ichartcategorycollection).
 
 ### Ghi chú
 
-Nếu thuộc tính [`ChartData.use_secondary_categories`](/slides/python-net/vi/aspose.slides.charts/chartdata/use_secondary_categories) là false thì thuộc tính [`ChartData.secondary_categories`](/slides/python-net/vi/aspose.slides.charts/chartdata/secondary_categories) này trả về None và dữ liệu trong thuộc tính [`ChartData.categories`](/slides/python-net/vi/aspose.slides.charts/chartdata/categories) được sử dụng cho cả chuỗi chính và chuỗi phụ.
-Nếu thuộc tính [`ChartData.use_secondary_categories`](/slides/python-net/vi/aspose.slides.charts/chartdata/use_secondary_categories) là true thì dữ liệu trong thuộc tính [`ChartData.secondary_categories`](/slides/python-net/vi/aspose.slides.charts/chartdata/secondary_categories) này được sử dụng cho chuỗi phụ và dữ liệu trong thuộc tính [`ChartData.categories`](/slides/python-net/vi/aspose.slides.charts/chartdata/categories) được sử dụng cho chuỗi chính.
+Nếu [`ChartData.use_secondary_categories`](/slides/python-net/vi/aspose.slides.charts/chartdata/use_secondary_categories) thuộc tính là false thì [`ChartData.secondary_categories`](/slides/python-net/vi/aspose.slides.charts/chartdata/secondary_categories) thuộc tính 
+            thuộc tính trả về None và dữ liệu trong [`ChartData.categories`](/slides/python-net/vi/aspose.slides.charts/chartdata/categories) thuộc tính được dùng cho cả chuỗi chính 
+            và chuỗi phụ.
+            Nếu [`ChartData.use_secondary_categories`](/slides/python-net/vi/aspose.slides.charts/chartdata/use_secondary_categories) thuộc tính là true thì dữ liệu trong 
+            [`ChartData.secondary_categories`](/slides/python-net/vi/aspose.slides.charts/chartdata/secondary_categories) thuộc tính được dùng cho chuỗi phụ và dữ liệu 
+            trong [`ChartData.categories`](/slides/python-net/vi/aspose.slides.charts/chartdata/categories) thuộc tính được dùng cho chuỗi chính.
 
 ### Định nghĩa:
 ```python
@@ -26,4 +30,4 @@ def secondary_categories(self):
 * lớp [`ChartData`](/slides/python-net/vi/aspose.slides.charts/chartdata)
 * lớp [`IChartCategoryCollection`](/slides/python-net/vi/aspose.slides.charts/ichartcategorycollection)
 * mô-đun [`aspose.slides.charts`](/slides/python-net/vi/aspose.slides.charts)
-* thư viện [`Aspose.Slides`](/slides/python-net)
+* library [`Aspose.Slides`](/slides/python-net)

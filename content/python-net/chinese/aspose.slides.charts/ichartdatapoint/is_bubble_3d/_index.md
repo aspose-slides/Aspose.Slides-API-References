@@ -4,10 +4,10 @@ second_title: Aspose.Slides for Python via .NET API 参考
 description: 
 type: docs
 url: /zh/aspose.slides.charts/ichartdatapoint/is_bubble_3d/
-weight: 160
+weight: 200
 ---
 ## is_bubble_3d 属性
-Specifies that the bubbles have a 3-D effect applied to them.
+指定气泡具有 3-D 效果。
             读/写 **bool**.
 
 ### 定义:
@@ -22,7 +22,7 @@ def is_bubble_3d(self, value):
 ```
 
 
-### 另请参阅
+### 参见
 * 类 [`IChartDataPoint`](/slides/python-net/zh/aspose.slides.charts/ichartdatapoint)
 * 模块 [`aspose.slides.charts`](/slides/python-net/zh/aspose.slides.charts)
 * 库 [`Aspose.Slides`](/slides/python-net)

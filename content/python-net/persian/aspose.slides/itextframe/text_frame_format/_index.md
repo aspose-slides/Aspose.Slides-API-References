@@ -1,14 +1,14 @@
 ---
 title: text_frame_format property
-second_title: Aspose.Slides برای Python via .NET مرجع API
+second_title: Aspose.Slides برای Python از طریق .NET مرجع API
 description: 
 type: docs
 url: /fa/aspose.slides/itextframe/text_frame_format/
-weight: 160
+weight: 170
 ---
-## text_frame_format خاصیت
-یک شیء قالب‌بندی برای این شیء TextFrame برمی‌گرداند.
-            فقط-خواندنی [`ITextFrameFormat`](/slides/python-net/fa/aspose.slides/itextframeformat).
+## text_frame_format ویژگی
+شیء قالب‌بندی را برای این شیء TextFrame برمی‌گرداند.
+            فقط خواندنی [`ITextFrameFormat`](/slides/python-net/fa/aspose.slides/itextframeformat).
 
 ### تعریف:
 ```python

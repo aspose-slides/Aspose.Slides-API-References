@@ -1,18 +1,19 @@
 ---
 title: split_text_by_columns method
-second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Reference
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET เอกสารอ้างอิง API
 description: 
 type: docs
 url: /th/aspose.slides/itextframe/split_text_by_columns/
-weight: 60
+weight: 70
 ---
 ## split_text_by_columns(self) {#}
 แยกเนื้อหาข้อความของ [`ITextFrame`](/slides/python-net/th/aspose.slides/itextframe) เป็นอาร์เรย์ของสตริง,  
-            โดยแต่ละองค์ประกอบสอดคล้องกับคอลัมน์ข้อความแยกกันภายในเฟรม.
+            ที่แต่ละองค์ประกอบสอดคล้องกับคอลัมน์ข้อความแยกต่างหากภายในเฟรม.
 
-### ผลลัพธ์
+### คืนค่า
 
-อาร์เรย์ของสตริง โดยแต่ละสตริงแสดงถึงเนื้อหาข้อความของคอลัมน์เฉพาะใน [`ITextFrame`](/slides/python-net/th/aspose.slides/itextframe).
+อาร์เรย์ของสตริง,  
+            ที่แต่ละสตริงแสดงเนื้อหาข้อความของคอลัมน์เฉพาะใน [`ITextFrame`](/slides/python-net/th/aspose.slides/itextframe).
 
 
 
@@ -24,8 +25,9 @@ def split_text_by_columns(self):
 
 ### หมายเหตุ
 
-หากกรอบข้อความไม่มีหลายคอลัมน์, อาร์เรย์ที่ส่งคืนจะมีเพียงองค์ประกอบเดียวที่มีข้อความเต็ม  
-            คอลัมน์ที่ว่างเปล่าจะถูกแทนด้วยสตริงว่างในอาร์เรย์.
+หากเฟรมข้อความไม่มีคอลัมน์หลายคอลัมน์, อาร์เรย์ที่ส่งคืนจะมีเพียงองค์ประกอบเดียว  
+            ซึ่งมีข้อความเต็ม.  
+            คอลัมน์ที่ว่างเปล่าจะถูกแทนที่ด้วยสตริงว่างในอาร์เรย์.
 
 
 

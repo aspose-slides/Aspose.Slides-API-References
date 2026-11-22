@@ -1,13 +1,13 @@
 ---
 title: notes_size property
-second_title: Riferimento API Aspose.Slides per Python via .NET
+second_title: Riferimento API di Aspose.Slides per Python via .NET
 description: 
 type: docs
 url: /it/aspose.slides/ipresentation/notes_size/
-weight: 290
+weight: 300
 ---
 ## notes_size proprietà
-Restituisce l'oggetto della dimensione della diapositiva delle note.
+Restituisce l'oggetto di dimensione della diapositiva delle note.
             Sola lettura [`INotesSize`](/slides/python-net/it/aspose.slides/inotessize).
 
 ### Definizione:

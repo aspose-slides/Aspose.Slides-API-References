@@ -1,14 +1,14 @@
 ---
 title: y_value property
-second_title: Tham chiếu API Aspose.Slides cho Python qua .NET
+second_title: Tham chiếu API Aspose.Slides cho Python thông qua .NET
 description: 
 type: docs
 url: /vi/aspose.slides.charts/chartdatapoint/y_value/
-weight: 240
+weight: 280
 ---
 ## y_value thuộc tính
 YValue.
-            Chỉ đọc [`IDoubleChartValue`](/slides/python-net/vi/aspose.slides.charts/idoublechartvalue).
+            Chỉ-đọc [`IDoubleChartValue`](/slides/python-net/vi/aspose.slides.charts/idoublechartvalue).
 
 ### Định nghĩa:
 ```python
@@ -18,8 +18,8 @@ def y_value(self):
 ```
 
 
-### Xem Thêm
+### Xem thêm
 * lớp [`ChartDataPoint`](/slides/python-net/vi/aspose.slides.charts/chartdatapoint)
 * lớp [`IDoubleChartValue`](/slides/python-net/vi/aspose.slides.charts/idoublechartvalue)
-* mô-đun [`aspose.slides.charts`](/slides/python-net/vi/aspose.slides.charts)
+* module [`aspose.slides.charts`](/slides/python-net/vi/aspose.slides.charts)
 * thư viện [`Aspose.Slides`](/slides/python-net)

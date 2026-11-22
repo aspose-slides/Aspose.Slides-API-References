@@ -4,9 +4,9 @@ second_title: Aspose.Slides för Python via .NET API-referens
 description: 
 type: docs
 url: /sv/aspose.slides/ivideoframe/width/
-weight: 620
+weight: 630
 ---
-## width egenskap
+## bredd egenskap
 ### Definition:
 ```python
 @property

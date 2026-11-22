@@ -1,14 +1,14 @@
 ---
 title: x_value property
-second_title: Aspose.Slides के लिए Python via .NET API रेफ़रेंस
+second_title: Aspose.Slides for Python via .NET API संदर्भ
 description: 
 type: docs
 url: /hi/aspose.slides.charts/ichartdatapoint/x_value/
-weight: 230
+weight: 270
 ---
 ## x_value प्रॉपर्टी
-चार्ट डेटा पॉइंट का x मान लौटाता है।
-            केवल पढ़ने योग्य [`IStringOrDoubleChartValue`](/slides/python-net/hi/aspose.slides.charts/istringordoublechartvalue).
+एक चार्ट डेटा बिंदु का x मान प्राप्त करता है।
+            केवल-पढ़ने योग्य [`IStringOrDoubleChartValue`](/slides/python-net/hi/aspose.slides.charts/istringordoublechartvalue).
 
 ### परिभाषा:
 ```python
@@ -18,7 +18,7 @@ def x_value(self):
 ```
 
 
-### देखें
+### संबंधित देखें
 * क्लास [`IChartDataPoint`](/slides/python-net/hi/aspose.slides.charts/ichartdatapoint)
 * क्लास [`IStringOrDoubleChartValue`](/slides/python-net/hi/aspose.slides.charts/istringordoublechartvalue)
 * मॉड्यूल [`aspose.slides.charts`](/slides/python-net/hi/aspose.slides.charts)

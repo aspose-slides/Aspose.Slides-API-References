@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides.charts/datalabelcollection/presentation/
-weight: 150
+weight: 160
 ---
 ## sunum özelliği
 ### Tanım:
@@ -15,7 +15,7 @@ def presentation(self):
 ```
 
 
-### Ayrıca Bakınız
+### Ayrıca bakınız
 * sınıf [`DataLabelCollection`](/slides/python-net/tr/aspose.slides.charts/datalabelcollection)
 * modül [`aspose.slides.charts`](/slides/python-net/tr/aspose.slides.charts)
 * kütüphane [`Aspose.Slides`](/slides/python-net)

@@ -1,39 +1,39 @@
 ---
 title: highlight_regex method
-second_title: Aspose.Slides for Python via .NET API 參考
+second_title: Aspose.Slides for Python via .NET API 參考文件
 description: 
 type: docs
 url: /zh-hant/aspose.slides/itextframe/highlight_regex/
-weight: 10
+weight: 20
 ---
 ## highlight_regex(self, regex, highlight_color) {#str-asposeslidescolor}
-以指定的顏色突顯正規表達式的所有匹配項。
+以指定顏色突顯正則表達式的所有匹配項。
 
 ```python
 def highlight_regex(self, regex, highlight_color):
     ...
 ```
 
-| 參數 | 類型 | 描述 |
+| 參數 | 類型 | 說明 |
 | :- | :- | :- |
-| regex | **str** | 字串包含正則表達式，用於取得要突顯的字串。 |
+| regex | **str** | 該字串包含正則表達式，用於取得要突顯的字串。 |
 | highlight_color | [`Color`](/slides/python-net/zh-hant/aspose.slides/color) | 用於突顯文字的顏色。 |
 
 ## highlight_regex(self, regex, highlight_color, options) {#str-asposeslidescolor-itexthighlightingoptions}
-以指定的顏色突顯正規表達式的所有匹配項。
+以指定顏色突顯正則表達式的所有匹配項。
 
 ```python
 def highlight_regex(self, regex, highlight_color, options):
     ...
 ```
 
-| 參數 | 類型 | 描述 |
+| 參數 | 類型 | 說明 |
 | :- | :- | :- |
-| regex | **str** | 正則表達式文字，用於取得要突顯的文字。 |
+| regex | **str** | 正則表達式的文字，用於取得要突顯的文字。 |
 | highlight_color | [`Color`](/slides/python-net/zh-hant/aspose.slides/color) | 用於突顯文字的顏色。 |
 | options | [`ITextHighlightingOptions`](/slides/python-net/zh-hant/aspose.slides/itexthighlightingoptions) | 突顯選項。 |
 
-### 另見
+### 相關參考
 * 類別 [`ITextFrame`](/slides/python-net/zh-hant/aspose.slides/itextframe)
 * 類別 [`ITextHighlightingOptions`](/slides/python-net/zh-hant/aspose.slides/itexthighlightingoptions)
 * 類別 [`Color`](/slides/python-net/zh-hant/aspose.slides/color)

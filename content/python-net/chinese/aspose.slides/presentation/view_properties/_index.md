@@ -1,16 +1,16 @@
 ---
 title: view_properties property
-second_title: Aspose.Slides for Python via .NET API 参考
+second_title: Aspose.Slides 针对 Python 的 .NET API 参考
 description: 
 type: docs
 url: /zh/aspose.slides/presentation/view_properties/
-weight: 410
+weight: 420
 ---
 ## view_properties 属性
 获取演示文稿范围的视图属性。
             只读 [`IViewProperties`](/slides/python-net/zh/aspose.slides/iviewproperties).
 
-### 定义:
+### 定义：
 ```python
 @property
 def view_properties(self):

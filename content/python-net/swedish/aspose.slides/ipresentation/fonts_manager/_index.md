@@ -4,7 +4,7 @@ second_title: Aspose.Slides för Python via .NET API-referens
 description: 
 type: docs
 url: /sv/aspose.slides/ipresentation/fonts_manager/
-weight: 200
+weight: 210
 ---
 ## fonts_manager egenskap
 Returnerar fonts manager.

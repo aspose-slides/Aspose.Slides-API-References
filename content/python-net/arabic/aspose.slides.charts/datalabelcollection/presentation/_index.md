@@ -1,10 +1,10 @@
 ---
 title: presentation property
-second_title: مرجع API Aspose.Slides للبايثون عبر .NET
+second_title: مرجع API لـ Aspose.Slides للـ Python عبر .NET
 description: 
 type: docs
 url: /ar/aspose.slides.charts/datalabelcollection/presentation/
-weight: 150
+weight: 160
 ---
 ## خاصية العرض
 ### التعريف:
@@ -16,6 +16,6 @@ def presentation(self):
 
 
 ### انظر أيضًا
-* فئة [`DataLabelCollection`](/slides/python-net/ar/aspose.slides.charts/datalabelcollection)
-* وحدة [`aspose.slides.charts`](/slides/python-net/ar/aspose.slides.charts)
-* مكتبة [`Aspose.Slides`](/slides/python-net)
+* الفئة [`DataLabelCollection`](/slides/python-net/ar/aspose.slides.charts/datalabelcollection)
+* الوحدة [`aspose.slides.charts`](/slides/python-net/ar/aspose.slides.charts)
+* المكتبة [`Aspose.Slides`](/slides/python-net)

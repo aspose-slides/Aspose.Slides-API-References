@@ -1,13 +1,13 @@
 ---
 title: explosion property
-second_title: Aspose.Slides dla Pythona poprzez .NET odwołanie do API
+second_title: Aspose.Slides dla Pythona via .NET – referencja API
 description: 
 type: docs
 url: /pl/aspose.slides.charts/chartdatapoint/explosion/
-weight: 120
+weight: 160
 ---
 ## właściwość explosion
-Określa ilość, o jaką punkt danych zostanie przesunięty od środka wykresu kołowego.
+Określa, o ile punkt danych ma zostać przesunięty od środka kołowego wykresu.
             Odczyt/zapis **int**.
 
 ### Definicja:

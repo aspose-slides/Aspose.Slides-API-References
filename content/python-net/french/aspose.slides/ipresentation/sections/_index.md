@@ -1,12 +1,12 @@
 ---
 title: sections property
-second_title: Référence de l'API Aspose.Slides pour Python via .NET
+second_title: Aspose.Slides pour Python via .NET Référence d'API
 description: 
 type: docs
 url: /fr/aspose.slides/ipresentation/sections/
-weight: 320
+weight: 330
 ---
-## propriété sections
+## sections propriété
 Renvoie une liste de toutes les sections de diapositives qui sont définies dans la présentation.
             Lecture seule [`ISectionCollection`](/slides/python-net/fr/aspose.slides/isectioncollection).
 

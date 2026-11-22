@@ -4,7 +4,7 @@ second_title: Referensi API Aspose.Slides untuk Python via .NET
 description: 
 type: docs
 url: /id/aspose.slides.charts/chartdatapoint/label/
-weight: 170
+weight: 210
 ---
 ## properti label
 Label.

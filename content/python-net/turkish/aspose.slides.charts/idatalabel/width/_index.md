@@ -4,9 +4,9 @@ second_title: Aspose.Slides for Python via .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides.charts/idatalabel/width/
-weight: 250
+weight: 260
 ---
-## genişlik özelliği
+## width özelliği
 ### Tanım:
 ```python
 @property

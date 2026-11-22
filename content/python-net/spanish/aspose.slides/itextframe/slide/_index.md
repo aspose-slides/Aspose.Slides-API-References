@@ -1,12 +1,12 @@
 ---
 title: slide property
-second_title: Aspose.Slides para Python vía .NET Referencia de la API
+second_title: Aspose.Slides para Python mediante la referencia de API .NET
 description: 
 type: docs
 url: /es/aspose.slides/itextframe/slide/
-weight: 140
+weight: 150
 ---
-## propiedad de diapositiva
+## slide propiedad
 ### Definición:
 ```python
 @property

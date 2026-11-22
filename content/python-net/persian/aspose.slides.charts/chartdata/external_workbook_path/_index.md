@@ -1,10 +1,10 @@
 ---
 title: external_workbook_path property
-second_title: Aspose.Slides برای Python از طریق .NET مرجع API
+second_title: Aspose.Slides برای پایتون از طریق .NET مرجع API
 description: 
 type: docs
 url: /fa/aspose.slides.charts/chartdata/external_workbook_path/
-weight: 110
+weight: 120
 ---
 ## external_workbook_path ویژگی
 منبع دادهٔ نمودار را نشان می‌دهد

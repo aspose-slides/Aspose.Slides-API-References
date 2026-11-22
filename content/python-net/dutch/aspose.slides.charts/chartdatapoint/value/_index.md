@@ -4,9 +4,9 @@ second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides.charts/chartdatapoint/value/
-weight: 220
+weight: 260
 ---
-## value eigenschap
+## waarde eigenschap
 Waarde.
             Alleen-lezen [`IDoubleChartValue`](/slides/python-net/nl/aspose.slides.charts/idoublechartvalue).
 
@@ -16,6 +16,7 @@ Waarde.
 def value(self):
     ...
 ```
+
 
 ### Zie ook
 * klasse [`ChartDataPoint`](/slides/python-net/nl/aspose.slides.charts/chartdatapoint)

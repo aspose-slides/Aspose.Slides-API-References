@@ -4,10 +4,10 @@ second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides/presentation/view_properties/
-weight: 410
+weight: 420
 ---
 ## view_properties eigenschap
-Haalt presentatiewide weergave-eigenschappen op.
+Haalt presentatie-brede view properties op.
             Alleen-lezen [`IViewProperties`](/slides/python-net/nl/aspose.slides/iviewproperties).
 
 ### Definitie:

@@ -1,14 +1,14 @@
 ---
 title: switch_row_column method
-second_title: Riferimento API Aspose.Slides per Python tramite .NET
+second_title: Riferimento API Aspose.Slides per Python via .NET
 description: 
 type: docs
 url: /it/aspose.slides.charts/chartdata/switch_row_column/
-weight: 50
+weight: 60
 ---
 ## switch_row_column(self) {#}
 Scambia i dati sull'asse.
-            I dati tracciati sull'asse X verranno spostati sull'asse Y e viceversa.
+            I dati tracciati sull'asse X saranno spostati sull'asse Y e viceversa.
 
 
 ```python

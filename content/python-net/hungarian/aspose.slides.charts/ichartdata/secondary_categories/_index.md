@@ -1,24 +1,21 @@
 ---
 title: secondary_categories property
-second_title: Aspose.Slides Pythonhoz .NET-en keresztül API referenciája
+second_title: Aspose.Slides for Python via .NET API Referenciája
 description: 
 type: docs
 url: /hu/aspose.slides.charts/ichartdata/secondary_categories/
-weight: 120
+weight: 130
 ---
 ## secondary_categories tulajdonság
-Gets the secondary categories if [`IChartData.use_secondary_categories`](/slides/python-net/hu/aspose.slides.charts/ichartdata/use_secondary_categories) property is true.
-            Read-only [`IChartCategoryCollection`](/slides/python-net/hu/aspose.slides.charts/ichartcategorycollection).
+Gets the secondary categories if [`IChartData.use_secondary_categories`](/slides/python-net/hu/aspose.slides.charts/ichartdata/use_secondary_categories) tulajdonság is true.
+            Csak olvasható [`IChartCategoryCollection`](/slides/python-net/hu/aspose.slides.charts/ichartcategorycollection).
 
+### Megjegyzések
 
-### Megjegyzés
-
-If [`IChartData.use_secondary_categories`](/slides/python-net/hu/aspose.slides.charts/ichartdata/use_secondary_categories) property is false then this [`IChartData.secondary_categories`](/slides/python-net/hu/aspose.slides.charts/ichartdata/secondary_categories) 
-            property return None and data in [`IChartData.categories`](/slides/python-net/hu/aspose.slides.charts/ichartdata/categories) property is used both for primary 
-            and secondary series.
-            If [`IChartData.use_secondary_categories`](/slides/python-net/hu/aspose.slides.charts/ichartdata/use_secondary_categories) property is true then data in 
-            this [`IChartData.secondary_categories`](/slides/python-net/hu/aspose.slides.charts/ichartdata/secondary_categories) property is used for secondary series and data 
-            in [`IChartData.categories`](/slides/python-net/hu/aspose.slides.charts/ichartdata/categories) property is used for primary series.
+If [`IChartData.use_secondary_categories`](/slides/python-net/hu/aspose.slides.charts/ichartdata/use_secondary_categories) tulajdonság hamis, akkor ez a [`IChartData.secondary_categories`](/slides/python-net/hu/aspose.slides.charts/ichartdata/secondary_categories) 
+            tulajdonság None-értéket ad vissza, és a [`IChartData.categories`](/slides/python-net/hu/aspose.slides.charts/ichartdata/categories) tulajdonságban lévő adatot mind az elsődleges, 
+            mind a másodlagos sorozatokhoz használják.
+            Ha [`IChartData.use_secondary_categories`](/slides/python-net/hu/aspose.slides.charts/ichartdata/use_secondary_categories) tulajdonság igaz, akkor a [`IChartData.secondary_categories`](/slides/python-net/hu/aspose.slides.charts/ichartdata/secondary_categories) tulajdonságban lévő adatot a másodlagos sorozatokhoz, a [`IChartData.categories`](/slides/python-net/hu/aspose.slides.charts/ichartdata/categories) tulajdonságban lévő adatot pedig az elsődleges sorozatokhoz használják.
 
 ### Definíció:
 ```python
@@ -26,7 +23,6 @@ If [`IChartData.use_secondary_categories`](/slides/python-net/hu/aspose.slides.c
 def secondary_categories(self):
     ...
 ```
-
 
 ### Lásd még
 * osztály [`IChartCategoryCollection`](/slides/python-net/hu/aspose.slides.charts/ichartcategorycollection)

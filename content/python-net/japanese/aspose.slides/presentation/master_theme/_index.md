@@ -4,11 +4,11 @@ second_title: Aspose.Slides for Python via .NET API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides/presentation/master_theme/
-weight: 280
+weight: 290
 ---
 ## master_theme プロパティ
 マスターテーマを返します。
-            読み取り専用 [`IMasterTheme`](/slides/python-net/ja/aspose.slides.theme/imastertheme).
+            読み取り専用 [`IMasterTheme`](/slides/python-net/ja/aspose.slides.theme/imastertheme)。
 
 ### 定義:
 ```python

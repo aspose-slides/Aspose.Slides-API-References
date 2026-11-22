@@ -4,20 +4,21 @@ second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Refe
 description: 
 type: docs
 url: /th/aspose.slides.charts/idatalabelcollection/is_visible/
-weight: 120
+weight: 130
 ---
 ## is_visible คุณสมบัติ
-False หมายความว่า data label ไม่แสดงผลโดยค่าเริ่มต้น (และดังนั้น Show*-flags (ShowValue, ...) ของ DefaultDataLabelFormat property จะเป็น false).
+False หมายถึงป้ายข้อมูลไม่แสดงโดยค่าเริ่มต้น (และดังนั้นทั้งหมด
+            Show*-flags (ShowValue, ...) ของคุณสมบัติ DefaultDataLabelFormat มีค่า false).
             อ่านอย่างเดียว **bool**.
 
 ### หมายเหตุ
 
-หาก data label แสดงผลโดยค่าเริ่มต้น คุณสามารถทำให้มันซ่อนโดยค่าเริ่มต้นด้วยเมธอด Hide().
-            แต่หาก data label ไม่แสดงผลโดยค่าเริ่มต้น (IsVisible is false) คุณสามารถทำให้ data label "visible 
-            by default" โดยตั้งค่า Show*-flags (ShowValue, ...) ของ DefaultDataLabelFormat property
-            ให้เป็นสถานะ true.
+If data label is visible by default you can make it hidden by default with Hide() method.
+            แต่หากป้ายข้อมูลไม่แสดงโดยค่าเริ่มต้น (IsVisible เป็น false) คุณสามารถทำให้ป้ายข้อมูล "visible
+            โดยค่าเริ่มต้น" ด้วยการตั้งค่า Show*-flags (ShowValue, ...) ของคุณสมบัติ DefaultDataLabelFormat
+            เป็นสถานะ true.
 
-### นิยาม:
+### คำนิยาม:
 ```python
 @property
 def is_visible(self):

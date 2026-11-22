@@ -4,10 +4,10 @@ second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides.charts/ichartdata/data_source_type/
-weight: 90
+weight: 100
 ---
 ## data_source_type eigenschap
-Vertegenwoordigt de gegevensbron van de grafiek
+Stelt de gegevensbron van de grafiek voor
 
 ### Definitie:
 ```python

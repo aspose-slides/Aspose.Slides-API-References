@@ -1,10 +1,10 @@
 ---
 title: presentation property
-second_title: Referencia de API de Aspose.Slides para Python vía .NET
+second_title: Aspose.Slides para Python a través de la Referencia de API .NET
 description: 
 type: docs
 url: /es/aspose.slides.charts/idatalabel/presentation/
-weight: 190
+weight: 200
 ---
 ## propiedad de presentación
 ### Definición:

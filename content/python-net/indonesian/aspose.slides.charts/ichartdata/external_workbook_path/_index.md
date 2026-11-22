@@ -4,10 +4,10 @@ second_title: Referensi API Aspose.Slides untuk Python via .NET
 description: 
 type: docs
 url: /id/aspose.slides.charts/ichartdata/external_workbook_path/
-weight: 110
+weight: 120
 ---
 ## external_workbook_path properti
-Mewakili jalur buku kerja eksternal jika sumber data bersifat eksternal, None jika tidak
+Mewakili jalur workbook eksternal jika sumber data bersifat eksternal, None sebaliknya
 
 ### Definisi:
 ```python

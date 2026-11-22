@@ -1,14 +1,14 @@
 ---
 title: master_notes_slide_manager property
-second_title: Aspose.Slides Python के लिए .NET API संदर्भ
+second_title: Aspose.Slides for Python via .NET API संदर्भ
 description: 
 type: docs
 url: /hi/aspose.slides/presentation/master_notes_slide_manager/
-weight: 270
+weight: 280
 ---
 ## master_notes_slide_manager प्रॉपर्टी
-नोट्स मास्टर प्रबंधक लौटाता है।
-            केवल पढ़ने के योग्य [`IMasterNotesSlideManager`](/slides/python-net/hi/aspose.slides/imasternotesslidemanager).
+नोट्स मास्टर मैनेजर लौटाता है।
+            केवल-पढ़ने योग्य [`IMasterNotesSlideManager`](/slides/python-net/hi/aspose.slides/imasternotesslidemanager).
 
 ### परिभाषा:
 ```python

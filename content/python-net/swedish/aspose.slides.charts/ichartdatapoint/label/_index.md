@@ -4,10 +4,10 @@ second_title: Aspose.Slides för Python via .NET API-referens
 description: 
 type: docs
 url: /sv/aspose.slides.charts/ichartdatapoint/label/
-weight: 170
+weight: 210
 ---
-## etikett-egenskap
-Representerar etiketten för diagramdatapunkten.
+## etikett egenskap
+Representerar etiketten för diagramdatapunkt.
             Skrivskyddad [`IDataLabel`](/slides/python-net/sv/aspose.slides.charts/idatalabel).
 
 ### Definition:

@@ -4,10 +4,10 @@ second_title: Aspose.Slides för Python via .NET API-referens
 description: 
 type: docs
 url: /sv/aspose.slides/ipresentation/master_notes_slide_manager/
-weight: 260
+weight: 270
 ---
 ## master_notes_slide_manager egenskap
-Returnerar notes master manager.
+Returnerar huvudanteckningshanteraren.
             Skrivskyddad [`IMasterNotesSlideManager`](/slides/python-net/sv/aspose.slides/imasternotesslidemanager).
 
 ### Definition:
@@ -16,7 +16,6 @@ Returnerar notes master manager.
 def master_notes_slide_manager(self):
     ...
 ```
-
 
 ### Se även
 * klass [`IMasterNotesSlideManager`](/slides/python-net/sv/aspose.slides/imasternotesslidemanager)

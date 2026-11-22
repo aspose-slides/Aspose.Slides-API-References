@@ -1,12 +1,12 @@
 ---
 title: slide property
-second_title: Aspose.Slides pro Python přes .NET API Reference
+second_title: Aspose.Slides pro Python prostřednictvím .NET API Reference
 description: 
 type: docs
 url: /cs/aspose.slides/itextframe/slide/
-weight: 140
+weight: 150
 ---
-## vlastnost slidu
+## vlastnost snímku
 ### Definice:
 ```python
 @property

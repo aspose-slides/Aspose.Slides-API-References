@@ -4,15 +4,16 @@ second_title: Aspose.Slides for Python via .NET API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides/ipresentation/layout_slides/
-weight: 240
+weight: 250
 ---
 ## layout_slides プロパティ
-プレゼンテーションで定義されているすべてのレイアウト スライドのリストを返します。
+プレゼンテーションで定義されているすべてのレイアウトスライドのリストを返します。
             読み取り専用 [`IGlobalLayoutSlideCollection`](/slides/python-net/ja/aspose.slides/igloballayoutslidecollection).
 
 ### 備考
 
-IMasterSlide.LayoutSlides プロパティを使用して、レイアウト スライドの追加/挿入/削除/クローン作成の代替 API にアクセスできます。
+レイアウト スライドの追加/挿入/削除/クローン作成の代替 API にアクセスするには、  
+            IMasterSlide.LayoutSlides プロパティを使用します。
 
 ### 定義:
 ```python

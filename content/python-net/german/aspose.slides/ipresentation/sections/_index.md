@@ -4,11 +4,11 @@ second_title: Aspose.Slides für Python über .NET API-Referenz
 description: 
 type: docs
 url: /de/aspose.slides/ipresentation/sections/
-weight: 320
+weight: 330
 ---
 ## sections Eigenschaft
 Gibt eine Liste aller Folienabschnitte zurück, die in der Präsentation definiert sind.
-            Nur-Lesen [`ISectionCollection`](/slides/python-net/de/aspose.slides/isectioncollection).
+Nur lesbar [`ISectionCollection`](/slides/python-net/de/aspose.slides/isectioncollection).
 
 ### Definition:
 ```python

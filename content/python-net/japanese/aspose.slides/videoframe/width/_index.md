@@ -4,11 +4,12 @@ second_title: Aspose.Slides for Python via .NET API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides/videoframe/width/
-weight: 640
+weight: 650
 ---
-## width プロパティ
-シェイプの幅を取得または設定します（単位はポイント）。
+## 幅プロパティ
+シェイプの幅を取得または設定します。単位はポイントです。
             読み取り/書き込み **float**.
+
 
 ### 備考
 
@@ -25,6 +26,7 @@ def width(self):
 def width(self, value):
     ...
 ```
+
 
 ### 参照
 * クラス [`VideoFrame`](/slides/python-net/ja/aspose.slides/videoframe)

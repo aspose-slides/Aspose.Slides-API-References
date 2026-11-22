@@ -1,10 +1,10 @@
 ---
 title: width property
-second_title: Aspose.Slides для Python через .NET Справочник API
+second_title: Aspose.Slides для Python через .NET справочник API
 description: 
 type: docs
 url: /ru/aspose.slides/ivideoframe/width/
-weight: 620
+weight: 630
 ---
 ## width свойство
 ### Определение:
@@ -19,7 +19,7 @@ def width(self, value):
 ```
 
 
-### См. также
+### Смотрите также
 * класс [`IVideoFrame`](/slides/python-net/ru/aspose.slides/ivideoframe)
 * модуль [`aspose.slides`](/slides/python-net/ru/aspose.slides)
 * библиотека [`Aspose.Slides`](/slides/python-net)

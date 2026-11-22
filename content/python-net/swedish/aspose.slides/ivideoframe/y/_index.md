@@ -4,7 +4,7 @@ second_title: Aspose.Slides för Python via .NET API-referens
 description: 
 type: docs
 url: /sv/aspose.slides/ivideoframe/y/
-weight: 640
+weight: 650
 ---
 ## y egenskap
 ### Definition:

@@ -1,13 +1,13 @@
 ---
 title: view_properties property
-second_title: Aspose.Slides for Python via .NET API Referansı
+second_title: Aspose.Slides Python için .NET API Referansı aracılığıyla
 description: 
 type: docs
 url: /tr/aspose.slides/ipresentation/view_properties/
-weight: 390
+weight: 400
 ---
 ## view_properties özelliği
-Sunum genelinde görünüm özelliklerini alır.
+Sunum geneli görünüm özelliklerini alır.
             Salt okunur [`IViewProperties`](/slides/python-net/tr/aspose.slides/iviewproperties).
 
 ### Tanım:

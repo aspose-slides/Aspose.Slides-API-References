@@ -1,28 +1,26 @@
 ---
 title: series_groups property
-second_title: Aspose.Slides dla Pythona przy użyciu .NET – dokumentacja API
+second_title: Aspose.Slides dla Pythona przez .NET – odniesienie API
 description: 
 type: docs
 url: /pl/aspose.slides.charts/ichartdata/series_groups/
-weight: 140
+weight: 150
 ---
 ## series_groups właściwość
 Pobiera grupy serii.
-Tylko do odczytu [`IChartSeriesGroupCollection`](/slides/python-net/pl/aspose.slides.charts/ichartseriesgroupcollection).
+            Tylko do odczytu [`IChartSeriesGroupCollection`](/slides/python-net/pl/aspose.slides.charts/ichartseriesgroupcollection).
 
 ### Uwagi
 
-1) Każda grupa serii zawiera serie z łączącymi się typami. Grupy 
-            łączących się typów serii są zdefiniowane i opisane w wyliczeniu CombinableSeriesTypesGroup. 
-            Ponadto każda grupa serii zawiera serie, które są wykreślane na osi podstawowej 
-            lub na osi pomocniczej (nie jednocześnie w jednej grupie). 
-            Zatem zasada grupowania serii polega na grupowaniu według wymienionych wyżej grup typów 
-            oraz według typu wykreślania podstawowego/pomocniczego.
-
-2) Grupa serii zawiera niektóre właściwości serii, które są wspólne dla 
-            każdej serii w grupie ("series group properties").
-            "Series group properties" w klasie ChartSeriesGroup są odczyt/zapis.
-            Każda z "series group properties" może mieć projekcję tylko do odczytu w klasie ChartSeries.
+1) Każda grupa serii zawiera serie o łączonych typach.
+            Grupy łączonych typów serii są definiowane i opisywane przy pomocy wyliczenia CombinableSeriesTypesGroup 
+            enum.
+            Ponadto każda grupa serii zawiera serie, które są wykreślane albo na głównych osiach, albo na drugorzędnych osiach (nie oba przypadki w jednej grupie).
+            Zatem zasada grupowania serii polega na grupowaniu według wymienionych wcześniej grup typów oraz według typu wykreślania (główny/drugorzędny).
+            
+            2) Grupa serii zawiera pewne właściwości serii, które są wspólne dla każdej serii w grupie („właściwości grupy serii”).
+            „Właściwości grupy serii” w klasie ChartSeriesGroup są odczyt/zapis.
+            Każda z „właściwości grupy serii” może mieć projekcję tylko do odczytu w klasie ChartSeries.
 
 ### Definicja:
 ```python

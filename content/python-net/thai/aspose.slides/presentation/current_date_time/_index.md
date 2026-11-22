@@ -1,17 +1,17 @@
 ---
 title: current_date_time property
-second_title: Aspose.Slides สำหรับ Python ผ่าน .NET อ้างอิง API
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET เอกสารอ้างอิง API
 description: 
 type: docs
 url: /th/aspose.slides/presentation/current_date_time/
-weight: 150
+weight: 160
 ---
-## คุณสมบัติ current_date_time
-คืนค่า หรือกำหนดวันที่และเวลาที่จะใช้แทนเนื้อหาของฟิลด์ datetime
-            เวลาในการสร้างอ็อบเจกต์ Presentation นี้โดยค่าเริ่มต้น
+## current_date_time คุณสมบัติ
+ส่งคืนหรือกำหนดวันที่และเวลาซึ่งจะทดแทนเนื้อหาของฟิลด์ datetime.
+            เวลาการสร้างอ็อบเจกต์ Presentation นี้โดยค่าเริ่มต้น.
             อ่าน/เขียน **System.DateTime**.
 
-### นิยาม:
+### คำนิยาม:
 ```python
 @property
 def current_date_time(self):

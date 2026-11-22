@@ -4,11 +4,11 @@ second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides/ipresentation/digital_signatures/
-weight: 170
+weight: 180
 ---
 ## digital_signatures eigenschap
-Retourneert de verzameling ondertekeningen die worden gebruikt om de presentatie te ondertekenen.
-            Alleen-lezen [`IDigitalSignatureCollection`](/slides/python-net/nl/aspose.slides/idigitalsignaturecollection).
+Retourneert de collectie handtekeningen die worden gebruikt om de presentatie te ondertekenen.
+Alleen-lezen [`IDigitalSignatureCollection`](/slides/python-net/nl/aspose.slides/idigitalsignaturecollection).
 
 ### Definitie:
 ```python

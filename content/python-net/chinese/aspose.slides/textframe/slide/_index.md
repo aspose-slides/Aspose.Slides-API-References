@@ -4,13 +4,13 @@ second_title: Aspose.Slides for Python via .NET API 参考
 description: 
 type: docs
 url: /zh/aspose.slides/textframe/slide/
-weight: 140
+weight: 150
 ---
-## 幻灯片属性
-返回 TextFrame 的父幻灯片。
-            只读 [`IBaseSlide`](/slides/python-net/zh/aspose.slides/ibaseslide)。
+## slide 属性
+返回 TextFrame 的父 slide。
+            只读 [`IBaseSlide`](/slides/python-net/zh/aspose.slides/ibaseslide).
 
-### 定义：
+### 定义:
 ```python
 @property
 def slide(self):

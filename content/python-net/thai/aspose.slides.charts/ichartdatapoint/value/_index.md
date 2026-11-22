@@ -4,11 +4,11 @@ second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Refe
 description: 
 type: docs
 url: /th/aspose.slides.charts/ichartdatapoint/value/
-weight: 220
+weight: 260
 ---
-## value คุณสมบัติ
-คืนค่าของจุดข้อมูลแผนภูมิ
-            อ่านอย่างเดียว [`IDoubleChartValue`](/slides/python-net/th/aspose.slides.charts/idoublechartvalue).
+## คุณสมบัติ value
+ดึงค่า value ของจุดข้อมูลแผนภูมิ.
+อ่านอย่างเดียว [`IDoubleChartValue`](/slides/python-net/th/aspose.slides.charts/idoublechartvalue).
 
 ### คำนิยาม:
 ```python

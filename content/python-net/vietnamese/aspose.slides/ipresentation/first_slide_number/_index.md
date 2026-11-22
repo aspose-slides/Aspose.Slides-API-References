@@ -4,10 +4,10 @@ second_title: Tham chiếu API Aspose.Slides cho Python qua .NET
 description: 
 type: docs
 url: /vi/aspose.slides/ipresentation/first_slide_number/
-weight: 190
+weight: 200
 ---
 ## first_slide_number thuộc tính
-Biểu thị số slide đầu tiên trong bản trình bày.
+Biểu diễn số slide đầu tiên trong bản trình chiếu.
             Đọc/ghi **int**.
 
 ### Định nghĩa:

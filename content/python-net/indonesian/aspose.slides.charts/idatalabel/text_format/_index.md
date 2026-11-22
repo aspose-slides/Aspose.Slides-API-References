@@ -1,10 +1,10 @@
 ---
 title: text_format property
-second_title: Aspose.Slides untuk Python via .NET Referensi API
+second_title: Referensi API Aspose.Slides untuk Python via .NET
 description: 
 type: docs
 url: /id/aspose.slides.charts/idatalabel/text_format/
-weight: 220
+weight: 230
 ---
 ## text_format properti
 ### Definisi:
@@ -18,4 +18,4 @@ def text_format(self):
 ### Lihat Juga
 * kelas [`IDataLabel`](/slides/python-net/id/aspose.slides.charts/idatalabel)
 * modul [`aspose.slides.charts`](/slides/python-net/id/aspose.slides.charts)
-* pustaka [`Aspose.Slides`](/slides/python-net)
+* perpustakaan [`Aspose.Slides`](/slides/python-net)

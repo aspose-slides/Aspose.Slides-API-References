@@ -4,11 +4,11 @@ second_title: Aspose.Slides for Python via .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides/ipresentation/master_notes_slide_manager/
-weight: 260
+weight: 270
 ---
-## master_notes_slide_manager özelliği
-Notların ana yöneticisini döndürür.
-            Yalnızca okuma [`IMasterNotesSlideManager`](/slides/python-net/tr/aspose.slides/imasternotesslidemanager).
+## master_notes_slide_manager özellik
+Returns notes master manager.
+            Salt okunur [`IMasterNotesSlideManager`](/slides/python-net/tr/aspose.slides/imasternotesslidemanager).
 
 ### Tanım:
 ```python

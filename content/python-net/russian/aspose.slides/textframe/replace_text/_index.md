@@ -1,10 +1,10 @@
 ---
 title: replace_text method
-second_title: Aspose.Slides для Python через .NET — справочник API
-description:
+second_title: Aspose.Slides для Python через .NET справочник API
+description: 
 type: docs
 url: /ru/aspose.slides/textframe/replace_text/
-weight: 50
+weight: 60
 ---
 ## replace_text(self, old_text, new_text, options, callback) {#str-str-itextsearchoptions-ifindresultcallback}
 Заменяет все вхождения указанного текста другим указанным текстом.
@@ -26,4 +26,4 @@ def replace_text(self, old_text, new_text, options, callback):
 * класс [`ITextSearchOptions`](/slides/python-net/ru/aspose.slides/itextsearchoptions)
 * класс [`TextFrame`](/slides/python-net/ru/aspose.slides/textframe)
 * модуль [`aspose.slides`](/slides/python-net/ru/aspose.slides)
-* библиотека [`Aspose.Slides`](/slides/python-net)
+* library [`Aspose.Slides`](/slides/python-net)

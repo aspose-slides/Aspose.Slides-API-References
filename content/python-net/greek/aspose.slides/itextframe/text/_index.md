@@ -4,10 +4,10 @@ second_title: Aspose.Slides για Python μέσω .NET Αναφορά API
 description: 
 type: docs
 url: /el/aspose.slides/itextframe/text/
-weight: 150
+weight: 160
 ---
 ## ιδιότητα κειμένου
-Gets or sets the plain text for a TextFrame.
+Ανακτά ή ορίζει το απλό κείμενο για ένα TextFrame.
             Ανάγνωση/εγγραφή **str**.
 
 ### Ορισμός:

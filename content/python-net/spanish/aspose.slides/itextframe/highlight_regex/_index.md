@@ -1,10 +1,10 @@
 ---
 title: highlight_regex method
-second_title: Referencia de API de Aspose.Slides para Python a través de .NET
+second_title: Referencia de la API de Aspose.Slides para Python mediante .NET
 description: 
 type: docs
 url: /es/aspose.slides/itextframe/highlight_regex/
-weight: 10
+weight: 20
 ---
 ## highlight_regex(self, regex, highlight_color) {#str-asposeslidescolor}
 Resalta todas las coincidencias de la expresión regular con el color especificado.

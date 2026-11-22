@@ -1,24 +1,24 @@
 ---
 title: replace_text method
-second_title: Aspose.Slides برای Python از طریق .NET مرجع API
+second_title: مرجع API Aspose.Slides برای Python از طریق .NET
 description: 
 type: docs
 url: /fa/aspose.slides/itextframe/replace_text/
-weight: 50
+weight: 60
 ---
 ## replace_text(self, old_text, new_text, options, callback) {#str-str-itextsearchoptions-ifindresultcallback}
-تمام موارد متن مشخص شده را با متن دیگری جایگزین می‌کند.
+تمام موارد متن مشخص‌شده را با متن دیگر مشخص‌شده جایگزین می‌کند.
 
 ```python
 def replace_text(self, old_text, new_text, options, callback):
     ...
 ```
 
-| Parameter | Type | Description |
+| پارامتر | نوع | توضیح |
 | :- | :- | :- |
 | old_text | **str** | رشته‌ای که باید جایگزین شود. |
-| new_text | **str** | رشته‌ای که تمام موارد oldText را جایگزین می‌کند. |
-| options | [`ITextSearchOptions`](/slides/python-net/fa/aspose.slides/itextsearchoptions) | Text search options [`ITextSearchOptions`](/slides/python-net/fa/aspose.slides/itextsearchoptions). |
+| new_text | **str** | رشته‌ای برای جایگزینی تمام موارد oldText. |
+| options | [`ITextSearchOptions`](/slides/python-net/fa/aspose.slides/itextsearchoptions) | گزینه‌های جستجوی متن [`ITextSearchOptions`](/slides/python-net/fa/aspose.slides/itextsearchoptions). |
 | callback | [`IFindResultCallback`](/slides/python-net/fa/aspose.slides/ifindresultcallback) | شیء callback برای دریافت نتایج جستجو [`IFindResultCallback`](/slides/python-net/fa/aspose.slides/ifindresultcallback). |
 
 ### موارد مرتبط

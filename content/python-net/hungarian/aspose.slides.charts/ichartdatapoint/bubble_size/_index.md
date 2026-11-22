@@ -1,13 +1,13 @@
 ---
 title: bubble_size property
-second_title: Aspose.Slides Pythonhoz .NET API referencia
+second_title: Aspose.Slides a Pythonhoz .NET API-referencia
 description: 
 type: docs
 url: /hu/aspose.slides.charts/ichartdatapoint/bubble_size/
 weight: 80
 ---
 ## bubble_size tulajdonság
-Visszaadja a diagram adatpont buborékméretét.
+Gets the bubble size of a chart data point.
             Csak olvasható [`IDoubleChartValue`](/slides/python-net/hu/aspose.slides.charts/idoublechartvalue).
 
 ### Definíció:

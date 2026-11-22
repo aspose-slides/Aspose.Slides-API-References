@@ -1,13 +1,13 @@
 ---
 title: slide_size property
-second_title: อ้างอิง API Aspose.Slides สำหรับ Python ผ่าน .NET
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Reference
 description: 
 type: docs
 url: /th/aspose.slides/presentation/slide_size/
-weight: 360
+weight: 370
 ---
 ## slide_size คุณสมบัติ
-คืนค่าอ็อบเจ็กต์ slide size.
+ส่งคืนอ็อบเจกต์ขนาดสไลด์.
             อ่านอย่างเดียว [`ISlideSize`](/slides/python-net/th/aspose.slides/islidesize).
 
 ### คำนิยาม:

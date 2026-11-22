@@ -1,19 +1,18 @@
 ---
 title: layout_slides property
-second_title: Aspose.Slides for Python का .NET API संदर्भ
+second_title: Aspose.Slides Python के लिए .NET के माध्यम से एपीआई संदर्भ
 description: 
 type: docs
 url: /hi/aspose.slides/presentation/layout_slides/
-weight: 250
+weight: 260
 ---
-## layout_slides प्रॉपर्टी
-Returns a list of all layout slides that are defined in the presentation.
-            केवल-पढ़ने योग्य [`IGlobalLayoutSlideCollection`](/slides/python-net/hi/aspose.slides/igloballayoutslidecollection).
+## layout_slides गुण
+प्रस्तुति में परिभाषित सभी लेआउट स्लाइड्स की सूची लौटाता है।
+केवल-पढ़ने योग्य [`IGlobalLayoutSlideCollection`](/slides/python-net/hi/aspose.slides/igloballayoutslidecollection).
 
-### टिप्पणियाँ
+### टिप्पणी
 
-You can access to alternative API for adding/inserting/removing/cloning layout slides 
-            by using IMasterSlide.LayoutSlides प्रॉपर्टी.
+आप लेआउट स्लाइड्स को जोड़ने/डालने/हटाने/क्लोन करने के वैकल्पिक API तक पहुंच सकते हैं, IMasterSlide.LayoutSlides गुण का उपयोग करके।
 
 ### परिभाषा:
 ```python
@@ -22,7 +21,7 @@ def layout_slides(self):
     ...
 ```
 
-### देखें
+### अन्य देखें
 * क्लास [`IGlobalLayoutSlideCollection`](/slides/python-net/hi/aspose.slides/igloballayoutslidecollection)
 * क्लास [`Presentation`](/slides/python-net/hi/aspose.slides/presentation)
 * मॉड्यूल [`aspose.slides`](/slides/python-net/hi/aspose.slides)

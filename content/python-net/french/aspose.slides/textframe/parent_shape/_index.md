@@ -4,7 +4,7 @@ second_title: Référence API Aspose.Slides pour Python via .NET
 description: 
 type: docs
 url: /fr/aspose.slides/textframe/parent_shape/
-weight: 120
+weight: 130
 ---
 ## parent_shape propriété
 Renvoie la forme parente ou None si l'objet parent n'implémente pas l'interface IShape

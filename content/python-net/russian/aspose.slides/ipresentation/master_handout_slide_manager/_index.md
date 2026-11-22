@@ -1,13 +1,13 @@
 ---
 title: master_handout_slide_manager property
-second_title: Aspose.Slides для Python через .NET справочник API
+second_title: Aspose.Slides для Python через .NET справка API
 description: 
 type: docs
 url: /ru/aspose.slides/ipresentation/master_handout_slide_manager/
-weight: 250
+weight: 260
 ---
 ## master_handout_slide_manager свойство
-Возвращает главный менеджер раздаточных материалов.
+Возвращает менеджер главного раздаточного листа.
             Только для чтения [`IMasterHandoutSlideManager`](/slides/python-net/ru/aspose.slides/imasterhandoutslidemanager).
 
 ### Определение:

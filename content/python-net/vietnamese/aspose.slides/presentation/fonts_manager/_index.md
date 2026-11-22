@@ -1,10 +1,10 @@
 ---
 title: fonts_manager property
-second_title: Tham chiếu API Aspose.Slides cho Python thông qua .NET
+second_title: Tham khảo API Aspose.Slides cho Python qua .NET
 description: 
 type: docs
 url: /vi/aspose.slides/presentation/fonts_manager/
-weight: 210
+weight: 220
 ---
 ## fonts_manager thuộc tính
 Trả về trình quản lý phông chữ.
@@ -21,5 +21,5 @@ def fonts_manager(self):
 ### Xem thêm
 * lớp [`IFontsManager`](/slides/python-net/vi/aspose.slides/ifontsmanager)
 * lớp [`Presentation`](/slides/python-net/vi/aspose.slides/presentation)
-* module [`aspose.slides`](/slides/python-net/vi/aspose.slides)
+* mô-đun [`aspose.slides`](/slides/python-net/vi/aspose.slides)
 * thư viện [`Aspose.Slides`](/slides/python-net)

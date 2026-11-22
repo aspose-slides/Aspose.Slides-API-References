@@ -4,10 +4,10 @@ second_title: Aspose.Slides för Python via .NET API-referens
 description: 
 type: docs
 url: /sv/aspose.slides/textframe/presentation/
-weight: 130
+weight: 140
 ---
 ## presentationsegenskap
-Returns the parent presentation of a TextFrame.
+Returnerar den överordnade presentationen för en TextFrame.
             Skrivskyddad [`IPresentation`](/slides/python-net/sv/aspose.slides/ipresentation).
 
 ### Definition:

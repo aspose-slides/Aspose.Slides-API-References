@@ -4,7 +4,7 @@ second_title: Referência da API Aspose.Slides para Python via .NET
 description: 
 type: docs
 url: /pt/aspose.slides/ivideoframe/width/
-weight: 620
+weight: 630
 ---
 ## width propriedade
 ### Definição:
@@ -19,7 +19,7 @@ def width(self, value):
 ```
 
 
-### Ver Também
+### Ver também
 * classe [`IVideoFrame`](/slides/python-net/pt/aspose.slides/ivideoframe)
 * módulo [`aspose.slides`](/slides/python-net/pt/aspose.slides)
-* biblioteca [`Aspose.Slides`](/slides/python-net)
+* library [`Aspose.Slides`](/slides/python-net)

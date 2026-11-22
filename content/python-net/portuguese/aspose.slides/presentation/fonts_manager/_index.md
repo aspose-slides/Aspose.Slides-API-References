@@ -1,10 +1,10 @@
 ---
 title: fonts_manager property
-second_title: Aspose.Slides para Python via .NET Referência da API
+second_title: Referência da API Aspose.Slides para Python via .NET
 description: 
 type: docs
 url: /pt/aspose.slides/presentation/fonts_manager/
-weight: 210
+weight: 220
 ---
 ## fonts_manager propriedade
 Retorna o gerenciador de fontes.

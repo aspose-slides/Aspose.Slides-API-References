@@ -4,10 +4,10 @@ second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
 description: 
 type: docs
 url: /el/aspose.slides.charts/ichartdata/external_workbook_path/
-weight: 110
+weight: 120
 ---
 ## external_workbook_path ιδιότητα
-Αντιπροσωπεύει τη διαδρομή εξωτερικού βιβλίου εργασίας εάν η πηγή δεδομένων είναι εξωτερική, διαφορετικά None
+Αναπαριστά τη διαδρομή εξωτερικού φύλλου εργασίας εάν η πηγή δεδομένων είναι εξωτερική, διαφορετικά None
 
 ### Ορισμός:
 ```python

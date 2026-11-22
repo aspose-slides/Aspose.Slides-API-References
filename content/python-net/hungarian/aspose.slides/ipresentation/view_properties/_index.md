@@ -1,13 +1,13 @@
 ---
 title: view_properties property
-second_title: Aspose.Slides Pythonhoz .NET API Referencia
+second_title: Aspose.Slides Pythonhoz a .NET API referencia segítségével
 description: 
 type: docs
 url: /hu/aspose.slides/ipresentation/view_properties/
-weight: 390
+weight: 400
 ---
 ## view_properties tulajdonság
-Gets presentation wide view properties.
+Lekéri a prezentációra kiterjedő nézet tulajdonságait.
             Csak olvasható [`IViewProperties`](/slides/python-net/hu/aspose.slides/iviewproperties).
 
 ### Definíció:

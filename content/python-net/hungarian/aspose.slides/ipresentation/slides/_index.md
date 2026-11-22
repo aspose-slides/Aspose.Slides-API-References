@@ -1,16 +1,16 @@
 ---
 title: slides property
-second_title: Aspose.Slides for Python a .NET API-re vonatkozó hivatkozás
+second_title: Aspose.Slides a Python számára a .NET-en keresztül API-referencia
 description: 
 type: docs
 url: /hu/aspose.slides/ipresentation/slides/
-weight: 350
+weight: 360
 ---
 ## slides tulajdonság
-Returns a list of all slides that are defined in the presentation.
+Visszaad egy listát az összes diáról, amely a bemutatóban definiálva van.
             Csak olvasható [`ISlideCollection`](/hu/slides/python-net/aspose.slides/islidecollection).
 
-### Definíció:
+### Meghatározás:
 ```python
 @property
 def slides(self):

@@ -1,10 +1,10 @@
 ---
 title: x property
-second_title: Aspose.Slides برای پایتون از طریق .NET مرجع API
+second_title: Aspose.Slides برای Python از طریق .NET API Reference
 description: 
 type: docs
 url: /fa/aspose.slides/ivideoframe/x/
-weight: 630
+weight: 640
 ---
 ## x ویژگی
 ### تعریف:

@@ -4,11 +4,11 @@ second_title: Aspose.Slides для Python через .NET API Reference
 description: 
 type: docs
 url: /ru/aspose.slides.charts/chartdatapoint/format/
-weight: 130
+weight: 170
 ---
-## Свойство format
+## format свойство
 Представляет свойства форматирования.
-            Чтение/запись [`IFormat`](/slides/python-net/ru/aspose.slides.charts/iformat).
+Чтение/запись [`IFormat`](/slides/python-net/ru/aspose.slides.charts/iformat).
 
 ### Определение:
 ```python

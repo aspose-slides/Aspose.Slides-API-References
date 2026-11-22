@@ -1,13 +1,13 @@
 ---
 title: hyperlink_queries property
-second_title: Aspose.Slides for Python a .NET API-referencia
+second_title: Aspose.Slides Pythonhoz a .NET API hivatkozás útján
 description: 
 type: docs
 url: /hu/aspose.slides/presentation/hyperlink_queries/
-weight: 230
+weight: 240
 ---
 ## hyperlink_queries tulajdonság
-Könnyű hozzáférést biztosít az összes hiperlinkhez, amely az összes prezentációs dián található (kivéve a mester, elrendezés és jegyzet diákon).
+Provides easy access to all hyperlinks contained in all presentation slides (not in master, layout, notes slides).
             Csak olvasható [`IHyperlinkQueries`](/slides/python-net/hu/aspose.slides/ihyperlinkqueries).
 
 ### Definíció:

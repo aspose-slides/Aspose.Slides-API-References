@@ -5,19 +5,19 @@ description:
 type: docs
 url: /nl/aspose.slides.animation/irotationeffect/
 ---
-## IRotationEffect klasse
+## IRotationEffect class
 
 Stelt het rotatiegedrag van het effect voor.
 
-Het IRotationEffect type bevat de volgende leden:
+Het IRotationEffect-type exposeert de volgende leden:
 
 ## Eigenschappen
 
-| Eigenschap | Omschrijving |
+| Eigenschap | Beschrijving |
 | :- | :- |
-| [`from_address`](/slides/python-net/nl/aspose.slides.animation/irotationeffect/from_address/) | Beschrijft de startwaarde voor de animatie.<br/>            Lezen/Schrijven **float**. |
-| [`to`](/slides/python-net/nl/aspose.slides.animation/irotationeffect/to/) | Beschrijft de eindwaarde voor de animatie.<br/>            Lezen/Schrijven **float**. |
-| [`by`](/slides/python-net/nl/aspose.slides.animation/irotationeffect/by/) | Beschrijft de relatieve offsetwaarde voor de animatie.<br/>            Lezen/Schrijven **float**. |
+| [`from_`](/slides/python-net/nl/aspose.slides.animation/irotationeffect/from_/) | Beschrijft de startwaarde voor de animatie.<br/>            Lezen/schrijven **float**. |
+| [`to`](/slides/python-net/nl/aspose.slides.animation/irotationeffect/to/) | Beschrijft de eindwaarde voor de animatie.<br/>            Lezen/schrijven **float**. |
+| [`by`](/slides/python-net/nl/aspose.slides.animation/irotationeffect/by/) | Beschrijft de relatieve offsetwaarde voor de animatie.<br/>            Lezen/schrijven **float**. |
 | [`accumulate`](/slides/python-net/nl/aspose.slides.animation/irotationeffect/accumulate/) |  |
 | [`additive`](/slides/python-net/nl/aspose.slides.animation/irotationeffect/additive/) |  |
 | [`properties`](/slides/python-net/nl/aspose.slides.animation/irotationeffect/properties/) |  |

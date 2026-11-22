@@ -4,9 +4,9 @@ second_title: Aspose.Slides for Python via .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides/presentation/slide_show_settings/
-weight: 350
+weight: 360
 ---
-## slide_show_settings property
+## slide_show_settings özelliği
 Sunum için slayt gösterisi ayarlarını döndürür.
 
 ### Tanım:

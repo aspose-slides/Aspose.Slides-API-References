@@ -4,17 +4,17 @@ second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides/videoframe/y/
-weight: 660
+weight: 670
 ---
 ## y eigenschap
 Haalt of stelt de y-coördinaat van de linkerbovenhoek van de vorm in, gemeten in punten.
-            Lezen/Schrijven **float**.
+            Lezen/schrijven **float**.
 
 
 ### Opmerkingen
 
 De geretourneerde waarde is altijd gedefinieerd en nooit **float**.
-            De toegewezen waarde moet ook gedefinieerd zijn; wijs **float** alleen toe aan eigenschappen van een `RawFrame`-instantie.
+            De toegewezen waarde moet ook gedefinieerd zijn; wijs **float** alleen toe aan eigenschappen van een `RawFrame` instantie.
 
 ### Definitie:
 ```python

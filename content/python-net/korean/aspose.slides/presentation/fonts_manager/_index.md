@@ -4,10 +4,10 @@ second_title: Aspose.Slides for Python via .NET API 레퍼런스
 description: 
 type: docs
 url: /ko/aspose.slides/presentation/fonts_manager/
-weight: 210
+weight: 220
 ---
 ## fonts_manager 속성
-fonts manager를 반환합니다.
+Returns fonts manager.
             읽기 전용 [`IFontsManager`](/slides/python-net/ko/aspose.slides/ifontsmanager).
 
 ### 정의:

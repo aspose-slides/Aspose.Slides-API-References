@@ -1,14 +1,14 @@
 ---
 title: is_bubble_3d property
-second_title: Αναφορά API Aspose.Slides για Python μέσω .NET
+second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
 description: 
 type: docs
 url: /el/aspose.slides.charts/ichartdatapoint/is_bubble_3d/
-weight: 160
+weight: 200
 ---
 ## is_bubble_3d ιδιότητα
-Καθορίζει ότι οι φούσκες έχουν εφαρμοσμένο εφέ 3-Δ.
-            Ανάγνωση/Εγγραφή **bool**.
+Καθορίζει ότι οι φούσκες έχουν εφαρμοσμένο εφέ 3-D.
+            Ανάγνωση/εγγραφή **bool**.
 
 ### Ορισμός:
 ```python

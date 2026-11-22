@@ -4,17 +4,17 @@ second_title: Aspose.Slides for Python via .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides/ipresentation/layout_slides/
-weight: 240
+weight: 250
 ---
 ## layout_slides özelliği
-Sunumda tanımlı olan tüm yerleşim slaytlarının bir listesini döndürür.
-Salt okunur [`IGlobalLayoutSlideCollection`](/slides/python-net/tr/aspose.slides/igloballayoutslidecollection).
+Sunumda tanımlanan tüm yerleşim slaytlarının bir listesini döndürür.
+            Yalnızca okuma [`IGlobalLayoutSlideCollection`](/slides/python-net/tr/aspose.slides/igloballayoutslidecollection).
 
 
 ### Açıklamalar
 
-Yerleşim slaytlarını ekleme / ekleme / kaldırma / kopyalama için alternatif API'ye, IMasterSlide.LayoutSlides özelliği aracılığıyla erişebilirsiniz.
-
+IMasterSlide.LayoutSlides özelliğini kullanarak yerleşim slaytlarını ekleme/yerleştirme/kaldırma/kopyalama için alternatif bir API'ye erişebilirsiniz.
+            
 
 ### Tanım:
 ```python

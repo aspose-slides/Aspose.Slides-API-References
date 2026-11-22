@@ -1,13 +1,13 @@
 ---
 title: remove_unused_layout_slides method
-second_title: Aspose.Slides for Python via .NET API 參考文件
+second_title: Aspose.Slides 用於 Python 的 .NET API 參考
 description: 
 type: docs
 url: /zh-hant/aspose.slides.lowcode/compress/remove_unused_layout_slides/
-weight: 20
+weight: 40
 ---
 ## remove_unused_layout_slides(pres) {#presentation}
-透過移除未使用的版面投影片來壓縮 [`Presentation`](/slides/python-net/zh-hant/aspose.slides/presentation)。
+透過移除未使用的版面配置投影片以壓縮 [`Presentation`](/slides/python-net/zh-hant/aspose.slides/presentation)。
 
 ```python
 @staticmethod
@@ -15,7 +15,7 @@ def remove_unused_layout_slides(pres):
     ...
 ```
 
-| 參數 | 類型 | 描述 |
+| 參數 | 類型 | 說明 |
 | :- | :- | :- |
 | pres | [`Presentation`](/slides/python-net/zh-hant/aspose.slides/presentation) | 簡報實例 |
 

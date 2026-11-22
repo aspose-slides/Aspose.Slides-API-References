@@ -1,13 +1,13 @@
 ---
 title: comment_authors property
-second_title: Riferimento API di Aspose.Slides per Python tramite .NET
+second_title: Riferimento API Aspose.Slides per Python via .NET
 description: 
 type: docs
 url: /it/aspose.slides/presentation/comment_authors/
-weight: 140
+weight: 150
 ---
 ## comment_authors proprietà
-Restituisce la raccolta di commenti autori.
+Restituisce la collezione di autori dei commenti.
             Solo lettura [`ICommentAuthorCollection`](/slides/python-net/it/aspose.slides/icommentauthorcollection).
 
 ### Definizione:

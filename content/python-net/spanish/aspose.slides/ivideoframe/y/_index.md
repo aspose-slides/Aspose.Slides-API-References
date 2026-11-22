@@ -4,7 +4,7 @@ second_title: Referencia de API de Aspose.Slides para Python mediante .NET
 description: 
 type: docs
 url: /es/aspose.slides/ivideoframe/y/
-weight: 640
+weight: 650
 ---
 ## y propiedad
 ### Definición:

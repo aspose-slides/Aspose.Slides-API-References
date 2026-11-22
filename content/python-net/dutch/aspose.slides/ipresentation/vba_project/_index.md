@@ -4,11 +4,11 @@ second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides/ipresentation/vba_project/
-weight: 370
+weight: 380
 ---
 ## vba_project eigenschap
-Verkrijgt VBA-project met presentatiemacro's.
-Lezen/schrijven [`IVbaProject`](/slides/python-net/nl/aspose.slides.vba/ivbaproject).
+Haalt VBA-project op met presentatiemacro's.
+            Lezen/Schrijven [`IVbaProject`](/slides/python-net/nl/aspose.slides.vba/ivbaproject).
 
 ### Definitie:
 ```python
@@ -20,6 +20,7 @@ def vba_project(self):
 def vba_project(self, value):
     ...
 ```
+
 
 ### Zie ook
 * klasse [`IPresentation`](/slides/python-net/nl/aspose.slides/ipresentation)

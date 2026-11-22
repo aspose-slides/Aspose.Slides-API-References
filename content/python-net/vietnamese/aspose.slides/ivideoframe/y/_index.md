@@ -4,9 +4,9 @@ second_title: Tham chiếu API Aspose.Slides cho Python qua .NET
 description: 
 type: docs
 url: /vi/aspose.slides/ivideoframe/y/
-weight: 640
+weight: 650
 ---
-## y thuộc tính
+## y property
 ### Định nghĩa:
 ```python
 @property
@@ -20,6 +20,6 @@ def y(self, value):
 
 
 ### Xem thêm
-* lớp [`IVideoFrame`](/slides/python-net/vi/aspose.slides/ivideoframe)
+* class [`IVideoFrame`](/slides/python-net/vi/aspose.slides/ivideoframe)
 * module [`aspose.slides`](/slides/python-net/vi/aspose.slides)
-* thư viện [`Aspose.Slides`](/slides/python-net)
+* library [`Aspose.Slides`](/slides/python-net)

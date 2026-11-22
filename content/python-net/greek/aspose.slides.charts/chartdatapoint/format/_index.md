@@ -4,9 +4,9 @@ second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
 description: 
 type: docs
 url: /el/aspose.slides.charts/chartdatapoint/format/
-weight: 130
+weight: 170
 ---
-## ιδιότητα μορφοποίησης
+## ιδιότητα μορφής
 Αντιπροσωπεύει τις ιδιότητες μορφοποίησης.
             Ανάγνωση/εγγραφή [`IFormat`](/slides/python-net/el/aspose.slides.charts/iformat).
 

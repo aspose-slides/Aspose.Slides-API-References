@@ -1,20 +1,20 @@
 ---
 title: y property
-second_title: Aspose.Slides Python के लिये .NET के माध्यम से API संदर्भ
+second_title: Aspose.Slides के लिए Python via .NET API संदर्भ
 description: 
 type: docs
 url: /hi/aspose.slides/videoframe/y/
-weight: 660
+weight: 670
 ---
 ## y प्रॉपर्टी
-शेप के ऊपरी बाएं कोने के y-निर्देशांक को प्राप्त करता है या सेट करता है, जिसे पॉइंट में मापा जाता है.
+आकार के ऊपर-बाएँ कोने के y-निर्देशांक को प्राप्त करता है या सेट करता है, जिसे बिंदुओं में मापा जाता है।
             पढ़ें/लिखें **float**.
 
 
 ### टिप्पणियाँ
 
-वापसी मान हमेशा परिभाषित रहता है और कभी **float** नहीं होता है.
-            स्थापित मान भी परिभाषित होना चाहिए; केवल `RawFrame` इंस्टेंस की प्रॉपर्टीज़ को **float** असाइन करें।
+वापस किया गया मान हमेशा परिभाषित होता है और कभी भी **float** नहीं होता।
+            निर्धारित मान को भी परिभाषित होना चाहिए; केवल `RawFrame` इंस्टेंस के गुणों को **float** असाइन करें।
 
 ### परिभाषा:
 ```python
@@ -31,4 +31,4 @@ def y(self, value):
 ### संबंधित देखें
 * क्लास [`VideoFrame`](/slides/python-net/hi/aspose.slides/videoframe)
 * मॉड्यूल [`aspose.slides`](/slides/python-net/hi/aspose.slides)
-* पुस्तकालय [`Aspose.Slides`](/slides/python-net)
+* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

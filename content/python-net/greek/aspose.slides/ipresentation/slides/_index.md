@@ -1,13 +1,13 @@
 ---
 title: slides property
-second_title: Αναφορά API Aspose.Slides για Python μέσω .NET
+second_title: Aspose.Slides για Python μέσω .NET Αναφορά API
 description: 
 type: docs
 url: /el/aspose.slides/ipresentation/slides/
-weight: 350
+weight: 360
 ---
-## slides ιδιότητα
-Επιστρέφει μια λίστα με όλα τα slides που ορίζονται στην παρουσίαση.
+## ιδιότητα slides
+Επιστρέφει μια λίστα με όλες τις slides που έχουν οριστεί στην παρουσίαση.
             Μόνο για ανάγνωση [`ISlideCollection`](/el/slides/python-net/aspose.slides/islidecollection).
 
 ### Ορισμός:

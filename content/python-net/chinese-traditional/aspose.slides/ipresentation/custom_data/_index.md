@@ -1,10 +1,10 @@
 ---
 title: custom_data property
-second_title: Aspose.Slides 用於 Python 的 .NET API 參考
+second_title: Aspose.Slides for Python via .NET API 參考文件
 description: 
 type: docs
 url: /zh-hant/aspose.slides/ipresentation/custom_data/
-weight: 150
+weight: 160
 ---
 ## custom_data 屬性
 返回簡報的自訂資料。

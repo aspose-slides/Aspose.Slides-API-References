@@ -1,14 +1,14 @@
 ---
 title: slide_size property
-second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
+second_title: Aspose.Slides για Python μέσω .NET Αναφορά API
 description: 
 type: docs
 url: /el/aspose.slides/presentation/slide_size/
-weight: 360
+weight: 370
 ---
 ## slide_size ιδιότητα
-Επιστρέφει αντικείμενο μεγέθους διαφάνειας.
-            Μόνο για ανάγνωση [`ISlideSize`](/slides/python-net/el/aspose.slides/islidesize).
+Επιστρέφει το αντικείμενο slide size.
+Μόνο για ανάγνωση [`ISlideSize`](/slides/python-net/el/aspose.slides/islidesize).
 
 ### Ορισμός:
 ```python

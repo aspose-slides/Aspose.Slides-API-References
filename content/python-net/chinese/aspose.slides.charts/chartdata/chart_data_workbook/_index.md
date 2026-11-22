@@ -4,10 +4,10 @@ second_title: Aspose.Slides for Python via .NET API 参考
 description: 
 type: docs
 url: /zh/aspose.slides.charts/chartdata/chart_data_workbook/
-weight: 80
+weight: 90
 ---
 ## chart_data_workbook 属性
-获取用于创建图表系列或类别的单元格工厂。
+获取用于创建图表系列或类别的单元格的工厂。
             只读 [`IChartDataWorkbook`](/slides/python-net/zh/aspose.slides.charts/ichartdataworkbook).
 
 ### 定义:

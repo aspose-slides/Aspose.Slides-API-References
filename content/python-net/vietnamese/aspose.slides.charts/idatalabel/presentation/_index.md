@@ -1,19 +1,18 @@
 ---
 title: presentation property
-second_title: Tham chiếu API Aspose.Slides cho Python qua .NET
+second_title: Tài liệu tham khảo API Aspose.Slides cho Python qua .NET
 description: 
 type: docs
 url: /vi/aspose.slides.charts/idatalabel/presentation/
-weight: 190
+weight: 200
 ---
-## Thuộc tính presentation
+## presentation thuộc tính
 ### Định nghĩa:
 ```python
 @property
 def presentation(self):
     ...
 ```
-
 
 ### Xem thêm
 * lớp [`IDataLabel`](/slides/python-net/vi/aspose.slides.charts/idatalabel)

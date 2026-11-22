@@ -1,14 +1,14 @@
 ---
 title: x_value property
-second_title: Referensi API Aspose.Slides untuk Python via .NET
+second_title: Aspose.Slides untuk Python via .NET Referensi API
 description: 
 type: docs
 url: /id/aspose.slides.charts/ichartdatapoint/x_value/
-weight: 230
+weight: 270
 ---
 ## x_value properti
-Mengembalikan nilai x dari titik data grafik.
-            Hanya-baca [`IStringOrDoubleChartValue`](/slides/python-net/id/aspose.slides.charts/istringordoublechartvalue).
+Mendapatkan nilai x dari sebuah titik data diagram.
+            Hanya baca [`IStringOrDoubleChartValue`](/slides/python-net/id/aspose.slides.charts/istringordoublechartvalue).
 
 ### Definisi:
 ```python

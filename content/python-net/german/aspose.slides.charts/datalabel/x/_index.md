@@ -1,13 +1,13 @@
 ---
 title: x property
-second_title: Aspose.Slides für Python über .NET API-Referenz
+second_title: Aspose.Slides für Python via .NET API-Referenz
 description: 
 type: docs
 url: /de/aspose.slides.charts/datalabel/x/
-weight: 270
+weight: 280
 ---
 ## x Eigenschaft
-Gibt die x Koordinate eines Titels zurück oder legt sie fest als Bruchteil der Breite des Diagramms.
+Gibt die x-Koordinate eines Titels zurück oder setzt sie als Bruchteil der Breite des Diagramms.
             Lesen/Schreiben **float**.
 
 ### Definition:

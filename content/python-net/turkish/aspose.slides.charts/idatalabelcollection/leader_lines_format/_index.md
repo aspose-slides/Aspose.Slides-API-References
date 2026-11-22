@@ -4,11 +4,11 @@ second_title: Aspose.Slides for Python via .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides.charts/idatalabelcollection/leader_lines_format/
-weight: 130
+weight: 140
 ---
 ## leader_lines_format özelliği
 Veri etiketlerinin lider çizgi biçimini temsil eder.
-             Yalnızca okuma [`IChartLinesFormat`](/slides/python-net/tr/aspose.slides.charts/ichartlinesformat).
+             Salt okunur [`IChartLinesFormat`](/slides/python-net/tr/aspose.slides.charts/ichartlinesformat).
 
 ### Tanım:
 ```python

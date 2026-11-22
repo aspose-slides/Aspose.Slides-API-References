@@ -4,11 +4,11 @@ second_title: Aspose.Slides for Python via .NET API 参考
 description: 
 type: docs
 url: /zh/aspose.slides/presentation/master_handout_slide_manager/
-weight: 260
+weight: 270
 ---
 ## master_handout_slide_manager 属性
 Returns handout master manager.
-            只读 [`IMasterHandoutSlideManager`](/slides/python-net/zh/aspose.slides/imasterhandoutslidemanager).
+只读 [`IMasterHandoutSlideManager`](/slides/python-net/zh/aspose.slides/imasterhandoutslidemanager).
 
 ### 定义:
 ```python
@@ -16,7 +16,6 @@ Returns handout master manager.
 def master_handout_slide_manager(self):
     ...
 ```
-
 
 ### 另见
 * 类 [`IMasterHandoutSlideManager`](/slides/python-net/zh/aspose.slides/imasterhandoutslidemanager)

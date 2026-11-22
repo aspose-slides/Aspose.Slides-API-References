@@ -7,17 +7,18 @@ url: /cs/aspose.slides.charts/idatalabel/
 ---
 ## IDataLabel třída
 
-Představuje popisky řady.
+Reprezentuje popisky řady.
 
-Typ IDataLabel vystavuje následující členy:
+Typ IDataLabel obsahuje následující členy:
 
 ## Vlastnosti
 
 | Vlastnost | Popis |
 | :- | :- |
-| [`is_visible`](/slides/python-net/cs/aspose.slides.charts/idatalabel/is_visible/) | False znamená, že popisek dat není viditelný (a všechny příznaky Show*- (ShowValue, ...) jsou také false).<br/>            Pouze ke čtení **bool**. |
-| [`data_label_format`](/slides/python-net/cs/aspose.slides.charts/idatalabel/data_label_format/) | Vrací formát popisku dat.<br/>            Pouze ke čtení [`IDataLabelFormat`](/slides/python-net/cs/aspose.slides.charts/idatalabelformat). |
-| [`value_from_cell`](/slides/python-net/cs/aspose.slides.charts/idatalabel/value_from_cell/) | Získá nebo nastaví buňku dat sešitu. Použije se, pokud vlastnost IDataLabelFormat.ShowLabelValueFromCell je true. |
+| [`is_visible`](/slides/python-net/cs/aspose.slides.charts/idatalabel/is_visible/) | False znamená, že popisek dat není viditelný (a tedy všechny příznaky Show*-flags (ShowValue, ...) jsou nastaveny na false).<br/>            Read-only **bool**. |
+| [`data_label_format`](/slides/python-net/cs/aspose.slides.charts/idatalabel/data_label_format/) | Vrací formát popisku dat.<br/>            Read-only [`IDataLabelFormat`](/slides/python-net/cs/aspose.slides.charts/idatalabelformat). |
+| [`value_from_cell`](/slides/python-net/cs/aspose.slides.charts/idatalabel/value_from_cell/) | Získá nebo nastaví buňku dat sešitu. Použije se, pokud je vlastnost IDataLabelFormat.ShowLabelValueFromCell nastavena na true. |
+| [`label_shape_type`](/slides/python-net/cs/aspose.slides.charts/idatalabel/label_shape_type/) | Získá nebo nastaví typ tvaru popisku dat.<br/>             Vrací [`ShapeType.NOT_DEFINED`](/slides/python-net/cs/aspose.slides/shapetype/NOT_DEFINED), pokud není definován žádný tvar. |
 | [`x`](/slides/python-net/cs/aspose.slides.charts/idatalabel/x/) |  |
 | [`y`](/slides/python-net/cs/aspose.slides.charts/idatalabel/y/) |  |
 | [`width`](/slides/python-net/cs/aspose.slides.charts/idatalabel/width/) |  |
@@ -38,8 +39,8 @@ Typ IDataLabel vystavuje následující členy:
 
 | Metoda | Popis |
 | :- | :- |
-| [`hide(self)`](/slides/python-net/cs/aspose.slides.charts/idatalabel/hide/#) | Zpřístupní popisek dat skrytím nastavením všech příznaků Show*- (ShowValue, ...) na false.<br/>            Po této operaci bude IsVisible false. |
-| [`get_actual_label_text(self)`](/slides/python-net/cs/aspose.slides.charts/idatalabel/get_actual_label_text/#) | Vrací aktuální text popisku na základě nastavení DataLabelFormat nebo hodnoty TextFrameForOverriding.Text. |
+| [`hide(self)`](/slides/python-net/cs/aspose.slides.charts/idatalabel/hide/#) | Skryje popisek dat nastavením všech příznaků Show*-flags (ShowValue, ...) do stavu false.<br/>            IsVisible bude po tomto nastavení false. |
+| [`get_actual_label_text(self)`](/slides/python-net/cs/aspose.slides.charts/idatalabel/get_actual_label_text/#) | Vrátí aktuální text popisku na základě nastavení DataLabelFormat nebo hodnoty TextFrameForOverriding.Text. |
 | [`add_text_frame_for_overriding(self, text)`](/slides/python-net/cs/aspose.slides.charts/idatalabel/add_text_frame_for_overriding/#str) |  |
 
 ### Viz také

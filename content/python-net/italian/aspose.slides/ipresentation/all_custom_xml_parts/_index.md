@@ -4,7 +4,7 @@ second_title: Riferimento API Aspose.Slides per Python via .NET
 description: 
 type: docs
 url: /it/aspose.slides/ipresentation/all_custom_xml_parts/
-weight: 90
+weight: 100
 ---
 ## all_custom_xml_parts proprietà
 Restituisce tutte le parti di dati personalizzate nella presentazione.

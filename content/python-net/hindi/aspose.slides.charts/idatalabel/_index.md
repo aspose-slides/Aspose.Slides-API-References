@@ -1,6 +1,6 @@
 ---
 title: IDataLabel class
-second_title: Aspose.Slides के लिए Python .NET के माध्यम से API संदर्भ
+second_title: Aspose.Slides के लिए Python के माध्यम से .NET API रेफ़रेंस
 description: 
 type: docs
 url: /hi/aspose.slides.charts/idatalabel/
@@ -9,15 +9,16 @@ url: /hi/aspose.slides.charts/idatalabel/
 
 एक श्रृंखला लेबल का प्रतिनिधित्व करता है।
 
-IDataLabel प्रकार निम्न सदस्य प्रस्तुत करता है:
+IDataLabel प्रकार निम्नलिखित सदस्यों को उजागर करता है:
 
 ## गुण
 
 | प्रॉपर्टी | विवरण |
 | :- | :- |
-| [`is_visible`](/slides/python-net/hi/aspose.slides.charts/idatalabel/is_visible/) | False का अर्थ है कि डेटा लेबल दृश्यमान नहीं है (और सभी Show*-flags (ShowValue, ...) भी false हैं)।<br/>केवल-पढ़ने योग्य **bool**. |
-| [`data_label_format`](/slides/python-net/hi/aspose.slides.charts/idatalabel/data_label_format/) | डेटा लेबल का फ़ॉर्मेट लौटाता है।<br/>केवल-पढ़ने योग्य [`IDataLabelFormat`](/slides/python-net/hi/aspose.slides.charts/idatalabelformat). |
-| [`value_from_cell`](/slides/python-net/hi/aspose.slides.charts/idatalabel/value_from_cell/) | वर्कबुक डेटा सेल को प्राप्त या सेट करता है। यदि IDataLabelFormat.ShowLabelValueFromCell प्रॉपर्टी true के बराबर हो तो लागू होता है। |
+| [`is_visible`](/slides/python-net/hi/aspose.slides.charts/idatalabel/is_visible/) | False का अर्थ है कि डेटा लेबल दृश्यमान नहीं है (और इसलिए सभी Show*-flags (ShowValue, ...) false होते हैं)।<br/>            केवल-पढ़ने योग्य **bool**. |
+| [`data_label_format`](/slides/python-net/hi/aspose.slides.charts/idatalabel/data_label_format/) | डेटा लेबल का फ़ॉर्मेट लौटाता है।<br/>            केवल-पढ़ने योग्य [`IDataLabelFormat`](/slides/python-net/hi/aspose.slides.charts/idatalabelformat). |
+| [`value_from_cell`](/slides/python-net/hi/aspose.slides.charts/idatalabel/value_from_cell/) | वर्कबुक डेटा सेल को प्राप्त करता है या सेट करता है। यदि IDataLabelFormat.ShowLabelValueFromCell प्रॉपर्टी true के बराबर है तो लागू होता है। |
+| [`label_shape_type`](/slides/python-net/hi/aspose.slides.charts/idatalabel/label_shape_type/) | डेटा लेबल के आकार प्रकार को प्राप्त करता है या सेट करता है।<br/>             यदि कोई आकार परिभाषित नहीं है तो [`ShapeType.NOT_DEFINED`](/slides/python-net/hi/aspose.slides/shapetype/NOT_DEFINED) लौटाता है। |
 | [`x`](/slides/python-net/hi/aspose.slides.charts/idatalabel/x/) |  |
 | [`y`](/slides/python-net/hi/aspose.slides.charts/idatalabel/y/) |  |
 | [`width`](/slides/python-net/hi/aspose.slides.charts/idatalabel/width/) |  |
@@ -34,14 +35,14 @@ IDataLabel प्रकार निम्न सदस्य प्रस्त
 | [`actual_width`](/slides/python-net/hi/aspose.slides.charts/idatalabel/actual_width/) |  |
 | [`actual_height`](/slides/python-net/hi/aspose.slides.charts/idatalabel/actual_height/) |  |
 
-## विधियाँ
+## मेथड्स
 
-| विधि | विवरण |
+| मेथड | विवरण |
 | :- | :- |
-| [`hide(self)`](/slides/python-net/hi/aspose.slides.charts/idatalabel/hide/#) | सभी Show*-flags (ShowValue, ...) को false स्थिति में सेट करके डेटा लेबल को छिपा दें।<br/>IsVisible इस कार्य के बाद false रहेगा. |
-| [`get_actual_label_text(self)`](/slides/python-net/hi/aspose.slides.charts/idatalabel/get_actual_label_text/#) | DataLabelFormat सेटिंग्स या TextFrameForOverriding.Text मान के आधार पर वास्तविक लेबल टेक्स्ट लौटाता है. |
+| [`hide(self)`](/slides/python-net/hi/aspose.slides.charts/idatalabel/hide/#) | सभी Show*-flags (ShowValue, ...) को false स्थिति में सेट करके डेटा लेबल को छिपा देता है।<br/>            IsVisible इस के बाद false होगा। |
+| [`get_actual_label_text(self)`](/slides/python-net/hi/aspose.slides.charts/idatalabel/get_actual_label_text/#) | DataLabelFormat सेटिंग्स या TextFrameForOverriding.Text मूल्य के आधार पर वास्तविक लेबल टेक्स्ट लौटाता है। |
 | [`add_text_frame_for_overriding(self, text)`](/slides/python-net/hi/aspose.slides.charts/idatalabel/add_text_frame_for_overriding/#str) |  |
 
-### संबंधित देखें
+### देखें
 * मॉड्यूल [`aspose.slides.charts`](/slides/python-net/hi/aspose.slides.charts)
 * लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

@@ -4,7 +4,7 @@ second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
 description: 
 type: docs
 url: /el/aspose.slides/ipresentation/sections/
-weight: 320
+weight: 330
 ---
 ## sections ιδιότητα
 Επιστρέφει μια λίστα με όλες τις ενότητες διαφανειών που ορίζονται στην παρουσίαση.

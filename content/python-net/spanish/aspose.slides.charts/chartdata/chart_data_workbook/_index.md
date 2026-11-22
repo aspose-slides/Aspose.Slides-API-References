@@ -1,13 +1,13 @@
 ---
 title: chart_data_workbook property
-second_title: Aspose.Slides para Python vía .NET Referencia de API
+second_title: Referencia de la API de Aspose.Slides para Python vía .NET
 description: 
 type: docs
 url: /es/aspose.slides.charts/chartdata/chart_data_workbook/
-weight: 80
+weight: 90
 ---
 ## chart_data_workbook propiedad
-Obtiene la fábrica de celdas para crear celdas usadas en series de gráficos o categorías.
+Obtiene la fábrica de celdas para crear celdas usadas para series o categorías de gráfico.
             Solo lectura [`IChartDataWorkbook`](/slides/python-net/es/aspose.slides.charts/ichartdataworkbook).
 
 ### Definición:

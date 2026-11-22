@@ -4,10 +4,10 @@ second_title: Referensi API Aspose.Slides untuk Python via .NET
 description: 
 type: docs
 url: /id/aspose.slides/presentation/save/
-weight: 90
+weight: 100
 ---
 ## save(self, options) {#asposeslidesexportxamlixamloptions}
-Menyimpan semua slide dari sebuah presentasi ke sekumpulan file yang mewakili markup XAML.
+Menyimpan semua slide presentasi ke sekumpulan file yang mewakili markup XAML.
 
 ```python
 def save(self, options):
@@ -19,7 +19,7 @@ def save(self, options):
 | options | [`IXamlOptions`](/slides/python-net/id/aspose.slides.export.xaml/ixamloptions) | Opsi format XAML. |
 
 ## save(self, fname, format) {#str-asposeslidesexportsaveformat}
-Menyimpan semua slide dari sebuah presentasi ke sebuah file dengan format yang ditentukan.
+Menyimpan semua slide presentasi ke file dengan format yang ditentukan.
 
 ```python
 def save(self, fname, format):
@@ -32,7 +32,7 @@ def save(self, fname, format):
 | format | [`SaveFormat`](/slides/python-net/id/aspose.slides.export/saveformat) | Format data yang diekspor. |
 
 ## save(self, stream, format) {#iorawiobase-asposeslidesexportsaveformat}
-Menyimpan semua slide dari sebuah presentasi ke aliran dalam format yang ditentukan.
+Menyimpan semua slide presentasi ke stream dalam format yang ditentukan.
 
 ```python
 def save(self, stream, format):
@@ -41,7 +41,7 @@ def save(self, stream, format):
 
 | Parameter | Tipe | Deskripsi |
 | :- | :- | :- |
-| stream | **io.RawIOBase** | Aliran keluaran. |
+| stream | **io.RawIOBase** | Stream output. |
 | format | [`SaveFormat`](/slides/python-net/id/aspose.slides.export/saveformat) | Format data yang diekspor. |
 
 ## save(self, fname, format, options) {#str-asposeslidesexportsaveformat-asposeslidesexportisaveoptions}
@@ -58,7 +58,7 @@ def save(self, fname, format, options):
 | options | [`ISaveOptions`](/slides/python-net/id/aspose.slides.export/isaveoptions) |  |
 
 ## save(self, stream, format, options) {#iorawiobase-asposeslidesexportsaveformat-asposeslidesexportisaveoptions}
-Menyimpan semua slide dari sebuah presentasi ke aliran dalam format yang ditentukan dan dengan opsi tambahan.
+Menyimpan semua slide presentasi ke stream dalam format yang ditentukan dan dengan opsi tambahan.
 
 ```python
 def save(self, stream, format, options):
@@ -67,18 +67,18 @@ def save(self, stream, format, options):
 
 | Parameter | Tipe | Deskripsi |
 | :- | :- | :- |
-| stream | **io.RawIOBase** | Aliran keluaran. |
+| stream | **io.RawIOBase** | Stream output. |
 | format | [`SaveFormat`](/slides/python-net/id/aspose.slides.export/saveformat) | Format data yang diekspor. |
 | options | [`ISaveOptions`](/slides/python-net/id/aspose.slides.export/isaveoptions) | Opsi format tambahan. |
 
 ### Pengecualian
 
-| Pengecualian | Deskripsi |
+| Eksepsi | Deskripsi |
 | :- | :- |
-| **RuntimeError(Proxy error(NotSupportedException))** | Jika Anda mencoba menyimpan file terenkripsi dalam <br/>            format bukan Office 2007-2010 |
+| **RuntimeError(Proxy error(NotSupportedException))** | Jika Anda mencoba menyimpan file terenkripsi dalam <br/>            none Office 2007-2010 format |
 
 ## save(self, fname, slides, format) {#str-listint-asposeslidesexportsaveformat}
-Menyimpan slide tertentu dari sebuah presentasi ke sebuah file dengan format yang ditentukan dengan mempertahankan nomor halaman.
+Menyimpan slide tertentu dari presentasi ke file dengan format yang ditentukan sambil mempertahankan nomor halaman.
 
 ```python
 def save(self, fname, slides, format):
@@ -93,14 +93,14 @@ def save(self, fname, slides, format):
 
 ### Pengecualian
 
-| Pengecualian | Deskripsi |
+| Eksepsi | Deskripsi |
 | :- | :- |
 | **RuntimeError(Proxy error(ArgumentNullException))** | Ketika parameter stream atau slides bernilai None. |
 | **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Ketika parameter slides berisi nomor halaman yang salah. |
 | **RuntimeError(Proxy error(InvalidOperationException))** | Ketika SaveFormat yang tidak didukung digunakan, misalnya PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
 ## save(self, stream, slides, format) {#iorawiobase-listint-asposeslidesexportsaveformat}
-Menyimpan slide tertentu dari sebuah presentasi ke aliran dalam format yang ditentukan dengan mempertahankan nomor halaman.
+Menyimpan slide tertentu dari presentasi ke stream dalam format yang ditentukan sambil mempertahankan nomor halaman.
 
 ```python
 def save(self, stream, slides, format):
@@ -109,12 +109,12 @@ def save(self, stream, slides, format):
 
 | Parameter | Tipe | Deskripsi |
 | :- | :- | :- |
-| stream | **io.RawIOBase** | Aliran keluaran. |
+| stream | **io.RawIOBase** | Stream output. |
 | slides | **List[int]** | Array dengan posisi slide, dimulai dari 1. |
 | format | [`SaveFormat`](/slides/python-net/id/aspose.slides.export/saveformat) | Format data yang diekspor. |
 
 ## save(self, fname, slides, format, options) {#str-listint-asposeslidesexportsaveformat-asposeslidesexportisaveoptions}
-Menyimpan slide tertentu dari sebuah presentasi ke sebuah file dengan format yang ditentukan dengan mempertahankan nomor halaman.
+Menyimpan slide tertentu dari presentasi ke file dengan format yang ditentukan sambil mempertahankan nomor halaman.
 
 ```python
 def save(self, fname, slides, format, options):
@@ -129,7 +129,7 @@ def save(self, fname, slides, format, options):
 | options | [`ISaveOptions`](/slides/python-net/id/aspose.slides.export/isaveoptions) | Opsi format tambahan. |
 
 ## save(self, stream, slides, format, options) {#iorawiobase-listint-asposeslidesexportsaveformat-asposeslidesexportisaveoptions}
-Menyimpan slide tertentu dari sebuah presentasi ke aliran dalam format yang ditentukan dengan mempertahankan nomor halaman.
+Menyimpan slide tertentu dari presentasi ke stream dalam format yang ditentukan sambil mempertahankan nomor halaman.
 
 ```python
 def save(self, stream, slides, format, options):
@@ -138,14 +138,14 @@ def save(self, stream, slides, format, options):
 
 | Parameter | Tipe | Deskripsi |
 | :- | :- | :- |
-| stream | **io.RawIOBase** | Aliran keluaran. |
+| stream | **io.RawIOBase** | Stream output. |
 | slides | **List[int]** | Array dengan posisi slide, dimulai dari 1. |
 | format | [`SaveFormat`](/slides/python-net/id/aspose.slides.export/saveformat) | Format data yang diekspor. |
 | options | [`ISaveOptions`](/slides/python-net/id/aspose.slides.export/isaveoptions) | Opsi format tambahan. |
 
 ### Pengecualian
 
-| Pengecualian | Deskripsi |
+| Eksepsi | Deskripsi |
 | :- | :- |
 | **RuntimeError(Proxy error(ArgumentNullException))** | Ketika parameter stream atau slides bernilai None. |
 | **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Ketika parameter slides berisi nomor halaman yang salah. |
@@ -157,4 +157,4 @@ def save(self, stream, slides, format, options):
 * kelas [`Presentation`](/slides/python-net/id/aspose.slides/presentation)
 * enumerasi [`SaveFormat`](/slides/python-net/id/aspose.slides.export/saveformat)
 * modul [`aspose.slides`](/slides/python-net/id/aspose.slides)
-* perpustakaan [`Aspose.Slides`](/slides/python-net)
+* pustaka [`Aspose.Slides`](/slides/python-net)

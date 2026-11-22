@@ -7,15 +7,9 @@ url: /nl/aspose.slides/positionedstring/
 ---
 ## PositionedString klasse
 
-Structuur bevat integer sleutel en string waarde en is een tijdelijke vervanging van KeyValuePair<int, string>
+Structuur bevat een integer sleutel en een string waarde en is een tijdelijke vervanging van KeyValuePair<int, string>
 
 Het PositionedString type exposeert de volgende leden:
-
-## Constructoren
-
-| Constructor | Beschrijving |
-| :- | :- |
-| [`__init__(self)`](/slides/python-net/nl/aspose.slides/positionedstring/__init__/#) |  |
 
 ## Eigenschappen
 

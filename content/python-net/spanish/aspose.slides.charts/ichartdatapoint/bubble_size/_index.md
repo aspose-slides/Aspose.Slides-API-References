@@ -7,7 +7,7 @@ url: /es/aspose.slides.charts/ichartdatapoint/bubble_size/
 weight: 80
 ---
 ## bubble_size propiedad
-Devuelve el tamaño de la burbuja del punto de datos del gráfico.
+Obtiene el tamaño de burbuja de un punto de datos de un gráfico.
             Solo lectura [`IDoubleChartValue`](/slides/python-net/es/aspose.slides.charts/idoublechartvalue).
 
 ### Definición:

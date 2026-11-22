@@ -1,13 +1,13 @@
 ---
 title: y_value property
-second_title: Aspose.Slides voor Python via .NET API Referentie
+second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides.charts/ichartdatapoint/y_value/
-weight: 240
+weight: 280
 ---
 ## y_value eigenschap
-Geeft de y-waarde van een grafiekdatapunt terug.
+Haalt de y-waarde van een grafiekdatapunt op.
             Alleen-lezen [`IDoubleChartValue`](/slides/python-net/nl/aspose.slides.charts/idoublechartvalue).
 
 ### Definitie:

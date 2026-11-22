@@ -4,13 +4,13 @@ second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Refe
 description: 
 type: docs
 url: /th/aspose.slides/presentation/hyperlink_queries/
-weight: 230
+weight: 240
 ---
 ## hyperlink_queries คุณสมบัติ
-ให้การเข้าถึงไฮเปอร์ลิงก์ทั้งหมดที่อยู่ในสไลด์การนำเสนอทั้งหมดได้อย่างง่ายดาย (ไม่อยู่ในสไลด์หลัก, เค้าโครง, สไลด์บันทึก).
+ให้การเข้าถึงไฮเปอร์ลิงก์ทั้งหมดที่อยู่ในสไลด์การนำเสนอทั้งหมดได้อย่างง่ายดาย (ไม่รวมในสไลด์มาสเตอร์, เลย์เอาต์, สไลด์โน้ต)
             อ่านอย่างเดียว [`IHyperlinkQueries`](/slides/python-net/th/aspose.slides/ihyperlinkqueries).
 
-### คำนิยาม:
+### คำจำกัดความ:
 ```python
 @property
 def hyperlink_queries(self):

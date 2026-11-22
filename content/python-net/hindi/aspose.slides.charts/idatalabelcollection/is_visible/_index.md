@@ -1,18 +1,21 @@
 ---
 title: is_visible property
-second_title: Aspose.Slides for Python via .NET API संदर्भ
+second_title: Aspose.Slides for Python via .NET API रेफ़रेंस
 description: 
 type: docs
 url: /hi/aspose.slides.charts/idatalabelcollection/is_visible/
-weight: 120
+weight: 130
 ---
-## is_visible गुण
-False means that data label is not visible by default (and so all Show*-flags (ShowValue, ...) of the DefaultDataLabelFormat property are false). Read-only **bool**.
+## is_visible प्रॉपर्टी
+False का अर्थ है कि डेटा लेबल डिफ़ॉल्ट रूप से दिखाई नहीं देता (और इसलिए सभी 
+            Show*-flags (ShowValue, ...) of the DefaultDataLabelFormat प्रॉपर्टी false हैं).
+            केवल-पढ़ने योग्य **bool**.
 
 ### टिप्पणियाँ
 
-If data label is visible by default you can make it hidden by default with Hide() method.
-But if data label is not visible by default (IsVisible is false) you can make data label "visible by default" with setting Show*-flags (ShowValue, ...) of the DefaultDataLabelFormat property to true state.
+यदि डेटा लेबल डिफ़ॉल्ट रूप से दिखाई देता है तो आप इसे Hide() मेथड से डिफ़ॉल्ट रूप से छिपा सकते हैं।
+            लेकिन यदि डेटा लेबल डिफ़ॉल्ट रूप से दिखाई नहीं देता (IsVisible false है) आप डेटा लेबल को "visible 
+            by default" Show*-flags (ShowValue, ...) को DefaultDataLabelFormat प्रॉपर्टी की सेटिंग को true स्थिति में सेट करके बना सकते हैं।
 
 ### परिभाषा:
 ```python
@@ -21,7 +24,7 @@ def is_visible(self):
     ...
 ```
 
-### संबंधित देखें
+### देखें
 * क्लास [`IDataLabelCollection`](/slides/python-net/hi/aspose.slides.charts/idatalabelcollection)
 * मॉड्यूल [`aspose.slides.charts`](/slides/python-net/hi/aspose.slides.charts)
 * लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

@@ -4,12 +4,12 @@ second_title: Aspose.Slides pro Python prostřednictvím .NET API Reference
 description: 
 type: docs
 url: /cs/aspose.slides.charts/ichartdatapoint/color_value/
-weight: 90
+weight: 130
 ---
 ## color_value vlastnost
-Vrací barevnou hodnotu datového bodu grafu.
+Gets the color value of a chart data point.
             Používá se s mapovými grafy. 
-            Pouze pro čtení [`IDoubleChartValue`](/slides/python-net/cs/aspose.slides.charts/idoublechartvalue).
+            Pouze ke čtení [`IDoubleChartValue`](/slides/python-net/cs/aspose.slides.charts/idoublechartvalue).
 
 ### Definice:
 ```python

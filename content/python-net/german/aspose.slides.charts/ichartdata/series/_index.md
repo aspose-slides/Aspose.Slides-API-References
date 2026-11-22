@@ -4,10 +4,10 @@ second_title: Aspose.Slides für Python über .NET API-Referenz
 description: 
 type: docs
 url: /de/aspose.slides.charts/ichartdata/series/
-weight: 130
+weight: 140
 ---
 ## series Eigenschaft
-Ruft die series ab.
+Gibt die series zurück.
             Nur-Lesen [`IChartSeriesCollection`](/slides/python-net/de/aspose.slides.charts/ichartseriescollection).
 
 ### Definition:

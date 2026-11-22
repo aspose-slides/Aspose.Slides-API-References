@@ -4,18 +4,16 @@ second_title: Aspose.Slides for Python via .NET API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides.charts/ichartdata/switch_row_column/
-weight: 50
+weight: 60
 ---
 ## switch_row_column(self) {#}
-Swap the data over the axis.
-            X 軸でチャート化されているデータは Y 軸へ、Y 軸のデータは X 軸へ移動します。
-
+軸上のデータを入れ替えます。
+            X軸にプロットされたデータはY軸に移動し、逆も同様です。
 
 ```python
 def switch_row_column(self):
     ...
 ```
-
 
 
 

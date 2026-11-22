@@ -4,7 +4,7 @@ second_title: Aspose.Slides för Python via .NET API-referens
 description: 
 type: docs
 url: /sv/aspose.slides.charts/datalabelcollection/presentation/
-weight: 150
+weight: 160
 ---
 ## presentationsegenskap
 ### Definition:
@@ -13,7 +13,6 @@ weight: 150
 def presentation(self):
     ...
 ```
-
 
 ### Se även
 * klass [`DataLabelCollection`](/slides/python-net/sv/aspose.slides.charts/datalabelcollection)

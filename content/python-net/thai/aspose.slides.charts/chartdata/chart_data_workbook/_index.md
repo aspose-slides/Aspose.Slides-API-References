@@ -1,14 +1,14 @@
 ---
 title: chart_data_workbook property
-second_title: Aspose.Slides สำหรับ Python ผ่าน .NET เอกสารอ้างอิง API
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET อ้างอิง API
 description: 
 type: docs
 url: /th/aspose.slides.charts/chartdata/chart_data_workbook/
-weight: 80
+weight: 90
 ---
 ## chart_data_workbook คุณสมบัติ
 Gets the cells factory to create cells used for chart series or categories.
-            Read-only [`IChartDataWorkbook`](/slides/python-net/th/aspose.slides.charts/ichartdataworkbook).
+            อ่านอย่างเดียว [`IChartDataWorkbook`](/slides/python-net/th/aspose.slides.charts/ichartdataworkbook).
 
 ### คำนิยาม:
 ```python

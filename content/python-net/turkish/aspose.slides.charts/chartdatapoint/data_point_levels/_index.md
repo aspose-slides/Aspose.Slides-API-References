@@ -1,13 +1,14 @@
 ---
 title: data_point_levels property
-second_title: Aspose.Slides Python için .NET API Referansı
+second_title: Aspose.Slides için Python üzerinden .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides.charts/chartdatapoint/data_point_levels/
-weight: 100
+weight: 140
 ---
 ## data_point_levels özelliği
-Veri noktası seviyelerinin konteynerini döndürür. Treeamp ve Sunburst serileri için uygulanır. Veri noktası seviyesi indekslemesi sıfır tabanlıdır.
+Veri noktası seviyelerinin kapsayıcısını döndürür. Treeamp ve Sunburst serileri için uygulanır.
+            Veri noktası seviyelerinin indekslemesi sıfır tabanlıdır.
 
 ### Tanım:
 ```python

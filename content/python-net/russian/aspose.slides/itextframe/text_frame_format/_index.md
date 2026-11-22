@@ -4,11 +4,11 @@ second_title: Aspose.Slides для Python через .NET справочник A
 description: 
 type: docs
 url: /ru/aspose.slides/itextframe/text_frame_format/
-weight: 160
+weight: 170
 ---
 ## text_frame_format свойство
-Возвращает объект форматирования для этого объекта TextFrame.
-Только для чтения [`ITextFrameFormat`](/slides/python-net/ru/aspose.slides/itextframeformat).
+Returns the formatting object for this TextFrame object.
+            Только для чтения [`ITextFrameFormat`](/slides/python-net/ru/aspose.slides/itextframeformat).
 
 ### Определение:
 ```python

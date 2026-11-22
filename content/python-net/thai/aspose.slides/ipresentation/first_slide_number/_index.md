@@ -1,14 +1,14 @@
 ---
 title: first_slide_number property
-second_title: Aspose.Slides สำหรับ Python ผ่าน .NET เอกสารอ้างอิง API
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Reference
 description: 
 type: docs
 url: /th/aspose.slides/ipresentation/first_slide_number/
-weight: 190
+weight: 200
 ---
 ## first_slide_number คุณสมบัติ
 แสดงหมายเลขสไลด์แรกในงานนำเสนอ.
-            อ่าน/เขียน **int**.
+อ่าน/เขียน **int**.
 
 ### คำนิยาม:
 ```python

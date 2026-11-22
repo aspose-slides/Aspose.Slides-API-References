@@ -1,13 +1,13 @@
 ---
 title: highlight_regex method
-second_title: Aspose.Slides pro Python přes .NET – referenční příručka API
+second_title: Aspose.Slides pro Python prostřednictvím .NET referenční příručky API
 description: 
 type: docs
 url: /cs/aspose.slides/textframe/highlight_regex/
-weight: 10
+weight: 20
 ---
 ## highlight_regex(self, regex, highlight_color) {#str-asposeslidescolor}
-Zvýrazní všechny shody regulárního výrazu zadanou barvou.
+Zvýrazní všechny shody regulárního výrazu určenou barvou.
 
 
 ```python
@@ -23,7 +23,7 @@ def highlight_regex(self, regex, highlight_color):
 
 
 ## highlight_regex(self, regex, highlight_color, options) {#str-asposeslidescolor-itexthighlightingoptions}
-Zvýrazní všechny shody regulárního výrazu zadanou barvou.
+Zvýrazní všechny shody regulárního výrazu určenou barvou.
 
 
 ```python
@@ -36,7 +36,7 @@ def highlight_regex(self, regex, highlight_color, options):
 | :- | :- | :- |
 | regex | **str** | Text regulárního výrazu pro získání textu k zvýraznění. |
 | highlight_color | [`Color`](/slides/python-net/cs/aspose.slides/color) | Barva pro zvýraznění textu. |
-| options | [`ITextHighlightingOptions`](/slides/python-net/cs/aspose.slides/itexthighlightingoptions) | Možnosti zvýrazňování. |
+| options | [`ITextHighlightingOptions`](/slides/python-net/cs/aspose.slides/itexthighlightingoptions) | Možnosti zvýraznění. |
 
 
 

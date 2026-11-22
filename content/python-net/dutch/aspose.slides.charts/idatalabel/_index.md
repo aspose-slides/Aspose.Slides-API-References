@@ -9,15 +9,16 @@ url: /nl/aspose.slides.charts/idatalabel/
 
 Stelt een reeks labels voor.
 
-Het IDataLabel-type bevat de volgende leden weer:
+Het IDataLabel-type geeft de volgende leden weer:
 
 ## Eigenschappen
 
 | Eigenschap | Beschrijving |
 | :- | :- |
-| [`is_visible`](/slides/python-net/nl/aspose.slides.charts/idatalabel/is_visible/) | False betekent dat het datalabel niet zichtbaar is (en dus alle Show*-flags (ShowValue, ...) zijn false).<br/>            Alleen-lezen **bool**. |
-| [`data_label_format`](/slides/python-net/nl/aspose.slides.charts/idatalabel/data_label_format/) | Geeft het formaat van het datalabel terug.<br/>            Alleen-lezen [`IDataLabelFormat`](/slides/python-net/nl/aspose.slides.charts/idatalabelformat). |
-| [`value_from_cell`](/slides/python-net/nl/aspose.slides.charts/idatalabel/value_from_cell/) | Haalt op of stelt de workbook-gegevenscel in. Toegepast indien de eigenschap IDataLabelFormat.ShowLabelValueFromCell true is. |
+| [`is_visible`](/slides/python-net/nl/aspose.slides.charts/idatalabel/is_visible/) | False betekent dat het gegevenslabel niet zichtbaar is (en dus alle Show*-flags (ShowValue, ...) false zijn).<br/>            Alleen-lezen **bool**. |
+| [`data_label_format`](/slides/python-net/nl/aspose.slides.charts/idatalabel/data_label_format/) | Geeft het formaat van het gegevenslabel terug.<br/>            Alleen-lezen [`IDataLabelFormat`](/slides/python-net/nl/aspose.slides.charts/idatalabelformat). |
+| [`value_from_cell`](/slides/python-net/nl/aspose.slides.charts/idatalabel/value_from_cell/) | Haalt of stelt de werkboekdatacel in. Toegepast als de eigenschap IDataLabelFormat.ShowLabelValueFromCell waar is. |
+| [`label_shape_type`](/slides/python-net/nl/aspose.slides.charts/idatalabel/label_shape_type/) | Haalt of stelt het type vorm van het gegevenslabel in.<br/>             Geeft [`ShapeType.NOT_DEFINED`](/slides/python-net/nl/aspose.slides/shapetype/NOT_DEFINED) terug als er geen vorm is gedefinieerd. |
 | [`x`](/slides/python-net/nl/aspose.slides.charts/idatalabel/x/) |  |
 | [`y`](/slides/python-net/nl/aspose.slides.charts/idatalabel/y/) |  |
 | [`width`](/slides/python-net/nl/aspose.slides.charts/idatalabel/width/) |  |
@@ -38,10 +39,10 @@ Het IDataLabel-type bevat de volgende leden weer:
 
 | Methode | Beschrijving |
 | :- | :- |
-| [`hide(self)`](/slides/python-net/nl/aspose.slides.charts/idatalabel/hide/#) | Verberg het datalabel door alle Show*-flags (ShowValue, ...) op de false-toestand te zetten.<br/>            IsVisible zal daarna false zijn. |
-| [`get_actual_label_text(self)`](/slides/python-net/nl/aspose.slides.charts/idatalabel/get_actual_label_text/#) | Geeft de feitelijke labeltekst terug op basis van de instellingen van DataLabelFormat of de waarde van TextFrameForOverriding.Text. |
+| [`hide(self)`](/slides/python-net/nl/aspose.slides.charts/idatalabel/hide/#) | Verberg het gegevenslabel door alle Show*-flags (ShowValue, ...) op false te zetten.<br/>            IsVisible zal daarna false zijn. |
+| [`get_actual_label_text(self)`](/slides/python-net/nl/aspose.slides.charts/idatalabel/get_actual_label_text/#) | Geeft de daadwerkelijke labeltekst terug op basis van de DataLabelFormat-instellingen of de waarde van TextFrameForOverriding.Text. |
 | [`add_text_frame_for_overriding(self, text)`](/slides/python-net/nl/aspose.slides.charts/idatalabel/add_text_frame_for_overriding/#str) |  |
 
 ### Zie ook
 * module [`aspose.slides.charts`](/slides/python-net/nl/aspose.slides.charts)
-* library [`Aspose.Slides`](/slides/python-net)
+* bibliotheek [`Aspose.Slides`](/slides/python-net)

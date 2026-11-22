@@ -4,10 +4,10 @@ second_title: Aspose.Slides for Python via .NET API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides/presentation/slides/
-weight: 370
+weight: 380
 ---
 ## slides プロパティ
-プレゼンテーションで定義されているすべてのスライドのリストを返します。
+プレゼンテーションで定義されているすべてのスライドの一覧を返します。
             読み取り専用 [`ISlideCollection`](/ja/slides/python-net/aspose.slides/islidecollection).
 
 ### 定義:
@@ -16,6 +16,7 @@ weight: 370
 def slides(self):
     ...
 ```
+
 
 ### 参照
 * クラス [`ISlideCollection`](/slides/python-net/ja/aspose.slides/islidecollection)

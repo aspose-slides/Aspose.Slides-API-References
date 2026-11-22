@@ -4,10 +4,10 @@ second_title: Aspose.Slides for Python via .NET API 参考
 description: 
 type: docs
 url: /zh/aspose.slides/textframe/paragraphs/
-weight: 100
+weight: 110
 ---
-## 段落属性
-返回帧中所有段落的列表。
+## paragraphs 属性
+返回框架中所有 paragraphs 的列表。
             只读 [`IParagraphCollection`](/slides/python-net/zh/aspose.slides/iparagraphcollection).
 
 ### 定义:
@@ -18,7 +18,7 @@ def paragraphs(self):
 ```
 
 
-### 另见
+### 另请参见
 * 类 [`IParagraphCollection`](/slides/python-net/zh/aspose.slides/iparagraphcollection)
 * 类 [`TextFrame`](/slides/python-net/zh/aspose.slides/textframe)
 * 模块 [`aspose.slides`](/slides/python-net/zh/aspose.slides)

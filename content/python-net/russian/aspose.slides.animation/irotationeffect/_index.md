@@ -7,23 +7,23 @@ url: /ru/aspose.slides.animation/irotationeffect/
 ---
 ## IRotationEffect класс
 
-Представляет поведение вращения эффекта.
+Представляет вращательное поведение эффекта.
 
-Тип IRotationEffect предоставляет следующие члены:
+Тип IRotationEffect раскрывает следующие члены:
 
 ## Свойства
 
-| Свойство | Описание |
+| Property | Description |
 | :- | :- |
-| [`from_address`](/slides/python-net/ru/aspose.slides.animation/irotationeffect/from_address/) | Описывает начальное значение анимации.<br/>            Чтение/запись **float**. |
-| [`to`](/slides/python-net/ru/aspose.slides.animation/irotationeffect/to/) | Описывает конечное значение анимации.<br/>            Чтение/запись **float**. |
-| [`by`](/slides/python-net/ru/aspose.slides.animation/irotationeffect/by/) | Описывает относительное значение смещения анимации.<br/>            Чтение/запись **float**. |
+| [`from_`](/slides/python-net/ru/aspose.slides.animation/irotationeffect/from_/) | Описывает начальное значение для анимации.<br/>            Чтение/запись **float**. |
+| [`to`](/slides/python-net/ru/aspose.slides.animation/irotationeffect/to/) | Описывает конечное значение для анимации.<br/>            Чтение/запись **float**. |
+| [`by`](/slides/python-net/ru/aspose.slides.animation/irotationeffect/by/) | Описывает относительное значение смещения для анимации.<br/>            Чтение/запись **float**. |
 | [`accumulate`](/slides/python-net/ru/aspose.slides.animation/irotationeffect/accumulate/) |  |
 | [`additive`](/slides/python-net/ru/aspose.slides.animation/irotationeffect/additive/) |  |
 | [`properties`](/slides/python-net/ru/aspose.slides.animation/irotationeffect/properties/) |  |
 | [`timing`](/slides/python-net/ru/aspose.slides.animation/irotationeffect/timing/) |  |
 
 
-### См. также
+### Смотрите также
 * модуль [`aspose.slides.animation`](/slides/python-net/ru/aspose.slides.animation)
 * библиотека [`Aspose.Slides`](/slides/python-net)

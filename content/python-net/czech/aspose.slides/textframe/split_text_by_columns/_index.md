@@ -1,18 +1,19 @@
 ---
 title: split_text_by_columns method
-second_title: Aspose.Slides pro Python prostřednictvím .NET API Reference
+second_title: Aspose.Slides pro Python přes .NET API
 description: 
 type: docs
 url: /cs/aspose.slides/textframe/split_text_by_columns/
-weight: 60
+weight: 70
 ---
 ## split_text_by_columns(self) {#}
-Rozdělí textový obsah [`ITextFrame`](/slides/python-net/cs/aspose.slides/itextframe) do pole řetězců,  
-            kde každý prvek odpovídá samostatnému textovému sloupci v rámci rámce.
+Rozděluje textový obsah [`ITextFrame`](/slides/python-net/cs/aspose.slides/itextframe) do pole řetězců,  
+            kde každý prvek odpovídá samostatnému textovému sloupci v rámci rámečku.
 
 ### Návratová hodnota
 
-Pole řetězců, kde každý řetězec představuje textový obsah konkrétního sloupce v [`ITextFrame`](/slides/python-net/cs/aspose.slides/itextframe).
+Pole řetězců, kde každý řetězec představuje textový obsah konkrétního sloupce  
+            v [`ITextFrame`](/slides/python-net/cs/aspose.slides/itextframe).
 
 
 
@@ -24,8 +25,9 @@ def split_text_by_columns(self):
 
 ### Poznámky
 
-Pokud textový rámec neobsahuje více sloupců, vrácené pole bude mít jediný prvek obsahující celý text.  
-            Prázdné sloupce budou v poli reprezentovány jako prázdné řetězce.
+Pokud textový rámeček neobsahuje více sloupců, vrácené pole bude mít jediný prvek  
+            obsahující celý text.  
+            Prázdné sloupce budou v poli reprezentovány prázdnými řetězci.
 
 
 

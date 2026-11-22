@@ -1,13 +1,13 @@
 ---
 title: series property
-second_title: Aspose.Slides 用于 Python via .NET API 参考
+second_title: Aspose.Slides for Python via .NET API 参考
 description: 
 type: docs
 url: /zh/aspose.slides.charts/chartdata/series/
-weight: 130
+weight: 140
 ---
-## 系列属性
-获取该系列。
+## series属性
+Gets the series.
             只读 [`IChartSeriesCollection`](/slides/python-net/zh/aspose.slides.charts/ichartseriescollection).
 
 ### 定义:
@@ -18,7 +18,7 @@ def series(self):
 ```
 
 
-### 另请参见
+### 另见
 * 类 [`ChartData`](/slides/python-net/zh/aspose.slides.charts/chartdata)
 * 类 [`IChartSeriesCollection`](/slides/python-net/zh/aspose.slides.charts/ichartseriescollection)
 * 模块 [`aspose.slides.charts`](/slides/python-net/zh/aspose.slides.charts)

@@ -4,7 +4,7 @@ second_title: Référence de l'API Aspose.Slides pour Python via .NET
 description: 
 type: docs
 url: /fr/aspose.slides.charts/chartdatapoint/set_as_total/
-weight: 200
+weight: 240
 ---
 ## set_as_total propriété
 Définit le point de données comme total. Appliqué uniquement au type de série Waterfall.

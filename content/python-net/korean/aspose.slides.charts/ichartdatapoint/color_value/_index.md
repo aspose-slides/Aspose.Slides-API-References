@@ -4,12 +4,12 @@ second_title: Aspose.Slides for Python via .NET API 레퍼런스
 description: 
 type: docs
 url: /ko/aspose.slides.charts/ichartdatapoint/color_value/
-weight: 90
+weight: 130
 ---
 ## color_value 속성
-Returns the color value of chart data point.
-            Used with Map charts. 
-            Read-only [`IDoubleChartValue`](/slides/python-net/ko/aspose.slides.charts/idoublechartvalue).
+Gets the color value of a chart data point.
+            Map 차트와 함께 사용됩니다. 
+            읽기 전용 [`IDoubleChartValue`](/slides/python-net/ko/aspose.slides.charts/idoublechartvalue).
 
 ### 정의:
 ```python
@@ -19,8 +19,8 @@ def color_value(self):
 ```
 
 
-### 또 보기
+### 관련 항목
 * 클래스 [`IChartDataPoint`](/slides/python-net/ko/aspose.slides.charts/ichartdatapoint)
 * 클래스 [`IDoubleChartValue`](/slides/python-net/ko/aspose.slides.charts/idoublechartvalue)
 * 모듈 [`aspose.slides.charts`](/slides/python-net/ko/aspose.slides.charts)
-* library [`Aspose.Slides`](/slides/python-net)
+* 라이브러리 [`Aspose.Slides`](/slides/python-net)

@@ -1,13 +1,13 @@
 ---
 title: notes_size property
-second_title: Aspose.Slides για Python μέσω .NET Αναφορά API
+second_title: Aspose.Slides για Python μέσω .NET αναφορά API
 description: 
 type: docs
 url: /el/aspose.slides/ipresentation/notes_size/
-weight: 290
+weight: 300
 ---
 ## notes_size ιδιότητα
-Επιστρέφει το αντικείμενο μεγέθους διαφάνειας σημειώσεων.
+Επιστρέφει αντικείμενο μεγέθους διαφάνειας σημειώσεων.
             Μόνο για ανάγνωση [`INotesSize`](/slides/python-net/el/aspose.slides/inotessize).
 
 ### Ορισμός:

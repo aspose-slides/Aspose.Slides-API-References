@@ -1,13 +1,13 @@
 ---
 title: remove_unused_layout_slides method
-second_title: Aspose.Slides for Python via .NET API संदर्भ
+second_title: Aspose.Slides Python के लिए .NET API संदर्भ
 description: 
 type: docs
 url: /hi/aspose.slides.lowcode/compress/remove_unused_layout_slides/
-weight: 20
+weight: 40
 ---
 ## remove_unused_layout_slides(pres) {#presentation}
-अप्रयुक्त लेआउट स्लाइड्स को हटाकर [`Presentation`](/slides/python-net/hi/aspose.slides/presentation) का संपीड़न करता है।
+अनुपयोगी लेआउट स्लाइड्स को हटाकर [`Presentation`](/slides/python-net/hi/aspose.slides/presentation) का संपीड़न करता है।
 
 ```python
 @staticmethod

@@ -1,13 +1,13 @@
 ---
 title: all_custom_xml_parts property
-second_title: Aspose.Slides للبايثون عبر .NET مرجع API
+second_title: Aspose.Slides لـ Python عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides/ipresentation/all_custom_xml_parts/
-weight: 90
+weight: 100
 ---
 ## all_custom_xml_parts خاصية
-يعيد جميع أجزاء البيانات المخصَّصة في العرض التقديمي.
+يعيد جميع أجزاء البيانات المخصصة في العرض التقديمي.
             قراءة فقط [`ICustomXmlPart`](/slides/python-net/ar/aspose.slides/icustomxmlpart)[].
 
 ### التعريف:

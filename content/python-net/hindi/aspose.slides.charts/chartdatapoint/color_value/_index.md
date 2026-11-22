@@ -1,15 +1,17 @@
 ---
 title: color_value property
-second_title: Aspose.Slides for Python के माध्यम से .NET API संदर्भ
+second_title: Aspose.Slides for Python via .NET API संदर्भ
 description: 
 type: docs
 url: /hi/aspose.slides.charts/chartdatapoint/color_value/
-weight: 90
+weight: 130
 ---
-## color_value गुण
-चार्ट डेटा पॉइंट का रंग मान लौटाता है।
+## color_value प्रॉपर्टी
+Returns the color value of chart data point.
+            चार्ट डेटा बिंदु का रंग मान लौटाता है।
+            Used with Map charts. 
             मैप चार्ट्स के साथ उपयोग किया जाता है। 
-            केवल-पढ़ने योग्य [`IDoubleChartValue`](/slides/python-net/hi/aspose.slides.charts/idoublechartvalue)।
+            Read-only [`IDoubleChartValue`](/slides/python-net/hi/aspose.slides.charts/idoublechartvalue).
 
 ### परिभाषा:
 ```python

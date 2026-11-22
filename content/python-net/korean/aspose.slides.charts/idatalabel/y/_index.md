@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API 레퍼런스
 description: 
 type: docs
 url: /ko/aspose.slides.charts/idatalabel/y/
-weight: 270
+weight: 280
 ---
 ## y 속성
 ### 정의:
@@ -17,7 +17,6 @@ def y(self):
 def y(self, value):
     ...
 ```
-
 
 ### 참고
 * 클래스 [`IDataLabel`](/slides/python-net/ko/aspose.slides.charts/idatalabel)

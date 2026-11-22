@@ -4,7 +4,7 @@ second_title: Riferimento API Aspose.Slides per Python via .NET
 description: 
 type: docs
 url: /it/aspose.slides/presentation/masters/
-weight: 290
+weight: 300
 ---
 ## masters proprietà
 Restituisce un elenco di tutte le diapositive master che sono definite nella presentazione.

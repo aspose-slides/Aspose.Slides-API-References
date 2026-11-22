@@ -4,10 +4,10 @@ second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides/presentation/comment_authors/
-weight: 140
+weight: 150
 ---
 ## comment_authors eigenschap
-Retourneert de verzameling van commentaars.
+Retourneert de collectie van commentauteurs.
             Alleen-lezen [`ICommentAuthorCollection`](/slides/python-net/nl/aspose.slides/icommentauthorcollection).
 
 ### Definitie:

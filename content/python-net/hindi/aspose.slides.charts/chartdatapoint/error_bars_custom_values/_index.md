@@ -1,16 +1,16 @@
 ---
 title: error_bars_custom_values property
-second_title: Aspose.Slides Python के लिए .NET API संदर्भ
+second_title: Aspose.Slides for Python के लिए .NET API संदर्भ
 description: 
 type: docs
 url: /hi/aspose.slides.charts/chartdatapoint/error_bars_custom_values/
-weight: 110
+weight: 150
 ---
-## error_bars_custom_values प्रॉपर्टी
-Custom वैल्यू टाइप के मामले में श्रृंखला त्रुटि बार मानों का प्रतिनिधित्व करता है।
-            केवल-पढ़ने योग्य [`IErrorBarsCustomValues`](/slides/python-net/hi/aspose.slides.charts/ierrorbarscustomvalues).
+## error_bars_custom_values गुण
+कस्टम वैल्यू प्रकार के मामले में श्रृंखला त्रुटि बार मानों का प्रतिनिधित्व करता है।
+            पढ़ने-केवल [`IErrorBarsCustomValues`](/slides/python-net/hi/aspose.slides.charts/ierrorbarscustomvalues).
 
-### Definition:
+### परिभाषा:
 ```python
 @property
 def error_bars_custom_values(self):
@@ -18,8 +18,8 @@ def error_bars_custom_values(self):
 ```
 
 
-### See Also
-* class [`ChartDataPoint`](/slides/python-net/hi/aspose.slides.charts/chartdatapoint)
-* class [`IErrorBarsCustomValues`](/slides/python-net/hi/aspose.slides.charts/ierrorbarscustomvalues)
-* module [`aspose.slides.charts`](/slides/python-net/hi/aspose.slides.charts)
-* library [`Aspose.Slides`](/slides/python-net)
+### संबंधित देखें
+* क्लास [`ChartDataPoint`](/slides/python-net/hi/aspose.slides.charts/chartdatapoint)
+* क्लास [`IErrorBarsCustomValues`](/slides/python-net/hi/aspose.slides.charts/ierrorbarscustomvalues)
+* मॉड्यूल [`aspose.slides.charts`](/slides/python-net/hi/aspose.slides.charts)
+* लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

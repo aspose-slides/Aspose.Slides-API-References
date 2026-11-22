@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides.charts/ichartcategory/value/
-weight: 60
+weight: 70
 ---
 ## value プロパティ
 UseCell が true の場合、このプロパティは AsCell.Value プロパティを表します。
@@ -21,6 +21,7 @@ def value(self):
 def value(self, value):
     ...
 ```
+
 
 ### 参照
 * クラス [`IChartCategory`](/slides/python-net/ja/aspose.slides.charts/ichartcategory)

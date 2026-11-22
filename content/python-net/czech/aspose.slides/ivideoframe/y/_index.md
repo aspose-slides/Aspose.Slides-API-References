@@ -1,10 +1,10 @@
 ---
 title: y property
-second_title: Aspose.Slides pro Python přes .NET – referenční příručka API
+second_title: Aspose.Slides pro Python přes .NET API Reference
 description: 
 type: docs
 url: /cs/aspose.slides/ivideoframe/y/
-weight: 640
+weight: 650
 ---
 ## y vlastnost
 ### Definice:
@@ -17,6 +17,7 @@ def y(self):
 def y(self, value):
     ...
 ```
+
 
 ### Viz také
 * třída [`IVideoFrame`](/slides/python-net/cs/aspose.slides/ivideoframe)

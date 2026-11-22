@@ -4,10 +4,10 @@ second_title: Aspose.Slides لـ Python عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides.charts/datalabel/value_from_cell/
-weight: 250
+weight: 260
 ---
 ## value_from_cell خاصية
-يتم الحصول أو تعيين خلية بيانات المصنف. تُطبق إذا كان خاصية IDataLabelFormat.ShowLabelValueFromCell تساوي true.
+يحصل أو يضبط خلية بيانات دفتر العمل. يُطبق إذا كان IDataLabelFormat.ShowLabelValueFromCell property يساوي true.
 
 ### التعريف:
 ```python

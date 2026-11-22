@@ -1,16 +1,27 @@
 ---
 title: gap_depth property
-second_title: Aspose.Slides Python számára a .NET-en keresztül API-referencia
+second_title: Aspose.Slides Pythonhoz .NET API referencia
 description: 
 type: docs
 url: /hu/aspose.slides.charts/ichartseriesgroup/gap_depth/
 weight: 100
 ---
 ## gap_depth tulajdonság
-Visszaadja vagy beállítja a távolságot, a jelölő szélességének százalékában, a 3D diagram adat sorozatai között.
+Lekérdezi vagy beállítja az adat sorozatok közti távolságot egy 3D diagramon, a jelölő szélességének százalékaként.
+            Az értéknek 0 és 500 között kell lennie.
             Olvasás/írás **int**.
 
-### Meghatározás:
+
+### Megjegyzések
+
+Ez a tulajdonság a következő típusú sorozatokra vonatkozik:
+            3D sáv és oszlop altípusok,
+            [`ChartType.LINE_3D`](/slides/python-net/hu/aspose.slides.charts/charttype/LINE_3D),
+            [`ChartType.AREA_3D`](/slides/python-net/hu/aspose.slides.charts/charttype/AREA_3D),
+            [`ChartType.STACKED_AREA_3D`](/slides/python-net/hu/aspose.slides.charts/charttype/STACKED_AREA_3D),
+            [`ChartType.PERCENTS_STACKED_AREA_3D`](/slides/python-net/hu/aspose.slides.charts/charttype/PERCENTS_STACKED_AREA_3D).
+
+### Definíció:
 ```python
 @property
 def gap_depth(self):

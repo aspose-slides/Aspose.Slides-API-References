@@ -1,13 +1,13 @@
 ---
 title: index property
-second_title: Aspose.Slides pro Python přes .NET API reference
+second_title: Aspose.Slides pro Python prostřednictvím .NET API
 description: 
 type: docs
 url: /cs/aspose.slides.charts/ichartdatapoint/index/
-weight: 140
+weight: 180
 ---
 ## index vlastnost
-Určuje, ke které kolekci potomků rodiče se tento datový bod vztahuje.
+Určuje, ke které kolekci potomků nadřazeného objektu se tento datový bod vztahuje.
             Čte **int**.
 
 ### Definice:
@@ -21,4 +21,4 @@ def index(self):
 ### Viz také
 * třída [`IChartDataPoint`](/slides/python-net/cs/aspose.slides.charts/ichartdatapoint)
 * modul [`aspose.slides.charts`](/slides/python-net/cs/aspose.slides.charts)
-* knihovna [`Aspose.Slides`](/slides/python-net)
+* library [`Aspose.Slides`](/slides/python-net)

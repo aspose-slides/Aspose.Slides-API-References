@@ -1,15 +1,15 @@
 ---
 title: grouping_levels property
-second_title: Aspose.Slides cho Python qua .NET Tham chiếu API
+second_title: Aspose.Slides cho Python qua .NET Tham khảo API
 description: 
 type: docs
 url: /vi/aspose.slides.charts/chartcategory/grouping_levels/
-weight: 40
+weight: 50
 ---
 ## grouping_levels thuộc tính
-Đối tượng quản lý các giá trị của các mức nhóm danh mục biểu đồ.
-            Danh mục đa cấp chứa hơn một mức nhóm.
-            Chỉ mục các mức nhóm được tính từ 0.
+Managed container of the values of the chart category grouping levels.
+            Multi-level category contain more then one grouping level.
+            Grouping levels indexing is zero-based.
             Chỉ đọc [`IChartCategoryLevelsManager`](/slides/python-net/vi/aspose.slides.charts/ichartcategorylevelsmanager).
 
 ### Định nghĩa:

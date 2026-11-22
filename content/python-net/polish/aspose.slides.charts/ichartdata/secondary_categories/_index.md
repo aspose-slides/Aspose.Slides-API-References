@@ -1,19 +1,19 @@
 ---
 title: secondary_categories property
-second_title: Aspose.Slides dla Pythona via .NET - Dokumentacja API
+second_title: Aspose.Slides dla Pythona przez .NET - odniesienie API
 description: 
 type: docs
 url: /pl/aspose.slides.charts/ichartdata/secondary_categories/
-weight: 120
+weight: 130
 ---
 ## secondary_categories właściwość
-Pobiera drugorzędne kategorie, jeśli właściwość [`IChartData.use_secondary_categories`](/slides/python-net/pl/aspose.slides.charts/ichartdata/use_secondary_categories) jest prawdziwa.
-            Tylko do odczytu [`IChartCategoryCollection`](/slides/python-net/pl/aspose.slides.charts/ichartcategorycollection).
+Pobiera drugorzędne kategorie, jeśli [`IChartData.use_secondary_categories`](/slides/python-net/pl/aspose.slides.charts/ichartdata/use_secondary_categories) właściwość ma wartość true.
+Tylko do odczytu [`IChartCategoryCollection`](/slides/python-net/pl/aspose.slides.charts/ichartcategorycollection).
 
 ### Uwagi
 
-Jeśli właściwość [`IChartData.use_secondary_categories`](/slides/python-net/pl/aspose.slides.charts/ichartdata/use_secondary_categories) jest fałszywa, to ta właściwość [`IChartData.secondary_categories`](/slides/python-net/pl/aspose.slides.charts/ichartdata/secondary_categories) zwraca None i dane w właściwość [`IChartData.categories`](/slides/python-net/pl/aspose.slides.charts/ichartdata/categories) są używane zarówno dla serii głównej, jak i pomocniczej.
-Jeśli właściwość [`IChartData.use_secondary_categories`](/slides/python-net/pl/aspose.slides.charts/ichartdata/use_secondary_categories) jest prawdziwa, to dane w tej właściwość [`IChartData.secondary_categories`](/slides/python-net/pl/aspose.slides.charts/ichartdata/secondary_categories) są używane dla serii pomocniczej, a dane w właściwość [`IChartData.categories`](/slides/python-net/pl/aspose.slides.charts/ichartdata/categories) są używane dla serii głównej.
+Jeśli [`IChartData.use_secondary_categories`](/slides/python-net/pl/aspose.slides.charts/ichartdata/use_secondary_categories) właściwość ma wartość false, to ta [`IChartData.secondary_categories`](/slides/python-net/pl/aspose.slides.charts/ichartdata/secondary_categories) właściwość zwraca None, a dane w [`IChartData.categories`](/slides/python-net/pl/aspose.slides.charts/ichartdata/categories) właściwość są używane zarówno dla serii głównej, jak i drugorzędnej.  
+Jeśli [`IChartData.use_secondary_categories`](/slides/python-net/pl/aspose.slides.charts/ichartdata/use_secondary_categories) właściwość ma wartość true, to dane w tej [`IChartData.secondary_categories`](/slides/python-net/pl/aspose.slides.charts/ichartdata/secondary_categories) właściwość są używane dla serii drugorzędnej, a dane w [`IChartData.categories`](/slides/python-net/pl/aspose.slides.charts/ichartdata/categories) właściwość są używane dla serii głównej.
 
 ### Definicja:
 ```python

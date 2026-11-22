@@ -1,13 +1,13 @@
 ---
 title: slide property
-second_title: Aspose.Slides สำหรับ Python ผ่าน .NET เอกสารอ้างอิง API
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API อ้างอิง
 description: 
 type: docs
 url: /th/aspose.slides.charts/idatalabelcollection/slide/
-weight: 160
+weight: 170
 ---
-## คุณสมบัติสไลด์
-### คำนิยาม:
+## slide คุณสมบัติ
+### คำจำกัดความ:
 ```python
 @property
 def slide(self):

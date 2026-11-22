@@ -4,9 +4,9 @@ second_title: Aspose.Slides for Python via .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides.charts/idatalabelcollection/slide/
-weight: 160
+weight: 170
 ---
-## slide özelliği
+## slayt özelliği
 ### Tanım:
 ```python
 @property

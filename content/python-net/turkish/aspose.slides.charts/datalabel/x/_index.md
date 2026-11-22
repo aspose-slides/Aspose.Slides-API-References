@@ -4,11 +4,11 @@ second_title: Aspose.Slides for Python via .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides.charts/datalabel/x/
-weight: 270
+weight: 280
 ---
 ## x özelliği
-Bir başlığın x koordinatını, grafiğin genişliğinin bir kesri olarak alır veya ayarlar.
-            Okuma/yazma **float**.
+Bir başlığın x koordinatını, grafiğin genişliğinin bir kesri olarak döndürür veya ayarlar.
+            Okunur/Yazılabilir **float**.
 
 ### Tanım:
 ```python
@@ -22,7 +22,7 @@ def x(self, value):
 ```
 
 
-### Diğer
+### Ayrıca Bakınız
 * sınıf [`DataLabel`](/slides/python-net/tr/aspose.slides.charts/datalabel)
 * modül [`aspose.slides.charts`](/slides/python-net/tr/aspose.slides.charts)
 * kütüphane [`Aspose.Slides`](/slides/python-net)

@@ -1,15 +1,15 @@
 ---
 title: current_date_time property
-second_title: Aspose.Slides, Python için .NET API Referansı
+second_title: Aspose.Slides for Python via .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides/ipresentation/current_date_time/
-weight: 140
+weight: 150
 ---
-## current_date_time özelliği
-datetime alanlarının içeriğini değiştirecek tarih ve zamanı döndürür veya ayarlar.
+## current_date_time özellik
+Tarih ve saat değerini döndürür ya da ayarlar; bu, datetime alanlarının içeriğini yerine koyar.
             Varsayılan olarak bu Presentation nesnesinin oluşturulma zamanı.
-            Okuma/yazma **System.DateTime**.
+            Okunur/yazılır **System.DateTime**.
 
 ### Tanım:
 ```python

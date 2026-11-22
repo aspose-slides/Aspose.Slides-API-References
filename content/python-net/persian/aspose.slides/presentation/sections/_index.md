@@ -4,11 +4,11 @@ second_title: Aspose.Slides برای Python از طریق .NET مرجع API
 description: 
 type: docs
 url: /fa/aspose.slides/presentation/sections/
-weight: 330
+weight: 340
 ---
 ## sections ویژگی
-یک فهرست از تمام بخش‌های اسلاید که در ارائه تعریف شده‌اند را برمی‌گرداند.
-            فقط-خواندنی [`ISectionCollection`](/slides/python-net/fa/aspose.slides/isectioncollection).
+یک فهرست از تمام sections اسلاید که در ارائه تعریف شده‌اند.
+فقط-خواندنی [`ISectionCollection`](/slides/python-net/fa/aspose.slides/isectioncollection).
 
 ### تعریف:
 ```python

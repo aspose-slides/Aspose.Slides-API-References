@@ -1,21 +1,19 @@
 ---
 title: x property
-second_title: Aspose.Slides dla Pythona poprzez .NET API
+second_title: Aspose.Slides dla Pythona via .NET – Dokumentacja API
 description: 
 type: docs
 url: /pl/aspose.slides/videoframe/x/
-weight: 650
+weight: 660
 ---
 ## x właściwość
 Pobiera lub ustawia współrzędną x lewego górnego rogu kształtu, mierzoną w punktach.
             Odczyt/zapis **float**.
 
-
 ### Uwagi
 
-Wartość zwracana jest zawsze określona i nigdy nie **float**.
-            Wartość przypisana musi również być określona; przypisuj **float** tylko do właściwości instancji `RawFrame`.
-
+Zwracana wartość jest zawsze określona i nigdy nie jest **float**.
+            Przypisywana wartość także musi być określona; przypisuj **float** tylko do właściwości instancji `RawFrame`.
 
 ### Definicja:
 ```python
@@ -28,8 +26,7 @@ def x(self, value):
     ...
 ```
 
-
-### Patrz także
+### Zobacz także
 * klasa [`VideoFrame`](/slides/python-net/pl/aspose.slides/videoframe)
 * moduł [`aspose.slides`](/slides/python-net/pl/aspose.slides)
 * biblioteka [`Aspose.Slides`](/slides/python-net)

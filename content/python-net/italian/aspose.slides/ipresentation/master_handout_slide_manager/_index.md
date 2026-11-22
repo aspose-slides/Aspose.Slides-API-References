@@ -1,10 +1,10 @@
 ---
 title: master_handout_slide_manager property
-second_title: Aspose.Slides per Python via .NET API Reference
+second_title: Aspose.Slides per Python via .NET Riferimento API
 description: 
 type: docs
 url: /it/aspose.slides/ipresentation/master_handout_slide_manager/
-weight: 250
+weight: 260
 ---
 ## master_handout_slide_manager proprietà
 Restituisce il gestore master del handout.

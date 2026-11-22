@@ -4,10 +4,10 @@ second_title: Aspose.Slides for Python via .NET API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides/presentation/source_format/
-weight: 380
+weight: 390
 ---
 ## source_format プロパティ
-プレゼンテーションが読み込まれた元のフォーマットに関する情報を返します。
+プレゼンテーションが読み込まれた形式に関する情報を返します。
             読み取り専用 [`SourceFormat`](/slides/python-net/ja/aspose.slides/sourceformat).
 
 ### 定義:

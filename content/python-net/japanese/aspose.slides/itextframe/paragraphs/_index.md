@@ -4,10 +4,10 @@ second_title: Aspose.Slides for Python via .NET API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides/itextframe/paragraphs/
-weight: 100
+weight: 110
 ---
 ## paragraphs プロパティ
-フレーム内のすべての paragraphs のリストを返します。
+Returns the list of all paragraphs in a frame.
             読み取り専用 [`IParagraphCollection`](/slides/python-net/ja/aspose.slides/iparagraphcollection).
 
 ### 定義:

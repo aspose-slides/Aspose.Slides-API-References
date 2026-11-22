@@ -4,16 +4,16 @@ second_title: Aspose.Slides cho Python qua .NET Tham chiếu API
 description: 
 type: docs
 url: /vi/aspose.slides/videoframe/x/
-weight: 650
+weight: 660
 ---
-## Thuộc tính x
-Lấy hoặc đặt tọa độ x của góc trên-trái của hình, đo bằng điểm.
-Đọc/ghi **float**.
+## x thuộc tính
+Gets or sets the x-coordinate of the shape's upper-left corner, measured in points.
+            Đọc/ghi **float**.
 
 ### Ghi chú
 
-Giá trị trả về luôn được định nghĩa và không bao giờ là **float**.
-Giá trị được gán cũng phải được định nghĩa; chỉ gán **float** cho các thuộc tính của một thể hiện `RawFrame` instance.
+The value returned is always defined and never **float**.
+            The value assigned must also be defined; assign **float** only to properties of a `RawFrame` instance.
 
 ### Định nghĩa:
 ```python

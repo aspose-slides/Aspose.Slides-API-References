@@ -4,13 +4,13 @@ second_title: Aspose.Slides สำหรับ Python ผ่าน .NET อ้�
 description: 
 type: docs
 url: /th/aspose.slides/presentation/master_theme/
-weight: 280
+weight: 290
 ---
 ## master_theme คุณสมบัติ
-ส่งคืนธีมหลัก.
-อ่านอย่างเดียว [`IMasterTheme`](/slides/python-net/th/aspose.slides.theme/imastertheme).
+คืนค่า master theme.
+            อ่านอย่างเดียว [`IMasterTheme`](/slides/python-net/th/aspose.slides.theme/imastertheme).
 
-### คำนิยาม:
+### การกำหนด:
 ```python
 @property
 def master_theme(self):

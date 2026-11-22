@@ -4,10 +4,10 @@ second_title: Aspose.Slides for Python via .NET API 레퍼런스
 description: 
 type: docs
 url: /ko/aspose.slides/presentation/images/
-weight: 240
+weight: 250
 ---
 ## images 속성
-Returns the collection of all images in the presentation.
+프레젠테이션의 모든 images 컬렉션을 반환합니다.
             읽기 전용 [`IImageCollection`](/slides/python-net/ko/aspose.slides/iimagecollection).
 
 ### 정의:

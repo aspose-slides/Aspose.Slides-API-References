@@ -4,9 +4,9 @@ second_title: Referência da API Aspose.Slides para Python via .NET
 description: 
 type: docs
 url: /pt/aspose.slides/ipresentation/audios/
-weight: 120
+weight: 130
 ---
-## propriedade audios
+## audios propriedade
 Retorna a coleção de todos os arquivos de áudio incorporados na apresentação.
             Somente leitura [`IAudioCollection`](/slides/python-net/pt/aspose.slides/iaudiocollection).
 
@@ -18,7 +18,7 @@ def audios(self):
 ```
 
 
-### Veja também
+### Ver Também
 * classe [`IAudioCollection`](/slides/python-net/pt/aspose.slides/iaudiocollection)
 * classe [`IPresentation`](/slides/python-net/pt/aspose.slides/ipresentation)
 * módulo [`aspose.slides`](/slides/python-net/pt/aspose.slides)

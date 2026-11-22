@@ -1,16 +1,16 @@
 ---
 title: z_order_position property
-second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
+second_title: Aspose.Slides για Python μέσω .NET Αναφορά API
 description: 
 type: docs
 url: /el/aspose.slides/videoframe/z_order_position/
-weight: 670
+weight: 680
 ---
-## z_order_position property
-Επιστρέφει τη θέση ενός σχήματος στη z-order.
-            Shapes[0] επιστρέφει το σχήμα στο πίσω μέρος της z-order,
-            και Shapes[Shapes.Count - 1] επιστρέφει το σχήμα στο μπροστινό μέρος της z-order.
-            Μόνο-ανάγνωση **int**.
+## ιδιότητα z_order_position
+Επιστρέφει τη θέση ενός σχήματος στο z-order.
+            Shapes[0] επιστρέφει το σχήμα στο πίσω μέρος του z-order,
+            και Shapes[Shapes.Count - 1] επιστρέφει το σχήμα στο μπροστινό μέρος του z-order.
+            Μόνο για ανάγνωση **int**.
 
 ### Ορισμός:
 ```python

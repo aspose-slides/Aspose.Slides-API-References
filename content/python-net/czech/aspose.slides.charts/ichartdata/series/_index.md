@@ -4,7 +4,7 @@ second_title: Aspose.Slides pro Python prostřednictvím .NET API Reference
 description: 
 type: docs
 url: /cs/aspose.slides.charts/ichartdata/series/
-weight: 130
+weight: 140
 ---
 ## series vlastnost
 Získá series.

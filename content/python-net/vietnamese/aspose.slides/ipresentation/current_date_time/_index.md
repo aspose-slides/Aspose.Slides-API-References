@@ -1,13 +1,13 @@
 ---
 title: current_date_time property
-second_title: Tham chiếu API Aspose.Slides cho Python qua .NET
+second_title: Aspose.Slides cho Python qua Tham chiếu API .NET
 description: 
 type: docs
 url: /vi/aspose.slides/ipresentation/current_date_time/
-weight: 140
+weight: 150
 ---
 ## current_date_time thuộc tính
-Trả về hoặc đặt ngày và giờ sẽ thay thế nội dung của các trường datetime.
+Trả về hoặc đặt ngày và thời gian sẽ thay thế nội dung của các trường datetime.
             Thời gian tạo đối tượng Presentation này theo mặc định.
             Đọc/ghi **System.DateTime**.
 

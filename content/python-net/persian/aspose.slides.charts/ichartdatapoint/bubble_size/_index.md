@@ -7,8 +7,8 @@ url: /fa/aspose.slides.charts/ichartdatapoint/bubble_size/
 weight: 80
 ---
 ## bubble_size ویژگی
-اندازه حباب نقطه داده نمودار را برمی‌گرداند.
-فقط خواندنی [`IDoubleChartValue`](/slides/python-net/fa/aspose.slides.charts/idoublechartvalue).
+اندازه حباب یک نقطه داده نمودار را دریافت می‌کند.
+فقط‌خواندنی [`IDoubleChartValue`](/slides/python-net/fa/aspose.slides.charts/idoublechartvalue).
 
 ### تعریف:
 ```python
@@ -16,7 +16,6 @@ weight: 80
 def bubble_size(self):
     ...
 ```
-
 
 ### موارد مرتبط
 * کلاس [`IChartDataPoint`](/slides/python-net/fa/aspose.slides.charts/ichartdatapoint)

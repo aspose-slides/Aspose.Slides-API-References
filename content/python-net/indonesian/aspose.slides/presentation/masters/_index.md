@@ -4,9 +4,9 @@ second_title: Referensi API Aspose.Slides untuk Python via .NET
 description: 
 type: docs
 url: /id/aspose.slides/presentation/masters/
-weight: 290
+weight: 300
 ---
-## properti masters
+## properti master
 Mengembalikan daftar semua slide master yang didefinisikan dalam presentasi.
             Hanya-baca [`IMasterSlideCollection`](/slides/python-net/id/aspose.slides/imasterslidecollection).
 
@@ -22,4 +22,4 @@ def masters(self):
 * kelas [`IMasterSlideCollection`](/slides/python-net/id/aspose.slides/imasterslidecollection)
 * kelas [`Presentation`](/slides/python-net/id/aspose.slides/presentation)
 * modul [`aspose.slides`](/slides/python-net/id/aspose.slides)
-* perpustakaan [`Aspose.Slides`](/slides/python-net)
+* library [`Aspose.Slides`](/slides/python-net)

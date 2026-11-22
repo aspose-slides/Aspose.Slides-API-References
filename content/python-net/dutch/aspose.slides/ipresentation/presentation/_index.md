@@ -4,7 +4,7 @@ second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides/ipresentation/presentation/
-weight: 300
+weight: 310
 ---
 ## presentatie-eigenschap
 ### Definitie:

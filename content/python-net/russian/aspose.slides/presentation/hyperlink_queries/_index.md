@@ -1,14 +1,14 @@
 ---
 title: hyperlink_queries property
-second_title: Aspose.Slides для Python через .NET API справка
+second_title: Aspose.Slides для Python через .NET справочник API
 description: 
 type: docs
 url: /ru/aspose.slides/presentation/hyperlink_queries/
-weight: 230
+weight: 240
 ---
 ## hyperlink_queries свойство
-Обеспечивает простой доступ ко всем гиперссылкам, содержащимся во всех слайдах презентации (не в мастер-слайдах, макетах, слайдах заметок).
-Только для чтения [`IHyperlinkQueries`](/slides/python-net/ru/aspose.slides/ihyperlinkqueries).
+Обеспечивает простой доступ ко всем гиперссылкам, содержащимся во всех слайдах презентации (не в слайдах мастера, макета и заметок).
+            Только для чтения [`IHyperlinkQueries`](/slides/python-net/ru/aspose.slides/ihyperlinkqueries).
 
 ### Определение:
 ```python
@@ -16,6 +16,7 @@ weight: 230
 def hyperlink_queries(self):
     ...
 ```
+
 
 ### См. также
 * класс [`IHyperlinkQueries`](/slides/python-net/ru/aspose.slides/ihyperlinkqueries)

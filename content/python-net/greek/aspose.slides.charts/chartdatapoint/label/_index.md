@@ -4,11 +4,11 @@ second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
 description: 
 type: docs
 url: /el/aspose.slides.charts/chartdatapoint/label/
-weight: 170
+weight: 210
 ---
 ## ιδιότητα ετικέτας
 Ετικέτα.
-Μόνο για ανάγνωση [`IDataLabel`](/slides/python-net/el/aspose.slides.charts/idatalabel).
+            Μόνο για ανάγνωση [`IDataLabel`](/slides/python-net/el/aspose.slides.charts/idatalabel).
 
 ### Ορισμός:
 ```python

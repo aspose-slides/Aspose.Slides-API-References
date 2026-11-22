@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API 레퍼런스
 description: 
 type: docs
 url: /ko/aspose.slides.charts/datalabelcollection/presentation/
-weight: 150
+weight: 160
 ---
 ## 프레젠테이션 속성
 ### 정의:
@@ -13,7 +13,6 @@ weight: 150
 def presentation(self):
     ...
 ```
-
 
 ### 참고
 * 클래스 [`DataLabelCollection`](/slides/python-net/ko/aspose.slides.charts/datalabelcollection)

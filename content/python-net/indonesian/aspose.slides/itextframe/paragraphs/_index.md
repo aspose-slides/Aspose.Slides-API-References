@@ -4,11 +4,11 @@ second_title: Aspose.Slides untuk Python via .NET Referensi API
 description: 
 type: docs
 url: /id/aspose.slides/itextframe/paragraphs/
-weight: 100
+weight: 110
 ---
-## paragraphs properti
+## properti paragraf
 Mengembalikan daftar semua paragraf dalam sebuah bingkai.
-            Hanya baca [`IParagraphCollection`](/slides/python-net/id/aspose.slides/iparagraphcollection).
+            Hanya-baca [`IParagraphCollection`](/slides/python-net/id/aspose.slides/iparagraphcollection).
 
 ### Definisi:
 ```python

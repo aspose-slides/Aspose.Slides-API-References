@@ -1,14 +1,14 @@
 ---
 title: chart_data_workbook property
-second_title: Aspose.Slides لـ Python عبر .NET مرجع API
+second_title: Aspose.Slides لبايثون عبر .NET دليل API
 description: 
 type: docs
 url: /ar/aspose.slides.charts/ichartdata/chart_data_workbook/
-weight: 80
+weight: 90
 ---
 ## chart_data_workbook خاصية
-Gets the cells factory to create cells used for chart series or categories.
-            لقراءة فقط [`IChartDataWorkbook`](/slides/python-net/ar/aspose.slides.charts/ichartdataworkbook).
+يحصل على مصنع الخلايا لإنشاء الخلايا المستخدمة في سلاسل المخطط أو الفئات.
+            للقراءة فقط [`IChartDataWorkbook`](/slides/python-net/ar/aspose.slides.charts/ichartdataworkbook).
 
 ### التعريف:
 ```python
@@ -18,7 +18,7 @@ def chart_data_workbook(self):
 ```
 
 
-### أنظر أيضًا
+### انظر أيضًا
 * فئة [`IChartData`](/slides/python-net/ar/aspose.slides.charts/ichartdata)
 * فئة [`IChartDataWorkbook`](/slides/python-net/ar/aspose.slides.charts/ichartdataworkbook)
 * وحدة [`aspose.slides.charts`](/slides/python-net/ar/aspose.slides.charts)

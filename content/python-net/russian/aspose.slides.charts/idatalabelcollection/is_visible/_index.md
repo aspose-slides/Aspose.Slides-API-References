@@ -1,17 +1,22 @@
 ---
 title: is_visible property
-second_title: Aspose.Slides для Python через .NET API Reference
+second_title: Aspose.Slides для Python через .NET API Справка
 description: 
 type: docs
 url: /ru/aspose.slides.charts/idatalabelcollection/is_visible/
-weight: 120
+weight: 130
 ---
-## is_visible свойство
-False означает, что подпись данных по умолчанию не видима (и поэтому все флаги Show*-flags (ShowValue, ...) свойства DefaultDataLabelFormat имеют значение false). Только для чтения **bool**.
+## свойство is_visible
+False means that data label is not visible by default (and so all 
+            Show*-flags (ShowValue, ...) of the DefaultDataLabelFormat property are false).
+            Только для чтения **bool**.
 
-### Замечания
+### Примечания
 
-Если подпись данных видима по умолчанию, вы можете скрыть её по умолчанию с помощью метода Hide(). Но если подпись данных не видима по умолчанию (IsVisible равно false), вы можете сделать подпись данных «видимой по умолчанию», установив флаги Show*-flags (ShowValue, ...) свойства DefaultDataLabelFormat в состояние true.
+If data label is visible by default you can make it hidden by default with Hide() method.
+            But if data label is not visible by default (IsVisible is false) you can make data label "visible 
+            by default" with setting Show*-flags (ShowValue, ...) of the DefaultDataLabelFormat property
+            to true state.
 
 ### Определение:
 ```python

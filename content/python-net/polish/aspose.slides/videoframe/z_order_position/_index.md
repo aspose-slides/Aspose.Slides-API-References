@@ -1,15 +1,15 @@
 ---
 title: z_order_position property
-second_title: Aspose.Slides dla Pythona przez .NET Dokumentacja API
+second_title: Aspose.Slides dla Pythona przez .NET API Reference
 description: 
 type: docs
 url: /pl/aspose.slides/videoframe/z_order_position/
-weight: 670
+weight: 680
 ---
 ## z_order_position właściwość
-Zwraca pozycję kształtu w kolejności Z.
-            Shapes[0] zwraca kształt na końcu kolejności Z,
-            a Shapes[Shapes.Count - 1] zwraca kształt na początku kolejności Z.
+Zwraca pozycję kształtu w kolejności z-order.
+            Shapes[0] zwraca kształt znajdujący się z tyłu kolejności z-order,
+            a Shapes[Shapes.Count - 1] zwraca kształt znajdujący się z przodu kolejności z-order.
             Tylko do odczytu **int**.
 
 ### Definicja:
@@ -18,7 +18,6 @@ Zwraca pozycję kształtu w kolejności Z.
 def z_order_position(self):
     ...
 ```
-
 
 ### Zobacz także
 * klasa [`VideoFrame`](/slides/python-net/pl/aspose.slides/videoframe)

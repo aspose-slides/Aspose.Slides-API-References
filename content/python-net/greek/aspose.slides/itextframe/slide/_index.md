@@ -4,15 +4,16 @@ second_title: Aspose.Slides για Python μέσω .NET Αναφορά API
 description: 
 type: docs
 url: /el/aspose.slides/itextframe/slide/
-weight: 140
+weight: 150
 ---
-## ιδιότητα διαφάνειας
+## slide ιδιότητα
 ### Ορισμός:
 ```python
 @property
 def slide(self):
     ...
 ```
+
 
 ### Δείτε επίσης
 * κλάση [`ITextFrame`](/slides/python-net/el/aspose.slides/itextframe)

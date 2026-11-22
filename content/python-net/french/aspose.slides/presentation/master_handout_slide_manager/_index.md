@@ -4,10 +4,10 @@ second_title: Aspose.Slides pour Python via .NET Référence d'API
 description: 
 type: docs
 url: /fr/aspose.slides/presentation/master_handout_slide_manager/
-weight: 260
+weight: 270
 ---
 ## master_handout_slide_manager propriété
-Renvoie le gestionnaire principal du document de distribution.
+Retourne le gestionnaire principal du handout.
             Lecture seule [`IMasterHandoutSlideManager`](/slides/python-net/fr/aspose.slides/imasterhandoutslidemanager).
 
 ### Définition:
@@ -22,4 +22,4 @@ def master_handout_slide_manager(self):
 * classe [`IMasterHandoutSlideManager`](/slides/python-net/fr/aspose.slides/imasterhandoutslidemanager)
 * classe [`Presentation`](/slides/python-net/fr/aspose.slides/presentation)
 * module [`aspose.slides`](/slides/python-net/fr/aspose.slides)
-* bibliothèque [`Aspose.Slides`](/slides/python-net)
+* library [`Aspose.Slides`](/slides/python-net)

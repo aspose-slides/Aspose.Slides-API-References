@@ -1,13 +1,13 @@
 ---
 title: paragraphs property
-second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Reference
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET อ้างอิง API
 description: 
 type: docs
 url: /th/aspose.slides/textframe/paragraphs/
-weight: 100
+weight: 110
 ---
 ## paragraphs คุณสมบัติ
-ส่งคืนรายการของทั้งหมด paragraphs ในเฟรม.
+ส่งคืนรายการของ paragraphs ทั้งหมดในเฟรม.
             อ่านอย่างเดียว [`IParagraphCollection`](/slides/python-net/th/aspose.slides/iparagraphcollection).
 
 ### คำนิยาม:

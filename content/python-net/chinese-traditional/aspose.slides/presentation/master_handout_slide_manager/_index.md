@@ -1,16 +1,16 @@
 ---
 title: master_handout_slide_manager property
-second_title: Aspose.Slides for Python via .NET API 參考
+second_title: Aspose.Slides for Python via .NET API 參考手冊
 description: 
 type: docs
 url: /zh-hant/aspose.slides/presentation/master_handout_slide_manager/
-weight: 260
+weight: 270
 ---
 ## master_handout_slide_manager 屬性
-返回 handout master manager.
+Returns handout master manager.
             唯讀 [`IMasterHandoutSlideManager`](/slides/python-net/zh-hant/aspose.slides/imasterhandoutslidemanager).
 
-### 定義:
+### 定義：
 ```python
 @property
 def master_handout_slide_manager(self):

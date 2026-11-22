@@ -1,19 +1,18 @@
 ---
 title: layout_slides property
-second_title: Aspose.Slides Pythonhoz .NET API Referencia
+second_title: Aspose.Slides Python számára .NET API referencia
 description: 
 type: docs
 url: /hu/aspose.slides/ipresentation/layout_slides/
-weight: 240
+weight: 250
 ---
 ## layout_slides tulajdonság
-Visszaad egy listát a prezentációban definiált összes elrendezési diáról.
+Visszaad egy listát az összes elrendezési diáról, amely a bemutatóban definiálva van.
             Csak olvasható [`IGlobalLayoutSlideCollection`](/slides/python-net/hu/aspose.slides/igloballayoutslidecollection).
 
 ### Megjegyzések
 
-Az alternatív API-hez a layout slides hozzáadásához/beszúrásához/eltávolításához/másolásához 
-            az IMasterSlide.LayoutSlides tulajdonság használatával férhet hozzá.
+Alternatív API-hoz férhet hozzá elrendezési diák hozzáadásához/beszúrásához/eltávolításához/másolásához az IMasterSlide.LayoutSlides tulajdonság használatával.
 
 ### Definíció:
 ```python

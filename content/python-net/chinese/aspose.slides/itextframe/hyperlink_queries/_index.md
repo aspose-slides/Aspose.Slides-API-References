@@ -1,16 +1,16 @@
 ---
 title: hyperlink_queries property
-second_title: Aspose.Slides for Python via .NET API 参考文档
+second_title: Aspose.Slides for Python via .NET API 参考
 description: 
 type: docs
 url: /zh/aspose.slides/itextframe/hyperlink_queries/
-weight: 90
+weight: 100
 ---
 ## hyperlink_queries 属性
-提供对包含的超链接的简易访问。
+提供对包含的超链接的便捷访问。
             只读 [`IHyperlinkQueries`](/slides/python-net/zh/aspose.slides/ihyperlinkqueries).
 
-### 定义:
+### 定义：
 ```python
 @property
 def hyperlink_queries(self):
@@ -18,7 +18,7 @@ def hyperlink_queries(self):
 ```
 
 
-### 另请参阅
+### 另见
 * 类 [`IHyperlinkQueries`](/slides/python-net/zh/aspose.slides/ihyperlinkqueries)
 * 类 [`ITextFrame`](/slides/python-net/zh/aspose.slides/itextframe)
 * 模块 [`aspose.slides`](/slides/python-net/zh/aspose.slides)

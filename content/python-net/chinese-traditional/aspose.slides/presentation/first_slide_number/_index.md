@@ -4,10 +4,10 @@ second_title: Aspose.Slides for Python via .NET API 參考文件
 description: 
 type: docs
 url: /zh-hant/aspose.slides/presentation/first_slide_number/
-weight: 200
+weight: 210
 ---
 ## first_slide_number 屬性
-表示簡報中的第一張投影片編號
+代表簡報中的第一張投影片編號
 
 ### 定義:
 ```python

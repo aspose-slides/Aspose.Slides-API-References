@@ -1,16 +1,16 @@
 ---
 title: embedded_workbook_type property
-second_title: Aspose.Slides के लिए Python via .NET API संदर्भ
+second_title: Aspose.Slides Python के लिए .NET API संदर्भ के माध्यम से
 description: 
 type: docs
 url: /hi/aspose.slides.charts/chartdata/embedded_workbook_type/
-weight: 100
+weight: 110
 ---
 ## embedded_workbook_type गुण
-Gets the type of the embedded workbook.
-            वापस करता है [`WorkbookType.NOT_DEFINED`](/slides/python-net/hi/aspose.slides.charts/workbooktype/NOT_DEFINED) यदि [`ChartData.data_source_type`](/slides/python-net/hi/aspose.slides.charts/chartdata/data_source_type) है 
-            [`ChartDataSourceType.EXTERNAL_WORKBOOK`](/slides/python-net/hi/aspose.slides.charts/chartdatasourcetype/EXTERNAL_WORKBOOK).
-            केवल-पढ़ने योग्य [`WorkbookType`](/slides/python-net/hi/aspose.slides.charts/workbooktype).
+संलग्न कार्यपुस्तिका का प्रकार प्राप्त करता है।
+            [`WorkbookType.NOT_DEFINED`](/slides/python-net/hi/aspose.slides.charts/workbooktype/NOT_DEFINED) लौटाता है यदि [`ChartData.data_source_type`](/slides/python-net/hi/aspose.slides.charts/chartdata/data_source_type)
+            [`ChartDataSourceType.EXTERNAL_WORKBOOK`](/slides/python-net/hi/aspose.slides.charts/chartdatasourcetype/EXTERNAL_WORKBOOK) है।
+            केवल-पढ़ने योग्य [`WorkbookType`](/slides/python-net/hi/aspose.slides.charts/workbooktype)।
 
 ### परिभाषा:
 ```python

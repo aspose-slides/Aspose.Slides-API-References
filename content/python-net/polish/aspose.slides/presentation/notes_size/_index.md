@@ -1,10 +1,10 @@
 ---
 title: notes_size property
-second_title: Aspose.Slides dla Pythona poprzez .NET – dokumentacja API
+second_title: Aspose.Slides dla Pythona przez .NET – odwołanie API
 description: 
 type: docs
 url: /pl/aspose.slides/presentation/notes_size/
-weight: 300
+weight: 310
 ---
 ## notes_size właściwość
 Zwraca obiekt rozmiaru slajdu notatek.

@@ -4,11 +4,11 @@ second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
 description: 
 type: docs
 url: /el/aspose.slides.charts/chartdata/switch_row_column/
-weight: 50
+weight: 60
 ---
 ## switch_row_column(self) {#}
 Αντιστρέψτε τα δεδομένα κατά τον άξονα.
-            Τα δεδομένα που σχεδιάζονται στον άξονα X θα μεταφερθούν στον άξονα Y και αντίστροφα.
+            Τα δεδομένα που εμφανίζονται στον άξονα X θα μετακινηθούν στον άξονα Y και το αντίστροφο.
 
 
 ```python

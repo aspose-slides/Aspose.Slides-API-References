@@ -1,14 +1,15 @@
 ---
 title: y property
-second_title: Referencia de API de Aspose.Slides para Python vía .NET
+second_title: Referencia de API de Aspose.Slides para Python a través de .NET
 description: 
 type: docs
 url: /es/aspose.slides/videoframe/y/
-weight: 660
+weight: 670
 ---
 ## y propiedad
 Obtiene o establece la coordenada y de la esquina superior izquierda de la forma, medida en puntos.
             Lectura/escritura **float**.
+
 
 ### Observaciones
 
@@ -25,6 +26,7 @@ def y(self):
 def y(self, value):
     ...
 ```
+
 
 ### Ver también
 * clase [`VideoFrame`](/slides/python-net/es/aspose.slides/videoframe)

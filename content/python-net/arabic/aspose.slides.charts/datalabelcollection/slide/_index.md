@@ -1,10 +1,10 @@
 ---
 title: slide property
-second_title: Aspose.Slides لـ Python عبر .NET دليل API
+second_title: Aspose.Slides للـ Python عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides.charts/datalabelcollection/slide/
-weight: 160
+weight: 170
 ---
 ## خاصية الشريحة
 ### التعريف:
@@ -13,6 +13,7 @@ weight: 160
 def slide(self):
     ...
 ```
+
 
 ### انظر أيضًا
 * فئة [`DataLabelCollection`](/slides/python-net/ar/aspose.slides.charts/datalabelcollection)

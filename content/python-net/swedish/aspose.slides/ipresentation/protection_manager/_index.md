@@ -4,10 +4,10 @@ second_title: Aspose.Slides för Python via .NET API-referens
 description: 
 type: docs
 url: /sv/aspose.slides/ipresentation/protection_manager/
-weight: 310
+weight: 320
 ---
 ## protection_manager egenskap
-Hämtar hanteraren för behörigheterna för den här presentationen.
+Hämtar hanteraren för behörigheterna för denna presentation. 
             Skrivskyddad [`IProtectionManager`](/slides/python-net/sv/aspose.slides/iprotectionmanager).
 
 ### Definition:
@@ -18,7 +18,7 @@ def protection_manager(self):
 ```
 
 
-### Se även
+### Se också
 * klass [`IPresentation`](/slides/python-net/sv/aspose.slides/ipresentation)
 * klass [`IProtectionManager`](/slides/python-net/sv/aspose.slides/iprotectionmanager)
 * modul [`aspose.slides`](/slides/python-net/sv/aspose.slides)

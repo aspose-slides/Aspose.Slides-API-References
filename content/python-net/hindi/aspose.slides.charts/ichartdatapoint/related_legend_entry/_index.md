@@ -1,13 +1,13 @@
 ---
 title: related_legend_entry property
-second_title: Aspose.Slides के लिए Python via .NET API रेफ़रेंस
+second_title: Aspose.Slides for Python via .NET API रेफ़रेंस
 description: 
 type: docs
 url: /hi/aspose.slides.charts/ichartdatapoint/related_legend_entry/
-weight: 190
+weight: 230
 ---
 ## related_legend_entry प्रॉपर्टी
-Properties of corresponding legend entry in case of chart type from this list:
+इस सूची में से चार्ट प्रकार के मामले में संबंधित लेजेंड एंट्री की प्रॉपर्टी:
             ChartType.BarOfPie,
             ChartType.ExplodedPie,
             ChartType.ExplodedPie3D,
@@ -24,7 +24,7 @@ def related_legend_entry(self):
 ```
 
 ### देखें भी
-* वर्ग [`IChartDataPoint`](/slides/python-net/hi/aspose.slides.charts/ichartdatapoint)
-* वर्ग [`ILegendEntryProperties`](/slides/python-net/hi/aspose.slides.charts/ilegendentryproperties)
+* क्लास [`IChartDataPoint`](/slides/python-net/hi/aspose.slides.charts/ichartdatapoint)
+* क्लास [`ILegendEntryProperties`](/slides/python-net/hi/aspose.slides.charts/ilegendentryproperties)
 * मॉड्यूल [`aspose.slides.charts`](/slides/python-net/hi/aspose.slides.charts)
 * लाइब्रेरी [`Aspose.Slides`](/slides/python-net)

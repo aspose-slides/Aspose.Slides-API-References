@@ -1,13 +1,13 @@
 ---
 title: highlight_text method
-second_title: Aspose.Slides для Python через .NET справочник API
+second_title: Aspose.Slides для Python через .NET API справка
 description: 
 type: docs
 url: /ru/aspose.slides/textframe/highlight_text/
-weight: 20
+weight: 30
 ---
 ## highlight_text(self, text, highlight_color) {#str-asposeslidescolor}
-Подсвечивает все совпадения образца текста указанным цветом.
+Выделяет все совпадения образца текста указанным цветом.
 
 
 ```python
@@ -16,14 +16,14 @@ def highlight_text(self, text, highlight_color):
 ```
 
 
-| Параметр | Тип | Описание |
+| Parameter | Type | Description |
 | :- | :- | :- |
 | text | **str** | Образец текста для подсветки. |
-| highlight_color | [`Color`](/slides/python-net/ru/aspose.slides/color) | Цвет для подсветки текста. |
+| highlight_color | [`Color`](/slides/python-net/ru/aspose.slides/color) | Цвет, которым будет выделен текст. |
 
 
 ## highlight_text(self, text, highlight_color, options) {#str-asposeslidescolor-itexthighlightingoptions}
-Подсвечивает все совпадения образца текста указанным цветом.
+Выделяет все совпадения образца текста указанным цветом.
 
 
 ```python
@@ -32,15 +32,15 @@ def highlight_text(self, text, highlight_color, options):
 ```
 
 
-| Параметр | Тип | Описание |
+| Parameter | Type | Description |
 | :- | :- | :- |
 | text | **str** | Текст для подсветки. |
-| highlight_color | [`Color`](/slides/python-net/ru/aspose.slides/color) | Цвет для подсветки текста. |
-| options | [`ITextHighlightingOptions`](/slides/python-net/ru/aspose.slides/itexthighlightingoptions) | Параметры подсветки. |
+| highlight_color | [`Color`](/slides/python-net/ru/aspose.slides/color) | Цвет, которым будет выделен текст. |
+| options | [`ITextHighlightingOptions`](/slides/python-net/ru/aspose.slides/itexthighlightingoptions) | Параметры выделения. |
 
 
-## highlight_text(self, text, highlight_color, options, callback) {#str-asposeslidescolor-ittextsearchoptions-ifindresultcallback}
-Подсвечивает все совпадения образца текста указанным цветом.
+## highlight_text(self, text, highlight_color, options, callback) {#str-asposeslidescolor-itextsearchoptions-ifindresultcallback}
+Выделяет все совпадения образца текста указанным цветом.
 
 
 ```python
@@ -49,10 +49,10 @@ def highlight_text(self, text, highlight_color, options, callback):
 ```
 
 
-| Параметр | Тип | Описание |
+| Parameter | Type | Description |
 | :- | :- | :- |
 | text | **str** | Текст для подсветки. |
-| highlight_color | [`Color`](/slides/python-net/ru/aspose.slides/color) | Цвет для подсветки текста. |
+| highlight_color | [`Color`](/slides/python-net/ru/aspose.slides/color) | Цвет, которым будет выделен текст. |
 | options | [`ITextSearchOptions`](/slides/python-net/ru/aspose.slides/itextsearchoptions) | Параметры поиска текста [`ITextSearchOptions`](/slides/python-net/ru/aspose.slides/itextsearchoptions). |
 | callback | [`IFindResultCallback`](/slides/python-net/ru/aspose.slides/ifindresultcallback) | Объект обратного вызова для получения результатов поиска [`IFindResultCallback`](/slides/python-net/ru/aspose.slides/ifindresultcallback). |
 

@@ -4,10 +4,10 @@ second_title: Referensi API Aspose.Slides untuk Python via .NET
 description: 
 type: docs
 url: /id/aspose.slides/videoframe/y/
-weight: 660
+weight: 670
 ---
-## properti y
-Mendapatkan atau mengatur koordinat y dari sudut kiri atas shape, diukur dalam poin.
+## y properti
+Mengambil atau mengatur koordinat y dari sudut kiri atas bentuk, diukur dalam poin.
 Baca/tulis **float**.
 
 ### Catatan

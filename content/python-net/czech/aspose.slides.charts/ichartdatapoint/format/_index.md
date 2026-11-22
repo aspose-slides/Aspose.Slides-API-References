@@ -1,13 +1,13 @@
 ---
 title: format property
-second_title: Aspose.Slides pro Python přes .NET API Reference
+second_title: Aspose.Slides pro Python prostřednictvím .NET API Reference
 description: 
 type: docs
 url: /cs/aspose.slides.charts/ichartdatapoint/format/
-weight: 130
+weight: 170
 ---
-## vlastnost format
-Představuje vlastnosti formátování.
+## formát vlastnost
+Represents the formatting properties.
             Číst/Zapisovat [`IFormat`](/slides/python-net/cs/aspose.slides.charts/iformat).
 
 ### Definice:

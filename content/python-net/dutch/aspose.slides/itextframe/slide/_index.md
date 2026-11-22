@@ -4,7 +4,7 @@ second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides/itextframe/slide/
-weight: 140
+weight: 150
 ---
 ## slide eigenschap
 ### Definitie:

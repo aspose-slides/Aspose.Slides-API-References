@@ -1,13 +1,13 @@
 ---
 title: custom_data property
-second_title: Aspose.Slides Python용 .NET API 레퍼런스
-description:
+second_title: Aspose.Slides for Python via .NET API 레퍼런스
+description: 
 type: docs
 url: /ko/aspose.slides/presentation/custom_data/
-weight: 160
+weight: 170
 ---
 ## custom_data 속성
-Returns the presentation's custom data.
+프레젠테이션의 사용자 정의 데이터를 반환합니다.
             읽기 전용 [`ICustomData`](/slides/python-net/ko/aspose.slides/icustomdata).
 
 ### 정의:

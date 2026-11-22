@@ -4,7 +4,7 @@ second_title: مرجع API Aspose.Slides برای Python از طریق .NET
 description: 
 type: docs
 url: /fa/aspose.slides/itextframe/slide/
-weight: 140
+weight: 150
 ---
 ## ویژگی اسلاید
 ### تعریف:

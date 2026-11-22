@@ -1,13 +1,13 @@
 ---
 title: label property
-second_title: Aspose.Slides cho Python qua .NET Tham chiếu API
+second_title: Aspose.Slides cho Python qua .NET Tham chiêu API
 description: 
 type: docs
 url: /vi/aspose.slides.charts/ichartdatapoint/label/
-weight: 170
+weight: 210
 ---
-## Thuộc tính label
-Đại diện cho nhãn của chart data point.
+## label thuộc tính
+Biểu thị nhãn của điểm dữ liệu biểu đồ.
             Chỉ đọc [`IDataLabel`](/slides/python-net/vi/aspose.slides.charts/idatalabel).
 
 ### Định nghĩa:

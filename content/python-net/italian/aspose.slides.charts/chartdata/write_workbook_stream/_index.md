@@ -1,13 +1,13 @@
 ---
 title: write_workbook_stream method
-second_title: Aspose.Slides per Python via .NET Riferimento API
+second_title: Riferimento API di Aspose.Slides per Python via .NET
 description: 
 type: docs
 url: /it/aspose.slides.charts/chartdata/write_workbook_stream/
-weight: 60
+weight: 70
 ---
 ## write_workbook_stream(self, ms) {#iorawiobase}
-Inizializza il workbook Excel interno con il valore specificato dall'utente.
+Inizializza il workbook Excel contenuto internamente con il valore specificato dall'utente.
 
 
 ```python
@@ -18,7 +18,7 @@ def write_workbook_stream(self, ms):
 
 | Parametro | Tipo | Descrizione |
 | :- | :- | :- |
-| ms | **io.RawIOBase** | Il flusso fornito dall'utente che contiene l'intero workbook Excel. |
+| ms | **io.RawIOBase** | Il flusso fornito dall'utente contenente l'intero workbook Excel. |
 
 
 

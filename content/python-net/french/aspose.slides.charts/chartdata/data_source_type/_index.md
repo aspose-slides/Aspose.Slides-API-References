@@ -4,7 +4,7 @@ second_title: Aspose.Slides pour Python via .NET Référence de l'API
 description: 
 type: docs
 url: /fr/aspose.slides.charts/chartdata/data_source_type/
-weight: 90
+weight: 100
 ---
 ## data_source_type propriété
 Représente le chemin du classeur externe si source de données externe, None sinon

@@ -1,13 +1,13 @@
 ---
 title: value_from_cell property
-second_title: Aspose.Slides voor Python via .NET API Referentie
+second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides.charts/idatalabel/value_from_cell/
-weight: 240
+weight: 250
 ---
 ## value_from_cell eigenschap
-Haalt op of stelt werkbladgegevenscel in. Toegepast als de eigenschap IDataLabelFormat.ShowLabelValueFromCell gelijk is aan true.
+Haalt de workbook-gegevenscel op of stelt deze in. Toegepast als de IDataLabelFormat.ShowLabelValueFromCell eigenschap true is.
 
 ### Definitie:
 ```python
@@ -19,7 +19,6 @@ def value_from_cell(self):
 def value_from_cell(self, value):
     ...
 ```
-
 
 ### Zie ook
 * klasse [`IDataLabel`](/slides/python-net/nl/aspose.slides.charts/idatalabel)

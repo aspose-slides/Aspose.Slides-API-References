@@ -1,13 +1,13 @@
 ---
 title: write_workbook_stream method
-second_title: Tham chiếu API Aspose.Slides cho Python thông qua .NET
+second_title: Tham chiếu API Aspose.Slides cho Python qua .NET
 description: 
 type: docs
 url: /vi/aspose.slides.charts/ichartdata/write_workbook_stream/
-weight: 60
+weight: 70
 ---
 ## write_workbook_stream(self, ms) {#iorawiobase}
-Khởi tạo bảng tính Excel được chứa nội bộ với giá trị do người dùng chỉ định.
+Khởi tạo workbook Excel nội bộ với giá trị do người dùng chỉ định.
 
 ```python
 def write_workbook_stream(self, ms):
@@ -16,9 +16,9 @@ def write_workbook_stream(self, ms):
 
 | Tham số | Kiểu | Mô tả |
 | :- | :- | :- |
-| ms | **io.RawIOBase** | Luồng do người dùng cung cấp chứa toàn bộ bảng tính Excel. |
+| ms | **io.RawIOBase** | Luồng do người dùng cung cấp chứa toàn bộ workbook Excel. |
 
-### Xem Thêm
+### Xem thêm
 * lớp [`IChartData`](/slides/python-net/vi/aspose.slides.charts/ichartdata)
 * module [`aspose.slides.charts`](/slides/python-net/vi/aspose.slides.charts)
 * thư viện [`Aspose.Slides`](/slides/python-net)

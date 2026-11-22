@@ -4,10 +4,10 @@ second_title: Aspose.Slides for Python via .NET API 参考
 description: 
 type: docs
 url: /zh/aspose.slides/ipresentation/presentation/
-weight: 300
+weight: 310
 ---
-## presentation 属性
-### 定义：
+## 演示属性
+### 定义:
 ```python
 @property
 def presentation(self):

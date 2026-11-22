@@ -4,7 +4,7 @@ second_title: Riferimento API Aspose.Slides per Python via .NET
 description: 
 type: docs
 url: /it/aspose.slides.charts/chartdatapoint/error_bars_custom_values/
-weight: 110
+weight: 150
 ---
 ## error_bars_custom_values proprietà
 Rappresenta i valori delle barre di errore della serie nel caso di tipo di valore Custom.
@@ -16,7 +16,6 @@ Rappresenta i valori delle barre di errore della serie nel caso di tipo di valor
 def error_bars_custom_values(self):
     ...
 ```
-
 
 ### Vedi anche
 * classe [`ChartDataPoint`](/slides/python-net/it/aspose.slides.charts/chartdatapoint)

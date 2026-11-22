@@ -1,13 +1,13 @@
 ---
 title: vba_project property
-second_title: مرجع API Aspose.Slides للبايثون عبر .NET
+second_title: Aspose.Slides لـ Python عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides/presentation/vba_project/
-weight: 390
+weight: 400
 ---
-## vba_project خاصية
-يحصل أو يعيّن مشروع VBA مع ماكروات العرض.
+## خاصية vba_project
+يحصل أو يضبط مشروع VBA مع ماكرو العرض.
             قراءة/كتابة [`IVbaProject`](/slides/python-net/ar/aspose.slides.vba/ivbaproject).
 
 ### التعريف:
@@ -21,9 +21,8 @@ def vba_project(self, value):
     ...
 ```
 
-
 ### انظر أيضًا
-* فئة [`IVbaProject`](/slides/python-net/ar/aspose.slides.vba/ivbaproject)
-* فئة [`Presentation`](/slides/python-net/ar/aspose.slides/presentation)
-* وحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
-* مكتبة [`Aspose.Slides`](/slides/python-net)
+* الفئة [`IVbaProject`](/slides/python-net/ar/aspose.slides.vba/ivbaproject)
+* الفئة [`Presentation`](/slides/python-net/ar/aspose.slides/presentation)
+* الوحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
+* المكتبة [`Aspose.Slides`](/slides/python-net)

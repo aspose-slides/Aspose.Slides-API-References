@@ -4,10 +4,10 @@ second_title: Aspose.Slides for Python via .NET API 레퍼런스
 description: 
 type: docs
 url: /ko/aspose.slides.charts/ichartdata/chart_data_workbook/
-weight: 80
+weight: 90
 ---
 ## chart_data_workbook 속성
-Gets the cells factory to create cells used for chart series or categories.
+차트 시리즈 또는 카테고리에 사용되는 셀을 만들기 위한 셀 팩토리를 가져옵니다.
             읽기 전용 [`IChartDataWorkbook`](/slides/python-net/ko/aspose.slides.charts/ichartdataworkbook).
 
 ### 정의:

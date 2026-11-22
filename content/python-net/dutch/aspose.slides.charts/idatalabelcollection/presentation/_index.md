@@ -4,7 +4,7 @@ second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides.charts/idatalabelcollection/presentation/
-weight: 150
+weight: 160
 ---
 ## presentatie-eigenschap
 ### Definitie:

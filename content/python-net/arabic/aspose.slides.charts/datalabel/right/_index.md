@@ -1,14 +1,14 @@
 ---
 title: right property
-second_title: Aspose.Slides لـ Python عبر .NET مرجع API
+second_title: مرجع API لـ Aspose.Slides للبايثون عبر .NET
 description: 
 type: docs
 url: /ar/aspose.slides.charts/datalabel/right/
-weight: 210
+weight: 220
 ---
 ## right خاصية
 يمين.
-            قراءة فقط **float**.
+            للقراءة فقط **float**.
 
 ### التعريف:
 ```python

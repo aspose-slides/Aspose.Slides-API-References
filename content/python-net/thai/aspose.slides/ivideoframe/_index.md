@@ -7,25 +7,26 @@ url: /th/aspose.slides/ivideoframe/
 ---
 ## IVideoFrame คลาส
 
-แทนคลิปวิดีโอบนสไลด์
+แสดงคลิปวิดีโอบนสไลด์.
 
-The IVideoFrame type exposes the following members:
+ประเภท IVideoFrame เปิดเผยสมาชิกต่อไปนี้:
 
 ## คุณสมบัติ
 
 | Property | Description |
 | :- | :- |
-| [`rewind_video`](/slides/python-net/th/aspose.slides/ivideoframe/rewind_video/) | กำหนดว่า วีดีโอจะถูกรีวินด์อัตโนมัติเพื่อเริ่มต้นใหม่<br/>            ทันทีที่ภาพยนตร์เล่นจบ<br/>            อ่าน/เขียน **bool**. |
-| [`play_loop_mode`](/slides/python-net/th/aspose.slides/ivideoframe/play_loop_mode/) | กำหนดว่า วีดีโอจะทำซ้ำหรือไม่<br/>            อ่าน/เขียน **bool**. |
-| [`hide_at_showing`](/slides/python-net/th/aspose.slides/ivideoframe/hide_at_showing/) | กำหนดว่า VideoFrame ถูกซ่อนหรือไม่<br/>            อ่าน/เขียน **bool**. |
-| [`volume`](/slides/python-net/th/aspose.slides/ivideoframe/volume/) | คืนค่า หรือ ตั้งค่าปริมาณเสียง<br/>            อ่าน/เขียน [`AudioVolumeMode`](/slides/python-net/th/aspose.slides/audiovolumemode). |
-| [`play_mode`](/slides/python-net/th/aspose.slides/ivideoframe/play_mode/) | คืนค่า หรือ ตั้งค่าโหมดการเล่นวิดีโอ<br/>            อ่าน/เขียน [`VideoPlayModePreset`](/slides/python-net/th/aspose.slides/videoplaymodepreset). |
-| [`full_screen_mode`](/slides/python-net/th/aspose.slides/ivideoframe/full_screen_mode/) | กำหนดว่า วีดีโอจะแสดงในโหมดเต็มหน้าจอหรือไม่<br/>            อ่าน/เขียน **bool**. |
-| [`link_path_long`](/slides/python-net/th/aspose.slides/ivideoframe/link_path_long/) | คืนค่า หรือ ตั้งชื่อไฟล์วิดีโอที่เชื่อมโยงกับ VideoFrame<br/>            อ่าน/เขียน **str**. |
-| [`embedded_video`](/slides/python-net/th/aspose.slides/ivideoframe/embedded_video/) | คืนค่า หรือ ตั้งค่าออบเจกต์วิดีโอที่ฝังอยู่<br/>            อ่าน/เขียน [`IVideo`](/slides/python-net/th/aspose.slides/ivideo). |
-| [`trim_from_start`](/slides/python-net/th/aspose.slides/ivideoframe/trim_from_start/) | ตัดเริ่มต้น [ms] |
-| [`trim_from_end`](/slides/python-net/th/aspose.slides/ivideoframe/trim_from_end/) | ตัดสิ้นสุด [ms] |
-| [`caption_tracks`](/slides/python-net/th/aspose.slides/ivideoframe/caption_tracks/) | รับชุดของคำบรรยายปิดที่เชื่อมโยงกับเฟรมเสียง<br/>             คุณสมบัตินี้เป็นอ่านอย่างเดียวและคืนค่า [`ICaptionsCollection`](/slides/python-net/th/aspose.slides/icaptionscollection) ที่มีแทร็กคำบรรยายทั้งหมด. |
+| [`rewind_video`](/slides/python-net/th/aspose.slides/ivideoframe/rewind_video/) | กำหนดว่าวิดีโอจะถูกตั้งค่าให้กลับไปเริ่มต้นโดยอัตโนมัติหรือไม่<br/>            ทันทีที่ภาพยนต์เล่นจบลง.<br/>            อ่าน/เขียน **bool**. |
+| [`play_loop_mode`](/slides/python-net/th/aspose.slides/ivideoframe/play_loop_mode/) | กำหนดว่าวิดีโอจะทำการวนซ้ำหรือไม่.<br/>            อ่าน/เขียน **bool**. |
+| [`hide_at_showing`](/slides/python-net/th/aspose.slides/ivideoframe/hide_at_showing/) | กำหนดว่า VideoFrame จะถูกซ่อนหรือไม่.<br/>            อ่าน/เขียน **bool**. |
+| [`volume`](/slides/python-net/th/aspose.slides/ivideoframe/volume/) | คืนหรือกำหนดระดับเสียงของออดิโอ.<br/>            อ่าน/เขียน [`AudioVolumeMode`](/slides/python-net/th/aspose.slides/audiovolumemode). |
+| [`volume_value`](/slides/python-net/th/aspose.slides/ivideoframe/volume_value/) | คืนหรือกำหนดระดับเสียงวิดีโอที่แม่นยำเป็นเปอร์เซ็นต์.<br/>            ค่าแสดงเป็นเปอร์เซ็นต์จาก 0 ถึง 100. ใช้คุณลักษณะนี้<br/>            เพื่ออ่านหรือกำหนดค่าระดับเสียงที่แม่นยำกว่าระดับที่กำหนดไว้ล่วงหน้า<br/>            ที่มีให้ผ่านคุณลักษณะ [`IVideoFrame.volume`](/slides/python-net/th/aspose.slides/ivideoframe/volume).<br/>            อ่าน/เขียน **float**. |
+| [`play_mode`](/slides/python-net/th/aspose.slides/ivideoframe/play_mode/) | คืนหรือกำหนดโหมดการเล่นวิดีโอ.<br/>            อ่าน/เขียน [`VideoPlayModePreset`](/slides/python-net/th/aspose.slides/videoplaymodepreset). |
+| [`full_screen_mode`](/slides/python-net/th/aspose.slides/ivideoframe/full_screen_mode/) | กำหนดว่าวิดีโอจะแสดงในโหมดเต็มจอหรือไม่.<br/>            อ่าน/เขียน **bool**. |
+| [`link_path_long`](/slides/python-net/th/aspose.slides/ivideoframe/link_path_long/) | คืนหรือกำหนดชื่อไฟล์วิดีโอที่เชื่อมโยงกับ VideoFrame.<br/>            อ่าน/เขียน **str**. |
+| [`embedded_video`](/slides/python-net/th/aspose.slides/ivideoframe/embedded_video/) | คืนหรือกำหนดวัตถุวิดีโอฝังตัว.<br/>            อ่าน/เขียน [`IVideo`](/slides/python-net/th/aspose.slides/ivideo). |
+| [`trim_from_start`](/slides/python-net/th/aspose.slides/ivideoframe/trim_from_start/) | จุดเริ่มต้นการตัด [ms] |
+| [`trim_from_end`](/slides/python-net/th/aspose.slides/ivideoframe/trim_from_end/) | จุดสิ้นสุดการตัด [ms] |
+| [`caption_tracks`](/slides/python-net/th/aspose.slides/ivideoframe/caption_tracks/) | รับชุดของคำบรรยายปิดที่เชื่อมโยงกับเฟรมออดิโอ.<br/>            คุณลักษณะนี้เป็นแบบอ่านอย่างเดียวและคืนค่า [`ICaptionsCollection`](/slides/python-net/th/aspose.slides/icaptionscollection) ที่มีแทร็กคำบรรยายทั้งหมด. |
 | [`shape_lock`](/slides/python-net/th/aspose.slides/ivideoframe/shape_lock/) |  |
 | [`picture_frame_lock`](/slides/python-net/th/aspose.slides/ivideoframe/picture_frame_lock/) |  |
 | [`picture_format`](/slides/python-net/th/aspose.slides/ivideoframe/picture_format/) |  |

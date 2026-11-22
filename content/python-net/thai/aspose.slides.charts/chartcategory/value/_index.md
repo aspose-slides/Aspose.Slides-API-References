@@ -4,12 +4,12 @@ second_title: Aspose.Slides สำหรับ Python ผ่าน .NET เอ�
 description: 
 type: docs
 url: /th/aspose.slides.charts/chartcategory/value/
-weight: 60
+weight: 70
 ---
-## value คุณสมบัติ
+## คุณสมบัติ value
 If UseCell is true then this property represents AsCell.Value property.
             If UseCell is false then this property represents AsLiteral property.
-            Read/write **ใด  ๆ**.
+            Read/write **ใดๆ**.
 
 ### คำนิยาม:
 ```python
@@ -21,6 +21,7 @@ def value(self):
 def value(self, value):
     ...
 ```
+
 
 ### ดูเพิ่มเติม
 * คลาส [`ChartCategory`](/slides/python-net/th/aspose.slides.charts/chartcategory)

@@ -4,7 +4,7 @@ second_title: Referensi API Aspose.Slides untuk Python via .NET
 description: 
 type: docs
 url: /id/aspose.slides/textframe/replace_regex/
-weight: 40
+weight: 50
 ---
 ## replace_regex(self, regex, new_text) {#str-str}
 Mengganti semua kecocokan ekspresi reguler dengan string yang ditentukan.
@@ -18,8 +18,8 @@ def replace_regex(self, regex, new_text):
 
 | Parameter | Tipe | Deskripsi |
 | :- | :- | :- |
-| regex | **str** | String yang berisi ekspresi reguler untuk mendapatkan string yang akan diganti. |
-| new_text | **str** | String untuk mengganti semua kejadian string yang akan diganti. |
+| regex | **str** | String berisi ekspresi reguler untuk mendapatkan string yang akan diganti. |
+| new_text | **str** | String untuk mengganti semua kemunculan string yang akan diganti. |
 
 
 

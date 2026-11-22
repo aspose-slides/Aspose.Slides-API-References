@@ -1,10 +1,10 @@
 ---
 title: save method
-second_title: Aspose.Slides для Python через .NET — справочник API
+second_title: Справочник API Aspose.Slides для Python через .NET
 description: 
 type: docs
 url: /ru/aspose.slides/ipresentation/save/
-weight: 80
+weight: 90
 ---
 ## save(self, options) {#asposeslidesexportxamlixamloptions}
 Сохраняет все слайды презентации в набор файлов, представляющих разметку XAML.
@@ -90,7 +90,7 @@ def save(self, stream, format, options):
 
 | Исключение | Описание |
 | :- | :- |
-| **RuntimeError(Proxy error(NotSupportedException))** | Если вы пытаетесь сохранить зашифрованный файл в <br/>            формате, не поддерживаемом Office 2007-2010 |
+| **RuntimeError(Proxy error(NotSupportedException))** | Если попытаться сохранить зашифрованный файл в<br/>            формат, не поддерживаемый Office 2007-2010. |
 
 
 ## save(self, fname, slides, format) {#str-listint-asposeslidesexportsaveformat}
@@ -106,7 +106,7 @@ def save(self, fname, slides, format):
 | Параметр | Тип | Описание |
 | :- | :- | :- |
 | fname | **str** | Путь к создаваемому файлу. |
-| slides | **List[int]** | Массив с позициями слайдов, начиная с 1. |
+| slides | **List[int]** | Массив позиций слайдов, нумерация начинается с 1. |
 | format | [`SaveFormat`](/slides/python-net/ru/aspose.slides.export/saveformat) | Формат экспортируемых данных. |
 
 ### Исключения
@@ -115,7 +115,7 @@ def save(self, fname, slides, format):
 | :- | :- |
 | **RuntimeError(Proxy error(ArgumentNullException))** | Когда параметр stream или slides имеет значение None. |
 | **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Когда параметр slides содержит неверные номера страниц. |
-| **RuntimeError(Proxy error(InvalidOperationException))** | Когда используется неподдерживаемый SaveFormat, например PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+| **RuntimeError(Proxy error(InvalidOperationException))** | При попытке использовать неподдерживаемый SaveFormat, например PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
 
 ## save(self, stream, slides, format) {#iorawiobase-listint-asposeslidesexportsaveformat}
@@ -131,7 +131,7 @@ def save(self, stream, slides, format):
 | Параметр | Тип | Описание |
 | :- | :- | :- |
 | stream | **io.RawIOBase** | Выходной поток. |
-| slides | **List[int]** | Массив с позициями слайдов, начиная с 1. |
+| slides | **List[int]** | Массив позиций слайдов, нумерация начинается с 1. |
 | format | [`SaveFormat`](/slides/python-net/ru/aspose.slides.export/saveformat) | Формат экспортируемых данных. |
 
 ### Исключения
@@ -140,7 +140,7 @@ def save(self, stream, slides, format):
 | :- | :- |
 | **RuntimeError(Proxy error(ArgumentNullException))** | Когда параметр stream или slides имеет значение None. |
 | **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Когда параметр slides содержит неверные номера страниц. |
-| **RuntimeError(Proxy error(InvalidOperationException))** | Когда используется неподдерживаемый SaveFormat, например PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+| **RuntimeError(Proxy error(InvalidOperationException))** | При попытке использовать неподдерживаемый SaveFormat, например PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
 
 ## save(self, fname, slides, format, options) {#str-listint-asposeslidesexportsaveformat-asposeslidesexportisaveoptions}
@@ -156,7 +156,7 @@ def save(self, fname, slides, format, options):
 | Параметр | Тип | Описание |
 | :- | :- | :- |
 | fname | **str** | Путь к создаваемому файлу. |
-| slides | **List[int]** | Массив с позициями слайдов, начиная с 1. |
+| slides | **List[int]** | Массив позиций слайдов, нумерация начинается с 1. |
 | format | [`SaveFormat`](/slides/python-net/ru/aspose.slides.export/saveformat) | Формат экспортируемых данных. |
 | options | [`ISaveOptions`](/slides/python-net/ru/aspose.slides.export/isaveoptions) | Дополнительные параметры формата. |
 
@@ -166,7 +166,7 @@ def save(self, fname, slides, format, options):
 | :- | :- |
 | **RuntimeError(Proxy error(ArgumentNullException))** | Когда параметр stream или slides имеет значение None. |
 | **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Когда параметр slides содержит неверные номера страниц. |
-| **RuntimeError(Proxy error(InvalidOperationException))** | Когда используется неподдерживаемый SaveFormat, например PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+| **RuntimeError(Proxy error(InvalidOperationException))** | При попытке использовать неподдерживаемый SaveFormat, например PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
 
 ## save(self, stream, slides, format, options) {#iorawiobase-listint-asposeslidesexportsaveformat-asposeslidesexportisaveoptions}
@@ -182,7 +182,7 @@ def save(self, stream, slides, format, options):
 | Параметр | Тип | Описание |
 | :- | :- | :- |
 | stream | **io.RawIOBase** | Выходной поток. |
-| slides | **List[int]** | Массив с позициями слайдов, начиная с 1. |
+| slides | **List[int]** | Массив позиций слайдов, нумерация начинается с 1. |
 | format | [`SaveFormat`](/slides/python-net/ru/aspose.slides.export/saveformat) | Формат экспортируемых данных. |
 | options | [`ISaveOptions`](/slides/python-net/ru/aspose.slides.export/isaveoptions) | Дополнительные параметры формата. |
 
@@ -192,7 +192,7 @@ def save(self, stream, slides, format, options):
 | :- | :- |
 | **RuntimeError(Proxy error(ArgumentNullException))** | Когда параметр stream или slides имеет значение None. |
 | **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Когда параметр slides содержит неверные номера страниц. |
-| **RuntimeError(Proxy error(InvalidOperationException))** | Когда используется неподдерживаемый SaveFormat, например PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+| **RuntimeError(Proxy error(InvalidOperationException))** | При попытке использовать неподдерживаемый SaveFormat, например PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
 
 

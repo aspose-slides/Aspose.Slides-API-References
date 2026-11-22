@@ -1,14 +1,14 @@
 ---
 title: switch_row_column method
-second_title: Aspose.Slides για Python μέσω .NET API Reference
+second_title: Aspose.Slides για Python μέσω .NET Αναφορά API
 description: 
 type: docs
 url: /el/aspose.slides.charts/ichartdata/switch_row_column/
-weight: 50
+weight: 60
 ---
 ## switch_row_column(self) {#}
-Ανταλλάξτε τα δεδομένα στον άξονα.
-            Τα δεδομένα που απεικονίζονται στον άξονα X θα μετακινηθούν στον άξονα Y και αντιστρόφως.
+Ανταλλάσσει τα δεδομένα κατά τον άξονα.
+            Τα δεδομένα που απεικονίζονται στον άξονα X θα μετακινηθούν στον άξονα Y και αντίστροφα.
 
 
 ```python

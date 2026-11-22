@@ -4,11 +4,11 @@ second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides/presentation/default_text_style/
-weight: 170
+weight: 180
 ---
 ## default_text_style eigenschap
-Retourneert de standaard tekststijl voor vormen.
-Alleen-lezen [`ITextStyle`](/slides/python-net/nl/aspose.slides/itextstyle).
+Retourneert de standaardtekststijl voor vormen.
+            Alleen-lezen [`ITextStyle`](/slides/python-net/nl/aspose.slides/itextstyle).
 
 ### Definitie:
 ```python

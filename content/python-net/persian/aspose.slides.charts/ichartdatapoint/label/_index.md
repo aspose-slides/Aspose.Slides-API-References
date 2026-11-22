@@ -1,14 +1,14 @@
 ---
 title: label property
-second_title: Aspose.Slides برای Python از طریق .NET مرجع API
+second_title: Aspose.Slides برای Python از طریق .NET – مرجع API
 description: 
 type: docs
 url: /fa/aspose.slides.charts/ichartdatapoint/label/
-weight: 170
+weight: 210
 ---
-## خاصیت برچسب
-نمایش‌دهنده برچسب نقطه داده نمودار.
-            فقط‌خواندنی [`IDataLabel`](/slides/python-net/fa/aspose.slides.charts/idatalabel).
+## label ویژگی
+Represents the lable of chart data point.
+            فقط خواندنی [`IDataLabel`](/slides/python-net/fa/aspose.slides.charts/idatalabel).
 
 ### تعریف:
 ```python

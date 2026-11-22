@@ -5,9 +5,9 @@ description:
 type: docs
 url: /tr/aspose.slides.charts/idatalabel/
 ---
-## IDataLabel sınıfı
+## IDataLabel sınıf
 
-Veri serisi etiketlerini temsil eder.
+Seri etiketlerini temsil eder.
 
 IDataLabel türü aşağıdaki üyeleri sunar:
 
@@ -15,9 +15,10 @@ IDataLabel türü aşağıdaki üyeleri sunar:
 
 | Özellik | Açıklama |
 | :- | :- |
-| [`is_visible`](/slides/python-net/tr/aspose.slides.charts/idatalabel/is_visible/) | False, veri etiketinin görünür olmadığı anlamına gelir (ve bu nedenle tüm Show*-bayrakları (ShowValue, ...) false olur).<br/>            Read-only **bool**. |
-| [`data_label_format`](/slides/python-net/tr/aspose.slides.charts/idatalabel/data_label_format/) | Veri etiketinin biçimini döndürür.<br/>            Read-only [`IDataLabelFormat`](/slides/python-net/tr/aspose.slides.charts/idatalabelformat). |
+| [`is_visible`](/slides/python-net/tr/aspose.slides.charts/idatalabel/is_visible/) | False, veri etiketinin görünür olmadığını (ve bu yüzden tüm Show*-flags (ShowValue, ...) false olduğunu) belirtir.<br/>            Salt okunur **bool**. |
+| [`data_label_format`](/slides/python-net/tr/aspose.slides.charts/idatalabel/data_label_format/) | Veri etiketinin biçimini döndürür.<br/>            Salt okunur [`IDataLabelFormat`](/slides/python-net/tr/aspose.slides.charts/idatalabelformat). |
 | [`value_from_cell`](/slides/python-net/tr/aspose.slides.charts/idatalabel/value_from_cell/) | Çalışma kitabı veri hücresini alır veya ayarlar. IDataLabelFormat.ShowLabelValueFromCell özelliği true ise uygulanır. |
+| [`label_shape_type`](/slides/python-net/tr/aspose.slides.charts/idatalabel/label_shape_type/) | Veri etiketinin şekil türünü alır veya ayarlar.<br/>             Şekil tanımlı değilse [`ShapeType.NOT_DEFINED`](/slides/python-net/tr/aspose.slides/shapetype/NOT_DEFINED) döndürür. |
 | [`x`](/slides/python-net/tr/aspose.slides.charts/idatalabel/x/) |  |
 | [`y`](/slides/python-net/tr/aspose.slides.charts/idatalabel/y/) |  |
 | [`width`](/slides/python-net/tr/aspose.slides.charts/idatalabel/width/) |  |
@@ -38,7 +39,7 @@ IDataLabel türü aşağıdaki üyeleri sunar:
 
 | Yöntem | Açıklama |
 | :- | :- |
-| [`hide(self)`](/slides/python-net/tr/aspose.slides.charts/idatalabel/hide/#) | Tüm Show*-bayraklarını (ShowValue, ...) false durumuna ayarlayarak veri etiketini gizli yapar.<br/>            IsVisible bu işlemden sonra false olur. |
+| [`hide(self)`](/slides/python-net/tr/aspose.slides.charts/idatalabel/hide/#) | Tüm Show*-flags (ShowValue, ...) false durumuna ayarlayarak veri etiketini gizler.<br/>            IsVisible bu işlemden sonra false olacaktır. |
 | [`get_actual_label_text(self)`](/slides/python-net/tr/aspose.slides.charts/idatalabel/get_actual_label_text/#) | DataLabelFormat ayarlarına veya TextFrameForOverriding.Text değerine göre gerçek etiket metnini döndürür. |
 | [`add_text_frame_for_overriding(self, text)`](/slides/python-net/tr/aspose.slides.charts/idatalabel/add_text_frame_for_overriding/#str) |  |
 

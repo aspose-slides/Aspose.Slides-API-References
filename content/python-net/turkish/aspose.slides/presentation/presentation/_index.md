@@ -1,10 +1,10 @@
 ---
 title: presentation property
-second_title: Aspose.Slides için Python üzerinden .NET API Referansı
+second_title: Aspose.Slides for Python via .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides/presentation/presentation/
-weight: 310
+weight: 320
 ---
 ## sunum özelliği
 ### Tanım:
@@ -15,7 +15,7 @@ def presentation(self):
 ```
 
 
-### Bakınız
+### Ayrıca Bakınız
 * sınıf [`Presentation`](/slides/python-net/tr/aspose.slides/presentation)
 * modül [`aspose.slides`](/slides/python-net/tr/aspose.slides)
 * kütüphane [`Aspose.Slides`](/slides/python-net)

@@ -1,13 +1,13 @@
 ---
 title: data_source_type property
-second_title: Aspose.Slides برای پایتون از طریق .NET مرجع API
+second_title: مرجع API Aspose.Slides برای پایتون از طریق .NET
 description: 
 type: docs
 url: /fa/aspose.slides.charts/chartdata/data_source_type/
-weight: 90
+weight: 100
 ---
-## data_source_type خاصیت
-نمایش مسیر کتاب‌کار خارجی در صورتی که منبع داده خارجی باشد، در غیر این صورت None
+## data_source_type ویژگی
+مسیر کتاب‌کار خارجی را اگر منبع داده خارجی باشد نشان می‌دهد، در غیر این صورت None
 
 ### تعریف:
 ```python

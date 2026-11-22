@@ -4,9 +4,9 @@ second_title: Aspose.Slides için Python üzerinden .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides/ipresentation/presentation/
-weight: 300
+weight: 310
 ---
-## presentation özellik
+## sunum özelliği
 ### Tanım:
 ```python
 @property

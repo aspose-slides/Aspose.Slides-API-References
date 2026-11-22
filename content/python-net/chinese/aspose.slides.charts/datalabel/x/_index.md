@@ -4,11 +4,11 @@ second_title: Aspose.Slides for Python via .NET API 参考
 description: 
 type: docs
 url: /zh/aspose.slides.charts/datalabel/x/
-weight: 270
+weight: 280
 ---
 ## x 属性
 返回或设置标题的 x 坐标，作为图表宽度的比例。
-            可读写 **float**.
+            读/写 **float**.
 
 ### 定义:
 ```python

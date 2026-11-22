@@ -1,12 +1,12 @@
 ---
 title: value property
-second_title: Aspose.Slides untuk Python melalui .NET Referensi API
+second_title: Referensi API Aspose.Slides untuk Python via .NET
 description: 
 type: docs
 url: /id/aspose.slides.charts/chartdatapoint/value/
-weight: 220
+weight: 260
 ---
-## value properti
+## properti nilai
 Nilai.
             Baca-saja [`IDoubleChartValue`](/slides/python-net/id/aspose.slides.charts/idoublechartvalue).
 
@@ -22,4 +22,4 @@ def value(self):
 * kelas [`ChartDataPoint`](/slides/python-net/id/aspose.slides.charts/chartdatapoint)
 * kelas [`IDoubleChartValue`](/slides/python-net/id/aspose.slides.charts/idoublechartvalue)
 * modul [`aspose.slides.charts`](/slides/python-net/id/aspose.slides.charts)
-* perpustakaan [`Aspose.Slides`](/slides/python-net)
+* pustaka [`Aspose.Slides`](/slides/python-net)

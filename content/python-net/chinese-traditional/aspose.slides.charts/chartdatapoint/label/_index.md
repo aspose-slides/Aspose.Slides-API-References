@@ -1,16 +1,16 @@
 ---
 title: label property
-second_title: Aspose.Slides for Python via .NET API 參考
+second_title: Aspose.Slides for Python via .NET API 參考文件
 description: 
 type: docs
 url: /zh-hant/aspose.slides.charts/chartdatapoint/label/
-weight: 170
+weight: 210
 ---
-## 標籤屬性
-標籤.
+## label 屬性
+標籤。
             唯讀 [`IDataLabel`](/slides/python-net/zh-hant/aspose.slides.charts/idatalabel).
 
-### 定義:
+### 定義：
 ```python
 @property
 def label(self):

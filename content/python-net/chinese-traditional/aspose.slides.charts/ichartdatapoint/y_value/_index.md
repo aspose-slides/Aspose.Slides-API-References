@@ -1,16 +1,16 @@
 ---
 title: y_value property
-second_title: Aspose.Slides 用於 Python via .NET API 參考
+second_title: Aspose.Slides for Python via .NET API 參考文件
 description: 
 type: docs
 url: /zh-hant/aspose.slides.charts/ichartdatapoint/y_value/
-weight: 240
+weight: 280
 ---
 ## y_value 屬性
-傳回圖表資料點的 y 值。
+取得圖表資料點的 y 值.
             唯讀 [`IDoubleChartValue`](/slides/python-net/zh-hant/aspose.slides.charts/idoublechartvalue).
 
-### 定義：
+### 定義:
 ```python
 @property
 def y_value(self):

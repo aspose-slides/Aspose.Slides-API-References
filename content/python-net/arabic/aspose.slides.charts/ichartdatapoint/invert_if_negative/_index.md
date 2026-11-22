@@ -1,13 +1,13 @@
 ---
 title: invert_if_negative property
-second_title: Aspose.Slides لبايثون عبر مرجع API لـ .NET
+second_title: مرجع API Aspose.Slides للـ Python عبر .NET
 description: 
 type: docs
 url: /ar/aspose.slides.charts/ichartdatapoint/invert_if_negative/
-weight: 150
+weight: 190
 ---
-## خاصية invert_if_negative
-يحدد أن نقطة البيانات يجب أن تعكس ألوانها إذا كانت القيمة سلبية.
+## invert_if_negative خاصية
+يحدد أن نقطة البيانات ستعكس ألوانها إذا كانت القيمة سلبية.
             قراءة/كتابة **bool**.
 
 ### التعريف:
@@ -20,6 +20,7 @@ def invert_if_negative(self):
 def invert_if_negative(self, value):
     ...
 ```
+
 
 ### انظر أيضًا
 * فئة [`IChartDataPoint`](/slides/python-net/ar/aspose.slides.charts/ichartdatapoint)

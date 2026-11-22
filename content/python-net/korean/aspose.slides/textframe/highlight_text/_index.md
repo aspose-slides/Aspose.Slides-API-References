@@ -4,51 +4,51 @@ second_title: Aspose.Slides for Python via .NET API 레퍼런스
 description: 
 type: docs
 url: /ko/aspose.slides/textframe/highlight_text/
-weight: 20
+weight: 30
 ---
 ## highlight_text(self, text, highlight_color) {#str-asposeslidescolor}
-지정된 색상으로 샘플 텍스트와 일치하는 모든 항목을 강조 표시합니다.
+모든 일치 항목을 지정된 색상으로 강조 표시합니다.
 
 ```python
 def highlight_text(self, text, highlight_color):
     ...
 ```
 
-| 매개변수 | 형식 | 설명 |
+| Parameter | Type | Description |
 | :- | :- | :- |
-| text | **str** | 강조할 텍스트 샘플. |
-| highlight_color | [`Color`](/slides/python-net/ko/aspose.slides/color) | 텍스트를 강조 표시할 색상. |
+| text | **str** | 강조할 텍스트 샘플입니다. |
+| highlight_color | [`Color`](/slides/python-net/ko/aspose.slides/color) | 텍스트를 강조할 색상입니다. |
 
 ## highlight_text(self, text, highlight_color, options) {#str-asposeslidescolor-itexthighlightingoptions}
-지정된 색상으로 샘플 텍스트와 일치하는 모든 항목을 강조 표시합니다.
+모든 일치 항목을 지정된 색상으로 강조 표시합니다.
 
 ```python
 def highlight_text(self, text, highlight_color, options):
     ...
 ```
 
-| 매개변수 | 형식 | 설명 |
+| Parameter | Type | Description |
 | :- | :- | :- |
-| text | **str** | 강조할 텍스트. |
-| highlight_color | [`Color`](/slides/python-net/ko/aspose.slides/color) | 텍스트를 강조 표시할 색상. |
-| options | [`ITextHighlightingOptions`](/slides/python-net/ko/aspose.slides/itexthighlightingoptions) | 강조 옵션. |
+| text | **str** | 강조할 텍스트입니다. |
+| highlight_color | [`Color`](/slides/python-net/ko/aspose.slides/color) | 텍스트를 강조할 색상입니다. |
+| options | [`ITextHighlightingOptions`](/slides/python-net/ko/aspose.slides/itexthighlightingoptions) | 강조 옵션입니다. |
 
 ## highlight_text(self, text, highlight_color, options, callback) {#str-asposeslidescolor-itextsearchoptions-ifindresultcallback}
-지정된 색상으로 샘플 텍스트와 일치하는 모든 항목을 강조 표시합니다.
+모든 일치 항목을 지정된 색상으로 강조 표시합니다.
 
 ```python
 def highlight_text(self, text, highlight_color, options, callback):
     ...
 ```
 
-| 매개변수 | 형식 | 설명 |
+| Parameter | Type | Description |
 | :- | :- | :- |
-| text | **str** | 강조할 텍스트. |
-| highlight_color | [`Color`](/slides/python-net/ko/aspose.slides/color) | 텍스트를 강조 표시할 색상. |
+| text | **str** | 강조할 텍스트입니다. |
+| highlight_color | [`Color`](/slides/python-net/ko/aspose.slides/color) | 텍스트를 강조할 색상입니다. |
 | options | [`ITextSearchOptions`](/slides/python-net/ko/aspose.slides/itextsearchoptions) | 텍스트 검색 옵션 [`ITextSearchOptions`](/slides/python-net/ko/aspose.slides/itextsearchoptions). |
-| callback | [`IFindResultCallback`](/slides/python-net/ko/aspose.slides/ifindresultcallback) | 검색 결과를 수신하기 위한 콜백 객체 [`IFindResultCallback`](/slides/python-net/ko/aspose.slides/ifindresultcallback). |
+| callback | [`IFindResultCallback`](/slides/python-net/ko/aspose.slides/ifindresultcallback) | 검색 결과를 받기 위한 콜백 객체 [`IFindResultCallback`](/slides/python-net/ko/aspose.slides/ifindresultcallback). |
 
-### 참고
+### 참조
 * 클래스 [`IFindResultCallback`](/slides/python-net/ko/aspose.slides/ifindresultcallback)
 * 클래스 [`ITextHighlightingOptions`](/slides/python-net/ko/aspose.slides/itexthighlightingoptions)
 * 클래스 [`ITextSearchOptions`](/slides/python-net/ko/aspose.slides/itextsearchoptions)

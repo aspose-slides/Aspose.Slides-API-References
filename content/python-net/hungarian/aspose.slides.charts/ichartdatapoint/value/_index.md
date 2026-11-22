@@ -1,13 +1,13 @@
 ---
 title: value property
-second_title: Aspose.Slides Pythonhoz .NET-en keresztül API hivatkozás
+second_title: Aspose.Slides Pythonhoz .NET API Referencia
 description: 
 type: docs
 url: /hu/aspose.slides.charts/ichartdatapoint/value/
-weight: 220
+weight: 260
 ---
-## érték tulajdonság
-Visszaadja a diagram adatpont értékét.
+## value tulajdonság
+Megkapja a chart adatpont értékét.
             Csak olvasható [`IDoubleChartValue`](/slides/python-net/hu/aspose.slides.charts/idoublechartvalue).
 
 ### Definíció:

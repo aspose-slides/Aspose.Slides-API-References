@@ -1,10 +1,10 @@
 ---
 title: parent_shape property
-second_title: Aspose.Slides para Python via .NET Referência da API
+second_title: Referência da API Aspose.Slides para Python via .NET
 description: 
 type: docs
 url: /pt/aspose.slides/itextframe/parent_shape/
-weight: 120
+weight: 130
 ---
 ## parent_shape propriedade
 Retorna a forma pai ou None se o objeto pai não implementar a interface IShape
@@ -18,7 +18,7 @@ def parent_shape(self):
 ```
 
 
-### Veja Também
+### Veja também
 * classe [`IShape`](/slides/python-net/pt/aspose.slides/ishape)
 * classe [`ITextFrame`](/slides/python-net/pt/aspose.slides/itextframe)
 * módulo [`aspose.slides`](/slides/python-net/pt/aspose.slides)

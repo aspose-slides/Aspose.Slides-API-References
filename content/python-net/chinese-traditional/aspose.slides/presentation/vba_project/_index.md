@@ -1,16 +1,16 @@
 ---
 title: vba_project property
-second_title: Aspose.Slides for Python via .NET API 參考文件
+second_title: Aspose.Slides for Python via .NET API 參考
 description: 
 type: docs
 url: /zh-hant/aspose.slides/presentation/vba_project/
-weight: 390
+weight: 400
 ---
 ## vba_project 屬性
-取得或設定包含簡報巨集的 VBA 專案。
-            讀/寫 [`IVbaProject`](/slides/python-net/zh-hant/aspose.slides.vba/ivbaproject).
+取得或設定帶有簡報巨集的 VBA 專案。
+            讀寫 [`IVbaProject`](/slides/python-net/zh-hant/aspose.slides.vba/ivbaproject).
 
-### 定義:
+### 定義：
 ```python
 @property
 def vba_project(self):

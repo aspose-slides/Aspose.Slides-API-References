@@ -1,13 +1,13 @@
 ---
 title: current_date_time property
-second_title: Aspose.Slides dla Pythona przez .NET - Referencja API
+second_title: Aspose.Slides dla Pythona przez .NET – dokumentacja API
 description: 
 type: docs
 url: /pl/aspose.slides/ipresentation/current_date_time/
-weight: 140
+weight: 150
 ---
 ## current_date_time właściwość
-Zwraca lub ustawia datę i godzinę, które zastąpią zawartość pól datetime.
+Zwraca lub ustawia datę i godzinę, które zastąpią zawartość pól typu datetime.
             Czas utworzenia tego obiektu Presentation domyślnie.
             Odczyt/zapis **System.DateTime**.
 

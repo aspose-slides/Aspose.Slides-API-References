@@ -1,14 +1,14 @@
 ---
 title: y_value property
-second_title: Aspose.Slides pro Python prostřednictvím .NET API Reference
+second_title: Aspose.Slides pro Python přes .NET - referenční příručka API
 description: 
 type: docs
 url: /cs/aspose.slides.charts/ichartdatapoint/y_value/
-weight: 240
+weight: 280
 ---
 ## y_value vlastnost
-Vrací hodnotu y datového bodu grafu.
-            Pouze pro čtení [`IDoubleChartValue`](/slides/python-net/cs/aspose.slides.charts/idoublechartvalue).
+Získá hodnotu y datového bodu grafu.
+            Pouze ke čtení [`IDoubleChartValue`](/slides/python-net/cs/aspose.slides.charts/idoublechartvalue).
 
 ### Definice:
 ```python

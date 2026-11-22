@@ -4,10 +4,10 @@ second_title: Aspose.Slides for Python via .NET API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides/presentation/comment_authors/
-weight: 140
+weight: 150
 ---
 ## comment_authors プロパティ
-コメント作者のコレクションを返します。
+コメント著者のコレクションを返します。
             読み取り専用 [`ICommentAuthorCollection`](/slides/python-net/ja/aspose.slides/icommentauthorcollection).
 
 ### 定義:

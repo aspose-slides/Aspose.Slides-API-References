@@ -1,10 +1,10 @@
 ---
 title: custom_data property
-second_title: Aspose.Slides dla Pythona via .NET – dokumentacja API
+second_title: Aspose.Slides dla Pythona przy użyciu .NET – dokumentacja API
 description: 
 type: docs
 url: /pl/aspose.slides/presentation/custom_data/
-weight: 160
+weight: 170
 ---
 ## custom_data właściwość
 Zwraca niestandardowe dane prezentacji.

@@ -1,14 +1,14 @@
 ---
 title: protection_manager property
-second_title: Aspose.Slides للـ Python عبر .NET مرجع API
+second_title: مرجع API Aspose.Slides للبايثون عبر .NET
 description: 
 type: docs
 url: /ar/aspose.slides/ipresentation/protection_manager/
-weight: 310
+weight: 320
 ---
-## protection_manager خاصية
+## خاصية protection_manager
 يحصل على مدير الأذونات لهذا العرض. 
-            قراءة فقط [`IProtectionManager`](/slides/python-net/ar/aspose.slides/iprotectionmanager).
+للقراءة فقط [`IProtectionManager`](/slides/python-net/ar/aspose.slides/iprotectionmanager).
 
 ### التعريف:
 ```python
@@ -16,7 +16,6 @@ weight: 310
 def protection_manager(self):
     ...
 ```
-
 
 ### انظر أيضًا
 * فئة [`IPresentation`](/slides/python-net/ar/aspose.slides/ipresentation)

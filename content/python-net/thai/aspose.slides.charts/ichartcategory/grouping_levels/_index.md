@@ -4,13 +4,13 @@ second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Refe
 description: 
 type: docs
 url: /th/aspose.slides.charts/ichartcategory/grouping_levels/
-weight: 40
+weight: 50
 ---
 ## grouping_levels คุณสมบัติ
-คอนเทนเนอร์ที่จัดการค่าของระดับการจัดกลุ่มหมวดหมู่ของแผนภูมิ.
-            หมวดหมู่หลายระดับมีมากกว่าหนึ่งระดับการจัดกลุ่ม.
-            การทำดัชนีระดับการจัดกลุ่มใช้ศูนย์เป็นฐาน.
-            อ่านอย่างเดียว [`IChartCategoryLevelsManager`](/slides/python-net/th/aspose.slides.charts/ichartcategorylevelsmanager).
+Managed container of the values of the chart category grouping levels.
+            Multi-level category contain more then one grouping level.
+            Grouping levels indexing is zero-based.
+            Read-only [`IChartCategoryLevelsManager`](/slides/python-net/th/aspose.slides.charts/ichartcategorylevelsmanager).
 
 ### คำนิยาม:
 ```python

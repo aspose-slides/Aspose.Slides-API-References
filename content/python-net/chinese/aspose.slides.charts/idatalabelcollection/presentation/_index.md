@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API 参考
 description: 
 type: docs
 url: /zh/aspose.slides.charts/idatalabelcollection/presentation/
-weight: 150
+weight: 160
 ---
 ## 演示属性
 ### 定义:
@@ -14,7 +14,7 @@ def presentation(self):
     ...
 ```
 
-### 另请参阅
+### 另见
 * 类 [`IDataLabelCollection`](/slides/python-net/zh/aspose.slides.charts/idatalabelcollection)
 * 模块 [`aspose.slides.charts`](/slides/python-net/zh/aspose.slides.charts)
 * 库 [`Aspose.Slides`](/slides/python-net)

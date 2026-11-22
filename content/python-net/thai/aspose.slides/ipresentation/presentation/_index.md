@@ -1,12 +1,12 @@
 ---
 title: presentation property
-second_title: อ้างอิง API ของ Aspose.Slides สำหรับ Python ผ่าน .NET
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET อ้างอิง API
 description: 
 type: docs
 url: /th/aspose.slides/ipresentation/presentation/
-weight: 300
+weight: 310
 ---
-## คุณสมบัติการนำเสนอ
+## presentation คุณสมบัติ
 ### คำนิยาม:
 ```python
 @property

@@ -4,11 +4,11 @@ second_title: Aspose.Slides for Python via .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides/ipresentation/sections/
-weight: 320
+weight: 330
 ---
 ## sections özelliği
-Sunumda tanımlanan tüm slides sections’un bir listesini döndürür.
-            Yalnızca okuma [`ISectionCollection`](/slides/python-net/tr/aspose.slides/isectioncollection).
+Sunumda tanımlanan tüm slayt bölümlerinin bir listesini döndürür.
+            Salt okunur [`ISectionCollection`](/slides/python-net/tr/aspose.slides/isectioncollection).
 
 ### Tanım:
 ```python

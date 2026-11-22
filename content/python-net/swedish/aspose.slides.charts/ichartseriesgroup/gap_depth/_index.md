@@ -7,8 +7,19 @@ url: /sv/aspose.slides.charts/ichartseriesgroup/gap_depth/
 weight: 100
 ---
 ## gap_depth egenskap
-Returnerar eller anger avståndet, som en procentandel av markörens bredd, mellan dataserierna i ett 3D-diagram.
-Läs/skriv **int**.
+Hämtar eller anger avståndet mellan dataserier i ett 3D-diagram, som en procentsats av markörens bredd.
+            Värdet måste vara mellan 0 och 500.
+            Läs/skriv **int**.
+
+
+### Anmärkningar
+
+Denna egenskap gäller för serier av följande typer:
+            3D stapel- och kolumnsubtyper, 
+            [`ChartType.LINE_3D`](/slides/python-net/sv/aspose.slides.charts/charttype/LINE_3D),
+            [`ChartType.AREA_3D`](/slides/python-net/sv/aspose.slides.charts/charttype/AREA_3D),
+            [`ChartType.STACKED_AREA_3D`](/slides/python-net/sv/aspose.slides.charts/charttype/STACKED_AREA_3D),
+            [`ChartType.PERCENTS_STACKED_AREA_3D`](/slides/python-net/sv/aspose.slides.charts/charttype/PERCENTS_STACKED_AREA_3D).
 
 ### Definition:
 ```python

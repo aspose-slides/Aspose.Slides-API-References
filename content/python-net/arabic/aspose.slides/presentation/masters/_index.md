@@ -1,13 +1,13 @@
 ---
 title: masters property
-second_title: Aspose.Slides للغة بايثون عبر .NET مرجع API
+second_title: Aspose.Slides للبايثون عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides/presentation/masters/
-weight: 290
+weight: 300
 ---
-## masters الخاصية
-يُعيد قائمة بجميع الشرائح الرئيسة التي تم تعريفها في العرض التقديمي.
+## masters خاصية
+إرجاع قائمة بجميع الشرائح الرئيسية التي تم تعريفها في العرض التقديمي.
             للقراءة فقط [`IMasterSlideCollection`](/slides/python-net/ar/aspose.slides/imasterslidecollection).
 
 ### التعريف:
@@ -18,8 +18,8 @@ def masters(self):
 ```
 
 
-### انظر أيضًا
-* الفئة [`IMasterSlideCollection`](/slides/python-net/ar/aspose.slides/imasterslidecollection)
-* الفئة [`Presentation`](/slides/python-net/ar/aspose.slides/presentation)
-* الوحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
-* المكتبة [`Aspose.Slides`](/slides/python-net)
+### انظر أيضاً
+* فئة [`IMasterSlideCollection`](/slides/python-net/ar/aspose.slides/imasterslidecollection)
+* فئة [`Presentation`](/slides/python-net/ar/aspose.slides/presentation)
+* وحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
+* مكتبة [`Aspose.Slides`](/slides/python-net)

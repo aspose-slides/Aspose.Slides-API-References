@@ -4,7 +4,7 @@ second_title: Aspose.Slides för Python via .NET API-referens
 description: 
 type: docs
 url: /sv/aspose.slides.charts/chartdata/embedded_workbook_type/
-weight: 100
+weight: 110
 ---
 ## embedded_workbook_type egenskap
 Hämtar typen av den inbäddade arbetsboken.
@@ -19,8 +19,9 @@ def embedded_workbook_type(self):
     ...
 ```
 
+
 ### Se även
 * klass [`ChartData`](/slides/python-net/sv/aspose.slides.charts/chartdata)
-* uppräkning [`WorkbookType`](/slides/python-net/sv/aspose.slides.charts/workbooktype)
+* enumeration [`WorkbookType`](/slides/python-net/sv/aspose.slides.charts/workbooktype)
 * modul [`aspose.slides.charts`](/slides/python-net/sv/aspose.slides.charts)
 * bibliotek [`Aspose.Slides`](/slides/python-net)

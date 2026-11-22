@@ -1,19 +1,19 @@
 ---
 title: width property
-second_title: Aspose.Slides لبايثون عبر .NET مرجع API
+second_title: Aspose.Slides للبايثون عبر .NET – مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides/videoframe/width/
-weight: 640
+weight: 650
 ---
 ## خاصية width
-الحصول على أو تعيين width للشكلة، مقاسًا بالنقاط.
-            قراءة/كتابة **float**.
+يحصل على أو يضبط عرض الشكل، مقاسًا بالنقاط.
+قراءة/كتابة **float**.
 
 ### ملاحظات
 
-            القيمة التي تم إرجاعها معرفة دائمًا ولا تكون **float**.
-            يجب أن تكون القيمة المعينة معرفة أيضًا؛ عيّن **float** فقط لخصائص كائن `RawFrame`.
+القيمة المرتجعة معرفة دائمًا ولا تكون **float**.
+يجب أن تكون القيمة المعينة معرفة أيضًا؛ عيّن **float** فقط لخصائص كائن `RawFrame` instance.
 
 ### التعريف:
 ```python
@@ -26,7 +26,7 @@ def width(self, value):
     ...
 ```
 
-### انظر أيضا
+### انظر أيضًا
 * فئة [`VideoFrame`](/slides/python-net/ar/aspose.slides/videoframe)
 * وحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
 * مكتبة [`Aspose.Slides`](/slides/python-net)

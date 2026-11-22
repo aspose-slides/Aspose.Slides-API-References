@@ -1,17 +1,15 @@
 ---
 title: use_secondary_categories property
-second_title: Aspose.Slides Pythonhoz a .NET API referencia
+second_title: Aspose.Slides a Pythonhoz a .NET API hivatkozáson keresztül
 description: 
 type: docs
 url: /hu/aspose.slides.charts/ichartdata/use_secondary_categories/
-weight: 150
+weight: 160
 ---
 ## use_secondary_categories tulajdonság
-Ha hamis, akkor [`IChartData.secondary_categories`](/slides/python-net/hu/aspose.slides.charts/ichartdata/secondary_categories) tulajdonság visszaadja a None értéket, és az adat
-            a [`IChartData.categories`](/slides/python-net/hu/aspose.slides.charts/ichartdata/categories) tulajdonságban mind az elsődleges, mind a másodlagos sorozatokhoz használatos.
-            Ha igaz, akkor a [`IChartData.secondary_categories`](/slides/python-net/hu/aspose.slides.charts/ichartdata/secondary_categories) tulajdonságban lévő adat a másodlagos sorozatokhoz,
-            a [`IChartData.categories`](/slides/python-net/hu/aspose.slides.charts/ichartdata/categories) tulajdonságban lévő adat pedig az elsődleges sorozatokhoz használatos.
-            Olvasás/írás **bool**.
+Ha hamis, akkor a [`IChartData.secondary_categories`](/slides/python-net/hu/aspose.slides.charts/ichartdata/secondary_categories) tulajdonság visszaad None értéket, és a [`IChartData.categories`](/slides/python-net/hu/aspose.slides.charts/ichartdata/categories) tulajdonságban lévő adat mind elsődleges, mind másodlagos sorozatokhoz használható.
+Ha true, akkor a [`IChartData.secondary_categories`](/slides/python-net/hu/aspose.slides.charts/ichartdata/secondary_categories) tulajdonságban lévő adat a másodlagos sorozatokhoz, a [`IChartData.categories`](/slides/python-net/hu/aspose.slides.charts/ichartdata/categories) tulajdonságban lévő adat pedig az elsődleges sorozatokhoz használatos.
+Olvasás/írás **bool**.
 
 ### Definíció:
 ```python
@@ -23,7 +21,6 @@ def use_secondary_categories(self):
 def use_secondary_categories(self, value):
     ...
 ```
-
 
 ### Lásd még
 * osztály [`IChartData`](/slides/python-net/hu/aspose.slides.charts/ichartdata)

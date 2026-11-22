@@ -4,10 +4,10 @@ second_title: Referensi API Aspose.Slides untuk Python via .NET
 description: 
 type: docs
 url: /id/aspose.slides/textframe/hyperlink_queries/
-weight: 90
+weight: 100
 ---
 ## hyperlink_queries properti
-Memberikan akses mudah ke hyperlink yang terkandung.
+Menyediakan akses mudah ke hyperlink yang terkandung.
             Hanya-baca [`IHyperlinkQueries`](/slides/python-net/id/aspose.slides/ihyperlinkqueries).
 
 ### Definisi:
@@ -22,4 +22,4 @@ def hyperlink_queries(self):
 * kelas [`IHyperlinkQueries`](/slides/python-net/id/aspose.slides/ihyperlinkqueries)
 * kelas [`TextFrame`](/slides/python-net/id/aspose.slides/textframe)
 * modul [`aspose.slides`](/slides/python-net/id/aspose.slides)
-* perpustakaan [`Aspose.Slides`](/slides/python-net)
+* pustaka [`Aspose.Slides`](/slides/python-net)

@@ -1,13 +1,13 @@
 ---
 title: view_properties property
-second_title: Aspose.Slides pro Python prostřednictvím .NET referenční příručky API
+second_title: Aspose.Slides pro Python prostřednictvím .NET referenční dokumentace API
 description: 
 type: docs
 url: /cs/aspose.slides/ipresentation/view_properties/
-weight: 390
+weight: 400
 ---
-## view_properties property
-Získá vlastnosti zobrazení pro celou prezentaci.
+## view_properties vlastnost
+Získá vlastnosti zobrazení celé prezentace.
             Pouze pro čtení [`IViewProperties`](/slides/python-net/cs/aspose.slides/iviewproperties).
 
 ### Definice:

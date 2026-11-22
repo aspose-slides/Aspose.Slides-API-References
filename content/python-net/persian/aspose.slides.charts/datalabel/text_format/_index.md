@@ -1,14 +1,14 @@
 ---
 title: text_format property
-second_title: Aspose.Slides برای Python از طریق .NET مرجع API
+second_title: Aspose.Slides برای Python از طریق .NET API مرجع
 description: 
 type: docs
 url: /fa/aspose.slides.charts/datalabel/text_format/
-weight: 230
+weight: 240
 ---
-## text_format ویژگی
+## خاصیت text_format
 قالب متن را برمی‌گرداند.
-فقط خواندنی [`IChartTextFormat`](/slides/python-net/fa/aspose.slides.charts/icharttextformat).
+            فقط خواندنی [`IChartTextFormat`](/slides/python-net/fa/aspose.slides.charts/icharttextformat).
 
 ### تعریف:
 ```python
@@ -16,7 +16,6 @@ weight: 230
 def text_format(self):
     ...
 ```
-
 
 ### موارد مرتبط
 * کلاس [`DataLabel`](/slides/python-net/fa/aspose.slides.charts/datalabel)

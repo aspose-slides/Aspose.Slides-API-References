@@ -1,13 +1,13 @@
 ---
 title: chart_data_workbook property
-second_title: Aspose.Slides برای پایتون از طریق .NET، مرجع API
+second_title: Aspose.Slides برای پایتون از طریق .NET مرجع API
 description: 
 type: docs
 url: /fa/aspose.slides.charts/ichartdata/chart_data_workbook/
-weight: 80
+weight: 90
 ---
-## ویژگی chart_data_workbook
-فابریک سلول‌ها را برای ایجاد سلول‌های استفاده‌شده در سری‌ها یا دسته‌های نمودار برمی‌گرداند.
+## chart_data_workbook ویژگی
+فابریک سلول‌ها را برای ایجاد سلول‌هایی که در سری‌ها یا دسته‌های نمودار استفاده می‌شوند، دریافت می‌کند.
             فقط خواندنی [`IChartDataWorkbook`](/slides/python-net/fa/aspose.slides.charts/ichartdataworkbook).
 
 ### تعریف:

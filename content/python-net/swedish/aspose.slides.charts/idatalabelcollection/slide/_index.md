@@ -4,9 +4,9 @@ second_title: Aspose.Slides för Python via .NET API-referens
 description: 
 type: docs
 url: /sv/aspose.slides.charts/idatalabelcollection/slide/
-weight: 160
+weight: 170
 ---
-## slide egenskap
+## bild egenskap
 ### Definition:
 ```python
 @property

@@ -4,11 +4,11 @@ second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides/presentation/master_handout_slide_manager/
-weight: 260
+weight: 270
 ---
 ## master_handout_slide_manager eigenschap
 Retourneert handout master manager.
-            Alleen-lezen [`IMasterHandoutSlideManager`](/slides/python-net/nl/aspose.slides/imasterhandoutslidemanager).
+Alleen-lezen [`IMasterHandoutSlideManager`](/slides/python-net/nl/aspose.slides/imasterhandoutslidemanager).
 
 ### Definitie:
 ```python
@@ -16,7 +16,6 @@ Retourneert handout master manager.
 def master_handout_slide_manager(self):
     ...
 ```
-
 
 ### Zie ook
 * klasse [`IMasterHandoutSlideManager`](/slides/python-net/nl/aspose.slides/imasterhandoutslidemanager)

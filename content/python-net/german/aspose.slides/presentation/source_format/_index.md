@@ -1,14 +1,14 @@
 ---
 title: source_format property
-second_title: Aspose.Slides für Python via .NET API-Referenz
+second_title: Aspose.Slides für Python über .NET API-Referenz
 description: 
 type: docs
 url: /de/aspose.slides/presentation/source_format/
-weight: 380
+weight: 390
 ---
 ## source_format Eigenschaft
 Gibt Informationen darüber zurück, aus welchem Format die Präsentation geladen wurde.
-            Nur-Lesen [`SourceFormat`](/slides/python-net/de/aspose.slides/sourceformat).
+            Nur lesbar [`SourceFormat`](/slides/python-net/de/aspose.slides/sourceformat).
 
 ### Definition:
 ```python
@@ -19,7 +19,7 @@ def source_format(self):
 
 
 ### Siehe auch
-* Klasse [`Presentation`](/slides/python-net/de/aspose.slides/presentation)
-* Aufzählung [`SourceFormat`](/slides/python-net/de/aspose.slides/sourceformat)
-* Modul [`aspose.slides`](/slides/python-net/de/aspose.slides)
-* Bibliothek [`Aspose.Slides`](/slides/python-net)
+* class [`Presentation`](/slides/python-net/de/aspose.slides/presentation)
+* enumeration [`SourceFormat`](/slides/python-net/de/aspose.slides/sourceformat)
+* module [`aspose.slides`](/slides/python-net/de/aspose.slides)
+* library [`Aspose.Slides`](/slides/python-net)

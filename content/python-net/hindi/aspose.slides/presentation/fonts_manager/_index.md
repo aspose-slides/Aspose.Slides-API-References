@@ -1,14 +1,14 @@
 ---
 title: fonts_manager property
-second_title: Aspose.Slides के लिए Python के माध्यम से .NET API संदर्भ
+second_title: Aspose.Slides for Python via .NET API संदर्भ
 description: 
 type: docs
 url: /hi/aspose.slides/presentation/fonts_manager/
-weight: 210
+weight: 220
 ---
 ## fonts_manager प्रॉपर्टी
-Returns फ़ॉन्ट्स मैनेजर.
-            केवल-पढ़ने योग्य [`IFontsManager`](/slides/python-net/hi/aspose.slides/ifontsmanager).
+फ़ॉन्ट्स प्रबंधक को लौटाता है।
+केवल-पढ़ने योग्य [`IFontsManager`](/slides/python-net/hi/aspose.slides/ifontsmanager).
 
 ### परिभाषा:
 ```python
@@ -16,7 +16,6 @@ Returns फ़ॉन्ट्स मैनेजर.
 def fonts_manager(self):
     ...
 ```
-
 
 ### संबंधित देखें
 * क्लास [`IFontsManager`](/slides/python-net/hi/aspose.slides/ifontsmanager)

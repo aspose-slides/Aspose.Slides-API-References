@@ -4,13 +4,13 @@ second_title: Aspose.Slides для Python через .NET справочник A
 description: 
 type: docs
 url: /ru/aspose.slides.charts/ichartdatapoint/is_bubble_3d/
-weight: 160
+weight: 200
 ---
 ## is_bubble_3d свойство
-Указывает, что пузырьки имеют примененный 3-D эффект.
-Чтение/запись **bool**.
+Указывает, что пузырьки имеют применённый к ним 3-D эффект.
+            Чтение/запись **bool**.
 
-### Definition:
+### Определение:
 ```python
 @property
 def is_bubble_3d(self):
@@ -20,6 +20,7 @@ def is_bubble_3d(self):
 def is_bubble_3d(self, value):
     ...
 ```
+
 
 ### См. также
 * класс [`IChartDataPoint`](/slides/python-net/ru/aspose.slides.charts/ichartdatapoint)

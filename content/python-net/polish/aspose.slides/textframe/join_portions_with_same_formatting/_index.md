@@ -1,14 +1,13 @@
 ---
 title: join_portions_with_same_formatting method
-second_title: Aspose.Slides dla Pythona poprzez .NET Referencja API
+second_title: Aspose.Slides dla Pythona przy użyciu .NET – dokumentacja API
 description: 
 type: docs
 url: /pl/aspose.slides/textframe/join_portions_with_same_formatting/
-weight: 30
+weight: 40
 ---
 ## join_portions_with_same_formatting(self) {#}
 Łączy fragmenty o tym samym formatowaniu we wszystkich akapitach.
-
 
 ```python
 def join_portions_with_same_formatting(self):

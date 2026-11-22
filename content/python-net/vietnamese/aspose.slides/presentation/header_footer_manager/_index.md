@@ -1,14 +1,14 @@
 ---
 title: header_footer_manager property
-second_title: Aspose.Slides cho Python qua .NET Tham chiếu API
+second_title: Tham chiếu API Aspose.Slides cho Python qua .NET
 description: 
 type: docs
 url: /vi/aspose.slides/presentation/header_footer_manager/
-weight: 220
+weight: 230
 ---
 ## header_footer_manager thuộc tính
 Trả về trình quản lý HeaderFooter thực tế.
-            chỉ đọc [`IPresentationHeaderFooterManager`](/slides/python-net/vi/aspose.slides/ipresentationheaderfootermanager).
+            Chỉ đọc [`IPresentationHeaderFooterManager`](/slides/python-net/vi/aspose.slides/ipresentationheaderfootermanager).
 
 ### Định nghĩa:
 ```python
@@ -18,8 +18,8 @@ def header_footer_manager(self):
 ```
 
 
-### Xem Thêm
+### Xem thêm
 * lớp [`IPresentationHeaderFooterManager`](/slides/python-net/vi/aspose.slides/ipresentationheaderfootermanager)
 * lớp [`Presentation`](/slides/python-net/vi/aspose.slides/presentation)
 * module [`aspose.slides`](/slides/python-net/vi/aspose.slides)
-* library [`Aspose.Slides`](/slides/python-net)
+* thư viện [`Aspose.Slides`](/slides/python-net)

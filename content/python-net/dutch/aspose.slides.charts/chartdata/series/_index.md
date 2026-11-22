@@ -1,13 +1,13 @@
 ---
 title: series property
-second_title: Aspose.Slides voor Python via .NET API Referentie
+second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides.charts/chartdata/series/
-weight: 130
+weight: 140
 ---
-## serie-eigenschap
-Haalt de serie op.
+## series eigenschap
+Haalt de series op.
             Alleen-lezen [`IChartSeriesCollection`](/slides/python-net/nl/aspose.slides.charts/ichartseriescollection).
 
 ### Definitie:

@@ -1,10 +1,10 @@
 ---
 title: width property
-second_title: Tham chiếu API Aspose.Slides cho Python qua .NET
+second_title: Aspose.Slides cho Python qua API .NET
 description: 
 type: docs
 url: /vi/aspose.slides/ivideoframe/width/
-weight: 620
+weight: 630
 ---
 ## width thuộc tính
 ### Định nghĩa:

@@ -1,14 +1,14 @@
 ---
 title: audios property
-second_title: مرجع API Aspose.Slides للبايثون عبر .NET
+second_title: Aspose.Slides لـ Python عبر .NET مرجع API
 description: 
 type: docs
 url: /ar/aspose.slides/ipresentation/audios/
-weight: 120
+weight: 130
 ---
-## audios خاصية
-يرجع مجموعة جميع ملفات الصوت المضمنة في العرض التقديمي.
-للقراءة فقط [`IAudioCollection`](/slides/python-net/ar/aspose.slides/iaudiocollection).
+## خاصية audios
+إرجاع مجموعة جميع ملفات الصوت المدمجة في العرض التقديمي.
+            قراءة فقط [`IAudioCollection`](/slides/python-net/ar/aspose.slides/iaudiocollection).
 
 ### التعريف:
 ```python

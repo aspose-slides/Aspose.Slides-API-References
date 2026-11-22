@@ -4,11 +4,11 @@ second_title: Aspose.Slides for Python via .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides/ipresentation/first_slide_number/
-weight: 190
+weight: 200
 ---
 ## first_slide_number özelliği
 Sunumda ilk slayt numarasını temsil eder.
-            Okunabilir/Yazılabilir **int**.
+            Okuma/Yazma **int**.
 
 ### Tanım:
 ```python

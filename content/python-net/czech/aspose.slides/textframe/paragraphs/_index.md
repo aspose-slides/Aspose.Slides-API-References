@@ -4,11 +4,11 @@ second_title: Aspose.Slides pro Python přes .NET API Reference
 description: 
 type: docs
 url: /cs/aspose.slides/textframe/paragraphs/
-weight: 100
+weight: 110
 ---
-## paragraphs property
-Vrací seznam všech paragraphs v rámečku.
-            Pouze ke čtení [`IParagraphCollection`](/slides/python-net/cs/aspose.slides/iparagraphcollection).
+## paragraphs vlastnost
+Vrací seznam všech paragraphs v rámu.
+            Pouze pro čtení [`IParagraphCollection`](/slides/python-net/cs/aspose.slides/iparagraphcollection).
 
 ### Definice:
 ```python
@@ -19,7 +19,7 @@ def paragraphs(self):
 
 
 ### Viz také
-* class [`IParagraphCollection`](/slides/python-net/cs/aspose.slides/iparagraphcollection)
-* class [`TextFrame`](/slides/python-net/cs/aspose.slides/textframe)
-* module [`aspose.slides`](/slides/python-net/cs/aspose.slides)
+* třída [`IParagraphCollection`](/slides/python-net/cs/aspose.slides/iparagraphcollection)
+* třída [`TextFrame`](/slides/python-net/cs/aspose.slides/textframe)
+* modul [`aspose.slides`](/slides/python-net/cs/aspose.slides)
 * knihovna [`Aspose.Slides`](/slides/python-net)

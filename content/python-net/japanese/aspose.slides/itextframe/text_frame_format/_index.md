@@ -4,11 +4,11 @@ second_title: Aspose.Slides for Python via .NET API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides/itextframe/text_frame_format/
-weight: 160
+weight: 170
 ---
 ## text_frame_format プロパティ
 この TextFrame オブジェクトの書式設定オブジェクトを返します。
-            読み取り専用 [`ITextFrameFormat`](/slides/python-net/ja/aspose.slides/itextframeformat).
+読み取り専用 [`ITextFrameFormat`](/slides/python-net/ja/aspose.slides/itextframeformat).
 
 ### 定義:
 ```python

@@ -4,10 +4,10 @@ second_title: Aspose.Slides for Python via .NET API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides/itextframe/parent_shape/
-weight: 120
+weight: 130
 ---
 ## parent_shape プロパティ
-親オブジェクトが IShape インターフェイスを実装していない場合、親シェイプまたは None を返します
+親シェイプを返します。親オブジェクトが IShape インターフェイスを実装していない場合は None を返します。
             読み取り専用 [`IShape`](/slides/python-net/ja/aspose.slides/ishape).
 
 ### 定義:

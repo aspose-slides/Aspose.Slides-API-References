@@ -1,6 +1,6 @@
 ---
 title: IPropertyEffect class
-second_title: Aspose.Slides pro Python prostřednictvím .NET referenční příručky API
+second_title: Aspose.Slides pro Python přes .NET API Reference
 description: 
 type: docs
 url: /cs/aspose.slides.animation/ipropertyeffect/
@@ -9,15 +9,15 @@ url: /cs/aspose.slides.animation/ipropertyeffect/
 
 Reprezentuje chování efektu vlastnosti.
 
-Typ IPropertyEffect uvádí následující členy:
+Typ IPropertyEffect obsahuje následující členy:
 
 ## Vlastnosti
 
 | Vlastnost | Popis |
 | :- | :- |
-| [`from_address`](/slides/python-net/cs/aspose.slides.animation/ipropertyeffect/from_address/) | Určuje počáteční hodnotu animace.<br/>            Číst/zapisovat **str**. |
+| [`from_`](/slides/python-net/cs/aspose.slides.animation/ipropertyeffect/from_/) | Určuje počáteční hodnotu animace.<br/>            Číst/zapisovat **str**. |
 | [`to`](/slides/python-net/cs/aspose.slides.animation/ipropertyeffect/to/) | Určuje koncovou hodnotu animace.<br/>            Číst/zapisovat **str**. |
-| [`by`](/slides/python-net/cs/aspose.slides.animation/ipropertyeffect/by/) | Určuje relativní posun hodnoty animace vzhledem k její<br/>            pozici před začátkem animace.<br/>            Číst/zapisovat **str**. |
+| [`by`](/slides/python-net/cs/aspose.slides.animation/ipropertyeffect/by/) | Určuje relativní hodnotu offsetu pro animaci vzhledem k její<br/>            pozici před zahájením animace.<br/>            Číst/zapisovat **str**. |
 | [`value_type`](/slides/python-net/cs/aspose.slides.animation/ipropertyeffect/value_type/) | Určuje typ hodnoty vlastnosti.<br/>            Číst/zapisovat [`PropertyValueType`](/slides/python-net/cs/aspose.slides.animation/propertyvaluetype). |
 | [`calc_mode`](/slides/python-net/cs/aspose.slides.animation/ipropertyeffect/calc_mode/) | Určuje režim interpolace pro animaci<br/>            Číst/zapisovat [`PropertyCalcModeType`](/slides/python-net/cs/aspose.slides.animation/propertycalcmodetype). |
 | [`points`](/slides/python-net/cs/aspose.slides.animation/ipropertyeffect/points/) | Určuje body animace.<br/>            Číst/zapisovat [`IPointCollection`](/slides/python-net/cs/aspose.slides.animation/ipointcollection). |
@@ -25,6 +25,7 @@ Typ IPropertyEffect uvádí následující členy:
 | [`additive`](/slides/python-net/cs/aspose.slides.animation/ipropertyeffect/additive/) |  |
 | [`properties`](/slides/python-net/cs/aspose.slides.animation/ipropertyeffect/properties/) |  |
 | [`timing`](/slides/python-net/cs/aspose.slides.animation/ipropertyeffect/timing/) |  |
+
 
 ### Viz také
 * modul [`aspose.slides.animation`](/slides/python-net/cs/aspose.slides.animation)

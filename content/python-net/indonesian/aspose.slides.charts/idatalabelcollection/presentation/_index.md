@@ -4,16 +4,15 @@ second_title: Referensi API Aspose.Slides untuk Python via .NET
 description: 
 type: docs
 url: /id/aspose.slides.charts/idatalabelcollection/presentation/
-weight: 150
+weight: 160
 ---
-## properti presentasi
+## presentation properti
 ### Definisi:
 ```python
 @property
 def presentation(self):
     ...
 ```
-
 
 ### Lihat Juga
 * kelas [`IDataLabelCollection`](/slides/python-net/id/aspose.slides.charts/idatalabelcollection)

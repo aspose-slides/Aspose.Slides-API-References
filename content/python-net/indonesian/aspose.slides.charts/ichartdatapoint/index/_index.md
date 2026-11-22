@@ -4,10 +4,10 @@ second_title: Aspose.Slides untuk Python via .NET Referensi API
 description: 
 type: docs
 url: /id/aspose.slides.charts/ichartdatapoint/index/
-weight: 140
+weight: 180
 ---
 ## properti index
-Menentukan koleksi anak milik orang tua mana yang diterapkan pada titik data ini.
+Menentukan koleksi anak orang tua mana yang diterapkan pada titik data ini.
             Baca **int**.
 
 ### Definisi:

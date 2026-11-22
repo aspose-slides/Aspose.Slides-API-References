@@ -4,13 +4,13 @@ second_title: Aspose.Slides สำหรับ Python ผ่าน .NET API Refe
 description: 
 type: docs
 url: /th/aspose.slides/ipresentation/videos/
-weight: 380
+weight: 390
 ---
 ## videos คุณสมบัติ
-คืนค่าชุดของไฟล์วิดีโอที่ฝังทั้งหมดในงานนำเสนอ.
+คืนค่าคอลเลกชันของไฟล์วิดีโอที่ฝังอยู่ทั้งหมดในงานนำเสนอ.
             อ่านอย่างเดียว [`IVideoCollection`](/slides/python-net/th/aspose.slides/ivideocollection).
 
-### คำจำกัดความ:
+### คำนิยาม:
 ```python
 @property
 def videos(self):

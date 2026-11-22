@@ -4,10 +4,10 @@ second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides.charts/datalabelcollection/leader_lines_format/
-weight: 130
+weight: 140
 ---
 ## leader_lines_format eigenschap
-Stelt de opmaak van leidende lijnen van gegevenslabels voor.
+Geeft de opmaak van de leidraadlijnen van gegevenslabels weer.
              Alleen-lezen [`IChartLinesFormat`](/slides/python-net/nl/aspose.slides.charts/ichartlinesformat).
 
 ### Definitie:

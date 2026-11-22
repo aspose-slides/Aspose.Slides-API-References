@@ -1,13 +1,13 @@
 ---
 title: notes_size property
-second_title: Aspose.Slides for Python via .NET API Referencia
+second_title: Aspose.Slides a Pythonhoz a .NET API hivatkozás alapján
 description: 
 type: docs
 url: /hu/aspose.slides/presentation/notes_size/
-weight: 300
+weight: 310
 ---
 ## notes_size tulajdonság
-Returns notes slide size object.
+Visszaadja a notes slide size objektumot.
             Csak olvasható [`INotesSize`](/slides/python-net/hu/aspose.slides/inotessize).
 
 ### Definíció:

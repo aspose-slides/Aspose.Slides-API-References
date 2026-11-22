@@ -4,15 +4,20 @@ second_title: Aspose.Slides for Python via .NET API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides.charts/chartcategory/use_cell/
-weight: 50
+weight: 60
 ---
 ## use_cell プロパティ
-true の場合は AsCell プロパティが有効です。言い換えると、ワークシートはカテゴリの保存に使用されます（このケースでは多層カテゴリがサポートされます）。
-false の場合は AsLiteral プロパティが有効です。言い換えると、ワークシートはカテゴリの保存に使用されません（このケースでは多層カテゴリはサポートされません）。
-読み取り専用 **bool**。
+If true then AsCell property is actual. In other words, worksheet is used for 
+            storing category (this case supports a multi-level category).
+            If false then AsLiteral property is actual. In other words, worksheet is NOT used 
+            for storing category (and this case doesn't support a multi-level categories).
+            Read-only **bool**.
+
 
 ### 備考
-このプロパティの値を変更するには（コレクション内のすべてのカテゴリに対して）ChartCategoryCollection.UseCells プロパティに新しい値を設定します。
+
+For change value of this property (for all categories in collection) set new 
+            value to ChartCategoryCollection.UseCells property.
 
 ### 定義:
 ```python
@@ -20,6 +25,7 @@ false の場合は AsLiteral プロパティが有効です。言い換えると
 def use_cell(self):
     ...
 ```
+
 
 ### 参照
 * クラス [`ChartCategory`](/slides/python-net/ja/aspose.slides.charts/chartcategory)

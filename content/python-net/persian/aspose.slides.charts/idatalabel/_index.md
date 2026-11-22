@@ -1,6 +1,6 @@
 ---
 title: IDataLabel class
-second_title: Aspose.Slides برای پایتون از طریق .NET مرجع API
+second_title: Aspose.Slides برای Python از طریق .NET API Reference
 description: 
 type: docs
 url: /fa/aspose.slides.charts/idatalabel/
@@ -9,15 +9,16 @@ url: /fa/aspose.slides.charts/idatalabel/
 
 نمایانگر برچسب‌های سری است.
 
-نوع IDataLabel اعضای زیر را در اختیار می‌گذارد:
+نوع IDataLabel اعضای زیر را ارائه می‌دهد:
 
-## خصوصیات
+## ویژگی‌ها
 
-| ویژگی | توضیح |
+| Property | Description |
 | :- | :- |
-| [`is_visible`](/slides/python-net/fa/aspose.slides.charts/idatalabel/is_visible/) | False به این معنی است که برچسب داده قابل مشاهده نیست (و بنابراین تمام پرچم‌های Show*- (ShowValue, ...) نیز نادرست هستند).<br/>            فقط-خواندنی **bool**. |
-| [`data_label_format`](/slides/python-net/fa/aspose.slides.charts/idatalabel/data_label_format/) | فرمت برچسب داده را برمی‌گرداند.<br/>            فقط-خواندنی [`IDataLabelFormat`](/slides/python-net/fa/aspose.slides.charts/idatalabelformat). |
-| [`value_from_cell`](/slides/python-net/fa/aspose.slides.charts/idatalabel/value_from_cell/) | سلول دادهٔ کتاب‌کار را دریافت یا تنظیم می‌کند. اگر ویژگی IDataLabelFormat.ShowLabelValueFromCell برابر true باشد اعمال می‌شود. |
+| [`is_visible`](/slides/python-net/fa/aspose.slides.charts/idatalabel/is_visible/) | مقدار False به این معنی است که برچسب داده قابل مشاهده نیست (و بنابراین تمام پرچم‌های Show*-flags (ShowValue, ...) برابر با false هستند).<br/>            فقط-خواندنی **bool**. |
+| [`data_label_format`](/slides/python-net/fa/aspose.slides.charts/idatalabel/data_label_format/) | قالب برچسب داده را برمی‌گرداند.<br/>            فقط-خواندنی [`IDataLabelFormat`](/slides/python-net/fa/aspose.slides.charts/idatalabelformat). |
+| [`value_from_cell`](/slides/python-net/fa/aspose.slides.charts/idatalabel/value_from_cell/) | سلول دادهٔ کتاب کار را دریافت یا تنظیم می‌کند. در صورتی که ویژگی IDataLabelFormat.ShowLabelValueFromCell برابر با true باشد اعمال می‌شود. |
+| [`label_shape_type`](/slides/python-net/fa/aspose.slides.charts/idatalabel/label_shape_type/) | نوع شکل برچسب داده را دریافت یا تنظیم می‌کند.<br/>             اگر شکلی تعریف نشده باشد [`ShapeType.NOT_DEFINED`](/slides/python-net/fa/aspose.slides/shapetype/NOT_DEFINED) را برمی‌گرداند. |
 | [`x`](/slides/python-net/fa/aspose.slides.charts/idatalabel/x/) |  |
 | [`y`](/slides/python-net/fa/aspose.slides.charts/idatalabel/y/) |  |
 | [`width`](/slides/python-net/fa/aspose.slides.charts/idatalabel/width/) |  |
@@ -36,12 +37,12 @@ url: /fa/aspose.slides.charts/idatalabel/
 
 ## متدها
 
-| متد | توضیح |
+| Method | Description |
 | :- | :- |
-| [`hide(self)`](/slides/python-net/fa/aspose.slides.charts/idatalabel/hide/#) | برچسب داده را با تنظیم همه پرچم‌های Show*- (ShowValue, ...) به حالت نادرست مخفی می‌کند.<br/>            پس از این IsVisible نادرست خواهد بود. |
+| [`hide(self)`](/slides/python-net/fa/aspose.slides.charts/idatalabel/hide/#) | برچسب داده را با تنظیم تمام پرچم‌های Show*-flags (ShowValue, ...) به حالت false مخفی می‌کند.<br/>            پس از این IsVisible برابر با false خواهد بود. |
 | [`get_actual_label_text(self)`](/slides/python-net/fa/aspose.slides.charts/idatalabel/get_actual_label_text/#) | متن واقعی برچسب را بر اساس تنظیمات DataLabelFormat یا مقدار TextFrameForOverriding.Text برمی‌گرداند. |
 | [`add_text_frame_for_overriding(self, text)`](/slides/python-net/fa/aspose.slides.charts/idatalabel/add_text_frame_for_overriding/#str) |  |
 
-### مراجع مرتبط
+### موارد مرتبط
 * ماژول [`aspose.slides.charts`](/slides/python-net/fa/aspose.slides.charts)
 * کتابخانه [`Aspose.Slides`](/slides/python-net)

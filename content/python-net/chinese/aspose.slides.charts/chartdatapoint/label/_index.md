@@ -4,13 +4,13 @@ second_title: Aspose.Slides for Python via .NET API 参考
 description: 
 type: docs
 url: /zh/aspose.slides.charts/chartdatapoint/label/
-weight: 170
+weight: 210
 ---
-## 标签属性
-标签。
+## label 属性
+Label.
             只读 [`IDataLabel`](/slides/python-net/zh/aspose.slides.charts/idatalabel).
 
-### 定义：
+### 定义:
 ```python
 @property
 def label(self):
@@ -18,7 +18,7 @@ def label(self):
 ```
 
 
-### 另见
+### 另请参见
 * 类 [`ChartDataPoint`](/slides/python-net/zh/aspose.slides.charts/chartdatapoint)
 * 类 [`IDataLabel`](/slides/python-net/zh/aspose.slides.charts/idatalabel)
 * 模块 [`aspose.slides.charts`](/slides/python-net/zh/aspose.slides.charts)

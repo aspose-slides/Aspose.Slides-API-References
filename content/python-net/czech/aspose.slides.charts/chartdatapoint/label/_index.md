@@ -4,7 +4,7 @@ second_title: Aspose.Slides pro Python prostřednictvím .NET API Reference
 description: 
 type: docs
 url: /cs/aspose.slides.charts/chartdatapoint/label/
-weight: 170
+weight: 210
 ---
 ## label vlastnost
 Popisek.

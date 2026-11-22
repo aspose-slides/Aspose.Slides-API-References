@@ -1,13 +1,13 @@
 ---
 title: slide_size property
-second_title: Aspose.Slides 用於 Python 透過 .NET API 參考
+second_title: Aspose.Slides for Python via .NET API 參考文件
 description: 
 type: docs
 url: /zh-hant/aspose.slides/ipresentation/slide_size/
-weight: 340
+weight: 350
 ---
 ## slide_size 屬性
-傳回投影片大小物件.
+回傳投影片大小物件。
             唯讀 [`ISlideSize`](/slides/python-net/zh-hant/aspose.slides/islidesize).
 
 ### 定義:

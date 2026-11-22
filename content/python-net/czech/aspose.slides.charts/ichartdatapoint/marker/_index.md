@@ -1,14 +1,14 @@
 ---
 title: marker property
-second_title: Aspose.Slides pro Python prostřednictvím .NET API Reference
+second_title: Aspose.Slides pro Python pomocí .NET API Reference
 description: 
 type: docs
 url: /cs/aspose.slides.charts/ichartdatapoint/marker/
-weight: 180
+weight: 220
 ---
-## Vlastnost značky
-Určuje datovou značku.
-            Pouze ke čtení [`IMarker`](/slides/python-net/cs/aspose.slides.charts/imarker).
+## vlastnost markeru
+Specifies a data marker.
+            Pouze pro čtení [`IMarker`](/slides/python-net/cs/aspose.slides.charts/imarker).
 
 ### Definice:
 ```python

@@ -1,31 +1,32 @@
 ---
 title: IVideoFrame class
-second_title: Aspose.Slides برای Python از طریق .NET API Reference
+second_title: Aspose.Slides برای پایتون از طریق .NET مرجع API
 description: 
 type: docs
 url: /fa/aspose.slides/ivideoframe/
 ---
-## کلاس IVideoFrame
+## IVideoFrame کلاس
 
-نمایانگر یک کلیپ ویدئویی بر روی اسلاید است.
+یک کلیپ ویدئویی را بر روی اسلاید نشان می‌دهد.
 
-نوع IVideoFrame اعضای زیر را در اختیار می‌گذارد:
+نوع IVideoFrame اعضای زیر را ارائه می‌دهد:
 
-## خصوصیات
+## ویژگی‌ها
 
-| Property | Description |
+| ویژگی | توضیح |
 | :- | :- |
-| [`rewind_video`](/slides/python-net/fa/aspose.slides/ivideoframe/rewind_video/) | تعیین می‌کند که آیا ویدئو به‌صورت خودکار به شروع بازگردد<br/>            به‌محض این‌که فیلم پخش شدن خود را تمام کند.<br/>            قابل خواندن/نوشتن **bool**. |
-| [`play_loop_mode`](/slides/python-net/fa/aspose.slides/ivideoframe/play_loop_mode/) | تعیین می‌کند که آیا ویدئو به‌صورت حلقه‌ای پخش شود.<br/>            قابل خواندن/نوشتن **bool**. |
-| [`hide_at_showing`](/slides/python-net/fa/aspose.slides/ivideoframe/hide_at_showing/) | تعیین می‌کند که آیا VideoFrame مخفی باشد.<br/>            قابل خواندن/نوشتن **bool**. |
-| [`volume`](/slides/python-net/fa/aspose.slides/ivideoframe/volume/) | مقدار یا تنظیم حجم صدا.<br/>            قابل خواندن/نوشتن [`AudioVolumeMode`](/slides/python-net/fa/aspose.slides/audiovolumemode). |
-| [`play_mode`](/slides/python-net/fa/aspose.slides/ivideoframe/play_mode/) | مقدار یا تنظیم حالت پخش ویدئو.<br/>            قابل خواندن/نوشتن [`VideoPlayModePreset`](/slides/python-net/fa/aspose.slides/videoplaymodepreset). |
-| [`full_screen_mode`](/slides/python-net/fa/aspose.slides/ivideoframe/full_screen_mode/) | تعیین می‌کند که آیا ویدئو در حالت تمام‌صفحه نمایش داده شود.<br/>            قابل خواندن/نوشتن **bool**. |
-| [`link_path_long`](/slides/python-net/fa/aspose.slides/ivideoframe/link_path_long/) | مقدار یا تنظیم نام فایل ویدئویی که به VideoFrame لینک شده است.<br/>            قابل خواندن/نوشتن **str**. |
-| [`embedded_video`](/slides/python-net/fa/aspose.slides/ivideoframe/embedded_video/) | مقدار یا تنظیم شیء ویدئوی توکار.<br/>            قابل خواندن/نوشتن [`IVideo`](/slides/python-net/fa/aspose.slides/ivideo). |
-| [`trim_from_start`](/slides/python-net/fa/aspose.slides/ivideoframe/trim_from_start/) | شروع برش [ms] |
-| [`trim_from_end`](/slides/python-net/fa/aspose.slides/ivideoframe/trim_from_end/) | پایان برش [ms] |
-| [`caption_tracks`](/slides/python-net/fa/aspose.slides/ivideoframe/caption_tracks/) | دریافت مجموعه زیرنویس‌های بسته به فریم صوتی.<br/>             این خصوصیت فقط-خواندنی است و یک [`ICaptionsCollection`](/slides/python-net/fa/aspose.slides/icaptionscollection) حاوی تمام مسیرهای زیرنویس را بر می‌گرداند. |
+| [`rewind_video`](/slides/python-net/fa/aspose.slides/ivideoframe/rewind_video/) | تعیین می‌کند آیا ویدئو به‌صورت خودکار بازگردانده شود تا به شروع<br/>            به محض اینکه فیلم پخش شد.<br/>            خواندنی/نوشتنی **bool**. |
+| [`play_loop_mode`](/slides/python-net/fa/aspose.slides/ivideoframe/play_loop_mode/) | تعیین می‌کند آیا ویدئو به‌صورت حلقه‌ای پخش می‌شود.<br/>            خواندنی/نوشتنی **bool**. |
+| [`hide_at_showing`](/slides/python-net/fa/aspose.slides/ivideoframe/hide_at_showing/) | تعیین می‌کند آیا VideoFrame مخفی باشد.<br/>            خواندنی/نوشتنی **bool**. |
+| [`volume`](/slides/python-net/fa/aspose.slides/ivideoframe/volume/) | مقدار یا تنظیم حجم صدا.<br/>            خواندنی/نوشتنی [`AudioVolumeMode`](/slides/python-net/fa/aspose.slides/audiovolumemode). |
+| [`volume_value`](/slides/python-net/fa/aspose.slides/ivideoframe/volume_value/) | مقدار یا تنظیم دقیق حجم ویدئو به‌صورت درصد.<br/>             مقدار به‌صورت درصد از ۰ تا ۱۰۰ بیان می‌شود. از این ویژگی برای خواندن یا تنظیم مقادیر حجمی که دقیق‌تر از سطوح پیش‌تعریف‌شدهٔ موجود از طریق ویژگی [`IVideoFrame.volume`](/slides/python-net/fa/aspose.slides/ivideoframe/volume) هستند، استفاده کنید.<br/>             خواندنی/نوشتنی **float**. |
+| [`play_mode`](/slides/python-net/fa/aspose.slides/ivideoframe/play_mode/) | مقدار یا تنظیم حالت پخش ویدئو.<br/>            خواندنی/نوشتنی [`VideoPlayModePreset`](/slides/python-net/fa/aspose.slides/videoplaymodepreset). |
+| [`full_screen_mode`](/slides/python-net/fa/aspose.slides/ivideoframe/full_screen_mode/) | تعیین می‌کند آیا ویدئو در حالت تمام‌صفحه نمایش داده شود.<br/>            خواندنی/نوشتنی **bool**. |
+| [`link_path_long`](/slides/python-net/fa/aspose.slides/ivideoframe/link_path_long/) | مقدار یا تنظیم نام فایل ویدئویی که به یک VideoFrame مرتبط است.<br/>            خواندنی/نوشتنی **str**. |
+| [`embedded_video`](/slides/python-net/fa/aspose.slides/ivideoframe/embedded_video/) | مقدار یا تنظیم شیء ویدئوی توکار.<br/>            خواندنی/نوشتنی [`IVideo`](/slides/python-net/fa/aspose.slides/ivideo). |
+| [`trim_from_start`](/slides/python-net/fa/aspose.slides/ivideoframe/trim_from_start/) | مدت برش شروع [ms] |
+| [`trim_from_end`](/slides/python-net/fa/aspose.slides/ivideoframe/trim_from_end/) | مدت برش پایان [ms] |
+| [`caption_tracks`](/slides/python-net/fa/aspose.slides/ivideoframe/caption_tracks/) | مجموعهٔ زیرنویس‌های بسته‌ شده مرتبط با فریم صوتی را دریافت می‌کند.<br/>             این ویژگی فقط-خواندنی است و یک [`ICaptionsCollection`](/slides/python-net/fa/aspose.slides/icaptionscollection) شامل تمام مسیرهای زیرنویس برمی‌گرداند. |
 | [`shape_lock`](/slides/python-net/fa/aspose.slides/ivideoframe/shape_lock/) |  |
 | [`picture_frame_lock`](/slides/python-net/fa/aspose.slides/ivideoframe/picture_frame_lock/) |  |
 | [`picture_format`](/slides/python-net/fa/aspose.slides/ivideoframe/picture_format/) |  |
@@ -68,7 +69,7 @@ url: /fa/aspose.slides/ivideoframe/
 
 ## متدها
 
-| Method | Description |
+| متد | توضیح |
 | :- | :- |
 | [`get_image(self)`](/slides/python-net/fa/aspose.slides/ivideoframe/get_image/#) |  |
 | [`get_image(self, bounds, scale_x, scale_y)`](/slides/python-net/fa/aspose.slides/ivideoframe/get_image/#shapethumbnailbounds-float-float) |  |
@@ -81,7 +82,6 @@ url: /fa/aspose.slides/ivideoframe/
 | [`add_placeholder(self, placeholder_to_copy_from)`](/slides/python-net/fa/aspose.slides/ivideoframe/add_placeholder/#iplaceholder) |  |
 | [`remove_placeholder(self)`](/slides/python-net/fa/aspose.slides/ivideoframe/remove_placeholder/#) |  |
 | [`get_base_placeholder(self)`](/slides/python-net/fa/aspose.slides/ivideoframe/get_base_placeholder/#) |  |
-
 
 ### موارد مرتبط
 * ماژول [`aspose.slides`](/slides/python-net/fa/aspose.slides)

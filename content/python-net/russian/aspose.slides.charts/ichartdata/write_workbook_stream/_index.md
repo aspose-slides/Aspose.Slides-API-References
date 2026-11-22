@@ -4,22 +4,19 @@ second_title: Aspose.Slides для Python через .NET справочник A
 description: 
 type: docs
 url: /ru/aspose.slides.charts/ichartdata/write_workbook_stream/
-weight: 60
+weight: 70
 ---
 ## write_workbook_stream(self, ms) {#iorawiobase}
-Инициализирует внутреннюю содержащуюся в объекте книгу Excel со значением, заданным пользователем.
-
+Инициализирует внутреннюю книгу Excel значением, указанным пользователем.
 
 ```python
 def write_workbook_stream(self, ms):
     ...
 ```
 
-
 | Параметр | Тип | Описание |
 | :- | :- | :- |
 | ms | **io.RawIOBase** | Поток, предоставленный пользователем, содержащий всю книгу Excel. |
-
 
 ### См. также
 * класс [`IChartData`](/slides/python-net/ru/aspose.slides.charts/ichartdata)

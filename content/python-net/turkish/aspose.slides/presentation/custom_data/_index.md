@@ -4,10 +4,10 @@ second_title: Aspose.Slides for Python via .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides/presentation/custom_data/
-weight: 160
+weight: 170
 ---
 ## custom_data özelliği
-Sunumun özel verisini döndürür.
+Sunumun özel verilerini döndürür.
             Salt okunur [`ICustomData`](/slides/python-net/tr/aspose.slides/icustomdata).
 
 ### Tanım:

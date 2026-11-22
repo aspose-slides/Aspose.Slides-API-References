@@ -1,14 +1,14 @@
 ---
 title: color_value property
-second_title: Aspose.Slides لبايثون عبر .NET مرجع API
+second_title: مرجع API Aspose.Slides للبايثون عبر .NET
 description: 
 type: docs
 url: /ar/aspose.slides.charts/chartdatapoint/color_value/
-weight: 90
+weight: 130
 ---
-## color_value خاصية
+## خاصية color_value
 يرجع قيمة اللون لنقطة بيانات المخطط.
-            يُستخدم مع مخططات الخريطة. 
+            يستخدم مع مخططات الخريطة. 
             للقراءة فقط [`IDoubleChartValue`](/slides/python-net/ar/aspose.slides.charts/idoublechartvalue).
 
 ### التعريف:

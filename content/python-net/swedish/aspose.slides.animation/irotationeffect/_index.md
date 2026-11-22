@@ -15,9 +15,9 @@ IRotationEffect-typen exponerar följande medlemmar:
 
 | Egenskap | Beskrivning |
 | :- | :- |
-| [`from_address`](/slides/python-net/sv/aspose.slides.animation/irotationeffect/from_address/) | Beskriver startvärdet för animationen.<br/>            Läs/skriv **float**. |
+| [`from_`](/slides/python-net/sv/aspose.slides.animation/irotationeffect/from_/) | Beskriver startvärdet för animationen.<br/>            Läs/skriv **float**. |
 | [`to`](/slides/python-net/sv/aspose.slides.animation/irotationeffect/to/) | Beskriver slutvärdet för animationen.<br/>            Läs/skriv **float**. |
-| [`by`](/slides/python-net/sv/aspose.slides.animation/irotationeffect/by/) | Beskriver det relativa offsetvärdet för animationen.<br/>            Läs/skriv **float**. |
+| [`by`](/slides/python-net/sv/aspose.slides.animation/irotationeffect/by/) | Beskriver det relativa förskjutningsvärdet för animationen.<br/>            Läs/skriv **float**. |
 | [`accumulate`](/slides/python-net/sv/aspose.slides.animation/irotationeffect/accumulate/) |  |
 | [`additive`](/slides/python-net/sv/aspose.slides.animation/irotationeffect/additive/) |  |
 | [`properties`](/slides/python-net/sv/aspose.slides.animation/irotationeffect/properties/) |  |

@@ -4,13 +4,13 @@ second_title: Aspose.Slides for Python via .NET API 参考
 description: 
 type: docs
 url: /zh/aspose.slides.charts/ichartdatapoint/explosion/
-weight: 120
+weight: 160
 ---
 ## explosion 属性
 指定数据点应从饼图中心移动的距离。
-            读/写 **int**.
+            读取/写入 **int**.
 
-### 定义:
+### Definition:
 ```python
 @property
 def explosion(self):

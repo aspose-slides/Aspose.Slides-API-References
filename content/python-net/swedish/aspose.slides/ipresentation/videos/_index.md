@@ -4,11 +4,11 @@ second_title: Aspose.Slides för Python via .NET API-referens
 description: 
 type: docs
 url: /sv/aspose.slides/ipresentation/videos/
-weight: 380
+weight: 390
 ---
 ## videos egenskap
-Returns the collection of all embedded video files in the presentation.
-            Skrivskyddad [`IVideoCollection`](/slides/python-net/sv/aspose.slides/ivideocollection).
+Returnerar samlingen av alla inbäddade videofiler i presentationen.
+Skrivskyddad [`IVideoCollection`](/slides/python-net/sv/aspose.slides/ivideocollection).
 
 ### Definition:
 ```python
@@ -16,7 +16,6 @@ Returns the collection of all embedded video files in the presentation.
 def videos(self):
     ...
 ```
-
 
 ### Se även
 * klass [`IPresentation`](/slides/python-net/sv/aspose.slides/ipresentation)

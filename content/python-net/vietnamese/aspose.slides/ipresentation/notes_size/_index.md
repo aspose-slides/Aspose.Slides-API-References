@@ -1,14 +1,14 @@
 ---
 title: notes_size property
-second_title: Aspose.Slides cho Python qua .NET Tham chiếu API
+second_title: Tham khảo API Aspose.Slides cho Python qua .NET
 description: 
 type: docs
 url: /vi/aspose.slides/ipresentation/notes_size/
-weight: 290
+weight: 300
 ---
 ## notes_size thuộc tính
-Returns notes slide size object.
-            Chỉ đọc [`INotesSize`](/slides/python-net/vi/aspose.slides/inotessize).
+Trả về đối tượng kích thước slide ghi chú.
+Chỉ đọc [`INotesSize`](/slides/python-net/vi/aspose.slides/inotessize).
 
 ### Định nghĩa:
 ```python
@@ -21,5 +21,5 @@ def notes_size(self):
 ### Xem thêm
 * lớp [`INotesSize`](/slides/python-net/vi/aspose.slides/inotessize)
 * lớp [`IPresentation`](/slides/python-net/vi/aspose.slides/ipresentation)
-* mô-đun [`aspose.slides`](/slides/python-net/vi/aspose.slides)
+* module [`aspose.slides`](/slides/python-net/vi/aspose.slides)
 * thư viện [`Aspose.Slides`](/slides/python-net)

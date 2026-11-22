@@ -1,14 +1,14 @@
 ---
 title: marker property
-second_title: Aspose.Slides for Python via .NET API 레퍼런스
+second_title: Aspose.Slides for Python을 통한 .NET API 참조
 description: 
 type: docs
 url: /ko/aspose.slides.charts/ichartdatapoint/marker/
-weight: 180
+weight: 220
 ---
 ## 마커 속성
 데이터 마커를 지정합니다.
-읽기 전용 [`IMarker`](/slides/python-net/ko/aspose.slides.charts/imarker).
+            읽기 전용 [`IMarker`](/slides/python-net/ko/aspose.slides.charts/imarker).
 
 ### 정의:
 ```python

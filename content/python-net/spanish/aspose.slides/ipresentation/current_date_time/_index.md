@@ -1,10 +1,10 @@
 ---
 title: current_date_time property
-second_title: Referencia de la API de Aspose.Slides para Python vía .NET
+second_title: Aspose.Slides para Python vía .NET API
 description: 
 type: docs
 url: /es/aspose.slides/ipresentation/current_date_time/
-weight: 140
+weight: 150
 ---
 ## current_date_time propiedad
 Devuelve o establece la fecha y hora que sustituirá el contenido de los campos datetime.
@@ -21,6 +21,7 @@ def current_date_time(self):
 def current_date_time(self, value):
     ...
 ```
+
 
 ### Ver también
 * clase [`IPresentation`](/slides/python-net/es/aspose.slides/ipresentation)

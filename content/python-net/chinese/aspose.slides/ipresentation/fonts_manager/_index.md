@@ -1,13 +1,13 @@
 ---
 title: fonts_manager property
-second_title: Aspose.Slides for Python via .NET API 参考
+second_title: Aspose.Slides 用于 Python 通过 .NET API 参考
 description: 
 type: docs
 url: /zh/aspose.slides/ipresentation/fonts_manager/
-weight: 200
+weight: 210
 ---
 ## fonts_manager 属性
-返回 fonts manager.
+Returns fonts manager.
             只读 [`IFontsManager`](/slides/python-net/zh/aspose.slides/ifontsmanager).
 
 ### 定义：
@@ -16,6 +16,7 @@ weight: 200
 def fonts_manager(self):
     ...
 ```
+
 
 ### 另见
 * 类 [`IFontsManager`](/slides/python-net/zh/aspose.slides/ifontsmanager)

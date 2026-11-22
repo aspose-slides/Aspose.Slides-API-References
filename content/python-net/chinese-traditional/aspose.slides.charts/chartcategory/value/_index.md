@@ -1,15 +1,15 @@
 ---
 title: value property
-second_title: Aspose.Slides for Python via .NET API 參考文件
+second_title: Aspose.Slides for Python via .NET API 參考
 description: 
 type: docs
 url: /zh-hant/aspose.slides.charts/chartcategory/value/
-weight: 60
+weight: 70
 ---
-## value 屬性
+## 值屬性
 If UseCell is true then this property represents AsCell.Value property.
-            如果 UseCell 為 false，則此屬性代表 AsLiteral 屬性。
-            讀/寫 **任何**。
+            If UseCell is false then this property represents AsLiteral property.
+            讀/寫 **任何**.
 
 ### 定義：
 ```python
@@ -22,7 +22,8 @@ def value(self, value):
     ...
 ```
 
-### 另請參閱
+
+### 另見
 * 類別 [`ChartCategory`](/slides/python-net/zh-hant/aspose.slides.charts/chartcategory)
 * 模組 [`aspose.slides.charts`](/slides/python-net/zh-hant/aspose.slides.charts)
-* 程式庫 [`Aspose.Slides`](/slides/python-net)
+* 函式庫 [`Aspose.Slides`](/slides/python-net)

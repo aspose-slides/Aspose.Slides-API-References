@@ -1,13 +1,13 @@
 ---
 title: slide_show_settings property
-second_title: Aspose.Slides pro Python přes .NET API Reference
+second_title: Aspose.Slides pro Python přes .NET API referenci
 description: 
 type: docs
 url: /cs/aspose.slides/presentation/slide_show_settings/
-weight: 350
+weight: 360
 ---
-## slide_show_settings vlastnost
-Vrací nastavení promítání pro prezentaci.
+## slide_show_settings property
+Vrací nastavení promítání snímků pro prezentaci.
 
 ### Definice:
 ```python

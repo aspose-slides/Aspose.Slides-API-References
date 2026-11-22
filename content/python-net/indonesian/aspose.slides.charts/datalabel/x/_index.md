@@ -4,10 +4,10 @@ second_title: Aspose.Slides untuk Python via .NET Referensi API
 description: 
 type: docs
 url: /id/aspose.slides.charts/datalabel/x/
-weight: 270
+weight: 280
 ---
 ## x properti
-Mengembalikan atau mengatur koordinat x dari judul sebagai fraksi lebar grafik.
+Mengembalikan atau mengatur koordinat x suatu judul sebagai pecahan lebar diagram.
             Baca/tulis **float**.
 
 ### Definisi:
@@ -20,7 +20,6 @@ def x(self):
 def x(self, value):
     ...
 ```
-
 
 ### Lihat Juga
 * kelas [`DataLabel`](/slides/python-net/id/aspose.slides.charts/datalabel)

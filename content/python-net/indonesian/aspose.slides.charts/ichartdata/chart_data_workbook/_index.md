@@ -1,13 +1,13 @@
 ---
 title: chart_data_workbook property
-second_title: Aspose.Slides untuk Python via .NET API Referensi
+second_title: Referensi API Aspose.Slides untuk Python via .NET
 description: 
 type: docs
 url: /id/aspose.slides.charts/ichartdata/chart_data_workbook/
-weight: 80
+weight: 90
 ---
 ## chart_data_workbook properti
-Mendapatkan pabrik sel untuk membuat sel yang digunakan untuk seri atau kategori chart.
+Mendapatkan pabrik sel untuk membuat sel yang digunakan untuk seri diagram atau kategori.
             Hanya-baca [`IChartDataWorkbook`](/slides/python-net/id/aspose.slides.charts/ichartdataworkbook).
 
 ### Definisi:
@@ -22,4 +22,4 @@ def chart_data_workbook(self):
 * kelas [`IChartData`](/slides/python-net/id/aspose.slides.charts/ichartdata)
 * kelas [`IChartDataWorkbook`](/slides/python-net/id/aspose.slides.charts/ichartdataworkbook)
 * modul [`aspose.slides.charts`](/slides/python-net/id/aspose.slides.charts)
-* pustaka [`Aspose.Slides`](/slides/python-net)
+* perpustakaan [`Aspose.Slides`](/slides/python-net)

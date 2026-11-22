@@ -4,10 +4,10 @@ second_title: Aspose.Slides för Python via .NET API-referens
 description: 
 type: docs
 url: /sv/aspose.slides.charts/chartdatapoint/explosion/
-weight: 120
+weight: 160
 ---
-## explosionsegenskap
-Anger mängden datapunkten ska flyttas från mitten av pajen.
+## explosionegenskap
+Anger mängden som datapunkten ska flyttas från mitten av cirkeldiagrammet.
             Läs/skriv **int**.
 
 ### Definition:

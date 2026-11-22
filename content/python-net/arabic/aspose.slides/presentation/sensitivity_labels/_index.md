@@ -1,14 +1,14 @@
 ---
 title: sensitivity_labels property
-second_title: Aspose.Slides لبايثون عبر .NET مرجع API
+second_title: مرجع API لـ Aspose.Slides لـ Python عبر .NET
 description: 
 type: docs
 url: /ar/aspose.slides/presentation/sensitivity_labels/
-weight: 340
+weight: 350
 ---
-## sensitivity_labels الخاصية
-يرجع مجموعة من تسميات الحساسية المطبقة على مستند العرض التقديمي.
-            قراءة فقط [`ISensitivityLabelCollection`](/slides/python-net/ar/aspose.slides/isensitivitylabelcollection).
+## sensitivity_labels خاصية
+يعيد مجموعة تصنيفات الحساسية المطبقة على مستند العرض التقديمي.
+            للقراءة فقط [`ISensitivityLabelCollection`](/slides/python-net/ar/aspose.slides/isensitivitylabelcollection).
 
 ### التعريف:
 ```python
@@ -18,7 +18,7 @@ def sensitivity_labels(self):
 ```
 
 ### انظر أيضًا
-* الفئة [`ISensitivityLabelCollection`](/slides/python-net/ar/aspose.slides/isensitivitylabelcollection)
-* الفئة [`Presentation`](/slides/python-net/ar/aspose.slides/presentation)
-* الوحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
-* المكتبة [`Aspose.Slides`](/slides/python-net)
+* فئة [`ISensitivityLabelCollection`](/slides/python-net/ar/aspose.slides/isensitivitylabelcollection)
+* فئة [`Presentation`](/slides/python-net/ar/aspose.slides/presentation)
+* وحدة [`aspose.slides`](/slides/python-net/ar/aspose.slides)
+* مكتبة [`Aspose.Slides`](/slides/python-net)

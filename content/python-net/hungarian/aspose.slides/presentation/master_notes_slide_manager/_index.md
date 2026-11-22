@@ -1,13 +1,13 @@
 ---
 title: master_notes_slide_manager property
-second_title: Aspose.Slides Pythonhoz .NET API hivatkozás
+second_title: Aspose.Slides a Pythonhoz a .NET API referencia
 description: 
 type: docs
 url: /hu/aspose.slides/presentation/master_notes_slide_manager/
-weight: 270
+weight: 280
 ---
 ## master_notes_slide_manager tulajdonság
-Visszaadja a jegyzetek fő kezelőjét.
+Visszaadja a jegyzetek főkezelőjét.
             Csak olvasható [`IMasterNotesSlideManager`](/slides/python-net/hu/aspose.slides/imasternotesslidemanager).
 
 ### Definíció:

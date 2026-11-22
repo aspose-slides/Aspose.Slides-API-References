@@ -1,19 +1,19 @@
 ---
 title: width property
-second_title: Aspose.Slides Pythonhoz a .NET API hivatkozás
+second_title: Aspose.Slides a Pythonhoz .NET-en keresztül API referenciája
 description: 
 type: docs
 url: /hu/aspose.slides/videoframe/width/
-weight: 640
+weight: 650
 ---
 ## width tulajdonság
 A shape szélességét adja vissza vagy állítja be, pontokban mérve.
-            Read/write **float**.
+Read/write **float**.
 
-### Megjegyzés
+### Megjegyzések
 
 A visszaadott érték mindig definiált, és soha nem **float**.
-            **float**-ot csak egy `RawFrame` példány tulajdonságaihoz lehet hozzárendelni.
+A hozzárendelt értéknek is definiáltnak kell lennie; csak a `RawFrame` példány tulajdonságaihoz kell **float**-t hozzárendelni.
 
 ### Definíció:
 ```python

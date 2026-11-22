@@ -1,13 +1,14 @@
 ---
 title: value property
-second_title: Aspose.Slides for Python via .NET API 參考文件
+second_title: Aspose.Slides 用於 Python via .NET API 參考
 description: 
 type: docs
 url: /zh-hant/aspose.slides.charts/ichartdatapoint/value/
-weight: 220
+weight: 260
 ---
-## 值屬性
-返回圖表資料點的值。唯讀 [`IDoubleChartValue`](/slides/python-net/zh-hant/aspose.slides.charts/idoublechartvalue).
+## value 屬性
+Gets the value of a chart data point.
+            唯讀 [`IDoubleChartValue`](/slides/python-net/zh-hant/aspose.slides.charts/idoublechartvalue).
 
 ### 定義:
 ```python

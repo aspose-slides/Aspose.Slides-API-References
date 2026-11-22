@@ -1,24 +1,22 @@
 ---
 title: set_external_workbook method
-second_title: Aspose.Slides Pythonhoz .NET API-referencia
+second_title: Aspose.Slides Pythonhoz .NET-en keresztül API Referencia
 description: 
 type: docs
 url: /hu/aspose.slides.charts/ichartdata/set_external_workbook/
-weight: 30
+weight: 40
 ---
 ## set_external_workbook(self, workbook_path) {#str}
-Külső munkafüzetet állít be adatforrásként a diagramhoz. A diagram adatai a célmunkafüzetből frissülnek.
-
+Beállítja a külső munkafüzetet adatforrásként a diagramhoz. A diagram adatai a célmunkafüzetből lesznek frissítve.
 
 ```python
 def set_external_workbook(self, workbook_path):
     ...
 ```
 
-
 | Paraméter | Típus | Leírás |
 | :- | :- | :- |
-| workbook_path | **str** | A célmunkafüzet elérési útja |
+| workbook_path | **str** | Az elérési út a célmunkafüzethez |
 
 ### Kivételek
 
@@ -26,29 +24,24 @@ def set_external_workbook(self, workbook_path):
 | :- | :- |
 | **RuntimeError(Proxy error(InvalidOperationException))** | A külső munkafüzet nem érhető el, vagy nem tölthető be. |
 
-
 ## set_external_workbook(self, workbook_path, update_chart_data) {#str-bool}
-Külső munkafüzetet állít be adatforrásként a diagramhoz.
-
+Beállítja a külső munkafüzetet adatforrásként a diagramhoz.
 
 ```python
 def set_external_workbook(self, workbook_path, update_chart_data):
     ...
 ```
 
-
 | Paraméter | Típus | Leírás |
 | :- | :- | :- |
-| workbook_path | **str** | A célmunkafüzet elérési útja |
-| update_chart_data | **bool** | Ha az érték hamis, csak a munkafüzet útvonala frissül. <br/><br/>             A diagram adatai nem lesznek betöltve és frissítve a célmunkafüzetből. Akkor használható, ha a célmunkafüzet nem létezik vagy nem érhető el.<br/><br/>             Ha az érték igaz, a diagram adatai frissülnek a célmunkafüzetből. |
+| workbook_path | **str** | Az elérési út a célmunkafüzethez |
+| update_chart_data | **bool** | Ha az érték hamis, csak a munkafüzet útvonala frissül. <br/><br/>             A diagram adatai nem lesznek betöltve és frissítve a célmunkafüzettől. Akkor használható, ha a célmunkafüzet nem létezik vagy nem érhető el.<br/><br/>             Ha az érték igaz, a diagram adatai a célmunkafüzettől lesznek frissítve. |
 
 ### Kivételek
 
 | Kivétel | Leírás |
 | :- | :- |
 | **RuntimeError(Proxy error(InvalidOperationException))** | A külső munkafüzet nem érhető el, vagy nem tölthető be. |
-
-
 
 ### Lásd még
 * osztály [`IChartData`](/slides/python-net/hu/aspose.slides.charts/ichartdata)

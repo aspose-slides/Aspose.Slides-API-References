@@ -1,13 +1,13 @@
 ---
 title: set_as_total property
-second_title: Aspose.Slides cho Python qua .NET Tham chiếu API
+second_title: Aspose.Slides cho Python thông qua .NET API Reference
 description: 
 type: docs
 url: /vi/aspose.slides.charts/ichartdatapoint/set_as_total/
-weight: 200
+weight: 240
 ---
 ## set_as_total thuộc tính
-Đặt điểm dữ liệu làm tổng. Chỉ áp dụng cho loại series Waterfall.
+Đặt điểm dữ liệu làm tổng. Chỉ áp dụng cho kiểu chuỗi Waterfall.
 
 ### Định nghĩa:
 ```python
@@ -19,6 +19,7 @@ def set_as_total(self):
 def set_as_total(self, value):
     ...
 ```
+
 
 ### Xem thêm
 * lớp [`IChartDataPoint`](/slides/python-net/vi/aspose.slides.charts/ichartdatapoint)

@@ -4,10 +4,10 @@ second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
 description: 
 type: docs
 url: /el/aspose.slides/presentation/save/
-weight: 90
+weight: 100
 ---
 ## save(self, options) {#asposeslidesexportxamlixamloptions}
-Αποθηκεύει όλες τις διαφάνειες μιας παρουσίασης σε ένα σύνολο αρχείων που αντιπροσωπεύουν σήμανση XAML markup.
+Αποθηκεύει όλες τις διαφάνειες μιας παρουσίασης σε ένα σύνολο αρχείων που αντιπροσωπεύουν σήμανση XAML.
 
 
 ```python
@@ -22,7 +22,7 @@ def save(self, options):
 
 
 ## save(self, fname, format) {#str-asposeslidesexportsaveformat}
-Αποθηκεύει όλες τις διαφάνειες μιας παρουσίασης σε αρχείο με την καθορισμένη μορφή.
+Αποθηκεύει όλες τις διαφάνειες μιας παρουσίασης σε ένα αρχείο με το καθορισμένο μορφότυπο.
 
 
 ```python
@@ -33,12 +33,12 @@ def save(self, fname, format):
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | :- | :- | :- |
-| fname | **str** | Διαδρομή του δημιουργημένου αρχείου. |
-| format | [`SaveFormat`](/slides/python-net/el/aspose.slides.export/saveformat) | Μορφή των εξαχθέντων δεδομένων. |
+| fname | **str** | Διαδρομή προς το δημιουργημένο αρχείο. |
+| format | [`SaveFormat`](/slides/python-net/el/aspose.slides.export/saveformat) | Μορφή των εξαγόμενων δεδομένων. |
 
 
 ## save(self, stream, format) {#iorawiobase-asposeslidesexportsaveformat}
-Αποθηκεύει όλες τις διαφάνειες μιας παρουσίασης σε ροή με την καθορισμένη μορφή.
+Αποθηκεύει όλες τις διαφάνειες μιας παρουσίασης σε ροή με το καθορισμένο μορφότυπο.
 
 
 ```python
@@ -50,10 +50,11 @@ def save(self, stream, format):
 | Παράμετρος | Τύπος | Περιγραφή |
 | :- | :- | :- |
 | stream | **io.RawIOBase** | Ροή εξόδου. |
-| format | [`SaveFormat`](/slides/python-net/el/aspose.slides.export/saveformat) | Μορφή των εξαχθέντων δεδομένων. |
+| format | [`SaveFormat`](/slides/python-net/el/aspose.slides.export/saveformat) | Μορφή των εξαγόμενων δεδομένων. |
 
 
 ## save(self, fname, format, options) {#str-asposeslidesexportsaveformat-asposeslidesexportisaveoptions}
+
 
 
 ```python
@@ -70,7 +71,7 @@ def save(self, fname, format, options):
 
 
 ## save(self, stream, format, options) {#iorawiobase-asposeslidesexportsaveformat-asposeslidesexportisaveoptions}
-Αποθηκεύει όλες τις διαφάνειες μιας παρουσίασης σε ροή με την καθορισμένη μορφή και με επιπρόσθετες επιλογές.
+Αποθηκεύει όλες τις διαφάνειες μιας παρουσίασης σε ροή με το καθορισμένο μορφότυπο και με πρόσθετες επιλογές.
 
 
 ```python
@@ -82,18 +83,18 @@ def save(self, stream, format, options):
 | Παράμετρος | Τύπος | Περιγραφή |
 | :- | :- | :- |
 | stream | **io.RawIOBase** | Ροή εξόδου. |
-| format | [`SaveFormat`](/slides/python-net/el/aspose.slides.export/saveformat) | Μορφή των εξαχθέντων δεδομένων. |
-| options | [`ISaveOptions`](/slides/python-net/el/aspose.slides.export/isaveoptions) | Επιπρόσθετες επιλογές μορφής. |
+| format | [`SaveFormat`](/slides/python-net/el/aspose.slides.export/saveformat) | Μορφή των εξαγόμενων δεδομένων. |
+| options | [`ISaveOptions`](/slides/python-net/el/aspose.slides.export/isaveoptions) | Επιπλέον επιλογές μορφής. |
 
 ### Εξαιρέσεις
 
-| Exception | Description |
+| Εξαίρεση | Περιγραφή |
 | :- | :- |
-| **RuntimeError(Proxy error(NotSupportedException))** | If you try to save encrypted file in <br/>            none Office 2007-2010 format |
+| **RuntimeError(Proxy error(NotSupportedException))** | Εάν προσπαθήσετε να αποθηκεύσετε κρυπτογραφημένο αρχείο σε <br/>            μορφή εκτός Office 2007-2010 |
 
 
 ## save(self, fname, slides, format) {#str-listint-asposeslidesexportsaveformat}
-Αποθηκεύει τις καθορισμένες διαφάνειες μιας παρουσίασης σε αρχείο με την καθορισμένη μορφή διατηρώντας τον αριθμό σελίδας.
+Αποθηκεύει τις καθορισμένες διαφάνειες μιας παρουσίασης σε ένα αρχείο με το καθορισμένο μορφότυπο διατηρώντας τον αριθμό της σελίδας.
 
 
 ```python
@@ -104,13 +105,13 @@ def save(self, fname, slides, format):
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | :- | :- | :- |
-| fname | **str** | Διαδρομή του δημιουργημένου αρχείου. |
-| slides | **List[int]** | Πίνακας με τις θέσεις των διαφανειών, ξεκινώντας από 1. |
-| format | [`SaveFormat`](/slides/python-net/el/aspose.slides.export/saveformat) | Μορφή των εξαχθέντων δεδομένων. |
+| fname | **str** | Διαδρομή προς το δημιουργημένο αρχείο. |
+| slides | **List[int]** | Πίνακας με θέσεις διαφανειών, ξεκινώντας από το 1. |
+| format | [`SaveFormat`](/slides/python-net/el/aspose.slides.export/saveformat) | Μορφή των εξαγόμενων δεδομένων. |
 
 ### Εξαιρέσεις
 
-| Exception | Description |
+| Εξαίρεση | Περιγραφή |
 | :- | :- |
 | **RuntimeError(Proxy error(ArgumentNullException))** | Όταν η παράμετρος stream ή slides είναι None. |
 | **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Όταν η παράμετρος slides περιέχει λανθασμένους αριθμούς σελίδας. |
@@ -118,7 +119,7 @@ def save(self, fname, slides, format):
 
 
 ## save(self, stream, slides, format) {#iorawiobase-listint-asposeslidesexportsaveformat}
-Αποθηκεύει τις καθορισμένες διαφάνειες μιας παρουσίασης σε ροή με την καθορισμένη μορφή διατηρώντας τον αριθμό σελίδας.
+Αποθηκεύει τις καθορισμένες διαφάνειες μιας παρουσίασης σε ροή με το καθορισμένο μορφότυπο διατηρώντας τον αριθμό της σελίδας.
 
 
 ```python
@@ -130,12 +131,12 @@ def save(self, stream, slides, format):
 | Παράμετρος | Τύπος | Περιγραφή |
 | :- | :- | :- |
 | stream | **io.RawIOBase** | Ροή εξόδου. |
-| slides | **List[int]** | Πίνακας με τις θέσεις των διαφανειών, ξεκινώντας από 1. |
-| format | [`SaveFormat`](/slides/python-net/el/aspose.slides.export/saveformat) | Μορφή των εξαχθέντων δεδομένων. |
+| slides | **List[int]** | Πίνακας με θέσεις διαφανειών, ξεκινώντας από το 1. |
+| format | [`SaveFormat`](/slides/python-net/el/aspose.slides.export/saveformat) | Μορφή των εξαγόμενων δεδομένων. |
 
 
 ## save(self, fname, slides, format, options) {#str-listint-asposeslidesexportsaveformat-asposeslidesexportisaveoptions}
-Αποθηκεύει τις καθορισμένες διαφάνειες μιας παρουσίασης σε αρχείο με την καθορισμένη μορφή διατηρώντας τον αριθμό σελίδας.
+Αποθηκεύει τις καθορισμένες διαφάνειες μιας παρουσίασης σε ένα αρχείο με το καθορισμένο μορφότυπο διατηρώντας τον αριθμό της σελίδας.
 
 
 ```python
@@ -146,14 +147,14 @@ def save(self, fname, slides, format, options):
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | :- | :- | :- |
-| fname | **str** | Διαδρομή του δημιουργημένου αρχείου. |
-| slides | **List[int]** | Πίνακας με τις θέσεις των διαφανειών, ξεκινώντας από 1. |
-| format | [`SaveFormat`](/slides/python-net/el/aspose.slides.export/saveformat) | Μορφή των εξαχθέντων δεδομένων. |
-| options | [`ISaveOptions`](/slides/python-net/el/aspose.slides.export/isaveoptions) | Επιπρόσθετες επιλογές μορφής. |
+| fname | **str** | Διαδρομή προς το δημιουργημένο αρχείο. |
+| slides | **List[int]** | Πίνακας με θέσεις διαφανειών, ξεκινώντας από το 1. |
+| format | [`SaveFormat`](/slides/python-net/el/aspose.slides.export/saveformat) | Μορφή των εξαγόμενων δεδομένων. |
+| options | [`ISaveOptions`](/slides/python-net/el/aspose.slides.export/isaveoptions) | Επιπλέον επιλογές μορφής. |
 
 
 ## save(self, stream, slides, format, options) {#iorawiobase-listint-asposeslidesexportsaveformat-asposeslidesexportisaveoptions}
-Αποθηκεύει τις καθορισμένες διαφάνειες μιας παρουσίασης σε ροή με την καθορισμένη μορφή διατηρώντας τον αριθμό σελίδας.
+Αποθηκεύει τις καθορισμένες διαφάνειες μιας παρουσίασης σε ροή με το καθορισμένο μορφότυπο διατηρώντας τον αριθμό της σελίδας.
 
 
 ```python
@@ -165,13 +166,13 @@ def save(self, stream, slides, format, options):
 | Παράμετρος | Τύπος | Περιγραφή |
 | :- | :- | :- |
 | stream | **io.RawIOBase** | Ροή εξόδου. |
-| slides | **List[int]** | Πίνακας με τις θέσεις των διαφανειών, ξεκινώντας από 1. |
-| format | [`SaveFormat`](/slides/python-net/el/aspose.slides.export/saveformat) | Μορφή των εξαχθέντων δεδομένων. |
-| options | [`ISaveOptions`](/slides/python-net/el/aspose.slides.export/isaveoptions) | Επιπρόσθετες επιλογές μορφής. |
+| slides | **List[int]** | Πίνακας με θέσεις διαφανειών, ξεκινώντας από το 1. |
+| format | [`SaveFormat`](/slides/python-net/el/aspose.slides.export/saveformat) | Μορφή των εξαγόμενων δεδομένων. |
+| options | [`ISaveOptions`](/slides/python-net/el/aspose.slides.export/isaveoptions) | Επιπλέον επιλογές μορφής. |
 
 ### Εξαιρέσεις
 
-| Exception | Description |
+| Εξαίρεση | Περιγραφή |
 | :- | :- |
 | **RuntimeError(Proxy error(ArgumentNullException))** | Όταν η παράμετρος stream ή slides είναι None. |
 | **RuntimeError(Proxy error(ArgumentOutOfRangeException))** | Όταν η παράμετρος slides περιέχει λανθασμένους αριθμούς σελίδας. |

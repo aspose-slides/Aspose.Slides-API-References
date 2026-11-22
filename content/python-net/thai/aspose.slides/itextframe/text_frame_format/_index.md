@@ -1,14 +1,14 @@
 ---
 title: text_frame_format property
-second_title: Aspose.Slides สำหรับ Python ผ่าน .NET เอกสารอ้างอิง API
+second_title: Aspose.Slides สำหรับ Python ผ่าน .NET อ้างอิง API
 description: 
 type: docs
 url: /th/aspose.slides/itextframe/text_frame_format/
-weight: 160
+weight: 170
 ---
 ## text_frame_format คุณสมบัติ
-ส่งคืนวัตถุการจัดรูปแบบสำหรับวัตถุ TextFrame นี้.
-            อ่านอย่างเดียว [`ITextFrameFormat`](/slides/python-net/th/aspose.slides/itextframeformat).
+ส่งคืนอ็อบเจ็กต์การจัดรูปแบบสำหรับวัตถุ TextFrame นี้.
+อ่านอย่างเดียว [`ITextFrameFormat`](/slides/python-net/th/aspose.slides/itextframeformat).
 
 ### คำนิยาม:
 ```python

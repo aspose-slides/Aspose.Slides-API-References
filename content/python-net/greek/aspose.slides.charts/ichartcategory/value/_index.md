@@ -1,15 +1,15 @@
 ---
 title: value property
-second_title: Aspose.Slides για Python μέσω .NET API Αναφορά
+second_title: Aspose.Slides για Python μέσω .NET Αναφορά API
 description: 
 type: docs
 url: /el/aspose.slides.charts/ichartcategory/value/
-weight: 60
+weight: 70
 ---
-## Ιδιότητα value
+## ιδιότητα τιμής
 If UseCell is true then this property represents AsCell.Value property.
             If UseCell is false then this property represents AsLiteral property.
-            Read/write **any**.
+            Ανάγνωση/εγγραφή **οποιοδήποτε**.
 
 ### Ορισμός:
 ```python

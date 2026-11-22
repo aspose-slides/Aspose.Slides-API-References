@@ -1,10 +1,10 @@
 ---
 title: format property
-second_title: Aspose.Slides dla Pythona za pośrednictwem .NET – dokumentacja API
+second_title: Aspose.Slides dla Pythona poprzez .NET Referencję API
 description: 
 type: docs
 url: /pl/aspose.slides.charts/ichartdatapoint/format/
-weight: 130
+weight: 170
 ---
 ## format właściwość
 Reprezentuje właściwości formatowania.

@@ -4,10 +4,10 @@ second_title: Aspose.Slides for Python via .NET API 레퍼런스
 description: 
 type: docs
 url: /ko/aspose.slides.charts/ichartdatapoint/set_as_total/
-weight: 200
+weight: 240
 ---
 ## set_as_total 속성
-데이터 포인트를 총계로 설정합니다. Waterfall 시리즈 유형에만 적용됩니다.
+데이터 포인트를 합계로 설정합니다. Waterfall 시리즈 유형에만 적용됩니다.
 
 ### 정의:
 ```python

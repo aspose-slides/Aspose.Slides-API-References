@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides/presentation/replace_text/
-weight: 80
+weight: 90
 ---
 ## replace_text(self, old_text, new_text, options, callback) {#str-str-itextsearchoptions-ifindresultcallback}
 Belirtilen metnin tüm oluşumlarını başka bir belirtilen metinle değiştirir.
@@ -19,9 +19,9 @@ def replace_text(self, old_text, new_text, options, callback):
 | old_text | **str** | Değiştirilecek dize. |
 | new_text | **str** | oldText'in tüm oluşumlarını değiştirecek dize. |
 | options | [`ITextSearchOptions`](/slides/python-net/tr/aspose.slides/itextsearchoptions) | Metin arama seçenekleri [`ITextSearchOptions`](/slides/python-net/tr/aspose.slides/itextsearchoptions). |
-| callback | [`IFindResultCallback`](/slides/python-net/tr/aspose.slides/ifindresultcallback) | Arama sonuçlarını almak için kullanılan geri çağırma nesnesi [`IFindResultCallback`](/slides/python-net/tr/aspose.slides/ifindresultcallback). |
+| callback | [`IFindResultCallback`](/slides/python-net/tr/aspose.slides/ifindresultcallback) | Arama sonuçlarını almak için geri çağırma nesnesi [`IFindResultCallback`](/slides/python-net/tr/aspose.slides/ifindresultcallback). |
 
-### Diğer Bilgiler
+### İlgili
 * sınıf [`IFindResultCallback`](/slides/python-net/tr/aspose.slides/ifindresultcallback)
 * sınıf [`ITextSearchOptions`](/slides/python-net/tr/aspose.slides/itextsearchoptions)
 * sınıf [`Presentation`](/slides/python-net/tr/aspose.slides/presentation)

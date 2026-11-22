@@ -7,17 +7,18 @@ url: /ko/aspose.slides.charts/idatalabel/
 ---
 ## IDataLabel 클래스
 
-시리즈 라벨을 나타냅니다.
+시리즈 레이블을 나타냅니다.
 
 IDataLabel 형식은 다음 멤버를 노출합니다:
 
 ## 속성
 
-| 속성 | 설명 |
+| Property | Description |
 | :- | :- |
-| [`is_visible`](/slides/python-net/ko/aspose.slides.charts/idatalabel/is_visible/) | False는 데이터 라벨이 보이지 않음을 의미합니다(따라서 모든 Show*-플래그(ShowValue, ...)가 false입니다).<br/>            읽기 전용 **bool**. |
-| [`data_label_format`](/slides/python-net/ko/aspose.slides.charts/idatalabel/data_label_format/) | 데이터 라벨의 형식을 반환합니다.<br/>            읽기 전용 [`IDataLabelFormat`](/slides/python-net/ko/aspose.slides.charts/idatalabelformat). |
-| [`value_from_cell`](/slides/python-net/ko/aspose.slides.charts/idatalabel/value_from_cell/) | 워크북 데이터 셀을 가져오거나 설정합니다. IDataLabelFormat.ShowLabelValueFromCell 속성이 true인 경우에 적용됩니다. |
+| [`is_visible`](/slides/python-net/ko/aspose.slides.charts/idatalabel/is_visible/) | False는 데이터 레이블이 보이지 않음을 의미합니다 (따라서 모든 Show*-플래그 (ShowValue, ...)가 false가 됩니다).<br/>            읽기 전용 **bool**. |
+| [`data_label_format`](/slides/python-net/ko/aspose.slides.charts/idatalabel/data_label_format/) | 데이터 레이블의 형식을 반환합니다.<br/>            읽기 전용 [`IDataLabelFormat`](/slides/python-net/ko/aspose.slides.charts/idatalabelformat). |
+| [`value_from_cell`](/slides/python-net/ko/aspose.slides.charts/idatalabel/value_from_cell/) | 워크북 데이터 셀을 가져오거나 설정합니다. IDataLabelFormat.ShowLabelValueFromCell 속성이 true인 경우 적용됩니다. |
+| [`label_shape_type`](/slides/python-net/ko/aspose.slides.charts/idatalabel/label_shape_type/) | 데이터 레이블의 모양 유형을 가져오거나 설정합니다.<br/>             모양이 정의되지 않은 경우 [`ShapeType.NOT_DEFINED`](/slides/python-net/ko/aspose.slides/shapetype/NOT_DEFINED)를 반환합니다. |
 | [`x`](/slides/python-net/ko/aspose.slides.charts/idatalabel/x/) |  |
 | [`y`](/slides/python-net/ko/aspose.slides.charts/idatalabel/y/) |  |
 | [`width`](/slides/python-net/ko/aspose.slides.charts/idatalabel/width/) |  |
@@ -36,12 +37,12 @@ IDataLabel 형식은 다음 멤버를 노출합니다:
 
 ## 메서드
 
-| 메서드 | 설명 |
+| Method | Description |
 | :- | :- |
-| [`hide(self)`](/slides/python-net/ko/aspose.slides.charts/idatalabel/hide/#) | 모든 Show*-플래그(ShowValue, ...)를 false 상태로 설정하여 데이터 라벨을 숨깁니다.<br/>            이 후 IsVisible는 false가 됩니다. |
-| [`get_actual_label_text(self)`](/slides/python-net/ko/aspose.slides.charts/idatalabel/get_actual_label_text/#) | DataLabelFormat 설정 또는 TextFrameForOverriding.Text 값에 기반하여 실제 라벨 텍스트를 반환합니다. |
+| [`hide(self)`](/slides/python-net/ko/aspose.slides.charts/idatalabel/hide/#) | 모든 Show*-플래그 (ShowValue, ...)를 false 상태로 설정하여 데이터 레이블을 숨깁니다.<br/>            이 후 IsVisible는 false가 됩니다. |
+| [`get_actual_label_text(self)`](/slides/python-net/ko/aspose.slides.charts/idatalabel/get_actual_label_text/#) | DataLabelFormat 설정 또는 TextFrameForOverriding.Text 값을 기반으로 실제 레이블 텍스트를 반환합니다. |
 | [`add_text_frame_for_overriding(self, text)`](/slides/python-net/ko/aspose.slides.charts/idatalabel/add_text_frame_for_overriding/#str) |  |
 
-### 참조
+### 또 보기
 * 모듈 [`aspose.slides.charts`](/slides/python-net/ko/aspose.slides.charts)
 * 라이브러리 [`Aspose.Slides`](/slides/python-net)

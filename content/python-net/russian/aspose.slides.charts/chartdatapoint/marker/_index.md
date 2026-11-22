@@ -4,9 +4,9 @@ second_title: Aspose.Slides для Python через .NET справочник A
 description: 
 type: docs
 url: /ru/aspose.slides.charts/chartdatapoint/marker/
-weight: 180
+weight: 220
 ---
-## marker свойство
+## свойство marker
 Указывает маркер данных.
             Только для чтения [`IMarker`](/slides/python-net/ru/aspose.slides.charts/imarker).
 

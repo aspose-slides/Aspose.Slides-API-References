@@ -4,17 +4,17 @@ second_title: Aspose.Slides for Python via .NET API Referansı
 description: 
 type: docs
 url: /tr/aspose.slides.charts/ichartdatapoint/related_legend_entry/
-weight: 190
+weight: 230
 ---
 ## related_legend_entry özelliği
-Bu listeden bir grafik türü durumunda ilgili açıklama girişi özellikleri:
+Bu listedeki grafik türlerinden birinin durumunda ilgili efsane girişinin özellikleri:
             ChartType.BarOfPie,
             ChartType.ExplodedPie,
             ChartType.ExplodedPie3D,
             ChartType.Pie,
             ChartType.Pie3D,
             ChartType.PieOfPie.
-            Salt okunur [`ILegendEntryProperties`](/slides/python-net/tr/aspose.slides.charts/ilegendentryproperties).
+            Yalnızca okuma [`ILegendEntryProperties`](/slides/python-net/tr/aspose.slides.charts/ilegendentryproperties).
 
 ### Tanım:
 ```python

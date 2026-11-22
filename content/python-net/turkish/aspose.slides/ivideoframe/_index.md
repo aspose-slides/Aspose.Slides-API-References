@@ -7,25 +7,26 @@ url: /tr/aspose.slides/ivideoframe/
 ---
 ## IVideoFrame sınıfı
 
-Bir slayttaki video klibi temsil eder.
+Slaytta bir video klibi temsil eder.
 
-IVideoFrame türü aşağıdaki üyeleri ortaya çıkarır:
+IVideoFrame türü aşağıdaki üyeleri sunar:
 
 ## Özellikler
 
 | Özellik | Açıklama |
 | :- | :- |
-| [`rewind_video`](/slides/python-net/tr/aspose.slides/ivideoframe/rewind_video/) | Bir video, film oynatması bittiğinde otomatik olarak başa sarılıp sarılmayacağını belirler.<br/>            Okuma/yazma **bool**. |
-| [`play_loop_mode`](/slides/python-net/tr/aspose.slides/ivideoframe/play_loop_mode/) | Bir videonun döngüde olup olmayacağını belirler.<br/>            Okuma/yazma **bool**. |
-| [`hide_at_showing`](/slides/python-net/tr/aspose.slides/ivideoframe/hide_at_showing/) | Bir VideoFrame'in gizli olup olmayacağını belirler.<br/>            Okuma/yazma **bool**. |
-| [`volume`](/slides/python-net/tr/aspose.slides/ivideoframe/volume/) | Ses seviyesini alır veya ayarlar.<br/>            Okuma/yazma [`AudioVolumeMode`](/slides/python-net/tr/aspose.slides/audiovolumemode). |
-| [`play_mode`](/slides/python-net/tr/aspose.slides/ivideoframe/play_mode/) | Video oynatma modunu alır veya ayarlar.<br/>            Okuma/yazma [`VideoPlayModePreset`](/slides/python-net/tr/aspose.slides/videoplaymodepreset). |
+| [`rewind_video`](/slides/python-net/tr/aspose.slides/ivideoframe/rewind_video/) | Bir videonun film oynatmayı bitirdikten hemen sonra otomatik olarak başlangıca geri sarılıp sarılmayacağını belirler<br/>            Okuma/yazma **bool**. |
+| [`play_loop_mode`](/slides/python-net/tr/aspose.slides/ivideoframe/play_loop_mode/) | Bir videonun döngüde olup olmadığını belirler.<br/>            Okuma/yazma **bool**. |
+| [`hide_at_showing`](/slides/python-net/tr/aspose.slides/ivideoframe/hide_at_showing/) | Bir VideoFrame'in gizli olup olmadığını belirler.<br/>            Okuma/yazma **bool**. |
+| [`volume`](/slides/python-net/tr/aspose.slides/ivideoframe/volume/) | Ses hacmini döndürür veya ayarlar.<br/>            Okuma/yazma [`AudioVolumeMode`](/slides/python-net/tr/aspose.slides/audiovolumemode). |
+| [`volume_value`](/slides/python-net/tr/aspose.slides/ivideoframe/volume_value/) | Video hacminin tam değerini yüzde olarak döndürür veya ayarlar.<br/>             Değer 0 ile 100 arasında yüzde olarak ifade edilir. Bu özelliği<br/>             önceden tanımlı [`IVideoFrame.volume`](/slides/python-net/tr/aspose.slides/ivideoframe/volume) özelliği aracılığıyla mevcut seviyelerden daha hassas ses değerlerini okumak veya ayarlamak için kullanın.<br/>             Okuma/yazma **float**. |
+| [`play_mode`](/slides/python-net/tr/aspose.slides/ivideoframe/play_mode/) | Video oynatma modunu döndürür veya ayarlar.<br/>            Okuma/yazma [`VideoPlayModePreset`](/slides/python-net/tr/aspose.slides/videoplaymodepreset). |
 | [`full_screen_mode`](/slides/python-net/tr/aspose.slides/ivideoframe/full_screen_mode/) | Bir videonun tam ekran modunda gösterilip gösterilmeyeceğini belirler.<br/>            Okuma/yazma **bool**. |
-| [`link_path_long`](/slides/python-net/tr/aspose.slides/ivideoframe/link_path_long/) | VideoFrame ile ilişkilendirilmiş bir video dosyasının adını alır veya ayarlar.<br/>            Okuma/yazma **str**. |
-| [`embedded_video`](/slides/python-net/tr/aspose.slides/ivideoframe/embedded_video/) | Gömülü video nesnesini alır veya ayarlar.<br/>            Okuma/yazma [`IVideo`](/slides/python-net/tr/aspose.slides/ivideo). |
-| [`trim_from_start`](/slides/python-net/tr/aspose.slides/ivideoframe/trim_from_start/) | Başlangıç kırpma [ms] |
-| [`trim_from_end`](/slides/python-net/tr/aspose.slides/ivideoframe/trim_from_end/) | Bitiş kırpma [ms] |
-| [`caption_tracks`](/slides/python-net/tr/aspose.slides/ivideoframe/caption_tracks/) | Ses çerçevesiyle ilişkili kapanış altyazılarını içeren koleksiyonu alır.<br/>             Bu özellik yalnızca okunabilir ve tüm altyazı izlerini içeren bir [`ICaptionsCollection`](/slides/python-net/tr/aspose.slides/icaptionscollection) döndürür. |
+| [`link_path_long`](/slides/python-net/tr/aspose.slides/ivideoframe/link_path_long/) | Bir VideoFrame'e bağlanan video dosyasının adını döndürür veya ayarlar.<br/>            Okuma/yazma **str**. |
+| [`embedded_video`](/slides/python-net/tr/aspose.slides/ivideoframe/embedded_video/) | Gömülü video nesnesini döndürür veya ayarlar.<br/>            Okuma/yazma [`IVideo`](/slides/python-net/tr/aspose.slides/ivideo). |
+| [`trim_from_start`](/slides/python-net/tr/aspose.slides/ivideoframe/trim_from_start/) | Kesme başlangıcı [ms] |
+| [`trim_from_end`](/slides/python-net/tr/aspose.slides/ivideoframe/trim_from_end/) | Kesme sonu [ms] |
+| [`caption_tracks`](/slides/python-net/tr/aspose.slides/ivideoframe/caption_tracks/) | Ses çerçevesiyle ilişkilendirilmiş kapalı altyazıların koleksiyonunu alır.<br/>             Bu özelliğin yalnızca okunabilir ve tüm altyazı izlerini içeren bir [`ICaptionsCollection`](/slides/python-net/tr/aspose.slides/icaptionscollection) döndürür. |
 | [`shape_lock`](/slides/python-net/tr/aspose.slides/ivideoframe/shape_lock/) |  |
 | [`picture_frame_lock`](/slides/python-net/tr/aspose.slides/ivideoframe/picture_frame_lock/) |  |
 | [`picture_format`](/slides/python-net/tr/aspose.slides/ivideoframe/picture_format/) |  |
@@ -82,6 +83,6 @@ IVideoFrame türü aşağıdaki üyeleri ortaya çıkarır:
 | [`remove_placeholder(self)`](/slides/python-net/tr/aspose.slides/ivideoframe/remove_placeholder/#) |  |
 | [`get_base_placeholder(self)`](/slides/python-net/tr/aspose.slides/ivideoframe/get_base_placeholder/#) |  |
 
-### Ayrıca Bakınız
+### Bakınız
 * modül [`aspose.slides`](/slides/python-net/tr/aspose.slides)
 * kütüphane [`Aspose.Slides`](/slides/python-net)

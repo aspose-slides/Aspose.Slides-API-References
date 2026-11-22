@@ -4,11 +4,11 @@ second_title: Aspose.Slides voor Python via .NET API-referentie
 description: 
 type: docs
 url: /nl/aspose.slides/itextframe/text/
-weight: 150
+weight: 160
 ---
-## tekst eigenschap
-Haalt de platte tekst op of stelt deze in voor een TextFrame.
-            Lezen/schrijven **str**.
+## text eigenschap
+Haalt op of stelt de platte tekst voor een TextFrame in.
+            Lezen/Schrijven **str**.
 
 ### Definitie:
 ```python

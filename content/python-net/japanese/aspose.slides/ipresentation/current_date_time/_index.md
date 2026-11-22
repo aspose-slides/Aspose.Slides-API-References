@@ -4,12 +4,12 @@ second_title: Aspose.Slides for Python via .NET API リファレンス
 description: 
 type: docs
 url: /ja/aspose.slides/ipresentation/current_date_time/
-weight: 140
+weight: 150
 ---
 ## current_date_time プロパティ
 datetime フィールドの内容を置き換える日付と時刻を取得または設定します。
-            デフォルトでは、この Presentation オブジェクトの作成時刻です。
-            読み書き **System.DateTime**。
+デフォルトでは、この Presentation オブジェクトの作成時刻です。
+読み取り/書き込み **System.DateTime**。
 
 ### 定義:
 ```python
@@ -25,4 +25,4 @@ def current_date_time(self, value):
 ### 参照
 * クラス [`IPresentation`](/slides/python-net/ja/aspose.slides/ipresentation)
 * モジュール [`aspose.slides`](/slides/python-net/ja/aspose.slides)
-* ライブラリ [`Aspose.Slides`](/slides/python-net)
+* library [`Aspose.Slides`](/slides/python-net)

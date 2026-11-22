@@ -1,13 +1,14 @@
 ---
 title: remove_unused_layout_slides method
-second_title: Aspose.Slides voor Python via .NET API-referentie
+second_title: Aspose.Slides voor Python via .NET API Referentie
 description: 
 type: docs
 url: /nl/aspose.slides.lowcode/compress/remove_unused_layout_slides/
-weight: 20
+weight: 40
 ---
 ## remove_unused_layout_slides(pres) {#presentation}
-Maakt compressie van de [`Presentation`](/slides/python-net/nl/aspose.slides/presentation) door ongebruikte lay-outslides te verwijderen.
+Voert compressie uit van de [`Presentation`](/slides/python-net/nl/aspose.slides/presentation) door ongebruikte lay-outdia's te verwijderen.
+
 
 ```python
 @staticmethod
@@ -15,9 +16,12 @@ def remove_unused_layout_slides(pres):
     ...
 ```
 
+
 | Parameter | Type | Beschrijving |
 | :- | :- | :- |
-| pres | [`Presentation`](/slides/python-net/nl/aspose.slides/presentation) | De presentatie-instantie |
+| pres | [`Presentation`](/slides/python-net/nl/aspose.slides/presentation) | De presentatie-instance |
+
+
 
 ### Zie ook
 * klasse [`Compress`](/slides/python-net/nl/aspose.slides.lowcode/compress)

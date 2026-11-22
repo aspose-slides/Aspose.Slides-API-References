@@ -4,13 +4,13 @@ second_title: Aspose.Slides for Python via .NET API 參考文件
 description: 
 type: docs
 url: /zh-hant/aspose.slides.charts/ichartdatapoint/marker/
-weight: 180
+weight: 220
 ---
 ## 標記屬性
 指定資料標記。
-            唯讀 [`IMarker`](/slides/python-net/zh-hant/aspose.slides.charts/imarker)。
+            唯讀 [`IMarker`](/slides/python-net/zh-hant/aspose.slides.charts/imarker).
 
-### 定義：
+### 定義:
 ```python
 @property
 def marker(self):
